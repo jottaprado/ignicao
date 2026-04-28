@@ -165,7 +165,7 @@ Você concluiu a [[#FASE 5 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 5]] qu
 8. Você consegue responder, em uma frase, *por que o seu cliente-alvo trocaria a alternativa atual por você*.
 
 > [!warning] Se o item 8 não tem resposta, pare
-> Se você não consegue responder o item 8, ainda não tem diferencial claro. Volte ao Dossiê do Usuário e ao Mapa de Problemas.
+> Se você não consegue responder o item 8, ainda não tem diferencial claro. Volte ao Dossiê do Usuário (saída da [[#FASE 4 — PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY APROFUNDADO)|Fase 4]]) e ao Mapa de Problemas (saída da [[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]]).
 
 **Checklist final.**
 

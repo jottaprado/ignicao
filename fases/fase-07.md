@@ -308,6 +308,8 @@ Você concluiu a [[#FASE 7 — EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA|Fase 7]] 
 
 > [!important] Critério mais duro
 > Você conseguiu pelo menos uma das três coisas seguintes. Dez pagamentos antecipados reais. Vinte cartas de intenção de compra assinadas. Ou cem e-mails qualificados em uma landing page com conversão maior que quinze por cento. Se nenhum desses aconteceu, o problema pode existir, mas não é dolorido o suficiente para virar negócio. Reconsidere antes de construir.
+>
+> **Por que 15% e não os 5-10% dos benchmarks acima?** Os 5% (bom) e 10% (forte) descritos nos passos anteriores são benchmarks de **leitura de sinal** — indicam que a promessa ressoa o suficiente para continuar testando. Os 15% aqui são critério de **saída de fase** — exigem que o sinal seja inequívoco antes de você comprometer recursos para construir. Conversão entre 10% e 15% é zona ambígua: não invalida a tese, mas exige experimento adicional (preço diferente, segmento mais estreito, oferta mais específica) antes de avançar.
 
 **Checklist final.**
 

@@ -53,7 +53,7 @@ Stock do comprador (quando aplicável) são ações da empresa compradora (se p�
 
 Earnout é o valor contingente pago ao longo de doze a trinta e seis meses se metas forem atingidas. As metas típicas incluem revenue targets, EBITDA targets, retention de time-chave e integrações entregues. Earnout com metas agressivas que dependem de recursos do comprador pode ser impossível de atingir por fatores fora do controle do fundador.
 
-Retention ou continuidade é a compensação pelo fundador permanecer na empresa por período específico. Pode ser cash bonus, equity nova, RSUs do comprador ou mix, com vesting típico de dois a quatro anos pós-closing.
+Retention bonus (compensação por continuidade) é o pacote pago ao fundador pela **permanência** na empresa por período específico — distinto da palavra "retention" usada em outros contextos (retention period = tempo de permanência exigido; retention de talentos = manter time-chave durante a transição, mencionada como meta de earnout no item anterior). Aqui, retention bonus pode ser cash, equity nova, RSUs do comprador ou mix, com vesting típico de dois a quatro anos pós-closing.
 
 Clawback é a cláusula que permite ao comprador recuperar valor pago se o fundador violar termos (competir, quebrar NDA, má-fé). É normal, mas negociar escopo e condições.
 

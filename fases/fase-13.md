@@ -36,7 +36,7 @@ LTDA. Mais de um sócio. Mais flexível. Capital social declarado.
 S/A. Estrutura para captação robusta. Mais complexa. Obrigatória para IPO.
 
 > [!important] Para a maioria das startups iniciais, LTDA é o ponto ideal
-> S/A entra em cena quando há captações de venture capital significativas. Migrar de LTDA para S/A custa entre R$ 15 mil e R$ 40 mil em honorários jurídicos, mas é trivial — não vale antecipar a estrutura mais pesada.
+> S/A entra em cena quando há captações de venture capital significativas. Migrar de LTDA para S/A custa entre R$ 15 mil e R$ 40 mil em honorários jurídicos para conversão simples (alteração de tipo societário, sem reestruturação de cap table). Para migração no contexto de Série A com reestruturação societária completa (classes de ações, ESOP, drag/tag-along, holding), a faixa sobe para R$ 30 mil a R$ 100 mil — esta é a faixa documentada no [[#APÊNDICE W — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Apêndice W]] e se aplica ao cenário típico em que a migração efetivamente acontece. Em ambos os casos, é trivial — não vale antecipar a estrutura mais pesada.
 
 #### Passo 2, escolha o regime tributário
 

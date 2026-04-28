@@ -224,6 +224,9 @@ A razão pela qual startups entram no YC apostando em estar no início da fase 2
 
 ##### Por que pequenas diferenças de performance importam tanto, Superlinear Returns
 
+> [!note] Insight conceitual, não passo operacional
+> Esta sub-seção é insight de mentalidade — explica *por que* a métrica semanal acima importa tanto matematicamente. Não é checklist nem critério de saída de fase. Se você está rodando Fase 12 sob pressão de tempo, leia o callout de regra combinada ao final e volte aqui depois. O conteúdo serve para calibrar expectativa e priorização de longo prazo, não para diagnosticar PMF agora.
+
 Graham tem um ensaio mais recente, de 2023, *Superlinear Returns*, que explica por que a diferença entre cinco por cento por semana e sete por cento por semana não é quarenta por cento maior. E sim muitos múltiplos maior. E por que essa matemática domina a economia de startups de uma forma que fundadores de primeira viagem quase nunca interiorizam.
 
 A tese central. Em domínios onde há crescimento exponencial, ou thresholds (limiares a serem cruzados), pequenas diferenças de performance geram retornos radicalmente desproporcionais. Não é que "quem trabalha mais ganha mais". É que a função de recompensa é não-linear por natureza.

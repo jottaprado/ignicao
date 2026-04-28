@@ -32,6 +32,15 @@ Sete passos.
 
 Use o ICP refinado da [[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]]. Divida em dois ou três sub-segmentos. Por exemplo, donos que operam sozinhos versus donos que têm gerente. Você vai pesquisar cada sub-segmento separadamente, e comparar.
 
+> [!important] Critérios herdados da Fase 3
+> Os critérios validados na Fase 3 continuam valendo aqui e devem ser preservados:
+>
+> - **Pain Level**: priorize entrevistar pessoas em Pain Level 4 ou 5 (já improvisaram gambiarra ou têm orçamento comprometido). Quem está em Pain Level 1-2 dá conversa rica mas não é cliente potencial — gaste-os com moderação.
+> - **Frequência espontânea ≥50%**: o problema deve aparecer espontaneamente em pelo menos metade das conversas, sem você provocar. Se em Fase 4 o problema deixa de aparecer espontaneamente, é sinal de que o sub-segmento escolhido não é tão agudo quanto parecia em Fase 3.
+> - **Tentativas ativas ≥40%**: pelo menos 40% deve ter tentado resolver de alguma forma (ferramenta, gambiarra, contratação extra). Sem isso, dor não é dolorida o suficiente para gerar disposição a pagar.
+>
+> O Dossiê do Usuário (saída desta fase, v3 da Declaração) **estende** o Mapa de Problemas (saída da Fase 3, v2) — não substitui. O Mapa documenta *que* problemas existem; o Dossiê documenta *como* o usuário vive esses problemas em contexto, com personas, jornadas e JTBDs.
+
 #### Passo 2, escolha as técnicas de pesquisa apropriadas
 
 Quatro técnicas centrais.

@@ -73,7 +73,7 @@ Prazo total: três a seis semanas, do início ao primeiro dia.
 
 Salário de oitenta a noventa e cinco por cento do mercado, para cargo equivalente. Abaixo sinaliza startup. Perto do mercado reconhece o risco que está aceitando.
 
-Equity de zero vírgula cinco a cinco por cento, dependendo de perfil, senioridade, equity total disponível, e quanto a pessoa está assumindo de risco.
+Equity de zero vírgula cinco a cinco por cento, dependendo de perfil, senioridade, equity total disponível, e quanto a pessoa está assumindo de risco. Como conciliar com as faixas dos três perfis acima? Perfil A (ex-colega sênior trocando emprego estável) fica tipicamente em **um a cinco por cento**, com o topo da faixa reservado para o "primeiro funcionário VP-level" do tipo que vira C-level naturalmente. Perfil B (generalista de alto potencial) fica em **zero vírgula vinte e cinco a um por cento**. Perfil C (especialista para gargalo) fica em **zero vírgula cinco a dois por cento**, dependendo de quão crítico é o gargalo e quão fácil seria substituir a pessoa. A faixa ampla "zero vírgula cinco a cinco por cento" desta linha é a envoltória que cobre os três perfis — não significa que toda contratação fica entre 0,5% e 5%, mas sim que esse é o intervalo onde alguma das três combinações cabe.
 
 Vesting de quatro anos, com um ano de cliff. Padrão inegociável.
 

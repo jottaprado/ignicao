@@ -2025,7 +2025,13 @@ Não espere terminar tudo para analisar. A cada cinco entrevistas, faça uma sí
 
 #### Passo 8, chegue à saturação
 
-Saturação é o ponto em que entrevista nova deixa de trazer informação nova. Você sente isso. "Ah, é a mesma coisa que o anterior disse." Quando isso acontecer duas ou três vezes seguidas, você chegou. Pare.
+Saturação é o ponto em que entrevista nova deixa de trazer informação nova. Há dois testes complementares: um qualitativo (sentir) e um quantitativo (medir). Os dois apontam para o mesmo fenômeno; use ambos para reduzir auto-engano.
+
+**Teste qualitativo.** Você sente quando chegou. "Ah, é a mesma coisa que o anterior disse." Quando isso acontecer duas ou três vezes seguidas, você chegou.
+
+**Teste quantitativo.** Para cada nova entrevista, conte quantas observações realmente novas (problemas, vocabulário, padrões de comportamento, workarounds) ela trouxe versus repetições do que já apareceu antes. Quando o percentual de novidade fica abaixo de quinze por cento por três entrevistas seguidas, é saturação confirmada.
+
+Os dois critérios devem se confirmar mutuamente. Sentiu saturação mas o quantitativo ainda mostra trinta por cento de novidade? Você está sendo otimista — faça mais cinco. Quantitativo já abaixo de quinze por cento mas você ainda sente "tem coisa nova"? Provavelmente é gosto pelas conversas, não evidência. Pare.
 
 #### Passo 9, produza o Mapa de Problemas
 
@@ -2290,6 +2296,15 @@ Sete passos.
 #### Passo 1, selecione sub-grupos prioritários
 
 Use o ICP refinado da [[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]]. Divida em dois ou três sub-segmentos. Por exemplo, donos que operam sozinhos versus donos que têm gerente. Você vai pesquisar cada sub-segmento separadamente, e comparar.
+
+> [!important] Critérios herdados da Fase 3
+> Os critérios validados na Fase 3 continuam valendo aqui e devem ser preservados:
+>
+> - **Pain Level**: priorize entrevistar pessoas em Pain Level 4 ou 5 (já improvisaram gambiarra ou têm orçamento comprometido). Quem está em Pain Level 1-2 dá conversa rica mas não é cliente potencial — gaste-os com moderação.
+> - **Frequência espontânea ≥50%**: o problema deve aparecer espontaneamente em pelo menos metade das conversas, sem você provocar. Se em Fase 4 o problema deixa de aparecer espontaneamente, é sinal de que o sub-segmento escolhido não é tão agudo quanto parecia em Fase 3.
+> - **Tentativas ativas ≥40%**: pelo menos 40% deve ter tentado resolver de alguma forma (ferramenta, gambiarra, contratação extra). Sem isso, dor não é dolorida o suficiente para gerar disposição a pagar.
+>
+> O Dossiê do Usuário (saída desta fase, v3 da Declaração) **estende** o Mapa de Problemas (saída da Fase 3, v2) — não substitui. O Mapa documenta *que* problemas existem; o Dossiê documenta *como* o usuário vive esses problemas em contexto, com personas, jornadas e JTBDs.
 
 #### Passo 2, escolha as técnicas de pesquisa apropriadas
 
@@ -2810,7 +2825,7 @@ Você concluiu a [[#FASE 5 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 5]] qu
 8. Você consegue responder, em uma frase, *por que o seu cliente-alvo trocaria a alternativa atual por você*.
 
 > [!warning] Se o item 8 não tem resposta, pare
-> Se você não consegue responder o item 8, ainda não tem diferencial claro. Volte ao Dossiê do Usuário e ao Mapa de Problemas.
+> Se você não consegue responder o item 8, ainda não tem diferencial claro. Volte ao Dossiê do Usuário (saída da [[#FASE 4 — PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY APROFUNDADO)|Fase 4]]) e ao Mapa de Problemas (saída da [[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]]).
 
 **Checklist final.**
 
@@ -3913,6 +3928,8 @@ Você concluiu a [[#FASE 7 — EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA|Fase 7]] 
 
 > [!important] Critério mais duro
 > Você conseguiu pelo menos uma das três coisas seguintes. Dez pagamentos antecipados reais. Vinte cartas de intenção de compra assinadas. Ou cem e-mails qualificados em uma landing page com conversão maior que quinze por cento. Se nenhum desses aconteceu, o problema pode existir, mas não é dolorido o suficiente para virar negócio. Reconsidere antes de construir.
+>
+> **Por que 15% e não os 5-10% dos benchmarks acima?** Os 5% (bom) e 10% (forte) descritos nos passos anteriores são benchmarks de **leitura de sinal** — indicam que a promessa ressoa o suficiente para continuar testando. Os 15% aqui são critério de **saída de fase** — exigem que o sinal seja inequívoco antes de você comprometer recursos para construir. Conversão entre 10% e 15% é zona ambígua: não invalida a tese, mas exige experimento adicional (preço diferente, segmento mais estreito, oferta mais específica) antes de avançar.
 
 **Checklist final.**
 
@@ -5042,7 +5059,7 @@ Depois de oito a doze semanas, consolide sete itens. Métricas comparadas com cr
 
 Usuários ativos semanais (WAU), ou diários (DAU). Dependendo do produto.
 
-Retenção D30. Percentual de usuários que ativaram em T0, e continuam ativos trinta dias depois. Benchmark SaaS B2B: mais de quarenta por cento é bom. Mais de sessenta por cento é forte.
+Retenção D30. Percentual de usuários que ativaram em T0, e continuam ativos trinta dias depois. Benchmark SaaS B2B: mais de quarenta por cento é bom. Mais de sessenta por cento é forte. *(Por que D30 e não D90? A Fase 10 opera em janela de 8-12 semanas — D30 é o horizonte realista de medição. A [[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]], que entra depois de seis a doze meses de MVP, mede D90 e D180 porque já há tempo de coorte para isso. D30 do MVP e D90 do PMF não competem — são leituras do mesmo fenômeno em horizontes diferentes da operação.)* *(Por que D30 e não D90? A Fase 10 opera em janela de 8-12 semanas — D30 é o horizonte realista de medição. A [[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]], que entra depois de seis a doze meses de MVP, mede D90 e D180 porque já há tempo de coorte para isso. D30 do MVP e D90 do PMF não competem — são leituras do mesmo fenômeno em horizontes diferentes da operação.)*
 
 Conversão de trial para pago. Mais de quinze por cento é aceitável para SaaS. Mais de trinta por cento é forte.
 
@@ -5529,6 +5546,9 @@ Identifique a variável mais sensível. Aquela em que pequenas mudanças movem m
 Calcule em que mês (e com quanto de ARR) você atinge três marcos. Break-even operacional (receita igual aos custos operacionais). Break-even de caixa (a operação gera caixa sem depender de captação). Break-even acumulado (todo o capital captado está "pago" pela operação).
 
 ##### Cap table básico e modelagem de diluição
+
+> [!note] Esta seção é preview operacional para validação do modelo
+> A estruturação formal do cap table — vesting, classes de ações, drag-along/tag-along, contrato de sócios completo — é tema da [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]]. Aqui na Fase 11 o cap table aparece em versão simplificada porque é input direto da modelagem financeira: você precisa saber quantas ações cada sócio tem para projetar diluição em cenários de captação e calcular *runway efetivo após* novas rodadas. É a mesma ferramenta vista por dois ângulos — modelo (aqui) e instrumento jurídico (Fase 13).
 
 Desde a primeira captação, mantenha um cap table (tabela de capital) documentado. A maioria dos fundadores negligencia isso, e acorda em Série B descobrindo que detém vinte e cinco por cento de uma empresa que vai captar mais. Surpresa cara.
 
@@ -6106,6 +6126,9 @@ A razão pela qual startups entram no YC apostando em estar no início da fase 2
 
 ##### Por que pequenas diferenças de performance importam tanto, Superlinear Returns
 
+> [!note] Insight conceitual, não passo operacional
+> Esta sub-seção é insight de mentalidade — explica *por que* a métrica semanal acima importa tanto matematicamente. Não é checklist nem critério de saída de fase. Se você está rodando Fase 12 sob pressão de tempo, leia o callout de regra combinada ao final e volte aqui depois. O conteúdo serve para calibrar expectativa e priorização de longo prazo, não para diagnosticar PMF agora.
+
 Graham tem um ensaio mais recente, de 2023, *Superlinear Returns*, que explica por que a diferença entre cinco por cento por semana e sete por cento por semana não é quarenta por cento maior. E sim muitos múltiplos maior. E por que essa matemática domina a economia de startups de uma forma que fundadores de primeira viagem quase nunca interiorizam.
 
 A tese central. Em domínios onde há crescimento exponencial, ou thresholds (limiares a serem cruzados), pequenas diferenças de performance geram retornos radicalmente desproporcionais. Não é que "quem trabalha mais ganha mais". É que a função de recompensa é não-linear por natureza.
@@ -6478,7 +6501,7 @@ LTDA. Mais de um sócio. Mais flexível. Capital social declarado.
 S/A. Estrutura para captação robusta. Mais complexa. Obrigatória para IPO.
 
 > [!important] Para a maioria das startups iniciais, LTDA é o ponto ideal
-> S/A entra em cena quando há captações de venture capital significativas. Migrar de LTDA para S/A custa entre R$ 15 mil e R$ 40 mil em honorários jurídicos, mas é trivial — não vale antecipar a estrutura mais pesada.
+> S/A entra em cena quando há captações de venture capital significativas. Migrar de LTDA para S/A custa entre R$ 15 mil e R$ 40 mil em honorários jurídicos para conversão simples (alteração de tipo societário, sem reestruturação de cap table). Para migração no contexto de Série A com reestruturação societária completa (classes de ações, ESOP, drag/tag-along, holding), a faixa sobe para R$ 30 mil a R$ 100 mil — esta é a faixa documentada no [[#APÊNDICE W — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Apêndice W]] e se aplica ao cenário típico em que a migração efetivamente acontece. Em ambos os casos, é trivial — não vale antecipar a estrutura mais pesada.
 
 #### Passo 2, escolha o regime tributário
 
@@ -6792,7 +6815,7 @@ Prazo total: três a seis semanas, do início ao primeiro dia.
 
 Salário de oitenta a noventa e cinco por cento do mercado, para cargo equivalente. Abaixo sinaliza startup. Perto do mercado reconhece o risco que está aceitando.
 
-Equity de zero vírgula cinco a cinco por cento, dependendo de perfil, senioridade, equity total disponível, e quanto a pessoa está assumindo de risco.
+Equity de zero vírgula cinco a cinco por cento, dependendo de perfil, senioridade, equity total disponível, e quanto a pessoa está assumindo de risco. Como conciliar com as faixas dos três perfis acima? Perfil A (ex-colega sênior trocando emprego estável) fica tipicamente em **um a cinco por cento**, com o topo da faixa reservado para o "primeiro funcionário VP-level" do tipo que vira C-level naturalmente. Perfil B (generalista de alto potencial) fica em **zero vírgula vinte e cinco a um por cento**. Perfil C (especialista para gargalo) fica em **zero vírgula cinco a dois por cento**, dependendo de quão crítico é o gargalo e quão fácil seria substituir a pessoa. A faixa ampla "zero vírgula cinco a cinco por cento" desta linha é a envoltória que cobre os três perfis — não significa que toda contratação fica entre 0,5% e 5%, mas sim que esse é o intervalo onde alguma das três combinações cabe.
 
 Vesting de quatro anos, com um ano de cliff. Padrão inegociável.
 
@@ -22209,7 +22232,7 @@ Stock do comprador (quando aplicável) são ações da empresa compradora (se p�
 
 Earnout é o valor contingente pago ao longo de doze a trinta e seis meses se metas forem atingidas. As metas típicas incluem revenue targets, EBITDA targets, retention de time-chave e integrações entregues. Earnout com metas agressivas que dependem de recursos do comprador pode ser impossível de atingir por fatores fora do controle do fundador.
 
-Retention ou continuidade é a compensação pelo fundador permanecer na empresa por período específico. Pode ser cash bonus, equity nova, RSUs do comprador ou mix, com vesting típico de dois a quatro anos pós-closing.
+Retention bonus (compensação por continuidade) é o pacote pago ao fundador pela **permanência** na empresa por período específico — distinto da palavra "retention" usada em outros contextos (retention period = tempo de permanência exigido; retention de talentos = manter time-chave durante a transição, mencionada como meta de earnout no item anterior). Aqui, retention bonus pode ser cash, equity nova, RSUs do comprador ou mix, com vesting típico de dois a quatro anos pós-closing.
 
 Clawback é a cláusula que permite ao comprador recuperar valor pago se o fundador violar termos (competir, quebrar NDA, má-fé). É normal, mas negociar escopo e condições.
 

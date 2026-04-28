@@ -171,6 +171,9 @@ Calcule em que mês (e com quanto de ARR) você atinge três marcos. Break-even 
 
 ##### Cap table básico e modelagem de diluição
 
+> [!note] Esta seção é preview operacional para validação do modelo
+> A estruturação formal do cap table — vesting, classes de ações, drag-along/tag-along, contrato de sócios completo — é tema da [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]]. Aqui na Fase 11 o cap table aparece em versão simplificada porque é input direto da modelagem financeira: você precisa saber quantas ações cada sócio tem para projetar diluição em cenários de captação e calcular *runway efetivo após* novas rodadas. É a mesma ferramenta vista por dois ângulos — modelo (aqui) e instrumento jurídico (Fase 13).
+
 Desde a primeira captação, mantenha um cap table (tabela de capital) documentado. A maioria dos fundadores negligencia isso, e acorda em Série B descobrindo que detém vinte e cinco por cento de uma empresa que vai captar mais. Surpresa cara.
 
 A estrutura mínima do cap table:

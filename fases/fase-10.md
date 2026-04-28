@@ -267,7 +267,7 @@ Depois de oito a doze semanas, consolide sete itens. Métricas comparadas com cr
 
 Usuários ativos semanais (WAU), ou diários (DAU). Dependendo do produto.
 
-Retenção D30. Percentual de usuários que ativaram em T0, e continuam ativos trinta dias depois. Benchmark SaaS B2B: mais de quarenta por cento é bom. Mais de sessenta por cento é forte.
+Retenção D30. Percentual de usuários que ativaram em T0, e continuam ativos trinta dias depois. Benchmark SaaS B2B: mais de quarenta por cento é bom. Mais de sessenta por cento é forte. *(Por que D30 e não D90? A Fase 10 opera em janela de 8-12 semanas — D30 é o horizonte realista de medição. A [[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]], que entra depois de seis a doze meses de MVP, mede D90 e D180 porque já há tempo de coorte para isso. D30 do MVP e D90 do PMF não competem — são leituras do mesmo fenômeno em horizontes diferentes da operação.)*
 
 Conversão de trial para pago. Mais de quinze por cento é aceitável para SaaS. Mais de trinta por cento é forte.
 
