@@ -142,6 +142,8 @@ Ativação nos primeiros noventa dias passa por treinamento inicial, certificaç
 
 A regra do setenta-vinte aplica-se com fidelidade. Setenta a oitenta por cento da receita vem de vinte por cento dos parceiros. Não distribuir esforço igualmente. Channel Account Managers cobrem top parceiros com cadência semanal, tier intermediário mensalmente, long tail via portal self-serve.
 
+Para gerenciar o pipeline de parcerias mês a mês, use a [[#APÊNDICE A — TEMPLATES PRONTOS PARA USO|Matriz de Parcerias (Template A.13)]]: documento único com cinco a quinze parcerias em movimento, status por estágio (prospecção / discovery / POC / contrato / ativa / encerrada), métricas de sucesso 90 dias, sponsors dos dois lados e próximo passo com data. Parcerias em standby há dois ou mais trimestres devem ser encerradas formalmente ou reativadas — não deixar zumbis no pipeline.
+
 Reciclagem é parte do programa saudável. Parceiros que não faturam em doze meses entram em conversa difícil, plano ou descontinuação. Programas saudáveis têm taxa de parceiros ativos acima de sessenta por cento. Quinhentos registrados e cinquenta ativos é vaidade.
 
 #### Contexto brasileiro

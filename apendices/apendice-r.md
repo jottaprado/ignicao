@@ -49,7 +49,7 @@ Founder Mode é claramente mais aplicável a CEO-fundador, que a CEO profissiona
 
 Ambos são válidos em contextos diferentes. A arte é saber onde, quando, e quanto, de cada.
 
-Entregável. Mapa de Modos. Documento de duas páginas que declara explicitamente em quais áreas o fundador opera em Founder Mode, em quais em Manager Mode, e quais são os gatilhos para transição.
+Entregável. Mapa de Modos. Documento de duas páginas que declara explicitamente em quais áreas o fundador opera em Founder Mode, em quais em Manager Mode, e quais são os gatilhos para transição. Template pronto para preencher: [[#APÊNDICE A — TEMPLATES PRONTOS PARA USO|A.16]].
 
 ### POR QUE
 

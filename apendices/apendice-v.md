@@ -67,7 +67,10 @@ Captação de equity é um processo (não evento), que envolve quatro frentes.
 3. Fechamento. Negociação de term sheet, due diligence, e documentação legal.
 4. Relacionamento pós-rodada. Comunicação, governança, e preparação da próxima rodada.
 
-Entregáveis tangíveis. Pitch Deck (doze a quinze slides), estruturado, e adaptável ao público. Modelo Financeiro (planilha), com unit economics, projeção três a cinco anos, e cenários. Data Room (pasta estruturada em Google Drive, Notion, ou plataforma dedicada), com documentos organizados. Investor Update mensal, ou bimestral (documento recorrente). Lista de Investidores-Alvo, com prioridade, status, e pontos de contato.
+Entregáveis tangíveis. Pitch Deck (doze a quinze slides), estruturado, e adaptável ao público — esqueleto SCQA pronto em [[#APÊNDICE A — TEMPLATES PRONTOS PARA USO|A.17]]. Modelo Financeiro (planilha), com unit economics, projeção três a cinco anos, e cenários. Data Room (pasta estruturada em Google Drive, Notion, ou plataforma dedicada), com documentos organizados. Investor Update mensal, ou bimestral (documento recorrente) — template em [[#APÊNDICE A — TEMPLATES PRONTOS PARA USO|A.18]]. Lista de Investidores-Alvo, com prioridade, status, e pontos de contato.
+
+> [!note] Contexto operacional
+> Captação não acontece no vácuo. A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] é onde a empresa transita de PMF para máquina, e cobre todas as frentes simultâneas (time, operações, crescimento e capital) em que a captação é uma decisão. O [[#APÊNDICE CF — PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO|Apêndice CF]] trata o fundraising como projeto com cronograma e milestones próprios. O [[#APÊNDICE CS — BOOTSTRAP vs VENTURE CAPITAL: A ESCOLHA FUNDACIONAL|Apêndice CS]] trata a decisão anterior — captar equity ou não.
 
 ### POR QUE
 

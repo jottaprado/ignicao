@@ -475,7 +475,7 @@ Imaginação. Tipo específico de inteligência. Não é velocidade para resolve
 
 Naughtiness. Talvez o termo mais difícil de traduzir. É disposição a quebrar regras que não importam. Não é malícia moral. É leve irreverência. Não é transgredir por transgredir. É não se curvar a regras por respeito à autoridade quando elas não fazem sentido. Sam Altman (Loopt, hoje OpenAI) é o exemplo canônico citado por Graham. Por isso o YC passou a perguntar em entrevistas: conte uma vez em que você hackeou um sistema a seu favor. Não no sentido de invadir computador. No sentido de contornar regras sem substância. Teste: em algum momento do último ano, você desobedeceu uma regra formal porque ela era obviamente burra, e isso deu certo?
 
-Amizade entre cofundadores. Não coleguismo cordial nem parceria profissional. Relação verdadeira, de respeito, que sobrevive ao desacordo forte. Graham observa que startups quebram mais por disputas societárias do que por falha de produto, e a diferença está aqui. Cofundadores que são amigos genuínos antes de serem sócios sobrevivem a conflito, resolvem diferenças sem destruir a relação. Cofundadores que são arranjos estratégicos fragmentam sob pressão. Teste: você pegaria cinco dias de férias junto com o seu cofundador? Se hesitou, cuidado.
+Amizade entre cofundadores. Não coleguismo cordial nem parceria profissional. Relação verdadeira, de respeito, que sobrevive ao desacordo forte. Graham observa que startups quebram mais por disputas societárias do que por falha de produto, e a diferença está aqui. Cofundadores que são amigos genuínos antes de serem sócios sobrevivem a conflito, resolvem diferenças sem destruir a relação. Cofundadores que são arranjos estratégicos fragmentam sob pressão. Teste: você pegaria cinco dias de férias junto com o seu cofundador? Se hesitou, cuidado. Para o cenário que você espera não acontecer — disputa, divórcio societário, saída forçada — o [[#APÊNDICE BP — DISPUTA SOCIETÁRIA E SAÍDA DE SÓCIO|Apêndice BP]] cobre prevenção, mediação e mecânica jurídica de saída.
 
 Se você pontua baixo em três ou mais desses cinco, vale pensar seriamente se este é o momento certo para empreender, ou se algum trabalho pessoal antes pode aumentar a sua probabilidade de sucesso. Os atributos são parcialmente treináveis. Não são destino.
 
@@ -705,7 +705,7 @@ Confie, mas documente. Amigos viram desconhecidos quando dinheiro entra. Documen
 
 **Se você for empreender solo, conscientemente.**
 
-É possível. Mas você precisa substituir o que um cofundador forneceria por mecanismos alternativos. Compense a falta de técnica contratando CTO-as-a-service ou agência de confiança para o MVP. Depois contrate head técnico em tempo cheio antes do PMF. Compense a falta de comercial contratando mentor de vendas ou sales advisor com equity pequeno. Participe de aceleradoras que oferecem conexões de cliente e investidor. Compense a falta de domínio rodeando-se de advisors do setor com reuniões mensais formais. E tenha disciplina extra para não tomar decisões sozinho no vácuo. Busque ativamente quem discorde antes de decisões grandes.
+É possível. Mas você precisa substituir o que um cofundador forneceria por mecanismos alternativos. Compense a falta de técnica contratando CTO-as-a-service ou agência de confiança para o MVP. Depois contrate head técnico em tempo cheio antes do PMF. Compense a falta de comercial contratando mentor de vendas ou sales advisor com equity pequeno. Participe de aceleradoras que oferecem conexões de cliente e investidor — o [[#APÊNDICE AK — ACELERADORAS, PROGRAMAS E PARCEIROS INSTITUCIONAIS PARA STARTUP BRASILEIRA|Apêndice AK]] mapeia programas brasileiros e internacionais por estágio. Compense a falta de domínio rodeando-se de advisors do setor com reuniões mensais formais. E tenha disciplina extra para não tomar decisões sozinho no vácuo. Busque ativamente quem discorde antes de decisões grandes. Use IA generativa como amplificador cognitivo no dia a dia ([[#APÊNDICE CT — IA COMO CO-PILOTO DO FUNDADOR (2026)|Apêndice CT]] cobre workflows de IA para escrita, pesquisa e análise do empreendedor).
 
 ### SAÍDA DESTA FASE
 
@@ -4779,6 +4779,8 @@ Vamos.
 
 > [!tip] Stack mínimo da Fase 10
 > O stack tech do MVP depende muito do produto. Mas a regra é uma: escolher o stack que o time atual consegue manter, não o mais sexy. Para web: frontend (React, Next.js, Vue, ou Svelte se o time tem). Backend (Node.js, Python e Django, Ruby on Rails — comuns e com comunidade brasileira grande). Banco (Postgres, via managed service como Supabase, Neon, ou RDS). Para mobile: React Native ou Flutter (cross-platform), versus nativo (iOS Swift, Android Kotlin) só quando é justificado. Infra: AWS, GCP, ou Azure tradicional. Alternativas mais simples: Vercel (frontend), Railway, Render (fullstack rápido). Autenticação: Auth0, Clerk, Supabase Auth. Pagamento: Stripe (internacional), Asaas ou Pagar.me (Brasil). Regra crítica: usar serviço gerenciado em tudo que não é o seu diferencial. Gastar três meses montando Kubernetes em equipe pequena, em vez de usar Vercel ou Render, é erro típico.
+>
+> Para produtos dev-tools, infraestrutura ou SaaS técnica: o [[#APÊNDICE BE — OPEN SOURCE COMO ESTRATÉGIA|Apêndice BE]] cobre open source como motor de aquisição (product-led growth via comunidade) e como modelo de negócio (open core, dual licensing, COSS), incluindo casos de empresas que escalaram com essa estratégia.
 
 A arquitetura típica de MVP, com decisões conscientes sobre simplicidade:
 
@@ -6505,7 +6507,7 @@ xychart-beta
 > Nos primeiros 12 meses (o cliff), nada vesta. No mês 13, 25% consolida de uma vez. Dos meses 13 a 48, o restante vesta mensalmente (~2,08% ao mês). Se o fundador sai antes de 12 meses, não leva nada. Se sai no mês 30, leva 50% da participação acordada. Isso protege a empresa de cofundadores que saem cedo mas mantêm participação grande.
 
 > [!warning] Conflito entre sócios é a segunda maior causa de morte de startups no mundo
-> Não pule o acordo. Casais que se separam sem contrato pré-nupcial passam por divórcio. Sócios que se separam sem acordo passam por anos de litígio.
+> Não pule o acordo. Casais que se separam sem contrato pré-nupcial passam por divórcio. Sócios que se separam sem acordo passam por anos de litígio. O [[#APÊNDICE BP — DISPUTA SOCIETÁRIA E SAÍDA DE SÓCIO|Apêndice BP]] cobre prevenção (cláusulas que evitam o conflito), mediação (quando o conflito chega) e mecânica jurídica de saída forçada.
 
 ##### Contrato com clientes
 
@@ -6712,7 +6714,7 @@ A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] é o
 
 A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] tem três frentes simultâneas. Cada uma com lógica própria, mas inseparáveis na prática. Você não "termina time" antes de começar "operações". As três evoluem em paralelo. Esse capítulo trata as três em subseções ordenadas por intuição operacional. Mas na vida real, elas rodam juntas.
 
-A frente Time e Liderança em Escala. Do primeiro funcionário além do fundador até a organização com dezenas, ou centenas, de pessoas. Primeiras lideranças. Estrutura hierárquica. Cultura declarada. Performance reviews. Compensação equitativa. DEI. Remote, e híbrido. Desenvolvimento de carreira. Promoção. Saída.
+A frente Time e Liderança em Escala. Do primeiro funcionário além do fundador até a organização com dezenas, ou centenas, de pessoas. Primeiras lideranças. Estrutura hierárquica. Cultura declarada. Performance reviews. Compensação equitativa. DEI (ver [[#APÊNDICE BU — DIVERSIDADE, EQUIDADE E INCLUSÃO (DEI) EM STARTUP BRASILEIRA|Apêndice BU]]). Remote, e híbrido (ver [[#APÊNDICE AG — REMOTE, HYBRID E DISTRIBUÍDO COMO DISCIPLINA|Apêndice AG]]). Desenvolvimento de carreira. Promoção. Saída.
 
 A frente Operações, Processos e Gestão em Escala. A disciplina operacional de fazer a máquina andar. OKRs. Cadência de gestão. Tooling. Métricas operacionais. Financeiro em escala. Produto como função organizacional. Engineering management em escala.
 
@@ -7452,6 +7454,9 @@ Lean Analytics (Croll e Yoskovitz, 2013). Métricas por estágio, mais modelo de
 ### Transição, da Operação ao Crescimento
 
 Com time estruturado, e operação rodando, o crescimento deixa de ser subproduto, para virar motor independente. Growth vira engenharia previsível. Capital externo entra como alavanca. Expansão geográfica e de produto viram opções concretas. A frente Crescimento e Capital trata do crescimento como função organizacional. E do capital que sustenta essa função.
+
+> [!tip] Capital: equity, dívida ou bootstrap
+> A escolha entre venture capital institucional, financiamento alternativo e bootstrap não é técnica — é fundacional. O [[#APÊNDICE CS — BOOTSTRAP vs VENTURE CAPITAL: A ESCOLHA FUNDACIONAL|Apêndice CS]] trata essa decisão. Empresas com economics fortes desde cedo podem optar por bootstrap (controle, velocidade própria, sem dilution); empresas que precisam ganhar mercado rápido escolhem VC (escala, mas com expectativa de crescimento ≥3x e exit). Marca pessoal do fundador, cada vez mais relevante como canal de aquisição e credibilidade pós-PMF, é tratada no [[#APÊNDICE CY — MARCA PESSOAL DO FUNDADOR: DISTRIBUIÇÃO, AUTORIDADE E CUSTO DE REPUTAÇÃO|Apêndice CY]].
 
 ---
 
@@ -12839,7 +12844,10 @@ Captação de equity é um processo (não evento), que envolve quatro frentes.
 3. Fechamento. Negociação de term sheet, due diligence, e documentação legal.
 4. Relacionamento pós-rodada. Comunicação, governança, e preparação da próxima rodada.
 
-Entregáveis tangíveis. Pitch Deck (doze a quinze slides), estruturado, e adaptável ao público. Modelo Financeiro (planilha), com unit economics, projeção três a cinco anos, e cenários. Data Room (pasta estruturada em Google Drive, Notion, ou plataforma dedicada), com documentos organizados. Investor Update mensal, ou bimestral (documento recorrente). Lista de Investidores-Alvo, com prioridade, status, e pontos de contato.
+Entregáveis tangíveis. Pitch Deck (doze a quinze slides), estruturado, e adaptável ao público — esqueleto SCQA pronto em [[#APÊNDICE A — TEMPLATES PRONTOS PARA USO|A.17]]. Modelo Financeiro (planilha), com unit economics, projeção três a cinco anos, e cenários. Data Room (pasta estruturada em Google Drive, Notion, ou plataforma dedicada), com documentos organizados. Investor Update mensal, ou bimestral (documento recorrente) — template em [[#APÊNDICE A — TEMPLATES PRONTOS PARA USO|A.18]]. Lista de Investidores-Alvo, com prioridade, status, e pontos de contato.
+
+> [!note] Contexto operacional
+> Captação não acontece no vácuo. A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] é onde a empresa transita de PMF para máquina, e cobre todas as frentes simultâneas (time, operações, crescimento e capital) em que a captação é uma decisão. O [[#APÊNDICE CF — PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO|Apêndice CF]] trata o fundraising como projeto com cronograma e milestones próprios. O [[#APÊNDICE CS — BOOTSTRAP vs VENTURE CAPITAL: A ESCOLHA FUNDACIONAL|Apêndice CS]] trata a decisão anterior — captar equity ou não.
 
 ### POR QUE
 
@@ -15848,7 +15856,7 @@ Founder Mode é claramente mais aplicável a CEO-fundador, que a CEO profissiona
 
 Ambos são válidos em contextos diferentes. A arte é saber onde, quando, e quanto, de cada.
 
-Entregável. Mapa de Modos. Documento de duas páginas que declara explicitamente em quais áreas o fundador opera em Founder Mode, em quais em Manager Mode, e quais são os gatilhos para transição.
+Entregável. Mapa de Modos. Documento de duas páginas que declara explicitamente em quais áreas o fundador opera em Founder Mode, em quais em Manager Mode, e quais são os gatilhos para transição. Template pronto para preencher: [[#APÊNDICE A — TEMPLATES PRONTOS PARA USO|A.16]].
 
 ### POR QUE
 
@@ -20907,6 +20915,8 @@ O perfil ideal de parceiro é quem já vende produto adjacente para o mesmo ICP,
 Ativação nos primeiros noventa dias passa por treinamento inicial, certificação, primeiro lead compartilhado em co-venda e primeira venda fechada. Depois disso, o parceiro é real.
 
 A regra do setenta-vinte aplica-se com fidelidade. Setenta a oitenta por cento da receita vem de vinte por cento dos parceiros. Não distribuir esforço igualmente. Channel Account Managers cobrem top parceiros com cadência semanal, tier intermediário mensalmente, long tail via portal self-serve.
+
+Para gerenciar o pipeline de parcerias mês a mês, use a [[#APÊNDICE A — TEMPLATES PRONTOS PARA USO|Matriz de Parcerias (Template A.13)]]: documento único com cinco a quinze parcerias em movimento, status por estágio (prospecção / discovery / POC / contrato / ativa / encerrada), métricas de sucesso 90 dias, sponsors dos dois lados e próximo passo com data. Parcerias em standby há dois ou mais trimestres devem ser encerradas formalmente ou reativadas — não deixar zumbis no pipeline.
 
 Reciclagem é parte do programa saudável. Parceiros que não faturam em doze meses entram em conversa difícil, plano ou descontinuação. Programas saudáveis têm taxa de parceiros ativos acima de sessenta por cento. Quinhentos registrados e cinquenta ativos é vaidade.
 

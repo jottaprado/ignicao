@@ -11,7 +11,7 @@ A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] é o
 
 A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] tem três frentes simultâneas. Cada uma com lógica própria, mas inseparáveis na prática. Você não "termina time" antes de começar "operações". As três evoluem em paralelo. Esse capítulo trata as três em subseções ordenadas por intuição operacional. Mas na vida real, elas rodam juntas.
 
-A frente Time e Liderança em Escala. Do primeiro funcionário além do fundador até a organização com dezenas, ou centenas, de pessoas. Primeiras lideranças. Estrutura hierárquica. Cultura declarada. Performance reviews. Compensação equitativa. DEI. Remote, e híbrido. Desenvolvimento de carreira. Promoção. Saída.
+A frente Time e Liderança em Escala. Do primeiro funcionário além do fundador até a organização com dezenas, ou centenas, de pessoas. Primeiras lideranças. Estrutura hierárquica. Cultura declarada. Performance reviews. Compensação equitativa. DEI (ver [[#APÊNDICE BU — DIVERSIDADE, EQUIDADE E INCLUSÃO (DEI) EM STARTUP BRASILEIRA|Apêndice BU]]). Remote, e híbrido (ver [[#APÊNDICE AG — REMOTE, HYBRID E DISTRIBUÍDO COMO DISCIPLINA|Apêndice AG]]). Desenvolvimento de carreira. Promoção. Saída.
 
 A frente Operações, Processos e Gestão em Escala. A disciplina operacional de fazer a máquina andar. OKRs. Cadência de gestão. Tooling. Métricas operacionais. Financeiro em escala. Produto como função organizacional. Engineering management em escala.
 
@@ -751,6 +751,9 @@ Lean Analytics (Croll e Yoskovitz, 2013). Métricas por estágio, mais modelo de
 ### Transição, da Operação ao Crescimento
 
 Com time estruturado, e operação rodando, o crescimento deixa de ser subproduto, para virar motor independente. Growth vira engenharia previsível. Capital externo entra como alavanca. Expansão geográfica e de produto viram opções concretas. A frente Crescimento e Capital trata do crescimento como função organizacional. E do capital que sustenta essa função.
+
+> [!tip] Capital: equity, dívida ou bootstrap
+> A escolha entre venture capital institucional, financiamento alternativo e bootstrap não é técnica — é fundacional. O [[#APÊNDICE CS — BOOTSTRAP vs VENTURE CAPITAL: A ESCOLHA FUNDACIONAL|Apêndice CS]] trata essa decisão. Empresas com economics fortes desde cedo podem optar por bootstrap (controle, velocidade própria, sem dilution); empresas que precisam ganhar mercado rápido escolhem VC (escala, mas com expectativa de crescimento ≥3x e exit). Marca pessoal do fundador, cada vez mais relevante como canal de aquisição e credibilidade pós-PMF, é tratada no [[#APÊNDICE CY — MARCA PESSOAL DO FUNDADOR: DISTRIBUIÇÃO, AUTORIDADE E CUSTO DE REPUTAÇÃO|Apêndice CY]].
 
 ---
 
