@@ -35307,17 +35307,17 @@ Graham mesmo indica: se tivesse que escolher uma das treze, seria a quarta (ente
 > Esse apêndice reúne todos os templates operacionais referenciados ao longo do livro. Cada template tem indicação da fase ou apêndice de origem. Copie, adapte ao seu contexto e preencha. Templates são ponto de partida, não camisa-de-força. Se o formato não funcionar para o seu negócio, modifique. O que importa é o raciocínio que o template força, não a forma exata.
 
 > [!important] Família discovery — A.2, A.27, A.28, A.29 e A.30
-> Cinco dos templates deste apêndice formam um conjunto coerente de artefatos de discovery, cada um para um tipo distinto de conversa. Confundi-los é o erro clássico que o IGNIÇÃO denuncia: tratar opinião de especialista como evidência de cliente, ou conselho de advisor como dado de mercado. Use o template certo para o tipo certo.
->
-> | Template | Use quando… | NÃO use quando… |
-> |---|---|---|
-> | **A.2 — Entrevista de Problema** | Está validando se um problema existe, com que frequência, e quão doloroso é, na vida de um cliente potencial. [[#FASE 3 — DESCOBERTA DO PROBLEMA\|Fase 3]]. | Já tem produto e quer validar solução. Está buscando opinião de quem não sofre o problema. |
-> | **A.27 — Conversa com Especialista de Mercado** | Quer mapear setor, dinâmicas competitivas, pontos cegos, tendências regulatórias. A pessoa conhece o mercado — não necessariamente é cliente dele. | Quer saber se *o cliente* tem dor. Especialista opina; cliente prova com comportamento. |
-> | **A.28 — Conversa com Advisor** | Tem decisão específica em cima da mesa e quer conselho tático/estratégico de alguém com experiência relevante. | Ainda está explorando. Advisor é para refinar decisão, não para descobrir o problema. |
-> | **A.29 — JTBD Switch Interview** | A pessoa **trocou** de solução (deixou um concorrente, largou um processo manual, migrou de ferramenta). Foco no momento da troca, com as 4 forças de Moesta. | A pessoa nunca trocou de nada — não há "switch" para investigar. Use A.2. |
-> | **A.30 — Consolidação de Rodada** | Rodou 15-30 entrevistas e precisa sintetizar o agregado para decidir avanço de fase: perseverar, pivotar problema, pivotar cliente ou abandonar. | Ainda está no meio da coleta. Consolidar cedo vicia a análise — espere a rodada fechar. |
->
-> **Regra de ouro.** Apenas A.2 e A.29 geram evidência de comportamento de cliente. A.27 e A.28 informam como construir, não se há mercado. A.30 é quem decide avanço de fase — nenhuma entrevista individual decide sozinha.
+> Cinco dos templates deste apêndice formam um conjunto coerente de artefatos de discovery, cada um para um tipo distinto de conversa. Confundi-los é o erro clássico que o IGNIÇÃO denuncia: tratar opinião de especialista como evidência de cliente, ou conselho de advisor como dado de mercado. Use o template certo para o tipo certo. A tabela e a regra de ouro abaixo guiam a escolha.
+
+| Template | Use quando… | NÃO use quando… |
+|---|---|---|
+| **A.2 — Entrevista de Problema** | Está validando se um problema existe, com que frequência, e quão doloroso é, na vida de um cliente potencial. [[#FASE 3 — DESCOBERTA DO PROBLEMA\|Fase 3]]. | Já tem produto e quer validar solução. Está buscando opinião de quem não sofre o problema. |
+| **A.27 — Conversa com Especialista de Mercado** | Quer mapear setor, dinâmicas competitivas, pontos cegos, tendências regulatórias. A pessoa conhece o mercado — não necessariamente é cliente dele. | Quer saber se *o cliente* tem dor. Especialista opina; cliente prova com comportamento. |
+| **A.28 — Conversa com Advisor** | Tem decisão específica em cima da mesa e quer conselho tático/estratégico de alguém com experiência relevante. | Ainda está explorando. Advisor é para refinar decisão, não para descobrir o problema. |
+| **A.29 — JTBD Switch Interview** | A pessoa **trocou** de solução (deixou um concorrente, largou um processo manual, migrou de ferramenta). Foco no momento da troca, com as 4 forças de Moesta. | A pessoa nunca trocou de nada — não há "switch" para investigar. Use A.2. |
+| **A.30 — Consolidação de Rodada** | Rodou 15-30 entrevistas e precisa sintetizar o agregado para decidir avanço de fase: perseverar, pivotar problema, pivotar cliente ou abandonar. | Ainda está no meio da coleta. Consolidar cedo vicia a análise — espere a rodada fechar. |
+
+**Regra de ouro.** Apenas A.2 e A.29 geram evidência de comportamento de cliente. A.27 e A.28 informam como construir, não se há mercado. A.30 é quem decide avanço de fase — nenhuma entrevista individual decide sozinha.
 
 ### A.1 Declaração Inicial da Ideia (Fase 2)
 
