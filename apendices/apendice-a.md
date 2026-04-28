@@ -8,6 +8,19 @@ appendix: "A"
 > [!note] Como usar
 > Esse apêndice reúne todos os templates operacionais referenciados ao longo do livro. Cada template tem indicação da fase ou apêndice de origem. Copie, adapte ao seu contexto e preencha. Templates são ponto de partida, não camisa-de-força. Se o formato não funcionar para o seu negócio, modifique. O que importa é o raciocínio que o template força, não a forma exata.
 
+> [!important] Família discovery — A.2, A.27, A.28, A.29 e A.30
+> Cinco dos templates deste apêndice formam um conjunto coerente de artefatos de discovery, cada um para um tipo distinto de conversa. Confundi-los é o erro clássico que o IGNIÇÃO denuncia: tratar opinião de especialista como evidência de cliente, ou conselho de advisor como dado de mercado. Use o template certo para o tipo certo.
+>
+> | Template | Use quando… | NÃO use quando… |
+> |---|---|---|
+> | **A.2 — Entrevista de Problema** | Está validando se um problema existe, com que frequência, e quão doloroso é, na vida de um cliente potencial. [[#FASE 3 — DESCOBERTA DO PROBLEMA\|Fase 3]]. | Já tem produto e quer validar solução. Está buscando opinião de quem não sofre o problema. |
+> | **A.27 — Conversa com Especialista de Mercado** | Quer mapear setor, dinâmicas competitivas, pontos cegos, tendências regulatórias. A pessoa conhece o mercado — não necessariamente é cliente dele. | Quer saber se *o cliente* tem dor. Especialista opina; cliente prova com comportamento. |
+> | **A.28 — Conversa com Advisor** | Tem decisão específica em cima da mesa e quer conselho tático/estratégico de alguém com experiência relevante. | Ainda está explorando. Advisor é para refinar decisão, não para descobrir o problema. |
+> | **A.29 — JTBD Switch Interview** | A pessoa **trocou** de solução (deixou um concorrente, largou um processo manual, migrou de ferramenta). Foco no momento da troca, com as 4 forças de Moesta. | A pessoa nunca trocou de nada — não há "switch" para investigar. Use A.2. |
+> | **A.30 — Consolidação de Rodada** | Rodou 15-30 entrevistas e precisa sintetizar o agregado para decidir avanço de fase: perseverar, pivotar problema, pivotar cliente ou abandonar. | Ainda está no meio da coleta. Consolidar cedo vicia a análise — espere a rodada fechar. |
+>
+> **Regra de ouro.** Apenas A.2 e A.29 geram evidência de comportamento de cliente. A.27 e A.28 informam como construir, não se há mercado. A.30 é quem decide avanço de fase — nenhuma entrevista individual decide sozinha.
+
 ### A.1 Declaração Inicial da Ideia (Fase 2)
 
 ```
@@ -37,46 +50,268 @@ ___________________________________________
 ...
 ```
 
-### A.2 Roteiro de Entrevista de Problema (Fase 3)
+### A.2 Entrevista de Problema (Fase 3)
 
-```
-ROTEIRO, ENTREVISTA DE PROBLEMA
-Duração: 30-45 min
+> [!important] Disciplina central
+> Nesta entrevista você **não fala da sua solução**. Você escuta. No momento em que apresenta a ideia, o entrevistado reage à ideia em vez de descrever a realidade dele — e você perde a evidência limpa.
 
-[Aquecimento, 2 min]
-Oi, obrigado pelo tempo. Esta é uma pesquisa, não uma venda. Posso gravar?
+Este template tem duas partes. A **Parte A** é o roteiro para consultar *durante* a conversa (deixe aberto na tela ou imprima). A **Parte B** é a síntese para preencher *depois* — idealmente nas 24h seguintes, enquanto a memória está fresca. As duas formam um único artefato: roteiro sem síntese vira entrevista perdida; síntese sem roteiro vira interpretação livre. Use as duas em todas as entrevistas da rodada.
 
-[Contexto, 5 min]
+#### Parte A — Roteiro da Entrevista (uso durante a conversa)
+
+**Duração alvo:** 30-45 min · **Balanço de fala:** o entrevistado fala a maior parte do tempo. Se você se pegar falando mais que ele em qualquer trecho de 5 minutos, volte a fazer perguntas abertas.
+
+**Abertura (2 min)**
+
+> "Oi, obrigado pelo tempo. Antes de começar: não estou aqui pra te vender nada. Estou pesquisando como [público-alvo] lidam com [área ampla], porque quero entender se existe um problema real antes de construir qualquer coisa. Vou fazer perguntas abertas, sem respostas certas. Posso gravar pra transcrever depois? A gravação fica privada."
+
+**Contexto (5 min)**
+
 - Me conta um pouco sobre o que você faz no dia a dia.
-- Quanto tempo você está nesse papel/nessa empresa?
+- Quanto tempo você está nesse papel / nessa empresa?
+- Quem mais na sua rotina está envolvido em [área ampla]?
 
-[Exploração, 10 min]
-- Me descreve como funciona a rotina quando [atividade relacionada].
+**Exploração (10 min) — *ainda sem falar da sua solução***
+
+- Me descreve como funciona a rotina quando [atividade relacionada ao problema].
 - Quais são as partes mais chatas dessa rotina?
 - Me conta a última vez que algo deu errado nisso.
 
-[Aprofundamento, 10 min]
-Para cada problema mencionado:
+**Aprofundamento por problema mencionado (10-15 min)**
+
+Para cada problema que a pessoa citar espontaneamente:
+
 - Me fala mais sobre isso.
 - Quando foi a última vez que aconteceu?
 - O que você fez?
-- Quanto tempo/dinheiro isso custou?
+- Quanto tempo / dinheiro isso custou?
+- O que acontece se você simplesmente **não** resolver? *(mapeia escalação)*
 
-[Tentativas de solução, 5 min]
-- O que você já tentou para resolver?
-- Funcionou?
-- Por que parou? / Por que continua usando?
+**Tentativas de solução (5 min)**
 
-[Encerramento, 3 min]
+- O que você já tentou pra resolver?
+- Funcionou? Por que parou ou continua usando?
+- **Já gastou dinheiro (ferramenta, consultor, pessoa extra) pra resolver isso?**
+- Quanto? Por quanto tempo?
+
+**Encerramento (3 min)**
+
 - Tem mais alguém que passa por isso e que eu poderia conversar?
-- Posso voltar se eu tiver mais perguntas?
+- Posso voltar se surgirem mais perguntas?
+- Topa ver um protótipo em 30-60 dias e dar sua opinião?
 
-NÃO PERGUNTAR:
-× Você pagaria X?
-× Se existisse Y, você usaria?
-× Acha que isso seria útil?
-× Eu tive uma ideia, o que você acha?
-```
+**NÃO PERGUNTAR (lista de proibições)**
+
+- "Você pagaria R$X por isso?"
+- "Se existisse Y, você usaria?"
+- "Você acha que isso seria útil?"
+- "Eu tive uma ideia, o que você acha?"
+- "Você não acharia melhor se…?"
+- Qualquer pergunta que comece com hipótese sua a ser validada pelo entrevistado.
+
+#### Parte B — Síntese Pós-Entrevista
+
+##### Metadados
+
+| Campo | Valor |
+|---|---|
+| **ID** | `ENTR-[AAAA-MM-DD]-[##]` |
+| **Data e hora** | `[DD/MM/AAAA — HH:MM]` |
+| **Duração real** | `[min]` |
+| **Formato** | `[ ] Remoto  [ ] Presencial` |
+| **Gravação (com consentimento)** | `[link ou "não gravada"]` |
+| **Transcrição** | `[link]` |
+| **Entrevistador** | `[Nome]` |
+| **Anotador (se houver)** | `[Nome]` |
+| **Relação com a hipótese** | `[ID da hipótese em teste, se formal]` |
+
+##### Perfil do Entrevistado e Aderência ao ICP
+
+| Campo | Valor |
+|---|---|
+| **Nome** | `[...]` |
+| **Papel / cargo** | `[...]` |
+| **Empresa / contexto** | `[...]` |
+| **Porte do negócio** | `[nº funcionários / faturamento / estágio — seja específico]` |
+| **Localização** | `[cidade / estado / país]` |
+| **Fonte do contato** | `[rede pessoal / LinkedIn / indicação / cold outreach]` |
+| **Vínculo pessoal com o entrevistador?** | `[ ] Não  [ ] Sim` — *se sim: atenção a viés de cortesia nas respostas.* |
+| **Aderente ao ICP hipotético?** | `[ ] Sim  [ ] Parcial  [ ] Não` |
+
+> *Se "Não", a entrevista vale como aprendizado mas **não conta** para o denominador de validação (regra da [[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]]).*
+
+##### 1. Contexto e rotina
+
+> *Não pergunte sobre o problema ainda. Deixe a pessoa descrever o mundo dela. Pergunte sobre rotina, responsabilidades, ferramentas, periodicidade. Aqui você calibra o universo onde o problema vive.*
+
+**Descrição geral.** `[Descreva em prosa o que a pessoa faz. Use as palavras dela. 3-5 linhas.]`
+
+**Processo atual mapeado em fases.** *Se o problema investigado tem a forma de um processo ou workflow (recrutamento, compra, onboarding, fechamento, reconciliação, etc.), documente em fases numeradas. Isso ancora onde cada dor acontece — a mesma pessoa pode ter dor forte na Fase 2 e nenhuma na Fase 5. Sem esse mapa, você registra "dor em recrutamento" quando na verdade é "dor em triagem inicial", que é outro problema.*
+
+- **Fase 1 — `[nome curto]`:** `[o que acontece, quem faz, com que ferramenta, quanto tempo leva]`
+- **Fase 2 — `[nome curto]`:** `[...]`
+- **Fase 3 — `[nome curto]`:** `[...]`
+- **Fase 4 — `[nome curto]`:** `[...]`
+
+*(adicione ou remova fases conforme o caso)*
+
+**Ferramentas e stack atual.**
+
+- `[ferramenta — para que usa]`
+- `[...]`
+
+##### 2. Problemas mencionados (o que foi dito — não o que você interpretou)
+
+> *Para cada problema que emergiu na conversa, preencha um bloco. **Crítico:** documente apenas o que o entrevistado disse espontaneamente ou em resposta a pergunta aberta. Problemas que você "provocou" com pergunta tendenciosa valem zero.*
+
+**Problema A — `[título curto, nas palavras do entrevistado se possível]`**
+
+- **Descrição literal:** `[...]`
+- **Era esperado ou inesperado?** `[ ] Esperado (ligado à hipótese em teste)  [ ] Inesperado (surgiu e não estávamos procurando — pode ser o ouro do discovery)`
+- **Em qual fase do processo ocorre?** `[Fase 1 / Fase 2 / transversal / fora do processo mapeado]`
+- **Menção foi espontânea ou provocada?** `[ ] Espontânea  [ ] Provocada por pergunta aberta  [ ] Provocada por pergunta tendenciosa (descartar)`
+- **Frequência observável:** `[diária / semanal / mensal / esporádica]`
+- **Última ocorrência (comportamento passado):** `[quando? o que aconteceu?]`
+- **Custo atual (tempo / dinheiro / energia):** `[número ou descrição concreta]`
+- **Emoção observada:** `[exemplo: frustração, resignação, vergonha, medo — use a palavra que cabe]`
+- **Tentativas anteriores de resolver:** `[o que já tentou? funcionou? por que parou ou continuou?]`
+- **Já gastou dinheiro para resolver?** `[ ] Não  [ ] Sim — quanto? em que? por quanto tempo?]` — *sinal operacional mais limpo de dor. Dinheiro já gasto > promessa de pagar.*
+- **Escalação — o que piora se NÃO resolver?** `[perde cliente / perde contrato / multa / perde emprego / nada concreto]` — *separa urgência real de incômodo crônico.*
+
+**Problema B — `[...]`** `[bloco com mesma estrutura do Problema A]`
+
+**Problema C — `[...]`** `[bloco com mesma estrutura do Problema A]`
+
+##### 3. Verbatim (citações literais)
+
+> *Transcreva exatamente o que a pessoa falou, entre aspas. Mínimo 3 citações marcantes. Verbatim é ouro — serve de evidência em deck interno, no pitch, no roadmap.*
+
+1. > *"[citação literal]"* — sobre `[Problema A]`
+2. > *"[citação literal]"* — sobre `[Problema B]`
+3. > *"[citação literal]"* — sobre `[tema]`
+4. > *"[citação literal]"* — sobre `[tema]`
+
+##### 4. Vocabulário do cliente
+
+> *Anote as palavras e expressões **exatas** que a pessoa usou para descrever o problema, a rotina e as soluções atuais. Não parafraseie. Esse vocabulário vai direto para o marketing, para a landing page e para o roteiro de vendas depois — se você usa a linguagem do cliente, ele se reconhece; se você usa a sua, ele ignora.*
+
+| Como a pessoa chama | Contexto em que usou |
+|---|---|
+| `[palavra / expressão exata]` | `[o que ela estava descrevendo]` |
+| `[...]` | `[...]` |
+| `[...]` | `[...]` |
+
+**Termos que ela *não* usou e que nós estávamos prontos a usar:** `[...]` — *se a pessoa não usa a nossa palavra, provavelmente estamos falando a linguagem errada.*
+
+##### 5. Hierarquia de sinais coletados
+
+> *Classifique a evidência desta entrevista pelo tipo de sinal. **Esta tabela é o filtro central do Mom Test:** só os três primeiros tipos movem decisão — os três últimos enganam.*
+
+| Sinal | Peso | O que veio nesta entrevista? |
+|---|---|---|
+| **Comportamento passado** ("semana passada gastei 4h nisso") | Alto | `[...]` |
+| **Tentativas anteriores de solução** ("usei X, Y e Z, nada resolveu") | Alto | `[...]` |
+| **Métricas de custo** (tempo, dinheiro, energia já gastos) | Alto | `[...]` |
+| **Ideias soltas** ("seria legal se tivesse X") | Baixo-médio | `[...]` |
+| **Hipóteses futuras** ("eu pagaria por isso") | Baixo | `[...]` — *não usar para decisão* |
+| **Elogios** ("que ideia legal!") | Zero | `[...]` — *descartar* |
+
+##### 6. Classificação de Pain Level
+
+> *Atribua **um único nível** ao entrevistado. Padrão de Pain Level 4+ em volume (tipicamente ≥5 entrevistas) é o que move a tese; uma entrevista isolada em nível 3 não descarta a investigação, só ainda não confirma.*
+
+- [ ] **Nível 1** — Tem o problema, mas não sabe que tem.
+- [ ] **Nível 2** — Sabe que tem, mas tolera. Não vai pagar sozinho.
+- [ ] **Nível 3** — Está ativamente procurando solução. Lead quente.
+- [ ] **Nível 4** — Já improvisou gambiarra (planilha Frankenstein, processo manual, ferramenta adaptada). Forte evidência de que pagaria.
+- [ ] **Nível 5** — Tem orçamento comprometido ou facilmente acessível para comprar solução. Cliente ideal.
+
+> *Nível 5 se verifica por **sinal indireto**, nunca por pergunta direta sobre disposição a pagar (que é armadilha e está na lista de proibições da Parte A). Pistas válidas: a pessoa mencionou espontaneamente valor já gasto, contratação de alguém para resolver, mensalidade paga em ferramenta análoga, verba carimbada no orçamento do ano.*
+
+**Justificativa da classificação:** `[1-2 linhas com a evidência direta — não interpretação — que sustenta a nota.]`
+
+##### 7. Observações do entrevistador
+
+> *Separadas dos fatos. Use itálico. Aqui entram sua leitura da linguagem corporal, tom, nível de energia e suspeitas. Fatos acima; interpretação aqui.*
+
+*`[...]`*
+
+*`[...]`*
+
+##### 8. Armadilhas — autoavaliação pós-entrevista
+
+> *Esta seção verifica se as proibições da Parte A foram respeitadas. Marque honestamente o que aconteceu.*
+
+- [ ] Cheguei a apresentar minha solução em algum momento? — *se sim, dados após esse ponto devem ser lidos com ceticismo.*
+- [ ] Fiz pergunta tendenciosa tipo "você não acharia melhor se…"?
+- [ ] Fiz pergunta hipotética sobre o futuro ("você usaria X?", "pagaria Y?")?
+- [ ] Em algum trecho de 5 min, falei mais que o entrevistado?
+- [ ] Filtrei o que ouvi para confirmar tese que eu já tinha?
+- [ ] Tratei uma fala apaixonada como equivalente a um padrão de 10 entrevistas?
+
+> *Cada marca acima contamina parte da evidência. Anote **quais achados ficam sob suspeita** em função dessas contaminações:* `[...]`
+
+##### 9. Refinamento do ICP
+
+> *ICP não muda a cada entrevista — muda quando padrão aparece em 5-10 conversas. Esta seção registra sinais individuais que, acumulados com os de outras entrevistas, podem mover o recorte. Exemplo: a hipótese original do iFood era "redes grandes"; entrevistas acumuladas refinaram para "restaurantes pequenos sem telemarketing".*
+
+**Sub-segmento mais agudo observado nesta entrevista.** *Dentro do perfil entrevistado, o que parece correlacionado com sofrer mais? Porte? Setor? Senioridade? Estágio? Tempo no cargo? Stack? Volume? Anote o recorte que se destacou.*
+
+`[Ex: "padarias com 3+ lojas sentem; com 1-2 não" — ou — "só operadores que fazem a reconciliação manualmente, não quem tem financeiro dedicado"]`
+
+**Esta entrevista sugere algum refino de ICP?**
+
+- [ ] **Estreitou** — ICP ficou mais específico. Novo recorte: `[...]`
+- [ ] **Ampliou** — ICP precisa incluir um perfil que não tínhamos mapeado: `[...]`
+- [ ] **Mudou de direção** — perfil entrevistado era hipótese, mas a dor real aparece em outro lugar: `[...]`
+- [ ] **Confirmou** — ICP atual permanece. Esta entrevista não muda o recorte.
+
+##### 10. Indicações (snowball)
+
+- **Outras pessoas que passam por isso e que podemos conversar:** `[nome — contato — por que foi indicado]`
+- **Posso voltar para nova conversa?** `[ ] Sim  [ ] Não`
+- **Topa ver um protótipo em 30-60 dias?** `[ ] Sim  [ ] Não`
+
+##### 11. Decisão pós-entrevista individual
+
+> *Uma única entrevista não decide nada — mas cada entrevista move a agulha. Marque para onde ela moveu.*
+
+- [ ] **Reforça** a hipótese de problema em teste
+- [ ] **Enfraquece** a hipótese
+- [ ] **Ambígua** — precisa de mais dados
+- [ ] **Falso positivo identificado** (pessoa disse que tem o problema mas o comportamento refuta)
+
+**Justificativa (2-3 linhas):** `[...]`
+
+##### 12. Próximos passos de investigação
+
+> *Distintos de "ações internas de produto". Aqui registramos **perguntas novas que esta entrevista gerou** e que informam a próxima entrevista, uma pesquisa desk, ou um dado a buscar externamente. É o espírito iterativo do discovery: cada conversa afina a próxima.*
+
+**Perguntas a incluir em próximas entrevistas.**
+
+- `[...]`
+- `[...]`
+
+**Dados a buscar externamente (pesquisa desk, benchmark, números de mercado).**
+
+- `[...]`
+- `[...]`
+
+**Perfis diferentes a entrevistar para cruzar padrões.** *"Esta dor é padrão no setor ou é específica desta empresa? Preciso falar com alguém de porte X ou região Y para comparar."*
+
+- `[...]`
+
+##### Anexos
+
+- Gravação: `[link]`
+- Transcrição: `[link]`
+- Artefatos compartilhados pelo entrevistado (prints, planilhas): `[link]`
+- Entrevistas relacionadas: `[ENTR-..., ENTR-...]`
+
+*Preenchido por `[Nome]` em `[DD/MM/AAAA]`.*
+
+> [!tip] Consolidação da rodada
+> Cada entrevista preenchida pela Parte B é uma linha do agregado. A decisão de avanço de fase não sai daqui — sai do **A.30 (Consolidação de Rodada)**, que cruza Pain Level, padrões, workarounds e vocabulário das 15-30 entrevistas para decidir perseverar, pivotar problema, pivotar cliente ou abandonar.
 
 ### A.3 Banco de Hipóteses — modelo de planilha (Fase 6)
 
@@ -1050,5 +1285,956 @@ Horizontal (jornada): cliente *Descobre* → *Seleciona loja* → *Escolhe produ
 
 **Insight do exemplo:** OKRs boas são *mensuráveis* (números específicos), *desafiadoras* (se você atinge 100%, provavelmente foram fáceis demais, atingir 70% é sucesso), e *alinhadas* entre si (neste caso, retenção melhor viabiliza programa de indicação, ambos viabilizam canal sustentável). Três objetivos é o máximo recomendado por ciclo, mais que isso dilui foco.
 
+---
+
+### A.27 Conversa com Especialista de Mercado (mapa de setor · Fases 3-5)
+
+> [!important] Disciplina central
+> Aqui você **quer opinião** — é legítimo. Mas opinião de especialista é hipótese a testar, não evidência de cliente. O erro é tratar "o especialista disse X" como validação. A especialista conhece o mercado; quem prova o mercado é o cliente com a carteira.
+
+Use quando precisa mapear setor, dinâmicas competitivas, pontos cegos e tendências regulatórias — a pessoa conhece o mercado, não necessariamente é cliente dele. Não use para saber se *o cliente* tem dor; para isso o instrumento é A.2. Como o A.2, este template tem Parte A (roteiro durante) e Parte B (síntese pós-conversa, idealmente em 24h).
+
+#### Parte A — Roteiro da Conversa (uso durante)
+
+**Duração alvo:** 45-60 min · **Balanço de fala:** o especialista fala mais que você, mas aqui é legítimo intervir para confrontar e pedir exemplos específicos.
+
+**Abertura (3 min)**
+
+> "Obrigado pelo tempo. Estou pesquisando [setor/dinâmica] porque estou construindo uma tese sobre [resumo em uma frase]. Quero muito ouvir onde você acha que estou errado, quais sinais eu não estou vendo e que anti-cases você já viu. Posso gravar?"
+
+**Calibração (5 min)**
+
+- Há quanto tempo você está nesse setor?
+- Em quais posições você viu a dinâmica de perto?
+- O que mudou no setor nos últimos 3 anos?
+
+**Mapa do setor (10 min)**
+
+- Quem são os players relevantes hoje, e por que cada um ainda existe?
+- Qual é a dinâmica competitiva dominante — preço, tecnologia, canal, rede, regulação?
+- Que ciclos e sazonalidades afetam o setor?
+
+**Confronto à nossa tese (15-20 min — seção mais valiosa).** *Esta é a seção mais importante. Se a pessoa só elogia, você perdeu a conversa.*
+
+- Nossa hipótese é [X]. **Onde você acha que está mais fraca?**
+- Que premissas dessa tese são não-triviais — o que teria que ser verdade pra ela funcionar?
+- Você já viu alguém tentar algo parecido? O que aconteceu?
+- Se isso fosse fácil, por que ninguém fez ainda?
+
+**Especificidades de contexto (5 min)**
+
+- Que particularidades regulatórias / tributárias / culturais do Brasil mudam essa tese?
+- Como funciona o capital nesse setor no Brasil?
+
+**Pontos cegos e redes (5 min)**
+
+- O que eu ainda não perguntei e deveria?
+- Outras pessoas com quem eu deveria conversar?
+- Leituras / relatórios que você recomendaria?
+
+**Encerramento (2 min)**
+
+- Posso voltar com dúvidas?
+- Topa receber o resumo do que aprendi em 48h?
+
+**NÃO CONFUNDIR**
+
+- Opinião informada ≠ dado de cliente. Anotar como opinião, não como validação.
+- Elogio à tese é ruído — se não houve pushback, a conversa foi incompleta.
+- "Eu sempre vi assim" ≠ "isso se aplica ao seu caso". Heurística do veterano precisa de fit específico.
+
+#### Parte B — Síntese Pós-Conversa
+
+##### Metadados
+
+| Campo | Valor |
+|---|---|
+| **ID** | `ESP-[AAAA-MM-DD]-[##]` |
+| **Data e hora** | `[DD/MM/AAAA]` |
+| **Duração** | `[min]` |
+| **Formato** | `[ ] Remoto  [ ] Presencial` |
+| **Entrevistador(es)** | `[Nome]` |
+| **Gravação / transcrição** | `[link]` |
+| **Conflito de interesse?** | `[ ] Nenhum  [ ] Consultor pago  [ ] Investidor no setor  [ ] Trabalha em concorrente  [ ] Outro]` — *descrever* |
+
+##### Perfil do Especialista
+
+| Campo | Valor |
+|---|---|
+| **Nome** | `[...]` |
+| **Posição atual / papel** | `[...]` |
+| **Tempo na área** | `[...]` |
+| **Credenciais relevantes** | `[empresas onde atuou, publicações, deals, etc.]` |
+| **Recorte de expertise** | `[técnico / comercial / regulatório / financeiro / operacional]` |
+| **Por que esta pessoa?** | `[1-2 linhas sobre a adequação dela à pergunta em aberto]` |
+
+##### 1. Objetivo da conversa
+
+**Qual hipótese de mercado estamos testando?** `[...]`
+
+**O que precisamos sair sabendo?**
+
+- `[...]`
+- `[...]`
+- `[...]`
+
+**O que já presumíamos e queríamos ver se ela confirma ou refuta?**
+
+- `[...]`
+- `[...]`
+
+##### 2. Mapa do setor (na visão dela)
+
+**Players relevantes e como se posicionam.**
+
+| Player | Posicionamento | Vantagens | Fraquezas |
+|---|---|---|---|
+| `[...]` | `[...]` | `[...]` | `[...]` |
+
+**Dinâmica competitiva dominante hoje.** `[preço? tecnologia? canal? marca? rede? regulatório?]`
+
+**Tendências relevantes (3-5 anos).**
+
+- `[...]`
+- `[...]`
+
+**Ciclos e sazonalidades do setor.** `[...]`
+
+##### 3. Onde o especialista acha que estamos errados
+
+> *Esta é a seção mais valiosa. Pergunte explicitamente: "onde você acha que nossa tese está mais fraca?" Se a pessoa só elogia, você perdeu a conversa.*
+
+- **Fragilidade apontada 1:** `[...]`
+- **Fragilidade apontada 2:** `[...]`
+- **Fragilidade apontada 3:** `[...]`
+
+**Anti-cases mencionados (onde tese parecida já falhou).**
+
+| Empresa / caso | O que tentou | Por que quebrou |
+|---|---|---|
+| `[...]` | `[...]` | `[...]` |
+
+##### 4. "What would have to be true" para a nossa tese
+
+> *Pergunta enquadradora útil em conversa com especialista: "para essa tese dar certo, o que teria que ser verdade sobre o mercado, cliente, regulação, tecnologia?"*
+
+Premissas que a pessoa identificou como *críticas e não-triviais*:
+
+1. `[premissa — e por que é não-trivial]`
+2. `[...]`
+3. `[...]`
+
+##### 5. Especificidades contextuais (Brasil, setor, regulatório)
+
+> *Especialistas brasileiros valem muito por capturar o que livro importado ignora: tributação real, ciclo de capital local, cultura de negócio, governo.*
+
+- **Regulatório / tributário:** `[...]`
+- **Canais dominantes no Brasil:** `[...]`
+- **Dinâmica de capital / investidores relevantes:** `[...]`
+- **Relação com governo / compras públicas (se aplicável):** `[...]`
+- **Padrões culturais que afetam adoção:** `[...]`
+
+##### 6. Hierarquia de sinais da conversa
+
+> *Especialista mistura cinco tipos de afirmação em qualquer conversa — e elas **não têm o mesmo peso**. Classificar o que ouvimos força leitura crítica pós-conversa. Quanto mais alto na tabela, mais peso na decisão.*
+
+| Tipo de sinal | Peso | O que veio nesta conversa? |
+|---|---|---|
+| **Dado verificável** (estatística, relatório, regulação, fonte pública nomeada) | Alto | `[...]` |
+| **Caso pessoal vivido** (ela mesma operou, decidiu, observou de perto — com detalhe específico) | Alto | `[...]` |
+| **Opinião informada** (tese construída com base em padrão repetido observado, mas sem dado formal) | Médio | `[...]` |
+| **Intuição de veterano** ("tenho a sensação de que…", reconhecimento de padrão sem articulação clara) | Baixo-médio | `[...]` — *tratar como hipótese a testar* |
+| **Heurística genérica** ("eu sempre acho que…", máxima aplicada sem fit específico ao nosso caso) | Baixo | `[...]` — *descartar para decisão* |
+
+**Fatos verificáveis a checar depois.** *Listar aqui especificamente o que cai na primeira linha — porque tem que ir para a fila de verificação.*
+
+| Afirmação | Fonte sugerida | Responsável | Prazo |
+|---|---|---|---|
+| `[...]` | `[link / órgão / relatório]` | `[Nome]` | `[DD/MM]` |
+
+##### 7. Pontos cegos identificados
+
+> *"Coisas que eu não sabia que não sabia." Catalogue aqui temas que só apareceram porque a pessoa levantou.*
+
+- `[...]`
+- `[...]`
+
+##### 8. Vocabulário setorial
+
+> *Especialistas dominam o jargão do setor. Capturar como a tribo realmente se expressa vale para marketing, pitch a investidor e conversa com próximo especialista.*
+
+| Termo / expressão | O que significa na prática do setor |
+|---|---|
+| `[termo exato]` | `[...]` |
+| `[...]` | `[...]` |
+
+##### 9. Citações marcantes
+
+> *Não com o mesmo peso da Entrevista de Problema, mas guardar frases bem articuladas do especialista ajuda a reutilizar em deck e memorando interno.*
+
+1. > *"[citação]"*
+2. > *"[citação]"*
+
+##### 10. Armadilhas — autoavaliação pós-conversa
+
+> *Marque honestamente o que aconteceu. Cada item contamina parte da evidência coletada.*
+
+- [ ] Tratei elogio à tese como validação?
+- [ ] Aceitei "eu sempre vi assim" sem pedir caso específico?
+- [ ] Confundi opinião informada com dado verificável?
+- [ ] Deixei passar contradição entre o que ela disse agora e o que disse antes?
+- [ ] Não pedi pushback explícito — só ouvi concordância?
+- [ ] Entrei na conversa sem tese clara a confrontar, e saí com "muitas perspectivas" em vez de direção?
+
+**Achados sob suspeita em função dessas contaminações:** `[...]`
+
+##### 11. Referências, leituras e redes
+
+- **Livros / papers / relatórios indicados:** `[...]`
+- **Outras pessoas que deveríamos conversar:** `[nome — por quê — se topa fazer intro]`
+- **Eventos / comunidades relevantes:** `[...]`
+
+##### 12. Ações internas pós-conversa
+
+**Hipóteses que mudaram.**
+
+- `[hipótese X — como mudou]`
+
+**Hipóteses novas geradas.**
+
+- `[...]`
+
+**Outras ações.**
+
+| Ação | Responsável | Prazo |
+|---|---|---|
+| `[...]` | `[Nome]` | `[DD/MM]` |
+
+**Follow-up com a pessoa.**
+
+- [ ] Agradecer e compartilhar resumo (dentro de 48h)
+- [ ] Compartilhar material prometido: `[...]`
+- [ ] Convidar para conversa futura em: `[gatilho / data]`
+- [ ] Avaliar como advisor formal? `[ ] Sim  [ ] Não`
+
+##### 13. Próximos passos de investigação
+
+> *Perguntas novas que esta conversa gerou. Especialistas tipicamente abrem mais frentes do que fecham — registre as frentes abertas para não perder o fio.*
+
+**Perguntas a explorar com outros especialistas.** `[...]`
+
+**Dados a buscar externamente.** `[...]`
+
+**Hipóteses de mercado a testar com cliente (entrevista de problema A.2).** `[...]`
+
+*Preenchido por `[Nome]` em `[DD/MM/AAAA]`.*
+
+---
+
+### A.28 Conversa com Advisor (decisão específica · tradeoffs)
+
+> [!important] Disciplina central
+> Advisor é para **refinar decisão que já está em cima da mesa**, não para descobrir o problema. Se você não consegue nomear a decisão em uma frase, você não está pronto para essa conversa — volte para A.2 (entrevista de problema) ou A.27 (especialista). Pareamento natural com o [[#APÊNDICE AL — REDE, MENTORES E ADVISORS — COMO CONSTRUIR O CAPITAL HUMANO DO EMPREENDEDOR|Apêndice AL]], que cobre como construir e formalizar a relação com advisors. Este template é o que se usa **dentro** da conversa, depois que o advisor já está no jogo.
+
+#### Parte A — Roteiro da Conversa (uso durante)
+
+**Duração alvo:** 60-90 min · **Balanço de fala:** advisor fala bastante, mas você conduz — prepare a pauta e volte a ela quando a conversa derivar.
+
+**Abertura (3 min)**
+
+> "Obrigado pelo tempo. A decisão que temos em cima da mesa é [frase única]. As opções são [A, B, C]. Meu objetivo nessa conversa é ouvir como você veria o problema, que contra-argumentos você enxerga, e que casos parecidos você já viu. Posso gravar para o time ouvir depois?"
+
+**Contexto (5 min)**
+
+- Apresentar em 3 minutos: onde estamos, a decisão, o que tentamos, o que já descartamos e por quê.
+- Confirmar que a pessoa teve acesso ao material prévio, ou resumir o que ela não viu.
+
+**Reenquadramento (10 min — antes de pedir recomendação).** *Frequentemente o valor do advisor está em reformular a pergunta, não em responder a que você trouxe.*
+
+- Do jeito que eu descrevi, a decisão parece a decisão certa a tomar? Ou você formularia diferente?
+- Que pergunta anterior a essa nós ainda não respondemos?
+
+**Recomendação e raciocínio (15 min)**
+
+- Qual é sua recomendação? (Forçar decisão binária: A, B ou C, não "depende".)
+- Qual é a convicção — alta, média, baixa?
+- Me leva pelo raciocínio — o que te fez chegar aí?
+
+**Objeções e condições de reversão (10 min).** *Advisor bom lista o que pode dar errado com a própria recomendação. Se não ouviu objeção nenhuma, pergunte explicitamente.*
+
+- Se você estivesse no nosso lugar, o que te faria mudar de ideia?
+- Em que condições essa recomendação deixaria de valer?
+- Já viu essa recomendação dar errado? Quando?
+
+**Casos análogos (10 min)**
+
+- Você já viu empresa parecida tomar decisão parecida? O que rolou?
+- Onde o caso que você está citando **não** se aplica ao nosso?
+
+**Riscos e pontos cegos (5 min)**
+
+- Que riscos nós não estamos pesando?
+- Que riscos você acha que estamos superdimensionando?
+
+**Encerramento (3 min)**
+
+- O que você faria nos próximos 30 dias se fosse nós?
+- Topa reportar o resultado dessa decisão em [prazo]?
+
+**NÃO FAZER**
+
+- Pedir recomendação sem apresentar o problema com rigor — vira conversa de opinião genérica.
+- Engolir a recomendação sem confronto — advisor não decide por você.
+- Confundir "já vi isso" com "isso se aplica aqui".
+- Tratar heurística pessoal ("eu sempre fiz X") como lei do setor.
+
+#### Parte B — Síntese Pós-Conversa
+
+##### Metadados
+
+| Campo | Valor |
+|---|---|
+| **ID** | `ADV-[AAAA-MM-DD]-[##]` |
+| **Data e hora** | `[DD/MM/AAAA]` |
+| **Duração** | `[min]` |
+| **Formato** | `[ ] Remoto  [ ] Presencial` |
+| **Participantes internos** | `[Nome(s)]` |
+| **Gravação / notas compartilhadas** | `[link]` |
+| **Tipo de relação** | `[ ] Board member  [ ] Advisor formal com equity  [ ] Advisor informal  [ ] Consultor remunerado  [ ] Mentor pontual]` |
+| **Remuneração / contrato** | `[equity %, fee, pro bono, etc.]` |
+| **Conflitos de interesse conhecidos** | `[...]` |
+
+##### Perfil do Advisor
+
+| Campo | Valor |
+|---|---|
+| **Nome** | `[...]` |
+| **Trajetória curta** | `[2-3 linhas sobre empresas, papéis, resultados relevantes]` |
+| **Por que esta pessoa para esta decisão?** | `[fit específico — experiência prévia, rede, especialidade]` |
+| **Já tomou decisão parecida?** | `[ ] Sim — detalhe  [ ] Análoga  [ ] Não, mas observou de perto]` |
+
+##### 1. Decisão em pauta
+
+**A decisão, em uma frase.** *Teste: se você não consegue enquadrar em uma frase com verbo claro, a conversa vai para todo lado. Volte e afie antes.*
+
+`[Ex: "Devemos levantar Series A agora com US$ 8M em termos X, ou esperar 9 meses com mais tração?"]`
+
+**Janela de decisão.**
+
+- **Prazo que temos para decidir:** `[...]`
+- **Custo de adiar:** `[...]`
+- **Reversibilidade:** `[ ] Reversível  [ ] Parcialmente reversível  [ ] Irreversível]`
+
+**Opções em cima da mesa.**
+
+| Opção | Descrição curta | Quem defende internamente |
+|---|---|---|
+| A | `[...]` | `[...]` |
+| B | `[...]` | `[...]` |
+| C (status quo) | `[...]` | `[...]` |
+
+##### 2. Contexto compartilhado antes da conversa
+
+> *O advisor recebeu briefing? Leu material? Quanto viu dos números? Isso modula o peso da recomendação.*
+
+- **Material enviado antes:** `[link ou descrição]`
+- **Tempo de preparo da pessoa:** `[...]`
+- **Lacunas que ficaram — o que ela não viu:** `[...]`
+
+##### 3. Como o advisor reenquadrou o problema
+
+> *Frequentemente o valor do advisor não está na resposta — está no reenquadramento. "Vocês estão fazendo a pergunta errada" vale mais do que "a resposta é B".*
+
+**Ela viu a decisão diferente de como chegamos?** `[ ] Sim, de forma significativa  [ ] Sim, em aspecto pontual  [ ] Não, viu igual`
+
+**Qual foi o reenquadramento? (se houve)** `[...]`
+
+##### 4. Recomendação
+
+**Recomendação principal (em uma frase).** `[...]`
+
+**Convicção do advisor.** `[ ] Alta ("eu faria isso")  [ ] Média ("tendo a achar que…")  [ ] Baixa ("não tenho certeza, mas considere…")`
+
+**Linha de raciocínio (principais porquês).**
+
+1. `[...]`
+2. `[...]`
+3. `[...]`
+
+##### 5. Objeções e contra-argumentos levantados
+
+> *Advisor bom lista o que pode dar errado com a própria recomendação. Se você não ouviu objeção nenhuma, ou ela foi frouxa ou você não perguntou.*
+
+- **Contra-argumento 1:** `[...]`
+- **Contra-argumento 2:** `[...]`
+- **Condições em que a recomendação mudaria:** `[...]`
+
+##### 6. Tradeoffs destacados
+
+| Tradeoff | O que ganhamos | O que perdemos |
+|---|---|---|
+| `[...]` | `[...]` | `[...]` |
+| `[...]` | `[...]` | `[...]` |
+
+##### 7. Casos e analogias citadas
+
+> *"Já vi isso acontecer em [empresa X]" é o ativo central do advisor. Registre — inclusive para comparar entre advisors sobre a mesma decisão.*
+
+| Caso / empresa | O que rolou | Como se aplica ao nosso caso | Como não se aplica |
+|---|---|---|---|
+| `[...]` | `[...]` | `[...]` | `[...]` |
+
+##### 8. Riscos destacados
+
+- **Riscos que não havíamos pesado:** `[...]`
+- **Riscos que já víamos mas foram amplificados:** `[...]`
+- **Riscos que ela acha que estamos superdimensionando:** `[...]`
+
+##### 9. Separação fato vs. opinião vs. heurística pessoal
+
+> *Advisor mistura três coisas em qualquer conversa: fato (verificável), opinião (tese informada) e heurística pessoal ("eu sempre fiz assim"). Separar ajuda a decidir o que pesar.*
+
+**Fatos citados (checáveis).** `[...]`
+
+**Opiniões (com base em experiência mas não necessariamente generalizáveis).** `[...]`
+
+**Heurísticas pessoais (padrão pessoal da pessoa, tratar com cautela).** `[...]`
+
+##### 10. Vocabulário e quadros mentais
+
+> *Advisor bom traz quadros mentais (frameworks, analogias, axiomas) que organizam a decisão. Registre os que ressoaram — você vai reutilizar em pitch, board e nas próximas conversas internas.*
+
+| Termo / framework / analogia | Como ela usou |
+|---|---|
+| `[...]` | `[...]` |
+
+##### 11. Armadilhas — autoavaliação pós-conversa
+
+> *Marque honestamente. Advisor tem autoridade natural — isso contamina a escuta se você não checar.*
+
+- [ ] Engoli a recomendação sem confronto porque a pessoa tem muita credibilidade?
+- [ ] Tratei caso pessoal dela como generalizável sem verificar o fit com nosso contexto?
+- [ ] Aceitei heurística pessoal ("eu sempre fiz assim") como lei do setor?
+- [ ] Pedi recomendação sem ter apresentado a decisão com rigor?
+- [ ] Deixei de pedir objeção / contra-argumento explicitamente?
+- [ ] Confundi convicção dela com qualidade do argumento?
+
+**Achados sob suspeita:** `[...]`
+
+##### 12. Nossa posição pós-conversa
+
+> *Tão importante quanto ouvir é registrar o que fizemos com o que ouvimos. Advisor não decide por nós. Decidimos nós, informados por ela.*
+
+**Frente à recomendação.**
+
+- [ ] **Aceitamos integralmente** — justificativa: `[...]`
+- [ ] **Aceitamos com modificação** — modificação e por quê: `[...]`
+- [ ] **Rejeitamos** — justificativa: `[...]`
+- [ ] **Adiamos decisão** — o que falta saber antes: `[...]`
+
+**Convicção interna após a conversa.** `[ ] Aumentou  [ ] Diminuiu  [ ] Mesma, melhor argumentada  [ ] Gerou confusão — precisamos reprocessar]`
+
+##### 13. Ações acordadas
+
+| Ação | Responsável | Prazo |
+|---|---|---|
+| `[...]` | `[Nome]` | `[DD/MM]` |
+
+**Follow-up com o advisor.**
+
+- [ ] Enviar resumo desta conversa em até 48h (com o que decidimos, inclusive quando decidimos diferente da recomendação)
+- [ ] Reportar resultado da decisão em: `[prazo]`
+- [ ] Próxima conversa agendada? `[data / gatilho]`
+
+##### 14. Reflexão interna (pós-conversa, sem o advisor)
+
+> *Fazer 30 min depois da conversa, só com o time interno. Três perguntas.*
+
+**O que foi sinal e o que foi ruído nesta conversa?** `[...]`
+
+**Onde ela pode estar errada em função do viés dela (experiência datada, setor diferente, ego)?** `[...]`
+
+**Se seguirmos a recomendação e der errado, conseguimos explicar por que parecia razoável na hora?** `[...]`
+
+##### 15. Próximos passos de investigação
+
+> *Perguntas que esta conversa gerou e que precisam ser respondidas antes da próxima rodada de decisão.*
+
+**Outras fontes a consultar antes de decidir.**
+
+- `[outro advisor com viés complementar / especialista no tema / dado externo]`
+- `[...]`
+
+**Dados internos a levantar.** `[...]`
+
+**Se decidirmos, o que precisa estar pronto?** `[...]`
+
+*Preenchido por `[Nome]` em `[DD/MM/AAAA]`.*
+
+---
+
+### A.29 JTBD Switch Interview (entrevista de troca · Fase 4)
+
+> [!important] Disciplina central
+> Esta entrevista **só se aplica a quem trocou** — deixou um concorrente, largou um processo manual, migrou de ferramenta, mudou de fornecedor. O foco **não é** na rotina atual nem na dor genérica: é no **momento específico** em que a pessoa decidiu que o velho não servia mais. Sem um switch real para investigar, use o A.2.
+
+A Switch Interview é o instrumento da escola JTBD de Bob Moesta para reconstruir o momento da decisão. Pareia diretamente com a [[#FASE 4 — PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY APROFUNDADO)|Fase 4]], onde JTBDs são formulados pela primeira vez. Use quando entrevistados na rodada da Fase 3 mencionam que trocaram de algo — esses entrevistados merecem uma segunda conversa, agora estruturada pelas 4 forças (push, pull, anxiety, habit). Como os outros templates da família, tem Parte A (roteiro durante) e Parte B (síntese pós).
+
+#### Parte A — Roteiro da Entrevista (uso durante a conversa)
+
+**Duração alvo:** 45-60 min · **Balanço de fala:** o entrevistado fala a maior parte do tempo. Se você se pegar falando mais que ele em qualquer trecho de 5 minutos, volte a fazer perguntas abertas.
+
+**Abertura (2 min)**
+
+> "Oi, obrigado pelo tempo. Estou pesquisando como pessoas como você decidiram trocar de [categoria antiga] para [categoria nova]. Não estou te vendendo nada — quero entender a história dessa decisão em detalhe, o que estava acontecendo antes, o que mudou, como foi. Posso gravar?"
+
+**Linha do tempo da troca (15 min).** *O coração da Switch Interview: reconstruir a timeline específica, de trás pra frente. A pessoa comprou uma coisa nova num momento específico. Quando foi? O que estava acontecendo antes?*
+
+- Quando você começou a usar [nova solução]?
+- Antes dela, o que você usava? Por quanto tempo?
+- Quando foi a **primeira vez** que você pensou "isso aqui não está funcionando"? Me conta essa cena.
+- Entre esse momento e quando você realmente trocou, quanto tempo passou?
+- O que aconteceu nesse meio-tempo?
+
+**O momento do empurrão (push) — 10 min.** *O que estava acontecendo com a solução antiga que empurrou a pessoa pra fora dela?*
+
+- Me conta a gota d'água. Qual foi o episódio específico?
+- Antes dessa gota, o que te irritava no dia a dia da [solução antiga]?
+- Tinha algo que você fazia pra contornar o problema? O que?
+- Você reclamou com alguém? Com quem? O que eles disseram?
+
+**O momento da atração (pull) — 10 min.** *O que puxou a pessoa pra nova solução? Como ela soube que existia?*
+
+- Como você conheceu [nova solução]? Foi busca ativa ou veio até você?
+- O que chamou sua atenção no primeiro contato?
+- O que você **imaginava** que a nova solução ia fazer por você? (Essa imagem mental, lá atrás.)
+- Chegou a considerar outras opções nessa hora? Quais? Por que essas?
+
+**Ansiedades e hábitos (10 min).** *As duas forças de resistência: medo da mudança (ansiedade) e inércia do jeito antigo (hábito).*
+
+- O que te preocupava sobre trocar?
+- Teve algum momento em que você quase desistiu da troca? O que trouxe você de volta?
+- Que parte da rotina antiga você sentiu falta depois?
+- Alguém foi contra a troca? Como você lidou?
+
+**Implementação e resultado (8 min)**
+
+- Como foi a primeira semana com a nova solução?
+- Faltou algo que você esperava e não veio?
+- Hoje, retrospectivamente, a troca valeu? Em que medida?
+- Em que condições você voltaria pra solução antiga?
+
+**Encerramento (3 min)**
+
+- Tem outras pessoas que passaram por troca parecida e que eu poderia conversar?
+- Posso voltar se surgirem mais perguntas?
+
+**NÃO PERGUNTAR**
+
+- "Se a [nova solução] tivesse [feature X], seria melhor?" — *hipótese futura, contamina dado.*
+- "O que você acharia de um produto que fizesse Y?" — *apresentação de ideia disfarçada.*
+- "Por que você escolheu?" em genérico — *pergunta muito aberta gera racionalização pós-hoc.*
+
+#### Parte B — Síntese Pós-Entrevista
+
+##### Metadados
+
+| Campo | Valor |
+|---|---|
+| **ID** | `JTBD-[AAAA-MM-DD]-[##]` |
+| **Data e hora** | `[DD/MM/AAAA]` |
+| **Duração real** | `[min]` |
+| **Formato** | `[ ] Remoto  [ ] Presencial` |
+| **Gravação (com consentimento)** | `[link]` |
+| **Transcrição** | `[link]` |
+| **Entrevistador** | `[Nome]` |
+
+##### Perfil e contexto da troca
+
+| Campo | Valor |
+|---|---|
+| **Nome / empresa do entrevistado** | `[...]` |
+| **Papel / cargo** | `[...]` |
+| **Porte do negócio** | `[nº funcionários / faturamento / estágio]` |
+| **Localização** | `[cidade / estado / país]` |
+| **Solução antiga** | `[o que usava antes — nome específico, não categoria]` |
+| **Solução nova** | `[para onde migrou]` |
+| **Data da troca** | `[mês/ano]` |
+| **Tempo na solução antiga antes de trocar** | `[...]` |
+| **Tempo na solução nova até hoje** | `[...]` |
+| **Decisor da troca** | `[ela mesma / chefe / time / comitê]` |
+
+##### 1. Timeline da troca
+
+> *Reconstrua em 4 marcos. Seja específico com datas, episódios, gatilhos. A timeline é o núcleo da Switch Interview.*
+
+| Marco | Quando | O que aconteceu |
+|---|---|---|
+| **Primeiro pensamento** ("isso não está funcionando") | `[...]` | `[...]` |
+| **Evento de ativação** (gota d'água) | `[...]` | `[...]` |
+| **Decisão de trocar** | `[...]` | `[...]` |
+| **Primeira utilização da solução nova** | `[...]` | `[...]` |
+
+**Intervalo entre "primeiro pensamento" e "decisão de trocar":** `[quanto tempo passou? o que aconteceu no meio?]`
+
+##### 2. As quatro forças (Moesta)
+
+> *Toda troca é resultado de quatro forças simultâneas. Duas empurram para fora do velho e atraem para o novo (push e pull); duas resistem à troca (anxiety e habit). Se as forças de mudança não superam as de resistência, não há troca. Esta é a variável central da análise.*
+
+**PUSH — o que empurrou para fora da solução antiga.** `[Falhas, frustrações, episódios específicos. Cite verbatim onde possível.]`
+
+- `[...]`
+- `[...]`
+- `[...]`
+
+**PULL — o que atraiu para a solução nova.** `[O que a pessoa imaginava que ganharia. Promessa percebida, não funcionalidade listada.]`
+
+- `[...]`
+- `[...]`
+- `[...]`
+
+**ANXIETY — o que causou ansiedade sobre trocar.** `[Medos, riscos percebidos, objeções de stakeholders. O que quase fez desistir.]`
+
+- `[...]`
+- `[...]`
+
+**HABIT — a inércia do jeito antigo.** `[Conforto com rotina conhecida, sunk cost, relacionamentos, dados históricos.]`
+
+- `[...]`
+- `[...]`
+
+##### 3. Conjunto de comparação (comparison set)
+
+> *O que a pessoa comparou antes de escolher? A "categoria concorrente" do ponto de vista dela frequentemente não é o que a gente presume. Às vezes nossa concorrência real é Excel + WhatsApp, não o competidor óbvio.*
+
+| Opção considerada | Como soube dela | Por que descartou |
+|---|---|---|
+| `[nova solução escolhida]` | `[...]` | *(escolhida)* `[por quê?]` |
+| `[alternativa A]` | `[...]` | `[...]` |
+| `[alternativa B]` | `[...]` | `[...]` |
+| `[status quo — ficar com a antiga]` | — | `[por que não ficou?]` |
+
+##### 4. Job to be Done formulado
+
+> *Com base nas 4 forças e no comparison set, formule o job que a pessoa estava contratando a solução nova para cumprir. Estrutura: "Quando [situação], eu quero [motivação], para que [resultado esperado]."*
+
+**Formulação:** `Quando [...], eu quero [...], para que [...]`
+
+**Evidência direta que sustenta essa formulação:** `[cite verbatim ou descreva episódio específico]`
+
+##### 5. Verbatim (citações literais)
+
+1. > *"[citação sobre o push]"*
+2. > *"[citação sobre o pull]"*
+3. > *"[citação sobre ansiedade]"*
+4. > *"[citação sobre a gota d'água]"*
+
+##### 6. Vocabulário do cliente
+
+| Como a pessoa chamou | Contexto |
+|---|---|
+| `[palavra / expressão exata]` | `[o que descrevia]` |
+
+##### 7. Observações do entrevistador
+
+*`[leitura de linguagem corporal, tom, hesitações, momentos de energia alta/baixa]`*
+
+*`[...]`*
+
+##### 8. Racionalização vs. razão real
+
+> *Pessoas reconstroem as próprias decisões depois que tomam. O que ela diz hoje que foi o motivo pode ser racionalização pós-hoc. Confronte: a razão declarada bate com a timeline reconstruída?*
+
+- **Razão declarada pela pessoa:** `[...]`
+- **O que a timeline sugere que foi o motivo real:** `[...]`
+- **Divergem?** `[ ] Sim  [ ] Não` — *se sim, descreva a diferença e explique o que a pessoa pode estar racionalizando.*
+
+##### 9. Calibração da nossa narrativa
+
+> *O que esta entrevista faz com a nossa tese de por que as pessoas trocam? Toda Switch Interview deveria mexer em algum dos quatro vetores. Se não mexer, revise a análise.*
+
+- **Push que subestimamos:** `[...]`
+- **Pull que estávamos usando e não ressoou:** `[...]`
+- **Anxiety que não tínhamos mapeado:** `[...]`
+- **Habit mais forte do que imaginávamos:** `[...]`
+
+**Implicação para o posicionamento / mensagem / onboarding:** `[...]`
+
+##### 10. Armadilhas — autoavaliação pós-entrevista
+
+- [ ] Perguntei sobre hipótese futura ("se tivesse X…")?
+- [ ] Aceitei a primeira explicação ("troquei porque é melhor") sem pedir o episódio específico?
+- [ ] A timeline tem buracos grandes que eu não investiguei?
+- [ ] Falei mais de 20% do tempo?
+- [ ] Confundi o que ela disse hoje com o que ela pensava na hora da decisão?
+
+**Achados sob suspeita:** `[...]`
+
+##### 11. Indicações (snowball)
+
+- **Outras pessoas que fizeram troca parecida:** `[...]`
+- **Posso voltar?** `[ ] Sim  [ ] Não`
+- **Topa ver algo que estamos construindo em 30-60 dias?** `[ ] Sim  [ ] Não`
+
+##### 12. Próximos passos de investigação
+
+> *Perguntas novas geradas por esta Switch Interview que informam próximas conversas ou pesquisa externa. Switch Interviews tipicamente geram dois tipos de pergunta: padrões a verificar em outros switchers (a timeline desse cara bate com a do próximo?) e dados de mercado a buscar (qual é o volume real de quem troca, qual é o ciclo médio de decisão no segmento).*
+
+**Perguntas a incluir em próximas Switch Interviews.**
+
+- `[...]`
+- `[...]`
+
+**Dados a buscar externamente (mercado, comparação, benchmark).**
+
+- `[...]`
+- `[...]`
+
+**Perfis diferentes a entrevistar para cruzar padrões de troca.** `[...]`
+
+##### Anexos
+
+- Gravação: `[link]`
+- Transcrição: `[link]`
+- Artefatos compartilhados: `[link]`
+- Switch Interviews relacionadas: `[JTBD-..., JTBD-...]`
+
+*Preenchido por `[Nome]` em `[DD/MM/AAAA]`.*
+
+---
+
+### A.30 Consolidação de Rodada de Discovery (decisão de avanço · Fase 3 → Fase 4)
+
+> [!important] Disciplina central
+> Este não é registro de conversa — é o artefato em que o agregado de entrevistas vira decisão. É aqui que a frase "5 pessoas disseram isso" vira "o problema existe, neste recorte, com esta dor, e devemos perseverar" — ou o contrário. Nenhuma entrevista individual é suficiente para essa decisão; nenhuma consolidação feita **antes** da rodada fechar é confiável, porque viesa as entrevistas restantes. Consolide só quando a rodada terminou.
+
+A.30 é o entregável da [[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]] que sustenta o Mapa de Problemas e a decisão de avanço. Feito em reunião de time (2-4 pessoas) após a rodada fechar, duração típica 2-4h. Deve ser rodado com todas as sínteses individuais (Partes B do A.2, A.29 e, opcionalmente, A.27) abertas e referenciadas. A decisão final registrada aqui tem mais autoridade do que qualquer conversa individual.
+
+#### Metadados da rodada
+
+| Campo | Valor |
+|---|---|
+| **ID da rodada** | `ROUND-[AAAA-MM]-[##]` |
+| **Período coberto** | `[DD/MM a DD/MM]` |
+| **Duração total da rodada** | `[semanas]` |
+| **Participantes da consolidação** | `[Nomes]` |
+| **Data da consolidação** | `[DD/MM/AAAA]` |
+| **Status** | `[ ] Rascunho  [ ] Em revisão  [ ] Decisão tomada]` |
+
+#### Hipótese em teste (ao iniciar a rodada)
+
+> *Registre como a hipótese estava formulada **quando a rodada começou**, não como está hoje. O que muda entre o início e o fim é parte do aprendizado.*
+
+**Hipótese de problema.** `[...]`
+
+**ICP hipotético inicial.** `[...]`
+
+**Critério de sucesso da rodada definido no início.** *Exemplo do livro: ≥5 entrevistados em Pain Level 4 ou 5; sub-segmento agudo identificado; padrão de workaround consistente.*
+
+`[...]`
+
+#### Entrevistas consolidadas
+
+> *Rastreabilidade. Liste cada entrevista por ID. Sem esse mapa, a consolidação vira retórica — aqui cada afirmação deve voltar a uma conversa documentada.*
+
+| ID | Tipo | Data | Aderente ao ICP? | Pain Level | Sob suspeita? |
+|---|---|---|---|---|---|
+| `ENTR-...-01` | Problema (A.2) | `[DD/MM]` | `[Sim / Parcial / Não]` | `[1-5]` | `[ ] Não  [ ] Sim — motivo]` |
+| `ENTR-...-02` | Problema (A.2) | `[DD/MM]` | `[...]` | `[...]` | `[...]` |
+| `JTBD-...-01` | Switch (A.29) | `[DD/MM]` | `[...]` | — | `[...]` |
+| `ESP-...-01` | Especialista (A.27) | `[DD/MM]` | — | — | `[...]` |
+| … | | | | | |
+
+**Totais.**
+
+- Entrevistas de Problema (A.2): `[N]` (aderentes ao ICP: `[N]`)
+- Switch Interviews (A.29): `[N]`
+- Conversas com Especialistas (A.27): `[N]`
+- Contaminadas / sob suspeita (a não computar no denominador): `[N]`
+
+##### 1. Distribuição de Pain Level (só entrevistas aderentes ao ICP)
+
+> *Esta é a tabela central da consolidação. Critério do livro para avanço: **≥5 entrevistas em Pain Level 4 ou 5**. Se não chegou nisso, a hipótese de problema ainda não está validada — independente do que "a gente sentiu" nas conversas.*
+
+| Pain Level | Nº de entrevistas | % do total aderente |
+|---|---|---|
+| 1 — Tem mas não sabe | `[N]` | `[%]` |
+| 2 — Sabe mas tolera | `[N]` | `[%]` |
+| 3 — Buscando solução | `[N]` | `[%]` |
+| 4 — Tem gambiarra rodando | `[N]` | `[%]` |
+| 5 — Orçamento comprometido | `[N]` | `[%]` |
+| **Total nível 4+** | **`[N]`** | **`[%]`** |
+
+**Atingimos o benchmark de ≥5 em Pain Level 4+?** `[ ] Sim  [ ] Não`
+
+##### 2. Padrões de problema (agregação por problema, não por pessoa)
+
+> *Aqui você agrupa problemas que apareceram em múltiplas entrevistas. A unidade de análise deixa de ser a pessoa e passa a ser o problema recorrente. Um problema citado em 1 entrevista é anedota; em 10, é padrão.*
+
+| Problema | Nº entrevistas que mencionaram | Espontâneo em quantas? | Frequência típica | Custo médio reportado | Pain Level médio dos que citaram |
+|---|---|---|---|---|---|
+| `[título do problema]` | `[N / total]` | `[N]` | `[diária / semanal / mensal]` | `[tempo / dinheiro]` | `[1-5]` |
+| `[...]` | `[...]` | `[...]` | `[...]` | `[...]` | `[...]` |
+| `[...]` | `[...]` | `[...]` | `[...]` | `[...]` | `[...]` |
+
+**Problema dominante (mais recorrente + mais severo):** `[...]`
+
+**Problemas "inesperados" que apareceram em mais de uma entrevista (ouro emergente):** `[...]`
+
+##### 3. Workarounds e alternativas dominantes
+
+> *Se múltiplas pessoas resolvem o problema da mesma forma improvisada, você descobriu o concorrente real — frequentemente é Excel, WhatsApp, ou planilha Frankenstein, não a categoria óbvia.*
+
+| Solução atual (workaround) | Nº entrevistas que usam | O que falta / frustra |
+|---|---|---|
+| `[...]` | `[N / total]` | `[...]` |
+| `[...]` | `[...]` | `[...]` |
+
+**Concorrente real identificado no agregado:** `[...]`
+
+**Pessoas que já gastaram dinheiro tentando resolver:** `[N]` *(sinal operacional mais forte do que intenção declarada)*
+
+##### 4. Vocabulário agregado do cliente
+
+> *Cruze os campos "Vocabulário do Cliente" de todas as entrevistas de problema. Termos que aparecem em 3+ conversas são os que o cliente usa de fato. Isto vai direto para a landing page, o pitch e o roteiro de vendas.*
+
+**Termos recorrentes (mencionados por 3+ entrevistados).**
+
+| Termo / expressão | Nº de entrevistas | Contexto típico |
+|---|---|---|
+| `[...]` | `[N]` | `[...]` |
+| `[...]` | `[...]` | `[...]` |
+
+**Termos que NÓS usávamos e que o cliente NÃO usou.** *Se uma palavra que estava no nosso pitch não aparece em nenhuma entrevista, provavelmente ela não ressoa. Candidata a corte.*
+
+- `[...]`
+- `[...]`
+
+##### 5. Refinamento do ICP
+
+**ICP inicial (hipótese que entrou na rodada).** `[...]`
+
+**Sub-segmento mais agudo identificado na rodada.** *O recorte dentro do ICP inicial que sofreu mais — mais Pain Level 4+, mais frequência, mais workaround ativo. Exemplo: "padarias com 3+ lojas, não com 1-2".*
+
+`[...]`
+
+**Perfis dentro do ICP inicial que NÃO deram sinal.** *Descartes são tão informativos quanto confirmações. Se um perfil que parecia óbvio não sofreu, o ICP precisa cortar esse perfil.*
+
+- `[perfil] — motivo: [...]`
+- `[...]`
+
+**ICP refinado ao final da rodada.** `[nova formulação, mais específica do que a inicial]`
+
+##### 6. Hierarquia de sinais no agregado
+
+> *Some a hierarquia de cada entrevista individual. O balanço entre evidência forte e ruído diz se a rodada foi rica ou rasa.*
+
+| Tipo de sinal | Contagem agregada (quantas entrevistas trouxeram) |
+|---|---|
+| Comportamento passado concreto | `[N]` |
+| Tentativas anteriores de solução | `[N]` |
+| Métricas de custo (tempo / dinheiro reportado) | `[N]` |
+| Ideias soltas / hipóteses futuras | `[N]` |
+| Elogios sem substância | `[N]` |
+
+**Balanço:** `[os sinais fortes dominam / empatam / são minoria em relação ao ruído?]`
+
+##### 7. Análise de contaminação
+
+> *Quantas entrevistas tiveram armadilhas marcadas na autoavaliação pós-entrevista? Achados contaminados precisam ser segregados antes de entrar na decisão.*
+
+| Tipo de contaminação | Nº entrevistas afetadas | Achados específicos sob suspeita |
+|---|---|---|
+| Apresentei solução durante a conversa | `[N]` | `[...]` |
+| Pergunta tendenciosa ou hipotética | `[N]` | `[...]` |
+| Falei mais que o entrevistado em trechos | `[N]` | `[...]` |
+| Filtrei para confirmar tese prévia | `[N]` | `[...]` |
+
+**Achados descartados dessa consolidação por contaminação:** `[...]`
+
+##### 8. Insights emergentes (só visíveis no agregado)
+
+> *Coisas que nenhuma entrevista individual mostrou, mas que aparecem quando você empilha as 20. Padrões, correlações, contradições. Frequentemente este é o trecho mais valioso da consolidação.*
+
+- **Padrão 1:** `[...]`
+- **Padrão 2:** `[...]`
+- **Correlação observada:** `[ex: "todos os que sentem mais dor têm mais de 3 anos no cargo"]`
+- **Contradição a investigar:** `[...]`
+
+##### 9. Decisão de avanço de fase
+
+> *Use o vocabulário específico do livro. Evite "Hold" ou "Go/No-Go genérico" — cada decisão abaixo dispara uma ação diferente.*
+
+**Decisão.**
+
+- [ ] **Perseverar** — problema validado, ICP refinado, sub-segmento agudo identificado. Avançar para [[#FASE 4 — PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY APROFUNDADO)|Fase 4]] (Pesquisa Aprofundada) com a hipótese atual.
+- [ ] **Pivotar problema** — o problema que estávamos investigando não se confirmou, mas outro emergiu do agregado. Reformular hipótese e rodar nova rodada focada no novo problema.
+- [ ] **Pivotar cliente** — o problema existe, mas não no perfil que estávamos investigando. Mudar o ICP e rodar nova rodada com o novo perfil.
+- [ ] **Abandonar** — nem problema claro, nem ICP promissor. Liberar recurso, documentar aprendizados, pensar em outra direção.
+
+**Justificativa (5-10 linhas).** *Aponte explicitamente para as tabelas acima: Pain Level, padrões de problema, workarounds, sub-segmento agudo. A decisão tem que ser rastreável à evidência, não à sensação do time.*
+
+`[...]`
+
+**Nível de confiança na decisão.**
+
+- [ ] Alto — evidência clara, benchmark atingido, time alinhado
+- [ ] Médio — alguns sinais fortes mas lacunas em áreas específicas (descrever): `[...]`
+- [ ] Baixo — decisão forçada por prazo; idealmente precisaríamos de mais: `[...]`
+
+**Votos divergentes do time (se houver).** *Se alguém do time discordou, registre. É memória útil quando a decisão for revisitada em 6 meses.*
+
+- `[Nome] discordou porque: [...]`
+
+##### 10. Próximos passos (por ramo de decisão)
+
+**Se PERSEVERAR.**
+
+- [ ] Atualizar documento de ICP com a versão refinada desta rodada
+- [ ] Produzir persona v1 com base no sub-segmento agudo (template [[#A.5 Persona com dados (Fase 4)|A.5]])
+- [ ] Avançar para [[#FASE 4 — PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY APROFUNDADO)|Fase 4]] (Pesquisa Aprofundada)
+- [ ] Seguir rodada com Switch Interviews (A.29) focadas no sub-segmento agudo? `[ ] Sim  [ ] Não`
+- [ ] Definir experimentos de solução a montar na [[#FASE 5 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 5]]: `[...]`
+
+**Se PIVOTAR (problema ou cliente).**
+
+- [ ] Documentar por que a hipótese anterior falhou — aprendizado vale para futuras rodadas
+- [ ] Formular nova hipótese: `[...]`
+- [ ] Definir escopo da nova rodada: quantas entrevistas, em quanto tempo, com qual perfil
+- [ ] Reusar quais contatos / indicações da rodada atual? `[...]`
+
+**Se ABANDONAR.**
+
+- [ ] Escrever post-mortem: o que aprendemos sobre o mercado / cliente que continua valendo
+- [ ] Manter rede de contatos viva? `[ ] Sim — como  [ ] Não, encerrar`
+- [ ] Próxima tese a explorar (se houver): `[...]`
+
+##### 11. Artefatos a produzir a partir desta consolidação
+
+> *A.30 gera output — documentos novos, não só decisão. Liste o que essa consolidação obriga a produzir.*
+
+| Artefato | Responsável | Prazo | Status |
+|---|---|---|---|
+| ICP refinado v[N] | `[Nome]` | `[DD/MM]` | `[ ] Pendente  [ ] Em curso  [ ] Feito` |
+| Persona v1 (sub-segmento agudo) | `[Nome]` | `[DD/MM]` | `[...]` |
+| Landing page com vocabulário do cliente | `[Nome]` | `[DD/MM]` | `[...]` |
+| Post-mortem da rodada (aprendizados) | `[Nome]` | `[DD/MM]` | `[...]` |
+| Plano da próxima rodada (se pivotar) | `[Nome]` | `[DD/MM]` | `[...]` |
+
+##### 12. Follow-up externo
+
+- [ ] Agradecer todos os entrevistados da rodada com resumo não-confidencial do que aprendemos
+- [ ] Convidar entrevistados Pain Level 4+ para lista de early adopters / beta
+- [ ] Compartilhar aprendizados com advisors envolvidos (A.28) e pedir reação
+
+##### Anexos
+
+- Todas as sínteses individuais de entrevista: `[links ENTR-..., JTBD-..., ESP-...]`
+- Transcrições: `[link de pasta]`
+- Planilha de distribuição Pain Level: `[link]`
+- Documento de ICP inicial (antes da rodada): `[link]`
+- Rodadas anteriores (para comparação): `[ROUND-..., ROUND-...]`
+
+*Consolidado por `[Nomes]` em `[DD/MM/AAAA]`. Versão `[1.0]`.*
 
 ---

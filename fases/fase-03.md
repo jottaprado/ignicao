@@ -269,9 +269,15 @@ Ritmo saudável: três a cinco por semana. Faça sozinho, ou com um parceiro que
 
 Para cada entrevista, preencha um template padronizado. Nome, papel, empresa (quando aplicável), data. Verbatim, ou seja, citações literais dos momentos mais importantes, exatamente o que a pessoa disse, entre aspas. Problemas mencionados (não os que você interpretou, os que foram ditos). Soluções atuais utilizadas. Quanto tempo, dinheiro, ou energia a pessoa gasta hoje com o problema. Gatilhos emocionais observados (frustração, raiva, resignação). E as suas observações pessoais em itálico, claramente separadas dos fatos.
 
+> [!tip] Use o Template A.2 — Parte B
+> O [[#APÊNDICE A — TEMPLATES PRONTOS PARA USO|Template A.2]] tem duas partes: a Parte A é o roteiro que você consulta durante a conversa; a Parte B é a síntese pós-entrevista, com 12 seções que estruturam exatamente o que este Passo 6 pede — metadados, aderência ao ICP, problemas, verbatim, vocabulário, hierarquia de sinais, Pain Level com justificativa, armadilhas (autoavaliação) e refinamento de ICP. Preencha nas 24h seguintes à entrevista, enquanto a memória está fresca. Entrevistas com a Parte B em branco contam como dado perdido.
+
 #### Passo 7, análise depois de cada lote de cinco entrevistas
 
 Não espere terminar tudo para analisar. A cada cinco entrevistas, faça uma síntese parcial. Quais problemas apareceram em mais de cinquenta por cento das entrevistas? Quais padrões de comportamento se repetem? Que hipóteses iniciais foram reforçadas e quais foram abaladas? Quais novos problemas apareceram que você não esperava?
+
+> [!tip] Síntese parcial e final no Template A.30
+> O [[#APÊNDICE A — TEMPLATES PRONTOS PARA USO|Template A.30 (Consolidação de Rodada)]] é o artefato dessa síntese. Use uma versão "rascunho" a cada lote de cinco para checar padrões; consolide a versão final só quando a rodada inteira fechar — consolidar antes do fim viesa as entrevistas restantes. A.30 é também o documento que registra a decisão de avanço da fase (perseverar / pivotar problema / pivotar cliente / abandonar).
 
 #### Passo 8, chegue à saturação
 
@@ -305,6 +311,9 @@ flowchart TD
 Um ICP pode ter três a cinco problemas mapeados. O foco é em um, o mais agudo, o de melhor fit. O mapa deve ser atualizado conforme as entrevistas avançam. Não é documento morto.
 
 O documento final tem cinco a dez páginas, com o seguinte conteúdo. Perfil do entrevistado consolidado (ICP refinado). Lista dos problemas identificados, ranqueados por frequência e intensidade. Verbatim marcantes (citações literais) para cada problema. Soluções atuais identificadas e suas deficiências. Disposição emocional, ou seja, quanto as pessoas se importam com o problema. Comparação com a Declaração Inicial v1: o que se confirmou, o que se refutou, o que emergiu que você não esperava. E versão dois da Declaração da Ideia, atualizada com o que foi aprendido.
+
+> [!note] Mapa de Problemas e A.30
+> O Mapa de Problemas é a saída visual da rodada — o entregável de comunicação. O [[#APÊNDICE A — TEMPLATES PRONTOS PARA USO|Template A.30]] é a planilha de decisão estruturada que sustenta o Mapa: cruza distribuição de Pain Level, padrões agregados de problema, workarounds dominantes, vocabulário recorrente e sub-segmentos para registrar a decisão de avanço com rastro à evidência. Use os dois — o Mapa para apresentar, A.30 para defender.
 
 ### PERGUNTAS A RESPONDER
 - O problema que eu imaginei existe na vida real das pessoas que eu esperava?

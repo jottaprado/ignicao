@@ -90,6 +90,9 @@ flowchart LR
 > [!warning] Um JTBD completo tem três partes
 > "Quero automatizar planilhas" está incompleto. Sem circunstância e sem outcome. Solução que atende JTBD bem formulado tende a ser mais específica e mais defensável.
 
+> [!tip] Switch Interview quando o entrevistado trocou de solução
+> Quando o entrevistado **trocou** de solução (deixou um concorrente, largou um processo manual, migrou de ferramenta, mudou de fornecedor), entrevista comum de JTBD captura a versão racionalizada da decisão. A Switch Interview de Bob Moesta reconstrói o momento real, mapeando as quatro forças simultâneas — push (o que empurrou para fora do velho), pull (o que atraiu para o novo), anxiety (o que causou medo de trocar) e habit (o que segurava no antigo). Para cada switcher relevante, marque uma segunda conversa com o [[#APÊNDICE A — TEMPLATES PRONTOS PARA USO|Template A.29]]. O que ela formula é um JTBD muito mais específico do que o capturado em conversa única.
+
 #### Passo 4B, síntese qualitativa das entrevistas (técnicas formais)
 
 A diferença entre um empreendedor iniciante e um pesquisador de usuário maduro está aqui. O iniciante "lê as anotações" e tira conclusões com base em memória. O maduro aplica técnicas formais de síntese, que transformam centenas de quotes dispersas em padrões rigorosos. Três técnicas a dominar.

@@ -21,7 +21,7 @@
 
 Livros de empreendedorismo ensinam como fundadores de Silicon Valley pensam. Este manual ensina como **fundar, escalar e sair** dentro do contexto brasileiro — com regulação, capital, cultura e referências daqui.
 
-N�o é leitura linear. É enciclopédia de consulta. Você abre no momento do problema.
+N�o é leitura linear. É enciclopédia de consulta. Você abre no momento do problema.
 
 **Quem está em crise de caixa** abre o [Apêndice AT](apendices/apendice-at.md). **Quem está negociando term sheet** abre a [Fase 13](fases/fase-13.md). **Quem não tem ideia ainda** começa pela [Fase 1](fases/fase-01.md). A sequência faz sentido, mas ninguém precisa seguir ela.
 
@@ -198,7 +198,7 @@ Você quer sair                 → Fase 16 + Apêndice BR
 | [Catálogo de Métricas](apendices/apendice-c.md) | Métricas e benchmarks para todas as 17 fases |
 | [Ferramentário](apendices/apendice-bg.md) | 156 frameworks com como aplicar e erros comuns |
 | [Glossário](apendices/apendice-glossario.md) | 91 termos técnicos em português (A–Z) |
-| [Templates](apendices/apendice-a.md) | DII, pitch, OKR, acordo de sócios e outros |
+| [Templates](apendices/apendice-a.md) | DII, pitch, OKR, 5 templates de discovery (entrevista, especialista, advisor, switch, consolidação) e outros |
 | [Checklist por Fase](apendices/apendice-b.md) | Sinais de saída e committed next move |
 | [Casos de Fracasso BR](apendices/apendice-ai.md) | 7 padrões arquetípicos com casos reais |
 | [Post-mortems BR](apendices/apendice-bh.md) | 12 casos em profundidade com diagnóstico |

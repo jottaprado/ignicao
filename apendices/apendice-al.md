@@ -39,6 +39,9 @@ O fundador lidera a construção da rede. Isso é intransferível. Os co-fundado
 
 Funciona porque mostra homework (você sabe quem é a pessoa), pede algo específico e limitado (trinta minutos, não conversa longa), tem contexto claro do que você quer aprender, e respeita o tempo. Depois do primeiro encontro, envie nota curta agradecendo mais dois ou três pontos específicos que aplicou ou vai aplicar. Faça follow-up em dois ou três meses reportando progresso concreto nas áreas que discutiram. Se a química é boa, proponha cadência regular. E nunca desapareça. Relacionamento se constrói com contato consistente, não com raridade.
 
+> [!tip] Roteiro estruturado para a conversa em si
+> O template acima resolve a abordagem. Para a conversa propriamente dita — quando o objetivo é extrair insight de setor, mapa competitivo, anti-cases, "what would have to be true" — use o [[#APÊNDICE A — TEMPLATES PRONTOS PARA USO|Template A.27 (Conversa com Especialista de Mercado)]]. Ele tem Parte A (roteiro durante, com a seção "confronto à nossa tese" como núcleo) e Parte B (síntese pós, com hierarquia de sinais que separa dado verificável de heurística genérica). Importante: especialista informa como construir; não valida que há mercado. Para validar mercado, A.2.
+
 Para ser mentorado bem, prepare agenda antes de cada encontro com duas ou três perguntas específicas, tome notas, implemente pelo menos uma sugestão antes do próximo encontro e reporte, respeite o tempo combinado, e reciproque quando possível com apresentações, feedback e introduções a outras pessoas que possam ser úteis.
 
 **Advisors formalizados.** Faz sentido formalizar quando o relacionamento já existe e tem profundidade (não com mentor novo), quando a pessoa tem experiência crítica específica e o tempo dela vai ser pedido regularmente, e quando você tem algo específico a oferecer além de "abrir portas". A estrutura típica brasileira e internacional combina equity de zero vírgula um por cento a um por cento com vesting de dois a quatro anos, compromisso de duas a cinco horas por mês com disponibilidade razoável, valor esperado em conselhos regulares, warm intros e referências para investidores, parceiros e talentos. O documento de referência comum é o FAST (Founder/Advisor Standard Template).
@@ -47,6 +50,9 @@ Para pedir, espere ter relacionamento substantivo (pelo menos seis meses de ment
 
 > [!example] Conversa de formalização
 > "[Nome], você tem sido incrivelmente útil nesses últimos meses. Queria formalizar nossa relação como advisor, com equity e compromisso mais estruturado. Especificamente, seria zero vírgula vinte e cinco a zero vírgula cinco por cento de equity com vesting quatro anos, duas a três horas por mês, focando em [áreas específicas]. Faz sentido explorar?"
+
+> [!tip] Conversa de decisão com advisor já formalizado
+> Depois que o advisor está no jogo, o instrumento para extrair valor de cada conversa é o [[#APÊNDICE A — TEMPLATES PRONTOS PARA USO|Template A.28 (Conversa com Advisor)]]. Use quando há decisão concreta em cima da mesa — não para descobrir problema, não para mapear setor (advisor não substitui A.2 nem A.27). Estrutura: decisão em uma frase, opções, reenquadramento (advisor pode ver pergunta diferente da que você trouxe), recomendação com convicção, objeções explícitas, casos análogos e separação fato vs. opinião vs. heurística pessoal. Inclui reflexão interna 30 min depois, sem o advisor — porque a decisão é sua, informada por ele.
 
 Os sinais de que advisor é bom: responde emails em até quarenta e oito horas, participa dos encontros agendados, proativamente faz introduções quando surgem oportunidades, dá feedback construtivo (não só "bom trabalho"), e a empresa tem progresso real após os conselhos aplicados. Os sinais de que é ruim: some por semanas, vem despreparado, não faz as intros prometidas, opina genericamente sem imersão real, ou tenta vender serviços próprios ou da rede dele para você.
 
