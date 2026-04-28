@@ -930,13 +930,13 @@ Sete métodos complementares, não excludentes. Cada fundador tem afinidade maio
 flowchart TD
     A([Fase 1 — Encontrar a ideia]) --> B[7 métodos de geração]
 
-    B --> M1["1. Expertise domain mining<br/>O que só você sabe"]
-    B --> M2["2. Scratch your own itch<br/>Fricções pessoais"]
-    B --> M3["3. Ideias orgânicas<br/>Paul Graham"]
-    B --> M4["4. Cross-industry transfer<br/>Modelo de outro setor"]
-    B --> M5["5. Technology wave riding<br/>Ondas tecnológicas"]
-    B --> M6["6. Wedge theory<br/>Micro-segmento de entrada"]
-    B --> M7["7. White space mapping<br/>Ausências estruturais"]
+    B --> M1["1) Expertise domain mining<br/>O que só você sabe"]
+    B --> M2["2) Scratch your own itch<br/>Fricções pessoais"]
+    B --> M3["3) Ideias orgânicas<br/>Paul Graham"]
+    B --> M4["4) Cross-industry transfer<br/>Modelo de outro setor"]
+    B --> M5["5) Technology wave riding<br/>Ondas tecnológicas"]
+    B --> M6["6) Wedge theory<br/>Micro-segmento de entrada"]
+    B --> M7["7) White space mapping<br/>Ausências estruturais"]
 
     M1 & M2 & M3 & M4 & M5 & M6 & M7 --> C["Lista bruta<br/>15–30 candidatas"]
 
@@ -1257,9 +1257,9 @@ Sete passos em sequência.
 
 ```mermaid
 flowchart LR
-    A([Fase 2 — Articulação]) --> B["1. Bloqueio de tempo<br/>4h contínuas"]
-    B --> C["2. Despejo de consciência<br/>30–60min sem filtro"]
-    C --> D["3. Estruturar em 5 blocos<br/>DII v1"]
+    A([Fase 2 — Articulação]) --> B["1) Bloqueio de tempo<br/>4h contínuas"]
+    B --> C["2) Despejo de consciência<br/>30–60min sem filtro"]
+    C --> D["3) Estruturar em 5 blocos<br/>DII v1"]
 
     D --> B1["Problema<br/>3–5 frases<br/>sem mencionar solução"]
     D --> B2["Quem<br/>descrição específica<br/>não genérica"]
@@ -1267,9 +1267,9 @@ flowchart LR
     D --> B4["Solução imaginada<br/>capacidades, não features"]
     D --> B5["Razão de acreditar<br/>3–5 hipóteses"]
 
-    B1 & B2 & B3 & B4 & B5 --> E["4. Listar incertezas<br/>10–20 coisas que não sei"]
-    E --> F["5. Condensar em 1 página<br/>400–600 palavras"]
-    F --> G["6. Teste verbal<br/>3–5 pessoas fora do círculo"]
+    B1 & B2 & B3 & B4 & B5 --> E["4) Listar incertezas<br/>10–20 coisas que não sei"]
+    E --> F["5) Condensar em 1 página<br/>400–600 palavras"]
+    F --> G["6) Teste verbal<br/>3–5 pessoas fora do círculo"]
     G --> H{"Conseguem<br/>repetir?"}
     H -->|Não| F
     H -->|Sim| I(["DII v1 pronta<br/>→ Fase 3"])

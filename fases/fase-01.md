@@ -36,13 +36,13 @@ Sete métodos complementares, não excludentes. Cada fundador tem afinidade maio
 flowchart TD
     A([Fase 1 — Encontrar a ideia]) --> B[7 métodos de geração]
 
-    B --> M1["1. Expertise domain mining<br/>O que só você sabe"]
-    B --> M2["2. Scratch your own itch<br/>Fricções pessoais"]
-    B --> M3["3. Ideias orgânicas<br/>Paul Graham"]
-    B --> M4["4. Cross-industry transfer<br/>Modelo de outro setor"]
-    B --> M5["5. Technology wave riding<br/>Ondas tecnológicas"]
-    B --> M6["6. Wedge theory<br/>Micro-segmento de entrada"]
-    B --> M7["7. White space mapping<br/>Ausências estruturais"]
+    B --> M1["1) Expertise domain mining<br/>O que só você sabe"]
+    B --> M2["2) Scratch your own itch<br/>Fricções pessoais"]
+    B --> M3["3) Ideias orgânicas<br/>Paul Graham"]
+    B --> M4["4) Cross-industry transfer<br/>Modelo de outro setor"]
+    B --> M5["5) Technology wave riding<br/>Ondas tecnológicas"]
+    B --> M6["6) Wedge theory<br/>Micro-segmento de entrada"]
+    B --> M7["7) White space mapping<br/>Ausências estruturais"]
 
     M1 & M2 & M3 & M4 & M5 & M6 & M7 --> C["Lista bruta<br/>15–30 candidatas"]
 
