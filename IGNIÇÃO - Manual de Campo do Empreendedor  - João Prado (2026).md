@@ -370,10 +370,10 @@ flowchart TD
     R1 -->|Sim| R2{"Motivação é<br/>pelo problema,<br/>não pela fuga?"}
     R2 -->|Fuga de algo| WAIT2["Resolver a situação<br/>de fuga primeiro"]
     R2 -->|Sim| R3{"Momento de vida<br/>estável?"}
-    R3 -->|Luto, divórcio,<br/>doença ativa| WAIT3["Aguardar estabilização<br/>6–18 meses"]
+    R3 -->|"Luto, divórcio,<br/>doença ativa"| WAIT3["Aguardar estabilização<br/>6–18 meses"]
     R3 -->|Sim| R4{"Cônjuge ou família<br/>apoiam ou são<br/>neutros?"}
-    R4 -->|Fortemente<br/>contrários| WAIT4["Conversa estruturada<br/>ou terapia de casal"]
-    R4 -->|Apoiam ou<br/>são neutros| R5{"Tolerância<br/>à incerteza<br/>é razoável?"}
+    R4 -->|"Fortemente<br/>contrários"| WAIT4["Conversa estruturada<br/>ou terapia de casal"]
+    R4 -->|"Apoiam ou<br/>são neutros"| R5{"Tolerância<br/>à incerteza<br/>é razoável?"}
     R5 -->|Não| WAIT5["Considerar<br/>executivo sênior<br/>como alternativa"]
     R5 -->|Sim| GO(["Empreender<br/>Continue para Fase 1"])
 
@@ -1473,25 +1473,25 @@ A estrutura conceitual da Árvore de Teoria pode ser visualizada assim:
 flowchart TD
  Root["HIPÓTESE CENTRAL<br/>O que acreditamos sobre o mundo<br/>que justifica este negócio existir"]
 
- Root --> A1[Atributo 1<br/>do produto/serviço]
+ Root --> A1["Atributo 1<br/>do produto/serviço"]
  Root --> A2[Atributo 2]
  Root --> A3[Atributo 3]
 
- A1 --> C1a[Causa 1a<br/>por que esse atributo<br/>importa para o usuário]
+ A1 --> C1a["Causa 1a<br/>por que esse atributo<br/>importa para o usuário"]
  A1 --> C1b[Causa 1b]
  A2 --> C2a[Causa 2a]
  A2 --> C2b[Causa 2b]
  A3 --> C3a[Causa 3a]
 
- C1a --> Alt1[Alternativa atual<br/>o que o usuário usa hoje<br/>para resolver]
+ C1a --> Alt1["Alternativa atual<br/>o que o usuário usa hoje<br/>para resolver"]
  C2a --> Alt1
  C2b --> Alt2[Alternativa atual alt.]
  C3a --> Alt2
 
- Alt1 --> Gap[GAP / DOR<br/>diferença entre alternativa<br/>atual e solução ideal]
+ Alt1 --> Gap["GAP / DOR<br/>diferença entre alternativa<br/>atual e solução ideal"]
  Alt2 --> Gap
 
- Gap --> Mon[MONETIZAÇÃO<br/>como capturamos valor<br/>preenchendo o gap]
+ Gap --> Mon["MONETIZAÇÃO<br/>como capturamos valor<br/>preenchendo o gap"]
 
  style Root fill:#FFD700,stroke:#8B6914,stroke-width:3px
  style Gap fill:#FFB6B6
@@ -1796,22 +1796,22 @@ Um problema que mexe com o coração acende todas as cinco características abai
 
 ```mermaid
 flowchart LR
- P[🎯 PROBLEMA IDEAL<br/>acende todas as 5]
+ P["🎯 PROBLEMA IDEAL<br/>acende todas as 5"]
 
- P --> R[1️⃣ REAL<br/>observável<br/>no mundo hoje]
- P --> F[2️⃣ FREQUENTE<br/>volta toda semana<br/>ou todo dia]
- P --> D[3️⃣ DOLOROSO<br/>Pain Level 4-5<br/>tira o sono]
- P --> C[4️⃣ RECONHECIDO<br/>cliente sabe<br/>que tem o problema]
- P --> V[5️⃣ VALORADO<br/>já gasta tempo<br/>ou dinheiro tentando]
+ P --> R["1️⃣ REAL<br/>observável<br/>no mundo hoje"]
+ P --> F["2️⃣ FREQUENTE<br/>volta toda semana<br/>ou todo dia"]
+ P --> D["3️⃣ DOLOROSO<br/>Pain Level 4-5<br/>tira o sono"]
+ P --> C["4️⃣ RECONHECIDO<br/>cliente sabe<br/>que tem o problema"]
+ P --> V["5️⃣ VALORADO<br/>já gasta tempo<br/>ou dinheiro tentando"]
 
- R -.-> Q{Todas 5<br/>acendem?}
+ R -.-> Q{"Todas 5<br/>acendem?"}
  F -.-> Q
  D -.-> Q
  C -.-> Q
  V -.-> Q
 
- Q -->|SIM| Go[✅ Avançar para<br/>Fase 4]
- Q -->|NÃO| Back[⚠️ Voltar a<br/>candidatos de<br/>problema]
+ Q -->|SIM| Go["✅ Avançar para<br/>Fase 4"]
+ Q -->|NÃO| Back["⚠️ Voltar a<br/>candidatos de<br/>problema"]
 
  style P fill:#FFD700,stroke:#8B6914,stroke-width:3px
  style Go fill:#90EE90
@@ -2033,17 +2033,17 @@ Esse é o entregável central da [[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]]. 
 
 ```mermaid
 flowchart TD
- ICP[👥 ICP<br/>Perfil operacional<br/>do cliente]
+ ICP["👥 ICP<br/>Perfil operacional<br/>do cliente"]
 
- ICP --> P1[🔴 Problema 1<br/>Pain Level 4-5<br/>Frequência: diária<br/>Custo: R$ X/mês]
- ICP --> P2[🟠 Problema 2<br/>Pain Level 3<br/>Frequência: semanal<br/>Custo: R$ Y/mês]
- ICP --> P3[🟡 Problema 3<br/>Pain Level 2<br/>Frequência: mensal<br/>Custo: baixo]
+ ICP --> P1["🔴 Problema 1<br/>Pain Level 4-5<br/>Frequência: diária<br/>Custo: R$ X/mês"]
+ ICP --> P2["🟠 Problema 2<br/>Pain Level 3<br/>Frequência: semanal<br/>Custo: R$ Y/mês"]
+ ICP --> P3["🟡 Problema 3<br/>Pain Level 2<br/>Frequência: mensal<br/>Custo: baixo"]
 
- P1 --> A1[Alternativa atual<br/>como resolve hoje<br/>limitações]
- P1 --> I1[Impacto<br/>tempo, dinheiro,<br/>estresse perdidos]
- P1 --> Q1[Quote literal<br/>'Eu odeio quando X...'<br/>5-10 citações reais]
+ P1 --> A1["Alternativa atual<br/>como resolve hoje<br/>limitações"]
+ P1 --> I1["Impacto<br/>tempo, dinheiro,<br/>estresse perdidos"]
+ P1 --> Q1["Quote literal<br/>'Eu odeio quando X...'<br/>5-10 citações reais"]
 
- P1 --> Foco[🎯 FOCO da cunha<br/>problema com<br/>maior dor + valor +<br/>defensabilidade]
+ P1 --> Foco["🎯 FOCO da cunha<br/>problema com<br/>maior dor + valor +<br/>defensabilidade"]
 
  style ICP fill:#FFD700
  style P1 fill:#FFB6B6
@@ -2325,20 +2325,20 @@ A estrutura visual:
 ```mermaid
 flowchart LR
  subgraph Trigger["⚡ CIRCUNSTÂNCIA"]
- T1[Quando eu estou<br/>nesta situação...]
+ T1["Quando eu estou<br/>nesta situação..."]
  end
 
  subgraph Motivation["🎯 MOTIVAÇÃO"]
- M1[...eu quero<br/>realizar esta ação...]
+ M1["...eu quero<br/>realizar esta ação..."]
  end
 
  subgraph Outcome["✨ RESULTADO DESEJADO"]
- O1[...para poder<br/>atingir este ganho.]
+ O1["...para poder<br/>atingir este ganho."]
  end
 
  Trigger --> Motivation --> Outcome
 
- O1 --> Ex[📝 EXEMPLO<br/>'Quando estou fechando o mês<br/>e preciso conferir 30 planilhas,<br/>eu quero consolidar tudo<br/>automaticamente para poder<br/>entregar o relatório sem virar a noite']
+ O1 --> Ex["📝 EXEMPLO<br/>'Quando estou fechando o mês<br/>e preciso conferir 30 planilhas,<br/>eu quero consolidar tudo<br/>automaticamente para poder<br/>entregar o relatório sem virar a noite'"]
 
  style Trigger fill:#FFE4B5
  style Motivation fill:#87CEEB
@@ -2468,15 +2468,15 @@ A estrutura visual de uma persona operacional, em contraste com persona demográ
 
 ```mermaid
 flowchart TD
- P[👤 PERSONA<br/>Nome fictício + foto<br/>ex: 'Mariana, dona de padaria']
+ P["👤 PERSONA<br/>Nome fictício + foto<br/>ex: 'Mariana, dona de padaria'"]
 
- P --> Ctx[📍 CONTEXTO<br/>cargo, empresa,<br/>tempo de experiência,<br/>dia típico]
- P --> Dor[🔴 DORES<br/>problemas frequentes<br/>Pain Level 4-5]
- P --> JTBD[🎯 JTBD<br/>qual 'trabalho' quer<br/>que a solução faça]
- P --> Obj[🚫 OBJEÇÕES<br/>razões para NÃO<br/>comprar sua solução]
- P --> Suc[✅ MÉTRICAS DE SUCESSO<br/>como ela sabe que<br/>o problema foi resolvido]
- P --> Canal[📡 CANAIS<br/>onde ela busca<br/>informação / decide]
- P --> Quote[💬 QUOTES<br/>falas literais<br/>de entrevistas]
+ P --> Ctx["📍 CONTEXTO<br/>cargo, empresa,<br/>tempo de experiência,<br/>dia típico"]
+ P --> Dor["🔴 DORES<br/>problemas frequentes<br/>Pain Level 4-5"]
+ P --> JTBD["🎯 JTBD<br/>qual 'trabalho' quer<br/>que a solução faça"]
+ P --> Obj["🚫 OBJEÇÕES<br/>razões para NÃO<br/>comprar sua solução"]
+ P --> Suc["✅ MÉTRICAS DE SUCESSO<br/>como ela sabe que<br/>o problema foi resolvido"]
+ P --> Canal["📡 CANAIS<br/>onde ela busca<br/>informação / decide"]
+ P --> Quote["💬 QUOTES<br/>falas literais<br/>de entrevistas"]
 
  style P fill:#FFD700,stroke:#8B6914,stroke-width:3px
  style Dor fill:#FFB6B6
@@ -2686,11 +2686,11 @@ A visualização em círculos concêntricos:
 
 ```mermaid
 flowchart TD
- TAM[🌍 TAM<br/>Total Addressable Market<br/>Mercado GLOBAL do problema<br/>Teto absoluto, se tudo fosse nosso<br/>ex: R$ 500 bi]
+ TAM["🌍 TAM<br/>Total Addressable Market<br/>Mercado GLOBAL do problema<br/>Teto absoluto, se tudo fosse nosso<br/>ex: R$ 500 bi"]
 
- TAM --> SAM[🌎 SAM<br/>Serviceable Addressable Market<br/>Mercado que podemos alcançar<br/>com produto/canal/região atual<br/>ex: R$ 80 bi, Brasil + região]
+ TAM --> SAM["🌎 SAM<br/>Serviceable Addressable Market<br/>Mercado que podemos alcançar<br/>com produto/canal/região atual<br/>ex: R$ 80 bi, Brasil + região"]
 
- SAM --> SOM[🎯 SOM<br/>Serviceable Obtainable Market<br/>Mercado realista em 3-5 anos<br/>dada a concorrência<br/>ex: R$ 2 bi, meta de captura]
+ SAM --> SOM["🎯 SOM<br/>Serviceable Obtainable Market<br/>Mercado realista em 3-5 anos<br/>dada a concorrência<br/>ex: R$ 2 bi, meta de captura"]
 
  style TAM fill:#E8F4F8,stroke:#2C5F7C,stroke-width:2px
  style SAM fill:#B0D8E8,stroke:#2C5F7C,stroke-width:2px
@@ -3021,14 +3021,14 @@ As seis dimensões do Canvas, em forma visual:
 
 ```mermaid
 flowchart TD
- C[📋 CANVAS DA CUNHA<br/>6 dimensões que definem<br/>o ponto de entrada no mercado]
+ C["📋 CANVAS DA CUNHA<br/>6 dimensões que definem<br/>o ponto de entrada no mercado"]
 
- C --> Q1[1️⃣ SEGMENTO-ALVO<br/>Quem é exatamente?<br/>Perfil operacional observável]
- C --> Q2[2️⃣ DOR AGUDA<br/>Qual problema tira o sono?<br/>Pedível, mensurável]
- C --> Q3[3️⃣ ALTERNATIVA ATUAL<br/>Como resolve hoje?<br/>Custo, limitações]
- C --> Q4[4️⃣ POR QUE AGORA<br/>Por que em 2026 e<br/>não em 2020?]
- C --> Q5[5️⃣ ONDE ESTÃO<br/>Canais, comunidades,<br/>eventos concretos]
- C --> Q6[6️⃣ DISPOSIÇÃO A PAGAR<br/>Quanto já gastam hoje<br/>com o problema?]
+ C --> Q1["1️⃣ SEGMENTO-ALVO<br/>Quem é exatamente?<br/>Perfil operacional observável"]
+ C --> Q2["2️⃣ DOR AGUDA<br/>Qual problema tira o sono?<br/>Pedível, mensurável"]
+ C --> Q3["3️⃣ ALTERNATIVA ATUAL<br/>Como resolve hoje?<br/>Custo, limitações"]
+ C --> Q4["4️⃣ POR QUE AGORA<br/>Por que em 2026 e<br/>não em 2020?"]
+ C --> Q5["5️⃣ ONDE ESTÃO<br/>Canais, comunidades,<br/>eventos concretos"]
+ C --> Q6["6️⃣ DISPOSIÇÃO A PAGAR<br/>Quanto já gastam hoje<br/>com o problema?"]
 
  style C fill:#FFD700,stroke:#8B6914,stroke-width:3px
  style Q1 fill:#E8F4F8
@@ -3218,21 +3218,21 @@ Visão panorâmica das Partes II a V, do problema ao PMF:
 ```mermaid
 flowchart TD
  subgraph Prob["FASES 2-4, PROBLEMA"]
- P1[Problema real,<br/>recorrente e agudo?]
- P2[ICP específico e<br/>operacionalmente identificável?]
- P3[Mercado addressable<br/>grande o suficiente?]
+ P1["Problema real,<br/>recorrente e agudo?"]
+ P2["ICP específico e<br/>operacionalmente identificável?"]
+ P3["Mercado addressable<br/>grande o suficiente?"]
  end
 
  subgraph Sol["FASES 5-8, SOLUÇÃO"]
- S4[Hipóteses escritas<br/>e priorizadas]
- S5[Protótipo testado<br/>com ICP real]
- S6[Spec MVP<br/>com pricing testado]
+ S4["Hipóteses escritas<br/>e priorizadas"]
+ S5["Protótipo testado<br/>com ICP real"]
+ S6["Spec MVP<br/>com pricing testado"]
  end
 
  subgraph Mod["FASES 10-12, MODELO E PMF"]
- M7[MVP em uso real<br/>com usuários pagantes]
- M8[Unit economics<br/>positivas]
- M9[PMF: Sean Ellis ≥ 40%<br/>+ retenção estável<br/>+ NPS ≥ 30]
+ M7["MVP em uso real<br/>com usuários pagantes"]
+ M8["Unit economics<br/>positivas"]
+ M9["PMF: Sean Ellis ≥ 40%<br/>+ retenção estável<br/>+ NPS ≥ 30"]
  end
 
  P1 --> P2 --> P3
@@ -3301,23 +3301,23 @@ O entregável é o Dossiê de Mercado. Mas ele não é estático. O mercado muda
 ```mermaid
 flowchart LR
  subgraph C["✅ CERTEZAS<br/>(evidência sólida)"]
- C1[Fatos comprovados<br/>por entrevistas, dados,<br/>observação direta]
- C2[Ex: '15/15 entrevistados<br/>gastam 2h+/dia<br/>com este problema']
+ C1["Fatos comprovados<br/>por entrevistas, dados,<br/>observação direta"]
+ C2["Ex: '15/15 entrevistados<br/>gastam 2h+/dia<br/>com este problema'"]
  end
 
  subgraph S["❓ SUPOSIÇÕES<br/>(acho mas não confirmei)"]
- S1[Crenças plausíveis<br/>sem evidência forte<br/>ainda]
- S2[Ex: 'Acho que<br/>pagariam R$ 500/mês<br/>por uma solução']
+ S1["Crenças plausíveis<br/>sem evidência forte<br/>ainda"]
+ S2["Ex: 'Acho que<br/>pagariam R$ 500/mês<br/>por uma solução'"]
  end
 
  subgraph D["⚠️ DÚVIDAS<br/>(nem sei o que não sei)"]
- D1[Áreas inexploradas<br/>onde precisa<br/>investigar primeiro]
- D2[Ex: 'Não sei como<br/>decidem compra<br/>em empresa B2B']
+ D1["Áreas inexploradas<br/>onde precisa<br/>investigar primeiro"]
+ D2["Ex: 'Não sei como<br/>decidem compra<br/>em empresa B2B'"]
  end
 
  C -.->|não testar, usar| Go1[✅ Base de execução]
- S -.->|TESTAR PRIMEIRO| Go2[🧪 Gerar hipóteses<br/>e experimentos]
- D -.->|investigar antes<br/>de hipotetizar| Go3[🔍 Mais pesquisa<br/>qualitativa]
+ S -.->|TESTAR PRIMEIRO| Go2["🧪 Gerar hipóteses<br/>e experimentos"]
+ D -.->|"investigar antes<br/>de hipotetizar"| Go3["🔍 Mais pesquisa<br/>qualitativa"]
 
  style C fill:#90EE90
  style S fill:#FFFF99
@@ -3939,12 +3939,12 @@ A estrutura visual do Cartão de Experimento (Template A.4):
 flowchart TD
  Card[🧪 CARTÃO DE EXPERIMENTO]
 
- Card --> H[1️⃣ HIPÓTESE<br/>'Acredito que... X<br/>causará... Y<br/>para... ICP Z']
- Card --> Met[2️⃣ MÉTODO<br/>como vai testar:<br/>landing page, entrevista,<br/>pré-venda, smoke test]
- Card --> Am[3️⃣ AMOSTRA<br/>quantas pessoas,<br/>de qual ICP,<br/>como recrutar]
- Card --> Th[4️⃣ THRESHOLD<br/>número específico<br/>de sucesso<br/>definido ANTES do teste]
- Card --> Dur[5️⃣ DURAÇÃO<br/>prazo máximo<br/>2-4 semanas]
- Card --> Dec[6️⃣ DECISÃO<br/>o que fazer se<br/>validar / refutar]
+ Card --> H["1️⃣ HIPÓTESE<br/>'Acredito que... X<br/>causará... Y<br/>para... ICP Z'"]
+ Card --> Met["2️⃣ MÉTODO<br/>como vai testar:<br/>landing page, entrevista,<br/>pré-venda, smoke test"]
+ Card --> Am["3️⃣ AMOSTRA<br/>quantas pessoas,<br/>de qual ICP,<br/>como recrutar"]
+ Card --> Th["4️⃣ THRESHOLD<br/>número específico<br/>de sucesso<br/>definido ANTES do teste"]
+ Card --> Dur["5️⃣ DURAÇÃO<br/>prazo máximo<br/>2-4 semanas"]
+ Card --> Dec["6️⃣ DECISÃO<br/>o que fazer se<br/>validar / refutar"]
 
  style Card fill:#FFD700,stroke:#8B6914,stroke-width:3px
  style Th fill:#FFB6B6,stroke:#8B0000,stroke-width:2px
@@ -4528,12 +4528,12 @@ A priorização MoSCoW para escopo de MVP, em estrutura visual:
 flowchart LR
  subgraph M["🔴 MUST HAVE<br/>sem isso não vai ao ar<br/>5-15 itens"]
  M1[Features core]
- M2[Sem elas, MVP<br/>não resolve a dor]
+ M2["Sem elas, MVP<br/>não resolve a dor"]
  end
 
  subgraph S["🟠 SHOULD HAVE<br/>importante mas<br/>pode esperar 1-2 sprints"]
  S1[Features significativas]
- S2[Workarounds existem<br/>para primeira versão]
+ S2["Workarounds existem<br/>para primeira versão"]
  end
 
  subgraph C["🟡 COULD HAVE<br/>nice-to-have<br/>se sobrar tempo"]
@@ -4542,14 +4542,14 @@ flowchart LR
  end
 
  subgraph W["⚪ WONT HAVE<br/>explicitamente FORA<br/>do escopo deste MVP"]
- W1[Features que<br/>NÃO vão ser feitas]
- W2[Decisão consciente,<br/>não esquecimento]
+ W1["Features que<br/>NÃO vão ser feitas"]
+ W2["Decisão consciente,<br/>não esquecimento"]
  end
 
- M -.-> Build[🔨 Build MVP<br/>sprint 1-4]
- S -.-> Later[⏳ Roadmap<br/>sprint 5+]
- C -.-> Nice[🎁 Se sobrar<br/>capacidade]
- W -.-> Never[❌ Nunca<br/>neste MVP]
+ M -.-> Build["🔨 Build MVP<br/>sprint 1-4"]
+ S -.-> Later["⏳ Roadmap<br/>sprint 5+"]
+ C -.-> Nice["🎁 Se sobrar<br/>capacidade"]
+ W -.-> Never["❌ Nunca<br/>neste MVP"]
 
  style M fill:#FFB6B6,stroke:#8B0000,stroke-width:2px
  style S fill:#FFD580
@@ -4785,18 +4785,18 @@ A arquitetura típica de MVP, com decisões conscientes sobre simplicidade:
 ```mermaid
 flowchart TB
  subgraph Front["🖥️ FRONTEND"]
- F1[React / Next.js<br/>ou Vue / Nuxt<br/>ou mobile nativo]
- F2[Hospedagem:<br/>Vercel / Netlify]
+ F1["React / Next.js<br/>ou Vue / Nuxt<br/>ou mobile nativo"]
+ F2["Hospedagem:<br/>Vercel / Netlify"]
  end
 
  subgraph Back["⚙️ BACKEND"]
- B1[API: REST ou GraphQL<br/>Node / Python / Go]
- B2[Auth: Clerk / Auth0 / Firebase<br/>não fazer do zero]
+ B1["API: REST ou GraphQL<br/>Node / Python / Go"]
+ B2["Auth: Clerk / Auth0 / Firebase<br/>não fazer do zero"]
  end
 
  subgraph DB["💾 DADOS"]
- D1[Postgres / MySQL<br/>managed: Supabase / Neon / RDS]
- D2[Cache: Redis<br/>se precisar, não 'caso precise']
+ D1["Postgres / MySQL<br/>managed: Supabase / Neon / RDS"]
+ D2["Cache: Redis<br/>se precisar, não 'caso precise'"]
  end
 
  subgraph Ext["🔌 EXTERNOS"]
@@ -4807,8 +4807,8 @@ flowchart TB
  end
 
  subgraph Infra["☁️ INFRA"]
- I1[Cloud: AWS / GCP / Azure<br/>OU 100% managed]
- I2[Monitoring: Grafana<br/>Datadog / ou embarcado em cloud]
+ I1["Cloud: AWS / GCP / Azure<br/>OU 100% managed"]
+ I2["Monitoring: Grafana<br/>Datadog / ou embarcado em cloud"]
  end
 
  Front <--> Back <--> DB
@@ -4846,21 +4846,21 @@ O ciclo MVP em três etapas, cada uma valida coisa diferente:
 ```mermaid
 flowchart LR
  subgraph E1["1️⃣ MVP DE PROBLEMA"]
- M1A[Valida:<br/>pessoas TÊM<br/>o problema mesmo?]
- M1B[Como:<br/>landing page,<br/>entrevistas em massa]
- M1C[Sucesso:<br/>evidência de dor<br/>real em ≥ 20 casos]
+ M1A["Valida:<br/>pessoas TÊM<br/>o problema mesmo?"]
+ M1B["Como:<br/>landing page,<br/>entrevistas em massa"]
+ M1C["Sucesso:<br/>evidência de dor<br/>real em ≥ 20 casos"]
  end
 
  subgraph E2["2️⃣ MVP DE SOLUÇÃO"]
- M2A[Valida:<br/>solução RESOLVE<br/>o problema?]
- M2B[Como:<br/>protótipo clicável,<br/>concierge, wizard of oz]
- M2C[Sucesso:<br/>usuários voltam,<br/>querem mais, pagam algo]
+ M2A["Valida:<br/>solução RESOLVE<br/>o problema?"]
+ M2B["Como:<br/>protótipo clicável,<br/>concierge, wizard of oz"]
+ M2C["Sucesso:<br/>usuários voltam,<br/>querem mais, pagam algo"]
  end
 
  subgraph E3["3️⃣ MVP DE NEGÓCIO"]
- M3A[Valida:<br/>unit economics<br/>funcionam?]
- M3B[Como:<br/>versão mínima<br/>de produto + canal real]
- M3C[Sucesso:<br/>CAC menor que LTV,<br/>retenção estável,<br/>caminho para PMF]
+ M3A["Valida:<br/>unit economics<br/>funcionam?"]
+ M3B["Como:<br/>versão mínima<br/>de produto + canal real"]
+ M3C["Sucesso:<br/>CAC menor que LTV,<br/>retenção estável,<br/>caminho para PMF"]
  end
 
  E1 --> E2 --> E3
@@ -5363,20 +5363,20 @@ A cascata visual de Unit Economics, da receita por cliente à saúde do negócio
 
 ```mermaid
 flowchart LR
- R[💰 RECEITA POR CLIENTE<br/>ARPU ou ticket médio<br/>ex: R$ 590/mês]
+ R["💰 RECEITA POR CLIENTE<br/>ARPU ou ticket médio<br/>ex: R$ 590/mês"]
 
- R --> GM[📊 MARGEM BRUTA<br/>receita menos custos diretos<br/>COGS: hosting, pagamento<br/>ex: 80% = R$ 472]
+ R --> GM["📊 MARGEM BRUTA<br/>receita menos custos diretos<br/>COGS: hosting, pagamento<br/>ex: 80% = R$ 472"]
 
- GM --> LT[⏱️ LIFETIME<br/>meses de retenção<br/>1 dividido por churn mensal<br/>ex: 24 meses]
+ GM --> LT["⏱️ LIFETIME<br/>meses de retenção<br/>1 dividido por churn mensal<br/>ex: 24 meses"]
 
- LT --> LTV[💎 LTV<br/>Lifetime Value<br/>GM x Lifetime<br/>R$ 472 x 24 = R$ 11.328]
+ LT --> LTV["💎 LTV<br/>Lifetime Value<br/>GM x Lifetime<br/>R$ 472 x 24 = R$ 11.328"]
 
- CAC[🎯 CAC<br/>Customer Acquisition Cost<br/>gasto total aquisição<br/>dividido por clientes convertidos<br/>ex: R$ 1.800]
+ CAC["🎯 CAC<br/>Customer Acquisition Cost<br/>gasto total aquisição<br/>dividido por clientes convertidos<br/>ex: R$ 1.800"]
 
- LTV --> Ratio[⚖️ LTV : CAC<br/>R$ 11.328 : R$ 1.800<br/>= 6.3x<br/>✅ SAUDÁVEL maior ou igual a 3x]
+ LTV --> Ratio["⚖️ LTV : CAC<br/>R$ 11.328 : R$ 1.800<br/>= 6.3x<br/>✅ SAUDÁVEL maior ou igual a 3x"]
  CAC --> Ratio
 
- CAC --> PB[📅 CAC PAYBACK<br/>CAC dividido por receita mensal x GM%<br/>R$ 1.800 / R$ 472<br/>= 3.8 meses<br/>✅ SAUDÁVEL menor ou igual a 12m]
+ CAC --> PB["📅 CAC PAYBACK<br/>CAC dividido por receita mensal x GM%<br/>R$ 1.800 / R$ 472<br/>= 3.8 meses<br/>✅ SAUDÁVEL menor ou igual a 12m"]
 
  style R fill:#FFD700
  style LTV fill:#90EE90,stroke:#1F6F1F,stroke-width:2px
@@ -5394,20 +5394,20 @@ A SWOT aplicada ao negócio em validação, em estrutura 2x2 clássica:
 flowchart TB
  subgraph Internal["INTERNO, o que você controla"]
  direction LR
- S[💪 STRENGTHS<br/>Forças<br/>• time técnico forte<br/>• domínio do problema<br/>• cliente-zero já paga]
- W[⚠️ WEAKNESSES<br/>Fraquezas<br/>• capital limitado<br/>• marca desconhecida<br/>• sem time de sales]
+ S["💪 STRENGTHS<br/>Forças<br/>• time técnico forte<br/>• domínio do problema<br/>• cliente-zero já paga"]
+ W["⚠️ WEAKNESSES<br/>Fraquezas<br/>• capital limitado<br/>• marca desconhecida<br/>• sem time de sales"]
  end
 
  subgraph External["EXTERNO, o que o mercado traz"]
  direction LR
- O[🚀 OPPORTUNITIES<br/>Oportunidades<br/>• mercado crescendo<br/>• regulação favorável<br/>• concorrente perdendo]
- T[🔴 THREATS<br/>Ameaças<br/>• recessão econômica<br/>• big tech entrando<br/>• commoditização]
+ O["🚀 OPPORTUNITIES<br/>Oportunidades<br/>• mercado crescendo<br/>• regulação favorável<br/>• concorrente perdendo"]
+ T["🔴 THREATS<br/>Ameaças<br/>• recessão econômica<br/>• big tech entrando<br/>• commoditização"]
  end
 
- S --> Strat1[🎯 S para O<br/>Como usar forças<br/>para capturar<br/>oportunidades]
- W --> Strat2[🛡️ W para T<br/>Como mitigar<br/>fraquezas contra<br/>ameaças]
- S --> Strat3[🛡️ S para T<br/>Como defender<br/>com forças]
- W --> Strat4[🎯 W para O<br/>Como investir em<br/>fraquezas dadas<br/>oportunidades]
+ S --> Strat1["🎯 S para O<br/>Como usar forças<br/>para capturar<br/>oportunidades"]
+ W --> Strat2["🛡️ W para T<br/>Como mitigar<br/>fraquezas contra<br/>ameaças"]
+ S --> Strat3["🛡️ S para T<br/>Como defender<br/>com forças"]
+ W --> Strat4["🎯 W para O<br/>Como investir em<br/>fraquezas dadas<br/>oportunidades"]
 
  style S fill:#90EE90
  style W fill:#FFB6B6
@@ -6831,7 +6831,7 @@ flowchart TD
 
  CPO --> PM1[PMs]
  CPO --> DES[Designers]
- CTO --> ENG[Engineering<br/>multiple squads]
+ CTO --> ENG["Engineering<br/>multiple squads"]
  CRO --> AE[AEs]
  CRO --> CS[Customer Success]
  CRO --> MKT[Marketing]
@@ -7121,18 +7121,18 @@ A hierarquia OKR, do North Star aos times:
 
 ```mermaid
 flowchart TD
- NS[⭐ NORTH STAR METRIC<br/>métrica única que<br/>captura valor do produto<br/>ex: Weekly Active Accounts]
+ NS["⭐ NORTH STAR METRIC<br/>métrica única que<br/>captura valor do produto<br/>ex: Weekly Active Accounts"]
 
- NS --> CO[🏢 COMPANY OBJECTIVES<br/>3-5 objetivos trimestrais<br/>da empresa]
+ NS --> CO["🏢 COMPANY OBJECTIVES<br/>3-5 objetivos trimestrais<br/>da empresa"]
 
  CO --> O1[O1: Atingir R$ 30M ARR]
  CO --> O2[O2: Expandir 30% em NRR]
  CO --> O3[O3: Lançar produto B]
 
- O1 --> T1KR[Team OKRs, Sales<br/>KR1: 150 novos logos<br/>KR2: ACV médio R$ 80k]
- O1 --> T2KR[Team OKRs, CS<br/>KR1: NRR 115%<br/>KR2: Churn menor que 2%/mês]
- O2 --> T3KR[Team OKRs, Growth<br/>KR1: CAC payback 6m<br/>KR2: +15% conv. checkout]
- O3 --> T4KR[Team OKRs, Product<br/>KR1: Beta B com 20 clientes<br/>KR2: NPS beta maior ou igual a 40]
+ O1 --> T1KR["Team OKRs, Sales<br/>KR1: 150 novos logos<br/>KR2: ACV médio R$ 80k"]
+ O1 --> T2KR["Team OKRs, CS<br/>KR1: NRR 115%<br/>KR2: Churn menor que 2%/mês"]
+ O2 --> T3KR["Team OKRs, Growth<br/>KR1: CAC payback 6m<br/>KR2: +15% conv. checkout"]
+ O3 --> T4KR["Team OKRs, Product<br/>KR1: Beta B com 20 clientes<br/>KR2: NPS beta maior ou igual a 40"]
 
  style NS fill:#FFD700,stroke:#8B6914,stroke-width:3px
  style CO fill:#87CEEB
@@ -7462,25 +7462,25 @@ Growth loops, alternativa moderna ao funil linear (adicional ao Bullseye):
 ```mermaid
 flowchart LR
  subgraph Loop1["🔄 LOOP DE CONTEÚDO SEO"]
- C1[Usuário cria<br/>conteúdo no produto] --> C2[Conteúdo<br/>público indexável]
+ C1["Usuário cria<br/>conteúdo no produto"] --> C2["Conteúdo<br/>público indexável"]
  C2 --> C3[Google ranqueia]
- C3 --> C4[Novo visitante<br/>chega via busca]
- C4 --> C5[Novo usuário<br/>cria mais conteúdo]
+ C3 --> C4["Novo visitante<br/>chega via busca"]
+ C4 --> C5["Novo usuário<br/>cria mais conteúdo"]
  C5 --> C1
  end
 
  subgraph Loop2["🔄 LOOP VIRAL (K-factor)"]
- V1[Usuário usa<br/>produto] --> V2[Convida<br/>colaborador]
- V2 --> V3[Novo usuário<br/>se cadastra]
- V3 --> V4[Novo usuário<br/>convida]
+ V1["Usuário usa<br/>produto"] --> V2["Convida<br/>colaborador"]
+ V2 --> V3["Novo usuário<br/>se cadastra"]
+ V3 --> V4["Novo usuário<br/>convida"]
  V4 --> V3
  end
 
  subgraph Loop3["🔄 LOOP DE DADOS"]
- D1[Usuário<br/>usa produto] --> D2[Mais dados<br/>coletados]
- D2 --> D3[ML/AI melhora<br/>com dados]
- D3 --> D4[Produto<br/>fica melhor]
- D4 --> D5[Mais usuários<br/>chegam e usam]
+ D1["Usuário<br/>usa produto"] --> D2["Mais dados<br/>coletados"]
+ D2 --> D3["ML/AI melhora<br/>com dados"]
+ D3 --> D4["Produto<br/>fica melhor"]
+ D4 --> D5["Mais usuários<br/>chegam e usam"]
  D5 --> D1
  end
 
@@ -8068,21 +8068,21 @@ A estrutura de uma Opportunity Solution Tree.
 flowchart TD
  O["🎯 OUTCOME DESEJADO<br/>Ex: aumentar retenção<br/>3 → 6 meses"]
 
- O --> Op1[Opportunity 1<br/>Onboarding<br/>confuso]
- O --> Op2[Opportunity 2<br/>Valor demora<br/>a aparecer]
- O --> Op3[Opportunity 3<br/>Falta hábito<br/>de uso]
+ O --> Op1["Opportunity 1<br/>Onboarding<br/>confuso"]
+ O --> Op2["Opportunity 2<br/>Valor demora<br/>a aparecer"]
+ O --> Op3["Opportunity 3<br/>Falta hábito<br/>de uso"]
 
- Op1 --> S1a[💡 Tutorial<br/>interativo]
- Op1 --> S1b[💡 CSM dedicado<br/>no mês 1]
- Op2 --> S2a[💡 Quick win<br/>no dia 1]
- Op2 --> S2b[💡 Dashboard<br/>de valor]
- Op3 --> S3a[💡 Notificações<br/>inteligentes]
- Op3 --> S3b[💡 Streak /<br/>gamification]
+ Op1 --> S1a["💡 Tutorial<br/>interativo"]
+ Op1 --> S1b["💡 CSM dedicado<br/>no mês 1"]
+ Op2 --> S2a["💡 Quick win<br/>no dia 1"]
+ Op2 --> S2b["💡 Dashboard<br/>de valor"]
+ Op3 --> S3a["💡 Notificações<br/>inteligentes"]
+ Op3 --> S3b["💡 Streak /<br/>gamification"]
 
- S1a --> E1[🧪 A/B tutorial<br/>vs atual]
- S1b --> E2[🧪 Coorte com<br/>CSM]
- S2a --> E3[🧪 Streamline<br/>onboarding]
- S2b --> E4[🧪 Beta<br/>dashboard]
+ S1a --> E1["🧪 A/B tutorial<br/>vs atual"]
+ S1b --> E2["🧪 Coorte com<br/>CSM"]
+ S2a --> E3["🧪 Streamline<br/>onboarding"]
+ S2b --> E4["🧪 Beta<br/>dashboard"]
 
  style O fill:#FFD700,stroke:#8B6914,stroke-width:3px
  style Op1 fill:#87CEEB
@@ -8855,13 +8855,13 @@ A arquitetura de cascata de modelos é o padrão econômico.
 
 ```mermaid
 flowchart TD
- I[Input do usuário] --> Cls{Classificador<br/>leve de<br/>complexidade}
+ I[Input do usuário] --> Cls{"Classificador<br/>leve de<br/>complexidade"}
 
- Cls -->|Simples<br/>~80%| S[⚡ Modelo pequeno<br/>Haiku / Nano / Flash<br/>US$ 0,5-3 / 1M tokens<br/>latência < 500ms]
- Cls -->|Médio<br/>~15%| M[⚖️ Modelo balanceado<br/>Sonnet / 4o mini / Pro<br/>US$ 3-15 / 1M tokens<br/>latência 1-3s]
- Cls -->|Complexo<br/>~5%| L[🎯 Modelo fronteira<br/>Opus / GPT-4.5 / Ultra<br/>US$ 10-75 / 1M tokens<br/>latência 3-10s]
+ Cls -->|"Simples<br/>~80%"| S["⚡ Modelo pequeno<br/>Haiku / Nano / Flash<br/>US$ 0,5-3 / 1M tokens<br/>latência < 500ms"]
+ Cls -->|"Médio<br/>~15%"| M["⚖️ Modelo balanceado<br/>Sonnet / 4o mini / Pro<br/>US$ 3-15 / 1M tokens<br/>latência 1-3s"]
+ Cls -->|"Complexo<br/>~5%"| L["🎯 Modelo fronteira<br/>Opus / GPT-4.5 / Ultra<br/>US$ 10-75 / 1M tokens<br/>latência 3-10s"]
 
- S --> Conf{Confiança<br/>≥ threshold?}
+ S --> Conf{"Confiança<br/>≥ threshold?"}
  M --> Conf
 
  Conf -->|Sim| Out[✅ Resposta]
@@ -8910,21 +8910,21 @@ A arquitetura RAG completa, incluindo técnicas avançadas.
 ```mermaid
 flowchart LR
  subgraph Ingest["📥 INGESTÃO (offline)"]
- D1[Documentos<br/>PDFs, docs, bases] --> C1[Chunking<br/>200-800 tokens<br/>coerente]
- C1 --> E1[Embeddings<br/>modelo embedding]
- E1 --> VDB[(🔵 Vector DB<br/>Pinecone / Weaviate<br/>Qdrant / pgvector)]
+ D1["Documentos<br/>PDFs, docs, bases"] --> C1["Chunking<br/>200-800 tokens<br/>coerente"]
+ C1 --> E1["Embeddings<br/>modelo embedding"]
+ E1 --> VDB["(🔵 Vector DB<br/>Pinecone / Weaviate<br/>Qdrant / pgvector)"]
  end
 
  subgraph Query["🔍 QUERY (runtime)"]
- U[❓ Pergunta<br/>do usuário] --> QR[Query rewriting<br/>LLM opcional]
- QR --> HS[Hybrid search<br/>semantic + BM25]
+ U["❓ Pergunta<br/>do usuário"] --> QR["Query rewriting<br/>LLM opcional"]
+ QR --> HS["Hybrid search<br/>semantic + BM25"]
  HS --> VDB
- VDB --> TopK[Top-K<br/>documentos]
- TopK --> RR[Re-ranking<br/>cross-encoder<br/>Cohere / Voyage]
- RR --> Ctx[📋 Contexto<br/>selecionado]
- Ctx --> LLM[🤖 LLM Generation<br/>com citações obrigatórias]
+ VDB --> TopK["Top-K<br/>documentos"]
+ TopK --> RR["Re-ranking<br/>cross-encoder<br/>Cohere / Voyage"]
+ RR --> Ctx["📋 Contexto<br/>selecionado"]
+ Ctx --> LLM["🤖 LLM Generation<br/>com citações obrigatórias"]
  U --> LLM
- LLM --> R[✅ Resposta<br/>+ fontes]
+ LLM --> R["✅ Resposta<br/>+ fontes"]
  end
 
  style VDB fill:#FFD700,stroke:#8B6914,stroke-width:2px
@@ -10393,22 +10393,22 @@ Health score composto, com triggers por cor.
 ```mermaid
 flowchart LR
  subgraph Inputs["📊 INPUTS, 5 dimensões"]
- I1[📈 Uso do produto<br/>DAU/MAU<br/>features-chave]
- I2[💬 Engagement<br/>resposta a outreach<br/>participação QBR]
- I3[🎯 Business outcome<br/>métricas do cliente<br/>success criteria]
- I4[😊 Sentiment<br/>NPS, CSAT<br/>tone de tickets]
- I5[📈 Expansion signals<br/>crescimento de uso<br/>multi-seat adoption]
+ I1["📈 Uso do produto<br/>DAU/MAU<br/>features-chave"]
+ I2["💬 Engagement<br/>resposta a outreach<br/>participação QBR"]
+ I3["🎯 Business outcome<br/>métricas do cliente<br/>success criteria"]
+ I4["😊 Sentiment<br/>NPS, CSAT<br/>tone de tickets"]
+ I5["📈 Expansion signals<br/>crescimento de uso<br/>multi-seat adoption"]
  end
 
- Inputs --> Score[⚙️ HEALTH SCORE<br/>composto ponderado]
+ Inputs --> Score["⚙️ HEALTH SCORE<br/>composto ponderado"]
 
- Score --> G[🟢 VERDE<br/>Saudável<br/>Renovação provável<br/>Expansion candidate]
- Score --> Y[🟡 AMARELO<br/>Alerta<br/>CSM touch específico<br/>Plano de ação]
- Score --> R[🔴 VERMELHO<br/>Risco<br/>Save motion urgente<br/>Escalação]
+ Score --> G["🟢 VERDE<br/>Saudável<br/>Renovação provável<br/>Expansion candidate"]
+ Score --> Y["🟡 AMARELO<br/>Alerta<br/>CSM touch específico<br/>Plano de ação"]
+ Score --> R["🔴 VERMELHO<br/>Risco<br/>Save motion urgente<br/>Escalação"]
 
- G -.-> Act1[Ação: advocacy<br/>expansion play]
- Y -.-> Act2[Ação: recovery<br/>QBR extraordinário]
- R -.-> Act3[Ação: exec sponsor<br/>save offer]
+ G -.-> Act1["Ação: advocacy<br/>expansion play"]
+ Y -.-> Act2["Ação: recovery<br/>QBR extraordinário"]
+ R -.-> Act3["Ação: exec sponsor<br/>save offer"]
 
  style G fill:#90EE90,stroke:#1F6F1F,stroke-width:2px
  style Y fill:#FFFF99,stroke:#8B8B00,stroke-width:2px
@@ -16828,18 +16828,18 @@ A maioria dos fundadores iniciantes testa um a dois canais favoritos (tipicament
 
 ```mermaid
 flowchart TD
- Outer[🔵 OUTER RING<br/>'Possíveis'<br/>todos os 19 canais<br/>brainstorm inicial]
+ Outer["🔵 OUTER RING<br/>'Possíveis'<br/>todos os 19 canais<br/>brainstorm inicial"]
 
- Outer --> Middle[🟡 MIDDLE RING<br/>'Prometedores'<br/>3-5 canais com hipótese<br/>de funcionar no seu caso]
+ Outer --> Middle["🟡 MIDDLE RING<br/>'Prometedores'<br/>3-5 canais com hipótese<br/>de funcionar no seu caso"]
 
- Middle --> Inner[🟢 INNER RING<br/>'Funcionando'<br/>1-2 canais testados<br/>com CAC aceitável]
+ Middle --> Inner["🟢 INNER RING<br/>'Funcionando'<br/>1-2 canais testados<br/>com CAC aceitável"]
 
- Inner --> Focus[🎯 FOCO total<br/>dobrar e refinar<br/>o canal ganhador]
+ Inner --> Focus["🎯 FOCO total<br/>dobrar e refinar<br/>o canal ganhador"]
 
  Outer -.testes rápidos baratos.-> Middle
  Middle -.experimentos estruturados.-> Inner
 
- Middle --> Ex[📝 Exemplos de canais:<br/>Viral, PR, Unconventional,<br/>SEM, Social Ads, Offline Ads,<br/>SEO, Content Marketing,<br/>Email, Engineering as MKT,<br/>Targeting Blogs, Business Dev,<br/>Sales, Affiliate, Existing Platforms,<br/>Trade Shows, Offline Events,<br/>Speaking, Community Building]
+ Middle --> Ex["📝 Exemplos de canais:<br/>Viral, PR, Unconventional,<br/>SEM, Social Ads, Offline Ads,<br/>SEO, Content Marketing,<br/>Email, Engineering as MKT,<br/>Targeting Blogs, Business Dev,<br/>Sales, Affiliate, Existing Platforms,<br/>Trade Shows, Offline Events,<br/>Speaking, Community Building"]
 
  style Outer fill:#E8F4F8
  style Middle fill:#FFFF99
@@ -16892,11 +16892,11 @@ Um canal com alta aquisição, mas baixa ativação, está trazendo o público e
 
 ```mermaid
 flowchart TD
- Aq[🎯 AQUISIÇÃO<br/>Canal → visitante/lead<br/>Métrica: CAC, volume, CAC payback]
- Ac[✨ ATIVAÇÃO<br/>Primeira experiência de valor<br/>Métrica: % que completa ação-chave em D1-D7]
- Rt[🔁 RETENÇÃO<br/>Volta e usa recorrentemente<br/>Métrica: W1/W4/M3/M6 retention]
- Rv[💰 RECEITA<br/>Paga, upgrade, expande<br/>Métrica: ARPU, LTV, NRR, expansion MRR]
- Rf[📢 REFERRAL<br/>Indica outros ativamente<br/>Métrica: K-factor, NPS, viral coefficient]
+ Aq["🎯 AQUISIÇÃO<br/>Canal → visitante/lead<br/>Métrica: CAC, volume, CAC payback"]
+ Ac["✨ ATIVAÇÃO<br/>Primeira experiência de valor<br/>Métrica: % que completa ação-chave em D1-D7"]
+ Rt["🔁 RETENÇÃO<br/>Volta e usa recorrentemente<br/>Métrica: W1/W4/M3/M6 retention"]
+ Rv["💰 RECEITA<br/>Paga, upgrade, expande<br/>Métrica: ARPU, LTV, NRR, expansion MRR"]
+ Rf["📢 REFERRAL<br/>Indica outros ativamente<br/>Métrica: K-factor, NPS, viral coefficient"]
 
  Aq --> Ac
  Ac --> Rt
@@ -21723,8 +21723,8 @@ flowchart TD
     Q3 -->|Sim| SEC["Secondary sale<br/>Venda parcial de ações<br/>Desconto 10–30% vs primary"]
 
     Q3 -->|Não| Q4{"Empresa é<br/>líder ou tem<br/>defensabilidade clara?"}
-    Q4 -->|EBITDA positivo<br/>e estável| PE["M&A Financeiro<br/>Private Equity<br/>4–10x EBITDA"]
-    Q4 -->|Crescimento alto<br/>e tech diferenciada| Q5{"ARR ≥ R$500M<br/>e crescimento ≥40%?"}
+    Q4 -->|"EBITDA positivo<br/>e estável"| PE["M&A Financeiro<br/>Private Equity<br/>4–10x EBITDA"]
+    Q4 -->|"Crescimento alto<br/>e tech diferenciada"| Q5{"ARR ≥ R$500M<br/>e crescimento ≥40%?"}
 
     Q5 -->|Sim| IPO["IPO<br/>Valuation máximo<br/>Custo R$30–100M"]
     Q5 -->|Não| STRATEGIC["M&A Estratégico<br/>Comprador do setor<br/>5–15x ARR"]
@@ -34552,33 +34552,33 @@ Esse apêndice já cobriu a integração entre os frameworks científico (João 
 ```mermaid
 flowchart LR
  subgraph Fund["Fases 0-1B"]
- F1A[📚 CIENTÍFICO<br/>protagonista]
- F1B[⚙️ OPERACIONAL<br/>apoio]
- F1C[🔍 DESCOBERTA<br/>apoio]
+ F1A["📚 CIENTÍFICO<br/>protagonista"]
+ F1B["⚙️ OPERACIONAL<br/>apoio"]
+ F1C["🔍 DESCOBERTA<br/>apoio"]
  end
 
  subgraph Desc["Fases 2-4"]
- D1A[📚 CIENTÍFICO<br/>apoio]
- D1B[⚙️ OPERACIONAL<br/>protagonista]
- D1C[🔍 DESCOBERTA<br/>crescente]
+ D1A["📚 CIENTÍFICO<br/>apoio"]
+ D1B["⚙️ OPERACIONAL<br/>protagonista"]
+ D1C["🔍 DESCOBERTA<br/>crescente"]
  end
 
  subgraph Hip["Fases 5-6"]
- H1A[📚 CIENTÍFICO<br/>protagonista]
- H1B[⚙️ OPERACIONAL<br/>apoio]
- H1C[🔍 DESCOBERTA<br/>apoio]
+ H1A["📚 CIENTÍFICO<br/>protagonista"]
+ H1B["⚙️ OPERACIONAL<br/>apoio"]
+ H1C["🔍 DESCOBERTA<br/>apoio"]
  end
 
  subgraph Sol["Fases 7-11"]
- S1A[📚 CIENTÍFICO<br/>apoio]
- S1B[⚙️ OPERACIONAL<br/>protagonista]
- S1C[🔍 DESCOBERTA<br/>crescente]
+ S1A["📚 CIENTÍFICO<br/>apoio"]
+ S1B["⚙️ OPERACIONAL<br/>protagonista"]
+ S1C["🔍 DESCOBERTA<br/>crescente"]
  end
 
  subgraph Esc["Fases 12-15"]
- E1A[📚 CIENTÍFICO<br/>pontual]
- E1B[⚙️ OPERACIONAL<br/>forte]
- E1C[🔍 DESCOBERTA<br/>PROTAGONISTA]
+ E1A["📚 CIENTÍFICO<br/>pontual"]
+ E1B["⚙️ OPERACIONAL<br/>forte"]
+ E1C["🔍 DESCOBERTA<br/>PROTAGONISTA"]
  end
 
  Fund --> Desc --> Hip --> Sol --> Esc

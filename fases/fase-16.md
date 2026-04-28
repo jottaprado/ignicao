@@ -42,8 +42,8 @@ flowchart TD
     Q3 -->|Sim| SEC["Secondary sale<br/>Venda parcial de ações<br/>Desconto 10–30% vs primary"]
 
     Q3 -->|Não| Q4{"Empresa é<br/>líder ou tem<br/>defensabilidade clara?"}
-    Q4 -->|EBITDA positivo<br/>e estável| PE["M&A Financeiro<br/>Private Equity<br/>4–10x EBITDA"]
-    Q4 -->|Crescimento alto<br/>e tech diferenciada| Q5{"ARR ≥ R$500M<br/>e crescimento ≥40%?"}
+    Q4 -->|"EBITDA positivo<br/>e estável"| PE["M&A Financeiro<br/>Private Equity<br/>4–10x EBITDA"]
+    Q4 -->|"Crescimento alto<br/>e tech diferenciada"| Q5{"ARR ≥ R$500M<br/>e crescimento ≥40%?"}
 
     Q5 -->|Sim| IPO["IPO<br/>Valuation máximo<br/>Custo R$30–100M"]
     Q5 -->|Não| STRATEGIC["M&A Estratégico<br/>Comprador do setor<br/>5–15x ARR"]

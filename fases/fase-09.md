@@ -152,12 +152,12 @@ A priorização MoSCoW para escopo de MVP, em estrutura visual:
 flowchart LR
  subgraph M["🔴 MUST HAVE<br/>sem isso não vai ao ar<br/>5-15 itens"]
  M1[Features core]
- M2[Sem elas, MVP<br/>não resolve a dor]
+ M2["Sem elas, MVP<br/>não resolve a dor"]
  end
 
  subgraph S["🟠 SHOULD HAVE<br/>importante mas<br/>pode esperar 1-2 sprints"]
  S1[Features significativas]
- S2[Workarounds existem<br/>para primeira versão]
+ S2["Workarounds existem<br/>para primeira versão"]
  end
 
  subgraph C["🟡 COULD HAVE<br/>nice-to-have<br/>se sobrar tempo"]
@@ -166,14 +166,14 @@ flowchart LR
  end
 
  subgraph W["⚪ WONT HAVE<br/>explicitamente FORA<br/>do escopo deste MVP"]
- W1[Features que<br/>NÃO vão ser feitas]
- W2[Decisão consciente,<br/>não esquecimento]
+ W1["Features que<br/>NÃO vão ser feitas"]
+ W2["Decisão consciente,<br/>não esquecimento"]
  end
 
- M -.-> Build[🔨 Build MVP<br/>sprint 1-4]
- S -.-> Later[⏳ Roadmap<br/>sprint 5+]
- C -.-> Nice[🎁 Se sobrar<br/>capacidade]
- W -.-> Never[❌ Nunca<br/>neste MVP]
+ M -.-> Build["🔨 Build MVP<br/>sprint 1-4"]
+ S -.-> Later["⏳ Roadmap<br/>sprint 5+"]
+ C -.-> Nice["🎁 Se sobrar<br/>capacidade"]
+ W -.-> Never["❌ Nunca<br/>neste MVP"]
 
  style M fill:#FFB6B6,stroke:#8B0000,stroke-width:2px
  style S fill:#FFD580

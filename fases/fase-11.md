@@ -9,20 +9,20 @@ A cascata visual de Unit Economics, da receita por cliente à saúde do negócio
 
 ```mermaid
 flowchart LR
- R[💰 RECEITA POR CLIENTE<br/>ARPU ou ticket médio<br/>ex: R$ 590/mês]
+ R["💰 RECEITA POR CLIENTE<br/>ARPU ou ticket médio<br/>ex: R$ 590/mês"]
 
- R --> GM[📊 MARGEM BRUTA<br/>receita menos custos diretos<br/>COGS: hosting, pagamento<br/>ex: 80% = R$ 472]
+ R --> GM["📊 MARGEM BRUTA<br/>receita menos custos diretos<br/>COGS: hosting, pagamento<br/>ex: 80% = R$ 472"]
 
- GM --> LT[⏱️ LIFETIME<br/>meses de retenção<br/>1 dividido por churn mensal<br/>ex: 24 meses]
+ GM --> LT["⏱️ LIFETIME<br/>meses de retenção<br/>1 dividido por churn mensal<br/>ex: 24 meses"]
 
- LT --> LTV[💎 LTV<br/>Lifetime Value<br/>GM x Lifetime<br/>R$ 472 x 24 = R$ 11.328]
+ LT --> LTV["💎 LTV<br/>Lifetime Value<br/>GM x Lifetime<br/>R$ 472 x 24 = R$ 11.328"]
 
- CAC[🎯 CAC<br/>Customer Acquisition Cost<br/>gasto total aquisição<br/>dividido por clientes convertidos<br/>ex: R$ 1.800]
+ CAC["🎯 CAC<br/>Customer Acquisition Cost<br/>gasto total aquisição<br/>dividido por clientes convertidos<br/>ex: R$ 1.800"]
 
- LTV --> Ratio[⚖️ LTV : CAC<br/>R$ 11.328 : R$ 1.800<br/>= 6.3x<br/>✅ SAUDÁVEL maior ou igual a 3x]
+ LTV --> Ratio["⚖️ LTV : CAC<br/>R$ 11.328 : R$ 1.800<br/>= 6.3x<br/>✅ SAUDÁVEL maior ou igual a 3x"]
  CAC --> Ratio
 
- CAC --> PB[📅 CAC PAYBACK<br/>CAC dividido por receita mensal x GM%<br/>R$ 1.800 / R$ 472<br/>= 3.8 meses<br/>✅ SAUDÁVEL menor ou igual a 12m]
+ CAC --> PB["📅 CAC PAYBACK<br/>CAC dividido por receita mensal x GM%<br/>R$ 1.800 / R$ 472<br/>= 3.8 meses<br/>✅ SAUDÁVEL menor ou igual a 12m"]
 
  style R fill:#FFD700
  style LTV fill:#90EE90,stroke:#1F6F1F,stroke-width:2px
@@ -40,20 +40,20 @@ A SWOT aplicada ao negócio em validação, em estrutura 2x2 clássica:
 flowchart TB
  subgraph Internal["INTERNO, o que você controla"]
  direction LR
- S[💪 STRENGTHS<br/>Forças<br/>• time técnico forte<br/>• domínio do problema<br/>• cliente-zero já paga]
- W[⚠️ WEAKNESSES<br/>Fraquezas<br/>• capital limitado<br/>• marca desconhecida<br/>• sem time de sales]
+ S["💪 STRENGTHS<br/>Forças<br/>• time técnico forte<br/>• domínio do problema<br/>• cliente-zero já paga"]
+ W["⚠️ WEAKNESSES<br/>Fraquezas<br/>• capital limitado<br/>• marca desconhecida<br/>• sem time de sales"]
  end
 
  subgraph External["EXTERNO, o que o mercado traz"]
  direction LR
- O[🚀 OPPORTUNITIES<br/>Oportunidades<br/>• mercado crescendo<br/>• regulação favorável<br/>• concorrente perdendo]
- T[🔴 THREATS<br/>Ameaças<br/>• recessão econômica<br/>• big tech entrando<br/>• commoditização]
+ O["🚀 OPPORTUNITIES<br/>Oportunidades<br/>• mercado crescendo<br/>• regulação favorável<br/>• concorrente perdendo"]
+ T["🔴 THREATS<br/>Ameaças<br/>• recessão econômica<br/>• big tech entrando<br/>• commoditização"]
  end
 
- S --> Strat1[🎯 S para O<br/>Como usar forças<br/>para capturar<br/>oportunidades]
- W --> Strat2[🛡️ W para T<br/>Como mitigar<br/>fraquezas contra<br/>ameaças]
- S --> Strat3[🛡️ S para T<br/>Como defender<br/>com forças]
- W --> Strat4[🎯 W para O<br/>Como investir em<br/>fraquezas dadas<br/>oportunidades]
+ S --> Strat1["🎯 S para O<br/>Como usar forças<br/>para capturar<br/>oportunidades"]
+ W --> Strat2["🛡️ W para T<br/>Como mitigar<br/>fraquezas contra<br/>ameaças"]
+ S --> Strat3["🛡️ S para T<br/>Como defender<br/>com forças"]
+ W --> Strat4["🎯 W para O<br/>Como investir em<br/>fraquezas dadas<br/>oportunidades"]
 
  style S fill:#90EE90
  style W fill:#FFB6B6

@@ -66,20 +66,20 @@ A estrutura visual:
 ```mermaid
 flowchart LR
  subgraph Trigger["⚡ CIRCUNSTÂNCIA"]
- T1[Quando eu estou<br/>nesta situação...]
+ T1["Quando eu estou<br/>nesta situação..."]
  end
 
  subgraph Motivation["🎯 MOTIVAÇÃO"]
- M1[...eu quero<br/>realizar esta ação...]
+ M1["...eu quero<br/>realizar esta ação..."]
  end
 
  subgraph Outcome["✨ RESULTADO DESEJADO"]
- O1[...para poder<br/>atingir este ganho.]
+ O1["...para poder<br/>atingir este ganho."]
  end
 
  Trigger --> Motivation --> Outcome
 
- O1 --> Ex[📝 EXEMPLO<br/>'Quando estou fechando o mês<br/>e preciso conferir 30 planilhas,<br/>eu quero consolidar tudo<br/>automaticamente para poder<br/>entregar o relatório sem virar a noite']
+ O1 --> Ex["📝 EXEMPLO<br/>'Quando estou fechando o mês<br/>e preciso conferir 30 planilhas,<br/>eu quero consolidar tudo<br/>automaticamente para poder<br/>entregar o relatório sem virar a noite'"]
 
  style Trigger fill:#FFE4B5
  style Motivation fill:#87CEEB
@@ -209,15 +209,15 @@ A estrutura visual de uma persona operacional, em contraste com persona demográ
 
 ```mermaid
 flowchart TD
- P[👤 PERSONA<br/>Nome fictício + foto<br/>ex: 'Mariana, dona de padaria']
+ P["👤 PERSONA<br/>Nome fictício + foto<br/>ex: 'Mariana, dona de padaria'"]
 
- P --> Ctx[📍 CONTEXTO<br/>cargo, empresa,<br/>tempo de experiência,<br/>dia típico]
- P --> Dor[🔴 DORES<br/>problemas frequentes<br/>Pain Level 4-5]
- P --> JTBD[🎯 JTBD<br/>qual 'trabalho' quer<br/>que a solução faça]
- P --> Obj[🚫 OBJEÇÕES<br/>razões para NÃO<br/>comprar sua solução]
- P --> Suc[✅ MÉTRICAS DE SUCESSO<br/>como ela sabe que<br/>o problema foi resolvido]
- P --> Canal[📡 CANAIS<br/>onde ela busca<br/>informação / decide]
- P --> Quote[💬 QUOTES<br/>falas literais<br/>de entrevistas]
+ P --> Ctx["📍 CONTEXTO<br/>cargo, empresa,<br/>tempo de experiência,<br/>dia típico"]
+ P --> Dor["🔴 DORES<br/>problemas frequentes<br/>Pain Level 4-5"]
+ P --> JTBD["🎯 JTBD<br/>qual 'trabalho' quer<br/>que a solução faça"]
+ P --> Obj["🚫 OBJEÇÕES<br/>razões para NÃO<br/>comprar sua solução"]
+ P --> Suc["✅ MÉTRICAS DE SUCESSO<br/>como ela sabe que<br/>o problema foi resolvido"]
+ P --> Canal["📡 CANAIS<br/>onde ela busca<br/>informação / decide"]
+ P --> Quote["💬 QUOTES<br/>falas literais<br/>de entrevistas"]
 
  style P fill:#FFD700,stroke:#8B6914,stroke-width:3px
  style Dor fill:#FFB6B6

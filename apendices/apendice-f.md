@@ -171,33 +171,33 @@ Esse apêndice já cobriu a integração entre os frameworks científico (João 
 ```mermaid
 flowchart LR
  subgraph Fund["Fases 0-1B"]
- F1A[📚 CIENTÍFICO<br/>protagonista]
- F1B[⚙️ OPERACIONAL<br/>apoio]
- F1C[🔍 DESCOBERTA<br/>apoio]
+ F1A["📚 CIENTÍFICO<br/>protagonista"]
+ F1B["⚙️ OPERACIONAL<br/>apoio"]
+ F1C["🔍 DESCOBERTA<br/>apoio"]
  end
 
  subgraph Desc["Fases 2-4"]
- D1A[📚 CIENTÍFICO<br/>apoio]
- D1B[⚙️ OPERACIONAL<br/>protagonista]
- D1C[🔍 DESCOBERTA<br/>crescente]
+ D1A["📚 CIENTÍFICO<br/>apoio"]
+ D1B["⚙️ OPERACIONAL<br/>protagonista"]
+ D1C["🔍 DESCOBERTA<br/>crescente"]
  end
 
  subgraph Hip["Fases 5-6"]
- H1A[📚 CIENTÍFICO<br/>protagonista]
- H1B[⚙️ OPERACIONAL<br/>apoio]
- H1C[🔍 DESCOBERTA<br/>apoio]
+ H1A["📚 CIENTÍFICO<br/>protagonista"]
+ H1B["⚙️ OPERACIONAL<br/>apoio"]
+ H1C["🔍 DESCOBERTA<br/>apoio"]
  end
 
  subgraph Sol["Fases 7-11"]
- S1A[📚 CIENTÍFICO<br/>apoio]
- S1B[⚙️ OPERACIONAL<br/>protagonista]
- S1C[🔍 DESCOBERTA<br/>crescente]
+ S1A["📚 CIENTÍFICO<br/>apoio"]
+ S1B["⚙️ OPERACIONAL<br/>protagonista"]
+ S1C["🔍 DESCOBERTA<br/>crescente"]
  end
 
  subgraph Esc["Fases 12-15"]
- E1A[📚 CIENTÍFICO<br/>pontual]
- E1B[⚙️ OPERACIONAL<br/>forte]
- E1C[🔍 DESCOBERTA<br/>PROTAGONISTA]
+ E1A["📚 CIENTÍFICO<br/>pontual"]
+ E1B["⚙️ OPERACIONAL<br/>forte"]
+ E1C["🔍 DESCOBERTA<br/>PROTAGONISTA"]
  end
 
  Fund --> Desc --> Hip --> Sol --> Esc

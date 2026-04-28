@@ -11,23 +11,23 @@ part: parte-i
 ```mermaid
 flowchart LR
  subgraph C["✅ CERTEZAS<br/>(evidência sólida)"]
- C1[Fatos comprovados<br/>por entrevistas, dados,<br/>observação direta]
- C2[Ex: '15/15 entrevistados<br/>gastam 2h+/dia<br/>com este problema']
+ C1["Fatos comprovados<br/>por entrevistas, dados,<br/>observação direta"]
+ C2["Ex: '15/15 entrevistados<br/>gastam 2h+/dia<br/>com este problema'"]
  end
 
  subgraph S["❓ SUPOSIÇÕES<br/>(acho mas não confirmei)"]
- S1[Crenças plausíveis<br/>sem evidência forte<br/>ainda]
- S2[Ex: 'Acho que<br/>pagariam R$ 500/mês<br/>por uma solução']
+ S1["Crenças plausíveis<br/>sem evidência forte<br/>ainda"]
+ S2["Ex: 'Acho que<br/>pagariam R$ 500/mês<br/>por uma solução'"]
  end
 
  subgraph D["⚠️ DÚVIDAS<br/>(nem sei o que não sei)"]
- D1[Áreas inexploradas<br/>onde precisa<br/>investigar primeiro]
- D2[Ex: 'Não sei como<br/>decidem compra<br/>em empresa B2B']
+ D1["Áreas inexploradas<br/>onde precisa<br/>investigar primeiro"]
+ D2["Ex: 'Não sei como<br/>decidem compra<br/>em empresa B2B'"]
  end
 
  C -.->|não testar, usar| Go1[✅ Base de execução]
- S -.->|TESTAR PRIMEIRO| Go2[🧪 Gerar hipóteses<br/>e experimentos]
- D -.->|investigar antes<br/>de hipotetizar| Go3[🔍 Mais pesquisa<br/>qualitativa]
+ S -.->|TESTAR PRIMEIRO| Go2["🧪 Gerar hipóteses<br/>e experimentos"]
+ D -.->|"investigar antes<br/>de hipotetizar"| Go3["🔍 Mais pesquisa<br/>qualitativa"]
 
  style C fill:#90EE90
  style S fill:#FFFF99

@@ -46,21 +46,21 @@ A estrutura de uma Opportunity Solution Tree.
 flowchart TD
  O["🎯 OUTCOME DESEJADO<br/>Ex: aumentar retenção<br/>3 → 6 meses"]
 
- O --> Op1[Opportunity 1<br/>Onboarding<br/>confuso]
- O --> Op2[Opportunity 2<br/>Valor demora<br/>a aparecer]
- O --> Op3[Opportunity 3<br/>Falta hábito<br/>de uso]
+ O --> Op1["Opportunity 1<br/>Onboarding<br/>confuso"]
+ O --> Op2["Opportunity 2<br/>Valor demora<br/>a aparecer"]
+ O --> Op3["Opportunity 3<br/>Falta hábito<br/>de uso"]
 
- Op1 --> S1a[💡 Tutorial<br/>interativo]
- Op1 --> S1b[💡 CSM dedicado<br/>no mês 1]
- Op2 --> S2a[💡 Quick win<br/>no dia 1]
- Op2 --> S2b[💡 Dashboard<br/>de valor]
- Op3 --> S3a[💡 Notificações<br/>inteligentes]
- Op3 --> S3b[💡 Streak /<br/>gamification]
+ Op1 --> S1a["💡 Tutorial<br/>interativo"]
+ Op1 --> S1b["💡 CSM dedicado<br/>no mês 1"]
+ Op2 --> S2a["💡 Quick win<br/>no dia 1"]
+ Op2 --> S2b["💡 Dashboard<br/>de valor"]
+ Op3 --> S3a["💡 Notificações<br/>inteligentes"]
+ Op3 --> S3b["💡 Streak /<br/>gamification"]
 
- S1a --> E1[🧪 A/B tutorial<br/>vs atual]
- S1b --> E2[🧪 Coorte com<br/>CSM]
- S2a --> E3[🧪 Streamline<br/>onboarding]
- S2b --> E4[🧪 Beta<br/>dashboard]
+ S1a --> E1["🧪 A/B tutorial<br/>vs atual"]
+ S1b --> E2["🧪 Coorte com<br/>CSM"]
+ S2a --> E3["🧪 Streamline<br/>onboarding"]
+ S2b --> E4["🧪 Beta<br/>dashboard"]
 
  style O fill:#FFD700,stroke:#8B6914,stroke-width:3px
  style Op1 fill:#87CEEB

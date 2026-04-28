@@ -130,7 +130,7 @@ flowchart TD
 
  CPO --> PM1[PMs]
  CPO --> DES[Designers]
- CTO --> ENG[Engineering<br/>multiple squads]
+ CTO --> ENG["Engineering<br/>multiple squads"]
  CRO --> AE[AEs]
  CRO --> CS[Customer Success]
  CRO --> MKT[Marketing]
@@ -420,18 +420,18 @@ A hierarquia OKR, do North Star aos times:
 
 ```mermaid
 flowchart TD
- NS[⭐ NORTH STAR METRIC<br/>métrica única que<br/>captura valor do produto<br/>ex: Weekly Active Accounts]
+ NS["⭐ NORTH STAR METRIC<br/>métrica única que<br/>captura valor do produto<br/>ex: Weekly Active Accounts"]
 
- NS --> CO[🏢 COMPANY OBJECTIVES<br/>3-5 objetivos trimestrais<br/>da empresa]
+ NS --> CO["🏢 COMPANY OBJECTIVES<br/>3-5 objetivos trimestrais<br/>da empresa"]
 
  CO --> O1[O1: Atingir R$ 30M ARR]
  CO --> O2[O2: Expandir 30% em NRR]
  CO --> O3[O3: Lançar produto B]
 
- O1 --> T1KR[Team OKRs, Sales<br/>KR1: 150 novos logos<br/>KR2: ACV médio R$ 80k]
- O1 --> T2KR[Team OKRs, CS<br/>KR1: NRR 115%<br/>KR2: Churn menor que 2%/mês]
- O2 --> T3KR[Team OKRs, Growth<br/>KR1: CAC payback 6m<br/>KR2: +15% conv. checkout]
- O3 --> T4KR[Team OKRs, Product<br/>KR1: Beta B com 20 clientes<br/>KR2: NPS beta maior ou igual a 40]
+ O1 --> T1KR["Team OKRs, Sales<br/>KR1: 150 novos logos<br/>KR2: ACV médio R$ 80k"]
+ O1 --> T2KR["Team OKRs, CS<br/>KR1: NRR 115%<br/>KR2: Churn menor que 2%/mês"]
+ O2 --> T3KR["Team OKRs, Growth<br/>KR1: CAC payback 6m<br/>KR2: +15% conv. checkout"]
+ O3 --> T4KR["Team OKRs, Product<br/>KR1: Beta B com 20 clientes<br/>KR2: NPS beta maior ou igual a 40"]
 
  style NS fill:#FFD700,stroke:#8B6914,stroke-width:3px
  style CO fill:#87CEEB
@@ -761,25 +761,25 @@ Growth loops, alternativa moderna ao funil linear (adicional ao Bullseye):
 ```mermaid
 flowchart LR
  subgraph Loop1["🔄 LOOP DE CONTEÚDO SEO"]
- C1[Usuário cria<br/>conteúdo no produto] --> C2[Conteúdo<br/>público indexável]
+ C1["Usuário cria<br/>conteúdo no produto"] --> C2["Conteúdo<br/>público indexável"]
  C2 --> C3[Google ranqueia]
- C3 --> C4[Novo visitante<br/>chega via busca]
- C4 --> C5[Novo usuário<br/>cria mais conteúdo]
+ C3 --> C4["Novo visitante<br/>chega via busca"]
+ C4 --> C5["Novo usuário<br/>cria mais conteúdo"]
  C5 --> C1
  end
 
  subgraph Loop2["🔄 LOOP VIRAL (K-factor)"]
- V1[Usuário usa<br/>produto] --> V2[Convida<br/>colaborador]
- V2 --> V3[Novo usuário<br/>se cadastra]
- V3 --> V4[Novo usuário<br/>convida]
+ V1["Usuário usa<br/>produto"] --> V2["Convida<br/>colaborador"]
+ V2 --> V3["Novo usuário<br/>se cadastra"]
+ V3 --> V4["Novo usuário<br/>convida"]
  V4 --> V3
  end
 
  subgraph Loop3["🔄 LOOP DE DADOS"]
- D1[Usuário<br/>usa produto] --> D2[Mais dados<br/>coletados]
- D2 --> D3[ML/AI melhora<br/>com dados]
- D3 --> D4[Produto<br/>fica melhor]
- D4 --> D5[Mais usuários<br/>chegam e usam]
+ D1["Usuário<br/>usa produto"] --> D2["Mais dados<br/>coletados"]
+ D2 --> D3["ML/AI melhora<br/>com dados"]
+ D3 --> D4["Produto<br/>fica melhor"]
+ D4 --> D5["Mais usuários<br/>chegam e usam"]
  D5 --> D1
  end
 

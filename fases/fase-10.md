@@ -13,18 +13,18 @@ A arquitetura típica de MVP, com decisões conscientes sobre simplicidade:
 ```mermaid
 flowchart TB
  subgraph Front["🖥️ FRONTEND"]
- F1[React / Next.js<br/>ou Vue / Nuxt<br/>ou mobile nativo]
- F2[Hospedagem:<br/>Vercel / Netlify]
+ F1["React / Next.js<br/>ou Vue / Nuxt<br/>ou mobile nativo"]
+ F2["Hospedagem:<br/>Vercel / Netlify"]
  end
 
  subgraph Back["⚙️ BACKEND"]
- B1[API: REST ou GraphQL<br/>Node / Python / Go]
- B2[Auth: Clerk / Auth0 / Firebase<br/>não fazer do zero]
+ B1["API: REST ou GraphQL<br/>Node / Python / Go"]
+ B2["Auth: Clerk / Auth0 / Firebase<br/>não fazer do zero"]
  end
 
  subgraph DB["💾 DADOS"]
- D1[Postgres / MySQL<br/>managed: Supabase / Neon / RDS]
- D2[Cache: Redis<br/>se precisar, não 'caso precise']
+ D1["Postgres / MySQL<br/>managed: Supabase / Neon / RDS"]
+ D2["Cache: Redis<br/>se precisar, não 'caso precise'"]
  end
 
  subgraph Ext["🔌 EXTERNOS"]
@@ -35,8 +35,8 @@ flowchart TB
  end
 
  subgraph Infra["☁️ INFRA"]
- I1[Cloud: AWS / GCP / Azure<br/>OU 100% managed]
- I2[Monitoring: Grafana<br/>Datadog / ou embarcado em cloud]
+ I1["Cloud: AWS / GCP / Azure<br/>OU 100% managed"]
+ I2["Monitoring: Grafana<br/>Datadog / ou embarcado em cloud"]
  end
 
  Front <--> Back <--> DB
@@ -74,21 +74,21 @@ O ciclo MVP em três etapas, cada uma valida coisa diferente:
 ```mermaid
 flowchart LR
  subgraph E1["1️⃣ MVP DE PROBLEMA"]
- M1A[Valida:<br/>pessoas TÊM<br/>o problema mesmo?]
- M1B[Como:<br/>landing page,<br/>entrevistas em massa]
- M1C[Sucesso:<br/>evidência de dor<br/>real em ≥ 20 casos]
+ M1A["Valida:<br/>pessoas TÊM<br/>o problema mesmo?"]
+ M1B["Como:<br/>landing page,<br/>entrevistas em massa"]
+ M1C["Sucesso:<br/>evidência de dor<br/>real em ≥ 20 casos"]
  end
 
  subgraph E2["2️⃣ MVP DE SOLUÇÃO"]
- M2A[Valida:<br/>solução RESOLVE<br/>o problema?]
- M2B[Como:<br/>protótipo clicável,<br/>concierge, wizard of oz]
- M2C[Sucesso:<br/>usuários voltam,<br/>querem mais, pagam algo]
+ M2A["Valida:<br/>solução RESOLVE<br/>o problema?"]
+ M2B["Como:<br/>protótipo clicável,<br/>concierge, wizard of oz"]
+ M2C["Sucesso:<br/>usuários voltam,<br/>querem mais, pagam algo"]
  end
 
  subgraph E3["3️⃣ MVP DE NEGÓCIO"]
- M3A[Valida:<br/>unit economics<br/>funcionam?]
- M3B[Como:<br/>versão mínima<br/>de produto + canal real]
- M3C[Sucesso:<br/>CAC menor que LTV,<br/>retenção estável,<br/>caminho para PMF]
+ M3A["Valida:<br/>unit economics<br/>funcionam?"]
+ M3B["Como:<br/>versão mínima<br/>de produto + canal real"]
+ M3C["Sucesso:<br/>CAC menor que LTV,<br/>retenção estável,<br/>caminho para PMF"]
  end
 
  E1 --> E2 --> E3

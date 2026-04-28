@@ -80,22 +80,22 @@ Health score composto, com triggers por cor.
 ```mermaid
 flowchart LR
  subgraph Inputs["📊 INPUTS, 5 dimensões"]
- I1[📈 Uso do produto<br/>DAU/MAU<br/>features-chave]
- I2[💬 Engagement<br/>resposta a outreach<br/>participação QBR]
- I3[🎯 Business outcome<br/>métricas do cliente<br/>success criteria]
- I4[😊 Sentiment<br/>NPS, CSAT<br/>tone de tickets]
- I5[📈 Expansion signals<br/>crescimento de uso<br/>multi-seat adoption]
+ I1["📈 Uso do produto<br/>DAU/MAU<br/>features-chave"]
+ I2["💬 Engagement<br/>resposta a outreach<br/>participação QBR"]
+ I3["🎯 Business outcome<br/>métricas do cliente<br/>success criteria"]
+ I4["😊 Sentiment<br/>NPS, CSAT<br/>tone de tickets"]
+ I5["📈 Expansion signals<br/>crescimento de uso<br/>multi-seat adoption"]
  end
 
- Inputs --> Score[⚙️ HEALTH SCORE<br/>composto ponderado]
+ Inputs --> Score["⚙️ HEALTH SCORE<br/>composto ponderado"]
 
- Score --> G[🟢 VERDE<br/>Saudável<br/>Renovação provável<br/>Expansion candidate]
- Score --> Y[🟡 AMARELO<br/>Alerta<br/>CSM touch específico<br/>Plano de ação]
- Score --> R[🔴 VERMELHO<br/>Risco<br/>Save motion urgente<br/>Escalação]
+ Score --> G["🟢 VERDE<br/>Saudável<br/>Renovação provável<br/>Expansion candidate"]
+ Score --> Y["🟡 AMARELO<br/>Alerta<br/>CSM touch específico<br/>Plano de ação"]
+ Score --> R["🔴 VERMELHO<br/>Risco<br/>Save motion urgente<br/>Escalação"]
 
- G -.-> Act1[Ação: advocacy<br/>expansion play]
- Y -.-> Act2[Ação: recovery<br/>QBR extraordinário]
- R -.-> Act3[Ação: exec sponsor<br/>save offer]
+ G -.-> Act1["Ação: advocacy<br/>expansion play"]
+ Y -.-> Act2["Ação: recovery<br/>QBR extraordinário"]
+ R -.-> Act3["Ação: exec sponsor<br/>save offer"]
 
  style G fill:#90EE90,stroke:#1F6F1F,stroke-width:2px
  style Y fill:#FFFF99,stroke:#8B8B00,stroke-width:2px

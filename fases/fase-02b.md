@@ -16,25 +16,25 @@ A estrutura conceitual da Árvore de Teoria pode ser visualizada assim:
 flowchart TD
  Root["HIPÓTESE CENTRAL<br/>O que acreditamos sobre o mundo<br/>que justifica este negócio existir"]
 
- Root --> A1[Atributo 1<br/>do produto/serviço]
+ Root --> A1["Atributo 1<br/>do produto/serviço"]
  Root --> A2[Atributo 2]
  Root --> A3[Atributo 3]
 
- A1 --> C1a[Causa 1a<br/>por que esse atributo<br/>importa para o usuário]
+ A1 --> C1a["Causa 1a<br/>por que esse atributo<br/>importa para o usuário"]
  A1 --> C1b[Causa 1b]
  A2 --> C2a[Causa 2a]
  A2 --> C2b[Causa 2b]
  A3 --> C3a[Causa 3a]
 
- C1a --> Alt1[Alternativa atual<br/>o que o usuário usa hoje<br/>para resolver]
+ C1a --> Alt1["Alternativa atual<br/>o que o usuário usa hoje<br/>para resolver"]
  C2a --> Alt1
  C2b --> Alt2[Alternativa atual alt.]
  C3a --> Alt2
 
- Alt1 --> Gap[GAP / DOR<br/>diferença entre alternativa<br/>atual e solução ideal]
+ Alt1 --> Gap["GAP / DOR<br/>diferença entre alternativa<br/>atual e solução ideal"]
  Alt2 --> Gap
 
- Gap --> Mon[MONETIZAÇÃO<br/>como capturamos valor<br/>preenchendo o gap]
+ Gap --> Mon["MONETIZAÇÃO<br/>como capturamos valor<br/>preenchendo o gap"]
 
  style Root fill:#FFD700,stroke:#8B6914,stroke-width:3px
  style Gap fill:#FFB6B6

@@ -52,22 +52,22 @@ Um problema que mexe com o coração acende todas as cinco características abai
 
 ```mermaid
 flowchart LR
- P[🎯 PROBLEMA IDEAL<br/>acende todas as 5]
+ P["🎯 PROBLEMA IDEAL<br/>acende todas as 5"]
 
- P --> R[1️⃣ REAL<br/>observável<br/>no mundo hoje]
- P --> F[2️⃣ FREQUENTE<br/>volta toda semana<br/>ou todo dia]
- P --> D[3️⃣ DOLOROSO<br/>Pain Level 4-5<br/>tira o sono]
- P --> C[4️⃣ RECONHECIDO<br/>cliente sabe<br/>que tem o problema]
- P --> V[5️⃣ VALORADO<br/>já gasta tempo<br/>ou dinheiro tentando]
+ P --> R["1️⃣ REAL<br/>observável<br/>no mundo hoje"]
+ P --> F["2️⃣ FREQUENTE<br/>volta toda semana<br/>ou todo dia"]
+ P --> D["3️⃣ DOLOROSO<br/>Pain Level 4-5<br/>tira o sono"]
+ P --> C["4️⃣ RECONHECIDO<br/>cliente sabe<br/>que tem o problema"]
+ P --> V["5️⃣ VALORADO<br/>já gasta tempo<br/>ou dinheiro tentando"]
 
- R -.-> Q{Todas 5<br/>acendem?}
+ R -.-> Q{"Todas 5<br/>acendem?"}
  F -.-> Q
  D -.-> Q
  C -.-> Q
  V -.-> Q
 
- Q -->|SIM| Go[✅ Avançar para<br/>Fase 4]
- Q -->|NÃO| Back[⚠️ Voltar a<br/>candidatos de<br/>problema]
+ Q -->|SIM| Go["✅ Avançar para<br/>Fase 4"]
+ Q -->|NÃO| Back["⚠️ Voltar a<br/>candidatos de<br/>problema"]
 
  style P fill:#FFD700,stroke:#8B6914,stroke-width:3px
  style Go fill:#90EE90
@@ -289,17 +289,17 @@ Esse é o entregável central da [[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]]. 
 
 ```mermaid
 flowchart TD
- ICP[👥 ICP<br/>Perfil operacional<br/>do cliente]
+ ICP["👥 ICP<br/>Perfil operacional<br/>do cliente"]
 
- ICP --> P1[🔴 Problema 1<br/>Pain Level 4-5<br/>Frequência: diária<br/>Custo: R$ X/mês]
- ICP --> P2[🟠 Problema 2<br/>Pain Level 3<br/>Frequência: semanal<br/>Custo: R$ Y/mês]
- ICP --> P3[🟡 Problema 3<br/>Pain Level 2<br/>Frequência: mensal<br/>Custo: baixo]
+ ICP --> P1["🔴 Problema 1<br/>Pain Level 4-5<br/>Frequência: diária<br/>Custo: R$ X/mês"]
+ ICP --> P2["🟠 Problema 2<br/>Pain Level 3<br/>Frequência: semanal<br/>Custo: R$ Y/mês"]
+ ICP --> P3["🟡 Problema 3<br/>Pain Level 2<br/>Frequência: mensal<br/>Custo: baixo"]
 
- P1 --> A1[Alternativa atual<br/>como resolve hoje<br/>limitações]
- P1 --> I1[Impacto<br/>tempo, dinheiro,<br/>estresse perdidos]
- P1 --> Q1[Quote literal<br/>'Eu odeio quando X...'<br/>5-10 citações reais]
+ P1 --> A1["Alternativa atual<br/>como resolve hoje<br/>limitações"]
+ P1 --> I1["Impacto<br/>tempo, dinheiro,<br/>estresse perdidos"]
+ P1 --> Q1["Quote literal<br/>'Eu odeio quando X...'<br/>5-10 citações reais"]
 
- P1 --> Foco[🎯 FOCO da cunha<br/>problema com<br/>maior dor + valor +<br/>defensabilidade]
+ P1 --> Foco["🎯 FOCO da cunha<br/>problema com<br/>maior dor + valor +<br/>defensabilidade"]
 
  style ICP fill:#FFD700
  style P1 fill:#FFB6B6

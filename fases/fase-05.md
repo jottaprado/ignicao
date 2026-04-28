@@ -44,11 +44,11 @@ A visualização em círculos concêntricos:
 
 ```mermaid
 flowchart TD
- TAM[🌍 TAM<br/>Total Addressable Market<br/>Mercado GLOBAL do problema<br/>Teto absoluto, se tudo fosse nosso<br/>ex: R$ 500 bi]
+ TAM["🌍 TAM<br/>Total Addressable Market<br/>Mercado GLOBAL do problema<br/>Teto absoluto, se tudo fosse nosso<br/>ex: R$ 500 bi"]
 
- TAM --> SAM[🌎 SAM<br/>Serviceable Addressable Market<br/>Mercado que podemos alcançar<br/>com produto/canal/região atual<br/>ex: R$ 80 bi, Brasil + região]
+ TAM --> SAM["🌎 SAM<br/>Serviceable Addressable Market<br/>Mercado que podemos alcançar<br/>com produto/canal/região atual<br/>ex: R$ 80 bi, Brasil + região"]
 
- SAM --> SOM[🎯 SOM<br/>Serviceable Obtainable Market<br/>Mercado realista em 3-5 anos<br/>dada a concorrência<br/>ex: R$ 2 bi, meta de captura]
+ SAM --> SOM["🎯 SOM<br/>Serviceable Obtainable Market<br/>Mercado realista em 3-5 anos<br/>dada a concorrência<br/>ex: R$ 2 bi, meta de captura"]
 
  style TAM fill:#E8F4F8,stroke:#2C5F7C,stroke-width:2px
  style SAM fill:#B0D8E8,stroke:#2C5F7C,stroke-width:2px
@@ -379,14 +379,14 @@ As seis dimensões do Canvas, em forma visual:
 
 ```mermaid
 flowchart TD
- C[📋 CANVAS DA CUNHA<br/>6 dimensões que definem<br/>o ponto de entrada no mercado]
+ C["📋 CANVAS DA CUNHA<br/>6 dimensões que definem<br/>o ponto de entrada no mercado"]
 
- C --> Q1[1️⃣ SEGMENTO-ALVO<br/>Quem é exatamente?<br/>Perfil operacional observável]
- C --> Q2[2️⃣ DOR AGUDA<br/>Qual problema tira o sono?<br/>Pedível, mensurável]
- C --> Q3[3️⃣ ALTERNATIVA ATUAL<br/>Como resolve hoje?<br/>Custo, limitações]
- C --> Q4[4️⃣ POR QUE AGORA<br/>Por que em 2026 e<br/>não em 2020?]
- C --> Q5[5️⃣ ONDE ESTÃO<br/>Canais, comunidades,<br/>eventos concretos]
- C --> Q6[6️⃣ DISPOSIÇÃO A PAGAR<br/>Quanto já gastam hoje<br/>com o problema?]
+ C --> Q1["1️⃣ SEGMENTO-ALVO<br/>Quem é exatamente?<br/>Perfil operacional observável"]
+ C --> Q2["2️⃣ DOR AGUDA<br/>Qual problema tira o sono?<br/>Pedível, mensurável"]
+ C --> Q3["3️⃣ ALTERNATIVA ATUAL<br/>Como resolve hoje?<br/>Custo, limitações"]
+ C --> Q4["4️⃣ POR QUE AGORA<br/>Por que em 2026 e<br/>não em 2020?"]
+ C --> Q5["5️⃣ ONDE ESTÃO<br/>Canais, comunidades,<br/>eventos concretos"]
+ C --> Q6["6️⃣ DISPOSIÇÃO A PAGAR<br/>Quanto já gastam hoje<br/>com o problema?"]
 
  style C fill:#FFD700,stroke:#8B6914,stroke-width:3px
  style Q1 fill:#E8F4F8
@@ -576,21 +576,21 @@ Visão panorâmica das Partes II a V, do problema ao PMF:
 ```mermaid
 flowchart TD
  subgraph Prob["FASES 2-4, PROBLEMA"]
- P1[Problema real,<br/>recorrente e agudo?]
- P2[ICP específico e<br/>operacionalmente identificável?]
- P3[Mercado addressable<br/>grande o suficiente?]
+ P1["Problema real,<br/>recorrente e agudo?"]
+ P2["ICP específico e<br/>operacionalmente identificável?"]
+ P3["Mercado addressable<br/>grande o suficiente?"]
  end
 
  subgraph Sol["FASES 5-8, SOLUÇÃO"]
- S4[Hipóteses escritas<br/>e priorizadas]
- S5[Protótipo testado<br/>com ICP real]
- S6[Spec MVP<br/>com pricing testado]
+ S4["Hipóteses escritas<br/>e priorizadas"]
+ S5["Protótipo testado<br/>com ICP real"]
+ S6["Spec MVP<br/>com pricing testado"]
  end
 
  subgraph Mod["FASES 10-12, MODELO E PMF"]
- M7[MVP em uso real<br/>com usuários pagantes]
- M8[Unit economics<br/>positivas]
- M9[PMF: Sean Ellis ≥ 40%<br/>+ retenção estável<br/>+ NPS ≥ 30]
+ M7["MVP em uso real<br/>com usuários pagantes"]
+ M8["Unit economics<br/>positivas"]
+ M9["PMF: Sean Ellis ≥ 40%<br/>+ retenção estável<br/>+ NPS ≥ 30"]
  end
 
  P1 --> P2 --> P3

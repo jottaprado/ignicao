@@ -22,10 +22,10 @@ flowchart TD
     R1 -->|Sim| R2{"Motivação é<br/>pelo problema,<br/>não pela fuga?"}
     R2 -->|Fuga de algo| WAIT2["Resolver a situação<br/>de fuga primeiro"]
     R2 -->|Sim| R3{"Momento de vida<br/>estável?"}
-    R3 -->|Luto, divórcio,<br/>doença ativa| WAIT3["Aguardar estabilização<br/>6–18 meses"]
+    R3 -->|"Luto, divórcio,<br/>doença ativa"| WAIT3["Aguardar estabilização<br/>6–18 meses"]
     R3 -->|Sim| R4{"Cônjuge ou família<br/>apoiam ou são<br/>neutros?"}
-    R4 -->|Fortemente<br/>contrários| WAIT4["Conversa estruturada<br/>ou terapia de casal"]
-    R4 -->|Apoiam ou<br/>são neutros| R5{"Tolerância<br/>à incerteza<br/>é razoável?"}
+    R4 -->|"Fortemente<br/>contrários"| WAIT4["Conversa estruturada<br/>ou terapia de casal"]
+    R4 -->|"Apoiam ou<br/>são neutros"| R5{"Tolerância<br/>à incerteza<br/>é razoável?"}
     R5 -->|Não| WAIT5["Considerar<br/>executivo sênior<br/>como alternativa"]
     R5 -->|Sim| GO(["Empreender<br/>Continue para Fase 1"])
 

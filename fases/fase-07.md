@@ -337,12 +337,12 @@ A estrutura visual do Cartão de Experimento (Template A.4):
 flowchart TD
  Card[🧪 CARTÃO DE EXPERIMENTO]
 
- Card --> H[1️⃣ HIPÓTESE<br/>'Acredito que... X<br/>causará... Y<br/>para... ICP Z']
- Card --> Met[2️⃣ MÉTODO<br/>como vai testar:<br/>landing page, entrevista,<br/>pré-venda, smoke test]
- Card --> Am[3️⃣ AMOSTRA<br/>quantas pessoas,<br/>de qual ICP,<br/>como recrutar]
- Card --> Th[4️⃣ THRESHOLD<br/>número específico<br/>de sucesso<br/>definido ANTES do teste]
- Card --> Dur[5️⃣ DURAÇÃO<br/>prazo máximo<br/>2-4 semanas]
- Card --> Dec[6️⃣ DECISÃO<br/>o que fazer se<br/>validar / refutar]
+ Card --> H["1️⃣ HIPÓTESE<br/>'Acredito que... X<br/>causará... Y<br/>para... ICP Z'"]
+ Card --> Met["2️⃣ MÉTODO<br/>como vai testar:<br/>landing page, entrevista,<br/>pré-venda, smoke test"]
+ Card --> Am["3️⃣ AMOSTRA<br/>quantas pessoas,<br/>de qual ICP,<br/>como recrutar"]
+ Card --> Th["4️⃣ THRESHOLD<br/>número específico<br/>de sucesso<br/>definido ANTES do teste"]
+ Card --> Dur["5️⃣ DURAÇÃO<br/>prazo máximo<br/>2-4 semanas"]
+ Card --> Dec["6️⃣ DECISÃO<br/>o que fazer se<br/>validar / refutar"]
 
  style Card fill:#FFD700,stroke:#8B6914,stroke-width:3px
  style Th fill:#FFB6B6,stroke:#8B0000,stroke-width:2px

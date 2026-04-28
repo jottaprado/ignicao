@@ -80,13 +80,13 @@ A arquitetura de cascata de modelos é o padrão econômico.
 
 ```mermaid
 flowchart TD
- I[Input do usuário] --> Cls{Classificador<br/>leve de<br/>complexidade}
+ I[Input do usuário] --> Cls{"Classificador<br/>leve de<br/>complexidade"}
 
- Cls -->|Simples<br/>~80%| S[⚡ Modelo pequeno<br/>Haiku / Nano / Flash<br/>US$ 0,5-3 / 1M tokens<br/>latência < 500ms]
- Cls -->|Médio<br/>~15%| M[⚖️ Modelo balanceado<br/>Sonnet / 4o mini / Pro<br/>US$ 3-15 / 1M tokens<br/>latência 1-3s]
- Cls -->|Complexo<br/>~5%| L[🎯 Modelo fronteira<br/>Opus / GPT-4.5 / Ultra<br/>US$ 10-75 / 1M tokens<br/>latência 3-10s]
+ Cls -->|"Simples<br/>~80%"| S["⚡ Modelo pequeno<br/>Haiku / Nano / Flash<br/>US$ 0,5-3 / 1M tokens<br/>latência < 500ms"]
+ Cls -->|"Médio<br/>~15%"| M["⚖️ Modelo balanceado<br/>Sonnet / 4o mini / Pro<br/>US$ 3-15 / 1M tokens<br/>latência 1-3s"]
+ Cls -->|"Complexo<br/>~5%"| L["🎯 Modelo fronteira<br/>Opus / GPT-4.5 / Ultra<br/>US$ 10-75 / 1M tokens<br/>latência 3-10s"]
 
- S --> Conf{Confiança<br/>≥ threshold?}
+ S --> Conf{"Confiança<br/>≥ threshold?"}
  M --> Conf
 
  Conf -->|Sim| Out[✅ Resposta]
@@ -135,21 +135,21 @@ A arquitetura RAG completa, incluindo técnicas avançadas.
 ```mermaid
 flowchart LR
  subgraph Ingest["📥 INGESTÃO (offline)"]
- D1[Documentos<br/>PDFs, docs, bases] --> C1[Chunking<br/>200-800 tokens<br/>coerente]
- C1 --> E1[Embeddings<br/>modelo embedding]
- E1 --> VDB[(🔵 Vector DB<br/>Pinecone / Weaviate<br/>Qdrant / pgvector)]
+ D1["Documentos<br/>PDFs, docs, bases"] --> C1["Chunking<br/>200-800 tokens<br/>coerente"]
+ C1 --> E1["Embeddings<br/>modelo embedding"]
+ E1 --> VDB["(🔵 Vector DB<br/>Pinecone / Weaviate<br/>Qdrant / pgvector)"]
  end
 
  subgraph Query["🔍 QUERY (runtime)"]
- U[❓ Pergunta<br/>do usuário] --> QR[Query rewriting<br/>LLM opcional]
- QR --> HS[Hybrid search<br/>semantic + BM25]
+ U["❓ Pergunta<br/>do usuário"] --> QR["Query rewriting<br/>LLM opcional"]
+ QR --> HS["Hybrid search<br/>semantic + BM25"]
  HS --> VDB
- VDB --> TopK[Top-K<br/>documentos]
- TopK --> RR[Re-ranking<br/>cross-encoder<br/>Cohere / Voyage]
- RR --> Ctx[📋 Contexto<br/>selecionado]
- Ctx --> LLM[🤖 LLM Generation<br/>com citações obrigatórias]
+ VDB --> TopK["Top-K<br/>documentos"]
+ TopK --> RR["Re-ranking<br/>cross-encoder<br/>Cohere / Voyage"]
+ RR --> Ctx["📋 Contexto<br/>selecionado"]
+ Ctx --> LLM["🤖 LLM Generation<br/>com citações obrigatórias"]
  U --> LLM
- LLM --> R[✅ Resposta<br/>+ fontes]
+ LLM --> R["✅ Resposta<br/>+ fontes"]
  end
 
  style VDB fill:#FFD700,stroke:#8B6914,stroke-width:2px

@@ -39,18 +39,18 @@ A maioria dos fundadores iniciantes testa um a dois canais favoritos (tipicament
 
 ```mermaid
 flowchart TD
- Outer[🔵 OUTER RING<br/>'Possíveis'<br/>todos os 19 canais<br/>brainstorm inicial]
+ Outer["🔵 OUTER RING<br/>'Possíveis'<br/>todos os 19 canais<br/>brainstorm inicial"]
 
- Outer --> Middle[🟡 MIDDLE RING<br/>'Prometedores'<br/>3-5 canais com hipótese<br/>de funcionar no seu caso]
+ Outer --> Middle["🟡 MIDDLE RING<br/>'Prometedores'<br/>3-5 canais com hipótese<br/>de funcionar no seu caso"]
 
- Middle --> Inner[🟢 INNER RING<br/>'Funcionando'<br/>1-2 canais testados<br/>com CAC aceitável]
+ Middle --> Inner["🟢 INNER RING<br/>'Funcionando'<br/>1-2 canais testados<br/>com CAC aceitável"]
 
- Inner --> Focus[🎯 FOCO total<br/>dobrar e refinar<br/>o canal ganhador]
+ Inner --> Focus["🎯 FOCO total<br/>dobrar e refinar<br/>o canal ganhador"]
 
  Outer -.testes rápidos baratos.-> Middle
  Middle -.experimentos estruturados.-> Inner
 
- Middle --> Ex[📝 Exemplos de canais:<br/>Viral, PR, Unconventional,<br/>SEM, Social Ads, Offline Ads,<br/>SEO, Content Marketing,<br/>Email, Engineering as MKT,<br/>Targeting Blogs, Business Dev,<br/>Sales, Affiliate, Existing Platforms,<br/>Trade Shows, Offline Events,<br/>Speaking, Community Building]
+ Middle --> Ex["📝 Exemplos de canais:<br/>Viral, PR, Unconventional,<br/>SEM, Social Ads, Offline Ads,<br/>SEO, Content Marketing,<br/>Email, Engineering as MKT,<br/>Targeting Blogs, Business Dev,<br/>Sales, Affiliate, Existing Platforms,<br/>Trade Shows, Offline Events,<br/>Speaking, Community Building"]
 
  style Outer fill:#E8F4F8
  style Middle fill:#FFFF99
@@ -103,11 +103,11 @@ Um canal com alta aquisição, mas baixa ativação, está trazendo o público e
 
 ```mermaid
 flowchart TD
- Aq[🎯 AQUISIÇÃO<br/>Canal → visitante/lead<br/>Métrica: CAC, volume, CAC payback]
- Ac[✨ ATIVAÇÃO<br/>Primeira experiência de valor<br/>Métrica: % que completa ação-chave em D1-D7]
- Rt[🔁 RETENÇÃO<br/>Volta e usa recorrentemente<br/>Métrica: W1/W4/M3/M6 retention]
- Rv[💰 RECEITA<br/>Paga, upgrade, expande<br/>Métrica: ARPU, LTV, NRR, expansion MRR]
- Rf[📢 REFERRAL<br/>Indica outros ativamente<br/>Métrica: K-factor, NPS, viral coefficient]
+ Aq["🎯 AQUISIÇÃO<br/>Canal → visitante/lead<br/>Métrica: CAC, volume, CAC payback"]
+ Ac["✨ ATIVAÇÃO<br/>Primeira experiência de valor<br/>Métrica: % que completa ação-chave em D1-D7"]
+ Rt["🔁 RETENÇÃO<br/>Volta e usa recorrentemente<br/>Métrica: W1/W4/M3/M6 retention"]
+ Rv["💰 RECEITA<br/>Paga, upgrade, expande<br/>Métrica: ARPU, LTV, NRR, expansion MRR"]
+ Rf["📢 REFERRAL<br/>Indica outros ativamente<br/>Métrica: K-factor, NPS, viral coefficient"]
 
  Aq --> Ac
  Ac --> Rt
