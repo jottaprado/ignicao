@@ -8,7 +8,7 @@ appendix: "C"
 > [!note] Como usar
 > Esse apêndice consolida as métricas-chave de cada fase em formato de referência rápida. Para cada fase, apresenta: as métricas centrais de acompanhamento, os benchmarks de referência quando existem e os sinais de alerta. Não substitui a leitura de cada fase, mas serve como painel de controle para diagnóstico rápido de onde a empresa está e o que medir no momento atual.
 
-O diagnóstico correto começa pela fase. Se você não sabe em qual fase está, leia as seções de abertura de [[#FASE 10 — MVP E EXPERIMENTOS DE MERCADO|Fase 10]] a [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] e verifique qual descreve sua situação. Cada fase tem métricas próprias que fazem sentido naquele contexto. Aplicar métricas de [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] (escala) em empresa de [[#FASE 10 — MVP E EXPERIMENTOS DE MERCADO|Fase 10]] (MVP) gera decisões erradas.
+O diagnóstico correto começa pela fase. Se você não sabe em qual fase está, leia as seções de abertura de [[#FASE 10 — MVP E EXPERIMENTOS DE MERCADO|Fase 10]] a [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] e verifique qual descreve sua situação. Cada fase tem métricas próprias que fazem sentido naquele contexto. Aplicar métricas de [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (escala) em empresa de [[#FASE 10 — MVP E EXPERIMENTOS DE MERCADO|Fase 10]] (MVP) gera decisões erradas.
 
 ---
 

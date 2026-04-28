@@ -76,9 +76,9 @@ Se você já tem uma ideia mas ainda não validou, vá para as Fases 3 a 7. Desc
 
 Se está construindo MVP ou buscando product-market fit, são as Fases 8 a 12, mais os apêndices AB, Pivot, BG.10 e BG.11.
 
-Se já tem PMF e está escalando, vá para a [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]3]] antes da [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]], mesmo que pareça óbvia. Quem pula estruturação volta a ela depois de quebrar coisa cara. Apêndices críticos nessa altura: V (Captação), CF (Planejamento de Rodada), CG (Growth como função), BG.17 (Liderança). Aqui a leitura é por tema, não por sequência.
+Se já tem PMF e está escalando, vá para a [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]] antes da [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]], mesmo que pareça óbvia. Quem pula estruturação volta a ela depois de quebrar coisa cara. Apêndices críticos nessa altura: V (Captação), CF (Planejamento de Rodada), CG (Growth como função), BG.17 (Liderança). Aqui a leitura é por tema, não por sequência.
 
-Se está em crise ou considerando pivô, há três rotas combinadas. Apêndice Pivot, Apêndice de Crise, [[#APÊNDICE Y — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Apêndice Y]] sobre saúde mental. Crise societária acrescenta [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]] e Apêndices AH e BP. Crise de caixa acrescenta [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]3]] e Apêndices AN e AT.
+Se está em crise ou considerando pivô, há três rotas combinadas. Apêndice Pivot, Apêndice de Crise, [[#APÊNDICE Y — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Apêndice Y]] sobre saúde mental. Crise societária acrescenta [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]] e Apêndices AH e BP. Crise de caixa acrescenta [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]] e Apêndices AN e AT.
 
 Se está preparando saída, [[#FASE 16 — EXIT STRATEGY|Fase 16]] e os Apêndices BR e BF.
 
@@ -110,7 +110,7 @@ Empreender no Brasil é difícil. O livro não disfarça isso. Mas é possível,
 
 ```mermaid
 flowchart TD
-    subgraph P1["PARTE I — Da ideia à operação"]
+    subgraph P1["PARTE I<br/>Da ideia à operação"]
         F0["Fase 0<br/>Preparação do fundador"]
         F1["Fase 1<br/>Encontrar a ideia"]
         F2["Fase 2<br/>Articulação da ideia"]
@@ -125,7 +125,7 @@ flowchart TD
         F0 --> F1 --> F2 --> F2B --> F3 --> F4 --> F5 --> F6 --> F7 --> F8 --> F9
     end
 
-    subgraph P2["PARTE II — Do PMF à escala"]
+    subgraph P2["PARTE II<br/>Do PMF à escala"]
         F10["Fase 10<br/>MVP e experimentos"]
         F11["Fase 11<br/>Validação do modelo"]
         F12["Fase 12<br/>Product-Market Fit"]
@@ -134,7 +134,7 @@ flowchart TD
         F10 --> F11 --> F12 --> F13 --> F14
     end
 
-    subgraph P4["PARTE IV — Ciclo longo e exit"]
+    subgraph P4["PARTE IV<br/>Ciclo longo e exit"]
         F15["Fase 15<br/>Reinvenção e 2ª curva"]
         F16["Fase 16<br/>Exit strategy"]
         F15 --> F16

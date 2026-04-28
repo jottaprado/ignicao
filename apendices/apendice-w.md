@@ -8,7 +8,7 @@ appendix: "W"
 > [!note] Nota de validade
 > A legislação tributária brasileira muda frequentemente. Reformas, alíquotas, e regimes especiais. Esse apêndice reflete o cenário de abril de 2026, pós-Reforma Tributária do Consumo (EC 132/2023) em fase de transição (IBS, mais CBS, gradualmente substituindo ICMS, ISS, PIS, Cofins, IPI até 2033). Revisar anualmente, idealmente com contador especializado em startup. Os princípios (separação pessoal/empresarial, documentação, planejamento tributário antecipado) têm vida útil mais longa que alíquotas, e regimes específicos.
 
-A [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]3]] cobre constituição da empresa, cap table, e contratos. Esse apêndice aprofunda o que muitos fundadores brasileiros aprendem errado, ou tarde. Contabilidade, e tributação, como disciplinas operacionais. Erros aqui podem gerar passivos de R$ 5 a R$ 50 milhões, descobertos em due diligence. E fazer exit desmoronar por questões que custariam R$ 50 mil para prevenir.
+A [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]] cobre constituição da empresa, cap table, e contratos. Esse apêndice aprofunda o que muitos fundadores brasileiros aprendem errado, ou tarde. Contabilidade, e tributação, como disciplinas operacionais. Erros aqui podem gerar passivos de R$ 5 a R$ 50 milhões, descobertos em due diligence. E fazer exit desmoronar por questões que custariam R$ 50 mil para prevenir.
 
 ### O que esse apêndice cobre
 
@@ -37,7 +37,7 @@ Dia um da empresa. Contador especializado. Não generalista. Não "contador do m
 
 [[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]]. Decisão de regime tributário, com visão de dezoito a vinte e quatro meses.
 
-[[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] (Time, e Liderança, da escala inicial à Série B). Considerar trazer para dentro um controller, ou FP&A. Não substitui contador externo.
+[[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Time, e Liderança, da escala inicial à Série B). Considerar trazer para dentro um controller, ou FP&A. Não substitui contador externo.
 
 Pré-captação Série A em diante. Preparação formal para DD (livros auditados, ou revisados).
 
@@ -49,7 +49,7 @@ Contador externo especializado em startup. Escritórios como Contabilizei (tecno
 
 Advogado tributarista. Consultivo. Não diário. Acionar em decisões críticas.
 
-Controller interno. Da [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] (Operações) em diante (R$ 120 a R$ 180 mil por ano no Brasil).
+Controller interno. Da [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Operações) em diante (R$ 120 a R$ 180 mil por ano no Brasil).
 
 FP&A (Financial Planning & Analysis). Série B em diante, para cenários, orçamento, e KPIs financeiros.
 

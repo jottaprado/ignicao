@@ -22,7 +22,7 @@ Entregável. Plano de Financiamento. Documento de duas a três páginas que mape
 
 Três razões para priorizar não-diluitivo, antes de cada rodada de equity.
 
-Diluição preservada para o exit. Cada ponto percentual preservado em cap table, pela [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] (Crescimento e Capital), vira valor monetário no exit. um fundador que diluiu sessenta por cento até Série C realiza metade do que realizaria, se tivesse diluído quarenta por cento. Financiamento não-diluitivo bem usado preserva cinco a quinze pontos percentuais de founders, e early team, até o exit.
+Diluição preservada para o exit. Cada ponto percentual preservado em cap table, pela [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Crescimento e Capital), vira valor monetário no exit. um fundador que diluiu sessenta por cento até Série C realiza metade do que realizaria, se tivesse diluído quarenta por cento. Financiamento não-diluitivo bem usado preserva cinco a quinze pontos percentuais de founders, e early team, até o exit.
 
 Disciplina operacional. Dívida cobra juros em caixa. Revenue share consome margem. Grants exigem prestação de contas. Todos forçam disciplina, que equity não força. Equity permite queimar dinheiro com pouca cobrança de curto prazo. O que é a origem de operações infladas, que quebram quando o mercado aperta.
 

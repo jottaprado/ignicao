@@ -8,7 +8,7 @@ appendix: "T"
 > [!note] Nota de validade
 > Esse apêndice reflete o estado da regulação de dados pessoais brasileira, e as práticas de mercado, em abril de 2026. LGPD, regulamentações da ANPD, decisões judiciais, e regulações setoriais (Bacen, ANS, etc.), evoluem ano a ano. Revisar anualmente. Especialmente. Novas resoluções da ANPD. Mudanças setoriais aplicáveis ao seu negócio. Jurisprudência relevante sobre multas, e responsabilidade. Quando houver divergência entre esse apêndice, e a regulação atual, a regulação atual prevalece.
 
-A [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]3]] (Estruturação Jurídica, Financeira, e Operacional) cobre o essencial de formalização da empresa. Esse apêndice expande o tratamento de dados pessoais, e compliance. Tema que deixa de ser "papel do jurídico", quando a startup passa a operar com volumes relevantes de dados pessoais (que é tipicamente a partir da [[#FASE 11 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 11]]). E vira risco existencial se mal-conduzido.
+A [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]] (Estruturação Jurídica, Financeira, e Operacional) cobre o essencial de formalização da empresa. Esse apêndice expande o tratamento de dados pessoais, e compliance. Tema que deixa de ser "papel do jurídico", quando a startup passa a operar com volumes relevantes de dados pessoais (que é tipicamente a partir da [[#FASE 11 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 11]]). E vira risco existencial se mal-conduzido.
 
 A LGPD (Lei Geral de Proteção de Dados, Lei 13.709/2018) entrou em vigor em 2020. E as sanções em 2021. Para a maioria das startups brasileiras pós-PMF, LGPD não é opcional. Nem "avaliar depois". É infraestrutura. As multas podem chegar a dois por cento do faturamento da pessoa jurídica (limitado a R$ 50 milhões por infração).
 
@@ -42,13 +42,13 @@ Risco em M&A. Due diligence de adquirente identifica passivo de privacidade, com
 
 ### Quando usar
 
-Base mínima (contratos, política de privacidade, e termos de uso). [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]3]]. Sem exceção.
+Base mínima (contratos, política de privacidade, e termos de uso). [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]]. Sem exceção.
 
-DPO formal, e processos operacionais. [[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]] (pós-PMF), ou [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] (Time, e Liderança). Conforme escala de dados pessoais.
+DPO formal, e processos operacionais. [[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]] (pós-PMF), ou [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Time, e Liderança). Conforme escala de dados pessoais.
 
-Programa estruturado (auditorias, RIPDs, e governança). [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] (Operações) em diante. Ou antes, se for B2B enterprise, financeiro, ou saúde.
+Programa estruturado (auditorias, RIPDs, e governança). [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Operações) em diante. Ou antes, se for B2B enterprise, financeiro, ou saúde.
 
-Certificações adicionais (ISO 27001, e SOC 2). [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] (Operações, da escala inicial à Série C). Guiadas por demanda comercial.
+Certificações adicionais (ISO 27001, e SOC 2). [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Operações, da escala inicial à Série C). Guiadas por demanda comercial.
 
 ### Quem envolve
 
@@ -163,7 +163,7 @@ Educação. LGPD, mais LDB, mais portarias setoriais.
 
 Marketing, ou telemarketing. LGPD, mais Código de Defesa do Consumidor, mais regras do Procon.
 
-Startup em setor regulado precisa mapear regime completo (não só LGPD) na [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]3]]. Idealmente com especialista do setor.
+Startup em setor regulado precisa mapear regime completo (não só LGPD) na [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]]. Idealmente com especialista do setor.
 
 ### PERGUNTAS A RESPONDER
 

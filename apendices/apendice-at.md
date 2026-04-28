@@ -37,7 +37,7 @@ Prevenção é barata. Um financeiro sênior bem-estruturado evita crise, que cu
 
 [[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]] em diante (faturando R$ 100 mil em diante por mês). Disciplina formal.
 
-[[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] (Time, e Liderança, em diante). Controller, ou CFO part-time.
+[[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Time, e Liderança, em diante). Controller, ou CFO part-time.
 
 Série A em diante. CFO, ou finance lead, interno.
 

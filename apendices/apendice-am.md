@@ -8,7 +8,7 @@ appendix: "AM"
 > [!note] Nota de validade
 > As estruturas, e boas práticas de governance, evoluem lentamente (década). O que muda mais rápido. Ferramentas de board portal (Diligent, BoardEffect, e Notion com templates). Padrões de ESG disclosure. Regulação societária específica. Revisar anualmente. Os princípios (composição balanceada, preparação estruturada, e decisões documentadas) são estáveis.
 
-A [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]3]] cobre constituição, e cap table. O [[#APÊNDICE V — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Apêndice V]] cobre captação. Mas operar com board saudável é disciplina em si. Raramente tratada em manuais brasileiros de empreendedorismo. Fundador em Série A que nunca preparou material de board, nunca conduziu uma reunião, e nunca demitiu membro improdutivo, chega despreparado à situação mais consequente do seu calendário trimestral.
+A [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]] cobre constituição, e cap table. O [[#APÊNDICE V — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Apêndice V]] cobre captação. Mas operar com board saudável é disciplina em si. Raramente tratada em manuais brasileiros de empreendedorismo. Fundador em Série A que nunca preparou material de board, nunca conduziu uma reunião, e nunca demitiu membro improdutivo, chega despreparado à situação mais consequente do seu calendário trimestral.
 
 Esse apêndice cobre board como disciplina operacional. Composição. Cadência. Preparação de materiais. Condução de reuniões. Gestão de membros difíceis. E evolução do board, conforme empresa cresce.
 
@@ -35,7 +35,7 @@ O fundador iniciante raramente foi board member antes. Aprende no próprio garga
 
 ### Quando usar
 
-[[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]3]]. Primeiros "observers", ou advisors, como proxy de board embrionário.
+[[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]]. Primeiros "observers", ou advisors, como proxy de board embrionário.
 
 Pós-Seed, ou pré-Série A. Primeiro board formal (dois a três membros típico).
 

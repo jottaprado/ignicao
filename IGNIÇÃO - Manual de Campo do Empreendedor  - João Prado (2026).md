@@ -108,9 +108,9 @@ Se você já tem uma ideia mas ainda não validou, vá para as Fases 3 a 7. Desc
 
 Se está construindo MVP ou buscando product-market fit, são as Fases 8 a 12, mais os apêndices AB, Pivot, BG.10 e BG.11.
 
-Se já tem PMF e está escalando, vá para a [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]3]] antes da [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]], mesmo que pareça óbvia. Quem pula estruturação volta a ela depois de quebrar coisa cara. Apêndices críticos nessa altura: V (Captação), CF (Planejamento de Rodada), CG (Growth como função), BG.17 (Liderança). Aqui a leitura é por tema, não por sequência.
+Se já tem PMF e está escalando, vá para a [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]] antes da [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]], mesmo que pareça óbvia. Quem pula estruturação volta a ela depois de quebrar coisa cara. Apêndices críticos nessa altura: V (Captação), CF (Planejamento de Rodada), CG (Growth como função), BG.17 (Liderança). Aqui a leitura é por tema, não por sequência.
 
-Se está em crise ou considerando pivô, há três rotas combinadas. Apêndice Pivot, Apêndice de Crise, [[#APÊNDICE Y — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Apêndice Y]] sobre saúde mental. Crise societária acrescenta [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]] e Apêndices AH e BP. Crise de caixa acrescenta [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]3]] e Apêndices AN e AT.
+Se está em crise ou considerando pivô, há três rotas combinadas. Apêndice Pivot, Apêndice de Crise, [[#APÊNDICE Y — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Apêndice Y]] sobre saúde mental. Crise societária acrescenta [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]] e Apêndices AH e BP. Crise de caixa acrescenta [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]] e Apêndices AN e AT.
 
 Se está preparando saída, [[#FASE 16 — EXIT STRATEGY|Fase 16]] e os Apêndices BR e BF.
 
@@ -142,7 +142,7 @@ Empreender no Brasil é difícil. O livro não disfarça isso. Mas é possível,
 
 ```mermaid
 flowchart TD
-    subgraph P1["PARTE I — Da ideia à operação"]
+    subgraph P1["PARTE I<br/>Da ideia à operação"]
         F0["Fase 0<br/>Preparação do fundador"]
         F1["Fase 1<br/>Encontrar a ideia"]
         F2["Fase 2<br/>Articulação da ideia"]
@@ -157,7 +157,7 @@ flowchart TD
         F0 --> F1 --> F2 --> F2B --> F3 --> F4 --> F5 --> F6 --> F7 --> F8 --> F9
     end
 
-    subgraph P2["PARTE II — Do PMF à escala"]
+    subgraph P2["PARTE II<br/>Do PMF à escala"]
         F10["Fase 10<br/>MVP e experimentos"]
         F11["Fase 11<br/>Validação do modelo"]
         F12["Fase 12<br/>Product-Market Fit"]
@@ -166,7 +166,7 @@ flowchart TD
         F10 --> F11 --> F12 --> F13 --> F14
     end
 
-    subgraph P4["PARTE IV — Ciclo longo e exit"]
+    subgraph P4["PARTE IV<br/>Ciclo longo e exit"]
         F15["Fase 15<br/>Reinvenção e 2ª curva"]
         F16["Fase 16<br/>Exit strategy"]
         F15 --> F16
@@ -563,7 +563,7 @@ O ensaio do Graham é útil porque normaliza a necessidade de autonomia como car
 
 ### Escolha de sócios, a decisão mais irreversível
 
-A [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]3]] cobre cap table. O [[#APÊNDICE Y — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Apêndice Y]] cobre conflito entre sócios. Mas a escolha de sócios acontece antes de tudo isso. E é a decisão mais irreversível que você toma na trajetória empreendedora. Divórcio societário é processo doloroso, caro, que destrói empresas boas e relacionamentos antes sólidos.
+A [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]] cobre cap table. O [[#APÊNDICE Y — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Apêndice Y]] cobre conflito entre sócios. Mas a escolha de sócios acontece antes de tudo isso. E é a decisão mais irreversível que você toma na trajetória empreendedora. Divórcio societário é processo doloroso, caro, que destrói empresas boas e relacionamentos antes sólidos.
 
 Esta seção é sobre como escolher bem, antes do compromisso formal.
 
@@ -699,7 +699,7 @@ Diversidade de pensamento é vantagem. Pessoas que pensam de forma diferente ger
 
 Teste química antes do compromisso. Trabalhe em pelo menos um projeto de médio porte (um a três meses) juntos antes de formalizar sociedade. Como a pessoa reage quando dá errado é mais importante do que como reage quando dá certo.
 
-Formalize acordo de sócios desde o dia um. Os detalhes vêm na [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]3]]. Mas em espírito: equity percentual, vesting (cliff de um ano e quatro anos de vesting total é padrão), papéis, tomada de decisão em impasses, saída.
+Formalize acordo de sócios desde o dia um. Os detalhes vêm na [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]]. Mas em espírito: equity percentual, vesting (cliff de um ano e quatro anos de vesting total é padrão), papéis, tomada de decisão em impasses, saída.
 
 Confie, mas documente. Amigos viram desconhecidos quando dinheiro entra. Documentação não é desconfiança. É higiene básica.
 
@@ -861,7 +861,7 @@ Encontrar co-fundador é trabalho de meses, não de semanas. Um dos erros mais c
 - [ ] Conhecemos famílias/parceiros um do outro, parceiros(as) sabem e apoiam o compromisso.
 - [ ] Temos contrato societário rascunhado antes de operação começar de fato.
 
-A formalização jurídica e a divisão de equity têm tratamento detalhado na [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]3]] (Estruturação) e no [[#APÊNDICE AH — CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS|Apêndice AH]] (Contratos e Aspectos Legais). Aqui, a decisão que importa é quem é o sócio certo, a mecânica legal vem depois.
+A formalização jurídica e a divisão de equity têm tratamento detalhado na [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]] (Estruturação) e no [[#APÊNDICE AH — CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS|Apêndice AH]] (Contratos e Aspectos Legais). Aqui, a decisão que importa é quem é o sócio certo, a mecânica legal vem depois.
 
 ---
 
@@ -1246,7 +1246,7 @@ Tudo o que você não escreve não existe operacionalmente. A articulação for�
 E ao listar explicitamente o que você não sabe, você cria a agenda de trabalho das Fases 2 a 6. As suas incertezas de hoje são as suas hipóteses de amanhã.
 
 ### Quando usar
-Comece assim que a [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]] estiver concluída. Termine quando a Declaração couber em uma página, e você conseguir explicá-la verbalmente para um estranho em noventa segundos, e esse estranho conseguir repeti-la de volta com precisão. Revisite ao final de cada fase seguinte, para atualizar com o que foi aprendido.
+Comece assim que a [[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]] estiver concluída. Termine quando a Declaração couber em uma página, e você conseguir explicá-la verbalmente para um estranho em noventa segundos, e esse estranho conseguir repeti-la de volta com precisão. Revisite ao final de cada fase seguinte, para atualizar com o que foi aprendido.
 
 ### Quem envolve
 O executor principal é você. Os participantes são três a cinco pessoas que vão ler e dar feedback sobre a clareza da articulação, não sobre se a ideia é boa. Escolha gente que não é do seu setor. Para te forçar a explicar sem jargão. O decisor é você.
@@ -4767,7 +4767,7 @@ Três entradas costumam trazer o leitor até aqui. Você seguiu a Parte I linear
 
 A fase em que você está agora é a mais longa e a mais difícil da trajetória. Entre o primeiro cliente pagante e a empresa que cresce sozinha, passam-se tipicamente dois a cinco anos de trabalho contínuo. Nesses anos, a empresa muda de forma várias vezes. Você muda de forma também.
 
-A Parte II vai do MVP em mercado real ([[#FASE 10 — MVP E EXPERIMENTOS DE MERCADO|Fase 10]]) até a máquina ligada ([[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]]): por validação de modelo de negócio onde os números precisam fechar ([[#FASE 11 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 11]]), pelo PMF, o marco mais citado e mais mal-medido da literatura empreendedora ([[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]]), pela estruturação formal da empresa em jurídico, contábil, tributário ([[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]3]]), e finalmente por uma [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] que não é uma fase mas três simultâneas: time e liderança em escala, operações maduras, e máquina de crescimento com capital externo. Os apêndices que acompanham a Parte II cobrem o operacional dessas transições, vendas, growth, executive hiring, captação, modelagem financeira, LGPD, cultura, e são consulta sob demanda, não leitura sequencial.
+A Parte II vai do MVP em mercado real ([[#FASE 10 — MVP E EXPERIMENTOS DE MERCADO|Fase 10]]) até a máquina ligada ([[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]]): por validação de modelo de negócio onde os números precisam fechar ([[#FASE 11 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 11]]), pelo PMF, o marco mais citado e mais mal-medido da literatura empreendedora ([[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]]), pela estruturação formal da empresa em jurídico, contábil, tributário ([[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]]), e finalmente por uma [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] que não é uma fase mas três simultâneas: time e liderança em escala, operações maduras, e máquina de crescimento com capital externo. Os apêndices que acompanham a Parte II cobrem o operacional dessas transições, vendas, growth, executive hiring, captação, modelagem financeira, LGPD, cultura, e são consulta sob demanda, não leitura sequencial.
 
 **Uma nota sobre ritmo.** A Parte II é onde a maioria das empresas brasileiras interrompe a trajetória. Algumas, corretamente, porque descobriram que não havia mercado. Outras porque ficaram presas em um platô que parecia PMF mas era fit parcial, queimando caixa para escalar o que não estava pronto. Outras ainda porque atingiram PMF mas não conseguiram montar a máquina, continuaram dependentes do fundador vendendo no um a um. Não tem atalho. O que existe é disciplina: medir o que importa, declarar PMF só quando os indicadores sustentam, formalizar a empresa quando ela deixa de ser projeto, construir time e processo que funcionem sem você.
 
@@ -6125,7 +6125,7 @@ Esse é o perfil que você deve expandir em ondas concêntricas.
 
 ##### Caminho A, PMF claro
 
-Prossiga para a [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]3]] (estruturação formal), e a [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] (escala). Mas antes, reserve trinta a sessenta dias para estabilizar operações. A pior coisa que pode acontecer é escalar antes de o suporte, a infraestrutura, e o onboarding estarem prontos.
+Prossiga para a [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]] (estruturação formal), e a [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (escala). Mas antes, reserve trinta a sessenta dias para estabilizar operações. A pior coisa que pode acontecer é escalar antes de o suporte, a infraestrutura, e o onboarding estarem prontos.
 
 ##### Caminho B, PMF parcial
 
@@ -6418,7 +6418,7 @@ E há a confusão silenciosa entre PSF e PMF. Problem-Solution Fit não é PMF e
 
 O que você acabou de fazer ao longo das Fases 10 a 12. Construiu o MVP. Validou o modelo de negócio com dados reais. Atingiu PMF (ou diagnosticou que não atingiu, e está iterando). Esse trecho foi a travessia da descoberta para o mercado real. Saiu de protótipo para produto. Saiu de hipótese para fato.
 
-O que vem nas Fases 13 e 14. A escala. A [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]3]] trata de estruturação jurídica, financeira, e operacional. Constituir a empresa formalmente. Organizar contratos, governança, contabilidade, RH. A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] trata da máquina de crescimento. Time, cultura, capital, expansão. Os elementos que sustentam crescimento exponencial pós-PMF.
+O que vem nas Fases 13 e 14. A escala. A [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]] trata de estruturação jurídica, financeira, e operacional. Constituir a empresa formalmente. Organizar contratos, governança, contabilidade, RH. A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] trata da máquina de crescimento. Time, cultura, capital, expansão. Os elementos que sustentam crescimento exponencial pós-PMF.
 
 > [!warning] Pré-condição para escalar
 > Estruturar e escalar assumem PMF. Se você está aqui sem PMF sólido, pare e volte. Escalar sem PMF queima capital em ICP errado, contratações erradas, canais errados. A correção posterior custa duas a cinco vezes o desperdício imediato. PMF não é "métrica nice to have". É o gate.
@@ -6580,7 +6580,7 @@ Cobertura de seguros em relação a riscos críticos. Responsabilidade civil cob
 
 ### SAÍDA DESTA FASE
 
-Você concluiu a [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]3]] quando os nove critérios abaixo estão cumpridos.
+Você concluiu a [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]] quando os nove critérios abaixo estão cumpridos.
 
 1. Empresa juridicamente constituída em formato adequado (LTDA ou S.A.), com regime tributário adequado, e contrato social revisado por advogado especializado em startups.
 2. Cap table documentado com equity split e vesting dos sócios. Acordo de sócios assinado se há sócios. Padrão de quatro anos com cliff de doze meses.
@@ -6694,7 +6694,7 @@ Burn Multiple (David Sacks, 2020). Net Burn dividido por Net New ARR. Menos de u
 
 ### SÍNTESE DA FASE 13
 
-A [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]3]] confronta um adiamento comum, e caro. Muitos fundadores postergam a formalização. Acham que é burocracia, ou que "depois resolve". Mas a falta de formalização não é neutra. Gera riscos concretos. Autuações fiscais. Impossibilidade de emitir notas. Quebra de contratos por falta de amparo jurídico. Perda de funcionários por informalidade. Inviabilidade de captar investimento. Bloqueio de contas bancárias. A estruturação tarda. Mas sempre tem que acontecer. E quanto antes, melhor.
+A [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]] confronta um adiamento comum, e caro. Muitos fundadores postergam a formalização. Acham que é burocracia, ou que "depois resolve". Mas a falta de formalização não é neutra. Gera riscos concretos. Autuações fiscais. Impossibilidade de emitir notas. Quebra de contratos por falta de amparo jurídico. Perda de funcionários por informalidade. Inviabilidade de captar investimento. Bloqueio de contas bancárias. A estruturação tarda. Mas sempre tem que acontecer. E quanto antes, melhor.
 
 A diferença entre quem faz certo, e quem falha, está em tratar formalização como infraestrutura, não como obstáculo. Escolha de regime tributário tem efeito multimilionário em três a cinco anos. Cap table mal-feita no início é dor de cabeça em qualquer captação séria. Acordo de sócios sem drag-along, tag-along, e cláusulas de saída, expõe os fundadores a impasses que paralisam decisões em momento crítico. Compliance LGPD em dia não é luxo, é pré-requisito para vender enterprise, ou captar série A institucional.
 
@@ -6708,9 +6708,9 @@ O entregável é a empresa estruturada. CNPJ ativo. Regime tributário adequado.
 
 ### O que esse apêndice cobre
 
-A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] é o longo período em que a empresa transita de *ter PMF* para *ser máquina*. Aqui você sai do modo fundador-fazendo-tudo, e entra no modo empresa-institucional-funcionando-sem-você-diariamente. É a fase mais longa e trabalhosa da trajetória. Tipicamente dois a cinco anos. Com picos de atividade, mas também platôs. É também a fase onde boa parte das empresas brasileiras com PMF genuíno trava. Porque escalar envolve disciplinas que não tinham sido requeridas até aqui.
+A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] é o longo período em que a empresa transita de *ter PMF* para *ser máquina*. Aqui você sai do modo fundador-fazendo-tudo, e entra no modo empresa-institucional-funcionando-sem-você-diariamente. É a fase mais longa e trabalhosa da trajetória. Tipicamente dois a cinco anos. Com picos de atividade, mas também platôs. É também a fase onde boa parte das empresas brasileiras com PMF genuíno trava. Porque escalar envolve disciplinas que não tinham sido requeridas até aqui.
 
-A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] tem três frentes simultâneas. Cada uma com lógica própria, mas inseparáveis na prática. Você não "termina time" antes de começar "operações". As três evoluem em paralelo. Esse capítulo trata as três em subseções ordenadas por intuição operacional. Mas na vida real, elas rodam juntas.
+A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] tem três frentes simultâneas. Cada uma com lógica própria, mas inseparáveis na prática. Você não "termina time" antes de começar "operações". As três evoluem em paralelo. Esse capítulo trata as três em subseções ordenadas por intuição operacional. Mas na vida real, elas rodam juntas.
 
 A frente Time e Liderança em Escala. Do primeiro funcionário além do fundador até a organização com dezenas, ou centenas, de pessoas. Primeiras lideranças. Estrutura hierárquica. Cultura declarada. Performance reviews. Compensação equitativa. DEI. Remote, e híbrido. Desenvolvimento de carreira. Promoção. Saída.
 
@@ -6720,13 +6720,13 @@ A frente Máquina de Crescimento, Capital e Expansão. Growth virando engenharia
 
 ### POR QUE
 
-Sem escala, o PMF vira curiosidade histórica. Empresa que atinge PMF mas não escala é empresa que fica pequena para sempre. Possivelmente lucrativa. Possivelmente satisfatória para o fundador. Mas não é o que o ecossistema de venture capital busca financiar. Se o seu caminho é construir uma empresa de software de bilhões, a [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] é onde se prova, ou não se prova.
+Sem escala, o PMF vira curiosidade histórica. Empresa que atinge PMF mas não escala é empresa que fica pequena para sempre. Possivelmente lucrativa. Possivelmente satisfatória para o fundador. Mas não é o que o ecossistema de venture capital busca financiar. Se o seu caminho é construir uma empresa de software de bilhões, a [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] é onde se prova, ou não se prova.
 
-A escala também muda quem você é como líder. Na [[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]] você é artesão. Na [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] você é industrial. O conjunto de habilidades é diferente. Às vezes oposto. Muitos fundadores tropeçam aqui. Não por falta de mérito. Mas porque insistem em operar como artesão quando a empresa precisa de industrial. Trocar de modo é parte da [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]].
+A escala também muda quem você é como líder. Na [[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]] você é artesão. Na [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] você é industrial. O conjunto de habilidades é diferente. Às vezes oposto. Muitos fundadores tropeçam aqui. Não por falta de mérito. Mas porque insistem em operar como artesão quando a empresa precisa de industrial. Trocar de modo é parte da [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]].
 
 ### Quando usar
 
-Comece quando você declarou PMF na [[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]], e fez a estruturação formal da [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]3]]. Em prática, doze a dezoito meses depois do primeiro MVP validado. A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] não tem fim claro. Ela se funde à Parte III desse manual (Em Escala) quando a empresa atinge uma massa crítica. Tipicamente cento e cinquenta a quinhentos funcionários, operação em múltiplas frentes, e governance formal. A frequência de revisão é contínua. A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] não é "documento que se escreve uma vez". É rotina gerencial e estratégica permanente.
+Comece quando você declarou PMF na [[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]], e fez a estruturação formal da [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]]. Em prática, doze a dezoito meses depois do primeiro MVP validado. A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] não tem fim claro. Ela se funde à Parte III desse manual (Em Escala) quando a empresa atinge uma massa crítica. Tipicamente cento e cinquenta a quinhentos funcionários, operação em múltiplas frentes, e governance formal. A frequência de revisão é contínua. A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] não é "documento que se escreve uma vez". É rotina gerencial e estratégica permanente.
 
 ### Quem envolve
 
@@ -6738,7 +6738,7 @@ O executor principal é você, com o time executivo que começa a se formar. Pri
 
 #### O primeiro funcionário, a transição de fundador solo para mais um
 
-A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] (Time e Liderança) trata time em escala com processos formais. Mas a transição do fundador solo, ou dupla, para fundador mais um funcionário é um momento específico que raramente é bem-tratado em manuais. Essa seção cobre.
+A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Time e Liderança) trata time em escala com processos formais. Mas a transição do fundador solo, ou dupla, para fundador mais um funcionário é um momento específico que raramente é bem-tratado em manuais. Essa seção cobre.
 
 > [!important] Por que é momento crítico
 > Até aqui, o fundador fazia tudo, e delegava nada. A dificuldade é mais emocional que técnica. Aprender a *confiar* em alguém com coisas que antes você controlava. O primeiro funcionário define a cultura da empresa com peso desproporcional. Os valores dessa pessoa moldam os próximos cinco a quinze funcionários. Erros de contratação cedo são caros. Em tempo perdido. Em moral quebrada. Em aprendizado de gestão ainda embrionário no fundador. O primeiro funcionário frequentemente tem perfil diferente dos seguintes. Requer empreendedorismo no DNA, mesmo sendo funcionário.
@@ -6958,7 +6958,7 @@ Reportes diretos do CEO. Até dez em qualquer tamanho de empresa. Mais que isso 
 
 #### DEFINIÇÃO DE SUCESSO (Time e Liderança)
 
-A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] (Time e Liderança) está concluída quando os sete itens abaixo estão cumpridos.
+A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Time e Liderança) está concluída quando os sete itens abaixo estão cumpridos.
 
 1. Diagnóstico de gargalo do fundador está escrito, e ações de delegação definidas.
 2. Plano de contratação de doze meses está documentado, priorizado, e em execução.
@@ -7310,7 +7310,7 @@ Percentual de decisões grandes com RFC escrito. Oitenta por cento ou mais para 
 
 #### DEFINIÇÃO DE SUCESSO (Operações)
 
-A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] (Operações) está concluída quando os seis critérios abaixo estão cumpridos.
+A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Operações) está concluída quando os seis critérios abaixo estão cumpridos.
 
 1. Cadência de gestão (semanal, trimestral, anual) está formalizada, e rodando há dois ou mais trimestres.
 2. OKRs estão em uso, com scoring trimestral.
@@ -7502,7 +7502,7 @@ Transformação do motor de aquisição (que provou unit economics em pequena es
 Crescer três a cinco vezes ao ano exige infraestrutura. Vendas fundador-led não escala acima de R$ 5-10 milhões de ARR. Marketing ad-hoc não gera previsibilidade. Internacionalização intuitiva queima caixa. Cada uma dessas áreas tem padrões conhecidos de sucesso e falha. E ignorá-los é optar por aprender caro. Adicionalmente, captação estratégica, versus oportunista, é a diferença entre rodadas que aceleram, e rodadas que estrangulam.
 
 #### QUANDO (Crescimento e Capital)
-Comece depois da [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] em operação estável. Termine quando a máquina de aquisição estiver previsível, o plano de capital executado (ou em execução), e a expansão (se aplicável) em curso, com pelo menos uma vertical, ou geografia, nova validada. Revisite anualmente. E a cada saturação de canal (a cada doze a dezoito meses).
+Comece depois da [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] em operação estável. Termine quando a máquina de aquisição estiver previsível, o plano de capital executado (ou em execução), e a expansão (se aplicável) em curso, com pelo menos uma vertical, ou geografia, nova validada. Revisite anualmente. E a cada saturação de canal (a cada doze a dezoito meses).
 
 #### QUEM (Crescimento e Capital)
 O executor principal é o CEO, mais o Head of Sales ou Marketing, mais o CFO. Os participantes são o board, advisors, e investidores potenciais.
@@ -7894,7 +7894,7 @@ Se expandiu, receita de novo segmento, geografia, ou produto, em percentual do t
 
 #### DEFINIÇÃO DE SUCESSO (Crescimento e Capital)
 
-A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] (Crescimento e Capital) está concluída quando os cinco critérios abaixo estão cumpridos.
+A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Crescimento e Capital) está concluída quando os cinco critérios abaixo estão cumpridos.
 
 1. Motor de vendas, e aquisição, opera sem envolvimento direto do fundador em mais de setenta por cento dos deals.
 2. Métricas financeiras estão em faixas saudáveis (NRR cento e dez por cento ou mais, burn multiple até um vírgula cinco, Rule of 40 quarenta ou mais).
@@ -8013,11 +8013,11 @@ SaaS Quick Ratio (Hamid). (New mais Expansion) dividido por (Churned mais Contra
 
 ### SÍNTESE DA FASE 14
 
-A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] é marcada por simultaneidade. Você não pode priorizar uma das três frentes em detrimento das outras por muito tempo, sem custo. Time sem operação tropeça. Operação sem crescimento estagna. Crescimento sem time sustenta-se por alguns trimestres, e depois colapsa. A arte do fundador em escala é manter as três balanceadas. Sabendo que em qualquer momento uma delas vai pesar mais.
+A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] é marcada por simultaneidade. Você não pode priorizar uma das três frentes em detrimento das outras por muito tempo, sem custo. Time sem operação tropeça. Operação sem crescimento estagna. Crescimento sem time sustenta-se por alguns trimestres, e depois colapsa. A arte do fundador em escala é manter as três balanceadas. Sabendo que em qualquer momento uma delas vai pesar mais.
 
-A duração típica da [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]], dois a cinco anos, é também a janela em que a empresa passa de "startup" para "empresa" no olhar do mercado. O fim da [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] não é um marco claro. É uma transição gradual para a Parte III desse manual. Onde você encontra os temas das empresas já consolidadas. Governance madura. Internacionalização. Tesouraria em escala. Disputas societárias. Crise e continuidade.
+A duração típica da [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]], dois a cinco anos, é também a janela em que a empresa passa de "startup" para "empresa" no olhar do mercado. O fim da [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] não é um marco claro. É uma transição gradual para a Parte III desse manual. Onde você encontra os temas das empresas já consolidadas. Governance madura. Internacionalização. Tesouraria em escala. Disputas societárias. Crise e continuidade.
 
-Quando você olhar para trás, ao fim da [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]], vai reconhecer duas coisas. Primeira. A empresa é maior, mais complexa, e mais resiliente do que você imaginava possível. Segunda. Você também é. Ambas as transformações são parte da mesma jornada.
+Quando você olhar para trás, ao fim da [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]], vai reconhecer duas coisas. Primeira. A empresa é maior, mais complexa, e mais resiliente do que você imaginava possível. Segunda. Você também é. Ambas as transformações são parte da mesma jornada.
 
 #fase14 #escala #time-em-escala #lideranca #okrs #operacoes #growth #captacao #serie-a #m-and-a
 
@@ -8048,7 +8048,7 @@ Priorização sem framework é política. Quem grita mais alto, ou tem mais aces
 
 ### Quando usar
 
-[[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]], primeiras disciplinas estruturadas (descoberta contínua, e priorização leve). [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] com primeiros Product Managers contratados, todos os territórios começam a importar. [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] com múltiplos squads, Product Ops emerge como função. [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] em diante, Design System e Platform Product Management.
+[[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]], primeiras disciplinas estruturadas (descoberta contínua, e priorização leve). [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] com primeiros Product Managers contratados, todos os territórios começam a importar. [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] com múltiplos squads, Product Ops emerge como função. [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] em diante, Design System e Platform Product Management.
 
 ### Quem envolve
 
@@ -8153,7 +8153,7 @@ Três curvas principais. A linha inferior (Must-have) tem teto em zero. Ausênci
 
 **Opportunity Prioritization (Torres).** Dentro do Opportunity Solution Tree, escolher a próxima opportunity baseado em três critérios. Impacto esperado no outcome. Evidência acumulada (quantas entrevistas validam). Addressability (resolvível por solução factível).
 
-A escolha do framework varia por estágio. [[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]] a 13A, Opportunity mais RICE leve. [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] (Operações em diante), RICE mais Kano. Enterprise com múltiplos squads, WSJF.
+A escolha do framework varia por estágio. [[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]] a 13A, Opportunity mais RICE leve. [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Operações em diante), RICE mais Kano. Enterprise com múltiplos squads, WSJF.
 
 #### 3. Roadmap, comunicação de aposta
 
@@ -10345,9 +10345,9 @@ Empresa sem CS estruturado tipicamente tem churn duas a cinco vezes maior do que
 
 [[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]] (pós-PMF inicial). Primeiros processos de onboarding, e suporte.
 
-[[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] (Time e Liderança). Contratar primeiro CSM (Customer Success Manager).
+[[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Time e Liderança). Contratar primeiro CSM (Customer Success Manager).
 
-[[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] (Operações em escala). CS como função, com métricas, playbooks, e tooling.
+[[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Operações em escala). CS como função, com métricas, playbooks, e tooling.
 
 Série B em diante (se enterprise). Segmentação CS (High-Touch, Tech-Touch, Low-Touch).
 
@@ -10357,7 +10357,7 @@ Estrutura típica de time CS, conforme estágio.
 
 **[[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]] a 13A (pré-Série A).** O CEO, ou founder, faz CS pessoalmente até cerca de cinquenta clientes. Primeiro contratado. Customer Success Manager generalista.
 
-**[[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] (Time e Liderança), da escala inicial à Série B (Série A a B).** Head of CS. CSMs segmentados por tier (SMB, Mid-Market, Enterprise). Primeiro CS Operations (processos, tooling, e analytics).
+**[[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Time e Liderança), da escala inicial à Série B (Série A a B).** Head of CS. CSMs segmentados por tier (SMB, Mid-Market, Enterprise). Primeiro CS Operations (processos, tooling, e analytics).
 
 **Série B em diante.** VP Customer Success reportando ao CEO, ou ao CRO. CSM Team com tiers claros. Implementation Specialists (onboarding dedicado). Support (reativo, ticket-based) separado de CS (proativo, account-based). Renewals team (às vezes separado de CSM).
 
@@ -11533,7 +11533,7 @@ Não documentar decisões. O review acontece. A conversa acontece. Mas nada fica
 > [!note] Nota de validade
 > Princípios de construção de cultura são estáveis ao longo de décadas. Ferramentas (engagement surveys, OKRs, ferramentas de feedback) evoluem em três a cinco anos. Revisar bienalmente.
 
-A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] (Time e Liderança) menciona "valores documentados" como entregável. O [[#APÊNDICE R — FOUNDER MODE, DELEGAÇÃO E QUANDO PARAR DE FAZER|Apêndice R]] (Founder Mode) toca em liderança. Mas cultura como disciplina gerenciada — como escrever valores que não sejam clichês, como mantê-los em escala, como medir, rituais de reforço, sinais de toxicidade — não tem apêndice dedicado. É lacuna consequente. Cultura ruim não mata empresa no curto prazo. Mas erode talento, produtividade, e marca empregadora, ao longo de anos.
+A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Time e Liderança) menciona "valores documentados" como entregável. O [[#APÊNDICE R — FOUNDER MODE, DELEGAÇÃO E QUANDO PARAR DE FAZER|Apêndice R]] (Founder Mode) toca em liderança. Mas cultura como disciplina gerenciada — como escrever valores que não sejam clichês, como mantê-los em escala, como medir, rituais de reforço, sinais de toxicidade — não tem apêndice dedicado. É lacuna consequente. Cultura ruim não mata empresa no curto prazo. Mas erode talento, produtividade, e marca empregadora, ao longo de anos.
 
 Esse apêndice cobre cultura, não como "valores no cartaz". Mas como comportamento agregado, que pode ser gerenciado deliberadamente.
 
@@ -11559,9 +11559,9 @@ Empresa com cultura ruim recruta errado. O talento top não entra. Quando entra,
 
 [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]] (antes mesmo de primeira contratação). os fundadores articulam valores que acreditam.
 
-[[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] (Time e Liderança), primeiros dez funcionários. Cultura se forma. Deliberadamente, ou por padrão.
+[[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Time e Liderança), primeiros dez funcionários. Cultura se forma. Deliberadamente, ou por padrão.
 
-[[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] (Operações, da escala inicial à Série C), dez para cem ou mais pessoas. Cultura precisa de reforço explícito. Rituais, comunicação, e onboarding estruturado.
+[[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Operações, da escala inicial à Série C), dez para cem ou mais pessoas. Cultura precisa de reforço explícito. Rituais, comunicação, e onboarding estruturado.
 
 Série B em diante (cem ou mais pessoas). Cultura vira função (pessoas, ou people ops, formalizado). Medição sistemática.
 
@@ -12011,7 +12011,7 @@ Risco. Se mal-executado, a cultura se dilui, a produtividade cai, e as decisões
 
 ### Quando usar
 
-Decisão estrutural inicial ([[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]], Time e Liderança, ou antes).
+Decisão estrutural inicial ([[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]], Time e Liderança, ou antes).
 
 Revisão pós-eventos grandes (Covid, contratações em outras cidades, mudança de liderança).
 
@@ -13933,7 +13933,7 @@ Entregável. Plano de Financiamento. Documento de duas a três páginas que mape
 
 Três razões para priorizar não-diluitivo, antes de cada rodada de equity.
 
-Diluição preservada para o exit. Cada ponto percentual preservado em cap table, pela [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] (Crescimento e Capital), vira valor monetário no exit. um fundador que diluiu sessenta por cento até Série C realiza metade do que realizaria, se tivesse diluído quarenta por cento. Financiamento não-diluitivo bem usado preserva cinco a quinze pontos percentuais de founders, e early team, até o exit.
+Diluição preservada para o exit. Cada ponto percentual preservado em cap table, pela [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Crescimento e Capital), vira valor monetário no exit. um fundador que diluiu sessenta por cento até Série C realiza metade do que realizaria, se tivesse diluído quarenta por cento. Financiamento não-diluitivo bem usado preserva cinco a quinze pontos percentuais de founders, e early team, até o exit.
 
 Disciplina operacional. Dívida cobra juros em caixa. Revenue share consome margem. Grants exigem prestação de contas. Todos forçam disciplina, que equity não força. Equity permite queimar dinheiro com pouca cobrança de curto prazo. O que é a origem de operações infladas, que quebram quando o mercado aperta.
 
@@ -14656,7 +14656,7 @@ Prevenção é barata. Um financeiro sênior bem-estruturado evita crise, que cu
 
 [[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]] em diante (faturando R$ 100 mil em diante por mês). Disciplina formal.
 
-[[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] (Time, e Liderança, em diante). Controller, ou CFO part-time.
+[[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Time, e Liderança, em diante). Controller, ou CFO part-time.
 
 Série A em diante. CFO, ou finance lead, interno.
 
@@ -14769,7 +14769,7 @@ Receita adiantada sem disciplina. Vender anual, mas gastar imediatamente, como s
 > [!note] Nota de validade
 > A legislação tributária brasileira muda frequentemente. Reformas, alíquotas, e regimes especiais. Esse apêndice reflete o cenário de abril de 2026, pós-Reforma Tributária do Consumo (EC 132/2023) em fase de transição (IBS, mais CBS, gradualmente substituindo ICMS, ISS, PIS, Cofins, IPI até 2033). Revisar anualmente, idealmente com contador especializado em startup. Os princípios (separação pessoal/empresarial, documentação, planejamento tributário antecipado) têm vida útil mais longa que alíquotas, e regimes específicos.
 
-A [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]3]] cobre constituição da empresa, cap table, e contratos. Esse apêndice aprofunda o que muitos fundadores brasileiros aprendem errado, ou tarde. Contabilidade, e tributação, como disciplinas operacionais. Erros aqui podem gerar passivos de R$ 5 a R$ 50 milhões, descobertos em due diligence. E fazer exit desmoronar por questões que custariam R$ 50 mil para prevenir.
+A [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]] cobre constituição da empresa, cap table, e contratos. Esse apêndice aprofunda o que muitos fundadores brasileiros aprendem errado, ou tarde. Contabilidade, e tributação, como disciplinas operacionais. Erros aqui podem gerar passivos de R$ 5 a R$ 50 milhões, descobertos em due diligence. E fazer exit desmoronar por questões que custariam R$ 50 mil para prevenir.
 
 ### O que esse apêndice cobre
 
@@ -14798,7 +14798,7 @@ Dia um da empresa. Contador especializado. Não generalista. Não "contador do m
 
 [[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]]. Decisão de regime tributário, com visão de dezoito a vinte e quatro meses.
 
-[[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] (Time, e Liderança, da escala inicial à Série B). Considerar trazer para dentro um controller, ou FP&A. Não substitui contador externo.
+[[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Time, e Liderança, da escala inicial à Série B). Considerar trazer para dentro um controller, ou FP&A. Não substitui contador externo.
 
 Pré-captação Série A em diante. Preparação formal para DD (livros auditados, ou revisados).
 
@@ -14810,7 +14810,7 @@ Contador externo especializado em startup. Escritórios como Contabilizei (tecno
 
 Advogado tributarista. Consultivo. Não diário. Acionar em decisões críticas.
 
-Controller interno. Da [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] (Operações) em diante (R$ 120 a R$ 180 mil por ano no Brasil).
+Controller interno. Da [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Operações) em diante (R$ 120 a R$ 180 mil por ano no Brasil).
 
 FP&A (Financial Planning & Analysis). Série B em diante, para cenários, orçamento, e KPIs financeiros.
 
@@ -15403,7 +15403,7 @@ Não validar CAC atribuído a cohort. O modelo assume "CAC é X, aplicado ao coh
 > [!note] Nota de validade
 > Esse apêndice reflete o estado da regulação de dados pessoais brasileira, e as práticas de mercado, em abril de 2026. LGPD, regulamentações da ANPD, decisões judiciais, e regulações setoriais (Bacen, ANS, etc.), evoluem ano a ano. Revisar anualmente. Especialmente. Novas resoluções da ANPD. Mudanças setoriais aplicáveis ao seu negócio. Jurisprudência relevante sobre multas, e responsabilidade. Quando houver divergência entre esse apêndice, e a regulação atual, a regulação atual prevalece.
 
-A [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]3]] (Estruturação Jurídica, Financeira, e Operacional) cobre o essencial de formalização da empresa. Esse apêndice expande o tratamento de dados pessoais, e compliance. Tema que deixa de ser "papel do jurídico", quando a startup passa a operar com volumes relevantes de dados pessoais (que é tipicamente a partir da [[#FASE 11 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 11]]). E vira risco existencial se mal-conduzido.
+A [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]] (Estruturação Jurídica, Financeira, e Operacional) cobre o essencial de formalização da empresa. Esse apêndice expande o tratamento de dados pessoais, e compliance. Tema que deixa de ser "papel do jurídico", quando a startup passa a operar com volumes relevantes de dados pessoais (que é tipicamente a partir da [[#FASE 11 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 11]]). E vira risco existencial se mal-conduzido.
 
 A LGPD (Lei Geral de Proteção de Dados, Lei 13.709/2018) entrou em vigor em 2020. E as sanções em 2021. Para a maioria das startups brasileiras pós-PMF, LGPD não é opcional. Nem "avaliar depois". É infraestrutura. As multas podem chegar a dois por cento do faturamento da pessoa jurídica (limitado a R$ 50 milhões por infração).
 
@@ -15437,13 +15437,13 @@ Risco em M&A. Due diligence de adquirente identifica passivo de privacidade, com
 
 ### Quando usar
 
-Base mínima (contratos, política de privacidade, e termos de uso). [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]3]]. Sem exceção.
+Base mínima (contratos, política de privacidade, e termos de uso). [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]]. Sem exceção.
 
-DPO formal, e processos operacionais. [[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]] (pós-PMF), ou [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] (Time, e Liderança). Conforme escala de dados pessoais.
+DPO formal, e processos operacionais. [[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]] (pós-PMF), ou [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Time, e Liderança). Conforme escala de dados pessoais.
 
-Programa estruturado (auditorias, RIPDs, e governança). [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] (Operações) em diante. Ou antes, se for B2B enterprise, financeiro, ou saúde.
+Programa estruturado (auditorias, RIPDs, e governança). [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Operações) em diante. Ou antes, se for B2B enterprise, financeiro, ou saúde.
 
-Certificações adicionais (ISO 27001, e SOC 2). [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] (Operações, da escala inicial à Série C). Guiadas por demanda comercial.
+Certificações adicionais (ISO 27001, e SOC 2). [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Operações, da escala inicial à Série C). Guiadas por demanda comercial.
 
 ### Quem envolve
 
@@ -15558,7 +15558,7 @@ Educação. LGPD, mais LDB, mais portarias setoriais.
 
 Marketing, ou telemarketing. LGPD, mais Código de Defesa do Consumidor, mais regras do Procon.
 
-Startup em setor regulado precisa mapear regime completo (não só LGPD) na [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]3]]. Idealmente com especialista do setor.
+Startup em setor regulado precisa mapear regime completo (não só LGPD) na [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]]. Idealmente com especialista do setor.
 
 ### PERGUNTAS A RESPONDER
 
@@ -15652,7 +15652,7 @@ Para validar programa de LGPD, e governança.
 > [!note] Nota de validade
 > A legislação contratual, e de consumidor, evolui em ciclos de cinco a dez anos. Códigos específicos (CDC, CLT, e Marco Civil) mudam periodicamente. Revisar a cada vinte e quatro meses, idealmente com advogado brasileiro especializado.
 
-A [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]3]] cobre constituição da empresa. O [[#APÊNDICE T — LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Apêndice T]] cobre LGPD. O [[#APÊNDICE W — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Apêndice W]] cobre tributário. Esse apêndice cobre contratos operacionais, e aspectos legais não-cobertos em outros. Contratos com clientes (além de política de privacidade), termos de uso robustos, contratos com fornecedores, contratos com freelancers, IP, e propriedade intelectual, aspectos trabalhistas em startup, e litígios.
+A [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]] cobre constituição da empresa. O [[#APÊNDICE T — LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Apêndice T]] cobre LGPD. O [[#APÊNDICE W — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Apêndice W]] cobre tributário. Esse apêndice cobre contratos operacionais, e aspectos legais não-cobertos em outros. Contratos com clientes (além de política de privacidade), termos de uso robustos, contratos com fornecedores, contratos com freelancers, IP, e propriedade intelectual, aspectos trabalhistas em startup, e litígios.
 
 ### O que esse apêndice cobre
 
@@ -15676,9 +15676,9 @@ Termo de uso fraco expõe empresa a pleitos de cliente.
 
 ### Quando usar
 
-[[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]3]]. Contratos base (termos de uso, e contrato de trabalho padrão).
+[[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]]. Contratos base (termos de uso, e contrato de trabalho padrão).
 
-[[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] (Time, e Liderança, em diante). Contratos customizados com clientes enterprise.
+[[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Time, e Liderança, em diante). Contratos customizados com clientes enterprise.
 
 Pré-rodada. Revisão completa para DD.
 
@@ -17023,7 +17023,7 @@ Dashboards de analytics insuficientes. PLG sem instrumentação é operação ce
 
 ### Exercício aplicado — Diagnóstico organizacional (Fase 14)
 
-A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] é a mais longa e mais difícil. Esse exercício ajuda a identificar onde você está no espectro de escala e o que precisa acontecer nos próximos noventa dias.
+A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] é a mais longa e mais difícil. Esse exercício ajuda a identificar onde você está no espectro de escala e o que precisa acontecer nos próximos noventa dias.
 
 Passo 1 (30 minutos). Conte pessoas na empresa e use as faixas: abaixo de 20 é empresa-fundador, você conhece todos pelo nome e a cultura é transmitida por osmose diária. De 20 a 50, a primeira estrutura emerge com primeiros líderes de área e processos começando a existir. De 50 a 100 é a transição dolorosa, onde o fundador não consegue mais gerir diretamente todos. De 100 a 250 é scaleup estruturada com gerentes de gerente, processos formais e RH estabelecido. Acima de 250, empresa-organização com hierarquia real e especialização funcional clara.
 
@@ -17040,7 +17040,7 @@ Passo 5 (comunicação). Compartilhe o plano com cofundadores e top líderes. Es
 
 ### O momento 20 a 100 pessoas — a transição mais difícil e menos documentada
 
-Essa é uma das seções mais importantes da [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]], e merece tratamento dedicado porque representa o ponto onde muitas scaleups brasileiras quebram — não por falta de PMF, não por falta de capital, mas por não conseguir fazer a transição organizacional específica desse tamanho.
+Essa é uma das seções mais importantes da [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]], e merece tratamento dedicado porque representa o ponto onde muitas scaleups brasileiras quebram — não por falta de PMF, não por falta de capital, mas por não conseguir fazer a transição organizacional específica desse tamanho.
 
 Abaixo de 20 pessoas, a empresa opera como time estendido. O fundador conhece cada pessoa, participa de cada decisão importante e a cultura é transmitida por osmose diária. Acima de 100, a empresa necessariamente tem estrutura formal, gerentes de gerentes, processos escritos e RH estabelecido. Entre 20 e 100, o fundador vive a transição mais dolorosa da trajetória: tem que deixar de ser "o fundador que sabe tudo" para ser "o CEO que confia em quem sabe". Esse ajuste organizacional é o que separa scaleup bem-sucedida de empresa que quebra em crescimento.
 
@@ -17111,7 +17111,7 @@ Se você chegou até aqui, está numa minoria pequena dos fundadores brasileiros
 > [!note] Nota de validade
 > As estruturas, e boas práticas de governance, evoluem lentamente (década). O que muda mais rápido. Ferramentas de board portal (Diligent, BoardEffect, e Notion com templates). Padrões de ESG disclosure. Regulação societária específica. Revisar anualmente. Os princípios (composição balanceada, preparação estruturada, e decisões documentadas) são estáveis.
 
-A [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]3]] cobre constituição, e cap table. O [[#APÊNDICE V — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Apêndice V]] cobre captação. Mas operar com board saudável é disciplina em si. Raramente tratada em manuais brasileiros de empreendedorismo. Fundador em Série A que nunca preparou material de board, nunca conduziu uma reunião, e nunca demitiu membro improdutivo, chega despreparado à situação mais consequente do seu calendário trimestral.
+A [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]] cobre constituição, e cap table. O [[#APÊNDICE V — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Apêndice V]] cobre captação. Mas operar com board saudável é disciplina em si. Raramente tratada em manuais brasileiros de empreendedorismo. Fundador em Série A que nunca preparou material de board, nunca conduziu uma reunião, e nunca demitiu membro improdutivo, chega despreparado à situação mais consequente do seu calendário trimestral.
 
 Esse apêndice cobre board como disciplina operacional. Composição. Cadência. Preparação de materiais. Condução de reuniões. Gestão de membros difíceis. E evolução do board, conforme empresa cresce.
 
@@ -17138,7 +17138,7 @@ O fundador iniciante raramente foi board member antes. Aprende no próprio garga
 
 ### Quando usar
 
-[[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]3]]. Primeiros "observers", ou advisors, como proxy de board embrionário.
+[[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]]. Primeiros "observers", ou advisors, como proxy de board embrionário.
 
 Pós-Seed, ou pré-Série A. Primeiro board formal (dois a três membros típico).
 
@@ -17389,7 +17389,7 @@ O tema é crítico no Brasil por razões estruturais. Empresas familiares domina
 
 A startup de fundador com empresa familiar anterior é tema específico. O fundador pode estar fugindo da empresa da família (empreendedorismo como declaração de independência), construindo algo para herdar junto com a empresa familiar, ou usando capital e rede familiar como apoio à startup, o que cria dinâmicas específicas de accountability. Casar com sócio ou sócia e ter empresa com cônjuge merece tratamento específico pelo risco de o casamento virar sociedade forçada, pelo divórcio que pode paralisar a empresa, e pela dinâmica diária que mistura intimidade e profissionalismo.
 
-Os momentos de aplicação são vários. Antes de aceitar entrar em empresa familiar (Fase -1, antes da [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]]), com clareza sobre expectativas, papel e caminho. Fases 0 a 1 com cofundador familiar, com acordo explícito e formal desde o início. [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]3]] em diante com sucessão iminente, com preparação estruturada de cinco a quinze anos. E em qualquer fase com conflito familiar emergente, com intervenção profissional imediata, porque problemas familiares em empresa raramente se resolvem sozinhos.
+Os momentos de aplicação são vários. Antes de aceitar entrar em empresa familiar (Fase -1, antes da [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]]), com clareza sobre expectativas, papel e caminho. Fases 0 a 1 com cofundador familiar, com acordo explícito e formal desde o início. [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]] em diante com sucessão iminente, com preparação estruturada de cinco a quinze anos. E em qualquer fase com conflito familiar emergente, com intervenção profissional imediata, porque problemas familiares em empresa raramente se resolvem sozinhos.
 
 Os profissionais que ajudam são bem definidos. Conselheiro de família, profissional externo especializado em empresa familiar, custa de quinze a quarenta mil reais por mês em empresas grandes e de cinco a quinze mil em startups e médias. Terapeuta familiar sistêmico, psicólogo com formação em dinâmicas familiares, para situações com sofrimento emocional ou conflito significativo. Advogado especializado em governança familiar, para contratos familiares, holdings e acordos societários específicos. Consultor em sucessão, via IBGC, FDC ou butiques especializadas. E mentor sênior com experiência em empresa familiar, alguém que viveu a transição de geração com sucesso e pode guiar informalmente.
 
@@ -19528,7 +19528,7 @@ Competição entre startups reguladas é filtrada por compliance: quem não cons
 
 ### Quando agir
 
-Na [[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]]-4 (descoberta do problema), se você identifica oportunidade em setor regulado, entenda a arquitetura regulatória antes de construir MVP. Descobrir que seu produto exige licença de dezoito meses depois de construí-lo é catastrófico. Na [[#FASE 10 — MVP E EXPERIMENTOS DE MERCADO|Fase 10]] (MVP), busque primeiras licenças piloto ou sandboxes regulatórios (quando existem). Na [[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]] (PMF), compliance pleno é pré-requisito para captar Série A em setor regulado. Da [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] em diante, compliance officer dedicado, relacionamento estruturado com regulador e participação em consultas públicas.
+Na [[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]]-4 (descoberta do problema), se você identifica oportunidade em setor regulado, entenda a arquitetura regulatória antes de construir MVP. Descobrir que seu produto exige licença de dezoito meses depois de construí-lo é catastrófico. Na [[#FASE 10 — MVP E EXPERIMENTOS DE MERCADO|Fase 10]] (MVP), busque primeiras licenças piloto ou sandboxes regulatórios (quando existem). Na [[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]] (PMF), compliance pleno é pré-requisito para captar Série A em setor regulado. Da [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] em diante, compliance officer dedicado, relacionamento estruturado com regulador e participação em consultas públicas.
 
 ### Quem envolver
 
@@ -20972,7 +20972,7 @@ Brand pessoal e corporativo são ativos separados e cruzados. Separam em exit ("
 - **[[#FASE 5 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 5]]-6:** começar a construir rede e presença em eventos setoriais (painel, conversa em associação). Não ainda imprensa.
 - **[[#FASE 10 — MVP E EXPERIMENTOS DE MERCADO|Fase 10]]-10 (pós-MVP/PMF):** iniciar presença em redes próprias (LinkedIn principalmente) com cadência leve (1-2 postagens/semana).
 - **[[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]]-12 (pós-rodada relevante):** primeira onda de imprensa consciente, entrevistas planejadas, não reativas. Press release do marco (Série A), conteúdo de thought leadership.
-- **[[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] (Time e Liderança em diante) (escala):** comunicação institucional estruturada, assessoria de imprensa contratada, porta-voz com treinamento formal, protocolo de crisis comm ativado.
+- **[[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Time e Liderança em diante) (escala):** comunicação institucional estruturada, assessoria de imprensa contratada, porta-voz com treinamento formal, protocolo de crisis comm ativado.
 - **Contínuo:** revisar narrativa anualmente, ajustar posicionamento conforme empresa evolui.
 - **Em crise:** protocolo específico (ver COMO, seção crisis).
 
@@ -21410,7 +21410,7 @@ flowchart LR
 
 #### Antes de começar, esgotou os seis caminhos de expansão?
 
-Uma confusão comum em fundadores é tomar saturação de *um* caminho de crescimento como saturação *geral*, e partir prematuramente para reinvenção. Quando ainda há espaço na [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] (Crescimento e Capital). Antes de abrir um ciclo de reinvenção, faça o diagnóstico honesto. Dos seis caminhos de expansão disciplinada da [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]], três intra-conta (workflow adjacente, papel adjacente, ownership de sistema), e três extra-conta (segmento, geografia, produto), quantos você efetivamente ativou e esgotou? Fundadores experientes costumam entrar na [[#FASE 15 — REINVENÇÃO E SEGUNDA CURVA|Fase 15]] real só depois de ter rodado pelo menos três ou quatro dos seis caminhos com seriedade.
+Uma confusão comum em fundadores é tomar saturação de *um* caminho de crescimento como saturação *geral*, e partir prematuramente para reinvenção. Quando ainda há espaço na [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Crescimento e Capital). Antes de abrir um ciclo de reinvenção, faça o diagnóstico honesto. Dos seis caminhos de expansão disciplinada da [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]], três intra-conta (workflow adjacente, papel adjacente, ownership de sistema), e três extra-conta (segmento, geografia, produto), quantos você efetivamente ativou e esgotou? Fundadores experientes costumam entrar na [[#FASE 15 — REINVENÇÃO E SEGUNDA CURVA|Fase 15]] real só depois de ter rodado pelo menos três ou quatro dos seis caminhos com seriedade.
 
 > [!warning] Saturação real versus cansaço do fundador
 > Saturação real existe, e exige reinvenção. Mas "saturação" invocada para justificar troca de direção antes da hora é frequentemente uma racionalização para o cansaço do fundador. E troca de direção feita por cansaço produz segundas curvas que nascem mortas. Se você ainda não tentou expandir intra-conta com método, o que parece saturação do negócio pode ser apenas saturação de um canal específico. Resolvível com movimento muito mais barato do que reinvenção.
@@ -21676,7 +21676,7 @@ Wardley Mapping. Revisitar evolução dos componentes (custom, depois product, d
 
 Reinvenção é a fase mais contraintuitiva do livro. No momento em que a curva atual ainda está crescendo (mas mostrando sinais de saturação), você tem que tirar atenção, capital, e talento, dela, e investir em algo que ainda não existe. Quem espera o core quebrar para começar a segunda curva, começa sem caixa, sem moral, e sem tempo. Quem começa cedo demais, sem sinais reais de saturação, queima energia em troca de direção movida por cansaço.
 
-A diferença entre as duas falhas é o diagnóstico honesto dos seis caminhos da [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]], antes de declarar saturação. Se você ainda não esgotou a profundidade intra-conta, e a amplitude extra-conta, o que parece saturação do negócio pode ser apenas saturação de um canal. E reinvenção feita por quem ainda tinha caminhos à frente é cara, e desnecessária.
+A diferença entre as duas falhas é o diagnóstico honesto dos seis caminhos da [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]], antes de declarar saturação. Se você ainda não esgotou a profundidade intra-conta, e a amplitude extra-conta, o que parece saturação do negócio pode ser apenas saturação de um canal. E reinvenção feita por quem ainda tinha caminhos à frente é cara, e desnecessária.
 
 A reinvenção bem-feita é estrutural. Não cosmética. Magalu virando empresa tech levou uma década, não um trimestre. Microsoft virando subscription levou cinco anos com canibalização tolerada. Empresas que tratam [[#FASE 15 — REINVENÇÃO E SEGUNDA CURVA|Fase 15]] como "projeto de inovação" com prazo curto sempre falham. Empresas que tratam como nova curva, sustentada por liderança fundadora, capital de longo prazo, e ambidestria organizacional real, podem ter êxito.
 
@@ -21780,7 +21780,7 @@ Auditoria externa das demonstrações (últimos três anos). DRE, balanço, e fl
 
 ##### Preparação operacional
 
-Processos críticos documentados (vide [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]], Operações). KPIs recorrentemente medidos, e reportados. Organograma limpo, sem dependências excessivas de pessoas-chave. Dados históricos organizados em data warehouse acessível.
+Processos críticos documentados (vide [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]], Operações). KPIs recorrentemente medidos, e reportados. Organograma limpo, sem dependências excessivas de pessoas-chave. Dados históricos organizados em data warehouse acessível.
 
 ##### Preparação jurídica
 
@@ -22965,10 +22965,10 @@ quadrantChart
 | 1. Sem defensibilidade estrutural | Easy Taxi | [[#FASE 5 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 5]]-6 |
 | 2. PMF falso (retenção não existe) | Peixe Urbano, daily deals | [[#FASE 11 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 11]]-12 |
 | 3. Unit economics ruins em escala | Delivery verticais 2014-17, Liv Up | [[#FASE 11 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 11]]-14 |
-| 4. Dependência de fundador único | Múltiplos casos | [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]3]]-14 |
-| 5. Mudança estrutural ignorada | Kekanto, reviews locais | [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]]-15 |
-| 6. Sobreextensão geográfica precoce | Rappi, múltiplos LatAm | [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] |
-| 7. Perda de momentum de produto | Casos variados em escala | [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]]-15 |
+| 4. Dependência de fundador único | Múltiplos casos | [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]]-14 |
+| 5. Mudança estrutural ignorada | Kekanto, reviews locais | [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]]-15 |
+| 6. Sobreextensão geográfica precoce | Rappi, múltiplos LatAm | [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] |
+| 7. Perda de momentum de produto | Casos variados em escala | [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]]-15 |
 
 ### Caso 10 — iFood: vitória brutal contra Rappi e lições de execução
 
@@ -33207,7 +33207,7 @@ Assumir que S atual nunca acaba: "nossa tecnologia ainda tem décadas". Maybe si
 > [!note] Como usar
 > Esse apêndice consolida as métricas-chave de cada fase em formato de referência rápida. Para cada fase, apresenta: as métricas centrais de acompanhamento, os benchmarks de referência quando existem e os sinais de alerta. Não substitui a leitura de cada fase, mas serve como painel de controle para diagnóstico rápido de onde a empresa está e o que medir no momento atual.
 
-O diagnóstico correto começa pela fase. Se você não sabe em qual fase está, leia as seções de abertura de [[#FASE 10 — MVP E EXPERIMENTOS DE MERCADO|Fase 10]] a [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] e verifique qual descreve sua situação. Cada fase tem métricas próprias que fazem sentido naquele contexto. Aplicar métricas de [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] (escala) em empresa de [[#FASE 10 — MVP E EXPERIMENTOS DE MERCADO|Fase 10]] (MVP) gera decisões erradas.
+O diagnóstico correto começa pela fase. Se você não sabe em qual fase está, leia as seções de abertura de [[#FASE 10 — MVP E EXPERIMENTOS DE MERCADO|Fase 10]] a [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] e verifique qual descreve sua situação. Cada fase tem métricas próprias que fazem sentido naquele contexto. Aplicar métricas de [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (escala) em empresa de [[#FASE 10 — MVP E EXPERIMENTOS DE MERCADO|Fase 10]] (MVP) gera decisões erradas.
 
 ---
 
@@ -33644,7 +33644,7 @@ O fundador e o cônjuge ou companheira(o) são decisores conjuntos em todas as d
 > [!warning] Sinal de perigo
 > Começar empresa com reserva abaixo de seis meses e dependentes. Probabilidade alta de crise financeira pessoal antes do PMF, que demora dezoito a trinta e seis meses em média.
 
-**Salário do fundador.** Na [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]] (pré-validação), zero salário. Vive da reserva. Duração típica de seis a doze meses. Nas Fases 2 a 9 (validação, pré-PMF), se captou seed com investidor, o salário é mínimo de sobrevivência, tipicamente oito a quinze mil reais por mês para São Paulo. Investidor espera frugalidade. Se bootstrapped, depende do caixa. Muitos fundadores tiram zero ou três a cinco mil até haver receita recorrente. Na [[#FASE 11 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 11]] (pré-PMF tardio para PMF), o fundador começa a se pagar salário "abaixo de mercado mas digno", quinze a vinte e cinco mil reais por mês para CEO em São Paulo. Investidores aceitam e esperam isso nesse estágio. Na [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]3]] (pós-PMF, time em escala), o salário sobe para patamar de cinquenta a setenta por cento do mercado para cargo equivalente — CEO de empresa com trinta milhões de reais de ARR fica em quarenta a setenta mil por mês. Ainda abaixo de mercado, sinal de alinhamento com investidores e time. Em Série B em diante, o salário se aproxima do patamar de mercado entre oitenta e cem por cento. Os benchmarks vêm de Radford, Mercer ou consultorias de comp e equity como Pave e Option Impact.
+**Salário do fundador.** Na [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]] (pré-validação), zero salário. Vive da reserva. Duração típica de seis a doze meses. Nas Fases 2 a 9 (validação, pré-PMF), se captou seed com investidor, o salário é mínimo de sobrevivência, tipicamente oito a quinze mil reais por mês para São Paulo. Investidor espera frugalidade. Se bootstrapped, depende do caixa. Muitos fundadores tiram zero ou três a cinco mil até haver receita recorrente. Na [[#FASE 11 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 11]] (pré-PMF tardio para PMF), o fundador começa a se pagar salário "abaixo de mercado mas digno", quinze a vinte e cinco mil reais por mês para CEO em São Paulo. Investidores aceitam e esperam isso nesse estágio. Na [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]] (pós-PMF, time em escala), o salário sobe para patamar de cinquenta a setenta por cento do mercado para cargo equivalente — CEO de empresa com trinta milhões de reais de ARR fica em quarenta a setenta mil por mês. Ainda abaixo de mercado, sinal de alinhamento com investidores e time. Em Série B em diante, o salário se aproxima do patamar de mercado entre oitenta e cem por cento. Os benchmarks vêm de Radford, Mercer ou consultorias de comp e equity como Pave e Option Impact.
 
 > [!important] Equity vale mais que salário em trajetória saudável
 > Fundador que insiste em salário alto cedo demais sinaliza desconfiança no próprio negócio e consome caixa valioso. A exceção é fundador com dependentes múltiplos ou situação financeira pessoal específica, que pode negociar com investidor um salário um pouco maior em troca de vesting mais agressivo ou clawback. Transparência desde o início.
@@ -34221,9 +34221,9 @@ Esses padrões são observados em founders diferentes, em setores diferentes, em
 
 **[[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]] (PMF), Ansiedade da responsabilidade repentina.** Bom PMF vem com pressão de escala inesperada. Usuários pedem mais, investidores pedem mais, time pede direção, e você percebeu que não sabe bem como escalar o que está funcionando. Síndrome do impostor em forma madura, "eu só tive sorte, vão descobrir". Extremamente comum. Antídoto parcial: escrever o que de fato funcionou e por quê, transformar intuição tácita em lógica explícita reduz a sensação de "foi sorte".
 
-**[[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]3]] (Estruturação), Cansaço da formalidade burocrática.** Depois de anos de trabalho criativo, a fase jurídica/tributária é monótona e te expõe a riscos (tributários, trabalhistas, contratuais) que você não viu antes. Alguns fundadores entram em desanimação passageira, "eu assinei pra isso?". Dura 3-6 meses e passa. Delegar o máximo possível dessa fase para profissionais (contador, advogado) e proteger 30-50% do tempo para trabalho de produto preserva a motivação.
+**[[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]] (Estruturação), Cansaço da formalidade burocrática.** Depois de anos de trabalho criativo, a fase jurídica/tributária é monótona e te expõe a riscos (tributários, trabalhistas, contratuais) que você não viu antes. Alguns fundadores entram em desanimação passageira, "eu assinei pra isso?". Dura 3-6 meses e passa. Delegar o máximo possível dessa fase para profissionais (contador, advogado) e proteger 30-50% do tempo para trabalho de produto preserva a motivação.
 
-**[[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] (Escala), Esgotamento crônico e identidade exclusivamente profissional.** Fase mais longa do manual (2-5 anos típicos) e mais propícia a burnout real. Os sintomas vêm devagar, irritabilidade, sono prejudicado, alegria reduzida, pensamento obsessivo com trabalho, relacionamentos familiares deteriorando. Fundadores frequentemente só identificam burnout depois que já estão profundamente nele. Checkpoints regulares com terapeuta (mensal ou quinzenal) funcionam melhor como prevenção do que como tratamento depois da crise.
+**[[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Escala), Esgotamento crônico e identidade exclusivamente profissional.** Fase mais longa do manual (2-5 anos típicos) e mais propícia a burnout real. Os sintomas vêm devagar, irritabilidade, sono prejudicado, alegria reduzida, pensamento obsessivo com trabalho, relacionamentos familiares deteriorando. Fundadores frequentemente só identificam burnout depois que já estão profundamente nele. Checkpoints regulares com terapeuta (mensal ou quinzenal) funcionam melhor como prevenção do que como tratamento depois da crise.
 
 **[[#FASE 15 — REINVENÇÃO E SEGUNDA CURVA|Fase 15]] (Reinvenção), Crise de identidade do fundador maduro.** Se a primeira curva foi bem, a próxima curva significa desconstruir parte do que te trouxe até aqui. É intelectualmente desafiador e psicologicamente doloroso. Muitos fundadores aqui ou lançam segunda curva reativa (sem convicção) ou travam na primeira. Espaço para reflexão longa, retiros, sabáticos, tempo sem agenda, é o que permite reinvenção genuína.
 
@@ -34239,7 +34239,7 @@ Esses padrões são observados em founders diferentes, em setores diferentes, em
 > [!note] Validade
 > Programas, aceleradoras e seus focos mudam continuamente. Essa lista reflete o panorama de 2025 e 2026. Termos de aceitação, ticket de investimento e equity esperado variam por ciclo. Revise anualmente antes de aplicar. Consulte o site oficial e converse com fundadores recentes antes de aceitar qualquer oferta.
 
-A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] e o [[#APÊNDICE V — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Apêndice V]] tocam em captação de equity. Esse apêndice cobre um território adjacente: os programas institucionais que oferecem capital, mentoria, rede ou credibilidade em troca de participação, custo ou tempo. É uma categoria importante para o fundador iniciante brasileiro que ainda não tem rede direta de investidor.
+A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] e o [[#APÊNDICE V — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Apêndice V]] tocam em captação de equity. Esse apêndice cobre um território adjacente: os programas institucionais que oferecem capital, mentoria, rede ou credibilidade em troca de participação, custo ou tempo. É uma categoria importante para o fundador iniciante brasileiro que ainda não tem rede direta de investidor.
 
 O que segue é sobre quando faz sentido aplicar a qual programa, como avaliar a oferta recebida, e quando recusar. Porque nem toda oferta é boa, mesmo vinda de programa prestigiado.
 
@@ -34306,7 +34306,7 @@ A primeira é aceitar a primeira oferta por ansiedade. Programa médio por equit
 > [!note] Validade
 > Plataformas específicas como LinkedIn, X e comunidades online evoluem em dois ou três anos. Os princípios de networking, mentoria e advisory (reciprocidade, especificidade, construção antes da necessidade) são estáveis ao longo de décadas.
 
-A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] cobre contratação quando há PMF e processos formais. O [[#APÊNDICE CP — SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|Apêndice CP]] cobre vendas. O [[#APÊNDICE V — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Apêndice V]] cobre captação. Mas antes de qualquer contratação formal, venda estruturada ou rodada de investimento, o fundador iniciante precisa responder a uma pergunta anterior. Como encontro as pessoas certas? Mentores para conselho, advisors para validação, primeiros clientes que acreditam no produto sem track-record, primeiros funcionários que topam o risco, anjos que abrem portas.
+A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] cobre contratação quando há PMF e processos formais. O [[#APÊNDICE CP — SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|Apêndice CP]] cobre vendas. O [[#APÊNDICE V — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Apêndice V]] cobre captação. Mas antes de qualquer contratação formal, venda estruturada ou rodada de investimento, o fundador iniciante precisa responder a uma pergunta anterior. Como encontro as pessoas certas? Mentores para conselho, advisors para validação, primeiros clientes que acreditam no produto sem track-record, primeiros funcionários que topam o risco, anjos que abrem portas.
 
 Networking como disciplina estruturada está ausente do manual até aqui. Esse apêndice cobre o que o fundador iniciante raramente é ensinado: como construir rede antes de precisar dela, como acionar a rede quando precisa, e como ser contribuinte líquido na rede em vez de só receptor.
 
@@ -34518,7 +34518,7 @@ O **Opportunity Canvas** é a ferramenta das Fases 1 a 4 (pré-PSF inicial). Seu
 
 O **Lean Canvas** é a ferramenta das Fases 5 a 10 (alta incerteza, MVP, validação de modelo). Seu propósito é estruturar hipóteses de negócio sob alta incerteza, com foco em aprender rápido. Substitui o BMC quando o que importa é testar o problema e a solução antes de otimizar o modelo. Os nove blocos são Problema, Solução, Métricas-Chave, Proposta Única de Valor, Vantagem Injusta (esses cinco substituem os blocos do BMC focados em execução), mais Segmentos de Clientes, Canais, Estrutura de Custos e Fontes de Receita. Use em startup em estágio inicial, com alta incerteza sobre problema, cliente ou solução. Iterações rápidas (revise semanalmente ou quinzenalmente). Não use em negócios com modelo já validado, onde o foco é execução e expansão, ou em conversas com parceiros estratégicos corporativos que querem ver o BMC "sério".
 
-O **Business Model Canvas (BMC)** é a ferramenta da [[#FASE 11 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 11]] em diante (pós-PSF, estruturação, escala e revisão no ciclo longo). Seu propósito é descrever o modelo de negócio já funcionando de forma compreensível para stakeholders externos. É visão macro, parceiros, canais de escala, estrutura de custos. Os nove blocos são Parceiros-Chave, Atividades-Chave, Recursos-Chave, Proposta de Valor, Relacionamento com Clientes, Canais, Segmentos de Clientes, Estrutura de Custos e Fontes de Receita. Use quando o negócio tem PMF confirmado, está buscando investimento Série A ou superior, está buscando parcerias estratégicas, ou está consolidando operação. Use também na [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] (reinvenção) para revisar explicitamente o modelo vigente antes de desenhar a segunda curva, e na [[#FASE 15 — REINVENÇÃO E SEGUNDA CURVA|Fase 15]] (exit) como documento de referência para due diligence e equity story. Não use em estágios iniciais de incerteza. O BMC incentiva otimização prematura porque seus blocos assumem que você já sabe o modelo, quando o ponto de uma startup inicial é descobri-lo. Na [[#FASE 15 — REINVENÇÃO E SEGUNDA CURVA|Fase 15]], quando a segunda curva exige testar hipóteses novas sob alta incerteza, volte ao Lean Canvas para a curva nova enquanto mantém o BMC para o negócio principal.
+O **Business Model Canvas (BMC)** é a ferramenta da [[#FASE 11 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 11]] em diante (pós-PSF, estruturação, escala e revisão no ciclo longo). Seu propósito é descrever o modelo de negócio já funcionando de forma compreensível para stakeholders externos. É visão macro, parceiros, canais de escala, estrutura de custos. Os nove blocos são Parceiros-Chave, Atividades-Chave, Recursos-Chave, Proposta de Valor, Relacionamento com Clientes, Canais, Segmentos de Clientes, Estrutura de Custos e Fontes de Receita. Use quando o negócio tem PMF confirmado, está buscando investimento Série A ou superior, está buscando parcerias estratégicas, ou está consolidando operação. Use também na [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (reinvenção) para revisar explicitamente o modelo vigente antes de desenhar a segunda curva, e na [[#FASE 15 — REINVENÇÃO E SEGUNDA CURVA|Fase 15]] (exit) como documento de referência para due diligence e equity story. Não use em estágios iniciais de incerteza. O BMC incentiva otimização prematura porque seus blocos assumem que você já sabe o modelo, quando o ponto de uma startup inicial é descobri-lo. Na [[#FASE 15 — REINVENÇÃO E SEGUNDA CURVA|Fase 15]], quando a segunda curva exige testar hipóteses novas sob alta incerteza, volte ao Lean Canvas para a curva nova enquanto mantém o BMC para o negócio principal.
 
 > [!warning] O erro típico do iniciante
 > Começar direto pelo BMC porque é o mais famoso. Resultado: nove blocos preenchidos com suposições disfarçadas de fatos, que ninguém testa depois. O caminho correto é subir na escada de canvases conforme a incerteza diminui.
@@ -34915,8 +34915,8 @@ A tabela abaixo mapeia os principais elementos operacionais do framework, e onde
 | Concorrência como comportamento atual (não como outra startup) | Wedge | [[#FASE 5 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 5]], Passo 3 do COMO |
 | Janela de 2 a 3 semanas por experimento | Idea→Wedge | [[#FASE 7 — EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA|Fase 7]], Passo 1 do COMO |
 | Gate de direcionalidade ("reduz ou elimina a dor") | Wedge→Scale | [[#FASE 9 — TESTES DE SOLUÇÃO E USABILIDADE|Fase 9]], Definição de Sucesso |
-| Três caminhos de expansão intra-conta (workflow adjacente, papel adjacente, ownership de sistema) | Scale | [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] (Crescimento e Capital), Passo 5 |
-| Regra "mude uma variável por vez" | Scale | [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] (Crescimento e Capital), Passo 5 |
+| Três caminhos de expansão intra-conta (workflow adjacente, papel adjacente, ownership de sistema) | Scale | [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Crescimento e Capital), Passo 5 |
+| Regra "mude uma variável por vez" | Scale | [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Crescimento e Capital), Passo 5 |
 | Gate pré-reinvenção ("esgotou os seis caminhos?") | Scale | [[#FASE 15 — REINVENÇÃO E SEGUNDA CURVA|Fase 15]], abertura do COMO |
 | Epígrafe "startup é um experimento para provar uma hipótese não-óbvia" | Transversal | Abertura dos Princípios Fundamentais |
 
@@ -35034,7 +35034,7 @@ Padrão arquetípico (múltiplos casos brasileiros). Empresas brasileiras com fu
 
 Os sinais de dependência excessiva são: nenhuma decisão importante acontece sem o fundador, time executivo fraco ou marginalizado, fundador é a única pessoa que entende a estratégia completa, fundador é único ponto de contato com investidores, parceiros grandes e clientes-chave, e cultura é "o jeito que o fundador faz" sem formalização.
 
-Lição extraível: empresa dependente de fundador único é mais frágil do que um gráfico de crescimento saudável sugere. Construir líderes complementares, documentar visão estratégica e distribuir relacionamento externo. Isso é [[#APÊNDICE Y — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Apêndice Y]] mais [[#APÊNDICE CW — CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO|Apêndice CW]] mais [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] em prática.
+Lição extraível: empresa dependente de fundador único é mais frágil do que um gráfico de crescimento saudável sugere. Construir líderes complementares, documentar visão estratégica e distribuir relacionamento externo. Isso é [[#APÊNDICE Y — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Apêndice Y]] mais [[#APÊNDICE CW — CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO|Apêndice CW]] mais [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] em prática.
 
 > [!question] Teste
 > Se você sumir por sessenta dias (férias longas, saúde, qualquer coisa), a empresa para? Degrada? Continua? A resposta "continua" significa que a fundação é saudável. "Para" significa risco estrutural.
@@ -36154,7 +36154,7 @@ que confirmaram a Cunha como plausível e bem definida:
 
 **Observação sobre o Canvas da Cunha**: o canvas sozinho é um artefato morto se não passar pelos três testes acima (Precisão do Comprador, ausência de escopo instável, independência de plataforma). Cada um desses testes revela um tipo diferente de fragilidade oculta. Canvas preenchido + três testes aprovados = autorização para avançar à [[#FASE 6 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 6]]. Canvas preenchido mas algum teste reprovado = refinar antes de avançar, não pular.
 
-### A.9 Tabela de técnicas de validação por tipo de hipótese (Fases 2-9)
+### A.19 Tabela de técnicas de validação por tipo de hipótese (Fases 2-9)
 
 Esta tabela resume as técnicas de coleta de evidência mais usadas no manual, organizadas pelo tipo de hipótese que cada uma testa melhor. Inspirada na Tabela 1 de Coali et al. (2024), com ajustes para operadores brasileiros.
 
@@ -37588,7 +37588,7 @@ A.30 é o entregável da [[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]] que suste
 
 **Churn.** Taxa de cancelamento ou perda de clientes ou receita em um período. Churn de clientes: percentual de clientes que cancelaram. Churn de receita (MRR churn): percentual da receita mensal perdida por cancelamentos e downgrades.
 
-**Cliff (de vesting).** Período inicial de vesting em que nenhuma parte da participação veste. Tipicamente 12 meses para cofundadores e funcionários: se sair antes de 1 ano, não recebe nada. Ver [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]3]].
+**Cliff (de vesting).** Período inicial de vesting em que nenhuma parte da participação veste. Tipicamente 12 meses para cofundadores e funcionários: se sair antes de 1 ano, não recebe nada. Ver [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]].
 
 **COGS (Cost of Goods Sold).** Custo dos produtos ou serviços vendidos. Em SaaS: custos de infraestrutura, suporte e serviços diretamente vinculados à entrega. Determina a margem bruta.
 
@@ -37612,7 +37612,7 @@ A.30 é o entregável da [[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]] que suste
 
 **Down round.** Rodada de captação a valuation menor que o da rodada anterior. Penaliza fundadores e investidores anteriores.
 
-**Drag-along.** Cláusula societária que permite ao acionista majoritário forçar os minoritários a vender suas participações nas mesmas condições, em caso de venda da empresa. Ver [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]3]].
+**Drag-along.** Cláusula societária que permite ao acionista majoritário forçar os minoritários a vender suas participações nas mesmas condições, em caso de venda da empresa. Ver [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]].
 
 **Due diligence (DD).** Processo de investigação e verificação de informações sobre empresa-alvo antes de investimento ou aquisição. Cobre dimensões financeiras, jurídicas, operacionais, tecnológicas e tributárias.
 
@@ -37770,7 +37770,7 @@ A.30 é o entregável da [[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]] que suste
 
 ### T
 
-**Tag-along.** Cláusula que garante ao acionista minoritário o direito de vender suas ações nas mesmas condições que o majoritário em caso de venda. Proteção do minoritário. Ver [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]3]].
+**Tag-along.** Cláusula que garante ao acionista minoritário o direito de vender suas ações nas mesmas condições que o majoritário em caso de venda. Proteção do minoritário. Ver [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]].
 
 **TAM (Total Addressable Market).** Mercado total endereçável: receita máxima possível se a empresa capturasse 100% do mercado. Calculado preferencialmente bottom-up.
 
@@ -37821,36 +37821,36 @@ A.30 é o entregável da [[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]] que suste
 Índice alfabético curado dos tópicos mais buscados, apontando para o local canônico onde cada um é tratado em profundidade. Não exaustivo, foca em 150 termos essenciais. Use em complemento ao Sumário (que dá a estrutura completa) e ao Glossário (que dá definições).
 
 ### A
-- **AARRR (Pirate Metrics)**: BG.12.1, aplicação em [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]]
+- **AARRR (Pirate Metrics)**: BG.12.1, aplicação em [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]]
 - **A/B Testing rigoroso**: BG.8.4
-- **Acordo de sócios**: [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]] (Escolha de sócios), [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]3]], [[#APÊNDICE AH — CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS|Apêndice AH]]
+- **Acordo de sócios**: [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]] (Escolha de sócios), [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]], [[#APÊNDICE AH — CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS|Apêndice AH]]
 - **Aquisição (estratégia)**: [[#FASE 16 — EXIT STRATEGY|Fase 16]] (Exit), [[#APÊNDICE CL — PIVOT: TIPOLOGIA, DECISÃO E EXECUÇÃO|Apêndice CL]]
-- **Anti-dilution clauses**: [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]3]], [[#APÊNDICE V — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Apêndice V]]
+- **Anti-dilution clauses**: [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]], [[#APÊNDICE V — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Apêndice V]]
 - **Assumption Mapping**: BG.9.8
 - **ARR / MRR**: [[#FASE 11 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 11]], [[#FASE 12 — PRODUCT-MARKET FIT|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]2]], BG.18.1
 - **Autoestima do fundador**: [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]], [[#APÊNDICE Y — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Apêndice Y]]
 
 ### B
 - **BANT (Budget-Authority-Need-Timeline)**: BG.14.1
-- **Blitzscaling**: BG.12.5, quando usar vs não usar [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]]
+- **Blitzscaling**: BG.12.5, quando usar vs não usar [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]]
 - **Blue Ocean Strategy**: BG.1.8
-- **Board (composição, governança)**: [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]3]], [[#APÊNDICE CF — PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO|Apêndice CF]]
-- **Bootstrap vs VC**: Apêndice dedicado (Parte II). [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]3]]
+- **Board (composição, governança)**: [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]], [[#APÊNDICE CF — PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO|Apêndice CF]]
+- **Bootstrap vs VC**: Apêndice dedicado (Parte II). [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]]
 - **Burn Multiple**: BG.18.4
 - **Business Model Canvas (BMC)**: BG.2.9, template preenchido A.20 (Nubank)
 
 ### C
 - **CAC (Customer Acquisition Cost)**: BG.18, [[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]], [[#APÊNDICE AN — MODELAGEM FINANCEIRA OPERACIONAL|Apêndice AN]]
 - **Canvas (vários)**: BMC BG.2.9. Lean Canvas BG.2.10. VPC BG.10.10
-- **Cap Table**: [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]3]], [[#APÊNDICE CF — PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO|Apêndice CF]]
+- **Cap Table**: [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]], [[#APÊNDICE CF — PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO|Apêndice CF]]
 - **Captação (processo completo)**: [[#APÊNDICE V — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Apêndice V]]
 - **Churn**: [[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]], [[#APÊNDICE AA — CUSTOMER SUCCESS COMO DISCIPLINA|Apêndice AA]]
 - **Cofundador matching**: [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]] (Encontrar co-fundador)
 - **Cold Start Problem**: BG.12.10
 - **Comunicação pública do fundador**: [[#APÊNDICE BM — COMUNICAÇÃO PÚBLICA DO FUNDADOR: NARRATIVA, IMPRENSA E PORTA-VOZ|Apêndice BM]]. Apêndice Marca Pessoal
 - **Consultoria (como serviço ou modelo)**: [[#FASE 2B — CONSTRUÇÃO DA TEORIA DO NEGÓCIO|Fase 2B]]. [[#APÊNDICE CC — PLATAFORMA VS PRODUTO: QUANDO CONSTRUIR PLATAFORMA E QUANDO NÃO|Apêndice CC]]
-- **Contabilidade inicial**: [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]3]], [[#APÊNDICE W — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Apêndice W]]
-- **Contratação (primeiros funcionários)**: [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]], BG.17.5, Apêndice K
+- **Contabilidade inicial**: [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]], [[#APÊNDICE W — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Apêndice W]]
+- **Contratação (primeiros funcionários)**: [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]], BG.17.5, Apêndice K
 - **Contratos (frameworks)**: [[#APÊNDICE AH — CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS|Apêndice AH]]
 - **Crise (gestão de)**: [[#APÊNDICE CM — BIOTECH E HEALTHTECH: PLAYBOOK DE REGULAÇÃO, ENSAIOS E CAPITAL|Apêndice CM]]
 - **Cultura organizacional**: Apêndice BD. BG.17.9
@@ -37862,7 +37862,7 @@ A.30 é o entregável da [[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]] que suste
 - **Data (compilação do livro)**: Apêndice sobre Envelhecimento (abril 2026)
 - **DCF (Discounted Cash Flow)**: BG.18.9
 - **Decisão (frameworks)**: BG.4, BG.5
-- **Demissão**: [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] (seção Demitir bem), [[#APÊNDICE CB — SUBSCRIPTION ECONOMY EM PROFUNDIDADE: ALÉM DO "COBRA MENSALMENTE"|Apêndice CB]]
+- **Demissão**: [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (seção Demitir bem), [[#APÊNDICE CB — SUBSCRIPTION ECONOMY EM PROFUNDIDADE: ALÉM DO "COBRA MENSALMENTE"|Apêndice CB]]
 - **Descoberta contínua (Continuous Discovery)**: BG.10.1. [[#APÊNDICE H — TRL E CRL: MATURIDADE TECNOLÓGICA E DE MERCADO|Apêndice H]]
 - **Design Sprint**: BG.10.3
 - **Design Thinking**: BG.10.5
@@ -37876,8 +37876,8 @@ A.30 é o entregável da [[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]] que suste
 - **Encerramento voluntário (shutdown)**: [[#FASE 16 — EXIT STRATEGY|Fase 16]] (seção dedicada)
 - **Entrevista de usuário (Mom Test)**: BG.6.1. [[#FASE 4 — PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY APROFUNDADO)|Fase 4]]
 - **EOR (Employer of Record)**: [[#APÊNDICE CU — INTERNACIONALIZAÇÃO: ESTRUTURA E PRODUTO PARA MÚLTIPLOS MERCADOS|Apêndice CU]]
-- **Equity (divisão inicial)**: [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]], [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]3]]
-- **Escala (Parte IV da jornada)**: [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] inteira
+- **Equity (divisão inicial)**: [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]], [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]]
+- **Escala (Parte IV da jornada)**: [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] inteira
 - **Escolha de investidor**: [[#APÊNDICE V — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Apêndice V]] (seção dedicada)
 - **Ética empreendedora**: Apêndice sobre Ética e Impacto
 - **Exit (estratégias)**: [[#FASE 16 — EXIT STRATEGY|Fase 16]]
@@ -37893,14 +37893,14 @@ A.30 é o entregável da [[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]] que suste
 - **Fundraising**: [[#APÊNDICE V — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Apêndice V]], [[#APÊNDICE CF — PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO|Apêndice CF]], [[#APÊNDICE CE — VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR|Apêndice CE]]
 
 ### G
-- **Gestão de tempo do fundador**: [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]], [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]]
-- **Governança (board, shareholders)**: [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]3]], [[#APÊNDICE CF — PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO|Apêndice CF]]
+- **Gestão de tempo do fundador**: [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]], [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]]
+- **Governança (board, shareholders)**: [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]], [[#APÊNDICE CF — PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO|Apêndice CF]]
 - **Growth (função e práticas)**: [[#APÊNDICE CG — GROWTH COMO FUNÇÃO ORGANIZACIONAL: TIME DE GROWTH, BUILD VS HIRE, RELAÇÃO COM PRODUTO|Apêndice CG]]. BG.12
 - **Growth Loops**: BG.12.2
 
 ### H
 - **Hipóteses (formulação)**: [[#FASE 6 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 6]]
-- **Hiring (primeiros líderes)**: [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]], Apêndice K
+- **Hiring (primeiros líderes)**: [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]], Apêndice K
 - **Hoshin Kanri**: BG.3.1
 
 ### I
@@ -37914,7 +37914,7 @@ A.30 é o entregável da [[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]] que suste
 
 ### J
 - **Jobs to Be Done (JTBD)**: BG.11.1. JTBD Switch BG.6.2. ODI BG.11.8
-- **Jurídico (estruturação)**: [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]3]], [[#APÊNDICE AH — CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS|Apêndice AH]]
+- **Jurídico (estruturação)**: [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]], [[#APÊNDICE AH — CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS|Apêndice AH]]
 
 ### K
 - **Kano Model**: BG.11.2
@@ -37925,7 +37925,7 @@ A.30 é o entregável da [[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]] que suste
 - **Lean Startup (BML Loop)**: BG.10.13
 - **LGPD (proteção de dados)**: [[#APÊNDICE CV — SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA|Apêndice CV]], vários
 - **Liderança**: BG.17 inteiro
-- **Liquidation preference**: [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]3]], [[#APÊNDICE V — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Apêndice V]]
+- **Liquidation preference**: [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]], [[#APÊNDICE V — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Apêndice V]]
 
 ### M
 - **Marca pessoal do fundador**: Apêndice dedicado
@@ -37945,13 +37945,13 @@ A.30 é o entregável da [[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]] que suste
 ### O
 - **OKRs**: BG.16.1, template A.26
 - **Open Innovation**: BG.19.3
-- **Operação (primeiros processos)**: [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]], [[#APÊNDICE BF — SECOND-TIME FOUNDER|Apêndice BF]] (ops de precisão)
+- **Operação (primeiros processos)**: [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]], [[#APÊNDICE BF — SECOND-TIME FOUNDER|Apêndice BF]] (ops de precisão)
 - **Opportunity Solution Tree**: BG.10.2, diagrama A.23
 - **Outcome-Driven Innovation (ODI)**: BG.11.8
 
 ### P
 - **Pareto Analysis**: BG.5.9
-- **Parcerias estratégicas**: [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]], [[#APÊNDICE CX — CANAIS INDIRETOS E PARCERIAS: PARCERIAS, FRANQUIAS, CHANNEL|Apêndice CX]]
+- **Parcerias estratégicas**: [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]], [[#APÊNDICE CX — CANAIS INDIRETOS E PARCERIAS: PARCERIAS, FRANQUIAS, CHANNEL|Apêndice CX]]
 - **Personas**: BG.9.4
 - **Pivot**: Apêndice Pivot (tipologia, decisão, execução)
 - **PMF (Product-Market Fit)**: [[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]]
@@ -37970,9 +37970,9 @@ A.30 é o entregável da [[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]] que suste
 ### R
 - **RACI / DACI / RAPID**: BG.5.5
 - **Radical Candor**: BG.17.1
-- **Recrutamento**: [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]], BG.17.5, Apêndice K
+- **Recrutamento**: [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]], BG.17.5, Apêndice K
 - **Red flags (investidores, sócios, contratações)**: várias fases
-- **Referências (como pedir a candidatos)**: [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]], BG.17.5
+- **Referências (como pedir a candidatos)**: [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]], BG.17.5
 - **Relatório financeiro**: [[#APÊNDICE AN — MODELAGEM FINANCEIRA OPERACIONAL|Apêndice AN]]
 - **Retention Analysis**: [[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]], BG.18.2
 - **RICE Scoring**: BG.11.3
@@ -37987,7 +37987,7 @@ A.30 é o entregável da [[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]] que suste
 - **Series A, B, C (captações)**: [[#APÊNDICE V — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Apêndice V]]
 - **Shutdown voluntário**: [[#FASE 16 — EXIT STRATEGY|Fase 16]] (seção dedicada)
 - **SIPOC**: BG.16.12
-- **Sócios (escolha, conflitos, divórcio)**: [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]], [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]3]], [[#APÊNDICE Y — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Apêndice Y]]
+- **Sócios (escolha, conflitos, divórcio)**: [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]], [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]], [[#APÊNDICE Y — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Apêndice Y]]
 - **Spotify Model**: BG.17.13
 - **Story Mapping**: BG.11.7, exemplo A.25
 - **SWOT / TOWS**: BG.1.2
@@ -37995,8 +37995,8 @@ A.30 é o entregável da [[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]] que suste
 ### T
 - **TAM / SAM / SOM**: [[#FASE 5 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 5]]
 - **Taxas (tributárias BR)**: [[#APÊNDICE W — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Apêndice W]]
-- **Time (primeiros líderes, C-level)**: [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]], Apêndice K
-- **Tipos de empresa (ME, EPP, LTDA, SA)**: [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]3]], [[#APÊNDICE W — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Apêndice W]]
+- **Time (primeiros líderes, C-level)**: [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]], Apêndice K
+- **Tipos de empresa (ME, EPP, LTDA, SA)**: [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]], [[#APÊNDICE W — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Apêndice W]]
 - **Tributos**: [[#APÊNDICE W — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Apêndice W]]
 
 ### U
@@ -38009,7 +38009,7 @@ A.30 é o entregável da [[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]] que suste
 - **Valuation**: BG.18.9, BG.18.10. [[#APÊNDICE V — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Apêndice V]]
 - **Value Proposition Canvas (VPC)**: BG.10.10, template A.22 (Wellhub)
 - **Venture Capital**: [[#APÊNDICE V — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Apêndice V]]. Apêndice Bootstrap vs VC
-- **Vesting**: [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]], [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]3]]
+- **Vesting**: [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]], [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]]
 - **V2MOM**: BG.16.2
 
 ### W
@@ -38511,9 +38511,9 @@ Para o leitor que quer aprofundar além do próprio manual, abaixo uma sequênci
 
 **[[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]] (PMF):** *tração* (Gabriel Weinberg). Canais e bullseye.
 
-**[[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]3]] (Estruturação):** *Venture Deals* (Brad Feld). Deal terms e cap table.
+**[[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]] (Estruturação):** *Venture Deals* (Brad Feld). Deal terms e cap table.
 
-**[[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] (Escala):** *High Output Management* (Andy Grove) + *Scaling People* (Claire Hughes Johnson). Gestão e estrutura em escala.
+**[[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Escala):** *High Output Management* (Andy Grove) + *Scaling People* (Claire Hughes Johnson). Gestão e estrutura em escala.
 
 **[[#FASE 15 — REINVENÇÃO E SEGUNDA CURVA|Fase 15]] (Reinvenção):** *The Innovator's Dilemma* (Clayton Christensen).
 

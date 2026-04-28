@@ -99,7 +99,7 @@ Auditoria externa das demonstrações (últimos três anos). DRE, balanço, e fl
 
 ##### Preparação operacional
 
-Processos críticos documentados (vide [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]], Operações). KPIs recorrentemente medidos, e reportados. Organograma limpo, sem dependências excessivas de pessoas-chave. Dados históricos organizados em data warehouse acessível.
+Processos críticos documentados (vide [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]], Operações). KPIs recorrentemente medidos, e reportados. Organograma limpo, sem dependências excessivas de pessoas-chave. Dados históricos organizados em data warehouse acessível.
 
 ##### Preparação jurídica
 

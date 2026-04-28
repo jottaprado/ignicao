@@ -32,9 +32,9 @@ Empresa sem CS estruturado tipicamente tem churn duas a cinco vezes maior do que
 
 [[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]] (pós-PMF inicial). Primeiros processos de onboarding, e suporte.
 
-[[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] (Time e Liderança). Contratar primeiro CSM (Customer Success Manager).
+[[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Time e Liderança). Contratar primeiro CSM (Customer Success Manager).
 
-[[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] (Operações em escala). CS como função, com métricas, playbooks, e tooling.
+[[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Operações em escala). CS como função, com métricas, playbooks, e tooling.
 
 Série B em diante (se enterprise). Segmentação CS (High-Touch, Tech-Touch, Low-Touch).
 
@@ -44,7 +44,7 @@ Estrutura típica de time CS, conforme estágio.
 
 **[[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]] a 13A (pré-Série A).** O CEO, ou founder, faz CS pessoalmente até cerca de cinquenta clientes. Primeiro contratado. Customer Success Manager generalista.
 
-**[[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] (Time e Liderança), da escala inicial à Série B (Série A a B).** Head of CS. CSMs segmentados por tier (SMB, Mid-Market, Enterprise). Primeiro CS Operations (processos, tooling, e analytics).
+**[[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Time e Liderança), da escala inicial à Série B (Série A a B).** Head of CS. CSMs segmentados por tier (SMB, Mid-Market, Enterprise). Primeiro CS Operations (processos, tooling, e analytics).
 
 **Série B em diante.** VP Customer Success reportando ao CEO, ou ao CRO. CSM Team com tiers claros. Implementation Specialists (onboarding dedicado). Support (reativo, ticket-based) separado de CS (proativo, account-based). Renewals team (às vezes separado de CSM).
 

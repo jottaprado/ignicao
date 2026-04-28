@@ -258,7 +258,7 @@ Esse é o perfil que você deve expandir em ondas concêntricas.
 
 ##### Caminho A, PMF claro
 
-Prossiga para a [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]3]] (estruturação formal), e a [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] (escala). Mas antes, reserve trinta a sessenta dias para estabilizar operações. A pior coisa que pode acontecer é escalar antes de o suporte, a infraestrutura, e o onboarding estarem prontos.
+Prossiga para a [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]] (estruturação formal), e a [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (escala). Mas antes, reserve trinta a sessenta dias para estabilizar operações. A pior coisa que pode acontecer é escalar antes de o suporte, a infraestrutura, e o onboarding estarem prontos.
 
 ##### Caminho B, PMF parcial
 
@@ -551,7 +551,7 @@ E há a confusão silenciosa entre PSF e PMF. Problem-Solution Fit não é PMF e
 
 O que você acabou de fazer ao longo das Fases 10 a 12. Construiu o MVP. Validou o modelo de negócio com dados reais. Atingiu PMF (ou diagnosticou que não atingiu, e está iterando). Esse trecho foi a travessia da descoberta para o mercado real. Saiu de protótipo para produto. Saiu de hipótese para fato.
 
-O que vem nas Fases 13 e 14. A escala. A [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]3]] trata de estruturação jurídica, financeira, e operacional. Constituir a empresa formalmente. Organizar contratos, governança, contabilidade, RH. A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] trata da máquina de crescimento. Time, cultura, capital, expansão. Os elementos que sustentam crescimento exponencial pós-PMF.
+O que vem nas Fases 13 e 14. A escala. A [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]] trata de estruturação jurídica, financeira, e operacional. Constituir a empresa formalmente. Organizar contratos, governança, contabilidade, RH. A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] trata da máquina de crescimento. Time, cultura, capital, expansão. Os elementos que sustentam crescimento exponencial pós-PMF.
 
 > [!warning] Pré-condição para escalar
 > Estruturar e escalar assumem PMF. Se você está aqui sem PMF sólido, pare e volte. Escalar sem PMF queima capital em ICP errado, contratações erradas, canais errados. A correção posterior custa duas a cinco vezes o desperdício imediato. PMF não é "métrica nice to have". É o gate.

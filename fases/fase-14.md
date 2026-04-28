@@ -7,9 +7,9 @@ part: parte-ii
 
 ### O que esse apêndice cobre
 
-A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] é o longo período em que a empresa transita de *ter PMF* para *ser máquina*. Aqui você sai do modo fundador-fazendo-tudo, e entra no modo empresa-institucional-funcionando-sem-você-diariamente. É a fase mais longa e trabalhosa da trajetória. Tipicamente dois a cinco anos. Com picos de atividade, mas também platôs. É também a fase onde boa parte das empresas brasileiras com PMF genuíno trava. Porque escalar envolve disciplinas que não tinham sido requeridas até aqui.
+A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] é o longo período em que a empresa transita de *ter PMF* para *ser máquina*. Aqui você sai do modo fundador-fazendo-tudo, e entra no modo empresa-institucional-funcionando-sem-você-diariamente. É a fase mais longa e trabalhosa da trajetória. Tipicamente dois a cinco anos. Com picos de atividade, mas também platôs. É também a fase onde boa parte das empresas brasileiras com PMF genuíno trava. Porque escalar envolve disciplinas que não tinham sido requeridas até aqui.
 
-A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] tem três frentes simultâneas. Cada uma com lógica própria, mas inseparáveis na prática. Você não "termina time" antes de começar "operações". As três evoluem em paralelo. Esse capítulo trata as três em subseções ordenadas por intuição operacional. Mas na vida real, elas rodam juntas.
+A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] tem três frentes simultâneas. Cada uma com lógica própria, mas inseparáveis na prática. Você não "termina time" antes de começar "operações". As três evoluem em paralelo. Esse capítulo trata as três em subseções ordenadas por intuição operacional. Mas na vida real, elas rodam juntas.
 
 A frente Time e Liderança em Escala. Do primeiro funcionário além do fundador até a organização com dezenas, ou centenas, de pessoas. Primeiras lideranças. Estrutura hierárquica. Cultura declarada. Performance reviews. Compensação equitativa. DEI. Remote, e híbrido. Desenvolvimento de carreira. Promoção. Saída.
 
@@ -19,13 +19,13 @@ A frente Máquina de Crescimento, Capital e Expansão. Growth virando engenharia
 
 ### POR QUE
 
-Sem escala, o PMF vira curiosidade histórica. Empresa que atinge PMF mas não escala é empresa que fica pequena para sempre. Possivelmente lucrativa. Possivelmente satisfatória para o fundador. Mas não é o que o ecossistema de venture capital busca financiar. Se o seu caminho é construir uma empresa de software de bilhões, a [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] é onde se prova, ou não se prova.
+Sem escala, o PMF vira curiosidade histórica. Empresa que atinge PMF mas não escala é empresa que fica pequena para sempre. Possivelmente lucrativa. Possivelmente satisfatória para o fundador. Mas não é o que o ecossistema de venture capital busca financiar. Se o seu caminho é construir uma empresa de software de bilhões, a [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] é onde se prova, ou não se prova.
 
-A escala também muda quem você é como líder. Na [[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]] você é artesão. Na [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] você é industrial. O conjunto de habilidades é diferente. Às vezes oposto. Muitos fundadores tropeçam aqui. Não por falta de mérito. Mas porque insistem em operar como artesão quando a empresa precisa de industrial. Trocar de modo é parte da [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]].
+A escala também muda quem você é como líder. Na [[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]] você é artesão. Na [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] você é industrial. O conjunto de habilidades é diferente. Às vezes oposto. Muitos fundadores tropeçam aqui. Não por falta de mérito. Mas porque insistem em operar como artesão quando a empresa precisa de industrial. Trocar de modo é parte da [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]].
 
 ### Quando usar
 
-Comece quando você declarou PMF na [[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]], e fez a estruturação formal da [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]3]]. Em prática, doze a dezoito meses depois do primeiro MVP validado. A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] não tem fim claro. Ela se funde à Parte III desse manual (Em Escala) quando a empresa atinge uma massa crítica. Tipicamente cento e cinquenta a quinhentos funcionários, operação em múltiplas frentes, e governance formal. A frequência de revisão é contínua. A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] não é "documento que se escreve uma vez". É rotina gerencial e estratégica permanente.
+Comece quando você declarou PMF na [[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]], e fez a estruturação formal da [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]]. Em prática, doze a dezoito meses depois do primeiro MVP validado. A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] não tem fim claro. Ela se funde à Parte III desse manual (Em Escala) quando a empresa atinge uma massa crítica. Tipicamente cento e cinquenta a quinhentos funcionários, operação em múltiplas frentes, e governance formal. A frequência de revisão é contínua. A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] não é "documento que se escreve uma vez". É rotina gerencial e estratégica permanente.
 
 ### Quem envolve
 
@@ -37,7 +37,7 @@ O executor principal é você, com o time executivo que começa a se formar. Pri
 
 #### O primeiro funcionário, a transição de fundador solo para mais um
 
-A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] (Time e Liderança) trata time em escala com processos formais. Mas a transição do fundador solo, ou dupla, para fundador mais um funcionário é um momento específico que raramente é bem-tratado em manuais. Essa seção cobre.
+A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Time e Liderança) trata time em escala com processos formais. Mas a transição do fundador solo, ou dupla, para fundador mais um funcionário é um momento específico que raramente é bem-tratado em manuais. Essa seção cobre.
 
 > [!important] Por que é momento crítico
 > Até aqui, o fundador fazia tudo, e delegava nada. A dificuldade é mais emocional que técnica. Aprender a *confiar* em alguém com coisas que antes você controlava. O primeiro funcionário define a cultura da empresa com peso desproporcional. Os valores dessa pessoa moldam os próximos cinco a quinze funcionários. Erros de contratação cedo são caros. Em tempo perdido. Em moral quebrada. Em aprendizado de gestão ainda embrionário no fundador. O primeiro funcionário frequentemente tem perfil diferente dos seguintes. Requer empreendedorismo no DNA, mesmo sendo funcionário.
@@ -257,7 +257,7 @@ Reportes diretos do CEO. Até dez em qualquer tamanho de empresa. Mais que isso 
 
 #### DEFINIÇÃO DE SUCESSO (Time e Liderança)
 
-A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] (Time e Liderança) está concluída quando os sete itens abaixo estão cumpridos.
+A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Time e Liderança) está concluída quando os sete itens abaixo estão cumpridos.
 
 1. Diagnóstico de gargalo do fundador está escrito, e ações de delegação definidas.
 2. Plano de contratação de doze meses está documentado, priorizado, e em execução.
@@ -609,7 +609,7 @@ Percentual de decisões grandes com RFC escrito. Oitenta por cento ou mais para 
 
 #### DEFINIÇÃO DE SUCESSO (Operações)
 
-A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] (Operações) está concluída quando os seis critérios abaixo estão cumpridos.
+A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Operações) está concluída quando os seis critérios abaixo estão cumpridos.
 
 1. Cadência de gestão (semanal, trimestral, anual) está formalizada, e rodando há dois ou mais trimestres.
 2. OKRs estão em uso, com scoring trimestral.
@@ -801,7 +801,7 @@ Transformação do motor de aquisição (que provou unit economics em pequena es
 Crescer três a cinco vezes ao ano exige infraestrutura. Vendas fundador-led não escala acima de R$ 5-10 milhões de ARR. Marketing ad-hoc não gera previsibilidade. Internacionalização intuitiva queima caixa. Cada uma dessas áreas tem padrões conhecidos de sucesso e falha. E ignorá-los é optar por aprender caro. Adicionalmente, captação estratégica, versus oportunista, é a diferença entre rodadas que aceleram, e rodadas que estrangulam.
 
 #### QUANDO (Crescimento e Capital)
-Comece depois da [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] em operação estável. Termine quando a máquina de aquisição estiver previsível, o plano de capital executado (ou em execução), e a expansão (se aplicável) em curso, com pelo menos uma vertical, ou geografia, nova validada. Revisite anualmente. E a cada saturação de canal (a cada doze a dezoito meses).
+Comece depois da [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] em operação estável. Termine quando a máquina de aquisição estiver previsível, o plano de capital executado (ou em execução), e a expansão (se aplicável) em curso, com pelo menos uma vertical, ou geografia, nova validada. Revisite anualmente. E a cada saturação de canal (a cada doze a dezoito meses).
 
 #### QUEM (Crescimento e Capital)
 O executor principal é o CEO, mais o Head of Sales ou Marketing, mais o CFO. Os participantes são o board, advisors, e investidores potenciais.
@@ -1193,7 +1193,7 @@ Se expandiu, receita de novo segmento, geografia, ou produto, em percentual do t
 
 #### DEFINIÇÃO DE SUCESSO (Crescimento e Capital)
 
-A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] (Crescimento e Capital) está concluída quando os cinco critérios abaixo estão cumpridos.
+A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Crescimento e Capital) está concluída quando os cinco critérios abaixo estão cumpridos.
 
 1. Motor de vendas, e aquisição, opera sem envolvimento direto do fundador em mais de setenta por cento dos deals.
 2. Métricas financeiras estão em faixas saudáveis (NRR cento e dez por cento ou mais, burn multiple até um vírgula cinco, Rule of 40 quarenta ou mais).
@@ -1312,11 +1312,11 @@ SaaS Quick Ratio (Hamid). (New mais Expansion) dividido por (Churned mais Contra
 
 ### SÍNTESE DA FASE 14
 
-A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] é marcada por simultaneidade. Você não pode priorizar uma das três frentes em detrimento das outras por muito tempo, sem custo. Time sem operação tropeça. Operação sem crescimento estagna. Crescimento sem time sustenta-se por alguns trimestres, e depois colapsa. A arte do fundador em escala é manter as três balanceadas. Sabendo que em qualquer momento uma delas vai pesar mais.
+A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] é marcada por simultaneidade. Você não pode priorizar uma das três frentes em detrimento das outras por muito tempo, sem custo. Time sem operação tropeça. Operação sem crescimento estagna. Crescimento sem time sustenta-se por alguns trimestres, e depois colapsa. A arte do fundador em escala é manter as três balanceadas. Sabendo que em qualquer momento uma delas vai pesar mais.
 
-A duração típica da [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]], dois a cinco anos, é também a janela em que a empresa passa de "startup" para "empresa" no olhar do mercado. O fim da [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] não é um marco claro. É uma transição gradual para a Parte III desse manual. Onde você encontra os temas das empresas já consolidadas. Governance madura. Internacionalização. Tesouraria em escala. Disputas societárias. Crise e continuidade.
+A duração típica da [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]], dois a cinco anos, é também a janela em que a empresa passa de "startup" para "empresa" no olhar do mercado. O fim da [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] não é um marco claro. É uma transição gradual para a Parte III desse manual. Onde você encontra os temas das empresas já consolidadas. Governance madura. Internacionalização. Tesouraria em escala. Disputas societárias. Crise e continuidade.
 
-Quando você olhar para trás, ao fim da [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]], vai reconhecer duas coisas. Primeira. A empresa é maior, mais complexa, e mais resiliente do que você imaginava possível. Segunda. Você também é. Ambas as transformações são parte da mesma jornada.
+Quando você olhar para trás, ao fim da [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]], vai reconhecer duas coisas. Primeira. A empresa é maior, mais complexa, e mais resiliente do que você imaginava possível. Segunda. Você também é. Ambas as transformações são parte da mesma jornada.
 
 #fase14 #escala #time-em-escala #lideranca #okrs #operacoes #growth #captacao #serie-a #m-and-a
 

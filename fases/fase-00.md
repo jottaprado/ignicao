@@ -215,7 +215,7 @@ O ensaio do Graham é útil porque normaliza a necessidade de autonomia como car
 
 ### Escolha de sócios, a decisão mais irreversível
 
-A [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]3]] cobre cap table. O [[#APÊNDICE Y — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Apêndice Y]] cobre conflito entre sócios. Mas a escolha de sócios acontece antes de tudo isso. E é a decisão mais irreversível que você toma na trajetória empreendedora. Divórcio societário é processo doloroso, caro, que destrói empresas boas e relacionamentos antes sólidos.
+A [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]] cobre cap table. O [[#APÊNDICE Y — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Apêndice Y]] cobre conflito entre sócios. Mas a escolha de sócios acontece antes de tudo isso. E é a decisão mais irreversível que você toma na trajetória empreendedora. Divórcio societário é processo doloroso, caro, que destrói empresas boas e relacionamentos antes sólidos.
 
 Esta seção é sobre como escolher bem, antes do compromisso formal.
 
@@ -351,7 +351,7 @@ Diversidade de pensamento é vantagem. Pessoas que pensam de forma diferente ger
 
 Teste química antes do compromisso. Trabalhe em pelo menos um projeto de médio porte (um a três meses) juntos antes de formalizar sociedade. Como a pessoa reage quando dá errado é mais importante do que como reage quando dá certo.
 
-Formalize acordo de sócios desde o dia um. Os detalhes vêm na [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]3]]. Mas em espírito: equity percentual, vesting (cliff de um ano e quatro anos de vesting total é padrão), papéis, tomada de decisão em impasses, saída.
+Formalize acordo de sócios desde o dia um. Os detalhes vêm na [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]]. Mas em espírito: equity percentual, vesting (cliff de um ano e quatro anos de vesting total é padrão), papéis, tomada de decisão em impasses, saída.
 
 Confie, mas documente. Amigos viram desconhecidos quando dinheiro entra. Documentação não é desconfiança. É higiene básica.
 
@@ -513,7 +513,7 @@ Encontrar co-fundador é trabalho de meses, não de semanas. Um dos erros mais c
 - [ ] Conhecemos famílias/parceiros um do outro, parceiros(as) sabem e apoiam o compromisso.
 - [ ] Temos contrato societário rascunhado antes de operação começar de fato.
 
-A formalização jurídica e a divisão de equity têm tratamento detalhado na [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]3]] (Estruturação) e no [[#APÊNDICE AH — CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS|Apêndice AH]] (Contratos e Aspectos Legais). Aqui, a decisão que importa é quem é o sócio certo, a mecânica legal vem depois.
+A formalização jurídica e a divisão de equity têm tratamento detalhado na [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]] (Estruturação) e no [[#APÊNDICE AH — CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS|Apêndice AH]] (Contratos e Aspectos Legais). Aqui, a decisão que importa é quem é o sócio certo, a mecânica legal vem depois.
 
 ---
 

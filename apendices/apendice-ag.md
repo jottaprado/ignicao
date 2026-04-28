@@ -36,7 +36,7 @@ Risco. Se mal-executado, a cultura se dilui, a produtividade cai, e as decisões
 
 ### Quando usar
 
-Decisão estrutural inicial ([[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]], Time e Liderança, ou antes).
+Decisão estrutural inicial ([[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]], Time e Liderança, ou antes).
 
 Revisão pós-eventos grandes (Covid, contratações em outras cidades, mudança de liderança).
 

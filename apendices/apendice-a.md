@@ -856,7 +856,7 @@ que confirmaram a Cunha como plausível e bem definida:
 
 **Observação sobre o Canvas da Cunha**: o canvas sozinho é um artefato morto se não passar pelos três testes acima (Precisão do Comprador, ausência de escopo instável, independência de plataforma). Cada um desses testes revela um tipo diferente de fragilidade oculta. Canvas preenchido + três testes aprovados = autorização para avançar à [[#FASE 6 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 6]]. Canvas preenchido mas algum teste reprovado = refinar antes de avançar, não pular.
 
-### A.9 Tabela de técnicas de validação por tipo de hipótese (Fases 2-9)
+### A.19 Tabela de técnicas de validação por tipo de hipótese (Fases 2-9)
 
 Esta tabela resume as técnicas de coleta de evidência mais usadas no manual, organizadas pelo tipo de hipótese que cada uma testa melhor. Inspirada na Tabela 1 de Coali et al. (2024), com ajustes para operadores brasileiros.
 

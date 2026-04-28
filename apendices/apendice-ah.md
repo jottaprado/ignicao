@@ -8,7 +8,7 @@ appendix: "AH"
 > [!note] Nota de validade
 > A legislação contratual, e de consumidor, evolui em ciclos de cinco a dez anos. Códigos específicos (CDC, CLT, e Marco Civil) mudam periodicamente. Revisar a cada vinte e quatro meses, idealmente com advogado brasileiro especializado.
 
-A [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]3]] cobre constituição da empresa. O [[#APÊNDICE T — LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Apêndice T]] cobre LGPD. O [[#APÊNDICE W — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Apêndice W]] cobre tributário. Esse apêndice cobre contratos operacionais, e aspectos legais não-cobertos em outros. Contratos com clientes (além de política de privacidade), termos de uso robustos, contratos com fornecedores, contratos com freelancers, IP, e propriedade intelectual, aspectos trabalhistas em startup, e litígios.
+A [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]] cobre constituição da empresa. O [[#APÊNDICE T — LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Apêndice T]] cobre LGPD. O [[#APÊNDICE W — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Apêndice W]] cobre tributário. Esse apêndice cobre contratos operacionais, e aspectos legais não-cobertos em outros. Contratos com clientes (além de política de privacidade), termos de uso robustos, contratos com fornecedores, contratos com freelancers, IP, e propriedade intelectual, aspectos trabalhistas em startup, e litígios.
 
 ### O que esse apêndice cobre
 
@@ -32,9 +32,9 @@ Termo de uso fraco expõe empresa a pleitos de cliente.
 
 ### Quando usar
 
-[[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]3]]. Contratos base (termos de uso, e contrato de trabalho padrão).
+[[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]]. Contratos base (termos de uso, e contrato de trabalho padrão).
 
-[[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] (Time, e Liderança, em diante). Contratos customizados com clientes enterprise.
+[[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Time, e Liderança, em diante). Contratos customizados com clientes enterprise.
 
 Pré-rodada. Revisão completa para DD.
 

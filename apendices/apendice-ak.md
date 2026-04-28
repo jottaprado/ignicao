@@ -8,7 +8,7 @@ appendix: "AK"
 > [!note] Validade
 > Programas, aceleradoras e seus focos mudam continuamente. Essa lista reflete o panorama de 2025 e 2026. Termos de aceitação, ticket de investimento e equity esperado variam por ciclo. Revise anualmente antes de aplicar. Consulte o site oficial e converse com fundadores recentes antes de aceitar qualquer oferta.
 
-A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] e o [[#APÊNDICE V — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Apêndice V]] tocam em captação de equity. Esse apêndice cobre um território adjacente: os programas institucionais que oferecem capital, mentoria, rede ou credibilidade em troca de participação, custo ou tempo. É uma categoria importante para o fundador iniciante brasileiro que ainda não tem rede direta de investidor.
+A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] e o [[#APÊNDICE V — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Apêndice V]] tocam em captação de equity. Esse apêndice cobre um território adjacente: os programas institucionais que oferecem capital, mentoria, rede ou credibilidade em troca de participação, custo ou tempo. É uma categoria importante para o fundador iniciante brasileiro que ainda não tem rede direta de investidor.
 
 O que segue é sobre quando faz sentido aplicar a qual programa, como avaliar a oferta recebida, e quando recusar. Porque nem toda oferta é boa, mesmo vinda de programa prestigiado.
 

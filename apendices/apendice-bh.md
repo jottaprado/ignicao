@@ -340,10 +340,10 @@ quadrantChart
 | 1. Sem defensibilidade estrutural | Easy Taxi | [[#FASE 5 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 5]]-6 |
 | 2. PMF falso (retenção não existe) | Peixe Urbano, daily deals | [[#FASE 11 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 11]]-12 |
 | 3. Unit economics ruins em escala | Delivery verticais 2014-17, Liv Up | [[#FASE 11 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 11]]-14 |
-| 4. Dependência de fundador único | Múltiplos casos | [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]3]]-14 |
-| 5. Mudança estrutural ignorada | Kekanto, reviews locais | [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]]-15 |
-| 6. Sobreextensão geográfica precoce | Rappi, múltiplos LatAm | [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] |
-| 7. Perda de momentum de produto | Casos variados em escala | [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]]-15 |
+| 4. Dependência de fundador único | Múltiplos casos | [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]]-14 |
+| 5. Mudança estrutural ignorada | Kekanto, reviews locais | [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]]-15 |
+| 6. Sobreextensão geográfica precoce | Rappi, múltiplos LatAm | [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] |
+| 7. Perda de momentum de produto | Casos variados em escala | [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]]-15 |
 
 ### Caso 10 — iFood: vitória brutal contra Rappi e lições de execução
 

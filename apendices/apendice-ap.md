@@ -8,7 +8,7 @@ appendix: "AP"
 > [!note] Nota de validade
 > Princípios de construção de cultura são estáveis ao longo de décadas. Ferramentas (engagement surveys, OKRs, ferramentas de feedback) evoluem em três a cinco anos. Revisar bienalmente.
 
-A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] (Time e Liderança) menciona "valores documentados" como entregável. O [[#APÊNDICE R — FOUNDER MODE, DELEGAÇÃO E QUANDO PARAR DE FAZER|Apêndice R]] (Founder Mode) toca em liderança. Mas cultura como disciplina gerenciada — como escrever valores que não sejam clichês, como mantê-los em escala, como medir, rituais de reforço, sinais de toxicidade — não tem apêndice dedicado. É lacuna consequente. Cultura ruim não mata empresa no curto prazo. Mas erode talento, produtividade, e marca empregadora, ao longo de anos.
+A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Time e Liderança) menciona "valores documentados" como entregável. O [[#APÊNDICE R — FOUNDER MODE, DELEGAÇÃO E QUANDO PARAR DE FAZER|Apêndice R]] (Founder Mode) toca em liderança. Mas cultura como disciplina gerenciada — como escrever valores que não sejam clichês, como mantê-los em escala, como medir, rituais de reforço, sinais de toxicidade — não tem apêndice dedicado. É lacuna consequente. Cultura ruim não mata empresa no curto prazo. Mas erode talento, produtividade, e marca empregadora, ao longo de anos.
 
 Esse apêndice cobre cultura, não como "valores no cartaz". Mas como comportamento agregado, que pode ser gerenciado deliberadamente.
 
@@ -34,9 +34,9 @@ Empresa com cultura ruim recruta errado. O talento top não entra. Quando entra,
 
 [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]] (antes mesmo de primeira contratação). os fundadores articulam valores que acreditam.
 
-[[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] (Time e Liderança), primeiros dez funcionários. Cultura se forma. Deliberadamente, ou por padrão.
+[[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Time e Liderança), primeiros dez funcionários. Cultura se forma. Deliberadamente, ou por padrão.
 
-[[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] (Operações, da escala inicial à Série C), dez para cem ou mais pessoas. Cultura precisa de reforço explícito. Rituais, comunicação, e onboarding estruturado.
+[[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Operações, da escala inicial à Série C), dez para cem ou mais pessoas. Cultura precisa de reforço explícito. Rituais, comunicação, e onboarding estruturado.
 
 Série B em diante (cem ou mais pessoas). Cultura vira função (pessoas, ou people ops, formalizado). Medição sistemática.
 

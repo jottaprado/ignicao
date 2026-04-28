@@ -156,7 +156,7 @@ Cobertura de seguros em relação a riscos críticos. Responsabilidade civil cob
 
 ### SAÍDA DESTA FASE
 
-Você concluiu a [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]3]] quando os nove critérios abaixo estão cumpridos.
+Você concluiu a [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]] quando os nove critérios abaixo estão cumpridos.
 
 1. Empresa juridicamente constituída em formato adequado (LTDA ou S.A.), com regime tributário adequado, e contrato social revisado por advogado especializado em startups.
 2. Cap table documentado com equity split e vesting dos sócios. Acordo de sócios assinado se há sócios. Padrão de quatro anos com cliff de doze meses.
@@ -270,7 +270,7 @@ Burn Multiple (David Sacks, 2020). Net Burn dividido por Net New ARR. Menos de u
 
 ### SÍNTESE DA FASE 13
 
-A [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]3]] confronta um adiamento comum, e caro. Muitos fundadores postergam a formalização. Acham que é burocracia, ou que "depois resolve". Mas a falta de formalização não é neutra. Gera riscos concretos. Autuações fiscais. Impossibilidade de emitir notas. Quebra de contratos por falta de amparo jurídico. Perda de funcionários por informalidade. Inviabilidade de captar investimento. Bloqueio de contas bancárias. A estruturação tarda. Mas sempre tem que acontecer. E quanto antes, melhor.
+A [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]] confronta um adiamento comum, e caro. Muitos fundadores postergam a formalização. Acham que é burocracia, ou que "depois resolve". Mas a falta de formalização não é neutra. Gera riscos concretos. Autuações fiscais. Impossibilidade de emitir notas. Quebra de contratos por falta de amparo jurídico. Perda de funcionários por informalidade. Inviabilidade de captar investimento. Bloqueio de contas bancárias. A estruturação tarda. Mas sempre tem que acontecer. E quanto antes, melhor.
 
 A diferença entre quem faz certo, e quem falha, está em tratar formalização como infraestrutura, não como obstáculo. Escolha de regime tributário tem efeito multimilionário em três a cinco anos. Cap table mal-feita no início é dor de cabeça em qualquer captação séria. Acordo de sócios sem drag-along, tag-along, e cláusulas de saída, expõe os fundadores a impasses que paralisam decisões em momento crítico. Compliance LGPD em dia não é luxo, é pré-requisito para vender enterprise, ou captar série A institucional.
 

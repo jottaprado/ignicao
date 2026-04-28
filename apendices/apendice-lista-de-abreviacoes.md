@@ -191,9 +191,9 @@ Para o leitor que quer aprofundar além do próprio manual, abaixo uma sequênci
 
 **[[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]] (PMF):** *tração* (Gabriel Weinberg). Canais e bullseye.
 
-**[[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]3]] (Estruturação):** *Venture Deals* (Brad Feld). Deal terms e cap table.
+**[[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]] (Estruturação):** *Venture Deals* (Brad Feld). Deal terms e cap table.
 
-**[[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] (Escala):** *High Output Management* (Andy Grove) + *Scaling People* (Claire Hughes Johnson). Gestão e estrutura em escala.
+**[[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Escala):** *High Output Management* (Andy Grove) + *Scaling People* (Claire Hughes Johnson). Gestão e estrutura em escala.
 
 **[[#FASE 15 — REINVENÇÃO E SEGUNDA CURVA|Fase 15]] (Reinvenção):** *The Innovator's Dilemma* (Clayton Christensen).
 

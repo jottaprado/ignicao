@@ -36,7 +36,7 @@ Brand pessoal e corporativo são ativos separados e cruzados. Separam em exit ("
 - **[[#FASE 5 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 5]]-6:** começar a construir rede e presença em eventos setoriais (painel, conversa em associação). Não ainda imprensa.
 - **[[#FASE 10 — MVP E EXPERIMENTOS DE MERCADO|Fase 10]]-10 (pós-MVP/PMF):** iniciar presença em redes próprias (LinkedIn principalmente) com cadência leve (1-2 postagens/semana).
 - **[[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]]-12 (pós-rodada relevante):** primeira onda de imprensa consciente, entrevistas planejadas, não reativas. Press release do marco (Série A), conteúdo de thought leadership.
-- **[[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] (Time e Liderança em diante) (escala):** comunicação institucional estruturada, assessoria de imprensa contratada, porta-voz com treinamento formal, protocolo de crisis comm ativado.
+- **[[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Time e Liderança em diante) (escala):** comunicação institucional estruturada, assessoria de imprensa contratada, porta-voz com treinamento formal, protocolo de crisis comm ativado.
 - **Contínuo:** revisar narrativa anualmente, ajustar posicionamento conforme empresa evolui.
 - **Em crise:** protocolo específico (ver COMO, seção crisis).
 

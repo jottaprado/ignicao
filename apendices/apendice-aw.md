@@ -20,7 +20,7 @@ Competição entre startups reguladas é filtrada por compliance: quem não cons
 
 ### Quando agir
 
-Na [[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]]-4 (descoberta do problema), se você identifica oportunidade em setor regulado, entenda a arquitetura regulatória antes de construir MVP. Descobrir que seu produto exige licença de dezoito meses depois de construí-lo é catastrófico. Na [[#FASE 10 — MVP E EXPERIMENTOS DE MERCADO|Fase 10]] (MVP), busque primeiras licenças piloto ou sandboxes regulatórios (quando existem). Na [[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]] (PMF), compliance pleno é pré-requisito para captar Série A em setor regulado. Da [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]4]] em diante, compliance officer dedicado, relacionamento estruturado com regulador e participação em consultas públicas.
+Na [[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]]-4 (descoberta do problema), se você identifica oportunidade em setor regulado, entenda a arquitetura regulatória antes de construir MVP. Descobrir que seu produto exige licença de dezoito meses depois de construí-lo é catastrófico. Na [[#FASE 10 — MVP E EXPERIMENTOS DE MERCADO|Fase 10]] (MVP), busque primeiras licenças piloto ou sandboxes regulatórios (quando existem). Na [[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]] (PMF), compliance pleno é pré-requisito para captar Série A em setor regulado. Da [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] em diante, compliance officer dedicado, relacionamento estruturado com regulador e participação em consultas públicas.
 
 ### Quem envolver
 
