@@ -461,6 +461,16 @@ O que vem na [[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]]. Product-Market Fit. On
 > [!warning] Critério para avançar
 > Unit economics positivos em pelo menos um canal. Margem bruta acima do mínimo do setor. Plano claro de redução de CAC ou aumento de LTV. Default Alive (ou Default Dead com plano de noventa dias). Se não tem isso, fique na Fase 11, ajuste.
 
+> [!important] Fase 11 e Fase 12 medem dimensões independentes
+> Fase 11 valida **modelo viável** (LTV/CAC saudável, payback aceitável, default alive). Fase 12 valida **produto amado pelo mercado** (Sean Ellis ≥40%, retenção estabilizada, crescimento orgânico). São dimensões ortogonais, não etapas sequenciais. Quatro cenários possíveis no fim da Fase 11:
+>
+> 1. **Modelo OK + produto amado**: avance para Fase 12 só para confirmar e medir; vá para Fase 13/14 em paralelo. Cenário ideal.
+> 2. **Modelo OK + produto não amado**: você tem unit economics mas pouco entusiasmo de cliente. Volte para Fase 4/8/9 antes de escalar — escalar produto não-amado = churn que se mantém só com aquisição cara.
+> 3. **Modelo quebrado + produto amado**: cenário comum em early-stage SaaS. Fase 12 vai confirmar PMF, mas Fase 14 (escala) precisa atacar economics primeiro. Pivot de pricing, segmento ou canal antes de captar.
+> 4. **Modelo quebrado + produto não amado**: nem PMF, nem viabilidade. Pivote ou abandone — não tente "consertar" pela Fase 12 sozinho.
+>
+> Resolva primeiro o que está mais quebrado. Não há ordem fixa; o diagnóstico das duas fases junto é que orienta.
+
 ### FERRAMENTAS DESTA FASE
 
 Validação do modelo de negócio exige mix de qualitativo e quantitativo. Detalhamento no [[#APÊNDICE BG — FERRAMENTÁRIO COMPLETO DO EMPREENDEDOR|Apêndice BG]]. Oito ferramentas centrais.

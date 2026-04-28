@@ -136,6 +136,9 @@ Fundadores que ficam estáticos vendo o crescimento morrer aprendem tarde demais
 
 Comece depois de seis a doze meses de MVP em operação com iterações, e depois de sinais claros de PSF. Termine quando PMF é atingido segundo os três testes. Ou quando você decide pivotar porque os sinais indicam que o fit não vai chegar nesse produto para esse mercado. Revisite a cada grande mudança (novo segmento, nova geografia, nova vertical), e a cada doze a dezoito meses de qualquer maneira. Modelos saturam.
 
+> [!important] Fase 12 e Fase 11 medem dimensões diferentes
+> A [[#FASE 11 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 11]] valida **modelo viável** (LTV/CAC saudável, default alive). Esta Fase 12 valida **produto amado pelo mercado** (Sean Ellis ≥40%, retenção estabilizada, crescimento orgânico). Não são etapas sequenciais — são dimensões ortogonais. É possível ter PMF (Sean Ellis 60%) com modelo quebrado (LTV/CAC < 1) ou modelo saudável sem PMF (clientes pagam mas não amam, churn precisa de aquisição cara). Faça o diagnóstico das duas em paralelo. O cenário típico early-stage é PMF antes de unit economics; o cenário típico em B2B enterprise é o inverso. Veja a tabela de quatro cenários no fim da Fase 11 para decidir o que atacar primeiro.
+
 ### Quem envolve
 
 O executor é você, e o time, se houver. Em empresas muito pequenas, o próprio founder faz tudo. Em empresas com time, o fundador é o sintetizador da evidência. O decisor é você. O apoio externo vem de mentores, advisors, e outros fundadores em fase semelhante. São valiosos como caixa de ressonância, especialmente para a decisão "declarar PMF, ou não". Ego contamina diagnóstico.

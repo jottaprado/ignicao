@@ -1246,7 +1246,7 @@ Tudo o que você não escreve não existe operacionalmente. A articulação for�
 E ao listar explicitamente o que você não sabe, você cria a agenda de trabalho das Fases 2 a 6. As suas incertezas de hoje são as suas hipóteses de amanhã.
 
 ### Quando usar
-Comece assim que a [[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]] estiver concluída. Termine quando a Declaração couber em uma página, e você conseguir explicá-la verbalmente para um estranho em noventa segundos, e esse estranho conseguir repeti-la de volta com precisão. Revisite ao final de cada fase seguinte, para atualizar com o que foi aprendido.
+Comece assim que a [[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]] estiver concluída — você sai da Fase 1 com uma Lista Curta de três a cinco candidatas e uma escolhida para articular aqui. As outras ficam guardadas para revisita se a candidata principal não resistir aos filtros das fases seguintes. Termine quando a Declaração couber em uma página, e você conseguir explicá-la verbalmente para um estranho em noventa segundos, e esse estranho conseguir repeti-la de volta com precisão. Revisite ao final de cada fase seguinte, para atualizar com o que foi aprendido.
 
 ### Quem envolve
 O executor principal é você. Os participantes são três a cinco pessoas que vão ler e dar feedback sobre a clareza da articulação, não sobre se a ideia é boa. Escolha gente que não é do seu setor. Para te forçar a explicar sem jargão. O decisor é você.
@@ -1897,7 +1897,7 @@ Antes de avançar, submeta o seu problema a um teste de prioridade em três perg
 > Se você não consegue responder às três perguntas com um nome de cargo, uma métrica específica, e um comportamento de escalada concreto, volte para entrevistas. Problemas que passam nas três perguntas geram urgência de compra. Os que não passam geram apenas interesse educado.
 
 ### Quando usar
-Comece com a Declaração Inicial da Ideia (v1) em mãos. Termine depois de ter realizado entrevistas suficientes para chegar à saturação, o ponto em que novas entrevistas deixam de trazer informação nova. Tipicamente quinze a trinta entrevistas em profundidade. Revisite sempre que mudar de segmento de cliente ou abrir novo mercado.
+Comece com a Declaração Inicial da Ideia (v1) da [[#FASE 2 — ARTICULAÇÃO E CAPTURA DA IDEIA|Fase 2]] em mãos e, idealmente, com a árvore de teoria construída na [[#FASE 2B — CONSTRUÇÃO DA TEORIA DO NEGÓCIO|Fase 2B]] — as hipóteses bet-the-company da Fase 2B são exatamente o que você vai testar nas entrevistas aqui. Termine depois de ter realizado entrevistas suficientes para chegar à saturação, o ponto em que novas entrevistas deixam de trazer informação nova. Tipicamente quinze a trinta entrevistas em profundidade. Revisite sempre que mudar de segmento de cliente ou abrir novo mercado.
 
 ### Quem envolve
 O executor principal é você. Não terceirize entrevistas nesta fase. Quem conduz aprende. Quem lê relatório, não. Os participantes são os entrevistados, pessoas do público-alvo descrito na [[#FASE 2 — ARTICULAÇÃO E CAPTURA DA IDEIA|Fase 2]]. O decisor é você, com base na análise da evidência.
@@ -2276,6 +2276,9 @@ A [[#FASE 4 — PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY APROFUNDADO)|Fase 4]]
 
 ### Quando usar
 Comece assim que a [[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]] validar a existência do problema. Termine quando tiver duas a quatro personas caracterizadas com profundidade, pelo menos três jornadas mapeadas, e uma lista clara de *jobs to be done*. Revisite antes de grandes decisões de produto, e antes de entrar em novos segmentos.
+
+> [!important] Esta fase é uma rodada NOVA, não continuação da Fase 3
+> As 15-30 entrevistas da [[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]] eram de **escuta ampla** com Mom Test, focadas em validar se o problema existe. As 8-15 sessões aqui são **mais profundas** (60-90 min, contextual inquiry, observação em campo, JTBD) e **adicionais** — não substituem nem reaproveitam as anteriores. Total típico no fim da Fase 4: ~25-45 conversas no agregado. Reentrevistar pessoas da Fase 3 que se encaixam no sub-segmento agudo é válido e até recomendado, mas conta como conversa nova porque o roteiro e o objetivo mudaram.
 
 ### Quem envolve
 O executor é você, preferencialmente com alguém que possa documentar enquanto você observa ou conversa. Os participantes são oito a quinze usuários dispostos a deixar você observá-los, ou a fazer entrevistas mais longas (sessenta a noventa minutos) em contexto. O decisor é você.
@@ -3090,7 +3093,7 @@ O que o usuário faz hoje para contornar? Solução atual, mesmo precária. Plan
 
 #### Parte 2, duas perguntas-faca (três minutos)
 
-Esse conjunto de clientes caberia em um único canal de Slack ou grupo de WhatsApp? Não metaforicamente. Literalmente. Se você não consegue imaginar essas trinta a oitenta pessoas reunidas no mesmo grupo trocando mensagens sobre o mesmo problema específico, a sua cunha ainda está larga. Reduza.
+Esse conjunto de clientes caberia em um único canal de Slack ou grupo de WhatsApp? Não metaforicamente. Literalmente. A faixa total da cunha vendável é de cem a trezentas pessoas listáveis nominalmente (definição operacional canônica acima); o sub-conjunto que você consegue imaginar reunido no mesmo grupo trocando mensagens sobre o mesmo problema específico é mais estreito, tipicamente trinta a oitenta pessoas — esse núcleo é quem você conhece de nome, contato direto e contexto. Se você não consegue listar nem esse núcleo, a sua cunha ainda está larga. Reduza.
 
 Se a sua empresa fechasse hoje à noite, quem reclamaria ativamente amanhã de manhã? Não "quem sentiria falta". Quem abriria o notebook, ligaria para alguém, postaria no LinkedIn. Essa lista de pessoas é a sua cunha real. Se a lista tem menos de três pessoas específicas (com nome e cargo), a sua cunha é teórica. Não está aterrada em gente.
 
@@ -5817,6 +5820,16 @@ O que vem na [[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]]. Product-Market Fit. On
 > [!warning] Critério para avançar
 > Unit economics positivos em pelo menos um canal. Margem bruta acima do mínimo do setor. Plano claro de redução de CAC ou aumento de LTV. Default Alive (ou Default Dead com plano de noventa dias). Se não tem isso, fique na Fase 11, ajuste.
 
+> [!important] Fase 11 e Fase 12 medem dimensões independentes
+> Fase 11 valida **modelo viável** (LTV/CAC saudável, payback aceitável, default alive). Fase 12 valida **produto amado pelo mercado** (Sean Ellis ≥40%, retenção estabilizada, crescimento orgânico). São dimensões ortogonais, não etapas sequenciais. Quatro cenários possíveis no fim da Fase 11:
+>
+> 1. **Modelo OK + produto amado**: avance para Fase 12 só para confirmar e medir; vá para Fase 13/14 em paralelo. Cenário ideal.
+> 2. **Modelo OK + produto não amado**: você tem unit economics mas pouco entusiasmo de cliente. Volte para Fase 4/8/9 antes de escalar — escalar produto não-amado = churn que se mantém só com aquisição cara.
+> 3. **Modelo quebrado + produto amado**: cenário comum em early-stage SaaS. Fase 12 vai confirmar PMF, mas Fase 14 (escala) precisa atacar economics primeiro. Pivot de pricing, segmento ou canal antes de captar.
+> 4. **Modelo quebrado + produto não amado**: nem PMF, nem viabilidade. Pivote ou abandone — não tente "consertar" pela Fase 12 sozinho.
+>
+> Resolva primeiro o que está mais quebrado. Não há ordem fixa; o diagnóstico das duas fases junto é que orienta.
+
 ### FERRAMENTAS DESTA FASE
 
 Validação do modelo de negócio exige mix de qualitativo e quantitativo. Detalhamento no [[#APÊNDICE BG — FERRAMENTÁRIO COMPLETO DO EMPREENDEDOR|Apêndice BG]]. Oito ferramentas centrais.
@@ -6004,6 +6017,9 @@ Fundadores que ficam estáticos vendo o crescimento morrer aprendem tarde demais
 ### Quando usar
 
 Comece depois de seis a doze meses de MVP em operação com iterações, e depois de sinais claros de PSF. Termine quando PMF é atingido segundo os três testes. Ou quando você decide pivotar porque os sinais indicam que o fit não vai chegar nesse produto para esse mercado. Revisite a cada grande mudança (novo segmento, nova geografia, nova vertical), e a cada doze a dezoito meses de qualquer maneira. Modelos saturam.
+
+> [!important] Fase 12 e Fase 11 medem dimensões diferentes
+> A [[#FASE 11 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 11]] valida **modelo viável** (LTV/CAC saudável, default alive). Esta Fase 12 valida **produto amado pelo mercado** (Sean Ellis ≥40%, retenção estabilizada, crescimento orgânico). Não são etapas sequenciais — são dimensões ortogonais. É possível ter PMF (Sean Ellis 60%) com modelo quebrado (LTV/CAC < 1) ou modelo saudável sem PMF (clientes pagam mas não amam, churn precisa de aquisição cara). Faça o diagnóstico das duas em paralelo. O cenário típico early-stage é PMF antes de unit economics; o cenário típico em B2B enterprise é o inverso. Veja a tabela de quatro cenários no fim da Fase 11 para decidir o que atacar primeiro.
 
 ### Quem envolve
 
