@@ -202,32 +202,32 @@ Se o seu caminho é PLG, alguns conceitos precisam virar fluentes.
 ```mermaid
 flowchart LR
     subgraph PLG["Product-Led Growth (PLG)"]
-        P1([Usuário experimenta\ngrátis]) --> P2[Atinge aha moment]
-        P2 --> P3[Convida colegas\nou compartilha]
+        P1(["Usuário experimenta<br/>grátis"]) --> P2[Atinge aha moment]
+        P2 --> P3["Convida colegas<br/>ou compartilha"]
         P3 --> P4[Novos usuários entram]
         P4 --> P2
-        P2 --> P5{PQL?\nLimite atingido?}
-        P5 -->|Sim| P6([Upgrade pago\nautomático])
+        P2 --> P5{"PQL?<br/>Limite atingido?"}
+        P5 -->|Sim| P6(["Upgrade pago<br/>automático"])
     end
 
     subgraph SLG["Sales-Led Growth (SLG)"]
-        S1([Lead gerado\nmarketing ou outbound]) --> S2[SDR qualifica]
+        S1(["Lead gerado<br/>marketing ou outbound"]) --> S2[SDR qualifica]
         S2 --> S3[AE apresenta demo]
         S3 --> S4[Proposta e negociação]
         S4 --> S5([Contrato fechado])
-        S5 --> S6[CS renova\ne expande]
+        S5 --> S6["CS renova<br/>e expande"]
         S6 --> S7([Upsell / referral])
     end
 
     subgraph CL["Community-Led Growth"]
-        C1([Conteúdo útil\npublicado]) --> C2[Comunidade engaja]
-        C2 --> C3[Membros geram\nnovo conteúdo]
-        C3 --> C4[Novos membros\nentram]
+        C1(["Conteúdo útil<br/>publicado"]) --> C2[Comunidade engaja]
+        C2 --> C3["Membros geram<br/>novo conteúdo"]
+        C3 --> C4["Novos membros<br/>entram"]
         C4 --> C2
-        C2 --> C5([Convertem em\nclientes])
+        C2 --> C5(["Convertem em<br/>clientes"])
     end
 
-    note[Modelos não são\nexcludentes: PLG +\nSales-assisted é\ncomum em scale-up]
+    note["Modelos não são<br/>excludentes: PLG +<br/>Sales-assisted é<br/>comum em scale-up"]
     style note fill:#f9f9f9,stroke:#999
 ```
 

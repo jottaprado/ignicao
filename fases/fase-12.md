@@ -32,29 +32,29 @@ A trajetória real é PSF, depois PMF, depois Escala. Cada flecha é uma travess
 
 ```mermaid
 flowchart LR
-    subgraph PSF["Problem-Solution Fit\n(Fases 10–11)"]
+    subgraph PSF["Problem-Solution Fit<br/>(Fases 10–11)"]
         direction TB
         P1[5–50 early evangelists]
         P2[Produto imperfeito tolerado]
         P3[Pagam pelo valor, não pela UX]
     end
 
-    subgraph PMF["Product-Market Fit\n(Fase 12)"]
+    subgraph PMF["Product-Market Fit<br/>(Fase 12)"]
         direction TB
         M1[Centenas a milhares]
         M2[Retenção que estabiliza]
         M3[Crescimento orgânico ≥30%]
     end
 
-    subgraph SCALE["Escala\n(Fase 14)"]
+    subgraph SCALE["Escala<br/>(Fase 14)"]
         direction TB
         S1[Motor de crescimento]
         S2[NRR ≥110%]
         S3[Rule of 40 positivo]
     end
 
-    PSF -->|"Evidência: 5+ clientes\npagando e retornando\nsem você empurrar"| PMF
-    PMF -->|"Evidência: coorte\nestabiliza + NPS ≥40\n+ orgânico funciona"| SCALE
+    PSF -->|"Evidência: 5+ clientes<br/>pagando e retornando<br/>sem você empurrar"| PMF
+    PMF -->|"Evidência: coorte<br/>estabiliza + NPS ≥40<br/>+ orgânico funciona"| SCALE
 ```
 
 A curva de retenção é o sinal mais honesto. Produto sem PMF tem curva que decai para zero — cada nova coorte de usuários vai embora. Produto com PMF tem curva que estabiliza num patamar acima de zero, mesmo que seja 15% ou 20%. Isso significa que uma fração dos usuários encontrou valor real e fica.

@@ -17,19 +17,19 @@ A maioria dos manuais assume que o leitor já decidiu empreender e ajuda a execu
 
 ```mermaid
 flowchart TD
-    START([Quero empreender]) --> R1{Runway pessoal\n≥ 12 meses?}
-    R1 -->|Não| WAIT1[Construir reserva\nantes de empreender]
-    R1 -->|Sim| R2{Motivação é\npelo problema,\nnão pela fuga?}
-    R2 -->|Fuga de algo| WAIT2[Resolver a situação\nde fuga primeiro]
-    R2 -->|Sim| R3{Momento de vida\nestável?}
-    R3 -->|Luto, divórcio,\ndoença ativa| WAIT3[Aguardar estabilização\n6–18 meses]
-    R3 -->|Sim| R4{Cônjuge ou família\napoiam ou são\nneutros?}
-    R4 -->|Fortemente\ncontrários| WAIT4[Conversa estruturada\nou terapia de casal]
-    R4 -->|Apoiam ou\nsão neutros| R5{Tolerância\nà incerteza\né razoável?}
-    R5 -->|Não| WAIT5[Considerar\nexecutivo sênior\ncomo alternativa]
-    R5 -->|Sim| GO([Empreender\nContinue para Fase 1])
+    START([Quero empreender]) --> R1{"Runway pessoal<br/>≥ 12 meses?"}
+    R1 -->|Não| WAIT1["Construir reserva<br/>antes de empreender"]
+    R1 -->|Sim| R2{"Motivação é<br/>pelo problema,<br/>não pela fuga?"}
+    R2 -->|Fuga de algo| WAIT2["Resolver a situação<br/>de fuga primeiro"]
+    R2 -->|Sim| R3{"Momento de vida<br/>estável?"}
+    R3 -->|Luto, divórcio,<br/>doença ativa| WAIT3["Aguardar estabilização<br/>6–18 meses"]
+    R3 -->|Sim| R4{"Cônjuge ou família<br/>apoiam ou são<br/>neutros?"}
+    R4 -->|Fortemente<br/>contrários| WAIT4["Conversa estruturada<br/>ou terapia de casal"]
+    R4 -->|Apoiam ou<br/>são neutros| R5{"Tolerância<br/>à incerteza<br/>é razoável?"}
+    R5 -->|Não| WAIT5["Considerar<br/>executivo sênior<br/>como alternativa"]
+    R5 -->|Sim| GO(["Empreender<br/>Continue para Fase 1"])
 
-    WAIT1 & WAIT2 & WAIT3 & WAIT4 -.->|"Resolvido?\nRetorne"| START
+    WAIT1 & WAIT2 & WAIT3 & WAIT4 -.->|"Resolvido?<br/>Retorne"| START
 
     style GO fill:#d4edda,stroke:#28a745
     style WAIT1 fill:#fff3cd,stroke:#ffc107
@@ -282,25 +282,25 @@ Uma das decisões mais consequentes da [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDO
 ```mermaid
 flowchart TD
     subgraph TRES["3 perfis essenciais (pré-Série A)"]
-        H[Técnico / Hacker\nConstrói o produto\nCTO, eng-líder, cientista]
-        HU[Comercial / Hustler\nVende, capta, abre portas\nCEO-comercial, co-CEO]
-        HI[Domínio / Hipster\nConhece o setor\nViveu o problema]
+        H["Técnico / Hacker<br/>Constrói o produto<br/>CTO, eng-líder, cientista"]
+        HU["Comercial / Hustler<br/>Vende, capta, abre portas<br/>CEO-comercial, co-CEO"]
+        HI["Domínio / Hipster<br/>Conhece o setor<br/>Viveu o problema"]
     end
 
     subgraph CINCO["+ 2 perfis em scale-up ou produtos complexos"]
-        D[Design\nExperiência e identidade\nObrigatório em B2C]
-        DA[Dados\nAnalytics e ML\nObrigatório em AI-first]
+        D["Design<br/>Experiência e identidade<br/>Obrigatório em B2C"]
+        DA["Dados<br/>Analytics e ML<br/>Obrigatório em AI-first"]
     end
 
-    TRES -->|"Quando crescer\ne o produto exigir"| CINCO
+    TRES -->|"Quando crescer<br/>e o produto exigir"| CINCO
 
     subgraph SOLO["Solo consciente"]
-        S1[Compensa técnica\nCTO-as-a-service]
-        S2[Compensa comercial\nSales advisor com equity]
-        S3[Compensa domínio\nAdvisors do setor]
+        S1["Compensa técnica<br/>CTO-as-a-service"]
+        S2["Compensa comercial<br/>Sales advisor com equity"]
+        S3["Compensa domínio<br/>Advisors do setor"]
     end
 
-    H & HU & HI -->|"Não tem\ncofundador?"| SOLO
+    H & HU & HI -->|"Não tem<br/>cofundador?"| SOLO
 ```
 
 **Dados que contradizem o mito do fundador solo.**

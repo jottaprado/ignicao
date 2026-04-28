@@ -817,10 +817,10 @@ Antes de otimizar qualquer peça específica (vendas, marketing, retenção), en
 ```mermaid
 flowchart TD
     subgraph MOTOR["Motor de Crescimento"]
-        P[Pessoas\nQuem executa\nVendas, CS, Growth]
-        PR[Processos\nComo executam\nPlaybooks, cadências, handoffs]
-        E[Estratégia\nPara onde direcionam\nICP, canal, pricing]
-        D[Dados\nComo aprendem\nFunnel, coortes, experimentos]
+        P["Pessoas<br/>Quem executa<br/>Vendas, CS, Growth"]
+        PR["Processos<br/>Como executam<br/>Playbooks, cadências, handoffs"]
+        E["Estratégia<br/>Para onde direcionam<br/>ICP, canal, pricing"]
+        D["Dados<br/>Como aprendem<br/>Funnel, coortes, experimentos"]
 
         P <--> PR
         PR <--> E
@@ -828,7 +828,7 @@ flowchart TD
         D <--> P
     end
 
-    MOTOR --> OUT[Crescimento\ncomposto]
+    MOTOR --> OUT["Crescimento<br/>composto"]
 
     style MOTOR fill:#f9f9f9,stroke:#666
 ```

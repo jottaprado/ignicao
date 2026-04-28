@@ -30,29 +30,29 @@ Oito passos.
 
 ```mermaid
 flowchart LR
-    subgraph DIV["Fase de Divergência\n(passos 1–2)"]
-        D1[Crazy 8s\n8 ideias em 8 minutos]
-        D2[How Might We\nReformular JTBDs]
-        D3[Analogias\nOutros setores]
-        D1 & D2 & D3 --> POOL[Pool de ideias\n20–40 candidatas]
+    subgraph DIV["Fase de Divergência<br/>(passos 1–2)"]
+        D1["Crazy 8s<br/>8 ideias em 8 minutos"]
+        D2["How Might We<br/>Reformular JTBDs"]
+        D3["Analogias<br/>Outros setores"]
+        D1 & D2 & D3 --> POOL["Pool de ideias<br/>20–40 candidatas"]
     end
 
-    subgraph CONV["Fase de Convergência\n(passos 3–4)"]
-        POOL --> VOTE[Priorizar\nimpacto vs esforço]
-        VOTE --> SELECT[Selecionar 1–3\npara prototipar]
+    subgraph CONV["Fase de Convergência<br/>(passos 3–4)"]
+        POOL --> VOTE["Priorizar<br/>impacto vs esforço"]
+        VOTE --> SELECT["Selecionar 1–3<br/>para prototipar"]
     end
 
-    subgraph PROTO["Prototipagem\n(passos 5–6)"]
-        SELECT --> FID{Fidelidade\nnecessária?}
-        FID -->|Concept test| PAPER[Protótipo em papel\nHoras]
-        FID -->|Fluxo e UX| CLICK[Protótipo clicável\nFigma, dias]
-        FID -->|Serviço complexo| BLUEPRINT[Service blueprint\nDias]
+    subgraph PROTO["Prototipagem<br/>(passos 5–6)"]
+        SELECT --> FID{"Fidelidade<br/>necessária?"}
+        FID -->|Concept test| PAPER["Protótipo em papel<br/>Horas"]
+        FID -->|Fluxo e UX| CLICK["Protótipo clicável<br/>Figma, dias"]
+        FID -->|Serviço complexo| BLUEPRINT["Service blueprint<br/>Dias"]
     end
 
-    subgraph TEST["Teste\n(passos 7–8)"]
-        PAPER & CLICK & BLUEPRINT --> USER[5+ usuários\ntestam]
-        USER --> INSIGHT[Capturar aprendizados\ne iterar]
-        INSIGHT -->|Hipótese validada| NEXT([→ Fase 9\nTestes de solução])
+    subgraph TEST["Teste<br/>(passos 7–8)"]
+        PAPER & CLICK & BLUEPRINT --> USER["5+ usuários<br/>testam"]
+        USER --> INSIGHT["Capturar aprendizados<br/>e iterar"]
+        INSIGHT -->|Hipótese validada| NEXT(["→ Fase 9<br/>Testes de solução"])
         INSIGHT -->|Hipótese refutada| DIV
     end
 ```

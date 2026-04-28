@@ -36,27 +36,27 @@ Sete métodos complementares, não excludentes. Cada fundador tem afinidade maio
 flowchart TD
     A([Fase 1 — Encontrar a ideia]) --> B[7 métodos de geração]
 
-    B --> M1[1. Expertise domain mining\nO que só você sabe]
-    B --> M2[2. Scratch your own itch\nFricções pessoais]
-    B --> M3[3. Ideias orgânicas\nPaul Graham]
-    B --> M4[4. Cross-industry transfer\nModelo de outro setor]
-    B --> M5[5. Technology wave riding\nOndas tecnológicas]
-    B --> M6[6. Wedge theory\nMicro-segmento de entrada]
-    B --> M7[7. White space mapping\nAusências estruturais]
+    B --> M1["1. Expertise domain mining<br/>O que só você sabe"]
+    B --> M2["2. Scratch your own itch<br/>Fricções pessoais"]
+    B --> M3["3. Ideias orgânicas<br/>Paul Graham"]
+    B --> M4["4. Cross-industry transfer<br/>Modelo de outro setor"]
+    B --> M5["5. Technology wave riding<br/>Ondas tecnológicas"]
+    B --> M6["6. Wedge theory<br/>Micro-segmento de entrada"]
+    B --> M7["7. White space mapping<br/>Ausências estruturais"]
 
-    M1 & M2 & M3 & M4 & M5 & M6 & M7 --> C[Lista bruta\n15–30 candidatas]
+    M1 & M2 & M3 & M4 & M5 & M6 & M7 --> C["Lista bruta<br/>15–30 candidatas"]
 
-    C --> F1{Filtro 1\nFMF — vantagem injusta?}
+    C --> F1{"Filtro 1<br/>FMF — vantagem injusta?"}
     F1 -->|Não| OUT1([Descartar])
-    F1 -->|Sim| F2{Filtro 2\nTiming — por que agora?}
+    F1 -->|Sim| F2{"Filtro 2<br/>Timing — por que agora?"}
     F2 -->|Não| OUT2([Descartar])
-    F2 -->|Sim| F3{Filtro 3\nDefensibilidade — moat?}
+    F2 -->|Sim| F3{"Filtro 3<br/>Defensibilidade — moat?"}
     F3 -->|Não| OUT3([Descartar])
-    F3 -->|Sim| F4{Filtro 4\nModelo de pagamento real?}
+    F3 -->|Sim| F4{"Filtro 4<br/>Modelo de pagamento real?"}
     F4 -->|Não| OUT4([Descartar])
-    F4 -->|Sim| FINAL[Lista Curta\n3–5 candidatas]
+    F4 -->|Sim| FINAL["Lista Curta<br/>3–5 candidatas"]
 
-    FINAL --> CHOOSE([Escolha 1 para levar à Fase 2\nGuarde as outras])
+    FINAL --> CHOOSE(["Escolha 1 para levar à Fase 2<br/>Guarde as outras"])
 ```
 
 #### 1. Expertise domain mining, começar pelo que você sabe

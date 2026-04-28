@@ -32,21 +32,21 @@ Seis passos.
 
 ```mermaid
 flowchart TD
-    START([Decisão de exit]) --> Q1{Empresa tem\nreceita ≥ R$10M ARR\ne crescendo?}
+    START([Decisão de exit]) --> Q1{"Empresa tem<br/>receita ≥ R$10M ARR<br/>e crescendo?"}
 
-    Q1 -->|Não| Q2{Time é excepcional\ne produto pode\nser descontinuado?}
-    Q2 -->|Sim| ACQUI[Acqui-hire\nValor: time\nR$500k–3M por eng sênior]
-    Q2 -->|Não| SHUT[Encerramento\nvoluntário com\ndignidade]
+    Q1 -->|Não| Q2{"Time é excepcional<br/>e produto pode<br/>ser descontinuado?"}
+    Q2 -->|Sim| ACQUI["Acqui-hire<br/>Valor: time<br/>R$500k–3M por eng sênior"]
+    Q2 -->|Não| SHUT["Encerramento<br/>voluntário com<br/>dignidade"]
 
-    Q1 -->|Sim| Q3{Busca liquidez\nparcial mantendo\na empresa?}
-    Q3 -->|Sim| SEC[Secondary sale\nVenda parcial de ações\nDesconto 10–30% vs primary]
+    Q1 -->|Sim| Q3{"Busca liquidez<br/>parcial mantendo<br/>a empresa?"}
+    Q3 -->|Sim| SEC["Secondary sale<br/>Venda parcial de ações<br/>Desconto 10–30% vs primary"]
 
-    Q3 -->|Não| Q4{Empresa é\nlíder ou tem\ndefensabilidade clara?}
-    Q4 -->|EBITDA positivo\ne estável| PE[M&A Financeiro\nPrivate Equity\n4–10x EBITDA]
-    Q4 -->|Crescimento alto\ne tech diferenciada| Q5{ARR ≥ R$500M\ne crescimento ≥40%?}
+    Q3 -->|Não| Q4{"Empresa é<br/>líder ou tem<br/>defensabilidade clara?"}
+    Q4 -->|EBITDA positivo<br/>e estável| PE["M&A Financeiro<br/>Private Equity<br/>4–10x EBITDA"]
+    Q4 -->|Crescimento alto<br/>e tech diferenciada| Q5{"ARR ≥ R$500M<br/>e crescimento ≥40%?"}
 
-    Q5 -->|Sim| IPO[IPO\nValuation máximo\nCusto R$30–100M]
-    Q5 -->|Não| STRATEGIC[M&A Estratégico\nComprador do setor\n5–15x ARR]
+    Q5 -->|Sim| IPO["IPO<br/>Valuation máximo<br/>Custo R$30–100M"]
+    Q5 -->|Não| STRATEGIC["M&A Estratégico<br/>Comprador do setor<br/>5–15x ARR"]
 ```
 
 > [!tip] Regra de ouro do exit

@@ -28,22 +28,22 @@ Sete passos em sequência.
 
 ```mermaid
 flowchart LR
-    A([Fase 2 — Articulação]) --> B[1. Bloqueio de tempo\n4h contínuas]
-    B --> C[2. Despejo de consciência\n30–60min sem filtro]
-    C --> D[3. Estruturar em 5 blocos\nDII v1]
+    A([Fase 2 — Articulação]) --> B["1. Bloqueio de tempo<br/>4h contínuas"]
+    B --> C["2. Despejo de consciência<br/>30–60min sem filtro"]
+    C --> D["3. Estruturar em 5 blocos<br/>DII v1"]
 
-    D --> B1[Problema\n3–5 frases\nsem mencionar solução]
-    D --> B2[Quem\ndescrição específica\nnão genérica]
-    D --> B3[Dor atual\ncomo resolvem hoje]
-    D --> B4[Solução imaginada\ncapacidades, não features]
-    D --> B5[Razão de acreditar\n3–5 hipóteses]
+    D --> B1["Problema<br/>3–5 frases<br/>sem mencionar solução"]
+    D --> B2["Quem<br/>descrição específica<br/>não genérica"]
+    D --> B3["Dor atual<br/>como resolvem hoje"]
+    D --> B4["Solução imaginada<br/>capacidades, não features"]
+    D --> B5["Razão de acreditar<br/>3–5 hipóteses"]
 
-    B1 & B2 & B3 & B4 & B5 --> E[4. Listar incertezas\n10–20 coisas que não sei]
-    E --> F[5. Condensar em 1 página\n400–600 palavras]
-    F --> G[6. Teste verbal\n3–5 pessoas fora do círculo]
-    G --> H{Conseguem\nrepetir?}
+    B1 & B2 & B3 & B4 & B5 --> E["4. Listar incertezas<br/>10–20 coisas que não sei"]
+    E --> F["5. Condensar em 1 página<br/>400–600 palavras"]
+    F --> G["6. Teste verbal<br/>3–5 pessoas fora do círculo"]
+    G --> H{"Conseguem<br/>repetir?"}
     H -->|Não| F
-    H -->|Sim| I([DII v1 pronta\n→ Fase 3])
+    H -->|Sim| I(["DII v1 pronta<br/>→ Fase 3"])
 ```
 
 O primeiro é bloqueio de tempo. Quatro horas contínuas, ou duas sessões de duas horas (que é melhor que quatro de uma). Tire notificações. Sem celular. Caderno em branco ou documento novo.

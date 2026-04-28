@@ -45,20 +45,20 @@ xychart-beta
 
 ```mermaid
 flowchart LR
-    subgraph H1["Horizonte 1 — Core\n70% do investimento"]
-        A[Modelo atual\nOtimizar e defender]
+    subgraph H1["Horizonte 1 — Core<br/>70% do investimento"]
+        A["Modelo atual<br/>Otimizar e defender"]
     end
-    subgraph H2["Horizonte 2 — Adjacente\n20% do investimento"]
-        B[Pivot maduro\nNovo segmento ou canal]
+    subgraph H2["Horizonte 2 — Adjacente<br/>20% do investimento"]
+        B["Pivot maduro<br/>Novo segmento ou canal"]
     end
-    subgraph H3["Horizonte 3 — Moonshot\n10% do investimento"]
-        C[Aposta transformacional\nTecnologia ou modelo novo]
+    subgraph H3["Horizonte 3 — Moonshot<br/>10% do investimento"]
+        C["Aposta transformacional<br/>Tecnologia ou modelo novo"]
     end
 
-    H1 -->|"Gera caixa para\nfinanciar"| H2
-    H1 -->|"Financia pesquisa\nde longo prazo"| H3
-    H2 -->|"Se funcionar,\nvira H1 em 3–5 anos"| H1
-    H3 -->|"Se funcionar,\nvira H2 em 5–10 anos"| H2
+    H1 -->|"Gera caixa para<br/>financiar"| H2
+    H1 -->|"Financia pesquisa<br/>de longo prazo"| H3
+    H2 -->|"Se funcionar,<br/>vira H1 em 3–5 anos"| H1
+    H3 -->|"Se funcionar,<br/>vira H2 em 5–10 anos"| H2
 ```
 
 #### Antes de começar, esgotou os seis caminhos de expansão?

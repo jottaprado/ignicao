@@ -143,40 +143,40 @@ Empreender no Brasil é difícil. O livro não disfarça isso. Mas é possível,
 ```mermaid
 flowchart TD
     subgraph P1["PARTE I — Da ideia à operação"]
-        F0[Fase 0\nPreparação do fundador]
-        F1[Fase 1\nEncontrar a ideia]
-        F2[Fase 2\nArticulação da ideia]
-        F2B[Fase 2B\nTeoria do negócio]
-        F3[Fase 3\nDescobrimento do problema]
-        F4[Fase 4\nPesquisa com usuários]
-        F5[Fase 5\nMapeamento de mercado]
-        F6[Fase 6\nFormulação de hipóteses]
-        F7[Fase 7\nExperimentos de validação]
-        F8[Fase 8\nIdeação e prototipagem]
-        F9[Fase 9\nTestes de solução]
+        F0["Fase 0<br/>Preparação do fundador"]
+        F1["Fase 1<br/>Encontrar a ideia"]
+        F2["Fase 2<br/>Articulação da ideia"]
+        F2B["Fase 2B<br/>Teoria do negócio"]
+        F3["Fase 3<br/>Descobrimento do problema"]
+        F4["Fase 4<br/>Pesquisa com usuários"]
+        F5["Fase 5<br/>Mapeamento de mercado"]
+        F6["Fase 6<br/>Formulação de hipóteses"]
+        F7["Fase 7<br/>Experimentos de validação"]
+        F8["Fase 8<br/>Ideação e prototipagem"]
+        F9["Fase 9<br/>Testes de solução"]
         F0 --> F1 --> F2 --> F2B --> F3 --> F4 --> F5 --> F6 --> F7 --> F8 --> F9
     end
 
     subgraph P2["PARTE II — Do PMF à escala"]
-        F10[Fase 10\nMVP e experimentos]
-        F11[Fase 11\nValidação do modelo]
-        F12[Fase 12\nProduct-Market Fit]
-        F13[Fase 13\nEstruturação]
-        F14[Fase 14\nEscala]
+        F10["Fase 10<br/>MVP e experimentos"]
+        F11["Fase 11<br/>Validação do modelo"]
+        F12["Fase 12<br/>Product-Market Fit"]
+        F13["Fase 13<br/>Estruturação"]
+        F14["Fase 14<br/>Escala"]
         F10 --> F11 --> F12 --> F13 --> F14
     end
 
     subgraph P4["PARTE IV — Ciclo longo e exit"]
-        F15[Fase 15\nReinvenção e 2ª curva]
-        F16[Fase 16\nExit strategy]
+        F15["Fase 15<br/>Reinvenção e 2ª curva"]
+        F16["Fase 16<br/>Exit strategy"]
         F15 --> F16
     end
 
-    P1 -->|"Saída: PSF\nClientes pagando"| P2
-    P2 -->|"Saída: PMF + motor\nvalidados"| P4
+    P1 -->|"Saída: PSF<br/>Clientes pagando"| P2
+    P2 -->|"Saída: PMF + motor<br/>validados"| P4
 
-    P2 -.->|"Pivô possível\nVoltar ao problema"| P1
-    P4 -.->|"Segunda empresa\nSegunda curva"| P1
+    P2 -.->|"Pivô possível<br/>Voltar ao problema"| P1
+    P4 -.->|"Segunda empresa<br/>Segunda curva"| P1
 ```
 
 > [!note] Como navegar o livro
@@ -365,19 +365,19 @@ A maioria dos manuais assume que o leitor já decidiu empreender e ajuda a execu
 
 ```mermaid
 flowchart TD
-    START([Quero empreender]) --> R1{Runway pessoal\n≥ 12 meses?}
-    R1 -->|Não| WAIT1[Construir reserva\nantes de empreender]
-    R1 -->|Sim| R2{Motivação é\npelo problema,\nnão pela fuga?}
-    R2 -->|Fuga de algo| WAIT2[Resolver a situação\nde fuga primeiro]
-    R2 -->|Sim| R3{Momento de vida\nestável?}
-    R3 -->|Luto, divórcio,\ndoença ativa| WAIT3[Aguardar estabilização\n6–18 meses]
-    R3 -->|Sim| R4{Cônjuge ou família\napoiam ou são\nneutros?}
-    R4 -->|Fortemente\ncontrários| WAIT4[Conversa estruturada\nou terapia de casal]
-    R4 -->|Apoiam ou\nsão neutros| R5{Tolerância\nà incerteza\né razoável?}
-    R5 -->|Não| WAIT5[Considerar\nexecutivo sênior\ncomo alternativa]
-    R5 -->|Sim| GO([Empreender\nContinue para Fase 1])
+    START([Quero empreender]) --> R1{"Runway pessoal<br/>≥ 12 meses?"}
+    R1 -->|Não| WAIT1["Construir reserva<br/>antes de empreender"]
+    R1 -->|Sim| R2{"Motivação é<br/>pelo problema,<br/>não pela fuga?"}
+    R2 -->|Fuga de algo| WAIT2["Resolver a situação<br/>de fuga primeiro"]
+    R2 -->|Sim| R3{"Momento de vida<br/>estável?"}
+    R3 -->|Luto, divórcio,<br/>doença ativa| WAIT3["Aguardar estabilização<br/>6–18 meses"]
+    R3 -->|Sim| R4{"Cônjuge ou família<br/>apoiam ou são<br/>neutros?"}
+    R4 -->|Fortemente<br/>contrários| WAIT4["Conversa estruturada<br/>ou terapia de casal"]
+    R4 -->|Apoiam ou<br/>são neutros| R5{"Tolerância<br/>à incerteza<br/>é razoável?"}
+    R5 -->|Não| WAIT5["Considerar<br/>executivo sênior<br/>como alternativa"]
+    R5 -->|Sim| GO(["Empreender<br/>Continue para Fase 1"])
 
-    WAIT1 & WAIT2 & WAIT3 & WAIT4 -.->|"Resolvido?\nRetorne"| START
+    WAIT1 & WAIT2 & WAIT3 & WAIT4 -.->|"Resolvido?<br/>Retorne"| START
 
     style GO fill:#d4edda,stroke:#28a745
     style WAIT1 fill:#fff3cd,stroke:#ffc107
@@ -630,25 +630,25 @@ Uma das decisões mais consequentes da [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDO
 ```mermaid
 flowchart TD
     subgraph TRES["3 perfis essenciais (pré-Série A)"]
-        H[Técnico / Hacker\nConstrói o produto\nCTO, eng-líder, cientista]
-        HU[Comercial / Hustler\nVende, capta, abre portas\nCEO-comercial, co-CEO]
-        HI[Domínio / Hipster\nConhece o setor\nViveu o problema]
+        H["Técnico / Hacker<br/>Constrói o produto<br/>CTO, eng-líder, cientista"]
+        HU["Comercial / Hustler<br/>Vende, capta, abre portas<br/>CEO-comercial, co-CEO"]
+        HI["Domínio / Hipster<br/>Conhece o setor<br/>Viveu o problema"]
     end
 
     subgraph CINCO["+ 2 perfis em scale-up ou produtos complexos"]
-        D[Design\nExperiência e identidade\nObrigatório em B2C]
-        DA[Dados\nAnalytics e ML\nObrigatório em AI-first]
+        D["Design<br/>Experiência e identidade<br/>Obrigatório em B2C"]
+        DA["Dados<br/>Analytics e ML<br/>Obrigatório em AI-first"]
     end
 
-    TRES -->|"Quando crescer\ne o produto exigir"| CINCO
+    TRES -->|"Quando crescer<br/>e o produto exigir"| CINCO
 
     subgraph SOLO["Solo consciente"]
-        S1[Compensa técnica\nCTO-as-a-service]
-        S2[Compensa comercial\nSales advisor com equity]
-        S3[Compensa domínio\nAdvisors do setor]
+        S1["Compensa técnica<br/>CTO-as-a-service"]
+        S2["Compensa comercial<br/>Sales advisor com equity"]
+        S3["Compensa domínio<br/>Advisors do setor"]
     end
 
-    H & HU & HI -->|"Não tem\ncofundador?"| SOLO
+    H & HU & HI -->|"Não tem<br/>cofundador?"| SOLO
 ```
 
 **Dados que contradizem o mito do fundador solo.**
@@ -930,27 +930,27 @@ Sete métodos complementares, não excludentes. Cada fundador tem afinidade maio
 flowchart TD
     A([Fase 1 — Encontrar a ideia]) --> B[7 métodos de geração]
 
-    B --> M1[1. Expertise domain mining\nO que só você sabe]
-    B --> M2[2. Scratch your own itch\nFricções pessoais]
-    B --> M3[3. Ideias orgânicas\nPaul Graham]
-    B --> M4[4. Cross-industry transfer\nModelo de outro setor]
-    B --> M5[5. Technology wave riding\nOndas tecnológicas]
-    B --> M6[6. Wedge theory\nMicro-segmento de entrada]
-    B --> M7[7. White space mapping\nAusências estruturais]
+    B --> M1["1. Expertise domain mining<br/>O que só você sabe"]
+    B --> M2["2. Scratch your own itch<br/>Fricções pessoais"]
+    B --> M3["3. Ideias orgânicas<br/>Paul Graham"]
+    B --> M4["4. Cross-industry transfer<br/>Modelo de outro setor"]
+    B --> M5["5. Technology wave riding<br/>Ondas tecnológicas"]
+    B --> M6["6. Wedge theory<br/>Micro-segmento de entrada"]
+    B --> M7["7. White space mapping<br/>Ausências estruturais"]
 
-    M1 & M2 & M3 & M4 & M5 & M6 & M7 --> C[Lista bruta\n15–30 candidatas]
+    M1 & M2 & M3 & M4 & M5 & M6 & M7 --> C["Lista bruta<br/>15–30 candidatas"]
 
-    C --> F1{Filtro 1\nFMF — vantagem injusta?}
+    C --> F1{"Filtro 1<br/>FMF — vantagem injusta?"}
     F1 -->|Não| OUT1([Descartar])
-    F1 -->|Sim| F2{Filtro 2\nTiming — por que agora?}
+    F1 -->|Sim| F2{"Filtro 2<br/>Timing — por que agora?"}
     F2 -->|Não| OUT2([Descartar])
-    F2 -->|Sim| F3{Filtro 3\nDefensibilidade — moat?}
+    F2 -->|Sim| F3{"Filtro 3<br/>Defensibilidade — moat?"}
     F3 -->|Não| OUT3([Descartar])
-    F3 -->|Sim| F4{Filtro 4\nModelo de pagamento real?}
+    F3 -->|Sim| F4{"Filtro 4<br/>Modelo de pagamento real?"}
     F4 -->|Não| OUT4([Descartar])
-    F4 -->|Sim| FINAL[Lista Curta\n3–5 candidatas]
+    F4 -->|Sim| FINAL["Lista Curta<br/>3–5 candidatas"]
 
-    FINAL --> CHOOSE([Escolha 1 para levar à Fase 2\nGuarde as outras])
+    FINAL --> CHOOSE(["Escolha 1 para levar à Fase 2<br/>Guarde as outras"])
 ```
 
 #### 1. Expertise domain mining, começar pelo que você sabe
@@ -1257,22 +1257,22 @@ Sete passos em sequência.
 
 ```mermaid
 flowchart LR
-    A([Fase 2 — Articulação]) --> B[1. Bloqueio de tempo\n4h contínuas]
-    B --> C[2. Despejo de consciência\n30–60min sem filtro]
-    C --> D[3. Estruturar em 5 blocos\nDII v1]
+    A([Fase 2 — Articulação]) --> B["1. Bloqueio de tempo<br/>4h contínuas"]
+    B --> C["2. Despejo de consciência<br/>30–60min sem filtro"]
+    C --> D["3. Estruturar em 5 blocos<br/>DII v1"]
 
-    D --> B1[Problema\n3–5 frases\nsem mencionar solução]
-    D --> B2[Quem\ndescrição específica\nnão genérica]
-    D --> B3[Dor atual\ncomo resolvem hoje]
-    D --> B4[Solução imaginada\ncapacidades, não features]
-    D --> B5[Razão de acreditar\n3–5 hipóteses]
+    D --> B1["Problema<br/>3–5 frases<br/>sem mencionar solução"]
+    D --> B2["Quem<br/>descrição específica<br/>não genérica"]
+    D --> B3["Dor atual<br/>como resolvem hoje"]
+    D --> B4["Solução imaginada<br/>capacidades, não features"]
+    D --> B5["Razão de acreditar<br/>3–5 hipóteses"]
 
-    B1 & B2 & B3 & B4 & B5 --> E[4. Listar incertezas\n10–20 coisas que não sei]
-    E --> F[5. Condensar em 1 página\n400–600 palavras]
-    F --> G[6. Teste verbal\n3–5 pessoas fora do círculo]
-    G --> H{Conseguem\nrepetir?}
+    B1 & B2 & B3 & B4 & B5 --> E["4. Listar incertezas<br/>10–20 coisas que não sei"]
+    E --> F["5. Condensar em 1 página<br/>400–600 palavras"]
+    F --> G["6. Teste verbal<br/>3–5 pessoas fora do círculo"]
+    G --> H{"Conseguem<br/>repetir?"}
     H -->|Não| F
-    H -->|Sim| I([DII v1 pronta\n→ Fase 3])
+    H -->|Sim| I(["DII v1 pronta<br/>→ Fase 3"])
 ```
 
 O primeiro é bloqueio de tempo. Quatro horas contínuas, ou duas sessões de duas horas (que é melhor que quatro de uma). Tire notificações. Sem celular. Caderno em branco ou documento novo.
@@ -4102,29 +4102,29 @@ Oito passos.
 
 ```mermaid
 flowchart LR
-    subgraph DIV["Fase de Divergência\n(passos 1–2)"]
-        D1[Crazy 8s\n8 ideias em 8 minutos]
-        D2[How Might We\nReformular JTBDs]
-        D3[Analogias\nOutros setores]
-        D1 & D2 & D3 --> POOL[Pool de ideias\n20–40 candidatas]
+    subgraph DIV["Fase de Divergência<br/>(passos 1–2)"]
+        D1["Crazy 8s<br/>8 ideias em 8 minutos"]
+        D2["How Might We<br/>Reformular JTBDs"]
+        D3["Analogias<br/>Outros setores"]
+        D1 & D2 & D3 --> POOL["Pool de ideias<br/>20–40 candidatas"]
     end
 
-    subgraph CONV["Fase de Convergência\n(passos 3–4)"]
-        POOL --> VOTE[Priorizar\nimpacto vs esforço]
-        VOTE --> SELECT[Selecionar 1–3\npara prototipar]
+    subgraph CONV["Fase de Convergência<br/>(passos 3–4)"]
+        POOL --> VOTE["Priorizar<br/>impacto vs esforço"]
+        VOTE --> SELECT["Selecionar 1–3<br/>para prototipar"]
     end
 
-    subgraph PROTO["Prototipagem\n(passos 5–6)"]
-        SELECT --> FID{Fidelidade\nnecessária?}
-        FID -->|Concept test| PAPER[Protótipo em papel\nHoras]
-        FID -->|Fluxo e UX| CLICK[Protótipo clicável\nFigma, dias]
-        FID -->|Serviço complexo| BLUEPRINT[Service blueprint\nDias]
+    subgraph PROTO["Prototipagem<br/>(passos 5–6)"]
+        SELECT --> FID{"Fidelidade<br/>necessária?"}
+        FID -->|Concept test| PAPER["Protótipo em papel<br/>Horas"]
+        FID -->|Fluxo e UX| CLICK["Protótipo clicável<br/>Figma, dias"]
+        FID -->|Serviço complexo| BLUEPRINT["Service blueprint<br/>Dias"]
     end
 
-    subgraph TEST["Teste\n(passos 7–8)"]
-        PAPER & CLICK & BLUEPRINT --> USER[5+ usuários\ntestam]
-        USER --> INSIGHT[Capturar aprendizados\ne iterar]
-        INSIGHT -->|Hipótese validada| NEXT([→ Fase 9\nTestes de solução])
+    subgraph TEST["Teste<br/>(passos 7–8)"]
+        PAPER & CLICK & BLUEPRINT --> USER["5+ usuários<br/>testam"]
+        USER --> INSIGHT["Capturar aprendizados<br/>e iterar"]
+        INSIGHT -->|Hipótese validada| NEXT(["→ Fase 9<br/>Testes de solução"])
         INSIGHT -->|Hipótese refutada| DIV
     end
 ```
@@ -5899,29 +5899,29 @@ A trajetória real é PSF, depois PMF, depois Escala. Cada flecha é uma travess
 
 ```mermaid
 flowchart LR
-    subgraph PSF["Problem-Solution Fit\n(Fases 10–11)"]
+    subgraph PSF["Problem-Solution Fit<br/>(Fases 10–11)"]
         direction TB
         P1[5–50 early evangelists]
         P2[Produto imperfeito tolerado]
         P3[Pagam pelo valor, não pela UX]
     end
 
-    subgraph PMF["Product-Market Fit\n(Fase 12)"]
+    subgraph PMF["Product-Market Fit<br/>(Fase 12)"]
         direction TB
         M1[Centenas a milhares]
         M2[Retenção que estabiliza]
         M3[Crescimento orgânico ≥30%]
     end
 
-    subgraph SCALE["Escala\n(Fase 14)"]
+    subgraph SCALE["Escala<br/>(Fase 14)"]
         direction TB
         S1[Motor de crescimento]
         S2[NRR ≥110%]
         S3[Rule of 40 positivo]
     end
 
-    PSF -->|"Evidência: 5+ clientes\npagando e retornando\nsem você empurrar"| PMF
-    PMF -->|"Evidência: coorte\nestabiliza + NPS ≥40\n+ orgânico funciona"| SCALE
+    PSF -->|"Evidência: 5+ clientes<br/>pagando e retornando<br/>sem você empurrar"| PMF
+    PMF -->|"Evidência: coorte<br/>estabiliza + NPS ≥40<br/>+ orgânico funciona"| SCALE
 ```
 
 A curva de retenção é o sinal mais honesto. Produto sem PMF tem curva que decai para zero — cada nova coorte de usuários vai embora. Produto com PMF tem curva que estabiliza num patamar acima de zero, mesmo que seja 15% ou 20%. Isso significa que uma fração dos usuários encontrou valor real e fica.
@@ -7518,10 +7518,10 @@ Antes de otimizar qualquer peça específica (vendas, marketing, retenção), en
 ```mermaid
 flowchart TD
     subgraph MOTOR["Motor de Crescimento"]
-        P[Pessoas\nQuem executa\nVendas, CS, Growth]
-        PR[Processos\nComo executam\nPlaybooks, cadências, handoffs]
-        E[Estratégia\nPara onde direcionam\nICP, canal, pricing]
-        D[Dados\nComo aprendem\nFunnel, coortes, experimentos]
+        P["Pessoas<br/>Quem executa<br/>Vendas, CS, Growth"]
+        PR["Processos<br/>Como executam<br/>Playbooks, cadências, handoffs"]
+        E["Estratégia<br/>Para onde direcionam<br/>ICP, canal, pricing"]
+        D["Dados<br/>Como aprendem<br/>Funnel, coortes, experimentos"]
 
         P <--> PR
         PR <--> E
@@ -7529,7 +7529,7 @@ flowchart TD
         D <--> P
     end
 
-    MOTOR --> OUT[Crescimento\ncomposto]
+    MOTOR --> OUT["Crescimento<br/>composto"]
 
     style MOTOR fill:#f9f9f9,stroke:#666
 ```
@@ -9281,32 +9281,32 @@ Se o seu caminho é PLG, alguns conceitos precisam virar fluentes.
 ```mermaid
 flowchart LR
     subgraph PLG["Product-Led Growth (PLG)"]
-        P1([Usuário experimenta\ngrátis]) --> P2[Atinge aha moment]
-        P2 --> P3[Convida colegas\nou compartilha]
+        P1(["Usuário experimenta<br/>grátis"]) --> P2[Atinge aha moment]
+        P2 --> P3["Convida colegas<br/>ou compartilha"]
         P3 --> P4[Novos usuários entram]
         P4 --> P2
-        P2 --> P5{PQL?\nLimite atingido?}
-        P5 -->|Sim| P6([Upgrade pago\nautomático])
+        P2 --> P5{"PQL?<br/>Limite atingido?"}
+        P5 -->|Sim| P6(["Upgrade pago<br/>automático"])
     end
 
     subgraph SLG["Sales-Led Growth (SLG)"]
-        S1([Lead gerado\nmarketing ou outbound]) --> S2[SDR qualifica]
+        S1(["Lead gerado<br/>marketing ou outbound"]) --> S2[SDR qualifica]
         S2 --> S3[AE apresenta demo]
         S3 --> S4[Proposta e negociação]
         S4 --> S5([Contrato fechado])
-        S5 --> S6[CS renova\ne expande]
+        S5 --> S6["CS renova<br/>e expande"]
         S6 --> S7([Upsell / referral])
     end
 
     subgraph CL["Community-Led Growth"]
-        C1([Conteúdo útil\npublicado]) --> C2[Comunidade engaja]
-        C2 --> C3[Membros geram\nnovo conteúdo]
-        C3 --> C4[Novos membros\nentram]
+        C1(["Conteúdo útil<br/>publicado"]) --> C2[Comunidade engaja]
+        C2 --> C3["Membros geram<br/>novo conteúdo"]
+        C3 --> C4["Novos membros<br/>entram"]
         C4 --> C2
-        C2 --> C5([Convertem em\nclientes])
+        C2 --> C5(["Convertem em<br/>clientes"])
     end
 
-    note[Modelos não são\nexcludentes: PLG +\nSales-assisted é\ncomum em scale-up]
+    note["Modelos não são<br/>excludentes: PLG +<br/>Sales-assisted é<br/>comum em scale-up"]
     style note fill:#f9f9f9,stroke:#999
 ```
 
@@ -21392,20 +21392,20 @@ xychart-beta
 
 ```mermaid
 flowchart LR
-    subgraph H1["Horizonte 1 — Core\n70% do investimento"]
-        A[Modelo atual\nOtimizar e defender]
+    subgraph H1["Horizonte 1 — Core<br/>70% do investimento"]
+        A["Modelo atual<br/>Otimizar e defender"]
     end
-    subgraph H2["Horizonte 2 — Adjacente\n20% do investimento"]
-        B[Pivot maduro\nNovo segmento ou canal]
+    subgraph H2["Horizonte 2 — Adjacente<br/>20% do investimento"]
+        B["Pivot maduro<br/>Novo segmento ou canal"]
     end
-    subgraph H3["Horizonte 3 — Moonshot\n10% do investimento"]
-        C[Aposta transformacional\nTecnologia ou modelo novo]
+    subgraph H3["Horizonte 3 — Moonshot<br/>10% do investimento"]
+        C["Aposta transformacional<br/>Tecnologia ou modelo novo"]
     end
 
-    H1 -->|"Gera caixa para\nfinanciar"| H2
-    H1 -->|"Financia pesquisa\nde longo prazo"| H3
-    H2 -->|"Se funcionar,\nvira H1 em 3–5 anos"| H1
-    H3 -->|"Se funcionar,\nvira H2 em 5–10 anos"| H2
+    H1 -->|"Gera caixa para<br/>financiar"| H2
+    H1 -->|"Financia pesquisa<br/>de longo prazo"| H3
+    H2 -->|"Se funcionar,<br/>vira H1 em 3–5 anos"| H1
+    H3 -->|"Se funcionar,<br/>vira H2 em 5–10 anos"| H2
 ```
 
 #### Antes de começar, esgotou os seis caminhos de expansão?
@@ -21713,21 +21713,21 @@ Seis passos.
 
 ```mermaid
 flowchart TD
-    START([Decisão de exit]) --> Q1{Empresa tem\nreceita ≥ R$10M ARR\ne crescendo?}
+    START([Decisão de exit]) --> Q1{"Empresa tem<br/>receita ≥ R$10M ARR<br/>e crescendo?"}
 
-    Q1 -->|Não| Q2{Time é excepcional\ne produto pode\nser descontinuado?}
-    Q2 -->|Sim| ACQUI[Acqui-hire\nValor: time\nR$500k–3M por eng sênior]
-    Q2 -->|Não| SHUT[Encerramento\nvoluntário com\ndignidade]
+    Q1 -->|Não| Q2{"Time é excepcional<br/>e produto pode<br/>ser descontinuado?"}
+    Q2 -->|Sim| ACQUI["Acqui-hire<br/>Valor: time<br/>R$500k–3M por eng sênior"]
+    Q2 -->|Não| SHUT["Encerramento<br/>voluntário com<br/>dignidade"]
 
-    Q1 -->|Sim| Q3{Busca liquidez\nparcial mantendo\na empresa?}
-    Q3 -->|Sim| SEC[Secondary sale\nVenda parcial de ações\nDesconto 10–30% vs primary]
+    Q1 -->|Sim| Q3{"Busca liquidez<br/>parcial mantendo<br/>a empresa?"}
+    Q3 -->|Sim| SEC["Secondary sale<br/>Venda parcial de ações<br/>Desconto 10–30% vs primary"]
 
-    Q3 -->|Não| Q4{Empresa é\nlíder ou tem\ndefensabilidade clara?}
-    Q4 -->|EBITDA positivo\ne estável| PE[M&A Financeiro\nPrivate Equity\n4–10x EBITDA]
-    Q4 -->|Crescimento alto\ne tech diferenciada| Q5{ARR ≥ R$500M\ne crescimento ≥40%?}
+    Q3 -->|Não| Q4{"Empresa é<br/>líder ou tem<br/>defensabilidade clara?"}
+    Q4 -->|EBITDA positivo<br/>e estável| PE["M&A Financeiro<br/>Private Equity<br/>4–10x EBITDA"]
+    Q4 -->|Crescimento alto<br/>e tech diferenciada| Q5{"ARR ≥ R$500M<br/>e crescimento ≥40%?"}
 
-    Q5 -->|Sim| IPO[IPO\nValuation máximo\nCusto R$30–100M]
-    Q5 -->|Não| STRATEGIC[M&A Estratégico\nComprador do setor\n5–15x ARR]
+    Q5 -->|Sim| IPO["IPO<br/>Valuation máximo<br/>Custo R$30–100M"]
+    Q5 -->|Não| STRATEGIC["M&A Estratégico<br/>Comprador do setor<br/>5–15x ARR"]
 ```
 
 > [!tip] Regra de ouro do exit
@@ -33732,14 +33732,14 @@ Fundador típico não tem linguagem para descrever seu próprio estado interno. 
 
 ```mermaid
 flowchart LR
-    A([Cansaço normal\nResolve com descanso]) -->|"Persiste\n>2 semanas"| B([Estresse elevado\nIrritação, insônia leve\nAlerta amarelo])
-    B -->|"Persiste\n>4 semanas\nsem melhora"| C([Esgotamento\nCinismo, baixo engajamento\nAlerta laranja])
-    C -->|"Persiste ou\npodernote"| D([Burnout clínico\nCondição médica\nAlerta vermelho — buscar ajuda])
+    A(["Cansaço normal<br/>Resolve com descanso"]) -->|"Persiste<br/>>2 semanas"| B(["Estresse elevado<br/>Irritação, insônia leve<br/>Alerta amarelo"])
+    B -->|"Persiste<br/>>4 semanas<br/>sem melhora"| C(["Esgotamento<br/>Cinismo, baixo engajamento<br/>Alerta laranja"])
+    C -->|"Persiste ou<br/>podernote"| D(["Burnout clínico<br/>Condição médica<br/>Alerta vermelho — buscar ajuda"])
 
-    A -.->|"Férias, sono,\nexercício"| A
-    B -.->|"Reduzir carga,\nconversar com par"| A
-    C -.->|"Terapeuta,\nmudança estrutural"| B
-    D -.->|"Psiquiatra +\nterapeuta + afastamento"| C
+    A -.->|"Férias, sono,<br/>exercício"| A
+    B -.->|"Reduzir carga,<br/>conversar com par"| A
+    C -.->|"Terapeuta,<br/>mudança estrutural"| B
+    D -.->|"Psiquiatra +<br/>terapeuta + afastamento"| C
 
     style A fill:#d4edda,stroke:#28a745
     style B fill:#fff3cd,stroke:#ffc107

@@ -111,40 +111,40 @@ Empreender no Brasil é difícil. O livro não disfarça isso. Mas é possível,
 ```mermaid
 flowchart TD
     subgraph P1["PARTE I — Da ideia à operação"]
-        F0[Fase 0\nPreparação do fundador]
-        F1[Fase 1\nEncontrar a ideia]
-        F2[Fase 2\nArticulação da ideia]
-        F2B[Fase 2B\nTeoria do negócio]
-        F3[Fase 3\nDescobrimento do problema]
-        F4[Fase 4\nPesquisa com usuários]
-        F5[Fase 5\nMapeamento de mercado]
-        F6[Fase 6\nFormulação de hipóteses]
-        F7[Fase 7\nExperimentos de validação]
-        F8[Fase 8\nIdeação e prototipagem]
-        F9[Fase 9\nTestes de solução]
+        F0["Fase 0<br/>Preparação do fundador"]
+        F1["Fase 1<br/>Encontrar a ideia"]
+        F2["Fase 2<br/>Articulação da ideia"]
+        F2B["Fase 2B<br/>Teoria do negócio"]
+        F3["Fase 3<br/>Descobrimento do problema"]
+        F4["Fase 4<br/>Pesquisa com usuários"]
+        F5["Fase 5<br/>Mapeamento de mercado"]
+        F6["Fase 6<br/>Formulação de hipóteses"]
+        F7["Fase 7<br/>Experimentos de validação"]
+        F8["Fase 8<br/>Ideação e prototipagem"]
+        F9["Fase 9<br/>Testes de solução"]
         F0 --> F1 --> F2 --> F2B --> F3 --> F4 --> F5 --> F6 --> F7 --> F8 --> F9
     end
 
     subgraph P2["PARTE II — Do PMF à escala"]
-        F10[Fase 10\nMVP e experimentos]
-        F11[Fase 11\nValidação do modelo]
-        F12[Fase 12\nProduct-Market Fit]
-        F13[Fase 13\nEstruturação]
-        F14[Fase 14\nEscala]
+        F10["Fase 10<br/>MVP e experimentos"]
+        F11["Fase 11<br/>Validação do modelo"]
+        F12["Fase 12<br/>Product-Market Fit"]
+        F13["Fase 13<br/>Estruturação"]
+        F14["Fase 14<br/>Escala"]
         F10 --> F11 --> F12 --> F13 --> F14
     end
 
     subgraph P4["PARTE IV — Ciclo longo e exit"]
-        F15[Fase 15\nReinvenção e 2ª curva]
-        F16[Fase 16\nExit strategy]
+        F15["Fase 15<br/>Reinvenção e 2ª curva"]
+        F16["Fase 16<br/>Exit strategy"]
         F15 --> F16
     end
 
-    P1 -->|"Saída: PSF\nClientes pagando"| P2
-    P2 -->|"Saída: PMF + motor\nvalidados"| P4
+    P1 -->|"Saída: PSF<br/>Clientes pagando"| P2
+    P2 -->|"Saída: PMF + motor<br/>validados"| P4
 
-    P2 -.->|"Pivô possível\nVoltar ao problema"| P1
-    P4 -.->|"Segunda empresa\nSegunda curva"| P1
+    P2 -.->|"Pivô possível<br/>Voltar ao problema"| P1
+    P4 -.->|"Segunda empresa<br/>Segunda curva"| P1
 ```
 
 > [!note] Como navegar o livro

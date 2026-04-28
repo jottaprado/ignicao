@@ -47,14 +47,14 @@ Fundador típico não tem linguagem para descrever seu próprio estado interno. 
 
 ```mermaid
 flowchart LR
-    A([Cansaço normal\nResolve com descanso]) -->|"Persiste\n>2 semanas"| B([Estresse elevado\nIrritação, insônia leve\nAlerta amarelo])
-    B -->|"Persiste\n>4 semanas\nsem melhora"| C([Esgotamento\nCinismo, baixo engajamento\nAlerta laranja])
-    C -->|"Persiste ou\npodernote"| D([Burnout clínico\nCondição médica\nAlerta vermelho — buscar ajuda])
+    A(["Cansaço normal<br/>Resolve com descanso"]) -->|"Persiste<br/>>2 semanas"| B(["Estresse elevado<br/>Irritação, insônia leve<br/>Alerta amarelo"])
+    B -->|"Persiste<br/>>4 semanas<br/>sem melhora"| C(["Esgotamento<br/>Cinismo, baixo engajamento<br/>Alerta laranja"])
+    C -->|"Persiste ou<br/>podernote"| D(["Burnout clínico<br/>Condição médica<br/>Alerta vermelho — buscar ajuda"])
 
-    A -.->|"Férias, sono,\nexercício"| A
-    B -.->|"Reduzir carga,\nconversar com par"| A
-    C -.->|"Terapeuta,\nmudança estrutural"| B
-    D -.->|"Psiquiatra +\nterapeuta + afastamento"| C
+    A -.->|"Férias, sono,<br/>exercício"| A
+    B -.->|"Reduzir carga,<br/>conversar com par"| A
+    C -.->|"Terapeuta,<br/>mudança estrutural"| B
+    D -.->|"Psiquiatra +<br/>terapeuta + afastamento"| C
 
     style A fill:#d4edda,stroke:#28a745
     style B fill:#fff3cd,stroke:#ffc107
