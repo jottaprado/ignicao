@@ -264,6 +264,13 @@ O entregável deste passo, para cada papel relevante no seu contexto, é uma per
 
 #### Passo 6, identifique o sub-ICP mais doloroso
 
+> [!note] ICP, sub-ICP e beachhead — três níveis de granularidade do mesmo conceito
+> **ICP** (Ideal Customer Profile): o perfil amplo de cliente potencial, definido na [[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]] (ex: "donos de restaurante de 1-3 unidades em capitais brasileiras com delivery próprio").
+> **Sub-ICP** ou **sub-segmento**: recorte mais estreito dentro do ICP onde a dor é mais aguda (ex: "donos que operam sozinhos, sem gerente"), identificado na Fase 3 como sinal e confirmado aqui na Fase 4.
+> **Beachhead**: o sub-ICP escolhido como **ponto de entrada no mercado** — a praia onde você desembarca. É o sub-ICP mais doloroso operacionalmente filtrado pelos quatro critérios deste passo (urgência, agudeza, recursos, alcançabilidade).
+>
+> A relação é: ICP ⊃ sub-ICP ⊃ beachhead. Beachhead é sempre um sub-ICP; nem todo sub-ICP vira beachhead. Os termos não são intercambiáveis: ICP define quem PODE ser cliente; beachhead define quem SERÁ o primeiro cliente.
+
 Entre as personas, qual delas tem o problema mais agudo, com mais urgência, mais recursos para pagar, e é mais fácil de alcançar? Essa é a sua *beachhead*. O ponto de entrada no mercado. Você deve focar nela nas fases seguintes.
 
 #### Passo 7, consolide o Dossiê do Usuário

@@ -117,7 +117,7 @@ Iterar com três a cinco advisors, antes de sair em roadshow. Cada iteração me
 
 #### 2.1 Construir lista longa
 
-Universo potencial. Trinta a oitenta fundos. Segmentar por estágio (seed, A, B, growth, PE), geografia (BR, LatAm, US, Global), tese (SaaS, fintech, marketplace, health, etc.), tamanho de cheque (Seed R$ 2 a R$ 10 milhões, A 10 a 30 milhões, B 30 a 100 milhões, C 100 a 300 milhões), e atividade recente (fundo que captou LP recentemente, versus fundo em fim de ciclo, sem dry powder).
+Universo potencial. Trinta a oitenta fundos. Segmentar por estágio (seed, A, B, growth, PE), geografia (BR, LatAm, US, Global), tese (SaaS, fintech, marketplace, health, etc.), tamanho de cheque (Seed R$ 2 a R$ 10 milhões, A 10 a 30 milhões, B 30 a 100 milhões, C 100 a 300 milhões), e atividade recente (fundo que captou LP recentemente, versus fundo em fim de ciclo, sem dry powder — *dry powder* é o capital comprometido por LPs ao fundo mas ainda não desembolsado em investimentos, ou seja, a "munição disponível"; fundo no fim do ciclo de investimento já desembolsou a maior parte e prioriza follow-ons no portfólio existente, não novos investimentos).
 
 Ferramentas. Crunchbase. Distrito (Brasil-focus). DealRoom. PitchBook (pago). Networking com founders em estágio similar. LinkedIn, para identificar partners ativos.
 

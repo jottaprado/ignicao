@@ -333,6 +333,9 @@ A diferença entre as duas falhas é o diagnóstico honesto dos seis caminhos da
 
 A reinvenção bem-feita é estrutural. Não cosmética. Magalu virando empresa tech levou uma década, não um trimestre. Microsoft virando subscription levou cinco anos com canibalização tolerada. Empresas que tratam [[#FASE 15 — REINVENÇÃO E SEGUNDA CURVA|Fase 15]] como "projeto de inovação" com prazo curto sempre falham. Empresas que tratam como nova curva, sustentada por liderança fundadora, capital de longo prazo, e ambidestria organizacional real, podem ter êxito.
 
+> [!note] Quando a "segunda curva" é uma empresa nova (fundador serial)
+> Há um caminho alternativo à reinvenção dentro da empresa atual: o fundador faz o exit (Fase 16) e relança em empresa nova. Esse caminho é tratado no [[#APÊNDICE BF — SECOND-TIME FOUNDER|Apêndice BF]], que cobre o que muda quando você empreende com track record (rede mais densa, investidores que voltam, padrões pessoais que ajudam ou prejudicam, decisão entre repetir setor ou pivotar de domínio). Se a sua segunda curva é "outra empresa", não "outro produto na mesma empresa", BF é a continuação natural depois do exit da Fase 16.
+
 #fase15 #reinvencao #segunda-curva #pivot #saturacao #innovators-dilemma #ambidestria #autodisrupcao #m-and-a #magalu
 
 ---

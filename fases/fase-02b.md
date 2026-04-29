@@ -55,7 +55,7 @@ Terceiro, permite considerar alternativas. Teoria explícita torna visível o fa
 Sem teoria explícita, o seu plano de negócios é uma opinião disfarçada. Com teoria explícita, é um objeto de estudo.
 
 ### Quando usar
-Comece imediatamente depois da validação da Declaração Inicial da Ideia (v1), antes de qualquer entrevista de campo. Termine quando você tem ao menos uma árvore de teoria completa, com oito a quinze atributos, no mínimo três relações causais principais, e alternativas mapeadas. Revisite ao final de cada ciclo de experimentos (Fases 6, 9, 10, 11). A teoria deve evoluir conforme a evidência chega.
+Comece imediatamente depois de **completar** a Declaração Inicial da Ideia (v1), antes de qualquer entrevista de campo. "Completar" aqui significa cumprir os **oito critérios de saída da [[#FASE 2 — ARTICULAÇÃO E CAPTURA DA IDEIA|Fase 2]]** (DII com 7 campos preenchidos, "para quem" verificável com 20 nomes reais, listas de incertezas e suposições-chave, 3-4 ouvintes externos repetindo com precisão) — não significa "validada com cliente", o que só virá da Fase 3 em diante. A Fase 2 entrega articulação clara; esta Fase 2B converte essa articulação em teoria causal testável; a Fase 3 começa a testar com clientes reais. Termine quando você tem ao menos uma árvore de teoria completa, com oito a quinze atributos, no mínimo três relações causais principais, e alternativas mapeadas. Revisite ao final de cada ciclo de experimentos (Fases 6, 9, 10, 11). A teoria deve evoluir conforme a evidência chega.
 
 ### Quem envolve
 O executor principal é você. Esse é trabalho cognitivo intransferível. Se há cofundador, os dois fazem juntos. Cada um faz a sua versão primeiro, depois consolidam.

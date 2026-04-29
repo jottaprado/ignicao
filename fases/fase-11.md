@@ -463,6 +463,14 @@ O que vem na [[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]]. Product-Market Fit. On
 
 > [!warning] Critério para avançar
 > Unit economics positivos em pelo menos um canal. Margem bruta acima do mínimo do setor. Plano claro de redução de CAC ou aumento de LTV. Default Alive (ou Default Dead com plano de noventa dias). Se não tem isso, fique na Fase 11, ajuste.
+>
+> **Thresholds operacionais (benchmarks SaaS B2B; ajuste por modelo):**
+> - **LTV/CAC ≥ 3x** em pelo menos um canal validado.
+> - **CAC payback ≤ 12 meses** (até 18 meses tolerável em enterprise; acima disso exige capital pesado).
+> - **Churn mensal ≤ 5%** (B2C) ou **≤ 2%** (B2B SaaS); margem bruta ≥ 70% para SaaS, ≥ 50% para serviços, ≥ 30% para físico/marketplace.
+> - **Default Alive**: receita atual + crescimento projetado cobre custos antes do runway acabar, sem nova captação.
+>
+> Se algum desses está fora da faixa em todos os canais testados, o gate da Fase 12 fica fechado — e fechar gate aqui é mais barato que fechar lá.
 
 > [!important] Fase 11 e Fase 12 medem dimensões independentes
 > Fase 11 valida **modelo viável** (LTV/CAC saudável, payback aceitável, default alive). Fase 12 valida **produto amado pelo mercado** (Sean Ellis ≥40%, retenção estabilizada, crescimento orgânico). São dimensões ortogonais, não etapas sequenciais. Quatro cenários possíveis no fim da Fase 11:

@@ -42,13 +42,15 @@ Risco em M&A. Due diligence de adquirente identifica passivo de privacidade, com
 
 ### Quando usar
 
-Base mínima (contratos, política de privacidade, e termos de uso). [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]]. Sem exceção.
+Quatro níveis de implementação, em escada crescente de maturidade. **A base mínima é obrigatória para todos** a partir da Fase 13; os níveis 2-4 são acionados por gatilhos específicos (escala de dados pessoais, setor regulado, exigência comercial), não pela passagem de fase em si.
 
-DPO formal, e processos operacionais. [[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]] (pós-PMF), ou [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Time, e Liderança). Conforme escala de dados pessoais.
+**Nível 1 — Base mínima** (contratos, política de privacidade, termos de uso). Implementar ainda na [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]], sem exceção, junto com a constituição da empresa. Custo baixo, risco regulatório alto se faltar. **Essa é a única camada obrigatória pela passagem da Fase 13.**
 
-Programa estruturado (auditorias, RIPDs, e governança). [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Operações) em diante. Ou antes, se for B2B enterprise, financeiro, ou saúde.
+**Nível 2 — DPO formal e processos operacionais.** Acionado por **volume relevante de dados pessoais** (tipicamente a partir da [[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]] em B2C, ou da [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] em B2B). Não é exigência de fase — é exigência de operação. Empresa com 10 mil usuários precisa; com 100 não.
 
-Certificações adicionais (ISO 27001, e SOC 2). [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Operações, da escala inicial à Série C). Guiadas por demanda comercial.
+**Nível 3 — Programa estruturado** (auditorias, RIPDs, governança). Acionado pela [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] em escala média ou pelo setor (B2B enterprise, financeiro, healthtech) — antes da escala se o setor exige. SaaS B2B vendendo para grandes corporativos precisa do nível 3 mesmo em Série Seed, porque o cliente vai exigir no contrato.
+
+**Nível 4 — Certificações** (ISO 27001, SOC 2). **Sempre guiado por demanda comercial específica**, não por estágio. Implementar quando o primeiro cliente exigir e o ROI justificar — tipicamente na [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (escala inicial até Série C).
 
 ### Quem envolve
 

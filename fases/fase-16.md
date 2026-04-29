@@ -271,7 +271,7 @@ Reconstrução do plano de exit que a RD Station, pioneira brasileira de marketi
 
 Venda com um único interessado. Nunca negocie exit sem pelo menos dois ou três compradores em paralelo. Competição vale vinte a cinquenta por cento do preço final.
 
-Aceitar earnouts sem cuidado. Earnouts de trinta por cento ou mais frequentemente não são pagos. Prefira cash no closing, quando possível.
+Aceitar earnouts sem cuidado. Earnouts de trinta por cento ou mais frequentemente não são pagos. Prefira cash no closing, quando possível. Se earnout alto for inevitável (cenário comum em compra estratégica de empresa que ainda depende do fundador para integração), o [[#APÊNDICE BR — SUCESSÃO NO EXIT E TRANSIÇÃO PÓS-AQUISIÇÃO|Apêndice BR]] cobre como estruturá-lo com proteções: metas controláveis pelo time vendedor, definições objetivas (não "esforços razoáveis"), cap em decisões pós-closing do comprador que possam afetar metas, e cláusulas de aceleração se o comprador atrapalha a operação que sustenta o earnout. Earnout de trinta por cento ou mais sem essas proteções = "promessa que provavelmente não será paga".
 
 Ignorar lock-up. Três anos de lock-up em empresa que você vendeu pode ser pior do que não vender. Avalie.
 

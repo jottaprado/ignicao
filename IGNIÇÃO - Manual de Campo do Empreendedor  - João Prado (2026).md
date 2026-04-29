@@ -867,7 +867,7 @@ A formalização jurídica e a divisão de equity têm tratamento detalhado na [
 
 ### FERRAMENTAS DESTA FASE
 
-Esta fase é sobre preparação do empreendedor como pessoa. As ferramentas aqui ajudam a tomar a decisão fundamental. Empreender ou não. Quando. Em quê. Detalhamento completo de cada ferramenta no [[#APÊNDICE BG — FERRAMENTÁRIO COMPLETO DO EMPREENDEDOR|Apêndice BG]].
+Esta fase é sobre preparação do empreendedor como pessoa. As ferramentas aqui ajudam a tomar a decisão fundamental. Empreender ou não. Quando. Em quê. Detalhamento completo de cada ferramenta no [[#APÊNDICE BG — FERRAMENTÁRIO COMPLETO DO EMPREENDEDOR|Apêndice BG]] (catálogo de cento e quarenta e uma ferramentas em dezenove categorias — não é leitura linear, é referência consultiva: quando o livro citar "ver BG.X.Y", abra direto no item, leia em três a cinco minutos e volte para a fase).
 
 Hedgehog Concept (Jim Collins, *Good to Great*, 2001). Framework para encontrar a interseção de três círculos. No que você pode ser o melhor do mundo. O que impulsiona a sua máquina econômica. O que você ama profundamente. Use para escolher o seu foco empreendedor. Fundador sem hedgehog claro tende a dispersar em múltiplas ideias. Ver BG.3.4.
 
@@ -1512,7 +1512,7 @@ Terceiro, permite considerar alternativas. Teoria explícita torna visível o fa
 Sem teoria explícita, o seu plano de negócios é uma opinião disfarçada. Com teoria explícita, é um objeto de estudo.
 
 ### Quando usar
-Comece imediatamente depois da validação da Declaração Inicial da Ideia (v1), antes de qualquer entrevista de campo. Termine quando você tem ao menos uma árvore de teoria completa, com oito a quinze atributos, no mínimo três relações causais principais, e alternativas mapeadas. Revisite ao final de cada ciclo de experimentos (Fases 6, 9, 10, 11). A teoria deve evoluir conforme a evidência chega.
+Comece imediatamente depois de **completar** a Declaração Inicial da Ideia (v1), antes de qualquer entrevista de campo. "Completar" aqui significa cumprir os **oito critérios de saída da [[#FASE 2 — ARTICULAÇÃO E CAPTURA DA IDEIA|Fase 2]]** (DII com 7 campos preenchidos, "para quem" verificável com 20 nomes reais, listas de incertezas e suposições-chave, 3-4 ouvintes externos repetindo com precisão) — não significa "validada com cliente", o que só virá da Fase 3 em diante. A Fase 2 entrega articulação clara; esta Fase 2B converte essa articulação em teoria causal testável; a Fase 3 começa a testar com clientes reais. Termine quando você tem ao menos uma árvore de teoria completa, com oito a quinze atributos, no mínimo três relações causais principais, e alternativas mapeadas. Revisite ao final de cada ciclo de experimentos (Fases 6, 9, 10, 11). A teoria deve evoluir conforme a evidência chega.
 
 ### Quem envolve
 O executor principal é você. Esse é trabalho cognitivo intransferível. Se há cofundador, os dois fazem juntos. Cada um faz a sua versão primeiro, depois consolidam.
@@ -2528,6 +2528,13 @@ Terceiro, identifique quais papéis colapsam e quais permanecem distintos no seu
 O entregável deste passo, para cada papel relevante no seu contexto, é uma persona caracterizada com os mesmos elementos do Passo 5. Motivações, frustrações, comportamentos, JTBDs, citação verbatim. Em B2B típico, três personas. Em B2C típico, uma. Em casos especiais de B2C, duas.
 
 #### Passo 6, identifique o sub-ICP mais doloroso
+
+> [!note] ICP, sub-ICP e beachhead — três níveis de granularidade do mesmo conceito
+> **ICP** (Ideal Customer Profile): o perfil amplo de cliente potencial, definido na [[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]] (ex: "donos de restaurante de 1-3 unidades em capitais brasileiras com delivery próprio").
+> **Sub-ICP** ou **sub-segmento**: recorte mais estreito dentro do ICP onde a dor é mais aguda (ex: "donos que operam sozinhos, sem gerente"), identificado na Fase 3 como sinal e confirmado aqui na Fase 4.
+> **Beachhead**: o sub-ICP escolhido como **ponto de entrada no mercado** — a praia onde você desembarca. É o sub-ICP mais doloroso operacionalmente filtrado pelos quatro critérios deste passo (urgência, agudeza, recursos, alcançabilidade).
+>
+> A relação é: ICP ⊃ sub-ICP ⊃ beachhead. Beachhead é sempre um sub-ICP; nem todo sub-ICP vira beachhead. Os termos não são intercambiáveis: ICP define quem PODE ser cliente; beachhead define quem SERÁ o primeiro cliente.
 
 Entre as personas, qual delas tem o problema mais agudo, com mais urgência, mais recursos para pagar, e é mais fácil de alcançar? Essa é a sua *beachhead*. O ponto de entrada no mercado. Você deve focar nela nas fases seguintes.
 
@@ -5839,6 +5846,22 @@ O que vem na [[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]]. Product-Market Fit. On
 
 > [!warning] Critério para avançar
 > Unit economics positivos em pelo menos um canal. Margem bruta acima do mínimo do setor. Plano claro de redução de CAC ou aumento de LTV. Default Alive (ou Default Dead com plano de noventa dias). Se não tem isso, fique na Fase 11, ajuste.
+>
+> **Thresholds operacionais (benchmarks SaaS B2B; ajuste por modelo):**
+> - **LTV/CAC ≥ 3x** em pelo menos um canal validado.
+> - **CAC payback ≤ 12 meses** (até 18 meses tolerável em enterprise; acima disso exige capital pesado).
+> - **Churn mensal ≤ 5%** (B2C) ou **≤ 2%** (B2B SaaS); margem bruta ≥ 70% para SaaS, ≥ 50% para serviços, ≥ 30% para físico/marketplace.
+> - **Default Alive**: receita atual + crescimento projetado cobre custos antes do runway acabar, sem nova captação.
+>
+> Se algum desses está fora da faixa em todos os canais testados, o gate da Fase 12 fica fechado — e fechar gate aqui é mais barato que fechar lá.
+>
+> **Thresholds operacionais (benchmarks SaaS B2B; ajuste por modelo):**
+> - **LTV/CAC ≥ 3x** em pelo menos um canal validado.
+> - **CAC payback ≤ 12 meses** (até 18 meses tolerável em enterprise; acima disso exige capital pesado).
+> - **Churn mensal ≤ 5%** (B2C) ou **≤ 2%** (B2B SaaS); margem bruta ≥ 70% para SaaS, ≥ 50% para serviços, ≥ 30% para físico/marketplace.
+> - **Default Alive**: receita atual + crescimento projetado cobre custos antes do runway acabar, sem nova captação.
+>
+> Se algum desses está fora da faixa em todos os canais testados, o gate da Fase 12 fica fechado — e fechar gate aqui é mais barato que fechar lá.
 
 > [!important] Fase 11 e Fase 12 medem dimensões independentes
 > Fase 11 valida **modelo viável** (LTV/CAC saudável, payback aceitável, default alive). Fase 12 valida **produto amado pelo mercado** (Sean Ellis ≥40%, retenção estabilizada, crescimento orgânico). São dimensões ortogonais, não etapas sequenciais. Quatro cenários possíveis no fim da Fase 11:
@@ -13557,7 +13580,7 @@ Iterar com três a cinco advisors, antes de sair em roadshow. Cada iteração me
 
 #### 2.1 Construir lista longa
 
-Universo potencial. Trinta a oitenta fundos. Segmentar por estágio (seed, A, B, growth, PE), geografia (BR, LatAm, US, Global), tese (SaaS, fintech, marketplace, health, etc.), tamanho de cheque (Seed R$ 2 a R$ 10 milhões, A 10 a 30 milhões, B 30 a 100 milhões, C 100 a 300 milhões), e atividade recente (fundo que captou LP recentemente, versus fundo em fim de ciclo, sem dry powder).
+Universo potencial. Trinta a oitenta fundos. Segmentar por estágio (seed, A, B, growth, PE), geografia (BR, LatAm, US, Global), tese (SaaS, fintech, marketplace, health, etc.), tamanho de cheque (Seed R$ 2 a R$ 10 milhões, A 10 a 30 milhões, B 30 a 100 milhões, C 100 a 300 milhões), e atividade recente (fundo que captou LP recentemente, versus fundo em fim de ciclo, sem dry powder — *dry powder* é o capital comprometido por LPs ao fundo mas ainda não desembolsado em investimentos, ou seja, a "munição disponível"; fundo no fim do ciclo de investimento já desembolsou a maior parte e prioriza follow-ons no portfólio existente, não novos investimentos).
 
 Ferramentas. Crunchbase. Distrito (Brasil-focus). DealRoom. PitchBook (pago). Networking com founders em estágio similar. LinkedIn, para identificar partners ativos.
 
@@ -15484,13 +15507,15 @@ Risco em M&A. Due diligence de adquirente identifica passivo de privacidade, com
 
 ### Quando usar
 
-Base mínima (contratos, política de privacidade, e termos de uso). [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]]. Sem exceção.
+Quatro níveis de implementação, em escada crescente de maturidade. **A base mínima é obrigatória para todos** a partir da Fase 13; os níveis 2-4 são acionados por gatilhos específicos (escala de dados pessoais, setor regulado, exigência comercial), não pela passagem de fase em si.
 
-DPO formal, e processos operacionais. [[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]] (pós-PMF), ou [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Time, e Liderança). Conforme escala de dados pessoais.
+**Nível 1 — Base mínima** (contratos, política de privacidade, termos de uso). Implementar ainda na [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]], sem exceção, junto com a constituição da empresa. Custo baixo, risco regulatório alto se faltar. **Essa é a única camada obrigatória pela passagem da Fase 13.**
 
-Programa estruturado (auditorias, RIPDs, e governança). [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Operações) em diante. Ou antes, se for B2B enterprise, financeiro, ou saúde.
+**Nível 2 — DPO formal e processos operacionais.** Acionado por **volume relevante de dados pessoais** (tipicamente a partir da [[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]] em B2C, ou da [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] em B2B). Não é exigência de fase — é exigência de operação. Empresa com 10 mil usuários precisa; com 100 não.
 
-Certificações adicionais (ISO 27001, e SOC 2). [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Operações, da escala inicial à Série C). Guiadas por demanda comercial.
+**Nível 3 — Programa estruturado** (auditorias, RIPDs, governança). Acionado pela [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] em escala média ou pelo setor (B2B enterprise, financeiro, healthtech) — antes da escala se o setor exige. SaaS B2B vendendo para grandes corporativos precisa do nível 3 mesmo em Série Seed, porque o cliente vai exigir no contrato.
+
+**Nível 4 — Certificações** (ISO 27001, SOC 2). **Sempre guiado por demanda comercial específica**, não por estágio. Implementar quando o primeiro cliente exigir e o ROI justificar — tipicamente na [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (escala inicial até Série C).
 
 ### Quem envolve
 
@@ -21729,6 +21754,9 @@ A diferença entre as duas falhas é o diagnóstico honesto dos seis caminhos da
 
 A reinvenção bem-feita é estrutural. Não cosmética. Magalu virando empresa tech levou uma década, não um trimestre. Microsoft virando subscription levou cinco anos com canibalização tolerada. Empresas que tratam [[#FASE 15 — REINVENÇÃO E SEGUNDA CURVA|Fase 15]] como "projeto de inovação" com prazo curto sempre falham. Empresas que tratam como nova curva, sustentada por liderança fundadora, capital de longo prazo, e ambidestria organizacional real, podem ter êxito.
 
+> [!note] Quando a "segunda curva" é uma empresa nova (fundador serial)
+> Há um caminho alternativo à reinvenção dentro da empresa atual: o fundador faz o exit (Fase 16) e relança em empresa nova. Esse caminho é tratado no [[#APÊNDICE BF — SECOND-TIME FOUNDER|Apêndice BF]], que cobre o que muda quando você empreende com track record (rede mais densa, investidores que voltam, padrões pessoais que ajudam ou prejudicam, decisão entre repetir setor ou pivotar de domínio). Se a sua segunda curva é "outra empresa", não "outro produto na mesma empresa", BF é a continuação natural depois do exit da Fase 16.
+
 #fase15 #reinvencao #segunda-curva #pivot #saturacao #innovators-dilemma #ambidestria #autodisrupcao #m-and-a #magalu
 
 ---
@@ -22001,7 +22029,7 @@ Reconstrução do plano de exit que a RD Station, pioneira brasileira de marketi
 
 Venda com um único interessado. Nunca negocie exit sem pelo menos dois ou três compradores em paralelo. Competição vale vinte a cinquenta por cento do preço final.
 
-Aceitar earnouts sem cuidado. Earnouts de trinta por cento ou mais frequentemente não são pagos. Prefira cash no closing, quando possível.
+Aceitar earnouts sem cuidado. Earnouts de trinta por cento ou mais frequentemente não são pagos. Prefira cash no closing, quando possível. Se earnout alto for inevitável (cenário comum em compra estratégica de empresa que ainda depende do fundador para integração), o [[#APÊNDICE BR — SUCESSÃO NO EXIT E TRANSIÇÃO PÓS-AQUISIÇÃO|Apêndice BR]] cobre como estruturá-lo com proteções: metas controláveis pelo time vendedor, definições objetivas (não "esforços razoáveis"), cap em decisões pós-closing do comprador que possam afetar metas, e cláusulas de aceleração se o comprador atrapalha a operação que sustenta o earnout. Earnout de trinta por cento ou mais sem essas proteções = "promessa que provavelmente não será paga".
 
 Ignorar lock-up. Três anos de lock-up em empresa que você vendeu pode ser pior do que não vender. Avalie.
 
