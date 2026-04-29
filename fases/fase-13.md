@@ -6,17 +6,21 @@ part: parte-ii
 ## FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL
 
 ### O que esse apêndice cobre
+
 Consolidação das bases formais e operacionais do negócio. Aqui você transforma a operação de "projeto informal" em "empresa estruturada" nos aspectos jurídico, contábil, tributário, trabalhista, e operacional.
 
 O entregável é a empresa estruturada. CNPJ ativo. Regime tributário adequado. Contratos formais. Processos documentados. Compliance básico. Registros contábeis em dia.
 
 ### POR QUE
+
 Muitos empreendedores postergam formalização. Acham que é burocracia. Na verdade, a falta de formalização gera riscos concretos. Autuações fiscais. Impossibilidade de emitir notas. Quebra de contratos por falta de amparo jurídico. Perda de funcionários por informalidade. Inviabilidade de captar investimento. Bloqueio de contas bancárias. A estruturação tarda. Mas sempre tem que acontecer. E quanto antes, melhor.
 
 ### Quando usar
+
 Comece quando houver clientes pagantes, e receita relevante. Alguns aspectos (CNPJ) podem vir antes, se o modelo exigir emissão de notas. Termine quando os itens críticos dessa fase estão concluídos. Revisite anualmente, e a cada marco (novos sócios, captação, expansão).
 
 ### Quem envolve
+
 O executor é você. Os participantes são o contador (obrigatório), o advogado (altamente recomendado), e os sócios. O decisor é você.
 
 ### Como executar
@@ -134,6 +138,7 @@ Seguro de erros e omissões (E&O), se oferece serviço profissional. Cobre falha
 Seguro de vida para sócios-chave (key person). Em sociedades pequenas, a perda repentina de um sócio operacional pode quebrar o negócio. O seguro mitiga esse risco para os sócios remanescentes.
 
 ### PERGUNTAS A RESPONDER
+
 - Qual é a estrutura societária adequada?
 - Qual regime tributário minimiza carga, e atende requisitos?
 - A marca e o domínio estão protegidos?
@@ -276,6 +281,6 @@ A diferença entre quem faz certo, e quem falha, está em tratar formalização 
 
 O entregável é a empresa estruturada. CNPJ ativo. Regime tributário adequado. Contratos formais. Processos documentados. Compliance básico. Registros contábeis em dia. Esse trabalho parece administrativo, mas é estratégico. Sem ele, as Fases 14 (Escala) e 16 (Exit) ficam impossibilitadas. Quem chega à Série A com cap table embaralhada perde capital próprio em ajustes de última hora. Quem chega ao Exit sem governança madura recebe valuation menor por desconto de risco. Estruturação é o trabalho silencioso que paga em todos os marcos seguintes.
 
-#fase13 #estruturacao #ltda #cap-table #vesting #lgpd #regime-tributario #acordo-de-socios #compliance #contabilidade
+# fase13 #estruturacao #ltda #cap-table #vesting #lgpd #regime-tributario #acordo-de-socios #compliance #contabilidade
 
 ---

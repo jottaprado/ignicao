@@ -63,6 +63,7 @@ flowchart LR
 ```
 
 **Check-in semanal (5 minutos, dominga a noite):**
+
 - Energia física (0-10): _____
 - Clareza mental (0-10): _____
 - Conexão emocional com a empresa (0-10): _____
@@ -73,6 +74,7 @@ flowchart LR
 Abaixo de 5 em ≥ 2 categorias por 2 semanas consecutivas = alerta amarelo. Abaixo de 4 em ≥ 3 categorias = alerta vermelho. Ação: conversa com terapeuta ou peer.
 
 **Red flags específicas de burnout (diferentes de cansaço normal):**
+
 - Cinismo crônico sobre trabalho (não ocasional).
 - Despersonalização: "eu sinto isso" vira "se sente isso".
 - Sensação de ineficácia apesar de esforço intenso.
@@ -168,6 +170,7 @@ Parceiros, filhos, amigos, pais. Frequentemente tratados como "custo" pelo funda
 **Reformulação:** parceiros, filhos, amigos, pais são **infraestrutura da vida pessoal** e **refúgio operacional**: não competidores pelo tempo.
 
 **Práticas concretas:**
+
 - Calendário inclui explicitamente tempo com parceiro(a), filhos, pais. Se não está no calendário, não acontece.
 - Zero celular em refeições familiares (zero mesmo, não "rápido de checar").
 - Explicar à família, uma vez por ano minimamente, o estado da empresa e da sua energia. Família que entende é família que suporta.
@@ -219,11 +222,13 @@ O [[#APÊNDICE Y — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUN
 **O que acontece**: investidor que você considerava certo declina a rodada. Pode ser seed, pode ser Série A. Fundador interpreta como validação negativa do negócio inteiro.
 
 **Dinâmica psicológica**:
+
 - Choque inicial → raiva → dúvida profunda → rumination por dias.
 - Questionamento de "será que é só comigo?" ou "a ideia não presta?"
 - Impulso de re-pitch imediatamente em busca de validação.
 
 **Guidance prático**:
+
 1. **Não responder nas primeiras 24h**. Email de "obrigado pelo retorno" pode esperar. Reação a quente vira queixa ou desespero.
 2. **Separar sinal de ruído**: investidor recusa por 1.000 razões (tese do fundo não se encaixa, timing do portfolio, etc.), só uma delas é "ideia é ruim". Maioria não é.
 3. **Pedir feedback específico** em 48h: "O que precisaria ser verdade para você investir?" Respostas são aprendizado, ausência de resposta é sinal também (investidor que não respeita o suficiente para responder).
@@ -239,12 +244,14 @@ O [[#APÊNDICE Y — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUN
 **O que acontece**: fundador demite primeiro funcionário. Pode ser por performance, por fit, por redução. Fundador frequentemente carrega culpa como se tivesse "fracassado com essa pessoa".
 
 **Dinâmica psicológica**:
+
 - Ansiedade antecipatória por dias antes.
 - Durante: desconforto físico, palavras que falham, racionalização excessiva.
 - Depois: alívio misturado com culpa. Ruminação por semanas.
 - Frequentemente o primeiro teste de liderança real.
 
 **Guidance prático**:
+
 1. **Fazer rápido uma vez decidido**. Demora cruel para ambas as partes.
 2. **Preparar a conversa**: 3-5 sentenças escritas de abertura. Razão clara, não justificativa elaborada.
 3. **Sexta-feira ou segunda-feira?** Debate comum. Segunda-feira dá à pessoa semana inteira para começar a processar e buscar próximos passos, sexta dá fim de semana para respirar. Minha leitura: segunda é melhor para a pessoa, sexta é mais confortável para quem demite (o que é sinal de evitar).
@@ -259,12 +266,14 @@ O [[#APÊNDICE Y — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUN
 **O que acontece**: cliente-âncora (10-30% da receita) cancela. Pode ser por motivo seu (produto falha), deles (empresa fechando, mudança de direção), ou estrutural (adquirida por concorrente).
 
 **Dinâmica psicológica**:
+
 - Cortisol alto, caixa impactado imediatamente.
 - Medo de que seja sinal de início de desagregação (outros clientes seguirão?).
 - Impulso de salvá-lo a qualquer custo, incluindo descontos absurdos ou promessas não-executáveis.
 - Questionamento de estratégia inteira.
 
 **Guidance prático**:
+
 1. **Reunião de save em 48h**: entender motivo real. Frequentemente não é o que foi dito por primeiro.
 2. **Separar razões reversíveis de irreversíveis**: se cliente está fechando, não adianta, se está com gerente novo que prefere alternativa, talvez adiante.
 3. **Save offer limitado**: desconto temporário, upgrade, serviço extra. Nunca promessas impossíveis.
@@ -279,12 +288,14 @@ O [[#APÊNDICE Y — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUN
 **O que acontece**: escândalo, breach de dados, cliente insatisfeito fazendo thread viral, notícia negativa. Pode ser totalmente sua culpa ou só parcialmente.
 
 **Dinâmica psicológica**:
+
 - Pânico, sensação de que "tudo pode acabar agora".
 - Impulso de responder publicamente imediatamente (frequentemente erro).
 - Intrusão na vida pessoal (família, amigos veem, perguntam).
 - Cortisol crônico por dias/semanas.
 
 **Guidance prático** ([[#APÊNDICE CW — CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO|Apêndice CW]] cobre crise em detalhe, aqui foco no psicológico):
+
 1. **Não responder nos primeiros 60-90 minutos**. Respiração, conversa com cofundador, advogado e/ou PR antes de comunicação.
 2. **Se responsabilidade é sua, assumir rápido**: silêncio prolongado vira história maior.
 3. **Honestidade > defensividade**: público percebe quando empresa está mentindo ou cobrindo.
@@ -299,6 +310,7 @@ O [[#APÊNDICE Y — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUN
 **O que acontece**: venda, IPO, fechamento. Mesmo em exit bem-sucedido financeiramente, fundador frequentemente enfrenta crise de identidade após.
 
 **Dinâmica psicológica**:
+
 - Pré-exit: ansiedade e euforia alternadas.
 - Durante negociação (M&A): estresse agudo por 3-9 meses.
 - Pós-exit: euforia curta (dias-semanas) → vazio existencial profundo.
@@ -306,6 +318,7 @@ O [[#APÊNDICE Y — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUN
 - Sintomas comuns: depressão pós-parto empresarial (fundadores descrevem assim), perda de sentido, dificuldade de re-engajar, tédio crônico.
 
 **Guidance prático**:
+
 1. **Planejar "o que vem depois" antes do exit**. Minimamente: próximos 6 meses de agenda. Próxima empresa, sabático, família, hobbies.
 2. **Não decidir próxima empresa nos primeiros 6-12 meses**. Impulso comum, frequentemente é reação ansiosa a vazio, não vontade genuína.
 3. **Terapia estruturada**: transições grandes de vida se beneficiam de processo terapêutico. Não opcional, recomendado.
@@ -423,6 +436,7 @@ Relação entre cofundadores durante fechamento é área de altíssimo risco emo
 - Destruir a relação, culpa, ressentimento, versões diferentes da história, disputa sobre ativos residuais.
 
 **Como trabalhar:**
+
 - **Processar juntos**: reservar tempo especificamente para discutir o que aconteceu, fora de conversa operacional. Vale considerar facilitação por terceiro neutro (mentor sênior, terapeuta organizacional).
 - **Acordar narrativa externa**: vocês vão contar a mesma história ou cada um a sua? Se diferentes, pelo menos não-contraditórias.
 - **Aceitar distância temporária**: alguns cofundadores precisam de meses longe antes de poder ter relação de amizade novamente. É saudável.
@@ -443,12 +457,14 @@ Procurar ajuda não é sinal de fraqueza. É sinal de saúde e inteligência. Fu
 O [[#APÊNDICE BF — SECOND-TIME FOUNDER|Apêndice BF]] (Second-Time Founder) cobre o lado operacional da reinvenção. Aqui, o lado psicológico:
 
 **Quando não empreender de novo imediatamente:**
+
 - Se ainda está em [[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]] ou 4 (execução do fechamento ou vazio pós-encerramento), empreender agora vai ser reação compulsiva, não decisão.
 - Se dinâmica familiar está instável, nova empresa vai piorar.
 - Se saúde física/mental está comprometida, construir de dentro antes de construir fora.
 - Se não consegue fazer post-mortem honesto da anterior, vai cometer os mesmos erros em vocabulário novo.
 
 **Quando empreender de novo pode ser saudável:**
+
 - [[#FASE 6 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 6]] ou 6 processada com integridade.
 - Ideia nova vem de curiosidade genuína, não de urgência em provar algo.
 - Você consegue articular claramente o que seria diferente dessa vez (operacional e emocionalmente).
@@ -547,4 +563,5 @@ Esses padrões são observados em founders diferentes, em setores diferentes, em
 **Transição pós-venture (fora do manual), Adaptação à nova fase de vida.** Aposentadoria compulsória após earnout, mudança de identidade de "founder" para "investidor" ou "advisor", redefinição de propósito. Esta é a fase mais subestimada e menos documentada. Para alguns fundadores, é a mais difícil.
 
 **Princípio geral do mapa.** Cada fase tem sua cor emocional dominante. Conhecer antecipadamente ajuda em dois momentos: quando o sentimento aparece, reconhecê-lo como "comum nesta fase, passa" (não sinal de falha pessoal), e quando ele se intensifica além do padrão esperado, saber que é o momento de buscar suporte profissional específico (terapeuta, psiquiatra, médico). Saúde mental de fundador não é sinal de fraqueza, é ferramenta operacional. Fundador em crise toma decisões piores, demite mal, capta mal, esgota time. Cuidar da própria saúde mental é decisão de negócio, não apenas de bem-estar.
+
 ---

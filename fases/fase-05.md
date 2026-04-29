@@ -9,19 +9,23 @@ part: parte-i
 > Você está escolhendo cunha neste momento. Pergunta: o seu fit particular com esta cunha é diferencial inimitável, ou é circunstancial? Se a resposta for "outra pessoa qualquer faria tão bem quanto", reavalie. Founder-market-fit é o que faz o próximo ano de dificuldade valer a pena. É a única coisa que diferencia quem persiste de quem desiste no mês 14.
 
 ### O que esse apêndice cobre
+
 Levantamento estruturado do mercado em que você quer entrar. O tamanho. A dinâmica. Os principais atores. As soluções atuais (concorrentes diretos, indiretos, substitutos, alternativas). As tendências. A regulamentação aplicável. As barreiras de entrada.
 
 O entregável é um Dossiê de Mercado. Documento que posiciona a sua oportunidade dentro de uma paisagem realista.
 
 ### POR QUE
+
 Empreendedores apaixonados tendem a acreditar que "não há concorrentes", ou que "o mercado é enorme". Ambas as afirmações são quase sempre falsas. O mapeamento de mercado força você a enxergar a realidade competitiva. Existem soluções (mesmo que ruins). Existem substitutos (incluindo "fazer nada"). Existem players grandes que podem te copiar. Existe regulamentação que pode te inviabilizar.
 
 Sem esse mapa, você empreende às cegas. Com ele, você toma decisões informadas sobre posicionamento, diferenciação, e estratégia.
 
 ### Quando usar
+
 Comece em paralelo com a [[#FASE 4 — PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY APROFUNDADO)|Fase 4]], ou logo depois. Termine quando tiver clareza de onde se posiciona, e de onde vêm os principais riscos competitivos. Revisite pelo menos uma vez a cada seis meses ao longo da vida do negócio. O mercado muda.
 
 ### Quem envolve
+
 O executor é você. Os participantes são usuários (para saber o que eles usam), especialistas de setor (para saber a dinâmica do mercado), e advogado (para regulamentação crítica, se aplicável).
 
 ### Como executar
@@ -132,6 +136,7 @@ A matriz visual é depois complementada por tabela comparando você com três a 
 Documento de dez a vinte páginas. Conteúdo: definição precisa do mercado; TAM, SAM, SOM calculados e justificados; lista de alternativas atuais categorizadas; análise de três a sete concorrentes com fichas detalhadas; matriz competitiva; tendências e dinâmicas relevantes; regulamentação mapeada; barreiras de entrada e possíveis vantagens competitivas; canais de aquisição usados no setor; e a sua hipótese de posicionamento (onde você se encaixa, para quem, contra quem).
 
 ### PERGUNTAS A RESPONDER
+
 - Qual o tamanho real do meu mercado (SOM em R$)?
 - Quem são os meus principais concorrentes diretos, indiretos, e substitutos?
 - Por que o meu cliente escolheria a mim, e não a alternativa atual?
@@ -399,7 +404,7 @@ flowchart TD
 
 Responda com especificidade cruel. Cada resposta vaga é um ponto fraco futuro. O template textual completo:
 
-```
+```text
 CANVAS DA CUNHA, v___
 
 ICP (preciso): _______________________________________
@@ -519,7 +524,7 @@ Esse tipo de descoberta só aparece em conversas. Nunca em pesquisa secundária.
 
 A Cunha inicial do Warby Parker teria sido aproximadamente:
 
-```
+```text
 CANVAS DA CUNHA, Warby Parker v1
 
 ICP (preciso): profissionais urbanos 25-40 anos, renda $60k+,
@@ -647,6 +652,6 @@ A diferença entre quem faz certo, e quem falha, está em escolher cunha em vez 
 
 O entregável é o Dossiê de Mercado. Mas ele não é estático. O mercado muda, novos entrantes aparecem, consolidações acontecem, regulação evolui. Revisitar pelo menos a cada seis meses não é exagero, é higiene. E o FMF Check, o teste de founder-market-fit, é o filtro que precede a escolha da cunha. Se outra pessoa qualquer faria tão bem quanto você naquele mercado, a cunha está mal escolhida. O fit particular do fundador com a cunha é o que faz o próximo ano de dificuldade valer a pena.
 
-#fase5 #mercado #concorrencia #cunha #wedge #tam-sam-som #posicionamento #defensabilidade #blue-ocean
+# fase5 #mercado #concorrencia #cunha #wedge #tam-sam-som #posicionamento #defensabilidade #blue-ocean
 
 ---

@@ -68,17 +68,21 @@ flowchart TB
 > O modelo de negócio que emergiu é algo que só você desenharia com o seu conhecimento acumulado, ou é modelo óbvio que qualquer outra pessoa no mesmo mercado chegaria? Modelos óbvios têm concorrência saudando. Não são defensáveis por FMF. Modelos não-óbvios frequentemente parecem estranhos no começo (e por isso outros não tentaram), e revelam-se defensáveis depois. Se o seu modelo parece "o óbvio", revisite.
 
 ### O que esse apêndice cobre
+
 Verificação de que o negócio faz sentido economicamente. Que você consegue adquirir clientes por um custo menor do que eles geram de valor ao longo do tempo. Com margem suficiente para sustentar a operação, e crescer. Aqui o foco sai do produto, e vai para a máquina econômica.
 
 O entregável é o Canvas Financeiro Validado. Modelo com números reais (não estimados) sobre CAC, LTV, margem, ciclo de vendas, tempo de payback, e sustentabilidade.
 
 ### POR QUE
+
 Produtos que usuários amam podem levar empresas à falência. Se o CAC é maior do que o LTV, cada cliente adicional destrói valor. Se a margem é baixa demais para cobrir custos operacionais, o negócio não escala. Essa fase valida a viabilidade econômica com dados reais. Não com chutes de planilha.
 
 ### Quando usar
+
 Comece depois de oito ou mais semanas de operação do MVP com usuários pagantes. Termine quando você tiver números reais, e modelagem sustentável. Ou decidir pivotar o modelo. Revisite a cada três a seis meses durante os primeiros três anos.
 
 ### Quem envolve
+
 O executor é você. Com apoio de alguém com habilidade em planilhas e modelagem financeira. Os participantes são o contador (para custos) e o sócio financeiro, se houver. O decisor é você.
 
 ### Como executar
@@ -337,6 +341,7 @@ No contexto brasileiro. Ramen-profitable para fundadores brasileiros em São Pau
 Três perguntas de verificação mensal para a gestão de caixa. Estou Default Alive ou Default Dead hoje? Com números, não com esperança. Estou ramen-profitable, ou ainda dependo de capital externo para existir? Se a resposta para as duas anteriores é negativa, qual é o meu plano de noventa dias para mudar isso?
 
 ### PERGUNTAS A RESPONDER
+
 - Qual é o meu CAC real por canal?
 - Qual é o meu LTV real, ou estimado com base em dados?
 - LTV dividido por CAC é três ou mais?
@@ -465,6 +470,7 @@ O que vem na [[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]]. Product-Market Fit. On
 > Unit economics positivos em pelo menos um canal. Margem bruta acima do mínimo do setor. Plano claro de redução de CAC ou aumento de LTV. Default Alive (ou Default Dead com plano de noventa dias). Se não tem isso, fique na Fase 11, ajuste.
 >
 > **Thresholds operacionais (benchmarks SaaS B2B; ajuste por modelo):**
+>
 > - **LTV/CAC ≥ 3x** em pelo menos um canal validado.
 > - **CAC payback ≤ 12 meses** (até 18 meses tolerável em enterprise; acima disso exige capital pesado).
 > - **Churn mensal ≤ 5%** (B2C) ou **≤ 2%** (B2B SaaS); margem bruta ≥ 70% para SaaS, ≥ 50% para serviços, ≥ 30% para físico/marketplace.
@@ -533,6 +539,6 @@ A diferença entre quem faz certo, e quem falha, está em distinguir Default Ali
 
 O entregável é o Canvas Financeiro Validado. Não com chutes de planilha, mas com números reais. Esse documento é teste de honestidade. Quem chega à [[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]] (PMF) sem ter validado economia real costuma escalar negócio que não fecha. E descobre tarde que estava queimando capital para crescer rumo ao precipício. Validar economia antes de escalar não é desaceleração. É a diferença entre escalar negócio que existe, e simular escala em negócio que ainda não fecha.
 
-#fase11 #unit-economics #cac #ltv #default-alive #default-dead #fatal-pinch #ramen-profitable #cap-table #burn-multiple
+# fase11 #unit-economics #cac #ltv #default-alive #default-dead #fatal-pinch #ramen-profitable #cap-table #burn-multiple
 
 ---

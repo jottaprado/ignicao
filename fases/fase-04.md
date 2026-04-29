@@ -6,22 +6,26 @@ part: parte-i
 ## FASE 4 — PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY APROFUNDADO)
 
 ### O que esse apêndice cobre
+
 A [[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]] descobriu que problemas existem. A [[#FASE 4 — PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY APROFUNDADO)|Fase 4]] descobre como os usuários vivem esses problemas. Em contexto, com detalhes operacionais, emocionais, e circunstanciais. É pesquisa qualitativa mais profunda. Envolve observação (não só escuta), mapeamento de jornadas do usuário, identificação dos *Jobs to be Done*, e caracterização detalhada de personas baseadas em dados reais.
 
 O entregável é um Dossiê do Usuário. Coletânea de personas, jornadas mapeadas, e formulação clara dos *jobs* que o usuário quer cumprir.
 
 ### POR QUE
+
 Saber que um problema existe não basta para projetar uma solução. Você precisa saber em que contexto ele ocorre, em que sequência de eventos, com quais restrições, com quais emoções, com quais pessoas envolvidas. Soluções projetadas sem esse entendimento se chocam contra a realidade no momento da adoção. "Mas eu não posso usar isso no meio do turno." "Meu chefe nunca ia aprovar." "Isso pressupõe que eu tenho internet, e eu não tenho."
 
 A [[#FASE 4 — PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY APROFUNDADO)|Fase 4]] também revela os *jobs to be done*: o que as pessoas contratam um produto para fazer por elas. Esse é o único ângulo que impede você de construir features irrelevantes.
 
 ### Quando usar
+
 Comece assim que a [[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]] validar a existência do problema. Termine quando tiver duas a quatro personas caracterizadas com profundidade, pelo menos três jornadas mapeadas, e uma lista clara de *jobs to be done*. Revisite antes de grandes decisões de produto, e antes de entrar em novos segmentos.
 
 > [!important] Esta fase é uma rodada NOVA, não continuação da Fase 3
 > As 15-30 entrevistas da [[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]] eram de **escuta ampla** com Mom Test, focadas em validar se o problema existe. As 8-15 sessões aqui são **mais profundas** (60-90 min, contextual inquiry, observação em campo, JTBD) e **adicionais** — não substituem nem reaproveitam as anteriores. Total típico no fim da Fase 4: ~25-45 conversas no agregado. Reentrevistar pessoas da Fase 3 que se encaixam no sub-segmento agudo é válido e até recomendado, mas conta como conversa nova porque o roteiro e o objetivo mudaram.
 
 ### Quem envolve
+
 O executor é você, preferencialmente com alguém que possa documentar enquanto você observa ou conversa. Os participantes são oito a quinze usuários dispostos a deixar você observá-los, ou a fazer entrevistas mais longas (sessenta a noventa minutos) em contexto. O decisor é você.
 
 ### Como executar
@@ -158,7 +162,7 @@ Terceiro, compare. Tema que apareceu em setenta por cento das entrevistas e sess
 
 Qualquer que seja a técnica, mantenha um diário de pesquisa em formato padronizado. Template mínimo por entrevista:
 
-```
+```text
 DIÁRIO DE PESQUISA, Entrevista #___ Data: ___/___/___
 
 Entrevistado:
@@ -278,6 +282,7 @@ Entre as personas, qual delas tem o problema mais agudo, com mais urgência, mai
 Documento de dez a vinte páginas. Conteúdo: duas a quatro personas detalhadas; duas a quatro jornadas mapeadas; lista de JTBDs ranqueada por importância e frequência; identificação da beachhead (sub-ICP prioritário); Declaração da Ideia atualizada para v3.
 
 ### PERGUNTAS A RESPONDER
+
 - Como o usuário realmente vive a rotina, não como ele diz que vive?
 - Quais são os contextos (lugar, horário, estado emocional, pessoas presentes) em que o problema ocorre?
 - Quais são os passos concretos da jornada atual?
@@ -401,6 +406,6 @@ A diferença entre quem faz certo, e quem falha, está em observar, e não só p
 
 O entregável é o Dossiê do Usuário. Personas baseadas em dados reais, não em intuição. Jornadas mapeadas com momentos críticos identificados. Lista clara de jobs. Esse dossiê é insumo das Fases 8 e 9, ideação e protótipo. Quem ignora a [[#FASE 4 — PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY APROFUNDADO)|Fase 4]] e pula para "vamos construir" entra na construção sem entender quem vai usar, e em que circunstância. O resultado é produto bem-feito tecnicamente, e ignorado por quem deveria adotar.
 
-#fase4 #pesquisa-usuarios #customer-discovery #jtbd #personas #jornada-usuario #affinity-mapping #beachhead
+# fase4 #pesquisa-usuarios #customer-discovery #jtbd #personas #jornada-usuario #affinity-mapping #beachhead
 
 ---

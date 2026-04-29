@@ -36,17 +36,21 @@ flowchart LR
 ```
 
 ### O que esse apêndice cobre
+
 Transformação das incertezas, crenças, e intuições acumuladas nas fases anteriores em hipóteses testáveis. Escritas em formato padronizado, priorizadas por risco e impacto. O entregável é o Banco de Hipóteses. Uma tabela viva que você vai revisitar durante todo o projeto.
 
 ### POR QUE
+
 Toda decisão de negócio assume algo sobre o mundo. "O meu cliente vai pagar R$ 99." "O meu canal principal será Instagram." "Empresas maiores compram mais rápido." Cada uma dessas afirmações é uma hipótese. Se você as trata como verdades, constrói sobre areia. Se as escreve como hipóteses, e as testa uma a uma, constrói sobre rocha. Empreender sem hipóteses explícitas é tomar todas as decisões com base em vibração.
 
 A priorização de hipóteses também impede que você desperdice energia testando coisas de pouco impacto. Você quer testar primeiro o que, se for falso, derruba o negócio inteiro. Isso se chama "risco-maior-primeiro".
 
 ### Quando usar
+
 Comece imediatamente depois das Fases 2, 3, e 4. Termine quando tiver quinze a trinta hipóteses escritas, priorizadas, e souber quais são as três a cinco "bet-the-company" que vai testar primeiro. Revisite a cada duas a quatro semanas. Hipóteses antigas viram verdades (validadas), ou são refutadas, e novas emergem.
 
 ### Quem envolve
+
 O executor é você, e os sócios se houver. Os participantes são mentores ou pessoas experientes que podem ajudar a identificar hipóteses que você não enxerga sozinho. Empreender em câmara de eco é arriscado. O decisor é você.
 
 ### Como executar
@@ -73,7 +77,7 @@ Para cada tipo, busque pelo menos três a cinco hipóteses. Total alvo: quinze a
 
 Use esse formato rigoroso:
 
-```
+```text
 HIPÓTESE: [afirmação clara e falsificável]
 ATRIBUTO DA TEORIA: [qual nó ou seta da sua árvore de teoria esta hipótese testa]
 PORQUÊ IMPORTA: [se for falsa, qual impacto no negócio]
@@ -178,6 +182,7 @@ Os dois scores juntos revelam onde você está numa hipótese:
 Com base na priorização e no Sistema H/E, pegue as hipóteses bet-the-company com H alto e E baixo. Essas têm o maior retorno por experimento. Teoria robusta, apenas faltando evidência. Vão para a [[#FASE 7 — EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA|Fase 7]].
 
 ### PERGUNTAS A RESPONDER
+
 - Eu identifiquei hipóteses de todas as cinco categorias (problema, solução, cliente, canal, monetização)?
 - Cada hipótese é falsificável (tem critério de refutação)?
 - Eu classifiquei cada hipótese por risco e incerteza?
@@ -311,6 +316,6 @@ A diferença entre quem faz certo, e quem falha, está na priorização por risc
 
 O entregável é tabela viva, não documento que se arquiva. Hipóteses antigas viram verdades validadas, ou são refutadas, e novas emergem ao longo do projeto. Revisitar a cada duas a quatro semanas é higiene. O Banco de Hipóteses é o que estrutura todas as fases seguintes de validação. As Fases 7, 8, 9, 10 não testam ideia em geral. Testam hipóteses específicas, na ordem do risco.
 
-#fase6 #hipoteses #falsificabilidade #csd #bet-the-company #priorizacao #sistema-h-e #banco-hipoteses
+# fase6 #hipoteses #falsificabilidade #csd #bet-the-company #priorizacao #sistema-h-e #banco-hipoteses
 
 ---

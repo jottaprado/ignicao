@@ -6,6 +6,7 @@ part: parte-i
 ## FASE 2B — CONSTRUÇÃO DA TEORIA DO NEGÓCIO
 
 ### O que esse apêndice cobre
+
 Construção de uma representação causal explícita de por que você acredita que a sua ideia vai gerar valor. Na [[#FASE 2 — ARTICULAÇÃO E CAPTURA DA IDEIA|Fase 2]] você capturou a ideia num formato declarativo. Aqui você a decompõe em atributos (fatores com realização futura incerta) e os conecta por meio de relações causais com as suas respectivas crenças subjetivas (o quanto você acha que aquela relação é verdadeira).
 
 O entregável principal é uma Árvore de Teoria, ou Story Tree, e/ou um Mapa Causal (DAG simplificado). Um diagrama onde cada nó é um atributo e cada seta é uma relação causal com um peso de confiança (baixo, médio, alto, ou probabilidade explícita de zero a cem por cento).
@@ -44,6 +45,7 @@ flowchart TD
 A árvore liga hipótese central, atributos, causas, alternativa atual, gap, monetização. Cada nível precisa ser testável com evidência. Nó sem teste é teoria sem rigor.
 
 ### POR QUE
+
 A maior parte dos empreendedores pula direto da ideia para entrevistas e testes. O resultado é conhecido. Eles testam coisas que não importam, e deixam de testar o que é crítico. A teoria explícita resolve esse problema de três formas.
 
 Primeiro, força pensamento estruturado antes de gastar dinheiro. Parte da busca acontece cognitivamente, na escrivaninha, não no mercado. Isso reduz o custo dos experimentos posteriores.
@@ -55,9 +57,11 @@ Terceiro, permite considerar alternativas. Teoria explícita torna visível o fa
 Sem teoria explícita, o seu plano de negócios é uma opinião disfarçada. Com teoria explícita, é um objeto de estudo.
 
 ### Quando usar
+
 Comece imediatamente depois de **completar** a Declaração Inicial da Ideia (v1), antes de qualquer entrevista de campo. "Completar" aqui significa cumprir os **oito critérios de saída da [[#FASE 2 — ARTICULAÇÃO E CAPTURA DA IDEIA|Fase 2]]** (DII com 7 campos preenchidos, "para quem" verificável com 20 nomes reais, listas de incertezas e suposições-chave, 3-4 ouvintes externos repetindo com precisão) — não significa "validada com cliente", o que só virá da Fase 3 em diante. A Fase 2 entrega articulação clara; esta Fase 2B converte essa articulação em teoria causal testável; a Fase 3 começa a testar com clientes reais. Termine quando você tem ao menos uma árvore de teoria completa, com oito a quinze atributos, no mínimo três relações causais principais, e alternativas mapeadas. Revisite ao final de cada ciclo de experimentos (Fases 6, 9, 10, 11). A teoria deve evoluir conforme a evidência chega.
 
 ### Quem envolve
+
 O executor principal é você. Esse é trabalho cognitivo intransferível. Se há cofundador, os dois fazem juntos. Cada um faz a sua versão primeiro, depois consolidam.
 
 Os participantes são mentor ou par experiente, atuando como devil's advocate, questionando cada seta causal.
@@ -158,6 +162,7 @@ Value Lab serve quando você está mais cedo no processo, ainda explorando onde 
 Use Story Tree quando a ideia já está definida e o foco é testá-la com rigor. Use Value Lab quando ainda está explorando território e quer gerar candidatos de tese antes de escolher um. Na prática, muitos fundadores usam Value Lab na [[#FASE 2 — ARTICULAÇÃO E CAPTURA DA IDEIA|Fase 2]] (antes da articulação final) e Story Tree na [[#FASE 2B — CONSTRUÇÃO DA TEORIA DO NEGÓCIO|Fase 2B]] (depois da articulação).
 
 ### PERGUNTAS A RESPONDER
+
 - Qual é a cadeia causal completa que explica por que o meu negócio geraria valor, do problema até a adoção?
 - Quais atributos são indispensáveis (bet-the-company) e quais são secundários?
 - Quais das minhas setas causais têm evidência real por trás, e quais são pura intuição?
@@ -286,6 +291,6 @@ A diferença entre quem faz certo, e quem falha, está em aceitar pesos baixos s
 
 O entregável dessa fase muda como as próximas vão ser conduzidas. As Fases 3 a 7 não testam ideia em geral. Testam crenças específicas da árvore de teoria, na ordem do risco. Quem pula a [[#FASE 2B — CONSTRUÇÃO DA TEORIA DO NEGÓCIO|Fase 2B]] entra na validação sem saber o que está validando, e acaba testando coisas fáceis de testar, em vez de coisas que importam testar. A diferença entre validar bet-the-company primeiro, e validar coisas periféricas primeiro, costuma ser a diferença entre seis meses de aprendizado real, e dois anos de fingimento.
 
-#fase2b #teoria-do-negocio #story-tree #dag #causalidade #falsificacao #bet-the-company
+# fase2b #teoria-do-negocio #story-tree #dag #causalidade #falsificacao #bet-the-company
 
 ---

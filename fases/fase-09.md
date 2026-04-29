@@ -6,17 +6,21 @@ part: parte-i
 ## FASE 9 — TESTES DE SOLUÇÃO E USABILIDADE
 
 ### O que esse apêndice cobre
+
 Refinamento iterativo do conceito escolhido por meio de testes de usabilidade estruturados, entrevistas de solução (diferentes das de problema), e validação da proposta de valor em contato com usuários. Nesta fase, você também define os requisitos funcionais mínimos do MVP que será construído na [[#FASE 10 — MVP E EXPERIMENTOS DE MERCADO|Fase 10]].
 
 O entregável é a Especificação do MVP. Documento preciso sobre o que o MVP fará, para quem, com quais limitações, e como medirá sucesso.
 
 ### POR QUE
+
 Protótipos testam fluxo e conceito. Mas não testam valor real em uso prolongado. Esta fase aprofunda o teste de solução, e converte aprendizado em requisitos. Sem especificação clara antes de construir, você gasta mais, demora mais, e entrega menos.
 
 ### Quando usar
+
 Comece depois da [[#FASE 8 — IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES|Fase 8]] escolher o conceito. Termine quando a Especificação do MVP estiver escrita, priorizada, e aprovada por você (e sócios, se houver). Revisite a cada iteração maior do produto.
 
 ### Quem envolve
+
 O executor é você. Com designer e tech lead se houver. Os participantes são dez a quinze usuários do ICP, para entrevistas de solução e testes. O decisor é você.
 
 ### Como executar
@@ -85,7 +89,7 @@ A implementação mínima tem quatro elementos. Calendário recorrente de entrev
 
 Framework visual para conectar outcomes do negócio, oportunidades (dores, desejos, jobs do cliente), soluções, e experimentos. Estrutura:
 
-```
+```text
  OUTCOME DESEJADO
  (ex.: aumentar NRR em 15pp)
  │
@@ -131,7 +135,7 @@ Testable. Tem critérios de aceite objetivos. Pode ser verificado.
 
 Formato padrão:
 
-```
+```text
 Como [persona]
 Quero [ação / funcionalidade]
 Para [benefício concreto]
@@ -195,6 +199,7 @@ Documento contendo dez itens.
 Proposta de valor final, em uma frase. Persona foco (beachhead). JTBDs principais a resolver. Lista de Must Haves. Lista de Should e Could Haves (roadmap futuro). Explicitamente: o que o MVP *não* fará (Won't Haves). Critérios de sucesso do MVP (métricas). Faixa de preço planejada. Canais de aquisição planejados. Prazo de desenvolvimento estimado. Orçamento.
 
 ### PERGUNTAS A RESPONDER
+
 - A solução proposta resolve o problema de forma percebida como superior pelo ICP?
 - Em que faixa de preço ela cabe no orçamento da beachhead?
 - Quais são os requisitos absolutamente indispensáveis (Must Haves)?
@@ -376,6 +381,6 @@ A diferença entre quem faz certo, e quem falha, está em disciplina de escopo. 
 
 O entregável é a Especificação do MVP. Documento preciso sobre o que o MVP fará, para quem, com quais limitações, e como medirá sucesso. Esse documento é contrato com o futuro próximo. A [[#FASE 10 — MVP E EXPERIMENTOS DE MERCADO|Fase 10]] implementa a spec. Quem trata a [[#FASE 9 — TESTES DE SOLUÇÃO E USABILIDADE|Fase 9]] como burocracia, e pula direto para a construção, descobre que estava construindo coisa diferente do que precisava. E retrabalho de MVP custa duas a três vezes mais do que retrabalho de spec.
 
-#fase9 #testes-solucao #usabilidade #van-westendorp #moscow #especificacao-mvp #gate-direcionalidade #scale-readiness #invest
+# fase9 #testes-solucao #usabilidade #van-westendorp #moscow #especificacao-mvp #gate-direcionalidade #scale-readiness #invest
 
 ---

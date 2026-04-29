@@ -202,7 +202,7 @@ Domínios críticos. Saúde, jurídico, finanças, segurança. Nesses, alucinaç
 
 Cálculo padrão.
 
-```
+```text
 Custo por usuário ativo/mês =
  (inferências/usuário/mês) ×
  (tokens médios/inferência) ×

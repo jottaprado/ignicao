@@ -9,19 +9,23 @@ part: parte-i
 > As ideias de solução que estão emergindo são fruto da sua experiência única com o problema, ou são soluções genéricas que apareceriam em qualquer brainstorm? Se forem genéricas, provavelmente você não está no founder-market-fit que imagina, ou está no estágio em que precisa mergulhar mais fundo no mercado antes de prototipar. Entrevistar dez operadores experientes do setor antes de prototipar é mais barato que prototipar solução genérica.
 
 ### O que esse apêndice cobre
+
 Geração, avaliação, e prototipagem de diferentes soluções possíveis para o problema validado. Aqui você não constrói um produto real. Constrói representações: prototipagem em papel, protótipos clicáveis, mockups, storyboards. Para testar a desejabilidade da solução antes de investir em construção.
 
 O entregável é um Dossiê de Solução. Contém três a cinco conceitos de solução avaliados, pelo menos um protótipo interativo, e a recomendação de qual caminho seguir.
 
 ### POR QUE
+
 Entre entender o problema e construir a solução, existe um abismo de decisões. Quase todo problema validado pode ser resolvido de várias formas. App. SaaS. Serviço. Marketplace. Hardware. Comunidade. Curso. Pular direto para "app" é a preguiça que custa caro. Explorar alternativas gera insight, e reduz risco.
 
 Prototipagem é a forma mais barata de testar. Com um dia de trabalho, e zero código, você consegue feedback sobre experiência, fluxo, e desejabilidade.
 
 ### Quando usar
+
 Comece depois da [[#FASE 7 — EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA|Fase 7]] confirmar que o problema é real. Termine quando tiver um protótipo interativo testado com pelo menos oito usuários, e uma direção clara de qual solução construir. Revisite antes de cada grande decisão de redesign.
 
 ### Quem envolve
+
 O executor é você. Com apoio de designer (freelancer ou sócio) se tiver. Os participantes são oito a doze usuários do ICP, para testar protótipos. O decisor é você.
 
 ### Como executar
@@ -147,6 +151,7 @@ Depois de cada ciclo de três a quatro testes, ajuste o protótipo com base nos 
 Documento contendo seis itens. Conceitos gerados e avaliados. Conceitos selecionados, detalhados. Protótipos (ou links). Resumo dos testes com usuários (padrões observados, problemas encontrados, verbatim). Recomendação de conceito a construir, com justificativa. Riscos e incógnitas remanescentes.
 
 ### PERGUNTAS A RESPONDER
+
 - Quais são as soluções alternativas possíveis para o problema?
 - Qual conceito tem a melhor combinação de desejabilidade, viabilidade, e sustentabilidade?
 - Como o usuário reage quando vê uma versão tangível da solução?
@@ -303,6 +308,6 @@ A diferença entre quem faz certo, e quem falha, está em separar ideação de c
 
 O entregável é o Dossiê de Solução. Três a cinco conceitos avaliados, pelo menos um protótipo interativo testado com oito ou mais usuários, e recomendação clara de qual caminho seguir. Esse dossiê é insumo da [[#FASE 9 — TESTES DE SOLUÇÃO E USABILIDADE|Fase 9]], refinamento e especificação do MVP. Quem chega à [[#FASE 9 — TESTES DE SOLUÇÃO E USABILIDADE|Fase 9]] sem ter explorado alternativas, e sem ter testado protótipo, entra na construção da solução com hipótese implícita não-validada. A [[#FASE 8 — IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES|Fase 8]] bem-feita reduz a chance de retrabalho radical na [[#FASE 10 — MVP E EXPERIMENTOS DE MERCADO|Fase 10]].
 
-#fase8 #ideacao #prototipagem #design-thinking #crazy-8s #wireframe #figma #protótipo-clicavel #service-blueprint
+# fase8 #ideacao #prototipagem #design-thinking #crazy-8s #wireframe #figma #protótipo-clicavel #service-blueprint
 
 ---

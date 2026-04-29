@@ -204,6 +204,7 @@ DX externo como afterthought. Em produto para dev, documentação é o produto. 
 ### Checklist
 
 **Engineering Management:**
+
 - [ ] Career ladder dual (IC, mais Manager) documentado
 - [ ] Levels com critérios explícitos (escopo, impacto, autonomia)
 - [ ] Compensation bands definidos, e revisados anualmente
@@ -215,6 +216,7 @@ DX externo como afterthought. Em produto para dev, documentação é o produto. 
 - [ ] On-call rotation com compensação
 
 **Developer Experience externo (se aplicável):**
+
 - [ ] TTFHW medido, e otimizado para menos de cinco minutos
 - [ ] SDKs nas linguagens principais do ICP
 - [ ] API reference completo, e atualizado
@@ -224,6 +226,7 @@ DX externo como afterthought. Em produto para dev, documentação é o produto. 
 - [ ] Ticket volume por MAU monitorado
 
 **Developer Experience interno:**
+
 - [ ] Setup do ambiente menor que meio dia
 - [ ] Testes locais menores que cinco minutos
 - [ ] Deploy simples, e documentado

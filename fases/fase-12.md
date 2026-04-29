@@ -549,7 +549,7 @@ A diferença entre quem faz certo, e quem falha, está em medir PMF em vez de de
 
 E há a confusão silenciosa entre PSF e PMF. Problem-Solution Fit não é PMF em pequeno. É fase distinta, com clientes distintos, métricas distintas, e estratégia distinta. Pular do MVP direto para tentativa de PMF, sem passar pelo PSF, é como tentar correr maratona sem ter corrido dez quilômetros. Quem confunde os dois tenta escalar PSF como se fosse PMF, e queima capital fingindo crescimento.
 
-#fase12 #pmf #product-market-fit #sean-ellis #moore #psf #hotmart #superlinear-returns #aha-moment #retencao-coorte
+# fase12 #pmf #product-market-fit #sean-ellis #moore #psf #hotmart #superlinear-returns #aha-moment #retencao-coorte
 
 ---
 

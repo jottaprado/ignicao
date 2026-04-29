@@ -282,6 +282,7 @@ Sem pre-read para reuniões importantes. Tempo desperdiçado em contexto que pod
 ### Checklist
 
 **Pessoal do fundador.**
+
 - [ ] Agenda semanal modelada, e revista trimestralmente?
 - [ ] Blocos de deep work protegidos (mínimo duas a quatro vezes por semana)?
 - [ ] 1:1s regulares com diretos, e com mentor, ou executive coach?
@@ -291,6 +292,7 @@ Sem pre-read para reuniões importantes. Tempo desperdiçado em contexto que pod
 - [ ] Review pessoal semanal (o que funcionou, o que não)?
 
 **Cadência operacional.**
+
 - [ ] Daily standups onde fazem sentido?
 - [ ] Weekly 1:1s agendados, e realizados em noventa por cento ou mais?
 - [ ] Weekly management team meeting, com agenda, e decisões registradas?
@@ -302,6 +304,7 @@ Sem pre-read para reuniões importantes. Tempo desperdiçado em contexto que pod
 - [ ] Performance review annual de todos?
 
 **OKRs.**
+
 - [ ] Objetivos (três a cinco), e KRs (três a cinco por objective), da empresa definidos?
 - [ ] Cascateamento para times?
 - [ ] Weekly check-in de progresso?
@@ -309,6 +312,7 @@ Sem pre-read para reuniões importantes. Tempo desperdiçado em contexto que pod
 - [ ] End-of-quarter scoring, e retrospective?
 
 **Meeting hygiene.**
+
 - [ ] Agenda, mais pre-read, obrigatórios para reuniões de decisão?
 - [ ] Notes, mais action items, em vinte e quatro horas?
 - [ ] Follow-up em próxima reunião?
@@ -316,11 +320,13 @@ Sem pre-read para reuniões importantes. Tempo desperdiçado em contexto que pod
 - [ ] "No meeting day", ou blocks definidos?
 
 **Async.**
+
 - [ ] Documentation culture (specs, design docs, e RFCs)?
 - [ ] Ferramentas async definidas, e em uso (Notion, Slack, e Loom)?
 - [ ] Princípio "async default, sync exception" praticado?
 
 **Brasileiro.**
+
 - [ ] Pontualidade como valor explícito?
 - [ ] "Disagree and commit" em vez de "consenso forçado"?
 - [ ] Sazonalidade (Carnaval, julho, e dezembro) incorporada ao planning?

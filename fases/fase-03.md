@@ -13,12 +13,14 @@ part: parte-i
 > Não confunda sofisticação de stack com qualidade de pesquisa. Entrevistador ruim com Dovetail extrai menos que entrevistador bom com Google Forms.
 
 ### O que esse apêndice cobre
+
 Investigação estruturada para verificar se o problema que você imaginou na [[#FASE 2 — ARTICULAÇÃO E CAPTURA DA IDEIA|Fase 2]] existe de fato na vida das pessoas que você acredita serem seus clientes. Com que frequência ocorre. Quão doloroso é. E quanto as pessoas já fazem para tentar resolvê-lo. O entregável é um relatório chamado Mapa de Problemas, que documenta o problema real (não o imaginado) com evidências de campo.
 
 > [!important] Disciplina central desta fase
 > Nesta fase, você ainda não fala da sua solução. Você só escuta. Essa disciplina é difícil, mas crítica. No momento em que você menciona a sua solução, o cliente passa a reagir à ideia em vez de descrever a realidade dele. E você perde a evidência limpa.
 
 ### POR QUE
+
 Noventa por cento das startups que falham, falham por construir algo que ninguém quer. Na maioria dos casos, o empreendedor presumiu que o problema existia, sem verificar. A descoberta do problema é a vacina contra esse erro.
 
 O custo de descobrir que o problema não existe antes de construir é uma conversa de café. O custo de descobrir depois de construir é meses ou anos de vida e todo o dinheiro investido.
@@ -153,9 +155,11 @@ Antes de avançar, submeta o seu problema a um teste de prioridade em três perg
 > Se você não consegue responder às três perguntas com um nome de cargo, uma métrica específica, e um comportamento de escalada concreto, volte para entrevistas. Problemas que passam nas três perguntas geram urgência de compra. Os que não passam geram apenas interesse educado.
 
 ### Quando usar
+
 Comece com a Declaração Inicial da Ideia (v1) da [[#FASE 2 — ARTICULAÇÃO E CAPTURA DA IDEIA|Fase 2]] em mãos e, idealmente, com a árvore de teoria construída na [[#FASE 2B — CONSTRUÇÃO DA TEORIA DO NEGÓCIO|Fase 2B]] — as hipóteses bet-the-company da Fase 2B são exatamente o que você vai testar nas entrevistas aqui. Termine depois de ter realizado entrevistas suficientes para chegar à saturação, o ponto em que novas entrevistas deixam de trazer informação nova. Tipicamente quinze a trinta entrevistas em profundidade. Revisite sempre que mudar de segmento de cliente ou abrir novo mercado.
 
 ### Quem envolve
+
 O executor principal é você. Não terceirize entrevistas nesta fase. Quem conduz aprende. Quem lê relatório, não. Os participantes são os entrevistados, pessoas do público-alvo descrito na [[#FASE 2 — ARTICULAÇÃO E CAPTURA DA IDEIA|Fase 2]]. O decisor é você, com base na análise da evidência.
 
 ### Como executar
@@ -197,6 +201,7 @@ Encerramento (três minutos). "Tem mais alguém que você acha que passa por iss
 Estas cinco perguntas, adaptadas ao seu domínio, formam um núcleo mínimo para qualquer entrevista de problema. Foram desenhadas para revelar a dor real, focar em comportamento passado em vez de intenção futura, e evitar que você caia na armadilha de vender a sua ideia.
 
 > [!example] Cinco perguntas para entrevista de descoberta de problema
+>
 > 1. Qual é a parte mais difícil de (fazer a tarefa)? Identifica a dor real na linguagem do cliente, não na sua.
 > 2. Me conta sobre a última vez que você encontrou esse problema. Força o entrevistado a descrever comportamento passado, que é evidência, não especulação.
 > 3. Por que isso foi tão difícil? Revela as causas raízes que o seu raciocínio de ponta a ponta não consegue supor sozinho.
@@ -322,6 +327,7 @@ O documento final tem cinco a dez páginas, com o seguinte conteúdo. Perfil do 
 > O Mapa de Problemas é a saída visual da rodada — o entregável de comunicação. O [[#APÊNDICE A — TEMPLATES PRONTOS PARA USO|Template A.30]] é a planilha de decisão estruturada que sustenta o Mapa: cruza distribuição de Pain Level, padrões agregados de problema, workarounds dominantes, vocabulário recorrente e sub-segmentos para registrar a decisão de avanço com rastro à evidência. Use os dois — o Mapa para apresentar, A.30 para defender.
 
 ### PERGUNTAS A RESPONDER
+
 - O problema que eu imaginei existe na vida real das pessoas que eu esperava?
 - Com que frequência esse problema ocorre na vida delas (diário, semanal, mensal, raro)?
 - Quão doloroso é, comparado a outros problemas que elas têm?
@@ -520,6 +526,6 @@ A diferença entre quem faz certo, e quem falha, está numa disciplina simples, 
 
 O entregável é o Mapa de Problemas. Não é coletânea de citações, é documento que distingue problemas reais (recorrentes, dolorosos, com tentativas de solução já em curso) de problemas imaginados pelo fundador. Quem chega ao fim dessa fase com a formulação do Dia 4 idêntica à do Dia 1 não validou nada. Filtrou as conversas para confirmar o que queria ouvir. A [[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]] bem-feita produz mudança na própria formulação do problema. Quando isso não acontece, a fase precisa ser refeita.
 
-#fase3 #descoberta-do-problema #customer-interview #mom-test #pain-level #schlep-blindness #problema-validado
+# fase3 #descoberta-do-problema #customer-interview #mom-test #pain-level #schlep-blindness #problema-validado
 
 ---

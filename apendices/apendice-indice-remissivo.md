@@ -8,6 +8,7 @@ type: reference
 Índice alfabético curado dos tópicos mais buscados, apontando para o local canônico onde cada um é tratado em profundidade. Não exaustivo, foca em 150 termos essenciais. Use em complemento ao Sumário (que dá a estrutura completa) e ao Glossário (que dá definições).
 
 ### A
+
 - **AARRR (Pirate Metrics)**: BG.12.1, aplicação em [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]]
 - **A/B Testing rigoroso**: BG.8.4
 - **Acordo de sócios**: [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]] (Escolha de sócios), [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]], [[#APÊNDICE AH — CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS|Apêndice AH]]
@@ -18,6 +19,7 @@ type: reference
 - **Autoestima do fundador**: [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]], [[#APÊNDICE Y — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Apêndice Y]]
 
 ### B
+
 - **BANT (Budget-Authority-Need-Timeline)**: BG.14.1
 - **Blitzscaling**: BG.12.5, quando usar vs não usar [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]]
 - **Blue Ocean Strategy**: BG.1.8
@@ -27,6 +29,7 @@ type: reference
 - **Business Model Canvas (BMC)**: BG.2.9, template preenchido A.20 (Nubank)
 
 ### C
+
 - **CAC (Customer Acquisition Cost)**: BG.18, [[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]], [[#APÊNDICE AN — MODELAGEM FINANCEIRA OPERACIONAL|Apêndice AN]]
 - **Canvas (vários)**: BMC BG.2.9. Lean Canvas BG.2.10. VPC BG.10.10
 - **Cap Table**: [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]], [[#APÊNDICE CF — PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO|Apêndice CF]]
@@ -46,6 +49,7 @@ type: reference
 - **Customer Journey Map**: BG.9.6, exemplo A.24
 
 ### D
+
 - **Data (compilação do livro)**: Apêndice sobre Envelhecimento (abril 2026)
 - **DCF (Discounted Cash Flow)**: BG.18.9
 - **Decisão (frameworks)**: BG.4, BG.5
@@ -58,6 +62,7 @@ type: reference
 - **Due diligence (como alvo)**: [[#APÊNDICE V — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Apêndice V]]
 
 ### E
+
 - **Effectuation**: BG.2.11
 - **Empathy Map**: BG.9.5
 - **Encerramento voluntário (shutdown)**: [[#FASE 16 — EXIT STRATEGY|Fase 16]] (seção dedicada)
@@ -71,6 +76,7 @@ type: reference
 - **Experimentos controlados**: [[#FASE 7 — EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA|Fase 7]], BG.8.4
 
 ### F
+
 - **Fail-fast / pivotar / matar**: Apêndice Pivot
 - **Financeiro (modelagem)**: [[#APÊNDICE AN — MODELAGEM FINANCEIRA OPERACIONAL|Apêndice AN]], BG.18
 - **First Principles Thinking**: BG.4.1
@@ -80,17 +86,20 @@ type: reference
 - **Fundraising**: [[#APÊNDICE V — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Apêndice V]], [[#APÊNDICE CF — PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO|Apêndice CF]], [[#APÊNDICE CE — VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR|Apêndice CE]]
 
 ### G
+
 - **Gestão de tempo do fundador**: [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]], [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]]
 - **Governança (board, shareholders)**: [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]], [[#APÊNDICE CF — PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO|Apêndice CF]]
 - **Growth (função e práticas)**: [[#APÊNDICE CG — GROWTH COMO FUNÇÃO ORGANIZACIONAL: TIME DE GROWTH, BUILD VS HIRE, RELAÇÃO COM PRODUTO|Apêndice CG]]. BG.12
 - **Growth Loops**: BG.12.2
 
 ### H
+
 - **Hipóteses (formulação)**: [[#FASE 6 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 6]]
 - **Hiring (primeiros líderes)**: [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]], Apêndice K
 - **Hoshin Kanri**: BG.3.1
 
 ### I
+
 - **IA / IA como acelerador**: [[#APÊNDICE I — IA GENERATIVA COMO ACELERADOR DO EMPREENDEDOR (2026)|Apêndice I]]
 - **Ideias (como encontrar)**: [[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]
 - **Impacto (negócio de impacto social)**: Apêndice dedicado
@@ -100,13 +109,16 @@ type: reference
 - **Ishikawa Diagram**: BG.5.8
 
 ### J
+
 - **Jobs to Be Done (JTBD)**: BG.11.1. JTBD Switch BG.6.2. ODI BG.11.8
 - **Jurídico (estruturação)**: [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]], [[#APÊNDICE AH — CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS|Apêndice AH]]
 
 ### K
+
 - **Kano Model**: BG.11.2
 
 ### L
+
 - **Launch (playbook de lançamento)**: [[#FASE 10 — MVP E EXPERIMENTOS DE MERCADO|Fase 10]] (seção dedicada)
 - **Lean Canvas**: BG.2.10, template preenchido A.21 (QuintoAndar)
 - **Lean Startup (BML Loop)**: BG.10.13
@@ -115,6 +127,7 @@ type: reference
 - **Liquidation preference**: [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]], [[#APÊNDICE V — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Apêndice V]]
 
 ### M
+
 - **Marca pessoal do fundador**: Apêndice dedicado
 - **Marketplace / efeitos de rede**: BG.12.10 (Cold Start). [[#APÊNDICE CG — GROWTH COMO FUNÇÃO ORGANIZACIONAL: TIME DE GROWTH, BUILD VS HIRE, RELAÇÃO COM PRODUTO|Apêndice CG]]
 - **MEDDIC / MEDDPICC**: BG.14.5
@@ -124,12 +137,14 @@ type: reference
 - **Mulheres fundadoras (casos)**: Apêndice de Diversidade e casos dispersos
 
 ### N
+
 - **Negociação (frameworks)**: BG.15 inteiro
 - **Never Split the Difference**: BG.15.2
 - **North Star Framework**: BG.11.5
 - **NPS**: BG.8.5
 
 ### O
+
 - **OKRs**: BG.16.1, template A.26
 - **Open Innovation**: BG.19.3
 - **Operação (primeiros processos)**: [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]], [[#APÊNDICE BF — SECOND-TIME FOUNDER|Apêndice BF]] (ops de precisão)
@@ -137,6 +152,7 @@ type: reference
 - **Outcome-Driven Innovation (ODI)**: BG.11.8
 
 ### P
+
 - **Pareto Analysis**: BG.5.9
 - **Parcerias estratégicas**: [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]], [[#APÊNDICE CX — CANAIS INDIRETOS E PARCERIAS: PARCERIAS, FRANQUIAS, CHANNEL|Apêndice CX]]
 - **Personas**: BG.9.4
@@ -152,9 +168,11 @@ type: reference
 - **Proposta de valor**: BG.10.10 (VPC). [[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]], [[#FASE 6 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 6]]
 
 ### Q
+
 - **Qualidade (processos de)**: BG.5.8-5.10 (Ishikawa, Pareto, FMEA)
 
 ### R
+
 - **RACI / DACI / RAPID**: BG.5.5
 - **Radical Candor**: BG.17.1
 - **Recrutamento**: [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]], BG.17.5, Apêndice K
@@ -166,6 +184,7 @@ type: reference
 - **Runway (pessoal e empresa)**: [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]], [[#FASE 11 — VALIDAÇÃO DO MODELO DE NEGÓCIO|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]1]], [[#APÊNDICE AN — MODELAGEM FINANCEIRA OPERACIONAL|Apêndice AN]]
 
 ### S
+
 - **SaaS (métricas específicas)**: BG.18 inteiro
 - **SAFE (Simple Agreement for Future Equity)**: [[#APÊNDICE V — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Apêndice V]]
 - **Saúde mental do fundador**: [[#APÊNDICE Y — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Apêndice Y]] inteiro
@@ -180,6 +199,7 @@ type: reference
 - **SWOT / TOWS**: BG.1.2
 
 ### T
+
 - **TAM / SAM / SOM**: [[#FASE 5 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 5]]
 - **Taxas (tributárias BR)**: [[#APÊNDICE W — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Apêndice W]]
 - **Time (primeiros líderes, C-level)**: [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]], Apêndice K
@@ -187,11 +207,13 @@ type: reference
 - **Tributos**: [[#APÊNDICE W — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Apêndice W]]
 
 ### U
+
 - **Unit economics**: BG.18.1. [[#FASE 11 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 11]]
 - **Usabilidade (testes)**: BG.7.1. [[#FASE 9 — TESTES DE SOLUÇÃO E USABILIDADE|Fase 9]]
 - **UX Research**: BG.7 inteiro
 
 ### V
+
 - **Validação de problema**: [[#FASE 7 — EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA|Fase 7]]
 - **Valuation**: BG.18.9, BG.18.10. [[#APÊNDICE V — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Apêndice V]]
 - **Value Proposition Canvas (VPC)**: BG.10.10, template A.22 (Wellhub)
@@ -200,11 +222,13 @@ type: reference
 - **V2MOM**: BG.16.2
 
 ### W
+
 - **Wardley Mapping**: BG.2.5
 - **Wedge (wedge theory)**: [[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]], [[#FASE 5 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 5]]
 - **Working Backwards (Amazon PR-FAQ)**: BG.10.6
 
 ### Y
+
 - **YC (Y Combinator) matching e filosofia**: [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]], referências dispersas
 
 ---
@@ -273,6 +297,7 @@ xychart-beta
 ```
 
 *Exemplo: caixa inicial R$ 1,8M, burn R$ 90k/mês → runway 20 meses. Regras operacionais:*
+
 - *≤ 12 meses: começar captação imediatamente (captar leva 3-9 meses).*
 - *≤ 6 meses: ou contrato novo assinado ou bridge em closing, não há mais tempo.*
 - *≤ 3 meses: modo sobrevivência (cortar tudo o que puder, board aprova).*

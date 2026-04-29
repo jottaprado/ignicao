@@ -446,7 +446,7 @@ Os cinco tipos de exit (M&A estratégico, M&A financeiro, IPO, secondary, acqui-
 
 Exit também não é sempre venda. O encerramento voluntário, com dignidade, é exit raramente discutido em manuais. Mas frequentemente o caminho certo. Encerrar bem preserva capital residual, relações com time, investidores, e o próprio fundador para a próxima jornada. *Como você encerra a empresa anterior é a maior variável preditiva de como será a próxima*.
 
-#fase16 #exit #m-and-a #ipo #secondary #acqui-hire #shutdown #tax-structuring #lock-up #earnout
+# fase16 #exit #m-and-a #ipo #secondary #acqui-hire #shutdown #tax-structuring #lock-up #earnout
 
 ---
 

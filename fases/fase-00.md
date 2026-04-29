@@ -6,9 +6,11 @@ part: parte-i
 ## FASE 0 — PREPARAÇÃO DO EMPREENDEDOR
 
 ### O que esse apêndice cobre
+
 Esta é a fase anterior à ideia. O objetivo é preparar a pessoa que vai empreender, não o negócio. Você avalia a sua situação de vida com honestidade. Capacidade financeira, capacidade emocional, tempo disponível, motivações reais, rede de apoio. O entregável é um documento de três a seis páginas, o Dossiê Pessoal do Empreendedor, que responde às perguntas desta fase.
 
 ### POR QUE
+
 Empreender não é primariamente um ato técnico. É um ato psicológico e financeiro sustentado por meses ou anos. A maioria das desistências não acontece porque a ideia era ruim. Acontece porque o empreendedor não aguentou a pressão. Ficou sem dinheiro, sem apoio familiar, sem saúde mental. Ou descobriu tarde que queria outra coisa da vida. Pular esta fase significa começar um negócio sobre fundações pessoais frágeis, e qualquer crise do próprio negócio derruba tudo.
 
 ### Quando não empreender, um framework honesto de autoexclusão
@@ -65,12 +67,15 @@ Você provavelmente não deveria empreender agora se:
 > Se três ou mais desses dez pontos são verdade para você, pause. Não desista. Ajuste. Trabalhe nos pontos por seis a vinte e quatro meses antes de empreender. A trajetória depois dessa preparação é significativamente mais sustentável.
 
 ### Quando usar
+
 Comece antes de investir qualquer recurso. Tempo acima de uma hora por dia, ou dinheiro, em uma ideia. Termine quando o Dossiê Pessoal estiver preenchido com honestidade, e você tiver clareza financeira (o seu runway pessoal mínimo definido) e clareza de motivação (você sabe por que quer fazer isso). Revisite a cada seis meses, ou sempre que houver mudança de vida significativa. Casamento, filho, doença, mudança de cidade.
 
 ### Quem envolve
+
 O executor principal é você, o empreendedor. Os participantes são cônjuge ou companheiro se houver, familiares que dependem financeiramente de você, sócios potenciais. O decisor é exclusivamente você, mas com input real, não cerimonial, de quem compartilha sua vida financeira e emocional.
 
 ### Como executar
+
 Execute estas oito tarefas em sequência.
 
 1. Diagnóstico financeiro pessoal, de duas a quatro horas. Levante numa planilha três números. O seu custo de vida mensal mínimo (aluguel, comida, saúde, transporte, educação dos filhos, dívidas), o quanto você precisa para viver com dignidade básica, sem lazer. O seu custo de vida mensal atual, incluindo o padrão que você leva hoje. A sua reserva atual em dinheiro líquido, sem contar imóveis, carros, previdência travada.
@@ -80,19 +85,19 @@ Execute estas oito tarefas em sequência.
 >
 > É o número de meses que você aguenta sem receita. Se é menor que seis meses, você não deve largar o seu emprego para empreender agora. Empreenda em paralelo.
 
-2. Teste de motivação real, uma hora, em silêncio, sem pressa. Responda por escrito, com honestidade brutal. Por que eu quero empreender? Escreva cinco razões. Dessas razões, quais são sobre mim (ego, liberdade, dinheiro) e quais são sobre o problema ou o cliente? Do que eu estou fugindo? Chefe ruim, trabalho tedioso, sensação de fracasso? Cuidado: empreender para fugir de algo é fonte frequente de decisões ruins. Eu faria isso se nunca ficasse rico? Se não, qual é o valor mínimo que precisa sair disso para fazer valer a pena?
+1. Teste de motivação real, uma hora, em silêncio, sem pressa. Responda por escrito, com honestidade brutal. Por que eu quero empreender? Escreva cinco razões. Dessas razões, quais são sobre mim (ego, liberdade, dinheiro) e quais são sobre o problema ou o cliente? Do que eu estou fugindo? Chefe ruim, trabalho tedioso, sensação de fracasso? Cuidado: empreender para fugir de algo é fonte frequente de decisões ruins. Eu faria isso se nunca ficasse rico? Se não, qual é o valor mínimo que precisa sair disso para fazer valer a pena?
 
-3. Inventário de habilidades e gaps, duas horas. Liste em quatro colunas. Habilidades que eu tenho e são relevantes (programação, vendas, design). Habilidades que não tenho e serão críticas (marketing digital, contabilidade, negociação). Como vou cobrir os gaps (aprender, contratar, sócio). Quanto tempo e dinheiro isso custa.
+2. Inventário de habilidades e gaps, duas horas. Liste em quatro colunas. Habilidades que eu tenho e são relevantes (programação, vendas, design). Habilidades que não tenho e serão críticas (marketing digital, contabilidade, negociação). Como vou cobrir os gaps (aprender, contratar, sócio). Quanto tempo e dinheiro isso custa.
 
-4. Conversa estruturada com quem compartilha a sua vida, uma a duas horas. Se você tem cônjuge, filhos, ou alguém que depende de você, marque uma conversa formal. Não um comentário de jantar. Apresente quanto dinheiro você planeja alocar, qual o prazo que dá a si mesmo antes de reavaliar, qual impacto isso terá na rotina familiar, qual é o plano B se não der certo. Peça uma resposta honesta. Se a pessoa não apoia, trate isso como informação crítica. Não como obstáculo a ser ignorado.
+3. Conversa estruturada com quem compartilha a sua vida, uma a duas horas. Se você tem cônjuge, filhos, ou alguém que depende de você, marque uma conversa formal. Não um comentário de jantar. Apresente quanto dinheiro você planeja alocar, qual o prazo que dá a si mesmo antes de reavaliar, qual impacto isso terá na rotina familiar, qual é o plano B se não der certo. Peça uma resposta honesta. Se a pessoa não apoia, trate isso como informação crítica. Não como obstáculo a ser ignorado.
 
-5. Avaliação de saúde física e mental, trinta minutos de reflexão. Como está o seu sono hoje? Você tem alguma condição crônica que pode piorar com estresse? Você tem rede de apoio emocional (amigos, terapeuta, família)? Empreender aumenta sintomas de ansiedade e depressão. Se você já está em tratamento, converse com o seu profissional de saúde antes de aumentar a pressão.
+4. Avaliação de saúde física e mental, trinta minutos de reflexão. Como está o seu sono hoje? Você tem alguma condição crônica que pode piorar com estresse? Você tem rede de apoio emocional (amigos, terapeuta, família)? Empreender aumenta sintomas de ansiedade e depressão. Se você já está em tratamento, converse com o seu profissional de saúde antes de aumentar a pressão.
 
-6. Definição de prazo e critérios de desistência, uma hora. Defina de antemão quanto tempo você dá ao projeto antes de reavaliar (sugiro doze meses para a primeira reavaliação formal). Quais sinais de fracasso justificam desistir antes (nenhum cliente pagante depois de seis meses de tentativa ativa, reserva abaixo de X reais). Quais sinais de sucesso justificam acelerar (primeiro cliente pagante recorrente em noventa dias). Esses critérios precisam ser definidos hoje, com a cabeça fria. Depois, no meio da tempestade, você não vai ter objetividade para defini-los.
+5. Definição de prazo e critérios de desistência, uma hora. Defina de antemão quanto tempo você dá ao projeto antes de reavaliar (sugiro doze meses para a primeira reavaliação formal). Quais sinais de fracasso justificam desistir antes (nenhum cliente pagante depois de seis meses de tentativa ativa, reserva abaixo de X reais). Quais sinais de sucesso justificam acelerar (primeiro cliente pagante recorrente em noventa dias). Esses critérios precisam ser definidos hoje, com a cabeça fria. Depois, no meio da tempestade, você não vai ter objetividade para defini-los.
 
-7. Escolha do modelo de dedicação. Decida entre três caminhos. Full-time, largar tudo e focar, exige runway pessoal de doze meses ou mais e alta tolerância ao risco. Part-time estruturado, manter emprego e dedicar dez a vinte horas por semana ao negócio, é mais lento e mais seguro. Side project exploratório, cinco a dez horas por semana, sem pressão de transformar em empresa, serve para as fases 1 a 4 deste manual.
+6. Escolha do modelo de dedicação. Decida entre três caminhos. Full-time, largar tudo e focar, exige runway pessoal de doze meses ou mais e alta tolerância ao risco. Part-time estruturado, manter emprego e dedicar dez a vinte horas por semana ao negócio, é mais lento e mais seguro. Side project exploratório, cinco a dez horas por semana, sem pressão de transformar em empresa, serve para as fases 1 a 4 deste manual.
 
-8. Escrita do Dossiê Pessoal. Consolide tudo acima em um documento simples. Guarde. Releia ao final de cada fase seguinte deste manual. Compare. O que você descobriu no caminho invalida algo desse dossiê? Se sim, atualize.
+7. Escrita do Dossiê Pessoal. Consolide tudo acima em um documento simples. Guarde. Releia ao final de cada fase seguinte deste manual. Compare. O que você descobriu no caminho invalida algo desse dossiê? Se sim, atualize.
 
 ### O fundador como pessoa, seis ensaios de Paul Graham para calibrar expectativa
 
@@ -199,6 +204,7 @@ Se os padrões apontam para "sim, sofro demais com hierarquia", empreender não 
 O ensaio do Graham é útil porque normaliza a necessidade de autonomia como característica legítima, em vez de tratá-la como vaidade ou irresponsabilidade. Para quem está nessa categoria, empreender é menos "grande decisão arriscada" e mais "caminho que se abre quando você aceita quem você é". Para quem não está nessa categoria, vale pensar muito bem antes de pagar o custo da trajetória só porque ela virou status.
 
 ### PERGUNTAS A RESPONDER
+
 - Eu tenho runway pessoal de pelo menos seis meses? Sim ou não, com número.
 - Por que eu quero empreender, em uma frase clara e honesta?
 - As pessoas que compartilham a minha vida financeira estão a bordo? Sim ou não, com registro da conversa.
@@ -208,6 +214,7 @@ O ensaio do Graham é útil porque normaliza a necessidade de autonomia como car
 - Qual o meu modelo de dedicação? Full, part, side?
 
 ### Métricas
+
 - Runway pessoal em meses. Idealmente doze ou mais para full-time, seis ou mais para part-time.
 - Horas semanais comprometidas. Mínimo de dez para progresso real. Abaixo disso, o projeto definha.
 - Nível de apoio da rede próxima, escala de um a cinco autoavaliada, com justificativa escrita.
@@ -470,6 +477,7 @@ A fila virou o principal motor de marketing: cada pessoa esperando convidava ami
 **Do PMF à escala.** Nos anos seguintes, expandiram linha de produtos (conta digital, produto de investimentos, seguros, crédito pessoal, conta PJ), entraram em outros países latino-americanos (México, Colômbia), e levantaram rodadas com Tencent, TCV, Tiger e Berkshire Hathaway (que investiu em 2021, pouco antes do IPO, na esteira da confiança institucional que Warren Buffett raramente concede a empresas relativamente jovens). Fizeram IPO na NYSE em dezembro de 2021 sob o ticker NU, em valuation que, no dia do IPO, os colocou entre as instituições financeiras mais valiosas da América Latina.
 
 **Lições transferíveis.**
+
 1. **FMF de alto nível é multifatorial**: background técnico + rede + complementaridade + experiência pessoal com o problema. A ausência de qualquer uma dessas dimensões aumenta significativamente o risco.
 2. **Disciplina em critério de aprovação** na fase de PMF sinalizou ao mercado que o produto era "para quem conseguisse", gerando desejo. Apertar critério é contraintuitivo quando há demanda, mas construiu reputação de rigor.
 3. **NPS sustentado acima de 80** é raro e gera composto: vira marketing orgânico, reduz CAC, aumenta LTV por referência, e filtra contratações (candidatos querem trabalhar em marcas amadas).
@@ -504,6 +512,7 @@ Encontrar co-fundador é trabalho de meses, não de semanas. Um dos erros mais c
 - **Não checar referências.** Peça para conversar com 3-5 pessoas que trabalharam com o candidato. Pergunte: "você trabalharia novamente com ele/ela? Em que contexto sim, em que contexto não?". Hesitação na resposta é informação.
 
 **Mini-checklist de qualificação antes de formalizar:**
+
 - [ ] Trabalhamos juntos em projeto com prazo e entrega por pelo menos 4 semanas.
 - [ ] Conversamos explicitamente sobre expectativa de dedicação (tempo integral? part-time? quando vira integral?).
 - [ ] Temos visão alinhada sobre aspiração final, empresa lifestyle pequena, scaleup, unicórnio.
@@ -545,6 +554,6 @@ A diferença entre quem faz certo, e quem falha, está na honestidade do diagnó
 
 O entregável dessa fase é o Dossiê Pessoal do Empreendedor. Não é documento que se arquiva. É referência viva, revisitada a cada seis meses, ou em mudança de vida significativa. Casamento, filho, doença, mudança de cidade. Quando a [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]] está bem-feita, o resto do livro vira execução. Quando está mal-feita, qualquer crise do negócio derruba tudo.
 
-#fase0 #preparacao #autoconhecimento #cofundadores #runway-pessoal #motivacao
+# fase0 #preparacao #autoconhecimento #cofundadores #runway-pessoal #motivacao
 
 ---

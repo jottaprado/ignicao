@@ -57,11 +57,13 @@ flowchart TB
 > Composição de managed services no MVP. DevOps real só depois do PMF. Evite criar o seu próprio auth, criar o seu próprio sistema de e-mail, construir observability do zero. Cada "do-zero" prematuro custa três a seis meses, e quase nunca produz vantagem competitiva.
 
 ### O que esse apêndice cobre
+
 Construção e lançamento controlado do MVP (Minimum Viable Product) com base na Especificação da [[#FASE 9 — TESTES DE SOLUÇÃO E USABILIDADE|Fase 9]]. O objetivo não é vender no grande mercado. É aprender com usuários reais usando um produto real, em ambiente real, pagando preço real (ou aceitando compromisso de pagamento).
 
 O entregável tem dois componentes. MVP em operação, e Relatório de Aprendizado do MVP depois de oito a doze semanas de uso, por dez a cinquenta usuários.
 
 ### POR QUE
+
 Até agora, você trabalhou com evidência declarada (entrevistas), e evidência comportamental limitada (testes de protótipo). O MVP é onde você finalmente obtém a evidência mais valiosa. O que as pessoas fazem com um produto real, pago, nas rotinas delas de verdade. Essa evidência é qualitativamente diferente. E muitas vezes surpreende.
 
 > [!warning] MVP não é "versão capenga" do produto
@@ -139,9 +141,11 @@ Custo típico: o mais alto dos três. Semanas ou meses de desenvolvimento. O cri
 > Construir o MVP em código antes do Concierge é como investir em fábrica antes de saber se o produto vende. Construir o Concierge antes da Landing Page é como contratar equipe antes de saber se alguém quer o que você faz.
 
 ### Quando usar
+
 Comece depois da [[#FASE 9 — TESTES DE SOLUÇÃO E USABILIDADE|Fase 9]] ter Especificação do MVP aprovada, e depois das Fases 1 e 2 do ciclo MVP (Landing e Concierge) terem sido concluídas com evidência positiva. Termine quando você tiver oito a doze semanas de dados de uso, retenção, e conversão. Permitindo tomar decisão sobre continuar, ajustar, ou pivotar. Revisite a cada iteração do produto depois do MVP.
 
 ### Quem envolve
+
 O executor é você. Com time técnico (interno, terceirizado, ou sócio). Os participantes são dez a cinquenta usuários pioneiros. O decisor é você.
 
 ### Como executar
@@ -252,6 +256,7 @@ Se você está em trial gratuito, tenha data de cobrança clara. Meça duas cois
 Depois de oito a doze semanas, consolide sete itens. Métricas comparadas com critérios pré-definidos. Aprendizados sobre o produto. Aprendizados sobre o usuário (quem ativa, e quem não ativa). Aprendizados sobre o canal (como os melhores usuários chegaram). Problemas encontrados. Oportunidades descobertas. Recomendação: perseverar, ajustar (iterar), pivotar (mudar estrutura), ou abandonar.
 
 ### PERGUNTAS A RESPONDER
+
 - Os usuários adotam o produto (ativação)?
 - Os usuários continuam usando (retenção)?
 - Os usuários pagam (conversão)?
@@ -583,6 +588,6 @@ A diferença entre quem faz certo, e quem falha, está em medir o MVP pelo apren
 
 O entregável é o MVP em operação, mais o Relatório de Aprendizado depois de oito a doze semanas. Esse aprendizado é qualitativamente diferente de tudo que veio antes. Pela primeira vez, você tem evidência do que pessoas reais fazem com produto real, pago, em rotinas reais. E a evidência muitas vezes surpreende. Aprendizado denso da [[#FASE 10 — MVP E EXPERIMENTOS DE MERCADO|Fase 10]] é insumo da [[#FASE 11 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 11]], validação da máquina econômica.
 
-#fase10 #mvp #ciclo-mvp #faca-coisas-que-nao-escalam #maquina-de-melhoria #stone #green-angel #launch-playbook #product-hunt #product-led-growth
+# fase10 #mvp #ciclo-mvp #faca-coisas-que-nao-escalam #maquina-de-melhoria #stone #green-angel #launch-playbook #product-hunt #product-led-growth
 
 ---

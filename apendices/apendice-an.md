@@ -63,7 +63,7 @@ Princípio. Tudo conecta. Mudança em qualquer driver (número de clientes, sal�
 
 **DRE (Demonstração de Resultado).**
 
-```
+```text
 Receita Bruta
 (-) Impostos sobre receita
 = Receita Líquida
@@ -83,7 +83,7 @@ Receita Bruta
 
 **Balanço.**
 
-```
+```text
 ATIVO PASSIVO + PL
 - Caixa - Contas a pagar
 - Contas a receber - Empréstimos
@@ -94,7 +94,7 @@ ATIVO PASSIVO + PL
 
 **Fluxo de Caixa.**
 
-```
+```text
 ENTRADAS
 + Recebimentos de clientes
 + Captação de capital
@@ -119,7 +119,7 @@ Integração. Lucro líquido do DRE vai para patrimônio no balanço. Mudança e
 
 **Drivers de receita (SaaS B2B exemplo).**
 
-```
+```text
 Novos logos por mês = f(leads, taxa de conversão)
 ARR novo = Novos logos × ACV médio
 Churn mensal = % base × ARR médio
@@ -132,7 +132,7 @@ Revenue reconhecido = MRR (competência mensal)
 
 **Drivers de custos (headcount-driven, típico em tech).**
 
-```
+```text
 Headcount por função = plano trimestral
 Custo/cabeça por função = salário + encargos + benefícios
 Total payroll = Σ (headcount × custo/cabeça)
@@ -140,7 +140,7 @@ Total payroll = Σ (headcount × custo/cabeça)
 
 **Drivers variáveis.**
 
-```
+```text
 COGS = receita × (1 - margem bruta target)
  ou
 COGS = hosting (function de usage) + processamento (function de transactions) + etc.

@@ -90,6 +90,7 @@ Mídia local e regional tier 4 é útil para empresa com base geográfica clara.
 Para construir relacionamento com a imprensa, identificar cinco a quinze jornalistas do seu setor que escrevem relevantemente e ler tudo deles. Introduzir-se sem pauta primeiro: "queria me apresentar, coloco-me à disposição para background sobre o setor quando precisar". Jornalista guarda contato útil. Oferecer background sem querer cobertura imediata vira fonte confiável. Quando tiver pauta real, ligar ou escrever com substância: dados, acesso, exclusividade se couber. Respeitar o deadline do jornalista. Nunca pedir para "mudar" matéria publicada: jornalismo independente não funciona assim e pedidos desse tipo queimam a relação.
 
 **Entrevistas, preparo:**
+
 - Saber 3-5 mensagens-chave que quer transmitir. Voltar a elas nas respostas.
 - Preparar com assessoria para perguntas difíceis ("sua empresa demitiu 20%, por que?"). Resposta honesta curta > resposta defensiva longa.
 - **Não responder ao que não sabe.** "Não tenho esse dado agora, mando por email" é melhor que chutar.
@@ -97,11 +98,13 @@ Para construir relacionamento com a imprensa, identificar cinco a quinze jornali
 - Para TV: treinamento visual (olhar para câmera, postura, vestuário, luz).
 
 **Quando recusar cobertura:**
+
 - Pauta ruim ou negativa onde você não tem o que dizer de útil, declinar com educação.
 - Veículo ruim ou sensacionalista, participação queima credibilidade.
 - Momento errado da empresa (crise não resolvida), tempo não para isso.
 
 **Crises e direito de resposta:**
+
 - Se matéria tem erro factual: pedir correção formal (jornalista ou editor) com evidência.
 - Direito de resposta: último recurso, legal, específico (Lei 13.188/2015).
 - Processar jornalista: geralmente péssimo. Amplia problema e cria Streisand Effect.
@@ -115,6 +118,7 @@ Os eventos que valem atenção no Brasil incluem CASE (ABStartups) como o maior 
 A regra de ouro para eventos: preparar conteúdo real (não "impressionar") e calibrar frequência. Keynote exige no mínimo oito a doze horas de preparação para estar pronto de verdade.
 
 **Recusar convites:**
+
 - Eventos ruins ou desalinhados queimam tempo e contexto.
 - Aprender a dizer não. Critérios: audiência relevante? formato permite fala substantiva? pago? vale tempo?
 
@@ -142,6 +146,7 @@ Conflito com investidor, saída de sócio ou briga de board: regra geral é sil�
 6. **Mês 1-3**: continuidade (mostrar correção de rota, não apenas contrição).
 
 **Erros comuns em crisis comm:**
+
 - **Silêncio estendido**: transfere narrativa para vácuo.
 - **Negação sem base**: quando fatos aparecem depois, destrói credibilidade de forma irreversível.
 - **Culpar subalternos**: sinaliza liderança fraca.

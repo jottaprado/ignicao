@@ -278,6 +278,4 @@ type: reference
 
 **ZOPA (Zone of Possible Agreement).** Zona de acordo possível em negociação: sobreposição entre o mínimo aceitável de uma parte e o máximo aceitável da outra. Ver BG.15.
 
-
-
 ---

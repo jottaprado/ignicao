@@ -6,20 +6,24 @@ part: parte-i
 ## FASE 2 — ARTICULAÇÃO E CAPTURA DA IDEIA
 
 ### O que esse apêndice cobre
+
 Tirar a ideia da cabeça e colocá-la em formato escrito, estruturado, comunicável. O entregável é um documento chamado Declaração Inicial da Ideia. Uma página única que articula cinco coisas. O problema percebido. Quem sofre esse problema. A solução imaginada. Por que você acha que funciona. E tudo o que você não sabe sobre a ideia. A lista de incertezas.
 
 > [!note] Esta fase não é para validar
 > Esta fase não é para validar a ideia. É apenas para capturá-la com precisão. Muitos empreendedores "têm uma ideia" há meses, mas nunca a escreveram. Quando tentam escrever, descobrem que havia três ideias misturadas, ou que não sabem explicar o problema, ou que a ideia era só um sentimento vago.
 
 ### POR QUE
+
 Tudo o que você não escreve não existe operacionalmente. A articulação força clareza. Clareza revela lacunas. Lacunas são o material de trabalho das próximas fases. Sem esta fase, você entra no processo de validação sem saber exatamente o que está validando, e acaba validando uma versão confusa e movediça da ideia. Pior do que não validar.
 
 E ao listar explicitamente o que você não sabe, você cria a agenda de trabalho das Fases 2 a 6. As suas incertezas de hoje são as suas hipóteses de amanhã.
 
 ### Quando usar
+
 Comece assim que a [[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]] estiver concluída — você sai da Fase 1 com uma Lista Curta de três a cinco candidatas e uma escolhida para articular aqui. As outras ficam guardadas para revisita se a candidata principal não resistir aos filtros das fases seguintes. Termine quando a Declaração couber em uma página, e você conseguir explicá-la verbalmente para um estranho em noventa segundos, e esse estranho conseguir repeti-la de volta com precisão. Revisite ao final de cada fase seguinte, para atualizar com o que foi aprendido.
 
 ### Quem envolve
+
 O executor principal é você. Os participantes são três a cinco pessoas que vão ler e dar feedback sobre a clareza da articulação, não sobre se a ideia é boa. Escolha gente que não é do seu setor. Para te forçar a explicar sem jargão. O decisor é você.
 
 ### Como executar
@@ -66,7 +70,7 @@ O quarto passo é listar as suas incertezas. Esse passo é o mais importante. Es
 
 O quinto é condensar tudo em uma página só. Use este template (versão formatada no [[#APÊNDICE A — TEMPLATES PRONTOS PARA USO|Apêndice A]]).
 
-```
+```text
 DECLARAÇÃO INICIAL DA IDEIA, v1
 
 Problema: [3 frases, sem mencionar a solução]
@@ -84,6 +88,7 @@ O sexto é teste de articulação verbal. Apresente a ideia verbalmente para tr�
 O sétimo é arquivar a versão v1. Mantenha para comparar depois. A ideia vai mudar. Observar a evolução é educativo.
 
 ### PERGUNTAS A RESPONDER
+
 - Eu consigo descrever o problema sem mencionar a minha solução?
 - O meu cliente-alvo está descrito de forma específica o suficiente para eu conseguir encontrá-lo na vida real?
 - Eu consigo descrever como o cliente resolve o problema hoje?
@@ -92,6 +97,7 @@ O sétimo é arquivar a versão v1. Mantenha para comparar depois. A ideia vai m
 - Pessoas fora do meu círculo conseguem repetir a minha ideia com precisão depois de eu explicar uma vez?
 
 ### Métricas
+
 Tamanho da Declaração. Deve caber em uma página, entre quatrocentas e seiscentas palavras. Se passa disso, ainda não está clara.
 
 Tempo de explicação verbal. Idealmente entre sessenta e cento e vinte segundos.
@@ -227,6 +233,6 @@ A diferença entre quem faz certo, e quem falha, está em assumir as próprias i
 
 O entregável é uma página única, capaz de ser explicada verbalmente para um estranho em noventa segundos. E esse estranho consegue repetir de volta com precisão. Esse teste de transmissão é o filtro de clareza. Se a ideia não passa, ela ainda não está pronta para ser validada. Está pronta para ser reescrita. Quem pula essa fase entra no processo de validação sem saber exatamente o que está validando. E acaba validando uma versão confusa, e movediça, da ideia. Pior do que não validar.
 
-#fase2 #articulacao #declaracao-inicial #incertezas #hipoteses #suposicoes-chave
+# fase2 #articulacao #declaracao-inicial #incertezas #hipoteses #suposicoes-chave
 
 ---

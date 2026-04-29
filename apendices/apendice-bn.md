@@ -216,6 +216,7 @@ Wrong hire não-demitido. Reconhecer wrong hire em seis meses, e demorar outros 
 ### Checklist
 
 **Preparação:**
+
 - [ ] Scorecard completo (mission, outcomes, competencies)?
 - [ ] Org chart atual, e futuro?
 - [ ] Compensation framework aprovado internamente?
@@ -224,12 +225,14 @@ Wrong hire não-demitido. Reconhecer wrong hire em seis meses, e demorar outros 
 - [ ] Board informado, e alinhado (se aplicável)?
 
 **Sourcing:**
+
 - [ ] Network do CEO ativado primeiro?
 - [ ] Board contatado para referrals?
 - [ ] Search firm contratada, se network não produzir em quatro a oito semanas?
 - [ ] Múltiplos source streams rodando em paralelo?
 
 **Processo:**
+
 - [ ] Entrevistas com critérios pré-definidos?
 - [ ] Panel de entrevistadores treinado, e calibrado?
 - [ ] Case study relevante preparado?
@@ -238,21 +241,25 @@ Wrong hire não-demitido. Reconhecer wrong hire em seis meses, e demorar outros 
 - [ ] Debrief formal do panel?
 
 **Decisão:**
+
 - [ ] Board approval para package (C-level)?
 - [ ] Offer letter completo, com todos os termos?
 - [ ] Espaço para negociação definido?
 
 **Closing:**
+
 - [ ] Relacionamento mantido, entre offer, e start date?
 - [ ] Onboarding planejado, antes do day 1?
 
 **Onboarding:**
+
 - [ ] Plano trinta-sessenta-noventa, com o executivo, nos primeiros dias?
 - [ ] Intro meetings agendados?
 - [ ] Weekly um a um com CEO, nos primeiros noventa dias?
 - [ ] Checkpoint noventa dias formal?
 
 **Retenção:**
+
 - [ ] Reviews trimestrais?
 - [ ] Feedback em ambas as direções?
 - [ ] Compensation review anual?

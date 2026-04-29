@@ -271,7 +271,8 @@ Custo de migração. R$ 30 a R$ 100 mil em advogados, mais custos cartoriais, ma
 #### Exemplo de cap table em evolução
 
 **Estágio 0, fundação.**
-```
+
+```text
 Fundador A: 60%
 Fundador B: 40%
 Total: 100%
@@ -280,10 +281,12 @@ Total: 100%
 **Estágio 1, após rodada anjo (R$ 1 milhão com mútuo conversível).**
 
 Cap table "formal" (antes da conversão) permanece.
-```
+
+```text
 Fundador A: 60%
 Fundador B: 40%
 ```
+
 Mas há pendente. Mútuo conversível R$ 1 milhão a converter em próxima rodada, com desconto vinte por cento, e cap R$ 8 milhões.
 
 **Estágio 2, após Série A (R$ 10 milhões, pre-money R$ 20 milhões).**
@@ -293,7 +296,8 @@ Conversão do mútuo. Cap, R$ 8 milhões dividido por R$ 20 milhões, igual a qu
 Nova rodada. R$ 10 milhões pre-money R$ 20 milhões, igual a 10 dividido por 30, igual a 33,3% aos investidores Série A.
 
 Post-money cap table.
-```
+
+```text
 Fundador A: 60% × 66,7% × 87,5% = 35,0%
 Fundador B: 40% × 66,7% × 87,5% = 23,3%
 Anjo: 12,5% × 66,7% = 8,3%
@@ -304,14 +308,16 @@ Total: 100,0%
 Nota. ESOP pool geralmente criado antes da rodada (dez a quinze por cento). Dilui fundadores.
 
 Pre-rodada, com ESOP quinze por cento.
-```
+
+```text
 Fundadores pós-diluição para pool: 85% × distribuição original
 Anjos (já diluídos por ESOP): proporcional
 ESOP reservado: 15%
 ```
 
 Post-rodada completa, com tudo.
-```
+
+```text
 Fundador A: ~30%
 Fundador B: ~20%
 Anjo: ~7%

@@ -133,6 +133,7 @@ O perfil problemático é o oposto. Concentração alta (top três Bs representa
 ### Checklist
 
 > [!tip] Checklist de B2B2C
+>
 > - Arquétipo B2B2C identificado (white-label, cobrand, enabler, marketplace, aggregation)
 > - Dois usuários (B admin e C final) mapeados com necessidades distintas
 > - Produto com duas interfaces pensadas (admin mais experiência final)

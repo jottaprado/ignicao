@@ -166,6 +166,7 @@ Cyber insurance é mercado nascente no Brasil, e cresceu pós-2020. Apólices ex
 A Polícia Federal Cibercrime (DCIBER) responde, mas com capacidade limitada. Casos grandes são encaminhados para lá.
 
 > [!tip] Checklist mínimo aplicável a qualquer empresa
+>
 > - MFA obrigatório em todos os sistemas críticos
 > - SSO implementado
 > - Password manager corporativo

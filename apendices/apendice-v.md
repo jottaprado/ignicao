@@ -390,7 +390,7 @@ Investor update é comunicação recorrente, e estruturada, do CEO para todos os
 
 **Estrutura típica do Investor Update mensal.**
 
-```
+```text
 ASSUNTO: [Empresa], Update [Mês/Ano]
 
 TL;DR: [2-3 frases com o mais importante do mês]

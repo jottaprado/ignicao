@@ -1,0 +1,54 @@
+// Config de markdownlint para o repo IGNIÇÃO.
+// Desabilita regras que não fazem sentido para um livro em prosa.
+{
+  "config": {
+    // Linha pode ser longa em prosa — não é código.
+    "MD013": false,
+
+    // Headings repetidos como "### Quando usar" são padrão estrutural
+    // dos apêndices/fases — intencional, não erro.
+    "MD024": false,
+
+    // Espaçamento "compacto" em tabelas é escolha estética, não erro.
+    "MD060": false,
+
+    // Texto em **negrito** sozinho às vezes funciona como mini-heading
+    // dentro de seções; manter flexibilidade narrativa.
+    "MD036": false,
+
+    // Livro tem múltiplos H1 (# PARTE I, # PARTE II, # REFERÊNCIA) —
+    // intencional como agrupador de partes.
+    "MD025": false,
+
+    // URLs nuas em casos pontuais (ex: instruções de issue tracker)
+    // são aceitáveis.
+    "MD034": false,
+
+    // MD041: primeiro heading não precisa ser h1 (modulares começam
+    // com frontmatter + ## APÊNDICE/FASE).
+    "MD041": false,
+
+    // MD028: blank in blockquote — necessário para SEPARAR callouts
+    // adjacentes ([!note] / [!tip]). Unificá-los (o que o linter pede)
+    // os mescla num único bloco no render do GitHub. Manter desabilitado.
+    "MD028": false,
+
+    // MD035: HR style — `---` é a forma mais comum e o livro mistura
+    // de propósito em alguns trechos (separador de seção vs HR). Não
+    // travar.
+    "MD035": false,
+
+    // MD056: table column count — falsos positivos em tabelas com
+    // wiki-link `[[#X|Y]]` dentro de células (escape `\|` é contado
+    // como pipe extra).
+    "MD056": false,
+
+    // MD001: heading-increment — pulos `### → #####` são intencionais
+    // em headers decorativos de exemplos.
+    "MD001": false
+  },
+  "ignores": [
+    "node_modules",
+    ".git"
+  ]
+}

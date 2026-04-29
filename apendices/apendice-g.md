@@ -97,7 +97,7 @@ Ambas as ideias tinham perfis Exploratory muito fortes, mas em dimensões difere
 
 ### Template de scorecard
 
-```
+```text
 SCORECARD DA IDEIA, v___ Data: ___/___/___
 
 PROBLEM CORE (deal-breakers, todos devem ser H≥7)

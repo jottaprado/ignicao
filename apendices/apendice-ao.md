@@ -68,7 +68,7 @@ Estágio versus contratação.
 
 Arquitetura padrão em SaaS moderno (2023 a 2026).
 
-```
+```text
 FONTES TRANSPORTE ARMAZENAMENTO MODELAGEM CONSUMO
 - App database → - Fivetran → - Snowflake → - dbt → - Looker / Metabase
 - CRM (HubSpot) - Airbyte - BigQuery - Coalesce - Mode / Hex
@@ -100,7 +100,7 @@ Erro comum. Métrica nomeada ambiguamente, que cada área calcula diferente. "Ch
 
 Exemplo, churn de logo mensal.
 
-```
+```text
 Fórmula:
  Churn_mensal(T) = Clientes_cancelados(T) / Clientes_ativos_no_início(T)
 
@@ -146,7 +146,7 @@ Os princípios corretos vêm em quatro fases.
 
 Cálculo de sample size. Para A/B simples com métrica de conversão, fórmula aproximada.
 
-```
+```text
 n = 16 × baseline_rate × (1 - baseline_rate) / MDE²
 
 onde MDE = Minimum Detectable Effect (em pontos absolutos de conversão)
@@ -154,7 +154,7 @@ onde MDE = Minimum Detectable Effect (em pontos absolutos de conversão)
 
 Exemplo. Baseline de conversão de vinte por cento, queremos detectar melhoria de dois pontos (vinte e dois por cento).
 
-```
+```text
 n = 16 × 0.20 × 0.80 / 0.02² = 6.400 usuários por variante
 ```
 

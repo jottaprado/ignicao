@@ -147,15 +147,19 @@ flowchart TD
 > Cada salto (cinco para dez, dez para trinta, trinta para cem) exige mudança estrutural do fundador. Deixar de executar, depois liderar, depois liderar líderes. A maioria das crises organizacionais acontece nos saltos, não nos plateaus.
 
 #### O QUE (Time e Liderança)
+
 Construção deliberada do time que vai executar o crescimento pós-PMF, e da liderança (começando pelo fundador) capaz de comandar uma empresa com trinta, cinquenta, ou cem pessoas, sem virar o gargalo central. O entregável é o Plano de Time de dezoito meses, mais a Carta de Valores e Cultura, mais o Processo de Contratação documentado.
 
 #### POR QUE (Time e Liderança)
+
 Depois do PMF, a restrição binding muda. Antes, era "existe mercado?". Agora, é "você consegue montar o time capaz de executar?". A maioria dos fundadores que atingem PMF, e depois estagnam, não falham em produto, ou canal. Falham em contratação. Em delegação. Ou em evoluir o próprio papel de "faço tudo" para "construo quem faz".
 
 #### QUANDO (Time e Liderança)
+
 Comece com PMF confirmado (Sean Ellis quarenta por cento ou mais, retenção estável, e crescimento orgânico mensurável). Termine quando as cinco a sete contratações críticas dos próximos doze meses estão definidas, a cultura documentada, e os processos de hiring em operação. Revisite a cada seis meses, e a cada mudança significativa de estágio (passou de dez para trinta, de trinta para sessenta, ou de sessenta para mais de cem pessoas).
 
 #### QUEM (Time e Liderança)
+
 O executor principal é o fundador (CEO), e o COO se houver. Os participantes são sócios, primeiro head de RH ou People (quando houver), e advisors. O decisor final é o CEO. Com responsabilidade compartilhada em decisões de C-level.
 
 #### COMO (Time e Liderança)
@@ -231,6 +235,7 @@ Cultura degrada sem medição. eNPS trimestral é o mínimo. A pergunta. "Em esc
 Acompanhe também três coisas. Taxa de retenção de doze meses. Tempo médio de permanência por nível de seniority. E razão de saídas (categorize, e aprenda).
 
 #### PERGUNTAS A RESPONDER (Time e Liderança)
+
 - Em quais três áreas eu virei gargalo no último trimestre?
 - Quais são as cinco a sete contratações críticas dos próximos doze meses?
 - O meu processo de contratação de C-level consegue filtrar alguém que parece bom, mas é ruim?
@@ -444,15 +449,19 @@ flowchart TD
 > Em escala, stack operacional fica mais importante que stack de produto. **OKRs e gestão**: Notion, Asana, ClickUp, Linear (para times tech), ou plataformas específicas de OKR (Perdoo, Weekdone). **Documentação interna**: Notion, Confluence, Coda. **Comunicação**: Slack ou Microsoft Teams. **Videoconferência**: Google Meet, Zoom. **RH e folha**: Gupy para recrutamento. Sólides, Pipefy ou Factorial para gestão. Omie ou Conta Azul mais parceiros para folha no Brasil. **Financeiro**: Conta Azul ou Omie para ERP pequeno. Sage Intacct, NetSuite para médio. QuickBooks internacional. **Analytics de produto**: Mixpanel, Amplitude, PostHog. **CRM**: HubSpot (grátis inicial), Pipedrive, Salesforce (pesado, enterprise). **Regra**: consolidar ferramentas sempre que possível. O custo escondido de integrar vinte SaaS diferentes é altíssimo.
 
 #### O QUE (Operações)
+
 Transformação da operação artesanal (que funcionou do zero ao PMF) em sistemas que escalam sem multiplicar caos. O entregável é a Arquitetura Operacional. Sistema de OKRs, cadência de reuniões, playbook de processos críticos, e stack de ferramentas de gestão.
 
 #### POR QUE (Operações)
+
 O que funciona com dez pessoas rodando em Slack e Notion quebra com quarenta pessoas distribuídas em três times. Processos que eram implícitos precisam virar explícitos. Decisões que eram discutidas no almoço precisam de fóruns formais. Sem essa transição, a empresa desacelera exponencialmente. Cada pessoa nova reduz produtividade das existentes, porque tudo precisa ser re-explicado.
 
 #### QUANDO (Operações)
+
 Comece quando o time passa de cerca de quinze pessoas, ou quando comunicação começa a gerar mais atrito do que velocidade. Termine quando processos críticos estão documentados, rituais de gestão estão em cadência, e stack de ferramentas estável. Revisite a cada seis a nove meses de alta velocidade de contratação.
 
 #### QUEM (Operações)
+
 O executor principal é o CEO, com Head of Operations (ou Chief of Staff se houver), e lideranças de área. O decisor é o CEO em cadência. As lideranças, em execução.
 
 #### COMO (Operações)
@@ -488,7 +497,7 @@ Não recalibrar mid-quarter. Se nas semanas quatro a seis fica claro que um OKR 
 
 Formato canônico de OKR.
 
-```
+```text
 Objective: [direcional, ambicioso, memorável]
  KR1: [número inicial] → [número alvo] (por [data])
  KR2: [número inicial] → [número alvo]
@@ -586,6 +595,7 @@ Quando algo dá errado (produto cai, cliente grande cancela, incidente de segura
 > Cultura que pune erro gera ocultamento. Cultura que aprende do erro gera resiliência.
 
 #### PERGUNTAS A RESPONDER (Operações)
+
 - Tenho cadência semanal, trimestral, e anual formalizada?
 - Os meus OKRs descrevem mudança, ou são KPIs disfarçados?
 - Quais processos críticos ainda são "no implícito", e precisam virar playbook?
@@ -798,15 +808,19 @@ flowchart LR
 > Em escala, a tentação é delegar tudo, e virar administrador. A pergunta de FMF aqui é. *Há decisões estratégicas que só você pode tomar, porque só você tem o contexto de mercado construído?* Se sim, delegar essas é destruir valor. Se não, se qualquer executivo profissional tomaria as mesmas decisões, o seu valor marginal como fundador está em declínio. Ambas as respostas têm implicações. A primeira pede preservação de Founder Mode seletivo ([[#APÊNDICE R — FOUNDER MODE, DELEGAÇÃO E QUANDO PARAR DE FAZER|Apêndice R]]). A segunda pede consideração de sucessão, ou exit.
 
 #### O QUE (Crescimento e Capital)
+
 Transformação do motor de aquisição (que provou unit economics em pequena escala na [[#FASE 11 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 11]]) em uma máquina de crescimento previsível, repetível, e escalável. Com capital estruturado para financiá-la. Os entregáveis são o Growth Plan de dezoito meses, mais o Capital Plan, mais o Expansion Plan (novos segmentos, geografias, ou produtos).
 
 #### POR QUE (Crescimento e Capital)
+
 Crescer três a cinco vezes ao ano exige infraestrutura. Vendas fundador-led não escala acima de R$ 5-10 milhões de ARR. Marketing ad-hoc não gera previsibilidade. Internacionalização intuitiva queima caixa. Cada uma dessas áreas tem padrões conhecidos de sucesso e falha. E ignorá-los é optar por aprender caro. Adicionalmente, captação estratégica, versus oportunista, é a diferença entre rodadas que aceleram, e rodadas que estrangulam.
 
 #### QUANDO (Crescimento e Capital)
+
 Comece depois da [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] em operação estável. Termine quando a máquina de aquisição estiver previsível, o plano de capital executado (ou em execução), e a expansão (se aplicável) em curso, com pelo menos uma vertical, ou geografia, nova validada. Revisite anualmente. E a cada saturação de canal (a cada doze a dezoito meses).
 
 #### QUEM (Crescimento e Capital)
+
 O executor principal é o CEO, mais o Head of Sales ou Marketing, mais o CFO. Os participantes são o board, advisors, e investidores potenciais.
 
 #### COMO (Crescimento e Capital)
@@ -1166,6 +1180,7 @@ A aquisição como comprador é bem-sucedida quando os cinco critérios abaixo e
 ---
 
 #### PERGUNTAS A RESPONDER (Crescimento e Capital)
+
 - A minha venda é repetível, ou depende de mim pessoalmente?
 - O meu canal principal está saturado, ou tem headroom?
 - O meu burn multiple está sustentável?
@@ -1321,7 +1336,7 @@ A duração típica da [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E C
 
 Quando você olhar para trás, ao fim da [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]], vai reconhecer duas coisas. Primeira. A empresa é maior, mais complexa, e mais resiliente do que você imaginava possível. Segunda. Você também é. Ambas as transformações são parte da mesma jornada.
 
-#fase14 #escala #time-em-escala #lideranca #okrs #operacoes #growth #captacao #serie-a #m-and-a
+# fase14 #escala #time-em-escala #lideranca #okrs #operacoes #growth #captacao #serie-a #m-and-a
 
 ---
 

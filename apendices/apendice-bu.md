@@ -192,12 +192,14 @@ Esperar perfeição antes de começar. DEI é jornada. Não destino.
 ### Checklist
 
 **Diagnóstico:**
+
 - [ ] Dados demográficos voluntários coletados?
 - [ ] Breakdown por nível, e função?
 - [ ] Benchmarks de mercado consultados?
 - [ ] Gaps identificados, e priorizados?
 
 **Recrutamento:**
+
 - [ ] Parcerias com programas de diversidade?
 - [ ] Job specs revisados para evitar viés excludente?
 - [ ] Panel de entrevistas diverso?
@@ -205,18 +207,21 @@ Esperar perfeição antes de começar. DEI é jornada. Não destino.
 - [ ] Pipeline tracking por grupo?
 
 **Equidade:**
+
 - [ ] Pay equity analysis anual?
 - [ ] Pay bands transparentes?
 - [ ] Promoção com critérios documentados?
 - [ ] Calibration sessions?
 
 **Inclusão:**
+
 - [ ] Normas de reunião inclusivas?
 - [ ] Benefits equitativos (licença parental, dependentes diversos)?
 - [ ] Canal confidencial de reporte?
 - [ ] Events, e celebrations, substantivos?
 
 **Accountability:**
+
 - [ ] Métricas DEI em OKRs de liderança?
 - [ ] Dashboard mensal?
 - [ ] Board review trimestral?

@@ -161,4 +161,5 @@ Confundir problemas de execução com necessidade de pivot é armadilha comum. P
 Pivot bem executado é uma das ferramentas mais poderosas do fundador. Muitas empresas grandes hoje existem porque o fundador original pivotou no momento certo. Mas pivot mal executado, ou pivot como disfarce de shutdown, é uma das causas mais comuns de empresa que quebra.
 
 A diferença entre os dois é disciplina. Evidência antes da decisão. Tese específica da nova direção. Comunicação aberta a stakeholders. Medição rigorosa do novo caminho. Falta de qualquer um dos quatro quase sempre indica que o "pivot" é, na verdade, outra coisa menos útil.
+
 ---

@@ -9,12 +9,12 @@ part: introducao
 
 > [!tip] Dica para leitura no Obsidian
 > Este arquivo foi otimizado para Obsidian. Os links do Sumário são wiki-links nativos, basta clicar.
+>
 > - **Leitura fluida:** habilite **Reading Mode** (ícone de olho no canto superior direito)
 > - **Navegação:** use o **Outline** no painel lateral direito (`Ctrl/Cmd + Shift + O`) para ver toda a hierarquia de headings
 > - **Busca dentro deste documento:** `Ctrl/Cmd + F`
 > - **Busca em todo o vault:** `Ctrl/Cmd + Shift + F`
 > - **Mapa de conexões:** se dividir em múltiplos arquivos no futuro, o Graph View (`Ctrl/Cmd + G`) fica muito útil
-
 
 ---
 

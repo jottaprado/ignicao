@@ -9,17 +9,21 @@ part: parte-i
 > Para rodar experimentos baratos. Landing pages rápidas: Webflow, Framer, Carrd, Wix (R$ 0 a R$ 100 por mês, segundo o uso). Tráfego pago para testes: Meta Ads (R$ 500 a R$ 3.000 para primeiros testes), Google Ads (similar), LinkedIn Ads (se B2B, mais caro mas direto). Analytics: Google Analytics 4 (gratuito), Hotjar ou Microsoft Clarity (gratuitos para uso moderado) para heatmap. Plausible (alternativa simples e privacy-first). Pagamentos para pré-venda: Stripe, Asaas, Pagar.me, Stone, MercadoPago (cada um com particularidades regulatórias no Brasil). Regra: o stack de experimentação deveria custar menos de R$ 1.000 por mês no começo. Se está caro antes de aprender, algo está errado.
 
 ### O que esse apêndice cobre
+
 Execução de experimentos estruturados para testar as hipóteses prioritárias levantadas na [[#FASE 6 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 6]]. Nesta fase, você ainda foca primariamente em validar o problema e o cliente, não a solução construída. Os experimentos são rápidos, baratos, e desenhados para dar evidência confiável de sim, não, ou talvez.
 
 O entregável é um Relatório de Experimentos. Hipóteses testadas, resultados, aprendizados, e próximos passos.
 
 ### POR QUE
+
 Hipóteses sem experimentos são só listas bonitas. Experimentos transformam suposição em evidência. Rápido e barato é fundamental. Se um experimento demora três meses, ou custa R$ 50 mil, você está gastando demais para aprender uma coisa só. Cada experimento deve gerar uma decisão clara. Continuar. Ajustar. Pivotar. Ou matar.
 
 ### Quando usar
+
 Comece assim que a [[#FASE 6 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 6]] priorizar as primeiras hipóteses. Termine quando as três a cinco hipóteses bet-the-company estiverem validadas ou refutadas com evidência suficiente. Revisite continuamente. O negócio gera novas hipóteses o tempo todo.
 
 ### Quem envolve
+
 O executor é você. Alguns experimentos envolvem potenciais clientes, colaboradores externos, ou plataformas pagas (Facebook Ads, Google Ads, Typeform). O decisor é você, com base nos critérios de sucesso pré-definidos.
 
 ### Como executar
@@ -30,7 +34,7 @@ Dez passos.
 
 Use esse formato:
 
-```
+```text
 EXPERIMENTO #N
 Hipótese: [copiar da Fase 6]
 Pergunta central: [o que especificamente quero responder]
@@ -228,6 +232,7 @@ Resultados negativos, nesse enquadramento, são informação valiosa. Não fraca
 Versione. A Declaração vai para v0.2, v0.3, v0.4. Isso é saudável. Significa que você está aprendendo.
 
 ### PERGUNTAS A RESPONDER
+
 - A hipótese bet-the-company está validada, refutada, ou inconclusiva?
 - Qual a evidência concreta? Números, verbatim, observações.
 - O que eu aprendi de inesperado?
@@ -471,6 +476,6 @@ A diferença entre quem faz certo, e quem falha, está no rigor metodológico. T
 
 O entregável é o Relatório de Experimentos. Hipóteses testadas, resultados, aprendizados, próximos passos. O que sobrevive aos testes vira insumo da [[#FASE 8 — IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES|Fase 8]], ideação de soluções. O que é refutado força reabertura da árvore de teoria, e às vezes da escolha de cunha. A [[#FASE 7 — EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA|Fase 7]] é o ponto onde a teoria do negócio enfrenta o mundo. Quem trata isso com rigor produz aprendizado real. Quem trata como teatro de validação produz documentação para investidor, e nada mais.
 
-#fase7 #experimentos #validacao #threshold #pre-registro #landing-page #pre-venda #fake-door #wizard-of-oz #regra-9-em-10
+# fase7 #experimentos #validacao #threshold #pre-registro #landing-page #pre-venda #fake-door #wizard-of-oz #regra-9-em-10
 
 ---

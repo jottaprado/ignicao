@@ -23,7 +23,7 @@ appendix: "A"
 
 ### A.1 Declaração Inicial da Ideia (Fase 2)
 
-```
+```text
 DECLARAÇÃO INICIAL DA IDEIA
 Versão: ___ | Data: ___
 
@@ -322,7 +322,7 @@ Para cada problema que a pessoa citar espontaneamente:
 
 ### A.4 Cartão de Experimento (Fase 7)
 
-```
+```text
 EXPERIMENTO #___
 Data planejada: ___ a ___
 
@@ -366,7 +366,7 @@ ___________________________________________
 
 ### A.5 Persona com dados (Fase 4)
 
-```
+```text
 PERSONA: [nome fictício]
 
 Contexto profissional/pessoal
@@ -402,7 +402,7 @@ Base de evidência: [quantas entrevistas, quais]
 
 ### A.6 Especificação de MVP (Fase 9)
 
-```
+```text
 ESPECIFICAÇÃO DO MVP
 Versão: ___ | Data: ___
 
@@ -452,7 +452,7 @@ R$ _____
 
 ### A.7 Árvore de Teoria — Story Tree (Fase 2B)
 
-```
+```text
 ÁRVORE DE TEORIA, v___ Data: ___/___/___
 
 PERGUNTAS-ÂNCORA:
@@ -522,7 +522,7 @@ Três pessoas que conseguiram repetir minha teoria com as próprias palavras:
 
 Use esta representação quando quiser uma visão mais precisa e probabilística da teoria. É o passo seguinte ao Story Tree, para empreendedores que já dominam o básico.
 
-```
+```text
 MAPA CAUSAL, v___
 
 Instruções:
@@ -565,7 +565,7 @@ demais. Sweet spot inicial: entre 15% e 50%.
 
 Use este template quando já preencheu um BMC ou Lean Canvas e precisa transformá-lo em teoria causal.
 
-```
+```text
 THEORY MAP, Conexão BMC ↔ Teoria v___
 
 Para cada bloco do BMC, responda as três perguntas:
@@ -641,7 +641,7 @@ DIAGNÓSTICO:
 
 Template central para conectar teoria, hipótese, evidência e avaliação. Use um canvas por hipótese prioritária. Preencha os blocos superior e médio **antes** de coletar dado, os blocos inferiores são preenchidos **após** a coleta, respeitando a ordem indicada.
 
-```
+```text
 ╔══════════════════════════════════════════════════════════╗
 ║ HYPOTHESIS CANVAS #___ ║
 ╠════════════════════════════╦═════════════════════════════╣
@@ -728,7 +728,7 @@ Assinatura do empreendedor: _______________________________
 
 Use este template para validar o elemento #4 da Anatomia da Cunha (Dono do Orçamento) antes de avançar para a [[#FASE 6 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 6]]. É exercício de 10-15 minutos, se demora mais, o próprio atraso já é o diagnóstico.
 
-```
+```text
 TESTE DE PRECISÃO DO COMPRADOR, v___ Data: ___/___/___
 
 A FRASE QUE NÃO DEVE TRAVAR:
@@ -807,7 +807,7 @@ sem ajuste e a consideraram plausível para o ICP:
 
 Use este template como entregável final da [[#FASE 5 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 5]]. Ele consolida os quatro elementos da Anatomia da Cunha, o Teste do Grupo de WhatsApp e a comparação com a alternativa atual. Preencha **antes** de avançar para a [[#FASE 6 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 6]], sem ele, as hipóteses da fase seguinte não terão ancoragem no mercado específico que você escolheu atacar.
 
-```
+```text
 CANVAS DA CUNHA, v___ Data: ___/___/___
 
 ICP (preciso): _______________________________________
@@ -896,6 +896,7 @@ Preencher com 5-15 parcerias ativamente em movimento. Parcerias em "standby há 
 Documento de 2-3 páginas, revisão semestral.
 
 **Necessidade de caixa nos próximos 18 meses:**
+
 - Cenário conservador: R$ _____
 - Cenário realista: R$ _____
 - Cenário pessimista: R$ _____
@@ -915,12 +916,14 @@ Documento de 2-3 páginas, revisão semestral.
 | **Total** | | 100% | | |
 
 **Decisões-chave:**
+
 - Qual o gap a cobrir, após receita orgânica?
 - Qual a ordem de ataque (priorizar não-diluitivo antes de equity)?
 - Quais covenants/condições são aceitáveis?
 - Quais garantias corporativas ou pessoais estão na mesa?
 
 **Próximos 90 dias:**
+
 1. _____
 2. _____
 3. _____
@@ -930,30 +933,36 @@ Documento de 2-3 páginas, revisão semestral.
 Documento vivo de 4-6 páginas, revisão trimestral.
 
 **Narrativa Oficial (uma página):**
+
 - Para quem somos a primeira escolha, e por quê?
 - Qual mudança no mundo justifica existirmos agora?
 - Qual é a "inimiga declarada"?
 
 **Cadência do fundador:**
+
 - LinkedIn: [X posts/semana]
 - Newsletter: [quinzenal/mensal, tamanho]
 - Podcasts: [X por trimestre]
 
 **Relações com imprensa:**
+
 - Lista viva de 10-20 jornalistas-chave (nome, veículo, última interação, status relação)
 - Press releases: calendário + critério de release
 
 **Conteúdo institucional:**
+
 - Blog: [X posts/mês]
 - Recursos baixáveis: [X por ano]
 - Estudos setoriais próprios: [cronograma]
 
 **Eventos:**
+
 - Que patrocinamos: [lista]
 - Em quais falamos: [lista]
 - Próprios: [cronograma]
 
 **Métricas mensais:**
+
 - Share of Voice: _____
 - Branded Search: _____
 - Direct Traffic: _____
@@ -982,10 +991,12 @@ Documento de 2 páginas, revisão semestral, compartilhado com C-level.
 | Parcerias estratégicas | | | | |
 
 **Teste de honestidade** (responder por escrito, para si mesmo):
+
 - Em quais domínios estou em Founder Mode porque agrega valor diferencial, e em quais por vício de controle?
 - Em quais estou em Manager Mode porque delega bem, e em quais por não querer dizer "não"?
 
 **Mecanismos ativos de preservação de Founder Mode:**
+
 - [ ] Skip-level 1:1s mensais?
 - [ ] Office hours semanais?
 - [ ] Cliente-tour mensal?
@@ -996,76 +1007,91 @@ Documento de 2 páginas, revisão semestral, compartilhado com C-level.
 Documento Google Slides ou Keynote de 12-15 slides, estrutura sugerida:
 
 **Slide 1, Capa**
+
 - Nome da empresa + logo
 - Tagline de 1 frase
 - Data | Nome do fundador | Papel
 
 **Slide 2, Tagline expandida (opcional)**
+
 - Uma frase: "[Empresa] é [categoria] para [ICP] que faz [job] de forma [diferencial]."
 
 **Slide 3, SITUAÇÃO (S do SCQA)**
+
 - 3-5 dados do mercado atual
 - TAM e crescimento
 - Estrutura do mercado (fragmentação, concentração, comportamento)
 
 **Slide 4, COMPLICAÇÃO (C do SCQA)**
+
 - O problema específico que o mercado atual não resolve
 - Quantificação (dor em R$, tempo, fricção)
 - Uma quote de cliente real (opcional, mas forte)
 
 **Slide 5, QUESTÃO (Q do SCQA)**
+
 - Pergunta central que a situação + complicação levantam
 - Janela de "por que agora"
 
 **Slide 6, RESPOSTA / Produto (A do SCQA, início)**
+
 - O que a empresa faz
 - Screenshot real (não mockup)
 - Mecanismo (como funciona), não lista de features
 
 **Slide 7, Tração**
+
 - ARR/MRR atual + crescimento MoM/YoY
 - Número de clientes + churn mensal
 - NPS ou outra métrica de satisfação
 - Coortes de retenção (gráfico)
 
 **Slide 8, Modelo de Negócio / Unit Economics**
+
 - Ticket médio (ACV)
 - Margem bruta
 - LTV : CAC e payback
 - Observação sobre como escalam
 
 **Slide 9, Go-to-Market**
+
 - Canais validados com % da aquisição
 - CAC por canal
 - Plano de expansão 12-18 meses
 
 **Slide 10, Competição**
+
 - Mapa competitivo (grid 2x2 ou tabela comparativa)
 - Diferenciação em dimensão não-óbvia
 - Moat estrutural
 
 **Slide 11, Time**
+
 - Fundadores (background relevante, 2-3 linhas cada)
 - Contratações-chave recentes
 - "Por que este time ganha" em 1 frase
 
 **Slide 12, Projeção Financeira**
+
 - 3-5 anos: receita, margem, burn, headcount
 - Premissas por trás
 - 3 cenários (pessimista, realista, otimista)
 
 **Slide 13, Rodada**
+
 - Valor captando e estágio (Seed / Série A / etc.)
 - Uso de capital (% produto, time, marketing, etc.)
 - Milestones que atingem com capital
 - Cronograma para próxima rodada
 
 **Slide 14, Contato / Ask**
+
 - Próximos passos sugeridos
 - Informações de contato
 - O que estão buscando além de capital (conselheiros, intros, etc.)
 
 **Slide 15, Apêndice (opcional)**
+
 - Cap table detalhado
 - Roadmap de produto
 - Análise competitiva detalhada
@@ -1077,7 +1103,7 @@ Documento Google Slides ou Keynote de 12-15 slides, estrutura sugerida:
 
 E-mail mensal para todos os investidores. Enviar no mesmo dia de cada mês (ex.: sempre dia 5).
 
-```
+```text
 Assunto: [Empresa], Update [Mês/Ano]
 
 Olá investidores,
@@ -1121,6 +1147,7 @@ CEO, [Empresa]
 ```
 
 Regras:
+
 - Enviar mesmo dia do mês, sempre.
 - Mesmas métricas, todo update (não trocar sem contexto).
 - Pedidos específicos, não "ajuda geral".
