@@ -199,6 +199,7 @@ Você quer sair                 → Fase 16 + Apêndice BR
 | [Ferramentário](apendices/apendice-bg.md) | 156 frameworks com como aplicar e erros comuns |
 | [Glossário](apendices/apendice-glossario.md) | 91 termos técnicos em português (A–Z) |
 | [Templates](apendices/apendice-a.md) | DII, pitch, OKR, 5 templates de discovery (entrevista, especialista, advisor, switch, consolidação) e outros |
+| [Canvases e Mapas Visuais](apendices/apendice-cz.md) | 16 canvases com teoria, exemplo brasileiro e armadilhas: BMC, Lean, VPC, Strategy Canvas (Blue Ocean), Empathy Map, Test Card, Pirate (AARRR) e outros |
 | [Checklist por Fase](apendices/apendice-b.md) | Sinais de saída e committed next move |
 | [Casos de Fracasso BR](apendices/apendice-ai.md) | 7 padrões arquetípicos com casos reais |
 | [Post-mortems BR](apendices/apendice-bh.md) | 12 casos em profundidade com diagnóstico |

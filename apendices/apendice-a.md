@@ -1162,57 +1162,22 @@ Esta seção traz versões preenchidas de templates-chave do [[#APÊNDICE A — 
 
 ### A.20 Business Model Canvas preenchido — Nubank (2014)
 
-| Segmentos de Clientes | Proposta de Valor | Canais | Relacionamento com Clientes | Fontes de Receita |
-|---|---|---|---|---|
-| Brasileiros 25-40 anos, urbanos, insatisfeitos com banco tradicional | Cartão de crédito sem anuidade, gerenciado 100% por app, sem burocracia, atendimento humano via chat | App mobile (iOS + Android), landing page, marketing digital orgânico, convite por fila de espera viral | Self-service via app, suporte humano on-demand via chat, comunicação pelo nome próprio | Intercâmbio (percentual sobre transações), juros rotativo, futuro: receitas adjacentes (lending, investimento) |
-
-| Recursos-Chave | Atividades-Chave | Parcerias-Chave | Estrutura de Custos |
-|---|---|---|---|
-| Equipe técnica (engenharia, produto, design), licenças regulatórias (IP, adquirência), capital, algoritmos de credit scoring | Desenvolvimento de produto tecnológico, aquisição de clientes, gestão de risco de crédito, atendimento ao cliente | Bandeiras (Mastercard, Visa), processadoras de pagamento, reguladores (BACEN), fornecedores de infraestrutura cloud | Salários de tecnologia (majoritário), atendimento, marketing, provisões de risco de crédito, compliance |
-
-**Insight do caso:** o BMC do Nubank em 2014 mostra um modelo surpreendentemente enxuto, poucos blocos complexos, foco em um único produto (cartão) e um único segmento. A disciplina foi não adicionar produtos/segmentos antes de dominar o primeiro. Expansão para conta corrente, lending, investimentos só aconteceu depois de 2017, com cartão já dominando.
+> [!note] Caso completo movido para CZ.1
+> O caso BMC do Nubank em 2014, com tabela bloco-a-bloco e análise do insight (modelo enxuto, foco em um único produto antes de expandir), agora vive como "exemplo brasileiro preenchido" da seção [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|CZ.1]] (Business Model Canvas), que contém também origem, princípios, instruções de aplicação, erros comuns, quando não usar e conexões com outros canvases. Esta entrada A.20 fica como ponteiro de referência rápida pelo Apêndice A.
 
 ---
 
 ### A.21 Lean Canvas preenchido — QuintoAndar (2015)
 
-| Problema | Segmentos de Clientes | Proposta Única de Valor |
-|---|---|---|
-| Alugar apartamento em SP exige fiador, três meses de caução, vistoria agressiva, burocracia de cartório, semanas de sofrimento para alugar algo que você só vai ver por 1-2 anos | Inquilinos: jovens profissionais classe A/B em SP, primeira ou segunda experiência de aluguel. Proprietários: pessoas físicas com 1-3 imóveis, não imobiliária | Alugue em horas, sem fiador, sem caução exagerada, 100% online |
-
-| Solução | Canais | Métricas-Chave |
-|---|---|---|
-| Plataforma online, seguro substituindo fiador, vistoria digital, contrato digital assinado remotamente, pagamento de aluguel e boleto automatizado | Tráfego orgânico via SEO, parcerias com portais imobiliários, marketing digital (Facebook, Google), indicação boca a boca | Contratos assinados/mês, tempo médio da busca à assinatura. NPS, churn de locatários, ticket médio (aluguel médio) |
-
-| Vantagem Injusta | Estrutura de Custos | Fontes de Receita |
-|---|---|---|
-| Dados proprietários de locatários (comportamento de pagamento histórico) permitem underwriting de seguro próprio, concorrentes novos precisariam anos para acumular | Tecnologia e produto, marketing e aquisição, operação de vistorias, sinistros de seguro, equipe de matching | Taxa de administração sobre aluguel mensal, comissão de corretagem sobre assinatura inicial, eventualmente, produtos financeiros adjacentes |
-
-**Insight do caso:** note que o problema é altamente específico (SP, jovens profissionais, fiador), não "imóveis no Brasil". Isso é wedge theory em ação. A expansão para outras cidades e para aluguel de outros perfis veio depois, construída sobre base específica dominada.
+> [!note] Caso completo movido para CZ.2
+> O caso Lean Canvas do QuintoAndar em 2015, com tabela completa e análise do insight (vantagem injusta como aposta de longo prazo, não generalidade), agora vive como "exemplo brasileiro preenchido" da seção [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|CZ.2]] (Lean Canvas).
 
 ---
 
 ### A.22 Value Proposition Canvas preenchido — Wellhub (2016, B2B)
 
-**Customer Profile**: Head de RH de empresa média (200-1000 funcionários)
-
-| Customer Jobs | Pains | Gains |
-|---|---|---|
-| Oferecer benefício que ajude retenção | Caro contratar academia única que não atende todos os funcionários | Retenção mensurável melhor |
-| Gerenciar programa de bem-estar sem overhead interno | Funcionários pedem benefício de academia mas subsídio direto é complicado (tributário, equidade) | Marca empregadora fortalecida |
-| Prestar contas à diretoria sobre ROI de benefício | Difícil medir uso real e impacto em produtividade/saúde | Dados de engajamento para relatório ao C-level |
-| Atender perfis diversos (academia, yoga, crossfit, natação) sem caos administrativo | Negociar com múltiplos fornecedores consome tempo | Benefício percebido pelo funcionário sem esforço administrativo |
-
-**Value Map**: Wellhub (o que oferece)
-
-| Products & Services | Pain Relievers | Gain Creators |
-|---|---|---|
-| Plataforma empresarial com acesso a milhares de academias via assinatura | Uma única assinatura cobre todas academias (flexibilidade sem multiplicação de contratos) | Benefício percebido pelo funcionário gera retenção mensurável |
-| Dashboard de uso para RH | Plataforma administra matrícula, pagamento, cancelamento (zero overhead para RH) | Oferta diversa (academia, yoga, pilates, natação, crossfit) atende diferentes perfis de funcionário |
-| App para funcionário escolher academia | Estrutura tributária correta (benefício registrado corretamente) | Dados de uso para relatórios executivos sobre engagement e ROI |
-| Suporte para RH e funcionário | Negociação consolidada com uma empresa só (em vez de 50 academias) | Fortalecimento da marca empregadora |
-
-**Fit analysis:** correspondência forte entre quase todos os Pains/Gains e Pain Relievers/Gain Creators. Note que a oferta não precisa inovar radicalmente, apenas eliminar as fricções específicas que o RH enfrentava no modelo tradicional. Value proposition forte quando há fit preciso, não quando há "features impressionantes".
+> [!note] Caso completo movido para CZ.3
+> O caso VPC do Wellhub em 2016, com Customer Profile e Value Map de duas tabelas e análise do fit (proposta forte por eliminar fricções específicas, não por features impressionantes), agora vive como "exemplo brasileiro preenchido" da seção [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|CZ.3]] (Value Proposition Canvas).
 
 ---
 

@@ -85,6 +85,9 @@ Para cada alternativa, levante seis dimensões. Quem a oferece. Preço. Pontos f
 
 Minimamente, faça esse levantamento para as cinco a dez alternativas mais relevantes.
 
+> [!tip] Strategy Canvas para visualizar diferenciação
+> Listar as alternativas é o primeiro passo. O segundo é decidir como você se posiciona contra elas — e aqui o [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Strategy Canvas (CZ.4)]] de Kim & Mauborgne (Blue Ocean Strategy) é a ferramenta certa. Liste 8-15 fatores de competição do setor, traçe a curva de valor de cada concorrente principal (1-10 em cada fator) e desenhe a curva nova que você quer construir. Curva nova "ligeiramente acima" da média do setor é otimização de Red Ocean. Curva visualmente distinta — onde você elimina/reduz fatores que ninguém mais ousa cortar e cria fatores que ninguém oferece — é Blue Ocean. Veja CZ.4 para o caso completo Stone vs adquirentes tradicionais.
+
 #### Passo 4, entenda a dinâmica do mercado
 
 Responda cinco perguntas. O mercado está crescendo, estável, ou encolhendo? (Busque dados dos últimos três a cinco anos.) Existem tendências estruturais? (Digitalização, regulação nova, mudanças demográficas, mudanças de comportamento.) Existe concentração em poucos players grandes, ou é fragmentado? Existem movimentos de consolidação (M&A)? Há ciclos sazonais?

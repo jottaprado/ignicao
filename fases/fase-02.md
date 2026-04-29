@@ -28,6 +28,9 @@ O executor principal é você. Os participantes são três a cinco pessoas que v
 
 ### Como executar
 
+> [!tip] Canvas como ferramenta complementar de articulação
+> A Declaração Inicial da Ideia (entregável desta fase) é um documento textual de uma página. Para empreendedores que pensam visualmente, dois canvases complementam a articulação: o [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Lean Canvas (CZ.2)]] força mapear o modelo de negócio em nove blocos com foco em hipóteses falsificáveis (Problema, Solução, Métricas, Vantagem Injusta) — apropriado para o estágio pré-PMF que esta fase inicia. Empreendedores em contextos mais maduros ou que querem visão de conjunto podem usar o [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Business Model Canvas (CZ.1)]]. Os dois são opcionais — a DII textual é o entregável obrigatório.
+
 Sete passos em sequência.
 
 ```mermaid

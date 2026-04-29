@@ -1196,41 +1196,13 @@ Pré-PMF: ainda está encontrando encaixe, disciplina emerge depois. Empresa já
 
 ## BG.2.9 — Business Model Canvas (Alexander Osterwalder, 2010)
 
-Origem histórica. Proposto por Alexander Osterwalder na tese de doutorado (2004) e sistematizado no livro *Business Model Generation* (2010), co-autoria com Yves Pigneur. Tornou-se o framework mais utilizado globalmente para representar modelos de negócio de forma visual e colaborativa. Adotado por milhões de empreendedores, professores de empreendedorismo e consultorias em todo o mundo, incluindo no Brasil onde virou padrão em aceleradoras, disciplinas acadêmicas e órgãos de fomento (Sebrae, Endeavor, Distrito).
-
-O que é. Ferramenta visual de uma página que representa como uma empresa cria, entrega e captura valor. Organiza o modelo de negócio em **nove blocos**: Segmentos de Clientes, Proposta de Valor, Canais, Relacionamento com Clientes, Fontes de Receita, Recursos-Chave, Atividades-Chave, Parcerias-Chave, Estrutura de Custos. Lida na ordem correta (começando pelos segmentos de clientes e proposta de valor), a tela expõe coerência ou inconsistências do modelo.
-
-Princípios. Cada bloco é interdependente, mudança em um afeta vários. A ferramenta é descritiva (mapeia o que você entende do negócio), não prescritiva (não diz se o modelo é bom). O BMC é mais útil como ferramenta de *conversa* colaborativa entre fundadores e stakeholders do que como artefato final de planejamento.
-
-Como aplicar. Preencher colaborativamente em 60-120 minutos com co-fundadores e, idealmente, com mentor externo. Começar por Segmentos de Clientes (quem) e Proposta de Valor (por que eles pagam). Mover para Canais (como chegam) e Relacionamento (como mantêm). Dimensão de receita e custo ao final. Revisitar mensalmente nas fases iniciais, trimestralmente quando estável. Cada bloco deve ter 3-5 post-its/bullets, não parágrafos longos.
-
-Exemplo aplicado, Nubank em 2014. Segmentos de Clientes: brasileiros urbanos 25-40 anos, insatisfeitos com banco tradicional, familiares com smartphone. Proposta de Valor: cartão de crédito sem anuidade, gerido 100% por app, atendimento humano via chat, transparência. Canais: app mobile, marketing digital orgânico e viral (fila de espera). Relacionamento: self-service em app + suporte humano on-demand. Fontes de Receita: intercâmbio de cartão + juros rotativo. Recursos-Chave: equipe de engenharia, licenças regulatórias, capital. Atividades-Chave: tecnologia, aquisição, credit scoring. Parcerias-Chave: bandeiras (Visa/Master), processadoras, reguladores. Estrutura de Custos: tecnologia, atendimento, marketing, risco de crédito.
-
-Erros comuns. (1) Preencher sozinho na cabeça em vez de conversa colaborativa, o valor está no debate. (2) Parar de revisar depois do primeiro preenchimento, o BMC é documento vivo, não artefato estático. (3) Confundir clareza do BMC com validação real, ter BMC coerente não significa que o mercado existe. (4) Excesso de detalhe em cada bloco, se precisa de parágrafo para explicar um bloco, a ideia não está clara.
-
-Quando NÃO usar. Quando já existe modelo estabelecido e operando (BMC é mais útil em ideação e validação inicial, em empresas maduras, frameworks de execução como OGSM ou Balanced Scorecard servem melhor). Quando negócio é muito simples (serviço de consultoria solo, por exemplo), BMC introduz overhead sem valor. Quando negócio é complexo com múltiplas linhas distintas, cada linha precisa de BMC próprio, não cabe um único.
-
-Leitura adicional. *Business Model Generation* (Osterwalder & Pigneur, 2010), *Value Proposition Design* (Osterwalder et al., 2014), *Testing Business Ideas* (David Bland & Osterwalder, 2019). Strategyzer.com (ferramenta online + cursos).
+Tela visual de nove blocos para mapear como uma empresa cria, entrega e captura valor (Segmentos, Proposta de Valor, Canais, Relacionamento, Receita, Recursos, Atividades, Parcerias, Custos). Padrão global de planejamento estratégico e ferramenta de conversa colaborativa em ideação. Tratamento completo — origem, princípios, como aplicar passo a passo, exemplo brasileiro preenchido (Nubank 2014), erros comuns e quando não usar — em [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|CZ.1]].
 
 ---
 
 ## BG.2.10 — Lean Canvas (Ash Maurya, 2012)
 
-Origem histórica. Ash Maurya criou o Lean Canvas em 2012 como adaptação do Business Model Canvas especificamente para startups em estágio inicial, documentada no livro *Running Lean*. Maurya era fundador que aplicou Lean Startup em suas próprias empresas e percebeu que o BMC original não priorizava adequadamente os elementos críticos para startups (problema, solução, métricas-chave, vantagem injusta). O Lean Canvas substituiu quatro dos nove blocos do BMC para capturar melhor a realidade pré-PMF.
-
-O que é. Ferramenta visual de uma página, nove blocos, inspirada no BMC mas com substituições: **Problema** (substitui Parcerias-Chave), **Solução** (substitui Atividades-Chave), **Métricas-Chave** (substitui Recursos-Chave), **Vantagem Injusta** (substitui Relacionamento com Clientes). Mantém Segmentos de Clientes, Proposta Única de Valor, Canais, Estrutura de Custos, Fontes de Receita. O foco é testabilidade, cada bloco deve corresponder a hipóteses específicas que podem ser validadas em experimentos de curto prazo.
-
-Princípios. Startups pré-PMF não têm parcerias estabelecidas nem atividades-chave definidas, têm problema hipotético e solução hipotética para testar. O Lean Canvas força a explicitar: qual problema, para quem, que métricas validam, e qual vantagem injusta a empresa terá se funcionar.
-
-Como aplicar. Mesmo uso do BMC (preenchimento colaborativo, 60-90 min) mas com foco em testabilidade. Cada bloco deve ser escrito em formato verificável: "o problema é X para cliente Y" (não "todos sofrem com X"). Preencher múltiplos Lean Canvas para diferentes segmentos, não forçar um único para todos.
-
-Exemplo aplicado, QuintoAndar em 2015. Problema: alugar apartamento em SP exige fiador, três meses de caução, vistoria agressiva, burocracia de cartório, demora semanas e é doloroso. Segmentos: jovens profissionais classe A/B em SP que alugam apartamento. Proposta Única de Valor: alugue em horas, sem fiador, sem caução exagerada, 100% online. Solução: plataforma online de aluguel com seguro substituindo fiador, vistoria digital, contrato digital. Canais: tráfego orgânico + parceria com portais imobiliários + marketing digital. Métricas-Chave: contratos assinados/mês, tempo da busca à assinatura, NPS. Vantagem Injusta: dados proprietários de locatários que permitem underwriting de seguro próprio. Estrutura de Custos: tecnologia + marketing + equipe + risco de seguro. Fontes de Receita: taxa sobre aluguel (administração) + comissão de corretagem.
-
-Erros comuns. (1) Tratar como BMC simplificado, o Lean Canvas tem filosofia distinta focada em testabilidade. (2) Preencher bloco "Vantagem Injusta" com generalidades ("nosso time" ou "tecnologia"), se é vantagem que qualquer concorrente teria, não é vantagem injusta. (3) Não articular Problema de forma específica, "pessoas querem X" não é problema testável, "pessoa tipo Y sofre com Z em contexto W" é testável.
-
-Quando NÃO usar. Mesmo critério do BMC (maduro vs startup inicial). Use BMC quando negócio é pré-fundador ou já tem tração. Lean Canvas quando você está em Fases 1-9 (da ideia ao PMF).
-
-Leitura adicional. *Running Lean* (Ash Maurya, 2012, 3ª edição 2022), *Scaling Lean* (Ash Maurya, 2016), blog leanstack.com.
+Adaptação do BMC para startups pré-PMF: substitui Parcerias, Atividades, Recursos e Relacionamento por **Problema, Solução, Métricas-Chave e Vantagem Injusta** — blocos que correspondem a hipóteses falsificáveis em estágio inicial. Tratamento completo, exemplo brasileiro preenchido (QuintoAndar 2015) e armadilhas em [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|CZ.2]].
 
 ---
 
@@ -5333,21 +5305,7 @@ Times muito pequenos (< 5) sem recursos para dois tracks, Contextos muito regula
 
 ## BG.10.10 — Value Proposition Canvas (Alexander Osterwalder, 2014)
 
-Origem histórica. Extensão do Business Model Canvas pela mesma equipe (Osterwalder, Pigneur, Bernarda, Smith) no livro *Value Proposition Design* (2014). Criado para aprofundar o bloco "Proposta de Valor" do BMC, que é o bloco mais importante e tipicamente preenchido de forma vaga. O VPC separa o mapa do cliente (Customer Profile) do mapa do produto (Value Map) e força a verificar explicitamente se um encaixa no outro.
-
-O que é. Ferramenta visual de duas partes: **Customer Profile** (à direita) com três elementos, Jobs (o que o cliente tenta fazer), Pains (frustrações, riscos, obstáculos), Gains (benefícios esperados, desejados, inesperados). **Value Map** (à esquerda) com três elementos, Products & Services (o que você oferece), Pain Relievers (como o produto reduz os pains), Gain Creators (como o produto produz os gains). O encaixe (fit) acontece quando os Pain Relievers e Gain Creators do produto correspondem aos Pains e Gains reais do cliente.
-
-Princípios. Proposta de valor não é o que você diz que o produto faz, é a correspondência entre as frustrações/desejos do cliente e o que seu produto efetivamente alivia/entrega. Fit entre os dois lados não se presume, verifica-se com entrevistas, testes, observação. Falha mais comum de startup não é produto ruim, é produto bom atacando problema que o cliente não considera importante.
-
-Como aplicar. Preencher primeiro o Customer Profile com base em pesquisa real ([[#APÊNDICE BG — FERRAMENTÁRIO COMPLETO DO EMPREENDEDOR|Apêndice BG]].6, Pesquisa Qualitativa). Não inventar jobs, pains, gains, extrair de entrevistas documentadas. Preencher depois o Value Map representando o produto como é hoje (ou como você planeja construir). Avaliar fit: cada Pain do cliente tem um Pain Reliever correspondente? Cada Gain tem um Gain Creator? Pains/Gains sem correspondência indicam oportunidade não endereçada. Pain Relievers/Gain Creators sem correspondência indicam features que o cliente não valoriza (potencial desperdício).
-
-Exemplo aplicado, Wellhub em 2016. Customer Profile (RH de empresa média): Jobs, oferecer benefício que ajude retenção, gerenciar programa de bem-estar sem overhead, prestar contas a diretoria sobre ROI. Pains, caro contratar academia única que não serve todos, funcionários pedem benefício de academia mas subsídio direto é complicado, difícil medir uso e impacto. Gains, retenção melhor, marca empregadora, dados de engajamento. Value Map (Wellhub): Product, plataforma com acesso a milhares de academias via assinatura empresarial. Pain Relievers, uma assinatura cobre todas academias (flexibilidade), plataforma administra acesso (sem overhead), dashboard de uso (accountability). Gain Creators, benefício percebido pelo funcionário gera retenção, oferta diversa atende diferentes perfis, dados de uso para relatórios. Fit forte.
-
-Erros comuns. (1) Preencher Customer Profile com intuições em vez de dados reais, resulta em VPC teórico que não representa mercado. (2) Fazer VPC genérico para "todos os clientes", diferentes segmentos têm Jobs/Pains/Gains diferentes, precisa VPC por segmento. (3) Inflar Gain Creators, listar benefícios que o produto teoricamente poderia entregar mas não entrega ainda. (4) Ignorar pains sem Pain Reliever correspondente, essas lacunas são normalmente os motivos de churn.
-
-Quando NÃO usar. Quando mercado já está super estabilizado com propostas de valor bem conhecidas (commoditizado). Quando produto é B2B enterprise muito complexo, a unidade "cliente" tem stakeholders múltiplos e cada um tem seu VPC próprio (melhor abordar com ferramentas de stakeholder mapping).
-
-Leitura adicional. *Value Proposition Design* (Osterwalder, Pigneur, Bernarda, Smith, 2014), strategyzer.com/canvas/value-proposition-canvas.
+Tela de duas partes que se encaixam: **Customer Profile** (Jobs, Pains, Gains do cliente) e **Value Map** (Products & Services, Pain Relievers, Gain Creators do produto). Aprofunda o bloco "Proposta de Valor" do BMC, que tipicamente é preenchido de forma vaga. Tratamento completo, exemplo brasileiro preenchido (Wellhub 2016) e armadilhas em [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|CZ.3]].
 
 ---
 
