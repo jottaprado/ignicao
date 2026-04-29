@@ -66,6 +66,9 @@ Para qualquer outro tipo de experimento (entrevistas, landing page, fake door, p
 > [!important] Defina o critério antes de olhar o resultado
 > Se você define depois, vai ajustar o critério para "validar" o que você já queria. Isso é auto-engano.
 
+> [!tip] Test Card: a forma canônica do Cartão de Experimento
+> O cartão de experimento descrito acima é a adaptação brasileira do **Test Card** de David Bland & Alexander Osterwalder (Strategyzer, 2019). O tratamento completo está no [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|CZ.9]] — origem histórica, princípios, exemplo brasileiro PadariaPro com smoke test de R$ 1.500 que produziu critério claro de Persevere/Pivote, e variações como Learning Card e Riskiest Assumption Test (RAT). A regra de ouro de CZ.9: critério de sucesso e critério de refutação devem ser **distintos com zona de incerteza no meio**. Se você define só "sucesso ≥10%" sem definir "refutação ≤2%", qualquer resultado entre 2 e 10% vira interpretação flexível conforme conveniência do time.
+
 #### Passo 2, escolha os tipos de experimento apropriados
 
 Catálogo dos oito experimentos mais úteis para validação de problema e cliente, antes de construir produto.

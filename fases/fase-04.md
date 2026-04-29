@@ -67,6 +67,9 @@ Para cada persona, desenhe em linha do tempo a jornada relacionada ao problema. 
 > [!important] Comece a jornada antes do ponto óbvio
 > Jornadas devem começar muito antes do ponto onde você imaginaria que o seu produto entraria. Por exemplo, se você está construindo um sistema de gestão de frota, a jornada começa no momento em que o dono decide contratar o motorista. Não quando o motorista já está na rua.
 
+> [!tip] Customer Journey Canvas e VPC como entregáveis visuais
+> O mapa em sete colunas descrito acima é a base do [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Customer Journey Canvas (CZ.7)]]. Para cada persona principal, monte um canvas completo (etapas + ação + objetivo + dor + emoção + oportunidade) com a linha emocional desenhada visualmente — pontos vermelhos consecutivos antecipam churn. O caso iFood 2017 em CZ.7 ilustra como a jornada revelou que **a maior queda de conversão estava em Pagamento** (não em descoberta ou variedade, como o time supunha). Pareie com o [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Empathy Map (CZ.6)]] (estado interno do cliente) e o [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Value Proposition Canvas (CZ.3)]] (Pains/Gains traduzidos em Pain Relievers/Gain Creators do produto): juntos, esses três canvases formam o pacote padrão de entregáveis visuais desta fase.
+
 #### Passo 4, identifique os Jobs to be Done (JTBD)
 
 Para cada persona, pergunte: quando eles "contratam" uma solução (qualquer solução, não a sua), que *trabalho* estão tentando fazer?

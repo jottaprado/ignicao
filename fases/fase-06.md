@@ -94,6 +94,9 @@ Para entender a diferença entre hipótese ruim e hipótese boa:
 > [!tip] Hipótese boa, falsificável e numérica
 > "Pelo menos trinta por cento dos donos de restaurante do nosso ICP, depois de conhecer a solução por uma página de pré-cadastro, vão deixar e-mail e concordar com cobrança antecipada de R$ 49 para acesso ao beta. Se for falsa, significa que a nossa proposta de valor não é forte o bastante para pagamento antecipado, o que compromete a viabilidade do modelo."
 
+> [!tip] Hypothesis Canvas e Test Card como par de ferramentas
+> O formato padronizado acima é o coração do Hypothesis Canvas — registrado como template prático no [[#APÊNDICE A — TEMPLATES PRONTOS PARA USO|Apêndice A (A.10)]] e com tratamento teórico no [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|CZ.14]] (em construção). Cada hipótese bet-the-company deve gerar imediatamente 1-3 [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Test Cards (CZ.9)]] como follow-up: o Hypothesis Canvas articula *o que* testar; o Test Card articula *como* testar. A disciplina central do Test Card é definir critério de sucesso e critério de refutação **antes** de rodar o experimento — sem isso, qualquer resultado é racionalizado a favor da hipótese. O caso PadariaPro em CZ.9 mostra como definir zona de incerteza no meio (entre sucesso e refutação) é o que protege contra auto-engano.
+
 #### Passo 3, aplique o critério de falsificabilidade
 
 > [!quote] Karl Popper sobre hipóteses

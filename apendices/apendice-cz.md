@@ -49,8 +49,8 @@ appendix: "CZ"
 | CZ.15 | Canvas da Cunha | autoral do livro | Definição de cunha de mercado |
 | CZ.16 | Theory Map / Story Tree | autoral do livro | Teoria causal do negócio |
 
-> [!note] Onda 1 disponível, ondas 2-4 em construção
-> Esta versão do livro contém o tratamento completo dos canvases CZ.1 a CZ.4 (Onda 1 — Fundamentos da modelagem). As ondas seguintes — Discovery e Validação (CZ.5-9), Métricas e MVP (CZ.10-13) e Time/Autorais (CZ.8 e CZ.14-16) — serão adicionadas em iterações posteriores do material. Para os canvases CZ.5 a CZ.16, consulte por enquanto as referências bibliográficas indicadas no catálogo acima. Os canvases autorais (CZ.14 Hypothesis Canvas, CZ.15 Canvas da Cunha, CZ.16 Theory Map) seguem documentados como templates práticos no [[#APÊNDICE A — TEMPLATES PRONTOS PARA USO|Apêndice A]] (A.10, A.12, A.9 respectivamente) até serem promovidos para tratamento teórico aqui.
+> [!note] Ondas 1 e 2 disponíveis, ondas 3-4 em construção
+> Esta versão do livro contém o tratamento completo dos canvases CZ.1 a CZ.7 e CZ.9 (Onda 1 — Fundamentos da modelagem; Onda 2 — Discovery e validação). As ondas seguintes — Métricas e MVP (CZ.10-13) e Time/Autorais (CZ.8 e CZ.14-16) — serão adicionadas em iterações posteriores do material. Para os canvases CZ.8 e CZ.10 a CZ.16, consulte por enquanto as referências bibliográficas indicadas no catálogo acima. Os canvases autorais (CZ.14 Hypothesis Canvas, CZ.15 Canvas da Cunha, CZ.16 Theory Map) seguem documentados como templates práticos no [[#APÊNDICE A — TEMPLATES PRONTOS PARA USO|Apêndice A]] (A.10, A.12, A.9 respectivamente) até serem promovidos para tratamento teórico aqui.
 
 ---
 
@@ -499,5 +499,463 @@ O Strategy Canvas **complementa** o BMC (CZ.1): o BMC olha para dentro (modelo),
 - *Blue Ocean Strategy* (W. Chan Kim & Renée Mauborgne, 2005).
 - *Blue Ocean Shift* (Kim & Mauborgne, 2017) — versão com playbook executivo mais detalhado.
 - [blueoceanstrategy.com](https://www.blueoceanstrategy.com) — biblioteca de cases e ferramentas.
+
+---
+
+### CZ.5 — Opportunity Canvas (Jeff Patton, 2014)
+
+#### Origem histórica
+
+Jeff Patton, autor de *User Story Mapping* (2014) e referência em product management ágil, criou o Opportunity Canvas como ferramenta para times de produto avaliarem se uma oportunidade vale a pena ser perseguida **antes** de comprometer roadmap. A motivação foi observação prática: PMs e times técnicos pulavam direto da ideia ("vamos construir feature X") para a especificação ("aqui está o PRD"), sem articular *por que* essa oportunidade deveria ser priorizada sobre todas as outras. O Opportunity Canvas força a explicitar a tese da oportunidade — quem ganha o quê, com que custo, contra qual alternativa — em uma página visual antes que se gaste tempo construindo.
+
+#### O que é
+
+Tela visual de uma página com **nove blocos** organizados em torno da pergunta central "vale a pena perseguir esta oportunidade?":
+
+- **Problems / Solutions** (lado esquerdo): qual é o problema; qual é a solução proposta?
+- **Users & Customers**: quem usa; quem paga (em B2B podem ser distintos)?
+- **Solutions Today**: como o problema é resolvido hoje (concorrentes, workarounds, status quo)?
+- **User Value**: que benefício tangível o usuário ganha?
+- **Business Problems**: qual problema *do negócio* essa oportunidade resolve (retenção, aquisição, monetização)?
+- **Adoption Strategy**: como vamos fazer o usuário descobrir e adotar?
+- **Metrics**: quais números medem que está funcionando?
+- **Budget**: quanto vamos investir antes de re-avaliar?
+
+```mermaid
+flowchart TB
+    subgraph Top["Articulação da oportunidade"]
+        direction LR
+        PB["📋 Problems<br/>Que problema<br/>resolve?"]
+        SOL["💡 Solutions<br/>Como propomos<br/>resolver?"]
+        US["👥 Users<br/>& Customers"]
+        ST["🔄 Solutions Today<br/>Como é resolvido<br/>hoje?"]
+    end
+    subgraph Mid["Valor"]
+        direction LR
+        UV["✨ User Value<br/>Benefício para<br/>o usuário"]
+        BP["💼 Business Problems<br/>Problema do negócio<br/>que resolve"]
+    end
+    subgraph Bot["Execução"]
+        direction LR
+        AS["🎯 Adoption Strategy<br/>Como adotam?"]
+        ME["📊 Metrics<br/>Como medimos?"]
+        BU["💰 Budget<br/>Quanto investir<br/>antes de avaliar?"]
+    end
+    Top --> Mid --> Bot
+```
+
+#### Quando usar
+
+Use o Opportunity Canvas na Fase 8 (ideação) e durante todo o ciclo de descoberta contínua pós-PMF. É a ferramenta certa para responder "vale a pena construir essa feature/produto/oportunidade adjacente?" antes de comprometer um trimestre de roadmap. Também use em comitês de priorização: comparar três Opportunity Canvases lado a lado é mais informativo que comparar três PRDs longos.
+
+#### Princípios
+
+A tese de Patton é que **decisão de roadmap é decisão de capital** — cada feature construída custa o custo de oportunidade da feature não construída. O Opportunity Canvas força articular *o trade-off* explicitamente. Diferente do BMC (que descreve o negócio inteiro) e do Lean Canvas (que descreve um modelo a validar), o Opportunity Canvas descreve **uma aposta específica de produto** e pode coexistir com vários outros: uma empresa madura típica tem 10-30 Opportunity Canvases ativos em portfólio.
+
+#### Como aplicar
+
+Reúna PM + tech lead + designer + 1 stakeholder de negócio (RH, vendas, operações) — 4-5 pessoas. Tempo: 60-90 minutos. Comece pelos Problems & Users; só depois vá para Solutions. A ordem importa: começar por Solutions reforça viés de "já sabemos o que construir" e mascara perguntas críticas sobre adoção.
+
+1. **Problems**: descreva o problema sem mencionar a solução. "Usuário tipo X sofre com Y em contexto Z."
+2. **Users & Customers**: quem especificamente. Em B2B, distinguir usuário (quem mexe), comprador (quem paga), influenciador (quem decide).
+3. **Solutions Today**: como o problema é resolvido hoje? Excel, processo manual, concorrente, "não fazer nada". Liste 3-5 alternativas com prós/contras.
+4. **User Value**: o que o usuário ganha que hoje não tem? Específico e mensurável.
+5. **Business Problems**: que problema do negócio (retenção, aquisição, monetização, expansion) essa oportunidade endereça?
+6. **Solutions**: agora sim, descreva o que vai construir.
+7. **Adoption Strategy**: como o usuário descobre, experimenta, adota? In-app, email, CSM, marketing pago?
+8. **Metrics**: 2-3 métricas leading + 1 lagging. Se não consegue definir, oportunidade está mal articulada.
+9. **Budget**: quanto vai investir (pessoas × tempo + custo de aquisição) antes de reavaliar? Sem budget, Opportunity Canvas vira fantasia.
+
+Tempo total: 60-90 minutos por canvas. Faça antes de comprometer roadmap — não depois.
+
+#### Exemplo brasileiro preenchido — Hotmart, oportunidade "Hotmart Sparkle" para microcreators (2022)
+
+Em 2022, a Hotmart já dominava infoprodutos médios e grandes (creators que vendiam cursos de R$ 300+ a milhares de alunos). Identificou uma oportunidade adjacente: **microcreators** — pessoas com audiência pequena (1-5k seguidores) que queriam monetizar conteúdo curto e barato (R$ 9-49 por item). O Opportunity Canvas dessa aposta:
+
+| Bloco | Conteúdo |
+|---|---|
+| **Problems** | Microcreators têm audiência pequena mas engajada e querem monetizar, mas o setup atual da Hotmart (criar curso completo com landing page, hospedar conteúdo, configurar afiliados) é overkill para conteúdo de 30-90 minutos a R$ 19. |
+| **Users & Customers** | Usuário e cliente são a mesma pessoa: microcreator brasileiro com 1-5k seguidores no Instagram/TikTok, audiência engajada, já tem conteúdo gravado mas não no formato curso. |
+| **Solutions Today** | (1) Vender via DM no Instagram com PIX — alta fricção, sem rastreamento. (2) Plataformas estrangeiras (Gumroad) — barreiras de PIX/pagamento BR. (3) Não monetizar — "perder" a audiência. |
+| **User Value** | Setup de produto digital em 5 minutos (vs 1-2h da plataforma principal). Pagamento via PIX integrado. Link de venda direto pra bio do Instagram. Sem necessidade de criar landing, configurar funil, integrar afiliados. |
+| **Business Problems** | (1) Aquisição: capturar a base de microcreators que ainda não usa Hotmart e que daqui a 3-5 anos pode virar creator médio. (2) Diversificação: reduzir dependência de "top 1000 creators". (3) Defesa de mercado: bloquear entrada de Gumroad/Stan/Ko-fi no Brasil. |
+| **Solutions** | "Hotmart Sparkle": fluxo simplificado de criação (3 telas), template de venda mobile-first, pagamento PIX nativo, link de bio gerado automaticamente, sem afiliados/cupons (corte deliberado). |
+| **Adoption Strategy** | Indicação de creators existentes (microcreators são frequentemente fans/alunos de creators médios), parcerias com agências de microinfluência, conteúdo orgânico no Instagram da Hotmart focado nesse perfil. |
+| **Metrics** | Leading: número de microcreators ativando produto/mês, GMV médio por microcreator, conversão de visitante em comprador no link de bio. Lagging: % de microcreators que migram para a plataforma principal em 12 meses. |
+| **Budget** | 1 squad (5 pessoas) por 6 meses para MVP + 4 meses de aquisição inicial = ~R$ 1.5M. Reavaliar em 10 meses: se GMV mensal não chegar a R$ 2M ou 5k microcreators ativos, descontinuar. |
+
+**Insight do caso.** O bloco mais valioso aqui é o **Business Problems** explícito — articula que essa oportunidade não é "feature legal", é resposta a três problemas estratégicos da Hotmart (aquisição de creators emergentes, diversificação de dependência, defesa de mercado). Sem essa articulação, "Hotmart Sparkle" pareceria projeto secundário; com ela, fica claro por que merece squad dedicado. **A lição: Opportunity Canvas força distinguir oportunidade-de-produto de oportunidade-de-negócio. Feature sem business problem definido raramente sobrevive a corte de roadmap.**
+
+#### Variações e extensões
+
+- **Lean UX Canvas** (Jeff Gothelf): variação focada em times UX-driven, com bloco de hipóteses explícito.
+- **Product Discovery Canvas** (Roman Pichler): variação para PMs em ambientes ágeis, com ênfase em assumptions e experimentos.
+- **Now/Next/Later Roadmap**: complementa o Opportunity Canvas — uma vez que a oportunidade vale a pena, onde no roadmap ela entra?
+
+#### Erros comuns
+
+- Pular Problems & Users e ir direto para Solutions — viés de "já sei o que construir" mascara perguntas críticas.
+- Articular User Value em features ("vamos ter um botão de X") em vez de benefícios ("o usuário consegue Y em Z minutos vs hoje em W horas").
+- Esquecer Business Problems — oportunidade que ajuda só o usuário sem resolver problema do negócio é caridade, não estratégia.
+- Definir Metrics só lagging (GMV, retenção D90) sem leading — leva 3-6 meses para saber se está funcionando.
+- Não definir Budget de saída — oportunidade roda indefinidamente sem reavaliação, consumindo time.
+
+#### Quando NÃO usar
+
+Em decisões muito pequenas (mudar copy de um botão, ajustar layout) — overhead de canvas não compensa. Em decisões muito grandes e estruturais (entrar em novo país, lançar segunda linha de produto) — use BMC (CZ.1) ou Lean Canvas (CZ.2), que dão visão de modelo completo. Em ambientes onde o roadmap é ditado de fora (clientes enterprise B2B com contratos) — espaço de manobra limitado torna o canvas teatro.
+
+#### Conexão com outros canvases
+
+O Opportunity Canvas **sucede o BMC/Lean** (CZ.1/2): depois que o modelo de negócio está claro, cada oportunidade-feature tem seu Opportunity Canvas próprio. **Pareia com o Hypothesis Canvas (CZ.14)**: cada Opportunity Canvas pode gerar 3-5 hipóteses falsificáveis para validar antes de construir. **Antecede o MVP Canvas (CZ.11)**: depois de aprovada, a oportunidade vira escopo de MVP.
+
+#### Leitura adicional
+
+- *User Story Mapping* (Jeff Patton, 2014).
+- *Inspired* (Marty Cagan, 2008/2017) — escola de product discovery contínuo onde o Opportunity Canvas se encaixa.
+- [jpattonassociates.com](https://www.jpattonassociates.com) — biblioteca de templates e ensaios de Patton.
+
+---
+
+### CZ.6 — Empathy Map (Dave Gray / XPLANE, 2009)
+
+#### Origem histórica
+
+O Empathy Map foi criado por Dave Gray e a equipe da consultoria XPLANE em torno de 2009 e popularizado no livro *Gamestorming* (Gray, Brown & Macanufo, 2010). Surgiu como ferramenta de design thinking para deslocar conversas sobre cliente do registro demográfico ("nossa persona é mulher, 30-40 anos, classe B") para o registro **comportamental e emocional** ("o que ela vê quando abre o aplicativo de banco no celular pela manhã, antes do café?"). A motivação foi a observação de que personas tradicionais produziam descrições caricatas que não geravam empatia real — Empathy Map força sair do "quem é" e entrar no "como vive".
+
+#### O que é
+
+Tela visual em forma de cruz com **seis quadrantes** organizados ao redor de uma pessoa (avatar central):
+
+- **Pensa & Sente** (centro/cima): o que ocupa a cabeça dessa pessoa? O que a preocupa? O que a entusiasma?
+- **Vê** (esquerda): o que ela observa no ambiente — clientes, concorrentes, mercado, mídia?
+- **Ouve** (direita): o que ela escuta — chefe, família, amigos, especialistas, mídia?
+- **Fala & Faz** (baixo): o que ela diz publicamente? Como age?
+- **Pains** (canto inferior esquerdo): medos, frustrações, obstáculos.
+- **Gains** (canto inferior direito): desejos, motivações, métricas de sucesso pessoais.
+
+```mermaid
+flowchart TB
+    subgraph Top["Estados internos"]
+        PS["💭 Pensa & Sente<br/>Preocupações, emoções,<br/>aspirações"]
+    end
+    subgraph Mid["Estímulos externos"]
+        direction LR
+        VE["👁️ Vê<br/>Ambiente,<br/>concorrentes,<br/>mercado"]
+        OU["👂 Ouve<br/>Chefe, família,<br/>amigos, mídia"]
+    end
+    subgraph FF["Comportamento"]
+        FA["🗣️ Fala & Faz<br/>O que diz<br/>e o que faz"]
+    end
+    subgraph Bot["Polos motivacionais"]
+        direction LR
+        PA["⚠️ Pains<br/>Medos, frustrações"]
+        GA["✨ Gains<br/>Desejos, sucessos"]
+    end
+    Top --> Mid --> FF --> Bot
+```
+
+A tese é que comportamento humano é resultado da tensão entre **estímulos** (vê/ouve), **estados internos** (pensa/sente) e **polos motivacionais** (pains/gains). Mapear os seis revela contradições — pessoa que diz X publicamente mas faz Y; pessoa que ouve A do chefe mas é movida por B internamente — e essas contradições são exatamente onde produto novo encontra adoção.
+
+#### Quando usar
+
+Use o Empathy Map na Fase 3 (descoberta) como complemento ao Mom Test — entrevistas de problema capturam comportamento passado; o Empathy Map captura **o universo emocional e contextual** que cerca esse comportamento. Use também na Fase 4 (pesquisa) para construir o Customer Profile do VPC (CZ.3) com profundidade emocional. Em times de produto maduros, faça Empathy Map de cada persona principal a cada 12 meses — clientes mudam, e o mapa fica datado.
+
+#### Princípios
+
+A tese de Gray é que **empatia é capacidade construída, não dom**. Para construir, é preciso processo deliberado: ler verbatim de entrevistas, observar em campo, mapear com a equipe num exercício colaborativo. Empathy Map preenchido só com intuição é ficção. Preenchido com base em pesquisa real, vira ferramenta de tomada de decisão — quando alguém propõe uma feature que contradiz o que está mapeado em "Pains" e "Gains", a contradição fica visível.
+
+#### Como aplicar
+
+Reúna 3-5 pessoas (PM + designer + customer success + 1-2 fundadores). Tempo: 90-120 minutos. **Pré-requisito**: pesquisa real concluída — pelo menos 5-10 entrevistas qualitativas + observação em campo. Sem isso, Empathy Map vira intuição coletiva.
+
+1. **Escolha uma persona específica** — não "nossos clientes em geral", mas "Mariana, dona de padaria de duas unidades em São Paulo". Empathy Map é por pessoa, não por segmento.
+2. **Vê** — leia verbatim de entrevistas e observação. O que essa pessoa vê no celular pela manhã? No trabalho? Em casa? Que ambiente físico habita? Que mídia consome?
+3. **Ouve** — quem fala com ela? O que esses falantes dizem? Chefe, sócio, família, amigos, podcasts, influenciadores.
+4. **Pensa & Sente** — o que ocupa a mente? O que tira o sono? O que entusiasma? Aqui é zona de inferência cuidadosa — ancore em verbatim.
+5. **Fala & Faz** — o que ela diz publicamente (LinkedIn, conversas profissionais)? Como age (rotina, decisões observadas)? Há contradição entre os dois?
+6. **Pains** — medos específicos, não genéricos. "Tenho medo de quebrar" é vago; "tenho medo de não conseguir pagar a folha do mês 13" é Pain.
+7. **Gains** — sucessos pessoais que ela buscaria. "Quero crescer" é vago; "quero abrir terceira unidade até 2027" é Gain.
+
+Tempo: 90-120 min para a primeira versão. Refazer a cada 6-12 meses ou após mudança significativa de mercado.
+
+#### Exemplo brasileiro preenchido — Loggi, persona "Carlos motoboy" (2018)
+
+Quando a Loggi expandiu de courier corporativo para entregas last-mile B2C em 2018, fez Empathy Map dos entregadores parceiros — não dos clientes finais. A descoberta levou a redesenho do app do entregador.
+
+| Quadrante | Conteúdo |
+|---|---|
+| **Vê** | App da Loggi competindo por atenção com WhatsApp, Uber, iFood, Rappi no celular. Outros motoboys em redes informais comentando preços e rotas. Trânsito de São Paulo em tempo real. Posto de gasolina como ponto de socialização. Estabelecimentos comerciais como "clientes da semana". |
+| **Ouve** | Esposa pedindo para "voltar mais cedo". Outros entregadores em grupo de WhatsApp reclamando de plataforma X ou recomendando rota Y. Atendente da Loggi por mensagem (raramente por voz). Clientes finais quando entrega presencial — alguns simpáticos, outros agressivos sobre atraso. |
+| **Pensa & Sente** | Ansiedade sobre quanto vai ganhar no fim do dia. Cálculo mental constante de R$/km. Frustração com cancelamentos e endereços errados. Orgulho discreto quando completa entregas difíceis. Cansaço acumulado mas necessidade de não parar. Comparação com outros entregadores — "fulano fez 30 entregas hoje, eu só 22". |
+| **Fala & Faz** | Diz publicamente que "trabalha pela liberdade de horário". Faz: aceita corridas das 6h às 22h porque precisa do faturamento. Recusa entregas longas mesmo com bônus se for fim de semana. Compartilha dicas em grupo de WhatsApp mas guarda os melhores estabelecimentos para si. |
+| **Pains** | Ganhar menos que o pico do mês passado. Acidente sem cobertura — "se eu cair, fico sem renda". Bateria do celular acabar no meio do dia. Endereço errado em região perigosa. Diarreia/doença sem direito a auxílio. Multas de trânsito que comem ganho do dia. Cliente que não responde interfone. |
+| **Gains** | Faturar R$ 3-4k/mês líquido (após combustível e manutenção). Conseguir folga de domingo sem perder ranking. Ter celular novo (ferramenta de trabalho). Comprar moto melhor — sonho de 12-24 meses. Ter dia mais previsível. Ser tratado com respeito por atendentes e clientes. |
+
+**Insight do caso.** O quadrante "Vê" revelou algo crítico: o app da Loggi competia com 4-6 outros apps por atenção do entregador na mesma tela. Times anteriores haviam tratado o app como "ferramenta de trabalho dedicada" — a realidade é que o entregador trocava entre apps ao longo do dia conforme o que pagava melhor naquela janela. Isso levou a três decisões: (1) reduzir tempo de aceite de corrida (de 30s para 15s — entregador estava em outro app); (2) notificações mais agressivas com bônus (não dependendo de ele abrir o app); (3) **comunicação por voz** com atendente em casos críticos (entregador não consegue ler chat enquanto pilota). **A lição: Empathy Map dos não-clientes (parceiros, fornecedores, intermediários) frequentemente revela mais que Empathy Map do cliente final — porque essas pessoas têm múltiplos chefes invisíveis e otimizam por critérios que você não enxerga sem mapear.**
+
+#### Variações e extensões
+
+- **Empathy Map Canvas (atualizado, Dave Gray, 2017)**: versão mais recente que adiciona "Goal" no centro (objetivo da pessoa) e desloca o foco para tarefa-a-realizar — versão JTBD-friendly.
+- **Stakeholder Empathy Map**: para B2B enterprise, fazer um Empathy Map para cada stakeholder no processo de compra (usuário, comprador, sponsor, TI).
+- **Day-in-the-Life Map**: variação que mapeia 24 horas concretas ao invés de estados gerais.
+
+#### Erros comuns
+
+- Preencher com intuição em vez de pesquisa — Empathy Map sem dado real é projeção coletiva, não empatia.
+- Tratar como descrição estática — pessoas mudam; refaça periodicamente.
+- Confundir "Vê" com demografia — "Vê" é o ambiente físico/digital específico, não "tem 30 anos".
+- Ignorar contradições entre "Fala & Faz" — frequentemente é onde estão as oportunidades de produto.
+- Fazer Empathy Map só do cliente ideal — clientes problemáticos ou não-clientes (quem não compra) revelam mais sobre adoção real.
+
+#### Quando NÃO usar
+
+Em decisões puramente técnicas (escolha de stack, refatoração interna). Em mercados B2B muito padronizados onde o "comprador" é processo formal de licitação — Empathy Map do comprador individual tem peso menor que o entendimento do processo de compra. Quando a pesquisa qualitativa é insuficiente — fazer Empathy Map sem 5+ entrevistas por persona produz ficção.
+
+#### Conexão com outros canvases
+
+O Empathy Map **alimenta o Customer Profile do VPC (CZ.3)** — Pains e Gains do Empathy Map se traduzem diretamente em Pains e Gains do VPC. **Pareia com o Customer Journey Canvas (CZ.7)**: Empathy Map é estado; Customer Journey é trajetória. Os dois juntos dão "estado interno em cada momento da jornada". **Antecede o BMC/Lean** (CZ.1/2): entender clientes profundamente vem antes de articular o modelo.
+
+#### Leitura adicional
+
+- *Gamestorming* (Dave Gray, Sunni Brown & James Macanufo, 2010).
+- *Updated Empathy Map Canvas* (Gray, blog post, 2017) — a versão revisada com foco em Goal.
+- [gamestorming.com](https://gamestorming.com) — biblioteca de templates de Gray.
+
+---
+
+### CZ.7 — Customer Journey Canvas
+
+#### Origem histórica
+
+O Customer Journey Map / Canvas surgiu da convergência de três escolas em meados dos anos 2000: design thinking (IDEO, Stanford d.school), service design (Nordic School, livet Lavrans Løvlie / Ben Reason) e experiência do cliente (Forrester, escola de CX corporativo). Não tem autor único — virou padrão de prática colaborativa entre 2008 e 2015, com formalização no livro *This Is Service Design Doing* (Marc Stickdorn et al., 2018). A motivação foi observação recorrente: empresas otimizavam touchpoints isolados (home page, atendimento, cobrança) sem ver a jornada inteira do cliente, e o resultado eram experiências fragmentadas onde cada ponto funcionava isolado mas o conjunto deixava o cliente confuso ou frustrado.
+
+#### O que é
+
+Tela visual organizada em **eixo horizontal de tempo** (fases da jornada do cliente, da descoberta ao pós-uso) e **eixo vertical de dimensões** (mínimo cinco):
+
+- **Etapa**: nome curto da fase (Descoberta, Consideração, Compra, Onboarding, Uso, Suporte, Renovação).
+- **Ação**: o que o cliente faz nessa etapa (concretamente — clica, abre app, liga, fala com).
+- **Objetivo**: o que ele tenta cumprir.
+- **Pontos de Dor**: onde algo dá errado, demora, frustra.
+- **Emoções**: o que ele sente (ansiedade, alívio, raiva, tédio, entusiasmo).
+- **Oportunidades**: onde existe espaço para intervenção.
+
+Versões mais avançadas adicionam: ferramentas/canais usados, métricas de sucesso por etapa, KPIs internos, owners do touchpoint, dados quantitativos (NPS por etapa, conversão).
+
+```mermaid
+flowchart LR
+    A["Descoberta<br/>😐 curiosidade"]:::neutral --> B["Consideração<br/>🤔 dúvida"]:::neutral
+    B --> C["Compra<br/>😟 ansiedade"]:::low
+    C --> D["Onboarding<br/>😕 confusão"]:::low
+    D --> E["Primeiro uso<br/>😊 alívio"]:::high
+    E --> F["Uso recorrente<br/>😌 conforto"]:::high
+    F --> G["Suporte<br/>😠 frustração"]:::low
+    G --> H["Renovação<br/>🤔 reavaliação"]:::neutral
+    classDef high fill:#90EE90
+    classDef neutral fill:#FFFFCC
+    classDef low fill:#FFB6B6
+```
+
+A linha emocional (verde alto / amarelo neutro / vermelho baixo) ao longo da jornada é o output mais valioso: pontos vermelhos consecutivos antecipam churn; pontos verdes isolados cercados de vermelho são "experiências boas no contexto errado".
+
+#### Quando usar
+
+Use o Customer Journey Canvas na Fase 4 (pesquisa) como entregável central — junto com personas e VPC. Use também a cada 12 meses como auditoria operacional pós-PMF: a jornada que funcionava em 2024 frequentemente não funciona em 2026 porque mudaram canais (TikTok, WhatsApp), expectativas (resposta em segundos), regulação (LGPD, PIX). Em momentos de pivô (Fase 15), refaça a jornada antes de qualquer investimento operacional.
+
+#### Princípios
+
+A tese é que **experiência do cliente é uma fita contínua, não pontos isolados**. Times divididos por função (marketing, vendas, sucesso, produto, suporte) tendem a otimizar suas próprias caixinhas e ignorar transições entre etapas. O Customer Journey Canvas força olhar a fita inteira e identificar **o ponto mais fraco** — porque a experiência do cliente é tão boa quanto o pior elo. Cliente que teve compra fácil mas onboarding caótico não fica; cliente que teve onboarding ótimo mas suporte distante churna na primeira dúvida real.
+
+#### Como aplicar
+
+Pré-requisito: 5-15 entrevistas qualitativas + dados quantitativos (analytics, NPS, CSAT). Reúna PM + designer + customer success + 1-2 representantes de marketing/vendas/operações. Tempo: 3-4 horas para a primeira versão.
+
+1. **Defina escopo da jornada** — começo e fim. Comece **antes** do ponto óbvio: se você é SaaS, jornada começa quando cliente percebe o problema, não quando entra no site.
+2. **Liste etapas** — 5-10 etapas nomeadas. Use vocabulário do cliente, não interno ("Considera comprar" não "Lead Qualificado").
+3. **Para cada etapa**, preencha as 6 dimensões com base em verbatim e dados.
+4. **Trace a linha emocional** — atribua emoção dominante a cada etapa.
+5. **Identifique pontos críticos** — onde a emoção cai abruptamente, onde há atrito sistemático, onde o cliente abandona.
+6. **Liste oportunidades** — para cada ponto crítico, 1-3 intervenções possíveis. Prioriza pelo impacto na linha emocional, não pelo custo de implementação.
+
+Após primeira versão, **valide com 3-5 clientes reais** — peça que olhem o mapa e apontem onde discordam. Customer Journey desenhado sem validação é frequentemente "como queremos que seja", não "como é".
+
+#### Exemplo brasileiro preenchido — iFood, jornada de primeira compra (2017)
+
+Em 2017, o iFood mapeou a jornada de primeira compra para entender por que 40% dos novos cadastros não completavam pedido inicial. O canvas:
+
+| Etapa | Ação | Objetivo | Dor | Emoção | Oportunidade |
+|---|---|---|---|---|---|
+| **Gatilho** | Sente fome às 19h, vê amigo pedindo via app | Resolver fome rápido | "Será que tem o que eu quero?" | Curiosidade | Hero card mostrando opções na cidade do usuário |
+| **Descoberta** | Baixa app, abre primeira vez | Ver o que tem por perto | Tela inicial mostra muitos restaurantes — paralisia de escolha | Sobrecarga | Curadoria "mais pedidos hoje", reduzir opções iniciais |
+| **Cadastro** | Preenche nome, email, telefone, endereço | Concluir cadastro rápido | Confirmação de SMS demora, formulário pede CPF (não obrigatório) | Frustração | Reduzir cadastro para email + senha + endereço; CPF só na compra |
+| **Busca** | Filtra por categoria ou busca restaurante | Achar comida que quer | Restaurantes que não entregam no endereço aparecem | Decepção | Filtrar por entrega real antes de mostrar |
+| **Cardápio** | Abre restaurante, navega cardápio | Escolher prato | Foto baixa qualidade, descrição inconsistente, preço sem ICMS visível | Dúvida | Padronização de cardápios + preço final na lista |
+| **Carrinho** | Adiciona itens, vê total | Conferir antes de pagar | Taxa de entrega aparece tarde, "valor mínimo" surge surpresa | Irritação | Mostrar taxa e mínimo desde o cardápio |
+| **Pagamento** | Escolhe forma, confirma | Pagar e fechar pedido | Cartão recusado sem explicação, 2FA do banco demora | Ansiedade alta | Aceitar PIX desde 2017, mostrar erro específico, salvar tentativas |
+| **Espera** | Acompanha entrega no mapa | Saber quando chega | Mapa não atualiza em tempo real nos primeiros 10min | Inquietação | Streaming de status mais granular, comunicação proativa de atrasos |
+| **Recebimento** | Recebe entrega, avalia | Comer e avaliar | Pedido errado / faltando item — sem caminho claro de queixa | Raiva | Botão "tem problema?" no mesmo card do pedido |
+| **Pós-uso** | Recebe email pedindo nota | Avaliar (se lembrar) | Email genérico chega 3 dias depois | Apatia | Pedir nota in-app logo após entrega, com 1-tap |
+
+**Insight do caso.** A jornada revelou que **a maior queda de conversão acontecia entre Pagamento e Espera** — clientes davam tudo certo até o pagamento, e quando o cartão era recusado sem explicação, abandonavam. Isso levou a três decisões: (1) PIX como segunda forma de pagamento desde 2017 (5 anos antes do PIX virar mainstream); (2) mensagens de erro específicas ("cartão sem limite" vs "dados incorretos" vs "banco bloqueou"); (3) salvar carrinho mesmo após falha — cliente não precisava recomeçar do zero. **A lição: Customer Journey Canvas frequentemente revela que o problema não está onde a equipe achava (qualidade de cardápio? variedade?) mas em transição específica que ninguém estava monitorando (o segundo entre "click pagar" e "pedido confirmado").**
+
+#### Variações e extensões
+
+- **Service Blueprint**: extensão do Customer Journey adicionando "linha de visibilidade" — o que o cliente vê (frontstage) vs o que acontece nos bastidores (backstage). Útil para ops e suporte.
+- **Multi-persona Journey Map**: mesma jornada vista por 2-3 personas distintas (decisor vs usuário em B2B; comprador vs presenteado em B2C).
+- **Future-State Journey Map**: jornada como queremos que seja em 12-18 meses, ao lado da atual. Útil para roadmap.
+
+#### Erros comuns
+
+- Mapear a jornada que a empresa quer (frictionless, lógica) em vez da que existe (fragmentada, cheia de workarounds) — desconectado do cliente real.
+- Começar muito tarde (no momento da compra) — perde o gatilho que define quem chega ao site.
+- Tratar como artefato estático — mercados e canais mudam (rise do TikTok como descoberta, do PIX como pagamento, do WhatsApp como suporte); jornada precisa atualização.
+- Otimizar pontos isolados sem ver consequências em pontos seguintes — onboarding mais rápido pode produzir mais churn em 30 dias.
+- Não medir — Customer Journey sem dados é hipótese; precisa NPS por etapa, conversão entre etapas, tempo médio em cada etapa.
+
+#### Quando NÃO usar
+
+Em produtos transacionais simples sem relacionamento contínuo (vending machine, compra one-shot de baixo valor) — overhead não compensa. Em mercados B2B enterprise muito longos (ciclo de venda 12+ meses) — Customer Journey vira documento de 50 páginas que ninguém lê; melhor abordar com sequence diagram do processo de compra.
+
+#### Conexão com outros canvases
+
+O Customer Journey Canvas **pareia com o Empathy Map (CZ.6)**: Empathy Map é estado; Customer Journey é trajetória. **Alimenta o VPC (CZ.3)**: pontos de dor da jornada viram Pains do Customer Profile. **Alimenta o Pirate Canvas / AARRR (CZ.10)**: as etapas da jornada mapeiam diretamente para Acquisition → Activation → Retention → Referral → Revenue. **Sucede o BMC (CZ.1)**: BMC mapeia o modelo; Customer Journey mapeia a experiência operacional do cliente dentro desse modelo.
+
+#### Leitura adicional
+
+- *This Is Service Design Doing* (Marc Stickdorn, Markus Edgar Hormess, Adam Lawrence, Jakob Schneider, 2018).
+- *Mapping Experiences* (James Kalbach, 2nd ed. 2020) — manual extensivo sobre todos os tipos de mapas de experiência.
+- [servicedesigntools.org](https://servicedesigntools.org) — biblioteca de templates open-source.
+
+---
+
+### CZ.9 — Test Card (David Bland & Alexander Osterwalder, 2019)
+
+#### Origem histórica
+
+O Test Card foi formalizado no livro *Testing Business Ideas* (David Bland & Alexander Osterwalder, 2019), parte da família Strategyzer (mesma escola do BMC e VPC). É a sistematização — em formato de cartão único — do que já era prática tácita no Lean Startup desde Eric Ries (2011): para cada hipótese, defina o experimento que vai testá-la **antes** de coletar dados, com critério de sucesso explícito. O Test Card tornou esse exercício replicável: cabe numa folha A5, tem campos fixos, e força o time a articular o critério de sucesso antes do experimento começar (não depois, quando já há viés de confirmação).
+
+O que o livro IGNIÇÃO chama de "Cartão de Experimento" (Template A.4 do Apêndice A) é uma adaptação direta do Test Card, com algumas extensões para o contexto brasileiro (custo em R$, linguagem local). A origem da ferramenta é Strategyzer.
+
+#### O que é
+
+Cartão de uma página com **oito campos** estruturados:
+
+- **ID do experimento** (numeração sequencial).
+- **Hipótese testada** (uma frase falsificável copiada do banco de hipóteses).
+- **Pergunta central** (o que especificamente queremos responder).
+- **Desenho** (passo a passo do experimento).
+- **Público** (quantas pessoas, qual perfil, como alcançadas).
+- **Métrica principal e critério de sucesso** (definido **antes** de ver dados).
+- **Critério de refutação** (o que invalida a hipótese — também antes).
+- **Custo e duração** (orçamento e prazo).
+
+Após o experimento, o cartão se completa com:
+
+- **Resultado observado**.
+- **Decisão** (Persevere / Pivote / Ajuste / Abandone).
+- **Aprendizados** (o que isso nos ensina sobre o modelo).
+
+```mermaid
+flowchart TB
+    subgraph Pre["Antes do experimento"]
+        H["💡 Hipótese<br/>(falsificável)"]
+        P["❓ Pergunta<br/>central"]
+        D["📋 Desenho<br/>(passo a passo)"]
+        PU["👥 Público"]
+        M["📊 Métrica + Critério<br/>de Sucesso"]
+        R["🚫 Critério<br/>de Refutação"]
+        CU["💰 Custo + Duração"]
+    end
+    subgraph Pos["Depois do experimento"]
+        RE["📈 Resultado<br/>observado"]
+        DE["✅ Decisão<br/>(Persevere/Pivote/<br/>Ajuste/Abandone)"]
+        AP["💡 Aprendizados"]
+    end
+    Pre --> Pos
+```
+
+A disciplina central é definir **Critério de Sucesso e Critério de Refutação ANTES** de rodar o experimento. Times que definem critério depois invariavelmente racionalizam os dados a favor da hipótese ("converteu menos do que esperávamos, mas ainda é positivo porque..."). Critério pré-definido evita auto-engano.
+
+#### Quando usar
+
+Use o Test Card na Fase 7 (experimentos de validação do problema) como artefato central — um Test Card por experimento, vivo até o experimento concluir. Use também na Fase 6 (formulação de hipóteses) como follow-up imediato: cada hipótese bet-the-company gera 1-3 Test Cards. Em times pós-PMF com cultura de discovery contínuo, Test Card vira hábito semanal — qualquer feature ou mudança de fluxo gera Test Card antes da implementação.
+
+#### Princípios
+
+A tese de Bland & Osterwalder é que **experimento sem critério pré-definido não é experimento, é demonstração**. Demonstração começa com a conclusão pronta e busca evidência que confirme. Experimento começa com pergunta aberta e aceita qualquer resposta. A diferença é a definição prévia do critério de refutação. Test Card formaliza esse rigor — sem ele, a maioria dos "experimentos" em startup é teatro de método científico.
+
+#### Como aplicar
+
+Para cada hipótese a testar, abrir um Test Card. Tempo de preenchimento: 30-45 min. Participantes: 2-3 pessoas (PM + tech/design + 1 fundador).
+
+1. **Hipótese** — copie da Fase 6, escreva como afirmação falsificável: "X% dos visitantes da landing page se cadastrarão em até 7 dias", não "as pessoas vão gostar".
+2. **Pergunta central** — o que estamos testando especificamente? Frequentemente é o coração da hipótese reformulado.
+3. **Desenho** — passo a passo do experimento. Concreto: que landing page? Quais ads? Que público?
+4. **Público** — N planejado, perfil específico, canal. "100 visitantes ICP via Meta Ads" é diferente de "100 visitantes quaisquer".
+5. **Métrica + Critério de Sucesso** — definir **antes**. "Sucesso = 8% de conversão visitante → cadastro em 14 dias."
+6. **Critério de Refutação** — também antes. "Abaixo de 2% = hipótese refutada."
+7. **Custo e Duração** — R$ X (Ads + ferramenta) + Y dias.
+8. **Riscos e vieses** — o que pode distorcer? Tráfego ruim? Dia da semana? Novidade?
+
+Rodar o experimento. Atualizar o cartão com resultado, decisão e aprendizados.
+
+**Regra de ouro**: sucesso e refutação devem ser distintos com zona de incerteza no meio. Entre 2% e 8% no exemplo acima = inconclusivo, exige novo experimento. Sem zona de incerteza, qualquer resultado vira "sucesso" ou "fracasso" por viés.
+
+#### Exemplo brasileiro preenchido — PadariaPro, smoke test de proposta de valor (2024)
+
+Equipe da PadariaPro (caso recorrente do livro) considerava lançar produto de gestão de delivery próprio para padarias artesanais com 1-3 unidades em São Paulo. Antes de construir, rodaram este Test Card:
+
+| Campo | Conteúdo |
+|---|---|
+| **ID** | EXP-2024-03 |
+| **Hipótese testada** | Donos de padaria com 1-3 unidades em SP que fazem delivery próprio têm dor suficiente para pagar R$ 290/mês por software de gestão integrada de pedidos. |
+| **Pergunta central** | Visitantes ICP convertem em formulário "quero conhecer" a ≥10%? Dos que preenchem, ≥30% confirmam disposição a pagar R$ 290 em ligação? |
+| **Desenho** | (1) Landing page descrevendo o produto como se existisse, com R$ 290/mês destacado e formulário de "quero conhecer". (2) Meta Ads segmentando "donos de padaria em SP" via interesses + lookalike de base de email comprada. (3) Para cada formulário preenchido, ligar em 24h e fazer entrevista de 15 min. |
+| **Público** | 100 visitantes ICP (donos/sócios de padaria 1-3 unidades em SP capital), via Meta Ads. Verba de R$ 1.500. |
+| **Métrica principal** | Taxa de conversão visitante → formulário preenchido. Sucesso: ≥10%. Refutação: ≤2%. |
+| **Métrica secundária** | Dos preenchimentos, % que confirma disposição a pagar R$ 290 em ligação. Sucesso: ≥30%. Refutação: ≤10%. |
+| **Critério de Refutação** | Conversão <2% OU confirmação de pagamento <10% = hipótese refutada. Reconsiderar preço ou ICP. |
+| **Custo e Duração** | R$ 1.500 em Ads + 14 dias (1 semana de tráfego + 1 semana de ligações) + ~10h do fundador em entrevistas. |
+| **Riscos e vieses** | Público frio do Meta pode não bater com ICP real (donos de padaria não usam Meta Ads como ferramenta de descoberta de software B2B). Mitigação: reforçar segmentação por interesses + lookalike. |
+
+**Resultado** (preenchido após 14 dias):
+
+- 47 visitantes ICP confirmados via tag de evento (audience pequena demais, limitação de targeting).
+- 12 preencheram formulário (25,5% — acima do critério de sucesso primário).
+- 7 atendiam à ligação. Dos 7: 4 confirmaram disposição a R$ 290, 2 a R$ 400, 1 a R$ 590. Confirmação de pagamento: 4/7 = 57% (acima do critério).
+
+**Decisão**: Persevere. Hipótese reforçada — disposição a pagar é maior que o teste assumia (alguns aceitariam R$ 400-590). Próximo experimento: pré-venda paga real (R$ 290 com reembolso garantido) para os 12 do formulário.
+
+**Aprendizados**: (1) ICP via Meta Ads funcionou apesar de ceticismo inicial — segmentação por interesse "padaria artesanal" + lookalike captou perfil certo. (2) Disposição a pagar > preço testado sugere que estamos subprecificando — testar R$ 390 no próximo experimento. (3) Tempo de resposta importa: dos 12 que preencheram, os 5 que não atenderam ligação foram contatados em D+2 (vs D+1 nos 7 atendidos). Diferença de 24h em tempo de resposta queimou 40% da amostra.
+
+**Insight do caso.** A disciplina do Test Card neste exemplo evitou três erros típicos: (1) **viés de confirmação** — sem critério pré-definido, "47 visitantes" pareceria sucesso ou fracasso conforme a vontade do time; com critério, é claramente "amostra menor que planejada, mas suficiente porque conversão alta compensa"; (2) **subestimação de preço** — sem perguntar preço de forma sistemática, a equipe assumiria R$ 290 e nunca testaria preços maiores; (3) **falsa sensação de progresso** — sem "Critério de Refutação" registrado, o time poderia ter levado meses para perceber que algo simples como "responder em 24h" estava destruindo a amostra. **A lição: Test Card não é burocracia — é o equipamento de proteção contra os auto-enganos sistemáticos do empreendedor entusiasmado.**
+
+#### Variações e extensões
+
+- **Learning Card** (Strategyzer): cartão complementar focado em "o que aprendemos" (não "o que testamos"). Útil para destilar insights de múltiplos Test Cards rodados.
+- **Assumption Map** (Bland & Osterwalder): grid 2x2 que prioriza quais assumptions virar Test Cards primeiro (importância × evidência atual).
+- **Riskiest Assumption Test (RAT)** (Cindy Alvarez / GV Sprint): variação minimalista — só testa a única assumption que mais pode matar o produto.
+
+#### Erros comuns
+
+- Definir critério de sucesso depois de ver resultados — auto-engano garantido.
+- Critério vago ("queremos boa adoção") em vez de quantitativo ("≥X% em Y dias") — resultado fica em zona cinza permanente.
+- Não definir critério de refutação — só "sucesso" e "ainda não", nunca "refutado", impede aprendizado real.
+- Rodar muitos Test Cards em paralelo sem capacidade de analisar — vira teatro de experimentação.
+- Confundir Test Card com PRD (Product Requirements Document) — Test Card valida hipótese; PRD especifica construção. São documentos para fases distintas.
+
+#### Quando NÃO usar
+
+Em decisões reversíveis e baratas (pequena mudança de copy, ajuste de preço pontual) — overhead do cartão não compensa. Em decisões que não cabem em hipótese falsificável ("devemos ter cultura mais transparente?") — Test Card não serve para questões de identidade ou valores. Em ambientes onde o time não tem disciplina para parar e analisar antes de avançar — Test Card sem cultura de revisão vira papel.
+
+#### Conexão com outros canvases
+
+O Test Card **sucede o Hypothesis Canvas (CZ.14)**: cada hipótese vira 1-3 Test Cards. **Sucede o Lean Canvas (CZ.2)**: cada bloco do Lean Canvas gera hipóteses, que geram Test Cards. **Antecede o MVP Canvas (CZ.11)**: depois de Test Cards validarem que a oportunidade existe, MVP Canvas define o escopo do que construir. **No livro IGNIÇÃO**, o Test Card é a fonte canônica do "Cartão de Experimento" do Template A.4 — são a mesma ferramenta com nome localizado.
+
+#### Leitura adicional
+
+- *Testing Business Ideas* (David Bland & Alexander Osterwalder, 2019).
+- *The Lean Startup* (Eric Ries, 2011) — origem filosófica da disciplina.
+- [strategyzer.com/library](https://strategyzer.com/library) — biblioteca de Test Cards preenchidos por categoria.
 
 ---
