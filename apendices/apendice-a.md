@@ -565,6 +565,9 @@ demais. Sweet spot inicial: entre 15% e 50%.
 
 Use este template quando já preencheu um BMC ou Lean Canvas e precisa transformá-lo em teoria causal.
 
+> [!note] Teoria completa em CZ.16
+> Origem, estrutura, princípios, como aplicar e caso brasileiro do Theory Map / Story Tree encontram-se em [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|CZ.16]]. Este template é o complemento prático (campos preencháveis) daquela seção.
+
 ```text
 THEORY MAP, Conexão BMC ↔ Teoria v___
 
@@ -640,6 +643,9 @@ DIAGNÓSTICO:
 ### A.10 Hypothesis Canvas (Fases 5 + 6)
 
 Template central para conectar teoria, hipótese, evidência e avaliação. Use um canvas por hipótese prioritária. Preencha os blocos superior e médio **antes** de coletar dado, os blocos inferiores são preenchidos **após** a coleta, respeitando a ordem indicada.
+
+> [!note] Teoria completa em CZ.14
+> Origem, estrutura, princípios, como aplicar e caso brasileiro do Hypothesis Canvas encontram-se em [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|CZ.14]]. Este template é o complemento prático (campos preencháveis) daquela seção.
 
 ```text
 ╔══════════════════════════════════════════════════════════╗
@@ -805,7 +811,10 @@ sem ajuste e a consideraram plausível para o ICP:
 
 ### A.12 Canvas da Cunha (Fase 5)
 
-Use este template como entregável final da [[#FASE 5 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 5]]. Ele consolida os quatro elementos da Anatomia da Cunha, o Teste do Grupo de WhatsApp e a comparação com a alternativa atual. Preencha **antes** de avançar para a [[#FASE 6 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 6]], sem ele, as hipóteses da fase seguinte não terão ancoragem no mercado específico que você escolheu atacar.
+Use este template como entregável final da [[#FASE 5 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 5]].
+
+> [!note] Teoria completa em CZ.15
+> Origem, estrutura, princípios, como aplicar e caso brasileiro do Canvas da Cunha encontram-se em [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|CZ.15]]. Este template é o complemento prático (campos preencháveis) daquela seção. Ele consolida os quatro elementos da Anatomia da Cunha, o Teste do Grupo de WhatsApp e a comparação com a alternativa atual. Preencha **antes** de avançar para a [[#FASE 6 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 6]], sem ele, as hipóteses da fase seguinte não terão ancoragem no mercado específico que você escolheu atacar.
 
 ```text
 CANVAS DA CUNHA, v___ Data: ___/___/___

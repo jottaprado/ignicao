@@ -72,6 +72,9 @@ O decisor é você.
 
 Oito passos.
 
+> [!tip] Theory Map / Story Tree como canvas formal desta fase
+> O Story Tree descrito nesta fase tem um canvas dedicado com estrutura formal, pontuação K × I por nó e caso brasileiro (Creditas/BankFacil) em [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|CZ.16]]. Use o template preenchível em [[#APÊNDICE A — TEMPLATES PRONTOS PARA USO|A.9]] junto com o canvas para conectar a árvore ao Business Model Canvas.
+
 #### Passo 1, três perguntas-âncora (método Story Tree)
 
 Num papel em branco ou num arquivo de texto, responda por escrito a três perguntas.

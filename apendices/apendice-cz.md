@@ -49,8 +49,8 @@ appendix: "CZ"
 | CZ.15 | Canvas da Cunha | autoral do livro | Definição de cunha de mercado |
 | CZ.16 | Theory Map / Story Tree | autoral do livro | Teoria causal do negócio |
 
-> [!note] Ondas 1, 2 e 3 disponíveis, onda 4 em construção
-> Esta versão do livro contém o tratamento completo dos canvases CZ.1 a CZ.7 e CZ.9 a CZ.13 (Onda 1 — Fundamentos; Onda 2 — Discovery e validação; Onda 3 — Métricas, MVP e narrativa). A Onda 4 — Time e Autorais (CZ.8 Team Canvas, CZ.14 Hypothesis Canvas, CZ.15 Canvas da Cunha, CZ.16 Theory Map) — será adicionada em iteração posterior. Os canvases autorais (CZ.14, CZ.15, CZ.16) seguem documentados como templates práticos no [[#APÊNDICE A — TEMPLATES PRONTOS PARA USO|Apêndice A]] (A.10, A.12, A.9 respectivamente) até serem promovidos para tratamento teórico aqui.
+> [!note] Todos os 16 canvases disponíveis
+> Este apêndice contém o tratamento completo dos dezesseis canvases: Onda 1 — Fundamentos (CZ.1 BMC, CZ.2 Lean Canvas, CZ.3 VPC, CZ.4 Strategy Canvas); Onda 2 — Discovery e validação (CZ.5 Opportunity Canvas, CZ.6 Empathy Map, CZ.7 Customer Journey Canvas, CZ.9 Test Card); Onda 3 — Métricas, MVP e narrativa (CZ.10 Pirate Canvas, CZ.11 MVP Canvas, CZ.12 Storytelling Canvas, CZ.13 Risk Canvas); Onda 4 — Time e Autorais (CZ.8 Team Canvas, CZ.14 Hypothesis Canvas, CZ.15 Canvas da Cunha, CZ.16 Theory Map). Os templates preencháveis dos canvases autorais (CZ.14, CZ.15, CZ.16) encontram-se no [[#APÊNDICE A — TEMPLATES PRONTOS PARA USO|Apêndice A]] (A.10, A.12, A.9 respectivamente).
 
 ---
 
@@ -1368,5 +1368,404 @@ O Risk Canvas **complementa o Lean Canvas (CZ.2)**: cada bloco do Lean Canvas ge
 - *The Practice of Risk Management* (Goldman Sachs / Ennis Knupp, 1999) — origem metodológica do risk register.
 - *Thinking in Bets* (Annie Duke, 2018) — framework de decisão sob incerteza que complementa o Risk Canvas.
 - *Pre-Mortems: A Simple Technique to Save Any Project from Failure* (Gary Klein, HBR, 2007) — artigo seminal sobre pre-mortem como prática.
+
+---
+
+### CZ.8 — Team Canvas (Alex Ivanov, 2015)
+
+#### Origem histórica
+
+Alex Ivanov, designer e facilitador russo, publicou o Team Canvas em 2015 como resposta a um problema recorrente em workshops de times: grupos saíam de reuniões de alinhamento com a sensação de que "conversamos muito, mas não sabemos exatamente o que foi decidido nem quem é responsável por quê". O Team Canvas é inspirado no Business Model Canvas de Osterwalder mas voltado para dentro — não para o modelo de negócio, mas para o modelo do time. Parte da premissa de que um time é uma organização em miniatura: tem propósito, papéis, recursos (as pessoas), canais de comunicação, e estrutura de valor (o que cada membro dá e recebe). Sem tornar esse modelo explícito, o time opera com pressupostos implícitos que geram conflito, retrabalho e desengajamento. O Team Canvas tornou o exercício de alinhamento de time replicável em 60-90 minutos.
+
+#### O que é
+
+Tela visual de uma página com **nove blocos** organizados em torno do time como unidade central:
+
+- **People & Roles**: quem são as pessoas, qual papel cada uma exerce no time (não o cargo formal — o papel funcional real).
+- **Common Goals**: quais são os objetivos compartilhados do time para o próximo período. Distingue de objetivos individuais.
+- **Personal Goals**: o que cada membro quer pessoalmente ganhar com esse trabalho (desenvolvimento, visibilidade, dinheiro, aprendizado). Frequentemente não dito.
+- **Purpose**: por que esse time existe? Qual é o propósito que vai além das metas operacionais?
+- **Values**: quais são os valores que o time quer viver — não os valores corporativos genéricos, mas os que esse time específico prioriza no trabalho conjunto.
+- **Strengths & Assets**: o que o time tem de melhor — habilidades, experiências, redes, recursos.
+- **Weaknesses & Risks**: onde o time é fraco ou onde existe risco de conflito.
+- **Needs & Expectations**: o que cada membro precisa dos outros para trabalhar bem. Acordos explícitos.
+- **Rules & Activities**: como o time trabalha — rituais, cadências, normas de comunicação, processos de decisão.
+
+```mermaid
+flowchart TB
+    subgraph Pessoas["Quem somos"]
+        direction LR
+        PR["👥 People & Roles<br/>Papéis funcionais"]
+        PG["🎯 Personal Goals<br/>O que cada um quer"]
+    end
+    subgraph Propósito["Por que existimos"]
+        direction LR
+        CG["🏆 Common Goals<br/>Objetivos compartilhados"]
+        PU["💡 Purpose<br/>Razão de ser"]
+        VA["❤️ Values<br/>O que priorizamos"]
+    end
+    subgraph Capacidade["O que temos"]
+        direction LR
+        SA["💪 Strengths<br/>& Assets"]
+        WR["⚠️ Weaknesses<br/>& Risks"]
+    end
+    subgraph Acordos["Como trabalhamos"]
+        direction LR
+        NE["🤝 Needs<br/>& Expectations"]
+        RA["📋 Rules<br/>& Activities"]
+    end
+    Pessoas --> Propósito --> Capacidade --> Acordos
+```
+
+#### Quando usar
+
+Use o Team Canvas na Fase 14 (escala e time) como artefato de onboarding de novos squads ou ao montar equipe de liderança expandida. Use também em momentos de ruptura: entrada de cofundador ou C-level novo, fusão de times após aquisição, reorganização de squads. Em times de 3-8 pessoas, o canvas pode ser preenchido em sessão única de 90 minutos. Em times maiores, faça por squad e depois alinhe os Common Goals e Values entre squads.
+
+#### Princípios
+
+A tese de Ivanov é que **conflito de time frequentemente não é conflito de personalidade — é conflito de pressupostos não declarados**. Dois co-fundadores que não conversaram sobre Personal Goals assumem que o outro quer a mesma coisa (crescimento acelerado vs. lifestyle company; vender em 5 anos vs. construir por 20). Dois engenheiros que não conversaram sobre Needs & Expectations têm expectativas diferentes sobre code review, autonomia, e prazo. O Team Canvas torna esses pressupostos visíveis antes de se tornarem conflito. **A sessão de preenchimento é mais valiosa que o artefato preenchido** — o que emerge na conversa é o trabalho, não o documento final.
+
+#### Como aplicar
+
+Sessão presencial ou remota (Miro, Mural, FigJam). Facilitador (pode ser o próprio fundador, mas facilita melhor quem não está no canvas). 60-90 minutos para times pequenos (3-6 pessoas); 120-150 minutos para times maiores (6-12).
+
+1. **People & Roles** (10 min) — cada pessoa escreve seu nome e o papel funcional real (não o cargo): "sou quem toma decisão técnica final" / "sou quem mantém relação com os clientes âncora".
+2. **Personal Goals** (15 min) — individualmente primeiro, depois compartilha. O que cada pessoa quer ganhar pessoalmente com esse trabalho nos próximos 12 meses? Dinheiro? Aprendizado? Visibilidade? Espaço para criar? Sem julgamento.
+3. **Common Goals** (15 min) — o que o time quer alcançar *junto*? 3-5 objetivos específicos para o próximo semestre. Discutir até consenso real.
+4. **Purpose** (10 min) — por que esse time existe além das metas? Qual seria a perda para o mundo se esse time parasse de existir?
+5. **Values** (10 min) — quais 3-5 valores o time quer praticar no trabalho conjunto? Votar, depois discutir os que geraram divergência.
+6. **Strengths & Assets / Weaknesses & Risks** (15 min) — o que o time tem de excelente e onde é vulnerável. Honestidade é o requisito — equipe que só lista forças não faz o exercício.
+7. **Needs & Expectations** (10 min) — o que cada pessoa precisa dos outros para trabalhar bem. "Preciso de feedback direto, sem rodeios." "Preciso de autonomia sobre decisões de design." Acordos explícitos.
+8. **Rules & Activities** (10 min) — rituais, cadências, normas. Stand-up diário ou não? Code review obrigatório ou não? Decisão por consenso ou por voto?
+
+Após a sessão: registrar o canvas, colocar visível, revisitar em 3-6 meses.
+
+#### Exemplo brasileiro preenchido — Loggi, formação do squad de expansão nacional (2019)
+
+Quando a Loggi decidiu expandir de São Paulo para 15 cidades em 12 meses (2019), formou um squad de expansão composto por pessoas de produto, operações, dados e comercial que nunca tinham trabalhado juntas. O Team Canvas da sessão inicial:
+
+| Bloco | Conteúdo |
+|---|---|
+| **People & Roles** | PM (decisão de produto e priorização), líder de operações (viabilidade logística e parcerias locais), data analyst (modelo de precificação e projeção de demanda), comercial B2B (clientes-âncora em cada cidade), engenheiro de backend (adaptações de sistema por região). |
+| **Personal Goals** | PM: "quero aprender como se escala operação física, não só digital." Ops: "quero provar que consigo gestão multi-regional." Data: "quero usar modelos preditivos em decisão real, não só relatório." Comercial: "quero virar head de vendas regionais." Engenheiro: "quero ter mais influência na arquitetura." |
+| **Common Goals** | (1) 15 cidades ativas em 12 meses. (2) NPS de entregadores ≥ 45 em todas as cidades ao fim do mês 3. (3) CAC de lojista ≤ R$ 800 nos novos mercados. (4) Tempo de onboarding de cidade ≤ 6 semanas. |
+| **Purpose** | "Tornar entrega rápida acessível para qualquer lojista no Brasil, não só em SP." |
+| **Values** | (1) Velocidade sobre perfeição. (2) Dados antes de opinião. (3) Transparência sobre problemas cedo — sem surpresas tardias. (4) Respeito pela operação local — cada cidade tem suas particularidades. |
+| **Strengths & Assets** | Produto já validado em SP com >18 meses de dados. Marca forte entre entregadores paulistanos. Time com histórico de execução em ambiente caótico. |
+| **Weaknesses & Risks** | Ninguém do squad conhece os mercados-alvo (Recife, BH, Porto Alegre). Risco de replicar o modelo SP sem adaptar. Tensão potencial entre velocidade de expansão (PM + comercial) e qualidade operacional (ops + engenheiro). |
+| **Needs & Expectations** | PM precisa de dados do ops *antes* de priorizar features. Ops precisa de 2 semanas de lead time para qualquer mudança de processo. Data precisa de acesso a dados brutos, sem camadas de abstração. Comercial precisa de suporte de produto para reuniões com clientes grandes. Engenheiro precisa de critério claro de "done" antes de começar cada sprint. |
+| **Rules & Activities** | Weekly de 45 min às segundas (sem slides — só dados + decisões). Slack para comunicação assíncrona (resposta em até 4h em horário comercial). Decisão técnica: engenheiro tem veto. Decisão de produto/prioridade: PM tem última palavra. Decisão de operação: ops tem última palavra. Conflicts escalados para o trio PM + ops + comercial em 24h. |
+
+**Insight do caso.** O bloco que gerou mais conversa foi **Personal Goals** — especialmente o engenheiro que queria "mais influência na arquitetura" e o PM que assumia que o engenheiro estava "só para implementar". Sem o Team Canvas, essa tensão teria emergido na primeira divergência de sprint. Com o canvas, o time chegou a um acordo explícito: o engenheiro entra na reunião de priorização com voto consultivo sobre viabilidade técnica, e o PM explica as decisões de "não agora" com contexto de negócio. **A lição: o conflito mais destrutivo em times de startup é o conflito sobre quem decide o quê. Team Canvas não resolve o conflito — antecipa a conversa e torna o acordo explícito antes que o conflito aconteça.**
+
+#### Variações e extensões
+
+- **Team Canvas Basic**: versão simplificada com apenas 5 blocos (Goals, Roles, Values, Needs, Rules) — para times muito pequenos (2-3 pessoas) ou sessões rápidas de 45 minutos.
+- **Squad Health Check** (Spotify): complemento do Team Canvas — avalia periodicamente a saúde do time em dimensões como Ownership, Speed, Fun, Learning. Útil para revisão trimestral.
+- **Working Agreements Canvas**: foco exclusivo em normas de trabalho — versão mais operacional que o Team Canvas completo.
+
+#### Erros comuns
+
+- Fazer o Team Canvas sem o bloco Personal Goals — é exatamente onde estão os pressupostos não declarados mais perigosos.
+- Facilitador que também está no canvas — difícil ser objetivo; terceiro facilita melhor.
+- Canvas como check-box burocrático (preencher por obrigação, nunca revisitar) — valor está na sessão e na revisão periódica, não no documento.
+- Confundir Values com slogan corporativo — "inovação", "integridade", "excelência" são valores genéricos que não guiam decisão real. "Velocidade sobre perfeição" ou "dados antes de opinião" são valores acionáveis.
+- Tratar o canvas como imutável — times mudam; refaça a cada 6 meses ou quando a composição muda significativamente.
+
+#### Quando NÃO usar
+
+Em times de 1-2 pessoas (overhead não compensa). Em contextos onde há hierarquia rígida que impede honestidade nos blocos Personal Goals e Weaknesses (o canvas produz respostas performáticas, não reais). Em squads temporários de projeto com vida útil <3 meses — overhead de sessão pode não compensar.
+
+#### Conexão com outros canvases
+
+O Team Canvas **complementa o BMC (CZ.1)** e o **Lean Canvas (CZ.2)**: estes descrevem o modelo externo (o negócio); o Team Canvas descreve o modelo interno (o time que vai executar). **Orienta o Risk Canvas (CZ.13)** no bloco "Risco de equipe" — o Team Canvas é o diagnóstico; o Risk Canvas é a priorização e mitigação. **Precede o Storytelling Canvas (CZ.12)** em narrativas de expansão: time alinhado produz narrativa coerente; time desalinhado produz narrativa contraditória.
+
+#### Leitura adicional
+
+- [teamcanvas.com](https://www.teamcanvas.com) — Alex Ivanov mantém o site com templates e estudos de caso.
+- *The Five Dysfunctions of a Team* (Patrick Lencioni, 2002) — modelo de saúde de time que se integra ao Team Canvas.
+- *An Elegant Puzzle* (Will Larson, 2019) — engineering management com foco em time e alinhamento, relevante para squads técnicos.
+
+---
+
+### CZ.14 — Hypothesis Canvas (autoral IGNIÇÃO)
+
+#### Origem histórica
+
+O Hypothesis Canvas documentado neste livro é uma ferramenta autoral desenvolvida especificamente para o contexto de founder brasileiro operando com recursos limitados e necessidade de ciclos curtos de aprendizado. Parte da tradição do Lean Startup (Eric Ries, 2011) e da metodologia de hipóteses científicas aplicada a negócio (Karl Popper via Steve Blank), mas incorpora duas inovações práticas ausentes nos templates estrangeiros: (1) a ligação explícita entre cada hipótese e a **árvore de teoria** do negócio (Fase 2B) — forçando o fundador a articular *qual premissa causal da teoria* está sendo testada; (2) o bloco de **due diligence da amostra** antes da comparação com o threshold — evitando o erro de aceitar resultado de amostra inadequada como evidência válida. O template completo preenchível está no [[#APÊNDICE A — TEMPLATES PRONTOS PARA USO|Apêndice A (A.10)]].
+
+#### O que é
+
+Artefato de uma página — estruturado como tabela de quatro quadrantes — que captura os oito elementos de uma hipótese rigorosamente testável:
+
+- **Teoria**: qual parte da árvore de teoria (Fase 2B) esta hipótese testa? Qual é o atributo ou seta causal em jogo?
+- **Hipótese**: afirmação falsificável em uma frase — quantitativa sempre que possível.
+- **Evidência**: como a evidência será coletada? Método, público-alvo, tamanho de amostra, duração, custo.
+- **Medidas**: o que especificamente será contado? Qual é a fórmula da métrica? Quais medidas alternativas foram descartadas?
+- **Threshold (pré-definido)**: qual resultado mínimo considera a hipótese suportada? Qual resultado a considera refutada? Qual é a zona inconclusiva entre os dois?
+- **Due diligence da amostra**: antes de comparar resultado com threshold, a amostra é adequada? Representa o ICP? Há vieses identificados?
+- **Avaliação**: resultado observado vs. threshold ajustado — Suportada / Refutada / Inconclusiva?
+- **Decisão**: Perseverar / Pivotar / Mais dados / Abandonar + próxima ação concreta + impacto na árvore de teoria.
+
+A sequência de preenchimento é deliberada: blocos superiores e médios **antes** de coletar dados; blocos inferiores **após** — respeitando a barreira anti-viés de confirmação.
+
+#### Quando usar
+
+Use o Hypothesis Canvas na Fase 6 (formulação de hipóteses) como artefato central — um canvas por hipótese bet-the-company. Use também em discovery contínuo pós-PMF: qualquer feature ou mudança de modelo que envolva uma crença não testada merece um canvas. Em times que fazem Test Cards (CZ.9), o Hypothesis Canvas é o nível acima: o Test Card registra um experimento; o Hypothesis Canvas registra a hipótese que o experimento testa, com contexto teórico e decisão final.
+
+#### Princípios
+
+Três princípios fundamentam o design do canvas:
+
+**Primeiro: hipótese sem conexão teórica é ruído.** O bloco "Teoria" força o fundador a articular qual pressuposto da teoria do negócio está em jogo. Hipótese validada que não conecta à teoria pode ser irrelevante; hipótese refutada que conecta a um nó crítico da teoria pode matar o modelo inteiro — a diferença importa.
+
+**Segundo: threshold pré-definido evita auto-engano.** Definir critério de sucesso e refutação antes de ver dados é o único mecanismo eficaz contra viés de confirmação. Times que definem threshold após o resultado invariavelmente o ajustam para validar o que já queriam. O bloco de due diligence da amostra acrescenta um segundo filtro: mesmo que o resultado supere o threshold, se a amostra era inadequada, o resultado não é evidência.
+
+**Terceiro: decisão conecta de volta à teoria.** O bloco "Decisão" exige que o fundador articule o impacto na árvore de teoria — não só "vamos continuar" mas "este resultado fortalece/invalida qual nó ou seta da nossa teoria causal do negócio". Sem isso, aprendizados se acumulam sem atualizar a teoria, e a teoria fica desatualizada em relação à evidência coletada.
+
+#### Como aplicar
+
+Para cada hipótese bet-the-company da Fase 6, abra um canvas. Tempo de preenchimento inicial: 30-45 minutos (a parte antes de coletar dados). Conclusão: após coleta e análise.
+
+Use o template completo do [[#APÊNDICE A — TEMPLATES PRONTOS PARA USO|Apêndice A (A.10)]] para o preenchimento. A estrutura do canvas orienta a sequência — não pule blocos, não preencha de baixo para cima.
+
+**Sequência obrigatória:**
+
+1. **Teoria**: abra a árvore de teoria da Fase 2B. Qual atributo ou seta esta hipótese testa? Importância (1-5). É bet-the-company?
+2. **Hipótese**: escreva como afirmação falsificável. "X% de [persona Y] fará [ação Z] em [contexto W]."
+3. **Evidência**: escolha o método. Entrevista, questionário, landing page, pré-venda, concierge, A/B, fake door, etc. Tamanho de amostra, duração, custo.
+4. **Medidas**: o que conta? Qual é a fórmula exata? Quais alternativas foram descartadas?
+5. **Threshold**: defina sucesso, refutação e zona inconclusiva. Justifique os números. Assine e date.
+6. **[Coleta de dados]**
+7. **Due diligence da amostra**: tamanho efetivo coletado. Adequado? Representa o ICP? Vieses.
+8. **Ajuste do threshold**: se necessário, documente a razão.
+9. **Avaliação** e **Decisão**.
+
+#### Exemplo brasileiro preenchido — startup de gestão de frota para transportadoras médias (2023)
+
+Uma startup B2B de gestão de frota estava testando a hipótese de que transportadoras de 20-50 caminhões em SP pagariam R$ 180/veículo/mês por rastreamento + relatórios de eficiência integrados.
+
+| Bloco | Conteúdo |
+|---|---|
+| **Teoria** | Atributo A3 da árvore: "cliente paga pelo relatório de eficiência, não só pelo rastreamento". Seta causal: relatório de eficiência → redução de custo de combustível → disposição a pagar premium. Importância: 5. Bet-the-company: sim (preço de R$ 180 vs. concorrente a R$ 90 depende desta hipótese). |
+| **Hipótese** | Transportadoras de 20-50 caminhões em SP com gerente de frota dedicado pagarão R$ 180/veículo/mês por rastreamento + relatório de eficiência mensal, se o relatório mostrar redução ≥5% de consumo de combustível. |
+| **Evidência** | 8 pré-vendas reais (contrato de 3 meses, reembolso se insatisfeito) via cold outreach para lista de 40 transportadoras identificadas em LinkedIn + associações de classe. |
+| **Medidas** | Número de contratos assinados a R$ 180. Threshold: ≥4/8 (50%) = suportada. ≤1/8 (12,5%) = refutada. Entre 2-3 = inconclusivo. |
+| **Threshold** | Sucesso: ≥4 contratos em 30 dias. Refutação: ≤1 contrato. Zona inconclusiva: 2-3 contratos (exige entrevistas adicionais para entender objeções). |
+| **Due diligence** | 8 empresas abordadas, 6 tiveram reunião (2 declinaram). Das 6: 3 assinaram a R$ 180, 1 pediu R$ 120, 2 declinaram. Amostra de 8 é pequena mas representa o ICP (todas têm 20-50 caminhões, SP, gerente de frota). Viés possível: acesso via rede pessoal pode ter selecionado empresas mais abertas a inovação. |
+| **Avaliação** | 3/6 reuniões = 50% de conversão das reuniões. Vs. threshold original (4/8 total): inconclusivo. Ajuste de threshold: com 6 reuniões em vez de 8, o critério proporcional seria ≥3 — resultado beira o limiar de sucesso. |
+| **Decisão** | Mais dados. Ação: expandir para 20 novas abordagens antes de concluir. A 1 que pediu R$ 120 sinaliza que o relatório de eficiência não está bem justificado em termos de ROI — refinar a apresentação do relatório antes das próximas abordagens. Impacto na teoria: hipótese parcialmente suportada, mas seta causal "relatório → disposição a pagar premium" precisa ser reforçada com cálculo de ROI explícito na proposta. |
+
+**Insight do caso.** O bloco de due diligence revelou que a amostra era pequena (6 reuniões, não 8 planejadas), e o resultado ficou na zona cinza. Sem o canvas, o time poderia ter concluído "50% de conversão — excelente, vamos escalar". Com o canvas, ficou claro que 3 contratos numa amostra de 6 é inconclusivo, e a ação certa era ampliar — não comemorar. **A lição: threshold sem due diligence da amostra é falsa precisão. O número de contratos importa, mas a qualidade da amostra que gerou esses contratos importa igualmente.**
+
+#### Variações e extensões
+
+- **Hypothesis Canvas Rápido**: versão de 4 blocos (Hipótese + Método + Threshold + Decisão) para hipóteses de menor risco onde o rigor completo é overhead excessivo.
+- **Portfolio de Hipóteses**: planilha com todos os canvas abertos em paralelo, ranqueados por Importância e status (Pendente / Em teste / Suportada / Refutada). Útil para o "banco de hipóteses" da Fase 6.
+
+#### Quando NÃO usar
+
+Em decisões operacionais rotineiras que não testam premissa nova (ajuste de preço incremental, mudança de copy). Em hipóteses onde a coleta de evidência levaria mais de 90 dias — nesse horizonte, outros aspectos do negócio já terão mudado; redesenhe o experimento para ser mais rápido ou use o canvas como hipótese de longo prazo com checkpoint intermediário.
+
+#### Conexão com outros canvases
+
+O Hypothesis Canvas **sucede a Theory Map (CZ.16)**: cada nó ou seta da árvore teórica gera hipóteses a testar. **Pareia com o Test Card (CZ.9)**: o Hypothesis Canvas define a hipótese e o contexto teórico; o Test Card define o experimento específico. **Alimenta o Lean Canvas (CZ.2)**: hipóteses validadas atualizam os blocos do Lean Canvas com dado real. **Alimenta o Risk Canvas (CZ.13)**: hipóteses refutadas são, frequentemente, a materialização de riscos previamente identificados.
+
+#### Leitura adicional
+
+- Template completo preenchível: [[#APÊNDICE A — TEMPLATES PRONTOS PARA USO|Apêndice A, A.10]].
+- *The Lean Startup* (Eric Ries, 2011) — fundação filosófica.
+- *Thinking, Fast and Slow* (Daniel Kahneman, 2011) — viés de confirmação e por que threshold pré-definido importa.
+
+---
+
+### CZ.15 — Canvas da Cunha (autoral IGNIÇÃO)
+
+#### Origem histórica
+
+O Canvas da Cunha é ferramenta autoral desenvolvida para o contexto específico de startups B2B brasileiras que precisam escolher um segmento de entrada estreito antes de escalar. O conceito de "cunha" (wedge) vem da escola de go-to-market de Peter Thiel (*Zero to One*, 2014) — a ideia de que toda startup dominante começou controlando um nicho pequeno e específico antes de expandir. O canvas operacionaliza essa estratégia: força o fundador a articular com precisão cirúrgica *quem* é o cliente do segmento de entrada, *qual* dor específica está sendo resolvida, e *como* o resultado é mensurável. O "Teste do Grupo de WhatsApp" — você consegue listar nominalmente 100-300 pessoas específicas como potenciais primeiros clientes? — é o teste de falsificabilidade da cunha: cunha bem definida passa no teste; cunha vaga não passa. O template completo preenchível está no [[#APÊNDICE A — TEMPLATES PRONTOS PARA USO|Apêndice A (A.12)]].
+
+#### O que é
+
+Tela visual de uma página com **seis blocos** que definem a anatomia completa da cunha de entrada:
+
+- **ICP (Ideal Customer Profile) preciso**: descrição em 2-3 linhas do cliente específico — não "PMEs", mas "donos de padaria artesanal com 1-3 unidades em SP com delivery próprio".
+- **Dor específica**: um fluxo de trabalho específico que está quebrado ou ineficiente para esse ICP. Não "dificuldade em gestão", mas "gasta 3 horas por semana consolidando pedidos de delivery de três canais diferentes manualmente".
+- **Resultado mensurável**: como o cliente sabe que a solução funcionou? Escolha 1-2 categorias: receita gerada, custo reduzido, risco eliminado, tempo economizado. Com número: "reduz de 3h para 15min/semana".
+- **Dono do orçamento**: cargo e nível hierárquico de quem assina o cheque — não quem usa o produto.
+- **Teste do Grupo de WhatsApp**: você consegue listar nominalmente 100-300 potenciais primeiros clientes? Se sim, a cunha está bem definida. Se não, é muito larga — refine.
+- **Alternativa atual e vantagem**: o que o cliente faz hoje para resolver esse problema? Por que você é melhor, em uma frase com número?
+
+```mermaid
+flowchart TB
+    ICP["🎯 ICP Preciso<br/>Quem exatamente?<br/>(2-3 linhas específicas)"]
+    DOR["⚡ Dor Específica<br/>1 fluxo de trabalho<br/>quebrado"]
+    RES["📊 Resultado Mensurável<br/>Receita / Custo / Risco / Tempo<br/>Com número"]
+    ORQ["💼 Dono do Orçamento<br/>Quem assina?<br/>Cargo + nível"]
+    WA["📱 Teste WhatsApp<br/>100-300 pessoas<br/>listáveis por nome?"]
+    ALT["🔄 Alternativa Atual<br/>O que faz hoje?<br/>Por que você é melhor?"]
+    ICP --> DOR --> RES --> ORQ --> WA --> ALT
+```
+
+#### Quando usar
+
+Use o Canvas da Cunha na Fase 5 (mapeamento de mercado) como entregável final antes de avançar para a Fase 6. É o artefato de saída da fase — sem ele preenchido e aprovado nos três testes complementares (Teste de Precisão do Comprador, ausência de escopo instável, independência de plataforma), a Fase 5 não está concluída. Use também em momentos de pivô (Fase 15): a segunda curva frequentemente exige redefinir a cunha, começando o ciclo de entrada de mercado novamente com o ativo da marca existente.
+
+#### Princípios
+
+Três princípios fundamentam o canvas:
+
+**Primeiro: especificidade é vantagem competitiva, não limitação.** O instinto do fundador é ampliar o ICP ("não quero excluir potenciais clientes"). O canvas vai na direção oposta: quanto mais estreito o ICP, mais forte a proposta de valor, mais rápido o feedback de mercado, mais fácil a venda. Você não está excluindo clientes — está escolhendo *por onde entrar*. Escala vem depois.
+
+**Segundo: a cunha é definida pela dor, não pelo produto.** O erro mais comum é definir a cunha pelo que o produto faz ("somos um ERP para PMEs"). A cunha correta é definida pelo problema específico que está sendo resolvido para um cliente específico ("somos a ferramenta que resolve o problema de recoletada manual de dados para escritórios contábeis com 50-100 clientes PME"). O produto pode evoluir; a dor específica é o núcleo.
+
+**Terceiro: o Teste do WhatsApp é o critério de verdade.** Qualquer fundador pode escrever "donos de PME com dificuldade em gestão" como ICP. Muito poucos conseguem listar 200 nomes específicos de pessoas que atendem a esse critério. O teste força a realidade — se você não consegue nominar 100 pessoas, seu ICP não está definido o suficiente para ser uma cunha viável.
+
+#### Como aplicar
+
+Preencha individualmente primeiro (20-30 min) e depois valide com pelo menos um cofundador ou mentor externo (30 min). Use o template completo do [[#APÊNDICE A — TEMPLATES PRONTOS PARA USO|Apêndice A (A.12)]].
+
+**Sequência:**
+
+1. **ICP**: descreva quem é o cliente em 2-3 linhas. Inclua: setor, porte, localização, critério operacional (tem delivery próprio, tem gerente de frota, tem mais de X clientes, etc.). Não use adjetivos vagos ("médias empresas") — use critérios objetivos.
+2. **Dor específica**: escolha um fluxo de trabalho. Descreva o que está quebrado com verbos concretos ("gasta", "consolida manualmente", "perde"). Se você precisar de 3 frases, o ICP ainda é largo demais.
+3. **Resultado mensurável**: escolha 1-2 categorias. Coloque um número. Se não tem o número, pergunte a 5 potenciais clientes antes de preencher o bloco.
+4. **Dono do orçamento**: não é necessariamente quem usa o produto. Em B2B, frequentemente é um nível acima. Nomeie o cargo e o contexto hierárquico.
+5. **Teste do WhatsApp**: tente listar. Se conseguir 100-300 nomes específicos (LinkedIn, associações, contatos do setor, indicações), a cunha está certa. Se não conseguir 50, está larga demais.
+6. **Alternativa atual e vantagem**: descreva o que o cliente faz *hoje* (Excel, processo manual, concorrente, "não faz nada"). Escreva a vantagem em uma frase com número. Sem número, não é comparação — é afirmação vaga.
+
+Após preencher, aplique os três testes complementares do template A.12 antes de avançar.
+
+#### Exemplo brasileiro preenchido — PadariaPro (caso recorrente do livro)
+
+| Bloco | Conteúdo |
+|---|---|
+| **ICP** | Donos ou donas operacionais de padarias artesanais com 1-3 unidades físicas em São Paulo (capital + ABC), com delivery próprio via WhatsApp ou iFood, faturamento R$ 80-400k/mês, há pelo menos 2 anos no mercado. Excluir: padarias industriais, franquias, padarias sem delivery próprio. |
+| **Dor específica** | Consolida pedidos de delivery de 2-3 canais (WhatsApp, iFood, site próprio) manualmente — copia pedido do WhatsApp para planilha, confere com iFood, passa para a produção. Processo leva 2-3 horas/dia, gera erros de pedido e atrasos que resultam em avaliações negativas. |
+| **Resultado mensurável** | Reduz consolidação de pedidos de 2-3h/dia para 15 min/dia (tempo). Reduz erro de pedido de ~8% para <1% (qualidade → preservação de avaliação). |
+| **Dono do orçamento** | O próprio dono ou sócia operacional — em padarias dessa faixa, não há gestor intermediário; quem sofre o problema é quem paga. |
+| **Teste do WhatsApp** | Fundadores conseguiram listar 180 padarias específicas em SP via Instagram (buscando perfis de padaria artesanal com >500 seguidores) + associação de panificadores de SP + grupos de WhatsApp de donos de padaria. Cunha aprovada. |
+| **Alternativa atual** | Planilha Excel + cópia manual de mensagens de WhatsApp. Por que melhor: "Reduz 2,5h/dia de trabalho manual e elimina 90% dos erros de pedido, por R$ 290/mês — equivale a menos de 20 minutos do custo de mão de obra do dono." |
+
+**Insight do caso.** O bloco mais trabalhoso foi a **Dor específica** — a primeira versão dizia "dificuldade em gestão de delivery". Com esse enunciado, o Teste do WhatsApp seria impossível (como listar donos de padaria com "dificuldade em gestão"?). Ao refinar para "consolida pedidos de 2-3 canais manualmente 2-3h/dia", o teste ficou testável: o critério de inclusão na lista era "tem delivery via WhatsApp E pelo menos mais um canal". **A lição: o Teste do WhatsApp não é só um teste de tamanho do mercado — é um teste de especificidade da dor. Se você não consegue montar a lista, o critério de dor está vago demais para gerar uma proposta de valor precisa.**
+
+#### Variações e extensões
+
+- **Canvas da Cunha para B2C**: versão adaptada onde "Dono do orçamento" é substituído por "Contexto de decisão de compra" (impulso, pesquisa, influência social) — em B2C o comprador e o usuário são o mesmo.
+- **Canvas da Segunda Cunha**: para empresas em escala que querem atacar um novo segmento com o produto existente — mesma estrutura mas com bloco adicional "Vantagem incumbente" (o que a empresa já tem que facilita a entrada neste segmento vs. novo entrante).
+
+#### Quando NÃO usar
+
+Em modelos de negócio B2C de massa com aquisição digital escalável desde o início (e-commerce com SAM > 1M pessoas) — a lógica de cunha estreita pode ser substituída por segmentação de produto/canal. Em startups de plataforma onde o valor é gerado pela rede desde o início — o Canvas da Cunha ajuda a definir o lado inicial da rede, mas o framework de marketplace dynamics (Apêndice AE) é mais adequado para a dinâmica de crescimento.
+
+#### Conexão com outros canvases
+
+O Canvas da Cunha **sucede o Empathy Map (CZ.6)** e o **Customer Journey (CZ.7)**: esses canvases revelam quem é o cliente e como vive o problema; o Canvas da Cunha define *qual segmento de cliente* é o ponto de entrada. **Antecede o Lean Canvas (CZ.2)**: a cunha bem definida preenche os blocos "Problema", "Segmento de Clientes" e "Canais" do Lean com precisão. **Conecta ao Strategy Canvas (CZ.4)**: a cunha é o ponto de entrada; o Strategy Canvas define a curva de valor distinta nesse nicho que impede imitação fácil.
+
+#### Leitura adicional
+
+- Template completo preenchível: [[#APÊNDICE A — TEMPLATES PRONTOS PARA USO|Apêndice A, A.12]].
+- *Zero to One* (Peter Thiel & Blake Masters, 2014) — origem do conceito de "wedge".
+- *Crossing the Chasm* (Geoffrey Moore, 1991) — estratégia de segmento de entrada para tecnologia B2B.
+
+---
+
+### CZ.16 — Theory Map / Story Tree (autoral IGNIÇÃO)
+
+#### Origem histórica
+
+A Theory Map — também chamada de Story Tree no contexto de Fase 2B — é ferramenta autoral desenvolvida para este livro a partir da convergência de três tradições intelectuais: (1) o Directed Acyclic Graph (DAG) causal de Judea Pearl (*The Book of Why*, 2018), que formaliza relações causais em grafos direcionados; (2) o conceito de "theory of change" das ciências sociais e de impacto social (Teoria da Mudança), que mapeia a lógica causal entre intervenção e resultado; (3) a prática de Steve Blank e Bob Dorf de externalizar as "apostas" de um modelo de negócio antes de testar. A motivação foi observação prática: fundadores que chegam com Lean Canvas preenchido frequentemente não conseguem articular *por que* acreditam que cada bloco do canvas se sustenta. Theory Map força externalizar essa lógica causal implícita — tornando-a auditável, falsificável e revisável à medida que a evidência chega. O template completo preenchível está no [[#APÊNDICE A — TEMPLATES PRONTOS PARA USO|Apêndice A (A.9)]].
+
+#### O que é
+
+Grafo visual — árvore ou rede de nós conectados por setas causais — que representa a teoria do negócio: a cadeia de premissas que, se verdadeiras em conjunto, tornam o negócio viável. Cada **nó** é um atributo ou estado do mundo ("clientes pagam R$ 180/mês", "CAC < R$ 400", "retenção D30 > 60%"). Cada **seta** é uma afirmação causal ("porque X, então Y" — "porque a dor é aguda o suficiente, clientes pagarão mensalmente"). O grafo é **acíclico** — sem loops; se houver, é sinal de raciocínio circular.
+
+Cada nó recebe três classificações:
+
+- **Conhecimento (K1-K5)**: quão bem estabelecida é esta premissa? K1 = evidência robusta. K5 = pura suposição.
+- **Importância (I1-I5)**: quanto o negócio depende desta premissa? I5 = bet-the-company.
+- **Prioridade de teste (P = K × I)**: premissas com maior P devem ser testadas primeiro.
+
+```mermaid
+flowchart TD
+    A["🎯 Dor aguda existe<br/>K=2, I=5, P=10"]
+    B["💰 Cliente paga R$180/mês<br/>K=2, I=5, P=10"]
+    C["📉 CAC < R$400<br/>K=3, I=4, P=12"]
+    D["🔁 Retenção D30 > 60%<br/>K=2, I=5, P=10"]
+    E["📈 LTV/CAC > 3<br/>K=3, I=5, P=15"]
+    F["✅ Modelo sustentável<br/>Resultado final"]
+    A -->|"causa"| B
+    B -->|"viabiliza"| E
+    C -->|"determina"| E
+    D -->|"define LTV"| E
+    E -->|"permite"| F
+```
+
+#### Quando usar
+
+Use a Theory Map na Fase 2B (construção da teoria do negócio) como artefato central — antes de qualquer experimento ou desenvolvimento de produto. A árvore construída na Fase 2B é o mapa que orienta todas as fases seguintes: cada hipótese da Fase 6 testa um nó ou seta da árvore; cada experimento da Fase 7 coleta evidência sobre as premissas mais incertas e importantes. Revise a árvore após cada rodada de experimentos — evidência nova deve atualizar o grafo, não ser arquivada separadamente.
+
+#### Princípios
+
+Três princípios fundamentam o design:
+
+**Primeiro: modelo de negócio é teoria causal, não conjunto de features.** Lean Canvas e BMC descrevem o modelo como conjunto de componentes (problema, solução, canais, receita). Theory Map descreve o modelo como rede de afirmações causais sobre o mundo. A diferença é crítica: um Canvas pode ser preenchido de forma internamente consistente sem que nenhuma das premissas seja verdadeira. Uma Theory Map que é internamente consistente mas tem nós K5 (pure assumption) é honesta sobre onde está o risco — e esses nós K5 com alta importância são exatamente o que os primeiros experimentos devem testar.
+
+**Segundo: apostas implícitas são apostas não gerenciadas.** Todo fundador opera com uma teoria implícita do negócio — "acredito que X porque Y". A maioria nunca a externaliza. Theory Map força a externalização: cada bloco de Lean Canvas ou BMC vira um nó com premissas explícitas. O processo de construção frequentemente revela premissas que o fundador assumia serem fato mas são K4-K5 (pouca ou nenhuma evidência). Essas premissas descobertas durante a construção da árvore são as bet-the-company hypotheses a testar primeiro.
+
+**Terceiro: árvore viva bate árvore estática.** Theory Map não é documento de planejamento — é modelo vivo que deve ser atualizado à medida que evidência chega. Cada experimento da Fase 7 muda o K (conhecimento) de algum nó. Cada atualização de K muda a P (prioridade de teste) de outros nós. Time que mantém a árvore atualizada tem uma vantagem: sabe em tempo real quais premissas críticas ainda não foram testadas e qual é o estado atual da teoria.
+
+#### Como aplicar
+
+Sessão de 2-3 horas com o time fundador (2-4 pessoas). Facilitador recomendado para a primeira versão. Use o template do [[#APÊNDICE A — TEMPLATES PRONTOS PARA USO|Apêndice A (A.9)]] para conectar a árvore ao BMC existente, ou construa a árvore diretamente se ainda não houver BMC.
+
+**Sequência:**
+
+1. **Resultado final**: escreva no topo da árvore o resultado que torna o negócio viável ("empresa sustentável com LTV/CAC > 3" ou "mercado de R$ 50M endereçável com participação de 5% em 5 anos"). Um só nó no topo.
+2. **Premissas de primeiro nível**: o que precisa ser verdade para o resultado final acontecer? Geralmente 3-5 premissas de alto nível (clientes têm a dor, clientes pagam, CAC viável, retenção suficiente, canal escalável).
+3. **Decomposição**: para cada premissa de primeiro nível, quais premissas de segundo nível são necessárias? Repita até chegar em premissas testáveis empiricamente.
+4. **Classificação**: para cada nó, atribua K (1-5) e I (1-5). Calcule P = K × I. Nós com P > 12 são prioridade imediata de teste.
+5. **Identificação de apostas bet-the-company**: nós com I = 5 e K ≥ 4 são as premissas mais importantes com menos evidência — essas são as hipóteses que os primeiros experimentos devem atacar.
+6. **Conexão com o BMC/Lean Canvas**: use o template A.9 para verificar que cada bloco do Canvas tem ao menos um nó correspondente na árvore, e que cada nó da árvore tem ao menos um bloco correspondente no Canvas. Inconsistências revelam: (a) canvas com blocos sem justificativa teórica (remova ou construa a teoria); (b) teoria com premissas sem elemento no canvas (modelo incompleto).
+
+#### Exemplo brasileiro preenchido — Creditas, árvore de teoria inicial (2012)
+
+Quando Sergio Furio fundou a Creditas (então BankFacil) em 2012, a teoria central era: brasileiros com imóvel ou veículo pagam juros altíssimos em crédito pessoal porque os bancos tradicionais não usam o ativo como garantia. Um modelo de crédito com garantia poderia oferecer taxas menores e ter unidade economics superiores. A Theory Map inicial simplificada:
+
+| Nó | Premissa | K | I | P | Status |
+|---|---|---|---|---|---|
+| A | Brasileiros com imóvel pagam >50% a.a. em crédito pessoal | 4 | 5 | 20 | Fato verificável — dados Banco Central |
+| B | Regulação permite crédito com garantia de imóvel por fintech | 2 | 5 | 10 | Incerto — exige análise jurídica |
+| C | Clientes aceitam usar imóvel como garantia para taxa menor | 2 | 5 | 10 | Hipótese comportamental — exige teste |
+| D | CAC via digital < CAC de banco tradicional | 3 | 4 | 12 | Suposição — exige teste de canal |
+| E | Inadimplência em crédito com garantia < 3% | 3 | 5 | 15 | Dados históricos internacionais como proxy |
+| F | LTV/CAC > 4 com modelo de garantia | 2 | 5 | 10 | Depende de B, C, D, E |
+| G | Empresa sustentável | — | — | — | Resultado final |
+
+**Apostas bet-the-company identificadas:** B (regulação — P=10, bloqueante se falso), C (comportamento do cliente — P=10), E (inadimplência — P=15, crítico para unit economics).
+
+**Decisões decorrentes:** (1) contratar advogado especializado em regulação antes de qualquer produto — valida B; (2) 50 entrevistas com donos de imóvel em 30 dias — valida C; (3) análise de dados históricos de crédito com garantia no Brasil — reduz incerteza de E.
+
+**Insight do caso.** O nó B (regulação) foi a descoberta mais valiosa do exercício: no ambiente regulatório de 2012, crédito com garantia de imóvel por instituição não-bancária tinha restrições que exigiram estrutura jurídica específica (parceria com banco). Sem a Theory Map, essa premissa teria emergido apenas meses depois, após produto construído. Com a árvore, foi identificada como aposta de alto risco antes de qualquer investimento técnico. **A lição: o valor da Theory Map está nas premissas que você não sabia que estava fazendo. A construção da árvore produz surpresas — cada surpresa é um risco que você não estava gerenciando.**
+
+#### Variações e extensões
+
+- **Story Tree narrativa**: versão mais linear da Theory Map usada para comunicação — conta a teoria como "se A então B, se B então C" em formato de história causal. Útil em pitch e comunicação interna.
+- **Causal Loop Diagram**: versão avançada que permite loops (A causa B que causa A) — mais complexa, útil em análise de sistemas mas requer facilitação especializada.
+- **Assumption Map** (Bland & Osterwalder): versão 2×2 (importância × evidência) que prioriza assumptions para teste — estruturalmente similar à classificação K × I da Theory Map.
+
+#### Quando NÃO usar
+
+Em decisões puramente operacionais sem premissa nova a testar. Em times sem disciplina para manter a árvore atualizada — árvore desatualizada é pior que não ter árvore (induz falsa segurança). Em contextos onde a regulação ou o mercado muda tão rápido que qualquer teoria fica obsoleta em semanas — nesse caso, ciclos muito curtos de experimentos práticos são mais eficientes que planejamento teórico.
+
+#### Conexão com outros canvases
+
+A Theory Map **precede todos os outros canvases** — é o mapa que justifica por que o BMC (CZ.1), o Lean Canvas (CZ.2) e o VPC (CZ.3) têm os blocos que têm. **Alimenta o Hypothesis Canvas (CZ.14)**: cada nó ou seta K≥3+I≥4 da árvore vira hipótese prioritária. **Conecta ao Canvas da Cunha (CZ.15)**: a cunha de entrada de mercado é a operacionalização dos primeiros nós da árvore — qual segmento específico valida as premissas mais críticas com maior velocidade?
+
+#### Leitura adicional
+
+- Template completo preenchível: [[#APÊNDICE A — TEMPLATES PRONTOS PARA USO|Apêndice A, A.9]].
+- *The Book of Why* (Judea Pearl & Dana Mackenzie, 2018) — fundação matemática de grafos causais.
+- *The Startup Owner's Manual* (Steve Blank & Bob Dorf, 2012) — externalização de apostas como prática de discovery.
 
 ---

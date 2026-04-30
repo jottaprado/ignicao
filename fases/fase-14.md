@@ -260,6 +260,9 @@ Número de decisões por semana que só você pode tomar. Alvo: até cinco até 
 
 Reportes diretos do CEO. Até dez em qualquer tamanho de empresa. Mais que isso indica estrutura organizacional disfuncional (falta camada de liderança).
 
+> [!tip] Team Canvas para formalizar o alinhamento do time antes de escalar
+> Antes de formalizar a cultura da empresa (Passo 5) e a cada ciclo de expansão, uma sessão de Team Canvas (CZ.8) com os primeiros líderes revela desalinhamentos em papéis, objetivos e modos de trabalho que processos operacionais depois não conseguem corrigir. Veja instruções, estrutura dos 9 blocos e exemplo da Loggi em [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|CZ.8]].
+
 #### DEFINIÇÃO DE SUCESSO (Time e Liderança)
 
 A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Time e Liderança) está concluída quando os sete itens abaixo estão cumpridos.
