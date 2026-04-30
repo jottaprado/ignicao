@@ -544,6 +544,9 @@ Framework analítico central, ERRC Grid (Eliminate, Reduce, Raise, Create):
 
 O resultado é o **Strategy Canvas**: gráfico que compara seu perfil de valor com concorrentes.
 
+> [!note] Tratamento completo do Strategy Canvas em CZ.4
+> Origem, estrutura detalhada, como aplicar passo a passo, caso Stone vs adquirentes tradicionais e erros comuns em [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|CZ.4]].
+
 ### Como aplicar do jeito certo
 
 Passo 1, Mapear o setor atual (Strategy Canvas). Listar 8-15 fatores de competição do setor, desenhar curvas de valor dos principais concorrentes.

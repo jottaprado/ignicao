@@ -173,6 +173,9 @@ Indicação de intenção de uso depois de ver o protótipo. Mais de cinquenta p
 
 Indicação de disposição a pagar depois de ver o protótipo. Pergunte via "quanto faria sentido cobrar por isso?", em vez de "você pagaria?". Setenta por cento ou mais dos testados devem sugerir valor igual ou superior ao seu preço-alvo. Se a maioria sugere abaixo, ou o preço está errado, ou o valor percebido ainda é baixo.
 
+> [!tip] Opportunity Canvas e MVP Canvas como par de ferramentas desta fase
+> Antes da sessão de divergência (Passo 1), use o Opportunity Canvas (CZ.5) para estruturar oportunidades por desejabilidade, viabilidade e usabilidade — priorizando onde prototipar. Antes de qualquer linha de código, use o MVP Canvas (CZ.11) para definir hipótese central, segmento do MVP, tipo de artefato mais barato e critério de invalidação. Veja instruções e casos em [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|CZ.5]] e [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|CZ.11]].
+
 ### SAÍDA DESTA FASE
 
 Você concluiu a [[#FASE 8 — IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES|Fase 8]] quando os seis critérios abaixo estão cumpridos.

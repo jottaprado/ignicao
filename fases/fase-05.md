@@ -159,6 +159,9 @@ Crescimento anual do mercado (CAGR). Estime mesmo na ausência de relatório pro
 
 Dispersão competitiva. Concentrado se um player tem quarenta por cento ou mais de share, ou se top três somam setenta por cento ou mais. Fragmentado se top cinco somam menos de trinta por cento. Fragmentado favorece entrada por cunha. Concentrado exige diferencial forte ou nicho mal-atendido.
 
+> [!tip] Canvas da Cunha como entregável central desta fase
+> O Canvas da Cunha (CZ.15) operacionaliza a escolha do segmento de entrada: ICP preciso, dor específica (um fluxo de trabalho quebrado), resultado mensurável, dono do orçamento, Teste do Grupo de WhatsApp (100-300 pessoas listáveis por nome) e vantagem sobre a alternativa atual. É o artefato de saída desta fase — sem ele preenchido e aprovado nos três testes complementares (Precisão do Comprador, ausência de escopo instável, independência de plataforma), a Fase 5 não está concluída. Veja origem, estrutura e caso PadariaPro em [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|CZ.15]]; template preenchível em [[#APÊNDICE A — TEMPLATES PRONTOS PARA USO|A.12]].
+
 ### SAÍDA DESTA FASE
 
 Você concluiu a [[#FASE 5 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 5]] quando os oito critérios abaixo estão cumpridos.
