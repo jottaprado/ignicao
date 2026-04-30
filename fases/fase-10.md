@@ -152,6 +152,9 @@ O executor é você. Com time técnico (interno, terceirizado, ou sócio). Os pa
 
 Dez passos.
 
+> [!tip] MVP Canvas antes de construir qualquer coisa
+> Para cada MVP que o time planeja lançar, preencha o [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|MVP Canvas (CZ.11)]] de Tristan Kromer em 30-45 minutos antes de qualquer linha de código: qual é a **hipótese central** (falsificável), quem é o **segmento do MVP** (pode ser subconjunto de 20 pessoas, não 20.000), qual é o **tipo de MVP** (landing page, concierge, wizard of oz — use o mais barato que testa a hipótese), e qual é o **critério de invalidação** (não só de sucesso). A pergunta mais importante do canvas: "Se o MVP falhar pelo critério de invalidação, o que construímos a seguir?" Se a resposta for "não sabemos", a hipótese precisa ser mais específica. O caso Wildlife Studios em CZ.11 mostra como definir o segmento com precisão (moderate spenders apenas) produziu evidência limpa que justificou a expansão do feature para toda a base.
+
 #### Passo 1, construa apenas os Must Haves
 
 Resista à tentação de "só acrescentar isso". Cada item extra atrasa, e adiciona complexidade que pode não ser necessária. Siga a especificação.
@@ -267,6 +270,9 @@ Depois de oito a doze semanas, consolide sete itens. Métricas comparadas com cr
 - Onde os usuários travam, abandonam, ou se frustram?
 
 ### Métricas
+
+> [!tip] Pirate Canvas (AARRR) como estrutura de instrumentação desta fase
+> As métricas abaixo mapeiam diretamente para o funil do [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Pirate Canvas / AARRR (CZ.10)]] de Dave McClure (2007): Acquisition (CAC por canal), Activation (aha moment), Retention (D7/D30), Referral (taxa de indicação, NPS), Revenue (conversão, ARPU). Implante o AARRR **antes** de lançar o MVP — não após. A pergunta mais importante: onde está o maior vazamento do funil? Esse é o único foco do próximo ciclo de produto. O caso Conta Simples em CZ.10 mostra como o canvas revelou que o gargalo era Activation (40% → 67%) e não Acquisition — diagnóstico que evitou investir mais CAC numa banheira furada.
 
 **Métricas primárias (candidatas a North Star).**
 

@@ -52,6 +52,9 @@ flowchart TD
 > [!tip] Regra de ouro do exit
 > Nenhum tipo de exit é "melhor" em abstrato. O melhor é aquele que combina: sinais de mercado favoráveis (múltiplos altos), empresa preparada (data room, métricas auditáveis), e fundador com clareza sobre o próximo capítulo. Quando os três se alinham, exit flui. Quando um está fora, você negocia em desvantagem.
 
+> [!tip] Storytelling Canvas para a narrativa do exit
+> M&A estratégico, IPO e pitch de secondary são, antes de tudo, narrativas. Use o [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Storytelling Canvas (CZ.12)]] para construir a narrativa antes de abrir o data room ou montar o deck. Blocos críticos neste contexto: **Herói** (o comprador/investidor, não você — o que *eles* ganham?), **Mundo depois** (como a aquisição/IPO muda o portfólio ou tese do investidor), **Evidências** (métricas auditáveis do Pirate Canvas / AARRR, NRR, LTV/CAC). O caso Omie em CZ.12 ilustra como colocar o contador (intermediário de canal) como herói — e não o dono de PME nem a Omie — produziu uma narrativa que ativou simultaneamente investidores e canal de distribuição.
+
 #### Passo 1, mapeie os 5 tipos principais de exit
 
 Cada um tem timing, valuation, requisitos, e implicações fundamentalmente diferentes.

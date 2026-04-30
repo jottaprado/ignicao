@@ -5029,6 +5029,9 @@ O executor é você. Com time técnico (interno, terceirizado, ou sócio). Os pa
 
 Dez passos.
 
+> [!tip] MVP Canvas antes de construir qualquer coisa
+> Para cada MVP que o time planeja lançar, preencha o [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|MVP Canvas (CZ.11)]] de Tristan Kromer em 30-45 minutos antes de qualquer linha de código: qual é a **hipótese central** (falsificável), quem é o **segmento do MVP** (pode ser subconjunto de 20 pessoas, não 20.000), qual é o **tipo de MVP** (landing page, concierge, wizard of oz — use o mais barato que testa a hipótese), e qual é o **critério de invalidação** (não só de sucesso). A pergunta mais importante do canvas: "Se o MVP falhar pelo critério de invalidação, o que construímos a seguir?" Se a resposta for "não sabemos", a hipótese precisa ser mais específica. O caso Wildlife Studios em CZ.11 mostra como definir o segmento com precisão (moderate spenders apenas) produziu evidência limpa que justificou a expansão do feature para toda a base.
+
 #### Passo 1, construa apenas os Must Haves
 
 Resista à tentação de "só acrescentar isso". Cada item extra atrasa, e adiciona complexidade que pode não ser necessária. Siga a especificação.
@@ -5144,6 +5147,9 @@ Depois de oito a doze semanas, consolide sete itens. Métricas comparadas com cr
 - Onde os usuários travam, abandonam, ou se frustram?
 
 ### Métricas
+
+> [!tip] Pirate Canvas (AARRR) como estrutura de instrumentação desta fase
+> As métricas abaixo mapeiam diretamente para o funil do [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Pirate Canvas / AARRR (CZ.10)]] de Dave McClure (2007): Acquisition (CAC por canal), Activation (aha moment), Retention (D7/D30), Referral (taxa de indicação, NPS), Revenue (conversão, ARPU). Implante o AARRR **antes** de lançar o MVP — não após. A pergunta mais importante: onde está o maior vazamento do funil? Esse é o único foco do próximo ciclo de produto. O caso Conta Simples em CZ.10 mostra como o canvas revelou que o gargalo era Activation (40% → 67%) e não Acquisition — diagnóstico que evitou investir mais CAC numa banheira furada.
 
 **Métricas primárias (candidatas a North Star).**
 
@@ -5818,6 +5824,9 @@ Três perguntas de verificação mensal para a gestão de caixa. Estou Default A
 - Quanto capital preciso para chegar ao break-even?
 
 ### Métricas
+
+> [!tip] Risk Canvas antes de comprometer recursos desta fase
+> A validação de unit economics da Fase 11 é o momento de fazer o [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Risk Canvas (CZ.13)]] — varredura sistemática de risco em seis categorias (mercado, cliente, solução, modelo, regulatório, equipe) antes de escalar o modelo. Cada risco recebe Probabilidade × Impacto; os top 5 recebem mitigação e owner. O caso Méliuz em CZ.13 mostra como o canvas revelou que o risco mais crítico não era o que o time discutia (equipe dividida) mas o que não estava calculando explicitamente (CAC do cartão 5-8x maior que o digital). Riscos sem owner não são gerenciados — são empurrados com a barriga até se materializarem.
 
 CAC por canal.
 
@@ -22009,6 +22018,9 @@ flowchart TD
 > [!tip] Regra de ouro do exit
 > Nenhum tipo de exit é "melhor" em abstrato. O melhor é aquele que combina: sinais de mercado favoráveis (múltiplos altos), empresa preparada (data room, métricas auditáveis), e fundador com clareza sobre o próximo capítulo. Quando os três se alinham, exit flui. Quando um está fora, você negocia em desvantagem.
 
+> [!tip] Storytelling Canvas para a narrativa do exit
+> M&A estratégico, IPO e pitch de secondary são, antes de tudo, narrativas. Use o [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Storytelling Canvas (CZ.12)]] para construir a narrativa antes de abrir o data room ou montar o deck. Blocos críticos neste contexto: **Herói** (o comprador/investidor, não você — o que *eles* ganham?), **Mundo depois** (como a aquisição/IPO muda o portfólio ou tese do investidor), **Evidências** (métricas auditáveis do Pirate Canvas / AARRR, NRR, LTV/CAC). O caso Omie em CZ.12 ilustra como colocar o contador (intermediário de canal) como herói — e não o dono de PME nem a Omie — produziu uma narrativa que ativou simultaneamente investidores e canal de distribuição.
+
 #### Passo 1, mapeie os 5 tipos principais de exit
 
 Cada um tem timing, valuation, requisitos, e implicações fundamentalmente diferentes.
@@ -37858,8 +37870,8 @@ A.30 é o entregável da [[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]] que suste
 | CZ.15 | Canvas da Cunha | autoral do livro | Definição de cunha de mercado |
 | CZ.16 | Theory Map / Story Tree | autoral do livro | Teoria causal do negócio |
 
-> [!note] Ondas 1 e 2 disponíveis, ondas 3-4 em construção
-> Esta versão do livro contém o tratamento completo dos canvases CZ.1 a CZ.7 e CZ.9 (Onda 1 — Fundamentos da modelagem; Onda 2 — Discovery e validação). As ondas seguintes — Métricas e MVP (CZ.10-13) e Time/Autorais (CZ.8 e CZ.14-16) — serão adicionadas em iterações posteriores do material. Para os canvases CZ.8 e CZ.10 a CZ.16, consulte por enquanto as referências bibliográficas indicadas no catálogo acima. Os canvases autorais (CZ.14 Hypothesis Canvas, CZ.15 Canvas da Cunha, CZ.16 Theory Map) seguem documentados como templates práticos no [[#APÊNDICE A — TEMPLATES PRONTOS PARA USO|Apêndice A]] (A.10, A.12, A.9 respectivamente) até serem promovidos para tratamento teórico aqui.
+> [!note] Ondas 1, 2 e 3 disponíveis, onda 4 em construção
+> Esta versão do livro contém o tratamento completo dos canvases CZ.1 a CZ.7 e CZ.9 a CZ.13 (Onda 1 — Fundamentos; Onda 2 — Discovery e validação; Onda 3 — Métricas, MVP e narrativa). A Onda 4 — Time e Autorais (CZ.8 Team Canvas, CZ.14 Hypothesis Canvas, CZ.15 Canvas da Cunha, CZ.16 Theory Map) — será adicionada em iteração posterior. Os canvases autorais (CZ.14, CZ.15, CZ.16) seguem documentados como templates práticos no [[#APÊNDICE A — TEMPLATES PRONTOS PARA USO|Apêndice A]] (A.10, A.12, A.9 respectivamente) até serem promovidos para tratamento teórico aqui.
 
 ---
 
@@ -38766,6 +38778,417 @@ O Test Card **sucede o Hypothesis Canvas (CZ.14)**: cada hipótese vira 1-3 Test
 - *Testing Business Ideas* (David Bland & Alexander Osterwalder, 2019).
 - *The Lean Startup* (Eric Ries, 2011) — origem filosófica da disciplina.
 - [strategyzer.com/library](https://strategyzer.com/library) — biblioteca de Test Cards preenchidos por categoria.
+
+---
+
+### CZ.10 — Pirate Canvas / AARRR (Dave McClure, 2007)
+
+#### Origem histórica
+
+Dave McClure, fundador do fundo 500 Startups, apresentou o framework AARRR em 2007 num slide deck chamado "Startup Metrics for Pirates" — o acrônimo soa como "ARRRR" de pirata, daí o apelido. O contexto era a explosão de startups web na fase pós-Web 2.0, quando times de produto rastreavam dezenas de métricas sem saber quais importavam. AARRR reorganizou o caos em cinco métricas de ciclo de vida do cliente. O "Pirate Canvas" — ou AARRR Canvas — é a versão visual posterior, que traduz as cinco letras em uma tela preenchível com métricas, canais, e hipóteses organizadas por funil. O framework virou o padrão de facto de métricas early-stage em aceleradoras e fundos de venture capital global, incluindo YC, Antler e os principais VCs brasileiros.
+
+#### O que é
+
+Tela visual em cinco colunas correspondendo às cinco letras do acrônimo:
+
+- **Acquisition (Aquisição)**: como o usuário chega. Canais, CAC, volume por canal.
+- **Activation (Ativação)**: primeiro momento de valor — o usuário experimenta o produto e reconhece que funciona. Taxa de ativação, tempo até ativação.
+- **Retention (Retenção)**: o usuário volta. D7, D30, coortes, churn mensal.
+- **Referral (Indicação)**: o usuário traz outros. NPS, taxa de indicação, viralidade (K-factor).
+- **Revenue (Receita)**: o usuário paga. Conversão freemium → pago, ARPU, LTV.
+
+```mermaid
+flowchart LR
+    A["⚓ Acquisition<br/>Como chegam?<br/>CAC por canal"]
+    B["⚡ Activation<br/>Primeiro valor<br/>Taxa de ativação"]
+    C["🔁 Retention<br/>Voltam?<br/>D7 / D30 / churn"]
+    D["📢 Referral<br/>Indicam?<br/>NPS / K-factor"]
+    E["💰 Revenue<br/>Pagam?<br/>ARPU / LTV"]
+    A --> B --> C --> D --> E
+```
+
+A distinção entre Acquisition e Activation é central: usuário que chegou mas não ativou é desperdício de CAC. A métrica de ativação (o "aha moment") é frequentemente o indicador mais importante do produto — encontrá-la é o trabalho de discovery dos primeiros meses.
+
+#### Quando usar
+
+Use o Pirate Canvas na Fase 10 (MVP e primeiros usuários) como estrutura padrão de instrumentação de métricas. Implante antes de lançar o MVP — não após. Pós-PMF, use-o mensalmente como dashboard de saúde do funil: onde está a maior queda? Qual etapa tem pior conversão? A etapa com maior vazamento é o foco de crescimento do próximo ciclo. Em Fase 14 (escala), o Pirate Canvas orienta alocação de budget por etapa do funil.
+
+#### Princípios
+
+A tese de McClure é que **times sem modelo de funil explícito otimizam a métrica errada**. Times de produto tendem a focar em Acquisition (visível, fácil de medir, resulta em reuniões celebrando "crescimento") e ignorar Retention (invisível, difícil, mas única que gera crescimento sustentável). AARRR força o time a encarar que crescimento em Acquisition com retenção de 20% no D30 é uma banheira furada — você está enchendo o balde enquanto o buraco cresce. **Retenção precede escala de aquisição.**
+
+#### Como aplicar
+
+Monte o Pirate Canvas em três etapas, nesta ordem:
+
+1. **Defina a métrica de cada etapa** — 1 métrica primária por etapa. Não 5. Uma. Acquisition: CAC médio ponderado por canal. Activation: taxa de usuários que atingem o "aha moment" em X dias. Retention: retenção D30 (ou D7 para apps). Referral: NPS ou taxa de indicação ativa (mês). Revenue: conversão freemium → pago ou ARPU mensal.
+2. **Defina o benchmark mínimo** — o que é "saudável" nesta métrica para o seu modelo? SaaS B2B: retenção D30 > 70%. Consumer app: retenção D30 > 25%. Marketplace: depende do lado.
+3. **Identifique o maior vazamento** — onde está a maior queda de conversão entre etapas? Esse é o único foco do próximo trimestre. Não mexa nas outras etapas até resolver essa.
+
+Iteração mensal: atualize números, identifique onde o funil mudou, ajuste foco.
+
+#### Exemplo brasileiro preenchido — Conta Simples, aceleração do funil B2B (2021)
+
+A Conta Simples (conta empresarial digital para PMEs brasileiras) tinha problema claro em 2021: Acquisition funcionava bem (CAC baixo via Google Ads B2B + indicação), mas Activation era o gargalo — 60% dos cadastros não ativavam cartão em 14 dias.
+
+| Etapa | Métrica principal | Número | Benchmark alvo | Status |
+|---|---|---|---|---|
+| **Acquisition** | CAC via canais digitais | R$ 180/cliente | < R$ 250 | ✅ Dentro |
+| **Activation** | % completa onboarding + usa cartão em D14 | 40% | > 65% | 🔴 Crítico |
+| **Retention** | Retenção D30 (conta ainda ativa e com transação) | 71% | > 70% | ✅ Dentro (marginal) |
+| **Referral** | NPS (escala 0-100) | 52 | > 50 | ✅ Dentro |
+| **Revenue** | ARPU mensal (receita por conta ativa) | R$ 68 | > R$ 60 | ✅ Dentro |
+
+**O diagnóstico AARRR.** Com esse canvas, ficou claro: o problema não era "crescer" (Acquisition OK), não era "produto ruim" (Retention e NPS OK), e não era "precificação" (ARPU OK). Era **Activation** — usuários chegavam e não ativavam o cartão em 14 dias. Isso revelou dois culpados: (1) o processo KYC (validação regulatória) tinha fricção invisível — três documentos, dois dias de análise manual; (2) o email de onboarding não explicava por que o cartão era o "primeiro valor" da conta.
+
+**As três ações decorrentes:** (1) automatizar 70% do KYC via integração com Receita Federal + Serasa, reduzindo de 2 dias para 4 horas; (2) reescrever o fluxo de onboarding in-app com checklist progressivo (cada step destravava o próximo); (3) enviar WhatsApp (não email) no D2 com link direto para "ativar seu cartão agora". Resultado em 90 dias: Activation subiu de 40% para 67%.
+
+**Insight do caso.** A armadilha clássica sem Pirate Canvas seria investir mais em Acquisition ("vamos crescer mais cadastros"). O canvas mostrou que investir em Acquisition com 40% de Activation significava jogar 60 centavos de cada R$ 1 de CAC no lixo. **A lição: AARRR não é painel de monitoramento — é protocolo de priorização. O maior vazamento do funil vence o debate de roadmap.**
+
+#### Variações e extensões
+
+- **RARRA** (Andrew Chen): reordena para Retention → Activation → Referral → Revenue → Acquisition — enfatiza que Retention deve ser resolvida antes de escalar Acquisition.
+- **North Star Metric**: uma única métrica que captura valor entregue ao cliente e prediz crescimento de longo prazo. Complementa o AARRR (que é funil; North Star é foco). Exemplos: Airbnb (noites reservadas), WhatsApp (mensagens enviadas por dia), Spotify (tempo de escuta/mês).
+- **Growth Accounting**: decompõe variação de usuários ativos em Novos + Ressuscitados − Churned. Complemento quantitativo ao AARRR.
+
+#### Erros comuns
+
+- Definir múltiplas métricas primárias por etapa — diluição de foco.
+- Focar em Acquisition enquanto Retention é crítica — encher banheira furada.
+- Usar D7 e D30 intercambiavelmente — D7 mede habit formation, D30 mede stickiness; são perguntas distintas.
+- Não segmentar o funil por persona/canal — um funil "médio" pode esconder que canal A tem Activation 80% e canal B tem 15%.
+- Tratar AARRR como relatório (olhar uma vez por mês sem decidir nada) em vez de protocolo de priorização.
+
+#### Quando NÃO usar
+
+Em estágio pré-Activation (antes de ter produto em mãos de usuários reais) — métricas de funil não existem ainda. Em produtos com ciclo de venda B2B enterprise muito longo (6-18 meses) — AARRR pressupõe ciclo curto o suficiente para medir D7/D30; em ciclos longos, use pipeline de vendas (stage-by-stage). Em produtos de uso único (compra one-shot sem recorrência) — Retention não se aplica, e o framework perde uma das cinco etapas.
+
+#### Conexão com outros canvases
+
+O Pirate Canvas **alimenta o Lean Canvas (CZ.2)**: métricas do AARRR preenchem os blocos "Métricas-chave" e "Canais" do Lean Canvas com dados reais (não hipóteses). **Sucede o Customer Journey (CZ.7)**: as etapas da jornada do cliente mapeiam diretamente para as etapas do AARRR — Descoberta/Consideration = Acquisition, Onboarding = Activation, Uso recorrente = Retention, Recomendação = Referral, Upgrade = Revenue. **Orienta o MVP Canvas (CZ.11)**: o maior vazamento do AARRR é o foco do próximo MVP de crescimento.
+
+#### Leitura adicional
+
+- *Startup Metrics for Pirates* (Dave McClure, slide deck, 2007) — original disponível publicamente.
+- *Hacking Growth* (Sean Ellis & Morgan Brown, 2017) — expansão prática do framework AARRR em equipes de growth.
+- *Lean Analytics* (Alistair Croll & Benjamin Yoskovitz, 2013) — benchmarks por modelo de negócio (SaaS, marketplace, e-commerce, mobile app).
+
+---
+
+### CZ.11 — MVP Canvas (Tristan Kromer)
+
+#### Origem histórica
+
+Tristan Kromer, coach de inovação e autor do blog Grasshopper Herder, desenvolveu o MVP Canvas como resposta a uma frustração recorrente: times que "lançavam MVPs" sem definir antecipadamente o que estavam tentando aprender. O MVP Canvas surgiu ao redor de 2013-2015 como artefato estruturado para forçar três definições antes de qualquer linha de código: qual é a hipótese que o MVP testa, quem são os usuários do MVP (não os usuários futuros do produto final), e qual é o critério de sucesso que dirá ao time o que construir a seguir. Kromer parte da premissa de Eric Ries (*The Lean Startup*, 2011) mas torna operacional a pergunta mais ignorada: "MVP de quê, exatamente?"
+
+#### O que é
+
+Tela visual de uma página com **sete blocos** distribuídos em torno da pergunta central "o que estamos aprendendo com este MVP?":
+
+- **Hipótese central**: a crença que o MVP testa — escrita como falsificável.
+- **Segmento de usuário do MVP**: não o cliente final do produto, mas o cliente específico que validará *essa hipótese* (pode ser subconjunto menor).
+- **Proposta de valor do MVP**: o que o usuário ganha com o MVP — pode ser diferente do produto final.
+- **Canais de recrutamento**: como vamos chegar nos usuários deste MVP.
+- **Critério de sucesso**: o que precisamos ver para considerar a hipótese validada.
+- **Critério de invalidação**: o que precisamos ver para considerar a hipótese refutada.
+- **Tipo de MVP**: qual experimento — landing page, concierge, wizard of oz, protótipo clicável, pré-venda, fake door.
+
+```mermaid
+flowchart TB
+    HI["💡 Hipótese central<br/>(falsificável)"]
+    subgraph Quem["Quem"]
+        SE["👥 Segmento<br/>do MVP"]
+        CR["📡 Canais de<br/>recrutamento"]
+    end
+    subgraph Oque["O que"]
+        PV["✨ Proposta de valor<br/>do MVP"]
+        TI["🔧 Tipo de MVP"]
+    end
+    subgraph Resultado["Resultado"]
+        CS["✅ Critério de<br/>sucesso"]
+        CI["🚫 Critério de<br/>invalidação"]
+    end
+    HI --> Quem
+    HI --> Oque
+    Quem --> Resultado
+    Oque --> Resultado
+```
+
+#### Quando usar
+
+Use o MVP Canvas na Fase 8 (prototipagem e MVP) como artefato de entrada — antes de qualquer construção. Para cada MVP que o time planeja lançar, preencha o canvas em 30-45 minutos com as pessoas envolvidas. Em times pós-PMF com discovery contínuo, MVP Canvas precede qualquer sprint de desenvolvimento de feature nova: cada feature experimentada como "MVP de aprendizado" antes de virar permanente.
+
+#### Princípios
+
+A tese de Kromer é que **"MVP" sem hipótese explícita é só produto incompleto**. A maioria dos times chama de MVP qualquer versão inicial do produto, mas "versão inicial" sem hipótese não ensina nada — você lança, alguns usuários gostam, outros não, e o time não sabe o que isso significa. MVP Canvas faz a pergunta que a maioria evita: "Qual crença específica este MVP vai testar? E quando sabemos que foi refutada?" Sem essa resposta, o MVP nunca "falha" — ele simplesmente não tem critério de aprendizado.
+
+#### Como aplicar
+
+Reúna PM + tech lead + designer + fundador. Tempo: 30-45 minutos. **Sequência de preenchimento:**
+
+1. **Hipótese central** — escreva primeiro, antes de falar sobre o MVP em si. "Acredito que [usuário Y] vai [fazer X] por causa de [razão Z]." Teste: a hipótese pode ser refutada? Se não, reescreva.
+2. **Segmento do MVP** — quem especificamente vai testar esta hipótese? Pode ser 20 pessoas, não 20.000. Quanto mais estreito o segmento, mais limpa a evidência.
+3. **Proposta de valor do MVP** — o que o usuário ganha hoje com esta versão? Não o que o produto promete no futuro — o que o MVP entrega agora.
+4. **Canais de recrutamento** — como vai encontrar essas pessoas? "Nossos clientes" é vago; "lista de 50 churned users do último trimestre via email pessoal do founder" é um canal.
+5. **Tipo de MVP** — qual é o formato do experimento? Não construa código se um protótipo clicável testa a mesma hipótese em 1/10 do tempo.
+6. **Critério de sucesso** — define antes. Número específico.
+7. **Critério de invalidação** — define antes. Zona de incerteza entre sucesso e invalidação = inconclusivo.
+
+Após preencher, faça a pergunta de Kromer: "Se o MVP falhar pelo critério de invalidação, o que construímos a seguir?" Se a resposta for "pivotamos para X", o MVP está bem definido. Se a resposta for "não sabemos", a hipótese precisa ser mais específica.
+
+#### Exemplo brasileiro preenchido — Wildlife Studios, MVP de novo mecanismo de monetização (2022)
+
+A Wildlife Studios (São Paulo, one of the largest mobile game studios globally) testou em 2022 um novo mecanismo de monetização para seu jogo *Sniper 3D*: season passes (passe de temporada com recompensas progressivas), alternativa a loot boxes avulsas. O MVP Canvas:
+
+| Bloco | Conteúdo |
+|---|---|
+| **Hipótese central** | Jogadores de Sniper 3D que compraram ao menos 1 item nos últimos 90 dias pagarão R$ 15 por season pass se perceberem progressão visual clara de recompensas ao longo de 30 dias. |
+| **Segmento do MVP** | Cohort de 50.000 jogadores "moderate spenders" (1-3 compras/trimestre, ARPU R$ 18/mês) em mercado brasileiro. Excluídas as duas pontas — free-to-play puro e heavy spenders — para isolar o segmento mais sensível à proposta. |
+| **Proposta de valor do MVP** | 30 recompensas progressivas (visuais, skins, boosters) por R$ 15 — previsibilidade de valor vs. loteria de loot box. |
+| **Canais de recrutamento** | In-game banner para o cohort selecionado + push notification personalizada no D1 do teste. Sem anúncio externo — experimento contido na base existente. |
+| **Tipo de MVP** | Feature real implementada no jogo para o cohort (não protótipo) — o investimento de desenvolvimento era pequeno o suficiente para ser justificado pela potencial monetização. |
+| **Critério de sucesso** | ≥12% de conversão do cohort (compra do season pass) nos primeiros 7 dias. ARPU do cohort ≥ R$ 22 em 30 dias (vs. R$ 18 baseline). |
+| **Critério de invalidação** | < 6% de conversão em 7 dias OU ARPU < R$ 16 em 30 dias = hipótese refutada. Considerar alternativas de monetização ou repricing. |
+
+**Resultado:** 17% de conversão em D7 (acima do critério de sucesso). ARPU do cohort subiu para R$ 24 em 30 dias. Decisão: Persevere — expandir season pass para todos os usuários ativos + outros jogos do portfólio.
+
+**Insight do caso.** O MVP Canvas forçou a Wildlife a definir o segmento com precisão — testar nos dois extremos (free-to-play puro e heavy spenders) contaminaria o resultado (FTP não compra nada; heavy spenders compram tudo, inclusive o que não funciona). A limpeza do cohort produziu evidência acionável: a proposta funciona para *moderate spenders*, que é exatamente o segmento de maior potencial de upgrade. **A lição: o trabalho mais importante do MVP Canvas é definir quem NÃO entra no experimento — não apenas quem entra.**
+
+#### Variações e extensões
+
+- **Concierge MVP Canvas**: variação específica para MVPs onde o serviço é entregue manualmente (você faz tudo na mão para 10-20 usuários). Canvas adiciona bloco "Script de operação manual".
+- **Wizard of Oz Canvas**: variação onde o backend é falso (humano operando). Canvas adiciona bloco "O que o usuário vê" vs. "O que realmente acontece" para mapear a ilusão deliberada.
+- **Sprint Goal Canvas** (adaptação ágil): integra MVP Canvas com sprint planning — cada sprint tem um canvas de hipótese + critério.
+
+#### Erros comuns
+
+- Chamar de "MVP" qualquer versão incompleta do produto — MVP sem hipótese é produto inacabado, não experimento.
+- Segmento do MVP = segmento total do mercado — dilui o sinal; o experimento não produz evidência limpa.
+- Tipo de MVP mais caro que o necessário — se landing page testa a hipótese, não construa produto; se protótipo clicável testa, não escreva código.
+- Não definir critério de invalidação — MVP "sempre aprende algo", nunca "falha"; loop de aprendizado não fecha.
+- Usar MVP Canvas para justificar construção que já foi decidida — canvas como teatro, não como ferramenta de decisão.
+
+#### Quando NÃO usar
+
+Em produtos altamente regulados onde qualquer versão pública precisa de certificação (healthtech com classe de risco II+, fintech com obrigação de compliance desde o primeiro usuário) — MVP Canvas pressupõe liberdade de lançar versão experimental; em ambientes regulados, o canvas é útil para MVPs internos e simulações. Em produtos onde o custo de construção do MVP mínimo é maior que o custo de validação por entrevistas — entrevista, não construa.
+
+#### Conexão com outros canvases
+
+O MVP Canvas **sucede o Opportunity Canvas (CZ.5)**: a oportunidade aprovada vira hipótese central do MVP Canvas. **Pareia com o Test Card (CZ.9)**: MVP Canvas define o experimento; Test Card registra e acompanha a execução. **Antecede o Pirate Canvas (CZ.10)**: o MVP bem sucedido gera os primeiros dados reais do funil AARRR. **Alimenta o Lean Canvas (CZ.2)**: Proposta de valor validada pelo MVP preenche o bloco "Solução" com dado real.
+
+#### Leitura adicional
+
+- Blog Grasshopper Herder (Tristan Kromer) — onde o MVP Canvas e variações são documentados.
+- *The Lean Startup* (Eric Ries, 2011) — fundação filosófica.
+- *Continuous Discovery Habits* (Teresa Torres, 2021) — escola de discovery contínuo onde MVP Canvas se integra ao ciclo semanal de produto.
+
+---
+
+### CZ.12 — Storytelling Canvas
+
+#### Origem histórica
+
+Não tem autor único. O Storytelling Canvas emerge da convergência de três tradições ao longo dos anos 2010: (1) o trabalho de Nancy Duarte (*Resonate*, 2010) e Simon Sinek (*Start With Why*, 2009), que sistematizaram estruturas narrativas para comunicação de liderança e pitch; (2) a escola de narrativa estratégica de empresas como Narrative Science e FrameWorks Institute, que estudaram como enquadramento de mensagem afeta percepção de valor; (3) a prática de pitch coaching em aceleradoras (YC, Endeavor, Wayra) onde templates de narrativa viram ferramentas de workshop. O Storytelling Canvas é o artefato visual que condensa essas três tradições — uma tela para construir a narrativa de pitch ou comunicação institucional antes de abrir o PowerPoint.
+
+#### O que é
+
+Tela visual organizada em **oito blocos** que correspondem às oito decisões narrativas centrais:
+
+- **Herói**: quem é o protagonista da história? (O cliente, não a empresa.)
+- **Mundo antes**: como era o mundo antes do problema existir — ou o mundo atual do herói, antes da solução.
+- **Problema / Tensão**: o que perturba o equilíbrio? Qual a dor do herói?
+- **Tentativas falhas**: o que o herói já tentou? Por que não funcionou?
+- **A virada**: como a solução entra? Qual é o insight que muda tudo?
+- **Mundo depois**: como o mundo do herói muda com a solução?
+- **Evidências**: o que prova que a virada é real? (Dados, casos, depoimentos.)
+- **Chamada para ação**: o que você quer que o ouvinte faça após ouvir a história?
+
+```mermaid
+flowchart LR
+    A["👤 Herói<br/>Quem é o cliente?"]
+    B["🌍 Mundo antes<br/>Status quo"]
+    C["⚡ Problema<br/>Tensão / dor"]
+    D["❌ Tentativas falhas<br/>Por que hoje não resolve?"]
+    E["💡 A virada<br/>O insight que muda tudo"]
+    F["🌟 Mundo depois<br/>Como muda a vida?"]
+    G["📊 Evidências<br/>Dados, casos"]
+    H["🎯 Chamada para ação"]
+    A --> B --> C --> D --> E --> F --> G --> H
+```
+
+A estrutura segue o arco narrativo clássico de Joseph Campbell (A Jornada do Herói) aplicado ao contexto de produto e pitch — mas com um twist: **o herói não é o fundador nem a empresa, é o cliente**. A empresa é o "guia" (Gandalf, Yoda) que equipa o herói (Frodo, Luke) para vencer o problema.
+
+#### Quando usar
+
+Use o Storytelling Canvas em três contextos: (1) **pitch de investimento** — qualquer conversa com VC, anjo ou processo de aceleração; (2) **comunicação institucional** — lançamento de produto, entrada em novo mercado, apresentação para board; (3) **venda B2B complexa** — a proposta comercial também é uma narrativa, e o Storytelling Canvas ajuda a estruturá-la do ponto de vista do cliente, não do fornecedor. Preencha o canvas antes de criar o deck — a narrativa define a estrutura; o deck é execução.
+
+#### Princípios
+
+A tese unificada de Duarte, Sinek e da escola de pitch é que **dados sem narrativa não mudam comportamento**. O ser humano toma decisões emocionais e as justifica com lógica (Kahneman, *Thinking, Fast and Slow*). Uma história bem construída ativa a decisão emocional; os dados no bloco "Evidências" fornecem a justificativa racional. Inversamente, decks com dados sem narrativa produzem memorização zero — o investidor sai da reunião sem saber "o que essa empresa faz de diferente". O Storytelling Canvas força articular a narrativa primeiro, os dados depois.
+
+#### Como aplicar
+
+Preencha individualmente primeiro (20-30 min), depois valide em grupo (30 min). A sequência importa:
+
+1. **Herói** — descreva o cliente em uma frase: quem é, em que contexto, qual seu papel. Concreto: "Mariana, diretora de RH de empresa com 200 funcionários em SP, responsável por recrutamento de vagas técnicas."
+2. **Mundo antes** — como é a vida de Mariana hoje, no contexto do problema? Sem mencionar a solução. Quanto tempo perde? Que ferramentas usa? Com que frustrações convive?
+3. **Problema / Tensão** — qual perturbação ela sofre? Qual é a pergunta que ela não consegue responder? Qual é o custo (tempo, dinheiro, emocional) do problema?
+4. **Tentativas falhas** — o que ela já tentou? LinkedIn Recruiter (caro, barulhento), indicações (lentas), agências (caras, incertas). Por que cada um falha?
+5. **A virada** — como a solução entra? Não "o que o produto faz" — qual insight muda tudo para Mariana? "E se ela tivesse acesso ao candidato passivo certo, antes de ele atualizar o LinkedIn?"
+6. **Mundo depois** — como é a vida de Mariana com a solução? Concreto: "Mariana fecha vagas técnicas em 18 dias em vez de 45, sem agência, com candidatos que ela não encontraria no LinkedIn."
+7. **Evidências** — dados, casos, resultados de pilotos. "3 clientes beta fecharam 87% das vagas abertas em <20 dias. NPS de 72 entre candidatos."
+8. **Chamada para ação** — o que você quer que o ouvinte faça agora? "Assinar pilot de 60 dias com 3 vagas inclusas." Específico, com urgência.
+
+#### Exemplo brasileiro preenchido — Omie (ERP para PMEs), pitch de Series B (2020)
+
+A Omie levantou Series B em 2020 (R$ 52 milhões, Softbank + Redpoint Eventures) com uma narrativa clara. Reconstrução do Storytelling Canvas:
+
+| Bloco | Conteúdo |
+|---|---|
+| **Herói** | Carlos, dono de empresa contábil com 80 clientes PME em São Paulo. Responsável por fechar a contabilidade de todos os clientes, muitos dos quais usam sistemas diferentes ou planilhas. |
+| **Mundo antes** | Carlos passa 40% do seu tempo recoletando dados de cada cliente — nota fiscal em um sistema, fluxo de caixa em planilha, folha em outro fornecedor. Nenhum sistema conversa. Cada cliente usa software diferente. Fechar o balancete mensal exige 3-4 dias de trabalho manual. |
+| **Problema / Tensão** | Carlos não consegue escalar — com os 80 clientes atuais já está no limite. Para crescer para 150, precisaria contratar 3 auxiliares. Mas o problema não é falta de mão de obra — é que o modelo de coleta manual é insustentável em qualquer escala. |
+| **Tentativas falhas** | Outros ERPs (Totvs, SAP) são caros demais para PME e exigem implementação. Excel é insustentável. ERPs simples de PME não têm API para o escritório contábil acessar dados do cliente. |
+| **A virada** | E se o ERP do cliente PME e o sistema do contador fossem o mesmo ambiente? Cliente lança nota, contador vê em tempo real. Fim do mês de coleta. |
+| **Mundo depois** | Carlos atende 150 clientes com a mesma equipe de hoje. Balancete fecha em 4 horas. Carlos se torna consultor estratégico dos clientes, não operador de dados. |
+| **Evidências** | 12.000 empresas ativas na plataforma. NPS de 76. Churn mensal < 1%. Tempo médio de onboarding: 3 dias (vs. 3 meses de ERPs tradicionais). |
+| **Chamada para ação** | Investimento de R$ 52M para expandir de SP para todo o Brasil e dobrar a equipe de CS/produto nos próximos 18 meses. |
+
+**Insight do caso.** O Storytelling Canvas da Omie colocou o **contador como herói** — não o dono de PME, não a Omie. Isso foi uma decisão estratégica deliberada: o contador é o gatekeeper de adoção (ele indica o ERP para o cliente PME, não o contrário). Ao fazer o contador o herói, a narrativa ativa o interesse do investidor *e* do canal de distribuição ao mesmo tempo. **A lição: quem você escolhe como herói define quem vai abraçar a sua narrativa. Em B2B com canais de distribuição, o herói frequentemente não é o usuário final — é o intermediário que decide a adoção.**
+
+#### Variações e extensões
+
+- **Pitch Deck Canvas**: versão que mapeia cada bloco do Storytelling Canvas para um slide do deck — Herói → slide de problema, Virada → slide de solução, Evidências → slide de tração.
+- **Press Release Canvas** (Amazon): variação do "trabalhar de trás para frente" da Amazon — escrever o press release do produto *antes* de construí-lo, forçando articular o "Mundo depois" com precisão.
+- **One-Pager Canvas**: comprime o Storytelling Canvas em uma única página A4 para comunicação escrita (email para investidor, proposta comercial).
+
+#### Erros comuns
+
+- Fazer a empresa o herói — ouvinte não se importa com a jornada da empresa; se importa com o problema do cliente.
+- Pular "Tentativas falhas" — sem esse bloco, a solução não tem contraste; parece mais uma entre muitas.
+- "Chamada para ação" vaga ("entre em contato", "vamos conversar") — ouvinte não sabe o próximo passo; taxa de avanço cai.
+- Evidências genéricas ("clientes adoram", "crescemos 2x") — não constroem credibilidade; dado específico com contexto é o que convence.
+- Usar o mesmo Storytelling Canvas para audiências diferentes — investidor, cliente, parceiro e imprensa têm "Herói" e "Chamada para ação" distintos; o canvas precisa ser refeito para cada audiência.
+
+#### Quando NÃO usar
+
+Em comunicações operacionais internas (status report para time, reunião de sprint) — overhead narrativo não agrega. Em contextos onde a audiência já conhece a narrativa (board recorrente, reunião de acompanhamento) — o canvas é para articular o pitch inicial, não para recapitular.
+
+#### Conexão com outros canvases
+
+O Storytelling Canvas **usa como insumo o BMC (CZ.1)** — os blocos "Segmento de Clientes" e "Proposta de Valor" do BMC alimentam Herói e Virada. **Usa o VPC (CZ.3)** — os Pains do Customer Profile alimentam "Problema / Tensão"; os Gain Creators alimentam "Mundo depois". **Usa métricas do Pirate Canvas (CZ.10)** para o bloco "Evidências" — tração real preenche o que sem AARRR seria só afirmação.
+
+#### Leitura adicional
+
+- *Resonate* (Nancy Duarte, 2010) — estrutura narrativa para apresentações de impacto.
+- *Start With Why* (Simon Sinek, 2009) — Golden Circle como framework de narrativa de propósito.
+- *Building a StoryBrand* (Donald Miller, 2017) — o cliente como herói, empresa como guia.
+
+---
+
+### CZ.13 — Risk Canvas
+
+#### Origem histórica
+
+O Risk Canvas não tem origem única — emerge da prática de gestão de risco em projetos de inovação e de frameworks como o Risk Register (PMI, PRINCE2) adaptados para o contexto de startup. As versões mais difundidas foram sistematizadas por praticantes de design thinking e lean startup entre 2015 e 2020, a partir da observação de que times de produto tendiam a discutir riscos informalmente, sem estrutura, e invariavelmente esqueciam categorias inteiras (risco regulatório, risco de equipe, risco de modelo) enquanto superestimavam risco técnico. O Risk Canvas operacionaliza a varredura sistemática de risco numa tela visual única, priorizando pelo impacto e pela probabilidade de materialização.
+
+#### O que é
+
+Tela visual organizada em **duas dimensões** — impacto (alto / baixo) × probabilidade (alta / baixa) — com **seis categorias de risco** mapeadas nesse espaço:
+
+- **Risco de mercado**: o problema não existe, não é doloroso, ou o timing está errado.
+- **Risco de cliente**: o segmento-alvo não adota, ou o ICP está errado.
+- **Risco de solução**: a solução proposta não resolve o problema, ou não é preferida às alternativas.
+- **Risco de modelo de negócio**: o CAC é maior que o LTV, ou a monetização não funciona.
+- **Risco regulatório**: a regulação bloqueia a operação, ou muda o mercado de forma adversa.
+- **Risco de equipe**: falta competência, comprometimento, ou cofundadores divergem.
+
+```mermaid
+flowchart TB
+    subgraph Alta["Alta probabilidade"]
+        direction LR
+        AM["⚠️ Risco de<br/>Mercado"]
+        AC["⚠️ Risco de<br/>Cliente"]
+    end
+    subgraph Baixa["Baixa probabilidade"]
+        direction LR
+        BS["🔷 Risco de<br/>Solução"]
+        BM["🔷 Risco de<br/>Modelo"]
+    end
+    subgraph Impacto["Impacto alto → esquerda / baixo → direita"]
+        RE["🔴 Risco<br/>Regulatório<br/>(alto impacto)"]
+        EQ["🟡 Risco de<br/>Equipe<br/>(variável)"]
+    end
+    Alta --> Impacto
+    Baixa --> Impacto
+```
+
+Para cada risco identificado, o canvas registra: **descrição específica**, **probabilidade** (1-5), **impacto** (1-5), **score** (prob × impacto), **mitigação planejada** e **owner** (quem cuida desse risco).
+
+#### Quando usar
+
+Use o Risk Canvas na Fase 11 (modelo de negócio) como check-up antes de comprometer recursos significativos — equipe maior, captação, expansão de canal. Use também antes de cada rodada de captação: investidores farão due diligence em risco; o Risk Canvas mostra que o time já fez o trabalho. Em Fase 15 (reinvenção), refaça o Risk Canvas para a segunda curva — os riscos de uma empresa em escala são diferentes dos de uma startup early-stage.
+
+#### Princípios
+
+A tese central é que **risco não gerenciado não desaparece — cresce silenciosamente**. Times de startup tendem a gerenciar risco de forma reativa (quando o risco se materializa, correm para mitigar) em vez de proativa (antes de se materializar, reduzirem a probabilidade ou o impacto). O Risk Canvas faz o risco visível e priorizado antes da crise. A segunda tese é que **riscos têm donos** — risco sem owner é risco sem mitigação. O canvas força nomear quem é responsável por acompanhar e mitigar cada risco crítico.
+
+#### Como aplicar
+
+Sessão de 2-3 horas com o time fundador completo. **Sequência:**
+
+1. **Brainstorm livre de riscos** (30 min, todos contribuem, sem julgamento) — liste todos os "e se..." que tiram o sono. Foco em completude, não em priorização.
+2. **Categorize** — atribua cada risco a uma das seis categorias.
+3. **Pontue** — para cada risco, atribua Probabilidade (1-5) e Impacto (1-5). Score = Prob × Impacto. Riscos com score ≥ 15 são críticos.
+4. **Priorize os top 5** — concentre energia de mitigação nos 5 com maior score.
+5. **Defina mitigação** — para cada top 5: o que podemos fazer para reduzir a probabilidade? O que podemos fazer para reduzir o impacto se ocorrer? Qual experimento ou ação testa isso?
+6. **Atribua owners** — cada risco crítico tem uma pessoa responsável por monitorar e executar a mitigação.
+7. **Defina revisão** — quando este canvas é revisado? Mínimo trimestral.
+
+#### Exemplo brasileiro preenchido — Méliuz, expansão para cartão de crédito (2020)
+
+A Méliuz (cashback e cupons, listada na B3 em 2020) decidiu expandir para cartão de crédito próprio com Banco Inter. O Risk Canvas antes da decisão:
+
+| Risco | Categoria | Prob | Impacto | Score | Mitigação | Owner |
+|---|---|---|---|---|---|---|
+| Regulação BACEN exige capital mínimo e demora aprovação | Regulatório | 4 | 5 | 20 | Parceria com banco já licenciado (Inter) ao invés de licença própria | CFO + Jurídico |
+| ICP de cashback (comprador online) não usa cartão físico | Cliente | 3 | 4 | 12 | Teste A/B: oferecer cartão para cohort de usuários ativos antes do lançamento geral | CPO |
+| CAC do cartão é 5-8x maior que CAC de cashback digital | Modelo | 3 | 5 | 15 | Distribuição cruzada: oferecer cartão apenas para base existente (CAC ≈ 0) nos primeiros 12 meses | CMO |
+| Churn de usuários sem limite aprovado mancha a marca | Solução | 2 | 4 | 8 | Política de crédito conservadora nos primeiros 6 meses; comunicação proativa de critérios | COO |
+| Time de produto dividido entre dois produtos simultâneos | Equipe | 3 | 3 | 9 | Squad dedicado ao cartão, separado do squad cashback; CPO de cartão contratado externamente | CEO |
+| Banco Inter muda condições da parceria | Mercado | 2 | 5 | 10 | Cláusula de exclusividade de 24 meses + direito de first refusal em extensão | CEO + Jurídico |
+
+**Diagnóstico.** Os dois riscos críticos (score ≥ 15): Regulatório (20) e Modelo (15). A mitigação do regulatório foi estrutural — ao invés de licença própria, parceria com banco já licenciado transferiu o risco regulatório para o parceiro especializado. A mitigação do modelo foi comportamental — distribuição exclusivamente para a base existente nos primeiros 12 meses eliminava o CAC de aquisição nova, tornando o unit economics do cartão viável antes de escalar.
+
+**Insight do caso.** O Risk Canvas revelou que o risco mais intuitivo do time (risco de equipe — dividir atenção entre dois produtos) tinha score 9 — alto, mas não o mais crítico. O risco menos óbvio (modelo — CAC 5-8x maior) tinha score 15. Sem o canvas, o time provavelmente teria investido mais energia no risco que estava vendo (equipe) e menos no que não estava calculando explicitamente (CAC do cartão vs. da base digital). **A lição: a função mais importante do Risk Canvas é revelar os riscos que o time não está falando — não documentar os que já estão na cabeça de todos.**
+
+#### Variações e extensões
+
+- **Pre-Mortem** (Gary Klein): exercício complementar — imagem o produto falhou daqui a 12 meses. Por quê? Liste as razões. As razões mais citadas viram inputs do Risk Canvas.
+- **Risk Register** (PMI): versão mais formal e detalhada, com campos adicionais (data de identificação, histórico de revisão, plano de contingência). Para projetos maiores ou empresas em expansão.
+- **Scenario Planning Canvas**: variação que mapeia três cenários futuros (otimista, base, pessimista) e os riscos específicos de cada um.
+
+#### Erros comuns
+
+- Fazer Risk Canvas só uma vez (no início) e nunca revisar — riscos evoluem; canvas anual é ficcional.
+- Risco sem owner — ninguém cuida, risco materializa, time é pego de surpresa.
+- Listar riscos genéricos ("risco de mercado") sem especificidade ("nosso ICP não tem budget Q4 por conta do ciclo orçamentário de empresas de capital aberto") — genérico não gera mitigação.
+- Focar só em riscos técnicos — times de engenharia subestimam sistematicamente riscos regulatórios, de equipe e de modelo.
+- Confundir mitigação com "ter um plano B" — mitigação é ação que reduz probabilidade ou impacto antes da crise; plano B é resposta depois que a crise aconteceu.
+
+#### Quando NÃO usar
+
+Em decisões pequenas e reversíveis (ajuste de preço, mudança de canal) — overhead do canvas não compensa. Em times muito jovens (<3 meses de operação) sem dados suficientes para estimar probabilidade e impacto — nessa fase, a varredura qualitativa de risco (pre-mortem verbal) é mais ágil que o canvas formal.
+
+#### Conexão com outros canvases
+
+O Risk Canvas **complementa o Lean Canvas (CZ.2)**: cada bloco do Lean Canvas gera riscos específicos — "Problema" → risco de mercado, "Solução" → risco de solução, "Canais" → risco de cliente, "Fontes de Receita" → risco de modelo. **Pareia com o Test Card (CZ.9)**: cada risco crítico do canvas pode gerar um Test Card — o experimento que vai testar se o risco é real e qual a magnitude. **Antecede rodadas de captação** (Apêndice V): investidores farão perguntas exatamente sobre os riscos do canvas; chegar à reunião com o canvas preenchido demonstra maturidade de gestão.
+
+#### Leitura adicional
+
+- *The Practice of Risk Management* (Goldman Sachs / Ennis Knupp, 1999) — origem metodológica do risk register.
+- *Thinking in Bets* (Annie Duke, 2018) — framework de decisão sob incerteza que complementa o Risk Canvas.
+- *Pre-Mortems: A Simple Technique to Save Any Project from Failure* (Gary Klein, HBR, 2007) — artigo seminal sobre pre-mortem como prática.
 
 ---
 

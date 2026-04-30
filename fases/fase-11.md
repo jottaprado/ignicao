@@ -353,6 +353,9 @@ Três perguntas de verificação mensal para a gestão de caixa. Estou Default A
 
 ### Métricas
 
+> [!tip] Risk Canvas antes de comprometer recursos desta fase
+> A validação de unit economics da Fase 11 é o momento de fazer o [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Risk Canvas (CZ.13)]] — varredura sistemática de risco em seis categorias (mercado, cliente, solução, modelo, regulatório, equipe) antes de escalar o modelo. Cada risco recebe Probabilidade × Impacto; os top 5 recebem mitigação e owner. O caso Méliuz em CZ.13 mostra como o canvas revelou que o risco mais crítico não era o que o time discutia (equipe dividida) mas o que não estava calculando explicitamente (CAC do cartão 5-8x maior que o digital). Riscos sem owner não são gerenciados — são empurrados com a barriga até se materializarem.
+
 CAC por canal.
 
 LTV por segmento.
