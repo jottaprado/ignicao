@@ -38636,12 +38636,12 @@ Em 2017, o iFood mapeou a jornada de primeira compra para entender por que 40% d
 | **Busca** | Filtra por categoria ou busca restaurante | Achar comida que quer | Restaurantes que não entregam no endereço aparecem | Decepção | Filtrar por entrega real antes de mostrar |
 | **Cardápio** | Abre restaurante, navega cardápio | Escolher prato | Foto baixa qualidade, descrição inconsistente, preço sem ICMS visível | Dúvida | Padronização de cardápios + preço final na lista |
 | **Carrinho** | Adiciona itens, vê total | Conferir antes de pagar | Taxa de entrega aparece tarde, "valor mínimo" surge surpresa | Irritação | Mostrar taxa e mínimo desde o cardápio |
-| **Pagamento** | Escolhe forma, confirma | Pagar e fechar pedido | Cartão recusado sem explicação, 2FA do banco demora | Ansiedade alta | Aceitar PIX desde 2017, mostrar erro específico, salvar tentativas |
+| **Pagamento** | Escolhe forma, confirma | Pagar e fechar pedido | Cartão recusado sem explicação, 2FA do banco demora | Ansiedade alta | Adicionar débito em conta e boleto como alternativas ao cartão, mostrar erro específico por tipo ("cartão sem limite" vs "dados incorretos" vs "banco bloqueou"), salvar tentativas no carrinho |
 | **Espera** | Acompanha entrega no mapa | Saber quando chega | Mapa não atualiza em tempo real nos primeiros 10min | Inquietação | Streaming de status mais granular, comunicação proativa de atrasos |
 | **Recebimento** | Recebe entrega, avalia | Comer e avaliar | Pedido errado / faltando item — sem caminho claro de queixa | Raiva | Botão "tem problema?" no mesmo card do pedido |
 | **Pós-uso** | Recebe email pedindo nota | Avaliar (se lembrar) | Email genérico chega 3 dias depois | Apatia | Pedir nota in-app logo após entrega, com 1-tap |
 
-**Insight do caso.** A jornada revelou que **a maior queda de conversão acontecia entre Pagamento e Espera** — clientes davam tudo certo até o pagamento, e quando o cartão era recusado sem explicação, abandonavam. Isso levou a três decisões: (1) PIX como segunda forma de pagamento desde 2017 (5 anos antes do PIX virar mainstream); (2) mensagens de erro específicas ("cartão sem limite" vs "dados incorretos" vs "banco bloqueou"); (3) salvar carrinho mesmo após falha — cliente não precisava recomeçar do zero. **A lição: Customer Journey Canvas frequentemente revela que o problema não está onde a equipe achava (qualidade de cardápio? variedade?) mas em transição específica que ninguém estava monitorando (o segundo entre "click pagar" e "pedido confirmado").**
+**Insight do caso.** A jornada revelou que **a maior queda de conversão acontecia entre Pagamento e Espera** — clientes davam tudo certo até o pagamento, e quando o cartão era recusado sem explicação, abandonavam. Isso levou a três decisões: (1) adicionar débito em conta e boleto bancário como alternativas ao cartão recusado — formas de pagamento mais acessíveis para o ICP em 2017; (2) mensagens de erro específicas ("cartão sem limite" vs "dados incorretos" vs "banco bloqueou"); (3) salvar carrinho mesmo após falha — cliente não precisava recomeçar do zero. **A lição: Customer Journey Canvas frequentemente revela que o problema não está onde a equipe achava (qualidade de cardápio? variedade?) mas em transição específica que ninguém estava monitorando (o segundo entre "click pagar" e "pedido confirmado").**
 
 #### Variações e extensões
 
@@ -38779,7 +38779,7 @@ Equipe da PadariaPro (caso recorrente do livro) considerava lançar produto de g
 
 - **Learning Card** (Strategyzer): cartão complementar focado em "o que aprendemos" (não "o que testamos"). Útil para destilar insights de múltiplos Test Cards rodados.
 - **Assumption Map** (Bland & Osterwalder): grid 2x2 que prioriza quais assumptions virar Test Cards primeiro (importância × evidência atual).
-- **Riskiest Assumption Test (RAT)** (Cindy Alvarez / GV Sprint): variação minimalista — só testa a única assumption que mais pode matar o produto.
+- **Riskiest Assumption Test (RAT)** (Lean Startup community / Lean UX): variação minimalista — só testa a única assumption que mais pode matar o produto.
 
 #### Erros comuns
 
@@ -38871,7 +38871,7 @@ A Conta Simples (conta empresarial digital para PMEs brasileiras) tinha problema
 
 #### Variações e extensões
 
-- **RARRA** (Andrew Chen): reordena para Retention → Activation → Referral → Revenue → Acquisition — enfatiza que Retention deve ser resolvida antes de escalar Acquisition.
+- **RARRA** (Thomas Petit & Gabor Papp, 2018): reordena para Retention → Activation → Referral → Revenue → Acquisition — enfatiza que Retention deve ser resolvida antes de escalar Acquisition.
 - **North Star Metric**: uma única métrica que captura valor entregue ao cliente e prediz crescimento de longo prazo. Complementa o AARRR (que é funil; North Star é foco). Exemplos: Airbnb (noites reservadas), WhatsApp (mensagens enviadas por dia), Spotify (tempo de escuta/mês).
 - **Growth Accounting**: decompõe variação de usuários ativos em Novos + Ressuscitados − Churned. Complemento quantitativo ao AARRR.
 
@@ -39210,7 +39210,7 @@ O Risk Canvas **complementa o Lean Canvas (CZ.2)**: cada bloco do Lean Canvas ge
 
 #### Leitura adicional
 
-- *The Practice of Risk Management* (Goldman Sachs / Ennis Knupp, 1999) — origem metodológica do risk register.
+- *PMBOK Guide* (Project Management Institute, 6ª ed. 2017) — padrão de gestão de projetos que formalizou o Risk Register como artefato de projeto.
 - *Thinking in Bets* (Annie Duke, 2018) — framework de decisão sob incerteza que complementa o Risk Canvas.
 - *Pre-Mortems: A Simple Technique to Save Any Project from Failure* (Gary Klein, HBR, 2007) — artigo seminal sobre pre-mortem como prática.
 
@@ -39579,15 +39579,15 @@ Quando Sergio Furio fundou a Creditas (então BankFacil) em 2012, a teoria centr
 
 | Nó | Premissa | K | I | P | Status |
 |---|---|---|---|---|---|
-| A | Brasileiros com imóvel pagam >50% a.a. em crédito pessoal | 4 | 5 | 20 | Fato verificável — dados Banco Central |
-| B | Regulação permite crédito com garantia de imóvel por fintech | 2 | 5 | 10 | Incerto — exige análise jurídica |
-| C | Clientes aceitam usar imóvel como garantia para taxa menor | 2 | 5 | 10 | Hipótese comportamental — exige teste |
+| A | Brasileiros com imóvel pagam >50% a.a. em crédito pessoal | 1 | 5 | 5 | Fato verificável — dados Banco Central |
+| B | Regulação permite crédito com garantia de imóvel por fintech | 4 | 5 | 20 | Incerto — exige análise jurídica |
+| C | Clientes aceitam usar imóvel como garantia para taxa menor | 4 | 5 | 20 | Hipótese comportamental — exige teste |
 | D | CAC via digital < CAC de banco tradicional | 3 | 4 | 12 | Suposição — exige teste de canal |
 | E | Inadimplência em crédito com garantia < 3% | 3 | 5 | 15 | Dados históricos internacionais como proxy |
-| F | LTV/CAC > 4 com modelo de garantia | 2 | 5 | 10 | Depende de B, C, D, E |
+| F | LTV/CAC > 4 com modelo de garantia | 4 | 5 | 20 | Depende de B, C, D, E — só verificável após validar os anteriores |
 | G | Empresa sustentável | — | — | — | Resultado final |
 
-**Apostas bet-the-company identificadas:** B (regulação — P=10, bloqueante se falso), C (comportamento do cliente — P=10), E (inadimplência — P=15, crítico para unit economics).
+**Apostas bet-the-company identificadas:** B (regulação — P=20, bloqueante se falso), C (comportamento do cliente — P=20), E (inadimplência — P=15, crítico para unit economics). Note: A tem P=5 pois é fato verificável — não precisa de experimento, só de pesquisa documental (dados Banco Central).
 
 **Decisões decorrentes:** (1) contratar advogado especializado em regulação antes de qualquer produto — valida B; (2) 50 entrevistas com donos de imóvel em 30 dias — valida C; (3) análise de dados históricos de crédito com garantia no Brasil — reduz incerteza de E.
 
