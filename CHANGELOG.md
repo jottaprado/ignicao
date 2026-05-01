@@ -6,6 +6,38 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/).
 
 ---
 
+## [3.1] — 2026-05-01
+
+### Adicionado
+
+- 17 novos apêndices (DA–DQ): Marco Legal das Startups, Stock Options/ESOP, Propriedade Intelectual, Investor Relations, IPO no Brasil, Instrumentos de captação, Tributação do exit, Mercado secundário, Retenção pós-M&A, Não-concorrência, Govtech, Agritech, Edtech, Cleantech/ESG, Proptech, Legaltech, Logtech
+- 8 novos templates (A.31–A.38): board deck, data room, term sheet anotado, JDs, post-mortem técnico, OKR cascade, fundraising plan, template de 1:1
+- 4 novos canvases (CZ.17–20): Team Canvas, Hypothesis Canvas, Canvas da Cunha, Theory Map
+- 9 novos frameworks no Ferramentário (BG): VRIO, Impact Mapping, Hook Model, NFX Taxonomy, API Strategy/DevRel, Value Stream Mapping, Toyota Kata, SPADE, DuPont Analysis
+- Expansão CZ.12: SCQA e Strategic Narrative Pyramid com exemplo brasileiro
+
+### Melhorado
+
+- **Fase 0**: seção de saúde mental em estágio zero (5 gatilhos psicológicos + protocolo semanal)
+- **Fase 1**: scoring quantitativo de S-curve para geração de ideias (5 dimensões)
+- **Fase 3**: Passo 7B — entrevista de raiz causal (técnica 3 camadas)
+- **Fase 12**: PMF scorecard 6D com guia de interpretação
+- **Fase 13**: metodologia de divisão de equity entre fundadores (Slicing Pie adaptado)
+- **Fase 15**: modelo quantitativo pivot vs. persevere (6 dimensões, escala 1–5)
+- **Fase 16**: earnout em profundidade — mecânica, 4 tipos de métricas, 5 cláusulas protetoras
+- **Apêndice AB**: Shape Up (Ryan Singer / Basecamp) adicionado à seção de frameworks de produto
+- **Apêndice AA**: CS-Led Growth como motor de expansão de receita
+- **Apêndice AR**: SEO programático e Content Ops com casos brasileiros
+- **Apêndice AS**: Community-Led Growth — flywheel, RD Station/Hotmart, 5 mecanismos
+- **Apêndice Z**: Governança de IA Generativa (4 domínios, EU AI Act, LGPD)
+- **Apêndice AO**: Data Mesh (4 princípios) e privacy-first tracking pós-cookies
+- **Apêndice CR**: career ladder L3–L6 (IC e Manager) e plano de sucessão técnica
+- **Apêndice J**: critérios de transição de papel do fundador (6 papéis × critérios de saída)
+- Ferramentário atualizado: 165 frameworks (antes: 156)
+- README e introducao.md: apêndices DK–DQ indexados
+
+---
+
 ## [3.0] — 2026-04-27
 
 ### Adicionado
