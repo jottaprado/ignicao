@@ -188,9 +188,15 @@ Entrega do valor quase inteiramente manual, com produto mínimo como interface. 
 > [!tip] Para a primeira rodada, closed beta com lista de espera
 > É quase sempre a melhor opção. Permite controle, aprendizado profundo, e relacionamento direto com cada usuário. Os outros formatos vêm depois, com escala.
 
+> [!note] Apêndice DU — GTM Playbook
+> Antes de recrutar os primeiros usuários, defina o motion de aquisição. O [[apendice-du|Apêndice DU — GTM Playbook]] cobre como identificar o ICP com precisão suficiente para o outbound manual desta fase, calcular CAC por canal antes de investir, e estruturar o caminho até o primeiro ARR. Decisões tomadas agora sobre motion (PLG versus SLG) moldam o stack de métricas da Fase 10.
+
 #### Passo 4, onboarding manual intensivo, "Faça Coisas Que Não Escalam"
 
 Nas primeiras semanas, cada novo usuário é recebido por você pessoalmente. Ligue. Faça videochamada. Ensine. Pergunte. Esse contato direto é onde mora setenta por cento do aprendizado. Automatizar onboarding cedo é erro clássico.
+
+> [!note] Apêndice DT — Customer Experience
+> Onboarding manual intensivo é onde se captura o dado mais valioso sobre time-to-value. O [[apendice-dt|Apêndice DT — Customer Experience]] estrutura como medir o momento exato em que o usuário percebe o valor central — o "aha moment" — e como o NPS pós-onboarding prediz churn antes que qualquer métrica de retenção apareça no dashboard.
 
 Esse conjunto de táticas tem nome. *Do Things That Don't Scale*, do ensaio canônico de Paul Graham, da Y Combinator. O princípio é contraintuitivo, mas provado. Nos estágios iniciais, trabalho manual intenso do fundador é exatamente o que produz PMF. Porque é o único caminho para aprendizado de alta resolução. Escala vem depois. E só funciona se o que escala foi descoberto artesanalmente primeiro.
 
@@ -249,6 +255,9 @@ Retenção é o indicador mais honesto. Construa uma curva de retenção. A coor
 Sinal de valor real: a curva se *estabiliza* (achata) em algum nível não-zero. Sinal de sem-valor: a curva cai para zero em quatro semanas.
 
 Curva que estabiliza em vinte por cento indica que um quinto dos usuários encontrou valor real. Isso é muito melhor do que curva que inicialmente mostra oitenta por cento, mas despenca.
+
+> [!note] Apêndice EH — Revenue Operations
+> Com os primeiros usuários em produto, instale o CRM e as definições de pipeline antes de chegar em dez clientes pagantes. O [[apendice-eh|Apêndice EH — Revenue Operations]] cobre como estruturar stages de pipeline, handoffs entre onboarding e expansão, e as métricas de ativação que ligam o comportamento no produto ao forecast de receita. Configurar isso cedo evita retrabalho quando o volume aumentar.
 
 #### Passo 9, valide a disposição real de pagamento
 

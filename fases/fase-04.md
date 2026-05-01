@@ -67,10 +67,16 @@ Para cada persona, desenhe em linha do tempo a jornada relacionada ao problema. 
 > [!important] Comece a jornada antes do ponto óbvio
 > Jornadas devem começar muito antes do ponto onde você imaginaria que o seu produto entraria. Por exemplo, se você está construindo um sistema de gestão de frota, a jornada começa no momento em que o dono decide contratar o motorista. Não quando o motorista já está na rua.
 
+> [!note] O Customer Journey Map é o artefato central desta fase — e o Apêndice DT aprofunda sua aplicação
+> O [[apendice-dt|Apêndice DT — Customer Experience]] trata jornada, onboarding, NPS e sinais de churn preditivo como disciplina integrada. O mapeamento que você faz aqui é a versão de descoberta; o Apêndice DT mostra como a mesma jornada evolui para instrumento de retenção e melhoria contínua depois do lançamento.
+
 > [!tip] Customer Journey Canvas e VPC como entregáveis visuais
 > O mapa em sete colunas descrito acima é a base do [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Customer Journey Canvas (CZ.7)]]. Para cada persona principal, monte um canvas completo (etapas + ação + objetivo + dor + emoção + oportunidade) com a linha emocional desenhada visualmente — pontos vermelhos consecutivos antecipam churn. O caso iFood 2017 em CZ.7 ilustra como a jornada revelou que **a maior queda de conversão estava em Pagamento** (não em descoberta ou variedade, como o time supunha). Pareie com o [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Empathy Map (CZ.6)]] (estado interno do cliente) e o [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Value Proposition Canvas (CZ.3)]] (Pains/Gains traduzidos em Pain Relievers/Gain Creators do produto): juntos, esses três canvases formam o pacote padrão de entregáveis visuais desta fase.
 
 #### Passo 4, identifique os Jobs to be Done (JTBD)
+
+> [!note] JTBD no Brasil tem dimensões culturais que moldam o job emocional e social
+> O job funcional costuma ser universal, mas o job emocional e social variam. No contexto brasileiro, status, relações de confiança e o papel da família na decisão de compra influenciam o que o cliente "contrata" o produto para fazer. O [[apendice-ff|Apêndice FF — Psicologia do Consumidor Brasileiro]] oferece contexto específico para formular JTBDs que reflitam motivações locais reais, não importadas de frameworks americanos.
 
 Para cada persona, pergunte: quando eles "contratam" uma solução (qualquer solução, não a sua), que *trabalho* estão tentando fazer?
 

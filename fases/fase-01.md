@@ -187,6 +187,9 @@ Wellhub (anteriormente Gympass) começou como produto para funcionários de gran
 
 #### 7. White space mapping, mercados com ausência estrutural
 
+> [!note] Antes de declarar um white space, verifique o campo competitivo com método
+> O [[apendice-ee|Apêndice EE — Inteligência Competitiva]] descreve como montar monitoramento contínuo de concorrentes, interpretar análises win/loss e construir battle cards. Aplicado aqui, ajuda a distinguir white space genuíno (ninguém atende) de white space ilusório (alguém já tentou e falhou, ou um grande player está para entrar).
+
 O último método é analítico. Mapear um setor competitivamente e procurar ausências. Monte uma matriz. Os eixos podem ser segmento de cliente por modelo de cobrança, ou canal por tamanho da empresa, ou qualquer dimensão relevante. Plote competidores conhecidos nos quadrantes. Observe os quadrantes vazios. Esses são os white spaces.
 
 A pergunta crítica, que separa white space verdadeiro de ilusão: *se o quadrante está vazio e o modelo é óbvio, por que ninguém ocupou ainda?* Três respostas possíveis, em ordem de frequência.
@@ -285,6 +288,9 @@ Educar o mercado do zero. "Minha ideia é disruptiva, vou ensinar o cliente a qu
 Hobby pessoal confundido com demanda de mercado. Você ama café especial, quer abrir a melhor torrefação do Brasil. Mas quantas pessoas, especificamente, pagariam R$ 80 no quilo? Hobby vira negócio com dificuldade. E só quando a paixão encontra um segmento com disposição a pagar. Não assuma que porque você ama, outros vão amar a ponto de pagar premium.
 
 Cópia dos EUA sem entender contexto brasileiro. "Esse modelo explodiu nos EUA, vai explodir aqui." A adaptação brasileira exige entender poder de compra de classe C diferente do consumidor americano médio, regulação (ANVISA, ANATEL, CVM, BCB) que pode travar modelos inteiros, comportamento cultural (baixa disposição a comprar pets online, alta informalidade em pagamentos), e infraestrutura (logística, bancarização, cobertura celular). Modelo pode precisar ser completamente reengenheirado para funcionar aqui.
+
+> [!note] O consumidor brasileiro tem lógica própria que invalida transplantes diretos de modelos estrangeiros
+> O [[apendice-ff|Apêndice FF — Psicologia do Consumidor Brasileiro]] cobre comportamento mobile-first, dinâmica de compra da classe C/D e vieses culturais locais. Fundamental antes de filtrar candidatas que dependem de hipóteses sobre comportamento do cliente brasileiro.
 
 Achismo sem customer conversation. Você passa quatro semanas dentro da sua cabeça sem falar com ninguém do setor da ideia. Customer conversation não é [[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]. É [[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]]. Mas algumas conversas breves e direcionadas na [[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]], especialmente no dia quinta do exercício acima, filtram muito. Não vire prisioneiro da própria cabeça.
 

@@ -125,6 +125,9 @@ Pegue a sua árvore de teoria ([[#FASE 2B — CONSTRUÇÃO DA TEORIA DO NEGÓCIO
 
 Esse exercício costuma revelar que o empreendedor criou hipóteses sobre o que é fácil de medir, em vez do que é importante testar. Se sobraram nós bet-the-company na árvore sem hipóteses correspondentes, você está prestes a testar o acessório enquanto deixa o crítico passar.
 
+> [!note] Apêndice EJ — Tomada de Decisão como Disciplina
+> Antes de comprometer recursos com as hipóteses bet-the-company, use o [[apendice-ej|Apêndice EJ — Tomada de Decisão como Disciplina]]: hipóteses de alto risco e baixa reversibilidade são decisões Tipo 1 (irreversíveis) e merecem pré-mortem formal antes de qualquer experimento. O apêndice também cobre o framework SPADE para estruturar esse processo em equipe.
+
 #### Passo 4, priorize as hipóteses
 
 Para cada hipótese, atribua duas notas, de um a cinco. Risco (R) é quão grave para o negócio se for falsa? (Cinco mata o negócio. Um é detalhe secundário.) Incerteza (I) é quanta confiança real eu tenho nela hoje? (Cinco é totalmente no escuro. Um é muito fundamentada.)

@@ -93,6 +93,9 @@ Dê nota de um a cinco em cada dimensão. Multiplique. Selecione os três a cinc
 
 Para cada conceito, escreva em uma página seis itens. Nome do conceito (dê nome, facilita comunicação). Descrição em um parágrafo. Principal diferencial. Requisitos técnicos principais. Modelo de monetização imaginado. Principais riscos.
 
+> [!note] Apêndice FF — Psicologia do Consumidor Brasileiro
+> A reação do usuário ao protótipo é moldada por fatores que vão além do fluxo. O [[apendice-ff|Apêndice FF — Psicologia do Consumidor Brasileiro]] cobre como o consumidor brasileiro processa proposta de valor — ancoragem de preço, mobile-first, e o peso da confiança percebida na primeira impressão. Leia antes de definir quais elementos incluir no protótipo de teste.
+
 #### Passo 4, escolha 1 ou 2 conceitos para prototipar
 
 Escolha o(s) com maior potencial percebido. Defina o formato do protótipo. Seis opções.
@@ -137,6 +140,9 @@ Observação silenciosa. Deixe a pessoa errar. Anote onde ela travou.
 Pensar em voz alta. Peça que verbalize o que está pensando enquanto navega.
 
 Perguntas pós-teste (dez minutos). O que foi intuitivo? O que foi confuso? Usaria? Pagaria? Quanto?
+
+> [!note] Apêndice DT — Customer Experience
+> O protótipo é o primeiro contato do usuário com a experiência do produto. O [[apendice-dt|Apêndice DT — Customer Experience]] cobre como estruturar o onboarding desde o protótipo — o que o usuário precisa entender e sentir nos primeiros minutos determina retenção futura. Use os princípios de onboarding do DT para guiar quais tarefas incluir no roteiro de teste.
 
 #### Passo 6, teste com 8 a 12 usuários do ICP
 

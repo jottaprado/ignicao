@@ -58,6 +58,9 @@ Mostre o protótipo ou a página principal por cinco segundos, e tire. Depois pe
 
 Se cinquenta por cento dos testados não conseguem responder bem, o seu posicionamento está confuso. Isso vai matar o seu CAC depois.
 
+> [!note] Apêndice FF — Psicologia do Consumidor Brasileiro
+> As respostas nas entrevistas de solução são influenciadas por como a pergunta é feita e em que contexto. O [[apendice-ff|Apêndice FF — Psicologia do Consumidor Brasileiro]] detalha vieses de resposta específicos do consumidor brasileiro — incluindo tendência de superestimar intenção de uso e subestimar sensibilidade a preço — que distorcem as escalas de valor se não forem antecipados.
+
 #### Passo 4, teste de precificação (price sensitivity, Van Westendorp)
 
 Pergunte quatro coisas, nessa ordem.
@@ -218,6 +221,9 @@ Taxa de entendimento em cinco segundos. Setenta por cento ou mais é bom.
 Faixa de preço aceitável (Van Westendorp). Indica o limite superior para cobrar.
 
 Número de Must Haves. Idealmente cinco a dez. Crítico se mais de quinze.
+
+> [!note] Apêndice DT — Customer Experience
+> O teste de solução é o primeiro onboarding real do usuário com o conceito do produto. O [[apendice-dt|Apêndice DT — Customer Experience]] cobre como medir e otimizar time-to-value desde essa fase — o tempo que o usuário leva para perceber o valor central é o dado mais preditivo de retenção futura, e deve ser rastreado já nas sessões de teste da Fase 9.
 
 ### GATE DE DIRECIONALIDADE, o teste final antes do MVP
 

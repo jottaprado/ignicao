@@ -21,6 +21,8 @@ type: reference
 ### B
 
 - **BANT (Budget-Authority-Need-Timeline)**: BG.14.1
+- **BATNA / ZOPA (negociação)**: BG.15.1, [[apendice-ds|Apêndice DS — Negociação]]
+- **Battle cards (inteligência competitiva)**: [[apendice-ee|Apêndice EE — Inteligência Competitiva]]
 - **Blitzscaling**: BG.12.5, quando usar vs não usar [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]]
 - **Blue Ocean Strategy**: BG.1.8
 - **Board (composição, governança)**: [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]], [[#APÊNDICE CF — PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO|Apêndice CF]]
@@ -31,26 +33,34 @@ type: reference
 ### C
 
 - **CAC (Customer Acquisition Cost)**: BG.18, [[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]], [[#APÊNDICE AN — MODELAGEM FINANCEIRA OPERACIONAL|Apêndice AN]]
+- **CADE / Ato de Concentração (M&A)**: [[apendice-er|Apêndice ER — CADE e Antitruste]], [[#FASE 16 — EXIT STRATEGY|Fase 16]]
 - **Canvas (vários)**: BMC BG.2.9. Lean Canvas BG.2.10. VPC BG.10.10
 - **Cap Table**: [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]], [[#APÊNDICE CF — PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO|Apêndice CF]]
+- **Capital de giro / CCC (ciclo de conversão de caixa)**: [[apendice-ez|Apêndice EZ — Capital de Giro]]
 - **Captação (processo completo)**: [[#APÊNDICE V — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Apêndice V]]
+- **CDC / PROCON (direito do consumidor)**: [[apendice-eq|Apêndice EQ — Direito do Consumidor]]
 - **Churn**: [[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]], [[#APÊNDICE AA — CUSTOMER SUCCESS COMO DISCIPLINA|Apêndice AA]]
+- **CLT / risco de pejotização / eSocial**: [[apendice-el|Apêndice EL — Direito do Trabalho]]
 - **Cofundador matching**: [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]] (Encontrar co-fundador)
 - **Cold Start Problem**: BG.12.10
+- **Compliance / Lei 12.846 (anticorrupção)**: [[apendice-em|Apêndice EM — Compliance e Anticorrupção]], [[#FASE 16 — EXIT STRATEGY|Fase 16]]
 - **Comunicação pública do fundador**: [[#APÊNDICE BM — COMUNICAÇÃO PÚBLICA DO FUNDADOR: NARRATIVA, IMPRENSA E PORTA-VOZ|Apêndice BM]]. Apêndice Marca Pessoal
 - **Consultoria (como serviço ou modelo)**: [[#FASE 2B — CONSTRUÇÃO DA TEORIA DO NEGÓCIO|Fase 2B]]. [[#APÊNDICE CC — PLATAFORMA VS PRODUTO: QUANDO CONSTRUIR PLATAFORMA E QUANDO NÃO|Apêndice CC]]
 - **Contabilidade inicial**: [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]], [[#APÊNDICE W — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Apêndice W]]
 - **Contratação (primeiros funcionários)**: [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]], BG.17.5, Apêndice K
 - **Contratos (frameworks)**: [[#APÊNDICE AH — CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS|Apêndice AH]]
+- **Conway's Law (design organizacional)**: [[apendice-fb|Apêndice FB — Design Organizacional]], [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]]
 - **Crise (gestão de)**: [[#APÊNDICE CM — BIOTECH E HEALTHTECH: PLAYBOOK DE REGULAÇÃO, ENSAIOS E CAPITAL|Apêndice CM]]
 - **Cultura organizacional**: Apêndice BD. BG.17.9
 - **Customer Development**: BG.10.12
 - **Customer Discovery**: [[#FASE 4 — PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY APROFUNDADO)|Fase 4]]
+- **Customer Experience / NPS loop**: [[apendice-dt|Apêndice DT — Customer Experience]]
 - **Customer Journey Map**: BG.9.6, exemplo A.24
 
 ### D
 
 - **Data (compilação do livro)**: Apêndice sobre Envelhecimento (abril 2026)
+- **D&O (seguro de responsabilidade de diretores e officers)**: [[apendice-ey|Apêndice EY — Gestão de Risco]]
 - **DCF (Discounted Cash Flow)**: BG.18.9
 - **Decisão (frameworks)**: BG.4, BG.5
 - **Demissão**: [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (seção Demitir bem), [[#APÊNDICE CB — SUBSCRIPTION ECONOMY EM PROFUNDIDADE: ALÉM DO "COBRA MENSALMENTE"|Apêndice CB]]
@@ -91,6 +101,7 @@ type: reference
 - **Governança (board, shareholders)**: [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]], [[#APÊNDICE CF — PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO|Apêndice CF]]
 - **Growth (função e práticas)**: [[#APÊNDICE CG — GROWTH COMO FUNÇÃO ORGANIZACIONAL: TIME DE GROWTH, BUILD VS HIRE, RELAÇÃO COM PRODUTO|Apêndice CG]]. BG.12
 - **Growth Loops**: BG.12.2
+- **GTM motion / ICP (go-to-market playbook)**: [[apendice-du|Apêndice DU — GTM Playbook]]
 
 ### H
 
@@ -130,7 +141,7 @@ type: reference
 
 - **Marca pessoal do fundador**: Apêndice dedicado
 - **Marketplace / efeitos de rede**: BG.12.10 (Cold Start). [[#APÊNDICE CG — GROWTH COMO FUNÇÃO ORGANIZACIONAL: TIME DE GROWTH, BUILD VS HIRE, RELAÇÃO COM PRODUTO|Apêndice CG]]
-- **MEDDIC / MEDDPICC**: BG.14.5
+- **MEDDPICC (vendas enterprise)**: BG.14.5, [[apendice-eb|Apêndice EB — Vendas Enterprise]]
 - **Mercado (mapeamento)**: [[#FASE 5 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 5]]
 - **Mom Test**: BG.6.1
 - **MVP**: [[#FASE 10 — MVP E EXPERIMENTOS DE MERCADO|Fase 10]] inteira
@@ -138,7 +149,8 @@ type: reference
 
 ### N
 
-- **Negociação (frameworks)**: BG.15 inteiro
+- **NDA / MSA / DPA (contratos essenciais)**: [[apendice-eu|Apêndice EU — Contratos]]
+- **Negociação (frameworks)**: BG.15 inteiro, [[apendice-ds|Apêndice DS — Negociação]]
 - **Never Split the Difference**: BG.15.2
 - **North Star Framework**: BG.11.5
 - **NPS**: BG.8.5
@@ -154,15 +166,17 @@ type: reference
 ### P
 
 - **Pareto Analysis**: BG.5.9
-- **Parcerias estratégicas**: [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]], [[#APÊNDICE CX — CANAIS INDIRETOS E PARCERIAS: PARCERIAS, FRANQUIAS, CHANNEL|Apêndice CX]]
+- **Parcerias estratégicas**: [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]], [[#APÊNDICE CX — CANAIS INDIRETOS E PARCERIAS: PARCERIAS, FRANQUIAS, CHANNEL|Apêndice CX]], [[apendice-dy|Apêndice DY — Business Development]]
 - **Personas**: BG.9.4
 - **Pivot**: Apêndice Pivot (tipologia, decisão, execução)
+- **PLG (product-led growth) detalhado**: [[apendice-du|Apêndice DU — GTM Playbook]]
 - **PMF (Product-Market Fit)**: [[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]]
 - **Positioning**: BG.13.1, BG.13.2 (Dunford)
 - **Pré-PMF (navegação)**: Fases 10-11
 - **Prestação de contas (board)**: [[#APÊNDICE CF — PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO|Apêndice CF]]
 - **Pretotyping**: BG.10.11
 - **Pricing**: [[#FASE 11 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 11]], [[#APÊNDICE AN — MODELAGEM FINANCEIRA OPERACIONAL|Apêndice AN]]
+- **Pricing psicológico BR**: [[apendice-ff|Apêndice FF — Psicologia do Consumidor]]
 - **Priorização (RICE, ICE)**: BG.11.3, BG.11.4
 - **Processo de produto**: BG.10. [[#APÊNDICE AB — PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA|Apêndice AB]]
 - **Proposta de valor**: BG.10.10 (VPC). [[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]], [[#FASE 6 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 6]]
@@ -176,10 +190,12 @@ type: reference
 - **RACI / DACI / RAPID**: BG.5.5
 - **Radical Candor**: BG.17.1
 - **Recrutamento**: [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]], BG.17.5, Apêndice K
+- **Recuperação judicial / wind-down**: [[apendice-es|Apêndice ES — Recuperação Judicial e Wind-Down]], [[#FASE 16 — EXIT STRATEGY|Fase 16]]
 - **Red flags (investidores, sócios, contratações)**: várias fases
 - **Referências (como pedir a candidatos)**: [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]], BG.17.5
 - **Relatório financeiro**: [[#APÊNDICE AN — MODELAGEM FINANCEIRA OPERACIONAL|Apêndice AN]]
 - **Retention Analysis**: [[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]], BG.18.2
+- **Revenue Operations / RevOps**: [[apendice-eh|Apêndice EH — Revenue Operations]]
 - **RICE Scoring**: BG.11.3
 - **Runway (pessoal e empresa)**: [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]], [[#FASE 11 — VALIDAÇÃO DO MODELO DE NEGÓCIO|[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]1]], [[#APÊNDICE AN — MODELAGEM FINANCEIRA OPERACIONAL|Apêndice AN]]
 
@@ -190,8 +206,10 @@ type: reference
 - **Saúde mental do fundador**: [[#APÊNDICE Y — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Apêndice Y]] inteiro
 - **Scaling Up (Rockefeller Habits)**: BG.16.4
 - **Segunda curva (reinvenção)**: [[#FASE 15 — REINVENÇÃO E SEGUNDA CURVA|Fase 15]]. BG.19
+- **SELIC e valuation (impacto macro)**: [[apendice-ef|Apêndice EF — Ciclos Macroeconômicos]]
 - **Series A, B, C (captações)**: [[#APÊNDICE V — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Apêndice V]]
 - **Shutdown voluntário**: [[#FASE 16 — EXIT STRATEGY|Fase 16]] (seção dedicada)
+- **Simples Nacional (Fator R, Anexos I-V)**: [[apendice-en|Apêndice EN — Tributário Estratégico]], [[#APÊNDICE W — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Apêndice W]]
 - **SIPOC**: BG.16.12
 - **Sócios (escolha, conflitos, divórcio)**: [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]], [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]], [[#APÊNDICE Y — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Apêndice Y]]
 - **Spotify Model**: BG.17.13
@@ -204,6 +222,7 @@ type: reference
 - **Taxas (tributárias BR)**: [[#APÊNDICE W — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Apêndice W]]
 - **Time (primeiros líderes, C-level)**: [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]], Apêndice K
 - **Tipos de empresa (ME, EPP, LTDA, SA)**: [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]], [[#APÊNDICE W — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Apêndice W]]
+- **Tomada de decisão (Tipo 1/2, SPADE)**: [[apendice-ej|Apêndice EJ — Tomada de Decisão]]
 - **Tributos**: [[#APÊNDICE W — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Apêndice W]]
 
 ### U
@@ -218,6 +237,7 @@ type: reference
 - **Valuation**: BG.18.9, BG.18.10. [[#APÊNDICE V — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Apêndice V]]
 - **Value Proposition Canvas (VPC)**: BG.10.10, template A.22 (Wellhub)
 - **Venture Capital**: [[#APÊNDICE V — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Apêndice V]]. Apêndice Bootstrap vs VC
+- **Véu societário / desconsideração da personalidade jurídica**: [[apendice-ep|Apêndice EP — Responsabilidade do Sócio]]
 - **Vesting**: [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]], [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]]
 - **V2MOM**: BG.16.2
 
@@ -230,6 +250,10 @@ type: reference
 ### Y
 
 - **YC (Y Combinator) matching e filosofia**: [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]], referências dispersas
+
+### Z
+
+- **ZOPA (Zone of Possible Agreement)**: BG.15.1, [[apendice-ds|Apêndice DS — Negociação]]
 
 ---
 

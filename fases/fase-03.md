@@ -199,6 +199,9 @@ Tentativas de solução (cinco minutos). "O que você já tentou fazer para reso
 
 Encerramento (três minutos). "Tem mais alguém que você acha que passa por isso, que eu poderia conversar?" Pedido de indicação.
 
+> [!note] O comportamento do consumidor brasileiro tem padrões que afetam como a dor se manifesta nas entrevistas
+> Classe C/D tende a minimizar problemas por norma social de não reclamar; usuários mobile-first descrevem fluxos de forma diferente de quem usa desktop. O [[apendice-ff|Apêndice FF — Psicologia do Consumidor Brasileiro]] detalha esses padrões e ajuda a calibrar o que ouvir nas entrevistas — especialmente a diferença entre dor declarada e dor real.
+
 ##### As cinco perguntas canônicas do Mom Test (cheat sheet)
 
 Estas cinco perguntas, adaptadas ao seu domínio, formam um núcleo mínimo para qualquer entrevista de problema. Foram desenhadas para revelar a dor real, focar em comportamento passado em vez de intenção futura, e evitar que você caia na armadilha de vender a sua ideia.
@@ -286,6 +289,9 @@ Não espere terminar tudo para analisar. A cada cinco entrevistas, faça uma sí
 
 > [!tip] Síntese parcial e final no Template A.30
 > O [[#APÊNDICE A — TEMPLATES PRONTOS PARA USO|Template A.30 (Consolidação de Rodada)]] é o artefato dessa síntese. Use uma versão "rascunho" a cada lote de cinco para checar padrões; consolide a versão final só quando a rodada inteira fechar — consolidar antes do fim viesa as entrevistas restantes. A.30 é também o documento que registra a decisão de avanço da fase (perseverar / pivotar problema / pivotar cliente / abandonar).
+
+> [!note] A jornada do cliente é uma estrutura útil para organizar o que as entrevistas revelam
+> Enquanto o Mom Test captura incidentes isolados, o [[apendice-dt|Apêndice DT — Customer Experience]] oferece a visão de jornada completa — do momento de consciência do problema ao pós-resolução — incluindo métricas de NPS e churn preditivo. Usar a jornada como mapa mental durante a síntese das entrevistas ajuda a localizar em qual etapa a dor é mais aguda.
 
 #### Passo 7B, separe sintoma de causa raiz — entrevista de raiz causal
 

@@ -142,6 +142,12 @@ Planilha contendo cinco itens. Premissas (CAC por canal, LTV por segmento, churn
 
 Isso não é "plano de negócios" para impressionar investidor. É ferramenta para tomar decisões operacionais.
 
+> [!note] Quando construir o primeiro orçamento formal
+> O [[apendice-ec|Apêndice EC — Planejamento Financeiro e Orçamento]] cobre o momento certo para montar o primeiro budget estruturado — abordagens top-down versus bottom-up, headcount plan, e como fazer reforecast quando os números divergem das premissas.
+
+> [!note] Forecasting de ARR para validar se o modelo fecha
+> O [[apendice-eg|Apêndice EG — Revenue Forecasting]] traz o ARR waterfall, análise de cohorts de receita, modelos baseados em pipeline, e ajustes de sazonalidade brasileira — ferramentas para testar se as premissas do canvas financeiro são alcançáveis.
+
 ##### Modelo financeiro profissional em três cenários
 
 O plano de uma página é ponto de partida. Modelo financeiro completo em planilha (Excel ou Google Sheets) é obrigatório para qualquer decisão de captação, investimento em time, ou canal. O padrão mínimo exige três cenários explícitos com premissas auditáveis.
@@ -151,6 +157,9 @@ A estrutura do modelo financeiro tem cinco abas.
 **Aba 1, Premissas.** Todas as variáveis que movem o modelo. Crescimento mensal de novos clientes (em percentual). Ticket médio (MRR ou ARR por cliente). Churn mensal (em percentual). NRR (em percentual). CAC por canal. Custo variável por cliente. Custos fixos mensais (folha, tools, office). Timing de contratação por função.
 
 **Aba 2, DRE mensal projetada (dezoito a trinta e seis meses).** As linhas: Nova receita, Expansão, Churn, MRR líquido, Custo variável, Margem de contribuição, Folha, Outros custos fixos, EBITDA, e Caixa em mãos. As colunas: mês a mês por dezoito a trinta e seis meses.
+
+> [!note] Leitura dos demonstrativos do próprio negócio
+> O [[apendice-dr|Apêndice DR — Demonstrativos Financeiros]] ensina a ler e interpretar DRE gerencial, balanço, DFC, e capital de giro — incluindo a diferença prática entre EBITDA e fluxo de caixa livre, que move decisões de runway e captação.
 
 **Aba 3, Três cenários.**
 

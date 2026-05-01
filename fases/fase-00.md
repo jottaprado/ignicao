@@ -91,9 +91,15 @@ Execute estas oito tarefas em sequência.
 
 3. Conversa estruturada com quem compartilha a sua vida, uma a duas horas. Se você tem cônjuge, filhos, ou alguém que depende de você, marque uma conversa formal. Não um comentário de jantar. Apresente quanto dinheiro você planeja alocar, qual o prazo que dá a si mesmo antes de reavaliar, qual impacto isso terá na rotina familiar, qual é o plano B se não der certo. Peça uma resposta honesta. Se a pessoa não apoia, trate isso como informação crítica. Não como obstáculo a ser ignorado.
 
+> [!note] Convencer família e rede próxima sem autoridade formal é habilidade
+> Você não tem poder hierárquico sobre cônjuge, pais ou amigos próximos. O [[apendice-ek|Apêndice EK — Influência e Persuasão sem Autoridade Formal]] cobre como construir alinhamento genuíno com pessoas que não são obrigadas a concordar com você — ferramenta direta para a conversa desta etapa.
+
 4. Avaliação de saúde física e mental, trinta minutos de reflexão. Como está o seu sono hoje? Você tem alguma condição crônica que pode piorar com estresse? Você tem rede de apoio emocional (amigos, terapeuta, família)? Empreender aumenta sintomas de ansiedade e depressão. Se você já está em tratamento, converse com o seu profissional de saúde antes de aumentar a pressão.
 
 5. Definição de prazo e critérios de desistência, uma hora. Defina de antemão quanto tempo você dá ao projeto antes de reavaliar (sugiro doze meses para a primeira reavaliação formal). Quais sinais de fracasso justificam desistir antes (nenhum cliente pagante depois de seis meses de tentativa ativa, reserva abaixo de X reais). Quais sinais de sucesso justificam acelerar (primeiro cliente pagante recorrente em noventa dias). Esses critérios precisam ser definidos hoje, com a cabeça fria. Depois, no meio da tempestade, você não vai ter objetividade para defini-los.
+
+> [!note] A decisão de empreender é Tipo 1 — irreversível por meses ou anos
+> O [[apendice-ej|Apêndice EJ — Tomada de Decisão como Disciplina]] distingue decisões reversíveis (Tipo 2, podem ser desfeitas rapidamente) de decisões irreversíveis (Tipo 1, com custo alto de reversão). Largar emprego, comprometer runway pessoal e recrutar cofundadores são Tipo 1. O framework SPADE e a técnica de pré-mortem do Apêndice EJ ajudam a estruturar esse tipo de decisão antes de tomar, não depois.
 
 6. Escolha do modelo de dedicação. Decida entre três caminhos. Full-time, largar tudo e focar, exige runway pessoal de doze meses ou mais e alta tolerância ao risco. Part-time estruturado, manter emprego e dedicar dez a vinte horas por semana ao negócio, é mais lento e mais seguro. Side project exploratório, cinco a dez horas por semana, sem pressão de transformar em empresa, serve para as fases 1 a 4 deste manual.
 
@@ -321,6 +327,9 @@ Sinais de que não é a pessoa certa para fundar com você.
 Duas ferramentas úteis. o fundador/Advisor Standard Template (FAST) é desenhado para advisor mas ajuda a pensar estruturadamente sobre relação de longo prazo. *The Founder's Dilemmas* do Noam Wasserman é livro com frameworks de decisão sobre sócios, equity, e controle.
 
 E acordo de sócios desde o dia um. Vesting agressivo (quatro anos com um ano de cliff), cláusulas de saída, resolução de conflito. O [[#APÊNDICE AH — CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS|Apêndice AH]] cobre detalhes jurídicos.
+
+> [!note] Negociar equity entre cofundadores é uma negociação formal
+> A divisão de participação societária envolve BATNA implícitos, ancoragem por quem propõe primeiro e zonas de acordo que raramente são discutidas com método. O [[apendice-ds|Apêndice DS — Negociação como Disciplina]] oferece o arcabouço (BATNA, ZOPA, ancoragem) para conduzir essa conversa com clareza, não por instinto.
 
 Sobre equity split, três princípios. Divisão cinquenta-cinquenta exata é comum mas gera conflito em decisões empatadas. Tenha mecanismo de desempate. Divisão proporcional ao valor agregado (quem teve a ideia, quem terá maior esforço, quem trouxe capital) é mais defensável, mas mais difícil de negociar bem. Vesting é não-negociável. Quatro anos com um ano de cliff é padrão. Sem vesting, sócio que sai no mês seis fica com equity integral. Injusto, e problemático em rodadas futuras.
 

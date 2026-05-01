@@ -73,6 +73,9 @@ O quarto passo é listar as suas incertezas. Esse passo é o mais importante. Es
 
 O quinto é condensar tudo em uma página só. Use este template (versão formatada no [[#APÊNDICE A — TEMPLATES PRONTOS PARA USO|Apêndice A]]).
 
+> [!note] A clareza da DII depende diretamente da qualidade da escrita
+> Uma Declaração com frases longas, jargão técnico ou problema mal separado da solução não passa no teste de transmissão. O [[apendice-ew|Apêndice EW — Comunicação Escrita para Negócios]] cobre princípios de clareza, estrutura de argumento e revisão que se aplicam diretamente à redação dos cinco blocos da DII.
+
 ```text
 DECLARAÇÃO INICIAL DA IDEIA, v1
 
@@ -87,6 +90,9 @@ Versão: 1
 ```
 
 O sexto é teste de articulação verbal. Apresente a ideia verbalmente para três a cinco pessoas fora do seu contexto. Não amigos próximos nem família. Peça três coisas. Que repitam a ideia com as próprias palavras. Que apontem o que ficou confuso. Que perguntem o que não entenderam. Se as repetições são muito diferentes do que você quis dizer, a sua articulação está ruim. Reescreva.
+
+> [!note] Apresentar a ideia em noventa segundos é habilidade treinável, não talento
+> O [[apendice-ex|Apêndice EX — Apresentação e Fala em Público]] cobre estrutura de pitch curto, controle de ansiedade e técnicas de ensaio. O teste verbal desta fase é a primeira versão do pitch que você vai repetir centenas de vezes nas fases seguintes — vale preparar com método desde agora.
 
 O sétimo é arquivar a versão v1. Mantenha para comparar depois. A ideia vai mudar. Observar a evolução é educativo.
 

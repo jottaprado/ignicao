@@ -156,6 +156,9 @@ O empreendedor pode escolher outra operacionalização (por exemplo, nota de um 
 > [!important] Quatro regras de operacionalização
 > Ligue a medida à hipótese de forma rastreável. Se alguém te perguntar "por que você escolheu essa métrica e não outra?", você deve conseguir responder em termos da teoria. Defina ex-ante (antes de coletar). Definir medida depois de ver dados é auto-engano matemático. Você inevitavelmente vai escolher a métrica que confirma o que já acredita. Pré-teste as suas perguntas com duas a três pessoas de confiança. Pergunta mal formulada gera lixo. Ajuste antes do campo. Prefira medidas já estabelecidas (KPIs do setor, escalas validadas da literatura de pesquisa) quando existirem, em vez de inventar métricas próprias. A sua métrica só é "nova" se não existir nada comparável.
 
+> [!note] Apêndice EJ — Tomada de Decisão como Disciplina
+> A decisão de rodar ou não um experimento — e com que profundidade — é ela mesma uma decisão estruturável. O [[apendice-ej|Apêndice EJ — Tomada de Decisão como Disciplina]] oferece o framework SPADE para documentar critérios antes de agir, e o pré-mortem para antecipar por que um experimento pode produzir conclusão errada. Use especialmente em hipóteses Tipo 1, onde errar o desenho do experimento tem custo alto.
+
 #### Passo 4, defina o threshold antes de começar
 
 Threshold é o valor numérico da sua medida a partir do qual a hipótese será considerada suportada. É o que separa decisão científica de torcida organizada.

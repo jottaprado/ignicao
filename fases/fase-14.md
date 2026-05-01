@@ -332,6 +332,9 @@ Dono do resultado, não da tarefa. Cada área tem resultado claro. Se para entre
 
 **Framework de feedback.** SBI (Situação-Comportamento-Impacto) como padrão. Feedback semanal em 1:1. Obrigatório pelo menos um item construtivo. Performance review formal a cada seis meses, com calibração cruzada.
 
+> [!note]
+> Fundadores com perfil técnico que estão transitando para gestão encontram no [[apendice-dw|Apêndice DW — Management para o Fundador Técnico]] o detalhamento de 1:1 eficaz, feedback SBI, delegação e career ladder.
+
 **Risco de perda.** Bruno (CTO), crítico para arquitetura e moat. Mitigação: documentação técnica viva, mais Staff Engineer como back-up. Pedro (primeiro customer success contratado), tem relações profundas com quarenta por cento da base. Mitigação: handoff formal em contas-chave para mais pessoas.
 
 #### ARMADILHAS (Time e Liderança)
@@ -418,6 +421,9 @@ DACI, RACI, RAPID. Papéis de decisão clara quando o time cresce. Evita paralis
 
 ### Transição, do Time à Operação
 
+> [!note]
+> Conway's Law, design de squads, spans and layers e quando executar reorgs são tratados no [[apendice-fb|Apêndice FB — Design Organizacional]].
+
 Com time em estrutura, e cultura declarada, o desafio seguinte vira disciplina operacional. Time bom com operação ruim vira frustração coletiva. Boas pessoas fazendo coisa errada. Ou coisa certa, sem coordenação. A frente Operações trata de montar a máquina operacional que ordena o trabalho do time que você acabou de estruturar.
 
 ---
@@ -473,6 +479,9 @@ Sete passos.
 
 ##### Passo 1, institua cadência de gestão em três camadas
 
+> [!note]
+> Cadência operacional — ritmo de all-hands, incidentes, automação e OKRs operacionais — é detalhada no [[apendice-dv|Apêndice DV — Operações em Escala]].
+
 Toda empresa em escala roda em três ciclos simultâneos.
 
 **Ciclo anual, planejamento estratégico.** Q4 do ano: revisão do ano, mais planejamento do próximo (visão, apostas estratégicas, metas anuais, orçamento, e estrutura organizacional). Os entregáveis: documento de estratégia anual, orçamento aprovado, e OKRs anuais em esboço.
@@ -509,6 +518,9 @@ Owner: [uma pessoa responsável, não um time]
 ```
 
 ##### Passo 3, documente os 10 processos críticos operacionais
+
+> [!note]
+> Estruturação de onboarding 30/60/90, wikis e runbooks — a infraestrutura de conhecimento que torna os playbooks consultáveis — está no [[apendice-fc|Apêndice FC — Gestão do Conhecimento]].
 
 Cada empresa tem processos que, se quebrados, geram dor imediata. Liste os seus. Os típicos. Onboarding de novo cliente. Faturamento e cobrança (incluindo inadimplência). Suporte técnico (SLA por tier). Desenvolvimento de feature (da ideia ao deploy). Incident response (quando o produto cai). Onboarding de novo colaborador. Off-boarding de colaborador. Contratação sênior. Deal review (sales operations). Renewal e churn prevention.
 
@@ -579,7 +591,13 @@ flowchart LR
 > [!important] Princípio do stack
 > Menos é mais. Doze ferramentas bem-integradas valem mais que trinta ferramentas que ninguém usa direito. Cada ferramenta nova exige treinamento, integração, e custo marginal de atenção.
 
+> [!note]
+> Automação de CS, vendas e operações com IA — incluindo quando automatizar versus manter toque humano — é tratada no [[apendice-ei|Apêndice EI — AI Ops e Automação]].
+
 ##### Passo 5, evolua a comunicação interna de 10 para 50 e para 100 pessoas
+
+> [!note]
+> Formatos de all-hands, comunicação de RIF e protocolos async por tamanho de time estão no [[apendice-dz|Apêndice DZ — Comunicação Interna]].
 
 Comunicação que funcionava com dez não funciona com cinquenta. A regra operacional. Em torno de dez pessoas, Slack no geral. Todo mundo sabe o que todo mundo faz. Em torno de trinta pessoas, times virtuais por projeto. All-hands semanais. Knowledge-sharing estruturado. Em torno de cinquenta a cem pessoas, comunicação em camadas (C-level para VPs para times). Newsletter interna mensal. Decisões importantes têm "RFC" (Request for Comments) escrito. Em torno de cem ou mais, fóruns formais (engineering review, product review, business review trimestral). Townhalls mensais. Comunicação executiva top-down, com tempo para perguntas.
 
@@ -932,6 +950,9 @@ Pós-PMF, as métricas financeiras viram decisão estratégica. Acompanhe nove m
 | Cash runway | Caixa / burn mensal | ≥18 meses recomendado |
 
 ##### Passo 4, estruture captação estratégica (não oportunista)
+
+> [!note]
+> Linhas de crédito PJ via Pronampe e BNDES, gestão de score PJ e relacionamento bancário em escala estão no [[apendice-fa|Apêndice FA — Relações Bancárias e Crédito]]. Gestão do ciclo de conversão de caixa (CCC) e antecipação de recebíveis estão no [[apendice-ez|Apêndice EZ — Capital de Giro]].
 
 Captar capital é decisão estratégica. Não sorte. Quatro perguntas antes de iniciar rodada.
 

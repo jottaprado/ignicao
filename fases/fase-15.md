@@ -70,6 +70,9 @@ Uma confusão comum em fundadores é tomar saturação de *um* caminho de cresci
 
 #### Passo 1, monitore os sinais antecedentes de saturação
 
+> [!note]
+> O ambiente macroeconômico — SELIC, inflação, câmbio e ciclos de VC — afeta diretamente o timing ideal para declarar reinvenção e iniciar a segunda curva. Ver [[apendice-ef|Apêndice EF — Ciclos Macroeconômicos]].
+
 A saturação não acontece de repente. Dá sinais seis a dezoito meses antes da queda visível. Monitore mensalmente, em cinco categorias.
 
 **Sinais de saturação de canal.** CAC crescente por três ou mais meses consecutivos, sem aumento proporcional de LTV. Pipeline coverage diminuindo trimestre a trimestre. Taxa de conversão por etapa do funil degradando. "Custos escondidos" crescendo. Mais SDRs por AE. Mais ads por lead. Mais conteúdo por MQL.
@@ -161,6 +164,9 @@ A estratégia de autodisrupção tem quatro elementos. Separe o experimento disr
 O exemplo canônico. Microsoft se autodisrompendo de licenças perpétuas (Office) para subscrição cloud (Office 365). No início, cada usuário que migrava gerava menos receita imediata. Em cinco anos, transformou a empresa.
 
 #### Passo 5, considere M&A como alavanca de reinvenção
+
+> [!note]
+> Grandes corporações como canal de distribuição para a segunda curva — incluindo estrutura de parceria, co-desenvolvimento e acesso a base instalada — estão no [[apendice-fd|Apêndice FD — Parceria com Grandes Corporações]]. Parcerias estratégicas como alavanca de reinvenção (JVs, acordos de distribuição, alianças tecnológicas) estão no [[apendice-dy|Apêndice DY — Business Development]].
 
 Quando construir a segunda curva internamente é lento, ou arriscado demais, comprar pode ser mais rápido. Três modalidades.
 

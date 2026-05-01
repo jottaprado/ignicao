@@ -55,6 +55,9 @@ Lucro Real. Obrigatório para receitas acima do limite do Lucro Presumido, e par
 > [!warning] Consulte o seu contador antes de decidir
 > A escolha errada pode custar cinco a dez por cento de margem sem necessidade. Os limites e alíquotas dos regimes mudam periodicamente — esse manual aponta a estrutura, não os números do ano corrente.
 
+> [!note] Tributário estratégico para startups
+> O [[apendice-en|Apêndice EN — Tributário Estratégico]] cobre o Fator R do Simples Nacional (como a folha afeta o anexo de enquadramento), a Lei do Bem para P&D, e quando a estrutura de holding passa a fazer sentido — decisões com impacto direto na margem líquida dos próximos anos.
+
 #### Passo 3, registre marca e domínio
 
 Três providências.
@@ -126,9 +129,18 @@ Fundador solo com pool para cofundador futuro: quando você começa sozinho mas 
 
 Termos de uso. Contratos de prestação de serviço. SLAs. Revisados por advogado.
 
+> [!note] Contratos em profundidade: MSA, NDA, DPA e IP assignment
+> O [[apendice-eu|Apêndice EU — Contratos em Profundidade]] cobre a anatomia de cada contrato essencial para startups — MSA (Master Service Agreement), NDA, DPA (Data Processing Agreement), LOI e acordo de advisor — com as cláusulas críticas, os erros comuns, e o que negociar antes de assinar.
+
 ##### Contrato com colaboradores
 
 CLT, PJ, autônomo, estagiário. Cada modalidade tem regras. Informalidade aqui gera passivo trabalhista. O maior risco jurídico de empresas pequenas.
+
+> [!note] Direito do trabalho para startups: CLT vs PJ, eSocial e rescisão
+> O [[apendice-el|Apêndice EL — Direito do Trabalho para Startups]] detalha os critérios de vínculo empregatício que transformam PJ em CLT na Justiça do Trabalho, as obrigações do eSocial desde o primeiro funcionário, o tratamento do sobreaviso em times de produto, e o custo real de cada modalidade de rescisão.
+
+> [!note] Como estruturar a compensação dos primeiros funcionários
+> O [[apendice-ed|Apêndice ED — Compensação e Benefícios no Brasil]] explica o multiplicador real do salário CLT (1,66x sobre o bruto), como estruturar PLR e equity para os primeiros funcionários, e quais benefícios fazem sentido em cada estágio da empresa.
 
 ##### NDAs com terceiros críticos
 
@@ -137,6 +149,9 @@ Parceiros, fornecedores, e potenciais investidores quando apropriado.
 #### Passo 5, adeque-se à LGPD (se trata dados pessoais)
 
 Cinco providências. Nomeie DPO, ou encarregado. Escreva política de privacidade. Obtenha consentimento apropriado. Mantenha registro de tratamento de dados (ROPA). Tenha processo de resposta a solicitações do titular.
+
+> [!note] Compliance mínimo viável além da LGPD
+> O [[apendice-em|Apêndice EM — Compliance e Anticorrupção]] cobre as obrigações da Lei Anticorrupção (Lei 12.846) aplicáveis a startups, o papel do DPO, PLD/CFT para fintechs, e como montar um programa de compliance enxuto — o mínimo exigido por investidores institucionais e clientes enterprise.
 
 #### Passo 6, instale contabilidade em dia
 
@@ -149,6 +164,9 @@ Conta bancária exclusivamente da empresa. Cartão corporativo. Pró-labore defi
 > [!warning] Misturar CPF e CNPJ é caminho para desorganização e risco fiscal
 > Empréstimos do sócio para a empresa, ou da empresa para o sócio, sem contrato formal, geram autuação fiscal e descaracterização da pessoa jurídica em caso de litígio. Toda movimentação entre as duas pessoas (física e jurídica) precisa de contrato escrito.
 
+> [!note] Responsabilidade do sócio e do administrador
+> O [[apendice-ep|Apêndice EP — Responsabilidade do Sócio e Administrador]] explica quando a desconsideração da personalidade jurídica se aplica, o que configura confusão patrimonial, e as obrigações legais do administrador que justificam a separação rigorosa de contas.
+
 #### Passo 8, estabeleça processos operacionais documentados
 
 Cinco documentos vivos. Onboarding de novo cliente. Onboarding de novo funcionário. Processo de suporte. Processo de venda. Políticas internas (gastos, viagens, despesas).
@@ -159,6 +177,9 @@ Cinco documentos vivos. Onboarding de novo cliente. Onboarding de novo funcioná
 #### Passo 9, defina estrutura financeira mínima
 
 Quatro itens. Fluxo de caixa mensal projetado para os próximos doze meses. Controle de inadimplência. Reconciliação bancária semanal. Relatório mensal de resultado.
+
+> [!note] Capital de giro ao estruturar e captar a primeira rodada
+> O [[apendice-ez|Apêndice EZ — Capital de Giro e Recebíveis]] cobre o Ciclo de Conversão de Caixa, as modalidades de antecipação de recebíveis disponíveis no Brasil, e como o FIDC se encaixa em fintechs e marketplaces — ferramentas para não ficar com caixa represado enquanto o negócio cresce.
 
 #### Passo 10, revise seguros
 
@@ -171,6 +192,9 @@ Seguro de cibersegurança, se trata dados. Cobre custos de incidentes, vazamento
 Seguro de erros e omissões (E&O), se oferece serviço profissional. Cobre falhas técnicas que causem prejuízo ao cliente.
 
 Seguro de vida para sócios-chave (key person). Em sociedades pequenas, a perda repentina de um sócio operacional pode quebrar o negócio. O seguro mitiga esse risco para os sócios remanescentes.
+
+> [!note] Coberturas essenciais para startups: D&O, E&O, cyber e Key Man
+> O [[apendice-ey|Apêndice EY — Gestão de Risco e Seguros]] detalha quando contratar cada cobertura, o que cada apólice efetivamente protege, e os gatilhos que tornam D&O e Key Man obrigatórios — especialmente após a entrada de investidores no board.
 
 ### PERGUNTAS A RESPONDER
 

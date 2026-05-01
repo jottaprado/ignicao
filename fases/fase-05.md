@@ -85,6 +85,9 @@ Para cada alternativa, levante seis dimensões. Quem a oferece. Preço. Pontos f
 
 Minimamente, faça esse levantamento para as cinco a dez alternativas mais relevantes.
 
+> [!note] Monitorar concorrentes não é tarefa pontual — é sistema contínuo
+> O [[apendice-ee|Apêndice EE — Inteligência Competitiva]] cobre como estruturar monitoramento sistemático de mercado, conduzir análises win/loss e produzir battle cards acionáveis. Aplicado a esta fase, transforma o levantamento de alternativas de um documento estático em inteligência viva que alimenta decisões de roadmap e vendas.
+
 > [!tip] Strategy Canvas para visualizar diferenciação
 > Listar as alternativas é o primeiro passo. O segundo é decidir como você se posiciona contra elas — e aqui o [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Strategy Canvas (CZ.4)]] de Kim & Mauborgne (Blue Ocean Strategy) é a ferramenta certa. Liste 8-15 fatores de competição do setor, traçe a curva de valor de cada concorrente principal (1-10 em cada fator) e desenhe a curva nova que você quer construir. Curva nova "ligeiramente acima" da média do setor é otimização de Red Ocean. Curva visualmente distinta — onde você elimina/reduz fatores que ninguém mais ousa cortar e cria fatores que ninguém oferece — é Blue Ocean. Veja CZ.4 para o caso completo Stone vs adquirentes tradicionais.
 
@@ -133,6 +136,9 @@ quadrantChart
 Escolha dois eixos que importam para o ICP, não para você. Preço versus profundidade. DIY versus completo. Generalista versus vertical. Quadrantes vazios são oportunidades. Quadrantes cheios são guerras. Onde você se posiciona define a sua cunha.
 
 A matriz visual é depois complementada por tabela comparando você com três a sete concorrentes principais em cinco a dez dimensões relevantes. Preço, features, público-alvo, pontos fortes, pontos fracos, diferenciação declarada.
+
+> [!note] Posicionamento de marca é uma das saídas desta fase, não só análise competitiva
+> A matriz e o canvas da cunha definem onde você compete. O [[apendice-dx|Apêndice DX — Branding e Posicionamento de Marca]] complementa ao definir como você quer ser percebido nessa posição — território de marca, promessa central e coerência de identidade. Os dois artefatos (cunha + posicionamento) devem ser desenvolvidos em paralelo.
 
 #### Passo 9, sintetize o Dossiê de Mercado
 
@@ -485,6 +491,9 @@ Sistemas caseiros montados por um técnico ou estagiário. Em geral desatualizad
 #### Tipo 4, SaaS estabelecidos resolvendo problema adjacente
 
 Softwares que o cliente já paga por outro motivo, e que "quase" resolvem o seu problema. É o concorrente mais subestimado. O cliente prefere forçar a ferramenta existente a caber no problema novo do que contratar nova ferramenta. Sinal de oportunidade: o cliente usa quarenta por cento das features de uma ferramenta, e improvisa o resto.
+
+> [!note] Entender por que o consumidor brasileiro tolera soluções ruins é parte da análise competitiva
+> No Brasil, inércia de troca é amplificada por desconfiança em novos fornecedores, preferência por relação pessoal e sensibilidade a risco financeiro. O [[apendice-ff|Apêndice FF — Psicologia do Consumidor Brasileiro]] explica esses padrões e ajuda a formular o argumento de troca certo para cada perfil de cliente dentro da sua cunha.
 
 > [!important] A pergunta-chave de competição
 > *Por que a alternativa atual é tolerada?* Se a resposta é "porque funciona suficientemente bem", a sua urgência é fraca, e provavelmente você não tem cunha. Cunhas fortes substituem algo doloroso. Não algo levemente inconveniente. Se os entrevistados descrevem a planilha-mãe rindo ("a minha relação de amor e ódio com aquele Excel maldito"), você tem uma fresta. Se descrevem com indiferença ("funciona, acho"), você não tem.

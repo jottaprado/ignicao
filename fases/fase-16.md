@@ -108,6 +108,9 @@ Processos críticos documentados (vide [[#FASE 14 — ESCALA: TIME, OPERAÇÕES,
 
 Due diligence interno feito (contratos de trabalho, IP, marcas, licenças, contratos comerciais, e compliance regulatório). Propriedade intelectual claramente atribuída à empresa. Compliance LGPD em dia, e auditável. Acordo de sócios atualizado (drag-along, tag-along, saída).
 
+> [!note]
+> Due diligence de compliance — Lei 12.846 (anticorrupção), políticas internas e exposições regulatórias que afetam o valuation — está no [[apendice-em|Apêndice EM — Compliance e Anticorrupção]].
+
 ##### Preparação de governança
 
 Board formal, com pelo menos um independente. Reuniões regulares, com atas. Decisões estratégicas documentadas.
@@ -122,7 +125,13 @@ Narrativa estratégica da empresa praticada (pitch de trinta minutos para compra
 
 #### Passo 4, estruture o processo de venda (quando decidir executar)
 
+> [!note]
+> M&A acima dos limites de faturamento do CADE exige notificação obrigatória de Ato de Concentração antes do closing. Ver [[apendice-er|Apêndice ER — CADE e Antitruste]] para os critérios e o processo.
+
 **Timeline típica de M&A estratégico, em seis janelas.** Mês 1-2: contratação de banker, ou M&A advisor. Preparação do material. Mês 2-4: criação de shortlist de potenciais compradores (dez a vinte e cinco empresas). Primeiras conversas via banker, ou network. Mês 4-6: assinatura de NDAs. Envio de CIM (Confidential Information Memorandum). Recebimento de IOIs (Indications of Interest). Mês 6-8: management presentations com três a cinco compradores sérios. Recebimento de LOIs (Letters of Intent). Mês 8-10: seleção de comprador preferido. Exclusividade (sessenta a noventa dias). Due diligence profunda. Mês 10-12: negociação do SPA (Share Purchase Agreement). Closing.
+
+> [!note]
+> Comunicação durante processo de venda — vazamentos, reação de clientes, time e mercado — exige protocolo específico tratado no [[apendice-ev|Apêndice EV — Comunicação em Crise]].
 
 > [!important] O papel do banker, ou advisor
 > Cobra dois a cinco por cento do valor da transação. Mas tipicamente aumenta o preço em quinze a trinta por cento versus venda direta. E evita armadilhas legais e fiscais. Em deals acima de R$ 50 milhões, praticamente obrigatório. O fee parece alto até você ver o que ele recupera em negociação.
@@ -394,6 +403,9 @@ Unit Economics e Rule of 40. Sinais de saúde da empresa, que o comprador vai an
 A maior parte desse livro trata a saída da empresa como venda (M&A), ou listagem (IPO). Mas existe uma forma de exit que raramente aparece em manuais. E que, na prática, é mais comum. *O encerramento voluntário*. Não é fracasso dramático, nem venda negociada. É decisão consciente de encerrar a operação enquanto ainda é possível fazê-lo com dignidade. Preservando relações, e recursos.
 
 Os fundadores dedicam anos a construir as suas empresas. E, com frequência, apenas semanas a encerrá-las. Por pressa. Por vergonha. Por ter ficado longo demais. O resultado é encerramento mal feito. Relacionamentos rompidos. Lições não internalizadas. Marca pessoal prejudicada. Dinheiro perdido que poderia ter sido preservado. O encerramento bem-feito é trabalho tão profissional quanto o começo bem-feito. E merece planejamento específico.
+
+> [!note]
+> Quando o encerramento não é voluntário — recuperação judicial, falência e wind-down em insolvência — os procedimentos legais estão no [[apendice-es|Apêndice ES — Recuperação Judicial e Wind-Down]]. Responsabilidade pessoal do sócio após o exit (desconsideração da personalidade jurídica, véu societário) está no [[apendice-ep|Apêndice EP — Responsabilidade do Sócio]].
 
 #### Três cenários de encerramento voluntário
 

@@ -359,6 +359,9 @@ Pipeline de indicação. Que percentual de novos clientes vem por referência?
 
 Cohort analysis de LTV dividido por CAC. Não apenas média. Mas curva por safra.
 
+> [!note] Forecasting baseado em cohorts como prova de PMF
+> O [[apendice-eg|Apêndice EG — Revenue Forecasting]] mostra como transformar o cohort analysis em modelo de ARR waterfall — separando nova receita, expansão e churn por coorte — o que converte a curva de retenção em projeção financeira auditável para investidores.
+
 Qualitative proof. Cinco a dez quotes de clientes, com permissão, sobre impacto concreto.
 
 > [!warning] Founder que apresenta "temos PMF" sem esses artefatos
@@ -417,6 +420,9 @@ Crescimento orgânico. Vinte por cento ou mais dos novos usuários sem paid ads.
 NPS. Acima de cinquenta.
 
 Net Revenue Retention (SaaS). Cem por cento ou mais.
+
+> [!note] RevOps como infraestrutura de medição do PMF
+> O [[apendice-eh|Apêndice EH — Revenue Operations]] detalha como estruturar CRM, forecast de pipeline, handoffs entre times e cobertura de pipeline — o sistema operacional que torna NRR, churn e win rate mensuráveis de forma confiável, e não apenas calculados retroativamente.
 
 LTV dividido por CAC. Três ou mais. Com payback de doze meses ou menos.
 
