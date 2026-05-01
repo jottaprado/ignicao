@@ -86,6 +86,33 @@ Amostra mínima. Trinta a cinquenta respostas em ICP definido. Ferramentas. Goog
 > [!important] Gabriel Weinberg, "10x rule"
 > Preço onde o cliente percebe valor igual, ou maior, a dez vezes o preço, cria tração orgânica. A relação típica em SaaS B2B maduro. Valor percebido três a oito vezes preço. Produto excepcional, dez vezes ou mais.
 
+#### 1.1 Value-based pricing na prática — como conduzir pesquisa de WTP no Brasil
+
+O Brasil apresenta especificidades que tornam a pesquisa de willingness to pay mais complexa do que em mercados desenvolvidos. Respostas a preços são influenciadas pelo poder de compra regional, pela cultura de barganha, e pela desconfiança histórica com contratos longos.
+
+**Protocolo para pesquisa de WTP no contexto brasileiro.**
+
+Passo 1, definir o ICP com precisão antes de perguntar. Pesquisa de WTP com amostra heterogênea produz dados inúteis. Separar por segmento. PME (faturamento até R$ 20 milhões anuais), mid-market (R$ 20 a R$ 200 milhões), e enterprise (acima de R$ 200 milhões). O ponto ótimo de preço de cada segmento pode variar em três a cinco vezes.
+
+Passo 2, ancorar na conversa de valor antes de introduzir preço. Perguntar diretamente "quanto você pagaria?" sem contexto produz âncoras baixas. A sequência correta é.
+
+Primeiro, "descreva o principal problema que esse produto resolve para você". Segundo, "qual o custo atual desse problema — em tempo de equipe, custo de processo, ou receita perdida?" Terceiro, "se esse problema fosse resolvido completamente, qual seria o benefício em reais nos próximos doze meses?". Quarto, então introduzir as perguntas do PSM.
+
+Passo 3, calibrar respostas ao contexto cultural. Brasileiros tendem a responder com preço mais baixo que o teto real, por hábito cultural de negociação. Pesquisas mostram que o preço efetivamente aceito em transação real é quinze a vinte e cinco por cento acima do declarado em pesquisa. Aplicar esse fator de correção ao interpretar dados de PSM.
+
+Passo 4, validar com teste de preço real. Pesquisa informa direção. Teste com pricing real confirma. Colocar preço na landing page, em cohort pequena, e medir conversão. Diferença entre declarado em pesquisa e comportamento real frequentemente surpreende.
+
+**Ferramentas de pesquisa disponíveis e custo no Brasil.**
+
+Typeform ou Google Forms para PSM estruturado. Custo zero. User Interviews para recrutamento de respondentes qualificados. Custo US$ 25 a US$ 75 por respondente. SurveyMonkey Audience para amostras quantitativas. Custo R$ 80 a R$ 200 por respondente qualificado. Conjoint analysis com ferramentas como Qualtrics. Para empresas com budget de pesquisa, mais de R$ 50 mil por projeto, com resultado mais robusto.
+
+> [!tip] Entrevistas qualitativas valem mais cedo
+> Antes de ter escala suficiente para dados quantitativos (mínimo cinquenta respondentes por segmento), entrevistas qualitativas de trinta a quarenta e cinco minutos com dez a quinze prospects do ICP produzem mais insight que survey mal-amostrado. Perguntar sobre valor, custo alternativo, e orçamento disponível, diretamente na conversa.
+
+**Erros mais comuns em pesquisa de WTP no Brasil.**
+
+Pesquisar com clientes atuais que já pagam preço baixo. Eles têm âncora definida. Os dados refletem o preço histórico, não o potencial. Pesquisar com amostra de conveniência (lista de email própria). Frequentemente enviesada para ICP de menor ticket. Usar benchmarks de SaaS americano sem ajuste. Converter dólar por câmbio e assumir que o resultado faz sentido para o mercado brasileiro é erro sistemático.
+
 #### 2. Estrutura de pricing, modelos principais
 
 **Flat Monthly Fee.** Um preço, sem variação. Simples. Funciona em produtos de baixa diferenciação de uso. Exemplo. R$ 290 por mês para PadariaPro.
@@ -94,14 +121,14 @@ Amostra mínima. Trinta a cinquenta respostas em ICP definido. Ferramentas. Goog
 
 ```mermaid
 flowchart LR
- subgraph Basic["🥉 BASIC<br/>R$ 290/mês<br/>~20% adotam"]
+ subgraph Basic["BASIC<br/>R$ 290/mês<br/>~20% adotam"]
  B1[Essenciais core]
  B2[Support email 48h]
  B3[Até 3 usuários]
  B4[Relatórios básicos]
  end
 
- subgraph Pro["🥈 PRO ⭐ âncora<br/>R$ 590/mês<br/>~60% adotam"]
+ subgraph Pro["PRO - âncora<br/>R$ 590/mês<br/>~60% adotam"]
  P1[Tudo do Basic +]
  P2[Integrações avançadas]
  P3[Relatórios customizados]
@@ -110,7 +137,7 @@ flowchart LR
  P6[API access]
  end
 
- subgraph Ent["🥇 ENTERPRISE<br/>R$ 1.290+/mês<br/>~20% adotam"]
+ subgraph Ent["ENTERPRISE<br/>R$ 1.290+/mês<br/>~20% adotam"]
  E1[Tudo do Pro +]
  E2[SSO SAML/OIDC]
  E3[SLA contratual 99.9%]
@@ -121,8 +148,6 @@ flowchart LR
 
  Basic -. upgrade.-> Pro
  Pro -. upgrade.-> Ent
-
- style Pro fill:#FFD700,stroke:#8B6914,stroke-width:3px
 ```
 
 Decoy effect aplicado. O tier do meio deve ser a escolha "óbvia". Se noventa e cinco por cento escolhem Basic, os tiers estão mal-desenhados. Basic com valor demais. Ou Pro com justificativa fraca.
@@ -143,7 +168,112 @@ Features que tipicamente são "enterprise-only". SSO (Single Sign-On) via SAML, 
 
 Se as enterprise-only features são o que diferencia o produto, o que está nos tiers menores precisa ser genuinamente útil. Senão, só o tier alto paga. E o funil trava.
 
-#### 4. Reajustes anuais, a política que ninguém segue, e todo mundo precisa
+#### 4. Pricing para expansão de receita — como estruturas seat-based e usage-based viabilizam NRR acima de 110%
+
+NRR (Net Revenue Retention) acima de 110% é o indicador que separa empresas SaaS medianas de excelentes. Significa que, mesmo sem conquistar um único cliente novo, a receita cresce dez por cento ao ano, organicamente, dentro da base existente. Pricing é o principal mecanismo para isso.
+
+**O que faz o NRR crescer.**
+
+NRR é função de quatro componentes.
+
+```text
+NRR = (MRR inicial + Expansion − Contraction − Churn) / MRR inicial × 100
+```
+
+Expansion é o driver que o pricing controla diretamente. Expansão acontece quando o cliente usa mais (usage-based), adiciona usuários (seat-based), ou sobe de tier (tiered). Cada estrutura de pricing tem mecânica diferente de expansão.
+
+**Seat-based pricing e expansão orgânica.**
+
+Em modelo seat-based, a empresa cresce junto com o crescimento da equipe do cliente. Cada novo funcionário que usa o produto é uma nova fonte de receita. O mecanismo é quase automático, quando a adoção interna cresce.
+
+Para maximizar expansão por assentos.
+
+Fazer onboarding de toda a equipe do comprador, não só do decisor. A expansão acontece quando usuários além do comprador inicial adotam. Produto "bottom-up" (que o usuário final ama, e puxa adoção interna) é mais expansível que produto "top-down" (comprado por TI, usado a contragosto).
+
+Criar incentivo para adição fácil de assentos. Processo de self-serve para adicionar usuário dentro do produto. Sem burocracia. Cada atrito nesse fluxo é receita perdida.
+
+Cobrar por usuário ativo, não por licença total. Cobrar por licença total incentiva o cliente a consolidar usuários. Cobrar por usuário ativo alinha o preço ao valor entregue e reduz resistência à adoção ampla.
+
+**Usage-based pricing e expansão por consumo.**
+
+Em modelo usage-based, o cliente começa pequeno e expande naturalmente ao longo do tempo, se o produto entrega valor. É o modelo de maior potencial de NRR alto, quando bem executado.
+
+```text
+Exemplo de trajetória de expansão de um cliente usage-based:
+
+Mês 1:  100 mil transações × R$ 0,05 = R$ 5.000/mês
+Mês 6:  400 mil transações × R$ 0,05 = R$ 20.000/mês
+Mês 12: 900 mil transações × R$ 0,05 = R$ 45.000/mês
+
+NRR implícito do cliente: 900%
+```
+
+Para viabilizar esse crescimento, o produto precisa ser o "motor" de processamento de algo que cresce com o negócio do cliente. Transações, documentos processados, usuários atendidos, dados armazenados. Se o objeto de cobrança cresce com o sucesso do cliente, o alinhamento de incentivos é perfeito.
+
+**Métricas de expansão para monitorar.**
+
+Expansion MRR percentual. Quanto da variação de MRR vem de expansão versus novos clientes. Alvo em empresas com NRR forte: trinta a cinquenta por cento do crescimento vem de expansão.
+
+Time to expansion. Quanto tempo leva do primeiro contrato até o primeiro upsell. Alvo para mid-market: seis a doze meses. Para enterprise: doze a dezoito meses.
+
+Expansion rate por cohort. De todas as contas adquiridas no mesmo período, qual percentual expandiu nos doze meses seguintes. Empresas com NRR acima de 120% costumam ter taxa de expansão de quarenta a sessenta por cento da base.
+
+> [!important] NRR acima de 110% muda a matemática de captação
+> Com NRR de 120%, uma empresa com ARR de R$ 50 milhões cresce R$ 10 milhões por ano sem adicionar cliente. Isso representa o equivalente a oitenta novos clientes de R$ 125 mil cada, sem custo de aquisição. Para o investidor, NRR alto é o dado que mais move múltiplo de valuation em SaaS.
+
+#### 5. Psicologia de preço no mercado brasileiro
+
+O comportamento do comprador brasileiro diante de preços tem características específicas que diferem do mercado americano. Ignorar essas características é deixar conversão na mesa.
+
+**Parcelamento como estrutura de pricing.**
+
+O parcelamento é uma instituição no Brasil. Mais de sessenta por cento das compras de ticket acima de R$ 500 no varejo são parceladas. O hábito migrou para software.
+
+Em SaaS B2C e SMB, oferecer plano anual com parcelamento em doze vezes no cartão (sem juros) aumenta a adesão ao anual em vinte a quarenta por cento, comparado a cobrar anuidade à vista. O fundador precisa modelar o custo financeiro (MDR do cartão, que varia de 1,5% a 3,5% dependendo da adquirente) e incorporar ao preço.
+
+```text
+Exemplo de estrutura de pricing com parcelamento:
+
+Plano mensal:    R$ 129/mês    (MRR: R$ 129)
+Plano anual:     R$ 99/mês × 12 = R$ 1.188 à vista
+                 ou R$ 109/mês × 12 = R$ 1.308 parcelado em 12x
+                 (diferença cobre MDR do cartão de ~10%)
+```
+
+O cliente percebe economia ao comparar R$ 109 parcelado com R$ 129 mensal. A empresa captura LTV anual garantido. Todos ganham, quando a estrutura está calibrada.
+
+**Psicologia de preço: o efeito do R$97 versus R$100.**
+
+O pricing de charme (charm pricing) funciona no Brasil. Mas com especificidade local: o limiar psicológico não é exatamente igual ao americano.
+
+No Brasil, os limiares mais eficazes observados em produtos de consumo e SMB.
+
+```text
+Abaixo de R$ 100:  R$ 97 ou R$ 89 (não R$ 99 — o "9" final é percebido como americano)
+Abaixo de R$ 200:  R$ 189 ou R$ 197
+Abaixo de R$ 500:  R$ 490 ou R$ 497
+Abaixo de R$ 1.000: R$ 970 ou R$ 990
+```
+
+Para B2B mid-market, o efeito de charme é menor. Compradores profissionais olham para o total anual, não para o número do mês. A diferença entre R$ 590 e R$ 600 por mês é irrelevante quando o contrato anual é comparado em linha com outros softwares. Nesse segmento, usar preços "limpos" (R$ 600, R$ 1.200, R$ 2.400) comunica profissionalismo.
+
+**Adaptação de preços americanos ao poder de compra brasileiro.**
+
+A regra de "converter dólar pelo câmbio" não funciona. Em 2025, com dólar a R$ 5,80, um SaaS americano de US$ 100 por mês seria R$ 580. Mas o poder de compra do comprador brasileiro é inferior. O coeficiente de ajuste típico, baseado em paridade de poder de compra, é de 0,35 a 0,50 para segmento SMB, e 0,55 a 0,70 para mid-market.
+
+```text
+Produto americano: US$ 100/mês
+Câmbio: R$ 5,80 → R$ 580/mês (sem ajuste)
+Ajuste PPP para SMB (fator 0,40): R$ 232/mês
+Ajuste PPP para mid-market (fator 0,60): R$ 348/mês
+```
+
+A empresa não precisa cobrar o mínimo. Mas precisa entender que cobrar preço americano integral em mercado brasileiro vai reduzir o pool de compradores para empresas de maior porte, que orçam em dólar ou têm faturamento internacionalizado.
+
+> [!tip] Teste o preço, não calcule o preço
+> Qualquer cálculo de ajuste de poder de compra é estimativa. O único dado confiável é a conversão real. Testar dois ou três níveis de preço em landing page separadas, por quatro a seis semanas, com tráfego orgânico ou pago direcionado, produz dado melhor que qualquer modelo teórico.
+
+#### 6. Reajustes anuais, a política que ninguém segue, e todo mundo precisa
 
 Regra mínima para SaaS brasileiro. Reajuste anual igual a IPCA mais um a três pontos percentuais. Cobre inflação, mais captura de valor agregado pelo produto.
 
@@ -153,7 +283,7 @@ Elasticidade típica observada em SaaS B2B. Reajuste de cinco a oito por cento. 
 
 Test-first approach. Aplicar reajuste em coorte pequena (novos clientes) primeiro. Medir conversão, e churn, três a seis meses. Ajustar antes de rolar para a base completa.
 
-#### 5. Descontos, política clara, não improviso
+#### 7. Descontos, política clara, não improviso
 
 > [!important] Regra de descontos
 > Desconto concedido em Sales precisa ter contrapartida. Pagamento anual. Multi-ano. Co-marketing. Case study. Desconto sem contrapartida sinaliza que o preço original era inflado. E destrói preço de mercado.
@@ -162,7 +292,7 @@ Estrutura saudável. Desconto anual, pago adiantado. Dez a quinze por cento. Mul
 
 Autoridade de desconto. Rep de Sales. Até dez por cento, sem aprovação. Head of Sales. Até vinte por cento. CEO, ou CFO. Acima de vinte por cento.
 
-#### 6. A/B testing de pricing, quando, e como
+#### 8. A/B testing de pricing, quando, e como
 
 Quando faz sentido. Empresa com pelo menos quinhentos leads por mês (base para detectar sinal). Produto self-serve (aplicação em landing page, ou checkout). Mudança incremental (dez a vinte e cinco por cento), não estrutural.
 
@@ -172,7 +302,44 @@ Como. Segmentar tráfego cinquenta cinquenta, por hash de visitor ID. Medir. Con
 
 Ética, e legal. Evitar cobrar preços diferentes para perfis diferentes, sem justificativa (pode violar CDC). Teste A/B por timing, ou cohort, é aceito.
 
-#### 7. Modelos AI-native de pricing (2024 a 2026)
+#### 9. Pricing para diferentes tipos de compradores — como manter integridade de preço entre segmentos
+
+Uma das armadilhas mais comuns em startups brasileiras que crescem para mid-market e enterprise: o mesmo produto começa a ser vendido a preços radicalmente diferentes para compradores distintos, sem estrutura que justifique a diferença. O resultado é erosão de preço, resentimento entre contas, e dificuldade em contratar Sales com clareza.
+
+**Segmentação típica e suas dinâmicas de pricing.**
+
+SMB (pequenas e médias empresas, faturamento até R$ 20 milhões). Características de compra. Decisão rápida (uma a três semanas). Decisor é o dono ou gestor direto. Sensibilidade a preço alta. Ciclo de venda curto. Orçamento típico de software: R$ 500 a R$ 3.000 por mês. Modelo de pricing adequado. Self-serve ou low-touch. Tiered simples. Preço na tabela, sem negociação. Parcelamento disponível.
+
+Mid-market (faturamento R$ 20 a R$ 200 milhões). Características de compra. Decisão em quatro a oito semanas. Múltiplos stakeholders (usuário, TI, financeiro). Sensibilidade moderada. Contrato anual é esperado. Orçamento típico: R$ 2.000 a R$ 20.000 por mês. Modelo de pricing adequado. Inside sales ou AE. Preço público como âncora, com flex de dez a vinte por cento. Contrapartida obrigatória para desconto.
+
+Enterprise (faturamento acima de R$ 200 milhões). Características de compra. Decisão em três a doze meses. Processo de procurement, RFP, jurídico. Sensibilidade a preço menor que a SMB, mas processo mais burocrático. Orçamento típico: R$ 10.000 a R$ 100.000 por mês. Modelo de pricing adequado. Field sales. Preço sem tabela pública. Proposta customizada. Floor price interno, não divulgado.
+
+**Como manter integridade de preço entre segmentos.**
+
+O risco principal é o cliente SMB que descobre que o enterprise vizinho paga menos por assento. Ou o enterprise que percebe que o SMB tem acesso a features que ele paga caro.
+
+Mecanismos para proteger a integridade.
+
+Diferenciar produto genuinamente entre tiers. Enterprise não deve ser "mais do mesmo". Deve ter features que SMB não precisa (SSO, audit logs, SLA, compliance). Se as features enterprise são úteis para SMB, o argumento de preço diferente colapsa.
+
+Manter segmentação explícita de mercado. "Esse produto é para equipes acima de cinquenta usuários" define quem é enterprise por tamanho de equipe, não por orçamento. O cliente SMB não se sente discriminado; simplesmente não é o ICP do tier.
+
+Política de pricing documentada internamente. O Sales precisa saber o floor de cada segmento, e não ter autoridade para cruzar a linha sem aprovação. Sem política documentada, cada vendedor inventa, e o preço de mercado erode.
+
+Evitar "enterprise pricing para SMB que insiste". O SMB que negocia agressivamente e consegue preço enterprise destrói a estrutura. Treinar Sales para responder: "Esse preço requer compromisso de X usuários por Y meses. Faz sentido para a sua estrutura?"
+
+> [!warning] O desconto ad hoc para fechar o trimestre destrói pricing de longo prazo
+> Cada desconto não estruturado concedido para bater meta de curto prazo cria precedente. O cliente conta para outros. O Sales aprende que pode sempre "conseguir mais". Em dois a três anos, o price realization cai de noventa por cento para sessenta por cento do tabela, e a empresa está efetivamente cobrando um terço a menos do que deveria. O custo é invisível no curto prazo e devastador no longo.
+
+**Comunicação de preço para diferentes compradores.**
+
+Para SMB. Preço na landing page. Clareza total. Sem surpresa. Self-serve funciona quando o preço é visível e o checkout é simples. O atrito em descobrir o preço mata conversão de SMB.
+
+Para mid-market. Preço na página como âncora ("a partir de R$ X"). Contato com Sales para proposta customizada. Gera percepção de personalização sem abandonar a âncora.
+
+Para enterprise. "Fale com nossa equipe" é aceitável. Enterprise buyers esperam proposta customizada. Preço público pode criar constrangimento em negociação. Mas ter case studies com resultados ("clientes enterprise reduzem custo em X%") substitui o preço como elemento persuasivo.
+
+#### 10. Modelos AI-native de pricing (2024 a 2026)
 
 Emergentes, com produtos que usam LLM.
 
@@ -201,6 +368,8 @@ Expansion MRR percentual. Contribuição de upgrades, e expansão de contas, par
 Downgrade rate. Percentual que migra para tier inferior. Alvo menor que dois por cento ao ano.
 
 Time to first reajuste. Alvo igual, ou menor, a doze meses, do contrato inicial.
+
+NRR por segmento (SMB, mid-market, enterprise). NRR diferente por segmento revela onde o pricing captura (ou falha em capturar) expansão.
 
 ### Definição de sucesso
 
@@ -236,10 +405,15 @@ Não treinar Sales em pricing. O vendedor que não articula valor entra em guerr
 
 Ignorar custo unitário variável em modelo usage-based. Se a margem marginal diminui em escala (custo AI aumenta por usage), o modelo pode virar prejuízo.
 
+Não separar pricing por segmento. Cobrar o mesmo de SMB e enterprise destrói a captura de valor no enterprise e cria expectativa errada no SMB.
+
+Estrutura de parcelamento ignorada. Não oferecer parcelamento em plano anual para SMB e B2C reduz adesão ao anual em vinte a quarenta por cento, diminuindo LTV e previsibilidade de receita.
+
 ### Checklist
 
 - [ ] Documento de pricing com estrutura, mais racional, existe, e foi revisado nos últimos doze meses?
 - [ ] Pesquisa de WTP (PSM, ou value-based) foi conduzida nos últimos dezoito meses?
+- [ ] Pesquisa de WTP foi segmentada por perfil de comprador (SMB, mid-market, enterprise)?
 - [ ] Tiers (se aplicável) têm distribuição saudável de adoção?
 - [ ] Política de reajuste anual formal implementada?
 - [ ] Política de desconto com autoridade, e contrapartida, documentada?
@@ -248,9 +422,13 @@ Ignorar custo unitário variável em modelo usage-based. Se a margem marginal di
 - [ ] Grandfathering, e comunicação de reajuste, formalizados?
 - [ ] Se usage-based. Custo unitário variável mapeado, e margem em escala modelada?
 - [ ] Enterprise pricing tem "floor price" interno definido, não só negociação livre?
+- [ ] NRR calculado por segmento, e expansão MRR monitorada mensalmente?
+- [ ] Estrutura de parcelamento disponível para plano anual em SMB e B2C?
+- [ ] Pricing por segmento (SMB versus enterprise) documentado com diferencial de produto justificando diferença de preço?
+- [ ] Ajuste de preços a poder de compra brasileiro feito (não só conversão cambial)?
 
 ### Ver também
 
-[[#APÊNDICE CB — SUBSCRIPTION ECONOMY EM PROFUNDIDADE: ALÉM DO "COBRA MENSALMENTE"|Apêndice CB]], Subscription economy. [[#APÊNDICE CE — VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR|Apêndice CE]], Valuation methods. [[#APÊNDICE AN — MODELAGEM FINANCEIRA OPERACIONAL|Apêndice AN]], Modelagem financeira.
+**Ver também:** [[apendice-cb|Apêndice CB]], Subscription economy. [[apendice-ce|Apêndice CE]], Valuation methods. [[apendice-an|Apêndice AN]], Modelagem financeira.
 
 ---
