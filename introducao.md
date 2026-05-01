@@ -52,7 +52,7 @@ Boa sorte na minha jornada, em cada momento em que eu voltar aqui para buscar um
 
 ### O que isto é
 
-Este livro tem cerca de 380 mil palavras. Cobre como começar uma empresa no Brasil, como crescê-la, e como sair dela. Está dividido em quatro partes que seguem essa ordem cronológica: Da Ideia à Operação, Do PMF à Escala, Em Escala, Ciclo Longo e Exit. Cada parte tem fases (a sequência principal) e apêndices (profundidade temática para quando você precisar). No fim há uma seção de Referência com ferramentário, templates, glossário, bibliografia e índice remissivo.
+Este livro tem cerca de 500 mil palavras. Cobre como começar uma empresa no Brasil, como crescê-la, e como sair dela. Está dividido em quatro partes que seguem essa ordem cronológica: Da Ideia à Operação, Do PMF à Escala, Em Escala, Ciclo Longo e Exit. Cada parte tem fases (a sequência principal) e apêndices (profundidade temática para quando você precisar). No fim há uma seção de Referência com ferramentário, templates, glossário, bibliografia e índice remissivo.
 
 Não é narrativa contínua. Não é livro inspiracional. É um documento para consulta em decisões reais. Foi escrito assumindo que você tem pressa, tem uma dor concreta, e precisa de resposta operacional.
 
@@ -308,6 +308,51 @@ flowchart TD
 - [[#BG.19 — INOVAÇÃO E SEGUNDA CURVA]]
 - [[#APÊNDICE A — TEMPLATES PRONTOS PARA USO]]
 - [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO]] (20 canvases: inclui CZ.17 Capital Stack, CZ.18 Network Effects Map, CZ.19 Org Chart Evolution, CZ.20 Wardley Map, e expansão de CZ.12 com SCQA e Strategic Narrative)
+
+**Hard Skills de Negócio (Apêndices DR–FF):**
+
+- [[apendice-dr|DR — Demonstrativos Financeiros para o Fundador]]
+- [[apendice-ds|DS — Negociação como Disciplina]]
+- [[apendice-dt|DT — Customer Experience]]
+- [[apendice-du|DU — GTM Playbook]]
+- [[apendice-dv|DV — Operações em Escala]]
+- [[apendice-dw|DW — Management para o Fundador Técnico]]
+- [[apendice-dx|DX — Branding e Posicionamento]]
+- [[apendice-dy|DY — Business Development]]
+- [[apendice-dz|DZ — Comunicação Interna]]
+- [[apendice-ea|EA — Product Marketing]]
+- [[apendice-eb|EB — Vendas Complexas Enterprise]]
+- [[apendice-ec|EC — Planejamento Financeiro e Orçamento]]
+- [[apendice-ed|ED — Compensação e Benefícios no Brasil]]
+- [[apendice-ee|EE — Inteligência Competitiva]]
+- [[apendice-ef|EF — Ciclos Macroeconômicos]]
+- [[apendice-eg|EG — Revenue Forecasting]]
+- [[apendice-eh|EH — Revenue Operations]]
+- [[apendice-ei|EI — AI Ops e Automação Inteligente]]
+- [[apendice-ej|EJ — Tomada de Decisão como Disciplina]]
+- [[apendice-ek|EK — Influência e Persuasão sem Autoridade Formal]]
+- [[apendice-el|EL — Direito do Trabalho para Startups]]
+- [[apendice-em|EM — Compliance e Anticorrupção]]
+- [[apendice-en|EN — Tributário Estratégico para Startups]]
+- [[apendice-eo|EO — Contencioso e Litígio]]
+- [[apendice-ep|EP — Responsabilidade do Sócio e do Administrador]]
+- [[apendice-eq|EQ — Direito do Consumidor e CDC]]
+- [[apendice-er|ER — CADE e Antitruste]]
+- [[apendice-es|ES — Recuperação Judicial e Wind-Down]]
+- [[apendice-et|ET — Regulatório de IA no Brasil]]
+- [[apendice-eu|EU — Contratos em Profundidade por Tipo]]
+- [[apendice-ev|EV — Comunicação em Crise]]
+- [[apendice-ew|EW — Comunicação Escrita para Negócios]]
+- [[apendice-ex|EX — Apresentação e Fala em Público]]
+- [[apendice-ey|EY — Gestão de Risco e Seguros]]
+- [[apendice-ez|EZ — Capital de Giro e Recebíveis]]
+- [[apendice-fa|FA — Relações Bancárias e Crédito no Brasil]]
+- [[apendice-fb|FB — Design Organizacional]]
+- [[apendice-fc|FC — Gestão do Conhecimento]]
+- [[apendice-fd|FD — Parceria com Grandes Corporações Brasileiras]]
+- [[apendice-fe|FE — Política Pública como Estratégia]]
+- [[apendice-ff|FF — Psicologia do Consumidor Brasileiro]]
+
 - [[#APÊNDICE — GLOSSÁRIO DE TERMOS TÉCNICOS|Glossário de Termos Técnicos]]
 - [[#APÊNDICE — ÍNDICE REMISSIVO]]
 - [[#GLOSSÁRIO]]
