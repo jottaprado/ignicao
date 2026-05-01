@@ -4,10 +4,10 @@
 
 ### O manual operacional do empreendedor brasileiro
 
-*Do pré-zero ao exit. 17 fases · 109 apêndices · 400 mil palavras.*
+*Do pré-zero ao exit. 17 fases · 150 apêndices · 500 mil palavras.*
 
 [![Licença CC BY-NC-SA](https://img.shields.io/badge/licença-CC%20BY--NC--SA%204.0-orange.svg)](LICENSE.md)
-[![Versão](https://img.shields.io/badge/versão-3.1-blue.svg)](CHANGELOG.md)
+[![Versão](https://img.shields.io/badge/versão-3.2-blue.svg)](CHANGELOG.md)
 [![Idioma](https://img.shields.io/badge/idioma-Português%20BR-green.svg)](#)
 [![PRs Bem-vindos](https://img.shields.io/badge/PRs-bem--vindos-brightgreen.svg)](CONTRIBUTING.md)
 
@@ -28,7 +28,7 @@ N�o é leitura linear. É enciclopédia de consulta. Você abre no momento do 
 O que está aqui:
 
 - **17 fases** com método, métricas e armadilhas para cada momento da jornada
-- **109 apêndices** temáticos: captação, LGPD, layoffs, exit, deep tech, healthtech, agritech, govtech, cleantech, legaltech e mais
+- **150 apêndices** temáticos: captação, finanças, GTM, vendas enterprise, operações, management, jurídico, compliance, IA e mais
 - **58 diagramas** Mermaid — renderizam direto no GitHub
 - **165 frameworks** contextualizados: de Porter e JTBD a CAC/LTV e unit economics
 - **Casos brasileiros** com análise honesta: Nubank, iFood, Stone, Hotmart, Natura, Magazine Luiza, Wildlife, Peixe Urbano, 99, Loggi, Olist e outros
@@ -128,6 +128,14 @@ Você quer sair                 → Fase 16 + Apêndice BR
 | [V](apendices/apendice-v.md) | Jornada de captação: do pitch ao closing |
 | [P](apendices/apendice-p.md) | Financiamento não-diluitivo: Finep, BNDES, grants |
 | [CE](apendices/apendice-ce.md) | Valuation: métodos, múltiplos e negociação |
+| [DR](apendices/apendice-dr.md) | Demonstrativos financeiros para o fundador: DRE, balanço, DFC e capital de giro |
+| [EC](apendices/apendice-ec.md) | Planejamento financeiro e orçamento: top-down, bottom-up e reforecast |
+| [EN](apendices/apendice-en.md) | Tributário estratégico para startups: Simples, Lucro Presumido, Lei do Bem |
+| [EG](apendices/apendice-eg.md) | Revenue forecasting: modelos, acurácia e processo para o founder |
+| [EY](apendices/apendice-ey.md) | Gestão de risco e seguros: D&O, E&O, cyber, Key Man e registro de riscos |
+| [EZ](apendices/apendice-ez.md) | Capital de giro e recebíveis: CCC, antecipação, FIDC e crédito operacional |
+| [FA](apendices/apendice-fa.md) | Relações bancárias e crédito no Brasil: Pronampe, BNDES, Open Finance |
+| [EF](apendices/apendice-ef.md) | Ciclos macroeconômicos: SELIC, inflação, câmbio e ciclos de capital de risco |
 | [AJ](apendices/apendice-aj.md) | Dinheiro pessoal do fundador durante a empresa |
 | [W](apendices/apendice-w.md) | Contabilidade e tributário brasileiro para startups |
 | [AT](apendices/apendice-at.md) | Gestão de caixa e sobrevivência em crise |
@@ -155,6 +163,16 @@ Você quer sair                 → Fase 16 + Apêndice BR
 | Apêndice | Tema |
 |---|---|
 | [CP](apendices/apendice-cp.md) | Vendas, pipeline e revenue operations |
+| [EB](apendices/apendice-eb.md) | Vendas complexas enterprise: ciclo longo, múltiplos decisores, MEDDPICC |
+| [EH](apendices/apendice-eh.md) | Revenue Operations: CRM, forecast, pipeline e handoffs |
+| [DU](apendices/apendice-du.md) | GTM Playbook: da ideia ao primeiro milhão de ARR |
+| [EA](apendices/apendice-ea.md) | Product Marketing: posicionamento, mensagem e lançamento |
+| [DX](apendices/apendice-dx.md) | Branding e posicionamento de marca para startups |
+| [EE](apendices/apendice-ee.md) | Inteligência competitiva: monitoramento, análise e resposta |
+| [FF](apendices/apendice-ff.md) | Psicologia do consumidor brasileiro: comportamento, decisão e conversão |
+| [DT](apendices/apendice-dt.md) | Customer Experience: jornada, NPS, onboarding e churn preditivo |
+| [DY](apendices/apendice-dy.md) | Business Development: parcerias estratégicas como motor de crescimento |
+| [FD](apendices/apendice-fd.md) | Parceria com grandes corporações brasileiras: como navegar o elefante |
 | [CG](apendices/apendice-cg.md) | Growth como função organizacional |
 | [CQ](apendices/apendice-cq.md) | Relações públicas, marca e narrativa institucional |
 | [BM](apendices/apendice-bm.md) | Comunicação pública do fundador |
@@ -175,6 +193,17 @@ Você quer sair                 → Fase 16 + Apêndice BR
 |---|---|
 | [CO](apendices/apendice-co.md) | Recrutamento técnico em profundidade |
 | [CR](apendices/apendice-cr.md) | Engineering management e developer experience |
+| [DW](apendices/apendice-dw.md) | Management para o fundador técnico: da engenharia à liderança |
+| [FB](apendices/apendice-fb.md) | Design organizacional: estrutura, squads, Conway's Law e reorgs |
+| [FC](apendices/apendice-fc.md) | Gestão do conhecimento: wiki, onboarding, runbooks e retenção de saber |
+| [DV](apendices/apendice-dv.md) | Operações em escala: processos, cadência, incidentes e automação |
+| [DZ](apendices/apendice-dz.md) | Comunicação interna: all-hands, RIF, crise, assíncrono e Slack |
+| [DS](apendices/apendice-ds.md) | Negociação como disciplina: BATNA, ZOPA, ancoragem e term sheet |
+| [EJ](apendices/apendice-ej.md) | Tomada de decisão como disciplina: Tipo 1/2, vieses, SPADE, pré-mortem |
+| [EK](apendices/apendice-ek.md) | Influência e persuasão sem autoridade formal |
+| [EW](apendices/apendice-ew.md) | Comunicação escrita para negócios: memo, investor update, RFC, async |
+| [EX](apendices/apendice-ex.md) | Apresentação e fala em público: pitch, all-hands, keynote, board, mídia |
+| [EV](apendices/apendice-ev.md) | Comunicação em crise: primeiros 60 min, stakeholders, redes sociais, recuperação |
 | [BZ](apendices/apendice-bz.md) | Performance reviews: ciclo e calibração |
 | [BV](apendices/apendice-bv.md) | Layoffs e downsizing sem destruir a empresa |
 | [J](apendices/apendice-j.md) | Organizações em escala: de 20 a 500 pessoas |
@@ -196,6 +225,17 @@ Você quer sair                 → Fase 16 + Apêndice BR
 | Apêndice | Tema |
 |---|---|
 | [AH](apendices/apendice-ah.md) | Contratos e aspectos legais operacionais |
+| [EU](apendices/apendice-eu.md) | Contratos em profundidade: MSA, DPA, NDA, LOI, advisor, ToU |
+| [EL](apendices/apendice-el.md) | Direito do trabalho para startups: PJ, CLT, eSocial, rescisão |
+| [ED](apendices/apendice-ed.md) | Compensação e benefícios no Brasil: salário, PLR, equity, benefícios por estágio |
+| [EO](apendices/apendice-eo.md) | Contencioso e litígio: trabalhista, cível, tributário, consumerista |
+| [EP](apendices/apendice-ep.md) | Responsabilidade do sócio e do administrador: quando o véu societário cai |
+| [EQ](apendices/apendice-eq.md) | Direito do consumidor e CDC: PROCON, Reclame Aqui, ação coletiva, dark patterns |
+| [EM](apendices/apendice-em.md) | Compliance e anticorrupção: Lei 12.846, LGPD/DPO, PLD/CFT, SOX-lite |
+| [ER](apendices/apendice-er.md) | CADE e antitruste: concentração, conduta, plataformas digitais |
+| [ES](apendices/apendice-es.md) | Recuperação judicial e wind-down: RJ, dissolução, acqui-hire |
+| [ET](apendices/apendice-et.md) | Regulatório de IA no Brasil: PL 2338/2023, LGPD Art. 20, setores regulados |
+| [FE](apendices/apendice-fe.md) | Política pública como estratégia: regulação, sandbox, financiamento e Congresso |
 | [T](apendices/apendice-t.md) | LGPD e proteção de dados |
 | [AW](apendices/apendice-aw.md) | Regulatório setorial: fintech, healthtech, agritech |
 | [BS](apendices/apendice-bs.md) | Expansão para os EUA: visto EB-1, O-1 e estrutura |
@@ -250,6 +290,7 @@ Você quer sair                 → Fase 16 + Apêndice BR
 | [I](apendices/apendice-i.md) | IA generativa como acelerador do empreendedor (2026) |
 | [CT](apendices/apendice-ct.md) | IA como co-piloto do fundador: uso diário e produtividade (2026) |
 | [CH](apendices/apendice-ch.md) | IA na engenharia interna: Copilot, agentes e produtividade de dev |
+| [EI](apendices/apendice-ei.md) | AI Ops e automação inteligente: workflows, stack, governança, WABA |
 | [AO](apendices/apendice-ao.md) | Dados, analytics e experimentação: stack moderno e métricas |
 | [BC](apendices/apendice-bc.md) | Technical debt como disciplina gerenciada |
 
