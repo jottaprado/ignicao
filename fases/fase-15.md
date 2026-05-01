@@ -102,6 +102,40 @@ Cada tipo exige intervenção diferente em quatro frentes. Produto (quanto recon
 
 O processo de diagnóstico, em três a seis semanas. Em quatro etapas. Semanas 1-2: análise dos sinais de saturação por categoria. Dados quantitativos, mais entrevistas qualitativas com clientes (churn interviews, won/lost analysis, top clientes felizes). Semana 3: workshop de liderança (off-site de dois a três dias) para mapear possíveis pivôs. Semana 4: scoring dos pivôs (tamanho da oportunidade, fit com capacidades, custo de execução, reversibilidade). Semanas 5-6: decisão, planejamento inicial, comunicação ao time e (se houver) ao board.
 
+#### Passo 2B — modelo quantitativo para a decisão pivot vs. persevere
+
+A decisão de "pivotar ou perseverar" é a mais difícil em qualquer fase. Na Fase 15 (reinvenção), ela reaparece em forma mais complexa: não é "abandonar o produto" — é "abandonar a curva atual antes que expire". A pressão é diferente: a empresa tem receita, tem time, tem investidores. Cada pivô tem custo de confiança, de operação, e de capital.
+
+O modelo abaixo transforma a decisão em scorecard quantitativo. Não elimina o julgamento — mas obriga a tornar explícitas as premissas que fundamentam "continuar" ou "mudar".
+
+**Scorecard de pivot vs. persevere (adaptado de Steve Blank + Eric Ries + dados propriamente calibrados).**
+
+Para cada dimensão, atribua de 1 a 5, onde 1 = forte sinal de pivot e 5 = forte sinal de perseverar.
+
+| Dimensão | 1 (pivotar) | 3 (neutro) | 5 (perseverar) | Sua nota |
+|---|---|---|---|---|
+| **Tendência de crescimento** | Crescimento desacelerou por 3+ trimestres sem explicação externa | Crescimento estável mas sem aceleração | Crescimento acelerando ou acima de mercado | — |
+| **NPS / percepção de valor** | NPS < 20 e caindo; clientes usam mas não recomendam | NPS 20-40 estável | NPS > 50 e crescente; clientes são advocates | — |
+| **Churn estrutural** | Churn > 5%/mês em SaaS, sem melhora nos últimos 6 meses | Churn estável em nível aceitável | Churn < 2%/mês e caindo, ou logo churn quase zero | — |
+| **Competição** | Competidor com produto materialmente melhor crescendo mais rápido | Competição intensa mas equilibrada | Você está ganhando participação de mercado | — |
+| **CAC payback** | CAC payback > 24 meses e piorando | CAC payback 12-24 meses estável | CAC payback < 12 meses e melhorando | — |
+| **Energia do time** | Time sênior perdendo fé; perguntas sobre direção frequentes | Time neutro, executando sem entusiasmo | Time animado, ownership alto, propostas proativas | — |
+
+**Interpretação.**
+
+Soma 24-30: persevere. Os fundamentos são sólidos. Se há saturação, é de crescimento — explore expansão de segmento, canal, ou geografia antes de pivotar o produto.
+
+Soma 15-23: zona de alerta. Reinvenção necessária mas não total. Explore movimentos de Horizonte 2 (adjacências) sem abandonar Horizonte 1.
+
+Soma 6-14: sinal forte de pivot. A estratégia atual não tem os fundamentos para escalar. Pivot não significa fracasso — significa atualizar a aposta com base em aprendizado real.
+
+**O que pivot significa em Fase 15 (vs. Fase 6-9).**
+
+Em Fase 6-9, pivot frequentemente é mudança de produto, segmento, ou modelo de negócio fundamental. Em Fase 15, pivot é mais granular: mudar o motor de crescimento (de PLG para enterprise sales), mudar o segmento de expansão (de SMB para enterprise), mudar a proposta de valor para novos clientes, ou entrar em categoria adjacente (plataforma vs. produto ponto). O custo é maior — mas o aprendizado também é. Empresa que chegou na Fase 15 tem vantagens que empresa em Fase 6 não tem: base instalada, dados, equipe, marca, e capital.
+
+> [!important] O maior erro em Fase 15
+> Pivotar para algo completamente novo porque é empolgante — e não porque os dados indicam. "Vamos para IA" sem evidência de que o segmento atual está saturado é distração disfarçada de estratégia. O scorecard serve para separar as duas coisas.
+
 #### Passo 3, aplique ambidestria organizacional (70/20/10 modificado)
 
 Reinvenção não significa parar o negócio atual. Significa rodar duas ou três apostas em paralelo. Com alocação deliberada.

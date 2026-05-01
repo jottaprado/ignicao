@@ -285,6 +285,28 @@ Revisar valores e comportamentos publicamente a cada ano, não como exercício d
 
 **Leitura obrigatória para este momento:** *The Hard Things About Hard Things* (Ben Horowitz), *High Output Management* (Andy Grove), *Scaling People* (Claire Hughes Johnson, 2023). Os três foram escritos para fundador transicionando de operador a gestor de gestores.
 
+### Critérios de Transição de Papel do Fundador
+
+A pergunta "quando o fundador deve parar de fazer X" raramente tem resposta intuitiva — a tendência natural é esperar até que a dor force a mudança. O resultado é transição tardia, com dano acumulado: produto que perdeu velocidade porque o founder ainda aprova cada spec, time de vendas sem autonomia porque o founder fecha todos os deals, produto que não escalou porque o founder nunca contratou VP de Engenharia com poder real.
+
+A tabela abaixo traduz a transição em critérios acionáveis para cada papel operacional central:
+
+| Papel operacional | Continue enquanto... | Inicie transição quando... | Sinal de que passou da hora |
+|---|---|---|---|
+| **Tech Lead / Arquiteto** | Há menos de 8 engenheiros e suas decisões são mais rápidas que qualquer contratação | Há 2+ squads com complexidades técnicas distintas ou você está atrasando decisões de arquitetura | Engenheiros sênior saindo por falta de autonomia técnica |
+| **Head of Sales** | Você está fechando deals e aprendendo o que vende; ciclo de venda < 30 dias | ARR > R$ 3-5M ou ciclo > 60 dias ou você não consegue replicar o processo em paper | Pipeline estagna porque só você fecha ou tempo seu em deals < 20% do total de trabalho |
+| **Head of Product** | Há menos de 1 PM e você consegue fazer entrevistas de usuário semanalmente | Time de produto > 2 PMs ou roadmap disputado por mais de 3 stakeholders | Decisões de produto esperando sua aprovação acumulam por semanas |
+| **Head of Marketing / Growth** | CAC ainda em experimentação e você é a principal fonte de conteúdo/narrativa | Canal de aquisição principal validado e time > 2 pessoas em marketing | Experimentos de growth parando porque precisam da sua aprovação |
+| **RH e People** | < 15 pessoas e você conhece cada pessoa pessoalmente | 20+ pessoas e contratações de mid-level acontecendo sem você | Cultura se fragmentando em times que não se conhecem |
+| **CFO / Finanças** | < Série A e modelo financeiro é simples | Série A captada, múltiplas linhas de receita, ou obrigação de reporting para investidor | Decisões financeiras operacionais (budget de squad, approval de contrato) chegando a você |
+
+**O que "iniciar transição" significa na prática.** Não é demissão do papel próprio — é contratação com mandato claro, onboarding deliberado (3-6 meses trabalhando junto), e transferência progressiva de decisões com prazo definido. Erro clássico: contratar VP de Vendas e continuar fechando todos os deals por 12 meses. A pessoa não aprende, não tem confiança, e sai. A transição real exige que o fundador deliberadamente passe para o banco e deixe a contratação errar e aprender.
+
+**O papel que o fundador nunca delega completamente.** Cultura (comportamentos não-negociáveis), contratações C-level, cap table e decisões estruturais de equity, estratégia de longo prazo e pivôs, e o "why" da empresa. Esses permanecem com o fundador porque são ao mesmo tempo o que ninguém mais tem o contexto para decidir e o que define a identidade da empresa.
+
+> [!important] Teste da delegação real
+> Se você está de férias por duas semanas e uma decisão importante em sua área "transitada" precisa voltar para você, a transição não aconteceu — você criou um teatro de delegação. Delegação real é quando a pessoa contratada toma decisões que você discordaria em alguns casos, e você aceita isso como parte do processo de construir liderança.
+
 ---
 
 ### Transição, Parte II para Parte III

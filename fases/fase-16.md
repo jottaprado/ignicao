@@ -133,6 +133,41 @@ Purchase price. Valor total, e forma (cash, equity, seller note, earnout).
 
 Earnout. Parcela do preço condicionada a performance futura (tipicamente quinze a trinta e cinco por cento do total, pagos em um a três anos). Cuidado: earnouts frequentemente não são pagos integralmente.
 
+###### Earnout em profundidade — mecânica, negociação e armadilhas
+
+O earnout é o mecanismo mais frequentemente mal compreendido em M&A. Fundadores aceitam a estrutura pensando que vão receber o valor total se "continuarem fazendo o que fazem". Na prática, a maioria dos earnouts é parcialmente ou totalmente não pago — não por má-fé, mas por mudanças operacionais pós-aquisição que tornam as métricas impossíveis de atingir.
+
+**Como earnout é estruturado na prática.**
+
+Valor total do deal: R$ 100M. Estrutura típica: R$ 65M no closing (upfront) + R$ 35M em earnout.
+
+O earnout de R$ 35M é dividido em janelas anuais: R$ 12M se atingir meta no Ano 1, R$ 12M no Ano 2, R$ 11M no Ano 3. Cada janela tem métrica-gatilho (receita, EBITDA, churn, usuários ativos, ou combinação).
+
+**Os quatro tipos de métrica de earnout e seus riscos.**
+
+*Receita total*: mais simples, mas facilmente manipulável pelo adquirente — pode alocar receita de produtos do adquirente que usam sua plataforma em linhas contábeis diferentes. Exija definição de receita atribuída à unidade adquirida especificamente.
+
+*EBITDA*: perigoso para o fundador. O adquirente pode alocar custos corporativos (overhead de escritório, software, serviços compartilhados) para a unidade adquirida, reduzindo o EBITDA abaixo do threshold. Exija capped corporate allocations com valor máximo definido no SPA.
+
+*Crescimento de receita*: relativo — percentual de crescimento sobre base. Problema: se o adquirente migra clientes da unidade adquirida para outros produtos da holding, a base diminui e o crescimento percentual fica impossível de atingir. Exija anti-dilution covenant que impede migração de clientes sem compensação.
+
+*Métricas operacionais (usuários, ativação, NPS)*: mais defensável para o fundador porque dependem menos de alocação contábil do adquirente. Mas exigem definição precisa de como cada métrica é calculada — pré-definir no contrato, não deixar para o adquirente definir depois.
+
+**Negociação de earnout — cinco cláusulas que protegem o fundador.**
+
+1. *Autonomia operacional mínima*: o fundador mantém controle sobre headcount, produto, e go-to-market por período definido (12-18 meses). Sem isso, o adquirente pode mudar tudo e depois argumentar que "as metas não foram atingidas por má gestão" — sua culpa, não deles.
+
+2. *Anti-sandbagging na métrica*: se o adquirente tomar ação que torne a métrica impossível de atingir (exemplo: desligar canal de vendas que gerava 40% da receita), o earnout é pago integralmente ou proporcionalmente compensado.
+
+3. *Aceleração em change of control*: se o adquirente for adquirido por terceiro antes do earnout terminar, o saldo restante é pago integralmente no closing do deal seguinte.
+
+4. *Dispute resolution mechanism*: se houver divergência sobre o cálculo da métrica, qual é o processo de resolução? Árbitro independente, big four auditora, ou mecanismo específico acordado. Sem isso, o processo judicial dura anos.
+
+5. *Earnout não como incentivo — como deferred price*: no SPA, descreva o earnout como "parcela diferida do preço de compra sujeita a condições", não como "bônus de performance". Isso muda a interpretação fiscal e pode reduzir o imposto pago quando recebido.
+
+> [!warning] A estatística que fundadores ignoram
+> Estudos de M&A (Cass Business School, Harvard) mostram que 40-60% dos earnouts não são pagos integralmente. A razão mais comum: integração pós-aquisição cria mudanças que o fundador não antecipou e que as cláusulas do SPA não protegiam. Regra prática: negocie como se o earnout não vai ser pago. O upfront deve ser suficiente para você considerar o deal justo mesmo sem o earnout. Se não for, negocie mais upfront — não mais earnout.
+
 Lock-up. Fundadores ficam X meses, ou anos, pós-closing. Típico: dezoito a trinta e seis meses, com retention bonus.
 
 Non-compete. Fundadores não podem competir por X anos em Y mercados.

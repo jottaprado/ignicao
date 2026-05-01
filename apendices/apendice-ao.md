@@ -188,6 +188,42 @@ Em empresa Série A a B, centralized é mais pragmático. Hub-and-spoke vira sen
 
 Temas que aparecem em escala (Série B em diante). Data catalog, documentação de tabelas, colunas, e significados. Data lineage, rastreabilidade de onde vem cada número. Data quality, testes automatizados (dbt tests), e alertas para anomalias. Privacy e LGPD, quem pode acessar o quê, pseudonimização, e direito de esquecimento. SLA de dados, quando dashboards atualizam, e quem responde por atraso.
 
+#### 7. Data Mesh — arquitetura distribuída para escala
+
+À medida que a empresa cresce além de 200-500 pessoas, o Modern Data Stack centralizado começa a virar gargalo. Um time central de dados não consegue atender a demanda de 15 squads de produto, 3 times de growth e finance simultaneamente, a qualidade degrada, e o time de dados vira "equipe de relatórios" sem tempo para trabalho de alto valor.
+
+Data Mesh, proposto por Zhamak Dehghani em 2020 no artigo "How to Move Beyond a Monolithic Data Lake to a Distributed Data Mesh", é a resposta arquitetural. Quatro princípios centrais.
+
+*Domain-oriented decentralized data ownership*: cada domínio de negócio (produto, growth, finance, operações) é dono dos seus dados — produz, mantém e disponibiliza dados com qualidade para o resto da organização. Time de produto é dono dos dados de comportamento de usuário. Time de finance é dono dos dados de cobrança e receita. O time central de dados para de ser "dono de todos os dados" e vira plataforma habilitante.
+
+*Data as a product*: cada domínio trata seus dados como produto com SLA, documentação, e usuários. Um "data product" tem: definição clara de schema, SLA de atualização, testes de qualidade automatizados, documentação de uso, e dono identificado. Isso elimina o problema de "quem mantém essa tabela?" que corrompe data warehouses centralizados em escala.
+
+*Self-serve data infrastructure*: a plataforma central (geralmente time de Data Platform ou Data Engineering) constrói infraestrutura que permite qualquer domínio produzir e consumir data products sem depender de time central para cada pipeline. Isso inclui: templates de pipeline, catálogo de dados, ferramentas de descoberta, padrões de qualidade e acesso self-service.
+
+*Federated computational governance*: regras globais (LGPD, padrões de PII, definições corporativas de métricas como NRR) são definidas centralmente, mas a execução é distribuída. Cada domínio implementa a governança dentro de suas fronteiras, não espera que um time central aplique.
+
+Quando Data Mesh faz sentido. Empresa com mais de 150-200 pessoas em produto/data. Múltiplos domínios com dados independentes. Time central de dados sendo gargalo crônico. Time de dados dedicado para construir infraestrutura de plataforma (mínimo 3-5 pessoas de Data Platform).
+
+Quando ainda não faz sentido. Empresa abaixo de Série C. Time de dados menor que 8-10 pessoas. Complexidade de coordenação do Data Mesh supera o benefício antes dessa escala.
+
+#### 8. Privacy-first tracking pós-cookies
+
+A depreciação de third-party cookies (Chrome concluiu em 2024), o aumento de bloqueadores de anúncios (40-60% de usuários técnicos), e o enforcement crescente da LGPD tornaram o modelo tradicional de tracking de marketing (pixel de Facebook, Google Analytics com cookies de terceiros) parcialmente obsoleto para empresas que precisam de dados confiáveis.
+
+**Quatro camadas da estratégia privacy-first.**
+
+*First-party data como fundação*: dados coletados diretamente dos seus usuários, com consentimento explícito, são imunes a bloqueadores e à depreciação de cookies. Isso inclui: dados de comportamento no produto (eventos internos), dados de CRM (email, histórico de compra), e dados de formulários. A empresa que tem first-party data rico não depende de plataformas externas para entender seus usuários.
+
+*Server-side tracking*: em vez de disparar pixels do browser do usuário (que bloqueadores interceptam), o servidor da sua aplicação envia eventos diretamente para os destinos (GA4, Meta Conversion API, Segment). Benefícios: não é bloqueável por ad blockers, dados mais precisos, maior controle sobre o que é enviado. Ferramentas: Segment (server-side), Rudderstack (open source), ou implementação própria com webhook + destinos.
+
+*Consent Management Platform (CMP)*: conformidade com LGPD exige consentimento explícito antes de tracking. CMP gerencia o consentimento do usuário, armazena a prova de consentimento, e respeita opt-outs. Ferramentas: Cookiebot, OneTrust, usercentrics. Implicação: uma parcela de usuários vai recusar cookies — a empresa precisa de modelo de mensuração que funcione sem consentimento de 100% dos usuários.
+
+*Modelagem de dados e mensuração probabilística*: quando tracking individual não é possível (sem cookies, sem consentimento), usar modelos estatísticos para estimar conversão e atribuição. Google Consent Mode v2 usa modelagem para preencher gaps de consentimento. Meta Conversion API com event matching usa first-party data para atribuir conversões mesmo sem pixel.
+
+**O que muda no stack de analytics.** GA4 com Consent Mode v2 (obrigatório para empresas que usam Google Ads na Europa). Segment ou Rudderstack como Customer Data Platform (CDP) com server-side tracking. CRM como fonte de verdade de first-party data. Métricas de marketing baseadas em MMM (Media Mix Modeling) ou incrementalidade, não em atribuição last-click.
+
+Custo de implementação. CMP: R$ 2-8k/mês. CDP com server-side: R$ 3-15k/mês (Segment) ou zero (Rudderstack self-hosted). Mudança de stack de analytics: 2-4 semanas de engineering. O benefício: dados de conversão 20-40% mais completos do que tracking client-side em audiência técnica, e conformidade com LGPD.
+
 ### Métricas
 
 Tempo médio para responder pergunta de dados simples. Menos de um dia.

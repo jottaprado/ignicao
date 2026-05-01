@@ -30,7 +30,7 @@ O que está aqui:
 - **17 fases** com método, métricas e armadilhas para cada momento da jornada
 - **91 apêndices** temáticos: captação, LGPD, layoffs, exit, deep tech, healthtech, agritech e mais
 - **58 diagramas** Mermaid — renderizam direto no GitHub
-- **156 frameworks** contextualizados: de Porter e JTBD a CAC/LTV e unit economics
+- **165 frameworks** contextualizados: de Porter e JTBD a CAC/LTV e unit economics
 - **Casos brasileiros** com análise honesta: Nubank, iFood, Stone, Hotmart, Natura, Magazine Luiza, Wildlife, Peixe Urbano, 99, Loggi, Olist e outros
 - **Glossário** com 91 termos técnicos definidos em português
 - **Catálogo de métricas** por fase, com benchmarks calibrados para o Brasil
@@ -124,6 +124,11 @@ Você quer sair                 → Fase 16 + Apêndice BR
 | [AJ](apendices/apendice-aj.md) | Dinheiro pessoal do fundador durante a empresa |
 | [W](apendices/apendice-w.md) | Contabilidade e tributário brasileiro para startups |
 | [AT](apendices/apendice-at.md) | Gestão de caixa e sobrevivência em crise |
+| [DD](apendices/apendice-dd.md) | Investor relations pós-rodada: updates, board e pedidos de ajuda |
+| [DE](apendices/apendice-de.md) | IPO no Brasil: quando, como e o que muda (B3, Novo Mercado, CVM) |
+| [DF](apendices/apendice-df.md) | Instrumentos de captação: SAFE, nota conversível e mútuo conversível |
+| [DG](apendices/apendice-dg.md) | Tributação do exit para fundadores brasileiros: ganho de capital, holding e offshore |
+| [DH](apendices/apendice-dh.md) | Mercado secundário e liquidez antecipada para founders e early employees |
 
 </details>
 
@@ -163,6 +168,10 @@ Você quer sair                 → Fase 16 + Apêndice BR
 | [T](apendices/apendice-t.md) | LGPD e proteção de dados |
 | [AW](apendices/apendice-aw.md) | Regulatório setorial: fintech, healthtech, agritech |
 | [BS](apendices/apendice-bs.md) | Expansão para os EUA: visto EB-1, O-1 e estrutura |
+| [DA](apendices/apendice-da.md) | Marco Legal das Startups: LC 182/2021, COCP, ARE e dispensa de licitação |
+| [DB](apendices/apendice-db.md) | Stock options e ESOP no Brasil: instrumentos, tributação, vesting e gestão do cap table |
+| [DC](apendices/apendice-dc.md) | Propriedade Intelectual e INPI: marcas, patentes, segredo industrial e IP assignment |
+| [DJ](apendices/apendice-dj.md) | Não-concorrência e não-solicitação no Brasil: validade, estrutura e M&A |
 
 </details>
 
@@ -175,6 +184,7 @@ Você quer sair                 → Fase 16 + Apêndice BR
 | [BR](apendices/apendice-br.md) | Sucessão no exit e transição pós-aquisição |
 | [BI](apendices/apendice-bi.md) | Empresa familiar e sucessão |
 | [BF](apendices/apendice-bf.md) | Second-time founder |
+| [DI](apendices/apendice-di.md) | Retenção de talentos após M&A: o que muda e o que se perde |
 
 </details>
 
@@ -187,6 +197,13 @@ Você quer sair                 → Fase 16 + Apêndice BR
 | [CM](apendices/apendice-cm.md) | Biotech e healthtech: regulação e capital |
 | [Z](apendices/apendice-z.md) | AI como parte do produto (AI-native) |
 | [CJ](apendices/apendice-cj.md) | Tokenização e blockchain |
+| [DK](apendices/apendice-dk.md) | Govtech: startup vendendo para governo — licitação, dispensa, ARE e pipeline público |
+| [DL](apendices/apendice-dl.md) | Agritech: playbook para o campo brasileiro — canais, sazonalidade, regulatório e funding |
+| [DM](apendices/apendice-dm.md) | Edtech: B2C, B2B e B2G — unit economics, regulação MEC e sazonalidade |
+| [DN](apendices/apendice-dn.md) | Cleantech e ESG: energia renovável, créditos de carbono e fundos de impacto |
+| [DO](apendices/apendice-do.md) | Proptech: CRECI, SPE, CRI/FII e jornada de compra de imóvel no Brasil |
+| [DP](apendices/apendice-dp.md) | Legaltech: OAB, risco regulatório e modelos de negócio jurídico |
+| [DQ](apendices/apendice-dq.md) | Logtech: custo logístico, last mile, marketplace de frete e cadeia de supply chain |
 
 </details>
 
@@ -196,10 +213,10 @@ Você quer sair                 → Fase 16 + Apêndice BR
 | Recurso | Descrição |
 |---|---|
 | [Catálogo de Métricas](apendices/apendice-c.md) | Métricas e benchmarks para todas as 17 fases |
-| [Ferramentário](apendices/apendice-bg.md) | 156 frameworks com como aplicar e erros comuns |
+| [Ferramentário](apendices/apendice-bg.md) | 165 frameworks com como aplicar e erros comuns |
 | [Glossário](apendices/apendice-glossario.md) | 91 termos técnicos em português (A–Z) |
-| [Templates](apendices/apendice-a.md) | DII, pitch, OKR, 5 templates de discovery (entrevista, especialista, advisor, switch, consolidação) e outros |
-| [Canvases e Mapas Visuais](apendices/apendice-cz.md) | 16 canvases com teoria, exemplo brasileiro e armadilhas: BMC, Lean, VPC, Strategy Canvas (Blue Ocean), Empathy Map, Test Card, Pirate (AARRR) e outros |
+| [Templates](apendices/apendice-a.md) | DII, pitch, OKR, 5 templates de discovery, board deck (A.31), data room (A.32), term sheet anotado (A.33), JDs (A.34), post-mortem técnico (A.35), OKR cascade (A.36), fundraising plan (A.37), 1:1 (A.38) e outros |
+| [Canvases e Mapas Visuais](apendices/apendice-cz.md) | 20 canvases com teoria, exemplo brasileiro e armadilhas: BMC, Lean, VPC, Strategy Canvas, Empathy Map, Test Card, Pirate (AARRR), Storytelling + SCQA + Strategic Narrative, Capital Stack/Waterfall, Network Effects Map, Org Chart Evolution, Wardley Map e outros |
 | [Checklist por Fase](apendices/apendice-b.md) | Sinais de saída e committed next move |
 | [Casos de Fracasso BR](apendices/apendice-ai.md) | 7 padrões arquetípicos com casos reais |
 | [Post-mortems BR](apendices/apendice-bh.md) | 12 casos em profundidade com diagnóstico |

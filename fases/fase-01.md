@@ -156,6 +156,25 @@ A pergunta útil nesse método: *qual vertical é muito sensível à capacidade 
 
 A armadilha desse método é FOMO tecnológico. Decidir fazer "algo com IA" sem problema claro, sem cliente claro, sem diferencial claro, apenas porque IA está quente. Isso produz projetos genéricos que morrem rapidamente. A tecnologia é meio, não fim. Use a onda como lente para descobrir onde a combinação tecnologia nova mais vertical mal atendida mais contexto brasileiro específico cria oportunidade. Ignore a tentação de "startup de IA" genérica.
 
+**Template S-curve para avaliar posição na onda tecnológica.**
+
+Antes de apostar em uma tecnologia, responda as cinco perguntas abaixo. A pontuação orienta se é cedo demais, no ponto, ou tarde.
+
+| Pergunta | 1 ponto | 3 pontos | 5 pontos |
+|---|---|---|---|
+| Maturidade técnica: o que está no estado da arte hoje? | Prova de conceito em lab | Produto funcional mas caro/limitado | Produto funcional e custo viável para empresa |
+| Adoção no mercado global: quantas empresas sérias usam em produção? | Menos de 100 | 100-10.000 | Mais de 10.000 |
+| Adoção no Brasil: startups brasileiras já estão usando? | Nenhuma relevante | Algumas early adopters | Adoção mainstream começa |
+| Infraestrutura de suporte: existe ecossistema (tools, devs, APIs)? | Inexistente — você constrói tudo do zero | Emergindo — ferramentas beta, poucos devs | Maduro — docs completos, mercado de talentos |
+| Janela competitiva: quantos outros estão fazendo o mesmo? | Mercado vazio — pode ser cedo demais | Poucos competidores sérios | Competição intensa — pode ser tarde |
+
+**Interpretação da pontuação total (5 a 25 pontos):**
+
+- 5 a 10: tecnologia em Genesis/Custom (Wardley). Oportunidade de pesquisa, não de startup — exceto se você tem vantagem técnica única.
+- 11 a 17: zona ideal de entrada. Tecnologia funcional mas mercado ainda em formação. Alta incerteza + alta recompensa potencial.
+- 18 a 22: boa oportunidade mas janela fechando. Diferenciação precisa ser em execução, distribuição ou nicho específico.
+- 23 a 25: mercado em commoditização. Difícil de diferenciar pela tecnologia — vencer exige distribuição ou capital.
+
 #### 6. Wedge theory, começar pelo micro-segmento
 
 Mesmo quando você tem intuição grande ("quero reinventar educação no Brasil"), o começo real é pequeno. A wedge, ou cunha, é o ponto específico pelo qual você entra no mercado. Não "estudantes brasileiros" (genérico, impossível de atender), mas "estudantes de engenharia do último ano de universidades federais que vão prestar concurso para Petrobras" (específico, endereçável, com dor identificável).

@@ -49,6 +49,24 @@ Pós-PMF. Começar. Os primeiros seis meses, sem retorno visível. Os meses doze
 > [!important] Regra de expectativa em SEO
 > Espere ver ROI em doze a dezoito meses. Não em três. Quem desiste em seis meses, abandona o trabalho exatamente quando ele começa a render.
 
+**8. SEO Programático e Content Ops.**
+
+**SEO programático** é a criação de páginas em escala usando templates + dados estruturados. Em vez de escrever cada artigo manualmente, você define um template e um banco de dados, e gera centenas ou milhares de páginas automaticamente. Funciona quando há variação sistemática com demanda de busca real: localizações geográficas ("advogado trabalhista em [cidade]"), categorias de produto ("seguro de vida para [profissão]"), comparações ("[ferramenta A] vs [ferramenta B]"), e combinações de JTBD + segmento.
+
+*Casos brasileiros*: Nubank criou páginas para cada tipo de cartão × perfil de renda × cidade. Imovelweb e ZAP têm páginas para cada combinação de bairro + tipo de imóvel + faixa de preço. Trivago gera automaticamente páginas de "hotéis em [cidade]" com dados de disponibilidade. A estrutura típica: banco de dados (Airtable, CSV, ou CMS headless) + template de página (Webflow, Next.js, ou CMS) + estrutura de URL semântica (/categoria/subcategoria/variante).
+
+*Armadilhas do SEO programático*: (1) conteúdo thin sem substância real, que o Google penaliza como "páginas porta" (doorway pages), (2) canonicalização incorreta gerando conteúdo duplicado, (3) escalar antes de validar que o template funciona — criar 10.000 páginas de baixa qualidade que nunca ranqueiam desperdiça crawl budget. A regra: se a página não tem informação genuinamente útil para o usuário específico da busca, não crie.
+
+**Content Ops** é a infraestrutura operacional que permite produzir conteúdo em qualidade e volume consistentes. Os três componentes centrais.
+
+*Workflow editorial*: do briefing à publicação, quem faz o quê e quando. Padrão: briefing (estrategista de SEO, 2h) → pesquisa + outline (writer, 2h) → rascunho (writer, 4-6h) → revisão editorial (editor, 1h) → SEO review (SEO lead, 30min) → aprovação (1 revisor designado, 30min) → publicação + distribuição (ops, 30min). Sem workflow escrito, cada peça tem processo diferente, qualidade inconsistente.
+
+*Content calendar*: visibilidade de 4-8 semanas do que está em produção. Inclui: keyword alvo, intent (informacional/comercial), autor, deadline de cada etapa, status atual. Ferramentas: Airtable, Notion, CoSchedule.
+
+*QA editorial*: checklist antes de publicar. Keyword aparece no título, no primeiro parágrafo, em ao menos um H2, e na meta description? O conteúdo é substancialmente melhor do que o resultado atual no top-3 para aquela keyword? Há internal links para 2+ páginas relevantes? Alt text nas imagens? Schema markup (FAQ, Article, HowTo) onde aplicável?
+
+Investimento em SEO programático: desenvolvimento inicial de template (R$ 20-60k) + banco de dados + manutenção. ROI em escala quando há mais de 100 variantes com volume de busca real. Content Ops: editor sênior (R$ 10-20k/mês) + SEO lead (R$ 12-25k/mês) + ferramentas de gestão (R$ 2-5k/mês).
+
 ### Armadilhas
 
 Impaciência. Parar em seis meses, achando que "não funciona". SEO é maratona.

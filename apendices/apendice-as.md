@@ -46,6 +46,30 @@ ICP que tem afinidade entre si. Profissionais de mesma função. Executivos de s
 
 **5. Métricas.** Active members (posting, ou responding, não só joined). Mais de dez por cento do total é bom. Response rate a perguntas. Mais de setenta por cento em menos de vinte e quatro horas. Sentiment. Positivo dominante. Referrals to product. Quantos novos clientes vêm indicados por membros. Churn de membros ativos. Baixo.
 
+### Community-Led Growth, comunidade como motor de aquisição e retenção
+
+Community-Led Growth (CLG) é o modelo onde a comunidade de usuários se torna o principal driver de aquisição e retenção, criando um flywheel entre produto, comunidade e crescimento. Difere de community building como suporte ou advocacy: em CLG, a comunidade é a estratégia de crescimento primária, não um projeto paralelo.
+
+**A lógica do flywheel.** Produto gera valor → usuários formam comunidade em torno desse valor → comunidade atrai novos usuários (aquisição orgânica) → comunidade acelera adoção e reduz churn (retenção) → crescimento financeia produto melhor → produto gera mais valor. Em cada volta do loop, o CAC cai e o LTV cresce.
+
+**Casos brasileiros.** RD Station construiu RD Community como motor de educação e aquisição: +50 mil membros geraram leads orgânicos com CAC de fracao do custo de outbound. Hotmart Academy e Hotmart Club criaram comunidade de criadores que evangeliza o produto horizontalmente. Resultados: co-marketing entre criadores, casos de uso orgânicos, e defensores ativos contra competidores.
+
+**Os cinco mecanismos de CLG.**
+
+*Conteúdo gerado pela comunidade (UGC) como SEO*: respostas a perguntas técnicas, casos de uso, e discussões em fóruns públicos da comunidade geram conteúdo indexável. Stackoverflow e Reddit dominam buscas técnicas porque comunidade responde perguntas que nenhuma empresa criaria manualmente. Para produto B2B, fórum público indexável é ativo de SEO de longo prazo.
+
+*Peer-to-peer onboarding*: membros experientes onboardam novos membros mais efetivamente do que documentação ou CS — pela linguagem, pelos casos de uso específicos, e pela credibilidade peer. Reduz time-to-value e custo de onboarding.
+
+*Social proof em escala*: tamanho e saúde da comunidade são sinais de confiança para prospects. "10.000 profissionais de RH usam esta ferramenta" convertido em comunidade ativa é mais persuasivo do que testimonial de clientes no site.
+
+*Feedback de produto estruturado*: comunidade como canal privilegiado de product discovery — não apenas "o que você quer?" mas análise de padrões em milhares de conversas. Empresas com comunidade saudável sabem de problemas de produto meses antes de aparecerem em NPS.
+
+*Referrals orgânicos*: membros engajados recomendam naturalmente — não porque há programa de referral, mas porque pertencer à comunidade é parte da identidade profissional. Em comunidades B2B, a pergunta "qual ferramenta você usa?" em LinkedIn e grupos de setor é o canal de referral mais eficaz.
+
+**Pré-condições para CLG funcionar.** Produto com valor real (sem isso, comunidade não forma ou é negativa). ICP com identidade profissional forte (community de designers, de engenheiros, de contadores — não de "usuários de software genérico"). Base instalada suficiente (mínimo 200-500 usuários ativos antes de investir em comunidade). Willingness da empresa de abrir parte do produto ou conteúdo como commons.
+
+**Métricas específicas de CLG.** Percentual de novos usuários referidos por membros da comunidade. CAC de usuários vindos via comunidade vs. outros canais. Churn rate de membros ativos da comunidade vs. não-membros. Net Promoter Score da comunidade. Contribuições de conteúdo por membro (UGC rate).
+
 ### Armadilhas
 
 > [!warning] Começar cedo demais

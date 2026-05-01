@@ -179,6 +179,22 @@ JTBD ([[#FASE 4 — PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY APROFUNDADO)|Fase
 
 Aplicação em roadmap. Features que reforçam pull forces do job principal valem mais do que features random. Mesmo que populares.
 
+#### 7. Shape Up (Ryan Singer / Basecamp, 2019)
+
+Shape Up é a metodologia de desenvolvimento de produto criada por Ryan Singer na Basecamp, publicada como livro gratuito em 2019. Nasceu da insatisfação com Scrum e sprints de duas semanas em produto maduro: o ritmo constante de sprints cria pressão para "estar ocupado" em vez de entregar valor real, e features complexas ficam artificialmente cortadas para "caber no sprint". Shape Up opera em ciclos de seis semanas com três princípios centrais.
+
+**Appetite em vez de estimativa.** Antes de começar qualquer trabalho, o time decide *quanto tempo está disposto a gastar* no problema — não quanto tempo vai demorar. Appetite de duas semanas significa: "se não resolvermos em duas semanas, não vale a pena." Isso força priorização real em vez de refinamento infinito de escopo.
+
+**Shaping antes de executar.** Antes de entrar em ciclo, o problema é "moldado" em alto nível: problema definido, abordagem em esboço (fat marker sketch), elementos fora do escopo explicitados, riscos técnicos identificados. O pitch moldado vai para o betting table, não para o backlog. Backlog não existe no Shape Up — itens que ninguém aposta em ciclo após ciclo são descartados.
+
+**Betting table e autonomia total.** A cada ciclo, líderes apostam em pitches. Time que "ganhou" a aposta tem seis semanas de autonomia total para executar — sem interrupcões, sem reuniões de status, sem mudança de escopo. Se não entregou em seis semanas, o projeto é cancelado (circuit breaker), não "carregado" para o próximo ciclo. A pressão é real, mas o tempo também é real.
+
+Quando Shape Up faz sentido. Em produto maduro com mais de dois anos, com time estável de oito ou mais pessoas. Quando sprints de duas semanas estão produzindo "busyness" sem entregas de impacto. Quando features complexas estão sendo artificialmente quebradas sem coerência. Quando há frustração com backlog que cresce infinitamente sem priorização real.
+
+Quando Shape Up *não* faz sentido. Em pré-PMF, onde o ciclo de aprendizado precisa ser mais rápido do que seis semanas. Em ambientes fortemente regulados onde mudanças precisam de aprovação formal em cada iteração. Em times menores que quatro pessoas onde o overhead de shaping não justifica.
+
+Tensão com Scrum e Kanban. Shape Up não é substituto de Scrum para times que já têm boa higiene de processo. É alternativa para contextos onde Scrum virou ritual sem substância. Muitas empresas adotam Shape Up para iniciativas estratégicas maiores e mantêm Scrum para manutenção e bugs.
+
 ### Métricas
 
 **Descoberta e validação.** Interviews por semana, ou mês, por squad. Opportunities na árvore (status: exploração, validação, ou endereçada). Experiments rodados por trimestre.

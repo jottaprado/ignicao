@@ -2239,3 +2239,758 @@ A.30 é o entregável da [[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]] que suste
 *Consolidado por `[Nomes]` em `[DD/MM/AAAA]`. Versão `[1.0]`.*
 
 ---
+
+### A.31 Board Deck (Apresentação para o Conselho)
+
+> [!note] Quando usar
+> Reunião trimestral ou mensal de board. Contexto: fundador apresentando para conselheiros e investidores com assento. Não é pitch — o board já acredita na empresa. É atualização operacional com decisões reais na mesa.
+
+> [!tip] Regra de ouro
+> Board deck não é documento de relações públicas. Problemas escondidos viram surpresas ruins seis meses depois. Mostre o que está indo mal com a mesma clareza do que está indo bem.
+
+#### Estrutura-padrão (12–18 slides / ~60 min de reunião)
+
+**Capa**
+
+- Nome da empresa · Data · Período de referência (ex: Q2 2026)
+- Confidencial — não circular
+
+**1. Headline do trimestre (1 slide)**
+
+- Uma frase: o que mais importou neste trimestre
+- 3 bullets: maior vitória, maior aprendizado, decisão crítica a tomar hoje
+
+**2. Métricas-chave (1–2 slides)**
+
+| Métrica | Meta Q[N] | Real Q[N] | Δ% | Tendência |
+|---|---|---|---|---|
+| MRR / ARR | `[R$ ___]` | `[R$ ___]` | `[___]%` | `[↑ / → / ↓]` |
+| Clientes ativos | `[___]` | `[___]` | `[___]%` | `[↑ / → / ↓]` |
+| Churn (MoM) | `[___]%` | `[___]%` | `[___]pp` | `[↑ / → / ↓]` |
+| CAC | `[R$ ___]` | `[R$ ___]` | `[___]%` | `[↑ / → / ↓]` |
+| LTV / CAC | `[___x]` | `[___x]` | `[___]` | `[↑ / → / ↓]` |
+| Burn rate (MoM) | `[R$ ___]` | `[R$ ___]` | `[___]%` | `[↑ / → / ↓]` |
+| Runway | `[___ meses]` | `[___ meses]` | — | `[↑ / → / ↓]` |
+
+> Inclua apenas as métricas relevantes para o estágio. Pre-PMF: ativação e retenção. Pós-PMF: crescimento e eficiência. Escala: eficiência e margem.
+
+**3. Financeiro (1–2 slides)**
+
+- P&L simplificado: receita, COGS, gross margin, opex, EBITDA (ou queima)
+- Cashflow: saldo inicial, entradas, saídas, saldo final
+- Projeção para os próximos 3 meses vs. orçamento
+- Variações relevantes: o que saiu fora do plano e por quê
+
+**4. Produto e tecnologia (1 slide)**
+
+- O que foi entregue no trimestre (top 3 itens)
+- O que está em construção agora (com ETA)
+- Dívida técnica ou incidentes relevantes: `[descrição + status de resolução]`
+
+**5. Time (1 slide)**
+
+- Headcount: início do trimestre vs. final vs. plano
+- Contratações críticas abertas: `[cargo] — prioridade [alta/média]`
+- Saídas relevantes e impacto
+- Nível de engajamento / resultado de pesquisa interna (se houver)
+
+**6. GTM e clientes (1–2 slides)**
+
+- Pipeline: `[R$ ___]` (top of funnel) → `[R$ ___]` (forecast 90d)
+- Deals fechados no trimestre: destaque para logo / tamanho / vertical
+- Churn e downgrade: causas, padrão, ação
+- NPS ou CSAT: `[___]` (vs. último período: `[___]`)
+
+**7. Roadblocks e riscos (1 slide)**
+
+> [!warning] Este slide é o mais importante
+> Liste os 3–5 problemas reais que impedem crescimento. Para cada um: causa-raiz, o que já foi tentado, o que você precisa do board.
+
+| Risco / problema | Probabilidade | Impacto | Mitigação atual | Ajuda necessária do board |
+|---|---|---|---|---|
+| `[Descrever]` | `[Alta/Média/Baixa]` | `[Alto/Médio/Baixo]` | `[Ação em curso]` | `[Sim/Não — o quê]` |
+
+**8. Decisões para o board (1 slide)**
+
+> Itens que requerem aprovação formal ou input estratégico dos conselheiros. Não é espaço para validação — é espaço para decidir.
+
+- [ ] `[Decisão 1]`: proposta do management → `[___]` · Opções: `[A / B / C]`
+- [ ] `[Decisão 2]`: proposta do management → `[___]` · Opções: `[A / B]`
+
+**9. Próximo trimestre (1 slide)**
+
+- Top 3 prioridades com responsável e métrica de sucesso
+- OKRs ou metas do período
+- Eventos críticos: captação, lançamento, evento regulatório, renovação de contrato
+
+**10. Apêndices (opcional)**
+
+- Detalhes de cohort, unit economics, pipeline por vertical, forecast detalhado
+- Não ler na reunião — existem para perguntas
+
+#### Dicas de facilitação
+
+- Envie o deck **72h antes** da reunião para os conselheiros lerem
+- Reserve os primeiros 10 min para perguntas sobre o material, não para apresentar
+- Para cada decisão do slide 8, proponha uma recomendação clara — board que "só escuta" não ajuda
+- Documente as decisões tomadas no board memo (preencher após a reunião)
+
+---
+
+### A.32 Data Room — Checklist de Due Diligence
+
+> [!note] Quando usar
+> Ao preparar captação de rodada (Seed, Série A em diante) ou processo de M&A. O data room organiza os documentos que um investidor ou adquirente vai solicitar durante a due diligence. Monte antes de iniciar o processo — improvisação no meio da DD sinaliza desorganização.
+
+> [!tip] Ferramentas
+> Notion, Google Drive com permissões por pasta, Capshare, Datasite ou DocSend para controle de acesso e analytics de visualização.
+
+#### Seção 1 — Empresa e societário
+
+- [ ] Contrato social / estatuto social (versão vigente consolidada)
+- [ ] Atas de assembleias e reuniões de sócios (últimos 3 anos)
+- [ ] Cap table atual: percentuais, classes de ações, opções outorgadas e em aberto
+- [ ] Acordos de sócios e shareholders agreements
+- [ ] Certidões negativas: Receita Federal, PGFN, FGTS, Trabalhista (CNDT), Estadual, Municipal
+- [ ] Histórico de alterações societárias (entradas, saídas, fusões)
+- [ ] Estrutura holding / subsidiárias (se houver): organograma societário
+
+#### Seção 2 — Financeiro
+
+- [ ] DRE dos últimos 24–36 meses (auditada ou revisada se disponível)
+- [ ] Balanço patrimonial dos últimos 24–36 meses
+- [ ] Cashflow statement dos últimos 12 meses
+- [ ] Projeções financeiras para 24–36 meses (com premissas explícitas)
+- [ ] Modelo financeiro com unit economics: CAC, LTV, payback, gross margin, burn
+- [ ] Extrato bancário dos últimos 6 meses
+- [ ] Lista de dívidas ativas: banco, montante, vencimento, garantias
+- [ ] Contratos de venture debt ou RBF ativos (se houver)
+- [ ] Nota fiscal de emissão e conciliação de receita (últimos 12 meses)
+
+#### Seção 3 — Clientes e receita
+
+- [ ] Lista dos top 20 clientes: nome, MRR/ARR, data de início, status de renovação
+- [ ] Contratos dos top 10 clientes (MSA, SOW ou equivalente)
+- [ ] Histórico de churn: clientes perdidos nos últimos 12 meses e razão
+- [ ] Análise de cohort de retenção (mínimo 12 meses)
+- [ ] Pipeline de vendas atual: CRM export ou planilha com stage, valor, responsável
+- [ ] NPS ou CSAT score e metodologia de coleta
+
+#### Seção 4 — Produto e tecnologia
+
+- [ ] Descrição da arquitetura técnica (diagrama de sistemas)
+- [ ] Inventário de infra: cloud provider, custos mensais, SLAs
+- [ ] Política de segurança da informação e relatório de pentest (se houver)
+- [ ] Histórico de incidentes de segurança ou downtime relevante
+- [ ] Stack tecnológico: linguagens, frameworks, dependências críticas
+- [ ] Dívida técnica conhecida: lista priorizada
+
+#### Seção 5 — Propriedade Intelectual
+
+- [ ] Registro de marcas: número de processo, status, classes (INPI ou equivalente internacional)
+- [ ] Patentes: número, status, jurisdição (se aplicável)
+- [ ] Contratos de cessão de IP com fundadores e funcionários-chave
+- [ ] Contratos de confidencialidade (NDAs) com ex-funcionários relevantes
+- [ ] Licenças de software de terceiros usadas no produto
+- [ ] Domínios registrados e DNS
+
+#### Seção 6 — Time e RH
+
+- [ ] Organograma atual
+- [ ] Contratos de trabalho / prestação de serviço dos C-levels e tech leads
+- [ ] Plano de ESOP/stock options: pool total, outorgado, vesting schedule, good/bad leaver
+- [ ] Política de remuneração: faixas por nível
+- [ ] Benefícios vigentes
+- [ ] Processos trabalhistas ativos (descrição + status)
+- [ ] Últimas duas folhas de pagamento
+
+#### Seção 7 — Jurídico e regulatório
+
+- [ ] Contratos de fornecedores críticos (cloud, pagamentos, infraestrutura)
+- [ ] Contratos de parceiros comerciais relevantes
+- [ ] Processos judiciais ativos: cível, tributário, trabalhista (descrição + estimativa de valor)
+- [ ] Passivo tributário contingente (se houver parecer jurídico, incluir)
+- [ ] Licenças e autorizações regulatórias (BACEN, ANVISA, ANATEL — conforme setor)
+- [ ] Política de privacidade e termos de uso vigentes
+- [ ] DPA (Data Processing Agreement) com clientes enterprise (se houver)
+- [ ] Laudo LGPD / relatório de adequação (se disponível)
+
+#### Seção 8 — Rodadas anteriores
+
+- [ ] Documentos de captações anteriores: term sheet, contrato de investimento, side letters
+- [ ] Notas conversíveis ou SAFEs em aberto: valor, cap, desconto, vencimento
+- [ ] Relatórios de gestão enviados a investidores (últimos 4 quarters)
+- [ ] Comunicações materiais com o board (atas de reunião)
+
+#### Dicas operacionais
+
+- Organize por pasta com numeração (1. Societário / 2. Financeiro etc.)
+- Versionamento: sempre inclua a data no nome do arquivo (`DRE_2026-Q1.pdf`)
+- Controle de acesso: investidores em estágio inicial recebem acesso parcial (Seções 1–3); DD completa libera tudo
+- Watermark em documentos confidenciais com nome do investidor — rastreável
+
+---
+
+### A.33 Term Sheet Anotado — Guia de Leitura
+
+> [!note] Quando usar
+> Ao receber um term sheet de investidor (Seed, Série A, SAFE com cap, nota conversível). Não substitui advogado especializado em venture — mas permite que você entre na negociação entendendo o que cada cláusula faz antes de chamar o jurídico.
+
+> [!warning] Aviso
+> Cláusulas variam por fundo, jurisdição e estágio. Este guia cobre o padrão brasileiro mais comum. Leia sempre o documento original. Consulte advogado com experiência em venture antes de assinar qualquer instrumento.
+
+#### Estrutura típica de um term sheet
+
+**Parte I — Termos econômicos**
+
+| Cláusula | O que significa | Ponto de negociação |
+|---|---|---|
+| **Valuation pre-money** | Valor da empresa antes do aporte. Determina a participação do investidor: `participação = aporte / (pre-money + aporte)` | Principal alavanca. Fundo âncora tem mais poder aqui. |
+| **Montante do aporte** | Valor total da rodada, incluindo conversão de notas anteriores | Verifique se inclui conversão de SAFEs — impacta participação real |
+| **Participação pós-rodada** | Percentual do investidor após o aporte, fully diluted (inclui option pool) | Pool criado *antes* da rodada dilui fundadores, não o investidor — negocie tamanho |
+| **Option pool** | Reserva para ESOP (típico: 10–20% pós-money). Geralmente criado antes do closing | Se já existe pool, não crie novo sem necessidade. "Pre-money pool refresh" é diluitivo para fundadores |
+| **Tipo de ação** | Preferred shares (ações preferenciais) vs. ordinária. Preferred tem direitos especiais | Quase universal em venture. O que varia são os direitos específicos — veja abaixo |
+| **Liquidation preference** | Valor que o investidor recebe primeiro numa liquidação (venda ou encerramento) | 1x non-participating é padrão. 2x ou participating preference é agressivo — questione |
+| **Participating preferred** | Investidor recebe a preference E participa pro-rata na distribuição restante | Evite se possível. Reduz significativamente o retorno dos fundadores em exits menores |
+| **Anti-dilution** | Proteção do investidor se rodada futura tiver valuation menor (down round) | Broad-based weighted average é razoável. Full ratchet é extremo — evite |
+| **Dividendos** | Geralmente cumulativos ou não. Startups raramente pagam dividendos antes do exit | Dividendo cumulativo acumula preferência na liquidação — impacto real em exit |
+
+**Parte II — Termos de controle e governança**
+
+| Cláusula | O que significa | Ponto de negociação |
+|---|---|---|
+| **Assento no board** | Quantos assentos o investidor recebe e em que composição (fundador / investidor / independente) | Estrutura 2-2-1 (2 fundadores, 2 investidores, 1 independente) é padrão em Série A |
+| **Direito de voto** | Matérias que requerem aprovação do investidor (veto) | Vetos padrão aceitáveis: venda da empresa, emissão de novas ações, mudança de estatuto. Veto em contratação de C-level ou orçamento é excessivo |
+| **Protective provisions** | Lista de ações que requerem aprovação dos preferred shareholders | Negocie para proteger decisões operacionais cotidianas da interferência do investidor |
+| **Pro-rata rights** | Direito de manter participação em rodadas futuras | Razoável para investidores lead. Pode encarecer e complicar rodadas futuras se muito amplo |
+| **Information rights** | Relatórios que você deve enviar (mensal, trimestral, anual) | Defina formato e prazo realistas. Investidores anjos aceitam relatório trimestral simples |
+| **ROFR (Right of First Refusal)** | Investidor tem direito de comprar ações antes de terceiros | Padrão e razoável. Verifique se inclui co-sale (drag and tag) |
+| **Co-sale (tag-along)** | Se fundador vende, investidor pode vender junto nas mesmas condições | Padrão. Protege investidor minoritário |
+| **Drag-along** | Maioria pode obrigar todos a vender se houver oferta de aquisição | Necessário para viabilizar M&A. Verifique threshold — geralmente 70–75% |
+
+**Parte III — Termos de proteção ao investidor**
+
+| Cláusula | O que significa | Ponto de negociação |
+|---|---|---|
+| **Vesting dos fundadores** | Agenda de consolidação das ações dos fundadores, geralmente reset parcial na rodada | 4 anos / 1 ano cliff é padrão. Crédito por tempo já trabalhado é negociável |
+| **Exclusividade** | Período em que você não pode negociar com outros investidores | 30–45 dias é razoável. 90+ dias é excessivo |
+| **Condições precedentes** | O que precisa acontecer antes do closing (due diligence, aprovação regulatória) | Liste itens específicos — condição genérica ("a critério do investidor") é perigosa |
+| **No-shop** | Proibição de solicitar outras ofertas enquanto o term sheet está ativo | Padrão. Garanta que tem saída se o investidor não fechar no prazo |
+| **Break-up fee** | Penalidade se alguma das partes desistir sem causa justa | Pouco comum em Brasil. Se houver, deve ser simétrico |
+| **Representations e warranties** | Declarações e garantias que você faz sobre o estado da empresa | Mantenha dentro do razoável. Indemnification ilimitada é arriscada |
+
+#### Checklist antes de assinar
+
+- [ ] Calculei minha participação pós-rodada fully diluted (incluindo option pool e conversão de notas)?
+- [ ] Entendi o impacto da liquidation preference em cenários de exit: 2x, 5x, 10x?
+- [ ] O vesting dos fundadores foi discutido? Quanto de crédito pelo passado?
+- [ ] Quais matérias o investidor tem veto efetivo?
+- [ ] A composição do board após o investimento foi definida?
+- [ ] O período de exclusividade é razoável para a due diligence que o investidor vai conduzir?
+- [ ] Advogado com experiência em venture revisou o documento?
+
+---
+
+### A.34 Job Descriptions — Contratações-chave
+
+> [!note] Quando usar
+> Ao abrir posições sênior de produto, engenharia ou vendas. JDs vagas atraem candidatos errados e atrasam o processo. Use como base e adapte ao contexto real da empresa.
+
+#### A.34.1 Head of Product
+
+**Sobre a empresa**
+`[Descrever em 3 frases: o que faz, para quem, estágio atual e cultura]`
+
+**O papel**
+Você será o primeiro líder de produto estruturado da empresa. Trabalhará diretamente com os co-fundadores para transformar aprendizados de clientes em roadmap executável, e conduzirá os squads de produto do discovery à entrega.
+
+**O que você vai fazer**
+
+- Construir e evoluir o processo de discovery: entrevistas, testes, análise quantitativa
+- Definir e manter o roadmap de produto alinhado à estratégia de negócio
+- Trabalhar na interface entre clientes, vendas, engenharia e dados
+- Contratar e desenvolver PMs à medida que o time cresce
+- Definir as métricas de produto e garantir que o time monitora o que importa
+
+**O que esperamos**
+
+- `[X]+` anos de experiência como PM ou líder de produto em produto digital
+- Experiência comprovada em discovery: entrevistas, protótipos, testes de usabilidade
+- Capacidade de trabalhar com dados: SQL ou equivalente funcional, análise de cohort
+- Experiência em produto B2B `[SaaS / marketplace / plataforma]` — descreva o contexto relevante
+- Capacidade de contratar, treinar e avaliar PMs
+- Fluência em inglês `[se necessário]`
+
+**O que é diferencial**
+
+- Experiência em empresa no estágio `[pré-PMF / pós-PMF / escala]`
+- Histórico em `[vertical específica da empresa]`
+- Ter construído roadmap em empresa com restrição de recursos
+
+**O que oferecemos**
+
+- Salário: `[faixa ou "competitivo com mercado — discutir na triagem"]`
+- Stock options: `[percentual ou faixa do pool]` · vesting 4 anos / 1 ano cliff
+- Benefícios: `[lista]`
+- Modelo de trabalho: `[remoto / híbrido / presencial]` — `[cidade, se aplicável]`
+
+---
+
+#### A.34.2 Head of Engineering
+
+**Sobre a empresa**
+`[Descrever em 3 frases]`
+
+**O papel**
+Você vai liderar o time técnico da empresa, equilibrando entrega de produto, qualidade de código e crescimento das pessoas. Em estágios iniciais, ainda escreve código regularmente. Em estágios posteriores, o foco é contratação, arquitetura e processo.
+
+**O que você vai fazer**
+
+- Liderar o time de engenharia: squads, ritmo de entrega, cerimônias
+- Tomar decisões de arquitetura e dívida técnica com visão de longo prazo
+- Contratar e desenvolver engenheiros de todos os níveis
+- Garantir padrões de qualidade: code review, testes, CI/CD, segurança
+- Trabalhar com produto para transformar requisitos em especificações técnicas executáveis
+- Gerenciar infra e custos de cloud
+
+**O que esperamos**
+
+- `[X]+` anos de experiência em engenharia, `[Y]+` em papel de liderança
+- Histórico de construção e crescimento de times técnicos (de `[N]` para `[M]` engenheiros)
+- Proficiência técnica no stack ou equivalente: `[linguagem principal, cloud, etc.]`
+- Experiência com práticas de engenharia modernas: CI/CD, observabilidade, arquitetura de microsserviços `[ou monolito, conforme contexto]`
+- Capacidade de dar feedback técnico e de carreira
+
+**O que é diferencial**
+
+- Experiência em empresa de `[vertical]` ou que lida com `[escala / conformidade regulatória / hardware]`
+- Histórico de escalar produto de `[N]` para `[M]` usuários
+- Experiência com segurança da informação e compliance (LGPD, PCI — conforme contexto)
+
+**O que oferecemos**
+
+- Salário: `[faixa]`
+- Stock options: `[faixa do pool]` · vesting 4 anos / 1 ano cliff
+- Benefícios: `[lista]`
+- Modelo de trabalho: `[remoto / híbrido / presencial]`
+
+---
+
+#### A.34.3 Head of Sales (AE / Account Executive Lead)
+
+**Sobre a empresa**
+`[Descrever em 3 frases]`
+
+**O papel**
+Você vai construir e operar a máquina de vendas da empresa. No início, isso significa vender pessoalmente e documentar o processo. Depois, contratar e escalar um time de AEs. Você é o primeiro líder de vendas — vem de IC forte ou de líder que ainda fecha negócios.
+
+**O que você vai fazer**
+
+- Gerenciar e evoluir o pipeline de vendas (CRM, forecasting, estágios)
+- Fechar os contratos mais estratégicos pessoalmente
+- Construir o playbook de vendas: ICP, discovery, objeções, fechamento
+- Contratar e treinar os primeiros AEs
+- Trabalhar com produto e CS para garantir que o cliente adquirido seja o cliente certo
+- Definir metas, comissões e cadência de operação
+
+**O que esperamos**
+
+- `[X]+` anos em vendas B2B `[SaaS / serviços / enterprise]`
+- Histórico documentado de quota attainment (trazer dados concretos)
+- Experiência em ciclos de venda `[transacional / enterprise / consultivo — conforme o modelo]`
+- Capacidade de construir processo do zero: você não vem para gerenciar time pronto
+- Habilidade de coachear e desenvolver vendedores iniciantes
+
+**O que é diferencial**
+
+- Experiência em `[vertical]` — conhece o cliente que a empresa atende
+- Ter feito o movimento de IC para líder antes
+- Experiência com CRM: Salesforce, HubSpot ou equivalente
+
+**O que oferecemos**
+
+- Salário fixo + variável: `[faixa base]` + `[% ou fórmula de comissão]`
+- Stock options: `[faixa do pool]` · vesting 4 anos / 1 ano cliff
+- Benefícios: `[lista]`
+- Modelo de trabalho: `[remoto / híbrido / presencial]`
+
+---
+
+### A.35 Post-Mortem de Incidente Técnico
+
+> [!note] Quando usar
+> Após qualquer incidente que afetou usuários, dados ou operações por mais de 15 minutos, ou que causou perda de dados, falha de pagamento, ou exposição de informações. Preencher em até 48h após a resolução, com o time envolvido.
+
+> [!tip] Cultura blameless
+> Post-mortem é sobre o sistema, não sobre a pessoa. O objetivo é impedir a recorrência, não punir quem estava no plantão. Nomeie ações concretas no sistema, não comportamentos individuais.
+
+---
+
+**Incidente:** `[Nome curto, ex: "API de pagamento fora do ar — 2026-04-15"]`
+**Severidade:** `[ ] P0 — crítico  [ ] P1 — alto  [ ] P2 — médio`
+**Status:** `[ ] Resolvido  [ ] Mitigado  [ ] Em monitoramento`
+**Data do incidente:** `[DD/MM/AAAA HH:MM]`
+**Duração:** `[___ min / horas]`
+**Impacto:** `[N usuários afetados / R$ perdidos / N transações falhadas]`
+**Autores do post-mortem:** `[Nomes]`
+**Data do post-mortem:** `[DD/MM/AAAA]`
+
+---
+
+#### 1. Resumo executivo (3 parágrafos)
+
+`[O que aconteceu, em linguagem não-técnica]`
+
+`[Qual foi o impacto para usuários / negócio]`
+
+`[O que foi feito para resolver e o que vai ser feito para não repetir]`
+
+#### 2. Timeline do incidente
+
+| Horário | Evento | Quem |
+|---|---|---|
+| `[HH:MM]` | Primeiro sinal detectado | `[Sistema / pessoa]` |
+| `[HH:MM]` | Alerta disparado para o time | `[Sistema / canal]` |
+| `[HH:MM]` | Diagnóstico inicial | `[Nome]` |
+| `[HH:MM]` | Mitigação aplicada | `[Nome]` |
+| `[HH:MM]` | Resolução completa confirmada | `[Nome]` |
+| `[HH:MM]` | Comunicação para usuários enviada | `[Nome]` |
+
+#### 3. Causa-raiz (5 Porquês)
+
+- **Por quê 1:** `[O serviço ficou fora do ar porque…]`
+- **Por quê 2:** `[Isso aconteceu porque…]`
+- **Por quê 3:** `[Isso foi possível porque…]`
+- **Por quê 4:** `[O sistema permitiu isso porque…]`
+- **Por quê 5 (causa-raiz):** `[A causa fundamental foi…]`
+
+#### 4. Fatores contribuintes
+
+- `[Fator 1: ex. falta de teste de carga antes do deploy]`
+- `[Fator 2: ex. alertas configurados com threshold muito alto]`
+- `[Fator 3: ex. runbook de rollback desatualizado]`
+
+#### 5. O que funcionou bem
+
+- `[Exemplo: alarme disparou em < 2 min após degradação]`
+- `[Exemplo: time conseguiu comunicar status em 15 min]`
+
+#### 6. O que não funcionou
+
+- `[Exemplo: não havia circuit breaker configurado no serviço X]`
+- `[Exemplo: canal de alertas não estava monitorado fora do horário comercial]`
+
+#### 7. Ações corretivas
+
+| Ação | Responsável | Prazo | Tipo |
+|---|---|---|---|
+| `[Ação concreta]` | `[Nome]` | `[DD/MM]` | `[Preventiva / Detectiva / Corretiva]` |
+| `[Ação concreta]` | `[Nome]` | `[DD/MM]` | `[Preventiva / Detectiva / Corretiva]` |
+
+> **Preventiva:** impede que o problema aconteça.
+> **Detectiva:** detecta mais rápido quando acontecer.
+> **Corretiva:** resolve mais rápido quando detectado.
+
+#### 8. Comunicação com clientes
+
+- [ ] Status page atualizada durante o incidente
+- [ ] E-mail / in-app notification enviado para afetados
+- [ ] SLA credit aplicado (se contratualmente obrigado)
+- [ ] Resposta individual para clientes enterprise que reportaram
+
+---
+
+### A.36 OKR Cascade Anual
+
+> [!note] Quando usar
+> Ao iniciar o ciclo anual de OKRs, geralmente em dezembro / janeiro. Este template guia a definição top-down dos objetivos anuais da empresa e a cascata para time e individual.
+
+> [!tip] Princípios
+> OKRs são aspiracionais — atingir 70% de um KR ambicioso é sucesso. Não misture OKR com meta de bônus: isso cria sandbagging. Máximo de 3–5 Objectives por nível; máximo de 3–4 KRs por Objective.
+
+#### Nível 1 — OKRs da empresa (Anuais)
+
+**Contexto estratégico do ano:** `[Uma frase sobre o que esse ano representa para a empresa]`
+
+---
+
+**Objective 1:** `[Verbo + resultado qualitativo ambicioso. Ex: "Tornar-se a referência em X para Y"]`
+
+| Key Result | Meta | Atual | Dono | Prazo |
+|---|---|---|---|---|
+| KR1.1: `[Mensurável e verificável]` | `[___]` | `[___]` | `[Nome]` | `[MM/AAAA]` |
+| KR1.2: `[Mensurável e verificável]` | `[___]` | `[___]` | `[Nome]` | `[MM/AAAA]` |
+| KR1.3: `[Mensurável e verificável]` | `[___]` | `[___]` | `[Nome]` | `[MM/AAAA]` |
+
+---
+
+**Objective 2:** `[Verbo + resultado qualitativo]`
+
+| Key Result | Meta | Atual | Dono | Prazo |
+|---|---|---|---|---|
+| KR2.1: | | | | |
+| KR2.2: | | | | |
+| KR2.3: | | | | |
+
+---
+
+**Objective 3:** `[Verbo + resultado qualitativo]`
+
+| Key Result | Meta | Atual | Dono | Prazo |
+|---|---|---|---|---|
+| KR3.1: | | | | |
+| KR3.2: | | | | |
+
+---
+
+#### Nível 2 — OKRs de time (Trimestral)
+
+> Cada time define seus OKRs trimestrais contribuindo para pelo menos um Objective da empresa. Um KR da empresa pode ser quebrado em múltiplos KRs de time ou gerar um Objective de time.
+
+**Time:** `[Produto / Engenharia / Vendas / Growth / Operações / etc.]`
+**Trimestre:** `[Q1 / Q2 / Q3 / Q4 AAAA]`
+**Contribuição para OKR da empresa:** `[Objective X, KR Y]`
+
+---
+
+**Objective T1:** `[O que esse time vai conquistar esse trimestre]`
+
+| Key Result | Meta | Check-in semana 4 | Check-in semana 8 | Final | Dono |
+|---|---|---|---|---|---|
+| KRT1.1: | | | | | |
+| KRT1.2: | | | | | |
+
+---
+
+#### Nível 3 — OKRs individuais (Trimestral)
+
+> Opcionais em empresas pequenas (< 15 pessoas). Obrigatórios em escala (> 50 pessoas). Derivam dos OKRs de time — o indivíduo apoia os KRs do time, não inventa objetivos pessoais desconectados.
+
+**Colaborador:** `[Nome]`
+**Cargo:** `[___]`
+**Time:** `[___]`
+**Contribuição para OKR de time:** `[Objective X, KR Y]`
+
+| Objective | KR | Meta | Progresso | Score final |
+|---|---|---|---|---|
+| `[O que alcançar]` | `[Como medir]` | `[Valor]` | | |
+
+---
+
+#### Check-in semanal (5 min por OKR)
+
+Para cada KR em andamento:
+
+- Status: `[ ] On track  [ ] At risk  [ ] Off track`
+- Progresso atual: `[___]` / Meta: `[___]`
+- Bloqueio (se houver): `[___]`
+- Ação para desbloquear: `[___]`
+
+#### Scoring ao final do trimestre
+
+| Score | Interpretação |
+|---|---|
+| 0.0–0.3 | Não avançou ou errou a direção. Revisar abordagem. |
+| 0.4–0.6 | Progresso parcial. Analise por que não foi além. |
+| 0.7–0.9 | Zona alvo — OKR foi ambicioso e foi executado bem. |
+| 1.0 | Bateu 100%. Provavelmente a meta era conservadora demais. |
+
+> Score médio ideal por trimestre: 0.6–0.7. Consistentemente 1.0 = metas fáceis demais.
+
+#### Retrospectiva de ciclo (ao final de cada trimestre)
+
+- O que aprendemos sobre o negócio executando esses OKRs?
+- Quais KRs foram úteis como guia? Quais não funcionaram como métricas?
+- O que vamos mudar na configuração do próximo ciclo?
+
+---
+
+### A.37 Plano de Rodada (Fundraising Project Plan)
+
+> [!note] Quando usar
+> Ao iniciar preparação para captação de rodada (Seed ou Série A). Captação é projeto com prazo, stakeholders e dependências — trate como projeto. Ver também [[#APÊNDICE CF — PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO|Apêndice CF]] para o método completo.
+
+> [!warning] Tempo real
+> O processo Seed leva 3–6 meses em média. Série A, 4–8 meses. Não comece com 2 meses de runway.
+
+---
+
+**Empresa:** `[Nome]`
+**Rodada target:** `[Seed / Série A / etc.]`
+**Montante target:** `[R$ ___ / US$ ___]`
+**Valuation pretendido (pre-money):** `[R$ ___ / US$ ___]`
+**Runway atual:** `[___ meses]`
+**Data de início do processo:** `[DD/MM/AAAA]`
+**Meta de closing:** `[DD/MM/AAAA]`
+**Lead do processo:** `[Nome do fundador responsável]`
+
+---
+
+#### Fase 1 — Preparação (semanas 1–4)
+
+| Entregável | Responsável | Prazo | Status |
+|---|---|---|---|
+| Tese da rodada (por que agora, por que esse montante) | `[Nome]` | `[___]` | `[ ]` |
+| Deck de pitch v1 (10–12 slides) | `[Nome]` | `[___]` | `[ ]` |
+| One-pager executivo | `[Nome]` | `[___]` | `[ ]` |
+| Modelo financeiro: projeções 24–36 meses + premissas | `[Nome]` | `[___]` | `[ ]` |
+| Data room básico montado (seções 1–4 do A.32) | `[Nome]` | `[___]` | `[ ]` |
+| Lista de investidores alvo: tier 1 (10–15), tier 2 (20–30) | `[Nome]` | `[___]` | `[ ]` |
+| Mapa de warm intros: quem pode apresentar para quem | `[Nome]` | `[___]` | `[ ]` |
+| Narrativa da empresa refinada (SCQA ou Elevator Pitch) | `[Nome]` | `[___]` | `[ ]` |
+
+---
+
+#### Fase 2 — Outreach e primeiras reuniões (semanas 5–10)
+
+| Entregável | Responsável | Prazo | Status |
+|---|---|---|---|
+| Envio de outreach para tier 1 (warm intros prioritários) | `[Nome]` | `[___]` | `[ ]` |
+| Envio de outreach para tier 2 | `[Nome]` | `[___]` | `[ ]` |
+| Deck v2 refinado após primeiros feedbacks | `[Nome]` | `[___]` | `[ ]` |
+| CRM de fundraising atualizado semanalmente | `[Nome]` | toda sexta | `[ ]` |
+| Sessão de mock pitch com advisor ou investidor de confiança | `[Nome]` | `[___]` | `[ ]` |
+| Meta de reuniões nesta fase: `[___]` primeiras conversas | — | — | — |
+
+#### Painel de acompanhamento do pipeline
+
+| Investidor | Tier | Quem apresentou | Status | Última interação | Próximo passo |
+|---|---|---|---|---|---|
+| `[Fundo A]` | 1 | `[Nome]` | `[1ª reunião / DD / Term sheet / Pass]` | `[DD/MM]` | `[___]` |
+| `[Fundo B]` | 1 | `[Nome]` | `[___]` | `[DD/MM]` | `[___]` |
+
+---
+
+#### Fase 3 — Due diligence e negociação (semanas 10–16)
+
+| Entregável | Responsável | Prazo | Status |
+|---|---|---|---|
+| Data room completo aberto para fundos em DD | `[Nome]` | `[___]` | `[ ]` |
+| Respostas a perguntas de DD (log de Q&A) | `[Nome]` | contínuo | `[ ]` |
+| Advogado de venture contratado | `[Nome]` | `[___]` | `[ ]` |
+| Term sheet recebido e revisado com jurídico | `[Nome]` | `[___]` | `[ ]` |
+| Negociação de termos: valuation, liquidation preference, board | `[Nome]` | `[___]` | `[ ]` |
+| Referências do fundo / parceiro checadas (back-channel) | `[Nome]` | `[___]` | `[ ]` |
+
+---
+
+#### Fase 4 — Closing (semanas 16–20)
+
+| Entregável | Responsável | Prazo | Status |
+|---|---|---|---|
+| Documentos definitivos enviados pelo fundo | `[Nome]` | `[___]` | `[ ]` |
+| Revisão completa com advogado | `[Nome]` | `[___]` | `[ ]` |
+| Assinaturas de todos os sócios | `[Nome]` | `[___]` | `[ ]` |
+| Wire / aporte confirmado na conta | `[Nome]` | `[___]` | `[ ]` |
+| Comunicação interna: time informado | `[Nome]` | `[___]` | `[ ]` |
+| Comunicação externa: press release / LinkedIn (opcional) | `[Nome]` | `[___]` | `[ ]` |
+| Reunião de kick-off com novo investidor | `[Nome]` | `[___]` | `[ ]` |
+
+---
+
+#### Regras operacionais do processo
+
+- **Não pare de operar.** Captação não suspende o negócio. Métricas continuando a crescer durante o processo fortalecem a posição do fundador.
+- **Crie urgência real.** Múltiplas conversas paralelas criam competição natural. Artificiar urgência sem base (falso deadline) destrói confiança.
+- **Documente tudo.** Cada reunião: o que foi dito, o que o investidor pediu, próxima ação combinada. CRM simples funciona (planilha ou Notion).
+- **Proteja o tempo.** Bloquear 3–4h por dia para captação é suficiente para a maioria dos processos. Fundador que passa 100% do tempo levantando capital destrói o produto que está vendendo.
+
+---
+
+### A.38 1:1 — Template de Reunião Individual
+
+> [!note] Quando usar
+> Reunião semanal ou quinzenal entre líder e liderado direto. A 1:1 é do liderado, não do líder. O liderado preenche a maior parte da pauta. O líder escuta, remove obstáculos e dá contexto.
+
+> [!tip] Duração e frequência
+> 30–45 min semanais para times em crescimento. 60 min quinzenais para times estabelecidos. Não cancele — cancelar 1:1 repetidamente sinaliza que o liderado não é prioridade.
+
+---
+
+**Liderado:** `[Nome]`
+**Líder:** `[Nome]`
+**Data:** `[DD/MM/AAAA]`
+**Formato:** `[ ] Presencial  [ ] Vídeo`
+
+---
+
+#### Parte 1 — Check-in do liderado (10 min)
+
+*Preencher pelo liderado antes da reunião.*
+
+**Como estou essa semana?** `[Uma frase — pode ser pessoal ou profissional]`
+
+**O que foi bem desde a última 1:1?**
+
+- `[___]`
+
+**O que travou ou não andou como esperado?**
+
+- `[___]`
+
+**O que preciso do meu líder hoje?**
+`[ ] Decisão  [ ] Feedback  [ ] Contexto / informação  [ ] Só escuta  [ ] Outro: [___]`
+
+---
+
+#### Parte 2 — Tópicos da semana (15–20 min)
+
+*Lista do liderado — trazer os itens mais importantes, não os mais urgentes.*
+
+1. `[Tópico 1]` → `[O que você precisa: decisão / feedback / contexto]`
+2. `[Tópico 2]` → `[O que você precisa]`
+3. `[Tópico 3 — opcional]`
+
+*Tópicos do líder (se houver):*
+
+- `[___]`
+
+---
+
+#### Parte 3 — Carreira e desenvolvimento (5–10 min — não toda semana)
+
+> Reserve este bloco para cada 3–4 reuniões. Não precisa ser toda semana, mas precisa acontecer regularmente.
+
+**Onde você está em relação às suas metas de carreira?** `[___]`
+
+**O que você aprendeu nas últimas semanas que mudou como você trabalha?** `[___]`
+
+**Tem algo sobre o seu trabalho que está te desgastando ou que não faz sentido?** `[___]`
+
+**O que posso fazer mais (ou menos) para te ajudar a crescer?** `[___]`
+
+---
+
+#### Parte 4 — Acordos da reunião (5 min)
+
+| Ação | Responsável | Prazo |
+|---|---|---|
+| `[Ação comprometida pelo líder]` | Líder | `[DD/MM]` |
+| `[Ação comprometida pelo liderado]` | Liderado | `[DD/MM]` |
+
+**Nota do líder para o próximo 1:1:** `[Acompanhar: ___]`
+
+---
+
+#### Perguntas de apoio para o líder
+
+> Use quando a conversa travar ou quando quiser ir mais fundo.
+
+- "O que você faria se eu não existisse para te dar essa resposta?"
+- "Qual é o problema real por trás disso?"
+- "Se isso não fosse resolvido em 30 dias, o que aconteceria?"
+- "O que você mais gosta do trabalho agora? O que menos gosta?"
+- "Tem algo que o time todo está vendo mas ninguém está falando?"
+- "Se você pudesse mudar uma coisa no seu trabalho esta semana, o que seria?"
+
+---
+
+#### Dicas de condução para o líder
+
+- Comece com o item que o liderado disse que precisava — não com a sua pauta
+- Tome notas durante a reunião — mostra que você leva a sério
+- Não resolva tudo na hora. Às vezes o liderado precisa de espaço para resolver por conta própria
+- Cumpra os acordos que você fechou — liderados lembram quando o líder não cumpre
+- Após o 1:1, registre em algum lugar (Notion, doc compartilhado) para ter histórico
+
+---

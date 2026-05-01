@@ -220,6 +220,48 @@ O ensaio do Graham é útil porque normaliza a necessidade de autonomia como car
 - Nível de apoio da rede próxima, escala de um a cinco autoavaliada, com justificativa escrita.
 - Clareza de motivação, autoavaliação de um a cinco. Se você não consegue articular o por quê em uma frase, está baixo.
 
+### Saúde mental do fundador em estágio zero
+
+Fase 0 é o momento de maior vulnerabilidade psicológica da trajetória empreendedora. Não porque seja a fase mais difícil objetivamente — Fase 14 com folha de 80 pessoas e crise de caixa é objetivamente mais pesada. Mas porque na Fase 0 o fundador carrega o peso do que ainda não existe, com suporte mínimo, sem a legitimidade de "é uma empresa de verdade", e frequentemente enquanto ainda gerencia obrigações anteriores (emprego, família, dívidas).
+
+Reconhecer os sinais cedo é crítico porque burnout em Fase 0 não aparece como colapso visível. Aparece como procrastinação crônica, perda de entusiasmo com o projeto, ou hiperfoco compensatório que destrói relacionamentos.
+
+**Diferença entre stress produtivo e sinal de alerta.**
+
+O stress produtivo tem características reconhecíveis: você tem energia depois de resolver um problema difícil, você consegue dormir mesmo com preocupações, você ainda sente curiosidade sobre o projeto. É o stress de atletismo — o músculo cansa mas se recupera.
+
+O sinal de alerta tem características diferentes: fadiga que não cede com descanso, perda de prazer em coisas fora do projeto (amigos, hobbies), pensamentos circulares (mesmo problema voltando sem progresso), irritabilidade desproporcional a eventos pequenos, e sensação de que o projeto é uma armadilha da qual não pode sair.
+
+**Os cinco gatilhos específicos de Fase 0.**
+
+*Runway pressão*: saber que tem X meses antes de precisar de renda gera uma contagem regressiva psicológica que distorce decisões. Founder com runway de 6 meses toma decisões diferentes (e frequentemente piores) do que founder com 18 meses. Solução: se o runway está abaixo de 8 meses, não empreenda ainda. Ampliar primeiro.
+
+*Isolamento de validação*: em pré-produto, não há métricas, não há usuários, não há confirmações externas. O feedback loop que mantém fundadores motivados (ver produto crescer, ver clientes satisfeitos) ainda não existe. Substituto saudável: encontros semanais com outros founders no mesmo estágio, grupos de accountability, ou mentor que já passou por isso.
+
+*Conflito com rede próxima*: parceiro(a), pais, ou amigos próximos que não entendem ou não apoiam a decisão de empreender criam dissonância constante. Não é psicologia — é matemática: passar 10 horas por dia construindo algo que a pessoa mais próxima acha irresponsável é insustentável por meses.
+
+*Comparação com pares*: o LinkedIn e X/Twitter filtram sucessos. Founder em Fase 0 vê anúncio de rodada de seed de par — e não vê os 18 meses de rejeição que antecederam. Social media como input de calibração emocional em Fase 0 é envenenamento de longa duração.
+
+*Perfeccionismo de pré-lançamento*: convencer-se de que o produto precisa estar "pronto" antes de mostrar para alguém. Paralisia disfarçada de padrão de qualidade. O produto nunca fica "pronto o suficiente" — a espera cresce junto com o projeto.
+
+**Protocolo de auto-monitoramento semanal (10 minutos).**
+
+Reserve sexta-feira, 10 minutos. Responda quatro perguntas com nota de 1 a 5.
+
+1. Energia: como estava a minha energia física e mental esta semana? (1 = exausta, 5 = boa)
+2. Clareza: eu sabia o que fazer a maior parte dos dias? (1 = perdido, 5 = claro)
+3. Relações: minhas relações importantes (parceiro, amigos próximos) estavam em bom estado? (1 = deteriorando, 5 = sólidas)
+4. Sentido: eu ainda acredito que o projeto vale o esforço? (1 = duvidando forte, 5 = sim)
+
+Média abaixo de 3 por três semanas consecutivas é sinal de parada obrigatória para diagnóstico, não de maior esforço.
+
+**Recursos no Brasil.**
+
+O [[#APÊNDICE Y — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Apêndice Y]] cobre saúde mental em estágios posteriores (escala, crises, exit). Para Fase 0, os recursos mais práticos são: comunidades de founders (Abstartups, grupos locais de ACE, Endeavor, Women in Tech), psicólogo ou psiquiatra com experiência em profissionais de alta performance (não é luxo — é infraestrutura), e accountability partner (outro fundador que faz check-in semanal mútuo). Em São Paulo e Rio, existem grupos específicos de saúde mental para empreendedores — procurar por "fundadores" em plataformas como Vittude, Doctoralia, ou Mind Lab.
+
+> [!warning] O mito da resiliência como identidade
+> A cultura empreendedora glorifica "nunca desistir" de forma que patologiza o cuidado com saúde mental. "Founder resiliente" se tornou identidade, o que torna admitir fraqueza uma ameaça à identidade. O resultado prático: founders com sinais sérios de burnout escondem por meses, esperando "passar sozinho". Não passa. Resiliência real inclui saber quando pedir ajuda.
+
 ### Escolha de sócios, a decisão mais irreversível
 
 A [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]] cobre cap table. O [[#APÊNDICE Y — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Apêndice Y]] cobre conflito entre sócios. Mas a escolha de sócios acontece antes de tudo isso. E é a decisão mais irreversível que você toma na trajetória empreendedora. Divórcio societário é processo doloroso, caro, que destrói empresas boas e relacionamentos antes sólidos.

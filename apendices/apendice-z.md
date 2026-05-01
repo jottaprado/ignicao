@@ -267,6 +267,34 @@ AI-native está no padrão quando os seis itens estão em pé.
 5. Observability completo. Latência, custo, qualidade, e drift, monitorados.
 6. Não há dependência única de provedor crítico, sem plano B.
 
+### Governança de IA Generativa
+
+Produto AI-native em 2026 enfrenta um conjunto de riscos de governança que não existiam em SaaS tradicional. Ignorá-los não é opção em segmentos regulados (saúde, finanças, jurídico), e começa a ser problema em qualquer segmento conforme regulação avança (EU AI Act, framework NIST de IA, LGPD com IA como processador).
+
+**Os quatro domínios de governança de IA.**
+
+*Transparência e explicabilidade*: o usuário deve entender (em termos razoáveis) por que o sistema gerou determinado output. "O modelo decide" não é resposta aceitável para output com consequências — rejeição de crédito, diagnóstico de saúde, recomendação jurídica. Em produto regulado, explainability pode ser requisito legal. Em produto não-regulado, é requisito de confiança. Abordagem: (1) documentar internamente quais inputs afetam cada output, (2) logging de reasoning onde o modelo suporta (chain-of-thought), (3) UI que mostra fontes ou raciocínio ao usuário quando relevante.
+
+*Bias e fairness*: modelos de linguagem amplificam vieses presentes nos dados de treino. Em contexto de produto com decisões que afetam pessoas (crédito, hiring, saúde), viés sistemático é risco legal e reputacional. Auditoria de bias: testar outputs com inputs que variam apenas por gênero, raça, ou outras características protegidas. Red-teaming específico para viés. Monitoramento de disparate impact em métricas de produto segmentadas.
+
+*Human-in-the-loop (HITL) e limites de autonomia*: definir explicitamente que decisões o sistema pode tomar autonomamente e quais requerem revisão humana. Em saúde: modelo sugere, médico decide. Em crédito: modelo pontua, humano aprova acima de certo impacto. Em contrato jurídico: rascunho automático, advogado revisa antes de enviar. O critério: quanto maior a consequência e a irreversibilidade, mais HITL.
+
+*Incidente de IA e recall*: o que acontece quando o modelo começa a alucinar consistentemente, quando um viés é descoberto em produção, ou quando o provedor muda o modelo? Plano de incidente de IA deve incluir: (1) critério de quando "desligar" feature AI (threshold de erro acima do qual o sistema vai offline), (2) plano de comunicação com usuários, (3) processo de rollback para versão anterior do prompt/modelo, (4) post-mortem com root cause de qualidade.
+
+**Model card interno.** Boa prática crescentemente adotada: documentar para uso interno o que o modelo foi testado para fazer e o que não foi, suas limitações conhecidas, seus dados de eval de qualidade, e os casos de uso onde não deve ser usado. Não precisa ser público, mas deve existir. Previne que times de produto expandam o uso para domínios onde o modelo não foi avaliado.
+
+**Regulação emergente.** EU AI Act (em vigor 2024-2025) classifica sistemas por risco (proibido, alto risco, limitado risco, mínimo risco). Empresas brasileiras que operam na Europa, ou que têm usuários europeus, estão no escopo. Sistemas de alto risco (crédito, emprego, educação, saúde) requerem: registro, avaliação de conformidade, documentação técnica, supervisão humana. LGPD + IA: quando o sistema toma decisões automatizadas com base em dados pessoais, o titular tem direito de revisão humana (Art. 20 LGPD). Implementar processo de revisão humana para decisões automatizadas que afetam titulares.
+
+**Checklist de governança mínima.**
+
+- [ ] Model card interno documentado para cada feature AI crítica?
+- [ ] Human-in-the-loop definido para decisões de alto impacto?
+- [ ] Auditoria de bias realizada com dataset representativo do ICP?
+- [ ] Plano de incidente de IA (trigger, rollback, comunicação)?
+- [ ] Logging de inputs e outputs para auditoria (com LGPD compliance)?
+- [ ] Usuário informado que está interagindo com IA onde relevante?
+- [ ] Revisão de conformidade com EU AI Act para operações na Europa?
+
 ### Armadilhas
 
 "GPT-4 funciona, tá bom". Sem eval, não sabe se mantém qualidade quando o provedor atualiza o modelo silenciosamente.

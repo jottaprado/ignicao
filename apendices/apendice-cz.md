@@ -6,7 +6,7 @@ appendix: "CZ"
 ## APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO
 
 > [!note] Como usar
-> Este apêndice trata em profundidade dezesseis canvases que aparecem ao longo do livro como ferramentas convocadas em fases específicas. Cada canvas vem com origem histórica, estrutura visual, princípios, instruções de aplicação, exemplo brasileiro preenchido, variações, erros comuns, limites e leitura adicional. A ordem é didática (do mais geral ao mais específico), não a ordem de uso na trajetória. Para saber qual canvas usar em qual fase, veja a tabela de mapeamento ao final desta abertura.
+> Este apêndice trata em profundidade vinte canvases que aparecem ao longo do livro como ferramentas convocadas em fases específicas. Cada canvas vem com origem histórica, estrutura visual, princípios, instruções de aplicação, exemplo brasileiro preenchido, variações, erros comuns, limites e leitura adicional. A ordem é didática (do mais geral ao mais específico), não a ordem de uso na trajetória. Para saber qual canvas usar em qual fase, veja a tabela de mapeamento ao final desta abertura.
 
 > [!important] Por que canvases merecem apêndice próprio
 > Canvas é categoria distinta de framework. Framework é raciocínio (Five Forces, JTBD, AARRR). Canvas é **representação visual de uma página** que força colaboração e expõe inconsistências. A maioria dos canvases neste apêndice nasceu da escola de design thinking aplicada a estratégia (Strategyzer, IDEO, XPLANE) entre 2005 e 2020. Compartilham três traços: (1) cabem em uma folha A3 ou parede; (2) preenchimento é colaborativo, não solo; (3) revelam onde o pensamento ainda está vago. Tratá-los apenas como sub-itens do ferramentário (BG) não capturava nem a teoria nem a prática brasileira.
@@ -26,9 +26,13 @@ appendix: "CZ"
 | Fase 10 (MVP) | CZ.10 Pirate Canvas (AARRR) | Como o funil real está se comportando? |
 | Fase 11 (modelo) | CZ.13 Risk Canvas | Quais riscos podem matar o modelo em escala? |
 | Fase 14 (escala) | CZ.8 Team Canvas | Como o time se alinha em propósito e operação? |
+| Fase 14 (escala) | CZ.19 Org Chart Evolution | Qual estrutura organizacional corresponde ao estágio atual? |
 | Fase 16 + Apêndice V | CZ.12 Storytelling Canvas | Como narrar o negócio para investidor, time, cliente? |
+| Fase 16 + Apêndice V | CZ.17 Capital Stack / Waterfall | Quem recebe quanto, em qual ordem, em cada cenário de exit? |
+| Qualquer fase | CZ.18 Network Effects Map | Quais tipos de efeitos de rede o modelo captura — e qual é o mais forte? |
+| Qualquer fase | CZ.20 Wardley Map | O que estou construindo, onde está no ciclo evolutivo, e o que devo terceirizar? |
 
-### Catálogo dos 16 canvases
+### Catálogo dos 20 canvases
 
 | # | Canvas | Autor / Origem | Foco |
 |---|---|---|---|
@@ -43,14 +47,18 @@ appendix: "CZ"
 | CZ.9 | Test Card | Bland & Osterwalder, 2019 | Estruturação de experimento |
 | CZ.10 | Pirate Canvas (AARRR) | Dave McClure, 2007 | Funil de aquisição → receita |
 | CZ.11 | MVP Canvas | Tristan Kromer | Escopo mínimo testável |
-| CZ.12 | Storytelling Canvas | múltiplas | Narrativa estruturada do negócio |
+| CZ.12 | Storytelling Canvas + SCQA + Strategic Narrative | múltiplas | Narrativa estruturada para múltiplos contextos |
 | CZ.13 | Risk Canvas | múltiplas | Mapeamento e priorização de riscos |
 | CZ.14 | Hypothesis Canvas | autoral do livro | Hipótese falsificável com threshold |
 | CZ.15 | Canvas da Cunha | autoral do livro | Definição de cunha de mercado |
 | CZ.16 | Theory Map / Story Tree | autoral do livro | Teoria causal do negócio |
+| CZ.17 | Capital Stack / Waterfall Canvas | prática de M&A/VC | Distribuição de valor por classe em exit |
+| CZ.18 | Network Effects Map | NFX / autoral | Tipos e força dos efeitos de rede do modelo |
+| CZ.19 | Org Chart Evolution | autoral do livro | Estrutura organizacional por estágio de crescimento |
+| CZ.20 | Wardley Map | Simon Wardley, 2005 | Posicionamento de componentes no ciclo evolutivo |
 
-> [!note] Todos os 16 canvases disponíveis
-> Este apêndice contém o tratamento completo dos dezesseis canvases: Onda 1 — Fundamentos (CZ.1 BMC, CZ.2 Lean Canvas, CZ.3 VPC, CZ.4 Strategy Canvas); Onda 2 — Discovery e validação (CZ.5 Opportunity Canvas, CZ.6 Empathy Map, CZ.7 Customer Journey Canvas, CZ.9 Test Card); Onda 3 — Métricas, MVP e narrativa (CZ.10 Pirate Canvas, CZ.11 MVP Canvas, CZ.12 Storytelling Canvas, CZ.13 Risk Canvas); Onda 4 — Time e Autorais (CZ.8 Team Canvas, CZ.14 Hypothesis Canvas, CZ.15 Canvas da Cunha, CZ.16 Theory Map). Os templates preencháveis dos canvases autorais (CZ.14, CZ.15, CZ.16) encontram-se no [[#APÊNDICE A — TEMPLATES PRONTOS PARA USO|Apêndice A]] (A.10, A.12, A.9 respectivamente).
+> [!note] Todos os 20 canvases disponíveis
+> Este apêndice contém o tratamento completo dos vinte canvases: Onda 1 — Fundamentos (CZ.1 BMC, CZ.2 Lean Canvas, CZ.3 VPC, CZ.4 Strategy Canvas); Onda 2 — Discovery e validação (CZ.5 Opportunity Canvas, CZ.6 Empathy Map, CZ.7 Customer Journey Canvas, CZ.9 Test Card); Onda 3 — Métricas, MVP e narrativa (CZ.10 Pirate Canvas, CZ.11 MVP Canvas, CZ.12 Storytelling Canvas, CZ.13 Risk Canvas); Onda 4 — Time e Autorais (CZ.8 Team Canvas, CZ.14 Hypothesis Canvas, CZ.15 Canvas da Cunha, CZ.16 Theory Map); Onda 5 — Estrutura, Escala e Estratégia (CZ.17 Capital Stack, CZ.18 Network Effects Map, CZ.19 Org Chart Evolution, CZ.20 Wardley Map). Os templates preencháveis dos canvases autorais (CZ.14, CZ.15, CZ.16) encontram-se no [[#APÊNDICE A — TEMPLATES PRONTOS PARA USO|Apêndice A]] (A.10, A.12, A.9 respectivamente).
 
 ---
 
@@ -1241,6 +1249,151 @@ A Omie levantou Series B em 2020 (R$ 52 milhões, Softbank + Redpoint Eventures)
 - **Press Release Canvas** (Amazon): variação do "trabalhar de trás para frente" da Amazon — escrever o press release do produto *antes* de construí-lo, forçando articular o "Mundo depois" com precisão.
 - **One-Pager Canvas**: comprime o Storytelling Canvas em uma única página A4 para comunicação escrita (email para investidor, proposta comercial).
 
+#### Extensão A — SCQA: narrativa para contextos além do pitch
+
+O **SCQA** (Situation → Complication → Question → Answer), criado por Barbara Minto no McKinsey e sistematizado no *The Minto Pyramid Principle* (1987), é a estrutura de comunicação estruturada mais útil para o fundador em contextos onde o Storytelling Canvas seria pesado demais.
+
+**A lógica do SCQA:**
+
+```text
+Situation:    O que todos já sabem — o contexto compartilhado
+              (estabelece base comum, não discute)
+
+Complication: O que mudou, o problema, a tensão que apareceu
+              (por que estamos tendo essa conversa agora?)
+
+Question:     A pergunta implícita que a Complication gera
+              (o que fazemos a respeito?)
+
+Answer:       A resposta — sua recomendação, tese ou pedido
+              (o que estou propondo)
+```
+
+**Por que SCQA, não Storytelling Canvas:**
+
+| Contexto | Use Storytelling Canvas | Use SCQA |
+|---|---|---|
+| Pitch de investimento (primeira reunião) | ✅ Narrativa emocional cria conexão | — |
+| Update de board (trimestral) | — | ✅ Contexto já existe; foco em problema e ação |
+| Investor update mensal (escrito) | — | ✅ Curto, direto, explica por que a questão importa agora |
+| Email para parceiro estratégico | — | ✅ Respeita o tempo; faz o ponto sem rodeio |
+| PR/press release | — | ✅ Lead jornalístico já é SCQA (who/what/why now) |
+| Comunicação interna de mudança | — | ✅ Time precisa entender o porquê antes de aceitar o o quê |
+| All-hands em momento de crise | Risco — emoção sem substância | ✅ Explica a situação antes de propor a solução |
+
+**SCQA em prática — exemplos do fundador brasileiro:**
+
+*Investor update mensal — SCQA:*
+
+```text
+S: Estamos crescendo MRR 15% ao mês há 6 meses; agendamos 
+   100+ demos no trimestre com conversão de 23%.
+
+C: Nos últimos 30 dias, o ciclo de fechamento dobrou de 21 
+   para 42 dias. A causa identificada: 80% dos deals agora 
+   envolvem aprovação de TI, que não estava no processo original.
+
+Q: Como ajustar o processo sem perder velocidade de vendas?
+
+A: Estamos criando deck técnico específico para TI e adicionando 
+   discovery de TI como etapa obrigatória na Fase 2 do pipeline.
+   [Pedido: intro para CISOs de 3 empresas mid-market no seu portfólio]
+```
+
+*Comunicação interna de layoff — SCQA:*
+
+```text
+S: Levantamos R$ 8M em agosto e planejamos crescimento 
+   de 40% de headcount ao longo de 2024.
+
+C: O mercado desacelerou. Churn acelerou para 4,5% ao mês. 
+   No ritmo atual, atingimos burn crítico em 7 meses.
+
+Q: O que precisamos fazer para preservar a empresa?
+
+A: Vamos reduzir o time em 20%, focando nas áreas de produto 
+   e vendas que sustentam o núcleo. Aqui está o que muda para 
+   quem fica, e como vamos apoiar quem vai sair.
+```
+
+**SCQA no board deck:**
+No slide de "Roadblocks e Riscos" do board deck (Template A.31), cada problema deve ser apresentado em formato SCQA implícito: a célula "Risco / problema" é a Complication; "Mitigação atual" é a resposta parcial; "Ajuda necessária do board" é a Question. Quando o board member lê o slide, ele já vê Situation (conhece a empresa), Complication (o problema), e sabe que a questão é "o que fazemos". Sua resposta é a Answer colaborativa.
+
+#### Extensão B — Strategic Narrative Framework (Andy Raskin)
+
+O **Strategic Narrative** de Andy Raskin, consultor de pitch que trabalhou com Zuora, Salesforce, GitHub e outras empresas de alto crescimento, é distinto do Storytelling Canvas em um ponto fundamental: o foco não é a jornada do cliente — é a **mudança no mundo** que torna o status quo inaceitável e posiciona a empresa como única capaz de endereçar o novo estado.
+
+**A estrutura de 5 elementos:**
+
+```text
+1. MUDANÇA PARADIGMÁTICA NO MUNDO
+   "Algo mudou — e isso muda tudo."
+   Uma tendência irrefutável que cria um novo estado no mercado.
+   Não é o problema do cliente. É a força externa que criou o problema.
+   
+2. PERDEDORES E VENCEDORES
+   "Quem perde com essa mudança, quem ganha."
+   Posiciona o cliente como potencial vencedor se agir.
+   Cria urgência sem pressão artificial.
+
+3. A TERRA PROMETIDA
+   "Como é o mundo para quem ganhar."
+   O estado desejado — específico, vívido, apetecível.
+   Não é o produto. É o que o produto permite.
+
+4. OS OBSTÁCULOS (e por que a velha solução falha)
+   "Por que o caminho para a Terra Prometida é difícil."
+   O que impede os potenciais vencedores de chegar lá.
+   Por que as soluções existentes não resolvem.
+
+5. A PONTE
+   "Como a empresa remove os obstáculos."
+   O produto como instrumento para a Terra Prometida.
+   Apresentado por último — quando o interlocutor já acredita no problema.
+```
+
+**Por que é diferente do Storytelling Canvas:**
+
+| Aspecto | Storytelling Canvas | Strategic Narrative |
+|---|---|---|
+| Protagonista | Cliente como herói | A mudança no mundo é o protagonista |
+| Tom | Empático, próximo | Estratégico, macro |
+| Melhor para | Pitch 1:1 com investidor ou cliente | Comunicação de categoria: site, all-hands, press, keynote |
+| Inimigo explícito | Ausente (solução falha, não villain) | Presente — status quo ou concorrente pode ser nomeado |
+| Urgência | Via storytelling emocional | Via inevitabilidade da mudança |
+
+**Exemplo brasileiro — Nubank Strategic Narrative (implícito):**
+
+```text
+1. MUDANÇA: A internet transformou como consumidores comparam, escolhem 
+   e exigem serviços — em todos os setores, exceto bancos.
+
+2. PERDEDORES / VENCEDORES: Brasileiros que continuam com os 5 grandes 
+   bancos pagam tarifas e enfrentam burocracia desenhada para outra era. 
+   Quem migra para modelo digital tem custo zero e controle real.
+
+3. TERRA PROMETIDA: Serviço financeiro sem agência, sem tarifa, com 
+   experiência de produto de tecnologia — não de banco. Controle do 
+   dinheiro na palma da mão, sem horário de atendimento.
+
+4. OBSTÁCULOS: Abertura de conta é burocrática. Cartões têm tarifas 
+   ocultas. O banco ligo confuso para reter. Os incumbentes têm inércia 
+   de décadas de monopólio regulatório.
+
+5. A PONTE: Nubank — conta e cartão digital sem tarifas, com suporte 
+   humano via app, abertura em 2 minutos, produto desenhado como software.
+```
+
+**Como combinar Strategic Narrative com Storytelling Canvas:**
+
+O Strategic Narrative é o macro — define o posicionamento de categoria. O Storytelling Canvas é o micro — operacionaliza a narrativa para uma audiência e contexto específicos. Em prática:
+
+1. Construa o Strategic Narrative primeiro — essa é a tese da empresa
+2. Use o bloco "Mudança Paradigmática" como contexto para o Storytelling Canvas
+3. O Storytelling Canvas herda "Mundo antes" e "Tentativas falhas" do Strategic Narrative
+4. Para investidor: Strategic Narrative nos primeiros 3 slides do deck; Storytelling Canvas nos próximos 5
+5. Para o site: Strategic Narrative no hero section; Storytelling Canvas na página de cases/testimonials
+
 #### Erros comuns
 
 - Fazer a empresa o herói — ouvinte não se importa com a jornada da empresa; se importa com o problema do cliente.
@@ -1769,3 +1922,442 @@ A Theory Map **precede todos os outros canvases** — é o mapa que justifica po
 - *The Startup Owner's Manual* (Steve Blank & Bob Dorf, 2012) — externalização de apostas como prática de discovery.
 
 ---
+
+### CZ.17 — Capital Stack / Waterfall Canvas
+
+#### Origem histórica
+
+O Waterfall Canvas não tem um autor único — emerge da prática de M&A e de VC como ferramenta para visualizar a distribuição de valor entre diferentes classes de acionistas em um evento de liquidez. Advogados e banqueiros usam modelos de waterfall em planilhas desde os anos 1990; a versão em canvas surgiu da necessidade de tornar esse cálculo compreensível para fundadores em negociações de term sheet e de saída.
+
+#### O que é
+
+Tela visual que mapeia como o valor total de um evento de liquidez (venda da empresa, IPO, secondary) é distribuído entre os diferentes detentores de participação, respeitando a hierarquia de liquidation preferences. Permite simular múltiplos cenários de exit price e visualizar quem recebe quanto em cada um.
+
+```mermaid
+flowchart TD
+    E["Valor total do exit\nR$ ___M"]
+    E --> D1["1º Credores\n(dívidas, venture debt)"]
+    D1 --> D2["2º Preferred shareholders\ncom liquidation preference\n(investidores VC)"]
+    D2 --> D3["3º Preferred shareholders\nparticipating (se existir)"]
+    D3 --> D4["4º Common shareholders\n(fundadores, employees)"]
+    D4 --> D5["Remanescente pro-rata\nentre todos os holders"]
+```
+
+**Os seis campos do canvas:**
+
+- **Cap table atual**: % de cada classe (common, preferred Série Seed, Série A, etc.) e número de ações
+- **Liquidation preferences**: 1x, 2x ou participating — por classe e por investidor
+- **Anti-dilution adjustments**: se houve down round, qual é o ajuste de preço de conversão
+- **Option pool**: opções outorgadas, exercíveis, não-exercidas
+- **Preço de exit simulado**: faixa de cenários (pessimista, base, otimista)
+- **Distribuição resultante**: R$ por classe e por indivíduo em cada cenário
+
+#### Quando usar
+
+Use o Waterfall Canvas em três momentos: (1) **ao receber um term sheet** — para entender o impacto da liquidation preference proposta em diferentes cenários de exit; (2) **antes de iniciar processo de M&A** — para saber quanto cada sócio recebe em diferentes preços de oferta e identificar onde há conflito de interesse; (3) **ao converter SAFEs ou notas conversíveis** — para visualizar a diluição real e o impacto no cap table pós-conversão.
+
+#### Princípios
+
+**Primeiro: liquidation preference é o mecanismo mais importante que a maioria dos fundadores subestima.** Uma empresa vendida por R$ 50M com R$ 20M de preferred com 2x participating pode entregar menos de R$ 5M para o fundador que detém 30% do cap table. Sem o Waterfall Canvas, essa realidade só aparece no dia da assinatura.
+
+**Segundo: simule sempre pelo menos três cenários.** Exit @ 1x capital investido (resultado fraco), @ 3x (resultado bom), @ 10x (resultado excepcional). O comportamento das liquidation preferences é radicalmente diferente nesses três pontos.
+
+**Terceiro: o conflito de interesse entre fundadores e investidores é estrutural.** Investidores com preferred querem maximum protection; fundadores com common querem maximum upside. Modelar o waterfall revela onde os interesses divergem — antes da negociação, não durante.
+
+#### Como aplicar
+
+**Passo 1 — Montar o cap table completo:**
+
+| Holder | Classe | # Ações | % Fully Diluted | Liq. Pref. | Valor Pref. |
+|---|---|---|---|---|---|
+| Fundador A | Common | 4.000.000 | 30% | — | — |
+| Fundador B | Common | 3.000.000 | 22,5% | — | — |
+| Fundo Seed | Preferred A | 2.000.000 | 15% | 1x non-participating | R$ 3M |
+| Fundo Série A | Preferred B | 3.000.000 | 22,5% | 1x participating | R$ 12M |
+| Option pool | Common | 1.500.000 | 11,25% | — | — |
+
+**Passo 2 — Simular cenários de exit:**
+
+Para cada preço de venda simulado, calcular na sequência:
+
+1. Pagar liquidation preference de cada série preferred (ordem: mais recente primeiro, ou pari passu — checar o acordo de sócios)
+2. Se preferred for participating: dividir o remanescente pro-rata entre todos
+3. Se preferred for non-participating: comparar o resultado da preference com a conversão — o holder escolhe o maior
+4. Distribuir o remanescente entre common shareholders pro-rata
+
+**Exemplo simplificado — exit @ R$ 20M:**
+
+```text
+Exit: R$ 20M
+Dívidas: zero
+Preferred A (Seed): R$ 3M pref. 1x non-participating → recebe R$ 3M OU converte em 15%
+Preferred B (Série A): R$ 12M pref. 1x participating → recebe R$ 12M + participa no restante
+Remanescente após prefs: R$ 20M - R$ 3M - R$ 12M = R$ 5M
+  Preferred A: decide converter → 15% de R$ 20M = R$ 3M → igual à preference → indiferente
+  Preferred B (participating): 22,5% de R$ 5M = R$ 1,12M adicional
+  Common (fundadores + pool): 62,5% de R$ 5M = R$ 3,12M
+
+Distribuição total @ R$ 20M:
+  Fundo Seed: R$ 3M (15%)
+  Fundo Série A: R$ 12M + R$ 1,12M = R$ 13,12M (65,6%)
+  Fundadores + pool: R$ 3,12M (15,6%)
+  → Fundadores com 52,5% do cap table recebem 15,6% do exit
+```
+
+**Exit @ R$ 80M (mesmas condições):**
+
+```text
+Remanescente após prefs: R$ 80M - R$ 3M - R$ 12M = R$ 65M
+  Preferred A: 15% de R$ 65M = R$ 9,75M → melhor converter (R$ 9,75M > R$ 3M preference)
+  Preferred B: R$ 12M pref + 22,5% × R$ 65M = R$ 12M + R$ 14,6M = R$ 26,6M
+  Common: 62,5% × R$ 65M = R$ 40,6M
+  Fundadores (52,5% do common): ≈ R$ 33,8M
+  → Exit mais alto = common shareholders recuperam participação real
+```
+
+#### Erros comuns
+
+- Não modelar participating preferred separado de non-participating — a diferença é enorme em exits medianos.
+- Calcular dilution apenas como % do cap table — a % não conta onde está o dinheiro.
+- Ignorar o option pool não-exercido — em muitos acordos, opções não exercidas voltam para o common no momento do exit.
+- Usar o cap table "de memória" em vez do documento legal atual — cap tables têm erros; use o documento oficial.
+
+#### Conexão com outros canvases
+
+O Waterfall Canvas **usa o cap table atual** (não é um canvas de modelo de negócio) e **alimenta diretamente a negociação de term sheet** (Apêndice V e Template A.33). É o único canvas deste apêndice de natureza financeira — os demais são estratégicos ou operacionais.
+
+#### Leitura adicional
+
+- Template A.33 (Term Sheet Anotado) — cláusulas de liquidation preference e anti-dilution.
+- [[apendice-da|Apêndice DA]] — COCP como alternativa ao preferred.
+- [[apendice-db|Apêndice DB]] — stock options e impacto no cap table.
+- *Venture Deals* (Brad Feld & Jason Mendelson, 2019) — explicação definitiva de waterfall mechanics.
+
+---
+
+### CZ.18 — Network Effects Map
+
+#### Origem histórica
+
+O mapeamento sistemático dos tipos de efeitos de rede foi popularizado pela NFX (firma de venture capital de San Francisco) a partir de 2018, quando publicaram a taxonomia dos 16 tipos de network effects como framework para investidores e founders avaliarem a defensibilidade de modelos de negócio. O trabalho de James Currier e Pete Flint na NFX codificou décadas de observação empírica — de Metcalfe (Ethernet, 1980) a Reed (grupos, 1999) — numa estrutura acionável para startups. O Network Effects Map adapta essa taxonomia para formato visual em canvas, com foco brasileiro.
+
+#### O que é
+
+Tela visual que mapeia quais tipos de efeitos de rede um modelo de negócio captura, com que força, e como eles interagem. O objetivo não é apenas identificar "tem efeito de rede" — é entender qual tipo, qual a força relativa, e onde está o loop de reforço que torna o modelo defensável.
+
+**Os tipos principais de efeitos de rede (síntese da taxonomia NFX):**
+
+| Tipo | Mecanismo | Exemplos | Força |
+|---|---|---|---|
+| **Direto** | Cada usuário adicional aumenta o valor para todos os outros | WhatsApp, telefone | ●●●●● |
+| **Two-sided** | Dois grupos se beneficiam mutuamente (compradores/vendedores) | iFood, Mercado Livre | ●●●●○ |
+| **Data** | Mais dados = produto melhor = mais usuários = mais dados | Google Search, Waze | ●●●●○ |
+| **Tech Performance** | Mais uso = infraestrutura mais eficiente | CDNs, blockchain com proof-of-work | ●●●○○ |
+| **Language** | Plataforma vira padrão de vocabulário/formato | Slack (canais), GitHub (pull request) | ●●●○○ |
+| **Belief** | Valor existe porque todos acreditam (convenção social) | Bitcoin, moeda fiat | ●●●●● |
+| **Bandwagon** | Pressão social para adotar o que "todo mundo usa" | TikTok, tendências virais | ●●●○○ |
+| **Platform** | Desenvolvedores criam valor para usuários | iOS App Store, Salesforce AppExchange | ●●●●○ |
+
+```mermaid
+flowchart LR
+    subgraph Core["Núcleo do modelo"]
+        P["Produto / Plataforma"]
+    end
+    subgraph NE["Network Effects"]
+        D["Direto\n(usuário→usuário)"]
+        TS["Two-sided\n(lado A→lado B)"]
+        DA["Data\n(uso→melhoria)"]
+        PL["Platform\n(desenvolvedores)"]
+    end
+    P --> D
+    P --> TS
+    P --> DA
+    P --> PL
+    D -->|"reforça"| P
+    TS -->|"reforça"| P
+    DA -->|"reforça"| P
+    PL -->|"reforça"| P
+```
+
+#### Quando usar
+
+Use o Network Effects Map em dois momentos: (1) **ao desenhar o modelo de negócio** (Fase 2–5) — para identificar se e onde há loops de NE que podem ser construídos intencionalmente; (2) **ao preparar pitch de investimento** — investidores de VC avaliam defensibilidade, e NE são um dos principais mecanismos. Saber nomear e explicar o tipo de NE do seu modelo diferencia o fundador.
+
+#### Princípios
+
+**Primeiro: a maioria das startups não tem efeito de rede — tem economias de escala.** "Quanto mais clientes, mais barato o custo unitário" é escala, não NE. Efeito de rede requer que um usuário adicional torne o produto melhor para os outros. Confundir os dois é erro comum de pitch.
+
+**Segundo: NE two-sided são os mais comuns e os mais frágeis no início.** Marketplace sem compradores não atrai vendedores, e vice-versa. O chicken-and-egg problem é o desafio central de modelos two-sided. A solução geralmente é subsidiar um lado temporariamente (iFood subsidiou entregadores; Mercado Livre não cobrou comissão dos primeiros vendedores).
+
+**Terceiro: NE de dados são os mais subestimados.** Poucos fundadores percebem que o loop dados→modelo→produto→mais dados é um dos NE mais poderosos — e mais difíceis de copiar depois de certa escala.
+
+#### Como aplicar
+
+**Passo 1 — Listar todos os NE candidatos:** Para cada tipo na tabela acima, perguntar "nosso modelo tem isso?" e pontuar 0 (não tem), 1 (fraco / emergente) ou 2 (forte / comprovado).
+
+**Passo 2 — Mapear os loops:** Para cada NE identificado com score ≥ 1, desenhar o loop de reforço: Produto → [mecanismo] → mais usuários/dados → produto melhor.
+
+**Passo 3 — Identificar o NE dominante:** Qual é o loop mais forte? Qual é o que mais diferencia o modelo de um produto sem NE? Esse é o NE a comunicar para investidores e a proteger como moat.
+
+**Passo 4 — Identificar onde o NE ainda não existe:** Quais tipos poderiam ser construídos com mudanças de produto? Um SaaS B2B sem NE pode criar NE de dados (analytics de benchmark) ou NE de plataforma (marketplace de integrações).
+
+#### Exemplo brasileiro preenchido — iFood
+
+| Tipo de NE | Score | Mecanismo |
+|---|---|---|
+| Two-sided (restaurante ↔ consumidor) | ●●●●● | Mais restaurantes = mais opções = mais pedidos = mais receita para restaurantes = mais restaurantes |
+| Two-sided (consumidor ↔ entregador) | ●●●○○ | Mais pedidos = mais entregadores disponíveis = menor tempo de entrega = mais pedidos |
+| Data | ●●●○○ | Histórico de pedidos alimenta personalização de feed e estimativa de tempo de entrega |
+| Bandwagon | ●●○○○ | "Todo mundo pede pelo iFood" — pressão social para estar na plataforma |
+| **NE dominante** | — | Two-sided restaurante↔consumidor: o loop mais forte e mais defensável |
+
+**Insight do caso:** O NE mais forte do iFood não é o tecnológico (dados) — é o two-sided de distribuição (restaurante↔consumidor). Por isso, o moat principal é a cobertura geográfica de restaurantes — quem tem mais restaurantes em mais bairros vence a guerra de aquisição de consumidores. Isso explica por que iFood investiu agressivamente em onboarding de restaurantes mesmo com unit economics negativos no curto prazo.
+
+#### Erros comuns
+
+- Chamar escala de efeito de rede — confunde o time e o investidor.
+- Ter NE two-sided fraco no início e não subsidiar o lado correto.
+- Ignorar NE de dados enquanto constrói produto — os dados de hoje são o moat de amanhã.
+- Subestimar o chicken-and-egg: lançar em muitas cidades ao mesmo tempo dilui o NE two-sided — melhor dominar uma cidade completamente antes de expandir.
+
+#### Conexão com outros canvases
+
+O Network Effects Map **alimenta o Strategy Canvas (CZ.4)** — NE são uma das dimensões de competição onde a empresa pode criar distância; e **alimenta a Theory Map (CZ.16)** — o loop de NE é frequentemente uma das premissas centrais da teoria do negócio que precisa ser validada empiricamente (um NE que não se materializa é uma premissa falsa).
+
+#### Leitura adicional
+
+- NFX Bible (nfx.com/post/network-effects-bible) — taxonomia completa com 16 tipos e exemplos.
+- *The Cold Start Problem* (Andrew Chen, 2021) — como iniciar redes quando o NE ainda não existe.
+- *Platform Revolution* (Parker, Van Alstyne & Choudary, 2016) — NE em plataformas de dois lados.
+
+---
+
+### CZ.19 — Org Chart Evolution
+
+#### Origem histórica
+
+O Org Chart Evolution não é canvas de um autor único — é síntese de observações empíricas de como as estruturas organizacionais de startups evoluem com o crescimento. O trabalho de Greiner (*Evolution and Revolution as Organizations Grow*, Harvard Business Review, 1972), de Brian Chesky (Airbnb) sobre recentralização em crise, e de Camille Fournier (*The Manager's Path*, 2017) sobre progressão técnica formam a base. O canvas foi desenvolvido como ferramenta diagnóstica para fundadores que precisam responder à pergunta "que estrutura organizacional corresponde ao meu estágio?"
+
+#### O que é
+
+Série de quatro diagramas que mostram como a estrutura da empresa deve evoluir em quatro estágios de crescimento, com os princípios de design organizacional subjacentes a cada transição.
+
+**Os quatro estágios:**
+
+```mermaid
+flowchart LR
+    S1["Estágio 1\nPré-PMF\n<15 pessoas\nTudo no fundador"]
+    S2["Estágio 2\nPós-PMF\n15-40 pessoas\nPrimeiros líderes"]
+    S3["Estágio 3\nEscala inicial\n40-150 pessoas\nSquads e áreas"]
+    S4["Estágio 4\nEscala avançada\n150-500 pessoas\nDivisões e P&L"]
+    S1 --> S2 --> S3 --> S4
+```
+
+#### Estágio 1 — Pré-PMF (< 15 pessoas)
+
+**Princípio:** Todos fazem tudo. O fundador é o CEO, o CPO, o head de vendas e às vezes ainda escreve código. Não há hierarquia — há comprometimento.
+
+```mermaid
+flowchart TD
+    CEO["CEO/Fundador(es)"]
+    CEO --> T1["Eng/Produto (1-3)"]
+    CEO --> T2["Vendas/CS (1-2)"]
+    CEO --> T3["Operações/Admin (1)"]
+```
+
+**O que não montar aqui:**
+
+- VPs ou Heads antes de ter ~10 pessoas diretas para eles gerenciarem
+- Comitês de decisão — o fundador decide, rápido
+- Departamentos de RH, Jurídico, Financeiro próprios — terceirize
+
+**Sinal de que é hora de passar para Estágio 2:** Fundador não consegue mais falar com cada pessoa da empresa toda semana.
+
+#### Estágio 2 — Pós-PMF (15–40 pessoas)
+
+**Princípio:** Contratar os primeiros líderes funcionais. Eles ainda executam — não são gestores puros. O fundador ainda decide tudo estratégico, mas libera espaço operacional.
+
+```mermaid
+flowchart TD
+    CEO["CEO"]
+    CEO --> VP1["Head of Product\nou CTO"]
+    CEO --> VP2["Head of Sales\nou Head of Growth"]
+    CEO --> VP3["Head of Ops\nou COO eventual"]
+    VP1 --> E1["Eng 1"] & E2["Eng 2"] & E3["PM 1"]
+    VP2 --> S1["AE 1"] & S2["AE 2"] & S3["CS 1"]
+    VP3 --> O1["Ops 1"] & O2["Fin/Admin"]
+```
+
+**O que não montar aqui:**
+
+- Mais de 3-4 reports diretos do CEO — limite cognitivo real
+- Processo de performance review formal antes de 25 pessoas — overhead injustificado
+- Departamentos separados de Marketing, Brand, PR — concentre em Growth/Revenue
+
+**Sinal de que é hora de passar para Estágio 3:** Produto ou vendas têm mais de 8-10 pessoas e o head não consegue gerenciar diretamente + há conflito de prioridades entre áreas sem fórum de resolução.
+
+#### Estágio 3 — Escala inicial (40–150 pessoas)
+
+**Princípio:** Squads autônomos orientados a resultado. O fundador/CEO gerencia líderes, não output direto. Rituais formais de alinhamento (OKRs, weekly leadership, quarterly planning).
+
+```mermaid
+flowchart TD
+    CEO["CEO"]
+    CEO --> CPO["CPO"]
+    CEO --> CTO["CTO"]
+    CEO --> CRO["CRO / VP Sales"]
+    CEO --> CFO["CFO"]
+    CEO --> COO["COO / VP Ops"]
+    CPO --> PM1["Squad: Onboarding"] & PM2["Squad: Core Product"] & PM3["Squad: Growth"]
+    CTO --> EM1["Squad: Platform"] & EM2["Squad: Infra"] & EM3["Squad: Mobile"]
+    CRO --> S1["AE Team"] & S2["CS Team"] & S3["Marketing"]
+    CFO --> F1["Finance"] & F2["BI/Analytics"]
+    COO --> O1["HR/People"] & O2["Legal"] & O3["Admin"]
+```
+
+**O que não montar aqui:**
+
+- Mais de 5-6 reports diretos do CEO — atenção fica diluída
+- Estrutura matricial complexa (funcional + por produto) — cria conflito de autoridade sem benefício
+- P&L separado por produto — ainda cedo para accountability de margem por divisão
+
+**Sinal de que é hora de passar para Estágio 4:** Mais de uma linha de produto / mercado com lógicas de go-to-market distintas, ou headcount acima de 150 com decisões cruzando mais de 3 camadas hierárquicas.
+
+#### Estágio 4 — Escala avançada (150–500 pessoas)
+
+**Princípio:** Divisões com P&L próprio. O CEO gerencia um "portfólio" de negócios, não um único produto. Cada divisão tem sua liderança completa. Governança corporativa formal (board, comitês, auditoria).
+
+```mermaid
+flowchart TD
+    CEO["CEO"]
+    CEO --> COO["COO\n(operações compartilhadas)"]
+    CEO --> CFO["CFO"]
+    CEO --> CHRO["CHRO"]
+    CEO --> DIV1["GM: Divisão A\n(produto principal)"]
+    CEO --> DIV2["GM: Divisão B\n(novo mercado)"]
+    CEO --> DIV3["GM: Divisão C\n(enterprise)"]
+    DIV1 --> D1["Product + Eng + Sales + CS"]
+    DIV2 --> D2["Product + Eng + Sales + CS"]
+    DIV3 --> D3["Product + Eng + Sales + CS"]
+    COO --> SH["Shared: Infra, Legal,\nFinance, HR, IT"]
+```
+
+#### Armadilhas transversais
+
+1. **Contratar sênior antes do time.** VP de Marketing sem time de marketing produz overhead e frustração. Contrate o líder quando já tem 3-5 pessoas para liderar.
+2. **Reorganizar em crise.** Reorg consome 3-6 meses de energia. Se a empresa está em crise, reorg piora antes de melhorar. Resolva o problema, depois reorganize.
+3. **Copiar estrutura de empresa maior.** Spotify Model, Amazon Two-Pizza Teams — são para outra escala. Em 30 pessoas, tribe e squad são burocracia vazia.
+4. **Manter estrutura de Estágio 1 na Fase de Escala.** Fundador que ainda gerencia 15 ICs diretamente a 50 pessoas é gargalo — não liderança.
+
+#### Conexão com outros canvases
+
+O Org Chart Evolution **complementa o Team Canvas (CZ.8)** — o Team Canvas define propósito e valores do time atual; o Org Chart Evolution define a estrutura que o time assume conforme cresce. **Alimenta o Apêndice J** (organizações em escala) e as [[fases/fase-13|Fase 13]] e [[fases/fase-14|Fase 14]].
+
+#### Leitura adicional
+
+- *The Manager's Path* (Camille Fournier, 2017) — progressão de carreira técnica e estruturas de eng.
+- *High Output Management* (Andy Grove, 1983) — gestão por output, não por atividade.
+- [[apendice-j|Apêndice J — Organizações em escala: de 20 a 500 pessoas]].
+
+---
+
+### CZ.20 — Wardley Map
+
+#### Origem histórica
+
+Simon Wardley desenvolveu o Wardley Mapping entre 2005 e 2007 enquanto era CEO da Fotango (subsidiária da Canon). Frustrado com a incapacidade de ferramentas estratégicas existentes (SWOT, Porter, BCG Matrix) de capturar a dinâmica de evolução tecnológica, Wardley criou um sistema de mapeamento que combina posicionamento de componentes com seu estágio evolutivo. O primeiro paper foi publicado em 2008; o livro *Wardley Maps* foi disponibilizado gratuitamente em 2020. A ferramenta é amplamente usada em engenharia de plataforma, estratégia de produto e tomada de decisão de build/buy/partner.
+
+#### O que é
+
+Mapa bidimensional onde o eixo X representa o estágio evolutivo de um componente (da esquerda — genesis/custom, para a direita — commodity/utility) e o eixo Y representa a visibilidade para o usuário (de cima — mais visível, para baixo — infraestrutura invisível). Os componentes são conectados por linhas de dependência, criando uma cadeia de valor visível.
+
+```mermaid
+flowchart TB
+    subgraph WM["Wardley Map — eixos"]
+        direction LR
+        subgraph Y["↑ Visível para o usuário"]
+            U["Usuário / Cliente"]
+        end
+        subgraph Meio["Componentes de valor"]
+            A["Componente A\n(Custom — Genesis)"]
+            B["Componente B\n(Produto)"]
+            C["Componente C\n(Commodity)"]
+        end
+        subgraph Base["↓ Infraestrutura"]
+            I["Componente D\n(Utility)"]
+        end
+        U --> A
+        A --> B
+        B --> C
+        C --> I
+    end
+```
+
+**Os quatro estágios evolutivos:**
+
+| Estágio | Característica | Exemplos |
+|---|---|---|
+| **Genesis** | Novo, incerto, experimental. Vantagem competitiva se funcionar. | LLMs em 2020, blockchain em 2015 |
+| **Custom Built** | Feito sob medida para cada usuário. Caro, difícil de escalar. | Engenharia de dados customizada, algoritmos proprietários |
+| **Product** | Produto definido, repetível, com variações. Mercado existe. | SaaS B2B, frameworks de ML |
+| **Commodity/Utility** | Padrão de mercado, intercambiável, comprado por preço. | Cloud computing, email, pagamentos |
+
+#### Quando usar
+
+Use o Wardley Map em dois contextos: (1) **decisão de build vs. buy vs. partner** — para cada componente da stack, o estágio evolutivo indica a estratégia correta: construir no Genesis/Custom (diferenciação), comprar/licenciar no Product (time-to-market), usar commodity/utility (sem fricção); (2) **planejamento de plataforma** — para visualizar quais componentes vão se tornar commodity e onde a vantagem competitiva vai se deslocar nos próximos 3-5 anos.
+
+#### Princípios
+
+**Primeiro: tudo evolui da esquerda para a direita.** Um componente que é Genesis hoje (LLMs em 2023) se torna Commodity mais rápido do que parece (LLM-as-a-service via API em 2025). Estratégia baseada em componentes que estão evoluindo para commodity é estratégia baseada em areia movediça.
+
+**Segundo: construa no Genesis, compre no Product, use utilities.** Investir em construir internamente algo que já é commodity é desperdício de capital e talento. O mapa torna essa decisão visual — e discutível.
+
+**Terceiro: a vantagem competitiva está nos componentes à esquerda que seus concorrentes ainda não têm.** Mas atenção: componente Genesis é arriscado porque pode não evoluir para Product, pode demorar mais do que o planejado, ou pode ser ultrapassado por nova abordagem.
+
+#### Como aplicar
+
+**Passo 1 — Identificar o usuário e suas necessidades:** O que o usuário precisa? (ex: "pagamento de fornecedores aprovado em < 1 hora")
+
+**Passo 2 — Mapear a cadeia de valor:** Quais componentes entregam essa necessidade? Decomponha recursivamente: necessidade → componentes de produto → componentes de tecnologia → infraestrutura.
+
+**Passo 3 — Posicionar cada componente no eixo X:** Para cada componente, determinar se é Genesis, Custom, Product ou Commodity no mercado atual.
+
+**Passo 4 — Identificar movimentos estratégicos:**
+
+- Componentes Custom/Genesis onde há diferenciação: proteger e investir
+- Componentes Product que concorrentes têm e você não: acelerar adoção
+- Componentes que estão evoluindo para Commodity: parar de construir internamente, migrar para solução de mercado
+- Gaps na cadeia de valor: onde há componentes ausentes que impedem a entrega?
+
+**Passo 5 — Simular o mapa em 3 anos:** Como cada componente vai ter evoluído? Onde vai surgir nova diferenciação?
+
+#### Exemplo brasileiro — Startup de crédito (simplificado)
+
+| Componente | Estágio atual | Estratégia |
+|---|---|---|
+| Modelo de crédito proprietário | Custom → Product | Construir internamente — diferenciação |
+| Análise de dados alternativos (redes sociais, telecom) | Genesis → Custom | Investir — moat potencial |
+| Engine de decisão de crédito (regras) | Product → Commodity | Avaliar plataformas de mercado (Experian, Serasa APIs) |
+| Infraestrutura de open banking | Commodity | Usar APIs do Banco Central — não construir |
+| Antifraude | Product | Licenciar (Konduto, Sift) — não construir |
+| App mobile | Product | Construir UX própria; usar componentes de produto para funcionalidades não-diferenciadoras |
+
+**Insight:** A startup gasta engenharia em antifraude (Product → Commodity) quando deveria gastar em dados alternativos (Genesis → Custom). O Wardley Map torna essa má alocação visível — e debatível com o board.
+
+#### Erros comuns
+
+- Mapear tudo como "nós construímos" por orgulho técnico — não há vantagem em reinventar commodity.
+- Confundir "é importante" com "deve ser Genesis" — um componente pode ser crítico e ser commodity.
+- Fazer o mapa uma vez e nunca atualizar — o eixo X muda ao longo do tempo; o mapa envelhece.
+- Usar o Wardley Map para decisões táticas — é ferramenta estratégica, de horizonte 1-3 anos, não de sprint.
+
+#### Conexão com outros canvases
+
+O Wardley Map **complementa o Strategy Canvas (CZ.4)** — o Strategy Canvas mostra onde competir em dimensões do mercado; o Wardley Map mostra como a tecnologia e os componentes evoluem. **Alimenta decisões de make/buy/partner no Apêndice CC** (Plataforma vs. Produto) e no [[apendice-cr|Apêndice CR — Engineering Management]].
+
+#### Leitura adicional
+
+- *Wardley Maps* (Simon Wardley, 2020) — disponível gratuitamente em medium.com/@swardley.
+- *Team Topologies* (Skelton & Pais, 2019) — estrutura organizacional alinhada à topologia do sistema.
+- [[apendice-cc|Apêndice CC — Plataforma vs. Produto]].
+- Ferramenta online: onlinewardleymaps.com

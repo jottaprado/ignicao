@@ -364,6 +364,37 @@ Qualitative proof. Cinco a dez quotes de clientes, com permissão, sobre impacto
 > [!warning] Founder que apresenta "temos PMF" sem esses artefatos
 > É founder que ainda não mediu PMF rigorosamente. Investidor calibrado percebe em cinco minutos.
 
+### Declaração formal de PMF — critérios mínimos e scorecard
+
+PMF não é sentimento. É estado mensurável. Muitos founders declaram PMF prematuramente porque querem fechar rodada, contratar time, ou simplesmente parar de carregar a incerteza. Declarar PMF cedo demais leva a escalar produto quebrado — o erro mais caro que existe em startup.
+
+Esta seção oferece um scorecard explícito. Para declarar PMF com confiança, você precisa de evidência em pelo menos 4 das 6 dimensões. Cada dimensão tem critério mínimo de passagem.
+
+| Dimensão | Critério mínimo de passagem | Como medir | Seu número |
+|---|---|---|---|
+| **Retenção** | Curva de retenção estabiliza acima de 25% em D30 (consumer) ou 40% em D90 (B2B) | Cohort analysis por data de primeira sessão/ativação | — |
+| **Percepção de indispensabilidade** | ≥ 40% de usuários ativos responderiam "muito decepcionado" se produto deixasse de existir (Sean Ellis Test) | Survey com amostra de ≥ 50 usuários ativos | — |
+| **Crescimento orgânico** | ≥ 20-30% de novas aquisições via indicação ou busca orgânica sem ação ativa da empresa | Rastrear source em onboarding | — |
+| **Disposição de pagar** | Clientes renovam e não pedem desconto por iniciativa própria; churn logo ≤ 5%/mês | Taxa de renovação no fim do primeiro período contratado | — |
+| **Expansão natural** | ≥ 25% dos clientes expandem uso (mais usuários, mais módulos, mais volume) sem ação de vendas | NRR > 100% em base de 6+ meses | — |
+| **Feedback qualitativo** | ≥ 5 clientes conseguem articular problema resolvido em linguagem que você não ensinou | Entrevistas com clientes de 3+ meses | — |
+
+**Como usar o scorecard.**
+
+Preencha a coluna "Seu número" com dados reais antes de qualquer declaração de PMF. Se você não tem o dado, não tem PMF — tem hipótese de PMF.
+
+Passando em 4 ou mais: PMF confirmado para o segmento onde foi medido. Prepare-se para escalar com cuidado de preservar as condições que geraram o PMF.
+
+Passando em 2-3: PMF parcial ou nascente. Continue otimizando. Não escale ainda. Identifique qual dimensão está mais próxima do threshold — ela indica o próximo experimento.
+
+Passando em 0-1: sem PMF. Volte para discovery. O problema mais provável: produto resolve um problema, mas não o problema certo, ou não com intensidade suficiente.
+
+> [!important] PMF é segmento-específico
+> Você pode ter PMF em pequenas padarias de SP e não ter PMF em restaurantes do Rio. PMF não é propriedade da empresa — é propriedade da combinação produto × segmento × momento. Ao escalar, monitore se o PMF se mantém conforme o segmento se expande. Frequentemente não se mantém — e a empresa precisa ajustar produto para o novo segmento, não apenas copiar o playbook anterior.
+
+> [!warning] O custo de declarar PMF cedo
+> Fundar contrata VP de Sales, VP de Marketing e começa a escalar aquisição antes de ter PMF. Resultado: CAC explode (produto não converte), churn dispara (produto não retém), runway some (burn alto sem retorno). Série B travada porque métricas mostram que a escala não funcionou. Retrair é mais caro e mais doloroso do que esperar.
+
 ### PERGUNTAS A RESPONDER
 
 - Eu atingi PMF? Qual é o indicador mais forte, e mais honesto?

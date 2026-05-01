@@ -179,6 +179,31 @@ Incentivos. Monetários (comissão, desconto, crédito). Reconhecimento (logo no
 > [!warning] Não pedir advocacy a conta amarela ou vermelha
 > Advocacy exige conta saudável. Pedir referência a cliente em estado amarelo, ou vermelho, queima o relacionamento, e gera referência negativa. Espere o cliente estar em verde sustentado por três meses, antes de pedir caso público, ou indicação.
 
+#### 8. CS-Led Growth, expansão como motor de receita
+
+CS-Led Growth (CSG) é o modelo onde a função de Customer Success, e não a de Sales ou Marketing, é o principal motor de crescimento de receita. Contrapõe-se ao modelo Sales-Led Growth (crescimento via outbound e ciclos de venda) e ao Product-Led Growth (crescimento via adoção orgânica do produto). Em SaaS B2B maduro com base instalada relevante, CSG frequentemente produz o maior ROI por real investido porque expande receita em clientes que já compraram e já confiam.
+
+**A lógica financeira.** Vender para cliente existente custa 5 a 25 vezes menos do que adquirir novo cliente. Expansion MRR a partir de base existente tem CAC próximo de zero. NRR acima de 110% significa que a empresa cresce sem nenhum novo cliente — cada cliente existente cresce 10% ao ano só via expansion. Para SaaS maduro, NRR é o indicador mais preditivo de enterprise value: cada ponto percentual de NRR representa múltiplos de valuation.
+
+**Mecanismos de CS-Led Growth em seis peças.**
+
+*Expansion motion estruturada*: o CSM tem quota de expansion, não só de renewal. A conversa não é "está tudo bem?" mas "você está usando 40% do que contratou — os outros 60% resolveriam [problema identificado]." Expansion em QBR não é venda — é derivação de valor já entregue para oportunidade adjacente.
+
+*Land and expand deliberado*: vender o mínimo para entrar na conta (land), com plano explícito de expansão por módulo, time, ou uso. Em contratos enterprise, o CSM tem mapa de account com divisões, projetos e potencial de expansão por linha de produto.
+
+*Product-led CS hybrid*: o produto identifica automaticamente sinais de expansion (uso próximo do limite de usuários, features premium sendo testadas mas não contratadas, padrão de uso que indica caso de uso adicional) e dispara playbook de CS. CSM entra com contexto de dados, não em cold call.
+
+*Net Revenue Retention como OKR de CS*: NRR deixa de ser métrica de CS e vira North Star de produto, engenharia e CS simultaneamente. Feature que melhora adoption também melhora NRR. Feature que resolve dor crítica reduz churn. A função de CS passa a ter voz no roadmap de produto como consequência natural.
+
+*Advocacy como canal de aquisição*: CS que cria advocates estruturados (referrals formalizados, case studies, speakers em eventos) fecha o loop entre CS e aquisição. CAC via referral de cliente existente é 60-80% menor do que via outbound. Programa estruturado: advocate → referral → novo logo → novo advocate.
+
+*Executive sponsors*: para contas acima de R$ 50-100k ARR, CSM sênior ou executivo da empresa mantém relacionamento com C-level do cliente. Objetivo: visibilidade de risco de churn, e oportunidade de expansion, antes que apareçam nos dados.
+
+**Quando CSG se torna o motor primário.** Base instalada acima de R$ 5M ARR. NRR atual entre 90-110% (espaço para otimizar). Produto com expansão natural (usuários, módulos, volume, ou regiões). CAC de novos logos crescendo (eficiência de aquisição diminuindo). Equipe de CS com 3+ CSMs que podem ter quota individual de expansion.
+
+> [!tip] CSG não substitui aquisição
+> CS-Led Growth é motor de expansão, não motor de aquisição. Empresa que para de adquirir novos logos e aposta só em expansion cria dependência de base que envelhece. O modelo ideal: aquisição traz novos logos em taxa de reposição, CS expande e retém a base, o conjunto gera NRR acima de 115%.
+
 ### Métricas
 
 **Retention.** Gross Revenue Retention (GRR), receita retida sem expansion, alvo igual ou maior que noventa e cinco por cento em SaaS maduro. Net Revenue Retention (NRR), receita retida mais expansion, alvo igual ou maior que cento e dez por cento. Logo retention mensal, percentual de clientes retidos MoM. Churn rate (logo, e revenue).

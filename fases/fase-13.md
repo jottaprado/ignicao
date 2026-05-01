@@ -87,6 +87,41 @@ xychart-beta
 > [!warning] Conflito entre sócios é a segunda maior causa de morte de startups no mundo
 > Não pule o acordo. Casais que se separam sem contrato pré-nupcial passam por divórcio. Sócios que se separam sem acordo passam por anos de litígio. O [[#APÊNDICE BP — DISPUTA SOCIETÁRIA E SAÍDA DE SÓCIO|Apêndice BP]] cobre prevenção (cláusulas que evitam o conflito), mediação (quando o conflito chega) e mecânica jurídica de saída forçada.
 
+###### Metodologia de divisão de equity entre fundadores
+
+A divisão de equity entre cofundadores é uma das decisões mais carregadas e mais evitadas de Fase 0 e Fase 13. A maioria dos times acaba em 50/50 "para evitar conflito", o que frequentemente cria conflito exatamente porque nunca explicitaram as contribuições e expectativas reais de cada um.
+
+**Os quatro fatores que definem equity justo.**
+
+*Ideia*: quem teve a ideia original? Peso real: baixo a moderado. Ideias sem execução não valem muito — e o produto vai mudar radicalmente até o PMF. Peso sugerido: 5-15% da divisão relativa.
+
+*Comprometimento*: quem está dedicando mais tempo agora e no plano de longo prazo? Full-time vs. part-time faz diferença enorme. Um cofundador part-time por dois anos enquanto o outro está full-time é divisão estruturalmente injusta se o split é 50/50. Peso sugerido: 35-50% da divisão relativa.
+
+*Habilidades e experiência*: quem traz o que a empresa mais precisa agora? CTO que constrói produto sozinho, CFO que levanta a rodada, CEO que fecha os primeiros clientes. Peso sugerido: 25-35% da divisão relativa.
+
+*Capital investido*: quem está colocando dinheiro na empresa? Dinheiro tem preço diferente de suor — mas deve ser considerado, idealmente como conversível ou nota separada, não misturado no equity de fundador. Peso sugerido: variável, geralmente separado do equity de fundador.
+
+**O método Slicing Pie (Mike Moyer, 2012).** Em vez de divisão fixa no começo, o Slicing Pie é um framework dinâmico: cada contribuição (horas, dinheiro, equipamento, IP) gera "fatias" proporcionais ao valor de mercado da contribuição. A divisão real só se consolida quando a empresa começa a gerar caixa ou capta investimento. Vantagem: elimina a especulação sobre quem vai contribuir mais. Desvantagem: requer tracking rigoroso de contribuições e pode criar complexidade se um cofundador sai cedo.
+
+**Processo estruturado de negociação do split.**
+
+Passo 1: cada cofundador, individualmente e sem discussão prévia, responde quatro perguntas por escrito. (a) Qual é a minha contribuição mais crítica para a empresa nos próximos 24 meses? (b) Quantas horas semanais estarei dedicando, por quanto tempo? (c) Que habilidade ou ativo único estou trazendo que seria difícil de contratar no mercado? (d) Qual percentual eu acho justo para mim e por quê?
+
+Passo 2: compare as respostas em reunião facilitada. As divergências revelam expectativas não alinhadas — melhor descobrir agora do que em crise.
+
+Passo 3: chegue a um número com quatro proteções mínimas escritas no acordo: (a) vesting de 4 anos com cliff de 12 meses para todos, (b) cláusula de reverse vesting (equity não consolidado volta para o pool se o sócio sai), (c) mecanismo de compra de equity do sócio que sai (shooting mechanism ou buy-sell agreement), (d) critério explícito de quem tem casting vote em impasse.
+
+**Divisões comuns e quando cada uma faz sentido.**
+
+50/50: funciona quando os cofundadores têm contribuições realmente equivalentes e comprometimento idêntico, e quando há mecanismo de resolução de impasse definido (um tem casting vote em certas categorias).
+
+60/40 ou 70/30: mais honesto em situações onde há diferença clara de comprometimento, ideia, ou habilidade. A diferença de 10-20pp de equity é menos importante do que a clareza de expectativas.
+
+Fundador solo com pool para cofundador futuro: quando você começa sozinho mas antecipa cofundador, reservar 20-30% em pool com vesting para quem entrar formalmente.
+
+> [!tip] Não negocie equity em jantar
+> A conversa de divisão de equity deve acontecer em ambiente estruturado, com documentação. Acordos verbais em jantar geram memórias diferentes seis meses depois. Use um template de acordo ou leve para advogado desde o primeiro rascunho.
+
 ##### Contrato com clientes
 
 Termos de uso. Contratos de prestação de serviço. SLAs. Revisados por advogado.

@@ -58,6 +58,24 @@ Para empresas que captam em USD e operam no Brasil, as faixas podem ser substanc
 
 Revisar bandas anualmente. Mercado de engenharia no Brasil teve inflação salarial entre 2020-2022 (dolarização, remoto global), correção parcial em 2023-2024, manter bandas estáticas por dois anos é fonte garantida de saídas.
 
+#### Template de Career Ladder — Critérios por Dimensão
+
+A tabela a seguir é um template base para formalizar o career ladder. Adapte para a realidade da sua empresa, mas mantenha os três eixos (Escopo, Impacto, Autonomia) e exemplos concretos para cada level — critérios vagos produzem avaliações inconsistentes.
+
+| Level | Escopo | Impacto | Autonomia | Exemplo concreto |
+|---|---|---|---|---|
+| **L3 — Engineer** | Tarefa bem definida dentro de uma feature | Dentro do próprio time | Supervisionado; precisa de direcionamento frequente | Implementa endpoint específico dado design e spec claros |
+| **L4 — Senior Engineer** | Feature completa, end-to-end | No time; influencia decisões técnicas do squad | Independente em execução; pede ajuda em arquitetura | Define e implementa módulo de autenticação sem supervisão |
+| **L5 — Staff Engineer** | Sistema ou plataforma que serve múltiplos times | Multiplica times; muda como a organização resolve problemas | Define direção técnica de área; influencia roadmap | Redesenha a arquitetura de dados de toda a plataforma |
+| **L6 — Principal Engineer** | Estratégia técnica da empresa | Organizacional; altera trajetória técnica de longo prazo | Define direção; age com mínimo contexto | Lidera migração de monolito para microserviços em empresa de 150+ eng |
+| **L4 — Engineering Manager** | Time de 5-8 engineers | Saúde e performance do time; recrutamento | Gerencia pessoas; define processo do squad | Contrata 4 engineers, reduz cycle time do squad em 30% em 6 meses |
+| **L5 — Senior EM** | Múltiplos times ou squads | Cultura de engenharia em área | Gerencia outros gerentes; define estrutura organizacional | Estrutura três squads autônomos com missões claras |
+| **L6 — Director of Engineering** | Área de produto completa | Alinhamento eng × produto × negócio em escala | Define estratégia técnica de produto; representa eng no board | Entrega plataforma multitenancy que habilita expansão internacional |
+
+**Como usar o template.** Para cada avaliação, o manager preenche os critérios do nível atual da pessoa e do nível seguinte, e documenta evidências concretas para cada dimensão. A decisão de promoção compara evidências com critérios — não com a percepção de "está pronto". Sem evidências documentadas, calibration é inviável.
+
+**Promotion process.** Promoções não devem ser surpresa — manager e engineer concordam que a pessoa está "operando no próximo nível" com consistência antes da promoção formal. O processo típico: (1) manager identifica que engineer opera consistentemente no próximo nível por 2-3 meses, (2) manager elabora dossiê com evidências por dimensão, (3) calibration com outros managers para garantir consistência, (4) aprovação do director ou VP, (5) comunicação com o timeline de início da nova compensação. Promoções surpresa ou negadas sem feedback claro são as principais causas de saída de engenheiros seniores.
+
 #### Performance reviews
 
 A estrutura que funciona tem cadência semestral ou anual com cinco componentes. Self-review: o engenheiro escreve o que entregou, o impacto gerado e seus pontos de desenvolvimento. Manager review: avaliação do gerente direto, alinhada aos critérios do nível. Peer 360: feedback de três a cinco colegas próximos. Skip-level: conversa com o gerente do gerente, para capturar sinal que normalmente não sobe. Calibration: managers se reúnem em grupo para comparar notas e garantir consistência entre reviewers — sem calibration, gerente severo pune o próprio time e gerente leniente favorece o dele.
@@ -198,6 +216,28 @@ Headcount desalinhado. Crescer time sem sêniores suficientes para mentorar gera
 Ignorar DX interno. Toda hora gasta contornando o produto próprio é hora não produzindo valor.
 
 DX externo como afterthought. Em produto para dev, documentação é o produto. Tratar como "vamos fazer depois que tiver usuário" garante que não vai ter usuário.
+
+---
+
+#### Plano de Sucessão Técnica
+
+"Bus factor" é o número de pessoas que, se fossem atropeladas por um ônibus, pararia um sistema crítico ou área de negócio. Bus factor de 1 é risco existencial. Em engenharia, bus factor baixo é a norma não-gerenciada: o único que sabe como o pipeline de dados funciona, o único que conhece a API legada de pagamentos, o único que consegue deployar em produção em crise.
+
+**Diagnóstico do bus factor atual.** Para cada sistema crítico e área de conhecimento, mapear: (1) quem pode operar em produção sem ajuda, (2) quem pode debugar em crise sem ajuda, (3) quem pode refazer do zero se necessário. Qualquer coluna com apenas 1 nome é risco.
+
+**Estratégias de redução.**
+
+*Pair programming e mob programming rotativos*: conhecimento transfere quando duas pessoas trabalham no mesmo problema. Não precisa ser sistemático — uma sessão mensal de pair em áreas de bus factor alto é suficiente para começar. Mob programming (time inteiro em um problema complexo) é especialmente eficaz para sistemas legados opacos.
+
+*Runbooks e incident playbooks*: o "saber como deployar em crise" é frequentemente tácito. Forçar o expert a escrever o runbook como se outra pessoa fosse usar transforma conhecimento tácito em explícito. Regra: nenhum sistema em produção sem runbook de incident response.
+
+*Rotação de on-call*: quem não foi on-call em um sistema não conhece os modos de falha. Rotação de on-call com shadowing por engenheiros fora da squad que construiu o sistema é a melhor forma de distribuir conhecimento operacional.
+
+*Architecture decision records (ADRs)*: documentar não apenas o que foi decidido, mas por quê — as alternativas consideradas, os trade-offs, o contexto do momento. Quem chega depois entende a história, não apenas o estado atual.
+
+**Sucessão para papel de CTO ou Tech Lead sênior.** Para o papel mais crítico de conhecimento concentrado, o plano deve incluir: (1) identificar internamente 1-2 candidatos de longo prazo, (2) dar-lhes exposição gradual às responsabilidades de liderança técnica (representação em board, decisões de arquitetura), (3) documentar decisões estratégicas com raciocínio, para que successor entenda o "why" além do "what". Em scaleup, o CTO que não tem sucessor planejado é risco para a empresa inteira — especialmente em M&A, onde adquirente avalia dependência de pessoa-chave.
+
+**Quando não há candidato interno.** Contratação de Staff ou Principal Engineer com mandato explícito de distribuir conhecimento antes de escalar. Consultant ou advisor técnico temporário para documentar sistemas legados. Engineering manager que faz pair sistemático com o technical lead para aprender suficiente para gerenciar em ausência.
 
 ---
 
