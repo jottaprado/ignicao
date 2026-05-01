@@ -4,10 +4,10 @@
 
 ### O manual operacional do empreendedor brasileiro
 
-*Do pré-zero ao exit. 17 fases · 91 apêndices · 400 mil palavras.*
+*Do pré-zero ao exit. 17 fases · 109 apêndices · 400 mil palavras.*
 
 [![Licença CC BY-NC-SA](https://img.shields.io/badge/licença-CC%20BY--NC--SA%204.0-orange.svg)](LICENSE.md)
-[![Versão](https://img.shields.io/badge/versão-3.0-blue.svg)](CHANGELOG.md)
+[![Versão](https://img.shields.io/badge/versão-3.1-blue.svg)](CHANGELOG.md)
 [![Idioma](https://img.shields.io/badge/idioma-Português%20BR-green.svg)](#)
 [![PRs Bem-vindos](https://img.shields.io/badge/PRs-bem--vindos-brightgreen.svg)](CONTRIBUTING.md)
 
@@ -28,7 +28,7 @@ N�o é leitura linear. É enciclopédia de consulta. Você abre no momento do 
 O que está aqui:
 
 - **17 fases** com método, métricas e armadilhas para cada momento da jornada
-- **91 apêndices** temáticos: captação, LGPD, layoffs, exit, deep tech, healthtech, agritech e mais
+- **109 apêndices** temáticos: captação, LGPD, layoffs, exit, deep tech, healthtech, agritech, govtech, cleantech, legaltech e mais
 - **58 diagramas** Mermaid — renderizam direto no GitHub
 - **165 frameworks** contextualizados: de Porter e JTBD a CAC/LTV e unit economics
 - **Casos brasileiros** com análise honesta: Nubank, iFood, Stone, Hotmart, Natura, Magazine Luiza, Wildlife, Peixe Urbano, 99, Loggi, Olist e outros
@@ -110,6 +110,13 @@ Você quer sair                 → Fase 16 + Apêndice BR
 | [AE](apendices/apendice-ae.md) | Marketplace dynamics e risco de plataforma |
 | [CL](apendices/apendice-cl.md) | Pivot: quando, como e quanto custa esperar |
 | [S](apendices/apendice-s.md) | Category design: como criar uma categoria nova |
+| [X](apendices/apendice-x.md) | Pricing strategy como disciplina |
+| [CB](apendices/apendice-cb.md) | Subscription economy em profundidade: além do "cobra mensalmente" |
+| [CK](apendices/apendice-ck.md) | B2B2C: quando sua empresa vende para empresa que vende para consumidor |
+| [F](apendices/apendice-f.md) | Abordagem científica vs Lean Startup: quando usar cada uma |
+| [G](apendices/apendice-g.md) | Framework de decisão por gates: Problem Core, Scale Levers, Exploratory |
+| [AF](apendices/apendice-af.md) | ESG, impact e governança para startup |
+| [BE](apendices/apendice-be.md) | Open source como estratégia de go-to-market |
 
 </details>
 
@@ -129,6 +136,16 @@ Você quer sair                 → Fase 16 + Apêndice BR
 | [DF](apendices/apendice-df.md) | Instrumentos de captação: SAFE, nota conversível e mútuo conversível |
 | [DG](apendices/apendice-dg.md) | Tributação do exit para fundadores brasileiros: ganho de capital, holding e offshore |
 | [DH](apendices/apendice-dh.md) | Mercado secundário e liquidez antecipada para founders e early employees |
+| [CS](apendices/apendice-cs.md) | Bootstrap vs Venture Capital: a escolha fundacional |
+| [AN](apendices/apendice-an.md) | Modelagem financeira operacional: drivers, cenários e instrumento de decisão |
+| [BB](apendices/apendice-bb.md) | Venture debt e Revenue-Based Financing (RBF) |
+| [CF](apendices/apendice-cf.md) | Planejamento de rodada como processo: fundraising estruturado |
+| [CD](apendices/apendice-cd.md) | Modelagem financeira com cohorts: projeções para empresa recorrente |
+| [CI](apendices/apendice-ci.md) | Equity crowdfunding no Brasil: captação pública de pequenos investidores |
+| [BT](apendices/apendice-bt.md) | Hedging cambial e gestão de moeda multicountry |
+| [BY](apendices/apendice-by.md) | Tesouraria em escala: caixa multi-moeda e multi-conta |
+| [BW](apendices/apendice-bw.md) | Fraude interna e controles internos |
+| [CW](apendices/apendice-cw.md) | Crise e continuidade: prevenção, resposta e recuperação |
 
 </details>
 
@@ -142,6 +159,12 @@ Você quer sair                 → Fase 16 + Apêndice BR
 | [CQ](apendices/apendice-cq.md) | Relações públicas, marca e narrativa institucional |
 | [BM](apendices/apendice-bm.md) | Comunicação pública do fundador |
 | [CU](apendices/apendice-cu.md) | Internacionalização: estrutura e produto |
+| [AA](apendices/apendice-aa.md) | Customer Success como disciplina: expansão e renovação em SaaS B2B |
+| [AR](apendices/apendice-ar.md) | Content marketing e SEO como canal de aquisição |
+| [AS](apendices/apendice-as.md) | Community building como canal de aquisição e feedback |
+| [AY](apendices/apendice-ay.md) | Marketing de performance em profundidade |
+| [CX](apendices/apendice-cx.md) | Canais indiretos e parcerias: parcerias, franquias e channel |
+| [CY](apendices/apendice-cy.md) | Marca pessoal do fundador: distribuição, autoridade e custo de reputação |
 
 </details>
 
@@ -156,6 +179,14 @@ Você quer sair                 → Fase 16 + Apêndice BR
 | [BV](apendices/apendice-bv.md) | Layoffs e downsizing sem destruir a empresa |
 | [J](apendices/apendice-j.md) | Organizações em escala: de 20 a 500 pessoas |
 | [Y](apendices/apendice-y.md) | Saúde mental, cofundadores e humanidade do fundador |
+| [BN](apendices/apendice-bn.md) | Executive hiring: contratar líderes sênior e C-level |
+| [AP](apendices/apendice-ap.md) | Cultura como disciplina: comportamento agregado, não só valores |
+| [AM](apendices/apendice-am.md) | Board e Governance: composição, ritmo e gestão |
+| [AG](apendices/apendice-ag.md) | Remote, hybrid e distribuído como disciplina operacional |
+| [BU](apendices/apendice-bu.md) | Diversidade, equidade e inclusão (DEI) em startup brasileira |
+| [AL](apendices/apendice-al.md) | Rede, mentores e advisors: capital humano do empreendedor |
+| [R](apendices/apendice-r.md) | Founder Mode, delegação e quando parar de fazer |
+| [BQ](apendices/apendice-bq.md) | Gestão de tempo do fundador e operating cadence |
 
 </details>
 
@@ -172,6 +203,8 @@ Você quer sair                 → Fase 16 + Apêndice BR
 | [DB](apendices/apendice-db.md) | Stock options e ESOP no Brasil: instrumentos, tributação, vesting e gestão do cap table |
 | [DC](apendices/apendice-dc.md) | Propriedade Intelectual e INPI: marcas, patentes, segredo industrial e IP assignment |
 | [DJ](apendices/apendice-dj.md) | Não-concorrência e não-solicitação no Brasil: validade, estrutura e M&A |
+| [CV](apendices/apendice-cv.md) | Segurança da informação: da certificação à engenharia |
+| [BP](apendices/apendice-bp.md) | Disputa societária e saída de sócio |
 
 </details>
 
@@ -185,6 +218,8 @@ Você quer sair                 → Fase 16 + Apêndice BR
 | [BI](apendices/apendice-bi.md) | Empresa familiar e sucessão |
 | [BF](apendices/apendice-bf.md) | Second-time founder |
 | [DI](apendices/apendice-di.md) | Retenção de talentos após M&A: o que muda e o que se perde |
+| [BL](apendices/apendice-bl.md) | Search funds e ETA: empreendedorismo por aquisição de empresa existente |
+| [BA](apendices/apendice-ba.md) | Secondary e liquidez de founder antes do exit formal |
 
 </details>
 
@@ -208,6 +243,31 @@ Você quer sair                 → Fase 16 + Apêndice BR
 </details>
 
 <details>
+<summary><strong>🤖 IA, Dados e Tecnologia</strong></summary>
+
+| Apêndice | Tema |
+|---|---|
+| [I](apendices/apendice-i.md) | IA generativa como acelerador do empreendedor (2026) |
+| [CT](apendices/apendice-ct.md) | IA como co-piloto do fundador: uso diário e produtividade (2026) |
+| [CH](apendices/apendice-ch.md) | IA na engenharia interna: Copilot, agentes e produtividade de dev |
+| [AO](apendices/apendice-ao.md) | Dados, analytics e experimentação: stack moderno e métricas |
+| [BC](apendices/apendice-bc.md) | Technical debt como disciplina gerenciada |
+
+</details>
+
+<details>
+<summary><strong>🌱 Ecossistema e Jornada</strong></summary>
+
+| Apêndice | Tema |
+|---|---|
+| [AK](apendices/apendice-ak.md) | Aceleradoras, programas e parceiros institucionais para startup brasileira |
+| [CN](apendices/apendice-cn.md) | Diversidade de jornadas: casos além do cânone |
+| [D](apendices/apendice-d.md) | Armadilhas mentais e vieses cognitivos do empreendedor |
+| [H](apendices/apendice-h.md) | TRL e CRL: maturidade tecnológica e de mercado |
+
+</details>
+
+<details>
 <summary><strong>📚 Referência Rápida</strong></summary>
 
 | Recurso | Descrição |
@@ -220,6 +280,10 @@ Você quer sair                 → Fase 16 + Apêndice BR
 | [Checklist por Fase](apendices/apendice-b.md) | Sinais de saída e committed next move |
 | [Casos de Fracasso BR](apendices/apendice-ai.md) | 7 padrões arquetípicos com casos reais |
 | [Post-mortems BR](apendices/apendice-bh.md) | 12 casos em profundidade com diagnóstico |
+| [Recursos e Leituras](apendices/apendice-e.md) | Livros, artigos e recursos por tema para aprofundamento |
+| [Índice Remissivo](apendices/apendice-indice-remissivo.md) | Termos e conceitos com localização por fase e apêndice |
+| [Lista de Abreviações](apendices/apendice-lista-de-abreviacoes.md) | Siglas e abreviações usadas no livro |
+| [Bibliografia](apendices/apendice-bibliografia.md) | Referências completas das obras citadas |
 
 </details>
 
