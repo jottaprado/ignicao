@@ -6,6 +6,17 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/).
 
 ---
 
+## [3.2.1] — 2026-05-01
+
+### Corrigido
+
+- Sincronização completa do documento canônico com todos os arquivos modulares
+- Inseridos 21 apêndices ausentes do canônico: AA (Customer Success), AR (Content Marketing e SEO), AS (Community Building), CQ (Marca e PR), e os 17 apêndices DA-DQ do v3.1 (Marco Legal, Stock Options, PI, Investor Relations, IPO, SAFE/Nota Conversível, Tributação do Exit, Mercado Secundário, Retenção pós-M&A, Não-Concorrência, Govtech, Agritech, Edtech, Cleantech, Proptech, Legaltech, Logtech)
+- Propagadas 47 callouts de gancho (adicionadas nas fases durante v3.2) para o documento canônico em todas as 18 fases (0-16)
+- Canonical atualizado para 62.502 linhas e 150 apêndices confirmados
+
+---
+
 ## [3.2] — 2026-05-01
 
 ### Adicionado
