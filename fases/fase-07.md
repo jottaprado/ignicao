@@ -452,7 +452,7 @@ O que vem nas Fases 8 e 9. Agora que você sabe que o problema é real, e que as
 
 ### FERRAMENTAS DESTA FASE
 
-Experimentos de validação do problema são o coração da metodologia. Essa fase usa o maior número de ferramentas de pesquisa qualitativa do manual, com cross-ref individual para o tratamento profundo no Apêndice BG.
+Experimentos de validação do problema são o coração da metodologia. Doze ferramentas de pesquisa qualitativa: JTBD Switch Interviews (BG.6.2), Contextual Inquiry (BG.6.3), In-Depth Interviews (BG.6.6), Laddering Technique e Means-End Chain (BG.6.7), Focus Groups (BG.6.5), Grounded Theory (BG.9.1), Thematic Analysis (BG.9.2), Affinity Diagramming / KJ Method (BG.9.3), Empathy Mapping (BG.9.5), Assumption Mapping (BG.9.8), Pre-mortem (BG.5.3) e Expected Value (BG.5.7).
 
 The Mom Test (Rob Fitzpatrick, 2013). Protocolo de entrevista que evita respostas falsamente positivas. Perguntas sobre vida passada específica, não hipotéticos futuros. Use em toda entrevista de validação de problema. É a ferramenta número um desta fase. Ver BG.6.1.
 

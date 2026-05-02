@@ -372,7 +372,7 @@ Clareza da escolha final. Você consegue escrever em duas frases, sem hesitaçã
 
 ### FERRAMENTAS DESTA FASE
 
-Na geração e seleção de ideias-candidatas, ferramentas ajudam a sair da intuição em direção ao método e a estressar a candidata antes de comprometer meses ou anos. Oito ferramentas centrais, com cross-ref individual para o tratamento profundo no Apêndice BG.
+Esta fase aplica oito ferramentas para sair da intuição em direção ao método e estressar a candidata antes de comprometer meses ou anos: Idea → Wedge → Scale ([[#APÊNDICE L — IDEA → WEDGE → SCALE: O FRAMEWORK ANTLER COMO LENTE TRANSVERSAL|Apêndice L]]), Strategy Canvas (CZ.4 e BG.1.8), First Principles Thinking (BG.4.1), Inversion (BG.4.3), Wardley Mapping (BG.2.5), Three Horizons Framework (BG.2.4), The Mom Test (BG.6.1) e Lean Canvas mais BMC (CZ.2 e CZ.1).
 
 Idea → Wedge → Scale (Antler) — framework do programa Antler para guiar founders da ideia bruta até a cunha defensável e o caminho de expansão para mercado maior. Use como espinha de raciocínio quando você tem visão grande mas ainda não definiu o ponto de entrada estreito. Detalhamento no [[#APÊNDICE L — IDEA → WEDGE → SCALE (FRAMEWORK ANTLER)|Apêndice L]].
 

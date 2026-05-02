@@ -311,7 +311,7 @@ A lição transferível. Protótipo em papel revela falhas de experiência a R$ 
 
 ### FERRAMENTAS DESTA FASE
 
-Ideação e prototipagem de soluções exigem ferramentas de divergência mais convergência estruturadas. Nove ferramentas centrais, com cross-ref individual para o tratamento profundo no Apêndice BG.
+Ideação e prototipagem de soluções exigem ferramentas de divergência mais convergência estruturadas. Nove ferramentas: Design Thinking Double Diamond (BG.10.5), Google Design Sprint (BG.10.3), Working Backwards / PR-FAQ (BG.10.6), Opportunity Solution Tree (BG.10.2), Continuous Discovery Habits (BG.10.1), Dual-Track Agile (BG.10.9), Personas (BG.9.4), Customer Journey Mapping (BG.9.6) e Service Blueprinting (BG.9.7).
 
 Design Thinking Double Diamond (IDEO e British Design Council, 2005). Processo em quatro fases (Discover, Define, Develop, Deliver), divergindo e convergindo duas vezes. Use em problemas complexos que exigem exploração antes de solução. Ver BG.10.5.
 

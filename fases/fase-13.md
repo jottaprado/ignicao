@@ -329,7 +329,7 @@ A lição transferível. Estruturação jurídica e tributária cedo não é exc
 
 ### FERRAMENTAS DESTA FASE
 
-Estruturação jurídica, financeira, e operacional combina negociações críticas com primeiras decisões financeiras estruturais. Nove ferramentas centrais, com cross-ref individual para o tratamento profundo no Apêndice BG.
+Estruturação jurídica, financeira e operacional combina negociações críticas com primeiras decisões financeiras estruturais. Nove ferramentas, em três grupos: **Negociação** — Harvard Negotiation, BATNA e ZOPA (BG.15.1), Never Split the Difference (BG.15.2), Getting Past No (BG.15.4); **Decisão e análise financeira** — Cost-Benefit Analysis (BG.5.6), Expected Value e Bayesian Thinking (BG.5.7), Unit Economics (BG.18.1), LTV:CAC Ratio (BG.18.3), Cash Conversion Cycle (BG.18.8) e Burn Multiple (BG.18.4).
 
 ##### Negociação (BG.15)
 

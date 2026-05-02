@@ -289,7 +289,7 @@ A lição transferível. Ideia bem articulada em uma frase permite comparar cont
 
 ### FERRAMENTAS DESTA FASE
 
-Na articulação da ideia, ferramentas ajudam a estruturar o pensamento inicial e a evitar auto-engano com entusiasmo. Seis ferramentas centrais, com cross-ref individual para o tratamento profundo no Apêndice BG.
+Esta fase aplica seis ferramentas para estruturar a primeira articulação da ideia e evitar auto-engano: First Principles Thinking (BG.4.1), Blue Ocean Strategy / ERRC Grid (BG.1.8), Playing to Win (BG.2.1), Good Strategy / Bad Strategy (BG.2.2), Inversion (BG.4.3) e Pyramid Principle (BG.4.4).
 
 First Principles Thinking — pensamento a partir dos princípios básicos (Aristóteles, popularizado por Musk). Questione as suposições escondidas na formulação da ideia. Precisa ser SaaS (software vendido por assinatura)? Precisa ser B2B (venda para empresas)? Precisa ser no Brasil? Cada uma é suposição. Use na primeira articulação da ideia, antes de escrever o pitch. Ver BG.4.1.
 

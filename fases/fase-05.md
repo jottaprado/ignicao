@@ -658,7 +658,7 @@ Falha em qualquer etapa significa voltar à fase anterior, não pular adiante. C
 
 ### FERRAMENTAS DESTA FASE
 
-Mapeamento de mercado e concorrência é onde o ferramentário estratégico clássico mais brilha. Fase rica em aplicação de frameworks, com cross-ref individual para o tratamento profundo no Apêndice BG.
+Mapeamento de mercado e concorrência é onde o ferramentário estratégico clássico mais brilha. Treze ferramentas: Porter's Five Forces (BG.1.1), SWOT / TOWS (BG.1.2), PESTEL (BG.1.6), BCG Growth-Share Matrix (BG.1.3), Ansoff Matrix (BG.1.5), Value Chain Analysis (BG.1.7), Blue Ocean Strategy / ERRC (BG.1.8), Playing to Win (BG.2.1), 7 Powers (BG.2.3), Wardley Mapping (BG.2.5), Scenario Planning (BG.2.6), Core Competencies (BG.2.7) e Value Disciplines (BG.2.8).
 
 Porter's Five Forces (Michael Porter, 1979). Ferramenta para analisar a atratividade estrutural de uma indústria a partir de cinco forças: novos entrantes, fornecedores, compradores, substitutos, rivalidade. Use para avaliar se o setor é estruturalmente atraente. Ver BG.1.1.
 

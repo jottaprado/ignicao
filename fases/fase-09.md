@@ -373,7 +373,7 @@ O que vem na Parte II (Fases 10 a 14). Construir o MVP de verdade. Colocar em me
 
 ### FERRAMENTAS DESTA FASE
 
-Testes de solução e usabilidade exigem métodos específicos de UX research. Sete ferramentas centrais, com cross-ref individual para o tratamento profundo no Apêndice BG.
+Testes de solução e usabilidade exigem métodos específicos de UX research. Sete ferramentas: Usability Testing (BG.7.1), Heuristic Evaluation com 10 Heurísticas de Nielsen (BG.7.2), Cognitive Walkthrough (BG.7.3), Card Sorting (BG.7.4), Tree Testing (BG.7.5), Think-Aloud Protocol (BG.7.6) e System Usability Scale (BG.7.7).
 
 Usability Testing — teste de usabilidade (Nielsen e Norman). Usuários tentam completar tarefas enquanto o pesquisador observa. Cinco usuários identificam cerca de oitenta e cinco por cento dos problemas. Use em qualquer protótipo ou produto já navegável. É a ferramenta central desta fase. Ver BG.7.1.
 

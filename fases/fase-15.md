@@ -368,7 +368,7 @@ Transformações bem-feitas ainda enfrentam ciclos. Valor de mercado de empresas
 
 ### FERRAMENTAS DESTA FASE
 
-Reinvenção e segunda curva combinam estratégia, growth, posicionamento, e ferramentas de inovação. Onze ferramentas centrais, com cross-ref individual para o tratamento profundo no Apêndice BG.
+Reinvenção e segunda curva combinam estratégia, growth, posicionamento e ferramentas de inovação. Oito ferramentas: Ambidextrous Organization (BG.19.2), Three Horizons Framework (BG.2.4), Category Design (BG.12.7), Crossing the Chasm (BG.12.6), Blitzscaling (BG.12.5), Playing to Win (BG.2.1), Scenario Planning (BG.2.6) e Wardley Mapping (BG.2.5).
 
 ##### Inovação (BG.19)
 

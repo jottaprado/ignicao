@@ -524,7 +524,7 @@ O que vem na [[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]]. Product-Market Fit. On
 
 ### FERRAMENTAS DESTA FASE
 
-Validação do modelo de negócio exige mix de qualitativo e quantitativo. Oito ferramentas centrais, com cross-ref individual para o tratamento profundo no Apêndice BG.
+Validação do modelo de negócio exige mix de qualitativo e quantitativo. Oito ferramentas: Conjoint Analysis (BG.8.2), A/B Testing Rigoroso (BG.8.4), Survey Design (BG.8.1), Net Promoter Score (BG.8.5), Customer Effort Score (BG.8.6), Causal Inference / DiD / RDD / Propensity Score (BG.8.7), Assumption Mapping (BG.9.8) e JTBD Framework (BG.11.1).
 
 Conjoint Analysis (Paul Green) — técnica que revela o peso relativo de cada atributo do produto na decisão de compra e identifica a disposição a pagar real do cliente. Central para decisões de pricing e positioning. Ver BG.8.2.
 

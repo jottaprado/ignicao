@@ -419,7 +419,7 @@ A comunicação externa da cultura é arma de dois gumes. Atrai talento alinhado
 
 #### FERRAMENTAS DESTA SUBFASE (Time e Liderança)
 
-Time e liderança em escala é a frente central de Liderança. Quatorze ferramentas centrais, com cross-ref individual para o tratamento profundo no Apêndice BG.
+Time e liderança em escala é a frente central de Liderança. Quatorze ferramentas, em dois grupos: **Liderança e gestão de pessoas** — Radical Candor (BG.17.1), Situational Leadership (BG.17.2), 5 Dysfunctions of a Team (BG.17.3), Topgrading (BG.17.4), Who: A Method for Hiring (BG.17.5), Crucial Conversations (BG.17.6), Extreme Ownership (BG.17.7), The Hard Things About Hard Things (BG.17.8), Culture Code (BG.17.9), No Rules Rules (BG.17.10), Servant Leadership (BG.17.11) e Intent-Based Leadership (BG.17.12); **Negociação e decisões** — Harvard Negotiation com BATNA (BG.15.1) e DACI / RACI / RAPID (BG.5.5).
 
 ##### Liderança e gestão de pessoas (BG.17)
 
@@ -782,7 +782,7 @@ A lição transferível. Operação escalável é pré-requisito para internacio
 
 #### FERRAMENTAS DESTA SUBFASE (Operações)
 
-Operações, processos, e gestão em escala são a frente central de Operações. Catorze ferramentas centrais, com cross-ref individual para o tratamento profundo no Apêndice BG.
+Operações, processos e gestão em escala são a frente central de Operações. Catorze ferramentas, em dois grupos: **Operações e execução** — OKRs (BG.16.1), V2MOM (BG.16.2), EOS / Tração (BG.16.3), Scaling Up / Rockefeller Habits (BG.16.4), Management by Objectives (BG.16.5), Scrum (BG.16.6), Kanban (BG.16.7), DORA Metrics e SPACE Framework (BG.16.8), Amazon 6-Pager (BG.16.9), Weekly Business Review (BG.16.10) e 4 Disciplines of Execution (BG.16.11); **Complementos** — Hoshin Kanri (BG.3.1), Balanced Scorecard (BG.3.3) e Lean Analytics (BG.12.8).
 
 ##### Operações e execução (BG.16)
 
@@ -1316,7 +1316,7 @@ O resultado. O cap table (tabela de capitalização — quem detém quanto do eq
 
 #### FERRAMENTAS DESTA SUBFASE (Crescimento e Capital)
 
-Crescimento e capital é a frente central de Growth, Marketing, Sales, e Negociação. Combina com ferramentas financeiras essenciais para avaliar saúde da máquina de crescimento. Trinta e duas ferramentas centrais, com cross-ref individual para o tratamento profundo no Apêndice BG.
+Crescimento e capital é a frente central de Growth, Marketing, Sales e Negociação. Combina com ferramentas financeiras essenciais para avaliar saúde da máquina de crescimento. Trinta e duas ferramentas, em cinco grupos: **Growth e aquisição** — AARRR Pirate Metrics (BG.12.1), Growth Loops (BG.12.2), T2D3 (BG.12.3), Bullseye Framework (BG.12.4), Blitzscaling (BG.12.5), Crossing the Chasm (BG.12.6), Category Design (BG.12.7), Lean Analytics (BG.12.8) e Growth Hacking (BG.12.9); **Marketing e posicionamento** — Positioning de Ries e Trout (BG.13.1), Obviously Awesome de April Dunford (BG.13.2), StoryBrand (BG.13.3), Brand Archetypes (BG.13.4) e Content Marketing Flywheel (BG.13.5); **Sales** — BANT (BG.14.1), SPIN Selling (BG.14.2), Solution Selling (BG.14.3), Challenger Sale (BG.14.4), MEDDIC / MEDDPICC (BG.14.5), Sandler Selling System (BG.14.6) e Command of the Message (BG.14.7); **Negociação** — Harvard Negotiation, BATNA e ZOPA (BG.15.1), Never Split the Difference (BG.15.2), Ackerman Method (BG.15.3) e Getting Past No (BG.15.4); **Finanças** — Unit Economics (BG.18.1), Cohort Analysis (BG.18.2), LTV:CAC Ratio (BG.18.3), Burn Multiple (BG.18.4), Rule of 40 (BG.18.5), Magic Number (BG.18.6) e SaaS Quick Ratio (BG.18.7).
 
 ##### Growth e aquisição (BG.12)
 

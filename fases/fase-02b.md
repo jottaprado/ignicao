@@ -288,7 +288,7 @@ A lição transferível. Teoria explícita permite testar cada premissa isoladam
 
 ### FERRAMENTAS DESTA FASE
 
-Construir teoria do negócio exige raciocínio causal rigoroso. As ferramentas abaixo estruturam esse raciocínio e ajudam a evitar wishful thinking (pensamento ilusório — acreditar no que se quer acreditar), com cross-ref individual para o tratamento profundo no Apêndice BG.
+Construir teoria do negócio exige raciocínio causal rigoroso. Sete ferramentas estruturam esse raciocínio e ajudam a evitar wishful thinking (pensamento ilusório — acreditar no que se quer acreditar): First Principles Thinking (BG.4.1), MECE (BG.4.5), Pyramid Principle (BG.4.4), McKinsey 7-Step Problem Solving (BG.5.1), 5 Whys (BG.5.2), Cynefin Framework (BG.4.7) e Second-Order Thinking (BG.4.2).
 
 First Principles Thinking (raciocínio por princípios básicos): questione cada suposição da sua teoria. "Clientes vão pagar R$ X." Por que especificamente? Ver BG.4.1.
 
