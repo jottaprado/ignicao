@@ -21,7 +21,7 @@ ROOT = Path(__file__).parent
 DIRS = [ROOT / "fases", ROOT / "apendices"]
 
 # Campos que são metadados, não parte do framework de conteúdo
-META_FIELDS = {"data", "versão", "versao", "nome de trabalho", "nome"}
+META_FIELDS = {"data", "versão", "versao", "nome de trabalho", "nome", "resultado", "decisão", "decisao"}
 
 
 def extract_template_fields(text: str) -> list[str]:
@@ -50,7 +50,7 @@ def extract_example_labels(section: str) -> list[str]:
     labels = []
     for line in section.split("\n"):
         # "Campo: conteúdo real" ou "**Campo.** conteúdo" ou "Campo. conteúdo"
-        m = re.match(r"^\*?\*?([A-Za-záéíóúãõâêîôûàèçñÇÃÕÂÊÎÔÛÀÈ\s()/,]+?)[\.\:](?:\*\*)?\s+\S", line)
+        m = re.match(r"^\*?\*?([^\.\:\n\*\[\]{}]{2,60}?)[\.\:](?:\*\*)?\s+\S", line)
         if m:
             label = m.group(1).strip().lower()
             word_count = len(label.split())
