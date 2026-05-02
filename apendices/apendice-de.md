@@ -6,13 +6,13 @@ appendix: "DE"
 ## APÊNDICE DE — IPO NO BRASIL: QUANDO, COMO E O QUE MUDA
 
 > [!note] Posição no livro
-> Este apêndice complementa a [[fases/fase-16|Fase 16 — Exit Strategy]]. Cobre o IPO como caminho específico de exit, com foco no contexto brasileiro (B3, CVM, Novo Mercado). M&A como caminho de exit está na Fase 16 e no [[apendice-bj|Apêndice BJ]].
+> Este apêndice complementa a [[fases/fase-16|Fase 16 — Exit Strategy]]. Cobre o IPO (Initial Public Offering, ou oferta pública inicial de ações) como caminho específico de exit (evento de liquidez para os sócios), com foco no contexto brasileiro (B3, CVM, Novo Mercado). M&A (fusões e aquisições) como caminho de exit está na Fase 16 e no [[apendice-bj|Apêndice BJ]].
 
 ---
 
 ### IPO não é o objetivo — é um instrumento
 
-A maioria dos fundadores que contempla IPO o trata como meta de chegada. É um erro. IPO é um instrumento de liquidez e de acesso a capital público, com custo operacional permanente e restrições significativas de governança. Algumas empresas ficam melhores depois do IPO. Muitas ficam piores, porque foram a mercado cedo demais ou pelos motivos errados.
+A maioria dos fundadores que contempla IPO trata o evento como meta de chegada. É um erro. IPO é instrumento de liquidez e de acesso a capital público, com custo operacional permanente e restrições significativas de governança. Algumas empresas ficam melhores depois do IPO. Muitas ficam piores, porque foram a mercado cedo demais ou pelos motivos errados.
 
 A pergunta certa não é "quando vou abrir capital?" mas "o IPO é o melhor caminho para os meus objetivos específicos neste momento?".
 
@@ -24,8 +24,8 @@ O regulatório (CVM, B3) tem requisitos mínimos. O mercado tem requisitos impl�
 
 **Requisitos regulatórios (B3 Novo Mercado — padrão de referência):**
 
-- Free float mínimo de 25% após o IPO
-- Apenas ações ordinárias (ON) com tag along de 100%
+- Free float (ações em circulação no mercado) mínimo de 25% após o IPO
+- Apenas ações ordinárias (ON) com tag along (direito do minoritário de vender junto) de 100%
 - Board com mínimo 20% de conselheiros independentes (mínimo 5 membros)
 - Auditoria por empresa independente registrada na CVM
 - Divulgação em inglês de documentos relevantes

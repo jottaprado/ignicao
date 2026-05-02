@@ -6,29 +6,29 @@ appendix: "AF"
 ## APÊNDICE AF — ESG, IMPACT E GOVERNANÇA PARA STARTUP
 
 > [!note] Nota de validade
-> ESG é agenda em evolução rápida. Exigências de investidores variam por fundo, e estágio. Revisar anualmente. Especialmente pré-rodadas com fundos europeus.
+> ESG é agenda em evolução rápida. Exigências de investidores variam por fundo e estágio. Revisar anualmente, especialmente antes de rodadas com fundos europeus.
 
-ESG (Environmental, Social, Governance), e Impact, deixaram de ser "nice-to-have", para virarem fator em captação com fundos internacionais, em parcerias corporativas, e em atração de talento. Empresa brasileira mirando captação com Série A em diante de fundos globais, ou que quer atrair talento jovem, precisa tratar ESG como disciplina. Não marketing.
+ESG (Environmental, Social, Governance — sigla para Ambiental, Social e de Governança) e Impact (impacto socioambiental) deixaram de ser "nice-to-have" (algo desejável mas não essencial) para virarem fator em captação com fundos internacionais, em parcerias corporativas e em atração de talento. Empresa brasileira que mira captação com Série A em diante de fundos globais, ou que quer atrair talento jovem, precisa tratar ESG como disciplina, não marketing.
 
 ### O que esse apêndice cobre
 
 Três dimensões.
 
-1. Environmental. Pegada ambiental da operação (pegada carbono, e uso de recursos).
-2. Social. Impacto em colaboradores, clientes, comunidade, e diversidade.
-3. Governance. Estrutura de governança, transparência, e compliance.
+1. Environmental (ambiental). Pegada ambiental da operação (pegada de carbono e uso de recursos).
+2. Social. Impacto em colaboradores, clientes, comunidade e diversidade.
+3. Governance (governança). Estrutura de governança, transparência e compliance (conformidade regulatória).
 
-Em startup tech, ESG tipicamente foca em consumo de energia de infra (especialmente AI), práticas de contratação e diversidade, estrutura de board e governança, e transparência em dados, métricas, e reporting.
+Em startup tech, ESG tipicamente foca em consumo de energia de infraestrutura (especialmente IA), práticas de contratação e diversidade, estrutura de board e governança, e transparência em dados, métricas e reporting.
 
 ### POR QUE
 
-Os fundos ESG-focused cresceram em trilhões globalmente. Acessar esse capital exige minimamente ESG report.
+Os fundos focados em ESG cresceram em trilhões globalmente. Acessar esse capital exige minimamente um ESG report (relatório ESG).
 
-Os clientes enterprise pedem ESG statement em DD.
+Os clientes enterprise pedem ESG statement (declaração ESG) em DD (due diligence, processo de auditoria pré-investimento ou pré-aquisição).
 
 O talento geracional valoriza empresa com propósito articulado.
 
-A regulação emergente (CSRD europeia, e SEC climate disclosure) cria obrigações crescentes.
+A regulação emergente (CSRD europeia e SEC climate disclosure) cria obrigações crescentes.
 
 ### Quando usar
 
@@ -40,7 +40,7 @@ Série B em diante. Report formal, ou B Corp certification (se apropriado).
 
 ### Quem envolve
 
-CEO, mais Head of People, responsáveis por social. CTO por environmental (infra). Board, mais advogados, por governance. Consultoria ESG (Sistema B, B Lab, ou empresas especializadas) para frameworks formais.
+CEO e Head of People (líder de pessoas) são responsáveis por social. CTO por environmental (infra). Board e advogados por governance. Consultoria ESG (Sistema B, B Lab, ou empresas especializadas) para frameworks formais.
 
 ### Como executar
 

@@ -5,11 +5,11 @@ appendix: "CX"
 
 ## APÊNDICE CX — CANAIS INDIRETOS E PARCERIAS: PARCERIAS, FRANQUIAS, CHANNEL
 
-Chegou um momento, em praticamente toda empresa B2B brasileira em crescimento, em que o time comercial sozinho deixa de ser suficiente. Ou porque a capilaridade geográfica do país exige alguém em Teresina quando o time está em São Paulo. Ou porque o comprador enterprise só confia em fornecedor local que ele já conhece. Ou porque o produto começa a ser vendido junto com serviço que sua empresa não quer entregar. Ou porque a escala desejada simplesmente não cabe em venda direta. Em qualquer desses casos, a resposta é a mesma: você precisa vender **através de terceiros**.
+Chegou um momento, em praticamente toda empresa B2B (de venda entre empresas) brasileira em crescimento, em que o time comercial sozinho deixa de ser suficiente. Ou porque a capilaridade geográfica do país exige alguém em Teresina quando o time está em São Paulo. Ou porque o comprador enterprise (de grande empresa) só confia em fornecedor local que ele já conhece. Ou porque o produto começa a ser vendido junto com serviço que a sua empresa não quer entregar. Ou porque a escala desejada simplesmente não cabe em venda direta. Em qualquer desses casos, a resposta é a mesma. Você precisa vender **através de terceiros**.
 
-Vender através de terceiros tem três formatos principais no Brasil. **Parcerias estratégicas** são relações com empresas que complementam ou amplificam seu produto, sem uma estrutura contratual de canal formal. **Franquias e licenciamento** são estruturas formais onde um parceiro opera um negócio sob sua marca, com padrões definidos. **Channel partnerships** é o universo técnico de revendas, integradores de sistemas, OEM e marketplaces, o vocabulário importado do mundo de software enterprise americano.
+Vender através de terceiros tem três formatos principais no Brasil. **Parcerias estratégicas** são relações com empresas que complementam ou amplificam o seu produto, sem uma estrutura contratual de canal formal. **Franquias e licenciamento** são estruturas formais onde um parceiro opera um negócio sob a sua marca, com padrões definidos. **Channel partnerships** (parcerias de canal) é o universo técnico de revendas, integradores de sistemas, OEM (Original Equipment Manufacturer, fabricante que embute produto de terceiro no próprio) e marketplaces. É o vocabulário importado do mundo de software enterprise americano.
 
-Esse apêndice trata os três em profundidade. A Parte 1 cobre parcerias estratégicas de forma ampla. A Parte 2 entra em franquias e licenciamento, com o marco legal brasileiro específico. A Parte 3 cobre channel partnerships clássico, com suas economics, conflitos, e sistemas de gestão.
+Esse apêndice trata os três em profundidade. A Parte 1 cobre parcerias estratégicas de forma ampla. A Parte 2 entra em franquias e licenciamento, com o marco legal brasileiro específico. A Parte 3 cobre channel partnerships clássico, com suas economics (mecânica econômica), conflitos e sistemas de gestão.
 
 ---
 
@@ -17,7 +17,7 @@ Esse apêndice trata os três em profundidade. A Parte 1 cobre parcerias estrat�
 
 #### O que é e quando faz sentido
 
-Parceria estratégica, em sentido amplo, é qualquer acordo entre empresas onde ambas se beneficiam mutuamente sem que uma compre a outra. Pode ir de uma simples carta de referência até uma joint venture formal com capital compartilhado. Em startup brasileira, parcerias bem construídas costumam se encaixar em cinco arquétipos.
+Parceria estratégica, em sentido amplo, é qualquer acordo entre empresas onde ambas se beneficiam mutuamente sem que uma compre a outra. Pode ir de uma simples carta de referência até uma joint venture (sociedade conjunta) formal com capital compartilhado. Em startup brasileira, parcerias bem construídas costumam se encaixar em cinco arquétipos.
 
 A primeira é a parceria de distribuição. Você paga comissão ou divide receita com empresa que tem acesso a cliente que você não tem. Típico em fintech vendendo para associações de classe, em edtech vendendo através de escolas, em healthtech vendendo através de operadoras.
 
@@ -98,11 +98,11 @@ Os royalties são pagamento recorrente sobre faturamento do franqueado, tipicame
 
 #### O vocabulário de canal em software
 
-Se sua empresa vende software ou SaaS e cresce a ponto de não atender todo o mercado direto, vai encontrar o vocabulário de canal técnico importado do mercado americano. Vale aprender antes de precisar.
+Se a sua empresa vende software ou SaaS (software como serviço) e cresce a ponto de não atender todo o mercado direto, vai encontrar o vocabulário de canal técnico importado do mercado americano. Vale aprender antes de precisar.
 
-Revendas (resellers) compram de você com desconto, revendem ao cliente pelo preço cheio e ficam com a margem. É o modelo tradicional de software on-premise e hardware. VARs (Value-Added Resellers) revendem mais implementam mais customizam, e cobram pelo serviço além da venda. Comum em software B2B complexo. Integradores de sistemas (SIs) implementam soluções complexas para grandes empresas. No Brasil, Accenture, Deloitte, IBM Services, Stefanini, TIVIT, Sonda, CI&T, DB1.
+Revendas (resellers) compram de você com desconto, revendem ao cliente pelo preço cheio e ficam com a margem. É o modelo tradicional de software on-premise (instalado no servidor do cliente) e hardware. VARs (Value-Added Resellers, revendas com valor agregado) revendem mais implementam mais customizam. E cobram pelo serviço além da venda. Comum em software B2B complexo. Integradores de sistemas (SIs) implementam soluções complexas para grandes empresas. No Brasil, Accenture, Deloitte, IBM Services, Stefanini, TIVIT, Sonda, CI&T, DB1.
 
-OEM (Original Equipment Manufacturer) é o caso em que seu produto entra embutido no produto de outro, white-label ou co-branded. Marketplaces são listagens em plataformas de terceiro: AWS Marketplace, Azure Marketplace, Salesforce AppExchange, HubSpot Marketplace. Afiliados ou indicadores empurram leads em troca de comissão, sem tocar em venda ou entrega. Consultorias-parceiras recomendam você dentro de projetos próprios.
+OEM (Original Equipment Manufacturer, fabricante que embute produto de outro no próprio) é o caso em que o seu produto entra embutido no produto de outro, white-label (sem a sua marca) ou co-branded (com as duas marcas). Marketplaces são listagens em plataformas de terceiro: AWS Marketplace, Azure Marketplace, Salesforce AppExchange, HubSpot Marketplace. Afiliados ou indicadores empurram leads (potenciais clientes) em troca de comissão, sem tocar em venda ou entrega. Consultorias-parceiras recomendam você dentro de projetos próprios.
 
 #### Estruturação de programa de canal
 

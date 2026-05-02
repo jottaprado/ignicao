@@ -7,26 +7,26 @@ appendix: "CB"
 
 ### O QUE É
 
-Subscription economy é o conjunto de modelos de negócio em que o cliente paga recorrentemente (mensal, anual, ou por uso) por acesso contínuo ao produto, ou serviço. Em vez de fazer transação única de compra. O termo ganhou tração com Tien Tzuo (fundador da Zuora) no livro homônimo em 2018. E cobre seis categorias. SaaS (software). D2C por assinatura (Netflix, Dollar Shave Club, Allbirds Club). Serviços contínuos (academias, streaming, news). Equipamentos-como-serviço (impressoras-como-serviço, carros-como-serviço). Modelos industriais emergentes (turbinas-como-serviço da Rolls-Royce, iluminação-como-serviço da Signify).
+Subscription economy (economia de assinatura) é o conjunto de modelos de negócio em que o cliente paga recorrentemente (mensal, anual, ou por uso) por acesso contínuo ao produto, ou serviço. Em vez de fazer transação única de compra. O termo ganhou tração com Tien Tzuo (fundador da Zuora) no livro homônimo em 2018. E cobre seis categorias. SaaS (Software as a Service, ou software como serviço). D2C (direct-to-consumer, ou direto ao consumidor) por assinatura (Netflix, Dollar Shave Club, Allbirds Club). Serviços contínuos (academias, streaming, news). Equipamentos-como-serviço (impressoras-como-serviço, carros-como-serviço). Modelos industriais emergentes (turbinas-como-serviço da Rolls-Royce, iluminação-como-serviço da Signify).
 
-Esse apêndice trata de subscription economy em profundidade. Não como "o que é SaaS" (básico em qualquer manual). Mas como segunda camada. Métricas avançadas. Armadilhas estruturais. Desenho de planos. Transição de transacional para recorrente. Governança de churn. Expansion como engine de crescimento. Quando subscription quebra, e quando subscription engana o modelo.
+Esse apêndice trata de subscription economy em profundidade. Não como "o que é SaaS" (básico em qualquer manual). Mas como segunda camada. Métricas avançadas. Armadilhas estruturais. Desenho de planos. Transição de transacional para recorrente. Governança de churn (cancelamento). Expansion (expansão da receita do cliente atual) como engine (motor) de crescimento. Quando subscription quebra, e quando subscription engana o modelo.
 
 ### POR QUE IMPORTA
 
 Subscription não é só "forma de cobrar diferente". É mudança estrutural em como a empresa opera, em cinco eixos.
 
-A economia muda. CAC pago uma vez. LTV acumulado ao longo de anos. Break-even de cohort em meses, ou anos. Toda análise financeira vira cohort-based.
+A economia muda. CAC (custo de aquisição de cliente) pago uma vez. LTV (lifetime value, ou valor vitalício do cliente) acumulado ao longo de anos. Break-even (ponto de equilíbrio) de cohort (coorte, ou grupo de clientes adquiridos no mesmo período) em meses, ou anos. Toda análise financeira vira cohort-based (baseada em coortes).
 
-O produto muda. Produto transacional otimiza compra única. Produto subscription otimiza engajamento contínuo. Features diferentes. UX diferente.
+O produto muda. Produto transacional otimiza compra única. Produto subscription otimiza engajamento contínuo. Features (funcionalidades) diferentes. UX (user experience, ou experiência do usuário) diferente.
 
-O go-to-market muda. Vendas não é "fechar deal". É "fechar deal mais manter mais expandir". Customer Success não é afterthought. É função core.
+O go-to-market (entrada no mercado) muda. Vendas não é "fechar deal (negociação)". É "fechar deal mais manter mais expandir". Customer Success (sucesso do cliente) não é afterthought (algo deixado para depois). É função core (central).
 
-As finanças mudam. Receita reconhecida ao longo do tempo (accounting). Não upfront. Deferred revenue no balanço. Métricas específicas (ARR, NRR, GRR), em vez de só revenue.
+As finanças mudam. A receita é reconhecida ao longo do tempo (accounting, ou contabilidade), não upfront (à vista). Deferred revenue (receita diferida) no balanço. Métricas específicas como ARR (Annual Recurring Revenue, ou receita recorrente anual), NRR (Net Revenue Retention, ou retenção líquida de receita), e GRR (Gross Revenue Retention, ou retenção bruta de receita), em vez de só revenue.
 
-O capital eficiente muda. Assinatura gera caixa previsível. Funciona bem com dívida (venture debt, RBF). Diferente de transacional imprevisível.
+O capital eficiente muda. Assinatura gera caixa previsível. Funciona bem com dívida (venture debt, ou dívida para startups, e RBF, ou financiamento com base em receita). Diferente de transacional imprevisível.
 
 > [!warning] Subscription como estrutura, não como billing
-> Falhar em entender subscription como estrutura (não só como billing) é fonte comum de dois erros. Empresa transacional que "vira subscription" desenhando plano mensal sem mudar nada mais, e frustra clientes. Fundador que acha que cobrar mensalmente garante retention. Não garante.
+> Falhar em entender subscription como estrutura (não só como billing, ou cobrança) é fonte comum de dois erros. A empresa transacional "vira subscription" desenhando plano mensal sem mudar nada mais, e frustra clientes. O fundador acha que cobrar mensalmente garante retention. Não garante.
 
 ### TAXONOMIA, NÃO TUDO É SAAS B2B
 

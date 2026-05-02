@@ -9,14 +9,14 @@ appendix: "BE"
 
 ### O que esse apêndice cobre
 
-Usar open source como **estratégia de go-to-market**, não só como prática de engenharia. Projeto open source vira funil de awareness, community, e conversão.
+Usar open source (código aberto) como **estratégia de go-to-market (entrada no mercado)**, não só como prática de engenharia. O projeto open source vira funil de awareness (descoberta), community (comunidade), e conversão.
 
 ### Por que importa
 
-- **Adoção orgânica massiva**: developers experimentam sem atrito.
-- **Community como moat**: ecossistema de plugins, integrações, contribuidores.
+- **Adoção orgânica massiva**: developers (desenvolvedores) experimentam sem atrito.
+- **Community como moat (barreira competitiva)**: ecossistema de plugins, integrações, e contribuidores.
 - **Credibilidade técnica**: código aberto sinaliza confiança.
-- **CAC muito baixo**: conversão via product usage, não via sales.
+- **CAC (custo de aquisição de cliente) muito baixo**: a conversão acontece pelo uso do produto, não por sales (vendas).
 
 ### Como executar
 

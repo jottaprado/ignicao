@@ -10,9 +10,9 @@ appendix: "DN"
 
 ---
 
-### O Brasil como player global em cleantech
+### O Brasil como player global em cleantech (tecnologia limpa)
 
-O Brasil tem uma posição singular no mercado global de cleantech. Não por acidente — por dotação natural combinada com décadas de política industrial específica.
+O Brasil tem posição singular no mercado global de cleantech (tecnologia limpa). Não por acidente. A combinação vem de dotação natural com décadas de política industrial específica.
 
 **Os ativos:**
 
@@ -25,7 +25,7 @@ O Brasil tem uma posição singular no mercado global de cleantech. Não por aci
 
 A oportunidade total endereçável para cleantech no Brasil é estimada em R$ 1–2 trilhões ao longo da próxima década — incluindo transição energética, mobilidade elétrica, agro sustentável, gestão de resíduos e mercado de carbono.
 
-Isso não significa que é fácil. Regulação fragmentada, risco político alto, custo de capital elevado e infrastructure gap histórico tornam o mercado tão complexo quanto atrativo.
+Isso não significa que é fácil. Regulação fragmentada, risco político alto, custo de capital elevado e lacuna histórica de infraestrutura (infrastructure gap) tornam o mercado tão complexo quanto atrativo.
 
 ---
 

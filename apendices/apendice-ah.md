@@ -6,31 +6,31 @@ appendix: "AH"
 ## APÊNDICE AH — CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS
 
 > [!note] Nota de validade
-> A legislação contratual, e de consumidor, evolui em ciclos de cinco a dez anos. Códigos específicos (CDC, CLT, e Marco Civil) mudam periodicamente. Revisar a cada vinte e quatro meses, idealmente com advogado brasileiro especializado.
+> A legislação contratual e de consumidor evolui em ciclos de cinco a dez anos. Códigos específicos (CDC, CLT e Marco Civil) mudam periodicamente. Revisar a cada vinte e quatro meses, idealmente com advogado brasileiro especializado.
 
-A [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]] cobre constituição da empresa. O [[#APÊNDICE T — LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Apêndice T]] cobre LGPD. O [[#APÊNDICE W — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Apêndice W]] cobre tributário. Esse apêndice cobre contratos operacionais, e aspectos legais não-cobertos em outros. Contratos com clientes (além de política de privacidade), termos de uso robustos, contratos com fornecedores, contratos com freelancers, IP, e propriedade intelectual, aspectos trabalhistas em startup, e litígios.
+A [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]] cobre constituição da empresa. O [[#APÊNDICE T — LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Apêndice T]] cobre LGPD (Lei Geral de Proteção de Dados). O [[#APÊNDICE W — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Apêndice W]] cobre tributário. Esse apêndice cobre contratos operacionais e aspectos legais não-cobertos em outros: contratos com clientes (além de política de privacidade), termos de uso robustos, contratos com fornecedores, contratos com freelancers, IP (Intellectual Property, propriedade intelectual), aspectos trabalhistas em startup e litígios.
 
 ### O que esse apêndice cobre
 
-Cinco áreas: contratos com clientes (Termos de uso, MSA e SLA), contratos com fornecedores (SaaS vendors, consultorias e freelancers), contratos com colaboradores (CLT, PJ, estágio e ESOP), propriedade intelectual (marca, patente, direitos autorais e código) e litígios e disputas (prevenção, gestão e documentação). Contratos ruins geram passivos que aparecem em due diligence, travam exits e consomem tempo executivo; IP mal-estruturado pode inviabilizar a venda da empresa.
+Cinco áreas: contratos com clientes (Termos de uso, MSA e SLA), contratos com fornecedores (SaaS vendors, consultorias e freelancers), contratos com colaboradores (CLT, PJ, estágio e ESOP — Employee Stock Ownership Plan, plano de opções de ações para colaboradores), propriedade intelectual (marca, patente, direitos autorais e código) e litígios e disputas (prevenção, gestão e documentação). Contratos ruins geram passivos que aparecem em due diligence, travam exits e consomem tempo executivo. IP mal-estruturado pode inviabilizar a venda da empresa.
 
 ### Quando usar
 
-[[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]]. Contratos base (termos de uso, e contrato de trabalho padrão).
+[[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]]. Contratos base (termos de uso e contrato de trabalho padrão).
 
-[[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Time, e Liderança, em diante). Contratos customizados com clientes enterprise.
+[[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Time e Liderança, em diante). Contratos customizados com clientes enterprise.
 
-Pré-rodada. Revisão completa para DD.
+Pré-rodada. Revisão completa para DD (due diligence).
 
 Pré-exit. Auditoria jurídica profunda.
 
 ### Quem envolve
 
-Advogado especializado em startup. Relacionamento contínuo.
+Advogado especializado em startup, em relacionamento contínuo.
 
-In-house counsel. A partir de Série B, ou cerca de oitenta pessoas.
+In-house counsel (advogado interno) a partir de Série B, ou cerca de oitenta pessoas.
 
-Especialistas pontuais. Trabalhista, tributário, IP, ou M&A, conforme necessidade.
+Especialistas pontuais: trabalhista, tributário, IP ou M&A (mergers and acquisitions, fusões e aquisições), conforme necessidade.
 
 ### Como executar
 

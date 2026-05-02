@@ -10,17 +10,17 @@ appendix: "BH"
 
 ### O que esse apêndice cobre
 
-Catálogo de doze casos brasileiros: colapsos, dificuldades estruturais, vitórias com lições e casos em progresso com sinais ambíguos. Cada caso está estruturado em cinco seções. Contexto: quando, quem, mercado, tese original. Trajetória: marcos, números, eventos-chave. Diagnóstico: o que deu (ou está dando) errado. Contrafactuais: o que poderia ter mudado o curso, com humildade. Lições transferíveis: o que fundador hoje extrai.
+Catálogo de doze casos brasileiros: colapsos, dificuldades estruturais, vitórias com lições e casos em progresso com sinais ambíguos. Cada caso está estruturado em cinco seções. Contexto: quando, quem, mercado, tese original. Trajetória: marcos, números, eventos-chave. Diagnóstico: o que deu (ou está dando) errado. Contrafactuais: o que poderia ter mudado o curso, com humildade. Lições transferíveis: o que o fundador hoje extrai.
 
 ### Por que importa
 
-Casos em profundidade complementam padrões. O [[#APÊNDICE AI — CASOS DE FRACASSO BRASILEIROS E LIÇÕES|Apêndice AI]] traz sete padrões, abstratos por necessidade. Esse apêndice traz o tecido concreto: como o padrão se manifesta numa empresa real, quais foram os sinais, como foi a velocidade de degradação.
+Casos em profundidade complementam padrões. O [[#APÊNDICE AI — CASOS DE FRACASSO BRASILEIROS E LIÇÕES|Apêndice AI]] traz sete padrões, abstratos por necessidade. Esse apêndice traz o tecido concreto: como o padrão se manifesta numa empresa real, quais foram os sinais, e como foi a velocidade de degradação.
 
-Empresas brasileiras têm contexto único (macro, regulação, capital, cultura). Cases americanos ensinam estratégia. Cases brasileiros ensinam adaptação local. Fundador aprende mais com fracasso detalhado que com sucesso detalhado, porque sucesso é multicausal e difícil de replicar, enquanto fracasso é diagnóstico com padrões emergentes. E honestidade analítica sobre o ecossistema brasileiro importa: celebrar só sucessos cria mitologia que desserve empreendedores iniciantes.
+Empresas brasileiras têm contexto único (macro, regulação, capital, cultura). Os casos americanos ensinam estratégia. Os casos brasileiros ensinam adaptação local. O fundador aprende mais com fracasso detalhado do que com sucesso detalhado. O sucesso é multicausal e difícil de replicar. O fracasso é diagnóstico com padrões emergentes. E a honestidade analítica sobre o ecossistema brasileiro importa: celebrar só sucessos cria mitologia que prejudica empreendedores iniciantes.
 
 ### Quando usar
 
-Antes da [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]], para calibrar expectativa. Antes de decisão estratégica grande, lendo caso análogo ao que você considera. Em momento de tração forte, lendo casos de empresas que também voavam antes de cair (humildade analítica). Em decisão de captação ou exit, porque os casos ensinam dinâmicas de mercado de capital brasileiro.
+Antes da [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]], para calibrar expectativa. Antes de decisão estratégica grande, lendo caso análogo ao que você considera. Em momento de tração forte, lendo casos de empresas que também voavam antes de cair (humildade analítica). Em decisão de captação ou exit (saída via venda ou IPO), porque os casos ensinam dinâmicas do mercado de capital brasileiro.
 
 ### Organização dos casos
 

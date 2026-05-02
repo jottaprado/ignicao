@@ -11,11 +11,11 @@ appendix: "EI"
 
 ### 1. AI Ops como vantagem operacional, não como diferencial de produto
 
-Existe uma confusão recorrente em startups brasileiras que começa a explorar inteligência artificial: a empresa trata o uso interno de IA como se fosse o produto de IA. São estratégias distintas que exigem decisões distintas.
+Existe uma confusão recorrente em startups brasileiras que começam a explorar inteligência artificial: a empresa trata o uso interno de IA como se fosse o produto de IA. São estratégias distintas que exigem decisões distintas.
 
-**AI Product** é quando a IA está no núcleo da proposta de valor entregue ao cliente. O modelo é o produto, ou parte inseparável dele. Exemplos: uma plataforma de análise jurídica que usa LLM para extrair cláusulas de contratos, um SaaS de RH que gera descrições de vagas automaticamente, um copiloto de vendas que sugere respostas em tempo real.
+**AI Product** (IA como produto) é quando a IA está no núcleo da proposta de valor entregue ao cliente. O modelo é o produto, ou parte inseparável dele. Exemplos: uma plataforma de análise jurídica que usa LLM (Large Language Model, modelo de linguagem amplo) para extrair cláusulas de contratos, um SaaS (Software as a Service, software como serviço) de RH que gera descrições de vagas automaticamente, um copiloto de vendas que sugere respostas em tempo real.
 
-**AI Ops** é quando a IA é usada para operar a própria empresa com mais eficiência. O cliente não vê, não paga e muitas vezes não sabe que existe. Exemplos: triagem automática de tickets de suporte, resumo de chamadas de vendas para o CRM, geração do primeiro rascunho de propostas comerciais, categorização de feedbacks de usuário para o time de produto.
+**AI Ops** (operações com IA) é o uso de IA para operar a própria empresa com mais eficiência. O cliente não vê, não paga e muitas vezes não sabe que existe. Exemplos: triagem automática de tickets de suporte, resumo de chamadas de vendas para o CRM, geração do primeiro rascunho de propostas comerciais, categorização de feedbacks de usuário para o time de produto.
 
 A distinção importa por razões práticas:
 

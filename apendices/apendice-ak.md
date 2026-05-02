@@ -8,25 +8,27 @@ appendix: "AK"
 > [!note] Validade
 > Programas, aceleradoras e seus focos mudam continuamente. Essa lista reflete o panorama de 2025 e 2026. Termos de aceitação, ticket de investimento e equity esperado variam por ciclo. Revise anualmente antes de aplicar. Consulte o site oficial e converse com fundadores recentes antes de aceitar qualquer oferta.
 
-A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] e o [[#APÊNDICE V — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Apêndice V]] tocam em captação de equity. Esse apêndice cobre um território adjacente: os programas institucionais que oferecem capital, mentoria, rede ou credibilidade em troca de participação, custo ou tempo. É uma categoria importante para o fundador iniciante brasileiro que ainda não tem rede direta de investidor.
+A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] e o [[#APÊNDICE V — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Apêndice V]] tocam em captação de equity (participação societária). Esse apêndice cobre um território adjacente: os programas institucionais que oferecem capital, mentoria, rede ou credibilidade em troca de participação, custo ou tempo. É uma categoria importante para o fundador iniciante brasileiro que ainda não tem rede direta de investidor.
 
-O que segue é sobre quando faz sentido aplicar a qual programa, como avaliar a oferta recebida, e quando recusar. Porque nem toda oferta é boa, mesmo vinda de programa prestigiado.
+O que segue é sobre quando faz sentido aplicar a qual programa, como avaliar a oferta recebida e quando recusar. Porque nem toda oferta é boa, mesmo vinda de programa prestigiado.
 
 ### O quê
 
-Existem seis categorias de programa relevantes para a startup brasileira. As aceleradoras tradicionais (Endeavor, Ace, Visualmind e outras), as aceleradoras corporativas (Cubo Itaú, Liga Ventures, InovaBRA), os programas de governo e fomento (InovAtiva, Finep, BNDES Garagem), os programas internacionais com entrada brasileira (Y Combinator, Techstars, 500 Global, Antler), os programas setoriais focados em fintech, healthtech, agritech ou edtech, e por fim as incubadoras universitárias e regionais como USP, UFMG, Inova e Senai. Cada uma tem critério, ticket, equity esperado, duração e valor agregado distintos.
+Existem seis categorias de programa relevantes para a startup brasileira: as aceleradoras tradicionais (Endeavor, Ace, Visualmind e outras); as aceleradoras corporativas (Cubo Itaú, Liga Ventures, InovaBRA); os programas de governo e fomento (InovAtiva, Finep, BNDES Garagem); os programas internacionais com entrada brasileira (Y Combinator, Techstars, 500 Global, Antler); os programas setoriais focados em fintech, healthtech, agritech ou edtech; por fim, as incubadoras universitárias e regionais como USP, UFMG, Inova e Senai. Cada uma tem critério, ticket (valor médio do investimento), equity esperado, duração e valor agregado distintos.
 
 ### Por quê
 
-O fundador iniciante sem rede pré-existente precisa de um caminho estruturado para acessar capital, mentoria e credibilidade. O programa certo acelera a trajetória entre doze e vinte e quatro meses em aprendizado, conexões e validação. O programa errado consome tempo e equity sem retorno proporcional. Existem aceleradoras medíocres que pedem cinco ou dez por cento por valor limitado. Alguns programas são sinal de qualidade para investidores futuros, como Y Combinator e Endeavor. Outros não movem ponteiro nenhum.
+O fundador iniciante sem rede pré-existente precisa de um caminho estruturado para acessar capital, mentoria e credibilidade. O programa certo acelera a trajetória em doze a vinte e quatro meses de aprendizado, conexões e validação. O programa errado consome tempo e equity sem retorno proporcional.
+
+Existem aceleradoras medíocres que pedem cinco ou dez por cento por valor limitado. Alguns programas são sinal de qualidade para investidores futuros, como Y Combinator e Endeavor. Outros não movem ponteiro nenhum.
 
 ### Quando
 
-Em pré-[[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]] ou [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]] alguns programas pré-aceleração existem para ideias validadas textualmente mas sem execução, como o Antler em algumas edições. Entre as fases dois e três entram as aceleradoras brasileiras que aceitam ideias pré-MVP. Das fases sete a nove está a faixa de maior aplicação, com MVP ou PMF inicial e captação do primeiro capital estruturado. Da [[#FASE 11 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 11]] em diante são os programas de escala como Endeavor Scale-up e 500 Global. Da [[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]] em diante focam em internacionalização e captação de rodadas maiores.
+Em pré-[[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]] ou [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]], alguns programas pré-aceleração existem para ideias validadas textualmente mas sem execução, como o Antler em algumas edições. Entre as fases dois e três entram as aceleradoras brasileiras que aceitam ideias pré-MVP. Das fases sete a nove está a faixa de maior aplicação, com MVP ou PMF inicial e captação do primeiro capital estruturado. Da [[#FASE 11 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 11]] em diante entram os programas de escala como Endeavor Scale-up e 500 Global. Da [[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]] em diante, o foco é internacionalização e captação de rodadas maiores.
 
 ### Quem
 
-O fundador e os co-fundadores aplicam e participam. Um advisor ou mentor pode indicar ou fazer warm intro, e isso aumenta muito a chance de aceite. Um advogado precisa revisar os termos antes da assinatura, porque nem todo programa é padrão. Alguns têm cláusulas problemáticas.
+O fundador e os co-fundadores aplicam e participam. Um advisor (conselheiro) ou mentor pode indicar ou fazer warm intro (apresentação calorosa via contato em comum), e isso aumenta muito a chance de aceite. Um advogado precisa revisar os termos antes da assinatura, porque nem todo programa é padrão. Alguns têm cláusulas problemáticas.
 
 ### Como mapear programas por categoria
 

@@ -5,7 +5,7 @@ appendix: "CL"
 
 ## APÊNDICE CL — PIVOT: TIPOLOGIA, DECISÃO E EXECUÇÃO
 
-Pivot é o termo mais usado, e menos entendido, da literatura de startup. Eric Ries popularizou o conceito no Lean Startup, mas a frase "pivotamos" virou, em muitos contextos, eufemismo para "estávamos fazendo algo, mudamos para outra coisa, e não queremos falar publicamente sobre por quê". Esse apêndice reconstrói o conceito como ferramenta operacional. Que tipos de pivot existem. Quando pivotar faz sentido. Quando pivot é, na verdade, shutdown disfarçado. E como executar bem um pivot quando a decisão está tomada.
+Pivot (mudança de direção da empresa) é o termo mais usado, e menos entendido, da literatura de startup. Eric Ries popularizou o conceito no livro *Lean Startup* (2011). Mas a frase "pivotamos" virou, em muitos contextos, eufemismo para "estávamos fazendo algo, mudamos para outra coisa, e não queremos falar publicamente sobre por quê". Esse apêndice reconstrói o conceito como ferramenta operacional. Que tipos de pivot existem. Quando pivotar faz sentido. Quando pivot é, na verdade, shutdown (encerramento da empresa) disfarçado. E como executar bem um pivot quando a decisão está tomada.
 
 Menções a pivot aparecem em várias fases do manual (Descoberta, Validação, PMF) como opção tática dentro da fase. Esse apêndice consolida o tema como decisão estratégica, com framework próprio.
 
@@ -14,9 +14,9 @@ Menções a pivot aparecem em várias fases do manual (Descoberta, Validação, 
 Pivot é mudança estrutural em um ou mais elementos-chave do negócio. Mantendo o aprendizado acumulado como base. Os elementos-chave são seis. Problema atendido, cliente servido, solução oferecida, modelo de negócio, canal de distribuição, e tecnologia central. Um pivot mantém pelo menos um desses elementos, e muda outros.
 
 > [!warning] Pivot não é
-> Ajuste tático pequeno (mudar preço, ajustar feature, trocar canal de marketing secundário). Isso é iteração normal. Mudança total em que todos os elementos mudam. Isso é shutdown e recomeço. Pivot "narrativo" em que o discurso muda, mas a operação não. Isso é rebranding.
+> Ajuste tático pequeno (mudar preço, ajustar feature, trocar canal de marketing secundário). Isso é iteração normal. Mudança total em que todos os elementos mudam. Isso é shutdown e recomeço. Pivot "narrativo" em que o discurso muda, mas a operação não. Isso é rebranding (troca de marca).
 
-A distinção importa porque cada categoria tem implicações diferentes. Iteração pode ser decidida pelo fundador sozinho, em dias. Pivot exige comunicação formal a stakeholders (time, investidores, clientes), e toma semanas, ou meses, para executar. Shutdown é decisão de encerrar negócio (ver subseção sobre shutdown voluntário na [[#FASE 16 — EXIT STRATEGY|Fase 16]]). Rebranding sem pivot real é dissonância que time, e mercado, percebem.
+A distinção importa porque cada categoria tem implicações diferentes. Iteração pode ser decidida pelo fundador sozinho, em dias. Pivot exige comunicação formal a stakeholders (partes interessadas: time, investidores, clientes). Toma semanas, ou meses, para executar. Shutdown é decisão de encerrar negócio (ver subseção sobre shutdown voluntário na [[#FASE 16 — EXIT STRATEGY|Fase 16]]). Rebranding sem pivot real é dissonância que time, e mercado, percebem.
 
 ### Os seis tipos de pivot
 

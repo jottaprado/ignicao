@@ -6,7 +6,7 @@ appendix: "FF"
 ## APÊNDICE FF — PSICOLOGIA DO CONSUMIDOR BRASILEIRO — COMPORTAMENTO, DECISÃO E CONVERSÃO
 
 > [!note] Para quem é esse apêndice
-> Founders e líderes de produto, marketing e growth que constroem para o mercado brasileiro e precisam entender os mecanismos psicológicos que governam como o consumidor decide, confia, compra e cancela. Aplica-se a B2C e B2B.
+> Founders e líderes de produto, marketing e growth (crescimento orientado por dados e experimentação) que constroem para o mercado brasileiro e precisam entender os mecanismos psicológicos que governam como o consumidor decide, confia, compra e cancela. Aplica-se a B2C e B2B.
 
 > [!important] Cultura não é estereótipo
 > Este apêndice descreve padrões estatísticos observáveis no comportamento de consumo brasileiro, sustentados por pesquisa e dados de mercado. Padrões não eliminam variação individual. Use como lente de análise, não como lista de pressupostos sobre cada cliente específico.
@@ -15,7 +15,7 @@ appendix: "FF"
 
 ## FF.1 — O que Torna o Consumidor Brasileiro Distinto
 
-O consumidor brasileiro opera em um contexto que moldou comportamentos específicos. Entender esse contexto é o pré-requisito para qualquer decisão de produto, pricing ou comunicação.
+A psicologia do consumidor (consumer psychology — estudo dos processos mentais e comportamentais por trás das decisões de compra) brasileira opera em um contexto que moldou comportamentos específicos. Entender esse contexto é o pré-requisito para qualquer decisão de produto, pricing ou comunicação.
 
 ### FF.1.1 — Alta Relacionalidade
 
@@ -25,7 +25,7 @@ B2B: Compradores brasileiros raramente fecham contratos com quem não conhecem p
 
 B2C: A recomendação de pessoa conhecida (boca a boca, mensagem no WhatsApp, comentário em grupo familiar) supera campanhas de publicidade na capacidade de gerar confiança e reduzir resistência à compra.
 
-Implicação de produto: funcionalidades que facilitam o compartilhamento e a recomendação pessoal (referral, review, "enviar para um amigo") têm ROI sistematicamente maior no Brasil do que em mercados onde confiança institucional é mais forte.
+Implicação de produto: funcionalidades que facilitam o compartilhamento e a recomendação pessoal (referral — programa de indicação, review — avaliação pública, "enviar para um amigo") têm ROI (return on investment — retorno sobre o investimento) sistematicamente maior no Brasil do que em mercados onde a confiança institucional é mais forte.
 
 ### FF.1.2 — Confiança em Pessoas Acima de Instituições
 
@@ -53,7 +53,7 @@ Implicação de produto: funcionalidades rígidas que não permitem adaptação 
 
 ## FF.2 — Behavioral Economics no Brasil
 
-Os princípios da economia comportamental de Kahneman e Thaler se aplicam universalmente, mas com amplitudes distintas no contexto brasileiro.
+Os princípios da behavioral economics (economia comportamental — campo que aplica psicologia às decisões econômicas) de Kahneman e Thaler se aplicam universalmente, mas com amplitudes distintas no contexto brasileiro.
 
 ### FF.2.1 — Ancoragem: 12x Sem Juros como Âncora Perceptual
 
@@ -99,7 +99,7 @@ As classes C e D representam aproximadamente 54% da população brasileira e cer
 
 ### FF.3.1 — Poder de Compra Real vs. Percebido
 
-O erro mais comum de founders de classe média-alta ao tentar servir esse segmento: subestimar a sofisticação e superestimar a limitação de renda.
+O erro mais comum de founders de classe média-alta ao tentar servir esse segmento é subestimar a sofisticação e superestimar a limitação de renda.
 
 O consumidor de classe C tem renda mensal familiar entre R$2.004 e R$8.640. Tem smartphone (penetração de smartphone no Brasil supera 80%), usa aplicativos, tem conta em banco digital, e faz compras online. Não é digitalmente excluído.
 
@@ -139,7 +139,7 @@ Produtos que aceitam parcelamento em mais prestações, que oferecem boleto com 
 
 ## FF.4 — Mobile-First e WhatsApp como Interface Principal
 
-O funil de aquisição, onboarding, e retenção projetado para desktop com e-mail como canal principal não funciona para o consumidor que vive no smartphone.
+O funil de aquisição, onboarding (integração inicial de novos usuários ao produto) e retenção projetado para desktop com e-mail como canal principal não funciona para o consumidor que vive no smartphone.
 
 ### FF.4.1 — Redesenho do Funil para Entrada por Mensagem
 
@@ -174,7 +174,7 @@ Sinais de confiança no Brasil têm especificidades que diferem de mercados onde
 
 ## FF.6 — Churn Psicológico: Por que Brasileiros Cancelam
 
-O churn no Brasil tem padrões específicos que diferem do que os benchmarks internacionais sugerem.
+O churn (taxa de cancelamento de clientes em um período) no Brasil tem padrões específicos que diferem do que os benchmarks internacionais sugerem.
 
 ### FF.6.1 — Causas Reais de Cancelamento
 
@@ -248,7 +248,7 @@ Dia das Mães        Maio            B2C: maior data de presentear    Comunicaç
 
 ## FF.8 — B2B no Brasil: Relacionamento, Comitê e Cultura do Gestor
 
-O ciclo de vendas B2B brasileiro tem especificidades que muitos playbooks importados de Silicon Valley ignoram:
+O ciclo de vendas B2B brasileiro tem especificidades que muitos playbooks (manuais de processos repetíveis) importados de Silicon Valley ignoram:
 
 ### FF.8.1 — O Papel do Relacionamento Pessoal
 
@@ -292,7 +292,7 @@ Como distinguir: se o prospect consegue responder "quando você terá resposta?"
 
 ### FF.9.1 — Preços com Terminação em Dígitos Específicos
 
-A pesquisa de pricing psicológico brasileira confirma efeitos similares ao mercado internacional com algumas especificidades:
+A pesquisa de pricing psicológico (precificação que explora vieses cognitivos para influenciar percepção de valor) brasileira confirma efeitos similares ao mercado internacional com algumas especificidades:
 
 R$97 vs. R$100: a diferença de R$3 cria percepção de categoria diferente de preço. R$97 processa como "90 e alguma coisa", R$100 como "100". O efeito é maior em segmentos de menor renda onde a diferença relativa é mais sensível.
 

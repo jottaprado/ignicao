@@ -5,15 +5,15 @@ appendix: "EZ"
 
 ## APÊNDICE EZ — CAPITAL DE GIRO E RECEBÍVEIS
 
-Capital de giro é o assunto que mais mata startups que já provaram o modelo. Não falta receita. Não falta cliente. Não falta NPS. Falta caixa para pagar o time enquanto o dinheiro do cliente ainda não chegou. Esse fenômeno tem nome: descasamento de caixa. E ele é previsível, calculável, e gerenciável — desde que o fundador entenda o mecanismo antes de estar dentro do buraco.
+Capital de giro (caixa necessário para sustentar a operação no curto prazo) é o assunto que mais mata startups que já provaram o modelo. Não falta receita. Não falta cliente. Não falta NPS. Falta caixa para pagar o time enquanto o dinheiro do cliente ainda não chegou. Esse fenômeno tem nome: descasamento de caixa. E ele é previsível, calculável e gerenciável — desde que o fundador entenda o mecanismo antes de cair no buraco.
 
-Este apêndice cobre o ciclo de conversão de caixa, os instrumentos de financiamento de recebíveis disponíveis no Brasil, os custos reais de cada linha, a lógica do FIDC para empresas com volume alto, os indicadores que devem estar no painel semanal de caixa, e a matriz de decisão entre dívida e equity para financiar operação.
+Este apêndice cobre o ciclo de conversão de caixa, os instrumentos de financiamento de recebíveis (direitos a receber de clientes) disponíveis no Brasil, os custos reais de cada linha, a lógica do FIDC (Fundo de Investimento em Direitos Creditórios) para empresas com volume alto, os indicadores que devem estar no painel semanal de caixa, e a matriz de decisão entre dívida e equity para financiar operação.
 
 ---
 
 ### 1. Lucro contábil não é caixa — e startups lucrativas morrem por essa confusão
 
-O DRE (Demonstração de Resultado do Exercício) mostra o resultado do período pelo regime de competência: receita é reconhecida quando o serviço é prestado ou o produto é entregue, não quando o dinheiro entra na conta. Essa é uma convenção contábil correta para fins de apuração de resultado. Mas ela pode esconder uma empresa destruindo caixa enquanto reporta lucro.
+O DRE (Demonstração de Resultado do Exercício) mostra o resultado do período pelo regime de competência. A empresa reconhece a receita quando presta o serviço ou entrega o produto, não quando o dinheiro entra na conta. Essa convenção contábil é correta para fins de apuração de resultado. Mas ela pode esconder uma empresa destruindo caixa enquanto reporta lucro.
 
 **Exemplo concreto.** Uma startup B2B vende contratos anuais de R$ 120 mil com pagamento parcelado em 12 boletos mensais de R$ 10 mil. O contrato é assinado em janeiro. O DRE de janeiro reconhece R$ 10 mil de receita (a competência do mês). Mas o fundador comemorou o contrato de R$ 120 mil como se esse dinheiro já existisse. Ele existe como receita futura, não como caixa presente.
 

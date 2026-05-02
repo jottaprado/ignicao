@@ -6,13 +6,13 @@ appendix: "AG"
 ## APÊNDICE AG — REMOTE, HYBRID E DISTRIBUÍDO COMO DISCIPLINA
 
 > [!note] Nota de validade
-> Ferramentas de colaboração evoluem rapidamente. Princípios (comunicação escrita, rituais assíncronos, trust-based management) são estáveis. Revisar a cada vinte e quatro meses.
+> Ferramentas de colaboração evoluem rapidamente. Princípios — comunicação escrita, rituais assíncronos, gestão baseada em confiança — são estáveis. Revisar a cada vinte e quatro meses.
 
-Após 2020, e 2021, empresas brasileiras operam em mix de remote, hybrid, e presencial. Decidir como operar e, mais importante, executar bem a escolha, é diferencial competitivo. Empresas que fazem bem atraem talento nacional, e internacional. Empresas que fazem mal perdem produtividade, cultura, e gente.
+Após 2020 e 2021, empresas brasileiras operam em mix de remote (remoto), hybrid (híbrido) e presencial. Decidir como operar e, mais importante, executar bem a escolha é diferencial competitivo. Empresas que fazem bem atraem talento nacional e internacional. Empresas que fazem mal perdem produtividade, cultura e gente.
 
-Esse apêndice cobre remote, ou hybrid, como disciplina operacional. Não como "deixar pessoas trabalharem de casa". Os três modelos são: remote-first (sem escritório central), hybrid (escritório mais remoto com políticas claras) e office-first com flex (presencial padrão, remoto como exceção). Cada um exige disciplinas distintas. Erro clássico: operar em hybrid ou remote com práticas de office-first (meetings síncronas demais, decisões em corredores, cultura pessoal como proxy de trabalho).
+Esse apêndice cobre remote ou hybrid como disciplina operacional, não como "deixar pessoas trabalharem de casa". Os três modelos são: remote-first (sem escritório central), hybrid (escritório mais remoto com políticas claras) e office-first com flex (presencial padrão, remoto como exceção). Cada um exige disciplinas distintas. Erro clássico: operar em hybrid ou remote com práticas de office-first (meetings síncronas demais, decisões em corredores, cultura pessoal como proxy de trabalho).
 
-O modelo importa porque: pool de talento remote é múltiplas vezes maior que local; custos de operação reduzidos (parcialmente compensados por tooling); retenção maior quando bem-feito. Risco: se mal-executado, a cultura se dilui, a produtividade cai, e as decisões ficam confusas.
+O modelo importa porque: o pool (conjunto disponível) de talento remote é múltiplas vezes maior que o local; os custos de operação são reduzidos (parcialmente compensados por tooling, ou seja, ferramentas dedicadas); a retenção é maior quando bem-feito. Risco: se mal-executado, a cultura se dilui, a produtividade cai e as decisões ficam confusas.
 
 ### Quando usar
 
@@ -22,7 +22,7 @@ Revisão pós-eventos grandes (Covid, contratações em outras cidades, mudança
 
 ### Quem envolve
 
-CEO define modelo estratégico. Head of People, ou COO, operacionaliza. Cada team lead aplica no seu time.
+O CEO define o modelo estratégico. O Head of People (líder de pessoas) ou COO operacionaliza. Cada team lead aplica no próprio time.
 
 ### Como executar
 

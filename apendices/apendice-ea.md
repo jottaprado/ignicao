@@ -12,11 +12,11 @@ appendix: "EA"
 
 ### O papel do PMM e por que o fundador ocupa esse lugar
 
-Product Marketing Manager (PMM) é a pessoa que conecta o produto ao mercado. Não é o product manager (que decide o que construir). Não é o growth marketer (que otimiza funis e experimentos). É quem responde: para quem é este produto, por que ele é diferente, o que ele significa para o comprador e como comunicar isso de forma que converta.
+Product Marketing Manager (PMM, gerente de marketing de produto) é a pessoa que conecta o produto ao mercado. Não é o product manager (que decide o que construir). Não é o growth marketer (que otimiza funis e experimentos). É quem responde: para quem é este produto, por que ele é diferente, o que ele significa para o comprador e como comunicar isso de forma que converta.
 
 Nas primeiras fases da startup, não há PMM. Há o fundador.
 
-Isso não é improviso — é deliberado. O fundador é o único que tem acesso simultâneo aos três insumos que tornam o product marketing eficaz: o conhecimento profundo do produto, a voz direta dos clientes (a partir das conversas de vendas e discovery) e a visão estratégica de onde o negócio precisa chegar.
+Isso não é improviso — é deliberado. O fundador é o único com acesso simultâneo aos três insumos que tornam o product marketing eficaz: conhecimento profundo do produto, voz direta dos clientes (a partir das conversas de vendas e discovery, ou seja, descoberta de cliente) e visão estratégica de onde o negócio precisa chegar.
 
 Quando o fundador terceiriza o posicionamento para uma agência antes de ter clareza sobre o ICP, o resultado é genérico. Quando o fundador delega a mensagem para o time de marketing antes de ter vendido pessoalmente, o resultado não ressoa com compradores reais.
 
@@ -32,9 +32,9 @@ O primeiro PMM hire (geralmente entre Seed late e Series A) deve ser alguém cap
 
 ---
 
-### Positioning: a metodologia April Dunford aplicada ao Brasil
+### Positioning (posicionamento): a metodologia April Dunford aplicada ao Brasil
 
-April Dunford, em "Obviously Awesome", definiu o melhor framework prático de posicionamento disponível. A premissa central: posicionamento é o contexto que você cria para o cliente antes de ele serem expostos às funcionalidades do produto. Contexto certo — produto parece óbvio. Contexto errado — produto parece confuso ou irrelevante.
+April Dunford, em "Obviously Awesome", definiu o melhor framework prático de posicionamento disponível. A premissa central: posicionamento é o contexto que você cria para o cliente antes que ele seja exposto às funcionalidades do produto. Contexto certo — produto parece óbvio. Contexto errado — produto parece confuso ou irrelevante.
 
 O framework tem cinco componentes:
 

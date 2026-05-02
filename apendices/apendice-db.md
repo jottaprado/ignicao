@@ -8,7 +8,7 @@ appendix: "DB"
 > [!note] Nota de validade
 > A tributação de stock options no Brasil é objeto de disputa administrativa e judicial ativa. O CARF tem proferido decisões em ambas as direções — natureza remuneratória vs. mercantil — e o tema pode ser pacificado por lei ou por decisão do STJ a qualquer momento. Este apêndice reflete o entendimento predominante em abril de 2026. Revisar com advogado tributarista especializado antes de estruturar qualquer plano.
 
-A [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]] cobre cap table, vesting de fundadores, e estrutura societária. O [[#APÊNDICE DA — MARCO LEGAL DAS STARTUPS: LC 182/2021|Apêndice DA]] cobre o COCP e o investidor-anjo. O [[#APÊNDICE W — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Apêndice W]] cobre tributação operacional. Este apêndice cobre os instrumentos de equity para colaboradores — stock options, phantom shares, RSUs — com foco na estruturação jurídica e no principal problema prático: tributação.
+A [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]] cobre cap table (quadro societário), vesting (aquisição progressiva da participação) de fundadores, e estrutura societária. O [[#APÊNDICE DA — MARCO LEGAL DAS STARTUPS: LC 182/2021|Apêndice DA]] cobre o COCP e o investidor-anjo. O [[#APÊNDICE W — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Apêndice W]] cobre tributação operacional. Este apêndice cobre os instrumentos de equity (participação societária) para colaboradores — stock options (opções de compra), phantom shares (ações fantasmas), RSUs (Restricted Stock Units, ações restritas) — com foco na estruturação jurídica e no principal problema prático: tributação.
 
 ### O que esse apêndice cobre
 
@@ -21,9 +21,9 @@ Quatro camadas.
 
 ### POR QUE
 
-Equidade é a única moeda que uma startup em estágio inicial usa para atrair e reter talento de qualidade sem destruir o caixa. Engenheiro sênior que custaria R$ 30 mil por mês em salário pode aceitar R$ 18 mil com opções bem estruturadas. Não porque aceita pagar a diferença — mas porque acredita no upside.
+Equity é a única moeda que uma startup em estágio inicial usa para atrair e reter talento de qualidade sem destruir o caixa. Engenheiro sênior que custaria R$ 30 mil por mês em salário pode aceitar R$ 18 mil com opções bem estruturadas. Não porque aceita pagar a diferença — mas porque acredita no upside (potencial de valorização).
 
-O problema: sem estrutura correta, o que deveria ser instrumento de alinhamento vira passivo tributário descoberto em due diligence. Ou pior, a empresa chega a um exit e o colaborador descobre que o ganho que esperava vai para a Receita Federal de formas que ninguém explicou.
+O problema: sem estrutura correta, o que deveria ser instrumento de alinhamento vira passivo tributário descoberto em due diligence (auditoria prévia à transação). Ou pior, a empresa chega a um exit (evento de liquidez para os sócios) e o colaborador descobre que o ganho que esperava vai para a Receita Federal de formas que ninguém explicou.
 
 Entender os instrumentos e a tributação não é burocracia. É respeito por quem está construindo junto.
 
@@ -31,9 +31,9 @@ Entender os instrumentos e a tributação não é burocracia. É respeito por qu
 
 [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]]. Criar o plano de opções antes das primeiras contratações técnicas sênior.
 
-[[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]]. Revisitar o pool, conceder refresh grants para retenção, e preparar o plano para due diligence de Série B.
+[[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]]. Revisitar o pool (reserva de opções), conceder refresh grants (novas concessões) para retenção, e preparar o plano para due diligence de Série B.
 
-Pré-exit. Comunicar claramente a colaboradores o valor esperado, o cronograma de exercício, e a tributação antes que a notícia de M&A ou IPO gere expectativas descontroladas.
+Pré-exit. Comunicar claramente a colaboradores o valor esperado, o cronograma de exercício, e a tributação antes que a notícia de M&A (fusão ou aquisição) ou IPO (oferta pública inicial) gere expectativas descontroladas.
 
 ---
 

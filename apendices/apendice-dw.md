@@ -5,9 +5,9 @@ appendix: "DW"
 
 ## APÊNDICE DW — MANAGEMENT PARA O FUNDADOR TÉCNICO
 
-Há um momento previsível na vida de todo fundador técnico: o momento em que ele percebe que parou de escrever código produtivo há seis semanas e que o time de engenharia, que era de três pessoas, agora tem oito. Os problemas que chegam até ele não são mais bugs ou decisões de arquitetura. São conflitos entre dois sêniors, a dev que entregou abaixo do esperado no último sprint, o CTO da empresa investidora querendo saber por que o time não está mais rápido.
+Há um momento previsível na vida de todo fundador técnico: o momento em que ele percebe que parou de escrever código produtivo há seis semanas e que o time de engenharia, que era de três pessoas, agora tem oito. Os problemas que chegam até ele não são mais bugs ou decisões de arquitetura. São conflitos entre dois sêniors, a dev que entregou abaixo do esperado no último sprint (ciclo curto de entrega), o CTO (Chief Technology Officer — diretor de tecnologia) da empresa investidora querendo saber por que o time não está mais rápido.
 
-Ninguém o preparou para isso. A escola ensinou algoritmos, não conversas difíceis. O primeiro emprego ensinou a programar bem, não a desenvolver pessoas. Os livros de gestão foram escritos para gerentes de banco, não para founders que ainda têm opinião sobre qual ORM usar.
+Ninguém o preparou para isso. A escola ensinou algoritmos, não conversas difíceis. O primeiro emprego ensinou a programar bem, não a desenvolver pessoas. Os livros de gestão foram escritos para gerentes de banco, não para fundadores que ainda têm opinião sobre qual ORM (Object-Relational Mapper — biblioteca que mapeia banco para objetos) usar.
 
 Esse apêndice trata da travessia. Da pessoa que era o melhor engenheiro da empresa para a pessoa que constrói o time que constrói o produto. A travessia tem custo real, armadilhas previsíveis e ferramentas concretas. Cada uma delas é coberta aqui.
 

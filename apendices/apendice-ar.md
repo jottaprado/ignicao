@@ -6,29 +6,29 @@ appendix: "AR"
 ## APÊNDICE AR — CONTENT MARKETING E SEO COMO DISCIPLINA
 
 > [!note] Nota de validade
-> Algoritmos de busca evoluem continuamente (Google core updates três a quatro vezes por ano). O papel de AI-generated content, e AI-driven search (Perplexity, ChatGPT Search), está em flux significativo entre 2024 e 2026. Revisar táticas anualmente. Os princípios (autoridade, utilidade real, E-E-A-T) são estáveis.
+> Algoritmos de busca evoluem continuamente (Google core updates três a quatro vezes por ano). O papel do AI-generated content (conteúdo gerado por IA) e do AI-driven search (busca dirigida por IA, como Perplexity e ChatGPT Search) está em flux significativo entre 2024 e 2026. Revisar táticas anualmente. Os princípios — autoridade, utilidade real, E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness — sigla do Google para experiência, expertise, autoridade e confiabilidade) — são estáveis.
 
-O [[#APÊNDICE J — FRAMEWORK DE CANAIS DE AQUISIÇÃO|Apêndice J]] menciona content, e SEO, como canais em alto nível. Para muitas startups B2B SaaS brasileiras, content é o canal de menor CAC a longo prazo. Mas exige disciplina de doze a vinte e quatro meses antes de retornar.
+O [[#APÊNDICE J — FRAMEWORK DE CANAIS DE AQUISIÇÃO|Apêndice J]] menciona content (conteúdo) e SEO (Search Engine Optimization, otimização para mecanismos de busca) como canais em alto nível. Para muitas startups B2B SaaS brasileiras, content é o canal de menor CAC a longo prazo, mas exige disciplina de doze a vinte e quatro meses antes de retornar.
 
 ### O que esse apêndice cobre
 
-Disciplina de produzir conteúdo que atrai (o público certo, via busca orgânica, ou SEO), educa (sobre o problema, ou solução, na jornada de compra), converte (em leads, ou vendas), e retém (como mídia própria de longo prazo).
+A disciplina de produzir conteúdo que atrai (o público certo, via busca orgânica ou SEO), educa (sobre o problema ou solução, na jornada de compra), converte (em leads ou vendas) e retém (como mídia própria de longo prazo).
 
 ### POR QUE
 
-Canal proprietário. Não depende de Google Ads, ou Meta Ads, ou de algoritmos voláteis (em parte).
+Canal proprietário. Não depende de Google Ads, Meta Ads ou de algoritmos voláteis (em parte).
 
-ROI cresce com tempo. O conteúdo antigo continua gerando tráfego. Paid precisa de investimento constante.
+ROI (Return on Investment, retorno sobre investimento) cresce com o tempo. O conteúdo antigo continua gerando tráfego. Paid (mídia paga) precisa de investimento constante.
 
-Credibilidade, mais lead gen, simultâneos. Thought leadership atrai talento, parceiros, e investidores.
+Credibilidade e lead gen (geração de leads) simultâneos. Thought leadership (liderança de pensamento) atrai talento, parceiros e investidores.
 
 Em B2B SaaS, é canal dominante para muitos verticais. A HubSpot construiu império em content marketing.
 
 ### Quando usar
 
-Pré-PMF. Pouco útil ainda. O foco está em produto, e descoberta.
+Pré-PMF. Pouco útil ainda. O foco está em produto e descoberta.
 
-Pós-PMF. Começar. Os primeiros seis meses, sem retorno visível. Os meses doze a vinte e quatro, começam retornos consistentes. Ano três em diante, vira motor.
+Pós-PMF. Comece. Nos primeiros seis meses, sem retorno visível. Nos meses doze a vinte e quatro começam retornos consistentes. No ano três em diante, vira motor.
 
 ### Como executar
 

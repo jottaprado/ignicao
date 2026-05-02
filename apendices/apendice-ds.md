@@ -9,12 +9,12 @@ appendix: "DS"
 ## APÊNDICE DS — NEGOCIAÇÃO COMO DISCIPLINA
 
 > [!note] Nota
-> Esse apêndice integra conceitos de negociação de Harvard Negotiation Project (Fisher, Ury, e Patton), pesquisa de Adam Grant sobre concessões, e adaptação ao contexto operacional do fundador brasileiro.
+> Esse apêndice integra conceitos de negociação do Harvard Negotiation Project (Fisher, Ury e Patton — projeto de pesquisa de Harvard sobre negociação por interesses), pesquisa de Adam Grant sobre concessões, e adaptação ao contexto operacional do fundador brasileiro.
 
-Negociação não é um evento especial. Para o fundador, é condição permanente. Salário de contratação, term sheet, preço com cliente, escopo com co-fundador, parceria estratégica, contrato B2B, valuation em M&A. Toda semana há uma negociação relevante acontecendo. A questão não é se você vai negociar. É se vai negociar bem.
+Negociação não é um evento especial. Para o fundador, é condição permanente. Salário de contratação, term sheet (proposta preliminar de investimento), preço com cliente, escopo com co-fundador, parceria estratégica, contrato B2B, valuation (avaliação de valor) em M&A (fusões e aquisições). Toda semana há uma negociação relevante acontecendo. A questão não é se você vai negociar. É se vai negociar bem.
 
 > [!important] Negociação é habilidade treinável
-> A crença de que bons negociadores nascem prontos é empiricamente falsa. Estudos de calibração mostram que exposição deliberada a negociações com feedback melhora resultados sistematicamente. O fundador que pratica melhora. O que evita, piora.
+> A crença de que bons negociadores nascem prontos é empiricamente falsa. Estudos de calibração mostram que exposição deliberada a negociações com feedback melhora resultados de forma sistemática. O fundador que pratica melhora. O que evita, piora.
 
 ### O que esse apêndice cobre
 
@@ -22,7 +22,7 @@ Seis dimensões integradas.
 
 **1. Fundamentos teóricos.** Negociação distributiva versus integrativa. Quando usar cada modelo. A armadilha de tratar integrativa como distributiva.
 
-**2. BATNA e ZOPA.** O que é, como calcular, como estimar o da outra parte, e o que fazer quando o seu é fraco.
+**2. BATNA e ZOPA.** BATNA (Best Alternative to a Negotiated Agreement — melhor alternativa caso o acordo não feche) e ZOPA (Zone of Possible Agreement — zona de acordo possível). O que são, como calcular, como estimar o da outra parte, e o que fazer quando o seu é fraco.
 
 **3. Ancoragem.** Quem ancora primeiro. Como ancorar com credibilidade. Como responder quando a âncora vem contra você.
 
@@ -34,9 +34,9 @@ Seis dimensões integradas.
 
 ### POR QUE
 
-O fundador negocia em posição de assimetria constante. Contra VC com mais informação sobre mercado de captação do que o fundador. Contra cliente com mais poder de compra. Contra executivo sênior com mais opções de emprego. Contra co-fundador com histórico emocional carregado.
+O fundador negocia em posição de assimetria constante. Contra VC (venture capital — fundo de capital de risco) com mais informação sobre mercado de captação do que o fundador. Contra cliente com mais poder de compra. Contra executivo sênior com mais opções de emprego. Contra co-fundador com histórico emocional carregado.
 
-Sem disciplina de negociação, o fundador deixa valor na mesa em todo ciclo. Em term sheet ruim, as cláusulas de liquidation preference e anti-dilution podem valer milhões a mais ou a menos no exit. Em contratação mal negociada, o precedente de comp para o primeiro executivo define a estrutura salarial de toda a liderança seguinte. Em contrato B2B sem limitação de responsabilidade adequada, uma cláusula pode comprometer a empresa inteira.
+Sem disciplina de negociação, o fundador deixa valor na mesa em todo ciclo. Em term sheet ruim, as cláusulas de liquidation preference (preferência de liquidação no exit) e anti-dilution (proteção contra diluição) podem valer milhões a mais ou a menos no exit (saída via venda ou IPO). Em contratação mal negociada, o precedente de comp (pacote de remuneração) para o primeiro executivo define a estrutura salarial de toda a liderança seguinte. Em contrato B2B sem limitação de responsabilidade adequada, uma cláusula pode comprometer a empresa inteira.
 
 Negociação não é agressividade. É clareza sobre o que importa para você, clareza sobre o que importa para a outra parte, e criatividade para estruturar um acordo que funciona para ambos.
 
@@ -45,9 +45,9 @@ Negociação não é agressividade. É clareza sobre o que importa para você, c
 
 ### Quando usar
 
-Toda negociação tem algum componente dos frameworks desse apêndice. Mas o investimento em preparação estruturada se justifica especialmente em decisões Tipo 1 (ver [[apendice-ej|Apêndice EJ]]).
+Toda negociação tem algum componente dos frameworks (estruturas de análise) desse apêndice. Mas o investimento em preparação estruturada se justifica especialmente em decisões Tipo 1 (ver [[apendice-ej|Apêndice EJ]]).
 
-Negociações onde preparação estruturada é obrigatória: term sheet com VC, contratação de executivo sênior (acima de R$ 30 mil/mês), contratos B2B acima de R$ 100 mil, M&A, renegociação de equity com co-fundador, qualquer acordo onde cláusulas impactam o futuro da empresa por mais de 12 meses.
+Negociações onde preparação estruturada é obrigatória: term sheet com VC, contratação de executivo sênior (acima de R$ 30 mil/mês), contratos B2B acima de R$ 100 mil, M&A, renegociação de equity (participação societária) com co-fundador, qualquer acordo onde cláusulas impactam o futuro da empresa por mais de 12 meses.
 
 ### Como executar
 

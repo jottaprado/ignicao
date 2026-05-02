@@ -6,39 +6,39 @@ appendix: "AB"
 ## APÊNDICE AB — PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA
 
 > [!note] Nota de validade
-> Os frameworks de descoberta contínua (Teresa Torres), priorização (RICE, Kano, WSJF), Jobs to be Done, e design systems, têm vida útil longa. Ferramentas específicas evoluem a cada dezoito a vinte e quatro meses. Revisar nesse intervalo.
+> Os frameworks (estruturas de referência) de descoberta contínua (Teresa Torres), priorização (RICE, Kano, WSJF), Jobs to be Done (trabalhos a serem feitos) e design systems têm vida útil longa. Ferramentas específicas evoluem a cada dezoito a vinte e quatro meses. Revisar nesse intervalo.
 
-As Fases 2 a 11 cobrem produto até o PMF. Descoberta, validação, MVP, atingir fit. Depois disso, produto vira disciplina contínua, em contexto diferente. Time maior. Múltiplos stakeholders. Roadmap sendo disputado. Sistema complexo. Clientes com expectativas altas. Esse território pós-PMF fica subcoberto no manual até aqui.
+As Fases 2 a 11 cobrem produto até o PMF (Product-Market Fit, encaixe entre produto e mercado): descoberta, validação, MVP, atingir fit. Depois disso, produto vira disciplina contínua, em contexto diferente. Time maior. Múltiplos stakeholders (partes interessadas). Roadmap (planejamento de produto) sendo disputado. Sistema complexo. Clientes com expectativas altas. Esse território pós-PMF fica subcoberto no manual até aqui.
 
-Esse apêndice cobre como Product funciona em empresa pós-PMF escalando para cinquenta a duzentas pessoas. Onde a disciplina que fez você chegar até aqui é insuficiente para o que vem a seguir.
+Esse apêndice cobre como Product funciona em empresa pós-PMF escalando para cinquenta a duzentas pessoas — onde a disciplina que fez você chegar até aqui é insuficiente para o que vem a seguir.
 
 ### O que esse apêndice cobre
 
-Cinco territórios em Product pós-PMF. Descoberta contínua, pesquisa de usuário não para em PMF, evolui de exploratória para iterativa. Priorização, framework estruturado, não opinião do CEO ou HIPPO. Roadmap, como comunicação de aposta, não contrato de entrega. Design Systems, infraestrutura de UI que permite velocity em escala. Collaboration Product e Engineering, ritos, specs, definition of ready e done.
+Cinco territórios em Product pós-PMF. Primeiro, descoberta contínua: pesquisa de usuário não para em PMF, evolui de exploratória para iterativa. Segundo, priorização com framework estruturado, não opinião do CEO ou HIPPO (Highest Paid Person's Opinion, opinião da pessoa mais bem paga). Terceiro, roadmap como comunicação de aposta, não contrato de entrega. Quarto, Design Systems (sistemas de design), infraestrutura de UI que permite velocity (velocidade de entrega) em escala. Quinto, colaboração entre Product e Engineering: ritos, specs (especificações), definition of ready e definition of done (critérios de pronto para começar e pronto para entregar).
 
-Os entregáveis são opportunity solution tree viva, framework de priorização aplicado, roadmap de três horizontes, design system documentado, e processo de spec até implementação.
+Os entregáveis são: opportunity solution tree (árvore de oportunidades) viva, framework de priorização aplicado, roadmap de três horizontes, design system documentado e processo de spec até implementação.
 
 ### POR QUE
 
-Empresa em escala precisa de produto como disciplina, não como intuição. O que funcionou no founder sozinho não escala para quatro squads em paralelo. Sem descoberta contínua, a empresa vira feature factory. Constrói o que stakeholders pedem, não o que gera valor.
+Empresa em escala precisa de produto como disciplina, não como intuição. O que funcionou no founder sozinho não escala para quatro squads em paralelo. Sem descoberta contínua, a empresa vira feature factory (fábrica de funcionalidades), constrói o que stakeholders pedem, não o que gera valor.
 
-Priorização sem framework é política. Quem grita mais alto, ou tem mais acesso ao CEO, ganha. Destrói moral, e qualidade. Design sem system vira caos visual. Inconsistência agride o usuário, e consome velocity de engineering. Product e Engineering sem ritos vira retrabalho. Specs vagas. Entregas erradas. Moral em queda.
+Priorização sem framework é política. Quem grita mais alto, ou tem mais acesso ao CEO, ganha. Isso destrói moral e qualidade. Design sem system vira caos visual. Inconsistência agride o usuário e consome velocity de engineering. Product e Engineering sem ritos viram retrabalho: specs vagas, entregas erradas, moral em queda.
 
 ### Quando usar
 
-[[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]], primeiras disciplinas estruturadas (descoberta contínua, e priorização leve). [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] com primeiros Product Managers contratados, todos os territórios começam a importar. [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] com múltiplos squads, Product Ops emerge como função. [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] em diante, Design System e Platform Product Management.
+[[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]], primeiras disciplinas estruturadas (descoberta contínua e priorização leve). [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] com primeiros Product Managers contratados, todos os territórios começam a importar. [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] com múltiplos squads, Product Ops emerge como função. [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] em diante, Design System e Platform Product Management.
 
 ### Quem envolve
 
-CPO, ou VP Product, lidera disciplina. Product Managers, um PM por squad, e um a dois squads por PM senior. Product Designers, idealmente um designer por squad. User Researchers, um UR para dois a quatro squads em escala. Product Ops, uma pessoa dedicada a partir de cerca de seis PMs. Staff e Principal PMs, para problemas transversais, e iniciativas estratégicas.
+CPO ou VP Product lidera a disciplina. Product Managers (gerentes de produto): um PM por squad, e um a dois squads por PM sênior. Product Designers: idealmente um designer por squad. User Researchers (pesquisadores de usuário): um UR para dois a quatro squads em escala. Product Ops: uma pessoa dedicada a partir de cerca de seis PMs. Staff e Principal PMs: para problemas transversais e iniciativas estratégicas.
 
 ### Como executar
 
 #### 1. Descoberta Contínua, framework Teresa Torres
 
-O problema resolvido. Evitar que o produto vire "o que o CEO quer", ou "o que clientes gritam mais alto". Mantendo foco em valor.
+O problema que ela resolve: evitar que o produto vire "o que o CEO quer" ou "o que clientes gritam mais alto", mantendo foco em valor.
 
-Os ingredientes em duas peças. Weekly interviewing habit, a equipe de produto entrevista pelo menos um usuário por semana. Toda semana. Opportunity Solution Tree, árvore visual que conecta outcome desejado (raiz, por exemplo "aumentar retenção de clientes de três para seis meses"), opportunities (galhos, problemas ou necessidades do usuário que, se endereçadas, movem o outcome), solutions (folhas, ideias de produto que endereçam a opportunity), e experiments (testes para validar se a solução move a opportunity).
+Os ingredientes em duas peças. Weekly interviewing habit (hábito de entrevistar semanalmente): a equipe de produto entrevista pelo menos um usuário por semana, toda semana. Opportunity Solution Tree (árvore de oportunidade-solução): árvore visual que conecta outcome desejado (raiz, por exemplo "aumentar retenção de clientes de três para seis meses"), opportunities (galhos — problemas ou necessidades do usuário que, se endereçadas, movem o outcome), solutions (folhas — ideias de produto que endereçam a opportunity) e experiments (testes para validar se a solução move a opportunity).
 
 A estrutura de uma Opportunity Solution Tree.
 

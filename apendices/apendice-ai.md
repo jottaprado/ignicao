@@ -6,25 +6,25 @@ appendix: "AI"
 ## APÊNDICE AI — CASOS DE FRACASSO BRASILEIROS E LIÇÕES
 
 > [!note] Nota de integridade
-> Esse apêndice analisa casos de startups brasileiras que falharam ou perderam posições de liderança significativas. As análises são baseadas em reportagens públicas, entrevistas com ex-fundadores e pós-mortems publicados. Não pretendem ser julgamentos definitivos — contexto completo raramente é conhecido. Propósito pedagógico: extrair padrões arquetípicos de falha que se repetem. Em casos onde há dúvida sobre causa-raiz, apresento múltiplas hipóteses, não conclusões unilaterais.
+> Esse apêndice analisa casos de startups brasileiras que falharam ou perderam posições de liderança significativas. As análises são baseadas em reportagens públicas, entrevistas com ex-fundadores e pós-mortems publicados. Não pretendem ser julgamentos definitivos — contexto completo raramente é conhecido. O propósito é pedagógico: extrair padrões arquetípicos de falha que se repetem. Em casos onde há dúvida sobre causa-raiz, apresento múltiplas hipóteses, não conclusões unilaterais.
 
-O manual até aqui traz mais de vinte casos brasileiros de sucesso (Nubank, Magazine Luiza, Stone, Movile, Hotmart, Natura, Quinto Andar, RD Station, entre outros) usados como referências reais em pontos-chave do livro, mais o caso fictício PadariaPro como instrumento pedagógico recorrente. Casos de sucesso ensinam o que funcionou naquele contexto específico. Casos de fracasso ensinam padrões que se repetem em múltiplos contextos, frequentemente mais generalizáveis. Fundador iniciante aprende tanto com "por que X quebrou" quanto com "por que Y deu certo".
+O manual até aqui traz mais de vinte casos brasileiros de sucesso (Nubank, Magazine Luiza, Stone, Movile, Hotmart, Natura, Quinto Andar, RD Station, entre outros) usados como referências reais em pontos-chave do livro, mais o caso fictício PadariaPro como instrumento pedagógico recorrente. Casos de sucesso ensinam o que funcionou naquele contexto específico. Casos de fracasso ensinam padrões que se repetem em múltiplos contextos, frequentemente mais generalizáveis. O fundador iniciante aprende tanto com "por que X quebrou" quanto com "por que Y deu certo".
 
 ### O que esse apêndice cobre
 
-São sete padrões de falha, cada um ilustrado por caso brasileiro documentado publicamente. A estrutura prioriza a lição sobre a empresa. O objetivo é extrair princípios, não atribuir culpa. Os sete padrões são: crescer em mercado sem defensibilidade estrutural (Easy Taxi), confundir tração inicial com PMF sustentável (Peixe Urbano e daily deals), queimar capital sem unit economics validadas (delivery verticais 2014-2017), fracasso de sucessão ou dependência de fundador único (múltiplos casos), ignorar mudança estrutural de mercado (Kekanto e reviews locais), sobreextensão geográfica antes de consolidar mercado doméstico (múltiplos LatAm) e perder o momentum de produto em empresa que já escalou (casos variados).
+São sete padrões de falha, cada um ilustrado por caso brasileiro documentado publicamente. A estrutura prioriza a lição sobre a empresa. O objetivo é extrair princípios, não atribuir culpa. Os sete padrões são: crescer em mercado sem defensibilidade estrutural (Easy Taxi); confundir tração inicial com PMF (Product-Market Fit, encaixe entre produto e mercado) sustentável (Peixe Urbano e daily deals); queimar capital sem unit economics (economia por unidade vendida) validadas (delivery verticais 2014-2017); falha de sucessão ou dependência de fundador único (múltiplos casos); ignorar mudança estrutural de mercado (Kekanto e reviews locais); sobreextensão geográfica antes de consolidar mercado doméstico (múltiplos LatAm); perder o momentum de produto em empresa que já escalou (casos variados).
 
 ### Por que estudar fracassos
 
-Empresas bem-sucedidas têm muitas explicações contraditórias para seu sucesso: sorte, timing, execução, decisões acertadas. É difícil isolar o que realmente fez diferença. Fracassos tendem a ter padrões mais claros. Dinheiro acaba. Mercado muda. Concorrente come. Pode ser analisado.
+Empresas bem-sucedidas têm muitas explicações contraditórias para o seu sucesso: sorte, timing, execução, decisões acertadas. É difícil isolar o que realmente fez diferença. Fracassos tendem a ter padrões mais claros. Dinheiro acaba. Mercado muda. Concorrente come. Dá para analisar.
 
-Survivor bias é a maior distorção no aprendizado de empreendedorismo. Livros e palestras focam nos que venceram, criando impressão de que as decisões deles foram "obviamente certas". A mesma decisão em outra empresa que quebrou teria sido "obviamente errada". Aprender com ambos reduz o viés.
+Survivor bias (viés do sobrevivente) é a maior distorção no aprendizado de empreendedorismo. Livros e palestras focam nos que venceram, criando a impressão de que as decisões deles foram "obviamente certas". A mesma decisão em outra empresa que quebrou teria sido "obviamente errada". Aprender com ambos reduz o viés.
 
 Em trajetória de fundador, é mais útil saber o que evitar do que o que copiar. Copiar Nubank é impossível (contexto único, timing único, capital único). Evitar padrões de falha é universalmente aplicável.
 
 ### Quando usar esse apêndice
 
-Antes da [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]], para calibrar expectativa e motivação. Antes de cada decisão estratégica grande (novo mercado, captação, pivô, expansão internacional, contratação executiva), lendo o padrão relevante. E periodicamente em momentos de boa tração, porque quando a empresa está voando é o momento de maior perigo por menor vigilância.
+Antes da [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]], para calibrar expectativa e motivação. Antes de cada decisão estratégica grande (novo mercado, captação, pivô, expansão internacional, contratação executiva), lendo o padrão relevante. E periodicamente em momentos de boa tração — quando a empresa está voando é o momento de maior perigo, por menor vigilância.
 
 ### Os sete padrões
 

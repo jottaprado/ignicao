@@ -5,9 +5,9 @@ appendix: "EM"
 
 ## APÊNDICE EM — COMPLIANCE E ANTICORRUPÇÃO PARA STARTUPS
 
-Compliance é a categoria que todo fundador sabe que existe, acha que é coisa de banco ou empresa listada, e descobre que importa — na pior hora possível. O timing da descoberta pode ser um due diligence travado, um processo administrativo, um investidor americano pedindo políticas que não existem, ou um incidente de dados que a empresa não sabe nem como notificar. Este apêndice trata compliance como disciplina operacional para startups: o que você precisa, quando precisa, e como construir sem travar a operação.
+Compliance (conformidade regulatória) é a categoria que todo fundador sabe que existe, acha que é coisa de banco ou empresa listada, e descobre que importa — na pior hora possível. O momento da descoberta pode ser um due diligence (auditoria pré-investimento) travado, um processo administrativo, um investidor americano pedindo políticas que não existem, ou um incidente de dados que a empresa não sabe nem como notificar. Este apêndice trata compliance como disciplina operacional para startups: o que você precisa, quando precisa, e como construir sem travar a operação.
 
-O argumento central é simples. A não-conformidade é cara. Não só por multa — mas por oportunidade perdida. O custo de não ter um programa de integridade aparece no valuation do M&A, na diligência do Series A americano, na negociação com cliente enterprise, no onboarding de parceiro multinacional. Compliance não é obstáculo à velocidade. É infraestrutura de crescimento.
+O argumento central é simples. A não-conformidade é cara. Não só por multa — mas por oportunidade perdida. O custo de não ter um programa de integridade aparece no valuation (avaliação de valor) em M&A (fusões e aquisições), na diligência do Series A americano, na negociação com cliente enterprise, no onboarding (integração inicial) de parceiro multinacional. Compliance não é obstáculo à velocidade. É infraestrutura de crescimento.
 
 ---
 
@@ -17,9 +17,9 @@ A premissa de que compliance é coisa de empresa grande está errada em pelo men
 
 #### A dimensão legal: responsabilidade objetiva
 
-A Lei 12.846/2013 (Lei Anticorrupção) é o texto mais importante que a maioria dos fundadores brasileiros nunca leu. Ela introduziu no direito brasileiro a responsabilidade objetiva da pessoa jurídica por atos lesivos à administração pública. Isso significa que a empresa responde independentemente de culpa ou dolo. Não importa se o fundador não sabia. Não importa se o ato foi cometido por um vendedor de campo sem supervisão direta. A empresa é responsável.
+A Lei 12.846/2013 (Lei Anticorrupção) é o texto mais importante que a maioria dos fundadores brasileiros nunca leu. Ela introduziu no direito brasileiro a responsabilidade objetiva da pessoa jurídica por atos lesivos à administração pública. Isso significa que a empresa responde independentemente de culpa ou dolo. Não importa se o fundador não sabia. Não importa se um vendedor de campo sem supervisão direta cometeu o ato. A empresa é responsável.
 
-As sanções chegam a vinte por cento do faturamento bruto do último exercício anterior à instauração do processo administrativo, ou até sessenta milhões de reais quando não for possível usar a base de faturamento. Além da multa, a lei prevê publicação extraordinária da decisão condenatória, proibição de receber incentivos, subsídios, subvenções, doações ou empréstimos de órgãos e entidades públicas — o que inclui FINEP, BNDES, Embrapii e editais de inovação que startups dependem.
+As sanções chegam a vinte por cento do faturamento bruto do último exercício anterior à instauração do processo administrativo. Quando não for possível usar a base de faturamento, o teto vai a sessenta milhões de reais. Além da multa, a lei prevê publicação extraordinária da decisão condenatória, proibição de receber incentivos, subsídios, subvenções, doações ou empréstimos de órgãos e entidades públicas — o que inclui FINEP, BNDES, Embrapii e editais de inovação dos quais startups dependem.
 
 > [!warning]
 > A multa de vinte por cento do faturamento se aplica ao faturamento bruto, não ao lucro. Para uma startup em crescimento com faturamento de R$ 10 milhões e margem negativa, a multa pode ser de R$ 2 milhões — uma quantia capaz de encerrar a operação antes do próximo aporte.

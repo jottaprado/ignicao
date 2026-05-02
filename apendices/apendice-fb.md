@@ -6,10 +6,10 @@ appendix: "FB"
 ## APÊNDICE FB — DESIGN ORGANIZACIONAL
 
 > [!note] Escopo deste apêndice
-> Design organizacional é a arte de alinhar estrutura, poder formal, fluxos de comunicação e incentivos ao problema que a empresa precisa resolver. Este apêndice cobre os oito temas mais críticos para founders: a Lei de Conway, modelos de estrutura, spans and layers, squads autônomas, reorganizações, o que quebra nos saltos de escala, platform teams e o debate remoto-presencial no contexto brasileiro. Cada seção termina com o erro mais caro que startups cometem naquele tópico.
+> Design organizacional (organizational design — desenho da estrutura e relações de uma empresa) é a arte de alinhar estrutura, poder formal, fluxos de comunicação e incentivos ao problema que a empresa precisa resolver. Este apêndice cobre os oito temas mais críticos para founders: a Lei de Conway, modelos de estrutura, spans and layers (amplitude de comando e camadas hierárquicas), squads autônomas, reorganizações, o que quebra nos saltos de escala, platform teams (times de plataforma interna) e o debate remoto-presencial no contexto brasileiro. Cada seção termina com o erro mais caro que startups cometem naquele tópico.
 
 > [!important] Por que estrutura importa desde cedo
-> Founders costumam tratar design organizacional como problema de escala. Ele não é. A estrutura que você improvisa com 8 pessoas cria path dependence que persiste até os 80. Cada decisão de reporting line, cada silos que você tolera, cada ambiguidade de ownership que você deixa passar vai virar dívida organizacional — e dívida organizacional é mais cara de resolver do que dívida técnica, porque envolve pessoas, expectativas e política.
+> Founders costumam tratar design organizacional como problema de escala. Ele não é. A estrutura que você improvisa com 8 pessoas cria path dependence (dependência de trajetória, em que escolhas iniciais condicionam o futuro) que persiste até os 80. Cada decisão de reporting line (linha de reporte hierárquico), cada silo que você tolera, cada ambiguidade de ownership (responsabilidade primária por uma área) que você deixa passar vai virar dívida organizacional. Dívida organizacional é mais cara de resolver do que dívida técnica porque envolve pessoas, expectativas e política.
 
 ---
 
@@ -17,7 +17,7 @@ appendix: "FB"
 
 Em 1967, o programador Melvin Conway publicou uma observação que ficou sendo citada para sempre: "As organizações que projetam sistemas são constrangidas a produzir sistemas cujos designs são cópias das estruturas de comunicação dessas organizações."
 
-A formulação original era descritiva. O uso moderno é prescritivo: se você sabe que sua arquitetura vai espelhar sua estrutura de comunicação, então projete a estrutura de comunicação que produz a arquitetura que você quer. É o que os engenheiros da Thoughtworks chamam de Inverse Conway Maneuver — você reorganiza os times antes de reorganizar o código, para que o código siga naturalmente.
+A formulação original era descritiva. O uso moderno é prescritivo. Se você sabe que sua arquitetura vai espelhar sua estrutura de comunicação, então projete a estrutura de comunicação que produz a arquitetura que você quer. É o que os engenheiros da Thoughtworks chamam de Inverse Conway Maneuver (manobra de Conway invertida — reorganizar times para induzir a arquitetura desejada). Você reorganiza os times antes de reorganizar o código, para que o código siga naturalmente.
 
 Para uma startup, a implicação é imediata. Se você tem um único time de engenharia fazendo backend, frontend e mobile, você vai produzir um monólito com fronteiras mal definidas. Se você separar frontend e backend em times diferentes com SLAs entre si, você vai produzir uma API que vira controle de facto entre camadas. Se você criar um time por jornada do usuário (cadastro, pagamento, engajamento), a tendência é que os serviços reflitam essas jornadas.
 
@@ -83,7 +83,7 @@ A regra prática: mude de modelo quando o custo de coordenação na estrutura at
 
 ### FB.3 Spans and layers
 
-Span of control é o número de reports diretos que um gestor tem. Layer é cada nível hierárquico entre o CEO e o colaborador individual.
+Span of control (amplitude de comando) é o número de reports diretos que um gestor tem. Layer (camada hierárquica) é cada nível entre o CEO e o colaborador individual.
 
 #### Quanto span é razoável?
 
@@ -121,7 +121,7 @@ Não crie nova camada para:
 
 ### FB.4 Squads autônomas
 
-Squad autônoma não é time que faz o que quer. É time com missão clara, escopo bem definido, ownership de uma área de produto e capacidade de entregar valor sem depender de outro time para cada decisão operacional.
+Squad autônoma não é time que faz o que quer. É time com missão clara, escopo bem definido, ownership (responsabilidade primária) de uma área de produto e capacidade de entregar valor sem depender de outro time para cada decisão operacional.
 
 #### Os quatro elementos de uma squad funcional
 
@@ -232,7 +232,7 @@ O que precisa ser criado: plataformas internas que permitem autonomia das unidad
 
 ### FB.7 Platform teams e enablement
 
-Platform team é um time que existe para aumentar a velocidade de entrega de outros times — não para entregar produto diretamente para o cliente externo. A distinção é importante porque define o modelo de sucesso do time.
+Platform team (time de plataforma interna) é um time que existe para aumentar a velocidade de entrega de outros times. Não entrega produto diretamente para o cliente externo. A distinção é importante porque define o modelo de sucesso do time.
 
 #### Quando criar um platform team
 

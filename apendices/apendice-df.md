@@ -6,15 +6,15 @@ appendix: "DF"
 ## APÊNDICE DF — INSTRUMENTOS DE CAPTAÇÃO: SAFE, NOTA CONVERSÍVEL E MÚTUO CONVERSÍVEL
 
 > [!note] Posição no livro
-> Este apêndice detalha os instrumentos de captação pré-equity usados em rodadas iniciais. O processo completo de captação está no [[apendice-v|Apêndice V]]. O COCP (instrumento específico do Marco Legal das Startups brasileiro) está no [[apendice-da|Apêndice DA]]. Stock options e ESOP estão no [[apendice-db|Apêndice DB]].
+> Este apêndice detalha os instrumentos de captação pré-equity (antes da entrada formal do investidor no quadro societário) usados em rodadas iniciais. O processo completo de captação está no [[apendice-v|Apêndice V]]. O COCP (Contrato de Opção de Compra de Participação, instrumento específico do marco legal das startups brasileiro) está no [[apendice-da|Apêndice DA]]. Stock options (opções de compra de ações) e ESOP (Employee Stock Ownership Plan, ou plano de participação acionária para colaboradores) estão no [[apendice-db|Apêndice DB]].
 
 ---
 
 ### O problema de captar com equity no early stage
 
-Em rodadas pré-seed e seed, ambas as partes têm informação insuficiente para precificar a empresa com confiança. O fundador acha que vale mais; o investidor acha que o risco não justifica o valuation pedido. Negociar equity direto trava o processo.
+Em rodadas pré-seed e seed (estágios iniciais), ambas as partes têm informação insuficiente para precificar a empresa com confiança. O fundador acha que vale mais; o investidor acha que o risco não justifica o valuation (avaliação da empresa) pedido. Negociar equity direto trava o processo.
 
-Instrumentos de captação diferida resolvem isso: o dinheiro entra agora, a conversão em equity acontece na próxima rodada, quando há mais informação (produto mais desenvolvido, primeiros clientes, outros investidores precificando). O investidor entra com desconto ou cap como compensação pelo risco de entrar antes.
+Instrumentos de captação diferida resolvem isso: o dinheiro entra agora, a conversão em equity acontece na próxima rodada, quando há mais informação (produto mais desenvolvido, primeiros clientes, outros investidores precificando). O investidor entra com desconto ou cap (teto de valuation) como compensação pelo risco de entrar antes.
 
 ---
 

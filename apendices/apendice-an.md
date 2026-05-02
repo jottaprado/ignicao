@@ -6,54 +6,54 @@ appendix: "AN"
 ## APÊNDICE AN — MODELAGEM FINANCEIRA OPERACIONAL
 
 > [!note] Nota de validade
-> A estrutura de modelagem financeira (três demonstrações, drivers, cenários) é estável ao longo de décadas. O que evolui. Ferramentas (Excel, depois Google Sheets, depois modelos em notebook Python, ou R, depois Runway, Causal, Anaplan para escala). Padrões de revenue recognition (IFRS 15). Métricas SaaS específicas em evolução. Revisar anualmente.
+> A estrutura de modelagem financeira (três demonstrações, drivers e cenários) é estável ao longo de décadas. O que evolui são as ferramentas (Excel, depois Google Sheets, depois modelos em notebook Python ou R, depois Runway, Causal, Anaplan para escala), os padrões de revenue recognition (reconhecimento de receita pelo IFRS 15) e as métricas SaaS específicas em evolução. Revisar anualmente.
 
-Vários pontos do manual mencionam "modelo financeiro". [[#FASE 11 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 11]] (validação do modelo de negócio), [[#APÊNDICE V — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Apêndice V]] (captação), e [[#APÊNDICE P — FINANCIAMENTO NÃO-DILUITIVO|Apêndice P]] (financiamento). Mas como efetivamente construir um modelo financeiro operacional está ausente. Fundador iniciante que nunca modelou chega à primeira captação com planilha improvisada, que o investidor rejeita em dois minutos.
+Vários pontos do manual mencionam "modelo financeiro": [[#FASE 11 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 11]] (validação do modelo de negócio), [[#APÊNDICE V — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Apêndice V]] (captação) e [[#APÊNDICE P — FINANCIAMENTO NÃO-DILUITIVO|Apêndice P]] (financiamento). Mas como efetivamente construir um modelo financeiro operacional está ausente. Fundador iniciante que nunca modelou chega à primeira captação com planilha improvisada, que o investidor rejeita em dois minutos.
 
-Esse apêndice cobre modelagem financeira como disciplina. Estrutura, drivers, cenários, análise de sensibilidade, e como usar modelo como instrumento de decisão operacional. Não só como deliverable para investidor.
+Esse apêndice cobre modelagem financeira como disciplina. Estrutura, drivers (variáveis que dirigem o modelo), cenários, análise de sensibilidade e como usar o modelo como instrumento de decisão operacional, não só como deliverable (entregável) para investidor.
 
 ### O que esse apêndice cobre
 
-Modelo financeiro operacional é planilha, ou ferramenta estruturada, que projeta futuro financeiro da empresa, a partir de drivers operacionais (não de números inventados). Três demonstrações integradas.
+Modelo financeiro operacional é planilha ou ferramenta estruturada que projeta o futuro financeiro da empresa, a partir de drivers operacionais (não de números inventados). Tem três demonstrações integradas.
 
-1. DRE (P&L). Receita, custos, margem, despesas, e EBITDA.
-2. Balanço. Ativo, passivo, e patrimônio.
-3. Fluxo de Caixa. Entrada, e saída de caixa, efetivamente disponível.
+1. DRE (P&L, ou Profit and Loss). Receita, custos, margem, despesas e EBITDA.
+2. Balanço. Ativo, passivo e patrimônio.
+3. Fluxo de Caixa. Entrada e saída de caixa efetivamente disponível.
 
-Tudo derivado de drivers. Número de clientes, ticket médio, churn, CAC, headcount, etc.
+Tudo derivado de drivers: número de clientes, ticket médio, churn, CAC (custo de aquisição de cliente), headcount (número de funcionários), etc.
 
-Entregáveis. Modelo em planilha (Google Sheets, Excel), ou ferramenta dedicada (Causal, Runway.com, Anaplan em escala). Cenários base, upside, e downside. Análise de sensibilidade.
+Entregáveis: modelo em planilha (Google Sheets, Excel) ou ferramenta dedicada (Causal, Runway.com, Anaplan em escala). Cenários base, upside (otimista) e downside (pessimista). Análise de sensibilidade.
 
 ### POR QUE
 
-Modelo financeiro é instrumento de pensamento. Não só documento. Forçar-se a escrever equações entre variáveis força clareza sobre o que move o negócio.
+Modelo financeiro é instrumento de pensamento, não só documento. Forçar-se a escrever equações entre variáveis força clareza sobre o que move o negócio.
 
-Decisões operacionais grandes (contratar dez pessoas? Captar R$ 30 milhões? Entrar em novo mercado?) precisam de simulação antes. O modelo é onde acontece.
+Decisões operacionais grandes — contratar dez pessoas? Captar R$ 30 milhões? Entrar em novo mercado? — precisam de simulação antes. O modelo é onde isso acontece.
 
-Rodadas de captação exigem modelo apresentável em 24 a 72 horas de DD. Não dá para construir sob pressão.
+Rodadas de captação exigem modelo apresentável em 24 a 72 horas de DD (due diligence). Não dá para construir sob pressão.
 
-Board, e investidores, esperam visibilidade do plano financeiro em cada trimestre.
+Board e investidores esperam visibilidade do plano financeiro em cada trimestre.
 
 > [!important] Modelo expõe fragilidades
-> O modelo expõe fragilidades do plano, antes de serem expostas pela realidade. Melhor descobrir que LTV não cobre CAC em planilha, do que depois de gastar R$ 5 milhões tentando.
+> O modelo expõe fragilidades do plano, antes de serem expostas pela realidade. Melhor descobrir que LTV (Lifetime Value, valor do cliente ao longo do tempo) não cobre CAC em planilha do que depois de gastar R$ 5 milhões tentando.
 
 ### Quando usar
 
 [[#FASE 11 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 11]]. Primeiro modelo formal.
 
-Pré-captação (seed, Série A, ou B). Atualizar modelo para rodada.
+Pré-captação (seed, Série A ou B). Atualize o modelo para a rodada.
 
-Início de cada trimestre. Revisar modelo versus realizado. Ajustar plano.
+Início de cada trimestre. Revise o modelo versus realizado e ajuste o plano.
 
-Antes de decisão estratégica grande. Rodar cenários no modelo.
+Antes de decisão estratégica grande. Rode cenários no modelo.
 
 ### Quem envolve
 
-Fase inicial. CEO, ou CFO fundador, constrói.
+Fase inicial. CEO ou CFO fundador constrói.
 
-Pós-Série A. Finance lead, ou CFO, constrói. CEO usa como instrumento.
+Pós-Série A. Finance lead (líder financeiro) ou CFO constrói. CEO usa como instrumento.
 
-Série B em diante. FP&A (Financial Planning & Analysis) team mantém atualizado mensalmente. CFO usa em board.
+Série B em diante. FP&A (Financial Planning & Analysis, time de planejamento e análise financeira) mantém atualizado mensalmente. CFO usa em board.
 
 ### Como executar
 

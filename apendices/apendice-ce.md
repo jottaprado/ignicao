@@ -7,34 +7,34 @@ appendix: "CE"
 
 ### O QUE É
 
-Valuation é o valor atribuído a uma empresa, em uma determinada data, e em um determinado contexto. Não existe "o valuation". Existe valuation em rodada de investimento, em aquisição, em IPO, em disputa societária, e em planejamento fiscal. Cada contexto usa método, e raciocínio, diferente. Esse apêndice trata do arsenal completo. O fundador precisa entender por que cada método é usado em qual contexto, qual método o investidor, ou comprador, está usando quando te oferece um número, e como construir o seu próprio valuation, para negociar com base sólida.
+Valuation (avaliação do valor da empresa) é o valor atribuído a uma empresa, em uma determinada data, e em um determinado contexto. Não existe "o valuation". Existe valuation em rodada de investimento, em aquisição, em IPO (oferta pública inicial de ações), em disputa societária, e em planejamento fiscal. Cada contexto usa método, e raciocínio, diferente. Esse apêndice trata do arsenal completo. O fundador precisa entender três coisas. Por que cada método é usado em qual contexto. Qual método o investidor, ou comprador, está usando quando te oferece um número. Como construir o seu próprio valuation, para negociar com base sólida.
 
 Há três categorias principais de métodos.
 
-1. Múltiplos de mercado (comparáveis de empresas similares). O mais usado em venture capital, e M&A tech.
-2. Fluxo de caixa descontado (DCF). Método acadêmico. Usado em empresas maduras, e PE.
-3. Métodos específicos por estágio. Berkus, Scorecard, e Risk Factor Summation, para early-stage. Venture Capital method, para Série A, ou B. LBO model, para PE. Sum-of-the-parts, para conglomerados.
+1. Múltiplos de mercado (comparáveis de empresas similares). O mais usado em venture capital (capital de risco institucional), e em M&A tech (fusões e aquisições no setor de tecnologia).
+2. Fluxo de caixa descontado (DCF, *discounted cash flow*). Método acadêmico. Usado em empresas maduras, e em PE (*private equity*, fundos que compram participações em empresas já consolidadas).
+3. Métodos específicos por estágio. Berkus, Scorecard, e Risk Factor Summation, para early-stage (estágio inicial). Venture Capital method, para Série A, ou B. LBO model (*leveraged buyout*, compra alavancada com dívida), para PE. Sum-of-the-parts (soma das partes), para conglomerados.
 
 ### POR QUE IMPORTA
 
-Negociar mal por desconhecimento é comum, e caro. O fundador aceita valuation que o VC propõe, "porque não tem argumento". Seis meses depois, descobre que empresa similar captou com múltiplo trinta por cento maior. E era tarde. Ter modelo próprio é poder de barganha.
+Negociar mal por desconhecimento é comum, e caro. O fundador aceita o valuation que o VC propõe "porque não tem argumento". Seis meses depois, descobre que empresa similar captou com múltiplo trinta por cento maior. E era tarde. Ter modelo próprio é poder de barganha.
 
-Entender a lógica do investidor vira argumento. "Você está usando múltiplo seis vezes revenue. Mas a empresa X, no mesmo setor, captou a nove vezes há três meses. Por que descontando?". Argumento válido só se o fundador entende o método.
+Entender a lógica do investidor vira argumento. "Você está usando múltiplo de seis vezes a receita. Mas a empresa X, no mesmo setor, captou a nove vezes há três meses. Por que descontando?". O argumento só funciona se o fundador entende o método.
 
-Decisões internas dependem de valuation honesto. Quanto vale a stock option que estou dando ao VP? Quanto vale o equity que o cofundador quer em renegociação? Quanto vale o pedacinho que quero vender em secundária? Valuation interno mal calculado gera injustiça, ou surpresa.
+Decisões internas dependem de valuation honesto. Quanto vale a stock option (opção de compra de ações) que estou dando ao VP? Quanto vale o equity (participação societária) que o cofundador quer em renegociação? Quanto vale o pedacinho que quero vender em secundária? Valuation interno mal calculado gera injustiça, ou surpresa.
 
-Em exit, a diferença entre métodos pode ser bilhões. Empresa com ARR de US$ 100 milhões vale US$ 800 milhões (oito vezes receita), ou US$ 1,5 bilhão (quinze vezes receita), ou US$ 300 milhões (DCF com desconto alto). Todos "defensáveis", dependendo do método. Saber argumentar método é a diferença material.
+Em exit (venda da empresa, IPO ou outro evento de liquidez), a diferença entre métodos pode ser de bilhões. Empresa com ARR (*annual recurring revenue*, receita recorrente anual) de US$ 100 milhões vale US$ 800 milhões (oito vezes receita), ou US$ 1,5 bilhão (quinze vezes receita), ou US$ 300 milhões (DCF com desconto alto). Todos "defensáveis", dependendo do método. Saber argumentar método é a diferença material.
 
 > [!important] Em disputa societária, divórcio, ou partilha
 > O juiz pede laudo de avaliação. O perito vai usar algum método. Se o fundador conhece, pode contestar. Se não, aceita o que o perito escolher. O método pode afetar o resultado em duas a três vezes.
 
 ### PRÉ-MONEY, PÓS-MONEY, E A MATEMÁTICA DE DILUIÇÃO
 
-Essa confusão custa dinheiro real em negociações. A distinção é simples, mas as consequências são profundas.
+Essa confusão custa dinheiro real em negociações. A distinção é simples. Mas as consequências são profundas. *Diluição* é a redução do percentual de propriedade do fundador toda vez que entra capital novo na empresa em troca de equity.
 
 **Definições.**
 
-Pre-money valuation é o valor da empresa antes do investimento entrar. Post-money valuation é o valor da empresa depois do investimento entrar. A relação é direta.
+Pre-money valuation (valor pré-investimento) é o valor da empresa antes do investimento entrar. Post-money valuation (valor pós-investimento) é o valor da empresa depois do investimento entrar. A relação é direta.
 
 ```text
 Post-money = Pre-money + Investimento

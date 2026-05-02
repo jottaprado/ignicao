@@ -8,7 +8,7 @@ appendix: "DC"
 > [!note] Nota de validade
 > Taxas do INPI, prazos processuais, e decisões sobre patenteabilidade de software mudam por resolução administrativa. Este apêndice reflete o cenário de abril de 2026. Verificar tabela de retribuições vigente no site do INPI antes de qualquer depósito. A interpretação sobre software patents no Brasil continua evoluindo — acompanhar as Diretrizes de Exame de Patentes do INPI.
 
-O [[#APÊNDICE AH — CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS|Apêndice AH]] cobre IP assignment em contratos. O [[#APÊNDICE BE — OPEN SOURCE COMO ESTRATÉGIA|Apêndice BE]] cobre open source como modelo de negócio. O [[#APÊNDICE CA — HARDWARE E DEEP TECH|Apêndice CA]] cobre patentes em deep tech e hardware. Este apêndice cobre a disciplina completa de propriedade intelectual — o que registrar, quando, como, a que custo, e o que acontece quando você não registra e deveria ter registrado.
+O [[#APÊNDICE AH — CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS|Apêndice AH]] cobre IP (propriedade intelectual) assignment (cessão de direitos) em contratos. O [[#APÊNDICE BE — OPEN SOURCE COMO ESTRATÉGIA|Apêndice BE]] cobre open source (código aberto) como modelo de negócio. O [[#APÊNDICE CA — HARDWARE E DEEP TECH|Apêndice CA]] cobre patentes em deep tech e hardware. Este apêndice cobre a disciplina completa de propriedade intelectual — o que registrar, quando, como, a que custo, e o que acontece quando você não registra e deveria ter registrado.
 
 ### O que esse apêndice cobre
 
@@ -21,7 +21,7 @@ Quatro instrumentos de PI e sua aplicação prática em startups.
 
 ### POR QUE
 
-PI mal estruturado mata exits. O due diligence de M&A descobre três categorias de problema que fazem acquirers pedir desconto ou saírem do deal: passivo trabalhista, dívida fiscal, e PI sem ownership claro.
+PI mal estruturado mata exits (eventos de liquidez para os sócios). A due diligence de M&A (fusão ou aquisição) descobre três categorias de problema que fazem acquirers (compradores) pedirem desconto ou saírem do deal: passivo trabalhista, dívida fiscal, e PI sem ownership (titularidade) claro.
 
 Uma startup que construiu produto por quatro anos com freelancers sem cláusula de cessão de direitos pode perder a titularidade do próprio código. Uma startup que não registrou a marca pode ser forçada a rebrandear na hora de expandir para outro estado — porque alguém registrou o nome antes. Uma startup de deep tech que não depositou patente antes de publicar artigo acadêmico perdeu o direito de prioridade.
 
@@ -31,9 +31,9 @@ PI não é só proteção ofensiva. É higiene operacional básica.
 
 [[#FASE 2 — ARTICULAÇÃO E CAPTURA DA IDEIA|Fase 2]]. Busca prévia de marca antes de nomear a empresa. Verificar se o nome está disponível no INPI e nos principais domínios.
 
-[[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]]. Depositar pedido de marca. Revisar todos os contratos de colaboradores para cláusula de IP assignment. Fazer inventário de PI.
+[[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]]. Depositar pedido de marca. Revisar todos os contratos de colaboradores para cláusula de cessão de IP. Fazer inventário de PI.
 
-[[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (pré-Série B). Preparar dossier de PI para due diligence. Avaliar estratégia de patentes se relevante para o modelo.
+[[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (pré-Série B). Preparar dossiê de PI para due diligence. Avaliar estratégia de patentes se relevante para o modelo.
 
 Antes de qualquer publicação científica ou apresentação pública de tecnologia inédita. Depositar pedido de patente antes de tornar a invenção pública — a publicação elimina o direito de prioridade.
 

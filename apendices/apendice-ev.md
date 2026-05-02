@@ -14,11 +14,11 @@ appendix: "EV"
 
 ### 1. O Que é Uma Crise de Comunicação
 
-A confusão mais comum entre fundadores é tratar todo problema grave como crise de comunicação, ou, o oposto igualmente perigoso, tratar uma crise de reputação como se fosse apenas um problema operacional.
+Comunicação em crise (gestão pública de eventos adversos que ameaçam a reputação) é uma disciplina distinta de gestão operacional. A confusão mais comum entre fundadores: tratar todo problema grave como crise de comunicação, ou — o oposto, igualmente perigoso — tratar uma crise de reputação como se fosse só problema operacional.
 
-**Problema operacional** é quando algo interno falha e você tem controle sobre quem sabe e quando sabe. O servidor caiu às 2h da manhã, o time de engenharia está resolvendo, os clientes ainda não perceberam ou ainda não associaram ao produto. Você tem tempo e controle da narrativa.
+**Problema operacional** é quando algo interno falha e você controla quem sabe e quando sabe. O servidor caiu às 2h da manhã, o time de engenharia resolve, os clientes ainda não perceberam ou ainda não associaram ao produto. Você tem tempo e controle da narrativa.
 
-**Crise de reputação** é quando o problema sai do seu perímetro de controle. A mídia ligou. Um cliente publicou um vídeo que viralizou. Um funcionário postou internamente e o conteúdo vazou. O regulador emitiu uma nota. Nesse ponto, a pergunta não é mais "como resolvemos o problema" — é "como comunicamos enquanto resolvemos o problema".
+**Crise de reputação** é quando o problema sai do seu perímetro de controle. A mídia ligou. Um cliente publicou um vídeo que viralizou. Um funcionário postou internamente e o conteúdo vazou. O regulador emitiu uma nota. Nesse ponto, a pergunta não é mais "como resolvemos o problema". É "como comunicamos enquanto resolvemos o problema".
 
 ```text
 MATRIZ: PROBLEMA x EXPOSIÇÃO

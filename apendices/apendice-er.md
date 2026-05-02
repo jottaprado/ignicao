@@ -8,9 +8,9 @@ appendix: "ER"
 > [!note] Nota
 > Esse apêndice cobre o direito da concorrência aplicado ao contexto de startups brasileiras. As referências à Lei 12.529/2011 (Lei de Defesa da Concorrência) e às Resoluções do CADE são de domínio público. As situações exemplificadas são hipotéticas e têm finalidade didática. Este apêndice não substitui assessoria jurídica especializada.
 
-Para a maioria dos fundadores em estágio inicial, o CADE é uma instituição abstrata que existe em notícias sobre fusões de grandes empresas. Esse raciocínio é correto — e fica incorreto exatamente no momento em que a startup não pode mais se dar ao luxo de errar.
+Para a maioria dos fundadores em estágio inicial, o CADE (Conselho Administrativo de Defesa Econômica — autoridade antitruste brasileira) é uma instituição abstrata que aparece em notícias sobre fusões de grandes empresas. Esse raciocínio é correto até o momento em que a startup não pode mais errar.
 
-O Conselho Administrativo de Defesa Econômica entra na vida de uma empresa por dois caminhos: quando ela faz algo (uma aquisição, uma fusão, um acordo com concorrente) que exige notificação obrigatória, ou quando ela cresce a ponto de seu comportamento de mercado se tornar objeto de investigação. Nenhum dos dois é problema exclusivo de empresas grandes. Ambos têm consequências que podem paralisar uma operação ou consumir anos de atenção da liderança.
+O CADE entra na vida de uma empresa por dois caminhos. O primeiro: quando ela faz algo (aquisição, fusão, acordo com concorrente) que exige notificação obrigatória. O segundo: quando ela cresce a ponto de seu comportamento de mercado virar objeto de investigação. Nenhum dos dois é problema exclusivo de empresas grandes. Ambos têm consequências que podem paralisar a operação ou consumir anos de atenção da liderança.
 
 > [!important] O custo do desconhecimento é assimétrico
 > Não saber as regras antitruste não protege contra as consequências de violá-las. Multas, nulidades de contrato e investigações administrativas acontecem independentemente da intenção. O fundador que escala sem entender os limites que o crescimento impõe constrói risco silencioso que se materializa no pior momento possível — durante um processo de M&A, numa rodada de captação, ou após uma disputa com concorrente.

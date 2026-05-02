@@ -10,16 +10,16 @@ appendix: "BC"
 
 ### O que esse apêndice cobre
 
-Technical debt é trabalho de engenharia acumulado que, deixado em aberto, aumenta o custo de mudanças futuras. Analogia. Juros compostos negativos em codebase.
+Technical debt (dívida técnica) é trabalho de engenharia acumulado que, deixado em aberto, aumenta o custo de mudanças futuras. A analogia útil são juros compostos negativos em codebase (base de código).
 
 ### POR QUE
 
-Sem gestão explícita, o tech debt acumula até travar desenvolvimento.
+Sem gestão explícita, o tech debt (dívida técnica) acumula até travar desenvolvimento.
 
-Sintomas. Velocity caindo, bugs aumentando, contratados desistindo, e incidents crescendo.
+Os sintomas. Velocity (velocidade de entrega) caindo, bugs aumentando, contratados desistindo, e incidents (incidentes em produção) crescendo.
 
 > [!warning] Board, e investidor, não veem
-> Tech debt é problema invisível, até explodir. O board olha para velocity, e roadmap, sem ver as causas. Quando a velocity cai trinta por cento de um trimestre para o outro, e o "porquê" é débito acumulado por dois anos, a conversa é dolorosa. Antecipar essa conversa é parte da disciplina.
+> Tech debt é problema invisível, até explodir. O board (conselho) olha para velocity, e roadmap (mapa de produto), sem ver as causas. Quando a velocity cai trinta por cento de um trimestre para o outro, e o motivo é débito acumulado por dois anos, a conversa é dolorosa. Antecipar essa conversa é parte da disciplina.
 
 ### Como executar
 

@@ -6,7 +6,7 @@ appendix: "EE"
 ## APÊNDICE EE — INTELIGÊNCIA COMPETITIVA — MONITORAMENTO, ANÁLISE E RESPOSTA
 
 > [!note] Para quem é esse apêndice
-> Founders e líderes de produto ou go-to-market que querem transformar inteligência competitiva de atividade ad hoc em processo sistemático. Cobre coleta de dados, frameworks de análise, win/loss, battle cards e resposta a movimentos de mercado.
+> Fundadores e líderes de produto ou go-to-market (estratégia de entrada no mercado) que querem transformar inteligência competitiva de atividade ad hoc em processo sistemático. Cobre coleta de dados, frameworks de análise, win/loss (análise de ganhos e perdas), battle cards (fichas de combate competitivo) e resposta a movimentos de mercado.
 
 > [!important] IC não é espionagem, é escuta sistemática
 > Inteligência Competitiva usa exclusivamente fontes legais e públicas: comunicados oficiais, registros públicos, entrevistas com clientes, observação de mercado. A diferença entre empresa que usa IC bem e a que não usa é a diferença entre reagir a surpresas e antecipar movimentos.

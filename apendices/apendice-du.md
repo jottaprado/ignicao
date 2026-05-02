@@ -14,21 +14,21 @@ appendix: "DU"
 
 A maioria das startups que fracassa no Brasil não fracassa por produto ruim. Fracassa por distribuição errada.
 
-O produto funciona. O problema que ele resolve é real. Os early adopters adoram. E ainda assim a empresa não cresce. O que aconteceu?
+O produto funciona. O problema que ele resolve é real. Os early adopters (primeiros clientes a adotar) adoram. E ainda assim a empresa não cresce. O que aconteceu?
 
-Aconteceu que o fundador confundiu "produto que funciona" com "produto que se distribui". São coisas distintas. Um produto pode resolver um problema genuíno e ainda assim ser impossível de vender em escala — por ser caro demais para o canal que seria natural, por exigir educação de mercado que o fundador não tem como custear, por depender de um comprador dentro da empresa que não tem orçamento ou poder de decisão.
+Aconteceu que o fundador confundiu "produto que funciona" com "produto que se distribui". São coisas distintas. Um produto pode resolver um problema genuíno e ainda assim ser impossível de vender em escala. As razões: ser caro demais para o canal natural, exigir educação de mercado que o fundador não tem como custear, ou depender de um comprador dentro da empresa que não tem orçamento ou poder de decisão.
 
-Go-to-market (GTM) é o conjunto de decisões sobre **como** o produto chega ao cliente: quem é o cliente ideal, qual o canal de distribuição, qual o processo de vendas, qual o preço, qual o motion de crescimento. Essas decisões determinam se o negócio escala ou morre — independentemente da qualidade do produto.
+GTM (go-to-market — estratégia de chegada ao mercado) é o conjunto de decisões sobre **como** o produto chega ao cliente: quem é o cliente ideal, qual o canal de distribuição, qual o processo de vendas, qual o preço, qual o motion (modelo) de crescimento. Essas decisões determinam se o negócio escala ou morre — independentemente da qualidade do produto.
 
-O objetivo deste apêndice é dar ao fundador um framework completo para construir um GTM que funcione no contexto brasileiro, desde os primeiros clientes até R$1M de ARR.
+O objetivo deste apêndice é dar ao fundador um framework completo para construir um GTM que funcione no contexto brasileiro, desde os primeiros clientes até R$ 1M de ARR (Annual Recurring Revenue — receita recorrente anual).
 
 ---
 
 ### ICP: o trabalho mais importante antes de qualquer canal
 
-ICP (Ideal Customer Profile) é a descrição rigorosa do tipo de empresa ou pessoa que tem a maior probabilidade de comprar, obter valor do produto, pagar o preço justo e continuar usando por muito tempo.
+ICP (Ideal Customer Profile — perfil de cliente ideal) é a descrição rigorosa do tipo de empresa ou pessoa que tem a maior probabilidade de comprar, obter valor do produto, pagar o preço justo e continuar usando por muito tempo.
 
-A maioria dos fundadores define ICP de forma vaga: "PMEs do setor industrial" ou "e-commerces de moda". Isso não é ICP. É um segmento de mercado. ICP é mais preciso — é a intersecção de características que, quando todas presentes, quase garantem uma boa oportunidade de venda e retenção.
+A maioria dos fundadores define ICP de forma vaga: "PMEs do setor industrial" ou "e-commerces de moda". Isso não é ICP. É um segmento de mercado. ICP é mais preciso. É a intersecção de características que, quando todas presentes, quase garantem uma boa oportunidade de venda e retenção.
 
 #### As 8 dimensões de um ICP rigoroso
 
@@ -88,11 +88,11 @@ Se as respostas a essas perguntas forem consistentes entre os 10 clientes, você
 
 ### Os 4 motions de GTM: quando usar cada um no Brasil
 
-Motion de GTM é o mecanismo central pelo qual o produto é distribuído e adotado. Cada motion tem custos, velocidades e restrições diferentes.
+Motion (modelo) de GTM é o mecanismo central pelo qual o produto é distribuído e adotado. Cada motion tem custos, velocidades e restrições diferentes.
 
 #### PLG — Product-Led Growth
 
-O produto gera seu próprio crescimento. O usuário descobre, experimenta, adota e paga sem passar por um vendedor. O boca a boca e os loops de viralidade dentro do produto são os principais canais.
+PLG (Product-Led Growth — crescimento liderado pelo produto) é quando o produto gera seu próprio crescimento. O usuário descobre, experimenta, adota e paga sem passar por um vendedor. O boca a boca e os loops de viralidade dentro do produto são os principais canais.
 
 PLG funciona bem quando:
 

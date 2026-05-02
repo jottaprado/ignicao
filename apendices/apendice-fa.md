@@ -7,29 +7,29 @@ appendix: "FA"
 
 ### O QUE É
 
-Relação bancária é o conjunto de vínculos formais e informais que uma empresa mantém com instituições financeiras. Para um fundador, isso vai além de "ter uma conta": inclui o acesso a crédito, o histórico construído ao longo do tempo, as garantias exigidas e a capacidade de navegar um sistema que foi desenhado predominantemente para empresas maduras com balanços robustos. Startup não se encaixa nesse molde e precisa aprender a operar nas margens e exceções do sistema.
+Relação bancária (relacionamento formal entre empresa e instituições financeiras) é o conjunto de vínculos que uma empresa mantém com bancos e fintechs. Para um fundador, isso vai além de "ter uma conta". Inclui o acesso a crédito, o histórico construído ao longo do tempo, as garantias exigidas e a capacidade de navegar um sistema desenhado predominantemente para empresas maduras com balanços robustos. Startup não se encaixa nesse molde e precisa aprender a operar nas margens e exceções do sistema.
 
-O Brasil tem um dos sistemas bancários mais concentrados do mundo. Cinco bancos, Itaú, Bradesco, Caixa, Banco do Brasil e Santander, concentram mais de oitenta por cento do crédito total concedido ao setor privado. Paralelamente, nos últimos dez anos surgiu uma camada de fintechs e bancos digitais que alterou radicalmente o custo de entrada na vida bancária PJ e criou alternativas reais de crédito fora dos bancos tradicionais. Entender o que cada camada oferece de verdade, em vez do que promete no site, é o ponto de partida.
+O Brasil tem um dos sistemas bancários mais concentrados do mundo. Cinco bancos (Itaú, Bradesco, Caixa, Banco do Brasil e Santander) concentram mais de oitenta por cento do crédito total concedido ao setor privado. Paralelamente, nos últimos dez anos surgiu uma camada de fintechs e bancos digitais que mudou o custo de entrada na vida bancária PJ. Essa camada criou alternativas reais de crédito fora dos bancos tradicionais. Entender o que cada camada oferece de verdade, em vez do que promete no site, é o ponto de partida.
 
-Este apêndice organiza o que fundador precisa saber sobre como abrir e estruturar contas PJ, acessar linhas de crédito institucionais, entender o papel do BNDES, lidar com o problema das garantias, construir score PJ saudável e cultivar o relacionamento com gerente de conta. Cobre também o novo cenário de Open Finance e fintechs de crédito.
+Este apêndice organiza o que fundador precisa saber sobre como abrir e estruturar contas PJ, acessar linhas de crédito institucionais, entender o papel do BNDES, lidar com o problema das garantias, construir score PJ saudável e cultivar o relacionamento com gerente de conta. Cobre também o novo cenário de Open Finance (sistema de compartilhamento de dados financeiros entre instituições com consentimento do cliente) e fintechs de crédito.
 
 ### POR QUE IMPORTA
 
-Ignorar o sistema bancário até precisar de crédito urgente é o erro mais caro que um fundador pode cometer. Quando você precisa de dinheiro rápido para cobrir folha, pagar fornecedor ou financiar crescimento, o banco analisa histórico que você deveria ter construído nos doze a vinte e quatro meses anteriores. Se esse histórico não existe, ou é fraco, ou está contaminado por mistura de PF e PJ, você não consegue crédito no momento em que mais precisa.
+Ignorar o sistema bancário até precisar de crédito urgente é o erro mais caro que um fundador pode cometer. Quando você precisa de dinheiro rápido para cobrir folha, pagar fornecedor ou financiar crescimento, o banco analisa o histórico que você deveria ter construído nos doze a vinte e quatro meses anteriores. Se esse histórico não existe, ou é fraco, ou está contaminado por mistura de PF e PJ, você não consegue crédito no momento em que mais precisa.
 
 Há três razões pelas quais relações bancárias merecem atenção desde o primeiro mês da empresa.
 
-A primeira é que crédito barato no Brasil é raro. Taxa Selic em dois dígitos faz com que capital de terceiros seja caro por padrão. As linhas subsidiadas que existem (BNDES, Pronampe, FCO/FNO/FNE) têm elegibilidade baseada em comportamento financeiro, regularidade fiscal e histórico bancário. Quem não se preparou fica restrito a crédito de mercado livre, que pode custar mais de quarenta por cento ao ano.
+A primeira é que crédito barato no Brasil é raro. Taxa Selic em dois dígitos faz com que capital de terceiros seja caro por padrão. As linhas subsidiadas que existem (BNDES, Pronampe, FCO/FNO/FNE) exigem comportamento financeiro adequado, regularidade fiscal e histórico bancário. Quem não se preparou fica restrito a crédito de mercado livre, que pode custar mais de quarenta por cento ao ano.
 
 A segunda é que o sistema foi feito para excluir quem não tem garantia real. Fundador de startup sem imóvel, sem equipamento industrializado e sem recebível previsível é exatamente o perfil para quem o banco diz não por padrão. Entender os mecanismos de mitigação de risco (FGI, cessão de recebíveis, fundos garantidores) permite acessar crédito mesmo sem patrimônio.
 
-A terceira é que separar as finanças PF e PJ desde o início protege o fundador. Mistura é um erro de governança que contamina os dois mundos: o banco enxerga empresa sem fluxo, o fundador perde controle das finanças pessoais e o contador tem trabalho desnecessário. Estrutura simples e separação rígida criam clareza operacional que vale mais do que qualquer conta premium.
+A terceira é que separar as finanças PF e PJ desde o início protege o fundador. Mistura é um erro de governança que contamina os dois mundos. O banco enxerga empresa sem fluxo, o fundador perde controle das finanças pessoais e o contador tem trabalho desnecessário. Estrutura simples e separação rígida criam clareza operacional que vale mais do que qualquer conta premium.
 
 ### O SISTEMA BANCÁRIO PARA FUNDADOR
 
 O sistema tem três camadas relevantes para startups: bancos tradicionais (os cinco grandes mais bancos médios como BTG, Sicoob, Sicredi, BRB), fintechs com conta PJ (Nubank PJ, Mercado Pago, PicPay Empresas, Boa Compra) e bancos digitais corporativos (Inter Empresas, C6 Bank PJ, Cora, Conta Simples, Neon Empresas).
 
-Cada camada foi construída para servir um perfil de empresa diferente, e misturar as expectativas é a fonte da maioria das frustrações de fundador com o sistema financeiro.
+Cada camada foi construída para servir um perfil de empresa diferente. Misturar as expectativas é a fonte da maioria das frustrações de fundador com o sistema financeiro.
 
 Os bancos tradicionais têm três vantagens que a camada digital ainda não replicou completamente: acesso a linhas de crédito institucionais (BNDES, FGI, Pronampe), tarifas zero em TEDs para outros bancos do sistema (em modalidades corporativas), e gerente de conta com alçada para negociar produtos personalizados. A desvantagem é custo de manutenção elevado (mensalidades de duzentos a dois mil reais por mês em pacotes PJ intermediários) e burocracia para abertura de conta e solicitação de crédito.
 

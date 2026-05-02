@@ -11,13 +11,13 @@ appendix: "DY"
 
 ### 1. O que é BD vs. Vendas vs. Alianças
 
-A confusão entre Business Development, Vendas e Alianças Estratégicas custa tempo, dinheiro e energia para startups em estágio inicial. Clarificar o papel de cada função antes de contratar ou estruturar times é uma das decisões mais importantes que um fundador pode tomar.
+A confusão entre Business Development (BD — desenvolvimento de negócios), Vendas e Alianças Estratégicas custa tempo, dinheiro e energia para startups em estágio inicial. Clarificar o papel de cada função antes de contratar ou estruturar times é uma das decisões mais importantes que um fundador pode tomar.
 
-**Vendas** é transacional e direta. O objetivo é fechar contratos com clientes finais. O ciclo começa com prospecção, passa por demonstração e proposta, e termina com assinatura e repasse ao Customer Success. O vendedor opera dentro de um playbook já validado. O produto vendido está definido. O ICP está mapeado.
+**Vendas** é transacional e direta. O objetivo é fechar contratos com clientes finais. O ciclo começa com prospecção, passa por demonstração e proposta, e termina com assinatura e repasse ao Customer Success (sucesso do cliente). O vendedor opera dentro de um playbook (manual operacional) já validado. O produto vendido está definido. O ICP (Ideal Customer Profile — perfil de cliente ideal) está mapeado.
 
-**Business Development** é estrutural e indireta. BD cria canais, alavancas e mecanismos que multiplicam as vendas sem que a startup precise estar presente em cada transação. Uma parceria bem desenhada com um distribuidor, uma plataforma ou um integrador pode entregar 10x o volume que a força de vendas própria entregaria no mesmo período. BD não é um vendedor que vai atrás de parceiros. É uma função que desenha modelos de colaboração que se sustentam por conta própria.
+**Business Development** é estrutural e indireto. BD cria canais, alavancas e mecanismos que multiplicam as vendas sem que a startup precise estar presente em cada transação. Uma parceria bem desenhada com um distribuidor, uma plataforma ou um integrador pode entregar 10x o volume que a força de vendas própria entregaria no mesmo período. BD não é um vendedor que vai atrás de parceiros. É uma função que desenha modelos de colaboração que se sustentam por conta própria.
 
-**Alianças Estratégicas** são um subconjunto de BD focado em acordos de longo prazo entre empresas com posicionamento complementar no mercado. Diferente de uma parceria de canal — onde o parceiro revende ou distribui — uma aliança estratégica normalmente envolve co-investimento, integração profunda de produtos ou posicionamento conjunto de marca.
+**Alianças Estratégicas** são um subconjunto de BD focado em acordos de longo prazo entre empresas com posicionamento complementar no mercado. Diferente de uma parceria de canal (onde o parceiro revende ou distribui), uma aliança estratégica normalmente envolve co-investimento, integração profunda de produtos ou posicionamento conjunto de marca.
 
 ```text
 COMPARATIVO: VENDAS vs. BD vs. ALIANÇAS
@@ -49,7 +49,7 @@ Faz sentido quando: o cliente já usa ambos os produtos e pede a integração, o
 
 **Parceria de Canal (Revenda e Distribuição)**
 
-O parceiro vende o produto da startup para a base de clientes dele. Pode ser uma revenda com margem, um modelo de afiliados com comissão recorrente ou um VAR (Value Added Reseller) que customiza a solução antes de entregar.
+O parceiro vende o produto da startup para a base de clientes dele. Pode ser uma revenda com margem, um modelo de afiliados com comissão recorrente ou um VAR (Value Added Reseller — revendedor de valor agregado) que customiza a solução antes de entregar.
 
 Faz sentido quando: o parceiro tem acesso a um segmento que você não consegue alcançar com eficiência por vendas diretas, ou quando o custo de aquisição via canal é menor do que via força própria.
 
@@ -72,7 +72,7 @@ Acordos com associações setoriais, órgãos governamentais, universidades ou e
 Faz sentido quando: a startup opera em mercado regulado, precisa de legitimidade para acessar clientes corporativos ou quer escalar em segmentos onde a confiança institucional é pré-requisito de compra.
 
 > [!note]
-> Uma startup em estágio de Product-Market Fit deve priorizar parcerias de canal e go-to-market conjunto antes de investir em integrações técnicas profundas. Integração técnica sem tração comercial é custo de produto, não alavanca de crescimento.
+> Uma startup em estágio de Product-Market Fit (encaixe entre produto e mercado) deve priorizar parcerias de canal e go-to-market (chegada ao mercado) conjunto antes de investir em integrações técnicas profundas. Integração técnica sem tração comercial é custo de produto, não alavanca de crescimento.
 
 ---
 

@@ -7,18 +7,18 @@ appendix: "CO"
 
 ### O QUE É
 
-Processo completo de atrair, avaliar, contratar, e integrar, engenheiros, e talentos técnicos (software, dados, ML, produto, design técnico, SRE, security, platform). Cobre sourcing, avaliação, decisão, oferta, onboarding, e retenção. E os trade-offs entre velocidade, qualidade, e custo.
+Processo completo de atrair, avaliar, contratar e integrar engenheiros e talentos técnicos (software, dados, ML ou aprendizado de máquina, produto, design técnico, SRE ou engenharia de confiabilidade, security ou segurança, platform ou plataforma). Cobre sourcing (busca de candidatos), avaliação, decisão, oferta, onboarding (integração) e retenção. E os trade-offs (compromissos) entre velocidade, qualidade e custo.
 
-Esse apêndice diferencia-se dos apêndices gerais de pessoas, ou talentos, por focar nas particularidades da função técnica. Pipelines escassos. Sinais difíceis de ler. Remuneração pressionada por mercado global. Avaliação que exige rigor, sem virar teatro.
+Esse apêndice diferencia-se dos apêndices gerais de pessoas, ou talentos, por focar nas particularidades da função técnica. Pipelines (filas de candidatos) escassos. Sinais difíceis de ler. Remuneração pressionada por mercado global. Avaliação que exige rigor, sem virar teatro.
 
 ### POR QUE IMPORTA
 
-Engenharia é produto. Produto é empresa. Contratar errado em eng degrada velocidade, qualidade, e moral.
+Engenharia é produto. Produto é empresa. Contratar errado em engenharia degrada velocidade, qualidade e moral do time.
 
-O mercado é global, e competitivo. Dev sênior brasileiro compete com ofertas de gringa em dólar. Perder três contratações seguidas para gringa pode custar seis a doze meses de roadmap.
+O mercado é global, e competitivo. Dev (desenvolvedor) sênior brasileiro compete com ofertas estrangeiras em dólar. Perder três contratações seguidas para o exterior pode custar seis a doze meses de roadmap (plano de produto).
 
 > [!warning] Custo de erro em engenharia
-> Dev ruim contratado demora seis a doze meses para sair. Deixa dívida técnica. Contamina cultura. E ainda gasta tempo de sêniors que poderiam estar construindo, em code review remediativo.
+> Dev ruim contratado demora seis a doze meses para sair. Deixa dívida técnica. Contamina cultura. E ainda gasta tempo de sêniors que poderiam estar construindo, em code review (revisão de código) remediativo.
 
 A diversidade de time importa. Times homogêneos têm pontos cegos previsíveis.
 
@@ -26,17 +26,17 @@ Os engenheiros avaliam o processo. Processo ruim perde bons candidatos, que têm
 
 ### QUEM CONDUZ
 
-Founders, ou CTO. Em early stage, o fundador técnico conduz as entrevistas mais importantes. Não delegável antes de cerca de vinte engs.
+Founders (fundadores) ou CTO (diretor de tecnologia). Em early stage (estágio inicial), o fundador técnico conduz as entrevistas mais importantes. Não delegável antes de cerca de vinte engenheiros.
 
-Engineering Managers. Hiring managers responsáveis por contratações no time deles.
+Engineering Managers (gerentes de engenharia). Hiring managers (gestores responsáveis pela contratação) responsáveis por contratações no time deles.
 
 Senior, Staff, ou Principal Engineers. Conduzem entrevistas técnicas profundas.
 
-Recruiters in-house, ou tech recruiters. Sourcing, triagem, coordenação, e fechamento.
+Recruiters in-house (recrutadores internos), ou tech recruiters (recrutadores especializados em tecnologia). Cuidam de sourcing, triagem, coordenação e fechamento.
 
 Agências (última opção). Caras. Mas úteis para posições críticas, e difíceis (por exemplo, staff em diante, com expertise rara). Custo de quinze a vinte e cinco por cento do salário anual.
 
-Recruiting coordinators. Logística de entrevista em empresas maiores.
+Recruiting coordinators (coordenadores de recrutamento). Logística de entrevista em empresas maiores.
 
 ### FUNIL CLÁSSICO (E VARIAÇÕES)
 

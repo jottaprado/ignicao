@@ -5,9 +5,9 @@ appendix: "CV"
 
 ## APÊNDICE CV — SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA
 
-Segurança da informação é aquele tema que todo fundador trata como importante em abstrato e adia em concreto, até o dia em que um cliente enterprise pede seu SOC 2, até o dia em que alguém comete o primeiro incidente, ou até o dia em que a ANPD ativa uma investigação após um vazamento. Nesse dia, a empresa tipicamente descobre que segurança não era linha de despesa opcional. Era infraestrutura de sobrevivência.
+Segurança da informação é aquele tema que todo fundador trata como importante em abstrato e adia em concreto. Até o dia em que um cliente enterprise pede o seu SOC 2 (certificação de controles de segurança). Até o dia em que alguém comete o primeiro incidente. Ou até o dia em que a ANPD ativa uma investigação após um vazamento. Nesse dia, a empresa tipicamente descobre que segurança não era linha de despesa opcional. Era infraestrutura de sobrevivência.
 
-Esse apêndice divide-se em duas partes. A Parte 1 cobre a visão geral da segurança como disciplina, o que você precisa implementar, certificações relevantes, frameworks, decisões básicas. É o que todo fundador precisa entender, mesmo que nunca contrate um security engineer. A Parte 2 entra em profundidade na engenharia de segurança como disciplina organizacional, como montar um programa que escala, como responder a incidentes, como pensar em arquitetura zero-trust.
+Esse apêndice divide-se em duas partes. A Parte 1 cobre a visão geral da segurança como disciplina. O que você precisa implementar, certificações relevantes, frameworks (modelos), decisões básicas. É o que todo fundador precisa entender, mesmo que nunca contrate um security engineer (engenheiro de segurança). A Parte 2 entra em profundidade na engenharia de segurança como disciplina organizacional. Como montar um programa que escala. Como responder a incidentes. Como pensar em arquitetura zero-trust (modelo de "confiança zero", onde nada é confiável por padrão).
 
 ---
 
@@ -19,9 +19,9 @@ Em startups, a tentação é tratar segurança como "coisa de empresa grande". E
 
 A primeira é regulação. A LGPD (Lei 13.709 de 2018), vigente desde 2020, atribui responsabilidades a qualquer empresa que trate dados pessoais de brasileiros. Multas podem chegar a dois por cento da receita anual, com teto de cinquenta milhões de reais por infração. A ANPD começou fiscalização ativa em 2022 e escalou desde então. Startup brasileira que trata dados de cliente brasileiro tem de cumprir.
 
-A segunda é venda. Qualquer cliente enterprise vai pedir, antes ou durante a diligência, seu relatório de segurança. Se você não tem SOC 2 Type II ou ISO 27001, o ciclo de venda trava, e às vezes termina. Empresas que deixam a certificação para quando um cliente pede descobrem que ela leva seis a doze meses, e o cliente já fechou com o concorrente.
+A segunda é venda. Qualquer cliente enterprise (grande empresa) vai pedir, antes ou durante a diligência, o seu relatório de segurança. Se você não tem SOC 2 Type II ou ISO 27001, o ciclo de venda trava, e às vezes termina. Empresas que deixam a certificação para quando um cliente pede descobrem que ela leva seis a doze meses. E o cliente já fechou com o concorrente.
 
-A terceira é risco concreto. Ataques acontecem. Ransomware virou indústria bilionária. Empresas brasileiras são alvos conhecidos. JBS pagou onze milhões de dólares em 2021. Renner, Havan, Lojas Americanas, CVC e órgãos de governo sofreram ataques de grande escala. Startup média sem postura de segurança é alvo fácil. O incidente custa cinco a vinte vezes o que teria custado prevenção.
+A terceira é risco concreto. Ataques acontecem. Ransomware (sequestro de dados por resgate) virou indústria bilionária. Empresas brasileiras são alvos conhecidos. JBS pagou onze milhões de dólares em 2021. Renner, Havan, Lojas Americanas, CVC e órgãos de governo sofreram ataques de grande escala. Startup média sem postura de segurança é alvo fácil. O incidente custa cinco a vinte vezes o que teria custado prevenção.
 
 #### A fundação mínima que qualquer empresa precisa
 
@@ -67,7 +67,7 @@ Quando você tem cinquenta ou mais funcionários e atende B2B com dados sensíve
 
 #### Segurança como disciplina organizacional
 
-A Parte 1 desse apêndice descreveu o que. A Parte 2 trata do como. Como construir um programa de segurança que escala, quem contratar, em que ordem, como responder quando algo dá errado. Essa é a visão de engenheiro de segurança, não de compliance officer.
+A Parte 1 desse apêndice descreveu o que. A Parte 2 trata do como. Como construir um programa de segurança que escala. Quem contratar. Em que ordem. Como responder quando algo dá errado. Essa é a visão de engenheiro de segurança, não de compliance officer (responsável por conformidade regulatória).
 
 Security Engineering, como disciplina, tem oito sub-áreas que eventualmente viram especialidades separadas em empresas grandes. Application Security (AppSec) cuida da segurança do código que você escreve. Infrastructure Security (InfraSec ou Cloud Security) cuida da infraestrutura (AWS, GCP, Kubernetes, redes). Identity and Access Management (IAM) cuida de quem tem acesso a quê. Data Security cobre criptografia, classificação, DLP. Endpoint Security cuida de laptops e celulares de funcionários. Security Operations (SecOps, SOC) faz monitoramento, detecção, resposta. Governance, Risk and Compliance (GRC) cuida de políticas, auditoria, certificações. E Privacy Engineering cuida de LGPD, GDPR, tratamento de dados pessoais.
 

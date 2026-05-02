@@ -10,26 +10,26 @@ appendix: "BB"
 
 ### O que esse apêndice cobre
 
-Alternativas a equity para financiar crescimento.
+Alternativas a equity (participação societária) para financiar crescimento.
 
-1. Venture debt. Dívida para startups venture-backed, frequentemente com warrants.
-2. RBF (Revenue-Based Financing). Capital em troca de percentual da receita futura, até cap definido.
+1. Venture debt (dívida para startups). Dívida para startups com investimento de fundos de venture capital, frequentemente com warrants (direitos futuros de comprar ações).
+2. RBF (Revenue-Based Financing, ou financiamento com base em receita). Capital em troca de percentual da receita futura, até um cap (teto) definido.
 
 ### POR QUE
 
-Não-diluitivo. o fundador preserva equity.
+É não-diluitivo. O fundador preserva equity.
 
-Pode ser mais barato que equity, dependendo do crescimento (equity mais caro em hindsight, se empresa vale muito mais depois).
+Pode ser mais barato que equity, dependendo do crescimento. Em retrospecto, equity sai caro se a empresa vale muito mais depois.
 
-Útil para casos específicos. Extensão de runway. Capital de giro. Aquisição. Investimento com retorno rápido.
+É útil para casos específicos. Extensão de runway (caixa para operar). Capital de giro. Aquisição. Investimento com retorno rápido.
 
-Menos governance burden. Dívida não tem board seat, ou voto.
+Carrega menos peso de governança. Dívida não tem board seat (assento no conselho), ou voto.
 
 ### QUANDO USAR
 
-**Adequado.** Pós-PMF, com receita recorrente previsível. Uso específico de capital com ROI claro (capital de giro, aquisição, ou growth rodada previsível). Complemento a rodada de equity (não substituto). Extensão de runway entre rodadas.
+**Adequado.** Pós-PMF (product-market fit, ou ajuste produto-mercado), com receita recorrente previsível. Uso específico de capital com ROI (retorno sobre investimento) claro, como capital de giro, aquisição, ou growth (crescimento) com rodada previsível. Complemento a rodada de equity, e não substituto. Extensão de runway entre rodadas.
 
-**Inadequado.** Pré-PMF (receita imprevisível, e risco de default). Para queimar em experimentos sem retorno claro. Como alternativa a rodada impossível (se equity não vem, debt provavelmente também não).
+**Inadequado.** Pré-PMF, em que a receita é imprevisível, e há risco de default (calote). Para queimar em experimentos sem retorno claro. Como alternativa a rodada impossível, porque, se equity não vem, debt (dívida) provavelmente também não.
 
 ### Como executar
 

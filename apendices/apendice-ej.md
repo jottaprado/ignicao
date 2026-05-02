@@ -9,9 +9,9 @@ appendix: "EJ"
 ## APÊNDICE EJ — TOMADA DE DECISÃO COMO DISCIPLINA
 
 > [!note] Nota
-> Esse apêndice integra pesquisa de Daniel Kahneman (Thinking, Fast and Slow), Annie Duke (Thinking in Bets), o framework SPADE de Gokul Rajaram, e práticas de tomada de decisão de organizações de alta performance, com adaptação ao contexto do fundador.
+> Esse apêndice integra pesquisa de Daniel Kahneman (Thinking, Fast and Slow), Annie Duke (Thinking in Bets), o framework SPADE — Setting, People, Alternatives, Decide, Explain — de Gokul Rajaram, e práticas de decision-making (tomada de decisão) de organizações de alta performance, com adaptação ao contexto do fundador.
 
-Fundadores tomam centenas de decisões por semana. A maioria é trivial. Algumas são irreversíveis. O problema não é o volume — é a incapacidade de distinguir entre elas, e de proteger as que mais importam de processos ruins.
+Fundadores tomam centenas de decisões por semana. A maioria é trivial. Algumas são irreversíveis. O problema não é o volume — é a incapacidade de distinguir entre elas e proteger as que mais importam de processos ruins.
 
 > [!important] Qualidade de decisão não é qualidade de resultado
 > Uma decisão boa pode ter resultado ruim (azar). Uma decisão ruim pode ter resultado bom (sorte). O fundador que confunde os dois para de aprender. Julgar a qualidade de uma decisão pelo resultado é o erro epistemológico mais caro que um fundador pode cometer.
@@ -32,9 +32,9 @@ Cinco dimensões integradas.
 
 ### POR QUE
 
-O fundador opera com excesso de informação, tempo insuficiente, e consequências de longo prazo que se tornam visíveis apenas meses depois. Esse ambiente é o mais favorável aos erros cognitivos que a pesquisa de Kahneman documenta.
+O fundador opera com excesso de informação, tempo insuficiente e consequências de longo prazo que só se tornam visíveis meses depois. Esse ambiente é o mais favorável aos erros cognitivos que a pesquisa de Kahneman documenta.
 
-Sem processo, as decisões mais importantes são tomadas por fadiga, por pressão social, ou por momentum. O que foi decidido mais cedo acumula. Uma decisão ruim de hiring no mês 6 pode estar custando R$ 50 mil por mês em mês 18 e ainda criando conflito cultural. Uma cláusula mal negociada num term sheet em 2023 reduz o exit de 2027 em sete dígitos.
+Sem processo, as decisões mais importantes saem por fadiga, por pressão social ou por momentum (inércia de movimento). O que foi decidido mais cedo acumula. Uma decisão ruim de hiring (contratação) no mês 6 pode estar custando R$ 50 mil por mês no mês 18 e ainda criando conflito cultural. Uma cláusula mal negociada num term sheet (carta de intenções de investimento) em 2023 reduz o exit (saída/venda da empresa) de 2027 em sete dígitos.
 
 O antídoto não é mais lentidão. É processo calibrado ao tipo de decisão. Decisões Tipo 2 merecem velocidade e iteração. Decisões Tipo 1 merecem rigor.
 

@@ -11,7 +11,7 @@ Processos, Infraestrutura e Excelência Operacional
 
 ### 1. Operações como Vantagem Competitiva
 
-A maioria dos empreendedores trata operações como custo a minimizar. Os que constroem negócios duráveis tratam operações como motor de crescimento. A cadeia causal é direta: excelência operacional reduz fricção para o cliente, fricção menor eleva NPS, NPS alto aumenta retenção e recomendação, retenção e recomendação ampliam LTV sem elevar CAC proporcionalmente.
+A maioria dos empreendedores trata operações como custo a minimizar. Os que constroem negócios duráveis tratam operações como motor de crescimento. A cadeia causal é direta: excelência operacional reduz fricção para o cliente, fricção menor eleva NPS (Net Promoter Score — índice de recomendação), NPS alto aumenta retenção e recomendação, retenção e recomendação ampliam LTV (Lifetime Value — valor total do cliente ao longo do relacionamento) sem elevar CAC (Customer Acquisition Cost — custo de aquisição de cliente) na mesma proporção.
 
 Essa cadeia não é teórica. Empresas como Amazon, Nubank e Loft construíram fossos competitivos principalmente via operações. O produto pode ser copiado em meses. A máquina operacional leva anos para replicar.
 

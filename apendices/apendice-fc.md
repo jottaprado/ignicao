@@ -6,11 +6,11 @@ appendix: "FC"
 ## APÊNDICE FC — GESTÃO DO CONHECIMENTO
 
 > [!note] Nota de validade
-> Os princípios de captura, organização, e transferência de conhecimento têm vida útil longa. O que muda são as ferramentas específicas — versões de Notion, Confluence, GitBook. Revisar a cada dezoito a vinte e quatro meses para atualizar referências de plataforma. Os fundamentos de gestão do conhecimento permanecem estáveis.
+> Os princípios de captura, organização e transferência de conhecimento têm vida útil longa. O que muda são as ferramentas específicas — versões de Notion, Confluence, GitBook. Revise a cada dezoito a vinte e quatro meses para atualizar referências de plataforma. Os fundamentos de gestão do conhecimento (knowledge management — disciplina de capturar, organizar e transferir o conhecimento de uma organização) permanecem estáveis.
 
 Toda startup que cresce rapidamente enfrenta, em algum momento, a mesma crise silenciosa. A pessoa que sabia como determinada coisa funcionava foi embora, e ninguém mais sabe. O cliente que apresentou um problema inédito gerou uma solução que existiu apenas na cabeça de quem resolveu. A decisão de produto foi tomada, discutida em reunião, e nunca registrada. Seis meses depois, o time toma a mesma decisão errada de novo.
 
-Gestão do conhecimento não é burocracia. É a infraestrutura que permite que a empresa aprenda mais rápido do que a competição, integre pessoas novas sem perder velocidade, e tome decisões melhores porque os erros anteriores estão documentados.
+Gestão do conhecimento não é burocracia. É a infraestrutura que permite que a empresa aprenda mais rápido do que a competição, integre pessoas novas sem perder velocidade e tome decisões melhores porque os erros anteriores estão documentados.
 
 Este apêndice cobre como construir essa infraestrutura de forma pragmática, sem criar wikis que ninguém usa e sem transformar documentação em fim em si mesmo.
 
@@ -18,11 +18,11 @@ Este apêndice cobre como construir essa infraestrutura de forma pragmática, se
 
 ### 1. O CUSTO INVISÍVEL DE NÃO DOCUMENTAR
 
-O custo de não documentar raramente aparece no P&L. Ele se manifesta de formas que parecem normais porque todo mundo está acostumado com elas.
+O custo de não documentar raramente aparece no P&L (profit and loss — demonstrativo de resultados). Ele se manifesta de formas que parecem normais porque todo mundo está acostumado com elas.
 
 **Conhecimento que sai com a pessoa.** Quando um engenheiro sênior sai, ele leva consigo o mapa mental de três anos de decisões arquiteturais. Por que determinado serviço foi separado do monolito. Por que o banco de dados foi modelado daquela forma. Por que a integração com o parceiro X funciona de um jeito não óbvio. Esse conhecimento não está em lugar nenhum. O próximo engenheiro vai descobrir tudo de novo, ou vai fazer diferente e quebrar algo.
 
-**Onboarding lento.** O tempo médio para um engenheiro novo ser produtivo em uma startup sem documentação fica entre três e seis meses. Com documentação estruturada, esse número cai para seis a oito semanas. A diferença não é uma impressão — é tempo de rampa documentado em estudos do setor de People Operations. Para uma empresa que contrata dez engenheiros por ano, a diferença representa meses de produtividade perdida.
+**Onboarding lento.** O tempo médio para um engenheiro novo ser produtivo em uma startup sem documentação fica entre três e seis meses. Com documentação estruturada, esse número cai para seis a oito semanas. A diferença não é uma impressão. É tempo de rampa documentado em estudos do setor de People Operations (operações de RH com foco em escala e processos). Para uma empresa que contrata dez engenheiros por ano, a diferença representa meses de produtividade perdida.
 
 **Decisão tomada duas vezes.** Sem registro de decisões anteriores, o time repete discussões que já aconteceram. A reunião sobre "deveríamos mudar o pricing?" acontece em janeiro, em junho, e em novembro. Cada vez, as mesmas posições, os mesmos argumentos, o mesmo resultado inconclusivo. O tempo gasto é invisível porque está distribuído entre muitas pessoas em muitas reuniões.
 
@@ -37,7 +37,7 @@ O custo de não documentar raramente aparece no P&L. Ele se manifesta de formas 
 
 A distinção mais útil para gestão do conhecimento em startups é entre conhecimento explícito e conhecimento tácito.
 
-**Conhecimento explícito** é o que pode ser articulado, escrito, e transferido diretamente. Processos, procedimentos, especificações, manuais, políticas. É o tipo mais fácil de documentar e o que a maioria das wikis captura razoavelmente bem.
+**Conhecimento explícito** é o que pode ser articulado, escrito e transferido diretamente. Processos, procedimentos, especificações, manuais, políticas. É o tipo mais fácil de documentar e o que a maioria das wikis (sites colaborativos editáveis pela equipe) captura razoavelmente bem.
 
 **Conhecimento tácito** é o que a pessoa sabe, mas não consegue descrever completamente. Como reconhecer um bom lead pelo comportamento. Por que aquele cliente específico é difícil de lidar. Como detectar que um projeto está em risco antes dos indicadores mostrarem. O julgamento que vem de anos de experiência em um domínio. É o tipo mais valioso e o mais difícil de capturar.
 

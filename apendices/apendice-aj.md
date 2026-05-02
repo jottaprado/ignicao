@@ -8,25 +8,31 @@ appendix: "AJ"
 > [!note] Validade
 > Práticas financeiras pessoais (tributação PF, produtos de seguro, mecânica de score de crédito, isenções) evoluem a cada três a cinco anos. Revise bienalmente com contador e corretor de seguros brasileiros.
 
-A [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]] toca em runway pessoal em alto nível: ter seis a doze meses de reserva. Esse apêndice aprofunda um território que manuais brasileiros de empreendedorismo tipicamente ignoram ou tratam superficialmente: como o fundador sobrevive financeiramente durante anos de renda irregular ou abaixo do mercado, sem destruir a vida pessoal, a saúde financeira da família ou o futuro.
+A [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]] toca em runway (tempo que o caixa dura) pessoal em alto nível: ter seis a doze meses de reserva. Esse apêndice aprofunda um território que manuais brasileiros de empreendedorismo tipicamente ignoram ou tratam superficialmente: como o fundador sobrevive financeiramente durante anos de renda irregular ou abaixo do mercado, sem destruir a vida pessoal, a saúde financeira da família ou o futuro.
 
-É tema prático e crítico. Fundador que falha em dinheiro pessoal frequentemente falha também na empresa. Não por causalidade direta, mas porque estresse financeiro corrói julgamento, relacionamento, saúde, e a urgência das decisões. Resulta em mau timing de saída da empresa, aceite de term sheet ruim por desespero, recusa de oportunidade boa por medo.
+É tema prático e crítico. Fundador que falha em dinheiro pessoal frequentemente falha também na empresa. Não por causalidade direta, mas porque estresse financeiro corrói julgamento, relacionamento, saúde e a urgência das decisões. Isso resulta em mau timing de saída da empresa, aceite de term sheet (proposta formal de investimento) ruim por desespero, recusa de oportunidade boa por medo.
 
 ### O quê
 
-Cinco dimensões da gestão financeira pessoal durante a trajetória empreendedora. A reserva financeira cobre quanto, onde, por quanto tempo. O salário do fundador trata de quando começar a se pagar, quanto, e como evoluir. A proteção patrimonial envolve seguros essenciais, separação pessoal e empresarial, e cônjuge. A gestão de crédito e o relacionamento bancário tratam da realidade de operar com renda irregular. E o impacto familiar cobre a preparação de cônjuge, filhos e pais, mais a gestão de expectativa ao longo de três a sete anos.
+Cinco dimensões da gestão financeira pessoal durante a trajetória empreendedora. A reserva financeira cobre quanto, onde e por quanto tempo. O salário do fundador trata de quando começar a se pagar, quanto e como evoluir. A proteção patrimonial envolve seguros essenciais, separação pessoal e empresarial, e cônjuge. A gestão de crédito e o relacionamento bancário tratam da realidade de operar com renda irregular. E o impacto familiar cobre a preparação de cônjuge, filhos e pais, mais a gestão de expectativa ao longo de três a sete anos.
 
 ### Por quê
 
-Fundador com problema financeiro pessoal toma piores decisões profissionais. Aceita term sheet ruim por desespero de caixa. Não sai de empresa que deveria ter fechado porque precisa do salário mínimo. Não negocia com força. A família é parte estrutural da trajetória. Cônjuge que não entende, filhos que sentem instabilidade, pais preocupados — tudo impacta a energia disponível para a empresa. O Brasil tem sistemas financeiros punitivos para quem tem renda irregular. O score cai, o crédito desaparece, o financiamento imobiliário fica inacessível, o convênio médico exige CLT ou empresa consolidada. Planejar contorna. E o "vou resolver isso depois" não funciona. Depois do exit você descobre que perdeu cinco anos de contribuição ao INSS, não pôde comprar casa, e o cônjuge carregou a família financeiramente sem você endereçar formalmente. Dívidas emocionais também importam.
+Fundador com problema financeiro pessoal toma piores decisões profissionais. Aceita term sheet ruim por desespero de caixa. Não sai de empresa que deveria ter fechado porque precisa do salário mínimo. Não negocia com força.
+
+A família é parte estrutural da trajetória. Cônjuge que não entende, filhos que sentem instabilidade, pais preocupados — tudo impacta a energia disponível para a empresa.
+
+O Brasil tem sistemas financeiros punitivos para quem tem renda irregular. O score cai, o crédito desaparece, o financiamento imobiliário fica inacessível, o convênio médico exige CLT ou empresa consolidada. Planejar contorna.
+
+E o "vou resolver isso depois" não funciona. Depois do exit (saída, evento de liquidez como venda da empresa) você descobre que perdeu cinco anos de contribuição ao INSS, não pôde comprar casa e o cônjuge carregou a família financeiramente sem você endereçar formalmente. Dívidas emocionais também importam.
 
 ### Quando
 
-Antes da [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]], calibre com cônjuge e família. Na [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]], monte a reserva e a estrutura de seguros. Na revisão anual, audite reserva, salário, seguros, impacto familiar. E em momentos-chave — rodada de captação, crescimento de caixa pessoal, eventos de vida como casamento, filhos, divórcio, saúde — pare e ajuste.
+Antes da [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]], calibre com cônjuge e família. Na [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]], monte a reserva e a estrutura de seguros. Na revisão anual, audite reserva, salário, seguros e impacto familiar. E em momentos-chave — rodada de captação, crescimento de caixa pessoal, eventos de vida como casamento, filhos, divórcio, saúde — pare e ajuste.
 
 ### Quem
 
-O fundador e o cônjuge ou companheira(o) são decisores conjuntos em todas as dimensões. O contador pessoal cuida da declaração de IR, da gestão entre dividendos e pro-labore, e da estruturação de PF e PJ. O corretor de seguros (independente, não atrelado a uma seguradora) cuida de vida, saúde e invalidez. O planejador financeiro com certificação CFP estrutura o longo prazo, aposentadoria e aplicações. O advogado civilista entra em momentos específicos: pacto antenupcial ou pós-nupcial, testamento. O custo típico fica entre seis e vinte e cinco mil reais por ano somando todos. Investimento que se paga ao evitar erros caros.
+O fundador e o cônjuge ou companheira(o) são decisores conjuntos em todas as dimensões. O contador pessoal cuida da declaração de IR, da gestão entre dividendos e pro-labore, e da estruturação de PF e PJ. O corretor de seguros (independente, não atrelado a uma seguradora) cuida de vida, saúde e invalidez. O planejador financeiro com certificação CFP estrutura o longo prazo, aposentadoria e aplicações. O advogado civilista entra em momentos específicos: pacto antenupcial ou pós-nupcial, testamento. O custo típico fica entre seis e vinte e cinco mil reais por ano somando todos. É investimento que se paga ao evitar erros caros.
 
 ### Como
 

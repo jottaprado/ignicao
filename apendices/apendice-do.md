@@ -12,7 +12,7 @@ appendix: "DO"
 
 ### O tamanho do problema e da oportunidade
 
-O mercado imobiliário brasileiro movimenta mais de R$ 2 trilhões em patrimônio. É o maior ativo individual da maioria das famílias brasileiras. E, ao mesmo tempo, é um dos mercados mais fragmentados, lentos e opacos do país.
+Proptech (property technology — tecnologia aplicada ao mercado imobiliário) é o foco deste apêndice. O mercado imobiliário brasileiro movimenta mais de R$ 2 trilhões em patrimônio. É o maior ativo individual da maioria das famílias brasileiras. E, ao mesmo tempo, é um dos mercados mais fragmentados, lentos e opacos do país.
 
 Comprar um imóvel no Brasil exige:
 

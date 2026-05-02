@@ -6,27 +6,29 @@ appendix: "AW"
 ## APÊNDICE AW — REGULATÓRIO SETORIAL BRASILEIRO
 
 > [!note] Nota de validade
-> Regulação setorial muda frequentemente no Brasil. Alíquotas, prazos de tramitação, entendimento fronteiriço e custos específicos têm meia-vida de doze a vinte e quatro meses. Esse apêndice reflete o cenário de abril de 2026 e é mapa estrutural: não substitui advogado setorial especializado para decisões operacionais. Princípios (arquitetura de reguladores, ordem de magnitude de custo, armadilhas recorrentes) têm validade mais longa que detalhes pontuais.
+> Regulação setorial muda frequentemente no Brasil. Alíquotas, prazos de tramitação, entendimento fronteiriço e custos específicos têm meia-vida de doze a vinte e quatro meses. Esse apêndice reflete o cenário de abril de 2026 e é mapa estrutural — não substitui advogado setorial especializado para decisões operacionais. Princípios (arquitetura de reguladores, ordem de magnitude de custo, armadilhas recorrentes) têm validade mais longa que detalhes pontuais.
 
 ### O que esse apêndice cobre
 
-Cobertura regulatória específica por setor. Fundador em vertical regulado enfrenta obrigações que vão além de LGPD, tributário e trabalhista genéricos. Regulação setorial é pré-requisito operacional: sem ela, empresa não opera legalmente, sofre multa ou é forçada a suspender operação. Custo de errar aqui é frequentemente ordens de magnitude maior que em outras áreas.
+Cobertura regulatória específica por setor. Fundador em vertical regulado enfrenta obrigações que vão além de LGPD (Lei Geral de Proteção de Dados), tributário e trabalhista genéricos. Regulação setorial é pré-requisito operacional: sem ela, a empresa não opera legalmente, sofre multa ou é forçada a suspender operação. O custo de errar aqui é frequentemente ordens de magnitude maior que em outras áreas.
 
 ### Por que importa
 
-Compliance setorial é pré-requisito, não opção. Não há "escolha" em fintech regulada: ou você tem licença, ou não pode operar. Autuações setoriais podem ser existenciais, com multas de milhões, suspensão imediata de operação, reputação destruída e inviabilidade de captação subsequente. Reguladores brasileiros variam em agilidade e previsibilidade. O BCB é relativamente previsível. ANVISA tem backlog crônico. ANEEL tem regulamentação em mudança. Conhecer o regulador específico é parte do trabalho.
+Compliance (conformidade regulatória) setorial é pré-requisito, não opção. Não há "escolha" em fintech regulada: ou você tem licença, ou não pode operar. Autuações setoriais podem ser existenciais, com multas de milhões, suspensão imediata de operação, reputação destruída e inviabilidade de captação subsequente.
 
-Competição entre startups reguladas é filtrada por compliance: quem não consegue atingir requisitos sai do jogo cedo. Isso gera tanto barreira de entrada quanto oportunidade para quem domina. E investidor sério não investe em empresa regulada com compliance em atraso: due diligence descobre, e risco regulatório é deal-killer.
+Reguladores brasileiros variam em agilidade e previsibilidade. O BCB (Banco Central do Brasil) é relativamente previsível. A ANVISA tem backlog crônico. A ANEEL tem regulamentação em mudança. Conhecer o regulador específico é parte do trabalho.
+
+A competição entre startups reguladas é filtrada por compliance: quem não consegue atingir requisitos sai do jogo cedo. Isso gera tanto barreira de entrada quanto oportunidade para quem domina. E investidor sério não investe em empresa regulada com compliance em atraso — due diligence descobre, e risco regulatório é deal-killer (mata a negociação).
 
 ### Quando agir
 
-Na [[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]]-4 (descoberta do problema), se você identifica oportunidade em setor regulado, entenda a arquitetura regulatória antes de construir MVP. Descobrir que seu produto exige licença de dezoito meses depois de construí-lo é catastrófico. Na [[#FASE 10 — MVP E EXPERIMENTOS DE MERCADO|Fase 10]] (MVP), busque primeiras licenças piloto ou sandboxes regulatórios (quando existem). Na [[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]] (PMF), compliance pleno é pré-requisito para captar Série A em setor regulado. Da [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] em diante, compliance officer dedicado, relacionamento estruturado com regulador e participação em consultas públicas.
+Na [[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]]-4 (descoberta do problema), se você identifica oportunidade em setor regulado, entenda a arquitetura regulatória antes de construir MVP (Minimum Viable Product, produto mínimo viável). Descobrir que seu produto exige licença dezoito meses depois de construí-lo é catastrófico. Na [[#FASE 10 — MVP E EXPERIMENTOS DE MERCADO|Fase 10]] (MVP), busque primeiras licenças piloto ou sandboxes regulatórios — ambientes controlados de teste (quando existem). Na [[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]] (PMF), compliance pleno é pré-requisito para captar Série A em setor regulado. Da [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] em diante, compliance officer dedicado, relacionamento estruturado com regulador e participação em consultas públicas.
 
 ### Quem envolver
 
-Advogado regulatório setorial, não generalista. Fintech pede advogado com experiência em BCB e CVM. Healthtech pede advogado com experiência em ANVISA, ANS e CFM. Custo: quatrocentos a mil e quinhentos reais por hora no Brasil, projetos típicos de vinte a duzentos mil reais.
+Advogado regulatório setorial, não generalista. Fintech pede advogado com experiência em BCB e CVM. Healthtech pede advogado com experiência em ANVISA, ANS e CFM. Custo: quatrocentos a mil e quinhentos reais por hora no Brasil, com projetos típicos de vinte a duzentos mil reais.
 
-Compliance officer dedicado a partir de Série A em setores regulados. Consultorias regulatórias especializadas (Demarest, Mattos Filho, Veirano, BMA, Machado Meyer, Pinheiro Neto têm áreas regulatórias robustas, e butiques especializadas por setor existem). Relacionamento com regulador via associações setoriais (ABFintechs, Anbima, Sindusfarma, Abranet, Abcomm) que têm canais estruturados. Public affairs a partir de Série B em setores muito regulados, com profissional dedicado a relacionamento institucional.
+Compliance officer dedicado a partir de Série A em setores regulados. Consultorias regulatórias especializadas (Demarest, Mattos Filho, Veirano, BMA, Machado Meyer, Pinheiro Neto têm áreas regulatórias robustas, e existem butiques especializadas por setor). Relacionamento com regulador via associações setoriais (ABFintechs, Anbima, Sindusfarma, Abranet, Abcomm) que têm canais estruturados. Public affairs (relações governamentais) a partir de Série B em setores muito regulados, com profissional dedicado a relacionamento institucional.
 
 ### Como — setores em profundidade
 

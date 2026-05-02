@@ -6,10 +6,10 @@ appendix: "A"
 ## APÊNDICE A — TEMPLATES PRONTOS PARA USO
 
 > [!note] Como usar
-> Esse apêndice reúne todos os templates operacionais referenciados ao longo do livro. Cada template tem indicação da fase ou apêndice de origem. Copie, adapte ao seu contexto e preencha. Templates são ponto de partida, não camisa-de-força. Se o formato não funcionar para o seu negócio, modifique. O que importa é o raciocínio que o template força, não a forma exata.
+> Esse apêndice reúne todos os templates operacionais (modelos prontos para usar) referenciados ao longo do livro. Cada template tem indicação da fase ou apêndice de origem. Copie, adapte ao seu contexto e preencha. Templates são ponto de partida, não camisa-de-força. Se o formato não funcionar para o seu negócio, modifique-o. O que importa é o raciocínio que o template força, não a forma exata.
 
-> [!important] Família discovery — A.2, A.27, A.28, A.29 e A.30
-> Cinco dos templates deste apêndice formam um conjunto coerente de artefatos de discovery, cada um para um tipo distinto de conversa. Confundi-los é o erro clássico que o IGNIÇÃO denuncia: tratar opinião de especialista como evidência de cliente, ou conselho de advisor como dado de mercado. Use o template certo para o tipo certo. A tabela e a regra de ouro abaixo guiam a escolha.
+> [!important] Família discovery (descoberta) — A.2, A.27, A.28, A.29 e A.30
+> Cinco dos templates deste apêndice formam um conjunto coerente de artefatos de discovery (descoberta de cliente), cada um para um tipo distinto de conversa. Confundi-los é o erro clássico que o IGNIÇÃO denuncia: tratar opinião de especialista como evidência de cliente, ou conselho de advisor (conselheiro) como dado de mercado. Use o template certo para o tipo certo. A tabela e a regra de ouro abaixo guiam a escolha.
 
 | Template | Use quando… | NÃO use quando… |
 |---|---|---|

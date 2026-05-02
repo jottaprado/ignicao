@@ -9,7 +9,7 @@ appendix: "DG"
 > Este apêndice é material educacional, não assessoria tributária. Alíquotas, bases de cálculo e regimes especiais mudam com frequência no Brasil. Antes de qualquer transação de exit, consulte advogado tributarista e planejador patrimonial com experiência em participações societárias. Decisões tomadas sem planejamento prévio podem resultar em carga tributária irreversível.
 
 > [!note] Posição no livro
-> Complementa a [[fases/fase-16|Fase 16 — Exit]], o [[apendice-bj|Apêndice BJ — M&A]] e o [[apendice-ba|Apêndice BA — Secondary]]. Foco em tributação do fundador pessoa física (PF) e das estruturas de holding mais comuns.
+> Complementa a [[fases/fase-16|Fase 16 — Exit]], o [[apendice-bj|Apêndice BJ — M&A]] e o [[apendice-ba|Apêndice BA — Secondary]]. Foco em tributação do fundador pessoa física (PF) e das estruturas de holding (sociedade que detém participações em outras empresas) mais comuns.
 
 ---
 
@@ -17,7 +17,7 @@ appendix: "DG"
 
 Um fundador que vendeu sua participação em uma startup por R$ 50M pode chegar às mãos com R$ 35–40M ou com R$ 45–48M, dependendo exclusivamente de decisões de estrutura tomadas anos antes da venda. A diferença não é fraude — é planejamento (ou a ausência dele).
 
-O Brasil tributa ganho de capital de forma progressiva, mas com diversas estruturas que alteram substancialmente a carga efetiva. Entender o básico é obrigação do fundador, não privilégio do rico.
+O Brasil tributa ganho de capital de forma progressiva, mas com diversas estruturas que alteram a carga efetiva de forma significativa. Entender o básico é obrigação do fundador, não privilégio do rico.
 
 ---
 

@@ -8,26 +8,26 @@ appendix: "BN"
 > [!note] Nota de validade
 > Compensação executiva, e práticas de executive search, evoluem. Os valores refletem realidade brasileira em abril de 2026. Revisar anualmente.
 
-O [[#APÊNDICE R — FOUNDER MODE, DELEGAÇÃO E QUANDO PARAR DE FAZER|Apêndice R]] cobre founder mode, e delegação. O [[#APÊNDICE AH — CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS|Apêndice AH]] cobre contratos. Esse apêndice cobre o que está no meio, e é frequentemente mal-executado. Como encontrar, avaliar, contratar, e integrar, líderes sênior, e C-levels. Contratações executivas ruins são causa frequente de desaceleração em Série A em diante. Contratações executivas boas são catalisador. Ambos acontecem. E a diferença entre uma, e outra, não é sorte. É processo.
+O [[#APÊNDICE R — FOUNDER MODE, DELEGAÇÃO E QUANDO PARAR DE FAZER|Apêndice R]] cobre founder mode (modo fundador), e delegação. O [[#APÊNDICE AH — CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS|Apêndice AH]] cobre contratos. Esse apêndice cobre o que está no meio, e é frequentemente mal-executado: como encontrar, avaliar, contratar, e integrar, líderes sênior, e C-levels (executivos com cargos de "Chief", como CTO, CFO). Contratações executivas ruins são causa frequente de desaceleração em Série A em diante. Contratações executivas boas são catalisador. Ambos acontecem. E a diferença entre uma e outra não é sorte. É processo.
 
 ### O que esse apêndice cobre
 
-Executive hiring é processo estruturado para contratar VPs, e C-levels (CTO, CFO, CPO, CRO, COO, Head of Engineering, Head of Product, etc.). Em sete frentes.
+Executive hiring (contratação executiva) é processo estruturado para contratar VPs (vice-presidentes), e C-levels (CTO, CFO, CPO, CRO, COO, Head of Engineering, Head of Product, etc.). Em sete frentes.
 
-Job spec rigoroso, com clareza de outcomes esperados nos primeiros doze a dezoito meses. Sourcing amplo, e direcionado (network, executive search firm, LinkedIn targeted, referral). Processo de entrevista estruturado, com critérios pré-definidos, e entrevistadores treinados. Reference checks obrigatórios, e profundos. Compensation package estruturado (base mais bônus mais equity mais benefits). Onboarding com plano de trinta-sessenta-noventa dias, objetivos claros, e suporte do CEO. Integração cultural deliberada.
+Job spec (descrição de cargo) rigoroso, com clareza de outcomes (resultados) esperados nos primeiros doze a dezoito meses. Sourcing (busca de candidatos) amplo, e direcionado (network pessoal, executive search firm, ou empresa de busca executiva, LinkedIn segmentado, e referral, ou indicação). Processo de entrevista estruturado, com critérios pré-definidos, e entrevistadores treinados. Reference checks (checagem de referências) obrigatórios, e profundos. Compensation package (pacote de remuneração) estruturado, com base, bônus, equity (participação societária), e benefits (benefícios). Onboarding (integração inicial) com plano de trinta-sessenta-noventa dias, objetivos claros, e suporte do CEO. Integração cultural deliberada.
 
-Os entregáveis. Job spec documentado. Short-list de três a cinco candidatos finalistas. Decisão formal registrada. Pacote de remuneração aprovado pelo board (para posições C-level). Plano de integração.
+Os entregáveis. Job spec documentado. Short-list (lista curta) de três a cinco candidatos finalistas. Decisão formal registrada. Pacote de remuneração aprovado pelo board (conselho), para posições C-level. Plano de integração.
 
 ### POR QUE
 
-> [!warning] Wrong hire executivo custa seis a dezoito meses de empresa
+> [!warning] Wrong hire (contratação errada) executivo custa seis a dezoito meses de empresa
 > Não são só os meses em que a pessoa está na posição. São os meses para reconhecer o problema. Os meses até a saída. E os meses até substituir. Em uma fase de vinte e quatro meses, entre Série A, e B, perder doze em wrong hire é quase metade da janela.
 
-O custo financeiro direto é alto. Package executivo C-level no Brasil. R$ 40 a R$ 120 mil por mês de salário, mais bônus de trinta a cem por cento, mais equity de zero vírgula cinco a três por cento fully diluted, mais benefits. Wrong hire igual a R$ 1 a R$ 5 milhões desperdiçados em doze meses.
+O custo financeiro direto é alto. Package (pacote) executivo C-level no Brasil. R$ 40 a R$ 120 mil por mês de salário, mais bônus de trinta a cem por cento, mais equity de zero vírgula cinco a três por cento fully diluted (totalmente diluído), mais benefits. Wrong hire equivale a R$ 1 a R$ 5 milhões desperdiçados em doze meses.
 
-Damage cultural é maior que o financeiro. Executivo errado desmobiliza time, queima confiança do board, e desvia estratégia. O efeito dura mais que a passagem dele pela empresa.
+O dano cultural é maior que o financeiro. Executivo errado desmobiliza o time, queima a confiança do board, e desvia a estratégia. O efeito dura mais que a passagem dele pela empresa.
 
-Contratar right executive multiplica. Líder sênior, capaz de contratar dez a cinquenta pessoas abaixo, montar função do zero, e operar sem supervisão diária, libera o fundador para decisões de nível mais um.
+Contratar o executivo certo multiplica. Líder sênior, capaz de contratar dez a cinquenta pessoas abaixo, montar função do zero, e operar sem supervisão diária, libera o fundador para decisões de nível mais um.
 
 O processo brasileiro é diferente do americano. O mercado executivo brasileiro é menor, mais interconectado, e com compensation practices diferentes. Copiar processo de Silicon Valley sem adaptação falha.
 

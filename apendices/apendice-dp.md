@@ -12,7 +12,7 @@ appendix: "DP"
 
 ### O tamanho do problema
 
-O Brasil tem mais de 1,3 milhão de advogados registrados na OAB — a maior advocacia do mundo em números absolutos, superando os EUA. O Judiciário carrega um estoque de mais de 80 milhões de processos em tramitação. O custo de um litígio civil de médio porte, considerando honorários, custas e tempo, facilmente ultrapassa R$ 50 mil.
+Legaltech (tecnologia aplicada ao setor jurídico) opera num mercado de escala incomum. O Brasil tem mais de 1,3 milhão de advogados registrados na OAB — a maior advocacia do mundo em números absolutos, superando os EUA. O Judiciário carrega estoque de mais de 80 milhões de processos em tramitação. O custo de um litígio civil de médio porte, considerando honorários, custas e tempo, ultrapassa R$ 50 mil com facilidade.
 
 Esse cenário cria três mercados distintos para legaltech:
 

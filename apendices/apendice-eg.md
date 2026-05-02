@@ -6,13 +6,13 @@ appendix: "EG"
 ## APÊNDICE EG — REVENUE FORECASTING: MODELOS, ACURÁCIA E PROCESSO PARA O FOUNDER
 
 > [!note] Posição no livro
-> Este apêndice aprofunda a mecânica de previsão de receita para fundadores em estágio pré-Series A e pós-PMF. Conecta-se ao [[apendice-am|Apêndice AM — Métricas de SaaS]], ao [[apendice-dt|Apêndice DT — Customer Experience]], que cobre churn como variável crítica no modelo, e ao [[apendice-cs|Apêndice CS — Bootstrap vs. Venture Capital]], que discute o papel do forecast na decisão de capital.
+> Este apêndice aprofunda a mecânica de forecasting (previsão) de receita para fundadores em estágio pré-Series A e pós-PMF (product-market fit, ajuste produto-mercado). Conecta-se ao [[apendice-am|Apêndice AM — Métricas de SaaS]], ao [[apendice-dt|Apêndice DT — Customer Experience]], que cobre churn (cancelamento) como variável crítica no modelo, e ao [[apendice-cs|Apêndice CS — Bootstrap vs. Venture Capital]], que discute o papel do forecast na decisão de capital.
 
 ---
 
 ### Por que forecast importa antes do Series A
 
-Muitos fundadores em early stage tratam forecast como ritual burocrático para apresentar ao investidor. Essa leitura é um erro. Forecast bem construído serve a três audiências com necessidades distintas, e a primeira delas é o próprio fundador.
+Muitos fundadores em early stage (estágio inicial) tratam forecast (previsão de receita) como ritual burocrático para apresentar ao investidor. Essa leitura é um erro. Forecast bem construído serve a três audiências com necessidades distintas, e a primeira delas é o próprio fundador.
 
 #### As três audiências
 

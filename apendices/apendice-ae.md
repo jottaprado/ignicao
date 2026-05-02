@@ -6,24 +6,24 @@ appendix: "AE"
 ## APÊNDICE AE — MARKETPLACE DYNAMICS E RISCO DE PLATAFORMA
 
 > [!note] Nota de validade
-> As dinâmicas de marketplace (liquidez, efeitos de rede, e disintermediação) têm vida útil longa. As políticas específicas de plataformas (Apple, Google, AWS, e Shopify) mudam. Revisar anualmente, se a sua empresa depende delas.
+> As dinâmicas de marketplace (mercados de dois lados — liquidez, efeitos de rede e desintermediação) têm vida útil longa. As políticas específicas de plataformas (Apple, Google, AWS e Shopify) mudam. Revisar anualmente, se a sua empresa depende delas.
 
-Categoria crescente de startups opera como marketplace (conectando dois ou mais lados, oferta e demanda), ou construindo em cima de plataformas (apps em App Store, extensões de Shopify, ou integradores com ERPs). Essas têm dinâmicas que não aparecem em SaaS clássico.
+Uma categoria crescente de startups opera como marketplace, conectando dois ou mais lados (oferta e demanda), ou construindo em cima de plataformas (apps em App Store, extensões de Shopify, ou integradores com ERPs). Essas têm dinâmicas que não aparecem em SaaS clássico.
 
 > [!warning] Risco de plataforma é frequentemente maior que risco de produto
-> A Apple muda regra de trinta por cento. A AWS muda preço. O Google muda algoritmo. O Shopify compra concorrente. A empresa constrói três anos, e perde cinquenta por cento de margem em uma semana.
+> A Apple muda regra de trinta por cento. A AWS muda preço. O Google muda algoritmo. O Shopify compra concorrente. A empresa constrói três anos e perde cinquenta por cento de margem em uma semana.
 
 ### O que esse apêndice cobre
 
-Dois temas relacionados. Primeiro, marketplace dynamics: liquidez, matching, cold start, defensibilidade, e disintermediação — dinâmicas próprias que não se aplicam em SaaS, e cujo erro de entender equivale a fracasso estrutural. Segundo, dependência de plataforma: quando a sua empresa é acessório de outra empresa — categoria invisível de risco até acontecer, capaz de transformar empresa saudável em crise em dias.
+Dois temas relacionados. Primeiro, marketplace dynamics (dinâmicas de marketplace): liquidez, matching (correspondência entre os lados), cold start (partida a frio), defensibilidade e disintermediação — dinâmicas próprias que não se aplicam em SaaS, e cujo erro de entendimento equivale a fracasso estrutural. Segundo, dependência de plataforma: quando a sua empresa é acessório de outra empresa. É categoria invisível de risco até acontecer, capaz de transformar empresa saudável em crise em dias.
 
 ### Quando usar
 
-Esse apêndice aplica se. O seu produto é marketplace (conecta dois ou mais lados não-relacionados). O seu produto vive dentro de plataforma de terceiro (app, extensão, ou integração). O seu canal de aquisição depende crucialmente de uma plataforma (Google, Meta, ou Apple).
+Esse apêndice se aplica se: o seu produto é marketplace (conecta dois ou mais lados não-relacionados); o seu produto vive dentro de plataforma de terceiro (app, extensão ou integração); o seu canal de aquisição depende crucialmente de uma plataforma (Google, Meta ou Apple).
 
 ### Quem envolve
 
-CEO, mais estratégia, como dono do risco de plataforma. Dedicated relationship, ou partnerships manager, com plataforma-chave em escala.
+CEO, em estratégia, como dono do risco de plataforma. Dedicated relationship, ou partnerships manager (gerente de parcerias), com plataforma-chave em escala.
 
 ### Como executar
 

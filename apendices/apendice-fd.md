@@ -7,30 +7,30 @@ appendix: "FD"
 
 **Como Navegar o Elefante**
 
-Fechar um contrato com uma grande corporação brasileira é, para muitos fundadores, o equivalente simbólico de chegar à maioridade como empresa. O logotipo na página de clientes, a credibilidade que abre outras portas, o volume de receita que estabiliza o caixa. O problema é que o caminho até esse contrato costuma levar de doze a vinte e quatro meses, consumir um sócio quase inteiro, e terminar com condições que prendem a startup num patamar de preço e de expectativa impossível de sustentar.
+Parceria corporativa (corporate partnership — relação comercial estruturada entre startup e grande empresa) com uma grande corporação brasileira é, para muitos fundadores, o equivalente simbólico de chegar à maioridade como empresa. O logotipo na página de clientes, a credibilidade que abre outras portas, o volume de receita que estabiliza o caixa. O problema é que o caminho até esse contrato costuma levar de doze a vinte e quatro meses, consumir um sócio quase inteiro, e terminar com condições que prendem a startup num patamar de preço e de expectativa impossível de sustentar.
 
-Este apêndice existe para que você entre nessa relação com os olhos abertos — e, se decidir entrar, entre com vantagem.
+Este apêndice existe para que você entre nessa relação com os olhos abertos. Se decidir entrar, entre com vantagem.
 
 ---
 
 ### 1. Por que grandes empresas brasileiras precisam de startups — e por que frequentemente não compram
 
-A narrativa oficial do mercado é que grandes corporações precisam de startups porque velocidade de inovação, cultura ágil, tecnologia de ponta. Essa narrativa é verdadeira em parte e conveniente em parte maior.
+A narrativa oficial do mercado é que grandes corporações precisam de startups por velocidade de inovação, cultura ágil e tecnologia de ponta. Essa narrativa é verdadeira em parte e conveniente em parte maior.
 
 **O que é verdadeiro**
 
-Setores como financeiro, seguros, varejo e logística enfrentam pressão competitiva real de fintechs, insurtechs e plataformas digitais. Bancos que não digitalizaram a jornada de crédito perdem fatia para o Nubank. Seguradoras que não automatizaram sinistros perdem para as insurtechs. Nesse contexto, a startup representa um atalho: em vez de construir internamente em três anos, a empresa compra capacidade que já existe.
+Setores como financeiro, seguros, varejo e logística enfrentam pressão competitiva real de fintechs, insurtechs e plataformas digitais. Bancos que não digitalizaram a jornada de crédito perdem fatia para o Nubank. Seguradoras que não automatizaram sinistros perdem para as insurtechs. Nesse contexto, a startup representa um atalho. Em vez de construir internamente em três anos, a empresa compra capacidade que já existe.
 
 **O que é conveniente**
 
-Inovação aberta virou instrumento de relações públicas, de atração de talentos e de governança ESG. Ter um hub de inovação com duzentas startups cadastradas custa menos do que contratar cinquenta engenheiros seniores e gera muito mais press release. O problema é que o programa de inovação e a unidade de negócios que realmente compra tecnologia raramente se comunicam. A startup entra pelo corredor da inovação e descobre que o corredor não leva à tesouraria.
+Inovação aberta (open innovation — uso de ideias e soluções externas como parte do processo de inovação da empresa) virou instrumento de relações públicas, atração de talentos e governança ESG. Ter um hub de inovação com duzentas startups cadastradas custa menos do que contratar cinquenta engenheiros seniores e gera muito mais press release. O problema é que o programa de inovação e a unidade de negócios que realmente compra tecnologia raramente se comunicam. A startup entra pelo corredor da inovação e descobre que o corredor não leva à tesouraria.
 
 > [!warning]
 > A taxa de conversão de startup participante de programa de inovação corporativa para fornecedora com contrato ativo e pagamento recorrente é, na maior parte dos programas brasileiros documentados, inferior a 8%. Antes de investir seis meses numa aceleradora corporativa, pergunte explicitamente quantas das turmas anteriores chegaram a contrato comercial.
 
 **O gap estrutural**
 
-Dentro de uma grande empresa brasileira coexistem dois sistemas com lógicas incompatíveis: o sistema de inovação, orientado a exploração, tolerância a risco e velocidade; e o sistema operacional, orientado a previsibilidade, compliance e redução de variância. A startup vive no primeiro e precisa ser comprada pelo segundo. O champion de inovação que a apadrinhou muitas vezes não tem nem orçamento nem autoridade sobre o segundo sistema.
+Dentro de uma grande empresa brasileira coexistem dois sistemas com lógicas incompatíveis. O sistema de inovação é orientado a exploração, tolerância a risco e velocidade. O sistema operacional é orientado a previsibilidade, compliance (conformidade com regras internas e legais) e redução de variância. A startup vive no primeiro e precisa ser comprada pelo segundo. O champion (executivo interno que defende a parceria) de inovação que a apadrinhou muitas vezes não tem nem orçamento nem autoridade sobre o segundo sistema.
 
 ---
 

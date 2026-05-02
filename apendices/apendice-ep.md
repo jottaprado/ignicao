@@ -8,9 +8,9 @@ appendix: "EP"
 > [!important] Para quem é este apêndice
 > Este apêndice é para fundadores que já constituíram ou estão prestes a constituir uma pessoa jurídica e precisam entender exatamente onde a proteção societária começa e onde ela termina. Não substitui assessoria jurídica especializada, mas fornece o mapa conceitual sem o qual qualquer conversa com advogado fica vaga e cara.
 
-O princípio da separação patrimonial é um dos pilares do direito empresarial moderno: a empresa tem patrimônio próprio, o sócio tem patrimônio próprio, e os credores da empresa não podem, em regra, alcançar os bens do sócio para satisfazer dívidas societárias. Esse princípio permite que pessoas assumam riscos empresariais sem apostar tudo que possuem, o que é condição necessária para que o empreendedorismo exista em escala.
+O princípio da separação patrimonial é um dos pilares do direito empresarial moderno. A empresa tem patrimônio próprio. O sócio tem patrimônio próprio. Os credores da empresa não podem, em regra, alcançar os bens do sócio para satisfazer dívidas societárias. Esse princípio permite que pessoas assumam riscos empresariais sem apostar tudo o que possuem, o que é condição necessária para que o empreendedorismo exista em escala.
 
-O problema é que este princípio tem exceções. E as exceções, no direito brasileiro, são mais amplas do que a maioria dos fundadores imagina.
+O problema é que esse princípio tem exceções. E as exceções, no direito brasileiro, são mais amplas do que a maioria dos fundadores imagina.
 
 ---
 

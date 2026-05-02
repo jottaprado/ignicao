@@ -5,11 +5,11 @@ appendix: "CN"
 
 ## APÊNDICE CN — DIVERSIDADE DE JORNADAS: CASOS ALÉM DO CÂNONE
 
-O cânone do empreendedorismo brasileiro tende a girar em torno de um conjunto pequeno de casos visíveis. Nubank, iFood, Stone, Wellhub, QuintoAndar, XP, Mercado Livre, Magalu. Esses casos aparecem repetidamente nesse livro porque são bem documentados, têm dados públicos confiáveis, e cobrem arquétipos úteis. Mas esse cânone é também estreito. Dominado por fundadores homens brancos de São Paulo. Predominantemente tech. Esse apêndice amplia propositalmente o repertório.
+O cânone do empreendedorismo brasileiro tende a girar em torno de um conjunto pequeno de casos visíveis. Nubank, iFood, Stone, Wellhub, QuintoAndar, XP, Mercado Livre, Magalu. Esses casos aparecem repetidamente nesse livro porque são bem documentados, têm dados públicos confiáveis, e cobrem arquétipos úteis. Mas esse cânone é também estreito. Dominado por fundadores homens brancos de São Paulo. Predominantemente tech (tecnologia). Esse apêndice amplia propositalmente o repertório.
 
 ### Mulheres fundadoras no Brasil
 
-A invisibilidade relativa de fundadoras mulheres no ecossistema de venture não reflete ausência delas. Reflete o viés de cobertura. Algumas trajetórias que valem estudo.
+A invisibilidade relativa de fundadoras mulheres no ecossistema de venture (capital de risco) não reflete ausência delas. Reflete o viés de cobertura. Algumas trajetórias que valem estudo.
 
 **Cristina Junqueira (Nubank).** Cofundadora com David Vélez, e Edward Wible. Ex-Itaú, com profundo conhecimento do sistema bancário, e da dor da inclusão financeira. Liderou o produto do cartão de crédito sem anuidade, o wedge que abriu o mercado. Cristina foi frequentemente o elo entre visão do fundador, e execução de produto regulamentado. Papel subestimado em histórias que focam apenas em captação, e valuation.
 

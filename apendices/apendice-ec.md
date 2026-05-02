@@ -6,7 +6,7 @@ appendix: "EC"
 ## APÊNDICE EC — PLANEJAMENTO FINANCEIRO E ORÇAMENTO
 
 > [!note] Nota de validade
-> As práticas de budgeting descritas aqui são estáveis como disciplina. O que muda com o tempo: ferramentas de FP&A (Anaplan, Mosaic, Pigment, etc.), taxas de encargos trabalhistas (sujeitas à legislação), e benchmarks de headcount por estágio. Este apêndice reflete o cenário de abril de 2026. Revisar benchmarks salariais e encargos anualmente.
+> As práticas de budgeting (orçamentação) descritas aqui são estáveis como disciplina. O que muda com o tempo: ferramentas de FP&A — Financial Planning & Analysis, ou planejamento e análise financeira — (Anaplan, Mosaic, Pigment, etc.), taxas de encargos trabalhistas (sujeitas à legislação), e benchmarks de headcount (referências de tamanho de equipe) por estágio. Este apêndice reflete o cenário de abril de 2026. Revise benchmarks salariais e encargos anualmente.
 
 O [[apendice-an|Apêndice AN]] cobre modelagem financeira: como construir projeções a partir de drivers operacionais. O [[apendice-dr|Apêndice DR]] cobre demonstrativos: como ler o que já aconteceu. Este apêndice cobre o planejamento financeiro: como transformar a visão do negócio em orçamento aprovado, operado por times com autonomia, e revisado com frequência suficiente para ser útil.
 
@@ -14,9 +14,9 @@ O [[apendice-an|Apêndice AN]] cobre modelagem financeira: como construir proje�
 
 Três instrumentos distintos que fundadores frequentemente confundem.
 
-1. **Modelo financeiro**: projeção de cenários futuros a partir de drivers. Instrumento de análise. Produzido quando necessário — pré-captação, decisão estratégica, ou início de trimestre.
-2. **Demonstrativos financeiros**: registro contábil do passado. Instrumento de auditoria e compliance. Produzido mensalmente pelo contador.
-3. **Orçamento (budget)**: plano operacional aprovado para um período, com metas por área, envelope de gastos, e resultado esperado. Instrumento de gestão. Produzido uma vez por ano, revisado trimestralmente.
+1. **Modelo financeiro**: projeção de cenários futuros a partir de drivers (variáveis operacionais que dirigem o resultado). Instrumento de análise. Produza quando necessário — pré-captação, decisão estratégica, ou início de trimestre.
+2. **Demonstrativos financeiros**: registro contábil do passado. Instrumento de auditoria e compliance (conformidade regulatória). O contador produz mensalmente.
+3. **Orçamento (budget)**: plano operacional aprovado para um período, com metas por área, envelope de gastos, e resultado esperado. Instrumento de gestão. Produza uma vez por ano, revise trimestralmente.
 
 Os três se alimentam. O modelo define as hipóteses. O orçamento operacionaliza o plano. Os demonstrativos reportam o que realmente aconteceu.
 

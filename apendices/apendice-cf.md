@@ -7,21 +7,21 @@ appendix: "CF"
 
 ### O QUE É
 
-Fundraising é frequentemente tratado como atividade reativa. "Preciso captar, vamos começar a conversar com VCs". O fundador liga para contatos, manda pitch deck pouco polido, recebe feedback genérico, volta, ajusta, e pitcha de novo. Processo diluído. Múltiplas rodadas de feedback sem closing. Meses perdidos.
+Fundraising (captação de recursos) é frequentemente tratado como atividade reativa. "Preciso captar, vamos começar a conversar com VCs (venture capitalists, fundos de capital de risco)". O fundador liga para contatos, manda pitch deck (apresentação para investidores) pouco polido, recebe feedback genérico, volta, ajusta, e pitcha de novo. Processo diluído. Múltiplas rodadas de feedback sem fechamento. Meses perdidos.
 
-Planejar rodada como processo significa tratar fundraising como um projeto. Com objetivo claro (valor captado, valuation, e termos), timeline definido (tipicamente três a seis meses de pré-fase, e seis a dez semanas de fase ativa), entregáveis específicos (data room, modelo financeiro, e deck), pipeline estruturado de investidores (lista longa priorizada, não "vou conversar com quem aparecer"), processo formal com deadlines, e governança interna (quem decide, quem negocia, e quem comunica).
+Planejar rodada como processo significa tratar fundraising como um projeto. Com objetivo claro (valor captado, valuation, e termos). Com cronograma definido (tipicamente três a seis meses de pré-fase, e seis a dez semanas de fase ativa). Com entregáveis específicos (data room, modelo financeiro, e deck). Com pipeline estruturado de investidores (lista longa priorizada, não "vou conversar com quem aparecer"). Com processo formal e prazos. E com governança (governança corporativa: quem decide, quem negocia, e quem comunica).
 
-Fundador sofisticado em estágio Série B em diante trata fundraising como M&A. Projeto de quatro a seis meses, time dedicado, advisor (banqueiro, ou consultor), e processo competitivo, que gera múltiplas ofertas, e termo melhor. Fundador iniciante em Seed, ou A, trata como "vou ver quem investe". E fica vulnerável a oferta única, com termos ruins.
+Fundador sofisticado em estágio Série B em diante trata fundraising como M&A. Projeto de quatro a seis meses, time dedicado, advisor (banqueiro, ou consultor), e processo competitivo. Isso gera múltiplas ofertas, e termo melhor. Fundador iniciante em Seed, ou A, trata como "vou ver quem investe". E fica vulnerável a oferta única, com termos ruins.
 
 ### POR QUE IMPORTA
 
-Rodada mal planejada destrói capital do fundador. Captar a múltiplo baixo, ou com liquidation preference pesada, custa pontos percentuais de ownership em exit. Em exit de R$ 1 bilhão, cinco por cento a mais de dilution são R$ 50 milhões a menos no bolso do fundador.
+Rodada mal planejada destrói capital do fundador. Captar a múltiplo baixo, ou com liquidation preference (preferência de liquidação: cláusula que dá ao investidor prioridade no recebimento em caso de venda) pesada, custa pontos percentuais de ownership (participação societária) em exit. Em exit de R$ 1 bilhão, cinco por cento a mais de dilution (diluição) são R$ 50 milhões a menos no bolso do fundador.
 
-Planejamento cria leverage. Processo competitivo (múltiplos investidores interessados simultaneamente) move valuation, e termos. Sem processo, o investidor faz preço.
+Planejamento cria leverage (poder de barganha). Processo competitivo (múltiplos investidores interessados simultaneamente) move valuation, e termos. Sem processo, o investidor faz preço.
 
-Timing afeta valuation dramaticamente. Captar quando as métricas estão em alta, e o mercado está aquecido, versus captar em downturn, muda valuation em quarenta a sessenta por cento. O planejamento inclui antecipar janela.
+Timing afeta valuation dramaticamente. Captar quando as métricas estão em alta, e o mercado está aquecido, versus captar em downturn (queda do mercado), muda valuation em quarenta a sessenta por cento. O planejamento inclui antecipar janela.
 
-Comunicação interna fica ordenada. O time, e o board, sabem o que esperar, quando, e com que métricas. Sem plano, o time vira refém do fundador em modo "caça capital" permanente. Perdendo foco operacional.
+A comunicação interna fica ordenada. O time, e o board (conselho de administração), sabem o que esperar, quando, e com que métricas. Sem plano, o time vira refém do fundador em modo "caça capital" permanente. E perde foco operacional.
 
 > [!warning] Diligência sem preparo trava o deal
 > O investidor pede documentos, modelo, e detalhamento. Tomar três semanas para responder (porque nada estava pronto) esfria momentum. O deal morre. Data room organizado desde o dia um da fase de preparação não é luxo. É infraestrutura.

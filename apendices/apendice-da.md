@@ -8,24 +8,24 @@ appendix: "DA"
 > [!note] Nota de validade
 > A Lei Complementar 182/2021 foi promulgada em junho de 2021. Valores de receita bruta, limites de dispensa de licitação, e regulamentações setoriais do ARE podem ser atualizados por decreto ou resolução posterior. Este apêndice reflete o cenário de abril de 2026. Revisar anualmente com advogado especializado em direito empresarial e startups.
 
-A [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]] cobre constituição, cap table, e vesting. O [[#APÊNDICE AH — CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS|Apêndice AH]] cobre contratos operacionais, e IP. O [[#APÊNDICE W — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Apêndice W]] cobre tributário. O [[#APÊNDICE V — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Apêndice V]] cobre captação. Este apêndice cobre a Lei Complementar 182/2021 — o Marco Legal das Startups — com foco nos instrumentos que ela criou, e em como usá-los na prática.
+A [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]] cobre constituição, cap table (quadro societário), e vesting (período de aquisição progressiva da participação). O [[#APÊNDICE AH — CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS|Apêndice AH]] cobre contratos operacionais, e IP (propriedade intelectual). O [[#APÊNDICE W — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Apêndice W]] cobre tributário. O [[#APÊNDICE V — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Apêndice V]] cobre captação. Este apêndice cobre a Lei Complementar 182/2021 — o marco legal das startups — com foco nos instrumentos que ela criou, e em como usá-los na prática.
 
 ### O que esse apêndice cobre
 
 Quatro instrumentos criados ou formalizados pela LC 182/2021.
 
-1. **COCP** — Contrato de Opção de Compra de Participação. O equivalente brasileiro do SAFE americano.
+1. **COCP** — Contrato de Opção de Compra de Participação. O equivalente brasileiro do SAFE (Simple Agreement for Future Equity, ou acordo simples para equity futuro) americano.
 2. **Investidor-anjo formalizado** — Proteções legais e limites do aporte pré-societário.
-3. **ARE** — Ambiente Regulatório Experimental. Sandbox setorial.
+3. **ARE** — Ambiente Regulatório Experimental. Sandbox (ambiente isolado de teste) setorial.
 4. **Dispensa de licitação** — Como órgãos públicos contratam startups sem processo licitatório completo.
 
 Mais: a definição legal de startup, e o que muda, ou não muda, na prática do dia a dia.
 
 ### POR QUE
 
-Antes da LC 182/2021, o fundador brasileiro usava instrumentos improvisados para captação pré-seed e seed. Mútuo conversível com cláusulas customizadas. SAFE adaptado para o direito brasileiro sem base legal clara. Investidor-anjo sem proteção contra responsabilidade societária.
+Antes da LC 182/2021, o fundador brasileiro usava instrumentos improvisados para captação pré-seed e seed (rodadas iniciais). Mútuo conversível com cláusulas customizadas. SAFE adaptado para o direito brasileiro sem base legal clara. Investidor-anjo sem proteção contra responsabilidade societária.
 
-A lei criou instrumentos nativos. Usar o COCP em vez de um SAFE adaptado não é apenas elegância jurídica. É segurança legal para ambas as partes. Menos risco em due diligence. Menos argumento para desconto de valuation.
+A lei criou instrumentos nativos. Usar o COCP em vez de um SAFE adaptado não é apenas elegância jurídica. É segurança legal para ambas as partes. Menos risco em due diligence (auditoria prévia à transação). Menos argumento para desconto de valuation (avaliação da empresa).
 
 Para govtech, a dispensa de licitação abriu um mercado de R$ 2 trilhões de gastos públicos anuais para startups com menos de dez anos.
 

@@ -6,13 +6,13 @@ appendix: "DI"
 ## APÊNDICE DI — RETENÇÃO DE TALENTOS APÓS M&A: O QUE MUDA E O QUE SE PERDE
 
 > [!note] Posição no livro
-> Complementa a [[fases/fase-16|Fase 16 — Exit]], o [[apendice-bj|Apêndice BJ — M&A]] e o [[apendice-br|Apêndice BR — Sucessão no Exit]]. Foco específico na retenção de pessoas após a aquisição — o problema mais subestimado do M&A.
+> Complementa a [[fases/fase-16|Fase 16 — Exit]], o [[apendice-bj|Apêndice BJ — M&A]] e o [[apendice-br|Apêndice BR — Sucessão no Exit]]. Foco específico na retenção de pessoas após a aquisição — o problema mais subestimado do M&A (mergers and acquisitions, ou fusões e aquisições).
 
 ---
 
 ### O problema real do M&A é de pessoas
 
-A maioria das análises de M&A foca em valuation, sinergias e due diligence financeiro. O principal motivo de destruição de valor pós-aquisição é a perda de talentos. Estudos consistentemente mostram que 70–75% dos gestores-chave de uma empresa adquirida saem nos primeiros dois a três anos. Se a empresa foi adquirida pelo time e pelo conhecimento (aquisição acqui-hire ou de produto em estágio inicial), isso é catastrófico.
+A maioria das análises de M&A foca em valuation (avaliação da empresa), sinergias e due diligence (auditoria prévia) financeiro. O principal motivo de destruição de valor pós-aquisição é a perda de talentos. Estudos mostram com consistência que 70–75% dos gestores-chave de uma empresa adquirida saem nos primeiros dois a três anos. Se a empresa foi adquirida pelo time e pelo conhecimento (aquisição acqui-hire — compra para absorver o time — ou de produto em estágio inicial), isso é catastrófico.
 
 Entender o problema antes de assinar permite ao fundador negociar melhores condições de retenção — e ao comprador evitar destruir o que acabou de comprar.
 

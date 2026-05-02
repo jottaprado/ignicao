@@ -7,7 +7,7 @@ appendix: "EQ"
 
 **Compliance, Riscos e Relacionamento com o Cliente**
 
-O Código de Defesa do Consumidor (Lei 8.078/1990) é uma das legislações mais agressivas do mundo em favor do consumidor. Para startups que vendem diretamente ao público ou operam em cadeias que chegam ao usuário final, ignorar o CDC não é opção — é passivo acumulando juros. Este apêndice traduz os pontos críticos em linguagem operacional.
+O CDC (Código de Defesa do Consumidor — Lei 8.078/1990) é uma das legislações mais agressivas do mundo em favor do consumidor. Para startups que vendem direto ao público ou operam em cadeias que chegam ao usuário final, ignorar o CDC não é opção. É passivo acumulando juros. Este apêndice traduz os pontos críticos em linguagem operacional.
 
 ---
 

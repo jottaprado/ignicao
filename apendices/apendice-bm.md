@@ -8,13 +8,13 @@ appendix: "BM"
 > [!note] Nota editorial
 > Esse apêndice trata do fundador como figura pública. Material referente a figuras brasileiras citadas baseia-se em domínio público (entrevistas, livros, reportagens, postagens). Não há juízo pessoal sobre motivações, apenas análise de padrões comunicacionais observáveis.
 
-O manual até aqui cobre comunicação como ferramenta operacional (pitch, vendas, cultura interna). Esse apêndice cobre a dimensão pública: quando, como, por que (e quando não) o fundador se posiciona publicamente. É disciplina subestimada por fundadores brasileiros iniciantes. Alguns superexpõem e destroem credibilidade, outros fogem de exposição e perdem ferramenta crítica de captação, venda e recrutamento. Ambos os erros são evitáveis com método.
+O manual até aqui cobre comunicação como ferramenta operacional (pitch, vendas, cultura interna). Esse apêndice cobre a dimensão pública: quando, como, por que (e quando não) o fundador se posiciona publicamente. É disciplina subestimada por fundadores brasileiros iniciantes. Alguns superexpõem e destroem credibilidade. Outros fogem de exposição e perdem ferramenta crítica de captação, venda e recrutamento. Ambos os erros são evitáveis com método.
 
 ### O que esse apêndice cobre e por que importa
 
-Comunicação pública do fundador envolve cinco vertentes: narrativa pessoal, imprensa (earned media), redes sociais e canais próprios, palestras e eventos, e crisis communication pessoal. Os entregáveis típicos são posicionamento narrativo documentado, media kit, biblioteca de mensagens-chave, relação com 5–15 jornalistas-referência, cadência de postagem e protocolo de crisis comm.
+A comunicação pública do fundador envolve cinco vertentes: narrativa pessoal, imprensa (earned media, ou mídia conquistada), redes sociais e canais próprios, palestras e eventos, e crisis communication (comunicação de crise) pessoal. Os entregáveis típicos são posicionamento narrativo documentado, media kit (kit de imprensa), biblioteca de mensagens-chave, relação com 5 a 15 jornalistas-referência, cadência de postagem e protocolo de crisis comm.
 
-Importa porque: captação depende de narrativa clara (investidor quer entender quem lidera); recrutamento sênior pesquisa o fundador antes de aceitar; vendas enterprise faz diligência reputacional; crise sem comunicação é crise amplificada; exposição sem estratégia queima capital reputacional; e brand pessoal e corporativo são ativos separados que precisam ser construídos deliberadamente.
+Importa porque: a captação depende de narrativa clara (o investidor quer entender quem lidera); o recrutamento sênior pesquisa o fundador antes de aceitar; vendas enterprise (corporativas) fazem diligência reputacional; crise sem comunicação é crise amplificada; exposição sem estratégia queima capital reputacional; e brand (marca) pessoal e corporativo são ativos separados que precisam ser construídos deliberadamente.
 
 ### Quando usar
 

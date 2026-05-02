@@ -10,26 +10,26 @@ appendix: "BL"
 
 ### O que esse apêndice cobre
 
-Entrepreneurship Through Acquisition (ETA) é caminho de empreendedorismo, pelo qual indivíduo adquire empresa existente, e a gere como CEO, em vez de fundar empresa do zero. Search fund é o veículo financeiro mais comum para viabilizar ETA.
+Entrepreneurship Through Acquisition (ETA, ou empreendedorismo via aquisição) é caminho de empreendedorismo no qual o indivíduo adquire empresa existente, e a gere como CEO, em vez de fundar empresa do zero. Search fund (fundo de busca) é o veículo financeiro mais comum para viabilizar ETA.
 
 Três modalidades principais.
 
-1. **Traditional Search Fund.** Búsqueda financiada por investidores que cobrem custos do processo de procura (tipicamente dezoito a vinte e quatro meses). E que depois têm direito de participar da compra. Modelo canônico de Stanford Graduate School of Business.
+1. **Traditional Search Fund (search fund tradicional).** Busca financiada por investidores que cobrem os custos do processo de procura (tipicamente dezoito a vinte e quatro meses). Depois, esses investidores têm direito de participar da compra. Modelo canônico de Stanford Graduate School of Business.
 
-2. **Self-funded search.** Empresário financia próprio processo de busca com capital próprio. Mais flexibilidade. Mais risco pessoal.
+2. **Self-funded search (busca autofinanciada).** O empresário financia o próprio processo de busca com capital próprio. Mais flexibilidade. Mais risco pessoal.
 
-3. **Entrepreneurship fellowship, ou accelerated search.** Variações com estruturas específicas (por exemplo, busca em seis a doze meses, ou grupo de buscadores).
+3. **Entrepreneurship fellowship, ou accelerated search (busca acelerada).** Variações com estruturas específicas (por exemplo, busca em seis a doze meses, ou grupo de buscadores).
 
-O "empreendedor" via ETA (chamado searcher, ou entrepreneur through acquisition) compra empresa em funcionamento. Geralmente de porte médio. E assume operação. Perfil típico. Trinta a quarenta e cinco anos. Com experiência executiva prévia. Busca empresa de US$ 2 milhões a US$ 30 milhões de receita.
+O empreendedor via ETA (chamado searcher, ou buscador) compra empresa em funcionamento. Geralmente de porte médio. E assume a operação. Perfil típico. Trinta a quarenta e cinco anos. Com experiência executiva prévia. Busca empresa de US$ 2 milhões a US$ 30 milhões de receita.
 
 ### POR QUE
 
-**Por que ETA versus founding.** Zero a um é desproporcionalmente difícil. Fundar do zero envolve PMF, construção de time, e descoberta de cliente. ETA pula essa fase. Empresa comprada tem receita, clientes, e operação. Menos risco binário. Aproveitamento de mercados maduros. Muitos mercados não precisam de novo entrante. Precisam de operador melhor em empresa existente. Transição generacional. Baby boomers donos de empresas brasileiras estão em idade de aposentadoria. Muitas empresas saudáveis precisam de sucessor. Match entre capital, e talento. Capital está disponível (search funds, e family offices). Talento executivo disponível (ex-consultores, e ex-executivos).
+**Por que ETA versus founding (fundar do zero).** Zero a um é desproporcionalmente difícil. Fundar do zero envolve PMF (product-market fit, ou ajuste produto-mercado), construção de time, e descoberta de cliente. ETA pula essa fase. Empresa comprada tem receita, clientes, e operação. Menos risco binário. Aproveitamento de mercados maduros. Muitos mercados não precisam de novo entrante. Precisam de operador melhor em empresa existente. Transição geracional. Baby boomers donos de empresas brasileiras estão em idade de aposentadoria. Muitas empresas saudáveis precisam de sucessor. Match entre capital, e talento. Capital está disponível (search funds, e family offices, ou escritórios familiares de investimento). Talento executivo disponível (ex-consultores, e ex-executivos).
 
-**Por que ETA é atraente no Brasil.** Mercado fragmentado em muitos setores. Empresas médias com donos-fundadores próximos da aposentadoria. Ausência de sucessão estruturada. Muitas empresas familiares brasileiras não têm plano. Valuation razoáveis. Múltiplos mais baixos que em países maduros (EUA tem multiples inflados). Crescimento subjacente. Brasil ainda tem espaço de crescimento em várias categorias.
+**Por que ETA é atraente no Brasil.** Mercado fragmentado em muitos setores. Empresas médias com donos-fundadores próximos da aposentadoria. Ausência de sucessão estruturada. Muitas empresas familiares brasileiras não têm plano. Valuations (avaliações) razoáveis. Múltiplos mais baixos que em países maduros (os EUA têm múltiplos inflados). Crescimento subjacente. O Brasil ainda tem espaço de crescimento em várias categorias.
 
 > [!warning] Por que ETA é difícil
-> Busca é processo longo, e frustrante. Dezoito a vinte e quatro meses de procura. Maioria dos deals não fecha. Operação de empresa existente é diferente de fundar. Cultura instalada, funcionários de longa data, e processos acumulados. Vendedor pode ser desafiador. Fundador original pode não querer vender de verdade, ou ter expectativas irreais. Financiamento complexo. Combinação de equity (investidores), dívida (bancos), e rollover (vendedor).
+> A busca é processo longo, e frustrante. Dezoito a vinte e quatro meses de procura. A maioria dos deals (negociações) não fecha. A operação de empresa existente é diferente de fundar. Cultura instalada, funcionários de longa data, e processos acumulados. O vendedor pode ser desafiador. O fundador original pode não querer vender de verdade, ou ter expectativas irreais. Financiamento complexo. Combinação de equity (investidores), dívida (bancos), e rollover, ou rolagem (vendedor mantém parte do equity).
 
 ### Quando usar
 

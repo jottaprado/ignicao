@@ -8,7 +8,7 @@ appendix: "BU"
 > [!note] Nota de contexto
 > A política DEI tornou-se tema polarizado em ecossistema global em 2024 a 2026. Esse apêndice aborda DEI como prática operacional em startup brasileira. Com racional de negócio, e com honestidade sobre trade-offs.
 
-O [[#APÊNDICE AF — ESG, IMPACT E GOVERNANÇA PARA STARTUP|Apêndice AF]] cobre ESG (incluindo Social como pilar). Esse apêndice entra em profundidade operacional específica de diversidade, equidade, e inclusão (DEI), em startup brasileira. Tema que muitas startups tratam como retórica de PR. E que, quando feito sério, é ferramenta real de recrutamento, retenção, e tomada de decisão.
+O [[#APÊNDICE AF — ESG, IMPACT E GOVERNANÇA PARA STARTUP|Apêndice AF]] cobre ESG (Environmental, Social, Governance, ou ambiental, social e governança), incluindo Social como pilar. Esse apêndice entra em profundidade operacional específica de diversidade, equidade, e inclusão (DEI), em startup brasileira. Muitas startups tratam o tema como retórica de PR (relações públicas). Quando feito sério, é ferramenta real de recrutamento, retenção, e tomada de decisão.
 
 ### O que esse apêndice cobre
 
@@ -26,18 +26,18 @@ Os entregáveis típicos. Dados de composição do time. Metas de contratação 
 
 A diversidade de perspectiva melhora decisão. Times homogêneos atingem consenso mais rápido. Mas erram na mesma direção. Times diversos discutem mais, e decidem melhor, em problemas complexos. A evidência em dados de performance corporativo é robusta.
 
-O Brasil tem talento subaproveitado em segmentos específicos. Mulheres em tech. Pretos, e pardos, em liderança. Pessoas do Norte, e Nordeste, em SP, ou RJ. Pools profundos, mas subrepresentados em startups. Empresa que sabe recrutar desses pools tem vantagem competitiva estrutural.
+O Brasil tem talento subaproveitado em segmentos específicos. Mulheres em tech. Pretos, e pardos, em liderança. Pessoas do Norte, e Nordeste, em SP, ou RJ. Pools (poços) profundos, mas subrepresentados em startups. A empresa que sabe recrutar desses pools tem vantagem competitiva estrutural.
 
-Os clientes são diversos. Time homogêneo tem blind spots sobre clientes. Produto financeiro com time noventa por cento classe A não entende fricções reais de classe C, ou D.
+Os clientes são diversos. Time homogêneo tem blind spots (pontos cegos) sobre clientes. Produto financeiro com time noventa por cento classe A não entende fricções reais de classe C, ou D.
 
-Os investidores institucionais exigem. IFC, BID, fundos ESG, e famílias de investidores sofisticados, cada vez mais perguntam sobre diversidade em due diligence.
+Os investidores institucionais exigem. IFC, BID, fundos ESG, e famílias de investidores sofisticados, cada vez mais perguntam sobre diversidade em due diligence (diligência prévia).
 
-A retenção de talento underrepresented depende de inclusão real. Contratar mulher preta, e deixá-la isolada em time cem por cento homem branco, gera turnover. E reputação negativa.
+A retenção de talento underrepresented (sub-representado) depende de inclusão real. Contratar mulher preta, e deixá-la isolada em time cem por cento homem branco, gera turnover (rotatividade). E reputação negativa.
 
 > [!warning] Risco reputacional assimétrico
-> O risco de DEI mal-feita é assimétrico. Fazer bem traz upside moderado. Fazer mal, ou fingir fazer, traz downside significativo (crítica pública, reputation damage, dificuldade de hiring).
+> O risco de DEI mal-feita é assimétrico. Fazer bem traz upside (ganho potencial) moderado. Fazer mal, ou fingir fazer, traz downside (perda potencial) significativo (crítica pública, reputation damage, ou dano reputacional, e dificuldade de hiring, ou contratação).
 
-Evitar polarização retórica. DEI "performativa" (só branding) é atacada por ambos os lados do debate. Fazer DEI real (operacional, com métricas, com humildade) é defensável.
+É importante evitar a polarização retórica. DEI "performativa" (só branding) é atacada por ambos os lados do debate. Fazer DEI real (operacional, com métricas, com humildade) é defensável.
 
 ### Quando usar
 

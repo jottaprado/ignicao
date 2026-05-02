@@ -10,20 +10,20 @@ appendix: "BA"
 
 ### O que esse apêndice cobre
 
-Venda de ações existentes (não nova emissão), por founders ou early employees, para terceiros. Permitindo liquidez parcial, antes do exit formal (IPO, ou M&A). Distinto de rodada primária (a empresa emite novas ações. O dinheiro vai para caixa da empresa). Em secondary, o dinheiro vai para quem vendeu.
+Secondary é venda de ações existentes (não nova emissão), por founders (fundadores) ou early employees (funcionários iniciais), para terceiros. Permite liquidez parcial, antes do exit (saída) formal via IPO (abertura de capital em bolsa) ou M&A (fusão e aquisição). Distinto de rodada primária, em que a empresa emite novas ações e o dinheiro vai para o caixa dela. Em secondary, o dinheiro vai para quem vendeu.
 
 ### POR QUE
 
 > [!important] A situação distorcida do fundador em Série B em diante
-> Founder em Série B em diante frequentemente tem patrimônio de R$ 50 milhões a R$ 500 milhões no papel. E R$ 100 mil na conta. Aliviar pressão pessoal permite decisões estratégicas de longo prazo melhor. Founder desesperado por caixa aceita term sheet ruim, ou vende cedo.
+> O fundador em Série B em diante frequentemente tem patrimônio de R$ 50 milhões a R$ 500 milhões no papel, e R$ 100 mil na conta. Aliviar pressão pessoal permite decisões estratégicas melhores no longo prazo. Fundador desesperado por caixa aceita term sheet (proposta de termos) ruim, ou vende cedo.
 
-Investidores institucionais frequentemente endossam. Founder estressado financeiramente é risco.
+Investidores institucionais frequentemente endossam. Fundador estressado financeiramente é risco.
 
-Alternativa ao exit prematuro. Em vez de vender empresa toda cedo, vende parte do equity próprio.
+É alternativa ao exit prematuro. Em vez de vender a empresa toda cedo, o fundador vende parte do equity (participação societária) próprio.
 
 ### Quando usar
 
-Série B em diante, tipicamente. Valuations iguais ou maiores que R$ 500 milhões. Empresa com runway longo, crescimento saudável, e sem crise aguda. Pré-IPO (um a dois anos antes). É comum empregados, e founders, venderem dez a vinte por cento em tender offer organizado.
+Série B em diante, tipicamente. Valuations (avaliações de empresa) iguais ou maiores que R$ 500 milhões. Empresa com runway (caixa para operar) longo, crescimento saudável, e sem crise aguda. Pré-IPO (um a dois anos antes). É comum empregados, e founders, venderem dez a vinte por cento em tender offer (oferta estruturada de recompra) organizado.
 
 ### Como executar
 

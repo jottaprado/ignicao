@@ -6,40 +6,40 @@ appendix: "AT"
 ## APÊNDICE AT — GESTÃO DE CAIXA EM PROFUNDIDADE
 
 > [!note] Nota de validade
-> Os instrumentos financeiros, e taxas, evoluem com ciclos macro. Os principais princípios (forecasting, capital de giro, e negociação com fornecedores) são estáveis. Revisar anualmente.
+> Os instrumentos financeiros e taxas evoluem com ciclos macro. Os principais princípios — forecasting (projeção de fluxo de caixa), capital de giro e negociação com fornecedores — são estáveis. Revisar anualmente.
 
-O [[#APÊNDICE AJ — DINHEIRO PESSOAL DO FUNDADOR|Apêndice AJ]] cobre dinheiro pessoal. [[#APÊNDICE AN — MODELAGEM FINANCEIRA OPERACIONAL|Apêndice AN]] cobre modelagem. [[#APÊNDICE P — FINANCIAMENTO NÃO-DILUITIVO|Apêndice P]] cobre fomento. [[#APÊNDICE V — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Apêndice V]] cobre equity. Falta a disciplina operacional diária de gestão de caixa. Que é onde as startups brasileiras mais morrem. Mais empresas quebram por gestão de caixa ruim do que por estratégia equivocada.
+O [[#APÊNDICE AJ — DINHEIRO PESSOAL DO FUNDADOR|Apêndice AJ]] cobre dinheiro pessoal. O [[#APÊNDICE AN — MODELAGEM FINANCEIRA OPERACIONAL|Apêndice AN]] cobre modelagem. O [[#APÊNDICE P — FINANCIAMENTO NÃO-DILUITIVO|Apêndice P]] cobre fomento. O [[#APÊNDICE V — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Apêndice V]] cobre equity. Falta a disciplina operacional diária de gestão de caixa, que é onde as startups brasileiras mais morrem. Mais empresas quebram por gestão de caixa ruim do que por estratégia equivocada.
 
 ### O que esse apêndice cobre
 
-Gestão diária, ou semanal, do fluxo de caixa operacional.
+Gestão diária ou semanal do fluxo de caixa operacional.
 
-1. Forecasting semanal do caixa nas próximas treze semanas (13-week rolling cash forecast).
-2. Capital de giro. Gerenciamento de contas a receber, contas a pagar, e estoque.
-3. Negociação com fornecedores. Prazos, e descontos por antecipação.
-4. Antecipação de recebíveis. Factoring, antecipação de duplicatas, e RBF leve.
-5. Alertas, e triggers. Quando agir.
+1. Forecasting semanal do caixa nas próximas treze semanas (13-week rolling cash forecast, ou projeção rolante de caixa de 13 semanas).
+2. Capital de giro. Gerenciamento de contas a receber, contas a pagar e estoque.
+3. Negociação com fornecedores. Prazos e descontos por antecipação.
+4. Antecipação de recebíveis. Factoring, antecipação de duplicatas e RBF (Revenue-Based Financing, financiamento baseado em receita) leve.
+5. Alertas e triggers (gatilhos). Quando agir.
 
 ### POR QUE
 
-Receita não é igual a caixa. Empresa pode ter R$ 2 milhões de MRR, e estar quebrando por caixa.
+Receita não é igual a caixa. Empresa pode ter R$ 2 milhões de MRR (Monthly Recurring Revenue, receita recorrente mensal) e estar quebrando por caixa.
 
-B2B brasileiro. Prazo de recebimento de trinta a noventa dias. A empresa cresce, e o caixa não acompanha.
+B2B brasileiro tem prazo de recebimento de trinta a noventa dias. A empresa cresce e o caixa não acompanha.
 
 > [!warning] Quando o caixa fica crítico
-> Quando o caixa fica crítico, as decisões ficam ruins. Aceitar term sheet pior. Perder talento. Cortar errado.
+> Quando o caixa fica crítico, as decisões ficam ruins: aceitar term sheet pior, perder talento, cortar errado.
 
-Prevenção é barata. Um financeiro sênior bem-estruturado evita crise, que custa muito mais.
+Prevenção é barata. Um financeiro sênior bem-estruturado evita crise que custa muito mais.
 
 ### Quando usar
 
-[[#FASE 9 — TESTES DE SOLUÇÃO E USABILIDADE|Fase 9]] em diante (MVP operando). Começar forecasting simples.
+[[#FASE 9 — TESTES DE SOLUÇÃO E USABILIDADE|Fase 9]] em diante (MVP operando). Comece forecasting simples.
 
 [[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]] em diante (faturando R$ 100 mil em diante por mês). Disciplina formal.
 
-[[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Time, e Liderança, em diante). Controller, ou CFO part-time.
+[[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Time e Liderança, em diante). Controller ou CFO part-time.
 
-Série A em diante. CFO, ou finance lead, interno.
+Série A em diante. CFO ou finance lead interno.
 
 ### Como executar
 

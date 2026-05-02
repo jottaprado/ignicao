@@ -15,17 +15,17 @@ appendix: "EN"
 
 ### Por que regime tributário é decisão estratégica
 
-A maioria dos fundadores trata o regime tributário como burocracia — algo que o contador resolve. É um erro caro.
+Tributário (área que cuida dos impostos da empresa) é decisão de fundador, não de contador. A maioria dos fundadores trata o regime tributário como burocracia. É um erro caro.
 
 O regime tributário determina:
 
 - **Margem líquida efetiva.** Diferença de 3 a 8 pontos percentuais de margem entre regimes é comum em startups de serviços com faturamento entre R$ 3M e R$ 15M. Esse delta vale, em múltiplo de receita, centenas de milhares de reais de valuation.
-- **Capacidade de contratar.** O Simples Nacional inclui o INSS patronal na guia única — o que parece simples, mas esconde o custo real de cada contratação. No Lucro Presumido e no Lucro Real, o INSS patronal (20%) é separado e visível. A percepção muda a decisão de contratar ou terceirizar.
-- **Acesso a incentivos fiscais.** A Lei do Bem — o principal incentivo para empresas de tecnologia — está disponível exclusivamente para empresas no Lucro Real. Quem permanece no Simples por inércia renuncia a esse benefício.
-- **Estrutura societária e atratividade para investidores.** Investidores institucionais (fundos Series A em diante) fazem due diligence tributária. Uma empresa no Simples com faturamento próximo ao teto, sem planejamento de transição, vira sinal de alerta. Holding estruturada para proteção patrimonial do fundador, por sua vez, não é compatível com Simples Nacional.
+- **Capacidade de contratar.** O Simples Nacional inclui o INSS patronal na guia única. Parece simples, mas esconde o custo real de cada contratação. No Lucro Presumido e no Lucro Real, o INSS patronal (20%) aparece separado e visível. Essa percepção muda a decisão de contratar ou terceirizar.
+- **Acesso a incentivos fiscais.** A Lei do Bem (principal incentivo para empresas de tecnologia) está disponível apenas para empresas no Lucro Real. Quem fica no Simples por inércia renuncia a esse benefício.
+- **Estrutura societária e atratividade para investidores.** Investidores institucionais (fundos Series A em diante) fazem due diligence tributária (auditoria fiscal pré-investimento). Uma empresa no Simples com faturamento próximo ao teto, sem planejamento de transição, vira sinal de alerta. Holding estruturada para proteção patrimonial do fundador, por sua vez, não é compatível com Simples Nacional.
 - **Capacidade de aproveitamento de créditos.** No Simples e no Lucro Presumido (regime cumulativo), não há crédito de PIS/COFINS sobre insumos e serviços tomados. No Lucro Real (não cumulativo), esse crédito pode representar recuperação relevante para empresas com estrutura de custos baseada em serviços e cloud.
 
-A decisão de regime é tomada uma vez por ano — entre outubro e dezembro, com vigência no ano seguinte. Raramente pode ser revertida no mesmo exercício. O custo de errar é pago durante doze meses.
+A empresa escolhe o regime uma vez por ano, entre outubro e dezembro, com vigência no ano seguinte. Raramente é possível reverter a escolha no mesmo exercício. O custo de errar se paga durante doze meses.
 
 ---
 

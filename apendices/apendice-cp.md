@@ -5,11 +5,11 @@ appendix: "CP"
 
 ## APÊNDICE CP — SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL
 
-Vender é a disciplina operacional mais subestimada pelos fundadores no Brasil. O estereótipo do fundador-técnico genial, que constrói algo incrível, e espera o produto vender sozinho, existe porque é verdade em um número pequeno de casos. E falso nos outros noventa e cinco por cento. Se a sua empresa tem qualquer componente B2B, você vai vender. O seu time vai vender. E quanto mais cedo você tratar vendas como disciplina (com método, ferramentas, métricas, e processo), mais a sua empresa se tornará previsível.
+Vender é a disciplina operacional mais subestimada pelos fundadores no Brasil. O estereótipo do fundador-técnico genial, que constrói algo incrível e espera o produto vender sozinho, existe porque é verdade em um número pequeno de casos. E falso nos outros noventa e cinco por cento. Se a sua empresa tem qualquer componente B2B (venda entre empresas), você vai vender. O seu time vai vender. E quanto mais cedo você tratar vendas como disciplina (com método, ferramentas, métricas e processo), mais a sua empresa se tornará previsível.
 
-Esse apêndice foi construído para atender três leitores distintos dentro do mesmo fundador. Você que vai fazer a sua primeira venda B2B. Você que tentou vender para uma empresa grande, ou para o governo, e apanhou. E você que está montando uma máquina de vendas para atender clientes pequenos, em volume, via inside sales, ou produto self-serve. Cada um desses três cenários tem motion própria. Métricas próprias. E armadilhas específicas. Em empresas de crescimento médio, é comum que os três coexistam.
+Esse apêndice foi construído para atender três leitores distintos dentro do mesmo fundador. Você que vai fazer a sua primeira venda B2B. Você que tentou vender para uma empresa grande, ou para o governo, e apanhou. E você que está montando uma máquina de vendas para atender clientes pequenos, em volume, via inside sales (vendas internas remotas) ou produto self-serve (autoatendimento). Cada um desses três cenários tem motion (modo de operação comercial) própria. Métricas próprias. E armadilhas específicas. Em empresas de crescimento médio, é comum que os três coexistam.
 
-O apêndice está organizado em quatro partes. A Parte 1 cobre a motion B2B clássica, do outbound ao renewal, que serve como base para qualquer venda para outra empresa. A Parte 2 trata de enterprise, e venda para governo, onde o jogo muda. Compradores profissionais. Editais. Contratos de centenas de páginas. Ciclos de um ano ou mais. A Parte 3 cobre SMB, inside sales, e product-led growth, o oposto polar do enterprise. Muitos clientes. Ticket médio baixo. Ciclo curto. Automação. A Parte 4 fecha com Revenue Operations, a função que, em escala, passa a costurar todas as motion de receita em um sistema único.
+O apêndice está organizado em quatro partes. A Parte 1 cobre a motion B2B clássica, do outbound (prospecção ativa) ao renewal (renovação). Serve como base para qualquer venda para outra empresa. A Parte 2 trata de enterprise (grandes empresas) e venda para governo, onde o jogo muda. Compradores profissionais. Editais. Contratos de centenas de páginas. Ciclos de um ano ou mais. A Parte 3 cobre SMB (pequenas e médias empresas), inside sales e product-led growth (crescimento puxado pelo produto). É o oposto polar do enterprise. Muitos clientes. Ticket médio baixo. Ciclo curto. Automação. A Parte 4 fecha com Revenue Operations (operações de receita). Em escala, ela costura todas as motion de receita em um sistema único.
 
 ---
 
@@ -17,7 +17,7 @@ O apêndice está organizado em quatro partes. A Parte 1 cobre a motion B2B clá
 
 #### Por que esse é o ponto de partida
 
-A motion B2B clássica é o esqueleto de qualquer venda entre empresas. Mesmo se a sua empresa termina optando por PLG, ou focando em enterprise, é provável que nos primeiros meses você esteja fazendo outbound manual. Qualificando leads um a um. Negociando preço em ligações. E aprendendo sobre objeções reais. Esse é o laboratório onde você descobre se existe alguém disposto a pagar pelo que você faz. Essa Parte 1 é o laboratório estruturado.
+A motion B2B clássica é o esqueleto de qualquer venda entre empresas. Mesmo se a sua empresa termina optando por PLG (crescimento puxado pelo produto), ou focando em enterprise, é provável que nos primeiros meses você esteja fazendo outbound manual. Qualificando leads (potenciais clientes) um a um. Negociando preço em ligações. E aprendendo sobre objeções reais. Esse é o laboratório onde você descobre se existe alguém disposto a pagar pelo que você faz. Essa Parte 1 é o laboratório estruturado.
 
 #### O funil completo
 
@@ -120,9 +120,9 @@ CRM como caixa postal de cada vendedor. Sem disciplina de atualização, você n
 
 #### Por que enterprise é outro jogo
 
-Vender para uma empresa grande brasileira (Itaú, Ambev, Petrobras, Natura, Magazine Luiza), ou para um órgão público (Receita, BNDES, Banco Central, prefeitura, secretaria estadual), não é "SMB com ticket maior". É uma motion completamente diferente. Com compradores profissionais. Processos documentados. Lead time mais longo. Requisitos regulatórios. E ticket que justifica tudo isso.
+Vender para uma empresa grande brasileira (Itaú, Ambev, Petrobras, Natura, Magazine Luiza), ou para um órgão público (Receita, BNDES, Banco Central, prefeitura, secretaria estadual), não é "SMB com ticket maior". É uma motion completamente diferente. Com compradores profissionais. Processos documentados. Lead time (tempo de entrega) mais longo. Requisitos regulatórios. E ticket que justifica tudo isso.
 
-Se a sua empresa está caminhando para enterprise, prepare-se para três mudanças. O ciclo de venda vira de seis a vinte e quatro meses. Você vai precisar dedicar mesmo time comercial ao cliente individual. E contratos, e compliance, viram disciplina própria.
+Se a sua empresa está caminhando para enterprise, prepare-se para três mudanças. O ciclo de venda vira de seis a vinte e quatro meses. Você vai precisar dedicar time comercial ao cliente individual. E contratos e compliance (conformidade regulatória) viram disciplina própria.
 
 #### Procurement profissional, e como pensar
 
@@ -181,7 +181,7 @@ Enterprise sales comp costuma ter quatro características. OTE maior. R$ 300 mil
 
 #### O polo oposto do enterprise
 
-Se enterprise é "poucos clientes, ticket alto, ciclo longo, e venda customizada", SMB e PLG são "muitos clientes, ticket baixo, ciclo curto, e venda padronizada, ou automatizada". As motion são tão diferentes que vale pensar nelas como negócios separados, dentro da mesma empresa.
+Se enterprise é "poucos clientes, ticket alto, ciclo longo e venda customizada", SMB (pequenas e médias empresas) e PLG (crescimento puxado pelo produto) são "muitos clientes, ticket baixo, ciclo curto e venda padronizada ou automatizada". As motion são tão diferentes que vale pensar nelas como negócios separados, dentro da mesma empresa.
 
 As opções dentro desse polo.
 
@@ -269,9 +269,9 @@ Descolamento PLG e vendas. Quando o cliente PLG cresce, e precisa de enterprise 
 
 #### Por que RevOps existe
 
-Em empresas pequenas, vendas, marketing, e customer success, operam com ferramentas, e processos, independentes. Em empresas maiores, essa independência vira incompatibilidade. Os dados no CRM não batem com dados no marketing. O forecast não bate com o fechamento. Metas de times diferentes se contradizem. Revenue Operations é a função que resolve isso. O setor que costura vendas, marketing, CS, e finance, em uma engrenagem única de receita previsível.
+Em empresas pequenas, vendas, marketing e customer success (sucesso do cliente) operam com ferramentas e processos independentes. Em empresas maiores, essa independência vira incompatibilidade. Os dados no CRM (sistema de gestão de clientes) não batem com dados no marketing. O forecast (previsão de receita) não bate com o fechamento. Metas de times diferentes se contradizem. Revenue Operations é a função que resolve isso. O setor que costura vendas, marketing, CS (customer success) e finance (financeiro) em uma engrenagem única de receita previsível.
 
-RevOps virou função formal em SaaS americano em 2018 a 2020. No Brasil, virou padrão em scale-ups a partir de 2021. Antes disso, funções fragmentadas (Sales Ops, Marketing Ops, CS Ops) tentavam fazer o mesmo de forma descoordenada.
+RevOps virou função formal em SaaS (software como serviço) americano em 2018 a 2020. No Brasil, virou padrão em scale-ups (empresas em escala acelerada) a partir de 2021. Antes disso, funções fragmentadas (Sales Ops, Marketing Ops, CS Ops) tentavam fazer o mesmo de forma descoordenada.
 
 #### O que o time de RevOps faz
 

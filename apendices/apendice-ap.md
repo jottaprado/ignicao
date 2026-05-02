@@ -8,35 +8,35 @@ appendix: "AP"
 > [!note] Nota de validade
 > Princípios de construção de cultura são estáveis ao longo de décadas. Ferramentas (engagement surveys, OKRs, ferramentas de feedback) evoluem em três a cinco anos. Revisar bienalmente.
 
-A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Time e Liderança) menciona "valores documentados" como entregável. O [[#APÊNDICE R — FOUNDER MODE, DELEGAÇÃO E QUANDO PARAR DE FAZER|Apêndice R]] (Founder Mode) toca em liderança. Mas cultura como disciplina gerenciada — como escrever valores que não sejam clichês, como mantê-los em escala, como medir, rituais de reforço, sinais de toxicidade — não tem apêndice dedicado. É lacuna consequente. Cultura ruim não mata empresa no curto prazo. Mas erode talento, produtividade, e marca empregadora, ao longo de anos.
+A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Time e Liderança) menciona "valores documentados" como entregável. O [[#APÊNDICE R — FOUNDER MODE, DELEGAÇÃO E QUANDO PARAR DE FAZER|Apêndice R]] (Founder Mode, modo fundador) toca em liderança. Mas cultura como disciplina gerenciada — como escrever valores que não sejam clichês, como mantê-los em escala, como medir, rituais de reforço, sinais de toxicidade — não tem apêndice dedicado. É lacuna consequente. Cultura ruim não mata empresa no curto prazo, mas erode talento, produtividade e marca empregadora ao longo de anos.
 
-Esse apêndice cobre cultura, não como "valores no cartaz". Mas como comportamento agregado, que pode ser gerenciado deliberadamente.
+Esse apêndice cobre cultura, não como "valores no cartaz", mas como comportamento agregado que pode ser gerenciado deliberadamente.
 
 ### O que esse apêndice cobre
 
-Cultura é o que as pessoas fazem, quando ninguém está olhando. Somada em escala. "O jeito que as coisas são feitas aqui".
+Cultura é o que as pessoas fazem quando ninguém está olhando, somado em escala. "O jeito que as coisas são feitas aqui".
 
-Três dimensões gerenciáveis. Valores articulados, o que a empresa declara que importa. Comportamentos reforçados, o que a empresa efetivamente recompensa, e pune. Rituais, e símbolos, como a cultura se renova diariamente.
+Três dimensões gerenciáveis. Valores articulados — o que a empresa declara que importa. Comportamentos reforçados — o que a empresa efetivamente recompensa e pune. Rituais e símbolos — como a cultura se renova diariamente.
 
-Os entregáveis. Documento de valores substantivo. Rituais formalizados. Sistema de medição (engagement, mais indicadores qualitativos). Plano de ação, quando há desalinhamento.
+Os entregáveis: documento de valores substantivo, rituais formalizados, sistema de medição (engagement, mais indicadores qualitativos) e plano de ação quando há desalinhamento.
 
 ### POR QUE
 
-Cultura se consolida cedo, e muda devagar. Os primeiros dez a cinquenta funcionários moldam padrão, que vai influenciar quinhentos, ou cinco mil. Erro de dez vira dívida cultural enorme em quinhentos.
+Cultura se consolida cedo e muda devagar. Os primeiros dez a cinquenta funcionários moldam padrão que vai influenciar quinhentos ou cinco mil. Erro de dez vira dívida cultural enorme em quinhentos.
 
-"Valores" no cartaz, sem prática diária, é pior que nenhum valor. Os funcionários leem a hipocrisia, e ficam cínicos.
+"Valores" no cartaz sem prática diária é pior que nenhum valor. Os funcionários leem a hipocrisia e ficam cínicos.
 
-Cultura é principal fator de retenção em escala. Salário compete. Cultura distingue. Silicon Valley mostra isso há décadas.
+Cultura é principal fator de retenção em escala. Salário compete. Cultura distingue. O Vale do Silício mostra isso há décadas.
 
 Empresa com cultura ruim recruta errado. O talento top não entra. Quando entra, sai em dezoito meses. Custo oculto gigante.
 
 ### Quando usar
 
-[[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]] (antes mesmo de primeira contratação). os fundadores articulam valores que acreditam.
+[[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]] (antes mesmo da primeira contratação). Os fundadores articulam valores em que acreditam.
 
-[[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Time e Liderança), primeiros dez funcionários. Cultura se forma. Deliberadamente, ou por padrão.
+[[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Time e Liderança), primeiros dez funcionários. A cultura se forma — deliberadamente ou por padrão.
 
-[[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Operações, da escala inicial à Série C), dez para cem ou mais pessoas. Cultura precisa de reforço explícito. Rituais, comunicação, e onboarding estruturado.
+[[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Operações, da escala inicial à Série C), dez para cem ou mais pessoas. A cultura precisa de reforço explícito: rituais, comunicação e onboarding estruturado.
 
 Série B em diante (cem ou mais pessoas). Cultura vira função (pessoas, ou people ops, formalizado). Medição sistemática.
 
@@ -44,15 +44,15 @@ Série B em diante (cem ou mais pessoas). Cultura vira função (pessoas, ou peo
 
 ### Quem envolve
 
-CEO. Guardião primário da cultura. Modelagem pessoal é o principal vetor.
+CEO. Guardião primário da cultura. A modelagem pessoal é o principal vetor.
 
 Liderança executiva. Multiplicadores. Se a liderança não vive os valores, ninguém mais vive.
 
-Head of People, ou HRBP. Operacionaliza. Onboarding, rituais, medição, e intervenção.
+Head of People (líder de pessoas) ou HRBP (HR Business Partner, parceiro de negócio em RH). Operacionaliza onboarding, rituais, medição e intervenção.
 
-Peer leaders (ICs respeitados). Cultura horizontal. Não só top-down.
+Peer leaders (ICs — Individual Contributors, contribuidores individuais — respeitados). Cultura horizontal, não só top-down (de cima para baixo).
 
-Culture committee (em escala). Grupo rotativo de funcionários, que defende cultura, e propõe iniciativas.
+Culture committee (comitê de cultura, em escala). Grupo rotativo de funcionários que defende a cultura e propõe iniciativas.
 
 ### Como executar
 

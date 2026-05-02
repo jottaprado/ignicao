@@ -8,11 +8,11 @@ appendix: "EW"
 > [!note] Nota editorial
 > Esse apêndice trata de comunicação escrita como disciplina operacional em startups. Referências a práticas de empresas como Amazon, Stripe e GitLab baseiam-se em materiais públicos: handbooks, blogs de cultura organizacional e entrevistas com executivos. Não há vínculo comercial ou editorial com as organizações citadas.
 
-Empresas com cultura escrita forte tomam decisões melhores. A hipótese parece abstrata, mas o mecanismo é concreto: escrita força clareza de raciocínio. Você só descobre que não entende algo de verdade quando tenta explicar por escrito. Reunião permite que ambiguidade passe sem ser detectada; texto exige que a ambiguidade seja resolvida antes de aparecer na tela.
+Empresas com cultura escrita forte tomam decisões melhores. A hipótese parece abstrata, mas o mecanismo é concreto: escrita força clareza de raciocínio. Você só descobre que não entende algo de verdade quando tenta explicar por escrito. Reunião permite que ambiguidade passe sem ser detectada. Texto exige que a ambiguidade seja resolvida antes de aparecer na tela.
 
-Amazon proibiu PowerPoint em reuniões de revisão de produto em 2004. Jeff Bezos exigiu que propostas fossem escritas em prosa estruturada de seis páginas. A razão declarada: "o estilo narrativo forçado obriga o escritor a pensar e entender de forma mais completa do que possível em PowerPoint." Stripe construiu cultura de long-form writing desde o início. GitLab opera com mais de 3.000 funcionários em remote-first com handbook público de centenas de páginas. Notion documentou suas práticas em public antes de ter 100 funcionários.
+A Amazon proibiu PowerPoint em reuniões de revisão de produto em 2004. Jeff Bezos exigiu que propostas fossem escritas em prosa estruturada de seis páginas. A razão declarada: "o estilo narrativo forçado obriga o escritor a pensar e entender de forma mais completa do que é possível em PowerPoint." A Stripe construiu cultura de long-form writing (escrita longa e densa) desde o início. A GitLab opera com mais de 3.000 funcionários em remote-first com handbook público de centenas de páginas. A Notion documentou suas práticas em público antes de ter 100 funcionários.
 
-O argumento para startup brasileira não é copiar essas empresas — é reconhecer que o benefício de escrever bem é real e acessível desde o primeiro dia, sem custos de ferramenta ou infraestrutura.
+O argumento para startup brasileira não é copiar essas empresas. É reconhecer que o benefício de escrever bem é real e acessível desde o primeiro dia, sem custos de ferramenta ou infraestrutura.
 
 ### Os três documentos que todo fundador precisa dominar
 

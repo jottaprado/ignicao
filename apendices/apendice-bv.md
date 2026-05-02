@@ -8,13 +8,13 @@ appendix: "BV"
 > [!warning] Tema com peso jurídico
 > Layoff no Brasil é regulado por CLT, convenções coletivas e jurisprudência específica. Advogado trabalhista é essencial em layoffs acima de certo tamanho. Esse apêndice é mapa operacional, não parecer jurídico.
 
-[[#APÊNDICE CW — CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO|Apêndice CW]] cobre downturns e cortes como cenário. Esse apêndice entra em profundidade operacional sobre layoff, ou seja, demissão coletiva por razões econômicas, de reestruturação ou de pivô estratégico. É um dos momentos mais difíceis na vida de um fundador, e executar bem faz diferença enorme em sobrevivência da empresa e em dignidade das pessoas envolvidas.
+[[#APÊNDICE CW — CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO|Apêndice CW]] cobre downturns (crises de mercado) e cortes como cenário. Esse apêndice entra em profundidade operacional sobre layoff, ou seja, demissão coletiva por razões econômicas, de reestruturação ou de pivô estratégico. É um dos momentos mais difíceis na vida de um fundador. Executar bem faz diferença enorme em sobrevivência da empresa e em dignidade das pessoas envolvidas.
 
 ### O que é layoff
 
-Layoff é demissão de múltiplas pessoas simultaneamente (ou em janela curta) por razões não relacionadas à performance individual. Diferencia-se da demissão por performance individual, da demissão por justa causa (CLT Art. 482), do pedido de demissão (iniciativa do funcionário) e da saída amigável negociada (rescisão por acordo).
+Layoff (demissão coletiva) é demissão de múltiplas pessoas simultaneamente (ou em janela curta) por razões não relacionadas à performance individual. Diferencia-se da demissão por performance individual, da demissão por justa causa (CLT Art. 482), do pedido de demissão (iniciativa do funcionário) e da saída amigável negociada (rescisão por acordo).
 
-Layoff tem tipicamente cinco origens. Financial runway, em que a empresa precisa reduzir burn para estender caixa. Reestruturação, em que função ou produto é descontinuado. Pivô, em que a mudança de direção deixa certos skills desnecessários. Fusão ou aquisição, com redundâncias pós-integração. Macroeconômico, em que downturn afeta demanda e a empresa ajusta custos.
+O layoff tem tipicamente cinco origens. Financial runway (caixa para operar), em que a empresa precisa reduzir burn (queima de caixa) para estender caixa. Reestruturação, em que função ou produto é descontinuado. Pivô, em que a mudança de direção deixa certos skills (habilidades) desnecessários. Fusão ou aquisição, com redundâncias pós-integração. Macroeconômico, em que downturn (crise) afeta demanda e a empresa ajusta custos.
 
 ### Por que importa
 
@@ -24,9 +24,9 @@ Velocidade pesa mais que perfeição. Layoff arrastado por semanas ou feito em m
 
 Dignidade importa não só por ética, mas por sobrevivência. As pessoas que ficam observam como quem saiu foi tratado. Layoff cruel contamina cultura de quem fica. Layoff digno preserva confiança.
 
-A reputação externa afeta recrutamento futuro. O mercado brasileiro de tech é pequeno, e layoff mal conduzido aparece em Glassdoor, LinkedIn e conversas. A próxima onda de hiring sofre.
+A reputação externa afeta recrutamento futuro. O mercado brasileiro de tech é pequeno, e layoff mal conduzido aparece em Glassdoor, LinkedIn e conversas. A próxima onda de hiring (contratação) sofre.
 
-Compliance trabalhista é essencial. A CLT tem regras específicas, e descumprir gera ações trabalhistas individuais e possíveis ações coletivas via sindicato.
+Compliance (conformidade) trabalhista é essencial. A CLT tem regras específicas, e descumprir gera ações trabalhistas individuais e possíveis ações coletivas via sindicato.
 
 ### Quando
 

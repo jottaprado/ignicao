@@ -89,7 +89,7 @@ A seção de lowlights é onde a maioria das lideranças falha. Existe uma tenta
 
 ### 3. Comunicação de Demissão — RIF e Como Comunicar para Quem Fica
 
-Demissão coletiva (Reduction in Force — RIF) é uma das situações de comunicação mais difíceis e mais consequentes que uma empresa enfrenta. A forma como é comunicada determina se quem fica mantém confiança na liderança ou começa a atualizar o LinkedIn.
+RIF (Reduction in Force — redução de quadro, ou demissão coletiva) é uma das situações de comunicação mais difíceis e mais consequentes que uma empresa enfrenta. A forma como é comunicada determina se quem fica mantém confiança na liderança ou começa a atualizar o LinkedIn.
 
 **Princípios inegociáveis:**
 

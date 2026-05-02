@@ -8,7 +8,7 @@ appendix: "BQ"
 > [!note] Nota
 > O conteúdo desse apêndice combina práticas consolidadas em literatura sobre execução (Bill Campbell, Andy Grove, John Doerr, e Ben Horowitz), com adaptação ao contexto brasileiro.
 
-O [[#APÊNDICE R — FOUNDER MODE, DELEGAÇÃO E QUANDO PARAR DE FAZER|Apêndice R]] cobre founder mode, e delegação. Esse apêndice cobre o lado que vem antes, e sustenta. Como um fundador organiza o seu próprio tempo, o tempo do time, e os ritmos da empresa, para que a execução aconteça em escala. É tema subestimado por fundadores iniciantes. E frequentemente causa de empresas que "correm muito, e andam pouco".
+O [[#APÊNDICE R — FOUNDER MODE, DELEGAÇÃO E QUANDO PARAR DE FAZER|Apêndice R]] cobre founder mode (modo fundador), e delegação. Esse apêndice cobre o lado que vem antes, e sustenta. Como o fundador organiza o próprio tempo, o tempo do time, e os ritmos da empresa, para que a execução aconteça em escala. É tema subestimado por fundadores iniciantes. E frequentemente causa de empresas que "correm muito, e andam pouco".
 
 > [!important] Tempo do fundador é vantagem competitiva estrutural
 > O tempo do fundador é o recurso mais escasso da empresa early-stage. Usar bem é vantagem competitiva estrutural.
@@ -19,11 +19,11 @@ Três dimensões integradas.
 
 **1. Gestão de tempo pessoal do fundador.** Agenda semanal. Protocolos de foco. Política de email, ou Slack. Gestão de reuniões. Tempo de pensamento. Tempo de recuperação.
 
-**2. Operating cadence da empresa.** Rituais recorrentes (diários, semanais, mensais, trimestrais, e anuais), que definem como decisões são tomadas, como informações circulam, e como prioridades são revisadas.
+**2. Operating cadence (ritmo operacional) da empresa.** Rituais recorrentes (diários, semanais, mensais, trimestrais, e anuais), que definem como decisões são tomadas, como informações circulam, e como prioridades são revisadas.
 
-**3. Planning, e execution rhythm.** OKRs. Planning de sprints, trimestres, e anos. Reviews de performance. Ajustes estratégicos.
+**3. Planning (planejamento), e execution rhythm (ritmo de execução).** OKRs (Objectives and Key Results, ou objetivos e resultados-chave). Planning de sprints, trimestres, e anos. Reviews (revisões) de performance. Ajustes estratégicos.
 
-Entregáveis. Agenda semanal padronizada do fundador. Calendário de rituais da empresa. OKRs documentados, e cascateados. Dashboards de métricas. Mecanismo de ajuste trimestral.
+Entregáveis. Agenda semanal padronizada do fundador. Calendário de rituais da empresa. OKRs documentados, e cascateados. Dashboards (painéis) de métricas. Mecanismo de ajuste trimestral.
 
 ### POR QUE
 

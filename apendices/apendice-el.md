@@ -13,15 +13,15 @@ appendix: "EL"
 
 ---
 
-### Por que direito trabalhista é o risco jurídico mais subestimado de qualquer startup
+### Por que direito do trabalho é o risco jurídico mais subestimado de qualquer startup
 
-A maioria dos fundadores descobre o direito do trabalho brasileiro da pior forma possível: recebendo uma notificação de ação trabalhista de ex-colaborador. Nesse momento, o passivo já existe, o prazo para contestação começa a correr, e o custo — financeiro e de tempo — já é irreversível.
+A maioria dos fundadores descobre o direito do trabalho brasileiro da pior forma possível: recebendo uma notificação de ação trabalhista de ex-colaborador. Nesse momento, o passivo já existe, o prazo de contestação começa a correr, e o custo — financeiro e de tempo — já é irreversível.
 
-O problema não é má-fé. É ignorância estrutural. Fundadores com formação em tecnologia, produto ou finanças raramente estudam CLT. A suposição tácita é que "contratar PJ resolve" ou que "startups são diferentes". Não são.
+O problema não é má-fé. É ignorância estrutural. Fundadores com formação em tecnologia, produto ou finanças raramente estudam CLT (Consolidação das Leis do Trabalho). A suposição tácita é que "contratar PJ (pessoa jurídica) resolve" ou que "startups são diferentes". Não são.
 
-A Justiça do Trabalho no Brasil processa em média 3,5 milhões de novos casos por ano. A taxa de procedência parcial ou total nas ações trabalhistas contra empresas gira em torno de 40–60%. E o prazo prescricional para propositura de ação é de 2 anos após o desligamento, com retroatividade de até 5 anos de parcelas devidas.
+A Justiça do Trabalho no Brasil processa em média 3,5 milhões de novos casos por ano. A taxa de procedência parcial ou total nas ações contra empresas gira em torno de 40–60%. O prazo prescricional para propor ação é de 2 anos após o desligamento, com retroatividade de até 5 anos de parcelas devidas.
 
-Isso significa que a startup fundada em 2021, que contratou de forma irregular até 2023 e não foi acionada ainda, pode receber ações até 2025 com cálculos retroativos que remontam a 2020. O risco não desaparece com o tempo — fica amadurecendo.
+Isso significa que a startup fundada em 2021, que contratou de forma irregular até 2023 e ainda não foi acionada, pode receber ações até 2025 com cálculos retroativos que remontam a 2020. O risco não desaparece com o tempo — fica amadurecendo.
 
 Três contextos onde o fundador aprende isso da forma errada:
 

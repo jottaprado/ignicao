@@ -7,9 +7,9 @@ appendix: "BZ"
 
 ### O QUE É
 
-Performance review é o processo formal pelo qual uma empresa avalia o desempenho de seus colaboradores em um período. Documenta essa avaliação. Dá feedback explícito. E toma decisões derivadas. Promoção, aumento salarial, bônus, PIP (Performance Improvement Plan), ou desligamento. Performance review estruturado significa quatro coisas. Ciclo previsível (tipicamente semestral, ou anual). Processo padronizado (mesmo formulário, mesmos critérios). Calibração entre gestores (para evitar que o gestor A seja sistematicamente mais rigoroso que o gestor B). E conexão formal entre avaliação, e decisões, de carreira, e remuneração.
+Performance review (avaliação de desempenho) é o processo formal pelo qual uma empresa avalia o desempenho de seus colaboradores em um período. Documenta essa avaliação. Dá feedback explícito. E toma decisões derivadas. Promoção, aumento salarial, bônus, PIP (Performance Improvement Plan, ou plano de melhoria de desempenho), ou desligamento. Performance review estruturado significa quatro coisas. Ciclo previsível (tipicamente semestral, ou anual). Processo padronizado (mesmo formulário, mesmos critérios). Calibração entre gestores (para evitar que o gestor A seja sistematicamente mais rigoroso que o gestor B). E conexão formal entre avaliação, e decisões, de carreira, e remuneração.
 
-Há performance review "por conversa de corredor". O gestor elogia, ou critica, quando dá. O aumento sai quando alguém ameaça pedir demissão. A promoção é decidida em almoço. E há performance review estruturado. Ciclo com data, critérios escritos, calibração formal, e decisões registradas. A diferença é material. Empresas sem estrutura perdem talento para empresas estruturadas. Porque talento bom quer saber onde está, e onde pode chegar.
+Há performance review "por conversa de corredor". O gestor elogia, ou critica, quando dá. O aumento sai quando alguém ameaça pedir demissão. A promoção é decidida em almoço. E há performance review estruturado. Ciclo com data, critérios escritos, calibração formal, e decisões registradas. A diferença é material. Empresas sem estrutura perdem talento para empresas estruturadas. Talento bom quer saber onde está, e onde pode chegar.
 
 Esse apêndice trata de performance review formal, como função organizacional. Quando montar. Como montar. Armadilhas. É diferente de um a um (conversa contínua entre gestor, e colaborador), e de feedback (comunicação imediata sobre um evento). Performance review é o agregado estruturado desses sinais.
 
@@ -17,15 +17,15 @@ Esse apêndice trata de performance review formal, como função organizacional.
 
 Sem performance review estruturado, três problemas aparecem.
 
-Problema 1, decisões de compensação viram política. Quem fala mais alto ganha aumento. Quem tem gestor agressivo na hora da rodada de aumentos ganha. Quem tem gestor tímido é esquecido. Resultado. Alocação de compensação descorrelacionada com desempenho. Gerando turnover de bons, e retenção de mediocridade.
+Problema 1, decisões de compensação viram política. Quem fala mais alto ganha aumento. Quem tem gestor agressivo na hora da rodada de aumentos ganha. Quem tem gestor tímido é esquecido. Resultado. Alocação de compensação descorrelacionada com desempenho, gerando turnover (rotatividade) de bons, e retenção de mediocridade.
 
-Problema 2, pessoas de alta performance não sabem que são. Sem review formal, o bom colaborador recebe feedback ambíguo. Começa a duvidar. Sai quando chega oferta externa. A empresa perde pessoa pedindo "só R$ 3 mil a mais", porque não sinalizou a tempo que estava no top dez por cento.
+Problema 2, pessoas de alta performance não sabem que são. Sem review formal, o bom colaborador recebe feedback ambíguo. Começa a duvidar. Sai quando chega oferta externa. A empresa perde pessoa pedindo "só R$ 3 mil a mais", porque não sinalizou a tempo que estava no top (topo) dez por cento.
 
-Problema 3, pessoas de baixa performance ficam. O gestor evita conversa difícil. Performance review estruturado força documentação. Sem documentação, demissão vira risco trabalhista elevado. Com documentação (avaliações sucessivas fracas, e PIP formal), demissão é defensível, e justa.
+Problema 3, pessoas de baixa performance ficam. O gestor evita conversa difícil. Performance review estruturado força documentação. Sem documentação, demissão vira risco trabalhista elevado. Com documentação (avaliações sucessivas fracas, e PIP formal), a demissão é defensível, e justa.
 
 Para startups, performance review estruturado vira obrigatório entre trinta, e oitenta funcionários. Menos que isso, conversa informal funciona (o CEO conhece todos). Mais que isso, sem estrutura, desigualdades viram cultura ruim, e turnover indesejado.
 
-Adicionalmente, investidores, e compradores, em due diligence, olham. "Existe processo de performance review?". "Quando foi o último ciclo?". "Quem são os seus top performers, e os low performers?". Ausência de dados estruturados em uma empresa de duzentas pessoas é sinal de imaturidade organizacional, que deprime valuation.
+Adicionalmente, investidores e compradores olham em due diligence (diligência prévia). "Existe processo de performance review?". "Quando foi o último ciclo?". "Quem são os seus top performers (alto desempenho), e os low performers (baixo desempenho)?". A ausência de dados estruturados em uma empresa de duzentas pessoas é sinal de imaturidade organizacional, e deprime valuation (avaliação de empresa).
 
 ### QUANDO IMPLEMENTAR
 

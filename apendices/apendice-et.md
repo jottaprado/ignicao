@@ -8,9 +8,9 @@ appendix: "ET"
 > [!note] Escopo deste apêndice
 > Este apêndice trata do ambiente regulatório de inteligência artificial relevante para startups e empresas brasileiras em 2025-2026. Cobre o cenário global (EU AI Act, OCDE), o projeto de lei brasileiro em tramitação, a interface com a LGPD, regras setoriais (Banco Central, SUSEP, ANPD), riscos de viés algorítmico, propriedade intelectual gerada por IA e o que analisar em contratos com fornecedores de modelos. Termina com um checklist de AI governance que permite crescer sem surpresa regulatória.
 
-Regulatório de IA é o tema que mais fundadores deixam para depois — e que frequentemente volta como problema no pior momento. No momento em que o produto já está em produção, o dado de cliente já está circulando, e o contrato com o fornecedor de modelo já foi assinado sem leitura.
+Regulatório (conjunto de leis e normas que governam um setor) de IA (inteligência artificial) é o tema que mais fundadores deixam para depois. E que frequentemente volta como problema no pior momento — quando o produto já está em produção, o dado de cliente já circula e o contrato com o fornecedor do modelo já foi assinado sem leitura.
 
-O ambiente regulatório de IA está em formação. Não está finalizado. Isso é precisamente o motivo pelo qual agir agora custa menos: as obrigações de compliance são mais simples antes de você ter escala, antes de o regulador ter dentes, e antes de um incidente público criar pressão sobre o setor inteiro.
+O ambiente regulatório de IA está em formação. Não está finalizado. Esse é precisamente o motivo pelo qual agir agora custa menos. As obrigações de compliance (conformidade regulatória) são mais simples antes de você ter escala, antes de o regulador ter dentes, e antes de um incidente público criar pressão sobre o setor inteiro.
 
 ---
 

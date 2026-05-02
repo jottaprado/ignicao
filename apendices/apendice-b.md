@@ -5,11 +5,11 @@ appendix: "B"
 
 ## APÊNDICE B — COMO FECHAR UMA FASE: COMMITTED NEXT MOVE E SINAIS OBSERVÁVEIS
 
-Esse apêndice trata de algo que o checklist de SAÍDA DESTA FASE de cada fase não cobre. A estrutura do próximo passo que você está se comprometendo a executar, antes de virar a página. As checklists de saída dizem "o que você precisa ter feito". Esse apêndice diz "como você sabe que o que você vai fazer a seguir é mesmo um experimento comprometido. Não procrastinação disfarçada de rigor". Aplicável ao fim de qualquer fase.
+Esse apêndice trata de algo que o checklist (lista de verificação) de SAÍDA DESTA FASE de cada fase não cobre. A estrutura do próximo passo que você está se comprometendo a executar, antes de virar a página. Os checklists de saída dizem "o que você precisa ter feito". Esse apêndice diz "como você sabe que o próximo passo é mesmo um experimento comprometido, e não procrastinação disfarçada de rigor". Aplica-se ao fim de qualquer fase.
 
-### COMMITTED NEXT MOVE, a estrutura do próximo passo ao fim de cada fase
+### COMMITTED NEXT MOVE (próximo passo comprometido), a estrutura ao fim de cada fase
 
-Antes de encerrar qualquer fase, e abrir a próxima, valide que você tem as quatro peças abaixo definidas com precisão. Elas são a tradução da disciplina "committed experiments, not prolonged exploration" do programa da Antler para o trabalho fase a fase desse manual.
+Antes de encerrar qualquer fase, e abrir a próxima, valide que você tem as quatro peças abaixo definidas com precisão. Elas traduzem a disciplina "committed experiments, not prolonged exploration" (experimentos comprometidos, e não exploração prolongada) do programa da Antler para o trabalho fase a fase desse manual.
 
 > [!warning] A ausência de qualquer uma das quatro
 > A ausência de qualquer uma das quatro é sinal de que você está ainda em exploração. Não em compromisso.
@@ -17,7 +17,7 @@ Antes de encerrar qualquer fase, e abrir a próxima, valide que você tem as qua
 - [ ] **Uma cunha definida.** O comprador, o workflow, e o resultado exatos, que você está mirando *primeiro*. Se essa descrição muda dependendo do interlocutor, a cunha ainda não fechou (veja o Wedge Stress Test da [[#FASE 5 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 5]]).
 - [ ] **Uma hipótese testável.** Uma afirmação única, falsificável, sobre o que precisa ser verdade para a fase avançar. Escrita antes do teste, com threshold ex-ante (veja [[#APÊNDICE F — ABORDAGEM CIENTÍFICA vs LEAN STARTUP: QUANDO USAR CADA UMA|Apêndice F]] sobre abordagem científica).
 - [ ] **Um caminho de validação concreto.** A técnica específica que você vai usar para gerar o sinal. Não "várias técnicas possíveis" (veja a tabela A.9 para escolher entre entrevista, questionário, pré-venda, MVP, etc.).
-- [ ] **Uma janela curta de execução.** Data de início, e data de fim. Duas a três semanas é o padrão para experimentos em early stage. Mais que isso geralmente é procrastinação disfarçada de rigor. Janelas curtas forçam decisão. Janelas longas adiam o momento da verdade.
+- [ ] **Uma janela curta de execução.** Data de início, e data de fim. Duas a três semanas é o padrão para experimentos em early stage (estágio inicial). Mais que isso geralmente é procrastinação disfarçada de rigor. Janelas curtas forçam decisão. Janelas longas adiam o momento da verdade.
 
 > [!important] Se as quatro peças não estão claras por escrito
 > Se as quatro peças não estão claras por escrito, você ainda não tem um próximo passo comprometido. Tem uma lista de ideias. Resolva antes de considerar a fase fechada.

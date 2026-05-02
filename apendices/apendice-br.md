@@ -8,13 +8,13 @@ appendix: "BR"
 > [!note] Nota de escopo
 > Esse apêndice cobre o que acontece com o fundador e a empresa depois de venda ou exit. Complementa a Fase 16 (exit) com profundidade operacional sobre os doze a trinta e seis meses pós-deal. Casos brasileiros baseados em informação pública.
 
-A [[#FASE 16 — EXIT STRATEGY|Fase 16]] trata da decisão e execução da venda. Esse apêndice trata do que vem depois: os doze a trinta e seis meses pós-aquisição, quando o fundador frequentemente permanece na empresa sob novo dono, o earnout é pago ou não, a retenção de time é testada e a trajetória pessoal do fundador é redefinida. É fase crítica e mal-preparada. Fundadores chegam ao exit planejando "finalmente descansar" e descobrem que o trabalho mais difícil pode estar por vir.
+A [[#FASE 16 — EXIT STRATEGY|Fase 16]] trata da decisão e execução da venda. Esse apêndice trata do que vem depois: os doze a trinta e seis meses pós-aquisição. É quando o fundador frequentemente permanece na empresa sob novo dono, o earnout (parcela do preço atrelada a metas futuras) é pago ou não, a retenção de time é testada e a trajetória pessoal do fundador é redefinida. É fase crítica e mal-preparada. Os fundadores chegam ao exit (saída via venda ou IPO) planejando "finalmente descansar" e descobrem que o trabalho mais difícil pode estar por vir.
 
 ### O que esse apêndice cobre e por que importa
 
-Sucessão no exit cobre seis dimensões: estrutura contratual (earnout, retention, clawback, continuidade como CEO ou executive), papel operacional pós-aquisição, retention do time-chave, integração cultural, transição pessoal do fundador e vida pós-exit. Conecta a Fase 16 com os 12–36 meses seguintes ao closing.
+A sucessão no exit cobre seis dimensões: estrutura contratual (earnout, retention, ou retenção, clawback, ou cláusula de devolução, continuidade como CEO ou executivo), papel operacional pós-aquisição, retention do time-chave, integração cultural, transição pessoal do fundador e vida pós-exit. Conecta a Fase 16 com os 12 a 36 meses seguintes ao closing (fechamento do deal).
 
-Importa porque exit não é o fim: fundadores despreparados enfrentam ressentimento, conflito com comprador e earnout perdido. Muitos deals têm 30–60% do valor em earnout ou retention que só fecha com boa execução pós-deal. Time sai se fundador sai mal. Cultura não sobrevive sem cuidado deliberado.
+Importa porque o exit não é o fim. Os fundadores despreparados enfrentam ressentimento, conflito com comprador e earnout perdido. Muitos deals (negociações) têm 30 a 60 por cento do valor em earnout ou retention que só fecha com boa execução pós-deal. O time sai se o fundador sai mal. A cultura não sobrevive sem cuidado deliberado.
 
 > [!warning] Identidade em jogo
 > Fundador perde identidade. Anos construindo algo próprio, de repente sócio de zero por cento, funcionário do comprador, decisões fora de suas mãos. Transição pessoal é real. Segunda empresa é prejudicada se a primeira termina mal. Second-time founder com saída pós-exit amarga carrega peso reputacional e psicológico que afeta novo empreendimento.

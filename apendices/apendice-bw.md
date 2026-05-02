@@ -8,7 +8,7 @@ appendix: "BW"
 > [!warning] Tema sensível
 > Fraude interna é tema que fundadores subestimam de forma quase universal. Probabilidade e impacto reais são maiores do que a intuição diz. Esse apêndice é mapa preventivo, não exercício de paranoia.
 
-[[#APÊNDICE CW — CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO|Apêndice CW]] e [[#APÊNDICE CP — SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|Apêndice CP]] tocam tangencialmente em controles internos. Esse apêndice trata em profundidade. O que é fraude interna, como se previne, como se detecta e como se responde quando acontece. É tema que fundador cedo resiste a tratar (alegando confiança no time) e que scale-ups descobrem caro que deveriam ter estruturado antes.
+[[#APÊNDICE CW — CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO|Apêndice CW]] e [[#APÊNDICE CP — SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|Apêndice CP]] tocam tangencialmente em controles internos. Esse apêndice trata em profundidade. O que é fraude interna, como se previne, como se detecta e como se responde quando acontece. É tema que fundador cedo resiste a tratar (alegando confiança no time). E que scale-ups (empresas em escala) descobrem, caro, que deveriam ter estruturado antes.
 
 ### O que é fraude interna
 
@@ -30,11 +30,11 @@ A sexta é cyber-fraud interno. Acesso não autorizado a sistemas. Manipulação
 
 Fraude é mais comum do que fundadores acreditam. Estatísticas globais da ACFE (Association of Certified Fraud Examiners) indicam que empresas típicas perdem cerca de cinco por cento de receita anual para fraude interna. Em startups em crescimento rápido com controles frágeis, a taxa pode ser maior.
 
-A frequência aumenta em fases de crescimento acelerado. Time expande, volume de transações cresce, controles não acompanham. A janela de oportunidade para fraude se abre.
+A frequência aumenta em fases de crescimento acelerado. O time expande, o volume de transações cresce, e os controles não acompanham. A janela de oportunidade para fraude se abre.
 
-Fundador é alvo específico. Atacantes externos sabem que fundador está distraído construindo produto, e ataques de Business Email Compromise (BEC) exploram isso de forma sistemática. Email falso do CEO pedindo transferência urgente é vetor recorrente.
+O fundador é alvo específico. Atacantes externos sabem que o fundador está distraído construindo produto. Ataques de Business Email Compromise (BEC, ou comprometimento de email corporativo) exploram isso de forma sistemática. Email falso do CEO pedindo transferência urgente é vetor recorrente.
 
-O impacto vai além de perda financeira. Confiança de time, de clientes e de investidores é abalada. Founder pode enfrentar responsabilização pessoal se controles eram claramente inexistentes. Evidência de "due care" é requerida por investidores. Rodada Série B em diante exige controles formais. Compliance regulatório (PCI DSS, GDPR, LGPD, SOC 2, ISO 27001) também exige framework de controles.
+O impacto vai além de perda financeira. A confiança do time, de clientes e de investidores é abalada. O founder pode enfrentar responsabilização pessoal se os controles eram claramente inexistentes. A evidência de "due care" (cuidado devido) é requerida por investidores. Rodada Série B em diante exige controles formais. Compliance (conformidade) regulatório (PCI DSS, GDPR, LGPD, SOC 2, ISO 27001) também exige framework (estrutura de referência) de controles.
 
 ### Quando estruturar
 

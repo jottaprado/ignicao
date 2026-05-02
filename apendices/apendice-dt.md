@@ -12,26 +12,26 @@ appendix: "DT"
 
 ### CX como disciplina de negócio, não de atendimento
 
-O erro mais comum que fundadores cometem com Customer Experience é tratá-la como sinônimo de suporte. Suporte resolve ticket. CX redesenha a jornada para que o ticket não precise existir.
+O erro mais comum que fundadores cometem com Customer Experience (CX — experiência do cliente) é tratá-la como sinônimo de suporte. Suporte resolve ticket (chamado). CX redesenha a jornada para que o ticket não precise existir.
 
-A distinção é operacional, mas tem consequências financeiras diretas. Uma empresa que resolve tickets rápido mas não elimina as causas raiz dos problemas vai gastar cada vez mais em suporte conforme escala. Uma empresa que trata CX como disciplina de engenharia de experiência sistematicamente reduz o volume de tickets ao mesmo tempo em que a base de clientes cresce.
+A distinção é operacional, mas tem consequências financeiras diretas. Uma empresa que resolve tickets rápido mas não elimina as causas raiz dos problemas vai gastar cada vez mais em suporte conforme escala. Uma empresa que trata CX como disciplina de engenharia de experiência reduz o volume de tickets de forma sistemática ao mesmo tempo em que a base de clientes cresce.
 
 > [!important] A equação financeira de CX
-> Cada ponto percentual de redução no churn mensal em uma empresa com R$ 5M de ARR vale aproximadamente R$ 600K de ARR adicional no ano seguinte, assumindo crescimento constante. CX bem executada não é custo de operação — é alavanca de crescimento.
+> Cada ponto percentual de redução no churn (cancelamento) mensal em uma empresa com R$ 5M de ARR (Annual Recurring Revenue — receita recorrente anual) vale aproximadamente R$ 600K de ARR adicional no ano seguinte, assumindo crescimento constante. CX bem executada não é custo de operação. É alavanca de crescimento.
 
 Os três pilares que diferenciam CX como disciplina de negócio:
 
-**Propriedade da jornada completa.** CX não começa no primeiro ticket. Começa no primeiro contato com o produto — o anúncio, a landing page, o momento de cadastro. E não termina na renovação. Termina (ou começa de novo) na recomendação ativa.
+**Propriedade da jornada completa.** CX não começa no primeiro ticket. Começa no primeiro contato com o produto: o anúncio, a landing page (página de captura), o momento de cadastro. E não termina na renovação. Termina (ou começa de novo) na recomendação ativa.
 
-**Acesso a dados de comportamento no produto.** Uma equipe de CX que só vê tickets está operando cega. Precisa ver login frequency, feature adoption rate, tempo até primeiro valor, sessões por semana. Sem isso, é bombeiro — apaga incêndio mas não instala detector de fumaça.
+**Acesso a dados de comportamento no produto.** Uma equipe de CX que só vê tickets está operando cega. Precisa ver frequência de login (login frequency), taxa de adoção de funcionalidades (feature adoption rate), tempo até primeiro valor, sessões por semana. Sem isso, é bombeiro: apaga incêndio mas não instala detector de fumaça.
 
-**Loop de retorno para produto e vendas.** Insights de churn que ficam no Zendesk e não chegam ao roadmap não existem. CX que não conversa com vendas sobre objeções pós-compra é silo. O valor real de CX está na qualidade do feedback que ela injeta no resto da empresa.
+**Loop de retorno para produto e vendas.** Insights (descobertas acionáveis) de churn que ficam no Zendesk e não chegam ao roadmap (planejamento de produto) não existem. CX que não conversa com vendas sobre objeções pós-compra é silo. O valor real de CX está na qualidade do feedback que ela injeta no resto da empresa.
 
 ---
 
 ### Mapeamento de jornada do cliente
 
-O Customer Journey Map é a representação visual de como o cliente passa de desconhecido a advogado da marca — com cada etapa, emoção, ponto de contato e oportunidade de intervenção mapeados. No contexto brasileiro, o exercício tem particularidades específicas por segmento.
+O Customer Journey Map (mapa da jornada do cliente) é a representação visual de como o cliente passa de desconhecido a advogado da marca — com cada etapa, emoção, ponto de contato e oportunidade de intervenção mapeados. No contexto brasileiro, o exercício tem particularidades específicas por segmento.
 
 #### Como construir o mapa
 
@@ -69,7 +69,7 @@ Não existe mapa de jornada que cubra tudo com igual profundidade. Foundadores c
 
 ### NPS como sistema operacional versus métrica
 
-Net Promoter Score isolado é vaidade. NPS como sistema operacional de feedback é uma das alavancas mais poderosas que uma empresa tem para melhorar retenção.
+NPS (Net Promoter Score — índice de recomendação do cliente) isolado é vaidade. NPS como sistema operacional de feedback é uma das alavancas mais poderosas que uma empresa tem para melhorar retenção.
 
 #### NPS transacional vs. relacional
 

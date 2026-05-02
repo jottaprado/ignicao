@@ -6,17 +6,17 @@ appendix: "DH"
 ## APÊNDICE DH — MERCADO SECUNDÁRIO E LIQUIDEZ ANTECIPADA PARA FOUNDERS E EARLY EMPLOYEES
 
 > [!note] Posição no livro
-> Este apêndice complementa o [[apendice-ba|Apêndice BA — Secondary e Liquidez de Founder]] (liquidez via secondary no cap table existente) e a [[fases/fase-16|Fase 16 — Exit]]. Foco específico no mercado secundário brasileiro: como funciona, quem compra, quem vende, e as restrições práticas.
+> Este apêndice complementa o [[apendice-ba|Apêndice BA — Secondary e Liquidez de Founder]] (liquidez via secondary — venda de participações já existentes — no cap table atual) e a [[fases/fase-16|Fase 16 — Exit]]. Foco específico no mercado secundário brasileiro: como funciona, quem compra, quem vende, e as restrições práticas.
 
 ---
 
 ### Por que liquidez antecipada importa
 
-A narrativa do startup é simples: fundador cria empresa, espera 7–10 anos, vende por bilhões. A realidade é mais complicada.
+A narrativa da startup é simples: fundador cria empresa, espera 7–10 anos, vende por bilhões. A realidade é mais complicada.
 
-Um fundador com 30% de uma empresa que vale R$ 80M no papel pode ter patrimônio líquido disponível de R$ 0 — se o dinheiro está preso em equity não-liquidável, tem cotação baseada no último round, e não há exit à vista. Para funcionários sênior que receberam opções como parte da compensação, a situação pode ser ainda mais crítica: precisam de capital para comprar imóvel, educar filhos, ou simplesmente diversificar.
+Um fundador com 30% de uma empresa que vale R$ 80M no papel pode ter patrimônio líquido disponível de R$ 0. Isso acontece quando o dinheiro está preso em equity (participação societária) não-liquidável, com cotação baseada na última rodada e sem exit (evento de liquidez para os sócios) à vista. Para funcionários sênior que receberam opções como parte da compensação, a situação pode ser ainda mais crítica: precisam de capital para comprar imóvel, educar filhos, ou simplesmente diversificar.
 
-Secondary não é sinal de descrença no negócio. É gestão de risco pessoal. O mesmo fundador que vende 5% do seu stake para diversificar pode estar 100% comprometido com a empresa pelos próximos 10 anos.
+Secondary não é sinal de descrença no negócio. É gestão de risco pessoal. O mesmo fundador que vende 5% do seu stake (participação) para diversificar pode estar 100% comprometido com a empresa pelos próximos 10 anos.
 
 ---
 

@@ -16,17 +16,17 @@ O Brasil tem um dos maiores mercados de educação do mundo. Estimado em mais de
 
 O mercado é estruturalmente fragmentado. Existem mais de 300 grupos de ensino privado no Brasil, a maioria com menos de 5 mil alunos. Os quatro maiores grupos (Kroton/Cogna, Estácio/Yduqs, Anima, Ser Educacional) concentram cerca de 30% do ensino superior privado — mas isso ainda deixa 70% pulverizado. Na educação básica, a fragmentação é ainda maior: mais de 140 mil escolas privadas no país, com a maioria sendo microempresas ou pequenas empresas familiares.
 
-Para a edtech, essa fragmentação cria tanto oportunidade (mercado grande sem consolidador tecnológico claro) quanto dificuldade (ciclo de venda longo, tickets pequenos, heterogeneidade de maturidade tecnológica entre clientes).
+Para a edtech (startup de tecnologia para educação), essa fragmentação cria tanto oportunidade (mercado grande sem consolidador tecnológico claro) quanto dificuldade (ciclo de venda longo, tickets pequenos, maturidade tecnológica desigual entre clientes).
 
 **Quatro segmentos, quatro jogos diferentes:**
 
-- **Educação básica (K-12):** 180 dias letivos obrigatórios, currículo nacional (BNCC), regulação estadual e municipal, tomador de decisão é a secretaria de educação (público) ou o dono/gestor da escola (privado). Ticket baixo por aluno, volume alto.
+- **Educação básica (K-12, do infantil ao ensino médio):** 180 dias letivos obrigatórios, currículo nacional (BNCC), regulação estadual e municipal, tomador de decisão é a secretaria de educação (público) ou o dono/gestor da escola (privado). Ticket baixo por aluno, volume alto.
 
-- **Ensino superior:** MEC regula autorização e reconhecimento de cursos. EAD cresceu de 20% para 60%+ das matrículas após 2019. Grandes grupos são compradores institucionais com processos de procurement.
+- **Ensino superior:** MEC regula autorização e reconhecimento de cursos. EAD (ensino a distância) cresceu de 20% para 60%+ das matrículas após 2019. Grandes grupos são compradores institucionais com processos de procurement (compras corporativas).
 
 - **Profissionalizante e técnico:** SENAI, SENAC e sistema S têm recursos próprios. PRONATEC distribui vagas via governo. Público de adultos que quer empregabilidade rápida, não diploma.
 
-- **Corporativo (L&D):** Comprado pelo RH ou pela área de negócio. Decisão baseada em outcome (certificação, NPS de treinamento, redução de turnover). Ciclo de venda de 3–12 meses em empresas médias a grandes.
+- **Corporativo (L&D, learning and development, ou treinamento e desenvolvimento):** Comprado pelo RH ou pela área de negócio. Decisão baseada em outcome — resultado mensurável (certificação, NPS de treinamento, redução de turnover, ou rotatividade). Ciclo de venda de 3–12 meses em empresas médias a grandes.
 
 ---
 

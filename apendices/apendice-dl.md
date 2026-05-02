@@ -10,9 +10,9 @@ appendix: "DL"
 
 O Brasil é uma das maiores potências agrícolas do mundo. O agronegócio responde por cerca de 25% do PIB, mais de 40% das exportações, e emprega aproximadamente 30% da força de trabalho. São mais de 5 milhões de propriedades rurais cadastradas no Cadastro Ambiental Rural (CAR). A soja brasileira alimenta o gado europeu e a indústria alimentícia asiática. O frango e a carne bovina brasileiros chegam a mais de 150 países.
 
-Esse tamanho cria oportunidade. Mas também cria complexidade. O campo brasileiro não é uniforme. Uma fazenda de 10.000 hectares no Mato Grosso produzindo soja com precisão agrícola é um cliente radicalmente diferente de um agricultor familiar com 5 hectares no Sul produzindo milho para subsistência. Esses dois segmentos exigem produtos diferentes, canais diferentes, ciclos diferentes, e modelos de negócio diferentes.
+Esse tamanho cria oportunidade. Mas também cria complexidade. O campo brasileiro não é uniforme. Uma fazenda de 10.000 hectares no Mato Grosso produzindo soja com precisão agrícola é cliente radicalmente diferente de um agricultor familiar com 5 hectares no Sul produzindo milho para subsistência. Esses dois segmentos exigem produtos diferentes, canais diferentes, ciclos diferentes, e modelos de negócio diferentes.
 
-Agritech que não segmenta direito morre tentando servir a todos.
+Agritech (startup voltada ao agronegócio) que não segmenta direito morre tentando servir a todos.
 
 ### Contexto: a potência agrícola com brecha tecnológica
 

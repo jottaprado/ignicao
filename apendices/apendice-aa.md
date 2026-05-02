@@ -6,50 +6,50 @@ appendix: "AA"
 ## APÊNDICE AA — CUSTOMER SUCCESS COMO DISCIPLINA
 
 > [!note] Nota de validade
-> Frameworks de CS (health score, onboarding estruturado, QBR, renewal motion) têm vida útil longa. O que evolui. Ferramentas específicas. Integrações com produto. Uso de AI em CS (previsão de churn, assistentes de CSM). Revisar a cada vinte e quatro meses.
+> Os frameworks (estruturas de referência) de CS (Customer Success, sucesso do cliente) — health score, onboarding estruturado, QBR e renewal motion — têm vida útil longa. O que evolui são as ferramentas específicas, as integrações com produto e o uso de IA em CS (previsão de churn, assistentes de CSM). Revisar a cada vinte e quatro meses.
 
-O [[#APÊNDICE CP — SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|Apêndice CP]] cobre Sales B2B, do outbound ao closing, com expansão para motion enterprise (MEDDIC, Command of the Message, negociação multi-ano). Esse apêndice cobre o que acontece depois. Customer Success como disciplina operacional, que determina se a empresa realmente faz dinheiro em SaaS.
+O [[#APÊNDICE CP — SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|Apêndice CP]] cobre Sales (vendas) B2B, do outbound (prospecção ativa) ao closing (fechamento), com expansão para motion enterprise (MEDDIC, Command of the Message, negociação multi-ano). Esse apêndice cobre o que acontece depois: Customer Success como disciplina operacional, que determina se a empresa realmente faz dinheiro em SaaS.
 
-Em SaaS B2B maduro, sessenta a oitenta por cento do valor total de um cliente vem de expansão, e renovação. Não da primeira venda. CS é a disciplina que operacionaliza isso. Fundadores que tratam CS como "atendimento", ou "suporte premium", deixam dinheiro na mesa em escala que nenhuma outra ineficiência compete.
+Em SaaS B2B maduro, de sessenta a oitenta por cento do valor total de um cliente vem de expansão e renovação, não da primeira venda. CS é a disciplina que operacionaliza isso. Fundadores que tratam CS como "atendimento" ou "suporte premium" deixam dinheiro na mesa em escala que nenhuma outra ineficiência compete.
 
 ### O que esse apêndice cobre
 
-Customer Success é a disciplina de garantir que clientes atinjam os seus resultados desejados com o produto. Convertendo isso em retenção, expansão, e advocacy. Envolve seis frentes.
+Customer Success é a disciplina de garantir que clientes atinjam os resultados desejados com o produto, convertendo isso em retenção, expansão e advocacy (defesa espontânea da marca). Envolve seis frentes:
 
-Onboarding estruturado, primeiros trinta a noventa dias do cliente. Health scoring, monitoramento de saúde da conta. Renewal motion, gestão estruturada de renovações. Expansion motion, upsell, e cross-sell, com base em valor entregue. Churn mitigation, antecipação, e resposta, a sinais de saída. Advocacy, transformar clientes em referências, cases, e referrals.
+Onboarding estruturado (integração inicial nos primeiros trinta a noventa dias do cliente). Health scoring (pontuação de saúde da conta). Renewal motion (gestão estruturada de renovações). Expansion motion (upsell e cross-sell, com base em valor entregue). Churn mitigation (antecipação e resposta a sinais de cancelamento). Advocacy (transformar clientes em referências, cases e referrals).
 
-Os entregáveis. CS playbook. Health score model. QBR template. Renewal process. Expansion framework.
+Os entregáveis são: CS playbook (manual operacional), health score model, QBR template (modelo de revisão trimestral), renewal process e expansion framework.
 
 ### POR QUE
 
-Economia de SaaS. CAC para adquirir novo cliente. Cinco a dez vezes o custo de expandir cliente existente. Probabilidade de vender para cliente atual. Sessenta a setenta por cento. Probabilidade para lead frio. Cinco a vinte por cento. NRR alto (igual ou maior que cento e vinte por cento) é o que separa SaaS com valuation alto de SaaS mediano.
+A economia de SaaS é simples. O CAC (custo de aquisição de cliente) para conquistar um cliente novo custa cinco a dez vezes mais que expandir um cliente existente. A probabilidade de vender para cliente atual fica em sessenta a setenta por cento. Para lead frio, cinco a vinte por cento. NRR (Net Revenue Retention, retenção líquida de receita) alto — igual ou maior que cento e vinte por cento — é o que separa SaaS com valuation alto de SaaS mediano.
 
-Números de referência. Churn logo mensal saudável SaaS PME. Um a três por cento. Churn logo mensal enterprise. Zero vírgula cinco a um vírgula cinco por cento. NRR saudável (base line). Igual ou maior que cem por cento. Forte. Igual ou maior que cento e dez por cento. Excepcional. Igual ou maior que cento e vinte e cinco por cento. Percentual de receita via expansion em SaaS maduro. Trinta a sessenta por cento.
+Números de referência. O churn (cancelamento) logo mensal saudável em SaaS PME fica entre um e três por cento. Em enterprise, entre zero vírgula cinco e um vírgula cinco por cento. NRR saudável (base line) é igual ou maior que cem por cento. Forte: igual ou maior que cento e dez por cento. Excepcional: igual ou maior que cento e vinte e cinco por cento. O percentual de receita via expansion em SaaS maduro fica entre trinta e sessenta por cento.
 
-Empresa sem CS estruturado tipicamente tem churn duas a cinco vezes maior do que poderia. NRR menor que cem por cento. Nenhum advocacy sistemático.
+Empresa sem CS estruturado tipicamente tem churn duas a cinco vezes maior do que poderia, NRR menor que cem por cento e nenhum advocacy sistemático.
 
 ### Quando usar
 
-[[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]] (pós-PMF inicial). Primeiros processos de onboarding, e suporte.
+[[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]] (pós-PMF inicial). Estruture os primeiros processos de onboarding e suporte.
 
-[[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Time e Liderança). Contratar primeiro CSM (Customer Success Manager).
+[[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Time e Liderança). Contrate o primeiro CSM (Customer Success Manager, gerente de sucesso do cliente).
 
-[[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Operações em escala). CS como função, com métricas, playbooks, e tooling.
+[[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Operações em escala). Trate CS como função, com métricas, playbooks e tooling (ferramentas dedicadas).
 
-Série B em diante (se enterprise). Segmentação CS (High-Touch, Tech-Touch, Low-Touch).
+Série B em diante (se enterprise). Segmente CS em tiers (High-Touch, Tech-Touch, Low-Touch).
 
 ### Quem envolve
 
-Estrutura típica de time CS, conforme estágio.
+Estrutura típica de time CS, conforme o estágio.
 
-**[[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]] a 13A (pré-Série A).** O CEO, ou founder, faz CS pessoalmente até cerca de cinquenta clientes. Primeiro contratado. Customer Success Manager generalista.
+**[[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]] a 13A (pré-Série A).** O CEO ou founder faz CS pessoalmente até cerca de cinquenta clientes. O primeiro contratado é um Customer Success Manager generalista.
 
-**[[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Time e Liderança), da escala inicial à Série B (Série A a B).** Head of CS. CSMs segmentados por tier (SMB, Mid-Market, Enterprise). Primeiro CS Operations (processos, tooling, e analytics).
+**[[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Time e Liderança), da escala inicial à Série B (Série A a B).** Head of CS. CSMs segmentados por tier (SMB, Mid-Market, Enterprise). Primeira contratação em CS Operations (processos, tooling e analytics).
 
-**Série B em diante.** VP Customer Success reportando ao CEO, ou ao CRO. CSM Team com tiers claros. Implementation Specialists (onboarding dedicado). Support (reativo, ticket-based) separado de CS (proativo, account-based). Renewals team (às vezes separado de CSM).
+**Série B em diante.** VP Customer Success reportando ao CEO ou ao CRO. CSM Team com tiers claros. Implementation Specialists (onboarding dedicado). Suporte (reativo, baseado em tickets) separado de CS (proativo, baseado em conta). Renewals team (às vezes separado de CSM).
 
-> [!important] Distinção crítica entre CS, e Support
-> Support é reativo, e transacional. Resolve tickets. CS é proativo, e estratégico. Acompanha conta, antecipa problemas, e impulsiona valor. Empresas que confundem os dois tratam CS como "suporte VIP", e perdem a parte estratégica.
+> [!important] Distinção crítica entre CS e Support (suporte)
+> Support é reativo e transacional — resolve tickets. CS é proativo e estratégico — acompanha conta, antecipa problemas e impulsiona valor. Empresas que confundem os dois tratam CS como "suporte VIP" e perdem a parte estratégica.
 
 ### Como executar
 

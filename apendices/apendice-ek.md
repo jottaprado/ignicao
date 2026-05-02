@@ -8,15 +8,15 @@ appendix: "EK"
 > [!note] Nota editorial
 > Esse apêndice cobre princípios de persuasão e influência aplicados ao contexto do fundador. As referências a Robert Cialdini baseiam-se em obra acadêmica publicada ("Influence: The Psychology of Persuasion", 1984, e pesquisas posteriores). Aplicações contextuais são do autor.
 
-O fundador não tem o poder que um executivo corporativo tem. Não pode obrigar investidor a assinar term sheet. Não pode forçar candidato top a aceitar oferta. Não pode compelir cliente grande a trocar fornecedor estabelecido. Não pode impor ao co-fundador uma visão que ele rejeita. Em todas essas situações, o único instrumento disponível é influência — a capacidade de mover a ação de outro sem coerção.
+O fundador não tem o poder que um executivo corporativo tem. Não pode obrigar investidor a assinar term sheet (carta de intenções de investimento). Não pode forçar candidato top a aceitar oferta. Não pode compelir cliente grande a trocar fornecedor estabelecido. Não pode impor ao co-fundador uma visão que ele rejeita. Em todas essas situações, o único instrumento disponível é influência — a capacidade de mover a ação de outro sem coerção.
 
-Influência não é manipulação. A distinção importa e é trabalhada na seção de ética desse apêndice. Mas antes disso, é necessário entender os mecanismos que de fato movem pessoas — porque ignorá-los não torna o fundador mais ético, apenas menos eficaz.
+Influência não é manipulação. A distinção importa e a seção de ética deste apêndice trata dela. Mas antes disso, é necessário entender os mecanismos que de fato movem pessoas — porque ignorá-los não torna o fundador mais ético, apenas menos eficaz.
 
 ### A situação estrutural do fundador
 
 O fundador opera em assimetria de poder invertida na maioria das suas relações críticas. Investidor tem portfólio diversificado e pode dizer não sem custo; o fundador precisa do sim. Candidato top tem três ofertas e a startup é a menor e mais arriscada; o fundador precisa convencer. Cliente grande tem fornecedor atual e ciclo de troca doloroso; o fundador precisa justificar a mudança. Co-fundador tem convicção tão forte quanto a sua; nenhum dos dois tem autoridade sobre o outro.
 
-Essa assimetria tem um efeito paradoxal: o fundador que entende influência tem vantagem desproporcional, porque os outros lados frequentemente subestimam o quanto podem ser influenciados. Investidor acha que decide por planilha; decide por narrativa e confiança também. Candidato acha que decide por salário; decide por missão e gestor também. Entender isso não é cinismo — é o pré-requisito para a conversa certa.
+Essa assimetria tem um efeito paradoxal: o fundador que entende influência tem vantagem desproporcional, porque os outros lados frequentemente subestimam o quanto podem ser influenciados. Investidor acha que decide por planilha; decide por narrativa e confiança também. Candidato acha que decide por salário; decide por missão e gestor também. Entender isso não é cinismo — é pré-requisito para a conversa certa.
 
 ### Os seis princípios de Cialdini no contexto do fundador
 

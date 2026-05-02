@@ -15,21 +15,21 @@ appendix: "EU"
 
 ### Por que o fundador precisa entender contratos, não só assinar
 
-Existe uma ilusão confortável de que contratos são "coisa de advogado". O fundador assina onde o advogado manda, e segue em frente. Essa postura funciona até o momento em que o contrato se torna um problema — e aí o fundador descobre que não entende o que assinou.
+Existe uma ilusão confortável de que contratos são "coisa de advogado". O fundador assina onde o advogado manda e segue em frente. Essa postura funciona até o momento em que o contrato vira problema. Aí o fundador descobre que não entende o que assinou.
 
 Os três erros mais caros que fundadores cometem em contratos:
 
-**1. Assinar MSA com IP assignment irrestrito sem ler.**
+**1. Assinar MSA (Master Services Agreement, contrato guarda-chuva entre empresas) com IP assignment (cessão de propriedade intelectual) irrestrito sem ler.**
 
-Um grande cliente envia um MSA padrão. A equipe jurídica interna do cliente é bem treinada; a cláusula de propriedade intelectual diz que tudo que a startup desenvolver durante o contrato pertence ao cliente. O fundador assina sem ler. Dois anos depois, a startup percebe que funcionalidades desenvolvidas para esse cliente — e depois incorporadas ao produto base — pertencem juridicamente ao cliente. Due diligence de Série A revela o problema.
+Um grande cliente envia um MSA padrão. A equipe jurídica interna do cliente é bem treinada. A cláusula de propriedade intelectual diz que tudo que a startup desenvolver durante o contrato pertence ao cliente. O fundador assina sem ler. Dois anos depois, a startup percebe que funcionalidades desenvolvidas para esse cliente — e depois incorporadas ao produto base — pertencem juridicamente ao cliente. A due diligence (auditoria pré-investimento) de Série A revela o problema.
 
-**2. Renovação automática de contrato de SaaS ou serviço com lock-in de 2 anos.**
+**2. Renovação automática de contrato de SaaS ou serviço com lock-in (período mínimo obrigatório) de 2 anos.**
 
-Contrato com fornecedor crítico renova automaticamente por igual período se não houver notificação 90 dias antes. A startup não monitora o prazo. Renova por mais 2 anos um contrato que não quer mais. Rescisão antecipada tem multa de 12 meses.
+Contrato com fornecedor crítico renova automaticamente por igual período se não houver notificação 90 dias antes. A startup não monitora o prazo. Renova por mais 2 anos um contrato que não quer mais. A rescisão antecipada tem multa de 12 meses.
 
-**3. NDA que não protege nada porque o confidencial não foi definido.**
+**3. NDA (Non-Disclosure Agreement, acordo de confidencialidade) que não protege nada porque o confidencial não foi definido.**
 
-A empresa assina um NDA bilateral com potencial parceiro. O contrato diz que "informações confidenciais são as assim marcadas por escrito". A startup compartilha verbalmente estratégia de produto e base de clientes em reunião — sem marca "confidencial". O parceiro usa a informação. A startup não tem proteção contratual porque não cumpriu os formalismos do próprio NDA.
+A empresa assina um NDA bilateral com potencial parceiro. O contrato diz que "informações confidenciais são as assim marcadas por escrito". A startup compartilha verbalmente estratégia de produto e base de clientes em reunião, sem marcar como "confidencial". O parceiro usa a informação. A startup não tem proteção contratual porque não cumpriu os formalismos do próprio NDA.
 
 Este apêndice desmonta os principais tipos de contrato que uma startup usa e explica o que está em jogo em cada um.
 

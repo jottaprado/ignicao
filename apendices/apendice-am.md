@@ -6,57 +6,57 @@ appendix: "AM"
 ## APÊNDICE AM — BOARD E GOVERNANCE
 
 > [!note] Nota de validade
-> As estruturas, e boas práticas de governance, evoluem lentamente (década). O que muda mais rápido. Ferramentas de board portal (Diligent, BoardEffect, e Notion com templates). Padrões de ESG disclosure. Regulação societária específica. Revisar anualmente. Os princípios (composição balanceada, preparação estruturada, e decisões documentadas) são estáveis.
+> As estruturas e boas práticas de governance (governança) evoluem lentamente (escala de décadas). O que muda mais rápido: ferramentas de board portal (Diligent, BoardEffect, e Notion com templates), padrões de ESG disclosure (divulgação ESG) e regulação societária específica. Revisar anualmente. Os princípios — composição balanceada, preparação estruturada e decisões documentadas — são estáveis.
 
-A [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]] cobre constituição, e cap table. O [[#APÊNDICE V — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Apêndice V]] cobre captação. Mas operar com board saudável é disciplina em si. Raramente tratada em manuais brasileiros de empreendedorismo. Fundador em Série A que nunca preparou material de board, nunca conduziu uma reunião, e nunca demitiu membro improdutivo, chega despreparado à situação mais consequente do seu calendário trimestral.
+A [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]] cobre constituição e cap table (tabela de capital). O [[#APÊNDICE V — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Apêndice V]] cobre captação. Mas operar com board (conselho de administração) saudável é disciplina em si, raramente tratada em manuais brasileiros de empreendedorismo. Fundador em Série A que nunca preparou material de board, nunca conduziu uma reunião e nunca demitiu membro improdutivo chega despreparado à situação mais consequente do seu calendário trimestral.
 
-Esse apêndice cobre board como disciplina operacional. Composição. Cadência. Preparação de materiais. Condução de reuniões. Gestão de membros difíceis. E evolução do board, conforme empresa cresce.
+Esse apêndice cobre board como disciplina operacional. Composição. Cadência. Preparação de materiais. Condução de reuniões. Gestão de membros difíceis. E evolução do board, conforme a empresa cresce.
 
 ### O que esse apêndice cobre
 
 Três camadas.
 
-1. Estrutura do board. Quantos membros. Qual composição (founders, investidores, ou independentes). Quando expandir.
+1. Estrutura do board. Quantos membros. Qual composição (founders, investidores ou independentes). Quando expandir.
 2. Operação do board. Cadência de reuniões. Formato. Preparação. Condução. Documentação.
 3. Gestão de membros. Relacionamento contínuo com cada membro. Identificação de performance. Substituição quando necessário.
 
-Entregáveis. Composição documentada. Cadência calendarizada. Template de deck de board. Atas formais. Plano de sucessão, ou rotação de membros.
+Entregáveis: composição documentada, cadência calendarizada, template de deck de board, atas formais e plano de sucessão ou rotação de membros.
 
 ### POR QUE
 
 > [!important] Board é o único fórum onde o CEO é formalmente supervisionado
-> Decisões estratégicas críticas passam por ali (rodadas, aquisições, pivôs, demissão de executivos sêniores, e exit).
+> Decisões estratégicas críticas passam por ali (rodadas, aquisições, pivôs, demissão de executivos sêniores e exit).
 
-Board saudável é acelerador. Board ruim é freio. Board com membros engajados, preparados, e complementares, acelera decisões difíceis. Board com políticas internas, membros desengajados, ou conflitos não-resolvidos, trava empresa em momentos críticos.
+Board saudável é acelerador. Board ruim é freio. Board com membros engajados, preparados e complementares acelera decisões difíceis. Board com políticas internas, membros desengajados ou conflitos não-resolvidos trava a empresa em momentos críticos.
 
-A legislação brasileira atribui responsabilidade jurídica ao conselho. As decisões de M&A, rodadas, e mudanças estatutárias, passam por deliberação formal documentada. Sem ata adequada, há exposição legal.
+A legislação brasileira atribui responsabilidade jurídica ao conselho. As decisões de M&A (mergers and acquisitions, fusões e aquisições), rodadas e mudanças estatutárias passam por deliberação formal documentada. Sem ata adequada, há exposição legal.
 
-O fundador iniciante raramente foi board member antes. Aprende no próprio gargalo. Em momentos de alta pressão. Material preventivo reduz curva de aprendizado.
+O fundador iniciante raramente foi board member antes. Aprende no próprio gargalo, em momentos de alta pressão. Material preventivo reduz curva de aprendizado.
 
 ### Quando usar
 
-[[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]]. Primeiros "observers", ou advisors, como proxy de board embrionário.
+[[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]]. Primeiros "observers" (observadores) ou advisors, como proxy de board embrionário.
 
-Pós-Seed, ou pré-Série A. Primeiro board formal (dois a três membros típico).
+Pós-Seed ou pré-Série A. Primeiro board formal (dois a três membros típico).
 
 Série A. Board formal com três a cinco membros (founders, mais um a dois investidores, mais zero a um independente).
 
-Série B em diante. Board com cinco a sete membros. Dois a três independentes. Comitês (audit, e compensation).
+Série B em diante. Board com cinco a sete membros. Dois a três independentes. Comitês (audit e compensation).
 
-Pré-IPO. Board formal com majoritária de independentes. Comitês completos. Governance madura.
+Pré-IPO. Board formal com maioria de independentes. Comitês completos. Governance madura.
 
 ### Quem envolve
 
 **Tipos de membros.**
 
-Inside directors (internos). Founders, ou CEO. Conhecem a empresa profundamente. Tomam decisões executivas.
+Inside directors (diretores internos). Founders ou CEO. Conhecem a empresa profundamente. Tomam decisões executivas.
 
-Investor directors. Representantes de VCs com cadeira. Trazem visão de mercado, rede, e lógica de capital. Podem ter conflito entre o que é melhor para o fundo, versus para a empresa.
+Investor directors (diretores investidores). Representantes de VCs (Venture Capitals, fundos de capital de risco) com cadeira. Trazem visão de mercado, rede e lógica de capital. Podem ter conflito entre o que é melhor para o fundo versus para a empresa.
 
-> [!important] Independent directors são os mais valiosos em governance
-> Não têm interesse econômico material na empresa (além de stipend modesto). Trazem perspectiva externa, expertise específica, e credibilidade.
+> [!important] Independent directors (independentes) são os mais valiosos em governance
+> Não têm interesse econômico material na empresa (além de stipend, ou seja, remuneração modesta). Trazem perspectiva externa, expertise específica e credibilidade.
 
-Board observers. Presença nas reuniões sem direito de voto. Comum para investidores que não têm cadeira formal, mas querem acompanhar.
+Board observers (observadores de conselho). Presença nas reuniões sem direito de voto. Comum para investidores que não têm cadeira formal, mas querem acompanhar.
 
 **Composição por estágio (padrão típico).**
 

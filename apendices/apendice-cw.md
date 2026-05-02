@@ -5,11 +5,11 @@ appendix: "CW"
 
 ## APÊNDICE CW — CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO
 
-Toda empresa enfrenta, mais cedo ou mais tarde, um momento em que as coisas dão muito errado. Pode ser um vazamento de dados, um cliente grande saindo de forma ruidosa, um ataque de ransomware, uma demissão em massa mal conduzida, um escândalo envolvendo um executivo, um bug em produção que tirou serviço do ar por dezoito horas, a falência de um fornecedor crítico, uma decisão judicial adversa inesperada, ou simplesmente o primeiro trimestre em que a empresa deixa de bater meta de forma impossível de disfarçar.
+Toda empresa enfrenta, mais cedo ou mais tarde, um momento em que as coisas dão muito errado. Pode ser um vazamento de dados. Um cliente grande saindo de forma ruidosa. Um ataque de ransomware (sequestro de dados por resgate). Uma demissão em massa mal conduzida. Um escândalo envolvendo um executivo. Um bug em produção que tirou serviço do ar por dezoito horas. A falência de um fornecedor crítico. Uma decisão judicial adversa inesperada. Ou simplesmente o primeiro trimestre em que a empresa deixa de bater meta de forma impossível de disfarçar.
 
 O que diferencia empresas que sobrevivem dessas situações das que sucumbem não é a ausência de crise. É a qualidade da resposta. E o que diferencia uma resposta boa de uma ruim não é improviso heroico no momento do aperto. É preparação feita com calma quando nada estava dando errado.
 
-Esse apêndice trata do ciclo completo de crise. A primeira parte cobre continuidade de negócio, as práticas preventivas que reduzem a probabilidade e o impacto de eventos adversos e mantêm operação funcionando durante crise. É trabalho que se faz em tempo de paz. A segunda parte entra em crise e recuperação em sentido estrito: como responder quando a situação ruim já aconteceu, e como reconstruir depois.
+Esse apêndice trata do ciclo completo de crise. A primeira parte cobre continuidade de negócio. As práticas preventivas que reduzem a probabilidade e o impacto de eventos adversos. E mantêm operação funcionando durante crise. É trabalho que se faz em tempo de paz. A segunda parte entra em crise e recuperação em sentido estrito. Como responder quando a situação ruim já aconteceu, e como reconstruir depois.
 
 ---
 
@@ -17,9 +17,9 @@ Esse apêndice trata do ciclo completo de crise. A primeira parte cobre continui
 
 #### O que é BCP e por que importa
 
-Business Continuity Planning (BCP) é a disciplina de antecipar eventos adversos e garantir que a empresa continue operando, talvez em modo degradado, mas continue, quando esses eventos acontecem. Inclui identificação de riscos, mapeamento de processos críticos, planos documentados para cada cenário e testes periódicos para garantir que os planos funcionam.
+Business Continuity Planning (BCP, planejamento de continuidade de negócio) é a disciplina de antecipar eventos adversos e garantir que a empresa continue operando, talvez em modo degradado, mas continue, quando esses eventos acontecem. Inclui identificação de riscos, mapeamento de processos críticos, planos documentados para cada cenário e testes periódicos para garantir que os planos funcionam.
 
-BCP costuma ser confundido com DRP (Disaster Recovery Plan). A distinção: DRP é subconjunto de BCP focado em recuperação técnica de infraestrutura (backup, failover, restore). BCP é mais amplo e cobre pessoas, processos, fornecedores e comunicação, não apenas tecnologia.
+BCP costuma ser confundido com DRP (Disaster Recovery Plan, plano de recuperação de desastre). A distinção. DRP é subconjunto de BCP focado em recuperação técnica de infraestrutura (backup, failover ou tomada automática de operação por sistema secundário, restore ou restauração). BCP é mais amplo e cobre pessoas, processos, fornecedores e comunicação. Não apenas tecnologia.
 
 > [!warning] BCP não é "coisa de empresa grande"
 > Startup depende mais de fornecedores críticos específicos (provedor de cloud único, um dev sênior detentor de todo conhecimento, um cliente representando quarenta por cento da receita) do que empresa grande, e portanto é mais vulnerável a eventos adversos.
@@ -63,9 +63,9 @@ Risco comum em startup: concentração de conhecimento em poucas pessoas. Se o d
 
 #### O que caracteriza crise
 
-Nem todo problema é crise. Problema é o normal da operação: bug, cliente insatisfeito, meta não batida, funcionário pedindo demissão, fornecedor atrasando entrega. Crise é problema que escala para ameaçar a sobrevivência, a reputação ou a operação da empresa em horizonte curto.
+Nem todo problema é crise. Problema é o normal da operação. Bug, cliente insatisfeito, meta não batida, funcionário pedindo demissão, fornecedor atrasando entrega. Crise é problema que escala para ameaçar a sobrevivência, a reputação ou a operação da empresa em horizonte curto.
 
-Crise tem quatro características que a distinguem de problema. Urgência: requer ação em horas ou dias, não em semanas. Visibilidade: atinge ou pode atingir stakeholders externos (clientes, imprensa, reguladores, funcionários). Ambiguidade: informação inicial é parcial, contraditória ou, pior, enganosa. Dano potencial: pode gerar perdas significativas se mal conduzida.
+Crise tem quatro características que a distinguem de problema. Urgência: requer ação em horas ou dias, não em semanas. Visibilidade: atinge ou pode atingir stakeholders (partes interessadas) externos (clientes, imprensa, reguladores, funcionários). Ambiguidade: informação inicial é parcial, contraditória ou, pior, enganosa. Dano potencial: pode gerar perdas significativas se mal conduzida.
 
 Reconhecer que um problema virou crise é a primeira decisão executiva. Demorar a reconhecer custa caro.
 

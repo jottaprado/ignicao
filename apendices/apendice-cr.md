@@ -5,9 +5,9 @@ appendix: "CR"
 
 ## APÊNDICE CR — ENGINEERING MANAGEMENT: GESTÃO DO TIME TÉCNICO E DEVELOPER EXPERIENCE
 
-Engenharia é a função organizacional que escala mais diferente das outras. As regras que funcionam para um time de vendas de 20 pessoas não funcionam para um time de engenharia de 20 pessoas, as ferramentas de performance management de marketing não cabem em avaliação técnica, a estrutura hierárquica que dá certo em operações quebra em produto de software. Fundadores não-técnicos frequentemente tentam aplicar ao time de engenharia o que aprenderam em outras áreas, e o resultado é saída de engenheiros bons, débito técnico crescente, e time cada vez menos produtivo a cada contratação.
+Engenharia (de software) é a função organizacional que escala de forma mais diferente das outras. As regras que funcionam para um time de vendas de 20 pessoas não funcionam para um time de engenharia de 20 pessoas. As ferramentas de performance management (gestão de desempenho) de marketing não cabem em avaliação técnica. A estrutura hierárquica que dá certo em operações quebra em produto de software. Fundadores não-técnicos frequentemente tentam aplicar ao time de engenharia o que aprenderam em outras áreas. O resultado é saída de engenheiros bons, débito técnico crescente, e time cada vez menos produtivo a cada contratação.
 
-Esse apêndice trata das duas faces da disciplina. A **Parte 1** cobre Engineering Management em escala, career ladders, levels, performance reviews, estrutura organizacional, o que fazer com o IC sênior que não quer ser gerente, como montar chapters e squads, como dimensionar headcount. A **Parte 2** cobre Developer Experience como disciplina, relevante para empresas cujo produto é consumido por desenvolvedores (APIs, SDKs, developer tools), mas com princípios que se aplicam também ao DX interno da sua própria engenharia.
+Esse apêndice trata das duas faces da disciplina. A **Parte 1** cobre Engineering Management (gestão de engenharia) em escala. Inclui career ladders (trilhas de carreira), levels (níveis), performance reviews (avaliações de desempenho), estrutura organizacional, o que fazer com o IC (Individual Contributor, contribuidor individual) sênior que não quer ser gerente, como montar chapters (capítulos) e squads (esquadrões), como dimensionar headcount (quadro de pessoal). A **Parte 2** cobre Developer Experience (experiência do desenvolvedor) como disciplina, relevante para empresas cujo produto é consumido por desenvolvedores (APIs, SDKs ou kits de desenvolvimento, developer tools ou ferramentas para devs). Mas com princípios que se aplicam também ao DX (developer experience) interno da sua própria engenharia.
 
 ---
 
@@ -15,7 +15,7 @@ Esse apêndice trata das duas faces da disciplina. A **Parte 1** cobre Engineeri
 
 #### Por que engenharia precisa de regras próprias
 
-Três características tornam engenharia uma disciplina de gestão particular. Primeira: o produto do trabalho é código, que é inspecionável de forma diferente de uma campanha de marketing ou de uma meta de vendas. Segunda: o melhor engenheiro individual pode gerar mais valor do que cinco engenheiros medianos juntos, o que distorce a economia do time. Terceira: há uma fratura cultural persistente entre os que querem codar para sempre e os que querem gerenciar pessoas, forçar o caminho errado destrói talento em ambos os lados.
+Três características tornam engenharia uma disciplina de gestão particular. Primeira: o produto do trabalho é código, que é inspecionável de forma diferente de uma campanha de marketing ou de uma meta de vendas. Segunda: o melhor engenheiro individual pode gerar mais valor do que cinco engenheiros medianos juntos, o que distorce a economia do time. Terceira: há uma fratura cultural persistente entre os que querem codar (programar) para sempre e os que querem gerenciar pessoas. Forçar o caminho errado destrói talento em ambos os lados.
 
 A consequência prática dessas três características é que Engineering Management tem um conjunto de boas práticas específicas, construídas pela indústria ao longo de décadas. As principais você encontra abaixo.
 
@@ -128,19 +128,19 @@ Promoção anunciada sem dossiê, sem comitê, sem comparação com outros candi
 
 #### O que é DX e por que importa
 
-Developer Experience é a disciplina de construir produtos e interfaces técnicas que geram adoção e produtividade via qualidade técnica percebida. Aplica-se em dois contextos:
+Developer Experience (DX, experiência do desenvolvedor) é a disciplina de construir produtos e interfaces técnicas que geram adoção e produtividade via qualidade técnica percebida. Aplica-se em dois contextos:
 
-**DX externo:** quando seu produto é consumido por desenvolvedores, API, SDK, CLI, biblioteca, developer tool. Neste caso, DX é o equivalente do UX para consumer, a principal alavanca de adoção. Exemplos: Stripe, Twilio, Vercel, Pagar.me, Pluggy.
+**DX externo:** quando seu produto é consumido por desenvolvedores. API, SDK, CLI (interface de linha de comando), biblioteca, developer tool (ferramenta para desenvolvedor). Neste caso, DX é o equivalente do UX (user experience, experiência do usuário) para consumer (consumidor final). É a principal alavanca de adoção. Exemplos: Stripe, Twilio, Vercel, Pagar.me, Pluggy.
 
-**DX interno:** a experiência dos engenheiros da sua empresa em trabalhar no seu próprio codebase. Quanto tempo leva para um novo dev rodar o projeto pela primeira vez? Testes passam rápido? Build é rápido? Deploy é simples? DX interno ruim é uma das principais fontes de queda de produtividade em empresas de engenharia em escala.
+**DX interno:** a experiência dos engenheiros da sua empresa em trabalhar no seu próprio codebase (base de código). Quanto tempo leva para um novo dev rodar o projeto pela primeira vez? Testes passam rápido? Build (compilação) é rápido? Deploy (publicação em produção) é simples? DX interno ruim é uma das principais fontes de queda de produtividade em empresas de engenharia em escala.
 
 Esse apêndice foca principalmente em DX externo, mas os princípios se aplicam nos dois.
 
 #### Por que DX é decisivo em produtos para devs
 
-Desenvolvedores não toleram produtos mal-feitos. Documentação confusa, API inconsistente, error messages opacos, SDK com bugs, em minutos, o developer avaliando o seu produto decide que não vai adotar, e vai para o concorrente. Não há processo de venda que compense DX ruim: a decisão técnica acontece antes do comercial.
+Desenvolvedores não toleram produtos mal-feitos. Documentação confusa, API inconsistente, error messages (mensagens de erro) opacos, SDK com bugs. Em minutos, o developer avaliando o seu produto decide que não vai adotar, e vai para o concorrente. Não há processo de venda que compense DX ruim. A decisão técnica acontece antes do comercial.
 
-Produtos para developers frequentemente têm padrão de adoção bottom-up: o developer descobre, experimenta, integra, e depois a empresa paga. Se o desenvolvedor individual não consegue fazer o primeiro hello world em 5 minutos, nunca haverá cliente corporativo. DX ruim compromete o funil inteiro.
+Produtos para developers frequentemente têm padrão de adoção bottom-up (de baixo para cima). O developer descobre, experimenta, integra. Depois a empresa paga. Se o desenvolvedor individual não consegue fazer o primeiro hello world em 5 minutos, nunca haverá cliente corporativo. DX ruim compromete o funil inteiro.
 
 #### Os pilares de DX externo
 

@@ -8,13 +8,13 @@ appendix: "BS"
 > [!warning] Validade
 > Política migratória muda frequentemente. As informações refletem o cenário de abril de 2026. Para decisões reais, advogado de imigração especializado é essencial. Esse apêndice é mapa, não substitui consultoria. Mudanças no governo americano a partir de 2025, política europeia e regulamentações específicas precisam ser confirmadas no momento da decisão.
 
-Fundador brasileiro que decide expandir internacionalmente frequentemente enfrenta uma pergunta pessoal: onde vou viver? Deal de Série A com investidor americano, cliente enterprise nos EUA, operação em Europa, cada um desses traz à mesa a questão de relocation, visto, imigração. Esse apêndice cobre os principais caminhos migratórios para fundadores brasileiros, com foco em Estados Unidos (destino mais comum), e também Portugal, Reino Unido e Canadá.
+O fundador brasileiro que decide expandir internacionalmente frequentemente enfrenta uma pergunta pessoal: onde vou viver? Deal (negociação) de Série A com investidor americano, cliente enterprise (corporativo) nos EUA, operação em Europa, cada um desses traz à mesa a questão de relocation (mudança de país), visto, e imigração. Esse apêndice cobre os principais caminhos migratórios para fundadores brasileiros, com foco em Estados Unidos (destino mais comum), e também Portugal, Reino Unido e Canadá.
 
 ### O que e por que importa
 
-Visto e imigração para fundador envolve sete frentes: diagnóstico de necessidade, escolha do país, tipo de visto, processo de aplicação, transição familiar, planejamento fiscal (dupla tributação, exit tax, remessa) e caminho para permanência (green card, residência permanente, cidadania eventual). Os entregáveis são diagnóstico com país e visto escolhidos, plano de aplicação, timeline realista, budget completo, plano de relocation familiar e estrutura fiscal.
+Visto e imigração para o fundador envolve sete frentes: diagnóstico de necessidade, escolha do país, tipo de visto, processo de aplicação, transição familiar, planejamento fiscal (dupla tributação, exit tax, ou imposto de saída, e remessa) e caminho para permanência (green card, ou residência permanente americana, residência permanente em outros países, cidadania eventual). Os entregáveis são diagnóstico com país e visto escolhidos, plano de aplicação, timeline (cronograma) realista, budget (orçamento) completo, plano de relocation familiar e estrutura fiscal.
 
-Importa por seis razões: investidores americanos frequentemente esperam fundador in loco; rede de contatos é local-dependente; sales enterprise exige presença; Delaware Flip beneficia-se de fundador residente; família tem voz (cônjuge, filhos, pais); e o custo fiscal e financeiro é significativo (R$ 500K–R$ 2M em custos diretos, mais exit tax).
+Importa por seis razões. Os investidores americanos frequentemente esperam o fundador in loco. A rede de contatos depende do lugar. Sales enterprise exige presença. O Delaware Flip (reorganização societária para holding nos EUA) beneficia-se de fundador residente. A família tem voz (cônjuge, filhos, pais). E o custo fiscal e financeiro é significativo (R$ 500 mil a R$ 2 milhões em custos diretos, mais exit tax).
 
 ### Quando
 

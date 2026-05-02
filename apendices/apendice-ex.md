@@ -8,9 +8,9 @@ appendix: "EX"
 > [!note] Nota editorial
 > Esse apêndice trata de apresentação e fala em público como disciplina profissional do fundador. Referências a técnicas de comunicação baseiam-se em prática e literatura disponível sobre oratória, mídia training e comunicação executiva. Não há endosso implícito a cursos ou consultorias específicas.
 
-Falar bem em público não é talento de personalidade extrovertida — é habilidade com técnica, estrutura e prática sistemática. O fundador enfrenta situações de apresentação radicalmente diferentes ao longo da trajetória da empresa: all-hands de crise para 30 pessoas, keynote de conferência para 2.000, entrevista de TV com duas câmeras, board presentation trimestral, pitch para investidor em sala pequena. Cada uma tem dinâmica própria, mas todas compartilham a mesma base de preparo.
+Falar bem em público não é talento de personalidade extrovertida. É habilidade com técnica, estrutura e prática sistemática. O fundador enfrenta situações de apresentação radicalmente diferentes ao longo da trajetória da empresa. All-hands (reunião com toda a empresa) de crise para 30 pessoas. Keynote (palestra principal) de conferência para 2.000. Entrevista de TV com duas câmeras. Board presentation (apresentação ao conselho) trimestral. Pitch para investidor em sala pequena. Cada uma tem dinâmica própria, mas todas compartilham a mesma base de preparo.
 
-A habilidade não é opcional. Fundador que não consegue comunicar a visão da empresa em público perde recrutamento (candidato top que pesquisa e não encontra nada convincente), captação (investidor que assiste pitch sem energia e conclui que fundador não acredita no que está vendendo) e vendas enterprise (cliente que percebe apresentador inseguro como empresa insegura). A comunicação pública do fundador é produto da empresa também.
+A habilidade não é opcional. Fundador que não consegue comunicar a visão da empresa em público perde recrutamento (candidato top que pesquisa e não encontra nada convincente), captação (investidor que assiste pitch sem energia e conclui que o fundador não acredita no que vende) e vendas enterprise (cliente que percebe apresentador inseguro como empresa insegura). A comunicação pública do fundador é produto da empresa também.
 
 ### Os três tipos de apresentação que o fundador precisa dominar
 

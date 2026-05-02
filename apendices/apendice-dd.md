@@ -6,13 +6,13 @@ appendix: "DD"
 ## APÊNDICE DD — INVESTOR RELATIONS PÓS-RODADA
 
 > [!note] Posição no livro
-> Este apêndice cobre o relacionamento com investidores **depois** que a rodada fecha. A captação (pitch, term sheet, closing) está no [[apendice-v|Apêndice V]]. O planejamento da rodada está no [[apendice-cf|Apêndice CF]]. Este apêndice começa no dia seguinte ao wire.
+> Este apêndice cobre o relacionamento com investidores **depois** que a rodada fecha. A captação (pitch, term sheet — carta de intenções, closing — fechamento da rodada) está no [[apendice-v|Apêndice V]]. O planejamento da rodada está no [[apendice-cf|Apêndice CF]]. Este apêndice começa no dia seguinte ao wire (transferência do aporte).
 
 ---
 
 ### O erro mais comum pós-rodada
 
-Fundadores tratam o investidor como cliente que precisa ser satisfeito. Resultado: relatórios inflados, problemas escondidos e reuniões de board onde ninguém aprende nada. Isso atrasa ajuda real e cria surpresas ruins na Série A.
+Fundadores tratam o investidor como cliente que precisa ser satisfeito. Resultado: relatórios inflados, problemas escondidos e reuniões de board (conselho) onde ninguém aprende nada. Isso atrasa ajuda real e cria surpresas ruins na Série A.
 
 O modelo correto: o investidor é um parceiro com informação assimétrica. Ele só pode ajudar com o que sabe. Sua função como fundador é garantir que ele saiba o que importa, não o que parece bom.
 
@@ -28,13 +28,13 @@ O modelo correto: o investidor é um parceiro com informação assimétrica. Ele
 | Chamada 1:1 | Quando necessário | Investidor lead | Decisão estratégica, problema sério |
 
 > [!tip] Regra dos 90 dias
-> Nos primeiros 90 dias pós-closing, faça uma chamada de kick-off individual com cada investidor. Entenda o que cada um sabe fazer, o que eles querem aprender sobre a empresa, e como eles preferem ser acionados. Isso economiza muito tempo nos meses seguintes.
+> Nos primeiros 90 dias após o fechamento da rodada, faça uma chamada de kick-off (abertura) individual com cada investidor. Entenda o que cada um sabe fazer, o que querem aprender sobre a empresa, e como preferem ser acionados. Isso economiza muito tempo nos meses seguintes.
 
 ---
 
 ### Estrutura do update mensal
 
-O update mensal é o instrumento mais importante de IR no early stage. Deve ser curto (300–500 palavras), enviado por e-mail, lido em 5 minutos.
+O update mensal é o instrumento mais importante de IR (Investor Relations, ou relações com investidores) no early stage (estágio inicial). Mantenha curto (300–500 palavras), envie por e-mail, e garanta que dê para ler em 5 minutos.
 
 ```
 ASSUNTO: [Empresa] — Update [Mês/Ano]

@@ -7,24 +7,24 @@ appendix: "CD"
 
 ### O QUE É
 
-Modelagem financeira com cohorts é a forma de projetar receita, custo, e caixa, de uma empresa de receita recorrente (SaaS, D2C assinatura, ou serviço continuado). Em que a projeção não parte de "vou vender X em Y". Parte de "cada grupo de clientes adquiridos no mês Y vai se comportar assim ao longo dos próximos N meses". A soma dessas cohorts, compostas mês a mês, produz projeção que reflete a realidade da retention, e expansão. Em vez da fantasia de vender, e reter, tudo igual.
+Modelagem financeira com cohorts (coortes, ou grupos de clientes adquiridos no mesmo período) é a forma de projetar receita, custo, e caixa, de uma empresa de receita recorrente (SaaS, D2C assinatura, ou serviço continuado). A projeção não parte de "vou vender X em Y". Parte de "cada grupo de clientes adquiridos no mês Y vai se comportar assim ao longo dos próximos N meses". A soma dessas cohorts, compostas mês a mês, produz projeção que reflete a realidade da retention (retenção), e expansão. Em vez da fantasia de vender, e reter, tudo igual.
 
-A diferença entre modelo "tradicional", e modelo com cohorts, é tão significativa que muitos founders olham projeção convencional de uma startup de assinatura, e concluem "esse modelo não diz nada real". O motivo. A receita de SaaS no mês 24 não é "quanto vendi no mês 24". É "soma do que ficou vivo de cada cohort, desde o mês um até o mês 24. Cada um com sua curva de churn, e expansão". Projeção sem cohort ignora esse mecanismo.
+A diferença entre modelo "tradicional", e modelo com cohorts, é tão significativa que muitos founders (fundadores) olham projeção convencional de uma startup de assinatura, e concluem "esse modelo não diz nada real". O motivo. A receita de SaaS no mês 24 não é "quanto vendi no mês 24". É "soma do que ficou vivo de cada cohort, desde o mês um até o mês 24. Cada um com sua curva de churn (cancelamento), e expansão". Projeção sem cohort ignora esse mecanismo.
 
-Esse apêndice é o que separa financeiro que entende subscription, de financeiro que faz orçamento de varejo com nome diferente. É material técnico. Assume que o leitor conhece conceitos de MRR, ARR, LTV, e CAC (cobertos em apêndices anteriores).
+Esse apêndice é o que separa o financeiro que entende subscription do financeiro que faz orçamento de varejo com nome diferente. É material técnico. Assume que o leitor conhece conceitos de MRR (Monthly Recurring Revenue, ou receita recorrente mensal), ARR (receita recorrente anual), LTV (lifetime value, ou valor vitalício do cliente), e CAC (custo de aquisição de cliente), cobertos em apêndices anteriores.
 
 ### POR QUE IMPORTA
 
-Projeção realista é condição de sobrevivência. Empresa que projeta com modelo errado decide investir baseado em receita fantasiada. Chega no mês dezoito sem a receita. Caixa queimado. Modelo de cohort revelaria "essa tese precisa de melhor retention para fazer sentido" antes de investir.
+Projeção realista é condição de sobrevivência. A empresa que projeta com modelo errado decide investir baseado em receita fantasiada. Chega no mês dezoito sem a receita. Caixa queimado. O modelo de cohort revelaria "essa tese precisa de melhor retention para fazer sentido" antes de investir.
 
-Fundraising mais sofisticado exige cohort. Os VCs Série A em diante não olham "receita projetada" sem olhar cohorts. Investidor bom quer ver. Como o cohort 2023 performa? E 2022? Degradação? Melhora? Empresa que não tem essa análise aparenta imaturidade.
+Fundraising (captação de recursos) mais sofisticado exige cohort. Os VCs (venture capitalists, ou investidores de capital de risco) Série A em diante não olham "receita projetada" sem olhar cohorts. O investidor bom quer ver. Como o cohort 2023 performa? E 2022? Degradação? Melhora? A empresa que não tem essa análise aparenta imaturidade.
 
-Decisões de produto, e GTM, dependem. Churn concentrado em cohort de clientes pequenos? O produto para SMB tem problema. Churn alto em clientes vindo de canal X? O canal está vendendo errado. Sem cohort, o diagnóstico é genérico.
+Decisões de produto, e GTM (go-to-market, ou entrada no mercado), dependem. Churn concentrado em cohort de clientes pequenos? O produto para SMB (small and medium business, ou pequenas e médias empresas) tem problema. Churn alto em clientes vindo de canal X? O canal está vendendo errado. Sem cohort, o diagnóstico é genérico.
 
-Valuation depende de cohort curves. Comprador enterprise, ou VC, que faz diligência financeira vai construir cohort analysis da sua empresa. Se a sua cohort curve é saudável, o valuation é defendível. Se é ruim, o valuation cai, ou o deal não fecha. Melhor conhecer a sua cohort antes do comprador.
+Valuation depende de cohort curves (curvas de coorte). O comprador enterprise, ou VC, que faz diligência financeira vai construir cohort analysis (análise de coorte) da sua empresa. Se a sua cohort curve é saudável, o valuation é defendível. Se é ruim, o valuation cai, ou o deal (negociação) não fecha. Melhor conhecer a sua cohort antes do comprador.
 
 > [!warning] Diferença invisível em métricas agregadas
-> A diferença entre sucesso, e falha, em cohort é invisível em métricas agregadas. Empresa pode ter MRR crescendo, e cohorts de 2023 colapsando. Métricas agregadas dizem "tudo bem". Cohort analysis diz "o crescimento depende só de aquisição. E quando aquisição parar, MRR cai". Sem cohort, o CEO é surpreendido.
+> A diferença entre sucesso, e falha, em cohort é invisível em métricas agregadas. A empresa pode ter MRR crescendo, e cohorts de 2023 colapsando. Métricas agregadas dizem "tudo bem". Cohort analysis diz "o crescimento depende só de aquisição. E quando aquisição parar, MRR cai". Sem cohort, o CEO é surpreendido.
 
 ### COHORT 101 (FUNDAMENTOS RÁPIDOS)
 

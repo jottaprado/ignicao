@@ -11,20 +11,20 @@ appendix: "EO"
 
 ### 1. A inevitabilidade do litígio
 
-Toda startup que cresce enfrenta processos. Não existe empresa com cinco ou mais anos de operação, folha de pagamento relevante e base de clientes significativa que não tenha ao menos um processo trabalhista em andamento. Somar a isso ações consumeristas, autos de infração tributária e disputas contratuais com fornecedores é apenas uma questão de tempo e escala.
+Contencioso (área que cuida dos processos judiciais e administrativos da empresa) é parte da operação de qualquer startup que cresce. Toda startup que escala enfrenta processos. Não existe empresa com cinco ou mais anos de operação, folha de pagamento relevante e base de clientes significativa sem ao menos um processo trabalhista em andamento. Ações consumeristas, autos de infração tributária e disputas com fornecedores chegam depois — só é questão de tempo e escala.
 
-O objetivo não é atingir zero litígios. Esse objetivo é ao mesmo tempo inatingível e economicamente irracional — tentar eliminar qualquer risco de processo frequentemente significa contratos tão defensivos que afastam parceiros, ou compliance tão caro que inviabiliza o crescimento. O objetivo correto é gerir o risco jurídico de forma inteligente: identificar as exposições mais prováveis, quantificá-las, provisioná-las adequadamente e ter processos que reduzam a frequência e a severidade dos sinistros jurídicos.
+O objetivo não é zero litígios. Esse alvo é inatingível e economicamente irracional. Tentar eliminar qualquer risco de processo significa contratos tão defensivos que afastam parceiros, ou compliance (conformidade regulatória) tão caro que inviabiliza o crescimento. O objetivo correto é gerir o risco jurídico de forma inteligente: identificar as exposições mais prováveis, quantificá-las, provisioná-las adequadamente e ter processos que reduzam a frequência e a severidade dos sinistros jurídicos.
 
 > [!important]
 > Litígio não gerenciado mata startup. Não pelo custo da condenação em si — que muitas vezes é suportável — mas pelo desvio de atenção dos fundadores, pelo impacto em rodadas de captação e pela paralisação operacional que ações cautelares podem causar.
 
-Este apêndice cobre os quatro grandes vetores de contencioso que afetam startups brasileiras (trabalhista, cível, tributário e consumerista), como gerir o passivo contingente no balanço e como escolher o advogado certo para cada tipo de batalha.
+Este apêndice cobre os quatro grandes vetores de contencioso que afetam startups brasileiras (trabalhista, cível, tributário e consumerista), como gerir o passivo contingente (dívida potencial dependente de evento futuro) no balanço e como escolher o advogado certo para cada tipo de batalha.
 
 ---
 
 ### 2. Trabalhista: a maior fonte de passivo
 
-A área trabalhista responde pela maior concentração de passivo contingente em startups operacionais. Três razões explicam isso:
+A área trabalhista concentra o maior passivo contingente em startups operacionais. Três razões explicam:
 
 - O modelo de contratação de startups frequentemente usa PJ, MEI ou prestadores autônomos onde a realidade fática pode caracterizar vínculo empregatício
 - A rotatividade de pessoal em fases de crescimento acelerado aumenta o volume de ex-colaboradores com potencial reclamatório

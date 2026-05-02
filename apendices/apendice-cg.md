@@ -7,23 +7,23 @@ appendix: "CG"
 
 ### O QUE É
 
-Growth, em startups modernas, não é "marketing com nome cool". É uma disciplina organizacional que combina aquisição, ativação, retenção, referral, e monetização (o funil AARRR de Dave McClure). Usando experimentação quantitativa como metodologia. O growth team bem estruturado opera na interseção entre marketing, produto, e dados. Faz experimentos em features do produto para aumentar ativação. Roda campanhas para testar canais. Modela cohorts para entender retention. Constrói viral loops. Otimiza pricing.
+Growth (crescimento), em startups modernas, não é "marketing com nome cool". É uma disciplina organizacional que combina aquisição, ativação, retenção, referral (indicação) e monetização (o funil AARRR de Dave McClure, descrito mais adiante). Usa experimentação quantitativa como metodologia. O growth team bem estruturado opera na interseção entre marketing, produto, e dados. Faz experimentos em features do produto para aumentar ativação. Roda campanhas para testar canais. Modela cohorts (grupos de usuários agrupados por período de entrada) para entender retenção. Constrói viral loops (loops virais, mecânicas em que cada usuário traz outros). Otimiza pricing (precificação).
 
-A origem do conceito. Facebook (por volta de 2007), Airbnb, Uber, e Dropbox, popularizaram "growth hacking" nos anos 2010. Sean Ellis, Andrew Chen, e Reforge, formalizaram a disciplina. Hoje, empresas maduras como Canva, Notion, Figma, e ClickUp, têm growth teams de trinta a cem pessoas.
+A origem do conceito. Facebook (por volta de 2007), Airbnb, Uber, e Dropbox popularizaram "growth hacking" nos anos 2010. Sean Ellis, Andrew Chen, e Reforge formalizaram a disciplina. Hoje, empresas maduras como Canva, Notion, Figma, e ClickUp têm growth teams de trinta a cem pessoas.
 
-No Brasil, poucas empresas têm growth function madura. Nubank, Wellhub, MadeiraMadeira, iFood, RD Station, têm. Muitas startups confundem growth com performance marketing, ou com product marketing. Perdendo o valor combinado das duas disciplinas.
+No Brasil, poucas empresas têm growth function madura. Nubank, Wellhub, MadeiraMadeira, iFood e RD Station têm. Muitas startups confundem growth com performance marketing, ou com product marketing. E perdem o valor combinado das duas disciplinas.
 
-Esse apêndice trata de quando montar growth team. Como estruturar. Como contratar. Como operar. Onde cai.
+Esse apêndice trata de quatro perguntas. Quando montar growth team. Como estruturar. Como contratar. Como operar.
 
 ### POR QUE IMPORTA
 
-Growth team bem montado destrava crescimento de forma eficiente em capital. Sem ele, o crescimento depende de escalar S&M linearmente. Mais budget igual a mais crescimento. Com ele, o crescimento vem de mecânicas não-lineares (viral loops, product-led growth, unlock de canais novos). O CAC cai, ou se mantém, enquanto o volume escala.
+Growth team bem montado destrava crescimento de forma eficiente em capital. Sem ele, o crescimento depende de escalar S&M (sales and marketing, vendas e marketing) linearmente. Mais orçamento igual a mais crescimento. Com ele, o crescimento vem de mecânicas não-lineares (viral loops, product-led growth, e abertura de canais novos). O CAC (*customer acquisition cost*, custo de aquisição de cliente) cai, ou se mantém, enquanto o volume escala.
 
-Produto, e marketing, ficam desconectados sem growth. O marketing roda campanha. A landing page converte mal. O produto recebe usuários que não ativam. Cada função culpa a outra. O growth team é a "cola" que conecta o funil end-to-end, e assume ownership.
+Produto e marketing ficam desconectados sem growth. O marketing roda campanha. A landing page (página de captura) converte mal. O produto recebe usuários que não ativam. Cada função culpa a outra. O growth team é a "cola" que conecta o funil ponta a ponta, e assume responsabilidade.
 
-Experimentação estruturada destrava aprendizado. Empresas sem growth rodam mudanças sem medir rigorosamente. "Achamos que funcionou." Growth traz disciplina de A/B testing, holdout groups, e significância estatística. O aprendizado acumulado é moat.
+A experimentação estruturada destrava aprendizado. Empresas sem growth rodam mudanças sem medir rigorosamente. "Achamos que funcionou." Growth traz disciplina de teste A/B, grupos de controle, e significância estatística. O aprendizado acumulado vira diferencial competitivo.
 
-Entrar cedo demais, ou tarde demais, tem custo. Montar growth team em empresa de vinte pessoas é overkill. Não ter em empresa de duzentas, gerando queda de eficiência de growth, é tarde. Timing importa.
+Entrar cedo demais, ou tarde demais, tem custo. Montar growth team em empresa de vinte pessoas é exagero. Não ter em empresa de duzentas, gerando queda de eficiência, é tarde. Timing importa.
 
 ### QUANDO MONTAR GROWTH TEAM
 

@@ -15,13 +15,13 @@ appendix: "ED"
 
 ### Compensação total como estratégia
 
-A guerra por talento em tecnologia no Brasil não é vencida apenas com salário. O fundador que pensa em compensação exclusivamente como "quanto pagar por mês" vai perder para concorrentes — sejam outras startups, sejam empresas grandes — que entendem que o pacote completo é o que determina atração e retenção.
+A guerra por talento em tecnologia no Brasil não se vence apenas com salário. O fundador que pensa em compensação exclusivamente como "quanto pagar por mês" vai perder para concorrentes — sejam outras startups, sejam empresas grandes — que entendem o pacote completo como fator decisivo de atração e retenção.
 
 Compensação total é a soma de tudo que um colaborador recebe em troca do seu trabalho:
 
 - Salário base.
 - Bônus variável (PLR, comissão, bônus por meta).
-- Equity (opções, phantom shares, RSU).
+- Equity (participação societária — opções, phantom shares, RSU).
 - Benefícios tangíveis (saúde, alimentação, transporte, bem-estar).
 - Benefícios intangíveis (flexibilidade de jornada, trabalho remoto, cultura, missão, crescimento).
 

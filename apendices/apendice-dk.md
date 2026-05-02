@@ -8,11 +8,11 @@ appendix: "DK"
 > [!note] Nota de validade
 > Valores de dispensa de licitação e limites de contratação são reajustados periodicamente por decreto federal. Os valores citados refletem o cenário de maio de 2026, com base nos reajustes da Lei 14.133/2021 e regulamentações vigentes. Verificar atualização antes de qualquer processo de contratação. O Marco Legal das Startups (LC 182/2021) é a âncora legal principal — ver [[#APÊNDICE DA — MARCO LEGAL DAS STARTUPS: LC 182/2021|Apêndice DA]] para o instrumento em detalhe.
 
-Governo é o maior comprador do Brasil. O setor público gasta mais de R$ 2 trilhões por ano. Saúde, educação, segurança, mobilidade, assistência social, fiscalização tributária — todos operam sobre tecnologia envelhecida, processos manuais e baixa eficiência. O gap entre o que o setor público precisa e o que consegue contratar via TI tradicional é onde a govtech vive.
+Governo é o maior comprador do Brasil. O setor público gasta mais de R$ 2 trilhões por ano. Saúde, educação, segurança, mobilidade, assistência social, fiscalização tributária — todos operam sobre tecnologia envelhecida, processos manuais e baixa eficiência. O gap (lacuna) entre o que o setor público precisa e o que consegue contratar via TI tradicional é onde a govtech (startup que vende para governo) vive.
 
 Mas governo é cliente diferente de tudo o que uma startup conhece. O ciclo de venda é longo. O processo de compra é burocrático por design. O pagamento pode atrasar meses. E a troca de prefeito ou secretário pode desfazer um contrato assinado.
 
-Este apêndice é um playbook operacional para fundar, vender e crescer no setor público brasileiro.
+Este apêndice é um playbook (manual operacional) para fundar, vender e crescer no setor público brasileiro.
 
 ### Por que governo é cliente especial
 

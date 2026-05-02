@@ -6,9 +6,9 @@ appendix: "AO"
 ## APÊNDICE AO — DADOS, ANALYTICS E EXPERIMENTAÇÃO
 
 > [!note] Nota de validade
-> Arquitetura de dados evolui em ciclos de três a cinco anos (Lambda, depois Kappa, depois Modern Data Stack, depois emergente). Ferramentas específicas mudam a cada doze a vinte e quatro meses. Princípios (métricas claras, experimentação rigorosa, dado como contrato) são estáveis. Revisar anualmente.
+> A arquitetura de dados evolui em ciclos de três a cinco anos (Lambda, depois Kappa, depois Modern Data Stack, depois emergente). Ferramentas específicas mudam a cada doze a vinte e quatro meses. Princípios — métricas claras, experimentação rigorosa, dado como contrato — são estáveis. Revisar anualmente.
 
-Vários pontos do manual mencionam dados de forma tangencial. [[#APÊNDICE J — FRAMEWORK DE CANAIS DE AQUISIÇÃO|Apêndice J]] (AARRR), [[#APÊNDICE AB — PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA|Apêndice AB]] (produto em escala), métricas em cada fase. Mas dados como disciplina operacional unificada (stack, time, processos, experimentação rigorosa) não tem casa no manual. Empresa pós-PMF, sem infra de dados funcional, toma decisões no escuro, executa experimentos que não medem o que dizem medir, e compromete escala.
+Vários pontos do manual mencionam dados de forma tangencial: [[#APÊNDICE J — FRAMEWORK DE CANAIS DE AQUISIÇÃO|Apêndice J]] (AARRR — sigla para Aquisição, Ativação, Retenção, Receita e Indicação), [[#APÊNDICE AB — PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA|Apêndice AB]] (produto em escala), métricas em cada fase. Mas dados como disciplina operacional unificada (stack, time, processos, experimentação rigorosa) não tem casa no manual. Empresa pós-PMF, sem infraestrutura de dados funcional, toma decisões no escuro, executa experimentos que não medem o que dizem medir e compromete escala.
 
 Esse apêndice cobre dados como função. Stack moderno. Papéis do time de dados. Métricas com formulações precisas. Experimentação rigorosa (A/B testing com estatística, não achismo). E evolução em escala.
 
@@ -18,21 +18,21 @@ Quatro camadas. Infraestrutura de dados (ingestão, armazenamento, transformaç�
 
 ### POR QUE
 
-Decisões sem dados são achismos em escala. Em pré-PMF, a intuição do fundador é frequentemente correta (contexto denso, mercado pequeno). Em escala, ninguém vê o todo. Dados são única forma de ver.
+Decisões sem dados são achismos em escala. Em pré-PMF, a intuição do fundador é frequentemente correta (contexto denso, mercado pequeno). Em escala, ninguém vê o todo. Dados são a única forma de ver.
 
 Experimentos mal desenhados são piores que não experimentar. Resultado "ganhamos quinze por cento" em A/B test com amostra pequena, sem significância estatística, pode ser ruído. Decisão baseada nisso piora a empresa.
 
-Stack de dados é infraestrutura. Não luxo. Sem stack adequado, os dados ficam em silos (CRM, produto, financeiro). As análises levam dias. Inconsistências entre áreas.
+Stack de dados é infraestrutura, não luxo. Sem stack adequado, os dados ficam em silos (CRM, produto, financeiro). As análises levam dias e há inconsistências entre áreas.
 
-Time de dados em escala é multi-função. Analytics engineer, data scientist, PM de dados, data engineer. Papéis distintos que o fundador iniciante frequentemente confunde.
+Time de dados em escala é multi-função: analytics engineer, data scientist, PM de dados, data engineer. São papéis distintos que o fundador iniciante frequentemente confunde.
 
 ### Quando usar
 
 Pré-PMF (Fases 2 a 11). Ferramentas simples (PostHog, Mixpanel, Google Analytics, planilha). Os dados são importantes, mas não requerem stack.
 
-Pós-PMF ([[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]] em diante). Começar a investir em stack moderno. Data warehouse, ferramentas de BI, processo de experimentação.
+Pós-PMF ([[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]] em diante). Comece a investir em stack moderno: data warehouse (armazém de dados), ferramentas de BI (Business Intelligence) e processo de experimentação.
 
-Pós-Série A. Primeira contratação de dados (analytics engineer, ou data engineer).
+Pós-Série A. Primeira contratação de dados (analytics engineer ou data engineer).
 
 Pós-Série B. Time de dados formalizado (três a seis pessoas). Experimentação como disciplina, com plataforma dedicada.
 
@@ -40,17 +40,17 @@ Pós-Série B. Time de dados formalizado (três a seis pessoas). Experimentaçã
 
 Os papéis em time de dados, em escala crescente.
 
-Analytics Engineer. Constrói transformações (dbt, SQL). Mantém modelo dimensional. Entrega data mart para analistas. Papel emergente, mais importante em data stack moderno.
+Analytics Engineer (engenheiro de analytics). Constrói transformações (dbt, SQL). Mantém modelo dimensional. Entrega data mart para analistas. Papel emergente, mais importante em data stack moderno.
 
-Data Analyst. Constrói dashboards. Responde perguntas específicas de negócio. Trabalha com stakeholders.
+Data Analyst (analista de dados). Constrói dashboards. Responde perguntas específicas de negócio. Trabalha com stakeholders.
 
-Data Scientist. Modelagem estatística, ML, e experimentação complexa. Em muitas empresas, mais junior do que o título sugere.
+Data Scientist (cientista de dados). Modelagem estatística, ML (Machine Learning, aprendizado de máquina) e experimentação complexa. Em muitas empresas, mais júnior do que o título sugere.
 
-Data Engineer. Pipelines de ingestão. Infraestrutura. Confiabilidade de dados.
+Data Engineer (engenheiro de dados). Pipelines de ingestão. Infraestrutura. Confiabilidade de dados.
 
-ML Engineer. Opera modelos em produção (distinto de DS, que os constrói).
+ML Engineer. Opera modelos em produção (distinto do DS, que os constrói).
 
-Data PM, ou Head of Data. Prioriza roadmap de dados. Stakeholder management com outras áreas.
+Data PM ou Head of Data. Prioriza roadmap de dados e gerencia stakeholders de outras áreas.
 
 Estágio versus contratação.
 

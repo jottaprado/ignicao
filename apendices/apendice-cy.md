@@ -13,15 +13,15 @@ Esse apêndice trata da construção deliberada da marca pessoal do fundador. N�
 
 Em termos mensuráveis, o fundador com marca pessoal bem construída produz cinco coisas para a empresa.
 
-**1. Canal de aquisição com CAC marginal baixo.** Posts orgânicos do fundador no LinkedIn (no caso B2B Brasil), ou Twitter (B2B global), geram leads inbound sem custo direto de mídia. Fundador com 30 mil a 50 mil seguidores, e engajamento autêntico, produz pipeline significativo via DM, comentário, e menção. Para startups B2B early-stage, isso costuma ser o canal mais barato, e mais qualificado disponível.
+**1. Canal de aquisição com CAC (custo de aquisição de cliente) marginal baixo.** Posts orgânicos do fundador no LinkedIn (no caso B2B Brasil), ou Twitter (B2B global), geram leads (potenciais clientes) inbound (entrada espontânea) sem custo direto de mídia. Fundador com 30 mil a 50 mil seguidores, e engajamento autêntico, produz pipeline significativo via DM (mensagem direta), comentário, e menção. Para startups B2B early-stage (estágio inicial), isso costuma ser o canal mais barato, e mais qualificado disponível.
 
 **2. Vantagem em recrutamento.** Candidatos de alto nível escolhem empresa em parte pela reputação do fundador. Seguir o fundador no LinkedIn por seis meses, e ver como ele pensa, decide, e comunica, é forma direta de avaliar se a pessoa quer trabalhar nesse ambiente. Empresas com fundador conhecido fecham contratações sênior em tempo menor, e com menor desembolso em recrutamento externo.
 
-**3. Facilidade em captação.** VC investe em pessoas. VC que segue o fundador por um a dois anos antes da rodada chega à conversa já convicto. Trajetória acompanhada é diligência acumulada. Para primeira rodada, ter investidores que te conhecem de longe via conteúdo reduz ciclo de captação de meses para semanas.
+**3. Facilidade em captação.** VC (venture capital, capital de risco) investe em pessoas. VC que segue o fundador por um a dois anos antes da rodada chega à conversa já convicto. Trajetória acompanhada é diligência acumulada. Para primeira rodada, ter investidores que te conhecem de longe via conteúdo reduz ciclo de captação de meses para semanas.
 
-**4. Resiliência em momentos difíceis.** Empresa em crise (problema de produto, lawsuit, ou crítica pública) se defende melhor quando o fundador tem rede pública de pessoas que confia nele. O inverso também é verdadeiro. Fundador sem presença pública em crise tem voz silenciosa, versus críticos amplificados.
+**4. Resiliência em momentos difíceis.** Empresa em crise (problema de produto, lawsuit ou processo judicial, ou crítica pública) se defende melhor quando o fundador tem rede pública de pessoas que confia nele. O inverso também é verdadeiro. Fundador sem presença pública em crise tem voz silenciosa, versus críticos amplificados.
 
-**5. Sinalização, e distribuição em launches.** Produto novo da empresa, rodada anunciada, ou marcos importantes, circulam pela rede do fundador instantaneamente, e sem custo. Fundador sem rede depende de PR pago, ou paid media, para alcançar audiência similar.
+**5. Sinalização, e distribuição em launches (lançamentos).** Produto novo da empresa, rodada anunciada, ou marcos importantes, circulam pela rede do fundador instantaneamente, e sem custo. Fundador sem rede depende de PR (relações públicas) pago, ou paid media (mídia paga), para alcançar audiência similar.
 
 ### O custo real de construir marca pessoal
 

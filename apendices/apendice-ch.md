@@ -7,25 +7,25 @@ appendix: "CH"
 
 ### O QUE É
 
-IA na engenharia interna significa uso de ferramentas baseadas em large language models (LLMs), e agentes autônomos, dentro do fluxo de trabalho de desenvolvimento de software. Code completion (Copilot, Codeium, Tabnine). Code generation assistida (Cursor, Windsurf, Cody). Agentes autônomos para tarefas (Claude Code, Devin, AI-SWE, Factory). Auxílio em code review (Greptile, CodeRabbit). Documentação automática. Geração de testes. Migração de código legado. Análise de logs, e debugging.
+IA (inteligência artificial) na engenharia interna significa uso de ferramentas baseadas em LLMs (*large language models*, modelos de linguagem grande) e agentes autônomos, dentro do fluxo de trabalho de desenvolvimento de software. Code completion, ou autocomplete de código (Copilot, Codeium, Tabnine). Geração de código assistida (Cursor, Windsurf, Cody). Agentes autônomos para tarefas (Claude Code, Devin, AI-SWE, Factory). Auxílio em code review (revisão de código, como Greptile e CodeRabbit). Documentação automática. Geração de testes. Migração de código legado. Análise de logs, e debugging.
 
-Não é "IA no produto" (chatbot do lado do cliente, ou feature de ML em produto). É IA como ferramenta de produtividade interna. Os devs do time usando IA para escrever, revisar, testar, e manter código.
+Não é "IA no produto" (chatbot do lado do cliente, ou feature de ML embarcada em produto). É IA como ferramenta de produtividade interna. Os devs do time usam IA para escrever, revisar, testar, e manter código.
 
-Até 2022, IA em engenharia era marginal (autocompleters de VSCode, com qualidade razoável). GitHub Copilot (2021 a 2022) popularizou code completion baseado em LLM. Cursor (2023) introduziu UX, onde o LLM é co-piloto ativo. Não só completador. Claude Code (2024 a 2025) levou ao agente autônomo, que executa tarefas complexas. Em 2026, os times de engenharia que não usam IA em pelo menos vinte a quarenta por cento do workflow estão ficando para trás em produtividade.
+Até 2022, IA em engenharia era marginal (autocompleters de VSCode, com qualidade razoável). GitHub Copilot (2021 a 2022) popularizou code completion baseado em LLM. Cursor (2023) introduziu uma experiência de uso em que o LLM é copiloto ativo. Não só completador. Claude Code (2024 a 2025) levou ao agente autônomo, que executa tarefas complexas. Em 2026, os times de engenharia que não usam IA em pelo menos vinte a quarenta por cento do fluxo de trabalho estão ficando para trás em produtividade.
 
-Esse apêndice trata de quando adotar, como adotar, quais ferramentas usar em quais contextos, como gerenciar riscos (segurança, qualidade, dependência), e como medir impacto real.
+Esse apêndice trata de quatro perguntas. Quando adotar. Como adotar. Quais ferramentas usar em quais contextos. Como gerenciar riscos (segurança, qualidade, dependência) e medir impacto real.
 
 ### POR QUE IMPORTA
 
-A produtividade de dev é fator de custo massivo. Engenheiro sênior no Brasil custa R$ 20 a R$ 40 mil por mês. Em empresas globais, R$ 50 a R$ 100 mil ou mais por mês (US$ 150 a US$ 250 mil por ano). Time de trinta engenheiros custa R$ 10 a R$ 20 milhões por ano. Aumento de produtividade de vinte a trinta por cento (ordem de magnitude típica reportada) equivale a economia, ou output adicional, de R$ 2 a R$ 6 milhões por ano.
+A produtividade de dev é fator de custo massivo. Engenheiro sênior no Brasil custa R$ 20 a R$ 40 mil por mês. Em empresas globais, R$ 50 a R$ 100 mil ou mais por mês (US$ 150 a US$ 250 mil por ano). Time de trinta engenheiros custa R$ 10 a R$ 20 milhões por ano. Aumento de produtividade de vinte a trinta por cento (ordem de magnitude típica reportada) equivale a economia, ou produção adicional, de R$ 2 a R$ 6 milhões por ano.
 
 A velocidade de execução vira vantagem competitiva. Startup que lança produto em três meses, versus concorrente que lança em seis, tem janela. IA na engenharia comprime ciclos.
 
-A qualidade aumenta, quando usada bem. Code review assistida por IA pega bugs que humanos perderiam. Testes gerados automaticamente aumentam cobertura. Refactoring suportado por IA reduz risco em mudanças grandes.
+A qualidade aumenta, quando usada bem. Code review assistida por IA pega bugs que humanos perderiam. Testes gerados automaticamente aumentam cobertura. Refactoring (reescrita estrutural de código sem mudar comportamento) suportado por IA reduz risco em mudanças grandes.
 
 A qualidade diminui, quando usada mal. Devs que aceitam sugestões sem entender produzem bugs sutis. Código gerado por IA, sem revisão, pode ter problemas de segurança, performance, ou licenciamento.
 
-Contratação, e cultura, mudam. O perfil de engineer ideal evolui. Menos "digite rápido". Mais "defina problema bem, revise criticamente, arquiture sistema". O time precisa adaptar expectativas, e processos.
+Contratação e cultura mudam. O perfil de engenheiro ideal evolui. Menos "digite rápido". Mais "defina problema bem, revise criticamente, arquitete sistema". O time precisa adaptar expectativas, e processos.
 
 ### O ESTADO DA ARTE (ABRIL 2026)
 

@@ -12,7 +12,7 @@ appendix: "DQ"
 
 ### O problema de escala continental
 
-O Brasil tem 8,5 milhões de km². É o 5º maior país do mundo em área e o 7º em PIB. Mas sua infraestrutura de transporte e logística não acompanhou essa dimensão.
+Logtech (tecnologia aplicada à logística e cadeia de suprimentos) lida com um problema brasileiro estrutural. O Brasil tem 8,5 milhões de km². É o 5º maior país do mundo em área e o 7º em PIB. Mas sua infraestrutura de transporte e logística não acompanhou essa dimensão.
 
 O custo logístico no Brasil representa entre 12% e 15% do PIB — comparado a cerca de 8% nos EUA e 10% na média da Europa. Essa diferença não é acidental: é estrutural.
 

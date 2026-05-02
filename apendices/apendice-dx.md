@@ -6,7 +6,7 @@ appendix: "DX"
 ## APÊNDICE DX — BRANDING E POSICIONAMENTO DE MARCA PARA STARTUPS
 
 > [!note] Para quem é esse apêndice
-> Founders em estágio pré-seed a Série B que precisam construir marca sem orçamento de marketing de corporação. Cobre desde a decisão de nome até arquitetura de portfólio, passando por identidade verbal, medição e orçamento por estágio.
+> Fundadores em estágio pré-seed a Série B que precisam construir marca sem orçamento de marketing de corporação. Cobre desde a decisão de nome até arquitetura de portfólio, passando por identidade verbal, medição e orçamento por estágio.
 
 > [!important] Uma distinção que salva dinheiro
 > Posicionamento é estratégia: define onde você compete e por que você vence. Identidade é execução: como você aparece visualmente e verbalmente. A maioria das startups faz identidade sem ter posicionamento. Resultado: visual bonito, mensagem vazia.
@@ -15,9 +15,9 @@ appendix: "DX"
 
 ## DX.1 — Marca como Ativo Composto
 
-Brand equity não é gasto, é investimento que acumula juros compostos. Toda vez que um cliente experimenta seu produto, ouve seu nome, vê seu logo, lê sua comunicação, ou fala de você para alguém, uma camada é depositada na conta de brand. Essas camadas se acumulam ao longo de meses e anos. Uma marca forte em ano cinco vale materialmente mais do que a mesma empresa com produto idêntico em marca fraca, porque:
+Brand equity (valor patrimonial da marca) não é gasto, é investimento que acumula juros compostos. Toda vez que um cliente experimenta seu produto, ouve seu nome, vê seu logo, lê sua comunicação, ou fala de você para alguém, uma camada é depositada na conta de marca. Essas camadas se acumulam ao longo de meses e anos. Uma marca forte em ano cinco vale materialmente mais do que a mesma empresa com produto idêntico em marca fraca, porque:
 
-A marca reduz o custo de aquisição de cliente. Quando alguém já ouviu falar de você, o CAC cai. O prospect chega com menos resistência, e o ciclo de vendas é mais curto. Em B2B, isso se traduz em menos reuniões antes do fechamento. Em B2C, em menor dependência de mídia paga.
+A marca reduz o custo de aquisição de cliente. Quando alguém já ouviu falar de você, o CAC (Customer Acquisition Cost — custo de aquisição de cliente) cai. O prospect (potencial cliente) chega com menos resistência, e o ciclo de vendas é mais curto. Em B2B, isso se traduz em menos reuniões antes do fechamento. Em B2C, em menor dependência de mídia paga.
 
 A marca permite precificação premium. Commodities não têm marca. Marcas fortes comandam prêmio de preço. Nubank cobra mais que banco convencional em alguns produtos porque a relação emocional com o cliente justifica. Esse prêmio é diretamente conversível em margem.
 
@@ -25,8 +25,8 @@ A marca atrai talento sem guerra de salário. Engenheiros e designers que querem
 
 A marca cria barreira de imitação. Produto se copia. Marca não. Dois anos de presença consistente em uma categoria criam uma posição mental que um entrante com produto melhor leva tempo para deslocar.
 
-> [!tip] O momento certo para investir em branding
-> Não antes de ter Product-Market Fit mínimo. Não depois de estar perdendo mercado para marca mais forte. O momento certo é quando você tem evidência de que o problema que resolve é real, o segmento-alvo está claro, e você vai usar a marca para amplificar o que já funciona, não para esconder o que não funciona.
+> [!tip] O momento certo para investir em branding (construção de marca)
+> Não antes de ter Product-Market Fit (encaixe entre produto e mercado) mínimo. Não depois de estar perdendo mercado para marca mais forte. O momento certo é quando você tem evidência de que o problema que resolve é real, o segmento-alvo está claro, e você vai usar a marca para amplificar o que já funciona, não para esconder o que não funciona.
 
 ---
 
@@ -36,13 +36,13 @@ Posicionamento é a resposta a três perguntas obrigatórias:
 
 **Para quem:** segmento específico, não "todos que precisam de X". Quanto mais específico o alvo, mais eficiente a mensagem.
 
-**Para que trabalho:** o Job-to-be-Done que você resolve melhor do que qualquer alternativa. Não o feature. O trabalho.
+**Para que trabalho:** o Job-to-be-Done (JTBD — trabalho que o cliente precisa concluir) que você resolve melhor do que qualquer alternativa. Não a funcionalidade. O trabalho.
 
 **Por que você:** o motivo pelo qual você resolve esse trabalho melhor, de forma que seja difícil de copiar no curto prazo.
 
-A declaração de posicionamento clássica (de Geoffrey Moore): "Para [cliente-alvo], que [tem essa necessidade ou oportunidade], [nome do produto] é uma [categoria de produto] que [benefício-chave, razão para comprar]. Diferente de [alternativa primária], nosso produto [diferenciação principal]."
+A declaração de posicionamento clássica (de Geoffrey Moore, autor referência em marketing de tecnologia): "Para [cliente-alvo], que [tem essa necessidade ou oportunidade], [nome do produto] é uma [categoria de produto] que [benefício-chave, razão para comprar]. Diferente de [alternativa primária], nosso produto [diferenciação principal]."
 
-Essa fórmula parece simples. Não é. Cada word choice tem implicações estratégicas. "Para PMEs de tecnologia com time de vendas acima de dez pessoas" é completamente diferente de "Para times de vendas B2B". A especificidade força escolhas.
+Essa fórmula parece simples. Não é. Cada escolha de palavra tem implicações estratégicas. "Para PMEs de tecnologia com time de vendas acima de dez pessoas" é completamente diferente de "Para times de vendas B2B". A especificidade força escolhas.
 
 > [!warning] O erro mais comum de posicionamento
 > Tentar ser para todos ao mesmo tempo. "Nossa plataforma atende desde MEIs até grandes corporações" é uma declaração de posicionamento vazia. Em estágio inicial, quanto mais específico o segmento, maior a chance de dominar aquele nicho antes de expandir. Geoffrey Moore chamou esse ponto de entrada de "beachhead": você não conquista o mercado, você conquista uma praia específica e expande a partir daí.

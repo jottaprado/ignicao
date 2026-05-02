@@ -15,15 +15,15 @@ appendix: "EY"
 
 ### Por que gestão de risco não é só para grandes empresas
 
-A intuição errada mais comum: "gestão de risco é para empresa grande, com muito a perder." A realidade é o oposto. Startups são estruturalmente mais vulneráveis do que empresas estabelecidas, por três razões.
+Gestão de risco (processo estruturado de identificar, avaliar e responder a ameaças) e seguros (transferência de risco financeiro a uma seguradora) parecem temas de empresa grande. Não são. A intuição errada mais comum: "gestão de risco é para empresa grande, com muito a perder." A realidade é o oposto. Startups são estruturalmente mais vulneráveis do que empresas estabelecidas, por três razões.
 
-**Concentração radical.** Uma grande empresa tem dezenas de produtos, centenas de clientes, múltiplos mercados. Uma startup tem um produto (às vezes em fase de validação), poucos clientes, um ou dois mercados. Um evento adverso — uma falha de produto, um cliente que cancela, um fundador que adoece — pode ser fatal.
+**Concentração radical.** Uma grande empresa tem dezenas de produtos, centenas de clientes, múltiplos mercados. Uma startup tem um produto (às vezes em validação), poucos clientes, um ou dois mercados. Um evento adverso — falha de produto, cliente que cancela, fundador que adoece — pode ser fatal.
 
-**Ausência de reservas.** Empresas estabelecidas têm caixa, crédito e capacidade de absorver choques. Startups operam com runway contado em meses. Um litígio de R$ 500K — que seria ruído em uma empresa de R$ 100M — pode encerrar uma startup de R$ 3M.
+**Ausência de reservas.** Empresas estabelecidas têm caixa, crédito e capacidade de absorver choques. Startups operam com runway (meses de caixa restantes) contado em meses. Um litígio de R$ 500K (ruído em uma empresa de R$ 100M) pode encerrar uma startup de R$ 3M.
 
-**Dependência de pessoas específicas.** O CTO que conhece toda a arquitetura. O fundador que é o rosto do produto para os clientes. O vendedor que tem os relacionamentos. Em empresas grandes, a redundância é embutida. Em startups, a saída de uma pessoa pode travar a operação.
+**Dependência de pessoas específicas.** O CTO que conhece toda a arquitetura. O fundador que é o rosto do produto para os clientes. O vendedor que tem os relacionamentos. Em empresas grandes, a redundância está embutida. Em startups, a saída de uma pessoa pode travar a operação.
 
-Gestão de risco para startup não é montar um departamento. É um processo simples — identificar, avaliar, responder, monitorar — executado com regularidade. Ignorar o processo não elimina os riscos; apenas elimina a capacidade de reagir a tempo.
+Gestão de risco para startup não é montar um departamento. É um processo simples — identificar, avaliar, responder, monitorar — executado com regularidade. Ignorar o processo não elimina os riscos. Só elimina a capacidade de reagir a tempo.
 
 ---
 

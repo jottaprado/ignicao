@@ -6,7 +6,7 @@ appendix: "D"
 ## APÊNDICE D — ARMADILHAS MENTAIS E VIESES
 
 > [!note] Como usar esse apêndice
-> Esses são os vieses que mais afetam empreendedores iniciantes. Releia periodicamente. A primeira parte cobre os dez vieses cognitivos mais frequentes. As seções subsequentes são listas de armadilhas específicas por domínio (parcerias, financiamento, marca, founder mode, M&A, sales enterprise, category design, PLG, LGPD, crise) que apontam para os apêndices onde cada tema é tratado em profundidade. Use como checklist de auto-diagnóstico.
+> Esses são os vieses que mais afetam empreendedores iniciantes. Releia periodicamente. A primeira parte cobre os dez vieses cognitivos mais frequentes. As seções seguintes listam armadilhas por domínio (parcerias, financiamento, marca, founder mode, M&A — fusões e aquisições, sales enterprise, category design, PLG — product-led growth, LGPD, crise). Cada lista aponta para o apêndice que aprofunda o tema. Use como checklist de auto-diagnóstico.
 
 Os dez vieses fundamentais que merecem releitura mensal:
 

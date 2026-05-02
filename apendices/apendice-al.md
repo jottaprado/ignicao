@@ -6,25 +6,33 @@ appendix: "AL"
 ## APÊNDICE AL — REDE, MENTORES E ADVISORS — COMO CONSTRUIR O CAPITAL HUMANO DO EMPREENDEDOR
 
 > [!note] Validade
-> Plataformas específicas como LinkedIn, X e comunidades online evoluem em dois ou três anos. Os princípios de networking, mentoria e advisory (reciprocidade, especificidade, construção antes da necessidade) são estáveis ao longo de décadas.
+> Plataformas específicas como LinkedIn, X e comunidades online evoluem em dois ou três anos. Os princípios de networking (rede de relacionamentos), mentoria e advisory (reciprocidade, especificidade, construção antes da necessidade) são estáveis ao longo de décadas.
 
-A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] cobre contratação quando há PMF e processos formais. O [[#APÊNDICE CP — SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|Apêndice CP]] cobre vendas. O [[#APÊNDICE V — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Apêndice V]] cobre captação. Mas antes de qualquer contratação formal, venda estruturada ou rodada de investimento, o fundador iniciante precisa responder a uma pergunta anterior. Como encontro as pessoas certas? Mentores para conselho, advisors para validação, primeiros clientes que acreditam no produto sem track-record, primeiros funcionários que topam o risco, anjos que abrem portas.
+A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] cobre contratação quando há PMF (Product-Market Fit, encaixe entre produto e mercado) e processos formais. O [[#APÊNDICE CP — SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|Apêndice CP]] cobre vendas. O [[#APÊNDICE V — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Apêndice V]] cobre captação. Mas antes de qualquer contratação formal, venda estruturada ou rodada de investimento, o fundador iniciante precisa responder a uma pergunta anterior: como encontro as pessoas certas? Mentores para conselho, advisors (conselheiros formalizados) para validação, primeiros clientes que acreditam no produto sem track-record (histórico comprovado), primeiros funcionários que topam o risco, anjos que abrem portas.
 
 Networking como disciplina estruturada está ausente do manual até aqui. Esse apêndice cobre o que o fundador iniciante raramente é ensinado: como construir rede antes de precisar dela, como acionar a rede quando precisa, e como ser contribuinte líquido na rede em vez de só receptor.
 
 ### O quê
 
-Existem quatro frentes de construção de capital humano. Os mentores são pessoas com experiência relevante que dão conselho periódico. Os advisors são mentores formalizados, tipicamente com equity em troca de compromisso mais estruturado. A warm network é o conjunto de pessoas que conhecem você bem o suficiente para fazer apresentações de qualidade. E a comunidade pública é a presença intencional onde clientes, funcionários e investidores podem encontrar você organicamente.
+Existem quatro frentes de construção de capital humano. Os mentores são pessoas com experiência relevante que dão conselho periódico. Os advisors são mentores formalizados, tipicamente com equity em troca de compromisso mais estruturado. A warm network (rede calorosa) é o conjunto de pessoas que conhecem você bem o suficiente para fazer apresentações de qualidade. E a comunidade pública é a presença intencional onde clientes, funcionários e investidores podem encontrar você organicamente.
 
-Os entregáveis são uma lista de dez a trinta pessoas-chave em evolução, uma cadência de contato documentada, dois a cinco advisors formais com acordo escrito, e uma presença pública modesta mas consistente.
+Os entregáveis são uma lista de dez a trinta pessoas-chave em evolução, uma cadência de contato documentada, dois a cinco advisors formais com acordo escrito e uma presença pública modesta mas consistente.
 
 ### Por quê
 
-Empresa não é construída sozinho. Mesmo com co-fundador brilhante, há decisões em que visão externa qualificada salva meses de erro. A pergunta de como contratar o primeiro funcionário tem resposta: via rede ativa, não via job board. Quase todas as melhores contratações iniciais em startups vêm da rede pessoal do fundador. Os primeiros clientes em B2B vêm de relacionamento, não de marketing. Até um a três milhões de reais de ARR, sales é CEO-driven via rede. Investidores sérios investem em pessoas que conhecem ou que são recomendadas por quem confiam. Cold outreach raramente funciona. Warm intro tem taxa de resposta dez a trinta vezes maior. E o ponto mais importante: construir rede antes de precisar é dez vezes mais eficaz que construir rede quando precisa. Quando você precisa, já é tarde, e o pedido parece oportunista.
+Empresa não se constrói sozinho. Mesmo com co-fundador brilhante, há decisões em que visão externa qualificada salva meses de erro.
+
+A pergunta de como contratar o primeiro funcionário tem resposta: via rede ativa, não via job board (mural de vagas). Quase todas as melhores contratações iniciais em startups vêm da rede pessoal do fundador.
+
+Os primeiros clientes em B2B vêm de relacionamento, não de marketing. Até um a três milhões de reais de ARR (Annual Recurring Revenue, receita recorrente anual), sales é CEO-driven (vendas conduzidas pelo CEO) via rede.
+
+Investidores sérios investem em pessoas que conhecem ou que são recomendadas por quem confiam. Cold outreach (abordagem fria, sem contato prévio) raramente funciona. Warm intro tem taxa de resposta dez a trinta vezes maior.
+
+E o ponto mais importante: construir rede antes de precisar é dez vezes mais eficaz que construir rede quando precisa. Quando você precisa, já é tarde, e o pedido parece oportunista.
 
 ### Quando
 
-Antes da [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]], comece a construir rede se ainda não tem. Nas Fases 0 a 2, identifique mentores específicos e busque os primeiros advisors. Nas Fases 4 a 9, ative a rede para entrevistas, primeiros clientes e feedback de produto. Na [[#FASE 11 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 11]], acione para contratações-chave e warm intros para investidores. Da [[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]] em diante, formalize o advisory board e construa rede global.
+Antes da [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]], comece a construir rede se ainda não tem. Nas Fases 0 a 2, identifique mentores específicos e busque os primeiros advisors. Nas Fases 4 a 9, ative a rede para entrevistas, primeiros clientes e feedback de produto. Na [[#FASE 11 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 11]], acione para contratações-chave e warm intros para investidores. Da [[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]] em diante, formalize o advisory board (conselho consultivo) e construa rede global.
 
 ### Quem
 

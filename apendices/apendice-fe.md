@@ -9,9 +9,9 @@ appendix: "FE"
 
 ---
 
-O empreendedor brasileiro que ignora o Estado como variável estratégica está construindo sobre areia. Não por ideologia, mas por realidade operacional: o setor público regula os mercados mais lucrativos do país, compra bilhões em tecnologia todo ano, financia inovação com dinheiro não-diluidor e, em alguns setores, compete diretamente com startups. Ignorar essa dimensão não é neutralidade — é ingenuidade cara.
+O empreendedor brasileiro que ignora o Estado como variável estratégica está construindo sobre areia. Não por ideologia, mas por realidade operacional. O setor público regula os mercados mais lucrativos do país, compra bilhões em tecnologia todo ano, financia inovação com dinheiro não-diluidor (capital público que não exige cessão de participação societária) e, em alguns setores, compete diretamente com startups. Ignorar essa dimensão não é neutralidade. É ingenuidade cara.
 
-Este apêndice trata de política pública como ferramenta de negócio. Não de política partidária, não de clientelismo, não de atalhos ilegais. Trata de como founders inteligentes leram o ambiente regulatório, influenciaram normas antes que elas fossem escritas, acessaram capital público sem abrir mão de equity e transformaram a complexidade burocrática em vantagem competitiva.
+Este apêndice trata de política pública (public policy — conjunto de normas, programas e ações governamentais que afetam um setor) como ferramenta de negócio. Não de política partidária, não de clientelismo, não de atalhos ilegais. Trata de como founders inteligentes leram o ambiente regulatório, influenciaram normas antes que elas fossem escritas, acessaram capital público sem abrir mão de equity (participação societária) e transformaram a complexidade burocrática em vantagem competitiva.
 
 ---
 
@@ -21,7 +21,7 @@ O Estado brasileiro opera em quatro papéis simultâneos no ecossistema de start
 
 ### O Estado como Regulador
 
-A economia brasileira é uma das mais reguladas do mundo. Qualquer startup que atue em setores de infraestrutura, saúde, financeiro, telecomunicações, transporte ou dados pessoais responde obrigatoriamente a pelo menos uma agência reguladora federal.
+A economia brasileira é uma das mais reguladas do mundo. Qualquer startup que atue em setores de infraestrutura, saúde, financeiro, telecomunicações, transporte ou dados pessoais responde a pelo menos uma agência reguladora federal.
 
 ```text
 AGÊNCIA        SETOR                         STARTUPS AFETADAS
@@ -41,9 +41,9 @@ A regulação não é um obstáculo uniforme. Para setores regulados, ela é o c
 
 ### O Estado como Comprador
 
-O governo federal, estados e municípios somam mais de R$ 800 bilhões em compras públicas por ano. Uma fração minúscula desse volume direcionada a startups representaria mercado suficiente para dezenas de empresas atingirem R$ 10 milhões de ARR sem um único cliente privado.
+O governo federal, estados e municípios somam mais de R$ 800 bilhões em compras públicas por ano. Uma fração minúscula desse volume direcionada a startups representaria mercado suficiente para dezenas de empresas atingirem R$ 10 milhões de ARR (annual recurring revenue — receita recorrente anual) sem um único cliente privado.
 
-O problema histórico era o processo de licitação, projetado para selecionar o fornecedor mais barato de commodities, não o mais inovador para problemas complexos. O Marco Legal das Startups (Lei 182/2021) mudou parte dessa equação — detalharemos na seção 5.
+O problema histórico era o processo de licitação, projetado para selecionar o fornecedor mais barato de commodities, não o mais inovador para problemas complexos. O Marco Legal das Startups (Lei 182/2021) mudou parte dessa equação. Detalharemos na seção 5.
 
 Além das compras diretas, há canais indiretos relevantes:
 

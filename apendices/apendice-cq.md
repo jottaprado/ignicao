@@ -5,9 +5,9 @@ appendix: "CQ"
 
 ## APÊNDICE CQ — MARCA, PR E POSICIONAMENTO DE LONGO PRAZO
 
-Marca é um daqueles temas que founders B2B tendem a subestimar por anos. Até o dia em que precisam vender para uma empresa grande, cujo comprador nunca ouviu falar de você. Ou contratar um executivo sênior, que nunca considerou trabalhar em um lugar que ele não conhece. Ou captar Série C com um fundo, que fez due diligence em toda a trilha digital da sua empresa. Nesse dia, você descobre que marca não era luxo de empresa madura. Era infraestrutura de credibilidade, que deveria ter começado a ser construída três anos antes.
+Marca é um daqueles temas que founders (fundadores) B2B (de venda entre empresas) tendem a subestimar por anos. Até o dia em que precisam vender para uma empresa grande, cujo comprador nunca ouviu falar de você. Ou contratar um executivo sênior, que nunca considerou trabalhar em um lugar que ele não conhece. Ou captar Série C com um fundo, que fez due diligence (auditoria de viabilidade) em toda a trilha digital da sua empresa. Nesse dia, você descobre que marca não era luxo de empresa madura. Era infraestrutura de credibilidade, que deveria ter começado a ser construída três anos antes.
 
-Esse apêndice trata marca em duas camadas. A primeira, marketing de marca, PR, e awareness, é sobre construir presença pública consistente, de forma repetível, ao longo do tempo. É o trabalho que precede, e acompanha, toda venda. A segunda, brand como ativo de longo prazo, é sobre tratar a marca como patrimônio, com valor econômico mensurável, que se constrói por anos, e se destrói em semanas, como qualquer ativo frágil.
+Esse apêndice trata marca em duas camadas. A primeira é marketing de marca, PR (relações públicas) e awareness (reconhecimento de marca). Trata de construir presença pública consistente, de forma repetível, ao longo do tempo. É o trabalho que precede, e acompanha, toda venda. A segunda é brand (marca) como ativo de longo prazo. Trata a marca como patrimônio, com valor econômico mensurável. Se constrói por anos, e se destrói em semanas, como qualquer ativo frágil.
 
 ---
 
@@ -15,7 +15,7 @@ Esse apêndice trata marca em duas camadas. A primeira, marketing de marca, PR, 
 
 #### Por que marca importa, mesmo em B2B
 
-O argumento contra investir em marca em B2B é quase sempre o mesmo. "Meu cliente é racional. Decide por ROI. Não por emoção." O argumento tem mérito parcial, e defeito estrutural. Mérito. Sim, o comprador B2B justifica decisões por números. Defeito. Ele escolhe quem convidar para a conversa com critérios que são, no fundo, emocionais. Confiança. Reputação. Familiaridade. Conforto. Marca é a diferença entre "vou chamar a Stone, e a PagSeguro", e "vou chamar a Stone, a PagSeguro, e uma terceira, que alguém me falou hoje". Se você é a terceira, e o comprador nunca ouviu falar, a conversa nem começa.
+O argumento contra investir em marca em B2B é quase sempre o mesmo. "Meu cliente é racional. Decide por ROI (retorno sobre investimento). Não por emoção." O argumento tem mérito parcial, e defeito estrutural. Mérito. Sim, o comprador B2B justifica decisões por números. Defeito. Ele escolhe quem convidar para a conversa com critérios que são, no fundo, emocionais. Confiança. Reputação. Familiaridade. Conforto. Marca é a diferença entre "vou chamar a Stone, e a PagSeguro", e "vou chamar a Stone, a PagSeguro, e uma terceira, que alguém me falou hoje". Se você é a terceira, e o comprador nunca ouviu falar, a conversa nem começa.
 
 No Brasil, marca em B2B tem peso adicional. As nossas decisões de compra em empresa grande são mais relacionais. Mais baseadas em rede, e confiança. Menos em editais frios. Ter presença, em mídia especializada, em eventos, e em palestra, acelera venda de forma que ROI direto de marketing não captura bem.
 
@@ -85,10 +85,10 @@ Não diferenciar linguagem por persona. Técnico, comprador, e CEO consomem cont
 
 #### Brand é ativo, não despesa
 
-Empresa que vê brand como despesa corta em momento de aperto. Com efeito de curto prazo positivo. E de médio prazo devastador. Cujo valor pode ser destruído em semanas, com decisões erradas. E cujo valor sustenta prêmio de preço, velocidade de vendas, retenção, aquisição de talento, e até valuation em uma captação, ou exit.
+Empresa que vê brand (marca) como despesa corta em momento de aperto. Com efeito de curto prazo positivo. E de médio prazo devastador. O valor da marca pode ser destruído em semanas, com decisões erradas. E sustenta prêmio de preço, velocidade de vendas, retenção, aquisição de talento e até valuation (avaliação da empresa) em captação ou exit (venda da empresa).
 
 > [!important] Brand equity como linha do balanço
-> Em empresas públicas, brand equity é linha mensurável do balanço (goodwill). Em startup, o conceito não entra na contabilidade formal. Mas está lá. E fundos de VC ajustam valuation por brand strength, mesmo sem dizer.
+> Em empresas públicas, brand equity (valor patrimonial da marca) é linha mensurável do balanço (goodwill, ágio). Em startup, o conceito não entra na contabilidade formal. Mas está lá. E fundos de VC ajustam valuation por brand strength (força da marca), mesmo sem dizer.
 
 #### Os elementos de brand que se acumulam no tempo
 

@@ -6,33 +6,33 @@ appendix: "AS"
 ## APÊNDICE AS — COMMUNITY BUILDING COMO DISCIPLINA
 
 > [!note] Nota de validade
-> Plataformas específicas (Slack, Discord, Circle, Mighty Networks, Heartbeat) evoluem rapidamente. Os princípios (reciprocidade, criação de valor antes de extração, moderação deliberada) são estáveis.
+> Plataformas específicas (Slack, Discord, Circle, Mighty Networks, Heartbeat) evoluem rapidamente. Os princípios — reciprocidade, criação de valor antes de extração, moderação deliberada — são estáveis.
 
-Em SaaS moderno, comunidade é simultaneamente canal de aquisição, suporte, advocacy, e fonte de feedback de produto.
+Em SaaS moderno, comunidade é simultaneamente canal de aquisição, suporte, advocacy (defesa espontânea da marca) e fonte de feedback de produto.
 
 ### O que é
 
-Comunidade é grupo estruturado de clientes, usuários, ou pessoas do ICP, conectadas entre si com valor mútuo. Não só com a empresa. A empresa fornece infraestrutura, e estímulo. O valor emerge horizontalmente.
+Comunidade é grupo estruturado de clientes, usuários ou pessoas do ICP (Ideal Customer Profile, perfil de cliente ideal), conectadas entre si com valor mútuo, não só com a empresa. A empresa fornece infraestrutura e estímulo. O valor emerge horizontalmente.
 
-Exemplos brasileiros, e globais. HubSpot Academy, ou Community. Educação, mais networking. Notion HQ, ou Ambassadors. Creators em torno de produto. Lenny's Newsletter Slack. Community de PMs. RD Station, ou RD Community. Event-driven.
+Exemplos brasileiros e globais. HubSpot Academy ou Community: educação mais networking. Notion HQ ou Ambassadors: creators em torno de produto. Lenny's Newsletter Slack: comunidade de PMs (Product Managers, gerentes de produto). RD Station ou RD Community: event-driven (orientada a eventos).
 
 ### POR QUE
 
-Aquisição com baixo CAC. Os membros convidam outros. Recomendação peer-to-peer.
+Aquisição com baixo CAC. Os membros convidam outros. Recomendação peer-to-peer (entre pares).
 
-Suporte peer-to-peer. Os membros respondem uns aos outros. Reduz a carga em CS.
+Suporte peer-to-peer. Os membros respondem uns aos outros, reduzindo a carga em CS (Customer Success).
 
-Advocacy orgânica. Os members se tornam defensores em redes.
+Advocacy orgânica. Os membros se tornam defensores em redes.
 
 Feedback de produto. Canal direto para o que os clientes precisam.
 
-Retenção. Pertencer à comunidade aumenta switching cost.
+Retenção. Pertencer à comunidade aumenta switching cost (custo de troca para concorrente).
 
 ### Quando usar
 
-Pós-PMF. Com base de cem ou mais clientes, ou usuários, engajados. Antes, vira espaço vazio.
+Pós-PMF. Com base de cem ou mais clientes ou usuários engajados. Antes, vira espaço vazio.
 
-ICP que tem afinidade entre si. Profissionais de mesma função. Executivos de setor. Comunidades funcionam quando os ICPs têm interesse mútuo.
+ICP que tem afinidade entre si: profissionais da mesma função, executivos de setor. Comunidades funcionam quando os ICPs têm interesse mútuo.
 
 ### Como executar
 

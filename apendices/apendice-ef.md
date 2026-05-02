@@ -11,9 +11,9 @@ appendix: "EF"
 
 ### 1. Por que o macro importa para startups
 
-Existe uma narrativa sedutora no ecossistema de inovação: a startup está operando num mercado próprio, criando demanda onde não existia, então os ciclos da "velha economia" não se aplicam. Essa ilusão mata empresas.
+Existe uma narrativa sedutora no ecossistema de inovação: a startup opera num mercado próprio, cria demanda onde não existia, então os ciclos da "velha economia" não se aplicam. Essa ilusão mata empresas.
 
-A realidade é que todo negócio brasileiro está exposto ao ambiente macroeconômico de maneira direta e indireta, mesmo que os fundadores não consigam ver as conexões. Os três canais de transmissão mais relevantes são:
+A realidade é que todo negócio brasileiro está exposto ao ambiente macroeconômico de maneira direta e indireta, mesmo quando os fundadores não conseguem ver as conexões. Os três canais de transmissão mais relevantes são:
 
 **Canal 1 — Custo de capital**
 

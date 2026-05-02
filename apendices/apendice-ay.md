@@ -6,13 +6,13 @@ appendix: "AY"
 ## APÊNDICE AY — MARKETING DE PERFORMANCE EM PROFUNDIDADE
 
 > [!note] Aplicabilidade
-> Empresas dependentes de paid ads (Google, Meta, LinkedIn, TikTok) como canal primário ou secundário. Relevante a partir do momento em que há budget dedicado — mesmo que seja R$ 5.000 mensais — e alguém responsável por otimizá-lo.
+> Empresas dependentes de paid ads (anúncios pagos no Google, Meta, LinkedIn, TikTok) como canal primário ou secundário. Relevante a partir do momento em que há budget (orçamento) dedicado — mesmo que seja R$ 5.000 mensais — e alguém responsável por otimizá-lo.
 
 ### O que esse apêndice cobre
 
-Marketing de performance é a disciplina de gerir investimento em mídia paga com rigor quantitativo: estruturação de contas, otimização contínua, atribuição honesta, teste criativo e escalabilidade responsável. Diferente de branding — onde o retorno é indireto, acumulado ao longo de anos — performance é mensurável em janelas curtas e exige tomada de decisão orientada a dados com frequência semanal ou quinzenal.
+Marketing de performance é a disciplina de gerir investimento em mídia paga com rigor quantitativo: estruturação de contas, otimização contínua, atribuição honesta, teste criativo e escalabilidade responsável. Diferente de branding (construção de marca) — onde o retorno é indireto, acumulado ao longo de anos — performance é mensurável em janelas curtas e exige tomada de decisão orientada a dados com frequência semanal ou quinzenal.
 
-Esse apêndice cobre: o que distingue performance de branding, a stack de mídia paga no Brasil, a gestão do CAC por canal, modelos de atribuição, o papel do criativo como variável principal, diferenças entre B2B e B2C, e as principais armadilhas métricas.
+Esse apêndice cobre: o que distingue performance de branding, a stack de mídia paga no Brasil, a gestão do CAC (custo de aquisição de cliente) por canal, modelos de atribuição, o papel do criativo como variável principal, diferenças entre B2B e B2C, e as principais armadilhas métricas.
 
 ---
 
@@ -22,11 +22,11 @@ Marketing de performance tem três características que o distinguem.
 
 **Mensurabilidade direta.** Cada real investido pode ser rastreado até uma ação mensurável: clique, lead, cadastro, compra. O vínculo entre investimento e resultado é explícito — ou deve ser.
 
-**Otimização em tempo quase real.** Campanhas de performance são ajustadas semanalmente, às vezes diariamente. Criativos que não performam são pausados. Audiências que não convertem são excluídas. Budget é realocado para o que funciona.
+**Otimização em tempo quase real.** Campanhas de performance são ajustadas semanalmente, às vezes diariamente. Criativos que não performam são pausados. Audiências que não convertem são excluídas. O budget é realocado para o que funciona.
 
-**Métricas financeiras como critério de sucesso.** O critério não é alcance, não é impressões, não é "brand awareness". É CPA (custo por aquisição), CAC (custo de aquisição de cliente), ROAS (return on ad spend) ou MER (marketing efficiency ratio).
+**Métricas financeiras como critério de sucesso.** O critério não é alcance, não é impressões, não é "brand awareness" (reconhecimento de marca). É CPA (Cost Per Action, custo por aquisição), CAC (custo de aquisição de cliente), ROAS (Return on Ad Spend, retorno sobre o investimento em anúncios) ou MER (Marketing Efficiency Ratio, razão de eficiência de marketing).
 
-Branding e performance não são opostos. São complementares e interdependentes. Uma marca forte reduz o CAC de performance ao longo do tempo porque aumenta a taxa de conversão em toda a cadeia. Empresa que só faz performance sem construir marca percebe o CAC subindo de forma inexorável à medida que escala — porque depende cada vez mais de conquistar audiências frias, sem o benefício do reconhecimento acumulado.
+Branding e performance não são opostos. São complementares e interdependentes. Uma marca forte reduz o CAC de performance ao longo do tempo, porque aumenta a taxa de conversão em toda a cadeia. Empresa que só faz performance sem construir marca percebe o CAC subindo de forma inexorável à medida que escala — porque depende cada vez mais de conquistar audiências frias, sem o benefício do reconhecimento acumulado.
 
 > [!important] O erro clássico em startup early-stage
 > Focar 100% em performance e ignorar branding por "não ser mensurável" funciona até o Seed. Na Série A, quando o CAC começa a subir com a escala do budget, a empresa não tem fundação de marca que reduza o atrito. Resultado: ROAS declinante sem alavanca para reverter.

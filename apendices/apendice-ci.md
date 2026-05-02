@@ -7,7 +7,7 @@ appendix: "CI"
 
 ### O QUE É
 
-Equity crowdfunding é a modalidade de captação de recursos em que uma empresa vende participação societária (equity), ou instrumentos conversíveis em equity, para um número grande de investidores. Tipicamente centenas, ou milhares. Em um único movimento. Através de plataforma regulamentada. Diferente de captação privada via VCs (poucos investidores, tickets grandes, e negociação bilateral), equity crowdfunding é captação pública (embora restrita em montante, e alcance), com divulgação padronizada, tickets pequenos (R$ 1 mil a R$ 100 mil por investidor), e processo conduzido por plataforma intermediária.
+Equity crowdfunding (financiamento coletivo via venda de participação societária) é a modalidade de captação de recursos em que uma empresa vende equity (participação societária), ou instrumentos conversíveis em equity, para um número grande de investidores. Tipicamente centenas, ou milhares. Em um único movimento. Através de plataforma regulamentada. Diferente de captação privada via VCs (venture capitalists, com poucos investidores, tickets grandes, e negociação bilateral), equity crowdfunding é captação pública (embora restrita em montante, e alcance). Tem divulgação padronizada, tickets pequenos (R$ 1 mil a R$ 100 mil por investidor), e processo conduzido por plataforma intermediária.
 
 > [!note] Regulação atual no Brasil
 > No Brasil, equity crowdfunding é regulado pela Resolução CVM 88, de 2022 (que substituiu a Instrução CVM 588, de 2017). A regulação define teto de captação (atualmente R$ 15 milhões por empresa por doze meses), plataformas autorizadas (registradas na CVM), regras de disclosure, limites de investimento por pessoa física (baseados em renda, ou patrimônio), governança, e obrigações pós-captação.
@@ -18,14 +18,14 @@ Principais plataformas brasileiras em 2026. Kria (ex-EqSeed), CapTable, StartMeU
 
 Equity crowdfunding ganhou tração em Brasil para três tipos de situação.
 
-**1. Empresas fora do radar de VC.** Negócios de economia real (alimentação, pequena indústria, varejo, e hospitalidade). SaaS verticais B2B com TAM pequeno. Empresas regionais. Frequentemente não são "tese" para VCs institucionais. Mas têm modelo viável, e podem captar R$ 2 milhões a R$ 10 milhões com 200 a 1.500 investidores pessoa física.
+**1. Empresas fora do radar de VC.** Negócios de economia real (alimentação, pequena indústria, varejo, e hospitalidade). SaaS verticais B2B com TAM (*total addressable market*, mercado endereçável total) pequeno. Empresas regionais. Frequentemente não são "tese" para VCs institucionais. Mas têm modelo viável, e podem captar R$ 2 milhões a R$ 10 milhões com 200 a 1.500 investidores pessoa física.
 
-**2. Bridge antes de Série A.** Startup com tração inicial (R$ 1 milhão a R$ 5 milhões ARR), que ainda não é robusta o suficiente para fechar Série A. Mas precisa de capital. Crowdfunding permite captar R$ 3 milhões a R$ 8 milhões, sem o padrão alto de due diligence de VCs institucionais.
+**2. Bridge antes de Série A.** Startup com tração inicial (R$ 1 milhão a R$ 5 milhões de ARR, *annual recurring revenue*, receita recorrente anual). Ainda não é robusta o suficiente para fechar Série A. Mas precisa de capital. Crowdfunding permite captar R$ 3 milhões a R$ 8 milhões, sem o padrão alto de due diligence (auditoria pré-investimento) de VCs institucionais.
 
-**3. Captação com narrativa de comunidade.** Marcas com base de usuários, ou fãs (clubes de futebol, ventures de impacto social, ou produtos D2C com base leal). Crowdfunding vira ferramenta de engajamento além de capital. Investidor vira embaixador.
+**3. Captação com narrativa de comunidade.** Marcas com base de usuários, ou fãs (clubes de futebol, ventures de impacto social, ou produtos D2C, *direct-to-consumer*, com base leal). Crowdfunding vira ferramenta de engajamento além de capital. Investidor vira embaixador.
 
 > [!warning] Quando não serve
-> Equity crowdfunding não serve para captações pós-Série A onde termos estruturados são necessários. Negócios complexos que exigem diligência profunda. Fundadores que não querem trezentos ou mais sócios no cap table. Empresas com estrutura Delaware, ou Cayman pré-existente (crowdfunding BR requer entidade BR).
+> Equity crowdfunding não serve para quatro situações. Captações pós-Série A onde termos estruturados são necessários. Negócios complexos que exigem diligência profunda. Fundadores que não querem trezentos ou mais sócios no cap table (tabela societária, lista de quem detém quanto da empresa). Empresas com estrutura Delaware, ou Cayman pré-existente (crowdfunding BR requer entidade BR).
 
 ### QUANDO CONSIDERAR
 

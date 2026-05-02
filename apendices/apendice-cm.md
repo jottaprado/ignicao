@@ -7,25 +7,25 @@ appendix: "CM"
 
 ### O QUE É E POR QUE IMPORTA
 
-Empreender em saúde é jogar um jogo diferente. Os ciclos são mais longos. O capital é mais pesado. A regulação é parte do produto (não obstáculo externo). E a prova de valor exige evidência clínica. Esse apêndice cobre quatro subcategorias, cada uma com particularidades: healthtech (software ou serviço — prontuário eletrônico, telemedicina, operadora, gestão, IA diagnóstica, dispositivos conectados), medtech (equipamentos, wearables clínicos, implantes, kits de diagnóstico), biotech/farma (moléculas, terapias, biotecnologia de ponta) e diagnóstico (laboratórios, testes genéticos, imagens).
+Empreender em saúde é jogar um jogo diferente. Os ciclos são mais longos. O capital é mais pesado. A regulação é parte do produto (não obstáculo externo). E a prova de valor exige evidência clínica. Esse apêndice cobre quatro subcategorias, cada uma com particularidades. Healthtech (saúde digital — software ou serviço como prontuário eletrônico, telemedicina, operadora, gestão, IA diagnóstica, dispositivos conectados). Medtech (tecnologia médica — equipamentos, wearables clínicos ou dispositivos vestíveis, implantes, kits de diagnóstico). Biotech ou farma (biotecnologia — moléculas, terapias, biotecnologia de ponta). E diagnóstico (laboratórios, testes genéticos, imagens).
 
-Saúde é 9–10% do PIB global (Brasil: cerca de 9,6%). Barreiras regulatórias altas criam moats reais. Outcomes importam literalmente: vidas, não métricas. Ciclos de 3–10+ anos exigem capital paciente — startups de sucesso (Dasa, Fleury, Hapvida, Alice, Sami, Dr. Consulta) levaram décadas ou foram construídas sobre empresas existentes.
+Saúde representa 9 a 10% do PIB global (no Brasil, cerca de 9,6%). Barreiras regulatórias altas criam moats (fossos competitivos defensáveis) reais. Os outcomes (resultados em saúde do paciente) importam literalmente. Vidas, não métricas. Ciclos de três a dez ou mais anos exigem capital paciente. Startups de sucesso como Dasa, Fleury, Hapvida, Alice, Sami e Dr. Consulta levaram décadas ou foram construídas sobre empresas existentes.
 
 > [!warning] Erros de execução em saúde
 > Têm custo moral, e criminal. Não só comercial.
 
 ### QUANDO CONSIDERAR
 
-Você precisa ter ao menos um dos seguintes. Founder médico, ou cientista, com expertise técnica profunda. Acesso a hospital, operadora, ou centro acadêmico, para validação. Capital paciente (anjos, e VCs de saúde, ou seed com runway de vinte e quatro ou mais meses para primeira fase). Network regulatório (ex-ANVISA, consultores regulatórios, e advogados especializados).
+Você precisa ter ao menos um dos seguintes. Founder (fundador) médico, ou cientista, com expertise técnica profunda. Acesso a hospital, operadora, ou centro acadêmico, para validação. Capital paciente (anjos e VCs de saúde, ou seed com runway de vinte e quatro ou mais meses para a primeira fase). Network regulatório (rede de contatos como ex-ANVISA, consultores regulatórios e advogados especializados).
 
 > [!important] Se não tem nenhum
 > Se não tem nenhum, é altamente provável que você subestime o desafio. Não é impossível. Mas risco de naufrágio é alto.
 
 ### Quem envolve
 
-**Cofundadores típicos.** Médico, ou cientista. Dá legitimidade. Abre portas. Entende clínica. Tech, ou produto. Traduz ciência em software, ou dispositivo. Regulatório, ou business. Navega ANVISA, FDA, capital, e parcerias.
+**Cofundadores típicos.** Médico, ou cientista. Dá legitimidade. Abre portas. Entende clínica. Tech (tecnologia) ou produto. Traduz ciência em software, ou dispositivo. Regulatório, ou business (negócios). Navega ANVISA, FDA, capital, e parcerias.
 
-**Contratações críticas cedo.** Medical Director, ou Chief Medical Officer (CMO). Médico sênior responsável por decisões clínicas. Obrigatório em vários contextos (telemedicina, e dispositivos). Em farma, dirige ensaios. Regulatory Affairs lead. Especialista ANVISA, FDA, ou CE Mark. Pode ser consultor terceirizado no início. Quality Assurance (QA), ou QMS lead. Gestor de sistema de qualidade (obrigatório ISO 13485 para dispositivos. BPF para farma). Clinical Operations. Gerencia ensaios, sites, e protocolos. Biostatistics. Estatístico clínico para desenho, e análise de estudos.
+**Contratações críticas cedo.** Medical Director (diretor médico), ou Chief Medical Officer (CMO). Médico sênior responsável por decisões clínicas. Obrigatório em vários contextos (telemedicina, e dispositivos). Em farma, dirige ensaios. Regulatory Affairs lead (líder de assuntos regulatórios). Especialista ANVISA, FDA, ou CE Mark. Pode ser consultor terceirizado no início. Quality Assurance (QA, garantia de qualidade), ou QMS lead. Gestor de sistema de qualidade (obrigatório ISO 13485 para dispositivos. BPF para farma). Clinical Operations (operações clínicas). Gerencia ensaios, sites, e protocolos. Biostatistics (bioestatística). Estatístico clínico para desenho, e análise de estudos.
 
 ### COMO NAVEGAR REGULAÇÃO
 

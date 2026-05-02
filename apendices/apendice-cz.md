@@ -6,10 +6,10 @@ appendix: "CZ"
 ## APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO
 
 > [!note] Como usar
-> Este apêndice trata em profundidade vinte canvases que aparecem ao longo do livro como ferramentas convocadas em fases específicas. Cada canvas vem com origem histórica, estrutura visual, princípios, instruções de aplicação, exemplo brasileiro preenchido, variações, erros comuns, limites e leitura adicional. A ordem é didática (do mais geral ao mais específico), não a ordem de uso na trajetória. Para saber qual canvas usar em qual fase, veja a tabela de mapeamento ao final desta abertura.
+> Este apêndice trata em profundidade vinte canvases (telas visuais de uma página para mapear ideias) que aparecem ao longo do livro como ferramentas convocadas em fases específicas. Cada canvas vem com origem histórica, estrutura visual, princípios, instruções de aplicação, exemplo brasileiro preenchido, variações, erros comuns, limites e leitura adicional. A ordem é didática (do mais geral ao mais específico), não a ordem de uso na trajetória. Para saber qual canvas usar em qual fase, veja a tabela de mapeamento ao final desta abertura.
 
 > [!important] Por que canvases merecem apêndice próprio
-> Canvas é categoria distinta de framework. Framework é raciocínio (Five Forces, JTBD, AARRR). Canvas é **representação visual de uma página** que força colaboração e expõe inconsistências. A maioria dos canvases neste apêndice nasceu da escola de design thinking aplicada a estratégia (Strategyzer, IDEO, XPLANE) entre 2005 e 2020. Compartilham três traços: (1) cabem em uma folha A3 ou parede; (2) preenchimento é colaborativo, não solo; (3) revelam onde o pensamento ainda está vago. Tratá-los apenas como sub-itens do ferramentário (BG) não capturava nem a teoria nem a prática brasileira.
+> Canvas é categoria distinta de framework (modelo de raciocínio). Framework é raciocínio (Five Forces, JTBD, AARRR). Canvas é **representação visual de uma página** que força colaboração e expõe inconsistências. A maioria dos canvases neste apêndice nasceu da escola de design thinking (pensamento de design) aplicada a estratégia (Strategyzer, IDEO, XPLANE) entre 2005 e 2020. Compartilham três traços. (1) Cabem em uma folha A3 ou parede. (2) Preenchimento é colaborativo, não solo. (3) Revelam onde o pensamento ainda está vago. Tratá-los apenas como sub-itens do ferramentário (BG) não capturava nem a teoria nem a prática brasileira.
 
 ### Mapa de uso por fase
 

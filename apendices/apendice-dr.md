@@ -8,25 +8,25 @@ appendix: "DR"
 > [!note] Nota de validade
 > As estruturas de DRE, Balanço, e DFC descritas aqui seguem as normas contábeis brasileiras (CPC/IFRS). Limites e alíquotas do Simples Nacional são revisados anualmente pela Receita Federal. Benchmarks de margem por segmento variam com o ciclo econômico. Este apêndice reflete o cenário de abril de 2026. Revisar anualmente com o contador responsável.
 
-O [[apendice-an|Apêndice AN]] cobre como construir um modelo financeiro a partir de drivers operacionais. O [[apendice-ec|Apêndice EC]] cobre como transformar esse modelo em orçamento aprovado pelo board. Este apêndice cobre o que acontece antes disso: a capacidade de ler o que já aconteceu. Demonstrativos financeiros são o registro histórico da empresa. Fundador que não sabe ler esse registro governa no escuro.
+O [[apendice-an|Apêndice AN]] cobre como construir um modelo financeiro a partir de drivers (variáveis-chave) operacionais. O [[apendice-ec|Apêndice EC]] cobre como transformar esse modelo em orçamento aprovado pelo board (conselho). Este apêndice cobre o que acontece antes disso: a capacidade de ler o que já aconteceu. Demonstrações financeiras são o registro histórico da empresa. Fundador que não sabe ler esse registro governa no escuro.
 
 ### O que esse apêndice cobre
 
-Três demonstrativos que toda empresa produz, e como eles se conectam.
+Três demonstrações que toda empresa produz, e como elas se conectam.
 
 1. DRE — Demonstração do Resultado do Exercício. A fotografia do que a empresa ganhou e gastou em um período.
 2. Balanço Patrimonial. A fotografia do que a empresa tem e deve em uma data específica.
 3. DFC — Demonstração de Fluxo de Caixa. O filme de como o dinheiro entrou e saiu.
 
-Mais: a diferença entre lucro e caixa, EBITDA, margens críticas, capital de giro, sinais de alerta, e como ler demonstrativos de concorrentes abertos na B3.
+Mais: a diferença entre lucro e caixa, EBITDA (lucro antes de juros, impostos, depreciação e amortização), margens críticas, capital de giro, sinais de alerta, e como ler demonstrações de concorrentes abertos na B3.
 
 ### Por que o fundador precisa ler, não delegar
 
-O contador produz os demonstrativos. O fundador precisa interpretá-los.
+O contador produz as demonstrações. O fundador precisa interpretá-las.
 
-Delegar a leitura ao contador cria três problemas. Primeiro, o contador responde perguntas feitas, não perguntas que o fundador não sabe que deveria fazer. Segundo, a interpretação estratégica dos números cabe a quem conhece o negócio — o contador conhece normas contábeis. Terceiro, em reunião de board ou conversa com investidor, o fundador que não sabe explicar sua própria DRE perde credibilidade rapidamente.
+Delegar a leitura ao contador cria três problemas. Primeiro, o contador responde perguntas feitas, não perguntas que o fundador não sabe que deveria fazer. Segundo, a interpretação estratégica dos números cabe a quem conhece o negócio. O contador conhece normas contábeis. Terceiro, em reunião de board (conselho) ou conversa com investidor, o fundador que não sabe explicar sua própria DRE perde credibilidade rapidamente.
 
-Leitura de demonstrativos não é habilidade de CFO. É habilidade básica de fundador. O CFO a aprofunda. O fundador a usa.
+Leitura de demonstrativos não é habilidade de CFO (Chief Financial Officer — diretor financeiro). É habilidade básica de fundador. O CFO a aprofunda. O fundador a usa.
 
 > [!important] O número que o contador relata e o número que importa para decisão podem ser diferentes
 > DRE fiscal é produzida para a Receita Federal. DRE gerencial é produzida para decisão interna. Em empresas no Simples Nacional, as duas divergem significativamente. Ver seção sobre contexto brasileiro ao final deste apêndice.

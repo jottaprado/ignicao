@@ -10,13 +10,13 @@ appendix: "BF"
 
 ### O que esse apêndice cobre
 
-Dinâmica de empreender segunda vez. Diferente de primeira porque o fundador tem recursos, rede, cicatrizes, e armadilhas próprias.
+A dinâmica de empreender pela segunda vez. Diferente da primeira porque o fundador tem recursos, rede, cicatrizes, e armadilhas próprias.
 
 ### POR QUE
 
-Second-time founders têm taxa de sucesso maior em média. Mas não automática.
+Second-time founders (fundadores em segunda empreitada) têm taxa de sucesso maior em média. Mas não automática.
 
-Há armadilhas específicas que first-time founders não têm.
+Há armadilhas específicas que first-time founders (fundadores de primeira viagem) não têm.
 
 Vantagens. Rede, capital próprio, credibilidade com investidores, e aprendizado.
 

@@ -15,7 +15,7 @@ appendix: "DJ"
 
 ### O estado atual da não-concorrência no Brasil
 
-Diferente dos EUA (onde estados como Califórnia proíbem completamente a non-compete) ou da Europa (onde regulação específica existe), o Brasil não tem lei explícita sobre não-concorrência pós-emprego. O que existe é um equilíbrio tenso entre:
+Diferente dos EUA (onde estados como Califórnia proíbem por completo a non-compete — cláusula de não-concorrência) ou da Europa (onde existe regulação específica), o Brasil não tem lei explícita sobre não-concorrência pós-emprego. O que existe é um equilíbrio tenso entre:
 
 - **Art. 5º, XIII da Constituição Federal:** livre exercício de trabalho, ofício ou profissão
 - **Art. 421 do Código Civil:** liberdade contratual limitada pela boa-fé e função social

@@ -5,7 +5,7 @@ appendix: "CT"
 
 ## APÊNDICE CT — IA COMO CO-PILOTO DO FUNDADOR (2026)
 
-Esse apêndice é versão atualizada (abril de 2026) do [[#APÊNDICE I — IA GENERATIVA COMO ACELERADOR DO EMPREENDEDOR (2026)|Apêndice I]] original, que tratava de IA como acelerador. O estado da arte em ferramentas de IA para uso do fundador evoluiu significativamente entre 2023 e 2026. E algumas práticas que faziam sentido em 2023 são obsoletas em 2026. Enquanto novas capacidades surgiram.
+Esse apêndice é versão atualizada (abril de 2026) do [[#APÊNDICE I — IA GENERATIVA COMO ACELERADOR DO EMPREENDEDOR (2026)|Apêndice I]] original, que tratava de IA como acelerador. O estado da arte em ferramentas de IA para uso do fundador evoluiu significativamente entre 2023 e 2026. Algumas práticas que faziam sentido em 2023 são obsoletas em 2026. Enquanto novas capacidades surgiram.
 
 Essa seção trata de como o fundador usa IA no dia-a-dia. Não IA embarcada no produto (isso é o [[#APÊNDICE Z — AI COMO PARTE DO PRODUTO (AI-NATIVE PRODUCT)|Apêndice Z]]). Mas IA como ferramenta pessoal de produtividade do empreendedor.
 
@@ -16,7 +16,7 @@ Em 2026, a IA deixou de ser novidade opcional, e virou ferramenta básica espera
 > [!important] Fundador em 2026 sem IA
 > Fundador em 2026 que não usa IA no dia-a-dia opera como alguém que em 2010 não usava Google. Tecnicamente possível. Praticamente incompetente. A questão não é *se* usar. Mas *como* usar bem.
 
-Três modelos dominam 2026 para uso de fundador. Claude (Anthropic). ChatGPT (OpenAI). E Gemini (Google). Cada um com pontos fortes diferentes. A prática mais comum é usar dois a três modelos em paralelo. Comparando resultados para tarefas importantes. Diferenças. Claude costuma ser preferido para escrita longa, e raciocínio crítico. ChatGPT, para tarefas rápidas, e uso via APIs. Gemini, para integração com ecossistema Google (Workspace, Gmail, e Drive).
+Três modelos dominam 2026 para uso de fundador. Claude (Anthropic). ChatGPT (OpenAI). E Gemini (Google). Cada um com pontos fortes diferentes. A prática mais comum é usar dois a três modelos em paralelo. Comparando resultados para tarefas importantes. Diferenças. Claude costuma ser preferido para escrita longa, e raciocínio crítico. ChatGPT, para tarefas rápidas, e uso via APIs (interfaces de programação). Gemini, para integração com ecossistema Google (Workspace, Gmail, e Drive).
 
 ### Casos de uso de alto ROI para o fundador
 
