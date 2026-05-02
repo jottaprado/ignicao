@@ -73,7 +73,7 @@ Você provavelmente não deveria empreender agora se:
 
 8. Você está no meio de uma trajetória profissional que estava dando certo. Promoção recente, aumento significativo, caminho de liderança em empresa consolidada. Nunca vai ser o "bom momento" de sair do emprego, mas em trajetória ascendente alta o custo de oportunidade é enorme. Isso não significa que você não pode empreender. Significa que você precisa fazer o cálculo com clareza. Quanto está deixando? O que vai buscar? Decisão com olhos abertos, não impulso.
 
-9. Você tem condição de saúde mental não-tratada. Depressão, ansiedade severa, transtornos específicos sem acompanhamento. A trajetória empreendedora agrava saúde mental frágil. Não é remédio. Trate primeiro. O [[#APÊNDICE Y — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Apêndice Y]] detalha.
+9. Você tem condição de saúde mental não-tratada. Depressão, ansiedade severa, transtornos específicos sem acompanhamento. A trajetória empreendedora agrava saúde mental frágil. Não é remédio. Trate primeiro. O [[#APÊNDICE Y — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Apêndice Y]] detalha o impacto da rotina empreendedora em ansiedade e depressão, avaliação inicial, e quando buscar ajuda profissional antes de empreender.
 
 10. Você quer empreender porque odeia seu emprego atual. Fugir de algo é diferente de ir em direção a algo. Frequentemente a trajetória empreendedora fica mais difícil que o emprego ruim. Resolva o trabalho primeiro. Depois empreenda por motivo positivo, não evasivo.
 
@@ -444,7 +444,7 @@ Você concluiu a [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]] quando os o
 
 1. O Dossiê Pessoal está escrito, com runway pessoal acima do mínimo para o seu modelo de dedicação, data marcada para reavaliação formal, e rede de apoio íntima consultada e respondendo (mesmo com ressalvas).
 2. O texto de "por que empreender" existe, tem entre quinhentas e mil e quinhentas palavras, e foi reescrito ao menos duas vezes.
-3. Lista de três advisors informais existe, com nomes reais, não cargos genéricos. O [[#APÊNDICE AL — REDE, MENTORES E ADVISORS|Apêndice AL]] detalha como estruturar e ativar essa rede desde o estágio zero.
+3. Lista de três advisors informais existe, com nomes reais, não cargos genéricos. Critérios para escolher advisors, perguntas de qualificação, e como remunerar (contrato FAST, equity de 0,1% a 1%) em [[#APÊNDICE AL — REDE, MENTORES E ADVISORS|Apêndice AL]].
 4. Conversa explícita com a pessoa afetada mais próxima aconteceu, e está documentada em um parágrafo.
 5. Conversa com pelo menos um fundador com exit, e pelo menos um com falha, aconteceu nos últimos trinta dias.
 6. "Fit diferencial" está escrito em um parágrafo, com verbos concretos, não adjetivos.
