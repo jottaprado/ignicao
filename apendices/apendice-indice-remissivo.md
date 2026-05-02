@@ -28,13 +28,13 @@ type: reference
 - **Board (composição, governança)**: [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]], [[#APÊNDICE CF — PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO|Apêndice CF]]
 - **Bootstrap vs VC**: Apêndice dedicado (Parte II). [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]]
 - **Burn Multiple**: BG.18.4
-- **Business Model Canvas (BMC)**: BG.2.9, template preenchido A.20 (Nubank)
+- **Business Model Canvas (BMC)**: [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|CZ.1]] (teoria, princípios, exemplo Nubank 2014)
 
 ### C
 
 - **CAC (Customer Acquisition Cost)**: BG.18, [[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]], [[#APÊNDICE AN — MODELAGEM FINANCEIRA OPERACIONAL|Apêndice AN]]
 - **CADE / Ato de Concentração (M&A)**: [[apendice-er|Apêndice ER — CADE e Antitruste]], [[#FASE 16 — EXIT STRATEGY|Fase 16]]
-- **Canvas (vários)**: BMC BG.2.9. Lean Canvas BG.2.10. VPC BG.10.10
+- **Canvas (vários)**: [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Apêndice CZ]] consolida 20 canvases (BMC em CZ.1, Lean Canvas em CZ.2, VPC em CZ.3, Strategy Canvas em CZ.4, e outros)
 - **Cap Table**: [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]], [[#APÊNDICE CF — PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO|Apêndice CF]]
 - **Capital de giro / CCC (ciclo de conversão de caixa)**: [[apendice-ez|Apêndice EZ — Capital de Giro]]
 - **Captação (processo completo)**: [[#APÊNDICE V — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Apêndice V]]
@@ -131,7 +131,7 @@ type: reference
 ### L
 
 - **Launch (playbook de lançamento)**: [[#FASE 10 — MVP E EXPERIMENTOS DE MERCADO|Fase 10]] (seção dedicada)
-- **Lean Canvas**: BG.2.10, template preenchido A.21 (QuintoAndar)
+- **Lean Canvas**: [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|CZ.2]] (teoria, princípios, exemplo QuintoAndar 2015)
 - **Lean Startup (BML Loop)**: BG.10.13
 - **LGPD (proteção de dados)**: [[#APÊNDICE CV — SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA|Apêndice CV]], vários
 - **Liderança**: BG.17 inteiro
@@ -179,7 +179,7 @@ type: reference
 - **Pricing psicológico BR**: [[apendice-ff|Apêndice FF — Psicologia do Consumidor]]
 - **Priorização (RICE, ICE)**: BG.11.3, BG.11.4
 - **Processo de produto**: BG.10. [[#APÊNDICE AB — PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA|Apêndice AB]]
-- **Proposta de valor**: BG.10.10 (VPC). [[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]], [[#FASE 6 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 6]]
+- **Proposta de valor**: [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|CZ.3]] (Value Proposition Canvas). [[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]], [[#FASE 6 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 6]]
 
 ### Q
 
@@ -235,7 +235,7 @@ type: reference
 
 - **Validação de problema**: [[#FASE 7 — EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA|Fase 7]]
 - **Valuation**: BG.18.9, BG.18.10. [[#APÊNDICE V — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Apêndice V]]
-- **Value Proposition Canvas (VPC)**: BG.10.10, template A.22 (Wellhub)
+- **Value Proposition Canvas (VPC)**: [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|CZ.3]] (teoria, princípios, exemplo Wellhub 2016)
 - **Venture Capital**: [[#APÊNDICE V — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Apêndice V]]. Apêndice Bootstrap vs VC
 - **Véu societário / desconsideração da personalidade jurídica**: [[apendice-ep|Apêndice EP — Responsabilidade do Sócio]]
 - **Vesting**: [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]], [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]]

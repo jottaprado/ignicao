@@ -922,9 +922,9 @@ Esta tabela resume as técnicas de coleta de evidência mais usadas no manual, o
 
 Essa distinção importa operacionalmente: falhar na **Problem validation** exige pivotar de ICP ou problema (volta à [[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]]). Falhar na **Offer validation** pode significar que o problema está certo mas a proposta de valor ou o preço estão errados (volta à [[#FASE 6 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 6]] ou 7). Falhar na **Solution validation** sugere que o problema e a oferta estão ok, mas a execução da solução não, iterar dentro da [[#FASE 9 — TESTES DE SOLUÇÃO E USABILIDADE|Fase 9]]-9 costuma bastar. Saber qual das três está quebrando muda a decisão de pivot vs. iterate.
 
-### A.13 Matriz de Parcerias ([[#APÊNDICE CX — CANAIS INDIRETOS E PARCERIAS: PARCERIAS, FRANQUIAS, CHANNEL|Apêndice CX]])
+### A.13 Matriz de Parcerias
 
-Documento único para gestão de pipeline de parcerias. Atualizar mensalmente.
+Documento único para gestão de pipeline de parcerias. Atualizar mensalmente. Teoria, critérios de qualificação e tipologia de parcerias em [[#APÊNDICE CX — CANAIS INDIRETOS E PARCERIAS: PARCERIAS, FRANQUIAS, CHANNEL|Apêndice CX]].
 
 | # | Parceiro | Tipo (1-5) | Estágio | Métrica sucesso 90d | Sponsor do lado deles | Sponsor nosso | Próximo passo | Data próximo passo | Status |
 |---|---|---|---|---|---|---|---|---|---|
@@ -932,9 +932,9 @@ Documento único para gestão de pipeline de parcerias. Atualizar mensalmente.
 
 Preencher com 5-15 parcerias ativamente em movimento. Parcerias em "standby há 2+ trimestres" devem ser encerradas formalmente ou reativadas, não deixar zumbis.
 
-### A.14 Plano de Financiamento Não-Diluitivo ([[#APÊNDICE P — FINANCIAMENTO NÃO-DILUITIVO|Apêndice P]])
+### A.14 Plano de Financiamento Não-Diluitivo
 
-Documento de 2-3 páginas, revisão semestral.
+Documento de 2-3 páginas, revisão semestral. Tipologia das fontes (Lei do Bem, Finep, BNDES, FAPESP, Venture Debt, RBF), critérios de elegibilidade e ordem de ataque em [[#APÊNDICE P — FINANCIAMENTO NÃO-DILUITIVO|Apêndice P]].
 
 **Necessidade de caixa nos próximos 18 meses:**
 
@@ -969,9 +969,9 @@ Documento de 2-3 páginas, revisão semestral.
 2. _____
 3. _____
 
-### A.15 Plano de Marca e PR ([[#APÊNDICE CQ — MARCA, PR E POSICIONAMENTO DE LONGO PRAZO|Apêndice CQ]])
+### A.15 Plano de Marca e PR
 
-Documento vivo de 4-6 páginas, revisão trimestral.
+Documento vivo de 4-6 páginas, revisão trimestral. Princípios de posicionamento de longo prazo, narrativa, calendário editorial e gestão de imprensa em [[#APÊNDICE CQ — MARCA, PR E POSICIONAMENTO DE LONGO PRAZO|Apêndice CQ]].
 
 **Narrativa Oficial (uma página):**
 
@@ -1011,9 +1011,9 @@ Documento vivo de 4-6 páginas, revisão trimestral.
 - Pipeline atribuído a marca/referência: _____
 - NPS: _____
 
-### A.16 Mapa de Modos — Founder Mode vs Manager Mode ([[#APÊNDICE R — FOUNDER MODE, DELEGAÇÃO E QUANDO PARAR DE FAZER|Apêndice R]])
+### A.16 Mapa de Modos — Founder Mode vs Manager Mode
 
-Documento de 2 páginas, revisão semestral, compartilhado com C-level.
+Documento de 2 páginas, revisão semestral, compartilhado com C-level. Conceito de Founder Mode (Paul Graham, 2024), critérios de quando delegar e quando manter envolvimento direto em [[#APÊNDICE R — FOUNDER MODE, DELEGAÇÃO E QUANDO PARAR DE FAZER|Apêndice R]].
 
 | Domínio | Modo atual (Founder / Manager / Híbrido) | Gatilho para mudar | Delegado atual | Revisitar em |
 |---|---|---|---|---|
@@ -1043,9 +1043,9 @@ Documento de 2 páginas, revisão semestral, compartilhado com C-level.
 - [ ] Cliente-tour mensal?
 - [ ] Desafios rotativos trimestrais?
 
-### A.17 Pitch Deck SCQA — Esqueleto ([[#APÊNDICE V — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Apêndice V]])
+### A.17 Pitch Deck SCQA — Esqueleto
 
-Documento Google Slides ou Keynote de 12-15 slides, estrutura sugerida:
+Documento Google Slides ou Keynote de 12-15 slides, estrutura sugerida. Princípios da estrutura SCQA (Situation, Complication, Question, Answer), critérios para cada slide e relacionamento com investidores em [[#APÊNDICE V — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Apêndice V]].
 
 **Slide 1, Capa**
 
@@ -1140,9 +1140,9 @@ Documento Google Slides ou Keynote de 12-15 slides, estrutura sugerida:
 
 ---
 
-### A.18 Investor Update Mensal — Template ([[#APÊNDICE V — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Apêndice V]])
+### A.18 Investor Update Mensal — Template
 
-E-mail mensal para todos os investidores. Enviar no mesmo dia de cada mês (ex.: sempre dia 5).
+E-mail mensal para todos os investidores. Enviar no mesmo dia de cada mês (ex.: sempre dia 5). Cadência completa de relacionamento com investidores, governança da rodada e regras de transparência em [[#APÊNDICE V — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Apêndice V]].
 
 ```text
 Assunto: [Empresa], Update [Mês/Ano]
@@ -1200,27 +1200,6 @@ Regras:
 ## Templates preenchidos com casos brasileiros
 
 Esta seção traz versões preenchidas de templates-chave do [[#APÊNDICE A — TEMPLATES PRONTOS PARA USO|Apêndice A]] com exemplos baseados em empresas brasileiras reais. Cada template em branco tem sua utilidade, mas aprendizado de verdade vem de ver a ferramenta aplicada a caso concreto, não abstratamente. Os casos abaixo são reconstruções aproximadas baseadas em informação pública, números e detalhes específicos foram simplificados para fins didáticos.
-
-### A.20 Business Model Canvas preenchido — Nubank (2014)
-
-> [!note] Caso completo movido para CZ.1
-> O caso BMC do Nubank em 2014, com tabela bloco-a-bloco e análise do insight (modelo enxuto, foco em um único produto antes de expandir), agora vive como "exemplo brasileiro preenchido" da seção [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|CZ.1]] (Business Model Canvas), que contém também origem, princípios, instruções de aplicação, erros comuns, quando não usar e conexões com outros canvases. Esta entrada A.20 fica como ponteiro de referência rápida pelo Apêndice A.
-
----
-
-### A.21 Lean Canvas preenchido — QuintoAndar (2015)
-
-> [!note] Caso completo movido para CZ.2
-> O caso Lean Canvas do QuintoAndar em 2015, com tabela completa e análise do insight (vantagem injusta como aposta de longo prazo, não generalidade), agora vive como "exemplo brasileiro preenchido" da seção [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|CZ.2]] (Lean Canvas).
-
----
-
-### A.22 Value Proposition Canvas preenchido — Wellhub (2016, B2B)
-
-> [!note] Caso completo movido para CZ.3
-> O caso VPC do Wellhub em 2016, com Customer Profile e Value Map de duas tabelas e análise do fit (proposta forte por eliminar fricções específicas, não por features impressionantes), agora vive como "exemplo brasileiro preenchido" da seção [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|CZ.3]] (Value Proposition Canvas).
-
----
 
 ### A.23 Diagrama de Opportunity Solution Tree (Teresa Torres) — exemplo em SaaS brasileiro
 

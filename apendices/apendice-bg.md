@@ -1262,18 +1262,6 @@ Pré-PMF: ainda está encontrando encaixe, disciplina emerge depois. Empresa já
 
 ---
 
-## BG.2.9 — Business Model Canvas (Alexander Osterwalder, 2010)
-
-Tela visual de nove blocos para mapear como uma empresa cria, entrega e captura valor (Segmentos, Proposta de Valor, Canais, Relacionamento, Receita, Recursos, Atividades, Parcerias, Custos). Padrão global de planejamento estratégico e ferramenta de conversa colaborativa em ideação. Tratamento completo — origem, princípios, como aplicar passo a passo, exemplo brasileiro preenchido (Nubank 2014), erros comuns e quando não usar — em [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|CZ.1]].
-
----
-
-## BG.2.10 — Lean Canvas (Ash Maurya, 2012)
-
-Adaptação do BMC para startups pré-PMF: substitui Parcerias, Atividades, Recursos e Relacionamento por **Problema, Solução, Métricas-Chave e Vantagem Injusta** — blocos que correspondem a hipóteses falsificáveis em estágio inicial. Tratamento completo, exemplo brasileiro preenchido (QuintoAndar 2015) e armadilhas em [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|CZ.2]].
-
----
-
 ## BG.2.11 — Effectuation (Saras Sarasvathy, 2001)
 
 Origem histórica. Saras Sarasvathy (Darden School, Universidade de Virgínia) conduziu pesquisa empírica com 27 empreendedores seriais experientes (fundadores de empresas entre US$200M e US$6B) entre 1997-2001. Descobriu que empreendedores experientes pensam sobre decisão de forma sistematicamente diferente de gerentes corporativos, não aplicam lógica causal (definir objetivo, planejar caminho, executar) mas lógica *efectual* (começar com recursos disponíveis, descobrir objetivo ao longo do caminho). Publicou tese em 2001, virou referência acadêmica central e ganhou diversos prêmios.
@@ -5399,12 +5387,6 @@ Times muito pequenos (< 5) sem recursos para dois tracks, Contextos muito regula
 
 - Cagan, M. (2017). *Inspired* (2nd ed.). Wiley.
 - Cagan, M. & Jones, C. (2020). *Empowered*. Wiley.
-
----
-
-## BG.10.10 — Value Proposition Canvas (Alexander Osterwalder, 2014)
-
-Tela de duas partes que se encaixam: **Customer Profile** (Jobs, Pains, Gains do cliente) e **Value Map** (Products & Services, Pain Relievers, Gain Creators do produto). Aprofunda o bloco "Proposta de Valor" do BMC, que tipicamente é preenchido de forma vaga. Tratamento completo, exemplo brasileiro preenchido (Wellhub 2016) e armadilhas em [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|CZ.3]].
 
 ---
 
