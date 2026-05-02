@@ -21,7 +21,7 @@
 
 Livros de empreendedorismo ensinam como fundadores de Silicon Valley pensam. Este manual ensina como **fundar, escalar e sair** dentro do contexto brasileiro — com regulação, capital, cultura e referências daqui.
 
-N�o é leitura linear. É enciclopédia de consulta. Você abre no momento do problema.
+Não é leitura linear. É enciclopédia de consulta. Você abre no momento do problema.
 
 **Quem está em crise de caixa** abre o [Apêndice AT](apendices/apendice-at.md). **Quem está negociando term sheet** abre a [Fase 13](fases/fase-13.md). **Quem não tem ideia ainda** começa pela [Fase 1](fases/fase-01.md). A sequência faz sentido, mas ninguém precisa seguir ela.
 
