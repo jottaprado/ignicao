@@ -454,6 +454,8 @@ O que vem nas Fases 8 e 9. Agora que você sabe que o problema é real, e que as
 
 Experimentos de validação do problema são o coração da metodologia. Doze ferramentas de pesquisa qualitativa: JTBD Switch Interviews (BG.6.2), Contextual Inquiry (BG.6.3), In-Depth Interviews (BG.6.6), Laddering Technique e Means-End Chain (BG.6.7), Focus Groups (BG.6.5), Grounded Theory (BG.9.1), Thematic Analysis (BG.9.2), Affinity Diagramming / KJ Method (BG.9.3), Empathy Mapping (BG.9.5), Assumption Mapping (BG.9.8), Pre-mortem (BG.5.3) e Expected Value (BG.5.7).
 
+Canvases visuais complementares ([[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Apêndice CZ]]): CZ.9 (Test Card) e CZ.10 (Pirate Canvas / AARRR).
+
 The Mom Test (Rob Fitzpatrick, 2013). Protocolo de entrevista que evita respostas falsamente positivas. Perguntas sobre vida passada específica, não hipotéticos futuros. Use em toda entrevista de validação de problema. É a ferramenta número um desta fase. Ver BG.6.1.
 
 JTBD Switch Interviews — entrevistas focadas no momento em que o cliente trocou de solução (Bob Moesta). As quatro forças (push, pull, anxiety, habit) revelam motivações reais de compra. Use quando há histórico de clientes que mudaram de solução, ou em entrevistas com clientes de concorrentes. Ver BG.6.2.

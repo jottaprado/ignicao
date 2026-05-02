@@ -389,6 +389,8 @@ Fundador com capital de paciência. Executar estratégia de décadas sem exit im
 
 Exit strategy combina negociação de alto impacto e valuation rigorosa. Treze ferramentas, em quatro grupos: **Valuation** — Discounted Cash Flow (BG.18.9), Comparable Company Analysis e Precedent Transactions (BG.18.10); **Negociação** — Harvard Negotiation com BATNA e ZOPA (BG.15.1), Never Split the Difference (BG.15.2), Ackerman Method (BG.15.3) e Getting Past No (BG.15.4); **Decisão e análise** — Expected Value e Bayesian Thinking (BG.5.7), Cost-Benefit Analysis (BG.5.6), Pre-mortem (BG.5.3) e Red Team / Blue Team (BG.5.4); **Comunicação e posicionamento** — Pyramid Principle (BG.4.4), Positioning de Ries e Trout (BG.13.1) e Unit Economics + Rule of 40 (BG.18.1 e BG.18.5).
 
+Canvases visuais complementares ([[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Apêndice CZ]]): CZ.12 (Storytelling Canvas) e CZ.17 (Capital Stack / Waterfall).
+
 ##### Valuation (BG.18)
 
 Discounted Cash Flow (DCF). Traz ao valor presente os fluxos de caixa futuros descontados por WACC. É o padrão em corporate finance e tem uso limitado em startups early-stage. Use em empresas maduras, com FCF previsível. Ver BG.18.9.

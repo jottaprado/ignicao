@@ -424,6 +424,8 @@ A comunicação externa da cultura é arma de dois gumes. Atrai talento alinhado
 
 Time e liderança em escala é a frente central de Liderança. Quatorze ferramentas, em dois grupos: **Liderança e gestão de pessoas** — Radical Candor (BG.17.1), Situational Leadership (BG.17.2), 5 Dysfunctions of a Team (BG.17.3), Topgrading (BG.17.4), Who: A Method for Hiring (BG.17.5), Crucial Conversations (BG.17.6), Extreme Ownership (BG.17.7), The Hard Things About Hard Things (BG.17.8), Culture Code (BG.17.9), No Rules Rules (BG.17.10), Servant Leadership (BG.17.11) e Intent-Based Leadership (BG.17.12); **Negociação e decisões** — Harvard Negotiation com BATNA (BG.15.1) e DACI / RACI / RAPID (BG.5.5).
 
+Canvases visuais complementares ([[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Apêndice CZ]]): CZ.8 (Team Canvas) e CZ.19 (Org Chart Evolution).
+
 ##### Liderança e gestão de pessoas (BG.17)
 
 Radical Candor (Kim Scott, 2017). Care Personally, mais Challenge Directly. Evita Ruinous Empathy (ser "nice" sem feedback genuíno). Use como base de todo feedback. Diário, não acumulado. Ver BG.17.1.
@@ -1323,6 +1325,8 @@ O resultado. O cap table (tabela de capitalização — quem detém quanto do eq
 #### FERRAMENTAS DESTA SUBFASE (Crescimento e Capital)
 
 Crescimento e capital é a frente central de Growth, Marketing, Sales e Negociação. Combina com ferramentas financeiras essenciais para avaliar saúde da máquina de crescimento. Trinta e duas ferramentas, em cinco grupos: **Growth e aquisição** — AARRR Pirate Metrics (BG.12.1), Growth Loops (BG.12.2), T2D3 (BG.12.3), Bullseye Framework (BG.12.4), Blitzscaling (BG.12.5), Crossing the Chasm (BG.12.6), Category Design (BG.12.7), Lean Analytics (BG.12.8) e Growth Hacking (BG.12.9); **Marketing e posicionamento** — Positioning de Ries e Trout (BG.13.1), Obviously Awesome de April Dunford (BG.13.2), StoryBrand (BG.13.3), Brand Archetypes (BG.13.4) e Content Marketing Flywheel (BG.13.5); **Sales** — BANT (BG.14.1), SPIN Selling (BG.14.2), Solution Selling (BG.14.3), Challenger Sale (BG.14.4), MEDDIC / MEDDPICC (BG.14.5), Sandler Selling System (BG.14.6) e Command of the Message (BG.14.7); **Negociação** — Harvard Negotiation, BATNA e ZOPA (BG.15.1), Never Split the Difference (BG.15.2), Ackerman Method (BG.15.3) e Getting Past No (BG.15.4); **Finanças** — Unit Economics (BG.18.1), Cohort Analysis (BG.18.2), LTV:CAC Ratio (BG.18.3), Burn Multiple (BG.18.4), Rule of 40 (BG.18.5), Magic Number (BG.18.6) e SaaS Quick Ratio (BG.18.7).
+
+Canvases visuais complementares ([[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Apêndice CZ]]): CZ.10 (Pirate Canvas / AARRR) e CZ.18 (Network Effects Map).
 
 ##### Growth e aquisição (BG.12)
 

@@ -555,6 +555,8 @@ Esperar PMF "cair" sem iteração. PMF é construído, não encontrado. Se há s
 
 Product-Market Fit exige medir o que importa e priorizar com rigor. Onze ferramentas: Jobs to Be Done Framework (BG.11.1), Kano Model (BG.11.2), RICE Scoring (BG.11.3), ICE Scoring (BG.11.4), North Star Framework (BG.11.5), HEART Framework (BG.11.6), Customer Journey Mapping (BG.9.6), Personas (BG.9.4), Continuous Discovery Habits (BG.10.1), Dual-Track Agile (BG.10.9) e Thematic Analysis (BG.9.2).
 
+Canvases visuais complementares ([[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Apêndice CZ]]): CZ.7 (Customer Journey Canvas) e CZ.10 (Pirate Canvas / AARRR).
+
 Jobs to Be Done Framework (Christensen, Moesta, Ulwick). Framework que mapeia o "trabalho" que o cliente tenta realizar — funcional, emocional e social — cruzando importância com satisfação atual. Identifica onde o produto cria valor real versus esforço desperdiçado. Ver BG.11.1.
 
 Kano Model (Noriaki Kano, 1984). Classifica funcionalidades em Basic, Performance, Excitement, Indifferent, Reverse para orientar o que priorizar no roadmap pós-PMF. Ver BG.11.2.

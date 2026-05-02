@@ -378,6 +378,8 @@ O que vem na Parte II (Fases 10 a 14). Construir o MVP de verdade. Colocar em me
 
 Testes de solução e usabilidade exigem métodos específicos de UX research. Sete ferramentas: Usability Testing (BG.7.1), Heuristic Evaluation com 10 Heurísticas de Nielsen (BG.7.2), Cognitive Walkthrough (BG.7.3), Card Sorting (BG.7.4), Tree Testing (BG.7.5), Think-Aloud Protocol (BG.7.6) e System Usability Scale (BG.7.7).
 
+Canvases visuais complementares ([[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Apêndice CZ]]): CZ.6 (Empathy Map).
+
 Usability Testing — teste de usabilidade (Nielsen e Norman). Usuários tentam completar tarefas enquanto o pesquisador observa. Cinco usuários identificam cerca de oitenta e cinco por cento dos problemas. Use em qualquer protótipo ou produto já navegável. É a ferramenta central desta fase. Ver BG.7.1.
 
 Heuristic Evaluation — avaliação heurística (10 Heurísticas de Nielsen, 1994). Três a cinco especialistas avaliam a interface contra dez princípios consolidados. Rápido e barato para triagem. Use como complemento ao usability testing. Não substitui. Ver BG.7.2.

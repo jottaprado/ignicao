@@ -334,6 +334,8 @@ A lição transferível. Estruturação jurídica e tributária cedo não é exc
 
 Estruturação jurídica, financeira e operacional combina negociações críticas com primeiras decisões financeiras estruturais. Nove ferramentas, em três grupos: **Negociação** — Harvard Negotiation, BATNA e ZOPA (BG.15.1), Never Split the Difference (BG.15.2), Getting Past No (BG.15.4); **Decisão e análise financeira** — Cost-Benefit Analysis (BG.5.6), Expected Value e Bayesian Thinking (BG.5.7), Unit Economics (BG.18.1), LTV:CAC Ratio (BG.18.3), Cash Conversion Cycle (BG.18.8) e Burn Multiple (BG.18.4).
 
+Canvases visuais complementares ([[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Apêndice CZ]]): CZ.17 (Capital Stack / Waterfall).
+
 ##### Negociação (BG.15)
 
 Harvard Negotiation, BATNA e ZOPA (Fisher e Ury, 1981). Framework de negociação baseada em princípios: foca em interesses, opções de ganho mútuo e critérios objetivos — em vez de posições fixas. Use em negociações com sócios sobre equity, primeiros contratos de venda, acordos de fornecedor, discussões com advisors, e investidores seed. Ver BG.15.1.

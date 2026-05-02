@@ -412,6 +412,8 @@ A lição transferível. Pesquisa aprofundada revela qual dor é emocionalmente 
 
 Pesquisa aprofundada com usuários exige ferramentas específicas de research. A maioria delas está no Ferramentário (BG.6). Nesta fase, disponíveis de imediato:
 
+Canvases visuais complementares ([[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Apêndice CZ]]): CZ.3 (Value Proposition Canvas), CZ.6 (Empathy Map) e CZ.7 (Customer Journey Canvas).
+
 5 Whys. Técnica para chegar nas motivações profundas durante entrevistas: você pergunta "por quê?" cinco vezes seguidas até encontrar a causa raiz. Ver BG.5.2.
 
 MECE. Framework para estruturar achados da pesquisa em categorias que não se sobrepõem e não deixam lacunas. Ver BG.4.5.

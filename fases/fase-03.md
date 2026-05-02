@@ -533,6 +533,8 @@ A lição transferível. Quem tem dor mais aguda paga mais, mesmo que seja clien
 
 Na descoberta do problema, ferramentas de entrevista e pesquisa são centrais. Mas a maioria delas está no Ferramentário (BG.6, Pesquisa & Descoberta). Nesta fase, disponíveis de imediato:
 
+Canvases visuais complementares ([[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Apêndice CZ]]): CZ.3 (Value Proposition Canvas) e CZ.6 (Empathy Map).
+
 5 Whys (Sakichi Toyoda, Toyota). Técnica de perguntar "por quê?" cinco vezes para chegar à causa raiz e não parar no sintoma declarado. Use em toda entrevista de customer discovery. Ver BG.5.2.
 
 MECE. Princípio de estruturar os problemas reportados pelos entrevistados em categorias Mutuamente Exclusivas e Coletivamente Exaustivas — sem sobreposição e sem lacunas. Evita lista bagunçada de "dores" sem estrutura. Use na consolidação de aprendizados depois de dez a vinte entrevistas. Ver BG.4.5.

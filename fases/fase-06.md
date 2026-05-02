@@ -304,6 +304,8 @@ A lição transferível. Hipóteses explícitas separam "o que eu acho" de "o qu
 
 Formulação de hipóteses exige rigor. É onde o manual enfatiza disciplina analítica. Nove ferramentas essenciais: McKinsey 7-Step Problem Solving (BG.5.1), MECE (BG.4.5), Pre-mortem (BG.5.3), Expected Value e Bayesian Thinking (BG.5.7), Cost-Benefit Analysis (BG.5.6), Cynefin Framework (BG.4.7), Red Team / Blue Team (BG.5.4), Pyramid Principle (BG.4.4) e Inversion (BG.4.3).
 
+Canvases visuais complementares ([[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Apêndice CZ]]): CZ.9 (Test Card) e CZ.14 (Hypothesis Canvas).
+
 McKinsey 7-Step Problem Solving — método de sete passos para estruturar qualquer problema estratégico. Aplique ao problema central do negócio: Define (qual a questão estratégica?), Structure (issue tree MECE — árvore de temas sem sobreposição e sem lacunas), Prioritize (oitenta-vinte), Plan (análises necessárias), Conduct (execute), Synthesize (aprendizados), Communicate. Use para estruturação rigorosa da tese do negócio. Ver BG.5.1.
 
 MECE — princípio que exige que cada item de uma lista seja Mutualmente Exclusivo e Coletivamente Exaustivo (sem sobreposição, sem lacuna). As suas hipóteses se sobrepõem? Cobrem tudo que importa? Hipóteses que se sobrepõem confundem experimentos. Ver BG.4.5.

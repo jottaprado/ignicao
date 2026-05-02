@@ -313,6 +313,8 @@ A lição transferível. Protótipo em papel revela falhas de experiência a R$ 
 
 Ideação e prototipagem de soluções exigem ferramentas de divergência mais convergência estruturadas. Nove ferramentas: Design Thinking Double Diamond (BG.10.5), Google Design Sprint (BG.10.3), Working Backwards / PR-FAQ (BG.10.6), Opportunity Solution Tree (BG.10.2), Continuous Discovery Habits (BG.10.1), Dual-Track Agile (BG.10.9), Personas (BG.9.4), Customer Journey Mapping (BG.9.6) e Service Blueprinting (BG.9.7).
 
+Canvases visuais complementares ([[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Apêndice CZ]]): CZ.5 (Opportunity Canvas) e CZ.11 (MVP Canvas).
+
 Design Thinking Double Diamond (IDEO e British Design Council, 2005). Processo em quatro fases (Discover, Define, Develop, Deliver), divergindo e convergindo duas vezes. Use em problemas complexos que exigem exploração antes de solução. Ver BG.10.5.
 
 Google Design Sprint (Jake Knapp, 2016). Processo de cinco dias para ir de problema a solução testada com usuários reais. Use em decisões de produto significativas, onde se quer aprendizado rápido antes de compromisso de execução. Ver BG.10.3.

@@ -608,6 +608,8 @@ A formalização jurídica e a divisão de equity têm tratamento detalhado na [
 
 Esta fase é sobre preparação do empreendedor como pessoa. As ferramentas aqui ajudam a tomar a decisão fundamental. Empreender ou não. Quando. Em quê. Detalhamento completo de cada ferramenta no [[#APÊNDICE BG — FERRAMENTÁRIO COMPLETO DO EMPREENDEDOR|Apêndice BG]] (catálogo de cento e quarenta e uma ferramentas em dezenove categorias — não é leitura linear, é referência consultiva: quando o livro citar "ver BG.X.Y", abra direto no item, leia em três a cinco minutos e volte para a fase).
 
+Canvases visuais complementares ([[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Apêndice CZ]]): CZ.8 (Team Canvas).
+
 Hedgehog Concept (Jim Collins, *Good to Great*, 2001). Ferramenta para encontrar a interseção de três círculos: no que você pode ser o melhor do mundo, o que impulsiona a sua máquina econômica, e o que você ama profundamente. Use para escolher o seu foco empreendedor. Fundador sem hedgehog claro tende a dispersar em múltiplas ideias. Ver BG.3.4.
 
 First Principles Thinking (Aristóteles, popularizado por Elon Musk). Método de decompor supostas verdades do mundo dos negócios em elementos fundamentais e reconstruir do zero, em vez de raciocinar por analogia ("sempre foi feito assim"). Use antes de aceitar "precisa de MBA", "precisa de cofundador técnico", "precisa de capital". Cada uma dessas pode ser verdade ou não, dependendo dos primeiros princípios do *seu* caso. Ver BG.4.1.

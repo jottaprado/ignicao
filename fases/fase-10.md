@@ -513,6 +513,8 @@ Volatilidade é parte do pacote. Empresas em tech que fazem IPO em mercados vol�
 
 MVP e experimentos de mercado combinam métodos quantitativos com aprendizado iterativo. Oito ferramentas: Lean Product Playbook (BG.10.8), Stage-Gate Process (BG.10.7), A/B Testing Rigoroso (BG.8.4), MaxDiff Analysis (BG.8.3), Shape Up (BG.10.4), Dual-Track Agile (BG.10.9), Pretotyping (BG.10.11) e Build-Measure-Learn Loop (BG.10.13).
 
+Canvases visuais complementares ([[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Apêndice CZ]]): CZ.10 (Pirate Canvas / AARRR) e CZ.11 (MVP Canvas).
+
 Lean Product Playbook (Dan Olsen, 2015). Framework iterativo de seis passos para encontrar PMF — parte da hipótese de valor, define o cliente-alvo, especifica as necessidades e testa o produto até atingir o encaixe. Use como guia geral para o ciclo de MVP. Ver BG.10.8.
 
 Stage-Gate Process (Robert Cooper, 1986). Processo de desenvolvimento em estágios separados por gates de decisão — cada gate avalia se o projeto avança, pausa ou é encerrado, evitando investimento em ideias fracas. Versão moderna "Stage-Gate Express" adapta para ciclos rápidos. Use em produtos com múltiplas linhas, ou em empresa com portfólio. Ver BG.10.7.

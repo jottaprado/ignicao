@@ -7,11 +7,14 @@ Modos:
 - --content: compara parágrafo a parágrafo. Reporta cada parágrafo do modular
   que não aparece no canônico (após normalização de espaço em branco). É a
   validação que confirma que cada texto das partes está no livro completo.
+- --canvas: para cada fase, valida cobertura de canvases CZ esperados versus
+  efetivamente referenciados no corpo da fase. Reporta gaps e surplus.
 
 Uso:
     py audit.py                       # triagem por contagem de linhas
     py audit.py --content             # validação parágrafo a parágrafo
     py audit.py --content --only-problems
+    py audit.py --canvas              # cobertura de canvases CZ por fase
     py audit.py --fix                 # substitui seções desatualizadas no canônico
     py audit.py --only-problems       # mostra só divergências
 """
@@ -269,11 +272,83 @@ def audit(fix: bool = False, only_problems: bool = False):
     return len(problems) == 0
 
 
+# Mapeamento curado de CZ canvases por fase. Atualize quando a editorial decisão
+# mudar (ex.: novo canvas adicionado, fase reestruturada). Cada entrada lista os
+# CZ.N que DEVEM estar referenciados no corpo da fase.
+EXPECTED_CZ_BY_FASE = {
+    "fase-00": ["CZ.8"],
+    "fase-01": ["CZ.1", "CZ.2", "CZ.4"],
+    "fase-02": ["CZ.1", "CZ.2", "CZ.3", "CZ.5"],
+    "fase-02b": ["CZ.14", "CZ.16"],
+    "fase-03": ["CZ.3", "CZ.6"],
+    "fase-04": ["CZ.3", "CZ.6", "CZ.7"],
+    "fase-05": ["CZ.4", "CZ.15", "CZ.18", "CZ.20"],
+    "fase-06": ["CZ.9", "CZ.14"],
+    "fase-07": ["CZ.9", "CZ.10"],
+    "fase-08": ["CZ.5", "CZ.11"],
+    "fase-09": ["CZ.6"],
+    "fase-10": ["CZ.10", "CZ.11"],
+    "fase-11": ["CZ.10", "CZ.13"],
+    "fase-12": ["CZ.7", "CZ.10"],
+    "fase-13": ["CZ.17"],
+    "fase-14": ["CZ.8", "CZ.10", "CZ.18", "CZ.19"],
+    "fase-15": ["CZ.4", "CZ.20"],
+    "fase-16": ["CZ.12", "CZ.17"],
+}
+
+CZ_REF_RE = re.compile(r"CZ\.(\d+)")
+
+
+def audit_canvas() -> bool:
+    """Valida cobertura de CZ canvases por fase contra EXPECTED_CZ_BY_FASE."""
+    print("=== AUDITORIA DE COBERTURA CZ -> FASE ===\n")
+    total_gaps = 0
+    total_extras = 0
+    fases_with_gaps = 0
+
+    for stem in sorted(EXPECTED_CZ_BY_FASE.keys()):
+        path = FASES_DIR / f"{stem}.md"
+        if not path.exists():
+            print(f"  MISSING FILE  {stem}.md")
+            continue
+        text = path.read_text(encoding="utf-8")
+        actual = {f"CZ.{m.group(1)}" for m in CZ_REF_RE.finditer(text)}
+        expected = set(EXPECTED_CZ_BY_FASE[stem])
+        gaps = expected - actual
+        extras = actual - expected
+
+        if not gaps and not extras:
+            print(f"  ok  {stem:<10} ({len(expected)} esperados, todos presentes)")
+            continue
+
+        fases_with_gaps += 1
+        total_gaps += len(gaps)
+        total_extras += len(extras)
+        marker = "GAP   " if gaps else "EXTRA "
+        print(f"  {marker}{stem:<10}", end="")
+        if gaps:
+            print(f"  faltando: {sorted(gaps)}", end="")
+        if extras:
+            print(f"  extras: {sorted(extras)}", end="")
+        print()
+
+    print()
+    print(f"=== RESULTADO (modo canvas) ===")
+    print(f"Fases com cobertura completa: {len(EXPECTED_CZ_BY_FASE) - fases_with_gaps}")
+    print(f"Fases com gaps ou extras:     {fases_with_gaps}")
+    print(f"CZ esperados ausentes:         {total_gaps}")
+    print(f"CZ extras (não esperados):     {total_extras}")
+    return total_gaps == 0
+
+
 if __name__ == "__main__":
     fix = "--fix" in sys.argv
     only_problems = "--only-problems" in sys.argv
     content = "--content" in sys.argv
-    if content:
+    canvas = "--canvas" in sys.argv
+    if canvas:
+        success = audit_canvas()
+    elif content:
         success = audit_content(only_problems=only_problems)
     else:
         success = audit(fix=fix, only_problems=only_problems)

@@ -293,6 +293,8 @@ A lição transferível. Teoria explícita permite testar cada premissa isoladam
 
 Construir teoria do negócio exige raciocínio causal rigoroso. Sete ferramentas estruturam esse raciocínio e ajudam a evitar wishful thinking (pensamento ilusório — acreditar no que se quer acreditar): First Principles Thinking (BG.4.1), MECE (BG.4.5), Pyramid Principle (BG.4.4), McKinsey 7-Step Problem Solving (BG.5.1), 5 Whys (BG.5.2), Cynefin Framework (BG.4.7) e Second-Order Thinking (BG.4.2).
 
+Canvases visuais complementares ([[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Apêndice CZ]]): CZ.14 (Hypothesis Canvas) e CZ.16 (Theory Map / Story Tree).
+
 First Principles Thinking (raciocínio por princípios básicos): questione cada suposição da sua teoria. "Clientes vão pagar R$ X." Por que especificamente? Ver BG.4.1.
 
 MECE (mutuamente exclusivo, coletivamente exaustivo): estruture os elementos da teoria em categorias que não se sobrepõem e cobrem o essencial. A sua teoria tem componentes MECE, ou há sobreposição e lacunas? Use para revisar a teoria antes de investir em validação. Ver BG.4.5.

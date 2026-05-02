@@ -376,6 +376,8 @@ Transformações bem-feitas ainda enfrentam ciclos. Valor de mercado de empresas
 
 Reinvenção e segunda curva combinam estratégia, growth, posicionamento e ferramentas de inovação. Oito ferramentas: Ambidextrous Organization (BG.19.2), Three Horizons Framework (BG.2.4), Category Design (BG.12.7), Crossing the Chasm (BG.12.6), Blitzscaling (BG.12.5), Playing to Win (BG.2.1), Scenario Planning (BG.2.6) e Wardley Mapping (BG.2.5).
 
+Canvases visuais complementares ([[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Apêndice CZ]]): CZ.4 (Strategy Canvas) e CZ.20 (Wardley Map).
+
 ##### Inovação (BG.19)
 
 Innovator's Dilemma, Disruptive Innovation (Clayton Christensen, 1997). Por que empresas bem-sucedidas falham em adotar tecnologias disruptivas. Low-end disruption versus New-market disruption. Use ao enfrentar competidores com tecnologia "inferior" em dimensões atuais, mas superior em outras. Ver BG.19.1.
