@@ -133,6 +133,12 @@ O que impede novos concorrentes (incluindo grandes empresas) de te copiar rapida
 > [!warning] Execução não é barreira
 > Seja realista. "Execução" não é barreira de entrada. Qualquer um pode executar bem. Barreira é estrutural. É o que existe depois que você sai do escritório.
 
+> [!tip] Apêndice CZ — Network Effects Map (CZ.18)
+> Quando o modelo tem componente de rede (marketplaces, plataformas, social, comunidades), o [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Network Effects Map (CZ.18)]] classifica o tipo de efeito (direto, indireto, dados, social) e identifica os limites de defensibilidade. Use ao avaliar moats em modelos de plataforma — efeito de rede é a categoria de moat mais forte e mais difícil de identificar com clareza.
+
+> [!tip] Apêndice CZ — Wardley Map (CZ.20)
+> Para análise estratégica em profundidade, o [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Wardley Map (CZ.20)]] decompõe a cadeia de valor em estágios de evolução (Genesis → Custom → Product → Commodity), revelando onde investir custom (componentes que criam vantagem) e onde comoditizar (componentes que viraram utility). Complementa Porter (forças estáticas) com lente temporal (evolução).
+
 #### Passo 8, faça uma matriz competitiva
 
 A matriz competitiva 2x2 dá clareza instantânea de onde você se encaixa. Exemplo genérico:

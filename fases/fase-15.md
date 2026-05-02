@@ -103,6 +103,9 @@ A saturação não acontece de repente. Dá sinais seis a dezoito meses antes da
 > [!important] Regra operacional
 > Se dois ou mais sinais em duas ou mais categorias aparecem por dois ou mais trimestres, você está em saturação. Se três ou mais categorias, a saturação é urgente.
 
+> [!tip] Apêndice CZ — Wardley Map (CZ.20)
+> O [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Wardley Map (CZ.20)]] é a ferramenta literal de Reinvenção e Segunda Curva. Mapeia cada componente do negócio (produto, cadeia de valor, capacidades) num eixo de evolução (Genesis → Custom → Product → Commodity) e revela quais componentes estão saturando rumo a Commodity (precisam saltar para próxima curva) e quais ainda estão em Custom (vantagem competitiva sustentável por enquanto). Sem o mapa, decisão de "onde apostar a segunda curva" vira intuição não-falsificável.
+
 #### Passo 2, diagnostique o tipo de saturação e o caminho de reinvenção
 
 > [!tip] Apêndice CL — Pivot: Tipos, Gatilhos e Execução
@@ -186,6 +189,9 @@ Clayton Christensen documentou por que empresas bem-sucedidas tendem a ser disro
 A estratégia de autodisrupção tem quatro elementos. Separe o experimento disruptivo em unit própria, com brand distinta, time distinto e margem inferior tolerada. Aceite que pode canibalizar parte do core — melhor canibalizar você mesmo do que deixar outro fazer. Meça diferente: volume de adoção e velocidade de aprendizado, não receita imediata. Dê tempo: dezoito a trinta e seis meses é prazo realista para autodisrupção mostrar tração.
 
 O exemplo clássico: a Microsoft se autodisrompendo de licenças perpétuas (Office) para subscrição cloud (Office 365). No início, cada usuário que migrava gerava menos receita imediata. Em cinco anos, transformou a empresa.
+
+> [!tip] Apêndice CZ — Strategy Canvas (CZ.4)
+> Para reposicionar a empresa na nova curva, o [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Strategy Canvas (CZ.4)]] compara o perfil de valor da empresa contra concorrentes em fatores de competição, e o ERRC Grid (Eliminar, Reduzir, Aumentar, Criar) força repensar a categoria. Útil em pivot transformacional (não cosmético) — a unidade disruptiva precisa de perfil de valor distinto do core, não uma versão "melhor um pouco" do mesmo produto.
 
 #### Passo 5, considere M&A como alavanca de reinvenção
 

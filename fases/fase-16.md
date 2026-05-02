@@ -123,6 +123,9 @@ Empresa preparada para exit vale vinte a quarenta por cento mais que empresa em 
 > [!tip] Apêndice CE — Valuation Methods
 > DCF, comparáveis de mercado, precedent transactions e regras de múltiplo por setor: como calcular o valuation interno antes de sentar com um comprador, e como interpretar a divergência entre valuation interno e proposta do adquirente.
 
+> [!tip] Apêndice CZ — Capital Stack / Waterfall em exit (CZ.17)
+> Em exit (M&A ou IPO), os proceeds não são divididos pro-rata — passam pelo waterfall do [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Capital Stack (CZ.17)]]: liquidation preferences (1x ou 2x preferred), participation, conversion, ESOP exercise. Fundadores que não modelam o waterfall ANTES de assinar term sheet descobrem em closing que ficaram com fração menor do que esperavam (ex.: liquidation preference 2x participating em rodada de R$ 100M força investidor a receber R$ 200M antes de qualquer split — e em valuations de exit modestos, fundador zera). Use o canvas para simular cenários de exit em diferentes valuations (alto, médio, baixo) ainda dois ou três anos antes da venda.
+
 Contrate auditoria externa das demonstrações dos últimos três anos. Garanta que DRE, balanço e fluxo de caixa estejam limpos e defendíveis. Organize o cap table (tabela de capitalização — registro de quem tem quanto da empresa) sem zonas cinzentas. Documente contratos materiais. Prepare projeções financeiras de três a cinco anos com premissas claras.
 
 ##### Preparação operacional

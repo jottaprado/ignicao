@@ -156,6 +156,9 @@ O executor é você, e o time, se houver. Em empresas muito pequenas, o próprio
 
 Sete técnicas complementares.
 
+> [!tip] Apêndice CZ — Pirate Canvas / AARRR (CZ.10)
+> Diagnóstico de PMF mora dentro do AARRR. As métricas centrais desta fase — ativação (Activation), retenção por coorte (Retention) e crescimento orgânico via indicação (Referral) — são três das cinco etapas do [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Pirate Canvas (CZ.10)]]. Use o canvas para visualizar onde o produto entrega valor versus onde vaza usuário. Sem mapear o funil, números soltos enganam (cadastros altos sem ativação são "PMF teatro").
+
 ##### Teste dos 40%, Sean Ellis Test
 
 Pergunte aos usuários ativos: "Como você se sentiria se não pudesse mais usar esse produto?" Três opções de resposta. Muito decepcionado. Um pouco decepcionado. Não me importaria.
@@ -292,6 +295,9 @@ Volte para as Fases 7 a 9. Reconsidere a solução. Talvez pivote para problema 
 
 > [!tip] Apêndice DT — Customer Experience
 > O [[apendice-dt|Apêndice DT — Customer Experience]] estrutura como mapear a jornada completa do cliente — desde o primeiro contato até o churn evitado — e identificar os "moments of truth" que mais afetam retenção. Use aqui para diagnosticar por que certos segmentos chegam ao aha e outros não.
+
+> [!tip] Apêndice CZ — Customer Journey Canvas (CZ.7)
+> Para sustentar PMF, o [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Customer Journey Canvas (CZ.7)]] é o template visual de uma página que materializa a jornada em fases (consciência → consideração → decisão → onboarding → uso → expansão → advocacy) com os "moments of truth" de cada fase. Complementar ao DT: DT é o tratamento teórico, CZ.7 é o canvas preenchível para usar em workshop com o time.
 
 #### Passo 4, documentar o "aha moment" e operacionalizar a ativação
 

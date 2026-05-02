@@ -308,6 +308,9 @@ Não espere terminar tudo para analisar. A cada cinco entrevistas, faça uma sí
 > [!note] A jornada do cliente é uma estrutura útil para organizar o que as entrevistas revelam
 > Enquanto o Mom Test captura incidentes isolados, o [[apendice-dt|Apêndice DT — Customer Experience]] oferece a visão de jornada completa — do momento de consciência do problema ao pós-resolução — incluindo métricas de NPS e churn preditivo. Usar a jornada como mapa mental durante a síntese das entrevistas ajuda a localizar em qual etapa a dor é mais aguda.
 
+> [!tip] Apêndice CZ — Value Proposition Canvas (CZ.3)
+> Ao sintetizar as entrevistas, o **Customer Profile** do [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Value Proposition Canvas (CZ.3)]] — Jobs (o que o cliente está tentando fazer), Pains (frustrações no caminho), Gains (resultados desejados) — é o frame visual exato para organizar o que as entrevistas Mom Test capturaram. Use depois da síntese qualitativa para preparar a [[#FASE 4 — PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY APROFUNDADO)|Fase 4]] (JTBD).
+
 #### Passo 7B, separe sintoma de causa raiz — entrevista de raiz causal
 
 O erro mais comum em discovery é documentar sintomas como se fossem problemas. "Meu CRM é uma bagunça" é sintoma. A causa raiz pode ser: processo de vendas mal definido, equipe resistente à adoção de ferramentas, ou dados de entrada inconsistentes vindos de integrações quebradas. Cada causa raiz tem uma solução diferente. Tratar o sintoma sem entender a causa produz produto que não resolve o problema real.

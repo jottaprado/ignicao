@@ -49,6 +49,9 @@ A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Tim
 > [!important] Por que é momento crítico
 > Até aqui, o fundador fazia tudo, e delegava nada. A dificuldade é mais emocional que técnica. Aprender a *confiar* em alguém com coisas que antes você controlava. O primeiro funcionário define a cultura da empresa com peso desproporcional. Os valores dessa pessoa moldam os próximos cinco a quinze funcionários. Erros de contratação cedo são caros. Em tempo perdido. Em moral quebrada. Em aprendizado de gestão ainda embrionário no fundador. O primeiro funcionário frequentemente tem perfil diferente dos seguintes. Requer empreendedorismo no DNA, mesmo sendo funcionário.
 
+> [!tip] Apêndice CZ — Org Chart Evolution (CZ.19)
+> Estrutura organizacional em escala não é estática. O [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Org Chart Evolution (CZ.19)]] é o mapa visual de como o org chart deve evoluir conforme a empresa cresce (10 → 50 → 200 → 500 pessoas), sinalizando quando criar gerência intermediária, quando descentralizar decisões e quais funções aparecem em cada estágio (CFO, CPO, VP Engineering, CHRO). Use para antecipar contratações C-level antes de elas virarem urgência reativa — contratar com seis meses de antecedência custa metade de contratar em pânico.
+
 ##### Quando contratar o primeiro funcionário
 
 Sinais de que é hora. O fundador (ou dupla) está no gargalo há dois a três meses seguidos, sem conseguir avançar em frentes específicas. Há capital disponível para doze a dezoito meses de salário dessa pessoa. Há PMF inicial, ou claro caminho para ele (receita recorrente começando, ou grande confiança). Você sabe *exatamente* o que essa pessoa vai fazer nos próximos seis meses.
@@ -889,6 +892,9 @@ O executor principal é o CEO, mais o Head of Sales ou Marketing, mais o CFO. Os
 #### COMO (Crescimento e Capital)
 
 Sete passos.
+
+> [!tip] Apêndice CZ — Pirate Canvas / AARRR em escala (CZ.10) e Network Effects Map (CZ.18)
+> A máquina de crescimento opera no AARRR — cada etapa do funil (Acquisition, Activation, Retention, Referral, Revenue) tem dono e métrica em escala. O [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Pirate Canvas (CZ.10)]] é o mapa para identificar onde investir capital marginal de growth (CAC alto sinaliza Acquisition; ativação fraca trava Retention). Em modelos de plataforma ou marketplace, o [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Network Effects Map (CZ.18)]] classifica o tipo de efeito de rede (direto, indireto, dados, social) e identifica onde investir para fortalecer defensibilidade conforme cresce — efeito de rede é o moat mais durável em mercados winner-takes-most.
 
 ##### Passo 0, entenda o Motor de Crescimento como sistema integrado
 

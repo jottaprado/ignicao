@@ -288,6 +288,9 @@ A pergunta central. Se eu parasse de adquirir novos clientes agora, o negócio s
 
 Se sim, você tem unit economics saudável. Se não, ajuste preço, custo ou churn antes de escalar.
 
+> [!tip] Apêndice CZ — Pirate Canvas / AARRR (CZ.10)
+> Unit economics fica mais legível quando colado ao funil AARRR (Acquisition, Activation, Retention, Referral, Revenue) do [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Pirate Canvas (CZ.10)]] — cada métrica desta fase (CAC, ativação, churn, NRR, payback) tem casa numa etapa do funil. Use o canvas para localizar onde estão os gargalos do modelo: CAC alto demais é problema de Acquisition; payback longo pode ser baixa Activation; LTV baixo é Retention insuficiente.
+
 #### Passo 9, aplique a pergunta diagnóstica canônica de Paul Graham, Default Alive ou Default Dead?
 
 Essa é talvez a pergunta mais útil que Paul Graham formulou para fundadores em estágio pós-MVP, em ensaio de 2015. Ele conta que, quando conversa com qualquer startup com mais de oito ou nove meses de operação, a primeira coisa que pergunta é isso. Pelos dados dele, metade dos fundadores não sabe responder. Não é tecnicismo. É diagnóstico primário.
