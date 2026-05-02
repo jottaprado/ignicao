@@ -547,7 +547,7 @@ Esperar PMF "cair" sem iteração. PMF é construído, não encontrado. Se há s
 
 ### FERRAMENTAS DESTA FASE
 
-Product-Market Fit exige medir o que importa, e priorizar com rigor. Detalhamento no [[#APÊNDICE BG — FERRAMENTÁRIO COMPLETO DO EMPREENDEDOR|Apêndice BG]] (Ferramentário Completo). Onze ferramentas centrais.
+Product-Market Fit exige medir o que importa, e priorizar com rigor. Onze ferramentas centrais, com cross-ref individual para o tratamento profundo no Apêndice BG.
 
 Jobs to Be Done Framework (Christensen, Moesta, Ulwick). Framework que mapeia o "trabalho" que o cliente tenta realizar — funcional, emocional e social — cruzando importância com satisfação atual. Identifica onde o produto cria valor real versus esforço desperdiçado. Ver BG.11.1.
 

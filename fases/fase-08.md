@@ -311,7 +311,7 @@ A lição transferível. Protótipo em papel revela falhas de experiência a R$ 
 
 ### FERRAMENTAS DESTA FASE
 
-Ideação e prototipagem de soluções exigem ferramentas de divergência mais convergência estruturadas. Detalhamento no [[#APÊNDICE BG — FERRAMENTÁRIO COMPLETO DO EMPREENDEDOR|Apêndice BG]]. Nove ferramentas centrais.
+Ideação e prototipagem de soluções exigem ferramentas de divergência mais convergência estruturadas. Nove ferramentas centrais, com cross-ref individual para o tratamento profundo no Apêndice BG.
 
 Design Thinking Double Diamond (IDEO e British Design Council, 2005). Processo em quatro fases (Discover, Define, Develop, Deliver), divergindo e convergindo duas vezes. Use em problemas complexos que exigem exploração antes de solução. Ver BG.10.5.
 

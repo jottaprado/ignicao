@@ -384,7 +384,7 @@ Fundador com capital de paciência. Executar estratégia de décadas sem exit im
 
 ### FERRAMENTAS DESTA FASE
 
-Exit strategy combina negociação de alto impacto e valuation rigorosa. Detalhamento no [[#APÊNDICE BG — FERRAMENTÁRIO COMPLETO DO EMPREENDEDOR|Apêndice BG]]. Treze ferramentas centrais.
+Exit strategy combina negociação de alto impacto e valuation rigorosa. Treze ferramentas centrais, com cross-ref individual para o tratamento profundo no Apêndice BG.
 
 ##### Valuation (BG.18)
 

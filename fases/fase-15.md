@@ -368,7 +368,7 @@ Transformações bem-feitas ainda enfrentam ciclos. Valor de mercado de empresas
 
 ### FERRAMENTAS DESTA FASE
 
-Reinvenção e segunda curva combinam estratégia, growth, posicionamento, e ferramentas de inovação. Detalhamento no [[#APÊNDICE BG — FERRAMENTÁRIO COMPLETO DO EMPREENDEDOR|Apêndice BG]]. Onze ferramentas centrais.
+Reinvenção e segunda curva combinam estratégia, growth, posicionamento, e ferramentas de inovação. Onze ferramentas centrais, com cross-ref individual para o tratamento profundo no Apêndice BG.
 
 ##### Inovação (BG.19)
 

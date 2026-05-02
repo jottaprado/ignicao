@@ -452,7 +452,7 @@ O que vem nas Fases 8 e 9. Agora que você sabe que o problema é real, e que as
 
 ### FERRAMENTAS DESTA FASE
 
-Experimentos de validação do problema são o coração da metodologia. Essa fase usa o maior número de ferramentas de pesquisa qualitativa do manual. Detalhamento completo no [[#APÊNDICE BG — FERRAMENTÁRIO COMPLETO DO EMPREENDEDOR|Apêndice BG]].
+Experimentos de validação do problema são o coração da metodologia. Essa fase usa o maior número de ferramentas de pesquisa qualitativa do manual, com cross-ref individual para o tratamento profundo no Apêndice BG.
 
 The Mom Test (Rob Fitzpatrick, 2013). Protocolo de entrevista que evita respostas falsamente positivas. Perguntas sobre vida passada específica, não hipotéticos futuros. Use em toda entrevista de validação de problema. É a ferramenta número um desta fase. Ver BG.6.1.
 

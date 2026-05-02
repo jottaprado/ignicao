@@ -419,7 +419,7 @@ A comunicação externa da cultura é arma de dois gumes. Atrai talento alinhado
 
 #### FERRAMENTAS DESTA SUBFASE (Time e Liderança)
 
-Time e liderança em escala é a frente central de Liderança. Detalhamento no [[#APÊNDICE BG — FERRAMENTÁRIO COMPLETO DO EMPREENDEDOR|Apêndice BG]]. Quatorze ferramentas centrais.
+Time e liderança em escala é a frente central de Liderança. Quatorze ferramentas centrais, com cross-ref individual para o tratamento profundo no Apêndice BG.
 
 ##### Liderança e gestão de pessoas (BG.17)
 
@@ -782,7 +782,7 @@ A lição transferível. Operação escalável é pré-requisito para internacio
 
 #### FERRAMENTAS DESTA SUBFASE (Operações)
 
-Operações, processos, e gestão em escala são a frente central de Operações. Detalhamento no [[#APÊNDICE BG — FERRAMENTÁRIO COMPLETO DO EMPREENDEDOR|Apêndice BG]]. Catorze ferramentas centrais.
+Operações, processos, e gestão em escala são a frente central de Operações. Catorze ferramentas centrais, com cross-ref individual para o tratamento profundo no Apêndice BG.
 
 ##### Operações e execução (BG.16)
 
@@ -1316,7 +1316,7 @@ O resultado. O cap table (tabela de capitalização — quem detém quanto do eq
 
 #### FERRAMENTAS DESTA SUBFASE (Crescimento e Capital)
 
-Crescimento e capital é a frente central de Growth, Marketing, Sales, e Negociação. Combina com ferramentas financeiras essenciais para avaliar saúde da máquina de crescimento. Detalhamento no [[#APÊNDICE BG — FERRAMENTÁRIO COMPLETO DO EMPREENDEDOR|Apêndice BG]]. Trinta e duas ferramentas centrais.
+Crescimento e capital é a frente central de Growth, Marketing, Sales, e Negociação. Combina com ferramentas financeiras essenciais para avaliar saúde da máquina de crescimento. Trinta e duas ferramentas centrais, com cross-ref individual para o tratamento profundo no Apêndice BG.
 
 ##### Growth e aquisição (BG.12)
 

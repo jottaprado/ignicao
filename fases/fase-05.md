@@ -658,7 +658,7 @@ Falha em qualquer etapa significa voltar à fase anterior, não pular adiante. C
 
 ### FERRAMENTAS DESTA FASE
 
-Mapeamento de mercado e concorrência é onde o ferramentário estratégico clássico mais brilha. Fase rica em aplicação de frameworks. Detalhamento no [[#APÊNDICE BG — FERRAMENTÁRIO COMPLETO DO EMPREENDEDOR|Apêndice BG]].
+Mapeamento de mercado e concorrência é onde o ferramentário estratégico clássico mais brilha. Fase rica em aplicação de frameworks, com cross-ref individual para o tratamento profundo no Apêndice BG.
 
 Porter's Five Forces (Michael Porter, 1979). Ferramenta para analisar a atratividade estrutural de uma indústria a partir de cinco forças: novos entrantes, fornecedores, compradores, substitutos, rivalidade. Use para avaliar se o setor é estruturalmente atraente. Ver BG.1.1.
 

@@ -329,7 +329,7 @@ A lição transferível. Estruturação jurídica e tributária cedo não é exc
 
 ### FERRAMENTAS DESTA FASE
 
-Estruturação jurídica, financeira, e operacional combina negociações críticas com primeiras decisões financeiras estruturais. Detalhamento no [[#APÊNDICE BG — FERRAMENTÁRIO COMPLETO DO EMPREENDEDOR|Apêndice BG]]. Nove ferramentas centrais.
+Estruturação jurídica, financeira, e operacional combina negociações críticas com primeiras decisões financeiras estruturais. Nove ferramentas centrais, com cross-ref individual para o tratamento profundo no Apêndice BG.
 
 ##### Negociação (BG.15)
 

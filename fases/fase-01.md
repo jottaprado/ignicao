@@ -238,7 +238,7 @@ O quarto filtro é modelo de pagamento real. *Quem paga, quanto, e por que volta
 No fim dos quatro filtros, idealmente você tem três a cinco ideias-candidatas finais. Escolha uma. A que melhor combina founder-market fit forte mais timing óbvio mais moat plausível mais modelo claro, para levar à [[#FASE 2 — ARTICULAÇÃO E CAPTURA DA IDEIA|Fase 2]]. Guarde as outras na Lista Curta. Se a primeira cair nas fases seguintes, você tem para onde voltar.
 
 > [!tip] Apêndice CZ — Canvases e Mapas Visuais de Modelo
-> Após escolher a candidata, o Lean Canvas (CZ.2) é a ferramenta recomendada para estruturar visualmente o modelo em nove blocos antes de avançar para a Fase 2. Ele força articular Problema, Segmentos, Vantagem Injusta e Modelo de Receita em uma página — o que antecipa e facilita a Declaração Inicial da Ideia. O [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Apêndice CZ]] contém o canvas preenchível com instruções e exemplos.
+> Após escolher a candidata, o Lean Canvas é a ferramenta recomendada para estruturar visualmente o modelo em nove blocos antes de avançar para a Fase 2. Ele força articular Problema, Segmentos, Vantagem Injusta e Modelo de Receita em uma página — o que antecipa e facilita a Declaração Inicial da Ideia. O canvas preenchível, exemplo brasileiro (QuintoAndar 2015) e armadilhas comuns estão em [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|CZ.2]].
 
 ### Semana das Ideias, exercício prático de cinco dias
 
@@ -372,7 +372,7 @@ Clareza da escolha final. Você consegue escrever em duas frases, sem hesitaçã
 
 ### FERRAMENTAS DESTA FASE
 
-Na geração e seleção de ideias-candidatas, ferramentas ajudam a sair da intuição em direção ao método e a estressar a candidata antes de comprometer meses ou anos. Detalhamento completo no [[#APÊNDICE BG — FERRAMENTÁRIO COMPLETO DO EMPREENDEDOR|Apêndice BG]].
+Na geração e seleção de ideias-candidatas, ferramentas ajudam a sair da intuição em direção ao método e a estressar a candidata antes de comprometer meses ou anos. Oito ferramentas centrais, com cross-ref individual para o tratamento profundo no Apêndice BG.
 
 Idea → Wedge → Scale (Antler) — framework do programa Antler para guiar founders da ideia bruta até a cunha defensável e o caminho de expansão para mercado maior. Use como espinha de raciocínio quando você tem visão grande mas ainda não definiu o ponto de entrada estreito. Detalhamento no [[#APÊNDICE L — IDEA → WEDGE → SCALE (FRAMEWORK ANTLER)|Apêndice L]].
 

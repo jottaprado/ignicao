@@ -511,7 +511,7 @@ Volatilidade é parte do pacote. Empresas em tech que fazem IPO em mercados vol�
 
 ### FERRAMENTAS DESTA FASE
 
-MVP e experimentos de mercado combinam métodos quantitativos com aprendizado iterativo. Detalhamento no [[#APÊNDICE BG — FERRAMENTÁRIO COMPLETO DO EMPREENDEDOR|Apêndice BG]]. Oito ferramentas centrais.
+MVP e experimentos de mercado combinam métodos quantitativos com aprendizado iterativo. Oito ferramentas centrais, com cross-ref individual para o tratamento profundo no Apêndice BG.
 
 Lean Product Playbook (Dan Olsen, 2015). Framework iterativo de seis passos para encontrar PMF — parte da hipótese de valor, define o cliente-alvo, especifica as necessidades e testa o produto até atingir o encaixe. Use como guia geral para o ciclo de MVP. Ver BG.10.8.
 

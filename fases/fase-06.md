@@ -302,7 +302,7 @@ A lição transferível. Hipóteses explícitas separam "o que eu acho" de "o qu
 
 ### FERRAMENTAS DESTA FASE
 
-Formulação de hipóteses exige rigor. É onde o manual enfatiza disciplina analítica. Dez ferramentas essenciais, todas no [[#APÊNDICE BG — FERRAMENTÁRIO COMPLETO DO EMPREENDEDOR|Apêndice BG]].
+Formulação de hipóteses exige rigor. É onde o manual enfatiza disciplina analítica. Dez ferramentas essenciais, com cross-ref individual para o tratamento profundo no Apêndice BG.
 
 McKinsey 7-Step Problem Solving — método de sete passos para estruturar qualquer problema estratégico. Aplique ao problema central do negócio: Define (qual a questão estratégica?), Structure (issue tree MECE — árvore de temas sem sobreposição e sem lacunas), Prioritize (oitenta-vinte), Plan (análises necessárias), Conduct (execute), Synthesize (aprendizados), Communicate. Use para estruturação rigorosa da tese do negócio. Ver BG.5.1.
 
