@@ -116,7 +116,7 @@ O modelo mais comum no Brasil é:
 3. CRI é tokenizado e negociado em plataforma digital
 4. Investidor compra tokens representando fração do CRI
 
-A regulação de tokenização de imóveis diretamente (sem CRI ou FII como veículo) ainda é incerta — ver Apêndice CJ.
+A regulação de tokenização de imóveis diretamente (sem CRI ou FII como veículo) ainda é incerta — ver [[#APÊNDICE CJ — TOKENIZAÇÃO PARA FOUNDERS: ATIVOS DIGITAIS, SECURITY TOKENS E QUANDO NÃO É HYPE|Apêndice CJ]] (security tokens, ativos digitais e o que é regulado em 2026).
 
 #### 6. Property management
 

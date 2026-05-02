@@ -244,7 +244,7 @@ Captar undercapital, para "não diluir". Captar R$ 50 milhões, quando precisa d
 
 Prometer inatingível. "Vamos dobrar em doze meses". O VC investe esperando isso. Realiza quarenta por cento no ano. Crise em próxima rodada, porque a narrative quebrou. Promessa defensável vem de histórico.
 
-Ignorar regulação de captação pública. Captar R$ 200 milhões com cinquenta pequenos investidores, sem estrutura correta, cai em caos fiscal. Captar de VCs institucionais é mais simples. Captação via equity crowdfunding tem estrutura própria (ver Apêndice de equity crowdfunding).
+Ignorar regulação de captação pública. Captar R$ 200 milhões com cinquenta pequenos investidores, sem estrutura correta, cai em caos fiscal. Captar de VCs institucionais é mais simples. Captação via equity crowdfunding tem estrutura própria (ver [[#APÊNDICE CI — EQUITY CROWDFUNDING NO BRASIL: CAPTAÇÃO PÚBLICA DE PEQUENOS INVESTIDORES|Apêndice CI]] — captação pública de pequenos investidores via plataformas reguladas pela CVM).
 
 Não ter reserva para secundária de founder. Em rodadas Série B em diante, os fundadores podem negociar liquidez parcial (cinco a quinze por cento das suas ações). Não discutir é perder oportunidade. Discutir antes de fechar é boa prática.
 

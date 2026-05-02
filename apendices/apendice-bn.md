@@ -121,7 +121,7 @@ Benefícios, e perks típicos. Plano de saúde executivo premium (family plan), 
 
 Signing bonus, ou joining bonus. Comum para C-level vindo de Big Tech, ou consulting, R$ 100 a R$ 500 mil one-time. Justificativa, compensa bônus, ou equity, "perdidos" ao sair do empregador anterior.
 
-Relocation (se aplicável). Package completo, R$ 50 a R$ 200 mil mais apartamento por três a seis meses, mais flights. Para executivo vindo do exterior (Delaware Flip), mais complexo. Ver Apêndice de Visto.
+Relocation (se aplicável). Package completo, R$ 50 a R$ 200 mil mais apartamento por três a seis meses, mais flights. Para executivo vindo do exterior (Delaware Flip), mais complexo. Ver [[#APÊNDICE BS — VISTO E IMIGRAÇÃO PARA FUNDADOR BRASILEIRO|Apêndice BS]] (vistos de trabalho, custos e prazos para executivo internacional).
 
 > [!tip] Negociação que fundador iniciante deveria saber
 > Os candidatos C-level bons têm múltiplas ofertas. Não é a sua única chance. Equity é mais negociável que salário (você tem mais flexibilidade com equity, do que com cash). Acceleration clauses são frequentemente negociáveis. Severance package (por exemplo, seis meses de severance, se demitido sem cause) é padrão em C-level. Retention bonus (bônus pago após dois a três anos) é ferramenta de longo prazo.

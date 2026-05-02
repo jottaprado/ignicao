@@ -138,7 +138,7 @@ Esquecer legacy audience. Crescer segmentos novos, sem atender o cliente antigo,
 - [ ] Brand book com identidade visual, e verbal, documentados
 - [ ] Conteúdo proprietário regular (blog, newsletter, podcast, ou vídeo)
 - [ ] Presença em pelo menos dois veículos earned media relevantes, por ano
-- [ ] LinkedIn do fundador ativo (ver Apêndice de Comunicação Pública)
+- [ ] LinkedIn do fundador ativo (ver [[#APÊNDICE BM — COMUNICAÇÃO PÚBLICA DO FUNDADOR: NARRATIVA, IMPRENSA E PORTA-VOZ|Apêndice BM]] — narrativa do fundador, imprensa e porta-voz)
 - [ ] Relações com imprensa. Assessoria interna, ou agência. Mapa de jornalistas
 - [ ] Kit de imprensa atualizado (about, bios, fotos, estudos de caso)
 - [ ] Brand tracking trimestral (social listening, mais pesquisa em cliente)
