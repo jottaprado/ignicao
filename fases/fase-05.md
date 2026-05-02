@@ -664,7 +664,7 @@ Falha em qualquer etapa significa voltar à fase anterior, não pular adiante. C
 
 ### FERRAMENTAS DESTA FASE
 
-Mapeamento de mercado e concorrência é onde o ferramentário estratégico clássico mais brilha. Treze ferramentas: Porter's Five Forces (BG.1.1), SWOT / TOWS (BG.1.2), PESTEL (BG.1.6), BCG Growth-Share Matrix (BG.1.3), Ansoff Matrix (BG.1.5), Value Chain Analysis (BG.1.7), Blue Ocean Strategy / ERRC (BG.1.8), Playing to Win (BG.2.1), 7 Powers (BG.2.3), Wardley Mapping (BG.2.5), Scenario Planning (BG.2.6), Core Competencies (BG.2.7) e Value Disciplines (BG.2.8).
+Mapeamento de mercado e concorrência é onde o ferramentário estratégico clássico mais brilha. Catorze ferramentas: Porter's Five Forces (BG.1.1), SWOT / TOWS (BG.1.2), PESTEL (BG.1.6), BCG Growth-Share Matrix (BG.1.3), Ansoff Matrix (BG.1.5), Value Chain Analysis (BG.1.7), Blue Ocean Strategy / ERRC (BG.1.8), VRIO Framework (BG.1.9), Playing to Win (BG.2.1), 7 Powers (BG.2.3), Wardley Mapping (BG.2.5), Scenario Planning (BG.2.6), Core Competencies (BG.2.7) e Value Disciplines (BG.2.8).
 
 Canvases visuais complementares ([[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Apêndice CZ]]): CZ.4 (Strategy Canvas), CZ.15 (Canvas da Cunha), CZ.18 (Network Effects Map) e CZ.20 (Wardley Map).
 

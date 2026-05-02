@@ -426,6 +426,8 @@ Time e liderança em escala é a frente central de Liderança. Quatorze ferramen
 
 Canvases visuais complementares ([[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Apêndice CZ]]): CZ.8 (Team Canvas) e CZ.19 (Org Chart Evolution).
 
+Templates operacionais ([[#APÊNDICE A — TEMPLATES PRONTOS PARA USO|Apêndice A]]): A.34 (Job Descriptions para contratações-chave) e A.38 (Template de 1:1 — reunião individual de gestão).
+
 ##### Liderança e gestão de pessoas (BG.17)
 
 Radical Candor (Kim Scott, 2017). Care Personally, mais Challenge Directly. Evita Ruinous Empathy (ser "nice" sem feedback genuíno). Use como base de todo feedback. Diário, não acumulado. Ver BG.17.1.
@@ -787,7 +789,9 @@ A lição transferível. Operação escalável é pré-requisito para internacio
 
 #### FERRAMENTAS DESTA SUBFASE (Operações)
 
-Operações, processos e gestão em escala são a frente central de Operações. Catorze ferramentas, em dois grupos: **Operações e execução** — OKRs (BG.16.1), V2MOM (BG.16.2), EOS / Tração (BG.16.3), Scaling Up / Rockefeller Habits (BG.16.4), Management by Objectives (BG.16.5), Scrum (BG.16.6), Kanban (BG.16.7), DORA Metrics e SPACE Framework (BG.16.8), Amazon 6-Pager (BG.16.9), Weekly Business Review (BG.16.10) e 4 Disciplines of Execution (BG.16.11); **Complementos** — Hoshin Kanri (BG.3.1), Balanced Scorecard (BG.3.3) e Lean Analytics (BG.12.8).
+Operações, processos e gestão em escala são a frente central de Operações. Dezessete ferramentas, em três grupos: **Operações e execução** — OKRs (BG.16.1), V2MOM (BG.16.2), OGSM (BG.3.2 — Procter & Gamble), EOS / Tração (BG.16.3), Scaling Up / Rockefeller Habits (BG.16.4), Management by Objectives (BG.16.5), Scrum (BG.16.6), Kanban (BG.16.7), DORA Metrics e SPACE Framework (BG.16.8), Amazon 6-Pager (BG.16.9), Weekly Business Review (BG.16.10) e 4 Disciplines of Execution (BG.16.11); **Complementos** — Hoshin Kanri (BG.3.1), Balanced Scorecard (BG.3.3) e Lean Analytics (BG.12.8); **Lean Operations** — Value Stream Mapping (BG.16.13 — Ohno, Rother & Shook) e Toyota Kata (BG.16.14 — Mike Rother, rotina de melhoria contínua).
+
+Templates operacionais ([[#APÊNDICE A — TEMPLATES PRONTOS PARA USO|Apêndice A]]): A.36 (OKR Cascade Anual — cascateamento de OKRs do board ao IC) e A.35 (Post-Mortem de Incidente Técnico — formato blameless para incidentes de produção).
 
 ##### Operações e execução (BG.16)
 
@@ -1324,7 +1328,9 @@ O resultado. O cap table (tabela de capitalização — quem detém quanto do eq
 
 #### FERRAMENTAS DESTA SUBFASE (Crescimento e Capital)
 
-Crescimento e capital é a frente central de Growth, Marketing, Sales e Negociação. Combina com ferramentas financeiras essenciais para avaliar saúde da máquina de crescimento. Trinta e duas ferramentas, em cinco grupos: **Growth e aquisição** — AARRR Pirate Metrics (BG.12.1), Growth Loops (BG.12.2), T2D3 (BG.12.3), Bullseye Framework (BG.12.4), Blitzscaling (BG.12.5), Crossing the Chasm (BG.12.6), Category Design (BG.12.7), Lean Analytics (BG.12.8) e Growth Hacking (BG.12.9); **Marketing e posicionamento** — Positioning de Ries e Trout (BG.13.1), Obviously Awesome de April Dunford (BG.13.2), StoryBrand (BG.13.3), Brand Archetypes (BG.13.4) e Content Marketing Flywheel (BG.13.5); **Sales** — BANT (BG.14.1), SPIN Selling (BG.14.2), Solution Selling (BG.14.3), Challenger Sale (BG.14.4), MEDDIC / MEDDPICC (BG.14.5), Sandler Selling System (BG.14.6) e Command of the Message (BG.14.7); **Negociação** — Harvard Negotiation, BATNA e ZOPA (BG.15.1), Never Split the Difference (BG.15.2), Ackerman Method (BG.15.3) e Getting Past No (BG.15.4); **Finanças** — Unit Economics (BG.18.1), Cohort Analysis (BG.18.2), LTV:CAC Ratio (BG.18.3), Burn Multiple (BG.18.4), Rule of 40 (BG.18.5), Magic Number (BG.18.6) e SaaS Quick Ratio (BG.18.7).
+Crescimento e capital é a frente central de Growth, Marketing, Sales e Negociação. Combina com ferramentas financeiras essenciais para avaliar saúde da máquina de crescimento. Trinta e seis ferramentas, em cinco grupos: **Growth e aquisição** — AARRR Pirate Metrics (BG.12.1), Growth Loops (BG.12.2), T2D3 (BG.12.3), Bullseye Framework (BG.12.4), Blitzscaling (BG.12.5), Crossing the Chasm (BG.12.6), Category Design (BG.12.7), Lean Analytics (BG.12.8), Growth Hacking (BG.12.9), NFX Taxonomy (BG.12.12 — James Currier, taxonomia formal de tipos de network effect) e API Strategy & Developer Relations (BG.12.13 — Jeff Lawson/Twilio, growth via API e DevRel para produtos developer-first); **Marketing e posicionamento** — Positioning de Ries e Trout (BG.13.1), Obviously Awesome de April Dunford (BG.13.2), StoryBrand (BG.13.3), Brand Archetypes (BG.13.4) e Content Marketing Flywheel (BG.13.5); **Sales** — BANT (BG.14.1), SPIN Selling (BG.14.2), Solution Selling (BG.14.3), Challenger Sale (BG.14.4), MEDDIC / MEDDPICC (BG.14.5), Sandler Selling System (BG.14.6) e Command of the Message (BG.14.7); **Negociação** — Harvard Negotiation, BATNA e ZOPA (BG.15.1), Never Split the Difference (BG.15.2), Ackerman Method (BG.15.3) e Getting Past No (BG.15.4); **Finanças e portfolio** — Unit Economics (BG.18.1), Cohort Analysis (BG.18.2), LTV:CAC Ratio (BG.18.3), Burn Multiple (BG.18.4), Rule of 40 (BG.18.5), Magic Number (BG.18.6), SaaS Quick Ratio (BG.18.7) e GE/McKinsey 9-Box Matrix (BG.1.4 — para empresas com múltiplas linhas de produto, mapeia atratividade do mercado vs força competitiva).
+
+Templates operacionais ([[#APÊNDICE A — TEMPLATES PRONTOS PARA USO|Apêndice A]]): A.32 (Data Room — checklist de due diligence pré-rodada e pré-exit), A.33 (Term Sheet Anotado — guia de leitura cláusula a cláusula), A.37 (Plano de Rodada — fundraising como projeto estruturado) e A.15 (Plano de Marca e PR).
 
 Canvases visuais complementares ([[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Apêndice CZ]]): CZ.10 (Pirate Canvas / AARRR) e CZ.18 (Network Effects Map).
 

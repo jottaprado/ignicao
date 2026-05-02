@@ -511,7 +511,7 @@ Volatilidade é parte do pacote. Empresas em tech que fazem IPO em mercados vol�
 
 ### FERRAMENTAS DESTA FASE
 
-MVP e experimentos de mercado combinam métodos quantitativos com aprendizado iterativo. Oito ferramentas: Lean Product Playbook (BG.10.8), Stage-Gate Process (BG.10.7), A/B Testing Rigoroso (BG.8.4), MaxDiff Analysis (BG.8.3), Shape Up (BG.10.4), Dual-Track Agile (BG.10.9), Pretotyping (BG.10.11) e Build-Measure-Learn Loop (BG.10.13).
+MVP e experimentos de mercado combinam métodos quantitativos com aprendizado iterativo. Nove ferramentas: Lean Product Playbook (BG.10.8), Stage-Gate Process (BG.10.7), A/B Testing Rigoroso (BG.8.4), MaxDiff Analysis (BG.8.3), Shape Up (BG.10.4), Dual-Track Agile (BG.10.9), Pretotyping (BG.10.11), Build-Measure-Learn Loop (BG.10.13) e Hook Model (BG.12.11) — Nir Eyal, modelo de quatro etapas (trigger, action, variable reward, investment) para projetar produtos com formação de hábito, central na ativação e retenção de MVPs B2C.
 
 Canvases visuais complementares ([[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Apêndice CZ]]): CZ.10 (Pirate Canvas / AARRR) e CZ.11 (MVP Canvas).
 

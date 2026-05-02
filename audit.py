@@ -9,12 +9,16 @@ Modos:
   validação que confirma que cada texto das partes está no livro completo.
 - --canvas: para cada fase, valida cobertura de canvases CZ esperados versus
   efetivamente referenciados no corpo da fase. Reporta gaps e surplus.
+- --orphans: detecta sub-itens definidos em apêndices (BG.X.Y, CZ.N, A.N) que
+  não são referenciados em nenhuma fase nem em outro apêndice. Sinaliza
+  conteúdo definido mas inalcançável pelo leitor via cross-ref.
 
 Uso:
     py audit.py                       # triagem por contagem de linhas
     py audit.py --content             # validação parágrafo a parágrafo
     py audit.py --content --only-problems
     py audit.py --canvas              # cobertura de canvases CZ por fase
+    py audit.py --orphans             # sub-itens BG/CZ/A nunca referenciados
     py audit.py --fix                 # substitui seções desatualizadas no canônico
     py audit.py --only-problems       # mostra só divergências
 """
@@ -341,12 +345,65 @@ def audit_canvas() -> bool:
     return total_gaps == 0
 
 
+def audit_orphans() -> bool:
+    """Detecta sub-itens BG.X.Y, CZ.N e A.N definidos mas nunca referenciados.
+
+    Estratégia: para cada sub-item definido (header em seu apêndice fonte),
+    busca referências em outros arquivos do repo (fases + outros apêndices).
+    Se zero referências fora do próprio apêndice fonte, marca como órfão.
+    """
+    print("=== AUDITORIA DE ITENS ÓRFÃOS (definidos mas não referenciados) ===\n")
+
+    bg_path = ROOT / "apendices" / "apendice-bg.md"
+    cz_path = ROOT / "apendices" / "apendice-cz.md"
+    a_path = ROOT / "apendices" / "apendice-a.md"
+
+    bg_codes = re.findall(r"^## (BG\.\d+\.\d+) ", bg_path.read_text(encoding="utf-8"), re.MULTILINE)
+    cz_codes = re.findall(r"^### (CZ\.\d+) ", cz_path.read_text(encoding="utf-8"), re.MULTILINE)
+    a_codes = re.findall(r"^### (A\.\d+) ", a_path.read_text(encoding="utf-8"), re.MULTILINE)
+
+    print(f"Definidos: {len(bg_codes)} BG, {len(cz_codes)} CZ, {len(a_codes)} A.\n")
+
+    all_files = list((ROOT / "fases").glob("*.md")) + [
+        p for p in (ROOT / "apendices").glob("*.md")
+        if p.stem not in {"apendice-bg", "apendice-cz", "apendice-a", "apendice-data-compilacao"}
+    ]
+    full_text = "\n".join(p.read_text(encoding="utf-8") for p in all_files)
+
+    def check(codes: list[str], label: str) -> list[str]:
+        orphans = []
+        for code in codes:
+            pattern = re.compile(r"\b" + re.escape(code) + r"\b")
+            if not pattern.search(full_text):
+                orphans.append(code)
+        if orphans:
+            print(f"{label} órfãos ({len(orphans)} de {len(codes)}):")
+            for code in orphans:
+                print(f"  - {code}")
+            print()
+        else:
+            print(f"{label}: 0 órfãos (todos os {len(codes)} sub-itens são referenciados).\n")
+        return orphans
+
+    bg_orphans = check(bg_codes, "BG")
+    cz_orphans = check(cz_codes, "CZ")
+    a_orphans = check(a_codes, "A")
+
+    total = len(bg_orphans) + len(cz_orphans) + len(a_orphans)
+    print(f"=== RESULTADO (modo orphans) ===")
+    print(f"Total de órfãos:  {total}")
+    return total == 0
+
+
 if __name__ == "__main__":
     fix = "--fix" in sys.argv
     only_problems = "--only-problems" in sys.argv
     content = "--content" in sys.argv
     canvas = "--canvas" in sys.argv
-    if canvas:
+    orphans = "--orphans" in sys.argv
+    if orphans:
+        success = audit_orphans()
+    elif canvas:
         success = audit_canvas()
     elif content:
         success = audit_content(only_problems=only_problems)

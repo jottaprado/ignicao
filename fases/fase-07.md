@@ -452,7 +452,7 @@ O que vem nas Fases 8 e 9. Agora que você sabe que o problema é real, e que as
 
 ### FERRAMENTAS DESTA FASE
 
-Experimentos de validação do problema são o coração da metodologia. Doze ferramentas de pesquisa qualitativa: JTBD Switch Interviews (BG.6.2), Contextual Inquiry (BG.6.3), In-Depth Interviews (BG.6.6), Laddering Technique e Means-End Chain (BG.6.7), Focus Groups (BG.6.5), Grounded Theory (BG.9.1), Thematic Analysis (BG.9.2), Affinity Diagramming / KJ Method (BG.9.3), Empathy Mapping (BG.9.5), Assumption Mapping (BG.9.8), Pre-mortem (BG.5.3) e Expected Value (BG.5.7).
+Experimentos de validação do problema são o coração da metodologia. Treze ferramentas de pesquisa qualitativa e ciclos rápidos: JTBD Switch Interviews (BG.6.2), Contextual Inquiry (BG.6.3), In-Depth Interviews (BG.6.6), Laddering Technique e Means-End Chain (BG.6.7), Focus Groups (BG.6.5), Grounded Theory (BG.9.1), Thematic Analysis (BG.9.2), Affinity Diagramming / KJ Method (BG.9.3), Empathy Mapping (BG.9.5), Assumption Mapping (BG.9.8), OODA Loop (BG.4.6) — observe-orient-decide-act, ciclo curto para iteração rápida em experimentos —, Pre-mortem (BG.5.3) e Expected Value (BG.5.7). Para o catálogo operacional de quando usar cada técnica, ver [[#APÊNDICE A — TEMPLATES PRONTOS PARA USO|A.19]] (Tabela de técnicas de validação por tipo de hipótese).
 
 Canvases visuais complementares ([[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Apêndice CZ]]): CZ.9 (Test Card) e CZ.10 (Pirate Canvas / AARRR).
 

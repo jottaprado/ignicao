@@ -311,7 +311,7 @@ A lição transferível. Protótipo em papel revela falhas de experiência a R$ 
 
 ### FERRAMENTAS DESTA FASE
 
-Ideação e prototipagem de soluções exigem ferramentas de divergência mais convergência estruturadas. Nove ferramentas: Design Thinking Double Diamond (BG.10.5), Google Design Sprint (BG.10.3), Working Backwards / PR-FAQ (BG.10.6), Opportunity Solution Tree (BG.10.2), Continuous Discovery Habits (BG.10.1), Dual-Track Agile (BG.10.9), Personas (BG.9.4), Customer Journey Mapping (BG.9.6) e Service Blueprinting (BG.9.7).
+Ideação e prototipagem de soluções exigem ferramentas de divergência mais convergência estruturadas. Dez ferramentas: Design Thinking Double Diamond (BG.10.5), Google Design Sprint (BG.10.3), Working Backwards / PR-FAQ (BG.10.6), Opportunity Solution Tree (BG.10.2), Continuous Discovery Habits (BG.10.1), Dual-Track Agile (BG.10.9), Impact Mapping (BG.10.14) — Gojko Adzic, mapa visual que liga goals → actors → impacts → deliverables —, Personas (BG.9.4), Customer Journey Mapping (BG.9.6) e Service Blueprinting (BG.9.7).
 
 Canvases visuais complementares ([[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Apêndice CZ]]): CZ.5 (Opportunity Canvas) e CZ.11 (MVP Canvas).
 

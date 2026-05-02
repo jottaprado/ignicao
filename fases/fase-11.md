@@ -527,7 +527,7 @@ O que vem na [[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]]. Product-Market Fit. On
 
 ### FERRAMENTAS DESTA FASE
 
-Validação do modelo de negócio exige mix de qualitativo e quantitativo. Oito ferramentas: Conjoint Analysis (BG.8.2), A/B Testing Rigoroso (BG.8.4), Survey Design (BG.8.1), Net Promoter Score (BG.8.5), Customer Effort Score (BG.8.6), Causal Inference / DiD / RDD / Propensity Score (BG.8.7), Assumption Mapping (BG.9.8) e JTBD Framework (BG.11.1).
+Validação do modelo de negócio exige mix de qualitativo e quantitativo. Nove ferramentas: Conjoint Analysis (BG.8.2), A/B Testing Rigoroso (BG.8.4), Survey Design (BG.8.1), Net Promoter Score (BG.8.5), Customer Effort Score (BG.8.6), Causal Inference / DiD / RDD / Propensity Score (BG.8.7), Assumption Mapping (BG.9.8), JTBD Framework (BG.11.1) e DuPont Analysis (BG.18.11) — decomposição clássica do ROE em margem × giro × alavancagem, útil para diagnosticar onde o modelo de negócio cria ou destrói valor por unidade de capital.
 
 Canvases visuais complementares ([[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Apêndice CZ]]): CZ.10 (Pirate Canvas / AARRR) e CZ.13 (Risk Canvas).
 

@@ -302,7 +302,7 @@ A lição transferível. Hipóteses explícitas separam "o que eu acho" de "o qu
 
 ### FERRAMENTAS DESTA FASE
 
-Formulação de hipóteses exige rigor. É onde o manual enfatiza disciplina analítica. Nove ferramentas essenciais: McKinsey 7-Step Problem Solving (BG.5.1), MECE (BG.4.5), Pre-mortem (BG.5.3), Expected Value e Bayesian Thinking (BG.5.7), Cost-Benefit Analysis (BG.5.6), Cynefin Framework (BG.4.7), Red Team / Blue Team (BG.5.4), Pyramid Principle (BG.4.4) e Inversion (BG.4.3).
+Formulação de hipóteses exige rigor. É onde o manual enfatiza disciplina analítica. Dez ferramentas essenciais: McKinsey 7-Step Problem Solving (BG.5.1), MECE (BG.4.5), Pre-mortem (BG.5.3), Expected Value e Bayesian Thinking (BG.5.7), Cost-Benefit Analysis (BG.5.6), Cynefin Framework (BG.4.7), Red Team / Blue Team (BG.5.4), Pyramid Principle (BG.4.4), Inversion (BG.4.3) e Vieses Cognitivos Críticos para Fundadores (BG.4.8) — Kahneman, Thaler e outros, mapeando confirmação, ancoragem, sobreconfiança e ilusão de planejamento que distorcem hipóteses.
 
 Canvases visuais complementares ([[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Apêndice CZ]]): CZ.9 (Test Card) e CZ.14 (Hypothesis Canvas).
 
