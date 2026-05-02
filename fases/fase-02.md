@@ -152,43 +152,45 @@ Você concluiu a [[#FASE 2 — ARTICULAÇÃO E CAPTURA DA IDEIA|Fase 2]] quando 
 
 **Declaração Inicial, fictícia, PadariaPro.**
 
-O quê. Software de gestão de estoque e compras automatizado para redes pequenas de padarias artesanais, com integração direta com fornecedores de farinha e laticínios.
+Nome de trabalho: PadariaPro (provisório).
 
-Por quê (problema). Padarias artesanais com duas a cinco lojas perdem em média doze a dezoito por cento de margem com ruptura de estoque de ingredientes-chave (farinha de qualidade, manteiga) ou sobra de perecíveis. A gestão manual em Excel ou caderno não escala além de uma loja. Sistemas de ERP para restaurante (como iFood Shop ou Colibri) não têm integração com fornecedores de padaria artesanal.
+Problema: Padarias artesanais com duas a cinco lojas perdem em média doze a dezoito por cento de margem com ruptura de estoque de ingredientes-chave (farinha de qualidade, manteiga) ou sobra de perecíveis. A gestão manual em Excel ou caderno não escala além de uma loja. Sistemas de ERP para restaurante não têm integração com os fornecedores específicos do setor artesanal.
 
-Para quem. Padarias artesanais com duas a cinco lojas em São Paulo capital, faturamento de R$ 80 mil a R$ 400 mil por mês por loja, donos-operadores com menos de quarenta anos e familiaridade com apps no celular. Vinte padarias possíveis já identificadas em Pinheiros, Vila Madalena, e Moema.
+Para quem: Donos-operadores de padarias artesanais com duas a cinco lojas em São Paulo capital, faturamento de R$ 80 mil a R$ 400 mil por mês por loja, abaixo de quarenta anos, familiarizados com apps no celular. Vinte estabelecimentos possíveis já identificados em Pinheiros, Vila Madalena e Moema.
 
-Como. App mobile mais web para gerente, integração com três a cinco fornecedores-chave (Anaconda, Bunge, alguns artesanais), sugestão automática de pedido baseada em consumo histórico mais previsão de demanda (fim de semana, feriados). R$ 290 a R$ 490 por mês por loja.
+Alternativa atual: Compras decididas pelo gerente de produção no dia a dia, com base em experiência e caderno de controle manual. Pedidos emergenciais via WhatsApp direto com fornecedores. Sem previsão de demanda ou histórico estruturado. Ruptura de ingrediente é descoberta no início do turno de produção.
 
-Por que agora. PIX e open finance permitem integração financeira com fornecedores que não existia há três anos. Padarias artesanais cresceram vinte e oito por cento no Brasil de 2020 a 2024 (ABIP). A nova geração de donos tem celular como ferramenta principal, não PC.
+Solução proposta: App mobile e web que, conectado a três a cinco fornecedores-chave, gera sugestão automática de pedido baseada em consumo histórico e sazonalidade. O gerente aprova ou ajusta antes de enviar. Assinatura de R$ 290 a R$ 490 por mês por loja.
 
-Por que eu. Trabalhei quatro anos em fintech de meios de pagamento, tenho contatos diretos em três distribuidoras de farinha, e a minha família tem duas padarias em Belo Horizonte. Conheço o problema de operação pessoalmente.
+Por que pode funcionar: PIX e open finance viabilizaram integração com fornecedores que não existia há três anos. Padarias artesanais cresceram vinte e oito por cento no Brasil de 2020 a 2024, com nova geração de donos usando celular como ferramenta de gestão. O problema de ruptura é documentado, recorrente e diretamente mensurável em margem perdida. O fundador tem contatos diretos em três distribuidoras de farinha e conhece o fluxo operacional de dentro.
 
-Nome de trabalho. PadariaPro (provisório, a ser testado).
+O que eu não sei: Se donos usam app diretamente ou delegam ao gerente de produção. Se os principais fornecedores aceitam integração por API. Se R$ 290 a R$ 490 por mês é percebido como investimento com retorno claro ou como mais um custo fixo. Quantas padarias com esse perfil existem fora de São Paulo. Se há concorrentes regionais que desconheço. Se a decisão de compra é do dono ou do padeiro-chefe. Se o modelo funciona para padarias que produzem para revenda. Qual o churn esperado no primeiro ano. Se o onboarding precisa ser presencial para funcionar. Quais fornecedores têm API disponível ou aceitariam desenvolver integração.
 
-Suposições-chave (matariam se falsas). Donos de padaria de duas a cinco lojas realmente usam app mobile no dia a dia (pode ser que ainda deleguem a gerente ou balconista, e o app não chegue à decisão). Os fornecedores aceitam integração por API, ou pelo menos dois dos cinco principais aceitam (sem integração, o valor cai em setenta por cento). O preço de R$ 290 a R$ 490 por mês é percebido como investimento que paga em menos de três meses (se for visto como mais um custo fixo, sem retorno claro, churna rápido).
+Data: 2026-05-01
+Versão: 1
 
 **Declaração Inicial, caso real, iFood (preenchida retroativamente para 2011).**
 
-Esta versão reconstrói como os fundadores do iFood (Patrick Sigrist, Felipe Fioravante, Eduardo Baer, Guilherme Bonifácio, Daniel Oliveira) poderiam ter preenchido o Template A.1 antes do lançamento. Baseada em entrevistas e material público.
+Esta versão reconstrói como os fundadores do iFood (Patrick Sigrist, Felipe Fioravante, Eduardo Baer, Guilherme Bonifácio, Daniel Oliveira) poderiam ter preenchido a Declaração Inicial antes do lançamento. Baseada em entrevistas e material público.
 
-O quê. Plataforma digital, app e web, para pedido e entrega de comida de restaurantes em domicílio no Brasil. Agrega cardápios, processa pedido, e coordena entrega via motoboys terceirizados.
+Nome de trabalho: iFood.
 
-Por quê (problema). Pedir comida em casa no Brasil em 2011 funciona por telefone. Ligar para o restaurante, ditar pedido, esperar quarenta a noventa minutos sem informação de status, pagar em dinheiro contado na porta. Restaurantes pequenos perdem trinta a quarenta por cento do potencial de venda por capacidade limitada de atender ligações no horário de pico. E não têm logística própria.
+Problema: Pedir comida em casa no Brasil em 2011 funciona por telefone. Ligar para o restaurante, ditar pedido, esperar quarenta a noventa minutos sem informação de status, pagar em dinheiro contado na porta. Restaurantes pequenos perdem trinta a quarenta por cento do potencial de venda por incapacidade de atender todas as ligações no horário de pico. Não há logística de entrega estruturada para quem não tem frota própria.
 
-Para quem. No lado consumidor, classe A e B em capitais (SP, RJ, BH, POA), vinte e dois a quarenta e cinco anos, smartphone iOS ou Android, hábito de delivery uma a três vezes por semana. Estimado em quatro a seis milhões de pessoas em 2011. No lado restaurante, estabelecimentos com ticket médio de R$ 30 a R$ 80, sem operação de delivery própria estruturada, abertos a comissão de dez a quinze por cento sobre o pedido.
+Para quem: No lado consumidor, classe A e B em capitais (SP, RJ), vinte e dois a quarenta e cinco anos, smartphone iOS ou Android, hábito de delivery de uma a três vezes por semana. Estimado em quatro a seis milhões de pessoas em 2011. No lado restaurante, estabelecimentos com ticket médio de R$ 30 a R$ 80, sem operação de delivery própria estruturada, dispostos a pagar comissão sobre o pedido.
 
-Como. App mobile (iOS e Android) mais site para o consumidor, portal web para o restaurante receber e gerenciar pedidos, rede de motoboys terceirizados acionada por demanda. Modelo: comissão sobre o pedido, não assinatura. Cobertura inicial: bairros da zona oeste e zona sul de São Paulo.
+Alternativa atual: Consumidor guarda cardápios de papel em gaveta, liga direto para o restaurante, paga em dinheiro contado na porta, espera sem rastreamento. Restaurante anota pedido à mão, coordena motoboy por telefone ou usa entregador próprio sem escala. Sem confirmação de entrega, sem histórico de pedidos, sem previsão de demanda.
 
-Por que agora. A penetração de smartphone em classe A e B passou de dez para trinta e cinco por cento entre 2009 e 2011. Modelo equivalente já comprovado fora do Brasil (Just Eat no Reino Unido, Grubhub nos EUA). E nenhum incumbente brasileiro grande oferece o serviço. O espaço está aberto.
+Solução proposta: Plataforma que agrega cardápios digitais, processa pedidos por app e web, e coordena entrega via rede de motoboys terceirizados. Restaurante recebe pedido em tablet. Consumidor paga com cartão e acompanha status. Modelo de comissão sobre o pedido, sem mensalidade para o restaurante. Cobertura inicial: zona oeste e zona sul de São Paulo.
 
-Por que nós. Equipe combinando experiência em e-commerce (Patrick Sigrist com background em projeto digital), tecnologia (Eduardo Baer e Guilherme Bonifácio em desenvolvimento), e operação (Felipe Fioravante e Daniel Oliveira em business development). Nenhum cofundador é restaurador. O conhecimento de domínio do setor de restaurantes terá que ser construído na operação.
+Por que pode funcionar: Penetração de smartphone em classes A e B passou de dez para trinta e cinco por cento entre 2009 e 2011. Modelo equivalente já comprovado em outros mercados (Just Eat no Reino Unido, Grubhub nos EUA). Nenhum incumbente brasileiro opera o serviço em escala. Pagamento por cartão cresce com e-commerce. Restaurantes têm problema de capacidade documentado no horário de pico.
 
-Nome de trabalho. iFood.
+O que eu não sei: Se restaurantes pequenos topam comissão de dez a quinze por cento dada a margem operacional apertada. Se o consumidor brasileiro aceita pagar com cartão em entrega a domicílio. Se motoboys terceirizados conseguem entregar em quarenta e cinco minutos ou menos de forma consistente. Se restaurantes aceitam mudar o processo de recebimento de pedidos para incluir um tablet. Qual o CAC real para adquirir restaurantes na fase de lançamento. Se os dois lados do marketplace se equilibram na mesma região ao mesmo tempo. Se restaurantes vão exigir exclusividade. Se delivery de comida tem sazonalidade semanal forte o suficiente para criar problema de escala de motoboys. Quais bairros têm densidade suficiente para o primeiro piloto. Se a comissão sustenta o modelo econômico com o custo real do motoboy em São Paulo.
 
-Suposições-chave (matariam se falsas). Restaurantes pequenos topam comissão de dez a quinze por cento (alguns vão considerar caro contra margem operacional já apertada). Consumidor de classe A e B aceita pagar pelo aplicativo (cartão) em vez de dinheiro na porta (historicamente o brasileiro desconfia de pagamento online). A logística por motoboys terceirizados gera experiência de entrega aceitável, ou seja, quarenta e cinco minutos ou menos do pedido em pelo menos oitenta por cento dos casos (abaixo disso, o produto não cola).
+Data: 2011 (reconstituída)
+Versão: 1
 
-Comparando os dois casos. PadariaPro mira B2B em nicho profundo (vertical artesanal, cerca de dois mil e quinhentas padarias-alvo no Brasil). iFood mira marketplace bilateral em mercado de massa (milhões de consumidores, dezenas de milhares de restaurantes). Os instrumentos são os mesmos. Declaração Inicial em uma página, suposições-chave explícitas, "por que agora" justificado, "para quem" verificável com nomes reais. O que muda é a escala e o tipo de incerteza dominante. PadariaPro precisa validar que o nicho compra. iFood precisa validar que dois lados do marketplace aceitam o modelo simultaneamente.
+Comparando os dois casos: PadariaPro mira B2B em nicho profundo (vertical artesanal, cerca de dois mil e quinhentas padarias-alvo no Brasil). iFood mira marketplace bilateral em mercado de massa (milhões de consumidores, dezenas de milhares de restaurantes). Os instrumentos são os mesmos: Declaração Inicial com seis campos preenchidos, alternativa atual descrita com honestidade, lista de dez ou mais incertezas reais, "para quem" verificável com nomes ou perfis concretos. O que muda é a escala e o tipo de incerteza dominante. PadariaPro precisa validar que o nicho compra. iFood precisa validar que dois lados do marketplace aceitam o modelo simultaneamente.
 
 ### Armadilhas
 
