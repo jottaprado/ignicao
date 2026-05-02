@@ -174,6 +174,9 @@ O fundador é o ator mais crítico para retenção nos primeiros 12–18 meses. 
 | Engajamento (pesquisa) | eNPS ou survey trimestral | Queda de > 15 pontos nos primeiros 6 meses |
 | Absenteísmo e demissões voluntárias | Acompanhamento mensal de RH | Aceleração acima da média histórica |
 
+> [!info] Fases relacionadas
+> Referenciado em: Fase 16.
+
 ---
 
 ### Armadilhas

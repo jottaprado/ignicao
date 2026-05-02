@@ -511,4 +511,7 @@ Você aplicou esse apêndice bem quando identificou três a cinco casos análogo
 
 [[#APÊNDICE AI — CASOS DE FRACASSO BRASILEIROS E LIÇÕES|Apêndice AI]] cobre casos de fracasso brasileiros (temático). [[#APÊNDICE CW — CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO|Apêndice CW]] cobre crise e recuperação. [[#APÊNDICE BV — LAYOFFS E DOWNSIZING: COMO DEMITIR EM ESCALA SEM DESTRUIR A EMPRESA|Apêndice BV]] cobre layoffs.
 
+> [!info] Fases relacionadas
+> Referenciado em: Fase 3, Fase 15.
+
 ---

@@ -398,6 +398,9 @@ Pipeline Coverage    | 3x meta             | 3–4x meta          | Pipeline / m
 > [!note] Como usar o GTM Canvas
 > Este canvas é documento vivo. Revisite a cada trimestre. O ICP muda quando você aprende quem retém melhor. O motion muda quando um canal que parecia promissor não escala. O risco GTM deve ser o problema mais importante que o time comercial está tentando resolver — não uma lista de problemas.
 
+> [!info] Fases relacionadas
+> Referenciado em: Fase 5.
+
 ---
 
 **Ver também:** [[apendice-ea|Apêndice EA — Product Marketing]], [[apendice-am|Apêndice AM — Métricas de Crescimento]], [[apendice-ai|Apêndice AI — Inside Sales e SDR]], [[apendice-ae|Apêndice AE — Marketplace Dynamics]], [[apendice-b|Apêndice B — Modelo de Negócio e Unit Economics]]

@@ -625,4 +625,7 @@ Passar em cheque dói no momento. Mas empresa quebrada por investidor errado dó
 - [ ] Sem red flags conhecidos sobre reputação do VC no ecossistema.
 - [ ] Pronto para conviver com esse investidor por cinco a dez anos.
 
+> [!info] Fases relacionadas
+> Referenciado em: Fase 16.
+
 ---

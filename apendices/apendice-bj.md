@@ -107,10 +107,6 @@ Para aquisição específica: ROI de aquisição (valor criado vs investimento, 
 
 Para estratégia de M&A ativo contínuo: deal flow pipeline (quantas oportunidades por trimestre), conversion rate (porcentagem de oportunidades que fecham), tempo médio de deal (da primeira conversa ao closing) e custo total de M&A (advisors, advogados, integração, como porcentagem do deal value).
 
-### Definição de sucesso
-
-M&A funciona quando a tese de aquisição está articulada antes de qualquer deal específico, o processo de DD é estruturado e replicável, documentação legal template existe com advogados de confiança, há time de integração dedicado ou processo claro, retenção de setenta por cento ou mais de key people e oitenta por cento ou mais de clientes pós-aquisição, criação de valor mensurável em vinte e quatro a trinta e seis meses e aprendizado compilado para próximos deals.
-
 ### Armadilhas
 
 > [!warning] Armadilhas de M&A ativo
@@ -128,5 +124,8 @@ M&A funciona quando a tese de aquisição está articulada antes de qualquer dea
 ### Ver também
 
 [[#APÊNDICE CE — VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR|Apêndice CE]] cobre métodos de valuation em profundidade.
+
+> [!info] Fases relacionadas
+> Referenciado em: Fase 16.
 
 ---

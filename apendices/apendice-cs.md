@@ -154,9 +154,12 @@ Não reconsiderar a decisão após doze a vinte e quatro meses. O caminho escolh
 
 ### Sinal final
 
-A escolha entre bootstrap, e VC, tem peso de decisão fundacional. Faça-a com a mesma seriedade que a escolha de sócio, ou de mercado. Fale com três a cinco fundadores que escolheram cada caminho (idealmente dois de cada), antes de decidir. As conversas diretas com quem viveu valem mais que qualquer artigo de newsletter. Inclusive esse.
+Fale com três a cinco fundadores que escolheram cada caminho (idealmente dois de cada) antes de decidir. As conversas diretas com quem viveu valem mais que qualquer artigo de newsletter. Inclusive esse.
 
 > [!warning] Verdade desconfortável
 > O ecossistema brasileiro de venture, em 2024 a 2026, tem viés forte para captação. Eventos, newsletters, podcasts, aceleradoras, e grupos de founders, privilegiam a narrativa do capital. Bootstrap existe. Mas é menos visível. Se você escolhe bootstrap, aceite que a sua trajetória será menos celebrada publicamente. E em troca, você pode ter uma empresa que vale mais, com mais controle, por mais tempo.
+
+> [!info] Fases relacionadas
+> Referenciado em: Fase 14, Fase 15.
 
 ---

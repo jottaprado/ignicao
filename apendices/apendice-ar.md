@@ -90,4 +90,7 @@ Não medir conversion. Volume de tráfego sem conversion é vanity metric.
 - [ ] Expectativa realista de ROI (doze a dezoito meses)?
 - [ ] Investimento alocado, e sustentado?
 
+> [!info] Fases relacionadas
+> Referenciado em: Fase 10.
+
 ---

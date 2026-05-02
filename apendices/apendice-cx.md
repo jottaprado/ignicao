@@ -173,4 +173,7 @@ A cultura também pesa. Relacionamento importa mais que contrato. Jantar, evento
 
 [[#APÊNDICE AE — MARKETPLACE DYNAMICS E RISCO DE PLATAFORMA|Apêndice AE]] cobre marketplace como modelo adjacente. [[#APÊNDICE CK — B2B2C: QUANDO SUA EMPRESA VENDE PARA OUTRA EMPRESA QUE VENDE PARA CONSUMIDOR|Apêndice CK]] cobre o caso em que parte da venda é via outra empresa servindo consumidor. [[#APÊNDICE CU — INTERNACIONALIZAÇÃO: ESTRUTURA E PRODUTO PARA MÚLTIPLOS MERCADOS|Apêndice CU]] cobre expansão geográfica via canal.
 
+> [!info] Fases relacionadas
+> Referenciado em: Fase 14.
+
 ---

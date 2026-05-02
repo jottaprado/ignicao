@@ -222,4 +222,7 @@ Nas Fases 12 a 15 (Escala), a descoberta contínua vira protagonista. Agora é d
 > [!important] Princípio geral
 > Nenhum framework desaparece em nenhuma fase. O que muda é qual está em primeiro plano. Fundador iniciante que usa só um framework em todas as fases está sub-otimizando. Reconhecer em qual modo estar e quando trocar é parte do método.
 
+> [!info] Fases relacionadas
+> Referenciado em: Fase 1, Fase 2.
+
 ---

@@ -10225,4 +10225,7 @@ Assumir que S atual nunca acaba: "nossa tecnologia ainda tem décadas". Maybe si
 
 # APÊNDICES TEMÁTICOS
 
+> [!info] Fases relacionadas
+> Referenciado em: Fase 0, Fase 2, Fase 2B, Fase 4, Fase 5, Fase 6, Fase 7, Fase 8, Fase 9, Fase 10, Fase 11, Fase 12, Fase 13, Fase 14, Fase 15, Fase 16.
+
 ---

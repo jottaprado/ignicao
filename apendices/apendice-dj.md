@@ -149,6 +149,9 @@ Para sócio que sai voluntariamente vs. sócio excluído: a validade pode variar
 - [ ] O que acontece se o adquirente me demitir antes do prazo — a non-compete persiste?
 - [ ] Há exceções (ex: posso ser advisor de empresa não-concorrente)?
 
+> [!info] Fases relacionadas
+> Referenciado em: Fase 16.
+
 ---
 
 ### Armadilhas

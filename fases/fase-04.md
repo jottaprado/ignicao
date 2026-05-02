@@ -156,6 +156,9 @@ Ferramentas pagas: Dovetail, Delve, Atlas.ti. Alternativas grátis: planilha com
 
 ##### Triangulação qualitativa mais quantitativa
 
+> [!tip] Apêndice AO — Dados, Analytics e Experimentação
+> A triangulação abaixo é a primeira vez que você produz dados estruturados sobre o cliente. O [[#APÊNDICE AO — DADOS, ANALYTICS E EXPERIMENTAÇÃO|Apêndice AO]] aprofunda como estruturar surveys de validação, interpretar dados de survey com rigor estatístico mínimo, e montar o pipeline de experimentação que sustentará as decisões de produto nas fases posteriores.
+
 Entrevistas sozinhas produzem hipóteses ricas mas estatisticamente frágeis. Survey sozinho produz números sem contexto. Combinar os dois é o padrão-ouro. Três passos.
 
 Primeiro, use entrevistas (dez a trinta) para gerar temas, com os outputs do affinity mapping ou da codificação temática.
@@ -364,6 +367,9 @@ As barreiras à troca foram três. Percepção de que "a equipe não vai usar". 
 
 ### Armadilhas
 
+> [!note] Apêndice D — Armadilhas Mentais e Vieses
+> Personas fictícias, viés de confirmação na síntese qualitativa e ancoragem na hipótese original são os vieses mais comuns nesta fase. O [[#APÊNDICE D — ARMADILHAS MENTAIS E VIESES COGNITIVOS DO EMPREENDEDOR|Apêndice D]] trata especificamente de vieses de pesquisa — como o efeito halo sobre entrevistados carismáticos e o viés de disponibilidade que faz a última entrevista parecer mais importante que as anteriores.
+
 Criar personas fictícias. Sem dados, persona é caricatura. Força você a dizer "a nossa persona é a Ana, uma dona de restaurante…", mas não protege decisões ruins.
 
 Confiar só no que a pessoa diz. Pessoas relatam uma versão idealizada de si mesmas. Observe além de escutar.
@@ -409,11 +415,9 @@ Second-Order Thinking. Pensar além da resposta direta do usuário. O que eles f
 
 ### SÍNTESE DA FASE 4
 
-A [[#FASE 4 — PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY APROFUNDADO)|Fase 4]] vai além do que a [[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]] alcançou. Saber que um problema existe não basta para projetar uma solução. Você precisa saber em que contexto ele ocorre. Em que sequência de eventos. Com quais restrições. Com quais emoções. Com quais pessoas envolvidas. Soluções projetadas sem esse entendimento se chocam contra a realidade no momento da adoção. Mas eu não posso usar isso no meio do turno. Meu chefe nunca ia aprovar. Isso pressupõe que eu tenho internet, e eu não tenho.
+A diferença entre quem faz certo, e quem falha, está em observar, e não só perguntar. Entrevista produz evidência declarada. Observação em contexto produz evidência comportamental. As duas são diferentes, e a segunda é mais valiosa.
 
-A diferença entre quem faz certo, e quem falha, está em observar, e não só perguntar. Entrevista produz evidência declarada. Observação em contexto produz evidência comportamental. As duas são diferentes, e a segunda é mais valiosa. Aplicar Jobs to be Done é o que impede você de construir features irrelevantes. O usuário não quer um produto. Ele contrata o produto para fazer um job específico. Quando você descobre o job real, percebe que metade das features planejadas não serve, e que outras que você não tinha imaginado são essenciais.
-
-O entregável é o Dossiê do Usuário. Personas baseadas em dados reais, não em intuição. Jornadas mapeadas com momentos críticos identificados. Lista clara de jobs. Esse dossiê é insumo das Fases 8 e 9, ideação e protótipo. Quem ignora a [[#FASE 4 — PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY APROFUNDADO)|Fase 4]] e pula para "vamos construir" entra na construção sem entender quem vai usar, e em que circunstância. O resultado é produto bem-feito tecnicamente, e ignorado por quem deveria adotar.
+O entregável é o Dossiê do Usuário. Personas baseadas em dados reais, não em intuição. Jornadas mapeadas com momentos críticos identificados. Lista clara de jobs. Esse dossiê é insumo das Fases 8 e 9, ideação e protótipo. A [[#FASE 5 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 5]] vai usar esse material para posicionar a oportunidade dentro da paisagem competitiva real — quem são os concorrentes, onde está a cunha de entrada, por que o cliente trocaria a alternativa atual por você. Quem ignora a [[#FASE 4 — PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY APROFUNDADO)|Fase 4]] e pula para "vamos construir" entra na construção sem entender quem vai usar, e em que circunstância. O resultado é produto bem-feito tecnicamente, e ignorado por quem deveria adotar.
 
 # fase4 #pesquisa-usuarios #customer-discovery #jtbd #personas #jornada-usuario #affinity-mapping #beachhead
 

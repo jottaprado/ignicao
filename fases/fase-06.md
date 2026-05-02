@@ -45,6 +45,9 @@ Toda decisão de negócio assume algo sobre o mundo. "O meu cliente vai pagar R$
 
 A priorização de hipóteses também impede que você desperdice energia testando coisas de pouco impacto. Você quer testar primeiro o que, se for falso, derruba o negócio inteiro. Isso se chama "risco-maior-primeiro".
 
+> [!note] Apêndice F — Científico vs Lean Startup
+> A disciplina de formular hipóteses falsificáveis é o ponto de convergência entre o método científico e a metodologia Lean. O [[apendice-f|Apêndice F — Científico vs Lean Startup]] mapeia as diferenças e complementaridades: quando o rigor hipotético-dedutivo aplica e quando o loop Build-Measure-Learn é mais adequado. Relevante especialmente para fundadores com background técnico ou científico que estão aplicando o método ao contexto de negócio pela primeira vez.
+
 ### Quando usar
 
 Comece imediatamente depois das Fases 2, 3, e 4. Termine quando tiver quinze a trinta hipóteses escritas, priorizadas, e souber quais são as três a cinco "bet-the-company" que vai testar primeiro. Revisite a cada duas a quatro semanas. Hipóteses antigas viram verdades (validadas), ou são refutadas, e novas emergem.
@@ -205,6 +208,9 @@ Percentual de hipóteses com critério quantitativo de validação. Alvo: cem po
 
 Número de hipóteses bet-the-company identificadas. Alvo: três a cinco.
 
+> [!tip] Apêndice G — Framework de Gates
+> A saída desta fase alimenta diretamente o gate de passagem para a Fase 7. O [[apendice-g|Apêndice G — Framework de Gates]] define os critérios objetivos que uma hipótese bet-the-company deve satisfazer antes de passar para experimento: quórum mínimo de evidência, ausência de contradição fatal na árvore de teoria, e consenso do founding team sobre prioridade. Use para evitar avançar com hipóteses ainda sem clareza de critério de refutação.
+
 ### SAÍDA DESTA FASE
 
 Você concluiu a [[#FASE 6 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 6]] quando os sete critérios abaixo estão cumpridos.
@@ -236,35 +242,26 @@ Você concluiu a [[#FASE 6 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 6]] quan
 
 ### EXEMPLO PRÁTICO
 
-**Banco de Hipóteses, PadariaPro (fragmento top 10).**
+**PadariaPro, hipótese H1 (problema de estoque).**
 
-| # | Hipótese | Categoria | Risco | Info | Prior. | Status |
-|---|---|---|---|---|---|---|
-| H1 | Donos de padaria de três a cinco lojas têm perda de oito por cento ou mais de margem por má gestão de estoque | Problema | Alto | Alto | 1 | Em teste |
-| H2 | Donos pagariam R$ 400 por mês por loja se a redução de perda for demonstrada em sessenta dias | Monetização | Alto | Alto | 2 | Não testada |
-| H3 | Integração via API com Anaconda é obtenível em noventa dias | Solução | Alto | Médio | 3 | Em teste |
-| H4 | Algoritmo de previsão de demanda acerta setenta e cinco por cento ou mais em padaria com histórico de seis meses | Solução | Médio | Alto | 4 | Não testada |
-| H5 | Churn igual ou menor a três por cento ao mês depois do ano 1, com NRR igual ou maior a cento e dez por cento | Monetização | Médio | Médio | 5 | Não testada |
-| H6 | Dois de cada três donos recomendariam a padarias amigas depois de noventa dias | Cliente | Médio | Médio | 6 | Não testada |
-| H7 | Integrações com fornecedores criam moat defensável, concorrente demora seis meses ou mais para replicar | Solução | Médio | Baixo | 7 | Não testada |
-| H8 | Onboarding em menos de sete dias é viável sem TI | Solução | Baixo | Alto | 8 | Não testada |
-| H9 | Mercado total é igual ou maior a quatrocentas padarias em SP com perfil-alvo | Cliente | Baixo | Alto | 9 | Validada |
-| H10 | Canal principal inicial é indicação por dono-amigo | Canal | Médio | Médio | 10 | Não testada |
+HIPÓTESE: Donos de padaria com três a cinco lojas têm perda de oito por cento ou mais de margem em ingredientes críticos por má gestão de estoque.
 
-**Hypothesis Canvas, H1 (problema).**
+ATRIBUTO DA TEORIA: Nó "Dor real e frequente" — a árvore de teoria pressupõe que o problema existe na intensidade necessária para gerar disposição a pagar. Se falsa, todo o ramo de monetização cai antes de qualquer experimento de preço.
 
-A hipótese, em formato SE-ENTÃO-MENSURA: "Se oferecermos auditoria gratuita de estoque para donos de padaria de três a cinco lojas em SP, então setenta por cento ou mais dos auditados confirmarão perda de oito por cento ou mais da margem em ingredientes críticos. Mensurado em levantamento de dez padarias. Considerado verdadeiro se sete em dez ou mais confirmam perda de oito por cento ou mais. Considerado falso se quatro em dez ou menos confirmam."
+PORQUÊ IMPORTA: Se menos de seis em dez padarias auditadas confirmarem perda de oito por cento ou mais, a dor não sustenta assinatura de R$ 400 por mês. A tese inteira precisa ser revisada antes de qualquer investimento em produto.
 
-O critério de falsificação tem três faixas. Se apenas quatro em dez ou menos confirmam perda de oito por cento ou mais, a dor não é ampla o bastante para sustentar modelo de negócio. Se cinco a seis em dez confirmam, a cunha precisa ser refinada (só rede maior? Só certo tipo de padaria?). Se sete em dez ou mais, seguir para testar H2 (disposição a pagar).
+PARA VALIDAR PRECISO VER: Sete em dez padarias com três a cinco lojas em SP com perda de oito por cento ou mais da margem bruta em trinta dias, verificada por análise de notas fiscais de compra, não só por auto-relato.
 
-O experimento vinculado: auditoria gratuita em dez padarias do perfil, sessenta minutos cada, em duas semanas.
+MÉTODO: Auditoria gratuita de estoque. Recrutar dez padarias via indicação direta. Coletar trinta dias de notas fiscais e comparar com o estoque físico inventariado. Complementar com entrevista de quarenta e cinco minutos com o dono para qualificar a dor.
+
+CUSTO ESTIMADO: Catorze dias. Duas horas por padaria (vinte horas no total). R$ 0 em deslocamento (padarias em raio de cinco quilômetros do fundador). Custo de oportunidade equivalente a três semanas de um fundador.
 
 > [!warning] Risco de interpretação enviesada
-> Donos podem subestimar a perda (vergonha de admitir), ou superestimá-la (para justificar preço de consultoria). Cruze o auto-relato com análise factual de trinta dias de notas fiscais de compra.
+> Donos podem subestimar a perda (vergonha de admitir ineficiência) ou superestimá-la (para justificar tecnologia). Cruzar auto-relato com análise factual de notas fiscais reduz esse viés.
 
 ### Armadilhas
 
-Hipóteses vagas. "Os clientes vão gostar." Sem número, sem teste.
+Hipóteses vagas. "Os clientes vão gostar." Use o formato do Passo 2: afirmação com critério numérico e caminho de refutação.
 
 Só hipóteses de solução. Empreendedores ficam obcecados em testar "a solução funciona?", e esquecem de testar "o cliente paga?", que é a hipótese mais crítica.
 
@@ -316,11 +313,7 @@ Inversion (Munger). Para cada hipótese crítica, formular "sob que condições 
 
 ### SÍNTESE DA FASE 6
 
-A [[#FASE 6 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 6]] transforma um padrão silencioso da operação empreendedora em material de trabalho. Toda decisão de negócio assume algo sobre o mundo. O cliente vai pagar R$ 99. O canal principal será Instagram. Empresas maiores compram mais rápido. Cada uma dessas afirmações é hipótese. Se você as trata como verdades, constrói sobre areia. Se as escreve como hipóteses, e testa uma a uma, constrói sobre rocha. Empreender sem hipóteses explícitas é tomar todas as decisões com base em vibração.
-
-A diferença entre quem faz certo, e quem falha, está na priorização por risco. O Banco de Hipóteses não é lista para checklist. É instrumento de foco. Você quer testar primeiro o que, se for falso, derruba o negócio inteiro. As bet-the-company, três a cinco no início, recebem energia primeiro. Quem desperdiça energia testando hipóteses periféricas, enquanto a hipótese central nunca foi posta à prova, gasta meses validando o errado. E descobre tarde que o pressuposto fundamental nunca tinha sido verificado.
-
-O entregável é tabela viva, não documento que se arquiva. Hipóteses antigas viram verdades validadas, ou são refutadas, e novas emergem ao longo do projeto. Revisitar a cada duas a quatro semanas é higiene. O Banco de Hipóteses é o que estrutura todas as fases seguintes de validação. As Fases 7, 8, 9, 10 não testam ideia em geral. Testam hipóteses específicas, na ordem do risco.
+O entregável é o Banco de Hipóteses priorizado. Tabela viva, não documento que se arquiva. Hipóteses antigas viram verdades validadas, ou são refutadas, e novas emergem ao longo do projeto. Revisitar a cada duas a quatro semanas é higiene. O Banco estrutura todas as fases seguintes: as Fases 7, 8, 9, 10 não testam ideia em geral, testam hipóteses específicas, na ordem do risco. A [[#FASE 7 — EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA|Fase 7]] pega as bet-the-company do topo do Banco e desenha experimentos com threshold pré-registrado para cada uma.
 
 # fase6 #hipoteses #falsificabilidade #csd #bet-the-company #priorizacao #sistema-h-e #banco-hipoteses
 

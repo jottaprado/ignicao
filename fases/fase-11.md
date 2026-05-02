@@ -106,10 +106,10 @@ A fórmula simples para modelo recorrente (SaaS ou assinatura): LTV é igual à 
 
 A fórmula simples para modelo transacional: LTV é igual à receita média por transação, vezes a margem bruta, vezes a frequência anual, vezes os anos esperados.
 
-No início, você não tem dados históricos longos. Use proxies. A retenção observada nos primeiros três a seis meses, extrapolada com cuidado. A taxa de churn mensal observada — LTV é aproximadamente igual a ARPU dividido por churn (simplificado).
+> [!tip] Apêndice CB — Subscription Economy
+> O [[apendice-cb|Apêndice CB — Subscription Economy]] cobre a mecânica específica de negócios recorrentes: MRR waterfall (new, expansion, contraction, churn), dinâmica de NRR, pricing de tiers e as armadilhas de churns que não aparecem na DRE até ser tarde demais.
 
-> [!important] A regra de ouro do LTV dividido por CAC
-> A razão LTV dividido por CAC deve ser três ou mais para o negócio ser saudável. Abaixo de um, você destrói valor a cada cliente. Entre um e três, você sobrevive mas não cresce. Acima de três, você tem máquina potencialmente escalável.
+No início, você não tem dados históricos longos. Use proxies. A retenção observada nos primeiros três a seis meses, extrapolada com cuidado. A taxa de churn mensal observada — LTV é aproximadamente igual a ARPU dividido por churn (simplificado).
 
 #### Passo 3, meça o tempo de payback de CAC
 
@@ -148,6 +148,9 @@ Isso não é "plano de negócios" para impressionar investidor. É ferramenta pa
 > [!note] Forecasting de ARR para validar se o modelo fecha
 > O [[apendice-eg|Apêndice EG — Revenue Forecasting]] traz o ARR waterfall, análise de cohorts de receita, modelos baseados em pipeline, e ajustes de sazonalidade brasileira — ferramentas para testar se as premissas do canvas financeiro são alcançáveis.
 
+> [!tip] Apêndice AN — Modelagem Financeira
+> O [[apendice-an|Apêndice AN — Modelagem Financeira]] cobre a anatomia completa do modelo financeiro para startups — estrutura de abas, premissas auditáveis, projeção de headcount, sensibilidades e como construir um modelo que investidor consegue revisar sem perguntar o que cada célula faz.
+
 ##### Modelo financeiro profissional em três cenários
 
 O plano de uma página é ponto de partida. Modelo financeiro completo em planilha (Excel ou Google Sheets) é obrigatório para qualquer decisão de captação, investimento em time, ou canal. O padrão mínimo exige três cenários explícitos com premissas auditáveis.
@@ -171,6 +174,9 @@ A estrutura do modelo financeiro tem cinco abas.
 
 > [!warning] Regra operacional do cenário conservador
 > O cenário conservador deve mostrar runway de dezoito meses ou mais em qualquer momento. Se não mostra, você está sub-capitalizado. Precisa captar, ou cortar custos *agora*.
+
+> [!tip] Apêndice CD — Modelagem com Cohorts
+> O [[apendice-cd|Apêndice CD — Modelagem com Cohorts]] mostra como construir a análise de coorte de receita que transforma o churn mensal em projeção de ARR, identifica degradação de coortes antes que apareça na DRE e calcula o LTV real por safra de cliente — base da Aba 4 de sensibilidades abaixo.
 
 **Aba 4, Sensibilidades.**
 
@@ -347,7 +353,10 @@ No contexto brasileiro. Ramen-profitable para fundadores brasileiros em São Pau
 | Default Dead, crescimento fraco (Fatal Pinch) | Crise silenciosa | Parar de contratar, consertar produto, cortar custos, buscar ramen-profitable |
 | Ramen-profitable, crescimento estagnado | Solvente, mas sem tração | Reavaliar hipóteses (cunha, ICP, preço) |
 
-Três perguntas de verificação mensal para a gestão de caixa. Estou Default Alive ou Default Dead hoje? Com números, não com esperança. Estou ramen-profitable, ou ainda dependo de capital externo para existir? Se a resposta para as duas anteriores é negativa, qual é o meu plano de noventa dias para mudar isso?
+Três perguntas de verificação mensal para a gestão de caixa. Aplique a checagem Default Alive ou Default Dead descrita no Passo 9 acima — com números, não com esperança. Verifique se você atingiu Ramen Profitable conforme definido no Passo 10 acima. Se a resposta para as duas anteriores é negativa, qual é o meu plano de noventa dias para mudar isso?
+
+> [!tip] Apêndice AT — Gestão de Caixa
+> O [[apendice-at|Apêndice AT — Gestão de Caixa]] aprofunda o ritual mensal de caixa: reconciliação bancária, projeção de 13 semanas, controle de inadimplência e gatilhos de alerta de runway — o processo operacional que transforma o diagnóstico Default Alive/Dead em ação concreta.
 
 ### PERGUNTAS A RESPONDER
 
@@ -545,11 +554,9 @@ Passo 4, decisão honesta.** Se os números estão dentro dos thresholds, você 
 
 ### SÍNTESE DA FASE 11
 
-A [[#FASE 11 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 11]] entrega uma verdade que muitos fundadores resistem a ouvir. Produtos que usuários amam podem levar empresas à falência. Se o CAC é maior do que o LTV, cada cliente adicional destrói valor. Se a margem é baixa demais para cobrir custos operacionais, o negócio não escala. O foco aqui sai do produto, e vai para a máquina econômica. Esse é o capítulo onde startup deixa de ser projeto interessante, e vira ou não vira negócio.
+A [[#FASE 11 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 11]] é o capítulo onde a startup deixa de ser projeto interessante e vira — ou não vira — negócio. O foco sai do produto e vai para a máquina econômica: o que foi diagnosticado aqui é se a empresa consegue adquirir clientes por um custo menor do que eles geram de valor, com margem suficiente para sustentar a operação.
 
-A diferença entre quem faz certo, e quem falha, está em distinguir Default Alive de Default Dead, escutar Paul Graham aqui também. Default Alive é a empresa que, mantendo crescimento e queima atuais, atinge profitability antes do caixa acabar. Default Dead é a que não. A maioria dos fundadores acredita estar em Default Alive sem nunca ter feito a conta. A conta é simples, e o veredito frequentemente desconfortável. Ramen Profitable, ainda Paul Graham, é o estado em que a receita cobre o custo de vida dos fundadores. Esse marco modesto destrava poder de barganha em rodadas, e tempo para iterar sem pressão.
-
-O entregável é o Canvas Financeiro Validado. Não com chutes de planilha, mas com números reais. Esse documento é teste de honestidade. Quem chega à [[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]] (PMF) sem ter validado economia real costuma escalar negócio que não fecha. E descobre tarde que estava queimando capital para crescer rumo ao precipício. Validar economia antes de escalar não é desaceleração. É a diferença entre escalar negócio que existe, e simular escala em negócio que ainda não fecha.
+O entregável é o Canvas Financeiro Validado com números reais. Esse documento é teste de honestidade. Quem chega à [[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]] sem ter validado a economia real costuma escalar negócio que não fecha — e descobre tarde que estava queimando capital rumo ao precipício. Validar a economia antes de escalar é a diferença entre escalar um negócio que existe e simular escala em negócio que ainda não fecha.
 
 # fase11 #unit-economics #cac #ltv #default-alive #default-dead #fatal-pinch #ramen-profitable #cap-table #burn-multiple
 

@@ -5,29 +5,11 @@ appendix: "CM"
 
 ## APÊNDICE CM — BIOTECH E HEALTHTECH: PLAYBOOK DE REGULAÇÃO, ENSAIOS E CAPITAL
 
-### O QUE É
+### O QUE É E POR QUE IMPORTA
 
-Empreender em saúde é jogar um jogo diferente. Os ciclos são mais longos. O capital é mais pesado. A regulação é parte do produto (não obstáculo externo). E a prova de valor exige evidência clínica. Esse apêndice cobre.
+Empreender em saúde é jogar um jogo diferente. Os ciclos são mais longos. O capital é mais pesado. A regulação é parte do produto (não obstáculo externo). E a prova de valor exige evidência clínica. Esse apêndice cobre quatro subcategorias, cada uma com particularidades: healthtech (software ou serviço — prontuário eletrônico, telemedicina, operadora, gestão, IA diagnóstica, dispositivos conectados), medtech (equipamentos, wearables clínicos, implantes, kits de diagnóstico), biotech/farma (moléculas, terapias, biotecnologia de ponta) e diagnóstico (laboratórios, testes genéticos, imagens).
 
-Healthtech (software, ou serviço de saúde). Prontuário eletrônico, telemedicina, operadora, gestão, IA diagnóstica, e dispositivos conectados.
-
-Medtech, ou dispositivos médicos. Equipamentos, wearables clínicos, implantes, e kits de diagnóstico.
-
-Biotech, ou farma. Moléculas, terapias, e biotecnologia de ponta (terapia gênica, e celular).
-
-Diagnóstico. Laboratórios, testes genéticos, e imagens.
-
-Cada um tem particularidades. Trechos marcados indicam qual subcategoria aplica.
-
-### POR QUE IMPORTA
-
-Saúde é nove a dez por cento do PIB global. No Brasil, cerca de 9,6 por cento. Mercado vasto.
-
-Barreiras regulatórias altas criam moats reais. Quem passa, tem vantagem durável.
-
-Outcomes importam literalmente. Vidas. Não métricas.
-
-Capital, e paciência. Ciclos de três a dez ou mais anos. Startups saúde de sucesso (Dasa, Fleury, Hapvida, Alice, Sami, Dr. Consulta) levaram décadas. Ou foram construídas sobre empresas existentes.
+Saúde é 9–10% do PIB global (Brasil: cerca de 9,6%). Barreiras regulatórias altas criam moats reais. Outcomes importam literalmente: vidas, não métricas. Ciclos de 3–10+ anos exigem capital paciente — startups de sucesso (Dasa, Fleury, Hapvida, Alice, Sami, Dr. Consulta) levaram décadas ou foram construídas sobre empresas existentes.
 
 > [!warning] Erros de execução em saúde
 > Têm custo moral, e criminal. Não só comercial.

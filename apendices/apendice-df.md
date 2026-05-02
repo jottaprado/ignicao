@@ -182,6 +182,9 @@ Na Série A @ R$ 20M pre-money:
 - [ ] Modelei o cap table pós-conversão em três cenários: rodada pequena, esperada e grande?
 - [ ] Advogado com experiência em venture revisou o documento?
 
+> [!info] Fases relacionadas
+> Referenciado em: Fase 16.
+
 ---
 
 ### Armadilhas

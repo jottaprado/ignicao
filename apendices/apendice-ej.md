@@ -1,6 +1,9 @@
 ---
 title: "APÊNDICE EJ — TOMADA DE DECISÃO COMO DISCIPLINA"
 appendix: "EJ"
+> [!info] Fases relacionadas
+> Referenciado em: Fase 15.
+
 ---
 
 ## APÊNDICE EJ — TOMADA DE DECISÃO COMO DISCIPLINA

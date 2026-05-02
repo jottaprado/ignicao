@@ -261,6 +261,9 @@ Para startups que ainda não querem estruturar S/A ou emitir quotas, phantom sha
 
 **Não modelar o cap table fully diluted antes de cada rodada.** Founders chegam à Série A achando que têm 40% da empresa. Com o option pool existente, os COCPs, e o novo pool exigido pelo VC, calculado fully diluted, têm 28%. A surpresa na hora do term sheet destrói negociação. Modelar sempre.
 
+> [!info] Fases relacionadas
+> Referenciado em: Fase 13.
+
 ---
 
 ### Conexão com outros apêndices

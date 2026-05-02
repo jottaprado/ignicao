@@ -162,4 +162,7 @@ Layoff bem executado tem perfil reconhecível. Decisão tomada deliberadamente, 
 
 [[#APÊNDICE CW — CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO|Apêndice CW]] cobre crise e recuperação no escopo amplo. [[#APÊNDICE BU — DIVERSIDADE, EQUIDADE E INCLUSÃO (DEI) EM STARTUP BRASILEIRA|Apêndice BU]] cobre DEI e o cuidado com bias em decisões de corte. [[#APÊNDICE AP — CULTURA COMO DISCIPLINA|Apêndice AP]] cobre cultura, que é o que se preserva ou se destrói no processo. [[#APÊNDICE Y — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Apêndice Y]] cobre o impacto pessoal de conduzir layoff em quem decide.
 
+> [!info] Fases relacionadas
+> Referenciado em: Fase 14.
+
 ---

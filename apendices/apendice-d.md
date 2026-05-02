@@ -136,4 +136,7 @@ Incluo abaixo porque é uma lista com nomes concretos para padrões de falha que
 
 Os outros dezessete são apenas descrições de caminhos pelos quais você chega a não fazer algo que as pessoas querem. Reler a lista mensalmente, com honestidade, é um dos exercícios de autocorreção mais baratos que um fundador pode ter.
 
+> [!info] Fases relacionadas
+> Referenciado em: Fase 0, Fase 1, Fase 2, Fase 3, Fase 4, Fase 11.
+
 ---

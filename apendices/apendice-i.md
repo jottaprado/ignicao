@@ -179,4 +179,7 @@ Uma ferramenta de automação simples. Zapier, Make, ou n8n, para ligar as coisa
 > [!tip] Não coleção de vinte ferramentas
 > Seis ferramentas bem-dominadas rendem mais do que vinte superficialmente.
 
+> [!info] Fases relacionadas
+> Referenciado em: Fase 10.
+
 ---

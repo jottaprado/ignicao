@@ -162,4 +162,7 @@ Pivot bem executado é uma das ferramentas mais poderosas do fundador. Muitas em
 
 A diferença entre os dois é disciplina. Evidência antes da decisão. Tese específica da nova direção. Comunicação aberta a stakeholders. Medição rigorosa do novo caminho. Falta de qualquer um dos quatro quase sempre indica que o "pivot" é, na verdade, outra coisa menos útil.
 
+> [!info] Fases relacionadas
+> Referenciado em: Fase 15.
+
 ---

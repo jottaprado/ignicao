@@ -144,4 +144,7 @@ ___________________________________________________________
 > [!tip] Ritmo de aplicação
 > Aplique o scorecard ao final da Fase 5, depois ao final da Fase 11, e periodicamente daí em diante (trimestralmente nos primeiros dois anos, semestralmente depois). As variações ao longo do tempo contam uma história: em que gates você está melhorando? em quais está estagnando? Isso direciona onde investir energia.
 
+> [!info] Fases relacionadas
+> Referenciado em: Fase 1, Fase 6.
+
 ---

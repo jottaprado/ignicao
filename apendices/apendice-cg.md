@@ -315,6 +315,9 @@ Ticket > R$ 3k/mês            SLG (PLG pode existir
   > 2h ou customização         SLG necessário
 Comprador = usuário final      PLG favorecido
 Comprador = TI/Procurement     SLG necessário
+> [!info] Fases relacionadas
+> Referenciado em: Fase 10, Fase 12, Fase 14.
+
 -------------------------------------------------------
 ```
 

@@ -197,6 +197,9 @@ Para early employees com stock options:
 - Tributação depende da classificação (remuneratória vs. mercantil) — ver [[apendice-db|Apêndice DB]]
 - O preço de exercício (strike price) é o custo de aquisição para fins de ganho de capital
 
+> [!info] Fases relacionadas
+> Referenciado em: Fase 16.
+
 ---
 
 ### Armadilhas

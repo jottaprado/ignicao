@@ -118,23 +118,11 @@ Antes de continuar, responda por escrito, em duas frases cada. Essa minha ideia-
 
 Se as respostas forem fracas (não-orgânica, não está na borda, não consegue listar pessoas), a sua [[#FASE 2 — ARTICULAÇÃO E CAPTURA DA IDEIA|Fase 2]] vai ser muito mais árdua que o normal. Considere pivotar para outra candidata onde as três respostas sejam mais fortes, se tiver na Lista Curta.
 
-#### 3B. O paradoxo da ambição, frighteningly ambitious ideas
+**O paradoxo da ambição.**
 
-Há um ensaio de Graham que vale tratar em separado porque apresenta uma dinâmica contraintuitiva que afeta a escolha de ideia. *Frighteningly Ambitious Startup Ideas*, de 2012. A tese é que as melhores ideias de startup são frequentemente aquelas que intimidam até fundadores capazes. Parecem grandes demais, complexas demais, ambiciosas demais. E por isso, paradoxalmente, têm menos competição do que deveriam.
+Há uma dinâmica contraintuitiva que afeta a escolha de ideia, articulada por Graham em *Frighteningly Ambitious Startup Ideas* (2012). Ideias assustadoramente ambiciosas afugentam a maioria dos fundadores por simples auto-filtro: "isso é grande demais para mim". Resultado: a competição por ideias grandes é sistematicamente menor que a competição por ideias pequenas, mesmo sendo as grandes mais valiosas em expectativa.
 
-A lógica é psicológica antes de ser econômica. Ideias pequenas atraem dezenas de fundadores, porque parecem fazíveis, porque cabem numa apresentação, porque o pitch é fácil. Ideias assustadoramente ambiciosas afugentam a maioria dos fundadores por simples auto-filtro: "isso é grande demais para mim". Resultado: a competição por ideias grandes é sistematicamente menor que a competição por ideias pequenas, mesmo sendo as grandes mais valiosas em expectativa.
-
-Os exemplos canônicos que Graham cita em 2012: a nova busca que substituiria o Google, o novo sistema operacional que substituiria o Windows, o novo Hollywood, a nova universidade. Em 2026, os análogos óbvios incluem o novo sistema bancário pós-incumbentes, a nova educação pós-escola tradicional, a nova medicina personalizada via IA, a nova infraestrutura de identidade digital. Cada um desses espaços intimida a ponto de ter poucos fundadores sérios trabalhando, justamente porque intimidam.
-
-Três consequências práticas para você na [[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]].
-
-A primeira. Quando estiver listando candidatas, não descarte uma ideia só porque ela parece grande demais. Pergunte: se eu conseguisse fazer isso, mesmo que em quinze anos, não em três, ela seria valiosa? Se sim, ela merece pelo menos um lugar na Lista Curta.
-
-A segunda. A cunha inicial pode ser pequena, mas a visão-teto não precisa ser. Stripe começou como API de pagamento para desenvolvedores (cunha pequena), mas tinha visão-teto de infraestrutura financeira global. Nubank começou como cartão de crédito digital (cunha), mas tinha visão-teto de banco completo para 100 milhões de brasileiros. Separar cunha da visão-teto permite ambição sem paralisia.
-
-A terceira. Uma ideia ambiciosa precisa de recorte específico de entrada para ser atacável. Se você consegue articular a cunha pequena que te leva à visão grande, você tem oportunidade. Se só tem a visão grande sem cunha, você tem sonho. O trabalho da [[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]] é achar a cunha dentro da ambição.
-
-Não confunda isso com justificativa para ideias vagas e vaidosas. "Vou mudar o mundo" sem problema específico não é ambição. É fantasia. Ambição operacional é problema grande mais cunha específica mais plano de primeiro ano concreto.
+A consequência prática para a Lista Curta: não descarte uma candidata só porque parece grande demais. A cunha inicial pode ser pequena, mas a visão-teto não precisa ser. Stripe começou como API de pagamento para desenvolvedores (cunha), mas tinha visão-teto de infraestrutura financeira global. Nubank começou como cartão de crédito digital (cunha), mas tinha visão-teto de banco completo para 100 milhões de brasileiros. Se você consegue articular a cunha pequena que leva à visão grande, você tem oportunidade. Se só tem a visão grande sem cunha, tem sonho. "Vou mudar o mundo" sem problema específico não é ambição — é fantasia.
 
 #### 4. Cross-industry transfer, transferência lateral de modelos
 
@@ -176,6 +164,9 @@ Antes de apostar em uma tecnologia, responda as cinco perguntas abaixo. A pontua
 - 23 a 25: mercado em commoditização. Difícil de diferenciar pela tecnologia — vencer exige distribuição ou capital.
 
 #### 6. Wedge theory, começar pelo micro-segmento
+
+> [!tip] Apêndice L — Idea → Wedge → Scale (Framework Antler)
+> O [[#APÊNDICE L — IDEA → WEDGE → SCALE (FRAMEWORK ANTLER)|Apêndice L]] detalha o framework completo usado pelo programa Antler para guiar founders da ideia bruta até a cunha de entrada — incluindo os critérios para escolher uma wedge defensável e o caminho de expansão para mercado maior. Complementa diretamente o método descrito a seguir.
 
 Mesmo quando você tem intuição grande ("quero reinventar educação no Brasil"), o começo real é pequeno. A wedge, ou cunha, é o ponto específico pelo qual você entra no mercado. Não "estudantes brasileiros" (genérico, impossível de atender), mas "estudantes de engenharia do último ano de universidades federais que vão prestar concurso para Petrobras" (específico, endereçável, com dor identificável).
 
@@ -232,6 +223,9 @@ O quarto filtro é modelo de pagamento real. *Quem paga, quanto, e por que volta
 
 No fim dos quatro filtros, idealmente você tem três a cinco ideias-candidatas finais. Escolha uma. A que melhor combina founder-market fit forte mais timing óbvio mais moat plausível mais modelo claro, para levar à [[#FASE 2 — ARTICULAÇÃO E CAPTURA DA IDEIA|Fase 2]]. Guarde as outras na Lista Curta. Se a primeira cair nas fases seguintes, você tem para onde voltar.
 
+> [!tip] Apêndice CZ — Canvases e Mapas Visuais de Modelo
+> Após escolher a candidata, o Lean Canvas (CZ.2) é a ferramenta recomendada para estruturar visualmente o modelo em nove blocos antes de avançar para a Fase 2. Ele força articular Problema, Segmentos, Vantagem Injusta e Modelo de Receita em uma página — o que antecipa e facilita a Declaração Inicial da Ideia. O [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Apêndice CZ]] contém o canvas preenchível com instruções e exemplos.
+
 ### Semana das Ideias, exercício prático de cinco dias
 
 Para quem quer método concreto, esta é uma sequência de cinco dias úteis que aplica os métodos acima em dose intensiva. Cada dia tem um foco específico. Não precisa ser feito em cinco dias consecutivos. Pode ser cinco sábados. Mas espaçamento maior do que isso faz você perder o fio.
@@ -261,11 +255,11 @@ timeline
             : Lista Curta de 3–5 candidatas
 ```
 
-Segunda, Expertise Domain Inventory, duas a três horas. Em documento em branco, responda por escrito. *O que eu sei melhor que noventa e cinco por cento das pessoas? Quais são os cinco setores ou temas onde eu tenho experiência prática? Quais ineficiências aceitas nesses setores eu considero absurdas? Quais ferramentas eu uso no trabalho diário que são ruins, mas ninguém substitui?* Não filtre. No fim, sublinhe os cinco a dez itens mais promissores. Método 1.
+Segunda, Expertise Domain Inventory, duas a três horas. No Método 1 (descrito acima), concentre-se nas perguntas de expertise e ineficiências do setor. Não filtre. No fim, sublinhe os cinco a dez itens mais promissores.
 
-Terça, Friction Journal Review, uma a duas horas. Nas duas semanas anteriores, idealmente, você manteve nota de fricções diárias. Se não manteve, faça uma retrospectiva das últimas duas semanas. Que coisas te irritaram? Que processos demoraram mais do que deveriam? Que decisões você teve dificuldade de tomar por falta de informação? Liste. Para cada fricção, pergunte: é frequente, é generalizável, pagaria para resolver? Método 2.
+Terça, Friction Journal Review, uma a duas horas. No Método 2 (descrito acima), aplique os dois filtros críticos — frequência e generalização, e disposição a pagar — sobre as fricções das últimas duas semanas. Se não manteve nota diária, faça a retrospectiva agora.
 
-Quarta, Cross-Industry Transfer Mapping, duas a três horas. Escolha três modelos de negócio que funcionam em outros países ou outros setores, e imagine adaptações brasileiras. Modelos para rodar o exercício: assinatura de produtos físicos, marketplace de serviços B2B, data-as-a-service em nichos verticais, SaaS especializado em profissão regulamentada brasileira. Para cada, imagine três variações de aplicação. Métodos 4 e 5 combinados.
+Quarta, Cross-Industry Transfer Mapping, duas a três horas. Nos Métodos 4 e 5 (descritos acima), escolha três modelos que funcionam em outros países ou setores e imagine adaptações brasileiras. Modelos de partida: assinatura de produtos físicos, marketplace de serviços B2B, data-as-a-service vertical, SaaS para profissão regulamentada brasileira. Para cada, imagine três variações de aplicação.
 
 Quinta, Calibration Conversations, três a quatro conversas de trinta minutos. Marque conversas rápidas com três a quatro pessoas que trabalham em setores que você não conhece. Pergunte, simplesmente: *qual é a coisa mais ineficiente que você faz no trabalho hoje?* Não proponha soluções. Ouça. Anote padrões. Isso alimenta novas candidatas e dá sinal sobre frequência de dores em setores diferentes.
 
@@ -274,6 +268,9 @@ Sexta, Filter & Choose, três a quatro horas. Consolide toda a lista gerada (dev
 Se a semana produziu candidatas mas você não tem clareza sobre qual escolher, marque uma segunda conversa com o seu parceiro de debate. Leve as três finalistas. Discuta por sessenta minutos. A discussão em voz alta com alguém inteligente quase sempre revela qual é a mais promissora.
 
 ### Armadilhas específicas desta fase
+
+> [!note] Apêndice D — Armadilhas Mentais e Vieses
+> Os erros listados abaixo têm raízes em vieses cognitivos documentados — FOMO de setor, ancoragem na primeira ideia, excesso de confiança. O [[#APÊNDICE D — ARMADILHAS MENTAIS E VIESES COGNITIVOS DO EMPREENDEDOR|Apêndice D]] oferece diagnóstico e contra-medidas para cada viés, útil para revisar antes de aplicar os quatro filtros finais desta fase.
 
 Primeira-ideia-por-cansaço. Você passa três ou quatro semanas na [[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]] sem clareza e decide "vai ser essa mesmo" por fadiga decisória. A pressa de começar tem custo gigante. Uma ideia mediocremente escolhida vai te consumir anos. Se a [[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]] passa das oito semanas sem resolução, o problema provavelmente é paralisia, não falta de boa candidata. Leve as três finalistas para um mentor e force decisão. Mas não escolha por cansaço.
 
@@ -327,6 +324,12 @@ A quarta é o plano B e C, em meia página. Quais das outras finalistas você le
 Esse documento deve ficar arquivado. Mesmo depois de iniciar a [[#FASE 2 — ARTICULAÇÃO E CAPTURA DA IDEIA|Fase 2]], se em algum momento a ideia escolhida cair, você volta aqui. Não precisa refazer a [[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]] inteira. E em dois ou três anos, quando a sua primeira empresa estiver em algum estágio e você estiver pensando em segunda curva ou próxima empresa, vai reler este documento com ganho significativo de perspectiva.
 
 ### Checklist GO/NO-GO
+
+> [!tip] Apêndice G — Framework de Decisão por Gates
+> O critério de saída desta fase é uma decisão de gate: avançar ou não com esta ideia. O [[#APÊNDICE G — FRAMEWORK DE DECISÃO POR GATES|Apêndice G]] formaliza como estruturar esse tipo de decisão — com critérios objetivos pré-definidos, evitando que o entusiasmo pelo projeto substitua a evidência como critério de avanço.
+
+> [!note] Apêndice F — Abordagem Científica vs Lean Startup
+> Os quatro filtros desta fase e o checklist abaixo têm lógica de falsificação de hipóteses, não de execução de plano. O [[#APÊNDICE F — ABORDAGEM CIENTÍFICA VERSUS LEAN STARTUP|Apêndice F]] contextualiza essa diferença de mentalidade — importante para quem vem do mundo corporativo e tende a tratar lista de ideias como planejamento estratégico.
 
 Antes de avançar para a [[#FASE 2 — ARTICULAÇÃO E CAPTURA DA IDEIA|Fase 2]], confirme:
 

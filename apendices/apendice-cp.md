@@ -328,4 +328,7 @@ Independente de motion (B2B, enterprise, SMB, PLG), qualquer operação de venda
 
 [[#APÊNDICE CG — GROWTH COMO FUNÇÃO ORGANIZACIONAL: TIME DE GROWTH, BUILD VS HIRE, RELAÇÃO COM PRODUTO|Apêndice CG]], Growth como função organizacional. [[#APÊNDICE AA — CUSTOMER SUCCESS COMO DISCIPLINA|Apêndice AA]], Customer Success como disciplina. [[#APÊNDICE X — PRICING STRATEGY COMO DISCIPLINA|Apêndice X]], Pricing strategy. [[#APÊNDICE CB — SUBSCRIPTION ECONOMY EM PROFUNDIDADE: ALÉM DO "COBRA MENSALMENTE"|Apêndice CB]], Subscription economy. [[#APÊNDICE T — LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Apêndice T]], LGPD, compliance, e governança de dados. Apêndice de Canais Indiretos, quando parte da venda é via terceiros.
 
+> [!info] Fases relacionadas
+> Referenciado em: Fase 10.
+
 ---

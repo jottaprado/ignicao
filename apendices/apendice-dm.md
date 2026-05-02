@@ -273,14 +273,4 @@ Escola particular pequena é uma das categorias de maior inadimplência no Brasi
 
 ---
 
-### Armadilhas (resumo)
-
-1. Subestimar o ciclo de venda B2G e entrar sem capital de giro suficiente.
-2. Medir churn sazonal como churn por insatisfação — diagnóstico errado, solução errada.
-3. Vender como "ensino regulado" sem ter autorização MEC (risco legal e reputacional alto).
-4. Comparar CAC/LTV entre modelos B2C e B2B sem ajustar pelo LTV distinto de cada um.
-5. Construir produto para escola pública sem entender o processo de adoção curricular.
-6. Não modelar inadimplência no segmento de escola privada pequena.
-7. Ignorar a janela de novembro para venda corporativa de treinamento.
-
 **Ver também:** [[apendice-aw|Apêndice AW — Regulatório Geral]], [[apendice-cb|Apêndice CB — Subscription Economy]], [[apendice-dk|Apêndice DK — Govtech e B2G]]

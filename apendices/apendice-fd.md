@@ -278,7 +278,7 @@ Considere o earnout com cuidado. Aquisições corporativas brasileiras frequente
 
 ### Síntese Operacional
 
-Navegar uma grande corporação brasileira exige paciência estratégica e clareza sobre o que você está trocando. O tempo investido no ciclo de venda corporativo é tempo que não está sendo investido em dezenas de clientes menores que poderiam ter sido fechados mais rápido. Faça essa escolha conscientemente.
+Este apêndice cobre o ciclo completo de parceria com grandes corporações brasileiras — desde os programas de inovação até o M&A — com foco em pricing, compliance jurídico e gestão do risco de concentração de receita. Conecta-se à Fase 5 (modelo de negócio), ao Apêndice FA (captação institucional) e ao Apêndice FC (valuation e term sheets).
 
 ```text
 CHECKLIST ANTES DE INICIAR UMA PARCERIA CORPORATIVA

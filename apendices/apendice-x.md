@@ -431,4 +431,7 @@ Estrutura de parcelamento ignorada. Não oferecer parcelamento em plano anual pa
 
 **Ver também:** [[apendice-cb|Apêndice CB]], Subscription economy. [[apendice-ce|Apêndice CE]], Valuation methods. [[apendice-an|Apêndice AN]], Modelagem financeira.
 
+> [!info] Fases relacionadas
+> Referenciado em: Fase 5, Fase 9, Fase 10.
+
 ---

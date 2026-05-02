@@ -183,7 +183,7 @@ Você precisará abordar três a quatro vezes o número de entrevistas que prete
 
 #### Passo 3, escreva e teste o seu roteiro de entrevista
 
-O roteiro tem dois princípios. Perguntas abertas, nunca fechadas. "Como você decide X?" em vez de "Você decide X dessa forma?". E perguntas sobre o passado, não sobre o futuro. "Na última vez que X aconteceu, o que você fez?" em vez de "Você usaria Y se existisse?". Respostas sobre o futuro são ficção. Sobre o passado, são evidência.
+O roteiro tem dois princípios. Perguntas abertas, nunca fechadas. "Como você decide X?" em vez de "Você decide X dessa forma?". E perguntas sobre o passado, não sobre o futuro — as cinco perguntas canônicas abaixo aplicam esse princípio em detalhe.
 
 Estrutura sugerida (método Mom Test adaptado).
 
@@ -247,7 +247,7 @@ Nível 3. Está ativamente procurando uma solução. Tem deadline na cabeça. É
 
 Nível 4. Já improvisou uma solução feia. Planilha Excel gigante, processo manual, Frankenstein de ferramentas. A existência dessa gambiarra é prova de que ele pagaria por algo melhor.
 
-Nível 5. Tem orçamento comprometido ou facilmente acessível para comprar uma solução. Esse é o cliente ideal para a venda inicial e para o PSF (Problem-Solution Fit).
+Nível 5. Tem orçamento comprometido ou facilmente acessível para comprar uma solução. Esse é o cliente ideal para a venda inicial e para o PSF (Problem-Solution Fit). Equivale ao Limiar de Desespero descrito na seção anterior: o cliente está acima do limiar e aceita produto imperfeito para resolver o problema.
 
 > [!important] Meta de Pain Level desta fase
 > Conseguir entrevistar pelo menos cinco pessoas em Pain Level 4 ou 5. Se você não encontrar ninguém nesses níveis, você está testando um problema que o mercado ainda não sentiu o suficiente para pagar. É sinal vermelho. Volte para a Fase 2B (Teoria) e reconsidere o ICP ou a dor.
@@ -403,6 +403,8 @@ Você concluiu a [[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]] quando os nove cr
 
 > [!warning] Se o problema não passou no teste, momento crítico
 > Os caminhos são três. Pivotar o problema (algo adjacente emergiu como mais doloroso). Pivotar o cliente (o problema existe, mas em outro perfil). Ou abandonar (volte à Fase 2 com outra ideia). Não avance para a Fase 4 com problema não-validado. Construir sobre problema inexistente é o cemitério das startups.
+>
+> Antes de pivotar ou encerrar, vale ler o [[#APÊNDICE BH — POST-MORTEMS BRASILEIROS|Apêndice BH]]: os padrões de fracasso documentados em empresas brasileiras mostram que a maioria das mortes por "problema inexistente" tinha sinais detectáveis nas entrevistas iniciais — sinais que foram ignorados. Aprender o padrão antes de vivê-lo vale semanas de iteração.
 
 **Checklist final.**
 
@@ -475,6 +477,9 @@ Padrão emergente: quem sente dor 8 ou mais tem três anos ou mais de diagnósti
 **Comparando os dois roteiros.** A estrutura é idêntica. Abertura, contexto, dor (sem mencionar solução), comportamento, fechamento. O que muda é o vocabulário e os artefatos a observar. Caderno de padaria versus aplicativo de glicemia. E a forma como a "dor" se traduz em pagar. Margem perdida na padaria, custo emocional mais gasto com complicação para o paciente. O roteiro de entrevista é o mesmo instrumento, adaptado ao domínio.
 
 ### Armadilhas
+
+> [!note] Apêndice D — Armadilhas Mentais e Vieses
+> Viés de confirmação (filtrar evidência para confirmar a tese) e WYSIATI (What You See Is All There Is — concluir com dados insuficientes) são os vieses mais frequentes em discovery de problema. O [[#APÊNDICE D — ARMADILHAS MENTAIS E VIESES COGNITIVOS DO EMPREENDEDOR|Apêndice D]] descreve esses e outros padrões com diagnóstico e contra-medidas aplicáveis diretamente ao processo de entrevistas.
 
 Entrevistar amigos e família. Eles mentem para te agradar. Exclua qualquer um que tenha relação pessoal.
 
@@ -560,7 +565,7 @@ A [[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]] ataca o erro mais caro da indús
 
 A diferença entre quem faz certo, e quem falha, está numa disciplina simples, e quase sempre violada. Não falar da solução. Só escutar. No momento em que você menciona a solução, o cliente passa a reagir à ideia, em vez de descrever a realidade. E você perde a evidência limpa. Aplicar o Mom Test com rigor, perguntar sobre a vida específica do cliente, sobre momentos concretos em que o problema apareceu, sobre o que ele já faz para resolver hoje, é o que separa entrevista útil de entrevista que confirma viés.
 
-O entregável é o Mapa de Problemas. Não é coletânea de citações, é documento que distingue problemas reais (recorrentes, dolorosos, com tentativas de solução já em curso) de problemas imaginados pelo fundador. Quem chega ao fim dessa fase com a formulação do Dia 4 idêntica à do Dia 1 não validou nada. Filtrou as conversas para confirmar o que queria ouvir. A [[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]] bem-feita produz mudança na própria formulação do problema. Quando isso não acontece, a fase precisa ser refeita.
+O entregável é o Mapa de Problemas: lista de entrevistados com Pain Level atribuído, padrões de dor ranqueados por frequência e intensidade, e evidências de campo (verbatim, tentativas de solução, custo atual). Quem chega ao fim com a formulação do Dia 4 idêntica à do Dia 1 não validou nada — filtrou as conversas para confirmar o que queria ouvir. A [[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]] bem-feita produz mudança na própria formulação do problema. A Fase 4 vai usar esse Mapa para estruturar o conhecimento em Jobs to be Done e identificar o progresso que o cliente está tentando fazer.
 
 # fase3 #descoberta-do-problema #customer-interview #mom-test #pain-level #schlep-blindness #problema-validado
 

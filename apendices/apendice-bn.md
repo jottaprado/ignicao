@@ -271,4 +271,7 @@ Wrong hire não-demitido. Reconhecer wrong hire em seis meses, e demorar outros 
 
 ---
 
+> [!info] Fases relacionadas
+> Referenciado em: Fase 14.
+
 ---

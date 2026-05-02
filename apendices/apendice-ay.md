@@ -382,4 +382,7 @@ Escala de budget feita gradualmente — sem saltos acima de 20-30% por semana �
 
 [[apendice-az|Apêndice AZ]], SEO em Profundidade. [[apendice-ba|Apêndice BA]], Growth e Aquisição. [[apendice-cz|Apêndice CZ]], Canvases e Mapas Visuais. [[apendice-bz|Apêndice BZ]], Métricas e Dashboard de Negócio.
 
+> [!info] Fases relacionadas
+> Referenciado em: Fase 10.
+
 ---

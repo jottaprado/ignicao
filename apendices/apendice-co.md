@@ -239,4 +239,7 @@ Regulatório. eSocial, e CLT, traz obrigações pesadas. PJ com exclusividade é
 
 ---
 
+> [!info] Fases relacionadas
+> Referenciado em: Fase 14.
+
 ---

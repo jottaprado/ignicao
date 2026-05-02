@@ -7,11 +7,7 @@ part: parte-ii
 
 ### O que esse apêndice cobre
 
-Product-Market Fit é o estado em que você construiu algo que um mercado específico quer tanto que a demanda começa a puxar o negócio. Clientes chegam por boca a boca. A retenção é alta e previsível. As vendas ficam mais fáceis. Usuários reclamam quando o produto tem problemas, sinal de que se importam. Você deixa de empurrar o produto, e começa a ser puxado pelo mercado.
-
-Essa fase não é algo que você "faz". É um estado a ser alcançado por iteração consistente sobre o que foi construído nas fases anteriores. Você sabe que chegou lá quando chegou. E pode medir isso de forma razoavelmente objetiva.
-
-O entregável ao fim dessa fase é um dos dois documentos. Relatório de PMF (se atingido). Ou Plano de Iteração para PMF (se ainda não).
+Validação e medição de Product-Market Fit. O entregável ao fim dessa fase é um dos dois documentos: Relatório de PMF (se atingido) ou Plano de Iteração para PMF (se ainda não). O que PMF significa e por que importa está em POR QUE.
 
 ### POR QUE
 
@@ -96,9 +92,7 @@ Em *Crossing the Chasm*, Geoffrey Moore formaliza que PMF real exige que o produ
 
 #### Desirability, os clientes querem?
 
-Os sinais. Sean Ellis acima de quarenta por cento. Retenção estável. NPS alto. Referências espontâneas.
-
-A pergunta central. Se eu sumisse amanhã, quarenta por cento ou mais dos meus usuários ficariam muito decepcionados?
+Os sinais. Sean Ellis acima de quarenta por cento (ver Teste dos 40% no Passo 1). Retenção estável. NPS alto. Referências espontâneas.
 
 A falha típica. O produto gera interesse inicial (aquisição boa), mas não retenção (engagement falso, as pessoas vêm e vão).
 
@@ -266,6 +260,12 @@ Esse é o perfil que você deve expandir em ondas concêntricas.
 
 Prossiga para a [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]] (estruturação formal), e a [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (escala). Mas antes, reserve trinta a sessenta dias para estabilizar operações. A pior coisa que pode acontecer é escalar antes de o suporte, a infraestrutura, e o onboarding estarem prontos.
 
+> [!tip] Apêndice CG — Growth como Função Organizacional
+> O [[apendice-cg|Apêndice CG — Growth como Função Organizacional]] cobre quando montar time de growth, como estruturar o primeiro squad (growth PM, eng, data), a diferença entre PLG e SLG em escala, e como não destruir PMF ao abrir o motor de crescimento.
+
+> [!tip] Apêndice AB — Produto em Escala
+> O [[apendice-ab|Apêndice AB — Produto em Escala]] trata das mudanças de processo de produto que acontecem depois do PMF: roadmap orientado a segmento versus roadmap orientado a retenção, como priorizar com NRR em mente, e o momento em que o produto deixa de ser artesanal e precisa de plataforma.
+
 ##### Caminho B, PMF parcial
 
 Alguns usuários adoram. A maioria é indiferente. Foco no sub-segmento que adora. Mate features e mensagens voltadas para o grupo indiferente. Esclareça o posicionamento.
@@ -277,6 +277,9 @@ Alguns usuários adoram. A maioria é indiferente. Foco no sub-segmento que ador
 
 Volte para as Fases 7 a 9. Reconsidere a solução. Talvez pivote para problema adjacente, ou mude o segmento. Não é fracasso. É a função normal dessa fase. Empresas que nunca deveriam ter sido feitas descobrem isso aqui — com dinheiro e moral ainda remanescentes.
 
+> [!tip] Apêndice DT — Customer Experience
+> O [[apendice-dt|Apêndice DT — Customer Experience]] estrutura como mapear a jornada completa do cliente — desde o primeiro contato até o churn evitado — e identificar os "moments of truth" que mais afetam retenção. Use aqui para diagnosticar por que certos segmentos chegam ao aha e outros não.
+
 #### Passo 4, documentar o "aha moment" e operacionalizar a ativação
 
 O "aha moment" é o ponto específico na jornada do usuário em que ele percebe o valor pela primeira vez. E a partir do qual a probabilidade de retenção cresce drasticamente. Exemplos clássicos. O Slack definiu como "duas mil mensagens enviadas dentro do time". O Facebook como "sete amigos adicionados em dez dias". O Notion como "criar segunda página no primeiro dia". Para a sua empresa, é trabalho de dados — quais ações, em qual prazo, correlacionam com retenção de trinta ou noventa dias?
@@ -284,6 +287,9 @@ O "aha moment" é o ponto específico na jornada do usuário em que ele percebe 
 Depois que você identifica o aha moment, o trabalho é operacionalizar. Quantos usuários atingem? E em quanto tempo? Reestruture o onboarding para levar mais usuários ao aha em menos tempo. Essa é tipicamente a alavanca de maior impacto sobre retenção, antes mesmo de mudar produto.
 
 O funil de ativação típico, em cinco estágios. Visitante para sign-up: conversão esperada de dois a dez por cento (varia muito por canal). Sign-up para onboarding completo: alvo sessenta por cento ou mais. Onboarding para aha moment: alvo cinquenta por cento ou mais. Aha para retorno: alvo setenta por cento ou mais no D7. Retorno para pago, ou expansion: alvo trinta por cento ou mais dos ativos.
+
+> [!tip] Apêndice AA — Customer Success
+> O [[apendice-aa|Apêndice AA — Customer Success]] cobre como estruturar a função de CS antes de contratar o primeiro CSM: health score, playbooks de onboarding, QBR e os gatilhos de intervenção que reduzem churn — especialmente crítico quando a curva de retenção ainda não estabilizou.
 
 #### Passo 5, estabilizar operações para sustentar PMF
 
@@ -398,18 +404,13 @@ Passando em 0-1: sem PMF. Volte para discovery. O problema mais provável: produ
 > [!warning] O custo de declarar PMF cedo
 > Fundar contrata VP de Sales, VP de Marketing e começa a escalar aquisição antes de ter PMF. Resultado: CAC explode (produto não converte), churn dispara (produto não retém), runway some (burn alto sem retorno). Série B travada porque métricas mostram que a escala não funcionou. Retrair é mais caro e mais doloroso do que esperar.
 
-### PERGUNTAS A RESPONDER
-
-- Eu atingi PMF? Qual é o indicador mais forte, e mais honesto?
-- Se sim, em qual segmento? O que esse segmento tem em comum?
-- Qual é o "aha moment" que leva à retenção?
-- Se não atingi, o que está faltando? Desejabilidade, diferenciação, canal, ou precificação?
-- Estou medindo os três testes (desirability, viability, e feasibility), ou só um?
-- Qual é o próximo experimento para chegar lá?
-- O meu crescimento orgânico é real? Ou estou dependente de aquisição paga?
-- Se eu desligar a dependência do fundador em vendas amanhã, o negócio continua?
-
 ### Métricas
+
+> [!tip] Apêndice C — Catálogo de Métricas
+> O [[apendice-c|Apêndice C — Catálogo de Métricas]] é a referência completa de definições e fórmulas para todas as métricas mencionadas nesta fase — DAU/MAU, retenção D30/D90, NPS, NRR, LTV/CAC, cohort LTV — com benchmarks por modelo de negócio e exemplos de como calcular a partir de dados reais.
+
+> [!tip] Apêndice AO — Dados e Analytics
+> O [[apendice-ao|Apêndice AO — Dados e Analytics]] cobre a stack de dados necessária para medir PMF com rigor: event tracking, data warehouse, cohort analysis automatizado e os dashboards que tornam o scorecard desta fase operacional — não uma planilha atualizada manualmente toda semana.
 
 Sean Ellis Test. Quarenta por cento ou mais "muito decepcionados".
 
@@ -580,11 +581,9 @@ PMF é declarado cedo demais em muitas empresas. Esse exercício ajuda a separar
 
 ### SÍNTESE DA FASE 12
 
-A [[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]] marca o divisor mais importante do livro. PMF não é algo que você "faz". É estado a ser alcançado por iteração consistente sobre o que foi construído. Você sabe que chegou lá quando chegou. Antes do PMF, toda decisão é prematura. Contratar. Captar. Escalar marketing. Construir cultura. Abrir novo mercado. Qualquer uma dessas ações, executada antes do PMF, tem expectativa negativa. Empreendedores que tentam escalar antes do PMF queimam dinheiro e moral na mesma proporção.
+Ao longo dessa fase você mediu PMF com o scorecard de seis dimensões, identificou o segmento onde o fit ocorreu primeiro, operacionalizou o "aha moment" e estabilizou operações para sustentar o crescimento. A diferença entre quem faz certo e quem falha está em medir PMF em vez de declarar PMF: o Sean Ellis Score acima de quarenta por cento, mais curva de retenção estabilizada por coorte, mais quinze por cento ou mais de novos clientes orgânicos, mais resistência à parada de marketing. Quatro testes em conjunto. Três de quatro é PMF parcial em algum segmento. Quatro de quatro é PMF de verdade.
 
-A diferença entre quem faz certo, e quem falha, está em medir PMF em vez de declarar PMF. A imprensa, os investidores, os próprios fundadores, querem declarar vitória cedo. Mas declarar PMF quando a esperança pede, e não quando os números sustentam, garante escalada de negócio que ainda não fecha. O Sean Ellis Score acima de quarenta por cento, mais curva de retenção estabilizada por cohort, mais quinze por cento ou mais de novos clientes orgânicos, mais resistência a parada de marketing. Quatro testes em conjunto. Três de quatro é PMF parcial em algum segmento. Quatro de quatro é PMF de verdade.
-
-E há a confusão silenciosa entre PSF e PMF. Problem-Solution Fit não é PMF em pequeno. É fase distinta, com clientes distintos, métricas distintas, e estratégia distinta. Pular do MVP direto para tentativa de PMF, sem passar pelo PSF, é como tentar correr maratona sem ter corrido dez quilômetros. Quem confunde os dois tenta escalar PSF como se fosse PMF, e queima capital fingindo crescimento.
+A [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]] começa aqui: formalizar a empresa que o PMF provou que vale estruturar.
 
 # fase12 #pmf #product-market-fit #sean-ellis #moore #psf #hotmart #superlinear-returns #aha-moment #retencao-coorte
 

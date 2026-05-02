@@ -173,6 +173,9 @@ A disputa está em aberto. Para detalhes, ver [[apendice-db|Apêndice DB — Sto
 | 6–12 meses | Documentação de custo de aquisição; organização de comprovantes históricos; due diligence interna |
 | < 6 meses | Nenhuma mudança estrutural relevante é recomendada — risco de questionamento de propósito negocial |
 
+> [!info] Fases relacionadas
+> Referenciado em: Fase 16.
+
 ---
 
 ### Armadilhas

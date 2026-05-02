@@ -118,9 +118,6 @@ Ignorar DSO. Cresceu três vezes em doze meses, mas o prazo de recebimento foi p
 
 Factoring caro sem necessidade. Usar linha cara, quando tinha opção de negociar com fornecedor primeiro.
 
-> [!warning] Não antecipar rodada
-> Descobrir que precisa captar, com três meses de runway, é igual a term sheet horrível.
-
 Gestão reativa. Não proativa. Só olha caixa quando já está em crise.
 
 Receita adiantada sem disciplina. Vender anual, mas gastar imediatamente, como se fosse receita mensal. Buraco em dez meses.
@@ -141,6 +138,7 @@ Receita adiantada sem disciplina. Vender anual, mas gastar imediatamente, como s
 
 [[#APÊNDICE AN — MODELAGEM FINANCEIRA OPERACIONAL|Apêndice AN]], Modelagem financeira. [[#APÊNDICE BY — TESOURARIA EM ESCALA: GESTÃO DE CAIXA MULTI-MOEDA, MULTI-PAÍS E MULTI-CONTA|Apêndice BY]], Tesouraria em escala. [[#APÊNDICE BT — HEDGING CAMBIAL E GESTÃO DE MOEDA MULTICOUNTRY|Apêndice BT]], Hedging cambial.
 
----
+> [!info] Fases relacionadas
+> Referenciado em: Fase 11.
 
 ---

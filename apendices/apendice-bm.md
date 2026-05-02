@@ -10,25 +10,11 @@ appendix: "BM"
 
 O manual até aqui cobre comunicação como ferramenta operacional (pitch, vendas, cultura interna). Esse apêndice cobre a dimensão pública: quando, como, por que (e quando não) o fundador se posiciona publicamente. É disciplina subestimada por fundadores brasileiros iniciantes. Alguns superexpõem e destroem credibilidade, outros fogem de exposição e perdem ferramenta crítica de captação, venda e recrutamento. Ambos os erros são evitáveis com método.
 
-### O que esse apêndice cobre
+### O que esse apêndice cobre e por que importa
 
-Comunicação pública do fundador envolve cinco vertentes distintas. Narrativa pessoal: quem você é, o que representa, como sua história conecta ao problema da empresa. Imprensa (earned media): entrevistas, coberturas, menções editoriais em veículos jornalísticos. Redes sociais e canais próprios: LinkedIn, X (Twitter), newsletter, podcast, YouTube como superfícies controladas. Palestras, painéis e eventos: presença pública em eventos setoriais, congressos, universidades. Crisis communication pessoal: quando empresa tem problema (vazamento, demissão em massa, escândalo, crise financeira), posicionamento do fundador como porta-voz.
+Comunicação pública do fundador envolve cinco vertentes: narrativa pessoal, imprensa (earned media), redes sociais e canais próprios, palestras e eventos, e crisis communication pessoal. Os entregáveis típicos são posicionamento narrativo documentado, media kit, biblioteca de mensagens-chave, relação com 5–15 jornalistas-referência, cadência de postagem e protocolo de crisis comm.
 
-Os entregáveis típicos são: posicionamento narrativo documentado, media kit atualizado, biblioteca de mensagens-chave, relação com cinco a quinze jornalistas-referência do setor, cadência de postagem em canais próprios, protocolo de crisis comm com advogado e assessoria.
-
-### Por que importa
-
-Captação depende de narrativa clara do fundador. Investidor sério quer entender quem está liderando, como pensa, por que é a pessoa certa para resolver esse problema. Narrativa fraca ou inconsistente é sinal amarelo.
-
-Recrutamento sênior escuta o fundador antes de aceitar oferta. Candidato a VP ou C-level pesquisa fundador: entrevistas, postagens, reputação. Fundador invisível ou inconsistente perde talento para quem é visível e coerente.
-
-Vendas enterprise compra o fundador. Cliente grande (bancos, varejistas, governo) faz diligência reputacional. Narrativa pública é parte do due diligence informal.
-
-Crise sem comunicação é crise amplificada. Empresa que enfrenta crise real e fundador silencia transfere narrativa para o vácuo, e jornalista, concorrente ou ex-funcionário insatisfeito preenchem. Silêncio é posicionamento (ruim) por default.
-
-Exposição sem estratégia queima capital reputacional. Fundador que fala demais, opina sobre tudo e briga em rede social destrói marca pessoal e corporativa simultaneamente.
-
-Brand pessoal e corporativo são ativos separados e cruzados. Separam em exit ("vendi a empresa mas continuo como figura pública"), em crise ("a empresa tem problema, mas fundador mantém credibilidade") e em pivô. Construir ambos deliberadamente.
+Importa porque: captação depende de narrativa clara (investidor quer entender quem lidera); recrutamento sênior pesquisa o fundador antes de aceitar; vendas enterprise faz diligência reputacional; crise sem comunicação é crise amplificada; exposição sem estratégia queima capital reputacional; e brand pessoal e corporativo são ativos separados que precisam ser construídos deliberadamente.
 
 ### Quando usar
 

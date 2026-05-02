@@ -244,4 +244,7 @@ Não documentar decisões. O review acontece. A conversa acontece. Mas nada fica
 
 ---
 
+> [!info] Fases relacionadas
+> Referenciado em: Fase 14.
+
 ---

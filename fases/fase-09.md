@@ -35,19 +35,7 @@ Faça dez a quinze dessas entrevistas. Grave, transcreva, analise.
 
 #### Passo 2, aplique a técnica das cinco escalas de valor
 
-Para cada entrevistado, peça que avalie (em escala de um a cinco) a solução em cinco dimensões.
-
-Relevância. "Isso resolve um problema real para você?"
-
-Urgência. "Você precisaria disso nos próximos trinta dias?"
-
-Preferência. "Você prefere essa solução em relação ao que usa hoje?"
-
-Diferenciação. "Você percebe essa solução como diferente das alternativas?"
-
-Disposição a pagar. "Quanto faria sentido cobrar?"
-
-Calcule a média e o desvio-padrão de cada escala.
+Para cada entrevistado, peça avaliação em escala de um a cinco em cinco dimensões: Relevância ("isso resolve um problema real?"), Urgência ("você precisaria disso nos próximos trinta dias?"), Preferência ("prefere ao que usa hoje?"), Diferenciação ("percebe como diferente das alternativas?") e Disposição a pagar ("quanto faria sentido cobrar?"). Calcule a média e o desvio-padrão de cada escala.
 
 > [!warning] Urgência abaixo de três é alerta vermelho
 > Se a Urgência média ficar abaixo de três, o problema existe mas não é prioridade. Você terá dificuldade de vender. Não é "ainda preciso polir o pitch". É "o problema não é dolorido o suficiente". Volte à Fase 3.
@@ -77,6 +65,9 @@ Com quinze a vinte respostas, plote as quatro curvas. A intersecção entre "car
 
 > [!tip] Van Westendorp é ponto de partida, não resposta final
 > Essa não é a precificação ideal. Mas é um ponto de partida muito melhor do que chutar. Preço real será descoberto em mercado.
+
+> [!tip] Apêndice X — Pricing Strategy
+> Van Westendorp revela a faixa psicológica aceitável, mas não informa o modelo de precificação (subscription, usage-based, por licença, freemium) nem a estratégia de âncora. O [[apendice-x|Apêndice X — Pricing Strategy]] complementa este passo com os modelos de precificação aplicáveis ao estágio de MVP, a lógica de teste Gabor-Granger para granularidade maior, e os erros mais comuns de precificação em lançamento — incluindo o de começar com preço que não é possível aumentar depois.
 
 #### Passo 4B, aplique product discovery moderno (Marty Cagan e Teresa Torres)
 
@@ -151,6 +142,9 @@ ACCEPTANCE CRITERIA:
 
 Com acceptance criteria, "definição de pronto" vira auditável. Sem eles, "pronto" vira debate filosófico no planning.
 
+> [!note] Apêndice BC — Technical Debt
+> Cada decisão de MoSCoW (o que entra, o que fica fora) tem implicações de dívida técnica. Funcionalidades forçadas para "Must Have" sem arquitetura adequada geram débito que freia velocidade nas Fases 10 a 14. O [[apendice-bc|Apêndice BC — Technical Debt]] define os tipos de dívida (deliberada vs acidental, local vs arquitetural), quando aceitá-la conscientemente em MVP, e quando ela se torna armadilha que impede escala. Leitura recomendada antes de fechar a lista final de Must Haves.
+
 #### Passo 5, mapeie requisitos por ordem de prioridade (MoSCoW)
 
 A priorização MoSCoW para escopo de MVP, em estrutura visual:
@@ -200,6 +194,9 @@ Lista de requisitos funcionais. Cada um em uma das quatro categorias. Must Have.
 Documento contendo dez itens.
 
 Proposta de valor final, em uma frase. Persona foco (beachhead). JTBDs principais a resolver. Lista de Must Haves. Lista de Should e Could Haves (roadmap futuro). Explicitamente: o que o MVP *não* fará (Won't Haves). Critérios de sucesso do MVP (métricas). Faixa de preço planejada. Canais de aquisição planejados. Prazo de desenvolvimento estimado. Orçamento.
+
+> [!tip] Apêndice A — Template da Especificação do MVP (A.6)
+> O [[#APÊNDICE A — TEMPLATES PRONTOS PARA USO|Apêndice A (A.6)]] contém o template preenchível da Especificação do MVP com os dez campos acima, mais seção de riscos remanescentes e suposições ainda não validadas. Usar o template em vez de documento livre garante que nenhum campo crítico (Won't Haves, critério de sucesso mensurável) seja omitido por pressão de entrar logo em desenvolvimento.
 
 ### PERGUNTAS A RESPONDER
 
@@ -381,11 +378,9 @@ System Usability Scale, SUS (Brooke, 1996). Questionário de dez afirmações. G
 
 ### SÍNTESE DA FASE 9
 
-A [[#FASE 9 — TESTES DE SOLUÇÃO E USABILIDADE|Fase 9]] é a última ponte antes da construção. Protótipos testam fluxo, e conceito. Mas não testam valor real em uso prolongado. Essa fase aprofunda o teste de solução, e converte aprendizado em requisitos. Sem especificação clara antes de construir, você gasta mais, demora mais, e entrega menos. Quem entra na [[#FASE 10 — MVP E EXPERIMENTOS DE MERCADO|Fase 10]] sem MVP Spec rigorosa entra com escopo elástico, e descobre tarde que está construindo um produto, não um experimento.
+A [[#FASE 9 — TESTES DE SOLUÇÃO E USABILIDADE|Fase 9]] é a última ponte antes da construção. A diferença em relação à [[#FASE 8 — IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES|Fase 8]] é de profundidade e comprometimento: a Fase 8 produziu conceitos testados em protótipo; a Fase 9 converte os aprendizados em especificação vinculante — o que o MVP fará, para quem, com quais limitações, e como medirá sucesso.
 
-A diferença entre quem faz certo, e quem falha, está em disciplina de escopo. MoSCoW, must-have, should-have, could-have, won't-have, é a ferramenta que separa o MVP do produto sonhado. Pricing testado com Van Westendorp, antes de construir, evita o erro caro de descobrir tarde que o cliente nunca pagaria o que você imaginava cobrar. Especificação INVEST para histórias do MVP impede o "gold-plating" da primeira versão.
-
-O entregável é a Especificação do MVP. Documento preciso sobre o que o MVP fará, para quem, com quais limitações, e como medirá sucesso. Esse documento é contrato com o futuro próximo. A [[#FASE 10 — MVP E EXPERIMENTOS DE MERCADO|Fase 10]] implementa a spec. Quem trata a [[#FASE 9 — TESTES DE SOLUÇÃO E USABILIDADE|Fase 9]] como burocracia, e pula direto para a construção, descobre que estava construindo coisa diferente do que precisava. E retrabalho de MVP custa duas a três vezes mais do que retrabalho de spec.
+MoSCoW separa o MVP do produto sonhado. Van Westendorp antecipa o erro caro de descobrir tarde que o cliente nunca pagaria o preço imaginado. User stories INVEST impedem o gold-plating da primeira versão. Quem trata a [[#FASE 9 — TESTES DE SOLUÇÃO E USABILIDADE|Fase 9]] como burocracia e pula direto para a construção descobre que estava construindo coisa diferente do que precisava — e retrabalho de MVP custa duas a três vezes mais do que retrabalho de spec.
 
 # fase9 #testes-solucao #usabilidade #van-westendorp #moscow #especificacao-mvp #gate-direcionalidade #scale-readiness #invest
 

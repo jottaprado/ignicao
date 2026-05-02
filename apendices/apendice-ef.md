@@ -351,9 +351,7 @@ A sugestão prática é criar um ritual de 30 minutos mensais para atualizar o p
 
 ### Síntese: a mentalidade macro do fundador brasileiro
 
-O fundador brasileiro que prospera em ciclos adversos não é aquele que prevê o futuro macroeconômico — isso é impossível até para os melhores economistas. É aquele que constrói uma empresa com resiliência estrutural: runway adequado, contratos protegidos de inflação, exposição cambial mapeada e métricas de eficiência que sobrevivem a downturns.
-
-O macro é um conjunto de condições externas sobre as quais o fundador não tem controle. A estrutura operacional da empresa é o conjunto de condições internas sobre as quais tem controle total. A tarefa é alinhar as decisões internas à leitura honesta das condições externas.
+Este apêndice cobre os quatro canais pelos quais o ambiente macroeconômico afeta startups (custo de capital, burn real, câmbio e ciclo de VC) e os playbooks para cada fase do ciclo. Ele conecta-se diretamente à Fase 8 (crescimento e escala) e ao Apêndice EA (modelagem financeira), onde as decisões de runway e captação precisam incorporar leitura macro.
 
 ```text
 PRINCÍPIOS DE RESILIÊNCIA MACROECONÔMICA

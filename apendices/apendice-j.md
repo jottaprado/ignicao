@@ -318,4 +318,7 @@ O que vem na Parte III. A Parte III não é sequência linear de fases. É refer
 > [!important] Como usar a Parte III
 > Você não lê a Parte III do começo ao fim. Você consulta o apêndice correspondente quando o problema aparece. O sumário lista todos os apêndices temáticos por categoria. Cada apêndice é autônomo, e foi escrito para ser referência operacional, não leitura sequencial.
 
+> [!info] Fases relacionadas
+> Referenciado em: Fase 10, Fase 11, Fase 14.
+
 ---

@@ -18,6 +18,9 @@ O entregável é um Relatório de Experimentos. Hipóteses testadas, resultados,
 
 Hipóteses sem experimentos são só listas bonitas. Experimentos transformam suposição em evidência. Rápido e barato é fundamental. Se um experimento demora três meses, ou custa R$ 50 mil, você está gastando demais para aprender uma coisa só. Cada experimento deve gerar uma decisão clara. Continuar. Ajustar. Pivotar. Ou matar.
 
+> [!note] Apêndice F — Científico vs Lean Startup
+> O desenho de experimento descrito nesta fase combina rigor do método científico (threshold ex-ante, falsificabilidade, isolamento de variável) com velocidade do ciclo Lean (Build-Measure-Learn comprimido em dias, não meses). O [[apendice-f|Apêndice F — Científico vs Lean Startup]] detalha quando priorizar profundidade (pré-registro formal, controle de viés) versus velocidade (experimento mais barato possível). A tensão entre os dois é permanente em early-stage; o apêndice oferece critério de decisão.
+
 ### Quando usar
 
 Comece assim que a [[#FASE 6 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 6]] priorizar as primeiras hipóteses. Termine quando as três a cinco hipóteses bet-the-company estiverem validadas ou refutadas com evidência suficiente. Revisite continuamente. O negócio gera novas hipóteses o tempo todo.
@@ -237,6 +240,9 @@ Resultados negativos, nesse enquadramento, são informação valiosa. Não fraca
 
 Versione. A Declaração vai para v0.2, v0.3, v0.4. Isso é saudável. Significa que você está aprendendo.
 
+> [!tip] Apêndice CZ — Learning Card (CZ.10)
+> Depois de cada experimento, o par natural do Test Card é o [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Learning Card (CZ.10)]]: documento de uma página que registra o que foi observado (não interpretado), o que foi aprendido, e a decisão tomada (Persevere, Pivote, Abandone). A distinção entre "observação" e "interpretação" no Learning Card é o mecanismo central contra o viés de confirmação pós-experimento. O Banco de Hipóteses atualizado neste passo deve conter o Learning Card de cada experimento concluído.
+
 ### PERGUNTAS A RESPONDER
 
 - A hipótese bet-the-company está validada, refutada, ou inconclusiva?
@@ -364,23 +370,33 @@ flowchart TD
 > [!important] Threshold ex-ante é o elemento não-negociável
 > "Vamos ver quantos se interessam", sem número pré-definido, vira racionalização. Três clientes pagantes viram "sinal promissor". Trinta clientes viram "pouco para concluir". Com threshold (doze ou mais conversões em duas semanas, por exemplo), a decisão é automática.
 
-A hipótese em teste. Donos de padaria pagariam R$ 400 por mês por loja pelo software, se a redução de perda for demonstrada em sessenta dias.
+EXPERIMENTO #1
 
-O tipo de experimento. Fake Door mais Carta de Intenção de Pagamento.
+Hipótese: Donos de padaria pagariam R$ 400 por mês por loja pelo PadariaPro se a redução de perda for demonstrada em sessenta dias.
 
-O desenho tem cinco passos. Criar landing page simples (Framer, quatro horas de trabalho) apresentando o PadariaPro com três planos: R$ 290, R$ 400, R$ 590 por mês por loja. CTA: "Quero ser um dos primeiros 10 a usar". Leva a formulário pedindo nome, padaria, número de lojas, telefone, e compromisso de pagar R$ X por mês se a funcionalidade Y estiver pronta em sessenta dias. Tráfego: postar em grupos de WhatsApp de donos de padaria (três grupos com cerca de oitenta donos cada), mais LinkedIn targetando dono-padaria. Duração: catorze dias. Orçamento: R$ 0 (sem ads), mais cerca de oito horas de trabalho.
+Pergunta central: Qual faixa de preço o dono de padaria com três a cinco lojas aceita pagar por software de gestão de estoque com garantia de resultado em sessenta dias?
 
-A amostra mínima: trinta visitantes que se encaixem no ICP.
+Desenho: Criar landing page simples (Framer, quatro horas) com três planos — R$ 290, R$ 400 e R$ 590 por mês por loja. CTA "Quero ser um dos primeiros dez". Formulário pede nome, padaria, número de lojas, telefone e compromisso formal de pagar R$ X se a funcionalidade de previsão de demanda estiver pronta em sessenta dias. Tipo de experimento: Fake Door mais Carta de Intenção de Pagamento. Tráfego via três grupos de WhatsApp de donos de padaria (oitenta membros cada) mais LinkedIn. Para cada lead que preencher o formulário, ligar em quarenta e oito horas para confirmar disposição real.
 
-O critério de sucesso. Quinze por cento ou mais dos visitantes ICP preenchem formulário com compromisso real. E três dos cinco primeiros interessados confirmam em chamada telefônica disposição a pagar R$ 400 por mês.
+Público: Donos de padaria com três a cinco lojas em SP. Meta mínima de trinta visitantes que se encaixem no perfil. Canal de recrutamento: grupos de WhatsApp mapeados na Fase 5.
 
-O critério de falsificação. Se menos de cinco por cento preenchem, ou menos de dois em cinco confirmam em chamada, a hipótese está invalidada. Revisar preço ou proposta de valor.
+Métrica principal: Taxa de conversão de visitantes ICP em formulários com compromisso de pagamento.
 
-Os riscos de interpretação. Preencher formulário é barato. Confirmação telefônica valida mais. E o selection bias é real: quem entra em grupos de WhatsApp pode não ser representativo. Cruzar com Instagram ads em SP.
+Critério de sucesso: Quinze por cento ou mais dos visitantes ICP preenchem o formulário. Três de cada cinco que atendem à ligação confirmam disposição a pagar R$ 400 por mês.
 
-O resultado, executado depois de catorze dias. Quarenta e sete visitantes ICP. Doze preencheram formulário (vinte e cinco por cento). Sete responderam à ligação. Dos sete: quatro confirmaram disposição a R$ 290, dois a R$ 400, um a R$ 590.
+Critério de refutação: Menos de cinco por cento preenchem o formulário, ou menos de dois em cinco confirmam o preço em chamada. Nesse caso, revisar preço ou proposta de valor antes de continuar.
 
-A decisão tomada. R$ 400 não é o preço óbvio. O mercado bifurca. A maioria aceita R$ 290 (entry), mas uma minoria valoriza o suficiente para R$ 590 (premium com integrações adicionais). A hipótese original (R$ 400 uniforme) está invalidada. A nova hipótese: tier duplo (R$ 290 entry mais R$ 590 premium) com pacote diferente.
+Duração: Catorze dias.
+
+Custo: R$ 0 em mídia paga. Aproximadamente oito horas de trabalho (quatro horas para a landing page, quatro horas para as ligações de confirmação).
+
+Riscos e vieses: Preencher formulário é barato e não equivale a pagar. Selection bias: grupos de WhatsApp podem não representar o segmento completo. Confirmação telefônica mitiga o primeiro risco. Instagram ads segmentados em SP como canal paralelo mitiga o segundo.
+
+Data de início / fim: Semana 1 — Semana 2 do mesmo mês.
+
+**Resultado.** Quarenta e sete visitantes ICP. Doze formulários preenchidos (vinte e cinco por cento). Sete ligações realizadas: quatro confirmaram R$ 290, dois confirmaram R$ 400, um confirmou R$ 590.
+
+**Decisão.** R$ 400 uniforme está invalidado. O mercado bifurca. Nova hipótese: tier duplo — R$ 290 entry com funcionalidade básica e R$ 590 premium com integrações adicionais. A hipótese original está refutada.
 
 ### Armadilhas
 
@@ -476,11 +492,7 @@ A [[#FASE 7 — EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA|Fase 7]] trata de experi
 
 ### SÍNTESE DA FASE 7
 
-A [[#FASE 7 — EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA|Fase 7]] transforma hipóteses em evidência. Hipóteses sem experimentos são listas bonitas. Experimentos transformam suposição em evidência. Mas evidência só vale se o experimento foi rápido, e barato. Se um experimento demora três meses, ou custa R$ 50 mil, você está gastando demais para aprender uma coisa só. Cada experimento deve gerar decisão clara. Continuar. Ajustar. Pivotar. Ou matar.
-
-A diferença entre quem faz certo, e quem falha, está no rigor metodológico. Threshold pré-registrado antes de rodar o experimento, para evitar viés de confirmação. Regra de nove em dez para validações inequívocas. Disciplina de não pular do experimento "encorajador" para a construção do produto, sem antes ter passado pela ponte da validação rigorosa. Quem aceita "alguns sinais positivos" como prova entra na construção otimista, e descobre tarde que os sinais não eram o que pareciam.
-
-O entregável é o Relatório de Experimentos. Hipóteses testadas, resultados, aprendizados, próximos passos. O que sobrevive aos testes vira insumo da [[#FASE 8 — IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES|Fase 8]], ideação de soluções. O que é refutado força reabertura da árvore de teoria, e às vezes da escolha de cunha. A [[#FASE 7 — EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA|Fase 7]] é o ponto onde a teoria do negócio enfrenta o mundo. Quem trata isso com rigor produz aprendizado real. Quem trata como teatro de validação produz documentação para investidor, e nada mais.
+O entregável é o conjunto de cartões de experimento executados, cada um com decisão documentada (perseverar, pivotar, ou abandonar). Hipóteses testadas, resultados, aprendizados, próximos passos. O que sobrevive aos testes vira insumo da [[#FASE 8 — IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES|Fase 8]], que usa os aprendizados para definir a solução. O que é refutado força reabertura da árvore de teoria, e às vezes da escolha de cunha. A [[#FASE 7 — EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA|Fase 7]] é o ponto onde a teoria do negócio enfrenta o mundo. Quem trata isso com rigor produz aprendizado real. Quem trata como teatro de validação produz documentação para investidor, e nada mais.
 
 # fase7 #experimentos #validacao #threshold #pre-registro #landing-page #pre-venda #fake-door #wizard-of-oz #regra-9-em-10
 

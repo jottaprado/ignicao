@@ -73,4 +73,7 @@ Se você está em 2026, e sente que não usa IA o suficiente. Dedique quatro hor
 > [!tip] Audite o seu uso
 > Se você já usa IA. Audite o seu uso. O fundador médio em 2026 usa IA em vinte a trinta por cento do tempo operacional. Best-in-class chegam a cinquenta a sessenta por cento. Há tarefas que você ainda faz manualmente, que deveria delegar a IA? Há tarefas que você delegou a IA, mas deveria reabsorver?
 
+> [!info] Fases relacionadas
+> Referenciado em: Fase 0.
+
 ---

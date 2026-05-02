@@ -421,4 +421,7 @@ Este checklist é diferente dos anteriores. Não é sobre o que construir ao lon
 
 ---
 
+> [!info] Fases relacionadas
+> Referenciado em: Fase 16.
+
 ---

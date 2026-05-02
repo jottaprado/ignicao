@@ -10,29 +10,9 @@ appendix: "AG"
 
 Após 2020, e 2021, empresas brasileiras operam em mix de remote, hybrid, e presencial. Decidir como operar e, mais importante, executar bem a escolha, é diferencial competitivo. Empresas que fazem bem atraem talento nacional, e internacional. Empresas que fazem mal perdem produtividade, cultura, e gente.
 
-Esse apêndice cobre remote, ou hybrid, como disciplina operacional. Não como "deixar pessoas trabalharem de casa".
+Esse apêndice cobre remote, ou hybrid, como disciplina operacional. Não como "deixar pessoas trabalharem de casa". Os três modelos são: remote-first (sem escritório central), hybrid (escritório mais remoto com políticas claras) e office-first com flex (presencial padrão, remoto como exceção). Cada um exige disciplinas distintas. Erro clássico: operar em hybrid ou remote com práticas de office-first (meetings síncronas demais, decisões em corredores, cultura pessoal como proxy de trabalho).
 
-### O que esse apêndice cobre
-
-Três modelos comuns.
-
-Remote-first. Sem escritório central. Operação distribuída.
-
-Hybrid. Escritório, mais trabalho remoto, combinados, com políticas claras.
-
-Office-first com flex. Presencial padrão. Remoto como exceção.
-
-Cada um exige disciplinas distintas. Erro clássico. Operar em hybrid, ou remote, com práticas de office-first (meetings síncronas demais, decisões em corredores, cultura pessoal como proxy de trabalho).
-
-### POR QUE
-
-Pool de talento remote é múltiplas vezes maior que local (qualquer cidade).
-
-Custos de operação reduzidos (escritório, vale transporte, etc.). Embora parcialmente compensados por tooling, e benefícios distribuídos.
-
-Retenção maior, quando remote é bem-feito (flexibilidade, menos turnover).
-
-Risco. Se mal-executado, a cultura se dilui, a produtividade cai, e as decisões ficam confusas.
+O modelo importa porque: pool de talento remote é múltiplas vezes maior que local; custos de operação reduzidos (parcialmente compensados por tooling); retenção maior quando bem-feito. Risco: se mal-executado, a cultura se dilui, a produtividade cai, e as decisões ficam confusas.
 
 ### Quando usar
 

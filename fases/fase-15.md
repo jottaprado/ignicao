@@ -90,6 +90,9 @@ A saturação não acontece de repente. Dá sinais seis a dezoito meses antes da
 
 #### Passo 2, diagnostique o tipo de saturação e o caminho de reinvenção
 
+> [!tip] Apêndice CL — Pivot: Tipos, Gatilhos e Execução
+> Taxonomia completa de pivôs (produto, segmento, canal, modelo de receita), quando cada tipo é adequado, como comunicar internamente e externamente, e como medir se o pivô funcionou.
+
 Nem toda saturação exige a mesma resposta. Há seis taxonomias clássicas de pivô maduro.
 
 | Tipo de pivô | Quando aplicar | Exemplo |
@@ -106,6 +109,9 @@ Cada tipo exige intervenção diferente em quatro frentes. Produto (quanto recon
 O processo de diagnóstico, em três a seis semanas. Em quatro etapas. Semanas 1-2: análise dos sinais de saturação por categoria. Dados quantitativos, mais entrevistas qualitativas com clientes (churn interviews, won/lost analysis, top clientes felizes). Semana 3: workshop de liderança (off-site de dois a três dias) para mapear possíveis pivôs. Semana 4: scoring dos pivôs (tamanho da oportunidade, fit com capacidades, custo de execução, reversibilidade). Semanas 5-6: decisão, planejamento inicial, comunicação ao time e (se houver) ao board.
 
 #### Passo 2B — modelo quantitativo para a decisão pivot vs. persevere
+
+> [!tip] Apêndice EJ — Tomada de Decisão em Condições de Incerteza
+> Frameworks para decisões de alto impacto e baixa reversibilidade: expected value, análise de cenários, pre-mortem e como evitar vieses cognitivos (sunk cost, confirmation bias) na decisão de pivotar ou perseverar.
 
 A decisão de "pivotar ou perseverar" é a mais difícil em qualquer fase. Na Fase 15 (reinvenção), ela reaparece em forma mais complexa: não é "abandonar o produto" — é "abandonar a curva atual antes que expire". A pressão é diferente: a empresa tem receita, tem time, tem investidores. Cada pivô tem custo de confiança, de operação, e de capital.
 
@@ -140,6 +146,9 @@ Em Fase 6-9, pivot frequentemente é mudança de produto, segmento, ou modelo de
 > Pivotar para algo completamente novo porque é empolgante — e não porque os dados indicam. "Vamos para IA" sem evidência de que o segmento atual está saturado é distração disfarçada de estratégia. O scorecard serve para separar as duas coisas.
 
 #### Passo 3, aplique ambidestria organizacional (70/20/10 modificado)
+
+> [!tip] Apêndice R — Founder Mode: Delegação e Quando Manter Presença Direta
+> Como o fundador decide onde manter controle operacional direto versus delegar, especialmente em momentos de reinvenção — quando o Founder Mode é vantagem competitiva e quando vira gargalo.
 
 Reinvenção não significa parar o negócio atual. Significa rodar duas ou três apostas em paralelo. Com alocação deliberada.
 
@@ -180,6 +189,12 @@ Os critérios para avaliar aquisição, em cinco itens. Custo de construir inter
 
 #### Passo 6, comunique a reinvenção ao time
 
+> [!tip] Apêndice BH — Post-Mortems Estratégicos
+> Como conduzir post-mortems de estratégias ou apostas que não funcionaram: estrutura de análise, como separar causas de sintomas, e como transformar aprendizado coletivo em mudança de processo — especialmente relevante ao encerrar a primeira curva.
+
+> [!tip] Apêndice AI — Casos de Fracasso
+> Análise de empresas brasileiras e globais que falharam na transição de curvas ou em pivôs mal-executados: padrões recorrentes de erro e o que distingue fracasso evitável de fracasso estrutural.
+
 Frequentemente, a parte mais difícil. O time que construiu a primeira curva é emocionalmente investido nela. Comunicar que "agora vamos construir uma segunda coisa em paralelo" gera ansiedade. Fofoca. Saída de talento.
 
 Cinco elementos do playbook.
@@ -203,6 +218,9 @@ Celebre mini-wins públicos da segunda curva, logo que aparecerem. Mantém moral
 - Construir, ou comprar, é mais rápido para a segunda curva?
 - O meu time entende o porquê da reinvenção, ou está em modo "espera para ver"?
 - Tenho caixa suficiente para financiar dezoito a trinta e seis meses de segunda curva, enquanto o core sustenta a empresa?
+
+> [!tip] Apêndice CS — Bootstrap vs Venture Capital: a Escolha Fundacional
+> Como o modelo de financiamento escolhido na Fase 14 determina as opções de segunda curva: empresa bootstrapped tem liberdade de ritmo mas limitação de capital para apostas; empresa VC-backed tem expectativa de crescimento acelerado que pode conflitar com paciência necessária para a segunda curva.
 
 ### Métricas
 
@@ -367,11 +385,9 @@ Wardley Mapping. Revisitar evolução dos componentes (custom, depois product, d
 
 ### SÍNTESE DA FASE 15
 
-Reinvenção é a fase mais contraintuitiva do livro. No momento em que a curva atual ainda está crescendo (mas mostrando sinais de saturação), você tem que tirar atenção, capital, e talento, dela, e investir em algo que ainda não existe. Quem espera o core quebrar para começar a segunda curva, começa sem caixa, sem moral, e sem tempo. Quem começa cedo demais, sem sinais reais de saturação, queima energia em troca de direção movida por cansaço.
+Nessa fase você diagnosticou a saturação (com dados, não intuição), avaliou candidatas à segunda curva pelo critério TAM mais FMF, escolheu o tipo de pivô maduro e instalou ambidestria organizacional real — time dedicado, orçamento próprio e métricas de aprendizado, não de resultado financeiro imediato. A reinvenção bem-feita é estrutural: Magalu levou uma década, Microsoft levou cinco anos com canibalização tolerada. Empresas que tratam [[#FASE 15 — REINVENÇÃO E SEGUNDA CURVA|Fase 15]] como "projeto de inovação" com prazo curto sempre falham.
 
-A diferença entre as duas falhas é o diagnóstico honesto dos seis caminhos da [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]], antes de declarar saturação. Se você ainda não esgotou a profundidade intra-conta, e a amplitude extra-conta, o que parece saturação do negócio pode ser apenas saturação de um canal. E reinvenção feita por quem ainda tinha caminhos à frente é cara, e desnecessária.
-
-A reinvenção bem-feita é estrutural. Não cosmética. Magalu virando empresa tech levou uma década, não um trimestre. Microsoft virando subscription levou cinco anos com canibalização tolerada. Empresas que tratam [[#FASE 15 — REINVENÇÃO E SEGUNDA CURVA|Fase 15]] como "projeto de inovação" com prazo curto sempre falham. Empresas que tratam como nova curva, sustentada por liderança fundadora, capital de longo prazo, e ambidestria organizacional real, podem ter êxito.
+A [[#FASE 16 — EXIT STRATEGY|Fase 16]] começa aqui: fundadores que chegaram a esse ponto, com segunda curva rodando ou com decisão clara sobre o próximo capítulo, estão em posição de planejar o exit com poder de barganha.
 
 > [!note] Quando a "segunda curva" é uma empresa nova (fundador serial)
 > Há um caminho alternativo à reinvenção dentro da empresa atual: o fundador faz o exit (Fase 16) e relança em empresa nova. Esse caminho é tratado no [[#APÊNDICE BF — SECOND-TIME FOUNDER|Apêndice BF]], que cobre o que muda quando você empreende com track record (rede mais densa, investidores que voltam, padrões pessoais que ajudam ou prejudicam, decisão entre repetir setor ou pivotar de domínio). Se a sua segunda curva é "outra empresa", não "outro produto na mesma empresa", BF é a continuação natural depois do exit da Fase 16.

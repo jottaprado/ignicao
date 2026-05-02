@@ -347,7 +347,7 @@ Consumerista  Alta (B2C)      Médio        Responder PROCON sempre,
                                            vigilância ação coletiva
 ```
 
-O princípio unificador é simples: todo litígio que pode ser prevenido por documentação, por contrato bem redigido ou por defesa administrativa eficiente é um litígio que não precisa ser financiado com caixa da empresa. O fundador que trata jurídico como custo de overhead está tomando uma decisão que vai custar muito mais tarde.
+Este apêndice cobre os quatro vetores de contencioso (trabalhista, cível, tributário e consumerista), a gestão contábil do passivo contingente (CPC 25) e os critérios para escolha de advogado. Ele se conecta à Fase 5 (estrutura jurídica), ao Apêndice EC (compliance trabalhista) e ao Apêndice ED (planejamento tributário), onde a prevenção começa antes de qualquer processo ser aberto.
 
 ---
 

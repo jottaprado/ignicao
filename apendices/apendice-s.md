@@ -169,4 +169,7 @@ Esquecer que categoria também envelhece. Categorias têm ciclo. "CRM" foi categ
 > [!tip] Quatro ou mais "sim"
 > Se há quatro ou mais "sim", com os dois primeiros entre eles, category design vale exploração séria. Abaixo disso, compita dentro de categoria existente, e revisite.
 
+> [!info] Fases relacionadas
+> Referenciado em: Fase 5.
+
 ---

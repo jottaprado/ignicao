@@ -165,4 +165,7 @@ O terceiro: reputação do fundador no encerramento define trajetória pós-saí
 
 Os sete padrões originais (escalar antes do PMF, queimar caixa em aquisição sem retenção, confundir hype com tração, assumir dívida de produto, entre outros) seguem todos válidos. Os casos de 2022-2024 adicionam padrões de ciclo aos padrões de produto e execução. Fundador completo atenta para ambos.
 
+> [!info] Fases relacionadas
+> Referenciado em: Fase 15.
+
 ---

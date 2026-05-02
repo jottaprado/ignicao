@@ -1,6 +1,9 @@
 ---
 title: "APÊNDICE DS — NEGOCIAÇÃO COMO DISCIPLINA"
 appendix: "DS"
+> [!info] Fases relacionadas
+> Referenciado em: Fase 16.
+
 ---
 
 ## APÊNDICE DS — NEGOCIAÇÃO COMO DISCIPLINA

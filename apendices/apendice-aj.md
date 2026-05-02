@@ -77,4 +77,7 @@ A primeira é "resolvo isso depois do exit". Depois do exit é tarde. Décadas d
 
 [[#APÊNDICE BA — SECONDARY E LIQUIDEZ DE FOUNDER|Apêndice BA]] (secondary e liquidez), [[#APÊNDICE W — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Apêndice W]] (contabilidade e tributário BR), [[#APÊNDICE Y — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Apêndice Y]] (humanidade do fundador).
 
+> [!info] Fases relacionadas
+> Referenciado em: Fase 0.
+
 ---

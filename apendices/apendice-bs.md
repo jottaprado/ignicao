@@ -10,15 +10,11 @@ appendix: "BS"
 
 Fundador brasileiro que decide expandir internacionalmente frequentemente enfrenta uma pergunta pessoal: onde vou viver? Deal de Série A com investidor americano, cliente enterprise nos EUA, operação em Europa, cada um desses traz à mesa a questão de relocation, visto, imigração. Esse apêndice cobre os principais caminhos migratórios para fundadores brasileiros, com foco em Estados Unidos (destino mais comum), e também Portugal, Reino Unido e Canadá.
 
-### O que
+### O que e por que importa
 
-Visto e imigração para fundador envolve sete frentes que se entrelaçam. Diagnóstico de necessidade (você realmente precisa morar fora ou viagens frequentes resolvem?). Escolha do país, com trade-offs entre EUA, Portugal, Reino Unido, Canadá e outros. Escolha do tipo de visto, já que cada país tem múltiplas categorias com requisitos distintos. Processo de aplicação, com preparação, timeline e custos. Transição familiar envolvendo cônjuge, filhos, escola, adaptação. Planejamento fiscal cobrindo dupla tributação, exit tax brasileiro, remessa de recursos. E caminho para permanência, ou seja, green card nos EUA, residência permanente em outros países, cidadania eventual.
+Visto e imigração para fundador envolve sete frentes: diagnóstico de necessidade, escolha do país, tipo de visto, processo de aplicação, transição familiar, planejamento fiscal (dupla tributação, exit tax, remessa) e caminho para permanência (green card, residência permanente, cidadania eventual). Os entregáveis são diagnóstico com país e visto escolhidos, plano de aplicação, timeline realista, budget completo, plano de relocation familiar e estrutura fiscal.
 
-Os entregáveis são diagnóstico com país e visto escolhidos, plano de aplicação, timeline realista, budget completo, plano de relocation familiar e estrutura fiscal.
-
-### Por que importa
-
-São seis razões. A primeira é que investidores americanos frequentemente esperam fundador in loco para startups com mercado-alvo EUA. A narrativa de fundador baseado no Brasil liderando startup americana funciona em alguns casos, mas tende a adicionar fricção que vira drag em rodadas e em vendas. A segunda é que rede de contatos em startup é local-dependente. Fundador em San Francisco tem acesso diário a investidores, talento e peers que em São Paulo se limita a viagens trimestrais. A terceira é que sales enterprise nos EUA exige presença. Fechar deals corporate em indústrias específicas frequentemente requer face-to-face, múltiplas visitas e relationship building impossível remotamente. A quarta é que Delaware Flip frequentemente acompanha relocation. Empresa estruturada como Delaware C-Corp com operação nos EUA beneficia-se de fundador residente para fiscal, operacional e legal. A quinta é que a família tem voz. Decisão de relocation afeta cônjuge (carreira própria), filhos (escola, cultura, idioma) e pais (distância, cuidado). São trade-offs reais. A sexta é que o custo fiscal e financeiro da mudança é significativo, entre quinhentos mil reais e dois milhões em custos diretos, mais impactos fiscais como exit tax brasileiro eventualmente.
+Importa por seis razões: investidores americanos frequentemente esperam fundador in loco; rede de contatos é local-dependente; sales enterprise exige presença; Delaware Flip beneficia-se de fundador residente; família tem voz (cônjuge, filhos, pais); e o custo fiscal e financeiro é significativo (R$ 500K–R$ 2M em custos diretos, mais exit tax).
 
 ### Quando
 

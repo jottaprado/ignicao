@@ -270,14 +270,4 @@ Software cleantech tem economics de SaaS. Projetos físicos (usina solar, parque
 
 ---
 
-### Armadilhas (resumo)
-
-1. Construir modelo que depende de incentivo regulatório que pode mudar com troca de governo.
-2. Subestimar prazo e custo de certificação ambiental (Verra, IBAMA, licença ambiental).
-3. Confundir mercado voluntário (VCM) com mercado regulado (SBCE) de carbono.
-4. Perder additionality em projeto de energia renovável em mercado já maduro.
-5. Comunicar impacto ambiental sem dados verificáveis — risco de acusação de greenwashing.
-6. Ignorar que projetos físicos têm retorno em 10–20 anos e economics completamente diferentes de software.
-7. Não modelar risco de atraso no licenciamento ambiental (pode travar o projeto por 2–5 anos).
-
 **Ver também:** [[apendice-af|Apêndice AF — ESG]], [[apendice-ca|Apêndice CA — Deep Tech]], [[apendice-p|Apêndice P — Financiamento Não-Diluitivo]]

@@ -335,6 +335,9 @@ Estágio         | Equipe         | Ratio CS:clientes | Foco
 
 **Tratamento de Reclame Aqui como ameaça em vez de canal.** Empresas que respondem apenas para cumprir procedimento, sem intenção genuína de resolver, degradam NPS sem perceber — o público que lê a resposta vazia é maior do que o reclamante original.
 
+> [!info] Fases relacionadas
+> Referenciado em: Fase 12.
+
 ---
 
 **Ver também:** [[apendice-am|Apêndice AM — Métricas de SaaS]], [[apendice-an|Apêndice AN — Funis e Conversão]], [[apendice-eg|Apêndice EG — Revenue Forecasting]], [[apendice-cs|Apêndice CS — Bootstrap vs. Venture Capital]]

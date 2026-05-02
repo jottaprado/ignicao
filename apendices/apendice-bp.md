@@ -85,10 +85,6 @@ As lições transversais são quatro. Prevenção (acordo de sócios robusto) é
 
 Saída de sócio idealmente não é recorrente, então as "métricas" são de estado e processo. Acordo de sócios em vigor (binário; antes de qualquer rodada, antes de o segundo sócio entrar, antes de um ano de operação — qualquer um desses deve disparar a estruturação). Vesting schedules documentados para todos os sócios (binário). Cláusulas de saída definidas em acordo (binário). Cláusulas de resolução de conflito (mediação e arbitragem) pré-definidas (binário). E cap table limpo e atualizado (binário, atualizado após cada evento). Em processo de saída, o tempo de conversa inicial até termo de acordo tem alvo de quatro a doze semanas, o tempo de termo até documentação final tem alvo de seis a dezesseis semanas, o impacto em runway e caixa é mensurado versus planejado, e o turnover de time nos seis meses seguintes deve ficar idealmente até dez por cento acima da baseline.
 
-### Definição de sucesso
-
-Saída de sócio é bem-executada quando a decisão foi tomada com clareza e alinhamento entre sócios remanescentes, a conversa foi conduzida com respeito e profissionalismo mesmo em conflito, os termos foram justos para ambas as partes (sem windfall para nenhum lado), a documentação formal está completa e registrada, a comunicação foi estruturada a todos os stakeholders, a transição operacional aconteceu sem colapso de funções, o relacionamento pós-saída é gerenciável (não precisa ser amigo, mas não é inimigo público), e há zero litígio em curso doze meses após a saída formal.
-
 ### Armadilhas
 
 Sem acordo de sócios, qualquer disputa vira "palavra contra palavra", aumentando o custo de resolução em múltiplas vezes. Adiar decisão, quando há sinal claro há meses de que a saída é necessária — silêncio ou postergação contamina o time e toma o tempo do CEO. Agir sob raiva: decisão importante tomada em momento emocional vira passivo. Conversa por mensagem: comunicação difícil merece presença física. Sem advogado societário: self-service aqui é aposta alta. Termos "amigáveis" sem documentação: acordo verbal vira processo quando a relação azeda. Non-compete abusivo, não-enforceable e gerador de ressentimento. Buyout subvalorizado, com sócio saindo sentindo que foi ferrado e virando adversário de longo prazo. Buyout sobrevalorizado, com a empresa drenando caixa que precisava para a operação, e outros sócios sentindo injustiça. Comunicação pública descoordenada, com versões conflitantes no mercado. Sócio saindo que fica circulando na empresa, com transição mal-definida e time confuso sobre autoridade. Ignorar o trabalhista se o sócio também é funcionário, com risco de ação trabalhista paralela. Esquecer de atualizar cap table e registros societários, com burocracia inacabada virando problema em próxima rodada ou DD. Acordo sem cláusula de quitação mútua, com porta aberta para processos futuros. Ignorar investidores, que surpreendidos ou mal-informados reagem mal e podem travar a próxima rodada. E usar o time para tomar lado, politizando internamente e destruindo a cultura.
@@ -112,5 +108,8 @@ Pós-saída: funções transicionadas, cap table e registros atualizados, acesso
 ### Ver também
 
 [[#APÊNDICE AM — BOARD E GOVERNANCE|Apêndice AM]] sobre board e governance, [[#APÊNDICE V — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Apêndice V]] sobre captação de equity, [[#APÊNDICE W — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Apêndice W]] sobre contabilidade BR, [[#APÊNDICE AH — CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS|Apêndice AH]] sobre contratos operacionais e [[#APÊNDICE Y — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Apêndice Y]] sobre humanidade do fundador.
+
+> [!info] Fases relacionadas
+> Referenciado em: Fase 0, Fase 13.
 
 ---

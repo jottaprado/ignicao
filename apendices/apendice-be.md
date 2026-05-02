@@ -89,4 +89,7 @@ O que vem na Parte IV. O ciclo longo da empresa, e o exit. A [[#FASE 15 — REIN
 > [!important] A Parte IV é onde toda empresa eventualmente chega
 > Toda empresa termina. A questão é como. Aquisição, IPO, cisão, fechamento, sucessão familiar, cansaço do fundador. Saber que vai terminar não é pessimismo. É planejamento. A Parte IV trata o fim como parte legítima, e planejável, do ciclo. Não como fracasso a evitar, nem sucesso a postergar indefinidamente.
 
+> [!info] Fases relacionadas
+> Referenciado em: Fase 10.
+
 ---

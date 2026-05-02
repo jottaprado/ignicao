@@ -117,6 +117,9 @@ Métrica primária. Taxa de conversão de visitante em ação. Threshold forte: 
 
 Custo típico de R$ 500 a R$ 3.000 em tráfego pago, mais alguns dias para montar a página (Carrd, Framer, Webflow, Unbounce). Duração de uma a três semanas. O critério de avanço é demanda confirmada acima do threshold pré-definido.
 
+> [!tip] Apêndice A — Templates operacionais desta fase
+> O [[apendice-a|Apêndice A]] inclui o template A.5 (Landing Page de Validação) com estrutura de headline, proposta de valor, CTA e formulário de captura — pronto para adaptar e publicar em Carrd ou Framer sem partir do zero.
+
 #### Fase 2 do ciclo, MVP Concierge (Manual)
 
 A pergunta que responde: se entregarmos o valor prometido, o cliente consome, paga, e retorna? A solução realmente *mata* a dor?
@@ -150,7 +153,7 @@ O executor é você. Com time técnico (interno, terceirizado, ou sócio). Os pa
 
 ### Como executar
 
-Dez passos.
+Nove passos.
 
 > [!tip] MVP Canvas antes de construir qualquer coisa
 > Para cada MVP que o time planeja lançar, preencha o [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|MVP Canvas (CZ.11)]] de Tristan Kromer em 30-45 minutos antes de qualquer linha de código: qual é a **hipótese central** (falsificável), quem é o **segmento do MVP** (pode ser subconjunto de 20 pessoas, não 20.000), qual é o **tipo de MVP** (landing page, concierge, wizard of oz — use o mais barato que testa a hipótese), e qual é o **critério de invalidação** (não só de sucesso). A pergunta mais importante do canvas: "Se o MVP falhar pelo critério de invalidação, o que construímos a seguir?" Se a resposta for "não sabemos", a hipótese precisa ser mais específica. O caso Wildlife Studios em CZ.11 mostra como definir o segmento com precisão (moderate spenders apenas) produziu evidência limpa que justificou a expansão do feature para toda a base.
@@ -206,6 +209,9 @@ Três táticas específicas compõem esse modo de operação.
 
 Em vez de esperar que marketing digital traga usuários "magicamente" (e gastar R$ 5 mil a R$ 20 mil em ads que convertem a meio por cento), os melhores fundadores abordam pessoas uma a uma. No público-alvo. Por LinkedIn. Por e-mail direto. Por presença em eventos do setor. Ou até presencialmente em cafés.
 
+> [!tip] Apêndice J — Framework de Canais de Aquisição
+> O [[apendice-j|Apêndice J]] mapeia todos os canais de aquisição disponíveis — inbound, outbound, eventos, parcerias, viral — com matriz de CAC estimado, velocidade e fit por estágio. Use para priorizar os dois ou três canais que valem testar nesta fase antes de investir em escala.
+
 O exemplo canônico é o Airbnb. Brian Chesky, Joe Gebbia, e Nathan Blecharczyk fotografavam pessoalmente apartamentos dos anfitriões em Nova York para melhorar os anúncios. O Pinterest. Ben Silbermann e Evan Sharp foram literalmente a cafeterias de Palo Alto convidar pessoas para usar.
 
 Esse tipo de recrutamento é demorado e ineficiente por design. E é exatamente por isso que funciona. Os primeiros cinquenta a cem clientes precisam ser adquiridos com atenção cirúrgica que nenhum anúncio pago consegue replicar.
@@ -244,11 +250,7 @@ Ritual semanal. Segunda-feira: revisão das métricas da semana anterior. Quarta
 > [!warning] Evite o ciclo tóxico
 > "Implementar sem olhar dados, olhar dados uma vez por mês, entrar em pânico, implementar muita coisa." Esse é o caminho mais rápido para queimar capital sem aprender.
 
-#### Passo 7, atenda usuários diretamente
-
-Nas primeiras doze semanas, você, fundador, atende o suporte. Cada pergunta recebida é evidência. Não terceirize cedo demais.
-
-#### Passo 8, meça retenção com rigor
+#### Passo 7, meça retenção com rigor
 
 Retenção é o indicador mais honesto. Construa uma curva de retenção. A coorte: usuários que ativaram na semana X. A medição: percentual dessa coorte que continua ativa em X mais 1 semana, X mais 2 semanas, e por aí vai.
 
@@ -259,11 +261,14 @@ Curva que estabiliza em vinte por cento indica que um quinto dos usuários encon
 > [!note] Apêndice EH — Revenue Operations
 > Com os primeiros usuários em produto, instale o CRM e as definições de pipeline antes de chegar em dez clientes pagantes. O [[apendice-eh|Apêndice EH — Revenue Operations]] cobre como estruturar stages de pipeline, handoffs entre onboarding e expansão, e as métricas de ativação que ligam o comportamento no produto ao forecast de receita. Configurar isso cedo evita retrabalho quando o volume aumentar.
 
-#### Passo 9, valide a disposição real de pagamento
+#### Passo 8, valide a disposição real de pagamento
 
 Se você está em trial gratuito, tenha data de cobrança clara. Meça duas coisas. Percentual que converte de trial para pago. E as razões de não-conversão (via entrevista com quem não converteu).
 
-#### Passo 10, produza o Relatório de Aprendizado
+> [!tip] Apêndice X — Pricing
+> O [[apendice-x|Apêndice X — Pricing]] cobre modelos de precificação (freemium, por uso, por assento, por resultado), como testar elasticidade de preço com experimentos controlados e os erros mais comuns de pricing em early-stage — inclui o método de van Westendorp para calibrar faixas aceitáveis sem chute.
+
+#### Passo 9, produza o Relatório de Aprendizado
 
 Depois de oito a doze semanas, consolide sete itens. Métricas comparadas com critérios pré-definidos. Aprendizados sobre o produto. Aprendizados sobre o usuário (quem ativa, e quem não ativa). Aprendizados sobre o canal (como os melhores usuários chegaram). Problemas encontrados. Oportunidades descobertas. Recomendação: perseverar, ajustar (iterar), pivotar (mudar estrutura), ou abandonar.
 
@@ -530,6 +535,9 @@ Se o produto ainda não está público, criar página de waitlist (Typeform, Fra
 
 Postagens regulares do fundador (LinkedIn para B2B Brasil, Twitter para B2B e tech global, Instagram para consumer) documentando a construção. Não venda. Documente. "Essa semana descobrimos que X." "O protótipo falhou em Y, como reconstruímos." "Conversamos com vinte usuários, três padrões apareceram." Essa prática cria rede de pessoas que conhece o produto antes de virar cliente, e que compartilha o launch organicamente.
 
+> [!tip] Apêndice AR — Content Marketing e SEO
+> O [[apendice-ar|Apêndice AR — Content Marketing e SEO]] estrutura como transformar o building-in-public em canal de aquisição orgânica de longo prazo — estratégia editorial, clusters de conteúdo, SEO semântico e distribuição. A diferença entre post que gera buzz e post que gera tráfego composto por dois anos.
+
 ##### Rede pessoal aquecida
 
 Mapear cinquenta a cento e cinquenta pessoas da sua rede que podem amplificar o launch. Outros founders, advisors, primeiros usuários, jornalistas se houver, influencers de nicho. Duas semanas antes do launch, conversa individual com cada uma. "Vou lançar em [data], posso contar com o seu apoio de compartilhamento?" Pedido específico e antecipado tem taxa de conversão cinco a dez vezes maior que pedido genérico no dia.
@@ -543,6 +551,9 @@ Materiais prontos para distribuição antes do launch. Screenshots do produto em
 O dia específico em que o produto abre ao público. Datas a evitar: segundas-feiras (ninguém está focado), sextas-feiras (o fim de semana absorve atenção), vésperas de feriado. Os dias ideais são terça ou quarta, fora da semana de Black Friday, Copa do Mundo, Olimpíada, ou eventos que consomem atenção.
 
 ##### Canais de launch, priorização por setor
+
+> [!tip] Apêndice AY — Marketing de Performance
+> O [[apendice-ay|Apêndice AY — Marketing de Performance]] cobre estrutura de campanhas pagas (Meta, Google, LinkedIn), CAC por canal com benchmarks por vertical, atribuição multi-touch e o momento certo de escalar paid — incluindo os sinais de que o canal ainda não está maduro para investimento pesado.
 
 Para produtos de tech ou SaaS dirigidos a founders, developers, e PMs. **Product Hunt** segue sendo o canal primário globalmente. Posicionar para primeiro do dia exige estratégia. Lançar 00:01 PT (04:01 BRT). Ter vinte a trinta amigos no Product Hunt prontos para upvote nas primeiras duas horas. Responder comentários ao vivo. Fundador presente o dia inteiro. Resultado típico: dez mil a cinquenta mil visitantes de alta qualidade em quarenta e oito horas.
 
@@ -597,11 +608,9 @@ Algumas empresas crescem sem launch público tradicional. Crescem organicamente 
 
 ### SÍNTESE DA FASE 10
 
-A [[#FASE 10 — MVP E EXPERIMENTOS DE MERCADO|Fase 10]] desfaz a maior confusão do glossário empreendedor. MVP não é "versão capenga" do produto. Não é o produto cortado pela metade, com metade dos botões e metade do design. MVP é processo obsessivo de validação que se concentra em responder duas perguntas por ciclo. Qual é a premissa mais arriscada *neste momento*? Como podemos testá-la com o menor esforço possível? Se você gastou R$ 200 mil construindo um MVP, e saiu com as mesmas dúvidas que tinha no início, não foi MVP. Foi produto prematuro mal-feito.
+O entregável é o MVP em operação mais o Relatório de Aprendizado depois de oito a doze semanas. Pela primeira vez, você tem evidência do que pessoas reais fazem com produto real, pago, em rotinas reais — e essa evidência é qualitativamente diferente de tudo que veio antes: entrevistas, protótipos, testes de usabilidade. Ela muitas vezes surpreende.
 
-A diferença entre quem faz certo, e quem falha, está em medir o MVP pelo aprendizado, não pelo polimento. O ciclo MVP em três etapas (problema, solução, modelo) valida coisas diferentes em momentos diferentes. Saltar etapas é onde a maioria queima dinheiro. Faça coisas que não escalam, escutar Paul Graham aqui, é o oposto do impulso engenheiro de automatizar tudo desde o dia um. Atender os primeiros vinte clientes pessoalmente, mesmo que ineficiente, é o que produz aprendizado denso que automação esconde.
-
-O entregável é o MVP em operação, mais o Relatório de Aprendizado depois de oito a doze semanas. Esse aprendizado é qualitativamente diferente de tudo que veio antes. Pela primeira vez, você tem evidência do que pessoas reais fazem com produto real, pago, em rotinas reais. E a evidência muitas vezes surpreende. Aprendizado denso da [[#FASE 10 — MVP E EXPERIMENTOS DE MERCADO|Fase 10]] é insumo da [[#FASE 11 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 11]], validação da máquina econômica.
+Faça coisas que não escalam — atender os primeiros vinte clientes pessoalmente, mesmo ineficiente, é o que produz aprendizado denso que automação esconde. O aprendizado denso da [[#FASE 10 — MVP E EXPERIMENTOS DE MERCADO|Fase 10]] é insumo direto da [[#FASE 11 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 11]], onde o foco sai do produto e vai para a máquina econômica: CAC, LTV, margem e sustentabilidade.
 
 # fase10 #mvp #ciclo-mvp #faca-coisas-que-nao-escalam #maquina-de-melhoria #stone #green-angel #launch-playbook #product-hunt #product-led-growth
 

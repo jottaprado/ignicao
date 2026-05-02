@@ -9,13 +9,7 @@ part: parte-ii
 
 A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] é o longo período em que a empresa transita de *ter PMF* para *ser máquina*. Aqui você sai do modo fundador-fazendo-tudo, e entra no modo empresa-institucional-funcionando-sem-você-diariamente. É a fase mais longa e trabalhosa da trajetória. Tipicamente dois a cinco anos. Com picos de atividade, mas também platôs. É também a fase onde boa parte das empresas brasileiras com PMF genuíno trava. Porque escalar envolve disciplinas que não tinham sido requeridas até aqui.
 
-A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] tem três frentes simultâneas. Cada uma com lógica própria, mas inseparáveis na prática. Você não "termina time" antes de começar "operações". As três evoluem em paralelo. Esse capítulo trata as três em subseções ordenadas por intuição operacional. Mas na vida real, elas rodam juntas.
-
-A frente Time e Liderança em Escala. Do primeiro funcionário além do fundador até a organização com dezenas, ou centenas, de pessoas. Primeiras lideranças. Estrutura hierárquica. Cultura declarada. Performance reviews. Compensação equitativa. DEI (ver [[#APÊNDICE BU — DIVERSIDADE, EQUIDADE E INCLUSÃO (DEI) EM STARTUP BRASILEIRA|Apêndice BU]]). Remote, e híbrido (ver [[#APÊNDICE AG — REMOTE, HYBRID E DISTRIBUÍDO COMO DISCIPLINA|Apêndice AG]]). Desenvolvimento de carreira. Promoção. Saída.
-
-A frente Operações, Processos e Gestão em Escala. A disciplina operacional de fazer a máquina andar. OKRs. Cadência de gestão. Tooling. Métricas operacionais. Financeiro em escala. Produto como função organizacional. Engineering management em escala.
-
-A frente Máquina de Crescimento, Capital e Expansão. Growth virando engenharia previsível. Série A em diante. Valuation. Term sheets. Dilução. Expansão geográfica e de produto. Aquisições como comprador.
+A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] tem três frentes simultâneas: Time e Liderança em Escala, Operações e Gestão em Escala, e Máquina de Crescimento, Capital e Expansão. Cada uma com lógica própria, mas inseparáveis na prática. As três evoluem em paralelo — esse capítulo as trata em subseções ordenadas por intuição operacional.
 
 ### POR QUE
 
@@ -73,6 +67,9 @@ Prazo total: três a seis semanas, do início ao primeiro dia.
 
 Salário de oitenta a noventa e cinco por cento do mercado, para cargo equivalente. Abaixo sinaliza startup. Perto do mercado reconhece o risco que está aceitando.
 
+> [!tip] Apêndice ED — Compensação e Benefícios
+> Estrutura de salário, equity, bônus e benefícios por estágio e senioridade, benchmarks salariais para startups brasileiras, e como montar pacotes competitivos em escala.
+
 Equity de zero vírgula cinco a cinco por cento, dependendo de perfil, senioridade, equity total disponível, e quanto a pessoa está assumindo de risco. Como conciliar com as faixas dos três perfis acima? Perfil A (ex-colega sênior trocando emprego estável) fica tipicamente em **um a cinco por cento**, com o topo da faixa reservado para o "primeiro funcionário VP-level" do tipo que vira C-level naturalmente. Perfil B (generalista de alto potencial) fica em **zero vírgula vinte e cinco a um por cento**. Perfil C (especialista para gargalo) fica em **zero vírgula cinco a dois por cento**, dependendo de quão crítico é o gargalo e quão fácil seria substituir a pessoa. A faixa ampla "zero vírgula cinco a cinco por cento" desta linha é a envoltória que cobre os três perfis — não significa que toda contratação fica entre 0,5% e 5%, mas sim que esse é o intervalo onde alguma das três combinações cabe.
 
 Vesting de quatro anos, com um ano de cliff. Padrão inegociável.
@@ -92,6 +89,9 @@ Dias 31-60. Primeiro projeto substantivo com ownership. Feedback bidirecional fo
 Dias 61-90. Revisão formal. Como está indo? O critério acordado no dia um está sendo atingido? Se sim, ampliar escopo. Se não, conversa honesta. Plano de recuperação, ou saída amigável.
 
 ##### A primeira demissão, quando acontecer
+
+> [!tip] Apêndice BV — Layoffs e Desligamentos
+> Quando e como conduzir desligamentos individuais ou coletivos: protocolo legal, comunicação ao time, impacto de moral, e como preservar a cultura durante reduções de headcount.
 
 Estatisticamente, trinta a quarenta por cento das primeiras contratações não se encaixam. Problema de fit, de timing, de expectativa, ou de momento da empresa. Esse número parece alto. Mas é normal.
 
@@ -193,6 +193,12 @@ A ordem típica de contratação C-level para startups SaaS B2B pós-PMF:
 
 ##### Passo 3, defina critérios de contratação de C-level (diferentes dos de IC)
 
+> [!tip] Apêndice BN — Executive Hiring
+> Processo completo de busca, avaliação e onboarding de executivos C-level e VPs: scorecard, entrevistas estruturadas, reference check profundo e os primeiros noventa dias.
+
+> [!tip] Apêndice CO — Recrutamento Técnico
+> Contratação de engenheiros seniores, tech leads e CTOs: avaliação de competência técnica, desafios de coding, e como calibrar senioridade em startups sem bancada de engenharia prévia.
+
 Contratar um primeiro vendedor é diferente de contratar um Head of Sales. Os erros mais comuns. Contratar pela empresa anterior prestigiosa. "Veio da Google" é diferente de "vai performar aqui". Pergunte o que a pessoa fez *concretamente*, em que estágio, e com que recursos. Contratar por fit cultural apenas. É necessário, mas não suficiente. Resultado passado em contexto similar é o melhor preditor. Contratar sem contratar. Manter sócio-fundador no papel apenas porque "ele é o sócio", quando ele já não é a pessoa ideal para o estágio. Conversa difícil. Necessária. Contratar fast. Nunca. Senioridade exige três a oito entrevistas. Pelo menos um teste prático ou case. E três ou mais referências reais.
 
 O processo padrão de contratação sênior leva quatro a seis semanas. Nove etapas. JD escrita com outcomes em três, seis, e doze meses (não só atividades). Triagem por recrutador, ou por você direto. Entrevista cultural com CEO (trinta a quarenta e cinco minutos). Entrevista técnica com profissional sênior da área, ou advisor. Case ou teste prático (quatro a oito horas de trabalho remunerado é razoável). Bar-raiser (um avaliador que não é da área, e tem poder de veto). Reference check rigoroso. Mínimo de três referências, idealmente cinco. Pergunte "em uma escala de um a dez, quão forte foi o desempenho dessa pessoa?". Qualquer coisa abaixo de nove merece investigação. Oferta, e negociação. Onboarding estruturado de noventa dias, com marcos claros.
@@ -212,7 +218,13 @@ De "operador" para "institucionalizador" (mais de cento e cinquenta pessoas). A 
 
 Quando três ou mais desses sinais aparecerem, pare e desenhe intervenção. A transição mais frequente é contratar um COO, ou segundo CEO operacional. Revisite mensalmente.
 
+> [!tip] Apêndice BQ — Gestão de Tempo do Fundador
+> Como o CEO aloca tempo por função (estratégia, contratação, cliente, produto) em cada estágio, técnicas de time-blocking, e como auditar o próprio calendário para identificar onde o tempo está sendo mal gasto.
+
 ##### Passo 5, documente valores e cultura antes dos primeiros 15 contratados
+
+> [!tip] Apêndice AP — Cultura Organizacional
+> Como documentar, reforçar e medir cultura em empresas de dez a quinhentas pessoas: rituais, artefatos, processo de contratação cultural e diagnóstico quando a cultura começa a derivar.
 
 Valores escritos depois que a empresa passou de quinze pessoas já estão tarde. A cultura de fato está formada. Os "valores" viram poster de parede. Antes disso, a cultura ainda é plástica. E o documento molda comportamento real.
 
@@ -221,6 +233,9 @@ Valores efetivos têm três características. São específicos o suficiente par
 Exemplos de valores com trade-offs explícitos. "High agency. Esperamos que você tome decisões sem pedir permissão, *mesmo que isso signifique errar mais vezes*." "Radical candor. Damos feedback duro rapidamente, *mesmo quando é desconfortável*." "Customer obsession. Escutamos cliente antes de escutar intuição interna, *mesmo quando o cliente pede o que a gente sabe que é errado*. Porque o 'errado' revela a necessidade real."
 
 Rituais que reforçam valores na prática. All-hands semanais ou quinzenais, com CEO falando. Reconhecimento público de comportamentos exemplares (weekly shoutouts). Post-mortems sem culpa (blameless), depois de incidentes grandes. Revisões 360º anuais com feedback cruzado.
+
+> [!tip] Apêndice BZ — Performance Reviews
+> Estrutura de ciclos de avaliação (360º, calibração, PIP), como separar conversa de desenvolvimento da conversa de compensação, e cadência recomendada por tamanho de time.
 
 ##### Passo 6, construa o processo de onboarding de novos contratados
 
@@ -606,6 +621,9 @@ Comunicação que funcionava com dez não funciona com cinquenta. A regra operac
 
 ##### Passo 6, construa data infrastructure mínima desde cedo
 
+> [!tip] Apêndice AO — Dados e Analytics
+> Arquitetura de dados para startups em escala: data warehouse, ETL, modelagem de dados, cultura data-driven e como estruturar a função de analytics (self-serve vs. analista centralizado).
+
 Antes de vinte pessoas, planilhas Google resolvem. Acima disso, você precisa de quatro coisas. Data warehouse, mesmo que pequeno: BigQuery ou Snowflake, com ingestão automática de produção, mais CRM, mais financeiro. Dashboards centrais: receita, retenção, CAC e LTV, churn, e pipeline. Atualizados diariamente. Acesso controlado: nem todos precisam ver tudo. Cultura de "dados antes de opinião": decisões grandes são acompanhadas de análise de dado antes.
 
 ##### Passo 7, institua blameless post-mortems
@@ -782,6 +800,9 @@ Lean Analytics (Croll e Yoskovitz, 2013). Métricas por estágio, mais modelo de
 ### Transição, da Operação ao Crescimento
 
 Com time estruturado, e operação rodando, o crescimento deixa de ser subproduto, para virar motor independente. Growth vira engenharia previsível. Capital externo entra como alavanca. Expansão geográfica e de produto viram opções concretas. A frente Crescimento e Capital trata do crescimento como função organizacional. E do capital que sustenta essa função.
+
+> [!tip] Apêndice CG — Growth como Função
+> Como estruturar a função de growth dentro da empresa: onde fica na estrutura (produto, marketing ou independente), ritmo de experimentação, modelo de squad de growth, e OKRs específicos para times de crescimento.
 
 > [!tip] Capital: equity, dívida ou bootstrap
 > A escolha entre venture capital institucional, financiamento alternativo e bootstrap não é técnica — é fundacional. O [[#APÊNDICE CS — BOOTSTRAP vs VENTURE CAPITAL: A ESCOLHA FUNDACIONAL|Apêndice CS]] trata essa decisão. Empresas com economics fortes desde cedo podem optar por bootstrap (controle, velocidade própria, sem dilution); empresas que precisam ganhar mercado rápido escolhem VC (escala, mas com expectativa de crescimento ≥3x e exit). Marca pessoal do fundador, cada vez mais relevante como canal de aquisição e credibilidade pós-PMF, é tratada no [[#APÊNDICE CY — MARCA PESSOAL DO FUNDADOR: DISTRIBUIÇÃO, AUTORIDADE E CUSTO DE REPUTAÇÃO|Apêndice CY]].
@@ -1354,11 +1375,9 @@ SaaS Quick Ratio (Hamid). (New mais Expansion) dividido por (Churned mais Contra
 
 ### SÍNTESE DA FASE 14
 
-A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] é marcada por simultaneidade. Você não pode priorizar uma das três frentes em detrimento das outras por muito tempo, sem custo. Time sem operação tropeça. Operação sem crescimento estagna. Crescimento sem time sustenta-se por alguns trimestres, e depois colapsa. A arte do fundador em escala é manter as três balanceadas. Sabendo que em qualquer momento uma delas vai pesar mais.
+A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] é marcada por simultaneidade. Você escalou time (contratações C-level, cultura documentada, rituais de gestão), operações (OKRs, cadência, processos críticos, stack) e máquina de crescimento (motores de aquisição previsíveis, Série A, expansão). Time sem operação tropeça. Operação sem crescimento estagna. Crescimento sem time colapsa em alguns trimestres. A arte do fundador em escala é manter as três balanceadas.
 
-A duração típica da [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]], dois a cinco anos, é também a janela em que a empresa passa de "startup" para "empresa" no olhar do mercado. O fim da [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] não é um marco claro. É uma transição gradual para a Parte III desse manual. Onde você encontra os temas das empresas já consolidadas. Governance madura. Internacionalização. Tesouraria em escala. Disputas societárias. Crise e continuidade.
-
-Quando você olhar para trás, ao fim da [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]], vai reconhecer duas coisas. Primeira. A empresa é maior, mais complexa, e mais resiliente do que você imaginava possível. Segunda. Você também é. Ambas as transformações são parte da mesma jornada.
+A duração típica é dois a cinco anos. Nesse período, a empresa passa de "startup" para "empresa" no olhar do mercado — e o fundador, de artesão para institucional. É nessa transição que o modelo atual começa, em algum momento, a mostrar os primeiros sinais de saturação. É aí que começa a [[#FASE 15 — REINVENÇÃO E SEGUNDA CURVA|Fase 15]].
 
 # fase14 #escala #time-em-escala #lideranca #okrs #operacoes #growth #captacao #serie-a #m-and-a
 

@@ -85,6 +85,9 @@ Execute estas oito tarefas em sequência.
 >
 > É o número de meses que você aguenta sem receita. Se é menor que seis meses, você não deve largar o seu emprego para empreender agora. Empreenda em paralelo.
 
+> [!tip] Apêndice AJ — Dinheiro Pessoal do Fundador
+> O diagnóstico acima é o ponto de partida. O [[#APÊNDICE AJ — DINHEIRO PESSOAL DO FUNDADOR|Apêndice AJ]] aprofunda: pró-labore sustentável por fase, gestão de dívida pessoal enquanto a empresa cresce, e como separar as finanças pessoais das da empresa desde o início.
+
 1. Teste de motivação real, uma hora, em silêncio, sem pressa. Responda por escrito, com honestidade brutal. Por que eu quero empreender? Escreva cinco razões. Dessas razões, quais são sobre mim (ego, liberdade, dinheiro) e quais são sobre o problema ou o cliente? Do que eu estou fugindo? Chefe ruim, trabalho tedioso, sensação de fracasso? Cuidado: empreender para fugir de algo é fonte frequente de decisões ruins. Eu faria isso se nunca ficasse rico? Se não, qual é o valor mínimo que precisa sair disso para fazer valer a pena?
 
 2. Inventário de habilidades e gaps, duas horas. Liste em quatro colunas. Habilidades que eu tenho e são relevantes (programação, vendas, design). Habilidades que não tenho e serão críticas (marketing digital, contabilidade, negociação). Como vou cobrir os gaps (aprender, contratar, sócio). Quanto tempo e dinheiro isso custa.
@@ -103,11 +106,17 @@ Execute estas oito tarefas em sequência.
 
 6. Escolha do modelo de dedicação. Decida entre três caminhos. Full-time, largar tudo e focar, exige runway pessoal de doze meses ou mais e alta tolerância ao risco. Part-time estruturado, manter emprego e dedicar dez a vinte horas por semana ao negócio, é mais lento e mais seguro. Side project exploratório, cinco a dez horas por semana, sem pressão de transformar em empresa, serve para as fases 1 a 4 deste manual.
 
+> [!note] Apêndice BQ — Gestão de Tempo do Fundador
+> Independente do modelo escolhido (full, part ou side), a alocação de tempo será o recurso mais escasso e mais mal gerenciado nos primeiros meses. O [[#APÊNDICE BQ — GESTÃO DE TEMPO DO FUNDADOR|Apêndice BQ]] cobre time-blocking, rituais semanais e como proteger tempo profundo contra demandas operacionais — especialmente relevante para quem empreende em paralelo ao emprego.
+
 7. Escrita do Dossiê Pessoal. Consolide tudo acima em um documento simples. Guarde. Releia ao final de cada fase seguinte deste manual. Compare. O que você descobriu no caminho invalida algo desse dossiê? Se sim, atualize.
 
 ### O fundador como pessoa, seis ensaios de Paul Graham para calibrar expectativa
 
 A [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]] é sobre preparar a pessoa que vai empreender, não o negócio. Paul Graham tem seis ensaios especificamente sobre essa dimensão. Sobre o tipo de pessoa que tende a ter sucesso em startup, o tipo de pensamento que ajuda, o tipo de armadilha interna que derruba. Não são conselhos de "atitude positiva". São observações baseadas na experiência de ter acompanhado mais de três mil fundadores no Y Combinator, cruzada com padrões identificados em retrospecto.
+
+> [!note] Apêndice BF — Second-Time Founder
+> Se você já empreendeu antes — com exit, com fracasso, ou com empresa ainda ativa — a sua Fase 0 é diferente. O [[#APÊNDICE BF — SECOND-TIME FOUNDER|Apêndice BF]] trata de como o histórico anterior muda a equação de runway, escolha de sócio, e autoconhecimento exigidos aqui.
 
 Reúno os seis em formato consolidado. A [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]] é exatamente onde eles têm maior valor. Antes de você começar a construir qualquer coisa externa, vale internalizar essas calibragens. Os ensaios são curtos. Vale ler os originais. Os links estão no [[#APÊNDICE E — RECURSOS E LEITURAS RECOMENDADAS|Apêndice E]].
 
@@ -228,9 +237,7 @@ O ensaio do Graham é útil porque normaliza a necessidade de autonomia como car
 
 ### Saúde mental do fundador em estágio zero
 
-Fase 0 é o momento de maior vulnerabilidade psicológica da trajetória empreendedora. Não porque seja a fase mais difícil objetivamente — Fase 14 com folha de 80 pessoas e crise de caixa é objetivamente mais pesada. Mas porque na Fase 0 o fundador carrega o peso do que ainda não existe, com suporte mínimo, sem a legitimidade de "é uma empresa de verdade", e frequentemente enquanto ainda gerencia obrigações anteriores (emprego, família, dívidas).
-
-Reconhecer os sinais cedo é crítico porque burnout em Fase 0 não aparece como colapso visível. Aparece como procrastinação crônica, perda de entusiasmo com o projeto, ou hiperfoco compensatório que destrói relacionamentos.
+Fase 0 é o momento de maior vulnerabilidade psicológica da trajetória empreendedora. Não porque seja a fase mais difícil objetivamente — Fase 14 com folha de 80 pessoas e crise de caixa é objetivamente mais pesada. Mas porque na Fase 0 o fundador carrega o peso do que ainda não existe, com suporte mínimo, sem a legitimidade de "é uma empresa de verdade", e frequentemente enquanto ainda gerencia obrigações anteriores (emprego, família, dívidas). Burnout nesta fase não aparece como colapso visível — aparece como procrastinação crônica, perda de entusiasmo com o projeto, ou hiperfoco compensatório que destrói relacionamentos. Reconhecer os sinais cedo é crítico.
 
 **Diferença entre stress produtivo e sinal de alerta.**
 
@@ -423,7 +430,7 @@ Você concluiu a [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]] quando os o
 
 1. O Dossiê Pessoal está escrito, com runway pessoal acima do mínimo para o seu modelo de dedicação, data marcada para reavaliação formal, e rede de apoio íntima consultada e respondendo (mesmo com ressalvas).
 2. O texto de "por que empreender" existe, tem entre quinhentas e mil e quinhentas palavras, e foi reescrito ao menos duas vezes.
-3. Lista de três advisors informais existe, com nomes reais, não cargos genéricos.
+3. Lista de três advisors informais existe, com nomes reais, não cargos genéricos. O [[#APÊNDICE AL — REDE, MENTORES E ADVISORS|Apêndice AL]] detalha como estruturar e ativar essa rede desde o estágio zero.
 4. Conversa explícita com a pessoa afetada mais próxima aconteceu, e está documentada em um parágrafo.
 5. Conversa com pelo menos um fundador com exit, e pelo menos um com falha, aconteceu nos últimos trinta dias.
 6. "Fit diferencial" está escrito em um parágrafo, com verbos concretos, não adjetivos.
@@ -484,6 +491,9 @@ Você concluiu a [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]] quando os o
 3. Roberto L., advogado tributário especializado em startups, tem conta no meu ex-banco. Ângulo: jurídico e tributário.
 
 ### Armadilhas
+
+> [!note] Apêndice D — Armadilhas Mentais e Vieses
+> A Fase 0 concentra as armadilhas mais custosas da trajetória empreendedora, porque são decisões tomadas antes de qualquer evidência do negócio. O [[#APÊNDICE D — ARMADILHAS MENTAIS E VIESES COGNITIVOS DO EMPREENDEDOR|Apêndice D]] cataloga os vieses mais comuns por fase, com diagnóstico e contra-medidas — especialmente útil aqui para as armadilhas de decisão irreversível (largar emprego, escolher sócio, comprometer runway).
 
 Otimismo financeiro. Superestimar renda futura e subestimar custos. Multiplique os seus custos esperados por 1,5 e divida a sua receita esperada por 2. Esse é um cenário mais realista que o seu plano base.
 
@@ -603,7 +613,7 @@ A [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]] inverte o que a maioria do
 
 A diferença entre quem faz certo, e quem falha, está na honestidade do diagnóstico inicial. Os dez sinais de "não empreender agora" não são fraqueza. São informação. Quem reconhece três ou mais deles, e ajusta antes de começar, sobrevive à trajetória que viria. Quem ignora, e parte achando que "vai dar certo", costuma quebrar não pelo negócio, mas pelos fundamentos pessoais que nunca foram tratados.
 
-O entregável dessa fase é o Dossiê Pessoal do Empreendedor. Não é documento que se arquiva. É referência viva, revisitada a cada seis meses, ou em mudança de vida significativa. Casamento, filho, doença, mudança de cidade. Quando a [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]] está bem-feita, o resto do livro vira execução. Quando está mal-feita, qualquer crise do negócio derruba tudo.
+O entregável dessa fase — o Dossiê Pessoal do Empreendedor — é o que habilita a [[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]: você só consegue avaliar founder-market fit e timing com honestidade quando tem clareza de motivação, runway e rede de apoio escritos à sua frente. Quando a [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]] está bem-feita, o resto do livro vira execução. Quando está mal-feita, qualquer crise do negócio derruba tudo.
 
 # fase0 #preparacao #autoconhecimento #cofundadores #runway-pessoal #motivacao
 

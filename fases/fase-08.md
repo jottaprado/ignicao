@@ -20,6 +20,12 @@ Entre entender o problema e construir a solução, existe um abismo de decisões
 
 Prototipagem é a forma mais barata de testar. Com um dia de trabalho, e zero código, você consegue feedback sobre experiência, fluxo, e desejabilidade.
 
+> [!note] Apêndice H — TRL e CRL
+> Se a solução candidata envolve tecnologia nova (hardware, deeptech, biotech, energia), o nível de maturidade tecnológica (TRL) e comercial (CRL) é variável crítica antes de escolher qual conceito prototipar. O [[apendice-h|Apêndice H — TRL e CRL]] define os nove níveis de TRL e os estágios de CRL correspondentes, e ajuda a calibrar o escopo do protótipo ao nível de maturidade real — evitando o erro de prototipar solução que requer TRL 6+ quando o projeto está em TRL 2.
+
+> [!note] Apêndice F — Científico vs Lean Startup
+> Esta fase aplica a lógica do ciclo Lean em seu ponto mais puro: prototipar barato, testar cedo, iterar. O [[apendice-f|Apêndice F — Científico vs Lean Startup]] situa esse ciclo dentro da distinção entre validação qualitativa (protótipo, teste de fluxo) e validação quantitativa (métricas de uso, dados de retenção). Relevante especialmente para definir quando parar de iterar protótipos e comprometer recursos para o MVP.
+
 ### Quando usar
 
 Comece depois da [[#FASE 7 — EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA|Fase 7]] confirmar que o problema é real. Termine quando tiver um protótipo interativo testado com pelo menos oito usuários, e uma direção clara de qual solução construir. Revisite antes de cada grande decisão de redesign.
@@ -155,6 +161,9 @@ Depois de cada ciclo de três a quatro testes, ajuste o protótipo com base nos 
 #### Passo 8, consolide no Dossiê de Solução
 
 Documento contendo seis itens. Conceitos gerados e avaliados. Conceitos selecionados, detalhados. Protótipos (ou links). Resumo dos testes com usuários (padrões observados, problemas encontrados, verbatim). Recomendação de conceito a construir, com justificativa. Riscos e incógnitas remanescentes.
+
+> [!tip] Apêndice A — Template do Dossiê de Solução (A.5)
+> O [[#APÊNDICE A — TEMPLATES PRONTOS PARA USO|Apêndice A (A.5)]] contém o template preenchível do Dossiê de Solução com os seis campos acima em formato estruturado. Use-o para garantir que a documentação de cada conceito avaliado seja consistente entre si e comparável na tomada de decisão do Passo 4.
 
 ### PERGUNTAS A RESPONDER
 
@@ -311,11 +320,9 @@ Service Blueprinting (Shostack, 1984). Mapa detalhado do serviço completo. Fron
 
 ### SÍNTESE DA FASE 8
 
-A [[#FASE 8 — IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES|Fase 8]] ataca uma preguiça que custa caro. Pular direto para "vamos fazer um app". Quase todo problema validado pode ser resolvido de várias formas. App. SaaS. Serviço. Marketplace. Hardware. Comunidade. Curso. Cada formato tem economia diferente, requisitos diferentes, riscos diferentes. Quem pula a exploração de alternativas, e parte para a primeira solução que vem à mente, costuma escolher mal. E descobre tarde que o formato escolhido era o pior, dentre os possíveis.
+O entregável desta fase é o Dossiê de Solução. Três a cinco conceitos avaliados em Desejabilidade, Viabilidade e Sustentabilidade; pelo menos um protótipo interativo testado com oito ou mais usuários; e recomendação escrita de qual caminho seguir. Quem economiza no protótipo descobre os mesmos problemas na construção — em momento mais doloroso e caro de corrigir.
 
-A diferença entre quem faz certo, e quem falha, está em separar ideação de construção. Prototipagem é a forma mais barata de testar. Com um dia de trabalho, e zero código, você consegue feedback sobre experiência, fluxo, e desejabilidade. Crazy 8s, wireframes em papel, protótipos clicáveis no Figma, são instrumentos para testar conceito antes de comprometer recursos. Quem economiza no protótipo gasta dez vezes mais na construção. E descobre os mesmos problemas, em momento mais doloroso de corrigir.
-
-O entregável é o Dossiê de Solução. Três a cinco conceitos avaliados, pelo menos um protótipo interativo testado com oito ou mais usuários, e recomendação clara de qual caminho seguir. Esse dossiê é insumo da [[#FASE 9 — TESTES DE SOLUÇÃO E USABILIDADE|Fase 9]], refinamento e especificação do MVP. Quem chega à [[#FASE 9 — TESTES DE SOLUÇÃO E USABILIDADE|Fase 9]] sem ter explorado alternativas, e sem ter testado protótipo, entra na construção da solução com hipótese implícita não-validada. A [[#FASE 8 — IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES|Fase 8]] bem-feita reduz a chance de retrabalho radical na [[#FASE 10 — MVP E EXPERIMENTOS DE MERCADO|Fase 10]].
+Esse dossiê é o insumo da [[#FASE 9 — TESTES DE SOLUÇÃO E USABILIDADE|Fase 9]], onde o conceito escolhido passa por testes de usabilidade estruturados e se converte em Especificação do MVP. Quem chega à [[#FASE 9 — TESTES DE SOLUÇÃO E USABILIDADE|Fase 9]] sem ter explorado alternativas e sem ter testado protótipo entra na especificação com hipótese implícita não-validada — o que aumenta a probabilidade de retrabalho radical na [[#FASE 10 — MVP E EXPERIMENTOS DE MERCADO|Fase 10]].
 
 # fase8 #ideacao #prototipagem #design-thinking #crazy-8s #wireframe #figma #protótipo-clicavel #service-blueprint
 

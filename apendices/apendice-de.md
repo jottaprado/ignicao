@@ -175,6 +175,9 @@ flowchart TD
 | Governança | Empresa já tem board e compliance funcionando | Adquirente assume a governança |
 | Prêmio de controle | Não existe em IPO | Adquirente paga prêmio de controle típico de 20–40% |
 
+> [!info] Fases relacionadas
+> Referenciado em: Fase 16.
+
 ---
 
 ### Armadilhas

@@ -60,4 +60,7 @@ Secondary rounds. Rodada dedicada a liquidez. Não primária. Mais raro. Mas aco
 
 [[#APÊNDICE V — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Apêndice V]], Captação de equity. [[#APÊNDICE BB — VENTURE DEBT E REVENUE-BASED FINANCING (RBF)|Apêndice BB]], Venture debt e RBF.
 
+> [!info] Fases relacionadas
+> Referenciado em: Fase 16.
+
 ---

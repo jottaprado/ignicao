@@ -275,4 +275,7 @@ As métricas de preparação são qualitativas. Runway pessoal em meses de subsi
 
 [[#APÊNDICE BG — FERRAMENTÁRIO COMPLETO DO EMPREENDEDOR|Apêndice BG]] contém as ferramentas analíticas para cada métrica. As seções BG.18 (Finanças e Unit Economics) e BG.11 (Produto: Priorização e Métricas) aprofundam os cálculos.
 
+> [!info] Fases relacionadas
+> Referenciado em: Fase 12.
+
 ---

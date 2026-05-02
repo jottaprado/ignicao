@@ -304,4 +304,7 @@ Não comunicar mudanças. Modelo atualizado. Mas a liderança, ou board, não sa
 
 ---
 
+> [!info] Fases relacionadas
+> Referenciado em: Fase 11.
+
 ---

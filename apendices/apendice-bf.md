@@ -76,6 +76,9 @@ Vantagens. Rede, capital próprio, credibilidade com investidores, e aprendizado
 - [ ] Saúde mental de trauma anterior endereçada?
 - [ ] Cautela com capital próprio (não como desculpa para ineficiência)?
 
+> [!info] Fases relacionadas
+> Referenciado em: Fase 0, Fase 15.
+
 ---
 
 # REFERÊNCIA

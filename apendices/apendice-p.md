@@ -248,4 +248,7 @@ Antes de assinar qualquer contrato não-diluitivo.
 
 ---
 
+> [!info] Fases relacionadas
+> Referenciado em: Fase 14.
+
 ---

@@ -278,4 +278,7 @@ Não ter reserva para secundária de founder. Em rodadas Série B em diante, os 
 
 ---
 
+> [!info] Fases relacionadas
+> Referenciado em: Fase 16.
+
 ---

@@ -225,4 +225,7 @@ Não segmentar NRR por tier, ou tamanho. NRR global de cento e dez por cento. NR
 
 ---
 
+> [!info] Fases relacionadas
+> Referenciado em: Fase 11.
+
 ---

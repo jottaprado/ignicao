@@ -68,4 +68,7 @@ A primeira é aceitar a primeira oferta por ansiedade. Programa médio por equit
 > [!tip] Antes de aceitar
 > Mapeou três a cinco programas relevantes para estágio e setor atuais? Para cada, verificou histórico de saídas nos últimos três a cinco anos? Entrou em contato com pelo menos três ex-participantes? Avaliou termos financeiros (SAFE, equity, cláusulas) com advogado? Considerou custo de tempo e localização? Preparou narrativa forte e diferenciada para aplicações (sem copy-paste)? Tem warm intro para o programa-alvo prioritário? A aplicação contempla em paralelo editais de fomento não-diluitivos? Plano claro de o que fazer pós-programa? Red flags checados quanto a equity alto, cláusulas incomuns, pressão para decidir?
 
+> [!info] Fases relacionadas
+> Referenciado em: Fase 0.
+
 ---

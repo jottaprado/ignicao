@@ -267,6 +267,9 @@ O poder público não compra produto pronto. Ele contrata o **desenvolvimento ou
 
 **Ignorar o prazo dos dez anos**. Empresa que constituiu como startup em 2018 e cresceu bem pode perder elegibilidade à LC 182 em 2028. Planejar transição antes — especialmente se houver ARE vigente ou contratos de dispensa em andamento.
 
+> [!info] Fases relacionadas
+> Referenciado em: Fase 13.
+
 ---
 
 ### Conexão com outros apêndices

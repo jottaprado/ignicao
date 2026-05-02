@@ -224,4 +224,7 @@ Não validar CAC atribuído a cohort. O modelo assume "CAC é X, aplicado ao coh
 
 ---
 
+> [!info] Fases relacionadas
+> Referenciado em: Fase 11.
+
 ---

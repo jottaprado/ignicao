@@ -105,4 +105,7 @@ O framework Antler é especialmente útil, quando o empreendedor reconhece um ou
 > [!important] Antler é o mais prescritivo dos quatro frameworks
 > Dos quatro frameworks articulados nesse manual, o Antler é o mais prescritivo. Ele diz o que fazer, em que ordem. Isso é força, e limite. É força quando o empreendedor está paralisado por excesso de opções, e precisa de disciplina de sequência. É limite quando o contexto exige reconfiguração não-sequencial. Por exemplo, em deeptech onde a tecnologia precisa amadurecer, antes da cunha ser definível. Ou em *platform plays* genuínos, onde amplitude inicial é intencional. Como qualquer framework, é ferramenta, não religião. Use onde ajuda. Adapte onde atrapalha.
 
+> [!info] Fases relacionadas
+> Referenciado em: Fase 1.
+
 ---

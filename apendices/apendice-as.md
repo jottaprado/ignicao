@@ -8,9 +8,9 @@ appendix: "AS"
 > [!note] Nota de validade
 > Plataformas específicas (Slack, Discord, Circle, Mighty Networks, Heartbeat) evoluem rapidamente. Os princípios (reciprocidade, criação de valor antes de extração, moderação deliberada) são estáveis.
 
-Menção breve no manual apenas. Em SaaS moderno, comunidade é simultaneamente canal de aquisição, suporte, advocacy, e fonte de feedback de produto.
+Em SaaS moderno, comunidade é simultaneamente canal de aquisição, suporte, advocacy, e fonte de feedback de produto.
 
-### O que esse apêndice cobre
+### O que é
 
 Comunidade é grupo estruturado de clientes, usuários, ou pessoas do ICP, conectadas entre si com valor mútuo. Não só com a empresa. A empresa fornece infraestrutura, e estímulo. O valor emerge horizontalmente.
 

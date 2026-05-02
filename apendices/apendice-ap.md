@@ -424,4 +424,7 @@ Ignorar cultura na due diligence de M&A. Conflito cultural identificado depois d
 
 [[apendice-bu|Apêndice BU]], DEI em profundidade. [[apendice-bv|Apêndice BV]], Layoffs. [[apendice-bz|Apêndice BZ]], Performance reviews. [[apendice-co|Apêndice CO]], Recrutamento técnico. [[apendice-cw|Apêndice CW]], Crise e Continuidade.
 
+> [!info] Fases relacionadas
+> Referenciado em: Fase 14.
+
 ---

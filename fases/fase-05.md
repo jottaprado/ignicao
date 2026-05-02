@@ -99,6 +99,9 @@ Responda cinco perguntas. O mercado está crescendo, estável, ou encolhendo? (B
 
 Como os players atuais adquirem clientes? Vendas diretas. Parcerias. Marketing digital. Eventos. Boca a boca. Representantes. Isso indica o que provavelmente vai funcionar para você, e onde o custo de aquisição pode ser caro.
 
+> [!tip] Apêndice DU — GTM Playbook
+> O [[apendice-du|Apêndice DU — GTM Playbook]] aprofunda a tradução desse mapeamento de canais em estratégia de go-to-market operacional: sequenciamento de canais, modelo de cobertura, playbook de vendas e definição de ICP por canal. Use após concluir este passo para transformar o levantamento em plano executável.
+
 #### Passo 6, levante a regulamentação relevante
 
 Se você atua em saúde, finanças, educação, transporte, alimentação, energia, telecom, ou qualquer setor regulado, há normas que podem inviabilizar a sua solução. Busque as regulamentações federais, estaduais, e municipais aplicáveis. Os órgãos fiscalizadores (ANVISA, BACEN, ANS, ANTT, CVM, e outros, no Brasil). LGPD, se você trata dados pessoais. Exigências tributárias específicas.
@@ -137,6 +140,9 @@ Escolha dois eixos que importam para o ICP, não para você. Preço versus profu
 
 A matriz visual é depois complementada por tabela comparando você com três a sete concorrentes principais em cinco a dez dimensões relevantes. Preço, features, público-alvo, pontos fortes, pontos fracos, diferenciação declarada.
 
+> [!tip] Apêndice S — Category Design
+> Se a análise da matriz revelar um quadrante vazio em que nenhum player se posiciona, você pode estar diante de oportunidade de criar uma categoria nova, não apenas competir melhor dentro das existentes. O [[apendice-s|Apêndice S — Category Design]] cobre como nomear, enquadrar e liderar uma categoria, baseado no framework de Al Ramadan e colegas. Aplicado aqui, transforma o quadrante vazio de dado descritivo em tese estratégica.
+
 > [!note] Posicionamento de marca é uma das saídas desta fase, não só análise competitiva
 > A matriz e o canvas da cunha definem onde você compete. O [[apendice-dx|Apêndice DX — Branding e Posicionamento de Marca]] complementa ao definir como você quer ser percebido nessa posição — território de marca, promessa central e coerência de identidade. Os dois artefatos (cunha + posicionamento) devem ser desenvolvidos em paralelo.
 
@@ -164,6 +170,9 @@ Número de concorrentes mapeados. Pelo menos cinco. Entre diretos, indiretos, e 
 Crescimento anual do mercado (CAGR). Estime mesmo na ausência de relatório pronto. Cruze duas fontes (Google Trends, dados setoriais públicos, proxies correlatos). Benchmark: CAGR de quinze por cento ou mais em B2B SaaS, e dez por cento ou mais em consumer, sinaliza mercado em expansão. Abaixo de cinco por cento indica mercado estagnado (possível, mas exige estratégia diferente).
 
 Dispersão competitiva. Concentrado se um player tem quarenta por cento ou mais de share, ou se top três somam setenta por cento ou mais. Fragmentado se top cinco somam menos de trinta por cento. Fragmentado favorece entrada por cunha. Concentrado exige diferencial forte ou nicho mal-atendido.
+
+> [!tip] Apêndice X — Pricing Strategy
+> A escolha de posicionamento de preço no Passo 8 (eixo horizontal da matriz) deve ser informada por análise de disposição a pagar, não por benchmarking ingênuo de concorrentes. O [[apendice-x|Apêndice X — Pricing Strategy]] cobre modelos de precificação (value-based, cost-plus, freemium, usage-based), teste de sensibilidade a preço (Van Westendorp, Gabor-Granger), e o erro de começar com preço baixo demais que é difícil de reverter.
 
 > [!tip] Canvas da Cunha como entregável central desta fase
 > O Canvas da Cunha (CZ.15) operacionaliza a escolha do segmento de entrada: ICP preciso, dor específica (um fluxo de trabalho quebrado), resultado mensurável, dono do orçamento, Teste do Grupo de WhatsApp (100-300 pessoas listáveis por nome) e vantagem sobre a alternativa atual. É o artefato de saída desta fase — sem ele preenchido e aprovado nos três testes complementares (Precisão do Comprador, ausência de escopo instável, independência de plataforma), a Fase 5 não está concluída. Veja origem, estrutura e caso PadariaPro em [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|CZ.15]]; template preenchível em [[#APÊNDICE A — TEMPLATES PRONTOS PARA USO|A.12]].
@@ -284,7 +293,7 @@ Confundir market size com oportunidade. Um mercado de R$ 10 bilhões pode ser p�
 
 Top-down preguiçoso. Pegar um número de relatório e multiplicar por "um por cento é fácil". Cada ponto percentual de mercado é brutalmente difícil de conquistar.
 
-Ignorar o status quo. "Ninguém faz nada hoje" é a pior das alternativas concorrentes. A inércia é invencível se a dor não for grande o suficiente.
+Ignorar o status quo. Como mencionado, o status quo é o concorrente mais comum. A inércia é invencível se a dor não for grande o suficiente.
 
 Regulamentação como detalhe. Setores regulados (saúde, financeiro, educação) têm regras que afundam produtos inteiros. Investigue cedo.
 
@@ -474,7 +483,7 @@ Se a sua empresa fechasse hoje à noite, quem reclamaria ativamente amanhã de m
 
 ### CONCORRÊNCIA REAL, os quatro tipos de substituto que você precisa mapear
 
-Empreendedores iniciantes tendem a listar "concorrentes diretos" (outras startups ou produtos do mesmo tipo) e acham que terminaram a análise competitiva. Não terminaram. Na maior parte dos casos, a principal concorrência não é outra startup. É o jeito atual como o trabalho é feito hoje. E esse jeito atual cai em quatro categorias bem definidas. Todas precisam ser mapeadas.
+Empreendedores iniciantes tendem a listar "concorrentes diretos" (outras startups ou produtos do mesmo tipo) e acham que terminaram a análise competitiva. Não terminaram. O jeito atual como o trabalho é feito hoje cai em quatro categorias bem definidas. Todas precisam ser mapeadas.
 
 #### Tipo 1, planilhas (Excel, Google Sheets, Airtable)
 
@@ -501,6 +510,9 @@ Softwares que o cliente já paga por outro motivo, e que "quase" resolvem o seu 
 ### Caso trabalhado, Warby Parker das Fases 1 a 5 com o Framework Antler
 
 Esse caso ilustra a aplicação integrada dos Filtros YC mais Heartfelt, das entrevistas, das personas, e da Cunha em um exemplo B2C real.
+
+> [!note] Apêndice L — Framework Antler (Idea → Wedge → Scale)
+> O raciocínio do caso abaixo segue a progressão canônica do [[apendice-l|Apêndice L — Framework Antler]]: identificação de problema (Idea), escolha de cunha (Wedge) e escalabilidade estruturada (Scale). O apêndice detalha os filtros de avaliação, os critérios de passagem entre etapas, e como o framework é aplicado em cohorts de fundadores.
 
 Contexto. Warby Parker foi fundada em 2010 por quatro cofundadores na Wharton (Neil Blumenthal, Andrew Hunt, David Gilboa, e Jeffrey Raider), vendendo óculos de grau online. Hoje vale bilhões. A reconstrução abaixo é hipotética. Derivada do ensaio canônico de Greg Coticchia e da Antler.
 
@@ -661,11 +673,9 @@ Value Disciplines (Treacy e Wiersema, 1993). Escolha entre três disciplinas. Op
 
 ### SÍNTESE DA FASE 5
 
-A [[#FASE 5 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 5]] confronta dois ditos perigosos do fundador apaixonado. "Não há concorrentes." "O mercado é enorme." Ambos quase sempre são falsos. Existem soluções, mesmo que ruins. Existem substitutos, incluindo "fazer nada", que é o concorrente mais subestimado do mundo. Existem players grandes que podem te copiar quando perceberem o sinal. Existe regulamentação que pode te inviabilizar. Sem mapa de mercado, você empreende às cegas. Com ele, decide informado.
+A [[#FASE 5 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 5]] confronta dois ditos perigosos do fundador apaixonado. "Não há concorrentes." "O mercado é enorme." Ambos quase sempre são falsos. Existem soluções, mesmo que ruins. Existem substitutos, incluindo "fazer nada". Existem players grandes que podem te copiar quando perceberem o sinal. Existe regulamentação que pode te inviabilizar. Sem mapa de mercado, você empreende às cegas. Com ele, decide informado.
 
-A diferença entre quem faz certo, e quem falha, está em escolher cunha em vez de mercado inteiro. A primeira venda não acontece para "todo o TAM". Acontece para um beachhead. Um sub-segmento concreto, com problema agudo, alcançável com recursos que você tem. Quem mira amplo perde foco e energia. Quem mira estreito conquista posição defensável, e expande a partir dela. A escolha da cunha é estratégica, não tática. Define quem você é nos próximos dois ou três anos.
-
-O entregável é o Dossiê de Mercado. Mas ele não é estático. O mercado muda, novos entrantes aparecem, consolidações acontecem, regulação evolui. Revisitar pelo menos a cada seis meses não é exagero, é higiene. E o FMF Check, o teste de founder-market-fit, é o filtro que precede a escolha da cunha. Se outra pessoa qualquer faria tão bem quanto você naquele mercado, a cunha está mal escolhida. O fit particular do fundador com a cunha é o que faz o próximo ano de dificuldade valer a pena.
+O entregável é o Dossiê de Mercado mais o Canvas da Cunha preenchido. O Dossiê não é estático. O mercado muda, novos entrantes aparecem, consolidações acontecem, regulação evolui. Revisitar pelo menos a cada seis meses não é exagero, é higiene. A [[#FASE 6 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 6]] vai transformar o mapeamento feito aqui em hipóteses testáveis — o Canvas da Cunha vira insumo direto para o Banco de Hipóteses.
 
 # fase5 #mercado #concorrencia #cunha #wedge #tam-sam-som #posicionamento #defensabilidade #blue-ocean
 

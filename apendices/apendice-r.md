@@ -242,4 +242,7 @@ Para audit semestral de modo de operação.
 
 [[#APÊNDICE BQ — GESTÃO DE TEMPO DO FUNDADOR E OPERATING CADENCE|Apêndice BQ]], Gestão de tempo, e operating cadence. [[#APÊNDICE AP — CULTURA COMO DISCIPLINA|Apêndice AP]], Cultura. [[#APÊNDICE BN — EXECUTIVE HIRING: CONTRATAR LÍDERES SÊNIOR E C-LEVEL|Apêndice BN]], Executive hiring.
 
+> [!info] Fases relacionadas
+> Referenciado em: Fase 14, Fase 15.
+
 ---

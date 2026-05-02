@@ -418,4 +418,7 @@ Não reconhecer prejuízos fiscais acumulados (Lucro Real). Podem compensar lucr
 
 ---
 
+> [!info] Fases relacionadas
+> Referenciado em: Fase 13.
+
 ---

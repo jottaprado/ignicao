@@ -16,7 +16,10 @@ Tirar a ideia da cabeça e colocá-la em formato escrito, estruturado, comunicá
 
 Tudo o que você não escreve não existe operacionalmente. A articulação força clareza. Clareza revela lacunas. Lacunas são o material de trabalho das próximas fases. Sem esta fase, você entra no processo de validação sem saber exatamente o que está validando, e acaba validando uma versão confusa e movediça da ideia. Pior do que não validar.
 
-E ao listar explicitamente o que você não sabe, você cria a agenda de trabalho das Fases 2 a 6. As suas incertezas de hoje são as suas hipóteses de amanhã.
+Ao listar explicitamente o que você não sabe, você cria a agenda de trabalho das Fases 2 a 6 — cada incerteza vira hipótese falsificável nas Fases 6 e 7.
+
+> [!note] Apêndice F — Abordagem Científica vs Lean Startup
+> A lista de incertezas desta fase é o ponto de partida para o ciclo científico de validação que atravessa o livro. O [[#APÊNDICE F — ABORDAGEM CIENTÍFICA VERSUS LEAN STARTUP|Apêndice F]] explica a diferença entre a mentalidade de hipótese falsificável (experimental) e o Lean Startup como método prático — contexto útil para quem entra nesta fase sem clareza sobre o que "validar uma ideia" significa operacionalmente.
 
 ### Quando usar
 
@@ -111,7 +114,7 @@ Tamanho da Declaração. Deve caber em uma página, entre quatrocentas e seiscen
 
 Tempo de explicação verbal. Idealmente entre sessenta e cento e vinte segundos.
 
-Taxa de repetição correta. Dos três a cinco ouvintes, pelo menos quatro devem conseguir repetir com precisão depois de uma explicação.
+Taxa de repetição correta. Alvo: pelo menos 4 em 5 ouvintes.
 
 Número de incertezas listadas. Mínimo dez. Se você tem menos que isso, está subestimando a sua ignorância.
 
@@ -194,6 +197,9 @@ Comparando os dois casos: PadariaPro mira B2B em nicho profundo (vertical artesa
 
 ### Armadilhas
 
+> [!note] Apêndice D — Armadilhas Mentais e Vieses
+> O enamoramento pela solução e o viés de confirmação (ouvir só o que confirma a tese) são os vieses mais perigosos nesta fase. O [[#APÊNDICE D — ARMADILHAS MENTAIS E VIESES COGNITIVOS DO EMPREENDEDOR|Apêndice D]] oferece diagnóstico estruturado e contra-medidas práticas para cada um — leitura recomendada antes de fazer o teste verbal com os ouvintes externos.
+
 Apresentar a solução como se fosse o problema. "O problema é que não existe um app que X." Não. Esse não é o problema. O problema é o que existia antes do app. Foque na dor. Não na ausência da sua solução.
 
 Público-alvo genérico demais. "Pessoas", "empresas", "profissionais". Generalizações camuflam o fato de que você ainda não sabe quem é o cliente.
@@ -240,9 +246,9 @@ Pyramid Principle (Barbara Minto, 1978). Estruturar comunicação da ideia. Conc
 
 A [[#FASE 2 — ARTICULAÇÃO E CAPTURA DA IDEIA|Fase 2]] não é para validar a ideia. É para capturá-la com precisão. Muitos fundadores "têm uma ideia" há meses, mas nunca a escreveram. Quando tentam escrever, descobrem que havia três ideias misturadas, ou que não sabem explicar o problema, ou que a ideia era só sentimento vago. Tudo o que você não escreve não existe operacionalmente. A articulação força clareza, e clareza revela lacunas.
 
-A diferença entre quem faz certo, e quem falha, está em assumir as próprias incertezas. A Declaração Inicial pede cinco peças. Problema percebido, quem sofre, solução imaginada, por que funciona, e tudo o que você não sabe. A quinta peça é a mais valiosa, e a mais negligenciada. Listar incertezas, em vez de mascará-las com confiança, é o que cria a agenda de trabalho das fases seguintes. As suas incertezas de hoje são as suas hipóteses de amanhã.
+A diferença entre quem faz certo, e quem falha, está em assumir as próprias incertezas. O quinto bloco da Declaração — tudo o que você não sabe — é o mais valioso e o mais negligenciado. Listar incertezas, em vez de mascará-las com confiança, é o que cria a agenda de trabalho das fases seguintes. As suas incertezas de hoje são as suas hipóteses de amanhã.
 
-O entregável é uma página única, capaz de ser explicada verbalmente para um estranho em noventa segundos. E esse estranho consegue repetir de volta com precisão. Esse teste de transmissão é o filtro de clareza. Se a ideia não passa, ela ainda não está pronta para ser validada. Está pronta para ser reescrita. Quem pula essa fase entra no processo de validação sem saber exatamente o que está validando. E acaba validando uma versão confusa, e movediça, da ideia. Pior do que não validar.
+O entregável é uma página única, capaz de ser explicada verbalmente para um estranho em noventa segundos, e esse estranho consegue repetir de volta com precisão. Esse teste de transmissão é o filtro de clareza. Se a ideia não passa, ela ainda não está pronta para ser validada — está pronta para ser reescrita. A Fase 3 vai usar o "para quem" e a lista de incertezas desta Declaração como ponto de partida para as primeiras entrevistas de descoberta de problema.
 
 # fase2 #articulacao #declaracao-inicial #incertezas #hipoteses #suposicoes-chave
 

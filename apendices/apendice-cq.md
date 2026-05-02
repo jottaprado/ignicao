@@ -85,7 +85,7 @@ Não diferenciar linguagem por persona. Técnico, comprador, e CEO consomem cont
 
 #### Brand é ativo, não despesa
 
-A maior diferença entre empresas que tratam brand estrategicamente, e as que não tratam, está na contabilidade mental da empresa. Empresa que vê brand como despesa corta em momento de aperto. Com efeito de curto prazo positivo. E de médio prazo devastador. Empresa que vê brand como ativo entende que brand é patrimônio acumulado ao longo de anos. Cujo valor pode ser destruído em semanas, com decisões erradas. E cujo valor sustenta prêmio de preço, velocidade de vendas, retenção, aquisição de talento, e até valuation em uma captação, ou exit.
+Empresa que vê brand como despesa corta em momento de aperto. Com efeito de curto prazo positivo. E de médio prazo devastador. Cujo valor pode ser destruído em semanas, com decisões erradas. E cujo valor sustenta prêmio de preço, velocidade de vendas, retenção, aquisição de talento, e até valuation em uma captação, ou exit.
 
 > [!important] Brand equity como linha do balanço
 > Em empresas públicas, brand equity é linha mensurável do balanço (goodwill). Em startup, o conceito não entra na contabilidade formal. Mas está lá. E fundos de VC ajustam valuation por brand strength, mesmo sem dizer.

@@ -338,4 +338,7 @@ Sem pre-read para reuniões importantes. Tempo desperdiçado em contexto que pod
 
 ---
 
+> [!info] Fases relacionadas
+> Referenciado em: Fase 0, Fase 14.
+
 ---

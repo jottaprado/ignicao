@@ -151,4 +151,7 @@ Reconhecer as fases ajuda a não se surpreender com elas. Ter rede de apoio (cof
 
 [[#APÊNDICE CV — SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA|Apêndice CV]] cobre prevenção técnica de incidentes cyber. [[#APÊNDICE BV — LAYOFFS E DOWNSIZING: COMO DEMITIR EM ESCALA SEM DESTRUIR A EMPRESA|Apêndice BV]] cobre demissão em massa. [[#APÊNDICE Y — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Apêndice Y]] cobre o aspecto pessoal de passar por crise. [[#APÊNDICE BW — FRAUDE INTERNA E CONTROLES INTERNOS|Apêndice BW]] cobre prevenção de fraude interna. [[#APÊNDICE BH — POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE|Apêndice BH]] cobre casos nomeados de crise.
 
+> [!info] Fases relacionadas
+> Referenciado em: Fase 13.
+
 ---

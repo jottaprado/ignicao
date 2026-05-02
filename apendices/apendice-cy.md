@@ -124,4 +124,7 @@ Para fundador que decide investir em marca pessoal deliberadamente, o framework 
 > [!important] Marca pessoal é trabalho de 24 meses
 > Marca pessoal não é trabalho de trinta dias. É trabalho de vinte e quatro meses, para valer a pena. Fundadores que tratam como projeto curto desistem antes do momento em que retorno começa a aparecer. O que é justamente por que muitos fundadores desacreditam da prática.
 
+> [!info] Fases relacionadas
+> Referenciado em: Fase 14.
+
 ---

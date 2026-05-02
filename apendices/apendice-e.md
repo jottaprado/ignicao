@@ -132,4 +132,7 @@ Graham mesmo indica: se tivesse que escolher uma das treze, seria a quarta (ente
 > [!important] Se tiver que escolher uma para aplicar hoje, releia a quarta
 > Todo o resto flui daí.
 
+> [!info] Fases relacionadas
+> Referenciado em: Fase 0.
+
 ---

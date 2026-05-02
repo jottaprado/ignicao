@@ -2993,4 +2993,7 @@ Para cada KR em andamento:
 - Cumpra os acordos que você fechou — liderados lembram quando o líder não cumpre
 - Após o 1:1, registre em algum lugar (Notion, doc compartilhado) para ter histórico
 
+> [!info] Fases relacionadas
+> Referenciado em: Fase 2, Fase 2B, Fase 3, Fase 4, Fase 5, Fase 6, Fase 8, Fase 9, Fase 10.
+
 ---

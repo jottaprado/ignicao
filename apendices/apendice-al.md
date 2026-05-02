@@ -84,4 +84,7 @@ A primeira é networking superficial em escala. LinkedIn com cinco mil conexões
 > [!tip] Antes de continuar
 > Listou trinta a cinquenta pessoas-chave da rede atual ou potencial? Identificou cinco a dez mentores em potencial em áreas relevantes? Fez primeiro contato com pelo menos três mentores nos últimos noventa dias? Tem um a três advisors formais ou em formalização? Construiu warm path para pelo menos dez investidores relevantes? Tem CRM pessoal (tabela em Notion ou Airtable) com cadência de contato? Presença pública ativa em pelo menos um canal há pelo menos seis meses? Pratica reciprocidade, fez intros ou ajuda inversa recentemente? Primeiros clientes, funcionários e advisors vieram da rede e não de aquisição fria? Co-fundadores também estão construindo rede em frentes complementares?
 
+> [!info] Fases relacionadas
+> Referenciado em: Fase 0, Fase 14.
+
 ---

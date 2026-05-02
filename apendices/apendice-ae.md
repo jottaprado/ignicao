@@ -15,16 +15,7 @@ Categoria crescente de startups opera como marketplace (conectando dois ou mais 
 
 ### O que esse apêndice cobre
 
-Dois temas relacionados.
-
-1. Marketplace dynamics. Liquidez, matching, cold start, defensibilidade, e disintermediação.
-2. Dependência de plataforma. Quando a sua empresa é acessório de outra. Gestão deliberada do risco.
-
-### POR QUE
-
-Os marketplaces têm dinâmicas próprias, que não se aplicam em SaaS. Erro de entender, igual a fracasso estrutural.
-
-A dependência de plataforma é categoria invisível de risco, até acontecer. Empresa saudável pode virar crítica em dias.
+Dois temas relacionados. Primeiro, marketplace dynamics: liquidez, matching, cold start, defensibilidade, e disintermediação — dinâmicas próprias que não se aplicam em SaaS, e cujo erro de entender equivale a fracasso estrutural. Segundo, dependência de plataforma: quando a sua empresa é acessório de outra empresa — categoria invisível de risco até acontecer, capaz de transformar empresa saudável em crise em dias.
 
 ### Quando usar
 

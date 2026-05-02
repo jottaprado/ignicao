@@ -12,23 +12,7 @@ A [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]] co
 
 ### O que esse apêndice cobre
 
-Cinco áreas.
-
-1. Contratos com clientes. Termos de uso, MSA (Master Service Agreement), e SLA.
-2. Contratos com fornecedores. SaaS vendors, consultorias, e freelancers.
-3. Contratos com colaboradores. CLT, PJ, estágio, e ESOP.
-4. Propriedade intelectual. Marca, patente, direitos autorais, e código.
-5. Litígios, e disputas. Prevenção, gestão, e documentação.
-
-### POR QUE
-
-Contratos ruins geram passivos, que aparecem em due diligence, e travam exits.
-
-Disputas consomem tempo executivo. Três meses de CEO em processo trabalhista, é igual a muito caro.
-
-IP mal-estruturado pode inviabilizar venda da empresa (cliente que "é dono" do código por contrato ambíguo).
-
-Termo de uso fraco expõe empresa a pleitos de cliente.
+Cinco áreas: contratos com clientes (Termos de uso, MSA e SLA), contratos com fornecedores (SaaS vendors, consultorias e freelancers), contratos com colaboradores (CLT, PJ, estágio e ESOP), propriedade intelectual (marca, patente, direitos autorais e código) e litígios e disputas (prevenção, gestão e documentação). Contratos ruins geram passivos que aparecem em due diligence, travam exits e consomem tempo executivo; IP mal-estruturado pode inviabilizar a venda da empresa.
 
 ### Quando usar
 
@@ -155,5 +139,8 @@ Litígio sem advogado especializado. Perde causa que era ganhável.
 - [ ] Advogado especializado em startup, com relação contínua?
 - [ ] Processos preventivos (revisão anual de contratos) em prática?
 - [ ] IP de freelancers, com cessão explícita de direitos autorais?
+
+> [!info] Fases relacionadas
+> Referenciado em: Fase 0, Fase 13, Fase 14.
 
 ---

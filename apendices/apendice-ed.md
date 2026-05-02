@@ -485,6 +485,9 @@ Aumento de salário que não é atualizado no eSocial e na CTPS digital não tem
 
 Colaborador recebe opções, faz exercício, recebe as ações, e descobre que deve IR no exercício (se tributado como remuneração) ou na venda (se mercantil). O impacto pode ser de 15–27,5% sobre o ganho. A surpresa destrói a percepção de valor do benefício e cria ressentimento. Informar a tributação esperada no ato da concessão, com disclaimer de que é baseada no entendimento atual sujeito a mudanças.
 
+> [!info] Fases relacionadas
+> Referenciado em: Fase 14.
+
 ---
 
 **Ver também:** [[apendice-el|Apêndice EL — Direito do Trabalho]], [[apendice-db|Apêndice DB — Stock Options e ESOP]], [[apendice-bz|Apêndice BZ — Performance Reviews]], [[apendice-co|Apêndice CO — Recrutamento Técnico]], [[apendice-en|Apêndice EN — Tributário Estratégico]]

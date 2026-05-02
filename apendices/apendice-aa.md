@@ -270,4 +270,7 @@ Pedir advocacy cedo. Cliente no mês 2 ainda não é advocate. Pedir referência
 
 ---
 
+> [!info] Fases relacionadas
+> Referenciado em: Fase 12.
+
 ---

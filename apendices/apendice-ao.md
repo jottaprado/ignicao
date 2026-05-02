@@ -296,4 +296,7 @@ Correlação tratada como causalidade. Experimento mal desenhado gera insight es
 
 ---
 
+> [!info] Fases relacionadas
+> Referenciado em: Fase 4, Fase 12, Fase 14.
+
 ---
