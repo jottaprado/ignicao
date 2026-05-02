@@ -23,31 +23,63 @@ appendix: "A"
 
 ### A.1 Declaração Inicial da Ideia (Fase 2)
 
+A DII tem sete blocos de conteúdo mais a lista de incertezas categorizada. Cabe em uma página (400 a 800 palavras). Em ideias B2B, o bloco "Para quem" tem sub-estrutura com Decisor Econômico e Champion separados.
+
 ```text
 DECLARAÇÃO INICIAL DA IDEIA
 Versão: ___ | Data: ___
 
-1. PROBLEMA (3 frases, sem mencionar sua solução)
+1. PROBLEMA (3-5 frases, ancoradas em dados quando possível, sem mencionar sua solução)
 ___________________________________________
+___________________________________________
+Dados/referências (opcional, recomendado em B2B-enterprise):
+- _______________________________________
+- _______________________________________
+
+2. PARA QUEM
+2a. Quem é (filtros objetivos: setor, tamanho, frequência, momento)
+___________________________________________
+2b. Quem NÃO é (anti-perfil — descarta na primeira chamada e por quê)
+___________________________________________
+[Se B2B, preencha 2c e 2d]
+2c. Decisor Econômico (papel que aprova orçamento + pergunta de qualificação em 1 frase)
+___________________________________________
+2d. Champion (papel que opera o produto e vende internamente + pergunta de qualificação em 1 frase)
 ___________________________________________
 
-2. PARA QUEM (descrição específica e filtrável)
-___________________________________________
-
-3. ALTERNATIVA ATUAL (como o cliente resolve hoje)
+3. ALTERNATIVA ATUAL (como o cliente resolve hoje — planilha, processo manual, concorrente, ignorar)
 ___________________________________________
 
 4. SOLUÇÃO PROPOSTA (capacidades, não features)
 ___________________________________________
 
-5. POR QUE PODE FUNCIONAR (3-5 razões/hipóteses)
+5. MODELO DE NEGÓCIOS (quem paga, quanto, como, contra o que compete)
+- Modelo: [assinatura | transacional | performance | work-as-a-service | ...]
+- Preço-rascunho: ___________________________
+- Gatilho de pagamento: ______________________
+- Compete contra: [não compete com software, compete com custo de analista interno; não compete com X, compete com Y]
+
+6. POR QUE PODE FUNCIONAR (3-5 hipóteses sobre o mundo, formato testável "[Persona] [verbo] [objeto]")
 1) _______________________________________
 2) _______________________________________
 3) _______________________________________
 
-6. O QUE EU NÃO SEI (10-20 incertezas)
-1) _______________________________________
-...
+7. POR QUE NÓS (Founder-Market Fit em 1-2 frases — vantagem injusta concreta, não adjetivos)
+___________________________________________
+
+8. O QUE EU NÃO SEI (10-25 incertezas em 6 categorias; nenhuma categoria vazia)
+Demanda (cliente percebe o problema como prioridade?):
+- _______________________________________
+Mercado (orçamento existe? Onde está alocado? Como o mercado se comporta?):
+- _______________________________________
+Solução (a forma proposta resolve? É a forma certa?):
+- _______________________________________
+Adoção (o cliente vai mudar de comportamento para usar?):
+- _______________________________________
+Canal (como o cliente descobre? Onde está acessível?):
+- _______________________________________
+Modelo (pricing percebido como justo? ROI defensável internamente?):
+- _______________________________________
 ```
 
 ### A.2 Entrevista de Problema (Fase 3)
