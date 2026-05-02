@@ -279,7 +279,7 @@ Percentual dos fundadores com tax structuring implementado. Cem por cento.
 
 Tempo de preparação pré-exit. Idealmente, dezoito meses ou mais.
 
-### SAÍDA DESSA FASE
+### SAÍDA DESTA FASE
 
 **Critérios de saída, [[#FASE 16 — EXIT STRATEGY|Fase 16]] como execução.** A execução está concluída quando o exit acontece com preço dentro ou acima da faixa-alvo, termos (earnout, lock-up, non-compete) negociados de forma justa, tax load otimizado, e transição pós-closing planejada.
 
@@ -382,7 +382,7 @@ Fundador com capital de paciência. Executar estratégia de décadas sem exit im
 
 ---
 
-### FERRAMENTAS DESSA FASE
+### FERRAMENTAS DESTA FASE
 
 Exit strategy combina negociação de alto impacto e valuation rigorosa. Detalhamento no [[#APÊNDICE BG — FERRAMENTÁRIO COMPLETO DO EMPREENDEDOR|Apêndice BG]]. Treze ferramentas centrais.
 

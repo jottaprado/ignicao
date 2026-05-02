@@ -370,6 +370,26 @@ Tempo gasto. Entre duas e oito semanas é a janela típica. Muito menos que isso
 
 Clareza da escolha final. Você consegue escrever em duas frases, sem hesitação, quem é o cliente e qual é o problema? Se não consegue, ainda não tem ideia. Tem intuição.
 
+### FERRAMENTAS DESTA FASE
+
+Na geração e seleção de ideias-candidatas, ferramentas ajudam a sair da intuição em direção ao método e a estressar a candidata antes de comprometer meses ou anos. Detalhamento completo no [[#APÊNDICE BG — FERRAMENTÁRIO COMPLETO DO EMPREENDEDOR|Apêndice BG]].
+
+Idea → Wedge → Scale (Antler) — framework do programa Antler para guiar founders da ideia bruta até a cunha defensável e o caminho de expansão para mercado maior. Use como espinha de raciocínio quando você tem visão grande mas ainda não definiu o ponto de entrada estreito. Detalhamento no [[#APÊNDICE L — IDEA → WEDGE → SCALE (FRAMEWORK ANTLER)|Apêndice L]].
+
+Strategy Canvas (Blue Ocean) — W. Chan Kim e Renée Mauborgne (2005). Mapa visual de competição setorial em fatores; o ERRC Grid (Eliminar, Reduzir, Aumentar, Criar) força repensar a categoria. Use no Método 7 (white space mapping) e quando a ideia parece ser "outro X" ou "Y mas para Z". Ver CZ.4 e BG.1.8.
+
+First Principles Thinking — Aristóteles, popularizado por Elon Musk. Decompor a ideia até suposições fundamentais e reconstruir. Use no Método 1 (Expertise) e antes do Filtro 1 (FMF) para questionar suposições embutidas — precisa ser SaaS? Precisa ser B2B? Precisa ser no Brasil? Ver BG.4.1.
+
+Inversion — Carl Jacobi, popularizado por Charlie Munger. Pergunte "por que esta ideia vai falhar?" antes de "por que vai funcionar?". Use como peneira final antes de mover candidatas para a Lista Curta — lista concreta de evitações é mais útil que entusiasmo abstrato. Ver BG.4.3.
+
+Wardley Mapping — Simon Wardley (2005). Mapa de posicionamento de componentes do negócio em estágios de evolução (Genesis, Custom, Product, Commodity). Use no Método 5 (Technology Wave Riding) para julgar onde está a tecnologia que sua ideia depende — entrar em Genesis é pesquisa, em Commodity é tarde. Ver BG.2.5.
+
+Three Horizons Framework — McKinsey (1999). Separa core (H1, otimizar negócio atual), adjacências (H2, expandir core) e apostas transformacionais (H3, criar futuro). Use ao avaliar se a candidata é H1 (incremental, baixo risco, baixo retorno) ou H3 (transformacional, alto risco, alto retorno) — a escolha tem implicação direta de janela e capital necessário. Ver BG.2.4.
+
+The Mom Test — Rob Fitzpatrick (2013). Método de entrevista de calibração que evita respostas educadas: pergunta sobre comportamento passado e fatos da vida do entrevistado, não opinião sobre a sua ideia. Use nas Calibration Conversations da quinta-feira da Semana das Ideias e ao testar se o problema das finalistas faz sentido fora da sua bolha. Ver BG.6.1.
+
+Lean Canvas e Business Model Canvas — Ash Maurya (2012) e Alexander Osterwalder (2010). Articulação visual do modelo em uma página (nove blocos), citada explicitamente após os quatro filtros. Use após escolher a candidata para forçar articular Problema, Segmentos, Vantagem Injusta e Modelo de Receita antes de avançar para a [[#FASE 2 — ARTICULAÇÃO E CAPTURA DA IDEIA|Fase 2]]. Ver CZ.2 e CZ.1.
+
 ---
 
 ### SÍNTESE DA FASE 1

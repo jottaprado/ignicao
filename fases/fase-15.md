@@ -251,7 +251,7 @@ Métricas da segunda curva (separadas das do core). Cinco ou mais hipóteses bet
 
 Alocação de tempo do CEO entre core e new ventures. Meça mensalmente via calendar audit. O alvo mínimo é quinze por cento em new ventures nos primeiros seis meses da [[#FASE 15 — REINVENÇÃO E SEGUNDA CURVA|Fase 15]], e vinte e cinco por cento ou mais se há sinais positivos iniciais. Abaixo de dez por cento por três meses consecutivos indica que o core está absorvendo atenção — risco real de matar a segunda curva por negligência.
 
-### SAÍDA DESSA FASE
+### SAÍDA DESTA FASE
 
 Você conclui a [[#FASE 15 — REINVENÇÃO E SEGUNDA CURVA|Fase 15]] (em qualquer ciclo) quando os oito itens abaixo estão cumpridos.
 
@@ -366,7 +366,7 @@ Transformações bem-feitas ainda enfrentam ciclos. Valor de mercado de empresas
 
 ---
 
-### FERRAMENTAS DESSA FASE
+### FERRAMENTAS DESTA FASE
 
 Reinvenção e segunda curva combinam estratégia, growth, posicionamento, e ferramentas de inovação. Detalhamento no [[#APÊNDICE BG — FERRAMENTÁRIO COMPLETO DO EMPREENDEDOR|Apêndice BG]]. Onze ferramentas centrais.
 
