@@ -57,17 +57,17 @@ O primeiro é bloqueio de tempo. Quatro horas contínuas, ou duas sessões de du
 
 O segundo é despejo de consciência. Escreva tudo o que você acha que sabe sobre a ideia, sem estrutura. Problema, cliente, solução, mercado, concorrentes, por que você acha que é diferente. Trinta a sessenta minutos. Não edite. Só escreva.
 
-O terceiro é a segunda passagem, estruturando em cinco blocos.
+O terceiro é a segunda passagem, estruturando em cinco blocos:
 
-Bloco 1, Problema. Qual problema específico existe no mundo? Descreva em três a cinco frases, sem mencionar a sua solução. Se você não consegue descrever o problema sem falar da solução, você tem uma solução em busca de problema. Perigoso.
+- **Bloco 1, Problema.** Qual problema específico existe no mundo? Descreva em três a cinco frases, sem mencionar a sua solução. Se você não consegue descrever o problema sem falar da solução, você tem uma solução em busca de problema. Perigoso.
 
-Bloco 2, Quem. Quem tem esse problema? Seja específico. "Pequenas empresas" não é resposta. "Donos de restaurantes com uma a três unidades em capitais brasileiras que fazem delivery próprio" é resposta. Se a sua descrição cabe em cinco palavras genéricas, você ainda não pensou o suficiente.
+- **Bloco 2, Quem.** Quem tem esse problema? Seja específico. "Pequenas empresas" não é resposta. "Donos de restaurantes com uma a três unidades em capitais brasileiras que fazem delivery próprio" é resposta. Se a sua descrição cabe em cinco palavras genéricas, você ainda não pensou o suficiente.
 
-Bloco 3, Dor atual. Como essa pessoa resolve o problema hoje? Toda pessoa com problema real tem alguma solução hoje, mesmo que ruim. Planilhas, WhatsApp, intuição, ignorar o problema. Descreva a alternativa atual em detalhe. Se você não sabe, isso é a sua primeira incerteza crítica.
+- **Bloco 3, Dor atual.** Como essa pessoa resolve o problema hoje? Toda pessoa com problema real tem alguma solução hoje, mesmo que ruim. Planilhas, WhatsApp, intuição, ignorar o problema. Descreva a alternativa atual em detalhe. Se você não sabe, isso é a sua primeira incerteza crítica.
 
-Bloco 4, Solução imaginada. O que você quer construir? Descreva em termos de capacidades, não de features. "Um app" não é capacidade. "Uma forma de dar baixa automática em pagamentos de fornecedores a partir do extrato bancário" é capacidade.
+- **Bloco 4, Solução imaginada.** O que você quer construir? Descreva em termos de capacidades, não de features. "Um app" não é capacidade. "Uma forma de dar baixa automática em pagamentos de fornecedores a partir do extrato bancário" é capacidade.
 
-Bloco 5, Razão de acreditar. Por que você acha que essa ideia tem mérito? Liste três a cinco razões. Cada razão é uma hipótese que você precisará testar. Seja cético consigo mesmo.
+- **Bloco 5, Razão de acreditar.** Por que você acha que essa ideia tem mérito? Liste três a cinco razões. Cada razão é uma hipótese que você precisará testar. Seja cético consigo mesmo.
 
 O quarto passo é listar as suas incertezas. Esse passo é o mais importante. Escreva dez a vinte coisas que você não sabe sobre a ideia. Por exemplo: "não sei se donos de restaurante percebem esse problema como prioridade ou como dor de fundo"; "não sei se pagariam mais de R$ 200 por mês por isso"; "não sei se existem concorrentes específicos para esse nicho"; "não sei qual o tamanho do mercado brasileiro"; "não sei se a regulamentação permite o que estou pensando". Essa lista é ouro. Vai virar as hipóteses da [[#FASE 6 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 6]] e os experimentos da [[#FASE 7 — EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA|Fase 7]].
 
