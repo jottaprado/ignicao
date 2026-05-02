@@ -131,6 +131,9 @@ Essas crenças são subjetivas e vão parecer arbitrárias. Realmente são. O po
 
 Um nó é bet-the-company quando, se for falso, a ideia inteira morre. Esses são os nós que você testa primeiro nas fases seguintes. No exemplo do restaurante: se o dono não estiver disposto a pagar por uma solução de conciliação, nada mais importa. Esse nó é o primeiro alvo.
 
+> [!tip] Apêndice CZ — Hypothesis Canvas (CZ.14)
+> Enquanto o Story Tree mostra a rede de hipóteses (relações causais entre nós), o [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Hypothesis Canvas (CZ.14)]] é o canvas para detalhar UMA hipótese isolada — especialmente as bet-the-company marcadas neste Passo 5. Tem campos para Hipótese, Pressuposto, Critério de falsificação, Método de teste, Threshold e Resultado. Use junto com [[#APÊNDICE A — TEMPLATES PRONTOS PARA USO|A.10]] (template preenchível) para documentar cada hipótese crítica antes de avançar para [[#FASE 6 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 6]] e [[#FASE 7 — EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA|Fase 7]].
+
 #### Passo 6, parcimônia e modularidade
 
 Olhe para a sua árvore e faça duas perguntas. Parcimônia: posso remover algum atributo sem prejudicar o poder explicativo da teoria? Se sim, remova. Mais enxuto é melhor. Modularidade: consigo testar cada ramo da árvore separadamente? Se a árvore só funciona como bloco único, ela não é testável. Quebre em ramos independentes.
@@ -312,7 +315,7 @@ A [[#FASE 2B — CONSTRUÇÃO DA TEORIA DO NEGÓCIO|Fase 2B]] faz uma coisa que 
 
 A diferença entre quem faz certo e quem falha está em aceitar pesos baixos sem disfarçar. Fundador que pinta toda a árvore de "alta confiança" não está mapeando teoria, está fazendo declaração de fé. Fundador que distingue honestamente as relações de alta confiança das de média, das de baixa, e das de risco bet-the-company, identifica onde precisa investir validação primeiro. Esse é o ponto da [[#FASE 2B — CONSTRUÇÃO DA TEORIA DO NEGÓCIO|Fase 2B]]. Não dar respostas, mas localizar perguntas que valem o trabalho de responder.
 
-O entregável dessa fase muda como as próximas vão ser conduzidas. As Fases 3 a 7 não testam ideia em geral — testam crenças específicas da árvore de teoria, na ordem do risco. Quem pula a [[#FASE 2B — CONSTRUÇÃO DA TEORIA DO NEGÓCIO|Fase 2B]] entra na validação sem saber o que está validando, e acaba testando coisas fáceis de testar em vez de coisas que importam testar. A diferença entre validar bet-the-company primeiro e validar coisas periféricas primeiro costuma ser a diferença entre seis meses de aprendizado real e dois anos de fingimento.
+O entregável desta fase muda como as próximas vão ser conduzidas. As Fases 3 a 7 não testam ideia em geral — testam crenças específicas da árvore de teoria, na ordem do risco. Quem pula a [[#FASE 2B — CONSTRUÇÃO DA TEORIA DO NEGÓCIO|Fase 2B]] entra na validação sem saber o que está validando, e acaba testando coisas fáceis de testar em vez de coisas que importam testar. A diferença entre validar bet-the-company primeiro e validar coisas periféricas primeiro costuma ser a diferença entre seis meses de aprendizado real e dois anos de fingimento.
 
 # fase2b #teoria-do-negocio #story-tree #dag #causalidade #falsificacao #bet-the-company
 

@@ -49,6 +49,9 @@ O executor principal é você. Os participantes são três a cinco pessoas que v
 > [!tip] Canvas como ferramenta complementar de articulação
 > A Declaração Inicial da Ideia (entregável desta fase) é um documento textual de uma página. Para empreendedores que pensam visualmente, três canvases complementam a articulação: o [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Lean Canvas (CZ.2)]] força mapear o modelo de negócio em nove blocos com foco em suposições testáveis (Problema, Solução, Métricas, Vantagem Injusta) — adequado para o estágio pré-PMF que esta fase inicia. Empreendedores em contextos mais maduros ou que querem visão de conjunto podem usar o [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Business Model Canvas (CZ.1)]]. E o [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Value Proposition Canvas (CZ.3)]] força articular o link específico entre o Bloco 2 (Para quem) e o Bloco 4 (Solução proposta) via Customer Profile (Jobs, Pains, Gains do cliente) e Value Map (Pain Relievers e Gain Creators do produto) — útil para validar que a solução proposta realmente conecta com a dor descrita, não só descreve uma "solução em busca de problema". Os três são opcionais — a DII textual é o entregável obrigatório.
 
+> [!tip] Apêndice CZ — Opportunity Canvas (CZ.5)
+> Como alternativa de articulação centrada em produto, o [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Opportunity Canvas (CZ.5)]] de Jeff Patton enquadra a ideia em sete blocos: Users & Customers, Problems, Solutions Today, Solution Ideas, Outcomes, Adoption Strategy e Budget & ROI. Útil para fundadores vindos de produto que pensam em "oportunidades" antes de "modelos de negócio" — sobreposição com a DII textual existe, mas a lente é diferente (produto vs. modelo).
+
 Sete passos em sequência.
 
 ```mermaid

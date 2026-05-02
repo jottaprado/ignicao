@@ -28,7 +28,7 @@ Muitos empreendedores postergam formalização. Acham que é burocracia. Na verd
 
 ### Quando usar
 
-Comece quando houver clientes pagantes, e receita relevante. Alguns aspectos (CNPJ) podem vir antes, se o modelo exigir emissão de notas. Termine quando os itens críticos dessa fase estão concluídos. Revisite anualmente, e a cada marco (novos sócios, captação, expansão).
+Comece quando houver clientes pagantes, e receita relevante. Alguns aspectos (CNPJ) podem vir antes, se o modelo exigir emissão de notas. Termine quando os itens críticos desta fase estão concluídos. Revisite anualmente, e a cada marco (novos sócios, captação, expansão).
 
 ### Quem envolve
 

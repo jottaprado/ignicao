@@ -239,7 +239,7 @@ O objetivo não é economizar dinheiro. É sentir na pele cada ponto de fricçã
 
 ##### A Máquina de Melhoria
 
-Essa é a tática operacional mais importante dessa fase. Para cada usuário nos primeiros dias, execute um ciclo de quatro passos.
+Essa é a tática operacional mais importante desta fase. Para cada usuário nos primeiros dias, execute um ciclo de quatro passos.
 
 Fale com o usuário. Trinta a quarenta e cinco minutos de conversa estruturada antes do onboarding. Quais eram as expectativas dele? O que já tentou? O que espera?
 

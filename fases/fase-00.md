@@ -358,6 +358,9 @@ Sobre equity split, três princípios. Divisão cinquenta-cinquenta exata é com
 
 Uma das decisões mais consequentes da [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]], frequentemente tratada com menos rigor do que a escolha do mercado, é se você vai empreender sozinho ou com sócios, e quem são eles.
 
+> [!tip] Apêndice CZ — Team Canvas (CZ.8)
+> Quando o time é formado por dois ou mais cofundadores, o [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Team Canvas (CZ.8)]] (Alex Ivanov, 2015) é o template para alinhar People, Goals, Roles, Values, Strengths e Rules de forma explícita — antes de começar, não depois do primeiro conflito. Use junto com a discussão de equity split: combinações de motivações e expectativas implícitas geram disputa societária no primeiro estresse. CZ.8 também é referenciado em [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] para o leadership team em escala — começa aqui com 2-3 sócios e evolui depois.
+
 ```mermaid
 flowchart TD
     subgraph TRES["3 perfis essenciais (pré-Série A)"]
@@ -627,7 +630,7 @@ A [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]] inverte o que a maioria do
 
 A diferença entre quem faz certo, e quem falha, está na honestidade do diagnóstico inicial. Os dez sinais de "não empreender agora" não são fraqueza. São informação. Quem reconhece três ou mais deles, e ajusta antes de começar, sobrevive à trajetória que viria. Quem ignora, e parte achando que "vai dar certo", costuma quebrar não pelo negócio, mas pelos fundamentos pessoais que nunca foram tratados.
 
-O entregável dessa fase — o Dossiê Pessoal do Empreendedor — é o que habilita a [[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]: você só consegue avaliar founder-market fit e timing com honestidade quando tem clareza de motivação, runway e rede de apoio escritos à sua frente. Quando a [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]] está bem-feita, o resto do livro vira execução. Quando está mal-feita, qualquer crise do negócio derruba tudo.
+O entregável desta fase — o Dossiê Pessoal do Empreendedor — é o que habilita a [[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]: você só consegue avaliar founder-market fit e timing com honestidade quando tem clareza de motivação, runway e rede de apoio escritos à sua frente. Quando a [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]] está bem-feita, o resto do livro vira execução. Quando está mal-feita, qualquer crise do negócio derruba tudo.
 
 # fase0 #preparacao #autoconhecimento #cofundadores #runway-pessoal #motivacao
 

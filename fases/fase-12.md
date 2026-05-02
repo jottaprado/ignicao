@@ -7,7 +7,7 @@ part: parte-ii
 
 ### O que esse apêndice cobre
 
-Validação e medição de PMF (Product-Market Fit — encaixe entre produto e mercado). O entregável ao fim dessa fase é um dos dois documentos: Relatório de PMF (se atingido) ou Plano de Iteração para PMF (se ainda não). O que PMF significa e por que importa está em POR QUE.
+Validação e medição de PMF (Product-Market Fit — encaixe entre produto e mercado). O entregável ao fim desta fase é um dos dois documentos: Relatório de PMF (se atingido) ou Plano de Iteração para PMF (se ainda não). O que PMF significa e por que importa está em POR QUE.
 
 > [!abstract] Resumo operacional
 > **Entregável:** Relatório de PMF (se atingido) ou Plano de Iteração para PMF (se ainda não), com scorecard de seis dimensões, curva de retenção por coorte e identificação do segmento onde o fit aconteceu primeiro.
@@ -291,7 +291,7 @@ Alguns usuários adoram. A maioria é indiferente. Foque no sub-segmento que ado
 
 ##### Caminho C, sem PMF
 
-Volte para as Fases 7 a 9. Reconsidere a solução. Talvez pivote para problema adjacente, ou mude o segmento. Não é fracasso. É a função normal dessa fase. Empresas que nunca deveriam ter sido feitas descobrem isso aqui — com dinheiro e moral ainda remanescentes.
+Volte para as Fases 7 a 9. Reconsidere a solução. Talvez pivote para problema adjacente, ou mude o segmento. Não é fracasso. É a função normal desta fase. Empresas que nunca deveriam ter sido feitas descobrem isso aqui — com dinheiro e moral ainda remanescentes.
 
 > [!tip] Apêndice DT — Customer Experience
 > O [[apendice-dt|Apêndice DT — Customer Experience]] estrutura como mapear a jornada completa do cliente — desde o primeiro contato até o churn evitado — e identificar os "moments of truth" que mais afetam retenção. Use aqui para diagnosticar por que certos segmentos chegam ao aha e outros não.
@@ -600,7 +600,7 @@ PMF é declarado cedo demais em muitas empresas. Esse exercício ajuda a separar
 
 ### SÍNTESE DA FASE 12
 
-Ao longo dessa fase você mediu PMF com o scorecard de seis dimensões, identificou o segmento onde o fit ocorreu primeiro, operacionalizou o "aha moment" e estabilizou operações para sustentar o crescimento. A diferença entre quem faz certo e quem falha está em medir PMF em vez de declarar PMF: o Sean Ellis Score acima de quarenta por cento, mais curva de retenção estabilizada por coorte, mais quinze por cento ou mais de novos clientes orgânicos, mais resistência à parada de marketing. Quatro testes em conjunto. Três de quatro é PMF parcial em algum segmento. Quatro de quatro é PMF de verdade.
+Ao longo desta fase você mediu PMF com o scorecard de seis dimensões, identificou o segmento onde o fit ocorreu primeiro, operacionalizou o "aha moment" e estabilizou operações para sustentar o crescimento. A diferença entre quem faz certo e quem falha está em medir PMF em vez de declarar PMF: o Sean Ellis Score acima de quarenta por cento, mais curva de retenção estabilizada por coorte, mais quinze por cento ou mais de novos clientes orgânicos, mais resistência à parada de marketing. Quatro testes em conjunto. Três de quatro é PMF parcial em algum segmento. Quatro de quatro é PMF de verdade.
 
 A [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]] começa aqui: formalizar a empresa que o PMF provou que vale estruturar.
 
