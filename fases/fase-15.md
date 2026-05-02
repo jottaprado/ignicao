@@ -12,6 +12,19 @@ part: parte-iv
 
 Detecção antecipada de saturação do modelo de crescimento vigente, e construção deliberada da próxima fonte de crescimento antes que a atual colapse. O entregável é o Diagnóstico de Saturação, mais o Plano de Segunda Curva — pivot (mudança de direção estratégica) maduro, expansão transformacional, ou autodisrupção controlada.
 
+> [!abstract] Resumo operacional
+> **Entregável:** Diagnóstico de Saturação com dados (não intuição) mais Plano de Segunda Curva — tipo de pivot escolhido com justificativa, ambidestria organizacional 70/20/10 instalada e segunda curva em operação com primeiros sinais de tração.
+>
+> **Sinais de saída:**
+> - Três ou mais candidatas a segunda curva avaliadas em TAM e FMF, com tipo de pivot escolhido e critério go/no-go explícito com métricas e prazo.
+> - Time dedicado à nova curva com orçamento separado e métricas próprias (de aprendizado, não de resultado financeiro), e clientes-piloto ou receita inicial mensurável.
+> - Comunicação ao board e ao time documentada, sem êxodo motivado por incerteza.
+>
+> **Três armadilhas mais comuns:**
+> 1. Negação de saturação — "o nosso canal ainda vai voltar" quando quase nunca volta no mesmo formato.
+> 2. Segunda curva cosmética — lançar "nova feature" ou "nova marca" sem mudar a natureza do motor de crescimento.
+> 3. Abandonar o core cedo demais — o core financia a segunda curva, e matá-lo prematuramente mata a empresa inteira.
+
 ### POR QUE
 
 Nenhum modelo de crescimento dura para sempre. O princípio de "a cada doze a dezoito meses o modelo satura" (ver [[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]]) opera em toda empresa pós-PMF. Fundadores que anteveem a curva de saturação entram em novos ciclos de crescimento exponencial. Fundadores que não anteveem vivem a decadência da curva anterior, frequentemente sem perceber que já passaram do pico até que fique tarde demais.

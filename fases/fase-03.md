@@ -19,6 +19,21 @@ Investigação estruturada para verificar se o problema que você imaginou na [[
 > [!important] Disciplina central desta fase
 > Nesta fase, você ainda não fala da sua solução. Você só escuta. Essa disciplina é difícil, mas crítica. No momento em que você menciona a sua solução, o cliente passa a reagir à ideia em vez de descrever a realidade dele. E você perde a evidência limpa.
 
+> [!abstract] Resumo operacional
+> **Entregável:** Mapa de Problemas de cinco a dez páginas baseado em quinze a trinta entrevistas Mom Test, com ICP refinado, padrões de dor ranqueados por Pain Level, verbatim, soluções atuais e Declaração da Ideia atualizada para v2.
+>
+> **Sinais de saída:**
+> - Quinze ou mais entrevistas dentro do ICP com saturação atingida (informação nova abaixo de quinze por cento nas últimas três).
+> - Pelo menos cinco entrevistados em Pain Level 4 ou 5 (já improvisaram gambiarra ou têm orçamento comprometido).
+> - Problema aparece espontaneamente em cinquenta por cento ou mais das entrevistas, e quarenta por cento ou mais já tentou ativamente resolver.
+> - Três ou mais padrões de dor consistentes documentados com cinco ou mais entrevistas cada, e pelo menos um falso positivo identificado.
+> - Decisão explícita registrada em parágrafo: seguir, pivotar problema, pivotar cliente, ou abandonar.
+>
+> **Três armadilhas mais comuns:**
+> 1. Apresentar a solução: no momento em que você mostra a ideia, a pessoa passa a ser gentil ou crítica com a ideia, não honesta sobre a vida dela.
+> 2. Confirmar em vez de refutar: ouvir só o que reforça a tese — obrigue-se a procurar ativamente evidência contrária; se só encontra confirmação, está enviesando.
+> 3. Achar que cinco entrevistas bastam: às vezes bastam, mas você só sabe disso depois de quinze; não corte caminho antes da saturação.
+
 ### POR QUE
 
 Noventa por cento das startups que falham, falham por construir algo que ninguém quer. Na maioria dos casos, o empreendedor presumiu que o problema existia, sem verificar. A descoberta do problema é a vacina contra esse erro.

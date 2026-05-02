@@ -11,6 +11,20 @@ A [[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]] descobriu que problemas existem.
 
 O entregável é um Dossiê do Usuário. Coletânea de personas, jornadas mapeadas, e formulação clara dos *jobs* que o usuário quer cumprir.
 
+> [!abstract] Resumo operacional
+> **Entregável:** Dossiê do Usuário de dez a vinte páginas com duas a quatro personas baseadas em dados, duas a quatro jornadas mapeadas, cinco a dez JTBDs ranqueados, beachhead identificada e Declaração atualizada para v3.
+>
+> **Sinais de saída:**
+> - Dez ou mais entrevistas JTBD de sessenta a noventa minutos (rodada nova, não reaproveitada da Fase 3) com roteiro específico.
+> - Cinco ou mais observações em campo (job shadowing) ou análises profundas de artefatos realizadas, com triangulação entre dado declarado e dado observado.
+> - Cinco ou mais contextos de uso mapeados (quando, onde, com quem, sob qual pressão), e gatilhos de troca + barreiras à troca documentados.
+> - Beachhead escolhida com justificativa baseada em dados (urgência + agudeza + recursos para pagar + alcançabilidade), e em B2B, três papéis (usuário, campeão, comprador econômico) entrevistados separadamente.
+>
+> **Três armadilhas mais comuns:**
+> 1. Criar personas fictícias: sem dados rastreáveis às entrevistas, persona é caricatura que não protege decisões — cada elemento precisa ter evidência apontável.
+> 2. Confiar só no que a pessoa diz: pessoas relatam versão idealizada de si — observe em campo (job shadowing) além de escutar, porque entrevista e comportamento real raramente coincidem.
+> 3. Pular JTBDs ou trabalhar com persona única e genérica: sem o "job" funcional + emocional + social, você projeta funcionalidades sem saber qual problema resolvem; uma persona só mascara dois ou mais sub-segmentos relevantes.
+
 ### POR QUE
 
 Saber que um problema existe não basta para projetar uma solução. Você precisa saber em que contexto ele ocorre, em que sequência de eventos, com quais restrições, com quais emoções, com quais pessoas envolvidas. Soluções projetadas sem esse entendimento se chocam contra a realidade no momento da adoção. "Mas eu não posso usar isso no meio do turno." "Meu chefe nunca ia aprovar." "Isso pressupõe que eu tenho internet, e eu não tenho."

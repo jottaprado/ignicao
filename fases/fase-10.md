@@ -62,6 +62,21 @@ Construção e lançamento controlado do MVP (Minimum Viable Product — produto
 
 O entregável tem dois componentes. MVP em operação, e Relatório de Aprendizado do MVP depois de oito a doze semanas de uso, por dez a cinquenta usuários.
 
+> [!abstract] Resumo operacional
+> **Entregável:** MVP em operação mais Relatório de Aprendizado depois de oito a doze semanas com dez a cinquenta usuários reais — North Star Metric definida, analytics instrumentado, decisão entre seguir, iterar ou pivotar documentada.
+>
+> **Sinais de saída:**
+> - Spec de MVP (Template A.6) com escopo dentro e fora explícitos, construído ciclo a ciclo de duas a quatro semanas.
+> - Cinco ou mais usuários reais usando o MVP em produção por quatro ou mais semanas (idealmente cinco ou mais pagando recorrentemente).
+> - Cenário de sucesso atingido — ativação acima de trinta por cento, retenção D30 acima de quarenta por cento, conversão trial-pago acima de quinze por cento.
+> - Conversas semanais com usuários como rotina, com backlog de bugs e pedidos organizado e priorizado.
+> - Indicações orgânicas começando a aparecer — uma ou mais para cada dez usuários ativos.
+>
+> **Três armadilhas mais comuns:**
+> 1. MVP que virou produto completo — escopo inflou e demorou nove meses para lançar; isso é V1.0 disfarçado, não MVP.
+> 2. Falsa ativação — vaidade de quinhentos cadastros com apenas cinco usuários reais; distinga sempre cadastro de uso.
+> 3. Persistir demais ou pivotar cedo demais — seis meses com retenção em zero é negação, mas duas semanas de dados não dá conclusão; respeite a janela de oito a doze semanas.
+
 ### POR QUE
 
 Até agora, você trabalhou com evidência declarada (entrevistas) e evidência comportamental limitada (testes de protótipo). O MVP é onde você obtém a evidência mais valiosa: o que as pessoas fazem com um produto real, pago, nas rotinas delas de verdade. Essa evidência é diferente em qualidade. E muitas vezes surpreende.

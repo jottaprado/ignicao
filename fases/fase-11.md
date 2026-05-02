@@ -73,6 +73,19 @@ Verificação de que o negócio faz sentido economicamente. Que você consegue a
 
 O entregável é o Canvas Financeiro Validado. Modelo com números reais (não estimados) sobre CAC (custo de aquisição de cliente), LTV (valor total gerado por cliente ao longo do tempo), margem, ciclo de vendas, tempo de payback (tempo para recuperar o que você gastou para adquirir o cliente) e sustentabilidade.
 
+> [!abstract] Resumo operacional
+> **Entregável:** Canvas Financeiro Validado com CAC, LTV, margem, payback e cenários financeiros baseados em dados reais de operação, mais cap table inicial e diagnóstico Default Alive/Dead.
+>
+> **Sinais de saída:**
+> - LTV/CAC maior ou igual a três em pelo menos um canal validado, com payback abaixo de doze meses.
+> - Margem bruta unitária de sessenta por cento ou mais (ou justificada se menor) com break-even em número de clientes calculado.
+> - Canal principal de aquisição testado com CAC real (não estimado) e plano claro de redução de CAC ou aumento de LTV.
+>
+> **Três armadilhas mais comuns:**
+> 1. LTV chutado com otimismo, assumindo retenção de cinco anos com base em três meses de dados.
+> 2. CAC mascarado por não contar tempo do fundador ou tratar campanhas pontuais como custos fixos.
+> 3. Acreditar que margem ruim se corrige com escala quando os custos variáveis estruturalmente são altos.
+
 ### POR QUE
 
 Produtos que usuários amam podem levar empresas à falência. Se o CAC é maior do que o LTV, cada cliente adicional destrói valor. Se a margem é baixa demais para cobrir custos operacionais, o negócio não escala. Essa fase valida a viabilidade econômica com dados reais. Não com chutes de planilha.

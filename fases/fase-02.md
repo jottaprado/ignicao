@@ -12,6 +12,20 @@ Tirar a ideia da cabeça e colocá-la em formato escrito, estruturado, comunicá
 > [!note] Esta fase não é para validar
 > Esta fase não é para confirmar se a ideia funciona. É apenas para capturá-la com precisão. Muitos empreendedores "têm uma ideia" há meses, mas nunca a escreveram. Quando tentam escrever, descobrem que havia três ideias misturadas, ou que não sabem explicar o problema, ou que a ideia era só um sentimento vago.
 
+> [!abstract] Resumo operacional
+> **Entregável:** Declaração Inicial da Ideia (DII v1) em página única (400 a 600 palavras) com problema, "para quem", alternativa atual, solução proposta, razão de acreditar e lista de dez a vinte incertezas.
+>
+> **Sinais de saída:**
+> - "Para quem" específico ao ponto de você listar vinte nomes ou empresas reais que se encaixam (não "PMEs", mas "padarias com duas a cinco lojas em São Paulo capital").
+> - Pelo menos quatro de cinco ouvintes externos repetem a ideia com precisão, sem precisar de mais que duas perguntas de esclarecimento.
+> - Lista de incertezas com pelo menos dez itens, cobrindo cliente, problema, concorrência, disposição a pagar e viabilidade técnica.
+> - Duas a três suposições-chave identificadas — aquelas que, se falsas, matariam a ideia — e explicação verbal de noventa segundos ensaiada e fluida.
+>
+> **Três armadilhas mais comuns:**
+> 1. Apresentar a solução como se fosse o problema ("o problema é que não existe um app que X"): o problema é o que existia antes do app, foque na dor, não na ausência da sua solução.
+> 2. Público-alvo genérico demais ("pessoas", "empresas", "profissionais"): generalizações camuflam o fato de que você ainda não sabe quem é o cliente.
+> 3. Esconder incertezas por orgulho: se a lista de "o que não sei" tem menos de dez itens, você está mentindo para si mesmo — mais incertezas, mais honestidade.
+
 ### POR QUE
 
 Tudo o que você não escreve não existe operacionalmente. A articulação força clareza. Clareza revela lacunas. Lacunas são o material de trabalho das próximas fases. Sem esta fase, você entra no processo de confirmação sem saber exatamente o que está testando, e acaba testando uma versão confusa e movediça da ideia. Pior do que não testar.

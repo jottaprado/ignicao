@@ -9,6 +9,19 @@ part: parte-ii
 
 Consolidação das bases formais e operacionais do negócio. O entregável é a empresa estruturada: CNPJ ativo, regime tributário adequado, contratos formais, processos documentados, compliance básico, registros contábeis em dia.
 
+> [!abstract] Resumo operacional
+> **Entregável:** Empresa juridicamente constituída e operacionalmente estruturada — tipo societário, regime tributário, cap table com vesting, acordo de sócios, contratos com clientes e colaboradores, programa LGPD ativo e contabilidade mensal em dia.
+>
+> **Sinais de saída:**
+> - Empresa constituída em formato adequado (LTDA ou S.A.) com contrato social revisado por advogado especializado em startups e cap table documentado com vesting de quatro anos com cliff de doze meses.
+> - Programa LGPD básico ativo (DPO, bases legais, DPAs com operadores principais) e contratos padronizados com clientes, colaboradores e terceiros críticos.
+> - Sistema contábil ativo com fechamento mensal sem pendências, marca em registro no INPI e separação total entre finanças pessoais e empresariais.
+>
+> **Três armadilhas mais comuns:**
+> 1. Postergar formalização sob a lógica de "depois eu resolvo" — dívida fiscal e trabalhista compõe e custa mais resolver depois.
+> 2. Acordo de sócios "no aperto de mão" — relações ótimas hoje viram disputas tóxicas no momento de dinheiro ou crise.
+> 3. Ignorar LGPD — multas de até dois por cento do faturamento, com exposição reputacional pior que a multa.
+
 ### POR QUE
 
 Muitos empreendedores postergam formalização. Acham que é burocracia. Na verdade, a falta de formalização gera riscos concretos. Autuações fiscais. Impossibilidade de emitir notas. Quebra de contratos por falta de amparo jurídico. Perda de funcionários por informalidade. Inviabilidade de captar investimento. Bloqueio de contas bancárias. A estruturação tarda. Mas sempre tem que acontecer. E quanto antes, melhor.

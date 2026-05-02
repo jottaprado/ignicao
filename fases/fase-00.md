@@ -9,6 +9,20 @@ part: parte-i
 
 Esta é a fase anterior à ideia. O objetivo é preparar a pessoa que vai empreender, não o negócio. Você avalia a sua situação de vida com honestidade. Capacidade financeira, capacidade emocional, tempo disponível, motivações reais, rede de apoio. O entregável é um documento de três a seis páginas, o Dossiê Pessoal do Empreendedor, que responde às perguntas desta fase.
 
+> [!abstract] Resumo operacional
+> **Entregável:** Dossiê Pessoal do Empreendedor de três a seis páginas, com runway pessoal calculado, motivação escrita, rede de apoio mapeada e critérios de desistência definidos com a cabeça fria.
+>
+> **Sinais de saída:**
+> - Texto de "por que empreender" com 500 a 1.500 palavras, reescrito ao menos duas vezes, e fit diferencial articulado em parágrafo com verbos concretos.
+> - Runway pessoal acima do mínimo para o modelo de dedicação escolhido (≥ 6 meses para part-time, ≥ 12 meses para full-time) e ponto de parada por escrito.
+> - Conversa explícita e documentada com a pessoa afetada mais próxima (cônjuge, dependentes), mais conversa com pelo menos um fundador com exit e um com falha.
+> - Três advisors informais identificados por nome, e compromisso de horas semanais documentado com mapa de impacto na vida atual.
+>
+> **Três armadilhas mais comuns:**
+> 1. Otimismo financeiro: superestimar receita futura e subestimar custos, em vez de multiplicar custos por 1,5 e dividir receita esperada por 2.
+> 2. Sociedade feita no impulso e sem acordo formal: escolher sócio pela amizade ("meu melhor amigo topou") em vez de complementaridade, e operar sem contrato societário rascunhado.
+> 3. Decisão romantizada em momento emocional (demissão, aniversário, livro motivacional) em vez de decisão estrutural tomada com cabeça fria e ignorando sinais de preocupação da rede próxima.
+
 ### POR QUE
 
 Empreender não é primariamente um ato técnico. É um ato psicológico e financeiro sustentado por meses ou anos. A maioria das desistências não acontece porque a ideia era ruim. Acontece porque o empreendedor não aguentou a pressão. Ficou sem dinheiro, sem apoio familiar, sem saúde mental. Ou descobriu tarde que queria outra coisa da vida. Pular esta fase significa começar um negócio sobre fundações pessoais frágeis, e qualquer crise do próprio negócio derruba tudo.

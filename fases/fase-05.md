@@ -14,6 +14,21 @@ Levantamento estruturado do mercado em que você quer entrar. O tamanho. A dinâ
 
 O entregável é um Dossiê de Mercado. Documento que posiciona a sua oportunidade dentro de uma paisagem realista.
 
+> [!abstract] Resumo operacional
+> **Entregável:** Dossiê de Mercado mais Canvas da Cunha preenchido — define ICP preciso, dor específica, dono do orçamento e por que o cliente trocaria a alternativa atual por você.
+>
+> **Sinais de saída:**
+> - TAM, SAM e SOM calculados bottom-up com dados reais e justificativa explícita.
+> - Cinco ou mais concorrentes diretos analisados em cinco dimensões cada, mais três indiretos ou substitutos (incluindo status quo).
+> - Canvas da Cunha (Template A.12) preenchido e Teste de Precisão do Comprador (Template A.11) com score quatro ou mais sobre seis.
+> - Posicionamento em dimensão não-óbvia (não "mais barato" nem "mais features").
+> - Você consegue responder em uma frase por que o cliente-alvo trocaria a alternativa atual por você.
+>
+> **Três armadilhas mais comuns:**
+> 1. "Não tenho concorrentes" — você sempre tem, mesmo que seja Excel, papel ou o cliente fazendo sozinho, e ignorar isso cria falsa sensação de oportunidade.
+> 2. Top-down preguiçoso — pegar número de relatório e multiplicar por "um por cento é fácil" subestima a brutalidade de conquistar cada ponto de share.
+> 3. Ignorar o status quo — a inércia é invencível se a dor não for grande o suficiente, e cunhas fortes substituem coisas que doem, não meras inconveniências.
+
 ### POR QUE
 
 Empreendedores apaixonados tendem a acreditar que "não há concorrentes", ou que "o mercado é enorme". Ambas as afirmações são quase sempre falsas. O mapeamento de mercado força você a enxergar a realidade competitiva. Existem soluções (mesmo que ruins). Existem substitutos (incluindo "fazer nada"). Existem players (concorrentes e participantes do mercado) grandes que podem te copiar. Existe regulamentação que pode te inviabilizar.

@@ -11,6 +11,20 @@ Esta é a fase de geração metódica de uma ideia-candidata que valha o investi
 
 A [[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]] é distinta da [[#FASE 8 — IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES|Fase 8]], Ideação e Prototipagem de Soluções. A [[#FASE 8 — IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES|Fase 8]] trata de gerar soluções técnicas para um problema já testado. A [[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]] trata de gerar a ideia de negócio inicial, antes de qualquer problema estar confirmado. As duas são ideação, mas em momentos e escalas muito diferentes.
 
+> [!abstract] Resumo operacional
+> **Entregável:** Lista Curta de duas a quatro páginas com três a cinco ideias-candidatas filtradas a partir de quinze a trinta brutas, com uma escolhida para a Fase 2 e plano B/C documentados.
+>
+> **Sinais de saída:**
+> - Pelo menos quatro dos sete métodos de geração aplicados, produzindo entre quinze e trinta candidatas brutas (não três ou cinco).
+> - Os quatro filtros (FMF, timing, defensibilidade, modelo de pagamento) aplicados em ordem com resposta honesta a cada um.
+> - Ideia escolhida com resposta clara para "por que eu, por que agora, onde está o moat, quem paga quanto por quê" e justificativa escrita.
+> - Pelo menos três pessoas fora da bolha consultadas sobre uma das finalistas, para testar se o problema faz sentido (não a solução).
+>
+> **Três armadilhas mais comuns:**
+> 1. Primeira-ideia-por-cansaço: escolher por fadiga decisória após três ou quatro semanas sem clareza, em vez de levar as três finalistas para um mentor e forçar decisão.
+> 2. FOMO de setor quente ("vou fazer algo de IA", "algo de crypto"): aderir ao setor sem articular qual problema específico, qual cliente paga e por que você é a pessoa certa.
+> 3. Ideia-gigante-de-plataforma sem cunha: começar como "novo Mercado Livre" ou "plataforma que resolve tudo", em vez de começar pelo wedge específico que depois vira plataforma.
+
 ### POR QUE
 
 A qualidade da ideia inicial limita tudo que vem depois. Fundador que escolhe mal na origem passa dois ou três anos testando uma tese que nunca teve chance. Não porque executou mal. Porque a ideia em si era de baixa probabilidade. A pressa em "começar logo" em cima da primeira ideia que apareceu é uma das causas mais subestimadas de fracasso empreendedor. A primeira ideia que vem à cabeça raramente é a melhor. É apenas a mais disponível.

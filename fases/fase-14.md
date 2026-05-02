@@ -11,6 +11,19 @@ A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] é o
 
 A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] tem três frentes simultâneas: Time e Liderança em Escala, Operações e Gestão em Escala, e Máquina de Crescimento, Capital e Expansão. Cada uma com lógica própria, mas inseparáveis na prática. As três evoluem em paralelo — esse capítulo as trata em subseções ordenadas por intuição operacional.
 
+> [!abstract] Resumo operacional
+> **Entregável:** Plano de Time de dezoito meses mais Carta de Valores e Cultura, Arquitetura Operacional (OKRs, cadência de reuniões, playbooks, stack) e Máquina de Crescimento com motores de aquisição previsíveis, captação alinhada a milestones e expansão (segmento, geografia ou produto) iniciada.
+>
+> **Sinais de saída:**
+> - Contratações C-level críticas executadas com plano de doze meses em curso, cultura documentada e rituais (all-hands, 1:1, skip) rodando há dois ou mais meses; eNPS sendo medido trimestralmente.
+> - OKRs trimestrais em uso com scoring, top dez processos críticos com playbook escrito, dashboard central com seis ou mais métricas atualizadas semanalmente e blameless post-mortems instituídos.
+> - Motor de vendas opera sem o fundador em mais de setenta por cento dos deals, NRR cento e dez por cento ou mais, burn multiple até um vírgula cinco e Rule of 40 quarenta ou mais.
+>
+> **Três armadilhas mais comuns:**
+> 1. Over-hiring depois da rodada — pressão para "gastar o dinheiro" destrói cultura e caixa antes da estrutura para integrar existir.
+> 2. OKRs como teatro — postados no início do trimestre e ignorados até o próximo, sem rituais de check-in obrigatórios.
+> 3. Escalar vendas sem playbook — contratar dez vendedores com CAC desconhecido é queimar caixa sem aprender.
+
 ### POR QUE
 
 Sem escala, o PMF vira curiosidade histórica. Empresa que atinge PMF mas não escala é empresa que fica pequena para sempre. Possivelmente lucrativa. Possivelmente satisfatória para o fundador. Mas não é o que o ecossistema de venture capital busca financiar. Se o seu caminho é construir uma empresa de software de bilhões, a [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] é onde se prova, ou não se prova.

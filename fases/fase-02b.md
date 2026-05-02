@@ -11,6 +11,20 @@ Construção de uma representação causal explícita de por que você acredita 
 
 O entregável principal é uma Árvore de Teoria, também chamada Story Tree, e/ou um Mapa Causal — DAG (grafo causal direcionado) simplificado. É um diagrama onde cada nó é um atributo e cada seta é uma relação causal com um peso de confiança (baixo, médio, alto, ou probabilidade explícita de zero a cem por cento).
 
+> [!abstract] Resumo operacional
+> **Entregável:** Story Tree com oito a quinze atributos e DAG com dez ou mais nós e quinze ou mais relações causais, cada nó com nível de evidência (forte, fraca, nenhuma) e teoria alternativa documentada.
+>
+> **Sinais de saída:**
+> - Cinco ou mais hipóteses formuladas em formato testável "se X, então Y, mensurado por Z", com classificação de impacto e evidência.
+> - Dois a cinco nós bet-the-company identificados (alto impacto, baixa evidência) com ordem de teste prioritária para os próximos trinta a sessenta dias.
+> - Pelo menos uma teoria alternativa explícita que explica o mesmo fenômeno com atributos ou relações diferentes.
+> - Três pessoas independentes conseguem olhar a árvore e explicar com palavras próprias por que você acredita que o negócio funciona.
+>
+> **Três armadilhas mais comuns:**
+> 1. Teoria bonita demais: se tudo se conecta perfeitamente e não há incerteza nenhuma, você construiu narrativa, não teoria — reintroduza honestamente o que não sabe.
+> 2. Confundir atributo com solução: "app com dashboard integrado" é solução; o atributo é "disposição do dono a usar dashboard integrado".
+> 3. Apego à primeira teoria: se depois de duas horas desenhando você só tem uma versão, está apegado — desenhe duas (a teoria alternativa não é plano B, é objeto de teste paralelo).
+
 A estrutura conceitual da Árvore de Teoria pode ser visualizada assim:
 
 ```mermaid

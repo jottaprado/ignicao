@@ -9,6 +9,19 @@ part: parte-ii
 
 Validação e medição de PMF (Product-Market Fit — encaixe entre produto e mercado). O entregável ao fim dessa fase é um dos dois documentos: Relatório de PMF (se atingido) ou Plano de Iteração para PMF (se ainda não). O que PMF significa e por que importa está em POR QUE.
 
+> [!abstract] Resumo operacional
+> **Entregável:** Relatório de PMF (se atingido) ou Plano de Iteração para PMF (se ainda não), com scorecard de seis dimensões, curva de retenção por coorte e identificação do segmento onde o fit aconteceu primeiro.
+>
+> **Sinais de saída:**
+> - Sean Ellis Test com quarenta por cento ou mais de "muito decepcionados" em amostra representativa de trinta ou mais usuários ativos.
+> - Curva de retenção estabilizada acima do benchmark do modelo (SaaS B2B quarenta por cento em D90; SaaS B2C trinta por cento em D30) e churn mensal de cinco por cento ou menos por dois meses consecutivos.
+> - Crescimento orgânico de vinte por cento ou mais da aquisição total, com unit economics positivos (LTV/CAC três ou mais, payback abaixo de doze meses).
+>
+> **Três armadilhas mais comuns:**
+> 1. Confundir tração de aquisição com PMF — mil downloads sem retenção é canal bom, não fit de produto.
+> 2. Declarar PMF por ego ou pressão externa de investidores antes de o rigor numérico sustentar.
+> 3. Pulverizar foco depois de PMF parcial tentando agradar a todos, em vez de dobrar no nicho que ama.
+
 ### POR QUE
 
 Sem PMF, toda decisão é prematura. Contratar, captar, escalar marketing, construir cultura, abrir novo mercado. Qualquer uma dessas ações, executada antes do PMF, tem expectativa negativa. Empreendedores que tentam escalar antes do PMF queimam dinheiro e moral na mesma proporção.

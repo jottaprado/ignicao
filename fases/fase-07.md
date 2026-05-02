@@ -14,6 +14,21 @@ Execução de experimentos estruturados para testar as hipóteses prioritárias 
 
 O entregável é um Relatório de Experimentos. Hipóteses testadas, resultados, aprendizados, e próximos passos.
 
+> [!abstract] Resumo operacional
+> **Entregável:** Relatório de Experimentos com três ou mais Cartões de Experimento (Template A.4) executados, threshold ex-ante registrado, decisão (perseverar, pivotar, abandonar) documentada para cada hipótese bet-the-company.
+>
+> **Sinais de saída:**
+> - Três a cinco hipóteses bet-the-company testadas com critério de falsificação numérico pré-definido em cada cartão.
+> - Banco de Hipóteses atualizado com status pós-experimento — uma ou mais invalidadas conta como aprendizado.
+> - Evidência forte de problema real, disposição a pagar e pelo menos um canal de aquisição possível.
+> - Critério mínimo atingido em pelo menos um de três sinais — dez pagamentos antecipados, vinte cartas de intenção, ou cem e-mails qualificados com conversão acima de quinze por cento.
+> - Decisão tomada (perseverar, pivotar ou abandonar) e ação iniciada.
+>
+> **Três armadilhas mais comuns:**
+> 1. Critérios de sucesso frouxos definidos depois do resultado — "vou considerar sucesso se alguém demonstrar interesse" transforma o experimento em racionalização.
+> 2. Ignorar resultados negativos — desvalorizar dados contrários com "esse grupo não era o público certo" é fugir da verdade que o experimento revelou.
+> 3. Esticar prazo ou gastar demais — experimento acima de R$ 3 mil ou mais de duas semanas está mal desenhado, e janela aberta vira espera de resultado conveniente.
+
 ### POR QUE
 
 Hipóteses sem experimentos são só listas bonitas. Experimentos transformam suposição em evidência. Rápido e barato é fundamental. Se um experimento demora três meses, ou custa R$ 50 mil, você está gastando demais para aprender uma coisa só. Cada experimento deve gerar uma decisão clara. Continuar. Ajustar. Pivotar. Ou matar.

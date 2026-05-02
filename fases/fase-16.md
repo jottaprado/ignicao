@@ -9,6 +9,19 @@ part: parte-iv
 
 Planejamento e execução da saída do(s) fundador(es), total ou parcial, do negócio construído. O entregável é o Plano de Exit (saída — venda ou encerramento da empresa). Contendo cenários, preparação, estrutura fiscal, e decisões estratégicas sobre timing e método.
 
+> [!abstract] Resumo operacional
+> **Entregável:** Plano de Exit com cenários (M&A estratégico, M&A financeiro, IPO, secondary, acqui-hire ou shutdown voluntário), preparação operacional/jurídica/fiscal da empresa, data room montado e tax structuring implementado dois ou mais anos antes.
+>
+> **Sinais de saída:**
+> - Tipo de exit definido com clareza, mapa de cinco a vinte e cinco potenciais compradores construído e assessor de M&A ou banker em relação ativa.
+> - Data room preenchido em todas as nove categorias (legal, financeiros auditados, KPIs, contratos, IP, RH, compliance) e tax structuring implementado em cem por cento dos fundadores.
+> - Acordo de sócios cobre drag-along, tag-along e protective provisions; cofundadores e investidores alinhados sobre "quando vender", com walk-away e alvo definidos.
+>
+> **Três armadilhas mais comuns:**
+> 1. Vender com um único interessado — competição entre dois ou três compradores em paralelo vale vinte a cinquenta por cento do preço final.
+> 2. Aceitar earnouts sem cuidado — earnouts de trinta por cento ou mais frequentemente não são pagos; prefira cash no closing quando possível.
+> 3. Desconsiderar tax structuring — a diferença entre estrutura bem e mal planejada pode ser trinta a cinquenta por cento do valor realizado.
+
 ### POR QUE
 
 Exit é frequentemente tratado como "fim" distante. Algo para se preocupar "quando chegar lá". É um erro. Exit é evento planejado, não sorteado. E decisões tomadas três a cinco anos antes dele determinam o valor realizado e o custo fiscal.
