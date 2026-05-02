@@ -14,7 +14,7 @@ part: parte-i
 
 ### O que esse apêndice cobre
 
-Investigação estruturada para verificar se o problema que você imaginou na [[#FASE 2 — ARTICULAÇÃO E CAPTURA DA IDEIA|Fase 2]] existe de fato na vida das pessoas que você acredita serem seus clientes. Com que frequência ocorre. Quão doloroso é. E quanto as pessoas já fazem para tentar resolvê-lo. O entregável é um relatório chamado Mapa de Problemas, que documenta o problema real (não o imaginado) com evidências de campo.
+Investigação estruturada para verificar se o problema que você imaginou na [[#FASE 2 — ARTICULAÇÃO E CAPTURA DA IDEIA|Fase 2]] existe de fato na vida das pessoas que você acredita serem seus clientes. Com que frequência ocorre. Quão doloroso é. E quanto as pessoas já fazem para tentar resolvê-lo. O entregável é um relatório chamado Mapa de Problemas, que documenta o problema real (não o imaginado) com dados reais de entrevistas.
 
 > [!important] Disciplina central desta fase
 > Nesta fase, você ainda não fala da sua solução. Você só escuta. Essa disciplina é difícil, mas crítica. No momento em que você menciona a sua solução, o cliente passa a reagir à ideia em vez de descrever a realidade dele. E você perde a evidência limpa.
@@ -30,7 +30,7 @@ O custo de descobrir que o problema não existe antes de construir é uma conver
 
 ### QUALIDADE DO PROBLEMA, o filtro que precede tudo
 
-Antes de falar de execução, é preciso entender o que caracteriza um problema vale-a-pena-perseguir. Empreendedores messiânicos, que querem "salvar o mundo em geral", tendem a quebrar. Empreendedores que miram um problema específico e agudo tendem a crescer. Use três filtros em conjunto.
+Antes de falar de execução, entenda o que faz um problema valer a pena perseguir. Empreendedores messiânicos, que querem "salvar o mundo em geral", tendem a quebrar. Empreendedores que miram um problema específico e agudo tendem a crescer. Use três filtros em conjunto.
 
 #### Filtro 1, as seis dimensões do problema ideal (framework YC)
 
@@ -48,7 +48,7 @@ Frequente. O cliente encontra o problema repetidamente, diariamente ou semanalme
 
 Você não precisa das seis dimensões. Mas se faltar a maioria, a sua ideia não tem velocidade de escape. Vai ser difícil gerar tração, atrair investimento, e reduzir custo de aquisição de cliente.
 
-#### Filtro 2, as cinco características de um *heartfelt problem*
+#### Filtro 2, as cinco características de um *heartfelt problem* (problema genuinamente sentido)
 
 Um problema que mexe com o coração acende todas as cinco características abaixo. Visualização:
 
@@ -76,7 +76,7 @@ flowchart LR
  style Back fill:#FFB6B6
 ```
 
-Se três ou mais características falham, o problema não é heartfelt. É "interessante". Interessante não gera negócio. Heartfelt sim. Teste cada característica com evidência de campo (entrevistas, observação, dados). Nunca com "acho que sim".
+Se três ou mais características falham, o problema não é heartfelt. É "interessante". Interessante não gera negócio. Heartfelt sim. Teste cada característica com dados reais de entrevistas (entrevistas, observação, dados). Nunca com "acho que sim".
 
 As cinco características em detalhe.
 
@@ -96,22 +96,22 @@ Poço largo significa que muita gente usa. "Todo mundo usa o Google."
 
 Poço profundo significa que quem usa, usa várias vezes ao dia. "Usamos o Google múltiplas vezes por dia."
 
-Negócios bilionários tendem a ser profundos *e* largos. Mas iniciantes devem priorizar profundo em um nicho estreito antes de perseguir largura. Um poço profundo em nicho restrito te dá quatro coisas. Clientes que viram evangelistas. Clareza sobre o que construir. Capital intensivo não-necessário. Defensibilidade natural contra concorrentes grandes que ignoram nichos.
+Negócios bilionários tendem a ser profundos *e* largos. Mas iniciantes devem priorizar profundo em um nicho estreito antes de perseguir largura. Um poço profundo em nicho restrito te dá quatro coisas: clientes que viram evangelistas, clareza sobre o que construir, dispensar capital intensivo, e defensabilidade natural contra concorrentes grandes que ignoram nichos.
 
 > [!tip] Regra operacional do poço profundo
 > Se a sua empresa sumisse amanhã, um grupo bem específico de pessoas deveria reclamar muito. Se ninguém reclamaria, você não tem poço. Tem uma poça.
 
 #### Corolário crítico, clientes desesperados e produtos imperfeitos
 
-Uma das verdades menos intuitivas desta fase: em um mercado excelente, definido por clientes desesperados por uma solução, a primeira versão do produto não precisa ser incrível. Só precisa funcionar. Essa é a marca do produto bem-sucedido em fase inicial. Inversamente, em um mercado morno, mesmo um produto excepcional tem dificuldade de ganhar tração.
+Em um mercado excelente, com clientes desesperados por solução, a primeira versão do produto não precisa ser incrível. Só precisa funcionar. Essa é a marca do produto bem-sucedido em fase inicial. Em um mercado morno, mesmo um produto excepcional tem dificuldade de ganhar tração.
 
 O que isso significa na prática: se você está obcecado em polir o produto antes de lançar, há boa chance de que esteja mirando o mercado errado. Mercados quentes toleram (e recompensam) produtos capengas. Mercados frios exigem produtos polidos que ainda assim falham em engajar. A obsessão com perfeição técnica é frequentemente fuga de fundador evitando o veredito do mercado real.
 
 Este corolário se conecta a dois conceitos.
 
-O primeiro é o Limiar de Desespero. É o nível mínimo de dor que faz um cliente aceitar um produto imperfeito para resolver o problema. Abaixo desse limiar, ele vai reclamar de cada bug e cancelar. Acima, ele vai pagar mesmo com UI feia, fluxos quebrados, e atendimento via WhatsApp. Operacionalmente, isso significa que você deve mapear o Limiar de Desespero da sua cunha antes de investir em polimento. O Pain Level 5 (orçamento comprometido) é o indicador mais forte de que o cliente está acima do limiar.
+O primeiro é o Limiar de Desespero. É o nível mínimo de dor que faz um cliente aceitar um produto imperfeito para resolver o problema. Abaixo desse limiar, ele vai reclamar de cada bug e cancelar. Acima, ele vai pagar mesmo com UI feia, fluxos quebrados, e atendimento via WhatsApp. Mapeie o Limiar de Desespero da sua cunha antes de investir em polimento. O Pain Level 5 (orçamento comprometido) é o indicador mais forte de que o cliente está acima do limiar.
 
-O segundo é o "problema chato", também conhecido como Schlep Blindness (Paul Graham, 2012). *Schlep* é palavra em iídiche, hoje de uso comum no inglês, que significa "tarefa tediosa e desagradável". Graham cunhou o termo *Schlep Blindness*, cegueira para schleps, para descrever o padrão pelo qual empreendedores (especialmente técnicos) sistematicamente evitam problemas que envolvem trabalho chato e sem glamour. Regulação. Negociação com bancos. Operação manual. Migração de dados legados. Compliance. Suporte trabalhoso. O inconsciente nem deixa a ideia chegar à consciência. "Isso não é um problema de startup." É exatamente aí que moram as oportunidades mais valiosas. Porque ninguém quer pegá-las.
+O segundo é o "problema chato", também conhecido como Schlep Blindness (cegueira para trabalho árduo — Paul Graham, 2012). *Schlep* é palavra em iídiche, hoje de uso comum no inglês, que significa "tarefa tediosa e desagradável". Graham cunhou o termo para descrever o padrão pelo qual empreendedores (especialmente técnicos) sistematicamente evitam problemas que envolvem trabalho chato e sem glamour: regulação, negociação com bancos, operação manual, migração de dados legados, compliance, suporte trabalhoso. O inconsciente nem deixa a ideia chegar à consciência. "Isso não é um problema de startup." É exatamente aí que moram as oportunidades mais valiosas. Porque ninguém quer pegá-las.
 
 A lógica é econômica antes de ser poética. Se todo mundo quer evitar certa categoria de trabalho, quem se dispõe a fazer encontra mercado inteiro sem concorrência real. Concorrentes evitam problemas chatos por preguiça, ego, ou risco. Empreendedor que ataca deliberadamente problemas chatos frequentemente encontra menos competição, clientes mais leais (ninguém os atende bem), e margens melhores (ninguém quer o trabalho). Se o seu problema é "sexy" demais, fácil de vender em pitch, fácil de explicar em coquetel, desconfie. Provavelmente você está competindo com cinquenta outros fundadores na mesma fatia.
 
@@ -140,7 +140,7 @@ Para empreendedor iniciante, desconfie de ideias que pareceram óbvias e rápida
 
 ### TESTE DE PRIORIDADE, três perguntas rápidas (Priority Diagnostics)
 
-Antes de avançar, submeta o seu problema a um teste de prioridade em três perguntas. É um diagnóstico operacional importado do programa da Antler. Vale aplicar sobre cada problema-candidato antes de comprometer tempo sério com ele.
+Antes de avançar, submeta o seu problema a um teste de prioridade em três perguntas. É um diagnóstico operacional importado do programa da Antler. Aplique sobre cada problema-candidato antes de comprometer tempo sério com ele.
 
 > [!question] Pergunta 1, se este problema desaparecesse amanhã, quem notaria?
 > Não "quem acharia bom". Quem notaria concretamente, em quarenta e oito horas, sem ninguém avisar. Se a resposta for "as pessoas em geral" ou "todo mundo", o problema não é prioritário para ninguém em específico. Resposta boa: um cargo ou pessoa nomeada, por exemplo "o gerente de operações do setor X", que usa o problema diariamente.
@@ -185,7 +185,7 @@ Você precisará abordar três a quatro vezes o número de entrevistas que prete
 
 O roteiro tem dois princípios. Perguntas abertas, nunca fechadas. "Como você decide X?" em vez de "Você decide X dessa forma?". E perguntas sobre o passado, não sobre o futuro — as cinco perguntas canônicas abaixo aplicam esse princípio em detalhe.
 
-Estrutura sugerida (método Mom Test adaptado).
+Estrutura sugerida (método Mom Test — técnica de entrevista que evita respostas educadas — adaptado).
 
 Aquecimento (dois minutos). Agradeça o tempo, explique que é pesquisa, não venda, peça permissão para gravar.
 
@@ -250,7 +250,7 @@ Nível 4. Já improvisou uma solução feia. Planilha Excel gigante, processo ma
 Nível 5. Tem orçamento comprometido ou facilmente acessível para comprar uma solução. Esse é o cliente ideal para a venda inicial e para o PSF (Problem-Solution Fit). Equivale ao Limiar de Desespero descrito na seção anterior: o cliente está acima do limiar e aceita produto imperfeito para resolver o problema.
 
 > [!important] Meta de Pain Level desta fase
-> Conseguir entrevistar pelo menos cinco pessoas em Pain Level 4 ou 5. Se você não encontrar ninguém nesses níveis, você está testando um problema que o mercado ainda não sentiu o suficiente para pagar. É sinal vermelho. Volte para a Fase 2B (Teoria) e reconsidere o ICP ou a dor.
+> Consiga entrevistar pelo menos cinco pessoas em Pain Level 4 ou 5. Se você não encontrar ninguém nesses níveis, você está testando um problema que o mercado ainda não sentiu o suficiente para pagar. É sinal vermelho. Volte para a Fase 2B (Teoria) e reconsidere o ICP ou a dor.
 
 ##### O que não fazer
 
@@ -355,9 +355,9 @@ flowchart TD
  style Foco fill:#90EE90,stroke:#1F6F1F,stroke-width:3px
 ```
 
-Um ICP pode ter três a cinco problemas mapeados. O foco é em um, o mais agudo, o de melhor fit. O mapa deve ser atualizado conforme as entrevistas avançam. Não é documento morto.
+Um ICP pode ter três a cinco problemas mapeados. O foco é em um, o mais agudo, o de melhor fit. Atualize o mapa conforme as entrevistas avançam. Não é documento morto.
 
-O documento final tem cinco a dez páginas, com o seguinte conteúdo. Perfil do entrevistado consolidado (ICP refinado). Lista dos problemas identificados, ranqueados por frequência e intensidade. Verbatim marcantes (citações literais) para cada problema. Soluções atuais identificadas e suas deficiências. Disposição emocional, ou seja, quanto as pessoas se importam com o problema. Comparação com a Declaração Inicial v1: o que se confirmou, o que se refutou, o que emergiu que você não esperava. E versão dois da Declaração da Ideia, atualizada com o que foi aprendido.
+O documento final tem cinco a dez páginas, com o seguinte conteúdo: perfil do entrevistado consolidado (ICP refinado); lista dos problemas identificados, ranqueados por frequência e intensidade; verbatim marcantes (citações literais) para cada problema; soluções atuais identificadas e suas deficiências; disposição emocional, ou seja, quanto as pessoas se importam com o problema; comparação com a Declaração Inicial v1 — o que se confirmou, o que se refutou, o que emergiu que você não esperava; e versão dois da Declaração da Ideia, atualizada com o que foi aprendido.
 
 > [!note] Mapa de Problemas e A.30
 > O Mapa de Problemas é a saída visual da rodada — o entregável de comunicação. O [[#APÊNDICE A — TEMPLATES PRONTOS PARA USO|Template A.30]] é a planilha de decisão estruturada que sustenta o Mapa: cruza distribuição de Pain Level, padrões agregados de problema, workarounds dominantes, vocabulário recorrente e sub-segmentos para registrar a decisão de avanço com rastro à evidência. Use os dois — o Mapa para apresentar, A.30 para defender.
@@ -383,7 +383,7 @@ Frequência de menção espontânea do problema. Em que percentual das entrevist
 
 Índice de "já tentou resolver". Em que percentual das entrevistas a pessoa descreveu tentativas ativas de resolver? Alvo: quarenta por cento ou mais. Se as pessoas não estão tentando resolver, não vão pagar por uma nova solução.
 
-Tempo ou dinheiro gasto com o problema hoje. Valor médio informado pelos entrevistados. Serve como proxy de disposição a pagar. Benchmark: R$ 500 por mês ou mais (B2C), ou R$ 5.000 por mês ou mais (B2B), ou cinco horas por semana ou mais de tempo próprio. Indica dor em Pain Level 4 ou 5 (dor real, já consumindo recursos). Abaixo disso, o problema pode existir mas não dói o suficiente para virar negócio.
+Tempo ou dinheiro gasto com o problema hoje. Valor médio informado pelos entrevistados. Serve como proxy (indicador indireto) de disposição a pagar. Benchmark: R$ 500 por mês ou mais (B2C), ou R$ 5.000 por mês ou mais (B2B), ou cinco horas por semana ou mais de tempo próprio. Indica dor em Pain Level 4 ou 5 (dor real, já consumindo recursos). Abaixo disso, o problema pode existir mas não dói o suficiente para virar negócio.
 
 Índice de saturação. Depois das últimas três entrevistas, quanta informação nova apareceu? Abaixo de quinze por cento indica saturação.
 
@@ -515,15 +515,15 @@ A lição transferível. Quem tem dor mais aguda paga mais, mesmo que seja clien
 
 Na descoberta do problema, ferramentas de entrevista e pesquisa são centrais. Mas a maioria delas está no Ferramentário (BG.6, Pesquisa & Descoberta). Nesta fase, disponíveis de imediato:
 
-5 Whys (Sakichi Toyoda, Toyota). Pergunte "por quê?" cinco vezes durante entrevistas, para chegar à causa-raiz do problema (não ao sintoma declarado). Use em toda entrevista de customer discovery. Ver BG.5.2.
+5 Whys (Sakichi Toyoda, Toyota). Técnica de perguntar "por quê?" cinco vezes para chegar à causa raiz e não parar no sintoma declarado. Use em toda entrevista de customer discovery. Ver BG.5.2.
 
-MECE. Estruturar os problemas reportados pelos entrevistados em categorias mutuamente exclusivas e coletivamente exaustivas. Evita lista bagunçada de "dores" sem estrutura. Use na consolidação de aprendizados depois de dez a vinte entrevistas. Ver BG.4.5.
+MECE. Princípio de estruturar os problemas reportados pelos entrevistados em categorias Mutuamente Exclusivas e Coletivamente Exaustivas — sem sobreposição e sem lacunas. Evita lista bagunçada de "dores" sem estrutura. Use na consolidação de aprendizados depois de dez a vinte entrevistas. Ver BG.4.5.
 
-First Principles Thinking. Resista à tendência de reformular o problema dos clientes na linguagem da sua solução. Vá ao fundamento. Qual é a dor real, sem fritura de "porque esse cliente precisaria de uma plataforma SaaS com IA"? Ver BG.4.1.
+First Principles Thinking. Método de raciocinar a partir do fundamento, sem assumir premissas herdadas. Resista à tendência de reformular o problema dos clientes na linguagem da sua solução. Vá ao fundamento. Qual é a dor real, sem fritura de "porque esse cliente precisaria de uma plataforma SaaS com IA"? Ver BG.4.1.
 
-McKinsey 7-Step (passos 1 e 2). Nesta fase, Define e Structure. Articule o problema, depois estruture sub-problemas. Use issue tree MECE. Ver BG.5.1.
+McKinsey 7-Step (passos 1 e 2). Framework de resolução estruturada de problemas. Nesta fase, aplique Define e Structure: articule o problema e estruture sub-problemas em issue tree MECE. Ver BG.5.1.
 
-Pyramid Principle (Minto). Síntese das entrevistas. Apresente ao time ou aos advisors com a conclusão no topo: "o problema central dos nossos ICPs é X, por três razões: Y1, Y2, Y3". Ver BG.4.4.
+Pyramid Principle (Minto). Método de comunicação que coloca a conclusão no topo e sustenta com argumentos. Na síntese das entrevistas, apresente ao time ou aos advisors assim: "o problema central dos nossos ICPs é X, por três razões: Y1, Y2, Y3". Ver BG.4.4.
 
 > [!note] Ferramentas específicas de entrevista
 > Mom Test, JTBD Switch Interviews, Laddering, Contextual Inquiry. Estarão no Ferramentário, BG.6.
@@ -561,11 +561,11 @@ Repita com mais seis a dez conversas nas duas semanas seguintes. Aos dez ou quin
 
 ### SÍNTESE DA FASE 3
 
-A [[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]] ataca o erro mais caro da indústria de startups. Construir algo que ninguém quer. Noventa por cento das empresas que falham, falham por isso. E na maioria dos casos, o fundador presumiu que o problema existia, sem verificar. A descoberta do problema é a vacina contra esse erro. O custo de descobrir que o problema não existe antes de construir é uma conversa de café. O custo de descobrir depois de construir é meses, ou anos, de vida e todo o dinheiro investido.
+A [[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]] ataca o erro mais caro da indústria de startups: construir algo que ninguém quer. Noventa por cento das empresas que falham, falham por isso. E na maioria dos casos, o fundador presumiu que o problema existia, sem verificar. A descoberta do problema é a vacina contra esse erro. O custo de descobrir que o problema não existe antes de construir é uma conversa de café. O custo de descobrir depois é meses ou anos de vida e todo o dinheiro investido.
 
-A diferença entre quem faz certo, e quem falha, está numa disciplina simples, e quase sempre violada. Não falar da solução. Só escutar. No momento em que você menciona a solução, o cliente passa a reagir à ideia, em vez de descrever a realidade. E você perde a evidência limpa. Aplicar o Mom Test com rigor, perguntar sobre a vida específica do cliente, sobre momentos concretos em que o problema apareceu, sobre o que ele já faz para resolver hoje, é o que separa entrevista útil de entrevista que confirma viés.
+A diferença entre quem faz certo e quem falha está numa disciplina simples, e quase sempre violada: não falar da solução, só escutar. No momento em que você menciona a solução, o cliente passa a reagir à ideia em vez de descrever a realidade. E você perde a evidência limpa. Aplicar o Mom Test com rigor — perguntar sobre a vida específica do cliente, sobre momentos concretos em que o problema apareceu, sobre o que ele já faz para resolver hoje — é o que separa entrevista útil de entrevista que confirma viés.
 
-O entregável é o Mapa de Problemas: lista de entrevistados com Pain Level atribuído, padrões de dor ranqueados por frequência e intensidade, e evidências de campo (verbatim, tentativas de solução, custo atual). Quem chega ao fim com a formulação do Dia 4 idêntica à do Dia 1 não validou nada — filtrou as conversas para confirmar o que queria ouvir. A [[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]] bem-feita produz mudança na própria formulação do problema. A Fase 4 vai usar esse Mapa para estruturar o conhecimento em Jobs to be Done e identificar o progresso que o cliente está tentando fazer.
+O entregável é o Mapa de Problemas: lista de entrevistados com Pain Level atribuído, padrões de dor ranqueados por frequência e intensidade, e dados reais de entrevistas (verbatim, tentativas de solução, custo atual). Quem chega ao fim com a formulação do Dia 4 idêntica à do Dia 1 não validou nada — filtrou as conversas para confirmar o que queria ouvir. A [[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]] bem-feita produz mudança na própria formulação do problema. A Fase 4 vai usar esse Mapa para estruturar o conhecimento em Jobs to be Done e identificar o progresso que o cliente está tentando fazer.
 
 # fase3 #descoberta-do-problema #customer-interview #mom-test #pain-level #schlep-blindness #problema-validado
 

@@ -38,7 +38,7 @@ LTDA. Mais de um sócio. Mais flexível. Capital social declarado.
 S/A. Estrutura para captação robusta. Mais complexa. Obrigatória para IPO.
 
 > [!important] Para a maioria das startups iniciais, LTDA é o ponto ideal
-> S/A entra em cena quando há captações de venture capital significativas. Migrar de LTDA para S/A custa entre R$ 15 mil e R$ 40 mil em honorários jurídicos para conversão simples (alteração de tipo societário, sem reestruturação de cap table). Para migração no contexto de Série A com reestruturação societária completa (classes de ações, ESOP, drag/tag-along, holding), a faixa sobe para R$ 30 mil a R$ 100 mil — esta é a faixa documentada no [[#APÊNDICE W — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Apêndice W]] e se aplica ao cenário típico em que a migração efetivamente acontece. Em ambos os casos, é trivial — não vale antecipar a estrutura mais pesada.
+> S/A entra em cena quando há captações de venture capital significativas. Migrar de LTDA para S/A custa entre R$ 15 mil e R$ 40 mil em honorários jurídicos para conversão simples (alteração de tipo societário, sem reestruturação de cap table (tabela de capitalização — quem tem quanto da empresa)). Para migração no contexto de Série A com reestruturação societária completa (classes de ações, ESOP, drag/tag-along, holding), a faixa sobe para R$ 30 mil a R$ 100 mil — esta é a faixa documentada no [[#APÊNDICE W — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Apêndice W]] e se aplica ao cenário típico em que a migração efetivamente acontece. Em ambos os casos, é trivial — não vale antecipar a estrutura mais pesada.
 
 > [!tip] Apêndice DA — Marco Legal das Startups
 > O [[apendice-da|Apêndice DA — Marco Legal das Startups]] (Lei 182/2021) cobre os benefícios específicos para startups: sandbox regulatório, dispensa de licitação para contratar com governo, regime simplificado de dissolução e o enquadramento como "Empresa Inovadora" — relevante para decidir estrutura jurídica e acessar programas de fomento.
@@ -75,7 +75,7 @@ Quatro tipos de contrato.
 
 ##### Acordo de sócios, se houver sócios
 
-Obrigatório desde o primeiro dia. Inclua sete itens. Divisão de participação. Vesting de equity (ninguém vira sócio pleno no dia zero, equity se consolida ao longo de anos). Regras de saída voluntária, involuntária, e morte. Direitos de veto em decisões críticas. Mecanismos de resolução de conflito. Não-compete, e confidencialidade. Cláusula de tag-along, e drag-along, para rodadas futuras.
+Obrigatório desde o primeiro dia. Inclua sete itens. Divisão de participação. Vesting de equity (participação societária) — ninguém vira sócio pleno no dia zero, a participação se consolida ao longo de anos. Regras de saída voluntária, involuntária, e morte. Direitos de veto em decisões críticas. Mecanismos de resolução de conflito. Não-compete, e confidencialidade. Cláusula de tag-along, e drag-along, para rodadas futuras.
 
 ```mermaid
 xychart-beta
@@ -86,7 +86,7 @@ xychart-beta
 ```
 
 > [!note] Como funciona o vesting com cliff
-> Nos primeiros 12 meses (o cliff), nada vesta. No mês 13, 25% consolida de uma vez. Dos meses 13 a 48, o restante vesta mensalmente (~2,08% ao mês). Se o fundador sai antes de 12 meses, não leva nada. Se sai no mês 30, leva 50% da participação acordada. Isso protege a empresa de cofundadores que saem cedo mas mantêm participação grande.
+> Nos primeiros 12 meses (o cliff (período mínimo antes de começar a adquirir participação)), nada vesta. No mês 13, 25% consolida de uma vez. Dos meses 13 a 48, o restante vesta mensalmente (~2,08% ao mês). Se o fundador sai antes de 12 meses, não leva nada. Se sai no mês 30, leva 50% da participação acordada. Isso protege a empresa de cofundadores que saem cedo mas mantêm participação grande.
 
 > [!warning] Conflito entre sócios é a segunda maior causa de morte de startups no mundo
 > Não pule o acordo. Casais que se separam sem contrato pré-nupcial passam por divórcio. Sócios que se separam sem acordo passam por anos de litígio. O [[#APÊNDICE BP — DISPUTA SOCIETÁRIA E SAÍDA DE SÓCIO|Apêndice BP]] cobre prevenção (cláusulas que evitam o conflito), mediação (quando o conflito chega) e mecânica jurídica de saída forçada.
@@ -105,7 +105,7 @@ A divisão de equity entre cofundadores é uma das decisões mais carregadas e m
 
 *Capital investido*: quem está colocando dinheiro na empresa? Dinheiro tem preço diferente de suor — mas deve ser considerado, idealmente como conversível ou nota separada, não misturado no equity de fundador. Peso sugerido: variável, geralmente separado do equity de fundador.
 
-**O método Slicing Pie (Mike Moyer, 2012).** Em vez de divisão fixa no começo, o Slicing Pie é um framework dinâmico: cada contribuição (horas, dinheiro, equipamento, IP) gera "fatias" proporcionais ao valor de mercado da contribuição. A divisão real só se consolida quando a empresa começa a gerar caixa ou capta investimento. Vantagem: elimina a especulação sobre quem vai contribuir mais. Desvantagem: requer tracking rigoroso de contribuições e pode criar complexidade se um cofundador sai cedo.
+**O método Slicing Pie (método de divisão dinâmica de equity baseado em contribuição real) (Mike Moyer, 2012).** Em vez de divisão fixa no começo, o Slicing Pie é um framework dinâmico: cada contribuição (horas, dinheiro, equipamento, IP) gera "fatias" proporcionais ao valor de mercado da contribuição. A divisão real só se consolida quando a empresa começa a gerar caixa ou capta investimento. Vantagem: elimina a especulação sobre quem vai contribuir mais. Desvantagem: exige tracking rigoroso de contribuições e pode criar complexidade se um cofundador sai cedo.
 
 **Processo estruturado de negociação do split.**
 
@@ -121,7 +121,7 @@ Passo 3: chegue a um número com quatro proteções mínimas escritas no acordo:
 
 60/40 ou 70/30: mais honesto em situações onde há diferença clara de comprometimento, ideia, ou habilidade. A diferença de 10-20pp de equity é menos importante do que a clareza de expectativas.
 
-Fundador solo com pool para cofundador futuro: quando você começa sozinho mas antecipa cofundador, reservar 20-30% em pool com vesting para quem entrar formalmente.
+Fundador solo com pool para cofundador futuro: quando você começa sozinho mas antecipa cofundador, reserve 20-30% em pool com vesting para quem entrar formalmente.
 
 > [!tip] Não negocie equity em jantar
 > A conversa de divisão de equity deve acontecer em ambiente estruturado, com documentação. Acordos verbais em jantar geram memórias diferentes seis meses depois. Use um template de acordo ou leve para advogado desde o primeiro rascunho.
@@ -179,10 +179,10 @@ Conta bancária exclusivamente da empresa. Cartão corporativo. Pró-labore defi
 
 #### Passo 8, estabeleça processos operacionais documentados
 
-Cinco documentos vivos. Onboarding de novo cliente. Onboarding de novo funcionário. Processo de suporte. Processo de venda. Políticas internas (gastos, viagens, despesas).
+Cinco documentos vivos. Onboarding (processo de integração do novo colaborador) de novo cliente. Onboarding de novo funcionário. Processo de suporte. Processo de venda. Políticas internas (gastos, viagens, despesas).
 
 > [!tip] Documente o necessário, não o exaustivo
-> Não precisa ser cinquenta páginas. Precisa ser claro e usado. Documento que ninguém lê é teatro de processo. Um página por processo, em linguagem direta, vale mais do que manual elaborado que ninguém abre.
+> Não precisa ser cinquenta páginas. Precisa ser claro e usado. Documento que ninguém lê é teatro de processo. Uma página por processo, em linguagem direta, vale mais do que manual elaborado que ninguém abre.
 
 #### Passo 9, defina estrutura financeira mínima
 
@@ -257,11 +257,11 @@ Você concluiu a [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACION
 
 **Primeiros passos práticos.**
 
-1. Contratar advogado especializado em startups (não generalista) para revisar o contrato social e o cap table. Investimento de R$ 3 mil a R$ 10 mil justificável.
-2. Formalizar o cap table em planilha detalhada, mais o vesting dos sócios (quatro anos com cliff de doze meses é padrão).
-3. Contratar contador especializado em startup, ou serviços como Contabilizei, ou Omie mais contador, para começar fechamento mensal.
-4. Iniciar registro de marca no INPI. Pode levar oito a dezoito meses. Comece cedo.
-5. Redigir política de privacidade, mais termos de uso, mais mapeamento LGPD básico.
+1. Contrate advogado especializado em startups (não generalista) para revisar o contrato social e o cap table. Investimento de R$ 3 mil a R$ 10 mil justificável.
+2. Formalize o cap table em planilha detalhada, mais o vesting dos sócios (quatro anos com cliff de doze meses é padrão).
+3. Contrate contador especializado em startup, ou serviços como Contabilizei, ou Omie mais contador, para começar fechamento mensal.
+4. Inicie o registro de marca no INPI. Pode levar oito a dezoito meses. Comece cedo.
+5. Redija política de privacidade, mais termos de uso, mais mapeamento LGPD básico.
 
 ### EXEMPLO PRÁTICO
 
@@ -320,11 +320,11 @@ Estruturação jurídica, financeira, e operacional combina negociações críti
 
 ##### Negociação (BG.15)
 
-Harvard Negotiation, BATNA e ZOPA (Fisher e Ury, 1981). Principled negotiation. Interesses, opções, critérios objetivos. Use em negociações com sócios sobre equity, primeiros contratos de venda, acordos de fornecedor, discussões com advisors, e investidores seed. Ver BG.15.1.
+Harvard Negotiation, BATNA e ZOPA (Fisher e Ury, 1981). Framework de negociação baseada em princípios: foca em interesses, opções de ganho mútuo e critérios objetivos — em vez de posições fixas. Use em negociações com sócios sobre equity, primeiros contratos de venda, acordos de fornecedor, discussões com advisors, e investidores seed. Ver BG.15.1.
 
 Never Split the Difference (Chris Voss, 2016). Tactical empathy, mirror, labeling, calibrated questions. Use em negociações emocionais, ou de alta assimetria de poder. Ver BG.15.2.
 
-Getting Past No (William Ury). Cinco passos para pessoas difíceis. Use em conflitos com cofounder, disputas com fornecedor, e impasses. Ver BG.15.4.
+Getting Past No (William Ury). Cinco passos para lidar com pessoas difíceis. Use em conflitos com cofounder, disputas com fornecedor, e impasses. Ver BG.15.4.
 
 ##### Decisão e análise financeira (BG.5 e BG.18)
 
@@ -344,7 +344,7 @@ Burn Multiple (David Sacks, 2020). Net Burn dividido por Net New ARR. Menos de u
 
 ### SÍNTESE DA FASE 13
 
-Ao longo dessa fase foram formalizados o tipo societário (LTDA ou S/A), o regime tributário, o cap table com vesting, o acordo de sócios, os contratos com clientes e colaboradores, o programa LGPD e a contabilidade mensal. A diferença entre quem faz certo e quem falha está em tratar formalização como infraestrutura, não como obstáculo: escolha de regime tributário tem efeito multimilionário em três a cinco anos, cap table mal-feita é dor de cabeça em qualquer captação séria, e compliance LGPD é pré-requisito para vender enterprise ou captar Série A institucional.
+Nessa fase você formalizou o tipo societário (LTDA ou S/A), o regime tributário, o cap table com vesting, o acordo de sócios, os contratos com clientes e colaboradores, o programa LGPD e a contabilidade mensal. A diferença entre quem faz certo e quem falha está em tratar formalização como infraestrutura, não como obstáculo. Escolha de regime tributário tem efeito multimilionário em três a cinco anos. Cap table mal-feita é dor de cabeça em qualquer captação séria. Compliance LGPD é pré-requisito para vender enterprise ou captar Série A institucional.
 
 Com essa base formalizada, a [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] pode ser executada: construir time, operação e máquina de crescimento sem o risco jurídico e tributário de uma empresa ainda informal.
 

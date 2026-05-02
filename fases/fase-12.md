@@ -7,13 +7,13 @@ part: parte-ii
 
 ### O que esse apêndice cobre
 
-Validação e medição de Product-Market Fit. O entregável ao fim dessa fase é um dos dois documentos: Relatório de PMF (se atingido) ou Plano de Iteração para PMF (se ainda não). O que PMF significa e por que importa está em POR QUE.
+Validação e medição de PMF (Product-Market Fit — encaixe entre produto e mercado). O entregável ao fim dessa fase é um dos dois documentos: Relatório de PMF (se atingido) ou Plano de Iteração para PMF (se ainda não). O que PMF significa e por que importa está em POR QUE.
 
 ### POR QUE
 
 Sem PMF, toda decisão é prematura. Contratar, captar, escalar marketing, construir cultura, abrir novo mercado. Qualquer uma dessas ações, executada antes do PMF, tem expectativa negativa. Empreendedores que tentam escalar antes do PMF queimam dinheiro e moral na mesma proporção.
 
-Com PMF, as mesmas decisões começam a fazer sentido. O time ganha confiança. O cliente paga sem precisar ser convencido a cada vez. O growth vira engenharia, e não arte. E o capital externo encontra razão para entrar. PMF é o divisor entre a jornada de descoberta e a jornada de crescimento. É, em volume e importância, o marco mais citado, e mais mal-medido, de toda a literatura empreendedora.
+Com PMF, as mesmas decisões começam a fazer sentido. O time ganha confiança. O cliente paga sem precisar ser convencido a cada vez. O crescimento vira engenharia, não arte. E o capital externo encontra razão para entrar. PMF é o divisor entre a jornada de descoberta e a jornada de crescimento. É o marco mais citado, e mais mal-medido, de toda a literatura empreendedora.
 
 Esse é também o ponto em que a imprensa, os investidores, e os próprios founders, querem declarar vitória cedo.
 
@@ -22,7 +22,7 @@ Esse é também o ponto em que a imprensa, os investidores, e os próprios found
 
 ### PSF antes de PMF, não confunda as duas coisas
 
-Um dos erros mais caros que fundadores iniciantes cometem é tratar Problem-Solution Fit (PSF) e Product-Market Fit como sinônimos. Ou tratar PSF como "PMF em pequeno". Não são a mesma coisa. São fases distintas. Com clientes distintos, preços distintos, métricas distintas, e estratégias de desenvolvimento distintas. Pular do MVP direto para a tentativa de PMF, sem passar pelo PSF, é como tentar correr uma maratona sem ter corrido dez quilômetros.
+Um dos erros mais caros que fundadores iniciantes cometem é tratar PSF (Problem-Solution Fit — encaixe entre problema e solução) e PMF como sinônimos. Ou tratar PSF como "PMF em pequeno". Não são a mesma coisa. São fases distintas. Com clientes distintos, preços distintos, métricas distintas, e estratégias de desenvolvimento distintas. Pular do MVP direto para a tentativa de PMF, sem passar pelo PSF, é como tentar correr uma maratona sem ter corrido dez quilômetros.
 
 A trajetória real é PSF, depois PMF, depois Escala. Cada flecha é uma travessia que pode durar meses, e que precisa de evidências específicas para ser declarada concluída.
 
@@ -53,7 +53,7 @@ flowchart LR
     PMF -->|"Evidência: coorte<br/>estabiliza + NPS ≥40<br/>+ orgânico funciona"| SCALE
 ```
 
-A curva de retenção é o sinal mais honesto. Produto sem PMF tem curva que decai para zero — cada nova coorte de usuários vai embora. Produto com PMF tem curva que estabiliza num patamar acima de zero, mesmo que seja 15% ou 20%. Isso significa que uma fração dos usuários encontrou valor real e fica.
+A retention curve (curva de retenção — gráfico que mostra quantos usuários voltam com o tempo) é o sinal mais honesto. Produto sem PMF tem curva que decai para zero — cada nova coorte de usuários vai embora. Produto com PMF tem curva que estabiliza num patamar acima de zero, mesmo que seja 15% ou 20%. Isso significa que uma fração dos usuários encontrou valor real e fica.
 
 ```mermaid
 xychart-beta
@@ -73,18 +73,18 @@ xychart-beta
 | **Cliente-alvo** | Early evangelists em dor aguda. Pequeno grupo disposto a tolerar imperfeições para resolver problema real. | Clientes mainstream, mais aversos a risco. Esperam que o produto "funcione bem" sem maiores defeitos. |
 | **Tamanho da base** | Cinco a cinquenta clientes. | Centenas a milhares, crescendo. |
 | **Fonte do interesse** | Buscam ativamente uma solução porque a dor aperta. Aceitam MVP manual, concierge, produto capenga. | Descobrem o produto em canais, e decidem se adotam com base em casos e credibilidade. Esperam produto maduro. |
-| **Preço** | Cobrado principalmente como ferramenta para aprender sobre disposição a pagar. Margem e lucro não são o foco. | Preço competitivo e consistente, otimizado para maximizar crescimento. Unit economics entram em cena. |
+| **Preço** | Cobrado principalmente como ferramenta para aprender sobre disposição a pagar. Margem e lucro não são o foco. | Preço competitivo e consistente, otimizado para maximizar crescimento. Unit economics (relação entre custo de aquisição e valor gerado por cliente) entram em cena. |
 | **Métrica-chave** | Profundidade da resolução. Volta? Usa de verdade? Fica decepcionado se sumir? | Retenção agregada, crescimento orgânico, Sean Ellis acima de quarenta por cento, unit economics, conversão em escala. |
 | **Duração típica** | Três a doze meses. Mais em B2B complexo. | Doze a trinta e seis meses depois do PSF. |
 
 > [!important] A diferença entre PSF e PMF, em uma frase
 > Em PSF, o empreendedor vai até o cliente oferecer a solução. Em PMF, o mercado começa a vir até o empreendedor puxar a solução. O movimento se inverte.
 
-Os sinais de que você atingiu PSF, e pode então perseguir PMF. Pelo menos cinco clientes pagantes usam o produto recorrentemente (semanal, ou mais frequente). Pelo menos três clientes falam do produto espontaneamente para outras pessoas do mesmo nicho. O Sean Ellis Test, restrito ao nicho inicial, já responde próximo de quarenta por cento. Quando você pergunta a esses clientes "o que você usaria se o nosso produto sumisse amanhã?", eles respondem algo pior — planilha, processo manual, não usar nada — não um concorrente direto. Isso prova a lacuna que você preenche. Começaram a chegar leads por indicação, mesmo que poucos.
+Os sinais de que você atingiu PSF, e pode então perseguir PMF. Pelo menos cinco clientes pagantes usam o produto recorrentemente (semanal, ou mais frequente). Pelo menos três clientes falam do produto espontaneamente para outras pessoas do mesmo nicho. O Sean Ellis Test — pesquisa que mede o quanto os usuários sentiriam falta do produto —, restrito ao nicho inicial, já responde próximo de quarenta por cento. Quando você pergunta a esses clientes "o que você usaria se o nosso produto sumisse amanhã?", eles respondem algo pior — planilha, processo manual, não usar nada — não um concorrente direto. Isso prova a lacuna que você preenche. Leads por indicação começaram a chegar, mesmo que poucos.
 
 Os sinais de que você ainda *não* atingiu PSF, apesar de ter MVP. Clientes usam uma ou duas vezes, e param. Ninguém indica espontaneamente. Você precisa empurrar toda venda com desconto, relacionamento pessoal, ou promessa. Quando um cliente cancela, a resposta é "o produto até é legal, mas..." Qualquer frase que venha depois do "mas" é falta de PSF.
 
-A transição de PSF para PMF tem três passos obrigatórios. Primeiro, ajustar preço para viabilidade de unit economics — o subsídio que funcionou em PSF não se sustenta em escala. Segundo, abrir canais de aquisição repetíveis, não dependentes do fundador pessoalmente buscando leads. Terceiro, expandir o perfil de cliente em ondas concêntricas a partir do ICP inicial. Não tentar atender "todo mundo" de uma vez.
+A transição de PSF para PMF tem três passos obrigatórios. Primeiro, ajuste o preço para viabilidade de unit economics — o subsídio que funcionou em PSF não se sustenta em escala. Segundo, abra canais de aquisição repetíveis, não dependentes do fundador pessoalmente buscando leads. Terceiro, expanda o perfil de cliente em ondas concêntricas a partir do ICP (Ideal Customer Profile — perfil do cliente ideal) inicial. Não tente atender "todo mundo" de uma vez.
 
 ### Os três testes de validação de Geoffrey Moore
 
@@ -92,13 +92,13 @@ Em *Crossing the Chasm*, Geoffrey Moore formaliza que PMF real exige que o produ
 
 #### Desirability, os clientes querem?
 
-Os sinais. Sean Ellis acima de quarenta por cento (ver Teste dos 40% no Passo 1). Retenção estável. NPS alto. Referências espontâneas.
+Os sinais. Sean Ellis acima de quarenta por cento (ver Teste dos 40% no Passo 1). Retenção estável. NPS (Net Promoter Score — índice de lealdade do cliente) alto. Referências espontâneas.
 
-A falha típica. O produto gera interesse inicial (aquisição boa), mas não retenção (engagement falso, as pessoas vêm e vão).
+A falha típica. O produto gera interesse inicial (aquisição boa), mas não retenção (engajamento falso, as pessoas vêm e vão).
 
 #### Viability, o negócio ganha dinheiro?
 
-Os sinais. LTV dividido por CAC três ou mais. Payback de doze meses ou menos. Margem bruta saudável. Unit economics positivos.
+Os sinais. LTV (Lifetime Value — valor total gerado por um cliente) dividido por CAC (Customer Acquisition Cost — custo para adquirir um cliente) três ou mais. Payback de doze meses ou menos. Margem bruta saudável. Unit economics positivos.
 
 A pergunta central. Quando eu parar de subsidiar aquisição, o negócio ainda funciona?
 
@@ -119,7 +119,7 @@ Em cada iteração, aplique o checklist triplo antes de começar a investir pesa
 
 ### Ciclo de maturação do PMF, não é permanente
 
-Uma armadilha que atinge até fundadores experientes. Tratar o PMF como estado permanente depois de atingido. Não é. Modelos de crescimento saturam, em média, a cada doze a dezoito meses. Você precisa redesenhar elementos. Seja o ICP (novo segmento). Seja a proposta (nova categoria de valor). Seja o canal (nova forma de aquisição). Seja o preço (novo modelo de monetização).
+Uma armadilha que atinge até fundadores experientes: tratar o PMF como estado permanente depois de atingido. Não é. Modelos de crescimento saturam, em média, a cada doze a dezoito meses. Você precisa redesenhar elementos — seja o ICP (novo segmento), seja a proposta (nova categoria de valor), seja o canal (nova forma de aquisição), seja o preço (novo modelo de monetização).
 
 Fundadores que ficam estáticos vendo o crescimento morrer aprendem tarde demais. Fundadores que anteveem e redesenham entram em novos ciclos de crescimento exponencial.
 
@@ -135,7 +135,7 @@ Comece depois de seis a doze meses de MVP em operação com iterações, e depoi
 
 ### Quem envolve
 
-O executor é você, e o time, se houver. Em empresas muito pequenas, o próprio founder faz tudo. Em empresas com time, o fundador é o sintetizador da evidência. O decisor é você. O apoio externo vem de mentores, advisors, e outros fundadores em fase semelhante. São valiosos como caixa de ressonância, especialmente para a decisão "declarar PMF, ou não". Ego contamina diagnóstico.
+O executor é você, e o time, se houver. Em empresas muito pequenas, o próprio founder faz tudo. Em empresas com time, o fundador sintetiza a evidência. O decisor é você. O apoio externo vem de mentores, advisors, e outros fundadores em fase semelhante. São valiosos como caixa de ressonância, especialmente para a decisão "declarar PMF, ou não". Ego contamina diagnóstico.
 
 ### Como executar
 
@@ -153,11 +153,11 @@ Patamares do Sean Ellis Test, em quatro faixas.
 
 Quarenta por cento ou mais "muito decepcionados". PMF atingido. Somado a retenção estável, e NPS de trinta ou mais, prepare para escala.
 
-Trinta a quarenta por cento. Quase lá. Refine ICP, aprofunde core features, itere antes de escalar.
+Trinta a quarenta por cento. Quase lá. Refine o ICP, aprofunde as funcionalidades centrais, itere antes de escalar.
 
-Vinte a trinta por cento. PSF, não PMF. A solução ressoa parcialmente. Revise proposta de valor. Estreite foco. Identifique subnicho.
+Vinte a trinta por cento. PSF, não PMF. A solução ressoa parcialmente. Revise a proposta de valor. Estreite o foco. Identifique o subnicho.
 
-Menos de vinte por cento. Não-fit. Considere pivot, ou descontinuação.
+Menos de vinte por cento. Sem fit. Considere pivot, ou descontinuação.
 
 > [!warning] Tamanho mínimo da amostra
 > Meça com pelo menos quarenta respondentes ativos e representativos do ICP. Escalar com menos de quarenta por cento de "muito decepcionados" destrói unit economics. Escala amplifica problemas, não os resolve.
@@ -166,7 +166,7 @@ Menos de vinte por cento. Não-fit. Considere pivot, ou descontinuação.
 
 Esse é o sinal mais importante de PMF. Mais até do que o Sean Ellis. A curva de retenção de coortes mais novas precisa estabilizar em um nível significativamente acima de zero, e se manter estável.
 
-Três padrões de curva, pelos quais você consegue diagnosticar em segundos o que está acontecendo. Curva que cai e continua caindo para zero — produto não tem retenção, não há PMF, o cliente entra, experimenta, vai embora, e não volta. Curva que cai e estabiliza em torno de trinta por cento — fit parcial, provavelmente em subsegmento, e o trabalho é encontrar o nicho onde estabiliza em nível mais alto. Curva que cai e estabiliza em torno de cinquenta por cento ou mais — forte indicador de PMF, e coortes recentes precisam replicar o padrão.
+Três padrões de curva, pelos quais você consegue diagnosticar em segundos o que está acontecendo. Curva que cai e continua caindo para zero — o produto não tem retenção, não há PMF, o cliente entra, experimenta, vai embora, e não volta. Curva que cai e estabiliza em torno de trinta por cento — fit parcial, provavelmente em subsegmento, e o trabalho é encontrar o nicho onde estabiliza em nível mais alto. Curva que cai e estabiliza em torno de cinquenta por cento ou mais — forte indicador de PMF, e coortes recentes precisam replicar o padrão.
 
 > [!important] A forma da curva importa mais que o número absoluto
 > Decaimento contínuo é morte. Estabilização horizontal é vida. Sem estabilização, não há PMF, por definição.
@@ -175,7 +175,7 @@ Benchmark de retenção estável esperada por tipo de negócio. SaaS B2B: quaren
 
 ##### Crescimento orgânico
 
-Se você desliga todo marketing pago hoje, ainda tem novos usuários amanhã? Via boca a boca, referência, SEO natural, mídia espontânea? Empresas com PMF conseguem atingir vinte por cento ou mais da aquisição total via canais orgânicos. Abaixo disso, a demanda não está puxando. Você está gerando por investimento financeiro.
+Se você desligar todo marketing pago hoje, ainda terá novos usuários amanhã? Via boca a boca, referência, SEO natural, mídia espontânea? Empresas com PMF conseguem atingir vinte por cento ou mais da aquisição total via organic growth (crescimento orgânico — sem pagar por anúncios). Abaixo disso, a demanda não está puxando. Você está gerando por investimento financeiro.
 
 ##### NPS elevado e consistente
 
@@ -183,15 +183,15 @@ NPS acima de cinquenta em amostra representativa, com comentários qualitativos 
 
 ##### Demanda puxando você
 
-Usuários entrando em contato pedindo features específicas. Mídia mencionando espontaneamente. Vendedores batendo meta sem dificuldade. Fundador sendo convidado para falar sobre o segmento em eventos e podcasts. Isso é feeling, mas é real. Quando todos esses sinais acontecem simultaneamente, o ambiente muda.
+Usuários entrando em contato pedindo funcionalidades específicas. Mídia mencionando espontaneamente. Vendedores batendo meta sem dificuldade. Fundador sendo convidado para falar sobre o segmento em eventos e podcasts. Isso é feeling, mas é real. Quando todos esses sinais acontecem simultaneamente, o ambiente muda.
 
 ##### Taxa de crescimento semanal, o benchmark canônico de Paul Graham
 
-Em ensaio de 2012, *Startup = Growth*, Paul Graham argumenta que o que define uma startup não é idade, tamanho, tecnologia, ou captação. É crescimento. E crescimento se mede honestamente, semana a semana, no que ele chama de taxa de crescimento semanal composta. É a métrica que o Y Combinator usa internamente para acompanhar batches inteiros. E a partir da qual toda decisão de expansão de investimento é tomada.
+Em ensaio de 2012, *Startup = Growth*, Paul Graham argumenta que o que define uma startup não é idade, tamanho, tecnologia, ou captação. É crescimento. Crescimento se mede semana a semana, no que ele chama de taxa de crescimento semanal composta. É a métrica que o Y Combinator usa internamente para acompanhar batches inteiros. E a partir dela toda decisão de expansão de investimento é tomada.
 
 A fórmula simples: taxa semanal é igual à receita da semana atual, menos a receita da semana anterior, dividido pela receita da semana anterior.
 
-Os benchmarks canônicos do YC. Referência para startup early-stage com MRR tipicamente entre R$ 25 mil e R$ 250 mil.
+Os benchmarks canônicos do YC. Referência para startup early-stage com MRR (Monthly Recurring Revenue — receita recorrente mensal) tipicamente entre R$ 25 mil e R$ 250 mil.
 
 | Taxa de crescimento semanal | Interpretação |
 |---|---|
@@ -199,12 +199,12 @@ Os benchmarks canônicos do YC. Referência para startup early-stage com MRR tip
 | **Cinco a sete por cento por semana** | Crescimento saudável. Padrão YC. Cerca de doze vezes ao ano. Indica PMF emergente, ou inicial. |
 | **Dez por cento por semana** | Excepcional. Cerca de cento e quarenta e duas vezes ao ano. Poucas startups atingem. Sinal inequívoco de forte PMF. |
 
-A métrica mais confiável para medir é receita. Quem paga, paga. Para startups sem monetização ainda, a métrica aproximada é usuários ativos (que correlaciona com receita futura quando monetização começar). Em B2B enterprise com contratos grandes e ciclos longos, suavize com média móvel de quatro a seis semanas. Pulsos individuais podem ser anomalias.
+A métrica mais confiável para medir é receita. Quem paga, paga. Para startups sem monetização ainda, a métrica aproximada é usuários ativos (que correlaciona com receita futura quando a monetização começar). Em B2B enterprise com contratos grandes e ciclos longos, suavize com média móvel de quatro a seis semanas. Pulsos individuais podem ser anomalias.
 
 > [!important] O poder da composição que quase todo fundador subestima
 > Uma startup faturando R$ 1.000 por mês. Crescendo a um por cento por semana, depois de quatro anos: R$ 7.900 por mês — pequena empresa. Crescendo a cinco por cento por semana, depois de quatro anos: R$ 25 milhões por mês — Série B. Crescendo a dez por cento por semana, depois de quatro anos: fora da escala de planilha (centenas de milhões por mês).
 
-Pequenas diferenças de taxa semanal produzem diferenças astronômicas em três a quatro anos. É por isso que Graham defende escolher uma meta de crescimento semanal e usá-la como critério único para quase toda decisão operacional. "Essa reunião me ajuda a crescer essa semana? Essa feature? Essa contratação?" A pergunta é reducionista de propósito. Em estágio pré-escala, reduzir tudo a uma variável é o que evita dispersão.
+Pequenas diferenças de taxa semanal produzem diferenças astronômicas em três a quatro anos. Por isso Graham defende escolher uma meta de crescimento semanal e usá-la como critério único para quase toda decisão operacional. "Essa reunião me ajuda a crescer essa semana? Essa feature? Essa contratação?" A pergunta é reducionista de propósito. Em estágio pré-escala, reduzir tudo a uma variável é o que evita dispersão.
 
 A curva S do crescimento. Na prática, crescimento não é linear nem exponencial eternamente. Segue uma curva S. Startup saudável tem três fases.
 
@@ -221,23 +221,23 @@ A razão pela qual startups entram no YC apostando em estar no início da fase 2
 > [!note] Insight conceitual, não passo operacional
 > Esta sub-seção é insight de mentalidade — explica *por que* a métrica semanal acima importa tanto matematicamente. Não é checklist nem critério de saída de fase. Se você está rodando Fase 12 sob pressão de tempo, leia o callout de regra combinada ao final e volte aqui depois. O conteúdo serve para calibrar expectativa e priorização de longo prazo, não para diagnosticar PMF agora.
 
-Graham tem um ensaio mais recente, de 2023, *Superlinear Returns*, que explica por que a diferença entre cinco por cento por semana e sete por cento por semana não é quarenta por cento maior. E sim muitos múltiplos maior. E por que essa matemática domina a economia de startups de uma forma que fundadores de primeira viagem quase nunca interiorizam.
+Graham tem um ensaio mais recente, de 2023, *Superlinear Returns*, que explica por que a diferença entre cinco por cento por semana e sete por cento por semana não é quarenta por cento maior — e sim muitos múltiplos maior. E por que essa matemática domina a economia de startups de uma forma que fundadores de primeira viagem quase nunca interiorizam.
 
-A tese central. Em domínios onde há crescimento exponencial, ou thresholds (limiares a serem cruzados), pequenas diferenças de performance geram retornos radicalmente desproporcionais. Não é que "quem trabalha mais ganha mais". É que a função de recompensa é não-linear por natureza.
+A tese central. Em domínios onde há crescimento exponencial, ou thresholds (limiares a serem cruzados), pequenas diferenças de performance geram retornos radicalmente desproporcionais. Não é que "quem trabalha mais ganha mais". A função de recompensa é não-linear por natureza.
 
 Duas fontes de superlinearidade.
 
-A primeira é o crescimento exponencial. Startups compostas por crescimento semanal viraram o exemplo canônico. Duas empresas com o mesmo produto partindo do mesmo ponto, uma crescendo cinco por cento por semana e a outra sete por cento por semana, terminam quatro anos depois em ordens de grandeza diferentes. Pequena vantagem compõe até ser enorme. Por isso, em startup, acúmulo lento de pequenas vantagens semanais vale mais que ganhos grandes isolados. O pequeno ganho compõe. O grande ganho não.
+A primeira é o crescimento exponencial. Startups compostas por crescimento semanal viraram o exemplo canônico. Duas empresas com o mesmo produto partindo do mesmo ponto — uma crescendo cinco por cento por semana e a outra sete por cento por semana — terminam quatro anos depois em ordens de grandeza diferentes. Pequena vantagem compõe até ser enorme. Por isso, em startup, acúmulo lento de pequenas vantagens semanais vale mais que ganhos grandes isolados. O pequeno ganho compõe. O grande ganho não.
 
-A segunda é thresholds, ou limiares. Muitos resultados em mercado são winner-take-all, ou winner-take-most. Você precisa cruzar um limiar para ganhar. E uma vez cruzado, ganha desproporcionalmente. Atingir top três da App Store versus top trinta não é dez vezes melhor. É provavelmente cem vezes melhor. Porque rankings, recomendações, prêmios, imprensa, capital, talento — tudo se empilha acima do threshold.
+A segunda são os thresholds (limiares). Muitos resultados em mercado são winner-take-all, ou winner-take-most. Você precisa cruzar um limiar para ganhar. E uma vez cruzado, ganha desproporcionalmente. Atingir top três da App Store versus top trinta não é dez vezes melhor. É provavelmente cem vezes melhor. Rankings, recomendações, prêmios, imprensa, capital, talento — tudo se empilha acima do threshold.
 
 Quatro consequências práticas da superlinearidade para você.
 
-A sua atenção semanal deve ir para o que compõe. Coisas que criam vantagem recorrente, mesmo que pequena. Boca a boca, SEO, conteúdo, retenção, NPS, ativação — todas compõem. Anúncio pago de performance não compõe. É linear.
+Direcione sua atenção semanal para o que compõe. Coisas que criam vantagem recorrente, mesmo que pequena. Boca a boca, SEO, conteúdo, retenção, NPS, ativação — todas compõem. Anúncio pago de performance não compõe. É linear.
 
 Em startup, é melhor estar continuamente no jogo do que fazer explosões episódicas. Explosão não compõe. Presença semanal compõe.
 
-Cuidado com thresholds relevantes no seu mercado. Muitos não são óbvios. Pode ser ficar em lista de top N da categoria. Ser mencionado em mídia específica. Atingir um múltiplo específico de receita para ser financiável no próximo estágio. Atingir volume que gera network effects. Mapeie os thresholds do seu jogo, e otimize para cruzá-los, não para "performance média".
+Mapeie os thresholds relevantes no seu mercado. Muitos não são óbvios. Pode ser ficar em lista de top N da categoria. Ser mencionado em mídia específica. Atingir um múltiplo específico de receita para ser financiável no próximo estágio. Atingir volume que gera network effects. Otimize para cruzá-los, não para "performance média".
 
 > [!quote] Sobre desigualdade de retornos em ambientes superlineares
 > Desigualdade de retornos não é injusta. É matemática. Ambientes com retornos superlineares produzem desigualdade extrema de resultado. Um fundador fica mil vezes mais rico que outro que trabalhou quase tão duro. Aceitar isso como característica do jogo, e não como falha moral do sistema, ajuda a agir sem ressentimento.
@@ -247,7 +247,7 @@ Cuidado com thresholds relevantes no seu mercado. Muitos não são óbvios. Pode
 
 #### Passo 2, identificar o segmento onde PMF aconteceu primeiro
 
-PMF raramente chega para toda a base ao mesmo tempo. Geralmente acontece primeiro em um sub-segmento específico — a sua beachhead, ou algo próximo. Identifique com precisão. Quem são esses usuários? Cargo, setor, tamanho de empresa, localização? O que eles têm em comum? Que problema específico os une? Como chegaram até você? Qual canal funcionou para esse grupo? Que casos de uso eles resolvem com o seu produto?
+PMF raramente chega para toda a base ao mesmo tempo. Geralmente acontece primeiro em um sub-segmento específico — a sua beachhead (cabeça de praia — ponto de entrada no mercado), ou algo próximo. Identifique com precisão: quem são esses usuários? Cargo, setor, tamanho de empresa, localização? O que eles têm em comum? Que problema específico os une? Como chegaram até você? Qual canal funcionou para esse grupo? Que casos de uso eles resolvem com o seu produto?
 
 Esse é o perfil que você deve expandir em ondas concêntricas.
 
@@ -258,17 +258,17 @@ Esse é o perfil que você deve expandir em ondas concêntricas.
 
 ##### Caminho A, PMF claro
 
-Prossiga para a [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]] (estruturação formal), e a [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (escala). Mas antes, reserve trinta a sessenta dias para estabilizar operações. A pior coisa que pode acontecer é escalar antes de o suporte, a infraestrutura, e o onboarding estarem prontos.
+Prossiga para a [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]] (estruturação formal), e a [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (escala). Mas antes, reserve trinta a sessenta dias para estabilizar operações. A pior coisa que pode acontecer é escalar antes de o suporte, a infraestrutura, e o onboarding (processo de entrada e orientação do novo usuário) estarem prontos.
 
 > [!tip] Apêndice CG — Growth como Função Organizacional
-> O [[apendice-cg|Apêndice CG — Growth como Função Organizacional]] cobre quando montar time de growth, como estruturar o primeiro squad (growth PM, eng, data), a diferença entre PLG e SLG em escala, e como não destruir PMF ao abrir o motor de crescimento.
+> O [[apendice-cg|Apêndice CG — Growth como Função Organizacional]] cobre quando montar time de growth, como estruturar o primeiro squad (growth PM, eng, data), a diferença entre PLG (Product-Led Growth — crescimento liderado pelo produto) e SLG (Sales-Led Growth — crescimento liderado por vendas) em escala, e como não destruir PMF ao abrir o motor de crescimento.
 
 > [!tip] Apêndice AB — Produto em Escala
-> O [[apendice-ab|Apêndice AB — Produto em Escala]] trata das mudanças de processo de produto que acontecem depois do PMF: roadmap orientado a segmento versus roadmap orientado a retenção, como priorizar com NRR em mente, e o momento em que o produto deixa de ser artesanal e precisa de plataforma.
+> O [[apendice-ab|Apêndice AB — Produto em Escala]] trata das mudanças de processo de produto que acontecem depois do PMF: roadmap orientado a segmento versus roadmap orientado a retenção, como priorizar com NRR (Net Revenue Retention — receita líquida retida, que mede expansão e churn juntos) em mente, e o momento em que o produto deixa de ser artesanal e precisa de plataforma.
 
 ##### Caminho B, PMF parcial
 
-Alguns usuários adoram. A maioria é indiferente. Foco no sub-segmento que adora. Mate features e mensagens voltadas para o grupo indiferente. Esclareça o posicionamento.
+Alguns usuários adoram. A maioria é indiferente. Foque no sub-segmento que adora. Elimine funcionalidades e mensagens voltadas para o grupo indiferente. Esclareça o posicionamento.
 
 > [!important] Resistência ao recorte é o erro
 > Fundadores frequentemente resistem a esse recorte porque parece "perder mercado". É o oposto. Você ganha profundidade e velocidade no nicho que vale.
@@ -282,9 +282,9 @@ Volte para as Fases 7 a 9. Reconsidere a solução. Talvez pivote para problema 
 
 #### Passo 4, documentar o "aha moment" e operacionalizar a ativação
 
-O "aha moment" é o ponto específico na jornada do usuário em que ele percebe o valor pela primeira vez. E a partir do qual a probabilidade de retenção cresce drasticamente. Exemplos clássicos. O Slack definiu como "duas mil mensagens enviadas dentro do time". O Facebook como "sete amigos adicionados em dez dias". O Notion como "criar segunda página no primeiro dia". Para a sua empresa, é trabalho de dados — quais ações, em qual prazo, correlacionam com retenção de trinta ou noventa dias?
+O "aha moment" é o ponto específico na jornada do usuário em que ele percebe o valor pela primeira vez, e a partir do qual a probabilidade de retenção cresce drasticamente. Exemplos clássicos: o Slack definiu como "duas mil mensagens enviadas dentro do time". O Facebook como "sete amigos adicionados em dez dias". O Notion como "criar segunda página no primeiro dia". Para a sua empresa, é trabalho de dados — quais ações, em qual prazo, correlacionam com retenção de trinta ou noventa dias?
 
-Depois que você identifica o aha moment, o trabalho é operacionalizar. Quantos usuários atingem? E em quanto tempo? Reestruture o onboarding para levar mais usuários ao aha em menos tempo. Essa é tipicamente a alavanca de maior impacto sobre retenção, antes mesmo de mudar produto.
+Depois que você identifica o aha moment, o trabalho é operacionalizá-lo. Quantos usuários atingem? E em quanto tempo? Reestruture o onboarding para levar mais usuários ao aha em menos tempo. Essa é tipicamente a alavanca de maior impacto sobre retenção, antes mesmo de mudar produto.
 
 O funil de ativação típico, em cinco estágios. Visitante para sign-up: conversão esperada de dois a dez por cento (varia muito por canal). Sign-up para onboarding completo: alvo sessenta por cento ou mais. Onboarding para aha moment: alvo cinquenta por cento ou mais. Aha para retorno: alvo setenta por cento ou mais no D7. Retorno para pago, ou expansion: alvo trinta por cento ou mais dos ativos.
 
@@ -315,7 +315,7 @@ Algumas observações específicas do contexto brasileiro, aplicáveis a fundado
 > [!note] O "NPS alto de brasileiro" é enganoso
 > A cultura brasileira tende a responder pesquisas de forma mais generosa que a americana. Por educação. Por evitar conflito. Por não querer criticar quem perguntou. Isso significa que um NPS de cinquenta no Brasil, especialmente em B2C, pode estar "inflado" em relação ao equivalente americano. Complementar com indicador comportamental (retenção) é obrigatório.
 
-Nichos brasileiros saturam rápido. O mercado brasileiro endereçável é, tipicamente, dez a vinte por cento do americano para o mesmo segmento. Consequência prática. PMF em subnicho brasileiro pode significar cem a quinhentos clientes. Não dez mil. Planeje crescimento com esse cap em mente. E pense em expansão (vertical, horizontal, geográfica) desde cedo.
+Nichos brasileiros saturam rápido. O mercado brasileiro endereçável é, tipicamente, dez a vinte por cento do americano para o mesmo segmento. Consequência prática: PMF em subnicho brasileiro pode significar cem a quinhentos clientes, não dez mil. Planeje crescimento com esse cap em mente. E pense em expansão (vertical, horizontal, geográfica) desde cedo.
 
 Crescimento orgânico no Brasil depende de cultura relacional. Boca a boca funciona muito no Brasil. Possivelmente mais que em mercados mais transacionais como o americano. Mas funciona melhor em redes pré-existentes. Associações de classe. Grupos de WhatsApp profissionais. Círculos de amizade. Famílias. Empresa que entende e alimenta essas redes atinge crescimento orgânico mais cedo.
 
@@ -349,7 +349,7 @@ Você tem crescimento sólido em uma cidade, bairro, ou segmento microvertical. 
 
 Isso não é PMF. É fit local.
 
-Frequentemente acontece em serviços regulados (saúde, educação), ou com forte dependência de rede local. É negócio legítimo. Mas exige estratégia diferente de uma máquina de PMF generalizado.
+Acontece com frequência em serviços regulados (saúde, educação), ou com forte dependência de rede local. É negócio legítimo. Mas exige estratégia diferente de uma máquina de PMF generalizado.
 
 ### Comunicar PMF a investidores
 
@@ -359,16 +359,16 @@ Gráfico de retenção por coorte, mostrando estabilização acima de threshold 
 
 Sean Ellis Test aplicado recentemente, com percentual e tamanho da amostra.
 
-Net Revenue Retention (NRR) em SaaS, com a trajetória dos últimos quatro a oito trimestres.
+NRR (Net Revenue Retention — quanto da receita de uma coorte permanece e cresce ao longo do tempo) em SaaS, com a trajetória dos últimos quatro a oito trimestres.
 
 Pipeline de indicação. Que percentual de novos clientes vem por referência?
 
-Cohort analysis de LTV dividido por CAC. Não apenas média. Mas curva por safra.
+Cohort analysis (análise de coorte — comparação de grupos de usuários que começaram no mesmo período) de LTV dividido por CAC. Não apenas média. Curva por safra.
 
 > [!note] Forecasting baseado em cohorts como prova de PMF
-> O [[apendice-eg|Apêndice EG — Revenue Forecasting]] mostra como transformar o cohort analysis em modelo de ARR waterfall — separando nova receita, expansão e churn por coorte — o que converte a curva de retenção em projeção financeira auditável para investidores.
+> O [[apendice-eg|Apêndice EG — Revenue Forecasting]] mostra como transformar o cohort analysis em modelo de ARR (Annual Recurring Revenue — receita recorrente anual) waterfall — separando nova receita, expansão e churn por coorte — o que converte a curva de retenção em projeção financeira auditável para investidores.
 
-Qualitative proof. Cinco a dez quotes de clientes, com permissão, sobre impacto concreto.
+Prova qualitativa. Cinco a dez depoimentos de clientes, com permissão, sobre impacto concreto.
 
 > [!warning] Founder que apresenta "temos PMF" sem esses artefatos
 > É founder que ainda não mediu PMF rigorosamente. Investidor calibrado percebe em cinco minutos.
@@ -407,7 +407,7 @@ Passando em 0-1: sem PMF. Volte para discovery. O problema mais provável: produ
 ### Métricas
 
 > [!tip] Apêndice C — Catálogo de Métricas
-> O [[apendice-c|Apêndice C — Catálogo de Métricas]] é a referência completa de definições e fórmulas para todas as métricas mencionadas nesta fase — DAU/MAU, retenção D30/D90, NPS, NRR, LTV/CAC, cohort LTV — com benchmarks por modelo de negócio e exemplos de como calcular a partir de dados reais.
+> O [[apendice-c|Apêndice C — Catálogo de Métricas]] é a referência completa de definições e fórmulas para todas as métricas mencionadas nesta fase — DAU/MAU (usuários ativos diários / mensais), retenção D30/D90, NPS, NRR, LTV/CAC, cohort LTV — com benchmarks por modelo de negócio e exemplos de como calcular a partir de dados reais.
 
 > [!tip] Apêndice AO — Dados e Analytics
 > O [[apendice-ao|Apêndice AO — Dados e Analytics]] cobre a stack de dados necessária para medir PMF com rigor: event tracking, data warehouse, cohort analysis automatizado e os dashboards que tornam o scorecard desta fase operacional — não uma planilha atualizada manualmente toda semana.
@@ -420,7 +420,7 @@ Crescimento orgânico. Vinte por cento ou mais dos novos usuários sem paid ads.
 
 NPS. Acima de cinquenta.
 
-Net Revenue Retention (SaaS). Cem por cento ou mais.
+NRR (SaaS). Cem por cento ou mais.
 
 > [!note] RevOps como infraestrutura de medição do PMF
 > O [[apendice-eh|Apêndice EH — Revenue Operations]] detalha como estruturar CRM, forecast de pipeline, handoffs entre times e cobertura de pipeline — o sistema operacional que torna NRR, churn e win rate mensuráveis de forma confiável, e não apenas calculados retroativamente.
@@ -437,7 +437,7 @@ Você atingiu PMF ([[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]]) quando, simultan
 4. Evidência de crescimento orgânico (indicação, boca a boca, inbound espontâneo) de vinte por cento ou mais da aquisição total.
 5. Churn mensal de cinco por cento ou menos, sustentado por dois ou mais meses consecutivos.
 6. Unit economics positivos. LTV dividido por CAC três ou mais. Payback abaixo de doze meses.
-7. Evidência qualitativa documentada. Quotes de usuários. Comportamento espontâneo. Indicações. O time percebe "pull do mercado" em vez de "push constante".
+7. Evidência qualitativa documentada. Depoimentos de usuários. Comportamento espontâneo. Indicações. O time percebe "pull do mercado" em vez de "push constante".
 8. Você consegue articular com precisão para quem o produto serve. E para quem *não* serve.
 9. Falsos positivos (aquisição sem retenção, cliente ancorado, fit local) foram investigados e descartados.
 
@@ -456,12 +456,12 @@ Você atingiu PMF ([[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]]) quando, simultan
 
 **Primeiros passos práticos.**
 
-1. Rodar Sean Ellis Test. Enviar uma pergunta aos usuários ativos. "Como você se sentiria se não pudesse mais usar o produto?" Três opções: muito decepcionado, um pouco, ou não me importaria. Alvo: quarenta por cento ou mais "muito decepcionados".
-2. Analisar retenção por coorte nos últimos noventa dias. Plotar retenção mês a mês. Identificar se a curva achata.
+1. Rodar Sean Ellis Test. Envie uma pergunta aos usuários ativos: "Como você se sentiria se não pudesse mais usar o produto?" Três opções: muito decepcionado, um pouco, ou não me importaria. Alvo: quarenta por cento ou mais "muito decepcionados".
+2. Analisar retenção por coorte nos últimos noventa dias. Plote a retenção mês a mês. Identifique se a curva achata.
 3. Conversar com cinco dos clientes mais engajados. O que especificamente faz o produto insubstituível?
 4. Conversar com dois ou três que churnaram recentemente. O que faltou?
 5. Calcular unit economics das coortes dos últimos seis meses.
-6. Listar últimos vinte novos clientes, e classificar a origem (orgânico, indicação, pago, ou rede do fundador).
+6. Listar os últimos vinte novos clientes, e classificar a origem (orgânico, indicação, pago, ou rede do fundador).
 
 ### EXEMPLO PRÁTICO
 
@@ -536,27 +536,27 @@ Esperar PMF "cair" sem iteração. PMF é construído, não encontrado. Se há s
 
 Product-Market Fit exige medir o que importa, e priorizar com rigor. Detalhamento no [[#APÊNDICE BG — FERRAMENTÁRIO COMPLETO DO EMPREENDEDOR|Apêndice BG]] (Ferramentário Completo). Onze ferramentas centrais.
 
-Jobs to Be Done Framework (Christensen, Moesta, Ulwick). Framework analítico. Jobs funcionais, mais emocionais, mais sociais. Importância vezes satisfação. Identifica onde o produto cria valor real versus esforço desperdiçado. Ver BG.11.1.
+Jobs to Be Done Framework (Christensen, Moesta, Ulwick). Framework que mapeia o "trabalho" que o cliente tenta realizar — funcional, emocional e social — cruzando importância com satisfação atual. Identifica onde o produto cria valor real versus esforço desperdiçado. Ver BG.11.1.
 
-Kano Model (Noriaki Kano, 1984). Classifica features em Basic, Performance, Excitement, Indifferent, Reverse. Útil para priorizar roadmap pós-PMF. Ver BG.11.2.
+Kano Model (Noriaki Kano, 1984). Classifica funcionalidades em Basic, Performance, Excitement, Indifferent, Reverse para orientar o que priorizar no roadmap pós-PMF. Ver BG.11.2.
 
-RICE Scoring (Intercom). Reach vezes Impact vezes Confidence, dividido por Effort. Priorização pragmática de backlog. Ver BG.11.3.
+RICE Scoring (Intercom). Método de priorização de backlog que cruza Reach (alcance), Impact (impacto), Confidence (confiança) e Effort (esforço). Ver BG.11.3.
 
-ICE Scoring (Sean Ellis). Impact vezes Confidence vezes Ease. Mais simples que RICE. Popular em growth. Ver BG.11.4.
+ICE Scoring (Sean Ellis). Versão simplificada do RICE, cruzando Impact, Confidence e Ease. Popular em growth. Ver BG.11.4.
 
-North Star Framework (Amplitude, Sean Ellis). Métrica única que captura valor para o cliente, mais input metrics, mais key results. Ver BG.11.5.
+North Star Framework (Amplitude, Sean Ellis). Método centrado na North Star Metric (métrica estrela-guia — o único número que resume o valor entregue ao cliente), combinada com input metrics e key results. Ver BG.11.5.
 
-HEART Framework (Google). Cinco dimensões de UX. Happiness, Engagement, Adoption, Retention, Task Success. Processo GSM (Goals, Signals, Metrics). Ver BG.11.6.
+HEART Framework (Google). Cinco dimensões de UX — Happiness, Engagement, Adoption, Retention, Task Success — com processo GSM (Goals, Signals, Metrics) para operacionalizá-las. Ver BG.11.6.
 
-Customer Journey Mapping. Para otimização pós-PMF, mapear a jornada atual e identificar moments of truth onde investir. Ver BG.9.6.
+Customer Journey Mapping. Para otimização pós-PMF, mapeia a jornada atual e identifica moments of truth onde investir. Ver BG.9.6.
 
 Personas (Cooper). Base para decisões de segmentação pós-PMF. Ver BG.9.4.
 
-Continuous Discovery Habits (Torres). Ritual de pesquisa contínua. Ver BG.10.1.
+Continuous Discovery Habits (Torres). Ritual de pesquisa contínua com o cliente para manter o produto alinhado ao mercado. Ver BG.10.1.
 
-Dual-Track Agile (Cagan). Estrutura operacional de descoberta mais entrega. Ver BG.10.9.
+Dual-Track Agile (Cagan). Estrutura operacional que roda descoberta e entrega em paralelo. Ver BG.10.9.
 
-Thematic Analysis (Braun, Clarke). Para síntese contínua de feedback de usuários. Ver BG.9.2.
+Thematic Analysis (Braun, Clarke). Método de síntese contínua de feedback de usuários. Ver BG.9.2.
 
 ---
 
@@ -570,12 +570,12 @@ PMF é declarado cedo demais em muitas empresas. Esse exercício ajuda a separar
 
 **Teste 3, referência orgânica (verificar dados).** Mínimo de quinze a vinte e cinco por cento dos novos clientes vêm por indicação espontânea, ou busca orgânica pelo nome da empresa. Se cem por cento dos novos clientes precisam ser empurrados por ads ou outbound, o mercado não está puxando. Você está empurrando.
 
-**Teste 4, a sua própria ansiedade (honestamente).** Se você para de fazer marketing por trinta dias, o que acontece com a receita recorrente? Cai mais de vinte por cento? Não há PMF. Há inércia sustentada por aquisição paga. Cai menos de dez por cento? O produto está retendo. Entre dez e vinte por cento? Zona cinzenta. Investigue cohort a cohort.
+**Teste 4, a sua própria ansiedade (honestamente).** Se você parar de fazer marketing por trinta dias, o que acontece com a receita recorrente? Cai mais de vinte por cento? Não há PMF. Há inércia sustentada por aquisição paga. Cai menos de dez por cento? O produto está retendo. Entre dez e vinte por cento? Zona cinzenta. Investigue cohort a cohort.
 
 **Síntese.** Para declarar PMF: Sean Ellis de quarenta por cento ou mais, *e* curva de retenção estabilizada, *e* quinze por cento ou mais de novos clientes orgânicos, *e* retenção de receita recorrente sem push. Três de quatro é PMF parcial (em algum segmento). Quatro de quatro é PMF. Nenhum, ou um, é pré-PMF. Continue buscando.
 
 > [!warning] Armadilha do PMF de nicho
-> Ter PMF em um segmento pequeno não significa PMF no mercado. Um nicho de cem clientes pagantes muito satisfeitos é wedge (oportunidade). Não é PMF escalável ainda.
+> Ter PMF em um segmento pequeno não significa PMF no mercado. Um nicho de cem clientes pagantes muito satisfeitos é wedge (oportunidade de entrada no mercado). Não é PMF escalável ainda.
 
 ---
 

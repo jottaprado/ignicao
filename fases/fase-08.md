@@ -10,7 +10,7 @@ part: parte-i
 
 ### O que esse apêndice cobre
 
-Geração, avaliação, e prototipagem de diferentes soluções possíveis para o problema validado. Aqui você não constrói um produto real. Constrói representações: prototipagem em papel, protótipos clicáveis, mockups, storyboards. Para testar a desejabilidade da solução antes de investir em construção.
+Geração, avaliação e prototipagem de diferentes soluções possíveis para o problema validado. Aqui você não constrói um produto real. Constrói representações: prototipagem em papel, protótipos clicáveis, mockups (telas estáticas de alta fidelidade), storyboards (sequências visuais mostrando o uso em contexto). Para testar a desejabilidade da solução antes de investir em construção.
 
 O entregável é um Dossiê de Solução. Contém três a cinco conceitos de solução avaliados, pelo menos um protótipo interativo, e a recomendação de qual caminho seguir.
 
@@ -69,9 +69,9 @@ flowchart LR
 
 Não se limite ao que você imaginou. Faça sessões de brainstorm estruturadas. Sozinho ou com duas a três pessoas. Quatro técnicas úteis.
 
-Crazy 8s. Oito ideias de solução em oito minutos. Uma por minuto. Força quantidade sobre qualidade.
+Crazy 8s (oito ideias em oito minutos, uma por minuto). Força quantidade sobre qualidade.
 
-How Might We (como poderíamos?). Reformule o *job to be done* em três a cinco perguntas abertas. Por exemplo: "Como poderíamos ajudar o dono de restaurante a encerrar o dia sem preocupação?"
+How Might We, "como poderíamos?". Reformule o *job to be done* em três a cinco perguntas abertas. Por exemplo: "Como poderíamos ajudar o dono de restaurante a encerrar o dia sem preocupação?"
 
 Extremos. E se a solução fosse super-premium (R$ 5.000 por mês)? E se fosse de graça? E se fosse física? E se fosse humana (serviço)?
 
@@ -90,7 +90,7 @@ Viabilidade. Você consegue entregar? Capacidades técnicas, financeiras, regula
 
 Sustentabilidade. O modelo econômico fecha? Preço viável, custo viável, margem razoável.
 
-Dê nota de um a cinco em cada dimensão. Multiplique. Selecione os três a cinco conceitos com maior score.
+Dê nota de um a cinco em cada dimensão. Multiplique. Selecione os três a cinco conceitos com maior pontuação.
 
 > [!note] DVS e matriz Impacto-Esforço são complementares
 > A avaliação por Desejabilidade, Viabilidade, e Sustentabilidade (DVS) é qualitativa. Útil para reduzir trinta ideias para cinco. Já a matriz Impacto vezes Esforço (que aparece no exemplo prático mais adiante) é visual. Útil para priorizar quais protótipos rodar primeiro entre os finalistas. Use as duas em sequência. Primeiro DVS para filtrar. Depois Impacto-Esforço para ordenar.
@@ -112,7 +112,7 @@ Sequência de seis a doze quadros mostrando a pessoa usando a solução em conte
 
 ##### Wireframes em papel ou ferramenta
 
-Esboços de telas. Útil para validar arquitetura de informação.
+Wireframes (esboços de tela que mostram estrutura sem detalhes visuais) são úteis para validar arquitetura de informação.
 
 ##### Mockups de alta fidelidade
 
@@ -128,7 +128,7 @@ Vídeo explicando a solução como se ela existisse. Excelente para testar com p
 
 ##### Protótipo de serviço (service blueprint)
 
-Para negócios de serviço. Mapeie touchpoints, atores, sistemas, e tempo.
+Para negócios de serviço. Mapeie touchpoints (pontos de contato entre cliente e serviço), atores, sistemas, e tempo.
 
 > [!tip] Para a maioria dos casos no início, protótipo clicável em Figma
 > É o melhor custo-benefício. Permite testar fluxo real de navegação, sem precisar de código. Designer freelancer faz em dois ou três dias.
@@ -148,7 +148,7 @@ Pensar em voz alta. Peça que verbalize o que está pensando enquanto navega.
 Perguntas pós-teste (dez minutos). O que foi intuitivo? O que foi confuso? Usaria? Pagaria? Quanto?
 
 > [!note] Apêndice DT — Customer Experience
-> O protótipo é o primeiro contato do usuário com a experiência do produto. O [[apendice-dt|Apêndice DT — Customer Experience]] cobre como estruturar o onboarding desde o protótipo — o que o usuário precisa entender e sentir nos primeiros minutos determina retenção futura. Use os princípios de onboarding do DT para guiar quais tarefas incluir no roteiro de teste.
+> O protótipo é o primeiro contato do usuário com a experiência do produto. O [[apendice-dt|Apêndice DT — Customer Experience]] cobre como estruturar o onboarding (processo de ativação do novo usuário) desde o protótipo — o que o usuário precisa entender e sentir nos primeiros minutos determina retenção futura. Use os princípios de onboarding do DT para guiar quais tarefas incluir no roteiro de teste.
 
 #### Passo 6, teste com 8 a 12 usuários do ICP
 
@@ -182,7 +182,7 @@ Número de testes de protótipo realizados. Alvo: oito a doze.
 
 Taxa de conclusão de tarefas sem ajuda. Mais de setenta por cento indica boa clareza do fluxo.
 
-Tempo médio para completar tarefa-chave. Meça e compare com a expectativa pré-teste. Sinal de atrito se a execução real excede a expectativa em cinquenta por cento ou mais. O conceito tem problema de fluxo que o MVP vai herdar se não corrigir.
+Tempo médio para completar tarefa-chave. Meça e compare com a expectativa pré-teste. Se a execução real exceder a expectativa em cinquenta por cento ou mais, o conceito tem problema de fluxo que o MVP vai herdar se não corrigir.
 
 Indicação de intenção de uso depois de ver o protótipo. Mais de cinquenta por cento dos testados demonstrando intenção real é sinal bom.
 
@@ -196,9 +196,9 @@ Indicação de disposição a pagar depois de ver o protótipo. Pergunte via "qu
 Você concluiu a [[#FASE 8 — IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES|Fase 8]] quando os seis critérios abaixo estão cumpridos.
 
 1. Você gerou dez ou mais ideias em sessão de divergência documentada (não prendeu-se à primeira ideia).
-2. Matriz Impacto vezes Esforço foi aplicada com classificação clara.
+2. Você aplicou a Matriz Impacto vezes Esforço com classificação clara.
 3. Dois ou mais protótipos low-fi (papel ou Figma) estão prontos, resolvendo o *job* central identificado na [[#FASE 4 — PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY APROFUNDADO)|Fase 4]]. Não features periféricas.
-4. Cinco ou mais testes com usuários ICP foram realizados e documentados (idealmente oito ou mais usuários para confiança maior).
+4. Você realizou e documentou cinco ou mais testes com usuários do ICP (idealmente oito ou mais para confiança maior).
 5. Insights qualitativos claros emergem. Não só "gostaram". Padrões de uso e reação estão documentados.
 6. Você decidiu qual conceito levar para MVP, com justificativa escrita. E tem lista clara do que é essencial versus postergável.
 
@@ -304,17 +304,17 @@ Google Design Sprint (Jake Knapp, 2016). Processo de cinco dias para ir de probl
 
 Working Backwards e PR-FAQ (Amazon). Escrever press release final do produto, mais FAQ, antes de construir. Força clareza sobre valor, cliente, e narrativa. Use antes de lançamento de feature ou produto significativo. Ver BG.10.6.
 
-Opportunity Solution Tree (Teresa Torres). Ferramenta visual conectando outcome, oportunidades (dores do cliente), soluções, e experimentos. Use para mapear o espaço de soluções antes de priorizar. Ver BG.10.2.
+Opportunity Solution Tree (Teresa Torres). Ferramenta visual que conecta resultado desejado, oportunidades de melhoria (dores do cliente), soluções e experimentos em uma árvore. Use para mapear o espaço de soluções antes de priorizar. Ver BG.10.2.
 
-Continuous Discovery Habits (Teresa Torres, 2021). Framework de descoberta contínua. Entrevistas semanais, mais OST, mais assumption testing. Use quando o time de produto quer estabelecer ritmo de aprendizado contínuo. Ver BG.10.1.
+Continuous Discovery Habits (Teresa Torres, 2021). Método de descoberta contínua baseado em entrevistas semanais com usuários, mapeamento de oportunidades e testes de premissas. Use quando o time de produto quer estabelecer ritmo de aprendizado contínuo. Ver BG.10.1.
 
-Dual-Track Agile (Marty Cagan). Dois tracks paralelos: Discovery (validar) e Delivery (construir). Use em times maiores (sete ou mais), onde há capacidade de paralelismo. Ver BG.10.9.
+Dual-Track Agile (Marty Cagan). Dois trilhos paralelos: Discovery (validar o que construir) e Delivery (construir o que foi validado). Use em times maiores (sete ou mais), onde há capacidade de paralelismo. Ver BG.10.9.
 
-Personas (Alan Cooper, 1998). Representações fictícias mas baseadas em dados, de segmentos de usuários. Para ideação, personas ajudam a manter foco. Use depois de pesquisa qualitativa da [[#FASE 7 — EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA|Fase 7]]. Personas são síntese dos dados. Ver BG.9.4.
+Personas (Alan Cooper, 1998). Representações fictícias mas baseadas em dados de segmentos de usuários. Para ideação, personas ajudam a manter foco. Use depois de pesquisa qualitativa da [[#FASE 7 — EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA|Fase 7]]. Personas são síntese dos dados. Ver BG.9.4.
 
-Customer Journey Mapping. Visualização da jornada do cliente em momentos, emoções, e touchpoints. Use antes de ideação, para localizar oportunidades por fase. Ver BG.9.6.
+Customer Journey Mapping (mapa da jornada do cliente). Visualização da jornada do cliente em momentos, emoções e pontos de contato. Use antes de ideação, para localizar oportunidades por fase. Ver BG.9.6.
 
-Service Blueprinting (Shostack, 1984). Mapa detalhado do serviço completo. Frontstage, backstage, e sistemas. Use em produtos com componente de serviço significativo. Ver BG.9.7.
+Service Blueprinting (Shostack, 1984). Mapa detalhado do serviço completo: o que o cliente vê, o que acontece nos bastidores, e os sistemas envolvidos. Use em produtos com componente de serviço significativo. Ver BG.9.7.
 
 ---
 
@@ -322,7 +322,7 @@ Service Blueprinting (Shostack, 1984). Mapa detalhado do serviço completo. Fron
 
 O entregável desta fase é o Dossiê de Solução. Três a cinco conceitos avaliados em Desejabilidade, Viabilidade e Sustentabilidade; pelo menos um protótipo interativo testado com oito ou mais usuários; e recomendação escrita de qual caminho seguir. Quem economiza no protótipo descobre os mesmos problemas na construção — em momento mais doloroso e caro de corrigir.
 
-Esse dossiê é o insumo da [[#FASE 9 — TESTES DE SOLUÇÃO E USABILIDADE|Fase 9]], onde o conceito escolhido passa por testes de usabilidade estruturados e se converte em Especificação do MVP. Quem chega à [[#FASE 9 — TESTES DE SOLUÇÃO E USABILIDADE|Fase 9]] sem ter explorado alternativas e sem ter testado protótipo entra na especificação com hipótese implícita não-validada — o que aumenta a probabilidade de retrabalho radical na [[#FASE 10 — MVP E EXPERIMENTOS DE MERCADO|Fase 10]].
+Esse dossiê é o insumo da [[#FASE 9 — TESTES DE SOLUÇÃO E USABILIDADE|Fase 9]], onde o conceito escolhido passa por testes de usabilidade estruturados e se converte em Especificação do MVP. Quem chega à [[#FASE 9 — TESTES DE SOLUÇÃO E USABILIDADE|Fase 9]] sem ter explorado alternativas e sem ter testado protótipo entra na especificação com hipótese implícita não testada. Isso aumenta a chance de retrabalho radical na [[#FASE 10 — MVP E EXPERIMENTOS DE MERCADO|Fase 10]].
 
 # fase8 #ideacao #prototipagem #design-thinking #crazy-8s #wireframe #figma #protótipo-clicavel #service-blueprint
 

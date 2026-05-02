@@ -10,16 +10,16 @@ part: parte-i
 Tirar a ideia da cabeça e colocá-la em formato escrito, estruturado, comunicável. O entregável é um documento chamado Declaração Inicial da Ideia. Uma página única que articula cinco coisas. O problema percebido. Quem sofre esse problema. A solução imaginada. Por que você acha que funciona. E tudo o que você não sabe sobre a ideia. A lista de incertezas.
 
 > [!note] Esta fase não é para validar
-> Esta fase não é para validar a ideia. É apenas para capturá-la com precisão. Muitos empreendedores "têm uma ideia" há meses, mas nunca a escreveram. Quando tentam escrever, descobrem que havia três ideias misturadas, ou que não sabem explicar o problema, ou que a ideia era só um sentimento vago.
+> Esta fase não é para confirmar se a ideia funciona. É apenas para capturá-la com precisão. Muitos empreendedores "têm uma ideia" há meses, mas nunca a escreveram. Quando tentam escrever, descobrem que havia três ideias misturadas, ou que não sabem explicar o problema, ou que a ideia era só um sentimento vago.
 
 ### POR QUE
 
-Tudo o que você não escreve não existe operacionalmente. A articulação força clareza. Clareza revela lacunas. Lacunas são o material de trabalho das próximas fases. Sem esta fase, você entra no processo de validação sem saber exatamente o que está validando, e acaba validando uma versão confusa e movediça da ideia. Pior do que não validar.
+Tudo o que você não escreve não existe operacionalmente. A articulação força clareza. Clareza revela lacunas. Lacunas são o material de trabalho das próximas fases. Sem esta fase, você entra no processo de confirmação sem saber exatamente o que está testando, e acaba testando uma versão confusa e movediça da ideia. Pior do que não testar.
 
-Ao listar explicitamente o que você não sabe, você cria a agenda de trabalho das Fases 2 a 6 — cada incerteza vira hipótese falsificável nas Fases 6 e 7.
+Ao listar explicitamente o que você não sabe, você cria a agenda de trabalho das Fases 2 a 6 — cada incerteza vira uma suposição a testar nas Fases 6 e 7.
 
 > [!note] Apêndice F — Abordagem Científica vs Lean Startup
-> A lista de incertezas desta fase é o ponto de partida para o ciclo científico de validação que atravessa o livro. O [[#APÊNDICE F — ABORDAGEM CIENTÍFICA VERSUS LEAN STARTUP|Apêndice F]] explica a diferença entre a mentalidade de hipótese falsificável (experimental) e o Lean Startup como método prático — contexto útil para quem entra nesta fase sem clareza sobre o que "validar uma ideia" significa operacionalmente.
+> A lista de incertezas desta fase é o ponto de partida para o ciclo científico de confirmação que atravessa o livro. O [[#APÊNDICE F — ABORDAGEM CIENTÍFICA VERSUS LEAN STARTUP|Apêndice F]] explica a diferença entre a mentalidade de suposição testável (experimental) e o Lean Startup como método prático — contexto útil para quem entra nesta fase sem clareza sobre o que "validar uma ideia" significa na prática.
 
 ### Quando usar
 
@@ -32,7 +32,7 @@ O executor principal é você. Os participantes são três a cinco pessoas que v
 ### Como executar
 
 > [!tip] Canvas como ferramenta complementar de articulação
-> A Declaração Inicial da Ideia (entregável desta fase) é um documento textual de uma página. Para empreendedores que pensam visualmente, dois canvases complementam a articulação: o [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Lean Canvas (CZ.2)]] força mapear o modelo de negócio em nove blocos com foco em hipóteses falsificáveis (Problema, Solução, Métricas, Vantagem Injusta) — apropriado para o estágio pré-PMF que esta fase inicia. Empreendedores em contextos mais maduros ou que querem visão de conjunto podem usar o [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Business Model Canvas (CZ.1)]]. Os dois são opcionais — a DII textual é o entregável obrigatório.
+> A Declaração Inicial da Ideia (entregável desta fase) é um documento textual de uma página. Para empreendedores que pensam visualmente, dois canvases complementam a articulação: o [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Lean Canvas (CZ.2)]] força mapear o modelo de negócio em nove blocos com foco em suposições testáveis (Problema, Solução, Métricas, Vantagem Injusta) — adequado para o estágio pré-PMF que esta fase inicia. Empreendedores em contextos mais maduros ou que querem visão de conjunto podem usar o [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Business Model Canvas (CZ.1)]]. Os dois são opcionais — a DII textual é o entregável obrigatório.
 
 Sete passos em sequência.
 
@@ -68,11 +68,11 @@ O terceiro é a segunda passagem, estruturando em cinco blocos:
 
 - **Bloco 3, Dor atual.** Como essa pessoa resolve o problema hoje? Toda pessoa com problema real tem alguma solução hoje, mesmo que ruim. Planilhas, WhatsApp, intuição, ignorar o problema. Descreva a alternativa atual em detalhe. Se você não sabe, isso é a sua primeira incerteza crítica.
 
-- **Bloco 4, Solução imaginada.** O que você quer construir? Descreva em termos de capacidades, não de features. "Um app" não é capacidade. "Uma forma de dar baixa automática em pagamentos de fornecedores a partir do extrato bancário" é capacidade.
+- **Bloco 4, Solução imaginada.** O que você quer construir? Descreva em termos de capacidades, não de funcionalidades específicas. "Um app" não é capacidade. "Uma forma de dar baixa automática em pagamentos de fornecedores a partir do extrato bancário" é capacidade.
 
-- **Bloco 5, Razão de acreditar.** Por que você acha que essa ideia tem mérito? Liste três a cinco razões. Cada razão é uma hipótese que você precisará testar. Seja cético consigo mesmo.
+- **Bloco 5, Razão de acreditar.** Por que você acha que essa ideia tem mérito? Liste três a cinco razões. Cada razão é uma suposição que você precisará testar. Seja cético consigo mesmo.
 
-O quarto passo é listar as suas incertezas. Esse passo é o mais importante. Escreva dez a vinte coisas que você não sabe sobre a ideia. Por exemplo: "não sei se donos de restaurante percebem esse problema como prioridade ou como dor de fundo"; "não sei se pagariam mais de R$ 200 por mês por isso"; "não sei se existem concorrentes específicos para esse nicho"; "não sei qual o tamanho do mercado brasileiro"; "não sei se a regulamentação permite o que estou pensando". Essa lista é ouro. Vai virar as hipóteses da [[#FASE 6 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 6]] e os experimentos da [[#FASE 7 — EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA|Fase 7]].
+O quarto passo é listar as suas incertezas. Esse passo é o mais importante. Escreva dez a vinte coisas que você não sabe sobre a ideia. Por exemplo: "não sei se donos de restaurante percebem esse problema como prioridade ou como dor de fundo"; "não sei se pagariam mais de R$ 200 por mês por isso"; "não sei se existem concorrentes específicos para esse nicho"; "não sei qual o tamanho do mercado brasileiro"; "não sei se a regulamentação permite o que estou pensando". Essa lista é ouro. Vai virar as suposições da [[#FASE 6 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 6]] e os experimentos da [[#FASE 7 — EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA|Fase 7]].
 
 O quinto é condensar tudo em uma página só. Use este template (versão formatada no [[#APÊNDICE A — TEMPLATES PRONTOS PARA USO|Apêndice A]]).
 
@@ -95,7 +95,7 @@ Versão: 1
 O sexto é teste de articulação verbal. Apresente a ideia verbalmente para três a cinco pessoas fora do seu contexto. Não amigos próximos nem família. Peça três coisas. Que repitam a ideia com as próprias palavras. Que apontem o que ficou confuso. Que perguntem o que não entenderam. Se as repetições são muito diferentes do que você quis dizer, a sua articulação está ruim. Reescreva.
 
 > [!note] Apresentar a ideia em noventa segundos é habilidade treinável, não talento
-> O [[apendice-ex|Apêndice EX — Apresentação e Fala em Público]] cobre estrutura de pitch curto, controle de ansiedade e técnicas de ensaio. O teste verbal desta fase é a primeira versão do pitch que você vai repetir centenas de vezes nas fases seguintes — vale preparar com método desde agora.
+> O [[apendice-ex|Apêndice EX — Apresentação e Fala em Público]] cobre estrutura de pitch (apresentação do negócio) curto, controle de ansiedade e técnicas de ensaio. O teste verbal desta fase é a primeira versão do pitch que você vai repetir centenas de vezes nas fases seguintes — vale preparar com método desde agora.
 
 O sétimo é arquivar a versão v1. Mantenha para comparar depois. A ideia vai mudar. Observar a evolução é educativo.
 
@@ -104,7 +104,7 @@ O sétimo é arquivar a versão v1. Mantenha para comparar depois. A ideia vai m
 - Eu consigo descrever o problema sem mencionar a minha solução?
 - O meu cliente-alvo está descrito de forma específica o suficiente para eu conseguir encontrá-lo na vida real?
 - Eu consigo descrever como o cliente resolve o problema hoje?
-- A minha solução está descrita em termos de capacidade (o que ela faz) e não de features (como ela faz)?
+- A minha solução está descrita em termos de capacidade (o que ela faz) e não de funcionalidades específicas (como ela faz)?
 - Eu consigo listar dez ou mais coisas que não sei sobre a ideia?
 - Pessoas fora do meu círculo conseguem repetir a minha ideia com precisão depois de eu explicar uma vez?
 
@@ -167,7 +167,7 @@ Solução proposta: App mobile e web que, conectado a três a cinco fornecedores
 
 Por que pode funcionar: PIX e open finance viabilizaram integração com fornecedores que não existia há três anos. Padarias artesanais cresceram vinte e oito por cento no Brasil de 2020 a 2024, com nova geração de donos usando celular como ferramenta de gestão. O problema de ruptura é documentado, recorrente e diretamente mensurável em margem perdida. O fundador tem contatos diretos em três distribuidoras de farinha e conhece o fluxo operacional de dentro.
 
-O que eu não sei: Se donos usam app diretamente ou delegam ao gerente de produção. Se os principais fornecedores aceitam integração por API. Se R$ 290 a R$ 490 por mês é percebido como investimento com retorno claro ou como mais um custo fixo. Quantas padarias com esse perfil existem fora de São Paulo. Se há concorrentes regionais que desconheço. Se a decisão de compra é do dono ou do padeiro-chefe. Se o modelo funciona para padarias que produzem para revenda. Qual o churn esperado no primeiro ano. Se o onboarding precisa ser presencial para funcionar. Quais fornecedores têm API disponível ou aceitariam desenvolver integração.
+O que eu não sei: Se donos usam app diretamente ou delegam ao gerente de produção. Se os principais fornecedores aceitam integração por API. Se R$ 290 a R$ 490 por mês é percebido como investimento com retorno claro ou como mais um custo fixo. Quantas padarias com esse perfil existem fora de São Paulo. Se há concorrentes regionais que desconheço. Se a decisão de compra é do dono ou do padeiro-chefe. Se o modelo funciona para padarias que produzem para revenda. Qual o churn (taxa de cancelamento de clientes) esperado no primeiro ano. Se o onboarding (processo de entrada de novos clientes) precisa ser presencial para funcionar. Quais fornecedores têm API disponível ou aceitariam desenvolver integração.
 
 Data: 2026-05-01
 Versão: 1
@@ -186,19 +186,19 @@ Alternativa atual: Consumidor guarda cardápios de papel em gaveta, liga direto 
 
 Solução proposta: Plataforma que agrega cardápios digitais, processa pedidos por app e web, e coordena entrega via rede de motoboys terceirizados. Restaurante recebe pedido em tablet. Consumidor paga com cartão e acompanha status. Modelo de comissão sobre o pedido, sem mensalidade para o restaurante. Cobertura inicial: zona oeste e zona sul de São Paulo.
 
-Por que pode funcionar: Penetração de smartphone em classes A e B passou de dez para trinta e cinco por cento entre 2009 e 2011. Modelo equivalente já comprovado em outros mercados (Just Eat no Reino Unido, Grubhub nos EUA). Nenhum incumbente brasileiro opera o serviço em escala. Pagamento por cartão cresce com e-commerce. Restaurantes têm problema de capacidade documentado no horário de pico.
+Por que pode funcionar: Penetração de smartphone em classes A e B passou de dez para trinta e cinco por cento entre 2009 e 2011. Modelo equivalente já comprovado em outros mercados (Just Eat no Reino Unido, Grubhub nos EUA). Nenhum concorrente brasileiro operava o serviço em escala. Pagamento por cartão cresce com e-commerce. Restaurantes têm problema de capacidade documentado no horário de pico.
 
-O que eu não sei: Se restaurantes pequenos topam comissão de dez a quinze por cento dada a margem operacional apertada. Se o consumidor brasileiro aceita pagar com cartão em entrega a domicílio. Se motoboys terceirizados conseguem entregar em quarenta e cinco minutos ou menos de forma consistente. Se restaurantes aceitam mudar o processo de recebimento de pedidos para incluir um tablet. Qual o CAC real para adquirir restaurantes na fase de lançamento. Se os dois lados do marketplace se equilibram na mesma região ao mesmo tempo. Se restaurantes vão exigir exclusividade. Se delivery de comida tem sazonalidade semanal forte o suficiente para criar problema de escala de motoboys. Quais bairros têm densidade suficiente para o primeiro piloto. Se a comissão sustenta o modelo econômico com o custo real do motoboy em São Paulo.
+O que eu não sei: Se restaurantes pequenos topam comissão de dez a quinze por cento dada a margem operacional apertada. Se o consumidor brasileiro aceita pagar com cartão em entrega a domicílio. Se motoboys terceirizados conseguem entregar em quarenta e cinco minutos ou menos de forma consistente. Se restaurantes aceitam mudar o processo de recebimento de pedidos para incluir um tablet. Qual o CAC (custo de aquisição de cliente) real para adquirir restaurantes na fase de lançamento. Se os dois lados do marketplace (plataforma que conecta dois grupos, como consumidores e restaurantes) se equilibram na mesma região ao mesmo tempo. Se restaurantes vão exigir exclusividade. Se delivery de comida tem sazonalidade semanal forte o suficiente para criar problema de escala de motoboys. Quais bairros têm densidade suficiente para o primeiro piloto. Se a comissão sustenta o modelo econômico com o custo real do motoboy em São Paulo.
 
 Data: 2011 (reconstituída)
 Versão: 1
 
-Comparando os dois casos: PadariaPro mira B2B em nicho profundo (vertical artesanal, cerca de dois mil e quinhentas padarias-alvo no Brasil). iFood mira marketplace bilateral em mercado de massa (milhões de consumidores, dezenas de milhares de restaurantes). Os instrumentos são os mesmos: Declaração Inicial com seis campos preenchidos, alternativa atual descrita com honestidade, lista de dez ou mais incertezas reais, "para quem" verificável com nomes ou perfis concretos. O que muda é a escala e o tipo de incerteza dominante. PadariaPro precisa validar que o nicho compra. iFood precisa validar que dois lados do marketplace aceitam o modelo simultaneamente.
+Comparando os dois casos: PadariaPro mira B2B (vendas de empresa para empresa) em nicho profundo (vertical artesanal, cerca de dois mil e quinhentas padarias-alvo no Brasil). iFood mira marketplace bilateral em mercado de massa (milhões de consumidores, dezenas de milhares de restaurantes). Os instrumentos são os mesmos: Declaração Inicial com seis campos preenchidos, alternativa atual descrita com honestidade, lista de dez ou mais incertezas reais, "para quem" verificável com nomes ou perfis concretos. O que muda é a escala e o tipo de incerteza dominante. PadariaPro precisa confirmar que o nicho compra. iFood precisa confirmar que dois lados do marketplace aceitam o modelo simultaneamente.
 
 ### Armadilhas
 
 > [!note] Apêndice D — Armadilhas Mentais e Vieses
-> O enamoramento pela solução e o viés de confirmação (ouvir só o que confirma a tese) são os vieses mais perigosos nesta fase. O [[#APÊNDICE D — ARMADILHAS MENTAIS E VIESES COGNITIVOS DO EMPREENDEDOR|Apêndice D]] oferece diagnóstico estruturado e contra-medidas práticas para cada um — leitura recomendada antes de fazer o teste verbal com os ouvintes externos.
+> O enamoramento pela solução e o viés de confirmação (ouvir só o que confirma a tese) são os vieses mais perigosos nesta fase. Leia o [[#APÊNDICE D — ARMADILHAS MENTAIS E VIESES COGNITIVOS DO EMPREENDEDOR|Apêndice D]] antes de fazer o teste verbal com os ouvintes externos — ele oferece diagnóstico estruturado e contramedidas práticas para cada um.
 
 Apresentar a solução como se fosse o problema. "O problema é que não existe um app que X." Não. Esse não é o problema. O problema é o que existia antes do app. Foque na dor. Não na ausência da sua solução.
 
@@ -228,27 +228,27 @@ A lição transferível. Ideia bem articulada em uma frase permite comparar cont
 
 Na articulação da ideia, ferramentas ajudam a estruturar o pensamento inicial e a evitar auto-engano com entusiasmo. Detalhamento completo no [[#APÊNDICE BG — FERRAMENTÁRIO COMPLETO DO EMPREENDEDOR|Apêndice BG]].
 
-First Principles Thinking (Aristóteles, e popularizado por Musk). Questionar suposições escondidas na formulação da ideia. Precisa ser SaaS? Precisa ser B2B? Precisa ser no Brasil? Cada uma é suposição. Use na primeira articulação da ideia, antes de escrever pitch. Ver BG.4.1.
+First Principles Thinking — pensamento a partir dos princípios básicos (Aristóteles, popularizado por Musk). Questione as suposições escondidas na formulação da ideia. Precisa ser SaaS (software vendido por assinatura)? Precisa ser B2B (venda para empresas)? Precisa ser no Brasil? Cada uma é suposição. Use na primeira articulação da ideia, antes de escrever o pitch. Ver BG.4.1.
 
-Blue Ocean Strategy (W. Chan Kim e Renée Mauborgne, 2005). Framework para criar espaços de mercado não-contestados. A ferramenta central é o ERRC Grid (Eliminate, Reduce, Raise, Create) aplicado à categoria onde você pensa em entrar. Use quando a ideia parece ser "outro X" ou "Y mas para Z". Blue Ocean força repensar a categoria. Ver BG.1.8.
+Blue Ocean Strategy — estratégia do oceano azul (W. Chan Kim e Renée Mauborgne, 2005). Estrutura de referência para criar espaços de mercado sem concorrência direta. A ferramenta central é o ERRC Grid (Eliminar, Reduzir, Aumentar, Criar), aplicado à categoria onde você pensa em entrar. Use quando a ideia parece ser "outro X" ou "Y mas para Z" — o método força repensar a categoria. Ver BG.1.8.
 
-Playing to Win (Roger Martin e A.G. Lafley, 2013). Cascata de cinco escolhas. Mesmo em ideia inicial, o rascunho das cinco escolhas (aspiração, onde jogar, como vencer, capabilities, sistemas) clarifica rapidamente a ideia. Use no primeiro rascunho de estratégia, mesmo sem pivotagens finais. Ver BG.2.1.
+Playing to Win — jogando para vencer (Roger Martin e A.G. Lafley, 2013). Cascata de cinco escolhas estratégicas: aspiração, onde competir, como vencer, capacidades necessárias, sistemas de suporte. Use no primeiro rascunho de estratégia, mesmo sem decisões finais — as cinco perguntas clarificam a ideia rapidamente. Ver BG.2.1.
 
-Good Strategy/Bad Strategy (Richard Rumelt, 2011). Diagnose, política, ação. Teste: qual o problema real que você está resolvendo? Qual a política orientadora (a abordagem geral)? Quais ações coerentes? Use quando a ideia parece ser "boa em tudo" ou carente de foco. Ver BG.2.2.
+Good Strategy/Bad Strategy — boa estratégia, má estratégia (Richard Rumelt, 2011). Três elementos: diagnóstico do problema real, política orientadora (a abordagem geral), ações coerentes. Use quando a ideia parece ser "boa em tudo" ou carente de foco. Ver BG.2.2.
 
-Inversion (Munger). Antes de "por que vai funcionar", pergunte: "por que esta ideia vai falhar?" Use para estressar a ideia antes de investir tempo pesado. Ver BG.4.3.
+Inversion — inversão (Munger). Antes de "por que vai funcionar", pergunte: "por que esta ideia vai falhar?" Use para estressar a ideia antes de investir tempo pesado. Ver BG.4.3.
 
-Pyramid Principle (Barbara Minto, 1978). Estruturar comunicação da ideia. Conclusão primeiro, depois três a cinco argumentos de suporte MECE. Use para escrever o pitch de elevador, ou os primeiros slides. Ver BG.4.4.
+Pyramid Principle — princípio da pirâmide (Barbara Minto, 1978). Estruture a comunicação da ideia começando pela conclusão, depois apresente três a cinco argumentos de suporte sem sobreposição. Use para escrever o pitch de elevador ou os primeiros slides. Ver BG.4.4.
 
 ---
 
 ### SÍNTESE DA FASE 2
 
-A [[#FASE 2 — ARTICULAÇÃO E CAPTURA DA IDEIA|Fase 2]] não é para validar a ideia. É para capturá-la com precisão. Muitos fundadores "têm uma ideia" há meses, mas nunca a escreveram. Quando tentam escrever, descobrem que havia três ideias misturadas, ou que não sabem explicar o problema, ou que a ideia era só sentimento vago. Tudo o que você não escreve não existe operacionalmente. A articulação força clareza, e clareza revela lacunas.
+A [[#FASE 2 — ARTICULAÇÃO E CAPTURA DA IDEIA|Fase 2]] não é para confirmar se a ideia funciona. É para capturá-la com precisão. Muitos fundadores "têm uma ideia" há meses, mas nunca a escreveram. Quando tentam escrever, descobrem que havia três ideias misturadas, ou que não sabem explicar o problema, ou que a ideia era só sentimento vago. Tudo o que você não escreve não existe operacionalmente. A articulação força clareza, e clareza revela lacunas.
 
-A diferença entre quem faz certo, e quem falha, está em assumir as próprias incertezas. O quinto bloco da Declaração — tudo o que você não sabe — é o mais valioso e o mais negligenciado. Listar incertezas, em vez de mascará-las com confiança, é o que cria a agenda de trabalho das fases seguintes. As suas incertezas de hoje são as suas hipóteses de amanhã.
+A diferença entre quem faz certo, e quem falha, está em assumir as próprias incertezas. O quinto bloco da Declaração — tudo o que você não sabe — é o mais valioso e o mais negligenciado. Listar incertezas, em vez de mascará-las com confiança, é o que cria a agenda de trabalho das fases seguintes. As suas incertezas de hoje são as suas suposições de amanhã.
 
-O entregável é uma página única, capaz de ser explicada verbalmente para um estranho em noventa segundos, e esse estranho consegue repetir de volta com precisão. Esse teste de transmissão é o filtro de clareza. Se a ideia não passa, ela ainda não está pronta para ser validada — está pronta para ser reescrita. A Fase 3 vai usar o "para quem" e a lista de incertezas desta Declaração como ponto de partida para as primeiras entrevistas de descoberta de problema.
+O entregável é uma página única, capaz de ser explicada verbalmente para um estranho em noventa segundos, e esse estranho consegue repetir de volta com precisão. Esse teste de transmissão é o filtro de clareza. Se a ideia não passa, ela ainda não está pronta para ser testada — está pronta para ser reescrita. A Fase 3 vai usar o "para quem" e a lista de incertezas desta Declaração como ponto de partida para as primeiras entrevistas de descoberta de problema.
 
 # fase2 #articulacao #declaracao-inicial #incertezas #hipoteses #suposicoes-chave
 

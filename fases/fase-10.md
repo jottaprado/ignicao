@@ -58,18 +58,18 @@ flowchart TB
 
 ### O que esse apêndice cobre
 
-Construção e lançamento controlado do MVP (Minimum Viable Product) com base na Especificação da [[#FASE 9 — TESTES DE SOLUÇÃO E USABILIDADE|Fase 9]]. O objetivo não é vender no grande mercado. É aprender com usuários reais usando um produto real, em ambiente real, pagando preço real (ou aceitando compromisso de pagamento).
+Construção e lançamento controlado do MVP (Minimum Viable Product — produto com o mínimo necessário para testar uma hipótese real com usuários reais) com base na Especificação da [[#FASE 9 — TESTES DE SOLUÇÃO E USABILIDADE|Fase 9]]. O objetivo não é vender no grande mercado. É aprender com usuários reais usando um produto real, em ambiente real, pagando preço real (ou aceitando compromisso de pagamento).
 
 O entregável tem dois componentes. MVP em operação, e Relatório de Aprendizado do MVP depois de oito a doze semanas de uso, por dez a cinquenta usuários.
 
 ### POR QUE
 
-Até agora, você trabalhou com evidência declarada (entrevistas), e evidência comportamental limitada (testes de protótipo). O MVP é onde você finalmente obtém a evidência mais valiosa. O que as pessoas fazem com um produto real, pago, nas rotinas delas de verdade. Essa evidência é qualitativamente diferente. E muitas vezes surpreende.
+Até agora, você trabalhou com evidência declarada (entrevistas) e evidência comportamental limitada (testes de protótipo). O MVP é onde você obtém a evidência mais valiosa: o que as pessoas fazem com um produto real, pago, nas rotinas delas de verdade. Essa evidência é diferente em qualidade. E muitas vezes surpreende.
 
 > [!warning] MVP não é "versão capenga" do produto
 > Essa é a confusão mais comum. MVP não é o produto cortado pela metade, com metade dos botões e metade do design. MVP é um processo obsessivo de validação que se concentra em responder duas perguntas por ciclo. Qual é a premissa ou hipótese mais arriscada *neste momento*? Como podemos testá-la com o menor esforço possível?
 
-Um MVP de sucesso não é medido pela elegância do código, nem pelo polimento da interface. É medido pelo quanto de incerteza ele elimina por real investido. Se você gastou R$ 200 mil construindo um MVP, e saiu com as mesmas dúvidas que tinha no início, não foi MVP. Foi produto prematuro mal-feito.
+Um MVP de sucesso não é medido pela elegância do código, nem pelo polimento da interface. É medido pelo quanto de incerteza ele elimina por real investido. Se você gastou R$ 200 mil construindo um MVP e saiu com as mesmas dúvidas que tinha no início, não foi MVP. Foi produto prematuro mal-feito.
 
 ### O ciclo MVP em três fases, construir na ordem certa
 
@@ -105,13 +105,13 @@ flowchart LR
 > [!warning] Pular etapas é o erro mais comum
 > Construir MVP de Negócio sem validar Problema primeiro é escalar CAC em ICP errado. Validar Solução sem ter validado Problema é resolver dor inventada. A ordem importa. Não pule.
 
-Empreendedores iniciantes tendem a pular direto para "MVP em código", e gastar quatro a seis meses, e R$ 50 mil a R$ 300 mil, antes de qualquer evidência. A alternativa estruturada é fazer o MVP em três fases sequenciais. Cada uma testando uma pergunta diferente. E só avançar quando a anterior for aprovada.
+Empreendedores iniciantes tendem a pular direto para "MVP em código" e gastar quatro a seis meses e R$ 50 mil a R$ 300 mil antes de qualquer evidência. A alternativa estruturada é fazer o MVP em três fases sequenciais, cada uma testando uma pergunta diferente. Só avance quando a anterior for aprovada.
 
 #### Fase 1 do ciclo, Teste de Demanda (Landing Page)
 
 A pergunta que responde: existe demanda real por essa proposta de valor, a esse preço, nesse ICP?
 
-Como fazer. Crie uma página que descreva a solução como se ela existisse. Direcione tráfego pago (Facebook, Google, LinkedIn Ads), ou orgânico (comunidade, outbound), para essa página. Ofereça um mecanismo de captura: cadastro de e-mail, pré-pedido pago (com reembolso garantido), ou lista de espera.
+Como fazer. Crie uma landing page (página de destino — página única para capturar interesse) que descreva a solução como se ela existisse. Direcione tráfego pago (Facebook, Google, LinkedIn Ads), ou orgânico (comunidade, outbound), para essa página. Ofereça um mecanismo de captura: cadastro de e-mail, pré-pedido pago (com reembolso garantido), ou lista de espera.
 
 Métrica primária. Taxa de conversão de visitante em ação. Threshold forte: mais de dez por cento para cadastro, mais de três por cento para pré-pedido pago. Threshold crítico: menos de dois por cento para cadastro significa que o gancho não ressoa.
 
@@ -120,23 +120,23 @@ Custo típico de R$ 500 a R$ 3.000 em tráfego pago, mais alguns dias para monta
 > [!tip] Apêndice A — Templates operacionais desta fase
 > O [[apendice-a|Apêndice A]] inclui o template A.5 (Landing Page de Validação) com estrutura de headline, proposta de valor, CTA e formulário de captura — pronto para adaptar e publicar em Carrd ou Framer sem partir do zero.
 
-#### Fase 2 do ciclo, MVP Concierge (Manual)
+#### Fase 2 do ciclo, MVP Concierge (versão manual do produto, entregue à mão pelo fundador)
 
 A pergunta que responde: se entregarmos o valor prometido, o cliente consome, paga, e retorna? A solução realmente *mata* a dor?
 
 Como fazer. Entregue o valor manualmente. Sem automação. Sem código. O cliente não precisa saber que é manual. Se você está fazendo um app de conciliação contábil, use planilha mais WhatsApp mais e-mail. Se é um serviço de curadoria de conteúdo, faça você mesmo a curadoria. Se é consultoria automatizada, dê consultoria humana primeiro.
 
-Métrica primária. Retenção (o cliente volta?), NPS ou satisfação, e disposição a pagar (ele paga pelo serviço mesmo antes de haver "produto"?).
+Métrica primária. Retenção — percentual de usuários que voltam (o cliente volta?), NPS ou satisfação, e disposição a pagar (ele paga pelo serviço mesmo antes de haver "produto"?).
 
-Custo típico: alto em tempo do fundador, baixo em dinheiro. Normalmente quatro a doze semanas. O critério de avanço é pelo menos cinco a dez clientes pagantes que usam regularmente, e dizem que ficariam muito decepcionados se o serviço parasse.
+Custo típico: alto em tempo do fundador, baixo em dinheiro. Normalmente quatro a doze semanas. O critério de avanço é pelo menos cinco a dez clientes pagantes que usam regularmente e dizem que ficariam muito decepcionados se o serviço parasse.
 
 #### Fase 3 do ciclo, MVP em Código
 
-A pergunta que responde: a operação que já funciona manualmente pode ser automatizada de forma a reduzir custo, e escalar?
+A pergunta que responde: a operação que já funciona manualmente pode ser automatizada de forma a reduzir custo e escalar?
 
 Como fazer. Só agora construa o software. Construa apenas as partes do fluxo que você já provou ser valiosas na Fase Concierge. Não invente features. Automatize o que já existia.
 
-Métrica primária. Retenção. Ativação. Receita. CAC. LTV. As métricas de negócio reais.
+Métrica primária. Retenção. Ativação — percentual de usuários que fazem a primeira ação de valor. Receita. CAC. LTV. As métricas de negócio reais.
 
 Custo típico: o mais alto dos três. Semanas ou meses de desenvolvimento. O critério de avanço é métricas melhorando ou estáveis com escala.
 
@@ -145,7 +145,7 @@ Custo típico: o mais alto dos três. Semanas ou meses de desenvolvimento. O cri
 
 ### Quando usar
 
-Comece depois da [[#FASE 9 — TESTES DE SOLUÇÃO E USABILIDADE|Fase 9]] ter Especificação do MVP aprovada, e depois das Fases 1 e 2 do ciclo MVP (Landing e Concierge) terem sido concluídas com evidência positiva. Termine quando você tiver oito a doze semanas de dados de uso, retenção, e conversão. Permitindo tomar decisão sobre continuar, ajustar, ou pivotar. Revisite a cada iteração do produto depois do MVP.
+Comece depois da [[#FASE 9 — TESTES DE SOLUÇÃO E USABILIDADE|Fase 9]] ter Especificação do MVP aprovada e depois das Fases 1 e 2 do ciclo MVP (Landing e Concierge) terem sido concluídas com evidência positiva. Termine quando você tiver oito a doze semanas de dados de uso, retenção e conversão — tempo suficiente para decidir entre continuar, ajustar ou pivotar. Revisite a cada iteração do produto depois do MVP.
 
 ### Quem envolve
 
@@ -160,13 +160,13 @@ Nove passos.
 
 #### Passo 1, construa apenas os Must Haves
 
-Resista à tentação de "só acrescentar isso". Cada item extra atrasa, e adiciona complexidade que pode não ser necessária. Siga a especificação.
+Resista à tentação de "só acrescentar isso". Cada item extra atrasa e adiciona complexidade que pode não ser necessária. Siga a especificação.
 
 #### Passo 2, defina os critérios de sucesso antes de lançar
 
-Estabeleça, por escrito, o que você considerará "sucesso" depois de oito a doze semanas. Seis itens. Número de usuários ativos. Taxa de retenção (D7, D30, D60). Conversão de trial para pago. NPS ou score de satisfação. Receita total. CAC médio.
+Defina por escrito o que você vai considerar "sucesso" depois de oito a doze semanas. Seis itens. Número de usuários ativos. Taxa de retenção (D7, D30, D60). Conversão de trial para pago. NPS ou score de satisfação. Receita total. CAC médio.
 
-Escreva também o que seria "fracasso". A faixa em que você considerará o MVP inviável, e decidirá pivotar.
+Escreva também o que seria "fracasso". A faixa em que você vai considerar o MVP inviável e decidir pivotar.
 
 #### Passo 3, escolha estratégia de lançamento
 
@@ -176,13 +176,13 @@ Quatro estratégias possíveis.
 
 A melhor para aprender em ambiente controlado. Dez a trinta usuários pioneiros. Onboarding manual. Contato próximo.
 
-##### Soft launch
+##### Soft launch (lançamento silencioso)
 
-Lançamento público mas sem grande promoção. Permite ver comportamento natural.
+Lançamento público sem grande promoção. Permite ver comportamento natural.
 
-##### Wizard of Oz Beta
+##### Wizard of Oz Beta (simular automação com trabalho humano por trás)
 
-O produto parece funcionar completamente, mas parte é manual por trás. Reduz tempo de desenvolvimento. Você operacionaliza manualmente o que vai automatizar depois.
+O produto parece funcionar completamente, mas parte é manual por trás. Reduz tempo de desenvolvimento. Você opera manualmente o que vai automatizar depois.
 
 ##### Concierge Beta
 
@@ -196,18 +196,18 @@ Entrega do valor quase inteiramente manual, com produto mínimo como interface. 
 
 #### Passo 4, onboarding manual intensivo, "Faça Coisas Que Não Escalam"
 
-Nas primeiras semanas, cada novo usuário é recebido por você pessoalmente. Ligue. Faça videochamada. Ensine. Pergunte. Esse contato direto é onde mora setenta por cento do aprendizado. Automatizar onboarding cedo é erro clássico.
+Nas primeiras semanas, receba cada novo usuário pessoalmente. Ligue. Faça videochamada. Ensine. Pergunte. Esse contato direto é onde mora setenta por cento do aprendizado. Automatizar onboarding cedo é erro clássico.
 
 > [!note] Apêndice DT — Customer Experience
-> Onboarding manual intensivo é onde se captura o dado mais valioso sobre time-to-value. O [[apendice-dt|Apêndice DT — Customer Experience]] estrutura como medir o momento exato em que o usuário percebe o valor central — o "aha moment" — e como o NPS pós-onboarding prediz churn antes que qualquer métrica de retenção apareça no dashboard.
+> Onboarding manual intensivo é onde se captura o dado mais valioso sobre time-to-value. O [[apendice-dt|Apêndice DT — Customer Experience]] estrutura como medir o momento exato em que o usuário percebe o valor central — o "aha moment" — e como o NPS pós-onboarding prediz churn (cancelamento — percentual de usuários que param de usar) antes que qualquer métrica de retenção apareça no dashboard.
 
-Esse conjunto de táticas tem nome. *Do Things That Don't Scale*, do ensaio canônico de Paul Graham, da Y Combinator. O princípio é contraintuitivo, mas provado. Nos estágios iniciais, trabalho manual intenso do fundador é exatamente o que produz PMF. Porque é o único caminho para aprendizado de alta resolução. Escala vem depois. E só funciona se o que escala foi descoberto artesanalmente primeiro.
+Esse conjunto de táticas tem nome. *Do Things That Don't Scale*, do ensaio canônico de Paul Graham, da Y Combinator. O princípio é contraintuitivo, mas provado. Nos estágios iniciais, trabalho manual intenso do fundador é o que produz PMF. Porque é o único caminho para aprendizado de alta resolução. Escala vem depois — e só funciona se o que escala foi descoberto artesanalmente primeiro.
 
 Três táticas específicas compõem esse modo de operação.
 
 ##### Recrutamento manual de primeiros clientes
 
-Em vez de esperar que marketing digital traga usuários "magicamente" (e gastar R$ 5 mil a R$ 20 mil em ads que convertem a meio por cento), os melhores fundadores abordam pessoas uma a uma. No público-alvo. Por LinkedIn. Por e-mail direto. Por presença em eventos do setor. Ou até presencialmente em cafés.
+Em vez de esperar que marketing digital traga usuários (e gastar R$ 5 mil a R$ 20 mil em ads que convertem a meio por cento), os melhores fundadores abordam pessoas uma a uma. No público-alvo. Por LinkedIn. Por e-mail direto. Por presença em eventos do setor. Ou até presencialmente em cafés.
 
 > [!tip] Apêndice J — Framework de Canais de Aquisição
 > O [[apendice-j|Apêndice J]] mapeia todos os canais de aquisição disponíveis — inbound, outbound, eventos, parcerias, viral — com matriz de CAC estimado, velocidade e fit por estágio. Use para priorizar os dois ou três canais que valem testar nesta fase antes de investir em escala.
@@ -239,7 +239,7 @@ Repita com o próximo usuário.
 
 #### Passo 5, instrumente o produto para medir
 
-Antes de lançar, certifique-se de que você consegue medir quatro coisas. Eventos-chave (cadastro, primeira ação valiosa, retorno). Funil de conversão (cadastro, ativação, retenção, pagamento). Tempo gasto em cada tela ou fluxo. Abandonos (onde param).
+Antes de lançar, garanta que você consegue medir quatro coisas. Eventos-chave (cadastro, primeira ação valiosa, retorno). Funil de conversão (cadastro, ativação, retenção, pagamento). Tempo gasto em cada tela ou fluxo. Abandonos (onde param).
 
 Ferramentas comuns. Escolha uma ou duas. Mixpanel, Amplitude, PostHog. Ou simplesmente logs custom mais planilha.
 
@@ -252,7 +252,7 @@ Ritual semanal. Segunda-feira: revisão das métricas da semana anterior. Quarta
 
 #### Passo 7, meça retenção com rigor
 
-Retenção é o indicador mais honesto. Construa uma curva de retenção. A coorte: usuários que ativaram na semana X. A medição: percentual dessa coorte que continua ativa em X mais 1 semana, X mais 2 semanas, e por aí vai.
+Retenção é o indicador mais honesto. Construa uma curva de retenção. A coorte (grupo de usuários com comportamento similar analisado junto): usuários que ativaram na semana X. A medição: percentual dessa coorte que continua ativa em X mais 1 semana, X mais 2 semanas, e por aí vai.
 
 Sinal de valor real: a curva se *estabiliza* (achata) em algum nível não-zero. Sinal de sem-valor: a curva cai para zero em quatro semanas.
 
@@ -300,7 +300,7 @@ Churn mensal. Idealmente menos de cinco por cento ao mês. Menos de dois por cen
 
 **Métricas secundárias.**
 
-Tempo para "aha moment" (ativação). Benchmarks por categoria. SaaS: menos de cinco minutos depois do sign-up. Marketplaces: primeira transação em menos de sete dias. Consumer: primeira interação de valor em menos de sessenta segundos.
+Tempo para "aha moment" (taxa de ativação — percentual de usuários que fazem a primeira ação de valor). Benchmarks por categoria. SaaS: menos de cinco minutos depois do sign-up. Marketplaces: primeira transação em menos de sete dias. Consumer: primeira interação de valor em menos de sessenta segundos.
 
 Net Promoter Score (NPS). Mais de trinta é aceitável. Mais de cinquenta é forte.
 
@@ -476,7 +476,7 @@ Centenas de Green Angels, agentes de vendas próprios da Stone, foram treinados 
 
 Os unit economics foram validados em escala pequena antes de a Stone expandir agressivamente. CAC via Green Angels versus LTV de comerciantes retidos mostrava-se favorável nos perfis certos. Fraude e inadimplência foram contidas com critério rigoroso de onboarding.
 
-Em outubro de 2018, a Stone fez IPO na NASDAQ sob o ticker STNE. Operação que atraiu investidores globais. Entre os investidores de rodadas anteriores e compradores na oferta estavam nomes como a Berkshire Hathaway, que comprou ações no IPO, em movimento comentado porque envolvia investimento da Berkshire em empresa tech, algo atípico ao perfil histórico de Buffett e Munger, e atribuído a recomendação do analista Todd Combs.
+Em outubro de 2018, a Stone fez IPO na NASDAQ sob o ticker STNE. Entre os investidores de rodadas anteriores e compradores na oferta estavam nomes como a Berkshire Hathaway, que comprou ações no IPO. Esse movimento foi comentado porque envolvia investimento da Berkshire em empresa tech, algo atípico ao perfil histórico de Buffett e Munger, e atribuído a recomendação do analista Todd Combs.
 
 Nos anos subsequentes, a Stone expandiu para outros produtos financeiros. Software de gestão para varejo, via aquisição da Linx. Serviços bancários. Crédito. A cotação das ações oscilou significativamente com mudanças de mercado, regulação, e macro. Pico em 2020 e 2021 durante a euforia tech. Correção significativa em 2022 a 2024. Fundadores e investidores tiveram liquidez em múltiplos momentos.
 
@@ -498,25 +498,25 @@ Volatilidade é parte do pacote. Empresas em tech que fazem IPO em mercados vol�
 
 MVP e experimentos de mercado combinam métodos quantitativos com aprendizado iterativo. Detalhamento no [[#APÊNDICE BG — FERRAMENTÁRIO COMPLETO DO EMPREENDEDOR|Apêndice BG]]. Oito ferramentas centrais.
 
-Lean Product Playbook (Dan Olsen, 2015). Framework iterativo de seis passos para encontrar PMF. Use como guia geral para o ciclo de MVP. Ver BG.10.8.
+Lean Product Playbook (Dan Olsen, 2015). Framework iterativo de seis passos para encontrar PMF — parte da hipótese de valor, define o cliente-alvo, especifica as necessidades e testa o produto até atingir o encaixe. Use como guia geral para o ciclo de MVP. Ver BG.10.8.
 
-Stage-Gate Process (Robert Cooper, 1986). Processo de desenvolvimento em estágios separados por gates de decisão. Versão moderna "Stage-Gate Express" adapta para ciclos rápidos. Use em produtos com múltiplas linhas, ou em empresa com portfólio. Os gates evitam investimento em projetos fracos. Ver BG.10.7.
+Stage-Gate Process (Robert Cooper, 1986). Processo de desenvolvimento em estágios separados por gates de decisão — cada gate avalia se o projeto avança, pausa ou é encerrado, evitando investimento em ideias fracas. Versão moderna "Stage-Gate Express" adapta para ciclos rápidos. Use em produtos com múltiplas linhas, ou em empresa com portfólio. Ver BG.10.7.
 
-A/B Testing Rigoroso (Ron Kohavi). Experimentos controlados, com cálculo de sample size, significância, e guardrails. Use a partir de volume suficiente (mais de mil eventos por semana), para testar hipóteses específicas. Ver BG.8.4.
+A/B Testing Rigoroso — teste comparativo entre duas versões de uma funcionalidade ou página para medir qual performa melhor (Ron Kohavi). Experimentos controlados, com cálculo de sample size, significância, e guardrails. Use a partir de volume suficiente (mais de mil eventos por semana), para testar hipóteses específicas. Ver BG.8.4.
 
-Survey Design (Dillman e Krosnick). Técnicas rigorosas para survey não-enviesado. Use para validar em escala quantitativa os achados qualitativos anteriores. Ver BG.8.1.
+Survey Design (Dillman e Krosnick). Técnicas para construir pesquisas sem viés. Use para confirmar em escala quantitativa os achados qualitativos anteriores. Ver BG.8.1.
 
-Conjoint Analysis (Paul Green, 1971). Decompor preferências em valor relativo de cada atributo. Use para definir pricing, features, e pacotes otimamente. Ver BG.8.2.
+Conjoint Analysis (Paul Green, 1971). Técnica que decompõe as preferências do usuário para medir o valor relativo de cada atributo do produto. Use para definir pricing, features, e pacotes. Ver BG.8.2.
 
-MaxDiff Analysis (Louviere e Woodworth, 1990). Priorizar atributos ou features forçando tradeoffs. Use quando há quinze a trinta features candidatas, e é preciso priorizar objetivamente. Ver BG.8.3.
+MaxDiff Analysis (Louviere e Woodworth, 1990). Método que prioriza atributos ou features forçando escolhas entre extremos — o que o usuário mais quer e o que menos importa. Use quando há quinze a trinta features candidatas, e é preciso priorizar com base em dados. Ver BG.8.3.
 
-Shape Up (Ryan Singer, 2019). Ciclos de seis semanas com trabalho "shaped" antes da execução. Use em times que querem autonomia, e ciclos mais longos que Scrum. Ver BG.10.4.
+Shape Up (Ryan Singer, 2019). Ciclos de seis semanas com trabalho preparado antes da execução — a equipe recebe um "shape" (escopo e solução desenhados) e tem autonomia total para entregar. Use em times que querem autonomia e ciclos mais longos que Scrum. Ver BG.10.4.
 
-Dual-Track Agile (Cagan). Discovery mais Delivery em paralelo. Ver BG.10.9.
+Dual-Track Agile (Cagan). Metodologia que roda discovery (pesquisa e validação) e delivery (construção) em paralelo — o time de produto nunca para de aprender enquanto o time de engenharia entrega. Ver BG.10.9.
 
 ### Launch playbook, do pré-lançamento aos trinta dias depois
 
-A seção anterior da [[#FASE 10 — MVP E EXPERIMENTOS DE MERCADO|Fase 10]] trata do ciclo de construção do MVP. Essa trata especificamente do *lançamento público*. Como sair do modo privado ou beta fechado, e fazer o produto aparecer no mundo. Em 2024 a 2026, a mecânica do launch mudou significativamente em relação a 2010 a 2020. E muitos founders seguem playbooks desatualizados que produzem resultados fracos.
+A seção anterior da [[#FASE 10 — MVP E EXPERIMENTOS DE MERCADO|Fase 10]] trata do ciclo de construção do MVP. Essa trata especificamente do *lançamento público*: como sair do modo privado ou beta fechado e fazer o produto aparecer no mundo. Entre 2024 e 2026, a mecânica do launch mudou bastante em relação ao período 2010-2020. Muitos founders ainda seguem playbooks desatualizados que produzem resultados fracos.
 
 > [!important] O lançamento não é um evento
 > É um período de sessenta a cento e vinte dias que começa semanas antes do dia em que o produto fica público, e continua por quatro a seis semanas depois. Pensar no launch como evento ("vamos lançar segunda!") desperdiça o maior momento de atenção que a sua empresa vai ter no primeiro ano.
@@ -527,24 +527,24 @@ Os três atos do lançamento moderno.
 
 O pré-lançamento constrói a base de pessoas que vão *ver* o seu lançamento. Sem base, o dia do launch é um grito no vazio. Algumas centenas de visitas. Zero tração. Com base, o dia do launch é um acelerador.
 
-##### Waitlist
+##### Waitlist (lista de espera pré-lançamento)
 
-Se o produto ainda não está público, criar página de waitlist (Typeform, Framer, Notion com captura de e-mail), e direcionar tráfego para ela. Meta: quinhentos a dois mil e-mails qualificados antes de abrir o produto. A waitlist funciona como lista de distribuição no dia do launch (converte muito melhor que e-mail frio), e como sinalização social ("dois mil pessoas esperando" gera FOMO).
+Se o produto ainda não está público, crie uma página de waitlist (Typeform, Framer, Notion com captura de e-mail) e direcione tráfego para ela. Meta: quinhentos a dois mil e-mails qualificados antes de abrir o produto. A waitlist funciona como lista de distribuição no dia do launch (converte muito melhor que e-mail frio) e como sinalização social ("dois mil pessoas esperando" gera FOMO).
 
-##### Building in public
+##### Building in public (construir em público)
 
-Postagens regulares do fundador (LinkedIn para B2B Brasil, Twitter para B2B e tech global, Instagram para consumer) documentando a construção. Não venda. Documente. "Essa semana descobrimos que X." "O protótipo falhou em Y, como reconstruímos." "Conversamos com vinte usuários, três padrões apareceram." Essa prática cria rede de pessoas que conhece o produto antes de virar cliente, e que compartilha o launch organicamente.
+Postagens regulares do fundador (LinkedIn para B2B Brasil, Twitter para B2B e tech global, Instagram para consumer) documentando a construção. Não venda. Documente. "Essa semana descobrimos que X." "O protótipo falhou em Y, como reconstruímos." "Conversamos com vinte usuários, três padrões apareceram." Essa prática cria uma rede de pessoas que conhece o produto antes de virar cliente e que compartilha o launch organicamente.
 
 > [!tip] Apêndice AR — Content Marketing e SEO
 > O [[apendice-ar|Apêndice AR — Content Marketing e SEO]] estrutura como transformar o building-in-public em canal de aquisição orgânica de longo prazo — estratégia editorial, clusters de conteúdo, SEO semântico e distribuição. A diferença entre post que gera buzz e post que gera tráfego composto por dois anos.
 
 ##### Rede pessoal aquecida
 
-Mapear cinquenta a cento e cinquenta pessoas da sua rede que podem amplificar o launch. Outros founders, advisors, primeiros usuários, jornalistas se houver, influencers de nicho. Duas semanas antes do launch, conversa individual com cada uma. "Vou lançar em [data], posso contar com o seu apoio de compartilhamento?" Pedido específico e antecipado tem taxa de conversão cinco a dez vezes maior que pedido genérico no dia.
+Mapeie cinquenta a cento e cinquenta pessoas da sua rede que podem amplificar o launch. Outros founders, advisors, primeiros usuários, jornalistas se houver, influencers de nicho. Duas semanas antes do launch, faça uma conversa individual com cada uma. "Vou lançar em [data], posso contar com o seu apoio de compartilhamento?" Pedido específico e antecipado tem taxa de conversão cinco a dez vezes maior que pedido genérico no dia.
 
 ##### Kit de launch
 
-Materiais prontos para distribuição antes do launch. Screenshots do produto em formatos ideais para cada plataforma (quadrado para Instagram, horizontal para LinkedIn, vertical para TikTok se relevante). Vídeo demo de sessenta segundos. Texto de apresentação em três tamanhos (tweet, parágrafo de LinkedIn, texto de imprensa de uma página). FAQ antecipando objeções comuns. Links de acesso fácil.
+Prepare materiais prontos para distribuição antes do launch. Screenshots do produto em formatos ideais para cada plataforma (quadrado para Instagram, horizontal para LinkedIn, vertical para TikTok se relevante). Vídeo demo de sessenta segundos. Texto de apresentação em três tamanhos (tweet, parágrafo de LinkedIn, texto de imprensa de uma página). FAQ antecipando objeções comuns. Links de acesso fácil.
 
 #### Ato 2, dia do launch
 
@@ -555,13 +555,13 @@ O dia específico em que o produto abre ao público. Datas a evitar: segundas-fe
 > [!tip] Apêndice AY — Marketing de Performance
 > O [[apendice-ay|Apêndice AY — Marketing de Performance]] cobre estrutura de campanhas pagas (Meta, Google, LinkedIn), CAC por canal com benchmarks por vertical, atribuição multi-touch e o momento certo de escalar paid — incluindo os sinais de que o canal ainda não está maduro para investimento pesado.
 
-Para produtos de tech ou SaaS dirigidos a founders, developers, e PMs. **Product Hunt** segue sendo o canal primário globalmente. Posicionar para primeiro do dia exige estratégia. Lançar 00:01 PT (04:01 BRT). Ter vinte a trinta amigos no Product Hunt prontos para upvote nas primeiras duas horas. Responder comentários ao vivo. Fundador presente o dia inteiro. Resultado típico: dez mil a cinquenta mil visitantes de alta qualidade em quarenta e oito horas.
+Para produtos de tech ou SaaS dirigidos a founders, developers, e PMs. **Product Hunt** segue sendo o canal primário globalmente. Posicionar para primeiro do dia exige estratégia. Lance às 00:01 PT (04:01 BRT). Tenha vinte a trinta amigos no Product Hunt prontos para upvote nas primeiras duas horas. Responda comentários ao vivo. O fundador precisa estar presente o dia inteiro. Resultado típico: dez mil a cinquenta mil visitantes de alta qualidade em quarenta e oito horas.
 
 Para produtos B2B dirigidos ao mercado brasileiro. **LinkedIn do fundador, mais LinkedIn da empresa**, como canal primário. Post do fundador com storytelling (não anúncio), mais post da empresa com mais detalhes. Comentários e engajamento nas primeiras três horas determinam alcance orgânico. Engajamento de peers em trinta a sessenta minutos pós-publicação multiplica alcance significativamente.
 
 Para produtos consumer brasileiros. **Instagram e TikTok** como primários. LinkedIn secundário. Formato: vídeo vertical de trinta a sessenta segundos mostrando produto em uso (não explicando), com trigger emocional forte.
 
-Para produtos enterprise (ticket alto). **Newsletter de founders e VCs, mais imprensa setorial.** Não lançamento mass-market. Distribuir press release para Brazil Journal, Neofeed, Startups, Exame Setorial, quarenta e oito horas antes sob embargo. Com pedido de publicação no dia do launch.
+Para produtos enterprise (ticket alto). **Newsletter de founders e VCs, mais imprensa setorial.** Sem lançamento mass-market. Distribua press release para Brazil Journal, Neofeed, Startups, Exame Setorial quarenta e oito horas antes sob embargo, com pedido de publicação no dia do launch.
 
 **Hacker News** funciona como canal secundário para tech globalmente. As regras: post submetido pelo próprio fundador. Título simples. Sem marketing speak. HN rejeita posts promocionais agressivamente.
 
@@ -569,7 +569,7 @@ Para produtos enterprise (ticket alto). **Newsletter de founders e VCs, mais imp
 
 #### Ato 3, trinta dias depois do launch
 
-O período mais crítico para validar se o launch foi conversão, ou apenas atenção. Métricas a monitorar diariamente nos primeiros catorze dias, e semanalmente nos trinta dias seguintes. Seis indicadores.
+O período mais crítico para validar se o launch gerou conversão ou apenas atenção. Monitore as métricas diariamente nos primeiros catorze dias, e semanalmente nos trinta dias seguintes. Seis indicadores.
 
 Tráfego por canal. De onde vieram os visitantes? Quais canais converteram?
 
@@ -579,21 +579,21 @@ Ativação nas primeiras vinte e quatro horas. Percentual de signups que complet
 
 Retorno na primeira semana. Percentual de signups que voltaram ao produto em sete dias.
 
-Primeiros tickets de suporte. Padrões de confusão ou problema que emergem nas primeiras duas semanas frequentemente apontam ajustes urgentes no produto.
+Primeiros tickets de suporte. Padrões de confusão ou problema que surgem nas primeiras duas semanas frequentemente apontam ajustes urgentes no produto.
 
 Feedback qualitativo. Entrevistas de quinze a trinta minutos com dez a quinze usuários nas primeiras quatro semanas. O objetivo é capturar a primeira impressão antes que virem usuários habituados.
 
 ##### Armadilhas comuns do launch
 
-Lançar sem waitlist, ou base aquecida. O dia do launch vira "muito silêncio no escritório". Meses de trabalho de produto. Horas de atenção pública desperdiçadas.
+Lançar sem waitlist, ou base aquecida. O dia do launch vira silêncio no escritório. Meses de trabalho de produto. Horas de atenção pública desperdiçadas.
 
-Dia do launch sem fundador presente o dia inteiro. Fundador que responde comentários, DMs, e e-mails no dia, converte significativamente mais. Fundador que agendou outro trabalho desperdiça a janela.
+Dia do launch sem fundador presente o dia inteiro. Fundador que responde comentários, DMs, e e-mails no dia converte muito mais. Fundador que agendou outro trabalho desperdiça a janela.
 
-Foco exclusivo no dia do launch, sem preparação para o dia seguinte. Muitos produtos têm spike de atenção, e depois não têm retenção. Porque o onboarding não foi preparado para escala. Testar o onboarding com dez usuários na semana anterior evita esse problema.
+Foco exclusivo no dia do launch, sem preparação para o dia seguinte. Muitos produtos têm pico de atenção e depois não têm retenção, porque o onboarding não foi preparado para escala. Testar o onboarding com dez usuários na semana anterior evita esse problema.
 
-Esperar a imprensa ligar. A imprensa, em geral, não acha a sua empresa sozinha. Você tem que contactar jornalistas específicos, duas a três semanas antes, com pitch que está alinhado com o tipo de história que eles escrevem. Mass press release raramente gera matéria real.
+Esperar a imprensa ligar. A imprensa, em geral, não acha a sua empresa sozinha. Contate jornalistas específicos duas a três semanas antes, com pitch alinhado ao tipo de história que eles escrevem. Mass press release raramente gera matéria real.
 
-Relançar continuamente. Fundadores com primeira tentativa fraca tendem a relançar com mudanças pequenas, esperando resultado melhor. Cada "relaunch" perde impacto. Melhor iterar profundamente o produto, e esperar seis a doze meses para relançamento significativo. Com nova feature, ou novo milestone (Série A, expansão geográfica, novo segmento).
+Relançar continuamente. Founders com primeira tentativa fraca tendem a relançar com mudanças pequenas, esperando resultado melhor. Cada "relaunch" perde impacto. Melhor iterar profundamente o produto e esperar seis a doze meses para relançamento significativo — com nova feature, ou novo milestone (Série A, expansão geográfica, novo segmento).
 
 Métrica de vaidade no launch. Signups, downloads, e menções em imprensa são vaidade se não convertem em uso recorrente. Reportar uso recorrente (DAU, retenção semanal) trinta a sessenta dias pós-launch é o teste real.
 
@@ -608,9 +608,9 @@ Algumas empresas crescem sem launch público tradicional. Crescem organicamente 
 
 ### SÍNTESE DA FASE 10
 
-O entregável é o MVP em operação mais o Relatório de Aprendizado depois de oito a doze semanas. Pela primeira vez, você tem evidência do que pessoas reais fazem com produto real, pago, em rotinas reais — e essa evidência é qualitativamente diferente de tudo que veio antes: entrevistas, protótipos, testes de usabilidade. Ela muitas vezes surpreende.
+O entregável é o MVP em operação mais o Relatório de Aprendizado depois de oito a doze semanas. Pela primeira vez, você tem evidência do que pessoas reais fazem com produto real, pago, em rotinas reais — e essa evidência é diferente em qualidade de tudo que veio antes: entrevistas, protótipos, testes de usabilidade. Ela muitas vezes surpreende.
 
-Faça coisas que não escalam — atender os primeiros vinte clientes pessoalmente, mesmo ineficiente, é o que produz aprendizado denso que automação esconde. O aprendizado denso da [[#FASE 10 — MVP E EXPERIMENTOS DE MERCADO|Fase 10]] é insumo direto da [[#FASE 11 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 11]], onde o foco sai do produto e vai para a máquina econômica: CAC, LTV, margem e sustentabilidade.
+Faça coisas que não escalam — atender os primeiros vinte clientes pessoalmente, mesmo sendo ineficiente, é o que produz o aprendizado denso que automação esconde. Esse aprendizado da [[#FASE 10 — MVP E EXPERIMENTOS DE MERCADO|Fase 10]] é insumo direto da [[#FASE 11 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 11]], onde o foco sai do produto e vai para a máquina econômica: CAC, LTV, margem e sustentabilidade.
 
 # fase10 #mvp #ciclo-mvp #faca-coisas-que-nao-escalam #maquina-de-melhoria #stone #green-angel #launch-playbook #product-hunt #product-led-growth
 

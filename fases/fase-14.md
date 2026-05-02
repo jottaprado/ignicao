@@ -7,7 +7,7 @@ part: parte-ii
 
 ### O que esse apêndice cobre
 
-A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] é o longo período em que a empresa transita de *ter PMF* para *ser máquina*. Aqui você sai do modo fundador-fazendo-tudo, e entra no modo empresa-institucional-funcionando-sem-você-diariamente. É a fase mais longa e trabalhosa da trajetória. Tipicamente dois a cinco anos. Com picos de atividade, mas também platôs. É também a fase onde boa parte das empresas brasileiras com PMF genuíno trava. Porque escalar envolve disciplinas que não tinham sido requeridas até aqui.
+A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] é o longo período em que a empresa transita de *ter PMF* para *ser máquina*. Aqui você sai do modo fundador-fazendo-tudo e entra no modo empresa-funcionando-sem-você-no-dia-a-dia. É a fase mais longa e trabalhosa da trajetória — tipicamente dois a cinco anos, com picos de atividade e platôs. É também a fase onde boa parte das empresas brasileiras com PMF genuíno trava, porque scale (crescer mantendo ou melhorando margens) exige disciplinas que não eram necessárias até aqui.
 
 A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] tem três frentes simultâneas: Time e Liderança em Escala, Operações e Gestão em Escala, e Máquina de Crescimento, Capital e Expansão. Cada uma com lógica própria, mas inseparáveis na prática. As três evoluem em paralelo — esse capítulo as trata em subseções ordenadas por intuição operacional.
 
@@ -19,7 +19,7 @@ A escala também muda quem você é como líder. Na [[#FASE 12 — PRODUCT-MARKE
 
 ### Quando usar
 
-Comece quando você declarou PMF na [[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]], e fez a estruturação formal da [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]]. Em prática, doze a dezoito meses depois do primeiro MVP validado. A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] não tem fim claro. Ela se funde à Parte III desse manual (Em Escala) quando a empresa atinge uma massa crítica. Tipicamente cento e cinquenta a quinhentos funcionários, operação em múltiplas frentes, e governance formal. A frequência de revisão é contínua. A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] não é "documento que se escreve uma vez". É rotina gerencial e estratégica permanente.
+Comece quando você declarou PMF na [[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]], e fez a estruturação formal da [[#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13]]. Em prática, doze a dezoito meses depois do primeiro MVP validado. A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] não tem fim claro. Ela se funde à Parte III desse manual (Em Escala) quando a empresa atinge uma massa crítica — tipicamente cento e cinquenta a quinhentos funcionários, operação em múltiplas frentes e governança formal. A frequência de revisão é contínua. A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] não é "documento que se escreve uma vez". É rotina gerencial e estratégica permanente.
 
 ### Quem envolve
 
@@ -91,7 +91,7 @@ Dias 61-90. Revisão formal. Como está indo? O critério acordado no dia um est
 ##### A primeira demissão, quando acontecer
 
 > [!tip] Apêndice BV — Layoffs e Desligamentos
-> Quando e como conduzir desligamentos individuais ou coletivos: protocolo legal, comunicação ao time, impacto de moral, e como preservar a cultura durante reduções de headcount.
+> Quando e como conduzir desligamentos individuais ou coletivos: protocolo legal, comunicação ao time, impacto de moral, e como preservar a cultura durante reduções de headcount (número de funcionários).
 
 Estatisticamente, trinta a quarenta por cento das primeiras contratações não se encaixam. Problema de fit, de timing, de expectativa, ou de momento da empresa. Esse número parece alto. Mas é normal.
 
@@ -152,7 +152,7 @@ Construção deliberada do time que vai executar o crescimento pós-PMF, e da li
 
 #### POR QUE (Time e Liderança)
 
-Depois do PMF, a restrição binding muda. Antes, era "existe mercado?". Agora, é "você consegue montar o time capaz de executar?". A maioria dos fundadores que atingem PMF, e depois estagnam, não falham em produto, ou canal. Falham em contratação. Em delegação. Ou em evoluir o próprio papel de "faço tudo" para "construo quem faz".
+Depois do PMF, o gargalo principal muda. Antes, era "existe mercado?". Agora, é "você consegue montar o time capaz de executar?". A maioria dos fundadores que atingem PMF, e depois estagnam, não falham em produto, ou canal. Falham em contratação. Em delegação. Ou em evoluir o próprio papel de "faço tudo" para "construo quem faz".
 
 #### QUANDO (Time e Liderança)
 
@@ -189,7 +189,7 @@ A ordem típica de contratação C-level para startups SaaS B2B pós-PMF:
 | Pré-Série B+ (100-200 pessoas) | R$ 50M+ ARR | COO, CRO (Chief Revenue Officer), General Counsel |
 
 > [!important] Regra operacional sobre C-level
-> Cada C-level só deve ser contratado quando *existir função clara, e métrica associada*. Contratar um CTO sem time técnico para liderar é pagar cargo pelo ego. Contratar CFO antes de haver complexidade financeira real é peso morto no payroll.
+> Contrate cada C-level só quando *existir função clara e métrica associada*. Contratar um CTO sem time técnico para liderar é pagar cargo pelo ego. Contratar CFO antes de haver complexidade financeira real é peso morto no payroll.
 
 ##### Passo 3, defina critérios de contratação de C-level (diferentes dos de IC)
 
@@ -199,9 +199,17 @@ A ordem típica de contratação C-level para startups SaaS B2B pós-PMF:
 > [!tip] Apêndice CO — Recrutamento Técnico
 > Contratação de engenheiros seniores, tech leads e CTOs: avaliação de competência técnica, desafios de coding, e como calibrar senioridade em startups sem bancada de engenharia prévia.
 
-Contratar um primeiro vendedor é diferente de contratar um Head of Sales. Os erros mais comuns. Contratar pela empresa anterior prestigiosa. "Veio da Google" é diferente de "vai performar aqui". Pergunte o que a pessoa fez *concretamente*, em que estágio, e com que recursos. Contratar por fit cultural apenas. É necessário, mas não suficiente. Resultado passado em contexto similar é o melhor preditor. Contratar sem contratar. Manter sócio-fundador no papel apenas porque "ele é o sócio", quando ele já não é a pessoa ideal para o estágio. Conversa difícil. Necessária. Contratar fast. Nunca. Senioridade exige três a oito entrevistas. Pelo menos um teste prático ou case. E três ou mais referências reais.
+Contratar um primeiro vendedor é diferente de contratar um Head of Sales. Os erros mais comuns:
 
-O processo padrão de contratação sênior leva quatro a seis semanas. Nove etapas. JD escrita com outcomes em três, seis, e doze meses (não só atividades). Triagem por recrutador, ou por você direto. Entrevista cultural com CEO (trinta a quarenta e cinco minutos). Entrevista técnica com profissional sênior da área, ou advisor. Case ou teste prático (quatro a oito horas de trabalho remunerado é razoável). Bar-raiser (um avaliador que não é da área, e tem poder de veto). Reference check rigoroso. Mínimo de três referências, idealmente cinco. Pergunte "em uma escala de um a dez, quão forte foi o desempenho dessa pessoa?". Qualquer coisa abaixo de nove merece investigação. Oferta, e negociação. Onboarding estruturado de noventa dias, com marcos claros.
+Contratar pela empresa anterior prestigiosa. "Veio da Google" é diferente de "vai performar aqui". Pergunte o que a pessoa fez concretamente, em que estágio e com que recursos.
+
+Contratar só por fit cultural. É necessário, mas não suficiente. Resultado passado em contexto similar é o melhor preditor.
+
+Manter sócio-fundador no papel apenas porque "ele é o sócio", quando ele já não é a pessoa ideal para o estágio. É uma conversa difícil, mas necessária.
+
+Contratar rápido demais. Nunca. Senioridade exige três a oito entrevistas, pelo menos um teste prático ou case e três ou mais referências reais.
+
+O processo padrão de contratação sênior leva quatro a seis semanas. Nove etapas. JD escrita com outcomes em três, seis, e doze meses (não só atividades). Triagem por recrutador, ou por você direto. Entrevista cultural com CEO (trinta a quarenta e cinco minutos). Entrevista técnica com profissional sênior da área, ou advisor. Case ou teste prático (quatro a oito horas de trabalho remunerado é razoável). Bar-raiser (um avaliador externo à área que tem poder de veto — garante que o padrão de contratação não caia com o tempo). Reference check rigoroso. Mínimo de três referências, idealmente cinco. Pergunte "em uma escala de um a dez, quão forte foi o desempenho dessa pessoa?". Qualquer coisa abaixo de nove merece investigação. Oferta, e negociação. Onboarding estruturado de noventa dias, com marcos claros.
 
 ##### Passo 4, evolua o papel do fundador (anti-gargalo)
 
@@ -209,7 +217,7 @@ Tipicamente, o CEO-fundador passa por três transições de papel.
 
 De "faz tudo" para "faz algumas coisas bem" (em torno de vinte a cinquenta pessoas). Você delega sales ops, marketing operacional, e engenharia do dia a dia. Mantém visão, decisões estratégicas, contratações C-level, captação, e relacionamento com top 10 clientes.
 
-De "gerencia diretos" para "gerencia gerentes" (em torno de cinquenta a cento e cinquenta pessoas). Você passa a ter seis a dez reportes diretos, que são VPs. O seu impacto é em cascata. Skip-levels meetings viram ritual.
+De "gerencia diretos" para "gerencia gerentes" (em torno de cinquenta a cento e cinquenta pessoas). Você passa a ter seis a dez reportes diretos, que são VPs. O seu impacto é em cascata. Skip-level meetings (reuniões do gestor com o subordinado do subordinado) viram ritual.
 
 De "operador" para "institucionalizador" (mais de cento e cinquenta pessoas). A sua função primária é construir a organização que construirá o produto. Decisões de design organizacional, sucessão, e cultura em escala.
 
@@ -239,13 +247,13 @@ Rituais que reforçam valores na prática. All-hands semanais ou quinzenais, com
 
 ##### Passo 6, construa o processo de onboarding de novos contratados
 
-A regra. Cada pessoa que entra deve atingir "produtividade mínima" em trinta dias, e "produtividade plena" em noventa dias. Sem processo, isso leva seis a nove meses. E é fonte de churn voluntário.
+A regra. Cada pessoa que entra deve atingir "produtividade mínima" em trinta dias, e "produtividade plena" em noventa dias. Sem processo, isso leva seis a nove meses — e vira fonte de churn voluntário (saídas espontâneas).
 
-Playbook de onboarding de noventa dias. Semana 1: imersão em produto, cultura, e valores. Reuniões com lideranças de cada área. Leitura obrigatória (valores, top dez estudos de caso de clientes, e histórico de pivôs). Semanas 2-4: projeto inicial pequeno e bem definido, para gerar primeira "vitória". Mês 2: projeto médio com mais autonomia. Mês 3: check-in formal. Performing, needs support, ou mismatch. Decisão explícita.
+Playbook (manual de operação padronizado) de onboarding de noventa dias. Semana 1: imersão em produto, cultura, e valores. Reuniões com lideranças de cada área. Leitura obrigatória (valores, top dez estudos de caso de clientes, e histórico de pivôs). Semanas 2-4: projeto inicial pequeno e bem definido, para gerar primeira "vitória". Mês 2: projeto médio com mais autonomia. Mês 3: check-in formal. Performing, needs support, ou mismatch. Decisão explícita.
 
 ##### Passo 7, instrumente eNPS e pesquisa de clima mensal
 
-Cultura degrada sem medição. eNPS trimestral é o mínimo. A pergunta. "Em escala de zero a dez, quão provável é você recomendar trabalhar aqui para um amigo?".
+Cultura degrada sem medição. eNPS (Employee Net Promoter Score — índice de satisfação e recomendação dos funcionários) trimestral é o mínimo. A pergunta: "Em escala de zero a dez, quão provável é você recomendar trabalhar aqui para um amigo?".
 
 Acompanhe também três coisas. Taxa de retenção de doze meses. Tempo médio de permanência por nível de seniority. E razão de saídas (categorize, e aprenda).
 
@@ -273,7 +281,7 @@ Tempo até produtividade plena. Alvo: noventa dias ou menos.
 
 Número de decisões por semana que só você pode tomar. Alvo: até cinco até a empresa com cinquenta pessoas. Até três acima de cem pessoas. A trajetória trimestre a trimestre deve ser decrescente. Se cresce, o gargalo de delegação está piorando.
 
-Reportes diretos do CEO. Até dez em qualquer tamanho de empresa. Mais que isso indica estrutura organizacional disfuncional (falta camada de liderança).
+Reportes diretos do CEO. Até dez em qualquer tamanho de empresa. Mais que isso indica estrutura disfuncional — falta uma camada de liderança intermediária. O span of control (quantidade de pessoas que um gestor gerencia diretamente) do CEO precisa estar dentro desse limite para que a gestão funcione.
 
 > [!tip] Team Canvas para formalizar o alinhamento do time antes de escalar
 > Antes de formalizar a cultura da empresa (Passo 5) e a cada ciclo de expansão, uma sessão de Team Canvas (CZ.8) com os primeiros líderes revela desalinhamentos em papéis, objetivos e modos de trabalho que processos operacionais depois não conseguem corrigir. Veja instruções, estrutura dos 9 blocos e exemplo da Loggi em [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|CZ.8]].
@@ -292,7 +300,7 @@ A [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] (Tim
 
 **Critérios observáveis.**
 
-1. Organograma documentado, com reportes claros.
+1. Organograma (org chart) documentado, com reportes claros.
 2. Pelo menos uma contratação sênior realizada nos últimos noventa dias.
 3. Rituais básicos (all-hands, 1:1, skip) acontecendo consistentemente por dois ou mais meses.
 4. Valores escritos em uma página, e compartilhados no onboarding de novos.
@@ -329,7 +337,7 @@ O time atual: cinco pessoas (dois founders mais três contratados).
 |---|---|---|---|
 | 1 | Head of Sales (sênior, 8-12 anos) | B2B SaaS, vendeu ticket R$ 5-20k, preferência experiência em food/retail | Founder está em 80% do tempo em vendas, gargalo claro |
 | 2 | Staff Engineer | 8+ anos, tem conhecimento de integrações e sistemas distribuídos | Integrações com fornecedores são moat, precisamos de dono técnico |
-| 3 | Customer Success Lead | 4+ anos em SaaS, empatia alta, bom em processo | Churn vai subir se NÃO tivermos CS dedicado |
+| 3 | Customer Success Lead | 4+ anos em SaaS, empatia alta, bom em processo | Churn (cancelamento) vai subir se NÃO tivermos CS dedicado |
 
 **Valores iniciais (uma página).**
 
@@ -360,7 +368,7 @@ Contratar C-level sem operação que justifique. Cargo inflado custa caro, e atr
 
 "Já tive cultura antes". É necessário re-formalizar a cada fase de crescimento. A cultura de dez pessoas não é a cultura de cinquenta.
 
-Over-hiring em rodadas. Captar e contratar em massa antes de ter estrutura para integrar destrói cultura, e queima caixa.
+Over-hiring em rodadas (contratar em massa logo após captar). Contratar antes de ter estrutura para integrar destrói cultura e queima caixa.
 
 Tolerar C-level ruim por amizade, ou acordo antigo. O custo acumulado é altíssimo. Demita cedo, com generosidade.
 
@@ -437,7 +445,7 @@ DACI, RACI, RAPID. Papéis de decisão clara quando o time cresce. Evita paralis
 ### Transição, do Time à Operação
 
 > [!note]
-> Conway's Law, design de squads, spans and layers e quando executar reorgs são tratados no [[apendice-fb|Apêndice FB — Design Organizacional]].
+> Conway's Law (princípio de que a arquitetura do sistema espelha a estrutura de comunicação da empresa), design de squads, spans and layers e quando executar reorgs são tratados no [[apendice-fb|Apêndice FB — Design Organizacional]].
 
 Com time em estrutura, e cultura declarada, o desafio seguinte vira disciplina operacional. Time bom com operação ruim vira frustração coletiva. Boas pessoas fazendo coisa errada. Ou coisa certa, sem coordenação. A frente Operações trata de montar a máquina operacional que ordena o trabalho do time que você acabou de estruturar.
 
@@ -474,7 +482,7 @@ flowchart TD
 
 #### O QUE (Operações)
 
-Transformação da operação artesanal (que funcionou do zero ao PMF) em sistemas que escalam sem multiplicar caos. O entregável é a Arquitetura Operacional. Sistema de OKRs, cadência de reuniões, playbook de processos críticos, e stack de ferramentas de gestão.
+Transformação da operação artesanal (que funcionou do zero ao PMF) em sistemas que escalam sem multiplicar caos. O entregável é a Arquitetura Operacional: sistema de OKRs, cadência de reuniões, playbook de processos críticos (manual de operação padronizado para cada função) e stack de ferramentas de gestão.
 
 #### POR QUE (Operações)
 
@@ -518,7 +526,7 @@ OKRs demais. Mais de três a cinco OKRs por time é receita para não alcançar 
 
 Key Results que são iniciativas. "Lançar feature X" não é KR. É iniciativa. KR é o resultado mensurável que a feature deveria produzir. Por exemplo, "aumentar retenção D30 em dez pontos percentuais".
 
-Sandbagging (metas conservadoras para garantir sucesso). OKRs ambiciosos têm threshold de sessenta a setenta por cento como "bom". Se você está batendo cem por cento sempre, as suas metas estão baixas.
+Sandbagging (colocar metas conservadoras para garantir sucesso). OKRs ambiciosos têm sessenta a setenta por cento de atingimento como "bom". Se você bate cem por cento sempre, as metas estão baixas.
 
 Não recalibrar mid-quarter. Se nas semanas quatro a seis fica claro que um OKR vai falhar (ou exceder muito), ajuste com justificativa escrita. Rígido é pior do que honesto.
 
@@ -539,9 +547,9 @@ Owner: [uma pessoa responsável, não um time]
 
 Cada empresa tem processos que, se quebrados, geram dor imediata. Liste os seus. Os típicos. Onboarding de novo cliente. Faturamento e cobrança (incluindo inadimplência). Suporte técnico (SLA por tier). Desenvolvimento de feature (da ideia ao deploy). Incident response (quando o produto cai). Onboarding de novo colaborador. Off-boarding de colaborador. Contratação sênior. Deal review (sales operations). Renewal e churn prevention.
 
-Para cada um, crie playbook em texto simples (não precisa de software caro). Quem é o dono do processo. Passo a passo (numerado). SLA (tempo de resposta em cada etapa). Ferramentas usadas. Exceções conhecidas. Métrica de qualidade.
+Para cada um, crie um playbook em texto simples (não precisa de software caro) com: dono do processo, passo a passo numerado, SLA por etapa, ferramentas usadas, exceções conhecidas e métrica de qualidade.
 
-Os playbooks ficam em wiki (Notion, Confluence, GitBook). Revisão semestral obrigatória. Processos desatualizados são piores do que nenhum processo.
+Coloque os playbooks em wiki (Notion, Confluence, GitBook) e revise-os semestralmente. Processo desatualizado é pior do que nenhum processo.
 
 ##### Passo 4, defina stack de ferramentas operacionais
 
@@ -614,7 +622,7 @@ flowchart LR
 > [!note]
 > Formatos de all-hands, comunicação de RIF e protocolos async por tamanho de time estão no [[apendice-dz|Apêndice DZ — Comunicação Interna]].
 
-Comunicação que funcionava com dez não funciona com cinquenta. A regra operacional. Em torno de dez pessoas, Slack no geral. Todo mundo sabe o que todo mundo faz. Em torno de trinta pessoas, times virtuais por projeto. All-hands semanais. Knowledge-sharing estruturado. Em torno de cinquenta a cem pessoas, comunicação em camadas (C-level para VPs para times). Newsletter interna mensal. Decisões importantes têm "RFC" (Request for Comments) escrito. Em torno de cem ou mais, fóruns formais (engineering review, product review, business review trimestral). Townhalls mensais. Comunicação executiva top-down, com tempo para perguntas.
+Comunicação que funcionava com dez não funciona com cinquenta. A regra operacional: com cerca de dez pessoas, Slack no geral — todo mundo sabe o que todo mundo faz. Com cerca de trinta, times virtuais por projeto, all-hands semanais e compartilhamento de conhecimento estruturado. Com cinquenta a cem, comunicação em camadas (C-level para VPs para times), newsletter interna mensal e decisões importantes com RFC (Request for Comments) escrito. Com cem ou mais, fóruns formais (engineering review, product review, business review trimestral), townhalls mensais e comunicação executiva top-down com tempo para perguntas.
 
 > [!warning] Sinal-vermelho na comunicação
 > Se mais de vinte por cento das pessoas dizem "não sei o que está acontecendo" em pesquisa anônima, comunicação interna falhou.
@@ -628,7 +636,7 @@ Antes de vinte pessoas, planilhas Google resolvem. Acima disso, você precisa de
 
 ##### Passo 7, institua blameless post-mortems
 
-Quando algo dá errado (produto cai, cliente grande cancela, incidente de segurança), o processo é. Post-mortem escrito em até cinco dias. Foco em sistema, não em pessoa ("por que o processo permitiu o erro?"). Três seções: o que aconteceu, o que causou, e o que mudar. Publicação interna (toda empresa aprende). Ação de melhoria, com dono e prazo.
+Quando algo dá errado (produto cai, cliente grande cancela, incidente de segurança), siga este processo: escreva o post-mortem em até cinco dias, com foco no sistema, não na pessoa ("por que o processo permitiu o erro?"). Use três seções: o que aconteceu, o que causou e o que mudar. Publique internamente para toda a empresa aprender. Defina ação de melhoria com dono e prazo.
 
 > [!important] Cultura de erro
 > Cultura que pune erro gera ocultamento. Cultura que aprende do erro gera resiliência.
@@ -654,7 +662,7 @@ Tempo médio de resolução de incidente (MTTR). P0 (sistema fora) menos de uma 
 
 Net Promoter Score interno (eNPS). Trinta ou mais.
 
-Percentual de decisões grandes com RFC escrito. Oitenta por cento ou mais para decisões que afetam dez ou mais pessoas, ou têm custo de R$ 100 mil ou mais.
+Percentual de decisões grandes com RFC escrito. Oitenta por cento ou mais para decisões que afetam dez ou mais pessoas ou têm custo de R$ 100 mil ou mais.
 
 #### DEFINIÇÃO DE SUCESSO (Operações)
 
@@ -855,7 +863,7 @@ Transformação do motor de aquisição (que provou unit economics em pequena es
 
 #### POR QUE (Crescimento e Capital)
 
-Crescer três a cinco vezes ao ano exige infraestrutura. Vendas fundador-led não escala acima de R$ 5-10 milhões de ARR. Marketing ad-hoc não gera previsibilidade. Internacionalização intuitiva queima caixa. Cada uma dessas áreas tem padrões conhecidos de sucesso e falha. E ignorá-los é optar por aprender caro. Adicionalmente, captação estratégica, versus oportunista, é a diferença entre rodadas que aceleram, e rodadas que estrangulam.
+Crescer três a cinco vezes ao ano exige infraestrutura. Vendas fundador-led não escala acima de R$ 5-10 milhões de ARR. Marketing ad-hoc não gera previsibilidade. Internacionalização intuitiva queima caixa. Cada uma dessas áreas tem padrões conhecidos de sucesso e falha. E ignorá-los é optar por aprender caro. E captação estratégica — em vez de oportunista — é a diferença entre rodadas que aceleram e rodadas que estrangulam.
 
 #### QUANDO (Crescimento e Capital)
 
@@ -913,15 +921,15 @@ Três perguntas diagnósticas. Que percentual das vendas fechadas nos últimos s
 
 Se "não" para qualquer uma, você ainda está em venda fundador-led. A transição exige cinco itens.
 
-Playbook de vendas escrito. Scripts de outbound, roteiros de discovery, objection handling, critérios de qualificação (MEDDPICC), e propostas padronizadas.
+Playbook de vendas escrito. Scripts de outbound, roteiros de discovery, tratamento de objeções, critérios de qualificação (MEDDPICC) e propostas padronizadas.
 
-Pipeline hygiene. CRM com estágios claros, taxas de conversão conhecidas por estágio, e forecasting semanal.
+Pipeline hygiene (higiene de pipeline — manter o CRM limpo e atualizado). CRM com estágios claros, taxas de conversão conhecidas por estágio e previsão de vendas semanal.
 
-Ramp time definido. Novo AE atinge quota em três a seis meses. Acima disso, a contratação, ou o onboarding, falhou.
+Ramp time (tempo de rampa — período até o vendedor atingir produtividade plena) definido. O novo AE deve atingir quota em três a seis meses. Acima disso, a contratação ou o onboarding falhou.
 
-Compensação variável. Vendedores recebem OTE (on-target earnings), com cinquenta a setenta por cento base, e trinta a cinquenta por cento variável. Comissão paga por deal fechado. Não só por pipeline.
+Compensação variável. Vendedores recebem OTE (on-target earnings — remuneração total se bater quota), com cinquenta a setenta por cento de base e trinta a cinquenta por cento variável. Pague comissão por deal fechado, não só por pipeline.
 
-Sales operations. Pessoa dedicada a CRM, forecasting, contest, e comp plan. A partir de cerca de cinco vendedores.
+Sales operations. Contrate uma pessoa dedicada a CRM, previsão de vendas e plano de comissões a partir de cerca de cinco vendedores.
 
 Framework de maturidade da equipe de vendas:
 
@@ -945,7 +953,7 @@ Paid (Google, Meta, LinkedIn). Contratar paid specialist. Build de playbook de c
 
 Outbound. SDRs em time. Cadências estruturadas. Ferramentas (Outreach, Apollo.io, LinkedIn Sales Navigator).
 
-Partnerships. Partnership manager, mais programa formal (tier, comissão, MDF, co-marketing).
+Partnerships. Partnership manager, mais programa formal com tiers, comissão, MDF (Market Development Funds — verba para o parceiro investir em marketing conjunto) e co-marketing.
 
 Comunidade. Community manager, mais rituais (eventos, Slack ou Discord, conteúdo UGC).
 
@@ -956,15 +964,15 @@ Events. Events manager, mais calendário anual, mais ROI por evento.
 
 ##### Passo 3, defina e monitore métricas de saúde financeira
 
-Pós-PMF, as métricas financeiras viram decisão estratégica. Acompanhe nove métricas.
+Depois do PMF, as métricas financeiras passam a guiar decisões estratégicas. Acompanhe nove delas.
 
 | Métrica | Definição | Alvo SaaS |
 |---|---|---|
 | ARR / MRR | Receita recorrente anualizada/mensal | Crescimento 2-3x/ano em estágio de scale-up |
 | Gross Margin | (Receita - custo de entrega) / Receita | SaaS B2B: 70-85%. Serviços: 40-60% |
-| Net Revenue Retention (NRR) | (MRR inicial + expansão - contração - churn) / MRR inicial | ≥110% excelente, 100-110% saudável, <100% vazando |
+| NRR (Net Revenue Retention — receita líquida retida e expandida na base) | (MRR inicial + expansão - contração - churn) / MRR inicial | ≥110% excelente, 100-110% saudável, <100% vazando |
 | Gross Revenue Retention (GRR) | (MRR inicial - churn - contração) / MRR inicial | ≥90% saudável |
-| Burn Multiple | Caixa queimado no período / ARR adicionado | <1 excelente, 1-2 bom, >3 queima caixa sem eficiência |
+| Burn Multiple (quantos reais você queima para gerar 1 real de receita nova) | Caixa queimado no período / ARR adicionado | <1 excelente, 1-2 bom, >3 queima caixa sem eficiência |
 | Magic Number | ARR adicionado no trimestre x 4 / S&M do trimestre anterior | >1 saudável, >1.5 ótimo |
 | CAC Payback | CAC / (ARR mensal x gross margin) | <12 meses B2B SaaS, <6 meses mais rápido |
 | Rule of 40 | % crescimento de ARR + % EBITDA margin | ≥40 é benchmark de investidores |
@@ -975,7 +983,7 @@ Pós-PMF, as métricas financeiras viram decisão estratégica. Acompanhe nove m
 > [!note]
 > Linhas de crédito PJ via Pronampe e BNDES, gestão de score PJ e relacionamento bancário em escala estão no [[apendice-fa|Apêndice FA — Relações Bancárias e Crédito]]. Gestão do ciclo de conversão de caixa (CCC) e antecipação de recebíveis estão no [[apendice-ez|Apêndice EZ — Capital de Giro]].
 
-Captar capital é decisão estratégica. Não sorte. Quatro perguntas antes de iniciar rodada.
+Captar capital é decisão estratégica, não sorte. Responda quatro perguntas antes de iniciar uma rodada.
 
 Por quê. Qual o uso específico do capital? (Time, canal, M&A, runway). Vago é ruim.
 
@@ -990,7 +998,7 @@ A timeline típica de rodada Série A no Brasil e LatAm em 2026, em cinco janela
 > [!important] Comece cedo
 > Sete meses de processo é o normal. Empresa que começa a captar com cinco meses de runway está em desespero. E os investidores percebem em dez minutos.
 
-Os documentos necessários, em seis itens. Pitch deck (dez a quinze slides). Executive summary (duas páginas). Data room (financeiros auditados, cap table, KPIs, contratos materiais, e documentação legal). Modelo financeiro em Excel (base mais cenários). Deck de produto (demo mais roadmap). Referências (clientes, investidores atuais, e advisors).
+Os documentos necessários, em seis itens. Pitch deck (dez a quinze slides). Executive summary (resumo executivo de duas páginas). Data room (repositório com financeiros auditados, cap table, KPIs, contratos materiais e documentação legal). Modelo financeiro em Excel (base mais cenários). Deck de produto (demo mais roadmap). Referências (clientes, investidores atuais e advisors).
 
 Os termos críticos em term sheet, que não-especialistas ignoram. Em nove pontos.
 
@@ -998,26 +1006,26 @@ Valuation pré e pós-money. Óbvio. Mas calcule a diluição real.
 
 Option pool. Quanto de equity fica reservado para futuros contratados, antes ou depois do investimento (afeta valuation de fundadores).
 
-Liquidation preference. Uma vez non-participating é padrão saudável. Duas vezes participating com cap é predatório.
+Liquidation preference (preferência de liquidação — o investidor recebe antes dos fundadores em caso de venda). Uma vez non-participating é padrão saudável. Duas vezes participating com cap é predatório.
 
-Anti-dilution. Weighted average (padrão) versus full-ratchet (predatório).
+Anti-dilution (proteção contra diluição em rodadas futuras a valuation menor). Weighted average (média ponderada, padrão) versus full-ratchet (ajuste total, predatório).
 
-Vesting de fundadores. Re-vesting parcial é comum em Série A. Termos fora do padrão merecem atenção.
+Vesting de fundadores. Re-vesting parcial (refazer o vesting sobre a parte não adquirida) é comum em Série A. Termos fora do padrão merecem atenção.
 
-Board composition. Quantos assentos os fundadores mantêm, quantos os investidores ganham, e quem escolhe o(s) independente(s).
+Board composition (composição do conselho). Quantos assentos os fundadores mantêm, quantos os investidores ganham e quem escolhe o(s) independente(s).
 
-Pro-rata rights. Direito de investir proporcionalmente em rodadas futuras. Padrão.
+Pro-rata rights (direito de proporcionalidade). Direito de investir na mesma proporção em rodadas futuras. Padrão.
 
-Protective provisions. Quais decisões precisam de aprovação do investidor (venda da empresa, novo investimento, mudança estratégica).
+Protective provisions (cláusulas de proteção). Quais decisões precisam de aprovação do investidor (venda da empresa, novo investimento, mudança estratégica).
 
-Drag-along, tag-along. Obrigações e direitos em cenário de venda.
+Drag-along, tag-along (obrigação e direito de venda conjunta, respectivamente). Obrigações e direitos em cenário de venda da empresa.
 
 > [!warning] Recomendação firme sobre advogado
 > Contrate advogado com experiência em VC (não advogado generalista) antes de assinar qualquer term sheet. Os erros mais caros que founders cometem em term sheet vêm de não ter alguém ao lado que já viu duzentos deals fecharem. A economia de R$ 15-30 mil em honorários custa, em cenário ruim, dezenas de milhões em equity de fundador.
 
 ##### Passo 5, planeje expansão em dois eixos, começando pela profundidade antes da amplitude
 
-Quando o PMF está consolidado em um segmento, a próxima fronteira é a expansão. Aqui mora um erro comum. Empreendedores tratam "expansão" como sinônimo de "conquistar clientes novos". Mas expansão tem dois eixos independentes. Com economias muito diferentes. E a sequência certa entre eles é o que separa crescimento sustentável de crescimento queimado.
+Quando o PMF está consolidado em um segmento, a próxima fronteira é a expansão. Mas aqui mora um erro comum: empreendedores tratam "expansão" como sinônimo de "conquistar clientes novos". Expansão tem dois eixos independentes, com economias muito diferentes. A sequência certa entre eles é o que separa crescimento sustentável de crescimento que queima caixa.
 
 Eixo 1, intra-conta (profundidade). Vender mais para quem você já atende. O CAC é baixo (cliente já comprou antes). O ciclo é curto (relação existente). O risco é menor (produto e processo já validados).
 
@@ -1034,7 +1042,7 @@ Caminho 2, papel adjacente na mesma organização. Uma vez estabelecido com um p
 
 Caminho 3, ownership de sistema (de ferramenta a infraestrutura). Mova-se de ferramenta pontual para infraestrutura mais ampla. Integre sistemas upstream e downstream. Introduza visibilidade de sistema. Torne-se a camada de orquestração. Por exemplo, ferramenta de workflow de compliance vira dashboard unificado de risco, depois orquestração de compliance cross-border. Esse caminho é o mais ambicioso. E a antessala de se tornar plataforma (lembre. Plataforma é *resultado* de cunha dominada, ver [[#FASE 5 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 5]]). A vantagem: cada integração adiciona switching cost. O cliente tem cada vez mais caro trocar. O risco: cada integração puxa complexidade técnica, e de manutenção. Só siga esse caminho depois de ter os Caminhos 1 e 2 rodando com NRR previsível.
 
-A métrica-guia do Eixo 1 é o NRR (Net Revenue Retention). Se o seu NRR está em cem a cento e dez por cento, o Caminho 1 já está rodando minimamente. Para chegar a cento e vinte a cento e trinta por cento ou mais (nível excepcional), os três caminhos intra-conta precisam estar ativos em sequência.
+A métrica-guia do Eixo 1 é o NRR. Com NRR entre cem e cento e dez por cento, o Caminho 1 já está rodando minimamente. Para chegar a cento e vinte ou cento e trinta por cento ou mais (nível excepcional), os três caminhos intra-conta precisam estar ativos em sequência.
 
 **Eixo 2, expansão extra-conta, os três caminhos.**
 
@@ -1061,7 +1069,7 @@ Na prática, isso significa escolher *um caminho por vez* (dos seis), e executar
 
 ##### Passo 6, monitore eficiência de capital (não apenas crescimento)
 
-Em 2021 e 2022, o mercado premiava crescimento a qualquer custo. Desde 2023 e 2024, premia crescimento eficiente. As métricas-chave. Burn multiple abaixo de um vírgula cinco em SaaS B2B de scale-up. Payback abaixo de doze meses (tolerável até vinte e quatro meses em B2B enterprise com ACV alto, e contratos multi-anuais). Rule of 40 de quarenta ou mais (crescimento mais margem EBITDA). Gross margin trajectory: deveria melhorar com escala. Não degradar.
+Em 2021 e 2022, o mercado premiava crescimento a qualquer custo. Desde 2023, premia crescimento eficiente. As métricas-chave: burn multiple abaixo de um vírgula cinco em SaaS B2B em scale; payback abaixo de doze meses (tolerável até vinte e quatro meses em B2B enterprise com ACV alto e contratos multianuais); Rule of 40 de quarenta ou mais (crescimento mais margem EBITDA); e margem bruta com trajetória de melhora conforme a escala — nunca degradando.
 
 > [!warning] Eficiência versus crescimento bruto
 > Se você está crescendo cem por cento ao ano, queimando R$ 5 para cada R$ 1 de ARR adicionado (burn multiple cinco), você vai ter dificuldade em Série B ou posterior. Se está crescendo setenta por cento ao ano, queimando R$ 1,20 por R$ 1 de ARR, investidor vai competir para entrar. Crescimento bruto, em ambiente de capital escasso, sem eficiência de fundo, é vaidade que não financia próxima rodada.
@@ -1104,7 +1112,7 @@ Lista inicial de dez a vinte alvos. Os critérios. Fit estratégico (passa na te
 
 Abordagem inicial, e NDA. Abordagem tipicamente via CEO-to-CEO. Não via banker no começo. A primeira conversa é exploratória. "Vocês topariam conversar sobre possibilidades de combinação?". Se houver interesse recíproco, NDA e informação básica.
 
-Due diligence feita pela startup compradora (diferente da [[#FASE 16 — EXIT STRATEGY|Fase 16]]). Os mesmos temas (financeiro, jurídico, operacional, tecnológico). Mas agora você é quem pergunta. Os pontos críticos em aquisição por startup. Integração técnica: os sistemas são integráveis, ou é rescrita de doze meses? Cultura, e retenção do time-chave: quem é imprescindível, e qual a probabilidade de ficar pós-deal? Clientes: que percentual da base é de risco de churn pós-aquisição? Existe cláusula de change-of-control em contratos grandes? Propriedade intelectual: o IP está claro? Há disputas abertas? Earnouts no time adquirido: há cláusulas que criam incentivo perverso nos doze a vinte e quatro meses seguintes?
+Due diligence feita pela startup compradora (diferente da [[#FASE 16 — EXIT STRATEGY|Fase 16]]). Os temas são os mesmos (financeiro, jurídico, operacional, tecnológico), mas agora você é quem pergunta. Os pontos críticos em aquisição por startup: integração técnica (os sistemas são integráveis, ou exigem reescrita de doze meses?); cultura e retenção do time-chave (quem é imprescindível, e qual a probabilidade de ficar pós-deal?); clientes (que percentual da base corre risco de churn pós-aquisição?); cláusula de change-of-control em contratos grandes; propriedade intelectual (o IP está claro? há disputas abertas?); e earnouts no time adquirido (há cláusulas que criam incentivo perverso nos próximos doze a vinte e quatro meses?).
 
 Estrutura do deal. Em aquisições por startup, a estrutura típica inclui quatro componentes. Cash upfront: quarenta a setenta por cento do valor total. Equity da adquirente: vinte a quarenta por cento do valor, com vesting de dois a quatro anos para o time adquirido. Earnout: zero a vinte e cinco por cento do valor total, atrelado a métricas pós-deal. Prefira métricas de integração (retenção de clientes, entrega de produto) a métricas puras de receita (que criam incentivo a foco de curto prazo). Retention package: para founders, e time-chave. Bônus extras além do equity geral. Vinculados a permanência por dezoito a trinta e seis meses.
 
@@ -1119,7 +1127,7 @@ Quatro caminhos alternativos.
 
 Partnership comercial (ver [[#APÊNDICE CX — CANAIS INDIRETOS E PARCERIAS: PARCERIAS, FRANQUIAS, CHANNEL|Apêndice CX]]). Frequentemente resolve sessenta a oitenta por cento do que M&A resolveria. Sem custo de integração.
 
-Aquisição de time apenas (acqui-hire reverso). Contratar grupo de três a oito pessoas de outra empresa. Com pacote de compensação equivalente. Custa uma fração de M&A completo.
+Aquisição de time apenas (acqui-hire — contratação de grupo inteiro de outra empresa). Contratar um grupo de três a oito pessoas com pacote de compensação equivalente custa uma fração do M&A completo.
 
 Licenciamento de tecnologia. Se o valor está no produto, ou algoritmo, e não no time, licenciar pode ser mais barato.
 
@@ -1136,7 +1144,7 @@ Seis critérios. Dois ou mais canais de aquisição validados, com unit economic
 
 - [ ] Tenho motor de aquisição replicável e escalável (dois ou mais canais validados, sem dependência única)?
 - [ ] Tenho payback de CAC abaixo de dezoito meses no canal principal?
-- [ ] NRR (Net Revenue Retention) está em cento e dez por cento ou mais?
+- [ ] NRR está em cento e dez por cento ou mais?
 - [ ] Tenho governança mínima (conselho, ainda que consultivo, e reporting trimestral)?
 - [ ] Avaliei quais tipos de capital usar nos próximos vinte e quatro meses (equity, debt, não-diluitivo, [[#APÊNDICE P — FINANCIAMENTO NÃO-DILUITIVO|Apêndice P]])?
 - [ ] Tenho plano de expansão geográfica, ou vertical, documentado, com milestones?
@@ -1179,7 +1187,7 @@ As unit economics escaladas, perfil aproximado pré-IPO. ARPU médio crescente, 
 | IPO NASDAQ (oferta primária) | ~1,15 bi | Out/2018 | Equity público |
 | Total captado pré-IPO | ~500M+ | | |
 
-A Stone foi um caso atípico de captação concentrada em poucos investidores grandes (Madrone, depois Tiger e T. Rowe), em vez de muitas rodadas pequenas. Viabilizado por CEO com background em finanças, e tese clara apresentável a PE.
+A Stone foi um caso atípico de captação concentrada em poucos investidores grandes (Madrone, depois Tiger e T. Rowe), em vez de muitas rodadas pequenas. Isso foi possível porque o CEO tinha formação em finanças e uma tese clara para apresentar a fundos de private equity.
 
 **Parcerias estratégicas mapeadas ([[#APÊNDICE CX — CANAIS INDIRETOS E PARCERIAS: PARCERIAS, FRANQUIAS, CHANNEL|Apêndice CX]]).** Tipo 1, distribuição: acordos com associações comerciais e câmaras setoriais em capitais. Facilitam acesso a lojistas via cabeças de rede. Tipo 3, tecnológica: integrações com ERPs e gateways de pagamento. Permitem cross-sell para clientes que usam múltiplas ferramentas. Tipo 4, canal: rede de contadores e consultores que trabalham com PMEs como canal de indicação.
 
@@ -1200,7 +1208,7 @@ Subestimar custos de integração. Modelos de aquisição internos frequentement
 
 Integração cultural ignorada até estourar. Adquirida tinha cultura de autonomia. Adquirente tem cultura de processo. Time adquirido sai em doze meses. Frequentemente para competir. Avaliar fit cultural é tão importante quanto financeiro.
 
-Earnouts mal-desenhados, que geram perversão. Earnout atrelado a receita do time adquirido faz com que o time adquirido resista a cross-sell (que beneficiaria a empresa, mas não a métrica deles). Design do earnout importa tanto quanto valor.
+Earnouts (bônus pós-fechamento atrelados a metas) mal desenhados, que geram perversão. Earnout atrelado a receita do time adquirido faz com que esse time resista a cross-sell (que beneficiaria a empresa, mas não a métrica deles). O design do earnout importa tanto quanto o valor.
 
 "Fundador vem trabalhar com a gente por três anos". Geralmente não vem. Fundador de adquirida sai em doze a dezoito meses em sessenta a oitenta por cento dos casos. Planeje a aquisição assumindo que ele sai. E desenhe retention para o time abaixo do fundador.
 
@@ -1276,7 +1284,7 @@ Ignorar termos não-financeiros. Liquidation preference de duas vezes participat
 
 Expansão "oportunista". "Esse cliente grande nos pediu, vamos atender", sem análise estratégica, vira distração crônica.
 
-Over-hiring depois da rodada. A pressão para "gastar o dinheiro" destrói cultura, e caixa.
+Over-hiring depois da rodada. A pressão para "gastar o dinheiro" destrói cultura e caixa.
 
 Foco em vanity metrics. GMV, pageviews, e usuários totais, se não conectam a receita, são teatro.
 
@@ -1286,7 +1294,7 @@ Foco em vanity metrics. GMV, pageviews, e usuários totais, se não conectam a r
 
 Entre 2013 e 2021, o Nubank passou por múltiplas rodadas com investidores globais de primeira linha (Sequoia, Tiger, Berkshire), em valuations crescentes até o IPO. A decisão. Cada rodada tinha milestone claro (PMF, expansão de produto, expansão internacional, e preparação IPO). As rodadas não foram "levantar o que tiver para levantar". Foram instrumentos para atingir marcos específicos.
 
-O resultado. O cap table preservou percentual de founders, e early team, relativamente saudável mesmo com múltiplas rodadas. Porque cada rodada foi feita em momento de força (valuation alto, narrativa clara).
+O resultado. O cap table (tabela de capitalização — quem detém quanto do equity) preservou percentual de founders e early team relativamente saudável mesmo com múltiplas rodadas. Porque cada rodada foi feita em momento de força (valuation alto, narrativa clara).
 
 > [!important] A lição transferível do Nubank
 > Rodadas são combustível para milestones específicos. Não objetivo em si. "Quantos milhões você levantou" é menos importante que "o que você bateu com cada milhão". Founder que se orgulha do cheque, sem articular o que vai bater com ele, está pedindo a vela que precede o naufrágio.

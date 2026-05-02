@@ -7,13 +7,13 @@ part: parte-i
 
 ### O que esse apêndice cobre
 
-Refinamento iterativo do conceito escolhido por meio de testes de usabilidade estruturados, entrevistas de solução (diferentes das de problema), e validação da proposta de valor em contato com usuários. Nesta fase, você também define os requisitos funcionais mínimos do MVP que será construído na [[#FASE 10 — MVP E EXPERIMENTOS DE MERCADO|Fase 10]].
+Nesta fase você refina o conceito escolhido por meio de testes de usabilidade, entrevistas de solução (diferentes das de problema), e validação da proposta de valor com usuários reais. Você também define os requisitos funcionais mínimos do MVP que será construído na [[#FASE 10 — MVP E EXPERIMENTOS DE MERCADO|Fase 10]].
 
 O entregável é a Especificação do MVP. Documento preciso sobre o que o MVP fará, para quem, com quais limitações, e como medirá sucesso.
 
 ### POR QUE
 
-Protótipos testam fluxo e conceito. Mas não testam valor real em uso prolongado. Esta fase aprofunda o teste de solução, e converte aprendizado em requisitos. Sem especificação clara antes de construir, você gasta mais, demora mais, e entrega menos.
+Protótipos testam fluxo e conceito. Mas não testam valor real em uso prolongado. Esta fase aprofunda o teste de solução e converte aprendizado em requisitos. Sem especificação clara antes de construir, você gasta mais, demora mais, e entrega menos.
 
 ### Quando usar
 
@@ -29,7 +29,7 @@ Seis passos.
 
 #### Passo 1, conduza entrevistas de solução
 
-Diferente da entrevista de problema ([[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]]), aqui você mostra o protótipo e pergunta ao usuário, estruturadamente, seis coisas. Se a solução proposta resolve o problema dele. Como ela se compara com o que ele usa hoje. Quanto faria sentido cobrar. Quais features ele sente falta, e quais acha supérfluas. Em que momento da rotina ele usaria. O que o impediria de usar.
+Diferente da entrevista de problema ([[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]]), aqui você mostra o protótipo e pergunta ao usuário seis coisas, de forma estruturada. Se a solução resolve o problema dele. Como ela se compara com o que ele usa hoje. Quanto faria sentido cobrar. Quais features ele sente falta e quais acha supérfluas. Em que momento da rotina ele usaria. O que o impediria de usar.
 
 Faça dez a quinze dessas entrevistas. Grave, transcreva, analise.
 
@@ -44,7 +44,7 @@ Para cada entrevistado, peça avaliação em escala de um a cinco em cinco dimen
 
 Mostre o protótipo ou a página principal por cinco segundos, e tire. Depois pergunte três coisas. O que você entendeu? Para quem é? Qual problema resolve?
 
-Se cinquenta por cento dos testados não conseguem responder bem, o seu posicionamento está confuso. Isso vai matar o seu CAC depois.
+Se cinquenta por cento dos testados não conseguem responder bem, o seu posicionamento está confuso. Isso vai matar o seu CAC (custo de aquisição de cliente) depois.
 
 > [!note] Apêndice FF — Psicologia do Consumidor Brasileiro
 > As respostas nas entrevistas de solução são influenciadas por como a pergunta é feita e em que contexto. O [[apendice-ff|Apêndice FF — Psicologia do Consumidor Brasileiro]] detalha vieses de resposta específicos do consumidor brasileiro — incluindo tendência de superestimar intenção de uso e subestimar sensibilidade a preço — que distorcem as escalas de valor se não forem antecipados.
@@ -67,21 +67,21 @@ Com quinze a vinte respostas, plote as quatro curvas. A intersecção entre "car
 > Essa não é a precificação ideal. Mas é um ponto de partida muito melhor do que chutar. Preço real será descoberto em mercado.
 
 > [!tip] Apêndice X — Pricing Strategy
-> Van Westendorp revela a faixa psicológica aceitável, mas não informa o modelo de precificação (subscription, usage-based, por licença, freemium) nem a estratégia de âncora. O [[apendice-x|Apêndice X — Pricing Strategy]] complementa este passo com os modelos de precificação aplicáveis ao estágio de MVP, a lógica de teste Gabor-Granger para granularidade maior, e os erros mais comuns de precificação em lançamento — incluindo o de começar com preço que não é possível aumentar depois.
+> Van Westendorp revela a faixa psicológica aceitável, mas não informa o modelo de precificação (assinatura, cobrança por uso, por licença, freemium) nem a estratégia de âncora. O [[apendice-x|Apêndice X — Pricing Strategy]] complementa este passo com os modelos de precificação aplicáveis ao estágio de MVP, a lógica de teste Gabor-Granger para granularidade maior, e os erros mais comuns de precificação em lançamento — incluindo o de começar com preço que não é possível aumentar depois.
 
 #### Passo 4B, aplique product discovery moderno (Marty Cagan e Teresa Torres)
 
-O padrão contemporâneo de product discovery em empresas de tecnologia maduras (Silicon Valley, scale-ups europeias, unicórnios latam) se baseia em quatro princípios que valem a pena incorporar desde cedo.
+O padrão contemporâneo de product discovery em empresas de tecnologia maduras se baseia em quatro princípios que valem a pena incorporar desde cedo.
 
-##### Continuous discovery (Teresa Torres)
+##### Continuous discovery (descoberta contínua), de Teresa Torres
 
-Em vez de fazer "fases" de discovery separadas do desenvolvimento, o time mantém contato semanal com clientes (três a cinco entrevistas por semana, por time de produto) permanentemente. Em paralelo com o desenvolvimento. O objetivo é que qualquer decisão de produto seja informada por evidência recente. Não por discovery feito há seis meses.
+Em vez de fazer "fases" de discovery separadas do desenvolvimento, o time mantém contato semanal com clientes (três a cinco entrevistas por semana, por time de produto) de forma permanente — em paralelo com o desenvolvimento. O objetivo é que qualquer decisão de produto seja informada por evidência recente, não por discovery feito há seis meses.
 
-A implementação mínima tem quatro elementos. Calendário recorrente de entrevistas. Cada product trio (PM mais designer mais tech lead) agenda duas a três conversas com cliente por semana. Recrutamento contínuo. Pool de usuários-teste renovado mensalmente. Use ferramentas como Respondent, UserTesting, ou recrutamento próprio em comunidade. Research Wiki. Todas as aprendizados e quotes vão para repositório central pesquisável. Weekly sync. Time inteiro discute dois a três aprendizados da semana em trinta minutos.
+A implementação mínima tem quatro elementos. Calendário recorrente de entrevistas: cada product trio (PM mais designer mais tech lead) agenda duas a três conversas com cliente por semana. Recrutamento contínuo: pool de usuários-teste renovado mensalmente — use ferramentas como Respondent, UserTesting, ou recrutamento próprio em comunidade. Research Wiki (repositório central de aprendizados): todos os aprendizados e quotes vão para um espaço pesquisável. Weekly sync (reunião semanal de equipe): o time inteiro discute dois a três aprendizados da semana em trinta minutos.
 
-##### Opportunity Solution Tree (OST), de Teresa Torres
+##### Opportunity Solution Tree (OST — árvore de oportunidades e soluções), de Teresa Torres
 
-Framework visual para conectar outcomes do negócio, oportunidades (dores, desejos, jobs do cliente), soluções, e experimentos. Estrutura:
+Framework visual para conectar resultados do negócio, oportunidades (dores, desejos, jobs do cliente), soluções, e experimentos. Em vez de ir direto para a solução, o OST força você a mapear primeiro qual oportunidade real está atacando. Estrutura:
 
 ```text
  OUTCOME DESEJADO
@@ -105,15 +105,15 @@ A lógica. Outcome é o norte. Oportunidades são formas de mover o norte. Solu�
 > [!important] Exercício prático antes de adicionar feature
 > Antes de adicionar qualquer feature ao MVP, pergunte três coisas. Qual oportunidade do cliente essa feature ataca? Qual outcome de negócio isso move? Se a oportunidade não existir, a feature vira desperdício. Volte ao discovery.
 
-##### Dual-track agile
+##### Dual-track agile (desenvolvimento em duas trilhas paralelas)
 
-Em vez de alternar "sprints de discovery" com "sprints de development", rode os dois em paralelo. Discovery track (tipicamente PM mais designer mais tech lead). Continuamente entrevista clientes, prototipa, testa hipóteses. Gera oportunidades validadas e soluções prototipadas. Delivery track (engenheiros). Continuamente constrói soluções já validadas pelo discovery track.
+Em vez de alternar "sprints de discovery" com "sprints de development", rode os dois em paralelo. Discovery track (tipicamente PM mais designer mais tech lead): entrevista clientes continuamente, prototipa, testa hipóteses, e gera oportunidades validadas com soluções prototipadas. Delivery track (engenheiros): constrói continuamente as soluções já validadas pelo discovery track.
 
-O pipeline funciona como esteira. Discovery produz "backlogged validated solutions". Delivery puxa delas. Evita dois problemas. Engenheiros ficarem sem o que construir, enquanto discovery trabalha. E construir coisas que não foram validadas.
+O funil de trabalho funciona como esteira. O discovery produz soluções validadas para o backlog. O delivery as puxa de lá. Isso evita dois problemas: engenheiros parados esperando o discovery terminar, e construir coisas que não foram validadas.
 
 ##### User stories com acceptance criteria estruturado (INVEST)
 
-Ao quebrar a solução em itens de trabalho, cada user story deve atender a seis critérios.
+Ao quebrar a solução em itens de trabalho, cada user story (história de usuário — unidade básica de requisito do produto) deve atender a seis critérios.
 
 Independent. Não depende de outras stories para ser útil.
 
@@ -140,7 +140,7 @@ ACCEPTANCE CRITERIA:
 [ ] [Critérios de UX, performance, segurança específicos]
 ```
 
-Com acceptance criteria, "definição de pronto" vira auditável. Sem eles, "pronto" vira debate filosófico no planning.
+Com acceptance criteria, "definição de pronto" vira algo auditável. Sem eles, "pronto" vira debate filosófico no planejamento.
 
 > [!note] Apêndice BC — Technical Debt
 > Cada decisão de MoSCoW (o que entra, o que fica fora) tem implicações de dívida técnica. Funcionalidades forçadas para "Must Have" sem arquitetura adequada geram débito que freia velocidade nas Fases 10 a 14. O [[apendice-bc|Apêndice BC — Technical Debt]] define os tipos de dívida (deliberada vs acidental, local vs arquitetural), quando aceitá-la conscientemente em MVP, e quando ela se torna armadilha que impede escala. Leitura recomendada antes de fechar a lista final de Must Haves.
@@ -260,8 +260,8 @@ Você concluiu a [[#FASE 9 — TESTES DE SOLUÇÃO E USABILIDADE|Fase 9]] quando
 1. Especificação do MVP existe escrita, com todos os campos. Incluindo MoSCoW com cinco a quinze Must Haves.
 2. Protótipo de média fidelidade clicável existe, com fluxos principais.
 3. Três ou mais tarefas-chave de teste estão definidas, com critério de conclusão.
-4. Dez ou mais entrevistas de solução, ou sessões de teste, foram realizadas com think-aloud, e resultados analisados.
-5. Friction points estão documentados por tarefa, e por usuário (matriz).
+4. Dez ou mais entrevistas de solução, ou sessões de teste, foram realizadas com think-aloud (verbalização em voz alta durante a tarefa), e resultados analisados.
+5. Friction points (pontos de atrito) estão documentados por tarefa, e por usuário (matriz).
 6. Iteração do protótipo aconteceu com base nos testes.
 7. Teste de precificação foi feito. Faixa de preço definida com justificativa.
 8. Você tem confiança razoável de que o MVP, se bem executado, vai resolver o JTBD principal da beachhead.
@@ -351,7 +351,7 @@ A lição transferível. Piloto estruturado com poucas empresas gera aprendizado
 
 O que você acabou de fazer, ao longo da Parte I (Fases 0 a 9). Preparou-se como fundador. Gerou ideias com método, e escolheu uma. Articulou a candidata. Construiu teoria causal explícita. Descobriu problemas reais em campo. Mapeou usuários, mercado, e cunha. Formulou hipóteses bet-the-company, e validou as centrais com experimentos rigorosos. Gerou conceitos de solução. Prototipou. Testou com usuários reais. E chegou a uma especificação de MVP com escopo disciplinado (MoSCoW), e pricing testado.
 
-O que vem na Parte II (Fases 10 a 14). Construir o MVP de verdade. Colocar em mercado com usuários reais que pagam (ou pagam com atenção). Medir unit economics. Perseguir Product-Market Fit. Estruturar formalmente a empresa quando os números passam a sustentar. E entrar na fase de escala. A Parte II é a mais longa, e mais difícil, do livro. Três a cinco anos típicos. Onde muitas empresas morrem por três motivos. Escalar antes do PMF. Ficar presa em "quase-PMF" sem reconhecer. Não conseguir unit economics positivas.
+O que vem na Parte II (Fases 10 a 14). Construir o MVP de verdade. Colocar em mercado com usuários reais que pagam (ou pagam com atenção). Medir unit economics. Perseguir Product-Market Fit. Estruturar formalmente a empresa quando os números passam a sustentar. E entrar na fase de escala. A Parte II é a mais longa, e a mais difícil, do livro. Três a cinco anos típicos. Muitas empresas morrem nessa etapa por três motivos: escalar antes do PMF, ficar presa em "quase-PMF" sem reconhecer, e não conseguir unit economics positivas.
 
 > [!important] Sinais de progresso versus sinal de PMF
 > Sinal de progresso: usuários pagantes em uso real do MVP. Sinal de PMF: Sean Ellis maior ou igual a quarenta por cento, mais retenção estabilizada, mais crescimento orgânico.
@@ -360,17 +360,17 @@ O que vem na Parte II (Fases 10 a 14). Construir o MVP de verdade. Colocar em me
 
 Testes de solução e usabilidade exigem métodos específicos de UX research. Detalhamento no [[#APÊNDICE BG — FERRAMENTÁRIO COMPLETO DO EMPREENDEDOR|Apêndice BG]]. Sete ferramentas centrais.
 
-Usability Testing (Nielsen e Norman). Usuários tentam completar tarefas enquanto o pesquisador observa. Cinco usuários identificam cerca de oitenta e cinco por cento dos problemas. Use em qualquer protótipo ou produto já navegável. É a ferramenta central desta fase. Ver BG.7.1.
+Usability Testing — teste de usabilidade (Nielsen e Norman). Usuários tentam completar tarefas enquanto o pesquisador observa. Cinco usuários identificam cerca de oitenta e cinco por cento dos problemas. Use em qualquer protótipo ou produto já navegável. É a ferramenta central desta fase. Ver BG.7.1.
 
-Heuristic Evaluation (10 Heurísticas de Nielsen, 1994). Três a cinco especialistas avaliam a interface contra dez princípios consolidados. Rápido e barato para triagem. Use como complemento ao usability testing. Não substitui. Ver BG.7.2.
+Heuristic Evaluation — avaliação heurística (10 Heurísticas de Nielsen, 1994). Três a cinco especialistas avaliam a interface contra dez princípios consolidados. Rápido e barato para triagem. Use como complemento ao usability testing. Não substitui. Ver BG.7.2.
 
-Cognitive Walkthrough (Polson e Lewis, 1992). Simular mentalmente o que um usuário novato pensaria em cada passo. Foco em learnability. Use para avaliar fluxos de onboarding e first-time experience. Ver BG.7.3.
+Cognitive Walkthrough — percurso cognitivo (Polson e Lewis, 1992). Simular mentalmente o que um usuário novato pensaria em cada passo. Foco em learnability (facilidade de aprender a usar). Use para avaliar fluxos de onboarding e first-time experience. Ver BG.7.3.
 
-Card Sorting (Spencer). Usuários organizam cards em categorias próprias. Revela modelo mental. Use no desenho de information architecture e menus. Ver BG.7.4.
+Card Sorting — organização por cartões (Spencer). Usuários organizam cards em categorias próprias. Revela modelo mental. Use no desenho de information architecture e menus. Ver BG.7.4.
 
-Tree Testing (O'Brien). Valida se a hierarquia de navegação funciona. O usuário encontra o que busca só pela estrutura de menus. Use depois do card sorting, para validar a estrutura proposta. Ver BG.7.5.
+Tree Testing — teste de hierarquia (O'Brien). Valida se a hierarquia de navegação funciona. O usuário encontra o que busca só pela estrutura de menus. Use depois do card sorting, para validar a estrutura proposta. Ver BG.7.5.
 
-Think-Aloud Protocol (Ericsson e Simon, 1984). Participante verbaliza pensamentos durante a tarefa. Revela raciocínio em tempo real. Use durante usability testing, como técnica complementar. Ver BG.7.6.
+Think-Aloud Protocol — protocolo de verbalização (Ericsson e Simon, 1984). Participante verbaliza pensamentos durante a tarefa. Revela raciocínio em tempo real. Use durante usability testing, como técnica complementar. Ver BG.7.6.
 
 System Usability Scale, SUS (Brooke, 1996). Questionário de dez afirmações. Gera score de zero a cem, comparável com benchmarks globais. Use para medição quantitativa de usabilidade (complementa qualitativo). Benchmark de setor: cerca de sessenta e oito. Ver BG.7.7.
 
@@ -380,7 +380,7 @@ System Usability Scale, SUS (Brooke, 1996). Questionário de dez afirmações. G
 
 A [[#FASE 9 — TESTES DE SOLUÇÃO E USABILIDADE|Fase 9]] é a última ponte antes da construção. A diferença em relação à [[#FASE 8 — IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES|Fase 8]] é de profundidade e comprometimento: a Fase 8 produziu conceitos testados em protótipo; a Fase 9 converte os aprendizados em especificação vinculante — o que o MVP fará, para quem, com quais limitações, e como medirá sucesso.
 
-MoSCoW separa o MVP do produto sonhado. Van Westendorp antecipa o erro caro de descobrir tarde que o cliente nunca pagaria o preço imaginado. User stories INVEST impedem o gold-plating da primeira versão. Quem trata a [[#FASE 9 — TESTES DE SOLUÇÃO E USABILIDADE|Fase 9]] como burocracia e pula direto para a construção descobre que estava construindo coisa diferente do que precisava — e retrabalho de MVP custa duas a três vezes mais do que retrabalho de spec.
+MoSCoW separa o MVP do produto sonhado. Van Westendorp antecipa o erro caro de descobrir tarde que o cliente nunca pagaria o preço imaginado. User stories INVEST impedem o gold-plating da primeira versão. Quem trata a [[#FASE 9 — TESTES DE SOLUÇÃO E USABILIDADE|Fase 9]] como burocracia e pula direto para a construção descobre que estava construindo coisa diferente do que precisava. Retrabalho de MVP custa duas a três vezes mais do que retrabalho de spec.
 
 # fase9 #testes-solucao #usabilidade #van-westendorp #moscow #especificacao-mvp #gate-direcionalidade #scale-readiness #invest
 

@@ -5,7 +5,7 @@ part: parte-ii
 
 ## FASE 11 — VALIDAÇÃO DO MODELO DE NEGÓCIO
 
-A cascata visual de Unit Economics, da receita por cliente à saúde do negócio:
+A cascata visual de unit economics (economia por unidade — quanto você ganha e gasta por cliente), da receita por cliente à saúde do negócio:
 
 ```mermaid
 flowchart LR
@@ -69,9 +69,9 @@ flowchart TB
 
 ### O que esse apêndice cobre
 
-Verificação de que o negócio faz sentido economicamente. Que você consegue adquirir clientes por um custo menor do que eles geram de valor ao longo do tempo. Com margem suficiente para sustentar a operação, e crescer. Aqui o foco sai do produto, e vai para a máquina econômica.
+Verificação de que o negócio faz sentido economicamente. Que você consegue adquirir clientes por um custo menor do que eles geram de valor ao longo do tempo. Com margem suficiente para sustentar a operação e crescer. Aqui o foco sai do produto e vai para a máquina econômica.
 
-O entregável é o Canvas Financeiro Validado. Modelo com números reais (não estimados) sobre CAC, LTV, margem, ciclo de vendas, tempo de payback, e sustentabilidade.
+O entregável é o Canvas Financeiro Validado. Modelo com números reais (não estimados) sobre CAC (custo de aquisição de cliente), LTV (valor total gerado por cliente ao longo do tempo), margem, ciclo de vendas, tempo de payback (tempo para recuperar o que você gastou para adquirir o cliente) e sustentabilidade.
 
 ### POR QUE
 
@@ -79,7 +79,7 @@ Produtos que usuários amam podem levar empresas à falência. Se o CAC é maior
 
 ### Quando usar
 
-Comece depois de oito ou mais semanas de operação do MVP com usuários pagantes. Termine quando você tiver números reais, e modelagem sustentável. Ou decidir pivotar o modelo. Revisite a cada três a seis meses durante os primeiros três anos.
+Comece depois de oito ou mais semanas de operação do MVP com usuários pagantes. Termine quando você tiver números reais e modelagem sustentável. Ou quando decidir pivotar o modelo. Revisite a cada três a seis meses durante os primeiros três anos.
 
 ### Quem envolve
 
@@ -91,29 +91,29 @@ Dez passos.
 
 #### Passo 1, meça CAC real
 
-CAC, ou Custo de Aquisição de Cliente, é o gasto total em marketing mais vendas no período, dividido pelos novos clientes pagantes adquiridos no período.
+CAC (custo de aquisição de cliente) é o gasto total em marketing mais vendas no período, dividido pelos novos clientes pagantes adquiridos no período.
 
-Inclua no "gasto total" quatro coisas. Ads pagos. Salário ou tempo de quem vende ou faz marketing (mesmo você — valorize o seu tempo). Ferramentas (CRM, automação, design). Custos de eventos, brindes, e campanhas.
+Inclua no "gasto total" quatro coisas. Ads pagos. Salário ou tempo de quem vende ou faz marketing (mesmo você — valorize o seu tempo). Ferramentas (CRM, automação, design). Custos de eventos, brindes e campanhas.
 
 Não inclua os custos de operação do produto em si.
 
 > [!warning] Meça por canal separadamente
 > Um canal pode ter CAC baixo, e outro altíssimo. Média esconde. Sem segmentação por canal, você não sabe qual canal está realmente funcionando.
 
-#### Passo 2, calcule LTV (Lifetime Value)
+#### Passo 2, calcule LTV (valor total gerado por cliente ao longo do tempo)
 
-A fórmula simples para modelo recorrente (SaaS ou assinatura): LTV é igual à receita média por cliente por mês, vezes a margem bruta, vezes os meses médios de retenção.
+A fórmula simples para modelo recorrente (SaaS ou assinatura): LTV é igual à receita média por cliente por mês, vezes a margem bruta (receita menos custo direto), vezes os meses médios de retenção.
 
 A fórmula simples para modelo transacional: LTV é igual à receita média por transação, vezes a margem bruta, vezes a frequência anual, vezes os anos esperados.
 
 > [!tip] Apêndice CB — Subscription Economy
 > O [[apendice-cb|Apêndice CB — Subscription Economy]] cobre a mecânica específica de negócios recorrentes: MRR waterfall (new, expansion, contraction, churn), dinâmica de NRR, pricing de tiers e as armadilhas de churns que não aparecem na DRE até ser tarde demais.
 
-No início, você não tem dados históricos longos. Use proxies. A retenção observada nos primeiros três a seis meses, extrapolada com cuidado. A taxa de churn mensal observada — LTV é aproximadamente igual a ARPU dividido por churn (simplificado).
+No início, você não tem dados históricos longos. Use proxies. A retenção observada nos primeiros três a seis meses, extrapolada com cuidado. A taxa de churn (cancelamento — percentual de clientes que param de pagar) mensal observada — LTV é aproximadamente igual ao ARPU (receita média por usuário) dividido pelo churn (simplificado).
 
 #### Passo 3, meça o tempo de payback de CAC
 
-Payback é igual ao CAC dividido pela receita mensal por cliente, vezes a margem.
+Payback period (tempo para recuperar o que você gastou para adquirir o cliente) é igual ao CAC dividido pela receita mensal por cliente, vezes a margem.
 
 Esse é o número de meses até você "pagar" o CAC de um cliente. Abaixo de doze meses é bom. Acima de vinte e quatro meses, você precisa de muito capital para crescer.
 
@@ -130,7 +130,7 @@ Teste experimentalmente. Aumente o preço para novos clientes em vinte a trinta 
 
 Quatro categorias. Custos fixos (aluguel, salários, ferramentas, SaaS). Custos variáveis por cliente (infraestrutura, suporte, transação, comissão). Investimentos pontuais (equipamentos, marcas, desenvolvimento). Impostos.
 
-Margem bruta é igual à receita, menos os custos variáveis diretos, dividido pela receita. SaaS saudável tem mais de setenta por cento. Marketplaces tem mais de trinta por cento. Serviços podem ter menos de cinquenta por cento, e ainda ser bom negócio.
+Gross margin (margem bruta — receita menos custo direto, dividido pela receita): SaaS saudável tem mais de setenta por cento. Marketplaces têm mais de trinta por cento. Serviços podem ter menos de cinquenta por cento e ainda ser bom negócio.
 
 #### Passo 6, identifique alavancas de eficiência
 
@@ -153,16 +153,16 @@ Isso não é "plano de negócios" para impressionar investidor. É ferramenta pa
 
 ##### Modelo financeiro profissional em três cenários
 
-O plano de uma página é ponto de partida. Modelo financeiro completo em planilha (Excel ou Google Sheets) é obrigatório para qualquer decisão de captação, investimento em time, ou canal. O padrão mínimo exige três cenários explícitos com premissas auditáveis.
+O plano de uma página é ponto de partida. Modelo financeiro completo em planilha (Excel ou Google Sheets) é obrigatório para qualquer decisão de captação, investimento em time ou canal. O padrão mínimo exige três cenários explícitos com premissas auditáveis.
 
 A estrutura do modelo financeiro tem cinco abas.
 
-**Aba 1, Premissas.** Todas as variáveis que movem o modelo. Crescimento mensal de novos clientes (em percentual). Ticket médio (MRR ou ARR por cliente). Churn mensal (em percentual). NRR (em percentual). CAC por canal. Custo variável por cliente. Custos fixos mensais (folha, tools, office). Timing de contratação por função.
+**Aba 1, Premissas.** Todas as variáveis que movem o modelo. Crescimento mensal de novos clientes (em percentual). Ticket médio (MRR — Monthly Recurring Revenue, ou receita mensal recorrente — ou ARR — Annual Recurring Revenue, receita anual recorrente — por cliente). Churn mensal (em percentual). NRR (Net Revenue Retention — percentual da receita retida e expandida na base de clientes). CAC por canal. Custo variável por cliente. Custos fixos mensais (folha, tools, office). Timing de contratação por função.
 
-**Aba 2, DRE mensal projetada (dezoito a trinta e seis meses).** As linhas: Nova receita, Expansão, Churn, MRR líquido, Custo variável, Margem de contribuição, Folha, Outros custos fixos, EBITDA, e Caixa em mãos. As colunas: mês a mês por dezoito a trinta e seis meses.
+**Aba 2, DRE mensal projetada (dezoito a trinta e seis meses).** As linhas: Nova receita, Expansão, Churn, MRR líquido, Custo variável, Margem de contribuição, Folha, Outros custos fixos, EBITDA e Caixa em mãos. As colunas: mês a mês por dezoito a trinta e seis meses.
 
 > [!note] Leitura dos demonstrativos do próprio negócio
-> O [[apendice-dr|Apêndice DR — Demonstrativos Financeiros]] ensina a ler e interpretar DRE gerencial, balanço, DFC, e capital de giro — incluindo a diferença prática entre EBITDA e fluxo de caixa livre, que move decisões de runway e captação.
+> O [[apendice-dr|Apêndice DR — Demonstrativos Financeiros]] ensina a ler e interpretar DRE gerencial, balanço, DFC e capital de giro — incluindo a diferença prática entre EBITDA e fluxo de caixa livre, que move decisões de runway e captação.
 
 **Aba 3, Três cenários.**
 
@@ -173,7 +173,7 @@ A estrutura do modelo financeiro tem cinco abas.
 | **Agressivo** | Crescimento mais trinta por cento, CAC menos quinze por cento, novo canal entra, expansão antecipada. | Tenho capacidade de execução se acelerar? Preciso contratar antes? |
 
 > [!warning] Regra operacional do cenário conservador
-> O cenário conservador deve mostrar runway de dezoito meses ou mais em qualquer momento. Se não mostra, você está sub-capitalizado. Precisa captar, ou cortar custos *agora*.
+> O cenário conservador deve mostrar runway (tempo de vida do caixa no ritmo atual de gastos) de dezoito meses ou mais em qualquer momento. Se não mostra, você está sub-capitalizado. Precisa captar, ou cortar custos *agora*.
 
 > [!tip] Apêndice CD — Modelagem com Cohorts
 > O [[apendice-cd|Apêndice CD — Modelagem com Cohorts]] mostra como construir a análise de coorte de receita que transforma o churn mensal em projeção de ARR, identifica degradação de coortes antes que apareça na DRE e calcula o LTV real por safra de cliente — base da Aba 4 de sensibilidades abaixo.
@@ -182,7 +182,7 @@ A estrutura do modelo financeiro tem cinco abas.
 
 Teste a saída principal (mês de break-even, EBITDA em vinte e quatro meses, caixa mínimo) contra variações de quatro variáveis. Crescimento (mais ou menos vinte por cento). Ticket médio (mais ou menos quinze por cento). Churn (mais ou menos vinte por cento). CAC (mais ou menos vinte e cinco por cento).
 
-Identifique a variável mais sensível. Aquela em que pequenas mudanças movem muito o resultado. Essa variável é prioridade de atenção, e medição semanal.
+Identifique a variável mais sensível — aquela em que pequenas mudanças movem muito o resultado. Essa variável é prioridade de atenção e medição semanal.
 
 **Aba 5, Break-even analysis.**
 
@@ -273,11 +273,11 @@ Advogado societário deve revisar o cap table antes de qualquer rodada. Custo t�
 
 A pergunta central. Se eu parasse de adquirir novos clientes agora, o negócio seria rentável operacionalmente com os clientes atuais?
 
-Se sim, você tem unit economics saudável. Se não, ajuste preço, custo, ou churn antes de escalar.
+Se sim, você tem unit economics saudável. Se não, ajuste preço, custo ou churn antes de escalar.
 
 #### Passo 9, aplique a pergunta diagnóstica canônica de Paul Graham, Default Alive ou Default Dead?
 
-Essa é talvez a pergunta mais útil que Paul Graham formulou para fundadores em estágio pós-MVP, em ensaio de 2015. Ele conta que, quando conversa com qualquer startup com mais de oito ou nove meses de operação, a primeira coisa que pergunta é isso. E pelos dados dele, metade dos fundadores não sabe responder. Não é tecnicismo. É diagnóstico primário.
+Essa é talvez a pergunta mais útil que Paul Graham formulou para fundadores em estágio pós-MVP, em ensaio de 2015. Ele conta que, quando conversa com qualquer startup com mais de oito ou nove meses de operação, a primeira coisa que pergunta é isso. Pelos dados dele, metade dos fundadores não sabe responder. Não é tecnicismo. É diagnóstico primário.
 
 > [!quote] A pergunta de Default Alive / Default Dead
 > Assumindo que os meus gastos permaneçam constantes, e o meu crescimento de receita mantenha o padrão dos últimos meses, eu chego à lucratividade com o caixa que tenho hoje? Ou não?
@@ -288,7 +288,7 @@ Default Alive (vivo por padrão). Sim, eu chego, sem precisar de mais dinheiro e
 
 Default Dead (morto por padrão). Não, eu vou quebrar antes de virar lucrativo, a menos que alguém escreva outro cheque.
 
-A pergunta é brutal na utilidade dela porque converte "otimismo vago" em "fato numérico". Você precisa de quatro inputs para responder. Despesas atuais. Receita atual. Taxa de crescimento atual. Caixa em mãos. Uma planilha simples projeta mês a mês até caixa zero versus break-even, e dá a resposta. Graham aponta um calculador público (aord.io/calc) útil para o cálculo mecânico.
+A pergunta é brutal na utilidade porque converte "otimismo vago" em "fato numérico". Você precisa de quatro inputs para responder: despesas atuais, receita atual, taxa de crescimento atual e caixa em mãos. Uma planilha simples projeta mês a mês até caixa zero versus break-even, e dá a resposta. Graham aponta um calculador público (aord.io/calc) útil para o cálculo mecânico.
 
 Por que isso importa operacionalmente.
 
@@ -301,7 +301,7 @@ O fundador Default Dead deveria estar focado em consertar o problema fundamental
 
 ##### O Fatal Pinch, a armadilha silenciosa mais perigosa
 
-Graham identifica, num ensaio complementar de 2014, o cenário mais letal que uma startup pode atingir. Default Dead, mais crescimento lento, mais tempo insuficiente para corrigir, mais esperança em investidores. Ele chama de *Fatal Pinch*, o aperto fatal. E argumenta que ele mata mais startups que qualquer fraude, erro técnico, ou concorrente. O roteiro é quase sempre o mesmo, em sete passos.
+Graham identifica, num ensaio complementar de 2014, o cenário mais letal que uma startup pode atingir. É a combinação de Default Dead com crescimento lento, tempo insuficiente para corrigir e esperança depositada em investidores. Ele chama de *Fatal Pinch* (o aperto fatal) e argumenta que ele mata mais startups que qualquer fraude, erro técnico ou concorrente. O roteiro é quase sempre o mesmo, em sete passos.
 
 Startup lança produto moderadamente atraente. Não é ruim. Mas não é irresistível.
 
@@ -320,7 +320,7 @@ Captação falha. Caixa acaba. Empresa morre.
 > [!important] A lição crítica do Fatal Pinch
 > Ele é quase sempre resolvido pela direção errada. O correto em Default Dead com crescimento fraco quase nunca é contratar. É parar e consertar o produto, para que ele seja genuinamente desejado. Parar de captar. Reduzir time se necessário. Voltar a conversar com cliente. Iterar no produto com time menor e mais focado. Contratar mais pessoas nessa fase é exatamente o oposto do que funciona.
 
-A melhor forma de evitar o Fatal Pinch é fazer a pergunta Default Alive ou Default Dead cedo. Aos oito ou nove meses, não aos dezoito. Fundadores que descobrem estar Default Dead aos dezoito meses têm opções drasticamente piores do que os que descobrem aos nove meses.
+A melhor forma de evitar o Fatal Pinch é fazer a pergunta Default Alive ou Default Dead cedo. Aos oito ou nove meses, não aos dezoito. Fundadores que descobrem estar Default Dead aos dezoito meses têm opções muito piores do que os que descobrem aos nove meses.
 
 #### Passo 10, persiga Ramen Profitable, o milestone subestimado
 
@@ -330,11 +330,11 @@ Uma startup é ramen-profitable quando gera receita suficiente para cobrir os cu
 
 Por que ramen-profitable é marco estratégico (e subestimado). Quatro razões.
 
-Tempo infinito. Você não precisa mais de captação para continuar existindo. Pode esperar pelo investidor certo, pelo momento certo do mercado, pela feature que vai destravar tudo. Essa opção, "posso simplesmente esperar", é ativo estratégico enorme.
+Tempo infinito. Você não precisa mais de captação para continuar existindo. Pode esperar pelo investidor certo, pelo momento certo do mercado, pela feature que vai destravar tudo. Essa opção — "posso simplesmente esperar" — é ativo estratégico enorme.
 
-Poder de negociação em captação. Fundos preferem dar dinheiro a quem não precisa do dinheiro. Ramen-profitable aumenta valuation, e melhora termos. Independente da performance operacional. O investidor sabe que não está salvando ninguém. Está apostando.
+Poder de negociação em captação. Fundos preferem dar dinheiro a quem não precisa do dinheiro. Ramen-profitable aumenta valuation e melhora termos, independente da performance operacional. O investidor sabe que não está salvando ninguém. Está apostando.
 
-Redução de estresse psicológico. Muda profundamente a dinâmica interna, e com sócios. Desespero e pânico são substituídos por paciência. Decisões ruins tomadas sob pressão de caixa param de acontecer.
+Redução de estresse psicológico. Muda profundamente a dinâmica interna e com sócios. Desespero e pânico são substituídos por paciência. Decisões ruins tomadas sob pressão de caixa param de acontecer.
 
 Filtro de seriedade. Forçar a equipe a atingir ramen-profitable é disciplina financeira que toda startup deveria ter, e poucas têm. Muitos fundadores pulam esse degrau achando que é "pensamento pequeno". É o oposto. É o primeiro degrau sólido sobre o qual escalar.
 
@@ -386,13 +386,13 @@ Margem bruta. Alvo: sessenta por cento ou mais (varia por modelo).
 
 Churn mensal. Alvo: cinco por cento ou menos.
 
-Burn rate mensal (queima de caixa). Meça gross burn (saída total) e net burn (saída menos entrada). Em empresas pré-PMF, net burn deve ser menor ou igual ao caixa disponível dividido por doze, para sobreviver doze meses. Burn Multiple (net burn dividido por net new ARR) menor ou igual a um vírgula cinco é saudável em SaaS. Acima de três é sinal de eficiência ruim.
+Burn rate (velocidade de gasto mensal): meça gross burn (saída total) e net burn (saída menos entrada). Em empresas pré-PMF, net burn deve ser menor ou igual ao caixa disponível dividido por doze, para sobreviver doze meses. Burn Multiple (net burn dividido por net new ARR) menor ou igual a um vírgula cinco é saudável em SaaS. Acima de três é sinal de eficiência ruim.
 
-Runway em meses (caixa dividido por net burn). Alvo: doze meses ou mais operacionais sempre disponíveis. Iniciar conversas de nova rodada com nove meses ou mais restantes. Menos de seis meses é zona de pânico. Decisões feitas com runway curto são quase sempre ruins.
+Runway em meses (tempo de vida do caixa no ritmo atual de gastos — caixa dividido por net burn). Alvo: doze meses ou mais operacionais sempre disponíveis. Inicie conversas de nova rodada com nove meses ou mais restantes. Menos de seis meses é zona de pânico. Decisões feitas com runway curto são quase sempre ruins.
 
-MRR growth mensal (crescimento de receita recorrente mensal), se aplicável.
+MRR growth mensal (crescimento de MRR mês a mês), se aplicável.
 
-Net Revenue Retention (NRR). Receita da coorte de doze meses atrás hoje, dividida pela receita da mesma coorte naquela época. Cem por cento ou mais indica expansão.
+Net Revenue Retention — NRR (receita da coorte de doze meses atrás hoje, dividida pela receita da mesma coorte naquela época). Cem por cento ou mais indica expansão.
 
 ### SAÍDA DESTA FASE
 
@@ -404,7 +404,7 @@ Você concluiu a [[#FASE 11 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 11]] quan
 4. Payback de doze meses ou menos (tolerável até vinte e quatro em B2B enterprise, com ACV alto e contratos multi-anuais).
 5. Break-even em número de clientes está calculado.
 6. Canal de aquisição principal está testado com CAC real (não estimado).
-7. Plano claro existe para reduzir CAC, ou aumentar LTV. Unit economics positivos, ou caminho crível para positivos em prazo razoável.
+7. Plano claro existe para reduzir CAC ou aumentar LTV. Unit economics positivos, ou caminho crível para positivos em prazo razoável.
 8. Três suposições "que precisam ser verdade" estão explícitas, e com plano de teste.
 
 **Checklist final.**
@@ -513,42 +513,42 @@ O que vem na [[#FASE 12 — PRODUCT-MARKET FIT|Fase 12]]. Product-Market Fit. On
 
 Validação do modelo de negócio exige mix de qualitativo e quantitativo. Detalhamento no [[#APÊNDICE BG — FERRAMENTÁRIO COMPLETO DO EMPREENDEDOR|Apêndice BG]]. Oito ferramentas centrais.
 
-Conjoint Analysis (Paul Green). Central para decisões de pricing e positioning. Revela willingness to pay, e a importância relativa de atributos. Ver BG.8.2.
+Conjoint Analysis (Paul Green) — técnica que revela o peso relativo de cada atributo do produto na decisão de compra e identifica a disposição a pagar real do cliente. Central para decisões de pricing e positioning. Ver BG.8.2.
 
-A/B Testing Rigoroso (Kohavi). Para validar hipóteses causais em pricing, CTA, e onboarding. Ver BG.8.4.
+A/B Testing Rigoroso (Kohavi). Para validar hipóteses causais em pricing, CTA e onboarding. Ver BG.8.4.
 
 Survey Design (Dillman e Krosnick). Escala a validação para centenas de respondentes. Ver BG.8.1.
 
 Net Promoter Score, NPS (Reichheld, 2003). Métrica de lealdade baseada em pergunta única. Use trimestralmente, como pulse de saúde do cliente. Ver BG.8.5.
 
-Customer Effort Score, CES (Dixon, 2010). Mede o esforço do cliente em interação específica. Correlaciona com lealdade melhor que delight. Use depois de ticket de suporte, onboarding, ou renewal. Ver BG.8.6.
+Customer Effort Score, CES (Dixon, 2010). Mede o esforço do cliente em interação específica. Correlaciona com lealdade melhor que delight. Use depois de ticket de suporte, onboarding ou renewal. Ver BG.8.6.
 
 Causal Inference, DiD, RDD, Propensity Score (Pearl, Rubin). Inferir causalidade de dados observacionais quando A/B test é impossível. Use para validar impacto de programas já implantados (referral, CS proativo, mudanças de pricing). Ver BG.8.7.
 
 Assumption Mapping (Bland, 2019). Re-mapear premissas do modelo à medida que aprendizado acumula. Ver BG.9.8.
 
-JTBD Framework (Christensen, Moesta, Ulwick). Análise completa do *job* que o cliente contrata o produto para fazer. Ver BG.11.1.
+JTBD Framework (Christensen, Moesta, Ulwick) — método de análise que identifica o "trabalho" que o cliente está contratando o produto para fazer, separando o contexto da solução. Ver BG.11.1.
 
 ---
 
 ### Exercício aplicado, auditoria de unit economics
 
-A [[#FASE 11 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 11]] trata de validação do modelo de negócio. Esse exercício força você a olhar os seus números reais, sem cosmética. E responder se o modelo fecha.
+A [[#FASE 11 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 11]] trata de validação do modelo de negócio. Esse exercício força você a olhar os seus números reais, sem cosmética, e responder se o modelo fecha.
 
 **Pré-requisito.** Você tem pelo menos cem transações ou clientes reais. Ou dados de operação por pelo menos três meses consecutivos.
 
-Passo 1, calcular CAC real do último trimestre (duas horas).** Total gasto em marketing, vendas, ferramentas, e salários de aquisição é igual a X. Total de clientes novos adquiridos no período é igual a Y. CAC é igual a X dividido por Y. Segmente por canal: orgânico, paid social, indicação, outbound. CAC varia muito entre eles. Se você não consegue segmentar, o próximo passo é instrumentar tracking.
+**Passo 1, calcular CAC real do último trimestre (duas horas).** Some tudo que você gastou em marketing, vendas, ferramentas e salários de aquisição. Esse é X. Conte os clientes novos adquiridos no período. Esse é Y. CAC é X dividido por Y. Segmente por canal: orgânico, paid social, indicação, outbound. CAC varia muito entre eles. Se você não consegue segmentar, o próximo passo é instrumentar tracking.
 
-Passo 2, calcular LTV real (duas horas).** Receita média por cliente por mês, vezes o tempo médio como cliente (igual ao inverso do churn mensal). Subtrair o custo variável (COGS, atendimento direto) para ter LTV líquido. Segmentar por cohort se possível. Os primeiros clientes frequentemente têm dinâmica diferente.
+**Passo 2, calcular LTV real (duas horas).** Multiplique a receita média por cliente por mês pelo tempo médio como cliente (igual ao inverso do churn mensal). Subtraia o custo variável (COGS, atendimento direto) para ter LTV líquido. Segmente por cohort se possível. Os primeiros clientes frequentemente têm dinâmica diferente.
 
-Passo 3, calcular ratios críticos (uma hora).** LTV dividido por CAC (meta: maior que três para SaaS, varia por setor). Payback period (quantos meses para CAC se pagar, meta: menos de doze a dezoito meses). Burn multiple (net burn dividido por net new ARR, meta: menos de dois em estágio de crescimento).
+**Passo 3, calcular ratios críticos (uma hora).** LTV dividido por CAC (meta: maior que três para SaaS, varia por setor). Payback period (quantos meses para CAC se pagar, meta: menos de doze a dezoito meses). Burn multiple (net burn dividido por net new ARR, meta: menos de dois em estágio de crescimento).
 
-Passo 4, decisão honesta.** Se os números estão dentro dos thresholds, você tem permissão de investir em crescimento. Se não estão, *pare*. Escalar um modelo que não fecha é queimar capital. A solução não é "crescer para o valuation". É ajustar até fechar, ou aceitar que não vai fechar e pivotar.
+**Passo 4, decisão honesta.** Se os números estão dentro dos thresholds, você tem permissão de investir em crescimento. Se não estão, *pare*. Escalar um modelo que não fecha é queimar capital. A solução não é "crescer para o valuation". É ajustar até fechar, ou aceitar que não vai fechar e pivotar.
 
 > [!important] Três perguntas diagnósticas no fim da auditoria
 > O CAC pode ser reduzido estruturalmente (canal novo, melhor funil)? O LTV pode ser aumentado (upsell, retenção)? Se nenhuma das duas está disponível em seis a doze meses, o modelo está quebrado. Pivot.
 
-**Comunicação.** Compartilhe esses números com cofundador(es), e com o investidor principal. Modelos bons geram conversas fáceis. Modelos ruins geram desculpas. Desculpas são sinal de problema, não de timing errado.
+**Comunicação.** Compartilhe esses números com cofundador(es) e com o investidor principal. Modelos bons geram conversas fáceis. Modelos ruins geram desculpas. Desculpas são sinal de problema, não de timing errado.
 
 ---
 

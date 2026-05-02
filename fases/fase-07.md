@@ -19,7 +19,7 @@ O entregável é um Relatório de Experimentos. Hipóteses testadas, resultados,
 Hipóteses sem experimentos são só listas bonitas. Experimentos transformam suposição em evidência. Rápido e barato é fundamental. Se um experimento demora três meses, ou custa R$ 50 mil, você está gastando demais para aprender uma coisa só. Cada experimento deve gerar uma decisão clara. Continuar. Ajustar. Pivotar. Ou matar.
 
 > [!note] Apêndice F — Científico vs Lean Startup
-> O desenho de experimento descrito nesta fase combina rigor do método científico (threshold ex-ante, falsificabilidade, isolamento de variável) com velocidade do ciclo Lean (Build-Measure-Learn comprimido em dias, não meses). O [[apendice-f|Apêndice F — Científico vs Lean Startup]] detalha quando priorizar profundidade (pré-registro formal, controle de viés) versus velocidade (experimento mais barato possível). A tensão entre os dois é permanente em early-stage; o apêndice oferece critério de decisão.
+> O desenho de experimento descrito nesta fase combina rigor do método científico (threshold — ponto de corte numérico pré-definido — ex-ante, falsificabilidade, isolamento de variável) com velocidade do ciclo Lean (Build-Measure-Learn comprimido em dias, não meses). O [[apendice-f|Apêndice F — Científico vs Lean Startup]] detalha quando priorizar profundidade (pré-registro formal, controle de viés) versus velocidade (experimento mais barato possível). A tensão entre os dois é permanente em early-stage; o apêndice oferece critério de decisão.
 
 ### Quando usar
 
@@ -70,7 +70,7 @@ Para qualquer outro tipo de experimento (entrevistas, landing page, fake door, p
 > Se você define depois, vai ajustar o critério para "validar" o que você já queria. Isso é auto-engano.
 
 > [!tip] Test Card: a forma canônica do Cartão de Experimento
-> O cartão de experimento descrito acima é a adaptação brasileira do **Test Card** de David Bland & Alexander Osterwalder (Strategyzer, 2019). O tratamento completo está no [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|CZ.9]] — origem histórica, princípios, exemplo brasileiro PadariaPro com smoke test de R$ 1.500 que produziu critério claro de Persevere/Pivote, e variações como Learning Card e Riskiest Assumption Test (RAT). A regra de ouro de CZ.9: critério de sucesso e critério de refutação devem ser **distintos com zona de incerteza no meio**. Se você define só "sucesso ≥10%" sem definir "refutação ≤2%", qualquer resultado entre 2 e 10% vira interpretação flexível conforme conveniência do time.
+> O cartão de experimento descrito acima é a adaptação brasileira do **Test Card** — ferramenta de David Bland & Alexander Osterwalder (Strategyzer, 2019) para documentar hipótese, método, critério e decisão num único cartão antes de rodar qualquer experimento. O tratamento completo está no [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|CZ.9]] — origem histórica, princípios, exemplo brasileiro PadariaPro com smoke test (teste rápido de demanda com landing page ou anúncio, antes de construir qualquer coisa) de R$ 1.500 que produziu critério claro de Persevere/Pivote, e variações como Learning Card (cartão de aprendizado — registro estruturado do resultado de um experimento) e Riskiest Assumption Test (RAT) — teste da premissa mais arriscada. A regra de ouro de CZ.9: critério de sucesso e critério de refutação devem ser **distintos com zona de incerteza no meio**. Se você define só "sucesso ≥10%" sem definir "refutação ≤2%", qualquer resultado entre 2 e 10% vira interpretação flexível conforme conveniência do time.
 
 #### Passo 2, escolha os tipos de experimento apropriados
 
@@ -80,19 +80,19 @@ Catálogo dos oito experimentos mais úteis para validação de problema e clien
 
 Já coberto na [[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]]. Útil também para hipóteses emergentes. Custo baixo. Tempo de uma a duas semanas. Limitação: respostas são opiniões, não ações.
 
-##### Landing Page Test ou Smoke Test
+##### Landing Page Test ou Smoke Test (teste rápido de demanda)
 
 Crie uma página que descreve a sua solução como se ela já existisse. Direcione tráfego por Ads ou e-mails a grupos. Meça a taxa de conversão em cadastros de e-mail, pré-pedidos, ou cliques em "quero comprar".
 
-Como medir: conversão de visitante em ação. Benchmarks iniciais: conversão maior que cinco por cento em e-mail é sinal bom. Maior que dez por cento é forte. Abaixo de dois por cento, a sua promessa não ressoa. Custo de R$ 500 a R$ 2.000 em Ads, mais um dia para montar a página (use Carrd, Framer, Webflow, Unbounce). Tempo de uma a três semanas. Cuidado: tráfego pago precisa ser bem segmentado. Se o público é ruim, conversão baixa não significa que a ideia é ruim.
+Como medir: conversão de visitante em ação. Benchmarks (referências de mercado) iniciais: conversão maior que cinco por cento em e-mail é sinal bom. Maior que dez por cento é forte. Abaixo de dois por cento, a sua promessa não ressoa. Custo de R$ 500 a R$ 2.000 em Ads, mais um dia para montar a página (use Carrd, Framer, Webflow, Unbounce). Tempo de uma a três semanas. Cuidado: tráfego pago precisa ser bem segmentado. Se o público é ruim, conversão baixa não significa que a ideia é ruim.
 
-##### Concierge Experiment
+##### Concierge Experiment (experimento manual)
 
 Você entrega manualmente o valor que o seu produto promete. Sem automatizar nada. Por exemplo: se o produto seria um app de gestão de frota, você mesmo gerencia a frota de um cliente usando planilha e WhatsApp, cobrando pelo serviço.
 
-Como medir: o cliente percebeu valor? Pagou? Indicou? Custo: o seu tempo, durante duas a oito semanas. Tempo total de quatro a doze semanas. A vantagem é que descobre os detalhes operacionais que uma entrevista nunca revelaria.
+Como medir: o cliente percebeu valor? Pagou? Indicou? Custo: o seu tempo, durante duas a oito semanas. Tempo total de quatro a doze semanas. A vantagem é que você descobre os detalhes operacionais que uma entrevista nunca revelaria.
 
-##### Wizard of Oz
+##### Wizard of Oz (produto simulado)
 
 O produto parece funcionar com tecnologia avançada, mas por trás é você fazendo tudo manualmente. Por exemplo: você promete "IA que sugere horários de postagem ideais", e você mesmo, olhando cada cliente, sugere os horários. O cliente nem sabe.
 
@@ -107,19 +107,19 @@ Como medir: número de vendas e cartas. Valor arrecadado. Critério forte: dinhe
 > [!important] Pre-sale é o experimento mais revelador de todos
 > Se as pessoas pagam antecipado por algo que não existe, você tem evidência forte. Se não pagam, tem informação forte também.
 
-##### Fake Door ou Botão Fantasma
+##### Fake Door ou Botão Fantasma (testar interesse sem construir)
 
 Dentro de um produto existente (blog, comunidade), ou de uma página, você coloca um botão que promete uma feature que ainda não construiu. Quando o usuário clica, aparece "em breve" mais formulário.
 
 Como medir: percentual de usuários que clicam. Custo muito baixo. Limitação: mede interesse, não compra.
 
-##### Community Test
+##### Community Test (teste em comunidade)
 
 Compartilhe a ideia em comunidades relevantes (Reddit, grupos de Facebook, Discord, fóruns especializados). Meça reações genuínas, perguntas, pedidos de acesso.
 
 Como medir: engajamento, comentários, DMs. Custo zero. Limitação: comunidades têm viés. Algumas são positivas demais. Outras cínicas demais.
 
-##### A/B Test de proposta de valor
+##### A/B Test (teste comparativo de proposta de valor)
 
 Teste duas ou três formas diferentes de descrever o problema ou a solução, e veja qual converte mais. Útil quando você ainda não sabe como falar com o cliente.
 
@@ -140,7 +140,7 @@ Use entrevistas quando você precisa de profundidade e aprendizados qualitativos
 
 #### Passo 3, operacionalize cada hipótese em uma medida concreta
 
-Esse é a ponte entre teoria e experimento. E é onde a maior parte dos empreendedores se engana. Para cada hipótese prioritária, responda quatro perguntas, nessa ordem.
+Esse é a ponte entre teoria e experimento. É onde a maioria dos empreendedores erra. Para cada hipótese prioritária, responda quatro perguntas, nessa ordem.
 
 Qual é a hipótese testável? Texto exato da hipótese da [[#FASE 6 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 6]].
 
@@ -154,19 +154,19 @@ Exemplo operacionalizado, inspirado no caso MiMoto, do paper de Coali e colegas 
 
 A hipótese: "Tráfego nas grandes capitais é um problema relevante para profissionais." A pergunta no questionário: "Em uma semana típica, quantos dias você fica preso no trânsito no trajeto casa-trabalho?" As respostas possíveis: (a) menos de um dia, (b) um a três dias, (c) três a cinco dias, (d) mais de cinco dias. A medida: percentual de respondentes que escolhem (c) ou (d).
 
-O empreendedor pode escolher outra operacionalização (por exemplo, nota de um a sete, ou foco apenas na resposta "mais de cinco dias"). O importante é que a escolha seja feita antes de ver os dados, documentada, e a mesma aplicada quando a análise for feita.
+Você pode escolher outra forma de medir (por exemplo, nota de um a sete, ou foco apenas na resposta "mais de cinco dias"). O importante é que a escolha seja feita antes de ver os dados, documentada, e aplicada de forma consistente na análise.
 
 > [!important] Quatro regras de operacionalização
-> Ligue a medida à hipótese de forma rastreável. Se alguém te perguntar "por que você escolheu essa métrica e não outra?", você deve conseguir responder em termos da teoria. Defina ex-ante (antes de coletar). Definir medida depois de ver dados é auto-engano matemático. Você inevitavelmente vai escolher a métrica que confirma o que já acredita. Pré-teste as suas perguntas com duas a três pessoas de confiança. Pergunta mal formulada gera lixo. Ajuste antes do campo. Prefira medidas já estabelecidas (KPIs do setor, escalas validadas da literatura de pesquisa) quando existirem, em vez de inventar métricas próprias. A sua métrica só é "nova" se não existir nada comparável.
+> Conecte a medida à hipótese de forma rastreável. Se alguém te perguntar "por que você escolheu essa métrica e não outra?", você precisa conseguir responder em termos da teoria. Defina ex-ante (antes de coletar). Definir medida depois de ver dados é auto-engano matemático — você vai inevitavelmente escolher a métrica que confirma o que já acredita. Pré-teste as suas perguntas com duas a três pessoas de confiança. Pergunta mal formulada gera lixo. Ajuste antes do campo. Prefira medidas já estabelecidas (KPIs do setor, escalas validadas da literatura de pesquisa) quando existirem, em vez de inventar métricas próprias. A sua métrica só é "nova" se não existir nada comparável.
 
 > [!note] Apêndice EJ — Tomada de Decisão como Disciplina
 > A decisão de rodar ou não um experimento — e com que profundidade — é ela mesma uma decisão estruturável. O [[apendice-ej|Apêndice EJ — Tomada de Decisão como Disciplina]] oferece o framework SPADE para documentar critérios antes de agir, e o pré-mortem para antecipar por que um experimento pode produzir conclusão errada. Use especialmente em hipóteses Tipo 1, onde errar o desenho do experimento tem custo alto.
 
 #### Passo 4, defina o threshold antes de começar
 
-Threshold é o valor numérico da sua medida a partir do qual a hipótese será considerada suportada. É o que separa decisão científica de torcida organizada.
+Threshold (ponto de corte numérico) é o valor da sua medida a partir do qual a hipótese será considerada suportada. É o que separa decisão baseada em critério de torcida organizada.
 
-Por exemplo: "Vou considerar a hipótese suportada se pelo menos sessenta por cento dos respondentes do meu ICP escolherem a opção (c) ou (d), ou seja, mais de três dias por semana no trânsito."
+Por exemplo: "Vou considerar a hipótese suportada se pelo menos sessenta por cento dos respondentes do meu ICP (perfil de cliente ideal) escolherem a opção (c) ou (d), ou seja, mais de três dias por semana no trânsito."
 
 O threshold é subjetivo. Você define com base na sua teoria e experiência. Mas uma vez definido, é imóvel até os dados serem analisados. Se você mover o threshold depois, o experimento deixa de ser teste de hipótese, e vira confirmação do que você queria.
 
@@ -174,7 +174,7 @@ Documente o threshold no Cartão de Experimento. Se não houver threshold escrit
 
 ##### Pré-registro formal, a versão cientificamente rigorosa do threshold ex-ante
 
-Pré-registro é a prática canônica em pesquisa científica moderna (Simmons, Nelson, e Simonsohn, 2011; Wicherts e colegas, 2016) para eliminar o que os pesquisadores chamam de "p-hacking", ou "graus de liberdade na análise". A tendência inconsciente de tomar decisões metodológicas após ver os dados, movendo goalposts até encontrar resultado desejado.
+Pré-registro é a prática adotada na pesquisa científica moderna (Simmons, Nelson, e Simonsohn, 2011; Wicherts e colegas, 2016) para eliminar o que os pesquisadores chamam de "p-hacking" — a tendência de ajustar análises até encontrar o resultado desejado. Em outras palavras, você decide como vai analisar os dados antes de coletá-los, não depois.
 
 O empreendedor enfrenta exatamente o mesmo viés. Com custo maior. A análise enviesada aqui não produz artigo acadêmico duvidoso. Produz decisão de investimento com o seu próprio capital, baseada em evidência viciada.
 
@@ -191,13 +191,13 @@ Rode o experimento dentro do prazo planejado. Resista à tentação de esticar o
 
 #### Passo 6, faça a due diligence da amostra antes de olhar o resultado
 
-Esse é o passo mais negligenciado por empreendedores. E o mais importante para uma avaliação honesta. Antes de comparar o resultado com o threshold, verifique três coisas.
+Esse é o passo mais negligenciado por empreendedores. É o mais importante para uma avaliação honesta. Antes de comparar o resultado com o threshold, verifique três coisas.
 
-Tamanho da amostra. Para entrevistas e MVPs qualitativos, dez a quinze pessoas já trazem insight. Para questionários e testes de conversão, você precisa de pelo menos oitenta a cem respostas. E idealmente centenas, se o mercado é massificado. Amostras muito pequenas produzem ruído, não sinal. Se a amostra está pequena, reconheça a limitação e seja mais conservador no próximo passo.
+Tamanho da amostra. Para entrevistas e MVPs qualitativos, dez a quinze pessoas já trazem insight. Para questionários e testes de conversão, você precisa de pelo menos oitenta a cem respostas. Idealmente centenas, se o mercado é massificado. Amostras muito pequenas produzem ruído, não sinal. Se a amostra está pequena, reconheça a limitação e seja mais conservador no próximo passo.
 
 Representatividade. A amostra que você conseguiu reflete o ICP que descreveu na teoria? Mesmo sem amostragem aleatória (quase nunca viável para um empreendedor iniciante), os respondentes precisam ser um "retrato em miniatura" do público-alvo. Se o seu ICP é "donas de pet shop no interior", e oitenta por cento dos respondentes são de capital, a sua amostra está enviesada. Se é "CFOs de empresas de cem ou mais funcionários", e você só conseguiu falar com analistas juniores, você não testou a hipótese real.
 
-Ajuste do threshold se a amostra for enviesada. Se a sua amostra está enviesada para um lado que favorece a hipótese (você testou com early adopters quando o público final é mainstream), aumente o threshold. Seja mais rigoroso. Se está enviesada para um lado que prejudica a hipótese (você testou com um público que não tem o problema na intensidade esperada), considere se o teste faz sentido, ou se deveria ser refeito. O ajuste é registrado no Cartão de Experimento, antes de olhar o resultado final.
+Ajuste do threshold se a amostra for enviesada. Se a sua amostra está enviesada para um lado que favorece a hipótese (você testou com early adopters — primeiros adotantes entusiastas — quando o público final é mainstream), aumente o threshold. Seja mais rigoroso. Se está enviesada para um lado que prejudica a hipótese (você testou com um público que não tem o problema na intensidade esperada), considere se o teste faz sentido, ou se deveria ser refeito. Registre o ajuste no Cartão de Experimento, antes de olhar o resultado final.
 
 > [!important] O princípio da avaliação objetiva
 > Você reconhece as limitações da evidência, e as incorpora ao critério. Em vez de usar as limitações depois para explicar por que o resultado ruim "não conta".
@@ -223,7 +223,7 @@ Abandone. Evidência clara e consistente de que não há negócio aqui.
 
 #### Passo 9, compare o resultado com a teoria, não apenas com o threshold
 
-Esse passo distingue o empreendedor científico do empreendedor meramente "lean". O threshold te diz se a hipótese foi ou não suportada pela amostra. Mas a decisão final deve ser tomada comparando o resultado com a teoria inteira. Não apenas com o número isolado.
+Esse passo distingue o empreendedor que pensa de forma sistemática do empreendedor meramente "lean". O threshold te diz se a hipótese foi ou não suportada pela amostra. Mas a decisão final deve ser tomada comparando o resultado com a teoria inteira, não apenas com o número isolado.
 
 Pergunte-se. Se a hipótese foi refutada: qual pedaço da minha árvore de teoria precisa ser revisado? Existe uma teoria alternativa (que eu já mapeei na [[#FASE 2B — CONSTRUÇÃO DA TEORIA DO NEGÓCIO|Fase 2B]]) que explica melhor esse resultado? O problema é o atributo específico, a relação causal, ou o ICP escolhido?
 
@@ -241,7 +241,7 @@ Resultados negativos, nesse enquadramento, são informação valiosa. Não fraca
 Versione. A Declaração vai para v0.2, v0.3, v0.4. Isso é saudável. Significa que você está aprendendo.
 
 > [!tip] Apêndice CZ — Learning Card (CZ.10)
-> Depois de cada experimento, o par natural do Test Card é o [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Learning Card (CZ.10)]]: documento de uma página que registra o que foi observado (não interpretado), o que foi aprendido, e a decisão tomada (Persevere, Pivote, Abandone). A distinção entre "observação" e "interpretação" no Learning Card é o mecanismo central contra o viés de confirmação pós-experimento. O Banco de Hipóteses atualizado neste passo deve conter o Learning Card de cada experimento concluído.
+> Depois de cada experimento, o par natural do Test Card é o [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Learning Card (CZ.10)]] — cartão de uma página que registra o que foi observado (não interpretado), o que foi aprendido, e a decisão tomada (Persevere, Pivote, Abandone). A distinção entre "observação" e "interpretação" no Learning Card é o mecanismo central contra o viés de confirmação pós-experimento. O Banco de Hipóteses atualizado neste passo deve conter o Learning Card de cada experimento concluído.
 
 ### PERGUNTAS A RESPONDER
 
@@ -261,7 +261,7 @@ Taxa de intenção de compra em pré-venda. Mais de vinte por cento dos qualific
 
 Taxa de conversão em venda antecipada paga. Dois a cinco por cento é sinal moderado. Mais de dez por cento é muito forte.
 
-NPS ou similar em experimentos concierge. Mais de cinquenta sugere valor percebido.
+NPS (Net Promoter Score — índice de lealdade do cliente) ou similar em experimentos concierge. Mais de cinquenta sugere valor percebido.
 
 Retenção de uso em experimentos Wizard of Oz. Se o usuário usa mais de duas vezes por semana, há valor.
 
@@ -271,15 +271,15 @@ Velocidade de aprendizado. Número de hipóteses resolvidas por mês. Benchmark:
 
 ### CALIBRANDO EXPECTATIVAS, o espectro de resultados e a regra dos nove em dez
 
-Empreendedores iniciantes frequentemente chegam à [[#FASE 7 — EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA|Fase 7]] esperando que "o experimento vai validar a minha ideia". Essa expectativa está calibrada errada. E entender a distribuição real de resultados é o que separa o fundador que aprende do fundador que se ilude.
+Empreendedores iniciantes frequentemente chegam à [[#FASE 7 — EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA|Fase 7]] esperando que "o experimento vai validar a minha ideia". Essa expectativa está calibrada errada. Entender a distribuição real de resultados é o que separa o fundador que aprende do fundador que se ilude.
 
-Os resultados de experimentos caem em um espectro, inspirado no framework Antler de validação. Com dois extremos e uma enorme zona intermediária.
+Os resultados de experimentos caem em um espectro, inspirado no framework Antler de validação — uma referência usada pela aceleradora global para categorizar a força dos sinais de demanda. Com dois extremos e uma enorme zona intermediária.
 
 O extremo negativo, "spaghetti sandwiches". A ideia teve rejeição clara. Entrevistados demonstraram pouco interesse. Landing page teve conversão baixa. Pré-venda fracassou. A decisão é fácil. Pivotar. Voltar à matriz de Problema versus ICP (Fases 2 e 4) e criar uma nova hipótese para testar.
 
-O extremo positivo, "overnight cult following". A ideia teve adesão extraordinária. Clientes pagaram antecipado sem hesitar. Vieram indicações espontâneas. Early evangelists começaram a vender por você. Houve pedido explícito de acesso. A decisão é fácil. Construa a empresa. Esse cenário acontece em aproximadamente uma em cada dez tentativas.
+O extremo positivo, "overnight cult following". A ideia teve adesão extraordinária. Clientes pagaram antecipado sem hesitar. Vieram indicações espontâneas. Early evangelists (clientes que viram o produto e passaram a defendê-lo publicamente) começaram a vender por você. Houve pedido explícito de acesso. A decisão é fácil. Construa a empresa. Esse cenário acontece em aproximadamente uma em cada dez tentativas.
 
-O meio do espectro, "área cinzenta". Resultados fracos, confusos, conflitantes, ou enviesados. Alguns clientes interessados, outros indiferentes. Feedback misto. Esse é o cenário onde a maioria dos empreendedores realmente se encontra. E é onde a maioria também se ilude e segue construindo algo que não deveria. A decisão é difícil. Exige critérios explícitos. Não intuição.
+O meio do espectro, "área cinzenta". Resultados fracos, confusos, conflitantes, ou enviesados. Alguns clientes interessados, outros indiferentes. Feedback misto. Esse é o cenário onde a maioria dos empreendedores realmente se encontra. É onde a maioria também se ilude e segue construindo algo que não deveria. A decisão é difícil. Exige critérios explícitos. Não intuição.
 
 > [!important] A regra operacional mais importante deste manual
 > Assuma que, em nove de cada dez ciclos de hipótese, experimento, e análise, a conclusão correta será recomeçar ou pivotar, não seguir. Essa é a distribuição de base. Se você está sempre chegando a conclusões que favorecem seguir em frente, quase certamente está torcendo em vez de analisando.
@@ -294,7 +294,7 @@ Quando você finalmente estiver naquele um em dez, vai saber. Não é ambíguo. 
 
 ##### Exemplo concreto do extremo positivo, Soylent
 
-Quando o Soylent foi lançado por Rob Rhinehart em 2013, via crowdfunding, sem existir ainda em escala, os primeiros adopters não só compravam. Escreviam no fórum. Publicavam receitas próprias. Respondiam dúvidas de outros compradores. Reportavam bugs de formulação. Defendiam a marca publicamente contra críticos. Eram, na prática, funcionários não-pagos da empresa nascente. O que a Antler chama de evangelistas.
+Quando o Soylent foi lançado por Rob Rhinehart em 2013, via crowdfunding, sem existir ainda em escala, os primeiros adotantes não só compravam. Escreviam no fórum. Publicavam receitas próprias. Respondiam dúvidas de outros compradores. Reportavam bugs de formulação. Defendiam a marca publicamente contra críticos. Eram, na prática, funcionários não-pagos da empresa nascente. O que a Antler chama de evangelistas.
 
 Se a sua base de primeiros clientes se comporta assim, sem você ter que puxar, você está naquele um em dez. Se você precisa empurrar cada venda, responder cada objeção sozinho, e os clientes não convidam mais ninguém, você não está. Independentemente do que o seu otimismo te diga.
 
@@ -376,7 +376,7 @@ Hipótese: Donos de padaria pagariam R$ 400 por mês por loja pelo PadariaPro se
 
 Pergunta central: Qual faixa de preço o dono de padaria com três a cinco lojas aceita pagar por software de gestão de estoque com garantia de resultado em sessenta dias?
 
-Desenho: Criar landing page simples (Framer, quatro horas) com três planos — R$ 290, R$ 400 e R$ 590 por mês por loja. CTA "Quero ser um dos primeiros dez". Formulário pede nome, padaria, número de lojas, telefone e compromisso formal de pagar R$ X se a funcionalidade de previsão de demanda estiver pronta em sessenta dias. Tipo de experimento: Fake Door mais Carta de Intenção de Pagamento. Tráfego via três grupos de WhatsApp de donos de padaria (oitenta membros cada) mais LinkedIn. Para cada lead que preencher o formulário, ligar em quarenta e oito horas para confirmar disposição real.
+Desenho: Criar landing page simples (Framer, quatro horas) com três planos — R$ 290, R$ 400 e R$ 590 por mês por loja. CTA (chamada para ação — botão ou link que convida o visitante a agir) "Quero ser um dos primeiros dez". Formulário pede nome, padaria, número de lojas, telefone e compromisso formal de pagar R$ X se a funcionalidade de previsão de demanda estiver pronta em sessenta dias. Tipo de experimento: Fake Door mais Carta de Intenção de Pagamento. Tráfego via três grupos de WhatsApp de donos de padaria (oitenta membros cada) mais LinkedIn. Para cada lead que preencher o formulário, ligar em quarenta e oito horas para confirmar disposição real.
 
 Público: Donos de padaria com três a cinco lojas em SP. Meta mínima de trinta visitantes que se encaixem no perfil. Canal de recrutamento: grupos de WhatsApp mapeados na Fase 5.
 
@@ -390,7 +390,7 @@ Duração: Catorze dias.
 
 Custo: R$ 0 em mídia paga. Aproximadamente oito horas de trabalho (quatro horas para a landing page, quatro horas para as ligações de confirmação).
 
-Riscos e vieses: Preencher formulário é barato e não equivale a pagar. Selection bias: grupos de WhatsApp podem não representar o segmento completo. Confirmação telefônica mitiga o primeiro risco. Instagram ads segmentados em SP como canal paralelo mitiga o segundo.
+Riscos e vieses: Preencher formulário é barato e não equivale a pagar. Selection bias (viés de seleção): grupos de WhatsApp podem não representar o segmento completo. Confirmação telefônica mitiga o primeiro risco. Instagram ads segmentados em SP como canal paralelo mitiga o segundo.
 
 Data de início / fim: Semana 1 — Semana 2 do mesmo mês.
 
@@ -420,7 +420,7 @@ Um fundador de startup de automação em RH tinha ideia de software que mapeava 
 
 A decisão foi cirúrgica. Criou landing page em dois dias (Webflow). Investiu R$ 3.000 em LinkedIn Ads direcionado para VPs de RH em empresas médias. Ofereceu "diagnóstico de cultura" com preço anunciado.
 
-Em três semanas, quarenta e sete leads qualificados. Doze reuniões realizadas. Três empresas ofereceram pré-pagamento. O experimento custou menos de R$ 5 mil total. E validou tanto a demanda quanto a disposição a pagar, antes de qualquer linha de código.
+Em três semanas, quarenta e sete leads qualificados. Doze reuniões realizadas. Três empresas ofereceram pré-pagamento. O experimento custou menos de R$ 5 mil total. Validou tanto a demanda quanto a disposição a pagar, antes de qualquer linha de código.
 
 A lição transferível. Experimento barato antes de construir economiza meses. Pré-venda com pagamento real é o teste mais forte de demanda.
 
@@ -428,7 +428,7 @@ A lição transferível. Experimento barato antes de construir economiza meses. 
 
 ### Transição, Fase 7 para Fase 8
 
-O que você acabou de fazer, ao longo das Fases 6 e 7. Gerou hipóteses bet-the-company. Aplicou CSD, H/E, e R vezes I scoring. Desenhou experimentos com threshold ex-ante. E validou (ou refutou) as premissas mais arriscadas do negócio.
+O que você acabou de fazer, ao longo das Fases 6 e 7. Gerou hipóteses bet-the-company. Aplicou CSD, H/E, e R vezes I scoring. Desenhou experimentos com threshold ex-ante. Validou (ou refutou) as premissas mais arriscadas do negócio.
 
 O que vem nas Fases 8 e 9. Agora que você sabe que o problema é real, e que as premissas centrais se sustentam, começa o trabalho de explorar soluções. Ideação estruturada. Protótipos. Testes de solução com usuários reais. Você passa de "o problema existe?" para "qual é a melhor resposta para ele?".
 
@@ -441,33 +441,33 @@ Experimentos de validação do problema são o coração da metodologia. Essa fa
 
 The Mom Test (Rob Fitzpatrick, 2013). Protocolo de entrevista que evita respostas falsamente positivas. Perguntas sobre vida passada específica, não hipotéticos futuros. Use em toda entrevista de validação de problema. É a ferramenta número um desta fase. Ver BG.6.1.
 
-JTBD Switch Interviews (Bob Moesta). Entrevista focada no momento de troca, quando o cliente largou solução anterior. As quatro forças (push, pull, anxiety, habit) revelam motivações reais de compra. Use quando há histórico de clientes que mudaram de solução, ou em entrevistas com clientes de concorrentes. Ver BG.6.2.
+JTBD Switch Interviews — entrevistas focadas no momento em que o cliente trocou de solução (Bob Moesta). As quatro forças (push, pull, anxiety, habit) revelam motivações reais de compra. Use quando há histórico de clientes que mudaram de solução, ou em entrevistas com clientes de concorrentes. Ver BG.6.2.
 
-Contextual Inquiry (Beyer e Holtzblatt, 1997). Observar usuário realizando tarefa real no contexto de trabalho dele, perguntando sobre decisões em tempo real. Os dados incluem o que a pessoa faz, não só o que diz. Use para entender contexto real de uso, gaps invisíveis, workflows complexos. Ver BG.6.3.
+Contextual Inquiry — observação contextual (Beyer e Holtzblatt, 1997). Você observa o usuário realizando tarefa real no contexto de trabalho dele, perguntando sobre decisões em tempo real. Os dados incluem o que a pessoa faz, não só o que diz. Use para entender contexto real de uso, gaps invisíveis, workflows complexos. Ver BG.6.3.
 
-Day in the Life e Ethnographic Research. Imersão longa (horas, dias) no ambiente natural do usuário. Captura rotinas, relacionamentos, ambientes físicos, tensões sociais. Use quando o contexto cultural ou operacional é crítico, e não capturável em entrevista pontual. Ver BG.6.4.
+Day in the Life e Ethnographic Research (imersão etnográfica). Imersão longa (horas, dias) no ambiente natural do usuário. Captura rotinas, relacionamentos, ambientes físicos, tensões sociais. Use quando o contexto cultural ou operacional é crítico, e não capturável em entrevista pontual. Ver BG.6.4.
 
-In-Depth Interviews (IDIs). Entrevistas individuais semi-estruturadas, de quarenta e cinco a noventa minutos, explorando temas em profundidade. Base para a maioria das validações qualitativas. Use dez a vinte IDIs para saturação de achados em segmento específico. Ver BG.6.6.
+In-Depth Interviews (IDIs) — entrevistas individuais em profundidade. Semi-estruturadas, de quarenta e cinco a noventa minutos, explorando temas em profundidade. Base para a maioria das validações qualitativas. Use dez a vinte IDIs para saturação de achados em segmento específico. Ver BG.6.6.
 
-Laddering Technique e Means-End Chain (Gutman, 1982). "Por que isso importa pra você?" perguntado sucessivamente, até chegar em valores pessoais profundos. Revela motivações que o cliente não articula de primeira. Use quando se suspeita que a decisão de compra é emocional, além de funcional. Ver BG.6.7.
+Laddering Technique e Means-End Chain — técnica da escada de valor (Gutman, 1982). "Por que isso importa pra você?" perguntado sucessivamente, até chegar em valores pessoais profundos. Revela motivações que o cliente não articula de primeira. Use quando se suspeita que a decisão de compra é emocional, além de funcional. Ver BG.6.7.
 
-Diary Studies. Participantes registram experiências ao longo de dias ou semanas em formato estruturado. Captura comportamento cotidiano em contexto real. Reduz viés de recall. Use para entender padrões ao longo do tempo (rotinas, sazonalidades, evolução). Ver BG.6.8.
+Diary Studies (diários de uso). Participantes registram experiências ao longo de dias ou semanas em formato estruturado. Captura comportamento cotidiano em contexto real. Reduz viés de recall. Use para entender padrões ao longo do tempo (rotinas, sazonalidades, evolução). Ver BG.6.8.
 
-Focus Groups (Merton, Krueger). Discussão facilitada em grupo pequeno (seis a dez pessoas). O valor distintivo está na interação entre participantes. Use para explorar diversidade de perspectivas e linguagem do segmento. Cuidado em temas sensíveis. Ver BG.6.5.
+Focus Groups (grupos focais) — (Merton, Krueger). Discussão facilitada em grupo pequeno (seis a dez pessoas). O valor distintivo está na interação entre participantes. Use para explorar diversidade de perspectivas e linguagem do segmento. Cuidado em temas sensíveis. Ver BG.6.5.
 
-Grounded Theory (Glaser e Strauss, 1967). Construir teoria a partir de dados qualitativos, através de iteração entre coleta e análise. Use em pesquisa profunda, onde queremos entender "por que" algo acontece, não apenas "o que". Ver BG.9.1.
+Grounded Theory — teoria fundamentada nos dados (Glaser e Strauss, 1967). Você constrói teoria a partir dos dados qualitativos, através de iteração entre coleta e análise. Use em pesquisa profunda, onde queremos entender "por que" algo acontece, não apenas "o que". Ver BG.9.1.
 
-Thematic Analysis (Braun e Clarke, 2006). Seis fases sistemáticas para identificar, analisar, e reportar temas em dados qualitativos. Mais rápido que grounded theory. Mais rigoroso que análise casual. Use como método padrão para consolidar achados de dez a vinte entrevistas. Ver BG.9.2.
+Thematic Analysis — análise temática (Braun e Clarke, 2006). Seis fases sistemáticas para identificar, analisar, e reportar temas em dados qualitativos. Mais rápido que grounded theory. Mais rigoroso que análise casual. Use como método padrão para consolidar achados de dez a vinte entrevistas. Ver BG.9.2.
 
-Affinity Diagramming e KJ Method (Kawakita). Técnica visual para organizar grandes volumes de dados qualitativos em grupos temáticos emergentes via post-its. Use para síntese rápida em workshop colaborativo. Ver BG.9.3.
+Affinity Diagramming e KJ Method (Kawakita) — diagrama de afinidade. Técnica visual para organizar grandes volumes de dados qualitativos em grupos temáticos emergentes via post-its. Use para síntese rápida em workshop colaborativo. Ver BG.9.3.
 
-Empathy Mapping (Dave Gray, 2010). Mapa visual de estados internos do usuário em momento específico (vê, ouve, diz, faz, pensa, sente). Use depois de coletar dados, para internalização pela equipe. Ver BG.9.5.
+Empathy Mapping (Dave Gray, 2010) — mapa de empatia. Mapa visual de estados internos do usuário em momento específico (vê, ouve, diz, faz, pensa, sente). Use depois de coletar dados, para internalização pela equipe. Ver BG.9.5.
 
-Assumption Mapping (David Bland, 2019). Matriz de certeza versus risco das premissas do negócio. Prioriza o que testar primeiro. Use no início da fase, para definir onde focar a energia de validação. Ver BG.9.8.
+Assumption Mapping (David Bland, 2019) — mapa de premissas. Matriz de certeza versus risco das premissas do negócio. Prioriza o que testar primeiro. Use no início da fase, para definir onde focar a energia de validação. Ver BG.9.8.
 
-Pre-mortem (Gary Klein). Imaginar que a validação falhou, e descrever por quê. Use antes de montar o plano de experimentos. Ver BG.5.3.
+Pre-mortem — pré-morte (Gary Klein). Imagine que a validação falhou, e descreva por quê. Use antes de montar o plano de experimentos. Ver BG.5.3.
 
-Expected Value (Pascal e Fermat). Priorizar hipóteses por valor esperado vezes probabilidade vezes custo. Ver BG.5.7.
+Expected Value — valor esperado (Pascal e Fermat). Priorize hipóteses por valor esperado vezes probabilidade vezes custo. Ver BG.5.7.
 
 ---
 
@@ -479,11 +479,11 @@ A [[#FASE 7 — EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA|Fase 7]] trata de experi
 
 **Design de experimento, sessenta minutos por hipótese.** Para cada hipótese escolhida, defina quatro coisas. Qual experimento vai validar ou refutar (entrevista, survey, landing page, teste A/B, observação etnográfica)? Qual o threshold de sucesso, em números específicos, não "bom" ou "razoável"? Qual o prazo, ou seja, quando você encerra o experimento? E quem é o responsável pela execução?
 
-**Execução, cinco dias de trabalho.** Rodar os três experimentos em paralelo. Documentar tudo em um único arquivo. Um documento de experimento por hipótese. Com dados brutos, decisões tomadas, e problemas encontrados.
+**Execução, cinco dias de trabalho.** Rode os três experimentos em paralelo. Documente tudo em um único arquivo. Um documento de experimento por hipótese. Com dados brutos, decisões tomadas, e problemas encontrados.
 
 **Síntese, duas horas na sexta.** Para cada experimento, três perguntas. O threshold foi atingido? A hipótese está validada, refutada, ou inconclusiva? Qual a próxima ação. Dobrar aposta. Ajustar. Descartar. Ou rodar experimento de follow-up.
 
-**Comunicação, trinta minutos.** Compartilhar a síntese com cofundador, e eventualmente com investidores. Documento de uma página por hipótese é suficiente.
+**Comunicação, trinta minutos.** Compartilhe a síntese com cofundador, e eventualmente com investidores. Documento de uma página por hipótese é suficiente.
 
 > [!tip] Workflow semanal sustentável
 > Esse é workflow semanal sustentável. Fazer isso doze semanas seguidas equivale a validar ou refutar trinta a trinta e seis hipóteses. Mais do que a maioria das startups faz no primeiro ano inteiro. Disciplina de execução é o que separa startup que avança de startup que gira em hipóteses.

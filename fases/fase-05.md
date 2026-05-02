@@ -16,7 +16,7 @@ O entregável é um Dossiê de Mercado. Documento que posiciona a sua oportunida
 
 ### POR QUE
 
-Empreendedores apaixonados tendem a acreditar que "não há concorrentes", ou que "o mercado é enorme". Ambas as afirmações são quase sempre falsas. O mapeamento de mercado força você a enxergar a realidade competitiva. Existem soluções (mesmo que ruins). Existem substitutos (incluindo "fazer nada"). Existem players grandes que podem te copiar. Existe regulamentação que pode te inviabilizar.
+Empreendedores apaixonados tendem a acreditar que "não há concorrentes", ou que "o mercado é enorme". Ambas as afirmações são quase sempre falsas. O mapeamento de mercado força você a enxergar a realidade competitiva. Existem soluções (mesmo que ruins). Existem substitutos (incluindo "fazer nada"). Existem players (concorrentes e participantes do mercado) grandes que podem te copiar. Existe regulamentação que pode te inviabilizar.
 
 Sem esse mapa, você empreende às cegas. Com ele, você toma decisões informadas sobre posicionamento, diferenciação, e estratégia.
 
@@ -34,15 +34,15 @@ Nove passos.
 
 #### Passo 1, defina o mercado corretamente
 
-Mercado não é "software". Não é "restaurantes". Mercado é a intersecção entre tipo de cliente, *job* que você resolve, e geografia. Por exemplo: "software de gestão de caixa para restaurantes de pequeno porte em capitais brasileiras que fazem delivery próprio". Isso é um mercado que pode ser estimado.
+Mercado não é "software". Não é "restaurantes". Mercado é a intersecção entre tipo de cliente, problema que você resolve, e geografia. Por exemplo: "software de gestão de caixa para restaurantes de pequeno porte em capitais brasileiras que fazem delivery próprio". Isso é um mercado que pode ser estimado.
 
 #### Passo 2, estime o tamanho do mercado (TAM, SAM, SOM)
 
-TAM (*Total Addressable Market*) é o tamanho total do mercado global para o problema. É o teto absoluto.
+TAM (mercado total disponível) é o tamanho total do mercado global para o problema. É o teto absoluto.
 
-SAM (*Serviceable Addressable Market*) é a parte do TAM que a sua empresa pode realisticamente atender (geograficamente, tecnologicamente, regulatoriamente).
+SAM (mercado que você pode alcançar) é a parte do TAM que a sua empresa pode realisticamente atender — geograficamente, tecnologicamente, regulatoriamente.
 
-SOM (*Serviceable Obtainable Market*) é a parte do SAM que você pode realisticamente capturar nos primeiros três a cinco anos. Em geral, é um percentual pequeno (de um a dez por cento).
+SOM (mercado que você pode capturar realisticamente) é a parte do SAM que você pode conquistar nos primeiros três a cinco anos. Em geral, é um percentual pequeno (de um a dez por cento).
 
 A visualização em círculos concêntricos:
 
@@ -60,9 +60,9 @@ flowchart TD
 ```
 
 > [!warning] O que investidor checa em TAM/SAM/SOM
-> Investidor checa consistência. TAM otimista sem SOM realista é sonho. SOM ambicioso sem TAM que sustenta é conta que não fecha. Estime *bottom-up* (número de clientes vezes ticket), não só *top-down* (percentual de mercado externo).
+> Investidor checa consistência. TAM otimista sem SOM realista é sonho. SOM ambicioso sem TAM que sustenta é conta que não fecha. Estime bottom-up (de baixo para cima: número de clientes vezes ticket), não só top-down (de cima para baixo: percentual de mercado externo).
 
-Calcule top-down e bottom-up, e compare. *Top-down*: dados de mercado públicos (IBGE, Abrasel, associações, relatórios pagos como Statista e Gartner, se acessíveis). *Bottom-up*: número estimado de clientes vezes a receita anual média por cliente.
+Calcule top-down e bottom-up, e compare. Top-down: dados de mercado públicos (IBGE, Abrasel, associações, relatórios pagos como Statista e Gartner, se acessíveis). Bottom-up: número estimado de clientes vezes a receita anual média por cliente.
 
 Se os dois números divergem muito, há algo errado em uma das estimativas. Investigue.
 
@@ -70,34 +70,36 @@ Se os dois números divergem muito, há algo errado em uma das estimativas. Inve
 
 Categorize em quatro grupos.
 
-Concorrentes diretos. Outras soluções que resolvem o mesmo *job* da mesma forma. Por exemplo, outros softwares da mesma categoria.
+Concorrentes diretos. Outras soluções que resolvem o mesmo problema da mesma forma. Por exemplo, outros softwares da mesma categoria.
 
-Concorrentes indiretos. Soluções que resolvem o mesmo *job* de forma diferente. Por exemplo, planilha de Excel, caderno físico, contador terceirizado.
+Concorrentes indiretos. Soluções que resolvem o mesmo problema de forma diferente. Por exemplo, planilha de Excel, caderno físico, contador terceirizado.
 
-Substitutos. Ações que eliminam o *job*. Por exemplo, o dono decide não oferecer delivery, e evita o problema.
+Substitutos. Ações que eliminam o problema. Por exemplo, o dono decide não oferecer delivery, e evita o problema.
 
 Status quo, ou seja, "não fazer nada". É a alternativa mais poderosa. Por que as pessoas simplesmente aceitam conviver com o problema? Subestimar o status quo é a causa de trinta por cento das startups fracassadas.
 
 > [!important] Sua concorrência real raramente é outra startup
 > A concorrência real é o jeito que o trabalho é feito hoje. O Excel do auxiliar administrativo. O grupo de WhatsApp onde o gerente despacha ordens. A planilha que ninguém entende mas todo mundo respeita. O hábito silencioso de ignorar o problema porque "sempre foi assim". Reconhecer isso muda para onde você direciona a comparação competitiva. Você para de comparar features com "a Startup X" e começa a comparar a sua proposta com o comportamento atual do cliente. É nesse comportamento que mora a urgência (ou a falta dela).
 
-Para cada alternativa, levante seis dimensões. Quem a oferece. Preço. Pontos fortes e fracos percebidos (use verbatim das Fases 3 e 4). Posicionamento e público-alvo. Tempo de mercado. E a pergunta-chave: *por que essa alternativa é tolerada hoje?* Se ninguém está ativamente reclamando dela, procurando substituto, ou alocando tempo para contornar os defeitos, a dor provavelmente não é grande o suficiente para motivar troca. Cunhas fortes substituem coisas que doem, não coisas apenas inconvenientes.
+Para cada alternativa, levante seis dimensões: quem a oferece; preço; pontos fortes e fracos percebidos (use falas diretas das Fases 3 e 4); posicionamento e público-alvo; tempo de mercado; e a pergunta-chave: por que essa alternativa é tolerada hoje?
 
-Minimamente, faça esse levantamento para as cinco a dez alternativas mais relevantes.
+Se ninguém está reclamando ativamente, procurando substituto, ou alocando tempo para contornar os defeitos, a dor provavelmente não é grande o suficiente para motivar troca. Cunhas fortes substituem coisas que doem, não coisas apenas inconvenientes.
+
+Mapeie pelo menos as cinco a dez alternativas mais relevantes.
 
 > [!note] Monitorar concorrentes não é tarefa pontual — é sistema contínuo
 > O [[apendice-ee|Apêndice EE — Inteligência Competitiva]] cobre como estruturar monitoramento sistemático de mercado, conduzir análises win/loss e produzir battle cards acionáveis. Aplicado a esta fase, transforma o levantamento de alternativas de um documento estático em inteligência viva que alimenta decisões de roadmap e vendas.
 
 > [!tip] Strategy Canvas para visualizar diferenciação
-> Listar as alternativas é o primeiro passo. O segundo é decidir como você se posiciona contra elas — e aqui o [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Strategy Canvas (CZ.4)]] de Kim & Mauborgne (Blue Ocean Strategy) é a ferramenta certa. Liste 8-15 fatores de competição do setor, traçe a curva de valor de cada concorrente principal (1-10 em cada fator) e desenhe a curva nova que você quer construir. Curva nova "ligeiramente acima" da média do setor é otimização de Red Ocean. Curva visualmente distinta — onde você elimina/reduz fatores que ninguém mais ousa cortar e cria fatores que ninguém oferece — é Blue Ocean. Veja CZ.4 para o caso completo Stone vs adquirentes tradicionais.
+> Listar as alternativas é o primeiro passo. O segundo é decidir como você se posiciona contra elas — e aqui o [[#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Strategy Canvas (CZ.4)]] de Kim & Mauborgne (Blue Ocean Strategy — ferramenta para identificar mercados sem concorrência direta) é a escolha certa. Liste 8-15 fatores de competição do setor, trace a curva de valor de cada concorrente principal (1-10 em cada fator) e desenhe a curva nova que você quer construir. Curva nova "ligeiramente acima" da média do setor é otimização de Red Ocean (mercado com muita concorrência). Curva visualmente distinta — onde você elimina/reduz fatores que ninguém mais ousa cortar e cria fatores que ninguém oferece — é Blue Ocean. Veja CZ.4 para o caso completo Stone vs adquirentes tradicionais.
 
 #### Passo 4, entenda a dinâmica do mercado
 
-Responda cinco perguntas. O mercado está crescendo, estável, ou encolhendo? (Busque dados dos últimos três a cinco anos.) Existem tendências estruturais? (Digitalização, regulação nova, mudanças demográficas, mudanças de comportamento.) Existe concentração em poucos players grandes, ou é fragmentado? Existem movimentos de consolidação (M&A)? Há ciclos sazonais?
+Responda cinco perguntas. O mercado está crescendo, estável, ou encolhendo? (Busque dados dos últimos três a cinco anos.) Existem tendências estruturais? (Digitalização, regulação nova, mudanças demográficas, mudanças de comportamento.) O mercado está concentrado em poucos players grandes, ou é fragmentado? Existem movimentos de consolidação (fusões e aquisições)? Há ciclos sazonais?
 
 #### Passo 5, mapeie os canais de aquisição de clientes usados no setor
 
-Como os players atuais adquirem clientes? Vendas diretas. Parcerias. Marketing digital. Eventos. Boca a boca. Representantes. Isso indica o que provavelmente vai funcionar para você, e onde o custo de aquisição pode ser caro.
+Como os players atuais adquirem clientes? Vendas diretas. Parcerias. Marketing digital. Eventos. Boca a boca. Representantes. Isso indica o que provavelmente vai funcionar para você, e onde o custo de aquisição pode ser alto.
 
 > [!tip] Apêndice DU — GTM Playbook
 > O [[apendice-du|Apêndice DU — GTM Playbook]] aprofunda a tradução desse mapeamento de canais em estratégia de go-to-market operacional: sequenciamento de canais, modelo de cobertura, playbook de vendas e definição de ICP por canal. Use após concluir este passo para transformar o levantamento em plano executável.
@@ -111,7 +113,7 @@ Se você atua em saúde, finanças, educação, transporte, alimentação, energ
 
 #### Passo 7, identifique barreiras de entrada e vantagens competitivas sustentáveis
 
-O que impede novos concorrentes (incluindo grandes empresas) de te copiar rapidamente? Economias de escala? Network effects? Dados proprietários? Marca? Switching costs?
+O que impede novos concorrentes (incluindo grandes empresas) de te copiar rapidamente? Economias de escala? Network effects (efeitos de rede)? Dados proprietários? Marca? Switching costs (custo de troca para o cliente)?
 
 > [!warning] Execução não é barreira
 > Seja realista. "Execução" não é barreira de entrada. Qualquer um pode executar bem. Barreira é estrutural. É o que existe depois que você sai do escritório.
@@ -138,10 +140,10 @@ quadrantChart
 
 Escolha dois eixos que importam para o ICP, não para você. Preço versus profundidade. DIY versus completo. Generalista versus vertical. Quadrantes vazios são oportunidades. Quadrantes cheios são guerras. Onde você se posiciona define a sua cunha.
 
-A matriz visual é depois complementada por tabela comparando você com três a sete concorrentes principais em cinco a dez dimensões relevantes. Preço, features, público-alvo, pontos fortes, pontos fracos, diferenciação declarada.
+Depois complemente a matriz visual com uma tabela comparando você com três a sete concorrentes principais em cinco a dez dimensões relevantes: preço, features, público-alvo, pontos fortes, pontos fracos, diferenciação declarada.
 
 > [!tip] Apêndice S — Category Design
-> Se a análise da matriz revelar um quadrante vazio em que nenhum player se posiciona, você pode estar diante de oportunidade de criar uma categoria nova, não apenas competir melhor dentro das existentes. O [[apendice-s|Apêndice S — Category Design]] cobre como nomear, enquadrar e liderar uma categoria, baseado no framework de Al Ramadan e colegas. Aplicado aqui, transforma o quadrante vazio de dado descritivo em tese estratégica.
+> Se a análise da matriz revelar um quadrante vazio em que nenhum player se posiciona, você pode estar diante de uma oportunidade de criar uma categoria nova — não apenas competir melhor dentro das existentes. O [[apendice-s|Apêndice S — Category Design]] cobre como nomear, enquadrar e liderar uma categoria, baseado no framework de Al Ramadan e colegas. Aplicado aqui, transforma o quadrante vazio de dado descritivo em tese estratégica.
 
 > [!note] Posicionamento de marca é uma das saídas desta fase, não só análise competitiva
 > A matriz e o canvas da cunha definem onde você compete. O [[apendice-dx|Apêndice DX — Branding e Posicionamento de Marca]] complementa ao definir como você quer ser percebido nessa posição — território de marca, promessa central e coerência de identidade. Os dois artefatos (cunha + posicionamento) devem ser desenvolvidos em paralelo.
@@ -167,7 +169,7 @@ SOM estimado em reais por ano. Calculado por pelo menos dois métodos convergent
 
 Número de concorrentes mapeados. Pelo menos cinco. Entre diretos, indiretos, e substitutos (incluindo o status quo: Excel, papel e caneta, "a pessoa faz sozinha"). Se você achou zero diretos, investigue de novo.
 
-Crescimento anual do mercado (CAGR). Estime mesmo na ausência de relatório pronto. Cruze duas fontes (Google Trends, dados setoriais públicos, proxies correlatos). Benchmark: CAGR de quinze por cento ou mais em B2B SaaS, e dez por cento ou mais em consumer, sinaliza mercado em expansão. Abaixo de cinco por cento indica mercado estagnado (possível, mas exige estratégia diferente).
+Crescimento anual do mercado (CAGR — taxa de crescimento composta ao ano). Estime mesmo na ausência de relatório pronto. Cruze duas fontes (Google Trends, dados setoriais públicos, proxies (indicadores indiretos) correlatos). Benchmark: CAGR de quinze por cento ou mais em B2B SaaS, e dez por cento ou mais em consumer, sinaliza mercado em expansão. Abaixo de cinco por cento indica mercado estagnado (possível, mas exige estratégia diferente).
 
 Dispersão competitiva. Concentrado se um player tem quarenta por cento ou mais de share, ou se top três somam setenta por cento ou mais. Fragmentado se top cinco somam menos de trinta por cento. Fragmentado favorece entrada por cunha. Concentrado exige diferencial forte ou nicho mal-atendido.
 
@@ -188,7 +190,7 @@ Você concluiu a [[#FASE 5 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 5]] qu
 5. O Teste de Precisão do Comprador (Template A.11) foi aplicado, com score de quatro ou mais sobre seis.
 6. O posicionamento está em dimensão não-óbvia, ou seja, não é "mais barato" nem "mais features".
 7. A regulamentação aplicável foi investigada, e você sabe o que fazer para estar em conformidade.
-8. Você consegue responder, em uma frase, *por que o seu cliente-alvo trocaria a alternativa atual por você*.
+8. Você consegue responder, em uma frase, por que o seu cliente-alvo trocaria a alternativa atual por você.
 
 > [!warning] Se o item 8 não tem resposta, pare
 > Se você não consegue responder o item 8, ainda não tem diferencial claro. Volte ao Dossiê do Usuário (saída da [[#FASE 4 — PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY APROFUNDADO)|Fase 4]]) e ao Mapa de Problemas (saída da [[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]]).
@@ -253,7 +255,7 @@ Reconstrução do que poderia ter sido o Canvas da Cunha que André Street e Edu
 
 Segmento inicial (cunha). Pequenos comerciantes (varejo, serviços) com faturamento mensal de R$ 30 mil a R$ 300 mil, em capitais e cidades de médio porte, insatisfeitos com o atendimento dos quatro grandes adquirentes (Cielo, Rede, GetNet, SafraPay). Foco geográfico inicial: Rio de Janeiro e São Paulo.
 
-Por que esse segmento? A dor mais aguda. PMEs reclamavam de tempo de aprovação de máquina, taxas opacas, e principalmente atendimento. Call center sem resolução. Falta de agente que visitasse o estabelecimento. O tamanho é grande: cerca de cinco milhões de PMEs com aceitação de cartão no Brasil em 2012, das quais cerca de um milhão e meio no perfil-alvo. A capacidade de pagar existe: PMEs já pagam o serviço. O problema é por *qual* adquirente, não *se* adquirem. E a acessibilidade era viável via "Green Angels", executivos de venda contratados como representantes locais.
+Por que esse segmento? A dor mais aguda. PMEs reclamavam de tempo de aprovação de máquina, taxas opacas, e principalmente atendimento. Call center sem resolução. Falta de agente que visitasse o estabelecimento. O tamanho é grande: cerca de cinco milhões de PMEs com aceitação de cartão no Brasil em 2012, das quais cerca de um milhão e meio no perfil-alvo. A capacidade de pagar existe: PMEs já pagam o serviço. O problema é por qual adquirente, não se adquirem. E a acessibilidade era viável via "Green Angels", executivos de venda contratados como representantes locais.
 
 Valor para o segmento. O problema é taxa alta, mais repasse demorado (D+30 era padrão), mais atendimento sem qualidade, mais máquina quebrada sem substituição rápida. A solução em uma frase: maquininha com taxa menor, recebimento em D+1, e atendimento humano de fato. Green Angel visita, troca máquina em vinte e quatro horas, número direto de relacionamento. A prova de valor inicial: os primeiros lojistas que aceitaram fizeram a comparação direta da fatura mensal. Economia visível.
 
@@ -299,7 +301,7 @@ Regulamentação como detalhe. Setores regulados (saúde, financeiro, educação
 
 ### ESTRATÉGIA DA CUNHA (WEDGE), o trabalho mais importante da Fase 5
 
-No fim desta fase, você precisa produzir algo que resolva a pergunta mais prática do empreendedor iniciante. *Por onde eu começo a vender, exatamente?* A resposta tem nome. Estratégia da Cunha (ou *Wedge Strategy*).
+No fim desta fase, você precisa responder a pergunta mais prática do empreendedor iniciante: por onde eu começo a vender, exatamente? A resposta tem nome. Estratégia da Cunha (ou Wedge Strategy).
 
 A Cunha é um ponto de entrada no mercado muito restrito e de alta alavancagem. Empresas que tentam "vender para pequenas e médias empresas em geral", ou "para criadores de conteúdo", têm quase sempre resultados ruins. O foco é largo demais. A mensagem é genérica. O custo de aquisição explode. E o produto acaba servindo mal a todo mundo. A alternativa é a Cunha. Entrar por uma fresta muito específica, dominar, e só depois expandir.
 
@@ -334,7 +336,7 @@ Terceiro, o orçamento mencionado é uma rubrica existente. Não uma rubrica que
 
 Exemplo ficcional, B2B brasileiro: "Nós vendemos para o Gerente de Operações de lojas de óptica com duas a cinco unidades no interior de SP e MG, porque essa pessoa é responsável por fechar a conciliação com operadoras de convênio toda sexta, e controla o orçamento operacional da unidade (tipicamente R$ 800 a R$ 2.500 por mês para ferramentas de gestão)."
 
-Se a sua versão da frase exige asteriscos, exceções, ou "depende do tamanho da empresa", o elemento quatro da sua cunha ainda está instável. Volte às entrevistas ([[#FASE 4 — PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY APROFUNDADO)|Fase 4]]) com foco em três perguntas. Quem autorizou a compra mais recente de algo parecido. Quanto gastou. E qual dor específica motivou a liberação do orçamento.
+Se a sua versão da frase exige asteriscos, exceções, ou "depende do tamanho da empresa", o elemento quatro da sua cunha ainda está instável. Volte às entrevistas ([[#FASE 4 — PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY APROFUNDADO)|Fase 4]]) com foco em três perguntas: quem autorizou a compra mais recente de algo parecido; quanto gastou; e qual dor específica motivou a liberação do orçamento.
 
 > [!warning] Distinção crítica, repetidamente confundida
 > Usuário, Comprador Econômico, e Campeão Interno são pessoas diferentes. O usuário é quem opera o produto no dia a dia. O campeão interno é quem vai brigar internamente para você ser aprovado (geralmente alguém que sofre com o problema mas não controla orçamento). O comprador econômico é quem assina. Vender como se os três fossem a mesma pessoa é o erro operacional mais caro em B2B. Em B2C isso colapsa em uma pessoa só (o próprio consumidor). Mas mesmo em B2C há casos onde usuário e comprador divergem. Produtos para crianças. Saúde de idosos. Presentes.
@@ -346,7 +348,7 @@ Se a sua versão da frase exige asteriscos, exceções, ou "depende do tamanho d
 
 #### Por que cunha fina vence cunha larga (mesmo parecendo contraintuitivo)
 
-Focar em um fluxo de trabalho minúsculo de uma persona específica, e ignorar noventa e nove por cento das outras possibilidades, parece arriscado. Como se você estivesse encolhendo o próprio horizonte. Mas fazer isso traz clareza imensa. E isso permite colocar intensidade na direção certa. Intensidade gera tração. Tração gera cinco coisas. Clientes-referência que viram evangelistas (vendem por você para os próximos). Estudos de caso com números claros (reduziu oitenta por cento do tempo de conciliação). Clareza sobre o que construir, e o que não construir. Menor custo de aquisição, porque você conhece exatamente o canal e o gancho. Defensibilidade inicial, porque grandes empresas tendem a ignorar nichos pequenos demais.
+Focar em um fluxo de trabalho minúsculo de uma persona específica, e ignorar noventa e nove por cento das outras possibilidades, parece arriscado. Como se você estivesse encolhendo o próprio horizonte. Mas fazer isso traz clareza imensa. E isso permite colocar intensidade na direção certa. Intensidade gera tração. Tração gera cinco coisas: clientes-referência que viram evangelistas (vendem por você para os próximos); estudos de caso com números claros (reduziu oitenta por cento do tempo de conciliação); clareza sobre o que construir, e o que não construir; menor custo de aquisição, porque você conhece exatamente o canal e o gancho; e defensibilidade inicial, porque grandes empresas tendem a ignorar nichos pequenos demais.
 
 Depois de dominar a cunha, você pode expandir para nichos adjacentes (horizontal), ou para mais dor do mesmo cliente (vertical). Mas sem dominar a cunha primeiro, qualquer tentativa de expansão resulta em uma empresa sem product-market fit em lugar nenhum.
 
@@ -356,7 +358,7 @@ Há uma tentação quase universal em empreendedores iniciantes de descrever a i
 
 Cunha é profundidade focada em um único fluxo de trabalho, para um único papel, com um único resultado mensurável. Busca dominância em uma fatia estreita.
 
-Plataforma é amplitude através de fluxos, papéis, e integrações. Assume que expansão vai acontecer antes que a profundidade tenha sido provada em qualquer frente.
+Plataforma é amplitude através de fluxos, papéis, e integrações. Pressupõe que a expansão vai acontecer antes que a profundidade tenha sido provada em qualquer frente.
 
 Os quatro custos operacionais de declarar "plataforma" cedo demais.
 
@@ -375,7 +377,7 @@ Se, ao descrever a sua ideia, você sente a necessidade de usar a palavra "plata
 
 #### Sinais de escopo instável, diagnóstico rápido
 
-Antes de preencher o Canvas da Cunha, faça um diagnóstico honesto de estabilidade do escopo. Escopo instável é comumente confundido com ambição. Mas em regra é o oposto. É falta de escolha. Se o seu posicionamento muda dependendo de quem está na sua frente, a cunha ainda está em expansão, não em refinamento.
+Antes de preencher o Canvas da Cunha, faça um diagnóstico honesto de estabilidade do escopo. Escopo instável é comumente confundido com ambição. Mas na maioria das vezes é o oposto. É falta de escolha. Se o seu posicionamento muda dependendo de quem está na sua frente, a cunha ainda está em expansão, não em refinamento.
 
 Aplique a frase-âncora:
 
@@ -388,9 +390,9 @@ Quatro sinais operacionais de escopo instável, em ordem crescente de gravidade.
 
 Mais de um ICP primário. Você tem "SMBs e enterprise", ou "criadores e agências", ou "varejo e food service". Cada ICP dobra o custo de mensagem, de canal de aquisição, e de decisão de roadmap.
 
-Demos diferentes para audiências diferentes. Você prepara uma versão do pitch para investidor, outra para cliente, outra para parceiro. E cada uma enfatiza capacidades diferentes. Sinal de que o produto ainda não tem uso central dominante. Tem muitos usos equivalentes.
+Demos diferentes para audiências diferentes. Você prepara uma versão do pitch para investidor, outra para cliente, outra para parceiro — e cada uma enfatiza capacidades diferentes. Sinal de que o produto ainda não tem uso central dominante.
 
-Propostas de valor diferentes por segmento. "Para o segmento A, reduzimos custo. Para o segmento B, aumentamos receita. Para o segmento C, mitigamos risco." Não é versatilidade de produto. É indecisão de estratégia travestida de versatilidade. Cada segmento exige máquina de vendas diferente.
+Propostas de valor diferentes por segmento. "Para o segmento A, reduzimos custo. Para o segmento B, aumentamos receita. Para o segmento C, mitigamos risco." Não é versatilidade de produto. É indecisão de estratégia. Cada segmento exige máquina de vendas diferente.
 
 Roadmap abrangendo workflows não relacionados. O backlog de features tem uma feature para automação fiscal, outra para CRM, outra para integração com marketplace, outra para BI. Se essas features não se conectam pela mesma pessoa realizando o mesmo trabalho, você não tem um roadmap. Tem vários produtos competindo pela mesma equipe.
 
@@ -474,7 +476,7 @@ O que o usuário faz hoje para contornar? Solução atual, mesmo precária. Plan
 
 #### Parte 2, duas perguntas-faca (três minutos)
 
-Esse conjunto de clientes caberia em um único canal de Slack ou grupo de WhatsApp? Não metaforicamente. Literalmente. A faixa total da cunha vendável é de cem a trezentas pessoas listáveis nominalmente (definição operacional canônica acima); o sub-conjunto que você consegue imaginar reunido no mesmo grupo trocando mensagens sobre o mesmo problema específico é mais estreito, tipicamente trinta a oitenta pessoas — esse núcleo é quem você conhece de nome, contato direto e contexto. Se você não consegue listar nem esse núcleo, a sua cunha ainda está larga. Reduza.
+Esse conjunto de clientes caberia em um único canal de Slack ou grupo de WhatsApp? Não metaforicamente. Literalmente. A faixa total da cunha vendável é de cem a trezentas pessoas listáveis nominalmente (definição operacional canônica acima). O sub-conjunto que você consegue imaginar reunido no mesmo grupo trocando mensagens sobre o mesmo problema específico é mais estreito, tipicamente trinta a oitenta pessoas. Esse núcleo é quem você conhece de nome, contato direto e contexto. Se você não consegue listar nem esse núcleo, a sua cunha ainda está larga. Reduza.
 
 Se a sua empresa fechasse hoje à noite, quem reclamaria ativamente amanhã de manhã? Não "quem sentiria falta". Quem abriria o notebook, ligaria para alguém, postaria no LinkedIn. Essa lista de pessoas é a sua cunha real. Se a lista tem menos de três pessoas específicas (com nome e cargo), a sua cunha é teórica. Não está aterrada em gente.
 
@@ -505,20 +507,20 @@ Softwares que o cliente já paga por outro motivo, e que "quase" resolvem o seu 
 > No Brasil, inércia de troca é amplificada por desconfiança em novos fornecedores, preferência por relação pessoal e sensibilidade a risco financeiro. O [[apendice-ff|Apêndice FF — Psicologia do Consumidor Brasileiro]] explica esses padrões e ajuda a formular o argumento de troca certo para cada perfil de cliente dentro da sua cunha.
 
 > [!important] A pergunta-chave de competição
-> *Por que a alternativa atual é tolerada?* Se a resposta é "porque funciona suficientemente bem", a sua urgência é fraca, e provavelmente você não tem cunha. Cunhas fortes substituem algo doloroso. Não algo levemente inconveniente. Se os entrevistados descrevem a planilha-mãe rindo ("a minha relação de amor e ódio com aquele Excel maldito"), você tem uma fresta. Se descrevem com indiferença ("funciona, acho"), você não tem.
+> Por que a alternativa atual é tolerada? Se a resposta é "porque funciona suficientemente bem", a sua urgência é fraca, e provavelmente você não tem cunha. Cunhas fortes substituem algo doloroso. Não algo levemente inconveniente. Se os entrevistados descrevem a planilha-mãe rindo ("a minha relação de amor e ódio com aquele Excel maldito"), você tem uma fresta. Se descrevem com indiferença ("funciona, acho"), você não tem.
 
 ### Caso trabalhado, Warby Parker das Fases 1 a 5 com o Framework Antler
 
 Esse caso ilustra a aplicação integrada dos Filtros YC mais Heartfelt, das entrevistas, das personas, e da Cunha em um exemplo B2C real.
 
 > [!note] Apêndice L — Framework Antler (Idea → Wedge → Scale)
-> O raciocínio do caso abaixo segue a progressão canônica do [[apendice-l|Apêndice L — Framework Antler]]: identificação de problema (Idea), escolha de cunha (Wedge) e escalabilidade estruturada (Scale). O apêndice detalha os filtros de avaliação, os critérios de passagem entre etapas, e como o framework é aplicado em cohorts de fundadores.
+> O raciocínio do caso abaixo segue a progressão do [[apendice-l|Apêndice L — Framework Antler]]: identificação de problema (Idea), escolha de cunha (Wedge) e escalabilidade estruturada (Scale). O apêndice detalha os filtros de avaliação, os critérios de passagem entre etapas, e como o framework é aplicado em cohorts de fundadores.
 
-Contexto. Warby Parker foi fundada em 2010 por quatro cofundadores na Wharton (Neil Blumenthal, Andrew Hunt, David Gilboa, e Jeffrey Raider), vendendo óculos de grau online. Hoje vale bilhões. A reconstrução abaixo é hipotética. Derivada do ensaio canônico de Greg Coticchia e da Antler.
+Contexto. Warby Parker foi fundada em 2010 por quatro cofundadores na Wharton (Neil Blumenthal, Andrew Hunt, David Gilboa, e Jeffrey Raider), vendendo óculos de grau online. Hoje vale bilhões. A reconstrução abaixo é hipotética. Derivada do ensaio de Greg Coticchia e da Antler.
 
 #### Passo 1, identificação do problema (Fase 2)
 
-Os fundadores começaram observando múltiplas dores simultâneas ao tentar comprar óculos nos EUA. Listadas com verbatim do público:
+Os fundadores começaram observando múltiplas dores simultâneas ao tentar comprar óculos nos EUA. Listadas com falas diretas do público:
 
 - "Óculos são caríssimos, US$ 400 a US$ 1.000 para algo simples."
 - "Comprar óculos é um saco. Ir à ótica, aguentar vendedor insistindo, voltar depois."
@@ -526,11 +528,11 @@ Os fundadores começaram observando múltiplas dores simultâneas ao tentar comp
 
 Eles não tentaram refinar para um problema cedo demais. Listaram todas as dores. O refinar viria depois.
 
-#### Passo 2, identificação do mercado-alvo (Fase 2/3, com raciocínio hipotético-dedutivo)
+#### Passo 2, identificação do mercado-alvo (Fase 2/3, com raciocínio por filtros cumulativos)
 
 Quem tem essas dores com maior intensidade? Quem precisa de óculos (cinquenta por cento ou mais da população) é o filtro inicial amplo. Quem é sensível ao preço, mas não aceita marca genérica, exclui compradores de Fendi, inclui compradores educados. Quem valoriza conveniência a ponto de pagar por isso exclui aposentados com tempo livre. Quem é sensível ao estilo exclui compradores puramente funcionais.
 
-A intersecção: jovens profissionais urbanos, com renda média-alta, conscientes de estilo, sem tempo para ir a óticas. Esse virou o ICP inicial. Sinalmente, outros ICPs foram listados como alternativas (pais de crianças que usam óculos, idosos conscientes de preço), prontos para pivô se o primeiro falhasse.
+A intersecção: jovens profissionais urbanos, com renda média-alta, conscientes de estilo, sem tempo para ir a óticas. Esse virou o ICP inicial. Outros ICPs foram listados como alternativas (pais de crianças que usam óculos, idosos conscientes de preço), prontos para pivô se o primeiro falhasse.
 
 #### Passo 3, construção da hipótese central (Fase 5, virando entrada para Fase 6)
 
@@ -539,7 +541,7 @@ A equipe consolidou toda a pesquisa em uma única frase testável:
 > [!quote] Hipótese central do Warby Parker
 > "Comprar óculos nos EUA é caro, demorado, e avassalador. Jovens profissionais querem uma forma mais acessível, conveniente, e curada de comprar óculos."
 
-Essa é a formulação canônica de hipótese que a Antler recomenda. Uma frase sobre o problema, uma sobre o desejo do mercado-alvo.
+Essa é a formulação de hipótese que a Antler recomenda. Uma frase sobre o problema, uma sobre o desejo do mercado-alvo.
 
 #### Passo 4, teste da hipótese (Fase 7, em prévia)
 
@@ -573,7 +575,7 @@ em NYC/SF com interesse declarado? SIM → cunha aprovada.
 
 #### Passo 6, lição do caso para o seu contexto
 
-Note o que o Framework Antler *não fez* no Warby Parker. Não tentou resolver todo o problema da indústria óptica (muito amplo). Não começou com pais ou idosos (cada persona teria empresa diferente). Não construiu produto primeiro, validou com pessoas reais primeiro. E não assumiu que "preço baixo" era o diferencial principal antes de conversar.
+Note o que o Framework Antler não fez no Warby Parker. Não tentou resolver todo o problema da indústria óptica (muito amplo). Não começou com pais ou idosos (cada persona teria empresa diferente). Não construiu produto primeiro, validou com pessoas reais primeiro. E não assumiu que "preço baixo" era o diferencial principal antes de conversar.
 
 > [!important] Aplique o mesmo padrão à sua ideia
 > Liste dores completas. Derive ICP por filtros cumulativos. Condense em uma frase. Teste a frase antes de construir qualquer coisa. Ajuste o ICP até a Cunha caber num grupo de WhatsApp. Documente.
@@ -596,7 +598,7 @@ A lição transferível. Cunha estreita no começo não limita o tamanho final d
 
 O que você acabou de fazer, ao longo das Fases 0 a 5. Preparou-se como fundador. Gerou ideias. Articulou a candidata escolhida. Construiu teoria causal. Descobriu problemas reais no ICP através de entrevistas com saturação. Mapeou o mercado, e definiu cunha.
 
-O que vem nas Fases 6 a 9. Transformar o que você *aprendeu* em *hipóteses testáveis*, e planejar experimentos rigorosos para validá-las. Você sai da fase de descoberta aberta (procurando o que não sabe) para entrar na fase de validação estruturada (testando o que acha que sabe).
+O que vem nas Fases 6 a 9. Transformar o que você aprendeu em hipóteses testáveis, e planejar experimentos rigorosos para validá-las. Você sai da fase de descoberta aberta (procurando o que não sabe) para entrar na fase de validação estruturada (testando o que acha que sabe).
 
 > [!warning] Base sólida é pré-requisito das Fases 6 a 9
 > Se você ainda está incerto sobre qualquer fase anterior, volte. As próximas exigem base sólida. Sem ICP específico, mapa de problemas, e canvas da cunha preenchidos, as hipóteses geradas serão vagas, e os experimentos virão ambíguos.
@@ -643,31 +645,31 @@ Falha em qualquer etapa significa voltar à fase anterior, não pular adiante. C
 
 Mapeamento de mercado e concorrência é onde o ferramentário estratégico clássico mais brilha. Fase rica em aplicação de frameworks. Detalhamento no [[#APÊNDICE BG — FERRAMENTÁRIO COMPLETO DO EMPREENDEDOR|Apêndice BG]].
 
-Porter's Five Forces (Michael Porter, 1979). Análise estrutural de atratividade da indústria. Novos entrantes, fornecedores, compradores, substitutos, rivalidade. Use para avaliar se o setor é estruturalmente atraente. Ver BG.1.1.
+Porter's Five Forces (Michael Porter, 1979). Ferramenta para analisar a atratividade estrutural de uma indústria a partir de cinco forças: novos entrantes, fornecedores, compradores, substitutos, rivalidade. Use para avaliar se o setor é estruturalmente atraente. Ver BG.1.1.
 
-SWOT e TOWS Matrix (Humphrey, anos 1960). Forças, fraquezas, oportunidades, ameaças. E principalmente os cruzamentos TOWS, que geram estratégias. Use no diagnóstico inicial, depois de entender o mercado e ter visão da sua posição potencial. Ver BG.1.2.
+SWOT e TOWS Matrix (Humphrey, anos 1960). Forças, fraquezas, oportunidades, ameaças. E principalmente os cruzamentos TOWS, que geram estratégias a partir da combinação desses quatro elementos. Use no diagnóstico inicial, depois de entender o mercado e ter visão da sua posição potencial. Ver BG.1.2.
 
-PESTEL Analysis. Mapeamento do macroambiente. Political, Economic, Social, Technological, Environmental, Legal. Use para identificar forças macro que impactam o setor e a sua empresa em doze a sessenta meses. Ver BG.1.6.
+PESTEL Analysis. Mapeamento do macroambiente em seis dimensões: Político, Econômico, Social, Tecnológico, Ambiental e Legal. Use para identificar forças macro que impactam o setor e a sua empresa em doze a sessenta meses. Ver BG.1.6.
 
 BCG Growth-Share Matrix (Henderson, 1970). Classificação de produtos ou segmentos em Stars, Cash Cows, Question Marks, Dogs. Use se você já tem múltiplas linhas, ou pensa em expandir o portfólio. Menos útil em produto único. Ver BG.1.3.
 
-Ansoff Matrix (Ansoff, 1957). Quatro estratégias de crescimento por produto vezes mercado. Penetração, desenvolvimento de produto, desenvolvimento de mercado, diversificação. Use para mapear opções de crescimento e decidir foco. Ver BG.1.5.
+Ansoff Matrix (Ansoff, 1957). Quatro estratégias de crescimento por produto vezes mercado: penetração, desenvolvimento de produto, desenvolvimento de mercado, diversificação. Use para mapear opções de crescimento e decidir foco. Ver BG.1.5.
 
-Value Chain Analysis (Porter, 1985). Decomposição das atividades da empresa para identificar onde valor é criado, e onde há ineficiência. Use para comparar a sua cadeia de valor com a de concorrentes, e identificar pontos de diferenciação ou de custo. Ver BG.1.7.
+Value Chain Analysis (Porter, 1985). Decomposição das atividades da empresa para identificar onde valor é criado e onde há ineficiência. Compare a sua cadeia de valor com a de concorrentes para encontrar pontos de diferenciação ou de custo. Ver BG.1.7.
 
-Blue Ocean Strategy (Kim e Mauborgne, 2005). ERRC Grid. Eliminate, Reduce, Raise, Create. Use para redefinir a categoria competitiva, em vez de competir frontal. Ver BG.1.8.
+Blue Ocean Strategy (Kim e Mauborgne, 2005). ERRC Grid — ferramenta para redefinir a categoria competitiva eliminando, reduzindo, aumentando e criando atributos. Use para criar mercado sem concorrência direta, em vez de competir de frente. Ver BG.1.8.
 
 Playing to Win (Martin e Lafley, 2013). Cascata de cinco escolhas, com ênfase em "onde jogar" (mercado, segmento, geografia) e "como vencer" (diferenciação versus custo). Use para formular estratégia explícita a partir da análise de mercado. Ver BG.2.1.
 
-7 Powers (Hamilton Helmer, 2016). As sete fontes de defensibilidade estrutural. Scale, Network, Counter-Positioning, Switching Costs, Branding, Cornered Resource, Process Power. Use para responder "que vantagem estrutural podemos construir?", em comparação com os concorrentes. Ver BG.2.3.
+7 Powers (Hamilton Helmer, 2016). As sete fontes de defensibilidade estrutural: escala, rede, contra-posicionamento, switching costs, marca, recurso monopolizado e poder de processo. Use para responder "que vantagem estrutural podemos construir?", em comparação com os concorrentes. Ver BG.2.3.
 
-Wardley Mapping (Simon Wardley, 2005). Mapa visual de cadeia de valor versus estágio de evolução (genesis, custom, product, commodity). Use em análise estratégica sofisticada, para ver onde investir custom versus comoditizar. Ver BG.2.5.
+Wardley Mapping (Simon Wardley, 2005). Mapa visual de cadeia de valor versus estágio de evolução (genesis, custom, product, commodity). Use em análise estratégica aprofundada, para ver onde investir em custom versus comoditizar. Ver BG.2.5.
 
-Scenario Planning (Royal Dutch Shell, anos 1970). Construir três a quatro cenários futuros plausíveis, e testar a estratégia em cada um. Use quando há alta incerteza sobre variáveis críticas (regulação, ciclo econômico, geopolítica). Ver BG.2.6.
+Scenario Planning (Royal Dutch Shell, anos 1970). Construir três a quatro cenários futuros plausíveis e testar a estratégia em cada um. Use quando há alta incerteza sobre variáveis críticas (regulação, ciclo econômico, geopolítica). Ver BG.2.6.
 
-Core Competencies (Prahalad e Hamel, 1990). Identificação das competências distintivas que sustentam múltiplos produtos, e são difíceis de replicar. Use para validar que a sua estratégia está ancorada em capability real, não aspiracional. Ver BG.2.7.
+Core Competencies (Prahalad e Hamel, 1990). Identificação das competências distintivas que sustentam múltiplos produtos e são difíceis de replicar. Use para validar que a sua estratégia está ancorada em capacidade real, não aspiracional. Ver BG.2.7.
 
-Value Disciplines (Treacy e Wiersema, 1993). Escolha entre três disciplinas. Operational Excellence, Product Leadership, Customer Intimacy. Domine uma, mantenha padrão nas outras. Use para calibrar posicionamento estratégico. Ver BG.2.8.
+Value Disciplines (Treacy e Wiersema, 1993). Escolha entre três disciplinas: excelência operacional, liderança de produto ou intimidade com o cliente. Domine uma, mantenha padrão nas outras. Use para calibrar posicionamento estratégico. Ver BG.2.8.
 
 ---
 
