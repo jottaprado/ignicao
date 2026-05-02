@@ -148,6 +148,6 @@ Esquecer legacy audience. Crescer segmentos novos, sem atender o cliente antigo,
 
 ### Ver também
 
-[[#APÊNDICE BM — COMUNICAÇÃO PÚBLICA DO FUNDADOR: NARRATIVA, IMPRENSA E PORTA-VOZ|Apêndice BM]], Comunicação Pública do Fundador. [[#APÊNDICE AR — CONTENT MARKETING E SEO COMO DISCIPLINA|Apêndice AR]], Content Marketing e SEO. [[#APÊNDICE AS — COMMUNITY BUILDING COMO DISCIPLINA|Apêndice AS]], Community Building. [[#APÊNDICE AY — MARKETING DE PERFORMANCE EM PROFUNDIDADE|Apêndice AY]], Marketing de Performance. Apêndice de Crise e Continuidade.
+[[#APÊNDICE BM — COMUNICAÇÃO PÚBLICA DO FUNDADOR: NARRATIVA, IMPRENSA E PORTA-VOZ|Apêndice BM]], Comunicação Pública do Fundador. [[#APÊNDICE AR — CONTENT MARKETING E SEO COMO DISCIPLINA|Apêndice AR]], Content Marketing e SEO. [[#APÊNDICE AS — COMMUNITY BUILDING COMO DISCIPLINA|Apêndice AS]], Community Building. [[#APÊNDICE AY — MARKETING DE PERFORMANCE EM PROFUNDIDADE|Apêndice AY]], Marketing de Performance. [[#APÊNDICE CW — CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO|Apêndice CW]], Crise e continuidade.
 
 ---

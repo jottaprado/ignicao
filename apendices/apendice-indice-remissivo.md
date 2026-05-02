@@ -145,7 +145,7 @@ type: reference
 - **Mercado (mapeamento)**: [[#FASE 5 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 5]]
 - **Mom Test**: BG.6.1
 - **MVP**: [[#FASE 10 — MVP E EXPERIMENTOS DE MERCADO|Fase 10]] inteira
-- **Mulheres fundadoras (casos)**: Apêndice de Diversidade e casos dispersos
+- **Mulheres fundadoras (casos)**: [[#APÊNDICE BU — DIVERSIDADE, EQUIDADE E INCLUSÃO (DEI) EM STARTUP BRASILEIRA|Apêndice BU]] (DEI em startup brasileira) e casos dispersos no livro
 
 ### N
 
