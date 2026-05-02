@@ -4,10 +4,10 @@
 
 ### O manual operacional do empreendedor brasileiro
 
-*Do pré-zero ao exit. 17 fases · 150 apêndices · 500 mil palavras.*
+*Do pré-zero ao exit. 17 fases · 150 apêndices · 720 mil palavras.*
 
 [![Licença CC BY-NC-SA](https://img.shields.io/badge/licença-CC%20BY--NC--SA%204.0-orange.svg)](LICENSE.md)
-[![Versão](https://img.shields.io/badge/versão-3.2-blue.svg)](CHANGELOG.md)
+[![Versão](https://img.shields.io/badge/versão-3.3-blue.svg)](CHANGELOG.md)
 [![Idioma](https://img.shields.io/badge/idioma-Português%20BR-green.svg)](#)
 [![PRs Bem-vindos](https://img.shields.io/badge/PRs-bem--vindos-brightgreen.svg)](CONTRIBUTING.md)
 
@@ -29,10 +29,11 @@ O que está aqui:
 
 - **17 fases** com método, métricas e armadilhas para cada momento da jornada
 - **150 apêndices** temáticos: captação, finanças, GTM, vendas enterprise, operações, management, jurídico, compliance, IA e mais
-- **58 diagramas** Mermaid — renderizam direto no GitHub
-- **165 frameworks** contextualizados: de Porter e JTBD a CAC/LTV e unit economics
+- **100 diagramas** Mermaid — renderizam direto no GitHub
+- **163 frameworks** contextualizados em BG (Apêndice Ferramentário), de Porter e JTBD a CAC/LTV e unit economics
+- **20 canvases** em CZ com teoria, exemplo brasileiro preenchido e armadilhas (BMC, Lean, VPC, Strategy Canvas, Empathy Map, Pirate/AARRR, Wardley, Story Tree e outros)
 - **Casos brasileiros** com análise honesta: Nubank, iFood, Stone, Hotmart, Natura, Magazine Luiza, Wildlife, Peixe Urbano, 99, Loggi, Olist e outros
-- **Glossário** com 91 termos técnicos definidos em português
+- **Glossário** com 142 termos técnicos definidos em português
 - **Catálogo de métricas** por fase, com benchmarks calibrados para o Brasil
 
 ---
@@ -314,8 +315,8 @@ Você quer sair                 → Fase 16 + Apêndice BR
 | Recurso | Descrição |
 |---|---|
 | [Catálogo de Métricas](apendices/apendice-c.md) | Métricas e benchmarks para todas as 17 fases |
-| [Ferramentário](apendices/apendice-bg.md) | 165 frameworks com como aplicar e erros comuns |
-| [Glossário](apendices/apendice-glossario.md) | 91 termos técnicos em português (A–Z) |
+| [Ferramentário](apendices/apendice-bg.md) | 163 frameworks com como aplicar e erros comuns |
+| [Glossário](apendices/apendice-glossario.md) | 142 termos técnicos em português (A–Z) |
 | [Templates](apendices/apendice-a.md) | DII, pitch, OKR, 5 templates de discovery, board deck (A.31), data room (A.32), term sheet anotado (A.33), JDs (A.34), post-mortem técnico (A.35), OKR cascade (A.36), fundraising plan (A.37), 1:1 (A.38) e outros |
 | [Canvases e Mapas Visuais](apendices/apendice-cz.md) | 20 canvases com teoria, exemplo brasileiro e armadilhas: BMC, Lean, VPC, Strategy Canvas, Empathy Map, Test Card, Pirate (AARRR), Storytelling + SCQA + Strategic Narrative, Capital Stack/Waterfall, Network Effects Map, Org Chart Evolution, Wardley Map e outros |
 | [Checklist por Fase](apendices/apendice-b.md) | Sinais de saída e committed next move |

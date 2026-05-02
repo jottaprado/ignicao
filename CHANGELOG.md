@@ -6,6 +6,37 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/).
 
 ---
 
+## [3.3] — 2026-05-02
+
+### Adicionado
+
+- **Fase 1**: nova seção `### FERRAMENTAS DESTA FASE` com 8 ferramentas (Idea→Wedge→Scale, Strategy Canvas, First Principles, Inversion, Wardley Mapping, Three Horizons, Mom Test, Lean/BMC). Antes a fase não tinha essa seção.
+- **Todas as 18 fases**: callout `> [!abstract] Resumo operacional` com Entregável, Sinais de saída e Três armadilhas mais comuns.
+- **Glossário**: ~40 termos novos (ACV, Advisor, BATNA, BCB, CIM, Closing, Delaware Flip, DPA, DPO, EBITDA, EOR, ESOP, Exit, Founder Mode, FP&A, IPO, LGPD, M&A, MECE, MEDDPICC, Mom Test, Moat, P&L, Positioning, RBF, RFC, ROFR, ROI, SAFE, SPADE, SPIN Selling, Term sheet, Venture Debt, WACC, ZOPA, e outros) — total agora em 142 termos.
+- **audit.py**: modo `--content` que valida sincronia parágrafo a parágrafo entre os arquivos modulares e o canônico (substitui a triagem por contagem de linhas).
+
+### Melhorado
+
+- **Fase 2 e Template A.1 (DII)**: framework evolui de 5 para 7 blocos. Acrescentados Modelo de Negócios e Por que Nós (FMF separado da tese de mercado). Bloco "Para quem" ganha sub-estrutura B2B (Quem é, Quem NÃO é, Decisor Econômico, Champion). Lista de incertezas categorizada em 6 buckets (Demanda, Mercado, Solução, Adoção, Canal, Modelo). Janela de palavras 600→800. Exemplos PadariaPro e iFood reescritos.
+- **Apêndice CZ**: consolidação de 20 canvases com teoria, princípios, exemplo brasileiro preenchido e armadilhas. CZ vira o destino canônico para canvases (BMC, Lean, VPC, Strategy Canvas, Empathy Map, Customer Journey, Pirate/AARRR, MVP Canvas, Storytelling, Risk Canvas, Hypothesis Canvas, Canvas da Cunha, Theory Map, Capital Stack, Network Effects Map, Org Chart Evolution, Wardley Map e outros).
+- **Intros de FERRAMENTAS DESTA FASE em 17 seções (16 fases + 3 subfases da Fase 14)**: cada intro agora nomeia explicitamente as ferramentas com seus códigos BG.X.Y embutidos (ex.: "Esta fase aplica seis ferramentas: First Principles Thinking (BG.4.1), Blue Ocean Strategy / ERRC Grid (BG.1.8), Playing to Win (BG.2.1)..."). Antes a frase de abertura era genérica ("Detalhamento no Apêndice BG").
+- **Fases 15 e 16**: padronização ortográfica de quatro headers (`SAÍDA DESSA FASE` e `FERRAMENTAS DESSA FASE`) para `DESTA FASE`, alinhando com as outras 14 fases.
+- **Glossário**: 36 entradas que terminavam em "Ver Apêndice X" sem contexto agora nomeiam o tópico específico em prosa (ex.: "Ver Apêndice DS — BATNA, ZOPA e o método Harvard de negociação"). Mais 4 correções de apêndice errado: SAFE de DG→DF, LGPD de Z→T, Term sheet/Liquidation/Anti-dilution/ROFR de DH→V, Delaware Flip de BS+BT→CU.
+- **Apêndice A**: headers de A.13 a A.18 de-linkados (cabeçalho é nome, cross-ref vai para o corpo do template em prosa).
+- **Apêndices internos**: 5 referências informais "Ver Apêndice de X" formalizadas (Visto→BS, Equity Crowdfunding→CI, Comunicação Pública→BM, Tokenização→CJ).
+
+### Removido
+
+- **6 stubs de redirect**: BG.2.9 (BMC), BG.2.10 (Lean Canvas), BG.10.10 (VPC), A.20 (BMC Nubank), A.21 (Lean QuintoAndar), A.22 (VPC Wellhub) — todos eram seções de 1-2 parágrafos apontando para CZ. Conteúdo canônico vive integralmente em CZ.1, CZ.2, CZ.3. Códigos BG mantêm gaps de numeração (são identificadores estáveis).
+
+### Corrigido
+
+- README e introducao.md atualizados com contagens reais: 720 mil palavras (antes "500 mil"), 142 termos no glossário (antes "91"), 100 diagramas Mermaid (antes "58"), 163 frameworks em BG (antes "165", após deleção de 3 stubs).
+- Caractere quebrado no README (`N�o` → `Não`).
+- `check_exemplos.py`: regex de extração de labels mais tolerante a notações variadas; `META_FIELDS` ganha "resultado", "decisão", "decisao".
+
+---
+
 ## [3.2.1] — 2026-05-01
 
 ### Corrigido

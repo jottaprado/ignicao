@@ -52,7 +52,7 @@ Boa sorte na minha jornada, em cada momento em que eu voltar aqui para buscar um
 
 ### O que isto é
 
-Este livro tem cerca de 500 mil palavras. Cobre como começar uma empresa no Brasil, como crescê-la, e como sair dela. Está dividido em quatro partes que seguem essa ordem cronológica: Da Ideia à Operação, Do PMF à Escala, Em Escala, Ciclo Longo e Exit. Cada parte tem fases (a sequência principal) e apêndices (profundidade temática para quando você precisar). No fim há uma seção de Referência com ferramentário, templates, glossário, bibliografia e índice remissivo.
+Este livro tem cerca de 720 mil palavras. Cobre como começar uma empresa no Brasil, como crescê-la, e como sair dela. Está dividido em quatro partes que seguem essa ordem cronológica: Da Ideia à Operação, Do PMF à Escala, Em Escala, Ciclo Longo e Exit. Cada parte tem fases (a sequência principal) e apêndices (profundidade temática para quando você precisar). No fim há uma seção de Referência com ferramentário, templates, glossário, bibliografia e índice remissivo.
 
 Não é narrativa contínua. Não é livro inspiracional. É um documento para consulta em decisões reais. Foi escrito assumindo que você tem pressa, tem uma dor concreta, e precisa de resposta operacional.
 
