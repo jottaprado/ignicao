@@ -142,12 +142,13 @@ Empreender no Brasil é difícil. O livro não disfarça isso. Mas é possível,
 
 ```mermaid
 flowchart TD
-    subgraph P1["PARTE I<br/>Da ideia à operação"]
+    subgraph P1["PARTE I — Da ideia à operação"]
+        direction TB
         F0["Fase 0<br/>Preparação do fundador"]
         F1["Fase 1<br/>Encontrar a ideia"]
         F2["Fase 2<br/>Articulação da ideia"]
         F2B["Fase 2B<br/>Teoria do negócio"]
-        F3["Fase 3<br/>Descobrimento do problema"]
+        F3["Fase 3<br/>Descoberta do problema"]
         F4["Fase 4<br/>Pesquisa com usuários"]
         F5["Fase 5<br/>Mapeamento de mercado"]
         F6["Fase 6<br/>Formulação de hipóteses"]
@@ -157,7 +158,8 @@ flowchart TD
         F0 --> F1 --> F2 --> F2B --> F3 --> F4 --> F5 --> F6 --> F7 --> F8 --> F9
     end
 
-    subgraph P2["PARTE II<br/>Do PMF à escala"]
+    subgraph P2["PARTE II — Do PMF à escala"]
+        direction TB
         F10["Fase 10<br/>MVP e experimentos"]
         F11["Fase 11<br/>Validação do modelo"]
         F12["Fase 12<br/>Product-Market Fit"]
@@ -166,18 +168,21 @@ flowchart TD
         F10 --> F11 --> F12 --> F13 --> F14
     end
 
-    subgraph P4["PARTE IV<br/>Ciclo longo e exit"]
-        F15["Fase 15<br/>Reinvenção e 2ª curva"]
+    P3["PARTE III — Em escala<br/><i>Apêndices operacionais</i><br/><i>sem fases próprias</i>"]
+
+    subgraph P4["PARTE IV — Ciclo longo e exit"]
+        direction TB
+        F15["Fase 15<br/>Reinvenção e segunda curva"]
         F16["Fase 16<br/>Exit strategy"]
         F15 --> F16
     end
 
-    P1 -->|"Saída: PSF<br/>Clientes pagando"| P2
-    P2 -->|"Saída: PMF + motor<br/>validados"| P4
-
-    P2 -.->|"Pivô possível<br/>Voltar ao problema"| P1
-    P4 -.->|"Segunda empresa<br/>Segunda curva"| P1
+    P1 ==>|"Saída: PSF<br/>Clientes pagando"| P2
+    P2 ==>|"Saída: PMF + motor validados"| P3
+    P3 ==>|"Operação madura"| P4
 ```
+
+> Pivôs e segundas curvas são possíveis em qualquer momento. Empresa que pivota volta à PARTE I no estágio relevante (problema ou solução). Empresa que faz segunda curva após exit reinicia o ciclo do zero, geralmente em PARTE I com mais experiência acumulada.
 
 > [!note] Como navegar o livro
 > O fluxo é linear (Fase 0 → 16) mas o uso é não-linear. Empreendedor em Fase 12 consulta Fases 3-4 para re-validar, apêndices para aprofundar e Fase 15 para planejar. Use o sumário abaixo para localizar o seu momento atual.
