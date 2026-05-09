@@ -15,6 +15,7 @@ OUTPUT="build/IGNICAO.epub"
   --metadata language="pt-BR" \
   --metadata date="2026" \
   --resource-path="build;build/mermaid;." \
+  --epub-cover-image=build/cover.png \
   --epub-chapter-level=2
 
 echo "EPUB gerado: $OUTPUT"
