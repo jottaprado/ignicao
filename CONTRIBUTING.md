@@ -11,7 +11,7 @@ Obrigado por querer contribuir. Este manual existe para servir fundadores brasil
 Se encontrou dado desatualizado, número incorreto, empresa com situação diferente da descrita ou referência equivocada:
 
 1. Abra uma [Issue](../../issues/new?template=erro-de-fato.md)
-2. Informe: onde está o erro (arquivo + linha), o que está errado e a fonte correta
+2. Informe: onde está o erro (seção no canonical, ex: `## FASE 12`), o que está errado e a fonte correta
 
 ### 💡 Sugerir conteúdo novo
 
@@ -25,7 +25,7 @@ Para sugerir novo apêndice, caso brasileiro ou seção:
 Para erros de português, formatação ou clareza:
 
 1. Faça fork do repositório
-2. Edite o arquivo relevante em `fases/` ou `apendices/`
+2. Edite a seção relevante no manuscrito canonical `IGNIÇÃO - Manual de Campo do Empreendedor  - João Prado (2026).md`. Use Ctrl+F para encontrar `## FASE X` ou `## APÊNDICE X` no arquivo
 3. Abra um Pull Request com descrição curta da mudança
 
 ### 📊 Atualizar dados e benchmarks

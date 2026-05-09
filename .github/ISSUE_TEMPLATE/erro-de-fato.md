@@ -6,7 +6,7 @@ labels: erro-de-fato
 ---
 
 **Onde está o erro**
-Arquivo: (ex: `fases/fase-12.md`)
+Localização no canonical: (ex: `## FASE 12 — PRODUCT-MARKET FIT`, ou linha aproximada se preferir)
 Linha ou seção: 
 
 **O que está errado**
