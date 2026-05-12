@@ -2283,7 +2283,7 @@ Para cada entrevista, preencha um template padronizado. Nome, papel, empresa (qu
 Não espere terminar tudo para analisar. A cada cinco entrevistas, faça uma síntese parcial. Quais problemas apareceram em mais de cinquenta por cento das entrevistas? Quais padrões de comportamento se repetem? Que hipóteses iniciais foram reforçadas e quais foram abaladas? Quais novos problemas apareceram que você não esperava?
 
 > [!tip] Síntese parcial e final no Template A.30
-> O [[#APÊNDICE A — TEMPLATES PRONTOS PARA USO|Template A.30 (Consolidação de Rodada)]] é o artefato dessa síntese. Use uma versão "rascunho" a cada lote de cinco para checar padrões; consolide a versão final só quando a rodada inteira fechar — consolidar antes do fim viesa as entrevistas restantes. A.30 é também o documento que registra a decisão de avanço da fase (perseverar / pivotar problema / pivotar cliente / abandonar).
+> O [[#APÊNDICE A — TEMPLATES PRONTOS PARA USO|Template A.30 (Síntese de Rodada de Entrevistas)]] é o artefato dessa síntese. Use uma versão "rascunho" a cada lote de cinco para checar padrões; consolide a versão final só quando a rodada inteira fechar — consolidar antes do fim viesa as entrevistas restantes. A.30 é também o documento que registra a decisão de avanço da fase (perseverar / pivotar problema / pivotar cliente / abandonar).
 
 > [!note] A jornada do cliente é uma estrutura útil para organizar o que as entrevistas revelam
 > Enquanto o Mom Test captura incidentes isolados, o [[#APÊNDICE DT — CUSTOMER EXPERIENCE: DA JORNADA AO NPS AO CHURN ZERO|Apêndice DT — Customer Experience]] oferece a visão de jornada completa — do momento de consciência do problema ao pós-resolução — incluindo métricas de NPS e churn preditivo. Usar a jornada como mapa mental durante a síntese das entrevistas ajuda a localizar em qual etapa a dor é mais aguda.
@@ -36130,7 +36130,7 @@ O fundador lidera a construção da rede. Isso é intransferível. Os co-fundado
 Funciona porque mostra homework (você sabe quem é a pessoa), pede algo específico e limitado (trinta minutos, não conversa longa), tem contexto claro do que você quer aprender, e respeita o tempo. Depois do primeiro encontro, envie nota curta agradecendo mais dois ou três pontos específicos que aplicou ou vai aplicar. Faça follow-up em dois ou três meses reportando progresso concreto nas áreas que discutiram. Se a química é boa, proponha cadência regular. E nunca desapareça. Relacionamento se constrói com contato consistente, não com raridade.
 
 > [!tip] Roteiro estruturado para a conversa em si
-> O template acima resolve a abordagem. Para a conversa propriamente dita — quando o objetivo é extrair insight de setor, mapa competitivo, anti-cases, "what would have to be true" — use o [[#APÊNDICE A — TEMPLATES PRONTOS PARA USO|Template A.27 (Conversa com Especialista de Mercado)]]. Ele tem Parte A (roteiro durante, com a seção "confronto à nossa tese" como núcleo) e Parte B (síntese pós, com hierarquia de sinais que separa dado verificável de heurística genérica). Importante: especialista informa como construir; não valida que há mercado. Para validar mercado, A.2.
+> O template acima resolve a abordagem. Para a conversa propriamente dita — quando o objetivo é extrair insight de setor, mapa competitivo, anti-cases, "what would have to be true" — use o [[#APÊNDICE A — TEMPLATES PRONTOS PARA USO|Template A.27 (Entrevista com Especialista de Mercado)]]. Ele tem Parte A (roteiro durante, com a seção "confronto à nossa tese" como núcleo) e Parte B (síntese pós, com hierarquia de sinais que separa dado verificável de heurística genérica). Importante: especialista informa como construir; não valida que há mercado. Para validar mercado, A.2.
 
 Para ser mentorado bem, prepare agenda antes de cada encontro com duas ou três perguntas específicas, tome notas, implemente pelo menos uma sugestão antes do próximo encontro e reporte, respeite o tempo combinado, e reciproque quando possível com apresentações, feedback e introduções a outras pessoas que possam ser úteis.
 
@@ -36142,7 +36142,7 @@ Para pedir, espere ter relacionamento substantivo (pelo menos seis meses de ment
 > "[Nome], você tem sido incrivelmente útil nesses últimos meses. Queria formalizar nossa relação como advisor, com equity e compromisso mais estruturado. Especificamente, seria zero vírgula vinte e cinco a zero vírgula cinco por cento de equity com vesting quatro anos, duas a três horas por mês, focando em [áreas específicas]. Faz sentido explorar?"
 
 > [!tip] Conversa de decisão com advisor já formalizado
-> Depois que o advisor está no jogo, o instrumento para extrair valor de cada conversa é o [[#APÊNDICE A — TEMPLATES PRONTOS PARA USO|Template A.28 (Conversa com Advisor)]]. Use quando há decisão concreta em cima da mesa — não para descobrir problema, não para mapear setor (advisor não substitui A.2 nem A.27). Estrutura: decisão em uma frase, opções, reenquadramento (advisor pode ver pergunta diferente da que você trouxe), recomendação com convicção, objeções explícitas, casos análogos e separação fato vs. opinião vs. heurística pessoal. Inclui reflexão interna 30 min depois, sem o advisor — porque a decisão é sua, informada por ele.
+> Depois que o advisor está no jogo, o instrumento para extrair valor de cada conversa é o [[#APÊNDICE A — TEMPLATES PRONTOS PARA USO|Template A.28 (Entrevista com Advisor)]]. Use quando há decisão concreta em cima da mesa — não para descobrir problema, não para mapear setor (advisor não substitui A.2 nem A.27). Estrutura: decisão em uma frase, opções, reenquadramento (advisor pode ver pergunta diferente da que você trouxe), recomendação com convicção, objeções explícitas, casos análogos e separação fato vs. opinião vs. heurística pessoal. Inclui reflexão interna 30 min depois, sem o advisor — porque a decisão é sua, informada por ele.
 
 Os sinais de que advisor é bom: responde emails em até quarenta e oito horas, participa dos encontros agendados, proativamente faz introduções quando surgem oportunidades, dá feedback construtivo (não só "bom trabalho"), e a empresa tem progresso real após os conselhos aplicados. Os sinais de que é ruim: some por semanas, vem despreparado, não faz as intros prometidas, opina genericamente sem imersão real, ou tenta vender serviços próprios ou da rede dele para você.
 
@@ -37101,10 +37101,10 @@ Graham mesmo indica: se tivesse que escolher uma das treze, seria a quarta (ente
 | Template | Use quando… | NÃO use quando… |
 |---|---|---|
 | **A.2 — Entrevista de Problema** | Está validando se um problema existe, com que frequência, e quão doloroso é, na vida de um cliente potencial. [[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]]. | Já tem produto e quer validar solução. Está buscando opinião de quem não sofre o problema. |
-| **A.27 — Conversa com Especialista de Mercado** | Quer mapear setor, dinâmicas competitivas, pontos cegos, tendências regulatórias. A pessoa conhece o mercado — não necessariamente é cliente dele. | Quer saber se *o cliente* tem dor. Especialista opina; cliente prova com comportamento. |
-| **A.28 — Conversa com Advisor** | Tem decisão específica em cima da mesa e quer conselho tático/estratégico de alguém com experiência relevante. | Ainda está explorando. Advisor é para refinar decisão, não para descobrir o problema. |
-| **A.29 — JTBD Switch Interview** | A pessoa **trocou** de solução (deixou um concorrente, largou um processo manual, migrou de ferramenta). Foco no momento da troca, com as 4 forças de Moesta. | A pessoa nunca trocou de nada — não há "switch" para investigar. Use A.2. |
-| **A.30 — Consolidação de Rodada** | Rodou 15-30 entrevistas e precisa sintetizar o agregado para decidir avanço de fase: perseverar, pivotar problema, pivotar cliente ou abandonar. | Ainda está no meio da coleta. Consolidar cedo vicia a análise — espere a rodada fechar. |
+| **A.27 — Entrevista com Especialista de Mercado** | Quer mapear setor, dinâmicas competitivas, pontos cegos, tendências regulatórias. A pessoa conhece o mercado — não necessariamente é cliente dele. | Quer saber se *o cliente* tem dor. Especialista opina; cliente prova com comportamento. |
+| **A.28 — Entrevista com Advisor** | Tem decisão específica em cima da mesa e quer conselho tático/estratégico de alguém com experiência relevante. | Ainda está explorando. Advisor é para refinar decisão, não para descobrir o problema. |
+| **A.29 — Entrevista com Switcher (JTBD)** | A pessoa **trocou** de solução (deixou um concorrente, largou um processo manual, migrou de ferramenta). Foco no momento da troca, com as 4 forças de Moesta. | A pessoa nunca trocou de nada — não há "switch" para investigar. Use A.2. |
+| **A.30 — Síntese de Rodada de Entrevistas** | Rodou 15-30 entrevistas e precisa sintetizar o agregado para decidir avanço de fase: perseverar, pivotar problema, pivotar cliente ou abandonar. | Ainda está no meio da coleta. Consolidar cedo vicia a análise — espere a rodada fechar. |
 
 **Regra de ouro.** Apenas A.2 e A.29 geram evidência de comportamento de cliente. A.27 e A.28 informam como construir, não se há mercado. A.30 é quem decide avanço de fase — nenhuma entrevista individual decide sozinha.
 
@@ -37436,7 +37436,7 @@ Para cada problema que a pessoa citar espontaneamente:
 *Preenchido por `[Nome]` em `[DD/MM/AAAA]`.*
 
 > [!tip] Consolidação da rodada
-> Cada entrevista preenchida pela Parte B é uma linha do agregado. A decisão de avanço de fase não sai daqui — sai do **A.30 (Consolidação de Rodada)**, que cruza Pain Level, padrões, workarounds e vocabulário das 15-30 entrevistas para decidir perseverar, pivotar problema, pivotar cliente ou abandonar.
+> Cada entrevista preenchida pela Parte B é uma linha do agregado. A decisão de avanço de fase não sai daqui — sai do **A.30 (Síntese de Rodada de Entrevistas)**, que cruza Pain Level, padrões, workarounds e vocabulário das 15-30 entrevistas para decidir perseverar, pivotar problema, pivotar cliente ou abandonar.
 
 ### A.3 Banco de Hipóteses — modelo de planilha (Fase 6)
 
@@ -38551,7 +38551,7 @@ Horizontal (jornada): cliente *Descobre* → *Seleciona loja* → *Escolhe produ
 
 ---
 
-### A.27 Conversa com Especialista de Mercado (mapa de setor · Fases 3-5)
+### A.27 Entrevista com Especialista de Mercado (mapa de setor · Fases 3-5)
 
 > [!important] Disciplina central
 > Aqui você **quer opinião** — é legítimo. Mas opinião de especialista é hipótese a testar, não evidência de cliente. O erro é tratar "o especialista disse X" como validação. A especialista conhece o mercado; quem prova o mercado é o cliente com a carteira.
@@ -38795,7 +38795,7 @@ Premissas que a pessoa identificou como *críticas e não-triviais*:
 
 ---
 
-### A.28 Conversa com Advisor (decisão específica · tradeoffs)
+### A.28 Entrevista com Advisor (decisão específica · tradeoffs)
 
 > [!important] Disciplina central
 > Advisor é para **refinar decisão que já está em cima da mesa**, não para descobrir o problema. Se você não consegue nomear a decisão em uma frase, você não está pronto para essa conversa — volte para A.2 (entrevista de problema) ou A.27 (especialista). Pareamento natural com o [[#APÊNDICE AL — REDE, MENTORES E ADVISORS — COMO CONSTRUIR O CAPITAL HUMANO DO EMPREENDEDOR|Apêndice AL]], que cobre como construir e formalizar a relação com advisors. Este template é o que se usa **dentro** da conversa, depois que o advisor já está no jogo.
@@ -39037,7 +39037,7 @@ Premissas que a pessoa identificou como *críticas e não-triviais*:
 
 ---
 
-### A.29 JTBD Switch Interview (entrevista de troca · Fase 4)
+### A.29 Entrevista com Switcher (JTBD, entrevista de troca · Fase 4)
 
 > [!important] Disciplina central
 > Esta entrevista **só se aplica a quem trocou** — deixou um concorrente, largou um processo manual, migrou de ferramenta, mudou de fornecedor. O foco **não é** na rotina atual nem na dor genérica: é no **momento específico** em que a pessoa decidiu que o velho não servia mais. Sem um switch real para investigar, use o A.2.
@@ -39267,7 +39267,7 @@ A Switch Interview é o instrumento da escola JTBD de Bob Moesta para reconstrui
 
 ---
 
-### A.30 Consolidação de Rodada de Discovery (decisão de avanço · Fase 3 → Fase 4)
+### A.30 Síntese de Rodada de Entrevistas (decisão de avanço · Fase 3 → Fase 4)
 
 > [!important] Disciplina central
 > Este não é registro de conversa — é o artefato em que o agregado de entrevistas vira decisão. É aqui que a frase "5 pessoas disseram isso" vira "o problema existe, neste recorte, com esta dor, e devemos perseverar" — ou o contrário. Nenhuma entrevista individual é suficiente para essa decisão; nenhuma consolidação feita **antes** da rodada fechar é confiável, porque viesa as entrevistas restantes. Consolide só quando a rodada terminou.
@@ -39305,15 +39305,15 @@ A.30 é o entregável da [[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]] que suste
 |---|---|---|---|---|---|
 | `ENTR-...-01` | Problema (A.2) | `[DD/MM]` | `[Sim / Parcial / Não]` | `[1-5]` | `[ ] Não  [ ] Sim — motivo]` |
 | `ENTR-...-02` | Problema (A.2) | `[DD/MM]` | `[...]` | `[...]` | `[...]` |
-| `JTBD-...-01` | Switch (A.29) | `[DD/MM]` | `[...]` | — | `[...]` |
+| `JTBD-...-01` | Switcher (A.29) | `[DD/MM]` | `[...]` | — | `[...]` |
 | `ESP-...-01` | Especialista (A.27) | `[DD/MM]` | — | — | `[...]` |
 | … | | | | | |
 
 **Totais.**
 
 - Entrevistas de Problema (A.2): `[N]` (aderentes ao ICP: `[N]`)
-- Switch Interviews (A.29): `[N]`
-- Conversas com Especialistas (A.27): `[N]`
+- Entrevistas com Switcher (A.29): `[N]`
+- Entrevistas com Especialistas (A.27): `[N]`
 - Contaminadas / sob suspeita (a não computar no denominador): `[N]`
 
 ##### 1. Distribuição de Pain Level (só entrevistas aderentes ao ICP)
@@ -39457,7 +39457,7 @@ A.30 é o entregável da [[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]] que suste
 - [ ] Atualizar documento de ICP com a versão refinada desta rodada
 - [ ] Produzir persona v1 com base no sub-segmento agudo (template [[#A.5 Persona com dados (Fase 4)|A.5]])
 - [ ] Avançar para [[#FASE 4 — PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY APROFUNDADO)|Fase 4]] (Pesquisa Aprofundada)
-- [ ] Seguir rodada com Switch Interviews (A.29) focadas no sub-segmento agudo? `[ ] Sim  [ ] Não`
+- [ ] Seguir rodada com Entrevistas com Switcher (A.29) focadas no sub-segmento agudo? `[ ] Sim  [ ] Não`
 - [ ] Definir experimentos de solução a montar na [[#FASE 5 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 5]]: `[...]`
 
 **Se PIVOTAR (problema ou cliente).**
