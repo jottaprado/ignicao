@@ -6,6 +6,34 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/).
 
 ---
 
+## [3.4] — 2026-10-17
+
+### Adicionado
+
+- **Coleção em 6 Volumes (`volumes/`)**: divisão arquitetural do manuscrito monolítico em 6 volumes canônicos independentes por estágio da jornada empreendedora:
+  - **Vol. 1 — Ideação (`volumes/IGNICAO-Vol-1-Ideacao.md`)**: Fases 0 a 2B + 13 apêndices fundacionais e do fundador (~72k palavras)
+  - **Vol. 2 — Validação (`volumes/IGNICAO-Vol-2-Validacao.md`)**: Fases 3 a 9 + 12 apêndices de descoberta, método científico, mercado e modelos (~69k palavras)
+  - **Vol. 3 — Tração (`volumes/IGNICAO-Vol-3-Tracao.md`)**: Fases 10 a 12 + 20 apêndices de GTM inicial, canais, pricing, vendas, dados e caixa (~86k palavras)
+  - **Vol. 4 — Escala (`volumes/IGNICAO-Vol-4-Escala.md`)**: Fases 13 e 14 + 59 apêndices de captação, finanças, vendas enterprise, pessoas, engenharia e jurídico (~235k palavras)
+  - **Vol. 5 — Maturidade (`volumes/IGNICAO-Vol-5-Maturidade.md`)**: Fases 15 e 16 + 26 apêndices de board, internacionalização, crise, M&A, IPO, post-mortems e Epílogo (~90k palavras)
+  - **Vol. 6 — Referência (`volumes/IGNICAO-Vol-6-Referencia.md`)**: Ferramentário BG, Canvases CZ, Templates A, Catálogos B/C/E, 10 Verticais Setoriais, Glossários, Bibliografias e Índices (~189k palavras)
+- **6 EPUBs por volume + Omnibus (`build/`)**: geração automatizada de `IGNICAO-Vol-1-Ideacao.epub` a `IGNICAO-Vol-6-Referencia.epub` com capas próprias (`cover-vol-1.png` a `cover-vol-6.png`), além da edição completa `IGNICAO.epub`.
+- **Links cruzados inter-volumes**: wikilinks apontando para seções de outros volumes usam sintaxe `[[IGNICAO-Vol-X-Nome#Seção|Texto (Vol. X)]]`, mantendo navegação nativa no Obsidian, links clicáveis entre todos os volumes no EPUB Omnibus e referências formatadas em itálico nos EPUBs individuais.
+
+### Corrigido
+
+- **Fase 14 e Apêndice J**: restauradas para o final da Fase 14 as subseções `Exercício aplicado — Diagnóstico organizacional (Fase 14)`, `O momento 20 a 100 pessoas` e `Critérios de Transição de Papel do Fundador`, que estavam deslocadas ao final do Apêndice J.
+- **Apêndice BE e Fase 15**: movida a seção de transição entre a etapa de Escala e o Ciclo Longo (antes `Transição, Parte III para Parte IV`, presa ao final do Apêndice BE) para a abertura da Fase 15 no Volume 5 (`Abertura da Etapa: da Escala (Vol. 4) para a Maturidade e o Ciclo Longo (Vol. 5)`).
+- **Integridade de wikilinks, Apêndice DU e Índice de Frameworks**: corrigidos 9 links residuais em formato slug (`apendice-az`, `apendice-a#a31`, `apendice-fi`, `apendice-tr`, `apendice-q`), os links da abertura do `Apêndice DU` e 14 referências de fases na tabela do `APÊNDICE: ÍNDICE DE FRAMEWORKS` para apontarem às seções canônicas reais. Os scripts `audit.py` e `check_exemplos.py` foram atualizados para cobrir 100% dos 6 volumes.
+- **Pipeline EPUB e Capas (`build/`)**: alinhado o algoritmo `slugify()` de `build/preprocess_epub.js` ao `auto_identifiers` do Pandoc (resolvendo 100% das âncoras entre capítulos XHTML nos 7 EPUBs), adicionada conversão de callouts Obsidian (`[!note]`, `[!tip]`, etc.) para blockquotes estilizados, proteção de blocos de código e atualização do selo das 7 capas PNG para `v3.4`.
+
+### Removido
+
+- **Manuscrito monolítico legado (`IGNIÇÃO - Manual de Campo do Empreendedor  - João Prado (2026).md`)**: substituído pelos 6 volumes canônicos em `volumes/`.
+- **Script legado `build/convert_slug_wikilinks.js`**: substituído pela validação e resolução direta de wikilinks entre volumes em `build/preprocess_epub.js` e `audit.py`.
+
+---
+
 ## [3.3] — 2026-05-02
 
 ### Adicionado
