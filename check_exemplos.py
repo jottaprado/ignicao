@@ -1,16 +1,17 @@
 #!/usr/bin/env python3
 """
-check_exemplos.py — detecta exemplos práticos que não seguem o template da seção.
+check_exemplos.py — detecta exemplos práticos que não seguem o template da seção
+dentro dos 6 volumes canônicos em `volumes/`.
 
-Para cada arquivo com ### EXEMPLO PRÁTICO, o script:
+Para cada seção (FASE ou APÊNDICE) com ### EXEMPLO PRÁTICO, o script:
 1. Extrai campos do bloco ```text``` mais próximo (o template formal da seção).
 2. Extrai os rótulos usados no exemplo.
 3. Reporta campos do template ausentes no exemplo e rótulos no exemplo
    que não correspondem a nenhum campo do template.
 
 Uso:
-    py check_exemplos.py           # verifica todos os arquivos
-    py check_exemplos.py fase-02   # filtra por nome de arquivo
+    py check_exemplos.py           # verifica todas as seções dos 6 volumes
+    py check_exemplos.py FASE 2    # filtra por nome da seção
 """
 
 import re
@@ -18,10 +19,18 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).parent
-DIRS = [ROOT / "fases", ROOT / "apendices"]
+VOLUMES_DIR = ROOT / "volumes"
 
-# Campos que são metadados, não parte do framework de conteúdo
-META_FIELDS = {"data", "versão", "versao", "nome de trabalho", "nome", "resultado", "decisão", "decisao"}
+META_FIELDS = {
+    "data",
+    "versão",
+    "versao",
+    "nome de trabalho",
+    "nome",
+    "resultado",
+    "decisão",
+    "decisao",
+}
 
 
 def extract_template_fields(text: str) -> list[str]:
@@ -44,17 +53,18 @@ def extract_template_fields(text: str) -> list[str]:
 
 
 def extract_example_labels(section: str) -> list[str]:
-    """Extrai rótulos usados no exemplo (linhas que começam com 'Rótulo:' ou '**Rótulo.**').
-    Só considera rótulos curtos (até 6 palavras) para evitar capturar frases normais.
-    """
+    """Extrai rótulos usados no exemplo (linhas que começam com 'Rótulo:' ou '**Rótulo.** Texto')."""
     labels = []
     for line in section.split("\n"):
-        # "Campo: conteúdo real" ou "**Campo.** conteúdo" ou "Campo. conteúdo"
-        m = re.match(r"^\*?\*?([^\.\:\n\*\[\]{}]{2,60}?)[\.\:](?:\*\*)?\s+\S", line)
+        if line.lstrip().startswith("-"):
+            continue
+        m = re.match(
+            r"^\*?\*?([^\.\:\n\*\[\]{}]{2,60}?)(?::(?:\*\*)?(?:\s+\S|\s*$)|\.(?:\*\*)?\s+\S)",
+            line,
+        )
         if m:
-            label = m.group(1).strip().lower()
+            label = re.sub(r"\s*\([^)]*\)", "", m.group(1)).strip().lower()
             word_count = len(label.split())
-            # Máximo 6 palavras e mínimo 2 caracteres; ignora linhas iniciadas por artigos
             if 2 <= len(label) <= 60 and word_count <= 6 and not label.startswith("http"):
                 labels.append(label)
     return labels
@@ -64,38 +74,29 @@ def normalize(s: str) -> str:
     return re.sub(r"\s+", " ", s.strip().lower())
 
 
-def check_file(path: Path) -> list[str]:
-    text = path.read_text(encoding="utf-8")
+def check_section_text(text: str) -> tuple[bool, list[str]]:
     problems = []
-
-    # Divide em seções delimitadas por ### EXEMPLO PRÁTICO
-    parts = re.split(r"(?m)^### EXEMPLO PRÁTICO", text)
+    parts = re.split(r"(?m)^#{3,4} EXEMPLO PRÁTICO", text)
     if len(parts) < 2:
-        return []
+        return False, []
 
-    # Pré-exemplo: onde está o template
     pre = parts[0]
-    # Limita o exemplo ao conteúdo antes do próximo heading ### ou ---
     raw_example = parts[1]
-    boundary = re.search(r"(?m)^(###\s|---\s*$)", raw_example)
+    boundary = re.search(r"(?m)^(#{3,4}\s|---\s*$|\*\*Contraste\s)", raw_example)
     example = raw_example[: boundary.start()] if boundary else raw_example
 
-    # Extrai campos do template (```text``` block)
     template_fields = extract_template_fields(pre)
     if not template_fields:
-        return []  # Sem template formal, não há como comparar
+        return False, []
 
-    # Extrai rótulos usados no exemplo
     example_labels = extract_example_labels(example)
     example_labels_norm = {normalize(l) for l in example_labels}
-
     template_fields_norm = [normalize(f) for f in template_fields]
 
     missing = []
     for field in template_fields_norm:
         if field in META_FIELDS:
             continue
-        # Verifica se algum rótulo do exemplo contém o campo (match parcial tolerante)
         found = any(field in label or label in field for label in example_labels_norm)
         if not found:
             missing.append(field)
@@ -113,29 +114,52 @@ def check_file(path: Path) -> list[str]:
     if wrong:
         problems.append(f"  ROTULO NO EXEMPLO SEM CORRESPONDENCIA NO TEMPLATE: {wrong}")
 
-    return problems
+    return True, problems
 
 
 def main():
-    filter_name = sys.argv[1] if len(sys.argv) > 1 else None
-    any_problem = False
+    filter_name = " ".join(sys.argv[1:]).lower() if len(sys.argv) > 1 else None
+    boundary = re.compile(r"(?m)^## ((?:FASE|APÊNDICE)\s+[^\n]+)")
 
-    for d in DIRS:
-        for path in sorted(d.glob("*.md")):
-            if filter_name and filter_name not in path.name:
+    total_checked = 0
+    total_compared = 0
+    total_without_template = 0
+    total_with_problems = 0
+
+    for vol_path in sorted(VOLUMES_DIR.glob("IGNICAO-Vol-*.md")):
+        vol_text = vol_path.read_text(encoding="utf-8")
+        matches = list(boundary.finditer(vol_text))
+        starts = [m.start() for m in matches]
+        for i, m in enumerate(matches):
+            sec_title = m.group(1).strip()
+            if filter_name and filter_name not in sec_title.lower():
                 continue
-            problems = check_file(path)
-            if problems:
-                any_problem = True
-                print(f"\n{path.name}")
+            end = starts[i + 1] if i + 1 < len(starts) else len(vol_text)
+            sec_text = vol_text[m.start() : end]
+            if not re.search(r"(?m)^#{3,4} EXEMPLO PRÁTICO", sec_text):
+                continue
+            total_checked += 1
+            has_template, problems = check_section_text(sec_text)
+            if not has_template:
+                total_without_template += 1
+                print(f"  sem template comparável  [{vol_path.stem}] {sec_title[:55]}")
+            elif problems:
+                total_compared += 1
+                total_with_problems += 1
+                print(f"\n[{vol_path.stem}] {sec_title}:")
                 for p in problems:
                     print(p)
+            else:
+                total_compared += 1
+                print(f"  ok                       [{vol_path.stem}] {sec_title[:55]}")
 
-    if not any_problem:
-        print("Nenhum problema encontrado: todos os exemplos seguem o template.")
-
-    return 1 if any_problem else 0
+    print(f"\n=== RESULTADO ===")
+    print(f"Seções com exemplo encontradas: {total_checked}")
+    print(f"Seções com template comparadas: {total_compared}")
+    print(f"Seções sem template comparável: {total_without_template}")
+    print(f"Seções com divergências:        {total_with_problems}")
+    sys.exit(0 if total_with_problems == 0 else 1)
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    main()

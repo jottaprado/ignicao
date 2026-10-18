@@ -1,0 +1,68 @@
+[
+  {
+    "num": 1,
+    "file": "volumes/IGNICAO-Vol-1-Ideacao.md",
+    "title": "IGNIÇÃO — Volume 1: Ideação",
+    "subtitle": "Do Pré-Zero à Tese de Negócio (Fases 0 a 2B)",
+    "fases": 4,
+    "apendices": 13,
+    "diagrams": 9,
+    "words": 72717,
+    "lines": 4382
+  },
+  {
+    "num": 2,
+    "file": "volumes/IGNICAO-Vol-2-Validacao.md",
+    "title": "IGNIÇÃO — Volume 2: Validação",
+    "subtitle": "Da Descoberta do Problema ao Protótipo Testado (Fases 3 a 9)",
+    "fases": 7,
+    "apendices": 12,
+    "diagrams": 14,
+    "words": 69405,
+    "lines": 5121
+  },
+  {
+    "num": 3,
+    "file": "volumes/IGNICAO-Vol-3-Tracao.md",
+    "title": "IGNIÇÃO — Volume 3: Tração",
+    "subtitle": "Do MVP ao Product-Market Fit (Fases 10 a 12)",
+    "fases": 3,
+    "apendices": 20,
+    "diagrams": 16,
+    "words": 86522,
+    "lines": 7297
+  },
+  {
+    "num": 4,
+    "file": "volumes/IGNICAO-Vol-4-Escala.md",
+    "title": "IGNIÇÃO — Volume 4: Escala",
+    "subtitle": "Da Estruturação ao Hipercrescimento (Fases 13 e 14)",
+    "fases": 2,
+    "apendices": 59,
+    "diagrams": 17,
+    "words": 235780,
+    "lines": 20690
+  },
+  {
+    "num": 5,
+    "file": "volumes/IGNICAO-Vol-5-Maturidade.md",
+    "title": "IGNIÇÃO — Volume 5: Maturidade",
+    "subtitle": "Ciclo Longo, Governança, Crise e Exit (Fases 15 e 16)",
+    "fases": 2,
+    "apendices": 26,
+    "diagrams": 12,
+    "words": 90168,
+    "lines": 6808
+  },
+  {
+    "num": 6,
+    "file": "volumes/IGNICAO-Vol-6-Referencia.md",
+    "title": "IGNIÇÃO — Volume 6: Referência",
+    "subtitle": "Ferramentário, Canvases, Templates, Verticais Setoriais e Glossário",
+    "fases": 0,
+    "apendices": 26,
+    "diagrams": 36,
+    "words": 188975,
+    "lines": 21289
+  }
+]

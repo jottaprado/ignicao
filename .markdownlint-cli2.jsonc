@@ -16,8 +16,8 @@
     // dentro de seções; manter flexibilidade narrativa.
     "MD036": false,
 
-    // Livro tem múltiplos H1 (# PARTE I, # PARTE II, # REFERÊNCIA) —
-    // intencional como agrupador de partes.
+    // Volumes têm múltiplos H1 (agrupadores temáticos de fases e apêndices) —
+    // intencional.
     "MD025": false,
 
     // URLs nuas em casos pontuais (ex: instruções de issue tracker)

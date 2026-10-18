@@ -1,6 +1,6 @@
 # IGNIÇÃO — Best Of: Frases-Chave para Divulgação
 
-> Curadoria de frases marcantes do livro IGNIÇÃO — Manual de Campo do Empreendedor (João Prado, 2026), organizadas por tema. Servem como matéria-prima para posts em redes sociais, sinopse, contracapa, citações em entrevistas e materiais de divulgação. Cada frase referencia a fase ou apêndice onde aparece em contexto.
+> Curadoria de frases marcantes da coleção **IGNIÇÃO — Manual de Campo do Empreendedor** (João Prado, 2026, 6 volumes), organizadas por tema. Servem como matéria-prima para posts em redes sociais, sinopse, contracapa, citações em entrevistas e materiais de divulgação. Cada frase referencia o volume, a fase ou o apêndice onde aparece em contexto.
 
 ---
 
@@ -14,7 +14,7 @@
 
 > Tudo que está aqui é modelo, e todo modelo é simplificação da realidade. Use isto como bússola, não como GPS. Bússola aponta direção. GPS promete rota. Empreendedorismo não tem rota.
 
-— *Epílogo*
+— *Epílogo (Vol. 5 — Maturidade)*
 
 ---
 
@@ -22,11 +22,11 @@
 
 > Produto, mercado, capital, regulação, tudo se resolve com ferramentas discutíveis. Pessoas não. As decisões de sócio, time fundador, primeiros funcionários e investidores vão definir mais da sua experiência como fundador do que qualquer tese ou mercado. Invista tempo desproporcional nessas escolhas.
 
-— *Epílogo*
+— *Epílogo (Vol. 5 — Maturidade)*
 
 > Bom fundador é "relentlessly resourceful". Implacavelmente engenhoso.
 
-— Paul Graham, citado em *Fase 0 — Preparação*
+— Paul Graham, citado em *Fase 0 — Preparação (Vol. 1 — Ideação)*
 
 ---
 
@@ -36,7 +36,7 @@
 
 > Se a empresa quebrar, quebrar bem é possível, e vale. Encerramento digno preserva relações, reputação e capacidade de tentar de novo.
 
-— *Epílogo*
+— *Epílogo (Vol. 5 — Maturidade)*
 
 ---
 
@@ -44,15 +44,15 @@
 
 > *O que você gostaria que alguém construísse para você?*
 
-— Paul Graham, citado em *Fase 1*
+— Paul Graham, citado em *Fase 1 (Vol. 1 — Ideação)*
 
 > Dropbox pareceu assim antes de existir. Airbnb pareceu pior ainda. "Três caras alugando colchões de ar para quem vinha a uma conferência." Mínimo. Ridículo. Gigante.
 
-— *Fase 1 — Encontrar a Ideia*
+— *Fase 1 — Encontrar a Ideia (Vol. 1 — Ideação)*
 
 > A cunha começou em "óculos bonitos entregues no escritório" — descoberta nas entrevistas, em que conveniência e estilo importavam mais que preço para esse ICP.
 
-— Sobre Warby Parker (2010), citado em *Fase 5*
+— Sobre Warby Parker (2010), citado em *Fase 5 (Vol. 2 — Validação)*
 
 ---
 
@@ -60,19 +60,19 @@
 
 > Uma afirmação só é científica se for possível imaginar um resultado que a refute.
 
-— Karl Popper, citado em *Fase 2B*
+— Karl Popper, citado em *Fase 2B (Vol. 1 — Ideação)*
 
 > Você só pode aprender que está errado por meio de evidência. Nunca pode provar que está certo em definitivo.
 
-— Popper, citado em *Fase 2B*
+— Popper, citado em *Fase 2B (Vol. 1 — Ideação)*
 
 > Toda hipótese sua precisa ter um caminho claro de refutação. Se não tiver, não é hipótese. É crença.
 
-— *Fase 2B — Construção da Teoria do Negócio*
+— *Fase 2B — Construção da Teoria do Negócio (Vol. 1 — Ideação)*
 
 > Resultados negativos, nesse enquadramento, são informação valiosa. Não fracasso. Um empreendedor que trata toda evidência refutadora como ruído acaba cego para os sinais que mais deveriam fazê-lo repensar.
 
-— *Fase 2B*
+— *Fase 2B (Vol. 1 — Ideação)*
 
 ---
 
@@ -80,15 +80,15 @@
 
 > Sean Ellis acima de quarenta por cento, *e* retenção estabilizada, *e* crescimento semanal de cinco por cento ou mais por oito ou mais semanas, é PMF confirmado. Sean Ellis abaixo de quarenta por cento, *ou* retenção caindo, *ou* crescimento abaixo de dois por cento por semana, é ainda não.
 
-— *Fase 12 — Product-Market Fit*
+— *Fase 12 — Product-Market Fit (Vol. 3 — Tração)*
 
 > Uma startup faturando R$ 1.000 por mês. Crescendo a um por cento por semana, depois de quatro anos: R$ 7.900 por mês, pequena empresa. Crescendo a cinco por cento por semana, depois de quatro anos: R$ 25 milhões por mês, Série B. Crescendo a dez por cento por semana, depois de quatro anos: fora da escala de planilha (centenas de bilhões por mês, a função explode).
 
-— *Sobre superlinearidade*
+— *Sobre superlinearidade, Fase 12 (Vol. 3 — Tração)*
 
 > PMF não é sentimento. É estado mensurável. Muitos founders declaram PMF prematuramente porque querem fechar rodada, contratar time, ou simplesmente parar de carregar a incerteza. Declarar PMF cedo demais leva a escalar produto quebrado — o erro mais caro que existe em startup.
 
-— *Fase 12*
+— *Fase 12 (Vol. 3 — Tração)*
 
 ---
 
@@ -96,15 +96,15 @@
 
 > Assumindo que os meus gastos permaneçam constantes, e o meu crescimento de receita mantenha o padrão dos últimos meses, eu chego à lucratividade com o caixa que tenho hoje? Ou não?
 
-— A pergunta de Default Alive / Default Dead, citada em *Fase 12*
+— A pergunta de Default Alive / Default Dead, citada em *Fase 12 (Vol. 3 — Tração)*
 
 > Esticar runway sem consertar o negócio é simplesmente adiar a morte. Não é solução.
 
-— Paul Graham, citado em *Fase 12*
+— Paul Graham, citado em *Fase 12 (Vol. 3 — Tração)*
 
 > Tempo infinito. Você não precisa mais de captação para continuar existindo. Pode esperar pelo investidor certo, pelo momento certo do mercado, pela feature que vai destravar tudo. Essa opção — "posso simplesmente esperar" — é ativo estratégico enorme.
 
-— *Sobre default alive*
+— *Sobre default alive, Fase 12 (Vol. 3 — Tração)*
 
 ---
 
@@ -112,7 +112,7 @@
 
 > Num sentido, só há um erro que mata startups: não fazer algo que as pessoas querem. Se você faz algo que as pessoas querem, provavelmente vai ficar bem, faça o que mais fizer. Se não faz algo que as pessoas querem, está morto, faça o que mais fizer.
 
-— Paul Graham, *18 Mistakes That Kill Startups*, citado em *Apêndice D*
+— Paul Graham, *18 Mistakes That Kill Startups*, citado em *Apêndice D (Vol. 1 — Ideação)*
 
 ---
 
@@ -120,7 +120,7 @@
 
 > Desigualdade de retornos não é injusta. É matemática. Ambientes com retornos superlineares produzem desigualdade extrema de resultado. Um fundador fica mil vezes mais rico que outro que trabalhou quase tão duro. Aceitar isso como característica do jogo, e não como falha moral do sistema, ajuda a agir sem ressentimento.
 
-— *Fase 12, sobre superlinearidade*
+— *Fase 12, sobre superlinearidade (Vol. 3 — Tração)*
 
 ---
 
@@ -128,11 +128,11 @@
 
 > "Eu trato todos eles como meus diretos. Faço skip-level, co-contrato com eles, e tomo decisões sobre se estão funcionando ou não, como hire, fire, promote e gerenciar. Pode parecer muito trabalho, mas é necessário. O conselho convencional diz para você montar um time executivo top-tier e sair do caminho. Isso, para mim, é absolutamente o que você NÃO deveria fazer."
 
-— Brian Chesky (Airbnb), citado em *Apêndice R — Founder Mode*
+— Brian Chesky (Airbnb), citado em *Apêndice R — Founder Mode (Vol. 4 — Escala)*
 
 > "Você não gerencia pessoas. Você gerencia pessoas através do trabalho."
 
-— Jony Ive a Brian Chesky, citado em *Apêndice R*
+— Jony Ive a Brian Chesky, citado em *Apêndice R (Vol. 4 — Escala)*
 
 ---
 
@@ -140,7 +140,7 @@
 
 > "Se não estamos dispostos a passar dois anos operando a empresa adquirida mesmo que o deal não tivesse acontecido, não deveríamos comprá-la." É rigoroso. E corrige a maioria dos erros. Elimina aquisições por moda. Por oportunidade. Por ansiedade competitiva.
 
-— Heurística de operadores brasileiros experientes, citada em *Apêndice BJ*
+— Heurística de operadores brasileiros experientes, citada em *Apêndice BJ (Vol. 5 — Maturidade)*
 
 ---
 
@@ -148,7 +148,7 @@
 
 > O estilo narrativo forçado obriga o escritor a pensar e entender de forma mais completa do que é possível em PowerPoint.
 
-— Jeff Bezos, sobre a proibição de PowerPoint na Amazon em 2004, citado em *Apêndice EW — Comunicação Escrita*
+— Jeff Bezos, sobre a proibição de PowerPoint na Amazon em 2004, citado em *Apêndice EW — Comunicação Escrita (Vol. 1 — Ideação)*
 
 ---
 
@@ -156,7 +156,7 @@
 
 > Confundir market size com oportunidade. Um mercado de R$ 10 bilhões pode ser péssimo negócio se dominado por dois gigantes bem-financiados. E um nicho de R$ 50 milhões pode ser ótimo se ignorado e você capturar vinte por cento.
 
-— *Fase 5 — Mercado e Concorrência*
+— *Fase 5 — Mercado e Concorrência (Vol. 2 — Validação)*
 
 ---
 
@@ -164,7 +164,7 @@
 
 > O vendedor que passou mais de quarenta por cento do tempo falando no primeiro call, provavelmente, não entendeu a dor.
 
-— *Apêndice CP — Sales*
+— *Apêndice CP — Sales (Vol. 3 — Tração)*
 
 ---
 
@@ -172,7 +172,7 @@
 
 > Relacionamento com top investidores é relacional. Não transacional.
 
-— *Apêndice V — Captação de Equity*
+— *Apêndice V — Captação de Equity (Vol. 4 — Escala)*
 
 ---
 
@@ -214,4 +214,4 @@
 
 > Este foi escrito para ser companhia de longa data, não leitura única. Reabra em momentos de decisão, de crise, de virada. Você vai encontrar coisas diferentes em cada leitura, porque você vai ser uma pessoa diferente em cada leitura.
 
-— *Epílogo*
+— *Epílogo (Vol. 5 — Maturidade)*
