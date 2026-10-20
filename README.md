@@ -4,14 +4,14 @@
 
 ### O manual operacional do empreendedor brasileiro
 
-*Do pré-zero ao exit · 10 volumes · 18 fases · 146 apêndices · 760 mil palavras.*
+*Do pré-zero ao exit · 10 volumes autocontidos · 21 fases · 141 capítulos · 765 mil palavras.*
 
 [![Licença CC BY-NC-SA](https://img.shields.io/badge/licença-CC%20BY--NC--SA%204.0-orange.svg)](LICENSE.md)
-[![Versão](https://img.shields.io/badge/versão-3.5-blue.svg)](CHANGELOG.md)
+[![Versão](https://img.shields.io/badge/versão-4.0-blue.svg)](CHANGELOG.md)
 [![Idioma](https://img.shields.io/badge/idioma-Português%20BR-green.svg)](#)
 [![PRs Bem-vindos](https://img.shields.io/badge/PRs-bem--vindos-brightgreen.svg)](CONTRIBUTING.md)
 
-[**→ Os 10 Volumes**](#os-10-volumes) · [**Por onde começo?**](#por-onde-começo) · [**Fases**](#as-18-fases) · [**Apêndices**](#apêndices-por-tema) · [**Contribuir**](CONTRIBUTING.md)
+[**→ Os 10 Volumes Autocontidos**](#os-10-volumes-autocontidos) · [**Por onde começo?**](#por-onde-começo) · [**As 21 Fases**](#as-21-fases) · [**Capítulos por tema**](#capítulos-por-tema) · [**Contribuir**](CONTRIBUTING.md)
 
 </div>
 
@@ -21,350 +21,354 @@
 
 Livros de empreendedorismo ensinam como fundadores de Silicon Valley pensam. Este manual ensina como **fundar, escalar e sair** dentro do contexto brasileiro — com regulação, capital, cultura e referências daqui.
 
-Não é leitura linear. É enciclopédia operacional organizada em **10 volumes focais** (~50k a ~88k palavras cada, equivalentes a ~200–350 páginas impressas por livro), sendo **7 volumes de jornada** (da preparação do fundador ao exit) e **3 volumes de referência transversal** (Playbooks Setoriais, Ferramentário de Frameworks e Caderno de Canvases, Templates e Índices). Além disso, cada bloco temático conta com uma **Introdução de Domínio** explicando como os capítulos daquele bloco formam um sistema interdependente e qual abrir primeiro.
+A partir da **v4.0**, o IGNIÇÃO foi desenhado sob o princípio da **autocontenção total**: cada um dos **10 volumes** (~54k a ~97k palavras, equivalentes a ~220–390 páginas impressas por livro) traz **dentro das próprias Fases e Capítulos** todos os **Frameworks (com passo a passo)**, **Canvases Visuais**, **Templates Copiáveis**, **Casos Brasileiros Preenchidos**, **Tabelas de Métricas** e **Leituras Recomendadas** daquele estágio. Você nunca precisa abrir um segundo livro de referência para aplicar o método da fase em que está.
 
-**Quem está em crise de caixa** abre o Apêndice AT (Vol. 3). **Quem está negociando term sheet** abre a Fase 13 + Apêndice V (Vol. 4). **Quem está escalando vendas enterprise e executivos** abre a Fase 14 + Apêndices EB e BN (Vol. 5). **Quem é CTO/CPO ou precisa blindar contratos e LGPD** abre o Volume 6. **Quem não tem ideia ainda** começa pelo Volume 1 (Ideação).
+**Quem não tem ideia ainda** começa pelo Volume 1 (Ideação). **Quem quer entrevistar clientes e mapear mercado** abre o Volume 2 (Descoberta e Mercado). **Quem vai rodar experimentos e construir o protótipo** abre o Volume 3 (Experimentos e Prototipagem). **Quem já lançou o MVP e busca Product-Market Fit** abre o Volume 4 (Tração e PMF). **Quem vai captar rodada, estruturar FP&A ou resolver caixa** abre o Volume 5 (Finanças e Captação). **Quem está escalando vendas enterprise, executivos e cultura** abre o Volume 6 (Receita e Pessoas). **Quem é CTO/CPO/COO escalando produto, engenharia, IA e operações** abre o Volume 7 (Produto, Engenharia e Operações). **Quem precisa blindar societário, contratos, trabalhista, LGPD e segurança** abre o Volume 8 (Jurídico, LGPD e Segurança). **Quem está no ciclo longo, board, crise ou preparando o exit** abre o Volume 9 (Maturidade e Exit). **Quem opera em vertical regulada (Fintech, Saúde, Agro, Govtech, etc.)** abre o Volume 10 (Playbooks Setoriais e Glossário).
 
 O que está aqui:
 
-- **10 volumes homogêneos** com introduções explicativas de domínio em todos os 30 blocos temáticos
-- **18 fases** (0 a 16, incluindo 2B) com método, métricas e armadilhas para cada momento da jornada
-- **146 apêndices codificados (A a FG)** (+ 11 seções de referência, glossários e índices): captação, finanças, GTM, vendas enterprise, pessoas, engenharia, operações, jurídico, compliance, IA e mais
+- **10 volumes 100% autocontidos** com introduções explicativas de domínio em todos os blocos temáticos
+- **21 fases sequenciais** (`Fase 0` a `Fase 20`) com método, métricas, frameworks, canvases, templates e leituras integrados *in-place*
+- **141 capítulos temáticos** (`Capítulo 1` a `Capítulo N` dentro de cada volume) cobrindo finanças, captação, GTM, vendas enterprise, pessoas, engenharia, operações, jurídico, compliance, IA, verticais reguladas e exit
+- **164 frameworks operacionais** integrados diretamente nas fases e capítulos onde são aplicados
+- **20 canvases visuais** integrados nas fases correspondentes com teoria, exemplo brasileiro preenchido e armadilhas (BMC, Lean, VPC, Strategy Canvas, Empathy Map, Pirate/AARRR, Wardley, Story Tree e outros)
+- **39 templates e estudos de caso preenchidos** integrados no ponto de uso (DII, entrevistas, PR/FAQ, pitch deck, board deck, data room, term sheet anotado, JDs, post-mortem técnico, OKR cascade e outros)
 - **108 diagramas** Mermaid — renderizam direto no GitHub, Obsidian e EPUB
-- **163 frameworks** contextualizados em BG (Volume 9 — Ferramentário), de Porter e JTBD a CAC/LTV e unit economics
-- **20 canvases** em CZ (Volume 10) com teoria, exemplo brasileiro preenchido e armadilhas (BMC, Lean, VPC, Strategy Canvas, Empathy Map, Pirate/AARRR, Wardley, Story Tree e outros)
-- **Casos brasileiros** com análise honesta: Nubank, iFood, Stone, Hotmart, Natura, Magazine Luiza, Wildlife, Peixe Urbano, 99, Loggi, Olist e outros
-- **Glossário** com 142 termos técnicos definidos em português
-- **Catálogo de métricas** por fase, com benchmarks calibrados para o Brasil
+- **Casos brasileiros** com análise honesta: Nubank, iFood, Stone, Hotmart, Natura, Magazine Luiza, Wildlife, Peixe Urbano, 99, Loggi, Olist, QuintoAndar, Wellhub e outros
+- **Glossário** com 142 termos técnicos definidos em português + índices remissivos no Volume 10
 
 ---
 
-## Os 10 Volumes
+## Os 10 Volumes Autocontidos
 
-| Volume | Escopo | Fases / Estrutura | Palavras | Ler em Markdown | Baixar EPUB |
+| Volume | Escopo | Fases e Capítulos (100% Autocontidos) | Palavras | Ler em Markdown | Baixar EPUB |
 |---|---|---|---|---|---|
-| **Vol. 1 — Ideação** | *Do Pré-Zero à Tese de Negócio:* preparação do fundador, cofundadores, geração e articulação da ideia (DII), teoria causal do negócio (Story Tree), saúde mental, decisão, comunicação e IA pessoal | Fases 0 a 2B (+ 13 apêndices) | ~74k | [`IGNICAO-Vol-1-Ideacao.md`](volumes/IGNICAO-Vol-1-Ideacao.md) | [`IGNICAO-Vol-1-Ideacao.epub`](build/IGNICAO-Vol-1-Ideacao.epub) |
-| **Vol. 2 — Validação** | *Da Descoberta do Problema ao Protótipo Testado:* entrevistas (Mom Test), pesquisa de usuário (JTBD), mercado, hipóteses, experimentos de validação, prototipagem, testes de solução e modelos de negócio | Fases 3 a 9 (+ 12 apêndices) | ~71k | [`IGNICAO-Vol-2-Validacao.md`](volumes/IGNICAO-Vol-2-Validacao.md) | [`IGNICAO-Vol-2-Validacao.epub`](build/IGNICAO-Vol-2-Validacao.epub) |
-| **Vol. 3 — Tração** | *Do MVP ao Product-Market Fit:* MVP no mercado, validação de unit economics, diagnóstico de PMF, GTM até 1M ARR, canais de aquisição, pricing, vendas iniciais, CS, dados, produto AI-native e caixa | Fases 10 a 12 (+ 20 apêndices) | ~88k | [`IGNICAO-Vol-3-Tracao.md`](volumes/IGNICAO-Vol-3-Tracao.md) | [`IGNICAO-Vol-3-Tracao.epub`](build/IGNICAO-Vol-3-Tracao.epub) |
-| **Vol. 4 — Captação e Finanças** | *Estruturação Societária, Venture Capital, Tributário e FP&A:* formalização pós-PMF, rodadas de VC, valuation, SAFE/mútuo, subvenção, venture debt, contabilidade, Reforma Tributária, FP&A, capital de giro, bancos e Marco Legal | Fase 13 (+ 18 apêndices) | ~75k | [`IGNICAO-Vol-4-Captacao-e-Financas.md`](volumes/IGNICAO-Vol-4-Captacao-e-Financas.md) | [`IGNICAO-Vol-4-Captacao-e-Financas.epub`](build/IGNICAO-Vol-4-Captacao-e-Financas.epub) |
-| **Vol. 5 — Receita e Pessoas** | *Vendas Enterprise, RevOps, Liderança Executiva, Talentos e Cultura:* máquina de escala, Growth como função, vendas enterprise, RevOps, BD/corporações, PR/marca, Founder Mode, hiring C-level, comp/ESOP e cultura | Fase 14 (+ 19 apêndices) | ~84k | [`IGNICAO-Vol-5-Receita-e-Pessoas.md`](volumes/IGNICAO-Vol-5-Receita-e-Pessoas.md) | [`IGNICAO-Vol-5-Receita-e-Pessoas.epub`](build/IGNICAO-Vol-5-Receita-e-Pessoas.epub) |
-| **Vol. 6 — Engenharia, Operações e Jurídico** | *Produto em Escala, Gestão Técnica, IA, Design Organizacional e Blindagem Legal:* descoberta contínua, management técnico, dívida técnica, IA na engenharia/AI Ops, org design, processos, PI/INPI, LGPD, contratos, trabalhista, compliance e segurança | 23 apêndices (Escala Técnica, Ops e Legal) | ~84k | [`IGNICAO-Vol-6-Engenharia-e-Juridico.md`](volumes/IGNICAO-Vol-6-Engenharia-e-Juridico.md) | [`IGNICAO-Vol-6-Engenharia-e-Juridico.epub`](build/IGNICAO-Vol-6-Engenharia-e-Juridico.epub) |
-| **Vol. 7 — Maturidade e Exit** | *Ciclo Longo, Governança, Internacionalização, Crise e Saída:* reinvenção e segunda curva, exit (M&A, IPO, secondary), board, empresa familiar, disputas societárias, expansão global, câmbio, crise, layoffs, RJ e post-mortems | Fases 15 e 16 (+ 22 apêndices + Epílogo) | ~77k | [`IGNICAO-Vol-7-Maturidade-e-Exit.md`](volumes/IGNICAO-Vol-7-Maturidade-e-Exit.md) | [`IGNICAO-Vol-7-Maturidade-e-Exit.epub`](build/IGNICAO-Vol-7-Maturidade-e-Exit.epub) |
-| **Vol. 8 — Playbooks Setoriais** | *Verticais Brasileiras, Regulação Setorial, Macroeconomia e Métricas:* Committed Next Move (B), Catálogo de Métricas por Fase (C), Leituras (E), macroeconomia, autarquias, CADE, políticas públicas e 9 Playbooks Verticais | Referência Setorial e Métricas (16 apêndices) | ~50k | [`IGNICAO-Vol-8-Playbooks-Setoriais.md`](volumes/IGNICAO-Vol-8-Playbooks-Setoriais.md) | [`IGNICAO-Vol-8-Playbooks-Setoriais.epub`](build/IGNICAO-Vol-8-Playbooks-Setoriais.epub) |
-| **Vol. 9 — Ferramentário** | *Enciclopédia Prática de Métodos e Frameworks:* Índice Geral de Frameworks + Apêndice BG completo (BG.1 a BG.19), cobrindo 163 frameworks de estratégia, produto, growth, vendas, operações, liderança e finanças | Referência Metodológica (Índice + BG.1–BG.19) | ~81k | [`IGNICAO-Vol-9-Ferramentario.md`](volumes/IGNICAO-Vol-9-Ferramentario.md) | [`IGNICAO-Vol-9-Ferramentario.epub`](build/IGNICAO-Vol-9-Ferramentario.epub) |
-| **Vol. 10 — Canvases, Templates e Índices** | *Mapas Visuais, Documentos Prontos, Glossário e Índices:* 20 Canvases preenchidos (CZ), 30+ Templates operacionais e casos brasileiros (A), Glossários, Lista de Abreviações, Bibliografias e Índices Remissivos | Referência Prática e Índices (CZ + A + 9 índices) | ~74k | [`IGNICAO-Vol-10-Canvases-e-Templates.md`](volumes/IGNICAO-Vol-10-Canvases-e-Templates.md) | [`IGNICAO-Vol-10-Canvases-e-Templates.epub`](build/IGNICAO-Vol-10-Canvases-e-Templates.epub) |
+| **Vol. 1 — Ideação** | *Do Pré-Zero à Tese de Negócio:* preparação do fundador, cofundadores, geração e articulação da ideia (DII), teoria causal do negócio (Story Tree), saúde mental, decisão, comunicação e IA pessoal | **Fases 0 a 3** + **Capítulos 1 a 13** (+ 27 frameworks, 6 canvases e 10 templates integrados) | ~98k | [`IGNICAO-Vol-1-Ideacao.md`](volumes/IGNICAO-Vol-1-Ideacao.md) | [`IGNICAO-Vol-1-Ideacao.epub`](build/IGNICAO-Vol-1-Ideacao.epub) |
+| **Vol. 2 — Descoberta e Mercado** | *Entrevistas, Pesquisa com Usuários, Mercado e Posicionamento:* Mom Test, JTBD, personas, TAM/SAM/SOM, 5 Forças, posicionamento competitivo, psicologia do consumidor brasileiro e category design | **Fases 4 a 6** + **Capítulos 1 a 4** (+ 26 frameworks, 4 canvases e 11 templates integrados) | ~70k | [`IGNICAO-Vol-2-Descoberta-e-Mercado.md`](volumes/IGNICAO-Vol-2-Descoberta-e-Mercado.md) | [`IGNICAO-Vol-2-Descoberta-e-Mercado.epub`](build/IGNICAO-Vol-2-Descoberta-e-Mercado.epub) |
+| **Vol. 3 — Experimentos e Prototipagem** | *Hipóteses, Testes Científicos, Protótipos e Modelos de Negócio:* banco de hipóteses, falsificabilidade, pré-registro, smoke test, prototipagem, testes de usabilidade (SUS) e dinâmicas de plataforma/marketplace/B2B2C | **Fases 7 a 10** + **Capítulos 1 a 9** (+ 16 frameworks, 3 canvases e 3 templates integrados) | ~61k | [`IGNICAO-Vol-3-Experimentos-e-Prototipagem.md`](volumes/IGNICAO-Vol-3-Experimentos-e-Prototipagem.md) | [`IGNICAO-Vol-3-Experimentos-e-Prototipagem.epub`](build/IGNICAO-Vol-3-Experimentos-e-Prototipagem.epub) |
+| **Vol. 4 — Tração e PMF** | *Do MVP ao Product-Market Fit:* MVP no mercado, unit economics, diagnóstico de PMF, GTM até 1M ARR, canais de aquisição, vendas iniciais, pricing, recorrência, CS, CX, dados e produto AI-native | **Fases 11 a 13** + **Capítulos 1 a 16** (+ 27 frameworks, 2 canvases e 6 templates integrados) | ~92k | [`IGNICAO-Vol-4-Tracao-e-PMF.md`](volumes/IGNICAO-Vol-4-Tracao-e-PMF.md) | [`IGNICAO-Vol-4-Tracao-e-PMF.epub`](build/IGNICAO-Vol-4-Tracao-e-PMF.epub) |
+| **Vol. 5 — Finanças e Captação** | *Modelagem, Caixa, Venture Capital, Valuation, Tributário e FP&A:* DRE/DFC, cohorts, crise de caixa, rodadas de VC, valuation, SAFE/mútuo, Finep/BNDES, venture debt, contabilidade, Reforma Tributária, FP&A e bancos | **Fase 14** + **Capítulos 1 a 20** (+ 15 frameworks, 2 canvases e 4 templates integrados) | ~88k | [`IGNICAO-Vol-5-Financas-e-Captacao.md`](volumes/IGNICAO-Vol-5-Financas-e-Captacao.md) | [`IGNICAO-Vol-5-Financas-e-Captacao.epub`](build/IGNICAO-Vol-5-Financas-e-Captacao.epub) |
+| **Vol. 6 — Receita e Pessoas** | *Vendas Enterprise, RevOps, Liderança Executiva, Talentos e Cultura:* máquina de crescimento, vendas complexas, RevOps, parcerias/BDs, marca/PR, Founder Mode, hiring C-level, remuneração/ESOP e cultura em escala | **Fases 15 e 16** + **Capítulos 1 a 19** (+ 20 frameworks, 1 canvas e 3 templates integrados) | ~93k | [`IGNICAO-Vol-6-Receita-e-Pessoas.md`](volumes/IGNICAO-Vol-6-Receita-e-Pessoas.md) | [`IGNICAO-Vol-6-Receita-e-Pessoas.epub`](build/IGNICAO-Vol-6-Receita-e-Pessoas.epub) |
+| **Vol. 7 — Produto, Engenharia e Operações** | *Arquitetura Técnica, Produto em Escala, IA, Design Organizacional e Processos:* descoberta contínua, gestão de engenharia, dívida técnica, IA na engenharia/AI Ops, topologia de squads, gestão do conhecimento e incidentes | **Fase 17** + **Capítulos 1 a 11** (+ 19 frameworks e 2 templates integrados) | ~55k | [`IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes.md`](volumes/IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes.md) | [`IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes.epub`](build/IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes.epub) |
+| **Vol. 8 — Jurídico, LGPD e Segurança** | *Estruturação Societária, Propriedade Intelectual, Contratos, Trabalhista e Cibersegurança:* LTDA/SA, Marco Legal, proteção patrimonial, INPI, non-compete, contratos B2B, CLT/PJ, CDC, LGPD, IA e ISO 27001/SOC 2 | **Fase 18** + **Capítulos 1 a 14** (+ 3 frameworks integrados) | ~57k | [`IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca.md`](volumes/IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca.md) | [`IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca.epub`](build/IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca.epub) |
+| **Vol. 9 — Maturidade e Exit** | *Ciclo Longo, Governança, Internacionalização, Crise e Saída:* segunda curva, M&A/IPO/secondary, board, empresa familiar, expansão global, câmbio, turnaround, layoffs, recuperação judicial, post-mortems e Epílogo | **Fases 19 e 20** + **Capítulos 1 a 22** + **Epílogo** (+ 11 frameworks e 2 canvases integrados) | ~83k | [`IGNICAO-Vol-9-Maturidade-e-Exit.md`](volumes/IGNICAO-Vol-9-Maturidade-e-Exit.md) | [`IGNICAO-Vol-9-Maturidade-e-Exit.epub`](build/IGNICAO-Vol-9-Maturidade-e-Exit.epub) |
+| **Vol. 10 — Playbooks Setoriais e Glossário** | *Macroeconomia, Regulação Setorial, 9 Verticais Brasileiras, Glossários e Índices:* SELIC/câmbio, BACEN/ANVISA/CVM, CADE, políticas públicas, Biotech/Saúde, Deep Tech, Govtech, Agro, Edtech, Cleantech, Proptech, Legaltech, Logtech e Índices Gerais | **Capítulos 1 a 13** + **10 Seções de Referência e Índices** | ~69k | [`IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario.md`](volumes/IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario.md) | [`IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario.epub`](build/IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario.epub) |
 
-> 📦 **Edição Completa (Omnibus):** os 10 volumes também estão disponíveis reunidos em arquivo único para e-readers em [`build/IGNICAO.epub`](build/IGNICAO.epub).
+> 📦 **Edição Completa (Omnibus):** os 10 volumes autocontidos também estão disponíveis reunidos em arquivo único para e-readers em [`build/IGNICAO.epub`](build/IGNICAO.epub).
 
 ---
 
 ## Por onde começo?
 
 ```
-Você ainda não tem ideia          → Vol. 1 (Ideação)              — Fase 0 e Fase 1 (7 métodos de geração)
-Você tem ideia, não validou       → Vol. 2 (Validação)            — Fases 3–9 (descoberta e experimentos)
-Você tem produto e clientes       → Vol. 3 (Tração)               — Fases 10–12 (MVP, modelo e diagnóstico de PMF)
-Você tem PMF e vai captar/estrut. → Vol. 4 (Captação e Finanças)  — Fase 13 + Apêndices V, CF, CE e W
-Você está escalando time/receita  → Vol. 5 (Receita e Pessoas)    — Fase 14 + Apêndices CG, EB, EH, BN e AP
-Você é CTO/COO ou quer blindagem  → Vol. 6 (Engenharia e Jurídico)— Apêndices AB, CR, FB, DV, T, EU e EL
-Você está em crise                → Vol. 7 (Maturidade e Exit)    — Apêndice CW + Apêndice AT (Vol. 3)
-Você quer sair (M&A, IPO, 2nd)    → Vol. 7 (Maturidade e Exit)    — Fase 16 + Apêndices BR, DE e DG
-Opera em vertical regulada no BR  → Vol. 8 (Playbooks Setoriais)  — Apêndices AW, CM–DQ + Métricas (C)
-Precisa de um método/framework    → Vol. 9 (Ferramentário)        — Apêndice BG (163 frameworks em 19 áreas)
-Precisa de canvas ou template     → Vol. 10 (Canvases e Templates)— Apêndices CZ (20 mapas) e A (30+ templates)
+Você ainda não tem ideia              → Vol. 1 (Ideação)                          — Fases 0 a 3 + Capítulos 1 a 13
+Você quer entrevistar clientes/mercado→ Vol. 2 (Descoberta e Mercado)             — Fases 4 a 6 + Capítulos 1 a 4
+Você vai testar hipóteses e protótipo → Vol. 3 (Experimentos e Prototipagem)      — Fases 7 a 10 + Capítulos 1 a 9
+Você tem MVP e busca tração / PMF     → Vol. 4 (Tração e PMF)                     — Fases 11 a 13 + Capítulos 1 a 16
+Você vai captar VC ou arrumar o caixa → Vol. 5 (Finanças e Captação)              — Fase 14 + Capítulos 1 a 20
+Você está escalando vendas e líderes  → Vol. 6 (Receita e Pessoas)                — Fases 15 e 16 + Capítulos 1 a 19
+Você é CTO/CPO/COO escalando eng/ops  → Vol. 7 (Produto, Engenharia e Operações)  — Fase 17 + Capítulos 1 a 11
+Você precisa blindar jurídico e LGPD  → Vol. 8 (Jurídico, LGPD e Segurança)       — Fase 18 + Capítulos 1 a 14
+Você está em crise, board ou exit     → Vol. 9 (Maturidade e Exit)                — Fases 19 e 20 + Capítulos 1 a 22
+Opera em vertical regulada no Brasil  → Vol. 10 (Playbooks Setoriais e Glossário) — Capítulos 1 a 13 + Glossário Geral
 ```
 
 ---
 
-## As 18 fases
+## As 21 Fases
 
 <details open>
-<summary><strong>Volume 1 — Ideação: Do Pré-Zero à Tese de Negócio</strong> (Fases 0–2B)</summary>
+<summary><strong>Volume 1 — Ideação: Do Pré-Zero à Tese de Negócio</strong> (Fases 0–3)</summary>
 
-| Fase | O que você resolve |
+| Fase | O que você resolve (com frameworks, canvases e templates integrados) |
 |---|---|
-| **Fase 0** — Preparação | Runway pessoal, motivação honesta, cofundadores |
-| **Fase 1** — Encontrar a ideia | 7 métodos de geração + 4 filtros de qualidade |
-| **Fase 2** — Articular a ideia | Declaração Inicial da Ideia (DII), 1 página |
-| **Fase 2B** — Teoria do negócio | Story Tree, apostas bet-the-company, DAG causal |
+| **Fase 0** — Preparação | Runway pessoal, motivação honesta, cofundadores, saúde mental em estágio zero |
+| **Fase 1** — Encontrar a ideia | 7 métodos de geração + 4 filtros de qualidade + matriz de scoring quantitativo |
+| **Fase 2** — Articular a ideia | Declaração Inicial da Ideia (DII) em 7 blocos + exemplos preenchidos |
+| **Fase 3** — Teoria do negócio | Story Tree, apostas bet-the-company, DAG causal, Theory Map e BMC/Lean Canvas |
 
 </details>
 
 <details open>
-<summary><strong>Volume 2 — Validação: Da Descoberta do Problema ao Protótipo Testado</strong> (Fases 3–9)</summary>
+<summary><strong>Volume 2 — Descoberta e Mercado: Entrevistas, Usuários e Posicionamento</strong> (Fases 4–6)</summary>
 
-| Fase | O que você resolve |
+| Fase | O que você resolve (com frameworks, canvases e templates integrados) |
 |---|---|
-| **Fase 3** — Descoberta do problema | Customer interviews, Mom Test, dor nível 8+ |
-| **Fase 4** — Pesquisa com usuários | JTBD, jornada, personas, beachhead segment |
-| **Fase 5** — Mapeamento de mercado | TAM/SAM/SOM, Porter, wedge, posicionamento |
-| **Fase 6** — Hipóteses | CSD, falsificabilidade, banco de hipóteses |
-| **Fase 7** — Experimentos | Pré-registro, regra 9-em-10, smoke test, pré-vendas |
-| **Fase 8** — Prototipagem | Crazy 8s, fidelidade mínima necessária |
-| **Fase 9** — Testes de solução | SUS score, task completion rate, desejabilidade |
+| **Fase 4** — Descoberta do problema | Customer interviews, Mom Test, entrevista de raiz causal, dor nível 8+ |
+| **Fase 5** — Pesquisa com usuários | JTBD, jornada do cliente, Empathy Map, Value Proposition Canvas, beachhead segment |
+| **Fase 6** — Mapeamento de mercado | TAM/SAM/SOM, 5 Forças de Porter, Strategy Canvas, cunha (wedge) e posicionamento |
 
 </details>
 
 <details open>
-<summary><strong>Volume 3 — Tração: Do MVP ao Product-Market Fit</strong> (Fases 10–12)</summary>
+<summary><strong>Volume 3 — Experimentos e Prototipagem: Hipóteses, Testes e Modelos</strong> (Fases 7–10)</summary>
 
-| Fase | O que você resolve |
+| Fase | O que você resolve (com frameworks, canvases e templates integrados) |
 |---|---|
-| **Fase 10** — MVP | AARRR, ativação, retenção D7/D30, primeiros pagantes |
-| **Fase 11** — Modelo de negócio | CAC, LTV, magic number, unit economics, default alive |
-| **Fase 12** — PMF | Curvas de coorte, Sean Ellis test, NPS, crescimento orgânico |
+| **Fase 7** — Hipóteses | Matriz CSD, falsificabilidade, banco de hipóteses, Hypothesis Canvas e Risk Canvas |
+| **Fase 8** — Experimentos | Pré-registro, Test Card, regra 9-em-10, smoke test, concierge, pré-vendas |
+| **Fase 9** — Prototipagem | Crazy 8s, fidelidade mínima necessária, protótipo navegável |
+| **Fase 10** — Testes de solução | SUS score, task completion rate, validação de desejabilidade e usabilidade |
 
 </details>
 
 <details open>
-<summary><strong>Volumes 4, 5 e 6 — Escala: Da Estruturação ao Hipercrescimento</strong> (Fases 13–14)</summary>
+<summary><strong>Volume 4 — Tração e PMF: Do MVP ao Product-Market Fit</strong> (Fases 11–13)</summary>
 
-| Fase | Volume | O que você resolve |
+| Fase | O que você resolve (com frameworks, canvases e templates integrados) |
+|---|---|
+| **Fase 11** — MVP | MVP Canvas, funil Pirate (AARRR), ativação, retenção D7/D30, primeiros pagantes |
+| **Fase 12** — Modelo de negócio | CAC, LTV, payback, magic number, unit economics, default alive vs default dead |
+| **Fase 13** — Product-Market Fit | Curvas de coorte, Sean Ellis test, PMF scorecard 6D, NPS, crescimento orgânico |
+
+</details>
+
+<details open>
+<summary><strong>Volumes 5, 6, 7 e 8 — Escala e Estruturação por Domínio</strong> (Fases 14–18)</summary>
+
+| Fase | Volume | O que você resolve (com frameworks, canvases e templates integrados) |
 |---|---|---|
-| **Fase 13** — Estruturação | **Vol. 4 (Captação e Finanças)** | LTDA/SA, cap table, vesting, LGPD, contabilidade, Série A ready |
-| **Fase 14** — Escala | **Vol. 5 (Receita e Pessoas)** + **Vol. 6 (Engenharia e Jurídico)** | Time, operações, motor de crescimento, engenharia, blindagem e capital |
+| **Fase 14** — Finanças e Captação em Escala | **Vol. 5 (Finanças e Captação)** | Alocação de capital, fundraising Séries A/B/C, Capital Stack, Rule of 40, FP&A e tesouraria |
+| **Fase 15** — Máquina de Crescimento e Receita | **Vol. 6 (Receita e Pessoas)** | Motor GTM escalável, growth loops, expansão de receita (NRR), vendas enterprise e canais |
+| **Fase 16** — Pessoas, Liderança e Cultura | **Vol. 6 (Receita e Pessoas)** | Transição do fundador, contratação de executivos, Org Chart Evolution, rituais e cultura |
+| **Fase 17** — Operações, Produto e Tecnologia | **Vol. 7 (Produto, Engenharia e Operações)** | Arquitetura técnica para 10x, cadência operacional (OKRs), processos e automação |
+| **Fase 18** — Estruturação Societária e Governança | **Vol. 8 (Jurídico, LGPD e Segurança)** | LTDA vs. S.A., acordo de sócios, vesting, cap table, auditoria e prontidão institucional |
 
 </details>
 
 <details open>
-<summary><strong>Volume 7 — Maturidade e Exit: Ciclo Longo, Governança, Crise e Saída</strong> (Fases 15–16)</summary>
+<summary><strong>Volume 9 — Maturidade e Exit: Ciclo Longo, Governança, Crise e Saída</strong> (Fases 19–20)</summary>
 
-| Fase | O que você resolve |
+| Fase | O que você resolve (com frameworks, canvases e templates integrados) |
 |---|---|
-| **Fase 15** — Reinvenção | S-curves, Three Horizons, autodisrupção, segunda curva |
-| **Fase 16** — Exit | M&A, IPO, secondary, earnout, transição pós-aquisição |
+| **Fase 19** — Reinvenção e Ciclo Longo | S-curves, Three Horizons, autodisrupção, alocação multi-produto e segunda curva |
+| **Fase 20** — Exit | Preparação para M&A e IPO, secondary, earnout, negociação e transição pós-aquisição |
 
 </details>
 
 ---
 
-## Apêndices por tema
+## Capítulos por tema
 
 <details>
-<summary><strong>🎯 Estratégia e Produto</strong></summary>
+<summary><strong>🧠 Vol. 1 — Ideação: Fundador, Tese, Decisão e IA Pessoal (Capítulos 1 a 13)</strong></summary>
 
-| Apêndice | Tema | Volume |
-|---|---|---|
-| **L** | Idea → Wedge → Scale: o framework | Vol. 2 |
-| **AB** | Produto em escala e descoberta contínua | Vol. 6 |
-| **CC** | Plataforma vs Produto: quando construir cada um | Vol. 2 |
-| **AE** | Marketplace dynamics e risco de plataforma | Vol. 2 |
-| **CL** | Pivot: quando, como e quanto custa esperar | Vol. 3 |
-| **S** | Category design: como criar uma categoria nova | Vol. 2 |
-| **X** | Pricing strategy como disciplina | Vol. 3 |
-| **CB** | Subscription economy em profundidade: além do "cobra mensalmente" | Vol. 3 |
-| **CK** | B2B2C: quando sua empresa vende para empresa que vende para consumidor | Vol. 2 |
-| **F** | Abordagem científica vs Lean Startup: quando usar cada uma | Vol. 2 |
-| **G** | Framework de decisão por gates: Problem Core, Scale Levers, Exploratory | Vol. 2 |
-| **AF** | ESG, impact e governança para startup | Vol. 7 |
-| **BE** | Open source como estratégia de go-to-market | Vol. 2 |
+| Capítulo | Tema |
+|---|---|
+| **Cap. 1** | Dinheiro pessoal do fundador durante a empresa |
+| **Cap. 2** | Saúde mental, cofundadores e humanidade do fundador |
+| **Cap. 3** | Armadilhas mentais e vieses cognitivos do empreendedor |
+| **Cap. 4** | Bootstrap vs Venture Capital: a escolha fundacional |
+| **Cap. 5** | Diversidade de jornadas: casos além do cânone |
+| **Cap. 6** | Tomada de decisão como disciplina: Tipo 1/2, vieses, SPADE, pré-mortem |
+| **Cap. 7** | Influência e persuasão sem autoridade formal |
+| **Cap. 8** | Comunicação escrita para negócios: memo, investor update, RFC, async |
+| **Cap. 9** | Apresentação e fala em público: pitch, all-hands, keynote, board, mídia |
+| **Cap. 10** | IA generativa como acelerador do empreendedor (2026) |
+| **Cap. 11** | IA como co-piloto do fundador: uso diário e produtividade (2026) |
+| **Cap. 12** | Aceleradoras, programas e parceiros institucionais para startup brasileira |
+| **Cap. 13** | Rede, mentores e advisors: capital humano do empreendedor |
 
 </details>
 
 <details>
-<summary><strong>💰 Captação e Finanças</strong></summary>
+<summary><strong>🔍 Vol. 2 — Descoberta e Mercado: Consumidor, Competição e Categoria (Capítulos 1 a 4)</strong></summary>
 
-| Apêndice | Tema | Volume |
-|---|---|---|
-| **V** | Jornada de captação: do pitch ao closing | Vol. 4 |
-| **P** | Financiamento não-diluitivo: Finep, BNDES, grants | Vol. 4 |
-| **CE** | Valuation: métodos, múltiplos e negociação | Vol. 4 |
-| **DR** | Demonstrativos financeiros para o fundador: DRE, balanço, DFC e capital de giro | Vol. 3 |
-| **EC** | Planejamento financeiro e orçamento: top-down, bottom-up e reforecast | Vol. 4 |
-| **EN** | Tributário estratégico para startups: Simples, Lucro Presumido, Lei do Bem | Vol. 4 |
-| **EG** | Revenue forecasting: modelos, acurácia e processo para o founder | Vol. 4 |
-| **EY** | Gestão de risco e seguros: D&O, E&O, cyber, Key Man e registro de riscos | Vol. 4 |
-| **EZ** | Capital de giro e recebíveis: CCC, antecipação, FIDC e crédito operacional | Vol. 4 |
-| **FA** | Relações bancárias e crédito no Brasil: Pronampe, BNDES, Open Finance | Vol. 4 |
-| **EF** | Ciclos macroeconômicos: SELIC, inflação, câmbio e ciclos de capital de risco | Vol. 8 |
-| **AJ** | Dinheiro pessoal do fundador durante a empresa | Vol. 1 |
-| **W** | Contabilidade e tributário brasileiro para startups | Vol. 4 |
-| **AT** | Gestão de caixa e sobrevivência em crise | Vol. 3 |
-| **DD** | Investor relations pós-rodada: updates, board e pedidos de ajuda | Vol. 4 |
-| **DE** | IPO no Brasil: quando, como e o que muda (B3, Novo Mercado, CVM) | Vol. 7 |
-| **DF** | Instrumentos de captação: SAFE, nota conversível e mútuo conversível | Vol. 4 |
-| **DG** | Tributação do exit para fundadores brasileiros: ganho de capital, holding e offshore | Vol. 7 |
-| **DH** | Mercado secundário e liquidez antecipada para founders e early employees | Vol. 7 |
-| **CS** | Bootstrap vs Venture Capital: a escolha fundacional | Vol. 1 |
-| **AN** | Modelagem financeira operacional: drivers, cenários e instrumento de decisão | Vol. 3 |
-| **BB** | Venture debt e Revenue-Based Financing (RBF) | Vol. 4 |
-| **CF** | Planejamento de rodada como processo: fundraising estruturado | Vol. 4 |
-| **CD** | Modelagem financeira com cohorts: projeções para empresa recorrente | Vol. 3 |
-| **CI** | Equity crowdfunding no Brasil: captação pública de pequenos investidores | Vol. 4 |
-| **BT** | Hedging cambial e gestão de moeda multicountry | Vol. 7 |
-| **BY** | Tesouraria em escala: caixa multi-moeda e multi-conta | Vol. 7 |
-| **BW** | Fraude interna e controles internos | Vol. 6 |
-| **CW** | Crise e continuidade: prevenção, resposta e recuperação | Vol. 7 |
+| Capítulo | Tema |
+|---|---|
+| **Cap. 1** | Psicologia do consumidor brasileiro: comportamento, decisão e conversão |
+| **Cap. 2** | Inteligência competitiva: monitoramento, análise e resposta |
+| **Cap. 3** | Category design: como criar uma categoria nova |
+| **Cap. 4** | Casos de fracasso brasileiros e lições (7 padrões arquetípicos) |
 
 </details>
 
 <details>
-<summary><strong>🚀 Crescimento e Go-to-Market</strong></summary>
+<summary><strong>🧪 Vol. 3 — Experimentos e Prototipagem: Método Científico, Gates e Modelos (Capítulos 1 a 9)</strong></summary>
 
-| Apêndice | Tema | Volume |
-|---|---|---|
-| **CP** | Vendas, pipeline e revenue operations | Vol. 3 |
-| **EB** | Vendas complexas enterprise: ciclo longo, múltiplos decisores, MEDDPICC | Vol. 5 |
-| **EH** | Revenue Operations: CRM, forecast, pipeline e handoffs | Vol. 5 |
-| **DU** | GTM Playbook: da ideia ao primeiro milhão de ARR | Vol. 3 |
-| **EA** | Product Marketing: posicionamento, mensagem e lançamento | Vol. 3 |
-| **DX** | Branding e posicionamento de marca para startups | Vol. 3 |
-| **EE** | Inteligência competitiva: monitoramento, análise e resposta | Vol. 2 |
-| **FF** | Psicologia do consumidor brasileiro: comportamento, decisão e conversão | Vol. 2 |
-| **DT** | Customer Experience: jornada, NPS, onboarding e churn preditivo | Vol. 3 |
-| **DY** | Business Development: parcerias estratégicas como motor de crescimento | Vol. 5 |
-| **FD** | Parceria com grandes corporações brasileiras: como navegar o elefante | Vol. 5 |
-| **CG** | Growth como função organizacional | Vol. 5 |
-| **CQ** | Relações públicas, marca e narrativa institucional | Vol. 5 |
-| **BM** | Comunicação pública do fundador | Vol. 5 |
-| **CU** | Internacionalização: estrutura e produto | Vol. 7 |
-| **AA** | Customer Success como disciplina: expansão e renovação em SaaS B2B | Vol. 3 |
-| **AR** | Content marketing e SEO como canal de aquisição | Vol. 3 |
-| **AS** | Community building como canal de aquisição e feedback | Vol. 3 |
-| **AY** | Marketing de performance em profundidade | Vol. 3 |
-| **CX** | Canais indiretos e parcerias: parcerias, franquias e channel | Vol. 5 |
-| **CY** | Marca pessoal do fundador: distribuição, autoridade e custo de reputação | Vol. 5 |
-| **J** | Framework de canais de aquisição (Bullseye e PLG) | Vol. 3 |
+| Capítulo | Tema |
+|---|---|
+| **Cap. 1** | Abordagem científica vs Lean Startup: quando usar cada uma |
+| **Cap. 2** | Framework de decisão por gates: Problem Core, Scale Levers, Exploratory |
+| **Cap. 3** | TRL e CRL: maturidade tecnológica e de mercado |
+| **Cap. 4** | Sinais de saída e estrutura do *Committed Next Move* |
+| **Cap. 5** | Idea → Wedge → Scale: o framework |
+| **Cap. 6** | Marketplace dynamics e risco de plataforma |
+| **Cap. 7** | Plataforma vs Produto: quando construir cada um |
+| **Cap. 8** | B2B2C: quando sua empresa vende para empresa que vende para consumidor |
+| **Cap. 9** | Open source como estratégia de go-to-market |
 
 </details>
 
 <details>
-<summary><strong>👥 Time, Liderança e Operações</strong></summary>
+<summary><strong>🚀 Vol. 4 — Tração e PMF: GTM, Canais, Vendas, Pricing, CS e Dados (Capítulos 1 a 16)</strong></summary>
 
-| Apêndice | Tema | Volume |
-|---|---|---|
-| **CO** | Recrutamento técnico em profundidade | Vol. 6 |
-| **CR** | Engineering management e developer experience | Vol. 6 |
-| **DW** | Management para o fundador técnico: da engenharia à liderança | Vol. 6 |
-| **FB** | Design organizacional: estrutura, squads, Conway's Law e reorgs | Vol. 6 |
-| **FC** | Gestão do conhecimento: wiki, onboarding, runbooks e retenção de saber | Vol. 6 |
-| **DV** | Operações em escala: processos, cadência, incidentes e automação | Vol. 6 |
-| **DZ** | Comunicação interna: all-hands, RIF, crise, assíncrono e Slack | Vol. 6 |
-| **DS** | Negociação como disciplina: BATNA, ZOPA, ancoragem e term sheet | Vol. 3 |
-| **EJ** | Tomada de decisão como disciplina: Tipo 1/2, vieses, SPADE, pré-mortem | Vol. 1 |
-| **EK** | Influência e persuasão sem autoridade formal | Vol. 1 |
-| **EW** | Comunicação escrita para negócios: memo, investor update, RFC, async | Vol. 1 |
-| **EX** | Apresentação e fala em público: pitch, all-hands, keynote, board, mídia | Vol. 1 |
-| **EV** | Comunicação em crise: primeiros 60 min, stakeholders, redes sociais, recuperação | Vol. 7 |
-| **BZ** | Performance reviews: ciclo e calibração | Vol. 5 |
-| **BV** | Layoffs e downsizing sem destruir a empresa | Vol. 7 |
-| **Y** | Saúde mental, cofundadores e humanidade do fundador | Vol. 1 |
-| **BN** | Executive hiring: contratar líderes sênior e C-level | Vol. 5 |
-| **AP** | Cultura como disciplina: comportamento agregado, não só valores | Vol. 5 |
-| **FG** | Cultura em situações especiais: M&A, hipercrescimento, remoto | Vol. 5 |
-| **AM** | Board e Governance: composição, ritmo e gestão | Vol. 7 |
-| **AG** | Remote, hybrid e distribuído como disciplina operacional | Vol. 5 |
-| **BU** | Diversidade, equidade e inclusão (DEI) em startup brasileira | Vol. 5 |
-| **AL** | Rede, mentores e advisors: capital humano do empreendedor | Vol. 1 |
-| **R** | Founder Mode, delegação e quando parar de fazer | Vol. 5 |
-| **BQ** | Gestão de tempo do fundador e operating cadence | Vol. 5 |
+| Capítulo | Tema |
+|---|---|
+| **Cap. 1** | GTM Playbook: da ideia ao primeiro milhão de ARR |
+| **Cap. 2** | Framework de canais de aquisição (Bullseye e PLG) |
+| **Cap. 3** | Content marketing e SEO como canal de aquisição |
+| **Cap. 4** | Community building como canal de aquisição e feedback |
+| **Cap. 5** | Marketing de performance em profundidade |
+| **Cap. 6** | Branding e posicionamento de marca para startups |
+| **Cap. 7** | Product Marketing: posicionamento, mensagem e lançamento |
+| **Cap. 8** | Vendas, pipeline e revenue operations |
+| **Cap. 9** | Pricing strategy como disciplina |
+| **Cap. 10** | Subscription economy em profundidade: além do "cobra mensalmente" |
+| **Cap. 11** | Negociação como disciplina: BATNA, ZOPA, ancoragem e term sheet |
+| **Cap. 12** | Customer Success como disciplina: expansão e renovação em SaaS B2B |
+| **Cap. 13** | Customer Experience: jornada, NPS, onboarding e churn preditivo |
+| **Cap. 14** | Dados, analytics e experimentação: stack moderno e métricas |
+| **Cap. 15** | AI como parte do produto (AI-native) |
+| **Cap. 16** | Pivot: quando, como e quanto custa esperar |
 
 </details>
 
 <details>
-<summary><strong>⚖️ Jurídico, Regulatório e Compliance</strong></summary>
+<summary><strong>💰 Vol. 5 — Finanças e Captação: Caixa, VC, Valuation, Tributário e FP&A (Capítulos 1 a 20)</strong></summary>
 
-| Apêndice | Tema | Volume |
-|---|---|---|
-| **AH** | Contratos e aspectos legais operacionais | Vol. 6 |
-| **EU** | Contratos em profundidade: MSA, DPA, NDA, LOI, advisor, ToU | Vol. 6 |
-| **EL** | Direito do trabalho para startups: PJ, CLT, eSocial, rescisão | Vol. 6 |
-| **ED** | Compensação e benefícios no Brasil: salário, PLR, equity, benefícios por estágio | Vol. 5 |
-| **EO** | Contencioso e litígio: trabalhista, cível, tributário, consumerista | Vol. 6 |
-| **EP** | Responsabilidade do sócio e do administrador: quando o véu societário cai | Vol. 4 |
-| **EQ** | Direito do consumidor e CDC: PROCON, Reclame Aqui, ação coletiva, dark patterns | Vol. 6 |
-| **EM** | Compliance e anticorrupção: Lei 12.846, LGPD/DPO, PLD/CFT, SOX-lite | Vol. 6 |
-| **ER** | CADE e antitruste: concentração, conduta, plataformas digitais | Vol. 8 |
-| **ES** | Recuperação judicial e wind-down: RJ, dissolução, acqui-hire | Vol. 7 |
-| **ET** | Regulatório de IA no Brasil: PL 2338/2023, LGPD Art. 20, setores regulados | Vol. 6 |
-| **FE** | Política pública como estratégia: regulação, sandbox, financiamento e Congresso | Vol. 8 |
-| **T** | LGPD e proteção de dados | Vol. 6 |
-| **AW** | Regulatório setorial: fintech, healthtech, agritech | Vol. 8 |
-| **BS** | Expansão para os EUA: visto EB-1, O-1 e estrutura | Vol. 7 |
-| **DA** | Marco Legal das Startups: LC 182/2021, COCP, ARE e dispensa de licitação | Vol. 4 |
-| **DB** | Stock options e ESOP no Brasil: instrumentos, tributação, vesting e gestão do cap table | Vol. 5 |
-| **DC** | Propriedade Intelectual e INPI: marcas, patentes, segredo industrial e IP assignment | Vol. 6 |
-| **DJ** | Não-concorrência e não-solicitação no Brasil: validade, estrutura e M&A | Vol. 6 |
-| **CV** | Segurança da informação: da certificação à engenharia | Vol. 6 |
-| **BP** | Disputa societária e saída de sócio | Vol. 7 |
-
-</details>
-
-<details>
-<summary><strong>🔄 Exit e Sucessão</strong></summary>
-
-| Apêndice | Tema | Volume |
-|---|---|---|
-| **BJ** | M&A ativo e roll-ups: fundador como comprador | Vol. 7 |
-| **BR** | Sucessão no exit e transição pós-aquisição | Vol. 7 |
-| **BI** | Empresa familiar e sucessão | Vol. 7 |
-| **BF** | Second-time founder | Vol. 7 |
-| **DI** | Retenção de talentos após M&A: o que muda e o que se perde | Vol. 7 |
-| **BL** | Search funds e ETA: empreendedorismo por aquisição de empresa existente | Vol. 7 |
-| **BA** | Secondary e liquidez de founder antes do exit formal | Vol. 7 |
+| Capítulo | Tema |
+|---|---|
+| **Cap. 1** | Demonstrativos financeiros para o fundador: DRE, balanço, DFC e capital de giro |
+| **Cap. 2** | Modelagem financeira operacional: drivers, cenários e instrumento de decisão |
+| **Cap. 3** | Modelagem financeira com cohorts: projeções para empresa recorrente |
+| **Cap. 4** | Gestão de caixa e sobrevivência em crise |
+| **Cap. 5** | Jornada de captação: do pitch ao closing |
+| **Cap. 6** | Planejamento de rodada como processo: fundraising estruturado |
+| **Cap. 7** | Valuation: métodos, múltiplos e negociação |
+| **Cap. 8** | Instrumentos de captação: SAFE, nota conversível e mútuo conversível |
+| **Cap. 9** | Financiamento não-diluitivo: Finep, BNDES, grants |
+| **Cap. 10** | Venture debt e Revenue-Based Financing (RBF) |
+| **Cap. 11** | Equity crowdfunding no Brasil: captação pública de pequenos investidores |
+| **Cap. 12** | Tokenização e blockchain |
+| **Cap. 13** | Investor relations pós-rodada: updates, board e pedidos de ajuda |
+| **Cap. 14** | Contabilidade e tributário brasileiro para startups |
+| **Cap. 15** | Tributário estratégico para startups: Simples, Lucro Presumido, Lei do Bem |
+| **Cap. 16** | Planejamento financeiro e orçamento: top-down, bottom-up e reforecast |
+| **Cap. 17** | Revenue forecasting: modelos, acurácia e processo para o founder |
+| **Cap. 18** | Capital de giro e recebíveis: CCC, antecipação, FIDC e crédito operacional |
+| **Cap. 19** | Relações bancárias e crédito no Brasil: Pronampe, BNDES, Open Finance |
+| **Cap. 20** | Gestão de risco e seguros: D&O, E&O, cyber, Key Man e registro de riscos |
 
 </details>
 
 <details>
-<summary><strong>🏭 Verticais e Setores</strong></summary>
+<summary><strong>👥 Vol. 6 — Receita e Pessoas: Enterprise, RevOps, Liderança, Comp/ESOP e Cultura (Capítulos 1 a 19)</strong></summary>
 
-| Apêndice | Tema | Volume |
-|---|---|---|
-| **CA** | Deep tech e hardware no Brasil | Vol. 8 |
-| **CM** | Biotech e healthtech: regulação e capital | Vol. 8 |
-| **Z** | AI como parte do produto (AI-native) | Vol. 3 |
-| **CJ** | Tokenização e blockchain | Vol. 4 |
-| **DK** | Govtech: startup vendendo para governo — licitação, dispensa, ARE e pipeline público | Vol. 8 |
-| **DL** | Agritech: playbook para o campo brasileiro — canais, sazonalidade, regulatório e funding | Vol. 8 |
-| **DM** | Edtech: B2C, B2B e B2G — unit economics, regulação MEC e sazonalidade | Vol. 8 |
-| **DN** | Cleantech e ESG: energia renovável, créditos de carbono e fundos de impacto | Vol. 8 |
-| **DO** | Proptech: CRECI, SPE, CRI/FII e jornada de compra de imóvel no Brasil | Vol. 8 |
-| **DP** | Legaltech: OAB, risco regulatório e modelos de negócio jurídico | Vol. 8 |
-| **DQ** | Logtech: custo logístico, last mile, marketplace de frete e cadeia de supply chain | Vol. 8 |
-
-</details>
-
-<details>
-<summary><strong>🤖 IA, Dados e Tecnologia</strong></summary>
-
-| Apêndice | Tema | Volume |
-|---|---|---|
-| **I** | IA generativa como acelerador do empreendedor (2026) | Vol. 1 |
-| **CT** | IA como co-piloto do fundador: uso diário e produtividade (2026) | Vol. 1 |
-| **CH** | IA na engenharia interna: Copilot, agentes e produtividade de dev | Vol. 6 |
-| **EI** | AI Ops e automação inteligente: workflows, stack, governança, WABA | Vol. 6 |
-| **AO** | Dados, analytics e experimentação: stack moderno e métricas | Vol. 3 |
-| **BC** | Technical debt como disciplina gerenciada | Vol. 6 |
+| Capítulo | Tema |
+|---|---|
+| **Cap. 1** | Growth como função organizacional |
+| **Cap. 2** | Vendas complexas enterprise: ciclo longo, múltiplos decisores, MEDDPICC |
+| **Cap. 3** | Revenue Operations: CRM, forecast, pipeline e handoffs |
+| **Cap. 4** | Business Development: parcerias estratégicas como motor de crescimento |
+| **Cap. 5** | Parceria com grandes corporações brasileiras: como navegar o elefante |
+| **Cap. 6** | Canais indiretos e parcerias: parcerias, franquias e channel |
+| **Cap. 7** | Relações públicas, marca e narrativa institucional |
+| **Cap. 8** | Comunicação pública do fundador |
+| **Cap. 9** | Marca pessoal do fundador: distribuição, autoridade e custo de reputação |
+| **Cap. 10** | Founder Mode, delegação e quando parar de fazer |
+| **Cap. 11** | Gestão de tempo do fundador e operating cadence |
+| **Cap. 12** | Executive hiring: contratar líderes sênior e C-level |
+| **Cap. 13** | Performance reviews: ciclo e calibração |
+| **Cap. 14** | Compensação e benefícios no Brasil: salário, PLR, equity, benefícios por estágio |
+| **Cap. 15** | Stock options e ESOP no Brasil: instrumentos, tributação, vesting e gestão do cap table |
+| **Cap. 16** | Cultura como disciplina: comportamento agregado, não só valores |
+| **Cap. 17** | Cultura em situações especiais: M&A, hipercrescimento, remoto |
+| **Cap. 18** | Diversidade, equidade e inclusão (DEI) em startup brasileira |
+| **Cap. 19** | Remote, hybrid e distribuído como disciplina operacional |
 
 </details>
 
 <details>
-<summary><strong>🌱 Ecossistema e Jornada</strong></summary>
+<summary><strong>⚙️ Vol. 7 — Produto, Engenharia e Operações: Escala Técnica, IA e Processos (Capítulos 1 a 11)</strong></summary>
 
-| Apêndice | Tema | Volume |
-|---|---|---|
-| **AK** | Aceleradoras, programas e parceiros institucionais para startup brasileira | Vol. 1 |
-| **CN** | Diversidade de jornadas: casos além do cânone | Vol. 1 |
-| **D** | Armadilhas mentais e vieses cognitivos do empreendedor | Vol. 1 |
-| **H** | TRL e CRL: maturidade tecnológica e de mercado | Vol. 2 |
-| **AI** | Casos de fracasso brasileiros e lições (7 padrões arquetípicos) | Vol. 2 |
-| **BH** | Post-mortems brasileiros: catálogo de 12 casos em profundidade | Vol. 7 |
+| Capítulo | Tema |
+|---|---|
+| **Cap. 1** | Produto em escala e descoberta contínua |
+| **Cap. 2** | Management para o fundador técnico: da engenharia à liderança |
+| **Cap. 3** | Recrutamento técnico em profundidade |
+| **Cap. 4** | Engineering management e developer experience |
+| **Cap. 5** | Technical debt como disciplina gerenciada |
+| **Cap. 6** | IA na engenharia interna: Copilot, agentes e produtividade de dev |
+| **Cap. 7** | AI Ops e automação inteligente: workflows, stack, governança, WABA |
+| **Cap. 8** | Design organizacional: estrutura, squads, Conway's Law e reorgs |
+| **Cap. 9** | Gestão do conhecimento: wiki, onboarding, runbooks e retenção de saber |
+| **Cap. 10** | Comunicação interna: all-hands, RIF, crise, assíncrono e Slack |
+| **Cap. 11** | Operações em escala: processos, cadência, incidentes e automação |
 
 </details>
 
 <details>
-<summary><strong>📚 Biblioteca de Referência Rápida (Volumes 8, 9 e 10)</strong></summary>
+<summary><strong>⚖️ Vol. 8 — Jurídico, LGPD e Segurança: Societário, PI, Contratos, Trabalhista e Cyber (Capítulos 1 a 14)</strong></summary>
 
-| Recurso | Volume | Descrição |
-|---|---|---|
-| Checklist de Passagem de Fase (Apêndice B) | **Vol. 8** | Sinais de saída e estrutura do *Committed Next Move* |
-| Catálogo de Métricas (Apêndice C) | **Vol. 8** | Métricas e benchmarks para todas as 18 fases |
-| Recursos e Leituras (Apêndice E) | **Vol. 8** | Livros, artigos e recursos por tema para aprofundamento |
-| Ferramentário (Apêndice BG + Índice) | **Vol. 9** | 163 frameworks (BG.1 a BG.19) com passo a passo e erros comuns |
-| Canvases e Mapas Visuais (Apêndice CZ) | **Vol. 10** | 20 canvases com teoria, exemplo brasileiro e armadilhas: BMC, Lean, VPC, Strategy Canvas, Empathy Map, Test Card, Pirate (AARRR), Storytelling + SCQA, Capital Stack, Network Effects Map, Org Chart Evolution, Wardley Map e outros |
-| Templates (Apêndice A) | **Vol. 10** | DII, pitch, OKR, 5 templates de discovery, board deck (A.31), data room (A.32), term sheet anotado (A.33), JDs (A.34), post-mortem técnico (A.35), OKR cascade (A.36), fundraising plan (A.37), 1:1 (A.38), semana do fundador (A.39) e casos preenchidos |
-| Glossário e Lista de Abreviações | **Vol. 10** | 142 termos técnicos em português (A–Z e temático) + siglas |
-| Bibliografia e Índices Remissivos | **Vol. 10** | Referências completas das obras citadas + localização analítica e remissiva nos 10 volumes |
+| Capítulo | Tema |
+|---|---|
+| **Cap. 1** | Marco Legal das Startups: LC 182/2021, COCP, ARE e dispensa de licitação |
+| **Cap. 2** | Responsabilidade do sócio e do administrador: quando o véu societário cai |
+| **Cap. 3** | Propriedade Intelectual e INPI: marcas, patentes, segredo industrial e IP assignment |
+| **Cap. 4** | Não-concorrência e não-solicitação no Brasil: validade, estrutura e M&A |
+| **Cap. 5** | Contratos e aspectos legais operacionais |
+| **Cap. 6** | Contratos em profundidade: MSA, DPA, NDA, LOI, advisor, ToU |
+| **Cap. 7** | Direito do trabalho para startups: PJ, CLT, eSocial, rescisão |
+| **Cap. 8** | Direito do consumidor e CDC: PROCON, Reclame Aqui, ação coletiva, dark patterns |
+| **Cap. 9** | Contencioso e litígio: trabalhista, cível, tributário, consumerista |
+| **Cap. 10** | LGPD e proteção de dados |
+| **Cap. 11** | Regulatório de IA no Brasil: PL 2338/2023, LGPD Art. 20, setores regulados |
+| **Cap. 12** | Compliance e anticorrupção: Lei 12.846, LGPD/DPO, PLD/CFT, SOX-lite |
+| **Cap. 13** | Fraude interna e controles internos |
+| **Cap. 14** | Segurança da informação: da certificação à engenharia |
+
+</details>
+
+<details>
+<summary><strong>🔄 Vol. 9 — Maturidade e Exit: Board, Expansão Global, Crise, M&A e IPO (Capítulos 1 a 22)</strong></summary>
+
+| Capítulo | Tema |
+|---|---|
+| **Cap. 1** | Board e Governance: composição, ritmo e gestão |
+| **Cap. 2** | Empresa familiar e sucessão |
+| **Cap. 3** | Disputa societária e saída de sócio |
+| **Cap. 4** | ESG, impact e governança para startup |
+| **Cap. 5** | Internacionalização: estrutura e produto |
+| **Cap. 6** | Expansão para os EUA: visto EB-1, O-1 e estrutura |
+| **Cap. 7** | Hedging cambial e gestão de moeda multicountry |
+| **Cap. 8** | Tesouraria em escala: caixa multi-moeda e multi-conta |
+| **Cap. 9** | Crise e continuidade: prevenção, resposta e recuperação |
+| **Cap. 10** | Comunicação em crise: primeiros 60 min, stakeholders, redes sociais, recuperação |
+| **Cap. 11** | Layoffs e downsizing sem destruir a empresa |
+| **Cap. 12** | Recuperação judicial e wind-down: RJ, dissolução, acqui-hire |
+| **Cap. 13** | Sucessão no exit e transição pós-aquisição |
+| **Cap. 14** | M&A ativo e roll-ups: fundador como comprador |
+| **Cap. 15** | Search funds e ETA: empreendedorismo por aquisição de empresa existente |
+| **Cap. 16** | IPO no Brasil: quando, como e o que muda (B3, Novo Mercado, CVM) |
+| **Cap. 17** | Secondary e liquidez de founder antes do exit formal |
+| **Cap. 18** | Mercado secundário e liquidez antecipada para founders e early employees |
+| **Cap. 19** | Tributação do exit para fundadores brasileiros: ganho de capital, holding e offshore |
+| **Cap. 20** | Retenção de talentos após M&A: o que muda e o que se perde |
+| **Cap. 21** | Post-mortems brasileiros: catálogo de 12 casos em profundidade |
+| **Cap. 22** | Second-time founder |
+
+</details>
+
+<details>
+<summary><strong>🏭 Vol. 10 — Playbooks Setoriais e Glossário: Macro, Regulação, 9 Verticais e Índices (Capítulos 1 a 13 + Glossários)</strong></summary>
+
+| Capítulo / Seção | Tema |
+|---|---|
+| **Cap. 1** | Ciclos macroeconômicos: SELIC, inflação, câmbio e ciclos de capital de risco |
+| **Cap. 2** | Regulatório setorial: fintech, healthtech, agritech |
+| **Cap. 3** | CADE e antitruste: concentração, conduta, plataformas digitais |
+| **Cap. 4** | Política pública como estratégia: regulação, sandbox, financiamento e Congresso |
+| **Cap. 5** | Biotech e healthtech: regulação e capital |
+| **Cap. 6** | Deep tech e hardware no Brasil |
+| **Cap. 7** | Govtech: startup vendendo para governo — licitação, dispensa, ARE e pipeline público |
+| **Cap. 8** | Agritech: playbook para o campo brasileiro — canais, sazonalidade, regulatório e funding |
+| **Cap. 9** | Edtech: B2C, B2B e B2G — unit economics, regulação MEC e sazonalidade |
+| **Cap. 10** | Cleantech e ESG: energia renovável, créditos de carbono e fundos de impacto |
+| **Cap. 11** | Proptech: CRECI, SPE, CRI/FII e jornada de compra de imóvel no Brasil |
+| **Cap. 12** | Legaltech: OAB, risco regulatório e modelos de negócio jurídico |
+| **Cap. 13** | Logtech: custo logístico, last mile, marketplace de frete e cadeia de supply chain |
+| **Referência Geral** | Catálogo Consolidado de Métricas, Leituras Gerais, Glossário de Termos Técnicos (A–Z e Temático), Lista de Abreviações, Bibliografia Completa e Índices Remissivos |
 
 </details>
 
@@ -380,7 +384,7 @@ Este manual foi escrito em português porque o contexto importa. Aberto porque c
 
 ## Formatos disponíveis e Build
 
-O livro existe como **10 volumes canônicos em Markdown** na pasta [`volumes/`](volumes/) e como **10 EPUBs independentes** (+ edição completa Omnibus) prontos para leitor digital em [`build/`](build/).
+O livro existe como **10 volumes autocontidos em Markdown** na pasta [`volumes/`](volumes/) e como **10 EPUBs independentes** (+ edição completa Omnibus) prontos para leitor digital em [`build/`](build/).
 
 Para regerar as capas e os EPUBs depois de editar qualquer volume em `volumes/`:
 

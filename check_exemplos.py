@@ -76,13 +76,13 @@ def normalize(s: str) -> str:
 
 def check_section_text(text: str) -> tuple[bool, list[str]]:
     problems = []
-    parts = re.split(r"(?m)^#{3,4} EXEMPLO PRÁTICO", text)
+    parts = re.split(r"(?m)^#{3,5} EXEMPLO PRÁTICO\s*$", text)
     if len(parts) < 2:
         return False, []
 
     pre = parts[0]
     raw_example = parts[1]
-    boundary = re.search(r"(?m)^(#{3,4}\s|---\s*$|\*\*Contraste\s)", raw_example)
+    boundary = re.search(r"(?m)^(#{3,5}\s|---\s*$|\*\*Contraste\s)", raw_example)
     example = raw_example[: boundary.start()] if boundary else raw_example
 
     template_fields = extract_template_fields(pre)
@@ -124,7 +124,7 @@ def _vol_sort_key(p: Path) -> int:
 
 def main():
     filter_name = " ".join(sys.argv[1:]).lower() if len(sys.argv) > 1 else None
-    boundary = re.compile(r"(?m)^## ((?:FASE|APÊNDICE)\s+[^\n]+)")
+    boundary = re.compile(r"(?m)^(?:## ((?:FASE|CAPÍTULO)\s+[^\n]+)|#### (Template:\s+[^\n]+))")
 
     total_checked = 0
     total_compared = 0
@@ -136,12 +136,12 @@ def main():
         matches = list(boundary.finditer(vol_text))
         starts = [m.start() for m in matches]
         for i, m in enumerate(matches):
-            sec_title = m.group(1).strip()
+            sec_title = (m.group(1) or m.group(2)).strip()
             if filter_name and filter_name not in sec_title.lower():
                 continue
             end = starts[i + 1] if i + 1 < len(starts) else len(vol_text)
             sec_text = vol_text[m.start() : end]
-            if not re.search(r"(?m)^#{3,4} EXEMPLO PRÁTICO", sec_text):
+            if not re.search(r"(?m)^#{3,5} EXEMPLO PRÁTICO\s*$", sec_text):
                 continue
             total_checked += 1
             has_template, problems = check_section_text(sec_text)

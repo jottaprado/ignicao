@@ -1,585 +1,115 @@
 ---
-title: "IGNIÇÃO — Volume 8: Playbooks Setoriais"
-subtitle: "Verticais Brasileiras, Regulação Setorial, Macroeconomia e Catálogo de Métricas"
-volume: 8
-collection: "IGNIÇÃO — O manual operacional do empreendedor brasileiro"
+title: "IGNIÇÃO — Volume 10: Playbooks Setoriais, Regulação e Glossário Geral"
+subtitle: "Macroeconomia, Autarquias Reguladoras, 9 Verticais Brasileiras e Dicionário da Coleção (Capítulos 1 a 13 e Índices)"
 author: "João Prado"
-type: enciclopédia
-status: living-document
-created: 2026-04-22
-updated: 2026-10-20
-version: "3.5"
+date: 2026
+version: "4.0"
+volume: 10
+collection: "IGNIÇÃO — O manual operacional do empreendedor brasileiro (10 Volumes Autocontidos)"
 language: pt-BR
-phase_count: 0
-appendix_count: 16
-diagram_count: 9
-word_count: 50086
 ---
-# IGNIÇÃO — Volume 8: Playbooks Setoriais
 
-*Verticais Brasileiras, Regulação Setorial, Macroeconomia e Catálogo de Métricas*
+# IGNIÇÃO — Volume 10: Playbooks Setoriais, Regulação e Glossário Geral
 
-> [!tip] Dica para leitura no Obsidian e GitHub
-> Este volume faz parte da coleção **IGNIÇÃO** (10 volumes). Os links para seções deste mesmo volume usam âncoras diretas (`[[#Seção]]`) e os links para outros volumes apontam para o arquivo correspondente (`[[IGNICAO-Vol-X-Nome#Seção]]`).
+**Macroeconomia, Autarquias Reguladoras, 9 Verticais Brasileiras e Dicionário da Coleção (Capítulos 1 a 13 e Índices)**
+
+*João Prado · 2026 — Edição Autocontida (v4.0)*
 
 ---
 
 ## Sobre este Volume
 
-Este é o **Volume 8 (Playbooks Setoriais)** da coleção **IGNIÇÃO — O manual operacional do empreendedor brasileiro** (10 volumes).
+Este é o **Volume 10 (Playbooks Setoriais, Regulação e Glossário Geral)** da coleção **IGNIÇÃO — O manual operacional do empreendedor brasileiro** (10 volumes autocontidos).
 
-Primeiro volume da Biblioteca de Referência Transversal (Volumes 8, 9 e 10). Reúne os instrumentos de governança de passagem de fase (Committed Next Move — Apêndice B), o Catálogo Completo de Métricas e Benchmarks por Fase (Apêndice C) e o guia de leituras recomendadas (Apêndice E); a análise do tabuleiro macro-institucional brasileiro — ciclos macroeconômicos (Selic, câmbio e liquidez), mapa das autarquias reguladoras (BACEN, CVM, SUSEP, ANVISA, ANS, ANATEL, ANEEL, ANP), defesa da concorrência no CADE e política pública como estratégia; e os 9 Playbooks Setoriais em profundidade para operar no Brasil: Biotech/Healthtech, Hardware/Deep Tech, Govtech, Agritech, Edtech, Cleantech/ESG, Proptech, Legaltech e Logtech.
-
-> [!note] Consulta transversal e navegação entre os 10 volumes
-> Cada volume da coleção IGNIÇÃO reúne as **Fases**, as **Introduções de Domínio** e os **Apêndices temáticos** do seu respectivo estágio ou disciplina. Para métricas por fase e playbooks de verticais brasileiras, consulte o **[[#APÊNDICE C — CATÁLOGO DE MÉTRICAS POR FASE|Volume 8 — Playbooks Setoriais]]**. Para os 163 frameworks de gestão e produto, consulte o **[[IGNICAO-Vol-9-Ferramentario#APÊNDICE BG — FERRAMENTÁRIO COMPLETO DO EMPREENDEDOR|Volume 9 — Ferramentário (BG) (Vol. 9)]]**. Para canvases visuais (CZ), templates copiáveis (A) e glossário geral, consulte o **[[IGNICAO-Vol-10-Canvases-e-Templates#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Volume 10 — Canvases, Templates e Índices (Vol. 10)]]**. A Nota do Autor e o guia geral de uso da obra encontram-se na abertura do **[[IGNICAO-Vol-1-Ideacao#Nota do autor|Volume 1 — Ideação (Vol. 1)]]**.
+Volume de fechamento da coleção IGNIÇÃO, reunindo dois acervos essenciais: (1) o manual de operação no ambiente macro-institucional e regulatório brasileiro (Ciclos Macroeconômicos/Selic, Autarquias Reguladoras BACEN/CVM/SUSEP/ANVISA/ANS/ANATEL/ANEEL/ANP, CADE/Antitruste e Políticas Públicas) junto aos 9 Playbooks Setoriais em profundidade (Biotech/Healthtech, Hardware/Deep Tech, Govtech, Agritech, Edtech, Cleantech/ESG, Proptech, Legaltech e Logtech); e (2) o Dicionário e Aparelho Crítico Geral da Coleção (Glossário de Termos Técnicos e de Negócios, Lista de Abreviações, Bibliografia Geral e Unificada, Índice Geral de Frameworks e Índices Analítico e Remissivos).
 
 ---
 
 ## Mapa da Coleção IGNIÇÃO
 
 ```mermaid
-flowchart TD
-    subgraph JORNADA["Trilha Principal — Da Ideação ao Exit (Vols. 1 a 7)"]
-        V1["<b>Vol. 1 — Ideação</b><br/>Fases 0 a 2B · Fundador, Ideia e Tese"]
-        V2["<b>Vol. 2 — Validação</b><br/>Fases 3 a 9 · Descoberta, Hipóteses e Protótipo"]
-        V3["<b>Vol. 3 — Tração</b><br/>Fases 10 a 12 · MVP, GTM Inicial e PMF"]
-        V4["<b>Vol. 4 — Captação e Finanças</b><br/>Fase 13 · Societário, VC, Tributário e FP&A"]
-        V5["<b>Vol. 5 — Receita e Pessoas</b><br/>Fase 14 · Enterprise, RevOps, Liderança e Cultura"]
-        V6["<b>Vol. 6 — Engenharia e Jurídico</b><br/>Produto em Escala, IA, Operações e Blindagem Legal"]
-        V7["<b>Vol. 7 — Maturidade e Exit</b><br/>Fases 15 e 16 · Board, Internacionalização, Crise e Saída"]
-        V1 ==>|"Tese explícita"| V2
-        V2 ==>|"Problem-Solution Fit"| V3
-        V3 ==>|"Product-Market Fit"| V4
-        V4 ==>|"Base estruturada"| V5
-        V5 <==>|"Execução integrada"| V6
-        V5 & V6 ==>|"Operação madura"| V7
+graph LR
+    subgraph J1["Do Zero à Validação"]
+        V1["<b>Vol. 1 — Ideação</b><br/>Fases 0 a 3 · Fundador e Teoria"]
+        V2["<b>Vol. 2 — Descoberta e Mercado</b><br/>Fases 4 a 6 · Cliente e Cunha"]
+        V3["<b>Vol. 3 — Hipóteses e Protótipo</b><br/>Fases 7 a 10 · Testes e Modelos"]
+        V1 --> V2 --> V3
     end
-    subgraph REFERENCIA["Biblioteca Transversal — Consulta Sob Demanda (Vols. 8 a 10)"]
-        V8["<b>Vol. 8 — Playbooks Setoriais</b><br/>Verticais Brasileiras, Regulação, Macro e Métricas"]
-        V9["<b>Vol. 9 — Ferramentário (BG)</b><br/>163 Frameworks de Estratégia, Produto, Vendas e Gestão"]
-        V10["<b>Vol. 10 — Canvases, Templates e Índices</b><br/>20 Mapas Visuais (CZ) · 30 Templates (A) · Glossário"]
+    subgraph J2["Tração e Escala"]
+        V4["<b>Vol. 4 — Tração e PMF</b><br/>Fases 11 a 13 · MVP, GTM e Vendas"]
+        V5["<b>Vol. 5 — Finanças e Captação</b><br/>Fase 14 · Caixa, VC, Tributário e FP&A"]
+        V6["<b>Vol. 6 — Receita e Pessoas</b><br/>Fases 15 e 16 · Enterprise, Líderes e Cultura"]
+        V7["<b>Vol. 7 — Produto e Engenharia</b><br/>Fase 17 · Operações, IA e Arquitetura"]
+        V8["<b>Vol. 8 — Jurídico e Segurança</b><br/>Fase 18 · Societário, Contratos e LGPD"]
+        V3 --> V4 --> V5 --> V6 --> V7 --> V8
     end
-    REFERENCIA -.->|"Consulta transversal em todas as fases"| JORNADA
-    style V8 fill:#ff6b1a,color:#ffffff,stroke:#1a0a00,stroke-width:3px
+    subgraph J3["Ciclo Longo e Setores"]
+        V9["<b>Vol. 9 — Maturidade e Exit</b><br/>Fases 19 e 20 · Board, Crise, M&A e IPO"]
+        V10["<b>Vol. 10 — Verticais e Glossário</b><br/>Regulação, 9 Setores e Índices Gerais"]
+        V8 --> V9
+    end
+    V10 -. "Consulta Setorial e Dicionário" .-> J1
+    V10 -. "Consulta Setorial e Dicionário" .-> J2
+    V10 -. "Consulta Setorial e Dicionário" .-> J3
 ```
 
 ---
 
 ## Sumário deste Volume
 
-### Guias de Passagem de Fase, Catálogo de Métricas e Leituras
-
-- [[#APÊNDICE B — COMO FECHAR UMA FASE: COMMITTED NEXT MOVE E SINAIS OBSERVÁVEIS]]
-- [[#APÊNDICE C — CATÁLOGO DE MÉTRICAS POR FASE]]
-- [[#APÊNDICE E — RECURSOS E LEITURAS RECOMENDADAS]]
-
-### Ambiente Macroeconômico, Regulatório Setorial, Antitruste e Políticas Públicas
-
-- [[#APÊNDICE EF — CICLOS MACROECONÔMICOS E A STARTUP BRASILEIRA]]
-- [[#APÊNDICE AW — REGULATÓRIO SETORIAL BRASILEIRO]]
-- [[#APÊNDICE ER — CADE E ANTITRUSTE — QUANDO O CRESCIMENTO ATRAI O REGULADOR]]
-- [[#APÊNDICE FE — POLÍTICA PÚBLICA COMO ESTRATÉGIA]]
-
-### Playbooks de Verticais e Setores Regulados no Brasil
-
-- [[#APÊNDICE CM — BIOTECH E HEALTHTECH: PLAYBOOK DE REGULAÇÃO, ENSAIOS E CAPITAL]]
-- [[#APÊNDICE CA — HARDWARE E DEEP TECH: CONSTRUIR NEGÓCIO COM FABRICAÇÃO, IP E HORIZONTES LONGOS]]
-- [[#APÊNDICE DK — GOVTECH: STARTUP VENDENDO PARA GOVERNO]]
-- [[#APÊNDICE DL — AGRITECH: PLAYBOOK PARA O CAMPO BRASILEIRO]]
-- [[#APÊNDICE DM — EDTECH: PLAYBOOK PARA TECNOLOGIA DE EDUCAÇÃO NO BRASIL]]
-- [[#APÊNDICE DN — CLEANTECH E ESG: STARTUPS DE IMPACTO AMBIENTAL NO BRASIL]]
-- [[#APÊNDICE DO — PROPTECH: TECNOLOGIA NO MERCADO IMOBILIÁRIO BRASILEIRO]]
-- [[#APÊNDICE DP — LEGALTECH: TECNOLOGIA JURÍDICA NO BRASIL]]
-- [[#APÊNDICE DQ — LOGTECH: TECNOLOGIA EM LOGÍSTICA E SUPPLY CHAIN NO BRASIL]]
-
----
-
-# GUIAS DE PASSAGEM DE FASE, CATÁLOGO DE MÉTRICAS E LEITURAS
+### Ambiente Macroeconômico, Regulatório Setorial, Antitruste e Políticas Públicas (Capítulos 1 a 4)
+- [[#CAPÍTULO 1 — CICLOS MACROECONÔMICOS E A STARTUP BRASILEIRA|CAPÍTULO 1 — CICLOS MACROECONÔMICOS E A STARTUP BRASILEIRA]]
+- [[#CAPÍTULO 2 — REGULATÓRIO SETORIAL BRASILEIRO|CAPÍTULO 2 — REGULATÓRIO SETORIAL BRASILEIRO]]
+- [[#CAPÍTULO 3 — CADE E ANTITRUSTE — QUANDO O CRESCIMENTO ATRAI O REGULADOR|CAPÍTULO 3 — CADE E ANTITRUSTE — QUANDO O CRESCIMENTO ATRAI O REGULADOR]]
+- [[#CAPÍTULO 4 — POLÍTICA PÚBLICA COMO ESTRATÉGIA|CAPÍTULO 4 — POLÍTICA PÚBLICA COMO ESTRATÉGIA]]
+### Playbooks de Verticais e Setores Regulados no Brasil (Capítulos 5 a 13)
+- [[#CAPÍTULO 5 — BIOTECH E HEALTHTECH: PLAYBOOK DE REGULAÇÃO, ENSAIOS E CAPITAL|CAPÍTULO 5 — BIOTECH E HEALTHTECH: PLAYBOOK DE REGULAÇÃO, ENSAIOS E CAPITAL]]
+- [[#CAPÍTULO 6 — HARDWARE E DEEP TECH: CONSTRUIR NEGÓCIO COM FABRICAÇÃO, IP E HORIZONTES LONGOS|CAPÍTULO 6 — HARDWARE E DEEP TECH: CONSTRUIR NEGÓCIO COM FABRICAÇÃO, IP E HORIZONTES LONGOS]]
+- [[#CAPÍTULO 7 — GOVTECH: STARTUP VENDENDO PARA GOVERNO|CAPÍTULO 7 — GOVTECH: STARTUP VENDENDO PARA GOVERNO]]
+- [[#CAPÍTULO 8 — AGRITECH: PLAYBOOK PARA O CAMPO BRASILEIRO|CAPÍTULO 8 — AGRITECH: PLAYBOOK PARA O CAMPO BRASILEIRO]]
+- [[#CAPÍTULO 9 — EDTECH: PLAYBOOK PARA TECNOLOGIA DE EDUCAÇÃO NO BRASIL|CAPÍTULO 9 — EDTECH: PLAYBOOK PARA TECNOLOGIA DE EDUCAÇÃO NO BRASIL]]
+- [[#CAPÍTULO 10 — CLEANTECH E ESG: STARTUPS DE IMPACTO AMBIENTAL NO BRASIL|CAPÍTULO 10 — CLEANTECH E ESG: STARTUPS DE IMPACTO AMBIENTAL NO BRASIL]]
+- [[#CAPÍTULO 11 — PROPTECH: TECNOLOGIA NO MERCADO IMOBILIÁRIO BRASILEIRO|CAPÍTULO 11 — PROPTECH: TECNOLOGIA NO MERCADO IMOBILIÁRIO BRASILEIRO]]
+- [[#CAPÍTULO 12 — LEGALTECH: TECNOLOGIA JURÍDICA NO BRASIL|CAPÍTULO 12 — LEGALTECH: TECNOLOGIA JURÍDICA NO BRASIL]]
+- [[#CAPÍTULO 13 — LOGTECH: TECNOLOGIA EM LOGÍSTICA E SUPPLY CHAIN NO BRASIL|CAPÍTULO 13 — LOGTECH: TECNOLOGIA EM LOGÍSTICA E SUPPLY CHAIN NO BRASIL]]
+### Glossários, Bibliografias e Índices Gerais da Coleção
+- [[#DATA DE COMPILAÇÃO E NOTA SOBRE ENVELHECIMENTO|DATA DE COMPILAÇÃO E NOTA SOBRE ENVELHECIMENTO]]
+- [[#GLOSSÁRIO DE TERMOS TÉCNICOS|GLOSSÁRIO DE TERMOS TÉCNICOS]]
+- [[#GLOSSÁRIO TEMÁTICO DE NEGÓCIOS|GLOSSÁRIO TEMÁTICO DE NEGÓCIOS]]
+- [[#LISTA DE ABREVIAÇÕES|LISTA DE ABREVIAÇÕES]]
+- [[#BIBLIOGRAFIA GERAL|BIBLIOGRAFIA GERAL]]
+- [[#BIBLIOGRAFIA UNIFICADA POR DOMÍNIO|BIBLIOGRAFIA UNIFICADA POR DOMÍNIO]]
+- [[#ÍNDICE GERAL DE FRAMEWORKS DA COLEÇÃO|ÍNDICE GERAL DE FRAMEWORKS DA COLEÇÃO]]
+- [[#ÍNDICE ANALÍTICO|ÍNDICE ANALÍTICO]]
+- [[#ÍNDICE REMISSIVO|ÍNDICE REMISSIVO]]
+- [[#ÍNDICE REMISSIVO DE TERMOS-CHAVE|ÍNDICE REMISSIVO DE TERMOS-CHAVE]]
 
 ---
 
-### Arquitetura deste Domínio: Governança de Passagem de Fase, Benchmarks de Métricas e Repertório
+# AMBIENTE MACROECONÔMICO, REGULATÓRIO SETORIAL, ANTITRUSTE E POLÍTICAS PÚBLICAS (CAPÍTULOS 1 A 4)
 
-Este **Volume 8 (Playbooks Setoriais, Regulação e Métricas)** inaugura a tríade de referência transversal da coleção IGNIÇÃO (Volumes 8, 9 e 10). O primeiro bloco (**Apêndices B, C e E**) entrega três instrumentos de calibragem que acompanham o fundador desde a Fase 0 até a Fase 16:
+### Arquitetura deste Domínio: O Tabuleiro Macroeconômico, Regulatório e Concorrencial Brasileiro (Capítulos 1 a 4)
 
-- **O Compromisso de Passagem de Fase ([[#APÊNDICE B — COMO FECHAR UMA FASE: COMMITTED NEXT MOVE E SINAIS OBSERVÁVEIS|Apêndice B]]):** Como garantir que a transição entre duas fases seja um *Committed Next Move* (cunha definida, hipótese falsificável, sinal observável e prazo fixo), evitando a exploração infinita disfarçada de cautela.
-- **O Painel Quantitativo da Jornada ([[#APÊNDICE C — CATÁLOGO DE MÉTRICAS POR FASE|Apêndice C]]):** A consolidação, fase por fase (Fases 0 a 16), de todas as métricas primárias, fórmulas de cálculo e *benchmarks* calibrados para a realidade brasileira — o lugar exato para auditar se os números da sua empresa justificam avançar de etapa.
-- **A Curadoria Intelectual por Estágio ([[#APÊNDICE E — RECURSOS E LEITURAS RECOMENDADAS|Apêndice E]]):** O mapa de livros, artigos seminais e referências filtradas por problema concreto, para evitar a paralisia por excesso de leitura genérica.
+Este **Volume 10** cumpre duas missões na coleção IGNIÇÃO: ser o **manual definitivo para empreender em setores regulados e verticais específicas no Brasil** (Capítulos 1 a 13) e consolidar o **Dicionário, a Bibliografia e os Índices Gerais de toda a obra**.
 
----
+Nos quatro primeiros capítulos, mapeamos as forças estruturais do Estado e da macroeconomia brasileira que afetam qualquer empresa no país:
 
-## APÊNDICE B — COMO FECHAR UMA FASE: COMMITTED NEXT MOVE E SINAIS OBSERVÁVEIS
-
-Esse apêndice trata de algo que o checklist de SAÍDA DESTA FASE de cada fase não cobre, a estrutura do próximo passo a que você se compromete antes de virar a página. Os checklists de saída dizem "o que você precisa ter feito". Esse apêndice diz "como você sabe que o próximo passo é experimento comprometido e não procrastinação disfarçada de rigor". Vale ao fim de qualquer fase.
-
-### COMMITTED NEXT MOVE (próximo passo comprometido), a estrutura ao fim de cada fase
-
-Antes de encerrar qualquer fase, e abrir a próxima, valide que você tem as quatro peças abaixo definidas com precisão. Elas traduzem a disciplina "committed experiments, not prolonged exploration" (experimentos comprometidos, e não exploração prolongada) do programa da Antler para o trabalho fase a fase desse manual.
-
-> [!warning] A ausência de qualquer uma das quatro
-> A ausência de qualquer uma das quatro é sinal de que você está ainda em exploração. Não em compromisso.
-
-- [ ] **Uma cunha definida.** O comprador, o workflow, e o resultado exatos, que você está mirando *primeiro*. Se essa descrição muda dependendo do interlocutor, a cunha ainda não fechou (veja o Wedge Stress Test da [[IGNICAO-Vol-2-Validacao#FASE 5 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 5 (Vol. 2)]]).
-- [ ] **Uma hipótese testável.** Uma afirmação única, falsificável, sobre o que precisa ser verdade para a fase avançar. Escrita antes do teste, com threshold ex-ante (veja [[IGNICAO-Vol-2-Validacao#APÊNDICE F — ABORDAGEM CIENTÍFICA vs LEAN STARTUP: QUANDO USAR CADA UMA|Apêndice F (Vol. 2)]] sobre abordagem científica). Para os thresholds quantitativos de saude por fase que sustentam a decisao de COMMITTED NEXT MOVE, ver [[#APÊNDICE C — CATÁLOGO DE MÉTRICAS POR FASE|Apêndice C]].
-- [ ] **Um caminho de validação concreto.** A técnica específica que você vai usar para gerar o sinal. Não "várias técnicas possíveis" (veja a tabela A.9 para escolher entre entrevista, questionário, pré-venda, MVP, etc.).
-- [ ] **Uma janela curta de execução.** Data de início, e data de fim. Duas a três semanas é o padrão para experimentos em early stage (estágio inicial). Mais que isso geralmente é procrastinação disfarçada de rigor. Janelas curtas forçam decisão. Janelas longas adiam o momento da verdade.
-
-> [!important] Se as quatro peças não estão claras por escrito
-> Se as quatro peças não estão claras por escrito, você ainda não tem um próximo passo comprometido. Tem uma lista de ideias. Resolva antes de considerar a fase fechada.
-
-### SINAIS OBSERVÁVEIS, quatro formatos de evidência que provam que o próximo passo está andando
-
-Um próximo passo bom produz evidência. Não apenas atividade. Pergunte, antes de começar. *Se o experimento funcionar, o que eu vou observar?*. Os quatro formatos de sinal abaixo, qualquer um deles, contam como evidência real. Se nenhum se materializa na janela de execução, o experimento não gerou aprendizado útil. Independentemente de quantas horas você gastou nele.
-
-**Sinal de produto.** O mesmo usuário volta, e repete o workflow, sem você ter que convidar, lembrar, ou empurrar. Uso espontâneo repetido é o sinal mais forte em early stage. Curiosidade one-off não conta.
-
-**Adoção no fluxo de trabalho.** O produto deixa de ser "uma demo que eu testei", e vira parte do processo real do cliente. Aparece no passo-a-passo natural dele. É mencionado em reuniões internas. Substitui algo que ele usava antes.
-
-**Sinal econômico.** O cliente abre a conversa sobre orçamento. Pede proposta. Pergunta preço sem você puxar. Ou aloca tempo interno para avaliar compra. Interesse que se traduz em movimentação de recursos é diferente de interesse educado.
-
-**Compromisso comportamental do comprador.** O comprador formal (não apenas usuário, ou champion) aceita fazer um piloto com critérios. Assinar carta de intenção. Disponibilizar um canal interno para o projeto. Ou permitir acesso à equipe. Qualquer um desses é ponte para contrato real.
-
-> [!important] Regra combinada
-> Para o Committed Next Move ser considerado bem-desenhado, ele precisa nominalmente especificar qual dos quatro sinais você espera ver. E qual volume desse sinal você considera suficiente para declarar sucesso. Sem essa especificação ex-ante, você vai terminar a janela olhando os dados em busca de confirmação. E isso é viés. Não aprendizado.
+- **[[#CAPÍTULO 1 — CICLOS MACROECONÔMICOS E A STARTUP BRASILEIRA|Capítulo 1 — Ciclos Macroeconômicos e a Startup Brasileira]]:** Como a taxa Selic, a inflação, o câmbio e a liquidez global alteram o custo de capital, a inadimplência e os múltiplos de *valuation* no Brasil.
+- **[[#CAPÍTULO 2 — REGULATÓRIO SETORIAL BRASILEIRO|Capítulo 2 — Regulatório Setorial Brasileiro]]:** O mapa das autarquias brasileiras — **BACEN, CVM, SUSEP, ANVISA, ANS, ANATEL, ANEEL e ANP** —, suas licenças, *sandboxes* regulatórios e tempos de aprovação.
+- **[[#CAPÍTULO 3 — CADE E ANTITRUSTE — QUANDO O CRESCIMENTO ATRAI O REGULADOR|Capítulo 3 — CADE e Antitruste]]:** Quando o crescimento orgânico, contratos de exclusividade ou aquisições de concorrentes exigem notificação prévia e defesa concorrencial no CADE.
+- **[[#CAPÍTULO 4 — POLÍTICA PÚBLICA COMO ESTRATÉGIA|Capítulo 4 — Política Pública como Estratégia]]:** Como interagir institucionalmente com o Poder Público, participar de consultas públicas e transformar regulação em vantagem competitiva defensável (*regulatory moat*).
 
 ---
 
-## APÊNDICE C — CATÁLOGO DE MÉTRICAS POR FASE
-
-> [!note] Como usar
-> Esse apêndice consolida as métricas-chave de cada fase em formato de referência rápida. Para cada fase, apresenta as métricas centrais de acompanhamento, os benchmarks, referências comparativas quando existem, e os sinais de alerta. Não substitui a leitura de cada fase. Serve como painel de controle para diagnóstico rápido de onde a empresa está e do que medir no momento atual.
-
-O diagnóstico correto começa pela fase. Se você não sabe em qual fase está, leia as aberturas de [[IGNICAO-Vol-3-Tracao#FASE 10 — MVP E EXPERIMENTOS DE MERCADO|Fase 10 (Vol. 3)]] a [[IGNICAO-Vol-5-Receita-e-Pessoas#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14 (Vol. 5)]] e verifique qual descreve sua situação. Cada fase tem métricas próprias que fazem sentido no contexto dela. Aplicar métricas de [[IGNICAO-Vol-5-Receita-e-Pessoas#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14 (Vol. 5)]], escala, em empresa de [[IGNICAO-Vol-3-Tracao#FASE 10 — MVP E EXPERIMENTOS DE MERCADO|Fase 10 (Vol. 3)]], MVP ou produto mínimo viável, gera decisões erradas.
-
----
-
-### Fase 0 — Preparação do empreendedor
-
-As métricas de preparação são qualitativas. Runway pessoal em meses de subsistência sem renda (mínimo doze, ideal vinte e quatro). Clareza de motivação validada externamente (três ou mais pessoas próximas conseguem descrever sua motivação com precisão). Candidatos a cofundador entrevistados (cinco a dez pessoas). Horas dedicadas a exploração de problema (mínimo quarenta horas antes de qualquer decisão de build). Exercícios de autoconhecimento concluídos (FMF Check, teste de personalidade, análise de forças).
-
-> [!warning] Sinal de alerta
-> Runway menor que doze meses sem fonte de renda alternativa é pré-condição de falha, não de sucesso. Capital pessoal insuficiente produz decisões de negócio ruins.
-
----
-
-### Fase 1 — Encontrar a ideia
-
-| Métrica | O que medir | Referência saudável |
-|---|---|---|
-| Candidatas geradas | Total de ideias avaliadas | 20 ou mais antes de decidir |
-| Filtros aplicados | FMF, timing, mercado, execução | 4 filtros em todas as candidatas |
-| Schlep blindness testada | Você consegue articular por que outros evitam o problema? | Sim |
-| Janelas de timing mapeadas | Por que agora? | Resposta articulada em 2 frases |
-
----
-
-### Fase 2 — Articulação da ideia
-
-| Métrica | O que medir | Referência saudável |
-|---|---|---|
-| Declaração Inicial preenchida | 6 campos da DII completos | Sim |
-| Incertezas mapeadas | Número de incertezas críticas listadas | 10 a 20 |
-| Suposições classificadas | % das suposições com peso e testabilidade | 100% |
-| Inversão de Munger aplicada | Cenário de falha articulado | Sim |
-
----
-
-### Fase 2B — Teoria do negócio
-
-| Métrica | O que medir | Referência saudável |
-|---|---|---|
-| Story Tree construída | Nós de causa-efeito com lógica causal explícita | Pelo menos 3 níveis |
-| Apostas bet-the-company | Número de apostas centrais identificadas | 2 a 5 |
-| Falsificabilidade | Cada aposta tem condição de refutação clara | Sim |
-| DAG sem ciclos | Grafo causal sem loops | Sim |
-
----
-
-### Fase 3 — Descoberta do problema
-
-| Métrica | O que medir | Referência saudável |
-|---|---|---|
-| Entrevistas realizadas | Total de entrevistas de problema | ≥ 20 antes de qualquer conclusão |
-| Dores nível 8+ | % das entrevistas com dor acima de 8 em 10 | ≥ 60% |
-| Citações documentadas | Citações verbatim sobre o problema | ≥ 30 |
-| Padrões emergentes | Temas recorrentes identificados | 3 a 5 temas claros |
-| Alternativas atuais mapeadas | Soluções que o cliente usa hoje | Mapeadas em 100% das entrevistas |
-| Mom Test score | Entrevistas sem leading questions | ≥ 80% das perguntas abertas |
-
-> [!important] Marco de saída da Fase 3
-> Mínimo 20 entrevistas com pelo menos 12 confirmando dor nível 8 ou mais, descrevendo comportamento atual, e dispostos a ser early adopters.
-
----
-
-### Fase 4 — Pesquisa com usuários
-
-| Métrica | O que medir | Referência saudável |
-|---|---|---|
-| Jobs-to-be-done mapeados | Jobs funcionais, emocionais e sociais identificados | ≥ 3 jobs por segmento |
-| Jornada documentada | Pontos de dor na jornada atual mapeados | ≥ 5 pontos de fricção |
-| Personas validadas | Personas com dados reais (não fictícios) | 2 a 3 personas primárias |
-| Beachhead segment definido | Segmento inicial de 100 a 1.000 clientes | Identificado e justificado |
-| Customer discovery score | Novos aprendizados por entrevista | Decrescente (sinal de saturação) |
-
----
-
-### Fase 5 — Mapeamento de mercado
-
-| Métrica | O que medir | Referência saudável |
-|---|---|---|
-| TAM calculado | Mercado total endereçável | Metodologia bottom-up |
-| SAM calculado | Mercado serviceable com seu GTM | 1 a 10% do TAM |
-| SOM ano 3 | Participação realista em 3 anos | 1 a 5% do SAM |
-| Concorrentes mapeados | Diretos, indiretos e substitutos | ≥ 10 alternativas mapeadas |
-| Wedge identificado | Ponto de entrada diferenciado | Sim, defensável |
-| 5 Forças de Porter aplicadas | Análise estrutural da indústria | Completada |
-| Posicionamento no Mapa de Valor | Localização diferenciada | Diferente de qualquer player |
-
----
-
-### Fase 6 — Formulação de hipóteses
-
-| Métrica | O que medir | Referência saudável |
-|---|---|---|
-| Banco de hipóteses preenchido | Hipóteses críticas priorizadas | ≥ 10 hipóteses classificadas |
-| Hipóteses bet-the-company | Apostas de alto impacto e alta incerteza | 2 a 5 identificadas |
-| Sistema H-E (Hipótese/Experimento) | Cada hipótese tem experimento mapeado | 100% das bet-the-company |
-| Critério de falsificação | Cada hipótese tem threshold de refutação | Sim |
-| CSD (Certezas, Suposições, Dúvidas) | Distribuição documentada | Atualizado semanalmente |
-
----
-
-### Fase 7 — Experimentos de validação
-
-| Métrica | O que medir | Referência saudável |
-|---|---|---|
-| Taxa de acerto de hipóteses | % confirmadas vs refutadas | 30 a 50% (muito alto = pouca aprendizagem) |
-| Velocidade de aprendizado | Hipóteses testadas por semana | ≥ 2 por semana em sprint |
-| Regra 9 em 10 | Threshold mínimo antes de pivotar | Definido antes do experimento |
-| Pre-registro | % dos experimentos com hipótese registrada antes | 100% |
-| Evidência qualitativa | Entrevistas de validação complementares | ≥ 5 por experimento crítico |
-| Pré-vendas ou LOIs | Cartas de intenção ou pagamentos antes do produto | ≥ 3 antes de construir |
-
----
-
-### Fase 8 — Ideação e prototipagem
-
-| Métrica | O que medir | Referência saudável |
-|---|---|---|
-| Variantes de solução testadas | Quantas ideias de solução avaliadas antes de escolher | ≥ 5 (Crazy 8s) |
-| Fidelidade do protótipo | Nível de acabamento necessário para validar hipótese | Mínimo que responde à pergunta |
-| Custo do protótipo | Tempo e recursos investidos antes de teste | Semanas, não meses |
-| Feedback coletado | Usuários que testaram o protótipo | ≥ 5 por iteração |
-
----
-
-### Fase 9 — Testes de solução
-
-| Métrica | O que medir | Referência saudável |
-|---|---|---|
-| Task completion rate | % dos usuários que completam tarefa-chave no protótipo | ≥ 70% |
-| Erros de usabilidade críticos | Erros que bloqueiam uso | 0 antes de seguir |
-| SUS (System Usability Scale) | Score de usabilidade padronizado | ≥ 68 (acima da média) |
-| Desejabilidade | % que diz "compraria" ou "usaria" | ≥ 60% do segmento-alvo |
-| Net Promoter Score de protótipo | Intenção de recomendar | ≥ 40 |
-
----
-
-### Fase 10 — MVP e experimentos de mercado
-
-| Métrica | O que medir | Referência saudável |
-|---|---|---|
-| Tempo para primeiro usuário | Dias desde o lançamento | ≤ 30 dias |
-| Tempo para primeiro pagante | Dias desde o lançamento | ≤ 60 dias (B2C), ≤ 90 dias (B2B) |
-| Ativação | % dos usuários que atingem "momento aha" | ≥ 40% em D7 |
-| Retenção D30 | % que retorna em 30 dias | ≥ 20% B2C, ≥ 40% B2B |
-| Aprendizados por sprint | Hipóteses resolvidas por semana | ≥ 2 |
-| Feature usage | Funcionalidades usadas por usuário ativo | Core features: ≥ 70% de adoção |
-
-> [!warning] Sinal de alerta
-> Retenção D30 abaixo de 15% em B2C ou 30% em B2B indica ausência de valor real. Adicionar funcionalidades não resolve retenção baixa.
-
----
-
-### Fase 11 — Validação do modelo de negócio
-
-| Métrica | O que medir | Referência saudável |
-|---|---|---|
-| CAC (Custo de Aquisição de Cliente) | Custo total de marketing e vendas / novos clientes | Calculado por canal, não blended |
-| LTV (Lifetime Value) | Receita líquida por cliente ao longo da vida | LTV/CAC ≥ 3x |
-| CAC Payback | Meses para recuperar custo de aquisição | ≤ 12 meses B2C, ≤ 18 meses B2B |
-| Margem bruta | (Receita - COGS) / Receita | ≥ 60% SaaS, ≥ 40% marketplace |
-| Churn mensal | % da receita perdida por mês | ≤ 2% B2C, ≤ 1% B2B |
-| MRR | Receita recorrente mensal | Crescendo ≥ 10% mês a mês |
-| Magic Number | Net new ARR / Sales & Marketing spend | ≥ 0.75 para escalar |
-
----
-
-### Fase 12 — Product-Market Fit
-
-| Métrica | O que medir | Referência saudável |
-|---|---|---|
-| Retenção por coorte | Curva que estabiliza (não cai para zero) | Estabilização em ≥ 20% |
-| NPS | Net Promoter Score | ≥ 40 consumer, ≥ 30 enterprise |
-| Sean Ellis Test | % que ficaria "muito desapontado" sem o produto | ≥ 40% |
-| Crescimento orgânico | % de novos usuários sem gasto em paid | ≥ 30% |
-| Engagement (DAU/MAU) | Usuários diários / mensais | ≥ 20% produtos de frequência alta |
-| NRR (Net Revenue Retention) | Expansão de receita na base atual | ≥ 100% (≥ 110% é excelente) |
-| Qualitative PMF signals | Usuários reclamando quando feature some, compartilhando espontaneamente | Presente e documentado |
-
-> [!important] Definição operacional de PMF
-> PMF não é número. É curva de retenção que estabiliza, mais NPS acima de 40, mais crescimento orgânico ≥ 30%, mais evidência qualitativa de que a vida do cliente é pior sem o produto. Os três juntos.
-
----
-
-### Fase 13 — Estruturação
-
-| Métrica | O que medir | Referência saudável |
-|---|---|---|
-| MRR | Receita recorrente mensal | R$ 100 mil a R$ 500 mil (Série A típica) |
-| Crescimento MoM | Crescimento mês a mês | ≥ 10-15% ao mês |
-| Runway | Meses de caixa disponível | ≥ 18 meses pós-rodada |
-| Cap table limpa | Sem problemas de governança ou direitos conflitantes | Sim |
-| Compliance básico | LGPD, trabalhista, tributário em dia | Sim |
-| Acordo de sócios | Vesting, drag-along, tag-along definidos | Sim |
-| Data room Série A | Documentos para due diligence organizados | ≥ 80% completo |
-
----
-
-### Fase 14 — Escala
-
-| Métrica | O que medir | Referência saudável |
-|---|---|---|
-| ARR | Receita anual recorrente | Crescendo ≥ 3x ano a ano |
-| NRR | Net Revenue Retention | ≥ 110% (expansão supera churn) |
-| CAC Payback | Meses para recuperar aquisição | ≤ 18 meses |
-| Magic Number | Net new ARR / S&M spend | ≥ 0.75 |
-| Rule of 40 | Crescimento % + Margem EBITDA % | ≥ 40 |
-| Headcount growth | Pessoas contratadas / quarter | Proporcional à receita |
-| eNPS | Employee NPS | ≥ 30 |
-| Attrition voluntária | % de saídas voluntárias / ano | ≤ 15% |
-| Burn Multiple | Net burn / Net new ARR | ≤ 1.5x (eficiente), ≤ 2.5x (aceitável) |
-
-> [!warning] Sinal de alerta
-> Rule of 40 abaixo de 20 combinado com NRR abaixo de 100% indica empresa em deterioração. CAC Payback acima de 24 meses sem melhora trimestral indica modelo não escalável no ritmo atual.
-
----
-
-### Fase 15 — Reinvenção e segunda curva
-
-| Métrica | O que medir | Referência saudável |
-|---|---|---|
-| Crescimento do core | Deceleração do modelo atual | Alerta se declina 2 trimestres |
-| Revenue de produtos novos | % da receita de lançamentos <24 meses | ≥ 15-25% em scaleup |
-| NPS por coorte temporal | Coortes novas vs antigas | Coorte nova ≥ coorte antiga |
-| Concentração de receita | Top 20% dos clientes como % da receita | Crescente é sinal de saturação |
-| Learning velocity (2ª curva) | Hipóteses resolvidas por mês na aposta nova | ≥ igual à [[IGNICAO-Vol-2-Validacao#FASE 7 — EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA|Fase 7 (Vol. 2)]] original |
-| Alocação de tempo do CEO | % em new ventures vs core | ≥ 15-25% em new ventures |
-| Pipeline segunda curva | Clientes-piloto ativos | ≥ 3 em primeiros 6 meses |
-
----
-
-### Fase 16 — Exit
-
-| Métrica | O que medir | Referência saudável |
-|---|---|---|
-| Múltiplos de comparáveis | EV/ARR de transações similares no setor | Mapear 3+ por trimestre |
-| Data room completude | % da documentação de DD organizada | ≥ 90% antes do processo |
-| Pipeline de compradores | Potenciais compradores mapeados | 10 a 25 contatos |
-| Diferença DCF vs market comp | Divergência entre métodos | ≤ 20% |
-| Tax structuring implementado | Estrutura tributária preparada | Sim, ≥ 2 anos antes |
-| Acordo de sócios robusto | Drag-along, tag-along, protections | Sim |
-| Tempo de preparação | Meses antes do processo formal | ≥ 18 meses |
-
----
-
-### Índice de benchmarks de referência rápida
-
-| Métrica | Early-stage | Growth | Maduro |
-|---|---|---|---|
-| NRR | — | ≥ 100% | ≥ 110% |
-| CAC Payback | ≤ 18 meses | ≤ 12 meses | ≤ 9 meses |
-| Margem bruta SaaS | ≥ 50% | ≥ 65% | ≥ 75% |
-| Churn mensal | ≤ 3% | ≤ 2% | ≤ 1% |
-| Magic Number | — | ≥ 0.75 | ≥ 1.0 |
-| Rule of 40 | — | ≥ 20 | ≥ 40 |
-| Burn Multiple | — | ≤ 2.5x | ≤ 1.5x |
-| DAU/MAU | ≥ 10% | ≥ 20% | ≥ 30% |
-| NPS (consumer) | ≥ 30 | ≥ 40 | ≥ 50 |
-| NPS (enterprise) | ≥ 20 | ≥ 30 | ≥ 40 |
-| eNPS | — | ≥ 20 | ≥ 30 |
-
-> [!note] Nota sobre benchmarks
-> Benchmarks são médias de mercado e variam por setor, modelo de negócio e contexto macroeconômico. Usar como referência de diagnóstico, não como meta absoluta. O que importa é a tendência ao longo do tempo para a sua empresa, não a distância de um número de mercado.
-
-### Ver também
-
-[[IGNICAO-Vol-9-Ferramentario#APÊNDICE BG — FERRAMENTÁRIO COMPLETO DO EMPREENDEDOR|Apêndice BG (Vol. 9)]] contém as ferramentas analíticas para cada métrica. As seções BG.18 (Finanças e Unit Economics) e BG.11 (Produto: Priorização e Métricas) aprofundam os cálculos.
-
-> [!info] Fases relacionadas
-> Referenciado em: Fase 12.
-
----
-
-## APÊNDICE E — RECURSOS E LEITURAS RECOMENDADAS
-
-> [!note] Como usar
-> Esse apêndice é catálogo, não roteiro linear. Use como mapa de leitura para aprofundar pontos específicos do livro. As listas estão organizadas por estágio e por tema para consulta dirigida. As únicas seções em prosa são os ensaios de Paul Graham e o one-pager final, que sintetiza o que reli mais vezes ao longo dos anos.
-
-### Leituras fundamentais (livros)
-
-*The Mom Test*, de Rob Fitzpatrick: como conduzir entrevistas que produzem evidência real, não validação enganosa. *The Lean Startup*, de Eric Ries: ciclo build-measure-learn e pensamento de experimento aplicado a negócios. *Running Lean*, de Ash Maurya: metodologia operacional para validação de startups. *Talking to Humans*, de Giff Constable: guia prático de customer discovery. *Jobs to Be Done*, de Anthony Ulwick e Clayton Christensen: framework para entender motivação real do cliente. *The Four Steps to the Epiphany*, de Steve Blank: clássico sobre customer development. *Zero to One*, de Peter Thiel: pensamento contrarian sobre monopólios e diferenciação. *Inspired*, de Marty Cagan: gestão de produto moderna. *Predictable Revenue*, de Aaron Ross: escalabilidade de vendas B2B. *tração*, de Gabriel Weinberg: como escolher canais de aquisição. *The Logic of Scientific Discovery*, de Karl Popper: fundação da lógica de falsificação. Leitura densa, mas essencial para quem quer entender por que hipóteses falsificáveis importam. *Experimentation Works*, de Stefan Thomke: cultura de experimentação em empresas estabelecidas, complementar ao Lean Startup em estágios mais avançados.
-
-### Artigos e papers acadêmicos sobre a abordagem científica
-
-Camuffo, A., Cordova, A., Gambardella, A., e Spina, C. (2020). *A scientific approach to entrepreneurial decision making: Evidence from a randomized control trial*. Management Science. O estudo fundador que mostrou efeito positivo sobre performance. Camuffo, A., Gambardella, A., Messinese, D., Novelli, E., Paolucci, E., e Spina, C. (2024). *A scientific approach to entrepreneurial decision-making: Large-scale replication and extension*. Strategic Management Journal. Replicação em larga escala (mais de setecentos e cinquenta empreendedores) confirmando os achados. Coali, A., Novelli, E., Sirigiri, A., e Spina, C. (2024). *A scientific approach to decision-making: Key tools and design principles*. Journal of Business Venturing Design. O paper-fonte dos conceitos de atributos, teoria do negócio, thresholds e due diligence de amostra usados nesse manual. Felin, T., Gambardella, A., Novelli, E., e Zenger, T. (2024). *A scientific method for startups*. Journal of Management. Diferenças conceituais entre abordagem científica e Lean Startup. Novelli, E., e Spina, C. (2024). *Making business model decisions like scientists: Strategic commitment, uncertainty and economic performance*. Strategic Management Journal. Como o estágio de desenvolvimento do negócio modera o efeito da abordagem científica. Agarwal, R. et al. (2024). *Does a theory-of-value add value? Evidence from a Randomized Control Trial with Tanzanian Entrepreneurs*. Evidência do valor específico do componente de construção de teoria em contexto emergente. Ehrig, T., e Schmidt, J. (2022). *Theory-based learning and experimentation*. Strategic Management Journal. Fundamentação sobre como estratégias são geradas a partir de teorias. Zellweger, T. M., e Zenger, T. R. (2021). *Entrepreneurs as scientists: A pragmatist approach to producing value out of uncertainty*. Academy of Management Review. Perspectiva filosófica sobre empreendedor-cientista.
-
-### Artigos práticos abertos ao público
-
-Spina, C., Camuffo, A., e Gambardella, A. (2020). *Founders, apply the scientific method to your startup*. Harvard Business Review. Blank, S. (2013). *Why the Lean Start-Up Changes Everything*. Harvard Business Review. Kozyrkov, C. (2019). *The first thing great decision makers do*. Harvard Business Review. Sobre a importância crítica de definir thresholds ex-ante.
-
-### Frameworks e ferramentas úteis
-
-Business Model Canvas e Lean Canvas. Value Proposition Canvas (Strategyzer). Double Diamond (Design Council). Jobs-to-be-Done Framework. RICE para priorização. OKRs para gestão por metas. Kanban para gestão de experimentos.
-
-### Tipos de comunidades e recursos online para empreendedores
-
-Comunidades de founders locais via associações, eventos e encontros. Programas de aceleração — estude com rigor antes de entrar. Muitos são mais ruins do que bons. Mentoria estruturada com gente que já construiu, não só investiu ou escreveu. Cursos de Y Combinator Startup School, gratuitos.
-
-### Profissionais que você vai precisar
-
-Contador com experiência em startups e PMEs. Advogado com prática em societário, contratos e LGPD. Designer (de produto ou de serviço) freelancer. Tech lead ou desenvolvedor (se o produto exige tecnologia). Eventualmente: especialista em marketing digital, especialista em vendas B2B.
-
-### Leituras complementares ao [[IGNICAO-Vol-3-Tracao#APÊNDICE CP — SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|Apêndice CP (Vol. 3)]] — Sales enterprise
-
-*Mastering Technical Sales*, de John Care e Aron Bohlig (referência original do MEDDIC em vendas técnicas complexas). *The Challenger Sale*, de Matthew Dixon e Brent Adamson (vendas consultivas em complexidade alta). Materiais e treinamentos formais de MEDDIC Academy e Force Management / Command of the Message (cursos comerciais, mas referência do framework). *Gap Selling*, de Keenan (discovery como disciplina).
-
-### Leituras complementares ao [[IGNICAO-Vol-5-Receita-e-Pessoas#APÊNDICE CQ — MARCA, PR E POSICIONAMENTO DE LONGO PRAZO|Apêndice CQ (Vol. 5)]] — Marca, PR e narrativa
-
-*Crossing the Chasm*, de Geoffrey Moore (movimento de mainstream, segmentação de adopters). *Play Bigger*, de Al Ramadan, Dave Peterson, Christopher Lochhead e Kevin Maney (category design formalizado). *Building a StoryBrand*, de Donald Miller (narrativa voltada ao cliente). *Obviously Awesome*, de April Dunford (posicionamento como disciplina).
-
-### Leituras complementares ao [[IGNICAO-Vol-5-Receita-e-Pessoas#APÊNDICE R — FOUNDER MODE, DELEGAÇÃO E QUANDO PARAR DE FAZER|Apêndice R (Vol. 5)]] — Founder Mode, gestão e liderança
-
-*Founder Mode*, ensaio de Paul Graham (2024), originalmente publicado em paulgraham.com/foundermode.html. *The Hard Thing About Hard Things*, de Ben Horowitz (relato honesto sobre crises de CEO). *High Output Management*, de Andrew Grove (clássico de gestão aplicável em escala). *The Great CEO Within*, de Matt Mochary (operacional para fundadores em escala).
-
-### Leituras complementares ao [[IGNICAO-Vol-4-Captacao-e-Financas#APÊNDICE P — FINANCIAMENTO NÃO-DILUITIVO|Apêndice P (Vol. 4)]] — Financiamento
-
-*Venture Deals*, de Brad Feld e Jason Mendelson (referência de termos de investimento, aplicável também a não-diluitivo). Material técnico da Finep, BNDES e FAPESP disponível nos próprios sites. *The Messy Marketplace*, de Brent Beshore (relevante para exit, mas tem ângulos de financiamento estruturado).
-
-### Leituras complementares ao [[IGNICAO-Vol-3-Tracao#APÊNDICE J — FRAMEWORK DE CANAIS DE AQUISIÇÃO|Apêndice J (Vol. 3)]] — Product-Led Growth
-
-*Product-Led Growth*, de Wes Bush (referência operacional). *Product-Led Onboarding*, de Ramli John (disciplina de ativação). Blog e relatórios da OpenView Partners (acervo público sobre PLG).
-
-### Leituras complementares ao [[IGNICAO-Vol-2-Validacao#APÊNDICE S — CATEGORY DESIGN|Apêndice S (Vol. 2)]] — Category Design
-
-*Play Bigger* (também listado em Marca). *Obviously Awesome*, de April Dunford. Podcasts: *Category Thinkers*, com Lochhead.
-
-### Leituras complementares ao [[IGNICAO-Vol-6-Engenharia-e-Juridico#APÊNDICE T — LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Apêndice T (Vol. 6)]] — LGPD e privacidade
-
-Manual de LGPD da ANPD (Autoridade Nacional de Proteção de Dados). *Privacy Law Fundamentals*, de Daniel Solove e Paul Schwartz (referência acadêmica internacional). Material operacional de plataformas como IAPP (International Association of Privacy Professionals).
-
-### Leituras complementares ao [[IGNICAO-Vol-7-Maturidade-e-Exit#APÊNDICE CW — CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO|Apêndice CW (Vol. 7)]] — Crise e recuperação
-
-*The Hard Thing About Hard Things*, de Horowitz (crises em CEOs). *Shoe Dog*, de Phil Knight (relato autobiográfico de crises de caixa). *Bad Blood*, de John Carreyrou (como as coisas viram catastróficas quando encobertas). *Thinking in Bets*, de Annie Duke (decisão sob incerteza, aplicável a crise).
-
-### Leituras complementares ao [[IGNICAO-Vol-1-Ideacao#APÊNDICE D — ARMADILHAS MENTAIS E VIESES|Apêndice D (Vol. 1)]] — Decisão, pensamento crítico e armadilhas mentais
-
-*Thinking, Fast and Slow*, de Daniel Kahneman (heurísticas, vieses, sistemas um e dois). *Poor Charlie's Almanack*, de Charlie Munger (inversão, mental models). *Superforecasting*, de Philip Tetlock e Dan Gardner (previsão com rigor). Pre-Mortem, conceito original de Gary Klein (artigos acadêmicos disponíveis). *Playing to Win*, de A.G. Lafley e Roger Martin (origem de "what would have to be true?").
-
-### Leituras complementares ao [[IGNICAO-Vol-4-Captacao-e-Financas#APÊNDICE V — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Apêndice V (Vol. 4)]] — Captação de equity, pitch e relacionamento
-
-*Pyramid Principle*, de Barbara Minto (origem do SCQA e pensamento estruturado). *Venture Deals*, de Brad Feld e Jason Mendelson (term sheets em profundidade, referência obrigatória). *Secrets of Sand Hill Road*, de Scott Kupor (a16z), sobre como VCs pensam internamente. *Raising Venture Capital for the Serious Entrepreneur*, de Dermot Berkery. *The Hard Thing About Hard Things*, de Ben Horowitz (relacionamento board-CEO em crise). Blog de Paul Graham, especialmente os ensaios sobre investidores em paulgraham.com/invtrend.html e paulgraham.com/fundraising.html. *Fundraising Playbook* da First Round Capital (disponível online). *Startup Funding Masterclass*, série de posts de Brad Feld (Foundry Group). Para contexto brasileiro: materiais da ACE Startups, Distrito e ABVCAP (associação de venture capital).
-
-### Ensaios canônicos de Paul Graham — referência consolidada
-
-Paul Graham escreveu aproximadamente duzentos ensaios entre 1993 e 2024, publicados gratuitamente em paulgraham.com. Muitos viraram vocabulário básico do ecossistema de startups: "do things that don't scale", "default alive", "ramen profitable", "schlep blindness", "founder mode". Boa parte do que eu articulo nesse livro tem raiz naqueles textos. Cito-os ao longo do material, mas reúno aqui a referência consolidada para que você tenha um mapa de leitura.
-
-A organização abaixo é por utilidade operacional para fundador em construção, não cronológica. A leitura recomendada é em sessão única de duas a três horas dos primeiros oito, depois releitura seletiva anual de acordo com a fase que você estiver vivendo.
-
-**Para a fase de encontrar ideia (Fases 1 a 3).** *How to Get Startup Ideas* (2012), em paulgraham.com/startupideas.html. "Live in the future, then build what's missing." Sobre ideias orgânicas, sitcom ideas, estar na borda. *Schlep Blindness* (2012), em paulgraham.com/schlep.html. Por que problemas chatos são frequentemente as maiores oportunidades. Caso canônico Stripe. *Frighteningly Ambitious Startup Ideas* (2012), em paulgraham.com/ambitious.html. Por que as ideias mais ambiciosas intimidam e por isso são oportunidade. *Organic Startup Ideas* (2010), em paulgraham.com/organic.html. Desenvolvimento específico do conceito de ideias que nascem de necessidade própria.
-
-**Para construir e crescer (Fases 9 a 14).** *Do Things That Don't Scale* (2013), em paulgraham.com/ds.html. Por que trabalho manual intenso é o que produz PMF. *Startup = Growth* (2012), em paulgraham.com/growth.html. Benchmarks YC: cinco a sete por cento por semana é saudável, dez por cento é excepcional. *Default Alive or Default Dead* (2015), em paulgraham.com/aord.html. A pergunta diagnóstica mais importante que você precisa responder a partir dos oito ou nove meses de operação. *The Fatal Pinch* (2014), em paulgraham.com/pinch.html. O cenário letal que mata mais startups que qualquer fraude. *Ramen Profitable* (2009), em paulgraham.com/ramenprofitable.html. Por que cobrir custos de vida dos fundadores é milestone subestimado. *Superlinear Returns* (2023), em paulgraham.com/superlinear.html. Por que pequenas diferenças de performance produzem retornos gigantescamente desproporcionais. *Startups in 13 Sentences* (2009), em paulgraham.com/13sentences.html. Treze princípios condensados, um dos ensaios que mais reli ao longo dos anos. Detalhado abaixo como one-pager.
-
-**Sobre o fundador (transversal a todas as fases).** *What We Look for in Founders* (2010), em paulgraham.com/founders.html. Os cinco atributos YC: determinação, flexibilidade, imaginação, naughtiness, amizade. Note que inteligência não aparece na lista. *Relentlessly Resourceful* (2009), em paulgraham.com/relres.html. A essência de bom fundador em duas palavras, e o antônimo, "hapless", como alerta. *The Anatomy of Determination* (2009), em paulgraham.com/determination.html. Determinação é vontade mais flexibilidade, não teimosia. A analogia do running back. *Before the Startup* (2014), em paulgraham.com/before.html. "Seja expert em usuários, não em startups." Gaming the system para de funcionar. *Earnestness* (2020), em paulgraham.com/earnest.html. Sinceridade como fator competitivo subestimado. *Mean People Fail* (2014), em paulgraham.com/mean.html. Por que caráter importa economicamente, não só moralmente. *Keep Your Identity Small* (2009), em paulgraham.com/identity.html. Como ideologias roubam capacidade de pensar com clareza. *You Weren't Meant to Have a Boss* (2008), em paulgraham.com/boss.html. Reflexão sobre autonomia, útil para calibrar expectativa pessoal. *The Top Idea in Your Mind* (2010), em paulgraham.com/top.html. O que ocupa sua mente no banho define sua produtividade.
-
-**Sobre escala e delegação.** *Founder Mode* (2024), em paulgraham.com/foundermode.html. Por que o conselho convencional de "contratar pessoas boas e sair do caminho" pode ser desastre. *Maker's Schedule, Manager's Schedule* (2009), em paulgraham.com/makersschedule.html. Dois modos de usar o tempo e a razão pela qual fundadores perdem capacidade de pensar em escala.
-
-**Sobre captação e VC.** *How to Raise Money* (2013), em paulgraham.com/fr.html. Guia tático denso, complementa o [[IGNICAO-Vol-4-Captacao-e-Financas#APÊNDICE V — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Apêndice V (Vol. 4)]] desse livro. *Black Swan Farming* (2012), em paulgraham.com/swan.html. Entender como VCs pensam através da distribuição power-law dos retornos. *Investor Herd Dynamics* (2013), em paulgraham.com/herd.html. Por que captação oscila entre "impossível" e "fácil demais" sem meio-termo.
-
-**Sobre erros que matam.** *The 18 Mistakes That Kill Startups* (2006), em paulgraham.com/startupmistakes.html. Lista canônica dos erros mais frequentes. O insight central é que todos se reduzem a "não fazer algo que usuários querem".
-
-**Sobre como pensar.** *Keep Your Identity Small* (2009), já citado, aplicável também a pensamento estratégico. *How to Disagree* (2008), em paulgraham.com/disagree.html. Hierarquia de formas de discordar, útil para cultura interna e debates com sócios.
-
-> [!tip] Por onde começar
-> Se está começando agora, leia antes de tudo *How to Get Startup Ideas*, *Do Things That Don't Scale* e *Startups in 13 Sentences*. Nessa ordem. São os três que mais mudam a forma de trabalhar.
-
-### Startups em 13 frases — one-pager canônico (Paul Graham, 2009)
-
-Em fevereiro de 2009, Graham escreveu o ensaio *Startups in 13 Sentences*, uma tentativa de condensar tudo que ele diria a um fundador se só pudesse falar treze coisas. Derivou da frase de Paul Buchheit que virou mantra do YC: "é melhor fazer poucas pessoas extremamente felizes do que muitas pessoas semi-felizes."
-
-Reproduzo as treze em formato consolidado aqui, com comentário operacional. Serve como one-pager final para releitura periódica. Eu imprimo e guardo próximo. Não porque as esqueço. Porque esquecer uma e só lembrar dela seis meses depois, num momento ruim, é o tipo de erro que dá para prevenir simplesmente relendo a lista mensalmente.
-
-Graham mesmo indica: se tivesse que escolher uma das treze, seria a quarta (entender seus usuários). Concordo.
-
-**Escolha bons cofundadores.** "Cofundadores são para uma startup o que localização é para imóveis: você pode mudar qualquer coisa numa casa, exceto onde ela está." Você pode mudar ideia, produto, mercado, modelo. Mas trocar cofundador é caro emocional e operacionalmente. O sucesso da startup é, quase sempre, função dos fundadores. Aplicação: [[IGNICAO-Vol-1-Ideacao#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0 (Vol. 1)]], [[IGNICAO-Vol-1-Ideacao#APÊNDICE Y — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Apêndice Y (Vol. 1)]].
-
-**Lance rápido.** Não porque "time to market" seja tudo, mas porque você ainda não começou a trabalhar no produto de verdade enquanto não lançou. Lançar te ensina o que você deveria estar construindo. Até lá, você está no escuro, mesmo que não perceba. Aplicação: [[IGNICAO-Vol-3-Tracao#FASE 10 — MVP E EXPERIMENTOS DE MERCADO|Fase 10 (Vol. 3)]].
-
-**Deixe a ideia evoluir.** "É um erro tratar startup como se fosse só a implementação de uma ideia inicial brilhante." A ideia inicial é semente. A empresa que você acaba construindo é o resultado da interação entre semente e mercado real. Aplicação: [[IGNICAO-Vol-3-Tracao#FASE 12 — PRODUCT-MARKET FIT|Fase 12 (Vol. 3)]].
-
-**Entenda seus usuários.** A única que Graham escolheria se só pudesse manter uma. "A tarefa essencial de uma startup é criar riqueza, a dimensão da riqueza sobre a qual você tem mais controle é quanto melhora a vida dos seus usuários, e a parte mais difícil disso é saber o que construir para eles." Aplicação: Fases 3 e 4.
-
-**Melhor fazer poucos usuários amarem do que muitos ficarem indiferentes.** Inicialmente, você tem que escolher entre satisfazer todas as necessidades de um subconjunto de potenciais usuários, ou satisfazer um subconjunto das necessidades de todos os potenciais usuários. Escolha a primeira. Aplicação: Estratégia da Cunha ([[IGNICAO-Vol-2-Validacao#APÊNDICE L — IDEA → WEDGE → SCALE: O FRAMEWORK ANTLER COMO LENTE TRANSVERSAL|Apêndice L (Vol. 2)]]).
-
-**Ofereça um atendimento surpreendentemente bom.** Clientes estão acostumados a serem maltratados. Tente fazer seu atendimento não apenas bom, mas surpreendentemente bom. Em estágio inicial, o fundador deve estar pessoalmente na linha de frente. Aplicação: [[IGNICAO-Vol-3-Tracao#FASE 10 — MVP E EXPERIMENTOS DE MERCADO|Fase 10 (Vol. 3)]].
-
-**Você produz o que mede.** Se você quer que algo cresça, meça diariamente. Se quer usuários ativos, meça usuários ativos todo dia. Se quer receita, meça receita semanal. O simples ato de medir já muda o comportamento do time. Aplicação: [[IGNICAO-Vol-9-Ferramentario#APÊNDICE BG — FERRAMENTÁRIO COMPLETO DO EMPREENDEDOR|Apêndice BG (Vol. 9)]].
-
-**Gaste pouco.** A forma mais comum de morte de startup é ficar sem dinheiro. Ser barato é quase sinônimo de iterar rápido. Mais do que isso: cultura de frugalidade mantém a empresa jovem, assim como exercício mantém pessoas jovens. Aplicação: [[IGNICAO-Vol-3-Tracao#FASE 11 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 11 (Vol. 3)]], [[IGNICAO-Vol-1-Ideacao#APÊNDICE AJ — DINHEIRO PESSOAL DO FUNDADOR|Apêndice AJ (Vol. 1)]].
-
-**Chegue a ramen-profitable.** Ramen-profitable significa gerar receita suficiente para cobrir custos básicos de vida dos fundadores. Não é riqueza. É sobrevivência infinita. Uma vez que você cruza essa linha, muda radicalmente sua relação com investidores. Você passa a negociar de força, não de urgência. Aplicação: [[IGNICAO-Vol-3-Tracao#FASE 11 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 11 (Vol. 3)]].
-
-**Evite distrações.** "A startup pode ter mais potencial de longo prazo, mas você sempre vai interromper o trabalho nela para trabalhar em outra coisa." Graham identifica fundraising como a distração campeã. Captação tende a se tornar a "ideia principal na sua cabeça" e roubar cem por cento do seu foco. Minimize tempo em distrações. Quando precisar captar, faça-o rápido e decisivo. E volte a construir. Aplicação: [[IGNICAO-Vol-1-Ideacao#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0 (Vol. 1)]], [[IGNICAO-Vol-5-Receita-e-Pessoas#APÊNDICE R — FOUNDER MODE, DELEGAÇÃO E QUANDO PARAR DE FAZER|Apêndice R (Vol. 5)]] e [[IGNICAO-Vol-5-Receita-e-Pessoas#APÊNDICE BQ — GESTÃO DE TEMPO DO FUNDADOR E OPERATING CADENCE|Apêndice BQ (Vol. 5)]].
-
-**Não se desmoralize.** Embora a causa imediata de morte de uma startup seja "ficar sem dinheiro", a causa subjacente é geralmente falta de foco causada por desmoralização. Começar uma startup carrega peso emocional enorme. Entenda isso e faça esforço consciente para não se deixar esmagar, como você cuida de flexionar os joelhos ao levantar uma caixa pesada. Aplicação: [[IGNICAO-Vol-1-Ideacao#APÊNDICE Y — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Apêndice Y (Vol. 1)]].
-
-**Não desista.** "Você consegue ir surpreendentemente longe apenas por não desistir." Em matemática, persistência sem talento não produz resultado. Em startups, esforço puro frequentemente é suficiente, desde que você continue ajustando a ideia. Aplicação: apêndice sobre Pivot.
-
-**Deals caem.** "Uma das habilidades mais úteis que aprendemos no Viaweb foi não criar expectativas." Graham e o time tiveram cerca de vinte deals caírem. Aprenderam a tratar deals como processos de fundo que você ignora até terminarem. É perigoso para o moral depender de um deal antes dele fechar. E pior: essa dependência torna o deal menos provável de fechar (a urgência que o outro lado sente gera desconfiança). Aplicação: [[IGNICAO-Vol-4-Captacao-e-Financas#APÊNDICE V — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Apêndice V (Vol. 4)]].
-
-> [!important] Se tiver que escolher uma para aplicar hoje, releia a quarta
-> Todo o resto flui daí.
-
-> [!info] Fases relacionadas
-> Referenciado em: Fase 0.
-
----
-
-# AMBIENTE MACROECONÔMICO, REGULATÓRIO SETORIAL, ANTITRUSTE E POLÍTICAS PÚBLICAS
-
----
-
-### Arquitetura deste Domínio: O Tabuleiro Institucional Brasileiro — Macroeconomia, Regulação, Antitruste e Governo
-
-Empreender no Brasil ignorando o ciclo da taxa Selic, as autarquias reguladoras, o CADE e o Congresso Nacional é navegar de olhos vendados. Os quatro capítulos deste bloco (**Apêndices EF, AW, ER e FE**) analisam as forças macroeconômicas e institucionais que moldam todas as verticais do país.
-
-Veja como esses quatro capítulos formam uma visão única do ambiente institucional:
-1. **O Clima Econômico ([[#APÊNDICE EF — CICLOS MACROECONÔMICOS E A STARTUP BRASILEIRA|Apêndice EF]]):** Como juros (Selic), inflação (IPCA), câmbio e ciclos de liquidez global alteram o custo de capital, o múltiplo de valuation, a inadimplência e a estratégia de caixa da startup brasileira.
-2. **O Mapa das Autarquias e Licenças ([[#APÊNDICE AW — REGULATÓRIO SETORIAL BRASILEIRO|Apêndice AW]]):** Um guia transversal das agências e órgãos reguladores do país — BACEN, CVM, SUSEP, ANVISA, ANS, ANATEL, ANEEL, ANP e ANTT — mostrando custos de conformidade, prazos de licenciamento e quando operar como parceiro regulado (*as-a-service*) versus buscar licença própria.
-3. **Os Limites da Concentração de Mercado ([[#APÊNDICE ER — CADE E ANTITRUSTE — QUANDO O CRESCIMENTO ATRAI O REGULADOR|Apêndice ER]]):** Quando operações de M&A, acordos de exclusividade ou posições dominantes em ecossistemas digitais acionam o controle preventivo ou repressivo do CADE.
-4. **O Estado como Arena Estratégica ([[#APÊNDICE FE — POLÍTICA PÚBLICA COMO ESTRATÉGIA|Apêndice FE]]):** Como usar regulação como fosso competitivo (*moat*), participar de *sandboxes* regulatórios, atuar em relações institucionais/advocacy ético e acessar compras e financiamentos públicos.
-
----
-
-## APÊNDICE EF — CICLOS MACROECONÔMICOS E A STARTUP BRASILEIRA
+## CAPÍTULO 1 — CICLOS MACROECONÔMICOS E A STARTUP BRASILEIRA
 
 **Ciclos Macroeconômicos e a Startup Brasileira — Navegar Recessão, Inflação e Ciclos de Capital**
 
 > [!abstract] Posicao no livro
 > Este apendice cobre como ciclos macroeconomicos brasileiros (SELIC, inflacao, cambio, inverno do VC) afetam decisao de captacao, escala e exit. Aplicar especialmente em,
-> - [[IGNICAO-Vol-3-Tracao#FASE 11 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 11 (Vol. 3)]] e [[IGNICAO-Vol-4-Captacao-e-Financas#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13 (Vol. 4)]] para timing de rodada
-> - [[IGNICAO-Vol-5-Receita-e-Pessoas#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14 (Vol. 5)]] para estrategia de contracao em janela ruim
-> - [[IGNICAO-Vol-7-Maturidade-e-Exit#FASE 16 — EXIT STRATEGY|Fase 16 (Vol. 7)]] para timing de saida
+> - [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 12 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 12 (Vol. 4)]] e [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18 (Vol. 8)]] para timing de rodada
+> - [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16 (Vol. 6)]] para estrategia de contracao em janela ruim
+> - [[IGNICAO-Vol-9-Maturidade-e-Exit#FASE 20 — ESTRATÉGIA DE SAÍDA (EXIT STRATEGY)|Fase 20 (Vol. 9)]] para timing de saida
 
 ---
 
@@ -925,7 +455,7 @@ A sugestão prática é criar um ritual de 30 minutos mensais para atualizar o p
 
 ### Síntese: a mentalidade macro do fundador brasileiro
 
-Este apêndice cobre os quatro canais pelos quais o ambiente macroeconômico afeta startups (custo de capital, burn real, câmbio e ciclo de VC) e os playbooks para cada fase do ciclo. Ele conecta-se diretamente à Fase 8 (crescimento e escala) e ao Apêndice EA (modelagem financeira), onde as decisões de runway e captação precisam incorporar leitura macro.
+Este capítulo cobre os quatro canais pelos quais o ambiente macroeconômico afeta startups (custo de capital, burn real, câmbio e ciclo de VC) e os playbooks para cada fase do ciclo. Ele conecta-se diretamente à Fase 8 (crescimento e escala) e ao Capítulo 7 (Vol. 4) (PRODUCT MARKETING: POSICIONAMENTO, MENSAGEM E LANÇAMENTO) (modelagem financeira), onde as decisões de runway e captação precisam incorporar leitura macro.
 
 ```text
 PRINCÍPIOS DE RESILIÊNCIA MACROECONÔMICA
@@ -945,36 +475,36 @@ A startup que sobrevive a um ciclo completo — expansão, contração, recupera
 
 **Ver também:**
 
-- [[IGNICAO-Vol-3-Tracao#APÊNDICE EA — PRODUCT MARKETING: POSICIONAMENTO, MENSAGEM E LANÇAMENTO|Apêndice EA — Fundamentos de Modelagem Financeira para Startups (Vol. 3)]]
-- [[IGNICAO-Vol-5-Receita-e-Pessoas#APÊNDICE EB — VENDAS COMPLEXAS ENTERPRISE: CICLO LONGO, ALTO VALOR, MÚLTIPLOS DECISORES|Apêndice EB — Estrutura de Captação e Rodadas de Investimento (Vol. 5)]]
-- [[IGNICAO-Vol-4-Captacao-e-Financas#APÊNDICE EC — PLANEJAMENTO FINANCEIRO E ORÇAMENTO|Apêndice EC — Métricas Financeiras e Indicadores de Saúde (Vol. 4)]]
-- [[IGNICAO-Vol-5-Receita-e-Pessoas#APÊNDICE ED — COMPENSAÇÃO E BENEFÍCIOS NO BRASIL|Apêndice ED — Planejamento de Runway e Gestão de Caixa (Vol. 5)]]
-- [[IGNICAO-Vol-2-Validacao#APÊNDICE EE — INTELIGÊNCIA COMPETITIVA — MONITORAMENTO, ANÁLISE E RESPOSTA|Apêndice EE — Precificação e Modelagem de Receita (Vol. 2)]]
-- [[IGNICAO-Vol-2-Validacao#FASE 5 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 5 — Modelo de Negócio e Monetização (Vol. 2)]]
-- [[IGNICAO-Vol-2-Validacao#FASE 8 — IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES|Fase 8 — Crescimento e Escala (Vol. 2)]]
+- [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 7 — PRODUCT MARKETING: POSICIONAMENTO, MENSAGEM E LANÇAMENTO|Capítulo 7 — Fundamentos de Modelagem Financeira para Startups (Vol. 4)]]
+- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 2 — VENDAS COMPLEXAS ENTERPRISE: CICLO LONGO, ALTO VALOR, MÚLTIPLOS DECISORES|Capítulo 2 — Estrutura de Captação e Rodadas de Investimento (Vol. 6)]]
+- [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 16 — PLANEJAMENTO FINANCEIRO E ORÇAMENTO|Capítulo 16 — Métricas Financeiras e Indicadores de Saúde (Vol. 5)]]
+- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 14 — COMPENSAÇÃO E BENEFÍCIOS NO BRASIL|Capítulo 14 — Planejamento de Runway e Gestão de Caixa (Vol. 6)]]
+- [[IGNICAO-Vol-2-Descoberta-e-Mercado#CAPÍTULO 2 — INTELIGÊNCIA COMPETITIVA — MONITORAMENTO, ANÁLISE E RESPOSTA|Capítulo 2 — Precificação e Modelagem de Receita (Vol. 2)]]
+- [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 6 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 6 — Modelo de Negócio e Monetização (Vol. 2)]]
+- [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 9 — IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES|Fase 9 — Crescimento e Escala (Vol. 3)]]
 
 ---
 
-## APÊNDICE AW — REGULATÓRIO SETORIAL BRASILEIRO
+## CAPÍTULO 2 — REGULATÓRIO SETORIAL BRASILEIRO
 
 > [!important] AW como indice regulatorio
 > Este apendice oferece o indice geral de regulatorio brasileiro aplicavel a startups. Para temas com profundidade dedicada, ver,
-> - [[IGNICAO-Vol-6-Engenharia-e-Juridico#APÊNDICE ET — REGULATÓRIO DE IA NO BRASIL|Apêndice ET (Vol. 6)]] para IA
-> - [[#APÊNDICE ER — CADE E ANTITRUSTE — QUANDO O CRESCIMENTO ATRAI O REGULADOR|Apêndice ER]] para concorrencial
-> - [[#APÊNDICE FE — POLÍTICA PÚBLICA COMO ESTRATÉGIA|Apêndice FE]] para politica publica e influencia
+> - [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 11 — REGULATÓRIO DE IA NO BRASIL|Capítulo 11 (REGULATÓRIO DE IA NO BRASIL) (Vol. 8)]] para IA
+> - [[#CAPÍTULO 3 — CADE E ANTITRUSTE — QUANDO O CRESCIMENTO ATRAI O REGULADOR|Capítulo 3 (CADE E ANTITRUSTE — QUANDO O CRESCIMENTO ATRAI O REGULADOR)]] para concorrencial
+> - [[#CAPÍTULO 4 — POLÍTICA PÚBLICA COMO ESTRATÉGIA|Capítulo 4 (POLÍTICA PÚBLICA COMO ESTRATÉGIA)]] para politica publica e influencia
 > - Apendices verticais (CM saude, CA hardware, DK govtech, DL agritech, DO proptech, DM edtech, DN cleantech) para regulatorio especifico do setor
 
 > [!abstract] Posicao no livro
 > AW e o indice geral de regulatorio setorial brasileiro. Vizinhos relevantes,
-> - [[IGNICAO-Vol-6-Engenharia-e-Juridico#APÊNDICE ET — REGULATÓRIO DE IA NO BRASIL|Apêndice ET (Vol. 6)]], quando o tema central e regulacao de sistemas de IA
-> - [[#APÊNDICE ER — CADE E ANTITRUSTE — QUANDO O CRESCIMENTO ATRAI O REGULADOR|Apêndice ER]], quando a empresa cresceu o suficiente para atrair atencao concorrencial
-> - [[#APÊNDICE FE — POLÍTICA PÚBLICA COMO ESTRATÉGIA|Apêndice FE]], para influenciar a norma antes que ela seja escrita
+> - [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 11 — REGULATÓRIO DE IA NO BRASIL|Capítulo 11 (REGULATÓRIO DE IA NO BRASIL) (Vol. 8)]], quando o tema central e regulacao de sistemas de IA
+> - [[#CAPÍTULO 3 — CADE E ANTITRUSTE — QUANDO O CRESCIMENTO ATRAI O REGULADOR|Capítulo 3 (CADE E ANTITRUSTE — QUANDO O CRESCIMENTO ATRAI O REGULADOR)]], quando a empresa cresceu o suficiente para atrair atencao concorrencial
+> - [[#CAPÍTULO 4 — POLÍTICA PÚBLICA COMO ESTRATÉGIA|Capítulo 4 (POLÍTICA PÚBLICA COMO ESTRATÉGIA)]], para influenciar a norma antes que ela seja escrita
 > - Apendices verticais regulados (CM, CA, DK, DL, DM, DN, DO, DP, DQ), para mergulho setorial especifico
 
 > [!note] Nota de validade
-> Regulação setorial muda frequentemente no Brasil. Alíquotas, prazos de tramitação, entendimento fronteiriço e custos específicos têm meia-vida de doze a vinte e quatro meses. Esse apêndice reflete o cenário de abril de 2026 e é mapa estrutural — não substitui advogado setorial especializado para decisões operacionais. Princípios (arquitetura de reguladores, ordem de magnitude de custo, armadilhas recorrentes) têm validade mais longa que detalhes pontuais.
+> Regulação setorial muda frequentemente no Brasil. Alíquotas, prazos de tramitação, entendimento fronteiriço e custos específicos têm meia-vida de doze a vinte e quatro meses. Esse capítulo reflete o cenário de abril de 2026 e é mapa estrutural — não substitui advogado setorial especializado para decisões operacionais. Princípios (arquitetura de reguladores, ordem de magnitude de custo, armadilhas recorrentes) têm validade mais longa que detalhes pontuais.
 
-### O que esse apêndice cobre
+### O que esse capítulo cobre
 
 Cobertura regulatória específica por setor. Fundador em vertical regulado enfrenta obrigações que vão além de LGPD (Lei Geral de Proteção de Dados), tributário e trabalhista genéricos. Regulação setorial é pré-requisito operacional: sem ela, a empresa não opera legalmente, sofre multa ou é forçada a suspender operação. O custo de errar aqui costuma ser ordens de magnitude maior que em outras áreas.
 
@@ -988,7 +518,7 @@ A competição entre startups reguladas é filtrada por compliance: quem não co
 
 ### Quando agir
 
-Na [[IGNICAO-Vol-2-Validacao#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3 (Vol. 2)]]-4 (descoberta do problema), se você identifica oportunidade em setor regulado, entenda a arquitetura regulatória antes de construir MVP (Minimum Viable Product, produto mínimo viável). Descobrir que seu produto exige licença dezoito meses depois de construí-lo é catastrófico. Na [[IGNICAO-Vol-3-Tracao#FASE 10 — MVP E EXPERIMENTOS DE MERCADO|Fase 10 (Vol. 3)]] (MVP), busque primeiras licenças piloto ou sandboxes regulatórios — ambientes controlados de teste (quando existem). Na [[IGNICAO-Vol-3-Tracao#FASE 12 — PRODUCT-MARKET FIT|Fase 12 (Vol. 3)]] (PMF), compliance pleno é pré-requisito para captar Série A em setor regulado. Da [[IGNICAO-Vol-5-Receita-e-Pessoas#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14 (Vol. 5)]] em diante, compliance officer dedicado, relacionamento estruturado com regulador e participação em consultas públicas.
+Na [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 4 — DESCOBERTA DO PROBLEMA|Fase 4 (Vol. 2)]]-4 (descoberta do problema), se você identifica oportunidade em setor regulado, entenda a arquitetura regulatória antes de construir MVP (Minimum Viable Product, produto mínimo viável). Descobrir que seu produto exige licença dezoito meses depois de construí-lo é catastrófico. Na [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 11 — MVP E EXPERIMENTOS DE MERCADO|Fase 11 (Vol. 4)]] (MVP), busque primeiras licenças piloto ou sandboxes regulatórios — ambientes controlados de teste (quando existem). Na [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 13 — PRODUCT-MARKET FIT|Fase 13 (Vol. 4)]] (PMF), compliance pleno é pré-requisito para captar Série A em setor regulado. Da [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16 (Vol. 6)]] em diante, compliance officer dedicado, relacionamento estruturado com regulador e participação em consultas públicas.
 
 ### Quem envolver
 
@@ -1422,14 +952,14 @@ Compliance regulatório funciona quando há mapeamento completo de todas as regu
 
 ### Ver também
 
-[[IGNICAO-Vol-6-Engenharia-e-Juridico#APÊNDICE T — LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Apêndice T (Vol. 6)]] cobre LGPD. [[#APÊNDICE CM — BIOTECH E HEALTHTECH: PLAYBOOK DE REGULAÇÃO, ENSAIOS E CAPITAL|Apêndice CM]] cobre biotech e healthtech em profundidade.
+[[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 10 — LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Capítulo 10 (LGPD, COMPLIANCE E GOVERNANÇA DE DADOS) (Vol. 8)]] cobre LGPD. [[#CAPÍTULO 5 — BIOTECH E HEALTHTECH: PLAYBOOK DE REGULAÇÃO, ENSAIOS E CAPITAL|Capítulo 5 (BIOTECH E HEALTHTECH: PLAYBOOK DE REGULAÇÃO, ENSAIOS E CAPITAL)]] cobre biotech e healthtech em profundidade.
 
 ---
 
-## APÊNDICE ER — CADE E ANTITRUSTE — QUANDO O CRESCIMENTO ATRAI O REGULADOR
+## CAPÍTULO 3 — CADE E ANTITRUSTE — QUANDO O CRESCIMENTO ATRAI O REGULADOR
 
 > [!note] Nota
-> Esse apêndice cobre o direito da concorrência aplicado ao contexto de startups brasileiras. As referências à Lei 12.529/2011 (Lei de Defesa da Concorrência) e às Resoluções do CADE são de domínio público. As situações exemplificadas são hipotéticas e têm finalidade didática. Este apêndice não substitui assessoria jurídica especializada.
+> Esse capítulo cobre o direito da concorrência aplicado ao contexto de startups brasileiras. As referências à Lei 12.529/2011 (Lei de Defesa da Concorrência) e às Resoluções do CADE são de domínio público. As situações exemplificadas são hipotéticas e têm finalidade didática. Este capítulo não substitui assessoria jurídica especializada.
 
 Para a maioria dos fundadores em estágio inicial, o CADE (Conselho Administrativo de Defesa Econômica, autoridade antitruste brasileira) é uma instituição abstrata que aparece em notícias sobre fusões de grandes empresas. Esse raciocínio é correto até o momento em que a startup não pode mais errar.
 
@@ -1438,7 +968,7 @@ O CADE entra na vida de uma empresa por dois caminhos. O primeiro: quando ela fa
 > [!important] O custo do desconhecimento é assimétrico
 > Não saber as regras antitruste não protege contra as consequências de violá-las. Multas, nulidades de contrato e investigações administrativas acontecem independentemente da intenção. O fundador que escala sem entender os limites que o crescimento impõe constrói risco silencioso que se materializa no pior momento possível: durante um processo de M&A, numa rodada de captação, ou após uma disputa com concorrente.
 
-### O que esse apêndice cobre
+### O que esse capítulo cobre
 
 Sete dimensões integradas.
 
@@ -1735,18 +1265,18 @@ Em operações que se aproximam dos thresholds de notificação, o advogado anti
 
 **Ver também:**
 
-[[IGNICAO-Vol-3-Tracao#APÊNDICE EA — PRODUCT MARKETING: POSICIONAMENTO, MENSAGEM E LANÇAMENTO|Apêndice EA — Estrutura Societária (Vol. 3)]], [[IGNICAO-Vol-5-Receita-e-Pessoas#APÊNDICE EB — VENDAS COMPLEXAS ENTERPRISE: CICLO LONGO, ALTO VALOR, MÚLTIPLOS DECISORES|Apêndice EB — Contratos Essenciais (Vol. 5)]], [[IGNICAO-Vol-1-Ideacao#APÊNDICE EJ — TOMADA DE DECISÃO COMO DISCIPLINA|Apêndice EJ — Tomada de Decisão (Vol. 1)]], [[IGNICAO-Vol-7-Maturidade-e-Exit#APÊNDICE ES — RECUPERAÇÃO JUDICIAL E WIND-DOWN — QUANDO A STARTUP NÃO CONSEGUE CONTINUAR|Apêndice ES — Recuperação Judicial e Wind-Down (Vol. 7)]], [[IGNICAO-Vol-4-Captacao-e-Financas#APÊNDICE EZ — CAPITAL DE GIRO E RECEBÍVEIS|Apêndice EZ — Capital de Giro e Recebíveis (Vol. 4)]]
+[[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 7 — PRODUCT MARKETING: POSICIONAMENTO, MENSAGEM E LANÇAMENTO|Capítulo 7 — Estrutura Societária (Vol. 4)]], [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 2 — VENDAS COMPLEXAS ENTERPRISE: CICLO LONGO, ALTO VALOR, MÚLTIPLOS DECISORES|Capítulo 2 — Contratos Essenciais (Vol. 6)]], [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 6 — TOMADA DE DECISÃO COMO DISCIPLINA|Capítulo 6 — Tomada de Decisão (Vol. 1)]], [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 12 — RECUPERAÇÃO JUDICIAL E WIND-DOWN — QUANDO A STARTUP NÃO CONSEGUE CONTINUAR|Capítulo 12 — Recuperação Judicial e Wind-Down (Vol. 9)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 18 — CAPITAL DE GIRO E RECEBÍVEIS|Capítulo 18 — Capital de Giro e Recebíveis (Vol. 5)]]
 
 ---
 
-## APÊNDICE FE — POLÍTICA PÚBLICA COMO ESTRATÉGIA
+## CAPÍTULO 4 — POLÍTICA PÚBLICA COMO ESTRATÉGIA
 
 > [!abstract] Posicao no livro
 > Politica publica como ferramenta estrategica, ler ambiente regulatorio, influenciar normas antes que sejam escritas, acessar capital nao diluidor. Vizinhos relevantes,
-> - [[#APÊNDICE AW — REGULATÓRIO SETORIAL BRASILEIRO|Apêndice AW]], indice de reguladores e licencas por setor
-> - [[#APÊNDICE DK — GOVTECH: STARTUP VENDENDO PARA GOVERNO|Apêndice DK]], quando o Estado e cliente comprador
-> - [[#APÊNDICE ER — CADE E ANTITRUSTE — QUANDO O CRESCIMENTO ATRAI O REGULADOR|Apêndice ER]], antitruste como vetor regulatorio quando a startup cresce
-> - [[IGNICAO-Vol-5-Receita-e-Pessoas#APÊNDICE FD — PARCERIA COM GRANDES CORPORAÇÕES BRASILEIRAS|Apêndice FD (Vol. 5)]], grandes empresas como aliadas em advocacy setorial
+> - [[#CAPÍTULO 2 — REGULATÓRIO SETORIAL BRASILEIRO|Capítulo 2 (REGULATÓRIO SETORIAL BRASILEIRO)]], indice de reguladores e licencas por setor
+> - [[#CAPÍTULO 7 — GOVTECH: STARTUP VENDENDO PARA GOVERNO|Capítulo 7 (GOVTECH: STARTUP VENDENDO PARA GOVERNO)]], quando o Estado e cliente comprador
+> - [[#CAPÍTULO 3 — CADE E ANTITRUSTE — QUANDO O CRESCIMENTO ATRAI O REGULADOR|Capítulo 3 (CADE E ANTITRUSTE — QUANDO O CRESCIMENTO ATRAI O REGULADOR)]], antitruste como vetor regulatorio quando a startup cresce
+> - [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 5 — PARCERIA COM GRANDES CORPORAÇÕES BRASILEIRAS|Capítulo 5 (PARCERIA COM GRANDES CORPORAÇÕES BRASILEIRAS) (Vol. 6)]], grandes empresas como aliadas em advocacy setorial
 
 **Política Pública como Estratégia — Como Startups Interagem com o Estado Brasileiro**
 
@@ -1754,7 +1284,7 @@ Em operações que se aproximam dos thresholds de notificação, o advogado anti
 
 O empreendedor brasileiro que ignora o Estado como variável estratégica está construindo sobre areia. Não por ideologia, mas por realidade operacional. O setor público regula os mercados mais lucrativos do país, compra bilhões em tecnologia todo ano, financia inovação com dinheiro não-diluidor (capital público que não exige cessão de participação societária) e, em alguns setores, compete diretamente com startups. Ignorar essa dimensão não é neutralidade, é ingenuidade cara.
 
-Este apêndice trata de política pública (public policy, conjunto de normas, programas e ações governamentais que afetam um setor) como ferramenta de negócio. Não de política partidária, não de clientelismo, não de atalhos ilegais. Trata de como founders inteligentes leram o ambiente regulatório, influenciaram normas antes que elas fossem escritas, acessaram capital público sem abrir mão de equity (participação societária) e transformaram a complexidade burocrática em vantagem competitiva.
+Este capítulo trata de política pública (public policy, conjunto de normas, programas e ações governamentais que afetam um setor) como ferramenta de negócio. Não de política partidária, não de clientelismo, não de atalhos ilegais. Trata de como founders inteligentes leram o ambiente regulatório, influenciaram normas antes que elas fossem escritas, acessaram capital público sem abrir mão de equity (participação societária) e transformaram a complexidade burocrática em vantagem competitiva.
 
 ---
 
@@ -2280,42 +1810,36 @@ O Estado brasileiro não é um parceiro perfeito nem um inimigo inevitável. É 
 
 **Ver também:**
 
-- [[IGNICAO-Vol-10-Canvases-e-Templates#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Apêndice CZ — Canvases e Mapas Visuais (Vol. 10)]] — para mapear stakeholders regulatórios no Canvas de Partes Interessadas
-- [[IGNICAO-Vol-4-Captacao-e-Financas#APÊNDICE BB — VENTURE DEBT E REVENUE-BASED FINANCING (RBF)|Apêndice BB — Captação de Recursos (Vol. 4)]] — sobre fontes de capital público e privado em conjunto
-- [[IGNICAO-Vol-2-Validacao#FASE 5 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 5 — Validação de Mercado (Vol. 2)]] — como testar modelos regulados dentro de limites legais
-- [[IGNICAO-Vol-2-Validacao#FASE 8 — IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES|Fase 8 — Escala (Vol. 2)]] — gestão de risco regulatório em expansão de mercado
+- [[IGNICAO-Vol-1-Ideacao#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvases Visuais da Fase (Vol. 1)]] — para mapear stakeholders regulatórios no Canvas de Partes Interessadas
+- [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 10 — VENTURE DEBT E REVENUE-BASED FINANCING (RBF)|Capítulo 10 — Captação de Recursos (Vol. 5)]] — sobre fontes de capital público e privado em conjunto
+- [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 6 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 6 — Validação de Mercado (Vol. 2)]] — como testar modelos regulados dentro de limites legais
+- [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 9 — IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES|Fase 9 — Escala (Vol. 3)]] — gestão de risco regulatório em expansão de mercado
 
 ---
 
-# PLAYBOOKS DE VERTICAIS E SETORES REGULADOS NO BRASIL
+# PLAYBOOKS DE VERTICAIS E SETORES REGULADOS NO BRASIL (CAPÍTULOS 5 A 13)
+
+### Arquitetura deste Domínio: Os 9 Playbooks de Verticais e Setores Regulados no Brasil (Capítulos 5 a 13)
+
+Cada vertical de mercado possui suas próprias leis da física comercial, regulatória e operacional: o ciclo de vendas para prefeituras em uma *Govtech* não tem nada em comum com o ciclo de aprovação clínica na ANVISA de uma *Healthtech* ou com o financiamento de safra de uma *Agritech*. Consulte diretamente o capítulo correspondente ao seu setor:
+
+- **[[#C|Capítulo 5 — Biotech e Healthtech]]:** Regulação ANVISA/ANS, validação clínica, prontuário eletrônico, reembolso por operadoras e venda hospitalar.
+- **[[#C|Capítulo 6 — Hardware e Deep Tech]]:** Prototipagem física, certificação ANATEL/INMETRO, manufatura, cadeia de suprimentos, *Hardware-as-a-Service (HaaS)* e financiamento de ciclos longos.
+- **[[#CAPÍTULO 7 — GOVTECH: STARTUP VENDENDO PARA GOVERNO|Capítulo 7 — Govtech]]:** Nova Lei de Licitações (Lei 14.133/2021), Marco Legal das Startups (CPSI), dispensa/inexigibilidade e gestão de caixa para lidar com o ciclo de pagamento público.
+- **[[#CAPÍTULO 8 — AGRITECH: PLAYBOOK PARA O CAMPO BRASILEIRO|Capítulo 8 — Agritech]]:** Distribuição no campo (cooperativas, revendas), conectividade *offline-first*, ciclo de safra e integração com crédito rural e CPR.
+- **[[#CAPÍTULO 9 — EDTECH: PLAYBOOK PARA TECNOLOGIA DE EDUCAÇÃO NO BRASIL|Capítulo 9 — Edtech]]:** Venda para escolas privadas e redes públicas (K-12), ensino superior (MEC), educação corporativa (B2B) e sazonalidade de matrículas.
+- **[[#C|Capítulo 10 — Cleantech e ESG]]:** Mercado regulado e voluntário de carbono, transição energética, rastreabilidade ambiental e *project finance* verde.
+- **[[#CAPÍTULO 11 — PROPTECH: TECNOLOGIA NO MERCADO IMOBILIÁRIO BRASILEIRO|Capítulo 11 — Proptech]]:** Incorporadoras, imobiliárias, condomínios, cartórios de registro de imóveis, garantias locatícias e securitização (CRI).
+- **[[#CAPÍTULO 12 — LEGALTECH: TECNOLOGIA JURÍDICA NO BRASIL|Capítulo 12 — Legaltech]]:** Automação para departamentos jurídicos e escritórios, integração com sistemas de tribunais (PJe/e-SAJ), limites éticos da OAB e IA jurídica.
+- **[[#CAPÍTULO 13 — LOGTECH: TECNOLOGIA EM LOGÍSTICA E SUPPLY CHAIN NO BRASIL|Capítulo 13 — Logtech]]:** Matriz rodoviária brasileira, *last-mile*, caminhoneiros autônomos, gerenciamento de risco/roubo de carga e tabelas de frete.
 
 ---
 
-### Arquitetura deste Domínio: Os 9 Playbooks das Verticais Brasileiras
-
-Embora os princípios de validação e gestão sejam universais, construir uma **Biotech** submetida à ANVISA e à CONEP tem física operacional completamente diferente de construir uma **Agritech** vendendo na porteira da fazenda no Mato Grosso, uma **Govtech** licitando sob a Lei 14.133/2021 ou uma **Logtech** lidando com frete, roubo de carga e malha rodoviária.
-
-Os nove capítulos deste bloco (**Apêndices CM, CA, DK, DL, DM, DN, DO, DP e DQ**) entregam **playbooks verticais completos**, cada um estruturado com: anatomia do mercado brasileiro naquela vertical, regulação específica, ciclo de vendas e comportamento do comprador, *unit economics* típicas, armadilhas mortais do setor e casos de referência nacionais.
-
-| Apêndice | Vertical | Regulação / Atrito Dominante no Brasil | Ciclo Típico e GTM |
-|---|---|---|---|
-| [[#APÊNDICE CM — BIOTECH E HEALTHTECH: PLAYBOOK DE REGULAÇÃO, ENSAIOS E CAPITAL|Apêndice CM]] | **Biotech e Healthtech** | ANVISA, ANS, CFM, CONEP e prontuário/LGPD sensível | Longo (hospitais/operadoras) ou B2B2C médico |
-| [[#APÊNDICE CA — HARDWARE E DEEP TECH: CONSTRUIR NEGÓCIO COM FABRICAÇÃO, IP E HORIZONTES LONGOS|Apêndice CA]] | **Hardware e Deep Tech** | INPI, INMETRO, ANATEL, importação de componentes e CAPEX | Ciclos TRL/CRL longos + subvenção (FINEP/EMBRAPII) |
-| [[#APÊNDICE DK — GOVTECH: STARTUP VENDENDO PARA GOVERNO|Apêndice DK]] | **Govtech (B2G)** | Lei 14.133/2021, Marco Legal das Startups (CPSI), TCU/TCE | Ciclo orçamentário público (LOA/LDO) e provas de conceito |
-| [[#APÊNDICE DL — AGRITECH: PLAYBOOK PARA O CAMPO BRASILEIRO|Apêndice DL]] | **Agritech** |Conectividade rural, crédito agrícola (Plano Safra/CPR) e clima | Sazonalidade de safra, revendas/cooperativas e confiança no campo |
-| [[#APÊNDICE DM — EDTECH: PLAYBOOK PARA TECNOLOGIA DE EDUCAÇÃO NO BRASIL|Apêndice DM]] | **Edtech** | MEC, BNCC, calendário escolar anual e orçamento familiar/público | Forte sazonalidade (set–fev) em B2B escolar, B2C ou B2B corporativo |
-| [[#APÊNDICE DN — CLEANTECH E ESG: STARTUPS DE IMPACTO AMBIENTAL NO BRASIL|Apêndice DN]] | **Cleantech e ESG** | Mercado regulado/voluntário de carbono, IBAMA, ANEEL e rastreabilidade | Venda consultiva enterprise, *project finance* e cadeias exportadoras |
-| [[#APÊNDICE DO — PROPTECH: TECNOLOGIA NO MERCADO IMOBILIÁRIO BRASILEIRO|Apêndice DO]] | **Proptech** | Cartórios, CRECI, Lei do Inquilinato, funding imobiliário (CRI/FII) | Corretagem, incorporadoras, garantias locatícias e *take rate* |
-| [[#APÊNDICE DP — LEGALTECH: TECNOLOGIA JURÍDICA NO BRASIL|Apêndice DP]] | **Legaltech** | OAB (provimentos de publicidade/exercício), CNJ, PJe e tribunais | Departamentos jurídicos corporativos, escritórios e automação/IA |
-| [[#APÊNDICE DQ — LOGTECH: TECNOLOGIA EM LOGÍSTICA E SUPPLY CHAIN NO BRASIL|Apêndice DQ]] | **Logtech** | ANTT, piso mínimo de frete, ICMS interestadual, gerenciamento de risco | Embarcadores, transportadoras, caminhoneiros autônomos e *last-mile* |
-
----
-
-## APÊNDICE CM — BIOTECH E HEALTHTECH: PLAYBOOK DE REGULAÇÃO, ENSAIOS E CAPITAL
+## CAPÍTULO 5 — BIOTECH E HEALTHTECH: PLAYBOOK DE REGULAÇÃO, ENSAIOS E CAPITAL
 
 ### O QUE É E POR QUE IMPORTA
 
-Empreender em saúde é jogar um jogo diferente. Os ciclos são mais longos. O capital é mais pesado. A regulação é parte do produto, não obstáculo externo. E a prova de valor exige evidência clínica. Esse apêndice cobre quatro subcategorias, cada uma com particularidades. Healthtech (saúde digital, com software ou serviço como prontuário eletrônico, telemedicina, operadora, gestão, IA diagnóstica, dispositivos conectados). Medtech (tecnologia médica, com equipamentos, wearables clínicos ou dispositivos vestíveis, implantes, kits de diagnóstico). Biotech ou farma (biotecnologia, com moléculas, terapias, biotecnologia de ponta). E diagnóstico (laboratórios, testes genéticos, imagens).
+Empreender em saúde é jogar um jogo diferente. Os ciclos são mais longos. O capital é mais pesado. A regulação é parte do produto, não obstáculo externo. E a prova de valor exige evidência clínica. Esse capítulo cobre quatro subcategorias, cada uma com particularidades. Healthtech (saúde digital, com software ou serviço como prontuário eletrônico, telemedicina, operadora, gestão, IA diagnóstica, dispositivos conectados). Medtech (tecnologia médica, com equipamentos, wearables clínicos ou dispositivos vestíveis, implantes, kits de diagnóstico). Biotech ou farma (biotecnologia, com moléculas, terapias, biotecnologia de ponta). E diagnóstico (laboratórios, testes genéticos, imagens).
 
 Saúde representa 9 a 10% do PIB global (no Brasil, cerca de 9,6%). Barreiras regulatórias altas criam moats (fossos competitivos defensáveis) reais. Os outcomes (resultados em saúde do paciente) importam literalmente. Vidas, não métricas. Ciclos de três a dez ou mais anos exigem capital paciente. Startups de sucesso como Dasa, Fleury, Hapvida, Alice, Sami e Dr. Consulta levaram décadas ou foram construídas sobre empresas existentes.
 
@@ -2507,11 +2031,11 @@ Biotech ou healthtech está saudável quando há evidência clínica publicada e
 
 ### Ver também
 
-[[#APÊNDICE AW — REGULATÓRIO SETORIAL BRASILEIRO|Apêndice AW]], Regulatório setorial BR. [[#APÊNDICE CA — HARDWARE E DEEP TECH: CONSTRUIR NEGÓCIO COM FABRICAÇÃO, IP E HORIZONTES LONGOS|Apêndice CA]], Hardware e deep tech.
+[[#CAPÍTULO 2 — REGULATÓRIO SETORIAL BRASILEIRO|Capítulo 2 (REGULATÓRIO SETORIAL BRASILEIRO)]], Regulatório setorial BR. [[#CAPÍTULO 6 — HARDWARE E DEEP TECH: CONSTRUIR NEGÓCIO COM FABRICAÇÃO, IP E HORIZONTES LONGOS|Capítulo 6 (HARDWARE E DEEP TECH: CONSTRUIR NEGÓCIO COM FABRICAÇÃO, IP E HORIZONTES LONGOS)]], Hardware e deep tech.
 
 ---
 
-## APÊNDICE CA — HARDWARE E DEEP TECH: CONSTRUIR NEGÓCIO COM FABRICAÇÃO, IP E HORIZONTES LONGOS
+## CAPÍTULO 6 — HARDWARE E DEEP TECH: CONSTRUIR NEGÓCIO COM FABRICAÇÃO, IP E HORIZONTES LONGOS
 
 ### O QUE É
 
@@ -2519,7 +2043,7 @@ Deep tech (tecnologia de fronteira) é o conjunto de startups cuja proposta de v
 
 A diferença gigantesca entre hardware ou deep tech e software puro é o ciclo. Software vai de ideia a MVP (produto mínimo viável) em três meses, e de MVP a produto com cliente pagante em seis a doze. Hardware vai de ideia a protótipo em doze a dezoito meses, e de protótipo a produto escalável em três a cinco anos. Deep tech biofarma exige oito a doze anos de ciclo pré-receita. A matemática de venture capital (capital de risco) convencional pressupõe retorno em sete a dez anos, o que aperta hardware. Em biofarma, em geral nem fecha sem capital paciente específico.
 
-No Brasil, deep tech ganhou tração nos últimos dez anos. Fundos especializados surgiram, como Vox Capital, Bossa Nova, KPTL, ABSeed em tese tech-pro-mercado, Domo Invest e Astella com teses específicas, e fundos de corporate venture (capital de risco corporativo) de grandes indústrias. A academia se conectou mais. USP, IPT, Unicamp, INPE e Embrapa fazem transferência de tecnologia com frequência crescente. Algumas histórias de sucesso parciais apareceram. Kovi e Loft em modelos operacionais, WEG como referência industrial histórica, CI&T como serviço industrial de tecnologia, e ISA CTEEP como infraestrutura. Empresas puras de hardware brasileiras com exit (saída via venda ou IPO) relevante ainda são raras. Isso torna esse apêndice mais um guia de "como montar para fugir das armadilhas" do que "como replicar casos locais".
+No Brasil, deep tech ganhou tração nos últimos dez anos. Fundos especializados surgiram, como Vox Capital, Bossa Nova, KPTL, ABSeed em tese tech-pro-mercado, Domo Invest e Astella com teses específicas, e fundos de corporate venture (capital de risco corporativo) de grandes indústrias. A academia se conectou mais. USP, IPT, Unicamp, INPE e Embrapa fazem transferência de tecnologia com frequência crescente. Algumas histórias de sucesso parciais apareceram. Kovi e Loft em modelos operacionais, WEG como referência industrial histórica, CI&T como serviço industrial de tecnologia, e ISA CTEEP como infraestrutura. Empresas puras de hardware brasileiras com exit (saída via venda ou IPO) relevante ainda são raras. Isso torna esse capítulo mais um guia de "como montar para fugir das armadilhas" do que "como replicar casos locais".
 
 ### POR QUE IMPORTA
 
@@ -2654,20 +2178,20 @@ Exit típico: aquisição por indústria grande (não por tech company), IPO tar
 
 ### Ver também
 
-[[#APÊNDICE AW — REGULATÓRIO SETORIAL BRASILEIRO|Apêndice AW]] cobre regulatório em profundidade. [[IGNICAO-Vol-4-Captacao-e-Financas#APÊNDICE P — FINANCIAMENTO NÃO-DILUITIVO|Apêndice P (Vol. 4)]] cobre financiamento não-diluitivo.
+[[#CAPÍTULO 2 — REGULATÓRIO SETORIAL BRASILEIRO|Capítulo 2 (REGULATÓRIO SETORIAL BRASILEIRO)]] cobre regulatório em profundidade. [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 9 — FINANCIAMENTO NÃO-DILUITIVO|Capítulo 9 (FINANCIAMENTO NÃO-DILUITIVO) (Vol. 5)]] cobre financiamento não-diluitivo.
 
 ---
 
-## APÊNDICE DK — GOVTECH: STARTUP VENDENDO PARA GOVERNO
+## CAPÍTULO 7 — GOVTECH: STARTUP VENDENDO PARA GOVERNO
 
 > [!note] Nota de validade
-> Valores de dispensa de licitação e limites de contratação são reajustados periodicamente por decreto federal. Os valores citados refletem o cenário de maio de 2026, com base nos reajustes da Lei 14.133/2021 e regulamentações vigentes. Verificar atualização antes de qualquer processo de contratação. O Marco Legal das Startups (LC 182/2021) é a âncora legal principal — ver [[IGNICAO-Vol-4-Captacao-e-Financas#APÊNDICE DA — MARCO LEGAL DAS STARTUPS: LC 182/2021|Apêndice DA (Vol. 4)]] para o instrumento em detalhe.
+> Valores de dispensa de licitação e limites de contratação são reajustados periodicamente por decreto federal. Os valores citados refletem o cenário de maio de 2026, com base nos reajustes da Lei 14.133/2021 e regulamentações vigentes. Verificar atualização antes de qualquer processo de contratação. O Marco Legal das Startups (LC 182/2021) é a âncora legal principal — ver [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 1 — MARCO LEGAL DAS STARTUPS: LC 182/2021|Capítulo 1 (MARCO LEGAL DAS STARTUPS: LC 182/2021) (Vol. 8)]] para o instrumento em detalhe.
 
 Governo é o maior comprador do Brasil. O setor público gasta mais de R$ 2 trilhões por ano. Saúde, educação, segurança, mobilidade, assistência social, fiscalização tributária. Todos operam sobre tecnologia envelhecida, processos manuais e baixa eficiência. O gap (lacuna) entre o que o setor público precisa e o que consegue contratar via TI tradicional é onde a govtech (startup que vende para governo) vive.
 
 Governo, no entanto, é cliente diferente de tudo o que uma startup conhece. O ciclo de venda é longo. O processo de compra é burocrático por design. O pagamento pode atrasar meses. E a troca de prefeito ou secretário pode desfazer um contrato assinado.
 
-Este apêndice é um playbook (manual operacional) para fundar, vender e crescer no setor público brasileiro.
+Este capítulo é um playbook (manual operacional) para fundar, vender e crescer no setor público brasileiro.
 
 ### Por que governo é cliente especial
 
@@ -2725,7 +2249,7 @@ Governo não tem uma única forma de comprar. Há pelo menos cinco modalidades r
 
 **Concurso público de inovação.** Edital com desafio técnico específico, premiação por solução. Não é contratação direta, mas é porta de entrada. Algumas prefeituras e estados usam como primeiro passo antes da contratação.
 
-**Sandbox ARE (Ambiente Regulatório Experimental).** Para healthtech, edtech e outras verticais reguladas, o ARE setorial permite operar em ambiente controlado com flexibilização de requisitos regulatórios. Ver [[IGNICAO-Vol-4-Captacao-e-Financas#APÊNDICE DA — MARCO LEGAL DAS STARTUPS: LC 182/2021|Apêndice DA (Vol. 4)]] e [[#APÊNDICE AW — REGULATÓRIO SETORIAL BRASILEIRO|Apêndice AW]].
+**Sandbox ARE (Ambiente Regulatório Experimental).** Para healthtech, edtech e outras verticais reguladas, o ARE setorial permite operar em ambiente controlado com flexibilização de requisitos regulatórios. Ver [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 1 — MARCO LEGAL DAS STARTUPS: LC 182/2021|Capítulo 1 (MARCO LEGAL DAS STARTUPS: LC 182/2021) (Vol. 8)]] e [[#CAPÍTULO 2 — REGULATÓRIO SETORIAL BRASILEIRO|Capítulo 2 (REGULATÓRIO SETORIAL BRASILEIRO)]].
 
 ### Fluxo de contratação pública para startup
 
@@ -2814,11 +2338,11 @@ Governança de govtech exige métricas diferentes de B2B privado.
 
 | Tópico | Apêndice |
 |---|---|
-| Marco Legal das Startups, COCP, ARE, dispensa de licitação | [[IGNICAO-Vol-4-Captacao-e-Financas#APÊNDICE DA — MARCO LEGAL DAS STARTUPS: LC 182/2021|Apêndice DA (Vol. 4)]] |
-| Regulatório setorial (healthtech, edtech, fintech) | [[#APÊNDICE AW — REGULATÓRIO SETORIAL BRASILEIRO|Apêndice AW]] |
-| Captação de equity e investidores especializados em govtech | [[IGNICAO-Vol-4-Captacao-e-Financas#APÊNDICE V — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Apêndice V (Vol. 4)]] |
-| Financiamento não-diluitivo, BNDES, Finep para produto público | [[IGNICAO-Vol-4-Captacao-e-Financas#APÊNDICE P — FINANCIAMENTO NÃO-DILUITIVO|Apêndice P (Vol. 4)]] |
-| Sales motion completa, concentração de receita | [[IGNICAO-Vol-3-Tracao#APÊNDICE CP — SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|Apêndice CP (Vol. 3)]] |
+| Marco Legal das Startups, COCP, ARE, dispensa de licitação | [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 1 — MARCO LEGAL DAS STARTUPS: LC 182/2021|Capítulo 1 (MARCO LEGAL DAS STARTUPS: LC 182/2021) (Vol. 8)]] |
+| Regulatório setorial (healthtech, edtech, fintech) | [[#CAPÍTULO 2 — REGULATÓRIO SETORIAL BRASILEIRO|Capítulo 2 (REGULATÓRIO SETORIAL BRASILEIRO)]] |
+| Captação de equity e investidores especializados em govtech | [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) (Vol. 5)]] |
+| Financiamento não-diluitivo, BNDES, Finep para produto público | [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 9 — FINANCIAMENTO NÃO-DILUITIVO|Capítulo 9 (FINANCIAMENTO NÃO-DILUITIVO) (Vol. 5)]] |
+| Sales motion completa, concentração de receita | [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 8 — SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|Capítulo 8 (SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL) (Vol. 4)]] |
 
 ### Leitura adicional
 
@@ -2831,10 +2355,10 @@ Governança de govtech exige métricas diferentes de B2B privado.
 
 ---
 
-## APÊNDICE DL — AGRITECH: PLAYBOOK PARA O CAMPO BRASILEIRO
+## CAPÍTULO 8 — AGRITECH: PLAYBOOK PARA O CAMPO BRASILEIRO
 
 > [!note] Nota de validade
-> Dados de PIB agropecuário, safra, e instrumentos de crédito rural (CPR, CRA, Fiagro, BNDES) mudam anualmente. Este apêndice reflete o cenário de maio de 2026. Condições de mercado do agronegócio são voláteis — preço de commodity, câmbio, e clima impactam diretamente o orçamento do produtor. Revisar os dados macroeconômicos do setor no início de cada ano-safra.
+> Dados de PIB agropecuário, safra, e instrumentos de crédito rural (CPR, CRA, Fiagro, BNDES) mudam anualmente. Este capítulo reflete o cenário de maio de 2026. Condições de mercado do agronegócio são voláteis — preço de commodity, câmbio, e clima impactam diretamente o orçamento do produtor. Revisar os dados macroeconômicos do setor no início de cada ano-safra.
 
 O Brasil é uma das maiores potências agrícolas do mundo. O agronegócio responde por cerca de 25% do PIB, mais de 40% das exportações e emprega cerca de 30% da força de trabalho. São mais de 5 milhões de propriedades rurais cadastradas no Cadastro Ambiental Rural (CAR). A soja brasileira alimenta o gado europeu e a indústria alimentícia asiática. O frango e a carne bovina brasileiros chegam a mais de 150 países.
 
@@ -2964,7 +2488,7 @@ O agronegócio tem instrumentos de financiamento próprios que startups de outra
 
 **Fiagro — Fundo de Investimento nas Cadeias Produtivas Agroindustriais.** Criado pela Lei 14.130/2021, o Fiagro é o instrumento mais novo de funding para o agronegócio. Funciona como um FII (Fundo Imobiliário) mas voltado a ativos do agro (terra, CPR, CRA, recebíveis). Startups agritech com modelo de capital-intensivo (compra de terra, armazenagem) podem ser objeto de Fiagros. Investimento mínimo de gestores de Fiagro em startups agritech ainda é incipiente, mas crescente.
 
-**BNDES crédito rural e BNDES Fundo Clima.** O BNDES opera linhas específicas para inovação no agronegócio: BNDES Agro (via agentes financeiros credenciados), BNDES Fundo Clima (para soluções de adaptação à mudança climática em agro), e PRONAF para startups que prestam serviços para agricultores familiares. Ver [[IGNICAO-Vol-4-Captacao-e-Financas#APÊNDICE P — FINANCIAMENTO NÃO-DILUITIVO|Apêndice P (Vol. 4)]] para detalhes de acesso.
+**BNDES crédito rural e BNDES Fundo Clima.** O BNDES opera linhas específicas para inovação no agronegócio: BNDES Agro (via agentes financeiros credenciados), BNDES Fundo Clima (para soluções de adaptação à mudança climática em agro), e PRONAF para startups que prestam serviços para agricultores familiares. Ver [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 9 — FINANCIAMENTO NÃO-DILUITIVO|Capítulo 9 (FINANCIAMENTO NÃO-DILUITIVO) (Vol. 5)]] para detalhes de acesso.
 
 ### Jornada de adoção do produtor rural
 
@@ -3019,11 +2543,11 @@ A fase mais crítica é a de TRIAL. O produtor não arrisca a safra inteira. Ele
 
 | Tópico | Apêndice |
 |---|---|
-| Regulatório setorial, MAPA, ANVISA, bioinsumos | [[#APÊNDICE AW — REGULATÓRIO SETORIAL BRASILEIRO|Apêndice AW]] |
-| Hardware, IoT no campo, deep tech com IP | [[#APÊNDICE CA — HARDWARE E DEEP TECH: CONSTRUIR NEGÓCIO COM FABRICAÇÃO, IP E HORIZONTES LONGOS|Apêndice CA]] |
-| Financiamento não-diluitivo, BNDES, Finep, grants agro | [[IGNICAO-Vol-4-Captacao-e-Financas#APÊNDICE P — FINANCIAMENTO NÃO-DILUITIVO|Apêndice P (Vol. 4)]] |
-| Canal de distribuição e sales B2B complexa | [[IGNICAO-Vol-3-Tracao#APÊNDICE CP — SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|Apêndice CP (Vol. 3)]] |
-| Marco Legal das Startups, COCP para captação rural | [[IGNICAO-Vol-4-Captacao-e-Financas#APÊNDICE DA — MARCO LEGAL DAS STARTUPS: LC 182/2021|Apêndice DA (Vol. 4)]] |
+| Regulatório setorial, MAPA, ANVISA, bioinsumos | [[#CAPÍTULO 2 — REGULATÓRIO SETORIAL BRASILEIRO|Capítulo 2 (REGULATÓRIO SETORIAL BRASILEIRO)]] |
+| Hardware, IoT no campo, deep tech com IP | [[#CAPÍTULO 6 — HARDWARE E DEEP TECH: CONSTRUIR NEGÓCIO COM FABRICAÇÃO, IP E HORIZONTES LONGOS|Capítulo 6 (HARDWARE E DEEP TECH: CONSTRUIR NEGÓCIO COM FABRICAÇÃO, IP E HORIZONTES LONGOS)]] |
+| Financiamento não-diluitivo, BNDES, Finep, grants agro | [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 9 — FINANCIAMENTO NÃO-DILUITIVO|Capítulo 9 (FINANCIAMENTO NÃO-DILUITIVO) (Vol. 5)]] |
+| Canal de distribuição e sales B2B complexa | [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 8 — SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|Capítulo 8 (SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL) (Vol. 4)]] |
+| Marco Legal das Startups, COCP para captação rural | [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 1 — MARCO LEGAL DAS STARTUPS: LC 182/2021|Capítulo 1 (MARCO LEGAL DAS STARTUPS: LC 182/2021) (Vol. 8)]] |
 
 ### Leitura adicional
 
@@ -3037,10 +2561,10 @@ A fase mais crítica é a de TRIAL. O produtor não arrisca a safra inteira. Ele
 
 ---
 
-## APÊNDICE DM — EDTECH: PLAYBOOK PARA TECNOLOGIA DE EDUCAÇÃO NO BRASIL
+## CAPÍTULO 9 — EDTECH: PLAYBOOK PARA TECNOLOGIA DE EDUCAÇÃO NO BRASIL
 
 > [!note] Posição no livro
-> Este apêndice é referência para fundadores de startups de educação e tecnologia no Brasil. Conecta-se ao [[#APÊNDICE AW — REGULATÓRIO SETORIAL BRASILEIRO|Apêndice AW — Regulatório]], ao [[IGNICAO-Vol-3-Tracao#APÊNDICE CB — SUBSCRIPTION ECONOMY EM PROFUNDIDADE: ALÉM DO "COBRA MENSALMENTE"|Apêndice CB — Subscription Economy (Vol. 3)]] e ao [[#APÊNDICE DK — GOVTECH: STARTUP VENDENDO PARA GOVERNO|Apêndice DK — Govtech e B2G]].
+> Este capítulo é referência para fundadores de startups de educação e tecnologia no Brasil. Conecta-se ao [[#CAPÍTULO 2 — REGULATÓRIO SETORIAL BRASILEIRO|Capítulo 2 — Regulatório]], ao [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 10 — SUBSCRIPTION ECONOMY EM PROFUNDIDADE: ALÉM DO "COBRA MENSALMENTE"|Capítulo 10 — Subscription Economy (Vol. 4)]] e ao [[#CAPÍTULO 7 — GOVTECH: STARTUP VENDENDO PARA GOVERNO|Capítulo 7 — Govtech e B2G]].
 
 ---
 
@@ -3307,14 +2831,14 @@ Escola particular pequena é uma das categorias de maior inadimplência no Brasi
 
 ---
 
-**Ver também:** [[#APÊNDICE AW — REGULATÓRIO SETORIAL BRASILEIRO|Apêndice AW — Regulatório Geral]], [[IGNICAO-Vol-3-Tracao#APÊNDICE CB — SUBSCRIPTION ECONOMY EM PROFUNDIDADE: ALÉM DO "COBRA MENSALMENTE"|Apêndice CB — Subscription Economy (Vol. 3)]], [[#APÊNDICE DK — GOVTECH: STARTUP VENDENDO PARA GOVERNO|Apêndice DK — Govtech e B2G]]
+**Ver também:** [[#CAPÍTULO 2 — REGULATÓRIO SETORIAL BRASILEIRO|Capítulo 2 — Regulatório Geral]], [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 10 — SUBSCRIPTION ECONOMY EM PROFUNDIDADE: ALÉM DO "COBRA MENSALMENTE"|Capítulo 10 — Subscription Economy (Vol. 4)]], [[#CAPÍTULO 7 — GOVTECH: STARTUP VENDENDO PARA GOVERNO|Capítulo 7 — Govtech e B2G]]
 
 ---
 
-## APÊNDICE DN — CLEANTECH E ESG: STARTUPS DE IMPACTO AMBIENTAL NO BRASIL
+## CAPÍTULO 10 — CLEANTECH E ESG: STARTUPS DE IMPACTO AMBIENTAL NO BRASIL
 
 > [!note] Posição no livro
-> Este apêndice é referência para fundadores de startups com tese ambiental ou de impacto. Conecta-se ao [[IGNICAO-Vol-7-Maturidade-e-Exit#APÊNDICE AF — ESG, IMPACT E GOVERNANÇA PARA STARTUP|Apêndice AF — ESG (Vol. 7)]], ao [[#APÊNDICE CA — HARDWARE E DEEP TECH: CONSTRUIR NEGÓCIO COM FABRICAÇÃO, IP E HORIZONTES LONGOS|Apêndice CA — Deep Tech]] e ao [[IGNICAO-Vol-4-Captacao-e-Financas#APÊNDICE P — FINANCIAMENTO NÃO-DILUITIVO|Apêndice P — Financiamento Não-Diluitivo (Vol. 4)]].
+> Este capítulo é referência para fundadores de startups com tese ambiental ou de impacto. Conecta-se ao [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 4 — ESG, IMPACT E GOVERNANÇA PARA STARTUP|Capítulo 4 — ESG (Vol. 9)]], ao [[#CAPÍTULO 6 — HARDWARE E DEEP TECH: CONSTRUIR NEGÓCIO COM FABRICAÇÃO, IP E HORIZONTES LONGOS|Capítulo 6 — Deep Tech]] e ao [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 9 — FINANCIAMENTO NÃO-DILUITIVO|Capítulo 9 — Financiamento Não-Diluitivo (Vol. 5)]].
 
 ---
 
@@ -3578,20 +3102,20 @@ Software cleantech tem economics de SaaS. Projetos físicos (usina solar, parque
 
 ---
 
-**Ver também:** [[IGNICAO-Vol-7-Maturidade-e-Exit#APÊNDICE AF — ESG, IMPACT E GOVERNANÇA PARA STARTUP|Apêndice AF — ESG (Vol. 7)]], [[#APÊNDICE CA — HARDWARE E DEEP TECH: CONSTRUIR NEGÓCIO COM FABRICAÇÃO, IP E HORIZONTES LONGOS|Apêndice CA — Deep Tech]], [[IGNICAO-Vol-4-Captacao-e-Financas#APÊNDICE P — FINANCIAMENTO NÃO-DILUITIVO|Apêndice P — Financiamento Não-Diluitivo (Vol. 4)]]
+**Ver também:** [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 4 — ESG, IMPACT E GOVERNANÇA PARA STARTUP|Capítulo 4 — ESG (Vol. 9)]], [[#CAPÍTULO 6 — HARDWARE E DEEP TECH: CONSTRUIR NEGÓCIO COM FABRICAÇÃO, IP E HORIZONTES LONGOS|Capítulo 6 — Deep Tech]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 9 — FINANCIAMENTO NÃO-DILUITIVO|Capítulo 9 — Financiamento Não-Diluitivo (Vol. 5)]]
 
 ---
 
-## APÊNDICE DO — PROPTECH: TECNOLOGIA NO MERCADO IMOBILIÁRIO BRASILEIRO
+## CAPÍTULO 11 — PROPTECH: TECNOLOGIA NO MERCADO IMOBILIÁRIO BRASILEIRO
 
 > [!note] Posição no livro
-> Relevante para [[#APÊNDICE AW — REGULATÓRIO SETORIAL BRASILEIRO|Apêndice AW — Regulatório Setorial]], [[IGNICAO-Vol-4-Captacao-e-Financas#APÊNDICE CJ — TOKENIZAÇÃO PARA FOUNDERS: ATIVOS DIGITAIS, SECURITY TOKENS E QUANDO NÃO É HYPE|Apêndice CJ — Tokenização de Ativos (Vol. 4)]], [[IGNICAO-Vol-4-Captacao-e-Financas#APÊNDICE DA — MARCO LEGAL DAS STARTUPS: LC 182/2021|Apêndice DA — Marco Legal das Startups (Vol. 4)]] e para fundadores que atuam em marketplaces com ativos de alto valor, crédito ou construção civil.
+> Relevante para [[#CAPÍTULO 2 — REGULATÓRIO SETORIAL BRASILEIRO|Capítulo 2 — Regulatório Setorial]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 12 — TOKENIZAÇÃO PARA FOUNDERS: ATIVOS DIGITAIS, SECURITY TOKENS E QUANDO NÃO É HYPE|Capítulo 12 — Tokenização de Ativos (Vol. 5)]], [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 1 — MARCO LEGAL DAS STARTUPS: LC 182/2021|Capítulo 1 — Marco Legal das Startups (Vol. 8)]] e para fundadores que atuam em marketplaces com ativos de alto valor, crédito ou construção civil.
 
 ---
 
 ### O tamanho do problema e da oportunidade
 
-Proptech (property technology, tecnologia aplicada ao mercado imobiliário) é o foco deste apêndice. O mercado imobiliário brasileiro movimenta mais de R$ 2 trilhões em patrimônio. É o maior ativo individual da maioria das famílias brasileiras. E, ao mesmo tempo, é um dos mercados mais fragmentados, lentos e opacos do país.
+Proptech (property technology, tecnologia aplicada ao mercado imobiliário) é o foco deste capítulo. O mercado imobiliário brasileiro movimenta mais de R$ 2 trilhões em patrimônio. É o maior ativo individual da maioria das famílias brasileiras. E, ao mesmo tempo, é um dos mercados mais fragmentados, lentos e opacos do país.
 
 Comprar um imóvel no Brasil exige:
 
@@ -3695,7 +3219,7 @@ O modelo mais comum no Brasil é:
 3. CRI é tokenizado e negociado em plataforma digital
 4. Investidor compra tokens representando fração do CRI
 
-A regulação de tokenização de imóveis diretamente (sem CRI ou FII como veículo) ainda é incerta — ver [[IGNICAO-Vol-4-Captacao-e-Financas#APÊNDICE CJ — TOKENIZAÇÃO PARA FOUNDERS: ATIVOS DIGITAIS, SECURITY TOKENS E QUANDO NÃO É HYPE|Apêndice CJ (Vol. 4)]] (security tokens, ativos digitais e o que é regulado em 2026).
+A regulação de tokenização de imóveis diretamente (sem CRI ou FII como veículo) ainda é incerta — ver [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 12 — TOKENIZAÇÃO PARA FOUNDERS: ATIVOS DIGITAIS, SECURITY TOKENS E QUANDO NÃO É HYPE|Capítulo 12 (TOKENIZAÇÃO PARA FOUNDERS: ATIVOS DIGITAIS, SECURITY TOKENS E QUANDO NÃO É HYPE) (Vol. 5)]] (security tokens, ativos digitais e o que é regulado em 2026).
 
 #### 6. Property management
 
@@ -3867,17 +3391,17 @@ CRECI é estadual. ITBI é municipal. Legislação de parcelamento do solo é mu
 
 ### Conexões no livro
 
-- **Apêndice AW — Regulatório Setorial:** framework geral para navegar setores regulados
-- **Apêndice CJ — Tokenização de Ativos:** tokenização imobiliária como caso específico
-- **Apêndice DA — Marco Legal das Startups:** como o Marco Legal afeta estruturas de inovação em setores regulados
-- **Apêndice AE — Marketplace Dynamics:** dinâmicas de dois lados aplicadas a marketplaces imobiliários
+- **Capítulo 2 — Regulatório Setorial:** framework geral para navegar setores regulados
+- **Capítulo 12 (Vol. 5) — Tokenização de Ativos:** tokenização imobiliária como caso específico
+- **Capítulo 1 (Vol. 8) — Marco Legal das Startups:** como o Marco Legal afeta estruturas de inovação em setores regulados
+- **Capítulo 6 (Vol. 3) — Marketplace Dynamics:** dinâmicas de dois lados aplicadas a marketplaces imobiliários
 
 ---
 
-## APÊNDICE DP — LEGALTECH: TECNOLOGIA JURÍDICA NO BRASIL
+## CAPÍTULO 12 — LEGALTECH: TECNOLOGIA JURÍDICA NO BRASIL
 
 > [!note] Posição no livro
-> Relevante para [[IGNICAO-Vol-6-Engenharia-e-Juridico#APÊNDICE AH — CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS|Apêndice AH — Contratos e Aspectos Legais (Vol. 6)]], [[IGNICAO-Vol-6-Engenharia-e-Juridico#APÊNDICE DC — PROPRIEDADE INTELECTUAL E INPI|Apêndice DC — Propriedade Intelectual (Vol. 6)]], [[IGNICAO-Vol-6-Engenharia-e-Juridico#APÊNDICE T — LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Apêndice T — LGPD e Privacidade (Vol. 6)]] e para fundadores que desenvolvem ferramentas para escritórios de advocacia, departamentos jurídicos ou acesso à Justiça.
+> Relevante para [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 5 — CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS|Capítulo 5 — Contratos e Aspectos Legais (Vol. 8)]], [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 3 — PROPRIEDADE INTELECTUAL E INPI|Capítulo 3 — Propriedade Intelectual (Vol. 8)]], [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 10 — LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Capítulo 10 — LGPD e Privacidade (Vol. 8)]] e para fundadores que desenvolvem ferramentas para escritórios de advocacia, departamentos jurídicos ou acesso à Justiça.
 
 ---
 
@@ -4012,7 +3536,7 @@ Risco: dados processuais com partes identificadas podem conter informações pes
 
 Contratos autoexecutáveis em blockchain têm uso limitado no direito civil brasileiro. O Código Civil exige para muitos atos jurídicos forma específica (escritura pública, testemunhas, registro). Um smart contract não substitui escritura pública de compra de imóvel.
 
-O uso prático no Brasil está em contratos B2B de execução simples (pagamento automático ao atingir milestone mensurável on-chain) e em instrumentos financeiros tokenizados (ver [[IGNICAO-Vol-4-Captacao-e-Financas#APÊNDICE CJ — TOKENIZAÇÃO PARA FOUNDERS: ATIVOS DIGITAIS, SECURITY TOKENS E QUANDO NÃO É HYPE|Apêndice CJ (Vol. 4)]] — security tokens e instrumentos financeiros tokenizados).
+O uso prático no Brasil está em contratos B2B de execução simples (pagamento automático ao atingir milestone mensurável on-chain) e em instrumentos financeiros tokenizados (ver [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 12 — TOKENIZAÇÃO PARA FOUNDERS: ATIVOS DIGITAIS, SECURITY TOKENS E QUANDO NÃO É HYPE|Capítulo 12 (TOKENIZAÇÃO PARA FOUNDERS: ATIVOS DIGITAIS, SECURITY TOKENS E QUANDO NÃO É HYPE) (Vol. 5)]] — security tokens e instrumentos financeiros tokenizados).
 
 #### 5. Compliance regulatório automatizado
 
@@ -4171,17 +3695,17 @@ Escritórios de advocacia tradicionais têm ciclo de vendas longo, decisão por 
 
 ### Conexões no livro
 
-- **Apêndice AH — Contratos e Aspectos Legais:** base para entender o mercado que as legaltechs servem
-- **Apêndice DC — Propriedade Intelectual:** proteção de software e dados produzidos por legaltech
-- **Apêndice T — LGPD e Privacidade:** tratamento de dados processuais e pessoais em plataformas jurídicas
-- **Apêndice AW — Regulatório Setorial:** framework geral para navegar setores com reguladores ativos
+- **Capítulo 5 (Vol. 8) — Contratos e Aspectos Legais:** base para entender o mercado que as legaltechs servem
+- **Capítulo 3 (Vol. 8) — Propriedade Intelectual:** proteção de software e dados produzidos por legaltech
+- **Capítulo 10 (Vol. 8) — LGPD e Privacidade:** tratamento de dados processuais e pessoais em plataformas jurídicas
+- **Capítulo 2 — Regulatório Setorial:** framework geral para navegar setores com reguladores ativos
 
 ---
 
-## APÊNDICE DQ — LOGTECH: TECNOLOGIA EM LOGÍSTICA E SUPPLY CHAIN NO BRASIL
+## CAPÍTULO 13 — LOGTECH: TECNOLOGIA EM LOGÍSTICA E SUPPLY CHAIN NO BRASIL
 
 > [!note] Posição no livro
-> Relevante para [[IGNICAO-Vol-2-Validacao#APÊNDICE AE — MARKETPLACE DYNAMICS E RISCO DE PLATAFORMA|Apêndice AE — Marketplace Dynamics (Vol. 2)]], [[#APÊNDICE AW — REGULATÓRIO SETORIAL BRASILEIRO|Apêndice AW — Regulatório Setorial]], [[IGNICAO-Vol-2-Validacao#APÊNDICE CK — B2B2C: QUANDO SUA EMPRESA VENDE PARA OUTRA EMPRESA QUE VENDE PARA CONSUMIDOR|Apêndice CK — Modelos B2B2C (Vol. 2)]] e para fundadores que operam em e-commerce, agro, indústria ou qualquer negócio onde o produto precisa se mover fisicamente.
+> Relevante para [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 6 — MARKETPLACE DYNAMICS E RISCO DE PLATAFORMA|Capítulo 6 — Marketplace Dynamics (Vol. 3)]], [[#CAPÍTULO 2 — REGULATÓRIO SETORIAL BRASILEIRO|Capítulo 2 — Regulatório Setorial]], [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 8 — B2B2C: QUANDO SUA EMPRESA VENDE PARA OUTRA EMPRESA QUE VENDE PARA CONSUMIDOR|Capítulo 8 — Modelos B2B2C (Vol. 3)]] e para fundadores que operam em e-commerce, agro, indústria ou qualquer negócio onde o produto precisa se mover fisicamente.
 
 ---
 
@@ -4453,7 +3977,1996 @@ Uma solução de TMS ou WMS desenvolvida para rotas entre capitais no Sul-Sudest
 
 ### Conexões no livro
 
-- **Apêndice AE — Marketplace Dynamics:** dinâmicas de dois lados aplicadas a marketplaces de frete
-- **Apêndice AW — Regulatório Setorial:** ANTT, ANVISA e regulação de transportes no framework geral
-- **Apêndice CK — Modelos B2B2C:** quando a logtech vende para empresa mas serve o consumidor final
-- **Apêndice DA — Marco Legal das Startups:** estruturas jurídicas para operações de gig economy e transporte
+- **Capítulo 6 (Vol. 3) — Marketplace Dynamics:** dinâmicas de dois lados aplicadas a marketplaces de frete
+- **Capítulo 2 — Regulatório Setorial:** ANTT, ANVISA e regulação de transportes no framework geral
+- **Capítulo 8 (Vol. 3) — Modelos B2B2C:** quando a logtech vende para empresa mas serve o consumidor final
+- **Capítulo 1 (Vol. 8) — Marco Legal das Startups:** estruturas jurídicas para operações de gig economy e transporte
+
+---
+
+# GLOSSÁRIOS, BIBLIOGRAFIAS E ÍNDICES GERAIS DA COLEÇÃO
+
+### Arquitetura deste Domínio: Dicionário Geral, Bibliografia e Índices Remissivos da Coleção
+
+Esta seção final reúne o aparelho crítico transversal dos 10 volumes da coleção IGNIÇÃO:
+
+1. **[[#DATA DE COMPILAÇÃO E NOTA SOBRE ENVELHECIMENTO|Data de Compilação e Nota sobre Envelhecimento]]:** Critérios de validade temporal dos dados macroeconômicos, fiscais e regulatórios citados na obra.
+2. **[[#GLOSSÁRIO DE TERMOS TÉCNICOS|Glossário de Termos Técnicos (A–Z)]] e [[#GLOSSÁRIO TEMÁTICO DE NEGÓCIOS|Glossário Temático de Negócios]]:** Definições diretas e contextualizadas ao Brasil de todas as siglas e conceitos de produto, finanças, vendas, venture capital, jurídico e engenharia.
+3. **[[#LISTA DE ABREVIAÇÕES|Lista Geral de Abreviações]]:** Tabela de consulta rápida de siglas e acrônimos, acompanhada do currículo de leitura por etapa.
+4. **[[#BIBLIOGRAFIA GERAL|Bibliografia Geral]] e [[#BIBLIOGRAFIA UNIFICADA POR DOMÍNIO|Bibliografia Unificada por Domínio]]:** Todas as obras, artigos científicos, ensaios, fontes nacionais e normas legais que fundamentam a coleção.
+5. **[[#ÍNDICE GERAL DE FRAMEWORKS DA COLEÇÃO|Índice Geral de Frameworks da Coleção]]:** Mapa completo dos 164 frameworks da obra, indicando exatamente em qual Volume e Fase cada um está detalhado passo a passo.
+6. **[[#ÍNDICE ANALÍTICO|Índice Analítico]], [[#ÍNDICE REMISSIVO|Índice Remissivo]] e [[#ÍNDICE REMISSIVO DE TERMOS-CHAVE|Índice Remissivo de Termos-Chave]]:** Índices cruzados por conceito, métrica, órgão regulador e caso brasileiro para localização imediata em qualquer um dos 10 volumes.
+
+---
+
+## DATA DE COMPILAÇÃO E NOTA SOBRE ENVELHECIMENTO
+
+**Versão Ignição, compilada em abril de 2026.**
+
+Esta edição foi montada em abril de 2026 e reflete o estado do ecossistema empreendedor brasileiro e o entendimento do autor naquele momento. Partes do livro envelhecem em velocidades diferentes.
+
+**Envelhece devagar (meia-vida de décadas):** frameworks clássicos (Porter, Osterwalder, Christensen), padrões psicológicos do fundador, dinâmicas societárias, estruturas genéricas de captação, princípios de descoberta de cliente, lógica de unit economics.
+
+**Envelhece em anos (revisão bianual recomendada):** quadro regulatório brasileiro (reforma tributária em fase de implementação inicial 2026-2032 após promulgação da EC 132/2023), ferramentas específicas de IA para fundador, plataformas de distribuição (LinkedIn, TikTok, etc), valuations típicos de rodadas, instrumentos de captação (SAFE no BR ainda em consolidação), casos brasileiros específicos (startups em trajetórias ainda em curso).
+
+**Envelhece em meses (verificar antes de usar):** dados específicos de mercado, múltiplos de valuation, features de produtos de IA de terceiros, nomes de fundos/investidores ativos, rankings e prêmios, números concretos de arrecadação ou market cap, notícias sobre empresas mencionadas.
+
+Ao consultar este livro depois de 2027, tenha esse mapa em mente. O que parece verdade universal pode ser apenas estado do mundo de abril de 2026. Verifique antes de agir sobre dado específico.
+
+---
+
+*Consulta vitalícia*
+
+---
+
+Esta seção do livro foi desenhada para ser consultada por você durante toda a sua trajetória, não apenas enquanto você lê pela primeira vez, mas durante os anos em que você estiver construindo, operando, escalando e eventualmente vendendo sua empresa.
+
+Três blocos compõem a Referência:
+
+**O Ferramentário Completo do Empreendedor.** Cento e quarenta e uma ferramentas gerenciais consagradas, organizadas em dezenove categorias, estratégia clássica e moderna, planejamento, pensamento estruturado, resolução de problemas, pesquisa qualitativa e quantitativa, UX research, metodologias e priorização de produto, growth e aquisição, marketing e posicionamento, sales, negociação, operações e execução, liderança e gestão de pessoas, finanças e valuation, inovação e segunda curva. Cada ferramenta apresentada com origem histórica, princípios, como aplicar do jeito certo, exemplo aplicado ao contexto brasileiro, erros comuns, quando não usar, e leitura adicional. É, em volume, um livro dentro deste livro, e pode ser lido como tal, ou consultado ponto a ponto.
+
+**Glossário.** Termos técnicos usados recorrentemente ao longo do manual, agrupados por tema (produto, métricas, captação, operação, etc.). Quando um termo aparece pela primeira vez no corpo principal, ele é definido no contexto, aqui está a referência canônica.
+
+**Templates Prontos para Uso.** Declaração inicial, guia de entrevista de descoberta, banco de hipóteses, cartão de experimento, perfil de persona, spec de MVP, story tree, DAG de métricas, theory map, hypothesis canvas, canvas da cunha, teste de precisão do comprador, matriz de parcerias, plano de financiamento, plano de marca, mapa de modos do fundador, pitch deck SCQA, investor update. Cada template acompanhado de instruções de preenchimento e exemplo.
+
+### Como usar a Referência
+
+Se você está começando, não se intimide com o tamanho do Ferramentário. Ele não foi feito para ser lido de uma vez. As próprias fases e apêndices do livro vão te remeter a ferramentas específicas quando forem aplicáveis, use a seção como manual de apoio, não como leitura obrigatória.
+
+Se você já opera, provavelmente vai chegar à Referência buscando uma ferramenta específica que alguém mencionou em uma reunião ou um artigo, "o que é mesmo MEDDPICC?", "qual é o modelo de 7 Powers?", "como calcula Rule of 40?". Consulte o índice do Ferramentário por categoria e vá direto ao ponto.
+
+O Glossário e os Templates são de acesso permanente. Use o Glossário como dicionário do manual, use os Templates como ponto de partida para seus próprios documentos, não os reinvente do zero, adapte.
+
+---
+
+## GLOSSÁRIO DE TERMOS TÉCNICOS
+
+> [!note] Como usar
+> Glossário de termos técnicos usados ao longo do livro. Organizado alfabeticamente. Para cada termo: definição em uma frase, contexto de uso e, quando relevante, fase ou apêndice onde o conceito é desenvolvido em profundidade.
+>
+> Este glossário é a referência canônica de vocabulário do livro. Se um termo aparece em uma fase ou apêndice com tradução inline entre parênteses, a definição autoritativa está aqui.
+
+---
+
+### A
+
+**ACV (Annual Contract Value).** Valor anual de um contrato com cliente. Usado em vendas B2B para dimensionar deals e calcular receita por cliente. Ver [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 12 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 12 (Vol. 4)]].
+
+**Acqui-hire.** Aquisição de empresa cujo objetivo principal é contratar o time, não o produto ou receita. O produto é frequentemente descontinuado. Pagamento típico: R$ 500 mil a R$ 3 milhões por engenheiro sênior em pacote de retenção. Ver [[IGNICAO-Vol-9-Maturidade-e-Exit#FASE 20 — ESTRATÉGIA DE SAÍDA (EXIT STRATEGY)|Fase 20 (Vol. 9)]].
+
+**ADR (Architecture Decision Record).** Documento que registra decisões arquiteturais de software, incluindo o contexto, a decisão tomada e as alternativas consideradas. Ferramenta de gestão do conhecimento em times de engenharia.
+
+**Advisor.** Conselheiro externo que orienta o fundador em áreas específicas (técnica, comercial, regulatória, captação). Tipicamente compensado com 0,1% a 1% de equity sob contrato FAST. Ver [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 13 — REDE, MENTORES E ADVISORS — COMO CONSTRUIR O CAPITAL HUMANO DO EMPREENDEDOR|Capítulo 13 (REDE, MENTORES E ADVISORS — COMO CONSTRUIR O CAPITAL HUMANO DO EMPREENDEDOR) (Vol. 1)]] (rede de advisors, contrato FAST e ativação desde estágio zero).
+
+**Aha moment.** Momento em que o usuário percebe pela primeira vez o valor central do produto. Ponto crítico da etapa de ativação no funil AARRR.
+
+**Ambidestria organizacional.** Capacidade de uma empresa de explorar o modelo atual (exploit) e explorar novos modelos (explore) simultaneamente. Estrutura central na [[IGNICAO-Vol-9-Maturidade-e-Exit#FASE 19 — REINVENÇÃO E SEGUNDA CURVA|Fase 19 (Vol. 9)]].
+
+**ANPD (Autoridade Nacional de Proteção de Dados).** Autarquia federal brasileira responsável por fiscalizar e aplicar a LGPD. Pode aplicar multas até 2% do faturamento (limite R$ 50 milhões por infração).
+
+**Anti-dilution.** Cláusula societária que protege investidores de diluição em rodadas futuras a valuation menor. Variantes: full ratchet (ajuste integral) e weighted average (mais comum, ajuste ponderado). Ver [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18 (Vol. 8)]] e [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) (Vol. 5)]] (cláusulas de term sheet incluindo full ratchet e weighted average).
+
+**ARR (Annual Recurring Revenue).** Receita anual recorrente. Soma de todos os contratos ativos anualizados. Principal métrica de tamanho de empresa SaaS. ARR = MRR × 12.
+
+**ASP (Average Selling Price).** Preço médio de venda. Receita total dividida pela quantidade vendida. Diferenças relevantes entre ASP por segmento ou canal indicam oportunidade de pricing diferenciado.
+
+**Assumption Mapping.** Técnica de mapeamento e priorização de hipóteses por importância e nível de evidência. Originada por David Bland (2019). Ver Framework: Assumption Mapping (David J. Bland, 2019) (Fase 7, Vol. 3).
+
+---
+
+### B
+
+**BaaS (Banking as a Service).** Infraestrutura bancária fornecida como serviço por empresa licenciada. Permite fintechs operarem sem licença bancária própria, integrando serviços financeiros via API.
+
+**BATNA (Best Alternative to a Negotiated Agreement).** Melhor alternativa caso a negociação não resulte em acordo. Quanto melhor o BATNA, mais poder o negociador tem. Conceito central de Fisher e Ury (Getting to Yes, 1981). Ver [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 11 — NEGOCIAÇÃO COMO DISCIPLINA|Capítulo 11 (NEGOCIAÇÃO COMO DISCIPLINA) (Vol. 4)]] (BATNA, ZOPA e o método Harvard de negociação).
+
+**BCB (Banco Central do Brasil).** Autoridade monetária e regulatória do sistema financeiro brasileiro. Regula bancos, fintechs, instituições de pagamento e sandbox regulatório de inovação financeira.
+
+**Beachhead.** Segmento inicial de mercado onde a empresa concentra esforços antes de expandir. Derivado da estratégia militar (cabeça de praia). O beachhead deve ser pequeno o suficiente para ser dominado, mas grande o suficiente para financiar a expansão. Ver [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 6 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 6 (Vol. 2)]].
+
+**Bet-the-company (aposta central).** Hipótese cuja refutação invalida o modelo de negócio inteiro. Diferente de hipóteses secundárias, que podem ser refutadas sem comprometer a empresa. Todo negócio tem duas a cinco apostas-centrais. Ver [[IGNICAO-Vol-1-Ideacao#FASE 3 — CONSTRUÇÃO DA TEORIA DO NEGÓCIO|Fase 3 (Vol. 1)]].
+
+**Blitzscaling.** Estratégia de crescimento deliberadamente ineficiente em velocidade extrema para capturar mercado winner-takes-most antes dos competidores. Conceito de Reid Hoffman. Aceita custo e caos em troca de velocidade. Ver Framework: Blitzscaling (Reid Hoffman & Chris Yeh, 2018) (Fase 15, Vol. 6).
+
+**Board.** Conselho de administração. Órgão de governança da empresa. Em startups, tipicamente 3-5 membros: fundadores, investidores e independentes. Ver [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 1 — BOARD E GOVERNANCE|Capítulo 1 (BOARD E GOVERNANCE) (Vol. 9)]] (composição, dinâmica e governança do board em startup).
+
+**Bootstrap / Bootstrapped.** Empresa financiada exclusivamente pelo capital dos fundadores e pela própria receita, sem capital externo de risco.
+
+**Burn Multiple.** Net burn (caixa gasto) dividido por net new ARR gerado. Mede eficiência de queima de caixa. Referência: ≤ 1.5x excelente, ≤ 2.5x aceitável, acima de 3x preocupante.
+
+**Burn rate.** Velocidade de consumo de caixa por mês. Caixa disponível dividido pelo burn rate mensal = runway.
+
+---
+
+### C
+
+**CAC (Customer Acquisition Cost).** Custo total de marketing e vendas dividido pelo número de novos clientes no período. Calculado por canal para diagnóstico preciso, não apenas blended.
+
+**CAC Payback.** Número de meses necessários para recuperar o CAC com a margem bruta gerada pelo cliente. Referência: ≤ 12 meses B2C, ≤ 18 meses B2B enterprise.
+
+**Cap table (Tabela de capitalização).** Documento que registra a estrutura de propriedade de uma empresa: quem tem quantas ações, de qual classe, com qual vesting e a que preço foram emitidas.
+
+**Carta de intenção (LOI, Letter of Intent).** Documento não-vinculante que formaliza interesse de uma parte em realizar transação (investimento, aquisição) com outra, antes da due diligence completa.
+
+**Category design.** Estratégia de criar e dominar uma categoria de mercado nova, em vez de competir em categoria existente. Empresa define o problema de forma nova, tornando-se referência da categoria. Ver Framework: Category Design (Play Bigger, 2016) (Fase 6, Vol. 2).
+
+**Churn.** Taxa de cancelamento ou perda de clientes ou receita em um período. Churn de clientes: percentual de clientes que cancelaram. Churn de receita (MRR churn): percentual da receita mensal perdida por cancelamentos e downgrades.
+
+**CIM (Confidential Information Memorandum).** Documento confidencial preparado pelo banco de investimento ou advisor que descreve a empresa para potenciais compradores em processo de M&A. Ver [[IGNICAO-Vol-9-Maturidade-e-Exit#FASE 20 — ESTRATÉGIA DE SAÍDA (EXIT STRATEGY)|Fase 20 (Vol. 9)]].
+
+**Cliff (de vesting).** Período inicial de vesting em que nenhuma parte da participação veste. Tipicamente 12 meses para cofundadores e funcionários: se sair antes de 1 ano, não recebe nada. Ver [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18 (Vol. 8)]].
+
+**Closing.** Momento de assinatura e execução de uma transação (rodada de investimento, M&A). Marca a transferência efetiva de capital e participação. Tipicamente precedido por due diligence, term sheet e SPA.
+
+**Cofundador.** Pessoa que funda a empresa em conjunto com um ou mais sócios desde o início. No Brasil, distinto de "co-founder" — usar termo em português é a convenção do livro.
+
+**COGS (Cost of Goods Sold).** Custo dos produtos ou serviços vendidos. Em SaaS: custos de infraestrutura, suporte e serviços diretamente vinculados à entrega. Determina a margem bruta.
+
+**Compliance.** Conformidade regulatória. Em startups, refere-se à aderência a normas de LGPD, anticorrupção, trabalhistas, fiscais e setoriais. Capítulo 12 (Vol. 8) (COMPLIANCE E ANTICORRUPÇÃO PARA STARTUPS) trata de Compliance e Anticorrupção em profundidade.
+
+**Continuous discovery.** Prática de pesquisa contínua com usuários integrada ao ciclo de desenvolvimento de produto, em vez de pesquisas pontuais. Conceito de Teresa Torres. Ver Framework: Continuous Discovery Habits (Teresa Torres, 2021) (Fase 17, Vol. 7).
+
+**CRM (Customer Relationship Management).** Sistema de gestão de relacionamento com clientes. Registra interações, pipeline de vendas e histórico do cliente. Exemplos: Salesforce, HubSpot, Pipedrive.
+
+**CSD (Certezas, Suposições, Dúvidas).** Framework de mapeamento de hipóteses que separa o que se sabe com certeza, o que se supõe e o que é genuinamente desconhecido. Ver [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 7 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 7 (Vol. 3)]].
+
+---
+
+### D
+
+**DAG (Directed Acyclic Graph).** Grafo causal direcionado sem ciclos. Usado em construção de teoria do negócio para mapear relações causais entre variáveis. Ver [[IGNICAO-Vol-1-Ideacao#FASE 3 — CONSTRUÇÃO DA TEORIA DO NEGÓCIO|Fase 3 (Vol. 1)]].
+
+**DAU/MAU.** Proporção de usuários ativos diários sobre usuários ativos mensais. Indica frequência de uso do produto. ≥ 20% é referência para produto de uso frequente.
+
+**DCF (Discounted Cash Flow).** Método de valuation que desconta fluxos de caixa futuros pelo custo de capital (WACC). Teoricamente rigoroso, altamente sensível a premissas em startups.
+
+**Deal flow.** Fluxo de oportunidades de investimento ou aquisição que chega a um investidor ou a uma empresa compradora.
+
+**Delaware Flip.** Reestruturação societária em que uma empresa brasileira passa a ser detida por holding em Delaware (EUA). Comum para startups que captam fundos americanos. Custo típico: US$ 30 mil a US$ 80 mil. Ver [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 5 — INTERNACIONALIZAÇÃO: ESTRUTURA E PRODUTO PARA MÚLTIPLOS MERCADOS|Capítulo 5 (INTERNACIONALIZAÇÃO: ESTRUTURA E PRODUTO PARA MÚLTIPLOS MERCADOS) (Vol. 9)]] (estrutura societária, custo e mecânica do flip).
+
+**Dilution.** Redução da participação percentual de um acionista em decorrência de novas emissões de ações. Ocorre em cada rodada de captação.
+
+**Down round.** Rodada de captação a valuation menor que o da rodada anterior. Penaliza fundadores e investidores anteriores.
+
+**DPA (Data Processing Agreement).** Acordo de processamento de dados pessoais entre controlador e operador, exigido pela LGPD quando há transferência de dados a terceiro processador.
+
+**DPO (Data Protection Officer).** Encarregado de proteção de dados. Função obrigatória sob a LGPD para empresas que processam grandes volumes de dados pessoais ou dados sensíveis.
+
+**Drag-along.** Cláusula societária que permite ao acionista majoritário forçar os minoritários a vender suas participações nas mesmas condições, em caso de venda da empresa. Ver [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18 (Vol. 8)]].
+
+**Dual-Track Agile.** Modelo em que descoberta (discovery) e entrega (delivery) rodam em trilhos paralelos, alimentando-se mutuamente. Conceito de Marty Cagan. Ver [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 1 — PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA|Capítulo 1 (PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA) (Vol. 7)]] (descoberta e entrega em trilhos paralelos).
+
+**Due diligence (DD).** Processo de investigação e verificação de informações sobre empresa-alvo antes de investimento ou aquisição. Cobre dimensões financeiras, jurídicas, operacionais, tecnológicas e tributárias.
+
+---
+
+### E
+
+**Earnout.** Parte do preço de aquisição condicionada ao atingimento de metas pós-closing. Tipicamente 20-40% do deal value, pago ao longo de 12 a 36 meses. Ver [[IGNICAO-Vol-9-Maturidade-e-Exit#FASE 20 — ESTRATÉGIA DE SAÍDA (EXIT STRATEGY)|Fase 20 (Vol. 9)]] e [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 13 — SUCESSÃO NO EXIT E TRANSIÇÃO PÓS-AQUISIÇÃO|Capítulo 13 (SUCESSÃO NO EXIT E TRANSIÇÃO PÓS-AQUISIÇÃO) (Vol. 9)]] (estrutura, riscos e transição pós-closing).
+
+**EBITDA.** Lucro antes de juros, impostos, depreciação e amortização. Métrica de geração operacional de caixa, usada em valuation por múltiplos (EV/EBITDA) e em covenants bancários.
+
+**eNPS (Employee Net Promoter Score).** Adaptação do NPS para medir engajamento e satisfação de funcionários. Pergunta: "Em escala de 0 a 10, o quanto você recomendaria trabalhar aqui a um amigo?" Referência saudável: ≥ 30.
+
+**EOR (Employer of Record).** Empresa que atua como empregadora formal de funcionários no exterior, permitindo a startup contratar globalmente sem abrir entidade local. Exemplos: Deel, Remote, Oyster.
+
+**ERP (Enterprise Resource Planning).** Sistema de gestão integrada que centraliza processos operacionais como financeiro, estoque, RH e produção. Exemplos: SAP, Totvs, Oracle.
+
+**ESOP (Employee Stock Option Plan).** Plano de outorga de opções de ações a funcionários. Tipicamente reserva de 10-20% do cap table para o pool. Mecanismo central de retenção em startups. Ver [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 15 — STOCK OPTIONS E ESOP NO BRASIL|Capítulo 15 (STOCK OPTIONS E ESOP NO BRASIL) (Vol. 6)]] (estrutura, vesting, tributário e exemplos brasileiros).
+
+**EV (Enterprise Value).** Valor total da empresa: capitalização de mercado mais dívida líquida. Usado como numerador nos múltiplos de valuation (EV/ARR, EV/EBITDA).
+
+**Exit.** Saída do fundador ou investidor da empresa, geralmente via M&A, IPO ou secondary. Ver [[IGNICAO-Vol-9-Maturidade-e-Exit#FASE 20 — ESTRATÉGIA DE SAÍDA (EXIT STRATEGY)|Fase 20 (Vol. 9)]].
+
+---
+
+### F
+
+**FMF (Founder-Market Fit).** Alinhamento entre o perfil, experiência e motivação do fundador e as características do problema e mercado que a empresa ataca. Primeiro filtro de avaliação de ideia. Ver [[IGNICAO-Vol-1-Ideacao#FASE 1 — ENCONTRAR A IDEIA|Fase 1 (Vol. 1)]].
+
+**Founder Mode.** Estilo de gestão hands-on do fundador-CEO em estágio early-to-growth, em contraste com o "manager mode" delegativo. Conceito popularizado por Paul Graham (2024). Ver [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 11 — GESTÃO DE TEMPO DO FUNDADOR E OPERATING CADENCE|Capítulo 11 (GESTÃO DE TEMPO DO FUNDADOR E OPERATING CADENCE) (Vol. 6)]] (Founder Mode vs Manager Mode, agenda e cadência operacional).
+
+**FP&A (Financial Planning & Analysis).** Função financeira responsável por planejamento, orçamento e análise de variâncias. Em startups, surge tipicamente após Série B. Ver [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 2 — MODELAGEM FINANCEIRA OPERACIONAL|Capítulo 2 (MODELAGEM FINANCEIRA OPERACIONAL) (Vol. 5)]] (modelagem, planejamento e análise de variâncias).
+
+**Freemium.** Modelo de negócio com camada gratuita permanente e camada paga com funcionalidades avançadas. Taxa de conversão típica: 2 a 5% dos usuários gratuitos.
+
+**FRR (Feature Request Rate).** Taxa de solicitações de novas funcionalidades por cliente. Alta FRR indica gaps no produto ou base de clientes inadequada para o produto atual.
+
+**First Principles Thinking.** Método de raciocinar a partir do fundamento, decompondo crenças aceitas e reconstruindo do zero. Atribuído a Aristóteles, popularizado por Elon Musk. Ver Framework: First Principles Thinking (Aristóteles, ~350 a.C.; popularizado por Elon Musk, anos 2010) (Fase 0, Vol. 1).
+
+---
+
+### G
+
+**GMV (Gross Merchandise Value).** Volume bruto de transações processadas em uma plataforma. A receita da plataforma é o take rate aplicado sobre o GMV.
+
+**Go-to-market (GTM).** Estratégia de como a empresa leva o produto ao mercado: quais segmentos atacar, por quais canais, com qual motion de vendas e posicionamento. Ver [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 1 — GTM PLAYBOOK: DA IDEIA AO PRIMEIRO MILHÃO DE ARR|Capítulo 1 (GTM PLAYBOOK: DA IDEIA AO PRIMEIRO MILHÃO DE ARR) (Vol. 4)]] (playbook completo de GTM da ideia ao primeiro milhão de ARR).
+
+**GRR (Gross Revenue Retention).** Percentual da receita mantida de um período para o outro, excluindo expansão. Mede churn puro. GRR ideal: acima de 90% em B2B.
+
+---
+
+### H
+
+**Headcount.** Número total de funcionários de uma empresa.
+
+**Hipótese falsificável.** Hipótese que pode ser refutada por evidência observável. Hipóteses não-falsificáveis são crenças, não hipóteses científicas. Central na metodologia do livro. Ver [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 7 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 7 (Vol. 3)]].
+
+---
+
+### I
+
+**ICP (Ideal Customer Profile).** Perfil ideal do cliente: a empresa ou pessoa para quem o produto foi especificamente construído e que extrai mais valor dele. Mais específico que persona, que é mais específico que segmento.
+
+**Innovator's Dilemma.** Fenômeno documentado por Clayton Christensen onde empresas bem-sucedidas são incapazes de adotar tecnologias disruptivas por serem racionalmente focadas em seus clientes atuais. Ver Framework: Innovator's Dilemma / Disruptive Innovation (Clayton Christensen, 1997) (Fase 19, Vol. 9) e [[IGNICAO-Vol-9-Maturidade-e-Exit#FASE 19 — REINVENÇÃO E SEGUNDA CURVA|Fase 19 (Vol. 9)]].
+
+**IP (Intellectual Property).** Propriedade intelectual: patentes, marcas registradas, código-fonte, segredos comerciais. Em startups, instrumento de cessão de IP do fundador para a empresa é cláusula obrigatória de contrato societário. Ver [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 3 — PROPRIEDADE INTELECTUAL E INPI|Capítulo 3 (PROPRIEDADE INTELECTUAL E INPI) (Vol. 8)]] (cessão de IP fundador-empresa, registro INPI, marcas e patentes).
+
+**IPO (Initial Public Offering).** Oferta pública inicial — abertura de capital na bolsa de valores. No Brasil, na B3. Tipicamente alvo de empresas com ARR ≥ R$ 300 milhões e crescimento ≥ 30% YoY. Ver [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 16 — IPO NO BRASIL: QUANDO, COMO E O QUE MUDA|Capítulo 16 (IPO NO BRASIL: QUANDO, COMO E O QUE MUDA) (Vol. 9)]] (timing, processo e mudança operacional pós-IPO).
+
+---
+
+### J
+
+**JTBD (Jobs to be Done).** Framework de pesquisa que entende comportamento do consumidor como contratação de produtos para realizar um "trabalho" funcional, emocional ou social. Originado por Tony Ulwick (Strategyn, 1990, aplicando Six Sigma à inovação), popularizado por Clayton Christensen em *The Innovator's Solution* (2003), e operacionalizado em Switch Interviews por Bob Moesta. Ver Framework: Jobs to Be Done Framework (Clayton Christensen, Anthony Ulwick, Bob Moesta) (Fase 5, Vol. 2) e Framework: Jobs to Be Done Switch Interviews (Bob Moesta & Chris Spiek, via Clayton Christensen) (Fase 5, Vol. 2).
+
+---
+
+### L
+
+**Lead.** Potencial cliente que demonstrou interesse inicial. Pode ser MQL (Marketing Qualified Lead) ou SQL (Sales Qualified Lead) dependendo do nível de qualificação.
+
+**LGPD (Lei Geral de Proteção de Dados).** Lei 13.709/2018 que regula o tratamento de dados pessoais no Brasil. Multa máxima: 2% do faturamento, limite R$ 50 milhões por infração. Fiscalizada pela ANPD. Ver [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 10 — LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Capítulo 10 (LGPD, COMPLIANCE E GOVERNANÇA DE DADOS) (Vol. 8)]] (LGPD na prática, ANPD e governança de dados).
+
+**Liquidation preference.** Direito dos investidores preferenciais de receber seu investimento de volta (com ou sem juros) antes dos fundadores e acionistas ordinários em caso de exit. Pode ser 1x, 2x ou mais. Ver [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) (Vol. 5)]] (cláusulas de term sheet, 1x/2x, participating versus non-participating).
+
+**Lock-up.** Período pós-IPO ou pós-aquisição durante o qual os acionistas (fundadores, investidores) não podem vender suas ações. Tipicamente 180 dias pós-IPO, 12 a 36 meses pós-M&A.
+
+**LTV (Lifetime Value).** Valor presente líquido da receita gerada por um cliente ao longo de toda a sua relação com a empresa. LTV/CAC ≥ 3x é referência para modelo sustentável.
+
+---
+
+### M
+
+**M&A (Mergers and Acquisitions).** Fusões e aquisições. Caminho mais comum de exit para startups brasileiras. Ver [[IGNICAO-Vol-9-Maturidade-e-Exit#FASE 20 — ESTRATÉGIA DE SAÍDA (EXIT STRATEGY)|Fase 20 (Vol. 9)]].
+
+**Magic Number.** Net new ARR do período dividido pelo investimento em Sales & Marketing do período anterior. Mede eficiência de crescimento. ≥ 0.75 indica que escalar gasto em GTM faz sentido.
+
+**Margem bruta.** (Receita - COGS) / Receita. Em SaaS: tipicamente 65-80%. Em marketplace: 30-50%. Em hardware: 30-55%.
+
+**Market fit.** Versão mais ampla de PMF que inclui adequação ao momento de mercado, não apenas ao produto.
+
+**MECE (Mutually Exclusive, Collectively Exhaustive).** Princípio de estruturação de problemas em categorias mutuamente exclusivas (sem sobreposição) e coletivamente exaustivas (cobrem todo o espaço). Ferramenta de consultoria estratégica. Ver Framework: MECE (Mutually Exclusive, Collectively Exhaustive) — McKinsey (Fase 3, Vol. 1).
+
+**MEDDPICC.** Framework de qualificação de oportunidades em vendas enterprise: Metrics, Economic buyer, Decision criteria, Decision process, Paper process, Identify pain, Champion, Competition. Ver [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 2 — VENDAS COMPLEXAS ENTERPRISE: CICLO LONGO, ALTO VALOR, MÚLTIPLOS DECISORES|Capítulo 2 (VENDAS COMPLEXAS ENTERPRISE: CICLO LONGO, ALTO VALOR, MÚLTIPLOS DECISORES) (Vol. 6)]] (qualificação MEDDPICC em vendas enterprise) e Framework: MEDDIC / MEDDPICC (Jack Napoli / Dick Dunkel, PTC, 1996) (Fase 15, Vol. 6).
+
+**MoM (Month over Month).** Crescimento mês a mês. Em early-stage, crescimento saudável é ≥ 10% MoM sustentado.
+
+**Mom Test, The.** Método de entrevista que evita respostas educadas (de mães) ao perguntar sobre o passado e fatos concretos do entrevistado, em vez de hipóteses sobre o futuro. Rob Fitzpatrick (2013). Ver [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 4 — DESCOBERTA DO PROBLEMA|Fase 4 (Vol. 2)]].
+
+**Moat.** Barreira competitiva difícil de replicar. Pode ser efeito de rede, custo de troca, marca, escala, IP ou regulação. Conceito popularizado por Warren Buffett. Ver Framework: 7 Powers (Hamilton Helmer, 2016) (Fase 6, Vol. 2).
+
+**MQL (Marketing Qualified Lead).** Lead qualificado pelo marketing com base em critérios de engajamento, mas ainda não abordado pelo time de vendas.
+
+**MRR (Monthly Recurring Revenue).** Receita recorrente mensal. Soma de todos os contratos ativos, normalizada para mensal.
+
+**MVP (Minimum Viable Product).** Versão mínima do produto com funcionalidades suficientes para validar hipóteses críticas com usuários reais e coletar feedback. Não é produto incompleto: é produto deliberadamente mínimo. Ver [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 11 — MVP E EXPERIMENTOS DE MERCADO|Fase 11 (Vol. 4)]].
+
+---
+
+### N
+
+**NDA (Non-Disclosure Agreement).** Acordo de confidencialidade. Documento legal que restringe o compartilhamento de informações confidenciais entre as partes.
+
+**Net Revenue Retention (NRR).** Percentual da receita mantida e expandida em coorte de clientes existentes. Inclui upsell, cross-sell, expansão de seats e desconta churn e downgrades. NRR ≥ 110% indica crescimento orgânico da base.
+
+**NPS (Net Promoter Score).** Métrica de lealdade e satisfação. Pergunta: "Em escala de 0 a 10, o quanto você recomendaria [empresa/produto] para um amigo?" Promotores (9-10) menos Detratores (0-6) = NPS. Referência: ≥ 40 consumer, ≥ 30 enterprise.
+
+---
+
+### O
+
+**OKR (Objectives and Key Results).** Framework de definição de metas com objetivo qualitativo e resultados-chave mensuráveis. Criado na Intel por Andy Grove, popularizado pelo Google. Ver Frameworks da Fase 19, Vol. 9.
+
+**Onboarding.** Processo de entrada e ativação de um novo usuário ou colaborador. Onboarding de cliente: caminho do cadastro até o "aha moment". Onboarding de funcionário: integração nas primeiras 4-12 semanas.
+
+**Outbound.** Motion de vendas onde a empresa ativamente prospecta clientes, em vez de esperar inbound. Inclui cold outreach, SDRs e prospecção ativa.
+
+---
+
+### P
+
+**P&L (Profit and Loss).** Demonstração de resultados. Mostra receita, custos, despesas e lucro/prejuízo no período. Ver [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 1 — DEMONSTRATIVOS FINANCEIROS PARA O FUNDADOR|Capítulo 1 (DEMONSTRATIVOS FINANCEIROS PARA O FUNDADOR) (Vol. 5)]] (P&L, balanço, fluxo de caixa e leitura para o fundador).
+
+**Parity feature.** Funcionalidade necessária para não perder clientes para concorrentes, mas que não gera diferenciação. Distinta de features que geram vantagem competitiva.
+
+**Pivot.** Mudança estrutural de uma ou mais dimensões do modelo de negócio (cliente, problema, solução, canal, modelo de receita) mantendo aprendizados anteriores. Diferente de pivô cosmético (renomear) e de "abandonar". Ver [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 16 — PIVOT: TIPOLOGIA, DECISÃO E EXECUÇÃO|Capítulo 16 (PIVOT: TIPOLOGIA, DECISÃO E EXECUÇÃO) (Vol. 4)]] (tipologia de pivot, critério de decisão e execução).
+
+**PLG (Product-Led Growth).** Motion de crescimento onde o produto é o principal veículo de aquisição, conversão e expansão. Produto gera valor suficiente para que usuário traga outros usuários. Contraposto a SLG (Sales-Led Growth).
+
+**PMF (Product-Market Fit).** Momento em que produto e mercado se encaixam: produto resolve dor real de segmento identificado de forma que gera retenção, engajamento e crescimento orgânico. Diagnóstico central da [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 13 — PRODUCT-MARKET FIT|Fase 13 (Vol. 4)]].
+
+**Positioning.** Posicionamento — escolha estratégica de como a empresa quer ser percebida em relação a concorrentes e alternativas, na mente do cliente. Ver [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 6 — BRANDING E POSICIONAMENTO DE MARCA PARA STARTUPS|Capítulo 6 (BRANDING E POSICIONAMENTO DE MARCA PARA STARTUPS) (Vol. 4)]] (branding e posicionamento prático) e Framework: Positioning (Al Ries & Jack Trout, 1981) (Fase 13, Vol. 4).
+
+**Post-mortem.** Análise retrospectiva de falha ou incidente, com foco em aprendizado sistêmico em vez de atribuição de culpa. Blameless post-mortem é variante que explicitamente remove julgamento pessoal.
+
+**Pre-seed.** Rodada de captação anterior à Série Seed. Tipicamente R$ 300 mil a R$ 3 milhões, de anjos ou fundos micro-VC, para time e MVP inicial.
+
+---
+
+### R
+
+**Radical Candor.** Modelo de feedback de Kim Scott (2017) que combina "care personally" com "challenge directly". Antídoto à manipulação insincera, agressão obnóxia e empatia ruinosa.
+
+**Ratchet.** Mecanismo de proteção do investidor que ajusta sua participação para cima se a empresa não atingir metas. Gerado por rodadas de valorização ou metas de performance não atingidas.
+
+**RBF (Revenue-Based Financing).** Financiamento em que a empresa devolve um múltiplo do principal como percentual da receita futura, em vez de juros fixos. Não-diluitivo. Exemplos no Brasil: a55, Capital Empreendedor.
+
+**Retenção por coorte.** Análise de quanto um grupo de usuários adquiridos no mesmo período continua ativo ao longo do tempo. Curva que estabiliza (não vai a zero) é o sinal central de PMF.
+
+**RFC (Request for Comments).** Documento que descreve uma proposta técnica ou organizacional e coleta feedback antes da decisão. Mecanismo de escala de decisão em times técnicos. Ver [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 4 — ENGINEERING MANAGEMENT: GESTÃO DO TIME TÉCNICO E DEVELOPER EXPERIENCE|Capítulo 4 (ENGINEERING MANAGEMENT: GESTÃO DO TIME TÉCNICO E DEVELOPER EXPERIENCE) (Vol. 7)]] (RFC como mecanismo de escala de decisão técnica).
+
+**ROFR (Right of First Refusal).** Direito de preferência. Cláusula que dá a uma parte (tipicamente investidores existentes) o direito de igualar oferta externa antes que a venda aconteça. Ver [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) (Vol. 5)]] (cláusulas de term sheet, ROFR e direito de preferência).
+
+**ROI (Return on Investment).** Retorno sobre investimento. (Ganho - Custo) / Custo. Métrica genérica de eficiência de capital aplicado.
+
+**Rockefeller Habits.** Disciplina de execução de Verne Harnish (2014) baseada em prioridades trimestrais, métricas semanais e ritmo de reuniões diárias/semanais/mensais/trimestrais.
+
+**RPO (Recovery Point Objective).** Quantidade máxima de dados que a empresa pode perder em caso de falha, medida em tempo. Define frequência de backups. Parte do BCP.
+
+**RTO (Recovery Time Objective).** Tempo máximo tolerável de interrupção de um processo crítico antes que cause dano irreparável. Define prioridade de recuperação.
+
+**Rule of 40.** Crescimento percentual de ARR somado com margem EBITDA percentual. Startups saudáveis em escala devem ter Rule of 40 ≥ 40. Criada para avaliar trade-off entre crescimento e lucratividade.
+
+**Runway.** Número de meses antes de a empresa ficar sem caixa, considerando o burn rate atual. Referência: mínimo 12 meses após rodada, ideal 18 a 24 meses.
+
+---
+
+### S
+
+**SAFE (Simple Agreement for Future Equity).** Instrumento de captação criado pela Y Combinator. Conversível em ações em rodada futura, sem juros e sem prazo de vencimento. Adaptação brasileira é a "Nota Conversível". Ver [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 8 — INSTRUMENTOS DE CAPTAÇÃO: SAFE, NOTA CONVERSÍVEL E MÚTUO CONVERSÍVEL|Capítulo 8 (INSTRUMENTOS DE CAPTAÇÃO: SAFE, NOTA CONVERSÍVEL E MÚTUO CONVERSÍVEL) (Vol. 5)]] (SAFE, Nota Conversível e Mútuo Conversível na prática brasileira).
+
+**SAM (Serviceable Addressable Market).** Porção do TAM que sua empresa pode realisticamente alcançar com seu modelo de negócio e GTM atual.
+
+**Scenario Planning.** Planejamento por cenários — método desenvolvido pela Royal Dutch Shell nos anos 1970 para preparar a empresa para múltiplos futuros plausíveis, em vez de apostar em uma única previsão. Ver Framework: Scenario Planning (Pierre Wack na Royal Dutch Shell, anos 1970) (Fase 19, Vol. 9) e [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 16 — PIVOT: TIPOLOGIA, DECISÃO E EXECUÇÃO|Capítulo 16 (PIVOT: TIPOLOGIA, DECISÃO E EXECUÇÃO) (Vol. 4)]] (cenários como antessala da decisão de pivot).
+
+**SDK (Software Development Kit).** Conjunto de ferramentas, bibliotecas e documentação que facilita o desenvolvimento de aplicações em uma plataforma específica.
+
+**Second-Order Thinking.** Pensamento de segunda ordem — método de considerar as consequências das consequências de uma decisão. Conceito central de Howard Marks. Ver Framework: Second-Order Thinking (Howard Marks, 2011) (Fase 3, Vol. 1).
+
+**Seed.** Rodada de captação inicial de startup. No Brasil, tipicamente R$ 1 milhão a R$ 10 milhões, de fundos seed ou anjos, para validar PMF e motor inicial de crescimento.
+
+**Shape Up.** Metodologia de produto da Basecamp (Ryan Singer, 2019). Ciclos fixos de 6 semanas, escopo flexível, autonomia da equipe. Alternativa ao Scrum. Ver Framework: Shape Up (Ryan Singer / Basecamp, 2019) (Fase 17, Vol. 7) e [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 1 — PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA|Capítulo 1 (PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA) (Vol. 7)]] (Shape Up aplicado ao contexto de produto em escala).
+
+**SLA (Service Level Agreement).** Acordo de nível de serviço. Define métricas de disponibilidade, performance e tempo de resposta que a empresa se compromete a manter. Violações geram créditos ou penalidades.
+
+**SLG (Sales-Led Growth).** Motion de crescimento liderado por vendas. Empresa investe em time comercial (SDRs, AEs) que prospecta e fecha contratos. Contraposto a PLG.
+
+**SOM (Serviceable Obtainable Market).** Parcela do SAM que a empresa pode realisticamente capturar nos próximos 3 anos. Base para projeções de crescimento defensáveis.
+
+**SPA (Share Purchase Agreement).** Contrato de compra e venda de participação societária. Documento principal de fechamento de rodada de investimento ou M&A.
+
+**SPADE.** Framework de decisão de Gokul Rajaram para decisões importantes: Setting (contexto), People (envolvidos), Alternatives (opções), Decide (escolha), Explain (comunicação). Ver [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 6 — TOMADA DE DECISÃO COMO DISCIPLINA|Capítulo 6 (TOMADA DE DECISÃO COMO DISCIPLINA) (Vol. 1)]] (SPADE para documentar decisões importantes) e Framework: SPADE Decision Framework (Gokul Rajaram, 2014) (Fase 16, Vol. 6).
+
+**SPIN Selling.** Método de vendas consultivas de Neil Rackham baseado em quatro tipos de pergunta: Situation, Problem, Implication, Need-payoff. Ver Framework: SPIN Selling (Neil Rackham, 1988) (Fase 15, Vol. 6) e [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 2 — VENDAS COMPLEXAS ENTERPRISE: CICLO LONGO, ALTO VALOR, MÚLTIPLOS DECISORES|Capítulo 2 (VENDAS COMPLEXAS ENTERPRISE: CICLO LONGO, ALTO VALOR, MÚLTIPLOS DECISORES) (Vol. 6)]] (SPIN Selling em vendas consultivas enterprise).
+
+**SQL (Sales Qualified Lead).** Lead qualificado pelo time de vendas como oportunidade real. Critérios BANT: Budget, Authority, Need, Timeline.
+
+---
+
+### T
+
+**Tag-along.** Cláusula que garante ao acionista minoritário o direito de vender suas ações nas mesmas condições que o majoritário em caso de venda. Proteção do minoritário. Ver [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18 (Vol. 8)]].
+
+**TAM (Total Addressable Market).** Mercado total endereçável: receita máxima possível se a empresa capturasse 100% do mercado. Calculado preferencialmente bottom-up.
+
+**Take rate.** Percentual do GMV que a plataforma retém como receita. Varia por setor: delivery 15-30%, ride-sharing 20-30%, marketplace 10-20%.
+
+**Technical debt (dívida técnica).** Custo futuro de retrabalho decorrente de decisões técnicas rápidas feitas no passado para ganhar velocidade. Como dívida financeira: acumula juros (velocidade de desenvolvimento decrescente) se não paga.
+
+**Term sheet.** Documento que resume os termos comerciais de uma rodada de investimento ou M&A antes do contrato definitivo. Não vinculante na maior parte das cláusulas, mas vinculante em exclusividade e confidencialidade. Ver [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) (Vol. 5)]] (term sheet por inteiro, cláusulas e negociação).
+
+**TRL (Technology Readiness Level).** Escala de 1 a 9 que mede a maturidade de uma tecnologia, de conceito (TRL 1) a produto comercial pleno (TRL 9). Usada principalmente em deep tech. Ver [[#CAPÍTULO 6 — HARDWARE E DEEP TECH: CONSTRUIR NEGÓCIO COM FABRICAÇÃO, IP E HORIZONTES LONGOS|Capítulo 6 (HARDWARE E DEEP TECH: CONSTRUIR NEGÓCIO COM FABRICAÇÃO, IP E HORIZONTES LONGOS)]] (TRL aplicado a deep tech e fabricação).
+
+---
+
+### U
+
+**Unit economics.** Métricas de rentabilidade no nível da unidade básica do negócio (um cliente, uma transação, um produto). CAC, LTV, margem por transação, payback period.
+
+---
+
+### V
+
+**Valuation.** Valor estimado de uma empresa. Em startups privadas, determinado por rodadas de captação. Pode ser calculado por múltiplos (EV/ARR, EV/EBITDA), DCF ou transações comparáveis. Ver [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 7 — VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR|Capítulo 7 (VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR) (Vol. 5)]] (métodos de valuation: múltiplos, DCF, comparáveis).
+
+**Venture Debt.** Financiamento por dívida para startups que já captaram equity. Concedido por bancos especializados (Silicon Valley Bank historicamente) ou fundos de venture debt. Não-diluitivo, mas exige garantias e covenants. Ver [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 10 — VENTURE DEBT E REVENUE-BASED FINANCING (RBF)|Capítulo 10 (VENTURE DEBT E REVENUE-BASED FINANCING (RBF)) (Vol. 5)]] (Venture Debt e RBF como financiamento não-diluitivo).
+
+**Vesting.** Mecanismo pelo qual a participação em uma empresa é ganha gradualmente ao longo do tempo. Vesting padrão: 4 anos com 1 ano de cliff. Protege a empresa se fundador ou funcionário sai cedo.
+
+---
+
+### W
+
+**WACC (Weighted Average Cost of Capital).** Custo médio ponderado de capital. Taxa de desconto usada em DCF para refletir o custo de capital próprio e de dívida da empresa.
+
+**Wedge.** Ponto de entrada no mercado. Nicho inicial onde a empresa tem vantagem diferenciada e a partir do qual pode expandir. Estratégia de entrar pequeno para sair grande. Ver [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 5 — IDEA → WEDGE → SCALE: O FRAMEWORK ANTLER COMO LENTE TRANSVERSAL|Capítulo 5 (IDEA → WEDGE → SCALE: O FRAMEWORK ANTLER COMO LENTE TRANSVERSAL) (Vol. 3)]] (Idea → Wedge → Scale, framework Antler).
+
+---
+
+### Y
+
+**YoY (Year over Year).** Crescimento ano a ano. ARR crescendo ≥ 3x YoY é referência para startup em escala.
+
+---
+
+### Z
+
+**ZOPA (Zone of Possible Agreement).** Zona de acordo possível em negociação: sobreposição entre o mínimo aceitável de uma parte e o máximo aceitável da outra. Conceito de Fisher e Ury (Getting to Yes, 1981). Ver [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 11 — NEGOCIAÇÃO COMO DISCIPLINA|Capítulo 11 (NEGOCIAÇÃO COMO DISCIPLINA) (Vol. 4)]] (ZOPA, BATNA e o método Harvard de negociação).
+
+---
+
+## GLOSSÁRIO TEMÁTICO DE NEGÓCIOS
+
+Termos técnicos usados recorrentemente neste manual, agrupados por tema. Quando um termo aparece pela primeira vez em uma fase, ele é brevemente definido no contexto, aqui está a referência canônica.
+
+### Termos de produto e descoberta
+
+**Cunha (Wedge):** segmento inicial, específico e defensável, escolhido como ponto de ataque ao mercado, a "entrada estreita" pela qual a empresa começa antes de expandir. Ver [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 5 — IDEA → WEDGE → SCALE: O FRAMEWORK ANTLER COMO LENTE TRANSVERSAL|Capítulo 5 (IDEA → WEDGE → SCALE: O FRAMEWORK ANTLER COMO LENTE TRANSVERSAL) (Vol. 3)]] e [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 6 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 6 (Vol. 2)]].
+
+**Hipótese falsificável:** afirmação formulada em termos testáveis (SE X, ENTÃO Y, MENSURADO POR Z), cujo teste pode invalidá-la. Ver [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 7 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 7 (Vol. 3)]] e [[IGNICAO-Vol-1-Ideacao#TEMPLATES OPERACIONAIS E CASOS PREENCHIDOS DESTA FASE|Templates Operacionais da Fase (Vol. 1)]].3.
+
+**ICP (Ideal Customer Profile):** descrição específica e operacional do tipo de cliente que a empresa serve, não demografia abstrata, mas perfil observável e identificável por nomes reais.
+
+**JTBD (Jobs To Be Done):** abordagem que entende o uso de produto como "contratação" para realizar um trabalho específico (funcional, emocional, social) no contexto do usuário. Ver [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 5 — PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY)|Fase 5 (Vol. 2)]].
+
+**MVP (Minimum Viable Product):** primeira versão funcional de um produto, concebida com escopo mínimo suficiente para testar uma hipótese central. Ver [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 11 — MVP E EXPERIMENTOS DE MERCADO|Fase 11 (Vol. 4)]] e [[IGNICAO-Vol-1-Ideacao#TEMPLATES OPERACIONAIS E CASOS PREENCHIDOS DESTA FASE|Templates Operacionais da Fase (Vol. 1)]].6.
+
+**Persona:** representação fictícia mas baseada em dados reais de um segmento de usuário, com contexto, comportamento, motivações. Ver [[IGNICAO-Vol-1-Ideacao#TEMPLATES OPERACIONAIS E CASOS PREENCHIDOS DESTA FASE|Templates Operacionais da Fase (Vol. 1)]].5.
+
+**Pivot / Pivotagem:** mudança deliberada de direção em resposta a aprendizado, pode ser de segmento, produto, canal, modelo de negócio.
+
+**PMF (Product-Market Fit):** estado em que o produto é desejado pelo mercado de forma que o uso cresce organicamente, a retenção se estabiliza em patamar alto, e o churn é baixo. Ver [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 13 — PRODUCT-MARKET FIT|Fase 13 (Vol. 4)]].
+
+### Termos de economia e finanças do negócio
+
+**ARR (Annual Recurring Revenue):** receita recorrente anualizada, soma de toda receita contratada em base recorrente projetada para 12 meses.
+
+**Burn rate:** velocidade mensal com que a empresa consome caixa, geralmente medida em R$/mês. "Gross burn" é despesa total, "net burn" é despesa menos receita.
+
+**CAC (Customer Acquisition Cost):** custo para adquirir um novo cliente, inclui marketing pago, comissões de vendas, tempo de sales com atribuição.
+
+**Cap table:** tabela que documenta a composição societária (quem detém quanto), incluindo investidores, founders, e pool de ESOP.
+
+**EBITDA:** lucros antes de juros, impostos, depreciação e amortização, proxy para geração de caixa operacional.
+
+**Gross Margin (Margem Bruta):** (Receita - Custo para servir) / Receita. Em SaaS B2B saudável, ≥ 70%.
+
+**LTV (Lifetime Value):** receita total (ou margem) esperada de um cliente ao longo de sua relação com a empresa. LTV = Margem unitária × Vida média do cliente.
+
+**LTV:CAC:** razão entre LTV e CAC, indicador crítico de saúde de unit economics. Alvo: ≥ 3:1, forte: ≥ 5:1.
+
+**MRR (Monthly Recurring Revenue):** receita recorrente mensal, base para cálculo de ARR (MRR × 12) e análise de crescimento.
+
+**NRR (Net Revenue Retention):** receita mantida + expandida na base atual versus 12 meses atrás, expresso em %. Alvo em SaaS: ≥ 110%. PLG maduro: ≥ 120%.
+
+**GRR (Gross Revenue Retention):** receita retida sem considerar expansão. Complementa NRR para distinguir retenção pura de expansão.
+
+**Payback de CAC:** tempo (em meses) para recuperar o CAC via margem de contribuição mensal. Alvo: ≤ 18 meses. SaaS saudável: 12-15.
+
+**Runway:** tempo (em meses) que a empresa consegue operar com o caixa atual no burn atual
+
+**Visualização de runway, o gráfico que você deveria olhar toda semana:**
+
+> [!note] Compatibilidade — requer Mermaid 10+ (Obsidian 1.4+)
+
+```mermaid
+xychart-beta
+ title "Runway, caixa ao longo dos meses"
+ x-axis "Meses" [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
+ y-axis "Caixa (R$ mil)" 0 --> 2000
+ bar [1800, 1620, 1440, 1260, 1080, 900, 720, 540, 360, 180]
+ line [1800, 1620, 1440, 1260, 1080, 900, 720, 540, 360, 180]
+```
+
+*Exemplo: caixa inicial R$ 1,8M, burn R$ 90k/mês → runway 20 meses. Regras operacionais:*
+
+- *≤ 12 meses: começar captação imediatamente (captar leva 3-9 meses).*
+- *≤ 6 meses: ou contrato novo assinado ou bridge em closing, não há mais tempo.*
+- *≤ 3 meses: modo sobrevivência (cortar tudo o que puder, board aprova).*
+- *Negativo: já morreu, não sabe ainda.*
+
+*Não apenas o saldo: também monitore **burn trajectory**, está crescendo? Estável? Receita compensando? Runway é função de duas variáveis (caixa e burn), e ambas se movem.*
+
+**Runway:** meses que o caixa atual cobre no ritmo de burn vigente, sem nova receita. Alvo: ≥ 12 meses, alerta: < 6.
+
+**TAM/SAM/SOM:** Total Addressable Market (mercado total global), Serviceable Addressable Market (endereçável pela empresa), Serviceable Obtainable Market (obtenível realisticamente em 3 anos).
+
+**Ticket médio (ACV, Average Contract Value):** receita média contratada por cliente anualmente.
+
+**Unit Economics:** economia por unidade (cliente, transação, pedido), LTV, CAC, margem, payback. É a base para avaliar se o modelo escala com viabilidade.
+
+### Métricas de produto e uso
+
+**Activation (Ativação):** ação (ou conjunto) que marca quando um usuário novo obteve valor inicial e está propenso a continuar. Varia por produto.
+
+**Churn:** taxa de perda de clientes em um período (mensal geralmente). Churn de 5% a.m. significa perda de 5% da base a cada mês.
+
+**Coorte:** grupo de usuários que entraram em período específico (ex.: "coorte de janeiro"), analisado ao longo do tempo para medir retenção.
+
+**NPS (Net Promoter Score):** indicador de satisfação baseado na pergunta "em uma escala de 0-10, quanto recomendaria?". NPS = % Promotores (9-10) - % Detratores (0-6). Alvo: ≥ 40.
+
+**North Star Metric:** métrica única que melhor expressa o valor entregue pela empresa, foco organizacional.
+
+**Retention (Retenção):** % de usuários que continuam ativos após um tempo desde entrada. Análise por coorte é padrão.
+
+**TTV (Time to Value):** tempo entre primeiro uso e primeiro valor obtido pelo usuário. Em PLG: minutos é alvo, dias é aceitável, semanas é problema.
+
+### Termos de vendas
+
+**Champion:** pessoa dentro da empresa-cliente que defende internamente a compra do produto. Sem champion identificado, deals complexos tendem a morrer.
+
+**Discovery:** primeira fase de venda B2B onde o vendedor investiga dor, contexto, critério de decisão do cliente, sem pitch.
+
+**Funil (Pipeline):** representação das deals em andamento em estágios (lead → qualificado → proposta → negociação → fechado).
+
+**MEDDIC:** framework de qualificação de vendas enterprise, Metrics, Economic buyer, Decision criteria, Decision process, Identify pain, Champion. Ver [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 8 — SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|Capítulo 8 (SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL) (Vol. 4)]].
+
+**MQL (Marketing Qualified Lead):** lead qualificado por critério de marketing (ex.: baixou material, atingiu score de engajamento).
+
+**Outbound:** aquisição ativa, iniciada pela empresa (cold call, cold e-mail, LinkedIn outreach). Oposto de Inbound (onde o cliente vem).
+
+**PQL (Product Qualified Lead):** lead qualificado pelo comportamento no próprio produto (ex.: atingiu limite gratuito, convidou múltiplos usuários). Padrão em PLG.
+
+**SQL (Sales Qualified Lead):** lead qualificado por critérios de vendas (BANT ou MEDDIC), pronto para avançar no funil.
+
+**Win Rate:** % de deals qualificados que são fechados.
+
+### Marketing e crescimento
+
+**AARRR (Pirate Metrics):** framework de Dave McClure, Aquisição, Ativação, Retenção, Referência, Receita. Estrutura do funil completo.
+
+**Branded Search:** volume de buscas pelo nome da empresa, indicador de marca viva.
+
+**CAC por canal:** CAC segmentado por fonte de aquisição, varia significativamente entre canais e ao longo do tempo.
+
+**CPA (Cost Per Acquisition):** custo para obter uma ação específica (conversão), geralmente em tráfego pago.
+
+**CTR (Click-Through Rate):** taxa de clique, % de impressões que resultam em clique.
+
+**Direct Traffic:** tráfego web que vem por URL direta (sem referrer). Indicador de marca conhecida.
+
+**PLG (Product-Led Growth):** estratégia em que o próprio produto é motor de aquisição, ativação, retenção e expansão, com mínimo envolvimento humano. Ver expansão no [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 2 — FRAMEWORK DE CANAIS DE AQUISIÇÃO|Capítulo 2 (FRAMEWORK DE CANAIS DE AQUISIÇÃO) (Vol. 4)]].
+
+**PLS (Product-Led Sales):** híbrido, PLG na entrada + camada de sales para expansão enterprise.
+
+**Share of Voice (SOV):** % de menções sobre a marca no setor / total de menções do setor. Indicador de presença de marca.
+
+**Viralidade / K-factor:** taxa com que usuários trazem novos usuários. K > 1 = crescimento viral autossustentado (raro).
+
+### Financiamento e investimento
+
+**Bootstrapping:** crescer o negócio sem capital externo, usando receita orgânica e caixa próprio.
+
+**Diluição:** redução percentual da participação dos sócios atuais quando novo capital é emitido.
+
+**Equity:** participação acionária na empresa, capital "diluitivo" (gera diluição).
+
+**Grant:** recurso não-reembolsável obtido via edital (ex.: Finep, FAPESP, BNDES), não diluitivo, não dívida.
+
+**Pre-money / Post-money:** valuation da empresa antes / depois da rodada. Post-money = Pre-money + novo capital.
+
+**RBF (Revenue-Based Financing):** financiamento onde repayment é atrelado a % de receita até atingir múltiplo acordado.
+
+**SAFE (Simple Agreement for Future Equity):** instrumento pré-rodada que converte em equity em futura captação, origem americana (YC).
+
+**Seed / Série A / Série B / Série C:** etapas progressivas de captação equity. Seed: validação. Série A: escalar PMF. Série B: growth. Série C+: escala institucional.
+
+**Term Sheet:** documento não-vinculante que resume condições principais de uma rodada (valuation, liquidation preference, vesting, board etc.).
+
+**Valuation:** valor atribuído à empresa, base para calcular participação do investidor após rodada.
+
+**Venture Debt:** dívida estruturada para startups, geralmente com warrants associados. Complementa equity, não substitui.
+
+### Governança e proteção
+
+**DPA (Data Processing Agreement):** contrato com operador (terceiro que trata dados pessoais em nome do controlador), exigido pela LGPD. Ver [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 10 — LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Capítulo 10 (LGPD, COMPLIANCE E GOVERNANÇA DE DADOS) (Vol. 8)]].
+
+**DPO (Data Protection Officer / Encarregado):** pessoa formalmente designada como responsável por LGPD, canal de contato público obrigatório. Ver [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 10 — LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Capítulo 10 (LGPD, COMPLIANCE E GOVERNANÇA DE DADOS) (Vol. 8)]].
+
+**LGPD:** Lei Geral de Proteção de Dados (Lei 13.709/2018), regula tratamento de dados pessoais no Brasil.
+
+**RIPD (Relatório de Impacto à Proteção de Dados):** documento que descreve tratamentos de dados e avaliação de riscos, exigido em certas operações. Ver [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 10 — LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Capítulo 10 (LGPD, COMPLIANCE E GOVERNANÇA DE DADOS) (Vol. 8)]].
+
+### Gestão e cultura
+
+**1:1:** reunião recorrente (geralmente semanal) entre líder e liderado, com agenda focada em desenvolvimento, feedback, carreira.
+
+**Founder Mode:** modo operacional em que o fundador atua diretamente em áreas críticas, não só estratégicas, em oposição a "Manager Mode" puro. Ver [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 10 — FOUNDER MODE, DELEGAÇÃO E QUANDO PARAR DE FAZER|Capítulo 10 (FOUNDER MODE, DELEGAÇÃO E QUANDO PARAR DE FAZER) (Vol. 6)]].
+
+**KPI (Key Performance Indicator):** indicador-chave de desempenho, métrica que mede progresso em relação a objetivo.
+
+**Manager Mode:** operar via hierarquia delegada formalmente, padrão clássico de gestão corporativa.
+
+**OKR (Objectives and Key Results):** framework de planejamento, objetivo qualitativo + 2-4 key results mensuráveis. Ciclos trimestrais padrão.
+
+**Skip-level:** reunião entre líder sênior e colaborador direto do liderado deste (pulando 1 nível). Função: ouvir sem filtro hierárquico.
+
+### Estratégia e defensabilidade
+
+**Category Design:** disciplina de nomear, definir e reivindicar uma categoria nova, em oposição a competir em categoria existente. Ver [[IGNICAO-Vol-2-Descoberta-e-Mercado#CAPÍTULO 3 — CATEGORY DESIGN|Capítulo 3 (CATEGORY DESIGN) (Vol. 2)]].
+
+**Moat:** vantagem competitiva estrutural que protege de concorrência (network effects, switching costs, escala, propriedade intelectual, marca).
+
+**Network Effects:** efeito em que valor do produto aumenta à medida que mais usuários se juntam à rede.
+
+**POV (Point of View):** declaração da visão de mundo que sustenta a existência de uma categoria, pilar 1 do Category Design.
+
+**Switching Costs:** custos (financeiros, operacionais, cognitivos) que um cliente incorre para trocar para um concorrente.
+
+*Fim do manual.*
+
+*Para comentar, corrigir ou contribuir com este material, entre em contato via canais do autor.*
+
+---
+
+## LISTA DE ABREVIAÇÕES
+
+Manual usa dezenas de siglas e acrônimos do vocabulário padrão de empreendedorismo, gestão, finanças e regulação. Esta lista reúne as mais frequentes em ordem alfabética. O Glossário traz definições expandidas para termos técnicos, aqui está apenas a expansão da sigla e a área em que mais aparece.
+
+**AARRR**: Acquisition, Activation, Retention, Referral, Revenue (framework de métricas de growth, Dave McClure). *Growth.*
+
+**AB / A/B**: teste A/B: experimento controlado comparando duas variantes. *Experimentação.*
+
+**ANPD**: Autoridade Nacional de Proteção de Dados. *Regulação / LGPD.*
+
+**API**: Application Programming Interface. *Tecnologia.*
+
+**ARR**: Annual Recurring Revenue (receita recorrente anual). *SaaS / métricas.*
+
+**B2B**: Business-to-Business. *Modelo de negócio.*
+
+**B2B2C**: Business-to-Business-to-Consumer. *Modelo de negócio.*
+
+**B2C**: Business-to-Consumer. *Modelo de negócio.*
+
+**BACEN**: Banco Central do Brasil. *Regulação.*
+
+**BG**: Baú Gerencial (nome interno deste manual para o ferramentário de frameworks). *Estrutura do livro.*
+
+**BMC**: Business Model Canvas. *Estratégia / modelagem de negócio.*
+
+**BNDES**: Banco Nacional de Desenvolvimento Econômico e Social. *Financiamento.*
+
+**CAC**: Customer Acquisition Cost (custo de aquisição de cliente). *Unit economics.*
+
+**CEO**: Chief Executive Officer. *Gestão.*
+
+**CFO**: Chief Financial Officer. *Gestão.*
+
+**CLT**: Consolidação das Leis do Trabalho (regime trabalhista brasileiro com vínculo formal). *Trabalho.*
+
+**CMO**: Chief Marketing Officer. *Gestão.*
+
+**CMV**: Custo de Mercadoria Vendida (contabilidade). *Finanças.*
+
+**COGS**: Cost of Goods Sold (equivalente em inglês ao CMV). *Finanças.*
+
+**CPO**: Chief Product Officer. *Gestão.*
+
+**CRM**: Customer Relationship Management (sistema ou prática). *Vendas.*
+
+**CTO**: Chief Technology Officer. *Gestão.*
+
+**CVM**: Comissão de Valores Mobiliários. *Regulação.*
+
+**CVV**: Centro de Valorização da Vida (linha de apoio 188). *Saúde mental.*
+
+**DCF**: Discounted Cash Flow (valuation por fluxo de caixa descontado). *Finanças.*
+
+**DPA**: Data Processing Agreement (adendo contratual de dados). *LGPD.*
+
+**DPO**: Data Protection Officer (encarregado de dados sob LGPD). *LGPD.*
+
+**EBITDA**: Earnings Before Interest, Taxes, Depreciation and Amortization. *Finanças.*
+
+**EOR**: Employer of Record (estrutura para contratação internacional). *Expansão / RH.*
+
+**EPP**: Empresa de Pequeno Porte (classificação brasileira). *Regulação.*
+
+**EVP**: Employee Value Proposition. *RH.*
+
+**FMEA**: Failure Mode and Effects Analysis. *Qualidade / risco.*
+
+**GMV**: Gross Merchandise Value (volume bruto de transações). *Marketplaces.*
+
+**HR / RH**: Human Resources / Recursos Humanos. *Gestão.*
+
+**HRBP**: HR Business Partner. *RH.*
+
+**ICP**: Ideal Customer Profile. *Vendas e marketing.*
+
+**IFRS**: International Financial Reporting Standards. *Contabilidade.*
+
+**INSS**: Instituto Nacional do Seguro Social. *Regulação trabalhista.*
+
+**IPCA**: Índice de Preços ao Consumidor Amplo (indicador de inflação). *Economia brasileira.*
+
+**IPO**: Initial Public Offering (abertura de capital em bolsa). *Exit.*
+
+**IRPJ**: Imposto de Renda Pessoa Jurídica. *Tributos.*
+
+**JTBD**: Jobs To Be Done. *Framework de produto.*
+
+**KR**: Key Result (no framework OKR). *Planejamento.*
+
+**LGPD**: Lei Geral de Proteção de Dados (Lei 13.709/2018). *Regulação.*
+
+**LTV**: Lifetime Value (valor vitalício de cliente). *Unit economics.*
+
+**LTV:CAC**: razão entre LTV e CAC. *Unit economics.*
+
+**M&A**: Mergers and Acquisitions (fusões e aquisições). *Exit.*
+
+**MEI**: Microempreendedor Individual. *Regulação.*
+
+**MQL**: Marketing Qualified Lead. *Vendas.*
+
+**MRR**: Monthly Recurring Revenue. *SaaS / métricas.*
+
+**MVP**: Minimum Viable Product (produto mínimo viável). *Produto.*
+
+**NDA**: Non-Disclosure Agreement (acordo de confidencialidade). *Jurídico.*
+
+**NPS**: Net Promoter Score (métrica de recomendação). *Satisfação.*
+
+**OKR**: Objectives and Key Results. *Planejamento.*
+
+**P&L / DRE**: Profit and Loss / Demonstração de Resultado. *Contabilidade.*
+
+**PIX**: sistema de pagamentos instantâneos do BACEN. *Pagamentos Brasil.*
+
+**PJ**: Pessoa Jurídica (regime de contratação). *Trabalho.*
+
+**PLG**: Product-Led Growth. *Growth.*
+
+**PLR**: Participação nos Lucros e Resultados. *RH.*
+
+**PM**: Product Manager. *Produto.*
+
+**PMF**: Product-Market Fit. *Conceito central.*
+
+**RAPID**: Recommend, Agree, Perform, Input, Decide (framework de decisão). *Gestão.*
+
+**RACI**: Responsible, Accountable, Consulted, Informed. *Gestão.*
+
+**RBF**: Revenue-Based Financing. *Captação não-diluitiva.*
+
+**RFP**: Request for Proposal. *Vendas B2B.*
+
+**RIPD**: Relatório de Impacto de Proteção de Dados. *LGPD.*
+
+**ROI**: Return on Investment. *Finanças.*
+
+**SaaS**: Software as a Service. *Modelo de negócio.*
+
+**SAFE**: Simple Agreement for Future Equity (instrumento de captação). *Captação.*
+
+**SDR**: Sales Development Representative. *Vendas.*
+
+**SIPOC**: Suppliers, Inputs, Process, Outputs, Customers. *Operações.*
+
+**SMB**: Small and Medium Business. *Segmento.*
+
+**SQL**: Sales Qualified Lead. *Vendas.*
+
+**SWOT**: Strengths, Weaknesses, Opportunities, Threats. *Estratégia.*
+
+**TAM / SAM / SOM**: Total Addressable Market, Serviceable Addressable Market, Serviceable Obtainable Market. *Estratégia de mercado.*
+
+**VC**: Venture Capital. *Captação.*
+
+**VP**: Vice President. *Gestão.*
+
+**VPC**: Value Proposition Canvas. *Framework de produto.*
+
+**YoY**: Year-over-Year (comparação ano a ano). *Métricas.*
+
+**ZOPA**: Zone of Possible Agreement. *Negociação.*
+
+---
+
+### 📚 Currículo curado de leitura por fase
+
+Para o leitor que quer aprofundar além do próprio manual, abaixo uma sequência curada por fase da jornada. Não todas as referências, apenas a obra essencial por fase. As demais estão na bibliografia completa.
+
+**[[IGNICAO-Vol-1-Ideacao#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0 (Vol. 1)]] (Preparação):** *The Hard Things About Hard Things* (Ben Horowitz). Leitura obrigatória antes de empreender. Desmistifica.
+
+**[[IGNICAO-Vol-1-Ideacao#FASE 1 — ENCONTRAR A IDEIA|Fase 1 (Vol. 1)]]-2 (Ideia):** *Zero to One* (Peter Thiel). Framework para pensar monopolio e diferenciação.
+
+**Fases 3-4 (Descoberta do Problema):** *The Mom Test* (Rob Fitzpatrick). Menor livro, maior retorno por hora de leitura.
+
+**[[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 6 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 6 (Vol. 2)]] (Mercado):** *Crossing the Chasm* (Geoffrey Moore). Adoção, segmentação e diferenciação.
+
+**Fases 6-7 (Hipóteses e Experimentos):** *The Lean Startup* (Eric Ries) + *Running Lean* (Ash Maurya). Metodologia fundacional.
+
+**Fases 8-9 (Ideação e Testes):** *Inspired* (Marty Cagan). Produto moderno.
+
+**[[IGNICAO-Vol-4-Tracao-e-PMF#FASE 11 — MVP E EXPERIMENTOS DE MERCADO|Fase 11 (Vol. 4)]] (MVP):** *Sprint* (Jake Knapp) + *The Right It* (Alberto Savoia, Pretotyping).
+
+**[[IGNICAO-Vol-4-Tracao-e-PMF#FASE 12 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 12 (Vol. 4)]] (Validação do Modelo):** *Lean Analytics* (Croll & Yoskovitz). Métricas que importam em cada estágio.
+
+**[[IGNICAO-Vol-4-Tracao-e-PMF#FASE 13 — PRODUCT-MARKET FIT|Fase 13 (Vol. 4)]] (PMF):** *tração* (Gabriel Weinberg). Canais e bullseye.
+
+**[[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18 (Vol. 8)]] (Estruturação):** *Venture Deals* (Brad Feld). Deal terms e cap table.
+
+**[[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16 (Vol. 6)]] (Escala):** *High Output Management* (Andy Grove) + *Scaling People* (Claire Hughes Johnson). Gestão e estrutura em escala.
+
+**[[IGNICAO-Vol-9-Maturidade-e-Exit#FASE 19 — REINVENÇÃO E SEGUNDA CURVA|Fase 19 (Vol. 9)]] (Reinvenção):** *The Innovator's Dilemma* (Clayton Christensen).
+
+**[[IGNICAO-Vol-9-Maturidade-e-Exit#FASE 20 — ESTRATÉGIA DE SAÍDA (EXIT STRATEGY)|Fase 20 (Vol. 9)]] (Exit):** *The Art of the Start 2.0* (Guy Kawasaki). Cobre fundraising e exit.
+
+**Sempre disponível (cross-phase):** *Thinking, Fast and Slow* (Daniel Kahneman). Psicologia de decisão, aplica em todas as fases.
+
+**Leitura mensal recomendada:** *First Round Review* (newsletter), *Stratechery* (Ben Thompson), *Paul Graham essays* (releitura periódica).
+
+12-15 livros no total. Se você lê 1 por mês durante a jornada, cobre todos em um ano de leitura disciplinada. Complemento ao manual, não substituto.
+
+---
+
+## BIBLIOGRAFIA GERAL
+
+> Obras citadas ao longo do livro, em padrão Chicago author-date adaptado para português. Para citações web ou ensaios online, indica-se URL e data de acesso. Para obras estrangeiras, prefere-se a edição em inglês original quando há ambiguidade de tradução, com nota da edição brasileira quando relevante.
+
+> [!note] Como ler a bibliografia
+> Esta lista reúne autores e obras citados em prosa, em entradas dos Manuais de Frameworks das Fases, em apêndices temáticos e em chamadas de leitura adicional. Não é exaustiva. Cada apêndice e ferramenta traz suas próprias referências específicas. Aqui estão consolidadas as cerca de cento e cinquenta entradas de maior frequência e peso argumentativo. Para uma versão curada e mais curta, ver também o [[#BIBLIOGRAFIA UNIFICADA POR DOMÍNIO|Apêndice — Bibliografia Unificada]] mais adiante.
+
+### Livros
+
+Adamson, Brent, e Matthew Dixon. *The Challenger Sale: Taking Control of the Customer Conversation.* Portfolio, 2011.
+
+Andreessen, Marc, e Ben Horowitz. (Coletânea de ensaios em a16z.com, 2009 em diante.)
+
+Blank, Steve. *The Four Steps to the Epiphany: Successful Strategies for Products that Win.* K&S Ranch, 2003 (2ª ed. 2013).
+
+Blank, Steve, e Bob Dorf. *The Startup Owner's Manual: The Step-By-Step Guide for Building a Great Company.* K&S Ranch, 2012.
+
+Bosworth, Mike. *Solution Selling: Creating Buyers in Difficult Selling Markets.* McGraw-Hill, 1994.
+
+Bryar, Colin, e Bill Carr. *Working Backwards: Insights, Stories, and Secrets from Inside Amazon.* St. Martin's Press, 2021.
+
+Buckingham, Marcus, e Curt Coffman. *First, Break All the Rules: What the World's Greatest Managers Do Differently.* Simon & Schuster, 1999.
+
+Cagan, Marty. *Inspired: How to Create Tech Products Customers Love.* 2ª ed. Wiley, 2017.
+
+Chen, Andrew. *The Cold Start Problem: How to Start and Scale Network Effects.* Harper Business, 2021.
+
+Christensen, Clayton M. *The Innovator's Dilemma: When New Technologies Cause Great Firms to Fail.* Harvard Business Review Press, 1997.
+
+Christensen, Clayton M., Taddy Hall, Karen Dillon, e David S. Duncan. *Competing Against Luck: The Story of Innovation and Customer Choice.* HarperBusiness, 2016.
+
+Christensen, Clayton M., e Michael E. Raynor. *The Innovator's Solution: Creating and Sustaining Successful Growth.* Harvard Business Review Press, 2003.
+
+Cialdini, Robert B. *Influence: The Psychology of Persuasion.* Harper Business, 1984 (edição revista 2006).
+
+Cialdini, Robert B. *Pre-Suasion: A Revolutionary Way to Influence and Persuade.* Simon & Schuster, 2016.
+
+Collins, Jim. *Good to Great: Why Some Companies Make the Leap and Others Don't.* HarperBusiness, 2001.
+
+Collins, Jim, e Jerry I. Porras. *Built to Last: Successful Habits of Visionary Companies.* HarperBusiness, 1994.
+
+Coyle, Daniel. *The Culture Code: The Secrets of Highly Successful Groups.* Bantam, 2018.
+
+Croll, Alistair, e Benjamin Yoskovitz. *Lean Analytics: Use Data to Build a Better Startup Faster.* O'Reilly, 2013.
+
+Doerr, John. *Measure What Matters: How Google, Bono, and the Gates Foundation Rock the World with OKRs.* Portfolio, 2018.
+
+Drucker, Peter F. *The Effective Executive.* Harper & Row, 1967.
+
+Drucker, Peter F. *Innovation and Entrepreneurship: Practice and Principles.* Harper & Row, 1985.
+
+Drucker, Peter F. *Management: Tasks, Responsibilities, Practices.* Harper & Row, 1973.
+
+Duke, Annie. *Thinking in Bets: Making Smarter Decisions When You Don't Have All the Facts.* Portfolio, 2018.
+
+Dunford, April. *Obviously Awesome: How to Nail Product Positioning so Customers Get It, Buy It, Love It.* Ambient Press, 2019.
+
+Eyal, Nir. *Hooked: How to Build Habit-Forming Products.* Portfolio, 2014.
+
+Feld, Brad, e Jason Mendelson. *Venture Deals: Be Smarter Than Your Lawyer and Venture Capitalist.* 4ª ed. Wiley, 2019.
+
+Fisher, Roger, e William Ury. *Getting to Yes: Negotiating Agreement Without Giving In.* Penguin, 1981.
+
+Fitzpatrick, Rob. *The Mom Test: How to Talk to Customers and Learn if Your Business is a Good Idea When Everyone is Lying to You.* Founder Centric, 2013.
+
+Gompers, Paul A., e Josh Lerner. *The Money of Invention: How Venture Capital Creates New Wealth.* Harvard Business Review Press, 2001.
+
+Grove, Andrew S. *High Output Management.* Random House, 1983 (reedição Vintage 1995).
+
+Hamel, Gary, e C.K. Prahalad. *Competing for the Future.* Harvard Business Review Press, 1994.
+
+Harnish, Verne. *Scaling Up: How a Few Companies Make It and Why the Rest Don't.* Gazelles, 2014.
+
+Hastings, Reed, e Erin Meyer. *No Rules Rules: Netflix and the Culture of Reinvention.* Penguin Press, 2020.
+
+Helmer, Hamilton. *7 Powers: The Foundations of Business Strategy.* Deep Strategy LLC, 2016.
+
+Hoffman, Reid, e Chris Yeh. *Blitzscaling: The Lightning-Fast Path to Building Massively Valuable Companies.* Currency, 2018.
+
+Horowitz, Ben. *The Hard Thing About Hard Things: Building a Business When There Are No Easy Answers.* HarperBusiness, 2014.
+
+Kahneman, Daniel. *Thinking, Fast and Slow.* Farrar, Straus and Giroux, 2011. (Edição brasileira: *Rápido e Devagar: Duas Formas de Pensar.* Objetiva, 2012.)
+
+Kawasaki, Guy. *The Art of the Start 2.0: The Time-Tested, Battle-Hardened Guide for Anyone Starting Anything.* Portfolio, 2015.
+
+Kim, W. Chan, e Renée Mauborgne. *Blue Ocean Strategy: How to Create Uncontested Market Space and Make the Competition Irrelevant.* Harvard Business Review Press, 2005.
+
+Klein, Gary. *Sources of Power: How People Make Decisions.* MIT Press, 1998.
+
+Knapp, Jake, John Zeratsky, e Braden Kowitz. *Sprint: How to Solve Big Problems and Test New Ideas in Just Five Days.* Simon & Schuster, 2016.
+
+Lafley, A.G., e Roger L. Martin. *Playing to Win: How Strategy Really Works.* Harvard Business Review Press, 2013.
+
+Lencioni, Patrick. *The Five Dysfunctions of a Team: A Leadership Fable.* Jossey-Bass, 2002.
+
+Marks, Howard. *The Most Important Thing: Uncommon Sense for the Thoughtful Investor.* Columbia Business School Publishing, 2013.
+
+Maurya, Ash. *Running Lean: Iterate from Plan A to a Plan That Works.* O'Reilly, 2012 (3ª ed. 2022).
+
+Moesta, Bob. *Demand-Side Sales 101: Stop Selling and Help Your Customers Make Progress.* Lioncrest, 2020.
+
+Moore, Geoffrey A. *Crossing the Chasm: Marketing and Selling High-Tech Products to Mainstream Customers.* HarperBusiness, 1991 (3ª ed. 2014).
+
+Munger, Charles T. *Poor Charlie's Almanack: The Wit and Wisdom of Charles T. Munger.* Editado por Peter D. Kaufman. Donning Company, 2005 (edição expandida Stripe Press 2023).
+
+O'Reilly, Charles A., e Michael L. Tushman. *Lead and Disrupt: How to Solve the Innovator's Dilemma.* Stanford Business Books, 2016.
+
+Osterwalder, Alexander, e Yves Pigneur. *Business Model Generation: A Handbook for Visionaries, Game Changers, and Challengers.* Wiley, 2010.
+
+Osterwalder, Alexander, Yves Pigneur, Greg Bernarda, e Alan Smith. *Value Proposition Design: How to Create Products and Services Customers Want.* Wiley, 2014.
+
+Patton, Jeff. *User Story Mapping: Discover the Whole Story, Build the Right Product.* O'Reilly, 2014.
+
+Pink, Daniel H. *Drive: The Surprising Truth About What Motivates Us.* Riverhead Books, 2009.
+
+Porter, Michael E. *Competitive Strategy: Techniques for Analyzing Industries and Competitors.* Free Press, 1980.
+
+Porter, Michael E. *Competitive Advantage: Creating and Sustaining Superior Performance.* Free Press, 1985.
+
+Rackham, Neil. *SPIN Selling.* McGraw-Hill, 1988.
+
+Ries, Eric. *The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses.* Crown Business, 2011. (Edição brasileira: *A Startup Enxuta.* Lua de Papel, 2012.)
+
+Ross, Aaron, e Marylou Tyler. *Predictable Revenue: Turn Your Business Into a Sales Machine with the $100 Million Best Practices of Salesforce.com.* PebbleStorm, 2011.
+
+Rumelt, Richard P. *Good Strategy / Bad Strategy: The Difference and Why It Matters.* Crown Business, 2011.
+
+Sarasvathy, Saras D. *Effectuation: Elements of Entrepreneurial Expertise.* Edward Elgar, 2008.
+
+Savoia, Alberto. *The Right It: Why So Many Ideas Fail and How to Make Sure Yours Succeed.* HarperOne, 2019.
+
+Scott, Kim. *Radical Candor: Be a Kick-Ass Boss Without Losing Your Humanity.* St. Martin's Press, 2017.
+
+Singer, Ryan. *Shape Up: Stop Running in Circles and Ship Work that Matters.* Basecamp, 2019.
+
+Smart, Geoff, e Randy Street. *Who: The A Method for Hiring.* Ballantine, 2008.
+
+Smart, Bradford D. *Topgrading: How Leading Companies Win by Hiring, Coaching, and Keeping the Best People.* Penguin/Portfolio, 1999 (3ª ed. 2012).
+
+Thaler, Richard H., e Cass R. Sunstein. *Nudge: Improving Decisions About Health, Wealth, and Happiness.* Yale University Press, 2008.
+
+Thiel, Peter, e Blake Masters. *Zero to One: Notes on Startups, or How to Build the Future.* Crown Business, 2014.
+
+Torres, Teresa. *Continuous Discovery Habits: Discover Products that Create Customer Value and Business Value.* Product Talk, 2021.
+
+Tzuo, Tien, e Gabe Weisert. *Subscribed: Why the Subscription Model Will Be Your Company's Future and What to Do About It.* Portfolio, 2018.
+
+Ulwick, Anthony W. *What Customers Want: Using Outcome-Driven Innovation to Create Breakthrough Products and Services.* McGraw-Hill, 2005.
+
+Ulwick, Anthony W. *Jobs to Be Done: Theory to Practice.* Idea Bite Press, 2016.
+
+Voss, Chris, e Tahl Raz. *Never Split the Difference: Negotiating As If Your Life Depended On It.* HarperBusiness, 2016.
+
+Weinberg, Gabriel, e Justin Mares. *Traction: How Any Startup Can Achieve Explosive Customer Growth.* Portfolio, 2014. (Edição brasileira: *Tração.* Alta Books, 2015.)
+
+Wickman, Gino. *Traction: Get a Grip on Your Business.* BenBella, 2007.
+
+Wiseman, Liz. *Multipliers: How the Best Leaders Make Everyone Smarter.* HarperBusiness, 2010.
+
+### Artigos acadêmicos e papers
+
+Ansoff, H. Igor. "Strategies for Diversification." *Harvard Business Review* 35(5), 1957, pp. 113-124.
+
+Blank, Steve. "Why the Lean Start-Up Changes Everything." *Harvard Business Review* 91(5), 2013, pp. 63-72.
+
+Camuffo, Arnaldo, Alessandro Cordova, Alfonso Gambardella, e Chiara Spina. "A Scientific Approach to Entrepreneurial Decision Making: Evidence from a Randomized Control Trial." *Management Science* 66(2), 2020, pp. 564-586.
+
+Camuffo, Arnaldo, Alfonso Gambardella, Andrea Maccheroni, Massimo Marinacci, e Andrea Pignataro. "A Scientific Approach to Entrepreneurial Decision-Making: Large-Scale Replication and Extension." Working paper, 2024 (RCT em quatro países, aproximadamente 750 empreendedores).
+
+Coali, Andrea, Arnaldo Camuffo, e Alfonso Gambardella. "When Do Entrepreneurs Benefit from Acting Like Scientists?" Working paper, 2024.
+
+Danziger, Shai, Jonathan Levav, e Liora Avnaim-Pesso. "Extraneous Factors in Judicial Decisions." *Proceedings of the National Academy of Sciences* 108(17), 2011, pp. 6889-6892. (Estudo dos juízes israelenses; ver também réplicas e críticas no mesmo ano.)
+
+Felin, Teppo, Alfonso Gambardella, e Todd Zenger. "Theory-Based Reasoning in Strategy and Entrepreneurship." Working paper, 2024.
+
+Hagel, John, e Marc Singer. "Unbundling the Corporation." *Harvard Business Review* 77(2), 1999, pp. 133-141.
+
+Kahneman, Daniel, e Amos Tversky. "Intuitive Prediction: Biases and Corrective Procedures." *TIMS Studies in Management Science* 12, 1979, pp. 313-327. (Origem do conceito de planning fallacy.)
+
+Kozyrkov, Cassie. "The First Thing Great Decision Makers Do." *Harvard Business Review*, 2019.
+
+Lovallo, Dan, e Daniel Kahneman. "Delusions of Success: How Optimism Undermines Executives' Decisions." *Harvard Business Review* 81(7), 2003, pp. 56-63.
+
+Norton, Michael I., Daniel Mochon, e Dan Ariely. "The IKEA Effect: When Labor Leads to Love." *Journal of Consumer Psychology* 22(3), 2012, pp. 453-460.
+
+Ott, T. E., e Kathleen M. Eisenhardt. "Decision Weaving: Forming Novel, Complex Strategy in Entrepreneurial Settings." *Strategic Management Journal* 41(12), 2020, pp. 2275-2314.
+
+Porter, Michael E. "How Competitive Forces Shape Strategy." *Harvard Business Review* 57(2), 1979, pp. 137-145.
+
+Porter, Michael E. "The Five Competitive Forces That Shape Strategy." *Harvard Business Review* 86(1), 2008, pp. 25-40.
+
+Prahalad, C.K., e Gary Hamel. "The Core Competence of the Corporation." *Harvard Business Review* 68(3), 1990, pp. 79-91.
+
+Snowden, David J., e Mary E. Boone. "A Leader's Framework for Decision Making." *Harvard Business Review* 85(11), 2007, pp. 68-76. (Cynefin.)
+
+Spina, Chiara, Arnaldo Camuffo, e Alfonso Gambardella. "Founders, Apply the Scientific Method to Your Startup." *Harvard Business Review* (online), 2020.
+
+### Ensaios e blog posts
+
+Bezos, Jeff. "Cartas anuais aos acionistas da Amazon, 1997 a 2020." Disponíveis em aboutamazon.com/news/company-news/2020-letter-to-shareholders e arquivos da SEC. Acesso em janeiro de 2026.
+
+Chesky, Brian. "Founder Mode (Y Combinator talk)." Setembro de 2024. Notas e transcrição em paulgraham.com/foundermode.html. Acesso em janeiro de 2026.
+
+Ellis, Sean. "The Startup Pyramid (40% Test for Product/Market Fit)." startup-marketing.com, 2009. Acesso em janeiro de 2026.
+
+Graham, Paul. "How to Start a Startup." paulgraham.com/start.html, março de 2005. Acesso em janeiro de 2026.
+
+Graham, Paul. "The 18 Mistakes That Kill Startups." paulgraham.com/startupmistakes.html, outubro de 2006. Acesso em janeiro de 2026.
+
+Graham, Paul. "Maker's Schedule, Manager's Schedule." paulgraham.com/makersschedule.html, julho de 2009. Acesso em janeiro de 2026.
+
+Graham, Paul. "Keep Your Identity Small." paulgraham.com/identity.html, fevereiro de 2009. Acesso em janeiro de 2026.
+
+Graham, Paul. "Mean People Fail." paulgraham.com/mean.html, novembro de 2014. Acesso em janeiro de 2026.
+
+Graham, Paul. "Default Alive or Default Dead?" paulgraham.com/aord.html, outubro de 2015. Acesso em janeiro de 2026.
+
+Graham, Paul. "Earnestness." paulgraham.com/earnest.html, dezembro de 2020. Acesso em janeiro de 2026.
+
+Graham, Paul. "Founder Mode." paulgraham.com/foundermode.html, setembro de 2024. Acesso em janeiro de 2026.
+
+McClure, Dave. "Startup Metrics for Pirates: AARRR!" 500hats.com e slideshare, 2007. Acesso em janeiro de 2026.
+
+Rachleff, Andy. "Product/Market Fit, Wedge Strategy and Why Some Startups Win." Wealthfront blog e palestras Stanford GSB, 2013 a 2015. Acesso em janeiro de 2026.
+
+Rajaram, Gokul. "SPADE: A Toolkit for Making Better Decisions." Medium e gokulrajaram.com, 2019. Acesso em janeiro de 2026.
+
+Ressi, Adeo. "FAST Agreement (Founder/Advisor Standard Template)." Founder Institute, 2011 (atualizações posteriores). fi.co/fast. Acesso em janeiro de 2026.
+
+Thompson, Ben. "Stratechery." stratechery.com, ensaios sobre estratégia em tech, 2013 em diante. Acesso em janeiro de 2026.
+
+### Reportagens e fontes brasileiras
+
+ABStartups. "Mapeamento e relatórios anuais do ecossistema brasileiro de startups." abstartups.com.br. Diversos anos.
+
+Brasscom. "Relatórios setoriais de tecnologia da informação e comunicação no Brasil." brasscom.org.br. Diversos anos.
+
+Brazil Journal. Cobertura de venture capital, M&A e mercado de capitais brasileiro. braziljournal.com. 2018 em diante.
+
+Distrito. "Inside Reports e Panoramas anuais do ecossistema brasileiro de startups, fintechs, agtechs, healthtechs e demais verticais." distrito.me. 2019 em diante.
+
+Endeavor Brasil. "Scaleups no Brasil" e outras pesquisas sobre empreendedorismo de alto impacto. endeavor.org.br. Diversos anos.
+
+EXAME. Cobertura de negócios e startups brasileiras. exame.com. Diversos anos.
+
+Folha de S.Paulo. Cobertura econômica e de negócios. folha.uol.com.br.
+
+InfoMoney. Cobertura de mercado financeiro e startups. infomoney.com.br. Diversos anos.
+
+NeoFeed. Cobertura de venture capital, M&A e ecossistema brasileiro. neofeed.com.br. 2020 em diante.
+
+O Estado de S. Paulo. Cobertura econômica e tecnologia. estadao.com.br.
+
+Pipeline Valor. Cobertura de venture capital e operações estruturadas. pipelinevalor.globo.com. 2020 em diante.
+
+Sebrae. "Sobrevivência das empresas no Brasil" e publicações sobre MEI, microempreendedor e pequenas empresas. sebrae.com.br. Diversos anos.
+
+StartSe. Cobertura de inovação e startups. startse.com. Diversos anos.
+
+Valor Econômico. Cobertura econômica, jornal de referência em negócios. valor.globo.com.
+
+### Documentos legais e regulatórios brasileiros
+
+Lei 4.595/1964. Lei do Sistema Financeiro Nacional.
+
+Lei 7.802/1989. Lei dos Agrotóxicos (revogada pela Lei 14.785/2023).
+
+Lei 8.078/1990. Código de Defesa do Consumidor (CDC).
+
+Lei 8.248/1991. Lei da Informática (atualizada pela Lei 13.969/2019).
+
+Lei 8.666/1993. Antiga Lei de Licitações (substituída pela Lei 14.133/2021).
+
+Lei 8.955/1994. Antiga Lei de Franquias (revogada pela Lei 13.966/2019).
+
+Lei 9.249/1995. Estabelece o regime de Juros sobre Capital Próprio (JCP), art. 9º.
+
+Lei 9.456/1997. Lei de Proteção de Cultivares.
+
+Lei 10.101/2000. Participação nos Lucros e Resultados (PLR).
+
+Lei 11.196/2005. Lei do Bem (incentivos fiscais a P&D).
+
+Lei 11.788/2008. Lei do Estágio.
+
+Lei 12.865/2013. Marco Legal das Instituições de Pagamento.
+
+Lei 13.176/2015. Disposições sobre investidor-anjo.
+
+Lei 13.188/2015. Direito de resposta.
+
+Lei 13.257/2016. Marco Legal da Primeira Infância.
+
+Lei Complementar 155/2016. Investidor-anjo no âmbito do Simples Nacional, incluindo art. 61-A na LC 123/2006.
+
+Lei 13.483/2017. Disposições sobre TJLP, mantida especificamente para JCP no art. 12, § 2º.
+
+Lei 13.640/2018. Marco regulatório do transporte por aplicativo (regulamentação municipal).
+
+Lei 13.709/2018. Lei Geral de Proteção de Dados (LGPD).
+
+Lei 13.787/2018. Prontuário eletrônico e digitalização de prontuários.
+
+Lei 13.966/2019. Nova Lei de Franquias (revogou a Lei 8.955/1994).
+
+Lei 13.969/2019. Atualizou a Lei da Informática (Lei 8.248/1991).
+
+Lei Complementar 182/2021. Marco Legal das Startups e do Empreendedorismo Inovador.
+
+Lei 14.133/2021. Nova Lei de Licitações e Contratos Administrativos.
+
+Lei 14.300/2022. Marco legal da geração distribuída de energia.
+
+Lei 14.442/2022. Trabalho remoto, dispositivos sobre teletrabalho.
+
+Lei 14.460/2022. Transformou a ANPD em autarquia de natureza especial.
+
+Lei 14.478/2022. Marco Legal dos Criptoativos (PSAV).
+
+Lei 14.510/2022. Telemedicina em caráter permanente.
+
+Lei 14.785/2023. Nova Lei dos Agrotóxicos (substituiu a Lei 7.802/1989).
+
+Lei Complementar 224/2025. Reforma tributária, dividendos PF e ajustes de JCP a partir de 2026.
+
+Decreto 9.057/2017. Regulamenta EAD (Educação a Distância).
+
+Decreto 11.563/2023. Designou o BCB como regulador de PSAV no marco de criptoativos.
+
+Decreto 11.856/2023. Política Nacional de Cibersegurança (PNCiber).
+
+Decreto 11.871/2024. Atualizou a regulamentação de EAD.
+
+Resolução CMN (diversas, em complemento à Lei 4.595/1964 sobre cooperativas de crédito).
+
+Resolução CVM 88/2022. Equity crowdfunding (substituiu a Instrução CVM 588/2017).
+
+Resolução CVM 175/2022. Fundos de investimento, inclusive estruturas tokenizadas.
+
+Instrução CVM 356. FIDC (parcialmente substituída pela Resolução CVM 175 a partir de 2023).
+
+Instrução Normativa RFB 2.296/2025. Limites de base e regras de transição para JCP a partir de 2026.
+
+---
+
+> [!note] Bibliografia complementar curada
+> A bibliografia acima é abrangente e sempre crescente. Para um recorte curado e mais curto, com aproximadamente sessenta obras de maior frequência de citação, ver também o [[#BIBLIOGRAFIA UNIFICADA POR DOMÍNIO|Apêndice — Bibliografia Unificada]] mais adiante neste volume. Os dois apêndices se complementam, esta entrada cobre o universo de obras citadas, a unificada destaca as de maior peso para releitura recorrente.
+
+---
+
+## BIBLIOGRAFIA UNIFICADA POR DOMÍNIO
+
+Consolidação das principais referências citadas ao longo do livro. Cada item aparece também na seção "Leitura adicional" da ferramenta ou apêndice que a referencia, aqui estão reunidas para facilitar pesquisa bibliográfica. Organizada por tema, com anotação breve quando relevante.
+
+### Estratégia e modelo de negócio
+
+- **Osterwalder, A. & Pigneur, Y.** (2010). *Business Model Generation.* Wiley. → Framework BMC, clássico fundacional.
+- **Osterwalder, A. et al.** (2014). *Value Proposition Design.* Wiley. → Detalhamento do VPC, complemento essencial.
+- **Maurya, A.** (2012, 3ª ed. 2022). *Running Lean.* O'Reilly. → Lean Canvas e metodologia adaptada.
+- **Porter, M.** (1985). *Competitive Advantage.* Free Press. → Five Forces e Value Chain.
+- **Rumelt, R.** (2011). *Good Strategy / Bad Strategy.* Crown Business. → Diagnóstico estratégico rigoroso.
+- **Helmer, H.** (2016). *7 Powers.* Deep Strategy LLC. → Defensibilidade estrutural.
+- **Kim, W.C. & Mauborgne, R.** (2005). *Blue Ocean Strategy.* Harvard Business Review Press.
+- **Sarasvathy, S.** (2008). *Effectuation.* Edward Elgar. → Como empreendedores experientes pensam.
+- **Lafley, A.G. & Martin, R.** (2013). *Playing to Win.* Harvard Business Review Press.
+
+### Descoberta, pesquisa e produto
+
+- **Fitzpatrick, R.** (2013). *The Mom Test.* Founder Centric. → Leitura obrigatória para entrevistas.
+- **Blank, S.** (2005). *The Four Steps to the Epiphany.* K&S Ranch. → Customer Development.
+- **Blank, S. & Dorf, B.** (2012). *The Startup Owner's Manual.* K&S Ranch.
+- **Ries, E.** (2011). *The Lean Startup.* Crown Business. → Build-Measure-Learn.
+- **Savoia, A.** (2019). *The Right It.* HarperOne. → Pretotyping.
+- **Torres, T.** (2021). *Continuous Discovery Habits.* Product Talk.
+- **Ulwick, A.** (2016). *Jobs to Be Done: Theory to Practice.* Idea Bite Press.
+- **Christensen, C. et al.** (2016). *Competing Against Luck.* HarperBusiness. → JTBD.
+- **Patton, J.** (2014). *User Story Mapping.* O'Reilly.
+- **Cagan, M.** (2017). *Inspired.* Wiley. → Produto moderno.
+- **Knapp, J. et al.** (2016). *Sprint.* Simon & Schuster. → Design Sprint.
+- **Singer, R.** (2019). *Shape Up.* Basecamp (e-book grátis).
+
+### Growth, vendas, marketing
+
+- **Weinberg, G. & Mares, J.** (2014). *tração.* Portfolio. → Bullseye Framework.
+- **Moore, G.** (1991). *Crossing the Chasm.* HarperBusiness.
+- **Chen, A.** (2021). *The Cold Start Problem.* Harper Business.
+- **Hoffman, R. & Yeh, C.** (2018). *Blitzscaling.* Currency.
+- **Dunford, A.** (2019). *Obviously Awesome.* Ambient Press. → Positioning.
+- **Rackham, N.** (1988). *SPIN Selling.* McGraw-Hill.
+- **Dixon, M. & Adamson, B.** (2011). *The Challenger Sale.* Portfolio.
+- **Fisher, R. & Ury, W.** (1981). *Getting to Yes.* Penguin. → Harvard Negotiation.
+- **Voss, C.** (2016). *Never Split the Difference.* HarperBusiness.
+
+### Operações, liderança e pessoas
+
+- **Grove, A.** (1983). *High Output Management.* Vintage.
+- **Horowitz, B.** (2014). *The Hard Things About Hard Things.* HarperBusiness. → Essencial.
+- **Doerr, J.** (2018). *Measure What Matters.* Portfolio. → OKRs.
+- **Scott, K.** (2017). *Radical Candor.* St. Martin's Press.
+- **Wickman, G.** (2007). *tração (EOS).* BenBella.
+- **Harnish, V.** (2014). *Scaling Up.* Gazelles.
+- **Lencioni, P.** (2002). *The Five Dysfunctions of a Team.* Jossey-Bass.
+- **Smart, G. & Street, R.** (2008). *Who: The A Method for Hiring.* Ballantine.
+- **Hastings, R. & Meyer, E.** (2020). *No Rules Rules.* Penguin Press.
+- **Coyle, D.** (2018). *The Culture Code.* Bantam.
+
+### Finanças, captação e valuation
+
+- **Feld, B. & Mendelson, J.** (2011, 4ª ed. 2019). *Venture Deals.* Wiley. → Leitura obrigatória pré-captação.
+- **Kawasaki, G.** (2015). *The Art of the Start 2.0.* Portfolio.
+- **Gompers, P. & Lerner, J.** (2001). *The Money of Invention.* Harvard Business Review Press.
+
+### Inovação e transformação
+
+- **Christensen, C.** (1997). *The Innovator's Dilemma.* Harvard Business Review Press.
+- **Christensen, C. & Raynor, M.** (2003). *The Innovator's Solution.* Harvard Business Review Press.
+- **O'Reilly, C. & Tushman, M.** (2016). *Lead and Disrupt.* Stanford Business Books. → Ambidextrous.
+
+### Pensamento, decisão e psicologia
+
+- **Kahneman, D.** (2011). *Thinking, Fast and Slow.* FSG.
+- **Klein, G.** (2003). *Sources of Power.* MIT Press. → Pre-mortem.
+- **Marks, H.** (2013). *The Most Important Thing.* Columbia Business School Publishing. → Second-order.
+- **Snowden, D.** (2007). "A Leader's Framework for Decision Making." HBR. → Cynefin.
+- **Ericsson, K.A. & Simon, H.A.** (1984). *Protocol Analysis.* MIT Press. → Think-Aloud.
+
+### Brasil e contexto nacional
+
+- **Endeavor Brasil** (várias publicações). Scaleups e pesquisas sobre empreendedorismo brasileiro.
+- **Distrito** (relatórios anuais). Panorama do ecossistema.
+- **Sebrae** (publicações sobre MEI, pequenas empresas, sobrevivência).
+- **Receita Federal** (Manual de Legislação Tributária).
+- **ANPD** (publicações sobre LGPD).
+- **Brazil Journal, NeoFeed, Pipeline, StartSe**: jornalismo de negócios em tempo real sobre o ecossistema.
+
+### Leitura periódica recomendada (2025-2026)
+
+- *a16z blog* (Andreessen Horowitz), ensaios sobre estratégia e mercado.
+- *First Round Review*, práticas de fundador e operação.
+- *Stratechery* (Ben Thompson), análise estratégica de tech.
+- *Not Boring* (Packy McCormick), análises de startups.
+- *The Generalist*, research sobre empresas em crescimento.
+- *Latamlist, Brazil Journal, Pipeline*, cobertura do ecossistema brasileiro.
+
+**Observação sobre a lista.** Esta bibliografia é curada, não exaustiva. Cada ferramenta no Ferramentário BG traz sua própria seção "Leitura adicional" com referências específicas. Aqui estão concentradas as ~60 obras de maior frequência e importância. Livros publicados antes de 2020 tendem a ser clássicos de meia-vida longa, publicações pós-2020 ainda estão em validação temporal, trate com cuidado ("é novo" não é "é bom").
+
+---
+
+## ÍNDICE GERAL DE FRAMEWORKS DA COLEÇÃO
+
+> [!note] Onde encontrar cada framework
+> Na arquitetura autocontida da coleção IGNIÇÃO, todos os 164 frameworks abaixo estão detalhados passo a passo diretamente dentro das Fases e Capítulos dos **Volumes 1 a 9**. Use este índice para localizar rapidamente em qual Fase e Volume cada método é ensinado.
+
+> Lista consolidada dos frameworks usados no livro. Para cada um, autor, ano de origem e uma linha sobre quando aplicar. Use como referencia rapida antes de ir ao Ferramentário (BG) ou aos Canvases (CZ) para tratamento aprofundado.
+
+> [!note] Como ler essa tabela
+> A coluna "Aparece em" indica o lugar canônico de tratamento da ferramenta no livro, fase, Manual de Frameworks da Fase, seção de Canvases Visuais ou outro apêndice temático. Nem todo framework tem entrada dedicada em BG ou CZ, alguns aparecem só na prosa de uma fase ou apêndice.
+
+### Empreendedorismo científico
+
+| Framework | Autor (Origem) | Ano | Quando usar | Aparece em |
+|---|---|---|---|---|
+| Lean Startup | Eric Ries | 2011 | Validar produto via build-measure-learn em ciclos curtos quando há incerteza alta | [[IGNICAO-Vol-1-Ideacao#FASE 2 — ARTICULAÇÃO E CAPTURA DA IDEIA|Fase 2 (Vol. 1)]] a [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 13 — PRODUCT-MARKET FIT|Fase 13 (Vol. 4)]], [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 1 — ABORDAGEM CIENTÍFICA vs LEAN STARTUP: QUANDO USAR CADA UMA|F (Vol. 3)]] |
+| Customer Development | Steve Blank | 2003 | Sair do prédio, entrevistar clientes, validar problema antes de construir | [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 4 — DESCOBERTA DO PROBLEMA|Fase 4 (Vol. 2)]], [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 1 — ABORDAGEM CIENTÍFICA vs LEAN STARTUP: QUANDO USAR CADA UMA|F (Vol. 3)]] |
+| Abordagem Científica | Camuffo et al. (RCT) | 2020 e 2024 | Tratar a startup como gerador de teorias testáveis, com hipóteses e refutação explícitas | [[IGNICAO-Vol-1-Ideacao#FASE 3 — CONSTRUÇÃO DA TEORIA DO NEGÓCIO|Fase 3 (Vol. 1)]], [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 1 — ABORDAGEM CIENTÍFICA vs LEAN STARTUP: QUANDO USAR CADA UMA|F (Vol. 3)]] |
+| The Mom Test | Rob Fitzpatrick | 2013 | Conduzir entrevistas de descoberta sem viés de confirmação | [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 4 — DESCOBERTA DO PROBLEMA|Fase 4 (Vol. 2)]], BG |
+| Jobs to be Done (JTBD) | Ulwick, Christensen, Moesta | 1990 a 2016 | Entender o "trabalho" que o cliente contrata seu produto para fazer | [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 4 — DESCOBERTA DO PROBLEMA|Fase 4 (Vol. 2)]], BG |
+| Idea-Wedge-Scale | Antler | 2017 | Decidir por onde começar, qual cunha entrar e como expandir | [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 5 — IDEA → WEDGE → SCALE: O FRAMEWORK ANTLER COMO LENTE TRANSVERSAL|L (Vol. 3)]] |
+| Default Alive vs Default Dead | Paul Graham | 2015 | Saber se a empresa sobrevive sem nova rodada com a trajetória atual | [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18 (Vol. 8)]], BG |
+| Committed Next Move | Antler | 2017 | Fechar uma fase com decisão observável, não com "sentimento" | [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 4 — COMO FECHAR UMA FASE: COMMITTED NEXT MOVE E SINAIS OBSERVÁVEIS|B (Vol. 3)]] |
+
+### Estratégia
+
+| Framework | Autor (Origem) | Ano | Quando usar | Aparece em |
+|---|---|---|---|---|
+| Porter Five Forces | Michael Porter | 1979 | Mapear forças competitivas estruturais de uma indústria | [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 6 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 6 (Vol. 2)]], BG |
+| Blue Ocean Strategy | Kim e Mauborgne | 2005 | Criar espaço de mercado novo em vez de competir em oceano vermelho | [[IGNICAO-Vol-1-Ideacao#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvas: Strategy Canvas (W. Chan Kim & Renée Mauborgne, 2005) (Vol. 1)]], BG |
+| Strategy Canvas e ERRC Grid | Kim e Mauborgne | 2005 | Visualizar fatores de competição e definir o que eliminar, reduzir, aumentar, criar | [[IGNICAO-Vol-1-Ideacao#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvas: Strategy Canvas (W. Chan Kim & Renée Mauborgne, 2005) (Vol. 1)]] |
+| 7 Powers | Hamilton Helmer | 2016 | Diagnosticar fontes duráveis de vantagem competitiva (moat) | [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 13 — PRODUCT-MARKET FIT|Fase 13 (Vol. 4)]], BG |
+| Wardley Map | Simon Wardley | 2005 | Posicionar componentes da cadeia em estágios de evolução para decidir onde investir | [[IGNICAO-Vol-1-Ideacao#FASE 1 — ENCONTRAR A IDEIA|Fase 1 (Vol. 1)]], BG |
+| Crossing the Chasm | Geoffrey Moore | 1991 | Entender a transição de early adopters para mercado mainstream | [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 13 — PRODUCT-MARKET FIT|Fase 13 (Vol. 4)]], BG |
+| Innovator's Dilemma | Clayton Christensen | 1997 | Decidir quando o incumbente vai ser disrompido e quando a startup é a disruptora | [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 13 — PRODUCT-MARKET FIT|Fase 13 (Vol. 4)]], BG |
+| Ambidestria 70/20/10 | Google e prática corporativa | 2005 | Alocar esforço entre core, adjacente e exploratório em escala | [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16 (Vol. 6)]], BG |
+| Category Design | Play Bigger | 2016 | Construir e dominar uma nova categoria, não competir em uma existente | [[IGNICAO-Vol-2-Descoberta-e-Mercado#CAPÍTULO 3 — CATEGORY DESIGN|S (Vol. 2)]] |
+
+### Modelagem do negócio (canvases)
+
+| Framework | Autor (Origem) | Ano | Quando usar | Aparece em |
+|---|---|---|---|---|
+| Business Model Canvas (BMC) | Osterwalder e Pigneur | 2010 | Articular modelo de negócio em nove blocos numa página | [[IGNICAO-Vol-1-Ideacao#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvas: Business Model Canvas (Alexander Osterwalder, 2010) (Vol. 1)]] |
+| Lean Canvas | Ash Maurya | 2012 | Adaptar o BMC para startup early-stage, com problema, solução e vantagem injusta | [[IGNICAO-Vol-1-Ideacao#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvas: Lean Canvas (Ash Maurya, 2012) (Vol. 1)]] |
+| Value Proposition Canvas (VPC) | Osterwalder | 2014 | Aprofundar o encaixe entre proposta de valor e perfil de cliente | [[IGNICAO-Vol-1-Ideacao#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvas: Value Proposition Canvas (Alexander Osterwalder, 2014) (Vol. 1)]] |
+| Opportunity Solution Tree (OST) | Teresa Torres | 2016 | Conectar resultado, oportunidades, soluções e experimentos em descoberta contínua | [[IGNICAO-Vol-1-Ideacao#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvas: Opportunity Canvas (Jeff Patton, 2014) (Vol. 1)]], [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 1 — PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA|AB (Vol. 7)]] |
+
+### Decisão e cognição
+
+| Framework | Autor (Origem) | Ano | Quando usar | Aparece em |
+|---|---|---|---|---|
+| Pre-mortem | Gary Klein, popularizado por Kahneman | 1998 e 2007 | Imaginar a falha antes de executar, explicitar o que daria errado | [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 6 — TOMADA DE DECISÃO COMO DISCIPLINA|EJ (Vol. 1)]], BG |
+| Inversion | Charlie Munger via Carl Jacobi | século XIX | Inverter o problema, perguntar o que não fazer | [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 6 — TOMADA DE DECISÃO COMO DISCIPLINA|EJ (Vol. 1)]], BG |
+| First Principles | Aristóteles, popularizado por Musk | século IV a.C. | Decompor um problema até axiomas e reconstruir do zero | [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 6 — TOMADA DE DECISÃO COMO DISCIPLINA|EJ (Vol. 1)]], BG |
+| SPADE | Gokul Rajaram | 2019 | Estruturar decisões importantes com Setting, People, Alternatives, Decide, Explain | [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 6 — TOMADA DE DECISÃO COMO DISCIPLINA|EJ (Vol. 1)]] |
+| Type 1 vs Type 2 Decisions | Jeff Bezos | 2015 | Diferenciar decisões irreversíveis de reversíveis e calibrar velocidade | [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 6 — TOMADA DE DECISÃO COMO DISCIPLINA|EJ (Vol. 1)]] |
+| Thinking in Bets | Annie Duke | 2018 | Avaliar decisões pela qualidade do processo, não pelo resultado | [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 6 — TOMADA DE DECISÃO COMO DISCIPLINA|EJ (Vol. 1)]] |
+| Six Thinking Hats | Edward de Bono | 1985 | Estruturar discussão em grupo separando lentes (fato, emoção, risco, criatividade) | [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 6 — TOMADA DE DECISÃO COMO DISCIPLINA|EJ (Vol. 1)]] |
+| Cialdini 6+1 | Robert Cialdini | 1984 e 2016 | Identificar e usar princípios de influência, com Unity adicionado em 2016 | [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 7 — INFLUÊNCIA E PERSUASÃO SEM AUTORIDADE FORMAL|EK (Vol. 1)]] |
+| Working Backwards | Bryar e Carr | 2021 | Escrever o press release antes do produto, partir do cliente final | BG |
+
+### Validação e pesquisa
+
+| Framework | Autor (Origem) | Ano | Quando usar | Aparece em |
+|---|---|---|---|---|
+| Matriz CSD | Prática brasileira de design e produto | 2010s | Listar Certezas, Suposições e Dúvidas antes de validar | [[IGNICAO-Vol-1-Ideacao#FASE 2 — ARTICULAÇÃO E CAPTURA DA IDEIA|Fase 2 (Vol. 1)]] |
+| Story Tree e Mapa Causal | Tradição em pesquisa formativa | 2000s | Diagramar a teoria do produto como rede causal com hipóteses ponderadas | [[IGNICAO-Vol-1-Ideacao#FASE 3 — CONSTRUÇÃO DA TEORIA DO NEGÓCIO|Fase 3 (Vol. 1)]] |
+| Desejabilidade, Viabilidade, Sustentabilidade (DVS) | IDEO, adaptação | 2009 | Filtrar ideias por desejável, viável e sustentável (substitui o tripé clássico) | [[IGNICAO-Vol-1-Ideacao#FASE 1 — ENCONTRAR A IDEIA|Fase 1 (Vol. 1)]] |
+| Van Westendorp PSM | Peter van Westendorp | 1976 | Encontrar faixa de preço aceitável via quatro perguntas de sensibilidade | [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 9 — PRICING STRATEGY COMO DISCIPLINA|X (Vol. 4)]] |
+| Sean Ellis 40% Test | Sean Ellis | 2009 | Medir PMF perguntando como o cliente se sentiria sem o produto | [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 13 — PRODUCT-MARKET FIT|Fase 13 (Vol. 4)]] |
+
+### Ideação e prototipagem
+
+| Framework | Autor (Origem) | Ano | Quando usar | Aparece em |
+|---|---|---|---|---|
+| Double Diamond | Design Council UK | 2005 | Estruturar processo de design em divergir e convergir duas vezes | BG |
+| Crazy 8s | Google Ventures Design Sprint | 2016 | Gerar oito ideias em oito minutos para destravar ideação | BG |
+| How Might We | IDEO e P&G | 1970s | Reformular um problema como pergunta geradora de soluções | BG |
+
+### Vieses e armadilhas mentais
+
+| Framework | Autor (Origem) | Ano | Quando usar | Aparece em |
+|---|---|---|---|---|
+| IKEA Effect | Norton, Mochon, Ariely | 2012 | Reconhecer que valorizamos demais o que construímos com nossas mãos | [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 3 — ARMADILHAS MENTAIS E VIESES|D (Vol. 1)]] |
+| ZIRP Mindset | Crítica de mercado pós-2022 | 2022 | Lembrar que práticas de juro zero não funcionam em juro alto | [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 3 — ARMADILHAS MENTAIS E VIESES|D (Vol. 1)]] |
+| Planning Fallacy | Kahneman e Tversky | 1979 | Saber que sempre subestimamos prazo, custo e risco do plano | [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 3 — ARMADILHAS MENTAIS E VIESES|D (Vol. 1)]] |
+
+### Priorização
+
+| Framework | Autor (Origem) | Ano | Quando usar | Aparece em |
+|---|---|---|---|---|
+| MoSCoW | Dai Clegg na Oracle | 1994 | Classificar requisitos em Must, Should, Could, Won't | BG |
+| Kano Model | Noriaki Kano | 1984 | Diferenciar atributos básicos, de performance e de delight | BG |
+| RICE | Intercom | 2017 | Priorizar com Reach, Impact, Confidence, Effort | BG |
+| WSJF | SAFe (Don Reinertsen) | 2009 | Priorizar pelo Weighted Shortest Job First, peso sobre tempo | BG |
+| Eisenhower Matrix | Eisenhower (popularizada por Covey) | 1954 e 1989 | Separar urgente de importante para alocar tempo | BG |
+
+### PMF e crescimento
+
+| Framework | Autor (Origem) | Ano | Quando usar | Aparece em |
+|---|---|---|---|---|
+| AARRR Pirate Funnel | Dave McClure | 2007 | Mapear o funil em Acquisition, Activation, Retention, Referral, Revenue | [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 2 — FRAMEWORK DE CANAIS DE AQUISIÇÃO|J (Vol. 4)]], BG |
+| North Star Metric | Sean Ellis e Amplitude | 2010s | Definir uma métrica que captura valor entregue ao cliente | BG |
+| One Metric That Matters (OMTM) | Croll e Yoskovitz | 2013 | Focar a empresa numa métrica por estágio para evitar dispersão | BG |
+| Hook Model | Nir Eyal | 2014 | Desenhar produtos que formam hábito via gatilho, ação, recompensa, investimento | BG |
+| Bullseye Framework | Weinberg e Mares (Traction) | 2014 | Testar canais de aquisição em camadas concêntricas | [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 2 — FRAMEWORK DE CANAIS DE AQUISIÇÃO|J (Vol. 4)]] |
+
+### Vendas
+
+| Framework | Autor (Origem) | Ano | Quando usar | Aparece em |
+|---|---|---|---|---|
+| BANT | IBM | anos 1960 | Qualificar lead por Budget, Authority, Need, Timeline | [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 8 — SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|CP (Vol. 4)]] |
+| MEDDPICC | Dunkel, Napoli, McMahon (PTC) | 1996 | Qualificar deal complexo enterprise com sete a oito dimensões | [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 8 — SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|CP (Vol. 4)]], [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 2 — VENDAS COMPLEXAS ENTERPRISE: CICLO LONGO, ALTO VALOR, MÚLTIPLOS DECISORES|EB (Vol. 6)]] |
+| SPIN Selling | Neil Rackham | 1988 | Vender consultivamente com Situation, Problem, Implication, Need-payoff | [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 8 — SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|CP (Vol. 4)]] |
+| Solution Selling | Mike Bosworth | 1994 | Vender pela dor identificada e solução customizada | [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 8 — SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|CP (Vol. 4)]] |
+| Challenger Sale | Dixon e Adamson | 2011 | Ensinar, customizar e tomar controle do diálogo de venda | [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 8 — SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|CP (Vol. 4)]] |
+| Sandler Sales | David Sandler | 1967 | Qualificar com dor, orçamento e processo de decisão antes de apresentar | [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 8 — SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|CP (Vol. 4)]] |
+
+### Liderança e organização
+
+| Framework | Autor (Origem) | Ano | Quando usar | Aparece em |
+|---|---|---|---|---|
+| OKR | Andy Grove (Intel), John Doerr (Google) | 1970s e 1999 | Alinhar objetivos com resultados-chave mensuráveis em cadência trimestral | BG |
+| Founder Mode | Paul Graham e Brian Chesky | 2024 | Operar com profundidade do fundador em vez de gestão delegada padrão | [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 10 — FOUNDER MODE, DELEGAÇÃO E QUANDO PARAR DE FAZER|R (Vol. 6)]] |
+| Radical Candor | Kim Scott | 2017 | Dar feedback que combina cuidado pessoal e desafio direto | BG |
+| Five Dysfunctions of a Team | Patrick Lencioni | 2002 | Diagnosticar disfunções de time, da ausência de confiança a inatenção a resultados | BG |
+| Multipliers | Liz Wiseman | 2010 | Distinguir líderes que multiplicam capacidade do time de líderes que diminuem | BG |
+| Topgrading | Bradford Smart | 1999 | Elevar a barra de contratação com entrevista cronológica e A-players | [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 12 — EXECUTIVE HIRING: CONTRATAR LÍDERES SÊNIOR E C-LEVEL|BN (Vol. 6)]] |
+| High Output Management | Andy Grove | 1983 | Pensar gestão como output da organização, não tarefas individuais | BG |
+
+### Captação e finanças
+
+| Framework | Autor (Origem) | Ano | Quando usar | Aparece em |
+|---|---|---|---|---|
+| Pre-money e Post-money | Prática de VC | anos 1980 | Calcular valuation antes e depois do aporte para definir diluição | [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 7 — VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR|CE (Vol. 5)]] |
+| Anti-dilution (full ratchet, broad-based, narrow-based) | Prática de VC | anos 1990 | Proteger investidor em down round, com impacto desigual em fundadores | [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|V (Vol. 5)]] |
+| Cap Table Mecânico | Prática de VC | anos 1990 | Modelar diluição rodada a rodada, opções, conversões e cenários de exit | [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|V (Vol. 5)]] |
+| 13-week Cash Forecast | Turnaround e treasury tradition | anos 1980 | Projetar caixa em granularidade semanal quando a margem de erro é fina | [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 4 — GESTÃO DE CAIXA EM PROFUNDIDADE|AT (Vol. 5)]] |
+
+### Maturidade tecnológica e de mercado
+
+| Framework | Autor (Origem) | Ano | Quando usar | Aparece em |
+|---|---|---|---|---|
+| TRL (Technology Readiness Level) | NASA | 1974, ISO 16290 em 2013 | Avaliar maturidade tecnológica em nove níveis, da pesquisa ao produto operacional | [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 3 — TRL E CRL: MATURIDADE TECNOLÓGICA E DE MERCADO|H (Vol. 3)]] |
+| CRL (Customer Readiness Level) | Adaptação europeia (Innovation Norway) | 2010s | Avaliar maturidade de adoção de mercado, em paralelo ao TRL | [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 3 — TRL E CRL: MATURIDADE TECNOLÓGICA E DE MERCADO|H (Vol. 3)]] |
+
+### Operacional e controles
+
+| Framework | Autor (Origem) | Ano | Quando usar | Aparece em |
+|---|---|---|---|---|
+| COSO Internal Control | Committee of Sponsoring Organizations | 1992 e 2013 | Estruturar controles internos em cinco componentes integrados | [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 13 — FRAUDE INTERNA E CONTROLES INTERNOS|BW (Vol. 8)]] |
+| Framework de Decisão por Gates | Síntese do livro | 2026 | Decidir avanço entre Problem Core, Scale Levers e Exploratory por gates | [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 2 — FRAMEWORK DE DECISÃO POR GATES (PROBLEM CORE + SCALE LEVERS + EXPLORATORY)|G (Vol. 3)]] |
+
+---
+
+## ÍNDICE ANALÍTICO
+
+> [!note] Como usar esse apêndice
+> Índice de termos-chave do livro em ordem alfabética. Cada entrada aponta para fases, apêndices ou seções onde o termo aparece com peso conceitual, não toda menção literal. Para definição curta de cada termo, ver o [[#GLOSSÁRIO DE TERMOS TÉCNICOS|Glossário de Termos Técnicos]]. Para framework relacionado, ver o [[#ÍNDICE GERAL DE FRAMEWORKS DA COLEÇÃO|Índice de Frameworks]]. Para citações textuais e ocorrências por capítulo, ver o [[#ÍNDICE REMISSIVO|Índice Remissivo]].
+
+### A
+
+- **AARRR** (Pirate Funnel), [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 2 — FRAMEWORK DE CANAIS DE AQUISIÇÃO|Capítulo 2 (FRAMEWORK DE CANAIS DE AQUISIÇÃO) (Vol. 4)]], [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 5 — MARKETING DE PERFORMANCE EM PROFUNDIDADE|Capítulo 5 (MARKETING DE PERFORMANCE EM PROFUNDIDADE) (Vol. 4)]]
+- **ACV** (Annual Contract Value), [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 2 — VENDAS COMPLEXAS ENTERPRISE: CICLO LONGO, ALTO VALOR, MÚLTIPLOS DECISORES|Capítulo 2 (VENDAS COMPLEXAS ENTERPRISE: CICLO LONGO, ALTO VALOR, MÚLTIPLOS DECISORES) (Vol. 6)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 17 — REVENUE FORECASTING: MODELOS, ACURÁCIA E PROCESSO PARA O FOUNDER|Capítulo 17 (REVENUE FORECASTING: MODELOS, ACURÁCIA E PROCESSO PARA O FOUNDER) (Vol. 5)]]
+- **advisor**, [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 13 — REDE, MENTORES E ADVISORS — COMO CONSTRUIR O CAPITAL HUMANO DO EMPREENDEDOR|Capítulo 13 (REDE, MENTORES E ADVISORS — COMO CONSTRUIR O CAPITAL HUMANO DO EMPREENDEDOR) (Vol. 1)]], [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 1 — BOARD E GOVERNANCE|Capítulo 1 (BOARD E GOVERNANCE) (Vol. 9)]]
+- **AI-native product**, [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 15 — AI COMO PARTE DO PRODUTO (AI-NATIVE PRODUCT)|Capítulo 15 (AI COMO PARTE DO PRODUTO (AI-NATIVE PRODUCT)) (Vol. 4)]], [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 10 — IA GENERATIVA COMO ACELERADOR DO EMPREENDEDOR (2026)|Capítulo 10 (IA GENERATIVA COMO ACELERADOR DO EMPREENDEDOR (2026)) (Vol. 1)]]
+- **anchoring** (viés de ancoragem), [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 3 — ARMADILHAS MENTAIS E VIESES|Capítulo 3 (ARMADILHAS MENTAIS E VIESES) (Vol. 1)]], [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 11 — NEGOCIAÇÃO COMO DISCIPLINA|Capítulo 11 (NEGOCIAÇÃO COMO DISCIPLINA) (Vol. 4)]]
+- **ANPD** (Autoridade Nacional de Proteção de Dados), [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 10 — LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Capítulo 10 (LGPD, COMPLIANCE E GOVERNANÇA DE DADOS) (Vol. 8)]], [[#CAPÍTULO 2 — REGULATÓRIO SETORIAL BRASILEIRO|Capítulo 2 (REGULATÓRIO SETORIAL BRASILEIRO)]]
+- **anti-dilution**, [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) (Vol. 5)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 8 — INSTRUMENTOS DE CAPTAÇÃO: SAFE, NOTA CONVERSÍVEL E MÚTUO CONVERSÍVEL|Capítulo 8 (INSTRUMENTOS DE CAPTAÇÃO: SAFE, NOTA CONVERSÍVEL E MÚTUO CONVERSÍVEL) (Vol. 5)]]
+- **ARR** (Annual Recurring Revenue), [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 17 — REVENUE FORECASTING: MODELOS, ACURÁCIA E PROCESSO PARA O FOUNDER|Capítulo 17 (REVENUE FORECASTING: MODELOS, ACURÁCIA E PROCESSO PARA O FOUNDER) (Vol. 5)]], [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 1 — GTM PLAYBOOK: DA IDEIA AO PRIMEIRO MILHÃO DE ARR|Capítulo 1 (GTM PLAYBOOK: DA IDEIA AO PRIMEIRO MILHÃO DE ARR) (Vol. 4)]], [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 10 — SUBSCRIPTION ECONOMY EM PROFUNDIDADE: ALÉM DO "COBRA MENSALMENTE"|Capítulo 10 (SUBSCRIPTION ECONOMY EM PROFUNDIDADE: ALÉM DO "COBRA MENSALMENTE") (Vol. 4)]]
+
+### B
+
+- **B3**, [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 16 — IPO NO BRASIL: QUANDO, COMO E O QUE MUDA|Capítulo 16 (IPO NO BRASIL: QUANDO, COMO E O QUE MUDA) (Vol. 9)]], [[#CAPÍTULO 2 — REGULATÓRIO SETORIAL BRASILEIRO|Capítulo 2 (REGULATÓRIO SETORIAL BRASILEIRO)]]
+- **BACEN**, [[#CAPÍTULO 2 — REGULATÓRIO SETORIAL BRASILEIRO|Capítulo 2 (REGULATÓRIO SETORIAL BRASILEIRO)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 19 — RELAÇÕES BANCÁRIAS E CRÉDITO NO BRASIL|Capítulo 19 (RELAÇÕES BANCÁRIAS E CRÉDITO NO BRASIL) (Vol. 5)]]
+- **balanço patrimonial**, [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 1 — DEMONSTRATIVOS FINANCEIROS PARA O FUNDADOR|Capítulo 1 (DEMONSTRATIVOS FINANCEIROS PARA O FUNDADOR) (Vol. 5)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 2 — MODELAGEM FINANCEIRA OPERACIONAL|Capítulo 2 (MODELAGEM FINANCEIRA OPERACIONAL) (Vol. 5)]]
+- **BANT**, [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 8 — SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|Capítulo 8 (SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL) (Vol. 4)]], [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 2 — VENDAS COMPLEXAS ENTERPRISE: CICLO LONGO, ALTO VALOR, MÚLTIPLOS DECISORES|Capítulo 2 (VENDAS COMPLEXAS ENTERPRISE: CICLO LONGO, ALTO VALOR, MÚLTIPLOS DECISORES) (Vol. 6)]]
+- **board** (conselho), [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 1 — BOARD E GOVERNANCE|Capítulo 1 (BOARD E GOVERNANCE) (Vol. 9)]], [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 2 — EMPRESA FAMILIAR E SUCESSÃO: GOVERNANÇA, DINÂMICA E PSICOLOGIA|Capítulo 2 (EMPRESA FAMILIAR E SUCESSÃO: GOVERNANÇA, DINÂMICA E PSICOLOGIA) (Vol. 9)]]
+- **bootstrap**, [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 4 — BOOTSTRAP vs VENTURE CAPITAL: A ESCOLHA FUNDACIONAL|Capítulo 4 (BOOTSTRAP vs VENTURE CAPITAL: A ESCOLHA FUNDACIONAL) (Vol. 1)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 9 — FINANCIAMENTO NÃO-DILUITIVO|Capítulo 9 (FINANCIAMENTO NÃO-DILUITIVO) (Vol. 5)]]
+
+### C
+
+- **CAC** (Customer Acquisition Cost), [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 5 — MARKETING DE PERFORMANCE EM PROFUNDIDADE|Capítulo 5 (MARKETING DE PERFORMANCE EM PROFUNDIDADE) (Vol. 4)]], [[IGNICAO-Vol-5-Financas-e-Captacao#MÉTRICAS E BENCHMARKS DESTA FASE (FASE 14)|Catálogo de Métricas e Benchmarks (Vol. 5)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 3 — MODELAGEM FINANCEIRA COM COHORTS: PROJEÇÕES QUE FUNCIONAM EM EMPRESA RECORRENTE|Capítulo 3 (MODELAGEM FINANCEIRA COM COHORTS: PROJEÇÕES QUE FUNCIONAM EM EMPRESA RECORRENTE) (Vol. 5)]]
+- **CADE**, [[#CAPÍTULO 3 — CADE E ANTITRUSTE — QUANDO O CRESCIMENTO ATRAI O REGULADOR|Capítulo 3 (CADE E ANTITRUSTE — QUANDO O CRESCIMENTO ATRAI O REGULADOR)]]
+- **cap table**, [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) (Vol. 5)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 6 — PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO|Capítulo 6 (PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO) (Vol. 5)]]
+- **CARF**, [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 14 — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Capítulo 14 (CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA) (Vol. 5)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 15 — TRIBUTÁRIO ESTRATÉGICO PARA STARTUPS|Capítulo 15 (TRIBUTÁRIO ESTRATÉGICO PARA STARTUPS) (Vol. 5)]]
+- **cash conversion cycle**, [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 18 — CAPITAL DE GIRO E RECEBÍVEIS|Capítulo 18 (CAPITAL DE GIRO E RECEBÍVEIS) (Vol. 5)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 4 — GESTÃO DE CAIXA EM PROFUNDIDADE|Capítulo 4 (GESTÃO DE CAIXA EM PROFUNDIDADE) (Vol. 5)]]
+- **Challenger Sale**, [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 8 — SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|Capítulo 8 (SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL) (Vol. 4)]], [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 2 — VENDAS COMPLEXAS ENTERPRISE: CICLO LONGO, ALTO VALOR, MÚLTIPLOS DECISORES|Capítulo 2 (VENDAS COMPLEXAS ENTERPRISE: CICLO LONGO, ALTO VALOR, MÚLTIPLOS DECISORES) (Vol. 6)]]
+- **churn**, [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 12 — CUSTOMER SUCCESS COMO DISCIPLINA|Capítulo 12 (CUSTOMER SUCCESS COMO DISCIPLINA) (Vol. 4)]], [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 10 — SUBSCRIPTION ECONOMY EM PROFUNDIDADE: ALÉM DO "COBRA MENSALMENTE"|Capítulo 10 (SUBSCRIPTION ECONOMY EM PROFUNDIDADE: ALÉM DO "COBRA MENSALMENTE") (Vol. 4)]], [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 13 — CUSTOMER EXPERIENCE: DA JORNADA AO NPS AO CHURN ZERO|Capítulo 13 (CUSTOMER EXPERIENCE: DA JORNADA AO NPS AO CHURN ZERO) (Vol. 4)]]
+- **cliff** (vesting), [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 15 — STOCK OPTIONS E ESOP NO BRASIL|Capítulo 15 (STOCK OPTIONS E ESOP NO BRASIL) (Vol. 6)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) (Vol. 5)]]
+- **comp plan** (plano de comissão), [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 8 — SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|Capítulo 8 (SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL) (Vol. 4)]], [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 14 — COMPENSAÇÃO E BENEFÍCIOS NO BRASIL|Capítulo 14 (COMPENSAÇÃO E BENEFÍCIOS NO BRASIL) (Vol. 6)]]
+- **confirmation bias**, [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 3 — ARMADILHAS MENTAIS E VIESES|Capítulo 3 (ARMADILHAS MENTAIS E VIESES) (Vol. 1)]], [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 6 — TOMADA DE DECISÃO COMO DISCIPLINA|Capítulo 6 (TOMADA DE DECISÃO COMO DISCIPLINA) (Vol. 1)]]
+- **CRL** (Customer Readiness Level), [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 3 — TRL E CRL: MATURIDADE TECNOLÓGICA E DE MERCADO|Capítulo 3 (TRL E CRL: MATURIDADE TECNOLÓGICA E DE MERCADO) (Vol. 3)]]
+- **CVM**, [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 16 — IPO NO BRASIL: QUANDO, COMO E O QUE MUDA|Capítulo 16 (IPO NO BRASIL: QUANDO, COMO E O QUE MUDA) (Vol. 9)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 11 — EQUITY CROWDFUNDING NO BRASIL: CAPTAÇÃO PÚBLICA DE PEQUENOS INVESTIDORES|Capítulo 11 (EQUITY CROWDFUNDING NO BRASIL: CAPTAÇÃO PÚBLICA DE PEQUENOS INVESTIDORES) (Vol. 5)]], [[#CAPÍTULO 2 — REGULATÓRIO SETORIAL BRASILEIRO|Capítulo 2 (REGULATÓRIO SETORIAL BRASILEIRO)]]
+
+### D
+
+- **default alive / default dead**, definição canônica em [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 12 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 12 (Vol. 4)]] (Passo 10). Também em [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 4 — GESTÃO DE CAIXA EM PROFUNDIDADE|Capítulo 4 (GESTÃO DE CAIXA EM PROFUNDIDADE) (Vol. 5)]] e [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 16 — PLANEJAMENTO FINANCEIRO E ORÇAMENTO|Capítulo 16 (PLANEJAMENTO FINANCEIRO E ORÇAMENTO) (Vol. 5)]].
+- **DEI** (Diversity, Equity, Inclusion), [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 18 — DIVERSIDADE, EQUIDADE E INCLUSÃO (DEI) EM STARTUP BRASILEIRA|Capítulo 18 (DIVERSIDADE, EQUIDADE E INCLUSÃO (DEI) EM STARTUP BRASILEIRA) (Vol. 6)]]
+- **drag-along**, [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) (Vol. 5)]], [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 3 — DISPUTA SOCIETÁRIA E SAÍDA DE SÓCIO|Capítulo 3 (DISPUTA SOCIETÁRIA E SAÍDA DE SÓCIO) (Vol. 9)]]
+- **DRE** (Demonstração de Resultado), [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 1 — DEMONSTRATIVOS FINANCEIROS PARA O FUNDADOR|Capítulo 1 (DEMONSTRATIVOS FINANCEIROS PARA O FUNDADOR) (Vol. 5)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 2 — MODELAGEM FINANCEIRA OPERACIONAL|Capítulo 2 (MODELAGEM FINANCEIRA OPERACIONAL) (Vol. 5)]]
+- **due diligence**, [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) (Vol. 5)]], [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 14 — M&A ATIVO E ROLL-UPS: FUNDADOR COMO COMPRADOR|Capítulo 14 (M&A ATIVO E ROLL-UPS: FUNDADOR COMO COMPRADOR) (Vol. 9)]], [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 13 — SUCESSÃO NO EXIT E TRANSIÇÃO PÓS-AQUISIÇÃO|Capítulo 13 (SUCESSÃO NO EXIT E TRANSIÇÃO PÓS-AQUISIÇÃO) (Vol. 9)]]
+
+### E
+
+- **EBITDA**, [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 1 — DEMONSTRATIVOS FINANCEIROS PARA O FUNDADOR|Capítulo 1 (DEMONSTRATIVOS FINANCEIROS PARA O FUNDADOR) (Vol. 5)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 7 — VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR|Capítulo 7 (VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR) (Vol. 5)]]
+- **engineering manager**, [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 4 — ENGINEERING MANAGEMENT: GESTÃO DO TIME TÉCNICO E DEVELOPER EXPERIENCE|Capítulo 4 (ENGINEERING MANAGEMENT: GESTÃO DO TIME TÉCNICO E DEVELOPER EXPERIENCE) (Vol. 7)]], [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 2 — MANAGEMENT PARA O FUNDADOR TÉCNICO|Capítulo 2 (MANAGEMENT PARA O FUNDADOR TÉCNICO) (Vol. 7)]]
+- **equity crowdfunding**, [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 11 — EQUITY CROWDFUNDING NO BRASIL: CAPTAÇÃO PÚBLICA DE PEQUENOS INVESTIDORES|Capítulo 11 (EQUITY CROWDFUNDING NO BRASIL: CAPTAÇÃO PÚBLICA DE PEQUENOS INVESTIDORES) (Vol. 5)]]
+- **ESOP**, [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 15 — STOCK OPTIONS E ESOP NO BRASIL|Capítulo 15 (STOCK OPTIONS E ESOP NO BRASIL) (Vol. 6)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) (Vol. 5)]]
+- **exit tax**, [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 19 — TRIBUTAÇÃO DO EXIT PARA FUNDADORES BRASILEIROS|Capítulo 19 (TRIBUTAÇÃO DO EXIT PARA FUNDADORES BRASILEIROS) (Vol. 9)]]
+
+### F
+
+- **FCF** (Free Cash Flow), [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 1 — DEMONSTRATIVOS FINANCEIROS PARA O FUNDADOR|Capítulo 1 (DEMONSTRATIVOS FINANCEIROS PARA O FUNDADOR) (Vol. 5)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 4 — GESTÃO DE CAIXA EM PROFUNDIDADE|Capítulo 4 (GESTÃO DE CAIXA EM PROFUNDIDADE) (Vol. 5)]]
+- **FIDC**, [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 9 — FINANCIAMENTO NÃO-DILUITIVO|Capítulo 9 (FINANCIAMENTO NÃO-DILUITIVO) (Vol. 5)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 18 — CAPITAL DE GIRO E RECEBÍVEIS|Capítulo 18 (CAPITAL DE GIRO E RECEBÍVEIS) (Vol. 5)]]
+- **FIP** (Fundo de Investimento em Participações), [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) (Vol. 5)]], [[#CAPÍTULO 2 — REGULATÓRIO SETORIAL BRASILEIRO|Capítulo 2 (REGULATÓRIO SETORIAL BRASILEIRO)]]
+- **first principles**, [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 6 — TOMADA DE DECISÃO COMO DISCIPLINA|Capítulo 6 (TOMADA DE DECISÃO COMO DISCIPLINA) (Vol. 1)]], [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 3 — ARMADILHAS MENTAIS E VIESES|Capítulo 3 (ARMADILHAS MENTAIS E VIESES) (Vol. 1)]]
+- **Founder Mode**, [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 10 — FOUNDER MODE, DELEGAÇÃO E QUANDO PARAR DE FAZER|Capítulo 10 (FOUNDER MODE, DELEGAÇÃO E QUANDO PARAR DE FAZER) (Vol. 6)]], [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 11 — GESTÃO DE TEMPO DO FUNDADOR E OPERATING CADENCE|Capítulo 11 (GESTÃO DE TEMPO DO FUNDADOR E OPERATING CADENCE) (Vol. 6)]]
+
+### G
+
+- **GRR** (Gross Revenue Retention), [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 12 — CUSTOMER SUCCESS COMO DISCIPLINA|Capítulo 12 (CUSTOMER SUCCESS COMO DISCIPLINA) (Vol. 4)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 17 — REVENUE FORECASTING: MODELOS, ACURÁCIA E PROCESSO PARA O FOUNDER|Capítulo 17 (REVENUE FORECASTING: MODELOS, ACURÁCIA E PROCESSO PARA O FOUNDER) (Vol. 5)]]
+
+### H
+
+- **holding**, [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 14 — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Capítulo 14 (CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA) (Vol. 5)]], [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 2 — EMPRESA FAMILIAR E SUCESSÃO: GOVERNANÇA, DINÂMICA E PSICOLOGIA|Capítulo 2 (EMPRESA FAMILIAR E SUCESSÃO: GOVERNANÇA, DINÂMICA E PSICOLOGIA) (Vol. 9)]]
+
+### I
+
+- **IC** (Individual Contributor), [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 3 — RECRUTAMENTO TÉCNICO EM PROFUNDIDADE|Capítulo 3 (RECRUTAMENTO TÉCNICO EM PROFUNDIDADE) (Vol. 7)]], [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 4 — ENGINEERING MANAGEMENT: GESTÃO DO TIME TÉCNICO E DEVELOPER EXPERIENCE|Capítulo 4 (ENGINEERING MANAGEMENT: GESTÃO DO TIME TÉCNICO E DEVELOPER EXPERIENCE) (Vol. 7)]]
+- **ICP** (Ideal Customer Profile), [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 1 — GTM PLAYBOOK: DA IDEIA AO PRIMEIRO MILHÃO DE ARR|Capítulo 1 (GTM PLAYBOOK: DA IDEIA AO PRIMEIRO MILHÃO DE ARR) (Vol. 4)]], [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 8 — SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|Capítulo 8 (SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL) (Vol. 4)]]
+- **Inova Simples**, [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 1 — MARCO LEGAL DAS STARTUPS: LC 182/2021|Capítulo 1 (MARCO LEGAL DAS STARTUPS: LC 182/2021) (Vol. 8)]]
+- **inversion** (técnica de inversão), [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 6 — TOMADA DE DECISÃO COMO DISCIPLINA|Capítulo 6 (TOMADA DE DECISÃO COMO DISCIPLINA) (Vol. 1)]], [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 3 — ARMADILHAS MENTAIS E VIESES|Capítulo 3 (ARMADILHAS MENTAIS E VIESES) (Vol. 1)]]
+- **IPO**, [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 16 — IPO NO BRASIL: QUANDO, COMO E O QUE MUDA|Capítulo 16 (IPO NO BRASIL: QUANDO, COMO E O QUE MUDA) (Vol. 9)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 7 — VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR|Capítulo 7 (VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR) (Vol. 5)]]
+
+### J
+
+- **JCP** (Juros sobre Capital Próprio), [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 14 — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Capítulo 14 (CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA) (Vol. 5)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 15 — TRIBUTÁRIO ESTRATÉGICO PARA STARTUPS|Capítulo 15 (TRIBUTÁRIO ESTRATÉGICO PARA STARTUPS) (Vol. 5)]]
+- **JTBD** (Jobs to Be Done), [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 1 — PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA|Capítulo 1 (PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA) (Vol. 7)]], [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 7 — PRODUCT MARKETING: POSICIONAMENTO, MENSAGEM E LANÇAMENTO|Capítulo 7 (PRODUCT MARKETING: POSICIONAMENTO, MENSAGEM E LANÇAMENTO) (Vol. 4)]]
+
+### L
+
+- **LC 182/2021** (Marco Legal das Startups), [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 1 — MARCO LEGAL DAS STARTUPS: LC 182/2021|Capítulo 1 (MARCO LEGAL DAS STARTUPS: LC 182/2021) (Vol. 8)]]
+- **LGPD**, [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 10 — LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Capítulo 10 (LGPD, COMPLIANCE E GOVERNANÇA DE DADOS) (Vol. 8)]], [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 5 — CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS|Capítulo 5 (CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS) (Vol. 8)]]
+- **LTV** (Lifetime Value), [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 12 — CUSTOMER SUCCESS COMO DISCIPLINA|Capítulo 12 (CUSTOMER SUCCESS COMO DISCIPLINA) (Vol. 4)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 3 — MODELAGEM FINANCEIRA COM COHORTS: PROJEÇÕES QUE FUNCIONAM EM EMPRESA RECORRENTE|Capítulo 3 (MODELAGEM FINANCEIRA COM COHORTS: PROJEÇÕES QUE FUNCIONAM EM EMPRESA RECORRENTE) (Vol. 5)]], [[IGNICAO-Vol-5-Financas-e-Captacao#MÉTRICAS E BENCHMARKS DESTA FASE (FASE 14)|Catálogo de Métricas e Benchmarks (Vol. 5)]]
+- **Lucro Real / Lucro Presumido**, [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 14 — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Capítulo 14 (CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA) (Vol. 5)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 15 — TRIBUTÁRIO ESTRATÉGICO PARA STARTUPS|Capítulo 15 (TRIBUTÁRIO ESTRATÉGICO PARA STARTUPS) (Vol. 5)]]
+
+### M
+
+- **M&A**, [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 14 — M&A ATIVO E ROLL-UPS: FUNDADOR COMO COMPRADOR|Capítulo 14 (M&A ATIVO E ROLL-UPS: FUNDADOR COMO COMPRADOR) (Vol. 9)]], [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 13 — SUCESSÃO NO EXIT E TRANSIÇÃO PÓS-AQUISIÇÃO|Capítulo 13 (SUCESSÃO NO EXIT E TRANSIÇÃO PÓS-AQUISIÇÃO) (Vol. 9)]], [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 20 — RETENÇÃO DE TALENTOS APÓS M&A: O QUE MUDA E O QUE SE PERDE|Capítulo 20 (RETENÇÃO DE TALENTOS APÓS M&A: O QUE MUDA E O QUE SE PERDE) (Vol. 9)]]
+- **Marco Civil da Internet**, [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 10 — LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Capítulo 10 (LGPD, COMPLIANCE E GOVERNANÇA DE DADOS) (Vol. 8)]], [[#CAPÍTULO 2 — REGULATÓRIO SETORIAL BRASILEIRO|Capítulo 2 (REGULATÓRIO SETORIAL BRASILEIRO)]]
+- **MEDDPICC**, [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 2 — VENDAS COMPLEXAS ENTERPRISE: CICLO LONGO, ALTO VALOR, MÚLTIPLOS DECISORES|Capítulo 2 (VENDAS COMPLEXAS ENTERPRISE: CICLO LONGO, ALTO VALOR, MÚLTIPLOS DECISORES) (Vol. 6)]], [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 8 — SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|Capítulo 8 (SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL) (Vol. 4)]]
+- **Mom Test**, [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 1 — PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA|Capítulo 1 (PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA) (Vol. 7)]], [[#ÍNDICE GERAL DE FRAMEWORKS DA COLEÇÃO|Índice de Frameworks]]
+- **MRR** (Monthly Recurring Revenue), [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 17 — REVENUE FORECASTING: MODELOS, ACURÁCIA E PROCESSO PARA O FOUNDER|Capítulo 17 (REVENUE FORECASTING: MODELOS, ACURÁCIA E PROCESSO PARA O FOUNDER) (Vol. 5)]], [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 10 — SUBSCRIPTION ECONOMY EM PROFUNDIDADE: ALÉM DO "COBRA MENSALMENTE"|Capítulo 10 (SUBSCRIPTION ECONOMY EM PROFUNDIDADE: ALÉM DO "COBRA MENSALMENTE") (Vol. 4)]]
+- **mútuo conversível**, [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 8 — INSTRUMENTOS DE CAPTAÇÃO: SAFE, NOTA CONVERSÍVEL E MÚTUO CONVERSÍVEL|Capítulo 8 (INSTRUMENTOS DE CAPTAÇÃO: SAFE, NOTA CONVERSÍVEL E MÚTUO CONVERSÍVEL) (Vol. 5)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) (Vol. 5)]]
+- **MVP** (Minimum Viable Product), [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 1 — ABORDAGEM CIENTÍFICA vs LEAN STARTUP: QUANDO USAR CADA UMA|Capítulo 1 (ABORDAGEM CIENTÍFICA vs LEAN STARTUP: QUANDO USAR CADA UMA) (Vol. 3)]], [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 1 — PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA|Capítulo 1 (PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA) (Vol. 7)]]
+
+### N
+
+- **North Star Metric**, [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 1 — GROWTH COMO FUNÇÃO ORGANIZACIONAL: TIME DE GROWTH, BUILD VS HIRE, RELAÇÃO COM PRODUTO|Capítulo 1 (GROWTH COMO FUNÇÃO ORGANIZACIONAL: TIME DE GROWTH, BUILD VS HIRE, RELAÇÃO COM PRODUTO) (Vol. 6)]], [[IGNICAO-Vol-5-Financas-e-Captacao#MÉTRICAS E BENCHMARKS DESTA FASE (FASE 14)|Catálogo de Métricas e Benchmarks (Vol. 5)]]
+- **NPS** (Net Promoter Score), [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 13 — CUSTOMER EXPERIENCE: DA JORNADA AO NPS AO CHURN ZERO|Capítulo 13 (CUSTOMER EXPERIENCE: DA JORNADA AO NPS AO CHURN ZERO) (Vol. 4)]], [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 12 — CUSTOMER SUCCESS COMO DISCIPLINA|Capítulo 12 (CUSTOMER SUCCESS COMO DISCIPLINA) (Vol. 4)]]
+- **NRR** (Net Revenue Retention), [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 12 — CUSTOMER SUCCESS COMO DISCIPLINA|Capítulo 12 (CUSTOMER SUCCESS COMO DISCIPLINA) (Vol. 4)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 17 — REVENUE FORECASTING: MODELOS, ACURÁCIA E PROCESSO PARA O FOUNDER|Capítulo 17 (REVENUE FORECASTING: MODELOS, ACURÁCIA E PROCESSO PARA O FOUNDER) (Vol. 5)]]
+
+### O
+
+- **OKR**, [[#ÍNDICE GERAL DE FRAMEWORKS DA COLEÇÃO|Índice de Frameworks]], [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 13 — PERFORMANCE REVIEWS ESTRUTURADOS: CICLO, CALIBRAÇÃO E CONEXÃO COM COMPENSAÇÃO|Capítulo 13 (PERFORMANCE REVIEWS ESTRUTURADOS: CICLO, CALIBRAÇÃO E CONEXÃO COM COMPENSAÇÃO) (Vol. 6)]]
+- **OST** (Opportunity Solution Tree), [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 1 — PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA|Capítulo 1 (PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA) (Vol. 7)]], [[#ÍNDICE GERAL DE FRAMEWORKS DA COLEÇÃO|Índice de Frameworks]]
+- **OTE** (On-Target Earnings), [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 8 — SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|Capítulo 8 (SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL) (Vol. 4)]], [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 14 — COMPENSAÇÃO E BENEFÍCIOS NO BRASIL|Capítulo 14 (COMPENSAÇÃO E BENEFÍCIOS NO BRASIL) (Vol. 6)]]
+
+### P
+
+- **payback** (CAC payback), [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 5 — MARKETING DE PERFORMANCE EM PROFUNDIDADE|Capítulo 5 (MARKETING DE PERFORMANCE EM PROFUNDIDADE) (Vol. 4)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 3 — MODELAGEM FINANCEIRA COM COHORTS: PROJEÇÕES QUE FUNCIONAM EM EMPRESA RECORRENTE|Capítulo 3 (MODELAGEM FINANCEIRA COM COHORTS: PROJEÇÕES QUE FUNCIONAM EM EMPRESA RECORRENTE) (Vol. 5)]]
+- **performance review**, [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 13 — PERFORMANCE REVIEWS ESTRUTURADOS: CICLO, CALIBRAÇÃO E CONEXÃO COM COMPENSAÇÃO|Capítulo 13 (PERFORMANCE REVIEWS ESTRUTURADOS: CICLO, CALIBRAÇÃO E CONEXÃO COM COMPENSAÇÃO) (Vol. 6)]]
+- **phantom share**, [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 15 — STOCK OPTIONS E ESOP NO BRASIL|Capítulo 15 (STOCK OPTIONS E ESOP NO BRASIL) (Vol. 6)]]
+- **pivot**, [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 16 — PIVOT: TIPOLOGIA, DECISÃO E EXECUÇÃO|Capítulo 16 (PIVOT: TIPOLOGIA, DECISÃO E EXECUÇÃO) (Vol. 4)]]
+- **PMF** (Product-Market Fit), [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 1 — PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA|Capítulo 1 (PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA) (Vol. 7)]], [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 1 — GTM PLAYBOOK: DA IDEIA AO PRIMEIRO MILHÃO DE ARR|Capítulo 1 (GTM PLAYBOOK: DA IDEIA AO PRIMEIRO MILHÃO DE ARR) (Vol. 4)]], [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 1 — ABORDAGEM CIENTÍFICA vs LEAN STARTUP: QUANDO USAR CADA UMA|Capítulo 1 (ABORDAGEM CIENTÍFICA vs LEAN STARTUP: QUANDO USAR CADA UMA) (Vol. 3)]]
+- **post-money / pre-money**, [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 7 — VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR|Capítulo 7 (VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR) (Vol. 5)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) (Vol. 5)]]
+- **pre-mortem**, [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 6 — TOMADA DE DECISÃO COMO DISCIPLINA|Capítulo 6 (TOMADA DE DECISÃO COMO DISCIPLINA) (Vol. 1)]], [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 3 — ARMADILHAS MENTAIS E VIESES|Capítulo 3 (ARMADILHAS MENTAIS E VIESES) (Vol. 1)]]
+
+### R
+
+- **ramp time**, [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 8 — SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|Capítulo 8 (SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL) (Vol. 4)]], [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 3 — RECRUTAMENTO TÉCNICO EM PROFUNDIDADE|Capítulo 3 (RECRUTAMENTO TÉCNICO EM PROFUNDIDADE) (Vol. 7)]]
+- **RBF** (Revenue-Based Financing), [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 10 — VENTURE DEBT E REVENUE-BASED FINANCING (RBF)|Capítulo 10 (VENTURE DEBT E REVENUE-BASED FINANCING (RBF)) (Vol. 5)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 9 — FINANCIAMENTO NÃO-DILUITIVO|Capítulo 9 (FINANCIAMENTO NÃO-DILUITIVO) (Vol. 5)]]
+- **RICE** (priorização), [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 1 — PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA|Capítulo 1 (PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA) (Vol. 7)]], [[#ÍNDICE GERAL DE FRAMEWORKS DA COLEÇÃO|Índice de Frameworks]]
+- **ROFR** (Right of First Refusal), [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) (Vol. 5)]], [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 3 — DISPUTA SOCIETÁRIA E SAÍDA DE SÓCIO|Capítulo 3 (DISPUTA SOCIETÁRIA E SAÍDA DE SÓCIO) (Vol. 9)]]
+- **runway**, [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 4 — GESTÃO DE CAIXA EM PROFUNDIDADE|Capítulo 4 (GESTÃO DE CAIXA EM PROFUNDIDADE) (Vol. 5)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 16 — PLANEJAMENTO FINANCEIRO E ORÇAMENTO|Capítulo 16 (PLANEJAMENTO FINANCEIRO E ORÇAMENTO) (Vol. 5)]]
+
+### S
+
+- **SAFE** (Simple Agreement for Future Equity), [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 8 — INSTRUMENTOS DE CAPTAÇÃO: SAFE, NOTA CONVERSÍVEL E MÚTUO CONVERSÍVEL|Capítulo 8 (INSTRUMENTOS DE CAPTAÇÃO: SAFE, NOTA CONVERSÍVEL E MÚTUO CONVERSÍVEL) (Vol. 5)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) (Vol. 5)]]
+- **secondary** (mercado secundário), [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 17 — SECONDARY E LIQUIDEZ DE FOUNDER|Capítulo 17 (SECONDARY E LIQUIDEZ DE FOUNDER) (Vol. 9)]], [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 18 — MERCADO SECUNDÁRIO E LIQUIDEZ ANTECIPADA PARA FOUNDERS E EARLY EMPLOYEES|Capítulo 18 (MERCADO SECUNDÁRIO E LIQUIDEZ ANTECIPADA PARA FOUNDERS E EARLY EMPLOYEES) (Vol. 9)]]
+- **security token**, [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 12 — TOKENIZAÇÃO PARA FOUNDERS: ATIVOS DIGITAIS, SECURITY TOKENS E QUANDO NÃO É HYPE|Capítulo 12 (TOKENIZAÇÃO PARA FOUNDERS: ATIVOS DIGITAIS, SECURITY TOKENS E QUANDO NÃO É HYPE) (Vol. 5)]]
+- **Simples Nacional**, [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 14 — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Capítulo 14 (CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA) (Vol. 5)]]
+- **SPADE** (framework de decisão), [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 6 — TOMADA DE DECISÃO COMO DISCIPLINA|Capítulo 6 (TOMADA DE DECISÃO COMO DISCIPLINA) (Vol. 1)]]
+- **SPIN Selling**, [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 8 — SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|Capítulo 8 (SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL) (Vol. 4)]]
+- **stock option**, [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 15 — STOCK OPTIONS E ESOP NO BRASIL|Capítulo 15 (STOCK OPTIONS E ESOP NO BRASIL) (Vol. 6)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) (Vol. 5)]]
+- **sunk cost** (viés do custo afundado), [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 3 — ARMADILHAS MENTAIS E VIESES|Capítulo 3 (ARMADILHAS MENTAIS E VIESES) (Vol. 1)]], [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 6 — TOMADA DE DECISÃO COMO DISCIPLINA|Capítulo 6 (TOMADA DE DECISÃO COMO DISCIPLINA) (Vol. 1)]]
+
+### T
+
+- **tag-along**, [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) (Vol. 5)]], [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 3 — DISPUTA SOCIETÁRIA E SAÍDA DE SÓCIO|Capítulo 3 (DISPUTA SOCIETÁRIA E SAÍDA DE SÓCIO) (Vol. 9)]]
+- **technical debt**, [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 5 — TECHNICAL DEBT COMO DISCIPLINA GERENCIADA|Capítulo 5 (TECHNICAL DEBT COMO DISCIPLINA GERENCIADA) (Vol. 7)]]
+- **term sheet**, [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) (Vol. 5)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 6 — PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO|Capítulo 6 (PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO) (Vol. 5)]]
+- **tokenização**, [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 12 — TOKENIZAÇÃO PARA FOUNDERS: ATIVOS DIGITAIS, SECURITY TOKENS E QUANDO NÃO É HYPE|Capítulo 12 (TOKENIZAÇÃO PARA FOUNDERS: ATIVOS DIGITAIS, SECURITY TOKENS E QUANDO NÃO É HYPE) (Vol. 5)]]
+- **TRL** (Technology Readiness Level), [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 3 — TRL E CRL: MATURIDADE TECNOLÓGICA E DE MERCADO|Capítulo 3 (TRL E CRL: MATURIDADE TECNOLÓGICA E DE MERCADO) (Vol. 3)]], [[#CAPÍTULO 6 — HARDWARE E DEEP TECH: CONSTRUIR NEGÓCIO COM FABRICAÇÃO, IP E HORIZONTES LONGOS|Capítulo 6 (HARDWARE E DEEP TECH: CONSTRUIR NEGÓCIO COM FABRICAÇÃO, IP E HORIZONTES LONGOS)]]
+- **Type 1 / Type 2 decision**, [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 6 — TOMADA DE DECISÃO COMO DISCIPLINA|Capítulo 6 (TOMADA DE DECISÃO COMO DISCIPLINA) (Vol. 1)]]
+
+### V
+
+- **valuation**, [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 7 — VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR|Capítulo 7 (VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR) (Vol. 5)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) (Vol. 5)]]
+- **venture capital**, [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 4 — BOOTSTRAP vs VENTURE CAPITAL: A ESCOLHA FUNDACIONAL|Capítulo 4 (BOOTSTRAP vs VENTURE CAPITAL: A ESCOLHA FUNDACIONAL) (Vol. 1)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) (Vol. 5)]]
+- **venture debt**, [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 10 — VENTURE DEBT E REVENUE-BASED FINANCING (RBF)|Capítulo 10 (VENTURE DEBT E REVENUE-BASED FINANCING (RBF)) (Vol. 5)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 9 — FINANCIAMENTO NÃO-DILUITIVO|Capítulo 9 (FINANCIAMENTO NÃO-DILUITIVO) (Vol. 5)]]
+- **vesting**, [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 15 — STOCK OPTIONS E ESOP NO BRASIL|Capítulo 15 (STOCK OPTIONS E ESOP NO BRASIL) (Vol. 6)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) (Vol. 5)]]
+- **VPC** (Value Proposition Canvas), [[IGNICAO-Vol-1-Ideacao#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvases Visuais da Fase (Vol. 1)]], [[#ÍNDICE GERAL DE FRAMEWORKS DA COLEÇÃO|Índice de Frameworks]]
+
+### W
+
+- **working capital** (capital de giro), [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 18 — CAPITAL DE GIRO E RECEBÍVEIS|Capítulo 18 (CAPITAL DE GIRO E RECEBÍVEIS) (Vol. 5)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 4 — GESTÃO DE CAIXA EM PROFUNDIDADE|Capítulo 4 (GESTÃO DE CAIXA EM PROFUNDIDADE) (Vol. 5)]]
+
+---
+
+## ÍNDICE REMISSIVO
+
+Índice alfabético curado dos tópicos mais buscados, apontando para o local canônico onde cada um é tratado em profundidade. Não exaustivo, foca em 150 termos essenciais. Use em complemento ao Sumário (que dá a estrutura completa) e ao Glossário (que dá definições).
+
+### A
+
+- **AARRR (Pirate Metrics)**: Framework: AARRR Pirate Metrics (Dave McClure, 2007) (Fase 11, Vol. 4), aplicação em [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16 (Vol. 6)]]
+- **A/B Testing rigoroso**: Framework: A/B Testing Rigoroso (Ron Kohavi, décadas de pesquisa na Microsoft/Airbnb) (Fase 11, Vol. 4)
+- **Acordo de sócios**: [[IGNICAO-Vol-1-Ideacao#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0 (Vol. 1)]] (Escolha de sócios), [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18 (Vol. 8)]], [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 5 — CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS|Capítulo 5 (CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS) (Vol. 8)]]
+- **Aquisição (estratégia)**: [[IGNICAO-Vol-9-Maturidade-e-Exit#FASE 20 — ESTRATÉGIA DE SAÍDA (EXIT STRATEGY)|Fase 20 (Vol. 9)]] (Exit), [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 16 — PIVOT: TIPOLOGIA, DECISÃO E EXECUÇÃO|Capítulo 16 (PIVOT: TIPOLOGIA, DECISÃO E EXECUÇÃO) (Vol. 4)]]
+- **Anti-dilution clauses**: [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18 (Vol. 8)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) (Vol. 5)]]
+- **Assumption Mapping**: Framework: Assumption Mapping (David J. Bland, 2019) (Fase 7, Vol. 3)
+- **ARR / MRR**: [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 12 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 12 (Vol. 4)]], [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 13 — PRODUCT-MARKET FIT|Fase 13 (Vol. 4)]], Framework: Unit Economics (Fase 14, Vol. 5)
+- **Autoestima do fundador**: [[IGNICAO-Vol-1-Ideacao#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0 (Vol. 1)]], [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 2 — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Capítulo 2 (SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR) (Vol. 1)]]
+
+### B
+
+- **BANT (Budget-Authority-Need-Timeline)**: Framework: BANT (IBM, anos 1960) (Fase 15, Vol. 6)
+- **Blitzscaling**: Framework: Blitzscaling (Reid Hoffman & Chris Yeh, 2018) (Fase 15, Vol. 6), quando usar vs não usar [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16 (Vol. 6)]]
+- **Blue Ocean Strategy**: Framework: Blue Ocean Strategy (W. Chan Kim & Renée Mauborgne, 2005) (Fase 1, Vol. 1)
+- **Board (composição, governança)**: [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18 (Vol. 8)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 6 — PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO|Capítulo 6 (PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO) (Vol. 5)]]
+- **Bootstrap vs VC**: [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 4 — BOOTSTRAP vs VENTURE CAPITAL: A ESCOLHA FUNDACIONAL|Capítulo 4 (BOOTSTRAP vs VENTURE CAPITAL: A ESCOLHA FUNDACIONAL) (Vol. 1)]], [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18 (Vol. 8)]]
+- **Burn Multiple**: Framework: Burn Multiple (David Sacks, 2020) (Fase 14, Vol. 5)
+- **Business Model Canvas (BMC)**: [[IGNICAO-Vol-1-Ideacao#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvas: Business Model Canvas (Alexander Osterwalder, 2010) (Vol. 1)]] (teoria, princípios, exemplo Nubank 2014)
+
+### C
+
+- **CAC (Customer Acquisition Cost)**: Frameworks da Fase 14, Vol. 5, [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 13 — PRODUCT-MARKET FIT|Fase 13 (Vol. 4)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 2 — MODELAGEM FINANCEIRA OPERACIONAL|Capítulo 2 (MODELAGEM FINANCEIRA OPERACIONAL) (Vol. 5)]]
+- **Canvas (vários)**: [[IGNICAO-Vol-1-Ideacao#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvases Visuais da Fase (Vol. 1)]] consolida 20 canvases (BMC em Canvas: Business Model Canvas (Alexander Osterwalder, 2010) (Fase 2, Vol. 1), Lean Canvas em Canvas: Lean Canvas (Ash Maurya, 2012) (Fase 1, Vol. 1), VPC em Canvas: Value Proposition Canvas (Alexander Osterwalder, 2014) (Fase 5, Vol. 2), Strategy Canvas em Canvas: Strategy Canvas (W. Chan Kim & Renée Mauborgne, 2005) (Fase 6, Vol. 2), e outros)
+- **Cap Table**: [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18 (Vol. 8)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 6 — PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO|Capítulo 6 (PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO) (Vol. 5)]]
+- **Captação (processo completo)**: [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) (Vol. 5)]]
+- **Churn**: [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 13 — PRODUCT-MARKET FIT|Fase 13 (Vol. 4)]], [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 12 — CUSTOMER SUCCESS COMO DISCIPLINA|Capítulo 12 (CUSTOMER SUCCESS COMO DISCIPLINA) (Vol. 4)]]
+- **Cofundador matching**: [[IGNICAO-Vol-1-Ideacao#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0 (Vol. 1)]] (Encontrar co-fundador)
+- **Cold Start Problem**: Framework: Cold Start Problem (Andrew Chen, 2021) (Cap. 6, Vol. 3)
+- **Comunicação pública do fundador**: [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 8 — COMUNICAÇÃO PÚBLICA DO FUNDADOR: NARRATIVA, IMPRENSA E PORTA-VOZ|Capítulo 8 (COMUNICAÇÃO PÚBLICA DO FUNDADOR: NARRATIVA, IMPRENSA E PORTA-VOZ) (Vol. 6)]]. Apêndice Marca Pessoal
+- **Consultoria (como serviço ou modelo)**: [[IGNICAO-Vol-1-Ideacao#FASE 3 — CONSTRUÇÃO DA TEORIA DO NEGÓCIO|Fase 3 (Vol. 1)]]. [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 7 — PLATAFORMA VS PRODUTO: QUANDO CONSTRUIR PLATAFORMA E QUANDO NÃO|Capítulo 7 (PLATAFORMA VS PRODUTO: QUANDO CONSTRUIR PLATAFORMA E QUANDO NÃO) (Vol. 3)]]
+- **Contabilidade inicial**: [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18 (Vol. 8)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 14 — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Capítulo 14 (CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA) (Vol. 5)]]
+- **Contratação (primeiros funcionários)**: [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16 (Vol. 6)]], Framework: Who / A Method for Hiring (Geoff Smart & Randy Street, 2008) (Fase 16, Vol. 6), Capítulo 17 (Vol. 6) (CULTURA EM SITUAÇÕES ESPECIAIS: M&A, HIPERCRESCIMENTO, REMOTO)
+- **Contratos (frameworks)**: [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 5 — CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS|Capítulo 5 (CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS) (Vol. 8)]]
+- **Crise (gestão de)**: [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9 — CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO|Capítulo 9 (CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO) (Vol. 9)]]
+- **Cultura organizacional**: [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 16 — CULTURA COMO DISCIPLINA|Capítulo 16 (CULTURA COMO DISCIPLINA) (Vol. 6)]], Framework: The Culture Code (Daniel Coyle, 2018) (Fase 16, Vol. 6)
+- **Customer Development**: Framework: Customer Development (Steve Blank, 2005) (Fase 8, Vol. 3)
+- **Customer Discovery**: [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 5 — PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY)|Fase 5 (Vol. 2)]]
+- **Customer Journey Map**: Framework: Customer Journey Mapping (Ron Zemke e Chip Bell, anos 1990s; popularizado nos 2000s) (Fase 5, Vol. 2), Template: Customer Journey Map em Mermaid — compra em e-commerce brasileiro (Fase 5, Vol. 2)
+
+### D
+
+- **Data (compilação do livro)**: Apêndice sobre Envelhecimento (abril 2026)
+- **DCF (Discounted Cash Flow)**: Framework: Discounted Cash Flow (DCF) (Fase 14, Vol. 5)
+- **Decisão (frameworks)**: Frameworks da Fase 0, Vol. 1, Frameworks da Fase 3, Vol. 1
+- **Demissão**: [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16 (Vol. 6)]] (seção Demitir bem), [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 11 — LAYOFFS E DOWNSIZING: COMO DEMITIR EM ESCALA SEM DESTRUIR A EMPRESA|Capítulo 11 (LAYOFFS E DOWNSIZING: COMO DEMITIR EM ESCALA SEM DESTRUIR A EMPRESA) (Vol. 9)]]
+- **Descoberta contínua (Continuous Discovery)**: Framework: Continuous Discovery Habits (Teresa Torres, 2021) (Fase 17, Vol. 7). [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 3 — TRL E CRL: MATURIDADE TECNOLÓGICA E DE MERCADO|Capítulo 3 (TRL E CRL: MATURIDADE TECNOLÓGICA E DE MERCADO) (Vol. 3)]]
+- **Design Sprint**: Framework: Google Design Sprint (Jake Knapp, 2016) (Fase 9, Vol. 3)
+- **Design Thinking**: Framework: Design Thinking Double Diamond (British Design Council, 2005) (Fase 9, Vol. 3)
+- **Disciplinas éticas / ESG**: Apêndice sobre Impacto e Ética
+- **DORA Metrics**: Framework: DORA Metrics (Forsgren, Humble, Kim, 2014); SPACE Framework (Forsgren, Storey et al., 2021) (Fase 17, Vol. 7)
+- **Due diligence (como alvo)**: [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) (Vol. 5)]]
+
+### E
+
+- **Effectuation**: Framework: Effectuation (Saras Sarasvathy, 2001) (Fase 0, Vol. 1)
+- **Empathy Map**: Framework: Empathy Map (Dave Gray / XPlane, 2010) (Fase 5, Vol. 2)
+- **Encerramento voluntário (shutdown)**: [[IGNICAO-Vol-9-Maturidade-e-Exit#FASE 20 — ESTRATÉGIA DE SAÍDA (EXIT STRATEGY)|Fase 20 (Vol. 9)]] (seção dedicada)
+- **Entrevista de usuário (Mom Test)**: Framework: The Mom Test (Rob Fitzpatrick, 2013) (Fase 4, Vol. 2). [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 5 — PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY)|Fase 5 (Vol. 2)]]
+- **EOR (Employer of Record)**: [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 5 — INTERNACIONALIZAÇÃO: ESTRUTURA E PRODUTO PARA MÚLTIPLOS MERCADOS|Capítulo 5 (INTERNACIONALIZAÇÃO: ESTRUTURA E PRODUTO PARA MÚLTIPLOS MERCADOS) (Vol. 9)]]
+- **Equity (divisão inicial)**: [[IGNICAO-Vol-1-Ideacao#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0 (Vol. 1)]], [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18 (Vol. 8)]]
+- **Escala (Volume 4 da jornada)**: [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16 (Vol. 6)]] inteira
+- **Escolha de investidor**: [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) (Vol. 5)]] (seção dedicada)
+- **Ética empreendedora**: Apêndice sobre Ética e Impacto
+- **Exit (estratégias)**: [[IGNICAO-Vol-9-Maturidade-e-Exit#FASE 20 — ESTRATÉGIA DE SAÍDA (EXIT STRATEGY)|Fase 20 (Vol. 9)]]
+- **Experimentos controlados**: [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 8 — EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA E DA SOLUÇÃO|Fase 8 (Vol. 3)]], Framework: A/B Testing Rigoroso (Ron Kohavi, décadas de pesquisa na Microsoft/Airbnb) (Fase 11, Vol. 4)
+
+### F
+
+- **Fail-fast / pivotar / matar**: Capítulo 9 (Vol. 5) (FINANCIAMENTO NÃO-DILUITIVO)ivot
+- **Financeiro (modelagem)**: [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 2 — MODELAGEM FINANCEIRA OPERACIONAL|Capítulo 2 (MODELAGEM FINANCEIRA OPERACIONAL) (Vol. 5)]], Frameworks da Fase 14, Vol. 5
+- **First Principles Thinking**: Framework: First Principles Thinking (Aristóteles, ~350 a.C.; popularizado por Elon Musk, anos 2010) (Fase 0, Vol. 1)
+- **Fiscal (tributário BR)**: [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 14 — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Capítulo 14 (CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA) (Vol. 5)]]
+- **FMEA (análise de risco)**: Framework: FMEA — Failure Mode and Effects Analysis (US Military, 1949) (Fase 7, Vol. 3)
+- **Framework de decisão (geral)**: Framework: DACI / RACI / RAPID (RAPID é da Bain; demais têm origens distintas) (Fase 16, Vol. 6)
+- **Fundraising**: [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) (Vol. 5)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 6 — PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO|Capítulo 6 (PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO) (Vol. 5)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 7 — VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR|Capítulo 7 (VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR) (Vol. 5)]]
+
+### G
+
+- **Gestão de tempo do fundador**: [[IGNICAO-Vol-1-Ideacao#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0 (Vol. 1)]], [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16 (Vol. 6)]]
+- **Governança (board, shareholders)**: [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18 (Vol. 8)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 6 — PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO|Capítulo 6 (PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO) (Vol. 5)]]
+- **Growth (função e práticas)**: [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 1 — GROWTH COMO FUNÇÃO ORGANIZACIONAL: TIME DE GROWTH, BUILD VS HIRE, RELAÇÃO COM PRODUTO|Capítulo 1 (GROWTH COMO FUNÇÃO ORGANIZACIONAL: TIME DE GROWTH, BUILD VS HIRE, RELAÇÃO COM PRODUTO) (Vol. 6)]]. Frameworks da Fase 11, Vol. 4
+- **Growth Loops**: Framework: Growth Loops (Balfour, Winters, Kwok, A. Chen / Reforge, 2019) (Fase 15, Vol. 6)
+
+### H
+
+- **Hipóteses (formulação)**: [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 7 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 7 (Vol. 3)]]
+- **Hiring (primeiros líderes)**: [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16 (Vol. 6)]], Capítulo 17 (Vol. 6) (CULTURA EM SITUAÇÕES ESPECIAIS: M&A, HIPERCRESCIMENTO, REMOTO)
+- **Hoshin Kanri**: Framework: Hoshin Kanri (Japão, anos 1950-1970) (Fase 19, Vol. 9)
+
+### I
+
+- **IA / IA como acelerador**: [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 10 — IA GENERATIVA COMO ACELERADOR DO EMPREENDEDOR (2026)|Capítulo 10 (IA GENERATIVA COMO ACELERADOR DO EMPREENDEDOR (2026)) (Vol. 1)]]
+- **Ideias (como encontrar)**: [[IGNICAO-Vol-1-Ideacao#FASE 1 — ENCONTRAR A IDEIA|Fase 1 (Vol. 1)]]
+- **Impacto (negócio de impacto social)**: Apêndice dedicado
+- **Indicadores (KPIs por fase)**: cada fase tem seção própria
+- **Internacionalização**: [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 5 — INTERNACIONALIZAÇÃO: ESTRUTURA E PRODUTO PARA MÚLTIPLOS MERCADOS|Capítulo 5 (INTERNACIONALIZAÇÃO: ESTRUTURA E PRODUTO PARA MÚLTIPLOS MERCADOS) (Vol. 9)]]
+- **Investidores (tipos, critérios)**: [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) (Vol. 5)]]
+- **Ishikawa Diagram**: Framework: Ishikawa / Fishbone Diagram (Kaoru Ishikawa, 1968) (Fase 3, Vol. 1)
+
+### J
+
+- **Jobs to Be Done (JTBD)**: Framework: Jobs to Be Done Framework (Clayton Christensen, Anthony Ulwick, Bob Moesta) (Fase 5, Vol. 2). JTBD Switch Framework: Jobs to Be Done Switch Interviews (Bob Moesta & Chris Spiek, via Clayton Christensen) (Fase 5, Vol. 2). ODI Framework: Outcome-Driven Innovation (Anthony Ulwick, 1991; livro 2005) (Fase 5, Vol. 2)
+- **Jurídico (estruturação)**: [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18 (Vol. 8)]], [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 5 — CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS|Capítulo 5 (CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS) (Vol. 8)]]
+
+### K
+
+- **Kano Model**: Framework: Kano Model (Noriaki Kano, 1984) (Fase 9, Vol. 3)
+
+### L
+
+- **Launch (playbook de lançamento)**: [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 11 — MVP E EXPERIMENTOS DE MERCADO|Fase 11 (Vol. 4)]] (seção dedicada)
+- **Lean Canvas**: [[IGNICAO-Vol-1-Ideacao#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvas: Lean Canvas (Ash Maurya, 2012) (Vol. 1)]] (teoria, princípios, exemplo QuintoAndar 2015)
+- **Lean Startup (BML Loop)**: Framework: Build-Measure-Learn Loop (Eric Ries, 2011) (Fase 8, Vol. 3)
+- **LGPD (proteção de dados)**: [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 14 — SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA|Capítulo 14 (SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA) (Vol. 8)]], vários
+- **Liderança**: Frameworks da Fase 16, Vol. 6
+- **Liquidation preference**: [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18 (Vol. 8)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) (Vol. 5)]]
+
+### M
+
+- **Marca pessoal do fundador**: Apêndice dedicado
+- **Marketplace / efeitos de rede**: Framework: Cold Start Problem (Andrew Chen, 2021) (Cap. 6, Vol. 3). [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 1 — GROWTH COMO FUNÇÃO ORGANIZACIONAL: TIME DE GROWTH, BUILD VS HIRE, RELAÇÃO COM PRODUTO|Capítulo 1 (GROWTH COMO FUNÇÃO ORGANIZACIONAL: TIME DE GROWTH, BUILD VS HIRE, RELAÇÃO COM PRODUTO) (Vol. 6)]]
+- **MEDDIC / MEDDPICC**: Framework: MEDDIC / MEDDPICC (Jack Napoli / Dick Dunkel, PTC, 1996) (Fase 15, Vol. 6)
+- **Mercado (mapeamento)**: [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 6 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 6 (Vol. 2)]]
+- **Mom Test**: Framework: The Mom Test (Rob Fitzpatrick, 2013) (Fase 4, Vol. 2)
+- **MVP**: [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 11 — MVP E EXPERIMENTOS DE MERCADO|Fase 11 (Vol. 4)]] inteira
+- **Mulheres fundadoras (casos)**: [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 18 — DIVERSIDADE, EQUIDADE E INCLUSÃO (DEI) EM STARTUP BRASILEIRA|Capítulo 18 (DIVERSIDADE, EQUIDADE E INCLUSÃO (DEI) EM STARTUP BRASILEIRA) (Vol. 6)]] (DEI em startup brasileira) e casos dispersos no livro
+
+### N
+
+- **Negociação (frameworks)**: Frameworks da Cap. 11, Vol. 4
+- **Never Split the Difference**: Framework: Never Split the Difference (Chris Voss, 2016) (Cap. 11, Vol. 4)
+- **North Star Framework**: Framework: North Star Framework (Amplitude / Sean Ellis) (Fase 13, Vol. 4)
+- **NPS**: Framework: Net Promoter Score (Fred Reichheld, 2003) (Fase 12, Vol. 4)
+
+### O
+
+- **OKRs**: Framework: OKRs — Objectives and Key Results (Andy Grove, 1970s; John Doerr, popularizou) (Fase 17, Vol. 7), Template: Template de OKRs trimestral preenchido — scaleup brasileira em PMF (Fase 17, Vol. 7)
+- **Open Innovation**: Framework: Open Innovation (Henry Chesbrough, 2003) (Fase 19, Vol. 9)
+- **Operação (primeiros processos)**: [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16 (Vol. 6)]], [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 22 — SECOND-TIME FOUNDER|Capítulo 22 (SECOND-TIME FOUNDER) (Vol. 9)]] (ops de precisão)
+- **Opportunity Solution Tree**: Framework: Opportunity Solution Tree (Teresa Torres) (Fase 9, Vol. 3), Template: Diagrama de Opportunity Solution Tree (Teresa Torres) — exemplo em SaaS brasileiro (Fase 9, Vol. 3)
+- **Outcome-Driven Innovation (ODI)**: Framework: Outcome-Driven Innovation (Anthony Ulwick, 1991; livro 2005) (Fase 5, Vol. 2)
+
+### P
+
+- **Pareto Analysis**: Framework: Pareto Analysis (Joseph Juran, 1940s; Vilfredo Pareto, 1896) (Fase 3, Vol. 1)
+- **Parcerias estratégicas**: [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16 (Vol. 6)]], [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 6 — CANAIS INDIRETOS E PARCERIAS: PARCERIAS, FRANQUIAS, CHANNEL|Capítulo 6 (CANAIS INDIRETOS E PARCERIAS: PARCERIAS, FRANQUIAS, CHANNEL) (Vol. 6)]]
+- **Personas**: Framework: Personas (Alan Cooper, 1998) (Fase 5, Vol. 2)
+- **Pivot**: Capítulo 9 (Vol. 5) (FINANCIAMENTO NÃO-DILUITIVO)ivot (tipologia, decisão, execução)
+- **PMF (Product-Market Fit)**: [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 13 — PRODUCT-MARKET FIT|Fase 13 (Vol. 4)]]
+- **Positioning**: Framework: Positioning (Al Ries & Jack Trout, 1981) (Fase 13, Vol. 4), Framework: Obviously Awesome / April Dunford Positioning (April Dunford, 2019) (Fase 13, Vol. 4)
+- **Pré-PMF (navegação)**: Fases 10-11
+- **Prestação de contas (board)**: [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 6 — PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO|Capítulo 6 (PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO) (Vol. 5)]]
+- **Pretotyping**: Framework: Pretotyping (Alberto Savoia, 2011) (Fase 8, Vol. 3)
+- **Pricing**: [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 12 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 12 (Vol. 4)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 2 — MODELAGEM FINANCEIRA OPERACIONAL|Capítulo 2 (MODELAGEM FINANCEIRA OPERACIONAL) (Vol. 5)]]
+- **Priorização (RICE, ICE)**: Framework: RICE Scoring (Intercom, circa 2016) (Fase 13, Vol. 4), Framework: ICE Scoring (Sean Ellis) (Fase 13, Vol. 4)
+- **Processo de produto**: Frameworks da Fase 17, Vol. 7. [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 1 — PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA|Capítulo 1 (PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA) (Vol. 7)]]
+- **Proposta de valor**: [[IGNICAO-Vol-1-Ideacao#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvas: Value Proposition Canvas (Alexander Osterwalder, 2014) (Vol. 1)]] (Value Proposition Canvas). [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 4 — DESCOBERTA DO PROBLEMA|Fase 4 (Vol. 2)]], [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 7 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 7 (Vol. 3)]]
+
+### Q
+
+- **Qualidade (processos de)**: Framework: Ishikawa / Fishbone Diagram (Kaoru Ishikawa, 1968) (Fase 3, Vol. 1)-5.10 (Ishikawa, Pareto, FMEA)
+
+### R
+
+- **RACI / DACI / RAPID**: Framework: DACI / RACI / RAPID (RAPID é da Bain; demais têm origens distintas) (Fase 16, Vol. 6)
+- **Radical Candor**: Framework: Radical Candor (Kim Scott, 2017) (Fase 16, Vol. 6)
+- **Recrutamento**: [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16 (Vol. 6)]], Framework: Who / A Method for Hiring (Geoff Smart & Randy Street, 2008) (Fase 16, Vol. 6), Capítulo 17 (Vol. 6) (CULTURA EM SITUAÇÕES ESPECIAIS: M&A, HIPERCRESCIMENTO, REMOTO)
+- **Red flags (investidores, sócios, contratações)**: várias fases
+- **Referências (como pedir a candidatos)**: [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16 (Vol. 6)]], Framework: Who / A Method for Hiring (Geoff Smart & Randy Street, 2008) (Fase 16, Vol. 6)
+- **Relatório financeiro**: [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 2 — MODELAGEM FINANCEIRA OPERACIONAL|Capítulo 2 (MODELAGEM FINANCEIRA OPERACIONAL) (Vol. 5)]]
+- **Retention Analysis**: [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 13 — PRODUCT-MARKET FIT|Fase 13 (Vol. 4)]], Framework: Cohort Analysis (Fase 14, Vol. 5)
+- **RICE Scoring**: Framework: RICE Scoring (Intercom, circa 2016) (Fase 13, Vol. 4)
+- **Runway (pessoal e empresa)**: [[IGNICAO-Vol-1-Ideacao#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0 (Vol. 1)]], [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 12 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 12 (Vol. 4)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 2 — MODELAGEM FINANCEIRA OPERACIONAL|Capítulo 2 (MODELAGEM FINANCEIRA OPERACIONAL) (Vol. 5)]]
+
+### S
+
+- **SaaS (métricas específicas)**: Frameworks da Fase 14, Vol. 5
+- **SAFE (Simple Agreement for Future Equity)**: [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) (Vol. 5)]]
+- **Saúde mental do fundador**: [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 2 — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Capítulo 2 (SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR) (Vol. 1)]] inteiro
+- **Scaling Up (Rockefeller Habits)**: Framework: Scaling Up / Rockefeller Habits (Verne Harnish, 2014) (Fase 17, Vol. 7)
+- **Segunda curva (reinvenção)**: [[IGNICAO-Vol-9-Maturidade-e-Exit#FASE 19 — REINVENÇÃO E SEGUNDA CURVA|Fase 19 (Vol. 9)]]. Frameworks da Fase 19, Vol. 9
+- **Series A, B, C (captações)**: [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) (Vol. 5)]]
+- **Shutdown voluntário**: [[IGNICAO-Vol-9-Maturidade-e-Exit#FASE 20 — ESTRATÉGIA DE SAÍDA (EXIT STRATEGY)|Fase 20 (Vol. 9)]] (seção dedicada)
+- **SIPOC**: Framework: SIPOC (Motorola, anos 1980) (Fase 17, Vol. 7)
+- **Sócios (escolha, conflitos, divórcio)**: [[IGNICAO-Vol-1-Ideacao#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0 (Vol. 1)]], [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18 (Vol. 8)]], [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 2 — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Capítulo 2 (SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR) (Vol. 1)]]
+- **Spotify Model**: Framework: Spotify Model (Henrik Kniberg & Anders Ivarsson, 2012) (Fase 17, Vol. 7)
+- **Story Mapping**: Framework: Story Mapping (Jeff Patton, 2014) (Fase 9, Vol. 3), Template: Story Map exemplo — MVP de app de entrega regional (Fase 9, Vol. 3)
+- **SWOT / TOWS**: Framework: SWOT / TOWS Matrix (Albert Humphrey, 1960s) (Fase 6, Vol. 2)
+
+### T
+
+- **TAM / SAM / SOM**: [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 6 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 6 (Vol. 2)]]
+- **Taxas (tributárias BR)**: [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 14 — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Capítulo 14 (CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA) (Vol. 5)]]
+- **Time (primeiros líderes, C-level)**: [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16 (Vol. 6)]], Capítulo 17 (Vol. 6) (CULTURA EM SITUAÇÕES ESPECIAIS: M&A, HIPERCRESCIMENTO, REMOTO)
+- **Tipos de empresa (ME, EPP, LTDA, SA)**: [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18 (Vol. 8)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 14 — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Capítulo 14 (CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA) (Vol. 5)]]
+- **Tributos**: [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 14 — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Capítulo 14 (CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA) (Vol. 5)]]
+
+### U
+
+- **Unit economics**: Framework: Unit Economics (Fase 14, Vol. 5). [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 12 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 12 (Vol. 4)]]
+- **Usabilidade (testes)**: Framework: Usability Testing (Jakob Nielsen & Don Norman, anos 1990) (Fase 10, Vol. 3). [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 10 — TESTES DE SOLUÇÃO E USABILIDADE|Fase 10 (Vol. 3)]]
+- **UX Research**: Frameworks da Fase 10, Vol. 3
+
+### V
+
+- **Validação de problema**: [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 8 — EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA E DA SOLUÇÃO|Fase 8 (Vol. 3)]]
+- **Valuation**: Framework: Discounted Cash Flow (DCF) (Fase 14, Vol. 5), Framework: Comparable Company Analysis / Precedent Transactions (Fase 14, Vol. 5). [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) (Vol. 5)]]
+- **Value Proposition Canvas (VPC)**: [[IGNICAO-Vol-1-Ideacao#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvas: Value Proposition Canvas (Alexander Osterwalder, 2014) (Vol. 1)]] (teoria, princípios, exemplo Wellhub 2016)
+- **Venture Capital**: [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) (Vol. 5)]]. Capítulo 4 (Vol. 3) (COMO FECHAR UMA FASE: COMMITTED NEXT MOVE E SINAIS OBSERVÁVEIS)ootstrap vs VC
+- **Vesting**: [[IGNICAO-Vol-1-Ideacao#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0 (Vol. 1)]], [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18 (Vol. 8)]]
+- **V2MOM**: Framework: V2MOM (Marc Benioff / Salesforce, 1999) (Fase 17, Vol. 7)
+
+### W
+
+- **Wardley Mapping**: Framework: Wardley Mapping (Simon Wardley, 2005) (Fase 1, Vol. 1)
+- **Wedge (wedge theory)**: [[IGNICAO-Vol-1-Ideacao#FASE 1 — ENCONTRAR A IDEIA|Fase 1 (Vol. 1)]], [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 6 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 6 (Vol. 2)]]
+- **Working Backwards (Amazon PR-FAQ)**: Framework: Working Backwards / PR-FAQ (Amazon, internal method) (Fase 17, Vol. 7)
+
+### Y
+
+- **YC (Y Combinator) matching e filosofia**: [[IGNICAO-Vol-1-Ideacao#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0 (Vol. 1)]], referências dispersas
+
+---
+
+## ÍNDICE REMISSIVO DE TERMOS-CHAVE
+
+> [!note] Como usar
+> Lista compacta dos termos técnicos mais frequentes do livro, com referência ao apêndice ou fase principal onde cada um é tratado em profundidade. Para cada termo, a referência aponta para o lugar canônico de definição e aprofundamento. Os termos aparecem em dezenas a centenas de outras passagens do livro; este índice serve de porta de entrada.
+
+### Métricas de Negócio
+
+- **ARR** (Annual Recurring Revenue): [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 12 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 12 (Vol. 4)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 3 — MODELAGEM FINANCEIRA COM COHORTS: PROJEÇÕES QUE FUNCIONAM EM EMPRESA RECORRENTE|Capítulo 3 (MODELAGEM FINANCEIRA COM COHORTS: PROJEÇÕES QUE FUNCIONAM EM EMPRESA RECORRENTE) (Vol. 5)]]
+- **MRR** (Monthly Recurring Revenue): [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 10 — SUBSCRIPTION ECONOMY EM PROFUNDIDADE: ALÉM DO "COBRA MENSALMENTE"|Capítulo 10 (SUBSCRIPTION ECONOMY EM PROFUNDIDADE: ALÉM DO "COBRA MENSALMENTE") (Vol. 4)]]
+- **CAC** (Customer Acquisition Cost): [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 5 — MARKETING DE PERFORMANCE EM PROFUNDIDADE|Capítulo 5 (MARKETING DE PERFORMANCE EM PROFUNDIDADE) (Vol. 4)]], [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 1 — GROWTH COMO FUNÇÃO ORGANIZACIONAL: TIME DE GROWTH, BUILD VS HIRE, RELAÇÃO COM PRODUTO|Capítulo 1 (GROWTH COMO FUNÇÃO ORGANIZACIONAL: TIME DE GROWTH, BUILD VS HIRE, RELAÇÃO COM PRODUTO) (Vol. 6)]]
+- **LTV** (Lifetime Value): [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 3 — MODELAGEM FINANCEIRA COM COHORTS: PROJEÇÕES QUE FUNCIONAM EM EMPRESA RECORRENTE|Capítulo 3 (MODELAGEM FINANCEIRA COM COHORTS: PROJEÇÕES QUE FUNCIONAM EM EMPRESA RECORRENTE) (Vol. 5)]], [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 12 — CUSTOMER SUCCESS COMO DISCIPLINA|Capítulo 12 (CUSTOMER SUCCESS COMO DISCIPLINA) (Vol. 4)]]
+- **NRR** (Net Revenue Retention): [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 12 — CUSTOMER SUCCESS COMO DISCIPLINA|Capítulo 12 (CUSTOMER SUCCESS COMO DISCIPLINA) (Vol. 4)]]
+- **GRR** (Gross Revenue Retention): [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 12 — CUSTOMER SUCCESS COMO DISCIPLINA|Capítulo 12 (CUSTOMER SUCCESS COMO DISCIPLINA) (Vol. 4)]]
+- **NPS** (Net Promoter Score): [[IGNICAO-Vol-4-Tracao-e-PMF#Framework: Net Promoter Score (Fred Reichheld, 2003)|Framework: Net Promoter Score (Fred Reichheld, 2003) (Vol. 4)]]
+- **TAM/SAM/SOM**: [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 6 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 6 (Vol. 2)]]
+- **OKRs** (Objectives and Key Results): [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#Framework: OKRs — Objectives and Key Results (Andy Grove, 1970s; John Doerr, popularizou)|Framework: OKRs — Objectives and Key Results (Andy Grove, 1970s; John Doerr, popularizou) (Vol. 7)]], [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 11 — GESTÃO DE TEMPO DO FUNDADOR E OPERATING CADENCE|Capítulo 11 (GESTÃO DE TEMPO DO FUNDADOR E OPERATING CADENCE) (Vol. 6)]]
+- **KPIs**: [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18 (Vol. 8)]]
+- **Burn Multiple**: [[IGNICAO-Vol-5-Financas-e-Captacao#Framework: Burn Multiple (David Sacks, 2020)|Framework: Burn Multiple (David Sacks, 2020) (Vol. 5)]]
+- **Magic Number**: [[IGNICAO-Vol-5-Financas-e-Captacao#Framework: Magic Number (Scale Venture Partners; popularizado por Lars Leckie / Hummer Winblad, 2008)|Framework: Magic Number (Scale Venture Partners; popularizado por Lars Leckie / Hummer Winblad, 2008) (Vol. 5)]]
+- **Rule of 40**: [[IGNICAO-Vol-5-Financas-e-Captacao#Framework: Rule of 40 (Brad Feld / SaaS community)|Framework: Rule of 40 (Brad Feld / SaaS community) (Vol. 5)]]
+
+### Conceitos Fundamentais
+
+- **PMF** (Product-Market Fit): [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 13 — PRODUCT-MARKET FIT|Fase 13 (Vol. 4)]]
+- **MVP** (Minimum Viable Product): [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 11 — MVP E EXPERIMENTOS DE MERCADO|Fase 11 (Vol. 4)]]
+- **ICP** (Ideal Customer Profile): [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 5 — PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY)|Fase 5 (Vol. 2)]]
+- **JTBD** (Jobs to Be Done): [[IGNICAO-Vol-2-Descoberta-e-Mercado#Framework: Jobs to Be Done Framework (Clayton Christensen, Anthony Ulwick, Bob Moesta)|Framework: Jobs to Be Done Framework (Clayton Christensen, Anthony Ulwick, Bob Moesta) (Vol. 2)]], [[IGNICAO-Vol-2-Descoberta-e-Mercado#Framework: Jobs to Be Done Switch Interviews (Bob Moesta & Chris Spiek, via Clayton Christensen)|Framework: Jobs to Be Done Switch Interviews (Bob Moesta & Chris Spiek, via Clayton Christensen) (Vol. 2)]]
+- **Wedge**: [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 5 — IDEA → WEDGE → SCALE: O FRAMEWORK ANTLER COMO LENTE TRANSVERSAL|Capítulo 5 (IDEA → WEDGE → SCALE: O FRAMEWORK ANTLER COMO LENTE TRANSVERSAL) (Vol. 3)]]
+- **Schlep**: [[IGNICAO-Vol-1-Ideacao#FASE 1 — ENCONTRAR A IDEIA|Fase 1 (Vol. 1)]]
+- **Founder Mode**: [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 10 — FOUNDER MODE, DELEGAÇÃO E QUANDO PARAR DE FAZER|Capítulo 10 (FOUNDER MODE, DELEGAÇÃO E QUANDO PARAR DE FAZER) (Vol. 6)]]
+
+### Frameworks de Estratégia
+
+- **SWOT/TOWS**: [[IGNICAO-Vol-2-Descoberta-e-Mercado#Framework: SWOT / TOWS Matrix (Albert Humphrey, 1960s)|Framework: SWOT / TOWS Matrix (Albert Humphrey, 1960s) (Vol. 2)]]
+- **PESTEL**: [[IGNICAO-Vol-2-Descoberta-e-Mercado#Framework: PESTEL Analysis (Francis Aguilar, 1967, originalmente ETPS)|Framework: PESTEL Analysis (Francis Aguilar, 1967, originalmente ETPS) (Vol. 2)]]
+- **VRIO/VRIN**: [[IGNICAO-Vol-2-Descoberta-e-Mercado#Framework: VRIO Framework (Jay Barney, 1995; antecessor VRIN, 1991)|Framework: VRIO Framework (Jay Barney, 1995; antecessor VRIN, 1991) (Vol. 2)]]
+- **Five Forces**: [[IGNICAO-Vol-2-Descoberta-e-Mercado#Framework: Porter's Five Forces (Michael Porter, 1979)|Framework: Porter's Five Forces (Michael Porter, 1979) (Vol. 2)]]
+- **Value Chain**: [[IGNICAO-Vol-2-Descoberta-e-Mercado#Framework: Value Chain Analysis (Michael Porter, 1985)|Framework: Value Chain Analysis (Michael Porter, 1985) (Vol. 2)]]
+- **Blue Ocean**: [[IGNICAO-Vol-1-Ideacao#Framework: Blue Ocean Strategy (W. Chan Kim & Renée Mauborgne, 2005)|Framework: Blue Ocean Strategy (W. Chan Kim & Renée Mauborgne, 2005) (Vol. 1)]]
+- **7 Powers**: [[IGNICAO-Vol-2-Descoberta-e-Mercado#Framework: 7 Powers (Hamilton Helmer, 2016)|Framework: 7 Powers (Hamilton Helmer, 2016) (Vol. 2)]]
+- **Wardley Map**: [[IGNICAO-Vol-1-Ideacao#Framework: Wardley Mapping (Simon Wardley, 2005)|Framework: Wardley Mapping (Simon Wardley, 2005) (Vol. 1)]]
+- **Hedgehog Concept**: [[IGNICAO-Vol-1-Ideacao#Framework: Hedgehog Concept (Jim Collins, 2001)|Framework: Hedgehog Concept (Jim Collins, 2001) (Vol. 1)]]
+
+### Frameworks de Produto
+
+- **JTBD Switch Interview**: [[IGNICAO-Vol-2-Descoberta-e-Mercado#Framework: Jobs to Be Done Switch Interviews (Bob Moesta & Chris Spiek, via Clayton Christensen)|Framework: Jobs to Be Done Switch Interviews (Bob Moesta & Chris Spiek, via Clayton Christensen) (Vol. 2)]]
+- **The Mom Test**: [[IGNICAO-Vol-2-Descoberta-e-Mercado#Framework: The Mom Test (Rob Fitzpatrick, 2013)|Framework: The Mom Test (Rob Fitzpatrick, 2013) (Vol. 2)]]
+- **Continuous Discovery**: [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#Framework: Continuous Discovery Habits (Teresa Torres, 2021)|Framework: Continuous Discovery Habits (Teresa Torres, 2021) (Vol. 7)]]
+- **Opportunity Solution Tree**: [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#Framework: Opportunity Solution Tree (Teresa Torres)|Framework: Opportunity Solution Tree (Teresa Torres) (Vol. 3)]]
+- **Design Sprint**: [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#Framework: Google Design Sprint (Jake Knapp, 2016)|Framework: Google Design Sprint (Jake Knapp, 2016) (Vol. 3)]]
+- **Shape Up**: [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#Framework: Shape Up (Ryan Singer / Basecamp, 2019)|Framework: Shape Up (Ryan Singer / Basecamp, 2019) (Vol. 7)]]
+- **Pretotyping**: [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#Framework: Pretotyping (Alberto Savoia, 2011)|Framework: Pretotyping (Alberto Savoia, 2011) (Vol. 3)]]
+- **Build-Measure-Learn**: [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#Framework: Build-Measure-Learn Loop (Eric Ries, 2011)|Framework: Build-Measure-Learn Loop (Eric Ries, 2011) (Vol. 3)]]
+- **Kano Model**: [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#Framework: Kano Model (Noriaki Kano, 1984)|Framework: Kano Model (Noriaki Kano, 1984) (Vol. 3)]]
+- **RICE Scoring**: [[IGNICAO-Vol-4-Tracao-e-PMF#Framework: RICE Scoring (Intercom, circa 2016)|Framework: RICE Scoring (Intercom, circa 2016) (Vol. 4)]]
+- **ICE Scoring**: [[IGNICAO-Vol-4-Tracao-e-PMF#Framework: ICE Scoring (Sean Ellis)|Framework: ICE Scoring (Sean Ellis) (Vol. 4)]]
+- **HEART Framework**: [[IGNICAO-Vol-4-Tracao-e-PMF#Framework: HEART Framework (Google, Kerry Rodden et al., 2010)|Framework: HEART Framework (Google, Kerry Rodden et al., 2010) (Vol. 4)]]
+- **Story Mapping**: [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#Framework: Story Mapping (Jeff Patton, 2014)|Framework: Story Mapping (Jeff Patton, 2014) (Vol. 3)]]
+
+### Frameworks de Growth e Vendas
+
+- **AARRR (Pirate Metrics)**: [[IGNICAO-Vol-4-Tracao-e-PMF#Framework: AARRR Pirate Metrics (Dave McClure, 2007)|Framework: AARRR Pirate Metrics (Dave McClure, 2007) (Vol. 4)]]
+- **Growth Loops**: [[IGNICAO-Vol-6-Receita-e-Pessoas#Framework: Growth Loops (Balfour, Winters, Kwok, A. Chen / Reforge, 2019)|Framework: Growth Loops (Balfour, Winters, Kwok, A. Chen / Reforge, 2019) (Vol. 6)]]
+- **T2D3**: [[IGNICAO-Vol-6-Receita-e-Pessoas#Framework: T2D3 (Neeraj Agrawal, 2015)|Framework: T2D3 (Neeraj Agrawal, 2015) (Vol. 6)]]
+- **Bullseye Framework**: [[IGNICAO-Vol-4-Tracao-e-PMF#Framework: Bullseye Framework (Gabriel Weinberg & Justin Mares, 2014)|Framework: Bullseye Framework (Gabriel Weinberg & Justin Mares, 2014) (Vol. 4)]]
+- **Crossing the Chasm**: [[IGNICAO-Vol-2-Descoberta-e-Mercado#Framework: Crossing the Chasm (Geoffrey Moore, 1991)|Framework: Crossing the Chasm (Geoffrey Moore, 1991) (Vol. 2)]]
+- **Hook Model**: [[IGNICAO-Vol-4-Tracao-e-PMF#Framework: Hook Model (Nir Eyal, 2014)|Framework: Hook Model (Nir Eyal, 2014) (Vol. 4)]]
+- **Cold Start Problem**: [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#Framework: Cold Start Problem (Andrew Chen, 2021)|Framework: Cold Start Problem (Andrew Chen, 2021) (Vol. 3)]]
+- **SPIN Selling**: [[IGNICAO-Vol-6-Receita-e-Pessoas#Framework: SPIN Selling (Neil Rackham, 1988)|Framework: SPIN Selling (Neil Rackham, 1988) (Vol. 6)]]
+- **MEDDIC/MEDDPICC**: [[IGNICAO-Vol-6-Receita-e-Pessoas#Framework: MEDDIC / MEDDPICC (Jack Napoli / Dick Dunkel, PTC, 1996)|Framework: MEDDIC / MEDDPICC (Jack Napoli / Dick Dunkel, PTC, 1996) (Vol. 6)]]
+- **Challenger Sale**: [[IGNICAO-Vol-6-Receita-e-Pessoas#Framework: Challenger Sale (Matthew Dixon & Brent Adamson, 2011)|Framework: Challenger Sale (Matthew Dixon & Brent Adamson, 2011) (Vol. 6)]]
+- **BANT**: [[IGNICAO-Vol-6-Receita-e-Pessoas#Framework: BANT (IBM, anos 1960)|Framework: BANT (IBM, anos 1960) (Vol. 6)]]
+- **BATNA / Getting to Yes**: [[IGNICAO-Vol-4-Tracao-e-PMF#Framework: Harvard Negotiation / BATNA & ZOPA (Roger Fisher & William Ury, 1981)|Framework: Harvard Negotiation / BATNA & ZOPA (Roger Fisher & William Ury, 1981) (Vol. 4)]]
+
+### Regulação e Marco Legal Brasileiro
+
+- **LC 182/2021** (Marco Legal das Startups): [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 1 — MARCO LEGAL DAS STARTUPS: LC 182/2021|Capítulo 1 (MARCO LEGAL DAS STARTUPS: LC 182/2021) (Vol. 8)]]
+- **LGPD** (Lei 13.709/2018): [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 10 — LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Capítulo 10 (LGPD, COMPLIANCE E GOVERNANÇA DE DADOS) (Vol. 8)]]
+- **Lei 13.467/2017** (Reforma Trabalhista): [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 7 — DIREITO DO TRABALHO PARA STARTUPS|Capítulo 7 (DIREITO DO TRABALHO PARA STARTUPS) (Vol. 8)]]
+- **Lei 14.133/2021** (Nova Lei de Licitações): [[#CAPÍTULO 7 — GOVTECH: STARTUP VENDENDO PARA GOVERNO|Capítulo 7 (GOVTECH: STARTUP VENDENDO PARA GOVERNO)]]
+- **Lei 14.457/2022** (Emprega+Mulheres): [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 18 — DIVERSIDADE, EQUIDADE E INCLUSÃO (DEI) EM STARTUP BRASILEIRA|Capítulo 18 (DIVERSIDADE, EQUIDADE E INCLUSÃO (DEI) EM STARTUP BRASILEIRA) (Vol. 6)]]
+- **Lei 11.196/2005** (Lei do Bem): [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 15 — TRIBUTÁRIO ESTRATÉGICO PARA STARTUPS|Capítulo 15 (TRIBUTÁRIO ESTRATÉGICO PARA STARTUPS) (Vol. 5)]]
+- **Lei 15.042/2024** (SBCE / Mercado de Carbono): [[#CAPÍTULO 10 — CLEANTECH E ESG: STARTUPS DE IMPACTO AMBIENTAL NO BRASIL|Capítulo 10 (CLEANTECH E ESG: STARTUPS DE IMPACTO AMBIENTAL NO BRASIL)]]
+- **Resolução CVM 88/2022** (Equity Crowdfunding): [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 11 — EQUITY CROWDFUNDING NO BRASIL: CAPTAÇÃO PÚBLICA DE PEQUENOS INVESTIDORES|Capítulo 11 (EQUITY CROWDFUNDING NO BRASIL: CAPTAÇÃO PÚBLICA DE PEQUENOS INVESTIDORES) (Vol. 5)]]
+- **Resolução BCB 4.656/2018** (SCD/SEP): [[#CAPÍTULO 2 — REGULATÓRIO SETORIAL BRASILEIRO|Capítulo 2 (REGULATÓRIO SETORIAL BRASILEIRO)]]
+- **Marco Civil da Internet** (Lei 12.965/2014): [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 10 — LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Capítulo 10 (LGPD, COMPLIANCE E GOVERNANÇA DE DADOS) (Vol. 8)]]
+- **Reforma Tributária** (IBS/CBS, 2026-2033): [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 14 — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Capítulo 14 (CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA) (Vol. 5)]]
+- **PIX**: [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 10 — LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Capítulo 10 (LGPD, COMPLIANCE E GOVERNANÇA DE DADOS) (Vol. 8)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 19 — RELAÇÕES BANCÁRIAS E CRÉDITO NO BRASIL|Capítulo 19 (RELAÇÕES BANCÁRIAS E CRÉDITO NO BRASIL) (Vol. 5)]]
+- **Drex (CBDC BR)**: [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 19 — RELAÇÕES BANCÁRIAS E CRÉDITO NO BRASIL|Capítulo 19 (RELAÇÕES BANCÁRIAS E CRÉDITO NO BRASIL) (Vol. 5)]]
+- **Open Finance**: [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 19 — RELAÇÕES BANCÁRIAS E CRÉDITO NO BRASIL|Capítulo 19 (RELAÇÕES BANCÁRIAS E CRÉDITO NO BRASIL) (Vol. 5)]]
+
+### Órgãos e Agências BR
+
+- **ANS** (Agência Nacional de Saúde Suplementar): [[#CAPÍTULO 5 — BIOTECH E HEALTHTECH: PLAYBOOK DE REGULAÇÃO, ENSAIOS E CAPITAL|Capítulo 5 (BIOTECH E HEALTHTECH: PLAYBOOK DE REGULAÇÃO, ENSAIOS E CAPITAL)]]
+- **ANPD** (Autoridade Nacional de Proteção de Dados): [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 10 — LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Capítulo 10 (LGPD, COMPLIANCE E GOVERNANÇA DE DADOS) (Vol. 8)]]
+- **BCB** (Banco Central do Brasil): [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 19 — RELAÇÕES BANCÁRIAS E CRÉDITO NO BRASIL|Capítulo 19 (RELAÇÕES BANCÁRIAS E CRÉDITO NO BRASIL) (Vol. 5)]]
+- **CADE**: [[#CAPÍTULO 3 — CADE E ANTITRUSTE — QUANDO O CRESCIMENTO ATRAI O REGULADOR|Capítulo 3 (CADE E ANTITRUSTE — QUANDO O CRESCIMENTO ATRAI O REGULADOR)]]
+- **CFM** (Conselho Federal de Medicina): [[#CAPÍTULO 5 — BIOTECH E HEALTHTECH: PLAYBOOK DE REGULAÇÃO, ENSAIOS E CAPITAL|Capítulo 5 (BIOTECH E HEALTHTECH: PLAYBOOK DE REGULAÇÃO, ENSAIOS E CAPITAL)]]
+- **CVM** (Comissão de Valores Mobiliários): [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) (Vol. 5)]], [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 16 — IPO NO BRASIL: QUANDO, COMO E O QUE MUDA|Capítulo 16 (IPO NO BRASIL: QUANDO, COMO E O QUE MUDA) (Vol. 9)]]
+- **BNDES**: [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 9 — FINANCIAMENTO NÃO-DILUITIVO|Capítulo 9 (FINANCIAMENTO NÃO-DILUITIVO) (Vol. 5)]]
+- **FINEP**: [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 9 — FINANCIAMENTO NÃO-DILUITIVO|Capítulo 9 (FINANCIAMENTO NÃO-DILUITIVO) (Vol. 5)]]
+- **EMBRAPA**: [[#CAPÍTULO 8 — AGRITECH: PLAYBOOK PARA O CAMPO BRASILEIRO|Capítulo 8 (AGRITECH: PLAYBOOK PARA O CAMPO BRASILEIRO)]]
+- **OAB**: [[#CAPÍTULO 12 — LEGALTECH: TECNOLOGIA JURÍDICA NO BRASIL|Capítulo 12 (LEGALTECH: TECNOLOGIA JURÍDICA NO BRASIL)]]
+- **INPI**: [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 3 — PROPRIEDADE INTELECTUAL E INPI|Capítulo 3 (PROPRIEDADE INTELECTUAL E INPI) (Vol. 8)]]
+
+### Casos Brasileiros Recorrentes
+
+- **Nubank** (David Vélez, Cristina Junqueira, Edward Wible — 2013): [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 21 — POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE|Capítulo 21 (POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE) (Vol. 9)]]
+- **Stone** (André Street, Eduardo Pontes — 2012; IPO 2018): [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16 (Vol. 6)]]
+- **iFood** (Sigrist, Bonifácio, Baer, Fioravante — 2011; controlado por Movile/Prosus): [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 6 — MARKETPLACE DYNAMICS E RISCO DE PLATAFORMA|Capítulo 6 (MARKETPLACE DYNAMICS E RISCO DE PLATAFORMA) (Vol. 3)]]
+- **VTEX** (Mariano Gomide, Geraldo Thomaz — 1999): [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 1 — PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA|Capítulo 1 (PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA) (Vol. 7)]]
+- **Wellhub/Gympass** (Cesar Carvalho — 2012): [[IGNICAO-Vol-1-Ideacao#FASE 1 — ENCONTRAR A IDEIA|Fase 1 (Vol. 1)]]
+- **Magazine Luiza** (família Trajano — 1957): [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 6 — MARKETPLACE DYNAMICS E RISCO DE PLATAFORMA|Capítulo 6 (MARKETPLACE DYNAMICS E RISCO DE PLATAFORMA) (Vol. 3)]]
+- **QuintoAndar/Loft** (proptechs — 2013-2018): [[#CAPÍTULO 11 — PROPTECH: TECNOLOGIA NO MERCADO IMOBILIÁRIO BRASILEIRO|Capítulo 11 (PROPTECH: TECNOLOGIA NO MERCADO IMOBILIÁRIO BRASILEIRO)]]
+- **99/Loggi** (mobility/logística — 2012-2013): [[#CAPÍTULO 13 — LOGTECH: TECNOLOGIA EM LOGÍSTICA E SUPPLY CHAIN NO BRASIL|Capítulo 13 (LOGTECH: TECNOLOGIA EM LOGÍSTICA E SUPPLY CHAIN NO BRASIL)]]
+- **Hotmart** (João Pedro Resende, Mateus Bicalho — 2011): [[#CAPÍTULO 9 — EDTECH: PLAYBOOK PARA TECNOLOGIA DE EDUCAÇÃO NO BRASIL|Capítulo 9 (EDTECH: PLAYBOOK PARA TECNOLOGIA DE EDUCAÇÃO NO BRASIL)]]
+- **Movile** (Fabrício Bloisi — 1998): [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 21 — POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE|Capítulo 21 (POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE) (Vol. 9)]]
+
+### Captação e Liquidez
+
+- **SAFE / Nota Conversível**: [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 8 — INSTRUMENTOS DE CAPTAÇÃO: SAFE, NOTA CONVERSÍVEL E MÚTUO CONVERSÍVEL|Capítulo 8 (INSTRUMENTOS DE CAPTAÇÃO: SAFE, NOTA CONVERSÍVEL E MÚTUO CONVERSÍVEL) (Vol. 5)]]
+- **Term Sheet**: [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) (Vol. 5)]]
+- **Cap Table / Waterfall**: [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 7 — VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR|Capítulo 7 (VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR) (Vol. 5)]]
+- **Venture Debt / RBF**: [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 10 — VENTURE DEBT E REVENUE-BASED FINANCING (RBF)|Capítulo 10 (VENTURE DEBT E REVENUE-BASED FINANCING (RBF)) (Vol. 5)]]
+- **Secondary**: [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 17 — SECONDARY E LIQUIDEZ DE FOUNDER|Capítulo 17 (SECONDARY E LIQUIDEZ DE FOUNDER) (Vol. 9)]], [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 18 — MERCADO SECUNDÁRIO E LIQUIDEZ ANTECIPADA PARA FOUNDERS E EARLY EMPLOYEES|Capítulo 18 (MERCADO SECUNDÁRIO E LIQUIDEZ ANTECIPADA PARA FOUNDERS E EARLY EMPLOYEES) (Vol. 9)]]
+- **IPO / Dual Listing**: [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 16 — IPO NO BRASIL: QUANDO, COMO E O QUE MUDA|Capítulo 16 (IPO NO BRASIL: QUANDO, COMO E O QUE MUDA) (Vol. 9)]]
+- **ESOP / Stock Options**: [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 15 — STOCK OPTIONS E ESOP NO BRASIL|Capítulo 15 (STOCK OPTIONS E ESOP NO BRASIL) (Vol. 6)]]
+
+### Pipeline Editorial e Voz do Autor
+
+Termos próprios deste manual usados consistentemente:
+
+- **DII** (Declaração Inicial da Ideia): [[IGNICAO-Vol-1-Ideacao#FASE 2 — ARTICULAÇÃO E CAPTURA DA IDEIA|Fase 2 (Vol. 1)]]
+- **Hipóteses bet-the-company**: [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 7 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 7 (Vol. 3)]]
+- **Theory Map / Story Tree**: [[IGNICAO-Vol-1-Ideacao#FASE 3 — CONSTRUÇÃO DA TEORIA DO NEGÓCIO|Fase 3 (Vol. 1)]]
+- **Canvas da Cunha**: [[IGNICAO-Vol-1-Ideacao#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvas: Canvas da Cunha (autoral IGNIÇÃO) (Vol. 1)]]
+- **Hypothesis Canvas**: [[IGNICAO-Vol-1-Ideacao#TEMPLATES OPERACIONAIS E CASOS PREENCHIDOS DESTA FASE|Template: Hypothesis Canvas (Vol. 1)]]
+- **Pergunta de FMF** (Founder-Market Fit por fase): elemento estrutural de cada Fase

@@ -1,26 +1,19 @@
 ---
-title: "IGNIÇÃO — Volume 1: Ideação"
-subtitle: "Do Pré-Zero à Tese de Negócio (Fases 0 a 2B)"
-volume: 1
-collection: "IGNIÇÃO — O manual operacional do empreendedor brasileiro"
+title: "IGNIÇÃO — Volume 1: Ideação e Fundação"
+subtitle: "Do Pré-Zero à Teoria do Negócio (Fases 0 a 3 e Capítulos 1 a 13)"
 author: "João Prado"
-type: enciclopédia
-status: living-document
-created: 2026-04-22
-updated: 2026-10-20
-version: "3.5"
+date: 2026
+version: "4.0"
+volume: 1
+collection: "IGNIÇÃO — O manual operacional do empreendedor brasileiro (10 Volumes Autocontidos)"
 language: pt-BR
-phase_count: 4
-appendix_count: 13
-diagram_count: 9
-word_count: 74111
 ---
-# IGNIÇÃO — Volume 1: Ideação
 
-*Do Pré-Zero à Tese de Negócio (Fases 0 a 2B)*
+# IGNIÇÃO — Volume 1: Ideação e Fundação
 
-> [!tip] Dica para leitura no Obsidian e GitHub
-> Este volume faz parte da coleção **IGNIÇÃO** (10 volumes). Os links para seções deste mesmo volume usam âncoras diretas (`[[#Seção]]`) e os links para outros volumes apontam para o arquivo correspondente (`[[IGNICAO-Vol-X-Nome#Seção]]`).
+**Do Pré-Zero à Teoria do Negócio (Fases 0 a 3 e Capítulos 1 a 13)**
+
+*João Prado · 2026 — Edição Autocontida (v4.0)*
 
 ---
 
@@ -56,157 +49,91 @@ Boa sorte na minha jornada, em cada momento em que eu voltar aqui para buscar um
 
 ## Sobre este livro
 
-### O que isto é
+**IGNIÇÃO** é um manual operacional em **10 volumes autocontidos** para fundadores e equipes executivas construindo empresas no Brasil — da preparação pessoal antes do CNPJ (Fase 0) até a segunda curva de crescimento e o *exit* via M&A ou IPO (Fase 20).
 
-Esta obra tem cerca de 750 mil palavras. Cobre como começar uma empresa no Brasil, como validá-la, como tracioná-la, como escalá-la e como sair dela. Está organizada em **dez volumes** — sete volumes que acompanham a maturidade da jornada e três volumes de referência transversal:
+Cada volume da coleção foi desenhado para funcionar como um **livro completo e independente**: todos os **Frameworks passo a passo**, **Canvases Visuais preenchidos com casos brasileiros**, **Templates operacionais prontos para uso**, **Tabelas de Métricas** e **Guias de Leitura** estão integrados diretamente dentro das Fases e Capítulos onde são aplicados, sem que você precise abrir outro volume para executar sua etapa atual.
 
-- **Volume 1 — Ideação** (Fases 0 a 2B + 13 apêndices de preparação do fundador, cofundadores, decisão, comunicação e IA pessoal);
-- **Volume 2 — Validação** (Fases 3 a 9 + 12 apêndices de método científico, consumidor brasileiro, inteligência competitiva e modelos de negócio);
-- **Volume 3 — Tração** (Fases 10 a 12 + 20 apêndices de Go-to-Market até 1M ARR, canais, vendas iniciais, pricing, CS, dados, produto AI-native e caixa);
-- **Volume 4 — Captação e Finanças** (Fase 13 + 18 apêndices de estruturação societária, Venture Capital, valuation, instrumentos conversíveis, contabilidade, Reforma Tributária, FP&A, capital de giro e bancos);
-- **Volume 5 — Receita e Pessoas** (Fase 14 + 19 apêndices de Growth em escala, vendas Enterprise, RevOps, parcerias corporativas, marca, liderança executiva, contratação C-level, remuneração/ESOP e cultura);
-- **Volume 6 — Engenharia, Operações e Jurídico** (23 apêndices de produto em escala, gestão de engenharia, dívida técnica, IA, design organizacional, processos e blindagem contratual, trabalhista, LGPD, compliance e segurança);
-- **Volume 7 — Maturidade e Exit** (Fases 15 e 16 + 22 apêndices de Board, empresa familiar, disputas societárias, internacionalização, câmbio, crise aguda, layoffs, recuperação judicial, M&A, IPO, secondaries e post-mortems + Epílogo);
-- **Volume 8 — Playbooks Setoriais** (Guias de passagem de fase B, Catálogo de Métricas C, Leituras E, macroeconomia, regulação setorial, CADE, políticas públicas e os 9 Playbooks das Verticais Brasileiras);
-- **Volume 9 — Ferramentário** (Índice de Frameworks + Apêndice BG completo com 163 frameworks distribuídos em 19 disciplinas);
-- **Volume 10 — Canvases, Templates e Índices** (20 Canvases preenchidos em CZ, 30+ Templates operacionais e casos brasileiros em A, Glossários, Bibliografias e Índices Remissivos).
+A coleção está organizada em **10 volumes focais**:
 
-Não é narrativa contínua. Não é livro inspiracional. É um documento para consulta em decisões reais. Foi escrito assumindo que você tem pressa, tem uma dor concreta, e precisa de resposta operacional.
-
-### As duas vozes do livro
-
-O livro alterna entre duas vozes. Quando trata de material consagrado, frameworks como OKR, Hoshin Kanri, JTBD, Crossing the Chasm, o registro é sóbrio, próximo do verbete enciclopédico. O autor se apaga. O que importa é fidelidade ao conceito original.
-
-Em outros momentos o livro opina. Sobre quando não empreender, sobre saúde mental do fundador, sobre o ecossistema brasileiro, sobre padrões de fracasso que vi de perto. Quando há opinião, o livro avisa. Você lê algo como "minha leitura, contestável, é que" e sabe que entrou em terreno autoral. Os dois modos coexistem ao longo do livro, e você sabe qual está lendo a cada momento.
-
-### Por que brasileiro
-
-Empreender no Brasil tem especificidades que raramente aparecem em livros importados. Tributação, regulação, ciclos de capital local, estrutura de canais, relação com governo, dinâmica societária, operação em múltiplas moedas. Traduzir Silicon Valley direto para São Paulo gera decisões ruins. O livro parte do contexto brasileiro e estende para o global quando necessário, não o contrário. CLT, MEI, Simples Nacional, INPI, LGPD, BNDES, BACEN, CVM, Receita Federal. Não são detalhes. São a moldura.
-
-### Como usar
-
-O livro não pede leitura linear. Aceita ser aberto em qualquer volume ou página por quem tem problema concreto. Além disso, cada bloco temático dentro dos volumes conta com uma **Introdução de Domínio** que explica como aqueles capítulos se conectam e qual ler primeiro.
-
-Se você está pensando em empreender, comece por este **Volume 1 (Ideação)**, nas Fases 0 a 2B. Preparação, encontrar a ideia, articular a ideia e construir a teoria do negócio. Reserve três a quatro horas. Pare e execute antes de continuar.
-
-Se você já tem uma ideia mas ainda não validou, vá para o **Volume 2 (Validação)**, nas Fases 3 a 9. Descoberta do problema até experimentos de validação e testes de protótipo. De quatro a seis horas. Consulte o BG.6 (no **Volume 9 — Ferramentário**) para técnica de entrevista.
-
-Se está construindo MVP ou buscando product-market fit, abra o **Volume 3 (Tração)**, que cobre as Fases 10 a 12, mais os apêndices de GTM, canais, pricing, dados e pivotagem, além de BG.10 e BG.11 no **Volume 9**.
-
-Se já tem PMF e está estruturando a empresa, captando ou escalando, use a tríade de Escala (**Volumes 4, 5 e 6**): comece pela [[IGNICAO-Vol-4-Captacao-e-Financas#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13 (Vol. 4)]] antes da [[IGNICAO-Vol-5-Receita-e-Pessoas#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14 (Vol. 5)]], mesmo que pareça óbvia. Quem pula estruturação volta a ela depois de quebrar coisa cara. Para fundraising, valuation e tributário, fique no **Volume 4** (Apêndices V, CF, CE, W, EN). Para escalar vendas enterprise, RevOps, executivos e cultura, vá ao **Volume 5** (Apêndices CG, EB, EH, BN, AP). Para escalar engenharia, produto, operações e blindagem jurídica/LGPD, use o **Volume 6** (Apêndices AB, CR, FB, DV, T, EU, EL).
-
-Se está em crise ou considerando pivô, há três rotas combinadas: [[IGNICAO-Vol-3-Tracao#APÊNDICE CL — PIVOT: TIPOLOGIA, DECISÃO E EXECUÇÃO|Apêndice CL — Pivot (Vol. 3)]], [[IGNICAO-Vol-7-Maturidade-e-Exit#APÊNDICE CW — CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO|Apêndice CW — Crise (Vol. 7)]] e [[#APÊNDICE Y — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Apêndice Y]] sobre saúde mental (neste Vol. 1). Crise societária acrescenta [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]] e os Apêndices AH (Vol. 6) e BP (Vol. 7). Crise de caixa acrescenta [[IGNICAO-Vol-4-Captacao-e-Financas#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13 (Vol. 4)]] e os Apêndices AN e AT (Vol. 3).
-
-Se está preparando saída, governança de conselho ou gerindo segunda curva, abra o **Volume 7 (Maturidade e Exit)** na [[IGNICAO-Vol-7-Maturidade-e-Exit#FASE 15 — REINVENÇÃO E SEGUNDA CURVA|Fase 15 (Vol. 7)]], [[IGNICAO-Vol-7-Maturidade-e-Exit#FASE 16 — EXIT STRATEGY|Fase 16 (Vol. 7)]] e nos Apêndices AM, BR e BF.
-
-Para consulta transversal, use os **Volumes 8, 9 e 10**: o **Volume 8 (Playbooks Setoriais)** reúne o Catálogo de Métricas por Fase (C), regulação e os playbooks de verticais brasileiras; o **Volume 9 (Ferramentário)** cataloga 163 frameworks em 19 categorias (BG); e o **Volume 10 (Canvases, Templates e Índices)** entrega os 20 canvases visuais (CZ), os 30+ templates copiáveis (A) e os glossários e índices gerais.
-
-E se você só tem quinze minutos, abra o volume e a fase do seu momento atual. Leia a abertura, as armadilhas, e a saída da fase. É suficiente para reorientar foco.
-
-### Sobre os exemplos: PadariaPro e os casos reais
-
-Você vai encontrar PadariaPro mencionado em vários templates ao longo do livro. É um caso fictício, criado para ilustrar todo o ciclo de instrumentos do livro num único arco coerente, da Declaração Inicial da ideia, na [[#FASE 2 — ARTICULAÇÃO E CAPTURA DA IDEIA|Fase 2]], até o Plano de Exit, na [[IGNICAO-Vol-7-Maturidade-e-Exit#FASE 16 — EXIT STRATEGY|Fase 16 (Vol. 7)]]. PadariaPro é um SaaS de gestão para padarias artesanais brasileiras com três a cinco lojas. Você acompanha os fundadores, também fictícios, preenchendo cada template em sequência. Story Tree, Canvas da Cunha, Banco de Hipóteses, Cartão de Experimento, Especificação de MVP, OKRs, Plano de Time, e por aí vai. A função é pedagógica. Um caso único permite ver continuidade entre os instrumentos sem ter que reaprender contexto a cada novo template.
-
-Onde o caso real funciona melhor, o livro usa empresas brasileiras documentadas. Stone, Quinto Andar, Hotmart, Magazine Luiza, RD Station, Linx. Os pontos onde elas aparecem são Especificação de MVP, Diagnóstico de PMF, Máquina de Crescimento em escala, Análise de Segunda Curva e Plano de Exit. Casos reais nesses pontos adicionam nuance e textura que um caso fictício não consegue produzir. Em alguns templates dos Volumes 1 e 2 (Ideação e Validação), como Declaração Inicial, Roteiro de Entrevista e Canvas da Cunha, você verá PadariaPro e um caso real lado a lado, para mostrar como o instrumento se comporta em contextos diferentes.
-
-Tanto os casos reais quanto o PadariaPro são instrumentos. Nenhum dos dois é receita.
-
-### Como este livro envelhece
-
-Envelhece rápido: nomes de fundos, valuations específicos, ferramentas de IA, features de produtos, alíquotas tributárias, regimes regulatórios. Envelhece devagar: frameworks clássicos, padrões de descoberta, psicologia do fundador, dinâmicas de mercado. Ao reler em ano futuro, desconfie de datas e números. Confie em processos e padrões. A próxima edição vai corrigir o que envelheceu mal. Esse é o privilégio de documento canônico sobre livro impresso.
-
-### O que este livro não é
-
-Não substitui advogado, contador, terapeuta, consultor regulatório ou mentor humano. Não é bola de cristal. Quando diz que a chance de sucesso em X é baixa, isso reflete padrões observáveis, não destino. As respostas para seu caso específico envolvem pessoas e contextos que nenhuma enciclopédia consegue antecipar.
-
-Empreender no Brasil é difícil. O livro não disfarça isso. Mas é possível, e milhares de pessoas conseguem todo ano. Este livro existe para aumentar a probabilidade de você estar entre elas, reduzindo erros evitáveis, preparando para os inevitáveis, e devolvendo o tempo que seria gasto descobrindo o que outros já descobriram.
+- **Volume 1 — Ideação e Fundação (este volume):** Fases 0 a 3 + 13 Capítulos de preparação financeira e mental do fundador, dinâmica de cofundadores, vieses, tomada de decisão, comunicação, produtividade com IA, aceleradoras e mentores.
+- **Volume 2 — Descoberta de Cliente e Mapeamento de Mercado:** Fases 4 a 6 + 4 Capítulos de psicologia do consumidor brasileiro, inteligência competitiva, Category Design e posicionamento estratégico.
+- **Volume 3 — Hipóteses, Experimentos, Prototipagem e Modelos de Negócio:** Fases 7 a 10 + 9 Capítulos sobre método científico, níveis de maturidade, gates de evidência, fechamento de fase, o framework *Idea → Wedge → Scale* e as arquiteturas de Marketplaces, Efeitos de Rede/Plataformas, B2B2C e Open Source (COSS).
+- **Volume 4 — Tração, Go-to-Market e Product-Market Fit:** Fases 11 a 13 + 16 Capítulos de GTM inicial, canais de aquisição, marketing, vendas consultivas, pricing, recorrência, negociação, Customer Success, CX, analytics, produto AI-native e pivô.
+- **Volume 5 — Finanças, Captação e Venture Capital:** Fase 14 + 20 Capítulos de demonstrativos financeiros, coortes, simulação financeira, caixa, captação de VC, valuation, SAFE/mútuo, fomento não-diluitivo, venture debt, contabilidade, Reforma Tributária, FP&A, capital de giro e seguros.
+- **Volume 6 — Receita Enterprise, Liderança e Cultura:** Fases 15 e 16 + 19 Capítulos de Growth em escala, vendas Enterprise, RevOps, parcerias corporativas, marca/PR, Founder Mode, rotina do CEO, contratação C-level, performance, remuneração, ESOP e cultura.
+- **Volume 7 — Produto, Engenharia, Dados, IA e Operações:** Fase 17 + 11 Capítulos de discovery contínuo, gestão de engenharia, dívida técnica, IA na engenharia de software, AI Ops, design organizacional, gestão do conhecimento e excelência operacional.
+- **Volume 8 — Blindagem Jurídica, Societária, LGPD e Segurança:** Fase 18 + 14 Capítulos de Marco Legal das Startups, responsabilidade dos sócios, propriedade intelectual/INPI, non-compete, contratos, direito do trabalho, CDC, contencioso, LGPD, regulação de IA, compliance, prevenção a fraudes e SOC 2 / ISO 27001.
+- **Volume 9 — Maturidade, Governança, Crise e Exit:** Fases 19 e 20 + 22 Capítulos de Conselho de Administração (Board), empresas familiares, conflitos societários, internacionalização, câmbio/tesouraria, gestão de crise, layoffs, recuperação judicial, M&A, Search Funds, IPO, secondaries, tributação de exit, post-mortems e second-time founders + Epílogo.
+- **Volume 10 — Playbooks Setoriais, Regulação e Glossário Geral:** 13 Capítulos cobrindo ciclos macroeconômicos, autarquias reguladoras (BACEN, CVM, ANVISA, ANS, ANATEL, ANEEL), CADE, políticas públicas e os 9 Playbooks Setoriais (Biotech/Healthtech, Hardware, Govtech, Agritech, Edtech, Cleantech, Proptech, Legaltech e Logtech), seguidos pelo Glossário Geral, Bibliografia e Índices da Coleção.
 
 ---
 
 ## Mapa da Coleção IGNIÇÃO
 
 ```mermaid
-flowchart TD
-    subgraph JORNADA["Trilha Principal — Da Ideação ao Exit (Vols. 1 a 7)"]
-        V1["<b>Vol. 1 — Ideação</b><br/>Fases 0 a 2B · Fundador, Ideia e Tese"]
-        V2["<b>Vol. 2 — Validação</b><br/>Fases 3 a 9 · Descoberta, Hipóteses e Protótipo"]
-        V3["<b>Vol. 3 — Tração</b><br/>Fases 10 a 12 · MVP, GTM Inicial e PMF"]
-        V4["<b>Vol. 4 — Captação e Finanças</b><br/>Fase 13 · Societário, VC, Tributário e FP&A"]
-        V5["<b>Vol. 5 — Receita e Pessoas</b><br/>Fase 14 · Enterprise, RevOps, Liderança e Cultura"]
-        V6["<b>Vol. 6 — Engenharia e Jurídico</b><br/>Produto em Escala, IA, Operações e Blindagem Legal"]
-        V7["<b>Vol. 7 — Maturidade e Exit</b><br/>Fases 15 e 16 · Board, Internacionalização, Crise e Saída"]
-        V1 ==>|"Tese explícita"| V2
-        V2 ==>|"Problem-Solution Fit"| V3
-        V3 ==>|"Product-Market Fit"| V4
-        V4 ==>|"Base estruturada"| V5
-        V5 <==>|"Execução integrada"| V6
-        V5 & V6 ==>|"Operação madura"| V7
+graph LR
+    subgraph J1["Do Zero à Validação"]
+        V1["<b>Vol. 1 — Ideação</b><br/>Fases 0 a 3 · Fundador e Teoria"]
+        V2["<b>Vol. 2 — Descoberta e Mercado</b><br/>Fases 4 a 6 · Cliente e Cunha"]
+        V3["<b>Vol. 3 — Hipóteses e Protótipo</b><br/>Fases 7 a 10 · Testes e Modelos"]
+        V1 --> V2 --> V3
     end
-    subgraph REFERENCIA["Biblioteca Transversal — Consulta Sob Demanda (Vols. 8 a 10)"]
-        V8["<b>Vol. 8 — Playbooks Setoriais</b><br/>Verticais Brasileiras, Regulação, Macro e Métricas"]
-        V9["<b>Vol. 9 — Ferramentário (BG)</b><br/>163 Frameworks de Estratégia, Produto, Vendas e Gestão"]
-        V10["<b>Vol. 10 — Canvases, Templates e Índices</b><br/>20 Mapas Visuais (CZ) · 30 Templates (A) · Glossário"]
+    subgraph J2["Tração e Escala"]
+        V4["<b>Vol. 4 — Tração e PMF</b><br/>Fases 11 a 13 · MVP, GTM e Vendas"]
+        V5["<b>Vol. 5 — Finanças e Captação</b><br/>Fase 14 · Caixa, VC, Tributário e FP&A"]
+        V6["<b>Vol. 6 — Receita e Pessoas</b><br/>Fases 15 e 16 · Enterprise, Líderes e Cultura"]
+        V7["<b>Vol. 7 — Produto e Engenharia</b><br/>Fase 17 · Operações, IA e Arquitetura"]
+        V8["<b>Vol. 8 — Jurídico e Segurança</b><br/>Fase 18 · Societário, Contratos e LGPD"]
+        V3 --> V4 --> V5 --> V6 --> V7 --> V8
     end
-    REFERENCIA -.->|"Consulta transversal em todas as fases"| JORNADA
-    style V1 fill:#ff6b1a,color:#ffffff,stroke:#1a0a00,stroke-width:3px
+    subgraph J3["Ciclo Longo e Setores"]
+        V9["<b>Vol. 9 — Maturidade e Exit</b><br/>Fases 19 e 20 · Board, Crise, M&A e IPO"]
+        V10["<b>Vol. 10 — Verticais e Glossário</b><br/>Regulação, 9 Setores e Índices Gerais"]
+        V8 --> V9
+    end
+    V10 -. "Consulta Setorial e Dicionário" .-> J1
+    V10 -. "Consulta Setorial e Dicionário" .-> J2
+    V10 -. "Consulta Setorial e Dicionário" .-> J3
 ```
 
 ---
 
 ## Sumário deste Volume
 
-### Fases da Etapa (Ideação)
-
-- [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR]]
-- [[#FASE 1 — ENCONTRAR A IDEIA]]
-- [[#FASE 2 — ARTICULAÇÃO E CAPTURA DA IDEIA]]
-- [[#FASE 2B — CONSTRUÇÃO DA TEORIA DO NEGÓCIO]]
-
-### Fundador, Co-founders e Preparação Pessoal
-
-- [[#APÊNDICE AJ — DINHEIRO PESSOAL DO FUNDADOR]]
-- [[#APÊNDICE Y — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR]]
-- [[#APÊNDICE D — ARMADILHAS MENTAIS E VIESES]]
-- [[#APÊNDICE CS — BOOTSTRAP vs VENTURE CAPITAL: A ESCOLHA FUNDACIONAL]]
-- [[#APÊNDICE CN — DIVERSIDADE DE JORNADAS: CASOS ALÉM DO CÂNONE]]
-
-### Cognição, Decisão, Comunicação e Produtividade com IA
-
-- [[#APÊNDICE EJ — TOMADA DE DECISÃO COMO DISCIPLINA]]
-- [[#APÊNDICE EK — INFLUÊNCIA E PERSUASÃO SEM AUTORIDADE FORMAL]]
-- [[#APÊNDICE EW — COMUNICAÇÃO ESCRITA PARA NEGÓCIOS]]
-- [[#APÊNDICE EX — APRESENTAÇÃO E FALA EM PÚBLICO]]
-- [[#APÊNDICE I — IA GENERATIVA COMO ACELERADOR DO EMPREENDEDOR (2026)]]
-- [[#APÊNDICE CT — IA COMO CO-PILOTO DO FUNDADOR (2026)]]
-
-### Ecossistema, Mentoria e Apoio Inicial
-
-- [[#APÊNDICE AK — ACELERADORAS, PROGRAMAS E PARCEIROS INSTITUCIONAIS PARA STARTUP BRASILEIRA]]
-- [[#APÊNDICE AL — REDE, MENTORES E ADVISORS — COMO CONSTRUIR O CAPITAL HUMANO DO EMPREENDEDOR]]
+### Fases da Etapa (Fases 0 a 3)
+- [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|FASE 0 — PREPARAÇÃO DO EMPREENDEDOR]]
+- [[#FASE 1 — ENCONTRAR A IDEIA|FASE 1 — ENCONTRAR A IDEIA]]
+- [[#FASE 2 — ARTICULAÇÃO E CAPTURA DA IDEIA|FASE 2 — ARTICULAÇÃO E CAPTURA DA IDEIA]]
+- [[#FASE 3 — CONSTRUÇÃO DA TEORIA DO NEGÓCIO|FASE 3 — CONSTRUÇÃO DA TEORIA DO NEGÓCIO]]
+### Fundador, Cofundadores e Preparação Pessoal (Capítulos 1 a 5)
+- [[#CAPÍTULO 1 — DINHEIRO PESSOAL DO FUNDADOR|CAPÍTULO 1 — DINHEIRO PESSOAL DO FUNDADOR]]
+- [[#CAPÍTULO 2 — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|CAPÍTULO 2 — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR]]
+- [[#CAPÍTULO 3 — ARMADILHAS MENTAIS E VIESES|CAPÍTULO 3 — ARMADILHAS MENTAIS E VIESES]]
+- [[#CAPÍTULO 4 — BOOTSTRAP vs VENTURE CAPITAL: A ESCOLHA FUNDACIONAL|CAPÍTULO 4 — BOOTSTRAP vs VENTURE CAPITAL: A ESCOLHA FUNDACIONAL]]
+- [[#CAPÍTULO 5 — DIVERSIDADE DE JORNADAS: CASOS ALÉM DO CÂNONE|CAPÍTULO 5 — DIVERSIDADE DE JORNADAS: CASOS ALÉM DO CÂNONE]]
+### Cognição, Decisão, Comunicação e Produtividade com IA (Capítulos 6 a 11)
+- [[#CAPÍTULO 6 — TOMADA DE DECISÃO COMO DISCIPLINA|CAPÍTULO 6 — TOMADA DE DECISÃO COMO DISCIPLINA]]
+- [[#CAPÍTULO 7 — INFLUÊNCIA E PERSUASÃO SEM AUTORIDADE FORMAL|CAPÍTULO 7 — INFLUÊNCIA E PERSUASÃO SEM AUTORIDADE FORMAL]]
+- [[#CAPÍTULO 8 — COMUNICAÇÃO ESCRITA PARA NEGÓCIOS|CAPÍTULO 8 — COMUNICAÇÃO ESCRITA PARA NEGÓCIOS]]
+- [[#CAPÍTULO 9 — APRESENTAÇÃO E FALA EM PÚBLICO|CAPÍTULO 9 — APRESENTAÇÃO E FALA EM PÚBLICO]]
+- [[#CAPÍTULO 10 — IA GENERATIVA COMO ACELERADOR DO EMPREENDEDOR (2026)|CAPÍTULO 10 — IA GENERATIVA COMO ACELERADOR DO EMPREENDEDOR (2026)]]
+- [[#CAPÍTULO 11 — IA COMO CO-PILOTO DO FUNDADOR (2026)|CAPÍTULO 11 — IA COMO CO-PILOTO DO FUNDADOR (2026)]]
+### Ecossistema, Mentoria e Apoio Inicial (Capítulos 12 e 13)
+- [[#CAPÍTULO 12 — ACELERADORAS, PROGRAMAS E PARCEIROS INSTITUCIONAIS PARA STARTUP BRASILEIRA|CAPÍTULO 12 — ACELERADORAS, PROGRAMAS E PARCEIROS INSTITUCIONAIS PARA STARTUP BRASILEIRA]]
+- [[#CAPÍTULO 13 — REDE, MENTORES E ADVISORS — COMO CONSTRUIR O CAPITAL HUMANO DO EMPREENDEDOR|CAPÍTULO 13 — REDE, MENTORES E ADVISORS — COMO CONSTRUIR O CAPITAL HUMANO DO EMPREENDEDOR]]
 
 ---
 
-# FASES DA ETAPA — IDEAÇÃO
+# FASES DA ETAPA — IDEAÇÃO E FUNDAÇÃO (FASES 0 A 3)
 
----
+### Arquitetura deste Domínio: Da Preparação Pessoal à Teoria Causal do Negócio (Fases 0 a 3)
 
-### Arquitetura deste Domínio: Da Preparação Pessoal à Teoria Causal do Negócio
+Os quatro primeiros estágios da jornada empreendedora (**[[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]]**, **[[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]**, **[[#FASE 2 — ARTICULAÇÃO E CAPTURA DA IDEIA|Fase 2]]** e **[[#FASE 3 — CONSTRUÇÃO DA TEORIA DO NEGÓCIO|Fase 3]]**) formam um funil progressivo de redução de incerteza antes de qualquer linha de código ou CNPJ. Este volume é **100% autocontido**: ao final de cada fase, você encontrará integralmente as **Métricas da Fase**, o **Manual Passo a Passo dos Frameworks**, os **Canvases Visuais preenchidos com casos brasileiros** e os **Templates operacionais prontos para uso**.
 
-*Antes da empresa: você, a ideia e a teoria do negócio.*
-
-Três caminhos costumam trazer alguém até este ponto. O primeiro: uma ideia que não sai da cabeça há semanas, e você quer descobrir se vale a pena tentar. O segundo: insatisfação com a trajetória atual, e empreender virou saída possível na sua imaginação. O terceiro: convite — um amigo, um ex-colega, um investidor te chamou para começar algo junto, e você precisa decidir se topa.
-
-Qualquer um dos três é começo legítimo. Nenhum deles, isolado, é suficiente. Os dois primeiros volumes desta coleção (**Volume 1 — Ideação** e **Volume 2 — Validação**) existem para transformar a situação em que você está numa decisão informada: primeiro sobre se empreender, depois sobre qual problema, depois sobre quais clientes, depois sobre que solução. Quem segue as fases em ordem chega ao final do Volume 2 com ideia validada com usuários reais, solução testada em protótipo, e base concreta para o MVP do **Volume 3 — Tração**. Quem descobre no caminho que a ideia não era viável também ganha: economiza anos numa direção errada, com pouco dinheiro queimado.
-
-Este **Volume 1 (Ideação)** cobre as quatro fases fundacionais (**Fase 0 a Fase 2B**), cada uma com método próprio, executores, métricas, armadilhas e critérios de saída, seguidas pelas sete fases de descoberta e experimentação do **Volume 2 (Validação, Fases 3 a 9)**. A ordem importa. Ignorar a [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]] e pular direto para a [[IGNICAO-Vol-2-Validacao#FASE 8 — IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES|Fase 8 (Vol. 2)]] de prototipagem é a causa mais comum de empresa que nasce errada.
-
-Um aviso: **as etapas de Ideação e Validação são lentas de propósito**. Empreendedor experiente executa essas fases em paralelo e condensado; iniciante tentando fazer o mesmo queima a primeira tentativa. Se em algum momento bater a sensação de "isso é detalhe demais para ideia que nem existe", pause em vez de acelerar. O detalhe está aqui porque a probabilidade da ideia sobreviver sem ele é baixa, e fundador iniciante quase nunca tem repertório para saber o que pode pular.
-
-> [!tip] Roteiro de leitura, dependências causais e instrumentos conectados
-> - **Sequência causal obrigatória:** A [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]] define as restrições reais do fundador (runway pessoal, apetite a risco e alinhamento societário). Essas restrições filtram quais problemas fazem sentido atacar na [[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]. A ideia escolhida é cristalizada em uma página na [[#FASE 2 — ARTICULAÇÃO E CAPTURA DA IDEIA|Fase 2]] (DII), que por sua vez é decomposta em cadeia de causa e efeito e premissas *bet-the-company* na [[#FASE 2B — CONSTRUÇÃO DA TEORIA DO NEGÓCIO|Fase 2B]] (Story Tree e DAG causal).
-> - **Frameworks e instrumentos conectados (Vols. 9 e 10):** A geração e triagem de ideias apoia-se em Effectuation (BG.2.11), Ansoff Matrix (BG.1.5) e PESTEL Analysis (BG.1.6) no **Volume 9 (Ferramentário)**, além dos templates A.1 (Declaração Inicial da Ideia), A.7 (Story Tree), A.8 (DAG Causal) e A.9 (Theory Map) e dos canvases CZ.1, CZ.2, CZ.8, CZ.14 e CZ.16 no **Volume 10 (Canvases e Templates)**.
-
-Começa pelo começo: você.
+1. **A [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0 (Preparação do Empreendedor)]]** audita o sistema que precede a empresa: seu caixa pessoal (runway de pessoa física), sua reserva emocional, seu acordo familiar, seu *Founder-Market Fit* (FMF) e seus pontos de parada. Inclui o manual completo de *Hedgehog Concept*, *Effectuation*, *First Principles Thinking*, *Cynefin*, *Vieses Cognitivos* e *Pre-Mortem*, além do *Team Canvas* e do roteiro de *Entrevista com Advisor*.
+2. **A [[#FASE 1 — ENCONTRAR A IDEIA|Fase 1 (Encontrar a Ideia)]]** substitui a espera pelo "momento eureka" por geração sistemática e filtragem implacável de problemas reais. Traz integrados os manuais passo a passo de *Blue Ocean Strategy (ERRC Grid)*, *Three Horizons*, *Wardley Mapping* e *Inversion*, além do *Lean Canvas* completo com caso brasileiro preenchido (QuintoAndar).
+3. **A [[#FASE 2 — ARTICULAÇÃO E CAPTURA DA IDEIA|Fase 2 (Articulação e Captura da Ideia)]]** força a tese a caber no documento fundacional mais importante do início da jornada: a **Declaração de Intenção Inicial (DII)** em 7 blocos. Traz integrados os manuais de *Playing to Win*, *Good Strategy / Bad Strategy*, *Core Competencies*, *Value Disciplines* e *Pyramid Principle*, o *Business Model Canvas (BMC)* preenchido (Nubank) e o *Template completo da DII*.
+4. **A [[#FASE 3 — CONSTRUÇÃO DA TEORIA DO NEGÓCIO|Fase 3 (Construção da Teoria do Negócio)]]** transforma a DII em um sistema de relações causais explícitas (*Story Tree* e Grafo Acíclico Direcionado — *DAG*), expondo quais premissas são *bet-the-company*. Traz integrados os manuais de *Second-Order Thinking*, *MECE*, *OODA Loop*, *McKinsey 7-Step Problem Solving*, *5 Whys*, *Ishikawa* e *Pareto*, além do *Theory Map Canvas* e dos templates de *Árvore de Teoria* e *Mapa Causal*.
 
 ---
 
@@ -283,7 +210,7 @@ Você provavelmente não deveria empreender agora se:
 
 8. Você está no meio de uma trajetória profissional que estava dando certo. Promoção recente, aumento significativo, caminho de liderança em empresa consolidada. Nunca vai ser o "bom momento" de sair do emprego, mas em trajetória ascendente alta o custo de oportunidade é enorme. Isso não significa que você não pode empreender. Significa que você precisa fazer o cálculo com clareza. Quanto está deixando? O que vai buscar? Decisão com olhos abertos, não impulso.
 
-9. Você tem condição de saúde mental não-tratada. Depressão, ansiedade severa, transtornos específicos sem acompanhamento. A trajetória empreendedora agrava saúde mental frágil. Não é remédio. Trate primeiro. O [[#APÊNDICE Y — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Apêndice Y]] detalha o impacto da rotina empreendedora em ansiedade e depressão, avaliação inicial, e quando buscar ajuda profissional antes de empreender.
+9. Você tem condição de saúde mental não-tratada. Depressão, ansiedade severa, transtornos específicos sem acompanhamento. A trajetória empreendedora agrava saúde mental frágil. Não é remédio. Trate primeiro. O [[#CAPÍTULO 2 — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Capítulo 2 (SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR)]] detalha o impacto da rotina empreendedora em ansiedade e depressão, avaliação inicial, e quando buscar ajuda profissional antes de empreender.
 
 10. Você quer empreender porque odeia seu emprego atual. Fugir de algo é diferente de ir em direção a algo. Frequentemente a trajetória empreendedora fica mais difícil que o emprego ruim. Resolva o trabalho primeiro. Depois empreenda por motivo positivo, não evasivo.
 
@@ -309,8 +236,8 @@ Execute estas oito tarefas em sequência.
    >
    > É o número de meses que você aguenta sem receita. Se é menor que seis meses, não largue o seu emprego para empreender agora. Empreenda em paralelo.
 
-   > [!tip] Apêndice AJ — Dinheiro Pessoal do Fundador
-   > O diagnóstico acima é o ponto de partida. O [[#APÊNDICE AJ — DINHEIRO PESSOAL DO FUNDADOR|Apêndice AJ]] aprofunda: pró-labore sustentável por fase, gestão de dívida pessoal enquanto a empresa cresce, e como separar as finanças pessoais das da empresa desde o início.
+   > [!tip] Capítulo 1 — Dinheiro Pessoal do Fundador
+   > O diagnóstico acima é o ponto de partida. O [[#CAPÍTULO 1 — DINHEIRO PESSOAL DO FUNDADOR|Capítulo 1 (DINHEIRO PESSOAL DO FUNDADOR)]] aprofunda: pró-labore sustentável por fase, gestão de dívida pessoal enquanto a empresa cresce, e como separar as finanças pessoais das da empresa desde o início.
 
 2. Teste de motivação real, uma hora, em silêncio, sem pressa. Responda por escrito, com honestidade brutal. Por que eu quero empreender? Escreva cinco razões. Dessas razões, quais são sobre mim (ego, liberdade, dinheiro) e quais são sobre o problema ou o cliente? Do que eu estou fugindo? Chefe ruim, trabalho tedioso, sensação de fracasso? Cuidado: empreender para fugir de algo é fonte frequente de decisões ruins. Eu faria isso se nunca ficasse rico? Se não, qual é o valor mínimo que precisa sair disso para fazer valer a pena?
 
@@ -319,19 +246,19 @@ Execute estas oito tarefas em sequência.
 4. Conversa estruturada com quem compartilha a sua vida, uma a duas horas. Se você tem cônjuge, filhos, ou alguém que depende de você, marque uma conversa formal. Não um comentário de jantar. Apresente quanto dinheiro você planeja alocar, qual o prazo que dá a si mesmo antes de reavaliar, qual impacto isso terá na rotina familiar, qual é o plano B se não der certo. Peça uma resposta honesta. Se a pessoa não apoia, trate isso como informação crítica. Não como obstáculo a ser ignorado.
 
    > [!note] Convencer família e rede próxima sem autoridade formal é habilidade
-   > Você não tem poder hierárquico sobre cônjuge, pais ou amigos próximos. O [[#APÊNDICE EK — INFLUÊNCIA E PERSUASÃO SEM AUTORIDADE FORMAL|Apêndice EK — Influência e Persuasão sem Autoridade Formal]] cobre como construir alinhamento genuíno com pessoas que não são obrigadas a concordar com você — ferramenta direta para a conversa desta etapa.
+   > Você não tem poder hierárquico sobre cônjuge, pais ou amigos próximos. O [[#CAPÍTULO 7 — INFLUÊNCIA E PERSUASÃO SEM AUTORIDADE FORMAL|Capítulo 7 — Influência e Persuasão sem Autoridade Formal]] cobre como construir alinhamento genuíno com pessoas que não são obrigadas a concordar com você — ferramenta direta para a conversa desta etapa.
 
 5. Avaliação de saúde física e mental, trinta minutos. Sono, condições crônicas que pioram com estresse, rede de apoio emocional disponível. Se já está em tratamento, converse com o seu profissional antes de aumentar a pressão.
 
 6. Definição de prazo e critérios de desistência, uma hora. Defina de antemão quanto tempo você dá ao projeto antes de reavaliar (sugiro doze meses para a primeira reavaliação formal). Quais sinais de fracasso justificam desistir antes (nenhum cliente pagante depois de seis meses de tentativa ativa, reserva abaixo de X reais). Quais sinais de sucesso justificam acelerar (primeiro cliente pagante recorrente em noventa dias). Defina esses critérios agora, com a cabeça fria. No meio da tempestade, você não vai ter objetividade para defini-los.
 
    > [!note] A decisão de empreender é Tipo 1 — irreversível por meses ou anos
-   > O [[#APÊNDICE EJ — TOMADA DE DECISÃO COMO DISCIPLINA|Apêndice EJ — Tomada de Decisão como Disciplina]] distingue decisões reversíveis (Tipo 2, podem ser desfeitas rapidamente) de decisões irreversíveis (Tipo 1, com custo alto de reversão). Largar emprego, comprometer o runway pessoal e recrutar cofundadores são Tipo 1. O SPADE (método para estruturar decisões de alto impacto) e a técnica de pré-mortem (exercício de imaginar o fracasso antes de decidir) do Apêndice EJ ajudam a estruturar esse tipo de decisão antes de tomar, não depois.
+   > O [[#CAPÍTULO 6 — TOMADA DE DECISÃO COMO DISCIPLINA|Capítulo 6 — Tomada de Decisão como Disciplina]] distingue decisões reversíveis (Tipo 2, podem ser desfeitas rapidamente) de decisões irreversíveis (Tipo 1, com custo alto de reversão). Largar emprego, comprometer o runway pessoal e recrutar cofundadores são Tipo 1. O SPADE (método para estruturar decisões de alto impacto) e a técnica de pré-mortem (exercício de imaginar o fracasso antes de decidir) do Capítulo 6 (TOMADA DE DECISÃO COMO DISCIPLINA) ajudam a estruturar esse tipo de decisão antes de tomar, não depois.
 
 7. Escolha do modelo de dedicação entre três caminhos: full-time (largar tudo, exige runway de doze meses ou mais), part-time (manter emprego, dez a vinte horas semanais), ou side project exploratório (cinco a dez horas semanais, sem pressão de virar empresa, serve para as fases 1 a 4).
 
-   > [!note] Apêndice BQ — Gestão de Tempo do Fundador
-   > Independente do modelo escolhido (full, part ou side), a alocação de tempo será o recurso mais escasso e mais mal gerenciado nos primeiros meses. O [[IGNICAO-Vol-5-Receita-e-Pessoas#APÊNDICE BQ — GESTÃO DE TEMPO DO FUNDADOR E OPERATING CADENCE|Apêndice BQ (Vol. 5)]] cobre time-blocking, rituais semanais e como proteger tempo profundo contra demandas operacionais — especialmente relevante para quem empreende em paralelo ao emprego.
+   > [!note] Capítulo 11 (Vol. 6) — Gestão de Tempo do Fundador
+   > Independente do modelo escolhido (full, part ou side), a alocação de tempo será o recurso mais escasso e mais mal gerenciado nos primeiros meses. O [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 11 — GESTÃO DE TEMPO DO FUNDADOR E OPERATING CADENCE|Capítulo 11 (GESTÃO DE TEMPO DO FUNDADOR E OPERATING CADENCE) (Vol. 6)]] cobre time-blocking, rituais semanais e como proteger tempo profundo contra demandas operacionais — especialmente relevante para quem empreende em paralelo ao emprego.
 
 8. Escrita do Dossiê Pessoal. Consolide os passos acima em um documento simples e releia ao final de cada fase seguinte. Atualize sempre que algo descoberto no caminho invalidar uma premissa.
 
@@ -339,10 +266,10 @@ Execute estas oito tarefas em sequência.
 
 A [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]] é sobre preparar a pessoa que vai empreender, não o negócio. Paul Graham tem alguns ensaios especificamente sobre essa dimensão. Sobre o tipo de pessoa que tende a ter sucesso em startup, o tipo de pensamento que ajuda, o tipo de armadilha interna que derruba. Não são conselhos de "atitude positiva". São observações baseadas na experiência de ter acompanhado mais de três mil fundadores no Y Combinator, cruzada com padrões identificados em retrospecto.
 
-> [!note] Apêndice BF — Second-Time Founder
-> Se você já empreendeu antes — com exit (saída, venda ou encerramento da empresa) com fracasso, ou com empresa ainda ativa — a sua Fase 0 é diferente. O [[IGNICAO-Vol-7-Maturidade-e-Exit#APÊNDICE BF — SECOND-TIME FOUNDER|Apêndice BF (Vol. 7)]] trata de como o histórico anterior muda a equação de runway, escolha de sócio, e autoconhecimento exigidos aqui.
+> [!note] Capítulo 22 (Vol. 9) — Second-Time Founder
+> Se você já empreendeu antes — com exit (saída, venda ou encerramento da empresa) com fracasso, ou com empresa ainda ativa — a sua Fase 0 é diferente. O [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 22 — SECOND-TIME FOUNDER|Capítulo 22 (SECOND-TIME FOUNDER) (Vol. 9)]] trata de como o histórico anterior muda a equação de runway, escolha de sócio, e autoconhecimento exigidos aqui.
 
-Os três ensaios abaixo são os que mais se aplicam à decisão da Fase 0. Outros três do mesmo autor (*What We Look for in Founders*, *Before the Startup*, *You Weren't Meant to Have a Boss*) entram resumidos no fim. Os links estão no [[IGNICAO-Vol-8-Playbooks-Setoriais#APÊNDICE E — RECURSOS E LEITURAS RECOMENDADAS|Apêndice E (Vol. 8)]].
+Os três ensaios abaixo são os que mais se aplicam à decisão da Fase 0. Outros três do mesmo autor (*What We Look for in Founders*, *Before the Startup*, *You Weren't Meant to Have a Boss*) entram resumidos no fim. Os links estão no [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#BIBLIOGRAFIA GERAL|Bibliografia e Leituras Recomendadas (Vol. 10)]].
 
 #### A ideia dominante na sua cabeça, *The Top Idea in Your Mind* (Graham, 2010)
 
@@ -355,7 +282,7 @@ Teste simples, feito nos próximos três banhos, sem tentar. Quando a sua mente 
 Graham identifica dois tipos de pensamento particularmente perigosos para fundadores, porque roubam atenção de forma desproporcional ao benefício. Um é pensamento sobre dinheiro. Captação tende a virar atolamento mental que consome cem por cento do foco por semanas. O outro é pensamento sobre disputas. Brigas ocupam espaço imenso, e pior, têm formato velcro. Parecem ter substância, mas não têm. Se você está hoje no meio de uma captação ou de uma disputa, aceite que o seu trabalho estratégico vai sofrer durante esse período. Não marque outras decisões importantes para acontecerem em paralelo.
 
 > [!tip] Bootstrap como alternativa
-> Antes de assumir VC como caminho default, ler [[#APÊNDICE CS — BOOTSTRAP vs VENTURE CAPITAL: A ESCOLHA FUNDACIONAL|Apêndice CS]] para a escolha fundacional. Bootstrap e venture capital são trade-offs distintos, não níveis de ambição.
+> Antes de assumir VC como caminho default, ler [[#CAPÍTULO 4 — BOOTSTRAP vs VENTURE CAPITAL: A ESCOLHA FUNDACIONAL|Capítulo 4 (BOOTSTRAP vs VENTURE CAPITAL: A ESCOLHA FUNDACIONAL)]] para a escolha fundacional. Bootstrap e venture capital são trade-offs distintos, não níveis de ambição.
 
 > [!important] Regra operacional da Fase 0
 > Antes de começar, faça um inventário honesto de loops abertos na sua vida. Dívidas não-renegociadas, conflitos interpessoais, compromissos não-cumpridos, processos incompletos. Feche o máximo possível. Cada loop aberto é imposto mental sobre a sua capacidade futura de ser fundador.
@@ -445,14 +372,14 @@ Média abaixo de 3 por três semanas consecutivas é sinal de parada obrigatóri
 
 **Recursos no Brasil.**
 
-O [[#APÊNDICE Y — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Apêndice Y]] cobre saúde mental em estágios posteriores (escala, crises, exit). Para Fase 0, os recursos mais práticos são: comunidades de founders (Abstartups, grupos locais de ACE, Endeavor, Women in Tech), psicólogo ou psiquiatra com experiência em profissionais de alta performance (não é luxo — é infraestrutura), e accountability partner (outro fundador que faz check-in semanal mútuo). Em São Paulo e Rio, existem grupos específicos de saúde mental para empreendedores — procurar por "fundadores" em plataformas como Vittude, Doctoralia, ou Mind Lab.
+O [[#CAPÍTULO 2 — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Capítulo 2 (SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR)]] cobre saúde mental em estágios posteriores (escala, crises, exit). Para Fase 0, os recursos mais práticos são: comunidades de founders (Abstartups, grupos locais de ACE, Endeavor, Women in Tech), psicólogo ou psiquiatra com experiência em profissionais de alta performance (não é luxo — é infraestrutura), e accountability partner (outro fundador que faz check-in semanal mútuo). Em São Paulo e Rio, existem grupos específicos de saúde mental para empreendedores — procurar por "fundadores" em plataformas como Vittude, Doctoralia, ou Mind Lab.
 
 > [!warning] O mito da resiliência como identidade
 > A cultura empreendedora glorifica "nunca desistir" de forma que patologiza o cuidado com saúde mental. "Founder resiliente" se tornou identidade, o que torna admitir fraqueza uma ameaça à identidade. O resultado prático: founders com sinais sérios de burnout escondem por meses, esperando "passar sozinho". Não passa. Resiliência real inclui saber quando pedir ajuda.
 
 ### Sócios, a decisão mais irreversível da Fase 0
 
-A [[IGNICAO-Vol-4-Captacao-e-Financas#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13 (Vol. 4)]] cobre cap table (tabela de participação societária). O [[#APÊNDICE Y — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Apêndice Y]] cobre conflito entre sócios. Mas a escolha de sócios acontece antes de tudo isso, e é a decisão mais irreversível que você toma na trajetória empreendedora. Divórcio societário é processo doloroso, caro, que destrói empresas boas e relacionamentos antes sólidos.
+A [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18 (Vol. 8)]] cobre cap table (tabela de participação societária). O [[#CAPÍTULO 2 — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Capítulo 2 (SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR)]] cobre conflito entre sócios. Mas a escolha de sócios acontece antes de tudo isso, e é a decisão mais irreversível que você toma na trajetória empreendedora. Divórcio societário é processo doloroso, caro, que destrói empresas boas e relacionamentos antes sólidos.
 
 Esta seção tem três partes. Pilar A, decidir se você vai ter sócio. Pilar B, como escolher e testar quem entra. Pilar C, onde encontrar, se não tem candidato no networking natural.
 
@@ -473,8 +400,8 @@ A literatura tem uma contracorrente importante. O paper "Sole Survivors" (Jason 
 
 **A regra prática.** Se você consegue fazer setenta por cento do trabalho inicial sozinho, e tem caixa para contratar os trinta por cento que faltam, considere começar solo. Adicione sócio-chave só depois de confirmar se funciona. Quem decide ir solo deve fazer isso consciente de que está aceitando desvantagem em captação e velocidade. Não necessariamente em sucesso final.
 
-> [!tip] Apêndice CZ — Team Canvas (CZ.8)
-> Quando o time é formado por dois ou mais cofundadores, o [[IGNICAO-Vol-10-Canvases-e-Templates#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Team Canvas (CZ.8) (Vol. 10)]] (Alex Ivanov, 2015) é o template para alinhar People, Goals, Roles, Values, Strengths e Rules de forma explícita — antes de começar, não depois do primeiro conflito. Use junto com a discussão de equity split. CZ.8 também é referenciado em [[IGNICAO-Vol-5-Receita-e-Pessoas#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14 (Vol. 5)]] para o leadership team em escala.
+> [!tip] Canvases Visuais — Team Canvas (Fase 0)
+> Quando o time é formado por dois ou mais cofundadores, o [[#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Team Canvas (Canvas: Team Canvas (Alex Ivanov, 2015))]] (Alex Ivanov, 2015) é o template para alinhar People, Goals, Roles, Values, Strengths e Rules de forma explícita — antes de começar, não depois do primeiro conflito. Use junto com a discussão de equity split. Canvas: Team Canvas (Alex Ivanov, 2015) (Fase 0) também é referenciado em [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16 (Vol. 6)]] para o leadership team em escala.
 
 #### Pilar B — Como escolher e testar quem entra
 
@@ -575,10 +502,10 @@ A terceira opção é retiro de alinhamento. Dois a três dias juntos focados em
 
 Duas ferramentas úteis. O FAST (Founder Advisor Standard Template, criado por Adeo Ressi no Founder Institute em 2011), contrato padrão para formalizar a relação com advisors, é desenhado para advisor, mas ajuda a pensar de forma estruturada sobre relação de longo prazo. *The Founder's Dilemmas* do Noam Wasserman é livro com modelos de decisão sobre sócios, equity e controle.
 
-E acordo de sócios desde o dia um. Vesting (cronograma de aquisição gradual da participação) agressivo — quatro anos com um ano de cliff (período mínimo antes de começar a adquirir equity) — cláusulas de saída, resolução de conflito. O [[IGNICAO-Vol-6-Engenharia-e-Juridico#APÊNDICE AH — CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS|Apêndice AH (Vol. 6)]] cobre detalhes jurídicos.
+E acordo de sócios desde o dia um. Vesting (cronograma de aquisição gradual da participação) agressivo — quatro anos com um ano de cliff (período mínimo antes de começar a adquirir equity) — cláusulas de saída, resolução de conflito. O [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 5 — CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS|Capítulo 5 (CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS) (Vol. 8)]] cobre detalhes jurídicos.
 
 > [!note] Negociar equity entre cofundadores é uma negociação formal
-> A divisão de participação societária envolve BATNA (melhor alternativa caso o acordo não aconteça), ancoragem por quem propõe primeiro e zonas de acordo que raramente são discutidas com método. O [[IGNICAO-Vol-3-Tracao#APÊNDICE DS — NEGOCIAÇÃO COMO DISCIPLINA|Apêndice DS — Negociação como Disciplina (Vol. 3)]] oferece o arcabouço (BATNA, ZOPA — zona de possível acordo, ancoragem) para conduzir essa conversa com clareza, não por instinto.
+> A divisão de participação societária envolve BATNA (melhor alternativa caso o acordo não aconteça), ancoragem por quem propõe primeiro e zonas de acordo que raramente são discutidas com método. O [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 11 — NEGOCIAÇÃO COMO DISCIPLINA|Capítulo 11 — Negociação como Disciplina (Vol. 4)]] oferece o arcabouço (BATNA, ZOPA — zona de possível acordo, ancoragem) para conduzir essa conversa com clareza, não por instinto.
 
 Sobre equity split, três princípios. Divisão cinquenta-cinquenta exata é comum mas gera conflito em decisões empatadas. Tenha mecanismo de desempate. Divisão proporcional ao valor agregado (quem teve a ideia, quem terá maior esforço, quem trouxe capital) é mais defensável, mas mais difícil de negociar bem. Vesting é não-negociável. Quatro anos com um ano de cliff é padrão. Sem vesting, sócio que sai no mês seis fica com equity integral. Injusto, e problemático em rodadas futuras.
 
@@ -586,7 +513,7 @@ Confie, mas documente. Amigos viram desconhecidos quando dinheiro entra. Documen
 
 **Se você for empreender solo, conscientemente.**
 
-É possível. Mas você precisa substituir o que um cofundador forneceria por mecanismos alternativos. Compense a falta de técnica contratando CTO-as-a-service ou agência de confiança para o MVP (Produto Mínimo Viável). Depois contrate head técnico em tempo cheio antes do PMF. Compense a falta de comercial contratando mentor de vendas ou sales advisor com equity pequeno. Participe de aceleradoras que oferecem conexões de cliente e investidor — o [[#APÊNDICE AK — ACELERADORAS, PROGRAMAS E PARCEIROS INSTITUCIONAIS PARA STARTUP BRASILEIRA|Apêndice AK]] mapeia programas brasileiros e internacionais por estágio. Compense a falta de domínio rodeando-se de advisors do setor com reuniões mensais formais. E tenha disciplina extra para não tomar decisões sozinho no vácuo. Busque ativamente quem discorde antes de decisões grandes. Use IA generativa como amplificador cognitivo no dia a dia ([[#APÊNDICE CT — IA COMO CO-PILOTO DO FUNDADOR (2026)|Apêndice CT]] cobre workflows de IA para escrita, pesquisa e análise do empreendedor).
+É possível. Mas você precisa substituir o que um cofundador forneceria por mecanismos alternativos. Compense a falta de técnica contratando CTO-as-a-service ou agência de confiança para o MVP (Produto Mínimo Viável). Depois contrate head técnico em tempo cheio antes do PMF. Compense a falta de comercial contratando mentor de vendas ou sales advisor com equity pequeno. Participe de aceleradoras que oferecem conexões de cliente e investidor — o [[#CAPÍTULO 12 — ACELERADORAS, PROGRAMAS E PARCEIROS INSTITUCIONAIS PARA STARTUP BRASILEIRA|Capítulo 12 (ACELERADORAS, PROGRAMAS E PARCEIROS INSTITUCIONAIS PARA STARTUP BRASILEIRA)]] mapeia programas brasileiros e internacionais por estágio. Compense a falta de domínio rodeando-se de advisors do setor com reuniões mensais formais. E tenha disciplina extra para não tomar decisões sozinho no vácuo. Busque ativamente quem discorde antes de decisões grandes. Use IA generativa como amplificador cognitivo no dia a dia ([[#CAPÍTULO 11 — IA COMO CO-PILOTO DO FUNDADOR (2026)|Capítulo 11 (IA COMO CO-PILOTO DO FUNDADOR (2026))]] cobre workflows de IA para escrita, pesquisa e análise do empreendedor).
 
 #### Pilar C — Onde encontrar, se não tem candidato no networking natural
 
@@ -607,7 +534,7 @@ Para alguns fundadores, nenhum candidato óbvio existe no círculo próximo. Enc
 - **Ignorar red flags óbvias por química pessoal forte.** Pessoas carismáticas encantam e nos fazem ignorar gaps de caráter, histórico, ou compatibilidade técnica. Se você está convencido em 1 encontro, desconfie da própria convicção. Marque mais 3 encontros em contextos diferentes antes de decidir.
 - **Não checar referências.** Peça para conversar com 3 a 5 pessoas que trabalharam com o candidato. Pergunte: "você trabalharia novamente com ele/ela? Em que contexto sim, em que contexto não?". Hesitação na resposta é informação.
 
-A formalização jurídica e a divisão de equity têm tratamento detalhado na [[IGNICAO-Vol-4-Captacao-e-Financas#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13 (Vol. 4)]] (Estruturação) e no [[IGNICAO-Vol-6-Engenharia-e-Juridico#APÊNDICE AH — CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS|Apêndice AH (Vol. 6)]] (Contratos e Aspectos Legais). Aqui, a decisão que importa é quem é o sócio certo. A mecânica legal vem depois.
+A formalização jurídica e a divisão de equity têm tratamento detalhado na [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18 (Vol. 8)]] (Estruturação) e no [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 5 — CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS|Capítulo 5 (CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS) (Vol. 8)]] (Contratos e Aspectos Legais). Aqui, a decisão que importa é quem é o sócio certo. A mecânica legal vem depois.
 
 ### SAÍDA DESTA FASE
 
@@ -616,7 +543,7 @@ Você concluiu a [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]] quando todo
 - [ ] Escrevi em uma página "por que eu quero empreender" (entre 500 e 1.500 palavras), e o texto foi reescrito pelo menos duas vezes em três dias.
 - [ ] Tenho reserva pessoal equivalente a seis meses ou mais das minhas despesas mensais (doze ou mais para full-time, seis ou mais para part-time).
 - [ ] Identifiquei o meu "fit diferencial" (setor ou problema onde tenho vantagem) em um parágrafo claro, com verbos concretos, não adjetivos.
-- [ ] Tenho três ou mais advisors informais identificados por nome, não cargos genéricos. Critérios para escolher, perguntas de qualificação, e como remunerar (contrato FAST, equity de 0,1% a 1%) em [[#APÊNDICE AL — REDE, MENTORES E ADVISORS — COMO CONSTRUIR O CAPITAL HUMANO DO EMPREENDEDOR|Apêndice AL]].
+- [ ] Tenho três ou mais advisors informais identificados por nome, não cargos genéricos. Critérios para escolher, perguntas de qualificação, e como remunerar (contrato FAST, equity de 0,1% a 1%) em [[#CAPÍTULO 13 — REDE, MENTORES E ADVISORS — COMO CONSTRUIR O CAPITAL HUMANO DO EMPREENDEDOR|Capítulo 13 (REDE, MENTORES E ADVISORS — COMO CONSTRUIR O CAPITAL HUMANO DO EMPREENDEDOR)]].
 - [ ] Mapeei pessoas afetadas pela decisão (cônjuge, pais, dependentes) e tenho concordância explícita delas, documentada em um parágrafo.
 - [ ] Conversei com pelo menos dois fundadores nos últimos trinta dias, idealmente um com exit e um com falha.
 - [ ] Defini o meu "ponto de parada" por escrito. Quais métricas ou eventos te fariam encerrar.
@@ -636,8 +563,8 @@ Você concluiu a [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]] quando todo
 
 ### Armadilhas
 
-> [!note] Apêndice D — Armadilhas Mentais e Vieses
-> A Fase 0 concentra as armadilhas mais custosas da trajetória empreendedora, porque são decisões tomadas antes de qualquer evidência do negócio. O [[#APÊNDICE D — ARMADILHAS MENTAIS E VIESES|Apêndice D]] cataloga os vieses mais comuns por fase, com diagnóstico e contra-medidas — especialmente útil aqui para as armadilhas de decisão irreversível (largar emprego, escolher sócio, comprometer runway).
+> [!note] Capítulo 3 — Armadilhas Mentais e Vieses
+> A Fase 0 concentra as armadilhas mais custosas da trajetória empreendedora, porque são decisões tomadas antes de qualquer evidência do negócio. O [[#CAPÍTULO 3 — ARMADILHAS MENTAIS E VIESES|Capítulo 3 (ARMADILHAS MENTAIS E VIESES)]] cataloga os vieses mais comuns por fase, com diagnóstico e contra-medidas — especialmente útil aqui para as armadilhas de decisão irreversível (largar emprego, escolher sócio, comprometer runway).
 
 As armadilhas estruturais já estão nomeadas em "Quando não empreender" (os dez sinais de auto-exclusão). Esta seção complementa com armadilhas operacionais, isto é, erros que aparecem mesmo quando os dez sinais não bateram.
 
@@ -659,7 +586,7 @@ Confiança em sociedade sem acordo formal. "A gente se conhece, não precisa de 
 
 **Lição da [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]].** FMF (Founder-Market Fit — alinhamento entre o perfil do fundador e o mercado que vai atacar) de alto nível não nasceu de paixão genérica por fintech. Nasceu de experiência pessoal com o problema (Vélez como cliente frustrado), somada a rede, capital e complementaridade entre cofundadores. Cada um dos três tinha "por que eu" articulável com profundidade.
 
-**Travessia ao PMF ([[IGNICAO-Vol-3-Tracao#FASE 12 — PRODUCT-MARKET FIT|Fase 12 (Vol. 3)]]).** O Nubank, fundado por David Vélez, Cristina Junqueira (ex-Itaú, profundo conhecimento do sistema bancário) e Edward Wible, lançou em 2014 o cartão de crédito roxo sem anuidade, totalmente controlado por aplicativo, com atendimento por chat (depois estendido a canais adicionais) que se tornou referência de simpatia. O critério de aprovação era conservador, recusas eram frequentes nos primeiros anos. Em vez de "abrir a torneira", mantiveram o critério rigoroso e aceitaram que a demanda reprimida viraria fila de espera. Centenas de milhares de pessoas se inscreveram para receber o cartão.
+**Travessia ao PMF ([[IGNICAO-Vol-4-Tracao-e-PMF#FASE 13 — PRODUCT-MARKET FIT|Fase 13 (Vol. 4)]]).** O Nubank, fundado por David Vélez, Cristina Junqueira (ex-Itaú, profundo conhecimento do sistema bancário) e Edward Wible, lançou em 2014 o cartão de crédito roxo sem anuidade, totalmente controlado por aplicativo, com atendimento por chat (depois estendido a canais adicionais) que se tornou referência de simpatia. O critério de aprovação era conservador, recusas eram frequentes nos primeiros anos. Em vez de "abrir a torneira", mantiveram o critério rigoroso e aceitaram que a demanda reprimida viraria fila de espera. Centenas de milhares de pessoas se inscreveram para receber o cartão.
 
 A fila virou o principal motor de marketing: cada pessoa esperando convidava amigos em troca de priorização, o cartão roxo, por design visual distinto, gerava comentário espontâneo quando aparecia em mesa de restaurante. O NPS (Net Promoter Score — índice que mede quantos clientes recomendariam a empresa) reportado pela empresa em diferentes momentos ficou em patamar muito elevado (na casa dos 80 ou mais em alguns relatos públicos), padrão mais comum em marcas de luxo que em serviços financeiros, embora o valor exato varie por safra, produto e país.
 
@@ -678,23 +605,792 @@ A fila virou o principal motor de marketing: cada pessoa esperando convidava ami
 
 ### FERRAMENTAS DESTA FASE
 
-Esta fase é sobre preparação do empreendedor como pessoa. As ferramentas aqui ajudam a tomar a decisão fundamental. Empreender ou não. Quando. Em quê. Detalhamento completo de cada ferramenta no [[IGNICAO-Vol-9-Ferramentario#APÊNDICE BG — FERRAMENTÁRIO COMPLETO DO EMPREENDEDOR|Apêndice BG (Vol. 9)]] (catálogo de cento e quarenta e uma ferramentas em dezenove categorias — não é leitura linear, é referência consultiva: quando o livro citar "ver BG.X.Y", abra direto no item, leia em três a cinco minutos e volte para a fase).
+Esta fase é sobre preparação do empreendedor como pessoa. As ferramentas aqui ajudam a tomar a decisão fundamental. Empreender ou não. Quando. Em quê. Detalhamento completo de cada ferramenta no [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#ÍNDICE GERAL DE FRAMEWORKS DA COLEÇÃO|Índice Geral de Frameworks (Vol. 10)]] (catálogo de cento e quarenta e uma ferramentas em dezenove categorias — não é leitura linear, é referência consultiva: quando o livro citar "ver BG.X.Y", abra direto no item, leia em três a cinco minutos e volte para a fase).
 
-Canvases visuais complementares ([[IGNICAO-Vol-10-Canvases-e-Templates#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Apêndice CZ (Vol. 10)]]): CZ.8 (Team Canvas).
+Canvases visuais complementares ([[#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvases Visuais da Fase]]): Canvas: Team Canvas (Alex Ivanov, 2015) (Fase 0).
 
-Hedgehog Concept (Jim Collins, *Good to Great*, 2001). Ferramenta para encontrar a interseção de três círculos: no que você pode ser o melhor do mundo, o que impulsiona a sua máquina econômica, e o que você ama profundamente. Use para escolher o seu foco empreendedor. Fundador sem hedgehog claro tende a dispersar em múltiplas ideias. Ver BG.3.4.
+Hedgehog Concept (Jim Collins, *Good to Great*, 2001). Ferramenta para encontrar a interseção de três círculos: no que você pode ser o melhor do mundo, o que impulsiona a sua máquina econômica, e o que você ama profundamente. Use para escolher o seu foco empreendedor. Fundador sem hedgehog claro tende a dispersar em múltiplas ideias. Ver Framework: Hedgehog Concept (Jim Collins, 2001) (Fase 0).
 
-First Principles Thinking (Aristóteles, popularizado por Elon Musk). Método de decompor supostas verdades do mundo dos negócios em elementos fundamentais e reconstruir do zero, em vez de raciocinar por analogia ("sempre foi feito assim"). Use antes de aceitar "precisa de MBA", "precisa de cofundador técnico", "precisa de capital". Cada uma dessas pode ser verdade ou não, dependendo dos primeiros princípios do *seu* caso. Ver BG.4.1.
+First Principles Thinking (Aristóteles, popularizado por Elon Musk). Método de decompor supostas verdades do mundo dos negócios em elementos fundamentais e reconstruir do zero, em vez de raciocinar por analogia ("sempre foi feito assim"). Use antes de aceitar "precisa de MBA", "precisa de cofundador técnico", "precisa de capital". Cada uma dessas pode ser verdade ou não, dependendo dos primeiros princípios do *seu* caso. Ver Framework: First Principles Thinking (Aristóteles, ~350 a.C.; popularizado por Elon Musk, anos 2010) (Fase 0).
 
-Second-Order Thinking (Howard Marks). Método de considerar as consequências de segunda e terceira ordem de uma decisão, não só o impacto imediato. Use ao decidir sair do emprego. Não basta "tenho dezoito meses de runway pessoal". Considere: se a startup fracassar, qual currículo fica? Que mercado reage à minha saída? Ver BG.4.2.
+Second-Order Thinking (Howard Marks). Método de considerar as consequências de segunda e terceira ordem de uma decisão, não só o impacto imediato. Use ao decidir sair do emprego. Não basta "tenho dezoito meses de runway pessoal". Considere: se a startup fracassar, qual currículo fica? Que mercado reage à minha saída? Ver Framework: Second-Order Thinking (Howard Marks, 2011) (Fase 3).
 
-Inversion (Carl Jacobi, popularizado por Charlie Munger). Técnica de inverter a pergunta: em vez de "como ter sucesso como empreendedor?", pergunte "como garantir que vou fracassar como empreendedor?". Gera lista concreta de armadilhas a evitar. Use na preparação mental antes de começar. Ver BG.4.3.
+Inversion (Carl Jacobi, popularizado por Charlie Munger). Técnica de inverter a pergunta: em vez de "como ter sucesso como empreendedor?", pergunte "como garantir que vou fracassar como empreendedor?". Gera lista concreta de armadilhas a evitar. Use na preparação mental antes de começar. Ver Framework: Inversion (Carl Jacobi; Charlie Munger, popularizado) (Fase 1).
 
-Pre-mortem (Gary Klein). Exercício de imaginar que a sua empresa já fracassou em dois anos, e descrever por quê, antes de começar. Revela premissas frágeis. Use antes de tomar decisão irreversível de empreender. Ver BG.5.3.
+Pre-mortem (Gary Klein). Exercício de imaginar que a sua empresa já fracassou em dois anos, e descrever por quê, antes de começar. Revela premissas frágeis. Use antes de tomar decisão irreversível de empreender. Ver Framework: Pre-mortem (Gary Klein, 2007) (Fase 0).
 
-Cynefin (Dave Snowden). Modelo para identificar o tipo de problema que você enfrenta: Clear (simples), Complicated (complicado), Complex (complexo) e Chaotic (caótico). Empreender é predominantemente Complex: exige experimentação, não melhores práticas prontas. Use para calibrar expectativa sobre como a jornada vai se desenrolar. Ver BG.4.7.
+Cynefin (Dave Snowden). Modelo para identificar o tipo de problema que você enfrenta: Clear (simples), Complicated (complicado), Complex (complexo) e Chaotic (caótico). Empreender é predominantemente Complex: exige experimentação, não melhores práticas prontas. Use para calibrar expectativa sobre como a jornada vai se desenrolar. Ver Framework: Cynefin Framework (Dave Snowden, 1999) (Fase 0).
 
-McKinsey 7-Step Problem Solving. Método estruturado de resolução de problemas em sete etapas. Simplificado nesta fase. Aplique em "devo empreender? Em quê?", tratando como problema estruturável. Ver BG.5.1 para detalhes.
+McKinsey 7-Step Problem Solving. Método estruturado de resolução de problemas em sete etapas. Simplificado nesta fase. Aplique em "devo empreender? Em quê?", tratando como problema estruturável. Ver Framework: McKinsey 7-Step Problem Solving (Fase 3) para detalhes.
+
+---
+
+
+---
+
+### MÉTRICAS E BENCHMARKS DESTA FASE (FASE 0)
+
+As métricas de preparação são qualitativas. Runway pessoal em meses de subsistência sem renda (mínimo doze, ideal vinte e quatro). Clareza de motivação validada externamente (três ou mais pessoas próximas conseguem descrever sua motivação com precisão). Candidatos a cofundador entrevistados (cinco a dez pessoas). Horas dedicadas a exploração de problema (mínimo quarenta horas antes de qualquer decisão de build). Exercícios de autoconhecimento concluídos (FMF Check, teste de personalidade, análise de forças).
+
+> [!warning] Sinal de alerta
+> Runway menor que doze meses sem fonte de renda alternativa é pré-condição de falha, não de sucesso. Capital pessoal insuficiente produz decisões de negócio ruins.
+
+---
+
+### MANUAL PASSO A PASSO DOS FRAMEWORKS DESTA FASE
+
+> [!tip] Uso autocontido neste volume
+> Todos os frameworks abaixo estão detalhados integralmente com origem, estrutura, passo a passo de aplicação, exemplo brasileiro e armadilhas para execução imediata nesta **Fase 0**.
+
+#### Framework: Hedgehog Concept (Jim Collins, 2001)
+
+##### Origem
+
+Jim Collins, em *Good to Great* (2001), após estudar 11 empresas que transicionaram de boa para grande (superando S&P 500 em 3x por 15+ anos), identificou um padrão: **todas tinham clareza radical sobre 3 círculos**. A metáfora vem do ensaio de Isaiah Berlin "O ouriço e a raposa", a raposa sabe muitas coisas, o ouriço sabe uma grande coisa. Collins argumenta que grandeza empresarial vem do foco (ouriço), não diversificação (raposa).
+
+##### O que é
+
+Framework para **encontrar o ponto de foco estratégico**: a interseção de três círculos:
+
+1. No que podemos ser os melhores do mundo? (não "queremos ser", podemos efetivamente).
+2. O que impulsiona nossa máquina econômica? (qual é o driver de lucro por unidade econômica, por cliente, por funcionário, por ativo?).
+3. O que nos apaixona profundamente? (o que a organização genuinamente cuida).
+
+O Hedgehog Concept é a interseção, fazer só o que está nos três simultaneamente.
+
+##### Como aplicar do jeito certo
+
+Passo 1, Círculo 1 é honestidade brutal. Não basta "ser bom", precisa ser o melhor do mundo (ou ao menos em nicho). Pode não existir ainda, então a pergunta é "no que poderíamos ser?"
+
+Passo 2, Círculo 2 é mensurável. Lucro por X (cliente, funcionário, produto). Identificar o driver específico que melhor prediz sucesso.
+
+Passo 3, Círculo 3 é autêntico. Não "dizemos que amamos isso", amamos de fato. Revela-se em decisões difíceis (o que cortamos? o que protegemos?).
+
+Passo 4, Interseção demora. Collins descreve companies que levaram 4+ anos para descobrir seu hedgehog. É processo iterativo.
+
+Passo 5, Uma vez encontrado, disciplina. Tudo que não está na interseção é distração.
+
+##### Exemplo aplicado
+
+Walgreens (exemplo de Collins):
+
+- Círculo 1: operação de farmácias de conveniência.
+- Círculo 2: lucro por visita do cliente (driver específico).
+- Círculo 3: apaixonada por farmácia de conveniência de excelência.
+- Hedgehog: abrir farmácias de conveniência maximizando visitas. Focou nisso por 15 anos, resultado: 15x S&P 500.
+
+Startup brasileira (aplicando):
+
+- Círculo 1: "podemos ser os melhores do Brasil em SaaS de onboarding para PMEs de varejo" (verificar com pesquisa).
+- Círculo 2: lucro por cliente PME médio-porte. Driver: LTV:CAC no segmento.
+- Círculo 3: "acreditamos genuinamente em formalização trabalhista e eficiência de PMEs BR".
+- Hedgehog: ser #1 em onboarding digital para PMEs BR. Sem distração com enterprise, sem LatAm prematuro, sem verticais fora de varejo.
+
+##### Erros comuns
+
+Círculo 1 wishful thinking: "queremos ser melhores em X" sem evidência. Círculo 2 superficial: "receita" é medida, não é driver. Identifica o específico. Círculo 3 fabricado: se paixão é fingida, cultura não sustenta. Interseção ampla demais: "ser melhores em tecnologia para empresas", muito amplo. Estreitar até doer. Abandonar hedgehog na primeira dificuldade: Collins enfatiza que grandes empresas mantêm por décadas.
+
+##### Quando NÃO usar
+
+Muito early: hedgehog emerge com tempo e iteração, Em organizações sem estabilidade para perseguir por 5+ anos.
+
+##### Leitura adicional
+
+- Collins, J. (2001). *Good to Great*. HarperBusiness.
+- Collins, J. (2009). *How the Mighty Fall*. HarperBusiness (complemento).
+
+---
+
+#### Framework: Effectuation (Saras Sarasvathy, 2001)
+
+##### Origem
+
+Saras Sarasvathy (Darden School, Universidade de Virgínia) conduziu pesquisa empírica com 27 empreendedores seriais experientes (fundadores de empresas entre US$200M e US$6B) entre 1997-2001. Descobriu que empreendedores experientes pensam sobre decisão de forma sistematicamente diferente de gerentes corporativos, não aplicam lógica causal (definir objetivo, planejar caminho, executar) mas lógica *efectual* (começar com recursos disponíveis, descobrir objetivo ao longo do caminho). Publicou tese em 2001, virou referência acadêmica central e ganhou diversos prêmios.
+
+##### O que é
+
+Modelo descritivo-prescritivo de como pensar empreendedoramente. **Cinco princípios centrais**: *(1) Bird-in-Hand*, começar com o que você tem (quem você é, o que sabe, quem conhece), não com o que idealmente precisaria. *(2) Affordable Loss*, não maximize retorno esperado, minimize perda aceitável (quanto estou disposto a perder para aprender?). *(3) Crazy Quilt*, parcerias construídas organicamente com quem topa trabalhar com você, sem pré-seleção rigorosa de "parceiro ideal". *(4) Lemonade*, quando surpresa aparece (limão), transforme em oportunidade (limonada), não lute contra o que não planejou. *(5) Pilot-in-the-Plane*, o empreendedor tem agência, o futuro é construído, não previsto.
+
+##### Princípios
+
+Empreendedorismo experiente não é planejamento estratégico aplicado, é navegação adaptativa. Executivos gerenciam causando efeitos previsíveis, empreendedores gerenciam criando efeitos imprevisíveis. Esta diferença explica por que empreendedores seriais de sucesso não seguem planos de negócio rígidos e por que tentar aplicar metodologia corporativa clássica em contexto empreendedor frequentemente falha.
+
+##### Como aplicar
+
+Em decisão de empreender: (a) Inventário de recursos disponíveis (o que eu tenho, skills, rede, capital). (b) Definir affordable loss (quanto estou disposto a perder nesta aposta? 6 meses? R$100k? um ano?). (c) Começar com pequenos experimentos que cabem dentro desse budget de perda. (d) Deixar que objetivos emergentes, não pré-definidos, guiem próximos passos. (e) Aceitar e incorporar surpresas, não defendê-las como desvios. Framework especialmente útil para [[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]] (Encontrar a Ideia) e início da [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 4 — DESCOBERTA DO PROBLEMA|Fase 4 (Vol. 2)]] (Descoberta do Problema).
+
+##### Exemplo aplicado
+
+Fundadores seriais brasileiros. Quando David Vélez criou o Nubank, não começou com "vou criar neobanco brasileiro bilionário", começou com "sou ex-venture capital, conheço LatAm, tenho acesso a capital internacional, estou insatisfeito com banco brasileiro, o que dá para construir com isso?". O projeto específico emergiu da intersecção entre recursos (bird-in-hand) e experimentos baratos (affordable loss). Marcelo Kalim no C6 Bank seguiu caminho similar, começou com expertise específica do setor bancário, não com "visão de neobank", e usou rede de ex-BTG (crazy quilt) como vantagem inicial.
+
+##### Erros comuns
+
+(1) Confundir effectuation com "fazer qualquer coisa sem método", effectuation é metodológica, apenas não causal. (2) Aplicar a contextos maduros onde causal funciona bem (empresa estabelecida executando estratégia conhecida). (3) Usar como desculpa para não ter tese, effectuation exige tese emergente articulada, não ausência de tese. (4) Ignorar o princípio de affordable loss por empolgação, "cabe no meu budget" precisa ser calculado, não intuído.
+
+##### Quando NÃO usar
+
+Em contextos de alta previsibilidade (mercado maduro, produto estabelecido, execução em escala), causal é melhor. Quando você tem muito capital e pouco tempo (effectuation otimiza para aprendizado barato, não para velocidade). Quando stakeholders externos (investidores, parceiros) exigem plano causal formal, aí você precisa traduzir effectuation em linguagem causal para comunicação externa.
+
+##### Leitura adicional
+
+*Effectuation: Elements of Entrepreneurial Expertise* (Saras Sarasvathy, 2008), *Effectual Entrepreneurship* (Read, Sarasvathy, Dew, Wiltbank, Ohlsson, 2011, 2ª ed. 2017), effectuation.org.
+
+---
+
+#### Framework: First Principles Thinking (Aristóteles, ~350 a.C.; popularizado por Elon Musk, anos 2010)
+
+##### Origem
+
+O conceito remonta a Aristóteles (*Organon*, *Metafísica*), que definia "primeiros princípios" como "o primeiro basis from which a thing is known". Foi resgatado e popularizado no século XXI por Elon Musk, que atribui sucessos de SpaceX e Tesla à aplicação sistemática do método. Musk: "Em vez de raciocinar por analogia, raciocino a partir dos primeiros princípios."
+
+##### O que é
+
+Método de análise que **decompõe um problema até seus elementos fundamentais** (primeiros princípios = verdades básicas que não podem ser deduzidas de outras), e depois reconstrói a solução a partir desses elementos, **em vez de raciocinar por analogia** ("sempre foi feito assim").
+
+##### Princípios / estrutura
+
+Dois modos de raciocínio:
+
+1. Analogia (default humano): "esta empresa é como aquela outra, vamos fazer parecido". Rápido, baixo esforço, frequentemente bom. Falha em contextos de disrupção, onde analogias anteriores não se aplicam.
+
+2. First Principles: "quais são as verdades fundamentais neste problema?". Lento, alto esforço, frequentemente revelador.
+
+Exemplo icônico de Musk (SpaceX): foguetes custavam US$ 65M. Analogia: "foguetes são caros". First principles: "qual o custo de matéria-prima (alumínio, cobre, titânio) em um foguete?" Resposta: ~2% do preço. Conclusão: 98% é margem + ineficiência de processo. Se pudermos construir nós mesmos, pode ser 10-100x mais barato.
+
+##### Como aplicar do jeito certo
+
+Passo 1, Identifique a suposição a ser desafiada. "Sales precisa de SDRs" é suposição. Por quê?
+
+Passo 2, Pergunte "por quê?" até chegar em verdade fundamental. (Similar ao 5 Whys mas aplicado a crenças, não problemas.) "Precisamos de SDRs porque precisamos qualificar leads." Por quê? "Porque AEs caros não podem perder tempo com leads ruins." Por quê? "Porque tempo de AE é escasso." Verdade fundamental: precisa-se de filtro antes de AE engajar.
+
+Passo 3, Pergunte: qual a forma mais fundamental de resolver? Filtro pode ser SDR (humano), chatbot (bot), self-serve form, scoring automatizado. SDRs é uma instância, não é a verdade.
+
+Passo 4, Reconstrua a partir da verdade. Desenhe solução nova, liberta da analogia.
+
+Passo 5, Teste empiricamente. First principles sem teste pode ser arrogância intelectual.
+
+##### Exemplo aplicado
+
+"Startups precisam de escritório físico":
+
+- Suposição questionada.
+- Por quê? "Porque colaboração presencial é melhor."
+- Por quê melhor? "Mais criatividade, ritmo, cultura."
+- Verdade fundamental: **precisa-se de colaboração, ritmo e cultura** (não necessariamente escritório).
+- Reconstrução: qual a forma mais fundamental de gerar cada? Colaboração via Slack/Zoom + offsites trimestrais pode ser suficiente? Ritmo via rituals digitais? Cultura via handbook + onboarding estruturado?
+- GitLab e Automattic construíram empresas de bilhões em modelo 100% remoto, aplicando esse raciocínio.
+
+##### Erros comuns
+
+Confundir first principles com "opinião contrária": não é sempre que analogia está errada. Maioria das vezes, analogia é boa e suficiente. Para em suposição superficial: "por quê?" precisa ir fundo. 2 níveis é raso. Arrogância sem teste: "reinventei X porque first principles". Sem validação empírica, vira hubris. Aplicar a tudo: first principles custa tempo/energia. Aplicar em decisões importantes, não triviais. Ignorar restrições reais: às vezes analogia persiste porque restrição real (regulação, física, etc.) a justifica. Over-engineering: reinventar roda que já está bem construída.
+
+##### Quando NÃO usar
+
+Decisões cotidianas triviais, Em áreas onde você tem conhecimento profundo, analogia provavelmente é suficiente, Sob pressão de tempo extrema.
+
+##### Leitura adicional
+
+- Aristóteles, *Metafísica*, Livro IV (raízes filosóficas).
+- Shane Parrish, Farnam Street blog (ensaios extensos sobre first principles).
+- Ashlee Vance (2015). *Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future*. Ecco.
+
+---
+
+#### Framework: Cynefin Framework (Dave Snowden, 1999)
+
+##### Origem
+
+Dave Snowden, pesquisador galês de complexidade, desenvolveu Cynefin (palavra galesa para "habitat") no IBM Knowledge Management Institute entre 1999-2002. Framework reconhece que diferentes tipos de problemas exigem diferentes modos de decisão, e erro comum é aplicar "best practice" em contexto onde não cabe.
+
+##### O que é
+
+Framework que classifica problemas em **5 domínios** baseado em relação entre causa e efeito:
+
+##### Princípios / estrutura
+
+1. Clear (Simples): causa-efeito óbvia. Best practice aplica. Ação: sense → categorize → respond.
+2. Complicated: causa-efeito existe mas exige análise. Good practice aplica (há múltiplas respostas certas). Ação: sense → analyze → respond. Peritos são essenciais.
+3. Complex: causa-efeito só é visível em retrospecto, sistema adaptativo. Probe → sense → respond. Experimentar e aprender.
+4. Chaotic: sem causa-efeito identificável, crise. Act → sense → respond. Agir para estabilizar primeiro, entender depois.
+5. Confusion (Disorder): não sabe em qual domínio está. Sair desse estado é prioridade.
+
+##### Como aplicar do jeito certo
+
+Passo 1, Classificar o problema no domínio correto.
+
+Passo 2, Aplicar modo apropriado. Simples: manual. Complicated: consultoria especialista. Complex: experimentação. Chaotic: ação imediata.
+
+Passo 3, Reconhecer transições. Problemas migram entre domínios com o tempo.
+
+Passo 4, Evitar aplicar processo de um domínio em outro. Best practice (Clear) em contexto Complex paralisa inovação. Complex thinking (experimentação) em Chaotic perde tempo precioso.
+
+##### Exemplo aplicado
+
+Startup enfrentando 4 situações no mesmo trimestre:
+
+- Onboarding de novo funcionário: **Clear**. Manual, checklist.
+- Decisão de M&A: **Complicated**. Contratar M&A advisor.
+- Achar PMF em produto novo: **Complex**. Experimentação iterativa.
+- Crise de segurança (breach): **Chaotic**. Agir (contenção) primeiro, depois entender.
+
+Cada modo exige liderança, time, e processo diferentes.
+
+##### Erros comuns
+
+Tratar tudo como Complicated: "vamos contratar consultoria" para problema Complex. Experimentação, não análise, é a resposta. Tratar Complex como Clear: implementar "best practice" de outra empresa em contexto novo. Frequente em empresas que escalam via playbooks rígidos. Paralisia em Chaotic: analisando enquanto empresa queima. Ação primeiro.
+
+##### Quando NÃO usar
+
+Em problemas bem-definidos e pequenos, classificação exaustiva é overkill.
+
+##### Leitura adicional
+
+- Snowden, D. & Boone, M. (2007). "A Leader's Framework for Decision Making". *HBR*, November.
+- Cognitive Edge (firma de Snowden), papers e materiais.
+
+---
+
+#### Framework: Vieses Cognitivos Críticos para Fundadores (Kahneman, Thaler e outros)
+
+##### Origem
+
+A pesquisa em economia comportamental e psicologia cognitiva acumulou desde os anos 1970 um catálogo de erros sistemáticos de julgamento que afetam especialmente decisões em contexto de incerteza. Daniel Kahneman e Amos Tversky formalizaram os primeiros vieses críticos (1974, 1979). Richard Thaler ganhou Nobel em 2017 por aplicações econômicas. David Dunning e Justin Kruger publicaram seu experimento fundamental em 1999. Robin Hogarth e Chip Heath catalogaram o Curse of Knowledge. Esses vieses são especialmente destrutivos para fundadores porque a pressão de investidores, a necessidade de narrativa otimista, e a falta de feedback rápido do mercado amplificam cada um.
+
+##### O que é
+
+Quatro vieses cognitivos de alta frequência em contexto de startup, com diagnóstico e contramedida para cada um.
+
+**Hyperbolic Discounting (desconto hiperbólico).** O cérebro humano desconta o futuro de forma não-linear: uma recompensa de R$ 100 hoje é preferida a R$ 110 amanhã, mas R$ 110 em 31 dias é preferível a R$ 100 em 30 dias. Em startup, manifesta-se como: aceitar investimento desfavorável para fechar hoje em vez de negociar por duas semanas, lançar feature com qualidade baixa para "mostrar progresso" antes do board meeting, ou cortar custos de longo prazo (infraestrutura, documentação) para melhorar burn agora. *Contramedida*: forçar comparações explícitas de custo futuro antes de decisões que parecem "baratas agora". Pré-mortem financeiro com horizonte de 18 meses.
+
+**Curse of Knowledge (maldição do conhecimento).** Uma vez que alguém sabe algo, é quase impossível simular o que é não saber. Fundador com domínio profundo do problema acha óbvio o que é completamente opaco para o cliente. Manifesta-se em: pitch que começa com jargão técnico, onboarding que pula etapas "evidentes", documentação escrita por quem já sabe, e pesquisa de usuário que faz perguntas que revelam a resposta. Experimento original de Elizabeth Newton (1990): quem bate ritmo de uma música famosa acha que 50% dos ouvintes acertarão; na realidade, menos de 3% acertam. *Contramedida*: teste com 5 pessoas fora do setor antes de qualquer comunicação importante. Gravar e rever primeiras 3 ligações de vendas.
+
+**Dunning-Kruger Effect.** Pessoas com conhecimento limitado sobre um domínio tendem a superestimar sua competência; pessoas com expertise profunda tendem a subestimar (porque percebem o quanto ainda não sabem). Em startup, a fase mais perigosa é a curva ascendente inicial: founder aprende rápido sobre novo setor, e "pico de confiança incompetente" coincide com decisões críticas de produto e capital. *Contramedida*: mapear explicitamente o que você não sabe antes de cada decisão importante. Contratar advisor com 10+ anos no setor antes de tomar decisões arquitetônicas. Calibrar previsões com histórico real de acerto.
+
+**Base Rate Neglect (negligência da taxa base).** Ao avaliar probabilidade de sucesso, as pessoas ignoram a taxa base histórica e se focam nas características específicas do próprio caso. "Nosso produto é diferente" é o sinal de base rate neglect. 90% das startups falham — mas todo fundador tem razões para acreditar que a sua é a exceção. Aplica-se a: estimativas de prazo (planning fallacy), probabilidade de fechar deal, estimativa de TAM, e previsão de crescimento. *Contramedida*: buscar ativamente as taxas base de referência antes de estimativas. "Qual a porcentagem de empresas semelhantes que conseguiram X em Y prazo?" Método de previsão Outside View de Daniel Kahneman: começar pela taxa base, depois ajustar por características específicas.
+
+##### Como aplicar
+
+Não é possível eliminar vieses cognitivos — são fiados em arquitetura neural. O que é possível é criar processos que os mitiguem. Pré-mortems (Framework: Pre-mortem (Gary Klein, 2007) (Fase 0)) atacam otimismo excessivo. Red Teams (Framework: Red Team / Blue Team (Fase 7, Vol. 3)) atacam Curse of Knowledge. Expected Value Thinking (Framework: Expected Value / Bayesian Thinking (Fase 7, Vol. 3)) força consciência de base rates. Decisões importantes tomadas em grupo heterogêneo reduzem viés individual. Documentar predições com data e revisitar reduz overconfidence ao longo do tempo.
+
+##### Erros comuns
+
+Tratar viés como "fraqueza pessoal" em vez de característica universal — isso impede o fundador de admitir e mitigar. Achar que conhecer o nome do viés equivale a estar imune a ele (Bias Blind Spot — Pronin et al., 2002 — mostra que pessoas que conhecem vieses os reconhecem mais facilmente nos outros do que em si). Tentar combater todos os vieses simultaneamente em vez de focar nos mais relevantes para a decisão da semana. Usar a linguagem dos vieses para racionalizar decisões já tomadas ("estou só evitando hyperbolic discounting") em vez de para questioná-las. Confiar que "decisões em grupo" elimina viés — em equipe homogênea, vieses são amplificados, não diluídos.
+
+##### Quando NÃO usar
+
+Em decisões operacionais rotineiras de baixo impacto, onde aplicar análise de vieses é overhead. Quando velocidade tem mais valor que precisão (resposta a incidente, oportunidade que expira em horas) — nesses casos, viés é melhor que paralisia. Em discussões em que a moldura de "vieses" pode virar ferramenta de invalidação retórica das opiniões alheias ("você está com viés de confirmação") em vez de ferramenta de calibração própria.
+
+##### Leitura adicional
+
+- Kahneman, D. (2011). *Thinking, Fast and Slow*. Farrar, Straus and Giroux.
+- Thaler, R. & Sunstein, C. (2008). *Nudge*. Yale University Press.
+- Cialdini, R. (2006). *Influence: The Psychology of Persuasion*. Collins.
+- Heath, C. & Heath, D. (2007). *Made to Stick* — capítulo sobre Curse of Knowledge.
+
+---
+
+#### Framework: Pre-mortem (Gary Klein, 2007)
+
+##### Origem
+
+Gary Klein, psicólogo pesquisador de decisão em ambientes complexos (recipient da APA Award for Outstanding Lifetime Contributions to Applied Psychology), publicou "Performing a Project Pre-mortem" na HBR em 2007. Baseado em décadas de pesquisa em decisão militar e de emergência. Inverte post-mortem (aprender após fracasso) para **aprender antes**.
+
+##### O que é
+
+Exercício estruturado onde time **imagina que projeto/decisão fracassou** e analisa retrospectivamente por que falhou, **antes** do projeto começar. Revela riscos e premissas frágeis que excesso de otimismo do planejamento esconde.
+
+##### Princípios / estrutura
+
+Base psicológica: "prospective hindsight" (pesquisa de Mitchell et al., 1989), imaginar fracasso aumenta em 30% a identificação de riscos comparado a "listar riscos".
+
+Processo simples:
+
+1. Após plano estar fechado (mas antes de execução), reunir time.
+2. Exercício: "imagine que estamos 1 ano no futuro. O projeto fracassou totalmente. Por que aconteceu?"
+3. Cada membro escreve individualmente (5-10 min) razões plausíveis.
+4. Compartilhar e discutir.
+5. Identificar riscos mitigáveis, ajustar plano.
+
+##### Como aplicar do jeito certo
+
+Passo 1, Após plano existir. Fazer pre-mortem antes de existir plano gera lista teórica sem tração.
+
+Passo 2, Escrita individual primeiro. Se começa em discussão, primeiros a falar ancoram os outros. Escrita individual gera diversidade.
+
+Passo 3, Gerar riscos especificamente, não genericamente. "Faltou capital" é genérico, "não captamos a Série A em Q3/2026 porque mercado de venture esfriou + nossos números de retenção caíram no Q2" é específico.
+
+Passo 4, Categorizar riscos. Externos vs. internos, controláveis vs. incontroláveis, altos vs. baixos impacto.
+
+Passo 5, Mitigar controláveis. Para cada risco alto + controlável, o que fazemos para reduzir probabilidade?
+
+Passo 6, Monitorar incontroláveis. Os que não controla, mas pode antecipar, entram em radar com triggers.
+
+##### Exemplo aplicado
+
+Pre-mortem antes de iniciar expansão para México:
+
+Cada membro escreve por que expansão fracassou em 12 meses:
+
+- Não conseguimos contratar Country Manager adequado.
+- Produto não se adaptou a CFDI (regulação fiscal mexicana).
+- Competição local (Clip, Kueski) é mais forte que imaginamos.
+- Dedicamos muito tempo de engineering, atrasando roadmap do BR.
+- Real desvalorizou, custo operacional ficou insustentável.
+- Cultura organizacional não suportou diferença geográfica.
+- Canal de aquisição (que funcionou no BR) não funcionou no México.
+- Parceria estratégica não se materializou como esperado.
+
+Análise: 4 riscos são controláveis (contratação, produto, dedicação de eng, canal), 4 são externos mas mitigáveis (competição, câmbio, cultura, parceria).
+
+Ajustes no plano: contratar Country Manager antes de anunciar expansão, alocar time dedicado, não emprestado do BR, pilot de 3 meses com canal local antes de investimento pesado.
+
+##### Erros comuns
+
+Feito depois que projeto começou: perde valor preventivo, vira check-the-box. Discussão aberta sem escrita individual: primeiros a falar influenciam. Diversidade perdida. Otimismo "performativo": time escreve "talvez algo desse errado", sem comprometimento com riscos reais. Cultura tem que aceitar crítica. Mitigar tudo: nem todo risco é mitigável com custo aceitável. Alguns são "aceitáveis". Esquecer do pre-mortem: documentar, mas não voltar a consultar. Sem revisão, exercício é wasted.
+
+##### Quando NÃO usar
+
+Projetos triviais, overkill, Em urgência extrema, decisão precisa ser rápida, Em cultura de punição, riscos identificados viram "você falhou em prever".
+
+##### Leitura adicional
+
+- Klein, G. (2007). "Performing a Project Pre-mortem". *HBR*, September.
+- Klein, G. (1998). *Sources of Power: How People Make Decisions*. MIT Press.
+- Kahneman, D. (2011). *Thinking, Fast and Slow*, discute prospective hindsight.
+
+---
+
+### CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)
+
+#### Canvas: Team Canvas (Alex Ivanov, 2015)
+
+##### Origem
+
+Alex Ivanov, designer e facilitador russo, publicou o Team Canvas em 2015 como resposta a um problema recorrente em workshops de times: grupos saíam de reuniões de alinhamento com a sensação de que "conversamos muito, mas não sabemos exatamente o que foi decidido nem quem é responsável por quê". O Team Canvas é inspirado no Business Model Canvas de Osterwalder mas voltado para dentro — não para o modelo de negócio, mas para o modelo do time. Parte da premissa de que um time é uma organização em miniatura: tem propósito, papéis, recursos (as pessoas), canais de comunicação, e estrutura de valor (o que cada membro dá e recebe). Sem tornar esse modelo explícito, o time opera com pressupostos implícitos que geram conflito, retrabalho e desengajamento. O Team Canvas tornou o exercício de alinhamento de time replicável em 60-90 minutos.
+
+##### O que é
+
+Tela visual de uma página com **nove blocos** organizados em torno do time como unidade central:
+
+- **People & Roles**: quem são as pessoas, qual papel cada uma exerce no time (não o cargo formal — o papel funcional real).
+- **Common Goals**: quais são os objetivos compartilhados do time para o próximo período. Distingue de objetivos individuais.
+- **Personal Goals**: o que cada membro quer pessoalmente ganhar com esse trabalho (desenvolvimento, visibilidade, dinheiro, aprendizado). Frequentemente não dito.
+- **Purpose**: por que esse time existe? Qual é o propósito que vai além das metas operacionais?
+- **Values**: quais são os valores que o time quer viver — não os valores corporativos genéricos, mas os que esse time específico prioriza no trabalho conjunto.
+- **Strengths & Assets**: o que o time tem de melhor — habilidades, experiências, redes, recursos.
+- **Weaknesses & Risks**: onde o time é fraco ou onde existe risco de conflito.
+- **Needs & Expectations**: o que cada membro precisa dos outros para trabalhar bem. Acordos explícitos.
+- **Rules & Activities**: como o time trabalha — rituais, cadências, normas de comunicação, processos de decisão.
+
+```mermaid
+flowchart TB
+    subgraph Pessoas["Quem somos"]
+        direction LR
+        PR["👥 People & Roles<br/>Papéis funcionais"]
+        PG["🎯 Personal Goals<br/>O que cada um quer"]
+    end
+    subgraph Propósito["Por que existimos"]
+        direction LR
+        CG["🏆 Common Goals<br/>Objetivos compartilhados"]
+        PU["💡 Purpose<br/>Razão de ser"]
+        VA["❤️ Values<br/>O que priorizamos"]
+    end
+    subgraph Capacidade["O que temos"]
+        direction LR
+        SA["💪 Strengths<br/>& Assets"]
+        WR["⚠️ Weaknesses<br/>& Risks"]
+    end
+    subgraph Acordos["Como trabalhamos"]
+        direction LR
+        NE["🤝 Needs<br/>& Expectations"]
+        RA["📋 Rules<br/>& Activities"]
+    end
+    Pessoas --> Propósito --> Capacidade --> Acordos
+```
+
+##### Quando usar
+
+Use o Team Canvas na Fase 14 (escala e time) como artefato de onboarding de novos squads ou ao montar equipe de liderança expandida. Use também em momentos de ruptura: entrada de cofundador ou C-level novo, fusão de times após aquisição, reorganização de squads. Em times de 3-8 pessoas, o canvas pode ser preenchido em sessão única de 90 minutos. Em times maiores, faça por squad e depois alinhe os Common Goals e Values entre squads.
+
+##### Princípios
+
+A tese de Ivanov é que **conflito de time frequentemente não é conflito de personalidade — é conflito de pressupostos não declarados**. Dois co-fundadores que não conversaram sobre Personal Goals assumem que o outro quer a mesma coisa (crescimento acelerado vs. lifestyle company; vender em 5 anos vs. construir por 20). Dois engenheiros que não conversaram sobre Needs & Expectations têm expectativas diferentes sobre code review, autonomia, e prazo. O Team Canvas torna esses pressupostos visíveis antes de se tornarem conflito. **A sessão de preenchimento é mais valiosa que o artefato preenchido** — o que emerge na conversa é o trabalho, não o documento final.
+
+##### Como aplicar
+
+Sessão presencial ou remota (Miro, Mural, FigJam). Facilitador (pode ser o próprio fundador, mas facilita melhor quem não está no canvas). 60-90 minutos para times pequenos (3-6 pessoas); 120-150 minutos para times maiores (6-12).
+
+1. **People & Roles** (10 min) — cada pessoa escreve seu nome e o papel funcional real (não o cargo): "sou quem toma decisão técnica final" / "sou quem mantém relação com os clientes âncora".
+2. **Personal Goals** (15 min) — individualmente primeiro, depois compartilha. O que cada pessoa quer ganhar pessoalmente com esse trabalho nos próximos 12 meses? Dinheiro? Aprendizado? Visibilidade? Espaço para criar? Sem julgamento.
+3. **Common Goals** (15 min) — o que o time quer alcançar *junto*? 3-5 objetivos específicos para o próximo semestre. Discutir até consenso real.
+4. **Purpose** (10 min) — por que esse time existe além das metas? Qual seria a perda para o mundo se esse time parasse de existir?
+5. **Values** (10 min) — quais 3-5 valores o time quer praticar no trabalho conjunto? Votar, depois discutir os que geraram divergência.
+6. **Strengths & Assets / Weaknesses & Risks** (15 min) — o que o time tem de excelente e onde é vulnerável. Honestidade é o requisito — equipe que só lista forças não faz o exercício.
+7. **Needs & Expectations** (10 min) — o que cada pessoa precisa dos outros para trabalhar bem. "Preciso de feedback direto, sem rodeios." "Preciso de autonomia sobre decisões de design." Acordos explícitos.
+8. **Rules & Activities** (10 min) — rituais, cadências, normas. Stand-up diário ou não? Code review obrigatório ou não? Decisão por consenso ou por voto?
+
+Após a sessão: registrar o canvas, colocar visível, revisitar em 3-6 meses.
+
+##### Exemplo brasileiro preenchido — Loggi, formação do squad de expansão nacional (2019)
+
+Quando a Loggi decidiu expandir de São Paulo para 15 cidades em 12 meses (2019), formou um squad de expansão composto por pessoas de produto, operações, dados e comercial que nunca tinham trabalhado juntas. O Team Canvas da sessão inicial:
+
+| Bloco | Conteúdo |
+|---|---|
+| **People & Roles** | PM (decisão de produto e priorização), líder de operações (viabilidade logística e parcerias locais), data analyst (modelo de precificação e projeção de demanda), comercial B2B (clientes-âncora em cada cidade), engenheiro de backend (adaptações de sistema por região). |
+| **Personal Goals** | PM: "quero aprender como se escala operação física, não só digital." Ops: "quero provar que consigo gestão multi-regional." Data: "quero usar modelos preditivos em decisão real, não só relatório." Comercial: "quero virar head de vendas regionais." Engenheiro: "quero ter mais influência na arquitetura." |
+| **Common Goals** | (1) 15 cidades ativas em 12 meses. (2) NPS de entregadores ≥ 45 em todas as cidades ao fim do mês 3. (3) CAC de lojista ≤ R$ 800 nos novos mercados. (4) Tempo de onboarding de cidade ≤ 6 semanas. |
+| **Purpose** | "Tornar entrega rápida acessível para qualquer lojista no Brasil, não só em SP." |
+| **Values** | (1) Velocidade sobre perfeição. (2) Dados antes de opinião. (3) Transparência sobre problemas cedo — sem surpresas tardias. (4) Respeito pela operação local — cada cidade tem suas particularidades. |
+| **Strengths & Assets** | Produto já validado em SP com >18 meses de dados. Marca forte entre entregadores paulistanos. Time com histórico de execução em ambiente caótico. |
+| **Weaknesses & Risks** | Ninguém do squad conhece os mercados-alvo (Recife, BH, Porto Alegre). Risco de replicar o modelo SP sem adaptar. Tensão potencial entre velocidade de expansão (PM + comercial) e qualidade operacional (ops + engenheiro). |
+| **Needs & Expectations** | PM precisa de dados do ops *antes* de priorizar features. Ops precisa de 2 semanas de lead time para qualquer mudança de processo. Data precisa de acesso a dados brutos, sem camadas de abstração. Comercial precisa de suporte de produto para reuniões com clientes grandes. Engenheiro precisa de critério claro de "done" antes de começar cada sprint. |
+| **Rules & Activities** | Weekly de 45 min às segundas (sem slides — só dados + decisões). Slack para comunicação assíncrona (resposta em até 4h em horário comercial). Decisão técnica: engenheiro tem veto. Decisão de produto/prioridade: PM tem última palavra. Decisão de operação: ops tem última palavra. Conflicts escalados para o trio PM + ops + comercial em 24h. |
+
+**Insight do caso.** O bloco que gerou mais conversa foi **Personal Goals** — especialmente o engenheiro que queria "mais influência na arquitetura" e o PM que assumia que o engenheiro estava "só para implementar". Sem o Team Canvas, essa tensão teria emergido na primeira divergência de sprint. Com o canvas, o time chegou a um acordo explícito: o engenheiro entra na reunião de priorização com voto consultivo sobre viabilidade técnica, e o PM explica as decisões de "não agora" com contexto de negócio. **A lição: o conflito mais destrutivo em times de startup é o conflito sobre quem decide o quê. Team Canvas não resolve o conflito — antecipa a conversa e torna o acordo explícito antes que o conflito aconteça.**
+
+##### Variações e extensões
+
+- **Team Canvas Basic**: versão simplificada com apenas 5 blocos (Goals, Roles, Values, Needs, Rules) — para times muito pequenos (2-3 pessoas) ou sessões rápidas de 45 minutos.
+- **Squad Health Check** (Spotify): complemento do Team Canvas — avalia periodicamente a saúde do time em dimensões como Ownership, Speed, Fun, Learning. Útil para revisão trimestral.
+- **Working Agreements Canvas**: foco exclusivo em normas de trabalho — versão mais operacional que o Team Canvas completo.
+
+##### Erros comuns
+
+- Fazer o Team Canvas sem o bloco Personal Goals — é exatamente onde estão os pressupostos não declarados mais perigosos.
+- Facilitador que também está no canvas — difícil ser objetivo; terceiro facilita melhor.
+- Canvas como check-box burocrático (preencher por obrigação, nunca revisitar) — valor está na sessão e na revisão periódica, não no documento.
+- Confundir Values com slogan corporativo — "inovação", "integridade", "excelência" são valores genéricos que não guiam decisão real. "Velocidade sobre perfeição" ou "dados antes de opinião" são valores acionáveis.
+- Tratar o canvas como imutável — times mudam; refaça a cada 6 meses ou quando a composição muda significativamente.
+
+##### Quando NÃO usar
+
+Em times de 1-2 pessoas (overhead não compensa). Em contextos onde há hierarquia rígida que impede honestidade nos blocos Personal Goals e Weaknesses (o canvas produz respostas performáticas, não reais). Em squads temporários de projeto com vida útil <3 meses — overhead de sessão pode não compensar.
+
+##### Conexão com outros canvases
+
+O Team Canvas **complementa o BMC (Fase 2)** e o **Lean Canvas (Fase 1)**: estes descrevem o modelo externo (o negócio); o Team Canvas descreve o modelo interno (o time que vai executar). **Orienta o Risk Canvas (Fase 12, Vol. 4)** no bloco "Risco de equipe" — o Team Canvas é o diagnóstico; o Risk Canvas é a priorização e mitigação. **Precede o Storytelling Canvas (Fase 14, Vol. 5)** em narrativas de expansão: time alinhado produz narrativa coerente; time desalinhado produz narrativa contraditória.
+
+##### Leitura adicional
+
+- [teamcanvas.com](https://www.teamcanvas.com) — Alex Ivanov mantém o site com templates e estudos de caso.
+- *The Five Dysfunctions of a Team* (Patrick Lencioni, 2002) — modelo de saúde de time que se integra ao Team Canvas.
+- *An Elegant Puzzle* (Will Larson, 2019) — engineering management com foco em time e alinhamento, relevante para squads técnicos.
+
+---
+
+### TEMPLATES OPERACIONAIS E CASOS PREENCHIDOS DESTA FASE
+
+#### Template: Entrevista com Advisor (decisão específica · tradeoffs)
+
+> [!important] Disciplina central
+> Advisor é para **refinar decisão que já está em cima da mesa**, não para descobrir o problema. Se você não consegue nomear a decisão em uma frase, você não está pronto para essa conversa — volte para Template: Entrevista de Problema (Fase 4, Vol. 2) (entrevista de problema) ou Template: Entrevista com Especialista de Mercado (mapa de setor · Fases 3-5) (Fase 4, Vol. 2) (especialista). Pareamento natural com o [[#CAPÍTULO 13 — REDE, MENTORES E ADVISORS — COMO CONSTRUIR O CAPITAL HUMANO DO EMPREENDEDOR|Capítulo 13 (REDE, MENTORES E ADVISORS — COMO CONSTRUIR O CAPITAL HUMANO DO EMPREENDEDOR)]], que cobre como construir e formalizar a relação com advisors. Este template é o que se usa **dentro** da conversa, depois que o advisor já está no jogo.
+
+##### Parte A — Roteiro da Conversa (uso durante)
+
+**Duração alvo:** 60-90 min · **Balanço de fala:** advisor fala bastante, mas você conduz — prepare a pauta e volte a ela quando a conversa derivar.
+
+**Abertura (3 min)**
+
+> "Obrigado pelo tempo. A decisão que temos em cima da mesa é [frase única]. As opções são [A, B, C]. Meu objetivo nessa conversa é ouvir como você veria o problema, que contra-argumentos você enxerga, e que casos parecidos você já viu. Posso gravar para o time ouvir depois?"
+
+**Contexto (5 min)**
+
+- Apresentar em 3 minutos: onde estamos, a decisão, o que tentamos, o que já descartamos e por quê.
+- Confirmar que a pessoa teve acesso ao material prévio, ou resumir o que ela não viu.
+
+**Reenquadramento (10 min — antes de pedir recomendação).** *Frequentemente o valor do advisor está em reformular a pergunta, não em responder a que você trouxe.*
+
+- Do jeito que eu descrevi, a decisão parece a decisão certa a tomar? Ou você formularia diferente?
+- Que pergunta anterior a essa nós ainda não respondemos?
+
+**Recomendação e raciocínio (15 min)**
+
+- Qual é sua recomendação? (Forçar decisão binária: A, B ou C, não "depende".)
+- Qual é a convicção — alta, média, baixa?
+- Me leva pelo raciocínio — o que te fez chegar aí?
+
+**Objeções e condições de reversão (10 min).** *Advisor bom lista o que pode dar errado com a própria recomendação. Se não ouviu objeção nenhuma, pergunte explicitamente.*
+
+- Se você estivesse no nosso lugar, o que te faria mudar de ideia?
+- Em que condições essa recomendação deixaria de valer?
+- Já viu essa recomendação dar errado? Quando?
+
+**Casos análogos (10 min)**
+
+- Você já viu empresa parecida tomar decisão parecida? O que rolou?
+- Onde o caso que você está citando **não** se aplica ao nosso?
+
+**Riscos e pontos cegos (5 min)**
+
+- Que riscos nós não estamos pesando?
+- Que riscos você acha que estamos superdimensionando?
+
+**Encerramento (3 min)**
+
+- O que você faria nos próximos 30 dias se fosse nós?
+- Topa reportar o resultado dessa decisão em [prazo]?
+
+**NÃO FAZER**
+
+- Pedir recomendação sem apresentar o problema com rigor — vira conversa de opinião genérica.
+- Engolir a recomendação sem confronto — advisor não decide por você.
+- Confundir "já vi isso" com "isso se aplica aqui".
+- Tratar heurística pessoal ("eu sempre fiz X") como lei do setor.
+
+##### Parte B — Síntese Pós-Conversa
+
+###### Metadados
+
+| Campo | Valor |
+|---|---|
+| **ID** | `ADV-[AAAA-MM-DD]-[##]` |
+| **Data e hora** | `[DD/MM/AAAA]` |
+| **Duração** | `[min]` |
+| **Formato** | `[ ] Remoto  [ ] Presencial` |
+| **Participantes internos** | `[Nome(s)]` |
+| **Gravação / notas compartilhadas** | `[link]` |
+| **Tipo de relação** | `[ ] Board member  [ ] Advisor formal com equity  [ ] Advisor informal  [ ] Consultor remunerado  [ ] Mentor pontual]` |
+| **Remuneração / contrato** | `[equity %, fee, pro bono, etc.]` |
+| **Conflitos de interesse conhecidos** | `[...]` |
+
+###### Perfil do Advisor
+
+| Campo | Valor |
+|---|---|
+| **Nome** | `[...]` |
+| **Trajetória curta** | `[2-3 linhas sobre empresas, papéis, resultados relevantes]` |
+| **Por que esta pessoa para esta decisão?** | `[fit específico — experiência prévia, rede, especialidade]` |
+| **Já tomou decisão parecida?** | `[ ] Sim — detalhe  [ ] Análoga  [ ] Não, mas observou de perto]` |
+
+###### 1. Decisão em pauta
+
+**A decisão, em uma frase.** *Teste: se você não consegue enquadrar em uma frase com verbo claro, a conversa vai para todo lado. Volte e afie antes.*
+
+`[Ex: "Devemos levantar Series A agora com US$ 8M em termos X, ou esperar 9 meses com mais tração?"]`
+
+**Janela de decisão.**
+
+- **Prazo que temos para decidir:** `[...]`
+- **Custo de adiar:** `[...]`
+- **Reversibilidade:** `[ ] Reversível  [ ] Parcialmente reversível  [ ] Irreversível]`
+
+**Opções em cima da mesa.**
+
+| Opção | Descrição curta | Quem defende internamente |
+|---|---|---|
+| A | `[...]` | `[...]` |
+| B | `[...]` | `[...]` |
+| C (status quo) | `[...]` | `[...]` |
+
+###### 2. Contexto compartilhado antes da conversa
+
+> *O advisor recebeu briefing? Leu material? Quanto viu dos números? Isso modula o peso da recomendação.*
+
+- **Material enviado antes:** `[link ou descrição]`
+- **Tempo de preparo da pessoa:** `[...]`
+- **Lacunas que ficaram — o que ela não viu:** `[...]`
+
+###### 3. Como o advisor reenquadrou o problema
+
+> *Frequentemente o valor do advisor não está na resposta — está no reenquadramento. "Vocês estão fazendo a pergunta errada" vale mais do que "a resposta é B".*
+
+**Ela viu a decisão diferente de como chegamos?** `[ ] Sim, de forma significativa  [ ] Sim, em aspecto pontual  [ ] Não, viu igual`
+
+**Qual foi o reenquadramento? (se houve)** `[...]`
+
+###### 4. Recomendação
+
+**Recomendação principal (em uma frase).** `[...]`
+
+**Convicção do advisor.** `[ ] Alta ("eu faria isso")  [ ] Média ("tendo a achar que…")  [ ] Baixa ("não tenho certeza, mas considere…")`
+
+**Linha de raciocínio (principais porquês).**
+
+1. `[...]`
+2. `[...]`
+3. `[...]`
+
+###### 5. Objeções e contra-argumentos levantados
+
+> *Advisor bom lista o que pode dar errado com a própria recomendação. Se você não ouviu objeção nenhuma, ou ela foi frouxa ou você não perguntou.*
+
+- **Contra-argumento 1:** `[...]`
+- **Contra-argumento 2:** `[...]`
+- **Condições em que a recomendação mudaria:** `[...]`
+
+###### 6. Tradeoffs destacados
+
+| Tradeoff | O que ganhamos | O que perdemos |
+|---|---|---|
+| `[...]` | `[...]` | `[...]` |
+| `[...]` | `[...]` | `[...]` |
+
+###### 7. Casos e analogias citadas
+
+> *"Já vi isso acontecer em [empresa X]" é o ativo central do advisor. Registre — inclusive para comparar entre advisors sobre a mesma decisão.*
+
+| Caso / empresa | O que rolou | Como se aplica ao nosso caso | Como não se aplica |
+|---|---|---|---|
+| `[...]` | `[...]` | `[...]` | `[...]` |
+
+###### 8. Riscos destacados
+
+- **Riscos que não havíamos pesado:** `[...]`
+- **Riscos que já víamos mas foram amplificados:** `[...]`
+- **Riscos que ela acha que estamos superdimensionando:** `[...]`
+
+###### 9. Separação fato vs. opinião vs. heurística pessoal
+
+> *Advisor mistura três coisas em qualquer conversa: fato (verificável), opinião (tese informada) e heurística pessoal ("eu sempre fiz assim"). Separar ajuda a decidir o que pesar.*
+
+**Fatos citados (checáveis).** `[...]`
+
+**Opiniões (com base em experiência mas não necessariamente generalizáveis).** `[...]`
+
+**Heurísticas pessoais (padrão pessoal da pessoa, tratar com cautela).** `[...]`
+
+###### 10. Vocabulário e quadros mentais
+
+> *Advisor bom traz quadros mentais (frameworks, analogias, axiomas) que organizam a decisão. Registre os que ressoaram — você vai reutilizar em pitch, board e nas próximas conversas internas.*
+
+| Termo / framework / analogia | Como ela usou |
+|---|---|
+| `[...]` | `[...]` |
+
+###### 11. Armadilhas — autoavaliação pós-conversa
+
+> *Marque honestamente. Advisor tem autoridade natural — isso contamina a escuta se você não checar.*
+
+- [ ] Engoli a recomendação sem confronto porque a pessoa tem muita credibilidade?
+- [ ] Tratei caso pessoal dela como generalizável sem verificar o fit com nosso contexto?
+- [ ] Aceitei heurística pessoal ("eu sempre fiz assim") como lei do setor?
+- [ ] Pedi recomendação sem ter apresentado a decisão com rigor?
+- [ ] Deixei de pedir objeção / contra-argumento explicitamente?
+- [ ] Confundi convicção dela com qualidade do argumento?
+
+**Achados sob suspeita:** `[...]`
+
+###### 12. Nossa posição pós-conversa
+
+> *Tão importante quanto ouvir é registrar o que fizemos com o que ouvimos. Advisor não decide por nós. Decidimos nós, informados por ela.*
+
+**Frente à recomendação.**
+
+- [ ] **Aceitamos integralmente** — justificativa: `[...]`
+- [ ] **Aceitamos com modificação** — modificação e por quê: `[...]`
+- [ ] **Rejeitamos** — justificativa: `[...]`
+- [ ] **Adiamos decisão** — o que falta saber antes: `[...]`
+
+**Convicção interna após a conversa.** `[ ] Aumentou  [ ] Diminuiu  [ ] Mesma, melhor argumentada  [ ] Gerou confusão — precisamos reprocessar]`
+
+###### 13. Ações acordadas
+
+| Ação | Responsável | Prazo |
+|---|---|---|
+| `[...]` | `[Nome]` | `[DD/MM]` |
+
+**Follow-up com o advisor.**
+
+- [ ] Enviar resumo desta conversa em até 48h (com o que decidimos, inclusive quando decidimos diferente da recomendação)
+- [ ] Reportar resultado da decisão em: `[prazo]`
+- [ ] Próxima conversa agendada? `[data / gatilho]`
+
+###### 14. Reflexão interna (pós-conversa, sem o advisor)
+
+> *Fazer 30 min depois da conversa, só com o time interno. Três perguntas.*
+
+**O que foi sinal e o que foi ruído nesta conversa?** `[...]`
+
+**Onde ela pode estar errada em função do viés dela (experiência datada, setor diferente, ego)?** `[...]`
+
+**Se seguirmos a recomendação e der errado, conseguimos explicar por que parecia razoável na hora?** `[...]`
+
+###### 15. Próximos passos de investigação
+
+> *Perguntas que esta conversa gerou e que precisam ser respondidas antes da próxima rodada de decisão.*
+
+**Outras fontes a consultar antes de decidir.**
+
+- `[outro advisor com viés complementar / especialista no tema / dado externo]`
+- `[...]`
+
+**Dados internos a levantar.** `[...]`
+
+**Se decidirmos, o que precisa estar pronto?** `[...]`
+
+*Preenchido por `[Nome]` em `[DD/MM/AAAA]`.*
+
+---
+
+### LEITURAS E RECURSOS RECOMENDADOS DESTA FASE
+
+#### Leituras fundamentais (livros)
+
+*The Mom Test*, de Rob Fitzpatrick: como conduzir entrevistas que produzem evidência real, não validação enganosa. *The Lean Startup*, de Eric Ries: ciclo build-measure-learn e pensamento de experimento aplicado a negócios. *Running Lean*, de Ash Maurya: metodologia operacional para validação de startups. *Talking to Humans*, de Giff Constable: guia prático de customer discovery. *Jobs to Be Done*, de Anthony Ulwick e Clayton Christensen: framework para entender motivação real do cliente. *The Four Steps to the Epiphany*, de Steve Blank: clássico sobre customer development. *Zero to One*, de Peter Thiel: pensamento contrarian sobre monopólios e diferenciação. *Inspired*, de Marty Cagan: gestão de produto moderna. *Predictable Revenue*, de Aaron Ross: escalabilidade de vendas B2B. *tração*, de Gabriel Weinberg: como escolher canais de aquisição. *The Logic of Scientific Discovery*, de Karl Popper: fundação da lógica de falsificação. Leitura densa, mas essencial para quem quer entender por que hipóteses falsificáveis importam. *Experimentation Works*, de Stefan Thomke: cultura de experimentação em empresas estabelecidas, complementar ao Lean Startup em estágios mais avançados.
+
+#### Ensaios canônicos de Paul Graham — referência consolidada
+
+Paul Graham escreveu aproximadamente duzentos ensaios entre 1993 e 2024, publicados gratuitamente em paulgraham.com. Muitos viraram vocabulário básico do ecossistema de startups: "do things that don't scale", "default alive", "ramen profitable", "schlep blindness", "founder mode". Boa parte do que eu articulo nesse livro tem raiz naqueles textos. Cito-os ao longo do material, mas reúno aqui a referência consolidada para que você tenha um mapa de leitura.
+
+A organização abaixo é por utilidade operacional para fundador em construção, não cronológica. A leitura recomendada é em sessão única de duas a três horas dos primeiros oito, depois releitura seletiva anual de acordo com a fase que você estiver vivendo.
+
+**Para a fase de encontrar ideia (Fases 1 a 3).** *How to Get Startup Ideas* (2012), em paulgraham.com/startupideas.html. "Live in the future, then build what's missing." Sobre ideias orgânicas, sitcom ideas, estar na borda. *Schlep Blindness* (2012), em paulgraham.com/schlep.html. Por que problemas chatos são frequentemente as maiores oportunidades. Caso canônico Stripe. *Frighteningly Ambitious Startup Ideas* (2012), em paulgraham.com/ambitious.html. Por que as ideias mais ambiciosas intimidam e por isso são oportunidade. *Organic Startup Ideas* (2010), em paulgraham.com/organic.html. Desenvolvimento específico do conceito de ideias que nascem de necessidade própria.
+
+**Para construir e crescer (Fases 9 a 14).** *Do Things That Don't Scale* (2013), em paulgraham.com/ds.html. Por que trabalho manual intenso é o que produz PMF. *Startup = Growth* (2012), em paulgraham.com/growth.html. Benchmarks YC: cinco a sete por cento por semana é saudável, dez por cento é excepcional. *Default Alive or Default Dead* (2015), em paulgraham.com/aord.html. A pergunta diagnóstica mais importante que você precisa responder a partir dos oito ou nove meses de operação. *The Fatal Pinch* (2014), em paulgraham.com/pinch.html. O cenário letal que mata mais startups que qualquer fraude. *Ramen Profitable* (2009), em paulgraham.com/ramenprofitable.html. Por que cobrir custos de vida dos fundadores é milestone subestimado. *Superlinear Returns* (2023), em paulgraham.com/superlinear.html. Por que pequenas diferenças de performance produzem retornos gigantescamente desproporcionais. *Startups in 13 Sentences* (2009), em paulgraham.com/13sentences.html. Treze princípios condensados, um dos ensaios que mais reli ao longo dos anos. Detalhado abaixo como one-pager.
+
+**Sobre o fundador (transversal a todas as fases).** *What We Look for in Founders* (2010), em paulgraham.com/founders.html. Os cinco atributos YC: determinação, flexibilidade, imaginação, naughtiness, amizade. Note que inteligência não aparece na lista. *Relentlessly Resourceful* (2009), em paulgraham.com/relres.html. A essência de bom fundador em duas palavras, e o antônimo, "hapless", como alerta. *The Anatomy of Determination* (2009), em paulgraham.com/determination.html. Determinação é vontade mais flexibilidade, não teimosia. A analogia do running back. *Before the Startup* (2014), em paulgraham.com/before.html. "Seja expert em usuários, não em startups." Gaming the system para de funcionar. *Earnestness* (2020), em paulgraham.com/earnest.html. Sinceridade como fator competitivo subestimado. *Mean People Fail* (2014), em paulgraham.com/mean.html. Por que caráter importa economicamente, não só moralmente. *Keep Your Identity Small* (2009), em paulgraham.com/identity.html. Como ideologias roubam capacidade de pensar com clareza. *You Weren't Meant to Have a Boss* (2008), em paulgraham.com/boss.html. Reflexão sobre autonomia, útil para calibrar expectativa pessoal. *The Top Idea in Your Mind* (2010), em paulgraham.com/top.html. O que ocupa sua mente no banho define sua produtividade.
+
+**Sobre escala e delegação.** *Founder Mode* (2024), em paulgraham.com/foundermode.html. Por que o conselho convencional de "contratar pessoas boas e sair do caminho" pode ser desastre. *Maker's Schedule, Manager's Schedule* (2009), em paulgraham.com/makersschedule.html. Dois modos de usar o tempo e a razão pela qual fundadores perdem capacidade de pensar em escala.
+
+**Sobre captação e VC.** *How to Raise Money* (2013), em paulgraham.com/fr.html. Guia tático denso, complementa o [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) (Vol. 5)]] desse livro. *Black Swan Farming* (2012), em paulgraham.com/swan.html. Entender como VCs pensam através da distribuição power-law dos retornos. *Investor Herd Dynamics* (2013), em paulgraham.com/herd.html. Por que captação oscila entre "impossível" e "fácil demais" sem meio-termo.
+
+**Sobre erros que matam.** *The 18 Mistakes That Kill Startups* (2006), em paulgraham.com/startupmistakes.html. Lista canônica dos erros mais frequentes. O insight central é que todos se reduzem a "não fazer algo que usuários querem".
+
+**Sobre como pensar.** *Keep Your Identity Small* (2009), já citado, aplicável também a pensamento estratégico. *How to Disagree* (2008), em paulgraham.com/disagree.html. Hierarquia de formas de discordar, útil para cultura interna e debates com sócios.
+
+> [!tip] Por onde começar
+> Se está começando agora, leia antes de tudo *How to Get Startup Ideas*, *Do Things That Don't Scale* e *Startups in 13 Sentences*. Nessa ordem. São os três que mais mudam a forma de trabalhar.
+
+#### Startups em 13 frases — one-pager canônico (Paul Graham, 2009)
+
+Em fevereiro de 2009, Graham escreveu o ensaio *Startups in 13 Sentences*, uma tentativa de condensar tudo que ele diria a um fundador se só pudesse falar treze coisas. Derivou da frase de Paul Buchheit que virou mantra do YC: "é melhor fazer poucas pessoas extremamente felizes do que muitas pessoas semi-felizes."
+
+Reproduzo as treze em formato consolidado aqui, com comentário operacional. Serve como one-pager final para releitura periódica. Eu imprimo e guardo próximo. Não porque as esqueço. Porque esquecer uma e só lembrar dela seis meses depois, num momento ruim, é o tipo de erro que dá para prevenir simplesmente relendo a lista mensalmente.
+
+Graham mesmo indica: se tivesse que escolher uma das treze, seria a quarta (entender seus usuários). Concordo.
+
+**Escolha bons cofundadores.** "Cofundadores são para uma startup o que localização é para imóveis: você pode mudar qualquer coisa numa casa, exceto onde ela está." Você pode mudar ideia, produto, mercado, modelo. Mas trocar cofundador é caro emocional e operacionalmente. O sucesso da startup é, quase sempre, função dos fundadores. Aplicação: [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]], [[#CAPÍTULO 2 — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Capítulo 2 (SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR)]].
+
+**Lance rápido.** Não porque "time to market" seja tudo, mas porque você ainda não começou a trabalhar no produto de verdade enquanto não lançou. Lançar te ensina o que você deveria estar construindo. Até lá, você está no escuro, mesmo que não perceba. Aplicação: [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 11 — MVP E EXPERIMENTOS DE MERCADO|Fase 11 (Vol. 4)]].
+
+**Deixe a ideia evoluir.** "É um erro tratar startup como se fosse só a implementação de uma ideia inicial brilhante." A ideia inicial é semente. A empresa que você acaba construindo é o resultado da interação entre semente e mercado real. Aplicação: [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 13 — PRODUCT-MARKET FIT|Fase 13 (Vol. 4)]].
+
+**Entenda seus usuários.** A única que Graham escolheria se só pudesse manter uma. "A tarefa essencial de uma startup é criar riqueza, a dimensão da riqueza sobre a qual você tem mais controle é quanto melhora a vida dos seus usuários, e a parte mais difícil disso é saber o que construir para eles." Aplicação: Fases 3 e 4.
+
+**Melhor fazer poucos usuários amarem do que muitos ficarem indiferentes.** Inicialmente, você tem que escolher entre satisfazer todas as necessidades de um subconjunto de potenciais usuários, ou satisfazer um subconjunto das necessidades de todos os potenciais usuários. Escolha a primeira. Aplicação: Estratégia da Cunha ([[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 5 — IDEA → WEDGE → SCALE: O FRAMEWORK ANTLER COMO LENTE TRANSVERSAL|Capítulo 5 (IDEA → WEDGE → SCALE: O FRAMEWORK ANTLER COMO LENTE TRANSVERSAL) (Vol. 3)]]).
+
+**Ofereça um atendimento surpreendentemente bom.** Clientes estão acostumados a serem maltratados. Tente fazer seu atendimento não apenas bom, mas surpreendentemente bom. Em estágio inicial, o fundador deve estar pessoalmente na linha de frente. Aplicação: [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 11 — MVP E EXPERIMENTOS DE MERCADO|Fase 11 (Vol. 4)]].
+
+**Você produz o que mede.** Se você quer que algo cresça, meça diariamente. Se quer usuários ativos, meça usuários ativos todo dia. Se quer receita, meça receita semanal. O simples ato de medir já muda o comportamento do time. Aplicação: [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#ÍNDICE GERAL DE FRAMEWORKS DA COLEÇÃO|Índice Geral de Frameworks (Vol. 10)]].
+
+**Gaste pouco.** A forma mais comum de morte de startup é ficar sem dinheiro. Ser barato é quase sinônimo de iterar rápido. Mais do que isso: cultura de frugalidade mantém a empresa jovem, assim como exercício mantém pessoas jovens. Aplicação: [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 12 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 12 (Vol. 4)]], [[#CAPÍTULO 1 — DINHEIRO PESSOAL DO FUNDADOR|Capítulo 1 (DINHEIRO PESSOAL DO FUNDADOR)]].
+
+**Chegue a ramen-profitable.** Ramen-profitable significa gerar receita suficiente para cobrir custos básicos de vida dos fundadores. Não é riqueza. É sobrevivência infinita. Uma vez que você cruza essa linha, muda radicalmente sua relação com investidores. Você passa a negociar de força, não de urgência. Aplicação: [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 12 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 12 (Vol. 4)]].
+
+**Evite distrações.** "A startup pode ter mais potencial de longo prazo, mas você sempre vai interromper o trabalho nela para trabalhar em outra coisa." Graham identifica fundraising como a distração campeã. Captação tende a se tornar a "ideia principal na sua cabeça" e roubar cem por cento do seu foco. Minimize tempo em distrações. Quando precisar captar, faça-o rápido e decisivo. E volte a construir. Aplicação: [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]], [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 10 — FOUNDER MODE, DELEGAÇÃO E QUANDO PARAR DE FAZER|Capítulo 10 (FOUNDER MODE, DELEGAÇÃO E QUANDO PARAR DE FAZER) (Vol. 6)]] e [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 11 — GESTÃO DE TEMPO DO FUNDADOR E OPERATING CADENCE|Capítulo 11 (GESTÃO DE TEMPO DO FUNDADOR E OPERATING CADENCE) (Vol. 6)]].
+
+**Não se desmoralize.** Embora a causa imediata de morte de uma startup seja "ficar sem dinheiro", a causa subjacente é geralmente falta de foco causada por desmoralização. Começar uma startup carrega peso emocional enorme. Entenda isso e faça esforço consciente para não se deixar esmagar, como você cuida de flexionar os joelhos ao levantar uma caixa pesada. Aplicação: [[#CAPÍTULO 2 — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Capítulo 2 (SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR)]].
+
+**Não desista.** "Você consegue ir surpreendentemente longe apenas por não desistir." Em matemática, persistência sem talento não produz resultado. Em startups, esforço puro frequentemente é suficiente, desde que você continue ajustando a ideia. Aplicação: apêndice sobre Pivot.
+
+**Deals caem.** "Uma das habilidades mais úteis que aprendemos no Viaweb foi não criar expectativas." Graham e o time tiveram cerca de vinte deals caírem. Aprenderam a tratar deals como processos de fundo que você ignora até terminarem. É perigoso para o moral depender de um deal antes dele fechar. E pior: essa dependência torna o deal menos provável de fechar (a urgência que o outro lado sente gera desconfiança). Aplicação: [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) (Vol. 5)]].
+
+> [!important] Se tiver que escolher uma para aplicar hoje, releia a quarta
+> Todo o resto flui daí.
+
+> [!info] Fases relacionadas
+> Referenciado em: Fase 0.
 
 ---
 
@@ -714,7 +1410,7 @@ O entregável desta fase — o Dossiê Pessoal do Empreendedor — é o que habi
 
 Esta é a fase de geração metódica de uma ideia-candidata que valha o investimento de tempo das fases seguintes. Não é "ter um insight de ducha". É trabalho sistemático com múltiplos métodos, filtros de qualidade e critérios explícitos de escolha. O entregável é uma Lista Curta de Ideias. Três a cinco candidatas filtradas a partir de quinze a trinta geradas, com uma escolhida para levar à [[#FASE 2 — ARTICULAÇÃO E CAPTURA DA IDEIA|Fase 2]]. A [[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]] assume que você já concluiu a [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]] e decidiu que vai empreender, mas ainda não sabe sobre o quê.
 
-A [[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]] é distinta da [[IGNICAO-Vol-2-Validacao#FASE 8 — IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES|Fase 8 (Vol. 2)]], Ideação e Prototipagem de Soluções. A [[IGNICAO-Vol-2-Validacao#FASE 8 — IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES|Fase 8 (Vol. 2)]] trata de gerar soluções técnicas para um problema já testado. A [[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]] trata de gerar a ideia de negócio inicial, antes de qualquer problema estar confirmado. As duas são ideação, mas em momentos e escalas muito diferentes.
+A [[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]] é distinta da [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 9 — IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES|Fase 9 (Vol. 3)]], Ideação e Prototipagem de Soluções. A [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 9 — IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES|Fase 9 (Vol. 3)]] trata de gerar soluções técnicas para um problema já testado. A [[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]] trata de gerar a ideia de negócio inicial, antes de qualquer problema estar confirmado. As duas são ideação, mas em momentos e escalas muito diferentes.
 
 > [!abstract] Resumo operacional
 > **Entregável:** Lista Curta de duas a quatro páginas com três a cinco ideias-candidatas filtradas a partir de quinze a trinta brutas, com uma escolhida para a Fase 2 e plano B/C documentados.
@@ -882,8 +1578,8 @@ A S-curve (curva de adoção tecnológica) descreve o ritmo em que uma tecnologi
 
 #### 6. Wedge theory, começar pelo micro-segmento
 
-> [!tip] Apêndice L — Idea → Wedge → Scale (Framework Antler)
-> O [[IGNICAO-Vol-2-Validacao#APÊNDICE L — IDEA → WEDGE → SCALE: O FRAMEWORK ANTLER COMO LENTE TRANSVERSAL|Apêndice L (Vol. 2)]] detalha o framework completo usado pelo programa Antler para guiar founders da ideia bruta até a cunha de entrada — incluindo os critérios para escolher uma wedge defensável e o caminho de expansão para mercado maior. Complementa diretamente o método descrito a seguir.
+> [!tip] Capítulo 5 (Vol. 3) — Idea → Wedge → Scale (Framework Antler)
+> O [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 5 — IDEA → WEDGE → SCALE: O FRAMEWORK ANTLER COMO LENTE TRANSVERSAL|Capítulo 5 (IDEA → WEDGE → SCALE: O FRAMEWORK ANTLER COMO LENTE TRANSVERSAL) (Vol. 3)]] detalha o framework completo usado pelo programa Antler para guiar founders da ideia bruta até a cunha de entrada — incluindo os critérios para escolher uma wedge defensável e o caminho de expansão para mercado maior. Complementa diretamente o método descrito a seguir.
 
 Mesmo quando você tem intuição grande ("quero reinventar educação no Brasil"), o começo real é pequeno. A wedge (ponto de entrada estreito no mercado) é o segmento específico pelo qual você entra. Não "estudantes brasileiros" (genérico, impossível de atender), mas "estudantes de engenharia do último ano de universidades federais que vão prestar concurso para Petrobras" (específico, endereçável, com dor identificável).
 
@@ -896,7 +1592,7 @@ Wellhub (anteriormente Gympass) não começou pensando "academias para empresas"
 #### 7. White space mapping, mercados com ausência estrutural
 
 > [!note] Antes de declarar um white space, verifique o campo competitivo com método
-> O [[IGNICAO-Vol-2-Validacao#APÊNDICE EE — INTELIGÊNCIA COMPETITIVA — MONITORAMENTO, ANÁLISE E RESPOSTA|Apêndice EE — Inteligência Competitiva (Vol. 2)]] descreve como montar monitoramento contínuo de concorrentes, interpretar análises win/loss e construir battle cards. Aplicado aqui, ajuda a distinguir white space genuíno (ninguém atende) de white space ilusório (alguém já tentou e falhou, ou um grande player está para entrar).
+> O [[IGNICAO-Vol-2-Descoberta-e-Mercado#CAPÍTULO 2 — INTELIGÊNCIA COMPETITIVA — MONITORAMENTO, ANÁLISE E RESPOSTA|Capítulo 2 — Inteligência Competitiva (Vol. 2)]] descreve como montar monitoramento contínuo de concorrentes, interpretar análises win/loss e construir battle cards. Aplicado aqui, ajuda a distinguir white space genuíno (ninguém atende) de white space ilusório (alguém já tentou e falhou, ou um grande player está para entrar).
 
 O último método é analítico. Mapeie um setor competitivamente e procure ausências. Monte uma matriz. Os eixos podem ser segmento de cliente por modelo de cobrança, ou canal por tamanho da empresa, ou qualquer dimensão relevante. Plote competidores conhecidos nos quadrantes. Observe os quadrantes vazios. Esses são os white spaces.
 
@@ -904,7 +1600,7 @@ A pergunta crítica, que separa white space verdadeiro de ilusão: *se o quadran
 
 A primeira é que tentaram e falharam. Alguém já ocupou o quadrante, consumiu capital, não conseguiu unit economics, quebrou. Este é o caso mais comum e o mais instrutivo. Antes de entrar, você precisa entender por que falharam. Se você sabe por que, e sabe o que faria diferente, e o contexto mudou (tecnologia, regulação, comportamento), pode ser oportunidade real. Se não sabe, você vai repetir o erro.
 
-A segunda é que o mercado não existe. O quadrante parece vazio porque ninguém quer o produto daquela maneira. Muitas ideias "white space óbvio" são, na verdade, white space porque não tem cliente. A única forma de saber é fazer a descoberta de problema da [[IGNICAO-Vol-2-Validacao#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3 (Vol. 2)]]. Não assuma.
+A segunda é que o mercado não existe. O quadrante parece vazio porque ninguém quer o produto daquela maneira. Muitas ideias "white space óbvio" são, na verdade, white space porque não tem cliente. A única forma de saber é fazer a descoberta de problema da [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 4 — DESCOBERTA DO PROBLEMA|Fase 4 (Vol. 2)]]. Não assuma.
 
 A terceira é que ninguém pensou ainda. Raro. Mercados não-óbvios existem, mas verdadeiro "ninguém pensou" em setor grande é evento raro. Quando acontece, geralmente é porque houve mudança recente (tecnológica, regulatória, demográfica) que abriu um espaço que antes não existia. Esse é o caso bom.
 
@@ -940,8 +1636,8 @@ O quarto filtro é modelo de pagamento real. *Quem paga, quanto, e por que volta
 
 No fim dos quatro filtros, idealmente você tem três a cinco ideias-candidatas finais. Escolha uma. A que melhor combina founder-market fit forte mais timing óbvio mais moat plausível mais modelo claro, para levar à [[#FASE 2 — ARTICULAÇÃO E CAPTURA DA IDEIA|Fase 2]]. Guarde as outras na Lista Curta. Se a primeira cair nas fases seguintes, você tem para onde voltar.
 
-> [!tip] Apêndice CZ — Canvases e Mapas Visuais de Modelo
-> Após escolher a candidata, o Lean Canvas é a ferramenta recomendada para estruturar visualmente o modelo em nove blocos antes de avançar para a Fase 2. Ele força articular Problema, Segmentos, Vantagem Injusta e Modelo de Receita em uma página — o que antecipa e facilita a Declaração Inicial da Ideia. O canvas preenchível, exemplo brasileiro (QuintoAndar 2015) e armadilhas comuns estão em [[IGNICAO-Vol-10-Canvases-e-Templates#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|CZ.2 (Vol. 10)]].
+> [!tip] Canvases Visuais — Canvases e Mapas Visuais de Modelo
+> Após escolher a candidata, o Lean Canvas é a ferramenta recomendada para estruturar visualmente o modelo em nove blocos antes de avançar para a Fase 2. Ele força articular Problema, Segmentos, Vantagem Injusta e Modelo de Receita em uma página — o que antecipa e facilita a Declaração Inicial da Ideia. O canvas preenchível, exemplo brasileiro (QuintoAndar 2015) e armadilhas comuns estão em [[#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvas: Lean Canvas (Ash Maurya, 2012)]].
 
 ### Semana das Ideias, exercício prático de cinco dias
 
@@ -986,8 +1682,8 @@ Se a semana produziu candidatas mas você não tem clareza sobre qual escolher, 
 
 ### Armadilhas específicas desta fase
 
-> [!note] Apêndice D — Armadilhas Mentais e Vieses
-> Os erros listados abaixo têm raízes em vieses cognitivos documentados — FOMO de setor, ancoragem na primeira ideia, excesso de confiança. O [[#APÊNDICE D — ARMADILHAS MENTAIS E VIESES|Apêndice D]] oferece diagnóstico e contra-medidas para cada viés, útil para revisar antes de aplicar os quatro filtros finais desta fase.
+> [!note] Capítulo 3 — Armadilhas Mentais e Vieses
+> Os erros listados abaixo têm raízes em vieses cognitivos documentados — FOMO de setor, ancoragem na primeira ideia, excesso de confiança. O [[#CAPÍTULO 3 — ARMADILHAS MENTAIS E VIESES|Capítulo 3 (ARMADILHAS MENTAIS E VIESES)]] oferece diagnóstico e contra-medidas para cada viés, útil para revisar antes de aplicar os quatro filtros finais desta fase.
 
 Primeira-ideia-por-cansaço. Você passa três ou quatro semanas na [[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]] sem clareza e decide "vai ser essa mesmo" por fadiga decisória. A pressa de começar tem custo gigante. Uma ideia mal escolhida vai te consumir anos. Se a [[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]] passa das oito semanas sem resolução, o problema provavelmente é paralisia, não falta de boa candidata. Leve as três finalistas para um mentor e force decisão. Mas não escolha por cansaço.
 
@@ -1004,9 +1700,9 @@ Hobby pessoal confundido com demanda de mercado. Você ama café especial, quer 
 Cópia dos EUA sem entender contexto brasileiro. "Esse modelo explodiu nos EUA, vai explodir aqui." A adaptação brasileira exige entender poder de compra de classe C diferente do consumidor americano médio, regulação (ANVISA, ANATEL, CVM, BCB) que pode travar modelos inteiros, comportamento cultural (baixa disposição a comprar pets online, alta informalidade em pagamentos), e infraestrutura (logística, bancarização, cobertura celular). Pode ser que o modelo precise ser completamente reengenheirado para funcionar aqui.
 
 > [!note] O consumidor brasileiro tem lógica própria que invalida transplantes diretos de modelos estrangeiros
-> O [[IGNICAO-Vol-2-Validacao#APÊNDICE FF — PSICOLOGIA DO CONSUMIDOR BRASILEIRO — COMPORTAMENTO, DECISÃO E CONVERSÃO|Apêndice FF — Psicologia do Consumidor Brasileiro (Vol. 2)]] cobre comportamento mobile-first, dinâmica de compra da classe C/D e vieses culturais locais. Fundamental antes de filtrar candidatas que dependem de suposições sobre comportamento do cliente brasileiro.
+> O [[IGNICAO-Vol-2-Descoberta-e-Mercado#CAPÍTULO 1 — PSICOLOGIA DO CONSUMIDOR BRASILEIRO — COMPORTAMENTO, DECISÃO E CONVERSÃO|Capítulo 1 — Psicologia do Consumidor Brasileiro (Vol. 2)]] cobre comportamento mobile-first, dinâmica de compra da classe C/D e vieses culturais locais. Fundamental antes de filtrar candidatas que dependem de suposições sobre comportamento do cliente brasileiro.
 
-Achismo sem customer conversation. Você passa quatro semanas dentro da sua cabeça sem falar com ninguém do setor da ideia. Customer conversation não é [[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]. É [[IGNICAO-Vol-2-Validacao#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3 (Vol. 2)]]. Mas algumas conversas breves e direcionadas na [[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]], especialmente no dia quinta do exercício acima, filtram muito. Não vire prisioneiro da própria cabeça.
+Achismo sem customer conversation. Você passa quatro semanas dentro da sua cabeça sem falar com ninguém do setor da ideia. Customer conversation não é [[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]]. É [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 4 — DESCOBERTA DO PROBLEMA|Fase 4 (Vol. 2)]]. Mas algumas conversas breves e direcionadas na [[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]], especialmente no dia quinta do exercício acima, filtram muito. Não vire prisioneiro da própria cabeça.
 
 Múltiplas ideias simultâneas. "Estou pensando em três ideias ao mesmo tempo." Na [[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]] isso é ótimo. Quanto mais candidatas, melhor. A partir da [[#FASE 2 — ARTICULAÇÃO E CAPTURA DA IDEIA|Fase 2]], é desastroso. Leve uma. As outras esperam.
 
@@ -1026,11 +1722,11 @@ Guarde esse documento. Mesmo depois de iniciar a [[#FASE 2 — ARTICULAÇÃO E C
 
 ### Checklist GO/NO-GO
 
-> [!tip] Apêndice G — Framework de Decisão por Gates
-> O critério de saída desta fase é uma decisão de gate: avançar ou não com esta ideia. O [[IGNICAO-Vol-2-Validacao#APÊNDICE G — FRAMEWORK DE DECISÃO POR GATES (PROBLEM CORE + SCALE LEVERS + EXPLORATORY)|Apêndice G (Vol. 2)]] formaliza como estruturar esse tipo de decisão — com critérios objetivos pré-definidos, evitando que o entusiasmo pelo projeto substitua a evidência como critério de avanço.
+> [!tip] Capítulo 2 (Vol. 3) — Framework de Decisão por Gates
+> O critério de saída desta fase é uma decisão de gate: avançar ou não com esta ideia. O [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 2 — FRAMEWORK DE DECISÃO POR GATES (PROBLEM CORE + SCALE LEVERS + EXPLORATORY)|Capítulo 2 (FRAMEWORK DE DECISÃO POR GATES (PROBLEM CORE + SCALE LEVERS + EXPLORATORY)) (Vol. 3)]] formaliza como estruturar esse tipo de decisão — com critérios objetivos pré-definidos, evitando que o entusiasmo pelo projeto substitua a evidência como critério de avanço.
 
-> [!note] Apêndice F — Abordagem Científica vs Lean Startup
-> Os quatro filtros desta fase e o checklist abaixo têm lógica de falsificação de suposições, não de execução de plano. O [[IGNICAO-Vol-2-Validacao#APÊNDICE F — ABORDAGEM CIENTÍFICA vs LEAN STARTUP: QUANDO USAR CADA UMA|Apêndice F (Vol. 2)]] contextualiza essa diferença de mentalidade — importante para quem vem do mundo corporativo e tende a tratar lista de ideias como planejamento estratégico.
+> [!note] Capítulo 1 (Vol. 3) — Abordagem Científica vs Lean Startup
+> Os quatro filtros desta fase e o checklist abaixo têm lógica de falsificação de suposições, não de execução de plano. O [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 1 — ABORDAGEM CIENTÍFICA vs LEAN STARTUP: QUANDO USAR CADA UMA|Capítulo 1 (ABORDAGEM CIENTÍFICA vs LEAN STARTUP: QUANDO USAR CADA UMA) (Vol. 3)]] contextualiza essa diferença de mentalidade — importante para quem vem do mundo corporativo e tende a tratar lista de ideias como planejamento estratégico.
 
 Antes de avançar para a [[#FASE 2 — ARTICULAÇÃO E CAPTURA DA IDEIA|Fase 2]], confirme:
 
@@ -1061,14 +1757,451 @@ Clareza da escolha final. Você consegue escrever em duas frases, sem hesitaçã
 
 Oito ferramentas estressam a candidata antes de comprometer meses ou anos. Não é leitura linear, é referência consultiva. Quando a fase citar "ver BG.X.Y" ou "ver CZ.N", abra o item, leia em três a cinco minutos e volte.
 
-- **Idea → Wedge → Scale (Antler)** — espinha de raciocínio quando há visão grande mas falta cunha. [[IGNICAO-Vol-2-Validacao#APÊNDICE L — IDEA → WEDGE → SCALE: O FRAMEWORK ANTLER COMO LENTE TRANSVERSAL|Apêndice L (Vol. 2)]].
-- **Strategy Canvas / ERRC Grid (Blue Ocean, Kim e Mauborgne, 2005)** — repensar categoria no Método 7 (white space) ou quando a ideia parece "outro X". CZ.4 e BG.1.8.
-- **First Principles Thinking** (Aristóteles, popularizado por Elon Musk) — decompor suposições no Método 1 (Expertise) e antes do Filtro 1 (FMF). BG.4.1.
-- **Inversion** (Jacobi, popularizado por Munger) — peneira final, "por que vai falhar?" antes de "por que vai funcionar?". BG.4.3.
-- **Wardley Mapping** (Simon Wardley, 2005) — posicionar componentes em estágios de evolução, especialmente no Método 5 (Technology Wave Riding). BG.2.5.
-- **Three Horizons Framework** (McKinsey, 1999) — calibrar H1 (incremental) vs H3 (transformacional), com implicação direta de janela e capital. BG.2.4.
-- **The Mom Test** (Rob Fitzpatrick, 2013) — método de entrevista que evita respostas educadas. Para Calibration Conversations da quinta da Semana das Ideias. BG.6.1.
-- **Lean Canvas e Business Model Canvas** (Maurya 2012, Osterwalder 2010) — articulação visual do modelo em uma página, depois dos quatro filtros e antes da Fase 2. CZ.2 e CZ.1.
+- **Idea → Wedge → Scale (Antler)** — espinha de raciocínio quando há visão grande mas falta cunha. [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 5 — IDEA → WEDGE → SCALE: O FRAMEWORK ANTLER COMO LENTE TRANSVERSAL|Capítulo 5 (IDEA → WEDGE → SCALE: O FRAMEWORK ANTLER COMO LENTE TRANSVERSAL) (Vol. 3)]].
+- **Strategy Canvas / ERRC Grid (Blue Ocean, Kim e Mauborgne, 2005)** — repensar categoria no Método 7 (white space) ou quando a ideia parece "outro X". Canvas: Strategy Canvas (W. Chan Kim & Renée Mauborgne, 2005) (Fase 6, Vol. 2) e Framework: Blue Ocean Strategy (W. Chan Kim & Renée Mauborgne, 2005) (Fase 1).
+- **First Principles Thinking** (Aristóteles, popularizado por Elon Musk) — decompor suposições no Método 1 (Expertise) e antes do Filtro 1 (FMF). Framework: First Principles Thinking (Aristóteles, ~350 a.C.; popularizado por Elon Musk, anos 2010) (Fase 0).
+- **Inversion** (Jacobi, popularizado por Munger) — peneira final, "por que vai falhar?" antes de "por que vai funcionar?". Framework: Inversion (Carl Jacobi; Charlie Munger, popularizado) (Fase 1).
+- **Wardley Mapping** (Simon Wardley, 2005) — posicionar componentes em estágios de evolução, especialmente no Método 5 (Technology Wave Riding). Framework: Wardley Mapping (Simon Wardley, 2005) (Fase 1).
+- **Three Horizons Framework** (McKinsey, 1999) — calibrar H1 (incremental) vs H3 (transformacional), com implicação direta de janela e capital. Framework: Three Horizons Framework (McKinsey, 1999) (Fase 1).
+- **The Mom Test** (Rob Fitzpatrick, 2013) — método de entrevista que evita respostas educadas. Para Calibration Conversations da quinta da Semana das Ideias. Framework: The Mom Test (Rob Fitzpatrick, 2013) (Fase 4, Vol. 2).
+- **Lean Canvas e Business Model Canvas** (Maurya 2012, Osterwalder 2010) — articulação visual do modelo em uma página, depois dos quatro filtros e antes da Fase 2. Canvas: Lean Canvas (Ash Maurya, 2012) (Fase 1) e Canvas: Business Model Canvas (Alexander Osterwalder, 2010) (Fase 2).
+
+---
+
+
+---
+
+### MÉTRICAS E BENCHMARKS DESTA FASE (FASE 1)
+
+| Métrica | O que medir | Referência saudável |
+|---|---|---|
+| Candidatas geradas | Total de ideias avaliadas | 20 ou mais antes de decidir |
+| Filtros aplicados | FMF, timing, mercado, execução | 4 filtros em todas as candidatas |
+| Schlep blindness testada | Você consegue articular por que outros evitam o problema? | Sim |
+| Janelas de timing mapeadas | Por que agora? | Resposta articulada em 2 frases |
+
+---
+
+### MANUAL PASSO A PASSO DOS FRAMEWORKS DESTA FASE
+
+> [!tip] Uso autocontido neste volume
+> Todos os frameworks abaixo estão detalhados integralmente com origem, estrutura, passo a passo de aplicação, exemplo brasileiro e armadilhas para execução imediata nesta **Fase 1**.
+
+#### Framework: Blue Ocean Strategy (W. Chan Kim & Renée Mauborgne, 2005)
+
+##### Origem
+
+W. Chan Kim e Renée Mauborgne, professores de INSEAD, publicaram *Blue Ocean Strategy* em 2005 após 15 anos de pesquisa analisando 150 movimentos estratégicos em 30 indústrias ao longo de 100+ anos. O livro virou bestseller global (> 4 milhões de cópias). Argumento central: **competir em mercado saturado (red ocean) é destrutivo, criar novo espaço de mercado (blue ocean) é a estratégia vencedora**.
+
+##### O que é
+
+Framework para **criar espaços de mercado não-contestados** em vez de competir em indústrias existentes. Foco em inovação de valor, simultaneamente diferenciar e reduzir custos (rejeita o tradeoff Porter entre diferenciação e custo).
+
+##### Princípios / estrutura
+
+Red Ocean (mercados existentes):
+
+- Regras competitivas definidas.
+- Fronteiras da indústria claras.
+- Competir por participação.
+- Exploit demand existente.
+- Escolher entre valor e custo (tradeoff Porter).
+
+Blue Ocean (mercados novos):
+
+- Regras ainda não definidas.
+- Fronteiras redesenhadas.
+- Crescer criando demanda nova.
+- Reach non-customers.
+- Romper tradeoff valor-custo.
+
+Framework analítico central, ERRC Grid (Eliminate, Reduce, Raise, Create):
+
+- Eliminate: quais fatores que a indústria assume como necessários podem ser eliminados?
+- Reduce: quais fatores podem ser reduzidos muito abaixo do padrão da indústria?
+- Raise: quais fatores podem ser elevados muito acima do padrão?
+- Create: quais fatores novos podem ser criados, que indústria nunca ofereceu?
+
+O resultado é o **Strategy Canvas**: gráfico que compara seu perfil de valor com concorrentes.
+
+> [!note] Tratamento completo do Strategy Canvas em Canvas: Strategy Canvas (W. Chan Kim & Renée Mauborgne, 2005) (Fase 6, Vol. 2)
+> Origem, estrutura detalhada, como aplicar passo a passo, caso Stone vs adquirentes tradicionais e erros comuns em [[#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvas: Strategy Canvas (W. Chan Kim & Renée Mauborgne, 2005)]].
+
+##### Como aplicar do jeito certo
+
+Passo 1, Mapear o setor atual (Strategy Canvas). Listar 8-15 fatores de competição do setor, desenhar curvas de valor dos principais concorrentes.
+
+Passo 2, Identificar non-customers. Três camadas: (a) near-customers (consomem mínimo, pouca satisfação), (b) refusing customers (rejeitam ativamente), (c) unexplored customers (nunca consideraram). Onde está o maior pool de non-customers? Por quê?
+
+Passo 3, Aplicar o ERRC Grid. Para cada fator de competição, decidir: eliminar, reduzir, elevar ou criar. Esse é o coração da ferramenta.
+
+Passo 4, Testar as três condições de uma boa blue ocean:
+
+- Foco: a nova curva de valor é clara, não tenta ser tudo para todos.
+- Divergência: visualmente distinta dos concorrentes.
+- Tagline: comunicável em frase curta.
+
+Passo 5, Validar com non-customers. A nova proposta atrai quem não era cliente?
+
+Passo 6, Executar. Blue ocean requer execução precisa, teoria sem execução vira ideia de powerpoint.
+
+##### Exemplo aplicado (original do livro)
+
+Cirque du Soleil:
+
+- Mercado existente (circo tradicional): atacado por TV e Disney, em declínio.
+- Movimento Blue Ocean: criar categoria entre circo e teatro.
+- ERRC:
+- *Eliminate*: animais, desconforto dos assentos, múltiplas apresentações simultâneas.
+- *Reduce*: diversão para crianças (infantilização).
+- *Raise*: tema, ambiente refinado, música original.
+- *Create*: narrativa sofisticada, produção artística teatral.
+- Resultado: preço de ingresso 4-5x maior que circo tradicional, público adulto pagante, crescimento massivo.
+
+Exemplo brasileiro (análise posterior): Nubank.
+
+- Mercado existente (bancos tradicionais): alta tarifa, atendimento ruim, processos burocráticos.
+- ERRC:
+- *Eliminate*: agências físicas, maioria das tarifas.
+- *Reduce*: papelada, burocracia de abertura.
+- *Raise*: experiência digital, transparência, atendimento humano (no início).
+- *Create*: cartão roxo com status, cultura brand-first.
+- Resultado: categoria nova de fintech "digital-only humano", crescimento para 80M+ clientes.
+
+##### Erros comuns
+
+Confundir blue ocean com "ideia inovadora qualquer": blue ocean tem lógica estrutural (rompe tradeoff valor-custo, alcança non-customers). Nem toda ideia nova é blue ocean. Pular a análise do red ocean atual: blue ocean só faz sentido depois de entender o mapa competitivo atual. Ferramenta depende do contraste. Fazer ERRC pela metade: só Raise e Create, sem Eliminate e Reduce. Sem eliminar/reduzir, custo explode, não há inovação de valor real. Ignorar execução: livro é forte em conceito, fraco em execução. Blue ocean só funciona se empresa consegue construir capabilities novas. Assumir que blue ocean é protegido para sempre: com sucesso, concorrentes copiam. Blue ocean vira red ocean em 5-10 anos. Necessário re-inventar. Aplicar em contexto mal-estudado: non-customers existem? Qual o tamanho? ERRC sem pesquisa é especulação. Hubris do fundador: "minha ideia é blue ocean". Validar empiricamente.
+
+##### Quando NÃO usar
+
+Em indústrias muito estabelecidas com altas barreiras estruturais, blue ocean pode ser difícil ou impossível. Quando startup não tem capital/time para redefinir categoria, blue ocean exige investimento substancial. Para decisões táticas de curto prazo, é ferramenta de inovação estratégica, não operacional.
+
+##### Leitura adicional
+
+- Kim, W. C. & Mauborgne, R. (2005). *Blue Ocean Strategy*. Harvard Business Press.
+- Kim, W. C. & Mauborgne, R. (2017). *Blue Ocean Shift*. Versão com playbook mais executivo.
+- Crítica: McGahan, A. (2004). "How Industries Evolve". Argumenta que indústrias têm dinâmicas evolutivas próprias, nem sempre blue ocean é possível.
+
+---
+
+#### Framework: Three Horizons Framework (McKinsey, 1999)
+
+##### Origem
+
+Desenvolvido por McKinsey no fim dos anos 1990, publicado em *The Alchemy of Growth* (Mehrdad Baghai, Stephen Coley, David White, 1999). Respondia à pergunta: **como empresa madura continua crescendo sem cair na armadilha "dividend trap" (core gera caixa, mas empresa estagna)?** O framework virou padrão em estratégia de inovação corporativa.
+
+##### O que é
+
+Framework que organiza iniciativas de crescimento em **três horizontes temporais**, exigindo que empresa gerencie os três simultaneamente:
+
+##### Princípios / estrutura
+
+Horizon 1, Extend & defend core: melhorias e expansões do core business atual. Retorno em 6-18 meses. 70% do esforço tipicamente.
+
+Horizon 2, Build emerging businesses: novas linhas de negócio em crescimento, adjacentes ao core. Retorno em 2-4 anos. 20% do esforço.
+
+Horizon 3, Create viable options for future: exploração de ideias disruptivas ou novos mercados. Retorno em 5+ anos (se houver). 10% do esforço.
+
+Metáfora da alquimia: H1 gera caixa que financia H2. H2 cresce e alguns viram novos cores. H3 explora futuro.
+
+##### Como aplicar do jeito certo
+
+Passo 1, Defina o core atual com precisão. H1 só é claro quando sabemos o que é "core" vs. adjacência.
+
+Passo 2, Mapeie iniciativas atuais em horizontes. Cada projeto, produto ou investimento vai para H1, H2 ou H3.
+
+Passo 3, Teste balanceamento. Muito H1 = futuro comprometido. Muito H3 = caixa hoje comprometido. Empresa saudável tem distribuição adequada ao estágio.
+
+Passo 4, Separe métricas por horizonte. H1 mede performance (receita, margem). H2 mede crescimento e tração (adoção, engagement). H3 mede aprendizado (hipóteses testadas, opções viáveis).
+
+Passo 5, Governance distinta por horizonte. H1 em comitê operacional. H3 frequentemente em entidade separada (skunkworks, corporate venture) para proteger de lógica de core.
+
+Passo 6, Revise anualmente. Horizontes evoluem: H3 pode virar H2. H2 pode virar novo H1.
+
+##### Exemplo aplicado
+
+Empresa SaaS brasileira com R$ 80M ARR (hipotético):
+
+- H1 (core, gestão financeira PME): acelerar adoção em SP/RJ, lançar mobile app, otimizar pricing. 70% do time e budget. Meta: manter crescimento de 30% ao ano.
+
+- H2 (adjacências): crédito para PMEs baseado em dados da plataforma, folha de pagamento integrada. 20% do esforço. Meta: atingir R$ 15M ARR em 36 meses.
+
+- H3 (apostas): AI-driven forecasting como produto autônomo, marketplace de serviços contábeis. 10% do esforço. Meta: validar 1-2 hipóteses por ano, matar as que não validam.
+
+##### Erros comuns
+
+Ignorar H2 e H3: empresa foca 100% em H1. Parece rentável por 3-5 anos, depois core estagna e não há sucessão. Financiar H3 como se fosse H1: esperar retornos rápidos de apostas de longo prazo. Desestimula experimentação. Misturar métricas e governance: tratar H3 com KPIs de H1 mata a inovação. Time H2/H3 sem proteção: sem autonomia e cobertura do CEO, time H3 é sufocado pelo urgente de H1. Proporções rígidas (70/20/10): são benchmarks, não regras. Ajuste por estágio e contexto. H3 vira "inovação theater": hackathons sem follow-through. Precisa de capital, tempo, foco.
+
+##### Quando NÃO usar
+
+Pré-PMF: empresa ainda está construindo H1, prematuro H2-H3, Startup early Series A focada em PMF: foco total em core é correto, Quando capital ou time é estritamente insuficiente para três horizontes, fingir é pior que focar.
+
+##### Leitura adicional
+
+- Baghai, M., Coley, S. & White, D. (1999). *The Alchemy of Growth*. Perseus.
+- McKinsey Quarterly (atualizações periódicas do framework).
+
+---
+
+#### Framework: Wardley Mapping (Simon Wardley, 2005)
+
+##### Origem
+
+Simon Wardley, ex-CEO de empresa inglesa que fazia comércio eletrônico (Fotango), desenvolveu o mapeamento em 2005 após frustração com frameworks estratégicos existentes (SWOT, 5 Forças), que não davam clareza sobre "o que fazer". Wardley Mapping combina **posição** (eixo X: estágio de evolução do componente, de genesis a commodity) com **dependência** (eixo Y: quão próximo do usuário final). Usado hoje em Amazon, governo britânico (cabinet office), muitas big techs. Curiosamente, Wardley publica tudo em Creative Commons, material é open source.
+
+##### O que é
+
+Ferramenta visual para mapear **cadeia de valor** de negócio contra **evolução tecnológica**. Permite ver: onde investir custom vs. onde usar commodity, onde há oportunidade disruptiva, onde temos vantagem vs. onde é ilusão.
+
+##### Princípios / estrutura
+
+Eixo X, Estágios de evolução (da esquerda para direita):
+
+1. Genesis: exploração, custom-built, raro.
+2. Custom-built: único, desenvolvido sob medida.
+3. Product (+ rental): produto maduro com versões, compete por features.
+4. Commodity (+ utility): indiferenciado, competição por preço, fornecido como utility.
+
+Eixo Y, Visibilidade ao usuário: no topo, componentes que o usuário vê direto (UX), embaixo, componentes de infraestrutura invisíveis.
+
+**Componentes são colocados no mapa** e **linhas de dependência** entre eles são desenhadas. Resultado: imagem clara de onde empresa investe valor custom vs. commodity.
+
+##### Doutrinas (princípios derivados do mapping)
+
+- Foque em necessidades do usuário.
+- Use mapas apropriados para contextar.
+- Remova duplicação e bias.
+- Use componentes commoditizados quando disponíveis.
+- Use Genesis/Custom quando quer diferenciar.
+- Pense sobre movimentos de concorrentes e ambiente.
+
+##### Como aplicar do jeito certo
+
+Passo 1, Identifique o usuário e a necessidade. Topo do mapa sempre começa com usuário e JTBD.
+
+Passo 2, Desça a cadeia de valor. Que componentes são necessários para entregar valor ao usuário? Produtos, dados, infraestrutura, habilidades.
+
+Passo 3, Classifique cada componente no eixo de evolução. É genesis (ainda novo), custom-built (único para nós), product (comprável), ou commodity (utility)?
+
+Passo 4, Analise movimentos. Componentes evoluem da esquerda para direita ao longo do tempo. O que é custom-built hoje será commodity em 5 anos. Planejar essa evolução.
+
+Passo 5, Identifique onde investir custom vs. commodity. Regra: investir pesado em componentes custom quando criam diferenciação, comoditizar tudo mais. Amazon faz isso no extremo (AWS é monetização da comoditização de componentes internos).
+
+Passo 6, Jogue cenários. E se concorrente comoditizar nosso componente custom? E se nova tecnologia acelerar evolução? Wardley usa "climatic patterns", forças inevitáveis de evolução.
+
+##### Exemplo aplicado
+
+Startup de e-commerce para artistas (produtor físico + loja online):
+
+Topo (usuário): artista que quer vender produtos customizados.
+
+Descendo a cadeia:
+
+- Loja online customizada (custom-built → product): Shopify resolve isso bem. Commoditizar via Shopify.
+- Integração com produção sob demanda (custom-built): nossa diferenciação. Investir.
+- Marketplace de produção (fornecedores) (genesis-to-custom): único aspecto novo, próprio.
+- Pagamento (commodity): usar Stripe/Pagar.me, não construir.
+- Infraestrutura cloud (commodity): usar AWS/GCP.
+- Logística (product): terceirizar com Loggi/Correios.
+
+Conclusão estratégica: investir pesado em marketplace de produção, usar componentes comoditizados em tudo mais. Competir em nosso diferencial, não em logística ou pagamento.
+
+##### Erros comuns
+
+Mapear componente errado: classificar como custom-built algo que é commodity no mercado. Investir em reinventar roda. Ignorar evolução temporal: hoje custom, amanhã commodity. Empresa fica presa em custom por anos. Mapa estático: não revisitar. Mapas devem ser refeitos em ciclos de 6-12 meses. Desconexão com estratégia: mapa lindo mas não vira decisão de investimento. Ferramenta exige compromisso em agir sobre ela. Aplicar sem entendimento prévio: Wardley mapping tem curva de aprendizado. Primeiros mapas geralmente são imprecisos. Prática. Só mapear uma vez: sem iteração, ferramenta tem valor limitado.
+
+##### Quando NÃO usar
+
+Early-stage antes de saber qual é o core produto/valor, difícil mapear sem concreção, Quando organização não está disposta a agir sobre resultados, Em indústrias muito estáveis onde evolução é lenta e irrelevante.
+
+##### Leitura adicional
+
+- Wardley, S. (livre na web): *Wardley Maps* (livro open-source em Medium/GitBook).
+- Vídeos da OSCON 2014, 2015 (Wardley apresentando), disponíveis em YouTube.
+- Comunidade wardleymaps.com.
+
+---
+
+#### Framework: Inversion (Carl Jacobi; Charlie Munger, popularizado)
+
+##### Origem
+
+Inversion tem origem na matemática, Carl Gustav Jacobi (séc. XIX) era famoso pelo princípio "man muss immer umkehren" ("sempre inverter"). Charlie Munger, sócio de Warren Buffett e vice-chairman da Berkshire Hathaway, popularizou para tomada de decisão empresarial. Munger: "Invert, always invert. Turn a situation or problem upside down."
+
+##### O que é
+
+Método de **pensar em reverso**: em vez de perguntar "como atingir sucesso?", perguntar **"como evitar falha?"**. Frequentemente mais frutífero, evitar armadilhas conhecidas é mais tratável do que prever rota vitoriosa.
+
+##### Princípios / estrutura
+
+Dois modos:
+
+1. Forward thinking: "como construir empresa de sucesso?" Resposta: vaga, muitos caminhos.
+2. Inversion: "como falhar como empresa?" Resposta: concreta, sem PMF, sem unit economics, sem runway, cofundadores em conflito. Lista de evitações é concreta.
+
+##### Como aplicar do jeito certo
+
+Passo 1, Formule a pergunta original.
+
+Passo 2, Inverta: "como garantir que falhamos em X?"
+
+Passo 3, Liste armadilhas, sejam generosos (10-20 itens).
+
+Passo 4, Para cada armadilha, desenhe prevenção.
+
+Passo 5, Compare inversion com forward thinking original. Frequentemente revela riscos esquecidos.
+
+##### Exemplo aplicado
+
+"Como construir cultura saudável em empresa em escala?"
+
+Inversion: "Como garantir cultura tóxica em empresa em escala?"
+
+- Tolerar alto performer abusivo.
+- Não documentar valores.
+- Liderança incoerente entre discurso e ação.
+- Demitir por razões políticas.
+- Bonificar comportamento puramente individual em times.
+- Ignorar feedback de saídas.
+- Ignorar turnover de certas minorias.
+- Contratar rápido, demitir lento.
+- Rituais sem substância.
+- etc.
+
+Prevenção: lista concreta de 15 comportamentos a evitar + sistemas para prevenir.
+
+##### Erros comuns
+
+Inversion como pessimismo puro: "tudo vai dar errado". Não é o ponto, é identificar armadilhas. Só inversion, sem forward thinking: focar só em evitar erros não cria valor. Complementar. Lista abstrata: "evitar má gestão" não é útil, "não tolerar alto performer abusivo" é.
+
+##### Quando NÃO usar
+
+Em decisões onde armadilhas já são conhecidas, forward é suficiente.
+
+##### Leitura adicional
+
+- Munger, C. (2005). *Poor Charlie's Almanack*. Collection of his speeches.
+- Clark, K. & Vesterlund, L. (2013). "Decision by default". Research sobre como inversion reduz viés.
+
+---
+
+### CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)
+
+#### Canvas: Lean Canvas (Ash Maurya, 2012)
+
+##### Origem
+
+Ash Maurya criou o Lean Canvas em 2010-2012 como adaptação do Business Model Canvas especificamente para startups em estágio inicial, e documentou a ferramenta no livro *Running Lean* (2012, atualizado em 2022 para a 3ª edição). Maurya era fundador serial que aplicou Lean Startup nas próprias empresas e percebeu que o BMC original — desenhado para empresas estabelecidas — não priorizava adequadamente os elementos críticos para quem ainda não tem modelo validado: o problema, a solução, as métricas que provam tração, e a vantagem que sustenta a empresa quando o concorrente acordar. O Lean Canvas substituiu quatro dos nove blocos do BMC para capturar melhor a realidade pré-PMF.
+
+##### O que é
+
+Tela visual de uma página com nove blocos, **inspirada no BMC mas com quatro substituições críticas**: Parcerias-Chave vira **Problema**, Atividades-Chave vira **Solução**, Recursos-Chave vira **Métricas-Chave**, Relacionamento com Clientes vira **Vantagem Injusta**. Os outros cinco blocos permanecem (Segmentos, Proposta Única de Valor, Canais, Estrutura de Custos, Fontes de Receita).
+
+```mermaid
+flowchart TB
+    subgraph Lean["Lean Canvas — diferenças do BMC em destaque"]
+        direction LR
+        subgraph Esquerda["Apostas a validar"]
+            PB["Problema<br/>(antes: Parcerias)"]
+            SOL["Solução<br/>(antes: Atividades)"]
+            M["Métricas-Chave<br/>(antes: Recursos)"]
+        end
+        subgraph Centro["Diferencial"]
+            UVP["Proposta Única<br/>de Valor"]
+            VI["Vantagem Injusta<br/>(antes: Relacionamento)"]
+        end
+        subgraph Direita["Mercado"]
+            C["Canais"]
+            S["Segmentos<br/>de Clientes"]
+        end
+    end
+    PB --> UVP
+    SOL --> UVP
+    M --> UVP
+    UVP --> S
+    VI --> UVP
+    style PB fill:#FFD700
+    style SOL fill:#FFD700
+    style M fill:#FFD700
+    style VI fill:#FFD700
+```
+
+A filosofia subjacente é: startup pré-PMF não tem parcerias estabelecidas (vai construir), não tem atividades-chave definidas (vai descobrir), não tem recursos consolidados (tem capital limitado e tempo) e não tem relacionamento com clientes (não tem clientes ainda). O que tem é hipótese de problema, hipótese de solução, hipótese de métrica e hipótese de vantagem competitiva. O Lean Canvas mapeia exatamente essas hipóteses.
+
+##### Quando usar
+
+Use o Lean Canvas a partir da Fase 1 (encontrar a ideia) até a Fase 12 (PMF). É o canvas certo para todo o estágio de discovery e validação. Depois de PMF declarado, migre para o BMC, que mapeia melhor um modelo já operando. Use também como ferramenta de pivô: cada vez que você considerar pivotar, faça um Lean Canvas novo para a tese alternativa antes de comprometer recursos.
+
+##### Princípios
+
+A tese de Maurya é que **modelo de negócio em startup é hipótese, não plano**. Cada bloco do Lean Canvas corresponde a uma ou mais hipóteses falsificáveis, e a ordem de preenchimento dos blocos espelha a ordem de risco — o que pode matar a startup mais cedo é preenchido primeiro. Por isso, Problema vem antes de Solução: solução para problema inexistente é o erro mais frequente em startup. Vantagem Injusta vem por último: enquanto a startup é pequena, ainda não tem moat — a Vantagem Injusta é o que ela aposta construir.
+
+##### Como aplicar
+
+Reúna 1-3 pessoas (cofundadores). Use uma folha A1 ou ferramenta digital (Miro, FigJam). Preencha **na ordem de risco**, que difere do BMC:
+
+1. **Segmentos de Clientes** primeiro (right side, top) — quem.
+2. **Problema** (left side, top) — top 1-3 problemas que o segmento tem.
+3. **Proposta Única de Valor** (centro, top) — uma frase única de promessa.
+4. **Solução** (left side) — top 3 features que endereçam o problema.
+5. **Canais** (right side) — caminhos de aquisição até o segmento.
+6. **Fontes de Receita** (right side, bottom) — modelo de monetização.
+7. **Estrutura de Custos** (left side, bottom) — onde o dinheiro sai.
+8. **Métricas-Chave** (left side, middle) — números que provam tração.
+9. **Vantagem Injusta** (right side, middle) — o que torna você inimitável.
+
+Tempo total: 30-60 minutos para o primeiro preenchimento (mais rápido que o BMC porque os blocos são mais específicos). **Faça um Lean Canvas por segmento** — não force um canvas único para múltiplos segmentos com problemas distintos. Revisar a cada experimento concluído (a cada 2-4 semanas em fases iniciais).
+
+##### Exemplo brasileiro preenchido — QuintoAndar em 2015
+
+| Bloco | Conteúdo |
+|---|---|
+| **Problema** | Alugar apartamento em SP exige fiador, três meses de caução, vistoria agressiva, burocracia de cartório, semanas de sofrimento — para algo que o inquilino só usa 1-2 anos. Para o proprietário: longo período sem renda, risco de inadimplência, complexidade jurídica. |
+| **Segmentos de Clientes** | Inquilinos: jovens profissionais classe A/B em SP, primeira ou segunda experiência de aluguel. Proprietários: pessoas físicas com 1-3 imóveis (não imobiliária). |
+| **Proposta Única de Valor** | "Alugue em horas, sem fiador, sem caução exagerada, 100% online." |
+| **Solução** | Plataforma online de aluguel + seguro substituindo fiador + vistoria digital + contrato digital com assinatura remota + pagamento de aluguel automatizado. |
+| **Canais** | SEO orgânico (busca de imóveis), parcerias com portais imobiliários, marketing digital (Facebook, Google), indicação boca a boca. |
+| **Fontes de Receita** | Taxa de administração sobre aluguel mensal + comissão de corretagem sobre assinatura inicial + (futuro) produtos financeiros adjacentes. |
+| **Estrutura de Custos** | Tecnologia e produto + marketing e aquisição + operação de vistorias + sinistros de seguro + equipe de matching. |
+| **Métricas-Chave** | Contratos assinados/mês, tempo médio busca → assinatura, NPS, churn de locatários, ticket médio (aluguel médio). |
+| **Vantagem Injusta** | Dados proprietários de comportamento de pagamento de locatários — permitem underwriting de seguro próprio. Concorrentes novos precisariam anos para acumular esses dados. |
+
+**Insight do caso.** O Lean Canvas do QuintoAndar em 2015 mostra como o canvas força a articular a Vantagem Injusta antes que ela exista: em 2015, a empresa ainda **não tinha** os dados proprietários — era a aposta. O canvas registra "se o modelo funcionar, será porque os dados acumulados criam underwriting próprio". Isso virou hipótese a testar (e se confirmou). Empresas que preenchem Vantagem Injusta com generalidades tipo "nosso time é incrível" ou "tecnologia avançada" não estão fazendo o exercício — são placeholders, não apostas. Vantagem Injusta deve ser específica, falsificável e de longo prazo.
+
+##### Variações e extensões
+
+- **Customer Forces Canvas** (também de Maurya): aprofunda a teoria de "forças" que empurram cliente entre soluções (push, pull, anxiety, habit), complementando o Lean Canvas com vista comportamental.
+- **Lean Stack** (Maurya): conjunto de canvases conectados (Lean Canvas + Customer Factory Blueprint + Traction Roadmap).
+
+##### Erros comuns
+
+- Tratar Lean Canvas como BMC simplificado — a filosofia é distinta, focada em hipóteses testáveis.
+- Preencher Vantagem Injusta com generalidades ("nosso time", "nossa tecnologia") — se qualquer concorrente teria, não é injusta.
+- Não articular o Problema de forma específica — "pessoas querem X" não é problema testável; "pessoa tipo Y sofre com Z em contexto W" é.
+- Forçar um único Lean Canvas para múltiplos segmentos com problemas diferentes — cada segmento merece canvas próprio.
+- Confundir Solução com Proposta Única de Valor — Solução é *o que você constrói*, Proposta de Valor é *a promessa que ressoa para o cliente*.
+
+##### Quando NÃO usar
+
+Em empresas pós-PMF com modelo estabelecido — use BMC. Em projetos internos de empresa grande (intrapreneurship em corporação madura) — Lean Canvas força o framing de "ainda não temos cliente" que pode não bater com a realidade. Em consultoria solo ou freelance — overhead sem retorno.
+
+##### Conexão com outros canvases
+
+O Lean Canvas **se relaciona ao BMC (Fase 2)** como ferramenta complementar para estágios distintos. **Se relaciona ao Hypothesis Canvas (Fase 7, Vol. 3)**: cada bloco do Lean Canvas vira uma ou mais entradas no banco de hipóteses. **Se relaciona ao Test Card (Fase 8, Vol. 3)**: cada hipótese do Lean Canvas vira um ou mais Test Cards na Fase 7. **Precede o BMC**: depois de PMF, migre.
+
+##### Leitura adicional
+
+- *Running Lean* (Ash Maurya, 2012; 3ª edição em 2022).
+- *Scaling Lean* (Ash Maurya, 2016) — aplicação pós-PMF.
+- [leanstack.com](https://leanstack.com) — ferramenta online + cursos da equipe.
+
+---
+
+### LEITURAS E RECURSOS RECOMENDADOS DESTA FASE
+
+#### Frameworks e ferramentas úteis
+
+Business Model Canvas e Lean Canvas. Value Proposition Canvas (Strategyzer). Double Diamond (Design Council). Jobs-to-be-Done Framework. RICE para priorização. OKRs para gestão por metas. Kanban para gestão de experimentos.
 
 ---
 
@@ -1112,8 +2245,8 @@ Tudo o que você não escreve não existe operacionalmente. A articulação for�
 
 Ao listar explicitamente o que você não sabe, você cria a agenda de trabalho das Fases 2 a 6 — cada incerteza vira uma suposição a testar nas Fases 6 e 7.
 
-> [!note] Apêndice F — Abordagem Científica vs Lean Startup
-> A lista de incertezas desta fase é o ponto de partida para o ciclo científico de confirmação que atravessa o livro. O [[IGNICAO-Vol-2-Validacao#APÊNDICE F — ABORDAGEM CIENTÍFICA vs LEAN STARTUP: QUANDO USAR CADA UMA|Apêndice F (Vol. 2)]] explica a diferença entre a mentalidade de suposição testável (experimental) e o Lean Startup como método prático — contexto útil para quem entra nesta fase sem clareza sobre o que "validar uma ideia" significa na prática.
+> [!note] Capítulo 1 (Vol. 3) — Abordagem Científica vs Lean Startup
+> A lista de incertezas desta fase é o ponto de partida para o ciclo científico de confirmação que atravessa o livro. O [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 1 — ABORDAGEM CIENTÍFICA vs LEAN STARTUP: QUANDO USAR CADA UMA|Capítulo 1 (ABORDAGEM CIENTÍFICA vs LEAN STARTUP: QUANDO USAR CADA UMA) (Vol. 3)]] explica a diferença entre a mentalidade de suposição testável (experimental) e o Lean Startup como método prático — contexto útil para quem entra nesta fase sem clareza sobre o que "validar uma ideia" significa na prática.
 
 ### Quando usar
 
@@ -1126,10 +2259,10 @@ O executor principal é você. Os participantes são três a cinco pessoas que v
 ### Como executar
 
 > [!tip] Canvases visuais como complemento opcional
-> A DII textual é o entregável obrigatório. Para quem pensa visualmente, três canvases do Apêndice CZ complementam: [[IGNICAO-Vol-10-Canvases-e-Templates#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Lean Canvas (CZ.2) (Vol. 10)]] mapeia o modelo em nove blocos com foco em suposições testáveis (recomendado para pré-PMF); [[IGNICAO-Vol-10-Canvases-e-Templates#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Business Model Canvas (CZ.1) (Vol. 10)]] dá visão de conjunto para contextos mais maduros; [[IGNICAO-Vol-10-Canvases-e-Templates#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Value Proposition Canvas (CZ.3) (Vol. 10)]] força articular o link entre Bloco 2 (Para quem) e Bloco 4 (Solução), evitando "solução em busca de problema".
+> A DII textual é o entregável obrigatório. Para quem pensa visualmente, três canvases da seção de Canvases Visuais complementam: [[#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Lean Canvas (Canvas: Lean Canvas (Ash Maurya, 2012))]] mapeia o modelo em nove blocos com foco em suposições testáveis (recomendado para pré-PMF); [[#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Business Model Canvas (Canvas: Business Model Canvas (Alexander Osterwalder, 2010))]] dá visão de conjunto para contextos mais maduros; [[#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Value Proposition Canvas (Canvas: Value Proposition Canvas (Alexander Osterwalder, 2014))]] força articular o link entre Bloco 2 (Para quem) e Bloco 4 (Solução), evitando "solução em busca de problema".
 
-> [!tip] Apêndice CZ — Opportunity Canvas (CZ.5)
-> Como alternativa de articulação centrada em produto, o [[IGNICAO-Vol-10-Canvases-e-Templates#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Opportunity Canvas (CZ.5) (Vol. 10)]] de Jeff Patton enquadra a ideia em sete blocos: Users & Customers, Problems, Solutions Today, Solution Ideas, Outcomes, Adoption Strategy e Budget & ROI. Útil para fundadores vindos de produto que pensam em "oportunidades" antes de "modelos de negócio" — sobreposição com a DII textual existe, mas a lente é diferente (produto vs. modelo).
+> [!tip] Canvases Visuais — Opportunity Canvas (Fase 9, Vol. 3)
+> Como alternativa de articulação centrada em produto, o [[#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Opportunity Canvas (Canvas: Opportunity Canvas (Jeff Patton, 2014))]] de Jeff Patton enquadra a ideia em sete blocos: Users & Customers, Problems, Solutions Today, Solution Ideas, Outcomes, Adoption Strategy e Budget & ROI. Útil para fundadores vindos de produto que pensam em "oportunidades" antes de "modelos de negócio" — sobreposição com a DII textual existe, mas a lente é diferente (produto vs. modelo).
 
 Sete passos em sequência.
 
@@ -1175,12 +2308,12 @@ O terceiro é a segunda passagem, estruturando em sete blocos:
 
 - **Bloco 7, Por que nós.** Founder-Market Fit explícito. Por que VOCÊ é a pessoa certa (ou o time é o time certo) para esse problema agora? Vantagem injusta pode vir de expertise técnica, rede específica, experiência pessoal, acesso a clientes ou capital, credibilidade no setor, ou alguma combinação. Em uma frase ou duas, sem entrar em vídeo motivacional. Sem vantagem articulável, você está competindo no mesmo nível de cem outros e vai perder para um deles.
 
-O quarto passo é listar as suas incertezas, agora categorizadas. Escreva dez a vinte e cinco itens organizados em seis categorias: **Demanda** (o cliente percebe o problema como prioridade?), **Mercado** (o orçamento existe? Onde está alocado hoje? Como o mercado se comporta?), **Solução** (a forma proposta resolve o problema? É a forma certa?), **Adoção** (o cliente vai mudar de comportamento para usar?), **Canal** (como o cliente descobre a oferta? Onde ele está acessível?) e **Modelo** (o pricing é percebido como justo? O ROI é defensável internamente pelo cliente?). Se uma categoria está vazia, você não pensou nela ainda — não é que ela é "sem riscos". Cada incerteza preferencialmente no formato testável "[Persona] [verbo] [objeto]". Essa lista é ouro. Vai virar as suposições da [[IGNICAO-Vol-2-Validacao#FASE 6 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 6 (Vol. 2)]] e os experimentos da [[IGNICAO-Vol-2-Validacao#FASE 7 — EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA|Fase 7 (Vol. 2)]].
+O quarto passo é listar as suas incertezas, agora categorizadas. Escreva dez a vinte e cinco itens organizados em seis categorias: **Demanda** (o cliente percebe o problema como prioridade?), **Mercado** (o orçamento existe? Onde está alocado hoje? Como o mercado se comporta?), **Solução** (a forma proposta resolve o problema? É a forma certa?), **Adoção** (o cliente vai mudar de comportamento para usar?), **Canal** (como o cliente descobre a oferta? Onde ele está acessível?) e **Modelo** (o pricing é percebido como justo? O ROI é defensável internamente pelo cliente?). Se uma categoria está vazia, você não pensou nela ainda — não é que ela é "sem riscos". Cada incerteza preferencialmente no formato testável "[Persona] [verbo] [objeto]". Essa lista é ouro. Vai virar as suposições da [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 7 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 7 (Vol. 3)]] e os experimentos da [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 8 — EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA E DA SOLUÇÃO|Fase 8 (Vol. 3)]].
 
-O quinto é condensar tudo em uma página só. Use este template (versão formatada no [[IGNICAO-Vol-10-Canvases-e-Templates#APÊNDICE A — TEMPLATES PRONTOS PARA USO|Apêndice A (Vol. 10)]]).
+O quinto é condensar tudo em uma página só. Use este template (versão formatada no [[#TEMPLATES OPERACIONAIS E CASOS PREENCHIDOS DESTA FASE|Templates Operacionais da Fase]]).
 
 > [!note] A clareza da DII depende diretamente da qualidade da escrita
-> Uma Declaração com frases longas, jargão técnico ou problema mal separado da solução não passa no teste de transmissão. O [[#APÊNDICE EW — COMUNICAÇÃO ESCRITA PARA NEGÓCIOS|Apêndice EW — Comunicação Escrita para Negócios]] cobre princípios de clareza, estrutura de argumento e revisão que se aplicam diretamente à redação dos cinco blocos da DII.
+> Uma Declaração com frases longas, jargão técnico ou problema mal separado da solução não passa no teste de transmissão. O [[#CAPÍTULO 8 — COMUNICAÇÃO ESCRITA PARA NEGÓCIOS|Capítulo 8 — Comunicação Escrita para Negócios]] cobre princípios de clareza, estrutura de argumento e revisão que se aplicam diretamente à redação dos cinco blocos da DII.
 
 ```text
 DECLARAÇÃO INICIAL DA IDEIA, v1
@@ -1200,7 +2333,7 @@ Versão: 1
 O sexto é teste de articulação verbal. Apresente a ideia verbalmente para três a cinco pessoas fora do seu contexto. Não amigos próximos nem família. Peça três coisas. Que repitam a ideia com as próprias palavras. Que apontem o que ficou confuso. Que perguntem o que não entenderam. Se as repetições são muito diferentes do que você quis dizer, a sua articulação está ruim. Reescreva.
 
 > [!note] Apresentar a ideia em noventa segundos é habilidade treinável, não talento
-> O [[#APÊNDICE EX — APRESENTAÇÃO E FALA EM PÚBLICO|Apêndice EX — Apresentação e Fala em Público]] cobre estrutura de pitch (apresentação do negócio) curto, controle de ansiedade e técnicas de ensaio. O teste verbal desta fase é a primeira versão do pitch que você vai repetir centenas de vezes nas fases seguintes — vale preparar com método desde agora.
+> O [[#CAPÍTULO 9 — APRESENTAÇÃO E FALA EM PÚBLICO|Capítulo 9 — Apresentação e Fala em Público]] cobre estrutura de pitch (apresentação do negócio) curto, controle de ansiedade e técnicas de ensaio. O teste verbal desta fase é a primeira versão do pitch que você vai repetir centenas de vezes nas fases seguintes — vale preparar com método desde agora.
 
 O sétimo é arquivar a versão v1. Mantenha para comparar depois. A ideia vai mudar. Observar a evolução é educativo.
 
@@ -1217,7 +2350,7 @@ O sétimo é arquivar a versão v1. Mantenha para comparar depois. A ideia vai m
 
 Você concluiu a [[#FASE 2 — ARTICULAÇÃO E CAPTURA DA IDEIA|Fase 2]] quando todos os critérios abaixo estão cumpridos.
 
-- [ ] DII v1 escrita em uma página, entre 400 e 800 palavras, sete blocos preenchidos (Problema, Para quem, Alternativa atual, Solução proposta, Modelo de negócios, Por que pode funcionar, Por que nós), conforme Template A.1.
+- [ ] DII v1 escrita em uma página, entre 400 e 800 palavras, sete blocos preenchidos (Problema, Para quem, Alternativa atual, Solução proposta, Modelo de negócios, Por que pode funcionar, Por que nós), conforme Template: Declaração Inicial da Ideia (Fase 2).
 - [ ] Problema descrito em três a cinco frases, ancorado em dados quando possível, sem mencionar a solução, em linguagem que um leigo do setor entenderia em trinta segundos.
 - [ ] "Para quem" específico ao ponto de você listar vinte nomes ou empresas reais. Anti-perfil explícito (quem NÃO é cliente, e por quê). Em B2B, Decisor Econômico e Champion separados, com pergunta de qualificação em uma frase para cada.
 - [ ] Alternativa atual descrita (planilha, processo manual, concorrente, ignorar) — concorrente real, não o que você imagina.
@@ -1235,7 +2368,7 @@ Você concluiu a [[#FASE 2 — ARTICULAÇÃO E CAPTURA DA IDEIA|Fase 2]] quando 
 
 **Primeiros passos práticos.**
 
-1. Abrir o Template A.1 (Declaração Inicial da Ideia) e preencher em sessenta a noventa minutos de foco.
+1. Abrir o Template Declaração Inicial da Ideia (Fase 2) e preencher em sessenta a noventa minutos de foco.
 2. Enviar a declaração para três pessoas de perfis diferentes (uma do setor, uma leiga, uma potencial usuária) e pedir feedback estruturado.
 3. Listar as três suposições-chave que sustentam a ideia. Aquelas que, se falsas, matariam tudo.
 4. Refinar "para quem" até caber numa frase verificável. Você consegue listar vinte nomes reais que caem nesse perfil?
@@ -1288,8 +2421,8 @@ A lição transferível: a DII funciona para qualquer arquitetura de negócio, m
 
 ### Armadilhas
 
-> [!note] Apêndice D — Armadilhas Mentais e Vieses
-> O enamoramento pela solução e o viés de confirmação (ouvir só o que confirma a tese) são os vieses mais perigosos nesta fase. Leia o [[#APÊNDICE D — ARMADILHAS MENTAIS E VIESES|Apêndice D]] antes de fazer o teste verbal com os ouvintes externos — ele oferece diagnóstico estruturado e contramedidas práticas para cada um.
+> [!note] Capítulo 3 — Armadilhas Mentais e Vieses
+> O enamoramento pela solução e o viés de confirmação (ouvir só o que confirma a tese) são os vieses mais perigosos nesta fase. Leia o [[#CAPÍTULO 3 — ARMADILHAS MENTAIS E VIESES|Capítulo 3 (ARMADILHAS MENTAIS E VIESES)]] antes de fazer o teste verbal com os ouvintes externos — ele oferece diagnóstico estruturado e contramedidas práticas para cada um.
 
 Apresentar a solução como se fosse o problema. "O problema é que não existe um app que X." Não. Esse não é o problema. O problema é o que existia antes do app. Foque na dor. Não na ausência da sua solução.
 
@@ -1303,14 +2436,590 @@ Enamoramento pela solução. Quando você se apega à solução imaginada, fica 
 
 ### FERRAMENTAS DESTA FASE
 
-Seis ferramentas estruturam a primeira articulação e evitam auto-engano. Canvases complementares no [[IGNICAO-Vol-10-Canvases-e-Templates#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Apêndice CZ (Vol. 10)]] (CZ.1 BMC, CZ.2 Lean Canvas, CZ.3 VPC, CZ.5 Opportunity Canvas).
+Seis ferramentas estruturam a primeira articulação e evitam auto-engano. Canvases complementares no [[#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvases Visuais da Fase]] (Canvas: Business Model Canvas (Alexander Osterwalder, 2010) (Fase 2) BMC, Canvas: Lean Canvas (Ash Maurya, 2012) (Fase 1) Lean Canvas, Canvas: Value Proposition Canvas (Alexander Osterwalder, 2014) (Fase 5, Vol. 2) VPC, Canvas: Opportunity Canvas (Jeff Patton, 2014) (Fase 9, Vol. 3) Opportunity Canvas).
 
-- **First Principles Thinking** (Aristóteles, popularizado por Musk) — questione suposições escondidas: precisa ser SaaS? B2B? No Brasil? Antes de escrever o pitch. BG.4.1.
-- **Blue Ocean / ERRC Grid** (Kim e Mauborgne, 2005) — Eliminar, Reduzir, Aumentar, Criar. Quando a ideia parece "outro X" ou "Y mas para Z". BG.1.8.
-- **Playing to Win** (Roger Martin e A.G. Lafley, 2013) — cascata de cinco escolhas (aspiração, onde competir, como vencer, capacidades, sistemas). Para rascunho rápido de estratégia. BG.2.1.
-- **Good Strategy/Bad Strategy** (Richard Rumelt, 2011) — diagnóstico, política orientadora, ações coerentes. Quando a ideia parece "boa em tudo" ou sem foco. BG.2.2.
-- **Inversion** (Munger) — "por que vai falhar?" antes de "por que vai funcionar?". Estressa a ideia antes de comprometer tempo. BG.4.3.
-- **Pyramid Principle** (Barbara Minto, 1978) — começa pela conclusão, três a cinco argumentos de suporte sem sobreposição. Para o pitch de elevador. BG.4.4.
+- **First Principles Thinking** (Aristóteles, popularizado por Musk) — questione suposições escondidas: precisa ser SaaS? B2B? No Brasil? Antes de escrever o pitch. Framework: First Principles Thinking (Aristóteles, ~350 a.C.; popularizado por Elon Musk, anos 2010) (Fase 0).
+- **Blue Ocean / ERRC Grid** (Kim e Mauborgne, 2005) — Eliminar, Reduzir, Aumentar, Criar. Quando a ideia parece "outro X" ou "Y mas para Z". Framework: Blue Ocean Strategy (W. Chan Kim & Renée Mauborgne, 2005) (Fase 1).
+- **Playing to Win** (Roger Martin e A.G. Lafley, 2013) — cascata de cinco escolhas (aspiração, onde competir, como vencer, capacidades, sistemas). Para rascunho rápido de estratégia. Framework: Playing to Win (Roger Martin & A.G. Lafley, 2013) (Fase 2).
+- **Good Strategy/Bad Strategy** (Richard Rumelt, 2011) — diagnóstico, política orientadora, ações coerentes. Quando a ideia parece "boa em tudo" ou sem foco. Framework: Good Strategy / Bad Strategy (Richard Rumelt, 2011) (Fase 2).
+- **Inversion** (Munger) — "por que vai falhar?" antes de "por que vai funcionar?". Estressa a ideia antes de comprometer tempo. Framework: Inversion (Carl Jacobi; Charlie Munger, popularizado) (Fase 1).
+- **Pyramid Principle** (Barbara Minto, 1978) — começa pela conclusão, três a cinco argumentos de suporte sem sobreposição. Para o pitch de elevador. Framework: Pyramid Principle (Barbara Minto, 1985) (Fase 2).
+
+---
+
+
+---
+
+### MÉTRICAS E BENCHMARKS DESTA FASE (FASE 2)
+
+| Métrica | O que medir | Referência saudável |
+|---|---|---|
+| Declaração Inicial preenchida | 6 campos da DII completos | Sim |
+| Incertezas mapeadas | Número de incertezas críticas listadas | 10 a 20 |
+| Suposições classificadas | % das suposições com peso e testabilidade | 100% |
+| Inversão de Munger aplicada | Cenário de falha articulado | Sim |
+
+---
+
+### MANUAL PASSO A PASSO DOS FRAMEWORKS DESTA FASE
+
+> [!tip] Uso autocontido neste volume
+> Todos os frameworks abaixo estão detalhados integralmente com origem, estrutura, passo a passo de aplicação, exemplo brasileiro e armadilhas para execução imediata nesta **Fase 2**.
+
+#### Framework: Playing to Win (Roger Martin & A.G. Lafley, 2013)
+
+##### Origem
+
+A.G. Lafley (então CEO da P&G) e Roger Martin (dean da Rotman School) desenvolveram o framework durante a transformação da P&G entre 2000-2013 (receita passou de US$ 39B para US$ 84B, market cap dobrou). Publicaram *Playing to Win: How Strategy Really Works* em 2013. O livro é hoje uma das referências mais sólidas sobre estratégia corporativa, especialmente em contextos de escala.
+
+##### O que é
+
+Framework de **estratégia como cascata de cinco escolhas integradas**. Martin argumenta que estratégia é fazer escolhas, não listar objetivos. E que essas escolhas devem ser **interdependentes e reforçadoras**.
+
+##### Princípios / estrutura — A cascata
+
+Escolha 1, Qual é a nossa aspiração vencedora?
+Definição de sucesso em termos qualitativos e quantitativos. "Vencer" significa algo específico, não "ser bom" ou "crescer". Para P&G: "melhorar a vida de clientes em todo o mundo".
+
+Escolha 2, Onde vamos jogar?
+Escopo. Em quais mercados/segmentos/canais/geografias/categorias? Explicitamente onde **NÃO** vamos jogar. A maioria dos fracassos estratégicos vem de "jogar em todo lugar".
+
+Escolha 3, Como vamos vencer?
+Proposta de valor e vantagem competitiva específica. Duas opções clássicas (Porter): diferenciação de produto ou liderança em custo. Martin expande: qualidade única de experiência, relacionamento, canal, etc.
+
+Escolha 4, Quais capabilities devemos ter?
+As 4-6 habilidades organizacionais que precisamos dominar para vencer. Não tudo, as que são distintivas e críticas.
+
+Escolha 5, Quais sistemas de gestão são necessários?
+Estruturas, processos, métricas e cultura que sustentam e renovam a estratégia. Sem sistemas, as 4 outras escolhas se erodem com tempo.
+
+##### Como aplicar do jeito certo
+
+Passo 1, Faça em cascata, mas itere. As escolhas influenciam-se mutuamente. Começar pela aspiração, descer até sistemas, voltar e ajustar. Leva semanas ou meses, não é workshop de um dia.
+
+Passo 2, Escolha explícita = rejeição explícita. Cada escolha precisa incluir o que rejeitamos. "Jogamos em PMEs brasileiras" deve incluir "NÃO jogamos em enterprise nem em LatAm neste horizonte".
+
+Passo 3, Teste coerência interna. Aspiração → onde jogar → como vencer → capabilities → sistemas. Se capability definida não serve ao "como vencer", há incoerência. Reajuste.
+
+Passo 4, Envolva o time executivo. Estratégia é dos tomadores de decisão, não do consultor. Playing to Win funciona bem em workshops estruturados com liderança.
+
+Passo 5, Documente em uma página. Strategy on a page. Se não cabe, está excessivamente complexo ou não há escolha clara.
+
+Passo 6, Cadência de revisão. Revisar em profundidade a cada 18-24 meses (mais frequente em early-stage), ajustes táticos trimestralmente.
+
+##### Exemplo aplicado
+
+SaaS brasileiro de onboarding digital para PMEs (ficcional, estilo Hondana):
+
+- Aspiração: ser a primeira ferramenta de onboarding digital adotada por PMEs brasileiras, categoria definida pela marca.
+- Onde jogar: PMEs brasileiras de 20-200 funcionários nos setores de varejo e saúde. Canal: digital self-serve + parceiros (contadores). NÃO jogamos em grandes empresas, nem em LatAm hispânica neste horizonte.
+- Como vencer: experiência de onboarding nativa brasileira (CLT, LGPD, contratos tipicamente nacionais) + preço acessível (R$ 5-15/funcionário/mês vs. R$ 30+ de concorrentes internacionais).
+- Capabilities: (1) Product velocity em território regulatório brasileiro, (2) Canal de parceiros com 500+ contadores, (3) Content marketing em SEO brasileiro, (4) Customer success proativo em PT-BR.
+- Sistemas: OKRs trimestrais, weekly business review, program de enablement de contadores, métrica NPS brasileira.
+
+##### Erros comuns
+
+"Estratégia" vira aspiração + objetivos sem escolhas: "seremos líderes" é aspiração, não estratégia. Onde jogar amplo demais: "todas as PMEs do Brasil" é jogar em todo lugar = jogar em lugar nenhum. Focar. Como vencer genérico: "melhor produto" não é vantagem, é clichê. Vantagem precisa ser específica e testável. Capabilities não-diferenciadas: "temos que ter boa tecnologia". Todos precisam. O que é seu distintivo? Sistemas ignorados: times executam escolhas 1-3 mas esquecem que sistemas de gestão (4 e 5) sustentam. Erode em 18 meses. Não rejeitar explicitamente: não dizer "NÃO faremos X" deixa organização tentando fazer tudo. Estratégia escrita em 100 páginas: Martin insiste em strategy on a page. Se não cabe, está incoerente.
+
+##### Quando NÃO usar
+
+Pré-PMF em startup muito early-stage: escolhas 4-5 (capabilities e sistemas) são prematuras, foque em descoberta de problema/solução. Quando urgência operacional não permite iteração multi-semanal. Como ferramenta isolada sem comprometimento da liderança, estratégia sem owner executivo não se executa.
+
+##### Leitura adicional
+
+- Martin, R. & Lafley, A. G. (2013). *Playing to Win: How Strategy Really Works*. Harvard Business Press.
+- Martin, R. (2022). *A New Way to Think*. Harvard Business Press.
+- Martin, R. (continuous). Blog pessoal *Playing to Win* no Medium, aplicações atualizadas.
+
+---
+
+#### Framework: Good Strategy / Bad Strategy (Richard Rumelt, 2011)
+
+##### Origem
+
+Richard Rumelt, professor de UCLA Anderson, publicou *Good Strategy / Bad Strategy: The Difference and Why It Matters* em 2011. Rumelt é um dos estrategistas acadêmicos mais respeitados (Economist o chamou de "guru dos gurus de estratégia"). Argumento central do livro: **a maior parte do que é chamado de "estratégia" nas empresas é, na verdade, "estratégia ruim", uma mistura de aspirações, visões e metas sem substância analítica**.
+
+##### O que é
+
+Framework que define o que é estratégia real versus o que é "bad strategy" (aspirações travestidas de estratégia). Apresenta **o kernel da boa estratégia**: três componentes indispensáveis.
+
+##### Princípios / estrutura
+
+O Kernel da Boa Estratégia (3 partes):
+
+1. Diagnóstico: identificação honesta do desafio crítico. Uma análise do problema real, não lista de sintomas. Rumelt enfatiza: **boa estratégia diagnostica antes de prescrever**. Se o diagnóstico é raso ou errado, o resto é teatro.
+
+2. Política orientadora: abordagem geral para enfrentar o desafio. Não é ação específica, é a escolha central que restringe e orienta todas as ações. Ex.: "focaremos em mercado enterprise" é política, "contratar 5 AEs" é tática.
+
+3. Ações coerentes: conjunto coordenado de passos que implementam a política. Cada ação deve reforçar as outras, não podem ser movimentos desconexos.
+
+Sinais de Bad Strategy (Rumelt identifica 4):
+
+1. Fluff (conversa fiada): uso de palavras pretensiosas e abstratas para sugerir pensamento sofisticado. "Alavancar sinergias para maximizar valor stakeholder" não significa nada concreto.
+
+2. Falha em enfrentar o desafio: bad strategy não reconhece ou define o problema real. Ou o define como "atingir metas", o que é circular.
+
+3. Confundir metas com estratégia: "crescer 30% este ano" é meta, não estratégia. Estratégia é **como** chegar lá.
+
+4. Objetivos estratégicos ruins: listas longas de "imperativos estratégicos" sem priorização, sem ligação entre si, sem reconhecimento de trade-offs.
+
+##### Como aplicar do jeito certo
+
+Passo 1, Comece pelo diagnóstico, não pela solução. Gaste tempo real entendendo o problema. Rumelt cita exemplos onde diagnóstico correto levou 70% do trabalho, solução veio naturalmente.
+
+Passo 2, Escreva o diagnóstico em 1-2 parágrafos. Se precisa de 10 páginas para diagnosticar, algo está confuso. Essência do problema cabe em poucas frases.
+
+Passo 3, Política orientadora em 1 frase. "Vamos [X] como resposta ao desafio [Y]." Se não cabe em uma frase, está vago.
+
+Passo 4, Liste 3-7 ações coerentes. Cada ação reforça as outras. Se uma contradiz outra, revisite política.
+
+Passo 5, Teste com "pergunta do porquê". Para cada ação, perguntar: por que fazemos isso? A resposta deve ser "porque implementa nossa política de [Y]". Se é "porque é importante", a coerência falhou.
+
+Passo 6, Alinhe métricas. Meta vem depois de estratégia, não antes. Métricas medem execução da estratégia.
+
+##### Exemplo aplicado
+
+Fintech early-stage em crise de CAC (exemplo hipotético):
+
+Bad strategy (o que frequentemente se vê): "Nossa estratégia é crescer 200% este ano, ser referência em experiência do cliente, capturar o mercado PME e atingir break-even."
+Isso é lista de aspirações, não há diagnóstico, política, nem coerência entre ações.
+
+Good strategy aplicando Rumelt:
+
+- Diagnóstico: CAC cresceu 3x em 12 meses porque: (a) saturamos os 20% mais qualificados do nosso ICP, (b) iniciamos campanhas paid quando organic ainda estava funcionando, (c) métrica de growth distorceu decisões. Problema real: não temos máquina de aquisição sustentável, só temos aquisição paga sobre ICP saturado.
+
+- Política orientadora: nos próximos 12 meses, reconstruir aquisição via canais orgânicos e bottom-up (product-led), pausando ou reduzindo paid drasticamente.
+
+- Ações coerentes:
+
+ 1. Pausar 80% do paid (mantém apenas 1 canal comprovadamente rentável).
+ 2. Investir em content marketing + SEO ([[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 3 — CONTENT MARKETING E SEO COMO DISCIPLINA|Capítulo 3 (CONTENT MARKETING E SEO COMO DISCIPLINA) (Vol. 4)]]), 2-3 artigos/semana, pillar strategy.
+ 3. Construir produto freemium para trial bottom-up (ver [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 2 — FRAMEWORK DE CANAIS DE AQUISIÇÃO|Capítulo 2 (FRAMEWORK DE CANAIS DE AQUISIÇÃO) (Vol. 4)]], PLG).
+ 4. Criar programa de referral com recompensa.
+ 5. Hire content lead em vez de Head of Paid.
+ 6. Métricas: organic % do CAC total (meta: ≥ 60% em 12m), CAC blended (meta: ↓ 40%).
+
+Cada ação reforça as outras. Política é coerente com diagnóstico. Estratégia real.
+
+##### Erros comuns
+
+Pular diagnóstico: "sabemos o problema, vamos para solução". Frequente e caro. Aspirações disfarçadas de estratégia: "seremos líderes" não é estratégia. Lista de objetivos sem política orientadora central: 10 "imperativos estratégicos" sem escolha real. Ações desconexas: cada uma pode fazer sentido, mas não reforçam política única. Medo do diagnóstico honesto: problema real é desconfortável. Empresas preferem diagnóstico "confortável mas errado". Exige coragem. Fluff executivo: linguagem vaga que mascara ausência de pensamento. Rumelt cita exemplos reais de relatórios anuais de gigantes americanas. Estratégia que não exige trade-off: se estratégia não obriga a "não fazer X para fazer Y", provavelmente não é estratégia real.
+
+##### Quando NÃO usar
+
+Rumelt funciona em qualquer estágio, mas pré-ideia é prematuro. Como framework único, combine com Playing to Win (política orientadora + onde jogar + como vencer) e 7 Powers (análise de vantagem).
+
+##### Leitura adicional
+
+- Rumelt, R. (2011). *Good Strategy / Bad Strategy*. Crown Business.
+- Rumelt, R. (2022). *The Crux: How Leaders Become Strategists*. Sequência prática.
+
+---
+
+#### Framework: Core Competencies (C.K. Prahalad & Gary Hamel, 1990)
+
+##### Origem
+
+C.K. Prahalad e Gary Hamel publicaram "The Core Competence of the Corporation" na Harvard Business Review em 1990, um dos artigos mais citados em estratégia. Surgiu como resposta à diversificação excessiva dos anos 1980: conglomerados massivos com portfolio amplo mas sem coerência competitiva. Prahalad e Hamel argumentavam que empresas duráveis não são portfólios de negócios, são portfólios de **competências**.
+
+##### O que é
+
+Framework que identifica as **habilidades organizacionais coletivas** que fornecem vantagem competitiva estrutural. Competências centrais são raízes que sustentam múltiplos produtos ("árvores"). Hamel usa metáfora árvore-raízes.
+
+##### Princípios / estrutura
+
+Três testes de Core Competency:
+
+1. Acesso a múltiplos mercados: competência que sustenta 1 só produto é capability de produto, não core competency.
+
+2. Contribuição significativa ao valor percebido pelo cliente: cliente precisa valorizar o que essa competência produz.
+
+3. Difícil de replicar pelos concorrentes: se concorrentes replicam rapidamente, não é core, é commodity.
+
+Exemplos clássicos (do paper original):
+
+- Honda: motores. Sustenta carros, motos, geradores, aparadores de grama, barcos.
+- Sony: miniaturização. Sustenta walkman, handycam, laptops, etc.
+- Canon: óptica, imaging, controles microeletrônicos.
+
+##### Como aplicar do jeito certo
+
+Passo 1, Inventaire capabilities organizacionais. O que sabemos fazer bem? Não produtos, habilidades subjacentes.
+
+Passo 2, Aplique os três testes. Qual dessas capabilities realmente passa?
+
+Passo 3, Identifique lacunas. Quais competências que concorrentes têm e nós não? Quais devemos construir?
+
+Passo 4, Alinhe investimentos. Decisões de produto, M&A, hiring devem reforçar core competencies. Se M&A não agrega a competência, é provável que gere diversificação ruim.
+
+Passo 5, Proteja e renove. Core competencies erodem, concorrentes eventualmente alcançam. Renovação contínua é necessária.
+
+Passo 6, Pense em "core products" e depois "end products". Core competencies produzem core products (plataformas/componentes) que viabilizam múltiplos end products.
+
+##### Exemplo aplicado
+
+Empresa de tecnologia hipotética com múltiplas linhas (SaaS financeiro para PMEs + empréstimos + folha):
+
+Capabilities candidatas:
+
+- Engineering velocity em regulação brasileira → **SIM** (sustenta SaaS + crédito + folha, valorizada, difícil replicar).
+- Design de UX brasileira → **SIM** (todos produtos), mas **replicável** com tempo. Marginal.
+- Relacionamento com contadores como canal → **SIM** (competência de distribuição, única).
+- Rede bancária → **SIM** se for única, se commodity, não.
+
+Core competencies reais: engineering em regulação + rede de contadores. Tudo deve reforçar essas duas.
+
+##### Erros comuns
+
+Confundir produto com competência: "nosso produto é core competency", produto é expressão, competência está embaixo. Listar capabilities sem testar: tudo vira core competency. Teste rigoroso necessário. Descontinuar core competency em nome de foco curto prazo: corte de orçamento de P&D mata competência em 3-5 anos, reconstruir custa 10x mais. Ignorar erosão: assumir que competência atual se mantém para sempre. M&A inconsistente: adquirir empresas não relacionadas a core competency. Sinergia ilusória. Construir competência "da moda": empresas que gastaram milhões em "big data competency" ou "AI competency" sem lógica estratégica.
+
+##### Quando NÃO usar
+
+Early-stage startup: competência organizacional emerge com tempo, não há core ainda, Quando análise é para produto individual, use frameworks de produto.
+
+##### Leitura adicional
+
+- Prahalad, C.K. & Hamel, G. (1990). "The Core Competence of the Corporation". *HBR*, May-June.
+- Hamel, G. (2000). *Leading the Revolution*. Plume.
+
+---
+
+#### Framework: Value Disciplines (Michael Treacy & Fred Wiersema, 1993)
+
+##### Origem
+
+Michael Treacy e Fred Wiersema, ex-consultores de CSC Index, publicaram *The Discipline of Market Leaders* em 1993, após estudo de 80 empresas líderes. Argumento: empresas duradouras escolhem **uma de três disciplinas de valor** e a dominam, não tentam ser excelentes em tudo.
+
+##### O que é
+
+Framework que identifica **três disciplinas de valor** como escolhas estratégicas fundamentais. Empresa deve escolher qual dominar e organizar tudo em torno dela:
+
+##### Princípios / estrutura
+
+1. Operational Excellence: entrega preço baixo + conveniência, com processos ultra-eficientes.
+
+- Exemplos: Walmart, McDonald's, Ryanair, Dell (em sua era pré-compra).
+- Organização: ênfase em eficiência, padronização, supply chain.
+
+1. Product Leadership: produtos tecnicamente superiores, inovação contínua, valor premium.
+
+- Exemplos: Apple, Tesla, Intel (em sua era dominante), 3M.
+- Organização: ênfase em P&D, tolerância a experimentação, time cycles curtos.
+
+1. Customer Intimacy: soluções personalizadas, relacionamento profundo, serviço premium.
+
+- Exemplos: Nordstrom, IBM Global Services, consultorias McKinsey/BCG, Salesforce em enterprise.
+- Organização: ênfase em relacionamento, flexibilidade, customização.
+
+Regra central (e controversa): empresa deve **liderar em uma** e **manter padrão mínimo aceitável nas outras duas**. Tentar ser #1 nas três é receita para mediocridade em todas.
+
+##### Como aplicar do jeito certo
+
+Passo 1, Escolha conscientemente uma disciplina. Não "acontece", é decisão estratégica que molda tudo.
+
+Passo 2, Desenhe organização em torno da disciplina.
+
+- Operational excellence: processos, sistemas, supply chain, automação.
+- Product leadership: P&D, experimentação, velocity de lançamento.
+- Customer intimacy: relacionamento, customização, CS profundo.
+
+Passo 3, Comunique claramente. Time precisa saber "somos companhia de Produto" ou "somos companhia de Operação". Dúvida gera execução morna.
+
+Passo 4, Invista assimetricamente. 60-70% dos recursos em disciplina escolhida, 30-40% para manter padrão nas outras.
+
+Passo 5, Evite "middle". Empresas que tentam ser 2º ou 3º em cada disciplina são derrotadas por focadas.
+
+##### Exemplo aplicado
+
+Startup SaaS brasileira em fase de escolher posicionamento competitivo:
+
+Análise das opções:
+
+- Operational Excellence: preço baixo via automação. Mas mercado brasileiro tem Conta Azul e Omie já baratos. Difícil competir em preço.
+- Product Leadership: produto mais avançado (AI-first, integrations mais profundas). Requer investimento alto em P&D, tempo até ROI.
+- Customer Intimacy: relacionamento profundo com PMEs, implementação consultiva. Exige time de CS forte, mas diferencia de concorrentes self-serve.
+
+Decisão: escolher **Customer Intimacy** em nicho específico (ex.: PMEs do varejo). Preço médio-alto, implementação concierge, onboarding consultivo. Manter padrão aceitável em Operational (preço não exorbitante) e Product (features competitivas, mas não mais avançadas).
+
+##### Erros comuns
+
+Tentar "ser excelente em tudo": falácia comum. Resultado: mediocridade em todas. Escolher disciplina sem capability para suportar: "queremos ser product leader" mas time sem capacity de P&D. Frustração. Mudar disciplina frequentemente: disciplinas demandam tempo (3-5 anos para consolidar). Oscilação destrói. Ignorar que disciplina escolhida tem custos: operational excellence sacrifica customização, product leadership sacrifica preço baixo. Não alinhar cultura/contratação com disciplina: contratar engenheiros criativos para operational excellence, choque cultural.
+
+##### Quando NÃO usar
+
+Pré-PMF: ainda está encontrando encaixe, disciplina emerge depois. Empresa já enorme e diversificada: pode ter múltiplas BUs em disciplinas diferentes (aceitável, mas cada BU precisa escolher a sua). Em nichos muito pequenos: pode não ter espaço para múltiplas disciplinas, a escolha vira menos estratégica.
+
+##### Leitura adicional
+
+- Treacy, M. & Wiersema, F. (1993). "Customer Intimacy and Other Value Disciplines". *HBR*, Jan-Feb.
+- Treacy, M. & Wiersema, F. (1995). *The Discipline of Market Leaders*. Perseus Books.
+
+---
+
+#### Framework: Pyramid Principle (Barbara Minto, 1985)
+
+##### Origem
+
+Barbara Minto, primeira mulher MBA contratada pela McKinsey (1963), desenvolveu o método durante os anos 1960 e 1970 para estruturar comunicação escrita de consultores enquanto editava relatórios da firma. Publicou *The Pyramid Principle: Logic in Writing and Thinking* em 1985 (Pearson em 1987), virou padrão em McKinsey e se espalhou por consultorias e empresas globalmente. Até hoje é referência em comunicação executiva estruturada.
+
+##### O que é
+
+Método para **estruturar comunicação** (escrita e oral) em forma de pirâmide: começa com a **conclusão principal** (topo da pirâmide) e desce para argumentos de suporte e dados.
+
+##### Princípios / estrutura
+
+Regra central: SCQA framework para introdução + estrutura de pirâmide para conteúdo.
+
+SCQA (introdução):
+
+- Situation: contexto estabelecido (o que o leitor já sabe).
+- Complication: mudança/problema que aparece.
+- Question: pergunta-chave que precisa ser respondida.
+- Answer: a resposta, que vira o topo da pirâmide.
+
+Pirâmide (corpo):
+
+- Topo: ideia principal (resposta à pergunta).
+- Nível 2: 3-5 argumentos de suporte (MECE, mutually exclusive, collectively exhaustive).
+- Nível 3 e abaixo: dados, exemplos, detalhes sustentando cada argumento.
+
+Regras:
+
+- Cada nível suporta o nível acima logicamente.
+- Ideias do mesmo nível são MECE.
+- Ordenar por lógica (dedutiva ou indutiva), não ordem cronológica.
+
+##### Como aplicar do jeito certo
+
+Passo 1, Identifique o destinatário e a pergunta. Pyramid é design centrado no leitor/ouvinte.
+
+Passo 2, Formule a resposta em 1 sentença (o topo). Se não cabe em uma sentença, você não sabe a resposta ainda.
+
+Passo 3, Estruture 3-5 argumentos de suporte. MECE: não se sobrepõem e cobrem o essencial.
+
+Passo 4, Para cada argumento, dados e exemplos.
+
+Passo 5, Teste SCQA na introdução. Leitor entende contexto → problema → pergunta → resposta?
+
+Passo 6, Escreva top-down. Conclusão primeiro, depois suporte. Contrário da tendência natural (contar história cronológica).
+
+##### Exemplo aplicado
+
+Deck de apresentação ao board: "Devemos captar Série B?"
+
+SCQA:
+
+- S: crescemos R$ 40M → R$ 85M ARR em 18 meses.
+- C: para sustentar crescimento, runway atual termina em 8 meses.
+- Q: devemos captar agora ou esperar?
+- A (topo da pirâmide): **devemos captar em Q2/2026, alvo US$ 40M, priorizando fundos tier-1 que já expressaram interesse.**
+
+Pirâmide:
+
+1. Timing é agora. Sub-argumentos: runway, sinal de mercado, tese do produto madura.
+2. US$ 40M é o montante certo. Sub: cobre plano de 24 meses com buffer.
+3. Tier-1 maximiza valor além do cheque. Sub: sinal, network, expertise.
+
+Cada sub-argumento com dados.
+
+##### Erros comuns
+
+Conclusão no final: escreve "descobertas, análise, conclusão". Leitor lê até conclusão para entender resposta. Pyramid inverte: conclusão primeiro. Argumentos que se sobrepõem: não-MECE. Confusão. Detalhes onde deveriam estar argumentos: detalhes de baixo nível subindo na pirâmide. Ordem cronológica em vez de lógica: "fizemos A, depois B, depois C". Leitor não quer história, quer conclusão + suporte.
+
+##### Quando NÃO usar
+
+Em narrativas genuinamente cronológicas (história de fundação, lição de vida), Em comunicação muito informal.
+
+##### Leitura adicional
+
+- Minto, B. (1978, 2009 ed.). *The Pyramid Principle*. Prentice Hall.
+- Reinhart, C. & Rogoff, K. (2009). *This Time is Different*. Exemplo aplicado em livro de economia.
+
+---
+
+### CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)
+
+#### Canvas: Business Model Canvas (Alexander Osterwalder, 2010)
+
+##### Origem
+
+Alexander Osterwalder propôs o Business Model Canvas (BMC) na tese de doutorado em 2004, na Universidade de Lausanne, sob orientação de Yves Pigneur. A ferramenta foi sistematizada no livro *Business Model Generation* (2010), escrito colaborativamente com 470 co-autores espalhados por 45 países via plataforma online — o livro virou bestseller global e definiu a forma como milhões de empreendedores conversam sobre modelo de negócio. No Brasil, o BMC entrou no currículo de praticamente toda aceleradora, MBA, programa do Sebrae, Endeavor e Distrito a partir de 2012, virando vocabulário comum.
+
+##### O que é
+
+Tela visual de uma página com **nove blocos** que representam, juntos, como uma empresa cria, entrega e captura valor. Os nove blocos são organizados em duas metades: a metade direita (cliente, valor, canais, relacionamento, receita) descreve **a frente do negócio**; a metade esquerda (recursos, atividades, parcerias, custos) descreve **as engrenagens internas**. No centro, conectando as duas, fica a **Proposta de Valor**.
+
+```mermaid
+flowchart TB
+    subgraph BMC["Business Model Canvas"]
+        direction LR
+        subgraph Esquerda["Engrenagens"]
+            P["Parcerias-Chave"]
+            A["Atividades-Chave"]
+            R["Recursos-Chave"]
+        end
+        subgraph Centro["Valor"]
+            V["Proposta<br/>de Valor"]
+        end
+        subgraph Direita["Frente"]
+            REL["Relacionamento<br/>com Clientes"]
+            C["Canais"]
+            S["Segmentos<br/>de Clientes"]
+        end
+        subgraph Base["Economia"]
+            CO["Estrutura de Custos"]
+            REC["Fontes de Receita"]
+        end
+    end
+    P --> V
+    A --> V
+    R --> V
+    V --> REL
+    V --> C
+    V --> S
+    Esquerda --> CO
+    Direita --> REC
+```
+
+##### Quando usar
+
+Use o BMC nas Fases 2 e 3 do IGNIÇÃO, quando a ideia já tem articulação inicial mas o modelo de negócio ainda precisa ser explicitado. Também use a cada três a seis meses como check-up: revisitar o BMC depois de um trimestre de operação real frequentemente revela inconsistências invisíveis no momento da articulação. Não use o BMC para decidir *se* a ideia é boa — para isso, [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 4 — DESCOBERTA DO PROBLEMA|Fase 4 (Vol. 2)]] (descoberta com cliente) e [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 8 — EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA E DA SOLUÇÃO|Fase 8 (Vol. 3)]] (experimentos) são as ferramentas certas.
+
+##### Princípios
+
+A tese central de Osterwalder é que **modelo de negócio é objeto de design, não de planejamento**. Designar requer iteração rápida, conversa colaborativa e tolerância à ambiguidade temporária. Os nove blocos são interdependentes: mudar um afeta vários, e o valor do BMC está em tornar essa interdependência visível. O canvas é **descritivo** (mapeia o que você entende do negócio), não **prescritivo** (não diz se o modelo é bom). Por isso, ter um BMC coerente não significa ter um negócio viável — apenas ter clareza sobre o que precisa ser testado.
+
+##### Como aplicar
+
+Reúna 2-4 pessoas (cofundadores idealmente, mais 1 mentor externo se possível). Imprima a tela em A1 ou desenhe na parede com fita crepe. Use post-its (cores diferentes para cada bloco). Bloco a bloco, **na ordem que importa**:
+
+1. **Segmentos de Clientes** primeiro — sem cliente, nada mais importa.
+2. **Proposta de Valor** — por que esses clientes pagariam.
+3. **Canais** — como o cliente descobre, compra, recebe e pede suporte.
+4. **Relacionamento** — self-service, comunidade, suporte humano, automação.
+5. **Fontes de Receita** — modelo (assinatura, transação, licença, freemium).
+6. **Recursos-Chave** — o que a empresa precisa ter (pessoas, tecnologia, IP, capital).
+7. **Atividades-Chave** — o que a empresa precisa fazer todo dia.
+8. **Parcerias-Chave** — quem a empresa precisa ao lado (fornecedores, integradores, distribuição).
+9. **Estrutura de Custos** — onde o dinheiro sai.
+
+Tempo total: 60-120 minutos para a primeira versão. Cada bloco com 3-5 post-its (não parágrafos longos). Revisitar mensalmente nas fases iniciais, trimestralmente depois de PMF.
+
+##### Exemplo brasileiro preenchido — Nubank em 2014
+
+| Bloco | Conteúdo |
+|---|---|
+| **Segmentos de Clientes** | Brasileiros 25-40 anos, urbanos, classes A/B/C+, insatisfeitos com banco tradicional, familiares com smartphone |
+| **Proposta de Valor** | Cartão de crédito sem anuidade, gerenciado 100% por app, sem burocracia, atendimento humano via chat, transparência |
+| **Canais** | App mobile (iOS + Android), landing page, marketing digital orgânico, convite por fila de espera viral |
+| **Relacionamento** | Self-service via app, suporte humano on-demand via chat, comunicação pelo nome próprio |
+| **Fontes de Receita** | Intercâmbio (% sobre cada transação no cartão), juros do rotativo, futuro: receitas adjacentes (lending, investimento) |
+| **Recursos-Chave** | Equipe técnica (engenharia, produto, design), licenças regulatórias, capital, algoritmos de credit scoring |
+| **Atividades-Chave** | Desenvolvimento de produto digital, aquisição de clientes, gestão de risco de crédito, atendimento |
+| **Parcerias-Chave** | Bandeiras (Mastercard, Visa), processadoras de pagamento, BACEN (regulador), provedores cloud |
+| **Estrutura de Custos** | Salários de tecnologia (majoritário), atendimento, marketing, provisões de risco de crédito, compliance |
+
+**Insight do caso.** O BMC do Nubank em 2014 mostra um modelo intencionalmente enxuto: poucos blocos com complexidade real (cartão único, segmento único, canal único). A disciplina foi não adicionar produtos ou segmentos antes de dominar o primeiro. Expansão para conta corrente (2017), lending (2019), investimentos (2020) só aconteceu depois de o cartão dominar o segmento original. Empresas que tentam preencher os nove blocos com complexidade simultânea desde o início frequentemente falham por dispersão. BMC bem feito tem cara de simples.
+
+##### Variações e extensões
+
+- **Lean Canvas** (Fase 1): substitui Parcerias, Atividades, Recursos e Relacionamento por Problema, Solução, Métricas-Chave e Vantagem Injusta. Mais útil em estágio pré-PMF.
+- **Social Business Model Canvas**: adiciona blocos de impacto social, beneficiários e métricas de impacto.
+- **Platform Business Model Canvas**: adapta para marketplaces de dois lados.
+- **Sustainable Business Model Canvas (Triple Layer)**: adiciona camadas ambiental e social.
+
+##### Erros comuns
+
+- Preencher sozinho na cabeça em vez de em conversa colaborativa — o valor do BMC está no debate entre múltiplos olhares, não no documento final.
+- Tratar como artefato estático, não revisitar — BMC sem atualização perde sentido em três meses.
+- Confundir clareza do BMC com validação do mercado — ter BMC bonito não prova que cliente existe.
+- Excesso de detalhe em cada bloco — se você precisa de parágrafo para explicar um bloco, a ideia ainda não está clara.
+- Forçar um único BMC para múltiplos segmentos muito distintos — cada segmento merece BMC próprio.
+
+##### Quando NÃO usar
+
+Em empresas maduras com modelo estabelecido e operando — frameworks de execução como OGSM, Hoshin Kanri ou Balanced Scorecard servem melhor. Em negócios muito simples (consultoria solo, freelance) — BMC introduz overhead sem valor. Em negócios complexos com várias linhas distintas, não force um único BMC: cada linha precisa do seu.
+
+##### Conexão com outros canvases
+
+O BMC **precede** o Lean Canvas (Fase 1) como ferramenta histórica, mas o Lean Canvas é mais adequado para startup pré-PMF. O **Value Proposition Canvas** (Fase 5, Vol. 2) aprofunda o bloco "Proposta de Valor" do BMC, que é tipicamente preenchido de forma vaga. O **Strategy Canvas** (Fase 6, Vol. 2) complementa olhando para fora (concorrência), enquanto o BMC olha para dentro (modelo). Em fases iniciais, comece pelo BMC para ter visão de conjunto; depois aprofunde com VPC para a proposta e Strategy Canvas para o posicionamento.
+
+##### Leitura adicional
+
+- *Business Model Generation* (Alexander Osterwalder & Yves Pigneur, 2010).
+- *Testing Business Ideas* (David Bland & Alexander Osterwalder, 2019) — manual de validação para cada bloco.
+- [strategyzer.com](https://strategyzer.com) — ferramenta online + cursos da equipe original.
+
+---
+
+### TEMPLATES OPERACIONAIS E CASOS PREENCHIDOS DESTA FASE
+
+#### Template: Declaração Inicial da Ideia
+
+**Para que serve.** Captura a ideia inicial em formato auditável com problema, cliente, solução, modelo, hipóteses e incertezas categorizadas, antes de qualquer construção.
+
+**Quando usar.** Ao concluir a Fase 2 e antes de entrar em descoberta de problema (Fase 3). Refaça também sempre que pivotar em qualquer um dos sete blocos, marcando nova versão.
+
+**Exemplo de preenchimento.** Problema, "donos de restaurante de bairro perdem 3-6h por semana conciliando taxas de iFood, Iiood e cartão". Para quem, "operações independentes com 1 a 3 unidades, faturamento R$80k-R$300k/mês". Alternativa atual, "planilha manual com extratos baixados um a um". Solução, "concilia automático via integração com adquirentes e marketplaces". Modelo, "assinatura R$199/mês por unidade". Por que pode funcionar, "dono prefere pagar a contratar mais um auxiliar administrativo".
+
+A DII tem sete blocos de conteúdo mais a lista de incertezas categorizada. Cabe em uma página (400 a 800 palavras). Em ideias B2B, o bloco "Para quem" tem sub-estrutura com Decisor Econômico e Champion separados.
+
+```text
+DECLARAÇÃO INICIAL DA IDEIA
+Versão: ___ | Data: ___
+
+1. PROBLEMA (3-5 frases, ancoradas em dados quando possível, sem mencionar sua solução)
+___________________________________________
+___________________________________________
+Dados/referências (opcional, recomendado em B2B-enterprise):
+- _______________________________________
+- _______________________________________
+
+2. PARA QUEM
+2a. Quem é (filtros objetivos: setor, tamanho, frequência, momento)
+___________________________________________
+2b. Quem NÃO é (anti-perfil — descarta na primeira chamada e por quê)
+___________________________________________
+[Se B2B, preencha 2c e 2d]
+2c. Decisor Econômico (papel que aprova orçamento + pergunta de qualificação em 1 frase)
+___________________________________________
+2d. Champion (papel que opera o produto e vende internamente + pergunta de qualificação em 1 frase)
+___________________________________________
+
+3. ALTERNATIVA ATUAL (como o cliente resolve hoje — planilha, processo manual, concorrente, ignorar)
+___________________________________________
+
+4. SOLUÇÃO PROPOSTA (capacidades, não features)
+___________________________________________
+
+5. MODELO DE NEGÓCIOS (quem paga, quanto, como, contra o que compete)
+- Modelo: [assinatura | transacional | performance | work-as-a-service | ...]
+- Preço-rascunho: ___________________________
+- Gatilho de pagamento: ______________________
+- Compete contra: [não compete com software, compete com custo de analista interno; não compete com X, compete com Y]
+
+6. POR QUE PODE FUNCIONAR (3-5 hipóteses sobre o mundo, formato testável "[Persona] [verbo] [objeto]")
+1) _______________________________________
+2) _______________________________________
+3) _______________________________________
+
+7. POR QUE NÓS (Founder-Market Fit em 1-2 frases — vantagem injusta concreta, não adjetivos)
+___________________________________________
+
+8. O QUE EU NÃO SEI (10-25 incertezas em 6 categorias; nenhuma categoria vazia)
+Demanda (cliente percebe o problema como prioridade?):
+- _______________________________________
+Mercado (orçamento existe? Onde está alocado? Como o mercado se comporta?):
+- _______________________________________
+Solução (a forma proposta resolve? É a forma certa?):
+- _______________________________________
+Adoção (o cliente vai mudar de comportamento para usar?):
+- _______________________________________
+Canal (como o cliente descobre? Onde está acessível?):
+- _______________________________________
+Modelo (pricing percebido como justo? ROI defensável internamente?):
+- _______________________________________
+```
 
 ---
 
@@ -1320,11 +3029,11 @@ A [[#FASE 2 — ARTICULAÇÃO E CAPTURA DA IDEIA|Fase 2]] não é para confirmar
 
 A diferença entre quem faz certo, e quem falha, está em assumir as próprias incertezas. O quinto bloco da Declaração — tudo o que você não sabe — é o mais valioso e o mais negligenciado. Listar incertezas, em vez de mascará-las com confiança, é o que cria a agenda de trabalho das fases seguintes. As suas incertezas de hoje são as suas suposições de amanhã.
 
-O entregável é uma página única, capaz de ser explicada verbalmente para um estranho em noventa segundos, e esse estranho consegue repetir de volta com precisão. Esse teste de transmissão é o filtro de clareza. Se a ideia não passa, ela ainda não está pronta para ser testada — está pronta para ser reescrita. A Fase 3 vai usar o "para quem" e a lista de incertezas desta Declaração como ponto de partida para as primeiras entrevistas de descoberta de problema.
+O entregável é uma página única, capaz de ser explicada verbalmente para um estranho em noventa segundos, e esse estranho consegue repetir de volta com precisão. Esse teste de transmissão é o filtro de clareza. Se a ideia não passa, ela ainda não está pronta para ser testada — está pronta para ser reescrita. A Fase 3 vai usar esta Declaração para estruturar a árvore causal da teoria do negócio, e a Fase 4 (no Volume 2) usará o "para quem" e a lista de incertezas como ponto de partida para as primeiras entrevistas de descoberta de problema.
 
 ---
 
-## FASE 2B — CONSTRUÇÃO DA TEORIA DO NEGÓCIO
+## FASE 3 — CONSTRUÇÃO DA TEORIA DO NEGÓCIO
 
 ### O que esse apêndice cobre
 
@@ -1398,7 +3107,7 @@ Sem teoria explícita, o seu plano de negócios é uma opinião disfarçada. Com
 
 Comece imediatamente depois de **completar** a Declaração Inicial da Ideia (v1), antes de qualquer entrevista de campo. "Completar" aqui significa cumprir os **oito critérios de saída da [[#FASE 2 — ARTICULAÇÃO E CAPTURA DA IDEIA|Fase 2]]** — DII com 7 campos preenchidos, "para quem" verificável com 20 nomes reais, listas de incertezas e suposições-chave, 3-4 ouvintes externos repetindo com precisão. Não significa "validada com cliente", o que só virá da Fase 3 em diante.
 
-A Fase 2 entrega articulação clara. Esta Fase 2B converte essa articulação em teoria causal testável. A Fase 3 começa a testar com clientes reais.
+A Fase 2 entrega articulação clara. Esta Fase 3 converte essa articulação em teoria causal testável. A Fase 3 começa a testar com clientes reais.
 
 Termine quando você tem ao menos uma árvore de teoria completa, com oito a quinze atributos, no mínimo três relações causais principais, e alternativas mapeadas. Revisite ao final de cada ciclo de experimentos (Fases 6, 9, 10, 11). A teoria deve evoluir conforme a evidência chega.
 
@@ -1415,7 +3124,7 @@ O decisor é você.
 Nove passos.
 
 > [!tip] Theory Map / Story Tree como canvas formal desta fase
-> O Story Tree descrito nesta fase tem um canvas dedicado com estrutura formal, pontuação K × I por nó e caso brasileiro (Creditas/BankFacil) em [[IGNICAO-Vol-10-Canvases-e-Templates#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|CZ.16 (Vol. 10)]]. Use o template preenchível em [[IGNICAO-Vol-10-Canvases-e-Templates#APÊNDICE A — TEMPLATES PRONTOS PARA USO|A.9 (Vol. 10)]] junto com o canvas para conectar a árvore ao Business Model Canvas.
+> O Story Tree descrito nesta fase tem um canvas dedicado com estrutura formal, pontuação K × I por nó e caso brasileiro (Creditas/BankFacil) em [[#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvas: Theory Map / Story Tree (autoral IGNIÇÃO)]]. Use o template preenchível em [[#TEMPLATES OPERACIONAIS E CASOS PREENCHIDOS DESTA FASE|Template: Theory Map — Conexão com Business Model Canvas]] junto com o canvas para conectar a árvore ao Business Model Canvas.
 
 #### Passo 1, três perguntas-âncora (método Story Tree)
 
@@ -1455,8 +3164,8 @@ Essas crenças são subjetivas e vão parecer arbitrárias. Realmente são. O po
 
 Um nó é bet-the-company quando, se for falso, a ideia inteira morre. Esses são os nós que você testa primeiro nas fases seguintes. No exemplo do restaurante: se o dono não estiver disposto a pagar por uma solução de conciliação, nada mais importa. Esse nó é o primeiro alvo.
 
-> [!tip] Apêndice CZ — Hypothesis Canvas (CZ.14)
-> Enquanto o Story Tree mostra a rede de hipóteses (relações causais entre nós), o [[IGNICAO-Vol-10-Canvases-e-Templates#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Hypothesis Canvas (CZ.14) (Vol. 10)]] é o canvas para detalhar UMA hipótese isolada — especialmente as bet-the-company marcadas neste Passo 5. Tem campos para Hipótese, Pressuposto, Critério de falsificação, Método de teste, Threshold e Resultado. Use junto com [[IGNICAO-Vol-10-Canvases-e-Templates#APÊNDICE A — TEMPLATES PRONTOS PARA USO|A.10 (Vol. 10)]] (template preenchível) para documentar cada hipótese crítica antes de avançar para [[IGNICAO-Vol-2-Validacao#FASE 6 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 6 (Vol. 2)]] e [[IGNICAO-Vol-2-Validacao#FASE 7 — EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA|Fase 7 (Vol. 2)]].
+> [!tip] Canvases Visuais — Hypothesis Canvas (Fase 7, Vol. 3)
+> Enquanto o Story Tree mostra a rede de hipóteses (relações causais entre nós), o [[#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Hypothesis Canvas (Canvas: Hypothesis Canvas (autoral IGNIÇÃO))]] é o canvas para detalhar UMA hipótese isolada — especialmente as bet-the-company marcadas neste Passo 5. Tem campos para Hipótese, Pressuposto, Critério de falsificação, Método de teste, Threshold e Resultado. Use junto com [[#TEMPLATES OPERACIONAIS E CASOS PREENCHIDOS DESTA FASE|Template: Hypothesis Canvas]] (template preenchível) para documentar cada hipótese crítica antes de avançar para [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 7 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 7 (Vol. 3)]] e [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 8 — EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA E DA SOLUÇÃO|Fase 8 (Vol. 3)]].
 
 #### Passo 6, parcimônia e modularidade
 
@@ -1507,7 +3216,7 @@ Nós críticos identificados (Passo 5). Galho 1, sub-hipótese (a), se a perda �
 
 Fragmento do DAG, mapa causal. "Dor real ampla" leva a "cliente paga preço projetado", que leva a "ACV viável". "APIs com fornecedores" leva a "diferencial real", que leva a "defensabilidade", que leva a "LTV (valor vitalício do cliente) alto". "Churn abaixo de três por cento" leva a "LTV viável", que leva a "unit economics fecha".
 
-Ordem de teste por risco mais informação. Primeiro, testar a sub-hipótese 1(a). É barato (entrevistas mais análise de dados de dez padarias) e informa tudo o resto. Em paralelo, testar a 2(a), conversando com três fornecedores grandes sobre APIs. A 3(b) só é testável com MVP pagante rodando três meses ou mais. Fica para a [[IGNICAO-Vol-2-Validacao#FASE 9 — TESTES DE SOLUÇÃO E USABILIDADE|Fase 9 (Vol. 2)]] em diante.
+Ordem de teste por risco mais informação. Primeiro, testar a sub-hipótese 1(a). É barato (entrevistas mais análise de dados de dez padarias) e informa tudo o resto. Em paralelo, testar a 2(a), conversando com três fornecedores grandes sobre APIs. A 3(b) só é testável com MVP pagante rodando três meses ou mais. Fica para a [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 10 — TESTES DE SOLUÇÃO E USABILIDADE|Fase 10 (Vol. 3)]] em diante.
 
 ### Caso ilustrativo, marca fictícia de moda sustentável e ética
 
@@ -1545,7 +3254,7 @@ A lição transferível. Teoria explícita permite testar cada premissa isoladam
 
 ### SAÍDA DESTA FASE
 
-Você concluiu a [[#FASE 2B — CONSTRUÇÃO DA TEORIA DO NEGÓCIO|Fase 2B]] quando todos os critérios abaixo estão cumpridos.
+Você concluiu a [[#FASE 3 — CONSTRUÇÃO DA TEORIA DO NEGÓCIO|Fase 3]] quando todos os critérios abaixo estão cumpridos.
 
 - [ ] Story Tree em ferramenta compartilhável (Miro, Figma, Notion, planilha), com raiz, tronco e três ou mais galhos principais. Oito a quinze atributos, relações causais explícitas, peso de confiança em cada relação (alta, média, baixa).
 - [ ] DAG com dez ou mais nós e quinze ou mais relações causais. Cada nó com classificação de evidência: forte, fraca, ou nenhuma.
@@ -1563,7 +3272,7 @@ Você concluiu a [[#FASE 2B — CONSTRUÇÃO DA TEORIA DO NEGÓCIO|Fase 2B]] qua
 
 **Primeiros passos práticos.**
 
-1. Abrir os Templates A.7 (Story Tree) e A.8 (DAG) e fazer versão inicial em duas horas.
+1. Abrir os Template Story Tree (Fase 3) e Template: Mapa Causal — DAG Simplificado (Fase 3) (DAG) e fazer versão inicial em duas horas.
 2. Listar todas as crenças implícitas da ideia em modo brainstorm bruto. Depois classificar em níveis da árvore.
 3. Para cada nó, marcar a evidência atual. Forte, fraca, nenhuma.
 4. Escolher três nós críticos para testar primeiro. Aqueles com alto impacto e baixa evidência.
@@ -1578,7 +3287,7 @@ Causalidade inventada. "Economia de tempo causa fidelidade." Talvez. Mas sem dad
 
 Apego à primeira teoria. Se depois de duas horas desenhando você só tem uma versão, está apegado. Desenhe duas.
 
-Teoria que não gera hipóteses testáveis. Se a sua teoria não pode ser traduzida em hipóteses falsificáveis ([[IGNICAO-Vol-2-Validacao#FASE 6 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 6 (Vol. 2)]]), ela é decorativa. Refaça.
+Teoria que não gera hipóteses testáveis. Se a sua teoria não pode ser traduzida em hipóteses falsificáveis ([[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 7 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 7 (Vol. 3)]]), ela é decorativa. Refaça.
 
 Pular para canvas antes de pensar causalmente. O BMC é útil. Mas não é teoria. É inventário. Teoria é a ligação entre os itens do inventário.
 
@@ -1586,59 +3295,773 @@ Pular para canvas antes de pensar causalmente. O BMC é útil. Mas não é teori
 
 ### FERRAMENTAS DESTA FASE
 
-Sete ferramentas estruturam o raciocínio causal e ajudam a evitar wishful thinking (acreditar no que se quer acreditar). Canvases complementares: CZ.14 (Hypothesis Canvas) e CZ.16 (Theory Map / Story Tree).
+Sete ferramentas estruturam o raciocínio causal e ajudam a evitar wishful thinking (acreditar no que se quer acreditar). Canvases complementares: Canvas: Hypothesis Canvas (autoral IGNIÇÃO) (Fase 7, Vol. 3) e Canvas: Theory Map / Story Tree (autoral IGNIÇÃO) (Fase 3).
 
-- **First Principles Thinking** — questione cada suposição da teoria. "Clientes vão pagar R$ X." Por que especificamente? BG.4.1.
-- **MECE** (mutuamente exclusivo, coletivamente exaustivo) — categorize sem sobreposição e sem lacunas, antes de investir em validação. BG.4.5.
-- **Pyramid Principle** (Minto) — conclusão no topo, suporte abaixo, para investidor ou advisor entender rápido. BG.4.4.
-- **McKinsey 7-Step Problem Solving** — aplique à pergunta "há negócio aqui?" para desconfirmar a teoria antes do mundo desconfirmar. BG.5.1.
-- **5 Whys** (Toyota) — aplique à cadeia causal da teoria até a raiz ficar sólida. BG.5.2.
-- **Cynefin Framework** (Snowden) — classifique o domínio do problema (Simples, Complicado, Complexo, Caótico). Em Complexo, a teoria é refinada por experimentação, não por mais análise. BG.4.7.
-- **Second-Order Thinking** (Marks) — consequências das consequências. Se a teoria se materializar, como concorrentes e reguladores reagem? BG.4.2.
-
----
-
-### SÍNTESE DA FASE 2B
-
-A [[#FASE 2B — CONSTRUÇÃO DA TEORIA DO NEGÓCIO|Fase 2B]] faz uma coisa que a maior parte dos fundadores nunca faz: tornar explícita a teoria do negócio. Não como plano, não como projeção, mas como mapa causal de crenças. Cada nó é um atributo, cada seta é uma relação, cada relação tem peso de confiança. A árvore de teoria é o que permite distinguir o que você acredita por evidência, do que você acredita por desejo, do que você nem percebia que estava acreditando.
-
-A diferença entre quem faz certo e quem falha está em aceitar pesos baixos sem disfarçar. Fundador que pinta toda a árvore de "alta confiança" não está mapeando teoria, está fazendo declaração de fé. Fundador que distingue honestamente as relações de alta confiança das de média, das de baixa, e das de risco bet-the-company, identifica onde precisa investir validação primeiro. Esse é o ponto da [[#FASE 2B — CONSTRUÇÃO DA TEORIA DO NEGÓCIO|Fase 2B]]. Não dar respostas, mas localizar perguntas que valem o trabalho de responder.
-
-O entregável desta fase muda como as próximas vão ser conduzidas. As Fases 3 a 7 (no **Volume 2 — Validação**) não testam ideia em geral — testam crenças específicas da árvore de teoria, na ordem do risco. Quem pula a [[#FASE 2B — CONSTRUÇÃO DA TEORIA DO NEGÓCIO|Fase 2B]] entra na validação sem saber o que está validando, e acaba testando coisas fáceis de testar em vez de coisas que importam testar. A diferença entre validar bet-the-company primeiro e validar coisas periféricas primeiro costuma ser a diferença entre seis meses de aprendizado real e dois anos de fingimento.
+- **First Principles Thinking** — questione cada suposição da teoria. "Clientes vão pagar R$ X." Por que especificamente? Framework: First Principles Thinking (Aristóteles, ~350 a.C.; popularizado por Elon Musk, anos 2010) (Fase 0).
+- **MECE** (mutuamente exclusivo, coletivamente exaustivo) — categorize sem sobreposição e sem lacunas, antes de investir em validação. Framework: MECE (Mutually Exclusive, Collectively Exhaustive) — McKinsey (Fase 3).
+- **Pyramid Principle** (Minto) — conclusão no topo, suporte abaixo, para investidor ou advisor entender rápido. Framework: Pyramid Principle (Barbara Minto, 1985) (Fase 2).
+- **McKinsey 7-Step Problem Solving** — aplique à pergunta "há negócio aqui?" para desconfirmar a teoria antes do mundo desconfirmar. Framework: McKinsey 7-Step Problem Solving (Fase 3).
+- **5 Whys** (Toyota) — aplique à cadeia causal da teoria até a raiz ficar sólida. Framework: 5 Whys (Sakichi Toyoda / Toyota, anos 1930) (Fase 3).
+- **Cynefin Framework** (Snowden) — classifique o domínio do problema (Simples, Complicado, Complexo, Caótico). Em Complexo, a teoria é refinada por experimentação, não por mais análise. Framework: Cynefin Framework (Dave Snowden, 1999) (Fase 0).
+- **Second-Order Thinking** (Marks) — consequências das consequências. Se a teoria se materializar, como concorrentes e reguladores reagem? Framework: Second-Order Thinking (Howard Marks, 2011) (Fase 3).
 
 ---
 
-### Transição: do Volume 1 (Ideação) para o Volume 2 (Validação)
-
-O que você acabou de fazer ao longo das Fases 0 a 2B deste **Volume 1 (Ideação)**: preparou-se pessoal e financeiramente como fundador, gerou e filtrou ideias com método, articulou a candidata na Declaração Inicial da Ideia (DII) e construiu a árvore de teoria causal explícita do negócio. A segunda metade deste volume reúne os **13 apêndices operacionais** de fundação pessoal, cognição, decisão, comunicação, IA e ecossistema para consulta sob demanda.
-
-O próximo passo sequencial da jornada está no **Volume 2 — Validação**, começando na [[IGNICAO-Vol-2-Validacao#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3 — Descoberta do Problema (Vol. 2)]]: sair do papel e ir a campo entrevistar clientes reais (Mom Test e JTBD), mapear mercado e concorrência, formular hipóteses falsificáveis, rodar experimentos de validação e testar protótipos até atingir o Problem-Solution Fit.
 
 ---
 
-# FUNDADOR, CO-FOUNDERS E PREPARAÇÃO PESSOAL
+### MÉTRICAS E BENCHMARKS DESTA FASE (FASE 3)
+
+| Métrica | O que medir | Referência saudável |
+|---|---|---|
+| Story Tree construída | Nós de causa-efeito com lógica causal explícita | Pelo menos 3 níveis |
+| Apostas bet-the-company | Número de apostas centrais identificadas | 2 a 5 |
+| Falsificabilidade | Cada aposta tem condição de refutação clara | Sim |
+| DAG sem ciclos | Grafo causal sem loops | Sim |
 
 ---
 
-### Arquitetura deste Domínio: A Infraestrutura Invisível do Fundador
+### MANUAL PASSO A PASSO DOS FRAMEWORKS DESTA FASE
 
-Empresas em estágio inicial não quebram apenas porque o mercado disse "não"; grande parte implode antes mesmo de testar o mercado porque a infraestrutura humana e financeira dos fundadores entrou em colapso. Estes cinco capítulos (**Apêndices AJ, Y, D, CS e CN**) formam um sistema único de proteção e calibragem da dupla (ou trio) fundadora antes que a pressão operacional comece.
+> [!tip] Uso autocontido neste volume
+> Todos os frameworks abaixo estão detalhados integralmente com origem, estrutura, passo a passo de aplicação, exemplo brasileiro e armadilhas para execução imediata nesta **Fase 3**.
 
-A lógica de interdependência entre eles é direta: o seu **runway pessoal e blindagem familiar** ([[#APÊNDICE AJ — DINHEIRO PESSOAL DO FUNDADOR|Apêndice AJ]]) determinam quanto tempo você consegue investigar a verdade sem entrar em pânico financeiro. O pânico financeiro, quando se instala, degrada a **saúde mental e a relação entre cofundadores** ([[#APÊNDICE Y — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Apêndice Y]]) e amplifica **vieses cognitivos destrutivos** como falácia do custo afundado e viés de confirmação ([[#APÊNDICE D — ARMADILHAS MENTAIS E VIESES|Apêndice D]]). Ao mesmo tempo, a escolha fundacional entre **Bootstrap e Venture Capital** ([[#APÊNDICE CS — BOOTSTRAP vs VENTURE CAPITAL: A ESCOLHA FUNDACIONAL|Apêndice CS]]) e a compreensão das **jornadas fora do cânone do Vale do Silício** ([[#APÊNDICE CN — DIVERSIDADE DE JORNADAS: CASOS ALÉM DO CÂNONE|Apêndice CN]]) precisam ser pactuadas entre os sócios no dia zero — porque não existe erro mais caro do que um sócio construindo uma empresa para dividendos enquanto o outro constrói para hiperdiluição e exit em dez anos.
+#### Framework: Second-Order Thinking (Howard Marks, 2011)
 
-> [!tip] Roteiro de leitura e instrumentos conectados
-> - **Antes de pedir demissão ou assinar acordo de sócios:** Leia [[#APÊNDICE AJ — DINHEIRO PESSOAL DO FUNDADOR|Apêndice AJ]] e [[#APÊNDICE CS — BOOTSTRAP vs VENTURE CAPITAL: A ESCOLHA FUNDACIONAL|Apêndice CS]] juntos para alinhar expectativa de remuneração, risco patrimonial e tese de capitalização.
-> - **Ao escolher cofundador ou sentir o primeiro atrito:** Use os roteiros de conversas difíceis do [[#APÊNDICE Y — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Apêndice Y]] combinados com o Founder Alignment Canvas (CZ.8 no Vol. 10).
-> - **Antes de tomar decisão irreversível sob pressão:** Passe pelo checklist de desvio cognitivo do [[#APÊNDICE D — ARMADILHAS MENTAIS E VIESES|Apêndice D]] e pelos modelos mentais de OODA Loop (BG.4.6) e Vieses Cognitivos Críticos (BG.4.8) no **Volume 9**.
+##### Origem
+
+Howard Marks, co-fundador da Oaktree Capital (US$ 180B AUM), cunhou o termo no livro *The Most Important Thing* (2011) e desenvolveu em memos aos investidores. Argumento: investidores medíocres pensam em primeira ordem ("isso é bom, vou comprar"), investidores excepcionais pensam em segunda ordem ("isso é bom, então muitos compraram, então preço já incorpora a expectativa, então minha oportunidade está onde?").
+
+##### O que é
+
+Framework de tomada de decisão que considera **consequências de segunda ordem, terceira ordem e subsequentes** de uma ação, não só o efeito imediato.
+
+##### Princípios / estrutura
+
+Primeira ordem: "se fizermos X, Y acontece."
+Segunda ordem: "se Y acontece, Z acontece, outros vão reagir assim, incentivos se alteram."
+Terceira ordem: "se Z e reação, W acontece, equilíbrio muda."
+
+Exemplo clássico: aumentar preço em 20%.
+
+- 1ª ordem: receita sobe 20% (se tudo mais igual).
+- 2ª ordem: clientes reagem, alguns cancelam, sensibilidade importa.
+- 3ª ordem: concorrentes reagem, podem subir ou manter, dinâmica competitiva muda.
+- 4ª ordem: comunicação afeta percepção de marca de longo prazo.
+
+##### Como aplicar do jeito certo
+
+Passo 1, Para cada decisão importante, liste efeitos de 1ª ordem.
+
+Passo 2, Para cada efeito, pergunte: "e depois?"
+
+Passo 3, Continue até 3-4 ordens, ou até retorno diminuir. Além de 4 ordens, incerteza é alta demais, preditividade cai.
+
+Passo 4, Considere reações de múltiplos agentes. Clientes, concorrentes, reguladores, mídia, time interno.
+
+Passo 5, Questione premissas implícitas. "Assumir tudo igual" raramente é verdade.
+
+Passo 6, Tome decisão com entendimento de ordens.
+
+##### Exemplo aplicado
+
+Startup considerando demitir 15% do time para preservar caixa:
+
+- 1ª ordem: custo cai R$ 500k/mês, runway +6 meses.
+- 2ª ordem: moral do time restante cai, produtividade cai, risco de top performers saírem voluntariamente. Mitigação: comunicação cuidadosa, pacote, transparência.
+- 3ª ordem: mercado percebe como sinal de dificuldade, afeta captação futura, afeta recrutamento quando quiser voltar a contratar. Mitigação: narrativa correta, preparação para rodada.
+- 4ª ordem: se crise acabar em 6 meses e precisarmos re-contratar, custo de recontratação alto, perdemos know-how. Trade-off entre caixa hoje e capability amanhã.
+
+Decisão melhor-informada.
+
+##### Erros comuns
+
+Parar em primeira ordem: "vai economizar caixa, faça". Perde consequências críticas. Over-thinking: simular 10 ordens de consequências, paralisia analítica. Ignorar reações de agentes: assume que outros não reagem. Confundir complexidade com precisão: análise elaborada sobre base frágil de premissas. Complexidade não é qualidade.
+
+##### Quando NÃO usar
+
+Decisões reversíveis/pequenas (Jeff Bezos "one-way vs. two-way doors"), gaste pensamento em decisões irreversíveis.
+
+##### Leitura adicional
+
+- Marks, H. (2011). *The Most Important Thing*. Columbia Business.
+- Marks, H. (memos regulares, disponíveis em oaktreecapital.com).
+- Shane Parrish, Farnam Street (popularizou em startup world).
 
 ---
 
-## APÊNDICE AJ — DINHEIRO PESSOAL DO FUNDADOR
+#### Framework: MECE (Mutually Exclusive, Collectively Exhaustive) — McKinsey
+
+##### Origem
+
+MECE é princípio metodológico central da McKinsey, ensinado sistematicamente em onboarding de consultores. Origem incerta, atribuído a Barbara Minto (anos 1960-70) e refinado ao longo de décadas. Hoje é padrão em todas as top-tier strategy consulting firms.
+
+##### O que é
+
+Princípio de estruturação: categorias ou ideias são **Mutually Exclusive** (não se sobrepõem) e **Collectively Exhaustive** (cobrem tudo que é relevante).
+
+##### Princípios / estrutura
+
+Mutually Exclusive: cada item pertence a apenas uma categoria. Nada "em ambas".
+
+Collectively Exhaustive: juntas, as categorias cobrem 100% do espaço em questão. Nada "de fora".
+
+Exemplo MECE de segmentação:
+
+- Por geografia: Brasil, LatAm ex-Brasil, EUA, Europa, Ásia, Outros. Cada cliente fica em 1 categoria. Todos os clientes estão cobertos.
+
+Exemplo NÃO-MECE:
+
+- Por segmento: PMEs, Grandes Empresas, Empresas de Tecnologia, Empresas B2B.
+- Problema: empresa de tech B2B de grande porte está em 3 categorias (sobreposição), e PMEs B2C ficam em "PMEs" mas categoria não reflete isso (exhaustividade ambígua).
+
+##### Como aplicar do jeito certo
+
+Passo 1, Defina o espaço a ser estruturado.
+
+Passo 2, Escolha dimensão de categorização. Frequentemente tem múltiplas dimensões úteis, escolher a que revela mais.
+
+Passo 3, Liste categorias iniciais.
+
+Passo 4, Teste exclusividade. Para 10 exemplos aleatórios, cada fica em exatamente 1 categoria?
+
+Passo 5, Teste exhaustividade. Há exemplo que não cabe em nenhuma? Adicionar categoria "Outros" é aceitável se minoritário.
+
+Passo 6, Revise. Primeira tentativa raramente é MECE perfeita.
+
+##### Exemplo aplicado
+
+Analisando por que CAC dobrou no último trimestre:
+
+Dimensão 1: canal de aquisição (MECE)
+
+- Google Ads, Meta Ads, LinkedIn Ads, Email, Orgânico, Referral. Cada lead via 1 canal primário.
+
+Dimensão 2: estágio do funil onde caímos (MECE)
+
+- Top (visitor → signup), Middle (signup → qualificação), Bottom (qualificação → fechamento).
+
+Análise MECE revela: CAC dobrou devido a Bottom funnel (conversão caiu 50%) em Google Ads especificamente. Não é problema geral, é problema específico de 1 célula da matriz.
+
+##### Erros comuns
+
+Categorias que se sobrepõem sutilmente: "clientes grandes" e "clientes enterprise", onde está a linha? Categorias arbitrariamente quebradas: dividir por preço em 5 faixas quando 3 capturam 99%. Análise com MECE de dimensão errada: MECE por região quando o problema é setor. Análise rigorosa mas não revela insight. Perfeccionismo MECE paralisante: às vezes "85% MECE" é suficiente para decisão.
+
+##### Quando NÃO usar
+
+Em contextos genuinamente fuzzy (emoções humanas, preferências complexas), MECE artificial distorce.
+
+##### Leitura adicional
+
+- Minto, B. (2009). *The Pyramid Principle*. Capítulos sobre MECE.
+- Ethan Rasiel (1999). *The McKinsey Way*.
+
+---
+
+#### Framework: OODA Loop (John Boyd, anos 1970)
+
+##### Origem
+
+Coronel John Boyd (piloto de caça da USAF) formalizou o loop OODA (Observe, Orient, Decide, Act) no início dos anos 1970, sintetizando observações acumuladas desde a Guerra da Coreia (anos 1950) e do Vietnã. O *Aerial Attack Study* de Boyd virou doutrina oficial da USAF em 1960; o conceito do OODA Loop como modelo de decisão emergiu uma década depois. Expandiu para estratégia militar e, posteriormente (anos 1980-90), foi adotado em negócios como framework de decisão em ambientes voláteis. Hoje é referência em cybersecurity, military, esportes competitivos, e estratégia empresarial.
+
+##### O que é
+
+Loop de tomada de decisão em 4 fases que **repete rapidamente**. A tese de Boyd: **quem completa o loop mais rápido ganha**. Não é necessariamente quem tem decisão "melhor", é quem decide e age enquanto outros ainda orientam.
+
+##### Princípios / estrutura
+
+1. Observe: coletar dados do ambiente, o que está acontecendo?
+2. Orient: interpretar dados, qual o contexto, padrões, modelos? **Fase mais crítica**. Dados só importam depois de interpretados.
+3. Decide: escolher curso de ação.
+4. Act: executar.
+
+Resultado da ação → novo Observe → loop continua.
+
+##### Como aplicar do jeito certo
+
+Passo 1, Reduza latência do loop completo. Em negócio, o equivalente militar de "agilidade" é: quanto tempo entre receber dado e agir sobre ele?
+
+Passo 2, Invista em Orient. Coletar dados (Observe) é commodity, saber o que significam (Orient) é vantagem.
+
+Passo 3, Decida imperfeitamente. Perfeccionismo trava o loop. Decisões 70% boas agora > 95% boas daqui 3 meses.
+
+Passo 4, Tight feedback. Act produz dados novos, incorporar rápido.
+
+##### Exemplo aplicado
+
+Startup early-stage em fase de PMF, cenário clássico OODA:
+
+- Observe: métricas semanais (MRR, churn, NPS), entrevistas contínuas com clientes.
+- Orient: o que elas significam? Retenção caindo é churn estrutural ou usuário errado?
+- Decide: mudar pricing, product, target, ou perseverar?
+- Act: implementar mudança.
+
+Loop de 2-4 semanas = saudável para PMF.
+
+##### Erros comuns
+
+Ignorar Orient: colhe dados, age, colhe dados, age. Sem interpretação, é reativo, Analisar demais (stuck em Orient): dados acumulam sem ação, loop trava, Ignorar sinais do ambiente: decide baseado em modelo interno desatualizado.
+
+##### Quando NÃO usar
+
+Decisões que exigem deliberação longa (M&A, rodadas), OODA rápido pode levar a erros.
+
+##### Leitura adicional
+
+- Coram, R. (2002). *Boyd: The Fighter Pilot Who Changed the Art of War*.
+- Osinga, F. (2006). *Science, Strategy and War: The Strategic Theory of John Boyd*.
+
+---
+
+#### Framework: McKinsey 7-Step Problem Solving
+
+##### Origem
+
+Framework desenvolvido e refinado dentro da McKinsey ao longo de décadas (anos 1950-presente), ensinado sistematicamente em onboarding de novos consultores. Consolidado publicamente em *Bulletproof Problem Solving* (Charles Conn & Robert McLean, 2019), ambos ex-diretores seniores da McKinsey. É o método padrão de consultoria de estratégia de alto nível.
+
+##### O que é
+
+Processo estruturado de 7 passos para atacar problemas complexos de negócio. Aplica rigor analítico + experiência prática acumulada em milhares de engagements.
+
+##### Princípios / estrutura — Os 7 Passos
+
+1. Define the problem (Definir o problema): articulação clara, específica, mensurável do problema. Não "nosso CAC está alto", "nosso CAC cresceu 80% em 6 meses, está em R$ 3.200 vs. meta R$ 1.800, afetando LTV:CAC em 30%".
+
+2. Structure the problem (Estruturar): decompor em sub-problemas via issue tree (árvore MECE). Exemplo: "CAC alto" → canais caros, conversão caindo, ICP mudando, ou combinação.
+
+3. Prioritize the issues (Priorizar): nem todo sub-problema merece mesma atenção. Aplicar 80/20, focar em branches que explicam maior parte do problema.
+
+4. Plan the analysis (Planejar análise): para cada branch priorizada, que análises resolverão? Quais dados, de onde, em quanto tempo?
+
+5. Conduct analysis (Executar): fazer as análises planejadas. Sem pular para respostas.
+
+6. Synthesize findings (Sintetizar): conectar findings em narrativa coerente, não lista de fatos.
+
+7. Communicate the recommendation (Comunicar): formatar em forma decisória (Pyramid Principle).
+
+##### Como aplicar do jeito certo
+
+Passo 1, Resistir à tentação de pular para solução. Fundadores/executivos sob pressão querem "solução já". McKinsey 7-step demora dias/semanas, mas chega em resposta melhor.
+
+Passo 2, Definição do problema é 30% do trabalho. "A problem well-defined is half-solved", Einstein atribuído. Em consultoria: definir problema errado = projeto inteiro perdido.
+
+Passo 3, Issue tree rigorosa MECE. Se branches sobrepõem ou faltam, análise vai ser fraca.
+
+Passo 4, Priorizar antes de analisar. Evitar "análise de tudo", tempo/recurso finito.
+
+Passo 5, Síntese ≠ sumário. Sumário é lista, síntese é insight derivado da combinação dos dados.
+
+Passo 6, Comunicação top-down. Recomendação primeiro, suporte depois (Pyramid).
+
+##### Exemplo aplicado
+
+Problema: "Churn de logo aumentou de 1.2% para 2.8% mensais nos últimos 3 meses."
+
+- Define: churn dobrou em 90 dias, impactando NRR em -6pp e ARR em R$ 2.3M.
+- Structure: por que churn cresceu? 4 branches MECE:
+- Produto piorou (bugs, downtime).
+- Cliente mudou (ICP mudando, dificuldades financeiras).
+- Concorrência intensificada (novos entrantes, preços mais baixos).
+- Nosso CS falhou (onboarding, health scores).
+- Prioritize: análise preliminar mostra 60% dos churns vêm de clientes do vertical X. Focar aí.
+- Plan analysis: entrevistar 20 clientes churned do vertical X, comparar NPS deles com não-churned, analisar logs de uso.
+- Conduct: fazer.
+- Synthesize: descoberta, concorrente Y lançou produto vertical X mais barato, clientes estão migrando. Mas 30% dos churns seriam recuperáveis com intervenção precoce.
+- Communicate: recomendação ao CEO: (a) desenvolver feature específica para vertical X em 90 dias, (b) implementar health score com intervenção nos 30% recuperáveis, (c) revisar pricing no vertical X.
+
+##### Erros comuns
+
+Pular para solução sem definir problema: "churn aumentou, vamos descontar". Resposta errada se causa é produto, Issue tree não-MECE: branches se sobrepõem, análise fragmentada, Analisar tudo: sem priorização, recurso se dilui, Síntese fraca: apresenta 50 datapoints sem insight, Comunicação bottom-up: começa com metodologia, termina com conclusão. Leitor perde paciência.
+
+##### Quando NÃO usar
+
+Problemas simples com solução conhecida (manual > 7-step), Crises em tempo real (OODA Loop é mais rápido), Quando dados necessários não existem e não são obteníveis.
+
+##### Leitura adicional
+
+- Conn, C. & McLean, R. (2019). *Bulletproof Problem Solving*. Wiley.
+- Rasiel, E. & Friga, P. (2001). *The McKinsey Way*. McGraw-Hill.
+
+---
+
+#### Framework: 5 Whys (Sakichi Toyoda / Toyota, anos 1930)
+
+##### Origem
+
+Sakichi Toyoda, fundador da Toyota Industries, desenvolveu a técnica nos anos 1930. Taiichi Ohno formalizou no Toyota Production System nos anos 1950. Técnica tornou-se central em Lean Manufacturing e depois em Lean Startup (Eric Ries). Princípio: ir além de sintomas até chegar em causa-raiz perguntando "por quê?" cinco vezes.
+
+##### O que é
+
+Técnica simples de análise de causa-raiz. Diante de problema, perguntar "por quê?" sequencialmente até chegar em causa fundamental acionável. Cinco é número médio, pode ser menos (3) ou mais (7) dependendo do problema.
+
+##### Princípios / estrutura
+
+Exemplo clássico da Toyota:
+
+- Problema: máquina parou.
+- Por quê? Fusível queimado.
+- Por quê? Sobrecarga.
+- Por quê? Mancal sem lubrificação.
+- Por quê? Bomba de lubrificação falhou.
+- Por quê? Eixo da bomba desgastado por causa de sujeira.
+
+Causa-raiz: **sujeira no ar do chão de fábrica**. Solução: filtro. Sem 5 Whys, solução seria "trocar fusível" (trata sintoma, repete problema).
+
+##### Como aplicar do jeito certo
+
+Passo 1, Formule problema específico e mensurável.
+
+Passo 2, Pergunte "por quê?" focando em processos/sistemas, não em pessoas. "Por que João fez errado" leva a culpa, "Por que o sistema permitiu isso" leva a melhoria.
+
+Passo 3, Cada "por quê" deve ser respondido com evidência. Não especulação.
+
+Passo 4, Pare quando: (a) causa é acionável e (b) mais "por quês" geram respostas externas à sua capacidade de controle.
+
+Passo 5, Teste solução na causa-raiz. Monitor para confirmar resolução.
+
+##### Exemplo aplicado
+
+Problema: "Nosso deploy de produção falhou na sexta-feira causando 3h de downtime."
+
+- Por quê? Migração de banco falhou.
+- Por quê? Script de migração tinha bug em caso de edge.
+- Por quê? Bug não foi detectado em staging.
+- Por quê? Staging não tinha dados que triggeram o edge case.
+- Por quê? Nosso processo de staging não espelha prod em volume.
+
+Causa-raiz: **processo de staging inadequado**. Solução: sync staging com subset representativo de prod + smoke tests obrigatórios.
+
+##### Erros comuns
+
+Focar em pessoas: "por que o engenheiro não testou?" vira culpa. "Por que nosso processo não exige teste?" vira melhoria. Parar cedo demais: "bug no script" não é causa-raiz, é sintoma. Especular em vez de investigar: 5 Whys sem dados vira ficção criativa. Buscar "a" causa-raiz quando há múltiplas: problemas complexos podem ter múltiplas causas, fazer 5 Whys para cada.
+
+##### Quando NÃO usar
+
+Problemas com causas múltiplas e sistêmicas (exige análise mais sofisticada como Ishikawa/Fishbone), Em ambientes com cultura de blame, vira witch hunt.
+
+##### Leitura adicional
+
+- Ohno, T. (1988). *Toyota Production System*. Productivity Press.
+- Ries, E. (2011). *The Lean Startup*. Capítulos sobre 5 Whys.
+
+---
+
+#### Framework: Ishikawa / Fishbone Diagram (Kaoru Ishikawa, 1968)
+
+##### Origem
+
+Kaoru Ishikawa, professor da Universidade de Tóquio e pioneiro do controle de qualidade japonês, desenvolveu o diagrama nos anos 1960 para a Kawasaki Steel Works. Publicou formalmente em *Guide to Quality Control* (1968). Ferramenta central do Toyota Production System e do Total Quality Management, expandiu globalmente a partir dos anos 1980 via movimento Six Sigma.
+
+##### O que é
+
+Diagrama visual que estrutura investigação de causa-raiz de um problema. **Eixo principal (espinha)** representa o problema a ser analisado, ramos saindo da espinha principal são **categorias de causas possíveis**. As categorias tradicionais (método 6M) são: *Material, Máquina, Método, Medida, Mão-de-obra, Meio-ambiente*. Em contextos de software/serviços, adaptações comuns usam: *Processo, Pessoas, Tecnologia, Dados, Contexto externo*.
+
+##### Como aplicar
+
+Passo 1: definir o problema a analisar com precisão (não "vendas caíram", "conversão de free para paid caiu de 8% para 5% no último trimestre"). Passo 2: para cada categoria, em sessão colaborativa, listar hipóteses de causa (5-10 por categoria). Passo 3: priorizar as hipóteses mais plausíveis. Passo 4: investigar cada hipótese prioritária com dados. Passo 5: identificar causas-raiz reais e eliminar hipóteses não confirmadas.
+
+##### Exemplo aplicado
+
+Conversão caindo em SaaS. Problema: conversão trial → paid caiu 30% no trimestre. Método: onboarding mudou sem testes A/B? Pessoas: time comercial rotatividade alta? Tecnologia: bug em fluxo de pagamento? Processo: novo target cliente com fit pior? Dados: mudança no tracking que mascarou conversões reais? Contexto: concorrente lançou produto com oferta agressiva? Após investigação, causa-raiz: novo onboarding adicionou fricção em passo crítico, rollback resolveu.
+
+##### Erros comuns
+
+Parar no primeiro diagnóstico plausível sem investigar dados, usar diagrama sem seguir com investigação real, categorias genéricas demais que viram balaio.
+
+##### Quando NÃO usar
+
+Para problemas com causa óbvia (não precisa de Ishikawa), para decisões sobre o futuro (Ishikawa é retrospectivo).
+
+##### Leitura adicional
+
+*Guide to Quality Control* (Kaoru Ishikawa, 1968, reedições), *The Toyota Way* (Jeffrey Liker, 2004).
+
+---
+
+#### Framework: Pareto Analysis (Joseph Juran, 1940s; Vilfredo Pareto, 1896)
+
+##### Origem
+
+Baseada em observação de Vilfredo Pareto em 1896 de que 80% das terras italianas eram de 20% dos proprietários. Joseph Juran, pioneiro do controle de qualidade (contemporâneo de Ishikawa), formalizou a aplicação empresarial nos anos 1940 como "Princípio de Pareto" ou "Regra 80/20". Adoção massiva em qualidade, vendas, gestão de problemas, e eventualmente em todas áreas de gestão.
+
+##### O que é
+
+Observação empírica de que, em uma população de itens, uma minoria contribui com a maioria do efeito. Regra heurística: tipicamente 80% dos problemas vêm de 20% das causas, 80% das vendas de 20% dos clientes, 80% dos bugs de 20% dos módulos de código. A proporção exata varia (pode ser 70/30, 90/10), mas o princípio de desbalanceamento é robusto. O diagrama visual (Pareto Chart) é barras ordenadas decrescentemente com linha cumulativa acima, mostrando onde "corta" os 80%.
+
+##### Como aplicar
+
+Passo 1: listar itens com contribuição mensurável (causas de defeito com frequência, clientes com receita, bugs com ocorrência). Passo 2: ordenar decrescentemente. Passo 3: calcular percentual acumulado. Passo 4: identificar o ponto onde 80% do efeito está acumulado. Passo 5: focar esforço nos itens que compõem esses 80%, deprioritzar os demais.
+
+##### Exemplo aplicado
+
+Customer Success em SaaS descobre que 80% dos tickets de suporte vêm de 20% dos clientes. Ação: investigar esses clientes específicos, são PME que não deveriam estar usando o produto? Fit errado no funil de vendas? Onboarding ineficaz para eles? Corrigir upstream (não atender mais esse segmento, ou melhorar onboarding) resolve 80% do problema com esforço pequeno.
+
+##### Erros comuns
+
+Aplicar Pareto como regra literal "tem que ser 80/20", é heurística, a proporção real varia. Focar apenas nos 20% sem analisar os 80%, às vezes os 80% são onde está o crescimento potencial. Não reaplicar periodicamente, distribuições mudam.
+
+##### Quando NÃO usar
+
+Em populações muito pequenas (< 20 itens) onde concentração não é informativa, em situações onde todos itens são estrategicamente importantes (sem 80/20).
+
+##### Leitura adicional
+
+*Quality Control Handbook* (Juran, 1951), *The 80/20 Principle* (Richard Koch, 1997).
+
+---
+
+### CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)
+
+#### Canvas: Theory Map / Story Tree (autoral IGNIÇÃO)
+
+##### Origem
+
+A Theory Map — também chamada de Story Tree no contexto de Fase 3 — é ferramenta autoral desenvolvida para este livro a partir da convergência de três tradições intelectuais: (1) o Directed Acyclic Graph (DAG) causal de Judea Pearl (*The Book of Why*, 2018), que formaliza relações causais em grafos direcionados; (2) o conceito de "theory of change" das ciências sociais e de impacto social (Teoria da Mudança), que mapeia a lógica causal entre intervenção e resultado; (3) a prática de Steve Blank e Bob Dorf de externalizar as "apostas" de um modelo de negócio antes de testar. A motivação foi observação prática: fundadores que chegam com Lean Canvas preenchido frequentemente não conseguem articular *por que* acreditam que cada bloco do canvas se sustenta. Theory Map força externalizar essa lógica causal implícita — tornando-a auditável, falsificável e revisável à medida que a evidência chega. O template completo preenchível está no [[#TEMPLATES OPERACIONAIS E CASOS PREENCHIDOS DESTA FASE|Apêndice A (Template: Theory Map — Conexão com Business Model Canvas)]].
+
+##### O que é
+
+Grafo visual — árvore ou rede de nós conectados por setas causais — que representa a teoria do negócio: a cadeia de premissas que, se verdadeiras em conjunto, tornam o negócio viável. Cada **nó** é um atributo ou estado do mundo ("clientes pagam R$ 180/mês", "CAC < R$ 400", "retenção D30 > 60%"). Cada **seta** é uma afirmação causal ("porque X, então Y" — "porque a dor é aguda o suficiente, clientes pagarão mensalmente"). O grafo é **acíclico** — sem loops; se houver, é sinal de raciocínio circular.
+
+Cada nó recebe três classificações:
+
+- **Conhecimento (K1-K5)**: quão bem estabelecida é esta premissa? K1 = evidência robusta. K5 = pura suposição.
+- **Importância (I1-I5)**: quanto o negócio depende desta premissa? I5 = bet-the-company.
+- **Prioridade de teste (P = K × I)**: premissas com maior P devem ser testadas primeiro.
+
+```mermaid
+flowchart TD
+    A["🎯 Dor aguda existe<br/>K=2, I=5, P=10"]
+    B["💰 Cliente paga R$180/mês<br/>K=2, I=5, P=10"]
+    C["📉 CAC < R$400<br/>K=3, I=4, P=12"]
+    D["🔁 Retenção D30 > 60%<br/>K=2, I=5, P=10"]
+    E["📈 LTV/CAC > 3<br/>K=3, I=5, P=15"]
+    F["✅ Modelo sustentável<br/>Resultado final"]
+    A -->|"causa"| B
+    B -->|"viabiliza"| E
+    C -->|"determina"| E
+    D -->|"define LTV"| E
+    E -->|"permite"| F
+```
+
+##### Quando usar
+
+Use a Theory Map na Fase 3 (construção da teoria do negócio) como artefato central — antes de qualquer experimento ou desenvolvimento de produto. A árvore construída na Fase 3 é o mapa que orienta todas as fases seguintes: cada hipótese da Fase 6 testa um nó ou seta da árvore; cada experimento da Fase 7 coleta evidência sobre as premissas mais incertas e importantes. Revise a árvore após cada rodada de experimentos — evidência nova deve atualizar o grafo, não ser arquivada separadamente.
+
+##### Princípios
+
+Três princípios fundamentam o design:
+
+**Primeiro: modelo de negócio é teoria causal, não conjunto de features.** Lean Canvas e BMC descrevem o modelo como conjunto de componentes (problema, solução, canais, receita). Theory Map descreve o modelo como rede de afirmações causais sobre o mundo. A diferença é crítica: um Canvas pode ser preenchido de forma internamente consistente sem que nenhuma das premissas seja verdadeira. Uma Theory Map que é internamente consistente mas tem nós K5 (pure assumption) é honesta sobre onde está o risco — e esses nós K5 com alta importância são exatamente o que os primeiros experimentos devem testar.
+
+**Segundo: apostas implícitas são apostas não gerenciadas.** Todo fundador opera com uma teoria implícita do negócio — "acredito que X porque Y". A maioria nunca a externaliza. Theory Map força a externalização: cada bloco de Lean Canvas ou BMC vira um nó com premissas explícitas. O processo de construção frequentemente revela premissas que o fundador assumia serem fato mas são K4-K5 (pouca ou nenhuma evidência). Essas premissas descobertas durante a construção da árvore são as bet-the-company hypotheses a testar primeiro.
+
+**Terceiro: árvore viva bate árvore estática.** Theory Map não é documento de planejamento — é modelo vivo que deve ser atualizado à medida que evidência chega. Cada experimento da Fase 7 muda o K (conhecimento) de algum nó. Cada atualização de K muda a P (prioridade de teste) de outros nós. Time que mantém a árvore atualizada tem uma vantagem: sabe em tempo real quais premissas críticas ainda não foram testadas e qual é o estado atual da teoria.
+
+##### Como aplicar
+
+Sessão de 2-3 horas com o time fundador (2-4 pessoas). Facilitador recomendado para a primeira versão. Use o template do [[#TEMPLATES OPERACIONAIS E CASOS PREENCHIDOS DESTA FASE|Apêndice A (Template: Theory Map — Conexão com Business Model Canvas)]] para conectar a árvore ao BMC existente, ou construa a árvore diretamente se ainda não houver BMC.
+
+**Sequência:**
+
+1. **Resultado final**: escreva no topo da árvore o resultado que torna o negócio viável ("empresa sustentável com LTV/CAC > 3" ou "mercado de R$ 50M endereçável com participação de 5% em 5 anos"). Um só nó no topo.
+2. **Premissas de primeiro nível**: o que precisa ser verdade para o resultado final acontecer? Geralmente 3-5 premissas de alto nível (clientes têm a dor, clientes pagam, CAC viável, retenção suficiente, canal escalável).
+3. **Decomposição**: para cada premissa de primeiro nível, quais premissas de segundo nível são necessárias? Repita até chegar em premissas testáveis empiricamente.
+4. **Classificação**: para cada nó, atribua K (1-5) e I (1-5). Calcule P = K × I. Nós com P > 12 são prioridade imediata de teste.
+5. **Identificação de apostas bet-the-company**: nós com I = 5 e K ≥ 4 são as premissas mais importantes com menos evidência — essas são as hipóteses que os primeiros experimentos devem atacar.
+6. **Conexão com o BMC/Lean Canvas**: use o Template: Theory Map — Conexão com Business Model Canvas (Fase 3) para verificar que cada bloco do Canvas tem ao menos um nó correspondente na árvore, e que cada nó da árvore tem ao menos um bloco correspondente no Canvas. Inconsistências revelam: (a) canvas com blocos sem justificativa teórica (remova ou construa a teoria); (b) teoria com premissas sem elemento no canvas (modelo incompleto).
+
+##### Exemplo brasileiro preenchido — Creditas, árvore de teoria inicial (2012)
+
+Quando Sergio Furio fundou a Creditas (então BankFacil) em 2012, a teoria central era: brasileiros com imóvel ou veículo pagam juros altíssimos em crédito pessoal porque os bancos tradicionais não usam o ativo como garantia. Um modelo de crédito com garantia poderia oferecer taxas menores e ter unidade economics superiores. A Theory Map inicial simplificada:
+
+| Nó | Premissa | K | I | P | Status |
+|---|---|---|---|---|---|
+| A | Brasileiros com imóvel pagam >50% a.a. em crédito pessoal | 1 | 5 | 5 | Fato verificável — dados Banco Central |
+| B | Regulação permite crédito com garantia de imóvel por fintech | 4 | 5 | 20 | Incerto — exige análise jurídica |
+| C | Clientes aceitam usar imóvel como garantia para taxa menor | 4 | 5 | 20 | Hipótese comportamental — exige teste |
+| D | CAC via digital < CAC de banco tradicional | 3 | 4 | 12 | Suposição — exige teste de canal |
+| E | Inadimplência em crédito com garantia < 3% | 3 | 5 | 15 | Dados históricos internacionais como proxy |
+| F | LTV/CAC > 4 com modelo de garantia | 4 | 5 | 20 | Depende de B, C, D, E — só verificável após validar os anteriores |
+| G | Empresa sustentável | — | — | — | Resultado final |
+
+**Apostas bet-the-company identificadas:** B (regulação — P=20, bloqueante se falso), C (comportamento do cliente — P=20), E (inadimplência — P=15, crítico para unit economics). Note: A tem P=5 pois é fato verificável — não precisa de experimento, só de pesquisa documental (dados Banco Central).
+
+**Decisões decorrentes:** (1) contratar advogado especializado em regulação antes de qualquer produto — valida B; (2) 50 entrevistas com donos de imóvel em 30 dias — valida C; (3) análise de dados históricos de crédito com garantia no Brasil — reduz incerteza de E.
+
+**Insight do caso.** O nó B (regulação) foi a descoberta mais valiosa do exercício: no ambiente regulatório de 2012, crédito com garantia de imóvel por instituição não-bancária tinha restrições que exigiram estrutura jurídica específica (parceria com banco). Sem a Theory Map, essa premissa teria emergido apenas meses depois, após produto construído. Com a árvore, foi identificada como aposta de alto risco antes de qualquer investimento técnico. **A lição: o valor da Theory Map está nas premissas que você não sabia que estava fazendo. A construção da árvore produz surpresas — cada surpresa é um risco que você não estava gerenciando.**
+
+##### Variações e extensões
+
+- **Story Tree narrativa**: versão mais linear da Theory Map usada para comunicação — conta a teoria como "se A então B, se B então C" em formato de história causal. Útil em pitch e comunicação interna.
+- **Causal Loop Diagram**: versão avançada que permite loops (A causa B que causa A) — mais complexa, útil em análise de sistemas mas requer facilitação especializada.
+- **Assumption Map** (Bland & Osterwalder): versão 2×2 (importância × evidência) que prioriza assumptions para teste — estruturalmente similar à classificação K × I da Theory Map.
+
+##### Quando NÃO usar
+
+Em decisões puramente operacionais sem premissa nova a testar. Em times sem disciplina para manter a árvore atualizada — árvore desatualizada é pior que não ter árvore (induz falsa segurança). Em contextos onde a regulação ou o mercado muda tão rápido que qualquer teoria fica obsoleta em semanas — nesse caso, ciclos muito curtos de experimentos práticos são mais eficientes que planejamento teórico.
+
+##### Conexão com outros canvases
+
+A Theory Map **precede todos os outros canvases** — é o mapa que justifica por que o BMC (Fase 2), o Lean Canvas (Fase 1) e o VPC (Fase 5, Vol. 2) têm os blocos que têm. **Alimenta o Hypothesis Canvas (Fase 7, Vol. 3)**: cada nó ou seta K≥3+I≥4 da árvore vira hipótese prioritária. **Conecta ao Canvas da Cunha (Fase 6, Vol. 2)**: a cunha de entrada de mercado é a operacionalização dos primeiros nós da árvore — qual segmento específico valida as premissas mais críticas com maior velocidade?
+
+##### Leitura adicional
+
+- Template completo preenchível: [[#TEMPLATES OPERACIONAIS E CASOS PREENCHIDOS DESTA FASE|Apêndice A, Template: Theory Map — Conexão com Business Model Canvas]].
+- *The Book of Why* (Judea Pearl & Dana Mackenzie, 2018) — fundação matemática de grafos causais.
+- *The Startup Owner's Manual* (Steve Blank & Bob Dorf, 2012) — externalização de apostas como prática de discovery.
+
+---
+
+### TEMPLATES OPERACIONAIS E CASOS PREENCHIDOS DESTA FASE
+
+#### Template: Árvore de Teoria — Story Tree
+
+**Para que serve.** Estrutura a teoria do negócio como um conjunto de atributos com probabilidade subjetiva e relações causais entre eles, isolando explicitamente os 2 a 5 atributos bet-the-company que destruiriam a ideia se refutados.
+
+**Quando usar.** Na Fase 3, depois que a DII (Template da Fase 2) está estável e antes de priorizar hipóteses (Fase 6). Refaça quando descobrir um atributo novo, ou quando a refutação de um atributo bet-the-company forçar redesenho da teoria.
+
+**Exemplo de preenchimento.** Atributo A1 "operadores percebem conciliação como dor top 3", crença 70%. A2 "donos pagam para retirar dor de operadores", crença 40%. Relação A1→A2 confiança média, evidência "Frameworks da Fase 17, Vol. 7.x sobre transferência de dor entre persona-operador e persona-comprador". Bet-the-company, "A2 (se dono não paga, modelo morre)".
+
+```text
+ÁRVORE DE TEORIA, v___ Data: ___/___/___
+
+PERGUNTAS-ÂNCORA:
+
+(a) Qual problema ou fenômeno você está observando?
+____________________________________________________________
+____________________________________________________________
+
+(b) Por que isso está acontecendo? (causas-raízes)
+____________________________________________________________
+____________________________________________________________
+
+(c) O que você poderia fazer a respeito? (caminhos de solução)
+____________________________________________________________
+____________________________________________________________
+
+ATRIBUTOS (elementos com realização incerta):
+
+ID | Atributo | Crença sobre realização (0-100%)
+----|-----------------------------------|-----------------------------------
+A1 | |
+A2 | |
+A3 | |
+A4 | |
+A5 | |
+A6 | |
+A7 | |
+A8 | |
+...
+
+RELAÇÕES CAUSAIS (A → B):
+
+De | Para | Direção do efeito | Confiança (alta/média/baixa) | Evidência prévia
+------|-------|-------------------|------------------------------|------------------
+A1 | A2 | + ou - | |
+A2 | A3 | + ou - | |
+...
+
+ATRIBUTOS BET-THE-COMPANY (2 a 5):
+
+Marque os atributos cuja refutação destruiria a ideia inteira:
+[ ] A___ Justificativa: __________________________________
+[ ] A___ Justificativa: __________________________________
+[ ] A___ Justificativa: __________________________________
+
+TESTE DE PARCIMÔNIA:
+
+Quais atributos eu posso remover sem perder poder explicativo?
+Removidos nesta versão: _________________________________
+
+TESTE DE ALTERNATIVA:
+
+Teoria alternativa (explicação diferente para o mesmo fenômeno):
+____________________________________________________________
+Principais atributos diferentes: _________________________
+Como saberei qual teoria é melhor: _______________________
+
+VALIDAÇÃO EXTERNA:
+
+Três pessoas que conseguiram repetir minha teoria com as próprias palavras:
+1) _______________________ Data: ___
+2) _______________________ Data: ___
+3) _______________________ Data: ___
+```
+
+---
+
+#### Template: Mapa Causal — DAG Simplificado
+
+**Para que serve.** Representa a teoria como grafo acíclico dirigido, com probabilidades marginais nos nós e probabilidades condicionais nas arestas, permitindo calcular plausibilidade do caminho crítico até o outcome final (cliente paga, cliente adota).
+
+**Quando usar.** Na Fase 3, como passo seguinte ao Story Tree (Template da Fase 3) quando a teoria já tem 6 a 10 atributos e o empreendedor precisa de visão mais formal das dependências. Útil também quando há disputa sobre qual atributo é o gargalo causal.
+
+**Exemplo de preenchimento.** A "operador sente dor" P(A)=70%, A→B "operador reporta dor para dono" P(A→B)=50%, B "dono prioriza resolver" P(B|A)=35%, B→C "dono autoriza compra" P(B→C)=60%, C "cliente paga" P(C|B)=21%. Plausibilidade do caminho 70% × 50% × 60% = 21%, dentro do sweet spot 15-50% indicando teoria coerente mas frágil.
+
+Use esta representação quando quiser uma visão mais precisa e probabilística da teoria. É o passo seguinte ao Story Tree, para empreendedores que já dominam o básico.
+
+```text
+MAPA CAUSAL, v___
+
+Instruções:
+1) Liste atributos em caixas.
+2) Desenhe setas apenas em uma direção (sem ciclos).
+3) Sobre cada seta, anote a probabilidade subjetiva de que a relação seja verdadeira.
+4) Sobre cada nó, anote a probabilidade subjetiva de que aquele atributo se realize.
+
+Representação textual (desenhe no papel ou ferramenta de diagrama):
+
+ [Atributo A] P(A)=___%
+ |
+ | P(A→B)=___%
+ v
+ [Atributo B] P(B|A)=___%
+ |
+ | P(B→C)=___%
+ v
+ [Atributo C] P(C|B)=___% <-- bet-the-company
+
+VERIFICAÇÃO:
+
+[ ] Não há setas circulares (A→B→A).
+[ ] Cada nó tem uma probabilidade marginal estimada.
+[ ] Cada seta tem uma probabilidade condicional estimada.
+[ ] Os nós bet-the-company estão destacados.
+[ ] Existe ao menos uma folha terminal (nó sem saída) que representa o outcome final (ex.: "cliente paga", "cliente adota").
+
+CÁLCULO DE PLAUSIBILIDADE GERAL (opcional):
+
+Multiplicando as probabilidades ao longo do caminho crítico:
+P(caminho) = P(A) × P(A→B) × P(B→C) ×... = ___%
+
+Interpretação: se o resultado for <10%, sua ideia está assumindo
+uma cadeia muito frágil. Se >70%, provavelmente você está otimista
+demais. Sweet spot inicial: entre 15% e 50%.
+```
+
+---
+
+#### Template: Theory Map — Conexão com Business Model Canvas
+
+Use este template quando já preencheu um BMC ou Lean Canvas e precisa transformá-lo em teoria causal.
+
+> [!note] Teoria completa em Canvas: Theory Map / Story Tree (autoral IGNIÇÃO) (Fase 3)
+> Origem, estrutura, princípios, como aplicar e caso brasileiro do Theory Map / Story Tree encontram-se em [[#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvas: Theory Map / Story Tree (autoral IGNIÇÃO)]]. Este template é o complemento prático (campos preencháveis) daquela seção.
+
+```text
+THEORY MAP, Conexão BMC ↔ Teoria v___
+
+Para cada bloco do BMC, responda as três perguntas:
+
+BLOCO: SEGMENTOS DE CLIENTES
+(i) Quem exatamente? ____________________________________
+(ii) Qual atributo da minha árvore este bloco representa? A___
+(iii) Como se conecta causalmente com os outros blocos?
+ Afeta: _____________________________________________
+ É afetado por: _____________________________________
+
+BLOCO: PROPOSTA DE VALOR
+(i) Valor concreto oferecido? __________________________
+(ii) Qual atributo? A___
+(iii) Conexões causais:
+ Afeta: _____________________________________________
+ É afetado por: _____________________________________
+
+BLOCO: CANAIS
+(i) Quais canais? _______________________________________
+(ii) Qual atributo? A___
+(iii) Conexões causais:
+ Afeta: _____________________________________________
+ É afetado por: _____________________________________
+
+BLOCO: RELACIONAMENTO COM CLIENTES
+(i) Tipo de relação? ____________________________________
+(ii) Qual atributo? A___
+(iii) Conexões causais: ________________________________
+
+BLOCO: FONTES DE RECEITA
+(i) Como monetiza? ______________________________________
+(ii) Qual atributo? A___
+(iii) Conexões causais: ________________________________
+
+BLOCO: RECURSOS-CHAVE
+(i) O que é indispensável? ______________________________
+(ii) Qual atributo? A___
+(iii) Conexões causais: ________________________________
+
+BLOCO: ATIVIDADES-CHAVE
+(i) Quais ações? ________________________________________
+(ii) Qual atributo? A___
+(iii) Conexões causais: ________________________________
+
+BLOCO: PARCEIROS-CHAVE
+(i) Quem? _______________________________________________
+(ii) Qual atributo? A___
+(iii) Conexões causais: ________________________________
+
+BLOCO: ESTRUTURA DE CUSTOS
+(i) Principais custos? __________________________________
+(ii) Qual atributo? A___
+(iii) Conexões causais: ________________________________
+
+DIAGNÓSTICO:
+
+[ ] Existe algum bloco do BMC sem atributo correspondente na árvore?
+ Se sim, o BMC tem um item sem justificativa teórica. Remova ou
+ adicione à árvore.
+
+[ ] Existe algum atributo da árvore sem bloco correspondente no BMC?
+ Se sim, seu modelo de negócio está incompleto. Reabra o BMC.
+
+[ ] Blocos do BMC que eu removi após este exercício:
+ _______________________________________________________
+
+[ ] Atributos da árvore que surgiram durante este exercício:
+ _______________________________________________________
+```
+
+---
+
+### SÍNTESE DA FASE 3
+
+A [[#FASE 3 — CONSTRUÇÃO DA TEORIA DO NEGÓCIO|Fase 3]] faz uma coisa que a maior parte dos fundadores nunca faz: tornar explícita a teoria do negócio. Não como plano, não como projeção, mas como mapa causal de crenças. Cada nó é um atributo, cada seta é uma relação, cada relação tem peso de confiança. A árvore de teoria é o que permite distinguir o que você acredita por evidência, do que você acredita por desejo, do que você nem percebia que estava acreditando.
+
+A diferença entre quem faz certo e quem falha está em aceitar pesos baixos sem disfarçar. Fundador que pinta toda a árvore de "alta confiança" não está mapeando teoria, está fazendo declaração de fé. Fundador que distingue honestamente as relações de alta confiança das de média, das de baixa, e das de risco bet-the-company, identifica onde precisa investir validação primeiro. Esse é o ponto da [[#FASE 3 — CONSTRUÇÃO DA TEORIA DO NEGÓCIO|Fase 3]]. Não dar respostas, mas localizar perguntas que valem o trabalho de responder.
+
+O entregável desta fase muda como as próximas vão ser conduzidas. As Fases 4 a 10 (nos **Volumes 2 e 3**) não testam ideia em geral — testam crenças específicas da árvore de teoria, na ordem do risco. Quem pula a [[#FASE 3 — CONSTRUÇÃO DA TEORIA DO NEGÓCIO|Fase 3]] entra na validação sem saber o que está validando, e acaba testando coisas fáceis de testar em vez de coisas que importam testar. A diferença entre validar bet-the-company primeiro e validar coisas periféricas primeiro costuma ser a diferença entre seis meses de aprendizado real e dois anos de fingimento.
+
+---
+
+### Transição: do Volume 1 (Ideação e Fundação) para o Volume 2 (Descoberta e Mercado)
+
+O que você acabou de fazer ao longo das Fases 0 a 3 deste **Volume 1 (Ideação e Fundação)**: preparou-se pessoal e financeiramente como fundador, gerou e filtrou ideias com método, articulou a candidata na Declaração Inicial da Ideia (DII) e construiu a árvore de teoria causal explícita do negócio — tudo com seus frameworks, canvases e templates integrados em cada fase. A segunda metade deste volume reúne os **13 capítulos** de fundação pessoal, cognição, decisão, comunicação, produtividade com IA e ecossistema.
+
+O próximo passo sequencial da jornada está no **Volume 2 — Descoberta de Cliente e Mapeamento de Mercado**, começando na [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 4 — DESCOBERTA DO PROBLEMA|Fase 4 — Descoberta do Problema (Vol. 2)]]: sair do papel e ir a campo entrevistar clientes reais (*Mom Test* e *JTBD*), pesquisar usuários em profundidade e mapear o mercado, a concorrência e a cunha de entrada.
+
+---
+
+# FUNDADOR, COFUNDADORES E PREPARAÇÃO PESSOAL (CAPÍTULOS 1 A 5)
+
+### Arquitetura deste Domínio: A Fundação Humana, Financeira e Societária do Fundador (Capítulos 1 a 5)
+
+Mais de 60% das startups que morrem nos primeiros dois anos não quebram porque o mercado encolheu — quebram porque o caixa pessoal do fundador secou antes do *Product-Market Fit*, porque os cofundadores entraram em guerra societária por expectativas não verbalizadas, ou porque a empresa captou Venture Capital para um negócio que deveria ser *bootstrapped* (ou vice-versa).
+
+Estes cinco capítulos formam o **sistema de blindagem pessoal e societária inicial** que você deve ler e aplicar em paralelo às Fases 0 e 1:
+
+- **[[#CAPÍTULO 1 — DINHEIRO PESSOAL DO FUNDADOR|Capítulo 1 — Dinheiro Pessoal do Fundador]]:** Como separar CPF e CNPJ desde o dia zero, calcular seu *burn rate* familiar, estruturar *pró-labore* mínimo e evitar que a ansiedade financeira pessoal force decisões ruins no negócio.
+- **[[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#C|Capítulo 2 — Saúde Mental e Dinâmica de Cofundadores (Vol. 10)]]:** Como escolher sócios complementares, conduzir conversas difíceis de alinhamento, desenhar *vesting* com *cliff* e proteger a saúde psíquica sob incerteza extrema.
+- **[[#CAPÍTULO 3 — ARMADILHAS MENTAIS E VIESES|Capítulo 3 — Armadilhas Mentais e Vieses]]:** O catálogo prático das distorções cognitivas que cegam fundadores (falácia do custo afundado, viés de confirmação, otimismo tóxico) e os protocolos de desconfirmação deliberada.
+- **[[#CAPÍTULO 4 — BOOTSTRAP vs VENTURE CAPITAL: A ESCOLHA FUNDACIONAL|Capítulo 4 — Bootstrap vs. Venture Capital]]:** A decisão arquitetural que define quem manda na sua empresa, qual velocidade de crescimento é exigida e quais caminhos de saída estarão abertos.
+- **[[#CAPÍTULO 5 — DIVERSIDADE DE JORNADAS: CASOS ALÉM DO CÂNONE|Capítulo 5 — Diversidade de Jornadas]]:** Como fundadores fora do eixo tradicional (estudantes, profissionais maduros, empreendedores do interior, negócios de nicho) constroem vantagens assimétricas reais no Brasil.
+
+---
+
+## CAPÍTULO 1 — DINHEIRO PESSOAL DO FUNDADOR
 
 > [!note] Validade
 > Práticas financeiras pessoais (tributação PF, produtos de seguro, mecânica de score de crédito, isenções) evoluem a cada três a cinco anos. Revise bienalmente com contador e corretor de seguros brasileiros.
 
-A [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]] toca em runway (tempo que o caixa dura) pessoal em alto nível, ter seis a doze meses de reserva. Este apêndice aprofunda um território que manuais brasileiros de empreendedorismo costumam ignorar ou tratar de forma superficial, como o fundador sobrevive financeiramente durante anos de renda irregular ou abaixo do mercado sem destruir a vida pessoal, a saúde financeira da família ou o futuro.
+A [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]] toca em runway (tempo que o caixa dura) pessoal em alto nível, ter seis a doze meses de reserva. Este capítulo aprofunda um território que manuais brasileiros de empreendedorismo costumam ignorar ou tratar de forma superficial, como o fundador sobrevive financeiramente durante anos de renda irregular ou abaixo do mercado sem destruir a vida pessoal, a saúde financeira da família ou o futuro.
 
 Tema prático e crítico. Fundador que falha em dinheiro pessoal costuma falhar também na empresa. Não por causalidade direta, mas porque estresse financeiro corrói julgamento, relacionamento, saúde e a urgência das decisões. O resultado é mau timing de saída da empresa, aceite de term sheet (proposta formal de investimento) ruim por desespero, recusa de oportunidade boa por medo.
 
@@ -1671,7 +4094,7 @@ O fundador e o cônjuge ou companheira(o) são decisores conjuntos em todas as d
 > [!warning] Sinal de perigo
 > Começar empresa com reserva abaixo de seis meses e dependentes. Probabilidade alta de crise financeira pessoal antes do PMF, que demora dezoito a trinta e seis meses em média.
 
-**Salário do fundador.** Na [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]] (pré-validação), zero salário. Vive da reserva. Duração típica de seis a doze meses. Nas Fases 2 a 9 (validação, pré-PMF), se captou seed com investidor, o salário é mínimo de sobrevivência, tipicamente oito a quinze mil reais por mês para São Paulo. Investidor espera frugalidade. Se bootstrapped, depende do caixa. Muitos fundadores tiram zero ou três a cinco mil até haver receita recorrente. Na [[IGNICAO-Vol-3-Tracao#FASE 11 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 11 (Vol. 3)]] (pré-PMF tardio para PMF), o fundador começa a se pagar salário "abaixo de mercado mas digno", quinze a vinte e cinco mil reais por mês para CEO em São Paulo. Investidores aceitam e esperam isso nesse estágio. Na [[IGNICAO-Vol-4-Captacao-e-Financas#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13 (Vol. 4)]] (pós-PMF, time em escala), o salário sobe para patamar de cinquenta a setenta por cento do mercado para cargo equivalente — CEO de empresa com trinta milhões de reais de ARR fica em quarenta a setenta mil por mês. Ainda abaixo de mercado, sinal de alinhamento com investidores e time. Em Série B em diante, o salário se aproxima do patamar de mercado entre oitenta e cem por cento. Os benchmarks vêm de Radford, Mercer ou consultorias de comp e equity como Pave e Option Impact.
+**Salário do fundador.** Na [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]] (pré-validação), zero salário. Vive da reserva. Duração típica de seis a doze meses. Nas Fases 2 a 9 (validação, pré-PMF), se captou seed com investidor, o salário é mínimo de sobrevivência, tipicamente oito a quinze mil reais por mês para São Paulo. Investidor espera frugalidade. Se bootstrapped, depende do caixa. Muitos fundadores tiram zero ou três a cinco mil até haver receita recorrente. Na [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 12 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 12 (Vol. 4)]] (pré-PMF tardio para PMF), o fundador começa a se pagar salário "abaixo de mercado mas digno", quinze a vinte e cinco mil reais por mês para CEO em São Paulo. Investidores aceitam e esperam isso nesse estágio. Na [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18 (Vol. 8)]] (pós-PMF, time em escala), o salário sobe para patamar de cinquenta a setenta por cento do mercado para cargo equivalente — CEO de empresa com trinta milhões de reais de ARR fica em quarenta a setenta mil por mês. Ainda abaixo de mercado, sinal de alinhamento com investidores e time. Em Série B em diante, o salário se aproxima do patamar de mercado entre oitenta e cem por cento. Os benchmarks vêm de Radford, Mercer ou consultorias de comp e equity como Pave e Option Impact.
 
 > [!important] Equity vale mais que salário em trajetória saudável
 > Fundador que insiste em salário alto cedo demais sinaliza desconfiança no próprio negócio e consome caixa valioso. A exceção é o fundador com vários dependentes ou situação financeira pessoal específica, que pode negociar com investidor um salário um pouco maior em troca de vesting mais agressivo ou clawback. Transparência desde o início.
@@ -1680,7 +4103,7 @@ Sobre tributação: o fundador que se remunera via empresa tem opções entre pr
 
 **Proteção patrimonial.** Os seguros essenciais são quatro. O seguro de vida é indispensável e cobre a família em caso de morte do fundador. O valor recomendado é dez vezes a renda familiar anual (ou equivalente para quitar hipoteca, educação dos filhos e cinco anos de reserva). O custo fica entre cento e cinquenta e oitocentos reais por mês dependendo da idade e da saúde. As opções incluem seguros de mercado (Zurich, Bradesco Vida, Prudential) ou via PJ (seguros corporativos). O seguro saúde, ou plano de saúde, é fornecido em CLT. Em PJ ou como fundador, você precisa contratar PF ou via a própria empresa como benefício. O custo fica entre quatrocentos e dois mil e quinhentos reais por mês por pessoa, dependendo da idade, da cidade e do nível de cobertura. Priorize rede com hospital de referência (Einstein, Sírio, Oswaldo Cruz, Moinhos de Vento). Não economize aqui. O seguro de invalidez ou incapacidade cobre perda de capacidade laboral e é frequentemente ignorado. Custa entre cem e quatrocentos reais por mês. Especialmente crítico para fundador sem CLT, que não tem INSS robusto nem FGTS. O seguro residencial é padrão e custa de cinquenta a duzentos reais por mês.
 
-A separação pessoal e empresarial precisa ser rigorosa. Conta bancária PF separada de PJ. Nunca misture (já falamos no [[IGNICAO-Vol-4-Captacao-e-Financas#APÊNDICE W — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Apêndice W (Vol. 4)]] mas é crucial repetir aqui). Gastos pessoais com cartão pessoal, não corporativo. Mesmo "um Uber para cliente" é expense reimbursement documentado, não débito direto no PJ. Cartão corporativo, se houver, usado só para gastos corporativos com prestação de contas mensal. E nunca pegar empréstimo pessoal para a empresa em nome próprio, exceto via contrato formal de mútuo com juros de mercado. Caso contrário, vira distribuição de lucro disfarçada com problemas tributários.
+A separação pessoal e empresarial precisa ser rigorosa. Conta bancária PF separada de PJ. Nunca misture (já falamos no [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 14 — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Capítulo 14 (CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA) (Vol. 5)]] mas é crucial repetir aqui). Gastos pessoais com cartão pessoal, não corporativo. Mesmo "um Uber para cliente" é expense reimbursement documentado, não débito direto no PJ. Cartão corporativo, se houver, usado só para gastos corporativos com prestação de contas mensal. E nunca pegar empréstimo pessoal para a empresa em nome próprio, exceto via contrato formal de mútuo com juros de mercado. Caso contrário, vira distribuição de lucro disfarçada com problemas tributários.
 
 Sobre pacto antenupcial e pós-nupcial: se você é casado em comunhão parcial (regime padrão brasileiro), bens adquiridos após o casamento, inclusive equity da empresa, são metade do cônjuge em eventual divórcio. Se captou antes de casar, o equity pré-casamento é seu. O pós-casamento entra em comunhão, exceto se houver pacto específico. Cônjuge tem direitos reais e importantes. Não é questão de se proteger dele ou dela, é questão de alinhar expectativas e estruturar com clareza. Em casos onde a empresa é grande ou a variação de valor esperada é alta, converse com advogado sobre pacto antenupcial (antes de casar) ou alteração de regime depois (via processo judicial no Brasil, que é complexo). E o testamento define como equity e bens vão em caso de morte. Essencial com filhos menores.
 
@@ -1691,7 +4114,7 @@ Para financiamento imobiliário com renda irregular, bancos específicos têm li
 **Impacto familiar e gestão de expectativa.** A conversa inicial com cônjuge ou companheira(o) precisa acontecer antes de iniciar a trajetória. Sessenta a noventa minutos estruturados cobrindo: por quanto tempo posso estar sem renda competitiva (estimar três a cinco anos é realista, podemos ajustar)? Como isso afeta o planejamento familiar (casa, filhos, escola, férias)? Quanto da reserva é intocável (sobrevivência) versus quanto pode cobrir seis meses extras se precisar? O que eu espero do cônjuge em termos de carga mental e financeira? Quais são os sinais de que devo encerrar a empresa e voltar ao CLT (acordo antes, não durante o estresse)? Como vamos comunicar à família estendida, aos filhos, ao círculo social? Essa conversa precisa ser repetida anualmente, porque realidades mudam: filhos chegam, pais envelhecem, cônjuge tem novas aspirações profissionais, mercado imobiliário oscila, saúde aparece.
 
 > [!warning] Sinais de risco no relacionamento
-> Cônjuge evita perguntar sobre a empresa. Conversas regulares sobre "até quando isso?". Cônjuge assumiu carga financeira desproporcional sem combinar antes. Tensão ao tocar em assuntos financeiros. Cônjuge começa a sentir que "empresa vem antes da família" mesmo quando não é verdade. Intervenção, terapia de casal (ver [[#APÊNDICE Y — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Apêndice Y]]). Melhor investimento preventivo. Casar de novo depois do divórcio custa cinco a dez vezes mais que terapia preventiva.
+> Cônjuge evita perguntar sobre a empresa. Conversas regulares sobre "até quando isso?". Cônjuge assumiu carga financeira desproporcional sem combinar antes. Tensão ao tocar em assuntos financeiros. Cônjuge começa a sentir que "empresa vem antes da família" mesmo quando não é verdade. Intervenção, terapia de casal (ver [[#CAPÍTULO 2 — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Capítulo 2 (SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR)]]). Melhor investimento preventivo. Casar de novo depois do divórcio custa cinco a dez vezes mais que terapia preventiva.
 
 Com filhos, mantenha transparência apropriada à idade. Crianças percebem o estresse parental mesmo quando ele não é verbalizado. A conversa precisa ser proporcional à idade ("mamãe ou papai está trabalhando muito em algo novo, vai ser difícil mas é importante"). Os rituais devem ser preservados: dormir com os filhos, refeições juntos, fim de semana protegido, mesmo na fase mais intensa. E dinheiro: não esconda, mas não alarme. "Vamos economizar em férias este ano" é OK. "Estamos sem dinheiro" não é conversa para criança. Com pais e sogros, gerencie expectativa. A geração anterior frequentemente não entende empreendedorismo (associa a "desemprego sofisticado"). Explique sem se justificar excessivamente. E cuidado financeiro: seja transparente se vai precisar contar com eles para algo, ou se eles vão contar com você no futuro. Promessas sem base geram ressentimento.
 
@@ -1711,23 +4134,23 @@ A primeira é "resolvo isso depois do exit". Depois do exit é tarde. Décadas d
 
 ### Ver também
 
-[[IGNICAO-Vol-7-Maturidade-e-Exit#APÊNDICE BA — SECONDARY E LIQUIDEZ DE FOUNDER|Apêndice BA (Vol. 7)]] (secondary e liquidez), [[IGNICAO-Vol-4-Captacao-e-Financas#APÊNDICE W — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Apêndice W (Vol. 4)]] (contabilidade e tributário BR), [[#APÊNDICE Y — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Apêndice Y]] (humanidade do fundador).
+[[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 17 — SECONDARY E LIQUIDEZ DE FOUNDER|Capítulo 17 (SECONDARY E LIQUIDEZ DE FOUNDER) (Vol. 9)]] (secondary e liquidez), [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 14 — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Capítulo 14 (CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA) (Vol. 5)]] (contabilidade e tributário BR), [[#CAPÍTULO 2 — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Capítulo 2 (SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR)]] (humanidade do fundador).
 
 > [!info] Fases relacionadas
 > Referenciado em: Fase 0.
 
 ---
 
-## APÊNDICE Y — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR
+## CAPÍTULO 2 — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR
 
 > [!note] Nota de validade
 > Os princípios cobertos aqui (identidade além da empresa, hábitos de recuperação, estrutura de conflito entre sócios, quando buscar ajuda profissional) são atemporais. O que evolui são recursos disponíveis (modalidades de terapia, aplicativos, grupos de peer support, regulamentação de aposentadoria de sócios). Revisar a cada vinte e quatro a trinta e seis meses.
 
-A [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]] toca em preparação pessoal e finanças pessoais. O [[IGNICAO-Vol-7-Maturidade-e-Exit#APÊNDICE CW — CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO|Apêndice CW (Vol. 7)]] menciona perda de founder como um dos seis tipos de crise. Este apêndice cobre o que falta, a vida interior do fundador ao longo de sete a doze anos de trajetória e a química operacional entre cofounders em momentos difíceis. Não é decoração. É operacional. Mais empresas quebram por burnout sem tratamento, depressão não declarada ou conflito societário mal resolvido do que por erro estratégico.
+A [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]] toca em preparação pessoal e finanças pessoais. O [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9 — CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO|Capítulo 9 (CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO) (Vol. 9)]] menciona perda de founder como um dos seis tipos de crise. Este capítulo cobre o que falta, a vida interior do fundador ao longo de sete a doze anos de trajetória e a química operacional entre cofounders em momentos difíceis. Não é decoração. É operacional. Mais empresas quebram por burnout sem tratamento, depressão não declarada ou conflito societário mal resolvido do que por erro estratégico.
 
-A literatura de empreendedorismo trata esses temas como tabu ou como posfácio. Este apêndice os trata como disciplina, com a mesma seriedade dedicada a unit economics.
+A literatura de empreendedorismo trata esses temas como tabu ou como posfácio. Este capítulo os trata como disciplina, com a mesma seriedade dedicada a unit economics.
 
-### O que esse apêndice cobre
+### O que esse capítulo cobre
 
 Três territórios. Saúde mental do fundador individualmente: burnout, ansiedade, depressão, isolamento, vícios subclínicos (álcool, trabalho compulsivo, redes). Dinâmica de cofounders: química, conflito produtivo, conflito destrutivo, divórcio societário com dignidade. E relacionamentos externos: parceiro ou parceira, família, amizades, em contexto de empresa que consome tempo e energia em escala não-normal.
 
@@ -1743,12 +4166,12 @@ Conflito societário silencioso envenena por doze a vinte e quatro meses antes d
 
 Custos pessoais fora da empresa destroem o fundador. Casamento em ruínas, filhos distantes, saúde física declinando, amizades perdidas. Fundador atinge exit financeiro e descobre que o resto da vida ficou em pedaços. Isso não tem que ser assim. É resultado de escolhas, e escolhas podem ser diferentes.
 
-> [!warning] Custo de pular este apêndice
+> [!warning] Custo de pular este capítulo
 > Fundador que ignora esse território até quebrar descobre que recuperar anos de abandono é muito mais difícil do que prevenir. Terapia semanal preventiva custa quatrocentos a oitocentos reais por semana. Colapso de burnout em alta temporada custa meses de operação e um custo humano incalculável.
 
 ### Quando aplicar
 
-Sempre. Esse apêndice não tem "fase certa para aplicar". É infraestrutura contínua. Momentos especiais incluem crise operacional, rodada intensa, conflito com sócio, perda de pessoa-chave, birthday number (quarenta, quarenta e cinco, cinquenta), nascimento de filho e separação. Qualquer evento de alto impacto pessoal ou profissional é gatilho para revisão consciente.
+Sempre. Esse capítulo não tem "fase certa para aplicar". É infraestrutura contínua. Momentos especiais incluem crise operacional, rodada intensa, conflito com sócio, perda de pessoa-chave, birthday number (quarenta, quarenta e cinco, cinquenta), nascimento de filho e separação. Qualquer evento de alto impacto pessoal ou profissional é gatilho para revisão consciente.
 
 ### Quem envolver
 
@@ -1834,7 +4257,7 @@ Regra prática derivada: resista a coletar labels públicos sobre si mesmo. Voc�
 
 Earnestness, fazer algo pelos motivos certos (Graham, 2020)
 
-Há outro ensaio que vale mencionar neste apêndice, embora trate de um aspecto menos visível da trajetória do fundador: *Earnestness* (algo entre "sinceridade" e "seriedade genuína"). Graham argumenta que **fazer algo pelos motivos certos**: curiosidade real pelo problema, cuidado com o cliente, interesse genuíno no ofício, em vez de fazer por status, riqueza, ou para provar algo a alguém, é fator competitivo subestimado em startup.
+Há outro ensaio que vale mencionar neste capítulo, embora trate de um aspecto menos visível da trajetória do fundador: *Earnestness* (algo entre "sinceridade" e "seriedade genuína"). Graham argumenta que **fazer algo pelos motivos certos**: curiosidade real pelo problema, cuidado com o cliente, interesse genuíno no ofício, em vez de fazer por status, riqueza, ou para provar algo a alguém, é fator competitivo subestimado em startup.
 
 A razão é prática: trabalho duro por longos períodos sem resultado imediato (o que é a condição normal dos primeiros anos de startup) só é sustentável se há ligação genuína com o trabalho em si. Pessoas que começam startup "para ficar ricas" tipicamente desistem antes dos 5-7 anos, porque o retorno financeiro (quando vem) vem depois disso. Pessoas que começam porque **se importam genuinamente com o problema** conseguem sustentar o ritmo pelo tempo necessário.
 
@@ -1930,7 +4353,7 @@ Saúde mental e relacionamentos estão no padrão quando o fundador mantém iden
 
 ### Momentos-chave psicológicos — guidance específico para eventos críticos
 
-O [[#APÊNDICE Y — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Apêndice Y]] cobre saúde mental como disciplina contínua (burnout, hábitos, cofundadores, relacionamentos). **Esta seção adiciona guidance específico para momentos pontuais** com dinâmica psicológica própria, onde o fundador enfrenta picos de estresse, dúvida, luto, ou mudança de identidade. Cada um merece preparação distinta.
+O [[#CAPÍTULO 2 — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Capítulo 2 (SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR)]] cobre saúde mental como disciplina contínua (burnout, hábitos, cofundadores, relacionamentos). **Esta seção adiciona guidance específico para momentos pontuais** com dinâmica psicológica própria, onde o fundador enfrenta picos de estresse, dúvida, luto, ou mudança de identidade. Cada um merece preparação distinta.
 
 #### Momento 1 — O primeiro "não" importante de investidor
 
@@ -1996,7 +4419,7 @@ O [[#APÊNDICE Y — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUN
 5. **Comunicação interna honesta**: time precisa saber, não em drama. "Perdemos cliente X, aqui está o impacto, aqui está o plano."
 6. **Post-mortem estruturado**: o que preveniria? Sinais perdidos? Monitoring não implementado? Aprendizado vai para próximos contratos.
 
-**Perspectiva**: primeira perda grande ensina mais do que 10 vitórias. Disciplina de CS ([[IGNICAO-Vol-3-Tracao#APÊNDICE AA — CUSTOMER SUCCESS COMO DISCIPLINA|Apêndice AA (Vol. 3)]]) em geral nasce da primeira dor grande.
+**Perspectiva**: primeira perda grande ensina mais do que 10 vitórias. Disciplina de CS ([[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 12 — CUSTOMER SUCCESS COMO DISCIPLINA|Capítulo 12 (CUSTOMER SUCCESS COMO DISCIPLINA) (Vol. 4)]]) em geral nasce da primeira dor grande.
 
 #### Momento 4 — A primeira crise pública
 
@@ -2009,7 +4432,7 @@ O [[#APÊNDICE Y — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUN
 - Intrusão na vida pessoal (família, amigos veem, perguntam).
 - Cortisol crônico por dias/semanas.
 
-**Guidance prático** ([[IGNICAO-Vol-7-Maturidade-e-Exit#APÊNDICE CW — CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO|Apêndice CW (Vol. 7)]] cobre crise em detalhe, aqui foco no psicológico):
+**Guidance prático** ([[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9 — CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO|Capítulo 9 (CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO) (Vol. 9)]] cobre crise em detalhe, aqui foco no psicológico):
 
 1. **Não responder nos primeiros 60-90 minutos**. Respiração, conversa com cofundador, advogado e/ou PR antes de comunicação.
 2. **Se responsabilidade é sua, assumir rápido**: silêncio prolongado vira história maior.
@@ -2039,7 +4462,7 @@ O [[#APÊNDICE Y — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUN
 3. **Terapia estruturada**: transições grandes de vida se beneficiam de processo terapêutico. Não opcional, recomendado.
 4. **Reconhecer luto**: empresa foi um "filho" emocional por anos. Luto é real. Chorar, se precisar. Processar.
 5. **Relacionamentos perdidos**: cofundadores e time com quem você viveu intensidade diária podem se distanciar pós-exit. Normal, mas doloroso.
-6. **Uso saudável do dinheiro**: frequentemente exits geram capital que não existia. Gestão financeira pessoal séria ([[#APÊNDICE AJ — DINHEIRO PESSOAL DO FUNDADOR|Apêndice AJ]]) vira crítica. Não gastar impulsivamente nos primeiros 12-24 meses.
+6. **Uso saudável do dinheiro**: frequentemente exits geram capital que não existia. Gestão financeira pessoal séria ([[#CAPÍTULO 1 — DINHEIRO PESSOAL DO FUNDADOR|Capítulo 1 (DINHEIRO PESSOAL DO FUNDADOR)]]) vira crítica. Não gastar impulsivamente nos primeiros 12-24 meses.
 
 **Perspectiva**: fundadores que são bem-sucedidos em múltiplas empresas (serial entrepreneurs saudáveis) frequentemente descrevem 6-18 meses de "travessia do deserto" entre empresas. É processo, não fracasso.
 
@@ -2053,7 +4476,7 @@ O [[#APÊNDICE Y — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUN
 
 ### Fechamento por fracasso e lições de encerramento Fechamento por fracasso: dimensão emocional
 
-*Esta seção amplia o [[#APÊNDICE Y — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Apêndice Y]] (Saúde Mental) com tratamento específico do momento mais difícil da trajetória empreendedora: encerrar uma empresa porque não deu certo. É complementar à dimensão operacional do mesmo evento tratada no [[IGNICAO-Vol-7-Maturidade-e-Exit#APÊNDICE CW — CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO|Apêndice CW (Vol. 7)]].*
+*Esta seção amplia o [[#CAPÍTULO 2 — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Capítulo 2 (SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR)]] (Saúde Mental) com tratamento específico do momento mais difícil da trajetória empreendedora: encerrar uma empresa porque não deu certo. É complementar à dimensão operacional do mesmo evento tratada no [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9 — CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO|Capítulo 9 (CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO) (Vol. 9)]].*
 
 ### Fechamento por fracasso — o que acontece dentro do fundador
 
@@ -2073,7 +4496,7 @@ Psicologicamente: **dissonância entre o que vê e o que aceita**. Custa em sono
 
 Sinal de alerta: fundador parou de ser honesto consigo mesmo sobre o estado real da empresa. Se você não consegue dizer em voz alta "a empresa pode fechar em X meses", provavelmente está nessa fase.
 
-**[[IGNICAO-Vol-2-Validacao#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3 (Vol. 2)]], Reconhecimento forçado (dias a semanas antes):**
+**[[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 4 — DESCOBERTA DO PROBLEMA|Fase 4 (Vol. 2)]], Reconhecimento forçado (dias a semanas antes):**
 
 Evento catalisador (rodada rejeitada em definitivo, cliente grande saindo, prazo de caixa ficando curto o suficiente para exigir ação) força fundador a admitir internamente. Momento geralmente solitário, frequentemente durante noite insone, em conversa privada com cofundador, ou depois de reunião específica.
 
@@ -2081,7 +4504,7 @@ Psicologicamente: **choque contido**. Fundador ainda precisa funcionar operacion
 
 Risco nesta fase: compressão do processo emocional para "depois". Fundador decide "resolver tudo operacionalmente primeiro, depois eu desmorono". Em alguns casos funciona, em muitos, "depois" vira desmoronamento descontrolado meses à frente, quando defesas se exaurem.
 
-**[[IGNICAO-Vol-2-Validacao#FASE 4 — PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY APROFUNDADO)|Fase 4 (Vol. 2)]], Execução do fechamento (semanas a meses):**
+**[[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 5 — PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY)|Fase 5 (Vol. 2)]], Execução do fechamento (semanas a meses):**
 
 Fundador está em modo operacional intenso. Comunicando com time, investidores, credores, advogado, parceiros. Pouco tempo para processar emoção.
 
@@ -2089,7 +4512,7 @@ Psicologicamente: **adrenalina + funcionalidade + desconexão**. É comum sentir
 
 Frequentemente acompanhado de: energia compensatória (trabalhar 14h/dia encerrando coisas), apetite irregular, sono fragmentado, irritabilidade com pessoas próximas (cônjuge, filhos, família levam o impacto porque time da empresa é priorizado).
 
-**[[IGNICAO-Vol-2-Validacao#FASE 5 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 5 (Vol. 2)]], Vazio pós-encerramento (dias a semanas após):**
+**[[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 6 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 6 (Vol. 2)]], Vazio pós-encerramento (dias a semanas após):**
 
 Última reunião aconteceu, CNPJ está sendo baixado, site foi desligado, email corporativo encerrado. Pela primeira vez em anos, fundador acorda sem ter o que fazer pela empresa.
 
@@ -2099,7 +4522,7 @@ Duração típica: 2-12 semanas de intensidade aguda, outros 3-9 meses de proces
 
 Aqui é o ponto de maior risco psicológico. Fundador pode: cair em depressão clínica, isolar-se socialmente, usar álcool ou outras substâncias para anestesiar, tomar decisões pessoais impulsivas (divórcio, mudança drástica de cidade, começar novo negócio sem processar o anterior).
 
-**[[IGNICAO-Vol-2-Validacao#FASE 6 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 6 (Vol. 2)]], Reconstrução de identidade (meses a anos):**
+**[[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 7 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 7 (Vol. 3)]], Reconstrução de identidade (meses a anos):**
 
 Fundador começa a se separar da empresa-que-fechou como identidade. Reconhece aprendizados sem romantização. Começa a considerar o que vem depois.
 
@@ -2107,9 +4530,9 @@ Psicologicamente: **processo não-linear**. Dias bons e dias ruins. Gradualmente
 
 Sinais de que está acontecendo bem: fundador consegue falar sobre a empresa sem cair em dor aguda, consegue extrair lições sem autoflagelação, começa a ter curiosidade sobre próximos projetos sem pressa compulsiva, humor geral volta a níveis próximos do habitual.
 
-**[[IGNICAO-Vol-2-Validacao#FASE 7 — EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA|Fase 7 (Vol. 2)]], Reintegração (6 meses a 2+ anos):**
+**[[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 8 — EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA E DA SOLUÇÃO|Fase 8 (Vol. 3)]], Reintegração (6 meses a 2+ anos):**
 
-Fundador reassume vida profissional em formato novo. Pode ser: novo empreendimento (second-time founder, [[IGNICAO-Vol-7-Maturidade-e-Exit#APÊNDICE BF — SECOND-TIME FOUNDER|Apêndice BF (Vol. 7)]]), emprego em outra empresa (incluindo potencialmente uma que ele mesmo teria sonhado competir contra), função de investidor / advisor, pausa estruturada.
+Fundador reassume vida profissional em formato novo. Pode ser: novo empreendimento (second-time founder, [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 22 — SECOND-TIME FOUNDER|Capítulo 22 (SECOND-TIME FOUNDER) (Vol. 9)]]), emprego em outra empresa (incluindo potencialmente uma que ele mesmo teria sonhado competir contra), função de investidor / advisor, pausa estruturada.
 
 Psicologicamente: **nova identidade integrada**. Empresa que fechou torna-se parte do passado construtor de quem você é, não ferida aberta.
 
@@ -2131,7 +4554,7 @@ Fundadores brasileiros frequentemente sofrem mais com fechamento do que fundador
 
 3. **Distinguir fracasso operacional de fracasso moral.** Empresa falhou por motivos que não têm a ver com seu caráter: timing errado, mercado que mudou, competição que não foi prevista, unit economics que não fecharam. Fracasso moral seria: roubar, trair, violar ética. **Falhar é normal. Falhar com integridade é honroso.**
 
-4. **Fazer o post-mortem pessoal.** Não só "o que errei na empresa" (que é operacional, [[IGNICAO-Vol-7-Maturidade-e-Exit#APÊNDICE CW — CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO|Apêndice CW (Vol. 7)]] e AI cobrem). Mas: "o que aprendi sobre mim? o que descobri que tolero ou não tolero? em que contextos floreço? o que me desgasta?". Esse aprendizado é insumo da próxima fase da vida, mesmo que não seja empreender de novo.
+4. **Fazer o post-mortem pessoal.** Não só "o que errei na empresa" (que é operacional, [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9 — CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO|Capítulo 9 (CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO) (Vol. 9)]] e AI cobrem). Mas: "o que aprendi sobre mim? o que descobri que tolero ou não tolero? em que contextos floreço? o que me desgasta?". Esse aprendizado é insumo da próxima fase da vida, mesmo que não seja empreender de novo.
 
 #### Relacionamento próximo durante e após fechamento
 
@@ -2169,18 +4592,18 @@ Procurar ajuda não é sinal de fraqueza. É sinal de saúde e inteligência. Fu
 
 #### Segunda chance depois de fechamento
 
-O [[IGNICAO-Vol-7-Maturidade-e-Exit#APÊNDICE BF — SECOND-TIME FOUNDER|Apêndice BF (Vol. 7)]] (Second-Time Founder) cobre o lado operacional da reinvenção. Aqui, o lado psicológico:
+O [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 22 — SECOND-TIME FOUNDER|Capítulo 22 (SECOND-TIME FOUNDER) (Vol. 9)]] (Second-Time Founder) cobre o lado operacional da reinvenção. Aqui, o lado psicológico:
 
 **Quando não empreender de novo imediatamente:**
 
-- Se ainda está em [[IGNICAO-Vol-2-Validacao#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3 (Vol. 2)]] ou 4 (execução do fechamento ou vazio pós-encerramento), empreender agora vai ser reação compulsiva, não decisão.
+- Se ainda está em [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 4 — DESCOBERTA DO PROBLEMA|Fase 4 (Vol. 2)]] ou 4 (execução do fechamento ou vazio pós-encerramento), empreender agora vai ser reação compulsiva, não decisão.
 - Se dinâmica familiar está instável, nova empresa vai piorar.
 - Se saúde física/mental está comprometida, construir de dentro antes de construir fora.
 - Se não consegue fazer post-mortem honesto da anterior, vai cometer os mesmos erros em vocabulário novo.
 
 **Quando empreender de novo pode ser saudável:**
 
-- [[IGNICAO-Vol-2-Validacao#FASE 6 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 6 (Vol. 2)]] ou 6 processada com integridade.
+- [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 7 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 7 (Vol. 3)]] ou 6 processada com integridade.
 - Ideia nova vem de curiosidade genuína, não de urgência em provar algo.
 - Você consegue articular claramente o que seria diferente dessa vez (operacional e emocionalmente).
 - Pessoas próximas relevantes (cônjuge, sócios potenciais, investidores) têm confiança em você, não por mitologia mas por observação do processo recente.
@@ -2193,7 +4616,7 @@ Fracasso não obriga a empreender novamente. Empreendedorismo **não é ética d
 - Virar investidor / VC, muitos VCs brasileiros excelentes são ex-empreendedores que fecharam empresa.
 - Virar advisor / consultor, construir carreira valiosa sem risco ou intensidade de empresa.
 - Pausar, trabalhar menos, recuperar família, ler, viajar, fazer mestrado. Alguns meses ou anos de pausa estruturada dão retorno enorme se bem usados.
-- **Empresa familiar ou herança**: voltar a trabalhar no negócio da família se existir ([[IGNICAO-Vol-7-Maturidade-e-Exit#APÊNDICE BI — EMPRESA FAMILIAR E SUCESSÃO: GOVERNANÇA, DINÂMICA E PSICOLOGIA|Apêndice BI (Vol. 7)]]).
+- **Empresa familiar ou herança**: voltar a trabalhar no negócio da família se existir ([[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 2 — EMPRESA FAMILIAR E SUCESSÃO: GOVERNANÇA, DINÂMICA E PSICOLOGIA|Capítulo 2 (EMPRESA FAMILIAR E SUCESSÃO: GOVERNANÇA, DINÂMICA E PSICOLOGIA) (Vol. 9)]]).
 
 #### Exemplos de fundadores brasileiros que atravessaram fechamento e reinvenção
 
@@ -2249,7 +4672,7 @@ Outros fundadores não voltaram ao empreendedorismo depois de fechamento. Padrõ
 
 ### A saúde mental ao longo das fases — mapa do que esperar quando
 
-Esse apêndice trata de saúde mental do fundador de forma transversal. Este trecho traz um mapa específico: **qual tipo de fragilidade mental tende a aparecer em qual fase da jornada**. Ter esse mapa antecipado permite reconhecer "estou nessa zona" e pedir ajuda antes de crise aguda, em vez de atribuir cada crise à circunstância específica do momento.
+Esse capítulo trata de saúde mental do fundador de forma transversal. Este trecho traz um mapa específico: **qual tipo de fragilidade mental tende a aparecer em qual fase da jornada**. Ter esse mapa antecipado permite reconhecer "estou nessa zona" e pedir ajuda antes de crise aguda, em vez de atribuir cada crise à circunstância específica do momento.
 
 Esses padrões são observados em founders diferentes, em setores diferentes, em décadas diferentes, não são aleatórios. Conhecer o mapa reduz o isolamento que torna a experiência pior ("só eu passo por isso?"), e permite preparo específico.
 
@@ -2261,19 +4684,19 @@ Esses padrões são observados em founders diferentes, em setores diferentes, em
 
 **Fases 8-9 (Ideação/Testes), Apego excessivo à solução imaginada.** Depois de meses de pesquisa, você finalmente está construindo. O apego torna doloroso admitir quando o protótipo não funciona como imaginado. Muitos fundadores aqui adoecem de "otimismo compulsivo", insistem em caminho que os dados já refutaram. O adoecimento é negação ativa. Observadores externos (mentor, co-fundador) costumam ver antes do próprio fundador.
 
-**[[IGNICAO-Vol-3-Tracao#FASE 10 — MVP E EXPERIMENTOS DE MERCADO|Fase 10 (Vol. 3)]] (MVP), Ansiedade da primeira exposição ao mercado.** O produto está rodando. Primeiras pessoas estão usando. Medo do julgamento é universal e intenso. Alguns fundadores não dormem nas primeiras semanas pós-MVP, outros evitam olhar métricas, outros reagem excessivamente a cada feedback negativo. Forma insalubre: paralisia de decisão por excesso de input, obsessão por métricas impossibilitando trabalho normal. Técnica: uma janela diária de 30 min para revisar métricas, fora desse horário não olhar.
+**[[IGNICAO-Vol-4-Tracao-e-PMF#FASE 11 — MVP E EXPERIMENTOS DE MERCADO|Fase 11 (Vol. 4)]] (MVP), Ansiedade da primeira exposição ao mercado.** O produto está rodando. Primeiras pessoas estão usando. Medo do julgamento é universal e intenso. Alguns fundadores não dormem nas primeiras semanas pós-MVP, outros evitam olhar métricas, outros reagem excessivamente a cada feedback negativo. Forma insalubre: paralisia de decisão por excesso de input, obsessão por métricas impossibilitando trabalho normal. Técnica: uma janela diária de 30 min para revisar métricas, fora desse horário não olhar.
 
-**[[IGNICAO-Vol-3-Tracao#FASE 11 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 11 (Vol. 3)]] (Validação do Modelo), Desesperança se unit economics não fecham.** Alguns descobrem aqui que o modelo nunca ia fechar matematicamente. Outros descobrem que fecha mas exige escala grande que eles não têm capital pra alcançar. Depressão situacional é comum nesse ponto, sensação de "investi 2 anos numa coisa que não vai dar certo". Forma insalubre: ruminação prolongada, incapacidade de pivotar por apego, ou pivotagem caótica por pânico. Decisões importantes nessa fase devem passar por sanity check com pelo menos dois mentores.
+**[[IGNICAO-Vol-4-Tracao-e-PMF#FASE 12 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 12 (Vol. 4)]] (Validação do Modelo), Desesperança se unit economics não fecham.** Alguns descobrem aqui que o modelo nunca ia fechar matematicamente. Outros descobrem que fecha mas exige escala grande que eles não têm capital pra alcançar. Depressão situacional é comum nesse ponto, sensação de "investi 2 anos numa coisa que não vai dar certo". Forma insalubre: ruminação prolongada, incapacidade de pivotar por apego, ou pivotagem caótica por pânico. Decisões importantes nessa fase devem passar por sanity check com pelo menos dois mentores.
 
-**[[IGNICAO-Vol-3-Tracao#FASE 12 — PRODUCT-MARKET FIT|Fase 12 (Vol. 3)]] (PMF), Ansiedade da responsabilidade repentina.** Bom PMF vem com pressão de escala inesperada. Usuários pedem mais, investidores pedem mais, time pede direção, e você percebeu que não sabe bem como escalar o que está funcionando. Síndrome do impostor em forma madura, "eu só tive sorte, vão descobrir". Extremamente comum. Antídoto parcial: escrever o que de fato funcionou e por quê, transformar intuição tácita em lógica explícita reduz a sensação de "foi sorte".
+**[[IGNICAO-Vol-4-Tracao-e-PMF#FASE 13 — PRODUCT-MARKET FIT|Fase 13 (Vol. 4)]] (PMF), Ansiedade da responsabilidade repentina.** Bom PMF vem com pressão de escala inesperada. Usuários pedem mais, investidores pedem mais, time pede direção, e você percebeu que não sabe bem como escalar o que está funcionando. Síndrome do impostor em forma madura, "eu só tive sorte, vão descobrir". Extremamente comum. Antídoto parcial: escrever o que de fato funcionou e por quê, transformar intuição tácita em lógica explícita reduz a sensação de "foi sorte".
 
-**[[IGNICAO-Vol-4-Captacao-e-Financas#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13 (Vol. 4)]] (Estruturação), Cansaço da formalidade burocrática.** Depois de anos de trabalho criativo, a fase jurídica/tributária é monótona e te expõe a riscos (tributários, trabalhistas, contratuais) que você não viu antes. Alguns fundadores entram em desanimação passageira, "eu assinei pra isso?". Dura 3-6 meses e passa. Delegar o máximo possível dessa fase para profissionais (contador, advogado) e proteger 30-50% do tempo para trabalho de produto preserva a motivação.
+**[[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18 (Vol. 8)]] (Estruturação), Cansaço da formalidade burocrática.** Depois de anos de trabalho criativo, a fase jurídica/tributária é monótona e te expõe a riscos (tributários, trabalhistas, contratuais) que você não viu antes. Alguns fundadores entram em desanimação passageira, "eu assinei pra isso?". Dura 3-6 meses e passa. Delegar o máximo possível dessa fase para profissionais (contador, advogado) e proteger 30-50% do tempo para trabalho de produto preserva a motivação.
 
-**[[IGNICAO-Vol-5-Receita-e-Pessoas#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14 (Vol. 5)]] (Escala), Esgotamento crônico e identidade exclusivamente profissional.** Fase mais longa do manual (2-5 anos típicos) e mais propícia a burnout real. Os sintomas vêm devagar, irritabilidade, sono prejudicado, alegria reduzida, pensamento obsessivo com trabalho, relacionamentos familiares deteriorando. Fundadores frequentemente só identificam burnout depois que já estão profundamente nele. Checkpoints regulares com terapeuta (mensal ou quinzenal) funcionam melhor como prevenção do que como tratamento depois da crise.
+**[[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16 (Vol. 6)]] (Escala), Esgotamento crônico e identidade exclusivamente profissional.** Fase mais longa do manual (2-5 anos típicos) e mais propícia a burnout real. Os sintomas vêm devagar, irritabilidade, sono prejudicado, alegria reduzida, pensamento obsessivo com trabalho, relacionamentos familiares deteriorando. Fundadores frequentemente só identificam burnout depois que já estão profundamente nele. Checkpoints regulares com terapeuta (mensal ou quinzenal) funcionam melhor como prevenção do que como tratamento depois da crise.
 
-**[[IGNICAO-Vol-7-Maturidade-e-Exit#FASE 15 — REINVENÇÃO E SEGUNDA CURVA|Fase 15 (Vol. 7)]] (Reinvenção), Crise de identidade do fundador maduro.** Se a primeira curva foi bem, a próxima curva significa desconstruir parte do que te trouxe até aqui. É intelectualmente desafiador e psicologicamente doloroso. Muitos fundadores aqui ou lançam segunda curva reativa (sem convicção) ou travam na primeira. Espaço para reflexão longa, retiros, sabáticos, tempo sem agenda, é o que permite reinvenção genuína.
+**[[IGNICAO-Vol-9-Maturidade-e-Exit#FASE 19 — REINVENÇÃO E SEGUNDA CURVA|Fase 19 (Vol. 9)]] (Reinvenção), Crise de identidade do fundador maduro.** Se a primeira curva foi bem, a próxima curva significa desconstruir parte do que te trouxe até aqui. É intelectualmente desafiador e psicologicamente doloroso. Muitos fundadores aqui ou lançam segunda curva reativa (sem convicção) ou travam na primeira. Espaço para reflexão longa, retiros, sabáticos, tempo sem agenda, é o que permite reinvenção genuína.
 
-**[[IGNICAO-Vol-7-Maturidade-e-Exit#FASE 16 — EXIT STRATEGY|Fase 16 (Vol. 7)]] (Exit), Vazio pós-concretização.** O dia depois da venda assinar é, para muitos fundadores, o dia mais emocionalmente estranho da vida. Você tem dinheiro, tempo, liberdade, e não sabe o que fazer com si. Perda de identidade é literal. Depressão pós-exit é documentada academicamente. Preparação começa 12 meses antes: pensar em "o que faço 6 meses pós-exit" evita o vazio de chegar lá sem ideia.
+**[[IGNICAO-Vol-9-Maturidade-e-Exit#FASE 20 — ESTRATÉGIA DE SAÍDA (EXIT STRATEGY)|Fase 20 (Vol. 9)]] (Exit), Vazio pós-concretização.** O dia depois da venda assinar é, para muitos fundadores, o dia mais emocionalmente estranho da vida. Você tem dinheiro, tempo, liberdade, e não sabe o que fazer com si. Perda de identidade é literal. Depressão pós-exit é documentada academicamente. Preparação começa 12 meses antes: pensar em "o que faço 6 meses pós-exit" evita o vazio de chegar lá sem ideia.
 
 **Transição pós-venture (fora do manual), Adaptação à nova fase de vida.** Aposentadoria compulsória após earnout, mudança de identidade de "founder" para "investidor" ou "advisor", redefinição de propósito. Esta é a fase mais subestimada e menos documentada. Para alguns fundadores, é a mais difícil.
 
@@ -2284,21 +4707,21 @@ Esses padrões são observados em founders diferentes, em setores diferentes, em
 
 ---
 
-## APÊNDICE D — ARMADILHAS MENTAIS E VIESES
+## CAPÍTULO 3 — ARMADILHAS MENTAIS E VIESES
 
-> [!important] Relacao com o Apêndice EJ
-> D oferece um catalogo de dez vieses fundamentais com antidotos curtos e checklists por dominio (parcerias, financiamento, marca). Para o tratamento aprofundado da decisao como disciplina (Tipo 1 vs Tipo 2, SPADE, calibracao, vieses sistematicos), ver [[#APÊNDICE EJ — TOMADA DE DECISÃO COMO DISCIPLINA|Apêndice EJ]]. EJ aprofunda quatro dos vieses mais cruciais com profundidade maior. D mantem a vista panoramica e a aplicacao por dominio.
+> [!important] Relacao com o Capítulo 6 (TOMADA DE DECISÃO COMO DISCIPLINA)
+> D oferece um catalogo de dez vieses fundamentais com antidotos curtos e checklists por dominio (parcerias, financiamento, marca). Para o tratamento aprofundado da decisao como disciplina (Tipo 1 vs Tipo 2, SPADE, calibracao, vieses sistematicos), ver [[#CAPÍTULO 6 — TOMADA DE DECISÃO COMO DISCIPLINA|Capítulo 6 (TOMADA DE DECISÃO COMO DISCIPLINA)]]. EJ aprofunda quatro dos vieses mais cruciais com profundidade maior. D mantem a vista panoramica e a aplicacao por dominio.
 
-> [!note] Como usar esse apêndice
+> [!note] Como usar esse capítulo
 > Esses são os vieses que mais afetam empreendedores iniciantes. Releia em intervalos regulares. A primeira parte cobre os dez vieses cognitivos mais frequentes. As seções seguintes listam armadilhas por domínio, parcerias, financiamento, marca, founder mode, M&A, fusões e aquisições, sales enterprise, category design, PLG, product-led growth, LGPD e crise. Cada lista aponta para o apêndice que aprofunda o tema. Use como checklist de auto-diagnóstico.
 
 Os dez vieses fundamentais que merecem releitura mensal:
 
-**Viés de confirmação.** Você procura evidência que confirma sua tese e ignora o que a refuta. Antídoto curto, escreva uma tese oposta e tente defendê-la. Tratado em profundidade no [[#APÊNDICE EJ — TOMADA DE DECISÃO COMO DISCIPLINA|Apêndice EJ]].
+**Viés de confirmação.** Você procura evidência que confirma sua tese e ignora o que a refuta. Antídoto curto, escreva uma tese oposta e tente defendê-la. Tratado em profundidade no [[#CAPÍTULO 6 — TOMADA DE DECISÃO COMO DISCIPLINA|Capítulo 6 (TOMADA DE DECISÃO COMO DISCIPLINA)]].
 
-**Falácia do custo afundado.** Como você já investiu muito tempo ou dinheiro, continua mesmo quando a evidência aponta para parar. Antídoto curto, pergunte se começaria hoje do zero. Tratado em profundidade no [[#APÊNDICE EJ — TOMADA DE DECISÃO COMO DISCIPLINA|Apêndice EJ]].
+**Falácia do custo afundado.** Como você já investiu muito tempo ou dinheiro, continua mesmo quando a evidência aponta para parar. Antídoto curto, pergunte se começaria hoje do zero. Tratado em profundidade no [[#CAPÍTULO 6 — TOMADA DE DECISÃO COMO DISCIPLINA|Capítulo 6 (TOMADA DE DECISÃO COMO DISCIPLINA)]].
 
-**Viés do planejamento.** Você subestima tempo e custo sistematicamente. Antídoto curto, multiplique tempo por dois e custo por uma vez e meia. Tratado em profundidade no [[#APÊNDICE EJ — TOMADA DE DECISÃO COMO DISCIPLINA|Apêndice EJ]].
+**Viés do planejamento.** Você subestima tempo e custo sistematicamente. Antídoto curto, multiplique tempo por dois e custo por uma vez e meia. Tratado em profundidade no [[#CAPÍTULO 6 — TOMADA DE DECISÃO COMO DISCIPLINA|Capítulo 6 (TOMADA DE DECISÃO COMO DISCIPLINA)]].
 
 **Otimismo desarmado.** Você acredita que as coisas vão dar certo "de alguma forma". O antídoto é fazer pre-mortem. Imagine que o projeto falhou em dois anos. Por quê? Lide com os motivos.
 
@@ -2317,19 +4740,19 @@ Os dez vieses fundamentais que merecem releitura mensal:
 > [!warning] Sinal de alerta
 > Se você reconhece três ou mais desses vieses operando em si simultaneamente neste momento, pare e diagnostique antes de continuar tomando decisões grandes.
 
-### Armadilhas de parcerias (ver [[IGNICAO-Vol-5-Receita-e-Pessoas#APÊNDICE CX — CANAIS INDIRETOS E PARCERIAS: PARCERIAS, FRANQUIAS, CHANNEL|Apêndice CX (Vol. 5)]])
+### Armadilhas de parcerias (ver [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 6 — CANAIS INDIRETOS E PARCERIAS: PARCERIAS, FRANQUIAS, CHANNEL|Capítulo 6 (CANAIS INDIRETOS E PARCERIAS: PARCERIAS, FRANQUIAS, CHANNEL) (Vol. 6)]])
 
 Parceria com quem te faz sentir poderoso mas não move resultado. Misturar tipos de parceria no mesmo acordo. Exclusividade ampla concedida cedo demais. Parceria com corporate tradicional sem sponsor sênior. Parceria como atalho que mata founder-market-fit. Parceiro que quer dono da experiência do cliente. Não encerrar parcerias zumbis.
 
-### Armadilhas de financiamento (ver [[IGNICAO-Vol-4-Captacao-e-Financas#APÊNDICE P — FINANCIAMENTO NÃO-DILUITIVO|Apêndice P (Vol. 4)]])
+### Armadilhas de financiamento (ver [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 9 — FINANCIAMENTO NÃO-DILUITIVO|Capítulo 9 (FINANCIAMENTO NÃO-DILUITIVO) (Vol. 5)]])
 
 Confundir dívida com "dinheiro fácil". Warrants em venture debt tratados como "taxinha pequena". Ignorar covenants até violá-los. Lei do Bem sem documentação rigorosa (auto-de-infração garantido). Grant como estratégia-mãe em vez de combustível complementar. Garantia pessoal em venture debt. Antecipação crônica de recebíveis criando dependência.
 
-### Armadilhas de marca e PR (ver [[IGNICAO-Vol-5-Receita-e-Pessoas#APÊNDICE CQ — MARCA, PR E POSICIONAMENTO DE LONGO PRAZO|Apêndice CQ (Vol. 5)]])
+### Armadilhas de marca e PR (ver [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 7 — MARCA, PR E POSICIONAMENTO DE LONGO PRAZO|Capítulo 7 (MARCA, PR E POSICIONAMENTO DE LONGO PRAZO) (Vol. 6)]])
 
 Terceirizar voz do fundador para agência. PR contratado sem KPI definido. Correr atrás do viral em vez de construção cumulativa. Confundir visibilidade com credibilidade. Estudos setoriais com amostra fake (cinquenta amigos não é pesquisa). Narrativa que muda a cada trimestre. Eventos próprios caros antes da hora.
 
-### Armadilhas de founder mode e delegação (ver [[IGNICAO-Vol-5-Receita-e-Pessoas#APÊNDICE R — FOUNDER MODE, DELEGAÇÃO E QUANDO PARAR DE FAZER|Apêndice R (Vol. 5)]])
+### Armadilhas de founder mode e delegação (ver [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 10 — FOUNDER MODE, DELEGAÇÃO E QUANDO PARAR DE FAZER|Capítulo 10 (FOUNDER MODE, DELEGAÇÃO E QUANDO PARAR DE FAZER) (Vol. 6)]])
 
 Copiar modelo de CEO de empresa grande em startup pequena. Delegar para resolver desconforto pessoal (odeia finanças, contrata CFO rápido). Confundir Founder Mode com micromanagement. Operar em Founder Mode permanentemente em todas as áreas. Transitar para Manager Mode sob pressão de board sem avaliação. Não comunicar retornos táticos ao fundador Mode. Founder Mode como narrativa, Manager Mode como prática.
 
@@ -2341,7 +4764,7 @@ Copiar modelo de CEO de empresa grande em startup pequena. Delegar para resolver
 
 Pitch em discovery (é perguntar, não apresentar). Proposta antes de MEDDIC score igual ou superior a quarenta. Single-threaded (uma única pessoa como contato). Desconto como ferramenta de fechamento, sem contrapartida. Procurement tratado como obstáculo em vez de parceiro.
 
-### Armadilhas de category design (ver [[IGNICAO-Vol-2-Validacao#APÊNDICE S — CATEGORY DESIGN|Apêndice S (Vol. 2)]])
+### Armadilhas de category design (ver [[IGNICAO-Vol-2-Descoberta-e-Mercado#CAPÍTULO 3 — CATEGORY DESIGN|Capítulo 3 (CATEGORY DESIGN) (Vol. 2)]])
 
 Confundir rebranding com category design. Criar categoria sem demanda real. POV fraco ou truísmo. Guerra de definição frontal com concorrente estabelecido. Lightning Strike sem produto correspondente. Esquecer que categorias também envelhecem.
 
@@ -2349,15 +4772,15 @@ Confundir rebranding com category design. Criar categoria sem demanda real. POV 
 
 Tentar PLG em produto que exige handholding. Tier gratuito sem limitação clara (ninguém converte). Ignorar sinais PQL. Tentar vender enterprise em self-serve. PLG sem instrumentação analítica.
 
-### Armadilhas de LGPD e dados (ver [[IGNICAO-Vol-6-Engenharia-e-Juridico#APÊNDICE T — LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Apêndice T (Vol. 6)]])
+### Armadilhas de LGPD e dados (ver [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 10 — LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Capítulo 10 (LGPD, COMPLIANCE E GOVERNANÇA DE DADOS) (Vol. 8)]])
 
 LGPD como "compliance paper". Consentimento como base legal universal (é quase sempre base errada). DPO sem autonomia ou contato público. Ignorar operadores (sem DPA assinado). Assumir que SaaS "famoso" é compliant automático. Retenção eterna sem política definida. Vazamento tratado como problema só técnico, sem comunicação legal.
 
-### Armadilhas de crise (ver [[IGNICAO-Vol-7-Maturidade-e-Exit#APÊNDICE CW — CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO|Apêndice CW (Vol. 7)]])
+### Armadilhas de crise (ver [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9 — CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO|Capítulo 9 (CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO) (Vol. 9)]])
 
 Negação nas primeiras duas semanas. Otimismo tóxico com o time. Esconder da base (clientes, time, investidores). Ação errática (mudar plano a cada quarenta e oito horas). Cortar sem critério (demissões por antiguidade). Buscar salvação em investidor único. Ignorar saúde mental do fundador. Não documentar aprendizado pós-crise.
 
-### Armadilhas de captação de equity (ver [[IGNICAO-Vol-4-Captacao-e-Financas#APÊNDICE V — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Apêndice V (Vol. 4)]])
+### Armadilhas de captação de equity (ver [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) (Vol. 5)]])
 
 Captar antes de PMF sólido (destrói valor por valuation baixo mais pressão cedo). Warm intro negligenciada em favor de cold outreach como padrão. Processo serial (um investidor de cada vez) em vez de paralelização. Blefe em FOMO ("tenho cinco term sheets" quando tem um). Obsessão com valuation, ignorando termos não-financeiros como liquidation preference e anti-dilution. Advogado generalista em rodada complexa (economia de cem mil reais gera passivo de milhões). Esconder problemas em due diligence. Investor update como obrigação, não ferramenta. Board como palco do CEO, não fórum de input. Negligenciar investidores entre rodadas (só falar quando precisa). Captar da pessoa errada mesmo com cheque bom. Não rodar mock pitch antes de reuniões reais. Esquecer de preparar a próxima rodada desde o dia um da atual. Confundir valuation alto com sucesso (gera pressão insustentável em B).
 
@@ -2405,15 +4828,15 @@ Em 2006, Paul Graham escreveu um dos ensaios mais citados sobre startups, *The 1
 
 Incluo abaixo porque é uma lista com nomes concretos para padrões de falha que aparecem aqui em vários apêndices em formas dispersas. Leia como checklist periódico. Se você reconhece três ou mais em si simultaneamente, pare e diagnostique.
 
-**Sobre time e ponto de partida.** Fundador único: Graham é explícito de que um único fundador é sinal estatístico ruim. As empresas bem-sucedidas quase sempre tiveram dois ou três cofundadores. Não porque o trabalho individual seja impossível, mas porque o fato de você não ter convencido ninguém a empreender com você é sinal, a carga emocional de longo prazo é difícil demais sozinho, e você perde a dinâmica de disagreement produtivo que corrige erros. Aplicação: [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]], [[#APÊNDICE Y — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Apêndice Y]]. Localização ruim: Graham escreve do ponto de vista americano, em Silicon Valley. A versão brasileira do mesmo princípio é estar em ecossistema com densidade de talento, capital e clientes. São Paulo, Rio, Florianópolis e Recife têm densidade. Cidades menores dificultam captação, recrutamento de seniors e acesso a clientes enterprise. Não é impossível empreender fora desses hubs, mas é mais difícil. Tenha consciência do custo. Nicho marginal: escolher nicho pequeno porque "assim não tem concorrência" é armadilha clássica. Concorrência é sinal de mercado real. Ausência de concorrência frequentemente é sinal de mercado inexistente. Aplicação: [[IGNICAO-Vol-2-Validacao#FASE 5 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 5 (Vol. 2)]]. Ideia derivativa: "Twitter para veterinários", "Airbnb para piscinas", "Uber para lavanderia". A próxima empresa relevante da sua categoria não vai parecer com a anterior. Vai ser algo que ainda não tem analogia óbvia. Aplicação: [[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]].
+**Sobre time e ponto de partida.** Fundador único: Graham é explícito de que um único fundador é sinal estatístico ruim. As empresas bem-sucedidas quase sempre tiveram dois ou três cofundadores. Não porque o trabalho individual seja impossível, mas porque o fato de você não ter convencido ninguém a empreender com você é sinal, a carga emocional de longo prazo é difícil demais sozinho, e você perde a dinâmica de disagreement produtivo que corrige erros. Aplicação: [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]], [[#CAPÍTULO 2 — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Capítulo 2 (SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR)]]. Localização ruim: Graham escreve do ponto de vista americano, em Silicon Valley. A versão brasileira do mesmo princípio é estar em ecossistema com densidade de talento, capital e clientes. São Paulo, Rio, Florianópolis e Recife têm densidade. Cidades menores dificultam captação, recrutamento de seniors e acesso a clientes enterprise. Não é impossível empreender fora desses hubs, mas é mais difícil. Tenha consciência do custo. Nicho marginal: escolher nicho pequeno porque "assim não tem concorrência" é armadilha clássica. Concorrência é sinal de mercado real. Ausência de concorrência frequentemente é sinal de mercado inexistente. Aplicação: [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 6 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 6 (Vol. 2)]]. Ideia derivativa: "Twitter para veterinários", "Airbnb para piscinas", "Uber para lavanderia". A próxima empresa relevante da sua categoria não vai parecer com a anterior. Vai ser algo que ainda não tem analogia óbvia. Aplicação: [[#FASE 1 — ENCONTRAR A IDEIA|Fase 1]].
 
-**Sobre execução de desenvolvimento.** Obstinação: insistir no plano original quando os dados claramente sugerem ajuste. Diferente de persistência. Aplicação: apêndice sobre Pivot, e o conceito de "determinação flexível" em [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]]. Contratar programadores ruins: Graham é focado em tech, mas a versão geral é contratar gente errada nas primeiras dez vagas. É caro de corrigir. Os primeiros dez empregados definem cultura, ritmo, qualidade. Aplicação: Apêndices [[IGNICAO-Vol-5-Receita-e-Pessoas#APÊNDICE BN — EXECUTIVE HIRING: CONTRATAR LÍDERES SÊNIOR E C-LEVEL|BN (Vol. 5)]] e [[IGNICAO-Vol-6-Engenharia-e-Juridico#APÊNDICE CO — RECRUTAMENTO TÉCNICO EM PROFUNDIDADE|CO (Vol. 6)]]. Escolher a plataforma tecnológica errada: menos relevante hoje do que em 2006 (stacks modernas são mais flexíveis), mas o princípio subsiste. Decisões tecnológicas muito cedo, tomadas sem reversibilidade em mente, custam caro. Demorar para lançar: lançamento tardio é muito mais comum, e muito mais letal, do que lançamento cedo demais. Aplicação: [[IGNICAO-Vol-3-Tracao#FASE 10 — MVP E EXPERIMENTOS DE MERCADO|Fase 10 (Vol. 3)]], princípio "launch fast" de Startups in 13 Sentences.
+**Sobre execução de desenvolvimento.** Obstinação: insistir no plano original quando os dados claramente sugerem ajuste. Diferente de persistência. Aplicação: apêndice sobre Pivot, e o conceito de "determinação flexível" em [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]]. Contratar programadores ruins: Graham é focado em tech, mas a versão geral é contratar gente errada nas primeiras dez vagas. É caro de corrigir. Os primeiros dez empregados definem cultura, ritmo, qualidade. Aplicação: Apêndices [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 12 — EXECUTIVE HIRING: CONTRATAR LÍDERES SÊNIOR E C-LEVEL|BN (Vol. 6)]] e [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 3 — RECRUTAMENTO TÉCNICO EM PROFUNDIDADE|CO (Vol. 7)]]. Escolher a plataforma tecnológica errada: menos relevante hoje do que em 2006 (stacks modernas são mais flexíveis), mas o princípio subsiste. Decisões tecnológicas muito cedo, tomadas sem reversibilidade em mente, custam caro. Demorar para lançar: lançamento tardio é muito mais comum, e muito mais letal, do que lançamento cedo demais. Aplicação: [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 11 — MVP E EXPERIMENTOS DE MERCADO|Fase 11 (Vol. 4)]], princípio "launch fast" de Startups in 13 Sentences.
 
-**Sobre o produto e o usuário.** Lançar cedo demais: o oposto do erro anterior. Menos comum, mas existe. Produto lançado sem núcleo funcional mínimo queima reputação e dificulta relançamento. A solução é o MVP genuíno: algo que resolve um problema específico bem, mesmo que limitado. Não ter modelo de usuário-referência bem definido: "construímos para todo mundo" é outra forma de "construímos para ninguém". Aplicação: [[IGNICAO-Vol-2-Validacao#FASE 4 — PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY APROFUNDADO)|Fase 4 (Vol. 2)]]. Recusar financiamento: há momentos em que recusar termo ruim é acerto, há momentos em que recusar por orgulho ou medo de diluição é erro que mata a empresa. Saber distinguir é parte do trabalho. Aplicação: [[IGNICAO-Vol-4-Captacao-e-Financas#APÊNDICE V — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Apêndice V (Vol. 4)]]. Aceitar financiamento em excesso: o oposto. Captar muito cedo demais inflaciona valuation, cria pressão para crescer mais rápido do que o produto suporta, e dilui fundadores prematuramente. Ramen-profitable ([[IGNICAO-Vol-3-Tracao#FASE 11 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 11 (Vol. 3)]]) é antídoto parcial.
+**Sobre o produto e o usuário.** Lançar cedo demais: o oposto do erro anterior. Menos comum, mas existe. Produto lançado sem núcleo funcional mínimo queima reputação e dificulta relançamento. A solução é o MVP genuíno: algo que resolve um problema específico bem, mesmo que limitado. Não ter modelo de usuário-referência bem definido: "construímos para todo mundo" é outra forma de "construímos para ninguém". Aplicação: [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 5 — PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY)|Fase 5 (Vol. 2)]]. Recusar financiamento: há momentos em que recusar termo ruim é acerto, há momentos em que recusar por orgulho ou medo de diluição é erro que mata a empresa. Saber distinguir é parte do trabalho. Aplicação: [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) (Vol. 5)]]. Aceitar financiamento em excesso: o oposto. Captar muito cedo demais inflaciona valuation, cria pressão para crescer mais rápido do que o produto suporta, e dilui fundadores prematuramente. Ramen-profitable ([[IGNICAO-Vol-4-Tracao-e-PMF#FASE 12 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 12 (Vol. 4)]]) é antídoto parcial.
 
-**Sobre operação e foco.** Gestão ruim de investidores: não dar updates, esconder problemas, não cultivar relacionamento. Quando a crise chega, investidor que foi negligenciado não ajuda. Aplicação: [[IGNICAO-Vol-4-Captacao-e-Financas#APÊNDICE V — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Apêndice V (Vol. 4)]]. Sacrificar usuários em prol de suposto lucro: reduzir qualidade para melhorar margem quando ainda não há PMF destrói retenção, destrói boca a boca, destrói crescimento. Em startup early-stage, usuários satisfeitos são o ativo. Lucro vem depois. Não querer sujar as mãos: fundador que se recusa a fazer vendas, suporte, conversas difíceis. Aplicação: Faça Coisas Que Não Escalam ([[IGNICAO-Vol-3-Tracao#FASE 10 — MVP E EXPERIMENTOS DE MERCADO|Fase 10 (Vol. 3)]]). Brigas entre cofundadores: conflito societário que não se resolve é causa comum de morte de startup. Aplicação: [[#APÊNDICE Y — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Apêndice Y]], seções 4 e 5.
+**Sobre operação e foco.** Gestão ruim de investidores: não dar updates, esconder problemas, não cultivar relacionamento. Quando a crise chega, investidor que foi negligenciado não ajuda. Aplicação: [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) (Vol. 5)]]. Sacrificar usuários em prol de suposto lucro: reduzir qualidade para melhorar margem quando ainda não há PMF destrói retenção, destrói boca a boca, destrói crescimento. Em startup early-stage, usuários satisfeitos são o ativo. Lucro vem depois. Não querer sujar as mãos: fundador que se recusa a fazer vendas, suporte, conversas difíceis. Aplicação: Faça Coisas Que Não Escalam ([[IGNICAO-Vol-4-Tracao-e-PMF#FASE 11 — MVP E EXPERIMENTOS DE MERCADO|Fase 11 (Vol. 4)]]). Brigas entre cofundadores: conflito societário que não se resolve é causa comum de morte de startup. Aplicação: [[#CAPÍTULO 2 — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Capítulo 2 (SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR)]], seções 4 e 5.
 
-**Sobre energia e esforço.** Esforço parcial: tratar a startup como projeto paralelo, manter emprego, dividir energia. Graham é enfático: a maioria das startups que poderiam ter dado certo morreu por não receber esforço total. Se não é possível esforço total agora, espere o momento em que seja. Ficar sem dinheiro: causa imediata mais comum de morte. Graham argumenta que a causa subjacente é geralmente uma das outras dezessete, mas ficar sem caixa é o desfecho mecânico. Gestão de caixa é disciplina a ser aprendida, não improvisada. Aplicação: [[IGNICAO-Vol-3-Tracao#FASE 11 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 11 (Vol. 3)]], [[IGNICAO-Vol-3-Tracao#APÊNDICE AT — GESTÃO DE CAIXA EM PROFUNDIDADE|Apêndice AT (Vol. 3)]].
+**Sobre energia e esforço.** Esforço parcial: tratar a startup como projeto paralelo, manter emprego, dividir energia. Graham é enfático: a maioria das startups que poderiam ter dado certo morreu por não receber esforço total. Se não é possível esforço total agora, espere o momento em que seja. Ficar sem dinheiro: causa imediata mais comum de morte. Graham argumenta que a causa subjacente é geralmente uma das outras dezessete, mas ficar sem caixa é o desfecho mecânico. Gestão de caixa é disciplina a ser aprendida, não improvisada. Aplicação: [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 12 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 12 (Vol. 4)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 4 — GESTÃO DE CAIXA EM PROFUNDIDADE|Capítulo 4 (GESTÃO DE CAIXA EM PROFUNDIDADE) (Vol. 5)]].
 
 > [!quote] A síntese de Graham
 > "Num sentido, só há um erro que mata startups: não fazer algo que as pessoas querem. Se você faz algo que as pessoas querem, provavelmente vai ficar bem, faça o que mais fizer. Se não faz algo que as pessoas querem, está morto, faça o que mais fizer."
@@ -2425,11 +4848,17 @@ Os outros dezessete são apenas descrições de caminhos pelos quais você chega
 
 ---
 
-## APÊNDICE CS — BOOTSTRAP vs VENTURE CAPITAL: A ESCOLHA FUNDACIONAL
+### LEITURAS E REFERÊNCIAS COMPLEMENTARES
 
-A literatura de empreendedorismo tem viés forte para a narrativa do venture capital (capital de risco institucional). A maioria dos livros assume que você vai captar. Fala em "rodada seed (semente)", "Série A" e "IPO (abertura de capital em bolsa) como exit (saída)". E apresenta bootstrapping (financiar com recursos próprios) como opção marginal, ou como consolação para quem não conseguiu investidor. Este apêndice inverte essa premissa. A decisão entre crescer com capital próprio (ou similar) e crescer com capital institucional externo é uma das mais consequentes da trajetória. Tomá-la por default (padrão automático), "todo mundo capta, eu vou captar", produz erros caros e crescimentos inadequados ao tipo de negócio.
+*Thinking, Fast and Slow*, de Daniel Kahneman (heurísticas, vieses, sistemas um e dois). *Poor Charlie's Almanack*, de Charlie Munger (inversão, mental models). *Superforecasting*, de Philip Tetlock e Dan Gardner (previsão com rigor). Pre-Mortem, conceito original de Gary Klein (artigos acadêmicos disponíveis). *Playing to Win*, de A.G. Lafley e Roger Martin (origem de "what would have to be true?").
 
-Este apêndice trata bootstrap como opção séria. VC (venture capital) como opção séria. E de como decidir entre as duas com clareza, em vez de por pressão social do ecossistema.
+---
+
+## CAPÍTULO 4 — BOOTSTRAP vs VENTURE CAPITAL: A ESCOLHA FUNDACIONAL
+
+A literatura de empreendedorismo tem viés forte para a narrativa do venture capital (capital de risco institucional). A maioria dos livros assume que você vai captar. Fala em "rodada seed (semente)", "Série A" e "IPO (abertura de capital em bolsa) como exit (saída)". E apresenta bootstrapping (financiar com recursos próprios) como opção marginal, ou como consolação para quem não conseguiu investidor. Este capítulo inverte essa premissa. A decisão entre crescer com capital próprio (ou similar) e crescer com capital institucional externo é uma das mais consequentes da trajetória. Tomá-la por default (padrão automático), "todo mundo capta, eu vou captar", produz erros caros e crescimentos inadequados ao tipo de negócio.
+
+Este capítulo trata bootstrap como opção séria. VC (venture capital) como opção séria. E de como decidir entre as duas com clareza, em vez de por pressão social do ecossistema.
 
 ### Definições práticas
 
@@ -2586,9 +5015,9 @@ Fale com três a cinco fundadores que escolheram cada caminho (idealmente dois d
 
 ---
 
-## APÊNDICE CN — DIVERSIDADE DE JORNADAS: CASOS ALÉM DO CÂNONE
+## CAPÍTULO 5 — DIVERSIDADE DE JORNADAS: CASOS ALÉM DO CÂNONE
 
-O cânone do empreendedorismo brasileiro tende a girar em torno de um conjunto pequeno de casos visíveis: Nubank, iFood, Stone, Wellhub, QuintoAndar, XP, Mercado Livre, Magalu. Esses casos aparecem repetidamente neste livro porque são bem documentados, têm dados públicos confiáveis e cobrem arquétipos úteis. Mas o cânone também é estreito, dominado por fundadores homens brancos de São Paulo, predominantemente em tecnologia. Este apêndice amplia o repertório de propósito.
+O cânone do empreendedorismo brasileiro tende a girar em torno de um conjunto pequeno de casos visíveis: Nubank, iFood, Stone, Wellhub, QuintoAndar, XP, Mercado Livre, Magalu. Esses casos aparecem repetidamente neste livro porque são bem documentados, têm dados públicos confiáveis e cobrem arquétipos úteis. Mas o cânone também é estreito, dominado por fundadores homens brancos de São Paulo, predominantemente em tecnologia. Este capítulo amplia o repertório de propósito.
 
 ### Mulheres fundadoras no Brasil
 
@@ -2682,41 +5111,38 @@ IA, e futuro do trabalho. Empresas construindo IA que substitui humanos em setor
 
 Os casos listados aqui são apontamentos. Não estudos de caso completos. O objetivo é ampliar o repertório do leitor para além do cânone concentrado. Não fornecer profundidade sobre cada um. Para aprofundamento. Documentários, livros biográficos, entrevistas em podcasts (especialmente *Trip Nordeste*, *Café com Capital*, *StartSe*, *Flow*, *Cheddar*) oferecem material rico sobre trajetórias específicas. Bases como Distrito, Endeavor Insights, Instituto Empreender Endeavor, relatórios da ABVCAP, e publicações do Sebrae, dão dados agregados e casos documentados em profundidade.
 
-O livro poderia ter sido construído em torno de casos fora do cânone. Não foi. Por opção editorial do autor. O cânone dá referências amplamente reconhecíveis, e comparáveis. Esse apêndice reconhece o limite dessa escolha, e oferece rota de expansão.
+O livro poderia ter sido construído em torno de casos fora do cânone. Não foi. Por opção editorial do autor. O cânone dá referências amplamente reconhecíveis, e comparáveis. Esse capítulo reconhece o limite dessa escolha, e oferece rota de expansão.
 
 ---
 
-# COGNIÇÃO, DECISÃO, COMUNICAÇÃO E PRODUTIVIDADE COM IA
+# COGNIÇÃO, DECISÃO, COMUNICAÇÃO E PRODUTIVIDADE COM IA (CAPÍTULOS 6 A 11)
+
+### Arquitetura deste Domínio: O Sistema Operacional Cognitivo, Comunicacional e de IA do Fundador (Capítulos 6 a 11)
+
+No estágio inicial, a startup não tem marca consolidada, orçamento de mídia nem dezenas de engenheiros. Os únicos multiplicadores de alavancagem disponíveis são **a qualidade das decisões do fundador, sua capacidade de persuadir sem autoridade formal (clientes, talentos, parceiros) e o uso intensivo de Inteligência Artificial como força de trabalho ampliada**.
+
+Estes seis capítulos constroem essa alavancagem individual:
+
+- **Decisão sob incerteza ([[#CAPÍTULO 6 — TOMADA DE DECISÃO COMO DISCIPLINA|Capítulo 6]]):** Como classificar decisões reversíveis vs. irreversíveis (Tipo 1 e Tipo 2), montar árvores de valor esperado e criar diários de decisão para calibrar seu julgamento ao longo do tempo.
+- **Persuasão, escrita e fala ([[#CAPÍTULO 7 — INFLUÊNCIA E PERSUASÃO SEM AUTORIDADE FORMAL|Capítulo 7]], [[#CAPÍTULO 8 — COMUNICAÇÃO ESCRITA PARA NEGÓCIOS|Capítulo 8]] e [[#CAPÍTULO 9 — APRESENTAÇÃO E FALA EM PÚBLICO|Capítulo 9]]):** Como vender uma visão quando você ainda não tem produto pronto, escrever memorandos e *cold emails* que recebem resposta de decisores ocupados e apresentar sua tese com clareza cirúrgica.
+- **IA como exército de um homem só ([[#CAPÍTULO 10 — IA GENERATIVA COMO ACELERADOR DO EMPREENDEDOR (2026)|Capítulo 10]] e [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#C|Capítulo 11 (Vol. 10)]]):** Como configurar fluxos de pesquisa, síntese, prototipagem e análise estratégica com LLMs e agentes para multiplicar por 5x a velocidade das Fases 0 a 3.
 
 ---
 
-### Arquitetura deste Domínio: O Sistema Operacional Cognitivo e de Execução Pessoal
+## CAPÍTULO 6 — TOMADA DE DECISÃO COMO DISCIPLINA
 
-No início da jornada, a startup não tem processos, marca, capital ou equipe: toda a alavancagem da empresa é a capacidade cognitiva, persuasiva e produtiva dos fundadores. Os seis apêndices deste bloco (**EJ, EK, EW, EX, I e CT**) compõem o "sistema operacional individual" do empreendedor contemporâneo.
-
-Eles operam em cadeia: primeiro, você estrutura **como decide sob incerteza** ([[#APÊNDICE EJ — TOMADA DE DECISÃO COMO DISCIPLINA|Apêndice EJ]]), separando decisões reversíveis (Tipo 2, rápidas) de irreversíveis (Tipo 1, lentas e estruturadas). Decidir, porém, não basta quando você não tem poder hierárquico sobre clientes, investidores, candidatos ou parceiros — por isso a decisão precisa se traduzir em **influência sem autoridade formal** ([[#APÊNDICE EK — INFLUÊNCIA E PERSUASÃO SEM AUTORIDADE FORMAL|Apêndice EK]]), **comunicação escrita clara e assíncrona** ([[#APÊNDICE EW — COMUNICAÇÃO ESCRITA PARA NEGÓCIOS|Apêndice EW]]) e **fala em público de alta conversão** ([[#APÊNDICE EX — APRESENTAÇÃO E FALA EM PÚBLICO|Apêndice EX]]). Fechando o bloco, os **Apêndices I e CT** mostram como multiplicar a velocidade de pesquisa, síntese, escrita e crítica estratégica usando **IA generativa como acelerador e co-piloto diário do fundador**.
-
-> [!tip] Roteiro de leitura e instrumentos conectados
-> - **Travado em um dilema estratégico:** Abra o [[#APÊNDICE EJ — TOMADA DE DECISÃO COMO DISCIPLINA|Apêndice EJ]] e combine com Premortem / Red Team (BG.5.8), Regret Minimization / 10-10-10 (BG.5.9) e FMEA (BG.5.10) no **Volume 9**.
-> - **Preparando pitch, memo de investimento ou proposta comercial:** Combine [[#APÊNDICE EW — COMUNICAÇÃO ESCRITA PARA NEGÓCIOS|Apêndice EW]] (estrutura SCQA e Pirâmide de Minto) com [[#APÊNDICE EX — APRESENTAÇÃO E FALA EM PÚBLICO|Apêndice EX]] e o esqueleto A.17 no **Volume 10**.
-> - **Montando sua rotina de trabalho com IA:** Leia [[#APÊNDICE I — IA GENERATIVA COMO ACELERADOR DO EMPREENDEDOR (2026)|Apêndice I]] (visão de alavancagem por fase) seguido do [[#APÊNDICE CT — IA COMO CO-PILOTO DO FUNDADOR (2026)|Apêndice CT]] (workflows práticos de sparring, síntese e automação pessoal).
-
----
-
-## APÊNDICE EJ — TOMADA DE DECISÃO COMO DISCIPLINA
-
-> [!important] Relacao com o Apêndice D
-> EJ trata decisao como disciplina, com vieses sistematicos, SPADE, calibracao e tipologia Tipo 1 vs Tipo 2. Para o catalogo panoramico de dez vieses fundamentais com antidotos curtos e checklists por dominio especifico, ver [[#APÊNDICE D — ARMADILHAS MENTAIS E VIESES|Apêndice D]].
+> [!important] Relacao com o Capítulo 3 (ARMADILHAS MENTAIS E VIESES)
+> EJ trata decisao como disciplina, com vieses sistematicos, SPADE, calibracao e tipologia Tipo 1 vs Tipo 2. Para o catalogo panoramico de dez vieses fundamentais com antidotos curtos e checklists por dominio especifico, ver [[#CAPÍTULO 3 — ARMADILHAS MENTAIS E VIESES|Capítulo 3 (ARMADILHAS MENTAIS E VIESES)]].
 
 > [!note] Nota
-> Esse apêndice integra pesquisa de Daniel Kahneman (Thinking, Fast and Slow), Annie Duke (Thinking in Bets), o framework SPADE — Setting, People, Alternatives, Decide, Explain — de Gokul Rajaram, e práticas de decision-making (tomada de decisão) de organizações de alta performance, com adaptação ao contexto do fundador.
+> Esse capítulo integra pesquisa de Daniel Kahneman (Thinking, Fast and Slow), Annie Duke (Thinking in Bets), o framework SPADE — Setting, People, Alternatives, Decide, Explain — de Gokul Rajaram, e práticas de decision-making (tomada de decisão) de organizações de alta performance, com adaptação ao contexto do fundador.
 
 Fundadores tomam centenas de decisões por semana. A maioria é trivial. Algumas são irreversíveis. O problema não é o volume. É a incapacidade de distinguir entre elas e de proteger as que mais importam de processos ruins.
 
 > [!important] Qualidade de decisão não é qualidade de resultado
 > Decisão boa pode ter resultado ruim, azar. Decisão ruim pode ter resultado bom, sorte. O fundador que confunde os dois para de aprender. Julgar a qualidade da decisão pelo resultado é o erro epistemológico mais caro que um fundador comete.
 
-### O que esse apêndice cobre
+### O que esse capítulo cobre
 
 Cinco dimensões integradas.
 
@@ -2957,30 +5383,30 @@ Registrar. Toda decisão Tipo 1 deve ser registrada: o que foi decidido, quem de
 
 ### Ver também
 
-[[IGNICAO-Vol-3-Tracao#APÊNDICE DS — NEGOCIAÇÃO COMO DISCIPLINA|Apêndice DS — Negociação (Vol. 3)]], [[#APÊNDICE EK — INFLUÊNCIA E PERSUASÃO SEM AUTORIDADE FORMAL|Apêndice EK — Influência]], [[IGNICAO-Vol-6-Engenharia-e-Juridico#APÊNDICE DW — MANAGEMENT PARA O FUNDADOR TÉCNICO|Apêndice DW — Management (Vol. 6)]], [[IGNICAO-Vol-2-Validacao#APÊNDICE G — FRAMEWORK DE DECISÃO POR GATES (PROBLEM CORE + SCALE LEVERS + EXPLORATORY)|Apêndice G — Framework de Decisão por Gates (Vol. 2)]]
+[[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 11 — NEGOCIAÇÃO COMO DISCIPLINA|Capítulo 11 — Negociação (Vol. 4)]], [[#CAPÍTULO 7 — INFLUÊNCIA E PERSUASÃO SEM AUTORIDADE FORMAL|Capítulo 7 — Influência]], [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 2 — MANAGEMENT PARA O FUNDADOR TÉCNICO|Capítulo 2 — Management (Vol. 7)]], [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 2 — FRAMEWORK DE DECISÃO POR GATES (PROBLEM CORE + SCALE LEVERS + EXPLORATORY)|Capítulo 2 — Framework de Decisão por Gates (Vol. 3)]]
 
 ---
 
-## APÊNDICE EK — INFLUÊNCIA E PERSUASÃO SEM AUTORIDADE FORMAL
+## CAPÍTULO 7 — INFLUÊNCIA E PERSUASÃO SEM AUTORIDADE FORMAL
 
 > [!abstract] Onde este apendice se posiciona no bloco de comunicacao
 > O livro tem sete apendices de comunicacao com territorios distintos,
-> - [[IGNICAO-Vol-5-Receita-e-Pessoas#APÊNDICE BM — COMUNICAÇÃO PÚBLICA DO FUNDADOR: NARRATIVA, IMPRENSA E PORTA-VOZ|BM (Vol. 5)]], narrativa publica e imprensa
-> - [[IGNICAO-Vol-5-Receita-e-Pessoas#APÊNDICE CY — MARCA PESSOAL DO FUNDADOR: DISTRIBUIÇÃO, AUTORIDADE E CUSTO DE REPUTAÇÃO|CY (Vol. 5)]], marca pessoal e canais proprios
-> - [[IGNICAO-Vol-6-Engenharia-e-Juridico#APÊNDICE DZ — COMUNICAÇÃO INTERNA|DZ (Vol. 6)]], comunicacao com o time
-> - [[#APÊNDICE EW — COMUNICAÇÃO ESCRITA PARA NEGÓCIOS|EW]], escrita executiva (memo, update, postmortem)
-> - [[#APÊNDICE EX — APRESENTAÇÃO E FALA EM PÚBLICO|EX]], fala em publico (pitch, all-hands, board)
-> - [[#APÊNDICE EK — INFLUÊNCIA E PERSUASÃO SEM AUTORIDADE FORMAL|EK]], persuasao sem autoridade
-> - [[IGNICAO-Vol-7-Maturidade-e-Exit#APÊNDICE EV — COMUNICAÇÃO EM CRISE|EV (Vol. 7)]], comunicacao em crise
+> - [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 8 — COMUNICAÇÃO PÚBLICA DO FUNDADOR: NARRATIVA, IMPRENSA E PORTA-VOZ|BM (Vol. 6)]], narrativa publica e imprensa
+> - [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 9 — MARCA PESSOAL DO FUNDADOR: DISTRIBUIÇÃO, AUTORIDADE E CUSTO DE REPUTAÇÃO|CY (Vol. 6)]], marca pessoal e canais proprios
+> - [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 10 — COMUNICAÇÃO INTERNA|DZ (Vol. 7)]], comunicacao com o time
+> - [[#CAPÍTULO 8 — COMUNICAÇÃO ESCRITA PARA NEGÓCIOS|EW]], escrita executiva (memo, update, postmortem)
+> - [[#CAPÍTULO 9 — APRESENTAÇÃO E FALA EM PÚBLICO|EX]], fala em publico (pitch, all-hands, board)
+> - [[#CAPÍTULO 7 — INFLUÊNCIA E PERSUASÃO SEM AUTORIDADE FORMAL|EK]], persuasao sem autoridade
+> - [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 10 — COMUNICAÇÃO EM CRISE|EV (Vol. 9)]], comunicacao em crise
 >
 > Este apendice cobre influencia e persuasao do fundador sem autoridade formal sobre as partes (investidor, candidato, cliente, co-fundador). Para os outros territorios, ver acima.
 
 > [!note] Nota editorial
-> Esse apêndice cobre princípios de persuasão e influência aplicados ao contexto do fundador. As referências a Robert Cialdini baseiam-se em obra acadêmica publicada ("Influence: The Psychology of Persuasion", 1984, e pesquisas posteriores). Cialdini adicionou um setimo, Unidade, em *Pre-Suasion* (2016), tratando da influencia atraves de identidade compartilhada (somos do mesmo grupo). Aplicações contextuais são do autor.
+> Esse capítulo cobre princípios de persuasão e influência aplicados ao contexto do fundador. As referências a Robert Cialdini baseiam-se em obra acadêmica publicada ("Influence: The Psychology of Persuasion", 1984, e pesquisas posteriores). Cialdini adicionou um setimo, Unidade, em *Pre-Suasion* (2016), tratando da influencia atraves de identidade compartilhada (somos do mesmo grupo). Aplicações contextuais são do autor.
 
 O fundador não tem o poder que um executivo corporativo tem. Não pode obrigar investidor a assinar term sheet (carta de intenções de investimento). Não pode forçar candidato top a aceitar oferta. Não pode compelir cliente grande a trocar fornecedor estabelecido. Não pode impor ao co-fundador uma visão que ele rejeita. Em todas essas situações, o único instrumento disponível é influência, a capacidade de mover a ação de outro sem coerção.
 
-Influência não é manipulação. A distinção importa e a seção de ética deste apêndice trata dela. Antes, é preciso entender os mecanismos que de fato movem pessoas, porque ignorá-los não torna o fundador mais ético, só menos eficaz.
+Influência não é manipulação. A distinção importa e a seção de ética deste capítulo trata dela. Antes, é preciso entender os mecanismos que de fato movem pessoas, porque ignorá-los não torna o fundador mais ético, só menos eficaz.
 
 ### A situação estrutural do fundador
 
@@ -3253,7 +5679,7 @@ Além dos casos individuais onde a influência não funciona, há padrões recor
 | Convencer co-fundador | Escuta ativa, experimento | Argumentar em vez de explorar juntos |
 
 > [!important] Influência requer investimento de tempo
-> Os princípios descritos neste apêndice não funcionam como atalho de última hora. Reciprocidade criada na semana do pitch não tem o mesmo peso que reciprocidade construída em seis meses. Relacionamento com candidato top cultivado ao longo de trimestres fecha oferta que candidato abordado frio rejeita. O fundador que trata influência como habilidade de longo prazo, e não como técnica de situação, acumula capital que transforma cada interação seguinte.
+> Os princípios descritos neste capítulo não funcionam como atalho de última hora. Reciprocidade criada na semana do pitch não tem o mesmo peso que reciprocidade construída em seis meses. Relacionamento com candidato top cultivado ao longo de trimestres fecha oferta que candidato abordado frio rejeita. O fundador que trata influência como habilidade de longo prazo, e não como técnica de situação, acumula capital que transforma cada interação seguinte.
 
 ### Métricas e sinais de desenvolvimento
 
@@ -3270,26 +5696,26 @@ Influência é habilidade difícil de medir diretamente, mas há indicadores obs
 
 ### Ver também
 
-[[IGNICAO-Vol-3-Tracao#APÊNDICE DS — NEGOCIAÇÃO COMO DISCIPLINA|Apêndice DS (Vol. 3)]] — Negociação. [[#APÊNDICE EJ — TOMADA DE DECISÃO COMO DISCIPLINA|Apêndice EJ]] — Tomada de Decisão. [[#APÊNDICE EW — COMUNICAÇÃO ESCRITA PARA NEGÓCIOS|Apêndice EW]] — Comunicação Escrita. [[#APÊNDICE EX — APRESENTAÇÃO E FALA EM PÚBLICO|Apêndice EX]] — Apresentação. [[IGNICAO-Vol-5-Receita-e-Pessoas#APÊNDICE BM — COMUNICAÇÃO PÚBLICA DO FUNDADOR: NARRATIVA, IMPRENSA E PORTA-VOZ|Apêndice BM (Vol. 5)]] — Comunicação pública.
+[[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 11 — NEGOCIAÇÃO COMO DISCIPLINA|Capítulo 11 (NEGOCIAÇÃO COMO DISCIPLINA) (Vol. 4)]] — Negociação. [[#CAPÍTULO 6 — TOMADA DE DECISÃO COMO DISCIPLINA|Capítulo 6 (TOMADA DE DECISÃO COMO DISCIPLINA)]] — Tomada de Decisão. [[#CAPÍTULO 8 — COMUNICAÇÃO ESCRITA PARA NEGÓCIOS|Capítulo 8 (COMUNICAÇÃO ESCRITA PARA NEGÓCIOS)]] — Comunicação Escrita. [[#CAPÍTULO 9 — APRESENTAÇÃO E FALA EM PÚBLICO|Capítulo 9 (APRESENTAÇÃO E FALA EM PÚBLICO)]] — Apresentação. [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 8 — COMUNICAÇÃO PÚBLICA DO FUNDADOR: NARRATIVA, IMPRENSA E PORTA-VOZ|Capítulo 8 (COMUNICAÇÃO PÚBLICA DO FUNDADOR: NARRATIVA, IMPRENSA E PORTA-VOZ) (Vol. 6)]] — Comunicação pública.
 
 ---
 
-## APÊNDICE EW — COMUNICAÇÃO ESCRITA PARA NEGÓCIOS
+## CAPÍTULO 8 — COMUNICAÇÃO ESCRITA PARA NEGÓCIOS
 
 > [!abstract] Onde este apendice se posiciona no bloco de comunicacao
 > O livro tem sete apendices de comunicacao com territorios distintos,
-> - [[IGNICAO-Vol-5-Receita-e-Pessoas#APÊNDICE BM — COMUNICAÇÃO PÚBLICA DO FUNDADOR: NARRATIVA, IMPRENSA E PORTA-VOZ|BM (Vol. 5)]], narrativa publica e imprensa
-> - [[IGNICAO-Vol-5-Receita-e-Pessoas#APÊNDICE CY — MARCA PESSOAL DO FUNDADOR: DISTRIBUIÇÃO, AUTORIDADE E CUSTO DE REPUTAÇÃO|CY (Vol. 5)]], marca pessoal e canais proprios
-> - [[IGNICAO-Vol-6-Engenharia-e-Juridico#APÊNDICE DZ — COMUNICAÇÃO INTERNA|DZ (Vol. 6)]], comunicacao com o time
-> - [[#APÊNDICE EW — COMUNICAÇÃO ESCRITA PARA NEGÓCIOS|EW]], escrita executiva (memo, update, postmortem)
-> - [[#APÊNDICE EX — APRESENTAÇÃO E FALA EM PÚBLICO|EX]], fala em publico (pitch, all-hands, board)
-> - [[#APÊNDICE EK — INFLUÊNCIA E PERSUASÃO SEM AUTORIDADE FORMAL|EK]], persuasao sem autoridade
-> - [[IGNICAO-Vol-7-Maturidade-e-Exit#APÊNDICE EV — COMUNICAÇÃO EM CRISE|EV (Vol. 7)]], comunicacao em crise
+> - [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 8 — COMUNICAÇÃO PÚBLICA DO FUNDADOR: NARRATIVA, IMPRENSA E PORTA-VOZ|BM (Vol. 6)]], narrativa publica e imprensa
+> - [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 9 — MARCA PESSOAL DO FUNDADOR: DISTRIBUIÇÃO, AUTORIDADE E CUSTO DE REPUTAÇÃO|CY (Vol. 6)]], marca pessoal e canais proprios
+> - [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 10 — COMUNICAÇÃO INTERNA|DZ (Vol. 7)]], comunicacao com o time
+> - [[#CAPÍTULO 8 — COMUNICAÇÃO ESCRITA PARA NEGÓCIOS|EW]], escrita executiva (memo, update, postmortem)
+> - [[#CAPÍTULO 9 — APRESENTAÇÃO E FALA EM PÚBLICO|EX]], fala em publico (pitch, all-hands, board)
+> - [[#CAPÍTULO 7 — INFLUÊNCIA E PERSUASÃO SEM AUTORIDADE FORMAL|EK]], persuasao sem autoridade
+> - [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 10 — COMUNICAÇÃO EM CRISE|EV (Vol. 9)]], comunicacao em crise
 >
-> Este apendice cobre escrita executiva (memo, update, postmortem) como instrumento de decisao e clareza de raciocinio. Este apendice e o par escrito de [[#APÊNDICE EX — APRESENTAÇÃO E FALA EM PÚBLICO|Apêndice EX]]. O fundador completo domina os dois. Para os outros territorios, ver acima.
+> Este apendice cobre escrita executiva (memo, update, postmortem) como instrumento de decisao e clareza de raciocinio. Este apendice e o par escrito de [[#CAPÍTULO 9 — APRESENTAÇÃO E FALA EM PÚBLICO|Capítulo 9 (APRESENTAÇÃO E FALA EM PÚBLICO)]]. O fundador completo domina os dois. Para os outros territorios, ver acima.
 
 > [!note] Nota editorial
-> Esse apêndice trata de comunicação escrita como disciplina operacional em startups. Referências a práticas de empresas como Amazon, Stripe e GitLab baseiam-se em materiais públicos: handbooks, blogs de cultura organizacional e entrevistas com executivos. Não há vínculo comercial ou editorial com as organizações citadas.
+> Esse capítulo trata de comunicação escrita como disciplina operacional em startups. Referências a práticas de empresas como Amazon, Stripe e GitLab baseiam-se em materiais públicos: handbooks, blogs de cultura organizacional e entrevistas com executivos. Não há vínculo comercial ou editorial com as organizações citadas.
 
 Empresas com cultura escrita forte tomam decisões melhores. A hipótese parece abstrata, mas o mecanismo é concreto, escrever força clareza de raciocínio. Você só descobre que não entende algo de verdade quando tenta explicar por escrito. Reunião permite que ambiguidade passe sem ser detectada. Texto exige que a ambiguidade se resolva antes de aparecer na tela.
 
@@ -3635,26 +6061,26 @@ Quando publicar internamente: dentro de 72 horas após resolução do incidente.
 
 ### Ver também
 
-[[IGNICAO-Vol-6-Engenharia-e-Juridico#APÊNDICE DZ — COMUNICAÇÃO INTERNA|Apêndice DZ (Vol. 6)]] — Comunicação Interna. [[#APÊNDICE EX — APRESENTAÇÃO E FALA EM PÚBLICO|Apêndice EX]] — Apresentação. [[#APÊNDICE EK — INFLUÊNCIA E PERSUASÃO SEM AUTORIDADE FORMAL|Apêndice EK]] — Influência. [[IGNICAO-Vol-4-Captacao-e-Financas#APÊNDICE DD — INVESTOR RELATIONS PÓS-RODADA|Apêndice DD (Vol. 4)]] — Investor Relations. [[IGNICAO-Vol-5-Receita-e-Pessoas#APÊNDICE BM — COMUNICAÇÃO PÚBLICA DO FUNDADOR: NARRATIVA, IMPRENSA E PORTA-VOZ|Apêndice BM (Vol. 5)]] — Comunicação pública e imprensa.
+[[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 10 — COMUNICAÇÃO INTERNA|Capítulo 10 (COMUNICAÇÃO INTERNA) (Vol. 7)]] — Comunicação Interna. [[#CAPÍTULO 9 — APRESENTAÇÃO E FALA EM PÚBLICO|Capítulo 9 (APRESENTAÇÃO E FALA EM PÚBLICO)]] — Apresentação. [[#CAPÍTULO 7 — INFLUÊNCIA E PERSUASÃO SEM AUTORIDADE FORMAL|Capítulo 7 (INFLUÊNCIA E PERSUASÃO SEM AUTORIDADE FORMAL)]] — Influência. [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 13 — INVESTOR RELATIONS PÓS-RODADA|Capítulo 13 (INVESTOR RELATIONS PÓS-RODADA) (Vol. 5)]] — Investor Relations. [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 8 — COMUNICAÇÃO PÚBLICA DO FUNDADOR: NARRATIVA, IMPRENSA E PORTA-VOZ|Capítulo 8 (COMUNICAÇÃO PÚBLICA DO FUNDADOR: NARRATIVA, IMPRENSA E PORTA-VOZ) (Vol. 6)]] — Comunicação pública e imprensa.
 
 ---
 
-## APÊNDICE EX — APRESENTAÇÃO E FALA EM PÚBLICO
+## CAPÍTULO 9 — APRESENTAÇÃO E FALA EM PÚBLICO
 
 > [!abstract] Onde este apendice se posiciona no bloco de comunicacao
 > O livro tem sete apendices de comunicacao com territorios distintos,
-> - [[IGNICAO-Vol-5-Receita-e-Pessoas#APÊNDICE BM — COMUNICAÇÃO PÚBLICA DO FUNDADOR: NARRATIVA, IMPRENSA E PORTA-VOZ|BM (Vol. 5)]], narrativa publica e imprensa
-> - [[IGNICAO-Vol-5-Receita-e-Pessoas#APÊNDICE CY — MARCA PESSOAL DO FUNDADOR: DISTRIBUIÇÃO, AUTORIDADE E CUSTO DE REPUTAÇÃO|CY (Vol. 5)]], marca pessoal e canais proprios
-> - [[IGNICAO-Vol-6-Engenharia-e-Juridico#APÊNDICE DZ — COMUNICAÇÃO INTERNA|DZ (Vol. 6)]], comunicacao com o time
-> - [[#APÊNDICE EW — COMUNICAÇÃO ESCRITA PARA NEGÓCIOS|EW]], escrita executiva (memo, update, postmortem)
-> - [[#APÊNDICE EX — APRESENTAÇÃO E FALA EM PÚBLICO|EX]], fala em publico (pitch, all-hands, board)
-> - [[#APÊNDICE EK — INFLUÊNCIA E PERSUASÃO SEM AUTORIDADE FORMAL|EK]], persuasao sem autoridade
-> - [[IGNICAO-Vol-7-Maturidade-e-Exit#APÊNDICE EV — COMUNICAÇÃO EM CRISE|EV (Vol. 7)]], comunicacao em crise
+> - [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 8 — COMUNICAÇÃO PÚBLICA DO FUNDADOR: NARRATIVA, IMPRENSA E PORTA-VOZ|BM (Vol. 6)]], narrativa publica e imprensa
+> - [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 9 — MARCA PESSOAL DO FUNDADOR: DISTRIBUIÇÃO, AUTORIDADE E CUSTO DE REPUTAÇÃO|CY (Vol. 6)]], marca pessoal e canais proprios
+> - [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 10 — COMUNICAÇÃO INTERNA|DZ (Vol. 7)]], comunicacao com o time
+> - [[#CAPÍTULO 8 — COMUNICAÇÃO ESCRITA PARA NEGÓCIOS|EW]], escrita executiva (memo, update, postmortem)
+> - [[#CAPÍTULO 9 — APRESENTAÇÃO E FALA EM PÚBLICO|EX]], fala em publico (pitch, all-hands, board)
+> - [[#CAPÍTULO 7 — INFLUÊNCIA E PERSUASÃO SEM AUTORIDADE FORMAL|EK]], persuasao sem autoridade
+> - [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 10 — COMUNICAÇÃO EM CRISE|EV (Vol. 9)]], comunicacao em crise
 >
-> Este apendice cobre fala em publico (pitch, all-hands, board, keynote, entrevista). Este apendice e o par falado de [[#APÊNDICE EW — COMUNICAÇÃO ESCRITA PARA NEGÓCIOS|Apêndice EW]]. O fundador completo domina os dois. Para os outros territorios, ver acima.
+> Este apendice cobre fala em publico (pitch, all-hands, board, keynote, entrevista). Este apendice e o par falado de [[#CAPÍTULO 8 — COMUNICAÇÃO ESCRITA PARA NEGÓCIOS|Capítulo 8 (COMUNICAÇÃO ESCRITA PARA NEGÓCIOS)]]. O fundador completo domina os dois. Para os outros territorios, ver acima.
 
 > [!note] Nota editorial
-> Esse apêndice trata de apresentação e fala em público como disciplina profissional do fundador. Referências a técnicas de comunicação baseiam-se em prática e literatura disponível sobre oratória, mídia training e comunicação executiva. Não há endosso implícito a cursos ou consultorias específicas.
+> Esse capítulo trata de apresentação e fala em público como disciplina profissional do fundador. Referências a técnicas de comunicação baseiam-se em prática e literatura disponível sobre oratória, mídia training e comunicação executiva. Não há endosso implícito a cursos ou consultorias específicas.
 
 Falar bem em público não é talento de personalidade extrovertida. É habilidade com técnica, estrutura e prática sistemática. O fundador enfrenta situações de apresentação radicalmente diferentes ao longo da trajetória da empresa. All-hands (reunião com toda a empresa) de crise para 30 pessoas. Keynote (palestra principal) de conferência para 2.000. Entrevista de TV com duas câmeras. Board presentation (apresentação ao conselho) trimestral. Pitch para investidor em sala pequena. Cada uma tem dinâmica própria, mas todas compartilham a mesma base de preparo.
 
@@ -3664,7 +6090,7 @@ A habilidade não é opcional. Fundador que não consegue comunicar a visão da 
 
 #### Pitch para investidor — o delivery
 
-A estrutura narrativa do pitch é coberta em [[IGNICAO-Vol-4-Captacao-e-Financas#APÊNDICE V — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Apêndice V (Vol. 4)]]. Aqui, o foco é o delivery: como apresentar o mesmo deck de forma diferente para audiências diferentes, e o que fazer nos momentos críticos da reunião.
+A estrutura narrativa do pitch é coberta em [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) (Vol. 5)]]. Aqui, o foco é o delivery: como apresentar o mesmo deck de forma diferente para audiências diferentes, e o que fazer nos momentos críticos da reunião.
 
 **Adaptar para audiência:**
 
@@ -3917,7 +6343,7 @@ Decisões necessárias (o que você precisa do board)
 
 **Pré-alinhamento:**
 
-Surpresa em board é sempre ruim — mesmo surpresa positiva. Membro de board que descobre informação importante pela primeira vez em reunião formal sente que foi excluído do processo. O trabalho de influência (ver [[#APÊNDICE EK — INFLUÊNCIA E PERSUASÃO SEM AUTORIDADE FORMAL|Apêndice EK]]) acontece antes: ligar para cada membro relevante nos 3 a 5 dias antes da reunião, compartilhar o que vai ser apresentado, colher objeções, ajustar posição se necessário. A reunião formal confirma o que já foi alinhado individualmente.
+Surpresa em board é sempre ruim — mesmo surpresa positiva. Membro de board que descobre informação importante pela primeira vez em reunião formal sente que foi excluído do processo. O trabalho de influência (ver [[#CAPÍTULO 7 — INFLUÊNCIA E PERSUASÃO SEM AUTORIDADE FORMAL|Capítulo 7 (INFLUÊNCIA E PERSUASÃO SEM AUTORIDADE FORMAL)]]) acontece antes: ligar para cada membro relevante nos 3 a 5 dias antes da reunião, compartilhar o que vai ser apresentado, colher objeções, ajustar posição se necessário. A reunião formal confirma o que já foi alinhado individualmente.
 
 **Como lidar com board member que domina a discussão:**
 
@@ -3972,33 +6398,33 @@ Presença em video (Zoom, Meet) tem diferenças específicas de presença presen
 
 ### Ver também
 
-[[#APÊNDICE EW — COMUNICAÇÃO ESCRITA PARA NEGÓCIOS|Apêndice EW]] — Comunicação Escrita. [[#APÊNDICE EK — INFLUÊNCIA E PERSUASÃO SEM AUTORIDADE FORMAL|Apêndice EK]] — Influência. [[IGNICAO-Vol-7-Maturidade-e-Exit#APÊNDICE EV — COMUNICAÇÃO EM CRISE|Apêndice EV (Vol. 7)]] — Comunicação em Crise. [[IGNICAO-Vol-4-Captacao-e-Financas#APÊNDICE V — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Apêndice V (Vol. 4)]] — Captação e Pitch. [[IGNICAO-Vol-5-Receita-e-Pessoas#APÊNDICE BM — COMUNICAÇÃO PÚBLICA DO FUNDADOR: NARRATIVA, IMPRENSA E PORTA-VOZ|Apêndice BM (Vol. 5)]] — Comunicação pública. [[IGNICAO-Vol-6-Engenharia-e-Juridico#APÊNDICE DZ — COMUNICAÇÃO INTERNA|Apêndice DZ (Vol. 6)]] — Comunicação interna (all-hands).
+[[#CAPÍTULO 8 — COMUNICAÇÃO ESCRITA PARA NEGÓCIOS|Capítulo 8 (COMUNICAÇÃO ESCRITA PARA NEGÓCIOS)]] — Comunicação Escrita. [[#CAPÍTULO 7 — INFLUÊNCIA E PERSUASÃO SEM AUTORIDADE FORMAL|Capítulo 7 (INFLUÊNCIA E PERSUASÃO SEM AUTORIDADE FORMAL)]] — Influência. [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 10 — COMUNICAÇÃO EM CRISE|Capítulo 10 (COMUNICAÇÃO EM CRISE) (Vol. 9)]] — Comunicação em Crise. [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) (Vol. 5)]] — Captação e Pitch. [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 8 — COMUNICAÇÃO PÚBLICA DO FUNDADOR: NARRATIVA, IMPRENSA E PORTA-VOZ|Capítulo 8 (COMUNICAÇÃO PÚBLICA DO FUNDADOR: NARRATIVA, IMPRENSA E PORTA-VOZ) (Vol. 6)]] — Comunicação pública. [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 10 — COMUNICAÇÃO INTERNA|Capítulo 10 (COMUNICAÇÃO INTERNA) (Vol. 7)]] — Comunicação interna (all-hands).
 
 ---
 
-## APÊNDICE I — IA GENERATIVA COMO ACELERADOR DO EMPREENDEDOR (2026)
+## CAPÍTULO 10 — IA GENERATIVA COMO ACELERADOR DO EMPREENDEDOR (2026)
 
 > [!note] Nota de validade
-> Este apêndice reflete o estado da IA generativa em abril de 2026 e deve ser revisitado todo ano. Modelos, ferramentas, preços e práticas mudam rápido. Ferramentas citadas podem estar descontinuadas, fundidas ou superadas em doze meses. Os princípios têm vida útil mais longa que as ferramentas: IA como acelerador, não substituto, verificação crítica, avaliação do custo real incluindo tempo humano. Quando houver divergência entre este apêndice e a realidade atual, confie na realidade e atualize o texto na próxima revisão.
+> Este capítulo reflete o estado da IA generativa em abril de 2026 e deve ser revisitado todo ano. Modelos, ferramentas, preços e práticas mudam rápido. Ferramentas citadas podem estar descontinuadas, fundidas ou superadas em doze meses. Os princípios têm vida útil mais longa que as ferramentas: IA como acelerador, não substituto, verificação crítica, avaliação do custo real incluindo tempo humano. Quando houver divergência entre este capítulo e a realidade atual, confie na realidade e atualize o texto na próxima revisão.
 
 > [!tip] As quatro camadas de IA neste livro
 > IA aparece em quatro camadas, cada uma com decisões e ferramentas distintas. Você está em **acelerador do empreendedor** (camada 1). As outras três:
 >
-> - **Camada 2, IA como co-piloto do fundador** ([[#APÊNDICE CT — IA COMO CO-PILOTO DO FUNDADOR (2026)|Apêndice CT]]). Versão atualizada deste apêndice para 2026, com casos de uso de alto ROI no dia-a-dia.
-> - **Camada 3, AI no produto** ([[IGNICAO-Vol-3-Tracao#APÊNDICE Z — AI COMO PARTE DO PRODUTO (AI-NATIVE PRODUCT)|Apêndice Z (Vol. 3)]]). LLM como componente crítico do produto que vai a mercado, com RAG, evaluations, mitigação de alucinação, custo de inferência.
-> - **Camada 4, AI Ops e automação interna** ([[IGNICAO-Vol-6-Engenharia-e-Juridico#APÊNDICE EI — AI OPS E AUTOMAÇÃO INTELIGENTE|Apêndice EI (Vol. 6)]]). IA na operação da empresa, com triagem de tickets, resumo de calls, automação de workflows.
+> - **Camada 2, IA como co-piloto do fundador** ([[#CAPÍTULO 11 — IA COMO CO-PILOTO DO FUNDADOR (2026)|Capítulo 11 (IA COMO CO-PILOTO DO FUNDADOR (2026))]]). Versão atualizada deste capítulo para 2026, com casos de uso de alto ROI no dia-a-dia.
+> - **Camada 3, AI no produto** ([[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 15 — AI COMO PARTE DO PRODUTO (AI-NATIVE PRODUCT)|Capítulo 15 (AI COMO PARTE DO PRODUTO (AI-NATIVE PRODUCT)) (Vol. 4)]]). LLM como componente crítico do produto que vai a mercado, com RAG, evaluations, mitigação de alucinação, custo de inferência.
+> - **Camada 4, AI Ops e automação interna** ([[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 7 — AI OPS E AUTOMAÇÃO INTELIGENTE|Capítulo 7 (AI OPS E AUTOMAÇÃO INTELIGENTE) (Vol. 7)]]). IA na operação da empresa, com triagem de tickets, resumo de calls, automação de workflows.
 
 Empreender em 2026, sem usar modelos de linguagem (LLMs), e ferramentas de IA generativa como acelerador, é, metaforicamente, empreender com uma mão nas costas.
 
 > [!important] IA não substitui o julgamento
 > Isso não significa que a IA substitui o julgamento do empreendedor. Significa que tarefas que antes exigiam quatro horas hoje levam vinte minutos, o que libera tempo para o que importa: falar com clientes, pensar teoria, tomar decisões.
 
-Esse apêndice mapeia, fase a fase, como usar IA generativa como alavanca.
+Esse capítulo mapeia, fase a fase, como usar IA generativa como alavanca.
 
 > [!warning] Regra de ouro antes de qualquer uso de IA
 > Trate a saída do LLM como primeira versão a ser criticada, não como resposta final. LLMs alucinam, produzem textos plausíveis mas incorretos e refletem vieses dos dados de treinamento. Use-os como copiloto, nunca como oráculo.
 
-### Fase 0 a 1B, Preparação, Articulação, e Teoria
+### Fases 0 a 3 — Preparação, Ideia, Articulação e Teoria
 
 Estruturar Dossiê Pessoal. Forneça ao LLM o seu CV, e peça que identifique lacunas de experiência em relação ao setor-alvo. Peça também um plano de leitura, ou aprendizado, para fechar as lacunas.
 
@@ -4006,11 +6432,11 @@ Rodar análise SWOT pessoal. "Com base nisto [contexto], gere três cenários re
 
 Articular a ideia ([[#FASE 2 — ARTICULAÇÃO E CAPTURA DA IDEIA|Fase 2]]). Escreva a sua declaração de ideia, e peça ao LLM para reescrever três versões. Uma focada em problema, uma em cliente, e uma em mecanismo. Compare. A versão que ressoa mais indica o seu ponto de gravidade natural.
 
-Construir Árvore de Teoria ([[#FASE 2B — CONSTRUÇÃO DA TEORIA DO NEGÓCIO|Fase 2B]]). Peça ao LLM para listar quinze a vinte atributos potenciais para a sua ideia, e identificar pares com relação causal provável. Revise criticamente. A saída é um draft, não verdade. Depois peça duas teorias alternativas, com atributos diferentes.
+Construir Árvore de Teoria ([[#FASE 3 — CONSTRUÇÃO DA TEORIA DO NEGÓCIO|Fase 3]]). Peça ao LLM para listar quinze a vinte atributos potenciais para a sua ideia, e identificar pares com relação causal provável. Revise criticamente. A saída é um draft, não verdade. Depois peça duas teorias alternativas, com atributos diferentes.
 
 Geração de ICPs hipotéticos. Descreva o seu domínio, e peça cinco perfis de ICP candidatos, com justificativa para cada. Use como ponto de partida para entrevistas.
 
-### Fase 3, Descoberta do Problema, e Pesquisa com Usuários
+### Fases 4 e 5 — Descoberta do Problema e Pesquisa com Usuários
 
 Gerar roteiros de entrevista personalizados. Forneça o perfil do entrevistado, e peça um roteiro adaptando o Mom Test ao contexto específico.
 
@@ -4029,7 +6455,7 @@ Criar personas baseadas em dados. Carregue transcrições de entrevistas de um m
 
 Identificar JTBDs (Jobs to be Done). Peça "Extraia dos relatos de entrevista os 'jobs funcionais, emocionais, e sociais', que os usuários estão tentando cumprir". Output. Ponto de partida. Não conclusão.
 
-### Fase 5, Mapeamento de Mercado
+### Fase 6 — Mapeamento de Mercado e Concorrência
 
 Dimensionar TAM, SAM, e SOM (com cautela). Peça ao LLM para triangular estimativas com referências públicas.
 
@@ -4042,7 +6468,7 @@ Análise de regulação. "Quais as principais regulações aplicáveis a [setor]
 
 Afinar Canvas da Cunha. Peça crítica cética. "Aponte fragilidades dessa cunha, onde ela está larga demais, e sugira três nichos mais estreitos dentro dela".
 
-### Fase 6, Hipóteses, e Experimentos
+### Fases 7 e 8 — Hipóteses e Experimentos de Validação
 
 Gerar hipóteses a partir da teoria. Carregue a sua árvore de teoria, e peça trinta hipóteses candidatas, categorizadas por tipo (problema, cliente, solução, canal, ou monetização).
 
@@ -4056,7 +6482,7 @@ Simular resultados. Peça ao LLM para gerar três cenários de resultado (forte,
 
 Análise pós-experimento. Carregue dados brutos, mais threshold, mais teoria, e peça avaliação crítica. "Dado isso, a hipótese foi suportada? Há explicações alternativas? Que fraquezas amostrais afetam a conclusão?".
 
-### Fase 8, Ideação, e Testes de Solução
+### Fases 9 e 10 — Ideação, Prototipagem e Testes de Solução
 
 Divergência (Crazy 8s automatizado). "Gere dez abordagens radicalmente diferentes, para resolver [problema] para [ICP]". Use como expansão do espaço de soluções, antes de convergir.
 
@@ -4066,7 +6492,7 @@ Redação de copy de landing page, e anúncios. Gere cinco a dez variações de 
 
 Pricing research. Peça ao LLM para listar preços de produtos comparáveis em mercados similares, com fontes. Combine com Van Westendorp.
 
-### Fase 10, MVP, e Validação de Modelo
+### Fases 11 e 12 — MVP e Validação do Modelo de Negócio
 
 Prototipagem rápida em código. Ferramentas como Cursor, Claude Code, GitHub Copilot, e Replit Agent, aceleram dramaticamente o MVP, para fundadores com algum background técnico. Fundadores não-técnicos podem, com cautela, construir v1 funcional.
 
@@ -4081,7 +6507,7 @@ Modelagem financeira. Peça ao LLM para gerar planilha de unit economics, dado i
 
 Análise de churn qualitativa. Carregue emails de cancelamento, e peça categorização das razões, mais contagem.
 
-### Fase 12 a 13, PMF, Estruturação, e Escala
+### Fases 13 a 18 — Product-Market Fit, Escala e Estruturação
 
 Monitoramento de sinais de PMF. Pipeline automatizado, que ingere feedback de usuários, e sintetiza semanalmente. O LLM identifica mudanças de sentimento, antes de elas aparecerem em métricas agregadas.
 
@@ -4093,23 +6519,23 @@ Contratação, e onboarding. Geração de descrições de cargo, perguntas de en
 
 Comunicação interna. Geração de primeiras versões de políticas internas, newsletters, e resumos de reuniões.
 
-### Fase 15, Reinvenção, e Exit
+### Fases 19 e 20 — Reinvenção e Estratégia de Saída (Exit)
 
-Monitoramento de sinais de saturação ([[IGNICAO-Vol-7-Maturidade-e-Exit#FASE 15 — REINVENÇÃO E SEGUNDA CURVA|Fase 15 (Vol. 7)]]). Pipeline automatizado, que analisa NPS comments, tickets de suporte, reviews públicos, e transcrições de calls de venda em massa. O LLM detecta mudanças qualitativas de sentimento, e padrões recorrentes de reclamação, que precedem em seis a dezoito meses a queda visível em métricas agregadas.
+Monitoramento de sinais de saturação ([[IGNICAO-Vol-9-Maturidade-e-Exit#FASE 19 — REINVENÇÃO E SEGUNDA CURVA|Fase 19 (Vol. 9)]]). Pipeline automatizado, que analisa NPS comments, tickets de suporte, reviews públicos, e transcrições de calls de venda em massa. O LLM detecta mudanças qualitativas de sentimento, e padrões recorrentes de reclamação, que precedem em seis a dezoito meses a queda visível em métricas agregadas.
 
-Scanning de mercado, e concorrência ([[IGNICAO-Vol-7-Maturidade-e-Exit#FASE 15 — REINVENÇÃO E SEGUNDA CURVA|Fase 15 (Vol. 7)]]). Rotina semanal, que coleta movimentos de concorrentes (novos produtos, rodadas, contratações-chave, e reviews públicos), e sintetiza tendências. Útil para antecipar consolidação de setor, e entrada de incumbentes generalistas (Microsoft, Google, SAP, Salesforce) no seu nicho.
+Scanning de mercado, e concorrência ([[IGNICAO-Vol-9-Maturidade-e-Exit#FASE 19 — REINVENÇÃO E SEGUNDA CURVA|Fase 19 (Vol. 9)]]). Rotina semanal, que coleta movimentos de concorrentes (novos produtos, rodadas, contratações-chave, e reviews públicos), e sintetiza tendências. Útil para antecipar consolidação de setor, e entrada de incumbentes generalistas (Microsoft, Google, SAP, Salesforce) no seu nicho.
 
-Brainstorm estruturado de segunda curva ([[IGNICAO-Vol-7-Maturidade-e-Exit#FASE 15 — REINVENÇÃO E SEGUNDA CURVA|Fase 15 (Vol. 7)]]). "Nosso core atual é [descrição]. Considerando os nossos ativos de dados, base de clientes, e capacidades internas, gere dez possíveis segundas curvas, com análise de proximidade (setenta e cinco por cento core, cinquenta por cento core, vinte e cinco por cento core). Para cada uma, liste quais premissas precisariam ser verdadeiras, e quais testes rápidos poderiam falsificá-las em quatro a oito semanas".
+Brainstorm estruturado de segunda curva ([[IGNICAO-Vol-9-Maturidade-e-Exit#FASE 19 — REINVENÇÃO E SEGUNDA CURVA|Fase 19 (Vol. 9)]]). "Nosso core atual é [descrição]. Considerando os nossos ativos de dados, base de clientes, e capacidades internas, gere dez possíveis segundas curvas, com análise de proximidade (setenta e cinco por cento core, cinquenta por cento core, vinte e cinco por cento core). Para cada uma, liste quais premissas precisariam ser verdadeiras, e quais testes rápidos poderiam falsificá-las em quatro a oito semanas".
 
-Simulação de alocação 70/20/10 ([[IGNICAO-Vol-7-Maturidade-e-Exit#FASE 15 — REINVENÇÃO E SEGUNDA CURVA|Fase 15 (Vol. 7)]]). Teste de trade-offs de alocação (pessoas, orçamento, atenção do CEO) entre core, adjacente, e moonshot. Particularmente útil para detectar quando a alocação declarada (dez por cento moonshot) diverge da alocação real em atenção, e caixa (frequentemente dois por cento, ou menos).
+Simulação de alocação 70/20/10 ([[IGNICAO-Vol-9-Maturidade-e-Exit#FASE 19 — REINVENÇÃO E SEGUNDA CURVA|Fase 19 (Vol. 9)]]). Teste de trade-offs de alocação (pessoas, orçamento, atenção do CEO) entre core, adjacente, e moonshot. Particularmente útil para detectar quando a alocação declarada (dez por cento moonshot) diverge da alocação real em atenção, e caixa (frequentemente dois por cento, ou menos).
 
-Preparação de data room ([[IGNICAO-Vol-7-Maturidade-e-Exit#FASE 16 — EXIT STRATEGY|Fase 16 (Vol. 7)]]). Indexação automática de documentos, e detecção de inconsistências (contratos sem assinatura, políticas desatualizadas, e docs ausentes na árvore típica de due diligence de M&A, ou IPO). Reduz em quarenta a sessenta por cento o tempo de preparação.
+Preparação de data room ([[IGNICAO-Vol-9-Maturidade-e-Exit#FASE 20 — ESTRATÉGIA DE SAÍDA (EXIT STRATEGY)|Fase 20 (Vol. 9)]]). Indexação automática de documentos, e detecção de inconsistências (contratos sem assinatura, políticas desatualizadas, e docs ausentes na árvore típica de due diligence de M&A, ou IPO). Reduz em quarenta a sessenta por cento o tempo de preparação.
 
-Due diligence reversa ([[IGNICAO-Vol-7-Maturidade-e-Exit#FASE 16 — EXIT STRATEGY|Fase 16 (Vol. 7)]]). "Você é um tax advisor, ou M&A banker, ou corporate strategic acquirer, avaliando uma empresa com [métricas, e descrição]. Liste as trinta perguntas mais duras que você faria no primeiro call de diligence". Use para preparar respostas, antes do processo começar.
+Due diligence reversa ([[IGNICAO-Vol-9-Maturidade-e-Exit#FASE 20 — ESTRATÉGIA DE SAÍDA (EXIT STRATEGY)|Fase 20 (Vol. 9)]]). "Você é um tax advisor, ou M&A banker, ou corporate strategic acquirer, avaliando uma empresa com [métricas, e descrição]. Liste as trinta perguntas mais duras que você faria no primeiro call de diligence". Use para preparar respostas, antes do processo começar.
 
-Modelagem comparativa de cenários de exit ([[IGNICAO-Vol-7-Maturidade-e-Exit#FASE 16 — EXIT STRATEGY|Fase 16 (Vol. 7)]]). Comparação de M&A estratégico, M&A financeiro, IPO, e secondary, com múltiplos comparáveis do setor, e análise de sensibilidade a premissas-chave (crescimento, margem, e múltiplo aplicado). A IA gera rápido os cenários. Tributarista, e banker, decidem qual caminho seguir.
+Modelagem comparativa de cenários de exit ([[IGNICAO-Vol-9-Maturidade-e-Exit#FASE 20 — ESTRATÉGIA DE SAÍDA (EXIT STRATEGY)|Fase 20 (Vol. 9)]]). Comparação de M&A estratégico, M&A financeiro, IPO, e secondary, com múltiplos comparáveis do setor, e análise de sensibilidade a premissas-chave (crescimento, margem, e múltiplo aplicado). A IA gera rápido os cenários. Tributarista, e banker, decidem qual caminho seguir.
 
-Refinamento iterativo do equity story ([[IGNICAO-Vol-7-Maturidade-e-Exit#FASE 16 — EXIT STRATEGY|Fase 16 (Vol. 7)]]). Carregue narrativa, métricas, e comparáveis. Peça crítica sob perspectivas distintas (PE buyer, strategic acquirer, e public market investor). Cada perspectiva revela lacunas diferentes na história. A versão final costuma ser três a quatro iterações depois.
+Refinamento iterativo do equity story ([[IGNICAO-Vol-9-Maturidade-e-Exit#FASE 20 — ESTRATÉGIA DE SAÍDA (EXIT STRATEGY)|Fase 20 (Vol. 9)]]). Carregue narrativa, métricas, e comparáveis. Peça crítica sob perspectivas distintas (PE buyer, strategic acquirer, e public market investor). Cada perspectiva revela lacunas diferentes na história. A versão final costuma ser três a quatro iterações depois.
 
 > [!warning] Alerta específico para Fases 15 e 16
 > São as fases onde o custo de um erro de decisão é o mais alto do manual inteiro (troca de direção estratégica, e venda da empresa). A IA generativa aqui serve para expandir opções. Não para decidir. Use-a para gerar dez cenários, que um humano filtra para dois a três executáveis. Nunca use para validar uma decisão que você já tomou. É exatamente o caso em que o viés de confirmação causa mais prejuízo. E o LLM tende a concordar com a premissa implícita da pergunta. Complemente sempre com contador, tributarista, advogado de M&A, e banker, quando aplicável. A IA não substitui nenhum desses.
@@ -4164,18 +6590,18 @@ Uma ferramenta de automação simples. Zapier, Make, ou n8n, para ligar as coisa
 
 ---
 
-## APÊNDICE CT — IA COMO CO-PILOTO DO FUNDADOR (2026)
+## CAPÍTULO 11 — IA COMO CO-PILOTO DO FUNDADOR (2026)
 
 > [!tip] As quatro camadas de IA neste livro
 > IA aparece em quatro camadas, cada uma com decisões e ferramentas distintas. Você está em **co-piloto do fundador** (camada 2). As outras três:
 >
-> - **Camada 1, IA como acelerador do empreendedor** ([[#APÊNDICE I — IA GENERATIVA COMO ACELERADOR DO EMPREENDEDOR (2026)|Apêndice I]]). Versão original deste apêndice, mapa fase-a-fase de uso de IA no processo empreendedor.
-> - **Camada 3, AI no produto** ([[IGNICAO-Vol-3-Tracao#APÊNDICE Z — AI COMO PARTE DO PRODUTO (AI-NATIVE PRODUCT)|Apêndice Z (Vol. 3)]]). LLM como componente crítico do produto que vai a mercado.
-> - **Camada 4, AI Ops e automação interna** ([[IGNICAO-Vol-6-Engenharia-e-Juridico#APÊNDICE EI — AI OPS E AUTOMAÇÃO INTELIGENTE|Apêndice EI (Vol. 6)]]). IA na operação da empresa, com triagem de tickets, resumo de calls, automação de workflows.
+> - **Camada 1, IA como acelerador do empreendedor** ([[#CAPÍTULO 10 — IA GENERATIVA COMO ACELERADOR DO EMPREENDEDOR (2026)|Capítulo 10 (IA GENERATIVA COMO ACELERADOR DO EMPREENDEDOR (2026))]]). Versão original deste capítulo, mapa fase-a-fase de uso de IA no processo empreendedor.
+> - **Camada 3, AI no produto** ([[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 15 — AI COMO PARTE DO PRODUTO (AI-NATIVE PRODUCT)|Capítulo 15 (AI COMO PARTE DO PRODUTO (AI-NATIVE PRODUCT)) (Vol. 4)]]). LLM como componente crítico do produto que vai a mercado.
+> - **Camada 4, AI Ops e automação interna** ([[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 7 — AI OPS E AUTOMAÇÃO INTELIGENTE|Capítulo 7 (AI OPS E AUTOMAÇÃO INTELIGENTE) (Vol. 7)]]). IA na operação da empresa, com triagem de tickets, resumo de calls, automação de workflows.
 
-Este apêndice é versão atualizada (abril de 2026) do [[#APÊNDICE I — IA GENERATIVA COMO ACELERADOR DO EMPREENDEDOR (2026)|Apêndice I]], que tratava de IA como acelerador. O estado da arte em ferramentas de IA para uso do fundador mudou bastante entre 2023 e 2026: práticas que faziam sentido em 2023 hoje são obsoletas e capacidades novas surgiram.
+Este capítulo é versão atualizada (abril de 2026) do [[#CAPÍTULO 10 — IA GENERATIVA COMO ACELERADOR DO EMPREENDEDOR (2026)|Capítulo 10 (IA GENERATIVA COMO ACELERADOR DO EMPREENDEDOR (2026))]], que tratava de IA como acelerador. O estado da arte em ferramentas de IA para uso do fundador mudou bastante entre 2023 e 2026: práticas que faziam sentido em 2023 hoje são obsoletas e capacidades novas surgiram.
 
-Esta seção trata de como o fundador usa IA no dia a dia. Não IA embarcada no produto (este é o tema do [[IGNICAO-Vol-3-Tracao#APÊNDICE Z — AI COMO PARTE DO PRODUTO (AI-NATIVE PRODUCT)|Apêndice Z (Vol. 3)]]), mas IA como ferramenta pessoal de produtividade.
+Esta seção trata de como o fundador usa IA no dia a dia. Não IA embarcada no produto (este é o tema do [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 15 — AI COMO PARTE DO PRODUTO (AI-NATIVE PRODUCT)|Capítulo 15 (AI COMO PARTE DO PRODUTO (AI-NATIVE PRODUCT)) (Vol. 4)]]), mas IA como ferramenta pessoal de produtividade.
 
 ### O estado de abril de 2026
 
@@ -4246,24 +6672,23 @@ Se você está em 2026, e sente que não usa IA o suficiente. Dedique quatro hor
 
 ---
 
-# ECOSSISTEMA, MENTORIA E APOIO INICIAL
+# ECOSSISTEMA, MENTORIA E APOIO INICIAL (CAPÍTULOS 12 E 13)
+
+### Arquitetura deste Domínio: Capital Social, Mentoria e Infraestrutura do Ecossistema Brasileiro (Capítulos 12 e 13)
+
+Empreender solo ou com um cofundador não significa operar isolado. Um bom conselheiro (*advisor*) ou programa de aceleração certo economiza seis meses de tentativa e erro em um único café de 45 minutos; um programa predatório rouba 7% a 10% do seu *cap table* em troca de palestras genéricas e *mentoring whiplash* (mentores contraditórios que deixam o fundador paralisado).
+
+- **[[#CAPÍTULO 12 — ACELERADORAS, PROGRAMAS E PARCEIROS INSTITUCIONAIS PARA STARTUP BRASILEIRA|Capítulo 12 — Aceleradoras e Programas no Brasil]]:** O mapa real de aceleradoras, programas de fomento, hubs e incentivos no Brasil — quando vale a pena entrar, quando fugir e como avaliar o custo de diluição.
+- **[[#CAPÍTULO 13 — REDE, MENTORES E ADVISORS — COMO CONSTRUIR O CAPITAL HUMANO DO EMPREENDEDOR|Capítulo 13 — Rede, Mentores e Advisors]]:** Como mapear, abordar, qualificar e formalizar *advisors* (incluindo contratos padrão tipo FAST e faixas saudáveis de equity de 0,1% a 1,0% com *vesting*).
 
 ---
 
-### Arquitetura deste Domínio: Capital Social, Mentoria e Alavancagem de Ecossistema
-
-Empreender sozinho em circuito fechado multiplica o tempo necessário para aprender o que o ecossistema brasileiro já descobriu. Os dois capítulos que encerram o Volume 1 (**Apêndices AK e AL**) tratam de como construir capital social e acessar infraestrutura institucional sem abrir mão de foco ou de participação societária desproporcional.
-
-A relação entre os dois é complementar: o [[#APÊNDICE AK — ACELERADORAS, PROGRAMAS E PARCEIROS INSTITUCIONAIS PARA STARTUP BRASILEIRA|Apêndice AK]] analisa as instituições (aceleradoras, programas de equity-free, subvenção, hubs e comunidades no Brasil), ensinando a calcular o custo real do *equity* cedido versus o valor concreto da rede. Já o [[#APÊNDICE AL — REDE, MENTORES E ADVISORS — COMO CONSTRUIR O CAPITAL HUMANO DO EMPREENDEDOR|Apêndice AL]] foca nas relações individuais: como abordar operadores experientes, estruturar *advisory boards* que funcionam na prática, evitar "mentores de palco" e conduzir entrevistas de aconselhamento que geram resposta acionável (conectadas ao template A.28 no Volume 10).
-
----
-
-## APÊNDICE AK — ACELERADORAS, PROGRAMAS E PARCEIROS INSTITUCIONAIS PARA STARTUP BRASILEIRA
+## CAPÍTULO 12 — ACELERADORAS, PROGRAMAS E PARCEIROS INSTITUCIONAIS PARA STARTUP BRASILEIRA
 
 > [!note] Validade
 > Programas, aceleradoras e seus focos mudam continuamente. Essa lista reflete o panorama de 2025 e 2026. Termos de aceitação, ticket de investimento e equity esperado variam por ciclo. Revise anualmente antes de aplicar. Consulte o site oficial e converse com fundadores recentes antes de aceitar qualquer oferta.
 
-A [[IGNICAO-Vol-5-Receita-e-Pessoas#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14 (Vol. 5)]] e o [[IGNICAO-Vol-4-Captacao-e-Financas#APÊNDICE V — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Apêndice V (Vol. 4)]] tocam em captação de equity, participação societária. Esse apêndice cobre território adjacente, os programas institucionais que oferecem capital, mentoria, rede ou credibilidade em troca de participação, custo ou tempo. Categoria importante para o fundador iniciante brasileiro sem rede direta de investidor.
+A [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16 (Vol. 6)]] e o [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) (Vol. 5)]] tocam em captação de equity, participação societária. Esse capítulo cobre território adjacente, os programas institucionais que oferecem capital, mentoria, rede ou credibilidade em troca de participação, custo ou tempo. Categoria importante para o fundador iniciante brasileiro sem rede direta de investidor.
 
 O que segue trata de quando faz sentido aplicar a qual programa, como avaliar a oferta e quando recusar. Nem toda oferta é boa, mesmo vinda de programa prestigiado.
 
@@ -4279,7 +6704,7 @@ Existem aceleradoras medíocres que pedem cinco ou dez por cento por valor limit
 
 ### Quando
 
-Em pré-[[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]] ou [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]], alguns programas pré-aceleração existem para ideias validadas textualmente mas sem execução, como o Antler em algumas edições. Entre as fases dois e três entram as aceleradoras brasileiras que aceitam ideias pré-MVP. Das fases sete a nove está a faixa de maior aplicação, com MVP ou PMF inicial e captação do primeiro capital estruturado. Da [[IGNICAO-Vol-3-Tracao#FASE 11 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 11 (Vol. 3)]] em diante entram os programas de escala como Endeavor Scale-up e 500 Global. Da [[IGNICAO-Vol-3-Tracao#FASE 12 — PRODUCT-MARKET FIT|Fase 12 (Vol. 3)]] em diante, o foco é internacionalização e captação de rodadas maiores.
+Em pré-[[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]] ou [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]], alguns programas pré-aceleração existem para ideias validadas textualmente mas sem execução, como o Antler em algumas edições. Entre as fases dois e três entram as aceleradoras brasileiras que aceitam ideias pré-MVP. Das fases sete a nove está a faixa de maior aplicação, com MVP ou PMF inicial e captação do primeiro capital estruturado. Da [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 12 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 12 (Vol. 4)]] em diante entram os programas de escala como Endeavor Scale-up e 500 Global. Da [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 13 — PRODUCT-MARKET FIT|Fase 13 (Vol. 4)]] em diante, o foco é internacionalização e captação de rodadas maiores.
 
 ### Quem
 
@@ -4308,7 +6733,7 @@ Antes de aceitar, faça sete perguntas obrigatórias. Quanto equity estão pedin
 
 ### Estratégia de aplicação
 
-Se está nas fases dois a seis (ideação e validação), considere InovAtiva (gratuito, bom para começar), Ace ou aceleradoras brasileiras menores, e Antler caso queira ambiente para formar time ou ideia. Se está nas fases sete a onze (MVP até PMF), Y Combinator e Techstars caso tenha ambição global, Endeavor Search se a empresa já fatura, e programas setoriais relevantes. Se está na [[IGNICAO-Vol-3-Tracao#FASE 12 — PRODUCT-MARKET FIT|Fase 12 (Vol. 3)]] ou além (escala), Endeavor Scale-up, programas específicos de expansão internacional, e parcerias corporativas como Cubo e InovaBRA para acesso a grandes clientes. Em paralelo, editais de fomento (Finep, BNDES, FAPESP) são não-diluitivos e complementam bem.
+Se está nas fases dois a seis (ideação e validação), considere InovAtiva (gratuito, bom para começar), Ace ou aceleradoras brasileiras menores, e Antler caso queira ambiente para formar time ou ideia. Se está nas fases sete a onze (MVP até PMF), Y Combinator e Techstars caso tenha ambição global, Endeavor Search se a empresa já fatura, e programas setoriais relevantes. Se está na [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 13 — PRODUCT-MARKET FIT|Fase 13 (Vol. 4)]] ou além (escala), Endeavor Scale-up, programas específicos de expansão internacional, e parcerias corporativas como Cubo e InovaBRA para acesso a grandes clientes. Em paralelo, editais de fomento (Finep, BNDES, FAPESP) são não-diluitivos e complementam bem.
 
 ### Métricas
 
@@ -4316,7 +6741,7 @@ Se está nas fases dois a seis (ideação e validação), considere InovAtiva (g
 
 ### Definição de sucesso
 
-Você aplicou esse apêndice bem quando mapeou três a cinco programas relevantes para o seu estágio e setor, aplicou com narrativa forte (não aplicou só por aplicar), avaliou a oferta recebida contra critérios objetivos de equity, valor agregado e rede, falou com pelo menos três ex-participantes antes de aceitar, recusou ofertas ruins (sim, recusar às vezes é o correto), e, se aceitou, extraiu valor máximo durante o programa via presença em eventos, uso de mentoria e networking ativo.
+Você aplicou esse capítulo bem quando mapeou três a cinco programas relevantes para o seu estágio e setor, aplicou com narrativa forte (não aplicou só por aplicar), avaliou a oferta recebida contra critérios objetivos de equity, valor agregado e rede, falou com pelo menos três ex-participantes antes de aceitar, recusou ofertas ruins (sim, recusar às vezes é o correto), e, se aceitou, extraiu valor máximo durante o programa via presença em eventos, uso de mentoria e networking ativo.
 
 ### Armadilhas
 
@@ -4330,14 +6755,14 @@ A primeira é aceitar a primeira oferta por ansiedade. Programa médio por equit
 
 ---
 
-## APÊNDICE AL — REDE, MENTORES E ADVISORS — COMO CONSTRUIR O CAPITAL HUMANO DO EMPREENDEDOR
+## CAPÍTULO 13 — REDE, MENTORES E ADVISORS — COMO CONSTRUIR O CAPITAL HUMANO DO EMPREENDEDOR
 
 > [!note] Validade
 > Plataformas específicas como LinkedIn, X e comunidades online evoluem em dois ou três anos. Os princípios de networking (rede de relacionamentos), mentoria e advisory (reciprocidade, especificidade, construção antes da necessidade) são estáveis ao longo de décadas.
 
-A [[IGNICAO-Vol-5-Receita-e-Pessoas#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14 (Vol. 5)]] cobre contratação quando há PMF, Product-Market Fit, encaixe entre produto e mercado, e processos formais. O [[IGNICAO-Vol-3-Tracao#APÊNDICE CP — SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|Apêndice CP (Vol. 3)]] cobre vendas. O [[IGNICAO-Vol-4-Captacao-e-Financas#APÊNDICE V — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Apêndice V (Vol. 4)]] cobre captação. Antes de qualquer contratação formal, venda estruturada ou rodada de investimento, o fundador iniciante precisa responder a uma pergunta anterior, como encontro as pessoas certas. Mentores para conselho, advisors, conselheiros formalizados, para validação, primeiros clientes que acreditam no produto sem track-record, histórico comprovado, primeiros funcionários que topam o risco, anjos que abrem portas.
+A [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16 (Vol. 6)]] cobre contratação quando há PMF, Product-Market Fit, encaixe entre produto e mercado, e processos formais. O [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 8 — SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|Capítulo 8 (SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL) (Vol. 4)]] cobre vendas. O [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) (Vol. 5)]] cobre captação. Antes de qualquer contratação formal, venda estruturada ou rodada de investimento, o fundador iniciante precisa responder a uma pergunta anterior, como encontro as pessoas certas. Mentores para conselho, advisors, conselheiros formalizados, para validação, primeiros clientes que acreditam no produto sem track-record, histórico comprovado, primeiros funcionários que topam o risco, anjos que abrem portas.
 
-Networking como disciplina estruturada está ausente do manual até aqui. Esse apêndice cobre o que o fundador iniciante raramente aprende, como construir rede antes de precisar dela, como acionar a rede quando precisa e como ser contribuinte líquido na rede em vez de só receptor.
+Networking como disciplina estruturada está ausente do manual até aqui. Esse capítulo cobre o que o fundador iniciante raramente aprende, como construir rede antes de precisar dela, como acionar a rede quando precisa e como ser contribuinte líquido na rede em vez de só receptor.
 
 ### O quê
 
@@ -4359,7 +6784,7 @@ E o ponto mais importante: construir rede antes de precisar é dez vezes mais ef
 
 ### Quando
 
-Antes da [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]], comece a construir rede se ainda não tem. Nas Fases 0 a 2, identifique mentores específicos e busque os primeiros advisors. Nas Fases 4 a 9, ative a rede para entrevistas, primeiros clientes e feedback de produto. Na [[IGNICAO-Vol-3-Tracao#FASE 11 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 11 (Vol. 3)]], acione para contratações-chave e warm intros para investidores. Da [[IGNICAO-Vol-3-Tracao#FASE 12 — PRODUCT-MARKET FIT|Fase 12 (Vol. 3)]] em diante, formalize o advisory board (conselho consultivo) e construa rede global.
+Antes da [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]], comece a construir rede se ainda não tem. Nas Fases 0 a 2, identifique mentores específicos e busque os primeiros advisors. Nas Fases 4 a 9, ative a rede para entrevistas, primeiros clientes e feedback de produto. Na [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 12 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 12 (Vol. 4)]], acione para contratações-chave e warm intros para investidores. Da [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 13 — PRODUCT-MARKET FIT|Fase 13 (Vol. 4)]] em diante, formalize o advisory board (conselho consultivo) e construa rede global.
 
 ### Quem
 
@@ -4375,7 +6800,7 @@ O fundador lidera a construção da rede. Isso é intransferível. Os co-fundado
 Funciona porque mostra homework (você sabe quem é a pessoa), pede algo específico e limitado (trinta minutos, não conversa longa), tem contexto claro do que você quer aprender, e respeita o tempo. Depois do primeiro encontro, envie nota curta agradecendo mais dois ou três pontos específicos que aplicou ou vai aplicar. Faça follow-up em dois ou três meses reportando progresso concreto nas áreas que discutiram. Se a química é boa, proponha cadência regular. E nunca desapareça. Relacionamento se constrói com contato consistente, não com raridade.
 
 > [!tip] Roteiro estruturado para a conversa em si
-> O template acima resolve a abordagem. Para a conversa propriamente dita — quando o objetivo é extrair insight de setor, mapa competitivo, anti-cases, "what would have to be true" — use o [[IGNICAO-Vol-10-Canvases-e-Templates#APÊNDICE A — TEMPLATES PRONTOS PARA USO|Template A.27 (Entrevista com Especialista de Mercado) (Vol. 10)]]. Ele tem Parte A (roteiro durante, com a seção "confronto à nossa tese" como núcleo) e Parte B (síntese pós, com hierarquia de sinais que separa dado verificável de heurística genérica). Importante: especialista informa como construir; não valida que há mercado. Para validar mercado, A.2.
+> O template acima resolve a abordagem. Para a conversa propriamente dita — quando o objetivo é extrair insight de setor, mapa competitivo, anti-cases, "what would have to be true" — use o [[#TEMPLATES OPERACIONAIS E CASOS PREENCHIDOS DESTA FASE|Template Template: Entrevista com Especialista de Mercado (mapa de setor · Fases 3-5) (Entrevista com Especialista de Mercado)]]. Ele tem Parte A (roteiro durante, com a seção "confronto à nossa tese" como núcleo) e Parte B (síntese pós, com hierarquia de sinais que separa dado verificável de heurística genérica). Importante: especialista informa como construir; não valida que há mercado. Para validar mercado, Template: Entrevista de Problema (Fase 4, Vol. 2).
 
 Para ser mentorado bem, prepare agenda antes de cada encontro com duas ou três perguntas específicas, tome notas, implemente pelo menos uma sugestão antes do próximo encontro e reporte, respeite o tempo combinado, e reciproque quando possível com apresentações, feedback e introduções a outras pessoas que possam ser úteis.
 
@@ -4387,7 +6812,7 @@ Para pedir, espere ter relacionamento substantivo (pelo menos seis meses de ment
 > "[Nome], você tem sido incrivelmente útil nesses últimos meses. Queria formalizar nossa relação como advisor, com equity e compromisso mais estruturado. Especificamente, seria zero vírgula vinte e cinco a zero vírgula cinco por cento de equity com vesting quatro anos, duas a três horas por mês, focando em [áreas específicas]. Faz sentido explorar?"
 
 > [!tip] Conversa de decisão com advisor já formalizado
-> Depois que o advisor está no jogo, o instrumento para extrair valor de cada conversa é o [[IGNICAO-Vol-10-Canvases-e-Templates#APÊNDICE A — TEMPLATES PRONTOS PARA USO|Template A.28 (Entrevista com Advisor) (Vol. 10)]]. Use quando há decisão concreta em cima da mesa — não para descobrir problema, não para mapear setor (advisor não substitui A.2 nem A.27). Estrutura: decisão em uma frase, opções, reenquadramento (advisor pode ver pergunta diferente da que você trouxe), recomendação com convicção, objeções explícitas, casos análogos e separação fato vs. opinião vs. heurística pessoal. Inclui reflexão interna 30 min depois, sem o advisor — porque a decisão é sua, informada por ele.
+> Depois que o advisor está no jogo, o instrumento para extrair valor de cada conversa é o [[#TEMPLATES OPERACIONAIS E CASOS PREENCHIDOS DESTA FASE|Template Template: Entrevista com Advisor (decisão específica · tradeoffs) (Entrevista com Advisor)]]. Use quando há decisão concreta em cima da mesa — não para descobrir problema, não para mapear setor (advisor não substitui Template: Entrevista de Problema (Fase 4, Vol. 2) nem Template: Entrevista com Especialista de Mercado (mapa de setor · Fases 3-5) (Fase 4, Vol. 2)). Estrutura: decisão em uma frase, opções, reenquadramento (advisor pode ver pergunta diferente da que você trouxe), recomendação com convicção, objeções explícitas, casos análogos e separação fato vs. opinião vs. heurística pessoal. Inclui reflexão interna 30 min depois, sem o advisor — porque a decisão é sua, informada por ele.
 
 Os sinais de que advisor é bom: responde emails em até quarenta e oito horas, participa dos encontros agendados, proativamente faz introduções quando surgem oportunidades, dá feedback construtivo (não só "bom trabalho"), e a empresa tem progresso real após os conselhos aplicados. Os sinais de que é ruim: some por semanas, vem despreparado, não faz as intros prometidas, opina genericamente sem imersão real, ou tenta vender serviços próprios ou da rede dele para você.
 

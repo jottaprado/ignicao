@@ -6,6 +6,40 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/).
 
 ---
 
+## [4.0] — 2026-10-20
+
+### Adicionado
+
+- **Coleção 100% Autocontida em 10 Volumes (`volumes/`)**: reengenharia completa da arquitetura editorial para que cada volume funcione como um livro independente e 100% autocontido (~55k a ~98k palavras / ~220 a ~390 páginas impressas por volume), sem exigir consulta simultânea a volumes externos de referência:
+  - **Vol. 1 — Ideação (`volumes/IGNICAO-Vol-1-Ideacao.md`)**: Fases 0 a 3 + Capítulos 1 a 13 + 27 frameworks, 6 canvases e 10 templates integrados (~98k palavras)
+  - **Vol. 2 — Descoberta e Mercado (`volumes/IGNICAO-Vol-2-Descoberta-e-Mercado.md`)**: Fases 4 a 6 + Capítulos 1 a 4 + 26 frameworks, 4 canvases e 11 templates integrados (~70k palavras)
+  - **Vol. 3 — Experimentos e Prototipagem (`volumes/IGNICAO-Vol-3-Experimentos-e-Prototipagem.md`)**: Fases 7 a 10 + Capítulos 1 a 9 + 16 frameworks, 3 canvases e 3 templates integrados (~61k palavras)
+  - **Vol. 4 — Tração e PMF (`volumes/IGNICAO-Vol-4-Tracao-e-PMF.md`)**: Fases 11 a 13 + Capítulos 1 a 16 + 27 frameworks, 2 canvases e 6 templates integrados (~92k palavras)
+  - **Vol. 5 — Finanças e Captação (`volumes/IGNICAO-Vol-5-Financas-e-Captacao.md`)**: Fase 14 + Capítulos 1 a 20 + 15 frameworks, 2 canvases e 4 templates integrados (~88k palavras)
+  - **Vol. 6 — Receita e Pessoas (`volumes/IGNICAO-Vol-6-Receita-e-Pessoas.md`)**: Fases 15 e 16 + Capítulos 1 a 19 + 20 frameworks, 1 canvas e 3 templates integrados (~93k palavras)
+  - **Vol. 7 — Produto, Engenharia e Operações (`volumes/IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes.md`)**: Fase 17 + Capítulos 1 a 11 + 19 frameworks e 2 templates integrados (~55k palavras)
+  - **Vol. 8 — Jurídico, LGPD e Segurança (`volumes/IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca.md`)**: Fase 18 + Capítulos 1 a 14 + 3 frameworks integrados (~57k palavras)
+  - **Vol. 9 — Maturidade e Exit (`volumes/IGNICAO-Vol-9-Maturidade-e-Exit.md`)**: Fases 19 e 20 + Capítulos 1 a 22 + Epílogo + 11 frameworks e 2 canvases integrados (~83k palavras)
+  - **Vol. 10 — Playbooks Setoriais e Glossário (`volumes/IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario.md`)**: Capítulos 1 a 13 (Macroeconomia, Regulação, CADE, Políticas Públicas e 9 Playbooks Verticais) + Glossários, Bibliografias e Índices Gerais (~69k palavras)
+- **Incorporação In-Place de 164 Frameworks, 20 Canvases, 39 Templates, Métricas e Leituras**:
+  - Os **164 frameworks** do antigo Ferramentário (`BG.1.1` a `BG.19.4`), os **20 canvases** (`CZ.1` a `CZ.20`), os **39 templates e estudos de caso preenchidos** (`A.1` a `A.39`), as **19 tabelas de métricas por fase** (antigo `Apêndice C`) e as **18 listas de leituras por etapa** (antigo `Apêndice E`) foram embutidos diretamente dentro da subseção `### FERRAMENTAS DESTA FASE` (ou `### FRAMEWORKS, CANVASES E TEMPLATES DESTE CAPÍTULO`) da Fase ou Capítulo onde são aplicados.
+
+### Modificado
+
+- **Numeração Sequencial Contínua das 21 Fases (`FASE 0` a `FASE 20`)**:
+  - Extinta a antiga nomenclatura `FASE 2B` (agora **`FASE 3 — CONSTRUÇÃO DA TEORIA DO NEGÓCIO`**).
+  - As antigas `Fases 3 a 12` passam a ser sequencialmente **`FASES 4 a 13`**.
+  - As antigas subfases da `Fase 14` (`14D`, `14C`, `14A`, `14B`) e a antiga `Fase 13` foram promovidas a fases principais dos Volumes 5, 6, 7 e 8 (**`FASE 14 — FINANÇAS E CAPTAÇÃO EM ESCALA`**, **`FASE 15 — MÁQUINA DE CRESCIMENTO E RECEITA`**, **`FASE 16 — PESSOAS, LIDERANÇA E CULTURA`**, **`FASE 17 — OPERAÇÕES, PRODUTO E TECNOLOGIA`** e **`FASE 18 — ESTRUTURAÇÃO SOCIETÁRIA E GOVERNANÇA`**).
+  - As antigas `Fases 15 e 16` passam a ser **`FASE 19 — REINVENÇÃO E CICLO LONGO`** e **`FASE 20 — EXIT`** no Volume 9.
+- **Transformação dos Apêndices em 141 Capítulos Orgânicos (`## CAPÍTULO 1` a `## CAPÍTULO N`)**:
+  - Extintos os antigos códigos alfabéticos (`APÊNDICE AJ`, `APÊNDICE DU`, `APÊNDICE V`, etc.) nos títulos e no corpo do texto. Cada volume agora numera seus capítulos sequencialmente a partir do `CAPÍTULO 1`, com normalização completa das referências cruzadas em prosa e wikilinks (2.672 links auditados com 0 quebras).
+
+### Removido
+
+- **Volumes separados de Ferramentário (`IGNICAO-Vol-9-Ferramentario.md`) e Canvases/Templates (`IGNICAO-Vol-10-Canvases-e-Templates.md`)**: todo o seu conteúdo técnico e prático foi distribuído organicamente dentro dos Volumes 1 a 9, mantendo-se os Índices Gerais e Glossários no Volume 10 (`IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario.md`).
+
+---
+
 ## [3.5] — 2026-10-20
 
 ### Adicionado

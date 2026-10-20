@@ -1,13 +1,25 @@
 #!/usr/bin/env node
 /**
- * Reestrutura a coleção IGNIÇÃO em 10 volumes focais em `volumes/`,
- * inserindo as Seções Introdutórias de Domínio ("costura introdutória")
- * em cada bloco temático, atualizando todos os wikilinks internos e
- * inter-volumes e gerando `build/volumes_manifest.json`.
+ * Constrói os 10 Volumes 100% Autocontidos da coleção IGNIÇÃO (v4.0) em `volumes/`:
+ *
+ *  1) Extrai as 175 seções canônicas da versão base (`738db95`).
+ *  2) Renumera as Fases sequencialmente de `FASE 0` a `FASE 20` (21 Fases):
+ *     - A antiga `Fase 2B` torna-se `FASE 3 — CONSTRUÇÃO DA TEORIA DO NEGÓCIO`.
+ *     - As antigas `Fase 3` a `Fase 12` tornam-se `FASE 4` a `FASE 13`.
+ *     - As subfases da antiga `Fase 14` (`14D`, `14C`, `14A`, `14B`) e a antiga `Fase 13`
+ *       tornam-se as Fases principais dos Volumes 5, 6, 7 e 8 (`FASE 14` a `FASE 18`).
+ *     - As antigas `Fase 15` e `Fase 16` tornam-se `FASE 19` e `FASE 20` (no Volume 9).
+ *  3) Incorpora 100% dos 164 Frameworks (`BG.1.1` a `BG.19.4`), 20 Canvases (`CZ.1` a `CZ.20`),
+ *     39 Templates e Casos Preenchidos (`A.1` a `A.39`), 19 tabelas de Métricas por Fase (`C`)
+ *     e 18 listas de Leituras Recomendadas (`E`) diretamente DENTRO de cada Fase e Capítulo.
+ *  4) Transforma os antigos `APÊNDICE XX — TÍTULO` em `CAPÍTULO N — TÍTULO` orgânicos dentro
+ *     de cada volume, eliminando siglas aleatórias de letras nos títulos.
+ *  5) Resolve globalmente todos os wikilinks e referências textuais para a nova arquitetura.
  */
 
 const fs = require('fs');
 const path = require('path');
+const { execFileSync } = require('child_process');
 const { DOMAIN_INTROS } = require('./domain_intros');
 
 const ROOT = path.resolve(__dirname, '..');
@@ -28,32 +40,36 @@ function slugify(s) {
 }
 
 // ---------------------------------------------------------------------------
-// 1. Extrair todas as 175 seções canônicas + "Nota do autor" dos arquivos atuais
+// 1. Extrair as 175 seções originais do commit 738db95 (v3.4.0)
 // ---------------------------------------------------------------------------
+const BASE_VOLS = [
+  'volumes/IGNICAO-Vol-1-Ideacao.md',
+  'volumes/IGNICAO-Vol-2-Validacao.md',
+  'volumes/IGNICAO-Vol-3-Tracao.md',
+  'volumes/IGNICAO-Vol-4-Escala.md',
+  'volumes/IGNICAO-Vol-5-Maturidade.md',
+  'volumes/IGNICAO-Vol-6-Referencia.md',
+];
+
 const topRe =
   /^## (?:(FASE \d+B?) — .+|APÊNDICE ([A-Z0-9-]+) — .+|(APÊNDICE — .+|APÊNDICE: .+|EPÍLOGO|GLOSSÁRIO|ÍNDICE REMISSIVO DE TERMOS-CHAVE))$/;
 
-const sectionsMap = new Map(); // key -> { key, heading, body }
+const rawSections = new Map(); // key -> { key, heading, body }
 let notaDoAutorBody = '';
 
-const existingFiles = fs
-  .readdirSync(VOLUMES_DIR)
-  .filter((f) => f.endsWith('.md'))
-  .sort();
+for (const relPath of BASE_VOLS) {
+  const raw = execFileSync('git', ['show', `738db95:${relPath}`], {
+    cwd: ROOT,
+    encoding: 'utf8',
+    maxBuffer: 50 * 1024 * 1024,
+  }).replace(/\r\n/g, '\n');
 
-for (const file of existingFiles) {
-  const fullPath = path.join(VOLUMES_DIR, file);
-  const raw = fs.readFileSync(fullPath, 'utf8').replace(/\r\n/g, '\n');
-  const lines = raw.split('\n');
-
-  // Extrair "Nota do autor" do Vol. 1 se presente
-  if (file.includes('Vol-1-')) {
+  if (relPath.includes('Vol-1-')) {
     const mNota = raw.match(/## Nota do autor\n[\s\S]*?(?=\n---\n\n## Sobre este livro)/);
-    if (mNota) {
-      notaDoAutorBody = mNota[0].trim();
-    }
+    if (mNota) notaDoAutorBody = mNota[0].trim();
   }
 
+  const lines = raw.split('\n');
   let inFence = false;
   const starts = [];
   for (let i = 0; i < lines.length; i++) {
@@ -71,14 +87,10 @@ for (const file of existingFiles) {
   for (let s = 0; s < starts.length; s++) {
     const curr = starts[s];
     const endLine = s + 1 < starts.length ? starts[s + 1].idx : lines.length;
-    const chunkLines = lines.slice(curr.idx, endLine);
-
-    // Remover divisores H1 (`# BLOCO`) e `---` soltos no final do chunk que pertenciam ao bloco seguinte
-    let chunk = chunkLines.join('\n').trim();
+    let chunk = lines.slice(curr.idx, endLine).join('\n').trim();
     chunk = chunk.replace(/\n+# [A-ZÀ-Ú][^\n]*[\s\S]*$/, '').trim();
     chunk = chunk.replace(/(?:\n+---)+\s*$/, '').trim();
-
-    sectionsMap.set(curr.key, {
+    rawSections.set(curr.key, {
       key: curr.key,
       heading: curr.heading,
       body: chunk,
@@ -86,776 +98,2177 @@ for (const file of existingFiles) {
   }
 }
 
-console.log(`Seções canônicas extraídas: ${sectionsMap.size} (esperado: 175)`);
-if (sectionsMap.size !== 175) {
-  throw new Error(`Esperadas 175 seções, mas foram extraídas ${sectionsMap.size}`);
+console.log(`[1/6] Seções base extraídas de 738db95: ${rawSections.size} (esperado: 175)`);
+if (rawSections.size !== 175) {
+  throw new Error(`Esperadas 175 seções, mas foram extraídas ${rawSections.size}`);
 }
 
 // ---------------------------------------------------------------------------
-// 2. Atualizar textos de transição nas Fases para refletir os 10 volumes
+// 2. Extrair todos os itens de BG (164), CZ (20), A (39), C (19) e E (18)
 // ---------------------------------------------------------------------------
-function updateSectionProse(key, body) {
-  let out = body;
-  if (key === 'FASE_2') {
-    out = out.replace(
-      'até o Plano de Exit, na [[IGNICAO-Vol-5-Maturidade#FASE 16 — EXIT STRATEGY|Fase 16 (Vol. 5)]]',
-      'até o Plano de Exit, na [[IGNICAO-Vol-7-Maturidade-e-Exit#FASE 16 — EXIT STRATEGY|Fase 16 (Vol. 7)]]'
-    );
-  }
-  if (key === 'FASE_9') {
-    out = out.replace(
-      /O que vem no \*\*Volume 3 — Tração \(Fases 10 a 12\)\*\* e no \*\*Volume 4 — Escala \(Fases 13 e 14\)\*\*:[\s\S]*?(?=\n\n> \[!important\] Sinais de progresso)/,
-      'O que vem no **Volume 3 — Tração (Fases 10 a 12)** e nos **Volumes 4 a 6 — Escala (Fases 13 e 14)**: construir o MVP de verdade na [[IGNICAO-Vol-3-Tracao#FASE 10 — MVP E EXPERIMENTOS DE MERCADO|Fase 10 (Vol. 3)]], colocar em mercado com usuários reais que pagam (ou pagam com atenção), medir unit economics na [[IGNICAO-Vol-3-Tracao#FASE 11 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 11 (Vol. 3)]], perseguir Product-Market Fit na [[IGNICAO-Vol-3-Tracao#FASE 12 — PRODUCT-MARKET FIT|Fase 12 (Vol. 3)]], e depois estruturar formalmente a empresa e captar no **Volume 4 (Captação e Finanças)**, escalar receita, liderança e cultura no **Volume 5 (Receita e Pessoas)** e consolidar engenharia, operações e blindagem legal no **Volume 6 (Engenharia, Operações e Jurídico)**. Essa travessia do MVP à escala leva de três a cinco anos típicos. Muitas empresas morrem nessa etapa por três motivos: escalar antes do PMF, ficar presa em "quase-PMF" sem reconhecer, e não conseguir unit economics positivas.'
-    );
-  }
-  if (key === 'FASE_12') {
-    out = out.replace(
-      /### Transição: do Volume 3 \(Tração\) para o Volume 4 \(Escala\)[\s\S]*?(?=\n\n> \[!warning\] Pré-condição para escalar)/,
-      `### Transição: do Volume 3 (Tração) para a Tríade de Escala (Volumes 4, 5 e 6)\n\nO que você acabou de fazer ao longo das Fases 10 a 12 deste **Volume 3 (Tração)**: construiu o MVP, validou o modelo de negócio com dados reais e atingiu PMF (ou diagnosticou que não atingiu, e está iterando). Esse trecho foi a travessia da descoberta para o mercado real: saiu de protótipo para produto, e de hipótese para fato. A segunda parte deste volume reúne os **20 apêndices operacionais** de Go-to-Market, canais de aquisição, vendas, pricing, economia da recorrência, dados, produto com IA, pivô e gestão financeira operacional.\n\nO que vem nos **Volumes 4, 5 e 6 (Escala)**: no **Volume 4 (Captação e Finanças)**, a [[IGNICAO-Vol-4-Captacao-e-Financas#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13 (Vol. 4)]] e seus 18 apêndices tratam da estruturação societária, captação de Venture Capital, valuation, contabilidade, tributário estratégico e FP&A; no **Volume 5 (Receita e Pessoas)**, a [[IGNICAO-Vol-5-Receita-e-Pessoas#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14 (Vol. 5)]] e seus 19 apêndices tratam da máquina comercial enterprise, RevOps, liderança executiva, remuneração/ESOP e cultura; e o **Volume 6 (Engenharia, Operações e Jurídico)** aprofunda nos seus 23 apêndices a gestão de produto e engenharia em escala, IA operacional, design organizacional e blindagem jurídica e trabalhista.`
-    );
-  }
-  if (key === 'FASE_13') {
-    out = out.replace(
-      'Com essa base formalizada, a [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] pode ser executada: construir time, operação e máquina de crescimento sem o risco jurídico e tributário de uma empresa ainda informal.',
-      'Com essa base formalizada e com o domínio dos 18 apêndices financeiros, de captação e societários deste **Volume 4**, a [[IGNICAO-Vol-5-Receita-e-Pessoas#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14 (no Volume 5 — Receita e Pessoas)]] pode ser executada: construir time, operação e máquina de crescimento sem o risco jurídico, societário e tributário de uma empresa ainda informal.'
-    );
-  }
-  if (key === 'FASE_14') {
-    out = out.replace(
-      /### Transição: das Fases de Escala para os Apêndices Operacionais \(Vol\. 4\) e o Ciclo Longo \(Vol\. 5\)[\s\S]*?(?=\n\n> \[!info\] Fases relacionadas)/,
-      `### Transição: da Fase 14 para os Apêndices de Escala (Volumes 5 e 6) e para a Maturidade (Volume 7)\n\nO que você acabou de fazer ao longo dos **Volumes 3, 4 e 5 (Fases 10 a 14)**: construiu o MVP, validou o modelo de negócio e atingiu PMF (Vol. 3), estruturou a empresa juridicamente e financeiramente na [[IGNICAO-Vol-4-Captacao-e-Financas#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13 (Vol. 4)]] e construiu a máquina de escala na [[#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14]] — time, operação, crescimento e capital. Essa é a travessia que separa a startup da scaleup.\n\nO que vem a seguir neste **Volume 5 (Receita e Pessoas)**, no **Volume 6 (Engenharia, Operações e Jurídico)** e no **Volume 7 (Maturidade e Exit)**: a segunda parte deste Volume 5 reúne **19 apêndices temáticos** sobre crescimento em escala, vendas enterprise, RevOps, parcerias corporativas, marca, liderança executiva, contratação C-level, compensação/ESOP e cultura. O **Volume 6** aprofunda produto em escala, gestão de engenharia, dívida técnica, IA, design organizacional, processos e toda a blindagem contratual, trabalhista, LGPD e de segurança da informação. Já o **Volume 7 — Maturidade e Exit** cobre as [[IGNICAO-Vol-7-Maturidade-e-Exit#FASE 15 — REINVENÇÃO E SEGUNDA CURVA|Fase 15 — Reinvenção e Segunda Curva (Vol. 7)]] e [[IGNICAO-Vol-7-Maturidade-e-Exit#FASE 16 — EXIT STRATEGY|Fase 16 — Exit Strategy (Vol. 7)]], além de governança de conselho (Board), internacionalização, crise severa, M&A e IPO.\n\n> [!important] Como usar os apêndices dos Volumes 4, 5, 6 e 7\n> Você não precisa ler os apêndices operacionais do começo ao fim em sequência única. Leia a introdução de domínio na abertura de cada bloco para entender como os capítulos daquele tema se conectam e consulte o apêndice correspondente à decisão que você tem na mesa.`
-    );
-  }
-  if (key === 'APÊNDICE — ÍNDICE REMISSIVO') {
-    out = out.replace(
-      '- **Escala (Volume 4 da jornada)**:',
-      '- **Escala (Volumes 4, 5 e 6 da jornada)**:'
-    );
-  }
-  return out;
+function demoteHeadings(md, delta) {
+  const lines = md.split('\n');
+  let inFence = false;
+  return lines
+    .map((line) => {
+      if (line.trim().startsWith('```')) inFence = !inFence;
+      if (!inFence && /^#{2,6}\s/.test(line)) {
+        return line.replace(/^(#{2,6})(\s)/, (_, hashes, sp) => {
+          const nextLen = Math.min(6, hashes.length + delta);
+          return '#'.repeat(nextLen) + sp;
+        });
+      }
+      return line;
+    })
+    .join('\n');
 }
 
-for (const [k, v] of sectionsMap.entries()) {
-  v.body = updateSectionProse(k, v.body);
+function promoteHeadings(md, delta) {
+  const lines = md.split('\n');
+  let inFence = false;
+  return lines
+    .map((line) => {
+      if (line.trim().startsWith('```')) inFence = !inFence;
+      if (!inFence && /^#{3,6}\s/.test(line)) {
+        return line.replace(/^(#{3,6})(\s)/, (_, hashes, sp) => {
+          const nextLen = Math.max(3, hashes.length - delta);
+          return '#'.repeat(nextLen) + sp;
+        });
+      }
+      return line;
+    })
+    .join('\n');
+}
+
+// 2.1 BG (164 itens: BG.1.1 .. BG.19.4)
+const bgRaw = rawSections.get('BG').body;
+const bgItems = new Map(); // 'BG.1.1' -> { code, title, heading, content }
+const bgRegex = /^## (BG\.\d+\.\d+) — ([^\n]+)\n([\s\S]*?)(?=\n## BG\.|\n# |(?![\s\S]))/gm;
+for (const m of bgRaw.matchAll(bgRegex)) {
+  const code = m[1].trim();
+  const title = m[2].trim();
+  const inner = demoteHeadings(m[3].trim().replace(/(?:\n+---)+\s*$/, ''), 2);
+  const heading = `Framework: ${title}`;
+  bgItems.set(code, {
+    code,
+    title,
+    heading,
+    content: `#### ${heading}\n\n${inner}`,
+  });
+}
+console.log(`      Frameworks BG extraídos: ${bgItems.size} (esperado: 164)`);
+
+// 2.2 CZ (20 itens: CZ.1 .. CZ.20)
+const czRaw = rawSections.get('CZ').body;
+const czItems = new Map(); // 'CZ.1' -> { code, title, heading, content }
+const czRegex = /^### (CZ\.\d+) — ([^\n]+)\n([\s\S]*?)(?=\n### CZ\.|(?![\s\S]))/gm;
+for (const m of czRaw.matchAll(czRegex)) {
+  const code = m[1].trim();
+  const title = m[2].trim();
+  const inner = demoteHeadings(m[3].trim().replace(/(?:\n+---)+\s*$/, ''), 1);
+  const heading = `Canvas: ${title}`;
+  czItems.set(code, {
+    code,
+    title,
+    heading,
+    content: `#### ${heading}\n\n${inner}`,
+  });
+}
+console.log(`      Canvases CZ extraídos:   ${czItems.size} (esperado: 20)`);
+
+// 2.3 A (39 itens: A.1 .. A.39)
+const aRaw = rawSections.get('A').body;
+const aItems = new Map(); // 'A.1' -> { code, title, heading, content }
+const aRegex =
+  /^### (A\.\d+)\s+([^\n]+)\n([\s\S]*?)(?=\n### A\.|\n## Templates preenchidos|(?![\s\S]))/gm;
+for (const m of aRaw.matchAll(aRegex)) {
+  const code = m[1].trim();
+  const rawTitle = m[2]
+    .trim()
+    .replace(/^[-—–]\s*/, '')
+    .replace(/\s*\(Fase[^)]*\)/gi, '')
+    .replace(/\s*\(Fases[^)]*\)/gi, '')
+    .replace(/\s*\(Apêndice[^)]*\)/gi, '')
+    .trim();
+  const inner = demoteHeadings(m[3].trim().replace(/(?:\n+---)+\s*$/, ''), 1);
+  const heading = `Template: ${rawTitle}`;
+  aItems.set(code, {
+    code,
+    title: rawTitle,
+    heading,
+    content: `#### ${heading}\n\n${inner}`,
+  });
+}
+console.log(`      Templates A extraídos:   ${aItems.size} (esperado: 39)`);
+
+// 2.4 C (Catálogo de Métricas por Fase)
+const cRaw = rawSections.get('C').body;
+const cItems = new Map(); // 'Fase 0' | 'Benchmarks' -> content
+const cRegex = /^### ([^\n]+)\n([\s\S]*?)(?=\n### |(?![\s\S]))/gm;
+for (const m of cRaw.matchAll(cRegex)) {
+  const subTitle = m[1].trim();
+  const subBody = demoteHeadings(m[2].trim().replace(/(?:\n+---)+\s*$/, ''), 1);
+  const fm = subTitle.match(/^(Fase \d+B?)\b/i);
+  if (fm) {
+    cItems.set(fm[1].toUpperCase().replace(' ', '_'), subBody);
+  } else if (subTitle.includes('Índice de benchmarks')) {
+    cItems.set('BENCHMARKS', subBody);
+  }
+}
+
+// 2.5 E (Recursos e Leituras Recomendadas)
+const eRaw = rawSections.get('E').body;
+const eItems = new Map();
+const eRegex = /^### ([^\n]+)\n([\s\S]*?)(?=\n### |(?![\s\S]))/gm;
+for (const m of eRaw.matchAll(eRegex)) {
+  const subTitle = m[1].trim();
+  const subBody = demoteHeadings(m[2].trim().replace(/(?:\n+---)+\s*$/, ''), 1);
+  eItems.set(subTitle, subBody);
+}
+
+function getEReadingBySubstring(substr) {
+  for (const [k, v] of eItems.entries()) {
+    if (k.includes(substr)) return { title: k, body: v };
+  }
+  return null;
 }
 
 // ---------------------------------------------------------------------------
-// 3. Definição da Arquitetura dos 10 Volumes
+// 3. Desmembrar FASE_14 nas 4 Fases de Escala (FASE_14D, FASE_14C, FASE_14A, FASE_14B)
+// ---------------------------------------------------------------------------
+const f14Lines = rawSections.get('FASE_14').body.split('\n');
+const idx14A = f14Lines.findIndex((l) => l.startsWith('### 14A —'));
+const idxTransAB = f14Lines.findIndex((l) => l.startsWith('### Transição, do Time à Operação'));
+const idx14B = f14Lines.findIndex((l) => l.startsWith('### 14B —'));
+const idxTransBC = f14Lines.findIndex((l) => l.startsWith('### Transição, da Operação ao Crescimento'));
+const idx14C = f14Lines.findIndex((l) => l.startsWith('### 14C —'));
+const idxPasso3 = f14Lines.findIndex((l) => l.startsWith('##### Passo 3, defina e monitore'));
+const idx14D = f14Lines.findIndex((l) => l.startsWith('### 14D —'));
+const idxPasso5 = f14Lines.findIndex((l) => l.startsWith('##### Passo 5, planeje expansão'));
+const idxPasso6 = f14Lines.findIndex((l) => l.startsWith('##### Passo 6, monitore eficiência'));
+const idxCriterios = f14Lines.findIndex((l) => l.startsWith('#### Critérios observáveis de sucesso'));
+const idxSintese14 = f14Lines.findIndex((l) => l.startsWith('### SÍNTESE DA FASE 14'));
+
+// 3.1 FASE 14 (Vol. 5): Capital para Escala, Rodadas e Eficiência Financeira (antiga 14D)
+const f14dCore = promoteHeadings(
+  [
+    ...f14Lines.slice(idxPasso3, idx14D),
+    ...f14Lines.slice(idx14D + 1, idxPasso5),
+    ...f14Lines.slice(idxPasso6, idxCriterios),
+  ].join('\n'),
+  1
+);
+
+const fase14dBody = `## FASE 14 — CAPITAL PARA ESCALA, RODADAS E EFICIÊNCIA FINANCEIRA
+
+> [!abstract] Resumo operacional — Fase 14
+> - **Entregável principal:** Plano de capital e eficiência financeira para 18–24 meses (painel das 9 métricas financeiras de scaleup, *data room* auditável, modelo financeiro *bottom-up* e estratégia de rodada Série A/B ou dívida estruturada).
+> - **Sinais de saída:** NRR ≥ 110%, *Burn Multiple* ≤ 1,5x, *Rule of 40* ≥ 40, *CAC Payback* < 12 meses e *runway* ≥ 18 meses.
+> - **Três armadilhas mais comuns:** (1) Iniciar captação com menos de 6 meses de caixa (modo sobrevivência); (2) Ignorar cláusulas predatórias de *liquidation preference* e *anti-dilution* por olhar apenas o *valuation* de manchete; (3) *Over-hiring* imediatamente após o cheque cair na conta sem eficiência de unit economics comprovada.
+
+### O que esta fase cobre
+
+Esta fase trata da arquitetura de capital, eficiência financeira e execução de rodadas de investimento (Série A em diante) quando a empresa já comprovou *Product-Market Fit* e precisa financiar sua máquina de crescimento sem perder o controle do *cap table* ou quebrar por queima ineficiente de caixa.
+
+### COMO
+
+${f14dCore}
+
+### PERGUNTAS A RESPONDER
+
+1. Qual é o uso exato do capital nos próximos 18 a 24 meses e quais marcos operacionais (*milestones*) ele destrava?
+2. As nove métricas financeiras de escala (ARR, Margem Bruta, NRR, GRR, *Burn Multiple*, *Magic Number*, *CAC Payback*, *Rule of 40* e *Runway*) estão em faixa saudável?
+3. Nosso *runway* atual permite negociar uma rodada de 5 a 7 meses em posição de força (idealmente ≥ 9 a 12 meses de caixa)?
+
+### SAÍDA DESTA FASE
+
+- [ ] Painel mensal das 9 métricas de saúde financeira implementado e auditado.
+- [ ] *Data room* completo, *pitch deck* estruturado e modelo financeiro de 36 meses prontos antes do primeiro café com investidores.
+- [ ] Termos de captação (*valuation*, *option pool*, *liquidation preference* 1x *non-participating*, *anti-dilution broad-based weighted average*) revisados por advogado especialista em VC.
+
+### FERRAMENTAS DESTA FASE
+
+Todos os frameworks de finanças, *unit economics* e *valuation*, bem como os canvases de narrativa/waterfall e os templates de rodada (*Data Room*, *Term Sheet Anotado*, *Plano de Rodada*, *Pitch Deck SCQA*, *Investor Update* e *Financiamento Não-Diluitivo*), estão detalhados integralmente nas subseções a seguir para aplicação direta nesta fase.
+
+### SÍNTESE DA FASE 14
+
+A **[[#FASE 14 — CAPITAL PARA ESCALA, RODADAS E EFICIÊNCIA FINANCEIRA|Fase 14]]** transforma o capital em instrumento de alavancagem deliberada, e não em troféu de imprensa. Com a saúde financeira monitorada por coorte e o caixa capitalizado com termos limpos, os capítulos a seguir deste **Volume 5** aprofundam contabilidade, Reforma Tributária, FP&A, *valuation*, Venture Capital, dívida e instrumentos conversíveis.`;
+
+rawSections.set('FASE_14D', {
+  key: 'FASE_14D',
+  heading: 'FASE 14 — CAPITAL PARA ESCALA, RODADAS E EFICIÊNCIA FINANCEIRA',
+  body: fase14dBody,
+});
+
+// 3.2 FASE 15 (Vol. 6): Máquina de Crescimento e Expansão em Escala (antiga 14C)
+const f14cCore = promoteHeadings(
+  [
+    ...f14Lines.slice(idx14C + 2, idxPasso3),
+    ...f14Lines.slice(idxPasso5, idxPasso6),
+    ...f14Lines.slice(idxCriterios, idxSintese14),
+  ].join('\n'),
+  1
+)
+  .replace(/^### COMO \(Crescimento e Capital\)/m, '### COMO')
+  .replace(/^### PERGUNTAS A RESPONDER \(Crescimento e Capital\)/m, '### PERGUNTAS A RESPONDER')
+  .replace(/^### DEFINIÇÃO DE SUCESSO \(Crescimento e Capital\)/m, '### SAÍDA DESTA FASE')
+  .replace(/^### ARMADILHAS \(Crescimento e Capital\)/m, '### ARMADILHAS')
+  .replace(/^### FERRAMENTAS DESTA SUBFASE \(Crescimento e Capital\)/m, '### FERRAMENTAS DESTA FASE');
+
+const fase14cBody = `## FASE 15 — MÁQUINA DE CRESCIMENTO E EXPANSÃO EM ESCALA
+
+${f14cCore}
+
+### SÍNTESE DA FASE 15
+
+Na **[[#FASE 15 — MÁQUINA DE CRESCIMENTO E EXPANSÃO EM ESCALA|Fase 15]]**, você transformou o esforço comercial concentrado no fundador em um sistema previsível de aquisição, retenção e expansão em dois eixos (profundidade no core antes da amplitude em novos mercados). Na sequência imediata deste volume (**[[#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16]]**), você construirá a liderança executiva e a cultura organizacional capazes de sustentar essa máquina.`;
+
+rawSections.set('FASE_14C', {
+  key: 'FASE_14C',
+  heading: 'FASE 15 — MÁQUINA DE CRESCIMENTO E EXPANSÃO EM ESCALA',
+  body: fase14cBody,
+});
+
+// 3.3 FASE 16 (Vol. 6): Time, Liderança Executiva e Cultura em Escala (antiga 14A)
+const f14aIntro = f14Lines.slice(1, idx14A).join('\n');
+const f14aCore = promoteHeadings(f14Lines.slice(idx14A + 2, idxTransAB).join('\n'), 1)
+  .replace(/^### COMO \(Time e Liderança\)/m, '### COMO')
+  .replace(/^### PERGUNTAS A RESPONDER \(Time e Liderança\)/m, '### PERGUNTAS A RESPONDER')
+  .replace(/^### DEFINIÇÃO DE SUCESSO \(Time e Liderança\)/m, '### SAÍDA DESTA FASE')
+  .replace(/^### ARMADILHAS \(Time e Liderança\)/m, '### ARMADILHAS')
+  .replace(/^### FERRAMENTAS DESTA SUBFASE \(Time e Liderança\)/m, '### FERRAMENTAS DESTA FASE');
+const f14aClosing = f14Lines
+  .slice(idxSintese14)
+  .join('\n')
+  .replace('### SÍNTESE DA FASE 14', '### SÍNTESE DA FASE 16')
+  .replace(/Diagnóstico organizacional \(Fase 14\)/g, 'Diagnóstico organizacional (Fase 16)');
+
+const fase14aBody = `## FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA
+
+${f14aIntro}
+
+${f14aCore}
+
+${f14aClosing}`;
+
+rawSections.set('FASE_14A', {
+  key: 'FASE_14A',
+  heading: 'FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA',
+  body: fase14aBody,
+});
+
+// 3.4 FASE 17 (Vol. 7): Operações, Processos e Gestão em Escala (antiga 14B)
+const f14bCore = promoteHeadings(f14Lines.slice(idx14B + 2, idxTransBC).join('\n'), 1)
+  .replace(/^### COMO \(Operações\)/m, '### COMO')
+  .replace(/^### PERGUNTAS A RESPONDER \(Operações\)/m, '### PERGUNTAS A RESPONDER')
+  .replace(/^### DEFINIÇÃO DE SUCESSO \(Operações\)/m, '### SAÍDA DESTA FASE')
+  .replace(/^### ARMADILHAS \(Operações\)/m, '### ARMADILHAS')
+  .replace(/^### CASO BRASILEIRO, Fase 14 \(Operações\)/m, '### CASO BRASILEIRO, Fase 17 (Operações)')
+  .replace(/^### FERRAMENTAS DESTA SUBFASE \(Operações\)/m, '### FERRAMENTAS DESTA FASE');
+
+const fase14bBody = `## FASE 17 — OPERAÇÕES, PROCESSOS E GESTÃO EM ESCALA
+
+> [!abstract] Resumo operacional — Fase 17
+> - **Entregável principal:** Sistema operacional de gestão em escala (cadência em 3 camadas, OKRs trimestrais e anuais, 10 processos críticos documentados, *stack* de dados e cultura de *blameless post-mortems*).
+> - **Sinais de saída:** Empresa opera por 30 dias sem intervenção tática diária do fundador; 100% dos times com OKRs claros e *Weekly Business Review* rodando no ritmo; incidentes críticos documentados com causa-raiz e prevenção.
+> - **Três armadilhas mais comuns:** (1) Burocratizar antes da hora (processo para proteger incompetência em vez de dar velocidade); (2) Transformar OKRs em lista de tarefas ou atrelá-los mecanicamente a bônus individual; (3) Deixar a comunicação interna quebrar na passagem de 20 para 100 pessoas.
+
+${f14bCore}
+
+### SÍNTESE DA FASE 17
+
+Na **[[#FASE 17 — OPERAÇÕES, PROCESSOS E GESTÃO EM ESCALA|Fase 17]]**, você instalou a arquitetura operacional que impede que o hipercrescimento gere caos. Os 11 capítulos a seguir deste **Volume 7** aprofundam a gestão de produto em múltiplos *squads*, liderança de engenharia, pagamento de dívida técnica, IA na engenharia de software, *AI Ops*, design organizacional e excelência operacional.`;
+
+rawSections.set('FASE_14B', {
+  key: 'FASE_14B',
+  heading: 'FASE 17 — OPERAÇÕES, PROCESSOS E GESTÃO EM ESCALA',
+  body: fase14bBody,
+});
+
+// ---------------------------------------------------------------------------
+// 4. Mapeamento das 21 Fases (FASE 0 a FASE 20) e do conteúdo embutido em cada uma
+// ---------------------------------------------------------------------------
+const PHASE_CONFIG = {
+  FASE_0: {
+    newNum: 0,
+    newHeading: 'FASE 0 — PREPARAÇÃO DO EMPREENDEDOR',
+    cKey: 'FASE_0',
+    bgs: ['BG.3.4', 'BG.2.11', 'BG.4.1', 'BG.4.7', 'BG.4.8', 'BG.5.3'],
+    czs: ['CZ.8'],
+    as: ['A.28'],
+    eSubstrings: ['Leituras fundamentais', 'Ensaios canônicos de Paul Graham', 'Startups em 13 frases'],
+  },
+  FASE_1: {
+    newNum: 1,
+    newHeading: 'FASE 1 — ENCONTRAR A IDEIA',
+    cKey: 'FASE_1',
+    bgs: ['BG.1.8', 'BG.2.4', 'BG.2.5', 'BG.4.3'],
+    czs: ['CZ.2'],
+    as: [],
+    eSubstrings: ['Frameworks e ferramentas úteis'],
+  },
+  FASE_2: {
+    newNum: 2,
+    newHeading: 'FASE 2 — ARTICULAÇÃO E CAPTURA DA IDEIA',
+    cKey: 'FASE_2',
+    bgs: ['BG.2.1', 'BG.2.2', 'BG.2.7', 'BG.2.8', 'BG.4.4'],
+    czs: ['CZ.1'],
+    as: ['A.1'],
+    eSubstrings: [],
+  },
+  FASE_2B: {
+    newNum: 3,
+    newHeading: 'FASE 3 — CONSTRUÇÃO DA TEORIA DO NEGÓCIO',
+    cKey: 'FASE_2B',
+    bgs: ['BG.4.2', 'BG.4.5', 'BG.4.6', 'BG.5.1', 'BG.5.2', 'BG.5.8', 'BG.5.9'],
+    czs: ['CZ.16'],
+    as: ['A.7', 'A.8', 'A.9'],
+    eSubstrings: [],
+  },
+  FASE_3: {
+    newNum: 4,
+    newHeading: 'FASE 4 — DESCOBERTA DO PROBLEMA',
+    cKey: 'FASE_3',
+    bgs: ['BG.6.1', 'BG.6.6', 'BG.6.7', 'BG.9.1', 'BG.9.2', 'BG.9.3'],
+    czs: ['CZ.6'],
+    as: ['A.2', 'A.27', 'A.30'],
+    eSubstrings: [],
+  },
+  FASE_4: {
+    newNum: 5,
+    newHeading: 'FASE 5 — PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY)',
+    cKey: 'FASE_4',
+    bgs: [
+      'BG.6.2',
+      'BG.6.3',
+      'BG.6.4',
+      'BG.6.5',
+      'BG.6.8',
+      'BG.9.4',
+      'BG.9.5',
+      'BG.9.6',
+      'BG.9.7',
+      'BG.11.1',
+      'BG.11.8',
+    ],
+    czs: ['CZ.3', 'CZ.7'],
+    as: ['A.5', 'A.24', 'A.29'],
+    eSubstrings: [],
+  },
+  FASE_5: {
+    newNum: 6,
+    newHeading: 'FASE 6 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA',
+    cKey: 'FASE_5',
+    bgs: [
+      'BG.1.1',
+      'BG.1.2',
+      'BG.1.3',
+      'BG.1.4',
+      'BG.1.5',
+      'BG.1.6',
+      'BG.1.7',
+      'BG.1.9',
+      'BG.2.3',
+      'BG.12.6',
+      'BG.12.7',
+      'BG.12.12',
+    ],
+    czs: ['CZ.4', 'CZ.15', 'CZ.18'],
+    as: ['A.11', 'A.12'],
+    eSubstrings: [],
+  },
+  FASE_6: {
+    newNum: 7,
+    newHeading: 'FASE 7 — FORMULAÇÃO RIGOROSA DE HIPÓTESES',
+    cKey: 'FASE_6',
+    bgs: ['BG.5.4', 'BG.5.6', 'BG.5.7', 'BG.5.10', 'BG.9.8'],
+    czs: ['CZ.14'],
+    as: ['A.3', 'A.10'],
+    eSubstrings: [],
+  },
+  FASE_7: {
+    newNum: 8,
+    newHeading: 'FASE 8 — EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA E DA SOLUÇÃO',
+    cKey: 'FASE_7',
+    bgs: ['BG.10.11', 'BG.10.12', 'BG.10.13', 'BG.8.1', 'BG.8.2', 'BG.8.3'],
+    czs: ['CZ.9'],
+    as: ['A.4', 'A.19'],
+    eSubstrings: [],
+  },
+  FASE_8: {
+    newNum: 9,
+    newHeading: 'FASE 9 — IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES',
+    cKey: 'FASE_8',
+    bgs: ['BG.10.2', 'BG.10.3', 'BG.10.5', 'BG.10.14', 'BG.11.2', 'BG.11.7'],
+    czs: ['CZ.5', 'CZ.11'],
+    as: ['A.23', 'A.25'],
+    eSubstrings: [],
+  },
+  FASE_9: {
+    newNum: 10,
+    newHeading: 'FASE 10 — TESTES DE SOLUÇÃO E USABILIDADE',
+    cKey: 'FASE_9',
+    bgs: ['BG.7.1', 'BG.7.2', 'BG.7.3', 'BG.7.4', 'BG.7.5', 'BG.7.6', 'BG.7.7'],
+    czs: [],
+    as: ['A.6', 'A.20'],
+    eSubstrings: [],
+  },
+  FASE_10: {
+    newNum: 11,
+    newHeading: 'FASE 11 — MVP E EXPERIMENTOS DE MERCADO',
+    cKey: 'FASE_10',
+    bgs: ['BG.10.8', 'BG.8.4', 'BG.12.1', 'BG.12.8', 'BG.12.11'],
+    czs: ['CZ.10'],
+    as: ['A.21'],
+    eSubstrings: [],
+  },
+  FASE_11: {
+    newNum: 12,
+    newHeading: 'FASE 12 — VALIDAÇÃO DO MODELO DE NEGÓCIO',
+    cKey: 'FASE_11',
+    bgs: ['BG.8.5', 'BG.8.6', 'BG.8.7', 'BG.12.4', 'BG.12.9'],
+    czs: ['CZ.13'],
+    as: [],
+    eSubstrings: [],
+  },
+  FASE_12: {
+    newNum: 13,
+    newHeading: 'FASE 13 — PRODUCT-MARKET FIT',
+    cKey: 'FASE_12',
+    bgs: [
+      'BG.11.3',
+      'BG.11.4',
+      'BG.11.5',
+      'BG.11.6',
+      'BG.13.1',
+      'BG.13.2',
+      'BG.13.3',
+      'BG.13.4',
+      'BG.13.5',
+    ],
+    czs: [],
+    as: ['A.22'],
+    eSubstrings: [],
+  },
+  FASE_14D: {
+    newNum: 14,
+    newHeading: 'FASE 14 — CAPITAL PARA ESCALA, RODADAS E EFICIÊNCIA FINANCEIRA',
+    cKey: 'BENCHMARKS',
+    bgs: [
+      'BG.18.1',
+      'BG.18.2',
+      'BG.18.3',
+      'BG.18.4',
+      'BG.18.5',
+      'BG.18.6',
+      'BG.18.7',
+      'BG.18.8',
+      'BG.18.9',
+      'BG.18.10',
+      'BG.18.11',
+    ],
+    czs: ['CZ.12', 'CZ.17'],
+    as: ['A.14', 'A.17', 'A.18', 'A.32', 'A.33', 'A.37'],
+    eSubstrings: [],
+  },
+  FASE_14C: {
+    newNum: 15,
+    newHeading: 'FASE 15 — MÁQUINA DE CRESCIMENTO E EXPANSÃO EM ESCALA',
+    cKey: null,
+    bgs: [
+      'BG.12.2',
+      'BG.12.3',
+      'BG.12.5',
+      'BG.14.1',
+      'BG.14.2',
+      'BG.14.3',
+      'BG.14.4',
+      'BG.14.5',
+      'BG.14.6',
+      'BG.14.7',
+    ],
+    czs: [],
+    as: ['A.13', 'A.15'],
+    eSubstrings: [],
+  },
+  FASE_14A: {
+    newNum: 16,
+    newHeading: 'FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA',
+    cKey: 'FASE_14',
+    bgs: [
+      'BG.5.5',
+      'BG.17.1',
+      'BG.17.2',
+      'BG.17.3',
+      'BG.17.4',
+      'BG.17.5',
+      'BG.17.6',
+      'BG.17.7',
+      'BG.17.8',
+      'BG.17.9',
+      'BG.17.10',
+      'BG.17.11',
+      'BG.17.12',
+      'BG.17.14',
+      'BG.17.15',
+    ],
+    czs: [],
+    as: ['A.16', 'A.34', 'A.38', 'A.39'],
+    eSubstrings: [],
+  },
+  FASE_14B: {
+    newNum: 17,
+    newHeading: 'FASE 17 — OPERAÇÕES, PROCESSOS E GESTÃO EM ESCALA',
+    cKey: null,
+    bgs: [
+      'BG.10.1',
+      'BG.10.4',
+      'BG.10.6',
+      'BG.10.7',
+      'BG.10.9',
+      'BG.16.1',
+      'BG.16.2',
+      'BG.16.3',
+      'BG.16.4',
+      'BG.16.5',
+      'BG.16.6',
+      'BG.16.7',
+      'BG.16.8',
+      'BG.16.9',
+      'BG.16.10',
+      'BG.16.11',
+      'BG.16.12',
+      'BG.16.13',
+      'BG.16.14',
+      'BG.17.13',
+    ],
+    czs: ['CZ.19'],
+    as: ['A.26', 'A.35', 'A.36'],
+    eSubstrings: [],
+  },
+  FASE_13: {
+    newNum: 18,
+    newHeading: 'FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL',
+    cKey: 'FASE_13',
+    bgs: [],
+    czs: [],
+    as: [],
+    eSubstrings: [
+      'Profissionais que você vai precisar',
+      'Tipos de comunidades e recursos online',
+      'Artigos práticos abertos ao público',
+    ],
+  },
+  FASE_15: {
+    newNum: 19,
+    newHeading: 'FASE 19 — REINVENÇÃO E SEGUNDA CURVA',
+    cKey: 'FASE_15',
+    bgs: ['BG.2.6', 'BG.3.1', 'BG.3.2', 'BG.3.3', 'BG.19.1', 'BG.19.2', 'BG.19.3', 'BG.19.4'],
+    czs: ['CZ.20'],
+    as: [],
+    eSubstrings: [],
+  },
+  FASE_16: {
+    newNum: 20,
+    newHeading: 'FASE 20 — ESTRATÉGIA DE SAÍDA (EXIT STRATEGY)',
+    cKey: 'FASE_16',
+    bgs: [],
+    czs: [],
+    as: ['A.31'],
+    eSubstrings: [],
+  },
+};
+
+// Conteúdos embutidos em Capítulos específicos (ex-Apêndices):
+const CHAPTER_EXTRAS = {
+  D: { eSubstrings: ['Apêndice D'] },
+  F: { eSubstrings: ['Artigos e papers acadêmicos sobre a abordagem científica'] },
+  S: { eSubstrings: ['Apêndice S'] },
+  AE: { bgs: ['BG.12.10'] },
+  BE: { bgs: ['BG.12.13'] },
+  J: { eSubstrings: ['Apêndice J'] },
+  CP: { eSubstrings: ['Apêndice CP'] },
+  DS: { bgs: ['BG.15.1', 'BG.15.2', 'BG.15.3', 'BG.15.4'] },
+  V: { eSubstrings: ['Apêndice V'] },
+  P: { eSubstrings: ['Apêndice P'] },
+  CQ: { eSubstrings: ['Apêndice CQ'] },
+  R: { eSubstrings: ['Apêndice R'] },
+  T: { eSubstrings: ['Apêndice T'] },
+  CW: { eSubstrings: ['Apêndice CW'] },
+};
+
+// Função que injeta Métricas, Frameworks, Canvases, Templates e Leituras na Fase
+function enrichPhaseBody(phaseKey, rawBody) {
+  const cfg = PHASE_CONFIG[phaseKey];
+  if (!cfg) return rawBody;
+
+  let body = rawBody
+    .replace(/^## FASE \d+B? — [^\n]+/m, `## ${cfg.newHeading}`)
+    .replace(/^### SÍNTESE DA FASE \d+B?/m, `### SÍNTESE DA FASE ${cfg.newNum}`);
+
+  // Ajustar blocos de transição herdados da antiga arquitetura de 6 volumes:
+  if (phaseKey === 'FASE_2') {
+    body = body.replace(
+      'A Fase 3 vai usar o "para quem" e a lista de incertezas desta Declaração como ponto de partida para as primeiras entrevistas de descoberta de problema.',
+      'A Fase 3 vai usar esta Declaração para estruturar a árvore causal da teoria do negócio, e a Fase 4 (no Volume 2) usará o "para quem" e a lista de incertezas como ponto de partida para as primeiras entrevistas de descoberta de problema.'
+    );
+  } else if (phaseKey === 'FASE_2B') {
+    body = body
+      .replace(
+        /As Fases 3 a 7 \(no \*\*Volume 2 — Validação\*\*\) não testam ideia em geral/g,
+        'As Fases 4 a 10 (nos **Volumes 2 e 3**) não testam ideia em geral'
+      )
+      .replace(
+        /### Transição: do Volume 1 \(Ideação\) para o Volume 2 \(Validação\)[\s\S]*$/,
+        `### Transição: do Volume 1 (Ideação e Fundação) para o Volume 2 (Descoberta e Mercado)
+
+O que você acabou de fazer ao longo das Fases 0 a 3 deste **Volume 1 (Ideação e Fundação)**: preparou-se pessoal e financeiramente como fundador, gerou e filtrou ideias com método, articulou a candidata na Declaração Inicial da Ideia (DII) e construiu a árvore de teoria causal explícita do negócio — tudo com seus frameworks, canvases e templates integrados em cada fase. A segunda metade deste volume reúne os **13 capítulos** de fundação pessoal, cognição, decisão, comunicação, produtividade com IA e ecossistema.
+
+O próximo passo sequencial da jornada está no **Volume 2 — Descoberta de Cliente e Mapeamento de Mercado**, começando na [[#FASE 4 — DESCOBERTA DO PROBLEMA|Fase 4 — Descoberta do Problema]]: sair do papel e ir a campo entrevistar clientes reais (*Mom Test* e *JTBD*), pesquisar usuários em profundidade e mapear o mercado, a concorrência e a cunha de entrada.`
+      );
+  } else if (phaseKey === 'FASE_3') {
+    body = body.replace(
+      'A Fase 4 vai usar esse Mapa para estruturar o conhecimento em Jobs to be Done',
+      'A [[#FASE 5 — PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY)|Fase 5]] vai usar esse Mapa para estruturar o conhecimento em Jobs to be Done'
+    );
+  } else if (phaseKey === 'FASE_4') {
+    body = body.replace(
+      'Esse dossiê é insumo das Fases 8 e 9, ideação e protótipo.',
+      'Esse dossiê é insumo das Fases 9 e 10 (ideação, prototipagem e testes de solução, no Volume 3).'
+    );
+  } else if (phaseKey === 'FASE_5') {
+    body =
+      body +
+      `\n\n---\n\n### Transição: do Volume 2 (Descoberta e Mercado) para o Volume 3 (Hipóteses, Experimentos e Prototipagem)\n\nAo concluir as Fases 4, 5 e 6 deste **Volume 2**, você ouviu o cliente sem viés (*Mom Test*), mapeou os *Jobs to Be Done* e a jornada real de compra e dissecou a estrutura competitiva do mercado e sua cunha de entrada (*wedge*). Os **4 capítulos** a seguir aprofundam a psicologia do consumidor brasileiro, inteligência competitiva, *Category Design* e posicionamento.\n\nO próximo passo da jornada está no **Volume 3 — Hipóteses, Experimentos, Prototipagem e Modelos de Negócio**, começando na [[#FASE 7 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 7 — Formulação Rigorosa de Hipóteses]]: converter suas descobertas em apostas matematicamente falsificáveis, rodar experimentos de compromisso real, prototipar e testar a usabilidade do MVP.`;
+  } else if (phaseKey === 'FASE_6') {
+    body = body.replace(
+      'as Fases 7, 8, 9 e 10 não testam ideia em geral',
+      'as Fases 8, 9, 10 e 11 não testam ideia em geral'
+    );
+  } else if (phaseKey === 'FASE_7') {
+    body = body.replace(
+      'Para avançar à Fase 8, pelo menos três a cinco hipóteses',
+      'Para avançar à [[#FASE 9 — IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES|Fase 9]], pelo menos três a cinco hipóteses'
+    );
+  } else if (phaseKey === 'FASE_9') {
+    body = body
+      .replace(
+        'a Fase 8 produziu conceitos testados em protótipo; a Fase 9 converte os aprendizados em especificação vinculante',
+        'a [[#FASE 9 — IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES|Fase 9]] produziu conceitos testados em protótipo; a [[#FASE 10 — TESTES DE SOLUÇÃO E USABILIDADE|Fase 10]] converte os aprendizados em especificação vinculante'
+      )
+      .replace(
+        /### Transição: do Volume 2 \(Validação\) para o Volume 3 \(Tração\)[\s\S]*$/,
+        `### Transição: do Volume 3 (Hipóteses, Experimentos e Prototipagem) para o Volume 4 (Tração e PMF)
+
+O que você acabou de fazer ao longo dos **Volumes 1, 2 e 3 (Fases 0 a 10)**: preparou-se como fundador, gerou ideias com método e construiu a teoria causal do negócio (Vol. 1); descobriu problemas reais em campo e mapeou usuários, mercado e cunha (Vol. 2); formulou hipóteses *bet-the-company*, validou as centrais com experimentos rigorosos, prototipou, testou com usuários reais e chegou a uma especificação de MVP com escopo disciplinado (*MoSCoW*) e *pricing* testado (Vol. 3). Os **9 capítulos** a seguir deste volume entregam o aparelho do método científico, os *gates* de evidência e os playbooks de arquiteturas de modelo de negócio (*Marketplaces*, *Plataformas*, *B2B2C* e *Open Source*).
+
+O próximo passo está no **Volume 4 — Tração, Go-to-Market e Product-Market Fit (Fases 11 a 13)**: colocar o MVP em produção com clientes reais na [[#FASE 11 — MVP E EXPERIMENTOS DE MERCADO|Fase 11]], validar a equação econômica e os canais na [[#FASE 12 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 12]] e comprovar o *Product-Market Fit* na [[#FASE 13 — PRODUCT-MARKET FIT|Fase 13]].
+
+> [!important] Sinais de progresso versus sinal de PMF
+> Sinal de progresso: usuários pagantes em uso real do MVP. Sinal de PMF: Sean Ellis maior ou igual a quarenta por cento, mais retenção estabilizada, mais crescimento orgânico.`
+      );
+  } else if (phaseKey === 'FASE_12') {
+    body = body.replace(
+      /### Transição: do Volume 3 \(Tração\) para o Volume 4 \(Escala\)[\s\S]*$/,
+      `### Transição: do Volume 4 (Tração e PMF) para os Volumes de Escala (Volumes 5 a 8)
+
+O que você acabou de fazer ao longo das Fases 11 a 13 deste **Volume 4 (Tração, Go-to-Market e PMF)**: colocou o MVP em produção, validou o modelo de negócio com dados reais e comprovou o *Product-Market Fit*. Os **16 capítulos** a seguir deste volume reúnem o manual completo de *Go-to-Market*, canais de aquisição, vendas consultivas, *pricing*, recorrência, negociação, *Customer Success*, *stack* de dados, produto *AI-native* e pivô.
+
+A partir daqui, sua empresa entra nos **quatro volumes autocontidos de Escala (Volumes 5 a 8)**:
+- **Volume 5 — Finanças, Captação e Venture Capital ([[#FASE 14 — CAPITAL PARA ESCALA, RODADAS E EFICIÊNCIA FINANCEIRA|Fase 14]]):** estruturação financeira, rodadas de investimento, *valuation*, Reforma Tributária e FP&A.
+- **Volume 6 — Receita Enterprise, Liderança e Cultura ([[#FASE 15 — MÁQUINA DE CRESCIMENTO E EXPANSÃO EM ESCALA|Fases 15]] e [[#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|16]]):** máquina comercial *Enterprise*, *RevOps*, executivos C-level, remuneração, ESOP e cultura.
+- **Volume 7 — Produto, Engenharia, Dados, IA e Operações ([[#FASE 17 — OPERAÇÕES, PROCESSOS E GESTÃO EM ESCALA|Fase 17]]):** cadência operacional, OKRs, *discovery* em múltiplos *squads*, engenharia de software e *AI Ops*.
+- **Volume 8 — Blindagem Jurídica, Societária, LGPD e Segurança ([[#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18]]):** estruturação societária, contratos, trabalhista, propriedade intelectual, LGPD e cibersegurança.
+
+> [!warning] Pré-condição para escalar
+> Estruturar e escalar assumem PMF comprovado na Fase 13. Se você está aqui sem PMF sólido, pare e volte. Escalar sem PMF queima capital em ICP errado, contratações erradas e canais errados.`
+    );
+  } else if (phaseKey === 'FASE_14A') {
+    body = body.replace(
+      /### Transição: das Fases de Escala para os Apêndices Operacionais \(Vol\. 4\) e o Ciclo Longo \(Vol\. 5\)[\s\S]*$/,
+      `### Transição: das Fases 15 e 16 para os Capítulos de Receita e Pessoas (Vol. 6) e os Volumes 7 a 9
+
+Ao longo das **Fases 15 e 16** deste **Volume 6**, você estruturou a máquina de crescimento comercial e a arquitetura de liderança executiva e cultura para a travessia de 20 para 200+ pessoas. Os **19 capítulos** a seguir deste volume aprofundam *Growth*, vendas *Enterprise*, *RevOps*, parcerias corporativas, marca/PR, *Founder Mode*, contratação de executivos, performance, remuneração, *Stock Options (ESOP)* e cultura em escala.
+
+Para completar a arquitetura de escala e maturidade da sua companhia, siga para o **Volume 7 (Produto, Engenharia, Dados, IA e Operações — Fase 17)**, o **Volume 8 (Blindagem Jurídica, Societária, LGPD e Segurança — Fase 18)** e o **Volume 9 (Maturidade, Governança, Crise e Exit — Fases 19 e 20)**.`
+    );
+  } else if (phaseKey === 'FASE_15') {
+    body = body
+      .replace(/faz o exit \(Fase 16\)/g, 'faz o exit (Fase 20)')
+      .replace(
+        'BF é a continuação natural depois do exit da Fase 16.',
+        'o Capítulo 22 (Second-Time Founder) é a continuação natural depois do exit da Fase 20.'
+      );
+  }
+
+  // Construir blocos autocontidos
+  const blocks = [];
+
+  if (cfg.cKey && cItems.has(cfg.cKey)) {
+    blocks.push(
+      `### MÉTRICAS E BENCHMARKS DESTA FASE (FASE ${cfg.newNum})\n\n${cItems.get(cfg.cKey)}`
+    );
+  }
+
+  if (cfg.bgs.length > 0) {
+    const bgChunks = cfg.bgs.map((code) => {
+      const item = bgItems.get(code);
+      if (!item) throw new Error(`BG não encontrado: ${code}`);
+      return item.content;
+    });
+    blocks.push(
+      `### MANUAL PASSO A PASSO DOS FRAMEWORKS DESTA FASE\n\n> [!tip] Uso autocontido neste volume\n> Todos os frameworks abaixo estão detalhados integralmente com origem, estrutura, passo a passo de aplicação, exemplo brasileiro e armadilhas para execução imediata nesta **Fase ${cfg.newNum}**.\n\n` +
+        bgChunks.join('\n\n---\n\n')
+    );
+  }
+
+  if (cfg.czs.length > 0) {
+    const czChunks = cfg.czs.map((code) => {
+      const item = czItems.get(code);
+      if (!item) throw new Error(`CZ não encontrado: ${code}`);
+      return item.content;
+    });
+    blocks.push(
+      `### CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)\n\n` +
+        czChunks.join('\n\n---\n\n')
+    );
+  }
+
+  if (cfg.as.length > 0) {
+    const aChunks = cfg.as.map((code) => {
+      const item = aItems.get(code);
+      if (!item) throw new Error(`Template A não encontrado: ${code}`);
+      return item.content;
+    });
+    blocks.push(
+      `### TEMPLATES OPERACIONAIS E CASOS PREENCHIDOS DESTA FASE\n\n` +
+        aChunks.join('\n\n---\n\n')
+    );
+  }
+
+  if (cfg.eSubstrings.length > 0) {
+    const eChunks = [];
+    for (const sub of cfg.eSubstrings) {
+      const found = getEReadingBySubstring(sub);
+      if (found) {
+        eChunks.push(`#### ${found.title}\n\n${found.body}`);
+      }
+    }
+    if (eChunks.length > 0) {
+      blocks.push(`### LEITURAS E RECURSOS RECOMENDADOS DESTA FASE\n\n` + eChunks.join('\n\n'));
+    }
+  }
+
+  if (blocks.length === 0) return body;
+
+  const injected = '\n\n---\n\n' + blocks.join('\n\n---\n\n') + '\n\n---\n\n';
+  const sinteseMatch = body.match(/\n### SÍNTESE DA FASE \d+/);
+  if (sinteseMatch) {
+    const idx = sinteseMatch.index;
+    return body.slice(0, idx) + injected + body.slice(idx + 1);
+  }
+  return body + injected;
+}
+
+// Função que transforma um antigo APÊNDICE XX em CAPÍTULO N — TÍTULO e injeta extras
+function buildChapterSection(oldKey, chapNum, rawSection) {
+  const cleanTitle = rawSection.heading
+    .replace(/^APÊNDICE [A-Z0-9-]+\s*—\s*/, '')
+    .trim();
+  const newHeading = `CAPÍTULO ${chapNum} — ${cleanTitle}`;
+  let body = rawSection.body.replace(/^## APÊNDICE [^\n]+/m, `## ${newHeading}`);
+
+  if (oldKey === 'I') {
+    body = body
+      .replace('### Fase 0 a 1B, Preparação, Articulação, e Teoria', '### Fases 0 a 3 — Preparação, Ideia, Articulação e Teoria')
+      .replace('### Fase 3, Descoberta do Problema, e Pesquisa com Usuários', '### Fases 4 e 5 — Descoberta do Problema e Pesquisa com Usuários')
+      .replace('### Fase 5, Mapeamento de Mercado', '### Fase 6 — Mapeamento de Mercado e Concorrência')
+      .replace('### Fase 6, Hipóteses, e Experimentos', '### Fases 7 e 8 — Hipóteses e Experimentos de Validação')
+      .replace('### Fase 8, Ideação, e Testes de Solução', '### Fases 9 e 10 — Ideação, Prototipagem e Testes de Solução')
+      .replace('### Fase 10, MVP, e Validação de Modelo', '### Fases 11 e 12 — MVP e Validação do Modelo de Negócio')
+      .replace('### Fase 12 a 13, PMF, Estruturação, e Escala', '### Fases 13 a 18 — Product-Market Fit, Escala e Estruturação')
+      .replace('### Fase 15, Reinvenção, e Exit', '### Fases 19 e 20 — Reinvenção e Estratégia de Saída (Exit)');
+  }
+
+  // Dentro de capítulos (antigos apêndices), converter autorreferências "este apêndice" -> "este capítulo"
+  body = body
+    .replace(/\beste apêndice\b/g, 'este capítulo')
+    .replace(/\bEste apêndice\b/g, 'Este capítulo')
+    .replace(/\bneste apêndice\b/g, 'neste capítulo')
+    .replace(/\bNeste apêndice\b/g, 'Neste capítulo')
+    .replace(/\besse apêndice\b/g, 'esse capítulo')
+    .replace(/\bEsse apêndice\b/g, 'Esse capítulo')
+    .replace(/\bdeste apêndice\b/g, 'deste capítulo')
+    .replace(/\bDeste apêndice\b/g, 'Deste capítulo');
+
+  const extras = CHAPTER_EXTRAS[oldKey];
+  if (extras) {
+    const extraBlocks = [];
+    if (extras.bgs && extras.bgs.length > 0) {
+      const bgChunks = extras.bgs.map((c) => bgItems.get(c).content);
+      extraBlocks.push(
+        `### FRAMEWORKS PASSO A PASSO DESTE CAPÍTULO\n\n` + bgChunks.join('\n\n---\n\n')
+      );
+    }
+    if (extras.eSubstrings && extras.eSubstrings.length > 0) {
+      const eChunks = [];
+      for (const sub of extras.eSubstrings) {
+        const found = getEReadingBySubstring(sub);
+        if (found) {
+          eChunks.push(found.body);
+        }
+      }
+      if (eChunks.length > 0) {
+        extraBlocks.push(`### LEITURAS E REFERÊNCIAS COMPLEMENTARES\n\n` + eChunks.join('\n\n'));
+      }
+    }
+    if (extraBlocks.length > 0) {
+      body = body + '\n\n---\n\n' + extraBlocks.join('\n\n---\n\n');
+    }
+  }
+
+  return {
+    oldKey,
+    chapNum,
+    cleanTitle,
+    heading: newHeading,
+    body,
+  };
+}
+
+// ---------------------------------------------------------------------------
+// 5. Especificação dos 10 Volumes Autocontidos
 // ---------------------------------------------------------------------------
 const VOLUMES_SPEC = [
   {
     num: 1,
     slug: 'IGNICAO-Vol-1-Ideacao',
-    title: 'IGNIÇÃO — Volume 1: Ideação',
-    subtitle: 'Do Pré-Zero à Tese de Negócio (Fases 0 a 2B)',
+    title: 'IGNIÇÃO — Volume 1: Ideação e Fundação',
+    subtitle: 'Do Pré-Zero à Teoria do Negócio (Fases 0 a 3 e Capítulos 1 a 13)',
     about: '', // Usa Nota do autor + Sobre este livro
     blocks: [
       {
-        h1: 'FASES DA ETAPA — IDEAÇÃO',
-        tocGroup: 'Fases da Etapa (Ideação)',
+        h1: 'FASES DA ETAPA — IDEAÇÃO E FUNDAÇÃO (FASES 0 A 3)',
+        tocGroup: 'Fases da Etapa (Fases 0 a 3)',
         intro: DOMAIN_INTROS.V1_FASES,
-        keys: ['FASE_0', 'FASE_1', 'FASE_2', 'FASE_2B'],
+        items: [
+          { type: 'phase', key: 'FASE_0' },
+          { type: 'phase', key: 'FASE_1' },
+          { type: 'phase', key: 'FASE_2' },
+          { type: 'phase', key: 'FASE_2B' },
+        ],
       },
       {
-        h1: 'FUNDADOR, CO-FOUNDERS E PREPARAÇÃO PESSOAL',
-        tocGroup: 'Fundador, Co-founders e Preparação Pessoal',
+        h1: 'FUNDADOR, COFUNDADORES E PREPARAÇÃO PESSOAL (CAPÍTULOS 1 A 5)',
+        tocGroup: 'Fundador, Cofundadores e Preparação Pessoal (Capítulos 1 a 5)',
         intro: DOMAIN_INTROS.V1_BLOCO_1,
-        keys: ['AJ', 'Y', 'D', 'CS', 'CN'],
+        items: [
+          { type: 'chapter', key: 'AJ' },
+          { type: 'chapter', key: 'Y' },
+          { type: 'chapter', key: 'D' },
+          { type: 'chapter', key: 'CS' },
+          { type: 'chapter', key: 'CN' },
+        ],
       },
       {
-        h1: 'COGNIÇÃO, DECISÃO, COMUNICAÇÃO E PRODUTIVIDADE COM IA',
-        tocGroup: 'Cognição, Decisão, Comunicação e Produtividade com IA',
+        h1: 'COGNIÇÃO, DECISÃO, COMUNICAÇÃO E PRODUTIVIDADE COM IA (CAPÍTULOS 6 A 11)',
+        tocGroup: 'Cognição, Decisão, Comunicação e Produtividade com IA (Capítulos 6 a 11)',
         intro: DOMAIN_INTROS.V1_BLOCO_2,
-        keys: ['EJ', 'EK', 'EW', 'EX', 'I', 'CT'],
+        items: [
+          { type: 'chapter', key: 'EJ' },
+          { type: 'chapter', key: 'EK' },
+          { type: 'chapter', key: 'EW' },
+          { type: 'chapter', key: 'EX' },
+          { type: 'chapter', key: 'I' },
+          { type: 'chapter', key: 'CT' },
+        ],
       },
       {
-        h1: 'ECOSSISTEMA, MENTORIA E APOIO INICIAL',
-        tocGroup: 'Ecossistema, Mentoria e Apoio Inicial',
+        h1: 'ECOSSISTEMA, MENTORIA E APOIO INICIAL (CAPÍTULOS 12 E 13)',
+        tocGroup: 'Ecossistema, Mentoria e Apoio Inicial (Capítulos 12 e 13)',
         intro: DOMAIN_INTROS.V1_BLOCO_3,
-        keys: ['AK', 'AL'],
+        items: [
+          { type: 'chapter', key: 'AK' },
+          { type: 'chapter', key: 'AL' },
+        ],
       },
     ],
   },
   {
     num: 2,
-    slug: 'IGNICAO-Vol-2-Validacao',
-    title: 'IGNIÇÃO — Volume 2: Validação',
-    subtitle: 'Da Descoberta do Problema ao Protótipo Testado (Fases 3 a 9)',
+    slug: 'IGNICAO-Vol-2-Descoberta-e-Mercado',
+    title: 'IGNIÇÃO — Volume 2: Descoberta de Cliente e Mapeamento de Mercado',
+    subtitle: 'Customer Discovery, Pesquisa de Campo, Concorrência e Cunha Estratégica (Fases 4 a 6 e Capítulos 1 a 4)',
     about:
-      'Cobre o ciclo completo de validação antes do código em produção: descoberta do problema em campo com Mom Test (Fase 3), pesquisa aprofundada de usuários e Jobs-to-be-Done (Fase 4), mapeamento de mercado, concorrência e cunha de entrada (Fase 5), formulação de hipóteses falsificáveis (Fase 6), experimentos de validação com compromisso real (Fase 7), prototipagem enxuta (Fase 8) e testes de usabilidade e especificação vinculante de MVP (Fase 9), seguidos por 12 apêndices sobre método científico, psicologia do consumidor brasileiro, inteligência competitiva, design de categoria e arquiteturas de modelo de negócio.',
+      'Volume 100% autocontido dedicado à descoberta profunda do cliente e do mercado antes de qualquer linha de código: Descoberta do Problema em campo com Mom Test (Fase 4), Pesquisa com Usuários e Jobs-to-be-Done (Fase 5) e Mapeamento de Mercado, Concorrência e Cunha (Fase 6) — com todos os seus 29 frameworks passo a passo, 6 canvases visuais preenchidos, 8 templates/roteiros de entrevista e métricas integrados dentro de cada fase —, seguidos por 4 capítulos sobre psicologia do consumidor brasileiro, inteligência competitiva, Category Design e posicionamento estratégico.',
     blocks: [
       {
-        h1: 'FASES DA ETAPA — VALIDAÇÃO',
-        tocGroup: 'Fases da Etapa (Validação)',
+        h1: 'FASES DA ETAPA — DESCOBERTA DE CLIENTE E MAPEAMENTO DE MERCADO (FASES 4 A 6)',
+        tocGroup: 'Fases da Etapa (Fases 4 a 6)',
         intro: DOMAIN_INTROS.V2_FASES,
-        keys: ['FASE_3', 'FASE_4', 'FASE_5', 'FASE_6', 'FASE_7', 'FASE_8', 'FASE_9'],
+        items: [
+          { type: 'phase', key: 'FASE_3' },
+          { type: 'phase', key: 'FASE_4' },
+          { type: 'phase', key: 'FASE_5' },
+        ],
       },
       {
-        h1: 'METODOLOGIA CIENTÍFICA, GATES E MATURIDADE',
-        tocGroup: 'Metodologia Científica, Gates e Maturidade',
+        h1: 'CONSUMIDOR BRASILEIRO, INTELIGÊNCIA COMPETITIVA E DESIGN DE CATEGORIA (CAPÍTULOS 1 A 4)',
+        tocGroup: 'Consumidor Brasileiro, Inteligência Competitiva e Design de Categoria (Capítulos 1 a 4)',
         intro: DOMAIN_INTROS.V2_BLOCO_1,
-        keys: ['F', 'G', 'H', 'L'],
-      },
-      {
-        h1: 'CONSUMIDOR, INTELIGÊNCIA COMPETITIVA E POSICIONAMENTO DE CATEGORIA',
-        tocGroup: 'Consumidor, Inteligência Competitiva e Posicionamento de Categoria',
-        intro: DOMAIN_INTROS.V2_BLOCO_2,
-        keys: ['FF', 'EE', 'S', 'AI'],
-      },
-      {
-        h1: 'ARQUITETURA DE MODELO DE NEGÓCIO (MARKETPLACES, PLATAFORMAS, B2B2C E OPEN SOURCE)',
-        tocGroup: 'Arquitetura de Modelo de Negócio (Marketplaces, Plataformas, B2B2C e Open Source)',
-        intro: DOMAIN_INTROS.V2_BLOCO_3,
-        keys: ['AE', 'CC', 'CK', 'BE'],
+        items: [
+          { type: 'chapter', key: 'FF' },
+          { type: 'chapter', key: 'EE' },
+          { type: 'chapter', key: 'S' },
+          { type: 'chapter', key: 'AI' },
+        ],
       },
     ],
   },
   {
     num: 3,
-    slug: 'IGNICAO-Vol-3-Tracao',
-    title: 'IGNIÇÃO — Volume 3: Tração',
-    subtitle: 'Do MVP ao Product-Market Fit (Fases 10 a 12)',
+    slug: 'IGNICAO-Vol-3-Experimentos-e-Prototipagem',
+    title: 'IGNIÇÃO — Volume 3: Hipóteses, Experimentos, Prototipagem e Modelos de Negócio',
+    subtitle: 'Método Científico, Testes de Validação, Usabilidade e Arquitetura de Plataformas (Fases 7 a 10 e Capítulos 1 a 9)',
     about:
-      'Cobre a travessia crítica do lançamento do MVP em produção até a comprovação matemática e comportamental do Product-Market Fit: operação de MVP e métricas AARRR (Fase 10), validação de unit economics e sustentabilidade do modelo (Fase 11) e diagnóstico rigoroso de PMF por coorte (Fase 12), acompanhados por 20 apêndices sobre Go-to-Market até R$ 1M de ARR, canais de aquisição, vendas iniciais, precificação, economia da recorrência, Customer Success, analytics, produto AI-native, decisão de pivô e gestão de caixa.',
+      'Volume 100% autocontido dedicado à validação científica, experimentação prática e construção do protótipo testado: Formulação Rigorosa de Hipóteses (Fase 7), Experimentos de Validação com compromisso real (Fase 8), Ideação e Prototipagem de Soluções (Fase 9) e Testes de Solução, Usabilidade e Especificação de MVP (Fase 10) — trazendo embutidos 24 frameworks passo a passo de análise de risco, experimentação, design sprint e UX research, os canvases Hypothesis Canvas, Test Card, Opportunity Canvas e MVP Canvas preenchidos e 8 templates práticos —, seguidos por 9 capítulos sobre a abordagem científica ao empreendedorismo, níveis de maturidade, gates de evidência, fechamento de fase e as arquiteturas de Cunha (Wedge), Marketplaces, Efeitos de Rede/Plataformas, B2B2C e Open Source (COSS).',
     blocks: [
       {
-        h1: 'FASES DA ETAPA — TRAÇÃO',
-        tocGroup: 'Fases da Etapa (Tração)',
+        h1: 'FASES DA ETAPA — HIPÓTESES, EXPERIMENTOS, PROTOTIPAGEM E USABILIDADE (FASES 7 A 10)',
+        tocGroup: 'Fases da Etapa (Fases 7 a 10)',
         intro: DOMAIN_INTROS.V3_FASES,
-        keys: ['FASE_10', 'FASE_11', 'FASE_12'],
+        items: [
+          { type: 'phase', key: 'FASE_6' },
+          { type: 'phase', key: 'FASE_7' },
+          { type: 'phase', key: 'FASE_8' },
+          { type: 'phase', key: 'FASE_9' },
+        ],
       },
       {
-        h1: 'GO-TO-MARKET, CANAIS DE AQUISIÇÃO E MARKETING INICIAL',
-        tocGroup: 'Go-to-Market, Canais de Aquisição e Marketing Inicial',
+        h1: 'METODOLOGIA CIENTÍFICA, MATURIDADE E GATES DE EVIDÊNCIA (CAPÍTULOS 1 A 4)',
+        tocGroup: 'Metodologia Científica, Maturidade e Gates de Evidência (Capítulos 1 a 4)',
         intro: DOMAIN_INTROS.V3_BLOCO_1,
-        keys: ['DU', 'J', 'AR', 'AS', 'AY', 'DX', 'EA'],
+        items: [
+          { type: 'chapter', key: 'F' },
+          { type: 'chapter', key: 'G' },
+          { type: 'chapter', key: 'H' },
+          { type: 'chapter', key: 'B' },
+        ],
       },
       {
-        h1: 'VENDAS, PRICING, RECEITA RECORRENTE E SUCESSO DO CLIENTE',
-        tocGroup: 'Vendas, Pricing, Receita Recorrente e Sucesso do Cliente',
+        h1: 'ARQUITETURA DE MODELO DE NEGÓCIO: CUNHA, MARKETPLACES, PLATAFORMAS, B2B2C E OPEN SOURCE (CAPÍTULOS 5 A 9)',
+        tocGroup: 'Arquitetura de Modelo de Negócio (Capítulos 5 a 9)',
         intro: DOMAIN_INTROS.V3_BLOCO_2,
-        keys: ['CP', 'X', 'CB', 'DS', 'AA', 'DT'],
-      },
-      {
-        h1: 'PRODUTO, DADOS, IA NO PRODUTO E PIVÔ',
-        tocGroup: 'Produto, Dados, IA no Produto e Pivô',
-        intro: DOMAIN_INTROS.V3_BLOCO_3,
-        keys: ['AO', 'Z', 'CL'],
-      },
-      {
-        h1: 'FINANÇAS OPERACIONAIS, DEMONSTRATIVOS, COORTES E CAIXA',
-        tocGroup: 'Finanças Operacionais, Demonstrativos, Coortes e Caixa',
-        intro: DOMAIN_INTROS.V3_BLOCO_4,
-        keys: ['DR', 'AN', 'CD', 'AT'],
+        items: [
+          { type: 'chapter', key: 'L' },
+          { type: 'chapter', key: 'AE' },
+          { type: 'chapter', key: 'CC' },
+          { type: 'chapter', key: 'CK' },
+          { type: 'chapter', key: 'BE' },
+        ],
       },
     ],
   },
   {
     num: 4,
-    slug: 'IGNICAO-Vol-4-Captacao-e-Financas',
-    title: 'IGNIÇÃO — Volume 4: Captação e Finanças',
-    subtitle: 'Estruturação Societária, Venture Capital, Tributário e FP&A (Fase 13)',
+    slug: 'IGNICAO-Vol-4-Tracao-e-PMF',
+    title: 'IGNIÇÃO — Volume 4: Tração, Go-to-Market e Product-Market Fit',
+    subtitle: 'Do MVP em Produção ao PMF, Canais, Vendas e Pricing (Fases 11 a 13 e Capítulos 1 a 16)',
     about:
-      'Primeiro volume da tríade de Escala (Volumes 4, 5 e 6). Cobre a estruturação jurídica, societária, contábil e financeira pós-PMF (Fase 13) e 18 apêndices dedicados à arquitetura de capital e finanças corporativas no Brasil: captação de Venture Capital, planejamento de rodada como processo, métodos de valuation, instrumentos conversíveis (SAFE/mútuo), financiamento não-diluitivo (FINEP/BNDES/FAPESP), venture debt, crowdfunding, tokenização, relações com investidores, regimes fiscais e Reforma Tributária, FP&A, revenue forecasting, capital de giro, relacionamento bancário, gestão de riscos/seguros, Marco Legal das Startups (LC 182/2021) e proteção patrimonial dos sócios.',
+      'Volume 100% autocontido sobre a travessia do lançamento do MVP em produção até a comprovação do Product-Market Fit: Operação de MVP e Experimentos de Mercado (Fase 11), Validação do Modelo de Negócio (Fase 12) e Product-Market Fit (Fase 13) — com 23 frameworks passo a passo de métricas, growth, posicionamento e negociação, os canvases Pirate/AARRR e Risk Canvas preenchidos e os templates de Pre-Launch e Scorecard de PMF integrados nas fases —, seguidos por 16 capítulos sobre GTM até R$ 1M de ARR, canais de aquisição, SEO/conteúdo, comunidades, mídia paga, branding, PMM, vendas B2B consultivas, pricing, economia da recorrência, negociação, Customer Success, CX, stack de dados, produto AI-native e pivô.',
     blocks: [
       {
-        h1: 'FASE DA ETAPA — ESTRUTURAÇÃO PARA A ESCALA',
-        tocGroup: 'Fase da Etapa (Estruturação)',
+        h1: 'FASES DA ETAPA — DO MVP AO PRODUCT-MARKET FIT (FASES 11 A 13)',
+        tocGroup: 'Fases da Etapa (Fases 11 a 13)',
         intro: DOMAIN_INTROS.V4_FASES,
-        keys: ['FASE_13'],
+        items: [
+          { type: 'phase', key: 'FASE_10' },
+          { type: 'phase', key: 'FASE_11' },
+          { type: 'phase', key: 'FASE_12' },
+        ],
       },
       {
-        h1: 'CAPTAÇÃO DE CAPITAL, VALUATION E RELAÇÃO COM INVESTIDORES',
-        tocGroup: 'Captação de Capital, Valuation e Relação com Investidores',
+        h1: 'GO-TO-MARKET INICIAL, CANAIS DE AQUISIÇÃO E MARKETING (CAPÍTULOS 1 A 7)',
+        tocGroup: 'Go-to-Market Inicial, Canais de Aquisição e Marketing (Capítulos 1 a 7)',
         intro: DOMAIN_INTROS.V4_BLOCO_1,
-        keys: ['V', 'CF', 'CE', 'DF', 'P', 'BB', 'CI', 'CJ', 'DD'],
+        items: [
+          { type: 'chapter', key: 'DU' },
+          { type: 'chapter', key: 'J' },
+          { type: 'chapter', key: 'AR' },
+          { type: 'chapter', key: 'AS' },
+          { type: 'chapter', key: 'AY' },
+          { type: 'chapter', key: 'DX' },
+          { type: 'chapter', key: 'EA' },
+        ],
       },
       {
-        h1: 'FINANÇAS EM ESCALA, PLANEJAMENTO, TRIBUTÁRIO, CRÉDITO E RISCOS',
-        tocGroup: 'Finanças em Escala, Planejamento, Tributário, Crédito e Riscos',
+        h1: 'VENDAS CONSULTIVAS, PRICING, RECEITA RECORRENTE E SUCESSO DO CLIENTE (CAPÍTULOS 8 A 13)',
+        tocGroup: 'Vendas Consultivas, Pricing, Receita Recorrente e Sucesso do Cliente (Capítulos 8 a 13)',
         intro: DOMAIN_INTROS.V4_BLOCO_2,
-        keys: ['W', 'EN', 'EC', 'EG', 'EZ', 'FA', 'EY'],
+        items: [
+          { type: 'chapter', key: 'CP' },
+          { type: 'chapter', key: 'X' },
+          { type: 'chapter', key: 'CB' },
+          { type: 'chapter', key: 'DS' },
+          { type: 'chapter', key: 'AA' },
+          { type: 'chapter', key: 'DT' },
+        ],
       },
       {
-        h1: 'MARCO LEGAL E RESPONSABILIDADE SOCIETÁRIA NA ESTRUTURAÇÃO',
-        tocGroup: 'Marco Legal e Responsabilidade Societária na Estruturação',
+        h1: 'INSTRUMENTAÇÃO DE DADOS, PRODUTO AI-NATIVE E ANATOMIA DO PIVÔ (CAPÍTULOS 14 A 16)',
+        tocGroup: 'Instrumentação de Dados, Produto AI-Native e Anatomia do Pivô (Capítulos 14 a 16)',
         intro: DOMAIN_INTROS.V4_BLOCO_3,
-        keys: ['DA', 'EP'],
+        items: [
+          { type: 'chapter', key: 'AO' },
+          { type: 'chapter', key: 'Z' },
+          { type: 'chapter', key: 'CL' },
+        ],
       },
     ],
   },
   {
     num: 5,
-    slug: 'IGNICAO-Vol-5-Receita-e-Pessoas',
-    title: 'IGNIÇÃO — Volume 5: Receita e Pessoas',
-    subtitle: 'Vendas Enterprise, RevOps, Liderança Executiva, Talentos e Cultura em Escala (Fase 14)',
+    slug: 'IGNICAO-Vol-5-Financas-e-Captacao',
+    title: 'IGNIÇÃO — Volume 5: Finanças, Captação e Venture Capital',
+    subtitle: 'Unit Economics, Caixa, Contabilidade, Tributário, FP&A e Rodadas de Investimento (Fase 14 e Capítulos 1 a 20)',
     about:
-      'Segundo volume da tríade de Escala (Volumes 4, 5 e 6). Parte da construção da máquina integrada de hipercrescimento (Fase 14) e aprofunda, em 19 apêndices, os dois motores humanos e comerciais da scaleup: Growth como função organizacional, vendas complexas Enterprise, Revenue Operations (RevOps), Business Development, parcerias com grandes corporações brasileiras, canais indiretos, marca institucional e reputação do fundador; seguidos por Founder Mode vs. delegação, cadência operacional do CEO, contratação de executivos C-level, avaliação de performance, remuneração e benefícios no Brasil, Stock Options (ESOP), cultura em escala, diversidade e regimes de trabalho remoto/híbrido.',
+      'Manual 100% autocontido do CEO e do CFO para finanças operacionais, estruturação de capital e fundraising no Brasil. Abre com a Fase 14 (Capital para Escala, Rodadas e Eficiência Financeira) — trazendo embutidos todos os 11 frameworks financeiros e de valuation (Unit Economics, Coortes, LTV:CAC, Burn Multiple, Rule of 40, Magic Number, Quick Ratio, CCC, DCF, Comparables e DuPont), os canvases Storytelling/SCQA e Capital Stack/Waterfall e 6 templates completos (Data Room, Term Sheet Anotado, Plano de Rodada, Pitch Deck SCQA, Investor Update e Financiamento Não-Diluitivo) —, seguida por 20 capítulos cobrindo demonstrativos financeiros, coortes, modelagem financeira, gestão de caixa, Venture Capital, valuation, SAFE/mútuo conversível, FINEP/BNDES/FAPESP, venture debt, crowdfunding CVM 88, tokenização, Investor Relations, contabilidade, Reforma Tributária (IBS/CBS), FP&A, revenue forecasting, capital de giro, bancos e seguros.',
     blocks: [
       {
-        h1: 'FASE DA ETAPA — ESCALA COMERCIAL, PESSOAS E CULTURA',
-        tocGroup: 'Fase da Etapa (Escala)',
+        h1: 'FASE DA ETAPA — CAPITAL PARA ESCALA, RODADAS E EFICIÊNCIA FINANCEIRA (FASE 14)',
+        tocGroup: 'Fase da Etapa (Fase 14)',
         intro: DOMAIN_INTROS.V5_FASES,
-        keys: ['FASE_14'],
+        items: [{ type: 'phase', key: 'FASE_14D' }],
       },
       {
-        h1: 'CRESCIMENTO EM ESCALA, VENDAS ENTERPRISE, REVOPS, PARCERIAS E PR',
-        tocGroup: 'Crescimento em Escala, Vendas Enterprise, RevOps, Parcerias e PR',
+        h1: 'FINANÇAS OPERACIONAIS, DEMONSTRATIVOS, COORTES E CAIXA (CAPÍTULOS 1 A 4)',
+        tocGroup: 'Finanças Operacionais, Demonstrativos, Coortes e Caixa (Capítulos 1 a 4)',
         intro: DOMAIN_INTROS.V5_BLOCO_1,
-        keys: ['CG', 'EB', 'EH', 'DY', 'FD', 'CX', 'CQ', 'BM', 'CY'],
+        items: [
+          { type: 'chapter', key: 'DR' },
+          { type: 'chapter', key: 'AN' },
+          { type: 'chapter', key: 'CD' },
+          { type: 'chapter', key: 'AT' },
+        ],
       },
       {
-        h1: 'LIDERANÇA EXECUTIVA, CONTRATAÇÃO SÊNIOR, REMUNERAÇÃO E CULTURA',
-        tocGroup: 'Liderança Executiva, Contratação Sênior, Remuneração e Cultura',
+        h1: 'CAPTAÇÃO DE CAPITAL, VENTURE CAPITAL, VALUATION E ALTERNATIVAS (CAPÍTULOS 5 A 13)',
+        tocGroup: 'Captação de Capital, Venture Capital, Valuation e Alternativas (Capítulos 5 a 13)',
         intro: DOMAIN_INTROS.V5_BLOCO_2,
-        keys: ['R', 'BQ', 'BN', 'BZ', 'ED', 'DB', 'AP', 'FG', 'BU', 'AG'],
+        items: [
+          { type: 'chapter', key: 'V' },
+          { type: 'chapter', key: 'CF' },
+          { type: 'chapter', key: 'CE' },
+          { type: 'chapter', key: 'DF' },
+          { type: 'chapter', key: 'P' },
+          { type: 'chapter', key: 'BB' },
+          { type: 'chapter', key: 'CI' },
+          { type: 'chapter', key: 'CJ' },
+          { type: 'chapter', key: 'DD' },
+        ],
+      },
+      {
+        h1: 'CONTABILIDADE, REFORMA TRIBUTÁRIA, FP&A, CAPITAL DE GIRO E RISCOS (CAPÍTULOS 14 A 20)',
+        tocGroup: 'Contabilidade, Reforma Tributária, FP&A, Capital de Giro e Riscos (Capítulos 14 a 20)',
+        intro: DOMAIN_INTROS.V5_BLOCO_3,
+        items: [
+          { type: 'chapter', key: 'W' },
+          { type: 'chapter', key: 'EN' },
+          { type: 'chapter', key: 'EC' },
+          { type: 'chapter', key: 'EG' },
+          { type: 'chapter', key: 'EZ' },
+          { type: 'chapter', key: 'FA' },
+          { type: 'chapter', key: 'EY' },
+        ],
       },
     ],
   },
   {
     num: 6,
-    slug: 'IGNICAO-Vol-6-Engenharia-e-Juridico',
-    title: 'IGNIÇÃO — Volume 6: Engenharia, Operações e Jurídico',
-    subtitle: 'Produto em Escala, Gestão Técnica, IA, Design Organizacional e Blindagem Legal',
+    slug: 'IGNICAO-Vol-6-Receita-e-Pessoas',
+    title: 'IGNIÇÃO — Volume 6: Receita Enterprise, Liderança e Cultura',
+    subtitle: 'Máquina Comercial em Escala, RevOps, Liderança Executiva, Talentos e ESOP (Fases 15 e 16 e Capítulos 1 a 19)',
     about:
-      'Terceiro volume da tríade de Escala (Volumes 4, 5 e 6) — o manual operacional do CTO, CPO, COO e General Counsel na scaleup brasileira. Reúne 23 apêndices divididos em três pilares: (1) descoberta contínua e produto em múltiplos squads, transição do fundador técnico para gestão, recrutamento de engenharia, Engineering Management e Developer Experience, gestão de dívida técnica, IA na engenharia de software e AI Ops; (2) design organizacional, gestão do conhecimento, comunicação interna assíncrona e excelência operacional; e (3) blindagem jurídica integral — propriedade intelectual/INPI, non-compete, LGPD, contratos operacionais e em profundidade, direito do trabalho para startups, compliance anticorrupção, contencioso, CDC, regulação de IA, prevenção a fraudes internas e segurança da informação (SOC 2 / ISO 27001).',
+      'Volume 100% autocontido dedicado à construção da máquina comercial Enterprise e à evolução de liderança, pessoas e cultura na scaleup. Abre com a Fase 15 (Máquina de Crescimento e Expansão em Escala) e a Fase 16 (Time, Liderança Executiva e Cultura em Escala) — trazendo embutidos todos os 25 frameworks de metodologias de vendas (MEDDPICC, SPIN, Challenger, Sandler, Solution, BANT, Command of the Message), growth em escala e liderança (Radical Candor, Lencioni, Topgrading, Who, Horowitz, Culture Code, Netflix, SPADE, 7S, etc.) e 6 templates práticos (Matriz de Parcerias, Plano de Marca/PR, Founder Mode vs Manager Mode, Job Descriptions C-Level, Reunião 1:1 e Rotina do Fundador) —, seguidas por 19 capítulos sobre Growth, vendas Enterprise, RevOps, Business Development, parcerias corporativas, canais indiretos, marca e PR, comunicação do fundador, ética, Founder Mode, contratação C-level, avaliação de performance, compensação, Stock Options (ESOP), cultura em escala, diversidade e trabalho remoto/híbrido.',
     blocks: [
       {
-        h1: 'PRODUTO EM ESCALA, ENGENHARIA DE SOFTWARE, DÍVIDA TÉCNICA E IA',
-        tocGroup: 'Produto em Escala, Engenharia de Software, Dívida Técnica e IA',
+        h1: 'FASES DA ETAPA — ESCALA COMERCIAL, LIDERANÇA E CULTURA (FASES 15 E 16)',
+        tocGroup: 'Fases da Etapa (Fases 15 e 16)',
+        intro: DOMAIN_INTROS.V6_FASES,
+        items: [
+          { type: 'phase', key: 'FASE_14C' },
+          { type: 'phase', key: 'FASE_14A' },
+        ],
+      },
+      {
+        h1: 'CRESCIMENTO EM ESCALA, VENDAS ENTERPRISE, REVOPS, PARCERIAS E MARCA (CAPÍTULOS 1 A 9)',
+        tocGroup: 'Crescimento em Escala, Vendas Enterprise, RevOps, Parcerias e Marca (Capítulos 1 a 9)',
         intro: DOMAIN_INTROS.V6_BLOCO_1,
-        keys: ['AB', 'DW', 'CO', 'CR', 'BC', 'CH', 'EI'],
+        items: [
+          { type: 'chapter', key: 'CG' },
+          { type: 'chapter', key: 'EB' },
+          { type: 'chapter', key: 'EH' },
+          { type: 'chapter', key: 'DY' },
+          { type: 'chapter', key: 'FD' },
+          { type: 'chapter', key: 'CX' },
+          { type: 'chapter', key: 'CQ' },
+          { type: 'chapter', key: 'BM' },
+          { type: 'chapter', key: 'CY' },
+        ],
       },
       {
-        h1: 'ARQUITETURA ORGANIZACIONAL, CONHECIMENTO, COMUNICAÇÃO E OPERAÇÕES',
-        tocGroup: 'Arquitetura Organizacional, Conhecimento, Comunicação e Operações',
+        h1: 'LIDERANÇA EXECUTIVA, CONTRATAÇÃO SÊNIOR, REMUNERAÇÃO, ESOP E CULTURA (CAPÍTULOS 10 A 19)',
+        tocGroup: 'Liderança Executiva, Contratação Sênior, Remuneração, ESOP e Cultura (Capítulos 10 a 19)',
         intro: DOMAIN_INTROS.V6_BLOCO_2,
-        keys: ['FB', 'FC', 'DZ', 'DV'],
-      },
-      {
-        h1: 'PROPRIEDADE INTELECTUAL, LGPD, CONTRATOS, TRABALHISTA, COMPLIANCE E SEGURANÇA',
-        tocGroup: 'Propriedade Intelectual, LGPD, Contratos, Trabalhista, Compliance e Segurança',
-        intro: DOMAIN_INTROS.V6_BLOCO_3,
-        keys: ['DC', 'DJ', 'T', 'AH', 'EU', 'EL', 'EM', 'EO', 'EQ', 'ET', 'BW', 'CV'],
+        items: [
+          { type: 'chapter', key: 'R' },
+          { type: 'chapter', key: 'BQ' },
+          { type: 'chapter', key: 'BN' },
+          { type: 'chapter', key: 'BZ' },
+          { type: 'chapter', key: 'ED' },
+          { type: 'chapter', key: 'DB' },
+          { type: 'chapter', key: 'AP' },
+          { type: 'chapter', key: 'FG' },
+          { type: 'chapter', key: 'BU' },
+          { type: 'chapter', key: 'AG' },
+        ],
       },
     ],
   },
   {
     num: 7,
-    slug: 'IGNICAO-Vol-7-Maturidade-e-Exit',
-    title: 'IGNIÇÃO — Volume 7: Maturidade e Exit',
-    subtitle: 'Ciclo Longo, Governança, Internacionalização, Crise e Saída (Fases 15 e 16)',
+    slug: 'IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes',
+    title: 'IGNIÇÃO — Volume 7: Produto, Engenharia, Dados, IA e Operações',
+    subtitle: 'Discovery Contínuo, Gestão Técnica, Dívida Técnica, AI Ops e Design Organizacional (Fase 17 e Capítulos 1 a 11)',
     about:
-      'Cobre o horizonte de longo prazo da empresa consolidada e o encerramento ou renovação do ciclo empreendedor: diagnóstico de saturação e construção da segunda curva de crescimento (Fase 15) e planejamento e execução de saída (Fase 16), seguidos por 22 apêndices sobre Conselho de Administração (Board), empresas familiares e sucessão, resolução de disputas societárias, governança ESG, internacionalização, imigração/vistos, hedge cambial, tesouraria multi-moeda, comando e comunicação em crise severa, layoffs, recuperação judicial e wind-down, M&A ativo, Search Funds (ETA), IPO, liquidez secundária (secondaries), tributação de exit para o fundador, retenção pós-M&A, catálogo de post-mortems brasileiros, a jornada do second-time founder e o Epílogo da obra.',
+      'O manual operacional 100% autocontido do CTO, do CPO e do COO na scaleup brasileira. Abre com a Fase 17 (Operações, Processos e Gestão em Escala) — trazendo embutidos todos os 20 frameworks mundiais de produto e operações (Continuous Discovery, Shape Up, Working Backwards PR/FAQ, Stage-Gate, Dual-Track Agile, OKRs, V2MOM, EOS, Scaling Up, MBO, Scrum, Kanban, DORA & SPACE, Amazon 6-Pager, WBR, 4DX, SIPOC, Value Stream Mapping, Toyota Kata e Spotify Model), o canvas Org Chart Evolution e 3 templates operacionais (OKRs Trimestral Preenchido, OKR Cascade Anual e Post-Mortem de Incidente Técnico) —, seguida por 11 capítulos sobre produto em múltiplos squads, transição do fundador técnico para gestão, recrutamento técnico, Engineering Management e DevEx, dívida técnica, IA na engenharia de software, AI Ops, design organizacional, gestão do conhecimento, comunicação interna e excelência operacional.',
     blocks: [
       {
-        h1: 'FASES DA ETAPA — MATURIDADE E EXIT',
-        tocGroup: 'Fases da Etapa (Maturidade e Exit)',
+        h1: 'FASE DA ETAPA — OPERAÇÕES, PROCESSOS E GESTÃO EM ESCALA (FASE 17)',
+        tocGroup: 'Fase da Etapa (Fase 17)',
         intro: DOMAIN_INTROS.V7_FASES,
-        keys: ['FASE_15', 'FASE_16'],
+        items: [{ type: 'phase', key: 'FASE_14B' }],
       },
       {
-        h1: 'GOVERNANÇA CORPORATIVA, BOARD, SUCESSÃO E SOCIEDADE',
-        tocGroup: 'Governança Corporativa, Board, Sucessão e Sociedade',
+        h1: 'PRODUTO EM ESCALA, ENGENHARIA DE SOFTWARE, DÍVIDA TÉCNICA E IA (CAPÍTULOS 1 A 7)',
+        tocGroup: 'Produto em Escala, Engenharia de Software, Dívida Técnica e IA (Capítulos 1 a 7)',
         intro: DOMAIN_INTROS.V7_BLOCO_1,
-        keys: ['AM', 'BI', 'BP', 'AF'],
+        items: [
+          { type: 'chapter', key: 'AB' },
+          { type: 'chapter', key: 'DW' },
+          { type: 'chapter', key: 'CO' },
+          { type: 'chapter', key: 'CR' },
+          { type: 'chapter', key: 'BC' },
+          { type: 'chapter', key: 'CH' },
+          { type: 'chapter', key: 'EI' },
+        ],
       },
       {
-        h1: 'INTERNACIONALIZAÇÃO, IMIGRAÇÃO, CÂMBIO E TESOURARIA MULTI-MOEDA',
-        tocGroup: 'Internacionalização, Imigração, Câmbio e Tesouraria Multi-Moeda',
+        h1: 'ARQUITETURA ORGANIZACIONAL, CONHECIMENTO, COMUNICAÇÃO E OPERAÇÕES (CAPÍTULOS 8 A 11)',
+        tocGroup: 'Arquitetura Organizacional, Conhecimento, Comunicação e Operações (Capítulos 8 a 11)',
         intro: DOMAIN_INTROS.V7_BLOCO_2,
-        keys: ['CU', 'BS', 'BT', 'BY'],
-      },
-      {
-        h1: 'GESTÃO DE CRISE, COMUNICAÇÃO CRÍTICA, LAYOFFS E RECUPERAÇÃO JUDICIAL',
-        tocGroup: 'Gestão de Crise, Comunicação Crítica, Layoffs e Recuperação Judicial',
-        intro: DOMAIN_INTROS.V7_BLOCO_3,
-        keys: ['CW', 'EV', 'BV', 'ES'],
-      },
-      {
-        h1: 'EXIT, M&A, IPO, LIQUIDEZ SECUNDÁRIA, POST-MORTEMS E NOVO CICLO',
-        tocGroup: 'Exit, M&A, IPO, Liquidez Secundária, Post-Mortems e Novo Ciclo',
-        intro: DOMAIN_INTROS.V7_BLOCO_4,
-        keys: ['BR', 'BJ', 'BL', 'DE', 'BA', 'DH', 'DG', 'DI', 'BH', 'BF'],
-      },
-      {
-        h1: 'ENCERRAMENTO DA TRILHA PRINCIPAL',
-        tocGroup: 'Encerramento',
-        intro: DOMAIN_INTROS.V7_EPILOGO,
-        keys: ['EPÍLOGO'],
+        items: [
+          { type: 'chapter', key: 'FB' },
+          { type: 'chapter', key: 'FC' },
+          { type: 'chapter', key: 'DZ' },
+          { type: 'chapter', key: 'DV' },
+        ],
       },
     ],
   },
   {
     num: 8,
-    slug: 'IGNICAO-Vol-8-Playbooks-Setoriais',
-    title: 'IGNIÇÃO — Volume 8: Playbooks Setoriais',
-    subtitle: 'Verticais Brasileiras, Regulação Setorial, Macroeconomia e Catálogo de Métricas',
+    slug: 'IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca',
+    title: 'IGNIÇÃO — Volume 8: Blindagem Jurídica, Societária, LGPD e Segurança',
+    subtitle: 'Estruturação Societária, Contratos, Trabalhista, Propriedade Intelectual, Compliance e Cibersegurança (Fase 18 e Capítulos 1 a 14)',
     about:
-      'Primeiro volume da Biblioteca de Referência Transversal (Volumes 8, 9 e 10). Reúne os instrumentos de governança de passagem de fase (Committed Next Move — Apêndice B), o Catálogo Completo de Métricas e Benchmarks por Fase (Apêndice C) e o guia de leituras recomendadas (Apêndice E); a análise do tabuleiro macro-institucional brasileiro — ciclos macroeconômicos (Selic, câmbio e liquidez), mapa das autarquias reguladoras (BACEN, CVM, SUSEP, ANVISA, ANS, ANATEL, ANEEL, ANP), defesa da concorrência no CADE e política pública como estratégia; e os 9 Playbooks Setoriais em profundidade para operar no Brasil: Biotech/Healthtech, Hardware/Deep Tech, Govtech, Agritech, Edtech, Cleantech/ESG, Proptech, Legaltech e Logtech.',
+      'O manual jurídico, societário, regulatório e de segurança da informação 100% autocontido para fundadores, executivos e advogados de startups no Brasil. Abre com a Fase 18 (Estruturação Jurídica, Societária e Blindagem Operacional — os 10 passos de formalização, acordo de sócios, propriedade intelectual, contratos, LGPD e proteção patrimonial, com o caso aplicado da PadariaPro LTDA), seguida por 14 capítulos em profundidade sobre o Marco Legal das Startups (LC 182/2021), responsabilidade pessoal dos sócios e desconsideração da personalidade jurídica, registro de marcas, patentes e software no INPI, cláusulas de non-compete, contratos operacionais e por tipo, direito do trabalho para startups (CLT vs. PJ e passivos), CDC aplicado a produtos digitais, contencioso estratégico, LGPD e governança de dados, regulação de IA, compliance anticorrupção, prevenção a fraudes internas e certificações SOC 2 e ISO 27001.',
     blocks: [
       {
-        h1: 'GUIAS DE PASSAGEM DE FASE, CATÁLOGO DE MÉTRICAS E LEITURAS',
-        tocGroup: 'Guias de Passagem de Fase, Catálogo de Métricas e Leituras',
+        h1: 'FASE DA ETAPA — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL (FASE 18)',
+        tocGroup: 'Fase da Etapa (Fase 18)',
+        intro: DOMAIN_INTROS.V8_FASES,
+        items: [{ type: 'phase', key: 'FASE_13' }],
+      },
+      {
+        h1: 'SOCIEDADE, MARCO LEGAL, PROPRIEDADE INTELECTUAL E PROTEÇÃO DOS SÓCIOS (CAPÍTULOS 1 A 4)',
+        tocGroup: 'Sociedade, Marco Legal, Propriedade Intelectual e Proteção dos Sócios (Capítulos 1 a 4)',
         intro: DOMAIN_INTROS.V8_BLOCO_1,
-        keys: ['B', 'C', 'E'],
+        items: [
+          { type: 'chapter', key: 'DA' },
+          { type: 'chapter', key: 'EP' },
+          { type: 'chapter', key: 'DC' },
+          { type: 'chapter', key: 'DJ' },
+        ],
       },
       {
-        h1: 'AMBIENTE MACROECONÔMICO, REGULATÓRIO SETORIAL, ANTITRUSTE E POLÍTICAS PÚBLICAS',
-        tocGroup: 'Ambiente Macroeconômico, Regulatório Setorial, Antitruste e Políticas Públicas',
+        h1: 'CONTRATOS EMPRESARIAIS, DIREITO DO TRABALHO, CDC E CONTENCIOSO (CAPÍTULOS 5 A 9)',
+        tocGroup: 'Contratos Empresariais, Direito do Trabalho, CDC e Contencioso (Capítulos 5 a 9)',
         intro: DOMAIN_INTROS.V8_BLOCO_2,
-        keys: ['EF', 'AW', 'ER', 'FE'],
+        items: [
+          { type: 'chapter', key: 'AH' },
+          { type: 'chapter', key: 'EU' },
+          { type: 'chapter', key: 'EL' },
+          { type: 'chapter', key: 'EQ' },
+          { type: 'chapter', key: 'EO' },
+        ],
       },
       {
-        h1: 'PLAYBOOKS DE VERTICAIS E SETORES REGULADOS NO BRASIL',
-        tocGroup: 'Playbooks de Verticais e Setores Regulados no Brasil',
+        h1: 'LGPD, REGULAÇÃO DE IA, COMPLIANCE, PREVENÇÃO A FRAUDES E CIBERSEGURANÇA (CAPÍTULOS 10 A 14)',
+        tocGroup: 'LGPD, Regulação de IA, Compliance, Prevenção a Fraudes e Cibersegurança (Capítulos 10 a 14)',
         intro: DOMAIN_INTROS.V8_BLOCO_3,
-        keys: ['CM', 'CA', 'DK', 'DL', 'DM', 'DN', 'DO', 'DP', 'DQ'],
+        items: [
+          { type: 'chapter', key: 'T' },
+          { type: 'chapter', key: 'ET' },
+          { type: 'chapter', key: 'EM' },
+          { type: 'chapter', key: 'BW' },
+          { type: 'chapter', key: 'CV' },
+        ],
       },
     ],
   },
   {
     num: 9,
-    slug: 'IGNICAO-Vol-9-Ferramentario',
-    title: 'IGNIÇÃO — Volume 9: Ferramentário',
-    subtitle: 'Enciclopédia Prática de Métodos e Frameworks de Gestão, Produto e Estratégia (Apêndice BG)',
+    slug: 'IGNICAO-Vol-9-Maturidade-e-Exit',
+    title: 'IGNIÇÃO — Volume 9: Maturidade, Governança, Crise e Exit',
+    subtitle: 'Segunda Curva, Conselho (Board), Internacionalização, Turnaround, M&A e IPO (Fases 19 e 20, Capítulos 1 a 22 e Epílogo)',
     about:
-      'Segundo volume da Biblioteca de Referência Transversal (Volumes 8, 9 e 10). Consolida, em um livro autônomo de consulta permanente, o Índice Geral de Frameworks e o Apêndice BG completo (BG.1 a BG.19): 163 métodos e frameworks mundiais de estratégia clássica e moderna, planejamento de longo prazo, modelos mentais, tomada de decisão, pesquisa qualitativa, UX research, experimentação quantitativa, descoberta e priorização de produto, growth, marketing, vendas, negociação, operações, liderança, finanças/valuation e inovação — todos contextualizados com passo a passo operacional, casos brasileiros e armadilhas de aplicação.',
+      'Volume 100% autocontido sobre o ciclo longo da companhia consolidada, governança de conselho, expansão internacional, sobrevivência a crises severas e execução de saída (exit). Abre com a Fase 19 (Reinvenção e Segunda Curva) e a Fase 20 (Estratégia de Saída / Exit Strategy) — trazendo embutidos todos os 8 frameworks de planejamento de longo prazo e inovação (Scenario Planning, Hoshin Kanri, OGSM, Balanced Scorecard, Innovator\'s Dilemma, Ambidextrous Organization, Open Innovation e S-Curves), o Wardley Map Canvas e o template de Board Deck —, seguidas por 22 capítulos sobre Board Management, empresas familiares e sucessão, conflito societário, ESG/Sistema B, internacionalização e Cayman/Delaware Flip, imigração/vistos, hedge cambial, tesouraria multi-moeda, gestão e comunicação em crise, layoffs, recuperação judicial e wind-down, M&A buy-side, Search Funds (ETA), IPO na B3 e Nasdaq/NYSE, preparação sell-side, secondaries, tributação de exit na pessoa física, retenção pós-M&A/earnout, post-mortems brasileiros, second-time founders e o Epílogo da coleção.',
     blocks: [
       {
-        h1: 'ÍNDICE E ARQUITETURA DO FERRAMENTÁRIO',
-        tocGroup: 'Índice e Arquitetura do Ferramentário',
-        intro: DOMAIN_INTROS.V9_BLOCO_1,
-        keys: ['APÊNDICE: ÍNDICE DE FRAMEWORKS'],
+        h1: 'FASES DA ETAPA — MATURIDADE, SEGUNDA CURVA E ESTRATÉGIA DE SAÍDA (FASES 19 E 20)',
+        tocGroup: 'Fases da Etapa (Fases 19 e 20)',
+        intro: DOMAIN_INTROS.V9_FASES,
+        items: [
+          { type: 'phase', key: 'FASE_15' },
+          { type: 'phase', key: 'FASE_16' },
+        ],
       },
       {
-        h1: 'FERRAMENTÁRIO COMPLETO DO EMPREENDEDOR (BG.1 A BG.19)',
-        tocGroup: 'Ferramentário Completo do Empreendedor (Apêndice BG)',
+        h1: 'GOVERNANÇA CORPORATIVA, BOARD, SUCESSÃO E SOCIEDADE (CAPÍTULOS 1 A 4)',
+        tocGroup: 'Governança Corporativa, Board, Sucessão e Sociedade (Capítulos 1 a 4)',
+        intro: DOMAIN_INTROS.V9_BLOCO_1,
+        items: [
+          { type: 'chapter', key: 'AM' },
+          { type: 'chapter', key: 'BI' },
+          { type: 'chapter', key: 'BP' },
+          { type: 'chapter', key: 'AF' },
+        ],
+      },
+      {
+        h1: 'INTERNACIONALIZAÇÃO, IMIGRAÇÃO, CÂMBIO E TESOURARIA MULTI-MOEDA (CAPÍTULOS 5 A 8)',
+        tocGroup: 'Internacionalização, Imigração, Câmbio e Tesouraria Multi-Moeda (Capítulos 5 a 8)',
         intro: DOMAIN_INTROS.V9_BLOCO_2,
-        keys: ['BG'],
+        items: [
+          { type: 'chapter', key: 'CU' },
+          { type: 'chapter', key: 'BS' },
+          { type: 'chapter', key: 'BT' },
+          { type: 'chapter', key: 'BY' },
+        ],
+      },
+      {
+        h1: 'GESTÃO DE CRISE, COMUNICAÇÃO CRÍTICA, LAYOFFS E RECUPERAÇÃO JUDICIAL (CAPÍTULOS 9 A 12)',
+        tocGroup: 'Gestão de Crise, Comunicação Crítica, Layoffs e Recuperação Judicial (Capítulos 9 a 12)',
+        intro: DOMAIN_INTROS.V9_BLOCO_3,
+        items: [
+          { type: 'chapter', key: 'CW' },
+          { type: 'chapter', key: 'EV' },
+          { type: 'chapter', key: 'BV' },
+          { type: 'chapter', key: 'ES' },
+        ],
+      },
+      {
+        h1: 'EXIT, M&A, IPO, LIQUIDEZ SECUNDÁRIA, POST-MORTEMS E NOVO CICLO (CAPÍTULOS 13 A 22)',
+        tocGroup: 'Exit, M&A, IPO, Liquidez Secundária, Post-Mortems e Novo Ciclo (Capítulos 13 a 22)',
+        intro: DOMAIN_INTROS.V9_BLOCO_4,
+        items: [
+          { type: 'chapter', key: 'BR' },
+          { type: 'chapter', key: 'BJ' },
+          { type: 'chapter', key: 'BL' },
+          { type: 'chapter', key: 'DE' },
+          { type: 'chapter', key: 'BA' },
+          { type: 'chapter', key: 'DH' },
+          { type: 'chapter', key: 'DG' },
+          { type: 'chapter', key: 'DI' },
+          { type: 'chapter', key: 'BH' },
+          { type: 'chapter', key: 'BF' },
+        ],
+      },
+      {
+        h1: 'ENCERRAMENTO DA JORNADA EMPREENDEDORA',
+        tocGroup: 'Encerramento',
+        intro: DOMAIN_INTROS.V9_EPILOGO,
+        items: [{ type: 'ref', key: 'EPÍLOGO', newHeading: 'EPÍLOGO' }],
       },
     ],
   },
   {
     num: 10,
-    slug: 'IGNICAO-Vol-10-Canvases-e-Templates',
-    title: 'IGNIÇÃO — Volume 10: Canvases, Templates e Índices',
-    subtitle: 'Mapas Visuais Preenchidos, Documentos Operacionais, Glossário, Bibliografia e Índices (Apêndices CZ e A)',
+    slug: 'IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario',
+    title: 'IGNIÇÃO — Volume 10: Playbooks Setoriais, Regulação e Glossário Geral',
+    subtitle: 'Macroeconomia, Autarquias Reguladoras, 9 Verticais Brasileiras e Dicionário da Coleção (Capítulos 1 a 13 e Índices)',
     about:
-      'Terceiro volume da Biblioteca de Referência Transversal e volume de fechamento da coleção IGNIÇÃO. Reúne o caderno prático de instrumentos visuais e documentais da obra — os 20 Canvases e Mapas Visuais de Modelo preenchidos com casos brasileiros (Apêndice CZ) e os 30+ Templates Operacionais Prontos para Uso com exemplos reais e do caso contínuo PadariaPro (Apêndice A) — seguidos pelo aparelho crítico completo da enciclopédia: nota sobre envelhecimento de dados, Glossário de Termos Técnicos, Lista de Abreviações, Bibliografia Comentada e Unificada, Índice Analítico e Índices Remissivos.',
+      'Volume de fechamento da coleção IGNIÇÃO, reunindo dois acervos essenciais: (1) o manual de operação no ambiente macro-institucional e regulatório brasileiro (Ciclos Macroeconômicos/Selic, Autarquias Reguladoras BACEN/CVM/SUSEP/ANVISA/ANS/ANATEL/ANEEL/ANP, CADE/Antitruste e Políticas Públicas) junto aos 9 Playbooks Setoriais em profundidade (Biotech/Healthtech, Hardware/Deep Tech, Govtech, Agritech, Edtech, Cleantech/ESG, Proptech, Legaltech e Logtech); e (2) o Dicionário e Aparelho Crítico Geral da Coleção (Glossário de Termos Técnicos e de Negócios, Lista de Abreviações, Bibliografia Geral e Unificada, Índice Geral de Frameworks e Índices Analítico e Remissivos).',
     blocks: [
       {
-        h1: 'CANVASES E MAPAS VISUAIS DE MODELO (APÊNDICE CZ)',
-        tocGroup: 'Canvases e Mapas Visuais de Modelo (Apêndice CZ)',
+        h1: 'AMBIENTE MACROECONÔMICO, REGULATÓRIO SETORIAL, ANTITRUSTE E POLÍTICAS PÚBLICAS (CAPÍTULOS 1 A 4)',
+        tocGroup: 'Ambiente Macroeconômico, Regulatório Setorial, Antitruste e Políticas Públicas (Capítulos 1 a 4)',
         intro: DOMAIN_INTROS.V10_BLOCO_1,
-        keys: ['CZ'],
+        items: [
+          { type: 'chapter', key: 'EF' },
+          { type: 'chapter', key: 'AW' },
+          { type: 'chapter', key: 'ER' },
+          { type: 'chapter', key: 'FE' },
+        ],
       },
       {
-        h1: 'TEMPLATES OPERACIONAIS PRONTOS PARA USO (APÊNDICE A)',
-        tocGroup: 'Templates Operacionais Prontos para Uso (Apêndice A)',
+        h1: 'PLAYBOOKS DE VERTICAIS E SETORES REGULADOS NO BRASIL (CAPÍTULOS 5 A 13)',
+        tocGroup: 'Playbooks de Verticais e Setores Regulados no Brasil (Capítulos 5 a 13)',
         intro: DOMAIN_INTROS.V10_BLOCO_2,
-        keys: ['A'],
+        items: [
+          { type: 'chapter', key: 'CM' },
+          { type: 'chapter', key: 'CA' },
+          { type: 'chapter', key: 'DK' },
+          { type: 'chapter', key: 'DL' },
+          { type: 'chapter', key: 'DM' },
+          { type: 'chapter', key: 'DN' },
+          { type: 'chapter', key: 'DO' },
+          { type: 'chapter', key: 'DP' },
+          { type: 'chapter', key: 'DQ' },
+        ],
       },
       {
         h1: 'GLOSSÁRIOS, BIBLIOGRAFIAS E ÍNDICES GERAIS DA COLEÇÃO',
         tocGroup: 'Glossários, Bibliografias e Índices Gerais da Coleção',
         intro: DOMAIN_INTROS.V10_BLOCO_3,
-        keys: [
-          'APÊNDICE — DATA DE COMPILAÇÃO E NOTA SOBRE ENVELHECIMENTO',
-          'APÊNDICE — GLOSSÁRIO DE TERMOS TÉCNICOS',
-          'GLOSSÁRIO',
-          'APÊNDICE — LISTA DE ABREVIAÇÕES',
-          'APÊNDICE: BIBLIOGRAFIA',
-          'APÊNDICE — BIBLIOGRAFIA UNIFICADA',
-          'APÊNDICE: ÍNDICE ANALÍTICO',
-          'APÊNDICE — ÍNDICE REMISSIVO',
-          'ÍNDICE REMISSIVO DE TERMOS-CHAVE',
+        items: [
+          {
+            type: 'ref',
+            key: 'APÊNDICE — DATA DE COMPILAÇÃO E NOTA SOBRE ENVELHECIMENTO',
+            newHeading: 'DATA DE COMPILAÇÃO E NOTA SOBRE ENVELHECIMENTO',
+          },
+          {
+            type: 'ref',
+            key: 'APÊNDICE — GLOSSÁRIO DE TERMOS TÉCNICOS',
+            newHeading: 'GLOSSÁRIO DE TERMOS TÉCNICOS',
+          },
+          {
+            type: 'ref',
+            key: 'GLOSSÁRIO',
+            newHeading: 'GLOSSÁRIO TEMÁTICO DE NEGÓCIOS',
+          },
+          {
+            type: 'ref',
+            key: 'APÊNDICE — LISTA DE ABREVIAÇÕES',
+            newHeading: 'LISTA DE ABREVIAÇÕES',
+          },
+          {
+            type: 'ref',
+            key: 'APÊNDICE: BIBLIOGRAFIA',
+            newHeading: 'BIBLIOGRAFIA GERAL',
+          },
+          {
+            type: 'ref',
+            key: 'APÊNDICE — BIBLIOGRAFIA UNIFICADA',
+            newHeading: 'BIBLIOGRAFIA UNIFICADA POR DOMÍNIO',
+          },
+          {
+            type: 'ref',
+            key: 'APÊNDICE: ÍNDICE DE FRAMEWORKS',
+            newHeading: 'ÍNDICE GERAL DE FRAMEWORKS DA COLEÇÃO',
+          },
+          {
+            type: 'ref',
+            key: 'APÊNDICE: ÍNDICE ANALÍTICO',
+            newHeading: 'ÍNDICE ANALÍTICO',
+          },
+          {
+            type: 'ref',
+            key: 'APÊNDICE — ÍNDICE REMISSIVO',
+            newHeading: 'ÍNDICE REMISSIVO',
+          },
+          {
+            type: 'ref',
+            key: 'ÍNDICE REMISSIVO DE TERMOS-CHAVE',
+            newHeading: 'ÍNDICE REMISSIVO DE TERMOS-CHAVE',
+          },
         ],
       },
     ],
   },
 ];
 
-// Validar se todas as 175 chaves estão presentes exatamente uma vez em VOLUMES_SPEC
-const usedKeys = new Set();
-for (const v of VOLUMES_SPEC) {
-  for (const b of v.blocks) {
-    for (const k of b.keys) {
-      if (!sectionsMap.has(k)) {
-        throw new Error(`Chave '${k}' no Vol. ${v.num} não existe em sectionsMap!`);
-      }
-      if (usedKeys.has(k)) {
-        throw new Error(`Chave duplicada '${k}' em VOLUMES_SPEC!`);
-      }
-      usedKeys.add(k);
-    }
-  }
-}
-if (usedKeys.size !== sectionsMap.size) {
-  const missing = [...sectionsMap.keys()].filter((k) => !usedKeys.has(k));
-  throw new Error(`Chaves faltando em VOLUMES_SPEC: ${missing.join(', ')}`);
-}
-console.log('Validação de partição: 175/175 seções alocadas sem duplicatas nem omissões.');
-
 // ---------------------------------------------------------------------------
-// 4. Builders de cabeçalho, "Sobre este livro", Mapa Mermaid e Sumário
+// 6. Montar os 10 Volumes e registrar o mapa completo de redirecionamento de âncoras
 // ---------------------------------------------------------------------------
-function buildCollectionMapMermaid(activeVolNum) {
-  return [
-    '## Mapa da Coleção IGNIÇÃO',
-    '',
-    '```mermaid',
-    'flowchart TD',
-    '    subgraph JORNADA["Trilha Principal — Da Ideação ao Exit (Vols. 1 a 7)"]',
-    '        V1["<b>Vol. 1 — Ideação</b><br/>Fases 0 a 2B · Fundador, Ideia e Tese"]',
-    '        V2["<b>Vol. 2 — Validação</b><br/>Fases 3 a 9 · Descoberta, Hipóteses e Protótipo"]',
-    '        V3["<b>Vol. 3 — Tração</b><br/>Fases 10 a 12 · MVP, GTM Inicial e PMF"]',
-    '        V4["<b>Vol. 4 — Captação e Finanças</b><br/>Fase 13 · Societário, VC, Tributário e FP&A"]',
-    '        V5["<b>Vol. 5 — Receita e Pessoas</b><br/>Fase 14 · Enterprise, RevOps, Liderança e Cultura"]',
-    '        V6["<b>Vol. 6 — Engenharia e Jurídico</b><br/>Produto em Escala, IA, Operações e Blindagem Legal"]',
-    '        V7["<b>Vol. 7 — Maturidade e Exit</b><br/>Fases 15 e 16 · Board, Internacionalização, Crise e Saída"]',
-    '        V1 ==>|"Tese explícita"| V2',
-    '        V2 ==>|"Problem-Solution Fit"| V3',
-    '        V3 ==>|"Product-Market Fit"| V4',
-    '        V4 ==>|"Base estruturada"| V5',
-    '        V5 <==>|"Execução integrada"| V6',
-    '        V5 & V6 ==>|"Operação madura"| V7',
-    '    end',
-    '    subgraph REFERENCIA["Biblioteca Transversal — Consulta Sob Demanda (Vols. 8 a 10)"]',
-    '        V8["<b>Vol. 8 — Playbooks Setoriais</b><br/>Verticais Brasileiras, Regulação, Macro e Métricas"]',
-    '        V9["<b>Vol. 9 — Ferramentário (BG)</b><br/>163 Frameworks de Estratégia, Produto, Vendas e Gestão"]',
-    '        V10["<b>Vol. 10 — Canvases, Templates e Índices</b><br/>20 Mapas Visuais (CZ) · 30 Templates (A) · Glossário"]',
-    '    end',
-    '    REFERENCIA -.->|"Consulta transversal em todas as fases"| JORNADA',
-    `    style V${activeVolNum} fill:#ff6b1a,color:#ffffff,stroke:#1a0a00,stroke-width:3px`,
-    '```',
-  ].join('\n');
-}
+const COLLECTION_MAP_MERMAID = `\`\`\`mermaid
+graph LR
+    subgraph J1["Do Zero à Validação"]
+        V1["<b>Vol. 1 — Ideação</b><br/>Fases 0 a 3 · Fundador e Teoria"]
+        V2["<b>Vol. 2 — Descoberta e Mercado</b><br/>Fases 4 a 6 · Cliente e Cunha"]
+        V3["<b>Vol. 3 — Hipóteses e Protótipo</b><br/>Fases 7 a 10 · Testes e Modelos"]
+        V1 --> V2 --> V3
+    end
+    subgraph J2["Tração e Escala"]
+        V4["<b>Vol. 4 — Tração e PMF</b><br/>Fases 11 a 13 · MVP, GTM e Vendas"]
+        V5["<b>Vol. 5 — Finanças e Captação</b><br/>Fase 14 · Caixa, VC, Tributário e FP&A"]
+        V6["<b>Vol. 6 — Receita e Pessoas</b><br/>Fases 15 e 16 · Enterprise, Líderes e Cultura"]
+        V7["<b>Vol. 7 — Produto e Engenharia</b><br/>Fase 17 · Operações, IA e Arquitetura"]
+        V8["<b>Vol. 8 — Jurídico e Segurança</b><br/>Fase 18 · Societário, Contratos e LGPD"]
+        V3 --> V4 --> V5 --> V6 --> V7 --> V8
+    end
+    subgraph J3["Ciclo Longo e Setores"]
+        V9["<b>Vol. 9 — Maturidade e Exit</b><br/>Fases 19 e 20 · Board, Crise, M&A e IPO"]
+        V10["<b>Vol. 10 — Verticais e Glossário</b><br/>Regulação, 9 Setores e Índices Gerais"]
+        V8 --> V9
+    end
+    V10 -. "Consulta Setorial e Dicionário" .-> J1
+    V10 -. "Consulta Setorial e Dicionário" .-> J2
+    V10 -. "Consulta Setorial e Dicionário" .-> J3
+\`\`\``;
 
-function buildSobreEsteLivroVol1() {
-  return `## Sobre este livro
+const SOBRE_ESTE_LIVRO_V1 = `## Sobre este livro
 
-### O que isto é
+**IGNIÇÃO** é um manual operacional em **10 volumes autocontidos** para fundadores e equipes executivas construindo empresas no Brasil — da preparação pessoal antes do CNPJ (Fase 0) até a segunda curva de crescimento e o *exit* via M&A ou IPO (Fase 20).
 
-Esta obra tem cerca de 750 mil palavras. Cobre como começar uma empresa no Brasil, como validá-la, como tracioná-la, como escalá-la e como sair dela. Está organizada em **dez volumes** — sete volumes que acompanham a maturidade da jornada e três volumes de referência transversal:
+Cada volume da coleção foi desenhado para funcionar como um **livro completo e independente**: todos os **Frameworks passo a passo**, **Canvases Visuais preenchidos com casos brasileiros**, **Templates operacionais prontos para uso**, **Tabelas de Métricas** e **Guias de Leitura** estão integrados diretamente dentro das Fases e Capítulos onde são aplicados, sem que você precise abrir outro volume para executar sua etapa atual.
 
-- **Volume 1 — Ideação** (Fases 0 a 2B + 13 apêndices de preparação do fundador, cofundadores, decisão, comunicação e IA pessoal);
-- **Volume 2 — Validação** (Fases 3 a 9 + 12 apêndices de método científico, consumidor brasileiro, inteligência competitiva e modelos de negócio);
-- **Volume 3 — Tração** (Fases 10 a 12 + 20 apêndices de Go-to-Market até 1M ARR, canais, vendas iniciais, pricing, CS, dados, produto AI-native e caixa);
-- **Volume 4 — Captação e Finanças** (Fase 13 + 18 apêndices de estruturação societária, Venture Capital, valuation, instrumentos conversíveis, contabilidade, Reforma Tributária, FP&A, capital de giro e bancos);
-- **Volume 5 — Receita e Pessoas** (Fase 14 + 19 apêndices de Growth em escala, vendas Enterprise, RevOps, parcerias corporativas, marca, liderança executiva, contratação C-level, remuneração/ESOP e cultura);
-- **Volume 6 — Engenharia, Operações e Jurídico** (23 apêndices de produto em escala, gestão de engenharia, dívida técnica, IA, design organizacional, processos e blindagem contratual, trabalhista, LGPD, compliance e segurança);
-- **Volume 7 — Maturidade e Exit** (Fases 15 e 16 + 22 apêndices de Board, empresa familiar, disputas societárias, internacionalização, câmbio, crise aguda, layoffs, recuperação judicial, M&A, IPO, secondaries e post-mortems + Epílogo);
-- **Volume 8 — Playbooks Setoriais** (Guias de passagem de fase B, Catálogo de Métricas C, Leituras E, macroeconomia, regulação setorial, CADE, políticas públicas e os 9 Playbooks das Verticais Brasileiras);
-- **Volume 9 — Ferramentário** (Índice de Frameworks + Apêndice BG completo com 163 frameworks distribuídos em 19 disciplinas);
-- **Volume 10 — Canvases, Templates e Índices** (20 Canvases preenchidos em CZ, 30+ Templates operacionais e casos brasileiros em A, Glossários, Bibliografias e Índices Remissivos).
+A coleção está organizada em **10 volumes focais**:
 
-Não é narrativa contínua. Não é livro inspiracional. É um documento para consulta em decisões reais. Foi escrito assumindo que você tem pressa, tem uma dor concreta, e precisa de resposta operacional.
+- **Volume 1 — Ideação e Fundação (este volume):** Fases 0 a 3 + 13 Capítulos de preparação financeira e mental do fundador, dinâmica de cofundadores, vieses, tomada de decisão, comunicação, produtividade com IA, aceleradoras e mentores.
+- **Volume 2 — Descoberta de Cliente e Mapeamento de Mercado:** Fases 4 a 6 + 4 Capítulos de psicologia do consumidor brasileiro, inteligência competitiva, Category Design e posicionamento estratégico.
+- **Volume 3 — Hipóteses, Experimentos, Prototipagem e Modelos de Negócio:** Fases 7 a 10 + 9 Capítulos sobre método científico, níveis de maturidade, gates de evidência, fechamento de fase, o framework *Idea → Wedge → Scale* e as arquiteturas de Marketplaces, Efeitos de Rede/Plataformas, B2B2C e Open Source (COSS).
+- **Volume 4 — Tração, Go-to-Market e Product-Market Fit:** Fases 11 a 13 + 16 Capítulos de GTM inicial, canais de aquisição, marketing, vendas consultivas, pricing, recorrência, negociação, Customer Success, CX, analytics, produto AI-native e pivô.
+- **Volume 5 — Finanças, Captação e Venture Capital:** Fase 14 + 20 Capítulos de demonstrativos financeiros, coortes, simulação financeira, caixa, captação de VC, valuation, SAFE/mútuo, fomento não-diluitivo, venture debt, contabilidade, Reforma Tributária, FP&A, capital de giro e seguros.
+- **Volume 6 — Receita Enterprise, Liderança e Cultura:** Fases 15 e 16 + 19 Capítulos de Growth em escala, vendas Enterprise, RevOps, parcerias corporativas, marca/PR, Founder Mode, rotina do CEO, contratação C-level, performance, remuneração, ESOP e cultura.
+- **Volume 7 — Produto, Engenharia, Dados, IA e Operações:** Fase 17 + 11 Capítulos de discovery contínuo, gestão de engenharia, dívida técnica, IA na engenharia de software, AI Ops, design organizacional, gestão do conhecimento e excelência operacional.
+- **Volume 8 — Blindagem Jurídica, Societária, LGPD e Segurança:** Fase 18 + 14 Capítulos de Marco Legal das Startups, responsabilidade dos sócios, propriedade intelectual/INPI, non-compete, contratos, direito do trabalho, CDC, contencioso, LGPD, regulação de IA, compliance, prevenção a fraudes e SOC 2 / ISO 27001.
+- **Volume 9 — Maturidade, Governança, Crise e Exit:** Fases 19 e 20 + 22 Capítulos de Conselho de Administração (Board), empresas familiares, conflitos societários, internacionalização, câmbio/tesouraria, gestão de crise, layoffs, recuperação judicial, M&A, Search Funds, IPO, secondaries, tributação de exit, post-mortems e second-time founders + Epílogo.
+- **Volume 10 — Playbooks Setoriais, Regulação e Glossário Geral:** 13 Capítulos cobrindo ciclos macroeconômicos, autarquias reguladoras (BACEN, CVM, ANVISA, ANS, ANATEL, ANEEL), CADE, políticas públicas e os 9 Playbooks Setoriais (Biotech/Healthtech, Hardware, Govtech, Agritech, Edtech, Cleantech, Proptech, Legaltech e Logtech), seguidos pelo Glossário Geral, Bibliografia e Índices da Coleção.`;
 
-### As duas vozes do livro
+// Mapas de resolução de links e referências
+const oldAnchorToNew = new Map(); // slugify(oldAnchor) -> { volNum, volSlug, heading, displayLabel }
+const oldCodeToChapterInfo = new Map(); // 'AJ' -> { volNum, volSlug, chapNum, cleanTitle, heading }
+const oldPhaseToNewInfo = new Map(); // 'FASE_2B' -> { volNum, volSlug, newNum, heading }
 
-O livro alterna entre duas vozes. Quando trata de material consagrado, frameworks como OKR, Hoshin Kanri, JTBD, Crossing the Chasm, o registro é sóbrio, próximo do verbete enciclopédico. O autor se apaga. O que importa é fidelidade ao conceito original.
+// Registrar onde cada BG.X.Y, CZ.N, A.N foi embutido
+const embeddedItemLocation = new Map(); // 'BG.1.1' | 'CZ.1' | 'A.1' -> { volNum, volSlug, phaseNewNum, heading, title }
 
-Em outros momentos o livro opina. Sobre quando não empreender, sobre saúde mental do fundador, sobre o ecossistema brasileiro, sobre padrões de fracasso que vi de perto. Quando há opinião, o livro avisa. Você lê algo como "minha leitura, contestável, é que" e sabe que entrou em terreno autoral. Os dois modos coexistem ao longo do livro, e você sabe qual está lendo a cada momento.
-
-### Por que brasileiro
-
-Empreender no Brasil tem especificidades que raramente aparecem em livros importados. Tributação, regulação, ciclos de capital local, estrutura de canais, relação com governo, dinâmica societária, operação em múltiplas moedas. Traduzir Silicon Valley direto para São Paulo gera decisões ruins. O livro parte do contexto brasileiro e estende para o global quando necessário, não o contrário. CLT, MEI, Simples Nacional, INPI, LGPD, BNDES, BACEN, CVM, Receita Federal. Não são detalhes. São a moldura.
-
-### Como usar
-
-O livro não pede leitura linear. Aceita ser aberto em qualquer volume ou página por quem tem problema concreto. Além disso, cada bloco temático dentro dos volumes conta com uma **Introdução de Domínio** que explica como aqueles capítulos se conectam e qual ler primeiro.
-
-Se você está pensando em empreender, comece por este **Volume 1 (Ideação)**, nas Fases 0 a 2B. Preparação, encontrar a ideia, articular a ideia e construir a teoria do negócio. Reserve três a quatro horas. Pare e execute antes de continuar.
-
-Se você já tem uma ideia mas ainda não validou, vá para o **Volume 2 (Validação)**, nas Fases 3 a 9. Descoberta do problema até experimentos de validação e testes de protótipo. De quatro a seis horas. Consulte o BG.6 (no **Volume 9 — Ferramentário**) para técnica de entrevista.
-
-Se está construindo MVP ou buscando product-market fit, abra o **Volume 3 (Tração)**, que cobre as Fases 10 a 12, mais os apêndices de GTM, canais, pricing, dados e pivotagem, além de BG.10 e BG.11 no **Volume 9**.
-
-Se já tem PMF e está estruturando a empresa, captando ou escalando, use a tríade de Escala (**Volumes 4, 5 e 6**): comece pela [[IGNICAO-Vol-4-Captacao-e-Financas#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13 (Vol. 4)]] antes da [[IGNICAO-Vol-5-Receita-e-Pessoas#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14 (Vol. 5)]], mesmo que pareça óbvia. Quem pula estruturação volta a ela depois de quebrar coisa cara. Para fundraising, valuation e tributário, fique no **Volume 4** (Apêndices V, CF, CE, W, EN). Para escalar vendas enterprise, RevOps, executivos e cultura, vá ao **Volume 5** (Apêndices CG, EB, EH, BN, AP). Para escalar engenharia, produto, operações e blindagem jurídica/LGPD, use o **Volume 6** (Apêndices AB, CR, FB, DV, T, EU, EL).
-
-Se está em crise ou considerando pivô, há três rotas combinadas: [[IGNICAO-Vol-3-Tracao#APÊNDICE CL — PIVOT: TIPOLOGIA, DECISÃO E EXECUÇÃO|Apêndice CL — Pivot (Vol. 3)]], [[IGNICAO-Vol-7-Maturidade-e-Exit#APÊNDICE CW — CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO|Apêndice CW — Crise (Vol. 7)]] e [[#APÊNDICE Y — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Apêndice Y]] sobre saúde mental (neste Vol. 1). Crise societária acrescenta [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]] e os Apêndices AH (Vol. 6) e BP (Vol. 7). Crise de caixa acrescenta [[IGNICAO-Vol-4-Captacao-e-Financas#FASE 13 — ESTRUTURAÇÃO JURÍDICA, FINANCEIRA E OPERACIONAL|Fase 13 (Vol. 4)]] e os Apêndices AN e AT (Vol. 3).
-
-Se está preparando saída, governança de conselho ou gerindo segunda curva, abra o **Volume 7 (Maturidade e Exit)** na [[IGNICAO-Vol-7-Maturidade-e-Exit#FASE 15 — REINVENÇÃO E SEGUNDA CURVA|Fase 15 (Vol. 7)]], [[IGNICAO-Vol-7-Maturidade-e-Exit#FASE 16 — EXIT STRATEGY|Fase 16 (Vol. 7)]] e nos Apêndices AM, BR e BF.
-
-Para consulta transversal, use os **Volumes 8, 9 e 10**: o **Volume 8 (Playbooks Setoriais)** reúne o Catálogo de Métricas por Fase (C), regulação e os playbooks de verticais brasileiras; o **Volume 9 (Ferramentário)** cataloga 163 frameworks em 19 categorias (BG); e o **Volume 10 (Canvases, Templates e Índices)** entrega os 20 canvases visuais (CZ), os 30+ templates copiáveis (A) e os glossários e índices gerais.
-
-E se você só tem quinze minutos, abra o volume e a fase do seu momento atual. Leia a abertura, as armadilhas, e a saída da fase. É suficiente para reorientar foco.
-
-### Sobre os exemplos: PadariaPro e os casos reais
-
-Você vai encontrar PadariaPro mencionado em vários templates ao longo do livro. É um caso fictício, criado para ilustrar todo o ciclo de instrumentos do livro num único arco coerente, da Declaração Inicial da ideia, na [[#FASE 2 — ARTICULAÇÃO E CAPTURA DA IDEIA|Fase 2]], até o Plano de Exit, na [[IGNICAO-Vol-7-Maturidade-e-Exit#FASE 16 — EXIT STRATEGY|Fase 16 (Vol. 7)]]. PadariaPro é um SaaS de gestão para padarias artesanais brasileiras com três a cinco lojas. Você acompanha os fundadores, também fictícios, preenchendo cada template em sequência. Story Tree, Canvas da Cunha, Banco de Hipóteses, Cartão de Experimento, Especificação de MVP, OKRs, Plano de Time, e por aí vai. A função é pedagógica. Um caso único permite ver continuidade entre os instrumentos sem ter que reaprender contexto a cada novo template.
-
-Onde o caso real funciona melhor, o livro usa empresas brasileiras documentadas. Stone, Quinto Andar, Hotmart, Magazine Luiza, RD Station, Linx. Os pontos onde elas aparecem são Especificação de MVP, Diagnóstico de PMF, Máquina de Crescimento em escala, Análise de Segunda Curva e Plano de Exit. Casos reais nesses pontos adicionam nuance e textura que um caso fictício não consegue produzir. Em alguns templates dos Volumes 1 e 2 (Ideação e Validação), como Declaração Inicial, Roteiro de Entrevista e Canvas da Cunha, você verá PadariaPro e um caso real lado a lado, para mostrar como o instrumento se comporta em contextos diferentes.
-
-Tanto os casos reais quanto o PadariaPro são instrumentos. Nenhum dos dois é receita.
-
-### Como este livro envelhece
-
-Envelhece rápido: nomes de fundos, valuations específicos, ferramentas de IA, features de produtos, alíquotas tributárias, regimes regulatórios. Envelhece devagar: frameworks clássicos, padrões de descoberta, psicologia do fundador, dinâmicas de mercado. Ao reler em ano futuro, desconfie de datas e números. Confie em processos e padrões. A próxima edição vai corrigir o que envelheceu mal. Esse é o privilégio de documento canônico sobre livro impresso.
-
-### O que este livro não é
-
-Não substitui advogado, contador, terapeuta, consultor regulatório ou mentor humano. Não é bola de cristal. Quando diz que a chance de sucesso em X é baixa, isso reflete padrões observáveis, não destino. As respostas para seu caso específico envolvem pessoas e contextos que nenhuma enciclopédia consegue antecipar.
-
-Empreender no Brasil é difícil. O livro não disfarça isso. Mas é possível, e milhares de pessoas conseguem todo ano. Este livro existe para aumentar a probabilidade de você estar entre elas, reduzindo erros evitáveis, preparando para os inevitáveis, e devolvendo o tempo que seria gasto descobrindo o que outros já descobriram.`;
-}
-
-function buildSobreEsteVolume(vol) {
-  return `## Sobre este Volume
-
-Este é o **Volume ${vol.num} (${vol.title.split(': ')[1]})** da coleção **IGNIÇÃO — O manual operacional do empreendedor brasileiro** (10 volumes).
-
-${vol.about}
-
-> [!note] Consulta transversal e navegação entre os 10 volumes
-> Cada volume da coleção IGNIÇÃO reúne as **Fases**, as **Introduções de Domínio** e os **Apêndices temáticos** do seu respectivo estágio ou disciplina. Para métricas por fase e playbooks de verticais brasileiras, consulte o **[[IGNICAO-Vol-8-Playbooks-Setoriais#APÊNDICE C — CATÁLOGO DE MÉTRICAS POR FASE|Volume 8 — Playbooks Setoriais]]**. Para os 163 frameworks de gestão e produto, consulte o **[[IGNICAO-Vol-9-Ferramentario#APÊNDICE BG — FERRAMENTÁRIO COMPLETO DO EMPREENDEDOR|Volume 9 — Ferramentário (BG)]]**. Para canvases visuais (CZ), templates copiáveis (A) e glossário geral, consulte o **[[IGNICAO-Vol-10-Canvases-e-Templates#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Volume 10 — Canvases, Templates e Índices]]**. A Nota do Autor e o guia geral de uso da obra encontram-se na abertura do **[[IGNICAO-Vol-1-Ideacao#Nota do autor|Volume 1 — Ideação]]**.`;
-}
-
-function buildToc(vol) {
-  const lines = ['## Sumário deste Volume', ''];
-  for (const b of vol.blocks) {
-    lines.push(`### ${b.tocGroup}`, '');
-    for (const k of b.keys) {
-      const sec = sectionsMap.get(k);
-      lines.push(`- [[#${sec.heading}]]`);
-    }
-    lines.push('');
-  }
-  return lines.join('\n').trim();
-}
-
-// ---------------------------------------------------------------------------
-// 5. Montar o texto bruto dos 10 volumes (Passo 1)
-// ---------------------------------------------------------------------------
-const rawVolumes = new Map(); // num -> { spec, bodyWithoutFm }
-
-for (const vol of VOLUMES_SPEC) {
-  const parts = [];
-  parts.push(`# ${vol.title}`);
-  parts.push('');
-  parts.push(`*${vol.subtitle}*`);
-  parts.push('');
-  parts.push(
-    '> [!tip] Dica para leitura no Obsidian e GitHub\n' +
-      '> Este volume faz parte da coleção **IGNIÇÃO** (10 volumes). Os links para seções deste mesmo volume usam âncoras diretas (`[[#Seção]]`) e os links para outros volumes apontam para o arquivo correspondente (`[[IGNICAO-Vol-X-Nome#Seção]]`).'
-  );
-  parts.push('', '---', '');
-
-  if (vol.num === 1) {
-    parts.push(notaDoAutorBody);
-    parts.push('', '---', '');
-    parts.push(buildSobreEsteLivroVol1());
-  } else {
-    parts.push(buildSobreEsteVolume(vol));
-  }
-
-  parts.push('', '---', '');
-  parts.push(buildCollectionMapMermaid(vol.num));
-  parts.push('', '---', '');
-  parts.push(buildToc(vol));
-
-  for (const b of vol.blocks) {
-    parts.push('', '---', '');
-    parts.push(`# ${b.h1}`);
-    parts.push('', '---', '');
-    if (b.intro) {
-      parts.push(b.intro.trim());
-      parts.push('', '---', '');
-    }
-    for (let i = 0; i < b.keys.length; i++) {
-      const sec = sectionsMap.get(b.keys[i]);
-      parts.push(sec.body);
-      if (i + 1 < b.keys.length) {
-        parts.push('', '---', '');
-      }
-    }
-  }
-
-  rawVolumes.set(vol.num, {
-    spec: vol,
-    text: parts.join('\n') + '\n',
-  });
-}
-
-// ---------------------------------------------------------------------------
-// 6. Passo 2: Indexar todos os headings dos 10 volumes e resolver 100% dos wikilinks
-// ---------------------------------------------------------------------------
-const h2Index = new Map(); // slug -> { num, slugName, exactHeading }
-const allHeadingIndex = new Map(); // slug -> [{ num, slugName, level, exactHeading }]
-
-for (const [num, { spec, text }] of rawVolumes.entries()) {
-  const clean = text.replace(/```[\s\S]*?```|`[^`\n]+`/g, '');
-  for (const m of clean.matchAll(/^(#{1,4})\s+(.+)$/gm)) {
-    const level = m[1].length;
-    const exactHeading = m[2].trim();
-    const s = slugify(exactHeading);
-    if (!allHeadingIndex.has(s)) allHeadingIndex.set(s, []);
-    allHeadingIndex.get(s).push({ num, slugName: spec.slug, level, exactHeading });
-    if (level === 2 && !h2Index.has(s)) {
-      h2Index.set(s, { num, slugName: spec.slug, exactHeading });
-    }
-  }
-}
-
-function resolveTargetVolume(targetHeading, currentVolNum) {
-  const s = slugify(targetHeading);
-  // Se for um H2 canônico único, priorizar o H2 (evita colisão com ### FASE X dentro do Apêndice C)
-  if (h2Index.has(s)) {
-    return h2Index.get(s);
-  }
-  const candidates = allHeadingIndex.get(s) || [];
-  if (candidates.length === 1) {
-    return candidates[0];
-  }
-  // Se houver candidato no próprio volume atual, manter no volume atual
-  const sameVol = candidates.find((c) => c.num === currentVolNum);
-  if (sameVol) return sameVol;
-  return candidates[0] || null;
-}
-
-let rewrittenLinks = 0;
-
-for (const [num, volObj] of rawVolumes.entries()) {
-  const codeSpans = [];
-  let protectedText = volObj.text.replace(/```[\s\S]*?```|`[^`\n]+`/g, (match) => {
-    const idx = codeSpans.length;
-    codeSpans.push(match);
-    return `\u0000CODE_${idx}\u0000`;
-  });
-
-  protectedText = protectedText.replace(/\[\[((?:(?!\]\]).)*)\]\]/g, (fullMatch, inner) => {
-    const hasEscapedPipe = inner.includes('\\|');
-    const parts = inner.split(/\\?\|/);
-    let rawTarget = parts[0].trim();
-    if (rawTarget.endsWith('\\')) rawTarget = rawTarget.slice(0, -1).trim();
-    let alias = parts.length > 1 ? parts.slice(1).join('|').trim() : null;
-
-    if (!rawTarget.includes('#')) {
-      return fullMatch;
-    }
-
-    const [, targetHeadingRaw] = rawTarget.split('#', 2);
-    const targetHeading = targetHeadingRaw.trim();
-    const dest = resolveTargetVolume(targetHeading, num);
-    if (!dest) {
-      console.warn(`[WARN] Destino não encontrado em Vol. ${num}: ${fullMatch}`);
-      return fullMatch;
-    }
-
-    const pipeSep = hasEscapedPipe ? '\\|' : '|';
-
-    if (dest.num === num) {
-      // Link interno ao mesmo volume
-      if (alias !== null) {
-        // Remover eventual "(Vol. X)" obsoleto de link que agora é interno
-        const cleanAlias = alias.replace(/\s*\(Vol\.\s*\d+\)/g, '').trim();
-        const updated = `[[#${targetHeading}${pipeSep}${cleanAlias}]]`;
-        if (updated !== fullMatch) rewrittenLinks++;
-        return updated;
-      } else {
-        const updated = `[[#${targetHeading}]]`;
-        if (updated !== fullMatch) rewrittenLinks++;
-        return updated;
-      }
-    } else {
-      // Link entre volumes diferentes
-      if (alias !== null) {
-        let updatedAlias = alias;
-        if (/\(Vol\.\s*\d+\)/.test(updatedAlias)) {
-          updatedAlias = updatedAlias.replace(/\(Vol\.\s*\d+\)/g, `(Vol. ${dest.num})`);
-        } else {
-          updatedAlias = `${updatedAlias} (Vol. ${dest.num})`;
+for (const vSpec of VOLUMES_SPEC) {
+  let chapCounter = 0;
+  for (const b of vSpec.blocks) {
+    for (const item of b.items) {
+      if (item.type === 'phase') {
+        const cfg = PHASE_CONFIG[item.key];
+        const origSec = rawSections.get(item.key);
+        oldPhaseToNewInfo.set(item.key, {
+          volNum: vSpec.num,
+          volSlug: vSpec.slug,
+          newNum: cfg.newNum,
+          heading: cfg.newHeading,
+        });
+        if (origSec) {
+          oldAnchorToNew.set(slugify(origSec.heading), {
+            volNum: vSpec.num,
+            volSlug: vSpec.slug,
+            heading: cfg.newHeading,
+            displayLabel: `Fase ${cfg.newNum}`,
+          });
         }
-        const updated = `[[${dest.slugName}#${targetHeading}${pipeSep}${updatedAlias}]]`;
-        if (updated !== fullMatch) rewrittenLinks++;
-        return updated;
-      } else {
-        const updated = `[[${dest.slugName}#${targetHeading}]]`;
-        if (updated !== fullMatch) rewrittenLinks++;
-        return updated;
+        oldAnchorToNew.set(slugify(cfg.newHeading), {
+          volNum: vSpec.num,
+          volSlug: vSpec.slug,
+          heading: cfg.newHeading,
+          displayLabel: `Fase ${cfg.newNum}`,
+        });
+
+        for (const bgCode of cfg.bgs) {
+          const bgObj = bgItems.get(bgCode);
+          embeddedItemLocation.set(bgCode, {
+            volNum: vSpec.num,
+            volSlug: vSpec.slug,
+            phaseNewNum: cfg.newNum,
+            heading: bgObj.heading,
+            title: bgObj.title,
+          });
+          oldAnchorToNew.set(slugify(`${bgCode} — ${bgObj.title}`), {
+            volNum: vSpec.num,
+            volSlug: vSpec.slug,
+            heading: bgObj.heading,
+            displayLabel: `${bgObj.title} (Fase ${cfg.newNum})`,
+          });
+          oldAnchorToNew.set(slugify(bgCode), {
+            volNum: vSpec.num,
+            volSlug: vSpec.slug,
+            heading: bgObj.heading,
+            displayLabel: `${bgObj.title} (Fase ${cfg.newNum})`,
+          });
+        }
+
+        for (const czCode of cfg.czs) {
+          const czObj = czItems.get(czCode);
+          embeddedItemLocation.set(czCode, {
+            volNum: vSpec.num,
+            volSlug: vSpec.slug,
+            phaseNewNum: cfg.newNum,
+            heading: czObj.heading,
+            title: czObj.title,
+          });
+          oldAnchorToNew.set(slugify(`${czCode} — ${czObj.title}`), {
+            volNum: vSpec.num,
+            volSlug: vSpec.slug,
+            heading: czObj.heading,
+            displayLabel: `${czObj.title} (Fase ${cfg.newNum})`,
+          });
+          oldAnchorToNew.set(slugify(czCode), {
+            volNum: vSpec.num,
+            volSlug: vSpec.slug,
+            heading: czObj.heading,
+            displayLabel: `${czObj.title} (Fase ${cfg.newNum})`,
+          });
+        }
+
+        for (const aCode of cfg.as) {
+          const aObj = aItems.get(aCode);
+          embeddedItemLocation.set(aCode, {
+            volNum: vSpec.num,
+            volSlug: vSpec.slug,
+            phaseNewNum: cfg.newNum,
+            heading: aObj.heading,
+            title: aObj.title,
+          });
+          oldAnchorToNew.set(slugify(aCode), {
+            volNum: vSpec.num,
+            volSlug: vSpec.slug,
+            heading: aObj.heading,
+            displayLabel: `Template: ${aObj.title} (Fase ${cfg.newNum})`,
+          });
+        }
+      } else if (item.type === 'chapter') {
+        chapCounter += 1;
+        const origSec = rawSections.get(item.key);
+        const built = buildChapterSection(item.key, chapCounter, origSec);
+        oldCodeToChapterInfo.set(item.key, {
+          volNum: vSpec.num,
+          volSlug: vSpec.slug,
+          chapNum: chapCounter,
+          cleanTitle: built.cleanTitle,
+          heading: built.heading,
+        });
+        oldAnchorToNew.set(slugify(origSec.heading), {
+          volNum: vSpec.num,
+          volSlug: vSpec.slug,
+          heading: built.heading,
+          displayLabel: `Capítulo ${chapCounter} — ${built.cleanTitle}`,
+        });
+        oldAnchorToNew.set(slugify(`apendice-${item.key}`), {
+          volNum: vSpec.num,
+          volSlug: vSpec.slug,
+          heading: built.heading,
+          displayLabel: `Capítulo ${chapCounter} — ${built.cleanTitle}`,
+        });
+
+        const extras = CHAPTER_EXTRAS[item.key];
+        if (extras && extras.bgs) {
+          for (const bgCode of extras.bgs) {
+            const bgObj = bgItems.get(bgCode);
+            embeddedItemLocation.set(bgCode, {
+              volNum: vSpec.num,
+              volSlug: vSpec.slug,
+              phaseNewNum: null,
+              chapNum: chapCounter,
+              heading: bgObj.heading,
+              title: bgObj.title,
+            });
+            oldAnchorToNew.set(slugify(`${bgCode} — ${bgObj.title}`), {
+              volNum: vSpec.num,
+              volSlug: vSpec.slug,
+              heading: bgObj.heading,
+              displayLabel: `${bgObj.title} (Cap. ${chapCounter})`,
+            });
+            oldAnchorToNew.set(slugify(bgCode), {
+              volNum: vSpec.num,
+              volSlug: vSpec.slug,
+              heading: bgObj.heading,
+              displayLabel: `${bgObj.title} (Cap. ${chapCounter})`,
+            });
+          }
+        }
+      } else if (item.type === 'ref') {
+        const origSec = rawSections.get(item.key);
+        oldAnchorToNew.set(slugify(origSec.heading), {
+          volNum: vSpec.num,
+          volSlug: vSpec.slug,
+          heading: item.newHeading,
+          displayLabel: item.newHeading,
+        });
       }
     }
-  });
-
-  volObj.text = protectedText.replace(/\u0000CODE_(\d+)\u0000/g, (_, idx) => codeSpans[Number(idx)]);
+  }
 }
 
-console.log(`Wikilinks recalibrados para os 10 volumes: ${rewrittenLinks}`);
+// Mapear também âncoras antigas especiais (FASE 14 unificada, 14A..14D, BG, CZ, A, C, E)
+const f14Orig = rawSections.get('FASE_14');
+oldAnchorToNew.set(slugify(f14Orig.heading), {
+  volNum: 6,
+  volSlug: 'IGNICAO-Vol-6-Receita-e-Pessoas',
+  heading: 'FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA',
+  displayLabel: 'Fase 16',
+});
+oldAnchorToNew.set(slugify('14A — Time e Lideranca em Escala'), {
+  volNum: 6,
+  volSlug: 'IGNICAO-Vol-6-Receita-e-Pessoas',
+  heading: 'FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA',
+  displayLabel: 'Fase 16 — Time e Liderança em Escala',
+});
+oldAnchorToNew.set(slugify('TIME E LIDERANÇA EM ESCALA'), {
+  volNum: 6,
+  volSlug: 'IGNICAO-Vol-6-Receita-e-Pessoas',
+  heading: 'FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA',
+  displayLabel: 'Fase 16 — Time e Liderança em Escala',
+});
+oldAnchorToNew.set(slugify('14B — Operacoes em Escala'), {
+  volNum: 7,
+  volSlug: 'IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes',
+  heading: 'FASE 17 — OPERAÇÕES, PROCESSOS E GESTÃO EM ESCALA',
+  displayLabel: 'Fase 17 — Operações em Escala',
+});
+oldAnchorToNew.set(slugify('OPERAÇÕES, PROCESSOS E GESTÃO EM ESCALA'), {
+  volNum: 7,
+  volSlug: 'IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes',
+  heading: 'FASE 17 — OPERAÇÕES, PROCESSOS E GESTÃO EM ESCALA',
+  displayLabel: 'Fase 17 — Operações em Escala',
+});
+oldAnchorToNew.set(slugify('14C — Maquina de Crescimento'), {
+  volNum: 6,
+  volSlug: 'IGNICAO-Vol-6-Receita-e-Pessoas',
+  heading: 'FASE 15 — MÁQUINA DE CRESCIMENTO E EXPANSÃO EM ESCALA',
+  displayLabel: 'Fase 15 — Máquina de Crescimento',
+});
+oldAnchorToNew.set(slugify('MÁQUINA DE CRESCIMENTO, CAPITAL E EXPANSÃO'), {
+  volNum: 6,
+  volSlug: 'IGNICAO-Vol-6-Receita-e-Pessoas',
+  heading: 'FASE 15 — MÁQUINA DE CRESCIMENTO E EXPANSÃO EM ESCALA',
+  displayLabel: 'Fase 15 — Máquina de Crescimento',
+});
+oldAnchorToNew.set(slugify('14D — Capital para Escala'), {
+  volNum: 5,
+  volSlug: 'IGNICAO-Vol-5-Financas-e-Captacao',
+  heading: 'FASE 14 — CAPITAL PARA ESCALA, RODADAS E EFICIÊNCIA FINANCEIRA',
+  displayLabel: 'Fase 14 — Capital para Escala',
+});
+
+// Redirecionar links genéricos para Apêndice BG / CZ / A / C / E
+oldAnchorToNew.set(slugify(rawSections.get('BG').heading), {
+  volNum: 10,
+  volSlug: 'IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario',
+  heading: 'ÍNDICE GERAL DE FRAMEWORKS DA COLEÇÃO',
+  displayLabel: 'Índice Geral de Frameworks',
+});
+oldAnchorToNew.set(slugify(rawSections.get('CZ').heading), {
+  volNum: 1,
+  volSlug: 'IGNICAO-Vol-1-Ideacao',
+  heading: 'CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)',
+  displayLabel: 'Canvases Visuais da Fase',
+});
+oldAnchorToNew.set(slugify(rawSections.get('A').heading), {
+  volNum: 1,
+  volSlug: 'IGNICAO-Vol-1-Ideacao',
+  heading: 'TEMPLATES OPERACIONAIS E CASOS PREENCHIDOS DESTA FASE',
+  displayLabel: 'Templates Operacionais da Fase',
+});
+oldAnchorToNew.set(slugify(rawSections.get('C').heading), {
+  volNum: 5,
+  volSlug: 'IGNICAO-Vol-5-Financas-e-Captacao',
+  heading: 'MÉTRICAS E BENCHMARKS DESTA FASE (FASE 14)',
+  displayLabel: 'Catálogo de Métricas e Benchmarks',
+});
+oldAnchorToNew.set(slugify(rawSections.get('E').heading), {
+  volNum: 10,
+  volSlug: 'IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario',
+  heading: 'BIBLIOGRAFIA GERAL',
+  displayLabel: 'Bibliografia e Leituras Recomendadas',
+});
+
+// Mapear BG.1 .. BG.19 categorias para o primeiro item de cada categoria
+for (let cat = 1; cat <= 19; cat++) {
+  const firstCode = `BG.${cat}.1`;
+  const loc = embeddedItemLocation.get(firstCode);
+  if (loc) {
+    oldAnchorToNew.set(slugify(`bg-${cat}`), {
+      volNum: loc.volNum,
+      volSlug: loc.volSlug,
+      heading: loc.heading,
+      displayLabel: loc.title,
+    });
+  }
+}
 
 // ---------------------------------------------------------------------------
-// 7. Remover arquivos antigos de `volumes/` e gravar os 10 novos volumes + manifest
+// 7. Gerar o markdown bruto de cada um dos 10 volumes
 // ---------------------------------------------------------------------------
-for (const oldFile of fs.readdirSync(VOLUMES_DIR)) {
-  if (oldFile.endsWith('.md')) {
-    fs.unlinkSync(path.join(VOLUMES_DIR, oldFile));
+const rawVolumeDocs = new Map(); // volNum -> { spec, md }
+
+for (const vSpec of VOLUMES_SPEC) {
+  let chapCounter = 0;
+  const tocLines = [];
+  const bodyBlocks = [];
+
+  for (const b of vSpec.blocks) {
+    tocLines.push(`### ${b.tocGroup}`);
+    const blockSections = [];
+
+    for (const item of b.items) {
+      if (item.type === 'phase') {
+        const cfg = PHASE_CONFIG[item.key];
+        const origSec = rawSections.get(item.key);
+        const enriched = enrichPhaseBody(item.key, origSec.body);
+        tocLines.push(`- [[#${cfg.newHeading}|${cfg.newHeading}]]`);
+        blockSections.push(enriched);
+      } else if (item.type === 'chapter') {
+        chapCounter += 1;
+        const origSec = rawSections.get(item.key);
+        const built = buildChapterSection(item.key, chapCounter, origSec);
+        tocLines.push(`- [[#${built.heading}|${built.heading}]]`);
+        blockSections.push(built.body);
+      } else if (item.type === 'ref') {
+        const origSec = rawSections.get(item.key);
+        let refBody = origSec.body.replace(/^## [^\n]+/m, `## ${item.newHeading}`);
+        if (item.key === 'APÊNDICE: ÍNDICE DE FRAMEWORKS') {
+          refBody = refBody.replace(
+            /^## [^\n]+/m,
+            `## ${item.newHeading}\n\n> [!note] Onde encontrar cada framework\n> Na arquitetura autocontida da coleção IGNIÇÃO, todos os 164 frameworks abaixo estão detalhados passo a passo diretamente dentro das Fases e Capítulos dos **Volumes 1 a 9**. Use este índice para localizar rapidamente em qual Fase e Volume cada método é ensinado.`
+          );
+        }
+        tocLines.push(`- [[#${item.newHeading}|${item.newHeading}]]`);
+        blockSections.push(refBody);
+      }
+    }
+
+    bodyBlocks.push(
+      `# ${b.h1}\n\n${b.intro.trim()}\n\n---\n\n` + blockSections.join('\n\n---\n\n')
+    );
+  }
+
+  const frontmatter = `---
+title: "${vSpec.title}"
+subtitle: "${vSpec.subtitle}"
+author: "João Prado"
+date: 2026
+version: "4.0"
+volume: ${vSpec.num}
+collection: "IGNIÇÃO — O manual operacional do empreendedor brasileiro (10 Volumes Autocontidos)"
+language: pt-BR
+---`;
+
+  let headerBlock = `# ${vSpec.title}\n\n**${vSpec.subtitle}**\n\n*João Prado · 2026 — Edição Autocontida (v4.0)*\n\n---\n\n`;
+  if (vSpec.num === 1) {
+    headerBlock += `${notaDoAutorBody}\n\n---\n\n${SOBRE_ESTE_LIVRO_V1}\n\n---\n\n## Mapa da Coleção IGNIÇÃO\n\n${COLLECTION_MAP_MERMAID}\n\n---\n\n## Sumário deste Volume\n\n${tocLines.join('\n')}\n\n---\n\n`;
+  } else {
+    headerBlock += `## Sobre este Volume\n\nEste é o **Volume ${vSpec.num} (${vSpec.title.replace(/^IGNIÇÃO — Volume \d+:\s*/, '')})** da coleção **IGNIÇÃO — O manual operacional do empreendedor brasileiro** (10 volumes autocontidos).\n\n${vSpec.about}\n\n---\n\n## Mapa da Coleção IGNIÇÃO\n\n${COLLECTION_MAP_MERMAID}\n\n---\n\n## Sumário deste Volume\n\n${tocLines.join('\n')}\n\n---\n\n`;
+  }
+
+  const fullMd = `${frontmatter}\n\n${headerBlock}${bodyBlocks.join('\n\n---\n\n')}\n`;
+  rawVolumeDocs.set(vSpec.num, { spec: vSpec, md: fullMd });
+}
+
+console.log('[2/6] Estrutura dos 10 volumes autocontidos montada em memória.');
+
+// ---------------------------------------------------------------------------
+// 8. Indexar todos os headings reais (H1 a H6) presentes nos 10 volumes
+// ---------------------------------------------------------------------------
+const globalHeadingIndex = new Map(); // slug -> { volNum, volSlug, exactHeading }
+const perVolHeadingIndex = new Map(); // volNum -> Map(slug -> exactHeading)
+
+for (const [volNum, { spec, md }] of rawVolumeDocs.entries()) {
+  const vMap = new Map();
+  const lines = md.split('\n');
+  let inFence = false;
+  for (const line of lines) {
+    if (line.trim().startsWith('```')) inFence = !inFence;
+    if (!inFence) {
+      const m = line.match(/^#{1,6}\s+(.+)$/);
+      if (m) {
+        const hText = m[1].trim();
+        const s = slugify(hText);
+        if (!vMap.has(s)) vMap.set(s, hText);
+        if (!globalHeadingIndex.has(s)) {
+          globalHeadingIndex.set(s, { volNum, volSlug: spec.slug, exactHeading: hText });
+        }
+      }
+    }
+  }
+  perVolHeadingIndex.set(volNum, vMap);
+}
+
+// Adicionar mapeamentos para todos os headings de BG, CZ e A pelo código antigo
+for (const [code, loc] of embeddedItemLocation.entries()) {
+  oldAnchorToNew.set(slugify(code), {
+    volNum: loc.volNum,
+    volSlug: loc.volSlug,
+    heading: loc.heading,
+    displayLabel: loc.title,
+  });
+}
+
+// Verificar também sub-itens de Apêndice A (ex: A.1..A.39 com títulos completos antigos)
+for (const [code, aObj] of aItems.entries()) {
+  const loc = embeddedItemLocation.get(code);
+  if (loc) {
+    for (const [s, info] of globalHeadingIndex.entries()) {
+      if (s.startsWith(slugify(code))) {
+        oldAnchorToNew.set(s, {
+          volNum: loc.volNum,
+          volSlug: loc.volSlug,
+          heading: loc.heading,
+          displayLabel: loc.title,
+        });
+      }
+    }
+  }
+}
+
+console.log(`[3/6] Índices de headings construídos (${globalHeadingIndex.size} âncoras únicas).`);
+
+// ---------------------------------------------------------------------------
+// 9. Resolver globalmente todos os wikilinks e normalizar referências textuais
+// ---------------------------------------------------------------------------
+function updateAliasLabel(alias, targetInfo, currentVolNum) {
+  let out = alias.trim();
+  // Remover sufixos antigos "(Vol. X)"
+  out = out.replace(/\s*\(Vol\.\s*\d+\)/gi, '').trim();
+
+  // Se o alias era "Apêndice XX..." converter para "Capítulo N..."
+  const mAp = out.match(/^Apêndice\s+([A-Z0-9]{1,3})(?:\s*[—–-]\s*(.*))?$/i);
+  if (mAp) {
+    const code = mAp[1].toUpperCase();
+    const chInfo = oldCodeToChapterInfo.get(code);
+    if (chInfo) {
+      out = mAp[2]
+        ? `Capítulo ${chInfo.chapNum} — ${mAp[2].trim()}`
+        : `Capítulo ${chInfo.chapNum} (${chInfo.cleanTitle})`;
+    } else if (code === 'BG') {
+      out = 'Índice Geral de Frameworks';
+    } else if (code === 'CZ') {
+      out = 'Canvases Visuais da Fase';
+    } else if (code === 'A') {
+      out = 'Templates Operacionais da Fase';
+    } else if (code === 'C') {
+      out = 'Catálogo de Métricas e Benchmarks';
+    } else if (code === 'E') {
+      out = 'Bibliografia e Leituras Recomendadas';
+    }
+  }
+
+  // Se o alias era um código BG.X.Y, CZ.N ou A.N
+  out = out.replace(/\b(BG\.\d+\.\d+|CZ\.\d+|A\.\d+)\b/g, (code) => {
+    const loc = embeddedItemLocation.get(code);
+    if (!loc) return code;
+    const prefix = code.startsWith('BG.')
+      ? 'Framework: '
+      : code.startsWith('CZ.')
+        ? 'Canvas: '
+        : 'Template: ';
+    return `${prefix}${loc.title}`;
+  });
+
+  // Se o alias mencionava "Fase X", atualizar número quando era link para fase antiga
+  out = out.replace(/\bFase\s+(2B|2b|\d+)\b/g, (full, pNum) => {
+    if (targetInfo && targetInfo.heading.startsWith('FASE ')) {
+      const mNew = targetInfo.heading.match(/^FASE (\d+)/);
+      if (mNew) return `Fase ${mNew[1]}`;
+    }
+    return full;
+  });
+
+  if (targetInfo && targetInfo.volNum !== currentVolNum) {
+    out = `${out} (Vol. ${targetInfo.volNum})`;
+  }
+  return out;
+}
+
+function formatEmbeddedRef(code, currentVolNum) {
+  const loc = embeddedItemLocation.get(code);
+  if (!loc) return code;
+  const where = loc.phaseNewNum !== null ? `Fase ${loc.phaseNewNum}` : `Cap. ${loc.chapNum}`;
+  const volSuffix = loc.volNum !== currentVolNum ? `, Vol. ${loc.volNum}` : '';
+  return `${loc.title} (${where}${volSuffix})`;
+}
+
+// Normaliza códigos legados em texto corrido fora de wikilinks [[...]]
+function normalizeProseSegment(seg, currentVolNum) {
+  let s = seg;
+
+  // 1) "Fases 2 e 2B" / "Fases 0 a 2B" / "Fase 2B"
+  s = s
+    .replace(/\bFases 2 e 2B\b/gi, 'Fases 2 e 3')
+    .replace(/\bFases 0 a 2B\b/gi, 'Fases 0 a 3')
+    .replace(/\bFase 2B\b/g, 'Fase 3')
+    .replace(/\bFASE 2B\b/g, 'FASE 3');
+
+  // 2) Callouts e menções a "Apêndice CZ — Nome (CZ.N)" ou "Apêndice CZ"
+  s = s.replace(
+    /\bApêndice\s+CZ\s*[—–-]\s*([^\n(]+?)(?:\s*\((CZ\.\d+)\))?(?=$|\s|[.,;:])/gi,
+    (_, name, czCode) => {
+      if (czCode && embeddedItemLocation.has(czCode.toUpperCase())) {
+        return `Canvas Visual — ${formatEmbeddedRef(czCode.toUpperCase(), currentVolNum)}`;
+      }
+      return `Canvases Visuais — ${name.trim()}`;
+    }
+  );
+  s = s
+    .replace(/\bApêndice\s+A\s*[—–-]\s*/gi, 'Templates Operacionais — ')
+    .replace(/\bdo Apêndice CZ\b/gi, 'da seção de Canvases Visuais')
+    .replace(/\bno Apêndice CZ\b/gi, 'na seção de Canvases Visuais')
+    .replace(/\bapêndice CZ\b/gi, 'seção de Canvases Visuais')
+    .replace(/\bdo Ferramentário BG\b/gi, 'dos Manuais de Frameworks das Fases')
+    .replace(/\bdo Apêndice BG\b/gi, 'dos Manuais de Frameworks das Fases')
+    .replace(/\bno Apêndice BG\b/gi, 'nos Manuais de Frameworks das Fases')
+    .replace(/\bapêndice BG\b/gi, 'Manual de Frameworks da Fase')
+    .replace(/\bdo Apêndice A\b/gi, 'da seção de Templates Operacionais')
+    .replace(/\bno Apêndice A\b/gi, 'na seção de Templates Operacionais')
+    .replace(/\bdo Apêndice C\b/gi, 'da seção de Métricas e Benchmarks')
+    .replace(/\bno Apêndice C\b/gi, 'na seção de Métricas e Benchmarks')
+    .replace(/\bdo Apêndice E\b/gi, 'da seção de Leituras Recomendadas')
+    .replace(/\bno Apêndice E\b/gi, 'na seção de Leituras Recomendadas');
+
+  // 3) Menções a "Apêndice XX — Título" ou "Apêndice XX" (onde XX é capítulo, ou K -> FG)
+  s = s.replace(
+    /\bApêndice\s+([A-Z]{1,2})(?:\s*([—–-])\s*([^\n:.,;)]+))?/g,
+    (full, rawCode, sep, restTitle) => {
+      const code = rawCode.toUpperCase() === 'K' ? 'FG' : rawCode.toUpperCase();
+      const ch = oldCodeToChapterInfo.get(code);
+      if (!ch) return full;
+      const volSuffix = ch.volNum !== currentVolNum ? ` (Vol. ${ch.volNum})` : '';
+      if (sep && restTitle) {
+        return `Capítulo ${ch.chapNum}${volSuffix} — ${restTitle.trim()}`;
+      }
+      return `Capítulo ${ch.chapNum}${volSuffix} (${ch.cleanTitle})`;
+    }
+  );
+
+  // 4) Menções a BG.X.Y:
+  // 4a) "(Nome, BG.X.Y)" -> "(Nome)"
+  s = s.replace(/,\s*BG\.\d+\.\d+\)/g, ')');
+  // 4b) "BG.X.Y (Nome)" -> "Framework: Nome (Fase X)"
+  s = s.replace(/\b(BG\.\d+\.\d+)\s*\(([^)]+)\)/g, (full, code) => {
+    if (!embeddedItemLocation.has(code)) return full;
+    return `Framework: ${formatEmbeddedRef(code, currentVolNum)}`;
+  });
+  // 4c) "BG.X.Y" isolado
+  s = s.replace(/\b(BG\.\d+\.\d+)\b/g, (code) => {
+    if (!embeddedItemLocation.has(code)) return code;
+    return `Framework: ${formatEmbeddedRef(code, currentVolNum)}`;
+  });
+  // 4d) "BG.X inteiro" ou "BG.X" (categoria)
+  s = s.replace(/\b(BG\.\d+)(?:\s+inteiro)?\b/g, (full, catCode) => {
+    const first = `${catCode}.1`;
+    const loc = embeddedItemLocation.get(first);
+    if (!loc) return full;
+    const where = loc.phaseNewNum !== null ? `Fase ${loc.phaseNewNum}` : `Cap. ${loc.chapNum}`;
+    const volSuffix = loc.volNum !== currentVolNum ? `, Vol. ${loc.volNum}` : '';
+    return `Frameworks da ${where}${volSuffix}`;
+  });
+
+  // 5) Menções a CZ.N:
+  // 5a) "(CZ.N)" logo após o nome do canvas -> "(Canvas da Fase X)"
+  s = s.replace(/\((CZ\.\d+)\)/g, (full, code) => {
+    const loc = embeddedItemLocation.get(code);
+    if (!loc) return full;
+    const where = loc.phaseNewNum !== null ? `Fase ${loc.phaseNewNum}` : `Cap. ${loc.chapNum}`;
+    const volSuffix = loc.volNum !== currentVolNum ? `, Vol. ${loc.volNum}` : '';
+    return `(${where}${volSuffix})`;
+  });
+  // 5b) "CZ.N (Nome)" -> "Canvas: Nome (Fase X)"
+  s = s.replace(/\b(CZ\.\d+)\s*\(([^)]+)\)/g, (full, code) => {
+    if (!embeddedItemLocation.has(code)) return full;
+    return `Canvas: ${formatEmbeddedRef(code, currentVolNum)}`;
+  });
+  // 5c) "CZ.N" isolado
+  s = s.replace(/\b(CZ\.\d+)\b/g, (code) => {
+    if (!embeddedItemLocation.has(code)) return code;
+    return `Canvas: ${formatEmbeddedRef(code, currentVolNum)}`;
+  });
+
+  // 6) Menções a Templates A.N:
+  // 6a) "(A.N)" logo após o nome do entregável -> "(Template da Fase X)"
+  s = s.replace(/\((A\.\d+)\)/g, (full, code) => {
+    const loc = embeddedItemLocation.get(code);
+    if (!loc) return full;
+    const where = loc.phaseNewNum !== null ? `Fase ${loc.phaseNewNum}` : `Cap. ${loc.chapNum}`;
+    const volSuffix = loc.volNum !== currentVolNum ? `, Vol. ${loc.volNum}` : '';
+    return `(Template da ${where}${volSuffix})`;
+  });
+  // 6b) "Templates A.7 (Story Tree) e A.8 (DAG)" / "Template A.1 (Nome)"
+  s = s.replace(/\bTemplates?\s+(A\.\d+)\s*\(([^)]+)\)/gi, (full, code, name) => {
+    const loc = embeddedItemLocation.get(code.toUpperCase());
+    if (!loc) return full;
+    const where = loc.phaseNewNum !== null ? `Fase ${loc.phaseNewNum}` : `Cap. ${loc.chapNum}`;
+    const volSuffix = loc.volNum !== currentVolNum ? `, Vol. ${loc.volNum}` : '';
+    return `Template ${name.trim()} (${where}${volSuffix})`;
+  });
+  // 6c) "template A.N" / "exemplo A.N" / "diagrama A.N" / "A.N" isolado
+  s = s.replace(/(?:(?:template|exemplo|diagrama)\s+)?\b(A\.\d+)\b/gi, (full, code) => {
+    const uCode = code.toUpperCase();
+    if (!embeddedItemLocation.has(uCode)) return full;
+    return `Template: ${formatEmbeddedRef(uCode, currentVolNum)}`;
+  });
+
+  return s;
+}
+
+function normalizeLineOutsideWikilinks(line, currentVolNum) {
+  const parts = line.split(/(\[\[[^\]]+\]\])/g);
+  return parts
+    .map((part) => {
+      if (part.startsWith('[[') && part.endsWith(']]')) return part;
+      return normalizeProseSegment(part, currentVolNum);
+    })
+    .join('');
+}
+
+function resolveAnchorTarget(rawAnchor, currentVolNum) {
+  const cleanAnchor = rawAnchor.trim().replace(/^#/, '');
+  const s = slugify(cleanAnchor);
+
+  // 1) Se é um código ou âncora mapeada em oldAnchorToNew:
+  if (oldAnchorToNew.has(s)) {
+    return oldAnchorToNew.get(s);
+  }
+
+  // 2) Se começa com "fase-X-" ou "apendice-XX-" ou "bg-X-Y" ou "cz-X" ou "a-X":
+  const mBg = cleanAnchor.match(/^(BG\.\d+\.\d+)\b/i);
+  if (mBg && embeddedItemLocation.has(mBg[1].toUpperCase())) {
+    const loc = embeddedItemLocation.get(mBg[1].toUpperCase());
+    return { volNum: loc.volNum, volSlug: loc.volSlug, heading: loc.heading };
+  }
+  const mBgCat = cleanAnchor.match(/^(BG\.\d+)\b/i);
+  if (mBgCat) {
+    const firstCode = `${mBgCat[1].toUpperCase()}.1`;
+    if (embeddedItemLocation.has(firstCode)) {
+      const loc = embeddedItemLocation.get(firstCode);
+      return { volNum: loc.volNum, volSlug: loc.volSlug, heading: loc.heading };
+    }
+  }
+  const mCz = cleanAnchor.match(/^(CZ\.\d+)\b/i);
+  if (mCz && embeddedItemLocation.has(mCz[1].toUpperCase())) {
+    const loc = embeddedItemLocation.get(mCz[1].toUpperCase());
+    return { volNum: loc.volNum, volSlug: loc.volSlug, heading: loc.heading };
+  }
+  const mA = cleanAnchor.match(/^(A\.\d+)\b/i);
+  if (mA && embeddedItemLocation.has(mA[1].toUpperCase())) {
+    const loc = embeddedItemLocation.get(mA[1].toUpperCase());
+    return { volNum: loc.volNum, volSlug: loc.volSlug, heading: loc.heading };
+  }
+  const mAp = cleanAnchor.match(/^APÊNDICE\s+([A-Z0-9]{1,3})\b/i);
+  if (mAp && oldCodeToChapterInfo.has(mAp[1].toUpperCase())) {
+    const ch = oldCodeToChapterInfo.get(mAp[1].toUpperCase());
+    return { volNum: ch.volNum, volSlug: ch.volSlug, heading: ch.heading };
+  }
+  const mFase = cleanAnchor.match(/^FASE\s+(\d+B?)\b/i);
+  if (mFase) {
+    const fKey = `FASE_${mFase[1].toUpperCase()}`;
+    if (oldPhaseToNewInfo.has(fKey)) {
+      const fInfo = oldPhaseToNewInfo.get(fKey);
+      return { volNum: fInfo.volNum, volSlug: fInfo.volSlug, heading: fInfo.heading };
+    }
+  }
+
+  // 3) Se existe no volume atual como subseção:
+  const localMap = perVolHeadingIndex.get(currentVolNum);
+  if (localMap && localMap.has(s)) {
+    return {
+      volNum: currentVolNum,
+      volSlug: VOLUMES_SPEC[currentVolNum - 1].slug,
+      heading: localMap.get(s),
+    };
+  }
+
+  // 4) Se existe no índice global de headings:
+  if (globalHeadingIndex.has(s)) {
+    const g = globalHeadingIndex.get(s);
+    return { volNum: g.volNum, volSlug: g.volSlug, heading: g.exactHeading };
+  }
+
+  // 5) Busca por prefixo no índice global:
+  for (const [kSlug, g] of globalHeadingIndex.entries()) {
+    if (kSlug.startsWith(s) || s.startsWith(kSlug)) {
+      return { volNum: g.volNum, volSlug: g.volSlug, heading: g.exactHeading };
+    }
+  }
+
+  return null;
+}
+
+// Limpar arquivos antigos em volumes/
+for (const f of fs.readdirSync(VOLUMES_DIR)) {
+  if (f.endsWith('.md')) {
+    fs.unlinkSync(path.join(VOLUMES_DIR, f));
   }
 }
 
 const manifest = [];
+let unresolvedCount = 0;
 
-for (const [num, { spec, text }] of rawVolumes.entries()) {
-  const fasesCount = spec.blocks.reduce(
-    (acc, b) => acc + b.keys.filter((k) => k.startsWith('FASE_')).length,
-    0
+for (const [volNum, { spec, md }] of rawVolumeDocs.entries()) {
+  const lines = md.split('\n');
+  let inFence = false;
+
+  const resolvedLines = lines.map((line) => {
+    if (line.trim().startsWith('```')) inFence = !inFence;
+    if (inFence) return line;
+
+    // 1) Resolver todos os wikilinks [[target|alias]]
+    let outLine = line.replace(/\[\[([^\]]+)\]\]/g, (full, inner) => {
+      const parts = inner.split('|');
+      const rawTarget = parts[0].trim();
+      const rawAlias = (parts[1] || parts[0]).trim();
+
+      const hashIdx = rawTarget.indexOf('#');
+      const anchorPart = hashIdx >= 0 ? rawTarget.slice(hashIdx + 1) : rawTarget;
+
+      const resolved = resolveAnchorTarget(anchorPart, volNum);
+      if (!resolved) {
+        unresolvedCount += 1;
+        console.warn(`[WARN Vol.${volNum}] Wikilink não resolvido: ${full}`);
+        return full;
+      }
+
+      const finalAlias = updateAliasLabel(rawAlias, resolved, volNum);
+      if (resolved.volNum === volNum) {
+        return `[[#${resolved.heading}|${finalAlias}]]`;
+      }
+      return `[[${resolved.volSlug}#${resolved.heading}|${finalAlias}]]`;
+    });
+
+    // 2) Normalizar códigos legados fora de wikilinks (Apêndice XX, BG.X.Y, CZ.N, A.N, Fase 2B)
+    outLine = normalizeLineOutsideWikilinks(outLine, volNum);
+
+    return outLine;
+  });
+
+  const finalMd = resolvedLines.join('\n');
+  const outPath = path.join(VOLUMES_DIR, `${spec.slug}.md`);
+  fs.writeFileSync(outPath, finalMd, 'utf8');
+
+  const wordCount = finalMd.split(/\s+/).filter(Boolean).length;
+  console.log(
+    `[4/6] Escrito volumes/${spec.slug}.md (${wordCount.toLocaleString('en-US')} palavras | ~${Math.round(wordCount / 250)} pág.)`
   );
-  const apendicesCount = spec.blocks.reduce(
-    (acc, b) => acc + b.keys.filter((k) => !k.startsWith('FASE_')).length,
-    0
-  );
-  const diagramsCount = (text.match(/```mermaid/g) || []).length;
-
-  // Montar YAML frontmatter
-  const tempWords = text.trim().split(/\s+/).length + 45;
-  const fm = [
-    '---',
-    `title: "${spec.title}"`,
-    `subtitle: "${spec.subtitle}"`,
-    `volume: ${spec.num}`,
-    'collection: "IGNIÇÃO — O manual operacional do empreendedor brasileiro"',
-    'author: "João Prado"',
-    'type: enciclopédia',
-    'status: living-document',
-    'created: 2026-04-22',
-    'updated: 2026-10-20',
-    'version: "3.5"',
-    'language: pt-BR',
-    `phase_count: ${fasesCount}`,
-    `appendix_count: ${apendicesCount}`,
-    `diagram_count: ${diagramsCount}`,
-    `word_count: ${tempWords}`,
-    '---',
-    '',
-  ].join('\n');
-
-  const fullContent = fm + text;
-  const exactWords = fullContent.trim().split(/\s+/).length;
-  const finalContent = fullContent.replace(`word_count: ${tempWords}`, `word_count: ${exactWords}`);
-  const exactLines = finalContent.split('\n').length;
-
-  const outFile = path.join(VOLUMES_DIR, `${spec.slug}.md`);
-  fs.writeFileSync(outFile, finalContent, 'utf8');
 
   manifest.push({
     num: spec.num,
     file: `volumes/${spec.slug}.md`,
     title: spec.title,
     subtitle: spec.subtitle,
-    fases: fasesCount,
-    apendices: apendicesCount,
-    diagrams: diagramsCount,
-    words: exactWords,
-    lines: exactLines,
+    words: wordCount,
   });
-
-  console.log(
-    `[OK] Vol. ${String(spec.num).padStart(2, ' ')} -> volumes/${spec.slug}.md (${exactWords.toLocaleString('en-US')} palavras, ${exactLines} linhas, ${fasesCount} fases, ${apendicesCount} apêndices)`
-  );
 }
 
 fs.writeFileSync(
   path.join(BUILD_DIR, 'volumes_manifest.json'),
-  JSON.stringify(manifest, null, 2) + '\n',
+  JSON.stringify(manifest, null, 2),
   'utf8'
 );
-console.log('Manifesto salvo em build/volumes_manifest.json.');
+console.log(`[5/6] Manifesto salvo em build/volumes_manifest.json (unresolved links: ${unresolvedCount}).`);
+console.log('[6/6] Particionamento nos 10 Volumes Autocontidos concluído com sucesso!');

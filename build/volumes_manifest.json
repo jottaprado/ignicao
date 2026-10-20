@@ -2,111 +2,71 @@
   {
     "num": 1,
     "file": "volumes/IGNICAO-Vol-1-Ideacao.md",
-    "title": "IGNIÇÃO — Volume 1: Ideação",
-    "subtitle": "Do Pré-Zero à Tese de Negócio (Fases 0 a 2B)",
-    "fases": 4,
-    "apendices": 13,
-    "diagrams": 9,
-    "words": 74111,
-    "lines": 4434
+    "title": "IGNIÇÃO — Volume 1: Ideação e Fundação",
+    "subtitle": "Do Pré-Zero à Teoria do Negócio (Fases 0 a 3 e Capítulos 1 a 13)",
+    "words": 97894
   },
   {
     "num": 2,
-    "file": "volumes/IGNICAO-Vol-2-Validacao.md",
-    "title": "IGNIÇÃO — Volume 2: Validação",
-    "subtitle": "Da Descoberta do Problema ao Protótipo Testado (Fases 3 a 9)",
-    "fases": 7,
-    "apendices": 12,
-    "diagrams": 14,
-    "words": 70906,
-    "lines": 5179
+    "file": "volumes/IGNICAO-Vol-2-Descoberta-e-Mercado.md",
+    "title": "IGNIÇÃO — Volume 2: Descoberta de Cliente e Mapeamento de Mercado",
+    "subtitle": "Customer Discovery, Pesquisa de Campo, Concorrência e Cunha Estratégica (Fases 4 a 6 e Capítulos 1 a 4)",
+    "words": 70278
   },
   {
     "num": 3,
-    "file": "volumes/IGNICAO-Vol-3-Tracao.md",
-    "title": "IGNIÇÃO — Volume 3: Tração",
-    "subtitle": "Do MVP ao Product-Market Fit (Fases 10 a 12)",
-    "fases": 3,
-    "apendices": 20,
-    "diagrams": 16,
-    "words": 88271,
-    "lines": 7373
+    "file": "volumes/IGNICAO-Vol-3-Experimentos-e-Prototipagem.md",
+    "title": "IGNIÇÃO — Volume 3: Hipóteses, Experimentos, Prototipagem e Modelos de Negócio",
+    "subtitle": "Método Científico, Testes de Validação, Usabilidade e Arquitetura de Plataformas (Fases 7 a 10 e Capítulos 1 a 9)",
+    "words": 60584
   },
   {
     "num": 4,
-    "file": "volumes/IGNICAO-Vol-4-Captacao-e-Financas.md",
-    "title": "IGNIÇÃO — Volume 4: Captação e Finanças",
-    "subtitle": "Estruturação Societária, Venture Capital, Tributário e FP&A (Fase 13)",
-    "fases": 1,
-    "apendices": 18,
-    "diagrams": 9,
-    "words": 75096,
-    "lines": 6608
+    "file": "volumes/IGNICAO-Vol-4-Tracao-e-PMF.md",
+    "title": "IGNIÇÃO — Volume 4: Tração, Go-to-Market e Product-Market Fit",
+    "subtitle": "Do MVP em Produção ao PMF, Canais, Vendas e Pricing (Fases 11 a 13 e Capítulos 1 a 16)",
+    "words": 91712
   },
   {
     "num": 5,
-    "file": "volumes/IGNICAO-Vol-5-Receita-e-Pessoas.md",
-    "title": "IGNIÇÃO — Volume 5: Receita e Pessoas",
-    "subtitle": "Vendas Enterprise, RevOps, Liderança Executiva, Talentos e Cultura em Escala (Fase 14)",
-    "fases": 1,
-    "apendices": 19,
-    "diagrams": 7,
-    "words": 84301,
-    "lines": 6557
+    "file": "volumes/IGNICAO-Vol-5-Financas-e-Captacao.md",
+    "title": "IGNIÇÃO — Volume 5: Finanças, Captação e Venture Capital",
+    "subtitle": "Unit Economics, Caixa, Contabilidade, Tributário, FP&A e Rodadas de Investimento (Fase 14 e Capítulos 1 a 20)",
+    "words": 87628
   },
   {
     "num": 6,
-    "file": "volumes/IGNICAO-Vol-6-Engenharia-e-Juridico.md",
-    "title": "IGNIÇÃO — Volume 6: Engenharia, Operações e Jurídico",
-    "subtitle": "Produto em Escala, Gestão Técnica, IA, Design Organizacional e Blindagem Legal",
-    "fases": 0,
-    "apendices": 23,
-    "diagrams": 6,
-    "words": 84074,
-    "lines": 8062
+    "file": "volumes/IGNICAO-Vol-6-Receita-e-Pessoas.md",
+    "title": "IGNIÇÃO — Volume 6: Receita Enterprise, Liderança e Cultura",
+    "subtitle": "Máquina Comercial em Escala, RevOps, Liderança Executiva, Talentos e ESOP (Fases 15 e 16 e Capítulos 1 a 19)",
+    "words": 93323
   },
   {
     "num": 7,
-    "file": "volumes/IGNICAO-Vol-7-Maturidade-e-Exit.md",
-    "title": "IGNIÇÃO — Volume 7: Maturidade e Exit",
-    "subtitle": "Ciclo Longo, Governança, Internacionalização, Crise e Saída (Fases 15 e 16)",
-    "fases": 2,
-    "apendices": 23,
-    "diagrams": 9,
-    "words": 76557,
-    "lines": 5368
+    "file": "volumes/IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes.md",
+    "title": "IGNIÇÃO — Volume 7: Produto, Engenharia, Dados, IA e Operações",
+    "subtitle": "Discovery Contínuo, Gestão Técnica, Dívida Técnica, AI Ops e Design Organizacional (Fase 17 e Capítulos 1 a 11)",
+    "words": 54638
   },
   {
     "num": 8,
-    "file": "volumes/IGNICAO-Vol-8-Playbooks-Setoriais.md",
-    "title": "IGNIÇÃO — Volume 8: Playbooks Setoriais",
-    "subtitle": "Verticais Brasileiras, Regulação Setorial, Macroeconomia e Catálogo de Métricas",
-    "fases": 0,
-    "apendices": 16,
-    "diagrams": 9,
-    "words": 50086,
-    "lines": 4460
+    "file": "volumes/IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca.md",
+    "title": "IGNIÇÃO — Volume 8: Blindagem Jurídica, Societária, LGPD e Segurança",
+    "subtitle": "Estruturação Societária, Contratos, Trabalhista, Propriedade Intelectual, Compliance e Cibersegurança (Fase 18 e Capítulos 1 a 14)",
+    "words": 56703
   },
   {
     "num": 9,
-    "file": "volumes/IGNICAO-Vol-9-Ferramentario.md",
-    "title": "IGNIÇÃO — Volume 9: Ferramentário",
-    "subtitle": "Enciclopédia Prática de Métodos e Frameworks de Gestão, Produto e Estratégia (Apêndice BG)",
-    "fases": 0,
-    "apendices": 2,
-    "diagrams": 1,
-    "words": 81148,
-    "lines": 10812
+    "file": "volumes/IGNICAO-Vol-9-Maturidade-e-Exit.md",
+    "title": "IGNIÇÃO — Volume 9: Maturidade, Governança, Crise e Exit",
+    "subtitle": "Segunda Curva, Conselho (Board), Internacionalização, Turnaround, M&A e IPO (Fases 19 e 20, Capítulos 1 a 22 e Epílogo)",
+    "words": 83052
   },
   {
     "num": 10,
-    "file": "volumes/IGNICAO-Vol-10-Canvases-e-Templates.md",
-    "title": "IGNIÇÃO — Volume 10: Canvases, Templates e Índices",
-    "subtitle": "Mapas Visuais Preenchidos, Documentos Operacionais, Glossário, Bibliografia e Índices (Apêndices CZ e A)",
-    "fases": 0,
-    "apendices": 11,
-    "diagrams": 28,
-    "words": 73663,
-    "lines": 7544
+    "file": "volumes/IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario.md",
+    "title": "IGNIÇÃO — Volume 10: Playbooks Setoriais, Regulação e Glossário Geral",
+    "subtitle": "Macroeconomia, Autarquias Reguladoras, 9 Verticais Brasileiras e Dicionário da Coleção (Capítulos 1 a 13 e Índices)",
+    "words": 69249
   }
 ]
