@@ -145,7 +145,7 @@ flowchart LR
 Sete passos.
 
 > [!tip] Canvases Visuais — Pirate Canvas / AARRR em escala (Fase 11, Vol. 4) e Network Effects Map (Fase 6, Vol. 2)
-> A máquina de crescimento opera no AARRR — cada etapa do funil (Acquisition, Activation, Retention, Referral, Revenue) tem dono e métrica em escala. O [[IGNICAO-Vol-1-Ideacao#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Pirate Canvas (Canvas: Pirate Canvas / AARRR (Dave McClure, 2007)) (Vol. 1)]] é o mapa para identificar onde investir capital marginal de growth (CAC alto sinaliza Acquisition; ativação fraca trava Retention). Em modelos de plataforma ou marketplace, o [[IGNICAO-Vol-1-Ideacao#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Network Effects Map (Canvas: Network Effects Map) (Vol. 1)]] classifica o tipo de efeito de rede (direto, indireto, dados, social) e identifica onde investir para fortalecer defensibilidade conforme cresce — efeito de rede é o moat mais durável em mercados winner-takes-most.
+> A máquina de crescimento opera no AARRR — cada etapa do funil (Acquisition, Activation, Retention, Referral, Revenue) tem dono e métrica em escala. O [[IGNICAO-Vol-4-Tracao-e-PMF#Canvas: Pirate Canvas / AARRR (Dave McClure, 2007)|Canvas: Pirate Canvas / AARRR (Dave McClure, 2007) (Vol. 4)]] é o mapa para identificar onde investir capital marginal de growth (CAC alto sinaliza Acquisition; ativação fraca trava Retention). Em modelos de plataforma ou marketplace, o [[IGNICAO-Vol-2-Descoberta-e-Mercado#Canvas: Network Effects Map|Canvas: Network Effects Map (Vol. 2)]] classifica o tipo de efeito de rede (direto, indireto, dados, social) e identifica onde investir para fortalecer defensibilidade conforme cresce — efeito de rede é o moat mais durável em mercados winner-takes-most.
 
 #### Passo 0, entenda o Motor de Crescimento como sistema integrado
 
@@ -1091,7 +1091,7 @@ Na **[[#FASE 15 — MÁQUINA DE CRESCIMENTO E EXPANSÃO EM ESCALA|Fase 15]]**, v
 >
 > As frentes nao sao sequenciais. Sao paralelas. Em geral, fundadores fortes em uma das quatro precisam buscar ajuda nas outras tres.
 
-### O que esse apêndice cobre
+### O que esta fase cobre
 
 A [[#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16]] é o longo período em que a empresa transita de *ter PMF* para *ser máquina*. Aqui você sai do modo fundador-fazendo-tudo e entra no modo empresa-funcionando-sem-você-no-dia-a-dia. É a fase mais longa e trabalhosa da trajetória — tipicamente dois a cinco anos, com picos de atividade e platôs. É também a fase onde boa parte das empresas brasileiras com PMF genuíno trava, porque scale (crescer mantendo ou melhorando margens) exige disciplinas que não eram necessárias até aqui.
 
@@ -1137,7 +1137,7 @@ A [[#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16]] (Time 
 > Até aqui, o fundador fazia tudo, e delegava nada. A dificuldade é mais emocional que técnica. Aprender a *confiar* em alguém com coisas que antes você controlava. O primeiro funcionário define a cultura da empresa com peso desproporcional. Os valores dessa pessoa moldam os próximos cinco a quinze funcionários. Erros de contratação cedo são caros. Em tempo perdido. Em moral quebrada. Em aprendizado de gestão ainda embrionário no fundador. O primeiro funcionário frequentemente tem perfil diferente dos seguintes. Requer empreendedorismo no DNA, mesmo sendo funcionário.
 
 > [!tip] Canvases Visuais — Org Chart Evolution (Fase 17, Vol. 7)
-> Estrutura organizacional em escala não é estática. O [[IGNICAO-Vol-1-Ideacao#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Org Chart Evolution (Canvas: Org Chart Evolution) (Vol. 1)]] é o mapa visual de como o org chart deve evoluir conforme a empresa cresce (10 → 50 → 200 → 500 pessoas), sinalizando quando criar gerência intermediária, quando descentralizar decisões e quais funções aparecem em cada estágio (CFO, CPO, VP Engineering, CHRO). Use para antecipar contratações C-level antes de elas virarem urgência reativa — contratar com seis meses de antecedência custa metade de contratar em pânico.
+> Estrutura organizacional em escala não é estática. O [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#Canvas: Org Chart Evolution|Canvas: Org Chart Evolution (Vol. 7)]] é o mapa visual de como o org chart deve evoluir conforme a empresa cresce (10 → 50 → 200 → 500 pessoas), sinalizando quando criar gerência intermediária, quando descentralizar decisões e quais funções aparecem em cada estágio (CFO, CPO, VP Engineering, CHRO). Use para antecipar contratações C-level antes de elas virarem urgência reativa — contratar com seis meses de antecedência custa metade de contratar em pânico.
 
 #### Quando contratar o primeiro funcionário
 
@@ -1358,7 +1358,7 @@ Acompanhe também três coisas. Taxa de retenção de doze meses. Tempo médio d
 - Eu consigo, honestamente, demitir alguém de alta performance por violação de valores?
 
 > [!tip] Team Canvas para formalizar o alinhamento do time antes de escalar
-> Antes de formalizar a cultura da empresa (Passo 5) e a cada ciclo de expansão, uma sessão de Team Canvas (Fase 0, Vol. 1) com os primeiros líderes revela desalinhamentos em papéis, objetivos e modos de trabalho que processos operacionais depois não conseguem corrigir. Veja instruções, estrutura dos 9 blocos e exemplo da Loggi em [[IGNICAO-Vol-1-Ideacao#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvas: Team Canvas (Alex Ivanov, 2015) (Vol. 1)]].
+> Antes de formalizar a cultura da empresa (Passo 5) e a cada ciclo de expansão, uma sessão de Team Canvas (Fase 0, Vol. 1) com os primeiros líderes revela desalinhamentos em papéis, objetivos e modos de trabalho que processos operacionais depois não conseguem corrigir. Veja instruções, estrutura dos 9 blocos e exemplo da Loggi em [[IGNICAO-Vol-1-Ideacao#Canvas: Team Canvas (Alex Ivanov, 2015)|Canvas: Team Canvas (Alex Ivanov, 2015) (Vol. 1)]].
 
 ### SAÍDA DESTA FASE
 
@@ -2891,7 +2891,7 @@ A origem do conceito. Facebook (por volta de 2007), Airbnb, Uber, e Dropbox popu
 
 No Brasil, poucas empresas têm growth function madura. Nubank, Wellhub, Hotmart (bootstrap em parte da trajetoria, com escala internacional sem dependencia de VC), iFood e RD Station têm. Muitas startups confundem growth com performance marketing, ou com product marketing. E perdem o valor combinado das duas disciplinas.
 
-Esse capítulo trata de quatro perguntas. Quando montar growth team. Como estruturar. Como contratar. Como operar.
+Este capítulo trata de quatro perguntas. Quando montar growth team. Como estruturar. Como contratar. Como operar.
 
 ### POR QUE IMPORTA
 
@@ -4363,7 +4363,7 @@ Use a lista abaixo para auditoria. Marque o que já está em pé. O que falta vi
 
 **Ver também:**
 
-- [[IGNICAO-Vol-1-Ideacao#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvases Visuais da Fase (Vol. 1)]] — Canvas de Parceria para mapeamento visual do modelo de colaboração
+- [[IGNICAO-Vol-1-Ideacao#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvases e Mapas Visuais (Vol. 1)]] — Canvas de Parceria para mapeamento visual do modelo de colaboração
 - [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 6 — BRANDING E POSICIONAMENTO DE MARCA PARA STARTUPS|Capítulo 6 — Contratos para Startups (Vol. 4)]] — Estrutura jurídica de contratos de parceria, MOU e revenue share
 - [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 10 — COMUNICAÇÃO INTERNA|Capítulo 10 — Vendas B2B (Vol. 7)]] — Playbook de vendas que o canal de parceiros vai usar
 - [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 8 — SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|Capítulo 8 (SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL) (Vol. 4)]] — motion direta de vendas, contraste com BD
@@ -4691,7 +4691,7 @@ SINAIS DE M&A
 - [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 19 — RELAÇÕES BANCÁRIAS E CRÉDITO NO BRASIL|Capítulo 19 — Captação de Recursos com Investidores Institucionais (Vol. 5)]]
 - [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 8 — DESIGN ORGANIZACIONAL|Capítulo 8 — Contratos e Jurídico para Startups (Vol. 7)]]
 - [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 9 — GESTÃO DO CONHECIMENTO|Capítulo 9 — Valuation e Term Sheets (Vol. 7)]]
-- [[IGNICAO-Vol-1-Ideacao#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvases Visuais da Fase (Vol. 1)]]
+- [[IGNICAO-Vol-1-Ideacao#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvases e Mapas Visuais de Referência (Vol. 1)]]
 - [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 6 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 6 — Modelo de Negócio e Monetização (Vol. 2)]]
 - [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 9 — IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES|Fase 9 — Crescimento e Escala (Vol. 3)]]
 
@@ -4703,7 +4703,7 @@ Chega um momento, em quase toda empresa B2B (de venda entre empresas) brasileira
 
 Vender através de terceiros tem três formatos principais no Brasil. **Parcerias estratégicas** são relações com empresas que complementam ou amplificam o seu produto, sem uma estrutura contratual de canal formal. **Franquias e licenciamento** são estruturas formais em que um parceiro opera um negócio sob a sua marca, com padrões definidos. **Channel partnerships** (parcerias de canal) é o universo técnico de revendas, integradores de sistemas, OEM (Original Equipment Manufacturer, fabricante que embute produto de terceiro no próprio) e marketplaces. É o vocabulário importado do mundo de software enterprise americano.
 
-Esse capítulo trata os três em profundidade. A Parte 1 cobre parcerias estratégicas de forma ampla. A Parte 2 entra em franquias e licenciamento, com o marco legal brasileiro específico. A Parte 3 cobre channel partnerships clássico, com suas economics (mecânica econômica), conflitos e sistemas de gestão.
+Este capítulo trata os três em profundidade. A Parte 1 cobre parcerias estratégicas de forma ampla. A Parte 2 entra em franquias e licenciamento, com o marco legal brasileiro específico. A Parte 3 cobre channel partnerships clássico, com suas economics (mecânica econômica), conflitos e sistemas de gestão.
 
 ---
 
@@ -4721,7 +4721,7 @@ A terceira é parceria de integração tecnológica. Sua API conecta-se à plata
 
 A quarta é parceria de produto conjunto. Vocês desenvolvem algo juntos que nenhuma das duas faria sozinha. Raro, trabalhoso, poderoso quando dá certo.
 
-A quinta é parceria de canal indireto. A empresa parceira revende, implementa ou recomenda seu produto. Quando formalizada, vira channel partnership da Parte 3 desse apêndice.
+A quinta é parceria de canal indireto. A empresa parceira revende, implementa ou recomenda seu produto. Quando formalizada, vira channel partnership da Parte 3 deste capítulo.
 
 #### Armadilhas antes do parceiro existir
 
@@ -4836,7 +4836,7 @@ Ativação nos primeiros noventa dias passa por treinamento inicial, certificaç
 
 A regra do setenta-vinte aplica-se com fidelidade. Setenta a oitenta por cento da receita vem de vinte por cento dos parceiros. Não distribuir esforço igualmente. Channel Account Managers cobrem top parceiros com cadência semanal, tier intermediário mensalmente, long tail via portal self-serve.
 
-Para gerenciar o pipeline de parcerias mês a mês, use a [[IGNICAO-Vol-1-Ideacao#TEMPLATES OPERACIONAIS E CASOS PREENCHIDOS DESTA FASE|Matriz de Parcerias (Template Template: Matriz de Parcerias) (Vol. 1)]]: documento único com cinco a quinze parcerias em movimento, status por estágio (prospecção / discovery / POC / contrato / ativa / encerrada), métricas de sucesso 90 dias, sponsors dos dois lados e próximo passo com data. Parcerias em standby há dois ou mais trimestres devem ser encerradas formalmente ou reativadas — não deixar zumbis no pipeline.
+Para gerenciar o pipeline de parcerias mês a mês, use a [[#Template: Matriz de Parcerias|Template: Matriz de Parcerias]]: documento único com cinco a quinze parcerias em movimento, status por estágio (prospecção / discovery / POC / contrato / ativa / encerrada), métricas de sucesso 90 dias, sponsors dos dois lados e próximo passo com data. Parcerias em standby há dois ou mais trimestres devem ser encerradas formalmente ou reativadas — não deixar zumbis no pipeline.
 
 Reciclagem é parte do programa saudável. Parceiros que não faturam em doze meses entram em conversa difícil, plano ou descontinuação. Programas saudáveis têm taxa de parceiros ativos acima de sessenta por cento. Quinhentos registrados e cinquenta ativos é vaidade.
 
@@ -5029,24 +5029,24 @@ Esquecer legacy audience. Crescer segmentos novos, sem atender o cliente antigo,
 
 ## CAPÍTULO 8 — COMUNICAÇÃO PÚBLICA DO FUNDADOR: NARRATIVA, IMPRENSA E PORTA-VOZ
 
-> [!abstract] Onde este apendice se posiciona no bloco de comunicacao
-> O livro tem sete apendices de comunicacao com territorios distintos,
-> - [[#CAPÍTULO 8 — COMUNICAÇÃO PÚBLICA DO FUNDADOR: NARRATIVA, IMPRENSA E PORTA-VOZ|BM]], narrativa publica e imprensa
-> - [[#CAPÍTULO 9 — MARCA PESSOAL DO FUNDADOR: DISTRIBUIÇÃO, AUTORIDADE E CUSTO DE REPUTAÇÃO|CY]], marca pessoal e canais proprios
-> - [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 10 — COMUNICAÇÃO INTERNA|DZ (Vol. 7)]], comunicacao com o time
-> - [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 8 — COMUNICAÇÃO ESCRITA PARA NEGÓCIOS|EW (Vol. 1)]], escrita executiva (memo, update, postmortem)
-> - [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 9 — APRESENTAÇÃO E FALA EM PÚBLICO|EX (Vol. 1)]], fala em publico (pitch, all-hands, board)
-> - [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 7 — INFLUÊNCIA E PERSUASÃO SEM AUTORIDADE FORMAL|EK (Vol. 1)]], persuasao sem autoridade
-> - [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 10 — COMUNICAÇÃO EM CRISE|EV (Vol. 9)]], comunicacao em crise
+> [!abstract] Onde este capítulo se posiciona no bloco de comunicacao
+> O livro tem sete capítulos de comunicacao com territorios distintos,
+> - [[#CAPÍTULO 8 — COMUNICAÇÃO PÚBLICA DO FUNDADOR: NARRATIVA, IMPRENSA E PORTA-VOZ|Capítulo 8 (COMUNICAÇÃO PÚBLICA DO FUNDADOR: NARRATIVA, IMPRENSA E PORTA-VOZ)]], narrativa publica e imprensa
+> - [[#CAPÍTULO 9 — MARCA PESSOAL DO FUNDADOR: DISTRIBUIÇÃO, AUTORIDADE E CUSTO DE REPUTAÇÃO|Capítulo 9 (MARCA PESSOAL DO FUNDADOR: DISTRIBUIÇÃO, AUTORIDADE E CUSTO DE REPUTAÇÃO)]], marca pessoal e canais proprios
+> - [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 10 — COMUNICAÇÃO INTERNA|Capítulo 10 (COMUNICAÇÃO INTERNA) (Vol. 7)]], comunicacao com o time
+> - [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 8 — COMUNICAÇÃO ESCRITA PARA NEGÓCIOS|Capítulo 8 (COMUNICAÇÃO ESCRITA PARA NEGÓCIOS) (Vol. 1)]], escrita executiva (memo, update, postmortem)
+> - [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 9 — APRESENTAÇÃO E FALA EM PÚBLICO|Capítulo 9 (APRESENTAÇÃO E FALA EM PÚBLICO) (Vol. 1)]], fala em publico (pitch, all-hands, board)
+> - [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 7 — INFLUÊNCIA E PERSUASÃO SEM AUTORIDADE FORMAL|Capítulo 7 (INFLUÊNCIA E PERSUASÃO SEM AUTORIDADE FORMAL) (Vol. 1)]], persuasao sem autoridade
+> - [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 10 — COMUNICAÇÃO EM CRISE|Capítulo 10 (COMUNICAÇÃO EM CRISE) (Vol. 9)]], comunicacao em crise
 >
-> Este apendice cobre narrativa publica do fundador, relacao com imprensa e porta-voz. Para os outros territorios, ver acima.
+> Este capítulo cobre narrativa publica do fundador, relacao com imprensa e porta-voz. Para os outros territorios, ver acima.
 
 > [!note] Nota editorial
-> Esse capítulo trata do fundador como figura pública. Material referente a figuras brasileiras citadas baseia-se em domínio público (entrevistas, livros, reportagens, postagens). Não há juízo pessoal sobre motivações, apenas análise de padrões comunicacionais observáveis.
+> Este capítulo trata do fundador como figura pública. Material referente a figuras brasileiras citadas baseia-se em domínio público (entrevistas, livros, reportagens, postagens). Não há juízo pessoal sobre motivações, apenas análise de padrões comunicacionais observáveis.
 
 O manual até aqui cobre comunicação como ferramenta operacional (pitch, vendas, cultura interna). Este capítulo cobre a dimensão pública, quando, como, por que (e quando não) o fundador se posiciona publicamente. É disciplina subestimada por fundadores brasileiros iniciantes. Alguns superexpõem e destroem credibilidade. Outros fogem da exposição e perdem ferramenta crítica de captação, venda e recrutamento. Os dois erros são evitáveis com método.
 
-### O que esse capítulo cobre e por que importa
+### O que este capítulo cobre e por que importa
 
 A comunicação pública do fundador envolve cinco vertentes: narrativa pessoal, imprensa (earned media, ou mídia conquistada), redes sociais e canais próprios, palestras e eventos, e crisis communication (comunicação de crise) pessoal. Os entregáveis típicos são posicionamento narrativo documentado, media kit (kit de imprensa), biblioteca de mensagens-chave, relação com 5 a 15 jornalistas-referência, cadência de postagem e protocolo de crisis comm.
 
@@ -5210,17 +5210,17 @@ Comunicação pública está em padrão quando a narrativa pessoal está documen
 
 ## CAPÍTULO 9 — MARCA PESSOAL DO FUNDADOR: DISTRIBUIÇÃO, AUTORIDADE E CUSTO DE REPUTAÇÃO
 
-> [!abstract] Onde este apendice se posiciona no bloco de comunicacao
-> O livro tem sete apendices de comunicacao com territorios distintos,
-> - [[#CAPÍTULO 8 — COMUNICAÇÃO PÚBLICA DO FUNDADOR: NARRATIVA, IMPRENSA E PORTA-VOZ|BM]], narrativa publica e imprensa
-> - [[#CAPÍTULO 9 — MARCA PESSOAL DO FUNDADOR: DISTRIBUIÇÃO, AUTORIDADE E CUSTO DE REPUTAÇÃO|CY]], marca pessoal e canais proprios
-> - [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 10 — COMUNICAÇÃO INTERNA|DZ (Vol. 7)]], comunicacao com o time
-> - [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 8 — COMUNICAÇÃO ESCRITA PARA NEGÓCIOS|EW (Vol. 1)]], escrita executiva (memo, update, postmortem)
-> - [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 9 — APRESENTAÇÃO E FALA EM PÚBLICO|EX (Vol. 1)]], fala em publico (pitch, all-hands, board)
-> - [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 7 — INFLUÊNCIA E PERSUASÃO SEM AUTORIDADE FORMAL|EK (Vol. 1)]], persuasao sem autoridade
-> - [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 10 — COMUNICAÇÃO EM CRISE|EV (Vol. 9)]], comunicacao em crise
+> [!abstract] Onde este capítulo se posiciona no bloco de comunicacao
+> O livro tem sete capítulos de comunicacao com territorios distintos,
+> - [[#CAPÍTULO 8 — COMUNICAÇÃO PÚBLICA DO FUNDADOR: NARRATIVA, IMPRENSA E PORTA-VOZ|Capítulo 8 (COMUNICAÇÃO PÚBLICA DO FUNDADOR: NARRATIVA, IMPRENSA E PORTA-VOZ)]], narrativa publica e imprensa
+> - [[#CAPÍTULO 9 — MARCA PESSOAL DO FUNDADOR: DISTRIBUIÇÃO, AUTORIDADE E CUSTO DE REPUTAÇÃO|Capítulo 9 (MARCA PESSOAL DO FUNDADOR: DISTRIBUIÇÃO, AUTORIDADE E CUSTO DE REPUTAÇÃO)]], marca pessoal e canais proprios
+> - [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 10 — COMUNICAÇÃO INTERNA|Capítulo 10 (COMUNICAÇÃO INTERNA) (Vol. 7)]], comunicacao com o time
+> - [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 8 — COMUNICAÇÃO ESCRITA PARA NEGÓCIOS|Capítulo 8 (COMUNICAÇÃO ESCRITA PARA NEGÓCIOS) (Vol. 1)]], escrita executiva (memo, update, postmortem)
+> - [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 9 — APRESENTAÇÃO E FALA EM PÚBLICO|Capítulo 9 (APRESENTAÇÃO E FALA EM PÚBLICO) (Vol. 1)]], fala em publico (pitch, all-hands, board)
+> - [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 7 — INFLUÊNCIA E PERSUASÃO SEM AUTORIDADE FORMAL|Capítulo 7 (INFLUÊNCIA E PERSUASÃO SEM AUTORIDADE FORMAL) (Vol. 1)]], persuasao sem autoridade
+> - [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 10 — COMUNICAÇÃO EM CRISE|Capítulo 10 (COMUNICAÇÃO EM CRISE) (Vol. 9)]], comunicacao em crise
 >
-> Este apendice cobre marca pessoal do fundador como ferramenta de negocio em canais proprios. Para os outros territorios, ver acima.
+> Este capítulo cobre marca pessoal do fundador como ferramenta de negocio em canais proprios. Para os outros territorios, ver acima.
 
 Por muito tempo, "marca pessoal" foi associada a coaches de LinkedIn e a posts genéricos de motivação corporativa. Essa associação desmotivou uma geração inteira de fundadores sérios a construir presença pública. Coisa de charlatão. Entre 2024 e 2026, esse cálculo mudou. Em vários setores brasileiros e globais, a marca pessoal do fundador virou canal real de aquisição, recrutamento, captação e defensibilidade. O fundador que ignora esse canal deixa dinheiro, talento e oportunidade na mesa.
 
@@ -5364,7 +5364,7 @@ A segunda metade do Volume 6 é o manual de **Pessoas, Liderança e Cultura para
 
 ## CAPÍTULO 10 — FOUNDER MODE, DELEGAÇÃO E QUANDO PARAR DE FAZER
 
-Este apendice trata de decisoes estrategicas de modo (qual dominio operar em founder mode, qual em manager mode). Para os instrumentos operacionais de tempo (calendar, ritual, cadence), ver [[#CAPÍTULO 11 — GESTÃO DE TEMPO DO FUNDADOR E OPERATING CADENCE|Capítulo 11 (GESTÃO DE TEMPO DO FUNDADOR E OPERATING CADENCE)]].
+Este capítulo trata de decisoes estrategicas de modo (qual dominio operar em founder mode, qual em manager mode). Para os instrumentos operacionais de tempo (calendar, ritual, cadence), ver [[#CAPÍTULO 11 — GESTÃO DE TEMPO DO FUNDADOR E OPERATING CADENCE|Capítulo 11 (GESTÃO DE TEMPO DO FUNDADOR E OPERATING CADENCE)]].
 
 Uma das discussões mais intensas entre operadores nos últimos anos é a tensão entre Founder Mode e Manager Mode. Articulada por Paul Graham (YC) em 2024 após observar que CEOs fundadores que delegavam "como ensinado em MBA" costumavam destruir valor, enquanto os que mantinham envolvimento direto em decisões-chave escalaram melhor.
 
@@ -5402,7 +5402,7 @@ Founder Mode é claramente mais aplicável a CEO-fundador, que a CEO profissiona
 > [!important] O insight que sobrevive à crítica
 > Em estágios pré-Série B, o fundador que tenta "delegar tudo" cedo demais costuma estar fugindo do trabalho que só ele pode fazer, ser a cola entre produto, cultura e time-chave. O ensaio do Graham é, nesse sentido, permissão explícita para você não adotar o conselho convencional sem pensar.
 
-### O que esse capítulo cobre
+### O que este capítulo cobre
 
 **Founder Mode** é um estilo de liderança no qual o fundador mantém envolvimento direto em decisões operacionais. Talks diretamente com quem está duas, ou três, camadas abaixo no organograma. E não filtra informação por hierarquia formal. É o contrário do "fundador CEO que vira administrador de administradores".
 
@@ -5410,7 +5410,7 @@ Founder Mode é claramente mais aplicável a CEO-fundador, que a CEO profissiona
 
 Ambos são válidos em contextos diferentes. A arte é saber onde, quando, e quanto, de cada.
 
-Entregável. Mapa de Modos. Documento de duas páginas que declara explicitamente em quais áreas o fundador opera em Founder Mode, em quais em Manager Mode, e quais são os gatilhos para transição. Template pronto para preencher: [[IGNICAO-Vol-1-Ideacao#TEMPLATES OPERACIONAIS E CASOS PREENCHIDOS DESTA FASE|Template: Mapa de Modos — Founder Mode vs Manager Mode (Vol. 1)]].
+Entregável. Mapa de Modos. Documento de duas páginas que declara explicitamente em quais áreas o fundador opera em Founder Mode, em quais em Manager Mode, e quais são os gatilhos para transição. Template pronto para preencher: [[#Template: Mapa de Modos — Founder Mode vs Manager Mode|Template: Mapa de Modos — Founder Mode vs Manager Mode]].
 
 ### POR QUE
 
@@ -5616,17 +5616,17 @@ Para audit semestral de modo de operação.
 
 ## CAPÍTULO 11 — GESTÃO DE TEMPO DO FUNDADOR E OPERATING CADENCE
 
-Este apendice trata de instrumentos operacionais de tempo do fundador (calendar, ritual, cadence). Para as decisoes estrategicas de qual modo operar em cada dominio, ver [[#CAPÍTULO 10 — FOUNDER MODE, DELEGAÇÃO E QUANDO PARAR DE FAZER|Capítulo 10 (FOUNDER MODE, DELEGAÇÃO E QUANDO PARAR DE FAZER)]].
+Este capítulo trata de instrumentos operacionais de tempo do fundador (calendar, ritual, cadence). Para as decisoes estrategicas de qual modo operar em cada dominio, ver [[#CAPÍTULO 10 — FOUNDER MODE, DELEGAÇÃO E QUANDO PARAR DE FAZER|Capítulo 10 (FOUNDER MODE, DELEGAÇÃO E QUANDO PARAR DE FAZER)]].
 
 > [!note] Nota
-> O conteúdo desse apêndice combina práticas consolidadas em literatura sobre execução (Bill Campbell, Andy Grove, John Doerr, e Ben Horowitz), com adaptação ao contexto brasileiro.
+> O conteúdo deste capítulo combina práticas consolidadas em literatura sobre execução (Bill Campbell, Andy Grove, John Doerr, e Ben Horowitz), com adaptação ao contexto brasileiro.
 
 O [[#CAPÍTULO 10 — FOUNDER MODE, DELEGAÇÃO E QUANDO PARAR DE FAZER|Capítulo 10 (FOUNDER MODE, DELEGAÇÃO E QUANDO PARAR DE FAZER)]] cobre founder mode (modo fundador) e delegação. Este capítulo cobre o lado que vem antes e sustenta. Como o fundador organiza o próprio tempo, o tempo do time e os ritmos da empresa para que a execução aconteça em escala. Tema subestimado por fundadores iniciantes e causa frequente de empresas que "correm muito e andam pouco".
 
 > [!important] Tempo do fundador é vantagem competitiva estrutural
 > O tempo do fundador é o recurso mais escasso da empresa early-stage. Usar bem é vantagem competitiva estrutural.
 
-### O que esse capítulo cobre
+### O que este capítulo cobre
 
 Três dimensões integradas.
 
@@ -5740,7 +5740,7 @@ No final do dia, agrupe as tarefas de manager's schedule (email, Slack, e aprova
 
 Cada fundador desenha o próprio cronograma a partir desses blocos. A regra geral, não mais que trinta por cento do tempo total em reuniões recorrentes, no mínimo cinquenta por cento em trabalho profundo de função primária, no máximo vinte por cento em escutas externas e governance.
 
-O cronograma detalhado minuto a minuto, para fundadores que querem modelo cru para customizar, esta no [[#Template: Cronograma Minuto a Minuto da Semana do Fundador|Template Template: Cronograma Minuto a Minuto da Semana do Fundador]].
+O cronograma detalhado minuto a minuto, para fundadores que querem modelo cru para customizar, esta no [[#Template: Cronograma Minuto a Minuto da Semana do Fundador|Template: Cronograma Minuto a Minuto da Semana do Fundador]].
 
 > [!tip] Ajustes realistas
 > Esse é modelo. Cada fundador ajusta a ritmo pessoal, cultura da empresa, e fase.
@@ -5952,11 +5952,11 @@ Operating rhythm maduro quando o fundador tem agenda deliberada com deep work pr
 > [!note] Nota de validade
 > Compensação executiva, e práticas de executive search, evoluem. Os valores refletem realidade brasileira em abril de 2026. Revisar anualmente.
 
-Para a metodologia geral de bandas salariais, ver [[#CAPÍTULO 14 — COMPENSAÇÃO E BENEFÍCIOS NO BRASIL|Capítulo 14 (COMPENSAÇÃO E BENEFÍCIOS NO BRASIL)]]. As faixas C-level deste apendice especializam ED para o nivel executivo.
+Para a metodologia geral de bandas salariais, ver [[#CAPÍTULO 14 — COMPENSAÇÃO E BENEFÍCIOS NO BRASIL|Capítulo 14 (COMPENSAÇÃO E BENEFÍCIOS NO BRASIL)]]. As faixas C-level deste capítulo especializam ED para o nivel executivo.
 
 O [[#CAPÍTULO 10 — FOUNDER MODE, DELEGAÇÃO E QUANDO PARAR DE FAZER|Capítulo 10 (FOUNDER MODE, DELEGAÇÃO E QUANDO PARAR DE FAZER)]] cobre founder mode (modo fundador) e delegação. O [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 5 — CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS|Capítulo 5 (CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS) (Vol. 8)]] cobre contratos. Este capítulo cobre o que fica no meio e costuma ser mal executado: como encontrar, avaliar, contratar e integrar líderes sênior e C-levels (executivos com cargos de "Chief", como CTO, CFO). Contratações executivas ruins desaceleram a empresa da Série A em diante. Contratações executivas boas funcionam como catalisador. Os dois resultados acontecem. A diferença entre eles não é sorte. É processo.
 
-### O que esse capítulo cobre
+### O que este capítulo cobre
 
 Executive hiring (contratação executiva) é processo estruturado para contratar VPs (vice-presidentes), e C-levels (CTO, CFO, CPO, CRO, COO, Head of Engineering, Head of Product, etc.). Em sete frentes.
 
@@ -6191,7 +6191,7 @@ Performance review (avaliação de desempenho) é o processo formal pelo qual um
 
 Há performance review "por conversa de corredor". O gestor elogia, ou critica, quando dá. O aumento sai quando alguém ameaça pedir demissão. A promoção é decidida em almoço. E há performance review estruturado. Ciclo com data, critérios escritos, calibração formal, e decisões registradas. A diferença é material. Empresas sem estrutura perdem talento para empresas estruturadas. Talento bom quer saber onde está, e onde pode chegar.
 
-Esse capítulo trata de performance review formal, como função organizacional. Quando montar. Como montar. Armadilhas. É diferente de um a um (conversa contínua entre gestor, e colaborador), e de feedback (comunicação imediata sobre um evento). Performance review é o agregado estruturado desses sinais.
+Este capítulo trata de performance review formal, como função organizacional. Quando montar. Como montar. Armadilhas. É diferente de um a um (conversa contínua entre gestor, e colaborador), e de feedback (comunicação imediata sobre um evento). Performance review é o agregado estruturado desses sinais.
 
 ### POR QUE IMPORTA
 
@@ -6418,7 +6418,7 @@ Performance review está saudável quando todos os itens abaixo estão cumpridos
 ## CAPÍTULO 14 — COMPENSAÇÃO E BENEFÍCIOS NO BRASIL
 
 > [!note] Fonte canonica
-> Este apendice e a fonte canonica de bandas salariais e metodologia de comp no Brasil. Especializacoes, [[#CAPÍTULO 12 — EXECUTIVE HIRING: CONTRATAR LÍDERES SÊNIOR E C-LEVEL|BN]] (C-level), [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 3 — RECRUTAMENTO TÉCNICO EM PROFUNDIDADE|CO (Vol. 7)]] (recrutamento tecnico), [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 4 — ENGINEERING MANAGEMENT: GESTÃO DO TIME TÉCNICO E DEVELOPER EXPERIENCE|CR (Vol. 7)]] (engineering), [[#CAPÍTULO 15 — STOCK OPTIONS E ESOP NO BRASIL|DB]] (equity).
+> Este capítulo e a fonte canonica de bandas salariais e metodologia de comp no Brasil. Especializacoes, [[#CAPÍTULO 12 — EXECUTIVE HIRING: CONTRATAR LÍDERES SÊNIOR E C-LEVEL|Capítulo 12 (EXECUTIVE HIRING: CONTRATAR LÍDERES SÊNIOR E C-LEVEL)]] (C-level), [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 3 — RECRUTAMENTO TÉCNICO EM PROFUNDIDADE|Capítulo 3 (RECRUTAMENTO TÉCNICO EM PROFUNDIDADE) (Vol. 7)]] (recrutamento tecnico), [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 4 — ENGINEERING MANAGEMENT: GESTÃO DO TIME TÉCNICO E DEVELOPER EXPERIENCE|Capítulo 4 (ENGINEERING MANAGEMENT: GESTÃO DO TIME TÉCNICO E DEVELOPER EXPERIENCE) (Vol. 7)]] (engineering), [[#CAPÍTULO 15 — STOCK OPTIONS E ESOP NO BRASIL|Capítulo 15 (STOCK OPTIONS E ESOP NO BRASIL)]] (equity).
 
 > [!note] Aviso legal
 > Este capítulo é material educacional. Regras sobre PLR, tributação de benefícios e encargos trabalhistas têm especificidades que variam conforme o regime tributário, o setor e a convenção coletiva aplicável. As referências legislativas e valores mencionados refletem a situação em maio de 2026. Consulte contador e advogado trabalhista antes de estruturar ou alterar planos de compensação.
@@ -6916,11 +6916,11 @@ Colaborador recebe opções, faz exercício, recebe as ações, e descobre que d
 > [!note] Nota de validade
 > A tributação de stock options no Brasil é objeto de disputa administrativa e judicial ativa. O CARF tem proferido decisões em ambas as direções — natureza remuneratória vs. mercantil — e o tema pode ser pacificado por lei ou por decisão do STJ a qualquer momento. Este capítulo reflete o entendimento predominante em abril de 2026. Revisar com advogado tributarista especializado antes de estruturar qualquer plano.
 
-Para faixas de salario base e benchmarks de remuneracao no Brasil, ver [[#CAPÍTULO 14 — COMPENSAÇÃO E BENEFÍCIOS NO BRASIL|Capítulo 14 (COMPENSAÇÃO E BENEFÍCIOS NO BRASIL)]]. Este apendice cobre equity como instrumento complementar.
+Para faixas de salario base e benchmarks de remuneracao no Brasil, ver [[#CAPÍTULO 14 — COMPENSAÇÃO E BENEFÍCIOS NO BRASIL|Capítulo 14 (COMPENSAÇÃO E BENEFÍCIOS NO BRASIL)]]. Este capítulo cobre equity como instrumento complementar.
 
 A [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18 (Vol. 8)]] cobre cap table (quadro societário), vesting (aquisição progressiva da participação) de fundadores e estrutura societária. O [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 1 — MARCO LEGAL DAS STARTUPS: LC 182/2021|Capítulo 1 (MARCO LEGAL DAS STARTUPS: LC 182/2021) (Vol. 8)]] cobre o COCP e o investidor-anjo. O [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 14 — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Capítulo 14 (CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA) (Vol. 5)]] cobre tributação operacional. Este capítulo cobre os instrumentos de equity (participação societária) para colaboradores — stock options (opções de compra), phantom shares (ações fantasmas), RSUs (Restricted Stock Units, ações restritas) — com foco na estruturação jurídica e no principal problema prático, a tributação.
 
-### O que esse capítulo cobre
+### O que este capítulo cobre
 
 Quatro camadas.
 
@@ -7198,9 +7198,9 @@ Para startups que ainda não querem estruturar S/A ou emitir quotas, phantom sha
 
 ---
 
-### Conexão com outros apêndices
+### Conexão com outros capítulos
 
-| Tópico | Apêndice |
+| Tópico | Capítulo |
 |---|---|
 | Cap table, vesting de fundadores, estrutura S/A vs LTDA | [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18 (Vol. 8)]] |
 | Marco Legal das Startups, COCP para investidores | [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 1 — MARCO LEGAL DAS STARTUPS: LC 182/2021|Capítulo 1 (MARCO LEGAL DAS STARTUPS: LC 182/2021) (Vol. 8)]] |
@@ -7234,7 +7234,7 @@ A [[#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16]] (Time 
 
 Este capítulo cobre cultura, não como "valores no cartaz", mas como comportamento agregado que pode ser gerenciado deliberadamente.
 
-### O que esse capítulo cobre
+### O que este capítulo cobre
 
 Cultura é o que as pessoas fazem quando ninguém está olhando, somado em escala. "O jeito que as coisas são feitas aqui".
 
@@ -7417,7 +7417,7 @@ Intervenção: ver [[#CAPÍTULO 18 — DIVERSIDADE, EQUIDADE E INCLUSÃO (DEI) E
 ---
 
 > [!tip] Casos especiais de cultura
-> Para cultura em situacoes especificas (M&A, hipercrescimento, remoto e hibrido), ver [[#CAPÍTULO 17 — CULTURA EM SITUAÇÕES ESPECIAIS: M&A, HIPERCRESCIMENTO, REMOTO|Capítulo 17 (CULTURA EM SITUAÇÕES ESPECIAIS: M&A, HIPERCRESCIMENTO, REMOTO)]]. Este apendice cobre o framework raiz de cultura como disciplina.
+> Para cultura em situacoes especificas (M&A, hipercrescimento, remoto e hibrido), ver [[#CAPÍTULO 17 — CULTURA EM SITUAÇÕES ESPECIAIS: M&A, HIPERCRESCIMENTO, REMOTO|Capítulo 17 (CULTURA EM SITUAÇÕES ESPECIAIS: M&A, HIPERCRESCIMENTO, REMOTO)]]. Este capítulo cobre o framework raiz de cultura como disciplina.
 
 ### Métricas
 
@@ -7505,7 +7505,7 @@ Cultura raiz é o que [[#CAPÍTULO 16 — CULTURA COMO DISCIPLINA|Capítulo 16 (
 
 Cada um desses contextos exige táticas próprias. Aplicar só o framework raiz não basta. Este capítulo cobre os três casos com profundidade operacional.
 
-### O que esse capítulo cobre
+### O que este capítulo cobre
 
 Três contextos onde cultura sofre estresse específico, e o que fazer em cada um.
 
@@ -7697,11 +7697,11 @@ M&A onde a comunicação fica restrita aos executivos. Sinal de que o time opera
 ## CAPÍTULO 18 — DIVERSIDADE, EQUIDADE E INCLUSÃO (DEI) EM STARTUP BRASILEIRA
 
 > [!note] Nota de contexto
-> A política DEI tornou-se tema polarizado em ecossistema global em 2024 a 2026. Esse capítulo aborda DEI como prática operacional em startup brasileira. Com racional de negócio, e com honestidade sobre trade-offs.
+> A política DEI tornou-se tema polarizado em ecossistema global em 2024 a 2026. Este capítulo aborda DEI como prática operacional em startup brasileira. Com racional de negócio, e com honestidade sobre trade-offs.
 
 O [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 4 — ESG, IMPACT E GOVERNANÇA PARA STARTUP|Capítulo 4 (ESG, IMPACT E GOVERNANÇA PARA STARTUP) (Vol. 9)]] cobre ESG (Environmental, Social, Governance, ou ambiental, social e governança), incluindo Social como pilar. Este capítulo entra na profundidade operacional específica de diversidade, equidade e inclusão (DEI) em startup brasileira. Muitas startups tratam o tema como retórica de PR (relações públicas). Quando feito a sério, vira ferramenta real de recrutamento, retenção e tomada de decisão.
 
-### O que esse capítulo cobre
+### O que este capítulo cobre
 
 DEI em startup envolve três dimensões relacionadas, mas distintas.
 

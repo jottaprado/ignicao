@@ -107,7 +107,7 @@ Este **Volume 9** cobre o horizonte mais alto da jornada empreendedora: o que ac
 > [!question] Pergunta de FMF nessa fase
 > Você atingiu desaceleração, e está considerando segunda curva. A pergunta crítica. *Você tem founder-market-fit com a nova curva também, ou está projetando a sua competência da curva atual numa área onde não tem a mesma profundidade?* Fundadores de sucesso na curva 1 frequentemente falham na curva 2 porque assumem que a vantagem transfere. Frequentemente não transfere. Mergulho de validação (Fases 2 a 4) é obrigatório na curva 2. Não é redundância. É reconhecimento de que você é iniciante no novo terreno.
 
-### O que esse apêndice cobre
+### O que esta fase cobre
 
 Detecção antecipada de saturação do modelo de crescimento vigente, e construção deliberada da próxima fonte de crescimento antes que a atual colapse. O entregável é o Diagnóstico de Saturação, mais o Plano de Segunda Curva — pivot (mudança de direção estratégica) maduro, expansão transformacional, ou autodisrupção controlada.
 
@@ -203,7 +203,7 @@ A saturação não acontece de repente. Dá sinais seis a dezoito meses antes da
 > Se dois ou mais sinais em duas ou mais categorias aparecem por dois ou mais trimestres, você está em saturação. Se três ou mais categorias, a saturação é urgente.
 
 > [!tip] Canvases Visuais — Wardley Map (Fase 19)
-> O [[IGNICAO-Vol-1-Ideacao#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Wardley Map (Canvas: Wardley Map) (Vol. 1)]] é a ferramenta literal de Reinvenção e Segunda Curva. Mapeia cada componente do negócio (produto, cadeia de valor, capacidades) num eixo de evolução (Genesis → Custom → Product → Commodity) e revela quais componentes estão saturando rumo a Commodity (precisam saltar para próxima curva) e quais ainda estão em Custom (vantagem competitiva sustentável por enquanto). Sem o mapa, decisão de "onde apostar a segunda curva" vira intuição não-falsificável.
+> O [[#Canvas: Wardley Map|Canvas: Wardley Map]] é a ferramenta literal de Reinvenção e Segunda Curva. Mapeia cada componente do negócio (produto, cadeia de valor, capacidades) num eixo de evolução (Genesis → Custom → Product → Commodity) e revela quais componentes estão saturando rumo a Commodity (precisam saltar para próxima curva) e quais ainda estão em Custom (vantagem competitiva sustentável por enquanto). Sem o mapa, decisão de "onde apostar a segunda curva" vira intuição não-falsificável.
 
 #### Passo 2, diagnostique o tipo de saturação e o caminho de reinvenção
 
@@ -290,7 +290,7 @@ A estratégia de autodisrupção tem quatro elementos. Separe o experimento disr
 O exemplo clássico: a Microsoft se autodisrompendo de licenças perpétuas (Office) para subscrição cloud (Office 365). No início, cada usuário que migrava gerava menos receita imediata. Em cinco anos, transformou a empresa.
 
 > [!tip] Canvases Visuais — Strategy Canvas (Fase 6, Vol. 2)
-> Para reposicionar a empresa na nova curva, o [[IGNICAO-Vol-1-Ideacao#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Strategy Canvas (Canvas: Strategy Canvas (W. Chan Kim & Renée Mauborgne, 2005)) (Vol. 1)]] compara o perfil de valor da empresa contra concorrentes em fatores de competição, e o ERRC Grid (Eliminar, Reduzir, Aumentar, Criar) força repensar a categoria. Útil em pivot transformacional (não cosmético) — a unidade disruptiva precisa de perfil de valor distinto do core, não uma versão "melhor um pouco" do mesmo produto.
+> Para reposicionar a empresa na nova curva, o [[IGNICAO-Vol-2-Descoberta-e-Mercado#Canvas: Strategy Canvas (W. Chan Kim & Renée Mauborgne, 2005)|Canvas: Strategy Canvas (W. Chan Kim & Renée Mauborgne, 2005) (Vol. 2)]] compara o perfil de valor da empresa contra concorrentes em fatores de competição, e o ERRC Grid (Eliminar, Reduzir, Aumentar, Criar) força repensar a categoria. Útil em pivot transformacional (não cosmético) — a unidade disruptiva precisa de perfil de valor distinto do core, não uma versão "melhor um pouco" do mesmo produto.
 
 #### Passo 6, considere M&A como alavanca de reinvenção
 
@@ -1078,7 +1078,7 @@ A [[#FASE 20 — ESTRATÉGIA DE SAÍDA (EXIT STRATEGY)|Fase 20]] começa aqui: f
 
 ## FASE 20 — ESTRATÉGIA DE SAÍDA (EXIT STRATEGY)
 
-### O que esse apêndice cobre
+### O que esta fase cobre
 
 Planejamento e execução da saída do(s) fundador(es), total ou parcial, do negócio construído. O entregável é o Plano de Exit (saída — venda ou encerramento da empresa). Contendo cenários, preparação, estrutura fiscal, e decisões estratégicas sobre timing e método.
 
@@ -1139,7 +1139,7 @@ flowchart TD
 > Nenhum tipo de exit é "melhor" em abstrato. O melhor é aquele que combina: sinais de mercado favoráveis (múltiplos altos), empresa preparada (data room, métricas auditáveis), e fundador com clareza sobre o próximo capítulo. Quando os três se alinham, exit flui. Quando um está fora, você negocia em desvantagem.
 
 > [!tip] Storytelling Canvas para a narrativa do exit
-> M&A estratégico, IPO e pitch de secondary são, antes de tudo, narrativas. Use o [[IGNICAO-Vol-1-Ideacao#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Storytelling Canvas (Canvas: Storytelling Canvas) (Vol. 1)]] para construir a narrativa antes de abrir o data room ou montar o deck. Blocos críticos neste contexto: **Herói** (o comprador/investidor, não você — o que *eles* ganham?), **Mundo depois** (como a aquisição/IPO muda o portfólio ou tese do investidor), **Evidências** (métricas auditáveis do Pirate Canvas / AARRR, NRR, LTV/CAC). O caso Omie em Canvas: Storytelling Canvas (Fase 14, Vol. 5) ilustra como colocar o contador (intermediário de canal) como herói — e não o dono de PME nem a Omie — produziu uma narrativa que ativou simultaneamente investidores e canal de distribuição.
+> M&A estratégico, IPO e pitch de secondary são, antes de tudo, narrativas. Use o [[IGNICAO-Vol-5-Financas-e-Captacao#Canvas: Storytelling Canvas|Canvas: Storytelling Canvas (Vol. 5)]] para construir a narrativa antes de abrir o data room ou montar o deck. Blocos críticos neste contexto: **Herói** (o comprador/investidor, não você — o que *eles* ganham?), **Mundo depois** (como a aquisição/IPO muda o portfólio ou tese do investidor), **Evidências** (métricas auditáveis do Pirate Canvas / AARRR, NRR, LTV/CAC). O caso Omie em Canvas: Storytelling Canvas (Fase 14, Vol. 5) ilustra como colocar o contador (intermediário de canal) como herói — e não o dono de PME nem a Omie — produziu uma narrativa que ativou simultaneamente investidores e canal de distribuição.
 
 #### Passo 1, mapeie os 5 tipos principais de exit
 
@@ -1197,7 +1197,7 @@ Empresa preparada para exit vale vinte a quarenta por cento mais que empresa em 
 > DCF, comparáveis de mercado, precedent transactions e regras de múltiplo por setor: como calcular o valuation interno antes de sentar com um comprador, e como interpretar a divergência entre valuation interno e proposta do adquirente.
 
 > [!tip] Canvases Visuais — Capital Stack / Waterfall em exit (Fase 14, Vol. 5)
-> Em exit (M&A ou IPO), os proceeds não são divididos pro-rata — passam pelo waterfall do [[IGNICAO-Vol-1-Ideacao#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Capital Stack (Canvas: Capital Stack / Waterfall Canvas) (Vol. 1)]]: liquidation preferences (1x ou 2x preferred), participation, conversion, ESOP exercise. Fundadores que não modelam o waterfall ANTES de assinar term sheet descobrem em closing que ficaram com fração menor do que esperavam (ex.: liquidation preference 2x participating em rodada de R$ 100M força investidor a receber R$ 200M antes de qualquer split — e em valuations de exit modestos, fundador zera). Use o canvas para simular cenários de exit em diferentes valuations (alto, médio, baixo) ainda dois ou três anos antes da venda.
+> Em exit (M&A ou IPO), os proceeds não são divididos pro-rata — passam pelo waterfall do [[IGNICAO-Vol-5-Financas-e-Captacao#Canvas: Capital Stack / Waterfall Canvas|Canvas: Capital Stack / Waterfall Canvas (Vol. 5)]]: liquidation preferences (1x ou 2x preferred), participation, conversion, ESOP exercise. Fundadores que não modelam o waterfall ANTES de assinar term sheet descobrem em closing que ficaram com fração menor do que esperavam (ex.: liquidation preference 2x participating em rodada de R$ 100M força investidor a receber R$ 200M antes de qualquer split — e em valuations de exit modestos, fundador zera). Use o canvas para simular cenários de exit em diferentes valuations (alto, médio, baixo) ainda dois ou três anos antes da venda.
 
 Contrate auditoria externa das demonstrações dos últimos três anos. Garanta que DRE, balanço e fluxo de caixa estejam limpos e defendíveis. Organize o cap table (tabela de capitalização — registro de quem tem quanto da empresa) sem zonas cinzentas. Documente contratos materiais. Prepare projeções financeiras de três a cinco anos com premissas claras.
 
@@ -1309,7 +1309,7 @@ Closing conditions. O que precisa acontecer entre assinatura e closing (aprovaç
 Esse é o ponto mais negligenciado pelos fundadores. Decisões feitas *anos antes* do exit afetam drasticamente o IR pago. As quatro estruturas principais no Brasil: pessoa física (IR de quinze a vinte e dois vírgula cinco por cento progressivo — simples, mas caro), holding pessoal (dividendos isentos na regra atual, mas há IR sobre ganho de capital na venda subjacente), estrutura offshore (Delaware, Cayman, BVI — legal se estruturada cedo, com compliance alto) e Seção 1202 QSBS para empresas americanas (isenção em até US$ 10 milhões se ações mantidas por cinco anos ou mais).
 
 > [!tip] Capítulo 19 — Tributação do Exit
-> Tributacao do exit no Brasil, holding patrimonial, JCP, exit tax, ganho de capital PF vs PJ. Para detalhes, ver Apendice DG e Apendice W.
+> Tributacao do exit no Brasil, holding patrimonial, JCP, exit tax, ganho de capital PF vs PJ. Para detalhes, ver Capítulo 19 (TRIBUTAÇÃO DO EXIT PARA FUNDADORES BRASILEIROS) e Capítulo 14 (Vol. 5) (CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA).
 
 > [!warning] Princípio sobre tax structuring
 > Qualquer estrutura exige preparação de dois a cinco anos antes do exit. Fazer na última hora é fazer errado. E fazer errado, em deal de R$ 100 milhões, custa R$ 10-30 milhões em imposto evitável.
@@ -1698,9 +1698,9 @@ Na empresa madura, o poder deixa de ser exercido apenas na mesa operacional e pa
 
 A [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18 (Vol. 8)]] cobre constituição e cap table (tabela de capital). O [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) (Vol. 5)]] cobre captação. Operar com board (conselho de administração) saudável é disciplina à parte, raramente tratada em manuais brasileiros de empreendedorismo. Fundador em Série A que nunca preparou material de board, nunca conduziu uma reunião e nunca demitiu membro improdutivo chega despreparado à situação mais consequente do seu calendário trimestral.
 
-Esse capítulo cobre board como disciplina operacional: composição, cadência, preparação de materiais, condução de reuniões, gestão de membros difíceis e evolução do board conforme a empresa cresce.
+Este capítulo cobre board como disciplina operacional: composição, cadência, preparação de materiais, condução de reuniões, gestão de membros difíceis e evolução do board conforme a empresa cresce.
 
-### O que esse capítulo cobre
+### O que este capítulo cobre
 
 Três camadas.
 
@@ -1953,9 +1953,9 @@ Board saudável quando a composição está alinhada ao estágio (nem sub-dimens
 ## CAPÍTULO 2 — EMPRESA FAMILIAR E SUCESSÃO: GOVERNANÇA, DINÂMICA E PSICOLOGIA
 
 > [!note] Nota de integridade
-> Esse capítulo trata de empresa familiar tanto em dimensão operacional (governança, sucessão, estrutura) quanto em dimensão emocional profunda (identidade, conflito entre gerações, papel na família). As duas são inseparáveis. Onde o tema toca em sofrimento psicológico genuíno, o texto sinaliza os limites e recomenda apoio profissional especializado: psicólogo organizacional com formação específica, terapeuta familiar sistêmico, consultores do IBGC ou da FDC. Referências brasileiras relevantes: João Bosco Lodi, IBGC, Fundação Dom Cabral. Referências internacionais: John Ward, Fred Neubauer e John Davis (Harvard).
+> Este capítulo trata de empresa familiar tanto em dimensão operacional (governança, sucessão, estrutura) quanto em dimensão emocional profunda (identidade, conflito entre gerações, papel na família). As duas são inseparáveis. Onde o tema toca em sofrimento psicológico genuíno, o texto sinaliza os limites e recomenda apoio profissional especializado: psicólogo organizacional com formação específica, terapeuta familiar sistêmico, consultores do IBGC ou da FDC. Referências brasileiras relevantes: João Bosco Lodi, IBGC, Fundação Dom Cabral. Referências internacionais: John Ward, Fred Neubauer e John Davis (Harvard).
 
-Esse capítulo cobre três tipos de fundador na órbita da empresa familiar. O primeiro é o fundador que herda ou sucede uma empresa familiar. Alguém cuja família tem empresa e que está avaliando, entrando ou já operando. O segundo é o fundador cuja startup é familiar na origem, empresa começada com pai, mãe, irmãos, cônjuge, primos ou parentes diretos. O terceiro é o fundador que traz parentes para a empresa em escala, startup originalmente não-familiar onde o fundador contrata familiares conforme cresce. As três situações têm particularidades, mas compartilham o núcleo: família e empresa misturam dinâmicas que têm lógicas próprias e frequentemente conflitantes. Sem estruturação consciente, as duas sofrem.
+Este capítulo cobre três tipos de fundador na órbita da empresa familiar. O primeiro é o fundador que herda ou sucede uma empresa familiar. Alguém cuja família tem empresa e que está avaliando, entrando ou já operando. O segundo é o fundador cuja startup é familiar na origem, empresa começada com pai, mãe, irmãos, cônjuge, primos ou parentes diretos. O terceiro é o fundador que traz parentes para a empresa em escala, startup originalmente não-familiar onde o fundador contrata familiares conforme cresce. As três situações têm particularidades, mas compartilham o núcleo: família e empresa misturam dinâmicas que têm lógicas próprias e frequentemente conflitantes. Sem estruturação consciente, as duas sofrem.
 
 O tema é crítico no Brasil por razões estruturais. Empresas familiares dominam a economia brasileira. Estimativas apontam que mais de noventa por cento das empresas brasileiras são familiares em alguma forma, e respondem por parcela muito significativa do PIB e do emprego privado formal. A taxa de sucessão geracional é baixa. Dados internacionais mostram que cerca de trinta por cento das empresas familiares sobrevivem à segunda geração, doze por cento à terceira e apenas três por cento à quarta. O Brasil não foge ao padrão e possivelmente é pior em alguns setores. A cultura brasileira favorece a mistura entre família e negócio: laços familiares fortes, confiança baseada em parentesco, histórico de empresas-família como base do capitalismo industrial brasileiro (Votorantim, Odebrecht, Itaúsa, Gerdau, JBS, Klabin). Mas isso também gera conflito estrutural: herdeiros com níveis diversos de preparo, cônjuges ingressando via casamento, divórcios dividindo patrimônio, irmãos com visões conflitantes.
 
@@ -2064,9 +2064,9 @@ Dimensão pessoal do fundador. Identidade individual além da empresa desenvolvi
 ## CAPÍTULO 3 — DISPUTA SOCIETÁRIA E SAÍDA DE SÓCIO
 
 > [!note] Nota de validade
-> Processo societário brasileiro é regulado principalmente pelo Código Civil (artigos 997 a 1.141 para Ltda) e pela Lei 6.404 de 1976 para S.A., com jurisprudência em evolução. Advogado societário especializado é essencial. Esse capítulo é mapa operacional, não parecer jurídico.
+> Processo societário brasileiro é regulado principalmente pelo Código Civil (artigos 997 a 1.141 para Ltda) e pela Lei 6.404 de 1976 para S.A., com jurisprudência em evolução. Advogado societário especializado é essencial. Este capítulo é mapa operacional, não parecer jurídico.
 
-O [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 2 — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Capítulo 2 (SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR) (Vol. 1)]] cobre a dinâmica entre cofundadores como relação humana. O [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 5 — CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS|Capítulo 5 (CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS) (Vol. 8)]] cobre contratos. Esse capítulo cobre o evento operacional mais comum e mal-executado nas startups brasileiras: o dia em que um sócio vai sair. Seja por decisão mútua, por conflito, por desempenho, por mudança de vida ou por oferta externa, cada startup tem probabilidade não-zero de passar por isso. A diferença entre fazer bem e mal pode definir se a empresa sobrevive.
+O [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 2 — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Capítulo 2 (SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR) (Vol. 1)]] cobre a dinâmica entre cofundadores como relação humana. O [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 5 — CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS|Capítulo 5 (CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS) (Vol. 8)]] cobre contratos. Este capítulo cobre o evento operacional mais comum e mal-executado nas startups brasileiras: o dia em que um sócio vai sair. Seja por decisão mútua, por conflito, por desempenho, por mudança de vida ou por oferta externa, cada startup tem probabilidade não-zero de passar por isso. A diferença entre fazer bem e mal pode definir se a empresa sobrevive.
 
 Saída de sócio é processo multidimensional. Tem dimensão relacional, com conversas difíceis, emoções e ruptura de vínculo que frequentemente foi constitutivo da empresa. Tem dimensão jurídica, com alteração de contrato social ou estatuto, formalização da saída e cláusulas específicas como vesting (aquisição gradual de equity), lock-up (período de bloqueio de venda), non-compete (não-concorrência) e confidentiality (confidencialidade). Tem dimensão financeira, com apuração de haveres, pagamento, divisão de equity (participação societária) e possível buyout (recompra). Tem dimensão operacional, com transição de responsabilidades, relacionamentos e conhecimento institucional. Tem dimensão reputacional, com narrativa pública e privada da saída, impacto em time, investidores, clientes e mercado. E tem dimensão estratégica, com mudanças na empresa, na governança e no plano. Os entregáveis típicos são termo de saída formal, alteração contratual registrada, acordo financeiro documentado, comunicação estruturada a stakeholders (partes interessadas) e plano de transição executado.
 
@@ -2181,7 +2181,7 @@ Em novembro de 2019, a Profile, agência de comunicação fundada em 2013 por Ro
 
 Esse é o ponto que o resto deste capítulo gira em torno. ESG operacional não é statement no rodapé do site nem post no LinkedIn no Dia da Mulher. É um conjunto de decisões que mexe em hire, fire, faturamento, alocação de cloud, board e contrato com investidor. Quando a empresa decide entrar nesse caminho de verdade, ela paga em runway, em conversa difícil com sócio e em cliente perdido. Quando decide simular o caminho, ela paga depois, em DD travada, em fundo que recua, em talento que sai porque "a empresa fala uma coisa e faz outra". Os dois caminhos têm custo. Este capítulo é sobre escolher conscientemente qual.
 
-### O que esse capítulo cobre
+### O que este capítulo cobre
 
 Três dimensões.
 
@@ -2311,7 +2311,7 @@ Quando a startup brasileira decide expandir para a América Latina, Estados Unid
 
 Internacionalizar uma empresa brasileira é decisão de alto impacto. Cedo demais, queima dinheiro. Tarde demais, perde janela competitiva. Bem feita, transforma o tamanho potencial da empresa em ordens de grandeza. A decisão é estratégica e tem dimensões técnicas inseparáveis na prática: estrutura societária internacional, tratados de bitributação, transfer pricing (preços entre empresas do mesmo grupo), EOR (Employer of Record, empresa que emprega por você no exterior) e PEO (Professional Employer Organization, co-empregador), Delaware Flip (mudança da holding para Delaware nos EUA), produto localizado, expansão comercial e cultura organizacional multi-país.
 
-Esse capítulo integra duas camadas. A primeira trata da estrutura: desenho societário, fiscal, operacional e trabalhista que sustenta a operação internacional. A segunda trata do produto: como preparar a camada técnica e de experiência para múltiplos mercados (i18n ou internacionalização técnica e l10n ou localização). As duas operam juntas em empresas que fazem isso a sério. Tratá-las separadas por clareza pedagógica não deve confundir o operador.
+Este capítulo integra duas camadas. A primeira trata da estrutura: desenho societário, fiscal, operacional e trabalhista que sustenta a operação internacional. A segunda trata do produto: como preparar a camada técnica e de experiência para múltiplos mercados (i18n ou internacionalização técnica e l10n ou localização). As duas operam juntas em empresas que fazem isso a sério. Tratá-las separadas por clareza pedagógica não deve confundir o operador.
 
 ### Por que, quando e como decidir
 
@@ -2416,9 +2416,9 @@ Na operação comercial. Primeiro funcionário local (comercial ou customer succ
 > - [[#CAPÍTULO 7 — HEDGING CAMBIAL E GESTÃO DE MOEDA MULTICOUNTRY|Capítulo 7 (HEDGING CAMBIAL E GESTÃO DE MOEDA MULTICOUNTRY)]], gestao patrimonial cross-border do fundador relocado
 
 > [!warning] Validade
-> Política migratória muda frequentemente. As informações refletem o cenário de abril de 2026. Para decisões reais, advogado de imigração especializado é essencial. Esse capítulo é mapa, não substitui consultoria. Mudanças no governo americano a partir de 2025, política europeia e regulamentações específicas precisam ser confirmadas no momento da decisão.
+> Política migratória muda frequentemente. As informações refletem o cenário de abril de 2026. Para decisões reais, advogado de imigração especializado é essencial. Este capítulo é mapa, não substitui consultoria. Mudanças no governo americano a partir de 2025, política europeia e regulamentações específicas precisam ser confirmadas no momento da decisão.
 
-O fundador brasileiro que decide expandir internacionalmente costuma enfrentar uma pergunta pessoal: onde vou viver? Deal (negociação) de Série A com investidor americano, cliente enterprise (corporativo) nos EUA, operação em Europa. Cada um desses traz à mesa a questão de relocation (mudança de país), visto e imigração. Esse capítulo cobre os principais caminhos migratórios para fundadores brasileiros, com foco em Estados Unidos (destino mais comum), Portugal, Reino Unido e Canadá.
+O fundador brasileiro que decide expandir internacionalmente costuma enfrentar uma pergunta pessoal: onde vou viver? Deal (negociação) de Série A com investidor americano, cliente enterprise (corporativo) nos EUA, operação em Europa. Cada um desses traz à mesa a questão de relocation (mudança de país), visto e imigração. Este capítulo cobre os principais caminhos migratórios para fundadores brasileiros, com foco em Estados Unidos (destino mais comum), Portugal, Reino Unido e Canadá.
 
 ### O que e por que importa
 
@@ -2752,7 +2752,7 @@ Governance: política aprovada pelo board? Reporting trimestral ao board? Revis�
 ## CAPÍTULO 8 — TESOURARIA EM ESCALA: GESTÃO DE CAIXA MULTI-MOEDA, MULTI-PAÍS E MULTI-CONTA
 
 > [!warning] Validade
-> Esse capítulo reflete taxas, produtos e práticas típicas de tesouraria corporativa para startups brasileiras em 2025 e 2026. Taxas (CDI, SOFR), instrumentos disponíveis, regulamentação cambial BCB e condições bancárias evoluem. Revisar anualmente. Para aprofundamento, materiais da Association for Financial Professionals (AFP) sobre corporate treasury. Tesouraria Corporativa e Administração Financeira (Fernando Motta Fortuna) para contexto brasileiro. CFA Institute, seção de corporate finance, para frameworks conceituais.
+> Este capítulo reflete taxas, produtos e práticas típicas de tesouraria corporativa para startups brasileiras em 2025 e 2026. Taxas (CDI, SOFR), instrumentos disponíveis, regulamentação cambial BCB e condições bancárias evoluem. Revisar anualmente. Para aprofundamento, materiais da Association for Financial Professionals (AFP) sobre corporate treasury. Tesouraria Corporativa e Administração Financeira (Fernando Motta Fortuna) para contexto brasileiro. CFA Institute, seção de corporate finance, para frameworks conceituais.
 
 Para o diagnóstico fundacional de capital de giro e ciclo de conversão de caixa, ver [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 18 — CAPITAL DE GIRO E RECEBÍVEIS|Capítulo 18 — Capital de Giro e Recebíveis (Vol. 5)]] (casa canônica). Este capítulo trata especificamente da camada multi-moeda, multi-país e multi-conta, FX execution, hedging operacional e relacionamento com mesa institucional.
 
@@ -2904,7 +2904,7 @@ Tesouraria saudável é silenciosa. O CEO nunca precisa perguntar "temos caixa p
 - [ ] Plano de contingência para queda de banco principal (playbook escrito)
 
 > [!note] Validade
-> Esse capítulo reflete taxas, produtos e práticas típicas de tesouraria corporativa para startups brasileiras em 2025 e 2026. Taxas (CDI, SOFR), instrumentos disponíveis, regulamentação cambial do BCB e condições bancárias evoluem. Revisar anualmente. Para aprofundamento: Association for Financial Professionals (AFP) tem material sólido sobre corporate treasury. *Tesouraria Corporativa e Administração Financeira* (Fernando Motta Fortuna) cobre o contexto brasileiro. O CFA Institute, na seção de corporate finance, tem frameworks conceituais sólidos.
+> Este capítulo reflete taxas, produtos e práticas típicas de tesouraria corporativa para startups brasileiras em 2025 e 2026. Taxas (CDI, SOFR), instrumentos disponíveis, regulamentação cambial do BCB e condições bancárias evoluem. Revisar anualmente. Para aprofundamento: Association for Financial Professionals (AFP) tem material sólido sobre corporate treasury. *Tesouraria Corporativa e Administração Financeira* (Fernando Motta Fortuna) cobre o contexto brasileiro. O CFA Institute, na seção de corporate finance, tem frameworks conceituais sólidos.
 
 ### Ver também
 
@@ -2930,16 +2930,16 @@ Toda empresa longeva atravessa pelo menos uma crise existencial — um choque ma
 
 > [!tip] Ciclo de crise
 > Quatro apendices cobrem os estagios da crise,
-> 1. [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 13 — FRAUDE INTERNA E CONTROLES INTERNOS|BW (Vol. 8)]], preparacao e detecao
-> 2. CW (este apendice), resposta a evento e continuidade operacional
-> 3. [[#CAPÍTULO 10 — COMUNICAÇÃO EM CRISE|EV]], comunicacao a stakeholders
-> 4. [[#CAPÍTULO 12 — RECUPERAÇÃO JUDICIAL E WIND-DOWN — QUANDO A STARTUP NÃO CONSEGUE CONTINUAR|ES]], encerramento se a crise virar terminal
+> 1. [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 13 — FRAUDE INTERNA E CONTROLES INTERNOS|Capítulo 13 (FRAUDE INTERNA E CONTROLES INTERNOS) (Vol. 8)]], preparacao e detecao
+> 2. CW (este capítulo), resposta a evento e continuidade operacional
+> 3. [[#CAPÍTULO 10 — COMUNICAÇÃO EM CRISE|Capítulo 10 (COMUNICAÇÃO EM CRISE)]], comunicacao a stakeholders
+> 4. [[#CAPÍTULO 12 — RECUPERAÇÃO JUDICIAL E WIND-DOWN — QUANDO A STARTUP NÃO CONSEGUE CONTINUAR|Capítulo 12 (RECUPERAÇÃO JUDICIAL E WIND-DOWN — QUANDO A STARTUP NÃO CONSEGUE CONTINUAR)]], encerramento se a crise virar terminal
 
 Toda empresa enfrenta, mais cedo ou mais tarde, um momento em que as coisas dão muito errado. Pode ser vazamento de dados, cliente grande saindo de forma ruidosa, ataque de ransomware (sequestro de dados por resgate), demissão em massa mal conduzida, escândalo envolvendo um executivo, bug em produção que tirou serviço do ar por dezoito horas, falência de um fornecedor crítico, decisão judicial adversa inesperada. Ou o primeiro trimestre em que a empresa deixa de bater meta de forma impossível de disfarçar.
 
 O que diferencia empresas que sobrevivem dessas situações das que sucumbem não é a ausência de crise. É a qualidade da resposta. E o que diferencia uma resposta boa de uma ruim não é improviso heroico no momento do aperto. É preparação feita com calma quando nada estava dando errado.
 
-Esse capítulo trata do ciclo completo de crise. A primeira parte cobre continuidade de negócio: as práticas preventivas que reduzem a probabilidade e o impacto de eventos adversos e mantêm a operação funcionando durante crise. É trabalho que se faz em tempo de paz. A segunda parte entra em crise e recuperação em sentido estrito: como responder quando a situação ruim já aconteceu e como reconstruir depois.
+Este capítulo trata do ciclo completo de crise. A primeira parte cobre continuidade de negócio: as práticas preventivas que reduzem a probabilidade e o impacto de eventos adversos e mantêm a operação funcionando durante crise. É trabalho que se faz em tempo de paz. A segunda parte entra em crise e recuperação em sentido estrito: como responder quando a situação ruim já aconteceu e como reconstruir depois.
 
 ---
 
@@ -3094,17 +3094,17 @@ Reconhecer as fases ajuda a não se surpreender com elas. Ter rede de apoio (cof
 
 ## CAPÍTULO 10 — COMUNICAÇÃO EM CRISE
 
-> [!abstract] Onde este apendice se posiciona no bloco de comunicacao
-> O livro tem sete apendices de comunicacao com territorios distintos,
-> - [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 8 — COMUNICAÇÃO PÚBLICA DO FUNDADOR: NARRATIVA, IMPRENSA E PORTA-VOZ|BM (Vol. 6)]], narrativa publica e imprensa
-> - [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 9 — MARCA PESSOAL DO FUNDADOR: DISTRIBUIÇÃO, AUTORIDADE E CUSTO DE REPUTAÇÃO|CY (Vol. 6)]], marca pessoal e canais proprios
-> - [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 10 — COMUNICAÇÃO INTERNA|DZ (Vol. 7)]], comunicacao com o time
-> - [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 8 — COMUNICAÇÃO ESCRITA PARA NEGÓCIOS|EW (Vol. 1)]], escrita executiva (memo, update, postmortem)
-> - [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 9 — APRESENTAÇÃO E FALA EM PÚBLICO|EX (Vol. 1)]], fala em publico (pitch, all-hands, board)
-> - [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 7 — INFLUÊNCIA E PERSUASÃO SEM AUTORIDADE FORMAL|EK (Vol. 1)]], persuasao sem autoridade
-> - [[#CAPÍTULO 10 — COMUNICAÇÃO EM CRISE|EV]], comunicacao em crise
+> [!abstract] Onde este capítulo se posiciona no bloco de comunicacao
+> O livro tem sete capítulos de comunicacao com territorios distintos,
+> - [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 8 — COMUNICAÇÃO PÚBLICA DO FUNDADOR: NARRATIVA, IMPRENSA E PORTA-VOZ|Capítulo 8 (COMUNICAÇÃO PÚBLICA DO FUNDADOR: NARRATIVA, IMPRENSA E PORTA-VOZ) (Vol. 6)]], narrativa publica e imprensa
+> - [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 9 — MARCA PESSOAL DO FUNDADOR: DISTRIBUIÇÃO, AUTORIDADE E CUSTO DE REPUTAÇÃO|Capítulo 9 (MARCA PESSOAL DO FUNDADOR: DISTRIBUIÇÃO, AUTORIDADE E CUSTO DE REPUTAÇÃO) (Vol. 6)]], marca pessoal e canais proprios
+> - [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 10 — COMUNICAÇÃO INTERNA|Capítulo 10 (COMUNICAÇÃO INTERNA) (Vol. 7)]], comunicacao com o time
+> - [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 8 — COMUNICAÇÃO ESCRITA PARA NEGÓCIOS|Capítulo 8 (COMUNICAÇÃO ESCRITA PARA NEGÓCIOS) (Vol. 1)]], escrita executiva (memo, update, postmortem)
+> - [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 9 — APRESENTAÇÃO E FALA EM PÚBLICO|Capítulo 9 (APRESENTAÇÃO E FALA EM PÚBLICO) (Vol. 1)]], fala em publico (pitch, all-hands, board)
+> - [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 7 — INFLUÊNCIA E PERSUASÃO SEM AUTORIDADE FORMAL|Capítulo 7 (INFLUÊNCIA E PERSUASÃO SEM AUTORIDADE FORMAL) (Vol. 1)]], persuasao sem autoridade
+> - [[#CAPÍTULO 10 — COMUNICAÇÃO EM CRISE|Capítulo 10 (COMUNICAÇÃO EM CRISE)]], comunicacao em crise
 >
-> Este apendice cobre comunicacao publica em crise reputacional, regulatoria ou operacional grave. Para os outros territorios, ver acima.
+> Este capítulo cobre comunicacao publica em crise reputacional, regulatoria ou operacional grave. Para os outros territorios, ver acima.
 
 **Quando Tudo Dá Errado e o Público Está Olhando**
 
@@ -3526,14 +3526,14 @@ PÓS-CRISE (30-60 DIAS)
 - [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 16 — PLANEJAMENTO FINANCEIRO E ORÇAMENTO|Capítulo 16 — Comunicação com Investidores (Vol. 5)]] para protocolo de notificação de board em incidentes materiais
 - [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 14 — COMPENSAÇÃO E BENEFÍCIOS NO BRASIL|Capítulo 14 — Cultura e Employer Branding (Vol. 6)]] para reconstrução de reputação em crises trabalhistas
 - [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 9 — IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES|Fase 9 — Escala e Operações (Vol. 3)]] para processos e controles que previnem crises operacionais
-- [[IGNICAO-Vol-1-Ideacao#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvases Visuais da Fase (Vol. 1)]] para o Mapa de Stakeholders que alimenta o stakeholder map de crise
+- [[#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvases e Mapas Visuais]] para o Mapa de Stakeholders que alimenta o stakeholder map de crise
 
 ---
 
 ## CAPÍTULO 11 — LAYOFFS E DOWNSIZING: COMO DEMITIR EM ESCALA SEM DESTRUIR A EMPRESA
 
 > [!warning] Tema com peso jurídico
-> Layoff no Brasil é regulado por CLT, convenções coletivas e jurisprudência específica. Advogado trabalhista é essencial em layoffs acima de certo tamanho. Esse capítulo é mapa operacional, não parecer jurídico.
+> Layoff no Brasil é regulado por CLT, convenções coletivas e jurisprudência específica. Advogado trabalhista é essencial em layoffs acima de certo tamanho. Este capítulo é mapa operacional, não parecer jurídico.
 
 [[#CAPÍTULO 9 — CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO|Capítulo 9 (CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO)]] cobre downturns (crises de mercado) e cortes como cenário. Este capítulo entra na profundidade operacional do layoff, ou seja, da demissão coletiva por razões econômicas, de reestruturação ou de pivô estratégico. É um dos momentos mais difíceis na vida de um fundador. Executar bem faz diferença enorme na sobrevivência da empresa e na dignidade das pessoas envolvidas.
 
@@ -3695,7 +3695,7 @@ Layoff bem-executado tem perfil reconhecível. Decisão tomada deliberadamente c
 ## CAPÍTULO 12 — RECUPERAÇÃO JUDICIAL E WIND-DOWN — QUANDO A STARTUP NÃO CONSEGUE CONTINUAR
 
 > [!note] Nota
-> Esse capítulo cobre os instrumentos jurídicos e as decisões práticas envolvidos no encerramento ou na reestruturação de uma startup em dificuldade financeira. As referências à Lei 11.101/2005 (Lei de Recuperação Judicial, Extrajudicial e Falência), à CLT, e ao Código Civil são de domínio público. Este capítulo não substitui assessoria jurídica especializada. Cada situação tem especificidades que exigem análise caso a caso.
+> Este capítulo cobre os instrumentos jurídicos e as decisões práticas envolvidos no encerramento ou na reestruturação de uma startup em dificuldade financeira. As referências à Lei 11.101/2005 (Lei de Recuperação Judicial, Extrajudicial e Falência), à CLT, e ao Código Civil são de domínio público. Este capítulo não substitui assessoria jurídica especializada. Cada situação tem especificidades que exigem análise caso a caso.
 
 Recuperação judicial (instrumento legal de reestruturação de dívidas com proteção judicial) e wind-down (encerramento ordenado da empresa) são temas que ninguém quer enfrentar. Ninguém começa uma startup pensando no final. O final chega para a maioria. A forma como ele é conduzido determina se o fundador sai com reputação, relacionamentos e capacidade de recomeçar, ou se sai com dívidas pessoais, litígios trabalhistas e pontes queimadas.
 
@@ -3704,7 +3704,7 @@ O tema é tratado como tabu no ecossistema brasileiro. Fundadores que fecharam e
 > [!important] O fracasso gerenciado é diferente do fracasso evitado
 > Startup que fecha depois de esgotar todas as opções com responsabilidade, pagando o que é obrigatório, comunicando com honestidade e preservando relacionamentos, coloca o fundador em posição de recomeçar. Startup que fecha de forma desordenada, com funcionários sem verbas, investidores sem comunicação e fornecedores com cheques sem fundo, cria passivos que perseguem o fundador por anos. A diferença não é sorte. É processo.
 
-### O que esse capítulo cobre
+### O que este capítulo cobre
 
 Sete dimensões integradas.
 
@@ -4090,7 +4090,7 @@ O bloco final da trilha principal cobre todas as modalidades de liquidez, aquisi
 
 A [[#FASE 20 — ESTRATÉGIA DE SAÍDA (EXIT STRATEGY)|Fase 20]] trata da decisão e execução da venda. Este capítulo trata do que vem depois: os doze a trinta e seis meses pós-aquisição. É quando o fundador costuma permanecer na empresa sob novo dono, o earnout (parcela do preço atrelada a metas futuras) é pago ou não, a retenção de time é testada e a trajetória pessoal do fundador é redefinida. É fase crítica e mal-preparada. Os fundadores chegam ao exit (saída via venda ou IPO) planejando "finalmente descansar" e descobrem que o trabalho mais difícil pode estar por vir.
 
-### O que esse capítulo cobre e por que importa
+### O que este capítulo cobre e por que importa
 
 A sucessão no exit cobre seis dimensões: estrutura contratual (earnout, retention ou retenção, clawback ou cláusula de devolução, continuidade como CEO ou executivo), papel operacional pós-aquisição, retention do time-chave, integração cultural, transição pessoal do fundador e vida pós-exit. Conecta a Fase 16 com os 12 a 36 meses seguintes ao closing (fechamento do deal).
 
@@ -4270,9 +4270,9 @@ Sucessão no exit está bem-executada quando o deal está estruturado com termos
 ## CAPÍTULO 14 — M&A ATIVO E ROLL-UPS: FUNDADOR COMO COMPRADOR
 
 > [!note] Nota de validade
-> M&A é disciplina com múltiplas fontes de aprendizado. Este capítulo cobre a perspectiva específica do fundador que adquire outras empresas como estratégia de crescimento ou consolidação, o oposto da visão "fundador vendido" coberta em outros apêndices. Regulação antitruste e tributária muda. Revisar com advogado especializado em M&A.
+> M&A é disciplina com múltiplas fontes de aprendizado. Este capítulo cobre a perspectiva específica do fundador que adquire outras empresas como estratégia de crescimento ou consolidação, o oposto da visão "fundador vendido" coberta em outros capítulos. Regulação antitruste e tributária muda. Revisar com advogado especializado em M&A.
 
-### O que esse capítulo cobre
+### O que este capítulo cobre
 
 São três situações em que o fundador passa ao papel de comprador. A primeira é aquisição pontual estratégica: a empresa compra outra para adicionar produto, tecnologia, talento ou entrar em mercado adjacente (também chamada de bolt-on acquisition, ou aquisição complementar). A segunda é acqui-hire (compra por talento): compra primariamente por talento, geralmente time técnico ou executivo da empresa adquirida, com produto secundário. A terceira é roll-up strategy (estratégia de consolidação): estratégia deliberada de consolidar mercado fragmentado por meio de múltiplas aquisições, criando empresa de escala. Comum em serviços profissionais, software B2B vertical, clínicas médicas e academias. As três compartilham mecânica (avaliar, negociar, fechar, integrar) mas diferem em tese, preço e complexidade.
 
@@ -4399,7 +4399,7 @@ Para estratégia de M&A ativo contínuo: deal flow pipeline (quantas oportunidad
 > [!note] Nota de validade
 > ETA é estrutura de aquisição nascida em Stanford nos anos 1980 e que ganhou tração no Brasil mais recentemente (em especial após 2018 a 2020). A base regulatória (estruturação, fundos e tributação) varia por jurisdição e evolui. Revisar com advogado especializado em investimentos e tributação.
 
-### O que esse capítulo cobre
+### O que este capítulo cobre
 
 Entrepreneurship Through Acquisition (ETA, ou empreendedorismo via aquisição) é o caminho em que o indivíduo adquire empresa existente e a gere como CEO, em vez de fundar do zero. Search fund (fundo de busca) é o veículo financeiro mais comum para viabilizar ETA.
 
@@ -4764,7 +4764,7 @@ flowchart TD
 
 Este capítulo cobre secondary como conceito e mecânica de transação em escala global (tipos de transação, ROFR, tender offer, descontos sobre última rodada, drivers de pricing). Para o mercado secundário brasileiro específico (compradores BR, fundos de secondary BR, restrições regulatórias, FIP secundário, registro de transferência em sociedade limitada e S/A), ver [[#CAPÍTULO 18 — MERCADO SECUNDÁRIO E LIQUIDEZ ANTECIPADA PARA FOUNDERS E EARLY EMPLOYEES|Capítulo 18 — Mercado Secundário e Liquidez Antecipada para Founders e Early Employees]].
 
-### O que esse capítulo cobre
+### O que este capítulo cobre
 
 Secondary é venda de ações existentes (não nova emissão), por founders (fundadores) ou early employees (funcionários iniciais), para terceiros. Permite liquidez parcial, antes do exit (saída) formal via IPO (abertura de capital em bolsa) ou M&A (fusão e aquisição). Distinto de rodada primária, em que a empresa emite novas ações e o dinheiro vai para o caixa dela. Em secondary, o dinheiro vai para quem vendeu.
 
@@ -5433,15 +5433,15 @@ O fundador é o ator mais crítico para retenção nos primeiros 12–18 meses. 
 > BH cataloga casos individuais brasileiros em profundidade. Para a leitura por PADRAO transversal de fracasso (sete padroes destilados dos casos), ver [[IGNICAO-Vol-2-Descoberta-e-Mercado#CAPÍTULO 4 — CASOS DE FRACASSO BRASILEIROS E LIÇÕES|Capítulo 4 (CASOS DE FRACASSO BRASILEIROS E LIÇÕES) (Vol. 2)]].
 
 > [!note] Nota de integridade
-> Esse capítulo complementa o [[IGNICAO-Vol-2-Descoberta-e-Mercado#CAPÍTULO 4 — CASOS DE FRACASSO BRASILEIROS E LIÇÕES|Capítulo 4 (CASOS DE FRACASSO BRASILEIROS E LIÇÕES) (Vol. 2)]], que é temático e extrai padrões. Aqui, tratamos casos brasileiros específicos em profundidade individual, com nome da empresa, trajetória e análise honesta. Base, material público exclusivo, reportagens, entrevistas de fundadores, relatórios financeiros de empresas listadas, livros e podcasts. Nenhuma especulação sobre motivações pessoais. Quando o contexto completo é desconhecido, declaramos. O propósito é aprender padrões com humildade analítica e não julgar pessoas.
+> Este capítulo complementa o [[IGNICAO-Vol-2-Descoberta-e-Mercado#CAPÍTULO 4 — CASOS DE FRACASSO BRASILEIROS E LIÇÕES|Capítulo 4 (CASOS DE FRACASSO BRASILEIROS E LIÇÕES) (Vol. 2)]], que é temático e extrai padrões. Aqui, tratamos casos brasileiros específicos em profundidade individual, com nome da empresa, trajetória e análise honesta. Base, material público exclusivo, reportagens, entrevistas de fundadores, relatórios financeiros de empresas listadas, livros e podcasts. Nenhuma especulação sobre motivações pessoais. Quando o contexto completo é desconhecido, declaramos. O propósito é aprender padrões com humildade analítica e não julgar pessoas.
 
-### O que esse capítulo cobre
+### O que este capítulo cobre
 
 Catálogo de doze casos brasileiros, colapsos, dificuldades estruturais, vitórias com lições e casos em progresso com sinais ambíguos. Cada caso está estruturado em cinco seções. Contexto, quando, quem, mercado, tese original. Trajetória, marcos, números, eventos-chave. Diagnóstico, o que deu ou está dando errado. Contrafactuais, o que poderia ter mudado o curso, com humildade. Lições transferíveis, o que o fundador hoje extrai.
 
 ### Por que importa
 
-Casos em profundidade complementam padrões. O [[IGNICAO-Vol-2-Descoberta-e-Mercado#CAPÍTULO 4 — CASOS DE FRACASSO BRASILEIROS E LIÇÕES|Capítulo 4 (CASOS DE FRACASSO BRASILEIROS E LIÇÕES) (Vol. 2)]] traz sete padrões, abstratos por necessidade. Esse capítulo traz o tecido concreto, como o padrão se manifesta numa empresa real, quais foram os sinais e qual foi a velocidade de degradação.
+Casos em profundidade complementam padrões. O [[IGNICAO-Vol-2-Descoberta-e-Mercado#CAPÍTULO 4 — CASOS DE FRACASSO BRASILEIROS E LIÇÕES|Capítulo 4 (CASOS DE FRACASSO BRASILEIROS E LIÇÕES) (Vol. 2)]] traz sete padrões, abstratos por necessidade. Este capítulo traz o tecido concreto, como o padrão se manifesta numa empresa real, quais foram os sinais e qual foi a velocidade de degradação.
 
 Empresas brasileiras têm contexto único, macro, regulação, capital, cultura. Casos americanos ensinam estratégia. Casos brasileiros ensinam adaptação local. O fundador aprende mais com fracasso detalhado do que com sucesso detalhado. Sucesso é multicausal e difícil de replicar. Fracasso é diagnóstico com padrões emergentes. E a honestidade analítica sobre o ecossistema brasileiro importa, porque celebrar só sucessos cria mitologia que prejudica empreendedores iniciantes.
 
@@ -5455,7 +5455,7 @@ Os doze casos estão agrupados por natureza. Cada caso pode ser lido individualm
 
 ---
 
-## Grupo 1 — COLAPSOS COM PADRÕES CLAROS
+### Grupo 1 — COLAPSOS COM PADRÕES CLAROS
 
 ### Caso 1 — Peixe Urbano e o colapso do modelo daily deals
 
@@ -5621,7 +5621,7 @@ Fraude contábil estruturada por anos: não foi erro, foi prática deliberada de
 
 ---
 
-## Grupo 2 — DIFICULDADES ESTRUTURAIS E APRENDIZADOS
+### Grupo 2 — DIFICULDADES ESTRUTURAIS E APRENDIZADOS
 
 ### Caso 6 — Kekanto e a featurização por plataformas globais
 
@@ -5755,7 +5755,7 @@ Apesar do pivot bem-sucedido para logística em 2013, tratado em [[IGNICAO-Vol-4
 
 ---
 
-## Grupo 3 — VITÓRIAS COM LIÇÕES TRANSFERÍVEIS
+### Grupo 3 — VITÓRIAS COM LIÇÕES TRANSFERÍVEIS
 
 > [!note] Mapa dos padrões — todos os grupos
 > Antes de ler os casos individuais, o mapa abaixo mostra como os doze casos se distribuem pelos sete padrões arquetípicos. Use como guia de navegação rápida.
@@ -5891,7 +5891,7 @@ Bootstrap inicial foi vantagem e limitação: construiu negócio sustentável se
 
 ---
 
-## Grupo 4 — casos 2024-2026 em desenvolvimento
+### Grupo 4 — casos 2024-2026 em desenvolvimento
 
 Esses casos ainda estao se desenvolvendo e merecem post-mortem completo apenas quando o ciclo fechar. Aqui ficam como observacao em curso.
 
@@ -5911,7 +5911,7 @@ Esses casos ainda estao se desenvolvendo e merecem post-mortem completo apenas q
 
 ---
 
-## PADRÕES TRANSVERSAIS NOS 12 CASOS
+### PADRÕES TRANSVERSAIS NOS 12 CASOS
 
 Lendo os casos transversalmente, cinco padrões emergem:
 
@@ -5927,7 +5927,7 @@ Lendo os casos transversalmente, cinco padrões emergem:
 
 ---
 
-## MÉTRICAS E AUTOAVALIAÇÃO
+### MÉTRICAS E AUTOAVALIAÇÃO
 
 Use os 12 casos como lente para sua empresa:
 
@@ -5948,7 +5948,7 @@ Use os 12 casos como lente para sua empresa:
 
 ### Definição de sucesso
 
-Você aplicou esse capítulo bem quando identificou três a cinco casos análogos ao seu contexto, extraiu de cada caso relevante uma lição específica transferível, usou padrões transversais para autoavaliação trimestral e compartilhou casos relevantes com time executivo e board.
+Você aplicou este capítulo bem quando identificou três a cinco casos análogos ao seu contexto, extraiu de cada caso relevante uma lição específica transferível, usou padrões transversais para autoavaliação trimestral e compartilhou casos relevantes com time executivo e board.
 
 ### Armadilhas
 
@@ -5970,16 +5970,16 @@ Você aplicou esse capítulo bem quando identificou três a cinco casos análogo
 ## CAPÍTULO 22 — SECOND-TIME FOUNDER
 
 > [!abstract] Posicao no livro
-> Este apendice trata especificamente do fundador que ja vendeu, fechou ou saiu de empresa anterior. Trilha de leitura adjacente,
+> Este capítulo trata especificamente do fundador que ja vendeu, fechou ou saiu de empresa anterior. Trilha de leitura adjacente,
 >
-> - [[IGNICAO-Vol-2-Descoberta-e-Mercado#CAPÍTULO 4 — CASOS DE FRACASSO BRASILEIROS E LIÇÕES|AI (Vol. 2)]] e [[#CAPÍTULO 21 — POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE|BH]] para padroes que second-time tendem a evitar mas alguns repetem
-> - [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 3 — ARMADILHAS MENTAIS E VIESES|D (Vol. 1)]] e [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 6 — TOMADA DE DECISÃO COMO DISCIPLINA|EJ (Vol. 1)]] para vieses tipicos do second-time (overconfidence, ancoragem na empresa anterior)
-> - [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 2 — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Y (Vol. 1)]] para a dimensao humana do recomeco
+> - [[IGNICAO-Vol-2-Descoberta-e-Mercado#CAPÍTULO 4 — CASOS DE FRACASSO BRASILEIROS E LIÇÕES|Capítulo 4 (CASOS DE FRACASSO BRASILEIROS E LIÇÕES) (Vol. 2)]] e [[#CAPÍTULO 21 — POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE|Capítulo 21 (POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE)]] para padroes que second-time tendem a evitar mas alguns repetem
+> - [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 3 — ARMADILHAS MENTAIS E VIESES|Capítulo 3 (ARMADILHAS MENTAIS E VIESES) (Vol. 1)]] e [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 6 — TOMADA DE DECISÃO COMO DISCIPLINA|Capítulo 6 (TOMADA DE DECISÃO COMO DISCIPLINA) (Vol. 1)]] para vieses tipicos do second-time (overconfidence, ancoragem na empresa anterior)
+> - [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 2 — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Capítulo 2 (SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR) (Vol. 1)]] para a dimensao humana do recomeco
 
 > [!note] Aplicabilidade
 > Fundadores que já tiveram empresa anterior (exit, fechamento, ou aprendizado). Minoria dos leitores. Mas com dinâmica específica.
 
-### O que esse capítulo cobre
+### O que este capítulo cobre
 
 A dinâmica de empreender pela segunda vez. Diferente da primeira porque o fundador tem recursos, rede, cicatrizes, e armadilhas próprias.
 

@@ -1,6 +1,6 @@
 ---
 name: Sugestão de conteúdo
-about: Novo apêndice, caso brasileiro ou seção que deveria existir
+about: Novo capítulo, framework, caso brasileiro ou seção que deveria existir
 title: "[SUGESTÃO] "
 labels: sugestão
 ---
@@ -8,8 +8,8 @@ labels: sugestão
 **O que está faltando**
 (descreva o conteúdo ausente)
 
-**Em qual volume / fase / apêndice deveria entrar?**
-(ex: Vol. 3 — Tração, Fase 11 ou novo apêndice)
+**Em qual volume / fase / capítulo deveria entrar?**
+(ex: Vol. 4 — Tração e PMF, Fase 12 ou novo capítulo)
 
 **Por que é relevante para fundadores brasileiros**
 

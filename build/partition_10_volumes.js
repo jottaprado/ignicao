@@ -704,7 +704,16 @@ function enrichPhaseBody(phaseKey, rawBody) {
 
   let body = rawBody
     .replace(/^## FASE \d+B? — [^\n]+/m, `## ${cfg.newHeading}`)
-    .replace(/^### SÍNTESE DA FASE \d+B?/m, `### SÍNTESE DA FASE ${cfg.newNum}`);
+    .replace(/^### SÍNTESE DA FASE \d+B?/m, `### SÍNTESE DA FASE ${cfg.newNum}`)
+    .replace(/^### O que ess[ea] ap[êe]ndice cobre/gm, '### O que esta fase cobre')
+    .replace(/\best[ea] ap[êe]ndice\b/g, 'esta fase')
+    .replace(/\bEst[ea] ap[êe]ndice\b/g, 'Esta fase')
+    .replace(/\bnest[ea] ap[êe]ndice\b/g, 'nesta fase')
+    .replace(/\bNest[ea] ap[êe]ndice\b/g, 'Nesta fase')
+    .replace(/\bess[ea] ap[êe]ndice\b/g, 'esta fase')
+    .replace(/\bEss[ea] ap[êe]ndice\b/g, 'Esta fase')
+    .replace(/\bdest[ea] ap[êe]ndice\b/g, 'desta fase')
+    .replace(/\bDest[ea] ap[êe]ndice\b/g, 'Desta fase');
 
   // Ajustar blocos de transição herdados da antiga arquitetura de 6 volumes:
   if (phaseKey === 'FASE_2') {
@@ -890,16 +899,46 @@ function buildChapterSection(oldKey, chapNum, rawSection) {
       .replace('### Fase 15, Reinvenção, e Exit', '### Fases 19 e 20 — Reinvenção e Estratégia de Saída (Exit)');
   }
 
+  // Normalizar subtítulos internos que herdaram prefixos de apêndice (FF.1, EE.1, DX.1, FB.1, EP.1)
+  // ou nível H2 (##) dentro de capítulos (FE, BH)
+  if (oldKey === 'FF' || oldKey === 'EE' || oldKey === 'DX') {
+    const h2SubRe = new RegExp(`^## (${oldKey}\\.(\\d+)\\s*[—–-]\\s*(.+))$`, 'gm');
+    body = body.replace(h2SubRe, (_, _fullOld, subNum, subTitle) => {
+      return `### ${chapNum}.${subNum} — ${subTitle.trim()}`;
+    });
+    const h3SubRe = new RegExp(`^### (${oldKey}\\.(\\d+\\.\\d+)\\s*[—–-]\\s*(.+))$`, 'gm');
+    body = body.replace(h3SubRe, (_, _fullOld, subNum, subTitle) => {
+      return `#### ${chapNum}.${subNum} — ${subTitle.trim()}`;
+    });
+  } else if (oldKey === 'FB' || oldKey === 'EP') {
+    const h3SubRe = new RegExp(`^### (${oldKey}\\.(\\d+)\\s*(?:[—–-]\\s*)?(.+))$`, 'gm');
+    body = body.replace(h3SubRe, (_, _fullOld, subNum, subTitle) => {
+      return `### ${chapNum}.${subNum} — ${subTitle.trim()}`;
+    });
+  } else if (oldKey === 'FE' || oldKey === 'BH') {
+    body = body.replace(/^## (?!CAPÍTULO )(.+)$/gm, '### $1');
+  }
+
   // Dentro de capítulos (antigos apêndices), converter autorreferências "este apêndice" -> "este capítulo"
   body = body
-    .replace(/\beste apêndice\b/g, 'este capítulo')
-    .replace(/\bEste apêndice\b/g, 'Este capítulo')
-    .replace(/\bneste apêndice\b/g, 'neste capítulo')
-    .replace(/\bNeste apêndice\b/g, 'Neste capítulo')
-    .replace(/\besse apêndice\b/g, 'esse capítulo')
-    .replace(/\bEsse apêndice\b/g, 'Esse capítulo')
-    .replace(/\bdeste apêndice\b/g, 'deste capítulo')
-    .replace(/\bDeste apêndice\b/g, 'Deste capítulo');
+    .replace(/^### O que ess[ea] ap[êe]ndice cobre/gm, '### O que este capítulo cobre')
+    .replace(/^### Conexão com outros ap[êe]ndices/gm, '### Conexão com outros capítulos')
+    .replace(/^### Relação com outros ap[êe]ndices e fases/gm, '### Relação com outros capítulos e fases')
+    .replace(/\|\s*Tópico\s*\|\s*Ap[êe]ndice\s*\|/g, '| Tópico | Capítulo |')
+    .replace(/\beste ap[êe]ndice\b/g, 'este capítulo')
+    .replace(/\bEste ap[êe]ndice\b/g, 'Este capítulo')
+    .replace(/\bneste ap[êe]ndice\b/g, 'neste capítulo')
+    .replace(/\bNeste ap[êe]ndice\b/g, 'Neste capítulo')
+    .replace(/\besse ap[êe]ndice\b/g, 'este capítulo')
+    .replace(/\bEsse ap[êe]ndice\b/g, 'Este capítulo')
+    .replace(/\bnesse ap[êe]ndice\b/g, 'neste capítulo')
+    .replace(/\bNesse ap[êe]ndice\b/g, 'Neste capítulo')
+    .replace(/\bdeste ap[êe]ndice\b/g, 'deste capítulo')
+    .replace(/\bDeste ap[êe]ndice\b/g, 'Deste capítulo')
+    .replace(/\bdesse ap[êe]ndice\b/g, 'deste capítulo')
+    .replace(/\bDesse ap[êe]ndice\b/g, 'Deste capítulo')
+    .replace(/\bO ap[êe]ndice\b/g, 'Este capítulo')
+    .replace(/\bo ap[êe]ndice\b/g, 'este capítulo');
 
   const extras = CHAPTER_EXTRAS[oldKey];
   if (extras) {
@@ -1835,11 +1874,18 @@ for (const vSpec of VOLUMES_SPEC) {
         const origSec = rawSections.get(item.key);
         let refBody = origSec.body.replace(/^## [^\n]+/m, `## ${item.newHeading}`);
         if (item.key === 'APÊNDICE: ÍNDICE DE FRAMEWORKS') {
-          refBody = refBody.replace(
-            /^## [^\n]+/m,
-            `## ${item.newHeading}\n\n> [!note] Onde encontrar cada framework\n> Na arquitetura autocontida da coleção IGNIÇÃO, todos os 164 frameworks abaixo estão detalhados passo a passo diretamente dentro das Fases e Capítulos dos **Volumes 1 a 9**. Use este índice para localizar rapidamente em qual Fase e Volume cada método é ensinado.`
-          );
+          refBody = refBody
+            .replace(
+              /^## [^\n]+\n+[\s\S]*?(?=\n### Empreendedorismo científico)/m,
+              `## ${item.newHeading}\n\n> [!note] Onde encontrar cada framework\n> Na arquitetura autocontida da coleção IGNIÇÃO, todos os 164 frameworks abaixo estão detalhados passo a passo diretamente dentro das Fases e Capítulos dos **Volumes 1 a 9**. A coluna "Aparece em" aponta diretamente para a Fase ou Capítulo onde o framework é ensinado e aplicado.`
+            )
+            .replace(/,\s*(?:BG|CZ)\s*\|/g, ' |');
         }
+        refBody = refBody
+          .replace(/^> \[!note\] Como usar ess[ea] ap[êe]ndice/gm, '> [!note] Como usar este índice')
+          .replace(/\bfase ou ap[êe]ndice\b/gi, 'fase ou capítulo')
+          .replace(/\bap[êe]ndice ou fase\b/gi, 'capítulo ou fase')
+          .replace(/\bfases, ap[êe]ndices ou seções\b/gi, 'fases, capítulos ou seções');
         tocLines.push(`- [[#${item.newHeading}|${item.newHeading}]]`);
         blockSections.push(refBody);
       }
@@ -1938,39 +1984,56 @@ function updateAliasLabel(alias, targetInfo, currentVolNum) {
   // Remover sufixos antigos "(Vol. X)"
   out = out.replace(/\s*\(Vol\.\s*\d+\)/gi, '').trim();
 
-  // Se o alias era "Apêndice XX..." converter para "Capítulo N..."
-  const mAp = out.match(/^Apêndice\s+([A-Z0-9]{1,3})(?:\s*[—–-]\s*(.*))?$/i);
+  // Se o alias era apenas uma sigla de apêndice (ex: "F", "L", "B", "S", "AB", "EJ")
+  if (/^[A-Z]{1,2}$/.test(out) && oldCodeToChapterInfo.has(out.toUpperCase())) {
+    const chInfo = oldCodeToChapterInfo.get(out.toUpperCase());
+    out = `Capítulo ${chInfo.chapNum} (${chInfo.cleanTitle})`;
+  }
+
+  // Se o alias era "Apêndice XX..." converter para "Capítulo N..." ou para o item específico
+  const mAp = out.match(/^Ap[êe]ndice\s+([A-Z0-9]{1,3})(?:\s*(?:[—–-]|,|\()\s*(.*))?$/i);
   if (mAp) {
     const code = mAp[1].toUpperCase();
+    const rest = (mAp[2] || '').replace(/\)$/, '').trim();
     const chInfo = oldCodeToChapterInfo.get(code);
     if (chInfo) {
-      out = mAp[2]
-        ? `Capítulo ${chInfo.chapNum} — ${mAp[2].trim()}`
+      out = rest
+        ? `Capítulo ${chInfo.chapNum} — ${rest}`
         : `Capítulo ${chInfo.chapNum} (${chInfo.cleanTitle})`;
     } else if (code === 'BG') {
-      out = 'Índice Geral de Frameworks';
+      out = rest || 'Índice Geral de Frameworks';
     } else if (code === 'CZ') {
-      out = 'Canvases Visuais da Fase';
+      out = rest || 'Canvases Visuais da Fase';
     } else if (code === 'A') {
-      out = 'Templates Operacionais da Fase';
+      out = rest || 'Templates Operacionais da Fase';
     } else if (code === 'C') {
-      out = 'Catálogo de Métricas e Benchmarks';
+      out = rest || 'Catálogo de Métricas e Benchmarks';
     } else if (code === 'E') {
-      out = 'Bibliografia e Leituras Recomendadas';
+      out = rest || 'Bibliografia e Leituras Recomendadas';
     }
   }
 
-  // Se o alias era um código BG.X.Y, CZ.N ou A.N
-  out = out.replace(/\b(BG\.\d+\.\d+|CZ\.\d+|A\.\d+)\b/g, (code) => {
-    const loc = embeddedItemLocation.get(code);
-    if (!loc) return code;
-    const prefix = code.startsWith('BG.')
-      ? 'Framework: '
-      : code.startsWith('CZ.')
-        ? 'Canvas: '
-        : 'Template: ';
-    return `${prefix}${loc.title}`;
-  });
+  // Se o alias tinha formato "Nome (CZ.N)" ou "Template A.N (Nome)" ou continha código BG.X.Y / CZ.N / A.N
+  const mCodeInAlias = out.match(/\b(BG\.\d+\.\d+|CZ\.\d+|A\.\d+)\b/i);
+  if (mCodeInAlias) {
+    const uCode = mCodeInAlias[1].toUpperCase();
+    const loc = embeddedItemLocation.get(uCode);
+    if (loc) {
+      const prefix = uCode.startsWith('BG.')
+        ? 'Framework: '
+        : uCode.startsWith('CZ.')
+          ? 'Canvas: '
+          : 'Template: ';
+      out = `${prefix}${loc.title}`;
+    }
+  }
+
+  // Limpar eventuais duplicações "Template Template:" ou "Canvas Canvas:"
+  out = out
+    .replace(/^(Template:\s*)+/i, 'Template: ')
+    .replace(/^Template\s+Template:\s*/i, 'Template: ')
+    .replace(/^(Canvas:\s*)+/i, 'Canvas: ')
+    .replace(/^(Framework:\s*)+/i, 'Framework: ');
 
   // Se o alias mencionava "Fase X", atualizar número quando era link para fase antiga
   out = out.replace(/\bFase\s+(2B|2b|\d+)\b/g, (full, pNum) => {
@@ -2008,7 +2071,7 @@ function normalizeProseSegment(seg, currentVolNum) {
 
   // 2) Callouts e menções a "Apêndice CZ — Nome (CZ.N)" ou "Apêndice CZ"
   s = s.replace(
-    /\bApêndice\s+CZ\s*[—–-]\s*([^\n(]+?)(?:\s*\((CZ\.\d+)\))?(?=$|\s|[.,;:])/gi,
+    /\bAp[êe]ndice\s+CZ\s*[—–-]\s*([^\n(]+?)(?:\s*\((CZ\.\d+)\))?(?=$|\s|[.,;:])/gi,
     (_, name, czCode) => {
       if (czCode && embeddedItemLocation.has(czCode.toUpperCase())) {
         return `Canvas Visual — ${formatEmbeddedRef(czCode.toUpperCase(), currentVolNum)}`;
@@ -2017,24 +2080,24 @@ function normalizeProseSegment(seg, currentVolNum) {
     }
   );
   s = s
-    .replace(/\bApêndice\s+A\s*[—–-]\s*/gi, 'Templates Operacionais — ')
-    .replace(/\bdo Apêndice CZ\b/gi, 'da seção de Canvases Visuais')
-    .replace(/\bno Apêndice CZ\b/gi, 'na seção de Canvases Visuais')
-    .replace(/\bapêndice CZ\b/gi, 'seção de Canvases Visuais')
+    .replace(/\bAp[êe]ndice\s+A\s*[—–-]\s*/gi, 'Templates Operacionais — ')
+    .replace(/\bdo Ap[êe]ndice CZ\b/gi, 'da seção de Canvases Visuais')
+    .replace(/\bno Ap[êe]ndice CZ\b/gi, 'na seção de Canvases Visuais')
+    .replace(/\bap[êe]ndice CZ\b/gi, 'seção de Canvases Visuais')
     .replace(/\bdo Ferramentário BG\b/gi, 'dos Manuais de Frameworks das Fases')
-    .replace(/\bdo Apêndice BG\b/gi, 'dos Manuais de Frameworks das Fases')
-    .replace(/\bno Apêndice BG\b/gi, 'nos Manuais de Frameworks das Fases')
-    .replace(/\bapêndice BG\b/gi, 'Manual de Frameworks da Fase')
-    .replace(/\bdo Apêndice A\b/gi, 'da seção de Templates Operacionais')
-    .replace(/\bno Apêndice A\b/gi, 'na seção de Templates Operacionais')
-    .replace(/\bdo Apêndice C\b/gi, 'da seção de Métricas e Benchmarks')
-    .replace(/\bno Apêndice C\b/gi, 'na seção de Métricas e Benchmarks')
-    .replace(/\bdo Apêndice E\b/gi, 'da seção de Leituras Recomendadas')
-    .replace(/\bno Apêndice E\b/gi, 'na seção de Leituras Recomendadas');
+    .replace(/\bdo Ap[êe]ndice BG\b/gi, 'dos Manuais de Frameworks das Fases')
+    .replace(/\bno Ap[êe]ndice BG\b/gi, 'nos Manuais de Frameworks das Fases')
+    .replace(/\bap[êe]ndice BG\b/gi, 'Manual de Frameworks da Fase')
+    .replace(/\bdo Ap[êe]ndice A\b/gi, 'da seção de Templates Operacionais')
+    .replace(/\bno Ap[êe]ndice A\b/gi, 'na seção de Templates Operacionais')
+    .replace(/\bdo Ap[êe]ndice C\b/gi, 'da seção de Métricas e Benchmarks')
+    .replace(/\bno Ap[êe]ndice C\b/gi, 'na seção de Métricas e Benchmarks')
+    .replace(/\bdo Ap[êe]ndice E\b/gi, 'da seção de Leituras Recomendadas')
+    .replace(/\bno Ap[êe]ndice E\b/gi, 'na seção de Leituras Recomendadas');
 
-  // 3) Menções a "Apêndice XX — Título" ou "Apêndice XX" (onde XX é capítulo, ou K -> FG)
+  // 3) Menções a "Apêndice XX — Título" ou "Apêndice XX" (com ou sem acento, onde XX é capítulo, ou K -> FG)
   s = s.replace(
-    /\bApêndice\s+([A-Z]{1,2})(?:\s*([—–-])\s*([^\n:.,;)]+))?/g,
+    /\bAp[êe]ndice\s+([A-Z]{1,2})(?:\s*([—–-])\s*([^\n:.,;)]+))?/g,
     (full, rawCode, sep, restTitle) => {
       const code = rawCode.toUpperCase() === 'K' ? 'FG' : rawCode.toUpperCase();
       const ch = oldCodeToChapterInfo.get(code);
@@ -2046,6 +2109,27 @@ function normalizeProseSegment(seg, currentVolNum) {
       return `Capítulo ${ch.chapNum}${volSuffix} (${ch.cleanTitle})`;
     }
   );
+
+  // 3b) Expressões genéricas de apêndice(s) no corpo do texto
+  s = s
+    .replace(/\bAp[êe]ndices verticais\b/g, 'Capítulos verticais')
+    .replace(/\bap[êe]ndices verticais\b/g, 'capítulos verticais')
+    .replace(/\bAp[êe]ndices de\b/g, 'Capítulos de')
+    .replace(/\bap[êe]ndices de\b/g, 'capítulos de')
+    .replace(/\boutros ap[êe]ndices\b/g, 'outros capítulos')
+    .replace(/\bvários ap[êe]ndices\b/g, 'vários capítulos')
+    .replace(/\bvarios ap[êe]ndices\b/g, 'vários capítulos')
+    .replace(/\bsete ap[êe]ndices\b/g, 'sete capítulos')
+    .replace(/\bquatro ap[êe]ndices\b/g, 'quatro capítulos')
+    .replace(/\b45 ap[êe]ndices\b/g, '45 capítulos')
+    .replace(/\bOs ap[êe]ndices\b/g, 'Os capítulos')
+    .replace(/\bos ap[êe]ndices\b/g, 'os capítulos')
+    .replace(/\beste apendice\b/g, 'este capítulo')
+    .replace(/\bEste apendice\b/g, 'Este capítulo')
+    .replace(/\bneste apendice\b/g, 'neste capítulo')
+    .replace(/\bNeste apendice\b/g, 'Neste capítulo')
+    .replace(/\besse apendice\b/g, 'este capítulo')
+    .replace(/\bEsse apendice\b/g, 'Este capítulo');
 
   // 4) Menções a BG.X.Y:
   // 4a) "(Nome, BG.X.Y)" -> "(Nome)"
@@ -2127,9 +2211,37 @@ function normalizeLineOutsideWikilinks(line, currentVolNum) {
     .join('');
 }
 
-function resolveAnchorTarget(rawAnchor, currentVolNum) {
+function resolveAnchorTarget(rawAnchor, rawAlias, currentVolNum) {
   const cleanAnchor = rawAnchor.trim().replace(/^#/, '');
   const s = slugify(cleanAnchor);
+
+  // 0) Se o link apontava genericamente para APÊNDICE CZ, APÊNDICE A ou APÊNDICE BG,
+  //    mas o alias especifica o código exato (ex: CZ.10, A.14, BG.4.1), resolver direto para o item!
+  if (
+    /^apendice-(?:cz|a|bg)\b/.test(s) ||
+    s === slugify(rawSections.get('CZ').heading) ||
+    s === slugify(rawSections.get('A').heading) ||
+    s === slugify(rawSections.get('BG').heading)
+  ) {
+    const mAliasCode = (rawAlias || '').match(/\b(BG\.\d+\.\d+|CZ\.\d+|A\.\d+)\b/i);
+    if (mAliasCode && embeddedItemLocation.has(mAliasCode[1].toUpperCase())) {
+      const loc = embeddedItemLocation.get(mAliasCode[1].toUpperCase());
+      return { volNum: loc.volNum, volSlug: loc.volSlug, heading: loc.heading };
+    }
+    // Se for referência genérica a Canvases/Templates/Frameworks e o volume atual já tiver essa seção, manter no volume atual!
+    const localMap = perVolHeadingIndex.get(currentVolNum);
+    if (s.includes('canvases') || s === 'apendice-cz') {
+      const h = 'CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)';
+      if (localMap && localMap.has(slugify(h))) {
+        return { volNum: currentVolNum, volSlug: VOLUMES_SPEC[currentVolNum - 1].slug, heading: h };
+      }
+    } else if (s.includes('templates') || s === 'apendice-a') {
+      const h = 'TEMPLATES OPERACIONAIS E CASOS PREENCHIDOS DESTA FASE';
+      if (localMap && localMap.has(slugify(h))) {
+        return { volNum: currentVolNum, volSlug: VOLUMES_SPEC[currentVolNum - 1].slug, heading: h };
+      }
+    }
+  }
 
   // 1) Se é um código ou âncora mapeada em oldAnchorToNew:
   if (oldAnchorToNew.has(s)) {
@@ -2227,7 +2339,7 @@ for (const [volNum, { spec, md }] of rawVolumeDocs.entries()) {
       const hashIdx = rawTarget.indexOf('#');
       const anchorPart = hashIdx >= 0 ? rawTarget.slice(hashIdx + 1) : rawTarget;
 
-      const resolved = resolveAnchorTarget(anchorPart, volNum);
+      const resolved = resolveAnchorTarget(anchorPart, rawAlias, volNum);
       if (!resolved) {
         unresolvedCount += 1;
         console.warn(`[WARN Vol.${volNum}] Wikilink não resolvido: ${full}`);

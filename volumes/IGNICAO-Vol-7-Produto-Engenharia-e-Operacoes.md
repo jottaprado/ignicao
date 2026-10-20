@@ -1988,7 +1988,7 @@ As Fases 2 a 11 cobrem produto até o PMF: descoberta, validação, MVP, encaixe
 
 Este capítulo cobre como Product funciona em empresa pós-PMF escalando para cinquenta a duzentas pessoas, onde a disciplina que levou até aqui já não basta para o que vem a seguir.
 
-### O que esse capítulo cobre
+### O que este capítulo cobre
 
 Cinco territórios em Product pós-PMF. Primeiro, descoberta contínua: pesquisa de usuário não para em PMF, evolui de exploratória para iterativa. Segundo, priorização com framework estruturado, não opinião do CEO ou HIPPO (Highest Paid Person's Opinion, opinião da pessoa mais bem paga). Terceiro, roadmap como comunicação de aposta, não contrato de entrega. Quarto, Design Systems (sistemas de design), infraestrutura de UI que permite velocity (velocidade de entrega) em escala. Quinto, colaboração entre Product e Engineering: ritos, specs (especificações), definition of ready e definition of done (critérios de pronto para começar e pronto para entregar).
 
@@ -2228,7 +2228,7 @@ Produto em escala está no padrão quando todos os itens abaixo estão cumpridos
 
 ## CAPÍTULO 2 — MANAGEMENT PARA O FUNDADOR TÉCNICO
 
-Este apendice especializa o [[#CAPÍTULO 4 — ENGINEERING MANAGEMENT: GESTÃO DO TIME TÉCNICO E DEVELOPER EXPERIENCE|Capítulo 4 (ENGINEERING MANAGEMENT: GESTÃO DO TIME TÉCNICO E DEVELOPER EXPERIENCE)]] no tema da transicao do fundador tecnico para gestao.
+Este capítulo especializa o [[#CAPÍTULO 4 — ENGINEERING MANAGEMENT: GESTÃO DO TIME TÉCNICO E DEVELOPER EXPERIENCE|Capítulo 4 (ENGINEERING MANAGEMENT: GESTÃO DO TIME TÉCNICO E DEVELOPER EXPERIENCE)]] no tema da transicao do fundador tecnico para gestao.
 
 Há um momento previsível na vida de todo fundador técnico, aquele em que ele percebe que parou de escrever código produtivo há seis semanas e que o time de engenharia, que era de três pessoas, agora tem oito. Os problemas que chegam até ele não são mais bugs nem decisões de arquitetura. São conflitos entre dois sêniors, a dev que entregou abaixo do esperado no último sprint (ciclo curto de entrega), o CTO (Chief Technology Officer, diretor de tecnologia) da empresa investidora querendo saber por que o time não está mais rápido.
 
@@ -2631,7 +2631,7 @@ Você ainda aprecia elegância técnica. Mas quando decide entre dois caminhos, 
 
 **Ver também:**
 
-[[#CAPÍTULO 4 — ENGINEERING MANAGEMENT: GESTÃO DO TIME TÉCNICO E DEVELOPER EXPERIENCE|Capítulo 4 (ENGINEERING MANAGEMENT: GESTÃO DO TIME TÉCNICO E DEVELOPER EXPERIENCE)]], Engineering management como raiz. [[IGNICAO-Vol-1-Ideacao#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvases Visuais da Fase (Vol. 1)]], Canvases e Mapas Visuais. [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9 — CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO|Capítulo 9 (CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO) (Vol. 9)]], Crise e Continuidade. [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 16 — CULTURA COMO DISCIPLINA|Capítulo 16 (CULTURA COMO DISCIPLINA) (Vol. 6)]], cultura organizacional. [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 14 — SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA|Capítulo 14 (SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA) (Vol. 8)]], Segurança da Informação. [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 12 — EXECUTIVE HIRING: CONTRATAR LÍDERES SÊNIOR E C-LEVEL|Capítulo 12 (EXECUTIVE HIRING: CONTRATAR LÍDERES SÊNIOR E C-LEVEL) (Vol. 6)]], Executive hiring (CTO/VP Eng).
+[[#CAPÍTULO 4 — ENGINEERING MANAGEMENT: GESTÃO DO TIME TÉCNICO E DEVELOPER EXPERIENCE|Capítulo 4 (ENGINEERING MANAGEMENT: GESTÃO DO TIME TÉCNICO E DEVELOPER EXPERIENCE)]], Engineering management como raiz. [[#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvases Visuais da Fase]], Canvases e Mapas Visuais. [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9 — CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO|Capítulo 9 (CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO) (Vol. 9)]], Crise e Continuidade. [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 16 — CULTURA COMO DISCIPLINA|Capítulo 16 (CULTURA COMO DISCIPLINA) (Vol. 6)]], cultura organizacional. [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 14 — SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA|Capítulo 14 (SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA) (Vol. 8)]], Segurança da Informação. [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 12 — EXECUTIVE HIRING: CONTRATAR LÍDERES SÊNIOR E C-LEVEL|Capítulo 12 (EXECUTIVE HIRING: CONTRATAR LÍDERES SÊNIOR E C-LEVEL) (Vol. 6)]], Executive hiring (CTO/VP Eng).
 
 ---
 
@@ -2880,7 +2880,7 @@ Regulatório. eSocial, e CLT, traz obrigações pesadas. PJ com exclusividade é
 
 ## CAPÍTULO 4 — ENGINEERING MANAGEMENT: GESTÃO DO TIME TÉCNICO E DEVELOPER EXPERIENCE
 
-Para a metodologia geral de bandas salariais e benchmarks brasileiros, ver [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 14 — COMPENSAÇÃO E BENEFÍCIOS NO BRASIL|Capítulo 14 (COMPENSAÇÃO E BENEFÍCIOS NO BRASIL) (Vol. 6)]]. As faixas tratadas neste apendice sao especializacao para engineering.
+Para a metodologia geral de bandas salariais e benchmarks brasileiros, ver [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 14 — COMPENSAÇÃO E BENEFÍCIOS NO BRASIL|Capítulo 14 (COMPENSAÇÃO E BENEFÍCIOS NO BRASIL) (Vol. 6)]]. As faixas tratadas neste capítulo sao especializacao para engineering.
 
 Engenharia (de software) é a função organizacional que escala de forma mais diferente das outras. As regras de um time de vendas de 20 pessoas não funcionam num time de engenharia de 20 pessoas. As ferramentas de performance management (gestão de desempenho) de marketing não cabem em avaliação técnica. A estrutura hierárquica que dá certo em operações quebra em produto de software. Fundadores não-técnicos costumam aplicar ao time de engenharia o que aprenderam em outras áreas. O resultado é saída de engenheiros bons, débito técnico crescente e time cada vez menos produtivo a cada contratação.
 
@@ -3035,7 +3035,7 @@ Developer Experience (DX, experiência do desenvolvedor) é a disciplina de cons
 
 **DX interno:** a experiência dos engenheiros da sua empresa em trabalhar no seu próprio codebase (base de código). Quanto tempo leva para um novo dev rodar o projeto pela primeira vez? Testes passam rápido? Build (compilação) é rápido? Deploy (publicação em produção) é simples? DX interno ruim é uma das principais fontes de queda de produtividade em empresas de engenharia em escala.
 
-Esse capítulo foca principalmente em DX externo, mas os princípios se aplicam nos dois.
+Este capítulo foca principalmente em DX externo, mas os princípios se aplicam nos dois.
 
 #### Por que DX é decisivo em produtos para devs
 
@@ -3182,12 +3182,12 @@ DX externo como afterthought. Em produto para dev, documentação é o produto. 
 
 ## CAPÍTULO 5 — TECHNICAL DEBT COMO DISCIPLINA GERENCIADA
 
-Este apendice especializa o [[#CAPÍTULO 4 — ENGINEERING MANAGEMENT: GESTÃO DO TIME TÉCNICO E DEVELOPER EXPERIENCE|Capítulo 4 (ENGINEERING MANAGEMENT: GESTÃO DO TIME TÉCNICO E DEVELOPER EXPERIENCE)]] no tema de debt.
+Este capítulo especializa o [[#CAPÍTULO 4 — ENGINEERING MANAGEMENT: GESTÃO DO TIME TÉCNICO E DEVELOPER EXPERIENCE|Capítulo 4 (ENGINEERING MANAGEMENT: GESTÃO DO TIME TÉCNICO E DEVELOPER EXPERIENCE)]] no tema de debt.
 
 > [!note] Aplicabilidade
 > Empresas pós-Série A, com time de engenharia de dez ou mais pessoas.
 
-### O que esse capítulo cobre
+### O que este capítulo cobre
 
 Technical debt (dívida técnica) é trabalho de engenharia acumulado que, deixado em aberto, aumenta o custo de mudanças futuras. A analogia útil são juros compostos negativos em codebase (base de código).
 
@@ -3274,7 +3274,7 @@ Regular refactoring. Pequenos pagamentos contínuos.
 
 ## CAPÍTULO 6 — IA NA ENGENHARIA INTERNA: COPILOT, AGENTES E PRODUTIVIDADE DE DEV
 
-Este apendice especializa o [[#CAPÍTULO 4 — ENGINEERING MANAGEMENT: GESTÃO DO TIME TÉCNICO E DEVELOPER EXPERIENCE|Capítulo 4 (ENGINEERING MANAGEMENT: GESTÃO DO TIME TÉCNICO E DEVELOPER EXPERIENCE)]] no tema de IA na engenharia.
+Este capítulo especializa o [[#CAPÍTULO 4 — ENGINEERING MANAGEMENT: GESTÃO DO TIME TÉCNICO E DEVELOPER EXPERIENCE|Capítulo 4 (ENGINEERING MANAGEMENT: GESTÃO DO TIME TÉCNICO E DEVELOPER EXPERIENCE)]] no tema de IA na engenharia.
 
 ### O QUE É
 
@@ -3501,7 +3501,7 @@ Time de engenharia maduro em uso de IA quando todos os itens abaixo estão cumpr
 - [ ] Adaptação de entrevistas de contratação para permitir e avaliar uso de IA, mantendo fundamentos de engenharia como essenciais.
 
 > [!note] Nota de validade crítica
-> Esse capítulo descreve o estado da arte em abril de 2026. O espaço evolui em trimestres. Ferramentas, modelos, capacidades, e práticas recomendadas, mudam rapidamente. Revisar esse capítulo a cada seis a doze meses.
+> Este capítulo descreve o estado da arte em abril de 2026. O espaço evolui em trimestres. Ferramentas, modelos, capacidades, e práticas recomendadas, mudam rapidamente. Revisar este capítulo a cada seis a doze meses.
 
 ### Ver também
 
@@ -3895,7 +3895,7 @@ CUSTOS E QUALIDADE
 **Ver também:**
 
 - [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 6 — HARDWARE E DEEP TECH: CONSTRUIR NEGÓCIO COM FABRICAÇÃO, IP E HORIZONTES LONGOS|Capítulo 6 — Cultura e Gestão de Pessoas (Vol. 10)]] — como introduzir ferramentas de IA sem gerar resistência no time
-- [[IGNICAO-Vol-1-Ideacao#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvases Visuais da Fase (Vol. 1)]] — ferramentas para mapear workflows antes de automatizá-los
+- [[#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvases e Mapas Visuais]] — ferramentas para mapear workflows antes de automatizá-los
 - [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 4 — DESCOBERTA DO PROBLEMA|Fase 4 — Tração Inicial (Vol. 2)]] — quando AI Ops começa a fazer sentido operacional
 - [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 5 — PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY)|Fase 5 — Crescimento (Vol. 2)]] — como escalar operações com IA sem perder qualidade
 - [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 16 — PLANEJAMENTO FINANCEIRO E ORÇAMENTO|Capítulo 16 — Planejamento Financeiro e Orçamento (Vol. 5)]] — como tratar custo de IA no P&L e no planejamento financeiro
@@ -3927,62 +3927,62 @@ Conforme a empresa cresce, a estrutura organizacional dita a arquitetura do prod
 
 ### Mapa do ciclo de talento (talent lifecycle) na Fatia People
 
-O fundador-leitor que tenta montar o ciclo completo de gestao de pessoas precisa atravessar varios apendices distribuidos pelo livro. Este mapa orienta a sequencia. A Fatia People reune 26 apendices organizados pelos estagios do ciclo de talento.
+O fundador-leitor que tenta montar o ciclo completo de gestao de pessoas precisa atravessar vários capítulos distribuidos pelo livro. Este mapa orienta a sequencia. A Fatia People reune 26 apendices organizados pelos estagios do ciclo de talento.
 
 **Atrair e contratar**
 
-- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 12 — EXECUTIVE HIRING: CONTRATAR LÍDERES SÊNIOR E C-LEVEL|BN (Vol. 6)]], executive hiring (C-level)
-- [[#CAPÍTULO 3 — RECRUTAMENTO TÉCNICO EM PROFUNDIDADE|CO]], recrutamento tecnico
+- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 12 — EXECUTIVE HIRING: CONTRATAR LÍDERES SÊNIOR E C-LEVEL|Capítulo 12 (EXECUTIVE HIRING: CONTRATAR LÍDERES SÊNIOR E C-LEVEL) (Vol. 6)]], executive hiring (C-level)
+- [[#CAPÍTULO 3 — RECRUTAMENTO TÉCNICO EM PROFUNDIDADE|Capítulo 3 (RECRUTAMENTO TÉCNICO EM PROFUNDIDADE)]], recrutamento tecnico
 
 **Desenhar a organizacao**
 
-- FB (este apendice), design organizacional
-- [[#CAPÍTULO 9 — GESTÃO DO CONHECIMENTO|FC]], gestao do conhecimento
-- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 19 — REMOTE, HYBRID E DISTRIBUÍDO COMO DISCIPLINA|AG (Vol. 6)]], remoto e hibrido
+- FB (este capítulo), design organizacional
+- [[#CAPÍTULO 9 — GESTÃO DO CONHECIMENTO|Capítulo 9 (GESTÃO DO CONHECIMENTO)]], gestao do conhecimento
+- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 19 — REMOTE, HYBRID E DISTRIBUÍDO COMO DISCIPLINA|Capítulo 19 (REMOTE, HYBRID E DISTRIBUÍDO COMO DISCIPLINA) (Vol. 6)]], remoto e hibrido
 
 **Pagar e medir**
 
-- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 14 — COMPENSAÇÃO E BENEFÍCIOS NO BRASIL|ED (Vol. 6)]], compensacao (fonte canonica de bandas)
-- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 15 — STOCK OPTIONS E ESOP NO BRASIL|DB (Vol. 6)]], stock options e ESOP
-- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 13 — PERFORMANCE REVIEWS ESTRUTURADOS: CICLO, CALIBRAÇÃO E CONEXÃO COM COMPENSAÇÃO|BZ (Vol. 6)]], performance reviews
+- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 14 — COMPENSAÇÃO E BENEFÍCIOS NO BRASIL|Capítulo 14 (COMPENSAÇÃO E BENEFÍCIOS NO BRASIL) (Vol. 6)]], compensacao (fonte canonica de bandas)
+- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 15 — STOCK OPTIONS E ESOP NO BRASIL|Capítulo 15 (STOCK OPTIONS E ESOP NO BRASIL) (Vol. 6)]], stock options e ESOP
+- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 13 — PERFORMANCE REVIEWS ESTRUTURADOS: CICLO, CALIBRAÇÃO E CONEXÃO COM COMPENSAÇÃO|Capítulo 13 (PERFORMANCE REVIEWS ESTRUTURADOS: CICLO, CALIBRAÇÃO E CONEXÃO COM COMPENSAÇÃO) (Vol. 6)]], performance reviews
 
 **Cultura e DEI**
 
-- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 16 — CULTURA COMO DISCIPLINA|AP (Vol. 6)]], cultura como disciplina
-- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 18 — DIVERSIDADE, EQUIDADE E INCLUSÃO (DEI) EM STARTUP BRASILEIRA|BU (Vol. 6)]], DEI
+- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 16 — CULTURA COMO DISCIPLINA|Capítulo 16 (CULTURA COMO DISCIPLINA) (Vol. 6)]], cultura como disciplina
+- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 18 — DIVERSIDADE, EQUIDADE E INCLUSÃO (DEI) EM STARTUP BRASILEIRA|Capítulo 18 (DIVERSIDADE, EQUIDADE E INCLUSÃO (DEI) EM STARTUP BRASILEIRA) (Vol. 6)]], DEI
 
 **Engineering management**
 
-- [[#CAPÍTULO 4 — ENGINEERING MANAGEMENT: GESTÃO DO TIME TÉCNICO E DEVELOPER EXPERIENCE|CR]], engineering management (raiz)
-- [[#CAPÍTULO 5 — TECHNICAL DEBT COMO DISCIPLINA GERENCIADA|BC]], debt
-- [[#CAPÍTULO 6 — IA NA ENGENHARIA INTERNA: COPILOT, AGENTES E PRODUTIVIDADE DE DEV|CH]], IA na engenharia
-- [[#CAPÍTULO 2 — MANAGEMENT PARA O FUNDADOR TÉCNICO|DW]], a transicao do fundador tecnico
+- [[#CAPÍTULO 4 — ENGINEERING MANAGEMENT: GESTÃO DO TIME TÉCNICO E DEVELOPER EXPERIENCE|Capítulo 4 (ENGINEERING MANAGEMENT: GESTÃO DO TIME TÉCNICO E DEVELOPER EXPERIENCE)]], engineering management (raiz)
+- [[#CAPÍTULO 5 — TECHNICAL DEBT COMO DISCIPLINA GERENCIADA|Capítulo 5 (TECHNICAL DEBT COMO DISCIPLINA GERENCIADA)]], debt
+- [[#CAPÍTULO 6 — IA NA ENGENHARIA INTERNA: COPILOT, AGENTES E PRODUTIVIDADE DE DEV|Capítulo 6 (IA NA ENGENHARIA INTERNA: COPILOT, AGENTES E PRODUTIVIDADE DE DEV)]], IA na engenharia
+- [[#CAPÍTULO 2 — MANAGEMENT PARA O FUNDADOR TÉCNICO|Capítulo 2 (MANAGEMENT PARA O FUNDADOR TÉCNICO)]], a transicao do fundador tecnico
 
 **Founder humano**
 
-- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 10 — FOUNDER MODE, DELEGAÇÃO E QUANDO PARAR DE FAZER|R (Vol. 6)]], founder mode e delegacao
-- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 11 — GESTÃO DE TEMPO DO FUNDADOR E OPERATING CADENCE|BQ (Vol. 6)]], tempo e cadence
-- [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 1 — DINHEIRO PESSOAL DO FUNDADOR|AJ (Vol. 1)]], dinheiro pessoal
-- [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 2 — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Y (Vol. 1)]], saude mental e cofounders
+- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 10 — FOUNDER MODE, DELEGAÇÃO E QUANDO PARAR DE FAZER|Capítulo 10 (FOUNDER MODE, DELEGAÇÃO E QUANDO PARAR DE FAZER) (Vol. 6)]], founder mode e delegacao
+- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 11 — GESTÃO DE TEMPO DO FUNDADOR E OPERATING CADENCE|Capítulo 11 (GESTÃO DE TEMPO DO FUNDADOR E OPERATING CADENCE) (Vol. 6)]], tempo e cadence
+- [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 1 — DINHEIRO PESSOAL DO FUNDADOR|Capítulo 1 (DINHEIRO PESSOAL DO FUNDADOR) (Vol. 1)]], dinheiro pessoal
+- [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 2 — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Capítulo 2 (SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR) (Vol. 1)]], saude mental e cofounders
 
-**Comunicacao** (sete apendices, com mapa de delimitacao proprio em cada um)
+**Comunicacao** (sete capítulos, com mapa de delimitacao proprio em cada um)
 
-- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 8 — COMUNICAÇÃO PÚBLICA DO FUNDADOR: NARRATIVA, IMPRENSA E PORTA-VOZ|BM (Vol. 6)]], publica
-- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 9 — MARCA PESSOAL DO FUNDADOR: DISTRIBUIÇÃO, AUTORIDADE E CUSTO DE REPUTAÇÃO|CY (Vol. 6)]], marca pessoal
-- [[#CAPÍTULO 10 — COMUNICAÇÃO INTERNA|DZ]], interna
-- [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 8 — COMUNICAÇÃO ESCRITA PARA NEGÓCIOS|EW (Vol. 1)]], escrita
-- [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 9 — APRESENTAÇÃO E FALA EM PÚBLICO|EX (Vol. 1)]], fala em publico
-- [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 7 — INFLUÊNCIA E PERSUASÃO SEM AUTORIDADE FORMAL|EK (Vol. 1)]], persuasao
-- [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 10 — COMUNICAÇÃO EM CRISE|EV (Vol. 9)]], crise
+- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 8 — COMUNICAÇÃO PÚBLICA DO FUNDADOR: NARRATIVA, IMPRENSA E PORTA-VOZ|Capítulo 8 (COMUNICAÇÃO PÚBLICA DO FUNDADOR: NARRATIVA, IMPRENSA E PORTA-VOZ) (Vol. 6)]], publica
+- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 9 — MARCA PESSOAL DO FUNDADOR: DISTRIBUIÇÃO, AUTORIDADE E CUSTO DE REPUTAÇÃO|Capítulo 9 (MARCA PESSOAL DO FUNDADOR: DISTRIBUIÇÃO, AUTORIDADE E CUSTO DE REPUTAÇÃO) (Vol. 6)]], marca pessoal
+- [[#CAPÍTULO 10 — COMUNICAÇÃO INTERNA|Capítulo 10 (COMUNICAÇÃO INTERNA)]], interna
+- [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 8 — COMUNICAÇÃO ESCRITA PARA NEGÓCIOS|Capítulo 8 (COMUNICAÇÃO ESCRITA PARA NEGÓCIOS) (Vol. 1)]], escrita
+- [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 9 — APRESENTAÇÃO E FALA EM PÚBLICO|Capítulo 9 (APRESENTAÇÃO E FALA EM PÚBLICO) (Vol. 1)]], fala em publico
+- [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 7 — INFLUÊNCIA E PERSUASÃO SEM AUTORIDADE FORMAL|Capítulo 7 (INFLUÊNCIA E PERSUASÃO SEM AUTORIDADE FORMAL) (Vol. 1)]], persuasao
+- [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 10 — COMUNICAÇÃO EM CRISE|Capítulo 10 (COMUNICAÇÃO EM CRISE) (Vol. 9)]], crise
 
 **Saida**
 
-- [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 11 — LAYOFFS E DOWNSIZING: COMO DEMITIR EM ESCALA SEM DESTRUIR A EMPRESA|BV (Vol. 9)]], layoffs
-- [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 20 — RETENÇÃO DE TALENTOS APÓS M&A: O QUE MUDA E O QUE SE PERDE|DI (Vol. 9)]], retencao pos M&A
+- [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 11 — LAYOFFS E DOWNSIZING: COMO DEMITIR EM ESCALA SEM DESTRUIR A EMPRESA|Capítulo 11 (LAYOFFS E DOWNSIZING: COMO DEMITIR EM ESCALA SEM DESTRUIR A EMPRESA) (Vol. 9)]], layoffs
+- [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 20 — RETENÇÃO DE TALENTOS APÓS M&A: O QUE MUDA E O QUE SE PERDE|Capítulo 20 (RETENÇÃO DE TALENTOS APÓS M&A: O QUE MUDA E O QUE SE PERDE) (Vol. 9)]], retencao pos M&A
 
 ---
 
-### FB.1 Lei de Conway aplicada a startups
+### 8.1 — Lei de Conway aplicada a startups
 
 Em 1967, o programador Melvin Conway publicou uma observação que ficou sendo citada para sempre: "As organizações que projetam sistemas são constrangidas a produzir sistemas cujos designs são cópias das estruturas de comunicação dessas organizações."
 
@@ -4005,7 +4005,7 @@ A Lei de Conway não determina que estrutura criar. Ela determina que você prec
 
 ---
 
-### FB.2 Modelos de estrutura
+### 8.2 — Modelos de estrutura
 
 Existem três arquétipos de estrutura organizacional relevantes para startups. Eles não são estágios evolutivos lineares — são escolhas com trade-offs.
 
@@ -4050,7 +4050,7 @@ A regra prática: mude de modelo quando o custo de coordenação na estrutura at
 
 ---
 
-### FB.3 Spans and layers
+### 8.3 — Spans and layers
 
 Span of control (amplitude de comando) é o número de reports diretos que um gestor tem. Layer (camada hierárquica) é cada nível entre o CEO e o colaborador individual.
 
@@ -4090,7 +4090,7 @@ Não crie nova camada para:
 
 ---
 
-### FB.4 Squads autônomas
+### 8.4 — Squads autônomas
 
 Squad autônoma não é time que faz o que quer. É time com missão clara, escopo bem definido, ownership (responsabilidade primária) de uma área de produto e capacidade de entregar valor sem depender de outro time para cada decisão operacional.
 
@@ -4119,7 +4119,7 @@ A segunda causa é incentivo errado. Se cada squad é avaliada somente pelo seu 
 
 ---
 
-### FB.5 Reorganizações
+### 8.5 — Reorganizações
 
 Reorganização é uma das operações mais custosas que uma empresa pode fazer. E é uma das mais usadas como escape de problemas que não são estruturais.
 
@@ -4158,7 +4158,7 @@ Se a reorganização for necessária, execute rápido e comunique honestamente.
 
 ---
 
-### FB.6 Crescimento e estrutura — o que quebra em cada limiar
+### 8.6 — Crescimento e estrutura — o que quebra em cada limiar
 
 O número de Dunbar (Robin Dunbar, 1992) descreve os limites cognitivos de manutenção de relações sociais: 5 relações íntimas, 15 próximas, 50 confiáveis, 150 conhecidas, 500 reconhecidas. Cada limiar representa um ponto onde os mecanismos informais de coordenação falham e precisam ser substituídos por mecanismos formais.
 
@@ -4201,7 +4201,7 @@ O que precisa ser criado: plataformas internas que permitem autonomia das unidad
 
 ---
 
-### FB.7 Platform teams e enablement
+### 8.7 — Platform teams e enablement
 
 Platform team (time de plataforma interna) é um time que existe para aumentar a velocidade de entrega de outros times. Não entrega produto diretamente para o cliente externo. A distinção é importante porque define o modelo de sucesso do time.
 
@@ -4246,7 +4246,7 @@ O antídoto para o platform team disfuncional é tratar a plataforma como produt
 
 ---
 
-### FB.8 Remoto, presencial e híbrido no contexto brasileiro
+### 8.8 — Remoto, presencial e híbrido no contexto brasileiro
 
 O debate remoto versus presencial no Brasil tem uma dimensão que os frameworks americanos ignoram: a CLT.
 
@@ -4341,7 +4341,7 @@ Serie C+       Reorganização foi evitada ou executada com plano de 6 meses?
 
 **Ver também:**
 
-- [[IGNICAO-Vol-1-Ideacao#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvases Visuais da Fase (Vol. 1)]], Canvases e Mapas Visuais
+- [[#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvases Visuais da Fase]], Canvases e Mapas Visuais
 - [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 11 — GESTÃO DE TEMPO DO FUNDADOR E OPERATING CADENCE|Capítulo 11 (GESTÃO DE TEMPO DO FUNDADOR E OPERATING CADENCE) (Vol. 6)]], operating cadence e OKRs
 - [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 16 — CULTURA COMO DISCIPLINA|Capítulo 16 (CULTURA COMO DISCIPLINA) (Vol. 6)]], cultura organizacional
 - [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 19 — REMOTE, HYBRID E DISTRIBUÍDO COMO DISCIPLINA|Capítulo 19 (REMOTE, HYBRID E DISTRIBUÍDO COMO DISCIPLINA) (Vol. 6)]], remoto e hybrid afetam span
@@ -4781,17 +4781,17 @@ Em estágio mais avançado, gestão do conhecimento se torna vantagem competitiv
 
 ## CAPÍTULO 10 — COMUNICAÇÃO INTERNA
 
-> [!abstract] Onde este apendice se posiciona no bloco de comunicacao
-> O livro tem sete apendices de comunicacao com territorios distintos,
-> - [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 8 — COMUNICAÇÃO PÚBLICA DO FUNDADOR: NARRATIVA, IMPRENSA E PORTA-VOZ|BM (Vol. 6)]], narrativa publica e imprensa
-> - [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 9 — MARCA PESSOAL DO FUNDADOR: DISTRIBUIÇÃO, AUTORIDADE E CUSTO DE REPUTAÇÃO|CY (Vol. 6)]], marca pessoal e canais proprios
-> - [[#CAPÍTULO 10 — COMUNICAÇÃO INTERNA|DZ]], comunicacao com o time
-> - [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 8 — COMUNICAÇÃO ESCRITA PARA NEGÓCIOS|EW (Vol. 1)]], escrita executiva (memo, update, postmortem)
-> - [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 9 — APRESENTAÇÃO E FALA EM PÚBLICO|EX (Vol. 1)]], fala em publico (pitch, all-hands, board)
-> - [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 7 — INFLUÊNCIA E PERSUASÃO SEM AUTORIDADE FORMAL|EK (Vol. 1)]], persuasao sem autoridade
-> - [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 10 — COMUNICAÇÃO EM CRISE|EV (Vol. 9)]], comunicacao em crise
+> [!abstract] Onde este capítulo se posiciona no bloco de comunicacao
+> O livro tem sete capítulos de comunicacao com territorios distintos,
+> - [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 8 — COMUNICAÇÃO PÚBLICA DO FUNDADOR: NARRATIVA, IMPRENSA E PORTA-VOZ|Capítulo 8 (COMUNICAÇÃO PÚBLICA DO FUNDADOR: NARRATIVA, IMPRENSA E PORTA-VOZ) (Vol. 6)]], narrativa publica e imprensa
+> - [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 9 — MARCA PESSOAL DO FUNDADOR: DISTRIBUIÇÃO, AUTORIDADE E CUSTO DE REPUTAÇÃO|Capítulo 9 (MARCA PESSOAL DO FUNDADOR: DISTRIBUIÇÃO, AUTORIDADE E CUSTO DE REPUTAÇÃO) (Vol. 6)]], marca pessoal e canais proprios
+> - [[#CAPÍTULO 10 — COMUNICAÇÃO INTERNA|Capítulo 10 (COMUNICAÇÃO INTERNA)]], comunicacao com o time
+> - [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 8 — COMUNICAÇÃO ESCRITA PARA NEGÓCIOS|Capítulo 8 (COMUNICAÇÃO ESCRITA PARA NEGÓCIOS) (Vol. 1)]], escrita executiva (memo, update, postmortem)
+> - [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 9 — APRESENTAÇÃO E FALA EM PÚBLICO|Capítulo 9 (APRESENTAÇÃO E FALA EM PÚBLICO) (Vol. 1)]], fala em publico (pitch, all-hands, board)
+> - [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 7 — INFLUÊNCIA E PERSUASÃO SEM AUTORIDADE FORMAL|Capítulo 7 (INFLUÊNCIA E PERSUASÃO SEM AUTORIDADE FORMAL) (Vol. 1)]], persuasao sem autoridade
+> - [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 10 — COMUNICAÇÃO EM CRISE|Capítulo 10 (COMUNICAÇÃO EM CRISE) (Vol. 9)]], comunicacao em crise
 >
-> Este apendice cobre comunicacao interna com o time, rituais e mecanismos que sustentam alinhamento em escala. Para os outros territorios, ver acima.
+> Este capítulo cobre comunicacao interna com o time, rituais e mecanismos que sustentam alinhamento em escala. Para os outros territorios, ver acima.
 
 **Cultura, Transparência e Alinhamento em Escala**
 
@@ -5204,7 +5204,7 @@ A melhor comunicação interna é aquela que o time não percebe como comunicaç
 > - [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9 — CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO|Capítulo 9 (CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO) (Vol. 9)]], BCP e DRP como camada operacional de continuidade
 > - [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 14 — SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA|Capítulo 14 (SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA) (Vol. 8)]], seguranca como disciplina operacional
 > - [[#CAPÍTULO 8 — DESIGN ORGANIZACIONAL|Capítulo 8 (DESIGN ORGANIZACIONAL)]], desenho de equipes, papeis e cadencias que sustentam a operacao
-> - Apendices verticais com operacao fisica (CM, CA, DL, DQ), quando o playbook exige integracao com mundo nao digital
+> - Capítulos verticais com operacao fisica (CM, CA, DL, DQ), quando o playbook exige integracao com mundo nao digital
 
 Processos, Infraestrutura e Excelência Operacional
 
@@ -5734,6 +5734,6 @@ Fase 150+ pessoas
 
 - [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 6 — CANAIS INDIRETOS E PARCERIAS: PARCERIAS, FRANQUIAS, CHANNEL|Capítulo 6 — Experiência do Cliente e Jornada (Vol. 6)]] para como operações impactam NPS diretamente
 - [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 2 — MODELAGEM FINANCEIRA OPERACIONAL|Capítulo 2 — Modelagem Financeira Operacional (Vol. 5)]] para métricas financeiras que complementam as operacionais
-- [[IGNICAO-Vol-1-Ideacao#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvases Visuais da Fase (Vol. 1)]] para ferramentas visuais de mapeamento de processos
+- [[#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvases e Mapas Visuais]] para ferramentas visuais de mapeamento de processos
 - [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 6 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 6 — Construção (Vol. 2)]] para como configurar operações nos primeiros meses
 - [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 9 — IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES|Fase 9 — Escala (Vol. 3)]] para o contexto estratégico em que este capítulo se insere

@@ -148,7 +148,7 @@ flowchart TB
 > [!important] Princípio da arquitetura no MVP
 > Composição de managed services no MVP. DevOps real só depois do PMF. Evite criar o seu próprio auth, criar o seu próprio sistema de e-mail, construir observability do zero. Cada "do-zero" prematuro custa três a seis meses, e quase nunca produz vantagem competitiva.
 
-### O que esse apêndice cobre
+### O que esta fase cobre
 
 Construção e lançamento controlado do MVP (Minimum Viable Product — produto com o mínimo necessário para testar uma hipótese real com usuários reais) com base na Especificação da [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 10 — TESTES DE SOLUÇÃO E USABILIDADE|Fase 10 (Vol. 3)]]. O objetivo não é vender no grande mercado. É aprender com usuários reais usando um produto real, em ambiente real, pagando preço real (ou aceitando compromisso de pagamento).
 
@@ -225,7 +225,7 @@ Métrica primária. Taxa de conversão de visitante em ação. Threshold forte: 
 Custo típico de R$ 500 a R$ 3.000 em tráfego pago, mais alguns dias para montar a página (Carrd, Framer, Webflow, Unbounce). Duração de uma a três semanas. O critério de avanço é demanda confirmada acima do threshold pré-definido.
 
 > [!tip] Templates Operacionais — Templates operacionais desta fase
-> O [[IGNICAO-Vol-1-Ideacao#TEMPLATES OPERACIONAIS E CASOS PREENCHIDOS DESTA FASE|Templates Operacionais da Fase (Vol. 1)]] inclui o Template Landing Page de Validação (Fase 5, Vol. 2) com estrutura de headline, proposta de valor, CTA e formulário de captura — pronto para adaptar e publicar em Carrd ou Framer sem partir do zero.
+> O [[#TEMPLATES OPERACIONAIS E CASOS PREENCHIDOS DESTA FASE|Templates Operacionais da Fase]] inclui o Template Landing Page de Validação (Fase 5, Vol. 2) com estrutura de headline, proposta de valor, CTA e formulário de captura — pronto para adaptar e publicar em Carrd ou Framer sem partir do zero.
 
 #### Fase 2 do ciclo, MVP Concierge (versão manual do produto, entregue à mão pelo fundador)
 
@@ -263,7 +263,7 @@ O executor é você. Com time técnico (interno, terceirizado, ou sócio). Os pa
 Nove passos. Os passos abaixo se aplicam à **terceira fase do ciclo (MVP em Código)** descrita acima, depois das duas anteriores (Teste de Demanda + MVP Concierge) terem produzido evidência positiva. Pular para os passos 1 a 9 sem ter validado as duas fases anteriores é o erro mais caro desta etapa, e equivale a construir software para hipótese ainda não testada.
 
 > [!tip] MVP Canvas antes de construir qualquer coisa
-> Para cada MVP que o time planeja lançar, preencha o [[IGNICAO-Vol-1-Ideacao#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|MVP Canvas (Canvas: MVP Canvas (Tristan Kromer)) (Vol. 1)]] de Tristan Kromer em 30-45 minutos antes de qualquer linha de código: qual é a **hipótese central** (falsificável), quem é o **segmento do MVP** (pode ser subconjunto de 20 pessoas, não 20.000), qual é o **tipo de MVP** (landing page, concierge, wizard of oz — use o mais barato que testa a hipótese), e qual é o **critério de invalidação** (não só de sucesso). A pergunta mais importante do canvas: "Se o MVP falhar pelo critério de invalidação, o que construímos a seguir?" Se a resposta for "não sabemos", a hipótese precisa ser mais específica. O caso Wildlife Studios em Canvas: MVP Canvas (Tristan Kromer) (Fase 9, Vol. 3) mostra como definir o segmento com precisão (moderate spenders apenas) produziu evidência limpa que justificou a expansão do feature para toda a base.
+> Para cada MVP que o time planeja lançar, preencha o [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#Canvas: MVP Canvas (Tristan Kromer)|Canvas: MVP Canvas (Tristan Kromer) (Vol. 3)]] de Tristan Kromer em 30-45 minutos antes de qualquer linha de código: qual é a **hipótese central** (falsificável), quem é o **segmento do MVP** (pode ser subconjunto de 20 pessoas, não 20.000), qual é o **tipo de MVP** (landing page, concierge, wizard of oz — use o mais barato que testa a hipótese), e qual é o **critério de invalidação** (não só de sucesso). A pergunta mais importante do canvas: "Se o MVP falhar pelo critério de invalidação, o que construímos a seguir?" Se a resposta for "não sabemos", a hipótese precisa ser mais específica. O caso Wildlife Studios em Canvas: MVP Canvas (Tristan Kromer) (Fase 9, Vol. 3) mostra como definir o segmento com precisão (moderate spenders apenas) produziu evidência limpa que justificou a expansão do feature para toda a base.
 
 #### Passo 1, construa apenas os Must Haves
 
@@ -474,7 +474,7 @@ A partir desses sinais, a Stone investiu em escala. Mais Green Angels. Mais capi
 - Onde os usuários travam, abandonam, ou se frustram?
 
 > [!tip] Pirate Canvas (AARRR) como estrutura de instrumentação desta fase
-> As métricas da SAÍDA mapeiam diretamente para o funil do [[IGNICAO-Vol-1-Ideacao#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Pirate Canvas / AARRR (Canvas: Pirate Canvas / AARRR (Dave McClure, 2007)) (Vol. 1)]] de Dave McClure (2007): Acquisition (CAC por canal), Activation (aha moment), Retention (D7/D30), Referral (taxa de indicação, NPS), Revenue (conversão, ARPU). Implante o AARRR **antes** de lançar o MVP — não após. A pergunta mais importante: onde está o maior vazamento do funil? Esse é o único foco do próximo ciclo de produto. O caso Conta Simples em Canvas: Pirate Canvas / AARRR (Dave McClure, 2007) (Fase 11) mostra como o canvas revelou que o gargalo era Activation (40% → 67%) e não Acquisition — diagnóstico que evitou investir mais CAC numa banheira furada.
+> As métricas da SAÍDA mapeiam diretamente para o funil do [[#Canvas: Pirate Canvas / AARRR (Dave McClure, 2007)|Canvas: Pirate Canvas / AARRR (Dave McClure, 2007)]] de Dave McClure (2007): Acquisition (CAC por canal), Activation (aha moment), Retention (D7/D30), Referral (taxa de indicação, NPS), Revenue (conversão, ARPU). Implante o AARRR **antes** de lançar o MVP — não após. A pergunta mais importante: onde está o maior vazamento do funil? Esse é o único foco do próximo ciclo de produto. O caso Conta Simples em Canvas: Pirate Canvas / AARRR (Dave McClure, 2007) (Fase 11) mostra como o canvas revelou que o gargalo era Activation (40% → 67%) e não Acquisition — diagnóstico que evitou investir mais CAC numa banheira furada.
 
 ### SAÍDA DESTA FASE
 
@@ -1080,7 +1080,7 @@ flowchart LR
 > [!question] FMF Check da Fase 11
 > O modelo de negócio que emergiu é algo que só você desenharia com o seu conhecimento acumulado, ou é modelo óbvio que qualquer outra pessoa no mesmo mercado chegaria? Modelos óbvios têm concorrência saudando. Não são defensáveis por FMF. Modelos não-óbvios frequentemente parecem estranhos no começo (e por isso outros não tentaram), e revelam-se defensáveis depois. Se o seu modelo parece "o óbvio", revisite.
 
-### O que esse apêndice cobre
+### O que esta fase cobre
 
 Verificação de que o negócio faz sentido economicamente. Que você consegue adquirir clientes por um custo menor do que eles geram de valor ao longo do tempo. Com margem suficiente para sustentar a operação e crescer. Aqui o foco sai do produto e vai para a máquina econômica.
 
@@ -1302,7 +1302,7 @@ A pergunta central. Se eu parasse de adquirir novos clientes agora, o negócio s
 Se sim, você tem unit economics saudável. Se não, ajuste preço, custo ou churn antes de escalar.
 
 > [!tip] Canvases Visuais — Pirate Canvas / AARRR (Fase 11)
-> Unit economics fica mais legível quando colado ao funil AARRR (Acquisition, Activation, Retention, Referral, Revenue) do [[IGNICAO-Vol-1-Ideacao#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Pirate Canvas (Canvas: Pirate Canvas / AARRR (Dave McClure, 2007)) (Vol. 1)]] — cada métrica desta fase (CAC, ativação, churn, NRR, payback) tem casa numa etapa do funil. Use o canvas para localizar onde estão os gargalos do modelo: CAC alto demais é problema de Acquisition; payback longo pode ser baixa Activation; LTV baixo é Retention insuficiente.
+> Unit economics fica mais legível quando colado ao funil AARRR (Acquisition, Activation, Retention, Referral, Revenue) do [[#Canvas: Pirate Canvas / AARRR (Dave McClure, 2007)|Canvas: Pirate Canvas / AARRR (Dave McClure, 2007)]] — cada métrica desta fase (CAC, ativação, churn, NRR, payback) tem casa numa etapa do funil. Use o canvas para localizar onde estão os gargalos do modelo: CAC alto demais é problema de Acquisition; payback longo pode ser baixa Activation; LTV baixo é Retention insuficiente.
 
 #### Passo 10, aplique a pergunta diagnóstica canônica de Paul Graham, Default Alive ou Default Dead?
 
@@ -1433,7 +1433,7 @@ A lição transferível. Unit economics precisam ser provados em escala pequena 
 - Quanto capital preciso para chegar ao break-even?
 
 > [!tip] Risk Canvas antes de comprometer recursos desta fase
-> A validação de unit economics da Fase 11 é o momento de fazer o [[IGNICAO-Vol-1-Ideacao#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Risk Canvas (Canvas: Risk Canvas) (Vol. 1)]] — varredura sistemática de risco em seis categorias (mercado, cliente, solução, modelo, regulatório, equipe) antes de escalar o modelo. Cada risco recebe Probabilidade × Impacto; os top 5 recebem mitigação e owner. O caso Méliuz em Canvas: Risk Canvas (Fase 12) mostra como o canvas revelou que o risco mais crítico não era o que o time discutia (equipe dividida) mas o que não estava calculando explicitamente (CAC do cartão 5-8x maior que o digital). Riscos sem owner não são gerenciados — são empurrados com a barriga até se materializarem.
+> A validação de unit economics da Fase 11 é o momento de fazer o [[#Canvas: Risk Canvas|Canvas: Risk Canvas]] — varredura sistemática de risco em seis categorias (mercado, cliente, solução, modelo, regulatório, equipe) antes de escalar o modelo. Cada risco recebe Probabilidade × Impacto; os top 5 recebem mitigação e owner. O caso Méliuz em Canvas: Risk Canvas (Fase 12) mostra como o canvas revelou que o risco mais crítico não era o que o time discutia (equipe dividida) mas o que não estava calculando explicitamente (CAC do cartão 5-8x maior que o digital). Riscos sem owner não são gerenciados — são empurrados com a barriga até se materializarem.
 
 ### SAÍDA DESTA FASE
 
@@ -2003,7 +2003,7 @@ O entregável é o Canvas Financeiro Validado com números reais. Esse documento
 
 ## FASE 13 — PRODUCT-MARKET FIT
 
-### O que esse apêndice cobre
+### O que esta fase cobre
 
 Validação e medição de PMF (Product-Market Fit — encaixe entre produto e mercado). O entregável ao fim desta fase é um dos dois documentos: Relatório de PMF (se atingido) ou Plano de Iteração para PMF (se ainda não). O que PMF significa e por que importa está em POR QUE.
 
@@ -2155,7 +2155,7 @@ O executor é você, e o time, se houver. Em empresas muito pequenas, o próprio
 Sete técnicas complementares.
 
 > [!tip] Canvases Visuais — Pirate Canvas / AARRR (Fase 11)
-> Diagnóstico de PMF mora dentro do AARRR. As métricas centrais desta fase — ativação (Activation), retenção por coorte (Retention) e crescimento orgânico via indicação (Referral) — são três das cinco etapas do [[IGNICAO-Vol-1-Ideacao#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Pirate Canvas (Canvas: Pirate Canvas / AARRR (Dave McClure, 2007)) (Vol. 1)]]. Use o canvas para visualizar onde o produto entrega valor versus onde vaza usuário. Sem mapear o funil, números soltos enganam (cadastros altos sem ativação são "PMF teatro").
+> Diagnóstico de PMF mora dentro do AARRR. As métricas centrais desta fase — ativação (Activation), retenção por coorte (Retention) e crescimento orgânico via indicação (Referral) — são três das cinco etapas do [[#Canvas: Pirate Canvas / AARRR (Dave McClure, 2007)|Canvas: Pirate Canvas / AARRR (Dave McClure, 2007)]]. Use o canvas para visualizar onde o produto entrega valor versus onde vaza usuário. Sem mapear o funil, números soltos enganam (cadastros altos sem ativação são "PMF teatro").
 
 ##### Teste dos 40%, Sean Ellis Test
 
@@ -2300,7 +2300,7 @@ Volte para as Fases 7 a 9. Reconsidere a solução. Talvez pivote para problema 
 > O [[#CAPÍTULO 13 — CUSTOMER EXPERIENCE: DA JORNADA AO NPS AO CHURN ZERO|Capítulo 13 — Customer Experience]] estrutura como mapear a jornada completa do cliente — desde o primeiro contato até o churn evitado — e identificar os "moments of truth" que mais afetam retenção. Use aqui para diagnosticar por que certos segmentos chegam ao aha e outros não.
 
 > [!tip] Canvases Visuais — Customer Journey Canvas (Fase 5, Vol. 2)
-> Para sustentar PMF, o [[IGNICAO-Vol-1-Ideacao#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Customer Journey Canvas (Canvas: Customer Journey Canvas) (Vol. 1)]] é o template visual de uma página que materializa a jornada em fases (consciência → consideração → decisão → onboarding → uso → expansão → advocacy) com os "moments of truth" de cada fase. Complementar ao DT: DT é o tratamento teórico, Canvas: Customer Journey Canvas (Fase 5, Vol. 2) é o canvas preenchível para usar em workshop com o time.
+> Para sustentar PMF, o [[IGNICAO-Vol-2-Descoberta-e-Mercado#Canvas: Customer Journey Canvas|Canvas: Customer Journey Canvas (Vol. 2)]] é o template visual de uma página que materializa a jornada em fases (consciência → consideração → decisão → onboarding → uso → expansão → advocacy) com os "moments of truth" de cada fase. Complementar ao DT: DT é o tratamento teórico, Canvas: Customer Journey Canvas (Fase 5, Vol. 2) é o canvas preenchível para usar em workshop com o time.
 
 #### Passo 4, documentar o "aha moment" e operacionalizar a ativação
 
@@ -2434,8 +2434,8 @@ Passando em 0-1: sem PMF. Volte para discovery. O problema mais provável: produ
 > [!warning] O custo de declarar PMF cedo
 > Fundar contrata VP de Sales, VP de Marketing e começa a escalar aquisição antes de ter PMF. Resultado: CAC explode (produto não converte), churn dispara (produto não retém), runway some (burn alto sem retorno). Série B travada porque métricas mostram que a escala não funcionou. Retrair é mais caro e mais doloroso do que esperar.
 
-> [!tip] Apêndices de medição contínua
-> [[IGNICAO-Vol-5-Financas-e-Captacao#MÉTRICAS E BENCHMARKS DESTA FASE (FASE 14)|Catálogo de Métricas e Benchmarks (Vol. 5)]] traz definições, fórmulas e benchmarks por modelo (DAU/MAU, retenção D30/D90, NPS, NRR, LTV/CAC, cohort LTV). [[#CAPÍTULO 14 — DADOS, ANALYTICS E EXPERIMENTAÇÃO|Capítulo 14 — Dados e Analytics]] cobre a stack para medir PMF com rigor (event tracking, data warehouse, cohort analysis automatizado). [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 3 — REVENUE OPERATIONS: INFRAESTRUTURA, DADOS E PROCESSO PARA CRESCER COM PREVISIBILIDADE|Capítulo 3 — Revenue Operations (Vol. 6)]] detalha como estruturar CRM, forecast de pipeline e handoffs para que NRR, churn e win rate sejam mensuráveis de forma confiável.
+> [!tip] Capítulos de medição contínua
+> [[IGNICAO-Vol-5-Financas-e-Captacao#MÉTRICAS E BENCHMARKS DESTA FASE (FASE 14)|Catálogo de Métricas (Vol. 5)]] traz definições, fórmulas e benchmarks por modelo (DAU/MAU, retenção D30/D90, NPS, NRR, LTV/CAC, cohort LTV). [[#CAPÍTULO 14 — DADOS, ANALYTICS E EXPERIMENTAÇÃO|Capítulo 14 — Dados e Analytics]] cobre a stack para medir PMF com rigor (event tracking, data warehouse, cohort analysis automatizado). [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 3 — REVENUE OPERATIONS: INFRAESTRUTURA, DADOS E PROCESSO PARA CRESCER COM PREVISIBILIDADE|Capítulo 3 — Revenue Operations (Vol. 6)]] detalha como estruturar CRM, forecast de pipeline e handoffs para que NRR, churn e win rate sejam mensuráveis de forma confiável.
 
 ### SAÍDA DESTA FASE
 
@@ -3228,7 +3228,7 @@ Nenhuma startup atinge *Product-Market Fit* apenas construindo um bom produto em
 ## CAPÍTULO 1 — GTM PLAYBOOK: DA IDEIA AO PRIMEIRO MILHÃO DE ARR
 
 > [!note] Posição no livro
-> Este capítulo é a referência central de go-to-market do livro. Conecta-se ao [[#CAPÍTULO 7 — PRODUCT MARKETING: POSICIONAMENTO, MENSAGEM E LANÇAMENTO|Capítulo 7 — Product Marketing]] (Mensagem operacional), ao [[#CAPÍTULO 6 — BRANDING E POSICIONAMENTO DE MARCA PARA STARTUPS|Capítulo 6 — Branding e Posicionamento]] (Posicionamento estratégico, pré-requisito de Mensagem), ao [[#CAPÍTULO 14 — DADOS, ANALYTICS E EXPERIMENTAÇÃO|Capítulo 14 — Dados e Analytics]], ao [[#CAPÍTULO 8 — SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|Capítulo 8 — Sales (Outbound ao Renewal)]], ao [[IGNICAO-Vol-2-Descoberta-e-Mercado#CAPÍTULO 1 — PSICOLOGIA DO CONSUMIDOR BRASILEIRO — COMPORTAMENTO, DECISÃO E CONVERSÃO|Capítulo 1 (PSICOLOGIA DO CONSUMIDOR BRASILEIRO — COMPORTAMENTO, DECISÃO E CONVERSÃO) (Vol. 2)]] (comportamento brasileiro como input de motion) e à [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 5 — PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY)|Fase 5 — Pesquisa com Usuários (Vol. 2)]]. Leia antes de contratar qualquer pessoa de vendas ou marketing.
+> Este capítulo é a referência central de go-to-market do livro. Conecta-se ao [[#CAPÍTULO 7 — PRODUCT MARKETING: POSICIONAMENTO, MENSAGEM E LANÇAMENTO|Capítulo 7 — Product Marketing]] (Mensagem operacional), ao [[#CAPÍTULO 6 — BRANDING E POSICIONAMENTO DE MARCA PARA STARTUPS|Capítulo 6 — Branding e Posicionamento]] (Posicionamento estratégico, pré-requisito de Mensagem), ao [[#CAPÍTULO 14 — DADOS, ANALYTICS E EXPERIMENTAÇÃO|Capítulo 14 — Dados e Analytics]], ao [[#CAPÍTULO 8 — SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|Capítulo 8 — Sales (Outbound ao Renewal]], ao [[IGNICAO-Vol-2-Descoberta-e-Mercado#CAPÍTULO 1 — PSICOLOGIA DO CONSUMIDOR BRASILEIRO — COMPORTAMENTO, DECISÃO E CONVERSÃO|Capítulo 1 (PSICOLOGIA DO CONSUMIDOR BRASILEIRO — COMPORTAMENTO, DECISÃO E CONVERSÃO) (Vol. 2)]] (comportamento brasileiro como input de motion) e à [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 5 — PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY)|Fase 5 — Pesquisa com Usuários (Vol. 2)]]. Leia antes de contratar qualquer pessoa de vendas ou marketing.
 
 ---
 
@@ -3871,7 +3871,7 @@ Dashboards de analytics insuficientes. PLG sem instrumentação é operação ce
 
 O [[#CAPÍTULO 2 — FRAMEWORK DE CANAIS DE AQUISIÇÃO|Capítulo 2 (FRAMEWORK DE CANAIS DE AQUISIÇÃO)]] menciona content (conteúdo) e SEO (Search Engine Optimization, otimização para mecanismos de busca) como canais em alto nível. Para muitas startups B2B SaaS brasileiras, content é o canal de menor CAC no longo prazo, mas exige disciplina de doze a vinte e quatro meses antes de retornar.
 
-### O que esse capítulo cobre
+### O que este capítulo cobre
 
 A disciplina de produzir conteúdo que atrai (o público certo, via busca orgânica ou SEO), educa (sobre o problema ou solução, na jornada de compra), converte (em leads ou vendas) e retém (como mídia própria de longo prazo).
 
@@ -4060,7 +4060,7 @@ Ignorar onboarding de novos membros. Eles chegam, não se integram, e saem.
 > [!note] Aplicabilidade
 > Empresas que dependem de paid ads (anúncios pagos no Google, Meta, LinkedIn, TikTok) como canal primário ou secundário. Aplica-se a partir do momento em que há budget dedicado, mesmo que sejam R$ 5.000 mensais, com alguém responsável por otimizá-lo.
 
-### O que esse capítulo cobre
+### O que este capítulo cobre
 
 Marketing de performance é a disciplina de gerir investimento em mídia paga com rigor quantitativo: estruturação de contas, otimização contínua, atribuição honesta, teste criativo e escalabilidade responsável. Diferente de branding (construção de marca), onde o retorno é indireto e se acumula ao longo de anos, performance é mensurável em janelas curtas e exige decisão orientada a dados em cadência semanal ou quinzenal.
 
@@ -4415,7 +4415,7 @@ Marketing de performance está operando bem quando todos os itens abaixo estão 
 
 **Ver também:**
 
-[[#CAPÍTULO 3 — CONTENT MARKETING E SEO COMO DISCIPLINA|Capítulo 3 — Content Marketing e SEO como Disciplina]]. [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 17 — SECONDARY E LIQUIDEZ DE FOUNDER|Capítulo 17 (SECONDARY E LIQUIDEZ DE FOUNDER) (Vol. 9)]], Growth e Aquisição. [[IGNICAO-Vol-1-Ideacao#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvases Visuais da Fase (Vol. 1)]], Canvases e Mapas Visuais. [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 13 — PERFORMANCE REVIEWS ESTRUTURADOS: CICLO, CALIBRAÇÃO E CONEXÃO COM COMPENSAÇÃO|Capítulo 13 (PERFORMANCE REVIEWS ESTRUTURADOS: CICLO, CALIBRAÇÃO E CONEXÃO COM COMPENSAÇÃO) (Vol. 6)]], Métricas e Dashboard de Negócio.
+[[#CAPÍTULO 3 — CONTENT MARKETING E SEO COMO DISCIPLINA|Capítulo 3 — Content Marketing e SEO como Disciplina]]. [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 17 — SECONDARY E LIQUIDEZ DE FOUNDER|Capítulo 17 (SECONDARY E LIQUIDEZ DE FOUNDER) (Vol. 9)]], Growth e Aquisição. [[#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvases Visuais da Fase]], Canvases e Mapas Visuais. [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 13 — PERFORMANCE REVIEWS ESTRUTURADOS: CICLO, CALIBRAÇÃO E CONEXÃO COM COMPENSAÇÃO|Capítulo 13 (PERFORMANCE REVIEWS ESTRUTURADOS: CICLO, CALIBRAÇÃO E CONEXÃO COM COMPENSAÇÃO) (Vol. 6)]], Métricas e Dashboard de Negócio.
 
 > [!info] Fases relacionadas
 > Referenciado em: Fase 10.
@@ -4424,7 +4424,7 @@ Marketing de performance está operando bem quando todos os itens abaixo estão 
 
 ## CAPÍTULO 6 — BRANDING E POSICIONAMENTO DE MARCA PARA STARTUPS
 
-> [!note] Para quem é esse capítulo
+> [!note] Para quem é este capítulo
 > Fundadores em estágio pré-seed a Série B que precisam construir marca sem orçamento de marketing de corporação. Cobre desde a decisão de nome até arquitetura de portfólio, passando por identidade verbal, medição e orçamento por estágio.
 
 > [!important] Uma distinção que salva dinheiro
@@ -4435,7 +4435,7 @@ Marketing de performance está operando bem quando todos os itens abaixo estão 
 
 ---
 
-## DX.1 — Marca como Ativo Composto
+### 6.1 — Marca como Ativo Composto
 
 Brand equity (valor patrimonial da marca) não é gasto, é investimento que acumula juros compostos. Toda vez que um cliente experimenta seu produto, ouve seu nome, vê seu logo, lê sua comunicação, ou fala de você para alguém, uma camada é depositada na conta de marca. Essas camadas se acumulam ao longo de meses e anos. Uma marca forte em ano cinco vale materialmente mais do que a mesma empresa com produto idêntico em marca fraca, porque:
 
@@ -4452,7 +4452,7 @@ A marca cria barreira de imitação. Produto se copia. Marca não. Dois anos de 
 
 ---
 
-## DX.2 — Posicionamento: A Estratégia Antes da Identidade
+### 6.2 — Posicionamento: A Estratégia Antes da Identidade
 
 Posicionamento é a resposta a três perguntas obrigatórias:
 
@@ -4471,9 +4471,9 @@ Essa fórmula parece simples. Não é. Cada escolha de palavra tem implicações
 
 ---
 
-## DX.3 — Frameworks de Posicionamento Aplicados
+### 6.3 — Frameworks de Posicionamento Aplicados
 
-### DX.3.1 — Crossing the Chasm para Posicionamento de Marca
+#### 6.3.1 — Crossing the Chasm para Posicionamento de Marca
 
 Geoffrey Moore identificou que tecnologias passam por um ciclo de adoção com um "abismo" entre os early adopters (visionários) e a maioria inicial (pragmáticos). Isso tem implicação direta de marca:
 
@@ -4485,7 +4485,7 @@ O erro é usar linguagem de visionary sell quando você precisa atravessar para 
 
 A transição de marca ao cruzar o abismo requer: trocar "o futuro é assim" por "empresas como a sua fazem X com resultado Y", substituir evangelismo por prova social, e reduzir o vocabulário técnico-pioneiro por linguagem operacional do segmento-alvo.
 
-### DX.3.2 — Jobs-to-be-Done Aplicado à Marca
+#### 6.3.2 — Jobs-to-be-Done Aplicado à Marca
 
 O conceito de Jobs to be Done (JTBD) foi originado por Tony Ulwick (Strategyn, 1990) e popularizado por Clayton Christensen em *The Innovator's Solution* (2003). A tese central é que clientes não compram produtos, eles "contratam" soluções para fazer um trabalho específico. Aplicado à marca, isso significa que sua identidade deve refletir o trabalho, não a categoria.
 
@@ -4495,7 +4495,7 @@ Para startups B2B, o trabalho emocional frequentemente é sobre status e seguran
 
 Exercício prático: entreviste dez clientes que amam seu produto. Pergunte "o que você consegue fazer agora que não conseguia antes?" e "como você descreveria esse produto para um colega de profissão?". A linguagem que aparece nessas entrevistas é a matéria-prima do posicionamento correto.
 
-### DX.3.3 — Blue Ocean no Contexto Brasileiro
+#### 6.3.3 — Blue Ocean no Contexto Brasileiro
 
 W. Chan Kim e Renée Mauborgne propõem criar espaço de mercado não disputado ao redefinir os eixos de valor. No Brasil, há padrões específicos de Blue Ocean disponíveis para startups:
 
@@ -4507,11 +4507,11 @@ O eixo da digitalização de relação: setores onde a relação humana era nece
 
 ---
 
-## DX.4 — Arquitetura de Marca para Startups com Múltiplos Produtos
+### 6.4 — Arquitetura de Marca para Startups com Múltiplos Produtos
 
 Quando uma startup lança produtos adicionais, precisa decidir como a marca-mãe se relaciona com cada produto. Três modelos principais:
 
-### DX.4.1 — Arquitetura Monolítica (Branded House)
+#### 6.4.1 — Arquitetura Monolítica (Branded House)
 
 Uma marca principal, produtos são sub-categorias ou features. Nubank é o exemplo brasileiro mais claro: Nubank Conta, Nubank Crédito, Nubank Investimentos, Nu, tudo sob o guarda-chuva da marca matriz. Todo investimento em marca beneficia todos os produtos.
 
@@ -4521,7 +4521,7 @@ Desvantagem: um escândalo ou falha em um produto contamina todos os outros. Dif
 
 Quando usar: quando todos os produtos servem o mesmo perfil de cliente e a experiência de marca pode ser consistente.
 
-### DX.4.2 — Arquitetura Endossada (Endorsed Brand)
+#### 6.4.2 — Arquitetura Endossada (Endorsed Brand)
 
 Marcas independentes com endosso visível da marca-mãe. iFood é o exemplo: iFood para Restaurantes, iFood Pago, iFood Benefícios — marcas distintas com "by iFood" ou "powered by iFood" como sinal de confiabilidade.
 
@@ -4531,7 +4531,7 @@ Desvantagem: mais custoso em marketing (cada marca precisa de investimento próp
 
 Quando usar: quando você atende múltiplos segmentos distintos que não se identificam com a mesma marca (consumidor final vs. empresário vs. entregador).
 
-### DX.4.3 — Arquitetura Híbrida
+#### 6.4.3 — Arquitetura Híbrida
 
 Combinação situacional. Alguns produtos sob a marca principal, outros com marca própria. Requer disciplina e critério claro de quando cada modelo se aplica, caso contrário gera incoerência.
 
@@ -4540,9 +4540,9 @@ Combinação situacional. Alguns produtos sob a marca principal, outros com marc
 
 ---
 
-## DX.5 — Identidade Verbal: Tom, Nome e Tagline
+### 6.5 — Identidade Verbal: Tom, Nome e Tagline
 
-### DX.5.1 — Tom de Voz
+#### 6.5.1 — Tom de Voz
 
 Tom de voz é como sua marca se comunica em todos os pontos de contato: site, e-mail, app, atendimento, redes sociais, documentos legais. Tom inconsistente é marca fragmentada.
 
@@ -4557,7 +4557,7 @@ Para cada adjetivo, criar um par "é/não é". "Direto: dizemos o que precisamos
 
 Criar um guia de tom de voz com exemplos reais de frases aprovadas e frases rejeitadas. Isso é mais acionável do que princípios abstratos.
 
-### DX.5.2 — Naming: O Processo para Escolher Nome com INPI
+#### 6.5.2 — Naming: O Processo para Escolher Nome com INPI
 
 O nome da empresa ou produto é o ativo de marca de vida mais longa. Um nome ruim persiste por décadas. O processo correto tem sete etapas:
 
@@ -4578,7 +4578,7 @@ O nome da empresa ou produto é o ativo de marca de vida mais longa. Um nome rui
 > [!important] INPI não é opcional
 > Operar com marca não registrada é risco legal sério. Qualquer terceiro pode registrar antes de você e exigir que você mude. Isso já aconteceu com startups brasileiras que tiveram que mudar nome após rodadas de investimento, com custos de rebranding de seis a sete dígitos.
 
-### DX.5.3 — Tagline que Não Envergonha em Cinco Anos
+#### 6.5.3 — Tagline que Não Envergonha em Cinco Anos
 
 Uma boa tagline não descreve o produto, comunica a promessa de valor ou a crença central da marca.
 
@@ -4596,11 +4596,11 @@ Teste de tagline: mostre para dez pessoas do segmento-alvo. Pergunte "o que voc�
 
 ---
 
-## DX.6 — Brand Equity no Brasil: Credibilidade por Segmento
+### 6.6 — Brand Equity no Brasil: Credibilidade por Segmento
 
 Construir credibilidade no Brasil tem especificidades por segmento que diferem de mercados anglófonos:
 
-### DX.6.1 — PMEs (Pequenas e Médias Empresas)
+#### 6.6.1 — PMEs (Pequenas e Médias Empresas)
 
 O dono de PME compra de quem conhece, de quem foi indicado, ou de quem demonstra entender o seu mundo específico (varejo alimentar, serviços, construção civil, agro). Credibilidade se constrói por:
 
@@ -4610,13 +4610,13 @@ Cases com nomes conhecidos no setor. Um depoimento de uma rede regional conhecid
 
 Linguagem do setor. Usar o vocabulário que o dono de PME usa, não o vocabulário de startup tech. Isso sinaliza que você entende o negócio dele, não apenas a tecnologia.
 
-### DX.6.2 — C-Level e Decisores Corporativos
+#### 6.6.2 — C-Level e Decisores Corporativos
 
 Para vender para C-level, a marca precisa sinalizar: que a empresa vai continuar existindo (solidez), que outros C-levels do mesmo porte já usam (prova social de pares), e que há suporte e responsabilização (não vou ficar na mão).
 
 Investimento em credibilidade corporativa: presença em eventos de C-level (Fórum Nacional, GPTW, eventos de associações setoriais como ABIFARMA, FEBRABAN), cobertura em publicações de negócios (Valor Econômico, Exame), certificações relevantes para o setor (ISO, SOC 2), e cases publicados com metodologia e resultado.
 
-### DX.6.3 — Consumidor de Baixa Renda (Classes C, D e E)
+#### 6.6.3 — Consumidor de Baixa Renda (Classes C, D e E)
 
 Credibilidade para esse segmento não vem de marca global, vem de:
 
@@ -4630,7 +4630,7 @@ Garantia explícita: "devolvo o dinheiro se não funcionar" tem mais peso do que
 
 ---
 
-## DX.7 — Employer Branding como Alavanca de Recrutamento
+### 6.7 — Employer Branding como Alavanca de Recrutamento
 
 Em um mercado onde startups não conseguem pagar salários de grandes tech companies, employer branding é a alavanca que nivela o campo.
 
@@ -4655,11 +4655,11 @@ Táticas de alto impacto com custo baixo:
 
 ---
 
-## DX.8 — Quando Rebranding Faz Sentido (e Quando É Fuga de Problema Real)
+### 6.8 — Quando Rebranding Faz Sentido (e Quando É Fuga de Problema Real)
 
 Rebranding é caro, consome atenção da liderança, e confunde clientes e mercado durante a transição. Só justifica quando há razão estratégica real.
 
-### DX.8.1 — Cinco Sinais de que Rebranding é Necessário
+#### 6.8.1 — Cinco Sinais de que Rebranding é Necessário
 
 **Sinal 1: Mudança de mercado-alvo estrutural.** A empresa foi criada para servir consumidor final e pivotou para B2B corporativo. A marca construída para um segmento não fala com o outro.
 
@@ -4671,7 +4671,7 @@ Rebranding é caro, consome atenção da liderança, e confunde clientes e merca
 
 **Sinal 5: A marca foi criada para um estágio que ficou para trás.** Nome de startup "disruptora" que agora precisa ser percebida como empresa confiável e madura para contratos enterprise.
 
-### DX.8.2 — Três Alertas de que Rebranding é Fuga
+#### 6.8.2 — Três Alertas de que Rebranding é Fuga
 
 **Alerta 1: A empresa está perdendo mercado e o diagnóstico não é de marca.** Se o problema é produto, pricing, ou execução de vendas, rebranding não resolve. É distração.
 
@@ -4681,11 +4681,11 @@ Rebranding é caro, consome atenção da liderança, e confunde clientes e merca
 
 ---
 
-## DX.9 — Medição de Marca
+### 6.9 — Medição de Marca
 
 Marca que não é medida não é gerenciada.
 
-### DX.9.1 — Reconhecimento Espontâneo vs. Assistido
+#### 6.9.1 — Reconhecimento Espontâneo vs. Assistido
 
 Reconhecimento espontâneo: "Quando você pensa em [categoria], quais marcas vêm à mente?" Mede top-of-mind. As primeiras marcas mencionadas têm vantagem de consideração.
 
@@ -4693,7 +4693,7 @@ Reconhecimento assistido: "Você conhece a marca X?" Mede familiaridade. Útil p
 
 Para startups, medir share of spontaneous recognition no segmento-alvo a cada seis meses. Tracking de crescimento de top-of-mind é indicador de eficiência de marketing.
 
-### DX.9.2 — NPS de Marca vs. NPS de Produto
+#### 6.9.2 — NPS de Marca vs. NPS de Produto
 
 NPS de produto: "Com base na sua experiência com o produto X, o quanto você recomendaria para um colega?" Mede satisfação funcional.
 
@@ -4701,7 +4701,7 @@ NPS de marca: "Com base no que você sabe ou ouviu sobre a empresa X, o quanto v
 
 A diferença entre os dois scores revela: se NPS de produto é muito maior que NPS de marca, a empresa tem produto melhor do que sua reputação — oportunidade de amplificar cases. Se NPS de marca é muito maior que NPS de produto, a empresa tem reputação que o produto não sustenta — risco de churn e decepção.
 
-### DX.9.3 — Brand Preference vs. Brand Loyalty
+#### 6.9.3 — Brand Preference vs. Brand Loyalty
 
 Brand preference: dado acesso a múltiplas opções, o cliente escolheria sua marca. Mede posicionamento competitivo.
 
@@ -4711,7 +4711,7 @@ Alta preference com baixa loyalty indica que a vantagem é racional (feature, pr
 
 ---
 
-## DX.10 — Orçamento de Branding por Estágio
+### 6.10 — Orçamento de Branding por Estágio
 
 ```text
 ESTÁGIO         ORÇAMENTO SUGERIDO    ONDE ALOCAR
@@ -4746,7 +4746,7 @@ O que não cortar em nenhum estágio: consistência. Uma marca inconsistente, co
 
 - [[IGNICAO-Vol-2-Descoberta-e-Mercado#CAPÍTULO 2 — INTELIGÊNCIA COMPETITIVA — MONITORAMENTO, ANÁLISE E RESPOSTA|Capítulo 2 — Inteligência Competitiva — Monitoramento, Análise e Resposta (Vol. 2)]]
 - [[IGNICAO-Vol-2-Descoberta-e-Mercado#CAPÍTULO 1 — PSICOLOGIA DO CONSUMIDOR BRASILEIRO — COMPORTAMENTO, DECISÃO E CONVERSÃO|Capítulo 1 — Psicologia do Consumidor Brasileiro — Comportamento, Decisão e Conversão (Vol. 2)]]
-- [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#ÍNDICE GERAL DE FRAMEWORKS DA COLEÇÃO|Índice Geral de Frameworks (Vol. 10)]]
+- [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#ÍNDICE GERAL DE FRAMEWORKS DA COLEÇÃO|Ferramentário Completo do Empreendedor (Vol. 10)]]
 - [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 5 — PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY)|Fase 5 — Posicionamento e Proposta de Valor (Vol. 2)]]
 - [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 9 — IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES|Fase 9 — Go-to-Market e Aquisição (Vol. 3)]]
 
@@ -5211,9 +5211,9 @@ Conquistar a atenção do mercado (Capítulos 1 a 7) é metade da equação da t
 
 Vender é a disciplina operacional mais subestimada pelos fundadores no Brasil. O estereótipo do fundador técnico genial, que constrói algo incrível e espera o produto vender sozinho, existe porque acontece em um número pequeno de casos. Nos outros noventa e cinco por cento, é mito. Se a sua empresa tem qualquer componente B2B (venda entre empresas), você vai vender. O seu time vai vender. Quanto mais cedo você tratar vendas como disciplina, com método, ferramentas, métricas e processo, mais a empresa se torna previsível.
 
-Esse capítulo foi construído para atender três leitores distintos dentro do mesmo fundador. Você que vai fazer a primeira venda B2B. Você que tentou vender para uma empresa grande, ou para o governo, e apanhou. Você que monta uma máquina de vendas para atender clientes pequenos em volume, via inside sales (vendas internas remotas) ou produto self-serve (autoatendimento). Cada um desses cenários tem motion (modo de operação comercial) própria. Métricas próprias. Armadilhas específicas. Em empresas de crescimento médio, os três costumam coexistir.
+Este capítulo foi construído para atender três leitores distintos dentro do mesmo fundador. Você que vai fazer a primeira venda B2B. Você que tentou vender para uma empresa grande, ou para o governo, e apanhou. Você que monta uma máquina de vendas para atender clientes pequenos em volume, via inside sales (vendas internas remotas) ou produto self-serve (autoatendimento). Cada um desses cenários tem motion (modo de operação comercial) própria. Métricas próprias. Armadilhas específicas. Em empresas de crescimento médio, os três costumam coexistir.
 
-O apêndice está organizado em quatro partes. A Parte 1 cobre a motion B2B clássica, do outbound (prospecção ativa) ao renewal (renovação). Serve como base para qualquer venda entre empresas. A Parte 2 trata de enterprise (grandes empresas) e venda para governo, onde o jogo muda. Compradores profissionais. Editais. Contratos de centenas de páginas. Ciclos de um ano ou mais. A Parte 3 cobre SMB (pequenas e médias empresas), inside sales e product-led growth (crescimento puxado pelo produto). É o oposto polar do enterprise. Muitos clientes. Ticket médio baixo. Ciclo curto. Automação. A Parte 4 fecha com Revenue Operations (operações de receita). Em escala, ela costura todas as motions de receita em um sistema único.
+Este capítulo está organizado em quatro partes. A Parte 1 cobre a motion B2B clássica, do outbound (prospecção ativa) ao renewal (renovação). Serve como base para qualquer venda entre empresas. A Parte 2 trata de enterprise (grandes empresas) e venda para governo, onde o jogo muda. Compradores profissionais. Editais. Contratos de centenas de páginas. Ciclos de um ano ou mais. A Parte 3 cobre SMB (pequenas e médias empresas), inside sales e product-led growth (crescimento puxado pelo produto). É o oposto polar do enterprise. Muitos clientes. Ticket médio baixo. Ciclo curto. Automação. A Parte 4 fecha com Revenue Operations (operações de receita). Em escala, ela costura todas as motions de receita em um sistema único.
 
 ---
 
@@ -5305,7 +5305,7 @@ SPIFFs (bônus pontuais). Para empurrar comportamentos específicos em janelas c
 SDRs (Sales Development Reps, os que prospectam, e qualificam) ganham menos que AEs (Account Executives, os que fecham). OTE típica de SDR é quarenta a sessenta por cento da OTE de AE. É função de entrada em vendas. Costuma promover a AE em doze a vinte e quatro meses.
 
 > [!note] Sobre comissionamento entre CP e EB
-> CP cobre comissionamento na motion comum (B2B clássica, SMB, PLG). EB aprofunda no contexto enterprise específico, onde acelerador de cota, payout em múltiplos cliffs e adjustments por strategic deal são comuns. Ambos os apêndices se aplicam. EB substitui CP quando o vendedor opera em deals de ciclo longo e ticket alto.
+> CP cobre comissionamento na motion comum (B2B clássica, SMB, PLG). EB aprofunda no contexto enterprise específico, onde acelerador de cota, payout em múltiplos cliffs e adjustments por strategic deal são comuns. Ambos os capítulos se aplicam. EB substitui CP quando o vendedor opera em deals de ciclo longo e ticket alto.
 
 #### Armadilhas da motion B2B
 
@@ -5556,9 +5556,9 @@ Independente de motion (B2B, enterprise, SMB, PLG), qualquer operação de venda
 > [!note] Nota de validade
 > Os princípios de pricing (valor percebido, disposição a pagar, elasticidade, packaging) são estáveis ao longo de décadas. O que muda. Benchmarks setoriais. Padrões de pricing de SaaS versus usage-based versus hybrid. Ferramentas de pricing analytics. Revisar benchmarks a cada dezoito a vinte e quatro meses. A emergência de modelos AI-native em 2024 a 2026 tem trazido novos padrões (usage-based, outcome-based, credit-based) que ainda se estabilizam.
 
-A [[#FASE 12 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 12]] cobre validação do modelo de negócio, com hipóteses de preço em alto nível. Esse capítulo trata pricing como disciplina operacional contínua, não decisão única. Pricing é uma das alavancas mais subutilizadas em startup brasileira. O fundador típico subprecifica por três a cinco anos antes de acordar, deixando trinta a sessenta por cento da receita potencial na mesa. Uma correção bem feita dobra o ARR sem adicionar cliente. ROI que nenhum outro movimento operacional iguala.
+A [[#FASE 12 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 12]] cobre validação do modelo de negócio, com hipóteses de preço em alto nível. Este capítulo trata pricing como disciplina operacional contínua, não decisão única. Pricing é uma das alavancas mais subutilizadas em startup brasileira. O fundador típico subprecifica por três a cinco anos antes de acordar, deixando trinta a sessenta por cento da receita potencial na mesa. Uma correção bem feita dobra o ARR sem adicionar cliente. ROI que nenhum outro movimento operacional iguala.
 
-### O que esse capítulo cobre
+### O que este capítulo cobre
 
 Pricing strategy é a disciplina de descobrir, testar, estruturar, e evoluir, preço ao longo do tempo. Envolve quatro frentes. Pesquisa de disposição a pagar (willingness to pay). Estrutura (tiered, usage-based, hybrid, enterprise custom). Packaging (o que está em cada tier, como features mapeiam a valor). Evolução (reajustes anuais, grandfathering, reposicionamento).
 
@@ -5979,7 +5979,7 @@ Pricing como disciplina está no padrão quando todos os itens abaixo estão cum
 
 Subscription economy (economia de assinatura) é o conjunto de modelos de negócio em que o cliente paga recorrentemente (mensal, anual, ou por uso) por acesso contínuo ao produto ou serviço, no lugar da transação única de compra. O termo ganhou tração com Tien Tzuo (fundador da Zuora) e Gabe Weisert, no livro homônimo de 2018. Cobre seis categorias. SaaS (Software as a Service, ou software como serviço). D2C (direct-to-consumer, ou direto ao consumidor) por assinatura (Netflix, Dollar Shave Club, Allbirds Club). Serviços contínuos (academias, streaming, news). Equipamentos-como-serviço (impressoras-como-serviço, carros-como-serviço). Modelos industriais emergentes (turbinas-como-serviço da Rolls-Royce, iluminação-como-serviço da Signify).
 
-Esse capítulo trata de subscription economy em profundidade. Não como "o que é SaaS" (básico em qualquer manual), e sim como segunda camada. Métricas avançadas. Armadilhas estruturais. Desenho de planos. Transição de transacional para recorrente. Governança de churn (cancelamento). Expansion (expansão da receita do cliente atual) como engine (motor) de crescimento. Quando subscription quebra, e quando subscription engana o modelo.
+Este capítulo trata de subscription economy em profundidade. Não como "o que é SaaS" (básico em qualquer manual), e sim como segunda camada. Métricas avançadas. Armadilhas estruturais. Desenho de planos. Transição de transacional para recorrente. Governança de churn (cancelamento). Expansion (expansão da receita do cliente atual) como engine (motor) de crescimento. Quando subscription quebra, e quando subscription engana o modelo.
 
 ### POR QUE IMPORTA
 
@@ -6018,7 +6018,7 @@ Subscription tem muitos formatos. Cada um tem economia, e playbook, próprios.
 
 **Hybrid (transacional mais recorrente).** Amazon Prime mais transações. Netflix mais compras, ou aluguel, avulsos. iFood (transacional) mais iFood Card (assinatura).
 
-Cada formato precisa de playbook próprio. Esse capítulo foca nos desafios avançados comuns a vários deles. Com ênfase em SaaS B2B, e D2C físico, por serem mais representativos no Brasil.
+Cada formato precisa de playbook próprio. Este capítulo foca nos desafios avançados comuns a vários deles. Com ênfase em SaaS B2B, e D2C físico, por serem mais representativos no Brasil.
 
 ### MÉTRICAS AVANÇADAS, ALÉM DE ARR
 
@@ -6195,14 +6195,14 @@ Subscription business está saudável quando todos os itens abaixo estão cumpri
 > - [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 5 — PARCERIA COM GRANDES CORPORAÇÕES BRASILEIRAS|Capítulo 5 (PARCERIA COM GRANDES CORPORAÇÕES BRASILEIRAS) (Vol. 6)]], negociacao de deal corporativo de longo ciclo
 
 > [!note] Nota
-> Esse capítulo integra conceitos de negociação do Harvard Negotiation Project (Fisher, Ury e Patton — projeto de pesquisa de Harvard sobre negociação por interesses), pesquisa de Adam Grant sobre concessões, e adaptação ao contexto operacional do fundador brasileiro.
+> Este capítulo integra conceitos de negociação do Harvard Negotiation Project (Fisher, Ury e Patton — projeto de pesquisa de Harvard sobre negociação por interesses), pesquisa de Adam Grant sobre concessões, e adaptação ao contexto operacional do fundador brasileiro.
 
 Negociação não é um evento especial. Para o fundador, é condição permanente. Salário de contratação, term sheet (proposta preliminar de investimento), preço com cliente, escopo com cofundador, parceria estratégica, contrato B2B, valuation (avaliação de valor) em M&A (fusões e aquisições). Toda semana há uma negociação relevante acontecendo. A questão não é se você vai negociar, é se vai negociar bem.
 
 > [!important] Negociação é habilidade treinável
 > A crença de que bons negociadores nascem prontos é empiricamente falsa. Estudos de calibração mostram que exposição deliberada a negociações com feedback melhora resultados de forma sistemática. O fundador que pratica melhora. O que evita, piora.
 
-### O que esse capítulo cobre
+### O que este capítulo cobre
 
 Seis dimensões integradas.
 
@@ -6231,7 +6231,7 @@ Negociação não é agressividade. É clareza sobre o que importa para você, c
 
 ### Quando usar
 
-Toda negociação tem algum componente dos frameworks (estruturas de análise) desse apêndice. Mas o investimento em preparação estruturada se justifica especialmente em decisões Tipo 1 (ver [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 6 — TOMADA DE DECISÃO COMO DISCIPLINA|Capítulo 6 (TOMADA DE DECISÃO COMO DISCIPLINA) (Vol. 1)]]).
+Toda negociação tem algum componente dos frameworks (estruturas de análise) deste capítulo. Mas o investimento em preparação estruturada se justifica especialmente em decisões Tipo 1 (ver [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 6 — TOMADA DE DECISÃO COMO DISCIPLINA|Capítulo 6 (TOMADA DE DECISÃO COMO DISCIPLINA) (Vol. 1)]]).
 
 Negociações onde preparação estruturada é obrigatória: term sheet com VC, contratação de executivo sênior (acima de R$ 30 mil/mês), contratos B2B acima de R$ 100 mil, M&A, renegociação de equity (participação societária) com co-fundador, qualquer acordo onde cláusulas impactam o futuro da empresa por mais de 12 meses.
 
@@ -6768,7 +6768,7 @@ O [[#CAPÍTULO 8 — SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|Capítulo 8 
 
 Em SaaS B2B maduro, sessenta a oitenta por cento do valor total de um cliente vem de expansão e renovação, não da primeira venda. CS é a disciplina que operacionaliza isso. Fundadores que tratam CS como "atendimento" ou "suporte premium" deixam dinheiro na mesa em escala com que nenhuma outra ineficiência rivaliza.
 
-### O que esse capítulo cobre
+### O que este capítulo cobre
 
 Customer Success é a disciplina de garantir que clientes atinjam os resultados desejados com o produto, convertendo isso em retenção, expansão e advocacy (defesa espontânea da marca). Envolve seis frentes:
 
@@ -7382,7 +7382,7 @@ Vários pontos do manual tratam dados de forma tangencial: o [[#CAPÍTULO 2 — 
 
 Este capítulo cobre dados como função: stack moderno, papéis do time de dados, métricas com formulação precisa, experimentação rigorosa (A/B testing com estatística, não achismo) e evolução em escala.
 
-### O que esse capítulo cobre
+### O que este capítulo cobre
 
 Quatro camadas. Infraestrutura de dados (ingestão, armazenamento, transformação, consumo). Analytics e métricas (quais medir, como formular, como reportar). Experimentação (A/B testing rigoroso, design experimental, leitura correta de resultados). Time de dados (papéis, quando contratar, como estruturar).
 
@@ -7661,7 +7661,7 @@ Time e stack de dados estão saudáveis quando todos os itens abaixo estão cump
 ## CAPÍTULO 15 — AI COMO PARTE DO PRODUTO (AI-NATIVE PRODUCT)
 
 > [!warning] Nota de validade
-> Este é o apêndice que envelhece mais rápido no manual. O panorama de modelos, custos, ferramentas e práticas de abril de 2026 estará parcialmente obsoleto em doze a dezoito meses. Os princípios (avaliação rigorosa, mitigação de alucinação, margem real incluindo custo de inferência) têm vida mais longa. Revisar a cada doze meses.
+> Este é este capítulo que envelhece mais rápido no manual. O panorama de modelos, custos, ferramentas e práticas de abril de 2026 estará parcialmente obsoleto em doze a dezoito meses. Os princípios (avaliação rigorosa, mitigação de alucinação, margem real incluindo custo de inferência) têm vida mais longa. Revisar a cada doze meses.
 
 > [!tip] As quatro camadas de IA neste livro
 > IA aparece em quatro camadas, cada uma com decisões e ferramentas distintas. Você está em **AI no produto** (camada 3). As outras três:
@@ -7674,7 +7674,7 @@ O [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 10 — IA GENERATIVA COMO ACELERADOR DO EMPR
 
 Empresa que constrói produto AI-native em 2026 enfrenta disciplinas novas, ausentes do SaaS tradicional. Os erros aqui produzem alucinação em escala, margens negativas, latência que mata a UX ou dependência de um provedor que vira risco estrutural.
 
-### O que esse capítulo cobre
+### O que este capítulo cobre
 
 Componentes centrais de produto AI-native, em nove peças.
 
@@ -7708,7 +7708,7 @@ Dependência de provedor é risco estrutural. Se o seu produto só funciona com 
 
 ### Quando usar
 
-Esse capítulo aplica quando o LLM é componente central do produto (não auxiliar). Quando o volume de uso é igual ou maior que mil inferências por dia (abaixo disso, o `openai.chat` simples basta). E quando a qualidade do output afeta diretamente retenção, ou monetização.
+Este capítulo aplica quando o LLM é componente central do produto (não auxiliar). Quando o volume de uso é igual ou maior que mil inferências por dia (abaixo disso, o `openai.chat` simples basta). E quando a qualidade do output afeta diretamente retenção, ou monetização.
 
 ### Quem envolve
 

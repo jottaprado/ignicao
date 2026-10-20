@@ -121,7 +121,7 @@ flowchart LR
  style Go2 fill:#FFD700,stroke:#8B6914,stroke-width:3px
 ```
 
-### O que esse apêndice cobre
+### O que esta fase cobre
 
 Transformação das incertezas, crenças e intuições acumuladas nas fases anteriores em hipóteses testáveis. Escritas em formato padronizado, priorizadas por risco e impacto. O entregável é o Banco de Hipóteses: uma tabela viva que você vai revisitar durante todo o projeto.
 
@@ -199,7 +199,7 @@ Para entender a diferença entre hipótese ruim e hipótese boa:
 > "Pelo menos trinta por cento dos donos de restaurante do nosso ICP (perfil de cliente ideal), depois de conhecer a solução por uma página de pré-cadastro, vão deixar e-mail e concordar com cobrança antecipada de R$ 49 para acesso ao beta. Se for falsa, significa que a nossa proposta de valor não é forte o bastante para pagamento antecipado, o que compromete a viabilidade do modelo."
 
 > [!tip] Hypothesis Canvas e Test Card como par de ferramentas
-> O formato padronizado acima é o coração do Hypothesis Canvas — registrado como template prático no [[IGNICAO-Vol-1-Ideacao#TEMPLATES OPERACIONAIS E CASOS PREENCHIDOS DESTA FASE|Apêndice A (Template: Hypothesis Canvas) (Vol. 1)]] e com tratamento teórico no [[IGNICAO-Vol-1-Ideacao#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvas: Hypothesis Canvas (autoral IGNIÇÃO) (Vol. 1)]] (em construção). Cada hipótese bet-the-company deve gerar imediatamente 1-3 [[IGNICAO-Vol-1-Ideacao#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Test Cards (Canvas: Test Card (David Bland & Alexander Osterwalder, 2019)) (Vol. 1)]] como follow-up: o Hypothesis Canvas articula *o que* testar; o Test Card articula *como* testar. A disciplina central do Test Card é definir critério de sucesso e critério de refutação **antes** de rodar o experimento — sem isso, qualquer resultado é racionalizado a favor da hipótese. O caso PadariaPro em Canvas: Test Card (David Bland & Alexander Osterwalder, 2019) (Fase 8) mostra como definir zona de incerteza no meio (entre sucesso e refutação) é o que protege contra auto-engano.
+> O formato padronizado acima é o coração do Hypothesis Canvas — registrado como template prático no [[#Template: Hypothesis Canvas|Template: Hypothesis Canvas]] e com tratamento teórico no [[#Canvas: Hypothesis Canvas (autoral IGNIÇÃO)|Canvas: Hypothesis Canvas (autoral IGNIÇÃO)]] (em construção). Cada hipótese bet-the-company deve gerar imediatamente 1-3 [[#Canvas: Test Card (David Bland & Alexander Osterwalder, 2019)|Canvas: Test Card (David Bland & Alexander Osterwalder, 2019)]] como follow-up: o Hypothesis Canvas articula *o que* testar; o Test Card articula *como* testar. A disciplina central do Test Card é definir critério de sucesso e critério de refutação **antes** de rodar o experimento — sem isso, qualquer resultado é racionalizado a favor da hipótese. O caso PadariaPro em Canvas: Test Card (David Bland & Alexander Osterwalder, 2019) (Fase 8) mostra como definir zona de incerteza no meio (entre sucesso e refutação) é o que protege contra auto-engano.
 
 #### Passo 3, aplique o critério de falsificabilidade
 
@@ -751,7 +751,7 @@ Produto já validado no mercado (assumption mapping é para pré-PMF).
 
 ##### Origem
 
-O Hypothesis Canvas documentado neste livro é uma ferramenta autoral desenvolvida especificamente para o contexto de founder brasileiro operando com recursos limitados e necessidade de ciclos curtos de aprendizado. Parte da tradição do Lean Startup (Eric Ries, 2011) e da metodologia de hipóteses científicas aplicada a negócio (Karl Popper via Steve Blank), mas incorpora duas inovações práticas ausentes nos templates estrangeiros: (1) a ligação explícita entre cada hipótese e a **árvore de teoria** do negócio (Fase 3) — forçando o fundador a articular *qual premissa causal da teoria* está sendo testada; (2) o bloco de **due diligence da amostra** antes da comparação com o threshold — evitando o erro de aceitar resultado de amostra inadequada como evidência válida. O template completo preenchível está no [[IGNICAO-Vol-1-Ideacao#TEMPLATES OPERACIONAIS E CASOS PREENCHIDOS DESTA FASE|Apêndice A (Template: Hypothesis Canvas) (Vol. 1)]].
+O Hypothesis Canvas documentado neste livro é uma ferramenta autoral desenvolvida especificamente para o contexto de founder brasileiro operando com recursos limitados e necessidade de ciclos curtos de aprendizado. Parte da tradição do Lean Startup (Eric Ries, 2011) e da metodologia de hipóteses científicas aplicada a negócio (Karl Popper via Steve Blank), mas incorpora duas inovações práticas ausentes nos templates estrangeiros: (1) a ligação explícita entre cada hipótese e a **árvore de teoria** do negócio (Fase 3) — forçando o fundador a articular *qual premissa causal da teoria* está sendo testada; (2) o bloco de **due diligence da amostra** antes da comparação com o threshold — evitando o erro de aceitar resultado de amostra inadequada como evidência válida. O template completo preenchível está no [[#Template: Hypothesis Canvas|Template: Hypothesis Canvas]].
 
 ##### O que é
 
@@ -786,7 +786,7 @@ Três princípios fundamentam o design do canvas:
 
 Para cada hipótese bet-the-company da Fase 6, abra um canvas. Tempo de preenchimento inicial: 30-45 minutos (a parte antes de coletar dados). Conclusão: após coleta e análise.
 
-Use o template completo do [[IGNICAO-Vol-1-Ideacao#TEMPLATES OPERACIONAIS E CASOS PREENCHIDOS DESTA FASE|Apêndice A (Template: Hypothesis Canvas) (Vol. 1)]] para o preenchimento. A estrutura do canvas orienta a sequência — não pule blocos, não preencha de baixo para cima.
+Use o template completo do [[#Template: Hypothesis Canvas|Template: Hypothesis Canvas]] para o preenchimento. A estrutura do canvas orienta a sequência — não pule blocos, não preencha de baixo para cima.
 
 **Sequência obrigatória:**
 
@@ -832,7 +832,7 @@ O Hypothesis Canvas **sucede a Theory Map (Fase 3, Vol. 1)**: cada nó ou seta d
 
 ##### Leitura adicional
 
-- Template completo preenchível: [[IGNICAO-Vol-1-Ideacao#TEMPLATES OPERACIONAIS E CASOS PREENCHIDOS DESTA FASE|Apêndice A, Template: Hypothesis Canvas (Vol. 1)]].
+- Template completo preenchível: [[#Template: Hypothesis Canvas|Template: Hypothesis Canvas]].
 - *The Lean Startup* (Eric Ries, 2011) — fundação filosófica.
 - *Thinking, Fast and Slow* (Daniel Kahneman, 2011) — viés de confirmação e por que threshold pré-definido importa.
 
@@ -860,7 +860,7 @@ O Hypothesis Canvas **sucede a Theory Map (Fase 3, Vol. 1)**: cada nó ou seta d
 Template central para conectar teoria, hipótese, evidência e avaliação. Use um canvas por hipótese prioritária. Preencha os blocos superior e médio **antes** de coletar dado, os blocos inferiores são preenchidos **após** a coleta, respeitando a ordem indicada.
 
 > [!note] Teoria completa em Canvas: Hypothesis Canvas (autoral IGNIÇÃO) (Fase 7)
-> Origem, estrutura, princípios, como aplicar e caso brasileiro do Hypothesis Canvas encontram-se em [[IGNICAO-Vol-1-Ideacao#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvas: Hypothesis Canvas (autoral IGNIÇÃO) (Vol. 1)]]. Este template é o complemento prático (campos preencháveis) daquela seção.
+> Origem, estrutura, princípios, como aplicar e caso brasileiro do Hypothesis Canvas encontram-se em [[#Canvas: Hypothesis Canvas (autoral IGNIÇÃO)|Canvas: Hypothesis Canvas (autoral IGNIÇÃO)]]. Este template é o complemento prático (campos preencháveis) daquela seção.
 
 ```text
 ╔══════════════════════════════════════════════════════════╗
@@ -958,7 +958,7 @@ O entregável é o Banco de Hipóteses priorizado: tabela viva, não documento q
 > [!tip] Stack mínimo da Fase 7
 > Para rodar experimentos baratos. Landing pages rápidas: Webflow, Framer, Carrd, Wix (R$ 0 a R$ 100 por mês, segundo o uso). Tráfego pago para testes: Meta Ads (R$ 500 a R$ 3.000 para primeiros testes), Google Ads (similar), LinkedIn Ads (se B2B, mais caro mas direto). Analytics: Google Analytics 4 (gratuito), Hotjar ou Microsoft Clarity (gratuitos para uso moderado) para heatmap. Plausible (alternativa simples e privacy-first). Pagamentos para pré-venda: Stripe, Asaas, Pagar.me, Stone, MercadoPago (cada um com particularidades regulatórias no Brasil). Regra: o stack de experimentação deveria custar menos de R$ 1.000 por mês no começo. Se está caro antes de aprender, algo está errado.
 
-### O que esse apêndice cobre
+### O que esta fase cobre
 
 Execução de experimentos estruturados para testar as hipóteses prioritárias levantadas na [[#FASE 7 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 7]]. Nesta fase, você ainda foca primariamente em validar o problema e o cliente, não a solução construída. Os experimentos são rápidos, baratos, e desenhados para dar evidência confiável de sim, não, ou talvez.
 
@@ -1077,7 +1077,7 @@ Para qualquer outro tipo de experimento (entrevistas, landing page, fake door, p
 > Se você define depois, vai ajustar o critério para "validar" o que você já queria. Isso é auto-engano.
 
 > [!tip] Test Card: a forma canônica do Cartão de Experimento
-> O cartão de experimento descrito acima é a adaptação brasileira do **Test Card** — ferramenta de David Bland & Alexander Osterwalder (Strategyzer, 2019) para documentar hipótese, método, critério e decisão num único cartão antes de rodar qualquer experimento. O tratamento completo está no [[IGNICAO-Vol-1-Ideacao#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvas: Test Card (David Bland & Alexander Osterwalder, 2019) (Vol. 1)]] — origem histórica, princípios, exemplo brasileiro PadariaPro com smoke test (teste rápido de demanda com landing page ou anúncio, antes de construir qualquer coisa) de R$ 1.500 que produziu critério claro de Persevere/Pivote, e variações como Learning Card (cartão de aprendizado — registro estruturado do resultado de um experimento) e Riskiest Assumption Test (RAT) — teste da premissa mais arriscada. A regra de ouro de Canvas: Test Card (David Bland & Alexander Osterwalder, 2019) (Fase 8): critério de sucesso e critério de refutação devem ser **distintos com zona de incerteza no meio**. Se você define só "sucesso ≥10%" sem definir "refutação ≤2%", qualquer resultado entre 2 e 10% vira interpretação flexível conforme conveniência do time.
+> O cartão de experimento descrito acima é a adaptação brasileira do **Test Card** — ferramenta de David Bland & Alexander Osterwalder (Strategyzer, 2019) para documentar hipótese, método, critério e decisão num único cartão antes de rodar qualquer experimento. O tratamento completo está no [[#Canvas: Test Card (David Bland & Alexander Osterwalder, 2019)|Canvas: Test Card (David Bland & Alexander Osterwalder, 2019)]] — origem histórica, princípios, exemplo brasileiro PadariaPro com smoke test (teste rápido de demanda com landing page ou anúncio, antes de construir qualquer coisa) de R$ 1.500 que produziu critério claro de Persevere/Pivote, e variações como Learning Card (cartão de aprendizado — registro estruturado do resultado de um experimento) e Riskiest Assumption Test (RAT) — teste da premissa mais arriscada. A regra de ouro de Canvas: Test Card (David Bland & Alexander Osterwalder, 2019) (Fase 8): critério de sucesso e critério de refutação devem ser **distintos com zona de incerteza no meio**. Se você define só "sucesso ≥10%" sem definir "refutação ≤2%", qualquer resultado entre 2 e 10% vira interpretação flexível conforme conveniência do time.
 
 #### Passo 2, escolha os tipos de experimento apropriados
 
@@ -1236,7 +1236,7 @@ Depois de comparar resultado com teoria (Passo 8), tome uma das quatro decisões
 Atualize artefatos imediatamente após decidir. Versione: a Declaração vai para v0.2, v0.3, v0.4. Isso é saudável. Significa que você está aprendendo.
 
 > [!tip] Canvases Visuais — Learning Card (Fase 11, Vol. 4)
-> Depois de cada experimento, o par natural do Test Card é o [[IGNICAO-Vol-1-Ideacao#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Learning Card (Canvas: Pirate Canvas / AARRR (Dave McClure, 2007)) (Vol. 1)]] — cartão de uma página que registra o que foi observado (não interpretado), o que foi aprendido, e a decisão tomada (Persevere, Pivote, Abandone). A distinção entre "observação" e "interpretação" no Learning Card é o mecanismo central contra o viés de confirmação pós-experimento. O Banco de Hipóteses atualizado neste passo deve conter o Learning Card de cada experimento concluído.
+> Depois de cada experimento, o par natural do Test Card é o [[IGNICAO-Vol-4-Tracao-e-PMF#Canvas: Pirate Canvas / AARRR (Dave McClure, 2007)|Canvas: Pirate Canvas / AARRR (Dave McClure, 2007) (Vol. 4)]] — cartão de uma página que registra o que foi observado (não interpretado), o que foi aprendido, e a decisão tomada (Persevere, Pivote, Abandone). A distinção entre "observação" e "interpretação" no Learning Card é o mecanismo central contra o viés de confirmação pós-experimento. O Banco de Hipóteses atualizado neste passo deve conter o Learning Card de cada experimento concluído.
 
 ### Os nove passos aplicados, Cartão de Experimento do PadariaPro (hipótese H2 — disposição a pagar)
 
@@ -1351,7 +1351,7 @@ Não documentar o experimento. Sem registro escrito antes e depois, você recons
 
 ### FERRAMENTAS DESTA FASE
 
-Experimentos de validação são o coração da metodologia. Quatro essenciais para a fase; o restante fica como referência consultiva. Canvases complementares: Canvas: Test Card (David Bland & Alexander Osterwalder, 2019) (Fase 8) e Canvas: Pirate Canvas / AARRR (Dave McClure, 2007) (Fase 11, Vol. 4). Catálogo operacional completo em [[IGNICAO-Vol-1-Ideacao#TEMPLATES OPERACIONAIS E CASOS PREENCHIDOS DESTA FASE|Template: Tabela de técnicas de validação por tipo de hipótese (Vol. 1)]] (Tabela de técnicas de validação por tipo de hipótese).
+Experimentos de validação são o coração da metodologia. Quatro essenciais para a fase; o restante fica como referência consultiva. Canvases complementares: Canvas: Test Card (David Bland & Alexander Osterwalder, 2019) (Fase 8) e Canvas: Pirate Canvas / AARRR (Dave McClure, 2007) (Fase 11, Vol. 4). Catálogo operacional completo em [[#Template: Tabela de técnicas de validação por tipo de hipótese|Template: Tabela de técnicas de validação por tipo de hipótese]] (Tabela de técnicas de validação por tipo de hipótese).
 
 **Essenciais para a Fase 7:**
 
@@ -1952,7 +1952,7 @@ Para avançar à [[#FASE 9 — IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES|Fase 9]], 
 > [!question] FMF Check da Fase 8
 > As ideias de solução que estão emergindo são fruto da sua experiência única com o problema, ou são soluções genéricas que apareceriam em qualquer brainstorm? Se forem genéricas, provavelmente você não está no founder-market-fit que imagina, ou está no estágio em que precisa mergulhar mais fundo no mercado antes de prototipar. Entrevistar dez operadores experientes do setor antes de prototipar é mais barato que prototipar solução genérica.
 
-### O que esse apêndice cobre
+### O que esta fase cobre
 
 Geração, avaliação e prototipagem de diferentes soluções possíveis para o problema validado. Aqui você não constrói um produto real. Constrói representações: prototipagem em papel, protótipos clicáveis, mockups (telas estáticas de alta fidelidade), storyboards (sequências visuais mostrando o uso em contexto). Para testar a desejabilidade da solução antes de investir em construção.
 
@@ -2125,7 +2125,7 @@ Não espere terminar todos os testes para iterar. Depois de cada ciclo de três 
 Documento contendo seis itens. Conceitos gerados e avaliados. Conceitos selecionados, detalhados. Protótipos (ou links). Resumo dos testes com usuários (padrões observados, problemas encontrados, verbatim). Recomendação de conceito a construir, com justificativa. Riscos e incógnitas remanescentes.
 
 > [!tip] Templates Operacionais — Template do Dossiê de Solução (Template da Fase 5, Vol. 2)
-> O [[IGNICAO-Vol-1-Ideacao#TEMPLATES OPERACIONAIS E CASOS PREENCHIDOS DESTA FASE|Apêndice A (Template: Persona com dados) (Vol. 1)]] contém o template preenchível do Dossiê de Solução com os seis campos acima em formato estruturado. Use-o para garantir que a documentação de cada conceito avaliado seja consistente entre si e comparável na tomada de decisão do Passo 4.
+> O [[IGNICAO-Vol-2-Descoberta-e-Mercado#Template: Persona com dados|Template: Persona com dados (Vol. 2)]] contém o template preenchível do Dossiê de Solução com os seis campos acima em formato estruturado. Use-o para garantir que a documentação de cada conceito avaliado seja consistente entre si e comparável na tomada de decisão do Passo 4.
 
 ### Os sete passos aplicados, sessão de ideação do PadariaPro
 
@@ -2190,7 +2190,7 @@ A lição transferível. Protótipo em papel revela falhas de experiência por a
 - Qual a linguagem visual e narrativa que o usuário entende e reconhece?
 
 > [!tip] Opportunity Canvas e MVP Canvas como par de ferramentas desta fase
-> Antes da sessão de divergência (Passo 1), use o Opportunity Canvas (Fase 9) para estruturar oportunidades por desejabilidade, viabilidade e usabilidade — priorizando onde prototipar. Antes de qualquer linha de código, use o MVP Canvas (Fase 9) para definir hipótese central, segmento do MVP, tipo de artefato mais barato e critério de invalidação. Veja instruções e casos em [[IGNICAO-Vol-1-Ideacao#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvas: Opportunity Canvas (Jeff Patton, 2014) (Vol. 1)]] e [[IGNICAO-Vol-1-Ideacao#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvas: MVP Canvas (Tristan Kromer) (Vol. 1)]].
+> Antes da sessão de divergência (Passo 1), use o Opportunity Canvas (Fase 9) para estruturar oportunidades por desejabilidade, viabilidade e usabilidade — priorizando onde prototipar. Antes de qualquer linha de código, use o MVP Canvas (Fase 9) para definir hipótese central, segmento do MVP, tipo de artefato mais barato e critério de invalidação. Veja instruções e casos em [[#Canvas: Opportunity Canvas (Jeff Patton, 2014)|Canvas: Opportunity Canvas (Jeff Patton, 2014)]] e [[#Canvas: MVP Canvas (Tristan Kromer)|Canvas: MVP Canvas (Tristan Kromer)]].
 
 ### SAÍDA DESTA FASE
 
@@ -2933,7 +2933,7 @@ Esse dossiê é o insumo da [[#FASE 10 — TESTES DE SOLUÇÃO E USABILIDADE|Fas
 
 ## FASE 10 — TESTES DE SOLUÇÃO E USABILIDADE
 
-### O que esse apêndice cobre
+### O que esta fase cobre
 
 Nesta fase você refina o conceito escolhido por meio de testes de usabilidade, entrevistas de solução (diferentes das de problema), e validação da proposta de valor com usuários reais. Você também define os requisitos funcionais mínimos do MVP que será construído na [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 11 — MVP E EXPERIMENTOS DE MERCADO|Fase 11 (Vol. 4)]].
 
@@ -2977,7 +2977,7 @@ Diferente da entrevista de problema ([[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 4
 Faça dez a quinze dessas entrevistas. Grave, transcreva, analise.
 
 > [!tip] Canvases Visuais — Empathy Map (Fase 4, Vol. 2)
-> Após cada rodada de testes de solução e usabilidade, o [[IGNICAO-Vol-1-Ideacao#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Empathy Map (Canvas: Empathy Map (Dave Gray / XPLANE, 2009)) (Vol. 1)]] — Says, Thinks, Does, Feels — sintetiza os estados internos do usuário em formato visual de uma página. Útil para alinhar time de produto sobre as descobertas qualitativas (frustração no fluxo X, expectativa não atendida no passo Y) sem que cada membro reconstrua mentalmente a sessão de teste do zero.
+> Após cada rodada de testes de solução e usabilidade, o [[IGNICAO-Vol-2-Descoberta-e-Mercado#Canvas: Empathy Map (Dave Gray / XPLANE, 2009)|Canvas: Empathy Map (Dave Gray / XPLANE, 2009) (Vol. 2)]] — Says, Thinks, Does, Feels — sintetiza os estados internos do usuário em formato visual de uma página. Útil para alinhar time de produto sobre as descobertas qualitativas (frustração no fluxo X, expectativa não atendida no passo Y) sem que cada membro reconstrua mentalmente a sessão de teste do zero.
 
 #### Passo 2, aplique a técnica das cinco escalas de valor
 
@@ -3069,7 +3069,7 @@ Documento contendo dez itens.
 Proposta de valor final, em uma frase. Persona foco (beachhead). JTBDs principais a resolver. Lista de Must Haves. Lista de Should e Could Haves (roadmap futuro). Explicitamente: o que o MVP *não* fará (Won't Haves). Critérios de sucesso do MVP (métricas). Faixa de preço planejada. Canais de aquisição planejados. Prazo de desenvolvimento estimado. Orçamento.
 
 > [!tip] Templates Operacionais — Template da Especificação do MVP (Template da Fase 10)
-> O [[IGNICAO-Vol-1-Ideacao#TEMPLATES OPERACIONAIS E CASOS PREENCHIDOS DESTA FASE|Apêndice A (Template: Especificação de MVP) (Vol. 1)]] contém o template preenchível da Especificação do MVP com os dez campos acima, mais seção de riscos remanescentes e suposições ainda não validadas. Usar o template em vez de documento livre garante que nenhum campo crítico (Won't Haves, critério de sucesso mensurável) seja omitido por pressão de entrar logo em desenvolvimento.
+> O [[#Template: Especificação de MVP|Template: Especificação de MVP]] contém o template preenchível da Especificação do MVP com os dez campos acima, mais seção de riscos remanescentes e suposições ainda não validadas. Usar o template em vez de documento livre garante que nenhum campo crítico (Won't Haves, critério de sucesso mensurável) seja omitido por pressão de entrar logo em desenvolvimento.
 
 #### Passo 7, aplique o Gate de Direcionalidade
 
@@ -3833,7 +3833,7 @@ Por que empreendedores inteligentes constroem produtos que ninguém compra? Porq
 ## CAPÍTULO 1 — ABORDAGEM CIENTÍFICA vs LEAN STARTUP: QUANDO USAR CADA UMA
 
 > [!important] Para o framework Antler em detalhe
-> Este apendice articula tres frameworks (cientifico, operacional, jornada PSF para PMF). Antler e o quarto framework relevante e merece tratamento proprio em [[#CAPÍTULO 5 — IDEA → WEDGE → SCALE: O FRAMEWORK ANTLER COMO LENTE TRANSVERSAL|Capítulo 5 (IDEA → WEDGE → SCALE: O FRAMEWORK ANTLER COMO LENTE TRANSVERSAL)]]. Aqui ele e mencionado, la e desdobrado.
+> Este capítulo articula tres frameworks (cientifico, operacional, jornada PSF para PMF). Antler e o quarto framework relevante e merece tratamento proprio em [[#CAPÍTULO 5 — IDEA → WEDGE → SCALE: O FRAMEWORK ANTLER COMO LENTE TRANSVERSAL|Capítulo 5 (IDEA → WEDGE → SCALE: O FRAMEWORK ANTLER COMO LENTE TRANSVERSAL)]]. Aqui ele e mencionado, la e desdobrado.
 
 > [!abstract] Como ler a Fatia Frameworks e Casos
 > Esta fatia tem tres trilhas independentes,
@@ -3950,7 +3950,7 @@ Na estruturação e escala (Fases 12 e 13), os três frameworks quase desaparece
 >
 > "Pain Level, CRL, PSF/PMF, Moore's Chasm, qual taxonomia devo usar para meus clientes?" Use em conjunto. Pain Level (um a cinco) classifica cada entrevistado individualmente. CRL (um a sete) classifica a maturidade da sua relação com o mercado como um todo (útil em editais). PSF/PMF classifica o estágio da sua startup. Moore classifica em qual onda de adoção você está (early adopters, early majority, late majority).
 >
-> "Árvore de teoria é o mesmo que Business Model Canvas?" Não. BMC é um inventário de blocos (o que você tem). Árvore de teoria é uma rede causal (por que funciona). O Theory Map ([[IGNICAO-Vol-1-Ideacao#TEMPLATES OPERACIONAIS E CASOS PREENCHIDOS DESTA FASE|Templates Operacionais da Fase (Vol. 1)]].9) conecta os dois explicitamente.
+> "Árvore de teoria é o mesmo que Business Model Canvas?" Não. BMC é um inventário de blocos (o que você tem). Árvore de teoria é uma rede causal (por que funciona). O Theory Map ([[#TEMPLATES OPERACIONAIS E CASOS PREENCHIDOS DESTA FASE|Templates Operacionais da Fase]].9) conecta os dois explicitamente.
 
 Tabela de tradução entre taxonomias de cliente e produto:
 
@@ -4001,7 +4001,7 @@ O framework Antler tem desdobramento proprio em [[#CAPÍTULO 5 — IDEA → WEDG
 
 ### Como os três frameworks se reconciliam fase a fase
 
-Esse capítulo já cobriu a integração entre os frameworks científico (João Prado), operacional (YC e Antler), e descoberta contínua (Teresa Torres). Essa seção sumariza a reconciliação por fase em forma compacta.
+Este capítulo já cobriu a integração entre os frameworks científico (João Prado), operacional (YC e Antler), e descoberta contínua (Teresa Torres). Essa seção sumariza a reconciliação por fase em forma compacta.
 
 | Fase | Framework dominante | Por que |
 |---|---|---|
@@ -4028,7 +4028,7 @@ Camuffo, A., Cordova, A., Gambardella, A., e Spina, C. (2020). *A scientific app
 ## CAPÍTULO 2 — FRAMEWORK DE DECISÃO POR GATES (PROBLEM CORE + SCALE LEVERS + EXPLORATORY)
 
 > [!note] Quando aplicar
-> Esse capítulo é um sistema de avaliação numérica que você aplica à sua ideia em qualquer fase. É útil ao final da Fase 5, para decidir se prossegue, e ao final da Fase 11, para decidir se levanta capital ou escala. O framework combina o Sistema H/E, ver Fase 6, com gates de decisão em três categorias, derivadas do trabalho de operadores e investidores em estágio inicial.
+> Este capítulo é um sistema de avaliação numérica que você aplica à sua ideia em qualquer fase. É útil ao final da Fase 5, para decidir se prossegue, e ao final da Fase 11, para decidir se levanta capital ou escala. O framework combina o Sistema H/E, ver Fase 6, com gates de decisão em três categorias, derivadas do trabalho de operadores e investidores em estágio inicial.
 
 O princípio é simples. Em qualquer ideia de negócio há perguntas deal-breakers, se uma falha, a ideia morre, e perguntas levers, fatores que, juntos, determinam a velocidade e a amplitude do crescimento. Não dá para compensar nota baixa num deal-breaker com notas altas nos levers. Daí a estrutura em duas fases.
 
@@ -4173,7 +4173,7 @@ ___________________________________________________________
 
 ## CAPÍTULO 3 — TRL E CRL: MATURIDADE TECNOLÓGICA E DE MERCADO
 
-Esse capítulo é relevante para empreendedores que trabalham com tecnologia complexa, deeptech, biotech, energia, indústria ou hardware, ou que pretendem participar de programas corporativos de inovação, Petrobras, BNDES, Embraer, Embrapii, Inova Empresa ou editais de fomento governamental. Em negócios puramente digitais ou de serviços simples, os conceitos são úteis, porém menos críticos.
+Este capítulo é relevante para empreendedores que trabalham com tecnologia complexa, deeptech, biotech, energia, indústria ou hardware, ou que pretendem participar de programas corporativos de inovação, Petrobras, BNDES, Embraer, Embrapii, Inova Empresa ou editais de fomento governamental. Em negócios puramente digitais ou de serviços simples, os conceitos são úteis, porém menos críticos.
 
 ### TRL, Technology Readiness Level
 
@@ -4291,7 +4291,7 @@ A avaliação honesta. Conta a seu favor em editais que buscam estágios especí
 
 ## CAPÍTULO 4 — COMO FECHAR UMA FASE: COMMITTED NEXT MOVE E SINAIS OBSERVÁVEIS
 
-Esse capítulo trata de algo que o checklist de SAÍDA DESTA FASE de cada fase não cobre, a estrutura do próximo passo a que você se compromete antes de virar a página. Os checklists de saída dizem "o que você precisa ter feito". Esse capítulo diz "como você sabe que o próximo passo é experimento comprometido e não procrastinação disfarçada de rigor". Vale ao fim de qualquer fase.
+Este capítulo trata de algo que o checklist de SAÍDA DESTA FASE de cada fase não cobre, a estrutura do próximo passo a que você se compromete antes de virar a página. Os checklists de saída dizem "o que você precisa ter feito". Este capítulo diz "como você sabe que o próximo passo é experimento comprometido e não procrastinação disfarçada de rigor". Vale ao fim de qualquer fase.
 
 ### COMMITTED NEXT MOVE (próximo passo comprometido), a estrutura ao fim de cada fase
 
@@ -4346,7 +4346,7 @@ Estes cinco capítulos fecham o Volume 3 entregando os playbooks arquiteturais d
 > [!important] Relacao com F
 > L desdobra o framework Antler como lente transversal. Para o mapa dos quatro frameworks fundacionais do livro (cientifico, operacional, jornada PSF-PMF, Antler), ver [[#CAPÍTULO 1 — ABORDAGEM CIENTÍFICA vs LEAN STARTUP: QUANDO USAR CADA UMA|Capítulo 1 (ABORDAGEM CIENTÍFICA vs LEAN STARTUP: QUANDO USAR CADA UMA)]].
 
-### Por que esse capítulo existe
+### Por que este capítulo existe
 
 No [[#CAPÍTULO 1 — ABORDAGEM CIENTÍFICA vs LEAN STARTUP: QUANDO USAR CADA UMA|Capítulo 1 (ABORDAGEM CIENTÍFICA vs LEAN STARTUP: QUANDO USAR CADA UMA)]], o "Antler" aparece citado dentro do Framework 2, Operacional-prático, junto com YC, João Prado, Blank e Maurya. Em sentido estrito, está correto. O Antler é uma voz do conjunto de operadores de campo, e o vocabulário dele, cunha, Pain Level, Mom Test, *heartfelt problems*, é compartilhado com outros. Mas há um corpo específico de pensamento, a síntese "Idea para Wedge para Scale", que merece tratamento destacado por três razões.
 
@@ -4356,7 +4356,7 @@ A segunda. Foi integrado em profundidade a esse manual. Dezenas de elementos Ant
 
 A terceira. O Antler tem vocabulário próprio e preciso, wedge, scope instability, platform versus wedge, expansion discipline, que merece registro consolidado para consulta rápida.
 
-Esse capítulo complementa o [[#CAPÍTULO 1 — ABORDAGEM CIENTÍFICA vs LEAN STARTUP: QUANDO USAR CADA UMA|Capítulo 1 (ABORDAGEM CIENTÍFICA vs LEAN STARTUP: QUANDO USAR CADA UMA)]]. Trata o Antler como lente transversal, que pode ser invocada em qualquer fase. Não apenas como item de uma lista de operadores.
+Este capítulo complementa o [[#CAPÍTULO 1 — ABORDAGEM CIENTÍFICA vs LEAN STARTUP: QUANDO USAR CADA UMA|Capítulo 1 (ABORDAGEM CIENTÍFICA vs LEAN STARTUP: QUANDO USAR CADA UMA)]]. Trata o Antler como lente transversal, que pode ser invocada em qualquer fase. Não apenas como item de uma lista de operadores.
 
 ### Os três estágios
 
@@ -4441,7 +4441,7 @@ Os conceitos abaixo aparecem em várias fases, e merecem definição consolidada
 
 ### Regra final
 
-O framework Antler é especialmente útil, quando o empreendedor reconhece um ou mais desses sintomas. Não sabe por onde começar a vender. Tem cunha instável, mesmo após múltiplas iterações. Sente que "escalar" não está funcionando. Ou está prestes a declarar saturação, sem ter esgotado caminhos de expansão. Nesses momentos, abrir esse capítulo, e percorrer o mapa de integração, tipicamente revela qual fase do manual precisa ser revisitada com atenção renovada.
+O framework Antler é especialmente útil, quando o empreendedor reconhece um ou mais desses sintomas. Não sabe por onde começar a vender. Tem cunha instável, mesmo após múltiplas iterações. Sente que "escalar" não está funcionando. Ou está prestes a declarar saturação, sem ter esgotado caminhos de expansão. Nesses momentos, abrir este capítulo, e percorrer o mapa de integração, tipicamente revela qual fase do manual precisa ser revisitada com atenção renovada.
 
 > [!important] Antler é o mais prescritivo dos quatro frameworks
 > Dos quatro frameworks articulados nesse manual, o Antler é o mais prescritivo. Ele diz o que fazer, em que ordem. Isso é força, e limite. É força quando o empreendedor está paralisado por excesso de opções, e precisa de disciplina de sequência. É limite quando o contexto exige reconfiguração não-sequencial. Por exemplo, em deeptech onde a tecnologia precisa amadurecer, antes da cunha ser definível. Ou em *platform plays* genuínos, onde amplitude inicial é intencional. Como qualquer framework, é ferramenta, não religião. Use onde ajuda. Adapte onde atrapalha.
@@ -4461,13 +4461,13 @@ Uma categoria crescente de startups opera como marketplace, conectando dois ou m
 > [!warning] Risco de plataforma costuma ser maior que risco de produto
 > A Apple muda regra de trinta por cento. A AWS muda preço. O Google muda algoritmo. O Shopify compra concorrente. A empresa constrói três anos e perde cinquenta por cento de margem em uma semana.
 
-### O que esse capítulo cobre
+### O que este capítulo cobre
 
 Dois temas relacionados. Primeiro, marketplace dynamics (dinâmicas de marketplace): liquidez, matching (correspondência entre os lados), cold start (partida a frio), defensibilidade e disintermediação. São dinâmicas próprias que não se aplicam em SaaS, e cujo erro de entendimento equivale a fracasso estrutural. Segundo, dependência de plataforma: quando a sua empresa é acessório de outra empresa. É categoria invisível de risco até acontecer, capaz de transformar empresa saudável em crise em dias.
 
 ### Quando usar
 
-Esse capítulo se aplica se: o seu produto é marketplace (conecta dois ou mais lados não-relacionados); o seu produto vive dentro de plataforma de terceiro (app, extensão ou integração); o seu canal de aquisição depende crucialmente de uma plataforma (Google, Meta ou Apple).
+Este capítulo se aplica se: o seu produto é marketplace (conecta dois ou mais lados não-relacionados); o seu produto vive dentro de plataforma de terceiro (app, extensão ou integração); o seu canal de aquisição depende crucialmente de uma plataforma (Google, Meta ou Apple).
 
 ### Quem envolve
 
@@ -4663,7 +4663,7 @@ Plataforma é um negócio que cria valor conectando múltiplos lados, oferta e d
 
 A distinção é crítica por três razões estratégicas. A economia é muito diferente (margens, unit economics ou economia por unidade de cliente, e defensabilidade). A execução é muito diferente (construir dois lados ao mesmo tempo é exponencialmente mais difícil). E o sucesso é muito diferente. Quando funciona, winner-takes-most (o vencedor leva a maior parte). Quando não funciona, queima capital monumental.
 
-Os fundadores cometem um erro clássico. Lançam como produto, pensam "agora vou virar plataforma" e travam. Ou lançam como plataforma sem entender dinâmica de rede e queimam capital inicial por falta de massa crítica. Esse capítulo trata de quando cada modelo é apropriado, como executar cada um e como fazer transições quando necessário.
+Os fundadores cometem um erro clássico. Lançam como produto, pensam "agora vou virar plataforma" e travam. Ou lançam como plataforma sem entender dinâmica de rede e queimam capital inicial por falta de massa crítica. Este capítulo trata de quando cada modelo é apropriado, como executar cada um e como fazer transições quando necessário.
 
 ### Por que importa
 
@@ -4975,7 +4975,7 @@ B2B2C saudável tem diversidade de Bs (nenhum acima de quinze a vinte por cento 
 
 > **Aplicabilidade**: empresas dev-tools ou infra. Crescente em SaaS moderno.
 
-### O que esse capítulo cobre
+### O que este capítulo cobre
 
 Usar open source (código aberto) como **estratégia de go-to-market (entrada no mercado)**, não só como prática de engenharia. O projeto open source vira funil de awareness (descoberta), community (comunidade), e conversão.
 

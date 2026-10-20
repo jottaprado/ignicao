@@ -1649,14 +1649,14 @@ Antes de sentar à mesa com qualquer fundo de Venture Capital ou banco, o fundad
 ## CAPÍTULO 1 — DEMONSTRATIVOS FINANCEIROS PARA O FUNDADOR
 
 > [!important] Casa canônica dos fundamentos das três demonstrações
-> Os fundamentos de DRE, Balanço Patrimonial e DFC (estrutura, leitura, conexão entre as três, EBITDA, margens críticas) vivem aqui. Os apêndices [[#CAPÍTULO 2 — MODELAGEM FINANCEIRA OPERACIONAL|AN]] (modelagem operacional a partir de drivers), [[#CAPÍTULO 3 — MODELAGEM FINANCEIRA COM COHORTS: PROJEÇÕES QUE FUNCIONAM EM EMPRESA RECORRENTE|CD]] (modelagem com cohorts em recorrência) e [[#CAPÍTULO 16 — PLANEJAMENTO FINANCEIRO E ORÇAMENTO|EC]] (planejamento e orçamento) aprofundam aplicações específicas e referenciam este capítulo como base conceitual.
+> Os fundamentos de DRE, Balanço Patrimonial e DFC (estrutura, leitura, conexão entre as três, EBITDA, margens críticas) vivem aqui. Os capítulos [[#CAPÍTULO 2 — MODELAGEM FINANCEIRA OPERACIONAL|Capítulo 2 (MODELAGEM FINANCEIRA OPERACIONAL)]] (modelagem operacional a partir de drivers), [[#CAPÍTULO 3 — MODELAGEM FINANCEIRA COM COHORTS: PROJEÇÕES QUE FUNCIONAM EM EMPRESA RECORRENTE|Capítulo 3 (MODELAGEM FINANCEIRA COM COHORTS: PROJEÇÕES QUE FUNCIONAM EM EMPRESA RECORRENTE)]] (modelagem com cohorts em recorrência) e [[#CAPÍTULO 16 — PLANEJAMENTO FINANCEIRO E ORÇAMENTO|Capítulo 16 (PLANEJAMENTO FINANCEIRO E ORÇAMENTO)]] (planejamento e orçamento) aprofundam aplicações específicas e referenciam este capítulo como base conceitual.
 
 > [!note] Nota de validade
 > As estruturas de DRE, Balanço, e DFC descritas aqui seguem as normas contábeis brasileiras (CPC/IFRS). Limites e alíquotas do Simples Nacional são revisados anualmente pela Receita Federal. Benchmarks de margem por segmento variam com o ciclo econômico. Este capítulo reflete o cenário de abril de 2026. Revisar anualmente com o contador responsável.
 
 O [[#CAPÍTULO 2 — MODELAGEM FINANCEIRA OPERACIONAL|Capítulo 2 (MODELAGEM FINANCEIRA OPERACIONAL)]] cobre como construir um modelo financeiro a partir de drivers (variáveis-chave) operacionais. O [[#CAPÍTULO 16 — PLANEJAMENTO FINANCEIRO E ORÇAMENTO|Capítulo 16 (PLANEJAMENTO FINANCEIRO E ORÇAMENTO)]] cobre como transformar esse modelo em orçamento aprovado pelo board (conselho). Este capítulo cobre o que acontece antes disso: a capacidade de ler o que já aconteceu. Demonstrações financeiras são o registro histórico da empresa. O fundador que não sabe ler esse registro governa no escuro.
 
-### O que esse capítulo cobre
+### O que este capítulo cobre
 
 Três demonstrações que toda empresa produz, e como elas se conectam.
 
@@ -2074,7 +2074,7 @@ Vários pontos do manual mencionam "modelo financeiro": [[IGNICAO-Vol-4-Tracao-e
 
 Este capítulo cobre modelagem financeira como disciplina. Estrutura, drivers (variáveis que dirigem o modelo), cenários, análise de sensibilidade e como usar o modelo como instrumento de decisão operacional, não só como deliverable (entregável) para investidor.
 
-### O que esse capítulo cobre
+### O que este capítulo cobre
 
 Modelo financeiro operacional é planilha ou ferramenta estruturada que projeta o futuro financeiro da empresa, a partir de drivers operacionais (não de números inventados). Tem três demonstrações integradas.
 
@@ -2594,7 +2594,7 @@ Para o diagnóstico fundacional de capital de giro e ciclo de conversão de caix
 
 O [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 1 — DINHEIRO PESSOAL DO FUNDADOR|Capítulo 1 (DINHEIRO PESSOAL DO FUNDADOR) (Vol. 1)]] cobre dinheiro pessoal. O [[#CAPÍTULO 2 — MODELAGEM FINANCEIRA OPERACIONAL|Capítulo 2 (MODELAGEM FINANCEIRA OPERACIONAL)]] cobre modelagem. O [[#CAPÍTULO 9 — FINANCIAMENTO NÃO-DILUITIVO|Capítulo 9 (FINANCIAMENTO NÃO-DILUITIVO)]] cobre fomento. O [[#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES)]] cobre equity. Falta a disciplina operacional diária de gestão de caixa, que é onde as startups brasileiras mais morrem. Mais empresas quebram por gestão de caixa ruim do que por estratégia errada.
 
-### O que esse capítulo cobre
+### O que este capítulo cobre
 
 Gestão diária ou semanal do fluxo de caixa operacional.
 
@@ -2794,7 +2794,7 @@ Duas lições que eu considero as mais importantes dos dois ensaios juntos.
 
 Captação é um projeto com deadline próprio. Não um estado permanente. Enquanto está captando, você não está construindo. Enquanto não está captando, não fale com VC (exceto em modo relacionamento, via update mensal). Mistura de modos destrói tanto a captação, quanto a construção.
 
-### O que esse capítulo cobre
+### O que este capítulo cobre
 
 Captação de equity é um processo (não evento), que envolve quatro frentes.
 
@@ -2803,7 +2803,7 @@ Captação de equity é um processo (não evento), que envolve quatro frentes.
 3. Fechamento. Negociação de term sheet, due diligence, e documentação legal.
 4. Relacionamento pós-rodada. Comunicação, governança, e preparação da próxima rodada.
 
-Entregáveis tangíveis. Pitch Deck (doze a quinze slides), estruturado, e adaptável ao público — esqueleto SCQA pronto em [[IGNICAO-Vol-1-Ideacao#TEMPLATES OPERACIONAIS E CASOS PREENCHIDOS DESTA FASE|Template: Pitch Deck SCQA — Esqueleto (Vol. 1)]]. Modelo Financeiro (planilha), com unit economics, projeção três a cinco anos, e cenários. Data Room (pasta estruturada em Google Drive, Notion, ou plataforma dedicada), com documentos organizados. Investor Update mensal, ou bimestral (documento recorrente) — template em [[IGNICAO-Vol-1-Ideacao#TEMPLATES OPERACIONAIS E CASOS PREENCHIDOS DESTA FASE|Template: Investor Update Mensal — Template (Vol. 1)]]. Lista de Investidores-Alvo, com prioridade, status, e pontos de contato.
+Entregáveis tangíveis. Pitch Deck (doze a quinze slides), estruturado, e adaptável ao público — esqueleto SCQA pronto em [[#Template: Pitch Deck SCQA — Esqueleto|Template: Pitch Deck SCQA — Esqueleto]]. Modelo Financeiro (planilha), com unit economics, projeção três a cinco anos, e cenários. Data Room (pasta estruturada em Google Drive, Notion, ou plataforma dedicada), com documentos organizados. Investor Update mensal, ou bimestral (documento recorrente) — template em [[#Template: Investor Update Mensal — Template|Template: Investor Update Mensal — Template]]. Lista de Investidores-Alvo, com prioridade, status, e pontos de contato.
 
 > [!note] Contexto operacional
 > Captação não acontece no vácuo. A [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16 (Vol. 6)]] é onde a empresa transita de PMF para máquina, e cobre todas as frentes simultâneas (time, operações, crescimento e capital) em que a captação é uma decisão. O [[#CAPÍTULO 6 — PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO|Capítulo 6 (PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO)]] trata o fundraising como projeto com cronograma e milestones próprios. O [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 4 — BOOTSTRAP vs VENTURE CAPITAL: A ESCOLHA FUNDACIONAL|Capítulo 4 (BOOTSTRAP vs VENTURE CAPITAL: A ESCOLHA FUNDACIONAL) (Vol. 1)]] trata a decisão anterior — captar equity ou não.
@@ -3307,7 +3307,7 @@ Para validar prontidão para captar.
 
 ### Escolhendo o investidor, a diligência do fundador sobre o VC
 
-A maior parte desse apêndice trata de como captar. Pitch, processo, term sheet, e negociação. Essa seção trata de algo logicamente anterior. Como você decide se aceita o cheque, quando o investidor oferece. A diligência é bidirecional. O VC te investiga por quatro a oito semanas antes de assinar. Você deveria fazer o mesmo, por pelo menos metade desse tempo. Na prática, a maioria dos fundadores faz pouco, ou nenhum, desse trabalho. E isso produz alguns dos erros mais caros da trajetória.
+A maior parte deste capítulo trata de como captar. Pitch, processo, term sheet, e negociação. Essa seção trata de algo logicamente anterior. Como você decide se aceita o cheque, quando o investidor oferece. A diligência é bidirecional. O VC te investiga por quatro a oito semanas antes de assinar. Você deveria fazer o mesmo, por pelo menos metade desse tempo. Na prática, a maioria dos fundadores faz pouco, ou nenhum, desse trabalho. E isso produz alguns dos erros mais caros da trajetória.
 
 Investidor errado, com cheque bom, pode destruir a empresa em três a cinco anos. Board dominado por VC tóxico impõe decisões que quebram produto, esgotam time, e aceleram timeline artificialmente. Investidor certo, com cheque menor, pode ser multiplicador, que salva a empresa em momentos críticos, abre portas, traz co-investidores, introduz primeiros clientes enterprise, e apoia nos momentos difíceis. A assimetria entre bom, e ruim, é gigante. E o custo de escolher mal é alto, porque a saída é praticamente impossível, uma vez comprometido.
 
@@ -4271,9 +4271,9 @@ Este capítulo cobre sete instrumentos de financiamento não-diluitivo disponív
 > [!important] Regra geral
 > Equity primeiro, quando você precisa de alguém no barco. Dívida, ou não-diluitivo, quando você precisa só do dinheiro.
 
-### O que esse capítulo cobre
+### O que este capítulo cobre
 
-Financiamento não-diluitivo é qualquer forma de capital, que não exige venda de participação societária. Você pega dinheiro, paga de volta (com juros, com revenue share, com entrega de serviço, ou simplesmente consumindo o benefício fiscal), e continua dono do que era seu. Alguns instrumentos têm "pegadinha diluitiva" disfarçada. Warrants em venture debt, por exemplo. E esse capítulo explicita cada uma.
+Financiamento não-diluitivo é qualquer forma de capital, que não exige venda de participação societária. Você pega dinheiro, paga de volta (com juros, com revenue share, com entrega de serviço, ou simplesmente consumindo o benefício fiscal), e continua dono do que era seu. Alguns instrumentos têm "pegadinha diluitiva" disfarçada. Warrants em venture debt, por exemplo. E este capítulo explicita cada uma.
 
 Entregável. Plano de Financiamento. Documento de duas a três páginas que mapeia necessidade de caixa nos próximos dezoito meses, qual fração será equity, e qual não-diluitivo, e justificativa para a escolha de cada instrumento.
 
@@ -4406,7 +4406,7 @@ Quando faz sentido. Early stage com comunidade orgânica de apoiadores (clientes
 Armadilhas. Cap table com cinquenta investidores em diante vira pesadelo em rodadas futuras. Os VCs pedem consolidação. Obrigação de reporte trimestral, ou semestral, a investidores mínimos consome tempo do CEO. Percepção de mercado. Rodada via crowdfunding pode ser lida como "não conseguiu com fundos sérios". Isso é injusto, mas é real.
 
 > [!note] Aviso
-> Tecnicamente, crowdfunding equity É diluitivo. Apareceu nesse apêndice como alternativa a rodada VC tradicional. Leia com essa ressalva.
+> Tecnicamente, crowdfunding equity É diluitivo. Apareceu neste capítulo como alternativa a rodada VC tradicional. Leia com essa ressalva.
 
 **Instrumento 7, Debêntures Conversíveis, ou Notas Conversíveis Estruturadas.**
 
@@ -4523,7 +4523,7 @@ Antes de assinar qualquer contrato não-diluitivo.
 > [!note] Nota de validade
 > Os produtos de financiamento não-diluitivo no Brasil estão em forte evolução, 2023 a 2026. Termos, taxas, e providers mudam. Revisar anualmente.
 
-### O que esse capítulo cobre
+### O que este capítulo cobre
 
 Alternativas a equity (participação societária) para financiar crescimento.
 
@@ -4905,7 +4905,7 @@ Tokenização é sucesso quando o problema específico que a motivou foi resolvi
 - [ ] Documentação de todas as decisões para futuras rodadas, ou M&A?
 
 > [!note] Nota de validade importante
-> Área em evolução regulatória rápida. Resolução CVM, instruções do BC, orientações da Receita Federal, Lei 14.478, tudo está sendo interpretado, e refinado continuamente. Consultar especialistas sobre estado vigente, antes de operar. Esse capítulo reflete abril de 2026. Pode estar defasado em seis a doze meses.
+> Área em evolução regulatória rápida. Resolução CVM, instruções do BC, orientações da Receita Federal, Lei 14.478, tudo está sendo interpretado, e refinado continuamente. Consultar especialistas sobre estado vigente, antes de operar. Este capítulo reflete abril de 2026. Pode estar defasado em seis a doze meses.
 
 ### Ver também
 
@@ -5093,7 +5093,7 @@ Um dos maiores valores do IR bem feito é que a Série A começa a ser preparada
 5. **Esconder problemas até virarem crises.** A surpresa é sempre pior do que o problema em si.
 6. **Não documentar decisões do board.** Sem registro, revisionism é inevitável.
 
-**Ver também:** [[#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 — Captação]], [[#CAPÍTULO 6 — PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO|Capítulo 6 — Planejamento de Rodada]], [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 1 — BOARD E GOVERNANCE|Capítulo 1 — Board e Governance (Vol. 9)]], Template [[IGNICAO-Vol-9-Maturidade-e-Exit#Template: Board Deck (Apresentação para o Conselho)|Template: Board Deck (Apresentação para o Conselho) Board Deck (Vol. 9)]]
+**Ver também:** [[#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 — Captação]], [[#CAPÍTULO 6 — PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO|Capítulo 6 — Planejamento de Rodada]], [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 1 — BOARD E GOVERNANCE|Capítulo 1 — Board e Governance (Vol. 9)]], Template [[IGNICAO-Vol-9-Maturidade-e-Exit#Template: Board Deck (Apresentação para o Conselho)|Template: Board Deck (Apresentação para o Conselho) (Vol. 9)]]
 
 ---
 
@@ -5116,7 +5116,7 @@ Uma rodada milionária no banco evapora rápido se a empresa operar com estrutur
 
 A [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18 (Vol. 8)]] cobre constituição da empresa, cap table e contratos. Este capítulo aprofunda o que muitos fundadores brasileiros aprendem errado ou tarde. Contabilidade e tributação como disciplinas operacionais. Erros aqui podem gerar passivos de R$ 5 a R$ 50 milhões, descobertos em due diligence, e fazer exit desmoronar por questões que custariam R$ 50 mil para prevenir.
 
-### O que esse capítulo cobre
+### O que este capítulo cobre
 
 Três camadas.
 
@@ -6048,7 +6048,7 @@ Para os fundamentos das três demonstrações (DRE, Balanço Patrimonial e DFC),
 
 O [[#CAPÍTULO 2 — MODELAGEM FINANCEIRA OPERACIONAL|Capítulo 2 (MODELAGEM FINANCEIRA OPERACIONAL)]] cobre modelagem financeira: como construir projeções a partir de drivers operacionais. O [[#CAPÍTULO 1 — DEMONSTRATIVOS FINANCEIROS PARA O FUNDADOR|Capítulo 1 (DEMONSTRATIVOS FINANCEIROS PARA O FUNDADOR)]] cobre demonstrativos: como ler o que já aconteceu. Este capítulo cobre o planejamento financeiro: como transformar a visão do negócio em orçamento aprovado, operado por times com autonomia e revisado com frequência suficiente para ser útil.
 
-### O que esse capítulo cobre
+### O que este capítulo cobre
 
 Três instrumentos distintos que fundadores frequentemente confundem.
 
@@ -6923,7 +6923,7 @@ Forecasting maduro é processo, não planilha. A lista abaixo separa o que está
 ## CAPÍTULO 18 — CAPITAL DE GIRO E RECEBÍVEIS
 
 > [!important] Casa canônica do diagnóstico de capital de giro
-> O diagnóstico fundacional de "lucro não é caixa", ciclo de conversão de caixa (CCC) e descasamento operacional vive aqui. Os apêndices [[#CAPÍTULO 4 — GESTÃO DE CAIXA EM PROFUNDIDADE|AT]] (operação diária de caixa, 13-week forecast, DSO/DPO/DIO), [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 8 — TESOURARIA EM ESCALA: GESTÃO DE CAIXA MULTI-MOEDA, MULTI-PAÍS E MULTI-CONTA|BY (Vol. 9)]] (tesouraria multi-moeda em escala) e [[#CAPÍTULO 19 — RELAÇÕES BANCÁRIAS E CRÉDITO NO BRASIL|FA]] (relação bancária e crédito BR) tratam camadas operacionais específicas e referenciam este capítulo como base conceitual.
+> O diagnóstico fundacional de "lucro não é caixa", ciclo de conversão de caixa (CCC) e descasamento operacional vive aqui. Os capítulos [[#CAPÍTULO 4 — GESTÃO DE CAIXA EM PROFUNDIDADE|Capítulo 4 (GESTÃO DE CAIXA EM PROFUNDIDADE)]] (operação diária de caixa, 13-week forecast, DSO/DPO/DIO), [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 8 — TESOURARIA EM ESCALA: GESTÃO DE CAIXA MULTI-MOEDA, MULTI-PAÍS E MULTI-CONTA|Capítulo 8 (TESOURARIA EM ESCALA: GESTÃO DE CAIXA MULTI-MOEDA, MULTI-PAÍS E MULTI-CONTA) (Vol. 9)]] (tesouraria multi-moeda em escala) e [[#CAPÍTULO 19 — RELAÇÕES BANCÁRIAS E CRÉDITO NO BRASIL|Capítulo 19 (RELAÇÕES BANCÁRIAS E CRÉDITO NO BRASIL)]] (relação bancária e crédito BR) tratam camadas operacionais específicas e referenciam este capítulo como base conceitual.
 
 Capital de giro (caixa necessário para sustentar a operação no curto prazo) é o assunto que mais mata startups que já provaram o modelo. Não falta receita. Não falta cliente. Não falta NPS. Falta caixa para pagar o time enquanto o dinheiro do cliente ainda não chegou. Esse fenômeno tem nome: descasamento de caixa. É previsível, calculável e gerenciável, desde que o fundador entenda o mecanismo antes de cair no buraco.
 

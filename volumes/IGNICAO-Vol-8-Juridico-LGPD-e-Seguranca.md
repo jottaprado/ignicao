@@ -94,7 +94,7 @@ A **[[#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL
 > [!note] Antes de assumir captação como rota
 > Este capítulo trata estruturação para empresas que escolheram o caminho VC. A escolha fundacional entre bootstrap e venture capital é tratada em [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 4 — BOOTSTRAP vs VENTURE CAPITAL: A ESCOLHA FUNDACIONAL|Capítulo 4 (BOOTSTRAP vs VENTURE CAPITAL: A ESCOLHA FUNDACIONAL) (Vol. 1)]]. Empresas brasileiras como RD Station, Granatum e Conta Azul construíram negócios significativos sem VC. A escolha não é neutra.
 
-### O que esse apêndice cobre
+### O que esta fase cobre
 
 Consolidação das bases formais e operacionais do negócio. O entregável é a empresa estruturada: CNPJ ativo, regime tributário adequado, contratos formais, processos documentados, compliance básico, registros contábeis em dia.
 
@@ -191,7 +191,7 @@ xychart-beta
 > Nos primeiros 12 meses (o cliff (período mínimo antes de começar a adquirir participação)), nada vesta. No mês 13, 25% consolida de uma vez. Dos meses 13 a 48, o restante vesta mensalmente (~2,08% ao mês). Se o fundador sai antes de 12 meses, não leva nada. Se sai no mês 30, leva 50% da participação acordada. Isso protege a empresa de cofundadores que saem cedo mas mantêm participação grande.
 
 > [!tip] Canvases Visuais — Capital Stack / Waterfall (Fase 14, Vol. 5)
-> Cap table com vesting é o tema central desta fase. O [[IGNICAO-Vol-1-Ideacao#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Capital Stack / Waterfall Canvas (Canvas: Capital Stack / Waterfall Canvas) (Vol. 1)]] é o mapa visual da estrutura de capital — Common (fundadores), Preferred (investidores com seniority), pool de ESOP, dívida — e do waterfall em cenário de exit (preferences, participation, conversion). Use desde a primeira rodada para que decisões de term sheet (1x participating, anti-dilution full ratchet vs weighted average, ESOP top-up) tenham impacto visualmente claro no que cada parte recebe em diferentes valuations de saída.
+> Cap table com vesting é o tema central desta fase. O [[IGNICAO-Vol-5-Financas-e-Captacao#Canvas: Capital Stack / Waterfall Canvas|Canvas: Capital Stack / Waterfall Canvas (Vol. 5)]] é o mapa visual da estrutura de capital — Common (fundadores), Preferred (investidores com seniority), pool de ESOP, dívida — e do waterfall em cenário de exit (preferences, participation, conversion). Use desde a primeira rodada para que decisões de term sheet (1x participating, anti-dilution full ratchet vs weighted average, ESOP top-up) tenham impacto visualmente claro no que cada parte recebe em diferentes valuations de saída.
 
 > [!warning] Conflito entre sócios é a segunda maior causa de morte de startups no mundo
 > Não pule o acordo. Casais que se separam sem contrato pré-nupcial passam por divórcio. Sócios que se separam sem acordo passam por anos de litígio. O [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 3 — DISPUTA SOCIETÁRIA E SAÍDA DE SÓCIO|Capítulo 3 (DISPUTA SOCIETÁRIA E SAÍDA DE SÓCIO) (Vol. 9)]] cobre prevenção (cláusulas que evitam o conflito), mediação (quando o conflito chega) e mecânica jurídica de saída forçada.
@@ -443,7 +443,7 @@ A primeira linha de defesa jurídica da startup protege **quem é dono da empres
 
 A [[#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18]] cobre constituição, cap table (quadro societário) e vesting (período de aquisição progressiva da participação). O [[#CAPÍTULO 5 — CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS|Capítulo 5 (CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS)]] cobre contratos operacionais e IP (propriedade intelectual). O [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 14 — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Capítulo 14 (CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA) (Vol. 5)]] cobre tributário. O [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) (Vol. 5)]] cobre captação. Este capítulo cobre a Lei Complementar 182/2021, o marco legal das startups, com foco nos instrumentos que ela criou e em como usá-los na prática.
 
-### O que esse capítulo cobre
+### O que este capítulo cobre
 
 Quatro instrumentos criados ou formalizados pela LC 182/2021.
 
@@ -740,9 +740,9 @@ O poder público não compra produto pronto. Ele contrata o **desenvolvimento ou
 
 ---
 
-### Conexão com outros apêndices
+### Conexão com outros capítulos
 
-| Tópico | Apêndice |
+| Tópico | Capítulo |
 |---|---|
 | Estruturação societária, vesting, cap table | [[#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18]] |
 | Contratos operacionais, IP assignment | [[#CAPÍTULO 5 — CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS|Capítulo 5 (CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS)]] |
@@ -775,7 +775,7 @@ O problema é que esse princípio tem exceções, e as exceções, no direito br
 
 ---
 
-### EP.1 — Limitação de Responsabilidade na LTDA e SA: o que a blindagem protege
+### 2.1 — Limitação de Responsabilidade na LTDA e SA: o que a blindagem protege
 
 Na **Sociedade Limitada (LTDA)**, cada sócio responde apenas pela integralização de sua cota. Uma vez que o capital social está totalmente integralizado, a responsabilidade do sócio pelo passivo da empresa é, em regra, zero. Os credores só podem executar o patrimônio da pessoa jurídica.
 
@@ -802,7 +802,7 @@ O que a blindagem societária não protege automaticamente:
 
 ---
 
-### EP.2 — Desconsideração da Personalidade Jurídica (Art. 50 CC)
+### 2.2 — Desconsideração da Personalidade Jurídica (Art. 50 CC)
 
 O Art. 50 do Código Civil brasileiro, com a redação dada pela Lei 13.874/2019 (Lei da Liberdade Econômica), estabelece dois e apenas dois gatilhos para a desconsideração da personalidade jurídica no regime geral do Código Civil:
 
@@ -841,7 +841,7 @@ Esse procedimento existe em todos os ramos do direito — cível, tributário, t
 
 ---
 
-### EP.3 — Responsabilidade Tributária do Sócio-Gestor (CTN Art. 135)
+### 2.3 — Responsabilidade Tributária do Sócio-Gestor (CTN Art. 135)
 
 O Código Tributário Nacional trata a responsabilidade tributária de forma distinta do Código Civil. O Art. 135 do CTN estabelece que são pessoalmente responsáveis pelos créditos tributários os diretores, gerentes ou representantes de pessoas jurídicas de direito privado quando resultantes de atos praticados com excesso de poderes ou infração de lei, contrato social ou estatutos.
 
@@ -874,7 +874,7 @@ Quando a Receita Federal lavra auto de infração por sonegação ou por planeja
 
 ---
 
-### EP.4 — Responsabilidade Trabalhista: a Desconsideração Automática
+### 2.4 — Responsabilidade Trabalhista: a Desconsideração Automática
 
 A Consolidação das Leis do Trabalho e a jurisprudência trabalhista tratam a responsabilidade do sócio de forma muito mais severa do que o Código Civil.
 
@@ -894,7 +894,7 @@ Empresa tomadora de serviços responde subsidiariamente por créditos trabalhist
 
 ---
 
-### EP.5 — Responsabilidade do Administrador Não-Sócio
+### 2.5 — Responsabilidade do Administrador Não-Sócio
 
 Startups em crescimento frequentemente contratam administradores que não são sócios: CFO, COO, Diretor Comercial, Diretor de Operações. Essas pessoas assumem responsabilidades jurídicas específicas que precisam ser explicitadas.
 
@@ -928,7 +928,7 @@ A responsabilidade do administrador é subjetiva — exige prova de culpa ou dol
 
 ---
 
-### EP.6 — Responsabilidade Solidária em Grupo Econômico
+### 2.6 — Responsabilidade Solidária em Grupo Econômico
 
 Quando dois ou mais estabelecimentos realizam atividades econômicas vinculadas — seja por controle societário, seja por dependência econômica relevante — a Justiça do Trabalho e a Receita Federal podem tratá-los como grupo econômico para fins de responsabilidade.
 
@@ -975,7 +975,7 @@ laudo ou comparativo de mercado     "a custo" sem documentação
 
 ---
 
-### EP.7 — Como a Responsabilidade Pessoal Afeta a Captação de Investimento
+### 2.7 — Como a Responsabilidade Pessoal Afeta a Captação de Investimento
 
 Investidores profissionais — fundos de venture capital, angels com experiência e family offices — realizam due diligence sobre os fundadores, não apenas sobre a empresa. A responsabilidade pessoal é item explícito nesse processo.
 
@@ -1004,7 +1004,7 @@ Execuções fiscais e trabalhistas antigas podem resultar em penhora de ativos d
 
 ---
 
-### EP.8 — Proteção Patrimonial Lícita
+### 2.8 — Proteção Patrimonial Lícita
 
 Proteger patrimônio pessoal não é crime. Planejamento patrimonial preventivo é prática jurídica legítima e recomendada. O que é ilícito é fazer essa proteção após já existir a dívida, com o propósito específico de fraudar credores — hipótese tipificada como fraude contra credores (Art. 158 a 165 do CC) ou fraude à execução (Art. 792 do CPC).
 
@@ -1090,7 +1090,7 @@ do sócio                                              fiador
 
 ---
 
-### Relação com outros apêndices e fases
+### Relação com outros capítulos e fases
 
 O tema da responsabilidade societária atravessa momentos diferentes da trajetória do fundador:
 
@@ -1119,7 +1119,7 @@ O tema da responsabilidade societária atravessa momentos diferentes da trajetó
 
 O [[#CAPÍTULO 5 — CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS|Capítulo 5 (CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS)]] cobre IP (propriedade intelectual) assignment (cessão de direitos) em contratos. O [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 9 — OPEN SOURCE COMO ESTRATÉGIA|Capítulo 9 (OPEN SOURCE COMO ESTRATÉGIA) (Vol. 3)]] cobre open source (código aberto) como modelo de negócio. O [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 6 — HARDWARE E DEEP TECH: CONSTRUIR NEGÓCIO COM FABRICAÇÃO, IP E HORIZONTES LONGOS|Capítulo 6 (HARDWARE E DEEP TECH: CONSTRUIR NEGÓCIO COM FABRICAÇÃO, IP E HORIZONTES LONGOS) (Vol. 10)]] cobre patentes em deep tech e hardware. Este capítulo cobre a disciplina completa de propriedade intelectual: o que registrar, quando, como, a que custo, e o que acontece quando você não registra e deveria ter registrado.
 
-### O que esse capítulo cobre
+### O que este capítulo cobre
 
 Quatro instrumentos de PI e sua aplicação prática em startups.
 
@@ -1429,9 +1429,9 @@ O que qualquer investidor ou acquirer vai examinar:
 
 ---
 
-### Conexão com outros apêndices
+### Conexão com outros capítulos
 
-| Tópico | Apêndice |
+| Tópico | Capítulo |
 |---|---|
 | IP assignment em contratos (visão geral de contratos) | [[#CAPÍTULO 5 — CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS|Capítulo 5 (CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS)]] |
 | Open source como modelo estratégico de negócio | [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 9 — OPEN SOURCE COMO ESTRATÉGIA|Capítulo 9 (OPEN SOURCE COMO ESTRATÉGIA) (Vol. 3)]] |
@@ -1631,15 +1631,15 @@ A segunda linha de defesa regula as relações da startup com seus **clientes, f
 
 ## CAPÍTULO 5 — CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS
 
-> [!important] Relacao com o Apendice EU
-> Este apendice oferece o panorama operacional de contratos para o fundador, foco em quando chamar advogado, quando assinar sem revisao, quando recusar. Para tratamento por TIPO de contrato (LOI, NDA, SLA, MSA, contrato de trabalho, contrato de socio, etc.) com clausulas standard explicadas item a item, ver [[#CAPÍTULO 6 — CONTRATOS EM PROFUNDIDADE POR TIPO|Capítulo 6 (CONTRATOS EM PROFUNDIDADE POR TIPO)]].
+> [!important] Relacao com o Capítulo 6 (CONTRATOS EM PROFUNDIDADE POR TIPO)
+> Este capítulo oferece o panorama operacional de contratos para o fundador, foco em quando chamar advogado, quando assinar sem revisao, quando recusar. Para tratamento por TIPO de contrato (LOI, NDA, SLA, MSA, contrato de trabalho, contrato de socio, etc.) com clausulas standard explicadas item a item, ver [[#CAPÍTULO 6 — CONTRATOS EM PROFUNDIDADE POR TIPO|Capítulo 6 (CONTRATOS EM PROFUNDIDADE POR TIPO)]].
 
 > [!note] Nota de validade
 > A legislação contratual e de consumidor evolui em ciclos de cinco a dez anos. Códigos específicos (CDC, CLT e Marco Civil) mudam periodicamente. Revisar a cada vinte e quatro meses, de preferência com advogado brasileiro especializado.
 
-A [[#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18]] cobre constituição da empresa. O [[#CAPÍTULO 10 — LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Capítulo 10 (LGPD, COMPLIANCE E GOVERNANÇA DE DADOS)]] cobre LGPD (Lei Geral de Proteção de Dados). O [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 14 — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Capítulo 14 (CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA) (Vol. 5)]] cobre tributário. Esse capítulo cobre contratos operacionais e aspectos legais não cobertos em outros: contratos com clientes (além de política de privacidade), termos de uso robustos, contratos com fornecedores, contratos com freelancers, IP (Intellectual Property, propriedade intelectual), aspectos trabalhistas em startup e litígios.
+A [[#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18]] cobre constituição da empresa. O [[#CAPÍTULO 10 — LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Capítulo 10 (LGPD, COMPLIANCE E GOVERNANÇA DE DADOS)]] cobre LGPD (Lei Geral de Proteção de Dados). O [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 14 — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Capítulo 14 (CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA) (Vol. 5)]] cobre tributário. Este capítulo cobre contratos operacionais e aspectos legais não cobertos em outros: contratos com clientes (além de política de privacidade), termos de uso robustos, contratos com fornecedores, contratos com freelancers, IP (Intellectual Property, propriedade intelectual), aspectos trabalhistas em startup e litígios.
 
-### O que esse capítulo cobre
+### O que este capítulo cobre
 
 Cinco áreas: contratos com clientes (Termos de uso, MSA e SLA), contratos com fornecedores (SaaS vendors, consultorias e freelancers), contratos com colaboradores (CLT, PJ, estágio e ESOP — Employee Stock Ownership Plan, plano de opções de ações para colaboradores), propriedade intelectual (marca, patente, direitos autorais e código) e litígios e disputas (prevenção, gestão e documentação). Contratos ruins geram passivos que aparecem em due diligence, travam exits e consomem tempo executivo. IP mal-estruturado pode inviabilizar a venda da empresa.
 
@@ -1787,8 +1787,8 @@ Disciplina contratual no padrão quando os contratos-padrão (termos de uso, CLT
 
 ## CAPÍTULO 6 — CONTRATOS EM PROFUNDIDADE POR TIPO
 
-> [!important] Relacao com o Apendice AH
-> Este apendice e a referencia por TIPO de contrato. Para o panorama operacional (quando chamar advogado, fluxo de aprovacao, governanca contratual no dia a dia), ver primeiro [[#CAPÍTULO 5 — CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS|Capítulo 5 (CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS)]].
+> [!important] Relacao com o Capítulo 5 (CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS)
+> Este capítulo e a referencia por TIPO de contrato. Para o panorama operacional (quando chamar advogado, fluxo de aprovacao, governanca contratual no dia a dia), ver primeiro [[#CAPÍTULO 5 — CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS|Capítulo 5 (CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS)]].
 
 > [!note] Aviso legal
 > Este capítulo é material educacional. Contratos têm efeitos jurídicos vinculantes e suas consequências dependem do contexto específico de cada negociação. As descrições aqui apresentadas refletem práticas de mercado e legislação brasileira vigente em maio de 2026. Consulte advogado especializado antes de assinar ou redigir contratos relevantes para a operação da empresa.
@@ -3583,7 +3583,7 @@ Este capítulo cobre os quatro vetores de contencioso (trabalhista, cível, trib
 - [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 14 — COMPENSAÇÃO E BENEFÍCIOS NO BRASIL|Capítulo 14 — Planejamento Tributário para Startups (Vol. 6)]] — escolha de regime e gestão do risco fiscal
 - [[IGNICAO-Vol-2-Descoberta-e-Mercado#CAPÍTULO 2 — INTELIGÊNCIA COMPETITIVA — MONITORAMENTO, ANÁLISE E RESPOSTA|Capítulo 2 — Proteção de Dados e LGPD (Vol. 2)]] — litígios regulatórios e responsabilidade por dados
 - [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 6 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 6 — Estrutura Jurídica e Societária (Vol. 2)]] — fundamentos da estruturação legal da empresa
-- [[IGNICAO-Vol-1-Ideacao#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvases Visuais da Fase (Vol. 1)]] — ferramentas de diagnóstico para mapeamento de risco operacional
+- [[IGNICAO-Vol-1-Ideacao#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvases e Mapas Visuais (Vol. 1)]] — ferramentas de diagnóstico para mapeamento de risco operacional
 
 ---
 
@@ -3602,35 +3602,35 @@ Para vender para grandes empresas, operar em setores regulados ou passar pela *d
 ## CAPÍTULO 10 — LGPD, COMPLIANCE E GOVERNANÇA DE DADOS
 
 > [!abstract] Mapa da Fatia 5 — Legal, Ops e Regulatorio
-> A Fatia 5 reune 45 apendices em sete familias tematicas. Use este mapa para navegar.
+> A Fatia 5 reune 45 capítulos em sete familias tematicas. Use este mapa para navegar.
 >
-> **Governanca de dados** ([[#CAPÍTULO 10 — LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|T]] entrada, [[#CAPÍTULO 14 — SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA|CV]] engenharia, [[#CAPÍTULO 12 — COMPLIANCE E ANTICORRUPÇÃO PARA STARTUPS|EM]] integridade)
+> **Governanca de dados** ([[#CAPÍTULO 10 — LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Capítulo 10 (LGPD, COMPLIANCE E GOVERNANÇA DE DADOS)]] entrada, [[#CAPÍTULO 14 — SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA|Capítulo 14 (SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA)]] engenharia, [[#CAPÍTULO 12 — COMPLIANCE E ANTICORRUPÇÃO PARA STARTUPS|Capítulo 12 (COMPLIANCE E ANTICORRUPÇÃO PARA STARTUPS)]] integridade)
 >
-> **Contratos e PI** ([[#CAPÍTULO 5 — CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS|AH]] panorama, [[#CAPÍTULO 6 — CONTRATOS EM PROFUNDIDADE POR TIPO|EU]] profundidade por tipo, [[#CAPÍTULO 4 — NÃO-CONCORRÊNCIA E NÃO-SOLICITAÇÃO NO BRASIL|DJ]] retencao, [[#CAPÍTULO 3 — PROPRIEDADE INTELECTUAL E INPI|DC]] PI)
+> **Contratos e PI** ([[#CAPÍTULO 5 — CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS|Capítulo 5 (CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS)]] panorama, [[#CAPÍTULO 6 — CONTRATOS EM PROFUNDIDADE POR TIPO|Capítulo 6 (CONTRATOS EM PROFUNDIDADE POR TIPO)]] profundidade por tipo, [[#CAPÍTULO 4 — NÃO-CONCORRÊNCIA E NÃO-SOLICITAÇÃO NO BRASIL|Capítulo 4 (NÃO-CONCORRÊNCIA E NÃO-SOLICITAÇÃO NO BRASIL)]] retencao, [[#CAPÍTULO 3 — PROPRIEDADE INTELECTUAL E INPI|Capítulo 3 (PROPRIEDADE INTELECTUAL E INPI)]] PI)
 >
-> **Governanca societaria** ([[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 1 — BOARD E GOVERNANCE|AM (Vol. 9)]] entrada, [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 2 — EMPRESA FAMILIAR E SUCESSÃO: GOVERNANÇA, DINÂMICA E PSICOLOGIA|BI (Vol. 9)]] familia, [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 3 — DISPUTA SOCIETÁRIA E SAÍDA DE SÓCIO|BP (Vol. 9)]] disputa, [[#CAPÍTULO 2 — RESPONSABILIDADE DO SÓCIO E DO ADMINISTRADOR|EP]] limites, [[#CAPÍTULO 1 — MARCO LEGAL DAS STARTUPS: LC 182/2021|DA]] marco legal)
+> **Governanca societaria** ([[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 1 — BOARD E GOVERNANCE|Capítulo 1 (BOARD E GOVERNANCE) (Vol. 9)]] entrada, [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 2 — EMPRESA FAMILIAR E SUCESSÃO: GOVERNANÇA, DINÂMICA E PSICOLOGIA|Capítulo 2 (EMPRESA FAMILIAR E SUCESSÃO: GOVERNANÇA, DINÂMICA E PSICOLOGIA) (Vol. 9)]] familia, [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 3 — DISPUTA SOCIETÁRIA E SAÍDA DE SÓCIO|Capítulo 3 (DISPUTA SOCIETÁRIA E SAÍDA DE SÓCIO) (Vol. 9)]] disputa, [[#CAPÍTULO 2 — RESPONSABILIDADE DO SÓCIO E DO ADMINISTRADOR|Capítulo 2 (RESPONSABILIDADE DO SÓCIO E DO ADMINISTRADOR)]] limites, [[#CAPÍTULO 1 — MARCO LEGAL DAS STARTUPS: LC 182/2021|Capítulo 1 (MARCO LEGAL DAS STARTUPS: LC 182/2021)]] marco legal)
 >
-> **Ciclo de crise** ([[#CAPÍTULO 13 — FRAUDE INTERNA E CONTROLES INTERNOS|BW]] preparacao, [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9 — CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO|CW (Vol. 9)]] resposta, [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 10 — COMUNICAÇÃO EM CRISE|EV (Vol. 9)]] comunicacao, [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 12 — RECUPERAÇÃO JUDICIAL E WIND-DOWN — QUANDO A STARTUP NÃO CONSEGUE CONTINUAR|ES (Vol. 9)]] encerramento, [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 20 — GESTÃO DE RISCO E SEGUROS PARA STARTUPS|EY (Vol. 5)]] seguros)
+> **Ciclo de crise** ([[#CAPÍTULO 13 — FRAUDE INTERNA E CONTROLES INTERNOS|Capítulo 13 (FRAUDE INTERNA E CONTROLES INTERNOS)]] preparacao, [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9 — CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO|Capítulo 9 (CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO) (Vol. 9)]] resposta, [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 10 — COMUNICAÇÃO EM CRISE|Capítulo 10 (COMUNICAÇÃO EM CRISE) (Vol. 9)]] comunicacao, [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 12 — RECUPERAÇÃO JUDICIAL E WIND-DOWN — QUANDO A STARTUP NÃO CONSEGUE CONTINUAR|Capítulo 12 (RECUPERAÇÃO JUDICIAL E WIND-DOWN — QUANDO A STARTUP NÃO CONSEGUE CONTINUAR) (Vol. 9)]] encerramento, [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 20 — GESTÃO DE RISCO E SEGUROS PARA STARTUPS|Capítulo 20 (GESTÃO DE RISCO E SEGUROS PARA STARTUPS) (Vol. 5)]] seguros)
 >
-> **Regulatorio** ([[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 2 — REGULATÓRIO SETORIAL BRASILEIRO|AW (Vol. 10)]] indice, [[#CAPÍTULO 11 — REGULATÓRIO DE IA NO BRASIL|ET]] IA, [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 3 — CADE E ANTITRUSTE — QUANDO O CRESCIMENTO ATRAI O REGULADOR|ER (Vol. 10)]] antitrust, [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 4 — POLÍTICA PÚBLICA COMO ESTRATÉGIA|FE (Vol. 10)]] politica publica, [[#CAPÍTULO 8 — DIREITO DO CONSUMIDOR E CDC PARA STARTUPS|EQ]] CDC)
+> **Regulatorio** ([[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 2 — REGULATÓRIO SETORIAL BRASILEIRO|Capítulo 2 (REGULATÓRIO SETORIAL BRASILEIRO) (Vol. 10)]] indice, [[#CAPÍTULO 11 — REGULATÓRIO DE IA NO BRASIL|Capítulo 11 (REGULATÓRIO DE IA NO BRASIL)]] IA, [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 3 — CADE E ANTITRUSTE — QUANDO O CRESCIMENTO ATRAI O REGULADOR|Capítulo 3 (CADE E ANTITRUSTE — QUANDO O CRESCIMENTO ATRAI O REGULADOR) (Vol. 10)]] antitrust, [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 4 — POLÍTICA PÚBLICA COMO ESTRATÉGIA|Capítulo 4 (POLÍTICA PÚBLICA COMO ESTRATÉGIA) (Vol. 10)]] politica publica, [[#CAPÍTULO 8 — DIREITO DO CONSUMIDOR E CDC PARA STARTUPS|Capítulo 8 (DIREITO DO CONSUMIDOR E CDC PARA STARTUPS)]] CDC)
 >
-> **Verticais regulados** ([[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 5 — BIOTECH E HEALTHTECH: PLAYBOOK DE REGULAÇÃO, ENSAIOS E CAPITAL|CM (Vol. 10)]], [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 6 — HARDWARE E DEEP TECH: CONSTRUIR NEGÓCIO COM FABRICAÇÃO, IP E HORIZONTES LONGOS|CA (Vol. 10)]], [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 7 — GOVTECH: STARTUP VENDENDO PARA GOVERNO|DK (Vol. 10)]], [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 8 — AGRITECH: PLAYBOOK PARA O CAMPO BRASILEIRO|DL (Vol. 10)]], [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 9 — EDTECH: PLAYBOOK PARA TECNOLOGIA DE EDUCAÇÃO NO BRASIL|DM (Vol. 10)]], [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 10 — CLEANTECH E ESG: STARTUPS DE IMPACTO AMBIENTAL NO BRASIL|DN (Vol. 10)]], [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 11 — PROPTECH: TECNOLOGIA NO MERCADO IMOBILIÁRIO BRASILEIRO|DO (Vol. 10)]], [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 12 — LEGALTECH: TECNOLOGIA JURÍDICA NO BRASIL|DP (Vol. 10)]], [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 13 — LOGTECH: TECNOLOGIA EM LOGÍSTICA E SUPPLY CHAIN NO BRASIL|DQ (Vol. 10)]])
+> **Verticais regulados** ([[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 5 — BIOTECH E HEALTHTECH: PLAYBOOK DE REGULAÇÃO, ENSAIOS E CAPITAL|Capítulo 5 (BIOTECH E HEALTHTECH: PLAYBOOK DE REGULAÇÃO, ENSAIOS E CAPITAL) (Vol. 10)]], [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 6 — HARDWARE E DEEP TECH: CONSTRUIR NEGÓCIO COM FABRICAÇÃO, IP E HORIZONTES LONGOS|Capítulo 6 (HARDWARE E DEEP TECH: CONSTRUIR NEGÓCIO COM FABRICAÇÃO, IP E HORIZONTES LONGOS) (Vol. 10)]], [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 7 — GOVTECH: STARTUP VENDENDO PARA GOVERNO|Capítulo 7 (GOVTECH: STARTUP VENDENDO PARA GOVERNO) (Vol. 10)]], [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 8 — AGRITECH: PLAYBOOK PARA O CAMPO BRASILEIRO|Capítulo 8 (AGRITECH: PLAYBOOK PARA O CAMPO BRASILEIRO) (Vol. 10)]], [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 9 — EDTECH: PLAYBOOK PARA TECNOLOGIA DE EDUCAÇÃO NO BRASIL|Capítulo 9 (EDTECH: PLAYBOOK PARA TECNOLOGIA DE EDUCAÇÃO NO BRASIL) (Vol. 10)]], [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 10 — CLEANTECH E ESG: STARTUPS DE IMPACTO AMBIENTAL NO BRASIL|Capítulo 10 (CLEANTECH E ESG: STARTUPS DE IMPACTO AMBIENTAL NO BRASIL) (Vol. 10)]], [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 11 — PROPTECH: TECNOLOGIA NO MERCADO IMOBILIÁRIO BRASILEIRO|Capítulo 11 (PROPTECH: TECNOLOGIA NO MERCADO IMOBILIÁRIO BRASILEIRO) (Vol. 10)]], [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 12 — LEGALTECH: TECNOLOGIA JURÍDICA NO BRASIL|Capítulo 12 (LEGALTECH: TECNOLOGIA JURÍDICA NO BRASIL) (Vol. 10)]], [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 13 — LOGTECH: TECNOLOGIA EM LOGÍSTICA E SUPPLY CHAIN NO BRASIL|Capítulo 13 (LOGTECH: TECNOLOGIA EM LOGÍSTICA E SUPPLY CHAIN NO BRASIL) (Vol. 10)]])
 >
-> **Modelos de negocio especiais** ([[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 6 — MARKETPLACE DYNAMICS E RISCO DE PLATAFORMA|AE (Vol. 3)]], [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 7 — PLATAFORMA VS PRODUTO: QUANDO CONSTRUIR PLATAFORMA E QUANDO NÃO|CC (Vol. 3)]], [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 8 — B2B2C: QUANDO SUA EMPRESA VENDE PARA OUTRA EMPRESA QUE VENDE PARA CONSUMIDOR|CK (Vol. 3)]], [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 6 — CANAIS INDIRETOS E PARCERIAS: PARCERIAS, FRANQUIAS, CHANNEL|CX (Vol. 6)]], [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 9 — OPEN SOURCE COMO ESTRATÉGIA|BE (Vol. 3)]], [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 5 — PARCERIA COM GRANDES CORPORAÇÕES BRASILEIRAS|FD (Vol. 6)]])
+> **Modelos de negocio especiais** ([[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 6 — MARKETPLACE DYNAMICS E RISCO DE PLATAFORMA|Capítulo 6 (MARKETPLACE DYNAMICS E RISCO DE PLATAFORMA) (Vol. 3)]], [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 7 — PLATAFORMA VS PRODUTO: QUANDO CONSTRUIR PLATAFORMA E QUANDO NÃO|Capítulo 7 (PLATAFORMA VS PRODUTO: QUANDO CONSTRUIR PLATAFORMA E QUANDO NÃO) (Vol. 3)]], [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 8 — B2B2C: QUANDO SUA EMPRESA VENDE PARA OUTRA EMPRESA QUE VENDE PARA CONSUMIDOR|Capítulo 8 (B2B2C: QUANDO SUA EMPRESA VENDE PARA OUTRA EMPRESA QUE VENDE PARA CONSUMIDOR) (Vol. 3)]], [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 6 — CANAIS INDIRETOS E PARCERIAS: PARCERIAS, FRANQUIAS, CHANNEL|Capítulo 6 (CANAIS INDIRETOS E PARCERIAS: PARCERIAS, FRANQUIAS, CHANNEL) (Vol. 6)]], [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 9 — OPEN SOURCE COMO ESTRATÉGIA|Capítulo 9 (OPEN SOURCE COMO ESTRATÉGIA) (Vol. 3)]], [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 5 — PARCERIA COM GRANDES CORPORAÇÕES BRASILEIRAS|Capítulo 5 (PARCERIA COM GRANDES CORPORAÇÕES BRASILEIRAS) (Vol. 6)]])
 >
-> **Direito do dia a dia** ([[#CAPÍTULO 7 — DIREITO DO TRABALHO PARA STARTUPS|EL]] trabalhista, [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 15 — TRIBUTÁRIO ESTRATÉGICO PARA STARTUPS|EN (Vol. 5)]] tributario, [[#CAPÍTULO 9 — CONTENCIOSO E LITÍGIO PARA STARTUPS|EO]] contencioso, [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 5 — INTERNACIONALIZAÇÃO: ESTRUTURA E PRODUTO PARA MÚLTIPLOS MERCADOS|CU (Vol. 9)]] internacional, [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 6 — VISTO E IMIGRAÇÃO PARA FUNDADOR BRASILEIRO|BS (Vol. 9)]] visto, [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 4 — ESG, IMPACT E GOVERNANÇA PARA STARTUP|AF (Vol. 9)]] ESG, [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 11 — NEGOCIAÇÃO COMO DISCIPLINA|DS (Vol. 4)]] negociacao, [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 11 — OPERAÇÕES EM ESCALA|DV (Vol. 7)]] operacao)
+> **Direito do dia a dia** ([[#CAPÍTULO 7 — DIREITO DO TRABALHO PARA STARTUPS|Capítulo 7 (DIREITO DO TRABALHO PARA STARTUPS)]] trabalhista, [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 15 — TRIBUTÁRIO ESTRATÉGICO PARA STARTUPS|Capítulo 15 (TRIBUTÁRIO ESTRATÉGICO PARA STARTUPS) (Vol. 5)]] tributario, [[#CAPÍTULO 9 — CONTENCIOSO E LITÍGIO PARA STARTUPS|Capítulo 9 (CONTENCIOSO E LITÍGIO PARA STARTUPS)]] contencioso, [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 5 — INTERNACIONALIZAÇÃO: ESTRUTURA E PRODUTO PARA MÚLTIPLOS MERCADOS|Capítulo 5 (INTERNACIONALIZAÇÃO: ESTRUTURA E PRODUTO PARA MÚLTIPLOS MERCADOS) (Vol. 9)]] internacional, [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 6 — VISTO E IMIGRAÇÃO PARA FUNDADOR BRASILEIRO|Capítulo 6 (VISTO E IMIGRAÇÃO PARA FUNDADOR BRASILEIRO) (Vol. 9)]] visto, [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 4 — ESG, IMPACT E GOVERNANÇA PARA STARTUP|Capítulo 4 (ESG, IMPACT E GOVERNANÇA PARA STARTUP) (Vol. 9)]] ESG, [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 11 — NEGOCIAÇÃO COMO DISCIPLINA|Capítulo 11 (NEGOCIAÇÃO COMO DISCIPLINA) (Vol. 4)]] negociacao, [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 11 — OPERAÇÕES EM ESCALA|Capítulo 11 (OPERAÇÕES EM ESCALA) (Vol. 7)]] operacao)
 
 > [!note] Nota de validade
-> Esse capítulo reflete o estado da regulação de dados pessoais brasileira e as práticas de mercado em abril de 2026. LGPD, regulamentações da ANPD, decisões judiciais e regulações setoriais (Bacen, ANS) evoluem ano a ano. Revisar anualmente, com atenção a novas resoluções da ANPD, mudanças setoriais aplicáveis ao seu negócio e jurisprudência relevante sobre multas e responsabilidade. Quando houver divergência entre esse capítulo e a regulação atual, a regulação atual prevalece.
+> Este capítulo reflete o estado da regulação de dados pessoais brasileira e as práticas de mercado em abril de 2026. LGPD, regulamentações da ANPD, decisões judiciais e regulações setoriais (Bacen, ANS) evoluem ano a ano. Revisar anualmente, com atenção a novas resoluções da ANPD, mudanças setoriais aplicáveis ao seu negócio e jurisprudência relevante sobre multas e responsabilidade. Quando houver divergência entre este capítulo e a regulação atual, a regulação atual prevalece.
 
-A [[#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18]] (Estruturação Jurídica, Financeira e Operacional) cobre o essencial de formalização da empresa. Esse capítulo expande o tratamento de dados pessoais e compliance, tema que deixa de ser "papel do jurídico" quando a startup passa a operar com volumes relevantes de dados pessoais (tipicamente a partir da [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 12 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 12 (Vol. 4)]]) e vira risco existencial se mal conduzido.
+A [[#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18]] (Estruturação Jurídica, Financeira e Operacional) cobre o essencial de formalização da empresa. Este capítulo expande o tratamento de dados pessoais e compliance, tema que deixa de ser "papel do jurídico" quando a startup passa a operar com volumes relevantes de dados pessoais (tipicamente a partir da [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 12 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 12 (Vol. 4)]]) e vira risco existencial se mal conduzido.
 
 A LGPD (Lei Geral de Proteção de Dados, Lei 13.709/2018) entrou em vigor em 2020 e as sanções em 2021. Para a maioria das startups brasileiras pós-PMF, LGPD não é opcional nem "avaliar depois". É infraestrutura. As multas podem chegar a dois por cento do faturamento da pessoa jurídica, limitado a R$ 50 milhões por infração.
 
 > [!warning] A multa é o menor dos problemas
 > O risco maior é vazamento de dados, com exposição pública, que destrói reputação em semanas.
 
-### O que esse capítulo cobre
+### O que este capítulo cobre
 
 Programa de LGPD, e governança de dados, é o conjunto de processos, pessoas, e ferramentas, que garante.
 
@@ -4410,9 +4410,9 @@ Contínuo            LGPD Art. 20: já em vigor, sem data futura
 
 **Ver também:**
 
-- [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 11 — IA COMO CO-PILOTO DO FUNDADOR (2026)|Capítulo 11 — IA como Co-Piloto do Fundador (2026) (Vol. 1)]] — uso prático de IA no dia a dia do fundador
+- [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 11 — IA COMO CO-PILOTO DO FUNDADOR (2026)|Capítulo 11 — IA como Co-Piloto do Fundador (2026 (Vol. 1)]] — uso prático de IA no dia a dia do fundador
 - [[#CAPÍTULO 14 — SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA|Capítulo 14 — Compliance e Regulatório para Startups]] — framework geral de compliance, não específico de IA
-- [[IGNICAO-Vol-1-Ideacao#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvases Visuais da Fase (Vol. 1)]] — ferramentas visuais de análise, incluindo Risk Canvas
+- [[IGNICAO-Vol-1-Ideacao#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvases e Mapas Visuais de Modelo (Vol. 1)]] — ferramentas visuais de análise, incluindo Risk Canvas
 - [[IGNICAO-Vol-1-Ideacao#FASE 2 — ARTICULAÇÃO E CAPTURA DA IDEIA|Fase 2 — Articulação do Modelo de Negócio (Vol. 1)]] — onde as decisões sobre sistemas de IA são tomadas inicialmente
 - [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 12 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 12 — Modelo de Receita e Unit Economics (Vol. 4)]] — onde modelos de crédito e precificação com IA aparecem com maior frequência
 
@@ -4942,9 +4942,9 @@ A conta não fecha a favor de ignorar compliance. Fecha a favor de construir ced
 > - [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 20 — GESTÃO DE RISCO E SEGUROS PARA STARTUPS|Capítulo 20 (GESTÃO DE RISCO E SEGUROS PARA STARTUPS) (Vol. 5)]], seguro D&O e cyber para transferencia de risco residual
 
 > [!warning] Tema sensível
-> Fraude interna é tema que fundadores subestimam de forma quase universal. Probabilidade e impacto reais são maiores do que a intuição diz. Esse capítulo é mapa preventivo, não exercício de paranoia.
+> Fraude interna é tema que fundadores subestimam de forma quase universal. Probabilidade e impacto reais são maiores do que a intuição diz. Este capítulo é mapa preventivo, não exercício de paranoia.
 
-[[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9 — CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO|Capítulo 9 (CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO) (Vol. 9)]] e [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 8 — SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|Capítulo 8 (SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL) (Vol. 4)]] tocam tangencialmente em controles internos. Esse capítulo trata em profundidade o que é fraude interna, como se previne, como se detecta e como se responde quando acontece. É tema que o fundador cedo resiste a tratar (alegando confiança no time) e que scale-ups (empresas em escala) descobrem, caro, que deveriam ter estruturado antes.
+[[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9 — CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO|Capítulo 9 (CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO) (Vol. 9)]] e [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 8 — SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|Capítulo 8 (SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL) (Vol. 4)]] tocam tangencialmente em controles internos. Este capítulo trata em profundidade o que é fraude interna, como se previne, como se detecta e como se responde quando acontece. É tema que o fundador cedo resiste a tratar (alegando confiança no time) e que scale-ups (empresas em escala) descobrem, caro, que deveriam ter estruturado antes.
 
 ### O que é fraude interna
 
@@ -5119,7 +5119,7 @@ Programa de controles funciona quando há framework documentado baseado em COSO 
 
 Segurança da informação é aquele tema que todo fundador trata como importante em abstrato e adia em concreto. Até o dia em que um cliente enterprise pede o seu SOC 2 (certificação de controles de segurança). Até o dia em que alguém comete o primeiro incidente. Ou até o dia em que a ANPD ativa uma investigação após um vazamento. Nesse dia, a empresa costuma descobrir que segurança não era linha de despesa opcional. Era infraestrutura de sobrevivência.
 
-Esse capítulo se divide em duas partes. A Parte 1 cobre a visão geral da segurança como disciplina: o que você precisa implementar, certificações relevantes, frameworks (modelos), decisões básicas. É o que todo fundador precisa entender, mesmo que nunca contrate um security engineer (engenheiro de segurança). A Parte 2 entra em profundidade na engenharia de segurança como disciplina organizacional: como montar um programa que escala, como responder a incidentes, como pensar em arquitetura zero-trust (modelo de "confiança zero", em que nada é confiável por padrão).
+Este capítulo se divide em duas partes. A Parte 1 cobre a visão geral da segurança como disciplina: o que você precisa implementar, certificações relevantes, frameworks (modelos), decisões básicas. É o que todo fundador precisa entender, mesmo que nunca contrate um security engineer (engenheiro de segurança). A Parte 2 entra em profundidade na engenharia de segurança como disciplina organizacional: como montar um programa que escala, como responder a incidentes, como pensar em arquitetura zero-trust (modelo de "confiança zero", em que nada é confiável por padrão).
 
 ---
 
@@ -5179,7 +5179,7 @@ Quando você tem cinquenta ou mais funcionários e atende B2B com dados sensíve
 
 #### Segurança como disciplina organizacional
 
-A Parte 1 desse apêndice descreveu o que. A Parte 2 trata do como. Como construir um programa de segurança que escala. Quem contratar. Em que ordem. Como responder quando algo dá errado. Essa é a visão de engenheiro de segurança, não de compliance officer (responsável por conformidade regulatória).
+A Parte 1 deste capítulo descreveu o que. A Parte 2 trata do como. Como construir um programa de segurança que escala. Quem contratar. Em que ordem. Como responder quando algo dá errado. Essa é a visão de engenheiro de segurança, não de compliance officer (responsável por conformidade regulatória).
 
 Security Engineering, como disciplina, tem oito sub-áreas que eventualmente viram especialidades separadas em empresas grandes. Application Security (AppSec) cuida da segurança do código que você escreve. Infrastructure Security (InfraSec ou Cloud Security) cuida da infraestrutura (AWS, GCP, Kubernetes, redes). Identity and Access Management (IAM) cuida de quem tem acesso a quê. Data Security cobre criptografia, classificação, DLP. Endpoint Security cuida de laptops e celulares de funcionários. Security Operations (SecOps, SOC) faz monitoramento, detecção, resposta. Governance, Risk and Compliance (GRC) cuida de políticas, auditoria, certificações. E Privacy Engineering cuida de LGPD, GDPR, tratamento de dados pessoais.
 
