@@ -6,6 +6,31 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/).
 
 ---
 
+## [3.5] — 2026-10-20
+
+### Adicionado
+
+- **Coleção Rebalanceada em 10 Volumes Focais (`volumes/`)**: evolução arquitetural da coleção de 6 para 10 volumes canônicos homogêneos (~50k a ~88k palavras / ~200 a ~350 páginas cada), eliminando os monolitos dos antigos Volumes 4 (Escala) e 6 (Referência):
+  - **Vol. 1 — Ideação e Fundação (`volumes/IGNICAO-Vol-1-Ideacao.md`)**: Fases 0 a 2B + 13 apêndices fundacionais e do fundador (~74k palavras)
+  - **Vol. 2 — Validação, Descoberta e MVP (`volumes/IGNICAO-Vol-2-Validacao.md`)**: Fases 3 a 9 + 12 apêndices de descoberta, método científico, mercado e modelos (~71k palavras)
+  - **Vol. 3 — Tração, Go-to-Market e PMF (`volumes/IGNICAO-Vol-3-Tracao.md`)**: Fases 10 a 12 + 20 apêndices de GTM inicial, canais, pricing, vendas, dados e caixa (~88k palavras)
+  - **Vol. 4 — Captação, Venture Capital e Finanças (`volumes/IGNICAO-Vol-4-Captacao-e-Financas.md`)**: Fase 13 + 18 apêndices de fundraising, valuation, term sheets, cap table, dívida, FP&A, contabilidade e tributário (~75k palavras)
+  - **Vol. 5 — Receita, Pessoas e Operações em Escala (`volumes/IGNICAO-Vol-5-Receita-e-Pessoas.md`)**: Fase 14 + 19 apêndices de vendas enterprise, RevOps, CS, brand, hiring, cultura, liderança e remuneração/SOP (~84k palavras)
+  - **Vol. 6 — Engenharia, Produto, Dados, IA e Jurídico (`volumes/IGNICAO-Vol-6-Engenharia-e-Juridico.md`)**: 23 apêndices técnicos, operacionais e regulatórios de arquitetura, dívida técnica, segurança, dados, IA/LLMs, produto, supply chain, jurídico, LGPD e ESG (~84k palavras)
+  - **Vol. 7 — Maturidade, Governança, Crise e Exit (`volumes/IGNICAO-Vol-7-Maturidade-e-Exit.md`)**: Fases 15 e 16 + 22 apêndices de board, internacionalização, crise/turnaround, M&A, IPO, post-mortems, second-time founder e Epílogo (~76k palavras)
+  - **Vol. 8 — Playbooks Setoriais e Trilhas de Navegação (`volumes/IGNICAO-Vol-8-Playbooks-Setoriais.md`)**: Guias de Trilha (B, C, E) + 13 apêndices setoriais e de ecossistema cobrindo SaaS, Marketplace, Fintech, Healthtech, Edtech, Agro, Govtech, Hardware, Impacto, Ecossistema e Comunidades (~50k palavras)
+  - **Vol. 9 — Enciclopédia de Métodos e Frameworks (`volumes/IGNICAO-Vol-9-Ferramentario.md`)**: Índice Mestre de Frameworks + Apêndice BG completo (BG.1 a BG.19, 164 frameworks em 19 domínios) como tratado metodológico autônomo (~81k palavras)
+  - **Vol. 10 — Canvases, Templates, Glossário e Índices (`volumes/IGNICAO-Vol-10-Canvases-e-Templates.md`)**: Os 20 Canvases (CZ) + 42 Templates e Exemplos (A) + Glossários (AH, AI), Bibliografias (AF, AG), Dicionário de Erros, Checklists e Índices (~73k palavras)
+- **30 Introduções Explicativas de Domínio (`build/domain_intros.js`)**: adição de textos introdutórios de costura editorial no início de cada um dos 30 blocos temáticos ao longo dos 10 volumes, detalhando a lógica sistêmica do domínio, a ordem recomendada de leitura, as dependências causais entre capítulos e a conexão direta com os frameworks do Vol. 9 (`BG.X.Y`) e os canvases/templates do Vol. 10 (`CZ.N` e `A.N`).
+- **10 EPUBs individuais + Omnibus e 11 Capas (`build/`)**: geração automatizada dos 10 EPUBs por volume (`IGNICAO-Vol-1-Ideacao.epub` a `IGNICAO-Vol-10-Canvases-e-Templates.epub`), do EPUB Omnibus (`IGNICAO.epub`) e das 11 capas editoriais (`cover.png` e `cover-vol-1.png` a `cover-vol-10.png`) atualizadas para a versão `v3.5`.
+
+### Melhorado
+
+- **Cobertura de Referências Cruzadas (Zero Órfãos)**: integração orgânica de todos os sub-blocos do Ferramentário (`BG.1` a `BG.19`) e dos estudos de caso do Apêndice A (`A.20` a `A.26`) nas introduções de domínio correspondentes, reduzindo de 96 para **0 itens órfãos** em toda a coleção (`py audit.py --orphans`).
+- **Resolução Global de Wikilinks (2.753 links)**: atualização automática de 100% dos wikilinks internos e inter-volumes para refletir a nova topologia de 10 volumes com 0 links quebrados (`py audit.py`).
+
+---
+
 ## [3.4] — 2026-10-17
 
 ### Adicionado
@@ -60,7 +85,7 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/).
 ### Corrigido
 
 - README e introducao.md atualizados com contagens reais: 720 mil palavras (antes "500 mil"), 142 termos no glossário (antes "91"), 100 diagramas Mermaid (antes "58"), 163 frameworks em BG (antes "165", após deleção de 3 stubs).
-- Caractere quebrado no README (`N�o` → `Não`).
+- Caractere quebrado no README (`No` → `Não`).
 - `check_exemplos.py`: regex de extração de labels mais tolerante a notações variadas; `META_FIELDS` ganha "resultado", "decisão", "decisao".
 
 ---

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 check_exemplos.py — detecta exemplos práticos que não seguem o template da seção
-dentro dos 6 volumes canônicos em `volumes/`.
+dentro dos 10 volumes canônicos em `volumes/`.
 
 Para cada seção (FASE ou APÊNDICE) com ### EXEMPLO PRÁTICO, o script:
 1. Extrai campos do bloco ```text``` mais próximo (o template formal da seção).
@@ -10,7 +10,7 @@ Para cada seção (FASE ou APÊNDICE) com ### EXEMPLO PRÁTICO, o script:
    que não correspondem a nenhum campo do template.
 
 Uso:
-    py check_exemplos.py           # verifica todas as seções dos 6 volumes
+    py check_exemplos.py           # verifica todas as seções dos 10 volumes
     py check_exemplos.py FASE 2    # filtra por nome da seção
 """
 
@@ -117,6 +117,11 @@ def check_section_text(text: str) -> tuple[bool, list[str]]:
     return True, problems
 
 
+def _vol_sort_key(p: Path) -> int:
+    m = re.search(r"Vol-(\d+)-", p.stem)
+    return int(m.group(1)) if m else 999
+
+
 def main():
     filter_name = " ".join(sys.argv[1:]).lower() if len(sys.argv) > 1 else None
     boundary = re.compile(r"(?m)^## ((?:FASE|APÊNDICE)\s+[^\n]+)")
@@ -126,7 +131,7 @@ def main():
     total_without_template = 0
     total_with_problems = 0
 
-    for vol_path in sorted(VOLUMES_DIR.glob("IGNICAO-Vol-*.md")):
+    for vol_path in sorted(VOLUMES_DIR.glob("IGNICAO-Vol-*.md"), key=_vol_sort_key):
         vol_text = vol_path.read_text(encoding="utf-8")
         matches = list(boundary.finditer(vol_text))
         starts = [m.start() for m in matches]

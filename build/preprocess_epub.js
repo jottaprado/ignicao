@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Pré-processa os 6 volumes canônicos em `volumes/` (e gera também o Omnibus)
+ * Pré-processa os 10 volumes canônicos em `volumes/` (e gera também o Omnibus)
  * para compilação em EPUB via Pandoc.
  *
  * Etapas:
@@ -13,7 +13,7 @@
  *       * Links entre volumes `[[IGNICAO-Vol-X#Seção|Alias (Vol. X)]]` -> `*Alias*`
  *     - Na edição completa (Omnibus):
  *       * Todos os links (internos e entre volumes) -> `[Alias](#slug)`
- *  4) Escreve `build/vol-1-preprocessado.md` ... `build/vol-6-preprocessado.md`
+ *  4) Escreve `build/vol-1-preprocessado.md` ... `build/vol-10-preprocessado.md`
  *     e `build/manuscrito_preprocessado.md` (Omnibus).
  */
 
@@ -30,50 +30,17 @@ if (!fs.existsSync(MERMAID_DIR)) {
   fs.mkdirSync(MERMAID_DIR, { recursive: true });
 }
 
-const VOLUMES = [
-  {
-    num: 1,
-    slug: 'IGNICAO-Vol-1-Ideacao',
-    title: 'IGNIÇÃO — Volume 1: Ideação',
-    subtitle: 'Do Pré-Zero à Tese de Negócio (Fases 0 a 2B)',
-    cover: 'build/cover-vol-1.png',
-  },
-  {
-    num: 2,
-    slug: 'IGNICAO-Vol-2-Validacao',
-    title: 'IGNIÇÃO — Volume 2: Validação',
-    subtitle: 'Da Descoberta do Problema ao Protótipo Testado (Fases 3 a 9)',
-    cover: 'build/cover-vol-2.png',
-  },
-  {
-    num: 3,
-    slug: 'IGNICAO-Vol-3-Tracao',
-    title: 'IGNIÇÃO — Volume 3: Tração',
-    subtitle: 'Do MVP ao Product-Market Fit (Fases 10 a 12)',
-    cover: 'build/cover-vol-3.png',
-  },
-  {
-    num: 4,
-    slug: 'IGNICAO-Vol-4-Escala',
-    title: 'IGNIÇÃO — Volume 4: Escala',
-    subtitle: 'Da Estruturação ao Hipercrescimento (Fases 13 e 14)',
-    cover: 'build/cover-vol-4.png',
-  },
-  {
-    num: 5,
-    slug: 'IGNICAO-Vol-5-Maturidade',
-    title: 'IGNIÇÃO — Volume 5: Maturidade',
-    subtitle: 'Ciclo Longo, Governança, Crise e Exit (Fases 15 e 16)',
-    cover: 'build/cover-vol-5.png',
-  },
-  {
-    num: 6,
-    slug: 'IGNICAO-Vol-6-Referencia',
-    title: 'IGNIÇÃO — Volume 6: Referência',
-    subtitle: 'Ferramentário, Canvases, Templates, Verticais Setoriais e Glossário',
-    cover: 'build/cover-vol-6.png',
-  },
-];
+const manifest = JSON.parse(
+  fs.readFileSync(path.join(BUILD_DIR, 'volumes_manifest.json'), 'utf8')
+);
+
+const VOLUMES = manifest.map((m) => ({
+  num: m.num,
+  slug: path.basename(m.file, '.md'),
+  title: m.title,
+  subtitle: m.subtitle,
+  cover: `build/cover-vol-${m.num}.png`,
+}));
 
 function slugify(s) {
   return s
@@ -160,6 +127,20 @@ function findMmdc() {
 
 const MMDC = findMmdc();
 
+function findBrowserCli() {
+  const candidates = [
+    'C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe',
+    'C:\\Program Files\\Microsoft\\Edge\\Application\\msedge.exe',
+    'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe',
+  ];
+  for (const c of candidates) {
+    if (fs.existsSync(c)) return c;
+  }
+  return null;
+}
+
+const BROWSER_CLI = findBrowserCli();
+
 function getOrRenderMermaidPng(rawBody) {
   const norm = normalizeMmd(rawBody);
   if (mmdCache.has(norm)) {
@@ -179,11 +160,49 @@ function getOrRenderMermaidPng(rawBody) {
         ['-i', `"${mmdPath}"`, '-o', `"${pngPath}"`, '-s', '2', '-b', 'white', '-p', `"${puppeteerConfig}"`],
         { stdio: 'pipe', timeout: 120000, shell: IS_WIN }
       );
-      console.log(`      Novo diagrama renderizado: ${pngName}`);
+      console.log(`      Novo diagrama renderizado (mmdc): ${pngName}`);
       mmdCache.set(norm, pngName);
       return pngName;
     } catch (err) {
-      console.warn(`      [WARN] Falha ao renderizar ${pngName}: ${err.message.split('\n')[0]}`);
+      console.warn(`      [WARN] Falha ao renderizar via mmdc ${pngName}: ${err.message.split('\n')[0]}`);
+    }
+  }
+
+  if (BROWSER_CLI) {
+    try {
+      const tmpHtml = path.join(MERMAID_DIR, `_tmp-${n}.html`);
+      const html = `<!DOCTYPE html>
+<html><head><meta charset="utf-8">
+<style>
+  html, body { margin: 0; padding: 24px; background: #ffffff; display: flex; align-items: center; justify-content: center; font-family: Segoe UI, sans-serif; }
+  .mermaid { width: 100%; text-align: center; }
+</style>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({ startOnLoad: true, theme: 'default' });</script>
+</head><body><pre class="mermaid">${norm.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')}</pre></body></html>`;
+      fs.writeFileSync(tmpHtml, html, 'utf8');
+      const fileUrl = 'file:///' + tmpHtml.replace(/\\/g, '/');
+      execFileSync(
+        BROWSER_CLI,
+        [
+          '--headless=new',
+          '--disable-gpu',
+          '--hide-scrollbars',
+          '--window-size=1600,420',
+          '--virtual-time-budget=4000',
+          `--screenshot=${pngPath}`,
+          fileUrl,
+        ],
+        { stdio: 'pipe', timeout: 60000 }
+      );
+      try { fs.unlinkSync(tmpHtml); } catch (_) {}
+      if (fs.existsSync(pngPath)) {
+        console.log(`      Novo diagrama renderizado (browser CLI): ${pngName}`);
+        mmdCache.set(norm, pngName);
+        return pngName;
+      }
+    } catch (err) {
+      console.warn(`      [WARN] Falha ao renderizar via browser CLI ${pngName}: ${err.message.split('\n')[0]}`);
     }
   }
   return null;
@@ -241,7 +260,7 @@ function preprocessMarkdown(md, { isOmnibus = false } = {}) {
   });
 
   // 3) Wikilinks entre volumes com alias: [[IGNICAO-Vol-X-Nome#ALVO|alias]] ou \|
-  out = out.replace(/\[\[IGNICAO-Vol-[0-9]-[^#\]|]+#([^\]|\\]+)(?:\\\||\|)([^\]]+)\]\]/g, (_, target, alias) => {
+  out = out.replace(/\[\[IGNICAO-Vol-[0-9]+-[^#\]|]+#([^\]|\\]+)(?:\\\||\|)([^\]]+)\]\]/g, (_, target, alias) => {
     if (isOmnibus) {
       const slug = slugify(target);
       return `[${alias.trim()}](#${slug})`;
@@ -250,7 +269,7 @@ function preprocessMarkdown(md, { isOmnibus = false } = {}) {
   });
 
   // 4) Wikilinks entre volumes sem alias: [[IGNICAO-Vol-X-Nome#ALVO]]
-  out = out.replace(/\[\[IGNICAO-Vol-([0-9])-[^#\]|]+#([^\]]+)\]\]/g, (_, volNum, target) => {
+  out = out.replace(/\[\[IGNICAO-Vol-([0-9]+)-[^#\]|]+#([^\]]+)\]\]/g, (_, volNum, target) => {
     if (isOmnibus) {
       const slug = slugify(target);
       return `[${target.trim()}](#${slug})`;
@@ -280,9 +299,9 @@ function preprocessMarkdown(md, { isOmnibus = false } = {}) {
 }
 
 // ---------------------------------------------------------------------------
-// 3. Processar cada um dos 6 volumes e montar o Omnibus
+// 3. Processar cada um dos 10 volumes e montar o Omnibus
 // ---------------------------------------------------------------------------
-console.log('[2/4] Pré-processando os 6 volumes...');
+console.log(`[2/4] Pré-processando os ${VOLUMES.length} volumes...`);
 const omnibusParts = [];
 
 for (const vol of VOLUMES) {
@@ -294,7 +313,7 @@ for (const vol of VOLUMES) {
   fs.writeFileSync(destVolPath, preprocessedVol, 'utf8');
   console.log(`      Vol. ${vol.num} -> build/vol-${vol.num}-preprocessado.md`);
 
-  // Para o Omnibus, removemos o YAML frontmatter individual dos volumes 2..6
+  // Para o Omnibus, removemos o YAML frontmatter individual dos volumes 2..10
   if (vol.num === 1) {
     omnibusParts.push(rawMd);
   } else {

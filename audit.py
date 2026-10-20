@@ -1,20 +1,20 @@
 #!/usr/bin/env python3
 """
 audit.py — valida integridade estrutural, wikilinks, cobertura de canvases CZ e
-itens órfãos (BG, CZ, A) nos 6 volumes canônicos de `volumes/`.
+itens órfãos (BG, CZ, A) nos 10 volumes canônicos de `volumes/`.
 
 Modos:
 - Padrão (`py audit.py`):
     1) Verifica presença e unicidade de todas as 18 fases (0 a 16, incluindo 2B) e
-       de todos os apêndices nos 6 volumes.
+       de todos os apêndices nos 10 volumes.
     2) Valida 100% dos wikilinks internos (`[[#Seção]]`) e inter-volumes
        (`[[IGNICAO-Vol-X#Seção]]`) contra os headings reais de cada volume.
 - `--canvas` (`py audit.py --canvas`):
     Para cada fase, valida cobertura de canvases CZ esperados versus efetivamente
     referenciados no corpo da fase.
 - `--orphans` (`py audit.py --orphans`):
-    Detecta sub-itens definidos no Vol. 6 (`BG.X.Y`, `CZ.N`, `A.N`) que não são
-    referenciados em nenhuma fase nem em outro apêndice.
+    Detecta sub-itens definidos nos Vols. 9 e 10 (`BG.X.Y`, `CZ.N`, `A.N`) que não são
+    referenciados em nenhuma fase, introdução de domínio ou apêndice.
 """
 
 import re
@@ -60,9 +60,14 @@ def slugify(s: str) -> str:
     return s.strip("-")
 
 
+def _vol_sort_key(p: Path) -> int:
+    m = re.search(r"Vol-(\d+)-", p.stem)
+    return int(m.group(1)) if m else 999
+
+
 def load_volumes() -> dict[str, str]:
     vols = {}
-    for p in sorted(VOLUMES_DIR.glob("IGNICAO-Vol-*.md")):
+    for p in sorted(VOLUMES_DIR.glob("IGNICAO-Vol-*.md"), key=_vol_sort_key):
         vols[p.stem] = p.read_text(encoding="utf-8")
     return vols
 
@@ -70,7 +75,7 @@ def load_volumes() -> dict[str, str]:
 def extract_sections(vols: dict[str, str]) -> dict[str, tuple[str, str]]:
     """Retorna dict code -> (vol_stem, section_text) para cada FASE e APÊNDICE."""
     boundary = re.compile(
-        r"(?m)^## (?:APÊNDICE ([A-Z][\w-]*) —|APÊNDICE —|(FASE \d+B?) —|EPÍLOGO$)"
+        r"(?m)^(?:# [A-ZÀ-Ú]|## (?:APÊNDICE ([A-Z][\w-]*) —|APÊNDICE —|APÊNDICE:|(FASE \d+B?) —|EPÍLOGO$|GLOSSÁRIO$|ÍNDICE REMISSIVO DE TERMOS-CHAVE$))"
     )
     sections = {}
     duplicates = []
@@ -98,8 +103,8 @@ def extract_sections(vols: dict[str, str]) -> dict[str, tuple[str, str]]:
 
 def audit_structure_and_links(only_problems: bool = False) -> bool:
     vols = load_volumes()
-    if len(vols) != 6:
-        print(f"ERRO: Esperados 6 volumes em volumes/, encontrados {len(vols)}.")
+    if len(vols) != 10:
+        print(f"ERRO: Esperados 10 volumes em volumes/, encontrados {len(vols)}.")
         return False
 
     sections = extract_sections(vols)
@@ -156,11 +161,10 @@ def audit_structure_and_links(only_problems: bool = False) -> bool:
                         (stem, f"[[{inner}]] (alias indica Vol. {m_vol_alias.group(1)}, mas destino é {target_vol})")
                     )
 
-
     if not only_problems:
         for stem, text in vols.items():
             words = len(text.split())
-            print(f"  ok  {stem:<26} ({words:>7,} palavras | {len(headings_by_vol[stem]):>3} headings)")
+            print(f"  ok  {stem:<36} ({words:>7,} palavras | {len(headings_by_vol[stem]):>3} headings)")
 
     print()
     print("=== RESULTADO (estrutura e wikilinks) ===")
@@ -179,7 +183,7 @@ def audit_structure_and_links(only_problems: bool = False) -> bool:
 
 
 def audit_canvas() -> bool:
-    print("=== AUDITORIA DE COBERTURA CZ -> FASE (nos 6 volumes) ===\n")
+    print("=== AUDITORIA DE COBERTURA CZ -> FASE (nos 10 volumes) ===\n")
     vols = load_volumes()
     sections = extract_sections(vols)
 
@@ -223,7 +227,7 @@ def audit_canvas() -> bool:
 
 
 def audit_orphans() -> bool:
-    print("=== AUDITORIA DE ITENS ÓRFÃOS (definidos no Vol. 6 mas não referenciados) ===\n")
+    print("=== AUDITORIA DE ITENS ÓRFÃOS (definidos nos Vols. 9 e 10 mas não referenciados) ===\n")
     vols = load_volumes()
     sections = extract_sections(vols)
 
@@ -237,13 +241,15 @@ def audit_orphans() -> bool:
     cz_codes = re.findall(r"(?m)^#{2,4} (CZ\.\d+)\b", cz_text)
     a_codes = re.findall(r"(?m)^#{2,4} (A\.\d+)\b", a_text)
 
-    print(f"Definidos no Vol. 6: {len(bg_codes)} BG, {len(cz_codes)} CZ, {len(a_codes)} A.\n")
+    print(f"Definidos nos Vols. 9 e 10: {len(bg_codes)} BG, {len(cz_codes)} CZ, {len(a_codes)} A.\n")
 
-    other_sections_text = "\n".join(
-        sec_text
-        for code, (_stem, sec_text) in sections.items()
-        if code not in {"BG", "CZ", "A"}
-    )
+    search_chunks = [
+        text for stem, text in vols.items() if not stem.startswith(("IGNICAO-Vol-9-", "IGNICAO-Vol-10-"))
+    ]
+    for code, (stem, sec_text) in sections.items():
+        if stem.startswith(("IGNICAO-Vol-9-", "IGNICAO-Vol-10-")) and code not in {"BG", "CZ", "A"}:
+            search_chunks.append(sec_text)
+    other_sections_text = "\n".join(search_chunks)
 
     def check(codes: list[str], label: str) -> list[str]:
         orphans = []

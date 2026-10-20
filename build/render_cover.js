@@ -1,6 +1,8 @@
-// Renderiza cover.png (Omnibus) e cover-vol-1.png a cover-vol-6.png via Puppeteer
+// Renderiza cover.png (Omnibus) e cover-vol-1.png a cover-vol-10.png via Puppeteer
 const path = require('path');
 const fs = require('fs');
+
+const { execFileSync } = require('child_process');
 
 function loadPuppeteer() {
   const candidates = [
@@ -17,7 +19,19 @@ function loadPuppeteer() {
       /* try next */
     }
   }
-  throw new Error('Puppeteer não encontrado.');
+  return null;
+}
+
+function findBrowserCli() {
+  const candidates = [
+    'C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe',
+    'C:\\Program Files\\Microsoft\\Edge\\Application\\msedge.exe',
+    'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe',
+  ];
+  for (const c of candidates) {
+    if (fs.existsSync(c)) return c;
+  }
+  throw new Error('Nem Puppeteer nem navegador Edge/Chrome foram encontrados.');
 }
 
 const puppeteer = loadPuppeteer();
@@ -25,52 +39,80 @@ const puppeteer = loadPuppeteer();
 const COVERS = [
   {
     file: 'cover.png',
-    topMark: 'Manual de Campo · Edição Completa',
+    topMark: 'Manual de Campo · Edição Completa (10 Volumes)',
     volBadge: '',
     subtitle: 'O manual operacional do empreendedor brasileiro',
     gradient: 'linear-gradient(135deg, #1a0a00 0%, #4a1a00 35%, #c63b00 75%, #ff6b1a 100%)',
   },
   {
     file: 'cover-vol-1.png',
-    topMark: 'Coleção IGNIÇÃO · Volume 1 de 6',
+    topMark: 'Coleção IGNIÇÃO · Volume 1 de 10',
     volBadge: 'VOL. 1 · IDEAÇÃO',
     subtitle: 'Do Pré-Zero à Tese de Negócio (Fases 0 a 2B)',
     gradient: 'linear-gradient(135deg, #1a0a00 0%, #4a1a00 35%, #c63b00 75%, #ff6b1a 100%)',
   },
   {
     file: 'cover-vol-2.png',
-    topMark: 'Coleção IGNIÇÃO · Volume 2 de 6',
+    topMark: 'Coleção IGNIÇÃO · Volume 2 de 10',
     volBadge: 'VOL. 2 · VALIDAÇÃO',
     subtitle: 'Da Descoberta do Problema ao Protótipo Testado (Fases 3 a 9)',
     gradient: 'linear-gradient(135deg, #071324 0%, #102a4c 35%, #1d4ed8 75%, #38bdf8 100%)',
   },
   {
     file: 'cover-vol-3.png',
-    topMark: 'Coleção IGNIÇÃO · Volume 3 de 6',
+    topMark: 'Coleção IGNIÇÃO · Volume 3 de 10',
     volBadge: 'VOL. 3 · TRAÇÃO',
     subtitle: 'Do MVP ao Product-Market Fit (Fases 10 a 12)',
     gradient: 'linear-gradient(135deg, #041f10 0%, #0f3d21 35%, #15803d 75%, #34d399 100%)',
   },
   {
     file: 'cover-vol-4.png',
-    topMark: 'Coleção IGNIÇÃO · Volume 4 de 6',
-    volBadge: 'VOL. 4 · ESCALA',
-    subtitle: 'Da Estruturação ao Hipercrescimento (Fases 13 e 14)',
-    gradient: 'linear-gradient(135deg, #1a093b 0%, #3b147a 35%, #6d28d9 75%, #a855f7 100%)',
+    topMark: 'Coleção IGNIÇÃO · Volume 4 de 10',
+    volBadge: 'VOL. 4 · CAPTAÇÃO E FINANÇAS',
+    subtitle: 'Estruturação Societária, Venture Capital, Tributário e FP&A (Fase 13)',
+    gradient: 'linear-gradient(135deg, #1f1400 0%, #4d3300 35%, #b45309 75%, #fbbf24 100%)',
   },
   {
     file: 'cover-vol-5.png',
-    topMark: 'Coleção IGNIÇÃO · Volume 5 de 6',
-    volBadge: 'VOL. 5 · MATURIDADE',
-    subtitle: 'Ciclo Longo, Governança, Crise e Exit (Fases 15 e 16)',
-    gradient: 'linear-gradient(135deg, #280606 0%, #5c1111 35%, #b91c1c 75%, #f87171 100%)',
+    topMark: 'Coleção IGNIÇÃO · Volume 5 de 10',
+    volBadge: 'VOL. 5 · RECEITA E PESSOAS',
+    subtitle: 'Vendas Enterprise, RevOps, Liderança Executiva, Talentos e Cultura (Fase 14)',
+    gradient: 'linear-gradient(135deg, #1a093b 0%, #3b147a 35%, #6d28d9 75%, #a855f7 100%)',
   },
   {
     file: 'cover-vol-6.png',
-    topMark: 'Coleção IGNIÇÃO · Volume 6 de 6',
-    volBadge: 'VOL. 6 · REFERÊNCIA',
-    subtitle: 'Ferramentário, Canvases, Templates, Verticais Setoriais e Glossário',
-    gradient: 'linear-gradient(135deg, #090d16 0%, #1e293b 40%, #334155 75%, #64748b 100%)',
+    topMark: 'Coleção IGNIÇÃO · Volume 6 de 10',
+    volBadge: 'VOL. 6 · ENGENHARIA E JURÍDICO',
+    subtitle: 'Produto em Escala, Gestão Técnica, IA, Operações e Blindagem Legal',
+    gradient: 'linear-gradient(135deg, #042026 0%, #0c4a56 35%, #0e7490 75%, #22d3ee 100%)',
+  },
+  {
+    file: 'cover-vol-7.png',
+    topMark: 'Coleção IGNIÇÃO · Volume 7 de 10',
+    volBadge: 'VOL. 7 · MATURIDADE E EXIT',
+    subtitle: 'Ciclo Longo, Governança, Internacionalização, Crise e Saída (Fases 15 e 16)',
+    gradient: 'linear-gradient(135deg, #280606 0%, #5c1111 35%, #b91c1c 75%, #f87171 100%)',
+  },
+  {
+    file: 'cover-vol-8.png',
+    topMark: 'Coleção IGNIÇÃO · Volume 8 de 10',
+    volBadge: 'VOL. 8 · PLAYBOOKS SETORIAIS',
+    subtitle: 'Verticais Brasileiras, Regulação Setorial, Macroeconomia e Catálogo de Métricas',
+    gradient: 'linear-gradient(135deg, #141f05 0%, #2d470b 35%, #4d7c0f 75%, #a3e635 100%)',
+  },
+  {
+    file: 'cover-vol-9.png',
+    topMark: 'Coleção IGNIÇÃO · Volume 9 de 10',
+    volBadge: 'VOL. 9 · FERRAMENTÁRIO (BG)',
+    subtitle: 'Enciclopédia Prática de Métodos e Frameworks de Gestão, Produto e Estratégia',
+    gradient: 'linear-gradient(135deg, #180828 0%, #3b0764 35%, #86198f 75%, #e879f9 100%)',
+  },
+  {
+    file: 'cover-vol-10.png',
+    topMark: 'Coleção IGNIÇÃO · Volume 10 de 10',
+    volBadge: 'VOL. 10 · CANVASES E TEMPLATES',
+    subtitle: 'Mapas Visuais (CZ), Documentos Operacionais (A), Glossário e Índices',
+    gradient: 'linear-gradient(135deg, #090d16 0%, #1e293b 40%, #334155 75%, #94a3b8 100%)',
   },
 ];
 
@@ -120,9 +162,9 @@ function buildHtml(c) {
   }
   .vol-badge {
     display: ${c.volBadge ? 'inline-block' : 'none'};
-    font-size: 42px;
+    font-size: 40px;
     font-weight: 800;
-    letter-spacing: 6px;
+    letter-spacing: 5px;
     text-transform: uppercase;
     padding: 16px 36px;
     border: 3px solid rgba(255,255,255,0.75);
@@ -183,29 +225,57 @@ function buildHtml(c) {
   </div>
   <div class="bottom">
     <div class="author">João Prado</div>
-    <div class="meta">2026 · v3.4 · LIVING DOCUMENT</div>
+    <div class="meta">2026 · v3.5 · LIVING DOCUMENT</div>
   </div>
 </body>
 </html>`;
 }
 
 (async () => {
-  const browser = await puppeteer.launch({
-    headless: 'new',
-    args: ['--no-sandbox', '--disable-setuid-sandbox', '--font-render-hinting=none'],
-  });
-  const page = await browser.newPage();
-  await page.setViewport({ width: 1600, height: 2400, deviceScaleFactor: 1 });
+  if (puppeteer) {
+    const browser = await puppeteer.launch({
+      headless: 'new',
+      args: ['--no-sandbox', '--disable-setuid-sandbox', '--font-render-hinting=none'],
+    });
+    const page = await browser.newPage();
+    await page.setViewport({ width: 1600, height: 2400, deviceScaleFactor: 1 });
 
-  for (const c of COVERS) {
-    const html = buildHtml(c);
-    await page.setContent(html, { waitUntil: 'domcontentloaded' });
-    await page.evaluateHandle('document.fonts.ready');
-    const outputPath = path.resolve(__dirname, c.file);
-    await page.screenshot({ path: outputPath, type: 'png', omitBackground: false, fullPage: false });
-    const stats = fs.statSync(outputPath);
-    console.log(`Cover gerada: ${c.file} (${(stats.size / 1024).toFixed(1)} KB)`);
+    for (const c of COVERS) {
+      const html = buildHtml(c);
+      await page.setContent(html, { waitUntil: 'domcontentloaded' });
+      await page.evaluateHandle('document.fonts.ready');
+      const outputPath = path.resolve(__dirname, c.file);
+      await page.screenshot({ path: outputPath, type: 'png', omitBackground: false, fullPage: false });
+      const stats = fs.statSync(outputPath);
+      console.log(`Cover gerada: ${c.file} (${(stats.size / 1024).toFixed(1)} KB)`);
+    }
+
+    await browser.close();
+  } else {
+    const browserExe = findBrowserCli();
+    const tmpHtml = path.resolve(__dirname, '_tmp_cover.html');
+    for (const c of COVERS) {
+      const html = buildHtml(c);
+      fs.writeFileSync(tmpHtml, html, 'utf8');
+      const outputPath = path.resolve(__dirname, c.file);
+      const fileUrl = 'file:///' + tmpHtml.replace(/\\/g, '/');
+      execFileSync(
+        browserExe,
+        [
+          '--headless=new',
+          '--disable-gpu',
+          '--hide-scrollbars',
+          '--window-size=1600,2400',
+          '--force-device-scale-factor=1',
+          '--virtual-time-budget=3000',
+          `--screenshot=${outputPath}`,
+          fileUrl,
+        ],
+        { stdio: 'pipe' }
+      );
+      const stats = fs.statSync(outputPath);
+      console.log(`Cover gerada (CLI): ${c.file} (${(stats.size / 1024).toFixed(1)} KB)`);
+    }
+    if (fs.existsSync(tmpHtml)) fs.unlinkSync(tmpHtml);
   }
-
-  await browser.close();
 })();

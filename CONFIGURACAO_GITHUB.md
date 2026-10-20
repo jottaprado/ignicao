@@ -4,7 +4,7 @@
 
 1. Acesse [github.com/new](https://github.com/new)
 2. **Repository name:** `ignicao` (ou `ignição`, mas sem acento é mais seguro para URLs)
-3. **Description:** `Manual de campo do empreendedor brasileiro — 6 volumes, 18 fases, 146 apêndices, 740 mil palavras. Do pré-zero ao exit.`
+3. **Description:** `Manual de campo do empreendedor brasileiro — 10 volumes, 18 fases, 146 apêndices, 760 mil palavras. Do pré-zero ao exit.`
 4. **Public** (obrigatório para ser manual aberto)
 5. **NÃO** inicializar com README (você vai enviar o seu)
 
@@ -14,7 +14,7 @@
 cd ignicao/
 git init
 git add .
-git commit -m "feat: IGNIÇÃO v3.4 — manual de campo do empreendedor brasileiro (6 volumes)"
+git commit -m "feat: IGNIÇÃO v3.5 — manual de campo do empreendedor brasileiro (10 volumes)"
 git branch -M main
 git remote add origin https://github.com/SEU_USUARIO/ignicao.git
 git push -u origin main
@@ -23,7 +23,7 @@ git push -u origin main
 ## 3. Configurações no GitHub (Settings)
 
 ### Description e topics
-- **Description:** `Manual de campo do empreendedor brasileiro — 6 volumes, 18 fases, 146 apêndices, 740 mil palavras.`
+- **Description:** `Manual de campo do empreendedor brasileiro — 10 volumes, 18 fases, 146 apêndices, 760 mil palavras.`
 - **Website:** (deixe em branco ou coloque URL futura do GitHub Pages)
 - **Topics (tags do repo):**
   ```
@@ -43,7 +43,7 @@ Settings → Features → Discussions ✓
 
 ### About (sidebar direita)
 Edite o "About" para aparecer na sidebar:
-- Description: `Manual de campo do empreendedor brasileiro (6 volumes)`
+- Description: `Manual de campo do empreendedor brasileiro (10 volumes)`
 - Topics adicionados acima
 - ✓ Releases, ✓ Packages desmarcados (não usamos)
 
@@ -51,20 +51,20 @@ Edite o "About" para aparecer na sidebar:
 
 Após o push, crie um release:
 1. Releases → Create a new release
-2. **Tag:** `v3.4.0`
-3. **Title:** `IGNIÇÃO v3.4 — Coleção Completa em 6 Volumes`
+2. **Tag:** `v3.5.0`
+3. **Title:** `IGNIÇÃO v3.5 — Coleção Completa em 10 Volumes Focais`
 4. **Description:**
 ```
-IGNIÇÃO — Manual de Campo do Empreendedor Brasileiro (v3.4), organizado em 6 volumes canônicos + edição Omnibus.
+IGNIÇÃO — Manual de Campo do Empreendedor Brasileiro (v3.5), organizado em 10 volumes focais + edição Omnibus, com introduções explicativas de domínio em todos os 30 blocos temáticos.
 
-✅ 6 volumes temáticos (Ideação, Validação, Tração, Escala, Maturidade e Referência)
+✅ 10 volumes homogêneos (~50k a ~88k palavras cada): Ideação, Validação, Tração, Captação e Finanças, Receita e Pessoas, Engenharia e Jurídico, Maturidade e Exit, Playbooks Setoriais, Ferramentário (BG) e Canvases/Templates/Índices (CZ e A)
+✅ 30 Seções Introdutórias de Domínio conectando fases, apêndices, frameworks e templates
 ✅ 18 fases (Fase 0 a Fase 16, incluindo Fase 2B)
 ✅ 146 apêndices codificados (A a FG) + 11 seções de referência, glossários e índices
-✅ 104 diagramas Mermaid
-✅ ~740 mil palavras com contexto regulatório, tributário e cultural brasileiro
-✅ Casos brasileiros: Nubank, iFood, Stone, Hotmart, RD Station, TOTVS, WEG, Creditas, Kavak e outros
+✅ 108 diagramas Mermaid
+✅ ~760 mil palavras com contexto regulatório, tributário e cultural brasileiro
 ```
-5. Faça upload dos arquivos `.epub` gerados em `build/` (`IGNICAO.epub` e `IGNICAO-Vol-1-Ideacao.epub` a `IGNICAO-Vol-6-Referencia.epub`) como assets do release
+5. Faça upload dos arquivos `.epub` gerados em `build/` (`IGNICAO.epub` e `IGNICAO-Vol-1-Ideacao.epub` a `IGNICAO-Vol-10-Canvases-e-Templates.epub`) como assets do release
 
 ## 5. Divulgação
 
@@ -74,7 +74,7 @@ Posts recomendados para lançamento:
 ```
 🔥 IGNIÇÃO — manual de campo do empreendedor brasileiro, aberto no GitHub
 
-6 volumes. 18 fases. 146 apêndices. 740 mil palavras. Do pré-zero ao exit.
+10 volumes. 18 fases. 146 apêndices. 760 mil palavras. Do pré-zero ao exit.
 
 Não é livro pra ler do início ao fim. É enciclopédia operacional pra consultar quando você precisa.
 
@@ -85,7 +85,7 @@ github.com/SEU_USUARIO/ignicao
 
 **LinkedIn:**
 ```
-Depois de meses construindo, estou publicando o IGNIÇÃO como manual aberto em 6 volumes.
+Depois de meses construindo, estou publicando o IGNIÇÃO como coleção aberta em 10 volumes focais.
 
 O problema: a maioria dos recursos sobre empreendedorismo está em inglês, para o contexto americano. CAC de SaaS americano não é referência para startup brasileira. ANVISA e Reforma Tributária não aparecem no YC Application Guide.
 
@@ -93,12 +93,15 @@ O IGNIÇÃO cobre a jornada completa — da geração de ideia ao exit — com c
 • Vol. 1 — Ideação (Fases 0 a 2B)
 • Vol. 2 — Validação (Fases 3 a 9)
 • Vol. 3 — Tração (Fases 10 a 12)
-• Vol. 4 — Escala (Fases 13 e 14)
-• Vol. 5 — Maturidade (Fases 15 e 16)
-• Vol. 6 — Referência, Playbooks Setoriais e Ferramentas
+• Vol. 4 — Captação e Finanças (Fase 13 + VC, Valuation e Tributário)
+• Vol. 5 — Receita e Pessoas (Fase 14 + Enterprise, RevOps, Liderança e Cultura)
+• Vol. 6 — Engenharia, Operações e Jurídico (Produto, IA, Org Design e Blindagem Legal)
+• Vol. 7 — Maturidade e Exit (Fases 15 e 16 + Board, Crise, M&A e IPO)
+• Vol. 8 — Playbooks Setoriais, Regulação, Macroeconomia e Métricas
+• Vol. 9 — Ferramentário Completo (163 Frameworks em BG)
+• Vol. 10 — Canvases (CZ), Templates Prontos (A), Glossário e Índices
 
-18 fases. 146 apêndices. 104 diagramas. 740 mil palavras. Grátis e aberto (Markdown + EPUB).
+18 fases. 146 apêndices. 108 diagramas. 760 mil palavras. Grátis e aberto (Markdown + EPUB).
 
 [link do repo]
 ```
-

@@ -1,6 +1,6 @@
 # IGNIÇÃO — Best Of: Frases-Chave para Divulgação
 
-> Curadoria de frases marcantes da coleção **IGNIÇÃO — Manual de Campo do Empreendedor** (João Prado, 2026, 6 volumes), organizadas por tema. Servem como matéria-prima para posts em redes sociais, sinopse, contracapa, citações em entrevistas e materiais de divulgação. Cada frase referencia o volume, a fase ou o apêndice onde aparece em contexto.
+> Curadoria de frases marcantes da coleção **IGNIÇÃO — Manual de Campo do Empreendedor** (João Prado, 2026, 10 volumes), organizadas por tema. Servem como matéria-prima para posts em redes sociais, sinopse, contracapa, citações em entrevistas e materiais de divulgação. Cada frase referencia o volume, a fase ou o apêndice onde aparece em contexto.
 
 ---
 
@@ -14,7 +14,7 @@
 
 > Tudo que está aqui é modelo, e todo modelo é simplificação da realidade. Use isto como bússola, não como GPS. Bússola aponta direção. GPS promete rota. Empreendedorismo não tem rota.
 
-— *Epílogo (Vol. 5 — Maturidade)*
+— *Epílogo (Vol. 7 — Maturidade e Exit)*
 
 ---
 
@@ -22,7 +22,7 @@
 
 > Produto, mercado, capital, regulação, tudo se resolve com ferramentas discutíveis. Pessoas não. As decisões de sócio, time fundador, primeiros funcionários e investidores vão definir mais da sua experiência como fundador do que qualquer tese ou mercado. Invista tempo desproporcional nessas escolhas.
 
-— *Epílogo (Vol. 5 — Maturidade)*
+— *Epílogo (Vol. 7 — Maturidade e Exit)*
 
 > Bom fundador é "relentlessly resourceful". Implacavelmente engenhoso.
 
@@ -36,7 +36,7 @@
 
 > Se a empresa quebrar, quebrar bem é possível, e vale. Encerramento digno preserva relações, reputação e capacidade de tentar de novo.
 
-— *Epílogo (Vol. 5 — Maturidade)*
+— *Epílogo (Vol. 7 — Maturidade e Exit)*
 
 ---
 
@@ -128,11 +128,11 @@
 
 > "Eu trato todos eles como meus diretos. Faço skip-level, co-contrato com eles, e tomo decisões sobre se estão funcionando ou não, como hire, fire, promote e gerenciar. Pode parecer muito trabalho, mas é necessário. O conselho convencional diz para você montar um time executivo top-tier e sair do caminho. Isso, para mim, é absolutamente o que você NÃO deveria fazer."
 
-— Brian Chesky (Airbnb), citado em *Apêndice R — Founder Mode (Vol. 4 — Escala)*
+— Brian Chesky (Airbnb), citado em *Apêndice R — Founder Mode (Vol. 5 — Receita e Pessoas)*
 
 > "Você não gerencia pessoas. Você gerencia pessoas através do trabalho."
 
-— Jony Ive a Brian Chesky, citado em *Apêndice R (Vol. 4 — Escala)*
+— Jony Ive a Brian Chesky, citado em *Apêndice R (Vol. 5 — Receita e Pessoas)*
 
 ---
 
@@ -140,7 +140,7 @@
 
 > "Se não estamos dispostos a passar dois anos operando a empresa adquirida mesmo que o deal não tivesse acontecido, não deveríamos comprá-la." É rigoroso. E corrige a maioria dos erros. Elimina aquisições por moda. Por oportunidade. Por ansiedade competitiva.
 
-— Heurística de operadores brasileiros experientes, citada em *Apêndice BJ (Vol. 5 — Maturidade)*
+— Heurística de operadores brasileiros experientes, citada em *Apêndice BJ (Vol. 7 — Maturidade e Exit)*
 
 ---
 
@@ -172,7 +172,7 @@
 
 > Relacionamento com top investidores é relacional. Não transacional.
 
-— *Apêndice V — Captação de Equity (Vol. 4 — Escala)*
+— *Apêndice V — Captação de Equity (Vol. 4 — Captação e Finanças)*
 
 ---
 
@@ -214,4 +214,4 @@
 
 > Este foi escrito para ser companhia de longa data, não leitura única. Reabra em momentos de decisão, de crise, de virada. Você vai encontrar coisas diferentes em cada leitura, porque você vai ser uma pessoa diferente em cada leitura.
 
-— *Epílogo (Vol. 5 — Maturidade)*
+— *Epílogo (Vol. 7 — Maturidade e Exit)*

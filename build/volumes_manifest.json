@@ -7,8 +7,8 @@
     "fases": 4,
     "apendices": 13,
     "diagrams": 9,
-    "words": 72717,
-    "lines": 4382
+    "words": 74111,
+    "lines": 4434
   },
   {
     "num": 2,
@@ -18,8 +18,8 @@
     "fases": 7,
     "apendices": 12,
     "diagrams": 14,
-    "words": 69405,
-    "lines": 5121
+    "words": 70906,
+    "lines": 5179
   },
   {
     "num": 3,
@@ -29,40 +29,84 @@
     "fases": 3,
     "apendices": 20,
     "diagrams": 16,
-    "words": 86522,
-    "lines": 7297
+    "words": 88271,
+    "lines": 7373
   },
   {
     "num": 4,
-    "file": "volumes/IGNICAO-Vol-4-Escala.md",
-    "title": "IGNIÇÃO — Volume 4: Escala",
-    "subtitle": "Da Estruturação ao Hipercrescimento (Fases 13 e 14)",
-    "fases": 2,
-    "apendices": 59,
-    "diagrams": 17,
-    "words": 235780,
-    "lines": 20690
+    "file": "volumes/IGNICAO-Vol-4-Captacao-e-Financas.md",
+    "title": "IGNIÇÃO — Volume 4: Captação e Finanças",
+    "subtitle": "Estruturação Societária, Venture Capital, Tributário e FP&A (Fase 13)",
+    "fases": 1,
+    "apendices": 18,
+    "diagrams": 9,
+    "words": 75096,
+    "lines": 6608
   },
   {
     "num": 5,
-    "file": "volumes/IGNICAO-Vol-5-Maturidade.md",
-    "title": "IGNIÇÃO — Volume 5: Maturidade",
-    "subtitle": "Ciclo Longo, Governança, Crise e Exit (Fases 15 e 16)",
-    "fases": 2,
-    "apendices": 26,
-    "diagrams": 12,
-    "words": 90168,
-    "lines": 6808
+    "file": "volumes/IGNICAO-Vol-5-Receita-e-Pessoas.md",
+    "title": "IGNIÇÃO — Volume 5: Receita e Pessoas",
+    "subtitle": "Vendas Enterprise, RevOps, Liderança Executiva, Talentos e Cultura em Escala (Fase 14)",
+    "fases": 1,
+    "apendices": 19,
+    "diagrams": 7,
+    "words": 84301,
+    "lines": 6557
   },
   {
     "num": 6,
-    "file": "volumes/IGNICAO-Vol-6-Referencia.md",
-    "title": "IGNIÇÃO — Volume 6: Referência",
-    "subtitle": "Ferramentário, Canvases, Templates, Verticais Setoriais e Glossário",
+    "file": "volumes/IGNICAO-Vol-6-Engenharia-e-Juridico.md",
+    "title": "IGNIÇÃO — Volume 6: Engenharia, Operações e Jurídico",
+    "subtitle": "Produto em Escala, Gestão Técnica, IA, Design Organizacional e Blindagem Legal",
     "fases": 0,
-    "apendices": 26,
-    "diagrams": 36,
-    "words": 188975,
-    "lines": 21289
+    "apendices": 23,
+    "diagrams": 6,
+    "words": 84074,
+    "lines": 8062
+  },
+  {
+    "num": 7,
+    "file": "volumes/IGNICAO-Vol-7-Maturidade-e-Exit.md",
+    "title": "IGNIÇÃO — Volume 7: Maturidade e Exit",
+    "subtitle": "Ciclo Longo, Governança, Internacionalização, Crise e Saída (Fases 15 e 16)",
+    "fases": 2,
+    "apendices": 23,
+    "diagrams": 9,
+    "words": 76557,
+    "lines": 5368
+  },
+  {
+    "num": 8,
+    "file": "volumes/IGNICAO-Vol-8-Playbooks-Setoriais.md",
+    "title": "IGNIÇÃO — Volume 8: Playbooks Setoriais",
+    "subtitle": "Verticais Brasileiras, Regulação Setorial, Macroeconomia e Catálogo de Métricas",
+    "fases": 0,
+    "apendices": 16,
+    "diagrams": 9,
+    "words": 50086,
+    "lines": 4460
+  },
+  {
+    "num": 9,
+    "file": "volumes/IGNICAO-Vol-9-Ferramentario.md",
+    "title": "IGNIÇÃO — Volume 9: Ferramentário",
+    "subtitle": "Enciclopédia Prática de Métodos e Frameworks de Gestão, Produto e Estratégia (Apêndice BG)",
+    "fases": 0,
+    "apendices": 2,
+    "diagrams": 1,
+    "words": 81148,
+    "lines": 10812
+  },
+  {
+    "num": 10,
+    "file": "volumes/IGNICAO-Vol-10-Canvases-e-Templates.md",
+    "title": "IGNIÇÃO — Volume 10: Canvases, Templates e Índices",
+    "subtitle": "Mapas Visuais Preenchidos, Documentos Operacionais, Glossário, Bibliografia e Índices (Apêndices CZ e A)",
+    "fases": 0,
+    "apendices": 11,
+    "diagrams": 28,
+    "words": 73663,
+    "lines": 7544
   }
 ]

@@ -7,32 +7,31 @@ author: "João Prado"
 type: enciclopédia
 status: living-document
 created: 2026-04-22
-updated: 2026-10-17
-version: "3.4"
+updated: 2026-10-20
+version: "3.5"
 language: pt-BR
 phase_count: 7
 appendix_count: 12
 diagram_count: 14
-word_count: 69405
+word_count: 70906
 ---
-
 # IGNIÇÃO — Volume 2: Validação
 
 *Da Descoberta do Problema ao Protótipo Testado (Fases 3 a 9)*
 
 > [!tip] Dica para leitura no Obsidian e GitHub
-> Este volume faz parte da coleção **IGNIÇÃO** (6 volumes). Os links para seções deste mesmo volume usam âncoras diretas (`[[#Seção]]`) e os links para outros volumes apontam para o arquivo correspondente (`[[IGNICAO-Vol-X-Nome#Seção]]`).
+> Este volume faz parte da coleção **IGNIÇÃO** (10 volumes). Os links para seções deste mesmo volume usam âncoras diretas (`[[#Seção]]`) e os links para outros volumes apontam para o arquivo correspondente (`[[IGNICAO-Vol-X-Nome#Seção]]`).
 
 ---
 
 ## Sobre este Volume
 
-Este é o **Volume 2 (Validação)** da coleção **IGNIÇÃO — O manual operacional do empreendedor brasileiro**.
+Este é o **Volume 2 (Validação)** da coleção **IGNIÇÃO — O manual operacional do empreendedor brasileiro** (10 volumes).
 
-Cobre a investigação em campo com clientes reais (Customer Discovery e Mom Test), pesquisa profunda de usuário (JTBD, personas, beachhead), mapeamento competitivo e de mercado, formulação rigorosa de hipóteses falsificáveis, experimentos de validação do problema, prototipagem e testes de usabilidade até o Problem-Solution Fit.
+Cobre o ciclo completo de validação antes do código em produção: descoberta do problema em campo com Mom Test (Fase 3), pesquisa aprofundada de usuários e Jobs-to-be-Done (Fase 4), mapeamento de mercado, concorrência e cunha de entrada (Fase 5), formulação de hipóteses falsificáveis (Fase 6), experimentos de validação com compromisso real (Fase 7), prototipagem enxuta (Fase 8) e testes de usabilidade e especificação vinculante de MVP (Fase 9), seguidos por 12 apêndices sobre método científico, psicologia do consumidor brasileiro, inteligência competitiva, design de categoria e arquiteturas de modelo de negócio.
 
-> [!note] Consulta transversal e navegação entre volumes
-> Cada volume da coleção IGNIÇÃO reúne as **Fases** e os **Apêndices temáticos** do seu respectivo estágio de maturidade. Ferramentas gerenciais detalhadas (Apêndice BG), canvases visuais (Apêndice CZ), templates operacionais (Apêndice A), catálogos de métricas (Apêndice C) e playbooks de verticais setoriais estão centralizados no **[[IGNICAO-Vol-6-Referencia#APÊNDICE BG — FERRAMENTÁRIO COMPLETO DO EMPREENDEDOR|Volume 6 — Referência]]**. A Nota do Autor e a apresentação geral da obra encontram-se na abertura do **[[IGNICAO-Vol-1-Ideacao#Nota do autor|Volume 1 — Ideação]]**.
+> [!note] Consulta transversal e navegação entre os 10 volumes
+> Cada volume da coleção IGNIÇÃO reúne as **Fases**, as **Introduções de Domínio** e os **Apêndices temáticos** do seu respectivo estágio ou disciplina. Para métricas por fase e playbooks de verticais brasileiras, consulte o **[[IGNICAO-Vol-8-Playbooks-Setoriais#APÊNDICE C — CATÁLOGO DE MÉTRICAS POR FASE|Volume 8 — Playbooks Setoriais (Vol. 8)]]**. Para os 163 frameworks de gestão e produto, consulte o **[[IGNICAO-Vol-9-Ferramentario#APÊNDICE BG — FERRAMENTÁRIO COMPLETO DO EMPREENDEDOR|Volume 9 — Ferramentário (BG) (Vol. 9)]]**. Para canvases visuais (CZ), templates copiáveis (A) e glossário geral, consulte o **[[IGNICAO-Vol-10-Canvases-e-Templates#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Volume 10 — Canvases, Templates e Índices (Vol. 10)]]**. A Nota do Autor e o guia geral de uso da obra encontram-se na abertura do **[[IGNICAO-Vol-1-Ideacao#Nota do autor|Volume 1 — Ideação (Vol. 1)]]**.
 
 ---
 
@@ -40,18 +39,27 @@ Cobre a investigação em campo com clientes reais (Customer Discovery e Mom Tes
 
 ```mermaid
 flowchart TD
-    V1["<b>Vol. 1 — Ideação</b><br/>Fases 0 a 2B · Preparação, Ideia e Teoria"]
-    V2["<b>Vol. 2 — Validação</b><br/>Fases 3 a 9 · Descoberta, Hipóteses e Protótipo"]
-    V3["<b>Vol. 3 — Tração</b><br/>Fases 10 a 12 · MVP, Modelo de Negócio e PMF"]
-    V4["<b>Vol. 4 — Escala</b><br/>Fases 13 e 14 · Estruturação, Time, GTM e Capital"]
-    V5["<b>Vol. 5 — Maturidade</b><br/>Fases 15 e 16 · Governança, Segunda Curva e Exit"]
-    V6["<b>Vol. 6 — Referência</b><br/>Ferramentário (BG) · Canvases (CZ) · Templates (A) · Verticais"]
-
-    V1 ==>|"Tese explícita"| V2
-    V2 ==>|"Problem-Solution Fit"| V3
-    V3 ==>|"Product-Market Fit"| V4
-    V4 ==>|"Operação madura"| V5
-    V6 -.->|"Consulta transversal"| V1 & V2 & V3 & V4 & V5
+    subgraph JORNADA["Trilha Principal — Da Ideação ao Exit (Vols. 1 a 7)"]
+        V1["<b>Vol. 1 — Ideação</b><br/>Fases 0 a 2B · Fundador, Ideia e Tese"]
+        V2["<b>Vol. 2 — Validação</b><br/>Fases 3 a 9 · Descoberta, Hipóteses e Protótipo"]
+        V3["<b>Vol. 3 — Tração</b><br/>Fases 10 a 12 · MVP, GTM Inicial e PMF"]
+        V4["<b>Vol. 4 — Captação e Finanças</b><br/>Fase 13 · Societário, VC, Tributário e FP&A"]
+        V5["<b>Vol. 5 — Receita e Pessoas</b><br/>Fase 14 · Enterprise, RevOps, Liderança e Cultura"]
+        V6["<b>Vol. 6 — Engenharia e Jurídico</b><br/>Produto em Escala, IA, Operações e Blindagem Legal"]
+        V7["<b>Vol. 7 — Maturidade e Exit</b><br/>Fases 15 e 16 · Board, Internacionalização, Crise e Saída"]
+        V1 ==>|"Tese explícita"| V2
+        V2 ==>|"Problem-Solution Fit"| V3
+        V3 ==>|"Product-Market Fit"| V4
+        V4 ==>|"Base estruturada"| V5
+        V5 <==>|"Execução integrada"| V6
+        V5 & V6 ==>|"Operação madura"| V7
+    end
+    subgraph REFERENCIA["Biblioteca Transversal — Consulta Sob Demanda (Vols. 8 a 10)"]
+        V8["<b>Vol. 8 — Playbooks Setoriais</b><br/>Verticais Brasileiras, Regulação, Macro e Métricas"]
+        V9["<b>Vol. 9 — Ferramentário (BG)</b><br/>163 Frameworks de Estratégia, Produto, Vendas e Gestão"]
+        V10["<b>Vol. 10 — Canvases, Templates e Índices</b><br/>20 Mapas Visuais (CZ) · 30 Templates (A) · Glossário"]
+    end
+    REFERENCIA -.->|"Consulta transversal em todas as fases"| JORNADA
     style V2 fill:#ff6b1a,color:#ffffff,stroke:#1a0a00,stroke-width:3px
 ```
 
@@ -69,23 +77,21 @@ flowchart TD
 - [[#FASE 8 — IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES]]
 - [[#FASE 9 — TESTES DE SOLUÇÃO E USABILIDADE]]
 
-### Apêndices Operacionais desta Etapa
-
-#### Metodologia Científica, Gates e Maturidade
+### Metodologia Científica, Gates e Maturidade
 
 - [[#APÊNDICE F — ABORDAGEM CIENTÍFICA vs LEAN STARTUP: QUANDO USAR CADA UMA]]
 - [[#APÊNDICE G — FRAMEWORK DE DECISÃO POR GATES (PROBLEM CORE + SCALE LEVERS + EXPLORATORY)]]
 - [[#APÊNDICE H — TRL E CRL: MATURIDADE TECNOLÓGICA E DE MERCADO]]
 - [[#APÊNDICE L — IDEA → WEDGE → SCALE: O FRAMEWORK ANTLER COMO LENTE TRANSVERSAL]]
 
-#### Consumidor, Inteligência Competitiva e Posicionamento de Categoria
+### Consumidor, Inteligência Competitiva e Posicionamento de Categoria
 
 - [[#APÊNDICE FF — PSICOLOGIA DO CONSUMIDOR BRASILEIRO — COMPORTAMENTO, DECISÃO E CONVERSÃO]]
 - [[#APÊNDICE EE — INTELIGÊNCIA COMPETITIVA — MONITORAMENTO, ANÁLISE E RESPOSTA]]
 - [[#APÊNDICE S — CATEGORY DESIGN]]
 - [[#APÊNDICE AI — CASOS DE FRACASSO BRASILEIROS E LIÇÕES]]
 
-#### Arquitetura de Modelo de Negócio (Marketplaces, Plataformas, B2B2C e Open Source)
+### Arquitetura de Modelo de Negócio (Marketplaces, Plataformas, B2B2C e Open Source)
 
 - [[#APÊNDICE AE — MARKETPLACE DYNAMICS E RISCO DE PLATAFORMA]]
 - [[#APÊNDICE CC — PLATAFORMA VS PRODUTO: QUANDO CONSTRUIR PLATAFORMA E QUANDO NÃO]]
@@ -95,6 +101,20 @@ flowchart TD
 ---
 
 # FASES DA ETAPA — VALIDAÇÃO
+
+---
+
+### Arquitetura deste Domínio: O Funil Científico da Descoberta ao Protótipo Testado
+
+Se o Volume 1 construiu uma teoria plausível sobre o seu negócio, a função deste **Volume 2 (Validação — Fases 3 a 9)** é submeter essa teoria ao contato brutal com a realidade antes de escrever código de produção. As sete fases aqui reunidas formam um funil de redução progressiva de incerteza, onde cada etapa invalida ou refina a anterior com custo mínimo.
+
+A arquitetura sequencial foi desenhada para impedir os três erros clássicos do fundador brasileiro: construir solução para dor que não é prioritária (evitado pelas [[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]] e [[#FASE 4 — PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY APROFUNDADO)|Fase 4]]), entrar num mercado sem cunha defensável ou com economia inviável (evitado pela [[#FASE 5 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 5]]), e confundir opinião simpática em entrevista com evidência comportamental de compra (evitado pelas [[#FASE 6 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 6]], [[#FASE 7 — EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA|Fase 7]], [[#FASE 8 — IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES|Fase 8]] e [[#FASE 9 — TESTES DE SOLUÇÃO E USABILIDADE|Fase 9]]).
+
+> [!tip] Roteiro de leitura, dependências causais e instrumentos conectados
+> - **Fase 3 → Fase 4 → Fase 5 (Entender o problema, quem sofre e onde entrar):** Você primeiro comprova que a dor existe sem mencionar sua ideia (Fase 3), depois mapeia o *Job-to-be-Done* e a jornada de troca do cliente (Fase 4), e então dimensiona o mercado e escolhe a cunha (*wedge*) exata de entrada (Fase 5).
+> - **Fase 6 → Fase 7 (Testar com pele em jogo):** Transforma as incertezas críticas em hipóteses falsificáveis (Fase 6) e roda experimentos com custo de compromisso real — pré-venda, *smoke test*, *concierge* (Fase 7).
+> - **Fase 8 → Fase 9 (Da ideia de solução à especificação do MVP):** Prototipa soluções na fidelidade mínima necessária (Fase 8) e mede usabilidade, compreensão e disposição a pagar antes de liberar engenharia (Fase 9).
+> - **Métodos e templates conectados (Vols. 9 e 10):** Aprofunde técnicas de campo em Ethnographic Field Research (BG.6.4), Contextual Inquiry (BG.6.5), Diary Studies (BG.6.6), Focus Groups (BG.6.7), 5 Whys (BG.6.8), Card Sorting (BG.7.3) e First-Click Testing (BG.7.4) no **Volume 9**, e utilize os roteiros A.2, A.3, A.4, A.5, A.6, A.10, A.11, A.12, A.19, A.20 (Roteiro de Teste de Usabilidade), A.24 (Customer Journey Map), A.27, A.29 e A.30 no **Volume 10**.
 
 ---
 
@@ -264,7 +284,7 @@ O executor principal é você. Não terceirize entrevistas nesta fase. Quem cond
 Dez passos.
 
 > [!tip] Empathy Map como complemento ao Mom Test
-> Entrevistas Mom Test capturam comportamento passado e revelam onde a dor está. Para registrar o **universo emocional e contextual** que cerca esse comportamento, use o [[IGNICAO-Vol-6-Referencia#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Empathy Map (CZ.6) (Vol. 6)]] como artefato pós-entrevistas. Após 5-10 entrevistas com a mesma persona, reúna PM + designer + customer success e preencha os seis quadrantes (Pensa & Sente, Vê, Ouve, Fala & Faz, Pains, Gains) com base em verbatim. Empathy Map preenchido sem entrevistas é projeção; com entrevistas é a primeira ferramenta que torna empatia auditável. O exemplo de Loggi com persona "Carlos motoboy" em CZ.6 mostra como mapear não-clientes (parceiros, intermediários) frequentemente revela mais que mapear o cliente final.
+> Entrevistas Mom Test capturam comportamento passado e revelam onde a dor está. Para registrar o **universo emocional e contextual** que cerca esse comportamento, use o [[IGNICAO-Vol-10-Canvases-e-Templates#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Empathy Map (CZ.6) (Vol. 10)]] como artefato pós-entrevistas. Após 5-10 entrevistas com a mesma persona, reúna PM + designer + customer success e preencha os seis quadrantes (Pensa & Sente, Vê, Ouve, Fala & Faz, Pains, Gains) com base em verbatim. Empathy Map preenchido sem entrevistas é projeção; com entrevistas é a primeira ferramenta que torna empatia auditável. O exemplo de Loggi com persona "Carlos motoboy" em CZ.6 mostra como mapear não-clientes (parceiros, intermediários) frequentemente revela mais que mapear o cliente final.
 
 #### Passo 1, perfil do entrevistado com precisão cirúrgica
 
@@ -378,20 +398,20 @@ Ritmo saudável: três a cinco por semana. Faça sozinho, ou com um parceiro que
 Para cada entrevista, preencha um template padronizado. Nome, papel, empresa (quando aplicável), data. Verbatim, ou seja, citações literais dos momentos mais importantes, exatamente o que a pessoa disse, entre aspas. Problemas mencionados (não os que você interpretou, os que foram ditos). Soluções atuais utilizadas. Quanto tempo, dinheiro, ou energia a pessoa gasta hoje com o problema. Gatilhos emocionais observados (frustração, raiva, resignação). E as suas observações pessoais em itálico, claramente separadas dos fatos.
 
 > [!tip] Use o Template A.2 — Parte B
-> O [[IGNICAO-Vol-6-Referencia#APÊNDICE A — TEMPLATES PRONTOS PARA USO|Template A.2 (Vol. 6)]] tem duas partes: a Parte A é o roteiro que você consulta durante a conversa; a Parte B é a síntese pós-entrevista, com 12 seções que estruturam exatamente o que este Passo 6 pede — metadados, aderência ao ICP, problemas, verbatim, vocabulário, hierarquia de sinais, Pain Level com justificativa, armadilhas (autoavaliação) e refinamento de ICP. Preencha nas 24h seguintes à entrevista, enquanto a memória está fresca. Entrevistas com a Parte B em branco contam como dado perdido.
+> O [[IGNICAO-Vol-10-Canvases-e-Templates#APÊNDICE A — TEMPLATES PRONTOS PARA USO|Template A.2 (Vol. 10)]] tem duas partes: a Parte A é o roteiro que você consulta durante a conversa; a Parte B é a síntese pós-entrevista, com 12 seções que estruturam exatamente o que este Passo 6 pede — metadados, aderência ao ICP, problemas, verbatim, vocabulário, hierarquia de sinais, Pain Level com justificativa, armadilhas (autoavaliação) e refinamento de ICP. Preencha nas 24h seguintes à entrevista, enquanto a memória está fresca. Entrevistas com a Parte B em branco contam como dado perdido.
 
 #### Passo 7, análise depois de cada lote de cinco entrevistas
 
 Não espere terminar tudo para analisar. A cada cinco entrevistas, faça uma síntese parcial. Quais problemas apareceram em mais de cinquenta por cento das entrevistas? Quais padrões de comportamento se repetem? Que hipóteses iniciais foram reforçadas e quais foram abaladas? Quais novos problemas apareceram que você não esperava?
 
 > [!tip] Síntese parcial e final no Template A.30
-> O [[IGNICAO-Vol-6-Referencia#APÊNDICE A — TEMPLATES PRONTOS PARA USO|Template A.30 (Síntese de Rodada de Entrevistas) (Vol. 6)]] é o artefato dessa síntese. Use uma versão "rascunho" a cada lote de cinco para checar padrões; consolide a versão final só quando a rodada inteira fechar — consolidar antes do fim viesa as entrevistas restantes. A.30 é também o documento que registra a decisão de avanço da fase (perseverar / pivotar problema / pivotar cliente / abandonar).
+> O [[IGNICAO-Vol-10-Canvases-e-Templates#APÊNDICE A — TEMPLATES PRONTOS PARA USO|Template A.30 (Síntese de Rodada de Entrevistas) (Vol. 10)]] é o artefato dessa síntese. Use uma versão "rascunho" a cada lote de cinco para checar padrões; consolide a versão final só quando a rodada inteira fechar — consolidar antes do fim viesa as entrevistas restantes. A.30 é também o documento que registra a decisão de avanço da fase (perseverar / pivotar problema / pivotar cliente / abandonar).
 
 > [!note] A jornada do cliente é uma estrutura útil para organizar o que as entrevistas revelam
 > Enquanto o Mom Test captura incidentes isolados, o [[IGNICAO-Vol-3-Tracao#APÊNDICE DT — CUSTOMER EXPERIENCE: DA JORNADA AO NPS AO CHURN ZERO|Apêndice DT — Customer Experience (Vol. 3)]] oferece a visão de jornada completa — do momento de consciência do problema ao pós-resolução — incluindo métricas de NPS e churn preditivo. Usar a jornada como mapa mental durante a síntese das entrevistas ajuda a localizar em qual etapa a dor é mais aguda.
 
 > [!tip] Apêndice CZ — Value Proposition Canvas (CZ.3)
-> Ao sintetizar as entrevistas, o **Customer Profile** do [[IGNICAO-Vol-6-Referencia#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Value Proposition Canvas (CZ.3) (Vol. 6)]] — Jobs (o que o cliente está tentando fazer), Pains (frustrações no caminho), Gains (resultados desejados) — é o frame visual exato para organizar o que as entrevistas Mom Test capturaram. Use depois da síntese qualitativa para preparar a [[#FASE 4 — PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY APROFUNDADO)|Fase 4]] (JTBD).
+> Ao sintetizar as entrevistas, o **Customer Profile** do [[IGNICAO-Vol-10-Canvases-e-Templates#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Value Proposition Canvas (CZ.3) (Vol. 10)]] — Jobs (o que o cliente está tentando fazer), Pains (frustrações no caminho), Gains (resultados desejados) — é o frame visual exato para organizar o que as entrevistas Mom Test capturaram. Use depois da síntese qualitativa para preparar a [[#FASE 4 — PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY APROFUNDADO)|Fase 4]] (JTBD).
 
 #### Passo 8, separe sintoma de causa raiz — entrevista de raiz causal
 
@@ -460,7 +480,7 @@ Um ICP pode ter três a cinco problemas mapeados. O foco é em um, o mais agudo,
 O documento final tem cinco a dez páginas, com o seguinte conteúdo: perfil do entrevistado consolidado (ICP refinado); lista dos problemas identificados, ranqueados por frequência e intensidade; verbatim marcantes (citações literais) para cada problema; soluções atuais identificadas e suas deficiências; disposição emocional, ou seja, quanto as pessoas se importam com o problema; comparação com a Declaração Inicial v1 — o que se confirmou, o que se refutou, o que emergiu que você não esperava; e versão dois da Declaração da Ideia, atualizada com o que foi aprendido.
 
 > [!note] Mapa de Problemas e A.30
-> O Mapa de Problemas é a saída visual da rodada — o entregável de comunicação. O [[IGNICAO-Vol-6-Referencia#APÊNDICE A — TEMPLATES PRONTOS PARA USO|Template A.30 (Vol. 6)]] é a planilha de decisão estruturada que sustenta o Mapa: cruza distribuição de Pain Level, padrões agregados de problema, workarounds dominantes, vocabulário recorrente e sub-segmentos para registrar a decisão de avanço com rastro à evidência. Use os dois — o Mapa para apresentar, A.30 para defender.
+> O Mapa de Problemas é a saída visual da rodada — o entregável de comunicação. O [[IGNICAO-Vol-10-Canvases-e-Templates#APÊNDICE A — TEMPLATES PRONTOS PARA USO|Template A.30 (Vol. 10)]] é a planilha de decisão estruturada que sustenta o Mapa: cruza distribuição de Pain Level, padrões agregados de problema, workarounds dominantes, vocabulário recorrente e sub-segmentos para registrar a decisão de avanço com rastro à evidência. Use os dois — o Mapa para apresentar, A.30 para defender.
 
 ### Os dez passos aplicados, roteiro de entrevista do PadariaPro
 
@@ -526,7 +546,7 @@ Você concluiu a [[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3]] quando todos os c
 > [!warning] Se o problema não passou no teste, momento crítico
 > Os caminhos são três. Pivotar o problema (algo adjacente emergiu como mais doloroso). Pivotar o cliente (o problema existe, mas em outro perfil). Ou abandonar (volte à Fase 2 com outra ideia). Não avance para a Fase 4 com problema não-validado. Construir sobre problema inexistente é o cemitério das startups.
 >
-> Antes de pivotar ou encerrar, vale ler o [[IGNICAO-Vol-5-Maturidade#APÊNDICE BH — POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE|Apêndice BH (Vol. 5)]]: os padrões de fracasso documentados em empresas brasileiras mostram que a maioria das mortes por "problema inexistente" tinha sinais detectáveis nas entrevistas iniciais — sinais que foram ignorados. Aprender o padrão antes de vivê-lo vale semanas de iteração.
+> Antes de pivotar ou encerrar, vale ler o [[IGNICAO-Vol-7-Maturidade-e-Exit#APÊNDICE BH — POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE|Apêndice BH (Vol. 7)]]: os padrões de fracasso documentados em empresas brasileiras mostram que a maioria das mortes por "problema inexistente" tinha sinais detectáveis nas entrevistas iniciais — sinais que foram ignorados. Aprender o padrão antes de vivê-lo vale semanas de iteração.
 
 **Primeiros passos práticos.**
 
@@ -665,7 +685,7 @@ Para cada persona (perfil semifictício do cliente típico, baseado em dados rea
 > O [[IGNICAO-Vol-3-Tracao#APÊNDICE DT — CUSTOMER EXPERIENCE: DA JORNADA AO NPS AO CHURN ZERO|Apêndice DT — Customer Experience (Vol. 3)]] trata jornada, onboarding, NPS e sinais de churn preditivo como disciplina integrada. O mapeamento que você faz aqui é a versão de descoberta; o Apêndice DT mostra como a mesma jornada evolui para instrumento de retenção e melhoria contínua depois do lançamento.
 
 > [!tip] Customer Journey Canvas e VPC como entregáveis visuais
-> O mapa em sete colunas descrito acima é a base do [[IGNICAO-Vol-6-Referencia#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Customer Journey Canvas (CZ.7) (Vol. 6)]]. Para cada persona principal, monte um canvas completo (etapas + ação + objetivo + dor + emoção + oportunidade) com a linha emocional desenhada visualmente — pontos vermelhos consecutivos antecipam churn. O caso iFood 2017 em CZ.7 ilustra como a jornada revelou que **a maior queda de conversão estava em Pagamento** (não em descoberta ou variedade, como o time supunha). Pareie com o [[IGNICAO-Vol-6-Referencia#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Empathy Map (CZ.6) (Vol. 6)]] (estado interno do cliente) e o [[IGNICAO-Vol-6-Referencia#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Value Proposition Canvas (CZ.3) (Vol. 6)]] (Pains/Gains traduzidos em Pain Relievers/Gain Creators do produto): juntos, esses três canvases formam o pacote padrão de entregáveis visuais desta fase.
+> O mapa em sete colunas descrito acima é a base do [[IGNICAO-Vol-10-Canvases-e-Templates#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Customer Journey Canvas (CZ.7) (Vol. 10)]]. Para cada persona principal, monte um canvas completo (etapas + ação + objetivo + dor + emoção + oportunidade) com a linha emocional desenhada visualmente — pontos vermelhos consecutivos antecipam churn. O caso iFood 2017 em CZ.7 ilustra como a jornada revelou que **a maior queda de conversão estava em Pagamento** (não em descoberta ou variedade, como o time supunha). Pareie com o [[IGNICAO-Vol-10-Canvases-e-Templates#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Empathy Map (CZ.6) (Vol. 10)]] (estado interno do cliente) e o [[IGNICAO-Vol-10-Canvases-e-Templates#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Value Proposition Canvas (CZ.3) (Vol. 10)]] (Pains/Gains traduzidos em Pain Relievers/Gain Creators do produto): juntos, esses três canvases formam o pacote padrão de entregáveis visuais desta fase.
 
 #### Passo 4, identifique os Jobs to be Done (JTBD)
 
@@ -710,7 +730,7 @@ flowchart LR
 > "Quero automatizar planilhas" está incompleto. Sem circunstância e sem outcome. Solução que atende JTBD bem formulado tende a ser mais específica e mais defensável.
 
 > [!tip] Switch Interview quando o entrevistado trocou de solução
-> Quando o entrevistado **trocou** de solução (deixou um concorrente, largou um processo manual, migrou de ferramenta, mudou de fornecedor), entrevista comum de JTBD captura a versão racionalizada da decisão. A Switch Interview de Bob Moesta reconstrói o momento real, mapeando as quatro forças simultâneas — push (o que empurrou para fora do velho), pull (o que atraiu para o novo), anxiety (o que causou medo de trocar) e habit (o que segurava no antigo). Para cada switcher relevante, marque uma segunda conversa com o [[IGNICAO-Vol-6-Referencia#APÊNDICE A — TEMPLATES PRONTOS PARA USO|Template A.29 (Vol. 6)]]. O que ela formula é um JTBD muito mais específico do que o capturado em conversa única.
+> Quando o entrevistado **trocou** de solução (deixou um concorrente, largou um processo manual, migrou de ferramenta, mudou de fornecedor), entrevista comum de JTBD captura a versão racionalizada da decisão. A Switch Interview de Bob Moesta reconstrói o momento real, mapeando as quatro forças simultâneas — push (o que empurrou para fora do velho), pull (o que atraiu para o novo), anxiety (o que causou medo de trocar) e habit (o que segurava no antigo). Para cada switcher relevante, marque uma segunda conversa com o [[IGNICAO-Vol-10-Canvases-e-Templates#APÊNDICE A — TEMPLATES PRONTOS PARA USO|Template A.29 (Vol. 10)]]. O que ela formula é um JTBD muito mais específico do que o capturado em conversa única.
 
 #### Passo 5, síntese qualitativa das entrevistas (técnicas formais)
 
@@ -977,7 +997,7 @@ A maioria das ferramentas de research está no Ferramentário (BG.6). Canvases c
 - **Second-Order Thinking** (Marks) — o que o usuário fará se a solução existir? Como o comportamento mudará? BG.4.2.
 
 > [!note] Métodos consagrados de pesquisa no Ferramentário
-> O [[IGNICAO-Vol-6-Referencia#APÊNDICE BG — FERRAMENTÁRIO COMPLETO DO EMPREENDEDOR|Apêndice BG (Vol. 6)]].6 adiciona: The Mom Test (Fitzpatrick), JTBD Switch Interviews (Moesta), Contextual Inquiry (Beyer e Holtzblatt), Laddering Technique, Diary Studies, Empathy Mapping (Gray), Customer Journey Mapping, Personas (Cooper), Grounded Theory, Thematic Analysis, e cerca de quinze outros métodos.
+> O [[IGNICAO-Vol-9-Ferramentario#APÊNDICE BG — FERRAMENTÁRIO COMPLETO DO EMPREENDEDOR|Apêndice BG (Vol. 9)]].6 adiciona: The Mom Test (Fitzpatrick), JTBD Switch Interviews (Moesta), Contextual Inquiry (Beyer e Holtzblatt), Laddering Technique, Diary Studies, Empathy Mapping (Gray), Customer Journey Mapping, Personas (Cooper), Grounded Theory, Thematic Analysis, e cerca de quinze outros métodos.
 
 ---
 
@@ -1107,7 +1127,7 @@ Mapeie pelo menos as cinco a dez alternativas mais relevantes.
 > O [[#APÊNDICE EE — INTELIGÊNCIA COMPETITIVA — MONITORAMENTO, ANÁLISE E RESPOSTA|Apêndice EE — Inteligência Competitiva]] cobre como estruturar monitoramento sistemático de mercado, conduzir análises win/loss e produzir battle cards acionáveis. Aplicado a esta fase, transforma o levantamento de alternativas de um documento estático em inteligência viva que alimenta decisões de roadmap e vendas.
 
 > [!tip] Strategy Canvas para visualizar diferenciação
-> Listar as alternativas é o primeiro passo. O segundo é decidir como você se posiciona contra elas — e aqui o [[IGNICAO-Vol-6-Referencia#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Strategy Canvas (CZ.4) (Vol. 6)]] de Kim & Mauborgne (Blue Ocean Strategy — ferramenta para identificar mercados sem concorrência direta) é a escolha certa. Liste 8-15 fatores de competição do setor, trace a curva de valor de cada concorrente principal (1-10 em cada fator) e desenhe a curva nova que você quer construir. Curva nova "ligeiramente acima" da média do setor é otimização de Red Ocean (mercado com muita concorrência). Curva visualmente distinta — onde você elimina/reduz fatores que ninguém mais ousa cortar e cria fatores que ninguém oferece — é Blue Ocean. Veja CZ.4 para o caso completo Stone vs adquirentes tradicionais.
+> Listar as alternativas é o primeiro passo. O segundo é decidir como você se posiciona contra elas — e aqui o [[IGNICAO-Vol-10-Canvases-e-Templates#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Strategy Canvas (CZ.4) (Vol. 10)]] de Kim & Mauborgne (Blue Ocean Strategy — ferramenta para identificar mercados sem concorrência direta) é a escolha certa. Liste 8-15 fatores de competição do setor, trace a curva de valor de cada concorrente principal (1-10 em cada fator) e desenhe a curva nova que você quer construir. Curva nova "ligeiramente acima" da média do setor é otimização de Red Ocean (mercado com muita concorrência). Curva visualmente distinta — onde você elimina/reduz fatores que ninguém mais ousa cortar e cria fatores que ninguém oferece — é Blue Ocean. Veja CZ.4 para o caso completo Stone vs adquirentes tradicionais.
 
 #### Passo 4, entenda a dinâmica do mercado
 
@@ -1135,10 +1155,10 @@ O que impede novos concorrentes (incluindo grandes empresas) de te copiar rapida
 > Seja realista. "Execução" não é barreira de entrada. Qualquer um pode executar bem. Barreira é estrutural. É o que existe depois que você sai do escritório.
 
 > [!tip] Apêndice CZ — Network Effects Map (CZ.18)
-> Quando o modelo tem componente de rede (marketplaces, plataformas, social, comunidades), o [[IGNICAO-Vol-6-Referencia#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Network Effects Map (CZ.18) (Vol. 6)]] classifica o tipo de efeito (direto, indireto, dados, social) e identifica os limites de defensibilidade. Use ao avaliar moats em modelos de plataforma — efeito de rede é a categoria de moat mais forte e mais difícil de identificar com clareza.
+> Quando o modelo tem componente de rede (marketplaces, plataformas, social, comunidades), o [[IGNICAO-Vol-10-Canvases-e-Templates#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Network Effects Map (CZ.18) (Vol. 10)]] classifica o tipo de efeito (direto, indireto, dados, social) e identifica os limites de defensibilidade. Use ao avaliar moats em modelos de plataforma — efeito de rede é a categoria de moat mais forte e mais difícil de identificar com clareza.
 
 > [!tip] Apêndice CZ — Wardley Map (CZ.20)
-> Para análise estratégica em profundidade, o [[IGNICAO-Vol-6-Referencia#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Wardley Map (CZ.20) (Vol. 6)]] decompõe a cadeia de valor em estágios de evolução (Genesis → Custom → Product → Commodity), revelando onde investir custom (componentes que criam vantagem) e onde comoditizar (componentes que viraram utility). Complementa Porter (forças estáticas) com lente temporal (evolução).
+> Para análise estratégica em profundidade, o [[IGNICAO-Vol-10-Canvases-e-Templates#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Wardley Map (CZ.20) (Vol. 10)]] decompõe a cadeia de valor em estágios de evolução (Genesis → Custom → Product → Commodity), revelando onde investir custom (componentes que criam vantagem) e onde comoditizar (componentes que viraram utility). Complementa Porter (forças estáticas) com lente temporal (evolução).
 
 #### Passo 8, faça uma matriz competitiva
 
@@ -1189,7 +1209,7 @@ Documento de dez a vinte páginas. Conteúdo: definição precisa do mercado; TA
 > A escolha de posicionamento de preço no Passo 8 (eixo horizontal da matriz) deve ser informada por análise de disposição a pagar, não por benchmarking ingênuo de concorrentes. O [[IGNICAO-Vol-3-Tracao#APÊNDICE X — PRICING STRATEGY COMO DISCIPLINA|Apêndice X — Pricing Strategy (Vol. 3)]] cobre modelos de precificação (value-based, cost-plus, freemium, usage-based), teste de sensibilidade a preço (Van Westendorp, Gabor-Granger), e o erro de começar com preço baixo demais que é difícil de reverter.
 
 > [!tip] Canvas da Cunha como entregável central desta fase
-> O Canvas da Cunha (CZ.15) operacionaliza a escolha do segmento de entrada: ICP preciso, dor específica (um fluxo de trabalho quebrado), resultado mensurável, dono do orçamento, Teste do Grupo de WhatsApp (100-300 pessoas listáveis por nome) e vantagem sobre a alternativa atual. É o artefato de saída desta fase — sem ele preenchido e aprovado nos três testes complementares (Precisão do Comprador, ausência de escopo instável, independência de plataforma), a Fase 5 não está concluída. Veja origem, estrutura e caso PadariaPro em [[IGNICAO-Vol-6-Referencia#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|CZ.15 (Vol. 6)]]; template preenchível em [[IGNICAO-Vol-6-Referencia#APÊNDICE A — TEMPLATES PRONTOS PARA USO|A.12 (Vol. 6)]].
+> O Canvas da Cunha (CZ.15) operacionaliza a escolha do segmento de entrada: ICP preciso, dor específica (um fluxo de trabalho quebrado), resultado mensurável, dono do orçamento, Teste do Grupo de WhatsApp (100-300 pessoas listáveis por nome) e vantagem sobre a alternativa atual. É o artefato de saída desta fase — sem ele preenchido e aprovado nos três testes complementares (Precisão do Comprador, ausência de escopo instável, independência de plataforma), a Fase 5 não está concluída. Veja origem, estrutura e caso PadariaPro em [[IGNICAO-Vol-10-Canvases-e-Templates#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|CZ.15 (Vol. 10)]]; template preenchível em [[IGNICAO-Vol-10-Canvases-e-Templates#APÊNDICE A — TEMPLATES PRONTOS PARA USO|A.12 (Vol. 10)]].
 
 ### SAÍDA DESTA FASE
 
@@ -1641,7 +1661,7 @@ Para entender a diferença entre hipótese ruim e hipótese boa:
 > "Pelo menos trinta por cento dos donos de restaurante do nosso ICP (perfil de cliente ideal), depois de conhecer a solução por uma página de pré-cadastro, vão deixar e-mail e concordar com cobrança antecipada de R$ 49 para acesso ao beta. Se for falsa, significa que a nossa proposta de valor não é forte o bastante para pagamento antecipado, o que compromete a viabilidade do modelo."
 
 > [!tip] Hypothesis Canvas e Test Card como par de ferramentas
-> O formato padronizado acima é o coração do Hypothesis Canvas — registrado como template prático no [[IGNICAO-Vol-6-Referencia#APÊNDICE A — TEMPLATES PRONTOS PARA USO|Apêndice A (A.10) (Vol. 6)]] e com tratamento teórico no [[IGNICAO-Vol-6-Referencia#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|CZ.14 (Vol. 6)]] (em construção). Cada hipótese bet-the-company deve gerar imediatamente 1-3 [[IGNICAO-Vol-6-Referencia#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Test Cards (CZ.9) (Vol. 6)]] como follow-up: o Hypothesis Canvas articula *o que* testar; o Test Card articula *como* testar. A disciplina central do Test Card é definir critério de sucesso e critério de refutação **antes** de rodar o experimento — sem isso, qualquer resultado é racionalizado a favor da hipótese. O caso PadariaPro em CZ.9 mostra como definir zona de incerteza no meio (entre sucesso e refutação) é o que protege contra auto-engano.
+> O formato padronizado acima é o coração do Hypothesis Canvas — registrado como template prático no [[IGNICAO-Vol-10-Canvases-e-Templates#APÊNDICE A — TEMPLATES PRONTOS PARA USO|Apêndice A (A.10) (Vol. 10)]] e com tratamento teórico no [[IGNICAO-Vol-10-Canvases-e-Templates#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|CZ.14 (Vol. 10)]] (em construção). Cada hipótese bet-the-company deve gerar imediatamente 1-3 [[IGNICAO-Vol-10-Canvases-e-Templates#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Test Cards (CZ.9) (Vol. 10)]] como follow-up: o Hypothesis Canvas articula *o que* testar; o Test Card articula *como* testar. A disciplina central do Test Card é definir critério de sucesso e critério de refutação **antes** de rodar o experimento — sem isso, qualquer resultado é racionalizado a favor da hipótese. O caso PadariaPro em CZ.9 mostra como definir zona de incerteza no meio (entre sucesso e refutação) é o que protege contra auto-engano.
 
 #### Passo 3, aplique o critério de falsificabilidade
 
@@ -1973,7 +1993,7 @@ Para qualquer outro tipo de experimento (entrevistas, landing page, fake door, p
 > Se você define depois, vai ajustar o critério para "validar" o que você já queria. Isso é auto-engano.
 
 > [!tip] Test Card: a forma canônica do Cartão de Experimento
-> O cartão de experimento descrito acima é a adaptação brasileira do **Test Card** — ferramenta de David Bland & Alexander Osterwalder (Strategyzer, 2019) para documentar hipótese, método, critério e decisão num único cartão antes de rodar qualquer experimento. O tratamento completo está no [[IGNICAO-Vol-6-Referencia#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|CZ.9 (Vol. 6)]] — origem histórica, princípios, exemplo brasileiro PadariaPro com smoke test (teste rápido de demanda com landing page ou anúncio, antes de construir qualquer coisa) de R$ 1.500 que produziu critério claro de Persevere/Pivote, e variações como Learning Card (cartão de aprendizado — registro estruturado do resultado de um experimento) e Riskiest Assumption Test (RAT) — teste da premissa mais arriscada. A regra de ouro de CZ.9: critério de sucesso e critério de refutação devem ser **distintos com zona de incerteza no meio**. Se você define só "sucesso ≥10%" sem definir "refutação ≤2%", qualquer resultado entre 2 e 10% vira interpretação flexível conforme conveniência do time.
+> O cartão de experimento descrito acima é a adaptação brasileira do **Test Card** — ferramenta de David Bland & Alexander Osterwalder (Strategyzer, 2019) para documentar hipótese, método, critério e decisão num único cartão antes de rodar qualquer experimento. O tratamento completo está no [[IGNICAO-Vol-10-Canvases-e-Templates#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|CZ.9 (Vol. 10)]] — origem histórica, princípios, exemplo brasileiro PadariaPro com smoke test (teste rápido de demanda com landing page ou anúncio, antes de construir qualquer coisa) de R$ 1.500 que produziu critério claro de Persevere/Pivote, e variações como Learning Card (cartão de aprendizado — registro estruturado do resultado de um experimento) e Riskiest Assumption Test (RAT) — teste da premissa mais arriscada. A regra de ouro de CZ.9: critério de sucesso e critério de refutação devem ser **distintos com zona de incerteza no meio**. Se você define só "sucesso ≥10%" sem definir "refutação ≤2%", qualquer resultado entre 2 e 10% vira interpretação flexível conforme conveniência do time.
 
 #### Passo 2, escolha os tipos de experimento apropriados
 
@@ -2132,7 +2152,7 @@ Depois de comparar resultado com teoria (Passo 8), tome uma das quatro decisões
 Atualize artefatos imediatamente após decidir. Versione: a Declaração vai para v0.2, v0.3, v0.4. Isso é saudável. Significa que você está aprendendo.
 
 > [!tip] Apêndice CZ — Learning Card (CZ.10)
-> Depois de cada experimento, o par natural do Test Card é o [[IGNICAO-Vol-6-Referencia#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Learning Card (CZ.10) (Vol. 6)]] — cartão de uma página que registra o que foi observado (não interpretado), o que foi aprendido, e a decisão tomada (Persevere, Pivote, Abandone). A distinção entre "observação" e "interpretação" no Learning Card é o mecanismo central contra o viés de confirmação pós-experimento. O Banco de Hipóteses atualizado neste passo deve conter o Learning Card de cada experimento concluído.
+> Depois de cada experimento, o par natural do Test Card é o [[IGNICAO-Vol-10-Canvases-e-Templates#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Learning Card (CZ.10) (Vol. 10)]] — cartão de uma página que registra o que foi observado (não interpretado), o que foi aprendido, e a decisão tomada (Persevere, Pivote, Abandone). A distinção entre "observação" e "interpretação" no Learning Card é o mecanismo central contra o viés de confirmação pós-experimento. O Banco de Hipóteses atualizado neste passo deve conter o Learning Card de cada experimento concluído.
 
 ### Os nove passos aplicados, Cartão de Experimento do PadariaPro (hipótese H2 — disposição a pagar)
 
@@ -2247,7 +2267,7 @@ Não documentar o experimento. Sem registro escrito antes e depois, você recons
 
 ### FERRAMENTAS DESTA FASE
 
-Experimentos de validação são o coração da metodologia. Quatro essenciais para a fase; o restante fica como referência consultiva. Canvases complementares: CZ.9 (Test Card) e CZ.10 (Pirate Canvas / AARRR). Catálogo operacional completo em [[IGNICAO-Vol-6-Referencia#APÊNDICE A — TEMPLATES PRONTOS PARA USO|A.19 (Vol. 6)]] (Tabela de técnicas de validação por tipo de hipótese).
+Experimentos de validação são o coração da metodologia. Quatro essenciais para a fase; o restante fica como referência consultiva. Canvases complementares: CZ.9 (Test Card) e CZ.10 (Pirate Canvas / AARRR). Catálogo operacional completo em [[IGNICAO-Vol-10-Canvases-e-Templates#APÊNDICE A — TEMPLATES PRONTOS PARA USO|A.19 (Vol. 10)]] (Tabela de técnicas de validação por tipo de hipótese).
 
 **Essenciais para a Fase 7:**
 
@@ -2448,7 +2468,7 @@ Não espere terminar todos os testes para iterar. Depois de cada ciclo de três 
 Documento contendo seis itens. Conceitos gerados e avaliados. Conceitos selecionados, detalhados. Protótipos (ou links). Resumo dos testes com usuários (padrões observados, problemas encontrados, verbatim). Recomendação de conceito a construir, com justificativa. Riscos e incógnitas remanescentes.
 
 > [!tip] Apêndice A — Template do Dossiê de Solução (A.5)
-> O [[IGNICAO-Vol-6-Referencia#APÊNDICE A — TEMPLATES PRONTOS PARA USO|Apêndice A (A.5) (Vol. 6)]] contém o template preenchível do Dossiê de Solução com os seis campos acima em formato estruturado. Use-o para garantir que a documentação de cada conceito avaliado seja consistente entre si e comparável na tomada de decisão do Passo 4.
+> O [[IGNICAO-Vol-10-Canvases-e-Templates#APÊNDICE A — TEMPLATES PRONTOS PARA USO|Apêndice A (A.5) (Vol. 10)]] contém o template preenchível do Dossiê de Solução com os seis campos acima em formato estruturado. Use-o para garantir que a documentação de cada conceito avaliado seja consistente entre si e comparável na tomada de decisão do Passo 4.
 
 ### Os sete passos aplicados, sessão de ideação do PadariaPro
 
@@ -2513,7 +2533,7 @@ A lição transferível. Protótipo em papel revela falhas de experiência por a
 - Qual a linguagem visual e narrativa que o usuário entende e reconhece?
 
 > [!tip] Opportunity Canvas e MVP Canvas como par de ferramentas desta fase
-> Antes da sessão de divergência (Passo 1), use o Opportunity Canvas (CZ.5) para estruturar oportunidades por desejabilidade, viabilidade e usabilidade — priorizando onde prototipar. Antes de qualquer linha de código, use o MVP Canvas (CZ.11) para definir hipótese central, segmento do MVP, tipo de artefato mais barato e critério de invalidação. Veja instruções e casos em [[IGNICAO-Vol-6-Referencia#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|CZ.5 (Vol. 6)]] e [[IGNICAO-Vol-6-Referencia#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|CZ.11 (Vol. 6)]].
+> Antes da sessão de divergência (Passo 1), use o Opportunity Canvas (CZ.5) para estruturar oportunidades por desejabilidade, viabilidade e usabilidade — priorizando onde prototipar. Antes de qualquer linha de código, use o MVP Canvas (CZ.11) para definir hipótese central, segmento do MVP, tipo de artefato mais barato e critério de invalidação. Veja instruções e casos em [[IGNICAO-Vol-10-Canvases-e-Templates#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|CZ.5 (Vol. 10)]] e [[IGNICAO-Vol-10-Canvases-e-Templates#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|CZ.11 (Vol. 10)]].
 
 ### SAÍDA DESTA FASE
 
@@ -2627,7 +2647,7 @@ Diferente da entrevista de problema ([[#FASE 3 — DESCOBERTA DO PROBLEMA|Fase 3
 Faça dez a quinze dessas entrevistas. Grave, transcreva, analise.
 
 > [!tip] Apêndice CZ — Empathy Map (CZ.6)
-> Após cada rodada de testes de solução e usabilidade, o [[IGNICAO-Vol-6-Referencia#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Empathy Map (CZ.6) (Vol. 6)]] — Says, Thinks, Does, Feels — sintetiza os estados internos do usuário em formato visual de uma página. Útil para alinhar time de produto sobre as descobertas qualitativas (frustração no fluxo X, expectativa não atendida no passo Y) sem que cada membro reconstrua mentalmente a sessão de teste do zero.
+> Após cada rodada de testes de solução e usabilidade, o [[IGNICAO-Vol-10-Canvases-e-Templates#APÊNDICE CZ — CANVASES E MAPAS VISUAIS DE MODELO|Empathy Map (CZ.6) (Vol. 10)]] — Says, Thinks, Does, Feels — sintetiza os estados internos do usuário em formato visual de uma página. Útil para alinhar time de produto sobre as descobertas qualitativas (frustração no fluxo X, expectativa não atendida no passo Y) sem que cada membro reconstrua mentalmente a sessão de teste do zero.
 
 #### Passo 2, aplique a técnica das cinco escalas de valor
 
@@ -2719,7 +2739,7 @@ Documento contendo dez itens.
 Proposta de valor final, em uma frase. Persona foco (beachhead). JTBDs principais a resolver. Lista de Must Haves. Lista de Should e Could Haves (roadmap futuro). Explicitamente: o que o MVP *não* fará (Won't Haves). Critérios de sucesso do MVP (métricas). Faixa de preço planejada. Canais de aquisição planejados. Prazo de desenvolvimento estimado. Orçamento.
 
 > [!tip] Apêndice A — Template da Especificação do MVP (A.6)
-> O [[IGNICAO-Vol-6-Referencia#APÊNDICE A — TEMPLATES PRONTOS PARA USO|Apêndice A (A.6) (Vol. 6)]] contém o template preenchível da Especificação do MVP com os dez campos acima, mais seção de riscos remanescentes e suposições ainda não validadas. Usar o template em vez de documento livre garante que nenhum campo crítico (Won't Haves, critério de sucesso mensurável) seja omitido por pressão de entrar logo em desenvolvimento.
+> O [[IGNICAO-Vol-10-Canvases-e-Templates#APÊNDICE A — TEMPLATES PRONTOS PARA USO|Apêndice A (A.6) (Vol. 10)]] contém o template preenchível da Especificação do MVP com os dez campos acima, mais seção de riscos remanescentes e suposições ainda não validadas. Usar o template em vez de documento livre garante que nenhum campo crítico (Won't Haves, critério de sucesso mensurável) seja omitido por pressão de entrar logo em desenvolvimento.
 
 #### Passo 7, aplique o Gate de Direcionalidade
 
@@ -2877,7 +2897,7 @@ MoSCoW separa o MVP do produto sonhado. Van Westendorp antecipa o erro caro de d
 
 O que você acabou de fazer ao longo dos **Volumes 1 e 2 (Fases 0 a 9)**: preparou-se como fundador, gerou ideias com método e escolheu uma, articulou a candidata e construiu teoria causal explícita (Vol. 1), e depois descobriu problemas reais em campo, mapeou usuários, mercado e cunha, formulou hipóteses bet-the-company, validou as centrais com experimentos rigorosos, gerou conceitos de solução, prototipou, testou com usuários reais e chegou a uma especificação de MVP com escopo disciplinado (MoSCoW) e pricing testado (Vol. 2). A segunda parte deste volume reúne os **12 apêndices operacionais** de metodologia científica, inteligência competitiva, psicologia do consumidor brasileiro e arquiteturas de modelo de negócio.
 
-O que vem no **Volume 3 — Tração (Fases 10 a 12)** e no **Volume 4 — Escala (Fases 13 e 14)**: construir o MVP de verdade na [[IGNICAO-Vol-3-Tracao#FASE 10 — MVP E EXPERIMENTOS DE MERCADO|Fase 10 (Vol. 3)]], colocar em mercado com usuários reais que pagam (ou pagam com atenção), medir unit economics na [[IGNICAO-Vol-3-Tracao#FASE 11 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 11 (Vol. 3)]], perseguir Product-Market Fit na [[IGNICAO-Vol-3-Tracao#FASE 12 — PRODUCT-MARKET FIT|Fase 12 (Vol. 3)]], e depois estruturar formalmente a empresa e escalar no Volume 4. Essa travessia do MVP à escala leva de três a cinco anos típicos. Muitas empresas morrem nessa etapa por três motivos: escalar antes do PMF, ficar presa em "quase-PMF" sem reconhecer, e não conseguir unit economics positivas.
+O que vem no **Volume 3 — Tração (Fases 10 a 12)** e nos **Volumes 4 a 6 — Escala (Fases 13 e 14)**: construir o MVP de verdade na [[IGNICAO-Vol-3-Tracao#FASE 10 — MVP E EXPERIMENTOS DE MERCADO|Fase 10 (Vol. 3)]], colocar em mercado com usuários reais que pagam (ou pagam com atenção), medir unit economics na [[IGNICAO-Vol-3-Tracao#FASE 11 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 11 (Vol. 3)]], perseguir Product-Market Fit na [[IGNICAO-Vol-3-Tracao#FASE 12 — PRODUCT-MARKET FIT|Fase 12 (Vol. 3)]], e depois estruturar formalmente a empresa e captar no **Volume 4 (Captação e Finanças)**, escalar receita, liderança e cultura no **Volume 5 (Receita e Pessoas)** e consolidar engenharia, operações e blindagem legal no **Volume 6 (Engenharia, Operações e Jurídico)**. Essa travessia do MVP à escala leva de três a cinco anos típicos. Muitas empresas morrem nessa etapa por três motivos: escalar antes do PMF, ficar presa em "quase-PMF" sem reconhecer, e não conseguir unit economics positivas.
 
 > [!important] Sinais de progresso versus sinal de PMF
 > Sinal de progresso: usuários pagantes em uso real do MVP. Sinal de PMF: Sean Ellis maior ou igual a quarenta por cento, mais retenção estabilizada, mais crescimento orgânico.
@@ -2885,6 +2905,19 @@ O que vem no **Volume 3 — Tração (Fases 10 a 12)** e no **Volume 4 — Escal
 ---
 
 # METODOLOGIA CIENTÍFICA, GATES E MATURIDADE
+
+---
+
+### Arquitetura deste Domínio: Rigor Metodológico, Gates de Evidência e Maturidade
+
+Por que tantos fundadores aplicam "Lean Startup" e mesmo assim passam dois anos andando em círculos? Porque iterar rápido sem teoria causal e sem critérios claros de parada é apenas tentativa-e-erro acelerada. Os quatro apêndices deste bloco (**F, G, H e L**) fornecem a espinha dorsal metodológica que governa as Fases 3 a 9.
+
+Eles formam uma lente integrada de governança de validação: o [[#APÊNDICE F — ABORDAGEM CIENTÍFICA vs LEAN STARTUP: QUANDO USAR CADA UMA|Apêndice F]] ensina como combinar a formulação teórica deliberada (Camuffo, Gambardella & Spina) com a experimentação ágil. O [[#APÊNDICE G — FRAMEWORK DE DECISÃO POR GATES (PROBLEM CORE + SCALE LEVERS + EXPLORATORY)|Apêndice G]] organiza as hipóteses em portfólio de gates (separando o núcleo do problema das alavancas de escala). O [[#APÊNDICE H — TRL E CRL: MATURIDADE TECNOLÓGICA E DE MERCADO|Apêndice H]] impede que a maturidade técnica (TRL) desgarre da maturidade comercial (CRL). Por fim, o [[#APÊNDICE L — IDEA → WEDGE → SCALE: O FRAMEWORK ANTLER COMO LENTE TRANSVERSAL|Apêndice L]] amarra tudo na progressão *Idea → Wedge → Scale*: como escolher uma cunha cirúrgica que abre espaço para um negócio grande.
+
+> [!tip] Roteiro de leitura e instrumentos conectados
+> - **Em dúvida se deve pivotar, insistir ou aprofundar pesquisa:** Leia [[#APÊNDICE F — ABORDAGEM CIENTÍFICA vs LEAN STARTUP: QUANDO USAR CADA UMA|Apêndice F]] e [[#APÊNDICE G — FRAMEWORK DE DECISÃO POR GATES (PROBLEM CORE + SCALE LEVERS + EXPLORATORY)|Apêndice G]].
+> - **Construindo produto técnico, IA ou hardware:** Calibre seu estágio no [[#APÊNDICE H — TRL E CRL: MATURIDADE TECNOLÓGICA E DE MERCADO|Apêndice H]] para não escalar engenharia com CRL zero.
+> - **Ferramentas de experimentação e síntese no Vol. 9:** Combine este bloco com Fake Door / Smoke Test (BG.8.3), Cohort Retention inicial (BG.8.5), Van Westendorp / Gabor-Granger (BG.8.6), Conjoint Analysis (BG.8.7), Affinity Diagramming (BG.9.1), Empathy Map (BG.9.3), Service Blueprint (BG.9.5) e JTBD Switch Timeline (BG.9.6).
 
 ---
 
@@ -3008,7 +3041,7 @@ Na estruturação e escala (Fases 12 e 13), os três frameworks quase desaparece
 >
 > "Pain Level, CRL, PSF/PMF, Moore's Chasm, qual taxonomia devo usar para meus clientes?" Use em conjunto. Pain Level (um a cinco) classifica cada entrevistado individualmente. CRL (um a sete) classifica a maturidade da sua relação com o mercado como um todo (útil em editais). PSF/PMF classifica o estágio da sua startup. Moore classifica em qual onda de adoção você está (early adopters, early majority, late majority).
 >
-> "Árvore de teoria é o mesmo que Business Model Canvas?" Não. BMC é um inventário de blocos (o que você tem). Árvore de teoria é uma rede causal (por que funciona). O Theory Map ([[IGNICAO-Vol-6-Referencia#APÊNDICE A — TEMPLATES PRONTOS PARA USO|Apêndice A (Vol. 6)]].9) conecta os dois explicitamente.
+> "Árvore de teoria é o mesmo que Business Model Canvas?" Não. BMC é um inventário de blocos (o que você tem). Árvore de teoria é uma rede causal (por que funciona). O Theory Map ([[IGNICAO-Vol-10-Canvases-e-Templates#APÊNDICE A — TEMPLATES PRONTOS PARA USO|Apêndice A (Vol. 10)]].9) conecta os dois explicitamente.
 
 Tabela de tradução entre taxonomias de cliente e produto:
 
@@ -3034,7 +3067,7 @@ O **Opportunity Canvas** é a ferramenta das Fases 1 a 4 (pré-PSF inicial). Seu
 
 O **Lean Canvas** é a ferramenta das Fases 5 a 10 (alta incerteza, MVP, validação de modelo). Seu propósito é estruturar hipóteses de negócio sob alta incerteza, com foco em aprender rápido. Substitui o BMC quando o que importa é testar o problema e a solução antes de otimizar o modelo. Os nove blocos são Problema, Solução, Métricas-Chave, Proposta Única de Valor, Vantagem Injusta (esses cinco substituem os blocos do BMC focados em execução), mais Segmentos de Clientes, Canais, Estrutura de Custos e Fontes de Receita. Use em startup em estágio inicial, com alta incerteza sobre problema, cliente ou solução. Iterações rápidas (revise semanalmente ou quinzenalmente). Não use em negócios com modelo já validado, onde o foco é execução e expansão, ou em conversas com parceiros estratégicos corporativos que querem ver o BMC "sério".
 
-O **Business Model Canvas (BMC)** é a ferramenta da [[IGNICAO-Vol-3-Tracao#FASE 11 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 11 (Vol. 3)]] em diante (pós-PSF, estruturação, escala e revisão no ciclo longo). Seu propósito é descrever o modelo de negócio já funcionando de forma compreensível para stakeholders externos. É visão macro, parceiros, canais de escala, estrutura de custos. Os nove blocos são Parceiros-Chave, Atividades-Chave, Recursos-Chave, Proposta de Valor, Relacionamento com Clientes, Canais, Segmentos de Clientes, Estrutura de Custos e Fontes de Receita. Use quando o negócio tem PMF confirmado, está buscando investimento Série A ou superior, está buscando parcerias estratégicas, ou está consolidando operação. Use também na [[IGNICAO-Vol-4-Escala#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14 (Vol. 4)]] (reinvenção) para revisar explicitamente o modelo vigente antes de desenhar a segunda curva, e na [[IGNICAO-Vol-5-Maturidade#FASE 15 — REINVENÇÃO E SEGUNDA CURVA|Fase 15 (Vol. 5)]] (exit) como documento de referência para due diligence e equity story. Não use em estágios iniciais de incerteza. O BMC incentiva otimização prematura porque seus blocos assumem que você já sabe o modelo, quando o ponto de uma startup inicial é descobri-lo. Na [[IGNICAO-Vol-5-Maturidade#FASE 15 — REINVENÇÃO E SEGUNDA CURVA|Fase 15 (Vol. 5)]], quando a segunda curva exige testar hipóteses novas sob alta incerteza, volte ao Lean Canvas para a curva nova enquanto mantém o BMC para o negócio principal.
+O **Business Model Canvas (BMC)** é a ferramenta da [[IGNICAO-Vol-3-Tracao#FASE 11 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 11 (Vol. 3)]] em diante (pós-PSF, estruturação, escala e revisão no ciclo longo). Seu propósito é descrever o modelo de negócio já funcionando de forma compreensível para stakeholders externos. É visão macro, parceiros, canais de escala, estrutura de custos. Os nove blocos são Parceiros-Chave, Atividades-Chave, Recursos-Chave, Proposta de Valor, Relacionamento com Clientes, Canais, Segmentos de Clientes, Estrutura de Custos e Fontes de Receita. Use quando o negócio tem PMF confirmado, está buscando investimento Série A ou superior, está buscando parcerias estratégicas, ou está consolidando operação. Use também na [[IGNICAO-Vol-5-Receita-e-Pessoas#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14 (Vol. 5)]] (reinvenção) para revisar explicitamente o modelo vigente antes de desenhar a segunda curva, e na [[IGNICAO-Vol-7-Maturidade-e-Exit#FASE 15 — REINVENÇÃO E SEGUNDA CURVA|Fase 15 (Vol. 7)]] (exit) como documento de referência para due diligence e equity story. Não use em estágios iniciais de incerteza. O BMC incentiva otimização prematura porque seus blocos assumem que você já sabe o modelo, quando o ponto de uma startup inicial é descobri-lo. Na [[IGNICAO-Vol-7-Maturidade-e-Exit#FASE 15 — REINVENÇÃO E SEGUNDA CURVA|Fase 15 (Vol. 7)]], quando a segunda curva exige testar hipóteses novas sob alta incerteza, volte ao Lean Canvas para a curva nova enquanto mantém o BMC para o negócio principal.
 
 > [!warning] O erro típico do iniciante
 > Começar direto pelo BMC porque é o mais famoso. Resultado: nove blocos preenchidos com suposições disfarçadas de fatos, que ninguém testa depois. O caminho correto é subir na escada de canvases conforme a incerteza diminui.
@@ -3044,8 +3077,8 @@ O **Business Model Canvas (BMC)** é a ferramenta da [[IGNICAO-Vol-3-Tracao#FASE
 | Ideia solta, múltiplas oportunidades competindo | Opportunity Canvas | Decidir qual oportunidade priorizar |
 | Validação de problema e solução em curso | Lean Canvas | Estruturar hipóteses para teste |
 | PSF confirmado, preparando PMF e captação | BMC | Comunicar modelo a stakeholders externos |
-| Reinvenção ([[IGNICAO-Vol-5-Maturidade#FASE 15 — REINVENÇÃO E SEGUNDA CURVA|Fase 15 (Vol. 5)]]), segunda curva em exploração | Lean Canvas (para a curva nova) e BMC (para o core) em paralelo | Curva nova volta a ter incerteza alta, core existente precisa de clareza para stakeholders |
-| Exit ([[IGNICAO-Vol-5-Maturidade#FASE 16 — EXIT STRATEGY|Fase 16 (Vol. 5)]]), preparação e execução | BMC como referência canônica | Base para due diligence, tax structuring e equity story |
+| Reinvenção ([[IGNICAO-Vol-7-Maturidade-e-Exit#FASE 15 — REINVENÇÃO E SEGUNDA CURVA|Fase 15 (Vol. 7)]]), segunda curva em exploração | Lean Canvas (para a curva nova) e BMC (para o core) em paralelo | Curva nova volta a ter incerteza alta, core existente precisa de clareza para stakeholders |
+| Exit ([[IGNICAO-Vol-7-Maturidade-e-Exit#FASE 16 — EXIT STRATEGY|Fase 16 (Vol. 7)]]), preparação e execução | BMC como referência canônica | Base para due diligence, tax structuring e equity story |
 
 Cada canvas é a ferramenta certa para o seu momento. Usar o canvas errado não é neutro. É atraso disfarçado de produtividade.
 
@@ -3393,9 +3426,9 @@ A tabela abaixo mapeia os principais elementos operacionais do framework, e onde
 | Concorrência como comportamento atual (não como outra startup) | Wedge | [[#FASE 5 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 5]], Passo 3 do COMO |
 | Janela de 2 a 3 semanas por experimento | Idea→Wedge | [[#FASE 7 — EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA|Fase 7]], Passo 1 do COMO |
 | Gate de direcionalidade ("reduz ou elimina a dor") | Wedge→Scale | [[#FASE 9 — TESTES DE SOLUÇÃO E USABILIDADE|Fase 9]], Definição de Sucesso |
-| Três caminhos de expansão intra-conta (workflow adjacente, papel adjacente, ownership de sistema) | Scale | [[IGNICAO-Vol-4-Escala#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14 (Vol. 4)]] (Crescimento e Capital), Passo 5 |
-| Regra "mude uma variável por vez" | Scale | [[IGNICAO-Vol-4-Escala#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14 (Vol. 4)]] (Crescimento e Capital), Passo 5 |
-| Gate pré-reinvenção ("esgotou os seis caminhos?") | Scale | [[IGNICAO-Vol-5-Maturidade#FASE 15 — REINVENÇÃO E SEGUNDA CURVA|Fase 15 (Vol. 5)]], abertura do COMO |
+| Três caminhos de expansão intra-conta (workflow adjacente, papel adjacente, ownership de sistema) | Scale | [[IGNICAO-Vol-5-Receita-e-Pessoas#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14 (Vol. 5)]] (Crescimento e Capital), Passo 5 |
+| Regra "mude uma variável por vez" | Scale | [[IGNICAO-Vol-5-Receita-e-Pessoas#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14 (Vol. 5)]] (Crescimento e Capital), Passo 5 |
+| Gate pré-reinvenção ("esgotou os seis caminhos?") | Scale | [[IGNICAO-Vol-7-Maturidade-e-Exit#FASE 15 — REINVENÇÃO E SEGUNDA CURVA|Fase 15 (Vol. 7)]], abertura do COMO |
 | Epígrafe "startup é um experimento para provar uma hipótese não-óbvia" | Transversal | Abertura dos Princípios Fundamentais |
 
 ### Como Idea → Wedge → Scale se relaciona com os outros três frameworks
@@ -3452,6 +3485,18 @@ O framework Antler é especialmente útil, quando o empreendedor reconhece um ou
 ---
 
 # CONSUMIDOR, INTELIGÊNCIA COMPETITIVA E POSICIONAMENTO DE CATEGORIA
+
+---
+
+### Arquitetura deste Domínio: O Tabuleiro de Mercado Brasileiro — Consumidor, Concorrência e Categoria
+
+Nenhuma hipótese é validada no vácuo: ela é validada dentro da cultura de compra brasileira e contra alternativas competitivas reais. Os quatro capítulos deste bloco (**Apêndices FF, EE, S e AI**) entregam a inteligência de mercado necessária para que você não projete comportamentos norte-americanos sobre o comprador local.
+
+O sistema começa na mente de quem compra: o [[#APÊNDICE FF — PSICOLOGIA DO CONSUMIDOR BRASILEIRO — COMPORTAMENTO, DECISÃO E CONVERSÃO|Apêndice FF]] disseca como o brasileiro (B2C nas classes A–D e B2B corporativo/PME) constrói confiança, usa o WhatsApp como interface decisória, reage a preço e cancela contratos. Em seguida, o [[#APÊNDICE EE — INTELIGÊNCIA COMPETITIVA — MONITORAMENTO, ANÁLISE E RESPOSTA|Apêndice EE]] mostra como mapear rivais locais e globais, conduzir *win/loss analysis* e montar *battle cards*. Quando você domina consumidor e concorrentes, o [[#APÊNDICE S — CATEGORY DESIGN|Apêndice S]] responde à pergunta estratégica maior: quando disputar uma categoria existente e quando criar uma categoria nova. Fechando o ciclo, o [[#APÊNDICE AI — CASOS DE FRACASSO BRASILEIROS E LIÇÕES|Apêndice AI]] examina autópsias reais do ecossistema nacional para vacinar sua tese contra erros já pagos por outros.
+
+> [!tip] Roteiro de leitura e instrumentos conectados
+> - **Baixa conversão em entrevistas ou smoke tests no Brasil:** Abra imediatamente o [[#APÊNDICE FF — PSICOLOGIA DO CONSUMIDOR BRASILEIRO — COMPORTAMENTO, DECISÃO E CONVERSÃO|Apêndice FF]] (especialmente FF.4 sobre WhatsApp, FF.5 sobre confiança e FF.8 sobre comitês B2B).
+> - **Entrando em mercado aparentemente lotado:** Combine [[#APÊNDICE EE — INTELIGÊNCIA COMPETITIVA — MONITORAMENTO, ANÁLISE E RESPOSTA|Apêndice EE]] com [[#APÊNDICE S — CATEGORY DESIGN|Apêndice S]] e os frameworks clássicos e modernos do **Volume 9**: BCG Matrix (BG.1.3), GE/McKinsey 9-Box (BG.1.4), Value Chain Analysis (BG.1.7), VRIO Framework (BG.1.9) e Core Competencies (BG.2.7).
 
 ---
 
@@ -3817,7 +3862,7 @@ Taxa de churn de membros da comunidade vs. não-membros: se a comunidade está f
 
 - [[IGNICAO-Vol-3-Tracao#APÊNDICE DX — BRANDING E POSICIONAMENTO DE MARCA PARA STARTUPS|Apêndice DX — Branding e Posicionamento de Marca para Startups (Vol. 3)]]
 - [[#APÊNDICE EE — INTELIGÊNCIA COMPETITIVA — MONITORAMENTO, ANÁLISE E RESPOSTA|Apêndice EE — Inteligência Competitiva — Monitoramento, Análise e Resposta]]
-- [[IGNICAO-Vol-6-Referencia#APÊNDICE BG — FERRAMENTÁRIO COMPLETO DO EMPREENDEDOR|Apêndice BG — Ferramentário Completo do Empreendedor (Vol. 6)]]
+- [[IGNICAO-Vol-9-Ferramentario#APÊNDICE BG — FERRAMENTÁRIO COMPLETO DO EMPREENDEDOR|Apêndice BG — Ferramentário Completo do Empreendedor (Vol. 9)]]
 - [[#FASE 4 — PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY APROFUNDADO)|Fase 4 — Posicionamento e Proposta de Valor]]
 - [[#FASE 8 — IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES|Fase 8 — Go-to-Market e Aquisição]]
 - [[#FASE 9 — TESTES DE SOLUÇÃO E USABILIDADE|Fase 9 — Retenção, Monetização e Expansão de Receita]]
@@ -4220,7 +4265,7 @@ O diagnóstico: empresa obcecada com concorrente tende a convergir para o mesmo 
 
 - [[IGNICAO-Vol-3-Tracao#APÊNDICE DX — BRANDING E POSICIONAMENTO DE MARCA PARA STARTUPS|Apêndice DX — Branding e Posicionamento de Marca para Startups (Vol. 3)]]
 - [[#APÊNDICE FF — PSICOLOGIA DO CONSUMIDOR BRASILEIRO — COMPORTAMENTO, DECISÃO E CONVERSÃO|Apêndice FF — Psicologia do Consumidor Brasileiro — Comportamento, Decisão e Conversão]]
-- [[IGNICAO-Vol-6-Referencia#APÊNDICE BG — FERRAMENTÁRIO COMPLETO DO EMPREENDEDOR|Apêndice BG — Ferramentário Completo do Empreendedor (Vol. 6)]]
+- [[IGNICAO-Vol-9-Ferramentario#APÊNDICE BG — FERRAMENTÁRIO COMPLETO DO EMPREENDEDOR|Apêndice BG — Ferramentário Completo do Empreendedor (Vol. 9)]]
 - [[#FASE 4 — PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY APROFUNDADO)|Fase 4 — Posicionamento e Proposta de Valor]]
 - [[#FASE 8 — IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES|Fase 8 — Go-to-Market e Aquisição]]
 - [[IGNICAO-Vol-3-Tracao#FASE 10 — MVP E EXPERIMENTOS DE MERCADO|Fase 10 — Expansão e Novos Mercados (Vol. 3)]]
@@ -4401,7 +4446,7 @@ Esquecer que categoria também envelhece. Categorias têm ciclo. "CRM" foi categ
 ## APÊNDICE AI — CASOS DE FRACASSO BRASILEIROS E LIÇÕES
 
 > [!important] Relacao com o Apêndice BH
-> AI lista PADROES de fracasso ilustrados por casos brasileiros. Para mergulho individual em cada caso (Easy Taxi, Peixe Urbano, Kekanto e outros), ver [[IGNICAO-Vol-5-Maturidade#APÊNDICE BH — POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE|Apêndice BH (Vol. 5)]]. As analises detalhadas vivem la, aqui ficam os padroes transversais.
+> AI lista PADROES de fracasso ilustrados por casos brasileiros. Para mergulho individual em cada caso (Easy Taxi, Peixe Urbano, Kekanto e outros), ver [[IGNICAO-Vol-7-Maturidade-e-Exit#APÊNDICE BH — POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE|Apêndice BH (Vol. 7)]]. As analises detalhadas vivem la, aqui ficam os padroes transversais.
 
 > [!note] Nota de integridade
 > Esse apêndice analisa casos de startups brasileiras que falharam ou perderam posições de liderança significativas. As análises se baseiam em reportagens públicas, entrevistas com ex-fundadores e pós-mortems publicados. Não pretendem ser julgamentos definitivos. O contexto completo raramente é conhecido. O propósito é pedagógico, extrair padrões arquetípicos de falha que se repetem. Quando há dúvida sobre causa-raiz, apresento múltiplas hipóteses e não conclusões unilaterais.
@@ -4428,21 +4473,21 @@ Antes da [[IGNICAO-Vol-1-Ideacao#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0 
 
 #### Padrão 1 — Crescer em mercado sem defensibilidade estrutural
 
-Caso arquetípico, Easy Taxi (2011-2018). O padrão típico do Padrão 1, ser primeiro num mercado não é defensibilidade quando o modelo agrega oferta sem switching cost real. Network effects superficiais (cada lado vai para onde o outro está, mas nenhum tem lock-in com a plataforma) cedem rapidamente quando entra concorrente com produto estruturalmente diferente (Uber em 2014, com carros particulares, dispatch algorítmico e preço dinâmico). A defesa exige exclusividade, switching costs, dados proprietários ou marca forte o suficiente para que o cliente não procure alternativa. Caso analisado em profundidade no [[IGNICAO-Vol-5-Maturidade#APÊNDICE BH — POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE|Apêndice BH (Vol. 5)]].
+Caso arquetípico, Easy Taxi (2011-2018). O padrão típico do Padrão 1, ser primeiro num mercado não é defensibilidade quando o modelo agrega oferta sem switching cost real. Network effects superficiais (cada lado vai para onde o outro está, mas nenhum tem lock-in com a plataforma) cedem rapidamente quando entra concorrente com produto estruturalmente diferente (Uber em 2014, com carros particulares, dispatch algorítmico e preço dinâmico). A defesa exige exclusividade, switching costs, dados proprietários ou marca forte o suficiente para que o cliente não procure alternativa. Caso analisado em profundidade no [[IGNICAO-Vol-7-Maturidade-e-Exit#APÊNDICE BH — POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE|Apêndice BH (Vol. 7)]].
 
 > [!question] Teste de defensibilidade para seu negócio
 > Se um concorrente bem capitalizado lançar produto vinte por cento melhor amanhã, quantos por cento dos seus clientes ficam com você em doze meses? Se a resposta for menor que sessenta por cento, defensibilidade é fraca.
 
 #### Padrão 2 — Confundir tração inicial com PMF sustentável
 
-Caso arquetípico, Peixe Urbano e o modelo daily deals (2010-2015). O padrão típico do Padrão 2, tração inicial explosiva confundida com PMF. Descontos massivos atraem caçadores de cupom, não cliente recorrente, retenção de parceiros despenca, unit economics degradam com escala. O que parecia PMF era novidade mais agressividade mais capital barato. PMF real exige retenção estável em coortes diferentes, não apenas aquisição crescente. Cada categoria de "explosão repentina" dos últimos quinze anos (daily deals, QR code payments, social commerce, cursos online massivos, ciclos de fintech) teve sua fase de "parece PMF mas não é". Caso analisado em profundidade no [[IGNICAO-Vol-5-Maturidade#APÊNDICE BH — POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE|Apêndice BH (Vol. 5)]].
+Caso arquetípico, Peixe Urbano e o modelo daily deals (2010-2015). O padrão típico do Padrão 2, tração inicial explosiva confundida com PMF. Descontos massivos atraem caçadores de cupom, não cliente recorrente, retenção de parceiros despenca, unit economics degradam com escala. O que parecia PMF era novidade mais agressividade mais capital barato. PMF real exige retenção estável em coortes diferentes, não apenas aquisição crescente. Cada categoria de "explosão repentina" dos últimos quinze anos (daily deals, QR code payments, social commerce, cursos online massivos, ciclos de fintech) teve sua fase de "parece PMF mas não é". Caso analisado em profundidade no [[IGNICAO-Vol-7-Maturidade-e-Exit#APÊNDICE BH — POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE|Apêndice BH (Vol. 7)]].
 
 > [!warning] Testes de PMF real vs falso
 > Curva de retenção em coortes de três a seis meses estabiliza? (Se não: falso PMF.) Cliente volta sem campanha, desconto ou promoção ativa? (Se não: falso PMF.) Se pausar aquisição paga, crescimento orgânico continua? (Se não: falso PMF.) Unit economics melhoram com volume ou pioram? (Se pioram: falso PMF.)
 
 #### Padrão 3 — Queimar capital sem unit economics validadas
 
-Caso arquetípico, ciclo de delivery verticais (2014-2017, exemplos genéricos do ciclo). O padrão típico do Padrão 3, capital queimado sem unit economics validadas. Delivery vertical tinha margens estruturalmente baixas, network effects fracos (vertical não escala como horizontal) e concentração de risco em parceiros específicos. CAC crescente mais AOV estagnado mais margem baixa gera unit economics negativos que não melhoram com escala. Capital não resolve unit economics ruins, amplifica o problema. Empresa queimando cem mil reais por mês com unit economics negativos vira empresa queimando cinco milhões por mês, só em escala maior. Nenhuma tática operacional (automação, desconto, rota otimizada) resolve modelo estruturalmente negativo. Caso analisado em profundidade no [[IGNICAO-Vol-5-Maturidade#APÊNDICE BH — POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE|Apêndice BH (Vol. 5)]].
+Caso arquetípico, ciclo de delivery verticais (2014-2017, exemplos genéricos do ciclo). O padrão típico do Padrão 3, capital queimado sem unit economics validadas. Delivery vertical tinha margens estruturalmente baixas, network effects fracos (vertical não escala como horizontal) e concentração de risco em parceiros específicos. CAC crescente mais AOV estagnado mais margem baixa gera unit economics negativos que não melhoram com escala. Capital não resolve unit economics ruins, amplifica o problema. Empresa queimando cem mil reais por mês com unit economics negativos vira empresa queimando cinco milhões por mês, só em escala maior. Nenhuma tática operacional (automação, desconto, rota otimizada) resolve modelo estruturalmente negativo. Caso analisado em profundidade no [[IGNICAO-Vol-7-Maturidade-e-Exit#APÊNDICE BH — POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE|Apêndice BH (Vol. 7)]].
 
 > [!important] Regra operacional
 > Não capte capital significativo antes de ter unit economics positivas em subescala. Se LTV/CAC for menor que três vezes em subescala, vai piorar em escala (quase sempre).
@@ -4453,20 +4498,20 @@ Padrão arquetípico (múltiplos casos brasileiros). Empresas brasileiras com fu
 
 Os sinais de dependência excessiva são: nenhuma decisão importante acontece sem o fundador, time executivo fraco ou marginalizado, fundador é a única pessoa que entende a estratégia completa, fundador é único ponto de contato com investidores, parceiros grandes e clientes-chave, e cultura é "o jeito que o fundador faz" sem formalização.
 
-Lição extraível: empresa dependente de fundador único é mais frágil do que um gráfico de crescimento saudável sugere. Construir líderes complementares, documentar visão estratégica e distribuir relacionamento externo. Isso é [[IGNICAO-Vol-1-Ideacao#APÊNDICE Y — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Apêndice Y (Vol. 1)]] (humanidade do fundador como ativo organizacional) mais [[IGNICAO-Vol-5-Maturidade#APÊNDICE CW — CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO|Apêndice CW (Vol. 5)]] (continuidade quando o fundador some) mais [[IGNICAO-Vol-4-Escala#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14 (Vol. 4)]] (estrutura de C-level e governança) em prática.
+Lição extraível: empresa dependente de fundador único é mais frágil do que um gráfico de crescimento saudável sugere. Construir líderes complementares, documentar visão estratégica e distribuir relacionamento externo. Isso é [[IGNICAO-Vol-1-Ideacao#APÊNDICE Y — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Apêndice Y (Vol. 1)]] (humanidade do fundador como ativo organizacional) mais [[IGNICAO-Vol-7-Maturidade-e-Exit#APÊNDICE CW — CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO|Apêndice CW (Vol. 7)]] (continuidade quando o fundador some) mais [[IGNICAO-Vol-5-Receita-e-Pessoas#FASE 14 — ESCALA: TIME, OPERAÇÕES, CRESCIMENTO E CAPITAL|Fase 14 (Vol. 5)]] (estrutura de C-level e governança) em prática.
 
 > [!question] Teste
 > Se você sumir por sessenta dias (férias longas, saúde, qualquer coisa), a empresa para? Degrada? Continua? A resposta "continua" significa que a fundação é saudável. "Para" significa risco estrutural.
 
 #### Padrão 5 — Ignorar mudança estrutural de mercado
 
-Caso arquetípico, Kekanto e reviews locais (2008-2015). O padrão típico do Padrão 5, empresa bem-sucedida em categoria emergente é progressivamente comprimida quando plataforma global incorpora a funcionalidade como feature (Google Maps com reviews, TripAdvisor em escala, Foursquare). Usuário já está na plataforma global, custo de mudar é alto, empresa de nicho não tem força para competir com bundling. Saída de categoria é gradual, fundador pode demorar a reconhecer. Featurização é risco categorial, pergunte periodicamente, se big tech adicionar o que fazemos como feature, ainda teríamos negócio? Se a resposta é não, é questão de tempo e você precisa construir defensibilidade específica (dados proprietários, relacionamento B2B profundo, regulação local, marca em nicho) ou exit antecipado. Caso analisado em profundidade no [[IGNICAO-Vol-5-Maturidade#APÊNDICE BH — POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE|Apêndice BH (Vol. 5)]].
+Caso arquetípico, Kekanto e reviews locais (2008-2015). O padrão típico do Padrão 5, empresa bem-sucedida em categoria emergente é progressivamente comprimida quando plataforma global incorpora a funcionalidade como feature (Google Maps com reviews, TripAdvisor em escala, Foursquare). Usuário já está na plataforma global, custo de mudar é alto, empresa de nicho não tem força para competir com bundling. Saída de categoria é gradual, fundador pode demorar a reconhecer. Featurização é risco categorial, pergunte periodicamente, se big tech adicionar o que fazemos como feature, ainda teríamos negócio? Se a resposta é não, é questão de tempo e você precisa construir defensibilidade específica (dados proprietários, relacionamento B2B profundo, regulação local, marca em nicho) ou exit antecipado. Caso analisado em profundidade no [[IGNICAO-Vol-7-Maturidade-e-Exit#APÊNDICE BH — POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE|Apêndice BH (Vol. 7)]].
 
 #### Padrão 6 — Sobreextensão geográfica antes de consolidar doméstico
 
 Padrão observado (múltiplos casos LatAm). Startups brasileiras que, com capital de Série A ou B, lançam em três a cinco países simultaneamente frequentemente descobrem quatro problemas. Execução em paralelo dispersa foco. Adaptação local (localização real, não só tradução) é mais custosa do que estimado. Cada país tem dinâmica regulatória, de canal e de cultura própria. E a base brasileira ainda não estava consolidada — saiu para LatAm com PMF parcial no Brasil. Desastre composto: operação brasileira piora por falta de foco e operações LatAm não engrenam por falta de profundidade.
 
-Lição extraível: internacionalização é o [[IGNICAO-Vol-5-Maturidade#APÊNDICE CU — INTERNACIONALIZAÇÃO: ESTRUTURA E PRODUTO PARA MÚLTIPLOS MERCADOS|Apêndice CU (Vol. 5)]] inteiro por uma razão. Pré-requisito não é "temos capital", é "PMF sólido mais operação que não precisa mais do fundador diariamente mais caixa para dezoito meses ou mais de operação paralela". Sem esses três, expansão acelera destruição, não crescimento. Nubank é exceção relevante: expandiu para México e Colômbia depois de estabelecer mercado brasileiro, com capital suficiente para três a cinco anos de operação paralela, com executivos locais de primeira linha. Empresa diferente em estágio, recursos e estrutura.
+Lição extraível: internacionalização é o [[IGNICAO-Vol-7-Maturidade-e-Exit#APÊNDICE CU — INTERNACIONALIZAÇÃO: ESTRUTURA E PRODUTO PARA MÚLTIPLOS MERCADOS|Apêndice CU (Vol. 7)]] inteiro por uma razão. Pré-requisito não é "temos capital", é "PMF sólido mais operação que não precisa mais do fundador diariamente mais caixa para dezoito meses ou mais de operação paralela". Sem esses três, expansão acelera destruição, não crescimento. Nubank é exceção relevante: expandiu para México e Colômbia depois de estabelecer mercado brasileiro, com capital suficiente para três a cinco anos de operação paralela, com executivos locais de primeira linha. Empresa diferente em estágio, recursos e estrutura.
 
 #### Padrão 7 — Perder momentum de produto em empresa que já escalou
 
@@ -4474,7 +4519,7 @@ Padrão observado (casos variados). Empresas que atingiram PMF e escalaram razoa
 
 Os sinais de perda de momentum incluem release notes sobre features táticas e não sobre direção, métricas principais estagnando (retenção, NPS, adoption de novas features), turnover alto dos seniores no time de produto e "innovation theater" (hackathons sem follow-through, comitês de inovação sem poder).
 
-Lição extraível: escala mata produto se não houver sistema deliberado para preservá-lo. O [[IGNICAO-Vol-5-Maturidade#APÊNDICE AB — PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA|Apêndice AB (Vol. 5)]] cobre isso em profundidade. Fundador precisa manter mão no produto mesmo como CEO — não no dia a dia, mas em decisão de direção.
+Lição extraível: escala mata produto se não houver sistema deliberado para preservá-lo. O [[IGNICAO-Vol-6-Engenharia-e-Juridico#APÊNDICE AB — PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA|Apêndice AB (Vol. 6)]] cobre isso em profundidade. Fundador precisa manter mão no produto mesmo como CEO — não no dia a dia, mas em decisão de direção.
 
 ### Autoavaliação de risco estratégico
 
@@ -4512,7 +4557,7 @@ Você aplicou esse apêndice bem quando reconhece pelo menos dois dos sete padr�
 
 ### Ver também
 
-[[IGNICAO-Vol-5-Maturidade#APÊNDICE BH — POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE|Apêndice BH (Vol. 5)]] traz catálogo expandido de post-mortems brasileiros. [[IGNICAO-Vol-5-Maturidade#APÊNDICE CW — CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO|Apêndice CW (Vol. 5)]] cobre crise e recuperação. [[IGNICAO-Vol-1-Ideacao#APÊNDICE Y — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Apêndice Y (Vol. 1)]] cobre humanidade do fundador.
+[[IGNICAO-Vol-7-Maturidade-e-Exit#APÊNDICE BH — POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE|Apêndice BH (Vol. 7)]] traz catálogo expandido de post-mortems brasileiros. [[IGNICAO-Vol-7-Maturidade-e-Exit#APÊNDICE CW — CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO|Apêndice CW (Vol. 7)]] cobre crise e recuperação. [[IGNICAO-Vol-1-Ideacao#APÊNDICE Y — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Apêndice Y (Vol. 1)]] cobre humanidade do fundador.
 
 ---
 
@@ -4531,7 +4576,7 @@ Olist viveu trajetória intensa: captou rodadas grandes durante pandemia com tes
 
 Loggi captou rodadas substanciais ao longo dos anos, chegou a valuation bilionário, mas vive tensão constante com rentabilidade de última milha no mercado brasileiro, particularmente complexo por geografia do país, diversidade regulatória entre municípios e custo de mão de obra em setor trabalhista contencioso. O padrão instrutivo é que infraestrutura física no Brasil carrega fricções (regulatórias, trabalhistas, tributárias) que não aparecem no pitch inicial e não desaparecem com escala. Tecnologia pode otimizar rota e precificação, mas não elimina custo de funcionário, combustível, frota, seguro e tempo perdido em trânsito urbano. A lição operacional: em negócios que dependem da física do mundo, descontar a estimativa inicial de unit economics em trinta a cinquenta por cento é prudente. Multiplicar capital de reserva para absorver surpresas é defensivo.
 
-Escale, marketplace que conectava consumidores a provedores de serviços, anunciou em 2023 o encerramento ordenado da operação. Fundadores comunicaram publicamente, fizeram rescisão ordenada de contratos e devolveram capital residual a investidores. Não foi falência, foi decisão consciente de encerrar quando viram que o modelo não convergiria. Esse é um padrão instrutivo positivo: encerramento voluntário executado com dignidade é caso raro e exemplar. Em vez de estender agonia até insolvência técnica, fundadores reconheceram realidade e agiram. Relações com investidores, time e clientes foram preservadas, e os fundadores manterão capacidade de começar de novo. A seção sobre Shutdown Voluntário na [[IGNICAO-Vol-5-Maturidade#FASE 16 — EXIT STRATEGY|Fase 16 (Vol. 5)]] desse livro foi inspirada parcialmente por casos como Escale.
+Escale, marketplace que conectava consumidores a provedores de serviços, anunciou em 2023 o encerramento ordenado da operação. Fundadores comunicaram publicamente, fizeram rescisão ordenada de contratos e devolveram capital residual a investidores. Não foi falência, foi decisão consciente de encerrar quando viram que o modelo não convergiria. Esse é um padrão instrutivo positivo: encerramento voluntário executado com dignidade é caso raro e exemplar. Em vez de estender agonia até insolvência técnica, fundadores reconheceram realidade e agiram. Relações com investidores, time e clientes foram preservadas, e os fundadores manterão capacidade de começar de novo. A seção sobre Shutdown Voluntário na [[IGNICAO-Vol-7-Maturidade-e-Exit#FASE 16 — EXIT STRATEGY|Fase 16 (Vol. 7)]] desse livro foi inspirada parcialmente por casos como Escale.
 
 C2 Ventures e o encolhimento de fundos de venture ilustra o padrão sistêmico. Não é empresa operacional, mas é parte da mesma história. O fundo reduziu significativamente operações em 2023-2024 sem comunicado público de encerramento, junto com vários outros fundos pequenos e médios do ecossistema. O ciclo de venture brasileiro teve contração forte: menos cheques sendo escritos, valuations menores, due diligences mais rigorosas. O ecossistema VC é pró-cíclico. Quando mercado aquece, muitos fundos abrem; quando esfria, muitos fecham. Empresas que captaram em ciclo de alta (2020-2021) em valuations inflados carregam peso extra nas rodadas subsequentes. A lição operacional: considere em que momento do ciclo você está captando. Captar em topo de euforia é comodidade imediata mas passivo futuro. Captar em vale é doloroso de executar mas frequentemente produz empresa mais disciplinada.
 
@@ -4558,6 +4603,18 @@ Os sete padrões originais (escalar antes do PMF, queimar caixa em aquisição s
 ---
 
 # ARQUITETURA DE MODELO DE NEGÓCIO (MARKETPLACES, PLATAFORMAS, B2B2C E OPEN SOURCE)
+
+---
+
+### Arquitetura deste Domínio: Escolhas Estruturais de Modelo de Negócio
+
+Antes de congelar a especificação do MVP na Fase 9, você precisa definir a física econômica do seu modelo de distribuição e captura de valor. Os quatro capítulos que encerram o Volume 2 (**Apêndices AE, CC, CK e BE**) analisam as quatro arquiteturas que mais seduzem — e mais matam — fundadores quando escolhidas pelo motivo errado.
+
+Cada capítulo resolve um dilema estrutural específico:
+- **Marketplace ([[#APÊNDICE AE — MARKETPLACE DYNAMICS E RISCO DE PLATAFORMA|Apêndice AE]]):** Como vencer o problema do ovo e da galinha, medir liquidez real, escolher *take rate* e evitar desintermediação (*leakage*).
+- **Plataforma vs. Produto ([[#APÊNDICE CC — PLATAFORMA VS PRODUTO: QUANDO CONSTRUIR PLATAFORMA E QUANDO NÃO|Apêndice CC]]):** Por que quase toda plataforma bem-sucedida começou como um produto *single-player* absurdamente útil antes de abrir APIs ou ecossistema de terceiros.
+- **B2B2C ([[#APÊNDICE CK — B2B2C: QUANDO SUA EMPRESA VENDE PARA OUTRA EMPRESA QUE VENDE PARA CONSUMIDOR|Apêndice CK]]):** Como alinhar incentivos quando quem assina o contrato (a empresa parceira, o RH, o banco, a escola) não é o usuário final que precisa adotar o produto.
+- **Open Source Comercial ([[#APÊNDICE BE — OPEN SOURCE COMO ESTRATÉGIA|Apêndice BE]]):** Como usar código aberto como cunha de distribuição (*bottom-up*) mantendo camadas de monetização enterprise defensáveis.
 
 ---
 
@@ -4726,7 +4783,7 @@ Compliance específico pode ser custo estrutural, que define viabilidade.
 > Decisao estrutural entre produto integrado e plataforma de multiplos lados, com consequencias em valuation, capital e dinamica competitiva. Vizinhos relevantes,
 > - [[#APÊNDICE AE — MARKETPLACE DYNAMICS E RISCO DE PLATAFORMA|Apêndice AE]], dinamica especifica de marketplace como subtipo
 > - [[#APÊNDICE CK — B2B2C: QUANDO SUA EMPRESA VENDE PARA OUTRA EMPRESA QUE VENDE PARA CONSUMIDOR|Apêndice CK]], modelo de tres lados com responsabilidades distribuidas
-> - [[IGNICAO-Vol-4-Escala#APÊNDICE CX — CANAIS INDIRETOS E PARCERIAS: PARCERIAS, FRANQUIAS, CHANNEL|Apêndice CX (Vol. 4)]], canal indireto como alternativa a plataforma
+> - [[IGNICAO-Vol-5-Receita-e-Pessoas#APÊNDICE CX — CANAIS INDIRETOS E PARCERIAS: PARCERIAS, FRANQUIAS, CHANNEL|Apêndice CX (Vol. 5)]], canal indireto como alternativa a plataforma
 > - [[#APÊNDICE BE — OPEN SOURCE COMO ESTRATÉGIA|Apêndice BE]], OSS como variante de plataforma com comunidade no lugar de marketplace
 
 ### O que é
@@ -4879,7 +4936,7 @@ Produto saudável tem rentabilidade clara (Rule of 40 positivo), retenção alta
 
 ### Ver também
 
-[[IGNICAO-Vol-5-Maturidade#APÊNDICE AB — PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA|Apêndice AB (Vol. 5)]] cobre produto em escala. [[#APÊNDICE AE — MARKETPLACE DYNAMICS E RISCO DE PLATAFORMA|Apêndice AE]] cobre marketplace dynamics. [[IGNICAO-Vol-4-Escala#APÊNDICE CX — CANAIS INDIRETOS E PARCERIAS: PARCERIAS, FRANQUIAS, CHANNEL|Apêndice CX (Vol. 4)]] cobre franquias e canais.
+[[IGNICAO-Vol-6-Engenharia-e-Juridico#APÊNDICE AB — PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA|Apêndice AB (Vol. 6)]] cobre produto em escala. [[#APÊNDICE AE — MARKETPLACE DYNAMICS E RISCO DE PLATAFORMA|Apêndice AE]] cobre marketplace dynamics. [[IGNICAO-Vol-5-Receita-e-Pessoas#APÊNDICE CX — CANAIS INDIRETOS E PARCERIAS: PARCERIAS, FRANQUIAS, CHANNEL|Apêndice CX (Vol. 5)]] cobre franquias e canais.
 
 ---
 
@@ -5033,7 +5090,7 @@ B2B2C saudável tem diversidade de Bs (nenhum acima de quinze a vinte por cento 
 
 ### Ver também
 
-[[IGNICAO-Vol-4-Escala#APÊNDICE CX — CANAIS INDIRETOS E PARCERIAS: PARCERIAS, FRANQUIAS, CHANNEL|Apêndice CX (Vol. 4)]] cobre parcerias estratégicas, franquias, e channel partnerships. [[#APÊNDICE AE — MARKETPLACE DYNAMICS E RISCO DE PLATAFORMA|Apêndice AE]] cobre marketplace dynamics quando o B2B2C é especificamente do tipo marketplace.
+[[IGNICAO-Vol-5-Receita-e-Pessoas#APÊNDICE CX — CANAIS INDIRETOS E PARCERIAS: PARCERIAS, FRANQUIAS, CHANNEL|Apêndice CX (Vol. 5)]] cobre parcerias estratégicas, franquias, e channel partnerships. [[#APÊNDICE AE — MARKETPLACE DYNAMICS E RISCO DE PLATAFORMA|Apêndice AE]] cobre marketplace dynamics quando o B2B2C é especificamente do tipo marketplace.
 
 ---
 
@@ -5042,10 +5099,10 @@ B2B2C saudável tem diversidade de Bs (nenhum acima de quinze a vinte por cento 
 > [!abstract] Posicao no livro
 > Open source como estrategia de go-to-market e construcao de moat para startups dev-tools, infra e SaaS moderno. Vizinhos relevantes,
 > - [[#APÊNDICE CC — PLATAFORMA VS PRODUTO: QUANDO CONSTRUIR PLATAFORMA E QUANDO NÃO|Apêndice CC]], quando o projeto OSS pode virar plataforma com multiplos lados
-> - [[IGNICAO-Vol-4-Escala#APÊNDICE DC — PROPRIEDADE INTELECTUAL E INPI|Apêndice DC (Vol. 4)]], decisoes de licenciamento e protecao do core proprietario
+> - [[IGNICAO-Vol-6-Engenharia-e-Juridico#APÊNDICE DC — PROPRIEDADE INTELECTUAL E INPI|Apêndice DC (Vol. 6)]], decisoes de licenciamento e protecao do core proprietario
 > - [[#APÊNDICE AE — MARKETPLACE DYNAMICS E RISCO DE PLATAFORMA|Apêndice AE]], dinamica de network effects que tambem opera em comunidades OSS
-> - [[IGNICAO-Vol-4-Escala#APÊNDICE CX — CANAIS INDIRETOS E PARCERIAS: PARCERIAS, FRANQUIAS, CHANNEL|Apêndice CX (Vol. 4)]], comunidade e contribuidores como canal indireto de distribuicao
-> - [[IGNICAO-Vol-4-Escala#APÊNDICE DV — OPERAÇÕES EM ESCALA|Apêndice DV (Vol. 4)]], operacao quando a comunidade vira parte do produto
+> - [[IGNICAO-Vol-5-Receita-e-Pessoas#APÊNDICE CX — CANAIS INDIRETOS E PARCERIAS: PARCERIAS, FRANQUIAS, CHANNEL|Apêndice CX (Vol. 5)]], comunidade e contribuidores como canal indireto de distribuicao
+> - [[IGNICAO-Vol-6-Engenharia-e-Juridico#APÊNDICE DV — OPERAÇÕES EM ESCALA|Apêndice DV (Vol. 6)]], operacao quando a comunidade vira parte do produto
 
 > **Aplicabilidade**: empresas dev-tools ou infra. Crescente em SaaS moderno.
 
@@ -5084,7 +5141,7 @@ Escolha importa: MIT max adoção, pouco controle. AGPL/BSL mais controle, menos
 
 **3. Community building:**
 
-- **Docs excepcionais** (ver [[IGNICAO-Vol-4-Escala#APÊNDICE CR — ENGINEERING MANAGEMENT: GESTÃO DO TIME TÉCNICO E DEVELOPER EXPERIENCE|Apêndice CR (Vol. 4)]]).
+- **Docs excepcionais** (ver [[IGNICAO-Vol-6-Engenharia-e-Juridico#APÊNDICE CR — ENGINEERING MANAGEMENT: GESTÃO DO TIME TÉCNICO E DEVELOPER EXPERIENCE|Apêndice CR (Vol. 6)]]).
 - **Contributing guide** claro.
 - **Welcome experience** para new contributors.
 - **Governance**: quem decide? Em OSS empresa-backed, empresa tem controle, comunicar claramente.
