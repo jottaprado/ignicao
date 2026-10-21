@@ -109,6 +109,7 @@ const { VOL10_VERTICALS_PART1 } = require('./vol10_verticals_part1');
 const { VOL10_VERTICALS_PART2 } = require('./vol10_verticals_part2');
 const { VOL10_VERTICALS_PART3 } = require('./vol10_verticals_part3');
 const { VOL10_VERTICALS_PART4 } = require('./vol10_verticals_part4');
+const { VOL10_VERTICALS_PART5 } = require('./vol10_verticals_part5');
 const { VOL5_VOL6_VOL9_EXTRAS } = require('./vol5_vol6_vol9_extras');
 const { VOL3_VOL9_LIFECYCLE_EXTRAS } = require('./vol3_vol9_lifecycle_extras');
 
@@ -121,6 +122,7 @@ const vol10NewModules = {
   ...VOL10_VERTICALS_PART2,
   ...VOL10_VERTICALS_PART3,
   ...VOL10_VERTICALS_PART4,
+  ...VOL10_VERTICALS_PART5,
   NEW_COMEX: VOL5_VOL6_VOL9_EXTRAS.NEW_COMEX,
   NEW_FRANCHISING: VOL5_VOL6_VOL9_EXTRAS.NEW_FRANCHISING,
   ...VOL3_VOL9_LIFECYCLE_EXTRAS,
@@ -137,7 +139,7 @@ rawSections.set('BA', {
   heading: VOL5_VOL6_VOL9_EXTRAS.MERGED_BA.heading.trim(),
   body: VOL5_VOL6_VOL9_EXTRAS.MERGED_BA.body.trim(),
 });
-console.log(`      Novos capítulos de Economia da Inovação, Hubs, Verticais, Comex, Franchising e Ciclo Empreendedor carregados: ${Object.keys(vol10NewModules).length} (esperado: 35)`);
+console.log(`      Novos capítulos de Economia da Inovação, Hubs, Verticais, Comex, Franchising e Ciclo Empreendedor carregados: ${Object.keys(vol10NewModules).length} (esperado: 38)`);
 
 // ---------------------------------------------------------------------------
 // 2. Extrair todos os itens de BG (164), CZ (20), A (39), C (19) e E (18)
@@ -1672,10 +1674,10 @@ const VOLUMES_SPEC = [
   {
     num: 10,
     slug: 'IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario',
-    title: 'IGNIÇÃO — Volume 10: Economia da Inovação, Hubs Globais e Playbooks das 37 Verticais',
-    subtitle: 'Ecossistemas, Geografia de Hubs por Continente, Regulação, 37 Verticais da Economia Real e Dicionário da Coleção (Capítulos 1 a 43 e Índices)',
+    title: 'IGNIÇÃO — Volume 10: Economia da Inovação, Hubs Globais e Playbooks das 40 Verticais',
+    subtitle: 'Ecossistemas, Geografia de Hubs por Continente, Regulação, 40 Verticais da Economia Real e Dicionário da Coleção (Capítulos 1 a 46 e Índices)',
     about:
-      'Volume de fechamento da coleção IGNIÇÃO, reunindo três acervos essenciais e sem excessos: (1) a Economia da Inovação e seus Atores (Universidades/ICTs, Governo/Fomento, Corporações/CVC, Venture Studios e toda a escada do Capital de Risco), a Geografia Mundial da Inovação por Continente (América do Norte, Europa, Ásia-Pacífico, Oriente Médio, África e América Latina), as 5 vantagens competitivas estruturais do Brasil e a radiografia dos 15 principais Hubs de Inovação Brasileiros, seguidos pelo quadro macroeconômico, autarquias reguladoras (BACEN, CVM, SUSEP, ANVISA, ANS, ANATEL, ANEEL, ANP), CADE/Antitruste e Políticas Públicas (Capítulos 1 a 6); (2) os 37 Playbooks Setoriais completos cobrindo todas as grandes verticais e máquinas de caixa da economia real (Capítulos 7 a 43); e (3) o Dicionário, a Bibliografia e os Índices Gerais Unificados da Coleção.',
+      'Volume de fechamento da coleção IGNIÇÃO, reunindo três acervos essenciais e sem excessos: (1) a Economia da Inovação e seus Atores (Universidades/ICTs, Governo/Fomento, Corporações/CVC, Venture Studios e toda a escada do Capital de Risco), a Geografia Mundial da Inovação por Continente (América do Norte, Europa, Ásia-Pacífico, Oriente Médio, África e América Latina), as 5 vantagens competitivas estruturais do Brasil e a radiografia dos 15 principais Hubs de Inovação Brasileiros, seguidos pelo quadro macroeconômico, autarquias reguladoras (BACEN, CVM, SUSEP, ANVISA, ANS, ANATEL, ANEEL, ANP), CADE/Antitruste e Políticas Públicas (Capítulos 1 a 6); (2) os 40 Playbooks Setoriais completos cobrindo todas as grandes verticais, setores primários, extrativistas, commodities e máquinas de caixa da economia real (Capítulos 7 a 46); e (3) o Dicionário, a Bibliografia e os Índices Gerais Unificados da Coleção.',
     blocks: [
       {
         h1: 'ECONOMIA DA INOVAÇÃO, GEOGRAFIA MUNDIAL DE HUBS, MACROECONOMIA E REGULAÇÃO (CAPÍTULOS 1 A 6)',
@@ -1702,11 +1704,14 @@ const VOLUMES_SPEC = [
         ],
       },
       {
-        h1: 'CLUSTER II — AGRO, INFRAESTRUTURA, ENERGIA, CLIMA, RESÍDUOS/FLORESTAL, RECURSOS NATURAIS E INDÚSTRIA (CAPÍTULOS 11 A 18)',
-        tocGroup: 'Cluster II — Agro, Infraestrutura, Energia, Clima, Resíduos/Florestal, Recursos Naturais e Indústria (Capítulos 11 a 18)',
+        h1: 'CLUSTER II — AGRO, PECUÁRIA/AQUICULTURA, COMMODITIES/TRADING, BIOCOMBUSTÍVEIS/BIOECONOMIA, INFRAESTRUTURA, ENERGIA, RESÍDUOS/FLORESTAL, MINERAÇÃO E INDÚSTRIA (CAPÍTULOS 11 A 21)',
+        tocGroup: 'Cluster II — Agro, Pecuária/Aquicultura, Commodities/Trading, Biocombustíveis/Bioeconomia, Infra, Energia, Resíduos, Mineração e Indústria (Capítulos 11 a 21)',
         intro: DOMAIN_INTROS.V10_CLUSTER_2,
         items: [
           { type: 'chapter', key: 'DL' },
+          { type: 'chapter', key: 'V_PECTECH_AQUATECH' },
+          { type: 'chapter', key: 'V_COMMODITIES_TRADING' },
+          { type: 'chapter', key: 'V_BIOFUELS_BIOECONOMY' },
           { type: 'chapter', key: 'V_INFRATECH' },
           { type: 'chapter', key: 'V_ENERGYTECH' },
           { type: 'chapter', key: 'DN' },
@@ -1717,8 +1722,8 @@ const VOLUMES_SPEC = [
         ],
       },
       {
-        h1: 'CLUSTER III — LOGÍSTICA, MOBILIDADE, IMOBILIÁRIO, SEGURANÇA/FACILITIES, TELECOM/DATA CENTERS E AEROESPACIAL (CAPÍTULOS 19 A 24)',
-        tocGroup: 'Cluster III — Logística, Mobilidade, Imobiliário, Segurança/Facilities, Telecom/Data Centers e Aeroespacial (Capítulos 19 a 24)',
+        h1: 'CLUSTER III — LOGÍSTICA, MOBILIDADE, IMOBILIÁRIO, SEGURANÇA/FACILITIES, TELECOM/DATA CENTERS E AEROESPACIAL (CAPÍTULOS 22 A 27)',
+        tocGroup: 'Cluster III — Logística, Mobilidade, Imobiliário, Segurança/Facilities, Telecom/Data Centers e Aeroespacial (Capítulos 22 a 27)',
         intro: DOMAIN_INTROS.V10_CLUSTER_3,
         items: [
           { type: 'chapter', key: 'DQ' },
@@ -1730,8 +1735,8 @@ const VOLUMES_SPEC = [
         ],
       },
       {
-        h1: 'CLUSTER IV — SAÚDE, EDUCAÇÃO, GOVERNO E SETOR JURÍDICO (CAPÍTULOS 25 A 28)',
-        tocGroup: 'Cluster IV — Saúde, Educação, Governo e Setor Jurídico (Capítulos 25 a 28)',
+        h1: 'CLUSTER IV — SAÚDE, EDUCAÇÃO, GOVERNO E SETOR JURÍDICO (CAPÍTULOS 28 A 31)',
+        tocGroup: 'Cluster IV — Saúde, Educação, Governo e Setor Jurídico (Capítulos 28 a 31)',
         intro: DOMAIN_INTROS.V10_CLUSTER_4,
         items: [
           { type: 'chapter', key: 'CM' },
@@ -1741,8 +1746,8 @@ const VOLUMES_SPEC = [
         ],
       },
       {
-        h1: 'CLUSTER V — VAREJO, ALIMENTAÇÃO, BENS DE CONSUMO (D2C), TURISMO, PET, LONGEVIDADE E SETOR FUNERÁRIO/ASSISTENCIAL (CAPÍTULOS 29 A 33)',
-        tocGroup: 'Cluster V — Varejo, Alimentação, Bens de Consumo (D2C), Turismo, Pet, Longevidade e Setor Funerário/Assistencial (Capítulos 29 a 33)',
+        h1: 'CLUSTER V — VAREJO, ALIMENTAÇÃO, BENS DE CONSUMO (D2C), TURISMO, PET, LONGEVIDADE E SETOR FUNERÁRIO/ASSISTENCIAL (CAPÍTULOS 32 A 36)',
+        tocGroup: 'Cluster V — Varejo, Alimentação, Bens de Consumo (D2C), Turismo, Pet, Longevidade e Setor Funerário/Assistencial (Capítulos 32 a 36)',
         intro: DOMAIN_INTROS.V10_CLUSTER_5,
         items: [
           { type: 'chapter', key: 'V_RETAILTECH' },
@@ -1753,8 +1758,8 @@ const VOLUMES_SPEC = [
         ],
       },
       {
-        h1: 'CLUSTER VI — SOFTWARE CORPORATIVO (SAAS), SERVIÇOS B2B TECH-ENABLED, IA, CIBERSEGURANÇA, DEVTOOLS, RH, MARKETING, CREATOR ECONOMY E GAMES (CAPÍTULOS 34 A 43)',
-        tocGroup: 'Cluster VI — Software Corporativo (SaaS), Serviços B2B Tech-Enabled, IA, Cibersegurança, DevTools, RH, Marketing, Creator Economy e Games (Capítulos 34 a 43)',
+        h1: 'CLUSTER VI — SOFTWARE CORPORATIVO (SAAS), SERVIÇOS B2B TECH-ENABLED, IA, CIBERSEGURANÇA, DEVTOOLS, RH, MARKETING, CREATOR ECONOMY E GAMES (CAPÍTULOS 37 A 46)',
+        tocGroup: 'Cluster VI — Software Corporativo (SaaS), Serviços B2B Tech-Enabled, IA, Cibersegurança, DevTools, RH, Marketing, Creator Economy e Games (Capítulos 37 a 46)',
         intro: DOMAIN_INTROS.V10_CLUSTER_6,
         items: [
           { type: 'chapter', key: 'V_HORIZONTAL_SAAS' },
@@ -1831,7 +1836,7 @@ graph LR
     end
     subgraph J3["Ciclo Longo e Setores"]
         V9["<b>Vol. 9 — Maturidade, Exit e Family Office</b><br/>Fases 19 e 20 · Board, Crise, M&A, IPO e Cash Cow"]
-        V10["<b>Vol. 10 — Economia da Inovação e 37 Verticais</b><br/>Hubs Globais, Regulação, 37 Setores e Dicionário"]
+        V10["<b>Vol. 10 — Economia da Inovação e 40 Verticais</b><br/>Hubs Globais, Regulação, 40 Setores e Dicionário"]
         V8 --> V9
     end
     V10 -. "Consulta Setorial e Dicionário" .-> J1
@@ -1856,7 +1861,7 @@ A coleção está organizada em **10 volumes focais**:
 - **Volume 7 — Produto, Engenharia, Dados, IA e Operações:** Fase 17 + 11 Capítulos de discovery contínuo, gestão de engenharia, dívida técnica, IA na engenharia de software, AI Ops, design organizacional, gestão do conhecimento e excelência operacional.
 - **Volume 8 — Blindagem Jurídica, Societária, LGPD e Segurança:** Fase 18 + 14 Capítulos de Marco Legal das Startups, responsabilidade dos sócios, propriedade intelectual/INPI, non-compete, contratos, direito do trabalho, CDC, contencioso, LGPD, regulação de IA, compliance, prevenção a fraudes e SOC 2 / ISO 27001.
 - **Volume 9 — Maturidade, Governança, Crise, Exit e Family Office:** Fases 19 e 20 + 23 Capítulos de Conselho de Administração (Board), empresas familiares, conflitos societários, internacionalização, câmbio/tesouraria, gestão de crise, layoffs, recuperação judicial, M&A buy-side, Search Funds, Spin-offs e Carve-outs, Liquidez Secundária (Secondaries), IPO, tributação de exit, transição pós-M&A, post-mortems, second-time founders e a Empresa *Cash Cow* (dividendos vitalícios) + Holdings Patrimoniais, Offshores e *Family Office* + Epílogo.
-- **Volume 10 — Economia da Inovação, Hubs Globais e Playbooks das 37 Verticais:** 43 Capítulos cobrindo a Economia da Inovação e seus Atores, a Geografia Mundial de Hubs por Continente e os 15 Polos Brasileiros, Ciclos Macroeconômicos, Autarquias Reguladoras, CADE, Políticas Públicas e os **37 Playbooks Setoriais** da economia real (de Fintech, Crédito, Insurtech, Wealthtech, Agritech, Infratech, Energytech, Cleantech, Resíduos/Biometano/Celulose, Miningtech e Indústria 4.0 até Hardware, Logtech, Mobitech, Proptech, Segurança Privada/Portaria Remota/Facilities, Telecom/ISPs/Data Centers de IA, Aerospace, Biotech/Healthtech, Edtech, Govtech, Legaltech, Retailtech, Foodtech, D2C/Wellness, Travel/Pet/Silver, Setor Funerário/Assistência Familiar/DeathTech, Horizontal/Vertical SaaS, Serviços Profissionais B2B/Consultorias/Nearshoring, AI-Native, Cybersecurity, DevTools, HRTech, Martech, Creator Economy e Gaming), seguidos pelo Dicionário e Índices Unificados da Coleção.`;
+- **Volume 10 — Economia da Inovação, Hubs Globais e Playbooks das 40 Verticais:** 46 Capítulos cobrindo a Economia da Inovação e seus Atores, a Geografia Mundial de Hubs por Continente e os 15 Polos Brasileiros, Ciclos Macroeconômicos, Autarquias Reguladoras, CADE, Políticas Públicas e os **40 Playbooks Setoriais** da economia real (de Fintech, Crédito, Insurtech, Wealthtech, Agritech, Pecuária/PecTech/Aquicultura, Trading de Commodities/Barter/Silos/Arco Norte, Biocombustíveis/Bioinsumos/Irrigação/Bioeconomia Amazônica, Infratech, Energytech, Cleantech, Resíduos/Biometano/Celulose, Miningtech e Indústria 4.0 até Hardware, Logtech, Mobitech, Proptech, Segurança Privada/Portaria Remota/Facilities, Telecom/ISPs/Data Centers de IA, Aerospace, Biotech/Healthtech, Edtech, Govtech, Legaltech, Retailtech, Foodtech, D2C/Wellness, Travel/Pet/Silver, Setor Funerário/Assistência Familiar/DeathTech, Horizontal/Vertical SaaS, Serviços Profissionais B2B/Consultorias/Nearshoring, AI-Native, Cybersecurity, DevTools, HRTech, Martech, Creator Economy e Gaming), seguidos pelo Dicionário e Índices Unificados da Coleção.`;
 
 // Mapas de resolução de links e referências
 const oldAnchorToNew = new Map(); // slugify(oldAnchor) -> { volNum, volSlug, heading, displayLabel }

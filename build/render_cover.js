@@ -110,8 +110,8 @@ const COVERS = [
   {
     file: 'cover-vol-10.png',
     topMark: 'Coleção IGNIÇÃO · Volume 10 de 10 (Autocontido)',
-    volBadge: 'VOL. 10 · ECONOMIA DA INOVAÇÃO E 37 VERTICAIS',
-    subtitle: 'Atores da Inovação, Hubs Globais e Brasileiros, Regulação, 37 Verticais e Dicionário (Capítulos 1 a 43)',
+    volBadge: 'VOL. 10 · ECONOMIA DA INOVAÇÃO E 40 VERTICAIS',
+    subtitle: 'Atores da Inovação, Hubs Globais e Brasileiros, Regulação, 40 Verticais e Dicionário (Capítulos 1 a 46)',
     gradient: 'linear-gradient(135deg, #090d16 0%, #1e293b 40%, #334155 75%, #94a3b8 100%)',
   },
 ];

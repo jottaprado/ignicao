@@ -45,7 +45,7 @@ graph LR
     end
     subgraph J3["Ciclo Longo e Setores"]
         V9["<b>Vol. 9 — Maturidade, Exit e Family Office</b><br/>Fases 19 e 20 · Board, Crise, M&A, IPO e Cash Cow"]
-        V10["<b>Vol. 10 — Economia da Inovação e 37 Verticais</b><br/>Hubs Globais, Regulação, 37 Setores e Dicionário"]
+        V10["<b>Vol. 10 — Economia da Inovação e 40 Verticais</b><br/>Hubs Globais, Regulação, 40 Setores e Dicionário"]
         V8 --> V9
     end
     V10 -. "Consulta Setorial e Dicionário" .-> J1
@@ -5476,7 +5476,7 @@ Use a lista abaixo para auditoria. Marque o que já está em pé. O que falta vi
 > [!abstract] Posicao no livro
 > Parceria corporativa como canal e como armadilha, ciclo de doze a vinte e quatro meses, governanca de inovacao versus tesouraria. Vizinhos relevantes,
 > - [[#CAPÍTULO 6 — CANAIS INDIRETOS E PARCERIAS: PARCERIAS, FRANQUIAS, CHANNEL|Capítulo 6 (CANAIS INDIRETOS E PARCERIAS: PARCERIAS, FRANQUIAS, CHANNEL)]], parceria como canal estruturado de distribuicao
-> - [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 27 — GOVTECH: STARTUP VENDENDO PARA GOVERNO|Capítulo 27 (GOVTECH: STARTUP VENDENDO PARA GOVERNO) (Vol. 10)]], analogia operacional, ambos compradores institucionais com ciclo longo
+> - [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 30 — GOVTECH: STARTUP VENDENDO PARA GOVERNO|Capítulo 30 (GOVTECH: STARTUP VENDENDO PARA GOVERNO) (Vol. 10)]], analogia operacional, ambos compradores institucionais com ciclo longo
 > - [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 11 — NEGOCIAÇÃO COMO DISCIPLINA|Capítulo 11 (NEGOCIAÇÃO COMO DISCIPLINA) (Vol. 4)]], framework de negociacao para deals com elefantes
 > - [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 13 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 13 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) (Vol. 5)]], CVC (corporate venture capital) como vertente de investimento
 
