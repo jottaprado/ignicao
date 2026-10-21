@@ -103,7 +103,7 @@ if (rawSections.size !== 175) {
   throw new Error(`Esperadas 175 seções, mas foram extraídas ${rawSections.size}`);
 }
 
-// Registrar os 30 capítulos do Volume 10 + os capítulos de Comércio Exterior (Vol. 5), Franchising (Vol. 6), Service-to-Product (Vol. 3), Spin-offs e Cash Cow/Family Office (Vol. 9) e a fusão BA+DH (Vol. 9)
+// Registrar os capítulos novos do Volume 10 + Comércio Exterior (Vol. 5), Franchising (Vol. 6), Service-to-Product (Vol. 3), Spin-offs e Cash Cow/Family Office (Vol. 9) e a fusão BA+DH (Vol. 9)
 const { VOL10_ECON_HUBS } = require('./vol10_econ_hubs');
 const { VOL10_VERTICALS_PART1 } = require('./vol10_verticals_part1');
 const { VOL10_VERTICALS_PART2 } = require('./vol10_verticals_part2');
@@ -112,6 +112,13 @@ const { VOL10_VERTICALS_PART4 } = require('./vol10_verticals_part4');
 const { VOL10_VERTICALS_PART5 } = require('./vol10_verticals_part5');
 const { VOL5_VOL6_VOL9_EXTRAS } = require('./vol5_vol6_vol9_extras');
 const { VOL3_VOL9_LIFECYCLE_EXTRAS } = require('./vol3_vol9_lifecycle_extras');
+const {
+  FAST_TRACKS_MD,
+  EXTRA_INDEX_REMISSIVO_SECTION,
+  FRAMEWORKS_BG_CELL_FIXES,
+  enrichRawGlossaryBody,
+  enrichRawAbbrevBody,
+} = require('./vol10_reference_additions');
 
 const origHeadingBA = rawSections.get('BA').heading;
 const origHeadingDH = rawSections.get('DH').heading;
@@ -139,7 +146,7 @@ rawSections.set('BA', {
   heading: VOL5_VOL6_VOL9_EXTRAS.MERGED_BA.heading.trim(),
   body: VOL5_VOL6_VOL9_EXTRAS.MERGED_BA.body.trim(),
 });
-console.log(`      Novos capítulos de Economia da Inovação, Hubs, Verticais, Comex, Franchising e Ciclo Empreendedor carregados: ${Object.keys(vol10NewModules).length} (esperado: 38)`);
+console.log(`      Novos capítulos de Economia da Inovação, Hubs, Verticais, Comex, Franchising e Ciclo Empreendedor carregados: ${Object.keys(vol10NewModules).length} (esperado: 40)`);
 
 // ---------------------------------------------------------------------------
 // 2. Extrair todos os itens de BG (164), CZ (20), A (39), C (19) e E (18)
@@ -1674,10 +1681,10 @@ const VOLUMES_SPEC = [
   {
     num: 10,
     slug: 'IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario',
-    title: 'IGNIÇÃO — Volume 10: Economia da Inovação, Hubs Globais e Playbooks das 40 Verticais',
-    subtitle: 'Ecossistemas, Geografia de Hubs por Continente, Regulação, 40 Verticais da Economia Real e Dicionário da Coleção (Capítulos 1 a 46 e Índices)',
+    title: 'IGNIÇÃO — Volume 10: Economia da Inovação, Hubs Globais e Playbooks das 42 Verticais',
+    subtitle: 'Ecossistemas, Geografia de Hubs por Continente, Regulação, 42 Verticais da Economia Real e Dicionário da Coleção (Capítulos 1 a 48 e Índices)',
     about:
-      'Volume de fechamento da coleção IGNIÇÃO, reunindo três acervos essenciais e sem excessos: (1) a Economia da Inovação e seus Atores (Universidades/ICTs, Governo/Fomento, Corporações/CVC, Venture Studios e toda a escada do Capital de Risco), a Geografia Mundial da Inovação por Continente (América do Norte, Europa, Ásia-Pacífico, Oriente Médio, África e América Latina), as 5 vantagens competitivas estruturais do Brasil e a radiografia dos 15 principais Hubs de Inovação Brasileiros, seguidos pelo quadro macroeconômico, autarquias reguladoras (BACEN, CVM, SUSEP, ANVISA, ANS, ANATEL, ANEEL, ANP), CADE/Antitruste e Políticas Públicas (Capítulos 1 a 6); (2) os 40 Playbooks Setoriais completos cobrindo todas as grandes verticais, setores primários, extrativistas, commodities e máquinas de caixa da economia real (Capítulos 7 a 46); e (3) o Dicionário, a Bibliografia e os Índices Gerais Unificados da Coleção.',
+      'Volume de fechamento da coleção IGNIÇÃO, reunindo três acervos essenciais e sem excessos: (1) a Economia da Inovação e seus Atores (Universidades/ICTs, Governo/Fomento, Corporações/CVC, Venture Studios e toda a escada do Capital de Risco), a Geografia Mundial da Inovação por Continente (América do Norte, Europa, Ásia-Pacífico, Oriente Médio, África e América Latina), as 5 vantagens competitivas estruturais do Brasil e a radiografia dos 15 principais Hubs de Inovação Brasileiros, seguidos pelo quadro macroeconômico, autarquias reguladoras (BACEN, CVM, SUSEP, ANVISA, ANS, ANATEL, ANEEL, ANP), CADE/Antitruste e Políticas Públicas (Capítulos 1 a 6); (2) os 42 Playbooks Setoriais completos cobrindo todas as grandes verticais, setores primários, extrativistas, commodities e máquinas de caixa da economia real (Capítulos 7 a 48); e (3) o Dicionário, a Bibliografia e os Índices Gerais Unificados da Coleção.',
     blocks: [
       {
         h1: 'ECONOMIA DA INOVAÇÃO, GEOGRAFIA MUNDIAL DE HUBS, MACROECONOMIA E REGULAÇÃO (CAPÍTULOS 1 A 6)',
@@ -1722,12 +1729,13 @@ const VOLUMES_SPEC = [
         ],
       },
       {
-        h1: 'CLUSTER III — LOGÍSTICA, MOBILIDADE, IMOBILIÁRIO, SEGURANÇA/FACILITIES, TELECOM/DATA CENTERS E AEROESPACIAL (CAPÍTULOS 22 A 27)',
-        tocGroup: 'Cluster III — Logística, Mobilidade, Imobiliário, Segurança/Facilities, Telecom/Data Centers e Aeroespacial (Capítulos 22 a 27)',
+        h1: 'CLUSTER III — LOGÍSTICA, MOBILIDADE, CONSÓRCIOS/RENTAL/AFTERMARKET, IMOBILIÁRIO, SEGURANÇA/FACILITIES, TELECOM/DATA CENTERS E AEROESPACIAL (CAPÍTULOS 22 A 28)',
+        tocGroup: 'Cluster III — Logística, Mobilidade, Consórcios/Rental/Aftermarket, Imobiliário, Segurança/Facilities, Telecom/Data Centers e Aeroespacial (Capítulos 22 a 28)',
         intro: DOMAIN_INTROS.V10_CLUSTER_3,
         items: [
           { type: 'chapter', key: 'DQ' },
           { type: 'chapter', key: 'V_MOBITECH' },
+          { type: 'chapter', key: 'V_CONSORCIO_RENTAL_AUTO' },
           { type: 'chapter', key: 'DO' },
           { type: 'chapter', key: 'V_SECURITY_FACILITIES' },
           { type: 'chapter', key: 'V_TELECOM_DATACENTER' },
@@ -1735,19 +1743,20 @@ const VOLUMES_SPEC = [
         ],
       },
       {
-        h1: 'CLUSTER IV — SAÚDE, EDUCAÇÃO, GOVERNO E SETOR JURÍDICO (CAPÍTULOS 28 A 31)',
-        tocGroup: 'Cluster IV — Saúde, Educação, Governo e Setor Jurídico (Capítulos 28 a 31)',
+        h1: 'CLUSTER IV — SAÚDE DIGITAL E BIOTECH, SAÚDE FÍSICA PRIVADA (CLÍNICAS, ODONTO, ESTÉTICA, DIAGNÓSTICO, FARMA E OPME), EDUCAÇÃO, GOVERNO E SETOR JURÍDICO (CAPÍTULOS 29 A 33)',
+        tocGroup: 'Cluster IV — Saúde Digital e Biotech, Saúde Física Privada (Clínicas, Odonto, Estética, Diagnóstico, Farma e OPME), Educação, Governo e Setor Jurídico (Capítulos 29 a 33)',
         intro: DOMAIN_INTROS.V10_CLUSTER_4,
         items: [
           { type: 'chapter', key: 'CM' },
+          { type: 'chapter', key: 'V_CLINICAS_ODONTO_FARMA_OPME' },
           { type: 'chapter', key: 'DM' },
           { type: 'chapter', key: 'DK' },
           { type: 'chapter', key: 'DP' },
         ],
       },
       {
-        h1: 'CLUSTER V — VAREJO, ALIMENTAÇÃO, BENS DE CONSUMO (D2C), TURISMO, PET, LONGEVIDADE E SETOR FUNERÁRIO/ASSISTENCIAL (CAPÍTULOS 32 A 36)',
-        tocGroup: 'Cluster V — Varejo, Alimentação, Bens de Consumo (D2C), Turismo, Pet, Longevidade e Setor Funerário/Assistencial (Capítulos 32 a 36)',
+        h1: 'CLUSTER V — VAREJO, ALIMENTAÇÃO, BENS DE CONSUMO (D2C), TURISMO, PET, LONGEVIDADE E SETOR FUNERÁRIO/ASSISTENCIAL (CAPÍTULOS 34 A 38)',
+        tocGroup: 'Cluster V — Varejo, Alimentação, Bens de Consumo (D2C), Turismo, Pet, Longevidade e Setor Funerário/Assistencial (Capítulos 34 a 38)',
         intro: DOMAIN_INTROS.V10_CLUSTER_5,
         items: [
           { type: 'chapter', key: 'V_RETAILTECH' },
@@ -1758,8 +1767,8 @@ const VOLUMES_SPEC = [
         ],
       },
       {
-        h1: 'CLUSTER VI — SOFTWARE CORPORATIVO (SAAS), SERVIÇOS B2B TECH-ENABLED, IA, CIBERSEGURANÇA, DEVTOOLS, RH, MARKETING, CREATOR ECONOMY E GAMES (CAPÍTULOS 37 A 46)',
-        tocGroup: 'Cluster VI — Software Corporativo (SaaS), Serviços B2B Tech-Enabled, IA, Cibersegurança, DevTools, RH, Marketing, Creator Economy e Games (Capítulos 37 a 46)',
+        h1: 'CLUSTER VI — SOFTWARE CORPORATIVO (SAAS), SERVIÇOS B2B TECH-ENABLED, IA, CIBERSEGURANÇA, DEVTOOLS, RH, MARKETING, CREATOR ECONOMY E GAMES (CAPÍTULOS 39 A 48)',
+        tocGroup: 'Cluster VI — Software Corporativo (SaaS), Serviços B2B Tech-Enabled, IA, Cibersegurança, DevTools, RH, Marketing, Creator Economy e Games (Capítulos 39 a 48)',
         intro: DOMAIN_INTROS.V10_CLUSTER_6,
         items: [
           { type: 'chapter', key: 'V_HORIZONTAL_SAAS' },
@@ -1836,7 +1845,7 @@ graph LR
     end
     subgraph J3["Ciclo Longo e Setores"]
         V9["<b>Vol. 9 — Maturidade, Exit e Family Office</b><br/>Fases 19 e 20 · Board, Crise, M&A, IPO e Cash Cow"]
-        V10["<b>Vol. 10 — Economia da Inovação e 40 Verticais</b><br/>Hubs Globais, Regulação, 40 Setores e Dicionário"]
+        V10["<b>Vol. 10 — Economia da Inovação e 42 Verticais</b><br/>Hubs Globais, Regulação, 42 Setores e Dicionário"]
         V8 --> V9
     end
     V10 -. "Consulta Setorial e Dicionário" .-> J1
@@ -1861,7 +1870,11 @@ A coleção está organizada em **10 volumes focais**:
 - **Volume 7 — Produto, Engenharia, Dados, IA e Operações:** Fase 17 + 11 Capítulos de discovery contínuo, gestão de engenharia, dívida técnica, IA na engenharia de software, AI Ops, design organizacional, gestão do conhecimento e excelência operacional.
 - **Volume 8 — Blindagem Jurídica, Societária, LGPD e Segurança:** Fase 18 + 14 Capítulos de Marco Legal das Startups, responsabilidade dos sócios, propriedade intelectual/INPI, non-compete, contratos, direito do trabalho, CDC, contencioso, LGPD, regulação de IA, compliance, prevenção a fraudes e SOC 2 / ISO 27001.
 - **Volume 9 — Maturidade, Governança, Crise, Exit e Family Office:** Fases 19 e 20 + 23 Capítulos de Conselho de Administração (Board), empresas familiares, conflitos societários, internacionalização, câmbio/tesouraria, gestão de crise, layoffs, recuperação judicial, M&A buy-side, Search Funds, Spin-offs e Carve-outs, Liquidez Secundária (Secondaries), IPO, tributação de exit, transição pós-M&A, post-mortems, second-time founders e a Empresa *Cash Cow* (dividendos vitalícios) + Holdings Patrimoniais, Offshores e *Family Office* + Epílogo.
-- **Volume 10 — Economia da Inovação, Hubs Globais e Playbooks das 40 Verticais:** 46 Capítulos cobrindo a Economia da Inovação e seus Atores, a Geografia Mundial de Hubs por Continente e os 15 Polos Brasileiros, Ciclos Macroeconômicos, Autarquias Reguladoras, CADE, Políticas Públicas e os **40 Playbooks Setoriais** da economia real (de Fintech, Crédito, Insurtech, Wealthtech, Agritech, Pecuária/PecTech/Aquicultura, Trading de Commodities/Barter/Silos/Arco Norte, Biocombustíveis/Bioinsumos/Irrigação/Bioeconomia Amazônica, Infratech, Energytech, Cleantech, Resíduos/Biometano/Celulose, Miningtech e Indústria 4.0 até Hardware, Logtech, Mobitech, Proptech, Segurança Privada/Portaria Remota/Facilities, Telecom/ISPs/Data Centers de IA, Aerospace, Biotech/Healthtech, Edtech, Govtech, Legaltech, Retailtech, Foodtech, D2C/Wellness, Travel/Pet/Silver, Setor Funerário/Assistência Familiar/DeathTech, Horizontal/Vertical SaaS, Serviços Profissionais B2B/Consultorias/Nearshoring, AI-Native, Cybersecurity, DevTools, HRTech, Martech, Creator Economy e Gaming), seguidos pelo Dicionário e Índices Unificados da Coleção.`;
+- **Volume 10 — Economia da Inovação, Hubs Globais e Playbooks das 42 Verticais:** 48 Capítulos cobrindo a Economia da Inovação e seus Atores, a Geografia Mundial de Hubs por Continente e os 15 Polos Brasileiros, Ciclos Macroeconômicos, Autarquias Reguladoras, CADE, Políticas Públicas e os **42 Playbooks Setoriais** da economia real (de Fintech, Crédito, Insurtech, Wealthtech, Agritech, Pecuária/PecTech/Aquicultura, Trading de Commodities/Barter/Silos/Arco Norte, Biocombustíveis/Bioinsumos/Irrigação/Bioeconomia Amazônica, Infratech, Energytech, Cleantech, Resíduos/Biometano/Celulose, Miningtech e Indústria 4.0 até Hardware, Logtech, Mobitech, Consórcios/Rental/Aftermarket Automotivo, Proptech, Segurança Privada/Portaria Remota/Facilities, Telecom/ISPs/Data Centers de IA, Aerospace, Biotech/Healthtech, Saúde Física Privada/Clínicas/Odonto/Estética/Diagnóstico/Farma/OPME, Edtech, Govtech, Legaltech, Retailtech, Foodtech, D2C/Wellness, Travel/Pet/Silver, Setor Funerário/Assistência Familiar/DeathTech, Horizontal/Vertical SaaS, Serviços Profissionais B2B/Consultorias/Nearshoring, AI-Native, Cybersecurity, DevTools, HRTech, Martech, Creator Economy e Gaming), seguidos pelo Dicionário e Índices Unificados da Coleção.
+
+---
+
+${FAST_TRACKS_MD}`;
 
 // Mapas de resolução de links e referências
 const oldAnchorToNew = new Map(); // slugify(oldAnchor) -> { volNum, volSlug, heading, displayLabel }
@@ -2194,7 +2207,15 @@ for (let cat = 1; cat <= 19; cat++) {
   }
 }
 
-// Extrair entradas do Glossário Técnico (142 termos) e Lista de Abreviações para gerar o Glossário de cada Volume (1 a 9)
+// Enriquecer o Glossário Técnico e a Lista de Abreviações com os novos termos/siglas da v4.0 (42 verticais + ciclo de vida)
+rawSections.get('APÊNDICE — GLOSSÁRIO DE TERMOS TÉCNICOS').body = enrichRawGlossaryBody(
+  rawSections.get('APÊNDICE — GLOSSÁRIO DE TERMOS TÉCNICOS').body
+);
+rawSections.get('APÊNDICE — LISTA DE ABREVIAÇÕES').body = enrichRawAbbrevBody(
+  rawSections.get('APÊNDICE — LISTA DE ABREVIAÇÕES').body
+);
+
+// Extrair entradas do Glossário Técnico e Lista de Abreviações para gerar o Glossário de cada Volume (1 a 9)
 const rawGlossaryBody = rawSections.get('APÊNDICE — GLOSSÁRIO DE TERMOS TÉCNICOS').body;
 const glossaryEntries = [...rawGlossaryBody.matchAll(/^\*\*([^*]+?)\.\*\*\s+([^\n]+)/gm)].map((m) => {
   const head = m[1].trim();
@@ -2302,7 +2323,7 @@ for (const vSpec of VOLUMES_SPEC) {
               /\s*Para uma versão curada e mais curta,\s*ver também o \[\[[^\]]+\]\] mais adiante\./g,
               ''
             )
-            .replace(/\n+> \[!note\] Complementaridade[\s\S]*$/m, '');
+            .replace(/\n+> \[!note\] (?:Complementaridade|Bibliografia complementar curada)[\s\S]*$/m, '');
         } else if (item.key === 'APÊNDICE: ÍNDICE DE FRAMEWORKS') {
           refBody = refBody
             .replace(
@@ -2310,6 +2331,13 @@ for (const vSpec of VOLUMES_SPEC) {
               `## ${item.newHeading}\n\n> [!note] Onde encontrar cada framework\n> Na arquitetura autocontida da coleção IGNIÇÃO, todos os 164 frameworks abaixo estão detalhados passo a passo diretamente dentro das Fases e Capítulos dos **Volumes 1 a 9**. A coluna "Aparece em" aponta diretamente para a Fase ou Capítulo onde o framework é ensinado e aplicado.`
             )
             .replace(/,\s*(?:BG|CZ)\s*\|/g, ' |')
+            .replace(/^(\|\s*([^|]+?)\s*\|[^|\n]+\|[^|\n]+\|[^|\n]+\|\s*)BG(\s*\|)$/gm, (fullRow, prefix, fwName, suffix) => {
+              const cleanName = fwName.trim();
+              if (FRAMEWORKS_BG_CELL_FIXES[cleanName]) {
+                return `${prefix}${FRAMEWORKS_BG_CELL_FIXES[cleanName]}${suffix}`;
+              }
+              return fullRow;
+            })
             .replace(
               /Se você está começando, não se intimide com o tamanho do Ferramentário\.[\s\S]*$/,
               'Se você está começando, não se intimide com a extensão deste índice: cada volume da coleção já traz integrados em suas Fases e Capítulos exatamente os frameworks necessários para executar aquela etapa do início ao fim.'
@@ -2337,21 +2365,33 @@ for (const vSpec of VOLUMES_SPEC) {
           refBody = refBody
             .replace(/\. Apêndice Marca Pessoal/g, '')
             .replace(
+              /\bAp[êe]ndice Pivot\b/gi,
+              '[[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 16 — PIVOT: TIPOLOGIA, DECISÃO E EXECUÇÃO|Capítulo 16 — Pivot: Tipologia, Decisão e Execução (Vol. 4)]]'
+            )
+            .replace(
+              /\bAp[êe]ndice Bootstrap vs VC\b/gi,
+              '[[IGNICAO-Vol-1-Ideacao#CAPÍTULO 4 — BOOTSTRAP vs VENTURE CAPITAL: A ESCOLHA FUNDACIONAL|Capítulo 4 — Bootstrap vs Venture Capital (Vol. 1)]]'
+            )
+            .replace(
+              /BG\.5\.8-5\.10 \(Ishikawa, Pareto, FMEA\)/g,
+              'Framework: Ishikawa / Fishbone Diagram (Fase 3, Vol. 1), Framework: Pareto Analysis (Fase 3, Vol. 1) e Framework: FMEA (Fase 7, Vol. 3)'
+            )
+            .replace(
               /Apêndice sobre Envelhecimento \(abril 2026\)/g,
               '[[#DATA DE COMPILAÇÃO E NOTA SOBRE ENVELHECIMENTO|Data de Compilação e Nota sobre Envelhecimento (abril 2026)]]'
             )
             .replace(
               /Apêndice sobre Impacto e Ética|Apêndice sobre Ética e Impacto/g,
-              '[[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 9 — ÉTICA EMPREENDEDORA: ZONAS CINZENTAS, DECISÕES DIFÍCEIS E CONSEQUÊNCIAS REAIS|Capítulo 9 — Ética Empreendedora (Vol. 6)]] e [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 4 — IMPACTO, SUSTENTABILIDADE E SISTEMA B|Capítulo 4 — Impacto, Sustentabilidade e Sistema B (Vol. 9)]]'
+              '[[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 4 — ESG, IMPACT E GOVERNANÇA PARA STARTUP BRASILEIRA|Capítulo 4 — ESG, Impact e Governança (Vol. 9)]]'
             )
             .replace(
               /- \*\*Impacto \(negócio de impacto social\)\*\*: Apêndice dedicado/g,
-              '- **Impacto (negócio de impacto social)**: [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 4 — IMPACTO, SUSTENTABILIDADE E SISTEMA B|Capítulo 4 — Impacto, Sustentabilidade e Sistema B (Vol. 9)]]'
+              '- **Impacto (negócio de impacto social)**: [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 4 — ESG, IMPACT E GOVERNANÇA PARA STARTUP BRASILEIRA|Capítulo 4 — ESG, Impact e Governança (Vol. 9)]]'
             )
             .replace(
               /- \*\*Marca pessoal do fundador\*\*: Apêndice dedicado/g,
-              '- **Marca pessoal do fundador**: [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 8 — COMUNICAÇÃO PÚBLICA DO FUNDADOR: NARRATIVA, IMPRENSA E PORTA-VOZ|Capítulo 8 — Comunicação Pública do Fundador (Vol. 6)]]'
-            );
+              '- **Marca pessoal do fundador**: [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 10 — MARCA PESSOAL DO FUNDADOR: DISTRIBUIÇÃO, AUTORIDADE E CUSTO DE REPUTAÇÃO|Capítulo 10 — Marca Pessoal do Fundador (Vol. 6)]]'
+            ) + `\n\n${EXTRA_INDEX_REMISSIVO_SECTION.trim()}`;
         }
         refBody = refBody
           .replace(/^> \[!note\] Como usar ess[ea] ap[êe]ndice/gm, '> [!note] Como usar este índice')
@@ -2624,7 +2664,7 @@ function normalizeProseSegment(seg, currentVolNum) {
 
   // 3) Menções a "Apêndice XX — Título" ou "Apêndice XX" (com ou sem acento, onde XX é capítulo, ou K -> FG)
   s = s.replace(
-    /\bAp[êe]ndice\s+([A-Z]{1,2})(?:\s*([—–-])\s*([^\n:.,;)]+))?/g,
+    /\bAp[êe]ndice\s+([A-Z]{1,2})\b(?:\s*([—–-])\s*([^\n:.,;)]+))?/g,
     (full, rawCode, sep, restTitle) => {
       const code = rawCode.toUpperCase() === 'K' ? 'FG' : rawCode.toUpperCase();
       const ch = oldCodeToChapterInfo.get(code);
@@ -2740,9 +2780,37 @@ function normalizeLineOutsideWikilinks(line, currentVolNum) {
     .join('');
 }
 
-function resolveAnchorTarget(rawAnchor, rawAlias, currentVolNum) {
+function resolveAnchorTarget(rawAnchor, rawAlias, currentVolNum, explicitVolSlug = '') {
   const cleanAnchor = rawAnchor.trim().replace(/^#/, '');
   const s = slugify(cleanAnchor);
+
+  // 0) Se o wikilink já trazia um volume explícito (ex: IGNICAO-Vol-4-Tracao-e-PMF#...), procurar primeiro naquele volume!
+  if (explicitVolSlug) {
+    const targetSpec = VOLUMES_SPEC.find((v) => v.slug === explicitVolSlug);
+    if (targetSpec) {
+      const targetMap = perVolHeadingIndex.get(targetSpec.num);
+      if (targetMap) {
+        if (targetMap.has(s)) {
+          return {
+            volNum: targetSpec.num,
+            volSlug: targetSpec.slug,
+            heading: targetMap.get(s),
+          };
+        }
+        if (s.length >= 6) {
+          for (const [kSlug, hText] of targetMap.entries()) {
+            if (kSlug.length >= 6 && (kSlug.startsWith(s) || s.startsWith(kSlug))) {
+              return {
+                volNum: targetSpec.num,
+                volSlug: targetSpec.slug,
+                heading: hText,
+              };
+            }
+          }
+        }
+      }
+    }
+  }
 
   // 0a) Se o link era uma referência de "Ver também" com rótulo legado de fase (ex: "Fase 9 — Go-to-Market"),
   //     redirecionar para a Fase canônica correspondente:
@@ -2836,6 +2904,23 @@ function resolveAnchorTarget(rawAnchor, rawAlias, currentVolNum) {
     const ch = oldCodeToChapterInfo.get(mAp[1].toUpperCase());
     return { volNum: ch.volNum, volSlug: ch.volSlug, heading: ch.heading };
   }
+  const mCap = cleanAnchor.match(/^CAP[ÍI]TULO\s+(\d+)\b/i);
+  if (mCap) {
+    const capPrefix = `capitulo-${mCap[1]}-`;
+    const targetVol = explicitVolSlug
+      ? VOLUMES_SPEC.find((v) => v.slug === explicitVolSlug)
+      : VOLUMES_SPEC[currentVolNum - 1];
+    if (targetVol) {
+      const tMap = perVolHeadingIndex.get(targetVol.num);
+      if (tMap) {
+        for (const [kSlug, hText] of tMap.entries()) {
+          if (kSlug.startsWith(capPrefix)) {
+            return { volNum: targetVol.num, volSlug: targetVol.slug, heading: hText };
+          }
+        }
+      }
+    }
+  }
   const mFase = cleanAnchor.match(/^FASE\s+(\d+B?)\b/i);
   if (mFase) {
     const fKey = `FASE_${mFase[1].toUpperCase()}`;
@@ -2851,10 +2936,12 @@ function resolveAnchorTarget(rawAnchor, rawAlias, currentVolNum) {
     return { volNum: g.volNum, volSlug: g.volSlug, heading: g.exactHeading };
   }
 
-  // 5) Busca por prefixo no índice global:
-  for (const [kSlug, g] of globalHeadingIndex.entries()) {
-    if (kSlug.startsWith(s) || s.startsWith(kSlug)) {
-      return { volNum: g.volNum, volSlug: g.volSlug, heading: g.exactHeading };
+  // 5) Busca por prefixo no índice global (apenas para slugs >= 6 caracteres para evitar falsos positivos com "### A".."### Z"):
+  if (s.length >= 6) {
+    for (const [kSlug, g] of globalHeadingIndex.entries()) {
+      if (kSlug.length >= 6 && (kSlug.startsWith(s) || s.startsWith(kSlug))) {
+        return { volNum: g.volNum, volSlug: g.volSlug, heading: g.exactHeading };
+      }
     }
   }
 
@@ -2900,9 +2987,10 @@ for (const [volNum, { spec, md }] of rawVolumeDocs.entries()) {
       const rawAlias = (parts[1] || parts[0]).trim();
 
       const hashIdx = rawTarget.indexOf('#');
+      const explicitVolSlug = hashIdx > 0 ? rawTarget.slice(0, hashIdx).trim() : '';
       const anchorPart = hashIdx >= 0 ? rawTarget.slice(hashIdx + 1) : rawTarget;
 
-      const resolved = resolveAnchorTarget(anchorPart, rawAlias, volNum);
+      const resolved = resolveAnchorTarget(anchorPart, rawAlias, volNum, explicitVolSlug);
       if (!resolved) {
         unresolvedCount += 1;
         console.warn(`[WARN Vol.${volNum}] Wikilink não resolvido: ${full}`);

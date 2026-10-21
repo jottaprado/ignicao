@@ -45,7 +45,7 @@ graph LR
     end
     subgraph J3["Ciclo Longo e Setores"]
         V9["<b>Vol. 9 — Maturidade, Exit e Family Office</b><br/>Fases 19 e 20 · Board, Crise, M&A, IPO e Cash Cow"]
-        V10["<b>Vol. 10 — Economia da Inovação e 40 Verticais</b><br/>Hubs Globais, Regulação, 40 Setores e Dicionário"]
+        V10["<b>Vol. 10 — Economia da Inovação e 42 Verticais</b><br/>Hubs Globais, Regulação, 42 Setores e Dicionário"]
         V8 --> V9
     end
     V10 -. "Consulta Setorial e Dicionário" .-> J1
@@ -5447,9 +5447,9 @@ O próximo passo está no **Volume 4 — Tração, Go-to-Market e Product-Market
 
 Por que empreendedores inteligentes constroem produtos que ninguém compra? Porque tratam validação como um ritual burocrático para confirmar o que já decidiram fazer. Estes quatro capítulos fornecem o **aparelho epistemológico e de governança** das Fases 7 a 10:
 
-- **[[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#C|Capítulo 1 — A Abordagem Científica ao Empreendedorismo (Vol. 10)]]:** Os experimentos de Camuffo, Gambardella e Spina (Bocconi/MIT) mostrando como fundadores que operam como cientistas geram mais receita, pivotam com mais precisão e desperdiçam menos capital (inclui a bibliografia acadêmica comentada).
-- **[[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#C|Capítulo 2 — Sistema de Níveis de Maturidade por Dimensão (Vol. 10)]]:** Como avaliar se Problema, Persona, Proposta de Valor, Canal e Modelo estão no nível de evidência exigido ou se uma dimensão atrasada vai derrubar as demais.
-- **[[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#C|Capítulo 3 — Gates de Evidência (Vol. 10)]]:** As travas objetivas que impedem o avanço prematuro para o código sem evidência comportamental sólida.
+- **[[#CAPÍTULO 1 — ABORDAGEM CIENTÍFICA vs LEAN STARTUP: QUANDO USAR CADA UMA|Capítulo 1 — A Abordagem Científica ao Empreendedorismo]]:** Os experimentos de Camuffo, Gambardella e Spina (Bocconi/MIT) mostrando como fundadores que operam como cientistas geram mais receita, pivotam com mais precisão e desperdiçam menos capital (inclui a bibliografia acadêmica comentada).
+- **[[#CAPÍTULO 2 — FRAMEWORK DE DECISÃO POR GATES (PROBLEM CORE + SCALE LEVERS + EXPLORATORY)|Capítulo 2 — Sistema de Níveis de Maturidade por Dimensão]]:** Como avaliar se Problema, Persona, Proposta de Valor, Canal e Modelo estão no nível de evidência exigido ou se uma dimensão atrasada vai derrubar as demais.
+- **[[#CAPÍTULO 3 — TRL E CRL: MATURIDADE TECNOLÓGICA E DE MERCADO|Capítulo 3 — Gates de Evidência]]:** As travas objetivas que impedem o avanço prematuro para o código sem evidência comportamental sólida.
 - **[[#CAPÍTULO 4 — COMO FECHAR UMA FASE: COMMITTED NEXT MOVE E SINAIS OBSERVÁVEIS|Capítulo 4 — Como Fechar uma Fase (Committed Next Move)]]:** O protocolo operacional de fechamento de cada fase — como definir o próximo passo comprometido e os quatro formatos de sinais observáveis.
 
 ---
@@ -5958,9 +5958,9 @@ A forma como você experimenta e prototipa nas Fases 7 a 10 muda radicalmente co
 Estes seis capítulos fecham o Volume 3 entregando os playbooks arquiteturais de cada modelo:
 
 - **[[#CAPÍTULO 5 — IDEA → WEDGE → SCALE: O FRAMEWORK ANTLER COMO LENTE TRANSVERSAL|Capítulo 5 — Idea → Wedge → Scale]]:** Como escolher uma cunha (*wedge*) dolorosa, estreita e urgente para entrar no mercado sem precisar construir a plataforma inteira no dia um.
-- **[[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#C|Capítulo 6 — Marketplaces e Negócios de Dois Lados (Vol. 10)]]:** Como resolver o dilema do ovo e da galinha (*Cold Start Problem*, incluído passo a passo neste capítulo), restringir geografia/categoria, medir *take rate* e evitar desintermediação (*leakage*).
-- **[[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#C|Capítulo 7 — Efeitos de Rede e Plataformas (Vol. 10)]]:** Como desenhar efeitos de rede diretos, indiretos e de dados que aumentam o valor marginal do produto a cada novo usuário.
-- **[[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#C|Capítulo 8 — B2B2C, White-Label e Modelos Híbridos (Vol. 10)]]:** Como usar empresas intermediárias (contabilidades, bancos, RHs, associações) para distribuir seu produto a milhares de clientes finais com CAC reduzido.
+- **[[#CAPÍTULO 6 — MARKETPLACE DYNAMICS E RISCO DE PLATAFORMA|Capítulo 6 — Marketplaces e Negócios de Dois Lados]]:** Como resolver o dilema do ovo e da galinha (*Cold Start Problem*, incluído passo a passo neste capítulo), restringir geografia/categoria, medir *take rate* e evitar desintermediação (*leakage*).
+- **[[#CAPÍTULO 7 — PLATAFORMA VS PRODUTO: QUANDO CONSTRUIR PLATAFORMA E QUANDO NÃO|Capítulo 7 — Efeitos de Rede e Plataformas]]:** Como desenhar efeitos de rede diretos, indiretos e de dados que aumentam o valor marginal do produto a cada novo usuário.
+- **[[#CAPÍTULO 8 — B2B2C: QUANDO SUA EMPRESA VENDE PARA OUTRA EMPRESA QUE VENDE PARA CONSUMIDOR|Capítulo 8 — B2B2C, White-Label e Modelos Híbridos]]:** Como usar empresas intermediárias (contabilidades, bancos, RHs, associações) para distribuir seu produto a milhares de clientes finais com CAC reduzido.
 - **[[#CAPÍTULO 9 — OPEN SOURCE COMO ESTRATÉGIA|Capítulo 9 — Open Source como Estratégia de Negócio (COSS)]]:** Como combinar adoção *bottom-up* por desenvolvedores, *API Strategy & DevRel* (incluído passo a passo neste capítulo) e monetização *enterprise* (*open core* / nuvem gerenciada).
 - **[[#CAPÍTULO 10 — BOOTSTRAPPING, SERVIÇOS PRODUTIZADOS (PRODUCTIZED SERVICES) E A TRANSIÇÃO SERVICE-TO-PRODUCT|Capítulo 10 — Bootstrapping, Productized Services e Transição Service-to-Product]]:** O manual prático para quem começa sem capital externo — como vender consultoria ou serviços B2B, padronizar em *Productized Services* de alta margem e usar o lucro líquido para construir um produto escalável mantendo 100% do *cap table*.
 
@@ -6845,7 +6845,7 @@ Não tenha vergonha da Etapa 3. Em mercados brasileiros complexos (contabilidade
 # GLOSSÁRIO E SIGLAS DESTE VOLUME
 
 > [!abstract] Vocabulário técnico e siglas deste volume
-> Para garantir que este **Volume 3** funcione de forma 100% independente e autocontida sem exigir consulta a outro livro, esta seção reúne as definições dos **72 termos técnicos e de negócios** e das **40 siglas e abreviações** utilizados ao longo das Fases e Capítulos deste volume.
+> Para garantir que este **Volume 3** funcione de forma 100% independente e autocontida sem exigir consulta a outro livro, esta seção reúne as definições dos **74 termos técnicos e de negócios** e das **45 siglas e abreviações** utilizados ao longo das Fases e Capítulos deste volume.
 
 ---
 
@@ -6860,6 +6860,8 @@ Não tenha vergonha da Etapa 3. Em mercados brasileiros complexos (contabilidade
 **ARR (Annual Recurring Revenue).** Receita anual recorrente. Soma de todos os contratos ativos anualizados. Principal métrica de tamanho de empresa SaaS. ARR = MRR × 12.
 
 **Assumption Mapping.** Técnica de mapeamento e priorização de hipóteses por importância e nível de evidência. Originada por David Bland (2019). Ver Framework: Assumption Mapping (David J. Bland, 2019) (Fase 7).
+
+**BaaS (Banking-as-a-Service).** Infraestrutura regulatória e tecnológica que permite a empresas não-financeiras (varejistas, ERPs, plataformas) oferecerem contas digitais, PIX, cartões e crédito embutidos em seus próprios produtos (*Embedded Finance*) utilizando a licença de uma Instituição de Pagamento, SCD ou banco parceiro.
 
 **BaaS (Banking as a Service).** Infraestrutura bancária fornecida como serviço por empresa licenciada. Permite fintechs operarem sem licença bancária própria, integrando serviços financeiros via API.
 
@@ -6952,6 +6954,8 @@ Não tenha vergonha da Etapa 3. Em mercados brasileiros complexos (contabilidade
 **Onboarding.** Processo de entrada e ativação de um novo usuário ou colaborador. Onboarding de cliente: caminho do cadastro até o "aha moment". Onboarding de funcionário: integração nas primeiras 4-12 semanas.
 
 **Outbound.** Motion de vendas onde a empresa ativamente prospecta clientes, em vez de esperar inbound. Inclui cold outreach, SDRs e prospecção ativa.
+
+**Productized Service (Serviço Produtizado).** Serviço B2B ou B2C empacotado como se fosse um produto de software: escopo fechado, entregável padronizado, preço fixo mensal recorrente, SLA definido e procedimentos operacionais padrão (SOPs), servindo como ponte de *bootstrapping* para financiar a criação de um SaaS próprio.
 
 **P&L (Profit and Loss).** Demonstração de resultados. Mostra receita, custos, despesas e lucro/prejuízo no período.
 
@@ -7080,3 +7084,13 @@ Não tenha vergonha da Etapa 3. Em mercados brasileiros complexos (contabilidade
 **VC:** Venture Capital. *Captação.*
 
 **VPC:** Value Proposition Canvas. *Framework de produto.*
+
+**ANVISA:** Agência Nacional de Vigilância Sanitária. *Regulação / Saúde, Alimentos, Cosméticos e Agro.*
+
+**BaaS:** Banking-as-a-Service. *Fintech / Infraestrutura Financeira.*
+
+**FINEP:** Financiadora de Estudos e Projetos. *Fomento Não-Diluitivo / Inovação.*
+
+**INPI:** Instituto Nacional da Propriedade Industrial. *Propriedade Intelectual / Patentes e Marcas.*
+
+**TRL / CRL:** Technology Readiness Level / Customer Readiness Level. *Deep Tech / Validação.*

@@ -4,14 +4,14 @@
 
 ### O manual operacional do empreendedor brasileiro
 
-*Do pré-zero ao exit e Family Office · 10 volumes autocontidos · 21 fases · 178 capítulos · 974 mil palavras.*
+*Do pré-zero ao exit e Family Office · 10 volumes autocontidos · 21 fases · 180 capítulos · 995 mil palavras.*
 
 [![Licença CC BY-NC-SA](https://img.shields.io/badge/licença-CC%20BY--NC--SA%204.0-orange.svg)](LICENSE.md)
 [![Versão](https://img.shields.io/badge/versão-4.0-blue.svg)](CHANGELOG.md)
 [![Idioma](https://img.shields.io/badge/idioma-Português%20BR-green.svg)](#)
 [![PRs Bem-vindos](https://img.shields.io/badge/PRs-bem--vindos-brightgreen.svg)](CONTRIBUTING.md)
 
-[**→ Os 10 Volumes Autocontidos**](#os-10-volumes-autocontidos) · [**Por onde começo?**](#por-onde-começo) · [**As 21 Fases**](#as-21-fases) · [**Capítulos por tema**](#capítulos-por-tema) · [**Contribuir**](CONTRIBUTING.md)
+[**→ Os 10 Volumes Autocontidos**](#os-10-volumes-autocontidos) · [**Por onde começo?**](#por-onde-começo) · [**Roteiros de Leitura (Fast-Tracks)**](#roteiros-de-leitura-por-perfil-fast-tracks) · [**As 21 Fases**](#as-21-fases) · [**Capítulos por tema**](#capítulos-por-tema) · [**Contribuir**](CONTRIBUTING.md)
 
 </div>
 
@@ -21,21 +21,21 @@
 
 Livros de empreendedorismo ensinam como fundadores de Silicon Valley pensam. Este manual ensina como **fundar, escalar e sair** dentro do contexto brasileiro — com regulação, capital, cultura e referências daqui.
 
-A partir da **v4.0**, o IGNIÇÃO foi desenhado sob o princípio da **autocontenção total**: cada um dos **10 volumes** (~60k a ~113k palavras, equivalentes a ~240–450 páginas impressas por livro) traz **dentro das próprias Fases e Capítulos** todos os **Frameworks (com passo a passo)**, **Canvases Visuais**, **Templates Copiáveis**, **Casos Brasileiros Preenchidos**, **Tabelas de Métricas**, **Leituras Recomendadas** e um **Glossário e Siglas próprio do volume** daquele estágio. Há **zero links cruzados de ferramentas** entre os Volumes 1 a 9: você nunca precisa abrir um segundo livro para aplicar qualquer framework, canvas ou template citado no volume em que está.
+A partir da **v4.0**, o IGNIÇÃO foi desenhado sob o princípio da **autocontenção total**: cada um dos **10 volumes** (~60k a ~175k palavras, equivalentes a ~240–700 páginas impressas por livro) traz **dentro das próprias Fases e Capítulos** todos os **Frameworks (com passo a passo)**, **Canvases Visuais**, **Templates Copiáveis**, **Casos Brasileiros Preenchidos**, **Tabelas de Métricas**, **Leituras Recomendadas** e um **Glossário e Siglas próprio do volume** daquele estágio. Há **zero links cruzados de ferramentas** entre os Volumes 1 a 9: você nunca precisa abrir um segundo livro para aplicar qualquer framework, canvas ou template citado no volume em que está.
 
-**Quem não tem ideia ainda** começa pelo Volume 1 (Ideação). **Quem quer entrevistar clientes e mapear mercado** abre o Volume 2 (Descoberta e Mercado). **Quem vai rodar experimentos, construir o protótipo ou começar por serviços produtizados (*bootstrapping*)** abre o Volume 3 (Experimentos e Prototipagem). **Quem já lançou o MVP e busca Product-Market Fit** abre o Volume 4 (Tração e PMF). **Quem vai captar rodada, estruturar FP&A ou resolver caixa** abre o Volume 5 (Finanças e Captação). **Quem está escalando vendas enterprise, franquias, executivos e cultura** abre o Volume 6 (Receita e Pessoas). **Quem é CTO/CPO/COO escalando produto, engenharia, IA e operações** abre o Volume 7 (Produto, Engenharia e Operações). **Quem precisa blindar societário, contratos, trabalhista, LGPD e segurança** abre o Volume 8 (Jurídico, LGPD e Segurança). **Quem está no ciclo longo, board, crise, spin-offs, preparando o exit ou estruturando uma empresa pagadora de dividendos (*Cash Cow*) e *Family Office*** abre o Volume 9 (Maturidade, Exit e Family Office). **Quem quer dominar a Economia da Inovação, escolher seu Hub global/brasileiro ou executar o playbook da sua vertical (40 setores da economia real)** abre o Volume 10 (Economia da Inovação, Hubs Globais e Playbooks das 40 Verticais).
+**Quem não tem ideia ainda** começa pelo Volume 1 (Ideação). **Quem quer entrevistar clientes e mapear mercado** abre o Volume 2 (Descoberta e Mercado). **Quem vai rodar experimentos, construir o protótipo ou começar por serviços produtizados (*bootstrapping*)** abre o Volume 3 (Experimentos e Prototipagem). **Quem já lançou o MVP e busca Product-Market Fit** abre o Volume 4 (Tração e PMF). **Quem vai captar rodada, estruturar FP&A ou resolver caixa** abre o Volume 5 (Finanças e Captação). **Quem está escalando vendas enterprise, franquias, executivos e cultura** abre o Volume 6 (Receita e Pessoas). **Quem é CTO/CPO/COO escalando produto, engenharia, IA e operações** abre o Volume 7 (Produto, Engenharia e Operações). **Quem precisa blindar societário, contratos, trabalhista, LGPD e segurança** abre o Volume 8 (Jurídico, LGPD e Segurança). **Quem está no ciclo longo, board, crise, spin-offs, preparando o exit ou estruturando uma empresa pagadora de dividendos (*Cash Cow*) e *Family Office*** abre o Volume 9 (Maturidade, Exit e Family Office). **Quem quer dominar a Economia da Inovação, escolher seu Hub global/brasileiro ou executar o playbook da sua vertical (42 setores da economia real)** abre o Volume 10 (Economia da Inovação, Hubs Globais e Playbooks das 42 Verticais).
 
 O que está aqui:
 
 - **10 volumes 100% autocontidos** com introduções explicativas de domínio em todos os blocos temáticos e **Glossário e Siglas próprio ao final de cada volume (Volumes 1 a 9)**
 - **21 fases sequenciais** (`Fase 0` a `Fase 20`) com método, métricas, frameworks, canvases, templates e leituras integrados *in-place*
-- **178 capítulos temáticos** (`Capítulo 1` a `Capítulo N` dentro de cada volume) cobrindo finanças, contabilidade, comércio exterior, captação, GTM, vendas enterprise, franquias, pessoas, engenharia, operações, jurídico, compliance, IA, economia da inovação, geografia de hubs, 40 verticais da economia real (incluindo setores primários, pecuária, aquicultura, trading de commodities, biocombustíveis e bioeconomia), spin-offs, exit, *Cash Cow* e *Family Office*
+- **180 capítulos temáticos** (`Capítulo 1` a `Capítulo N` dentro de cada volume) cobrindo finanças, contabilidade, comércio exterior, captação, GTM, vendas enterprise, franquias, pessoas, engenharia, operações, jurídico, compliance, IA, economia da inovação, geografia de hubs, 42 verticais da economia real (incluindo setores primários, pecuária, aquicultura, trading de commodities, biocombustíveis, bioeconomia, consórcios/rental/aftermarket automotivo e redes de clínicas/odonto/farma/OPME), spin-offs, exit, *Cash Cow* e *Family Office*
 - **164 frameworks operacionais únicos** (227 instâncias embutidas nos Volumes 1 a 9, garantindo 0 dependências cruzadas entre volumes)
 - **20 canvases visuais únicos** (42 instâncias embutidas nas 21 fases com teoria, exemplo brasileiro preenchido e armadilhas: BMC, Lean, VPC, Strategy Canvas, Empathy Map, Pirate/AARRR, Wardley, Story Tree, Org Chart Evolution, Cap Table Waterfall e outros)
 - **39 templates e estudos de caso preenchidos únicos** (52 instâncias embutidas no ponto de uso: DII, entrevistas, PR/FAQ, pitch deck, board deck, data room, term sheet anotado, JDs, post-mortem técnico, OKR cascade e outros)
-- **128 diagramas** Mermaid — renderizam direto no GitHub, Obsidian e EPUB
-- **Casos brasileiros** com análise honesta: Nubank, iFood, Stone, Hotmart, Natura, Magazine Luiza, Wildlife, Peixe Urbano, 99, Loggi, Olist, QuintoAndar, Wellhub, Tractian, Totvs, Embraer/Eve, Unico, Creditas, Solfácil e dezenas de outros
-- **Glossário e Siglas em cada volume (Vols 1 a 9)** + Dicionário Geral Unificado (142 termos técnicos, Lista de Abreviações, Bibliografia Geral e Índices Remissivos da Coleção) no Volume 10
+- **131 diagramas** Mermaid — renderizam direto no GitHub, Obsidian e EPUB
+- **Casos brasileiros** com análise honesta: Nubank, iFood, Stone, Hotmart, Natura, Magazine Luiza, Wildlife, Peixe Urbano, 99, Loggi, Olist, QuintoAndar, Wellhub, Tractian, Totvs, Embraer/Eve, Unico, Creditas, Solfácil, Vamos, Rede D'Or, Raízen, Inpasa e dezenas de outros
+- **Glossário e Siglas em cada volume (Vols 1 a 9)** + Dicionário Geral Unificado (180+ termos técnicos, Lista de Abreviações com 78 siglas, Bibliografia Geral e Índices Remissivos da Coleção) no Volume 10
 
 ---
 
@@ -43,7 +43,7 @@ O que está aqui:
 
 | Volume | Escopo | Fases e Capítulos (100% Autocontidos) | Palavras | Ler em Markdown | Baixar EPUB |
 |---|---|---|---|---|---|
-| **Vol. 1 — Ideação** | *Do Pré-Zero à Tese de Negócio:* preparação do fundador, cofundadores, geração e articulação da ideia (DII), teoria causal do negócio (Story Tree), saúde mental, decisão, comunicação e IA pessoal | **Fases 0 a 3** + **Capítulos 1 a 13** (+ 41 ferramentas embutidas e Glossário do Volume) | ~113k | [`IGNICAO-Vol-1-Ideacao.md`](volumes/IGNICAO-Vol-1-Ideacao.md) | [`IGNICAO-Vol-1-Ideacao.epub`](build/IGNICAO-Vol-1-Ideacao.epub) |
+| **Vol. 1 — Ideação** | *Do Pré-Zero à Tese de Negócio:* preparação do fundador, cofundadores, geração e articulação da ideia (DII), teoria causal do negócio (Story Tree), saúde mental, decisão, comunicação e IA pessoal | **Fases 0 a 3** + **Capítulos 1 a 13** (+ 41 ferramentas embutidas e Glossário do Volume) | ~114k | [`IGNICAO-Vol-1-Ideacao.md`](volumes/IGNICAO-Vol-1-Ideacao.md) | [`IGNICAO-Vol-1-Ideacao.epub`](build/IGNICAO-Vol-1-Ideacao.epub) |
 | **Vol. 2 — Descoberta e Mercado** | *Entrevistas, Pesquisa com Usuários, Mercado e Posicionamento:* Mom Test, JTBD, personas, TAM/SAM/SOM, 5 Forças, posicionamento competitivo, psicologia do consumidor brasileiro e category design | **Fases 4 a 6** + **Capítulos 1 a 4** (+ 57 ferramentas embutidas e Glossário do Volume) | ~82k | [`IGNICAO-Vol-2-Descoberta-e-Mercado.md`](volumes/IGNICAO-Vol-2-Descoberta-e-Mercado.md) | [`IGNICAO-Vol-2-Descoberta-e-Mercado.epub`](build/IGNICAO-Vol-2-Descoberta-e-Mercado.epub) |
 | **Vol. 3 — Experimentos e Prototipagem** | *Hipóteses, Testes Científicos, Protótipos, Modelos de Negócio e Bootstrapping:* banco de hipóteses, falsificabilidade, pré-registro, smoke test, prototipagem, testes de usabilidade (SUS), dinâmicas de plataforma/marketplace/B2B2C e transição *Service-to-Product* (*Productized Services*) | **Fases 7 a 10** + **Capítulos 1 a 10** (+ 58 ferramentas embutidas e Glossário do Volume) | ~81k | [`IGNICAO-Vol-3-Experimentos-e-Prototipagem.md`](volumes/IGNICAO-Vol-3-Experimentos-e-Prototipagem.md) | [`IGNICAO-Vol-3-Experimentos-e-Prototipagem.epub`](build/IGNICAO-Vol-3-Experimentos-e-Prototipagem.epub) |
 | **Vol. 4 — Tração e PMF** | *Do MVP ao Product-Market Fit:* MVP no mercado, unit economics, diagnóstico de PMF, GTM até 1M ARR, canais de aquisição, vendas iniciais, pricing, recorrência, CS, CX, dados e produto AI-native | **Fases 11 a 13** + **Capítulos 1 a 16** (+ 40 ferramentas embutidas e Glossário do Volume) | ~103k | [`IGNICAO-Vol-4-Tracao-e-PMF.md`](volumes/IGNICAO-Vol-4-Tracao-e-PMF.md) | [`IGNICAO-Vol-4-Tracao-e-PMF.epub`](build/IGNICAO-Vol-4-Tracao-e-PMF.epub) |
@@ -52,7 +52,7 @@ O que está aqui:
 | **Vol. 7 — Produto, Engenharia e Operações** | *Arquitetura Técnica, Produto em Escala, IA, Design Organizacional e Processos:* descoberta contínua, gestão de engenharia, dívida técnica, IA na engenharia/AI Ops, topologia de squads, gestão do conhecimento e incidentes | **Fase 17** + **Capítulos 1 a 11** (+ 27 ferramentas embutidas e Glossário do Volume) | ~60k | [`IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes.md`](volumes/IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes.md) | [`IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes.epub`](build/IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes.epub) |
 | **Vol. 8 — Jurídico, LGPD e Segurança** | *Estruturação Societária, Propriedade Intelectual, Contratos, Trabalhista e Cibersegurança:* LTDA/SA, Marco Legal, proteção patrimonial, INPI, non-compete, contratos B2B, CLT/PJ, CDC, LGPD, IA e ISO 27001/SOC 2 | **Fase 18** + **Capítulos 1 a 14** (+ 8 ferramentas embutidas e Glossário do Volume) | ~64k | [`IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca.md`](volumes/IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca.md) | [`IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca.epub`](build/IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca.epub) |
 | **Vol. 9 — Maturidade, Exit e Family Office** | *Ciclo Longo, Governança, Internacionalização, Crise, Spin-offs, Saída, Cash Cow e Fortuna:* segunda curva, board, empresa familiar, expansão global, câmbio, turnaround, layoffs, recuperação judicial, M&A/roll-ups, Search Funds, Spin-offs/Carve-outs, Secondaries, IPO, tributação de exit, transição pós-M&A, post-mortems, Empresa *Cash Cow* (dividendos vitalícios), Holdings/Offshores/Family Office e Epílogo | **Fases 19 e 20** + **Capítulos 1 a 23** + **Epílogo** (+ 25 ferramentas embutidas e Glossário do Volume) | ~104k | [`IGNICAO-Vol-9-Maturidade-e-Exit.md`](volumes/IGNICAO-Vol-9-Maturidade-e-Exit.md) | [`IGNICAO-Vol-9-Maturidade-e-Exit.epub`](build/IGNICAO-Vol-9-Maturidade-e-Exit.epub) |
-| **Vol. 10 — Economia da Inovação, Hubs Globais e Playbooks das 40 Verticais** | *Atores da Inovação, Geografia Mundial/Brasileira de Hubs, Regulação e os 40 Setores da Economia Real:* Universidades, Fomento, CVC, VC, Hubs em 5 continentes, 15 Hubs no Brasil, Macro/BACEN/CVM/ANVISA/CADE, 40 Playbooks Setoriais em 6 Clusters e Dicionário Geral | **Capítulos 1 a 46** + **6 Seções de Dicionário e Índices Unificados** | ~164k | [`IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario.md`](volumes/IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario.md) | [`IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario.epub`](build/IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario.epub) |
+| **Vol. 10 — Economia da Inovação, Hubs Globais e Playbooks das 42 Verticais** | *Atores da Inovação, Geografia Mundial/Brasileira de Hubs, Regulação e os 42 Setores da Economia Real:* Universidades, Fomento, CVC, VC, Hubs em 5 continentes, 15 Hubs no Brasil, Macro/BACEN/CVM/ANVISA/CADE, 42 Playbooks Setoriais em 6 Clusters e Dicionário Geral | **Capítulos 1 a 48** + **6 Seções de Dicionário e Índices Unificados** | ~175k | [`IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario.md`](volumes/IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario.md) | [`IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario.epub`](build/IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario.epub) |
 
 > 📦 **Edição Completa (Omnibus):** os 10 volumes autocontidos também estão disponíveis reunidos em arquivo único para e-readers em [`build/IGNICAO.epub`](build/IGNICAO.epub).
 
@@ -70,8 +70,25 @@ Você está escalando vendas e líderes  → Vol. 6 (Receita e Pessoas)         
 Você é CTO/CPO/COO escalando eng/ops  → Vol. 7 (Produto, Engenharia e Operações)  — Fase 17 + Capítulos 1 a 11
 Você precisa blindar jurídico e LGPD  → Vol. 8 (Jurídico, LGPD e Segurança)       — Fase 18 + Capítulos 1 a 14
 Você está em crise, board, exit ou FO → Vol. 9 (Maturidade, Exit e Family Office) — Fases 19 e 20 + Capítulos 1 a 23
-Quer entender hubs, regulação ou sua vertical → Vol. 10 (Economia da Inovação e 40 Verticais) — Capítulos 1 a 46 + Dicionário Geral
+Quer entender hubs, regulação ou sua vertical → Vol. 10 (Economia da Inovação e 42 Verticais) — Capítulos 1 a 48 + Dicionário Geral
 ```
+
+---
+
+## Roteiros de Leitura por Perfil (*Fast-Tracks*)
+
+Ninguém precisa ler quase 1 milhão de palavras em linha reta antes de agir. Escolha abaixo o roteiro correspondente ao seu perfil atual:
+
+| Arquétipo de Empreendedor | Sequência Recomendada de Leitura (*Fast-Track*) | Foco Operacional Imediato |
+|---|---|---|
+| **1. Fundador de 1ª Viagem (Do Zero ao MVP)** | **Vol. 1** (`Fases 0–3` + `Cap. 1–4`) → **Vol. 2** (`Fases 4–6`) → **Vol. 3** (`Fases 7–10`) → **Vol. 4** (`Fase 11`) | Validar dor nível 8+ sem queimar poupança, assinar vesting entre sócios e colocar o MVP na rua |
+| **2. Bootstrapper / Consultoria / *Service-to-Product*** | **Vol. 1** (`Cap. 4`) → **Vol. 3** (`Cap. 10 — Bootstrapping & Productized Services`) → **Vol. 4** (`Cap. 1, 8, 9`) → **Vol. 5** (`Cap. 1–3, 8`) → **Vol. 10** (`Cap. 41 — Serviços B2B`) → **Vol. 9** (`Cap. 23 — Cash Cow`) | Gerar caixa no dia 1 vendendo serviço produtizado, financiar produto próprio sem diluição e construir máquina de dividendos |
+| **3. Fundador SaaS B2B / AI-Native (Rumo ao Scale-up)** | **Vol. 3** (`Cap. 5, 7`) → **Vol. 4** (`Fases 11–13` + `Cap. 1, 8–10, 12, 15`) → **Vol. 5** (`Fase 14` + `Cap. 5, 13–16`) → **Vol. 6** (`Fases 15–16` + `Cap. 2, 3, 16`) → **Vol. 7** (`Fase 17` + `Cap. 1–7`) → **Vol. 10** (`Cap. 39, 40, 42`) | Atingir PMF, estruturar funil PLG/Inside Sales/Enterprise, precificar IA/SaaS, captar Seed/Series A e escalar NRR > 110% |
+| **4. Empreendedor da Economia Real, Varejo, Franquias, Clínicas ou Importação** | **Vol. 2** (`Cap. 1`) → **Vol. 5** (`Cap. 1–3, 8, 9, 10 — Comex/Importação`) → **Vol. 6** (`Cap. 7 — Franchising/COF`) → **Vol. 8** (`Cap. 5, 7, 8`) → **Vol. 10** (`Cap. 24, 26, 30, 34–38`) | Dominar capital de giro (CCC), importação Ásia-Brasil/TTDs, expansão multi-unidades/franquias ou redes de clínicas e blindagem trabalhista/CDC |
+| **5. Empreendedor do Agro, Pecuária, Commodities, Energia, Infra ou Indústria** | **Vol. 3** (`Cap. 3 — TRL/CRL`) → **Vol. 5** (`Cap. 8, 17 — Finep/BNDES`) → **Vol. 6** (`Cap. 5 — Venda Corporativa`) → **Vol. 10** (`Cap. 1–6` + `Cluster II completo: Cap. 11–21`) | Navegar ciclos de commodities, Barter/CPR, armazenagem, crédito rural/fomento não-diluitivo, regulação (MAPA/ANEEL/ANP/IBAMA) e vendas complexas no campo/indústria |
+| **6. CTO, CPO ou COO Escalando Engenharia, Produto e Operações** | **Vol. 4** (`Cap. 14, 15`) → **Vol. 6** (`Fase 16` + `Cap. 13–20`) → **Vol. 7** (`Fase 17` + `Cap. 1–11`) → **Vol. 8** (`Cap. 3, 10, 11, 14 — ISO 27001/SOC 2`) | Arquitetura para 10x de escala, gestão de dívida técnica, AI Ops, topologia de squads (Conway's Law), hiring técnico e segurança/LGPD |
+| **7. CEO em Crise, Turnaround, Disputa Societária ou Pivô** | **Vol. 1** (`Cap. 2, 6`) → **Vol. 4** (`Cap. 16 — Pivot`) → **Vol. 5** (`Cap. 11 — Crise de Caixa`) → **Vol. 8** (`Cap. 2, 9`) → **Vol. 9** (`Cap. 3, 9–12 — Crise, Layoffs e RJ`) | Estancar sangria de caixa em 72h, renegociar passivos, conduzir layoffs ou reestruturação societária com dignidade e proteger o patrimônio pessoal |
+| **8. Fundador Maduro, Consolidador (M&A / Search Fund), Spin-off ou Pós-Exit (*Family Office*)** | **Vol. 8** (`Fase 18`) → **Vol. 9** (`Fases 19–20` + `Cap. 1, 2, 5–8, 13–20, 23`) | Governança de Board, consolidação via M&A/Roll-ups, Search Funds, Spin-offs corporativos, venda secundária (*Secondaries*), tributação de exit e estruturação de Holding/Offshore/Family Office |
 
 ---
 
@@ -355,7 +372,7 @@ Quer entender hubs, regulação ou sua vertical → Vol. 10 (Economia da Inovaç
 </details>
 
 <details>
-<summary><strong>🏭 Vol. 10 — Economia da Inovação, Hubs Globais e Playbooks das 40 Verticais (Capítulos 1 a 46 + Dicionário Geral)</strong></summary>
+<summary><strong>🏭 Vol. 10 — Economia da Inovação, Hubs Globais e Playbooks das 42 Verticais (Capítulos 1 a 48 + Dicionário Geral)</strong></summary>
 
 | Capítulo / Seção | Tema |
 |---|---|
@@ -380,31 +397,33 @@ Quer entender hubs, regulação ou sua vertical → Vol. 10 (Economia da Inovaç
 | **Cap. 19** | *Cluster II (Agro, Pecuária, Commodities, Bioeconomia, Infra e Indústria)* — Miningtech, Oil & Gas Tech, Geologia Digital e Recursos Naturais Pesados |
 | **Cap. 20** | *Cluster II (Agro, Pecuária, Commodities, Bioeconomia, Infra e Indústria)* — Indústria 4.0, Manufatura Avançada, Manutenção Preditiva, IIoT e Automação Fabril |
 | **Cap. 21** | *Cluster II (Agro, Pecuária, Commodities, Bioeconomia, Infra e Indústria)* — Hardware e Deep Tech: Fabricação, Propriedade Intelectual e Horizontes Longos |
-| **Cap. 22** | *Cluster III (Logística, Mobilidade, Segurança, Telecom e Aeroespacial)* — Logtech: Tecnologia em Logística, Frete e Supply Chain |
-| **Cap. 23** | *Cluster III (Logística, Mobilidade, Segurança, Telecom e Aeroespacial)* — Mobitech: Mobilidade Urbana, Gestão de Frotas, Telemetria e Eletromobilidade |
-| **Cap. 24** | *Cluster III (Logística, Mobilidade, Segurança, Telecom e Aeroespacial)* — Proptech e Construtech: Tecnologia no Mercado Imobiliário e Construção Civil |
-| **Cap. 25** | *Cluster III (Logística, Mobilidade, Segurança, Telecom e Aeroespacial)* — Segurança Privada, Patrimonial, Condominial (Portaria Remota/Autônoma), Visão Computacional e Facilities |
-| **Cap. 26** | *Cluster III (Logística, Mobilidade, Segurança, Telecom e Aeroespacial)* — Telecomunicações, Provedores Regionais de Fibra (ISPs), Redes Privativas 5G, Torres e Data Centers de IA |
-| **Cap. 27** | *Cluster III (Logística, Mobilidade, Segurança, Telecom e Aeroespacial)* — Aerospace, Spacetech, Drones, Satélites e Tecnologia de Defesa (Dual-Use) |
-| **Cap. 28** | *Cluster IV (Saúde, Educação, Governo e Jurídico)* — Biotech e Healthtech: Playbook de Regulação, Ensaios, Saúde Digital e Capital |
-| **Cap. 29** | *Cluster IV (Saúde, Educação, Governo e Jurídico)* — Edtech: B2C, B2B e B2G — Unit Economics, Regulação MEC e Sazonalidade |
-| **Cap. 30** | *Cluster IV (Saúde, Educação, Governo e Jurídico)* — Govtech: Startup Vendendo para Governo — Licitação, CPSI e Pipeline Público |
-| **Cap. 31** | *Cluster IV (Saúde, Educação, Governo e Jurídico)* — Legaltech, Regtech e Taxtech: Tecnologia Jurídica e Fiscal no Brasil |
-| **Cap. 32** | *Cluster V (Varejo, Consumo, Longevidade e Assistência)* — Retailtech, E-Commerce, Omnichannel, Social Commerce e Digitalização do Varejo Físico |
-| **Cap. 33** | *Cluster V (Varejo, Consumo, Longevidade e Assistência)* — Foodtech, Food Service, Dark Kitchens, Supply Chain Alimentar e Novos Ingredientes |
-| **Cap. 34** | *Cluster V (Varejo, Consumo, Longevidade e Assistência)* — Marcas Nativas Digitais (D2C), Beleza, Moda, Bens de Consumo (CPG) e Wellness/Fitness |
-| **Cap. 35** | *Cluster V (Varejo, Consumo, Longevidade e Assistência)* — Traveltech, Hospitalidade, Eventos, SportsTech, PetTech e Economia da Longevidade (Silver Economy) |
-| **Cap. 36** | *Cluster V (Varejo, Consumo, Longevidade e Assistência)* — Setor Funerário, Cemitérios, Crematórios, Planos de Assistência Familiar, DeathTech e Sucessão |
-| **Cap. 37** | *Cluster VI (Software, Serviços B2B, IA, Cyber e Mídia)* — Horizontal B2B SaaS, ERPs, Produtividade, Automação de Backoffice e PMEs |
-| **Cap. 38** | *Cluster VI (Software, Serviços B2B, IA, Cyber e Mídia)* — Vertical SaaS: Sistemas Operacionais Setoriais com Pagamentos, Crédito e IA Embarcados |
-| **Cap. 39** | *Cluster VI (Software, Serviços B2B, IA, Cyber e Mídia)* — Serviços Profissionais B2B de Alta Margem, Consultorias, Software Houses, Exportação de Engenharia (Nearshoring) e BPO |
-| **Cap. 40** | *Cluster VI (Software, Serviços B2B, IA, Cyber e Mídia)* — AI-Native, Modelos Fundacionais, Agentes Autônomos, Infraestrutura de Dados e MLOps |
-| **Cap. 41** | *Cluster VI (Software, Serviços B2B, IA, Cyber e Mídia)* — Cybersecurity, Identidade Digital, Biometria, Prevenção a Fraudes e Privacidade |
-| **Cap. 42** | *Cluster VI (Software, Serviços B2B, IA, Cyber e Mídia)* — DevTools, Cloud Infrastructure, APIs, Observabilidade e Open Source Comercial (COSS) |
-| **Cap. 43** | *Cluster VI (Software, Serviços B2B, IA, Cyber e Mídia)* — HRTech, Folha de Pagamento, Benefícios Flexíveis, Recrutamento e Future of Work |
-| **Cap. 44** | *Cluster VI (Software, Serviços B2B, IA, Cyber e Mídia)* — Martech, Adtech, Salestech, CRM, Atendimento Conversacional (WhatsApp-First) e Retail Media |
-| **Cap. 45** | *Cluster VI (Software, Serviços B2B, IA, Cyber e Mídia)* — Creator Economy, Mídia Digital, Streaming, Áudio, Infoprodutos e Plataformas de Comunidade |
-| **Cap. 46** | *Cluster VI (Software, Serviços B2B, IA, Cyber e Mídia)* — Gaming, Estúdios de Jogos, E-Sports, Apostas Reguladas (iGaming/Bets) e Economia Virtual |
+| **Cap. 22** | *Cluster III (Logística, Mobilidade, Ativos Pesados, Segurança, Telecom e Aeroespacial)* — Logtech: Tecnologia em Logística, Frete e Supply Chain |
+| **Cap. 23** | *Cluster III (Logística, Mobilidade, Ativos Pesados, Segurança, Telecom e Aeroespacial)* — Mobitech: Mobilidade Urbana, Gestão de Frotas, Telemetria e Eletromobilidade |
+| **Cap. 24** | *Cluster III (Logística, Mobilidade, Ativos Pesados, Segurança, Telecom e Aeroespacial)* — Consórcios Administrados (BACEN — Lei 11.795/2008), Rental de Máquinas/Frotas Pesadas e Aftermarket Automotivo (Autopeças, Seminovos e Leilões) |
+| **Cap. 25** | *Cluster III (Logística, Mobilidade, Ativos Pesados, Segurança, Telecom e Aeroespacial)* — Proptech e Construtech: Tecnologia no Mercado Imobiliário e Construção Civil |
+| **Cap. 26** | *Cluster III (Logística, Mobilidade, Ativos Pesados, Segurança, Telecom e Aeroespacial)* — Segurança Privada, Patrimonial, Condominial (Portaria Remota/Autônoma), Visão Computacional e Facilities |
+| **Cap. 27** | *Cluster III (Logística, Mobilidade, Ativos Pesados, Segurança, Telecom e Aeroespacial)* — Telecomunicações, Provedores Regionais de Fibra (ISPs), Redes Privativas 5G, Torres e Data Centers de IA |
+| **Cap. 28** | *Cluster III (Logística, Mobilidade, Ativos Pesados, Segurança, Telecom e Aeroespacial)* — Aerospace, Spacetech, Drones, Satélites e Tecnologia de Defesa (Dual-Use) |
+| **Cap. 29** | *Cluster IV (Saúde, Educação, Governo e Jurídico)* — Biotech e Healthtech: Playbook de Regulação, Ensaios, Saúde Digital e Capital |
+| **Cap. 30** | *Cluster IV (Saúde, Educação, Governo e Jurídico)* — Saúde Física Privada: Redes de Clínicas Médicas e Odontológicas, Equiparação Hospitalar, Estética Avançada, Medicina Diagnóstica, Farmácias Magistrais e OPME |
+| **Cap. 31** | *Cluster IV (Saúde, Educação, Governo e Jurídico)* — Edtech: B2C, B2B e B2G — Unit Economics, Regulação MEC e Sazonalidade |
+| **Cap. 32** | *Cluster IV (Saúde, Educação, Governo e Jurídico)* — Govtech: Startup Vendendo para Governo — Licitação, CPSI e Pipeline Público |
+| **Cap. 33** | *Cluster IV (Saúde, Educação, Governo e Jurídico)* — Legaltech, Regtech e Taxtech: Tecnologia Jurídica e Fiscal no Brasil |
+| **Cap. 34** | *Cluster V (Varejo, Consumo, Longevidade e Assistência)* — Retailtech, E-Commerce, Omnichannel, Social Commerce e Digitalização do Varejo Físico |
+| **Cap. 35** | *Cluster V (Varejo, Consumo, Longevidade e Assistência)* — Foodtech, Food Service, Dark Kitchens, Supply Chain Alimentar e Novos Ingredientes |
+| **Cap. 36** | *Cluster V (Varejo, Consumo, Longevidade e Assistência)* — Marcas Nativas Digitais (D2C), Beleza, Moda, Bens de Consumo (CPG) e Wellness/Fitness |
+| **Cap. 37** | *Cluster V (Varejo, Consumo, Longevidade e Assistência)* — Traveltech, Hospitalidade, Eventos, SportsTech, PetTech e Economia da Longevidade (Silver Economy) |
+| **Cap. 38** | *Cluster V (Varejo, Consumo, Longevidade e Assistência)* — Setor Funerário, Cemitérios, Crematórios, Planos de Assistência Familiar, DeathTech e Sucessão |
+| **Cap. 39** | *Cluster VI (Software, Serviços B2B, IA, Cyber e Mídia)* — Horizontal B2B SaaS, ERPs, Produtividade, Automação de Backoffice e PMEs |
+| **Cap. 40** | *Cluster VI (Software, Serviços B2B, IA, Cyber e Mídia)* — Vertical SaaS: Sistemas Operacionais Setoriais com Pagamentos, Crédito e IA Embarcados |
+| **Cap. 41** | *Cluster VI (Software, Serviços B2B, IA, Cyber e Mídia)* — Serviços Profissionais B2B de Alta Margem, Consultorias, Software Houses, Exportação de Engenharia (Nearshoring) e BPO |
+| **Cap. 42** | *Cluster VI (Software, Serviços B2B, IA, Cyber e Mídia)* — AI-Native, Modelos Fundacionais, Agentes Autônomos, Infraestrutura de Dados e MLOps |
+| **Cap. 43** | *Cluster VI (Software, Serviços B2B, IA, Cyber e Mídia)* — Cybersecurity, Identidade Digital, Biometria, Prevenção a Fraudes e Privacidade |
+| **Cap. 44** | *Cluster VI (Software, Serviços B2B, IA, Cyber e Mídia)* — DevTools, Cloud Infrastructure, APIs, Observabilidade e Open Source Comercial (COSS) |
+| **Cap. 45** | *Cluster VI (Software, Serviços B2B, IA, Cyber e Mídia)* — HRTech, Folha de Pagamento, Benefícios Flexíveis, Recrutamento e Future of Work |
+| **Cap. 46** | *Cluster VI (Software, Serviços B2B, IA, Cyber e Mídia)* — Martech, Adtech, Salestech, CRM, Atendimento Conversacional (WhatsApp-First) e Retail Media |
+| **Cap. 47** | *Cluster VI (Software, Serviços B2B, IA, Cyber e Mídia)* — Creator Economy, Mídia Digital, Streaming, Áudio, Infoprodutos e Plataformas de Comunidade |
+| **Cap. 48** | *Cluster VI (Software, Serviços B2B, IA, Cyber e Mídia)* — Gaming, Estúdios de Jogos, E-Sports, Apostas Reguladas (iGaming/Bets) e Economia Virtual |
 | **Dicionário e Índices** | Glossário de Termos Técnicos (A–Z), Lista de Abreviações, Bibliografia Geral Unificada, Índice Geral de Frameworks e Índice Remissivo da Coleção |
 
 </details>

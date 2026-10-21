@@ -64,7 +64,24 @@ A coleção está organizada em **10 volumes focais**:
 - **Volume 7 — Produto, Engenharia, Dados, IA e Operações:** Fase 17 + 11 Capítulos de discovery contínuo, gestão de engenharia, dívida técnica, IA na engenharia de software, AI Ops, design organizacional, gestão do conhecimento e excelência operacional.
 - **Volume 8 — Blindagem Jurídica, Societária, LGPD e Segurança:** Fase 18 + 14 Capítulos de Marco Legal das Startups, responsabilidade dos sócios, propriedade intelectual/INPI, non-compete, contratos, direito do trabalho, CDC, contencioso, LGPD, regulação de IA, compliance, prevenção a fraudes e SOC 2 / ISO 27001.
 - **Volume 9 — Maturidade, Governança, Crise, Exit e Family Office:** Fases 19 e 20 + 23 Capítulos de Conselho de Administração (Board), empresas familiares, conflitos societários, internacionalização, câmbio/tesouraria, gestão de crise, layoffs, recuperação judicial, M&A buy-side, Search Funds, Spin-offs e Carve-outs, Liquidez Secundária (Secondaries), IPO, tributação de exit, transição pós-M&A, post-mortems, second-time founders e a Empresa *Cash Cow* (dividendos vitalícios) + Holdings Patrimoniais, Offshores e *Family Office* + Epílogo.
-- **Volume 10 — Economia da Inovação, Hubs Globais e Playbooks das 40 Verticais:** 46 Capítulos cobrindo a Economia da Inovação e seus Atores, a Geografia Mundial de Hubs por Continente e os 15 Polos Brasileiros, Ciclos Macroeconômicos, Autarquias Reguladoras, CADE, Políticas Públicas e os **40 Playbooks Setoriais** da economia real (de Fintech, Crédito, Insurtech, Wealthtech, Agritech, Pecuária/PecTech/Aquicultura, Trading de Commodities/Barter/Silos/Arco Norte, Biocombustíveis/Bioinsumos/Irrigação/Bioeconomia Amazônica, Infratech, Energytech, Cleantech, Resíduos/Biometano/Celulose, Miningtech e Indústria 4.0 até Hardware, Logtech, Mobitech, Proptech, Segurança Privada/Portaria Remota/Facilities, Telecom/ISPs/Data Centers de IA, Aerospace, Biotech/Healthtech, Edtech, Govtech, Legaltech, Retailtech, Foodtech, D2C/Wellness, Travel/Pet/Silver, Setor Funerário/Assistência Familiar/DeathTech, Horizontal/Vertical SaaS, Serviços Profissionais B2B/Consultorias/Nearshoring, AI-Native, Cybersecurity, DevTools, HRTech, Martech, Creator Economy e Gaming), seguidos pelo Dicionário e Índices Unificados da Coleção.
+- **Volume 10 — Economia da Inovação, Hubs Globais e Playbooks das 42 Verticais:** 48 Capítulos cobrindo a Economia da Inovação e seus Atores, a Geografia Mundial de Hubs por Continente e os 15 Polos Brasileiros, Ciclos Macroeconômicos, Autarquias Reguladoras, CADE, Políticas Públicas e os **42 Playbooks Setoriais** da economia real (de Fintech, Crédito, Insurtech, Wealthtech, Agritech, Pecuária/PecTech/Aquicultura, Trading de Commodities/Barter/Silos/Arco Norte, Biocombustíveis/Bioinsumos/Irrigação/Bioeconomia Amazônica, Infratech, Energytech, Cleantech, Resíduos/Biometano/Celulose, Miningtech e Indústria 4.0 até Hardware, Logtech, Mobitech, Consórcios/Rental/Aftermarket Automotivo, Proptech, Segurança Privada/Portaria Remota/Facilities, Telecom/ISPs/Data Centers de IA, Aerospace, Biotech/Healthtech, Saúde Física Privada/Clínicas/Odonto/Estética/Diagnóstico/Farma/OPME, Edtech, Govtech, Legaltech, Retailtech, Foodtech, D2C/Wellness, Travel/Pet/Silver, Setor Funerário/Assistência Familiar/DeathTech, Horizontal/Vertical SaaS, Serviços Profissionais B2B/Consultorias/Nearshoring, AI-Native, Cybersecurity, DevTools, HRTech, Martech, Creator Economy e Gaming), seguidos pelo Dicionário e Índices Unificados da Coleção.
+
+---
+
+## Roteiros de Leitura por Arquétipo de Empreendedor (Fast-Tracks)
+
+Com **10 volumes, 21 fases, 180 capítulos e 42 playbooks setoriais (~990 mil palavras)**, o **IGNIÇÃO** foi projetado tanto para leitura sequencial quanto para execução cirúrgica sob demanda. Se você precisa de resultados imediatos nos próximos 30 dias, siga a trilha correspondente ao seu momento atual:
+
+| Perfil / Arquétipo | O que ler primeiro (Ordem Cirúrgica de Execução) |
+| :--- | :--- |
+| **1. Fundador de 1ª Viagem (Do Zero ao MVP e PMF)** | **Vol. 1** (Fases 0 a 3 + Caps. 1–4) $\rightarrow$ **Vol. 2** (Fases 4 a 6) $\rightarrow$ **Vol. 3** (Fases 7 a 10) $\rightarrow$ **Vol. 4** (Fases 11 a 13 + Caps. 1, 2, 8 e 9) |
+| **2. Bootstrapper (Consultoria / Agência / Serviço $\rightarrow$ Produto SaaS sem VC)** | **Vol. 1** (Cap. 4: Bootstrap vs. VC) $\rightarrow$ **Vol. 3** (Cap. 10: *Bootstrapping, Productized Services e Transição Service-to-Product*) $\rightarrow$ **Vol. 4** (Caps. 1, 8, 9 e 10) $\rightarrow$ **Vol. 5** (Caps. 1 a 3 e Cap. 8: Capital de Giro) $\rightarrow$ **Vol. 10** (Cap. 41: *Serviços Profissionais B2B, Consultorias, Software Houses e Nearshoring*) |
+| **3. Fundador Tech, SaaS B2B, AI-Native ou Deep Tech** | **Vol. 3** (Cap. 3: TRL/CRL e Cap. 9: Open Source) $\rightarrow$ **Vol. 4** (Cap. 15: Produto AI-Native) $\rightarrow$ **Vol. 7** (Fase 17 + Caps. 1 a 7: Arquitetura, Dívida Técnica e IA na Engenharia) $\rightarrow$ **Vol. 10** (Cap. 1: Economia da Inovação/TRL + Caps. 39, 40, 42, 43 e 44: *Horizontal/Vertical SaaS, AI-Native, Cybersecurity e DevTools*) |
+| **4. Empreendedor do Agro, Pecuária, Commodities e Bioeconomia** | **Vol. 5** (Cap. 8: Recebíveis/FIDC e Cap. 17: Finep/BNDES) $\rightarrow$ **Vol. 9** (Cap. 7: Hedge Cambial) $\rightarrow$ **Vol. 10** (Cap. 2: Hubs do Agro + Caps. 11 a 14: *Agritech, Pecuária de Precisão/AquaTech, Trading de Commodities/Barter/Silos/Arco Norte e Biocombustíveis/Bioinsumos/Irrigação/Bioeconomia Amazônica*) |
+| **5. Indústria, Infraestrutura, Energia, Telecom e Operações Pesadas** | **Vol. 5** (Cap. 9: Bancos/BNDES, Cap. 10: Importação Ásia-Brasil e Cap. 17: Fomento) $\rightarrow$ **Vol. 6** (Cap. 2: Vendas Complexas Enterprise e Cap. 5: Grandes Corporações) $\rightarrow$ **Vol. 10** (Caps. 15 a 28: *Infratech, Energytech, Cleantech, Resíduos/Biometano/Florestal, Mining/Oil & Gas, Indústria 4.0, Hardware, Logtech, Mobitech, Consórcios/Rental/Aftermarket, Segurança/Facilities, Telecom/ISPs/Data Centers e Aerospace*) |
+| **6. Varejo, Franquias, Marcas Próprias (D2C/Importação) e Serviços Locais** | **Vol. 2** (Cap. 1: Psicologia do Consumidor Brasileiro) $\rightarrow$ **Vol. 5** (Cap. 3: Tributário/IBS-CBS e Cap. 10: *Comércio Exterior, Importação Ásia-Brasil, Landed Cost e TTD 409*) $\rightarrow$ **Vol. 6** (Cap. 7: *Franchising, Licenciamento e COF — Lei 13.966*) $\rightarrow$ **Vol. 10** (Caps. 30 e 34 a 38: *Clínicas/Odonto/Estética/Farma, Retailtech, Foodtech, D2C/Wellness, Travel/Pet/Silver e Setor Funerário/Assistência Familiar*) |
+| **7. Setores Fortemente Regulados (Fintech, Crédito, Seguros, Saúde e Govtech)** | **Vol. 5** (Cap. 8: FIDCs) $\rightarrow$ **Vol. 8** (Fase 18 + Caps. 1, 10, 11, 12 e 14: Marco Legal, LGPD, Regulação de IA, Compliance e SOC 2/ISO 27001) $\rightarrow$ **Vol. 10** (Caps. 3 a 10 e 29 a 33: *Ciclos Macro/Selic, BACEN/CVM/SUSEP/ANVISA/ANS, CADE, Políticas Públicas, Fintech, Crédito Digital, Insurtech, Wealthtech/Drex, Biotech/Healthtech, Saúde Física/OPME, Edtech, Govtech e Legaltech*) |
+| **8. CEO em Escala, Consolidador (M&A / Search Fund), Cash Cow e Family Office** | **Vol. 5** (Fase 14 + Caps. 13 a 16) $\rightarrow$ **Vol. 6** (Fases 15 e 16 + Caps. 11 a 18: Founder Mode, Contratação C-Level, ESOP e Cultura) $\rightarrow$ **Vol. 9** (Fases 19 e 20 + Caps. 1 a 23: *Board, Empresas Familiares, Internacionalização, Crise/Turnaround, M&A Buy-Side/Roll-ups, Search Funds, Spin-offs/Carve-outs, Secondaries, IPO, Tributação de Exit e A Empresa Cash Cow + Holdings, Offshores e Family Office*) |
 
 ---
 
@@ -88,7 +105,7 @@ graph LR
     end
     subgraph J3["Ciclo Longo e Setores"]
         V9["<b>Vol. 9 — Maturidade, Exit e Family Office</b><br/>Fases 19 e 20 · Board, Crise, M&A, IPO e Cash Cow"]
-        V10["<b>Vol. 10 — Economia da Inovação e 40 Verticais</b><br/>Hubs Globais, Regulação, 40 Setores e Dicionário"]
+        V10["<b>Vol. 10 — Economia da Inovação e 42 Verticais</b><br/>Hubs Globais, Regulação, 42 Setores e Dicionário"]
         V8 --> V9
     end
     V10 -. "Consulta Setorial e Dicionário" .-> J1
@@ -5315,7 +5332,7 @@ Mais de 60% das startups que morrem nos primeiros dois anos não quebram porque 
 Estes cinco capítulos formam o **sistema de blindagem pessoal e societária inicial** que você deve ler e aplicar em paralelo às Fases 0 e 1:
 
 - **[[#CAPÍTULO 1 — DINHEIRO PESSOAL DO FUNDADOR|Capítulo 1 — Dinheiro Pessoal do Fundador]]:** Como separar CPF e CNPJ desde o dia zero, calcular seu *burn rate* familiar, estruturar *pró-labore* mínimo e evitar que a ansiedade financeira pessoal force decisões ruins no negócio.
-- **[[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#C|Capítulo 2 — Saúde Mental e Dinâmica de Cofundadores (Vol. 10)]]:** Como escolher sócios complementares, conduzir conversas difíceis de alinhamento, desenhar *vesting* com *cliff* e proteger a saúde psíquica sob incerteza extrema.
+- **[[#CAPÍTULO 2 — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Capítulo 2 — Saúde Mental e Dinâmica de Cofundadores]]:** Como escolher sócios complementares, conduzir conversas difíceis de alinhamento, desenhar *vesting* com *cliff* e proteger a saúde psíquica sob incerteza extrema.
 - **[[#CAPÍTULO 3 — ARMADILHAS MENTAIS E VIESES|Capítulo 3 — Armadilhas Mentais e Vieses]]:** O catálogo prático das distorções cognitivas que cegam fundadores (falácia do custo afundado, viés de confirmação, otimismo tóxico) e os protocolos de desconfirmação deliberada.
 - **[[#CAPÍTULO 4 — BOOTSTRAP vs VENTURE CAPITAL: A ESCOLHA FUNDACIONAL|Capítulo 4 — Bootstrap vs. Venture Capital]]:** A decisão arquitetural que define quem manda na sua empresa, qual velocidade de crescimento é exigida e quais caminhos de saída estarão abertos.
 - **[[#CAPÍTULO 5 — DIVERSIDADE DE JORNADAS: CASOS ALÉM DO CÂNONE|Capítulo 5 — Diversidade de Jornadas]]:** Como fundadores fora do eixo tradicional (estudantes, profissionais maduros, empreendedores do interior, negócios de nicho) constroem vantagens assimétricas reais no Brasil.
@@ -6391,7 +6408,7 @@ Estes seis capítulos constroem essa alavancagem individual:
 
 - **Decisão sob incerteza ([[#CAPÍTULO 6 — TOMADA DE DECISÃO COMO DISCIPLINA|Capítulo 6]]):** Como classificar decisões reversíveis vs. irreversíveis (Tipo 1 e Tipo 2), montar árvores de valor esperado e criar diários de decisão para calibrar seu julgamento ao longo do tempo.
 - **Persuasão, escrita e fala ([[#CAPÍTULO 7 — INFLUÊNCIA E PERSUASÃO SEM AUTORIDADE FORMAL|Capítulo 7]], [[#CAPÍTULO 8 — COMUNICAÇÃO ESCRITA PARA NEGÓCIOS|Capítulo 8]] e [[#CAPÍTULO 9 — APRESENTAÇÃO E FALA EM PÚBLICO|Capítulo 9]]):** Como vender uma visão quando você ainda não tem produto pronto, escrever memorandos e *cold emails* que recebem resposta de decisores ocupados e apresentar sua tese com clareza cirúrgica.
-- **IA como exército de um homem só ([[#CAPÍTULO 10 — IA GENERATIVA COMO ACELERADOR DO EMPREENDEDOR (2026)|Capítulo 10]] e [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#C|Capítulo 11 (Vol. 10)]]):** Como configurar fluxos de pesquisa, síntese, prototipagem e análise estratégica com LLMs e agentes para multiplicar por 5x a velocidade das Fases 0 a 3.
+- **IA como exército de um homem só ([[#CAPÍTULO 10 — IA GENERATIVA COMO ACELERADOR DO EMPREENDEDOR (2026)|Capítulo 10]] e [[#CAPÍTULO 11 — IA COMO CO-PILOTO DO FUNDADOR (2026)|Capítulo 11]]):** Como configurar fluxos de pesquisa, síntese, prototipagem e análise estratégica com LLMs e agentes para multiplicar por 5x a velocidade das Fases 0 a 3.
 
 ---
 
@@ -8128,7 +8145,7 @@ A primeira é networking superficial em escala. LinkedIn com cinco mil conexões
 # GLOSSÁRIO E SIGLAS DESTE VOLUME
 
 > [!abstract] Vocabulário técnico e siglas deste volume
-> Para garantir que este **Volume 1** funcione de forma 100% independente e autocontida sem exigir consulta a outro livro, esta seção reúne as definições dos **77 termos técnicos e de negócios** e das **51 siglas e abreviações** utilizados ao longo das Fases e Capítulos deste volume.
+> Para garantir que este **Volume 1** funcione de forma 100% independente e autocontida sem exigir consulta a outro livro, esta seção reúne as definições dos **80 termos técnicos e de negócios** e das **55 siglas e abreviações** utilizados ao longo das Fases e Capítulos deste volume.
 
 ---
 
@@ -8145,6 +8162,8 @@ A primeira é networking superficial em escala. LinkedIn com cinco mil conexões
 **Anti-dilution.** Cláusula societária que protege investidores de diluição em rodadas futuras a valuation menor. Variantes: full ratchet (ajuste integral) e weighted average (mais comum, ajuste ponderado).
 
 **ARR (Annual Recurring Revenue).** Receita anual recorrente. Soma de todos os contratos ativos anualizados. Principal métrica de tamanho de empresa SaaS. ARR = MRR × 12.
+
+**Basis (Prêmio de Porto).** Diferença entre o preço físico de uma commodity em um porto de exportação (como Paranaguá, Santos ou Barcarena) e a cotação do contrato futuro de referência na bolsa internacional (CBOT ou ICE), refletindo frete marítimo, câmbio e oferta/demanda local.
 
 **BATNA (Best Alternative to a Negotiated Agreement).** Melhor alternativa caso a negociação não resulte em acordo. Quanto melhor o BATNA, mais poder o negociador tem. Conceito central de Fisher e Ury (Getting to Yes, 1981).
 
@@ -8193,6 +8212,8 @@ A primeira é networking superficial em escala. LinkedIn com cinco mil conexões
 **EV (Enterprise Value).** Valor total da empresa: capitalização de mercado mais dívida líquida. Usado como numerador nos múltiplos de valuation (EV/ARR, EV/EBITDA).
 
 **Exit.** Saída do fundador ou investidor da empresa, geralmente via M&A, IPO ou secondary.
+
+**Family Office (SFO / MFO).** Estrutura dedicada à governança, alocação patrimonial, planejamento tributário e sucessão da fortuna de uma única família (*Single Family Office* — SFO) ou de múltiplas famílias (*Multi-Family Office* — MFO) após eventos de liquidez (exit) ou acúmulo de dividendos.
 
 **FMF (Founder-Market Fit).** Alinhamento entre o perfil, experiência e motivação do fundador e as características do problema e mercado que a empresa ataca. Primeiro filtro de avaliação de ideia.
 
@@ -8251,6 +8272,8 @@ A primeira é networking superficial em escala. LinkedIn com cinco mil conexões
 **PMF (Product-Market Fit).** Momento em que produto e mercado se encaixam: produto resolve dor real de segmento identificado de forma que gera retenção, engajamento e crescimento orgânico. Diagnóstico central da [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 13 — PRODUCT-MARKET FIT|Fase 13 (Vol. 4)]].
 
 **Post-mortem.** Análise retrospectiva de falha ou incidente, com foco em aprendizado sistêmico em vez de atribuição de culpa. Blameless post-mortem é variante que explicitamente remove julgamento pessoal.
+
+**Rental (Locação Pesada de Ativos).** Modelo de negócios intensivo em capital baseado na compra de frotas de caminhões, máquinas de linha amarela, equipamentos agrícolas ou industriais com desconto de montadora (OEM), locação de longo prazo (36 a 60 meses) dedutível como OpEx no Lucro Real do cliente e posterior revenda do ativo seminovo.
 
 **RBF (Revenue-Based Financing).** Financiamento em que a empresa devolve um múltiplo do principal como percentual da receita futura, em vez de juros fixos. Não-diluitivo. Exemplos no Brasil: a55, Capital Empreendedor.
 
@@ -8395,3 +8418,11 @@ A primeira é networking superficial em escala. LinkedIn com cinco mil conexões
 **VPC:** Value Proposition Canvas. *Framework de produto.*
 
 **ZOPA:** Zone of Possible Agreement. *Negociação.*
+
+**ANATEL:** Agência Nacional de Telecomunicações. *Regulação / Telecom e ISPs.*
+
+**ANVISA:** Agência Nacional de Vigilância Sanitária. *Regulação / Saúde, Alimentos, Cosméticos e Agro.*
+
+**CVC:** Corporate Venture Capital. *Economia da Inovação / Investimentos.*
+
+**MAPA:** Ministério da Agricultura e Pecuária. *Regulação / Agronegócio e Bioinsumos.*

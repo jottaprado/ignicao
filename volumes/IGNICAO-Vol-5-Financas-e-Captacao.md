@@ -45,7 +45,7 @@ graph LR
     end
     subgraph J3["Ciclo Longo e Setores"]
         V9["<b>Vol. 9 — Maturidade, Exit e Family Office</b><br/>Fases 19 e 20 · Board, Crise, M&A, IPO e Cash Cow"]
-        V10["<b>Vol. 10 — Economia da Inovação e 40 Verticais</b><br/>Hubs Globais, Regulação, 40 Setores e Dicionário"]
+        V10["<b>Vol. 10 — Economia da Inovação e 42 Verticais</b><br/>Hubs Globais, Regulação, 42 Setores e Dicionário"]
         V8 --> V9
     end
     V10 -. "Consulta Setorial e Dicionário" .-> J1
@@ -8481,7 +8481,7 @@ Um dos maiores valores do IR bem feito é que a Série A começa a ser preparada
 # GLOSSÁRIO E SIGLAS DESTE VOLUME
 
 > [!abstract] Vocabulário técnico e siglas deste volume
-> Para garantir que este **Volume 5** funcione de forma 100% independente e autocontida sem exigir consulta a outro livro, esta seção reúne as definições dos **88 termos técnicos e de negócios** e das **58 siglas e abreviações** utilizados ao longo das Fases e Capítulos deste volume.
+> Para garantir que este **Volume 5** funcione de forma 100% independente e autocontida sem exigir consulta a outro livro, esta seção reúne as definições dos **95 termos técnicos e de negócios** e das **70 siglas e abreviações** utilizados ao longo das Fases e Capítulos deste volume.
 
 ---
 
@@ -8502,6 +8502,8 @@ Um dos maiores valores do IR bem feito é que a Série A começa a ser preparada
 **Anti-dilution.** Cláusula societária que protege investidores de diluição em rodadas futuras a valuation menor. Variantes: full ratchet (ajuste integral) e weighted average (mais comum, ajuste ponderado).
 
 **ARR (Annual Recurring Revenue).** Receita anual recorrente. Soma de todos os contratos ativos anualizados. Principal métrica de tamanho de empresa SaaS. ARR = MRR × 12.
+
+**Basis (Prêmio de Porto).** Diferença entre o preço físico de uma commodity em um porto de exportação (como Paranaguá, Santos ou Barcarena) e a cotação do contrato futuro de referência na bolsa internacional (CBOT ou ICE), refletindo frete marítimo, câmbio e oferta/demanda local.
 
 **BCB (Banco Central do Brasil).** Autoridade monetária e regulatória do sistema financeiro brasileiro. Regula bancos, fintechs, instituições de pagamento e sandbox regulatório de inovação financeira.
 
@@ -8563,6 +8565,10 @@ Um dos maiores valores do IR bem feito é que a Série A começa a ser preparada
 
 **Exit.** Saída do fundador ou investidor da empresa, geralmente via M&A, IPO ou secondary.
 
+**Family Office (SFO / MFO).** Estrutura dedicada à governança, alocação patrimonial, planejamento tributário e sucessão da fortuna de uma única família (*Single Family Office* — SFO) ou de múltiplas famílias (*Multi-Family Office* — MFO) após eventos de liquidez (exit) ou acúmulo de dividendos.
+
+**FIDC (Fundo de Investimento em Direitos Creditórios).** Veículo de securitização regulado pela CVM (Resolução CVM 175) que compra recebíveis comerciais, duplicatas, parcelas de cartão ou CCBs de crédito, dividindo o risco entre cotas sênior (renda fixa institucional), mezanino e subordinada (primeira perda retida pelo originador).
+
 **FP&A (Financial Planning & Analysis).** Função financeira responsável por planejamento, orçamento e análise de variâncias. Em startups, surge tipicamente após Série B.
 
 **GMV (Gross Merchandise Value).** Volume bruto de transações processadas em uma plataforma. A receita da plataforma é o take rate aplicado sobre o GMV.
@@ -8578,6 +8584,8 @@ Um dos maiores valores do IR bem feito é que a Série A começa a ser preparada
 **IP (Intellectual Property).** Propriedade intelectual: patentes, marcas registradas, código-fonte, segredos comerciais. Em startups, instrumento de cessão de IP do fundador para a empresa é cláusula obrigatória de contrato societário.
 
 **IPO (Initial Public Offering).** Oferta pública inicial — abertura de capital na bolsa de valores. No Brasil, na B3. Tipicamente alvo de empresas com ARR ≥ R$ 300 milhões e crescimento ≥ 30% YoY.
+
+**Landed Cost (Custo Internado).** Custo total final de uma mercadoria importada posta no armazém do importador no Brasil, somando preço FOB, frete e seguro internacional, Imposto de Importação (II), IPI, PIS/COFINS-Importação, ICMS "por dentro" e despesas aduaneiras/portuárias.
 
 **Lead.** Potencial cliente que demonstrou interesse inicial. Pode ser MQL (Marketing Qualified Lead) ou SQL (Sales Qualified Lead) dependendo do nível de qualificação.
 
@@ -8637,6 +8645,10 @@ Um dos maiores valores do IR bem feito é que a Série A começa a ser preparada
 
 **Runway.** Número de meses antes de a empresa ficar sem caixa, considerando o burn rate atual. Referência: mínimo 12 meses após rodada, ideal 18 a 24 meses.
 
+**SAF (Sustainable Aviation Fuel / Combustível Sustentável de Aviação).** Biocombustível sintético ou derivado de matérias-primas renováveis (etanol via rota *Alcohol-to-Jet*, óleo de soja, macaúba ou sebo bovino via rota HEFA) certificado para substituir o querosene de aviação fóssil com redução drástica de emissões.
+
+**Search Fund (ETA — Entrepreneurship Through Acquisition).** Veículo de investimento em que um ou dois empreendedores (*searchers*) captam capital de investidores para buscar, adquirir, assumir como CEO e escalar uma única empresa madura, lucrativa e com geração de caixa recorrente.
+
 **SAFE (Simple Agreement for Future Equity).** Instrumento de captação criado pela Y Combinator. Conversível em ações em rodada futura, sem juros e sem prazo de vencimento. Adaptação brasileira é a "Nota Conversível".
 
 **Seed.** Rodada de captação inicial de startup. No Brasil, tipicamente R$ 1 milhão a R$ 10 milhões, de fundos seed ou anjos, para validar PMF e motor inicial de crescimento.
@@ -8644,6 +8656,8 @@ Um dos maiores valores do IR bem feito é que a Série A começa a ser preparada
 **SLA (Service Level Agreement).** Acordo de nível de serviço. Define métricas de disponibilidade, performance e tempo de resposta que a empresa se compromete a manter. Violações geram créditos ou penalidades.
 
 **SQL (Sales Qualified Lead).** Lead qualificado pelo time de vendas como oportunidade real. Critérios BANT: Budget, Authority, Need, Timeline.
+
+**TTD 409/410 (Tratamento Tributário Diferenciado — SC).** Benefício fiscal estadual de Santa Catarina (similar ao Fundap/ES e Sistemática de Alagoas) que difere o ICMS na importação portuária/aeroportuária e reduz a carga efetiva de ICMS nas saídas interestaduais de mercadorias importadas.
 
 **Tag-along.** Cláusula que garante ao acionista minoritário o direito de vender suas ações nas mesmas condições que o majoritário em caso de venda. Proteção do minoritário.
 
@@ -8784,3 +8798,27 @@ Um dos maiores valores do IR bem feito é que a Série A começa a ser preparada
 **VPC:** Value Proposition Canvas. *Framework de produto.*
 
 **YoY:** Year-over-Year (comparação ano a ano). *Métricas.*
+
+**ANATEL:** Agência Nacional de Telecomunicações. *Regulação / Telecom e ISPs.*
+
+**ANVISA:** Agência Nacional de Vigilância Sanitária. *Regulação / Saúde, Alimentos, Cosméticos e Agro.*
+
+**CVC:** Corporate Venture Capital. *Economia da Inovação / Investimentos.*
+
+**FIDC:** Fundo de Investimento em Direitos Creditórios. *Crédito / Securitização.*
+
+**FINEP:** Financiadora de Estudos e Projetos. *Fomento Não-Diluitivo / Inovação.*
+
+**IBS / CBS:** Imposto sobre Bens e Serviços / Contribuição sobre Bens e Serviços (IVA Dual da Reforma Tributária). *Tributário.*
+
+**ICT:** Instituição Científica, Tecnológica e de Inovação. *Economia da Inovação / Deep Tech.*
+
+**INPI:** Instituto Nacional da Propriedade Industrial. *Propriedade Intelectual / Patentes e Marcas.*
+
+**MAPA:** Ministério da Agricultura e Pecuária. *Regulação / Agronegócio e Bioinsumos.*
+
+**NCM:** Nomenclatura Comum do Mercosul. *Comércio Exterior / Tributário.*
+
+**SAF:** Sustainable Aviation Fuel (Combustível Sustentável de Aviação). *Biocombustíveis / Aviação.*
+
+**TTD:** Tratamento Tributário Diferenciado (benefício fiscal de importação). *Comércio Exterior.*

@@ -45,7 +45,7 @@ graph LR
     end
     subgraph J3["Ciclo Longo e Setores"]
         V9["<b>Vol. 9 — Maturidade, Exit e Family Office</b><br/>Fases 19 e 20 · Board, Crise, M&A, IPO e Cash Cow"]
-        V10["<b>Vol. 10 — Economia da Inovação e 40 Verticais</b><br/>Hubs Globais, Regulação, 40 Setores e Dicionário"]
+        V10["<b>Vol. 10 — Economia da Inovação e 42 Verticais</b><br/>Hubs Globais, Regulação, 42 Setores e Dicionário"]
         V8 --> V9
     end
     V10 -. "Consulta Setorial e Dicionário" .-> J1
@@ -5421,7 +5421,7 @@ Churn de parceiros (% ao ano)      Trimestral    <20%
 
 Business Development não é uma função isolada. Ela se conecta diretamente com as decisões de distribuição, posicionamento e crescimento que permeiam todo o processo de construção da startup.
 
-A definição do ICP, feita na [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 4 — DESCOBERTA DO PROBLEMA|Fase 4 — Descoberta do Problema (Vol. 2)]], é o insumo mais importante para qualificar parceiros. Sem ICP claro, o critério de "o parceiro tem os clientes que eu quero" não pode ser aplicado com rigor.
+A definição do ICP, feita na [[IGNICAO-Vol-1-Ideacao#FASE 2 — ARTICULAÇÃO E CAPTURA DA IDEIA|Fase 2 — Descoberta do Problema (Vol. 1)]], é o insumo mais importante para qualificar parceiros. Sem ICP claro, o critério de "o parceiro tem os clientes que eu quero" não pode ser aplicado com rigor.
 
 O modelo de receita e as métricas de unit economics, trabalhados na [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 12 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 12 — Validação do Modelo de Negócio (Vol. 4)]], determinam qual percentual de revenue share é viável sem destruir a margem. Parceria com comissão de 25% só faz sentido se o CAC via canal for suficientemente menor que o CAC via força própria para compensar a margem cedida.
 
@@ -5476,7 +5476,7 @@ Use a lista abaixo para auditoria. Marque o que já está em pé. O que falta vi
 > [!abstract] Posicao no livro
 > Parceria corporativa como canal e como armadilha, ciclo de doze a vinte e quatro meses, governanca de inovacao versus tesouraria. Vizinhos relevantes,
 > - [[#CAPÍTULO 6 — CANAIS INDIRETOS E PARCERIAS: PARCERIAS, FRANQUIAS, CHANNEL|Capítulo 6 (CANAIS INDIRETOS E PARCERIAS: PARCERIAS, FRANQUIAS, CHANNEL)]], parceria como canal estruturado de distribuicao
-> - [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 30 — GOVTECH: STARTUP VENDENDO PARA GOVERNO|Capítulo 30 (GOVTECH: STARTUP VENDENDO PARA GOVERNO) (Vol. 10)]], analogia operacional, ambos compradores institucionais com ciclo longo
+> - [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 32 — GOVTECH: STARTUP VENDENDO PARA GOVERNO|Capítulo 32 (GOVTECH: STARTUP VENDENDO PARA GOVERNO) (Vol. 10)]], analogia operacional, ambos compradores institucionais com ciclo longo
 > - [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 11 — NEGOCIAÇÃO COMO DISCIPLINA|Capítulo 11 (NEGOCIAÇÃO COMO DISCIPLINA) (Vol. 4)]], framework de negociacao para deals com elefantes
 > - [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 13 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 13 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) (Vol. 5)]], CVC (corporate venture capital) como vertente de investimento
 
@@ -9309,7 +9309,7 @@ Exemplos públicos referência. GitLab Handbook (cerca de duas mil páginas púb
 # GLOSSÁRIO E SIGLAS DESTE VOLUME
 
 > [!abstract] Vocabulário técnico e siglas deste volume
-> Para garantir que este **Volume 6** funcione de forma 100% independente e autocontida sem exigir consulta a outro livro, esta seção reúne as definições dos **98 termos técnicos e de negócios** e das **61 siglas e abreviações** utilizados ao longo das Fases e Capítulos deste volume.
+> Para garantir que este **Volume 6** funcione de forma 100% independente e autocontida sem exigir consulta a outro livro, esta seção reúne as definições dos **100 termos técnicos e de negócios** e das **67 siglas e abreviações** utilizados ao longo das Fases e Capítulos deste volume.
 
 ---
 
@@ -9340,6 +9340,8 @@ Exemplos públicos referência. GitLab Handbook (cerca de duas mil páginas púb
 **Burn Multiple.** Net burn (caixa gasto) dividido por net new ARR gerado. Mede eficiência de queima de caixa. Referência: ≤ 1.5x excelente, ≤ 2.5x aceitável, acima de 3x preocupante.
 
 **Burn rate.** Velocidade de consumo de caixa por mês. Caixa disponível dividido pelo burn rate mensal = runway.
+
+**COF (Circular de Oferta de Franquia).** Documento jurídico obrigatório regido pela Lei de Franquias (Lei 13.966/2019) que a franqueadora deve entregar ao candidato com no mínimo 10 dias de antecedência da assinatura de qualquer contrato ou pagamento de taxa, sob pena de anulabilidade e devolução integral dos valores corrigidos.
 
 **CAC (Customer Acquisition Cost).** Custo total de marketing e vendas dividido pelo número de novos clientes no período. Calculado por canal para diagnóstico preciso, não apenas blended.
 
@@ -9462,6 +9464,8 @@ Exemplos públicos referência. GitLab Handbook (cerca de duas mil páginas púb
 **Post-mortem.** Análise retrospectiva de falha ou incidente, com foco em aprendizado sistêmico em vez de atribuição de culpa. Blameless post-mortem é variante que explicitamente remove julgamento pessoal.
 
 **Pre-seed.** Rodada de captação anterior à Série Seed. Tipicamente R$ 300 mil a R$ 3 milhões, de anjos ou fundos micro-VC, para time e MVP inicial.
+
+**Rental (Locação Pesada de Ativos).** Modelo de negócios intensivo em capital baseado na compra de frotas de caminhões, máquinas de linha amarela, equipamentos agrícolas ou industriais com desconto de montadora (OEM), locação de longo prazo (36 a 60 meses) dedutível como OpEx no Lucro Real do cliente e posterior revenda do ativo seminovo.
 
 **Radical Candor.** Modelo de feedback de Kim Scott (2017) que combina "care personally" com "challenge directly". Antídoto à manipulação insincera, agressão obnóxia e empatia ruinosa.
 
@@ -9638,3 +9642,15 @@ Exemplos públicos referência. GitLab Handbook (cerca de duas mil páginas púb
 **YoY:** Year-over-Year (comparação ano a ano). *Métricas.*
 
 **ZOPA:** Zone of Possible Agreement. *Negociação.*
+
+**ANATEL:** Agência Nacional de Telecomunicações. *Regulação / Telecom e ISPs.*
+
+**ANVISA:** Agência Nacional de Vigilância Sanitária. *Regulação / Saúde, Alimentos, Cosméticos e Agro.*
+
+**COF:** Circular de Oferta de Franquia (Lei 13.966/2019). *Franchising.*
+
+**CVC:** Corporate Venture Capital. *Economia da Inovação / Investimentos.*
+
+**INPI:** Instituto Nacional da Propriedade Industrial. *Propriedade Intelectual / Patentes e Marcas.*
+
+**MAPA:** Ministério da Agricultura e Pecuária. *Regulação / Agronegócio e Bioinsumos.*

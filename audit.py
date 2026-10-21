@@ -198,7 +198,7 @@ def audit_structure_and_links(only_problems: bool = False) -> bool:
     print("=== RESULTADO (estrutura autocontida e wikilinks) ===")
     print(f"Volumes verificados:        {len(vols)} (esperado: 10)")
     print(f"Fases sequenciais (0-20):   {len(fases)} (esperado: 21)")
-    print(f"Capítulos temáticos:        {len(capitulos)} (esperado: 178)")
+    print(f"Capítulos temáticos:        {len(capitulos)} (esperado: 180)")
     print(f"Frameworks únicos / total:  {len(uniq_frameworks)} únicos ({len(frameworks)} instâncias nos Vols 1-9 | esperado: 164 únicos)")
     print(f"Canvases únicos / total:    {len(uniq_canvases)} únicos ({len(canvases)} instâncias nos Vols 1-9 | esperado: 20 únicos)")
     print(f"Templates únicos / total:   {len(uniq_templates)} únicos ({len(templates)} instâncias nos Vols 1-9 | esperado: 39 únicos)")
@@ -215,7 +215,7 @@ def audit_structure_and_links(only_problems: bool = False) -> bool:
 
     return (
         len(fases) == 21
-        and len(capitulos) == 178
+        and len(capitulos) == 180
         and len(uniq_frameworks) == 164
         and len(uniq_canvases) == 20
         and len(uniq_templates) == 39

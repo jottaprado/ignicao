@@ -45,7 +45,7 @@ graph LR
     end
     subgraph J3["Ciclo Longo e Setores"]
         V9["<b>Vol. 9 — Maturidade, Exit e Family Office</b><br/>Fases 19 e 20 · Board, Crise, M&A, IPO e Cash Cow"]
-        V10["<b>Vol. 10 — Economia da Inovação e 40 Verticais</b><br/>Hubs Globais, Regulação, 40 Setores e Dicionário"]
+        V10["<b>Vol. 10 — Economia da Inovação e 42 Verticais</b><br/>Hubs Globais, Regulação, 42 Setores e Dicionário"]
         V8 --> V9
     end
     V10 -. "Consulta Setorial e Dicionário" .-> J1
@@ -4207,11 +4207,11 @@ A partir daqui, sua empresa entra nos **quatro volumes autocontidos de Escala (V
 
 Nenhuma startup atinge *Product-Market Fit* apenas construindo um bom produto em silêncio: *Product-Market Fit* é, na verdade, *Product-Market-Channel-Model Fit*. Estes sete capítulos formam o manual completo de **Go-to-Market e Aquisição Inicial (de R$ 0 ao primeiro R$ 1M de ARR)**:
 
-- **[[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#C|Capítulo 1 — Go-to-Market Playbook (0 a R$ 1M ARR) (Vol. 10)]]:** A sequência exata para conquistar os primeiros 10, 50 e 100 clientes sem desperdiçar caixa em estruturas prematuras.
+- **[[#CAPÍTULO 1 — GTM PLAYBOOK: DA IDEIA AO PRIMEIRO MILHÃO DE ARR|Capítulo 1 — Go-to-Market Playbook (0 a R$ 1M ARR)]]:** A sequência exata para conquistar os primeiros 10, 50 e 100 clientes sem desperdiçar caixa em estruturas prematuras.
 - **[[#CAPÍTULO 2 — FRAMEWORK DE CANAIS DE AQUISIÇÃO|Capítulo 2 — Framework de Canais de Aquisição]]:** Como escolher, testar e saturar seu canal primário de distribuição (incluindo o guia de leituras sobre *Product-Led Growth*).
-- **[[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#C|Capítulo 3 — Content Marketing, SEO e Mídia Própria (Vol. 10)]] e [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#C|Capítulo 4 — Community-Led Growth (Vol. 10)]]:** Como construir ativos orgânicos compostos (conteúdo técnico, SEO programático e comunidades de prática, com casos RD Station e Hotmart).
-- **[[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#C|Capítulo 5 — Marketing de Performance e Mídia Paga (Vol. 10)]]:** Como operar Meta Ads, Google Ads, criativos, atribuição e ROAS/CAC sem queimar caixa em tráfego desqualificado.
-- **[[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#C|Capítulo 6 — Branding para Startups (Vol. 10)]] e [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#C|Capítulo 7 — Product Marketing (PMM) (Vol. 10)]]:** Como construir identidade visual/verbal, narrativa de lançamento, *battlecards* competitivos e materiais de habilitação de vendas.
+- **[[#CAPÍTULO 3 — CONTENT MARKETING E SEO COMO DISCIPLINA|Capítulo 3 — Content Marketing, SEO e Mídia Própria]] e [[#CAPÍTULO 4 — COMMUNITY BUILDING COMO DISCIPLINA|Capítulo 4 — Community-Led Growth]]:** Como construir ativos orgânicos compostos (conteúdo técnico, SEO programático e comunidades de prática, com casos RD Station e Hotmart).
+- **[[#CAPÍTULO 5 — MARKETING DE PERFORMANCE EM PROFUNDIDADE|Capítulo 5 — Marketing de Performance e Mídia Paga]]:** Como operar Meta Ads, Google Ads, criativos, atribuição e ROAS/CAC sem queimar caixa em tráfego desqualificado.
+- **[[#CAPÍTULO 6 — BRANDING E POSICIONAMENTO DE MARCA PARA STARTUPS|Capítulo 6 — Branding para Startups]] e [[#CAPÍTULO 7 — PRODUCT MARKETING: POSICIONAMENTO, MENSAGEM E LANÇAMENTO|Capítulo 7 — Product Marketing (PMM)]]:** Como construir identidade visual/verbal, narrativa de lançamento, *battlecards* competitivos e materiais de habilitação de vendas.
 
 ---
 
@@ -6190,10 +6190,10 @@ Startups brasileiras raramente chegam a ter squad de PMM antes de Series C. O ma
 Conquistar a atenção do mercado (Capítulos 1 a 7) é metade da equação da tração; a outra metade é **converter essa atenção em contratos assinados no preço certo e reter/expandir esses clientes mês após mês**. Estes seis capítulos cobrem a máquina de receita recorrente:
 
 - **[[#CAPÍTULO 8 — SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|Capítulo 8 — Sales: Motion Completa (do Outbound ao Renewal)]]:** O manual de vendas B2B desde o *founder-led sales* até os primeiros SDRs e Account Executives, prospecção outbound, qualificação, demonstração e fechamento.
-- **[[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#C|Capítulo 9 — Pricing: Estratégia, Psicologia e Execução (Vol. 10)]]:** A alavanca de maior impacto no lucro — precificação baseada em valor, métrica de valor, *packaging* em tiers e psicologia de preços no Brasil.
-- **[[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#C|Capítulo 10 — Economia de Recorrência (Vol. 10)]]:** A matemática das assinaturas — MRR, ARR, *logo churn*, *revenue churn*, *churn* involuntário e *Net Revenue Retention (NRR)*.
-- **[[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#C|Capítulo 11 — Negociação para Empreendedores (Vol. 10)]]:** Táticas práticas de mesa para fechar contratos com clientes, fornecedores e parceiros — trazendo embutidos os manuais completos de *Harvard Negotiation (BATNA & ZOPA)*, *Never Split the Difference (Chris Voss)*, *Ackerman Method* e *Getting Past No (William Ury)*.
-- **[[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#C|Capítulo 12 — Customer Success (Vol. 10)]] e [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#C|Capítulo 13 — Customer Experience (CX) (Vol. 10)]]:** Como desenhar *onboarding* que entrega o primeiro valor (*Time-to-Value*) em dias, monitorar *health score* e transformar suporte e sucesso do cliente em motor de expansão (*upsell/cross-sell*).
+- **[[#CAPÍTULO 9 — PRICING STRATEGY COMO DISCIPLINA|Capítulo 9 — Pricing: Estratégia, Psicologia e Execução]]:** A alavanca de maior impacto no lucro — precificação baseada em valor, métrica de valor, *packaging* em tiers e psicologia de preços no Brasil.
+- **[[#CAPÍTULO 10 — SUBSCRIPTION ECONOMY EM PROFUNDIDADE: ALÉM DO "COBRA MENSALMENTE"|Capítulo 10 — Economia de Recorrência]]:** A matemática das assinaturas — MRR, ARR, *logo churn*, *revenue churn*, *churn* involuntário e *Net Revenue Retention (NRR)*.
+- **[[#CAPÍTULO 11 — NEGOCIAÇÃO COMO DISCIPLINA|Capítulo 11 — Negociação para Empreendedores]]:** Táticas práticas de mesa para fechar contratos com clientes, fornecedores e parceiros — trazendo embutidos os manuais completos de *Harvard Negotiation (BATNA & ZOPA)*, *Never Split the Difference (Chris Voss)*, *Ackerman Method* e *Getting Past No (William Ury)*.
+- **[[#CAPÍTULO 12 — CUSTOMER SUCCESS COMO DISCIPLINA|Capítulo 12 — Customer Success]] e [[#CAPÍTULO 13 — CUSTOMER EXPERIENCE: DA JORNADA AO NPS AO CHURN ZERO|Capítulo 13 — Customer Experience (CX)]]:** Como desenhar *onboarding* que entrega o primeiro valor (*Time-to-Value*) em dias, monitorar *health score* e transformar suporte e sucesso do cliente em motor de expansão (*upsell/cross-sell*).
 
 ---
 
@@ -8357,9 +8357,9 @@ Estágio         | Equipe         | Ratio CS:clientes | Foco
 
 Fechando o Volume 4, estes três capítulos respondem a três exigências críticas da etapa de Tração:
 
-- **[[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#C|Capítulo 14 — Data & Analytics Stack (Vol. 10)]]:** Como instrumentar eventos de produto, funis e coortes desde a planilha limpa até *data warehouses* modernos, garantindo uma única fonte da verdade (*Single Source of Truth*) e conformidade *privacy-first*.
-- **[[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#C|Capítulo 15 — Produto AI-Native (Vol. 10)]]:** Para quem está construindo software com IA Generativa e LLMs no coração do produto — arquitetura de *prompts*/RAG/agentes, controle de custos de inferência (*token economics*), avaliação (*evals*), *moats* de dados proprietários e governança.
-- **[[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#C|Capítulo 16 — Pivô: Como Decidir, Executar e Sobreviver (Vol. 10)]]:** Quando os dados das Fases 11 a 13 mostram que a tese atual bateu num teto estrutural — os 10 tipos de pivô, como decidir sem procrastinar, como comunicar ao time e aos investidores e como preservar o caixa para a nova direção.
+- **[[#CAPÍTULO 14 — DADOS, ANALYTICS E EXPERIMENTAÇÃO|Capítulo 14 — Data & Analytics Stack]]:** Como instrumentar eventos de produto, funis e coortes desde a planilha limpa até *data warehouses* modernos, garantindo uma única fonte da verdade (*Single Source of Truth*) e conformidade *privacy-first*.
+- **[[#CAPÍTULO 15 — AI COMO PARTE DO PRODUTO (AI-NATIVE PRODUCT)|Capítulo 15 — Produto AI-Native]]:** Para quem está construindo software com IA Generativa e LLMs no coração do produto — arquitetura de *prompts*/RAG/agentes, controle de custos de inferência (*token economics*), avaliação (*evals*), *moats* de dados proprietários e governança.
+- **[[#CAPÍTULO 16 — PIVOT: TIPOLOGIA, DECISÃO E EXECUÇÃO|Capítulo 16 — Pivô: Como Decidir, Executar e Sobreviver]]:** Quando os dados das Fases 11 a 13 mostram que a tese atual bateu num teto estrutural — os 10 tipos de pivô, como decidir sem procrastinar, como comunicar ao time e aos investidores e como preservar o caixa para a nova direção.
 
 ---
 
@@ -9143,7 +9143,7 @@ A diferença entre os dois é disciplina. Evidência antes da decisão. Tese esp
 # GLOSSÁRIO E SIGLAS DESTE VOLUME
 
 > [!abstract] Vocabulário técnico e siglas deste volume
-> Para garantir que este **Volume 4** funcione de forma 100% independente e autocontida sem exigir consulta a outro livro, esta seção reúne as definições dos **91 termos técnicos e de negócios** e das **52 siglas e abreviações** utilizados ao longo das Fases e Capítulos deste volume.
+> Para garantir que este **Volume 4** funcione de forma 100% independente e autocontida sem exigir consulta a outro livro, esta seção reúne as definições dos **92 termos técnicos e de negócios** e das **54 siglas e abreviações** utilizados ao longo das Fases e Capítulos deste volume.
 
 ---
 
@@ -9172,6 +9172,8 @@ A diferença entre os dois é disciplina. Evidência antes da decisão. Tese esp
 **Burn Multiple.** Net burn (caixa gasto) dividido por net new ARR gerado. Mede eficiência de queima de caixa. Referência: ≤ 1.5x excelente, ≤ 2.5x aceitável, acima de 3x preocupante.
 
 **Burn rate.** Velocidade de consumo de caixa por mês. Caixa disponível dividido pelo burn rate mensal = runway.
+
+**CPSI (Contrato Público para Solução Inovadora).** Modalidade especial de licitação criada pelo Marco Legal das Startups (LC 182/2021) que permite à administração pública contratar testes remunerados de soluções inovadoras por até R$ 1,6 milhão por contrato (com possibilidade de fornecimento posterior sem nova licitação até R$ 8 milhões).
 
 **CAC (Customer Acquisition Cost).** Custo total de marketing e vendas dividido pelo número de novos clientes no período. Calculado por canal para diagnóstico preciso, não apenas blended.
 
@@ -9440,3 +9442,7 @@ A diferença entre os dois é disciplina. Evidência antes da decisão. Tese esp
 **VPC:** Value Proposition Canvas. *Framework de produto.*
 
 **ZOPA:** Zone of Possible Agreement. *Negociação.*
+
+**CPSI:** Contrato Público para Solução Inovadora (Marco Legal das Startups). *Govtech.*
+
+**INPI:** Instituto Nacional da Propriedade Industrial. *Propriedade Intelectual / Patentes e Marcas.*

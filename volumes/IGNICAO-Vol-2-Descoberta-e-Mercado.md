@@ -45,7 +45,7 @@ graph LR
     end
     subgraph J3["Ciclo Longo e Setores"]
         V9["<b>Vol. 9 — Maturidade, Exit e Family Office</b><br/>Fases 19 e 20 · Board, Crise, M&A, IPO e Cash Cow"]
-        V10["<b>Vol. 10 — Economia da Inovação e 40 Verticais</b><br/>Hubs Globais, Regulação, 40 Setores e Dicionário"]
+        V10["<b>Vol. 10 — Economia da Inovação e 42 Verticais</b><br/>Hubs Globais, Regulação, 42 Setores e Dicionário"]
         V8 --> V9
     end
     V10 -. "Consulta Setorial e Dicionário" .-> J1
@@ -6720,7 +6720,7 @@ Não se descobre um cliente nem se mapeia um mercado no vácuo cultural: um comp
 - **[[#CAPÍTULO 1 — PSICOLOGIA DO CONSUMIDOR BRASILEIRO — COMPORTAMENTO, DECISÃO E CONVERSÃO|Capítulo 1 — Psicologia do Consumidor Brasileiro]]:** Os gatilhos culturais, financeiros e sociais de decisão de compra no B2C e no B2B brasileiro.
 - **[[#CAPÍTULO 2 — INTELIGÊNCIA COMPETITIVA — MONITORAMENTO, ANÁLISE E RESPOSTA|Capítulo 2 — Inteligência Competitiva]]:** Como mapear concorrentes diretos, indiretos e substitutos usando fontes públicas, engenharia reversa ética e entrevistas com ex-clientes.
 - **[[#CAPÍTULO 3 — CATEGORY DESIGN|Capítulo 3 — Category Design]]:** Como decidir entre disputar uma categoria existente ou batizar e liderar uma nova categoria de mercado.
-- **[[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#C|Capítulo 4 — Posicionamento e Estratégia Competitiva (Vol. 10)]]:** O guia integrado de síntese estratégica conectando posicionamento, proposta de valor e fosso competitivo (*moat*).
+- **[[#CAPÍTULO 4 — CASOS DE FRACASSO BRASILEIROS E LIÇÕES|Capítulo 4 — Posicionamento e Estratégia Competitiva]]:** O guia integrado de síntese estratégica conectando posicionamento, proposta de valor e fosso competitivo (*moat*).
 
 ---
 
@@ -7835,7 +7835,7 @@ Os sete padrões originais (escalar antes do PMF, queimar caixa em aquisição s
 # GLOSSÁRIO E SIGLAS DESTE VOLUME
 
 > [!abstract] Vocabulário técnico e siglas deste volume
-> Para garantir que este **Volume 2** funcione de forma 100% independente e autocontida sem exigir consulta a outro livro, esta seção reúne as definições dos **52 termos técnicos e de negócios** e das **36 siglas e abreviações** utilizados ao longo das Fases e Capítulos deste volume.
+> Para garantir que este **Volume 2** funcione de forma 100% independente e autocontida sem exigir consulta a outro livro, esta seção reúne as definições dos **55 termos técnicos e de negócios** e das **40 siglas e abreviações** utilizados ao longo das Fases e Capítulos deste volume.
 
 ---
 
@@ -7847,11 +7847,15 @@ Os sete padrões originais (escalar antes do PMF, queimar caixa em aquisição s
 
 **ARR (Annual Recurring Revenue).** Receita anual recorrente. Soma de todos os contratos ativos anualizados. Principal métrica de tamanho de empresa SaaS. ARR = MRR × 12.
 
+**Basis (Prêmio de Porto).** Diferença entre o preço físico de uma commodity em um porto de exportação (como Paranaguá, Santos ou Barcarena) e a cotação do contrato futuro de referência na bolsa internacional (CBOT ou ICE), refletindo frete marítimo, câmbio e oferta/demanda local.
+
 **Beachhead.** Segmento inicial de mercado onde a empresa concentra esforços antes de expandir. Derivado da estratégia militar (cabeça de praia). O beachhead deve ser pequeno o suficiente para ser dominado, mas grande o suficiente para financiar a expansão.
 
 **Bet-the-company (aposta central).** Hipótese cuja refutação invalida o modelo de negócio inteiro. Diferente de hipóteses secundárias, que podem ser refutadas sem comprometer a empresa. Todo negócio tem duas a cinco apostas-centrais.
 
 **Board.** Conselho de administração. Órgão de governança da empresa. Em startups, tipicamente 3-5 membros: fundadores, investidores e independentes.
+
+**Cash Cow (Empresa Pagadora de Dividendos).** Companhia madura com posição competitiva defensável, baixa necessidade de reinvestimento em CapEx, alta geração de fluxo de caixa livre (FCF) e ROIC elevado, operada para distribuir dividendos recorrentes aos sócios em vez de buscar venda (exit).
 
 **CAC (Customer Acquisition Cost).** Custo total de marketing e vendas dividido pelo número de novos clientes no período. Calculado por canal para diagnóstico preciso, não apenas blended.
 
@@ -7924,6 +7928,8 @@ Os sete padrões originais (escalar antes do PMF, queimar caixa em aquisição s
 **Positioning.** Posicionamento — escolha estratégica de como a empresa quer ser percebida em relação a concorrentes e alternativas, na mente do cliente.
 
 **Post-mortem.** Análise retrospectiva de falha ou incidente, com foco em aprendizado sistêmico em vez de atribuição de culpa. Blameless post-mortem é variante que explicitamente remove julgamento pessoal.
+
+**Rental (Locação Pesada de Ativos).** Modelo de negócios intensivo em capital baseado na compra de frotas de caminhões, máquinas de linha amarela, equipamentos agrícolas ou industriais com desconto de montadora (OEM), locação de longo prazo (36 a 60 meses) dedutível como OpEx no Lucro Real do cliente e posterior revenda do ativo seminovo.
 
 **ROI (Return on Investment).** Retorno sobre investimento. (Ganho - Custo) / Custo. Métrica genérica de eficiência de capital aplicado.
 
@@ -8022,3 +8028,11 @@ Os sete padrões originais (escalar antes do PMF, queimar caixa em aquisição s
 **VC:** Venture Capital. *Captação.*
 
 **VPC:** Value Proposition Canvas. *Framework de produto.*
+
+**ANS:** Agência Nacional de Saúde Suplementar. *Regulação / Planos de Saúde e Healthtech.*
+
+**ANVISA:** Agência Nacional de Vigilância Sanitária. *Regulação / Saúde, Alimentos, Cosméticos e Agro.*
+
+**CADE:** Conselho Administrativo de Defesa Econômica. *Antitruste / M&A.*
+
+**INPI:** Instituto Nacional da Propriedade Industrial. *Propriedade Intelectual / Patentes e Marcas.*

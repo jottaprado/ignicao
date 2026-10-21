@@ -45,7 +45,7 @@ graph LR
     end
     subgraph J3["Ciclo Longo e Setores"]
         V9["<b>Vol. 9 — Maturidade, Exit e Family Office</b><br/>Fases 19 e 20 · Board, Crise, M&A, IPO e Cash Cow"]
-        V10["<b>Vol. 10 — Economia da Inovação e 40 Verticais</b><br/>Hubs Globais, Regulação, 40 Setores e Dicionário"]
+        V10["<b>Vol. 10 — Economia da Inovação e 42 Verticais</b><br/>Hubs Globais, Regulação, 42 Setores e Dicionário"]
         V8 --> V9
     end
     V10 -. "Consulta Setorial e Dicionário" .-> J1
@@ -2246,8 +2246,8 @@ Na **[[#FASE 17 — OPERAÇÕES, PROCESSOS E GESTÃO EM ESCALA|Fase 17]]**, voc�
 
 Estes sete capítulos formam o manual integrado de liderança técnica e de produto quando a empresa precisa entregar velocidade de inovação e estabilidade de plataforma ao mesmo tempo:
 
-- **Produto e Liderança Técnica ([[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#C|Capítulo 1 (Vol. 10)]], [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#C|Capítulo 2 (Vol. 10)]], [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#C|Capítulo 3 (Vol. 10)]] e [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#C|Capítulo 4 (Vol. 10)]]):** Como manter *discovery* contínuo e gerenciar portfólio entre múltiplos *squads* (Cap. 1), a transição do fundador desenvolvedor de contribuidor individual (IC) para líder de engenharia/CTO (Cap. 2), como avaliar e recrutar engenheiros excelentes mesmo se você não for técnico (Cap. 3) e como estruturar *Engineering Management*, trilhas de carreira (IC vs. Manager) e *Developer Experience / DevEx* (Cap. 4).
-- **Arquitetura, Dívida Técnica e IA Operacional ([[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#C|Capítulo 5 (Vol. 10)]], [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#C|Capítulo 6 (Vol. 10)]] e [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#C|Capítulo 7 (Vol. 10)]]):** Como diagnosticar, negociar e pagar dívida técnica antes que o sistema pare (Cap. 5), como liderar times de engenharia potencializados por agentes de código e IA (Cap. 6) e como automatizar operações internas de ponta a ponta com *AI Ops* (Cap. 7).
+- **Produto e Liderança Técnica ([[#CAPÍTULO 1 — PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA|Capítulo 1]], [[#CAPÍTULO 2 — MANAGEMENT PARA O FUNDADOR TÉCNICO|Capítulo 2]], [[#CAPÍTULO 3 — RECRUTAMENTO TÉCNICO EM PROFUNDIDADE|Capítulo 3]] e [[#CAPÍTULO 4 — ENGINEERING MANAGEMENT: GESTÃO DO TIME TÉCNICO E DEVELOPER EXPERIENCE|Capítulo 4]]):** Como manter *discovery* contínuo e gerenciar portfólio entre múltiplos *squads* (Cap. 1), a transição do fundador desenvolvedor de contribuidor individual (IC) para líder de engenharia/CTO (Cap. 2), como avaliar e recrutar engenheiros excelentes mesmo se você não for técnico (Cap. 3) e como estruturar *Engineering Management*, trilhas de carreira (IC vs. Manager) e *Developer Experience / DevEx* (Cap. 4).
+- **Arquitetura, Dívida Técnica e IA Operacional ([[#CAPÍTULO 5 — TECHNICAL DEBT COMO DISCIPLINA GERENCIADA|Capítulo 5]], [[#CAPÍTULO 6 — IA NA ENGENHARIA INTERNA: COPILOT, AGENTES E PRODUTIVIDADE DE DEV|Capítulo 6]] e [[#CAPÍTULO 7 — AI OPS E AUTOMAÇÃO INTELIGENTE|Capítulo 7]]):** Como diagnosticar, negociar e pagar dívida técnica antes que o sistema pare (Cap. 5), como liderar times de engenharia potencializados por agentes de código e IA (Cap. 6) e como automatizar operações internas de ponta a ponta com *AI Ops* (Cap. 7).
 
 ---
 

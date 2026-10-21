@@ -45,7 +45,7 @@ graph LR
     end
     subgraph J3["Ciclo Longo e Setores"]
         V9["<b>Vol. 9 — Maturidade, Exit e Family Office</b><br/>Fases 19 e 20 · Board, Crise, M&A, IPO e Cash Cow"]
-        V10["<b>Vol. 10 — Economia da Inovação e 40 Verticais</b><br/>Hubs Globais, Regulação, 40 Setores e Dicionário"]
+        V10["<b>Vol. 10 — Economia da Inovação e 42 Verticais</b><br/>Hubs Globais, Regulação, 42 Setores e Dicionário"]
         V8 --> V9
     end
     V10 -. "Consulta Setorial e Dicionário" .-> J1
@@ -1064,9 +1064,9 @@ Com essa base formalizada, a [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16 — TIME,
 A primeira linha de defesa jurídica da startup protege **quem é dono da empresa, até onde vai a responsabilidade do CPF dos sócios e quem é dono da tecnologia e da marca**:
 
 - **[[#CAPÍTULO 1 — MARCO LEGAL DAS STARTUPS: LC 182/2021|Capítulo 1 — Marco Legal das Startups (LC 182/2021)]]:** Todos os benefícios e dispositivos da Lei Complementar 182/2021 — enquadramento, proteção do investidor-anjo contra dívidas da empresa, instrumentos de investimento e licitações especiais (CPSI).
-- **[[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#C|Capítulo 2 — Responsabilidade Pessoal do Sócio e do Administrador (Vol. 10)]]:** Como funciona na prática a desconsideração da personalidade jurídica no Brasil (cível, consumerista, tributária e trabalhista) e quais condutas mantêm seu patrimônio pessoal protegido.
-- **[[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#C|Capítulo 3 — Propriedade Intelectual no Brasil (Vol. 10)]]:** Registro de marcas e patentes no INPI, proteção de código-fonte, cessão obrigatória de PI por funcionários e prestadores PJ e proteção de segredo de negócio.
-- **[[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#C|Capítulo 4 — Não-Concorrência (Non-Compete) e Não-Aliciamento (Vol. 10)]]:** Como redigir cláusulas de *non-compete*, *non-solicit* e confidencialidade que sejam efetivamente válidas e executáveis perante os tribunais brasileiros.
+- **[[#CAPÍTULO 2 — RESPONSABILIDADE DO SÓCIO E DO ADMINISTRADOR|Capítulo 2 — Responsabilidade Pessoal do Sócio e do Administrador]]:** Como funciona na prática a desconsideração da personalidade jurídica no Brasil (cível, consumerista, tributária e trabalhista) e quais condutas mantêm seu patrimônio pessoal protegido.
+- **[[#CAPÍTULO 3 — PROPRIEDADE INTELECTUAL E INPI|Capítulo 3 — Propriedade Intelectual no Brasil]]:** Registro de marcas e patentes no INPI, proteção de código-fonte, cessão obrigatória de PI por funcionários e prestadores PJ e proteção de segredo de negócio.
+- **[[#CAPÍTULO 4 — NÃO-CONCORRÊNCIA E NÃO-SOLICITAÇÃO NO BRASIL|Capítulo 4 — Não-Concorrência (Non-Compete) e Não-Aliciamento]]:** Como redigir cláusulas de *non-compete*, *non-solicit* e confidencialidade que sejam efetivamente válidas e executáveis perante os tribunais brasileiros.
 
 ---
 
@@ -1741,7 +1741,7 @@ O tema da responsabilidade societária atravessa momentos diferentes da trajetó
 - [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 1 — DINHEIRO PESSOAL DO FUNDADOR|Capítulo 1 — Dinheiro Pessoal do Fundador (Vol. 1)]]
 - [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 21 — INVESTOR RELATIONS PÓS-RODADA|Capítulo 21 — Due Diligence para Captação (Vol. 5)]]
 - [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 2 — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Capítulo 2 — Contabilidade, Tributário e Regimes Fiscais (Vol. 5)]]
-- [[#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18 — Estruturação Jurídica, Societária e Blindagem Operacional]]
+- [[IGNICAO-Vol-1-Ideacao#FASE 1 — ENCONTRAR A IDEIA|Fase 1 — Estruturação Jurídica, Societária e Blindagem Operacional (Vol. 1)]]
 - [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16 — Time, Liderança Executiva e Cultura em Escala (Vol. 6)]]
 
 ---
@@ -2070,7 +2070,7 @@ O que qualquer investidor ou acquirer vai examinar:
 | IP assignment em contratos (visão geral de contratos) | [[#CAPÍTULO 5 — CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS|Capítulo 5 (CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS)]] |
 | Open source como modelo estratégico de negócio | [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 9 — OPEN SOURCE COMO ESTRATÉGIA|Capítulo 9 (OPEN SOURCE COMO ESTRATÉGIA) (Vol. 3)]] |
 | Patentes em deep tech, hardware, e TRL | [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 21 — HARDWARE E DEEP TECH: CONSTRUIR NEGÓCIO COM FABRICAÇÃO, IP E HORIZONTES LONGOS|Capítulo 21 (HARDWARE E DEEP TECH: CONSTRUIR NEGÓCIO COM FABRICAÇÃO, IP E HORIZONTES LONGOS) (Vol. 10)]] |
-| PI em biotecnologia, ANVISA, ensaios | [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 28 — BIOTECH E HEALTHTECH: PLAYBOOK DE REGULAÇÃO, ENSAIOS E CAPITAL|Capítulo 28 (BIOTECH E HEALTHTECH: PLAYBOOK DE REGULAÇÃO, ENSAIOS E CAPITAL) (Vol. 10)]] |
+| PI em biotecnologia, ANVISA, ensaios | [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 29 — BIOTECH E HEALTHTECH: PLAYBOOK DE REGULAÇÃO, ENSAIOS E CAPITAL|Capítulo 29 (BIOTECH E HEALTHTECH: PLAYBOOK DE REGULAÇÃO, ENSAIOS E CAPITAL) (Vol. 10)]] |
 | Estruturação societária, constituição de S/A | [[#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18]] |
 | Marco Legal das Startups, COCP | [[#CAPÍTULO 1 — MARCO LEGAL DAS STARTUPS: LC 182/2021|Capítulo 1 (MARCO LEGAL DAS STARTUPS: LC 182/2021)]] |
 | Expansão internacional, estrutura holding | [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 5 — INTERNACIONALIZAÇÃO: ESTRUTURA E PRODUTO PARA MÚLTIPLOS MERCADOS|Capítulo 5 (INTERNACIONALIZAÇÃO: ESTRUTURA E PRODUTO PARA MÚLTIPLOS MERCADOS) (Vol. 9)]] |
@@ -2257,9 +2257,9 @@ Para sócio que sai voluntariamente vs. sócio excluído: a validade pode variar
 
 A segunda linha de defesa regula as relações da startup com seus **clientes, fornecedores, parceiros, colaboradores e o Poder Judiciário**:
 
-- **Arquitetura Contratual ([[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#C|Capítulo 5 (Vol. 10)]] e [[#CAPÍTULO 6 — CONTRATOS EM PROFUNDIDADE POR TIPO|Capítulo 6]]):** Os princípios de redação e negociação de SLAs, limitação de responsabilidade (*cap* de indenização), reajuste e rescisão (Cap. 5), seguidos pela análise cláusula a cláusula dos principais contratos empresariais por tipo — SaaS/licenciamento, prestação de serviços, distribuição, parceria comercial, NDA e fornecimento (Cap. 6).
+- **Arquitetura Contratual ([[#CAPÍTULO 5 — CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS|Capítulo 5]] e [[#CAPÍTULO 6 — CONTRATOS EM PROFUNDIDADE POR TIPO|Capítulo 6]]):** Os princípios de redação e negociação de SLAs, limitação de responsabilidade (*cap* de indenização), reajuste e rescisão (Cap. 5), seguidos pela análise cláusula a cláusula dos principais contratos empresariais por tipo — SaaS/licenciamento, prestação de serviços, distribuição, parceria comercial, NDA e fornecimento (Cap. 6).
 - **Relações de Trabalho ([[#CAPÍTULO 7 — DIREITO DO TRABALHO PARA STARTUPS|Capítulo 7 — Direito do Trabalho para Startups Brasileiras]]):** O mapa real do risco trabalhista no Brasil — quando contratar CLT vs. PJ, os 4 requisitos de vínculo empregatício (pejotização), teletrabalho, banco de horas, cargos de confiança (art. 62 da CLT) e prevenção de passivos ocultos que travam *due diligences*.
-- **Consumidor e Disputas ([[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#C|Capítulo 8 (Vol. 10)]] e [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#C|Capítulo 9 (Vol. 10)]]):** Como aplicar o CDC a produtos digitais, e-commerce e fintechs (direito de arrependimento, responsabilidade objetiva, Procon/Consumidor.gov) e como gerir processos judiciais, arbitragens e acordos de forma estratégica.
+- **Consumidor e Disputas ([[#CAPÍTULO 8 — DIREITO DO CONSUMIDOR E CDC PARA STARTUPS|Capítulo 8]] e [[#CAPÍTULO 9 — CONTENCIOSO E LITÍGIO PARA STARTUPS|Capítulo 9]]):** Como aplicar o CDC a produtos digitais, e-commerce e fintechs (direito de arrependimento, responsabilidade objetiva, Procon/Consumidor.gov) e como gerir processos judiciais, arbitragens e acordos de forma estratégica.
 
 ---
 
@@ -4228,8 +4228,8 @@ Este capítulo cobre os quatro vetores de contencioso (trabalhista, cível, trib
 Para vender para grandes empresas, operar em setores regulados ou passar pela *due diligence* de um fundo institucional, a startup precisa provar maturidade em **privacidade de dados, ética corporativa, controles internos e segurança cibernética**:
 
 - **Privacidade e IA ([[#CAPÍTULO 10 — LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Capítulo 10 — LGPD, Compliance e Governança de Dados]] e [[#CAPÍTULO 11 — REGULATÓRIO DE IA NO BRASIL|Capítulo 11 — Regulatório de IA]]):** Bases legais da LGPD, direitos do titular, papel do DPO, contratos de processamento de dados (DPA), resposta a incidentes perante a ANPD (Cap. 10) e o marco regulatório de Inteligência Artificial no Brasil (PL 2338) e na União Europeia (*EU AI Act*) (Cap. 11).
-- **Integridade e Prevenção a Fraudes ([[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#C|Capítulo 12 (Vol. 10)]] e [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#C|Capítulo 13 (Vol. 10)]]):** Programas de integridade, Lei Anticorrupção e relacionamento com órgãos públicos (Cap. 12), combinados com segregação de funções, alçadas de aprovação e auditoria para impedir desvios e fraudes internas (Cap. 13).
-- **Cibersegurança e Certificações ([[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#C|Capítulo 14 — Segurança da Informação, SOC 2 e ISO 27001 (Vol. 10)]]):** Arquitetura prática de segurança desde o estágio inicial até a obtenção das certificações SOC 2 e ISO 27001 exigidas por clientes *Enterprise*.
+- **Integridade e Prevenção a Fraudes ([[#CAPÍTULO 12 — COMPLIANCE E ANTICORRUPÇÃO PARA STARTUPS|Capítulo 12]] e [[#CAPÍTULO 13 — FRAUDE INTERNA E CONTROLES INTERNOS|Capítulo 13]]):** Programas de integridade, Lei Anticorrupção e relacionamento com órgãos públicos (Cap. 12), combinados com segregação de funções, alçadas de aprovação e auditoria para impedir desvios e fraudes internas (Cap. 13).
+- **Cibersegurança e Certificações ([[#CAPÍTULO 14 — SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA|Capítulo 14 — Segurança da Informação, SOC 2 e ISO 27001]]):** Arquitetura prática de segurança desde o estágio inicial até a obtenção das certificações SOC 2 e ISO 27001 exigidas por clientes *Enterprise*.
 
 ---
 
@@ -4248,7 +4248,7 @@ Para vender para grandes empresas, operar em setores regulados ou passar pela *d
 >
 > **Regulatorio** ([[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 4 — REGULATÓRIO SETORIAL BRASILEIRO|Capítulo 4 (REGULATÓRIO SETORIAL BRASILEIRO) (Vol. 10)]] indice, [[#CAPÍTULO 11 — REGULATÓRIO DE IA NO BRASIL|Capítulo 11 (REGULATÓRIO DE IA NO BRASIL)]] IA, [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 5 — CADE E ANTITRUSTE — QUANDO O CRESCIMENTO ATRAI O REGULADOR|Capítulo 5 (CADE E ANTITRUSTE — QUANDO O CRESCIMENTO ATRAI O REGULADOR) (Vol. 10)]] antitrust, [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 6 — POLÍTICA PÚBLICA COMO ESTRATÉGIA|Capítulo 6 (POLÍTICA PÚBLICA COMO ESTRATÉGIA) (Vol. 10)]] politica publica, [[#CAPÍTULO 8 — DIREITO DO CONSUMIDOR E CDC PARA STARTUPS|Capítulo 8 (DIREITO DO CONSUMIDOR E CDC PARA STARTUPS)]] CDC)
 >
-> **Verticais regulados** ([[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 28 — BIOTECH E HEALTHTECH: PLAYBOOK DE REGULAÇÃO, ENSAIOS E CAPITAL|Capítulo 28 (BIOTECH E HEALTHTECH: PLAYBOOK DE REGULAÇÃO, ENSAIOS E CAPITAL) (Vol. 10)]], [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 21 — HARDWARE E DEEP TECH: CONSTRUIR NEGÓCIO COM FABRICAÇÃO, IP E HORIZONTES LONGOS|Capítulo 21 (HARDWARE E DEEP TECH: CONSTRUIR NEGÓCIO COM FABRICAÇÃO, IP E HORIZONTES LONGOS) (Vol. 10)]], [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 30 — GOVTECH: STARTUP VENDENDO PARA GOVERNO|Capítulo 30 (GOVTECH: STARTUP VENDENDO PARA GOVERNO) (Vol. 10)]], [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 11 — AGRITECH: PLAYBOOK PARA O CAMPO BRASILEIRO|Capítulo 11 (AGRITECH: PLAYBOOK PARA O CAMPO BRASILEIRO) (Vol. 10)]], [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 29 — EDTECH: PLAYBOOK PARA TECNOLOGIA DE EDUCAÇÃO NO BRASIL|Capítulo 29 (EDTECH: PLAYBOOK PARA TECNOLOGIA DE EDUCAÇÃO NO BRASIL) (Vol. 10)]], [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 17 — CLEANTECH E ESG: STARTUPS DE IMPACTO AMBIENTAL NO BRASIL|Capítulo 17 (CLEANTECH E ESG: STARTUPS DE IMPACTO AMBIENTAL NO BRASIL) (Vol. 10)]], [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 24 — PROPTECH: TECNOLOGIA NO MERCADO IMOBILIÁRIO BRASILEIRO|Capítulo 24 (PROPTECH: TECNOLOGIA NO MERCADO IMOBILIÁRIO BRASILEIRO) (Vol. 10)]], [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 31 — LEGALTECH: TECNOLOGIA JURÍDICA NO BRASIL|Capítulo 31 (LEGALTECH: TECNOLOGIA JURÍDICA NO BRASIL) (Vol. 10)]], [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 22 — LOGTECH: TECNOLOGIA EM LOGÍSTICA E SUPPLY CHAIN NO BRASIL|Capítulo 22 (LOGTECH: TECNOLOGIA EM LOGÍSTICA E SUPPLY CHAIN NO BRASIL) (Vol. 10)]])
+> **Verticais regulados** ([[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 29 — BIOTECH E HEALTHTECH: PLAYBOOK DE REGULAÇÃO, ENSAIOS E CAPITAL|Capítulo 29 (BIOTECH E HEALTHTECH: PLAYBOOK DE REGULAÇÃO, ENSAIOS E CAPITAL) (Vol. 10)]], [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 21 — HARDWARE E DEEP TECH: CONSTRUIR NEGÓCIO COM FABRICAÇÃO, IP E HORIZONTES LONGOS|Capítulo 21 (HARDWARE E DEEP TECH: CONSTRUIR NEGÓCIO COM FABRICAÇÃO, IP E HORIZONTES LONGOS) (Vol. 10)]], [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 32 — GOVTECH: STARTUP VENDENDO PARA GOVERNO|Capítulo 32 (GOVTECH: STARTUP VENDENDO PARA GOVERNO) (Vol. 10)]], [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 11 — AGRITECH: PLAYBOOK PARA O CAMPO BRASILEIRO|Capítulo 11 (AGRITECH: PLAYBOOK PARA O CAMPO BRASILEIRO) (Vol. 10)]], [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 31 — EDTECH: PLAYBOOK PARA TECNOLOGIA DE EDUCAÇÃO NO BRASIL|Capítulo 31 (EDTECH: PLAYBOOK PARA TECNOLOGIA DE EDUCAÇÃO NO BRASIL) (Vol. 10)]], [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 17 — CLEANTECH E ESG: STARTUPS DE IMPACTO AMBIENTAL NO BRASIL|Capítulo 17 (CLEANTECH E ESG: STARTUPS DE IMPACTO AMBIENTAL NO BRASIL) (Vol. 10)]], [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 25 — PROPTECH: TECNOLOGIA NO MERCADO IMOBILIÁRIO BRASILEIRO|Capítulo 25 (PROPTECH: TECNOLOGIA NO MERCADO IMOBILIÁRIO BRASILEIRO) (Vol. 10)]], [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 33 — LEGALTECH: TECNOLOGIA JURÍDICA NO BRASIL|Capítulo 33 (LEGALTECH: TECNOLOGIA JURÍDICA NO BRASIL) (Vol. 10)]], [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 22 — LOGTECH: TECNOLOGIA EM LOGÍSTICA E SUPPLY CHAIN NO BRASIL|Capítulo 22 (LOGTECH: TECNOLOGIA EM LOGÍSTICA E SUPPLY CHAIN NO BRASIL) (Vol. 10)]])
 >
 > **Modelos de negocio especiais** ([[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 6 — MARKETPLACE DYNAMICS E RISCO DE PLATAFORMA|Capítulo 6 (MARKETPLACE DYNAMICS E RISCO DE PLATAFORMA) (Vol. 3)]], [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 7 — PLATAFORMA VS PRODUTO: QUANDO CONSTRUIR PLATAFORMA E QUANDO NÃO|Capítulo 7 (PLATAFORMA VS PRODUTO: QUANDO CONSTRUIR PLATAFORMA E QUANDO NÃO) (Vol. 3)]], [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 8 — B2B2C: QUANDO SUA EMPRESA VENDE PARA OUTRA EMPRESA QUE VENDE PARA CONSUMIDOR|Capítulo 8 (B2B2C: QUANDO SUA EMPRESA VENDE PARA OUTRA EMPRESA QUE VENDE PARA CONSUMIDOR) (Vol. 3)]], [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 6 — CANAIS INDIRETOS E PARCERIAS: PARCERIAS, FRANQUIAS, CHANNEL|Capítulo 6 (CANAIS INDIRETOS E PARCERIAS: PARCERIAS, FRANQUIAS, CHANNEL) (Vol. 6)]], [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 9 — OPEN SOURCE COMO ESTRATÉGIA|Capítulo 9 (OPEN SOURCE COMO ESTRATÉGIA) (Vol. 3)]], [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 5 — PARCERIA COM GRANDES CORPORAÇÕES BRASILEIRAS|Capítulo 5 (PARCERIA COM GRANDES CORPORAÇÕES BRASILEIRAS) (Vol. 6)]])
 >
@@ -5047,7 +5047,7 @@ Contínuo            LGPD Art. 20: já em vigor, sem data futura
 - [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 11 — IA COMO CO-PILOTO DO FUNDADOR (2026)|Capítulo 11 — IA como Co-Piloto do Fundador (2026 (Vol. 1)]] — uso prático de IA no dia a dia do fundador
 - [[#CAPÍTULO 14 — SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA|Capítulo 14 — Compliance e Regulatório para Startups]] — framework geral de compliance, não específico de IA
 - [[#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvases e Mapas Visuais de Modelo]] — ferramentas visuais de análise, incluindo Risk Canvas
-- [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 12 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 12 — Validação do Modelo de Negócio (Vol. 4)]] — onde as decisões sobre sistemas de IA são tomadas inicialmente
+- [[IGNICAO-Vol-1-Ideacao#FASE 2 — ARTICULAÇÃO E CAPTURA DA IDEIA|Fase 2 — Validação do Modelo de Negócio (Vol. 1)]] — onde as decisões sobre sistemas de IA são tomadas inicialmente
 - [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 12 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 12 — Validação do Modelo de Negócio (Vol. 4)]] — onde modelos de crédito e precificação com IA aparecem com maior frequência
 
 ---
@@ -5941,7 +5941,7 @@ A Polícia Federal Cibercrime (DCIBER) responde, mas com capacidade limitada. Ca
 # GLOSSÁRIO E SIGLAS DESTE VOLUME
 
 > [!abstract] Vocabulário técnico e siglas deste volume
-> Para garantir que este **Volume 8** funcione de forma 100% independente e autocontida sem exigir consulta a outro livro, esta seção reúne as definições dos **61 termos técnicos e de negócios** e das **41 siglas e abreviações** utilizados ao longo das Fases e Capítulos deste volume.
+> Para garantir que este **Volume 8** funcione de forma 100% independente e autocontida sem exigir consulta a outro livro, esta seção reúne as definições dos **64 termos técnicos e de negócios** e das **55 siglas e abreviações** utilizados ao longo das Fases e Capítulos deste volume.
 
 ---
 
@@ -5964,6 +5964,8 @@ A Polícia Federal Cibercrime (DCIBER) responde, mas com capacidade limitada. Ca
 **Board.** Conselho de administração. Órgão de governança da empresa. Em startups, tipicamente 3-5 membros: fundadores, investidores e independentes.
 
 **Burn Multiple.** Net burn (caixa gasto) dividido por net new ARR gerado. Mede eficiência de queima de caixa. Referência: ≤ 1.5x excelente, ≤ 2.5x aceitável, acima de 3x preocupante.
+
+**CPSI (Contrato Público para Solução Inovadora).** Modalidade especial de licitação criada pelo Marco Legal das Startups (LC 182/2021) que permite à administração pública contratar testes remunerados de soluções inovadoras por até R$ 1,6 milhão por contrato (com possibilidade de fornecimento posterior sem nova licitação até R$ 8 milhões).
 
 **CAC (Customer Acquisition Cost).** Custo total de marketing e vendas dividido pelo número de novos clientes no período. Calculado por canal para diagnóstico preciso, não apenas blended.
 
@@ -6002,6 +6004,10 @@ A Polícia Federal Cibercrime (DCIBER) responde, mas com capacidade limitada. Ca
 **EV (Enterprise Value).** Valor total da empresa: capitalização de mercado mais dívida líquida. Usado como numerador nos múltiplos de valuation (EV/ARR, EV/EBITDA).
 
 **Exit.** Saída do fundador ou investidor da empresa, geralmente via M&A, IPO ou secondary.
+
+**Family Office (SFO / MFO).** Estrutura dedicada à governança, alocação patrimonial, planejamento tributário e sucessão da fortuna de uma única família (*Single Family Office* — SFO) ou de múltiplas famílias (*Multi-Family Office* — MFO) após eventos de liquidez (exit) ou acúmulo de dividendos.
+
+**FIDC (Fundo de Investimento em Direitos Creditórios).** Veículo de securitização regulado pela CVM (Resolução CVM 175) que compra recebíveis comerciais, duplicatas, parcelas de cartão ou CCBs de crédito, dividindo o risco entre cotas sênior (renda fixa institucional), mezanino e subordinada (primeira perda retida pelo originador).
 
 **Headcount.** Número total de funcionários de uma empresa.
 
@@ -6156,3 +6162,31 @@ A Polícia Federal Cibercrime (DCIBER) responde, mas com capacidade limitada. Ca
 **VP:** Vice President. *Gestão.*
 
 **ZOPA:** Zone of Possible Agreement. *Negociação.*
+
+**ACL:** Ambiente de Contratação Livre (Mercado Livre de Energia Elétrica). *Energytech / Regulação.*
+
+**ANATEL:** Agência Nacional de Telecomunicações. *Regulação / Telecom e ISPs.*
+
+**ANS:** Agência Nacional de Saúde Suplementar. *Regulação / Planos de Saúde e Healthtech.*
+
+**ANVISA:** Agência Nacional de Vigilância Sanitária. *Regulação / Saúde, Alimentos, Cosméticos e Agro.*
+
+**CADE:** Conselho Administrativo de Defesa Econômica. *Antitruste / M&A.*
+
+**CPSI:** Contrato Público para Solução Inovadora (Marco Legal das Startups). *Govtech.*
+
+**CVC:** Corporate Venture Capital. *Economia da Inovação / Investimentos.*
+
+**FIDC:** Fundo de Investimento em Direitos Creditórios. *Crédito / Securitização.*
+
+**FINEP:** Financiadora de Estudos e Projetos. *Fomento Não-Diluitivo / Inovação.*
+
+**INPI:** Instituto Nacional da Propriedade Industrial. *Propriedade Intelectual / Patentes e Marcas.*
+
+**MAPA:** Ministério da Agricultura e Pecuária. *Regulação / Agronegócio e Bioinsumos.*
+
+**SCD / SEP:** Sociedade de Crédito Direto / Sociedade de Empréstimo entre Pessoas. *Fintech / Regulação BACEN.*
+
+**SUSEP:** Superintendência de Seguros Privados. *Regulação / Insurtech.*
+
+**TRL / CRL:** Technology Readiness Level / Customer Readiness Level. *Deep Tech / Validação.*

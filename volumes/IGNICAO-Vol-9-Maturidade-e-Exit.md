@@ -45,7 +45,7 @@ graph LR
     end
     subgraph J3["Ciclo Longo e Setores"]
         V9["<b>Vol. 9 — Maturidade, Exit e Family Office</b><br/>Fases 19 e 20 · Board, Crise, M&A, IPO e Cash Cow"]
-        V10["<b>Vol. 10 — Economia da Inovação e 40 Verticais</b><br/>Hubs Globais, Regulação, 40 Setores e Dicionário"]
+        V10["<b>Vol. 10 — Economia da Inovação e 42 Verticais</b><br/>Hubs Globais, Regulação, 42 Setores e Dicionário"]
         V8 --> V9
     end
     V10 -. "Consulta Setorial e Dicionário" .-> J1
@@ -2980,10 +2980,10 @@ Exit não é sempre venda. O encerramento voluntário, com dignidade, é o camin
 
 Na empresa madura, o poder deixa de ser exercido apenas na mesa operacional e passa pelo **Conselho de Administração (*Board*)** e pela harmonia societária de longo prazo:
 
-- **[[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#C|Capítulo 1 — Board Management e Governança Corporativa (Vol. 10)]]:** Como montar, conduzir e extrair valor real de um Conselho Consultivo ou Conselho de Administração — composição, rituais pré-reunião, atas, comitês e gestão da relação entre CEO e conselheiros.
-- **[[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#C|Capítulo 2 — Empresas Familiares e Sucessão (Vol. 10)]]:** Protocolos familiares, separação entre família, propriedade e gestão, holdings familiares e preparação de sucessores.
-- **[[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#C|Capítulo 3 — Conflito Societário e Divórcio de Sócios (Vol. 10)]]:** Como destravar impasses societários graves (*deadlocks*), acionar cláusulas de *shotgun* / *buy-or-sell*, conduzir apuração de haveres e evitar que uma briga de sócios paralise a companhia.
-- **[[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#C|Capítulo 4 — Impacto Social, ESG e Sistema B (Vol. 10)]]:** Como integrar governança socioambiental e certificação B Corp à estratégia competitiva e ao acesso a capital institucional.
+- **[[#CAPÍTULO 1 — BOARD E GOVERNANCE|Capítulo 1 — Board Management e Governança Corporativa]]:** Como montar, conduzir e extrair valor real de um Conselho Consultivo ou Conselho de Administração — composição, rituais pré-reunião, atas, comitês e gestão da relação entre CEO e conselheiros.
+- **[[#CAPÍTULO 2 — EMPRESA FAMILIAR E SUCESSÃO: GOVERNANÇA, DINÂMICA E PSICOLOGIA|Capítulo 2 — Empresas Familiares e Sucessão]]:** Protocolos familiares, separação entre família, propriedade e gestão, holdings familiares e preparação de sucessores.
+- **[[#CAPÍTULO 3 — DISPUTA SOCIETÁRIA E SAÍDA DE SÓCIO|Capítulo 3 — Conflito Societário e Divórcio de Sócios]]:** Como destravar impasses societários graves (*deadlocks*), acionar cláusulas de *shotgun* / *buy-or-sell*, conduzir apuração de haveres e evitar que uma briga de sócios paralise a companhia.
+- **[[#CAPÍTULO 4 — ESG, IMPACT E GOVERNANÇA PARA STARTUP|Capítulo 4 — Impacto Social, ESG e Sistema B]]:** Como integrar governança socioambiental e certificação B Corp à estratégia competitiva e ao acesso a capital institucional.
 
 ---
 
@@ -3597,9 +3597,9 @@ Impact-linked compensation. Bonus executivo atrelado a métricas ESG (emergente)
 
 Quando a startup brasileira decide expandir para a América Latina, Estados Unidos ou Europa — ou precisa criar uma estrutura *offshore* para captar de fundos globais —, quatro disciplinas precisam caminhar juntas:
 
-- **[[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#C|Capítulo 5 — Internacionalização e Expansão LatAm/Global (Vol. 10)]]:** Quando expandir para fora do Brasil, escolha do país de entrada, adaptação de GTM local e a mecânica societária do *Cayman / Delaware Flip*.
-- **[[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#C|Capítulo 6 — Imigração e Vistos para Fundadores (Vol. 10)]]:** O guia prático de vistos para empreendedores e executivos brasileiros (O-1, EB-1, EB-2 NIW, L-1, E-2 nos EUA e vistos europeus).
-- **[[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#C|Capítulo 7 — Câmbio, Hedge e Gestão de Moeda (Vol. 10)]] e [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#C|Capítulo 8 — Tesouraria e Multi-Moeda (Vol. 10)]]:** Como proteger margens contra a volatilidade do real (NDFs, travas, casamento natural de moeda) e onde alocar o caixa em reais e em dólares com segurança e liquidez.
+- **[[#CAPÍTULO 5 — INTERNACIONALIZAÇÃO: ESTRUTURA E PRODUTO PARA MÚLTIPLOS MERCADOS|Capítulo 5 — Internacionalização e Expansão LatAm/Global]]:** Quando expandir para fora do Brasil, escolha do país de entrada, adaptação de GTM local e a mecânica societária do *Cayman / Delaware Flip*.
+- **[[#CAPÍTULO 6 — VISTO E IMIGRAÇÃO PARA FUNDADOR BRASILEIRO|Capítulo 6 — Imigração e Vistos para Fundadores]]:** O guia prático de vistos para empreendedores e executivos brasileiros (O-1, EB-1, EB-2 NIW, L-1, E-2 nos EUA e vistos europeus).
+- **[[#CAPÍTULO 7 — HEDGING CAMBIAL E GESTÃO DE MOEDA MULTICOUNTRY|Capítulo 7 — Câmbio, Hedge e Gestão de Moeda]] e [[#CAPÍTULO 8 — TESOURARIA EM ESCALA: GESTÃO DE CAIXA MULTI-MOEDA, MULTI-PAÍS E MULTI-CONTA|Capítulo 8 — Tesouraria e Multi-Moeda]]:** Como proteger margens contra a volatilidade do real (NDFs, travas, casamento natural de moeda) e onde alocar o caixa em reais e em dólares com segurança e liquidez.
 
 ---
 
@@ -4217,8 +4217,8 @@ Tesouraria saudável é silenciosa. O CEO nunca precisa perguntar "temos caixa p
 Toda empresa longeva atravessa pelo menos uma crise existencial — um choque macroeconômico abrupto, a perda de um cliente que representava 40% da receita, um incidente grave de segurança ou o fechamento repentino do mercado de capitais. Estes quatro capítulos são o manual de guerra para momentos extremos:
 
 - **[[#CAPÍTULO 9 — CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO|Capítulo 9 — Crise e Continuidade]] e [[#CAPÍTULO 10 — COMUNICAÇÃO EM CRISE|Capítulo 10 — Comunicação em Crise]]:** Como instalar um gabinete de crise (*war room*), estancar a hemorragia nas primeiras 24 horas e comunicar-se com clientes, imprensa, reguladores e investidores sem destruir a reputação da empresa.
-- **[[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#C|Capítulo 11 — Layoffs e Reestruturação (Vol. 10)]]:** Como calcular e executar um corte profundo de custos e de quadro em uma única vez (evitando cortes em gotas que destroem o moral dos que ficam), conduzindo o processo com respeito humano e segurança jurídica.
-- **[[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#C|Capítulo 12 — Recuperação Judicial e Encerramento Digno (Wind-Down) (Vol. 10)]]:** Quando reestruturar dívidas via Recuperação Judicial/Extrajudicial (Lei 11.101/2005) e quando encerrar a operação de forma ordenada, honrando obrigações e preservando o CPF e a reputação dos fundadores.
+- **[[#CAPÍTULO 11 — LAYOFFS E DOWNSIZING: COMO DEMITIR EM ESCALA SEM DESTRUIR A EMPRESA|Capítulo 11 — Layoffs e Reestruturação]]:** Como calcular e executar um corte profundo de custos e de quadro em uma única vez (evitando cortes em gotas que destroem o moral dos que ficam), conduzindo o processo com respeito humano e segurança jurídica.
+- **[[#CAPÍTULO 12 — RECUPERAÇÃO JUDICIAL E WIND-DOWN — QUANDO A STARTUP NÃO CONSEGUE CONTINUAR|Capítulo 12 — Recuperação Judicial e Encerramento Digno (Wind-Down)]]:** Quando reestruturar dívidas via Recuperação Judicial/Extrajudicial (Lei 11.101/2005) e quando encerrar a operação de forma ordenada, honrando obrigações e preservando o CPF e a reputação dos fundadores.
 
 ---
 
@@ -7482,7 +7482,7 @@ Boa sorte.
 # GLOSSÁRIO E SIGLAS DESTE VOLUME
 
 > [!abstract] Vocabulário técnico e siglas deste volume
-> Para garantir que este **Volume 9** funcione de forma 100% independente e autocontida sem exigir consulta a outro livro, esta seção reúne as definições dos **103 termos técnicos e de negócios** e das **57 siglas e abreviações** utilizados ao longo das Fases e Capítulos deste volume.
+> Para garantir que este **Volume 9** funcione de forma 100% independente e autocontida sem exigir consulta a outro livro, esta seção reúne as definições dos **109 termos técnicos e de negócios** e das **65 siglas e abreviações** utilizados ao longo das Fases e Capítulos deste volume.
 
 ---
 
@@ -7515,6 +7515,10 @@ Boa sorte.
 **Burn Multiple.** Net burn (caixa gasto) dividido por net new ARR gerado. Mede eficiência de queima de caixa. Referência: ≤ 1.5x excelente, ≤ 2.5x aceitável, acima de 3x preocupante.
 
 **Burn rate.** Velocidade de consumo de caixa por mês. Caixa disponível dividido pelo burn rate mensal = runway.
+
+**Carve-out (Equity Carve-out / Spin-off).** Operação societária em que uma empresa destaca uma unidade de negócio, tecnologia interna ou filial para um novo CNPJ independente (via cisão parcial ou *drop-down* de ativos), permitindo captar recursos próprios, vender para concorrentes da empresa-mãe e destravar múltiplos de valuation.
+
+**Cash Cow (Empresa Pagadora de Dividendos).** Companhia madura com posição competitiva defensável, baixa necessidade de reinvestimento em CapEx, alta geração de fluxo de caixa livre (FCF) e ROIC elevado, operada para distribuir dividendos recorrentes aos sócios em vez de buscar venda (exit).
 
 **CAC (Customer Acquisition Cost).** Custo total de marketing e vendas dividido pelo número de novos clientes no período. Calculado por canal para diagnóstico preciso, não apenas blended.
 
@@ -7575,6 +7579,8 @@ Boa sorte.
 **EV (Enterprise Value).** Valor total da empresa: capitalização de mercado mais dívida líquida. Usado como numerador nos múltiplos de valuation (EV/ARR, EV/EBITDA).
 
 **Exit.** Saída do fundador ou investidor da empresa, geralmente via M&A, IPO ou secondary.
+
+**Family Office (SFO / MFO).** Estrutura dedicada à governança, alocação patrimonial, planejamento tributário e sucessão da fortuna de uma única família (*Single Family Office* — SFO) ou de múltiplas famílias (*Multi-Family Office* — MFO) após eventos de liquidez (exit) ou acúmulo de dividendos.
 
 **FMF (Founder-Market Fit).** Alinhamento entre o perfil, experiência e motivação do fundador e as características do problema e mercado que a empresa ataca. Primeiro filtro de avaliação de ideia.
 
@@ -7654,6 +7660,8 @@ Boa sorte.
 
 **Pre-seed.** Rodada de captação anterior à Série Seed. Tipicamente R$ 300 mil a R$ 3 milhões, de anjos ou fundos micro-VC, para time e MVP inicial.
 
+**Rental (Locação Pesada de Ativos).** Modelo de negócios intensivo em capital baseado na compra de frotas de caminhões, máquinas de linha amarela, equipamentos agrícolas ou industriais com desconto de montadora (OEM), locação de longo prazo (36 a 60 meses) dedutível como OpEx no Lucro Real do cliente e posterior revenda do ativo seminovo.
+
 **ROFR (Right of First Refusal).** Direito de preferência. Cláusula que dá a uma parte (tipicamente investidores existentes) o direito de igualar oferta externa antes que a venda aconteça.
 
 **ROI (Return on Investment).** Retorno sobre investimento. (Ganho - Custo) / Custo. Métrica genérica de eficiência de capital aplicado.
@@ -7665,6 +7673,10 @@ Boa sorte.
 **Rule of 40.** Crescimento percentual de ARR somado com margem EBITDA percentual. Startups saudáveis em escala devem ter Rule of 40 ≥ 40. Criada para avaliar trade-off entre crescimento e lucratividade.
 
 **Runway.** Número de meses antes de a empresa ficar sem caixa, considerando o burn rate atual. Referência: mínimo 12 meses após rodada, ideal 18 a 24 meses.
+
+**Search Fund (ETA — Entrepreneurship Through Acquisition).** Veículo de investimento em que um ou dois empreendedores (*searchers*) captam capital de investidores para buscar, adquirir, assumir como CEO e escalar uma única empresa madura, lucrativa e com geração de caixa recorrente.
+
+**Secondaries (Liquidez Secundária).** Compra e venda de ações ou cotas já existentes de uma startup (de fundadores, executivos com opções exercidas ou investidores iniciais) para novos investidores ou fundos especializados antes de um exit total (M&A ou IPO).
 
 **SAFE (Simple Agreement for Future Equity).** Instrumento de captação criado pela Y Combinator. Conversível em ações em rodada futura, sem juros e sem prazo de vencimento. Adaptação brasileira é a "Nota Conversível".
 
@@ -7813,3 +7825,19 @@ Boa sorte.
 **YoY:** Year-over-Year (comparação ano a ano). *Métricas.*
 
 **ZOPA:** Zone of Possible Agreement. *Negociação.*
+
+**CADE:** Conselho Administrativo de Defesa Econômica. *Antitruste / M&A.*
+
+**CRA / CRI:** Certificado de Recebíveis do Agronegócio / Imobiliários. *Mercado de Capitais / Securitização.*
+
+**CVC:** Corporate Venture Capital. *Economia da Inovação / Investimentos.*
+
+**IBS / CBS:** Imposto sobre Bens e Serviços / Contribuição sobre Bens e Serviços (IVA Dual da Reforma Tributária). *Tributário.*
+
+**INPI:** Instituto Nacional da Propriedade Industrial. *Propriedade Intelectual / Patentes e Marcas.*
+
+**ITCMD:** Imposto sobre Transmissão Causa Mortis e Doação. *Sucessão / Family Office.*
+
+**MFO / SFO:** Multi-Family Office / Single Family Office. *Gestão de Fortuna / Pós-Exit.*
+
+**NDF:** Non-Deliverable Forward (Contrato a Termo de Moeda sem Entrega Física). *Hedge Cambial / Tesouraria.*
