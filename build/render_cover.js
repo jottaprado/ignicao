@@ -110,8 +110,8 @@ const COVERS = [
   {
     file: 'cover-vol-10.png',
     topMark: 'Coleção IGNIÇÃO · Volume 10 de 10 (Autocontido)',
-    volBadge: 'VOL. 10 · VERTICAIS E GLOSSÁRIO',
-    subtitle: 'Macroeconomia, Autarquias Reguladoras, 9 Playbooks Setoriais e Dicionário da Coleção (Capítulos 1 a 13)',
+    volBadge: 'VOL. 10 · ECONOMIA DA INOVAÇÃO E 32 VERTICAIS',
+    subtitle: 'Atores da Inovação, Hubs Globais e Brasileiros, Regulação, 32 Verticais e Dicionário (Capítulos 1 a 38)',
     gradient: 'linear-gradient(135deg, #090d16 0%, #1e293b 40%, #334155 75%, #94a3b8 100%)',
   },
 ];

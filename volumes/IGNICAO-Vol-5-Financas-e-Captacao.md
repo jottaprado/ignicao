@@ -45,7 +45,7 @@ graph LR
     end
     subgraph J3["Ciclo Longo e Setores"]
         V9["<b>Vol. 9 — Maturidade e Exit</b><br/>Fases 19 e 20 · Board, Crise, M&A e IPO"]
-        V10["<b>Vol. 10 — Verticais e Glossário</b><br/>Regulação, 9 Setores e Índices Gerais"]
+        V10["<b>Vol. 10 — Economia da Inovação e 32 Verticais</b><br/>Hubs Globais, Regulação, 32 Setores e Dicionário"]
         V8 --> V9
     end
     V10 -. "Consulta Setorial e Dicionário" .-> J1
@@ -4885,7 +4885,7 @@ O quadro regulatorio brasileiro de cripto-ativos esta em camadas e tres regulado
 
 **DeFi (Decentralized Finance).** Area cinza. O BACEN tem entendido que protocolo descentralizado sem operador identificavel nao se enquadra como VASP. Mas a fronteira esta em construcao e protocolo com governanca centralizada de fato (mesmo com narrativa de descentralizacao) pode ser enquadrado.
 
-Recomendacao pratica para o fundador. Antes de construir produto em cripto, mapear quatro perguntas. A natureza do token (security, utility, pagamento ou hibrido). Se ha custodia de terceiro (gatilho VASP). Se ha oferta publica ou colocacao restrita. Se ha conversao para fiat (gatilho instituicao de pagamento). As respostas determinam quais autorizacoes sao necessarias e o custo regulatorio total. Cross-ref para [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 2 — REGULATÓRIO SETORIAL BRASILEIRO|Capítulo 2 (REGULATÓRIO SETORIAL BRASILEIRO) (Vol. 10)]] (regulatorio setorial), [[#CAPÍTULO 11 — EQUITY CROWDFUNDING NO BRASIL: CAPTAÇÃO PÚBLICA DE PEQUENOS INVESTIDORES|Capítulo 11 (EQUITY CROWDFUNDING NO BRASIL: CAPTAÇÃO PÚBLICA DE PEQUENOS INVESTIDORES)]] (crowdfunding pode usar token), [[#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES)]] (captacao), [[#CAPÍTULO 15 — TRIBUTÁRIO ESTRATÉGICO PARA STARTUPS|Capítulo 15 (TRIBUTÁRIO ESTRATÉGICO PARA STARTUPS)]] (tributario) e [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 14 — SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA|Capítulo 14 (SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA) (Vol. 8)]] (seguranca em wallet e custodia).
+Recomendacao pratica para o fundador. Antes de construir produto em cripto, mapear quatro perguntas. A natureza do token (security, utility, pagamento ou hibrido). Se ha custodia de terceiro (gatilho VASP). Se ha oferta publica ou colocacao restrita. Se ha conversao para fiat (gatilho instituicao de pagamento). As respostas determinam quais autorizacoes sao necessarias e o custo regulatorio total. Cross-ref para [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 4 — REGULATÓRIO SETORIAL BRASILEIRO|Capítulo 4 (REGULATÓRIO SETORIAL BRASILEIRO) (Vol. 10)]] (regulatorio setorial), [[#CAPÍTULO 11 — EQUITY CROWDFUNDING NO BRASIL: CAPTAÇÃO PÚBLICA DE PEQUENOS INVESTIDORES|Capítulo 11 (EQUITY CROWDFUNDING NO BRASIL: CAPTAÇÃO PÚBLICA DE PEQUENOS INVESTIDORES)]] (crowdfunding pode usar token), [[#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES)]] (captacao), [[#CAPÍTULO 15 — TRIBUTÁRIO ESTRATÉGICO PARA STARTUPS|Capítulo 15 (TRIBUTÁRIO ESTRATÉGICO PARA STARTUPS)]] (tributario) e [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 14 — SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA|Capítulo 14 (SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA) (Vol. 8)]] (seguranca em wallet e custodia).
 
 ### USO 1, CAPTAÇÃO VIA SECURITY TOKEN
 
@@ -5008,7 +5008,7 @@ Tokenização é sucesso quando o problema específico que a motivou foi resolvi
 
 ### Ver também
 
-[[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 2 — REGULATÓRIO SETORIAL BRASILEIRO|Capítulo 2 (REGULATÓRIO SETORIAL BRASILEIRO) (Vol. 10)]], Regulatório setorial BR. [[#CAPÍTULO 11 — EQUITY CROWDFUNDING NO BRASIL: CAPTAÇÃO PÚBLICA DE PEQUENOS INVESTIDORES|Capítulo 11 (EQUITY CROWDFUNDING NO BRASIL: CAPTAÇÃO PÚBLICA DE PEQUENOS INVESTIDORES)]], Equity crowdfunding. [[#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES)]], Captação de equity.
+[[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 4 — REGULATÓRIO SETORIAL BRASILEIRO|Capítulo 4 (REGULATÓRIO SETORIAL BRASILEIRO) (Vol. 10)]], Regulatório setorial BR. [[#CAPÍTULO 11 — EQUITY CROWDFUNDING NO BRASIL: CAPTAÇÃO PÚBLICA DE PEQUENOS INVESTIDORES|Capítulo 11 (EQUITY CROWDFUNDING NO BRASIL: CAPTAÇÃO PÚBLICA DE PEQUENOS INVESTIDORES)]], Equity crowdfunding. [[#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES)]], Captação de equity.
 
 ---
 

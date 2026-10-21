@@ -45,7 +45,7 @@ graph LR
     end
     subgraph J3["Ciclo Longo e Setores"]
         V9["<b>Vol. 9 — Maturidade e Exit</b><br/>Fases 19 e 20 · Board, Crise, M&A e IPO"]
-        V10["<b>Vol. 10 — Verticais e Glossário</b><br/>Regulação, 9 Setores e Índices Gerais"]
+        V10["<b>Vol. 10 — Economia da Inovação e 32 Verticais</b><br/>Hubs Globais, Regulação, 32 Setores e Dicionário"]
         V8 --> V9
     end
     V10 -. "Consulta Setorial e Dicionário" .-> J1
@@ -187,7 +187,7 @@ Antes de abrir um ciclo de reinvenção, faça o diagnóstico honesto. A [[IGNIC
 #### Passo 1, monitore os sinais antecedentes de saturação
 
 > [!note]
-> O ambiente macroeconômico — SELIC, inflação, câmbio e ciclos de VC — afeta diretamente o timing ideal para declarar reinvenção e iniciar a segunda curva. Ver [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 1 — CICLOS MACROECONÔMICOS E A STARTUP BRASILEIRA|Capítulo 1 — Ciclos Macroeconômicos (Vol. 10)]].
+> O ambiente macroeconômico — SELIC, inflação, câmbio e ciclos de VC — afeta diretamente o timing ideal para declarar reinvenção e iniciar a segunda curva. Ver [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 3 — CICLOS MACROECONÔMICOS E A STARTUP BRASILEIRA|Capítulo 3 — Ciclos Macroeconômicos (Vol. 10)]].
 
 A saturação não acontece de repente. Dá sinais seis a dezoito meses antes da queda visível. Monitore mensalmente, em cinco categorias.
 
@@ -1696,7 +1696,7 @@ Pratique a narrativa estratégica da empresa (pitch de trinta minutos para compr
 #### Passo 4, estruture o processo de venda (quando decidir executar)
 
 > [!note]
-> M&A acima dos limites de faturamento do CADE exige notificação obrigatória de Ato de Concentração antes do closing. Ver [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 3 — CADE E ANTITRUSTE — QUANDO O CRESCIMENTO ATRAI O REGULADOR|Capítulo 3 — CADE e Antitruste (Vol. 10)]] para os critérios e o processo.
+> M&A acima dos limites de faturamento do CADE exige notificação obrigatória de Ato de Concentração antes do closing. Ver [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 5 — CADE E ANTITRUSTE — QUANDO O CRESCIMENTO ATRAI O REGULADOR|Capítulo 5 — CADE e Antitruste (Vol. 10)]] para os critérios e o processo.
 
 > [!tip] Capítulo 14 — M&A Ativo: Estratégia de Aquisições
 > Para fundadores que, após a venda ou durante a escala, querem usar M&A como alavanca estratégica — seja para consolidar o setor, entrar em adjacências ou construir portfolio: tese de M&A, processo de sourcing e integração pós-deal.
@@ -5362,7 +5362,7 @@ O fundador que negocia o acqui-hire tem alavancagem em um momento — antes de f
 
 **Ver também:**
 
-[[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 7 — PRODUCT MARKETING: POSICIONAMENTO, MENSAGEM E LANÇAMENTO|Capítulo 7 — Estrutura Societária (Vol. 4)]], [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 2 — VENDAS COMPLEXAS ENTERPRISE: CICLO LONGO, ALTO VALOR, MÚLTIPLOS DECISORES|Capítulo 2 — Contratos Essenciais (Vol. 6)]], [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 3 — CADE E ANTITRUSTE — QUANDO O CRESCIMENTO ATRAI O REGULADOR|Capítulo 3 — CADE e Antitruste (Vol. 10)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 18 — CAPITAL DE GIRO E RECEBÍVEIS|Capítulo 18 — Capital de Giro e Recebíveis (Vol. 5)]], [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 6 — TOMADA DE DECISÃO COMO DISCIPLINA|Capítulo 6 — Tomada de Decisão (Vol. 1)]]
+[[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 7 — PRODUCT MARKETING: POSICIONAMENTO, MENSAGEM E LANÇAMENTO|Capítulo 7 — Estrutura Societária (Vol. 4)]], [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 2 — VENDAS COMPLEXAS ENTERPRISE: CICLO LONGO, ALTO VALOR, MÚLTIPLOS DECISORES|Capítulo 2 — Contratos Essenciais (Vol. 6)]], [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 5 — CADE E ANTITRUSTE — QUANDO O CRESCIMENTO ATRAI O REGULADOR|Capítulo 5 — CADE e Antitruste (Vol. 10)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 18 — CAPITAL DE GIRO E RECEBÍVEIS|Capítulo 18 — Capital de Giro e Recebíveis (Vol. 5)]], [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 6 — TOMADA DE DECISÃO COMO DISCIPLINA|Capítulo 6 — Tomada de Decisão (Vol. 1)]]
 
 ---
 

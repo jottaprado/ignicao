@@ -51,7 +51,7 @@ Boa sorte na minha jornada, em cada momento em que eu voltar aqui para buscar um
 
 **IGNIÇÃO** é um manual operacional em **10 volumes autocontidos** para fundadores e equipes executivas construindo empresas no Brasil — da preparação pessoal antes do CNPJ (Fase 0) até a segunda curva de crescimento e o *exit* via M&A ou IPO (Fase 20).
 
-Cada volume da coleção foi desenhado para funcionar como um **livro completo e independente**: todos os **Frameworks passo a passo**, **Canvases Visuais preenchidos com casos brasileiros**, **Templates operacionais prontos para uso**, **Tabelas de Métricas** e **Guias de Leitura** estão integrados diretamente dentro das Fases e Capítulos onde são aplicados, sem que você precise abrir outro volume para executar sua etapa atual.
+Cada volume da coleção foi desenhado para funcionar como um **livro completo e independente**: todos os **Frameworks passo a passo**, **Canvases Visuais preenchidos com casos brasileiros**, **Templates operacionais prontos para uso**, **Tabelas de Métricas**, **Guias de Leitura** e **Glossários de Termos e Siglas** estão integrados diretamente dentro de cada volume, sem que você precise abrir outro livro para executar sua etapa atual.
 
 A coleção está organizada em **10 volumes focais**:
 
@@ -64,7 +64,7 @@ A coleção está organizada em **10 volumes focais**:
 - **Volume 7 — Produto, Engenharia, Dados, IA e Operações:** Fase 17 + 11 Capítulos de discovery contínuo, gestão de engenharia, dívida técnica, IA na engenharia de software, AI Ops, design organizacional, gestão do conhecimento e excelência operacional.
 - **Volume 8 — Blindagem Jurídica, Societária, LGPD e Segurança:** Fase 18 + 14 Capítulos de Marco Legal das Startups, responsabilidade dos sócios, propriedade intelectual/INPI, non-compete, contratos, direito do trabalho, CDC, contencioso, LGPD, regulação de IA, compliance, prevenção a fraudes e SOC 2 / ISO 27001.
 - **Volume 9 — Maturidade, Governança, Crise e Exit:** Fases 19 e 20 + 22 Capítulos de Conselho de Administração (Board), empresas familiares, conflitos societários, internacionalização, câmbio/tesouraria, gestão de crise, layoffs, recuperação judicial, M&A, Search Funds, IPO, secondaries, tributação de exit, post-mortems e second-time founders + Epílogo.
-- **Volume 10 — Playbooks Setoriais, Regulação e Glossário Geral:** 13 Capítulos cobrindo ciclos macroeconômicos, autarquias reguladoras (BACEN, CVM, ANVISA, ANS, ANATEL, ANEEL), CADE, políticas públicas e os 9 Playbooks Setoriais (Biotech/Healthtech, Hardware, Govtech, Agritech, Edtech, Cleantech, Proptech, Legaltech e Logtech), seguidos pelo Glossário Geral, Bibliografia e Índices da Coleção.
+- **Volume 10 — Economia da Inovação, Hubs Globais e Playbooks das 32 Verticais:** 38 Capítulos cobrindo a Economia da Inovação e seus Atores, a Geografia Mundial de Hubs por Continente e os 15 Polos Brasileiros, Ciclos Macroeconômicos, Autarquias Reguladoras, CADE, Políticas Públicas e os **32 Playbooks Setoriais** da economia real (de Fintech, Crédito, Insurtech, Wealthtech, Agritech, Infratech, Energytech, Cleantech, Miningtech e Indústria 4.0 até Hardware, Logtech, Mobitech, Proptech, Aerospace, Biotech/Healthtech, Edtech, Govtech, Legaltech, Retailtech, Foodtech, D2C/Wellness, Travel/Pet/Silver, Horizontal/Vertical SaaS, AI-Native, Cybersecurity, DevTools, HRTech, Martech, Creator Economy e Gaming), seguidos pelo Dicionário e Índices Unificados da Coleção.
 
 ---
 
@@ -88,7 +88,7 @@ graph LR
     end
     subgraph J3["Ciclo Longo e Setores"]
         V9["<b>Vol. 9 — Maturidade e Exit</b><br/>Fases 19 e 20 · Board, Crise, M&A e IPO"]
-        V10["<b>Vol. 10 — Verticais e Glossário</b><br/>Regulação, 9 Setores e Índices Gerais"]
+        V10["<b>Vol. 10 — Economia da Inovação e 32 Verticais</b><br/>Hubs Globais, Regulação, 32 Setores e Dicionário"]
         V8 --> V9
     end
     V10 -. "Consulta Setorial e Dicionário" .-> J1

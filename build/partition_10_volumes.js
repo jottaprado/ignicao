@@ -103,6 +103,27 @@ if (rawSections.size !== 175) {
   throw new Error(`Esperadas 175 seções, mas foram extraídas ${rawSections.size}`);
 }
 
+// Registrar os 25 novos capítulos do Volume 10 (Economia da Inovação, Geografia Mundial de Hubs e 23 novas Verticais)
+const { VOL10_ECON_HUBS } = require('./vol10_econ_hubs');
+const { VOL10_VERTICALS_PART1 } = require('./vol10_verticals_part1');
+const { VOL10_VERTICALS_PART2 } = require('./vol10_verticals_part2');
+const { VOL10_VERTICALS_PART3 } = require('./vol10_verticals_part3');
+
+const vol10NewModules = {
+  ...VOL10_ECON_HUBS,
+  ...VOL10_VERTICALS_PART1,
+  ...VOL10_VERTICALS_PART2,
+  ...VOL10_VERTICALS_PART3,
+};
+for (const [k, v] of Object.entries(vol10NewModules)) {
+  rawSections.set(k, {
+    key: k,
+    heading: v.heading.trim(),
+    body: v.body.trim(),
+  });
+}
+console.log(`      Novos capítulos de Economia da Inovação, Hubs e Verticais carregados: ${Object.keys(vol10NewModules).length} (esperado: 25)`);
+
 // ---------------------------------------------------------------------------
 // 2. Extrair todos os itens de BG (164), CZ (20), A (39), C (19) e E (18)
 // ---------------------------------------------------------------------------
@@ -1065,7 +1086,7 @@ Para completar a arquitetura de escala e maturidade da sua companhia, siga para 
 // Função que transforma um antigo APÊNDICE XX em CAPÍTULO N — TÍTULO e injeta extras
 function buildChapterSection(oldKey, chapNum, rawSection) {
   const cleanTitle = rawSection.heading
-    .replace(/^APÊNDICE [A-Z0-9-]+\s*—\s*/, '')
+    .replace(/^APÊNDICE [A-Z0-9_-]+\s*—\s*/, '')
     .trim();
   const newHeading = `CAPÍTULO ${chapNum} — ${cleanTitle}`;
   let body = rawSection.body.replace(/^## APÊNDICE [^\n]+/m, `## ${newHeading}`);
@@ -1632,16 +1653,18 @@ const VOLUMES_SPEC = [
   {
     num: 10,
     slug: 'IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario',
-    title: 'IGNIÇÃO — Volume 10: Playbooks Setoriais, Regulação e Glossário Geral',
-    subtitle: 'Macroeconomia, Autarquias Reguladoras, 9 Verticais Brasileiras e Dicionário da Coleção (Capítulos 1 a 13 e Índices)',
+    title: 'IGNIÇÃO — Volume 10: Economia da Inovação, Hubs Globais e Playbooks das 32 Verticais',
+    subtitle: 'Ecossistemas, Geografia de Hubs por Continente, Regulação, 32 Verticais da Economia Real e Dicionário da Coleção (Capítulos 1 a 38 e Índices)',
     about:
-      'Volume de fechamento da coleção IGNIÇÃO, reunindo dois acervos essenciais: (1) o manual de operação no ambiente macro-institucional e regulatório brasileiro (Ciclos Macroeconômicos/Selic, Autarquias Reguladoras BACEN/CVM/SUSEP/ANVISA/ANS/ANATEL/ANEEL/ANP, CADE/Antitruste e Políticas Públicas) junto aos 9 Playbooks Setoriais em profundidade (Biotech/Healthtech, Hardware/Deep Tech, Govtech, Agritech, Edtech, Cleantech/ESG, Proptech, Legaltech e Logtech); e (2) o Dicionário e Aparelho Crítico Geral da Coleção (Glossário de Termos Técnicos e de Negócios, Lista de Abreviações, Bibliografia Geral e Unificada, Índice Geral de Frameworks e Índices Analítico e Remissivos).',
+      'Volume de fechamento da coleção IGNIÇÃO, reunindo três acervos essenciais e sem excessos: (1) a Economia da Inovação e seus Atores (Universidades/ICTs, Governo/Fomento, Corporações/CVC, Venture Studios e toda a escada do Capital de Risco), a Geografia Mundial da Inovação por Continente (América do Norte, Europa, Ásia-Pacífico, Oriente Médio, África e América Latina), as 5 vantagens competitivas estruturais do Brasil e a radiografia dos 15 principais Hubs de Inovação Brasileiros, seguidos pelo quadro macroeconômico, autarquias reguladoras (BACEN, CVM, SUSEP, ANVISA, ANS, ANATEL, ANEEL, ANP), CADE/Antitruste e Políticas Públicas (Capítulos 1 a 6); (2) os 32 Playbooks Setoriais completos cobrindo todas as grandes verticais da economia real (Capítulos 7 a 38); e (3) o Dicionário, a Bibliografia e os Índices Gerais Unificados da Coleção.',
     blocks: [
       {
-        h1: 'AMBIENTE MACROECONÔMICO, REGULATÓRIO SETORIAL, ANTITRUSTE E POLÍTICAS PÚBLICAS (CAPÍTULOS 1 A 4)',
-        tocGroup: 'Ambiente Macroeconômico, Regulatório Setorial, Antitruste e Políticas Públicas (Capítulos 1 a 4)',
+        h1: 'ECONOMIA DA INOVAÇÃO, GEOGRAFIA MUNDIAL DE HUBS, MACROECONOMIA E REGULAÇÃO (CAPÍTULOS 1 A 6)',
+        tocGroup: 'Economia da Inovação, Geografia Mundial de Hubs, Macroeconomia e Regulação (Capítulos 1 a 6)',
         intro: DOMAIN_INTROS.V10_BLOCO_1,
         items: [
+          { type: 'chapter', key: 'NEW_ECON_INOVACAO' },
+          { type: 'chapter', key: 'NEW_GEOGRAFIA_HUBS' },
           { type: 'chapter', key: 'EF' },
           { type: 'chapter', key: 'AW' },
           { type: 'chapter', key: 'ER' },
@@ -1649,24 +1672,82 @@ const VOLUMES_SPEC = [
         ],
       },
       {
-        h1: 'PLAYBOOKS DE VERTICAIS E SETORES REGULADOS NO BRASIL (CAPÍTULOS 5 A 13)',
-        tocGroup: 'Playbooks de Verticais e Setores Regulados no Brasil (Capítulos 5 a 13)',
-        intro: DOMAIN_INTROS.V10_BLOCO_2,
+        h1: 'CLUSTER I — SERVIÇOS FINANCEIROS, CRÉDITO, SEGUROS E MERCADO DE CAPITAIS (CAPÍTULOS 7 A 10)',
+        tocGroup: 'Cluster I — Serviços Financeiros, Crédito, Seguros e Mercado de Capitais (Capítulos 7 a 10)',
+        intro: DOMAIN_INTROS.V10_CLUSTER_1,
         items: [
-          { type: 'chapter', key: 'CM' },
-          { type: 'chapter', key: 'CA' },
-          { type: 'chapter', key: 'DK' },
-          { type: 'chapter', key: 'DL' },
-          { type: 'chapter', key: 'DM' },
-          { type: 'chapter', key: 'DN' },
-          { type: 'chapter', key: 'DO' },
-          { type: 'chapter', key: 'DP' },
-          { type: 'chapter', key: 'DQ' },
+          { type: 'chapter', key: 'V_FINTECH' },
+          { type: 'chapter', key: 'V_CREDITO' },
+          { type: 'chapter', key: 'V_INSURTECH' },
+          { type: 'chapter', key: 'V_WEALTHTECH' },
         ],
       },
       {
-        h1: 'GLOSSÁRIOS, BIBLIOGRAFIAS E ÍNDICES GERAIS DA COLEÇÃO',
-        tocGroup: 'Glossários, Bibliografias e Índices Gerais da Coleção',
+        h1: 'CLUSTER II — AGRO, INFRAESTRUTURA, ENERGIA, CLIMA, RECURSOS NATURAIS E INDÚSTRIA (CAPÍTULOS 11 A 17)',
+        tocGroup: 'Cluster II — Agro, Infraestrutura, Energia, Clima, Recursos Naturais e Indústria (Capítulos 11 a 17)',
+        intro: DOMAIN_INTROS.V10_CLUSTER_2,
+        items: [
+          { type: 'chapter', key: 'DL' },
+          { type: 'chapter', key: 'V_INFRATECH' },
+          { type: 'chapter', key: 'V_ENERGYTECH' },
+          { type: 'chapter', key: 'DN' },
+          { type: 'chapter', key: 'V_MINING_OIL' },
+          { type: 'chapter', key: 'V_INDUSTRIA40' },
+          { type: 'chapter', key: 'CA' },
+        ],
+      },
+      {
+        h1: 'CLUSTER III — LOGÍSTICA, MOBILIDADE, IMOBILIÁRIO, CONSTRUÇÃO E AEROESPACIAL/DEFESA (CAPÍTULOS 18 A 21)',
+        tocGroup: 'Cluster III — Logística, Mobilidade, Imobiliário, Construção e Aeroespacial/Defesa (Capítulos 18 a 21)',
+        intro: DOMAIN_INTROS.V10_CLUSTER_3,
+        items: [
+          { type: 'chapter', key: 'DQ' },
+          { type: 'chapter', key: 'V_MOBITECH' },
+          { type: 'chapter', key: 'DO' },
+          { type: 'chapter', key: 'V_AEROSPACE' },
+        ],
+      },
+      {
+        h1: 'CLUSTER IV — SAÚDE, EDUCAÇÃO, GOVERNO E SETOR JURÍDICO (CAPÍTULOS 22 A 25)',
+        tocGroup: 'Cluster IV — Saúde, Educação, Governo e Setor Jurídico (Capítulos 22 a 25)',
+        intro: DOMAIN_INTROS.V10_CLUSTER_4,
+        items: [
+          { type: 'chapter', key: 'CM' },
+          { type: 'chapter', key: 'DM' },
+          { type: 'chapter', key: 'DK' },
+          { type: 'chapter', key: 'DP' },
+        ],
+      },
+      {
+        h1: 'CLUSTER V — VAREJO, ALIMENTAÇÃO, BENS DE CONSUMO (D2C), TURISMO, PET E LONGEVIDADE (CAPÍTULOS 26 A 29)',
+        tocGroup: 'Cluster V — Varejo, Alimentação, Bens de Consumo (D2C), Turismo, Pet e Longevidade (Capítulos 26 a 29)',
+        intro: DOMAIN_INTROS.V10_CLUSTER_5,
+        items: [
+          { type: 'chapter', key: 'V_RETAILTECH' },
+          { type: 'chapter', key: 'V_FOODTECH' },
+          { type: 'chapter', key: 'V_D2C_WELLNESS' },
+          { type: 'chapter', key: 'V_TRAVEL_PET_SILVER' },
+        ],
+      },
+      {
+        h1: 'CLUSTER VI — SOFTWARE CORPORATIVO (SAAS), IA, CIBERSEGURANÇA, DEVTOOLS, RH, MARKETING, CREATOR ECONOMY E GAMES (CAPÍTULOS 30 A 38)',
+        tocGroup: 'Cluster VI — Software Corporativo (SaaS), IA, Cibersegurança, DevTools, RH, Marketing, Creator Economy e Games (Capítulos 30 a 38)',
+        intro: DOMAIN_INTROS.V10_CLUSTER_6,
+        items: [
+          { type: 'chapter', key: 'V_HORIZONTAL_SAAS' },
+          { type: 'chapter', key: 'V_VERTICAL_SAAS' },
+          { type: 'chapter', key: 'V_AI_NATIVE' },
+          { type: 'chapter', key: 'V_CYBERSECURITY' },
+          { type: 'chapter', key: 'V_DEVTOOLS_CLOUD' },
+          { type: 'chapter', key: 'V_HRTECH' },
+          { type: 'chapter', key: 'V_MARTECH_SALESTECH' },
+          { type: 'chapter', key: 'V_CREATOR_MEDIA' },
+          { type: 'chapter', key: 'V_GAMING_IGAMING' },
+        ],
+      },
+      {
+        h1: 'DICIONÁRIO GERAL, BIBLIOGRAFIA E ÍNDICES UNIFICADOS DA COLEÇÃO',
+        tocGroup: 'Dicionário Geral, Bibliografia e Índices Unificados da Coleção',
         intro: DOMAIN_INTROS.V10_BLOCO_3,
         items: [
           {
@@ -1681,11 +1762,6 @@ const VOLUMES_SPEC = [
           },
           {
             type: 'ref',
-            key: 'GLOSSÁRIO',
-            newHeading: 'GLOSSÁRIO TEMÁTICO DE NEGÓCIOS',
-          },
-          {
-            type: 'ref',
             key: 'APÊNDICE — LISTA DE ABREVIAÇÕES',
             newHeading: 'LISTA DE ABREVIAÇÕES',
           },
@@ -1696,28 +1772,13 @@ const VOLUMES_SPEC = [
           },
           {
             type: 'ref',
-            key: 'APÊNDICE — BIBLIOGRAFIA UNIFICADA',
-            newHeading: 'BIBLIOGRAFIA UNIFICADA POR DOMÍNIO',
-          },
-          {
-            type: 'ref',
             key: 'APÊNDICE: ÍNDICE DE FRAMEWORKS',
             newHeading: 'ÍNDICE GERAL DE FRAMEWORKS DA COLEÇÃO',
           },
           {
             type: 'ref',
-            key: 'APÊNDICE: ÍNDICE ANALÍTICO',
-            newHeading: 'ÍNDICE ANALÍTICO',
-          },
-          {
-            type: 'ref',
             key: 'APÊNDICE — ÍNDICE REMISSIVO',
             newHeading: 'ÍNDICE REMISSIVO',
-          },
-          {
-            type: 'ref',
-            key: 'ÍNDICE REMISSIVO DE TERMOS-CHAVE',
-            newHeading: 'ÍNDICE REMISSIVO DE TERMOS-CHAVE',
           },
         ],
       },
@@ -1746,7 +1807,7 @@ graph LR
     end
     subgraph J3["Ciclo Longo e Setores"]
         V9["<b>Vol. 9 — Maturidade e Exit</b><br/>Fases 19 e 20 · Board, Crise, M&A e IPO"]
-        V10["<b>Vol. 10 — Verticais e Glossário</b><br/>Regulação, 9 Setores e Índices Gerais"]
+        V10["<b>Vol. 10 — Economia da Inovação e 32 Verticais</b><br/>Hubs Globais, Regulação, 32 Setores e Dicionário"]
         V8 --> V9
     end
     V10 -. "Consulta Setorial e Dicionário" .-> J1
@@ -1758,7 +1819,7 @@ const SOBRE_ESTE_LIVRO_V1 = `## Sobre este livro
 
 **IGNIÇÃO** é um manual operacional em **10 volumes autocontidos** para fundadores e equipes executivas construindo empresas no Brasil — da preparação pessoal antes do CNPJ (Fase 0) até a segunda curva de crescimento e o *exit* via M&A ou IPO (Fase 20).
 
-Cada volume da coleção foi desenhado para funcionar como um **livro completo e independente**: todos os **Frameworks passo a passo**, **Canvases Visuais preenchidos com casos brasileiros**, **Templates operacionais prontos para uso**, **Tabelas de Métricas** e **Guias de Leitura** estão integrados diretamente dentro das Fases e Capítulos onde são aplicados, sem que você precise abrir outro volume para executar sua etapa atual.
+Cada volume da coleção foi desenhado para funcionar como um **livro completo e independente**: todos os **Frameworks passo a passo**, **Canvases Visuais preenchidos com casos brasileiros**, **Templates operacionais prontos para uso**, **Tabelas de Métricas**, **Guias de Leitura** e **Glossários de Termos e Siglas** estão integrados diretamente dentro de cada volume, sem que você precise abrir outro livro para executar sua etapa atual.
 
 A coleção está organizada em **10 volumes focais**:
 
@@ -1771,7 +1832,7 @@ A coleção está organizada em **10 volumes focais**:
 - **Volume 7 — Produto, Engenharia, Dados, IA e Operações:** Fase 17 + 11 Capítulos de discovery contínuo, gestão de engenharia, dívida técnica, IA na engenharia de software, AI Ops, design organizacional, gestão do conhecimento e excelência operacional.
 - **Volume 8 — Blindagem Jurídica, Societária, LGPD e Segurança:** Fase 18 + 14 Capítulos de Marco Legal das Startups, responsabilidade dos sócios, propriedade intelectual/INPI, non-compete, contratos, direito do trabalho, CDC, contencioso, LGPD, regulação de IA, compliance, prevenção a fraudes e SOC 2 / ISO 27001.
 - **Volume 9 — Maturidade, Governança, Crise e Exit:** Fases 19 e 20 + 22 Capítulos de Conselho de Administração (Board), empresas familiares, conflitos societários, internacionalização, câmbio/tesouraria, gestão de crise, layoffs, recuperação judicial, M&A, Search Funds, IPO, secondaries, tributação de exit, post-mortems e second-time founders + Epílogo.
-- **Volume 10 — Playbooks Setoriais, Regulação e Glossário Geral:** 13 Capítulos cobrindo ciclos macroeconômicos, autarquias reguladoras (BACEN, CVM, ANVISA, ANS, ANATEL, ANEEL), CADE, políticas públicas e os 9 Playbooks Setoriais (Biotech/Healthtech, Hardware, Govtech, Agritech, Edtech, Cleantech, Proptech, Legaltech e Logtech), seguidos pelo Glossário Geral, Bibliografia e Índices da Coleção.`;
+- **Volume 10 — Economia da Inovação, Hubs Globais e Playbooks das 32 Verticais:** 38 Capítulos cobrindo a Economia da Inovação e seus Atores, a Geografia Mundial de Hubs por Continente e os 15 Polos Brasileiros, Ciclos Macroeconômicos, Autarquias Reguladoras, CADE, Políticas Públicas e os **32 Playbooks Setoriais** da economia real (de Fintech, Crédito, Insurtech, Wealthtech, Agritech, Infratech, Energytech, Cleantech, Miningtech e Indústria 4.0 até Hardware, Logtech, Mobitech, Proptech, Aerospace, Biotech/Healthtech, Edtech, Govtech, Legaltech, Retailtech, Foodtech, D2C/Wellness, Travel/Pet/Silver, Horizontal/Vertical SaaS, AI-Native, Cybersecurity, DevTools, HRTech, Martech, Creator Economy e Gaming), seguidos pelo Dicionário e Índices Unificados da Coleção.`;
 
 // Mapas de resolução de links e referências
 const oldAnchorToNew = new Map(); // slugify(oldAnchor) -> { volNum, volSlug, heading, displayLabel }
@@ -2186,10 +2247,16 @@ for (const vSpec of VOLUMES_SPEC) {
         if (item.key === 'APÊNDICE — DATA DE COMPILAÇÃO E NOTA SOBRE ENVELHECIMENTO') {
           refBody = refBody.replace(/\n+---\n+\*Consulta vitalícia\*[\s\S]*$/, '');
         } else if (item.key === 'APÊNDICE: BIBLIOGRAFIA' || item.key === 'APÊNDICE — BIBLIOGRAFIA UNIFICADA') {
-          refBody = refBody.replace(
-            /Cada ferramenta no Ferramentário BG traz sua própria seção "Leitura adicional" com referências específicas\./g,
-            'Cada framework integrado nos Volumes 1 a 9 traz sua própria seção "Leitura adicional" com referências específicas.'
-          );
+          refBody = refBody
+            .replace(
+              /Cada ferramenta no Ferramentário BG traz sua própria seção "Leitura adicional" com referências específicas\./g,
+              'Cada framework integrado nos Volumes 1 a 9 traz sua própria seção "Leitura adicional" com referências específicas.'
+            )
+            .replace(
+              /\s*Para uma versão curada e mais curta,\s*ver também o \[\[[^\]]+\]\] mais adiante\./g,
+              ''
+            )
+            .replace(/\n+> \[!note\] Complementaridade[\s\S]*$/m, '');
         } else if (item.key === 'APÊNDICE: ÍNDICE DE FRAMEWORKS') {
           refBody = refBody
             .replace(

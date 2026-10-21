@@ -308,43 +308,93 @@ O bloco final da trilha principal cobre todas as modalidades de liquidez, aquisi
 O **[[#EPÍLOGO|Epílogo]]** a seguir encerra a narrativa cronológica das 21 Fases (Fases 0 a 20), sintetizando a filosofia operacional que atravessa toda a coleção IGNIÇÃO.`,
 
   // =========================================================================
-  // VOLUME 10 — PLAYBOOKS SETORIAIS, REGULAÇÃO NO BRASIL E GLOSSÁRIO GERAL
+  // VOLUME 10 — ECONOMIA DA INOVAÇÃO, GEOGRAFIA DE HUBS E 32 PLAYBOOKS SETORIAIS
   // =========================================================================
-  V10_BLOCO_1: `### Arquitetura deste Domínio: O Tabuleiro Macroeconômico, Regulatório e Concorrencial Brasileiro (Capítulos 1 a 4)
+  V10_BLOCO_1: `### Arquitetura deste Domínio: A Economia da Inovação, Atores, Geografia Mundial de Hubs, Macroeconomia e Regulação (Capítulos 1 a 6)
 
-Este **Volume 10** cumpre duas missões na coleção IGNIÇÃO: ser o **manual definitivo para empreender em setores regulados e verticais específicas no Brasil** (Capítulos 1 a 13) e consolidar o **Dicionário, a Bibliografia e os Índices Gerais de toda a obra**.
+Este **Volume 10** fecha a coleção IGNIÇÃO conectando a execução da empresa ao **ecossistema econômico, geográfico, institucional e setorial** onde ela opera. Nenhuma startup existe no vácuo: suas margens, seu acesso a capital, seu talento técnico e suas barreiras competitivas dependem da **economia da inovação**, do **hub geográfico** onde ela se instala e das **leis físicas da sua vertical de mercado**.
 
-Nos quatro primeiros capítulos, mapeamos as forças estruturais do Estado e da macroeconomia brasileira que afetam qualquer empresa no país:
+Nos seis primeiros capítulos, dissecamos a máquina macro e institucional da inovação:
 
-- **[[#CAPÍTULO 1 — CICLOS MACROECONÔMICOS E A STARTUP BRASILEIRA|Capítulo 1 — Ciclos Macroeconômicos e a Startup Brasileira]]:** Como a taxa Selic, a inflação, o câmbio e a liquidez global alteram o custo de capital, a inadimplência e os múltiplos de *valuation* no Brasil.
-- **[[#CAPÍTULO 2 — REGULATÓRIO SETORIAL BRASILEIRO|Capítulo 2 — Regulatório Setorial Brasileiro]]:** O mapa das autarquias brasileiras — **BACEN, CVM, SUSEP, ANVISA, ANS, ANATEL, ANEEL e ANP** —, suas licenças, *sandboxes* regulatórios e tempos de aprovação.
-- **[[#CAPÍTULO 3 — CADE E ANTITRUSTE — QUANDO O CRESCIMENTO ATRAI O REGULADOR|Capítulo 3 — CADE e Antitruste]]:** Quando o crescimento orgânico, contratos de exclusividade ou aquisições de concorrentes exigem notificação prévia e defesa concorrencial no CADE.
-- **[[#CAPÍTULO 4 — POLÍTICA PÚBLICA COMO ESTRATÉGIA|Capítulo 4 — Política Pública como Estratégia]]:** Como interagir institucionalmente com o Poder Público, participar de consultas públicas e transformar regulação em vantagem competitiva defensável (*regulatory moat*).`,
+- **[[#CAPÍTULO 1 — A ECONOMIA DA INOVAÇÃO E SEUS ATORES: UNIVERSIDADE, ESTADO, CORPORAÇÕES, VENTURE STUDIOS E CAPITAL DE RISCO|Capítulo 1 — A Economia da Inovação e seus Atores]]:** Como funciona o sistema econômico de inovação (Schumpeter, *Power Law*, retornos crescentes) e a cadeia completa de atores — Universidades/ICTs (TRL 1 a 9), Estado e Agências de Fomento (Finep, BNDES, EMBRAPII, FAPESP), Incubadoras/Aceleradoras/Venture Studios, Anjos, Fundos de Venture Capital, Growth/Private Equity, Corporações (CVC e *Open Innovation*) e Mercados de Capitais.
+- **[[#CAPÍTULO 2 — GEOGRAFIA MUNDIAL DA INOVAÇÃO: CONTINENTES, ESPECIALIZAÇÃO, VANTAGENS COMPETITIVAS E HUBS GLOBAIS E BRASILEIROS|Capítulo 2 — Geografia Mundial da Inovação e Hubs]]:** Por que a inovação se concentra em polos específicos, a especialização por continente (América do Norte, Europa, Ásia-Pacífico, Oriente Médio, África e América Latina), as **5 vantagens competitivas estruturais do Brasil no mundo** e a radiografia dos **15 principais hubs de inovação brasileiros** (São Paulo, Campinas, São José dos Campos, Piracicaba, São Carlos, Florianópolis, Joinville, Recife, Belo Horizonte, Curitiba, Porto Alegre, Rio de Janeiro, Santa Rita do Sapucaí, Uberlândia e Centro-Oeste).
+- **[[#CAPÍTULO 3 — CICLOS MACROECONÔMICOS E A STARTUP BRASILEIRA|Capítulo 3 — Ciclos Macroeconômicos e a Startup Brasileira]]:** Como a taxa Selic, a inflação, o câmbio e a liquidez global alteram o custo de capital, a inadimplência e os múltiplos de *valuation* no Brasil.
+- **[[#CAPÍTULO 4 — REGULATÓRIO SETORIAL BRASILEIRO|Capítulo 4 — Regulatório Setorial Brasileiro]]:** O mapa das autarquias brasileiras — **BACEN, CVM, SUSEP, ANVISA, ANS, ANATEL, ANEEL e ANP** —, suas licenças, *sandboxes* regulatórios e tempos de aprovação.
+- **[[#CAPÍTULO 5 — CADE E ANTITRUSTE — QUANDO O CRESCIMENTO ATRAI O REGULADOR|Capítulo 5 — CADE e Antitruste]]:** Quando o crescimento orgânico, contratos de exclusividade ou aquisições de concorrentes exigem notificação prévia e defesa concorrencial no CADE.
+- **[[#CAPÍTULO 6 — POLÍTICA PÚBLICA COMO ESTRATÉGIA|Capítulo 6 — Política Pública como Estratégia]]:** Como interagir institucionalmente com o Poder Público, participar de consultas públicas e transformar regulação em vantagem competitiva defensável (*regulatory moat*).`,
 
-  V10_BLOCO_2: `### Arquitetura deste Domínio: Os 9 Playbooks de Verticais e Setores Regulados no Brasil (Capítulos 5 a 13)
+  V10_CLUSTER_1: `### Arquitetura deste Cluster: Serviços Financeiros, Crédito, Seguros e Mercado de Capitais (Capítulos 7 a 10)
 
-Cada vertical de mercado possui suas próprias leis da física comercial, regulatória e operacional: o ciclo de vendas para prefeituras em uma *Govtech* não tem nada em comum com o ciclo de aprovação clínica na ANVISA de uma *Healthtech* ou com o financiamento de safra de uma *Agritech*. Consulte diretamente o capítulo correspondente ao seu setor:
+O setor financeiro é a maior vertical de Venture Capital da América Latina, impulsionado pela infraestrutura pública digital do Banco Central (PIX e Open Finance) e pelos *spreads* historicamente elevados do mercado brasileiro. Este primeiro cluster de playbooks setoriais cobre suas 4 verticais fundamentais:
 
-- **[[#CAPÍTULO 5 — BIOTECH E HEALTHTECH: PLAYBOOK DE REGULAÇÃO, EVIDÊNCIA CLÍNICA E COMERCIALIZAÇÃO|Capítulo 5 — Biotech e Healthtech]]:** Regulação ANVISA/ANS, validação clínica, prontuário eletrônico, reembolso por operadoras e venda hospitalar.
-- **[[#CAPÍTULO 6 — HARDWARE E DEEP TECH: CONSTRUIR NEGÓCIO COM FABS, ÁTOMOS E CICLOS LONGOS|Capítulo 6 — Hardware e Deep Tech]]:** Prototipagem física, certificação ANATEL/INMETRO, manufatura, cadeia de suprimentos, *Hardware-as-a-Service (HaaS)* e financiamento de ciclos longos.
-- **[[#CAPÍTULO 7 — GOVTECH: STARTUP VENDENDO PARA GOVERNO|Capítulo 7 — Govtech]]:** Nova Lei de Licitações (Lei 14.133/2021), Marco Legal das Startups (CPSI), dispensa/inexigibilidade e gestão de caixa para lidar com o ciclo de pagamento público.
-- **[[#CAPÍTULO 8 — AGRITECH: PLAYBOOK PARA O CAMPO BRASILEIRO|Capítulo 8 — Agritech]]:** Distribuição no campo (cooperativas, revendas), conectividade *offline-first*, ciclo de safra e integração com crédito rural e CPR.
-- **[[#CAPÍTULO 9 — EDTECH: PLAYBOOK PARA TECNOLOGIA DE EDUCAÇÃO NO BRASIL|Capítulo 9 — Edtech]]:** Venda para escolas privadas e redes públicas (K-12), ensino superior (MEC), educação corporativa (B2B) e sazonalidade de matrículas.
-- **[[#CAPÍTULO 10 — CLEANTECH E ESG: STARTUPS DE IMPACTO AMBIENTAL E CLIMA|Capítulo 10 — Cleantech e ESG]]:** Mercado regulado e voluntário de carbono, transição energética, rastreabilidade ambiental e *project finance* verde.
-- **[[#CAPÍTULO 11 — PROPTECH: TECNOLOGIA NO MERCADO IMOBILIÁRIO BRASILEIRO|Capítulo 11 — Proptech]]:** Incorporadoras, imobiliárias, condomínios, cartórios de registro de imóveis, garantias locatícias e securitização (CRI).
-- **[[#CAPÍTULO 12 — LEGALTECH: TECNOLOGIA JURÍDICA NO BRASIL|Capítulo 12 — Legaltech]]:** Automação para departamentos jurídicos e escritórios, integração com sistemas de tribunais (PJe/e-SAJ), limites éticos da OAB e IA jurídica.
-- **[[#CAPÍTULO 13 — LOGTECH: TECNOLOGIA EM LOGÍSTICA E SUPPLY CHAIN|Capítulo 13 — Logtech]]:** Matriz rodoviária brasileira, *last-mile*, caminhoneiros autônomos, gerenciamento de risco/roubo de carga e tabelas de frete.`,
+- **[[#CAPÍTULO 7 — FINTECH: PAGAMENTOS, BANKING-AS-A-SERVICE (BAAS), PIX, OPEN FINANCE E INFRAESTRUTURA FINANCEIRA|Capítulo 7 — Fintech (Pagamentos, BaaS, PIX e Open Finance)]]:** Adquirência, subadquirência, *Banking-as-a-Service*, escada regulatória de Instituição de Pagamento (IP) a SCD/SEP e *unit economics* de transações e *float*.
+- **[[#CAPÍTULO 8 — CRÉDITO DIGITAL, LENDING, SECURITIZAÇÃO (FIDCS), ANTECIPAÇÃO DE RECEBÍVEIS E COBRANÇA|Capítulo 8 — Crédito Digital, Lending e FIDCs]]:** Originação, modelagem de safras de inadimplência (*vintages*), estruturação de *funding* via FIDCs (cotas sênior, mezanino e subordinada), antecipação de recebíveis e cobrança.
+- **[[#CAPÍTULO 9 — INSURTECH: SEGUROS DIGITAIS, SEGUROS EMBARCADOS (EMBEDDED INSURANCE), SINISTROS E PREVIDÊNCIA|Capítulo 9 — Insurtech e Seguros Embarcados]]:** MGA, corretoras digitais, seguradoras S4 no Sandbox da SUSEP, *Open Insurance*, controle de sinistralidade (*Loss Ratio*) e seguros no checkout (*Embedded Insurance*).
+- **[[#CAPÍTULO 10 — WEALTHTECH, MERCADO DE CAPITAIS, GESTÃO PATRIMONIAL, CRIPTO E TOKENIZAÇÃO DE ATIVOS (DREX E RWA)|Capítulo 10 — Wealthtech, Mercado de Capitais, Cripto e Tokenização]]:** Assessores (CVM 178), gestoras, plataformas de investimento, Marco Legal das Criptomoedas, *stablecoins* B2B, Drex e tokenização de ativos reais (RWA).`,
 
-  V10_BLOCO_3: `### Arquitetura deste Domínio: Dicionário Geral, Bibliografia e Índices Remissivos da Coleção
+  V10_CLUSTER_2: `### Arquitetura deste Cluster: Agro, Infraestrutura, Energia, Clima, Recursos Naturais e Indústria (Capítulos 11 a 17)
 
-Esta seção final reúne o aparelho crítico transversal dos 10 volumes da coleção IGNIÇÃO:
+Neste segundo cluster estão os setores pesados da economia real onde o Brasil detém vantagens comparativas naturais e industriais de escala global:
 
-1. **[[#DATA DE COMPILAÇÃO E NOTA SOBRE ENVELHECIMENTO|Data de Compilação e Nota sobre Envelhecimento]]:** Critérios de validade temporal dos dados macroeconômicos, fiscais e regulatórios citados na obra.
-2. **[[#GLOSSÁRIO DE TERMOS TÉCNICOS|Glossário de Termos Técnicos (A–Z)]] e [[#GLOSSÁRIO TEMÁTICO DE NEGÓCIOS|Glossário Temático de Negócios]]:** Definições diretas e contextualizadas ao Brasil de todas as siglas e conceitos de produto, finanças, vendas, venture capital, jurídico e engenharia.
-3. **[[#LISTA DE ABREVIAÇÕES|Lista Geral de Abreviações]]:** Tabela de consulta rápida de siglas e acrônimos, acompanhada do currículo de leitura por etapa.
-4. **[[#BIBLIOGRAFIA GERAL|Bibliografia Geral]] e [[#BIBLIOGRAFIA UNIFICADA POR DOMÍNIO|Bibliografia Unificada por Domínio]]:** Todas as obras, artigos científicos, ensaios, fontes nacionais e normas legais que fundamentam a coleção.
+- **[[#CAPÍTULO 11 — AGRITECH: PLAYBOOK PARA O CAMPO BRASILEIRO|Capítulo 11 — Agritech]]:** Distribuição no campo (cooperativas e revendas), conectividade *offline-first*, ciclo de safra, crédito rural (CPR) e biotecnologia agrícola.
+- **[[#CAPÍTULO 12 — INFRATECH: SANEAMENTO, CONCESSÕES, PPPS, OBRAS PESADAS E INFRAESTRUTURA CRÍTICA|Capítulo 12 — Infratech e Saneamento]]:** Novo Marco do Saneamento, concessões rodoviárias/portuárias/ferroviárias, PPPs, *Digital Twins* e monitoramento de ativos críticos.
+- **[[#CAPÍTULO 13 — ENERGYTECH: GERAÇÃO DISTRIBUÍDA, MERCADO LIVRE DE ENERGIA, SMART GRIDS E ARMAZENAMENTO|Capítulo 13 — Energytech]]:** Abertura do Mercado Livre de Energia (ACL), geração distribuída solar, comercialização varejista, baterias (BESS) e eficiência energética.
+- **[[#CAPÍTULO 14 — CLEANTECH E ESG: STARTUPS DE IMPACTO AMBIENTAL NO BRASIL|Capítulo 14 — Cleantech, Carbono e Bioeconomia]]:** Mercado regulado e voluntário de carbono, rastreabilidade ambiental, economia circular e *project finance* verde.
+- **[[#CAPÍTULO 15 — MININGTECH, OIL & GAS TECH, GEOLOGIA DIGITAL E RECURSOS NATURAIS PESADOS|Capítulo 15 — Miningtech e Oil & Gas Tech]]:** Verbas obrigatórias de P&D da ANP, Mining Hub, geologia digital, segurança geotécnica, robótica offshore e minerais críticos.
+- **[[#CAPÍTULO 16 — INDÚSTRIA 4.0, MANUFATURA AVANÇADA, MANUTENÇÃO PREDITIVA, IIOT E AUTOMAÇÃO FABRIL|Capítulo 16 — Indústria 4.0 e Manufatura Avançada]]:** Sensores industriais (IIoT), manutenção preditiva por vibração/IA, OEE, MES e modelo *Hardware-Enabled SaaS* no chão de fábrica.
+- **[[#CAPÍTULO 17 — HARDWARE E DEEP TECH: CONSTRUIR NEGÓCIO COM FABRICAÇÃO, IP E HORIZONTES LONGOS|Capítulo 17 — Hardware, IoT, Robótica e Deep Tech Física]]:** Prototipagem, certificação ANATEL/INMETRO, manufatura contratada (EMS), cadeia de suprimentos e financiamento de ciclos longos.`,
+
+  V10_CLUSTER_3: `### Arquitetura deste Cluster: Logística, Mobilidade, Imobiliário, Construção e Aeroespacial/Defesa (Capítulos 18 a 21)
+
+O terceiro cluster reúne as verticais que movem cargas, pessoas, edificações e ativos aéreos/orbitais em um território de dimensões continentais:
+
+- **[[#CAPÍTULO 18 — LOGTECH: TECNOLOGIA EM LOGÍSTICA E SUPPLY CHAIN NO BRASIL|Capítulo 18 — Logtech e Supply Chain]]:** Matriz rodoviária brasileira, *last-mile*, caminhoneiros autônomos, gerenciamento de risco/roubo de carga e digitalização de frete.
+- **[[#CAPÍTULO 19 — MOBITECH: MOBILIDADE URBANA, GESTÃO DE FROTAS, TELEMETRIA, ELETROMOBILIDADE E AUTÔNOMOS|Capítulo 19 — Mobitech e Gestão de Frotas]]:** Videotelemetria com IA, locação e assinatura de veículos, eletrificação de frotas comerciais, bilhetagem e transporte coletivo/corporativo.
+- **[[#CAPÍTULO 20 — PROPTECH: TECNOLOGIA NO MERCADO IMOBILIÁRIO BRASILEIRO|Capítulo 20 — Proptech e Construtech]]:** Incorporadoras, canteiro de obras digital (BIM), imobiliárias, garantias locatícias, administração de condomínios e securitização (CRI).
+- **[[#CAPÍTULO 21 — AEROSPACE, SPACETECH, DRONES, SATÉLITES E TECNOLOGIA DE DEFESA (DUAL-USE)|Capítulo 21 — Aerospace, Spacetech, Drones e Defesa (Dual-Use)]]:** Drones agrícolas e logísticos (ANAC/DECEA), eVTOLs, nanossatélites, sensoriamento remoto orbital (SAR) e tecnologias *dual-use* do cluster ITA/Embraer.`,
+
+  V10_CLUSTER_4: `### Arquitetura deste Cluster: Saúde, Educação, Governo e Setor Jurídico (Capítulos 22 a 25)
+
+O quarto cluster cobre os quatro setores altamente regulados e institucionais que respondem por mais de 25% do PIB brasileiro:
+
+- **[[#CAPÍTULO 22 — BIOTECH E HEALTHTECH: PLAYBOOK DE REGULAÇÃO, ENSAIOS E CAPITAL|Capítulo 22 — Biotech, Healthtech e Medtech]]:** Regulação ANVISA/ANS, validação clínica, prontuário eletrônico, telemedicina, reembolso por operadoras e venda hospitalar.
+- **[[#CAPÍTULO 23 — EDTECH: PLAYBOOK PARA TECNOLOGIA DE EDUCAÇÃO NO BRASIL|Capítulo 23 — Edtech]]:** Sistemas de ensino K-12, ensino superior (MEC), educação corporativa/upskilling (B2B), financiamento estudantil (*EdFin*) e sazonalidade escolar.
+- **[[#CAPÍTULO 24 — GOVTECH: STARTUP VENDENDO PARA GOVERNO|Capítulo 24 — Govtech e B2G]]:** Nova Lei de Licitações (Lei 14.133/2021), Marco Legal das Startups (CPSI), dispensa/inexigibilidade e gestão de caixa no ciclo público.
+- **[[#CAPÍTULO 25 — LEGALTECH: TECNOLOGIA JURÍDICA NO BRASIL|Capítulo 25 — Legaltech, Regtech e Taxtech]]:** Automação de departamentos jurídicos e escritórios, contencioso de massa, integração com tribunais, limites éticos da OAB e IA jurídica/tributária.`,
+
+  V10_CLUSTER_5: `### Arquitetura deste Cluster: Varejo, Alimentação, Bens de Consumo (D2C), Turismo, Pet e Longevidade (Capítulos 26 a 29)
+
+O quinto cluster disseca as verticais voltadas ao comércio, alimentação, marcas nativas e serviços ao consumidor:
+
+- **[[#CAPÍTULO 26 — RETAILTECH, E-COMMERCE, OMNICHANNEL, SOCIAL COMMERCE E DIGITALIZAÇÃO DO VAREJO FÍSICO|Capítulo 26 — Retailtech e E-Commerce]]:** PDV/POS em nuvem, OMS, *headless commerce*, *conversational commerce*, logística reversa e digitalização do pequeno varejista.
+- **[[#CAPÍTULO 27 — FOODTECH, FOOD SERVICE, DARK KITCHENS, SUPPLY CHAIN ALIMENTAR E NOVOS INGREDIENTES|Capítulo 27 — Foodtech e Food Service]]:** Automação de restaurantes, abastecimento B2B de alimentos, *Q-commerce*, *dark kitchens* e ciência de alimentos/novos ingredientes.
+- **[[#CAPÍTULO 28 — MARCAS NATIVAS DIGITAIS (D2C), BELEZA, MODA, BENS DE CONSUMO (CPG) E WELLNESS/FITNESS|Capítulo 28 — Marcas Nativas Digitais (D2C), Beleza, Moda e Wellness]]:** Economia de DNVBs no Brasil, transição do CAC pago para distribuição *omnichannel*, terceirização fabril (ANVISA) e plataformas de bem-estar corporativo.
+- **[[#CAPÍTULO 29 — TRAVELTECH, HOSPITALIDADE, EVENTOS, SPORTSTECH, PETTECH E ECONOMIA DA LONGEVIDADE (SILVER ECONOMY)|Capítulo 29 — Traveltech, Eventos, SportsTech, PetTech e Silver Economy]]:** Viagens corporativas (T&E), hotelaria, bilheteria *cashless*, ecossistema veterinário/pet e tecnologias para o envelhecimento populacional.`,
+
+  V10_CLUSTER_6: `### Arquitetura deste Cluster: Software Corporativo (SaaS), IA, Cibersegurança, DevTools, RH, Marketing, Creator Economy e Games (Capítulos 30 a 38)
+
+O sexto e maior cluster cobre as 9 verticais de software, inteligência artificial, segurança, trabalho e mídia digital:
+
+- **[[#CAPÍTULO 30 — HORIZONTAL B2B SAAS, ERPS, PRODUTIVIDADE, AUTOMAÇÃO DE BACKOFFICE E PMES|Capítulo 30 — Horizontal B2B SaaS e ERPs]]:** ERPs, contabilidade digital, automação fiscal/NF-e/Reforma Tributária, CLM e distribuição via contadores e *Inside Sales*.
+- **[[#CAPÍTULO 31 — VERTICAL SAAS: SISTEMAS OPERACIONAIS SETORIAIS COM PAGAMENTOS, CRÉDITO E IA EMBARCADOS|Capítulo 31 — Vertical SaaS]]:** Como construir o sistema operacional de um nicho específico e multiplicar o TAM acoplando pagamentos, antecipação de recebíveis, crédito e agentes de IA.
+- **[[#CAPÍTULO 32 — AI-NATIVE, MODELOS FUNDACIONAIS, AGENTES AUTÔNOMOS, INFRAESTRUTURA DE DADOS E MLOPS|Capítulo 32 — AI-Native, Agentes Autônomos e Infraestrutura de IA]]:** A pilha de IA, diferença entre *thin wrapper* e fosso competitivo real, precificação baseada em resultado (*outcome-based*) e economia de inferência.
+- **[[#CAPÍTULO 33 — CYBERSECURITY, IDENTIDADE DIGITAL, BIOMETRIA, PREVENÇÃO A FRAUDES E PRIVACIDADE|Capítulo 33 — Cybersecurity, Identidade Digital e Antifraude]]:** Biometria facial, *liveness*, prevenção a fraudes no PIX, segurança ofensiva, AppSec/Cloud Security, SOC gerenciado e governança LGPD.
+- **[[#CAPÍTULO 34 — DEVTOOLS, CLOUD INFRASTRUCTURE, APIS, OBSERVABILIDADE E OPEN SOURCE COMERCIAL (COSS)|Capítulo 34 — DevTools, Cloud Infrastructure e Open Source Comercial]]:** Produtos para desenvolvedores, GTM *bottom-up* global desde o dia 1, *Usage-Based Pricing* e conversão de comunidade aberta em receita *Enterprise*.
+- **[[#CAPÍTULO 35 — HRTECH, FOLHA DE PAGAMENTO, BENEFÍCIOS FLEXÍVEIS, RECRUTAMENTO E FUTURE OF WORK|Capítulo 35 — HRTech, Folha e Benefícios Flexíveis]]:** DP digital (CLT/eSocial), cartões de benefícios flexíveis (PAT), consignado/antecipação salarial, ATS de recrutamento e contratação global (EOR).
+- **[[#CAPÍTULO 36 — MARTECH, ADTECH, SALESTECH, CRM, ATENDIMENTO CONVERSACIONAL (WHATSAPP-FIRST) E RETAIL MEDIA|Capítulo 36 — Martech, SalesTech, WhatsApp-First e Retail Media]]:** Automação comercial sobre WhatsApp Business API, CRM, inteligência de prospecção B2B, DOOH e redes de *Retail Media*.
+- **[[#CAPÍTULO 37 — CREATOR ECONOMY, MÍDIA DIGITAL, STREAMING, ÁUDIO, INFOPRODUTOS E PLATAFORMAS DE COMUNIDADE|Capítulo 37 — Creator Economy, Mídia Digital e Infoprodutos]]:** Infraestrutura de checkout e *split* de pagamentos, comunidades pagas, newsletters B2B e ferramentas de criação com IA.
+- **[[#CAPÍTULO 38 — GAMING, ESTÚDIOS DE JOGOS, E-SPORTS, APOSTAS REGULADAS (IGAMING/BETS) E ECONOMIA VIRTUAL|Capítulo 38 — Gaming, E-Sports, iGaming Regulado e Economia Virtual]]:** Estúdios mobile/PC/console, *co-development*, E-Sports e a cadeia tecnológica e regulatória de apostas de quota fixa no Brasil (Lei 14.790/2023 e SPA/MF).`,
+
+  V10_BLOCO_3: `### Arquitetura deste Domínio: Dicionário Geral, Bibliografia e Índices Unificados da Coleção (Sem Duplicatas)
+
+Esta seção final reúne de forma enxuta e unificada o aparelho de consulta transversal dos 10 volumes da coleção IGNIÇÃO:
+
+1. **[[#DATA DE COMPILAÇÃO E NOTA SOBRE ENVELHECIMENTO|Data de Compilação e Nota sobre Envelhecimento]]:** Critérios de meia-vida e validade temporal dos dados macroeconômicos, fiscais e regulatórios citados na obra.
+2. **[[#GLOSSÁRIO DE TERMOS TÉCNICOS|Glossário Geral de Termos Técnicos e de Negócios (A–Z)]]:** Definições canônicas de todos os conceitos de produto, finanças, vendas, venture capital, jurídico e engenharia (complementando os glossários locais presentes ao final de cada um dos Volumes 1 a 9).
+3. **[[#LISTA DE ABREVIAÇÕES|Lista Geral de Abreviações e Siglas]]:** Tabela completa de siglas e acrônimos, acompanhada do currículo de leitura por etapa.
+4. **[[#BIBLIOGRAFIA GERAL|Bibliografia Geral da Coleção]]:** As obras, artigos científicos, ensaios e marcos legais que fundamentam a coleção.
 5. **[[#ÍNDICE GERAL DE FRAMEWORKS DA COLEÇÃO|Índice Geral de Frameworks da Coleção]]:** Mapa completo dos 164 frameworks da obra, indicando exatamente em qual Volume e Fase cada um está detalhado passo a passo.
-6. **[[#ÍNDICE ANALÍTICO|Índice Analítico]], [[#ÍNDICE REMISSIVO|Índice Remissivo]] e [[#ÍNDICE REMISSIVO DE TERMOS-CHAVE|Índice Remissivo de Termos-Chave]]:** Índices cruzados por conceito, métrica, órgão regulador e caso brasileiro para localização imediata em qualquer um dos 10 volumes.`,
+6. **[[#ÍNDICE REMISSIVO|Índice Remissivo Geral da Coleção]]:** Índice alfabético unificado de conceitos, métricas, órgãos reguladores e casos brasileiros em todos os 10 volumes.`,
 };
 
 module.exports = { DOMAIN_INTROS };
