@@ -4,7 +4,7 @@
     "file": "volumes/IGNICAO-Vol-1-Ideacao.md",
     "title": "IGNIÇÃO — Volume 1: Ideação e Fundação",
     "subtitle": "Do Pré-Zero à Teoria do Negócio (Fases 0 a 3 e Capítulos 1 a 13)",
-    "words": 112702
+    "words": 112740
   },
   {
     "num": 2,
@@ -25,21 +25,21 @@
     "file": "volumes/IGNICAO-Vol-4-Tracao-e-PMF.md",
     "title": "IGNIÇÃO — Volume 4: Tração, Go-to-Market e Product-Market Fit",
     "subtitle": "Do MVP em Produção ao PMF, Canais, Vendas e Pricing (Fases 11 a 13 e Capítulos 1 a 16)",
-    "words": 103489
+    "words": 103509
   },
   {
     "num": 5,
     "file": "volumes/IGNICAO-Vol-5-Financas-e-Captacao.md",
     "title": "IGNIÇÃO — Volume 5: Finanças, Captação e Venture Capital",
-    "subtitle": "Unit Economics, Caixa, Contabilidade, Tributário, FP&A e Rodadas de Investimento (Fase 14 e Capítulos 1 a 20)",
-    "words": 91243
+    "subtitle": "Contabilidade, Reforma Tributária, FP&A, Comércio Exterior, Caixa e Rodadas de Investimento (Fase 14 e Capítulos 1 a 21)",
+    "words": 94190
   },
   {
     "num": 6,
     "file": "volumes/IGNICAO-Vol-6-Receita-e-Pessoas.md",
     "title": "IGNIÇÃO — Volume 6: Receita Enterprise, Liderança e Cultura",
-    "subtitle": "Máquina Comercial em Escala, RevOps, Liderança Executiva, Talentos e ESOP (Fases 15 e 16 e Capítulos 1 a 19)",
-    "words": 107025
+    "subtitle": "Máquina Comercial em Escala, RevOps, Franchising, Liderança Executiva, Talentos e ESOP (Fases 15 e 16 e Capítulos 1 a 20)",
+    "words": 109559
   },
   {
     "num": 7,
@@ -59,14 +59,14 @@
     "num": 9,
     "file": "volumes/IGNICAO-Vol-9-Maturidade-e-Exit.md",
     "title": "IGNIÇÃO — Volume 9: Maturidade, Governança, Crise e Exit",
-    "subtitle": "Segunda Curva, Conselho (Board), Internacionalização, Turnaround, M&A e IPO (Fases 19 e 20, Capítulos 1 a 22 e Epílogo)",
-    "words": 97910
+    "subtitle": "Segunda Curva, Conselho (Board), Internacionalização, Turnaround, M&A e IPO (Fases 19 e 20, Capítulos 1 a 21 e Epílogo)",
+    "words": 98200
   },
   {
     "num": 10,
     "file": "volumes/IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario.md",
     "title": "IGNIÇÃO — Volume 10: Economia da Inovação, Hubs Globais e Playbooks das 32 Verticais",
     "subtitle": "Ecossistemas, Geografia de Hubs por Continente, Regulação, 32 Verticais da Economia Real e Dicionário da Coleção (Capítulos 1 a 38 e Índices)",
-    "words": 138491
+    "words": 138479
   }
 ]

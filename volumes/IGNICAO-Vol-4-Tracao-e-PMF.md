@@ -1573,13 +1573,13 @@ Planilha contendo cinco itens. Premissas (CAC por canal, LTV por segmento, churn
 Isso não é "plano de negócios" para impressionar investidor. É ferramenta para tomar decisões operacionais.
 
 > [!note] Quando construir o primeiro orçamento formal
-> O [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 16 — PLANEJAMENTO FINANCEIRO E ORÇAMENTO|Capítulo 16 — Planejamento Financeiro e Orçamento (Vol. 5)]] cobre o momento certo para montar o primeiro budget estruturado — abordagens top-down versus bottom-up, headcount plan, e como fazer reforecast quando os números divergem das premissas.
+> O [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 6 — PLANEJAMENTO FINANCEIRO E ORÇAMENTO|Capítulo 6 — Planejamento Financeiro e Orçamento (Vol. 5)]] cobre o momento certo para montar o primeiro budget estruturado — abordagens top-down versus bottom-up, headcount plan, e como fazer reforecast quando os números divergem das premissas.
 
 > [!note] Forecasting de ARR para validar se o modelo fecha
-> O [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 17 — REVENUE FORECASTING: MODELOS, ACURÁCIA E PROCESSO PARA O FOUNDER|Capítulo 17 — Revenue Forecasting (Vol. 5)]] traz o ARR waterfall, análise de cohorts de receita, modelos baseados em pipeline, e ajustes de sazonalidade brasileira — ferramentas para testar se as premissas do canvas financeiro são alcançáveis.
+> O [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 7 — REVENUE FORECASTING: MODELOS, ACURÁCIA E PROCESSO PARA O FOUNDER|Capítulo 7 — Revenue Forecasting (Vol. 5)]] traz o ARR waterfall, análise de cohorts de receita, modelos baseados em pipeline, e ajustes de sazonalidade brasileira — ferramentas para testar se as premissas do canvas financeiro são alcançáveis.
 
-> [!tip] Capítulo 2 (Vol. 5) — Modelagem Financeira
-> O [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 2 — MODELAGEM FINANCEIRA OPERACIONAL|Capítulo 2 — Modelagem Financeira (Vol. 5)]] cobre a anatomia completa do modelo financeiro para startups — estrutura de abas, premissas auditáveis, projeção de headcount, sensibilidades e como construir um modelo que investidor consegue revisar sem perguntar o que cada célula faz.
+> [!tip] Capítulo 4 (Vol. 5) — Modelagem Financeira
+> O [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 4 — MODELAGEM FINANCEIRA OPERACIONAL|Capítulo 4 — Modelagem Financeira (Vol. 5)]] cobre a anatomia completa do modelo financeiro para startups — estrutura de abas, premissas auditáveis, projeção de headcount, sensibilidades e como construir um modelo que investidor consegue revisar sem perguntar o que cada célula faz.
 
 ##### Modelo financeiro profissional em três cenários
 
@@ -1605,8 +1605,8 @@ A estrutura do modelo financeiro tem cinco abas.
 > [!warning] Regra operacional do cenário conservador
 > O cenário conservador deve mostrar runway (tempo de vida do caixa no ritmo atual de gastos) de dezoito meses ou mais em qualquer momento. Se não mostra, você está sub-capitalizado. Precisa captar, ou cortar custos *agora*.
 
-> [!tip] Capítulo 3 (Vol. 5) — Modelagem com Cohorts
-> O [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 3 — MODELAGEM FINANCEIRA COM COHORTS: PROJEÇÕES QUE FUNCIONAM EM EMPRESA RECORRENTE|Capítulo 3 — Modelagem com Cohorts (Vol. 5)]] mostra como construir a análise de coorte de receita que transforma o churn mensal em projeção de ARR, identifica degradação de coortes antes que apareça na DRE e calcula o LTV real por safra de cliente — base da Aba 4 de sensibilidades abaixo.
+> [!tip] Capítulo 5 (Vol. 5) — Modelagem com Cohorts
+> O [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — MODELAGEM FINANCEIRA COM COHORTS: PROJEÇÕES QUE FUNCIONAM EM EMPRESA RECORRENTE|Capítulo 5 — Modelagem com Cohorts (Vol. 5)]] mostra como construir a análise de coorte de receita que transforma o churn mensal em projeção de ARR, identifica degradação de coortes antes que apareça na DRE e calcula o LTV real por safra de cliente — base da Aba 4 de sensibilidades abaixo.
 
 **Aba 4, Sensibilidades.**
 
@@ -1788,8 +1788,8 @@ No contexto brasileiro. Ramen-profitable para fundadores brasileiros em São Pau
 
 Três perguntas de verificação mensal para a gestão de caixa. Aplique a checagem Default Alive ou Default Dead descrita no Passo 10 acima — com números, não com esperança. Verifique se você atingiu Ramen Profitable conforme definido no Passo 11 acima. Se a resposta para as duas anteriores é negativa, qual é o meu plano de noventa dias para mudar isso?
 
-> [!tip] Capítulo 4 (Vol. 5) — Gestão de Caixa
-> O [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 4 — GESTÃO DE CAIXA EM PROFUNDIDADE|Capítulo 4 — Gestão de Caixa (Vol. 5)]] aprofunda o ritual mensal de caixa: reconciliação bancária, projeção de 13 semanas, controle de inadimplência e gatilhos de alerta de runway — o processo operacional que transforma o diagnóstico Default Alive/Dead em ação concreta.
+> [!tip] Capítulo 11 (Vol. 5) — Gestão de Caixa
+> O [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 11 — GESTÃO DE CAIXA EM PROFUNDIDADE|Capítulo 11 — Gestão de Caixa (Vol. 5)]] aprofunda o ritual mensal de caixa: reconciliação bancária, projeção de 13 semanas, controle de inadimplência e gatilhos de alerta de runway — o processo operacional que transforma o diagnóstico Default Alive/Dead em ação concreta.
 
 ### Os onze passos aplicados, unit economics do PadariaPro depois de três meses de piloto
 
@@ -2600,7 +2600,7 @@ Em decisões pequenas e reversíveis (ajuste de preço, mudança de canal) — o
 
 ##### Conexão com outros canvases
 
-O Risk Canvas **complementa o Lean Canvas (Fase 1)**: cada bloco do Lean Canvas gera riscos específicos — "Problema" → risco de mercado, "Solução" → risco de solução, "Canais" → risco de cliente, "Fontes de Receita" → risco de modelo. **Pareia com o Test Card (Fase 8)**: cada risco crítico do canvas pode gerar um Test Card — o experimento que vai testar se o risco é real e qual a magnitude. **Antecede rodadas de captação** (Capítulo 5 (Vol. 5) (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES)): investidores farão perguntas exatamente sobre os riscos do canvas; chegar à reunião com o canvas preenchido demonstra maturidade de gestão.
+O Risk Canvas **complementa o Lean Canvas (Fase 1)**: cada bloco do Lean Canvas gera riscos específicos — "Problema" → risco de mercado, "Solução" → risco de solução, "Canais" → risco de cliente, "Fontes de Receita" → risco de modelo. **Pareia com o Test Card (Fase 8)**: cada risco crítico do canvas pode gerar um Test Card — o experimento que vai testar se o risco é real e qual a magnitude. **Antecede rodadas de captação** (Capítulo 13 (Vol. 5) (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES)): investidores farão perguntas exatamente sobre os riscos do canvas; chegar à reunião com o canvas preenchido demonstra maturidade de gestão.
 
 ##### Leitura adicional
 
@@ -3018,7 +3018,7 @@ Isso não é PMF. É fit local.
 Acontece com frequência em serviços regulados (saúde, educação), ou com forte dependência de rede local. É negócio legítimo. Mas exige estratégia diferente de uma máquina de PMF generalizado.
 
 > [!tip] Comunicar PMF a investidores
-> Captação de Série A e posterior exige demonstração de PMF com seis artefatos: gráfico de retenção por coorte estabilizada acima do threshold do setor; Sean Ellis Test recente com percentual e tamanho da amostra; NRR em SaaS com trajetória de 4-8 trimestres; pipeline de indicação (percentual de novos clientes por referência); cohort analysis de LTV/CAC por safra (não média); cinco a dez depoimentos qualitativos de clientes com permissão. Founder que apresenta "temos PMF" sem esses artefatos sinaliza que ainda não mediu PMF com rigor. O detalhamento de como construir cada artefato e estruturar o pitch está no [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 — Captação de Equity (Vol. 5)]] e no [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 17 — REVENUE FORECASTING: MODELOS, ACURÁCIA E PROCESSO PARA O FOUNDER|Capítulo 17 — Revenue Forecasting (Vol. 5)]] (cohort analysis convertido em ARR waterfall, projeção financeira auditável).
+> Captação de Série A e posterior exige demonstração de PMF com seis artefatos: gráfico de retenção por coorte estabilizada acima do threshold do setor; Sean Ellis Test recente com percentual e tamanho da amostra; NRR em SaaS com trajetória de 4-8 trimestres; pipeline de indicação (percentual de novos clientes por referência); cohort analysis de LTV/CAC por safra (não média); cinco a dez depoimentos qualitativos de clientes com permissão. Founder que apresenta "temos PMF" sem esses artefatos sinaliza que ainda não mediu PMF com rigor. O detalhamento de como construir cada artefato e estruturar o pitch está no [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 13 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 13 — Captação de Equity (Vol. 5)]] e no [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 7 — REVENUE FORECASTING: MODELOS, ACURÁCIA E PROCESSO PARA O FOUNDER|Capítulo 7 — Revenue Forecasting (Vol. 5)]] (cohort analysis convertido em ARR waterfall, projeção financeira auditável).
 
 ### Declaração formal de PMF — critérios mínimos e scorecard
 
@@ -5405,7 +5405,7 @@ Marketing de performance está operando bem quando todos os itens abaixo estão 
 
 **Ver também:**
 
-[[#CAPÍTULO 3 — CONTENT MARKETING E SEO COMO DISCIPLINA|Capítulo 3 — Content Marketing e SEO como Disciplina]]. [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 17 — SECONDARY E LIQUIDEZ DE FOUNDER|Capítulo 17 (SECONDARY E LIQUIDEZ DE FOUNDER) (Vol. 9)]], Growth e Aquisição. [[#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvases Visuais da Fase]], Canvases e Mapas Visuais. [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 13 — PERFORMANCE REVIEWS ESTRUTURADOS: CICLO, CALIBRAÇÃO E CONEXÃO COM COMPENSAÇÃO|Capítulo 13 (PERFORMANCE REVIEWS ESTRUTURADOS: CICLO, CALIBRAÇÃO E CONEXÃO COM COMPENSAÇÃO) (Vol. 6)]], Métricas e Dashboard de Negócio.
+[[#CAPÍTULO 3 — CONTENT MARKETING E SEO COMO DISCIPLINA|Capítulo 3 — Content Marketing e SEO como Disciplina]]. [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 15 — LIQUIDEZ SECUNDÁRIA (SECONDARIES): REALIZAÇÃO PARCIAL DE CAPITAL PARA FUNDADORES, EXECUTIVOS E INVESTIDORES ANTES DO EXIT|Capítulo 15 (LIQUIDEZ SECUNDÁRIA (SECONDARIES): REALIZAÇÃO PARCIAL DE CAPITAL PARA FUNDADORES, EXECUTIVOS E INVESTIDORES ANTES DO EXIT) (Vol. 9)]], Growth e Aquisição. [[#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvases Visuais da Fase]], Canvases e Mapas Visuais. [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 14 — PERFORMANCE REVIEWS ESTRUTURADOS: CICLO, CALIBRAÇÃO E CONEXÃO COM COMPENSAÇÃO|Capítulo 14 (PERFORMANCE REVIEWS ESTRUTURADOS: CICLO, CALIBRAÇÃO E CONEXÃO COM COMPENSAÇÃO) (Vol. 6)]], Métricas e Dashboard de Negócio.
 
 > [!info] Fases relacionadas
 > Referenciado em: Fase 10.
@@ -6179,7 +6179,7 @@ Startups brasileiras raramente chegam a ter squad de PMM antes de Series C. O ma
 
 ---
 
-**Ver também:** [[#CAPÍTULO 1 — GTM PLAYBOOK: DA IDEIA AO PRIMEIRO MILHÃO DE ARR|Capítulo 1 — GTM Playbook]], [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 1 — BOARD E GOVERNANCE|Capítulo 1 — Métricas de Crescimento (Vol. 9)]], [[IGNICAO-Vol-2-Descoberta-e-Mercado#CAPÍTULO 4 — CASOS DE FRACASSO BRASILEIROS E LIÇÕES|Capítulo 4 — Inside Sales e SDR (Vol. 2)]], [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 4 — COMO FECHAR UMA FASE: COMMITTED NEXT MOVE E SINAIS OBSERVÁVEIS|Capítulo 4 — Modelo de Negócio e Unit Economics (Vol. 3)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 2 — MODELAGEM FINANCEIRA OPERACIONAL|Capítulo 2 — Branding e Identidade Visual (Vol. 5)]]
+**Ver também:** [[#CAPÍTULO 1 — GTM PLAYBOOK: DA IDEIA AO PRIMEIRO MILHÃO DE ARR|Capítulo 1 — GTM Playbook]], [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 1 — BOARD E GOVERNANCE|Capítulo 1 — Métricas de Crescimento (Vol. 9)]], [[IGNICAO-Vol-2-Descoberta-e-Mercado#CAPÍTULO 4 — CASOS DE FRACASSO BRASILEIROS E LIÇÕES|Capítulo 4 — Inside Sales e SDR (Vol. 2)]], [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 4 — COMO FECHAR UMA FASE: COMMITTED NEXT MOVE E SINAIS OBSERVÁVEIS|Capítulo 4 — Modelo de Negócio e Unit Economics (Vol. 3)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 4 — MODELAGEM FINANCEIRA OPERACIONAL|Capítulo 4 — Branding e Identidade Visual (Vol. 5)]]
 
 ---
 
@@ -6528,7 +6528,7 @@ Independente de motion (B2B, enterprise, SMB, PLG), qualquer operação de venda
 
 ### Ver também
 
-[[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 1 — GROWTH COMO FUNÇÃO ORGANIZACIONAL: TIME DE GROWTH, BUILD VS HIRE, RELAÇÃO COM PRODUTO|Capítulo 1 (GROWTH COMO FUNÇÃO ORGANIZACIONAL: TIME DE GROWTH, BUILD VS HIRE, RELAÇÃO COM PRODUTO) (Vol. 6)]], Growth como função organizacional. [[#CAPÍTULO 12 — CUSTOMER SUCCESS COMO DISCIPLINA|Capítulo 12 (CUSTOMER SUCCESS COMO DISCIPLINA)]], Customer Success como disciplina. [[#CAPÍTULO 9 — PRICING STRATEGY COMO DISCIPLINA|Capítulo 9 (PRICING STRATEGY COMO DISCIPLINA)]], Pricing strategy. [[#CAPÍTULO 10 — SUBSCRIPTION ECONOMY EM PROFUNDIDADE: ALÉM DO "COBRA MENSALMENTE"|Capítulo 10 (SUBSCRIPTION ECONOMY EM PROFUNDIDADE: ALÉM DO "COBRA MENSALMENTE")]], Subscription economy. [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 10 — LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Capítulo 10 (LGPD, COMPLIANCE E GOVERNANÇA DE DADOS) (Vol. 8)]], LGPD, compliance, e governança de dados. [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 6 — CANAIS INDIRETOS E PARCERIAS: PARCERIAS, FRANQUIAS, CHANNEL|Capítulo 6 (CANAIS INDIRETOS E PARCERIAS: PARCERIAS, FRANQUIAS, CHANNEL) (Vol. 6)]], Canais indiretos e parcerias, quando parte da venda é via terceiros. [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 3 — REVENUE OPERATIONS: INFRAESTRUTURA, DADOS E PROCESSO PARA CRESCER COM PREVISIBILIDADE|Capítulo 3 (REVENUE OPERATIONS: INFRAESTRUTURA, DADOS E PROCESSO PARA CRESCER COM PREVISIBILIDADE) (Vol. 6)]], RevOps como disciplina autônoma, com profundidade operacional. [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 17 — REVENUE FORECASTING: MODELOS, ACURÁCIA E PROCESSO PARA O FOUNDER|Capítulo 17 (REVENUE FORECASTING: MODELOS, ACURÁCIA E PROCESSO PARA O FOUNDER) (Vol. 5)]], para transformar as taxas de conversão de funil em forecast de receita.
+[[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 1 — GROWTH COMO FUNÇÃO ORGANIZACIONAL: TIME DE GROWTH, BUILD VS HIRE, RELAÇÃO COM PRODUTO|Capítulo 1 (GROWTH COMO FUNÇÃO ORGANIZACIONAL: TIME DE GROWTH, BUILD VS HIRE, RELAÇÃO COM PRODUTO) (Vol. 6)]], Growth como função organizacional. [[#CAPÍTULO 12 — CUSTOMER SUCCESS COMO DISCIPLINA|Capítulo 12 (CUSTOMER SUCCESS COMO DISCIPLINA)]], Customer Success como disciplina. [[#CAPÍTULO 9 — PRICING STRATEGY COMO DISCIPLINA|Capítulo 9 (PRICING STRATEGY COMO DISCIPLINA)]], Pricing strategy. [[#CAPÍTULO 10 — SUBSCRIPTION ECONOMY EM PROFUNDIDADE: ALÉM DO "COBRA MENSALMENTE"|Capítulo 10 (SUBSCRIPTION ECONOMY EM PROFUNDIDADE: ALÉM DO "COBRA MENSALMENTE")]], Subscription economy. [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 10 — LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Capítulo 10 (LGPD, COMPLIANCE E GOVERNANÇA DE DADOS) (Vol. 8)]], LGPD, compliance, e governança de dados. [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 6 — CANAIS INDIRETOS E PARCERIAS: PARCERIAS, FRANQUIAS, CHANNEL|Capítulo 6 (CANAIS INDIRETOS E PARCERIAS: PARCERIAS, FRANQUIAS, CHANNEL) (Vol. 6)]], Canais indiretos e parcerias, quando parte da venda é via terceiros. [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 3 — REVENUE OPERATIONS: INFRAESTRUTURA, DADOS E PROCESSO PARA CRESCER COM PREVISIBILIDADE|Capítulo 3 (REVENUE OPERATIONS: INFRAESTRUTURA, DADOS E PROCESSO PARA CRESCER COM PREVISIBILIDADE) (Vol. 6)]], RevOps como disciplina autônoma, com profundidade operacional. [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 7 — REVENUE FORECASTING: MODELOS, ACURÁCIA E PROCESSO PARA O FOUNDER|Capítulo 7 (REVENUE FORECASTING: MODELOS, ACURÁCIA E PROCESSO PARA O FOUNDER) (Vol. 5)]], para transformar as taxas de conversão de funil em forecast de receita.
 
 > [!info] Fases relacionadas
 > Referenciado em: Fase 10.
@@ -6956,7 +6956,7 @@ Pricing como disciplina está no padrão quando todos os itens abaixo estão cum
 
 ### Ver também
 
-**Ver também:** [[#CAPÍTULO 10 — SUBSCRIPTION ECONOMY EM PROFUNDIDADE: ALÉM DO "COBRA MENSALMENTE"|Capítulo 10 (SUBSCRIPTION ECONOMY EM PROFUNDIDADE: ALÉM DO "COBRA MENSALMENTE")]], Subscription economy. [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 7 — VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR|Capítulo 7 (VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR) (Vol. 5)]], Valuation methods. [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 2 — MODELAGEM FINANCEIRA OPERACIONAL|Capítulo 2 (MODELAGEM FINANCEIRA OPERACIONAL) (Vol. 5)]], Modelagem financeira.
+**Ver também:** [[#CAPÍTULO 10 — SUBSCRIPTION ECONOMY EM PROFUNDIDADE: ALÉM DO "COBRA MENSALMENTE"|Capítulo 10 (SUBSCRIPTION ECONOMY EM PROFUNDIDADE: ALÉM DO "COBRA MENSALMENTE")]], Subscription economy. [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 15 — VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR|Capítulo 15 (VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR) (Vol. 5)]], Valuation methods. [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 4 — MODELAGEM FINANCEIRA OPERACIONAL|Capítulo 4 (MODELAGEM FINANCEIRA OPERACIONAL) (Vol. 5)]], Modelagem financeira.
 
 > [!info] Fases relacionadas
 > Referenciado em: Fase 5, Fase 9, Fase 10.
@@ -7166,7 +7166,7 @@ Subscription business está saudável quando todos os itens abaixo estão cumpri
 
 ### Ver também
 
-[[#CAPÍTULO 12 — CUSTOMER SUCCESS COMO DISCIPLINA|Capítulo 12 (CUSTOMER SUCCESS COMO DISCIPLINA)]], Customer Success. [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 1 — PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA|Capítulo 1 (PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA) (Vol. 7)]], Produto em escala. [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 3 — MODELAGEM FINANCEIRA COM COHORTS: PROJEÇÕES QUE FUNCIONAM EM EMPRESA RECORRENTE|Capítulo 3 (MODELAGEM FINANCEIRA COM COHORTS: PROJEÇÕES QUE FUNCIONAM EM EMPRESA RECORRENTE) (Vol. 5)]], Modelagem com cohorts. [[#CAPÍTULO 9 — PRICING STRATEGY COMO DISCIPLINA|Capítulo 9 (PRICING STRATEGY COMO DISCIPLINA)]], Pricing strategy.
+[[#CAPÍTULO 12 — CUSTOMER SUCCESS COMO DISCIPLINA|Capítulo 12 (CUSTOMER SUCCESS COMO DISCIPLINA)]], Customer Success. [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 1 — PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA|Capítulo 1 (PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA) (Vol. 7)]], Produto em escala. [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — MODELAGEM FINANCEIRA COM COHORTS: PROJEÇÕES QUE FUNCIONAM EM EMPRESA RECORRENTE|Capítulo 5 (MODELAGEM FINANCEIRA COM COHORTS: PROJEÇÕES QUE FUNCIONAM EM EMPRESA RECORRENTE) (Vol. 5)]], Modelagem com cohorts. [[#CAPÍTULO 9 — PRICING STRATEGY COMO DISCIPLINA|Capítulo 9 (PRICING STRATEGY COMO DISCIPLINA)]], Pricing strategy.
 
 ---
 
@@ -7354,7 +7354,7 @@ As cláusulas que mais importam e como negociar cada uma.
 | Board seats | Composição do conselho | Manter pelo menos empate entre fundador e investidor até Série B |
 | Veto rights | Decisões que requerem aprovação do investidor | Limitar a lista de eventos. Evitar veto em contratações operacionais |
 
-Ver [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) (Vol. 5)]] para detalhamento de captação.
+Ver [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 13 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 13 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) (Vol. 5)]] para detalhamento de captação.
 
 **Contratação de executivo sênior.**
 
@@ -7374,7 +7374,7 @@ Limitar responsabilidade (cap em receita do contrato ou 12 meses de serviço): n
 
 As cinco variáveis críticas: preço (e forma de pagamento — cash, ações, ou earnout), earnout (componente de preço condicional a métricas futuras — alta probabilidade de conflito, negocie métricas simples e mensuráveis), representações e garantias (indemnification cap, survival period), escrow (percentual retido para cobrir claims de rep and warranty — negocie prazo máximo de 12 a 18 meses), non-compete do fundador (duração e escopo geográfico — negocie para mínimo viável).
 
-Ver [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 13 — SUCESSÃO NO EXIT E TRANSIÇÃO PÓS-AQUISIÇÃO|Capítulo 13 (SUCESSÃO NO EXIT E TRANSIÇÃO PÓS-AQUISIÇÃO) (Vol. 9)]] para M&A em detalhe.
+Ver [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 18 — SUCESSÃO NO EXIT E TRANSIÇÃO PÓS-AQUISIÇÃO|Capítulo 18 (SUCESSÃO NO EXIT E TRANSIÇÃO PÓS-AQUISIÇÃO) (Vol. 9)]] para M&A em detalhe.
 
 **Negociação com co-fundador em conflito.**
 
@@ -7470,7 +7470,7 @@ Esse processo leva 30 a 60 minutos. Para uma negociação com impacto de seis d�
 
 ### Ver também
 
-[[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 — Captação (Vol. 5)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 7 — VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR|Capítulo 7 — Valuation (Vol. 5)]], [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 6 — TOMADA DE DECISÃO COMO DISCIPLINA|Capítulo 6 — Tomada de Decisão (Vol. 1)]], [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 6 — CONTRATOS EM PROFUNDIDADE POR TIPO|Capítulo 6 — Contratos (Vol. 8)]], [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 13 — SUCESSÃO NO EXIT E TRANSIÇÃO PÓS-AQUISIÇÃO|Capítulo 13 — M&A (Vol. 9)]]
+[[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 13 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 13 — Captação (Vol. 5)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 15 — VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR|Capítulo 15 — Valuation (Vol. 5)]], [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 6 — TOMADA DE DECISÃO COMO DISCIPLINA|Capítulo 6 — Tomada de Decisão (Vol. 1)]], [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 6 — CONTRATOS EM PROFUNDIDADE POR TIPO|Capítulo 6 — Contratos (Vol. 8)]], [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 18 — SUCESSÃO NO EXIT E TRANSIÇÃO PÓS-AQUISIÇÃO|Capítulo 18 — M&A (Vol. 9)]]
 
 ---
 
@@ -8001,7 +8001,7 @@ CS como disciplina no padrão quando o onboarding estruturado existe com métric
 
 ### Ver também
 
-[[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 1 — PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA|Capítulo 1 (PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA) (Vol. 7)]], Produto em escala. [[#CAPÍTULO 10 — SUBSCRIPTION ECONOMY EM PROFUNDIDADE: ALÉM DO "COBRA MENSALMENTE"|Capítulo 10 (SUBSCRIPTION ECONOMY EM PROFUNDIDADE: ALÉM DO "COBRA MENSALMENTE")]], Subscription economy. [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 3 — MODELAGEM FINANCEIRA COM COHORTS: PROJEÇÕES QUE FUNCIONAM EM EMPRESA RECORRENTE|Capítulo 3 (MODELAGEM FINANCEIRA COM COHORTS: PROJEÇÕES QUE FUNCIONAM EM EMPRESA RECORRENTE) (Vol. 5)]], Cohorts.
+[[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 1 — PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA|Capítulo 1 (PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA) (Vol. 7)]], Produto em escala. [[#CAPÍTULO 10 — SUBSCRIPTION ECONOMY EM PROFUNDIDADE: ALÉM DO "COBRA MENSALMENTE"|Capítulo 10 (SUBSCRIPTION ECONOMY EM PROFUNDIDADE: ALÉM DO "COBRA MENSALMENTE")]], Subscription economy. [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — MODELAGEM FINANCEIRA COM COHORTS: PROJEÇÕES QUE FUNCIONAM EM EMPRESA RECORRENTE|Capítulo 5 (MODELAGEM FINANCEIRA COM COHORTS: PROJEÇÕES QUE FUNCIONAM EM EMPRESA RECORRENTE) (Vol. 5)]], Cohorts.
 
 ---
 
@@ -8013,7 +8013,7 @@ CS como disciplina no padrão quando o onboarding estruturado existe com métric
 ## CAPÍTULO 13 — CUSTOMER EXPERIENCE: DA JORNADA AO NPS AO CHURN ZERO
 
 > [!note] Posição no livro
-> Este capítulo aprofunda os temas de retenção, sucesso do cliente e expansão de receita mencionados nas fases de go-to-market e escala. Conecta-se ao [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 1 — BOARD E GOVERNANCE|Capítulo 1 — Métricas de SaaS (Vol. 9)]], ao [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 2 — MODELAGEM FINANCEIRA OPERACIONAL|Capítulo 2 — Funis e Conversão (Vol. 5)]], ao [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 4 — BOOTSTRAP vs VENTURE CAPITAL: A ESCOLHA FUNDACIONAL|Capítulo 4 — Bootstrap vs. Venture Capital (Vol. 1)]] (que aborda a importância do NRR para decisão de capital) e ao [[IGNICAO-Vol-2-Descoberta-e-Mercado#CAPÍTULO 1 — PSICOLOGIA DO CONSUMIDOR BRASILEIRO — COMPORTAMENTO, DECISÃO E CONVERSÃO|Capítulo 1 — Psicologia do Consumidor Brasileiro (Vol. 2)]] (input obrigatório de jornada e expectativa de relação para CX no contexto local).
+> Este capítulo aprofunda os temas de retenção, sucesso do cliente e expansão de receita mencionados nas fases de go-to-market e escala. Conecta-se ao [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 1 — BOARD E GOVERNANCE|Capítulo 1 — Métricas de SaaS (Vol. 9)]], ao [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 4 — MODELAGEM FINANCEIRA OPERACIONAL|Capítulo 4 — Funis e Conversão (Vol. 5)]], ao [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 4 — BOOTSTRAP vs VENTURE CAPITAL: A ESCOLHA FUNDACIONAL|Capítulo 4 — Bootstrap vs. Venture Capital (Vol. 1)]] (que aborda a importância do NRR para decisão de capital) e ao [[IGNICAO-Vol-2-Descoberta-e-Mercado#CAPÍTULO 1 — PSICOLOGIA DO CONSUMIDOR BRASILEIRO — COMPORTAMENTO, DECISÃO E CONVERSÃO|Capítulo 1 — Psicologia do Consumidor Brasileiro (Vol. 2)]] (input obrigatório de jornada e expectativa de relação para CX no contexto local).
 
 ---
 
@@ -8347,7 +8347,7 @@ Estágio         | Equipe         | Ratio CS:clientes | Foco
 
 ---
 
-**Ver também:** [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 1 — BOARD E GOVERNANCE|Capítulo 1 — Métricas de SaaS (Vol. 9)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 2 — MODELAGEM FINANCEIRA OPERACIONAL|Capítulo 2 — Funis e Conversão (Vol. 5)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 17 — REVENUE FORECASTING: MODELOS, ACURÁCIA E PROCESSO PARA O FOUNDER|Capítulo 17 — Revenue Forecasting (Vol. 5)]], [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 4 — BOOTSTRAP vs VENTURE CAPITAL: A ESCOLHA FUNDACIONAL|Capítulo 4 — Bootstrap vs. Venture Capital (Vol. 1)]]
+**Ver também:** [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 1 — BOARD E GOVERNANCE|Capítulo 1 — Métricas de SaaS (Vol. 9)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 4 — MODELAGEM FINANCEIRA OPERACIONAL|Capítulo 4 — Funis e Conversão (Vol. 5)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 7 — REVENUE FORECASTING: MODELOS, ACURÁCIA E PROCESSO PARA O FOUNDER|Capítulo 7 — Revenue Forecasting (Vol. 5)]], [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 4 — BOOTSTRAP vs VENTURE CAPITAL: A ESCOLHA FUNDACIONAL|Capítulo 4 — Bootstrap vs. Venture Capital (Vol. 1)]]
 
 ---
 
@@ -8639,7 +8639,7 @@ Time e stack de dados estão saudáveis quando todos os itens abaixo estão cump
 
 ### Ver também
 
-[[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 1 — GROWTH COMO FUNÇÃO ORGANIZACIONAL: TIME DE GROWTH, BUILD VS HIRE, RELAÇÃO COM PRODUTO|Capítulo 1 (GROWTH COMO FUNÇÃO ORGANIZACIONAL: TIME DE GROWTH, BUILD VS HIRE, RELAÇÃO COM PRODUTO) (Vol. 6)]], Growth como função. [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 3 — MODELAGEM FINANCEIRA COM COHORTS: PROJEÇÕES QUE FUNCIONAM EM EMPRESA RECORRENTE|Capítulo 3 (MODELAGEM FINANCEIRA COM COHORTS: PROJEÇÕES QUE FUNCIONAM EM EMPRESA RECORRENTE) (Vol. 5)]], Cohorts. [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 2 — MODELAGEM FINANCEIRA OPERACIONAL|Capítulo 2 (MODELAGEM FINANCEIRA OPERACIONAL) (Vol. 5)]], Modelagem financeira.
+[[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 1 — GROWTH COMO FUNÇÃO ORGANIZACIONAL: TIME DE GROWTH, BUILD VS HIRE, RELAÇÃO COM PRODUTO|Capítulo 1 (GROWTH COMO FUNÇÃO ORGANIZACIONAL: TIME DE GROWTH, BUILD VS HIRE, RELAÇÃO COM PRODUTO) (Vol. 6)]], Growth como função. [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — MODELAGEM FINANCEIRA COM COHORTS: PROJEÇÕES QUE FUNCIONAM EM EMPRESA RECORRENTE|Capítulo 5 (MODELAGEM FINANCEIRA COM COHORTS: PROJEÇÕES QUE FUNCIONAM EM EMPRESA RECORRENTE) (Vol. 5)]], Cohorts. [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 4 — MODELAGEM FINANCEIRA OPERACIONAL|Capítulo 4 (MODELAGEM FINANCEIRA OPERACIONAL) (Vol. 5)]], Modelagem financeira.
 
 ---
 

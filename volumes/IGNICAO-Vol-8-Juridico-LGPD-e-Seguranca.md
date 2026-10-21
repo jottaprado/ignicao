@@ -142,7 +142,7 @@ LTDA. Mais de um sócio. Mais flexível. Capital social declarado.
 S/A. Estrutura para captação robusta. Mais complexa. Obrigatória para IPO.
 
 > [!important] Para a maioria das startups iniciais, LTDA é o ponto ideal
-> S/A entra em cena quando há captações de venture capital significativas. Migrar de LTDA para S/A custa entre R$ 15 mil e R$ 40 mil em honorários jurídicos para conversão simples (alteração de tipo societário, sem reestruturação de cap table (tabela de capitalização — quem tem quanto da empresa)). Para migração no contexto de Série A com reestruturação societária completa (classes de ações, ESOP, drag/tag-along, holding), a faixa sobe para R$ 30 mil a R$ 100 mil — esta é a faixa documentada no [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 14 — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Capítulo 14 (CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA) (Vol. 5)]] e se aplica ao cenário típico em que a migração efetivamente acontece. Em ambos os casos, é trivial — não vale antecipar a estrutura mais pesada.
+> S/A entra em cena quando há captações de venture capital significativas. Migrar de LTDA para S/A custa entre R$ 15 mil e R$ 40 mil em honorários jurídicos para conversão simples (alteração de tipo societário, sem reestruturação de cap table (tabela de capitalização — quem tem quanto da empresa)). Para migração no contexto de Série A com reestruturação societária completa (classes de ações, ESOP, drag/tag-along, holding), a faixa sobe para R$ 30 mil a R$ 100 mil — esta é a faixa documentada no [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 2 — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Capítulo 2 (CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA) (Vol. 5)]] e se aplica ao cenário típico em que a migração efetivamente acontece. Em ambos os casos, é trivial — não vale antecipar a estrutura mais pesada.
 
 > [!tip] Capítulo 1 — Marco Legal das Startups
 > O [[#CAPÍTULO 1 — MARCO LEGAL DAS STARTUPS: LC 182/2021|Capítulo 1 — Marco Legal das Startups]] (Lei 182/2021) cobre os benefícios específicos para startups: sandbox regulatório, dispensa de licitação para contratar com governo, regime simplificado de dissolução e o enquadramento como "Empresa Inovadora" — relevante para decidir estrutura jurídica e acessar programas de fomento.
@@ -161,7 +161,7 @@ Lucro Real. Obrigatório para receitas acima do limite do Lucro Presumido, e par
 > A escolha errada pode custar cinco a dez por cento de margem sem necessidade. Os limites e alíquotas dos regimes mudam periodicamente — esse manual aponta a estrutura, não os números do ano corrente.
 
 > [!note] Tributário estratégico para startups
-> O [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 15 — TRIBUTÁRIO ESTRATÉGICO PARA STARTUPS|Capítulo 15 — Tributário Estratégico (Vol. 5)]] cobre o Fator R do Simples Nacional (como a folha afeta o anexo de enquadramento), a Lei do Bem para P&D, e quando a estrutura de holding passa a fazer sentido — decisões com impacto direto na margem líquida dos próximos anos.
+> O [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 3 — TRIBUTÁRIO ESTRATÉGICO PARA STARTUPS|Capítulo 3 — Tributário Estratégico (Vol. 5)]] cobre o Fator R do Simples Nacional (como a folha afeta o anexo de enquadramento), a Lei do Bem para P&D, e quando a estrutura de holding passa a fazer sentido — decisões com impacto direto na margem líquida dos próximos anos.
 
 #### Passo 3, registre marca e domínio
 
@@ -210,8 +210,8 @@ A discussão substantiva sobre divisão de equity entre fundadores — quatro fa
 > [!tip] Não negocie equity em jantar
 > A conversa de divisão de equity deve acontecer em ambiente estruturado, com documentação. Acordos verbais em jantar geram memórias diferentes seis meses depois. Use um template de acordo ou leve para advogado desde o primeiro rascunho.
 
-> [!tip] Capítulo 15 (Vol. 6) — Stock Options para Startups Brasileiras
-> O [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 15 — STOCK OPTIONS E ESOP NO BRASIL|Capítulo 15 — Stock Options (Vol. 6)]] cobre a estrutura jurídica e fiscal das opções no Brasil: phantom shares versus opções reais, tratamento tributário no exercício, modelos de plano ESOP e como redigir a carta de oferta de equity para os primeiros funcionários — sem criar passivo fiscal inadvertido.
+> [!tip] Capítulo 16 (Vol. 6) — Stock Options para Startups Brasileiras
+> O [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 16 — STOCK OPTIONS E ESOP NO BRASIL|Capítulo 16 — Stock Options (Vol. 6)]] cobre a estrutura jurídica e fiscal das opções no Brasil: phantom shares versus opções reais, tratamento tributário no exercício, modelos de plano ESOP e como redigir a carta de oferta de equity para os primeiros funcionários — sem criar passivo fiscal inadvertido.
 
 ##### Contrato com clientes
 
@@ -228,7 +228,7 @@ CLT, PJ, autônomo, estagiário. Cada modalidade tem regras. Informalidade aqui 
 > O [[#CAPÍTULO 7 — DIREITO DO TRABALHO PARA STARTUPS|Capítulo 7 — Direito do Trabalho para Startups]] detalha os critérios de vínculo empregatício que transformam PJ em CLT na Justiça do Trabalho, as obrigações do eSocial desde o primeiro funcionário, o tratamento do sobreaviso em times de produto, e o custo real de cada modalidade de rescisão.
 
 > [!note] Como estruturar a compensação dos primeiros funcionários
-> O [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 14 — COMPENSAÇÃO E BENEFÍCIOS NO BRASIL|Capítulo 14 — Compensação e Benefícios no Brasil (Vol. 6)]] explica o multiplicador real do salário CLT (1,66x sobre o bruto), como estruturar PLR e equity para os primeiros funcionários, e quais benefícios fazem sentido em cada estágio da empresa.
+> O [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 15 — COMPENSAÇÃO E BENEFÍCIOS NO BRASIL|Capítulo 15 — Compensação e Benefícios no Brasil (Vol. 6)]] explica o multiplicador real do salário CLT (1,66x sobre o bruto), como estruturar PLR e equity para os primeiros funcionários, e quais benefícios fazem sentido em cada estágio da empresa.
 
 ##### NDAs com terceiros críticos
 
@@ -248,8 +248,8 @@ Cinco providências. Nomeie DPO, ou encarregado. Escreva política de privacidad
 
 Quatro providências. Contador mensal. Emissão de notas fiscais corretas. Registros contábeis conforme regime. Obrigações acessórias (DCTF, DEFIS, DIRF, conforme aplicável).
 
-> [!tip] Capítulo 14 (Vol. 5) — Contabilidade para Startups
-> O [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 14 — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Capítulo 14 — Contabilidade, Tributário e Regimes Fiscais (Vol. 5)]] cobre a diferença entre contabilidade gerencial e fiscal, como escolher entre Contabilizei, escritório especializado e controller interno por estágio, e o checklist de obrigações acessórias mensais que o fundador precisa acompanhar — mesmo sem entender contabilidade profundamente.
+> [!tip] Capítulo 2 (Vol. 5) — Contabilidade para Startups
+> O [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 2 — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Capítulo 2 — Contabilidade, Tributário e Regimes Fiscais (Vol. 5)]] cobre a diferença entre contabilidade gerencial e fiscal, como escolher entre Contabilizei, escritório especializado e controller interno por estágio, e o checklist de obrigações acessórias mensais que o fundador precisa acompanhar — mesmo sem entender contabilidade profundamente.
 
 #### Passo 7, separe finanças pessoais e empresariais
 
@@ -273,7 +273,7 @@ Cinco documentos vivos. Onboarding (processo de integração do novo colaborador
 Quatro itens. Fluxo de caixa mensal projetado para os próximos doze meses. Controle de inadimplência. Reconciliação bancária semanal. Relatório mensal de resultado.
 
 > [!note] Capital de giro ao estruturar e captar a primeira rodada
-> O [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 18 — CAPITAL DE GIRO E RECEBÍVEIS|Capítulo 18 — Capital de Giro e Recebíveis (Vol. 5)]] cobre o Ciclo de Conversão de Caixa, as modalidades de antecipação de recebíveis disponíveis no Brasil, e como o FIDC se encaixa em fintechs e marketplaces — ferramentas para não ficar com caixa represado enquanto o negócio cresce.
+> O [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 8 — CAPITAL DE GIRO E RECEBÍVEIS|Capítulo 8 — Capital de Giro e Recebíveis (Vol. 5)]] cobre o Ciclo de Conversão de Caixa, as modalidades de antecipação de recebíveis disponíveis no Brasil, e como o FIDC se encaixa em fintechs e marketplaces — ferramentas para não ficar com caixa represado enquanto o negócio cresce.
 
 #### Passo 10, revise seguros
 
@@ -288,7 +288,7 @@ Seguro de erros e omissões (E&O), se oferece serviço profissional. Cobre falha
 Seguro de vida para sócios-chave (key person). Em sociedades pequenas, a perda repentina de um sócio operacional pode quebrar o negócio. O seguro mitiga esse risco para os sócios remanescentes.
 
 > [!note] Coberturas essenciais para startups: D&O, E&O, cyber e Key Man
-> O [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 20 — GESTÃO DE RISCO E SEGUROS PARA STARTUPS|Capítulo 20 — Gestão de Risco e Seguros (Vol. 5)]] detalha quando contratar cada cobertura, o que cada apólice efetivamente protege, e os gatilhos que tornam D&O e Key Man obrigatórios — especialmente após a entrada de investidores no board.
+> O [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 12 — GESTÃO DE RISCO E SEGUROS PARA STARTUPS|Capítulo 12 — Gestão de Risco e Seguros (Vol. 5)]] detalha quando contratar cada cobertura, o que cada apólice efetivamente protege, e os gatilhos que tornam D&O e Key Man obrigatórios — especialmente após a entrada de investidores no board.
 
 ### Os dez passos aplicados, estruturação do PadariaPro LTDA
 
@@ -1022,13 +1022,13 @@ Em estágio pré-seed ou seed early sem investidores institucionais — sem pref
 
 ##### Conexão com outros canvases
 
-O Waterfall Canvas **usa o cap table atual** (não é um canvas de modelo de negócio) e **alimenta diretamente a negociação de term sheet** (Capítulo 5 (Vol. 5) (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) e Template: Term Sheet Anotado — Guia de Leitura (Fase 14)). É o único canvas deste apêndice de natureza financeira — os demais são estratégicos ou operacionais.
+O Waterfall Canvas **usa o cap table atual** (não é um canvas de modelo de negócio) e **alimenta diretamente a negociação de term sheet** (Capítulo 13 (Vol. 5) (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) e Template: Term Sheet Anotado — Guia de Leitura (Fase 14)). É o único canvas deste apêndice de natureza financeira — os demais são estratégicos ou operacionais.
 
 ##### Leitura adicional
 
 - Template Term Sheet Anotado (Fase 14) — cláusulas de liquidation preference e anti-dilution.
 - [[#CAPÍTULO 1 — MARCO LEGAL DAS STARTUPS: LC 182/2021|Capítulo 1 (MARCO LEGAL DAS STARTUPS: LC 182/2021)]] — COCP como alternativa ao preferred.
-- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 15 — STOCK OPTIONS E ESOP NO BRASIL|Capítulo 15 (STOCK OPTIONS E ESOP NO BRASIL) (Vol. 6)]] — stock options e impacto no cap table.
+- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 16 — STOCK OPTIONS E ESOP NO BRASIL|Capítulo 16 (STOCK OPTIONS E ESOP NO BRASIL) (Vol. 6)]] — stock options e impacto no cap table.
 - *Venture Deals* (Brad Feld & Jason Mendelson, 2019) — explicação definitiva de waterfall mechanics.
 
 ---
@@ -1075,7 +1075,7 @@ A primeira linha de defesa jurídica da startup protege **quem é dono da empres
 > [!note] Nota de validade
 > A Lei Complementar 182/2021 foi promulgada em junho de 2021. Valores de receita bruta, limites de dispensa de licitação, e regulamentações setoriais do ARE podem ser atualizados por decreto ou resolução posterior. Este capítulo reflete o cenário de abril de 2026. Revisar anualmente com advogado especializado em direito empresarial e startups.
 
-A [[#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18]] cobre constituição, cap table (quadro societário) e vesting (período de aquisição progressiva da participação). O [[#CAPÍTULO 5 — CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS|Capítulo 5 (CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS)]] cobre contratos operacionais e IP (propriedade intelectual). O [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 14 — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Capítulo 14 (CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA) (Vol. 5)]] cobre tributário. O [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) (Vol. 5)]] cobre captação. Este capítulo cobre a Lei Complementar 182/2021, o marco legal das startups, com foco nos instrumentos que ela criou e em como usá-los na prática.
+A [[#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18]] cobre constituição, cap table (quadro societário) e vesting (período de aquisição progressiva da participação). O [[#CAPÍTULO 5 — CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS|Capítulo 5 (CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS)]] cobre contratos operacionais e IP (propriedade intelectual). O [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 2 — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Capítulo 2 (CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA) (Vol. 5)]] cobre tributário. O [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 13 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 13 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) (Vol. 5)]] cobre captação. Este capítulo cobre a Lei Complementar 182/2021, o marco legal das startups, com foco nos instrumentos que ela criou e em como usá-los na prática.
 
 ### O que este capítulo cobre
 
@@ -1246,7 +1246,7 @@ Para o fundador, importa entender que quando uma gestora brasileira propoe entra
 
 #### Implicacoes praticas
 
-**Laudo de avaliacao**. FIP exige laudo de avaliacao independente para entrada (precificacao do aporte) e para saida (precificacao da venda). Isso afeta o calendario da rodada brasileira. O fundador deve antecipar prazo adicional de tres a seis semanas para o laudo de entrada, e contratar avaliador qualificado. Para detalhes do processo de valuation, ver [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 7 — VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR|Capítulo 7 (VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR) (Vol. 5)]].
+**Laudo de avaliacao**. FIP exige laudo de avaliacao independente para entrada (precificacao do aporte) e para saida (precificacao da venda). Isso afeta o calendario da rodada brasileira. O fundador deve antecipar prazo adicional de tres a seis semanas para o laudo de entrada, e contratar avaliador qualificado. Para detalhes do processo de valuation, ver [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 15 — VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR|Capítulo 15 (VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR) (Vol. 5)]].
 
 **Governanca obrigatoria**. FIP deve ter comite de investimento que aprova cada aporte e cada disposicao. Na pratica, o fundador sente isso em duas frentes. Decisoes da gestora podem demorar mais do que em fundo offshore (precisa passar pelo comite). E clausulas de protective provisions no acordo de acionistas tendem a ser mais detalhadas, refletindo a obrigacao do gestor de prestar contas ao comite.
 
@@ -1256,7 +1256,7 @@ Para o fundador, importa entender que quando uma gestora brasileira propoe entra
 
 Fundo offshore tipico (Cayman master-feeder, LLC americana investindo direto em Cayman holding da startup brasileira) opera com governanca mais flexivel. Sem comite obrigatorio. Sem laudo de entrada (acorda valuation por negociacao direta). Sem regra de diversificacao impondo limite por investida. O term sheet brasileiro de FIP costuma ser mais longo. As negociacoes mais lentas. E a capacidade do gestor de aceitar termos atipicos (por exemplo, side letter exclusiva ou estrutura de earnout no aporte) e mais limitada.
 
-Cross-ref. Para term sheet detalhado, ver [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) (Vol. 5)]]. Para metodos de valuation que sustentam o laudo, ver [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 7 — VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR|Capítulo 7 (VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR) (Vol. 5)]].
+Cross-ref. Para term sheet detalhado, ver [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 13 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 13 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) (Vol. 5)]]. Para metodos de valuation que sustentam o laudo, ver [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 15 — VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR|Capítulo 15 (VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR) (Vol. 5)]].
 
 > [!note] FIP profissional brasileiro tem dinamica diferente
 > FIP profissional brasileiro tem dinamica diferente de fundo offshore e merece atencao no planejamento de rodada brasileira.
@@ -1345,7 +1345,7 @@ O poder público não compra produto pronto. Ele contrata o **desenvolvimento ou
 
 ### O que a lei não resolve
 
-**Tributação de stock options**. A LC 182/2021 não alterou o tratamento tributário de opções de compra para colaboradores. A discussão sobre IRPF vs. ganho de capital em exercício de opções continua indefinida na jurisprudência administrativa. Ver [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 15 — STOCK OPTIONS E ESOP NO BRASIL|Capítulo 15 (STOCK OPTIONS E ESOP NO BRASIL) (Vol. 6)]].
+**Tributação de stock options**. A LC 182/2021 não alterou o tratamento tributário de opções de compra para colaboradores. A discussão sobre IRPF vs. ganho de capital em exercício de opções continua indefinida na jurisprudência administrativa. Ver [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 16 — STOCK OPTIONS E ESOP NO BRASIL|Capítulo 16 (STOCK OPTIONS E ESOP NO BRASIL) (Vol. 6)]].
 
 **Propriedade intelectual**. A lei não cria regras de IP para startups. Patentes, marcas, e cessão de código seguem legislação própria. Ver [[#CAPÍTULO 3 — PROPRIEDADE INTELECTUAL E INPI|Capítulo 3 (PROPRIEDADE INTELECTUAL E INPI)]].
 
@@ -1353,7 +1353,7 @@ O poder público não compra produto pronto. Ele contrata o **desenvolvimento ou
 
 **Governança interna**. A lei não resolve disputas entre cofundadores. Acordo de sócios robusto continua sendo necessário. Ver [[#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18]].
 
-**Acesso automático ao Simples Nacional**. Enquadrar-se como startup pela LC 182 não garante elegibilidade ao Simples. Os critérios do Simples (receita, atividade, vedações) são independentes. Ver [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 14 — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Capítulo 14 (CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA) (Vol. 5)]].
+**Acesso automático ao Simples Nacional**. Enquadrar-se como startup pela LC 182 não garante elegibilidade ao Simples. Os critérios do Simples (receita, atividade, vedações) são independentes. Ver [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 2 — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Capítulo 2 (CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA) (Vol. 5)]].
 
 ---
 
@@ -1380,10 +1380,10 @@ O poder público não compra produto pronto. Ele contrata o **desenvolvimento ou
 |---|---|
 | Estruturação societária, vesting, cap table | [[#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18]] |
 | Contratos operacionais, IP assignment | [[#CAPÍTULO 5 — CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS|Capítulo 5 (CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS)]] |
-| Tributário, Simples Nacional, Lucro Presumido | [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 14 — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Capítulo 14 (CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA) (Vol. 5)]] |
-| Captação de equity, pitch, term sheet | [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) (Vol. 5)]] |
-| Financiamento não-diluitivo, BNDES, Finep | [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 9 — FINANCIAMENTO NÃO-DILUITIVO|Capítulo 9 (FINANCIAMENTO NÃO-DILUITIVO) (Vol. 5)]] |
-| Stock options e ESOP | [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 15 — STOCK OPTIONS E ESOP NO BRASIL|Capítulo 15 (STOCK OPTIONS E ESOP NO BRASIL) (Vol. 6)]] |
+| Tributário, Simples Nacional, Lucro Presumido | [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 2 — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Capítulo 2 (CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA) (Vol. 5)]] |
+| Captação de equity, pitch, term sheet | [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 13 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 13 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) (Vol. 5)]] |
+| Financiamento não-diluitivo, BNDES, Finep | [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 17 — FINANCIAMENTO NÃO-DILUITIVO|Capítulo 17 (FINANCIAMENTO NÃO-DILUITIVO) (Vol. 5)]] |
+| Stock options e ESOP | [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 16 — STOCK OPTIONS E ESOP NO BRASIL|Capítulo 16 (STOCK OPTIONS E ESOP NO BRASIL) (Vol. 6)]] |
 | Propriedade intelectual, INPI | [[#CAPÍTULO 3 — PROPRIEDADE INTELECTUAL E INPI|Capítulo 3 (PROPRIEDADE INTELECTUAL E INPI)]] |
 | Govtech, venda para governo | [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 8 — SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|Capítulo 8 (SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL) (Vol. 4)]] |
 | Regulação setorial (fintech, healthtech, agritech) | [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 4 — REGULATÓRIO SETORIAL BRASILEIRO|Capítulo 4 (REGULATÓRIO SETORIAL BRASILEIRO) (Vol. 10)]] |
@@ -1731,7 +1731,7 @@ O tema da responsabilidade societária atravessa momentos diferentes da trajetó
 - Na [[IGNICAO-Vol-1-Ideacao#FASE 1 — ENCONTRAR A IDEIA|Fase 1 (constituição) (Vol. 1)]], a escolha do tipo societário e do regime de integralização já define o ponto de partida da exposição pessoal.
 - No [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 12 — RECUPERAÇÃO JUDICIAL E WIND-DOWN — QUANDO A STARTUP NÃO CONSEGUE CONTINUAR|Capítulo 12 — Estrutura Societária (Vol. 9)]], está o detalhamento de LTDA vs. SA vs. SAS e como o tipo societário afeta a responsabilidade.
 - No [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 1 — DINHEIRO PESSOAL DO FUNDADOR|Capítulo 1 — Dinheiro Pessoal do Fundador (Vol. 1)]], a separação de caixas PF/PJ é tratada como princípio de gestão financeira, não apenas como requisito jurídico.
-- No [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 13 — INVESTOR RELATIONS PÓS-RODADA|Capítulo 13 — Due Diligence para Captação (Vol. 5)]], o passivo pessoal dos fundadores aparece como item de checklist do processo de verificação pré-investimento.
+- No [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 21 — INVESTOR RELATIONS PÓS-RODADA|Capítulo 21 — Due Diligence para Captação (Vol. 5)]], o passivo pessoal dos fundadores aparece como item de checklist do processo de verificação pré-investimento.
 
 ---
 
@@ -1739,8 +1739,8 @@ O tema da responsabilidade societária atravessa momentos diferentes da trajetó
 
 - [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 12 — RECUPERAÇÃO JUDICIAL E WIND-DOWN — QUANDO A STARTUP NÃO CONSEGUE CONTINUAR|Capítulo 12 — Estrutura Societária e Tipos de Empresa no Brasil (Vol. 9)]]
 - [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 1 — DINHEIRO PESSOAL DO FUNDADOR|Capítulo 1 — Dinheiro Pessoal do Fundador (Vol. 1)]]
-- [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 13 — INVESTOR RELATIONS PÓS-RODADA|Capítulo 13 — Due Diligence para Captação (Vol. 5)]]
-- [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 14 — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Capítulo 14 — Contabilidade, Tributário e Regimes Fiscais (Vol. 5)]]
+- [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 21 — INVESTOR RELATIONS PÓS-RODADA|Capítulo 21 — Due Diligence para Captação (Vol. 5)]]
+- [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 2 — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Capítulo 2 — Contabilidade, Tributário e Regimes Fiscais (Vol. 5)]]
 - [[#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18 — Estruturação Jurídica, Societária e Blindagem Operacional]]
 - [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16 — Time, Liderança Executiva e Cultura em Escala (Vol. 6)]]
 
@@ -2247,7 +2247,7 @@ Para sócio que sai voluntariamente vs. sócio excluído: a validade pode variar
 5. **Ignorar a non-compete do adquirente no M&A.** Assinar sem ler ou sem negociar âmbito e exceções pode prender o fundador por 5 anos.
 6. **Non-compete excessivamente longa em M&A com earnout.** Se o adquirente tem meios de demitir o fundador antes do earnout terminar, a non-compete que persiste é instrumento de pressão desproporcional.
 
-**Ver também:** [[#CAPÍTULO 5 — CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS|Capítulo 5 — Contratos]], [[#CAPÍTULO 3 — PROPRIEDADE INTELECTUAL E INPI|Capítulo 3 — Propriedade Intelectual]], [[IGNICAO-Vol-9-Maturidade-e-Exit#FASE 20 — ESTRATÉGIA DE SAÍDA (EXIT STRATEGY)|Fase 20 — Exit (Vol. 9)]], [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 14 — M&A ATIVO E ROLL-UPS: FUNDADOR COMO COMPRADOR|Capítulo 14 — M&A (Vol. 9)]]
+**Ver também:** [[#CAPÍTULO 5 — CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS|Capítulo 5 — Contratos]], [[#CAPÍTULO 3 — PROPRIEDADE INTELECTUAL E INPI|Capítulo 3 — Propriedade Intelectual]], [[IGNICAO-Vol-9-Maturidade-e-Exit#FASE 20 — ESTRATÉGIA DE SAÍDA (EXIT STRATEGY)|Fase 20 — Exit (Vol. 9)]], [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 13 — M&A ATIVO E ROLL-UPS: FUNDADOR COMO COMPRADOR|Capítulo 13 — M&A (Vol. 9)]]
 
 ---
 
@@ -2271,7 +2271,7 @@ A segunda linha de defesa regula as relações da startup com seus **clientes, f
 > [!note] Nota de validade
 > A legislação contratual e de consumidor evolui em ciclos de cinco a dez anos. Códigos específicos (CDC, CLT e Marco Civil) mudam periodicamente. Revisar a cada vinte e quatro meses, de preferência com advogado brasileiro especializado.
 
-A [[#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18]] cobre constituição da empresa. O [[#CAPÍTULO 10 — LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Capítulo 10 (LGPD, COMPLIANCE E GOVERNANÇA DE DADOS)]] cobre LGPD (Lei Geral de Proteção de Dados). O [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 14 — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Capítulo 14 (CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA) (Vol. 5)]] cobre tributário. Este capítulo cobre contratos operacionais e aspectos legais não cobertos em outros: contratos com clientes (além de política de privacidade), termos de uso robustos, contratos com fornecedores, contratos com freelancers, IP (Intellectual Property, propriedade intelectual), aspectos trabalhistas em startup e litígios.
+A [[#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18]] cobre constituição da empresa. O [[#CAPÍTULO 10 — LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Capítulo 10 (LGPD, COMPLIANCE E GOVERNANÇA DE DADOS)]] cobre LGPD (Lei Geral de Proteção de Dados). O [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 2 — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Capítulo 2 (CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA) (Vol. 5)]] cobre tributário. Este capítulo cobre contratos operacionais e aspectos legais não cobertos em outros: contratos com clientes (além de política de privacidade), termos de uso robustos, contratos com fornecedores, contratos com freelancers, IP (Intellectual Property, propriedade intelectual), aspectos trabalhistas em startup e litígios.
 
 ### O que este capítulo cobre
 
@@ -2311,7 +2311,7 @@ A DD legal padrao em Series A, Series B e M&A cobre sete blocos.
 
 Sinal de pre-operacional bem-feito. Data room legal pronto antes de sair captar, organizado em pastas correspondentes aos sete blocos, com indice e versionamento. O investidor entra, baixa o pacote, e em quarenta e oito horas devolve a primeira lista de pendencias. Sem data room, a primeira lista chega em duas semanas e cada item adiciona dias de atraso.
 
-A DD reversa tambem ajuda contratos com clientes enterprise (que pedem o mesmo pacote em vendor onboarding) e M&A (que pede o pacote ampliado). Ver [[#CAPÍTULO 6 — CONTRATOS EM PROFUNDIDADE POR TIPO|Capítulo 6 (CONTRATOS EM PROFUNDIDADE POR TIPO)]] para clausulas-padrao por tipo de contrato, [[#CAPÍTULO 12 — COMPLIANCE E ANTICORRUPÇÃO PARA STARTUPS|Capítulo 12 (COMPLIANCE E ANTICORRUPÇÃO PARA STARTUPS)]] para programa de integridade, [[#CAPÍTULO 2 — RESPONSABILIDADE DO SÓCIO E DO ADMINISTRADOR|Capítulo 2 (RESPONSABILIDADE DO SÓCIO E DO ADMINISTRADOR)]] para limites pessoais e [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) (Vol. 5)]] para fluxo de captacao.
+A DD reversa tambem ajuda contratos com clientes enterprise (que pedem o mesmo pacote em vendor onboarding) e M&A (que pede o pacote ampliado). Ver [[#CAPÍTULO 6 — CONTRATOS EM PROFUNDIDADE POR TIPO|Capítulo 6 (CONTRATOS EM PROFUNDIDADE POR TIPO)]] para clausulas-padrao por tipo de contrato, [[#CAPÍTULO 12 — COMPLIANCE E ANTICORRUPÇÃO PARA STARTUPS|Capítulo 12 (COMPLIANCE E ANTICORRUPÇÃO PARA STARTUPS)]] para programa de integridade, [[#CAPÍTULO 2 — RESPONSABILIDADE DO SÓCIO E DO ADMINISTRADOR|Capítulo 2 (RESPONSABILIDADE DO SÓCIO E DO ADMINISTRADOR)]] para limites pessoais e [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 13 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 13 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) (Vol. 5)]] para fluxo de captacao.
 
 ### Como executar
 
@@ -2347,7 +2347,7 @@ Infraestrutura (cloud). Cost commitments versus flexibilidade.
 
 **Estágio.** Lei do Estágio (Lei 11.788/2008). Bolsa, mais auxílio transporte, sem encargos trabalhistas. Atenção ao limite de carga horária.
 
-**ESOP.** Planos de opções estruturados conforme [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 14 — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Capítulo 14 (CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA) (Vol. 5)]] (tributário). Contrato específico, com vesting, cliff, strike, e exercise window.
+**ESOP.** Planos de opções estruturados conforme [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 2 — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Capítulo 2 (CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA) (Vol. 5)]] (tributário). Contrato específico, com vesting, cliff, strike, e exercise window.
 
 #### 4. Propriedade intelectual
 
@@ -2798,7 +2798,7 @@ O mercado brasileiro (influenciado pelo padrão americano, especialmente o FAST 
 | Strategic | 2–5 horas/mês | 0,25% a 0,5% | 2 anos, cliff de 6 meses |
 | Expert | 5+ horas/mês ou board observer | 0,5% a 1% | 2 anos, cliff de 6 meses |
 
-Phantom shares ou opções são os instrumentos mais comuns para advisors (não quotas diretas). Ver [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 15 — STOCK OPTIONS E ESOP NO BRASIL|Capítulo 15 — Stock Options e ESOP (Vol. 6)]] para estruturação.
+Phantom shares ou opções são os instrumentos mais comuns para advisors (não quotas diretas). Ver [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 16 — STOCK OPTIONS E ESOP NO BRASIL|Capítulo 16 — Stock Options e ESOP (Vol. 6)]] para estruturação.
 
 #### O que não incluir
 
@@ -2955,7 +2955,7 @@ O que verificar em qualquer contrato antes de assinar:
 > Este capítulo é material educacional. A legislação trabalhista brasileira é complexa, com jurisprudência em evolução constante. As regras aqui descritas refletem a CLT, a Reforma Trabalhista (Lei 13.467/2017) e o entendimento do TST vigente em maio de 2026. Consulte advogado trabalhista especializado em startups antes de tomar qualquer decisão sobre contratação, rescisão ou estruturação de benefícios.
 
 > [!note] Posição no livro
-> Relevante para [[#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18 — Estruturação]], [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 14 — COMPENSAÇÃO E BENEFÍCIOS NO BRASIL|Capítulo 14 — Compensação e Benefícios (Vol. 6)]], [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 11 — LAYOFFS E DOWNSIZING: COMO DEMITIR EM ESCALA SEM DESTRUIR A EMPRESA|Capítulo 11 — Layoffs (Vol. 9)]], [[#CAPÍTULO 4 — NÃO-CONCORRÊNCIA E NÃO-SOLICITAÇÃO NO BRASIL|Capítulo 4 — Não-concorrência]] e [[#CAPÍTULO 2 — RESPONSABILIDADE DO SÓCIO E DO ADMINISTRADOR|Capítulo 2 — Responsabilidade do Administrador]].
+> Relevante para [[#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18 — Estruturação]], [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 15 — COMPENSAÇÃO E BENEFÍCIOS NO BRASIL|Capítulo 15 — Compensação e Benefícios (Vol. 6)]], [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 11 — LAYOFFS E DOWNSIZING: COMO DEMITIR EM ESCALA SEM DESTRUIR A EMPRESA|Capítulo 11 — Layoffs (Vol. 9)]], [[#CAPÍTULO 4 — NÃO-CONCORRÊNCIA E NÃO-SOLICITAÇÃO NO BRASIL|Capítulo 4 — Não-concorrência]] e [[#CAPÍTULO 2 — RESPONSABILIDADE DO SÓCIO E DO ADMINISTRADOR|Capítulo 2 — Responsabilidade do Administrador]].
 
 ---
 
@@ -3174,7 +3174,7 @@ Desde a Reforma de 2017, o trabalho remoto é modalidade contratual regulamentad
 - Definição de quem arca com custos de infraestrutura (internet, equipamentos, energia elétrica).
 - Registro no eSocial como "teletrabalho".
 
-A empresa pode optar por fornecer equipamentos ou pagar auxílio home office. O auxílio home office, quando pago a título de ressarcimento de despesas (não como salário), tem tratamento tributário favorável — não incide INSS nem IR até certo limite (ver [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 14 — COMPENSAÇÃO E BENEFÍCIOS NO BRASIL|Capítulo 14 — Compensação e Benefícios (Vol. 6)]]).
+A empresa pode optar por fornecer equipamentos ou pagar auxílio home office. O auxílio home office, quando pago a título de ressarcimento de despesas (não como salário), tem tratamento tributário favorável — não incide INSS nem IR até certo limite (ver [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 15 — COMPENSAÇÃO E BENEFÍCIOS NO BRASIL|Capítulo 15 — Compensação e Benefícios (Vol. 6)]]).
 
 #### Salário vs. pró-labore
 
@@ -3464,7 +3464,7 @@ O que ter em ordem antes de crescer o time além dos primeiros 5 colaboradores:
 
 ---
 
-**Ver também:** [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 14 — COMPENSAÇÃO E BENEFÍCIOS NO BRASIL|Capítulo 14 — Compensação e Benefícios (Vol. 6)]], [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 11 — LAYOFFS E DOWNSIZING: COMO DEMITIR EM ESCALA SEM DESTRUIR A EMPRESA|Capítulo 11 — Layoffs (Vol. 9)]], [[#CAPÍTULO 4 — NÃO-CONCORRÊNCIA E NÃO-SOLICITAÇÃO NO BRASIL|Capítulo 4 — Não-concorrência]], [[#CAPÍTULO 2 — RESPONSABILIDADE DO SÓCIO E DO ADMINISTRADOR|Capítulo 2 — Responsabilidade do Administrador]], [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 15 — STOCK OPTIONS E ESOP NO BRASIL|Capítulo 15 — Stock Options e ESOP (Vol. 6)]]
+**Ver também:** [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 15 — COMPENSAÇÃO E BENEFÍCIOS NO BRASIL|Capítulo 15 — Compensação e Benefícios (Vol. 6)]], [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 11 — LAYOFFS E DOWNSIZING: COMO DEMITIR EM ESCALA SEM DESTRUIR A EMPRESA|Capítulo 11 — Layoffs (Vol. 9)]], [[#CAPÍTULO 4 — NÃO-CONCORRÊNCIA E NÃO-SOLICITAÇÃO NO BRASIL|Capítulo 4 — Não-concorrência]], [[#CAPÍTULO 2 — RESPONSABILIDADE DO SÓCIO E DO ADMINISTRADOR|Capítulo 2 — Responsabilidade do Administrador]], [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 16 — STOCK OPTIONS E ESOP NO BRASIL|Capítulo 16 — Stock Options e ESOP (Vol. 6)]]
 
 ---
 
@@ -4206,15 +4206,15 @@ Consumerista  Alta (B2C)      Médio        Responder PROCON sempre,
                                            vigilância ação coletiva
 ```
 
-Este capítulo cobre os quatro vetores de contencioso (trabalhista, cível, tributário e consumerista), a gestão contábil do passivo contingente (CPC 25) e os critérios para escolha de advogado. Ele se conecta à Fase 5 (estrutura jurídica), ao Capítulo 16 (Vol. 5) (PLANEJAMENTO FINANCEIRO E ORÇAMENTO) (compliance trabalhista) e ao Capítulo 14 (Vol. 6) (COMPENSAÇÃO E BENEFÍCIOS NO BRASIL) (planejamento tributário), onde a prevenção começa antes de qualquer processo ser aberto.
+Este capítulo cobre os quatro vetores de contencioso (trabalhista, cível, tributário e consumerista), a gestão contábil do passivo contingente (CPC 25) e os critérios para escolha de advogado. Ele se conecta à Fase 5 (estrutura jurídica), ao Capítulo 6 (Vol. 5) (PLANEJAMENTO FINANCEIRO E ORÇAMENTO) (compliance trabalhista) e ao Capítulo 15 (Vol. 6) (COMPENSAÇÃO E BENEFÍCIOS NO BRASIL) (planejamento tributário), onde a prevenção começa antes de qualquer processo ser aberto.
 
 ---
 
 **Ver também:**
 
 - [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 2 — VENDAS COMPLEXAS ENTERPRISE: CICLO LONGO, ALTO VALOR, MÚLTIPLOS DECISORES|Capítulo 2 — Contratos Essenciais para Startups (Vol. 6)]] — modelos de contrato que reduzem risco contratual na origem
-- [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 16 — PLANEJAMENTO FINANCEIRO E ORÇAMENTO|Capítulo 16 — Compliance Trabalhista e Gestão de Pessoas (Vol. 5)]] — estruturação da área de RH para evitar passivo
-- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 14 — COMPENSAÇÃO E BENEFÍCIOS NO BRASIL|Capítulo 14 — Planejamento Tributário para Startups (Vol. 6)]] — escolha de regime e gestão do risco fiscal
+- [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 6 — PLANEJAMENTO FINANCEIRO E ORÇAMENTO|Capítulo 6 — Compliance Trabalhista e Gestão de Pessoas (Vol. 5)]] — estruturação da área de RH para evitar passivo
+- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 15 — COMPENSAÇÃO E BENEFÍCIOS NO BRASIL|Capítulo 15 — Planejamento Tributário para Startups (Vol. 6)]] — escolha de regime e gestão do risco fiscal
 - [[IGNICAO-Vol-2-Descoberta-e-Mercado#CAPÍTULO 2 — INTELIGÊNCIA COMPETITIVA — MONITORAMENTO, ANÁLISE E RESPOSTA|Capítulo 2 — Proteção de Dados e LGPD (Vol. 2)]] — litígios regulatórios e responsabilidade por dados
 - [[#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18 — Estruturação Jurídica, Societária e Blindagem Operacional]] — fundamentos da estruturação legal da empresa
 - [[#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvases e Mapas Visuais]] — ferramentas de diagnóstico para mapeamento de risco operacional
@@ -4244,7 +4244,7 @@ Para vender para grandes empresas, operar em setores regulados ou passar pela *d
 >
 > **Governanca societaria** ([[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 1 — BOARD E GOVERNANCE|Capítulo 1 (BOARD E GOVERNANCE) (Vol. 9)]] entrada, [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 2 — EMPRESA FAMILIAR E SUCESSÃO: GOVERNANÇA, DINÂMICA E PSICOLOGIA|Capítulo 2 (EMPRESA FAMILIAR E SUCESSÃO: GOVERNANÇA, DINÂMICA E PSICOLOGIA) (Vol. 9)]] familia, [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 3 — DISPUTA SOCIETÁRIA E SAÍDA DE SÓCIO|Capítulo 3 (DISPUTA SOCIETÁRIA E SAÍDA DE SÓCIO) (Vol. 9)]] disputa, [[#CAPÍTULO 2 — RESPONSABILIDADE DO SÓCIO E DO ADMINISTRADOR|Capítulo 2 (RESPONSABILIDADE DO SÓCIO E DO ADMINISTRADOR)]] limites, [[#CAPÍTULO 1 — MARCO LEGAL DAS STARTUPS: LC 182/2021|Capítulo 1 (MARCO LEGAL DAS STARTUPS: LC 182/2021)]] marco legal)
 >
-> **Ciclo de crise** ([[#CAPÍTULO 13 — FRAUDE INTERNA E CONTROLES INTERNOS|Capítulo 13 (FRAUDE INTERNA E CONTROLES INTERNOS)]] preparacao, [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9 — CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO|Capítulo 9 (CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO) (Vol. 9)]] resposta, [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 10 — COMUNICAÇÃO EM CRISE|Capítulo 10 (COMUNICAÇÃO EM CRISE) (Vol. 9)]] comunicacao, [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 12 — RECUPERAÇÃO JUDICIAL E WIND-DOWN — QUANDO A STARTUP NÃO CONSEGUE CONTINUAR|Capítulo 12 (RECUPERAÇÃO JUDICIAL E WIND-DOWN — QUANDO A STARTUP NÃO CONSEGUE CONTINUAR) (Vol. 9)]] encerramento, [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 20 — GESTÃO DE RISCO E SEGUROS PARA STARTUPS|Capítulo 20 (GESTÃO DE RISCO E SEGUROS PARA STARTUPS) (Vol. 5)]] seguros)
+> **Ciclo de crise** ([[#CAPÍTULO 13 — FRAUDE INTERNA E CONTROLES INTERNOS|Capítulo 13 (FRAUDE INTERNA E CONTROLES INTERNOS)]] preparacao, [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9 — CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO|Capítulo 9 (CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO) (Vol. 9)]] resposta, [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 10 — COMUNICAÇÃO EM CRISE|Capítulo 10 (COMUNICAÇÃO EM CRISE) (Vol. 9)]] comunicacao, [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 12 — RECUPERAÇÃO JUDICIAL E WIND-DOWN — QUANDO A STARTUP NÃO CONSEGUE CONTINUAR|Capítulo 12 (RECUPERAÇÃO JUDICIAL E WIND-DOWN — QUANDO A STARTUP NÃO CONSEGUE CONTINUAR) (Vol. 9)]] encerramento, [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 12 — GESTÃO DE RISCO E SEGUROS PARA STARTUPS|Capítulo 12 (GESTÃO DE RISCO E SEGUROS PARA STARTUPS) (Vol. 5)]] seguros)
 >
 > **Regulatorio** ([[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 4 — REGULATÓRIO SETORIAL BRASILEIRO|Capítulo 4 (REGULATÓRIO SETORIAL BRASILEIRO) (Vol. 10)]] indice, [[#CAPÍTULO 11 — REGULATÓRIO DE IA NO BRASIL|Capítulo 11 (REGULATÓRIO DE IA NO BRASIL)]] IA, [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 5 — CADE E ANTITRUSTE — QUANDO O CRESCIMENTO ATRAI O REGULADOR|Capítulo 5 (CADE E ANTITRUSTE — QUANDO O CRESCIMENTO ATRAI O REGULADOR) (Vol. 10)]] antitrust, [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 6 — POLÍTICA PÚBLICA COMO ESTRATÉGIA|Capítulo 6 (POLÍTICA PÚBLICA COMO ESTRATÉGIA) (Vol. 10)]] politica publica, [[#CAPÍTULO 8 — DIREITO DO CONSUMIDOR E CDC PARA STARTUPS|Capítulo 8 (DIREITO DO CONSUMIDOR E CDC PARA STARTUPS)]] CDC)
 >
@@ -4252,7 +4252,7 @@ Para vender para grandes empresas, operar em setores regulados ou passar pela *d
 >
 > **Modelos de negocio especiais** ([[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 6 — MARKETPLACE DYNAMICS E RISCO DE PLATAFORMA|Capítulo 6 (MARKETPLACE DYNAMICS E RISCO DE PLATAFORMA) (Vol. 3)]], [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 7 — PLATAFORMA VS PRODUTO: QUANDO CONSTRUIR PLATAFORMA E QUANDO NÃO|Capítulo 7 (PLATAFORMA VS PRODUTO: QUANDO CONSTRUIR PLATAFORMA E QUANDO NÃO) (Vol. 3)]], [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 8 — B2B2C: QUANDO SUA EMPRESA VENDE PARA OUTRA EMPRESA QUE VENDE PARA CONSUMIDOR|Capítulo 8 (B2B2C: QUANDO SUA EMPRESA VENDE PARA OUTRA EMPRESA QUE VENDE PARA CONSUMIDOR) (Vol. 3)]], [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 6 — CANAIS INDIRETOS E PARCERIAS: PARCERIAS, FRANQUIAS, CHANNEL|Capítulo 6 (CANAIS INDIRETOS E PARCERIAS: PARCERIAS, FRANQUIAS, CHANNEL) (Vol. 6)]], [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 9 — OPEN SOURCE COMO ESTRATÉGIA|Capítulo 9 (OPEN SOURCE COMO ESTRATÉGIA) (Vol. 3)]], [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 5 — PARCERIA COM GRANDES CORPORAÇÕES BRASILEIRAS|Capítulo 5 (PARCERIA COM GRANDES CORPORAÇÕES BRASILEIRAS) (Vol. 6)]])
 >
-> **Direito do dia a dia** ([[#CAPÍTULO 7 — DIREITO DO TRABALHO PARA STARTUPS|Capítulo 7 (DIREITO DO TRABALHO PARA STARTUPS)]] trabalhista, [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 15 — TRIBUTÁRIO ESTRATÉGICO PARA STARTUPS|Capítulo 15 (TRIBUTÁRIO ESTRATÉGICO PARA STARTUPS) (Vol. 5)]] tributario, [[#CAPÍTULO 9 — CONTENCIOSO E LITÍGIO PARA STARTUPS|Capítulo 9 (CONTENCIOSO E LITÍGIO PARA STARTUPS)]] contencioso, [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 5 — INTERNACIONALIZAÇÃO: ESTRUTURA E PRODUTO PARA MÚLTIPLOS MERCADOS|Capítulo 5 (INTERNACIONALIZAÇÃO: ESTRUTURA E PRODUTO PARA MÚLTIPLOS MERCADOS) (Vol. 9)]] internacional, [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 6 — VISTO E IMIGRAÇÃO PARA FUNDADOR BRASILEIRO|Capítulo 6 (VISTO E IMIGRAÇÃO PARA FUNDADOR BRASILEIRO) (Vol. 9)]] visto, [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 4 — ESG, IMPACT E GOVERNANÇA PARA STARTUP|Capítulo 4 (ESG, IMPACT E GOVERNANÇA PARA STARTUP) (Vol. 9)]] ESG, [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 11 — NEGOCIAÇÃO COMO DISCIPLINA|Capítulo 11 (NEGOCIAÇÃO COMO DISCIPLINA) (Vol. 4)]] negociacao, [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 11 — OPERAÇÕES EM ESCALA|Capítulo 11 (OPERAÇÕES EM ESCALA) (Vol. 7)]] operacao)
+> **Direito do dia a dia** ([[#CAPÍTULO 7 — DIREITO DO TRABALHO PARA STARTUPS|Capítulo 7 (DIREITO DO TRABALHO PARA STARTUPS)]] trabalhista, [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 3 — TRIBUTÁRIO ESTRATÉGICO PARA STARTUPS|Capítulo 3 (TRIBUTÁRIO ESTRATÉGICO PARA STARTUPS) (Vol. 5)]] tributario, [[#CAPÍTULO 9 — CONTENCIOSO E LITÍGIO PARA STARTUPS|Capítulo 9 (CONTENCIOSO E LITÍGIO PARA STARTUPS)]] contencioso, [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 5 — INTERNACIONALIZAÇÃO: ESTRUTURA E PRODUTO PARA MÚLTIPLOS MERCADOS|Capítulo 5 (INTERNACIONALIZAÇÃO: ESTRUTURA E PRODUTO PARA MÚLTIPLOS MERCADOS) (Vol. 9)]] internacional, [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 6 — VISTO E IMIGRAÇÃO PARA FUNDADOR BRASILEIRO|Capítulo 6 (VISTO E IMIGRAÇÃO PARA FUNDADOR BRASILEIRO) (Vol. 9)]] visto, [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 4 — ESG, IMPACT E GOVERNANÇA PARA STARTUP|Capítulo 4 (ESG, IMPACT E GOVERNANÇA PARA STARTUP) (Vol. 9)]] ESG, [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 11 — NEGOCIAÇÃO COMO DISCIPLINA|Capítulo 11 (NEGOCIAÇÃO COMO DISCIPLINA) (Vol. 4)]] negociacao, [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 11 — OPERAÇÕES EM ESCALA|Capítulo 11 (OPERAÇÕES EM ESCALA) (Vol. 7)]] operacao)
 
 > [!note] Nota de validade
 > Este capítulo reflete o estado da regulação de dados pessoais brasileira e as práticas de mercado em abril de 2026. LGPD, regulamentações da ANPD, decisões judiciais e regulações setoriais (Bacen, ANS) evoluem ano a ano. Revisar anualmente, com atenção a novas resoluções da ANPD, mudanças setoriais aplicáveis ao seu negócio e jurisprudência relevante sobre multas e responsabilidade. Quando houver divergência entre este capítulo e a regulação atual, a regulação atual prevalece.
@@ -5573,7 +5573,7 @@ A conta não fecha a favor de ignorar compliance. Fecha a favor de construir ced
 > - [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9 — CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO|Capítulo 9 (CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO) (Vol. 9)]], resposta operacional quando a fraude vira crise
 > - [[#CAPÍTULO 12 — COMPLIANCE E ANTICORRUPÇÃO PARA STARTUPS|Capítulo 12 (COMPLIANCE E ANTICORRUPÇÃO PARA STARTUPS)]], programa de integridade e Lei Anticorrupcao
 > - [[#CAPÍTULO 14 — SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA|Capítulo 14 (SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA)]], controle tecnico de acesso e auditoria de logs
-> - [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 20 — GESTÃO DE RISCO E SEGUROS PARA STARTUPS|Capítulo 20 (GESTÃO DE RISCO E SEGUROS PARA STARTUPS) (Vol. 5)]], seguro D&O e cyber para transferencia de risco residual
+> - [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 12 — GESTÃO DE RISCO E SEGUROS PARA STARTUPS|Capítulo 12 (GESTÃO DE RISCO E SEGUROS PARA STARTUPS) (Vol. 5)]], seguro D&O e cyber para transferencia de risco residual
 
 > [!warning] Tema sensível
 > Fraude interna é tema que fundadores subestimam de forma quase universal. Probabilidade e impacto reais são maiores do que a intuição diz. Este capítulo é mapa preventivo, não exercício de paranoia.

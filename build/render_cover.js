@@ -76,14 +76,14 @@ const COVERS = [
     file: 'cover-vol-5.png',
     topMark: 'Coleção IGNIÇÃO · Volume 5 de 10 (Autocontido)',
     volBadge: 'VOL. 5 · FINANÇAS E CAPTAÇÃO',
-    subtitle: 'Unit Economics, Caixa, Contabilidade, Tributário, FP&A e Venture Capital (Fase 14 e Capítulos 1 a 20)',
+    subtitle: 'Contabilidade, Tributário, FP&A, Comércio Exterior, Caixa e Venture Capital (Fase 14 e Capítulos 1 a 21)',
     gradient: 'linear-gradient(135deg, #1a093b 0%, #3b147a 35%, #6d28d9 75%, #a855f7 100%)',
   },
   {
     file: 'cover-vol-6.png',
     topMark: 'Coleção IGNIÇÃO · Volume 6 de 10 (Autocontido)',
     volBadge: 'VOL. 6 · RECEITA E PESSOAS',
-    subtitle: 'Máquina Comercial Enterprise, RevOps, Liderança Executiva, Talentos e ESOP (Fases 15 e 16 e Capítulos 1 a 19)',
+    subtitle: 'Máquina Comercial Enterprise, RevOps, Franquias, Liderança Executiva, Talentos e ESOP (Fases 15 e 16 e Capítulos 1 a 20)',
     gradient: 'linear-gradient(135deg, #042026 0%, #0c4a56 35%, #0e7490 75%, #22d3ee 100%)',
   },
   {
@@ -104,7 +104,7 @@ const COVERS = [
     file: 'cover-vol-9.png',
     topMark: 'Coleção IGNIÇÃO · Volume 9 de 10 (Autocontido)',
     volBadge: 'VOL. 9 · MATURIDADE E EXIT',
-    subtitle: 'Segunda Curva, Conselho (Board), Internacionalização, Crise, M&A e IPO (Fases 19 e 20 e Capítulos 1 a 22)',
+    subtitle: 'Segunda Curva, Conselho (Board), Internacionalização, Crise, M&A, Secondaries e IPO (Fases 19 e 20 e Capítulos 1 a 21)',
     gradient: 'linear-gradient(135deg, #180828 0%, #3b0764 35%, #86198f 75%, #e879f9 100%)',
   },
   {
