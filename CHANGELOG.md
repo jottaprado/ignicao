@@ -6,6 +6,30 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/).
 
 ---
 
+## [5.0] — 2026-10-21
+
+### Adicionado
+
+- **Edição Narrativa Autocontida ("Do Almanaque ao Clássico de Trincheira" — 202 Seções, 1,12 milhão de palavras)**: reconstrução literária completa de todas as **21 Fases**, **180 Capítulos** e **Epílogo** nos 10 volumes da coleção, inspirada na arquitetura narrativa dos 10 maiores clássicos de negócios (*Michael Gerber, Eric Ries, Peter Thiel, Jason Fried/DHH, Andy Grove, Gino Wickman, Ben Horowitz, Jim Collins, Geoffrey Moore* e *Clayton Christensen*):
+  - **Nota do Autor v5.0 e Fio Condutor com os 4 Fundadores-Arquétipos Brasileiros (`build/narrative_bible.js`)**: introdução de **Lucas & Marina** (SaaS B2B / AI-Native em SP e Florianópolis), **Dra. Camila** (Economia Real, Saúde & Serviços em Belo Horizonte), **Henrique** (Industrial, Agro & B2G/GovTech em Curitiba, PR e MT) e **Rafael & Bia** (Varejo, D2C, Comércio & Marketplace em Recife e Goiânia), cujos dilemas, pivôs, crises de caixa e saídas atravessam os Volumes 1 a 9.
+  - **Anatomia em 4 Atos Narrativos em 100% das 202 Seções (`build/narrative_vol1_refactor.js`, `narrative_vol2_vol4_refactor.js`, `narrative_vol5_vol6_refactor.js`, `narrative_vol7_vol9_refactor.js`, `narrative_vol10_refactor.js`)**:
+    - *Ato 1 — Abertura em Tensão*: nenhuma fase ou capítulo abre com definições frias ou fichas de resumo; todas as 202 seções abrem com cena visceral ou contraste de bastidor, um paradoxo contraintuitivo e um **conceito batizado em negrito** (ex.: **O Teatro de Café**, **A Mentira Educada do Café**, **A Falência com Lucro Contábil**, **O Imposto Invisível do Ciclo de Caixa**, **O ESOP de Papelão**, **O Cemitério dos Pilotos Gratuitos**).
+    - *Atos 2 e 3 — Tese, Mecanismo e Engenharia de Execução*: substituição integral de 100% dos subtítulos robóticos de enciclopédia (`### O que esta fase cobre`, `### O quê`, `### POR QUE`, `### Quando usar`, `### Quem envolve`, `### Como executar`, `### Armadilhas`, `### SAÍDA DESTA FASE`, `### PERGUNTAS A RESPONDER`, `### EXEMPLO PRÁTICO`) por **subtítulos-tese afirmativos e conversacionais**.
+    - *Ato 4 — O Espelho (Autodiagnóstico) e o Ritual de Segunda-Feira às 9h*: todas as 202 seções fecham a parte narrativa com 3 perguntas de autodiagnóstico, uma permissão/regra de bolso e uma ação imediata para a segunda-feira às 9h.
+  - **Oficina de Trincheira (*Caderno de Campo*)**: reposicionamento dos quadros `> [!abstract] Resumo operacional` para a entrada da Oficina ao final da narrativa de cada fase e reescrita de 100% dos cabeçalhos internos dos **164 Frameworks (`BG`)** e **20 Canvases (`CZ`)** no tom de consultor ao lado do dono (*estilo Traction*).
+- **Playbook de Bancas de Editais Públicos, Incubação e Diagnóstico Institucional GovTech (`build/govtech_banca_additions.js`)**:
+  - **Vol. 10, Cap. 32 (GovTech)**: adicionada a seção *Anatomia Real do Problema Público (As 13 Variáveis Institucionais)*, o *Roteiro de Diagnóstico Institucional Pré-Solução*, o *Dossiê de Evidências de Validação com o Setor Público*, a *Matriz de Riscos de Implementação em Prefeituras* e o *Playbook de Aprovação em Editais de Incubação GovTech, Desafios Públicos e Subvenção*.
+  - **Vol. 1, Cap. 9 (Pitch e Fala em Público)**: adicionado o *Cronômetro Implacável de Pitch para Bancas de Editais, Subvenção e Comitês (5 e 7 minutos)* e a *Regra de Ouro para Q&A de Banca Avaliadora*.
+  - **Vol. 1, Cap. 12 (Aceleradoras e Programas)**: adicionado o *Checklist dos 6 Pilares de Avaliação de Bancas de Incubação, Aceleração e Fomento*.
+
+### Melhorado
+
+- **Normalização Tipográfica em Prosa (`build/partition_10_volumes.js`)**: conversão automática de referências de capítulos no meio de parágrafos e wikilinks para *Title Case* editorial (preservando siglas técnicas como `SaaS`, `B2B`, `PIX`, `LGPD`, `DRE`, `FP&A`, `IPO`, `M&A`), eliminando títulos em caixa alta no meio da leitura.
+- **Auditoria Automatizada da Edição Narrativa (`audit.py` e `check_exemplos.py`)**: `audit.py` passa a verificar a ausência de cabeçalhos robóticos H3/H5 em todos os 10 volumes (`0` encontrados), e `check_exemplos.py` passa a validar os exemplos práticos também sob os novos títulos narrativos da v5.0.
+- **11 Capas e 11 EPUBs (`build/render_cover.js`, `build/build_epubs.js`)**: atualização do selo editorial nas 11 capas (`cover.png` e `cover-vol-1.png` a `cover-vol-10.png`) para `2026 · v5.0 · EDIÇÃO NARRATIVA AUTOCONTIDA` e recompilação de todos os 11 EPUBs.
+
+---
+
 ## [4.0] — 2026-10-21
 
 ### Adicionado

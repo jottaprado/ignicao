@@ -208,6 +208,30 @@
 
 ---
 
+## Da Edição Narrativa v5.0 ("Do Almanaque ao Clássico de Trincheira")
+
+> Negócios reais não acontecem dentro de um dicionário. Negócios acontecem numa terça-feira chuvosa quando o seu melhor cliente ameaça cancelar, quando o seu cofundador trava na conversa difícil ou quando você olha para o extrato bancário e precisa decidir entre cortar custos ou dobrar a aposta.
+
+— *Nota do Autor (Vol. 1 — Ideação e Fundação)*
+
+> Saber fazer o trabalho técnico da empresa e saber construir uma empresa são dois ofícios completamente diferentes — e quase sempre opostos no uso do seu tempo.
+
+— *Sobre a Síndrome da Cadeira Presa, Fase 0 (Vol. 1 — Ideação e Fundação)*
+
+> Quando você mostra seu filho recém-nascido e pergunta se ele é bonito, até um estranho mente para não ser grosseiro. Perguntar a um cliente "você usaria um sistema que faz X?" é convidar uma mentira educada.
+
+— *Sobre a Mentira Educada do Café, Fase 4 (Vol. 2 — Descoberta e Mercado)*
+
+> Faturamento é vaidade, lucro contábil é opinião do regime de competência, e saldo de caixa conciliado na segunda-feira às oito da manhã é a única realidade física que paga salário.
+
+— *Sobre a Falência com Lucro Contábil, Capítulo 1 (Vol. 5 — Finanças e Captação)*
+
+> O Estado brasileiro não compra inovação porque ela é brilhante; o gestor público compra redução de risco institucional com respaldo jurídico no TCU e no TCE.
+
+— *Sobre a Regra Invisível do Jogo em GovTech, Capítulo 32 (Vol. 10 — Playbooks Setoriais)*
+
+---
+
 ## Sobre o livro
 
 > Um documento canônico é, nesse sentido, uma carta para si mesmo em outro tempo.

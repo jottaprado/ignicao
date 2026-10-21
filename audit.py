@@ -189,13 +189,23 @@ def audit_structure_and_links(only_problems: bool = False) -> bool:
                         (stem, f"[[{inner}]] (alias indica Vol. {m_vol_alias.group(1)}, mas destino é {target_vol})")
                     )
 
+    # Verificar invariantes da Edição Narrativa v5.0 (0 cabeçalhos robóticos H3/H5)
+    robotic_h3 = re.findall(
+        r"(?mi)^### (O que est[ea] (?:fase|cap[íi]tulo) cobre|O qu[êe]|O QUE [ÉE]|POR QUE|Por qu[êe]|Por que importa|Quando usar|Quando aplicar|Quando|Quem envolve|Quem envolver|Quem|Como executar|COMO|Como|PERGUNTAS A RESPONDER|SA[ÍI]DA DESTA FASE|Armadilhas|ARMADILHAS|FERRAMENTAS DESTA FASE|S[ÍI]NTESE DA FASE \d+|EXEMPLO PR[ÁA]TICO)$",
+        all_text,
+    )
+    robotic_h5 = re.findall(
+        r"(?mi)^##### (Origem|O que [ée]|Quando n[ãa]o usar|Erros comuns(?: a evitar)?)$",
+        all_text,
+    )
+
     if not only_problems:
         for stem, text in vols.items():
             words = len(text.split())
             print(f"  ok  {stem:<48} ({words:>7,} palavras | {len(headings_by_vol[stem]):>3} headings)")
 
     print()
-    print("=== RESULTADO (estrutura autocontida e wikilinks) ===")
+    print("=== RESULTADO (estrutura autocontida, narrativa v5.0 e wikilinks) ===")
     print(f"Volumes verificados:        {len(vols)} (esperado: 10)")
     print(f"Fases sequenciais (0-20):   {len(fases)} (esperado: 21)")
     print(f"Capítulos temáticos:        {len(capitulos)} (esperado: 180)")
@@ -203,6 +213,7 @@ def audit_structure_and_links(only_problems: bool = False) -> bool:
     print(f"Canvases únicos / total:    {len(uniq_canvases)} únicos ({len(canvases)} instâncias nos Vols 1-9 | esperado: 20 únicos)")
     print(f"Templates únicos / total:   {len(uniq_templates)} únicos ({len(templates)} instâncias nos Vols 1-9 | esperado: 39 únicos)")
     print(f"Glossários locais (Vol 1-9):{vol_glossaries} (esperado: 9)")
+    print(f"Cabeçalhos robóticos H3/H5: {len(robotic_h3) + len(robotic_h5)} (esperado: 0)")
     print(f"Links de ferramentas cross: {len(cross_vol_tool_links)} nos Vols 1-9 (esperado: 0)")
     print(f"Duplicatas intra-volume:    {len(dups_within_vol)} (esperado: 0)")
     print(f"Wikilinks verificados:      {total_links}")
@@ -220,6 +231,8 @@ def audit_structure_and_links(only_problems: bool = False) -> bool:
         and len(uniq_canvases) == 20
         and len(uniq_templates) == 39
         and vol_glossaries == 9
+        and len(robotic_h3) == 0
+        and len(robotic_h5) == 0
         and len(cross_vol_tool_links) == 0
         and len(dups_within_vol) == 0
         and len(broken_links) == 0

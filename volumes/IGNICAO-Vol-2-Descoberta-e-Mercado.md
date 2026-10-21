@@ -369,8 +369,8 @@ Para cada entrevista, preencha um template padronizado. Nome, papel, empresa (qu
 
 Não espere terminar tudo para analisar. A cada cinco entrevistas, faça uma síntese parcial. Quais problemas apareceram em mais de cinquenta por cento das entrevistas? Quais padrões de comportamento se repetem? Que hipóteses iniciais foram reforçadas e quais foram abaladas? Quais novos problemas apareceram que você não esperava?
 
-> [!tip] Síntese parcial e final no Template: Síntese de Rodada de Entrevistas (decisão de avanço · Fase 3 → Fase 4) (Fase 4)
-> O [[#Template: Síntese de Rodada de Entrevistas (decisão de avanço · Fase 3 → Fase 4)|Template: Síntese de Rodada de Entrevistas (decisão de avanço · Fase 3 → Fase 4)]] é o artefato dessa síntese. Use uma versão "rascunho" a cada lote de cinco para checar padrões; consolide a versão final só quando a rodada inteira fechar — consolidar antes do fim viesa as entrevistas restantes. Template: Síntese de Rodada de Entrevistas (decisão de avanço · Fase 3 → Fase 4) (Fase 4) é também o documento que registra a decisão de avanço da fase (perseverar / pivotar problema / pivotar cliente / abandonar).
+> [!tip] Síntese parcial e final no Template: Síntese de Rodada de Entrevistas (decisão de avanço) (Fase 4)
+> O [[#Template: Síntese de Rodada de Entrevistas (decisão de avanço)|Template: Síntese de Rodada de Entrevistas (decisão de avanço)]] é o artefato dessa síntese. Use uma versão "rascunho" a cada lote de cinco para checar padrões; consolide a versão final só quando a rodada inteira fechar — consolidar antes do fim viesa as entrevistas restantes. Template: Síntese de Rodada de Entrevistas (decisão de avanço) (Fase 4) é também o documento que registra a decisão de avanço da fase (perseverar / pivotar problema / pivotar cliente / abandonar).
 
 > [!note] A jornada do cliente é uma estrutura útil para organizar o que as entrevistas revelam
 > Enquanto o Mom Test captura incidentes isolados, o [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 13 — CUSTOMER EXPERIENCE: DA JORNADA AO NPS AO CHURN ZERO|Capítulo 13 — Customer Experience (Vol. 4)]] oferece a visão de jornada completa — do momento de consciência do problema ao pós-resolução — incluindo métricas de NPS e churn preditivo. Usar a jornada como mapa mental durante a síntese das entrevistas ajuda a localizar em qual etapa a dor é mais aguda.
@@ -444,8 +444,8 @@ Um ICP pode ter três a cinco problemas mapeados. O foco é em um, o mais agudo,
 
 O documento final tem cinco a dez páginas, com o seguinte conteúdo: perfil do entrevistado consolidado (ICP refinado); lista dos problemas identificados, ranqueados por frequência e intensidade; verbatim marcantes (citações literais) para cada problema; soluções atuais identificadas e suas deficiências; disposição emocional, ou seja, quanto as pessoas se importam com o problema; comparação com a Declaração Inicial v1 — o que se confirmou, o que se refutou, o que emergiu que você não esperava; e versão dois da Declaração da Ideia, atualizada com o que foi aprendido.
 
-> [!note] Mapa de Problemas e Template: Síntese de Rodada de Entrevistas (decisão de avanço · Fase 3 → Fase 4) (Fase 4)
-> O Mapa de Problemas é a saída visual da rodada — o entregável de comunicação. O [[#Template: Síntese de Rodada de Entrevistas (decisão de avanço · Fase 3 → Fase 4)|Template: Síntese de Rodada de Entrevistas (decisão de avanço · Fase 3 → Fase 4)]] é a planilha de decisão estruturada que sustenta o Mapa: cruza distribuição de Pain Level, padrões agregados de problema, workarounds dominantes, vocabulário recorrente e sub-segmentos para registrar a decisão de avanço com rastro à evidência. Use os dois — o Mapa para apresentar, Template: Síntese de Rodada de Entrevistas (decisão de avanço · Fase 3 → Fase 4) (Fase 4) para defender.
+> [!note] Mapa de Problemas e Template: Síntese de Rodada de Entrevistas (decisão de avanço) (Fase 4)
+> O Mapa de Problemas é a saída visual da rodada — o entregável de comunicação. O [[#Template: Síntese de Rodada de Entrevistas (decisão de avanço)|Template: Síntese de Rodada de Entrevistas (decisão de avanço)]] é a planilha de decisão estruturada que sustenta o Mapa: cruza distribuição de Pain Level, padrões agregados de problema, workarounds dominantes, vocabulário recorrente e sub-segmentos para registrar a decisão de avanço com rastro à evidência. Use os dois — o Mapa para apresentar, Template: Síntese de Rodada de Entrevistas (decisão de avanço) (Fase 4) para defender.
 
 ### Os dez passos aplicados, roteiro de entrevista do PadariaPro
 
@@ -511,7 +511,7 @@ Você concluiu a [[#FASE 4 — DESCOBERTA DO PROBLEMA|Fase 4]] quando todos os c
 > [!warning] Se o problema não passou no teste, momento crítico
 > Os caminhos são três. Pivotar o problema (algo adjacente emergiu como mais doloroso). Pivotar o cliente (o problema existe, mas em outro perfil). Ou abandonar (volte à Fase 2 com outra ideia). Não avance para a Fase 4 com problema não-validado. Construir sobre problema inexistente é o cemitério das startups.
 >
-> Antes de pivotar ou encerrar, vale ler o [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 21 — POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE|Capítulo 21 (POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE) (Vol. 9)]]: os padrões de fracasso documentados em empresas brasileiras mostram que a maioria das mortes por "problema inexistente" tinha sinais detectáveis nas entrevistas iniciais — sinais que foram ignorados. Aprender o padrão antes de vivê-lo vale semanas de iteração.
+> Antes de pivotar ou encerrar, vale ler o [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 21 — POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE|Capítulo 21 (Post-Mortems Brasileiros: Catálogo de Casos em Profundidade) (Vol. 9)]]: os padrões de fracasso documentados em empresas brasileiras mostram que a maioria das mortes por "problema inexistente" tinha sinais detectáveis nas entrevistas iniciais — sinais que foram ignorados. Aprender o padrão antes de vivê-lo vale semanas de iteração.
 
 **Primeiros passos práticos.**
 
@@ -523,7 +523,7 @@ Você concluiu a [[#FASE 4 — DESCOBERTA DO PROBLEMA|Fase 4]] quando todos os c
 ### As 5 ciladas cognitivas que transformam entrevistas em sessões de massagem no ego
 
 > [!note] Capítulo 3 (Vol. 1) — Armadilhas Mentais e Vieses
-> Viés de confirmação (filtrar evidência para confirmar a tese) e WYSIATI (What You See Is All There Is — concluir com dados insuficientes) são os vieses mais frequentes em discovery de problema. O [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 3 — ARMADILHAS MENTAIS E VIESES|Capítulo 3 (ARMADILHAS MENTAIS E VIESES) (Vol. 1)]] descreve esses e outros padrões com diagnóstico e contra-medidas aplicáveis diretamente ao processo de entrevistas.
+> Viés de confirmação (filtrar evidência para confirmar a tese) e WYSIATI (What You See Is All There Is — concluir com dados insuficientes) são os vieses mais frequentes em discovery de problema. O [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 3 — ARMADILHAS MENTAIS E VIESES|Capítulo 3 (Armadilhas Mentais e Vieses) (Vol. 1)]] descreve esses e outros padrões com diagnóstico e contra-medidas aplicáveis diretamente ao processo de entrevistas.
 
 Entrevistar amigos e família. Eles mentem para te agradar. Exclua qualquer um que tenha relação pessoal.
 
@@ -1783,11 +1783,11 @@ Para cada problema que a pessoa citar espontaneamente:
 *Preenchido por `[Nome]` em `[DD/MM/AAAA]`.*
 
 > [!tip] Consolidação da rodada
-> Cada entrevista preenchida pela Parte B é uma linha do agregado. A decisão de avanço de fase não sai daqui — sai do **Template: Síntese de Rodada de Entrevistas (decisão de avanço · Fase 3 → Fase 4) (Fase 4) (Síntese de Rodada de Entrevistas)**, que cruza Pain Level, padrões, workarounds e vocabulário das 15-30 entrevistas para decidir perseverar, pivotar problema, pivotar cliente ou abandonar.
+> Cada entrevista preenchida pela Parte B é uma linha do agregado. A decisão de avanço de fase não sai daqui — sai do **Template: Síntese de Rodada de Entrevistas (decisão de avanço) (Fase 4) (Síntese de Rodada de Entrevistas)**, que cruza Pain Level, padrões, workarounds e vocabulário das 15-30 entrevistas para decidir perseverar, pivotar problema, pivotar cliente ou abandonar.
 
 ---
 
-#### Template: Entrevista com Especialista de Mercado (mapa de setor · Fases 3-5)
+#### Template: Entrevista com Especialista de Mercado (mapa de setor)
 
 > [!important] Disciplina central
 > Aqui você **quer opinião** — é legítimo. Mas opinião de especialista é hipótese a testar, não evidência de cliente. O erro é tratar "o especialista disse X" como validação. A especialista conhece o mercado; quem prova o mercado é o cliente com a carteira.
@@ -2031,12 +2031,12 @@ Premissas que a pessoa identificou como *críticas e não-triviais*:
 
 ---
 
-#### Template: Síntese de Rodada de Entrevistas (decisão de avanço · Fase 3 → Fase 4)
+#### Template: Síntese de Rodada de Entrevistas (decisão de avanço)
 
 > [!important] Disciplina central
 > Este não é registro de conversa — é o artefato em que o agregado de entrevistas vira decisão. É aqui que a frase "5 pessoas disseram isso" vira "o problema existe, neste recorte, com esta dor, e devemos perseverar" — ou o contrário. Nenhuma entrevista individual é suficiente para essa decisão; nenhuma consolidação feita **antes** da rodada fechar é confiável, porque viesa as entrevistas restantes. Consolide só quando a rodada terminou.
 
-Template: Síntese de Rodada de Entrevistas (decisão de avanço · Fase 3 → Fase 4) (Fase 4) é o entregável da [[#FASE 4 — DESCOBERTA DO PROBLEMA|Fase 4]] que sustenta o Mapa de Problemas e a decisão de avanço. Feito em reunião de time (2-4 pessoas) após a rodada fechar, duração típica 2-4h. Deve ser rodado com todas as sínteses individuais (Partes B do Template: Entrevista de Problema (Fase 4), Template: Entrevista com Switcher (JTBD, entrevista de troca · Fase 4) (Fase 5) e, opcionalmente, Template: Entrevista com Especialista de Mercado (mapa de setor · Fases 3-5) (Fase 4)) abertas e referenciadas. A decisão final registrada aqui tem mais autoridade do que qualquer conversa individual.
+Template: Síntese de Rodada de Entrevistas (decisão de avanço) (Fase 4) é o entregável da [[#FASE 4 — DESCOBERTA DO PROBLEMA|Fase 4]] que sustenta o Mapa de Problemas e a decisão de avanço. Feito em reunião de time (2-4 pessoas) após a rodada fechar, duração típica 2-4h. Deve ser rodado com todas as sínteses individuais (Partes B do Template: Entrevista de Problema (Fase 4), Template: Entrevista com Switcher (JTBD, entrevista de troca) (Fase 5) e, opcionalmente, Template: Entrevista com Especialista de Mercado (mapa de setor) (Fase 4)) abertas e referenciadas. A decisão final registrada aqui tem mais autoridade do que qualquer conversa individual.
 
 ##### Metadados da rodada
 
@@ -2239,7 +2239,7 @@ Template: Síntese de Rodada de Entrevistas (decisão de avanço · Fase 3 → F
 
 ###### 11. Artefatos a produzir a partir desta consolidação
 
-> *Template: Síntese de Rodada de Entrevistas (decisão de avanço · Fase 3 → Fase 4) (Fase 4) gera output — documentos novos, não só decisão. Liste o que essa consolidação obriga a produzir.*
+> *Template: Síntese de Rodada de Entrevistas (decisão de avanço) (Fase 4) gera output — documentos novos, não só decisão. Liste o que essa consolidação obriga a produzir.*
 
 | Artefato | Responsável | Prazo | Status |
 |---|---|---|---|
@@ -2270,7 +2270,7 @@ Template: Síntese de Rodada de Entrevistas (decisão de avanço · Fase 3 → F
 #### Template: Entrevista com Advisor (decisão específica · tradeoffs)
 
 > [!important] Disciplina central
-> Advisor é para **refinar decisão que já está em cima da mesa**, não para descobrir o problema. Se você não consegue nomear a decisão em uma frase, você não está pronto para essa conversa — volte para Template: Entrevista de Problema (Fase 4) (entrevista de problema) ou Template: Entrevista com Especialista de Mercado (mapa de setor · Fases 3-5) (Fase 4) (especialista). Pareamento natural com o [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 13 — REDE, MENTORES E ADVISORS — COMO CONSTRUIR O CAPITAL HUMANO DO EMPREENDEDOR|Capítulo 13 (REDE, MENTORES E ADVISORS — COMO CONSTRUIR O CAPITAL HUMANO DO EMPREENDEDOR) (Vol. 1)]], que cobre como construir e formalizar a relação com advisors. Este template é o que se usa **dentro** da conversa, depois que o advisor já está no jogo.
+> Advisor é para **refinar decisão que já está em cima da mesa**, não para descobrir o problema. Se você não consegue nomear a decisão em uma frase, você não está pronto para essa conversa — volte para Template: Entrevista de Problema (Fase 4) (entrevista de problema) ou Template: Entrevista com Especialista de Mercado (mapa de setor) (Fase 4) (especialista). Pareamento natural com o [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 13 — REDE, MENTORES E ADVISORS — COMO CONSTRUIR O CAPITAL HUMANO DO EMPREENDEDOR|Capítulo 13 (Rede, Mentores e Advisors — Como Construir o Capital Humano do Empreendedor) (Vol. 1)]], que cobre como construir e formalizar a relação com advisors. Este template é o que se usa **dentro** da conversa, depois que o advisor já está no jogo.
 
 ##### Parte A — Roteiro da Conversa (uso durante)
 
@@ -2598,8 +2598,8 @@ Para cada persona (perfil semifictício do cliente típico, baseado em dados rea
 > [!important] Comece a jornada antes do ponto óbvio
 > Jornadas devem começar muito antes do ponto onde você imaginaria que o seu produto entraria. Por exemplo, se você está construindo um sistema de gestão de frota, a jornada começa no momento em que o dono decide contratar o motorista. Não quando o motorista já está na rua.
 
-> [!note] O Customer Journey Map é o artefato central desta fase — e o Capítulo 13 (Vol. 4) (CUSTOMER EXPERIENCE: DA JORNADA AO NPS AO CHURN ZERO) aprofunda sua aplicação
-> O [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 13 — CUSTOMER EXPERIENCE: DA JORNADA AO NPS AO CHURN ZERO|Capítulo 13 — Customer Experience (Vol. 4)]] trata jornada, onboarding, NPS e sinais de churn preditivo como disciplina integrada. O mapeamento que você faz aqui é a versão de descoberta; o Capítulo 13 (Vol. 4) (CUSTOMER EXPERIENCE: DA JORNADA AO NPS AO CHURN ZERO) mostra como a mesma jornada evolui para instrumento de retenção e melhoria contínua depois do lançamento.
+> [!note] O Customer Journey Map é o artefato central desta fase — e o Capítulo 13 (Vol. 4) (Customer Experience: Da Jornada ao NPS ao Churn Zero) aprofunda sua aplicação
+> O [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 13 — CUSTOMER EXPERIENCE: DA JORNADA AO NPS AO CHURN ZERO|Capítulo 13 — Customer Experience (Vol. 4)]] trata jornada, onboarding, NPS e sinais de churn preditivo como disciplina integrada. O mapeamento que você faz aqui é a versão de descoberta; o Capítulo 13 (Vol. 4) (Customer Experience: Da Jornada ao NPS ao Churn Zero) mostra como a mesma jornada evolui para instrumento de retenção e melhoria contínua depois do lançamento.
 
 > [!tip] Customer Journey Canvas e VPC como entregáveis visuais
 > O mapa em sete colunas descrito acima é a base do [[#Canvas: Customer Journey Canvas|Canvas: Customer Journey Canvas]]. Para cada persona principal, monte um canvas completo (etapas + ação + objetivo + dor + emoção + oportunidade) com a linha emocional desenhada visualmente — pontos vermelhos consecutivos antecipam churn. O caso iFood 2017 em Canvas: Customer Journey Canvas (Fase 5) ilustra como a jornada revelou que **a maior queda de conversão estava em Pagamento** (não em descoberta ou variedade, como o time supunha). Pareie com o [[#Canvas: Empathy Map (Dave Gray / XPLANE, 2009)|Canvas: Empathy Map (Dave Gray / XPLANE, 2009)]] (estado interno do cliente) e o [[#Canvas: Value Proposition Canvas (Alexander Osterwalder, 2014)|Canvas: Value Proposition Canvas (Alexander Osterwalder, 2014)]] (Pains/Gains traduzidos em Pain Relievers/Gain Creators do produto): juntos, esses três canvases formam o pacote padrão de entregáveis visuais desta fase.
@@ -2647,7 +2647,7 @@ flowchart LR
 > "Quero automatizar planilhas" está incompleto. Sem circunstância e sem outcome. Solução que atende JTBD bem formulado tende a ser mais específica e mais defensável.
 
 > [!tip] Switch Interview quando o entrevistado trocou de solução
-> Quando o entrevistado **trocou** de solução (deixou um concorrente, largou um processo manual, migrou de ferramenta, mudou de fornecedor), entrevista comum de JTBD captura a versão racionalizada da decisão. A Switch Interview de Bob Moesta reconstrói o momento real, mapeando as quatro forças simultâneas — push (o que empurrou para fora do velho), pull (o que atraiu para o novo), anxiety (o que causou medo de trocar) e habit (o que segurava no antigo). Para cada switcher relevante, marque uma segunda conversa com o [[#Template: Entrevista com Switcher (JTBD, entrevista de troca · Fase 4)|Template: Entrevista com Switcher (JTBD, entrevista de troca · Fase 4)]]. O que ela formula é um JTBD muito mais específico do que o capturado em conversa única.
+> Quando o entrevistado **trocou** de solução (deixou um concorrente, largou um processo manual, migrou de ferramenta, mudou de fornecedor), entrevista comum de JTBD captura a versão racionalizada da decisão. A Switch Interview de Bob Moesta reconstrói o momento real, mapeando as quatro forças simultâneas — push (o que empurrou para fora do velho), pull (o que atraiu para o novo), anxiety (o que causou medo de trocar) e habit (o que segurava no antigo). Para cada switcher relevante, marque uma segunda conversa com o [[#Template: Entrevista com Switcher (JTBD, entrevista de troca)|Template: Entrevista com Switcher (JTBD, entrevista de troca)]]. O que ela formula é um JTBD muito mais específico do que o capturado em conversa única.
 
 #### Passo 5, síntese qualitativa das entrevistas (técnicas formais)
 
@@ -2688,7 +2688,7 @@ Ferramentas pagas: Dovetail, Delve, Atlas.ti. Alternativas grátis: planilha com
 ##### Triangulação qualitativa mais quantitativa
 
 > [!tip] Capítulo 14 (Vol. 4) — Dados, Analytics e Experimentação
-> A triangulação abaixo é a primeira vez que você produz dados estruturados sobre o cliente. O [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 14 — DADOS, ANALYTICS E EXPERIMENTAÇÃO|Capítulo 14 (DADOS, ANALYTICS E EXPERIMENTAÇÃO) (Vol. 4)]] aprofunda como estruturar surveys de validação, interpretar dados de survey com rigor estatístico mínimo, e montar o pipeline de experimentação que sustentará as decisões de produto nas fases posteriores.
+> A triangulação abaixo é a primeira vez que você produz dados estruturados sobre o cliente. O [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 14 — DADOS, ANALYTICS E EXPERIMENTAÇÃO|Capítulo 14 (Dados, Analytics e Experimentação) (Vol. 4)]] aprofunda como estruturar surveys de validação, interpretar dados de survey com rigor estatístico mínimo, e montar o pipeline de experimentação que sustentará as decisões de produto nas fases posteriores.
 
 Entrevistas sozinhas produzem hipóteses ricas mas estatisticamente frágeis. Survey sozinho produz números sem contexto. Combinar os dois é o padrão-ouro. Três passos.
 
@@ -2889,7 +2889,7 @@ Você concluiu a [[#FASE 5 — PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY)|Fase 
 ### O erro fatal de confundir lista de desejos de funcionalidades com progresso real na vida do cliente
 
 > [!note] Capítulo 3 (Vol. 1) — Armadilhas Mentais e Vieses
-> Personas fictícias, viés de confirmação na síntese qualitativa e ancoragem na hipótese original são os vieses mais comuns nesta fase. O [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 3 — ARMADILHAS MENTAIS E VIESES|Capítulo 3 (ARMADILHAS MENTAIS E VIESES) (Vol. 1)]] trata especificamente de vieses de pesquisa — como o efeito halo sobre entrevistados carismáticos e o viés de disponibilidade que faz a última entrevista parecer mais importante que as anteriores.
+> Personas fictícias, viés de confirmação na síntese qualitativa e ancoragem na hipótese original são os vieses mais comuns nesta fase. O [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 3 — ARMADILHAS MENTAIS E VIESES|Capítulo 3 (Armadilhas Mentais e Vieses) (Vol. 1)]] trata especificamente de vieses de pesquisa — como o efeito halo sobre entrevistados carismáticos e o viés de disponibilidade que faz a última entrevista parecer mais importante que as anteriores.
 
 Criar personas fictícias. Sem dados, persona é caricatura. Força você a dizer "a nossa persona é a Ana, uma dona de restaurante…", mas não protege decisões ruins.
 
@@ -4229,7 +4229,7 @@ journey
 
 ---
 
-#### Template: Entrevista com Switcher (JTBD, entrevista de troca · Fase 4)
+#### Template: Entrevista com Switcher (JTBD, entrevista de troca)
 
 > [!important] Disciplina central
 > Esta entrevista **só se aplica a quem trocou** — deixou um concorrente, largou um processo manual, migrou de ferramenta, mudou de fornecedor. O foco **não é** na rotina atual nem na dor genérica: é no **momento específico** em que a pessoa decidiu que o velho não servia mais. Sem um switch real para investigar, use o Template: Entrevista de Problema (Fase 4).
@@ -4509,7 +4509,7 @@ O executor é você. Os participantes são usuários (para saber o que eles usam
 
 ### A matemática de baixo para cima (Bottom-Up) e o desenho da cunha de entrada
 
-Onze passos. Os Passos 1 a 9 cobrem o levantamento de mercado e a síntese do Dossiê. Os Passos 10 e 11 — Construção do Canvas da Cunha e Teste de Estresse — aparecem mais adiante na fase, depois da SAÍDA, do EXEMPLO PRÁTICO e das Armadilhas, em virtude do volume. São a parte central e operacionalmente mais importante do método; leia-os como continuação direta do passo a passo.
+Onze passos. Os Passos 1 a 9 cobrem o levantamento de mercado e a síntese do Dossiê. Os Passos 10 e 11 — Construção do Canvas da Cunha e Teste de Estresse — aparecem mais adiante na fase, logo após a catraca de saída, o estudo de caso real e as armadilhas da etapa, em virtude do volume. São a parte central e operacionalmente mais importante do método; leia-os como continuação direta do passo a passo.
 
 #### Passo 1, defina o mercado corretamente
 
@@ -4693,7 +4693,7 @@ Você concluiu a [[#FASE 6 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 6]] qu
 3. Calcular TAM, SAM, e SOM bottom-up. Número de empresas vezes ticket médio vezes taxa de captura realista em três anos.
 4. Aplicar o Teste de Precisão do Comprador (Template: Teste de Precisão do Comprador (Fase 6)). Se falhar em três ou mais critérios, refinar a cunha antes de avançar.
 
-### EXEMPLO PRÁTICO
+### Na trincheira real: como esta etapa ganha vida em um caso concreto
 
 **Canvas da Cunha, PadariaPro.**
 
@@ -6423,7 +6423,7 @@ Após preencher, aplique os três testes complementares do Template: Canvas da C
 
 ##### Quando este canvas atrapalha mais do que ajuda
 
-Em modelos de negócio B2C de massa com aquisição digital escalável desde o início (e-commerce com SAM > 1M pessoas) — a lógica de cunha estreita pode ser substituída por segmentação de produto/canal. Em startups de plataforma onde o valor é gerado pela rede desde o início — o Canvas da Cunha ajuda a definir o lado inicial da rede, mas o framework de marketplace dynamics (Capítulo 6 (Vol. 3) (MARKETPLACE DYNAMICS E RISCO DE PLATAFORMA)) é mais adequado para a dinâmica de crescimento.
+Em modelos de negócio B2C de massa com aquisição digital escalável desde o início (e-commerce com SAM > 1M pessoas) — a lógica de cunha estreita pode ser substituída por segmentação de produto/canal. Em startups de plataforma onde o valor é gerado pela rede desde o início — o Canvas da Cunha ajuda a definir o lado inicial da rede, mas o framework de marketplace dynamics (Capítulo 6 (Vol. 3) (Marketplace Dynamics e Risco de Plataforma)) é mais adequado para a dinâmica de crescimento.
 
 ##### Como este quadro conversa com o resto da Oficina
 
@@ -6634,7 +6634,7 @@ Em decisões táticas de sprint ou trimestre — o eixo evolutivo opera em janel
 
 ##### Como este quadro conversa com o resto da Oficina
 
-O Wardley Map **complementa o Strategy Canvas (Fase 6)** — o Strategy Canvas mostra onde competir em dimensões do mercado; o Wardley Map mostra como a tecnologia e os componentes evoluem. **Alimenta decisões de make/buy/partner no Capítulo 7 (Vol. 3) (PLATAFORMA VS PRODUTO: QUANDO CONSTRUIR PLATAFORMA E QUANDO NÃO)** (Plataforma vs. Produto) e no [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 4 — ENGINEERING MANAGEMENT: GESTÃO DO TIME TÉCNICO E DEVELOPER EXPERIENCE|Capítulo 4 — Engineering Management (Vol. 7)]].
+O Wardley Map **complementa o Strategy Canvas (Fase 6)** — o Strategy Canvas mostra onde competir em dimensões do mercado; o Wardley Map mostra como a tecnologia e os componentes evoluem. **Alimenta decisões de make/buy/partner no Capítulo 7 (Vol. 3) (Plataforma vs Produto: Quando Construir Plataforma e Quando Não)** (Plataforma vs. Produto) e no [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 4 — ENGINEERING MANAGEMENT: GESTÃO DO TIME TÉCNICO E DEVELOPER EXPERIENCE|Capítulo 4 — Engineering Management (Vol. 7)]].
 
 ##### Referências de cabeceira
 
@@ -7700,7 +7700,7 @@ Preço é função de categoria. Não de produto. Um "CRM" custa R$ X por mês p
 > [!warning] Custo de pular essa seção
 > Fundadores que se posicionam default dentro de categoria existente, frequentemente constroem bom produto, mas capturam pouco valor. Porque o upside estrutural está com quem definiu o jogo. Ignorar category design não é neutro. É escolher implicitamente pelo lado menos rentável.
 
-### QUANDO CONSIDERAR
+### O gatilho estratégico: quando vale a pena entrar neste jogo (e quando passar longe)
 
 Category design faz sentido quando, simultaneamente.
 
@@ -7750,9 +7750,9 @@ Uma narrativa de categoria madura tem estrutura consistente.
 
 O texto dessa narrativa vira material-base para website, pitch deck, onboarding de vendedores, entrevistas de fundadores, e keynotes de conferência.
 
-### RELAÇÃO COM O RESTO DO MANUAL
+### Como esta decisão se conecta ao resto da sua arquitetura de negócio
 
-Category Design não substitui Idea, Wedge, e Scale ([[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 5 — IDEA → WEDGE → SCALE: O FRAMEWORK ANTLER COMO LENTE TRANSVERSAL|Capítulo 5 (IDEA → WEDGE → SCALE: O FRAMEWORK ANTLER COMO LENTE TRANSVERSAL) (Vol. 3)]]). Complementa. A cunha continua sendo o segmento inicial de ataque. O que muda é o *posicionamento* da cunha.
+Category Design não substitui Idea, Wedge, e Scale ([[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 5 — IDEA → WEDGE → SCALE: O FRAMEWORK ANTLER COMO LENTE TRANSVERSAL|Capítulo 5 (Idea → Wedge → Scale: O Framework Antler como Lente Transversal) (Vol. 3)]]). Complementa. A cunha continua sendo o segmento inicial de ataque. O que muda é o *posicionamento* da cunha.
 
 Cunha sem Category Design. "Servimos empresas médias no setor X, com [produto categoria Y]". Competição direta por market share.
 
@@ -7821,7 +7821,7 @@ Lightning Strike sem produto correspondente. Evento grande lança categoria, mas
 
 Esquecer que categoria também envelhece. Categorias têm ciclo. "CRM" foi category design em 1993. Hoje é commodity. Empresas que defendem categoria antiga por tempo demais, viram prisioneiras dela. Category leaders maduros criam subcategorias, ou migram.
 
-### CHECKLIST PARA DECIDIR SE VALE TENTAR
+### O filtro de bolso antes de comprometer tempo e caixa
 
 - [ ] Temos POV articulado em um parágrafo, sobre como o mundo está mudando?
 - [ ] O nome da categoria é memorável, distinto, e evoca o problema?
@@ -7878,8 +7878,8 @@ No Brasil, startups não morrem apenas porque o produto era ruim. Elas morrem po
 
 ---
 
-> [!important] Relacao com o Capítulo 21 (Vol. 9) (POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE)
-> AI lista PADROES de fracasso ilustrados por casos brasileiros. Para mergulho individual em cada caso (Easy Taxi, Peixe Urbano, Kekanto e outros), ver [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 21 — POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE|Capítulo 21 (POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE) (Vol. 9)]]. As analises detalhadas vivem la, aqui ficam os padroes transversais.
+> [!important] Relacao com o Capítulo 21 (Vol. 9) (Post-Mortems Brasileiros: Catálogo de Casos em Profundidade)
+> AI lista PADROES de fracasso ilustrados por casos brasileiros. Para mergulho individual em cada caso (Easy Taxi, Peixe Urbano, Kekanto e outros), ver [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 21 — POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE|Capítulo 21 (Post-Mortems Brasileiros: Catálogo de Casos em Profundidade) (Vol. 9)]]. As analises detalhadas vivem la, aqui ficam os padroes transversais.
 
 > [!note] Nota de integridade
 > Este capítulo analisa casos de startups brasileiras que falharam ou perderam posições de liderança significativas. As análises se baseiam em reportagens públicas, entrevistas com ex-fundadores e pós-mortems publicados. Não pretendem ser julgamentos definitivos. O contexto completo raramente é conhecido. O propósito é pedagógico, extrair padrões arquetípicos de falha que se repetem. Quando há dúvida sobre causa-raiz, apresento múltiplas hipóteses e não conclusões unilaterais.
@@ -7906,21 +7906,21 @@ Antes da [[IGNICAO-Vol-1-Ideacao#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0 
 
 #### Padrão 1 — Crescer em mercado sem defensibilidade estrutural
 
-Caso arquetípico, Easy Taxi (2011-2018). O padrão típico do Padrão 1, ser primeiro num mercado não é defensibilidade quando o modelo agrega oferta sem switching cost real. Network effects superficiais (cada lado vai para onde o outro está, mas nenhum tem lock-in com a plataforma) cedem rapidamente quando entra concorrente com produto estruturalmente diferente (Uber em 2014, com carros particulares, dispatch algorítmico e preço dinâmico). A defesa exige exclusividade, switching costs, dados proprietários ou marca forte o suficiente para que o cliente não procure alternativa. Caso analisado em profundidade no [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 21 — POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE|Capítulo 21 (POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE) (Vol. 9)]].
+Caso arquetípico, Easy Taxi (2011-2018). O padrão típico do Padrão 1, ser primeiro num mercado não é defensibilidade quando o modelo agrega oferta sem switching cost real. Network effects superficiais (cada lado vai para onde o outro está, mas nenhum tem lock-in com a plataforma) cedem rapidamente quando entra concorrente com produto estruturalmente diferente (Uber em 2014, com carros particulares, dispatch algorítmico e preço dinâmico). A defesa exige exclusividade, switching costs, dados proprietários ou marca forte o suficiente para que o cliente não procure alternativa. Caso analisado em profundidade no [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 21 — POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE|Capítulo 21 (Post-Mortems Brasileiros: Catálogo de Casos em Profundidade) (Vol. 9)]].
 
 > [!question] Teste de defensibilidade para seu negócio
 > Se um concorrente bem capitalizado lançar produto vinte por cento melhor amanhã, quantos por cento dos seus clientes ficam com você em doze meses? Se a resposta for menor que sessenta por cento, defensibilidade é fraca.
 
 #### Padrão 2 — Confundir tração inicial com PMF sustentável
 
-Caso arquetípico, Peixe Urbano e o modelo daily deals (2010-2015). O padrão típico do Padrão 2, tração inicial explosiva confundida com PMF. Descontos massivos atraem caçadores de cupom, não cliente recorrente, retenção de parceiros despenca, unit economics degradam com escala. O que parecia PMF era novidade mais agressividade mais capital barato. PMF real exige retenção estável em coortes diferentes, não apenas aquisição crescente. Cada categoria de "explosão repentina" dos últimos quinze anos (daily deals, QR code payments, social commerce, cursos online massivos, ciclos de fintech) teve sua fase de "parece PMF mas não é". Caso analisado em profundidade no [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 21 — POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE|Capítulo 21 (POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE) (Vol. 9)]].
+Caso arquetípico, Peixe Urbano e o modelo daily deals (2010-2015). O padrão típico do Padrão 2, tração inicial explosiva confundida com PMF. Descontos massivos atraem caçadores de cupom, não cliente recorrente, retenção de parceiros despenca, unit economics degradam com escala. O que parecia PMF era novidade mais agressividade mais capital barato. PMF real exige retenção estável em coortes diferentes, não apenas aquisição crescente. Cada categoria de "explosão repentina" dos últimos quinze anos (daily deals, QR code payments, social commerce, cursos online massivos, ciclos de fintech) teve sua fase de "parece PMF mas não é". Caso analisado em profundidade no [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 21 — POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE|Capítulo 21 (Post-Mortems Brasileiros: Catálogo de Casos em Profundidade) (Vol. 9)]].
 
 > [!warning] Testes de PMF real vs falso
 > Curva de retenção em coortes de três a seis meses estabiliza? (Se não: falso PMF.) Cliente volta sem campanha, desconto ou promoção ativa? (Se não: falso PMF.) Se pausar aquisição paga, crescimento orgânico continua? (Se não: falso PMF.) Unit economics melhoram com volume ou pioram? (Se pioram: falso PMF.)
 
 #### Padrão 3 — Queimar capital sem unit economics validadas
 
-Caso arquetípico, ciclo de delivery verticais (2014-2017, exemplos genéricos do ciclo). O padrão típico do Padrão 3, capital queimado sem unit economics validadas. Delivery vertical tinha margens estruturalmente baixas, network effects fracos (vertical não escala como horizontal) e concentração de risco em parceiros específicos. CAC crescente mais AOV estagnado mais margem baixa gera unit economics negativos que não melhoram com escala. Capital não resolve unit economics ruins, amplifica o problema. Empresa queimando cem mil reais por mês com unit economics negativos vira empresa queimando cinco milhões por mês, só em escala maior. Nenhuma tática operacional (automação, desconto, rota otimizada) resolve modelo estruturalmente negativo. Caso analisado em profundidade no [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 21 — POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE|Capítulo 21 (POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE) (Vol. 9)]].
+Caso arquetípico, ciclo de delivery verticais (2014-2017, exemplos genéricos do ciclo). O padrão típico do Padrão 3, capital queimado sem unit economics validadas. Delivery vertical tinha margens estruturalmente baixas, network effects fracos (vertical não escala como horizontal) e concentração de risco em parceiros específicos. CAC crescente mais AOV estagnado mais margem baixa gera unit economics negativos que não melhoram com escala. Capital não resolve unit economics ruins, amplifica o problema. Empresa queimando cem mil reais por mês com unit economics negativos vira empresa queimando cinco milhões por mês, só em escala maior. Nenhuma tática operacional (automação, desconto, rota otimizada) resolve modelo estruturalmente negativo. Caso analisado em profundidade no [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 21 — POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE|Capítulo 21 (Post-Mortems Brasileiros: Catálogo de Casos em Profundidade) (Vol. 9)]].
 
 > [!important] Regra operacional
 > Não capte capital significativo antes de ter unit economics positivas em subescala. Se LTV/CAC for menor que três vezes em subescala, vai piorar em escala (quase sempre).
@@ -7931,20 +7931,20 @@ Padrão arquetípico (múltiplos casos brasileiros). Empresas brasileiras com fu
 
 Os sinais de dependência excessiva são: nenhuma decisão importante acontece sem o fundador, time executivo fraco ou marginalizado, fundador é a única pessoa que entende a estratégia completa, fundador é único ponto de contato com investidores, parceiros grandes e clientes-chave, e cultura é "o jeito que o fundador faz" sem formalização.
 
-Lição extraível: empresa dependente de fundador único é mais frágil do que um gráfico de crescimento saudável sugere. Construir líderes complementares, documentar visão estratégica e distribuir relacionamento externo. Isso é [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 2 — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Capítulo 2 (SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR) (Vol. 1)]] (humanidade do fundador como ativo organizacional) mais [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9 — CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO|Capítulo 9 (CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO) (Vol. 9)]] (continuidade quando o fundador some) mais [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16 (Vol. 6)]] (estrutura de C-level e governança) em prática.
+Lição extraível: empresa dependente de fundador único é mais frágil do que um gráfico de crescimento saudável sugere. Construir líderes complementares, documentar visão estratégica e distribuir relacionamento externo. Isso é [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 2 — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Capítulo 2 (Saúde Mental, Dinâmica de Co-Founders e Humanidade do Fundador) (Vol. 1)]] (humanidade do fundador como ativo organizacional) mais [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9 — CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO|Capítulo 9 (Crise e Continuidade: Prevenção, Resposta, Recuperação) (Vol. 9)]] (continuidade quando o fundador some) mais [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16 (Vol. 6)]] (estrutura de C-level e governança) em prática.
 
 > [!question] Teste
 > Se você sumir por sessenta dias (férias longas, saúde, qualquer coisa), a empresa para? Degrada? Continua? A resposta "continua" significa que a fundação é saudável. "Para" significa risco estrutural.
 
 #### Padrão 5 — Ignorar mudança estrutural de mercado
 
-Caso arquetípico, Kekanto e reviews locais (2008-2015). O padrão típico do Padrão 5, empresa bem-sucedida em categoria emergente é progressivamente comprimida quando plataforma global incorpora a funcionalidade como feature (Google Maps com reviews, TripAdvisor em escala, Foursquare). Usuário já está na plataforma global, custo de mudar é alto, empresa de nicho não tem força para competir com bundling. Saída de categoria é gradual, fundador pode demorar a reconhecer. Featurização é risco categorial, pergunte periodicamente, se big tech adicionar o que fazemos como feature, ainda teríamos negócio? Se a resposta é não, é questão de tempo e você precisa construir defensibilidade específica (dados proprietários, relacionamento B2B profundo, regulação local, marca em nicho) ou exit antecipado. Caso analisado em profundidade no [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 21 — POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE|Capítulo 21 (POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE) (Vol. 9)]].
+Caso arquetípico, Kekanto e reviews locais (2008-2015). O padrão típico do Padrão 5, empresa bem-sucedida em categoria emergente é progressivamente comprimida quando plataforma global incorpora a funcionalidade como feature (Google Maps com reviews, TripAdvisor em escala, Foursquare). Usuário já está na plataforma global, custo de mudar é alto, empresa de nicho não tem força para competir com bundling. Saída de categoria é gradual, fundador pode demorar a reconhecer. Featurização é risco categorial, pergunte periodicamente, se big tech adicionar o que fazemos como feature, ainda teríamos negócio? Se a resposta é não, é questão de tempo e você precisa construir defensibilidade específica (dados proprietários, relacionamento B2B profundo, regulação local, marca em nicho) ou exit antecipado. Caso analisado em profundidade no [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 21 — POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE|Capítulo 21 (Post-Mortems Brasileiros: Catálogo de Casos em Profundidade) (Vol. 9)]].
 
 #### Padrão 6 — Sobreextensão geográfica antes de consolidar doméstico
 
 Padrão observado (múltiplos casos LatAm). Startups brasileiras que, com capital de Série A ou B, lançam em três a cinco países simultaneamente frequentemente descobrem quatro problemas. Execução em paralelo dispersa foco. Adaptação local (localização real, não só tradução) é mais custosa do que estimado. Cada país tem dinâmica regulatória, de canal e de cultura própria. E a base brasileira ainda não estava consolidada — saiu para LatAm com PMF parcial no Brasil. Desastre composto: operação brasileira piora por falta de foco e operações LatAm não engrenam por falta de profundidade.
 
-Lição extraível: internacionalização é o [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 5 — INTERNACIONALIZAÇÃO: ESTRUTURA E PRODUTO PARA MÚLTIPLOS MERCADOS|Capítulo 5 (INTERNACIONALIZAÇÃO: ESTRUTURA E PRODUTO PARA MÚLTIPLOS MERCADOS) (Vol. 9)]] inteiro por uma razão. Pré-requisito não é "temos capital", é "PMF sólido mais operação que não precisa mais do fundador diariamente mais caixa para dezoito meses ou mais de operação paralela". Sem esses três, expansão acelera destruição, não crescimento. Nubank é exceção relevante: expandiu para México e Colômbia depois de estabelecer mercado brasileiro, com capital suficiente para três a cinco anos de operação paralela, com executivos locais de primeira linha. Empresa diferente em estágio, recursos e estrutura.
+Lição extraível: internacionalização é o [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 5 — INTERNACIONALIZAÇÃO: ESTRUTURA E PRODUTO PARA MÚLTIPLOS MERCADOS|Capítulo 5 (Internacionalização: Estrutura e Produto para Múltiplos Mercados) (Vol. 9)]] inteiro por uma razão. Pré-requisito não é "temos capital", é "PMF sólido mais operação que não precisa mais do fundador diariamente mais caixa para dezoito meses ou mais de operação paralela". Sem esses três, expansão acelera destruição, não crescimento. Nubank é exceção relevante: expandiu para México e Colômbia depois de estabelecer mercado brasileiro, com capital suficiente para três a cinco anos de operação paralela, com executivos locais de primeira linha. Empresa diferente em estágio, recursos e estrutura.
 
 #### Padrão 7 — Perder momentum de produto em empresa que já escalou
 
@@ -7952,7 +7952,7 @@ Padrão observado (casos variados). Empresas que atingiram PMF e escalaram razoa
 
 Os sinais de perda de momentum incluem release notes sobre features táticas e não sobre direção, métricas principais estagnando (retenção, NPS, adoption de novas features), turnover alto dos seniores no time de produto e "innovation theater" (hackathons sem follow-through, comitês de inovação sem poder).
 
-Lição extraível: escala mata produto se não houver sistema deliberado para preservá-lo. O [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 1 — PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA|Capítulo 1 (PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA) (Vol. 7)]] cobre isso em profundidade. Fundador precisa manter mão no produto mesmo como CEO — não no dia a dia, mas em decisão de direção.
+Lição extraível: escala mata produto se não houver sistema deliberado para preservá-lo. O [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 1 — PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA|Capítulo 1 (Produto em Escala e Descoberta Contínua) (Vol. 7)]] cobre isso em profundidade. Fundador precisa manter mão no produto mesmo como CEO — não no dia a dia, mas em decisão de direção.
 
 ### Autoavaliação de risco estratégico
 
@@ -8006,7 +8006,7 @@ Reúna seus sócios por trinta minutos e faça o exercício do *Pre-Mortem*: *"E
 
 ### Ver também
 
-[[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 21 — POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE|Capítulo 21 (POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE) (Vol. 9)]] traz catálogo expandido de post-mortems brasileiros. [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9 — CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO|Capítulo 9 (CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO) (Vol. 9)]] cobre crise e recuperação. [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 2 — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Capítulo 2 (SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR) (Vol. 1)]] cobre humanidade do fundador.
+[[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 21 — POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE|Capítulo 21 (Post-Mortems Brasileiros: Catálogo de Casos em Profundidade) (Vol. 9)]] traz catálogo expandido de post-mortems brasileiros. [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9 — CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO|Capítulo 9 (Crise e Continuidade: Prevenção, Resposta, Recuperação) (Vol. 9)]] cobre crise e recuperação. [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 2 — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Capítulo 2 (Saúde Mental, Dinâmica de Co-Founders e Humanidade do Fundador) (Vol. 1)]] cobre humanidade do fundador.
 
 ---
 
@@ -8084,7 +8084,7 @@ Os sete padrões originais (escalar antes do PMF, queimar caixa em aquisição s
 
 **Cofundador.** Pessoa que funda a empresa em conjunto com um ou mais sócios desde o início. No Brasil, distinto de "co-founder" — usar termo em português é a convenção do livro.
 
-**Compliance.** Conformidade regulatória. Em startups, refere-se à aderência a normas de LGPD, anticorrupção, trabalhistas, fiscais e setoriais. Capítulo 12 (Vol. 8) (COMPLIANCE E ANTICORRUPÇÃO PARA STARTUPS) trata de Compliance e Anticorrupção em profundidade.
+**Compliance.** Conformidade regulatória. Em startups, refere-se à aderência a normas de LGPD, anticorrupção, trabalhistas, fiscais e setoriais. Capítulo 12 (Vol. 8) (Compliance e Anticorrupção para Startups) trata de Compliance e Anticorrupção em profundidade.
 
 **CRM (Customer Relationship Management).** Sistema de gestão de relacionamento com clientes. Registra interações, pipeline de vendas e histórico do cliente. Exemplos: Salesforce, HubSpot, Pipedrive.
 
@@ -8156,7 +8156,7 @@ Os sete padrões originais (escalar antes do PMF, queimar caixa em aquisição s
 
 **SAM (Serviceable Addressable Market).** Porção do TAM que sua empresa pode realisticamente alcançar com seu modelo de negócio e GTM atual.
 
-**Scenario Planning.** Planejamento por cenários — método desenvolvido pela Royal Dutch Shell nos anos 1970 para preparar a empresa para múltiplos futuros plausíveis, em vez de apostar em uma única previsão. Ver Framework: Scenario Planning (Pierre Wack na Royal Dutch Shell, anos 1970) (Fase 19) e [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 16 — PIVOT: TIPOLOGIA, DECISÃO E EXECUÇÃO|Capítulo 16 (PIVOT: TIPOLOGIA, DECISÃO E EXECUÇÃO) (Vol. 4)]] (cenários como antessala da decisão de pivot).
+**Scenario Planning.** Planejamento por cenários — método desenvolvido pela Royal Dutch Shell nos anos 1970 para preparar a empresa para múltiplos futuros plausíveis, em vez de apostar em uma única previsão. Ver Framework: Scenario Planning (Pierre Wack na Royal Dutch Shell, anos 1970) (Fase 19) e [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 16 — PIVOT: TIPOLOGIA, DECISÃO E EXECUÇÃO|Capítulo 16 (Pivot: Tipologia, Decisão e Execução) (Vol. 4)]] (cenários como antessala da decisão de pivot).
 
 **Second-Order Thinking.** Pensamento de segunda ordem — método de considerar as consequências das consequências de uma decisão. Conceito central de Howard Marks. Ver Framework: Second-Order Thinking (Howard Marks, 2011) (Fase 5).
 

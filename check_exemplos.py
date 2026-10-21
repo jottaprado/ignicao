@@ -74,9 +74,14 @@ def normalize(s: str) -> str:
     return re.sub(r"\s+", " ", s.strip().lower())
 
 
+EXAMPLE_HEADING_RE = re.compile(
+    r"(?m)^#{3,5} (?:EXEMPLO PRÁTICO|Na trincheira real: como (?:uma ideia vaga de \"SaaS para restaurantes\" vira uma DII cirúrgica|esta etapa ganha vida em um caso concreto))\s*$"
+)
+
+
 def check_section_text(text: str) -> tuple[bool, list[str]]:
     problems = []
-    parts = re.split(r"(?m)^#{3,5} EXEMPLO PRÁTICO\s*$", text)
+    parts = EXAMPLE_HEADING_RE.split(text)
     if len(parts) < 2:
         return False, []
 
@@ -141,7 +146,7 @@ def main():
                 continue
             end = starts[i + 1] if i + 1 < len(starts) else len(vol_text)
             sec_text = vol_text[m.start() : end]
-            if not re.search(r"(?m)^#{3,5} EXEMPLO PRÁTICO\s*$", sec_text):
+            if not EXAMPLE_HEADING_RE.search(sec_text):
                 continue
             total_checked += 1
             has_template, problems = check_section_text(sec_text)

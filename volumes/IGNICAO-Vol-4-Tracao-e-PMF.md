@@ -118,7 +118,7 @@ Chamo isso de **A Linha Vermelha da Dignidade Funcional**. Um MVP em produção 
 > [!tip] Stack mínimo da Fase 10
 > O stack tech do MVP depende muito do produto. Mas a regra é uma: escolher o stack que o time atual consegue manter, não o mais sexy. Para web: frontend (React, Next.js, Vue, ou Svelte se o time tem). Backend (Node.js, Python e Django, Ruby on Rails — comuns e com comunidade brasileira grande). Banco (Postgres, via managed service como Supabase, Neon, ou RDS). Para mobile: React Native ou Flutter (cross-platform), versus nativo (iOS Swift, Android Kotlin) só quando é justificado. Infra: AWS, GCP, ou Azure tradicional. Alternativas mais simples: Vercel (frontend), Railway, Render (fullstack rápido). Autenticação: Auth0, Clerk, Supabase Auth. Pagamento: Stripe (internacional), Asaas ou Pagar.me (Brasil). Regra crítica: usar serviço gerenciado em tudo que não é o seu diferencial. Gastar três meses montando Kubernetes em equipe pequena, em vez de usar Vercel ou Render, é erro típico.
 >
-> Para produtos dev-tools, infraestrutura ou SaaS técnica: o [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 9 — OPEN SOURCE COMO ESTRATÉGIA|Capítulo 9 (OPEN SOURCE COMO ESTRATÉGIA) (Vol. 3)]] cobre open source como motor de aquisição (product-led growth via comunidade) e como modelo de negócio (open core, dual licensing, COSS), incluindo casos de empresas que escalaram com essa estratégia.
+> Para produtos dev-tools, infraestrutura ou SaaS técnica: o [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 9 — OPEN SOURCE COMO ESTRATÉGIA|Capítulo 9 (Open Source como Estratégia) (Vol. 3)]] cobre open source como motor de aquisição (product-led growth via comunidade) e como modelo de negócio (open core, dual licensing, COSS), incluindo casos de empresas que escalaram com essa estratégia.
 
 A arquitetura típica de MVP, com decisões conscientes sobre simplicidade:
 
@@ -321,7 +321,7 @@ Três táticas específicas compõem esse modo de operação.
 Em vez de esperar que marketing digital traga usuários (e gastar R$ 5 mil a R$ 20 mil em ads que convertem a meio por cento), os melhores fundadores abordam pessoas uma a uma. No público-alvo. Por LinkedIn. Por e-mail direto. Por presença em eventos do setor. Ou até presencialmente em cafés.
 
 > [!tip] Capítulo 2 — Framework de Canais de Aquisição
-> O [[#CAPÍTULO 2 — FRAMEWORK DE CANAIS DE AQUISIÇÃO|Capítulo 2 (FRAMEWORK DE CANAIS DE AQUISIÇÃO)]] mapeia todos os canais de aquisição disponíveis — inbound, outbound, eventos, parcerias, viral — com matriz de CAC estimado, velocidade e fit por estágio. Use para priorizar os dois ou três canais que valem testar nesta fase antes de investir em escala.
+> O [[#CAPÍTULO 2 — FRAMEWORK DE CANAIS DE AQUISIÇÃO|Capítulo 2 (Framework de Canais de Aquisição)]] mapeia todos os canais de aquisição disponíveis — inbound, outbound, eventos, parcerias, viral — com matriz de CAC estimado, velocidade e fit por estágio. Use para priorizar os dois ou três canais que valem testar nesta fase antes de investir em escala.
 
 O exemplo canônico é o Airbnb. Brian Chesky, Joe Gebbia, e Nathan Blecharczyk fotografavam pessoalmente apartamentos dos anfitriões em Nova York para melhorar os anúncios. O Pinterest. Ben Silbermann e Evan Sharp foram literalmente a cafeterias de Palo Alto convidar pessoas para usar.
 
@@ -595,7 +595,7 @@ Cinco armadilhas críticas: lançar sem base aquecida (dia do launch vira silên
 Algumas empresas crescem sem launch público tradicional (Figma, Notion, Superhuman) via PLG orgânico. Replicar o playbook quando a estratégia é PLG atrai usuários errados que não retêm — decisão deve ser estratégica, não default.
 
 > [!tip] Aprofundamento por canal
-> Conteúdo orgânico de longo prazo: [[#CAPÍTULO 3 — CONTENT MARKETING E SEO COMO DISCIPLINA|Capítulo 3 — Content Marketing e SEO]] (clusters, SEO semântico, distribuição). Mídia paga: [[#CAPÍTULO 5 — MARKETING DE PERFORMANCE EM PROFUNDIDADE|Capítulo 5 — Marketing de Performance]] (estrutura de campanhas, CAC por canal, atribuição). PLG sem evento de launch: [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 1 — GROWTH COMO FUNÇÃO ORGANIZACIONAL: TIME DE GROWTH, BUILD VS HIRE, RELAÇÃO COM PRODUTO|Capítulo 1 (GROWTH COMO FUNÇÃO ORGANIZACIONAL: TIME DE GROWTH, BUILD VS HIRE, RELAÇÃO COM PRODUTO) (Vol. 6)]] (Growth como função). Enterprise sem launch mass-market (motion 1-a-1): [[#CAPÍTULO 8 — SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|Capítulo 8 (SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL)]] (sales motion).
+> Conteúdo orgânico de longo prazo: [[#CAPÍTULO 3 — CONTENT MARKETING E SEO COMO DISCIPLINA|Capítulo 3 — Content Marketing e SEO]] (clusters, SEO semântico, distribuição). Mídia paga: [[#CAPÍTULO 5 — MARKETING DE PERFORMANCE EM PROFUNDIDADE|Capítulo 5 — Marketing de Performance]] (estrutura de campanhas, CAC por canal, atribuição). PLG sem evento de launch: [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 1 — GROWTH COMO FUNÇÃO ORGANIZACIONAL: TIME DE GROWTH, BUILD VS HIRE, RELAÇÃO COM PRODUTO|Capítulo 1 (Growth como Função Organizacional: Time de Growth, Build vs Hire, Relação com Produto) (Vol. 6)]] (Growth como função). Enterprise sem launch mass-market (motion 1-a-1): [[#CAPÍTULO 8 — SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|Capítulo 8 (Sales: Motion Completa, do Outbound ao Renewal)]] (sales motion).
 
 ---
 
@@ -2673,7 +2673,7 @@ Em decisões pequenas e reversíveis (ajuste de preço, mudança de canal) — o
 
 ##### Como este quadro conversa com o resto da Oficina
 
-O Risk Canvas **complementa o Lean Canvas (Fase 1)**: cada bloco do Lean Canvas gera riscos específicos — "Problema" → risco de mercado, "Solução" → risco de solução, "Canais" → risco de cliente, "Fontes de Receita" → risco de modelo. **Pareia com o Test Card (Fase 8)**: cada risco crítico do canvas pode gerar um Test Card — o experimento que vai testar se o risco é real e qual a magnitude. **Antecede rodadas de captação** (Capítulo 13 (Vol. 5) (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES)): investidores farão perguntas exatamente sobre os riscos do canvas; chegar à reunião com o canvas preenchido demonstra maturidade de gestão.
+O Risk Canvas **complementa o Lean Canvas (Fase 1)**: cada bloco do Lean Canvas gera riscos específicos — "Problema" → risco de mercado, "Solução" → risco de solução, "Canais" → risco de cliente, "Fontes de Receita" → risco de modelo. **Pareia com o Test Card (Fase 8)**: cada risco crítico do canvas pode gerar um Test Card — o experimento que vai testar se o risco é real e qual a magnitude. **Antecede rodadas de captação** (Capítulo 13 (Vol. 5) (Captação de Equity, Pitch e Relacionamento com Investidores)): investidores farão perguntas exatamente sobre os riscos do canvas; chegar à reunião com o canvas preenchido demonstra maturidade de gestão.
 
 ##### Referências de cabeceira
 
@@ -4341,7 +4341,7 @@ Pular do degrau um para o degrau três é a maneira mais rápida de incendiar o 
 ---
 
 > [!note] Posição no livro
-> Este capítulo é a referência central de go-to-market do livro. Conecta-se ao [[#CAPÍTULO 7 — PRODUCT MARKETING: POSICIONAMENTO, MENSAGEM E LANÇAMENTO|Capítulo 7 — Product Marketing]] (Mensagem operacional), ao [[#CAPÍTULO 6 — BRANDING E POSICIONAMENTO DE MARCA PARA STARTUPS|Capítulo 6 — Branding e Posicionamento]] (Posicionamento estratégico, pré-requisito de Mensagem), ao [[#CAPÍTULO 14 — DADOS, ANALYTICS E EXPERIMENTAÇÃO|Capítulo 14 — Dados e Analytics]], ao [[#CAPÍTULO 8 — SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|Capítulo 8 — Sales (Outbound ao Renewal]], ao [[IGNICAO-Vol-2-Descoberta-e-Mercado#CAPÍTULO 1 — PSICOLOGIA DO CONSUMIDOR BRASILEIRO — COMPORTAMENTO, DECISÃO E CONVERSÃO|Capítulo 1 (PSICOLOGIA DO CONSUMIDOR BRASILEIRO — COMPORTAMENTO, DECISÃO E CONVERSÃO) (Vol. 2)]] (comportamento brasileiro como input de motion) e à [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 5 — PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY)|Fase 5 — Pesquisa com Usuários (Vol. 2)]]. Leia antes de contratar qualquer pessoa de vendas ou marketing.
+> Este capítulo é a referência central de go-to-market do livro. Conecta-se ao [[#CAPÍTULO 7 — PRODUCT MARKETING: POSICIONAMENTO, MENSAGEM E LANÇAMENTO|Capítulo 7 — Product Marketing]] (Mensagem operacional), ao [[#CAPÍTULO 6 — BRANDING E POSICIONAMENTO DE MARCA PARA STARTUPS|Capítulo 6 — Branding e Posicionamento]] (Posicionamento estratégico, pré-requisito de Mensagem), ao [[#CAPÍTULO 14 — DADOS, ANALYTICS E EXPERIMENTAÇÃO|Capítulo 14 — Dados e Analytics]], ao [[#CAPÍTULO 8 — SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|Capítulo 8 — Sales (Outbound ao Renewal]], ao [[IGNICAO-Vol-2-Descoberta-e-Mercado#CAPÍTULO 1 — PSICOLOGIA DO CONSUMIDOR BRASILEIRO — COMPORTAMENTO, DECISÃO E CONVERSÃO|Capítulo 1 (Psicologia do Consumidor Brasileiro — Comportamento, Decisão e Conversão) (Vol. 2)]] (comportamento brasileiro como input de motion) e à [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 5 — PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY)|Fase 5 — Pesquisa com Usuários (Vol. 2)]]. Leia antes de contratar qualquer pessoa de vendas ou marketing.
 
 ---
 
@@ -4922,7 +4922,7 @@ Dependência de canal único. Quando o canal vencedor atinge maturidade (doze a 
 > [!note] Nota de validade da seção Product-Led Growth
 > PLG como estratégia tem evoluído rapidamente desde 2015 a 2020 (era de ouro), e continua mudando. Em abril de 2026, o ecossistema brasileiro de PLG ainda é relativamente nascente. O que cria oportunidade. E também significa que as melhores práticas mudam rápido. Revisar anualmente. Métricas-padrão evoluem (por exemplo, "activation rate" tem definições diferentes em 2020 versus hoje). Ferramentas de instrumentação (PostHog, Mixpanel, e Amplitude) mudam features relevantes. Modelos híbridos (PLG, mais Sales) evoluem em formato. Os princípios fundamentais (tempo-até-valor, self-serve, e viralidade intrínseca) são mais estáveis.
 
-### EXPANSÃO, PRODUCT-LED GROWTH (PLG)
+### Quando o próprio produto vende: a mecânica real do Product-Led Growth (PLG)
 
 Os canais pagos, orgânicos, e de parceria, cobertos acima, são motores *externos* de aquisição. Você vai ao cliente. Product-Led Growth é o motor oposto. O próprio produto é o canal de aquisição, ativação, retenção, e expansão. O usuário descobre, tenta, ama, e expande, sem passar por sales humano (ou com envolvimento mínimo).
 
@@ -5040,7 +5040,7 @@ Essa é a diferença brutal entre **O Aluguel Eterno do Tráfego Pago** e **A Es
 > [!note] Nota de validade
 > Algoritmos de busca evoluem sem parar (Google core updates três a quatro vezes por ano). O papel do AI-generated content (conteúdo gerado por IA) e do AI-driven search (busca dirigida por IA, como Perplexity e ChatGPT Search) está em fluxo intenso entre 2024 e 2026. Revisar táticas todo ano. Os princípios são estáveis: autoridade, utilidade real e E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness, sigla do Google para experiência, expertise, autoridade e confiabilidade).
 
-O [[#CAPÍTULO 2 — FRAMEWORK DE CANAIS DE AQUISIÇÃO|Capítulo 2 (FRAMEWORK DE CANAIS DE AQUISIÇÃO)]] menciona content (conteúdo) e SEO (Search Engine Optimization, otimização para mecanismos de busca) como canais em alto nível. Para muitas startups B2B SaaS brasileiras, content é o canal de menor CAC no longo prazo, mas exige disciplina de doze a vinte e quatro meses antes de retornar.
+O [[#CAPÍTULO 2 — FRAMEWORK DE CANAIS DE AQUISIÇÃO|Capítulo 2 (Framework de Canais de Aquisição)]] menciona content (conteúdo) e SEO (Search Engine Optimization, otimização para mecanismos de busca) como canais em alto nível. Para muitas startups B2B SaaS brasileiras, content é o canal de menor CAC no longo prazo, mas exige disciplina de doze a vinte e quatro meses antes de retornar.
 
 ### Como construir uma máquina de aquisição orgânica que acumula autoridade e reduz o CAC ao longo do tempo
 
@@ -5165,7 +5165,7 @@ Em noventa dias, entrar naquele grupo virou símbolo de status entre CFOs. O cus
 > Plataformas específicas (Slack, Discord, Circle, Mighty Networks, Heartbeat) evoluem rapidamente. Os princípios — reciprocidade, criação de valor antes de extração, moderação deliberada — são estáveis.
 
 > [!tip] Community como motion entre os quatro de aquisição
-> Community-Led Growth (CLG) é um dos quatro motions clássicos de aquisição mapeados em [[#CAPÍTULO 2 — FRAMEWORK DE CANAIS DE AQUISIÇÃO|Capítulo 2 (FRAMEWORK DE CANAIS DE AQUISIÇÃO)]] (junto com PLG, SLG, MLG). Este capítulo trata da disciplina por dentro (como construir, moderar, escalar). Capítulo 2 (FRAMEWORK DE CANAIS DE AQUISIÇÃO) trata da decisão de motion no contexto de outros canais (quando CLG vence, quando combina, quando não cabe).
+> Community-Led Growth (CLG) é um dos quatro motions clássicos de aquisição mapeados em [[#CAPÍTULO 2 — FRAMEWORK DE CANAIS DE AQUISIÇÃO|Capítulo 2 (Framework de Canais de Aquisição)]] (junto com PLG, SLG, MLG). Este capítulo trata da disciplina por dentro (como construir, moderar, escalar). Capítulo 2 (Framework de Canais de Aquisição) trata da decisão de motion no contexto de outros canais (quando CLG vence, quando combina, quando não cabe).
 
 Em SaaS moderno, comunidade é ao mesmo tempo canal de aquisição, suporte, advocacy (defesa espontânea da marca) e fonte de feedback de produto.
 
@@ -5650,7 +5650,7 @@ Marketing de performance está operando bem quando todos os itens abaixo estão 
 
 **Ver também:**
 
-[[#CAPÍTULO 3 — CONTENT MARKETING E SEO COMO DISCIPLINA|Capítulo 3 — Content Marketing e SEO como Disciplina]]. [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 16 — LIQUIDEZ SECUNDÁRIA (SECONDARIES): REALIZAÇÃO PARCIAL DE CAPITAL PARA FUNDADORES, EXECUTIVOS E INVESTIDORES ANTES DO EXIT|Capítulo 16 (LIQUIDEZ SECUNDÁRIA (SECONDARIES): REALIZAÇÃO PARCIAL DE CAPITAL PARA FUNDADORES, EXECUTIVOS E INVESTIDORES ANTES DO EXIT) (Vol. 9)]], Growth e Aquisição. [[#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvases Visuais da Fase]], Canvases e Mapas Visuais. [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 14 — PERFORMANCE REVIEWS ESTRUTURADOS: CICLO, CALIBRAÇÃO E CONEXÃO COM COMPENSAÇÃO|Capítulo 14 (PERFORMANCE REVIEWS ESTRUTURADOS: CICLO, CALIBRAÇÃO E CONEXÃO COM COMPENSAÇÃO) (Vol. 6)]], Métricas e Dashboard de Negócio.
+[[#CAPÍTULO 3 — CONTENT MARKETING E SEO COMO DISCIPLINA|Capítulo 3 — Content Marketing e SEO como Disciplina]]. [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 16 — LIQUIDEZ SECUNDÁRIA (SECONDARIES): REALIZAÇÃO PARCIAL DE CAPITAL PARA FUNDADORES, EXECUTIVOS E INVESTIDORES ANTES DO EXIT|Capítulo 16 (Liquidez Secundária (Secondaries): Realização Parcial de Capital para Fundadores, Executivos e Investidores Antes do Exit) (Vol. 9)]], Growth e Aquisição. [[#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvases Visuais da Fase]], Canvases e Mapas Visuais. [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 14 — PERFORMANCE REVIEWS ESTRUTURADOS: CICLO, CALIBRAÇÃO E CONEXÃO COM COMPENSAÇÃO|Capítulo 14 (Performance Reviews Estruturados: Ciclo, Calibração e Conexão com Compensação) (Vol. 6)]], Métricas e Dashboard de Negócio.
 
 > [!info] Fases relacionadas
 > Referenciado em: Fase 10.
@@ -5696,7 +5696,7 @@ Para uma startup nascente, branding tem uma função econômica implacável: **r
 > Posicionamento é estratégia: define onde você compete e por que você vence. Identidade é execução: como você aparece visualmente e verbalmente. A maioria das startups faz identidade sem ter posicionamento. Resultado: visual bonito, mensagem vazia.
 
 > [!important] Escopo deste capítulo versus EA
-> Branding e Posicionamento (este capítulo) é a disciplina **estratégica** de Marca e Posicionamento Competitivo, em ciclos longos (anos), com VRIO, Crossing the Chasm, JTBD, identidade verbal e visual e brand equity. Product Marketing ([[#CAPÍTULO 7 — PRODUCT MARKETING: POSICIONAMENTO, MENSAGEM E LANÇAMENTO|Capítulo 7 (PRODUCT MARKETING: POSICIONAMENTO, MENSAGEM E LANÇAMENTO)]]) é a disciplina **operacional** de Mensagem e Lançamento, em ciclos curtos (semanas, sprints, releases), com metodologia April Dunford, win/loss interviews, messaging architecture e sales enablement. EA pressupõe DX, e quando os dois divergem, DX prevalece (Mensagem deriva de Posicionamento, não o contrário).
+> Branding e Posicionamento (este capítulo) é a disciplina **estratégica** de Marca e Posicionamento Competitivo, em ciclos longos (anos), com VRIO, Crossing the Chasm, JTBD, identidade verbal e visual e brand equity. Product Marketing ([[#CAPÍTULO 7 — PRODUCT MARKETING: POSICIONAMENTO, MENSAGEM E LANÇAMENTO|Capítulo 7 (Product Marketing: Posicionamento, Mensagem e Lançamento)]]) é a disciplina **operacional** de Mensagem e Lançamento, em ciclos curtos (semanas, sprints, releases), com metodologia April Dunford, win/loss interviews, messaging architecture e sales enablement. EA pressupõe DX, e quando os dois divergem, DX prevalece (Mensagem deriva de Posicionamento, não o contrário).
 
 ---
 
@@ -6057,7 +6057,7 @@ Esse abismo é o que chamamos de **A Cegueira da Funcionalidade** (*Feature Blin
 > Este capítulo complementa o [[#CAPÍTULO 1 — GTM PLAYBOOK: DA IDEIA AO PRIMEIRO MILHÃO DE ARR|Capítulo 1 — GTM Playbook]], o [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 1 — BOARD E GOVERNANCE|Capítulo 1 — Métricas de Crescimento (Vol. 9)]] e o [[#CAPÍTULO 6 — BRANDING E POSICIONAMENTO DE MARCA PARA STARTUPS|Capítulo 6 — Branding e Posicionamento]] (Posicionamento estratégico de longo prazo, do qual a Mensagem aqui derivada). É referência para fundadores que precisam definir posicionamento, construir mensagem e estruturar lançamentos de produto. Leia junto com a [[#FASE 11 — MVP E EXPERIMENTOS DE MERCADO|Fase 11 — MVP e Experimentos de Mercado]] e a [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 15 — MÁQUINA DE CRESCIMENTO E EXPANSÃO EM ESCALA|Fase 15 — Máquina de Crescimento e Expansão em Escala (Vol. 6)]].
 
 > [!important] Escopo deste capítulo versus DX
-> Product Marketing (este capítulo) é a disciplina **operacional** de Mensagem e Lançamento, em ciclos curtos (semanas, sprints, releases). Trabalha com a metodologia April Dunford, win/loss interviews, messaging architecture e sales enablement. Branding e Posicionamento ([[#CAPÍTULO 6 — BRANDING E POSICIONAMENTO DE MARCA PARA STARTUPS|Capítulo 6 (BRANDING E POSICIONAMENTO DE MARCA PARA STARTUPS)]]) é a disciplina **estratégica** de Marca e Posicionamento Competitivo, em ciclos longos (anos), com VRIO, Crossing the Chasm, JTBD, identidade verbal e visual e brand equity. EA pressupõe DX, e quando os dois divergem, DX prevalece (Mensagem deriva de Posicionamento, não o contrário).
+> Product Marketing (este capítulo) é a disciplina **operacional** de Mensagem e Lançamento, em ciclos curtos (semanas, sprints, releases). Trabalha com a metodologia April Dunford, win/loss interviews, messaging architecture e sales enablement. Branding e Posicionamento ([[#CAPÍTULO 6 — BRANDING E POSICIONAMENTO DE MARCA PARA STARTUPS|Capítulo 6 (Branding e Posicionamento de Marca para Startups)]]) é a disciplina **estratégica** de Marca e Posicionamento Competitivo, em ciclos longos (anos), com VRIO, Crossing the Chasm, JTBD, identidade verbal e visual e brand equity. EA pressupõe DX, e quando os dois divergem, DX prevalece (Mensagem deriva de Posicionamento, não o contrário).
 
 ---
 
@@ -6572,7 +6572,7 @@ A venda B2B percorre oito estágios definidos. Cada um tem objetivo próprio, cr
 
 **Fechamento.** Assinatura. Pagamento. Início. Critério de saída. Contrato assinado, e primeiro pagamento recebido.
 
-**Pós-venda. Onboarding, depois expansion, depois renewal.** Customer Success leva daqui pra frente (ver [[#CAPÍTULO 12 — CUSTOMER SUCCESS COMO DISCIPLINA|Capítulo 12 (CUSTOMER SUCCESS COMO DISCIPLINA)]]). Mas a relação entre vendas, e pós-venda, importa. Vendas que prometem o que o produto não entrega destroem CS, destroem renovação, e destroem reputação.
+**Pós-venda. Onboarding, depois expansion, depois renewal.** Customer Success leva daqui pra frente (ver [[#CAPÍTULO 12 — CUSTOMER SUCCESS COMO DISCIPLINA|Capítulo 12 (Customer Success como Disciplina)]]). Mas a relação entre vendas, e pós-venda, importa. Vendas que prometem o que o produto não entrega destroem CS, destroem renovação, e destroem reputação.
 
 #### Qualificação. BANT, MEDDIC, MEDDPICC
 
@@ -6668,7 +6668,7 @@ A diferença entre SMB, e enterprise, começa na estrutura da contraparte. Em SM
 
 Princípios para operar em enterprise.
 
-Multi-threading é obrigatório. Se o seu único contato é o usuário, você é extremamente vulnerável. Champion precisa existir. Mas você também precisa de relacionamentos em procurement, em segurança, em jurídico, e em finance. Um grupo de três, ou quatro, pessoas te conhecendo dá segurança contra single point of failure (champion sai da empresa, é realocado, ou muda de opinião). Em mercados onde o canal substitui o time direto, ver [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 4 — BUSINESS DEVELOPMENT|Capítulo 4 (BUSINESS DEVELOPMENT) (Vol. 6)]] para alternativa estrutural via parceria.
+Multi-threading é obrigatório. Se o seu único contato é o usuário, você é extremamente vulnerável. Champion precisa existir. Mas você também precisa de relacionamentos em procurement, em segurança, em jurídico, e em finance. Um grupo de três, ou quatro, pessoas te conhecendo dá segurança contra single point of failure (champion sai da empresa, é realocado, ou muda de opinião). Em mercados onde o canal substitui o time direto, ver [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 4 — BUSINESS DEVELOPMENT|Capítulo 4 (Business Development) (Vol. 6)]] para alternativa estrutural via parceria.
 
 Procurement não é inimigo. É profissional executando o seu papel. Muitos fundadores brasileiros tratam procurement como "o cara difícil". É a pessoa encarregada de conseguir o melhor preço, e os melhores termos, pra empresa. Respeite o papel, entenda o incentivo, e negocie com elegância.
 
@@ -6713,7 +6713,7 @@ Security & compliance repository. SOC 2, ISO 27001, LGPD statement, DPA template
 
 Enterprise sales comp costuma ter quatro características. OTE maior. R$ 300 mil a R$ 800 mil ou mais por ano em AE enterprise no Brasil. Split base e variable mais equilibrado. Cinquenta cinquenta é comum. Quota anual, não trimestral. Os ciclos são longos. Medir trimestralmente penaliza o vendedor trabalhando em deal de doze meses. MBO (Management By Objectives) como complemento. Parte do variável atada a objetivos qualitativos (manter top dez contas ativas, desenvolver relacionamento em X conta estratégica).
 
-Para o playbook enterprise como disciplina autônoma, ver [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 2 — VENDAS COMPLEXAS ENTERPRISE: CICLO LONGO, ALTO VALOR, MÚLTIPLOS DECISORES|Capítulo 2 (VENDAS COMPLEXAS ENTERPRISE: CICLO LONGO, ALTO VALOR, MÚLTIPLOS DECISORES) (Vol. 6)]].
+Para o playbook enterprise como disciplina autônoma, ver [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 2 — VENDAS COMPLEXAS ENTERPRISE: CICLO LONGO, ALTO VALOR, MÚLTIPLOS DECISORES|Capítulo 2 (Vendas Complexas Enterprise: Ciclo Longo, Alto Valor, Múltiplos Decisores) (Vol. 6)]].
 
 ---
 
@@ -6771,7 +6771,7 @@ flowchart LR
     style note fill:#f9f9f9,stroke:#999
 ```
 
-**Freemium versus trial.** Os modelos canônicos de freemium e trial são definidos no [[#CAPÍTULO 9 — PRICING STRATEGY COMO DISCIPLINA|Capítulo 9 (PRICING STRATEGY COMO DISCIPLINA)]]. Aqui tratamos especificamente da escolha entre os dois no contexto de PLG (Product-Led Growth). Freemium. Versão gratuita permanente, com funcionalidade limitada. Upgrade opcional. Viabiliza viralidade. Dilui receita. Trial. Versão completa por tempo limitado (sete a trinta dias). Depois exige pagamento. Converte mais rápido. Menos viral. Híbrido. Freemium com trial temporário de features premium. Mais complexo. Pode confundir pricing.
+**Freemium versus trial.** Os modelos canônicos de freemium e trial são definidos no [[#CAPÍTULO 9 — PRICING STRATEGY COMO DISCIPLINA|Capítulo 9 (Pricing Strategy como Disciplina)]]. Aqui tratamos especificamente da escolha entre os dois no contexto de PLG (Product-Led Growth). Freemium. Versão gratuita permanente, com funcionalidade limitada. Upgrade opcional. Viabiliza viralidade. Dilui receita. Trial. Versão completa por tempo limitado (sete a trinta dias). Depois exige pagamento. Converte mais rápido. Menos viral. Híbrido. Freemium com trial temporário de features premium. Mais complexo. Pode confundir pricing.
 
 **Activation, e aha moment.** O momento em que o novo usuário percebe valor pela primeira vez. O objetivo. Reduzir tempo entre signup e aha. Dropbox. Arquivo sincronizado entre dispositivos. Slack. Mensagem enviada em canal de time real. Figma. Arquivo colaborado em tempo real. A sua empresa tem que identificar o aha, e instrumentar para medir quantos usuários atingem.
 
@@ -6808,7 +6808,7 @@ Descolamento PLG e vendas. Quando o cliente PLG cresce, e precisa de enterprise 
 ### Parte 4 — REVENUE OPERATIONS (REVOPS)
 
 > [!note] Escopo desta parte
-> Esta parte oferece visão panorâmica de RevOps como componente da motion comercial completa. Para profundidade operacional (stack tecnológica, pipeline stages detalhados, lead scoring, SLAs), ver [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 3 — REVENUE OPERATIONS: INFRAESTRUTURA, DADOS E PROCESSO PARA CRESCER COM PREVISIBILIDADE|Capítulo 3 (REVENUE OPERATIONS: INFRAESTRUTURA, DADOS E PROCESSO PARA CRESCER COM PREVISIBILIDADE) (Vol. 6)]].
+> Esta parte oferece visão panorâmica de RevOps como componente da motion comercial completa. Para profundidade operacional (stack tecnológica, pipeline stages detalhados, lead scoring, SLAs), ver [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 3 — REVENUE OPERATIONS: INFRAESTRUTURA, DADOS E PROCESSO PARA CRESCER COM PREVISIBILIDADE|Capítulo 3 (Revenue Operations: Infraestrutura, Dados e Processo para Crescer com Previsibilidade) (Vol. 6)]].
 
 #### Por que RevOps existe
 
@@ -6850,7 +6850,7 @@ Over-engineering. Empresa de trinta pessoas com stack de quinze ferramentas inte
 
 ---
 
-### CHECKLIST TRANSVERSAL DE VENDAS
+### A auditoria comercial de bolso: o que checar antes de escalar o time de vendas
 
 Independente de motion (B2B, enterprise, SMB, PLG), qualquer operação de vendas madura tem.
 
@@ -6885,7 +6885,7 @@ Abra o seu CRM agora e apague (ou mova para arquivo morto) toda oportunidade que
 
 ### Ver também
 
-[[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 1 — GROWTH COMO FUNÇÃO ORGANIZACIONAL: TIME DE GROWTH, BUILD VS HIRE, RELAÇÃO COM PRODUTO|Capítulo 1 (GROWTH COMO FUNÇÃO ORGANIZACIONAL: TIME DE GROWTH, BUILD VS HIRE, RELAÇÃO COM PRODUTO) (Vol. 6)]], Growth como função organizacional. [[#CAPÍTULO 12 — CUSTOMER SUCCESS COMO DISCIPLINA|Capítulo 12 (CUSTOMER SUCCESS COMO DISCIPLINA)]], Customer Success como disciplina. [[#CAPÍTULO 9 — PRICING STRATEGY COMO DISCIPLINA|Capítulo 9 (PRICING STRATEGY COMO DISCIPLINA)]], Pricing strategy. [[#CAPÍTULO 10 — SUBSCRIPTION ECONOMY EM PROFUNDIDADE: ALÉM DO "COBRA MENSALMENTE"|Capítulo 10 (SUBSCRIPTION ECONOMY EM PROFUNDIDADE: ALÉM DO "COBRA MENSALMENTE")]], Subscription economy. [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 10 — LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Capítulo 10 (LGPD, COMPLIANCE E GOVERNANÇA DE DADOS) (Vol. 8)]], LGPD, compliance, e governança de dados. [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 6 — CANAIS INDIRETOS E PARCERIAS: PARCERIAS, FRANQUIAS, CHANNEL|Capítulo 6 (CANAIS INDIRETOS E PARCERIAS: PARCERIAS, FRANQUIAS, CHANNEL) (Vol. 6)]], Canais indiretos e parcerias, quando parte da venda é via terceiros. [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 3 — REVENUE OPERATIONS: INFRAESTRUTURA, DADOS E PROCESSO PARA CRESCER COM PREVISIBILIDADE|Capítulo 3 (REVENUE OPERATIONS: INFRAESTRUTURA, DADOS E PROCESSO PARA CRESCER COM PREVISIBILIDADE) (Vol. 6)]], RevOps como disciplina autônoma, com profundidade operacional. [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 7 — REVENUE FORECASTING: MODELOS, ACURÁCIA E PROCESSO PARA O FOUNDER|Capítulo 7 (REVENUE FORECASTING: MODELOS, ACURÁCIA E PROCESSO PARA O FOUNDER) (Vol. 5)]], para transformar as taxas de conversão de funil em forecast de receita.
+[[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 1 — GROWTH COMO FUNÇÃO ORGANIZACIONAL: TIME DE GROWTH, BUILD VS HIRE, RELAÇÃO COM PRODUTO|Capítulo 1 (Growth como Função Organizacional: Time de Growth, Build vs Hire, Relação com Produto) (Vol. 6)]], Growth como função organizacional. [[#CAPÍTULO 12 — CUSTOMER SUCCESS COMO DISCIPLINA|Capítulo 12 (Customer Success como Disciplina)]], Customer Success como disciplina. [[#CAPÍTULO 9 — PRICING STRATEGY COMO DISCIPLINA|Capítulo 9 (Pricing Strategy como Disciplina)]], Pricing strategy. [[#CAPÍTULO 10 — SUBSCRIPTION ECONOMY EM PROFUNDIDADE: ALÉM DO "COBRA MENSALMENTE"|Capítulo 10 (Subscription Economy em Profundidade: Além do "Cobra Mensalmente")]], Subscription economy. [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 10 — LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Capítulo 10 (LGPD, Compliance e Governança de Dados) (Vol. 8)]], LGPD, compliance, e governança de dados. [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 6 — CANAIS INDIRETOS E PARCERIAS: PARCERIAS, FRANQUIAS, CHANNEL|Capítulo 6 (Canais Indiretos e Parcerias: Parcerias, Franquias, Channel) (Vol. 6)]], Canais indiretos e parcerias, quando parte da venda é via terceiros. [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 3 — REVENUE OPERATIONS: INFRAESTRUTURA, DADOS E PROCESSO PARA CRESCER COM PREVISIBILIDADE|Capítulo 3 (Revenue Operations: Infraestrutura, Dados e Processo para Crescer com Previsibilidade) (Vol. 6)]], RevOps como disciplina autônoma, com profundidade operacional. [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 7 — REVENUE FORECASTING: MODELOS, ACURÁCIA E PROCESSO PARA O FOUNDER|Capítulo 7 (Revenue Forecasting: Modelos, Acurácia e Processo para o Founder) (Vol. 5)]], para transformar as taxas de conversão de funil em forecast de receita.
 
 > [!info] Fases relacionadas
 > Referenciado em: Fase 10.
@@ -7347,7 +7347,7 @@ Proíba qualquer desconto sem contrapartida. Escreva a regra na parede comercial
 
 ### Ver também
 
-**Ver também:** [[#CAPÍTULO 10 — SUBSCRIPTION ECONOMY EM PROFUNDIDADE: ALÉM DO "COBRA MENSALMENTE"|Capítulo 10 (SUBSCRIPTION ECONOMY EM PROFUNDIDADE: ALÉM DO "COBRA MENSALMENTE")]], Subscription economy. [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 15 — VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR|Capítulo 15 (VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR) (Vol. 5)]], Valuation methods. [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 4 — MODELAGEM FINANCEIRA OPERACIONAL|Capítulo 4 (MODELAGEM FINANCEIRA OPERACIONAL) (Vol. 5)]], Modelagem financeira.
+**Ver também:** [[#CAPÍTULO 10 — SUBSCRIPTION ECONOMY EM PROFUNDIDADE: ALÉM DO "COBRA MENSALMENTE"|Capítulo 10 (Subscription Economy em Profundidade: Além do "Cobra Mensalmente")]], Subscription economy. [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 15 — VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR|Capítulo 15 (Valuation Methods: Como Investidores Calculam e como Você Calcula para Negociar) (Vol. 5)]], Valuation methods. [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 4 — MODELAGEM FINANCEIRA OPERACIONAL|Capítulo 4 (Modelagem Financeira Operacional) (Vol. 5)]], Modelagem financeira.
 
 > [!info] Fases relacionadas
 > Referenciado em: Fase 5, Fase 9, Fase 10.
@@ -7393,7 +7393,7 @@ O capital eficiente muda. Assinatura gera caixa previsível. Funciona bem com d�
 > [!warning] Subscription como estrutura, não como billing
 > Falhar em entender subscription como estrutura (não só como billing, ou cobrança) é fonte comum de dois erros. A empresa transacional "vira subscription" desenhando plano mensal sem mudar nada mais, e frustra clientes. O fundador acha que cobrar mensalmente garante retention. Não garante.
 
-### TAXONOMIA, NÃO TUDO É SAAS B2B
+### Nem toda recorrência é SaaS B2B: a anatomia dos diferentes motores de assinatura
 
 Subscription tem muitos formatos. Cada um tem economia, e playbook, próprios.
 
@@ -7415,7 +7415,7 @@ Subscription tem muitos formatos. Cada um tem economia, e playbook, próprios.
 
 Cada formato precisa de playbook próprio. Este capítulo foca nos desafios avançados comuns a vários deles. Com ênfase em SaaS B2B, e D2C físico, por serem mais representativos no Brasil.
 
-### MÉTRICAS AVANÇADAS, ALÉM DE ARR
+### Muito além do ARR: os indicadores que revelam a saúde real da receita recorrente
 
 Métricas básicas (ARR, MRR, CAC, LTV, churn) estão em qualquer primer de SaaS. Para operar em escala, as seguintes são essenciais.
 
@@ -7437,9 +7437,9 @@ Métricas básicas (ARR, MRR, CAC, LTV, churn) estão em qualquer primer de SaaS
 
 **Expansion categories.** Expansão via seat (mais usuários) versus tier (plano superior) versus cross-sell (módulo novo) versus usage (plano por consumo). Cada uma tem mecânica diferente, e investimento diferente.
 
-### DESENHO DE PLANOS (PRICING PACKAGING)
+### A arquitetura de planos e pacotes: como empacotar valor sem confundir o comprador
 
-Como descrito no [[#CAPÍTULO 9 — PRICING STRATEGY COMO DISCIPLINA|Capítulo 9 (PRICING STRATEGY COMO DISCIPLINA)]], os modelos canônicos de pricing são tiered, usage-based, freemium, trial e hybrid. Aqui aprofundamos quando e como aplicar cada modelo no contexto específico de subscription economy.
+Como descrito no [[#CAPÍTULO 9 — PRICING STRATEGY COMO DISCIPLINA|Capítulo 9 (Pricing Strategy como Disciplina)]], os modelos canônicos de pricing são tiered, usage-based, freemium, trial e hybrid. Aqui aprofundamos quando e como aplicar cada modelo no contexto específico de subscription economy.
 
 > [!important] Primeiro princípio
 > Valor percebido vale mais que complexidade de pricing. Pricing confuso não extrai valor. Aliena o cliente.
@@ -7462,7 +7462,7 @@ Como descrito no [[#CAPÍTULO 9 — PRICING STRATEGY COMO DISCIPLINA|Capítulo 9
 
 **Pricing review cadence.** Pricing não é decidido uma vez. Revisão trimestral. As perguntas. O plano mais barato está atraindo clientes errados? O plano mais caro está sendo usado? O desconto médio está crescendo? O upselling está funcionando?
 
-### GOVERNANÇA DE CHURN
+### Estancando o balde furado: rituais e governança implacável contra o churn
 
 Churn é inimigo número um de subscription. Governança de churn é combinação de três frentes.
 
@@ -7474,7 +7474,7 @@ Churn é inimigo número um de subscription. Governança de churn é combinaçã
 
 Métricas de governança de churn. Churn rate (mensal, anual). Voluntary versus involuntary churn (cartão expirou, pagamento falhou). Involuntary é vinte a quarenta por cento do churn em D2C. E pode ser reduzido com dunning management (Recurly, Chargebee, Vindi no Brasil). Churn por cohort, por plano, por canal de aquisição, e por região. Time-to-churn (quantos meses até cancelar). Reactivation rate (percentual de clientes churnados que voltam em doze meses).
 
-### EXPANSÃO COMO MOTOR DE CRESCIMENTO
+### Crescer dentro de casa: como fazer a carteira atual pagar o próximo ciclo de escala
 
 Em SaaS B2B maduro, quarenta a sessenta por cento do crescimento de receita vem de expansão. Não de novos logos. O expansion engine.
 
@@ -7484,7 +7484,7 @@ Quem executa expansão. Account Management (AM) para contas enterprise. Customer
 
 Incentivos. AMs têm quota de expansion (não só renewal). AEs de novos logos podem ter parte do bônus em expansão do primeiro ano (reduce rotation incentive). A quota de CSM pode ter componente de expansão, se tiver responsabilidade de upsell (cultural trade-off, CSM com quota agressiva vira AM disfarçado).
 
-### TRANSIÇÃO DE TRANSACIONAL PARA RECORRENTE
+### A travessia da venda avulsa para a assinatura: como migrar sem quebrar o caixa no meio
 
 Empresas transacionais (e-commerce, varejo, serviço pontual) frequentemente tentam "virar subscription". Captar receita recorrente, e valuation de múltiplo maior. A transição é difícil. Erros comuns.
 
@@ -7500,7 +7500,7 @@ Exemplos brasileiros bem-sucedidos. Leiturinha. Livro infantil mensal, com curad
 
 Exemplos que não deram certo. Vários boxes de beleza pós-2015 (Birchbox brasileiro, Lookfantastic, clubes de beleza). Churn alto. Produto saturado. Assinatura de comida pronta (diversos pós-2018). O cliente quer flexibilidade. Assinatura fixa frustra.
 
-### QUANDO SUBSCRIPTION NÃO SERVE
+### Quando forçar assinatura é um erro: negócios que lucram mais no modelo transacional
 
 Nem todo negócio deve ser subscription. Sinais de que não serve.
 
@@ -7514,7 +7514,7 @@ Volume de compra natural já é recorrente (o cliente compra café toda semana, 
 
 Subscription sensível demais ao preço é sinal ruim. Se o cliente cancela assinatura, em vez de pausar com desconto, o valor percebido era baixo.
 
-### GOVERNANÇA FINANCEIRA DE SUBSCRIPTION
+### A contabilidade real da recorrência: receita diferida, caixa antecipado e disciplina financeira
 
 Deferred revenue. Assinatura anual cobra R$ 12 mil no início. A receita reconhecida é R$ 1 mil por mês. O balanço tem R$ 11 mil como passivo (deferred revenue) no mês 1. O CFO precisa entender.
 
@@ -7587,7 +7587,7 @@ Audite todos os pagamentos recusados ou vencidos dos últimos 15 dias e ative ho
 
 ### Ver também
 
-[[#CAPÍTULO 12 — CUSTOMER SUCCESS COMO DISCIPLINA|Capítulo 12 (CUSTOMER SUCCESS COMO DISCIPLINA)]], Customer Success. [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 1 — PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA|Capítulo 1 (PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA) (Vol. 7)]], Produto em escala. [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — MODELAGEM FINANCEIRA COM COHORTS: PROJEÇÕES QUE FUNCIONAM EM EMPRESA RECORRENTE|Capítulo 5 (MODELAGEM FINANCEIRA COM COHORTS: PROJEÇÕES QUE FUNCIONAM EM EMPRESA RECORRENTE) (Vol. 5)]], Modelagem com cohorts. [[#CAPÍTULO 9 — PRICING STRATEGY COMO DISCIPLINA|Capítulo 9 (PRICING STRATEGY COMO DISCIPLINA)]], Pricing strategy.
+[[#CAPÍTULO 12 — CUSTOMER SUCCESS COMO DISCIPLINA|Capítulo 12 (Customer Success como Disciplina)]], Customer Success. [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 1 — PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA|Capítulo 1 (Produto em Escala e Descoberta Contínua) (Vol. 7)]], Produto em escala. [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — MODELAGEM FINANCEIRA COM COHORTS: PROJEÇÕES QUE FUNCIONAM EM EMPRESA RECORRENTE|Capítulo 5 (Modelagem Financeira com Cohorts: Projeções Que Funcionam em Empresa Recorrente) (Vol. 5)]], Modelagem com cohorts. [[#CAPÍTULO 9 — PRICING STRATEGY COMO DISCIPLINA|Capítulo 9 (Pricing Strategy como Disciplina)]], Pricing strategy.
 
 ---
 
@@ -7616,10 +7616,10 @@ Quinze minutos depois, o contrato foi assinado pelo preço cheio de tabela e pag
 
 > [!abstract] Posicao no livro
 > Negociacao como disciplina transversal do fundador, aplicavel em term sheets, contratos, parcerias e conflitos societarios. Vizinhos onde DS opera diretamente,
-> - [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 5 — CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS|Capítulo 5 (CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS) (Vol. 8)]] e [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 6 — CONTRATOS EM PROFUNDIDADE POR TIPO|Capítulo 6 (CONTRATOS EM PROFUNDIDADE POR TIPO) (Vol. 8)]], negociacao de clausulas e contratos
-> - [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 1 — BOARD E GOVERNANCE|Capítulo 1 (BOARD E GOVERNANCE) (Vol. 9)]], negociacao no board e com investidores
-> - [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 3 — DISPUTA SOCIETÁRIA E SAÍDA DE SÓCIO|Capítulo 3 (DISPUTA SOCIETÁRIA E SAÍDA DE SÓCIO) (Vol. 9)]], negociacao em conflito societario
-> - [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 5 — PARCERIA COM GRANDES CORPORAÇÕES BRASILEIRAS|Capítulo 5 (PARCERIA COM GRANDES CORPORAÇÕES BRASILEIRAS) (Vol. 6)]], negociacao de deal corporativo de longo ciclo
+> - [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 5 — CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS|Capítulo 5 (Contratos e Aspectos Legais Operacionais) (Vol. 8)]] e [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 6 — CONTRATOS EM PROFUNDIDADE POR TIPO|Capítulo 6 (Contratos em Profundidade por Tipo) (Vol. 8)]], negociacao de clausulas e contratos
+> - [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 1 — BOARD E GOVERNANCE|Capítulo 1 (Board e Governance) (Vol. 9)]], negociacao no board e com investidores
+> - [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 3 — DISPUTA SOCIETÁRIA E SAÍDA DE SÓCIO|Capítulo 3 (Disputa Societária e Saída de Sócio) (Vol. 9)]], negociacao em conflito societario
+> - [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 5 — PARCERIA COM GRANDES CORPORAÇÕES BRASILEIRAS|Capítulo 5 (Parceria com Grandes Corporações Brasileiras) (Vol. 6)]], negociacao de deal corporativo de longo ciclo
 
 > [!note] Nota
 > Este capítulo integra conceitos de negociação do Harvard Negotiation Project (Fisher, Ury e Patton — projeto de pesquisa de Harvard sobre negociação por interesses), pesquisa de Adam Grant sobre concessões, e adaptação ao contexto operacional do fundador brasileiro.
@@ -7658,7 +7658,7 @@ Negociação não é agressividade. É clareza sobre o que importa para você, c
 
 ### Em fechamentos corporativos, renovações com Procurement, rodadas com investidores e contratos com fornecedores
 
-Toda negociação tem algum componente dos frameworks (estruturas de análise) deste capítulo. Mas o investimento em preparação estruturada se justifica especialmente em decisões Tipo 1 (ver [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 6 — TOMADA DE DECISÃO COMO DISCIPLINA|Capítulo 6 (TOMADA DE DECISÃO COMO DISCIPLINA) (Vol. 1)]]).
+Toda negociação tem algum componente dos frameworks (estruturas de análise) deste capítulo. Mas o investimento em preparação estruturada se justifica especialmente em decisões Tipo 1 (ver [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 6 — TOMADA DE DECISÃO COMO DISCIPLINA|Capítulo 6 (Tomada de Decisão como Disciplina) (Vol. 1)]]).
 
 Negociações onde preparação estruturada é obrigatória: term sheet com VC, contratação de executivo sênior (acima de R$ 30 mil/mês), contratos B2B acima de R$ 100 mil, M&A, renegociação de equity (participação societária) com co-fundador, qualquer acordo onde cláusulas impactam o futuro da empresa por mais de 12 meses.
 
@@ -7791,7 +7791,7 @@ As cláusulas que mais importam e como negociar cada uma.
 | Board seats | Composição do conselho | Manter pelo menos empate entre fundador e investidor até Série B |
 | Veto rights | Decisões que requerem aprovação do investidor | Limitar a lista de eventos. Evitar veto em contratações operacionais |
 
-Ver [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 13 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 13 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) (Vol. 5)]] para detalhamento de captação.
+Ver [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 13 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 13 (Captação de Equity, Pitch e Relacionamento com Investidores) (Vol. 5)]] para detalhamento de captação.
 
 **Contratação de executivo sênior.**
 
@@ -7811,7 +7811,7 @@ Limitar responsabilidade (cap em receita do contrato ou 12 meses de serviço): n
 
 As cinco variáveis críticas: preço (e forma de pagamento — cash, ações, ou earnout), earnout (componente de preço condicional a métricas futuras — alta probabilidade de conflito, negocie métricas simples e mensuráveis), representações e garantias (indemnification cap, survival period), escrow (percentual retido para cobrir claims de rep and warranty — negocie prazo máximo de 12 a 18 meses), non-compete do fundador (duração e escopo geográfico — negocie para mínimo viável).
 
-Ver [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 19 — SUCESSÃO NO EXIT E TRANSIÇÃO PÓS-AQUISIÇÃO|Capítulo 19 (SUCESSÃO NO EXIT E TRANSIÇÃO PÓS-AQUISIÇÃO) (Vol. 9)]] para M&A em detalhe.
+Ver [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 19 — SUCESSÃO NO EXIT E TRANSIÇÃO PÓS-AQUISIÇÃO|Capítulo 19 (Sucessão no Exit e Transição Pós-Aquisição) (Vol. 9)]] para M&A em detalhe.
 
 **Negociação com co-fundador em conflito.**
 
@@ -8223,7 +8223,7 @@ Customer Success de verdade tem duas missões matemáticas: encurtar brutalmente
 > [!note] Nota de validade
 > Os frameworks de CS (Customer Success, sucesso do cliente), health score, onboarding estruturado, QBR e renewal motion, têm vida útil longa. O que evolui são as ferramentas específicas, as integrações com produto e o uso de IA em CS (previsão de churn, assistentes de CSM). Revisar a cada vinte e quatro meses.
 
-O [[#CAPÍTULO 8 — SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|Capítulo 8 (SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL)]] cobre Sales B2B do outbound ao closing, com expansão para motion enterprise (MEDDIC, Command of the Message, negociação multi-ano). Este capítulo cobre o que vem depois: Customer Success como disciplina operacional, a que determina se a empresa de fato faz dinheiro em SaaS.
+O [[#CAPÍTULO 8 — SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|Capítulo 8 (Sales: Motion Completa, do Outbound ao Renewal)]] cobre Sales B2B do outbound ao closing, com expansão para motion enterprise (MEDDIC, Command of the Message, negociação multi-ano). Este capítulo cobre o que vem depois: Customer Success como disciplina operacional, a que determina se a empresa de fato faz dinheiro em SaaS.
 
 Em SaaS B2B maduro, sessenta a oitenta por cento do valor total de um cliente vem de expansão e renovação, não da primeira venda. CS é a disciplina que operacionaliza isso. Fundadores que tratam CS como "atendimento" ou "suporte premium" deixam dinheiro na mesa em escala com que nenhuma outra ineficiência rivaliza.
 
@@ -8486,7 +8486,7 @@ Puxe a lista de todos os clientes que compraram nos últimos 30 dias e marque em
 
 ### Ver também
 
-[[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 1 — PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA|Capítulo 1 (PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA) (Vol. 7)]], Produto em escala. [[#CAPÍTULO 10 — SUBSCRIPTION ECONOMY EM PROFUNDIDADE: ALÉM DO "COBRA MENSALMENTE"|Capítulo 10 (SUBSCRIPTION ECONOMY EM PROFUNDIDADE: ALÉM DO "COBRA MENSALMENTE")]], Subscription economy. [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — MODELAGEM FINANCEIRA COM COHORTS: PROJEÇÕES QUE FUNCIONAM EM EMPRESA RECORRENTE|Capítulo 5 (MODELAGEM FINANCEIRA COM COHORTS: PROJEÇÕES QUE FUNCIONAM EM EMPRESA RECORRENTE) (Vol. 5)]], Cohorts.
+[[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 1 — PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA|Capítulo 1 (Produto em Escala e Descoberta Contínua) (Vol. 7)]], Produto em escala. [[#CAPÍTULO 10 — SUBSCRIPTION ECONOMY EM PROFUNDIDADE: ALÉM DO "COBRA MENSALMENTE"|Capítulo 10 (Subscription Economy em Profundidade: Além do "Cobra Mensalmente")]], Subscription economy. [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — MODELAGEM FINANCEIRA COM COHORTS: PROJEÇÕES QUE FUNCIONAM EM EMPRESA RECORRENTE|Capítulo 5 (Modelagem Financeira com Cohorts: Projeções Que Funcionam em Empresa Recorrente) (Vol. 5)]], Cohorts.
 
 ---
 
@@ -8897,7 +8897,7 @@ Instrumentação de produto de verdade exige coragem para jogar 90% do ruído fo
 > [!note] Nota de validade
 > A arquitetura de dados evolui em ciclos de três a cinco anos (Lambda, depois Kappa, depois Modern Data Stack, e o que vier a seguir). Ferramentas mudam a cada doze a vinte e quatro meses. Os princípios (métricas claras, experimentação rigorosa, dado como contrato) são estáveis. Revisar anualmente.
 
-Vários pontos do manual tratam dados de forma tangencial: o [[#CAPÍTULO 2 — FRAMEWORK DE CANAIS DE AQUISIÇÃO|Capítulo 2 (FRAMEWORK DE CANAIS DE AQUISIÇÃO)]] (AARRR, sigla para Aquisição, Ativação, Retenção, Receita e Indicação), o [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 1 — PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA|Capítulo 1 (PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA) (Vol. 7)]] (produto em escala) e métricas em cada fase. Mas dados como disciplina operacional unificada (stack, time, processos, experimentação) não têm casa no manual. Empresa pós-PMF sem infraestrutura de dados funcional toma decisões no escuro, roda experimentos que não medem o que dizem medir e compromete a escala.
+Vários pontos do manual tratam dados de forma tangencial: o [[#CAPÍTULO 2 — FRAMEWORK DE CANAIS DE AQUISIÇÃO|Capítulo 2 (Framework de Canais de Aquisição)]] (AARRR, sigla para Aquisição, Ativação, Retenção, Receita e Indicação), o [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 1 — PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA|Capítulo 1 (Produto em Escala e Descoberta Contínua) (Vol. 7)]] (produto em escala) e métricas em cada fase. Mas dados como disciplina operacional unificada (stack, time, processos, experimentação) não têm casa no manual. Empresa pós-PMF sem infraestrutura de dados funcional toma decisões no escuro, roda experimentos que não medem o que dizem medir e compromete a escala.
 
 Este capítulo cobre dados como função: stack moderno, papéis do time de dados, métricas com formulação precisa, experimentação rigorosa (A/B testing com estatística, não achismo) e evolução em escala.
 
@@ -9184,7 +9184,7 @@ Reúna o time em frente a uma única tela toda segunda-feira por 15 minutos: olh
 
 ### Ver também
 
-[[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 1 — GROWTH COMO FUNÇÃO ORGANIZACIONAL: TIME DE GROWTH, BUILD VS HIRE, RELAÇÃO COM PRODUTO|Capítulo 1 (GROWTH COMO FUNÇÃO ORGANIZACIONAL: TIME DE GROWTH, BUILD VS HIRE, RELAÇÃO COM PRODUTO) (Vol. 6)]], Growth como função. [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — MODELAGEM FINANCEIRA COM COHORTS: PROJEÇÕES QUE FUNCIONAM EM EMPRESA RECORRENTE|Capítulo 5 (MODELAGEM FINANCEIRA COM COHORTS: PROJEÇÕES QUE FUNCIONAM EM EMPRESA RECORRENTE) (Vol. 5)]], Cohorts. [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 4 — MODELAGEM FINANCEIRA OPERACIONAL|Capítulo 4 (MODELAGEM FINANCEIRA OPERACIONAL) (Vol. 5)]], Modelagem financeira.
+[[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 1 — GROWTH COMO FUNÇÃO ORGANIZACIONAL: TIME DE GROWTH, BUILD VS HIRE, RELAÇÃO COM PRODUTO|Capítulo 1 (Growth como Função Organizacional: Time de Growth, Build vs Hire, Relação com Produto) (Vol. 6)]], Growth como função. [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — MODELAGEM FINANCEIRA COM COHORTS: PROJEÇÕES QUE FUNCIONAM EM EMPRESA RECORRENTE|Capítulo 5 (Modelagem Financeira com Cohorts: Projeções Que Funcionam em Empresa Recorrente) (Vol. 5)]], Cohorts. [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 4 — MODELAGEM FINANCEIRA OPERACIONAL|Capítulo 4 (Modelagem Financeira Operacional) (Vol. 5)]], Modelagem financeira.
 
 ---
 
@@ -9213,11 +9213,11 @@ Em um produto AI-Native verdadeiro, o cliente não quer bater papo com uma caixa
 > [!tip] As quatro camadas de IA neste livro
 > IA aparece em quatro camadas, cada uma com decisões e ferramentas distintas. Você está em **AI no produto** (camada 3). As outras três:
 >
-> - **Camada 1, IA como acelerador do empreendedor** ([[IGNICAO-Vol-1-Ideacao#CAPÍTULO 10 — IA GENERATIVA COMO ACELERADOR DO EMPREENDEDOR (2026)|Capítulo 10 (IA GENERATIVA COMO ACELERADOR DO EMPREENDEDOR (2026)) (Vol. 1)]]). Uso pessoal do fundador para escrita, pesquisa, análise.
-> - **Camada 2, IA como co-piloto do fundador** ([[IGNICAO-Vol-1-Ideacao#CAPÍTULO 11 — IA COMO CO-PILOTO DO FUNDADOR (2026)|Capítulo 11 (IA COMO CO-PILOTO DO FUNDADOR (2026)) (Vol. 1)]]). Versão atualizada de I para 2026, com casos de uso de alto ROI.
-> - **Camada 4, AI Ops e automação interna** ([[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 7 — AI OPS E AUTOMAÇÃO INTELIGENTE|Capítulo 7 (AI OPS E AUTOMAÇÃO INTELIGENTE) (Vol. 7)]]). IA na operação da empresa, com triagem de tickets, resumo de calls, automação de workflows. Não é produto.
+> - **Camada 1, IA como acelerador do empreendedor** ([[IGNICAO-Vol-1-Ideacao#CAPÍTULO 10 — IA GENERATIVA COMO ACELERADOR DO EMPREENDEDOR (2026)|Capítulo 10 (IA Generativa como Acelerador do Empreendedor (2026)) (Vol. 1)]]). Uso pessoal do fundador para escrita, pesquisa, análise.
+> - **Camada 2, IA como co-piloto do fundador** ([[IGNICAO-Vol-1-Ideacao#CAPÍTULO 11 — IA COMO CO-PILOTO DO FUNDADOR (2026)|Capítulo 11 (IA como Co-Piloto do Fundador (2026)) (Vol. 1)]]). Versão atualizada de I para 2026, com casos de uso de alto ROI.
+> - **Camada 4, AI Ops e automação interna** ([[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 7 — AI OPS E AUTOMAÇÃO INTELIGENTE|Capítulo 7 (AI Ops e Automação Inteligente) (Vol. 7)]]). IA na operação da empresa, com triagem de tickets, resumo de calls, automação de workflows. Não é produto.
 
-O [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 10 — IA GENERATIVA COMO ACELERADOR DO EMPREENDEDOR (2026)|Capítulo 10 (IA GENERATIVA COMO ACELERADOR DO EMPREENDEDOR (2026)) (Vol. 1)]] cobre IA como ferramenta do fundador, acelerador de produtividade pessoal. Este capítulo é outro tema: IA como parte do produto que vai a mercado, com RAG, evaluations, mitigação de alucinação, seleção de modelo, economia de inferência, latência e tudo que muda quando o LLM é componente crítico do produto, não acessório.
+O [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 10 — IA GENERATIVA COMO ACELERADOR DO EMPREENDEDOR (2026)|Capítulo 10 (IA Generativa como Acelerador do Empreendedor (2026)) (Vol. 1)]] cobre IA como ferramenta do fundador, acelerador de produtividade pessoal. Este capítulo é outro tema: IA como parte do produto que vai a mercado, com RAG, evaluations, mitigação de alucinação, seleção de modelo, economia de inferência, latência e tudo que muda quando o LLM é componente crítico do produto, não acessório.
 
 Empresa que constrói produto AI-native em 2026 enfrenta disciplinas novas, ausentes do SaaS tradicional. Os erros aqui produzem alucinação em escala, margens negativas, latência que mata a UX ou dependência de um provedor que vira risco estrutural.
 
@@ -9792,7 +9792,7 @@ Responda por escrito com seus sócios à pergunta de Andy Grove: *"Qual é a ver
 
 **COGS (Cost of Goods Sold).** Custo dos produtos ou serviços vendidos. Em SaaS: custos de infraestrutura, suporte e serviços diretamente vinculados à entrega. Determina a margem bruta.
 
-**Compliance.** Conformidade regulatória. Em startups, refere-se à aderência a normas de LGPD, anticorrupção, trabalhistas, fiscais e setoriais. Capítulo 12 (Vol. 8) (COMPLIANCE E ANTICORRUPÇÃO PARA STARTUPS) trata de Compliance e Anticorrupção em profundidade.
+**Compliance.** Conformidade regulatória. Em startups, refere-se à aderência a normas de LGPD, anticorrupção, trabalhistas, fiscais e setoriais. Capítulo 12 (Vol. 8) (Compliance e Anticorrupção para Startups) trata de Compliance e Anticorrupção em profundidade.
 
 **Continuous discovery.** Prática de pesquisa contínua com usuários integrada ao ciclo de desenvolvimento de produto, em vez de pesquisas pontuais. Conceito de Teresa Torres. Ver Framework: Continuous Discovery Habits (Teresa Torres, 2021) (Fase 13).
 
@@ -9904,17 +9904,17 @@ Responda por escrito com seus sócios à pergunta de Andy Grove: *"Qual é a ver
 
 **Runway.** Número de meses antes de a empresa ficar sem caixa, considerando o burn rate atual. Referência: mínimo 12 meses após rodada, ideal 18 a 24 meses.
 
-**Scenario Planning.** Planejamento por cenários — método desenvolvido pela Royal Dutch Shell nos anos 1970 para preparar a empresa para múltiplos futuros plausíveis, em vez de apostar em uma única previsão. Ver Framework: Scenario Planning (Pierre Wack na Royal Dutch Shell, anos 1970) (Fase 19) e [[#CAPÍTULO 16 — PIVOT: TIPOLOGIA, DECISÃO E EXECUÇÃO|Capítulo 16 (PIVOT: TIPOLOGIA, DECISÃO E EXECUÇÃO)]] (cenários como antessala da decisão de pivot).
+**Scenario Planning.** Planejamento por cenários — método desenvolvido pela Royal Dutch Shell nos anos 1970 para preparar a empresa para múltiplos futuros plausíveis, em vez de apostar em uma única previsão. Ver Framework: Scenario Planning (Pierre Wack na Royal Dutch Shell, anos 1970) (Fase 19) e [[#CAPÍTULO 16 — PIVOT: TIPOLOGIA, DECISÃO E EXECUÇÃO|Capítulo 16 (Pivot: Tipologia, Decisão e Execução)]] (cenários como antessala da decisão de pivot).
 
 **Seed.** Rodada de captação inicial de startup. No Brasil, tipicamente R$ 1 milhão a R$ 10 milhões, de fundos seed ou anjos, para validar PMF e motor inicial de crescimento.
 
-**Shape Up.** Metodologia de produto da Basecamp (Ryan Singer, 2019). Ciclos fixos de 6 semanas, escopo flexível, autonomia da equipe. Alternativa ao Scrum. Ver Framework: Shape Up (Ryan Singer / Basecamp, 2019) (Fase 13) e [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 1 — PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA|Capítulo 1 (PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA) (Vol. 7)]] (Shape Up aplicado ao contexto de produto em escala).
+**Shape Up.** Metodologia de produto da Basecamp (Ryan Singer, 2019). Ciclos fixos de 6 semanas, escopo flexível, autonomia da equipe. Alternativa ao Scrum. Ver Framework: Shape Up (Ryan Singer / Basecamp, 2019) (Fase 13) e [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 1 — PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA|Capítulo 1 (Produto em Escala e Descoberta Contínua) (Vol. 7)]] (Shape Up aplicado ao contexto de produto em escala).
 
 **SLA (Service Level Agreement).** Acordo de nível de serviço. Define métricas de disponibilidade, performance e tempo de resposta que a empresa se compromete a manter. Violações geram créditos ou penalidades.
 
 **SLG (Sales-Led Growth).** Motion de crescimento liderado por vendas. Empresa investe em time comercial (SDRs, AEs) que prospecta e fecha contratos. Contraposto a PLG.
 
-**SPIN Selling.** Método de vendas consultivas de Neil Rackham baseado em quatro tipos de pergunta: Situation, Problem, Implication, Need-payoff. Ver Framework: SPIN Selling (Neil Rackham, 1988) (Fase 15) e [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 2 — VENDAS COMPLEXAS ENTERPRISE: CICLO LONGO, ALTO VALOR, MÚLTIPLOS DECISORES|Capítulo 2 (VENDAS COMPLEXAS ENTERPRISE: CICLO LONGO, ALTO VALOR, MÚLTIPLOS DECISORES) (Vol. 6)]] (SPIN Selling em vendas consultivas enterprise).
+**SPIN Selling.** Método de vendas consultivas de Neil Rackham baseado em quatro tipos de pergunta: Situation, Problem, Implication, Need-payoff. Ver Framework: SPIN Selling (Neil Rackham, 1988) (Fase 15) e [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 2 — VENDAS COMPLEXAS ENTERPRISE: CICLO LONGO, ALTO VALOR, MÚLTIPLOS DECISORES|Capítulo 2 (Vendas Complexas Enterprise: Ciclo Longo, Alto Valor, Múltiplos Decisores) (Vol. 6)]] (SPIN Selling em vendas consultivas enterprise).
 
 **SQL (Sales Qualified Lead).** Lead qualificado pelo time de vendas como oportunidade real. Critérios BANT: Budget, Authority, Need, Timeline.
 

@@ -282,6 +282,7 @@ for (const m of aRaw.matchAll(aRegex)) {
     .replace(/\s*\(Fase[^)]*\)/gi, '')
     .replace(/\s*\(Fases[^)]*\)/gi, '')
     .replace(/\s*\(Apêndice[^)]*\)/gi, '')
+    .replace(/\s*·\s*Fases?\s+\d+[^)]*/gi, '')
     .trim();
   const inner = demoteHeadings(m[3].trim().replace(/(?:\n+---)+\s*$/, ''), 1);
   const heading = `Template: ${rawTitle}`;
@@ -1020,7 +1021,10 @@ O próximo passo sequencial da jornada está no **Volume 2 — Descoberta de Cli
     );
   } else if (phaseKey === 'FASE_5') {
     body =
-      body +
+      body.replace(
+        'depois da SAÍDA, do EXEMPLO PRÁTICO e das Armadilhas',
+        'logo após a catraca de saída, o estudo de caso real e as armadilhas da etapa'
+      ) +
       `\n\n---\n\n### Transição: do Volume 2 (Descoberta e Mercado) para o Volume 3 (Hipóteses, Experimentos e Prototipagem)\n\nAo concluir as Fases 4, 5 e 6 deste **Volume 2**, você ouviu o cliente sem viés (*Mom Test*), mapeou os *Jobs to Be Done* e a jornada real de compra e dissecou a estrutura competitiva do mercado e sua cunha de entrada (*wedge*). Os **4 capítulos** a seguir aprofundam a psicologia do consumidor brasileiro, inteligência competitiva, *Category Design* e posicionamento.\n\nO próximo passo da jornada está no **Volume 3 — Hipóteses, Experimentos, Prototipagem e Modelos de Negócio**, começando na [[#FASE 7 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 7 — Formulação Rigorosa de Hipóteses]]: converter suas descobertas em apostas matematicamente falsificáveis, rodar experimentos de compromisso real, prototipar e testar a usabilidade do MVP.`;
   } else if (phaseKey === 'FASE_6') {
     body = body.replace(
@@ -1158,19 +1162,132 @@ Para completar a arquitetura de escala e maturidade da sua companhia, siga para 
   return applyNarrativeRefactor(phaseKey, body + injected, ALL_NARRATIVE_SPECS);
 }
 
+// Converte um título em CAIXA ALTA para Title Case Editorial em português (preservando siglas técnicas)
+const UPPER_ACRONYMS = new Set([
+  'IA', 'AI', 'B2B', 'B2C', 'B2B2C', 'B2G', 'D2C', 'CPG', 'ERP', 'ERPS', 'CRM', 'PIX', 'LGPD',
+  'INPI', 'CLT', 'PJ', 'CDC', 'CADE', 'BACEN', 'CVM', 'SUSEP', 'ANVISA', 'ANS', 'ANATEL',
+  'ANEEL', 'ANP', 'MAPA', 'IBAMA', 'BNDES', 'FINEP', 'FAPESP', 'PIPE', 'EMBRAPII', 'SEBRAE',
+  'DRE', 'DFC', 'BP', 'FP&A', 'ICMS', 'IBS', 'CBS', 'SAFE', 'FIDC', 'FIDCS', 'RBF', 'IPO',
+  'M&A', 'ESOP', 'CEO', 'CTO', 'CPO', 'COO', 'CFO', 'CMO', 'CRO', 'CISO', 'DPO', 'PR', 'PMM',
+  'PLG', 'GTM', 'PMF', 'MVP', 'TRL', 'CRL', 'JTBD', 'TAM', 'SAM', 'SOM', 'CAC', 'LTV', 'ARR',
+  'MRR', 'NRR', 'GRR', 'ROAS', 'ROI', 'ROIC', 'EBITDA', 'GMV', 'ARPU', 'SLA', 'OKR', 'OKRS',
+  'KPI', 'KPIS', 'SOP', 'SOPS', 'RFC', 'ADR', 'API', 'APIS', 'SDK', 'CI/CD', 'SOC', 'ISO',
+  'COSS', 'RWA', 'VC', 'CVC', 'PE', 'LP', 'GP', 'LTDA', 'S.A.', 'SPE', 'SCP', 'COF', 'DII',
+  'DAG', 'CSD', 'SUS', 'NPS', 'CS', 'CX', 'UX', 'UI', 'HR', 'QA', 'TI', 'P&D', 'P&L', 'PME',
+  'PMES', 'IOT', 'IIOT', 'EV', 'SAF', 'CBIOS', 'EUDR', 'SISBOV', 'FIV', 'OPME', 'ISPS', 'BAAS',
+  'MLOPS', 'CBOT', 'B3', 'BPO',
+]);
+
+const LOWER_PARTICLES = new Set([
+  'de', 'da', 'do', 'das', 'dos', 'e', 'em', 'no', 'na', 'nos', 'nas', 'para', 'por', 'com',
+  'sem', 'sob', 'sobre', 'entre', 'até', 'como', 'ou', 'a', 'o', 'as', 'os', 'à', 'às', 'ao', 'aos', 'vs', 'vs.',
+]);
+
+const MIXED_SPECIAL = {
+  'SAAS': 'SaaS',
+  'PAAS': 'PaaS',
+  'IAAS': 'IaaS',
+  'DEVTOOLS': 'DevTools',
+  'FINTECH': 'Fintech',
+  'INSURTECH': 'Insurtech',
+  'WEALTHTECH': 'Wealthtech',
+  'INFRATECH': 'Infratech',
+  'ENERGYTECH': 'Energytech',
+  'MININGTECH': 'Miningtech',
+  'MOBITECH': 'Mobitech',
+  'RETAILTECH': 'Retailtech',
+  'FOODTECH': 'Foodtech',
+  'TRAVELTECH': 'Traveltech',
+  'SPORTSTECH': 'SportsTech',
+  'PETTECH': 'PetTech',
+  'HRTECH': 'HRTech',
+  'MARTECH': 'Martech',
+  'ADTECH': 'Adtech',
+  'SALESTECH': 'Salestech',
+  'PROPTECH': 'Proptech',
+  'CONSTRUTECH': 'Construtech',
+  'HEALTHTECH': 'Healthtech',
+  'BIOTECH': 'Biotech',
+  'EDTECH': 'Edtech',
+  'GOVTECH': 'Govtech',
+  'LEGALTECH': 'Legaltech',
+  'REGTECH': 'Regtech',
+  'TAXTECH': 'Taxtech',
+  'LOGTECH': 'Logtech',
+  'CLEANTECH': 'Cleantech',
+  'AGRITECH': 'Agritech',
+  'PECTECH': 'PecTech',
+  'AQUATECH': 'AquaTech',
+  'DEATHTECH': 'DeathTech',
+  'IGAMING': 'iGaming',
+  'SPACETECH': 'Spacetech',
+  'AI-NATIVE': 'AI-Native',
+  'WHATSAPP-FIRST': 'WhatsApp-First',
+  'SERVICE-TO-PRODUCT': 'Service-to-Product',
+};
+
+function toEditorialTitleCase(str) {
+  let isStart = true;
+  return str.replace(/([A-Za-zÀ-ÖØ-öø-ÿ0-9&/.-]+)|([^\sA-Za-zÀ-ÖØ-öø-ÿ0-9&/.-]+)/g, (match, word, punct) => {
+    if (punct) {
+      if (/[:—–-]/.test(punct)) isStart = true;
+      return punct;
+    }
+    const upper = word.toUpperCase();
+    const lower = word.toLowerCase();
+    const firstWord = isStart;
+    isStart = false;
+
+    if (MIXED_SPECIAL[upper]) return MIXED_SPECIAL[upper];
+    if (UPPER_ACRONYMS.has(upper)) {
+      if (upper === 'PMES') return 'PMEs';
+      if (upper === 'ERPS') return 'ERPs';
+      if (upper === 'OKRS') return 'OKRs';
+      if (upper === 'KPIS') return 'KPIs';
+      if (upper === 'SOPS') return 'SOPs';
+      if (upper === 'APIS') return 'APIs';
+      if (upper === 'FIDCS') return 'FIDCs';
+      if (upper === 'CBIOS') return 'CBIOs';
+      if (upper === 'ISPS') return 'ISPs';
+      if (upper === 'BAAS') return 'BaaS';
+      if (upper === 'MLOPS') return 'MLOps';
+      return upper;
+    }
+    if (!firstWord && LOWER_PARTICLES.has(lower)) {
+      return lower;
+    }
+    if (word.includes('-')) {
+      return word
+        .split('-')
+        .map((p, idx) => {
+          const pUp = p.toUpperCase();
+          const pLow = p.toLowerCase();
+          if (UPPER_ACRONYMS.has(pUp)) return pUp;
+          if (idx > 0 && LOWER_PARTICLES.has(pLow)) return pLow;
+          return pLow.charAt(0).toUpperCase() + pLow.slice(1);
+        })
+        .join('-');
+    }
+    return lower.charAt(0).toUpperCase() + lower.slice(1);
+  });
+}
+
 // Função que transforma um antigo APÊNDICE XX em CAPÍTULO N — TÍTULO e injeta extras
 function buildChapterSection(oldKey, chapNum, rawSection) {
-  const cleanTitle = rawSection.heading
+  const rawUpperTitle = rawSection.heading
     .replace(/^APÊNDICE [A-Z0-9_-]+\s*—\s*/, '')
     .trim();
-  const newHeading = `CAPÍTULO ${chapNum} — ${cleanTitle}`;
+  const cleanTitle = toEditorialTitleCase(rawUpperTitle);
+  const newHeading = `CAPÍTULO ${chapNum} — ${rawUpperTitle}`;
   let body = rawSection.body.replace(/^## APÊNDICE [^\n]+/m, `## ${newHeading}`);
 
   if (oldKey === 'B') {
-    body = body.replace(
-      /\(veja a (?:\[\[[^\]]*\|)?tabela A\.9(?:\]\])? para escolher entre entrevista, questionário, pré-venda, MVP, etc\.\)/g,
-      '(veja a [[#Template: Tabela de técnicas de validação por tipo de hipótese|Tabela de técnicas de validação por tipo de hipótese]] na Fase 8 deste volume para escolher entre entrevista, questionário, pré-venda, MVP, etc.)'
-    );
+    body = body
+      .replace(
+        /\(veja a (?:\[\[[^\]]*\|)?tabela A\.9(?:\]\])? para escolher entre entrevista, questionário, pré-venda, MVP, etc\.\)/g,
+        '(veja a [[#Template: Tabela de técnicas de validação por tipo de hipótese|Tabela de técnicas de validação por tipo de hipótese]] na Fase 8 deste volume para escolher entre entrevista, questionário, pré-venda, MVP, etc.)'
+      )
+      .replace('o checklist de SAÍDA DESTA FASE de cada fase', 'a catraca de saída de cada fase');
   } else if (oldKey === 'I') {
     body = body
       .replace('### Fase 0 a 1B, Preparação, Articulação, e Teoria', '### Fases 0 a 3 — Preparação, Ideia, Articulação e Teoria')
@@ -2658,7 +2775,11 @@ function updateAliasLabel(alias, targetInfo, currentVolNum) {
     .replace(/^(Template:\s*)+/i, 'Template: ')
     .replace(/^Template\s+Template:\s*/i, 'Template: ')
     .replace(/^(Canvas:\s*)+/i, 'Canvas: ')
-    .replace(/^(Framework:\s*)+/i, 'Framework: ');
+    .replace(/^(Framework:\s*)+/i, 'Framework: ')
+    .replace(
+      /^(Cap[íi]tulo\s+\d+\s*\()([A-ZÀ-Ú0-9\s,.:;/—–&-]{4,})(\))$/,
+      (_, pre, inner, post) => `${pre}${toEditorialTitleCase(inner)}${post}`
+    );
 
   // Se o alias mencionava "Fase X", atualizar número quando era link para fase antiga
   out = out.replace(/\bFase\s+(2B|2b|\d+)\b/g, (full) => {

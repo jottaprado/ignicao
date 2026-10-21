@@ -1203,13 +1203,13 @@ Em estágio pré-seed ou seed early sem investidores institucionais — sem pref
 
 ##### Como este quadro conversa com o resto da Oficina
 
-O Waterfall Canvas **usa o cap table atual** (não é um canvas de modelo de negócio) e **alimenta diretamente a negociação de term sheet** (Capítulo 13 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) e Template: Term Sheet Anotado — Guia de Leitura (Fase 14)). É o único canvas deste apêndice de natureza financeira — os demais são estratégicos ou operacionais.
+O Waterfall Canvas **usa o cap table atual** (não é um canvas de modelo de negócio) e **alimenta diretamente a negociação de term sheet** (Capítulo 13 (Captação de Equity, Pitch e Relacionamento com Investidores) e Template: Term Sheet Anotado — Guia de Leitura (Fase 14)). É o único canvas deste apêndice de natureza financeira — os demais são estratégicos ou operacionais.
 
 ##### Referências de cabeceira
 
 - Template Term Sheet Anotado (Fase 14) — cláusulas de liquidation preference e anti-dilution.
-- [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 1 — MARCO LEGAL DAS STARTUPS: LC 182/2021|Capítulo 1 (MARCO LEGAL DAS STARTUPS: LC 182/2021) (Vol. 8)]] — COCP como alternativa ao preferred.
-- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 16 — STOCK OPTIONS E ESOP NO BRASIL|Capítulo 16 (STOCK OPTIONS E ESOP NO BRASIL) (Vol. 6)]] — stock options e impacto no cap table.
+- [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 1 — MARCO LEGAL DAS STARTUPS: LC 182/2021|Capítulo 1 (Marco Legal das Startups: Lc 182/2021) (Vol. 8)]] — COCP como alternativa ao preferred.
+- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 16 — STOCK OPTIONS E ESOP NO BRASIL|Capítulo 16 (Stock Options e ESOP no Brasil) (Vol. 6)]] — stock options e impacto no cap table.
 - *Venture Deals* (Brad Feld & Jason Mendelson, 2019) — explicação definitiva de waterfall mechanics.
 
 ---
@@ -1218,7 +1218,7 @@ O Waterfall Canvas **usa o cap table atual** (não é um canvas de modelo de neg
 
 #### Template: Plano de Financiamento Não-Diluitivo
 
-Documento de 2-3 páginas, revisão semestral. Tipologia das fontes (Lei do Bem, Finep, BNDES, FAPESP, Venture Debt, RBF), critérios de elegibilidade e ordem de ataque em [[#CAPÍTULO 17 — FINANCIAMENTO NÃO-DILUITIVO|Capítulo 17 (FINANCIAMENTO NÃO-DILUITIVO)]].
+Documento de 2-3 páginas, revisão semestral. Tipologia das fontes (Lei do Bem, Finep, BNDES, FAPESP, Venture Debt, RBF), critérios de elegibilidade e ordem de ataque em [[#CAPÍTULO 17 — FINANCIAMENTO NÃO-DILUITIVO|Capítulo 17 (Financiamento Não-Diluitivo)]].
 
 **Necessidade de caixa nos próximos 18 meses:**
 
@@ -1257,7 +1257,7 @@ Documento de 2-3 páginas, revisão semestral. Tipologia das fontes (Lei do Bem,
 
 #### Template: Pitch Deck SCQA — Esqueleto
 
-Documento Google Slides ou Keynote de 12-15 slides, estrutura sugerida. Princípios da estrutura SCQA (Situation, Complication, Question, Answer), critérios para cada slide e relacionamento com investidores em [[#CAPÍTULO 13 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 13 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES)]].
+Documento Google Slides ou Keynote de 12-15 slides, estrutura sugerida. Princípios da estrutura SCQA (Situation, Complication, Question, Answer), critérios para cada slide e relacionamento com investidores em [[#CAPÍTULO 13 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 13 (Captação de Equity, Pitch e Relacionamento com Investidores)]].
 
 **Slide 1, Capa**
 
@@ -1354,7 +1354,7 @@ Documento Google Slides ou Keynote de 12-15 slides, estrutura sugerida. Princíp
 
 #### Template: Investor Update Mensal — Template
 
-E-mail mensal para todos os investidores. Enviar no mesmo dia de cada mês (ex.: sempre dia 5). Cadência completa de relacionamento com investidores, governança da rodada e regras de transparência em [[#CAPÍTULO 13 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 13 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES)]].
+E-mail mensal para todos os investidores. Enviar no mesmo dia de cada mês (ex.: sempre dia 5). Cadência completa de relacionamento com investidores, governança da rodada e regras de transparência em [[#CAPÍTULO 13 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 13 (Captação de Equity, Pitch e Relacionamento com Investidores)]].
 
 ```text
 Assunto: [Empresa], Update [Mês/Ano]
@@ -1566,7 +1566,7 @@ Regras:
 #### Template: Plano de Rodada (Fundraising Project Plan)
 
 > [!note] Quando usar
-> Ao iniciar preparação para captação de rodada (Seed ou Série A). Captação é projeto com prazo, stakeholders e dependências — trate como projeto. Ver também [[#CAPÍTULO 14 — PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO|Capítulo 14 (PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO)]] para o método completo.
+> Ao iniciar preparação para captação de rodada (Seed ou Série A). Captação é projeto com prazo, stakeholders e dependências — trate como projeto. Ver também [[#CAPÍTULO 14 — PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO|Capítulo 14 (Planejamento de Rodada como Processo: Fundraising como Projeto Estruturado)]] para o método completo.
 
 > [!warning] Tempo real
 > O processo Seed leva 3–6 meses em média. Série A, 4–8 meses. Não comece com 2 meses de runway.
@@ -1782,12 +1782,12 @@ Ben Horowitz costuma repetir que a regra número um do CEO é não deixar o dinh
 ---
 
 > [!important] Casa canônica dos fundamentos das três demonstrações
-> Os fundamentos de DRE, Balanço Patrimonial e DFC (estrutura, leitura, conexão entre as três, EBITDA, margens críticas) vivem aqui. Os capítulos [[#CAPÍTULO 4 — MODELAGEM FINANCEIRA OPERACIONAL|Capítulo 4 (MODELAGEM FINANCEIRA OPERACIONAL)]] (modelagem operacional a partir de drivers), [[#CAPÍTULO 5 — MODELAGEM FINANCEIRA COM COHORTS: PROJEÇÕES QUE FUNCIONAM EM EMPRESA RECORRENTE|Capítulo 5 (MODELAGEM FINANCEIRA COM COHORTS: PROJEÇÕES QUE FUNCIONAM EM EMPRESA RECORRENTE)]] (modelagem com cohorts em recorrência) e [[#CAPÍTULO 6 — PLANEJAMENTO FINANCEIRO E ORÇAMENTO|Capítulo 6 (PLANEJAMENTO FINANCEIRO E ORÇAMENTO)]] (planejamento e orçamento) aprofundam aplicações específicas e referenciam este capítulo como base conceitual.
+> Os fundamentos de DRE, Balanço Patrimonial e DFC (estrutura, leitura, conexão entre as três, EBITDA, margens críticas) vivem aqui. Os capítulos [[#CAPÍTULO 4 — MODELAGEM FINANCEIRA OPERACIONAL|Capítulo 4 (Modelagem Financeira Operacional)]] (modelagem operacional a partir de drivers), [[#CAPÍTULO 5 — MODELAGEM FINANCEIRA COM COHORTS: PROJEÇÕES QUE FUNCIONAM EM EMPRESA RECORRENTE|Capítulo 5 (Modelagem Financeira com Cohorts: Projeções Que Funcionam em Empresa Recorrente)]] (modelagem com cohorts em recorrência) e [[#CAPÍTULO 6 — PLANEJAMENTO FINANCEIRO E ORÇAMENTO|Capítulo 6 (Planejamento Financeiro e Orçamento)]] (planejamento e orçamento) aprofundam aplicações específicas e referenciam este capítulo como base conceitual.
 
 > [!note] Nota de validade
 > As estruturas de DRE, Balanço, e DFC descritas aqui seguem as normas contábeis brasileiras (CPC/IFRS). Limites e alíquotas do Simples Nacional são revisados anualmente pela Receita Federal. Benchmarks de margem por segmento variam com o ciclo econômico. Este capítulo reflete o cenário de abril de 2026. Revisar anualmente com o contador responsável.
 
-O [[#CAPÍTULO 4 — MODELAGEM FINANCEIRA OPERACIONAL|Capítulo 4 (MODELAGEM FINANCEIRA OPERACIONAL)]] cobre como construir um modelo financeiro a partir de drivers (variáveis-chave) operacionais. O [[#CAPÍTULO 6 — PLANEJAMENTO FINANCEIRO E ORÇAMENTO|Capítulo 6 (PLANEJAMENTO FINANCEIRO E ORÇAMENTO)]] cobre como transformar esse modelo em orçamento aprovado pelo board (conselho). Este capítulo cobre o que acontece antes disso: a capacidade de ler o que já aconteceu. Demonstrações financeiras são o registro histórico da empresa. O fundador que não sabe ler esse registro governa no escuro.
+O [[#CAPÍTULO 4 — MODELAGEM FINANCEIRA OPERACIONAL|Capítulo 4 (Modelagem Financeira Operacional)]] cobre como construir um modelo financeiro a partir de drivers (variáveis-chave) operacionais. O [[#CAPÍTULO 6 — PLANEJAMENTO FINANCEIRO E ORÇAMENTO|Capítulo 6 (Planejamento Financeiro e Orçamento)]] cobre como transformar esse modelo em orçamento aprovado pelo board (conselho). Este capítulo cobre o que acontece antes disso: a capacidade de ler o que já aconteceu. Demonstrações financeiras são o registro histórico da empresa. O fundador que não sabe ler esse registro governa no escuro.
 
 ### A tríade da verdade financeira: como DRE, Balanço e Fluxo de Caixa conversam entre si
 
@@ -2345,7 +2345,7 @@ Resultado liquido para o socio PF, em vez de pagar a aliquota de PF, recebe valo
 > [!warning] JCP exige deliberacao formal
 > JCP nao e despesa que se lanca contabilmente sem documentacao. Exige assembleia ou ata de deliberacao especifica, antes do encerramento do exercicio. Pagamento sem deliberacao formal e desconsiderado pela Receita Federal e tributado como lucro distribuido normal.
 
-Cross-ref. Em planejamento sucessorio e holding patrimonial pre-exit, ver [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 18 — TRIBUTAÇÃO DO EXIT PARA FUNDADORES BRASILEIROS|Capítulo 18 (TRIBUTAÇÃO DO EXIT PARA FUNDADORES BRASILEIROS) (Vol. 9)]].
+Cross-ref. Em planejamento sucessorio e holding patrimonial pre-exit, ver [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 18 — TRIBUTAÇÃO DO EXIT PARA FUNDADORES BRASILEIROS|Capítulo 18 (Tributação do Exit para Fundadores Brasileiros) (Vol. 9)]].
 
 #### 2.2 Conversao de Ltda em S.A. fechada, momento e mecanica
 
@@ -2359,9 +2359,9 @@ A maioria das startups brasileiras nasce como sociedade limitada (Ltda) por simp
 
 **Implicacoes fiscais.** A transformacao de Ltda em S.A. e neutra para fins de IRPJ e CSLL. Nao gera ganho de capital (Receita reconhece como mera mudanca de tipo societario). Mas ativa novas obrigacoes. Demonstracoes financeiras formais com nivel de detalhe maior. Possivel obrigatoriedade de auditoria externa, dependendo do porte e do estatuto. Livros societarios fisicos ou digitais (livro de acoes nominativas, livro de transferencias, livro de atas).
 
-**Stock options em transito.** Plano de opcoes que existia na Ltda como contrato anexo precisa ser reescrito como plano formal de S.A., aprovado em assembleia. Vesting que existia em quotas precisa ser convertido em vesting de acoes, com compatibilizacao do cronograma. Esse trabalho de migracao e oportunidade para limpar inconsistencias historicas e padronizar good leaver, bad leaver, e janela de exercicio. Para detalhes de vesting sob lei BR, ver [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 16 — STOCK OPTIONS E ESOP NO BRASIL|Capítulo 16 (STOCK OPTIONS E ESOP NO BRASIL) (Vol. 6)]].
+**Stock options em transito.** Plano de opcoes que existia na Ltda como contrato anexo precisa ser reescrito como plano formal de S.A., aprovado em assembleia. Vesting que existia em quotas precisa ser convertido em vesting de acoes, com compatibilizacao do cronograma. Esse trabalho de migracao e oportunidade para limpar inconsistencias historicas e padronizar good leaver, bad leaver, e janela de exercicio. Para detalhes de vesting sob lei BR, ver [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 16 — STOCK OPTIONS E ESOP NO BRASIL|Capítulo 16 (Stock Options e ESOP no Brasil) (Vol. 6)]].
 
-Cross-ref. Para term sheet de Serie A que tipicamente exige a conversao, ver [[#CAPÍTULO 13 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 13 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES)]].
+Cross-ref. Para term sheet de Serie A que tipicamente exige a conversao, ver [[#CAPÍTULO 13 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 13 (Captação de Equity, Pitch e Relacionamento com Investidores)]].
 
 #### 3. Tributação de stock options, e planos de incentivo de longo prazo (ILP)
 
@@ -2675,7 +2675,7 @@ Disciplina fiscal no padrão quando o contador externo especializado entrou desd
 
 ### Ver também
 
-[[#CAPÍTULO 4 — MODELAGEM FINANCEIRA OPERACIONAL|Capítulo 4 (MODELAGEM FINANCEIRA OPERACIONAL)]], Modelagem financeira. [[#CAPÍTULO 11 — GESTÃO DE CAIXA EM PROFUNDIDADE|Capítulo 11 (GESTÃO DE CAIXA EM PROFUNDIDADE)]], Gestão de caixa. [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 8 — TESOURARIA EM ESCALA: GESTÃO DE CAIXA MULTI-MOEDA, MULTI-PAÍS E MULTI-CONTA|Capítulo 8 (TESOURARIA EM ESCALA: GESTÃO DE CAIXA MULTI-MOEDA, MULTI-PAÍS E MULTI-CONTA) (Vol. 9)]], Tesouraria em escala. [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 7 — HEDGING CAMBIAL E GESTÃO DE MOEDA MULTICOUNTRY|Capítulo 7 (HEDGING CAMBIAL E GESTÃO DE MOEDA MULTICOUNTRY) (Vol. 9)]], Hedging cambial.
+[[#CAPÍTULO 4 — MODELAGEM FINANCEIRA OPERACIONAL|Capítulo 4 (Modelagem Financeira Operacional)]], Modelagem financeira. [[#CAPÍTULO 11 — GESTÃO DE CAIXA EM PROFUNDIDADE|Capítulo 11 (Gestão de Caixa em Profundidade)]], Gestão de caixa. [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 8 — TESOURARIA EM ESCALA: GESTÃO DE CAIXA MULTI-MOEDA, MULTI-PAÍS E MULTI-CONTA|Capítulo 8 (Tesouraria em Escala: Gestão de Caixa Multi-Moeda, Multi-País e Multi-Conta) (Vol. 9)]], Tesouraria em escala. [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 7 — HEDGING CAMBIAL E GESTÃO DE MOEDA MULTICOUNTRY|Capítulo 7 (Hedging Cambial e Gestão de Moeda Multicountry) (Vol. 9)]], Hedging cambial.
 
 ---
 
@@ -3205,7 +3205,7 @@ Andy Grove tratava qualquer projeção empresarial como o cálculo de capacidade
 
 Para os fundamentos das três demonstrações (DRE, Balanço Patrimonial e DFC), ver [[#CAPÍTULO 1 — DEMONSTRATIVOS FINANCEIROS PARA O FUNDADOR|Capítulo 1 — Demonstrativos Financeiros para o Fundador]] (casa canônica). Este capítulo trata especificamente da modelagem operacional a partir de drivers, integração das três demonstrações projetadas, cenários (base, upside, downside) e análise de sensibilidade.
 
-Vários pontos do manual mencionam "modelo financeiro": [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 12 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 12 (Vol. 4)]] (validação do modelo de negócio), [[#CAPÍTULO 13 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 13 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES)]] (captação) e [[#CAPÍTULO 17 — FINANCIAMENTO NÃO-DILUITIVO|Capítulo 17 (FINANCIAMENTO NÃO-DILUITIVO)]] (financiamento). Mas como efetivamente construir um modelo financeiro operacional segue ausente. O fundador iniciante que nunca modelou chega à primeira captação com planilha improvisada, que o investidor rejeita em dois minutos.
+Vários pontos do manual mencionam "modelo financeiro": [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 12 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 12 (Vol. 4)]] (validação do modelo de negócio), [[#CAPÍTULO 13 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 13 (Captação de Equity, Pitch e Relacionamento com Investidores)]] (captação) e [[#CAPÍTULO 17 — FINANCIAMENTO NÃO-DILUITIVO|Capítulo 17 (Financiamento Não-Diluitivo)]] (financiamento). Mas como efetivamente construir um modelo financeiro operacional segue ausente. O fundador iniciante que nunca modelou chega à primeira captação com planilha improvisada, que o investidor rejeita em dois minutos.
 
 Este capítulo cobre modelagem financeira como disciplina. Estrutura, drivers (variáveis que dirigem o modelo), cenários, análise de sensibilidade e como usar o modelo como instrumento de decisão operacional, não só como deliverable (entregável) para investidor.
 
@@ -3213,7 +3213,7 @@ Este capítulo cobre modelagem financeira como disciplina. Estrutura, drivers (v
 
 Modelo financeiro operacional é planilha ou ferramenta estruturada que projeta o futuro financeiro da empresa, a partir de drivers operacionais (não de números inventados). Tem três demonstrações integradas.
 
-As três demonstrações integradas (DRE, Balanço, Fluxo de Caixa) projetadas a partir de drivers operacionais (clientes, ticket, churn, CAC, headcount). Para os fundamentos das três demonstrações (DRE, Balanço, DFC), ver [[#CAPÍTULO 1 — DEMONSTRATIVOS FINANCEIROS PARA O FUNDADOR|Capítulo 1 (DEMONSTRATIVOS FINANCEIROS PARA O FUNDADOR)]].
+As três demonstrações integradas (DRE, Balanço, Fluxo de Caixa) projetadas a partir de drivers operacionais (clientes, ticket, churn, CAC, headcount). Para os fundamentos das três demonstrações (DRE, Balanço, DFC), ver [[#CAPÍTULO 1 — DEMONSTRATIVOS FINANCEIROS PARA O FUNDADOR|Capítulo 1 (Demonstrativos Financeiros para o Fundador)]].
 
 Entregáveis: modelo em planilha (Google Sheets, Excel) ou ferramenta dedicada (Causal, Runway.com, Anaplan em escala). Cenários base, upside (otimista) e downside (pessimista). Análise de sensibilidade.
 
@@ -3497,7 +3497,7 @@ Modelagem financeira saudável quando o modelo operacional existe com três demo
 
 ### Ver também
 
-[[#CAPÍTULO 5 — MODELAGEM FINANCEIRA COM COHORTS: PROJEÇÕES QUE FUNCIONAM EM EMPRESA RECORRENTE|Capítulo 5 (MODELAGEM FINANCEIRA COM COHORTS: PROJEÇÕES QUE FUNCIONAM EM EMPRESA RECORRENTE)]], Modelagem com cohorts. [[#CAPÍTULO 15 — VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR|Capítulo 15 (VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR)]], Valuation methods. [[#CAPÍTULO 11 — GESTÃO DE CAIXA EM PROFUNDIDADE|Capítulo 11 (GESTÃO DE CAIXA EM PROFUNDIDADE)]], Gestão de caixa em profundidade. [[#CAPÍTULO 2 — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Capítulo 2 (CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA)]], Contabilidade, e tributário, BR. [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 14 — SEARCH FUNDS E ETA (ENTREPRENEURSHIP THROUGH ACQUISITION)|Capítulo 14 (SEARCH FUNDS E ETA (ENTREPRENEURSHIP THROUGH ACQUISITION)) (Vol. 9)]], ETA é caso especial de leveraged buyout que exige modelagem distinta de startup tradicional, com estrutura de dívida pesada, pagamento de aquisição e earnout.
+[[#CAPÍTULO 5 — MODELAGEM FINANCEIRA COM COHORTS: PROJEÇÕES QUE FUNCIONAM EM EMPRESA RECORRENTE|Capítulo 5 (Modelagem Financeira com Cohorts: Projeções Que Funcionam em Empresa Recorrente)]], Modelagem com cohorts. [[#CAPÍTULO 15 — VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR|Capítulo 15 (Valuation Methods: Como Investidores Calculam e como Você Calcula para Negociar)]], Valuation methods. [[#CAPÍTULO 11 — GESTÃO DE CAIXA EM PROFUNDIDADE|Capítulo 11 (Gestão de Caixa em Profundidade)]], Gestão de caixa em profundidade. [[#CAPÍTULO 2 — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Capítulo 2 (Contabilidade, Tributário e Regimes Fiscais para Startup Brasileira)]], Contabilidade, e tributário, BR. [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 14 — SEARCH FUNDS E ETA (ENTREPRENEURSHIP THROUGH ACQUISITION)|Capítulo 14 (Search Funds e Eta (Entrepreneurship Through Acquisition)) (Vol. 9)]], ETA é caso especial de leveraged buyout que exige modelagem distinta de startup tradicional, com estrutura de dívida pesada, pagamento de aquisição e earnout.
 
 ---
 
@@ -3652,7 +3652,7 @@ Runway em cada cenário. Decisões disparadas por cada cenário. Ponto de no-ret
 
 **Decisão 5, fundraising timing.** Cohort curve mostra que NRR vai superar cento e vinte por cento em seis meses, com melhorias de produto previstas. Esperar para fundraise, até as métricas consolidarem. O valuation sobe. Ou captar agora, e usar capital para acelerar.
 
-### FERRAMENTAS
+### A caixa de ferramentas práticas deste capítulo
 
 **Startup seed, ou Série A.** Excel, ou Google Sheets. Com template bom (templates gratuitos da Christoph Janz, Jason Lemkin, e OpenView), é suficiente.
 
@@ -3660,7 +3660,7 @@ Runway em cada cenário. Decisões disparadas por cada cenário. Ponto de no-ret
 
 **Série C em diante.** BI tools (Looker, Tableau, PowerBI, Metabase, e Hex), com modelagem própria. Time de Data Analytics dedicado. Modelos financeiros em Anaplan, Pigment, Causal, Finmark, ou similares.
 
-### VALIDADE E REAVALIAÇÃO
+### Prazo de validade: quando jogar o plano antigo fora e recalibrar a rota
 
 A cohort curve pode mudar com o tempo. Razões. Produto melhorou, ou piorou. ICP mudou (segmentos diferentes entraram). Mercado mudou (concorrência, ou macroeconomia). Preço mudou. Processo de CS mudou.
 
@@ -3749,7 +3749,7 @@ Não validar CAC atribuído a cohort. O modelo assume "CAC é X, aplicado ao coh
 
 ### Ver também
 
-[[#CAPÍTULO 4 — MODELAGEM FINANCEIRA OPERACIONAL|Capítulo 4 (MODELAGEM FINANCEIRA OPERACIONAL)]], Modelagem financeira. [[#CAPÍTULO 15 — VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR|Capítulo 15 (VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR)]], Valuation methods. [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 10 — SUBSCRIPTION ECONOMY EM PROFUNDIDADE: ALÉM DO "COBRA MENSALMENTE"|Capítulo 10 (SUBSCRIPTION ECONOMY EM PROFUNDIDADE: ALÉM DO "COBRA MENSALMENTE") (Vol. 4)]], Subscription economy.
+[[#CAPÍTULO 4 — MODELAGEM FINANCEIRA OPERACIONAL|Capítulo 4 (Modelagem Financeira Operacional)]], Modelagem financeira. [[#CAPÍTULO 15 — VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR|Capítulo 15 (Valuation Methods: Como Investidores Calculam e como Você Calcula para Negociar)]], Valuation methods. [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 10 — SUBSCRIPTION ECONOMY EM PROFUNDIDADE: ALÉM DO "COBRA MENSALMENTE"|Capítulo 10 (Subscription Economy em Profundidade: Além do "Cobra Mensalmente") (Vol. 4)]], Subscription economy.
 
 ---
 
@@ -3775,7 +3775,7 @@ Gino Wickman, em *Traction*, e Andy Grove, na Intel, nunca tratavam o planejamen
 
 Para os fundamentos das três demonstrações (DRE, Balanço Patrimonial e DFC), ver [[#CAPÍTULO 1 — DEMONSTRATIVOS FINANCEIROS PARA O FUNDADOR|Capítulo 1 — Demonstrativos Financeiros para o Fundador]] (casa canônica). Este capítulo trata especificamente do planejamento financeiro e orçamento (budget) como instrumento de gestão, headcount plan, top-down vs bottom-up e reforecast trimestral.
 
-O [[#CAPÍTULO 4 — MODELAGEM FINANCEIRA OPERACIONAL|Capítulo 4 (MODELAGEM FINANCEIRA OPERACIONAL)]] cobre modelagem financeira: como construir projeções a partir de drivers operacionais. O [[#CAPÍTULO 1 — DEMONSTRATIVOS FINANCEIROS PARA O FUNDADOR|Capítulo 1 (DEMONSTRATIVOS FINANCEIROS PARA O FUNDADOR)]] cobre demonstrativos: como ler o que já aconteceu. Este capítulo cobre o planejamento financeiro: como transformar a visão do negócio em orçamento aprovado, operado por times com autonomia e revisado com frequência suficiente para ser útil.
+O [[#CAPÍTULO 4 — MODELAGEM FINANCEIRA OPERACIONAL|Capítulo 4 (Modelagem Financeira Operacional)]] cobre modelagem financeira: como construir projeções a partir de drivers operacionais. O [[#CAPÍTULO 1 — DEMONSTRATIVOS FINANCEIROS PARA O FUNDADOR|Capítulo 1 (Demonstrativos Financeiros para o Fundador)]] cobre demonstrativos: como ler o que já aconteceu. Este capítulo cobre o planejamento financeiro: como transformar a visão do negócio em orçamento aprovado, operado por times com autonomia e revisado com frequência suficiente para ser útil.
 
 ### Do orçamento engessado de dezembro ao Orçamento Vivo: o papel real do FP&A na empresa em escala
 
@@ -4183,16 +4183,16 @@ Runway (meses)       |   25.0  |   n/a   |         |        |    19.4     |   25
 
 ### Ver também
 
-- [[#CAPÍTULO 1 — DEMONSTRATIVOS FINANCEIROS PARA O FUNDADOR|Capítulo 1 (DEMONSTRATIVOS FINANCEIROS PARA O FUNDADOR)]], Demonstrativos Financeiros
-- [[#CAPÍTULO 4 — MODELAGEM FINANCEIRA OPERACIONAL|Capítulo 4 (MODELAGEM FINANCEIRA OPERACIONAL)]], Modelagem Financeira Operacional
-- [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 1 — BOARD E GOVERNANCE|Capítulo 1 (BOARD E GOVERNANCE) (Vol. 9)]], Board e Governance
-- [[#CAPÍTULO 11 — GESTÃO DE CAIXA EM PROFUNDIDADE|Capítulo 11 (GESTÃO DE CAIXA EM PROFUNDIDADE)]], Gestão de Caixa
-- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 13 — EXECUTIVE HIRING: CONTRATAR LÍDERES SÊNIOR E C-LEVEL|Capítulo 13 (EXECUTIVE HIRING: CONTRATAR LÍDERES SÊNIOR E C-LEVEL) (Vol. 6)]], pacotes C-level
-- [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 3 — RECRUTAMENTO TÉCNICO EM PROFUNDIDADE|Capítulo 3 (RECRUTAMENTO TÉCNICO EM PROFUNDIDADE) (Vol. 7)]], comp em recrutamento técnico
-- [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 4 — ENGINEERING MANAGEMENT: GESTÃO DO TIME TÉCNICO E DEVELOPER EXPERIENCE|Capítulo 4 (ENGINEERING MANAGEMENT: GESTÃO DO TIME TÉCNICO E DEVELOPER EXPERIENCE) (Vol. 7)]], comp em engenharia
-- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 19 — DIVERSIDADE, EQUIDADE E INCLUSÃO (DEI) EM STARTUP BRASILEIRA|Capítulo 19 (DIVERSIDADE, EQUIDADE E INCLUSÃO (DEI) EM STARTUP BRASILEIRA) (Vol. 6)]], equidade salarial
-- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 16 — STOCK OPTIONS E ESOP NO BRASIL|Capítulo 16 (STOCK OPTIONS E ESOP NO BRASIL) (Vol. 6)]], equity como instrumento
-- [[#CAPÍTULO 21 — INVESTOR RELATIONS PÓS-RODADA|Capítulo 21 (INVESTOR RELATIONS PÓS-RODADA)]], orçamento como linguagem de board e comunicação com investidores pós-rodada
+- [[#CAPÍTULO 1 — DEMONSTRATIVOS FINANCEIROS PARA O FUNDADOR|Capítulo 1 (Demonstrativos Financeiros para o Fundador)]], Demonstrativos Financeiros
+- [[#CAPÍTULO 4 — MODELAGEM FINANCEIRA OPERACIONAL|Capítulo 4 (Modelagem Financeira Operacional)]], Modelagem Financeira Operacional
+- [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 1 — BOARD E GOVERNANCE|Capítulo 1 (Board e Governance) (Vol. 9)]], Board e Governance
+- [[#CAPÍTULO 11 — GESTÃO DE CAIXA EM PROFUNDIDADE|Capítulo 11 (Gestão de Caixa em Profundidade)]], Gestão de Caixa
+- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 13 — EXECUTIVE HIRING: CONTRATAR LÍDERES SÊNIOR E C-LEVEL|Capítulo 13 (Executive Hiring: Contratar Líderes Sênior e C-Level) (Vol. 6)]], pacotes C-level
+- [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 3 — RECRUTAMENTO TÉCNICO EM PROFUNDIDADE|Capítulo 3 (Recrutamento Técnico em Profundidade) (Vol. 7)]], comp em recrutamento técnico
+- [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 4 — ENGINEERING MANAGEMENT: GESTÃO DO TIME TÉCNICO E DEVELOPER EXPERIENCE|Capítulo 4 (Engineering Management: Gestão do Time Técnico e Developer Experience) (Vol. 7)]], comp em engenharia
+- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 19 — DIVERSIDADE, EQUIDADE E INCLUSÃO (DEI) EM STARTUP BRASILEIRA|Capítulo 19 (Diversidade, Equidade e Inclusão (Dei) em Startup Brasileira) (Vol. 6)]], equidade salarial
+- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 16 — STOCK OPTIONS E ESOP NO BRASIL|Capítulo 16 (Stock Options e ESOP no Brasil) (Vol. 6)]], equity como instrumento
+- [[#CAPÍTULO 21 — INVESTOR RELATIONS PÓS-RODADA|Capítulo 21 (Investor Relations Pós-Rodada)]], orçamento como linguagem de board e comunicação com investidores pós-rodada
 
 ---
 
@@ -4262,7 +4262,7 @@ New ARR gerado por mês: 2 × 15 × 20% × R$ 30.000 = R$ 180.000/mês
 
 Esse forecast é discutível em cada componente. E isso é a vantagem: se o win rate cai para 15%, o modelo mostra o impacto imediatamente. Se o número de deals por vendedor cai por causa do recesso de janeiro, o modelo pode modelar isso.
 
-Para benchmarks de taxa de conversão por etapa de funil que alimentam esse cálculo, ver Parte 1 do [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 8 — SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|Capítulo 8 (SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL) (Vol. 4)]].
+Para benchmarks de taxa de conversão por etapa de funil que alimentam esse cálculo, ver Parte 1 do [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 8 — SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|Capítulo 8 (Sales: Motion Completa, do Outbound ao Renewal) (Vol. 4)]].
 
 #### Quando combinar os dois
 
@@ -4711,7 +4711,7 @@ Chamamos essa armadilha de **O Imposto Invisível do Ciclo de Caixa**: quanto ma
 ---
 
 > [!important] Casa canônica do diagnóstico de capital de giro
-> O diagnóstico fundacional de "lucro não é caixa", ciclo de conversão de caixa (CCC) e descasamento operacional vive aqui. Os capítulos [[#CAPÍTULO 11 — GESTÃO DE CAIXA EM PROFUNDIDADE|Capítulo 11 (GESTÃO DE CAIXA EM PROFUNDIDADE)]] (operação diária de caixa, 13-week forecast, DSO/DPO/DIO), [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 8 — TESOURARIA EM ESCALA: GESTÃO DE CAIXA MULTI-MOEDA, MULTI-PAÍS E MULTI-CONTA|Capítulo 8 (TESOURARIA EM ESCALA: GESTÃO DE CAIXA MULTI-MOEDA, MULTI-PAÍS E MULTI-CONTA) (Vol. 9)]] (tesouraria multi-moeda em escala) e [[#CAPÍTULO 9 — RELAÇÕES BANCÁRIAS E CRÉDITO NO BRASIL|Capítulo 9 (RELAÇÕES BANCÁRIAS E CRÉDITO NO BRASIL)]] (relação bancária e crédito BR) tratam camadas operacionais específicas e referenciam este capítulo como base conceitual.
+> O diagnóstico fundacional de "lucro não é caixa", ciclo de conversão de caixa (CCC) e descasamento operacional vive aqui. Os capítulos [[#CAPÍTULO 11 — GESTÃO DE CAIXA EM PROFUNDIDADE|Capítulo 11 (Gestão de Caixa em Profundidade)]] (operação diária de caixa, 13-week forecast, DSO/DPO/DIO), [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 8 — TESOURARIA EM ESCALA: GESTÃO DE CAIXA MULTI-MOEDA, MULTI-PAÍS E MULTI-CONTA|Capítulo 8 (Tesouraria em Escala: Gestão de Caixa Multi-Moeda, Multi-País e Multi-Conta) (Vol. 9)]] (tesouraria multi-moeda em escala) e [[#CAPÍTULO 9 — RELAÇÕES BANCÁRIAS E CRÉDITO NO BRASIL|Capítulo 9 (Relações Bancárias e Crédito no Brasil)]] (relação bancária e crédito BR) tratam camadas operacionais específicas e referenciam este capítulo como base conceitual.
 
 Capital de giro (caixa necessário para sustentar a operação no curto prazo) é o assunto que mais mata startups que já provaram o modelo. Não falta receita. Não falta cliente. Não falta NPS. Falta caixa para pagar o time enquanto o dinheiro do cliente ainda não chegou. Esse fenômeno tem nome: descasamento de caixa. É previsível, calculável e gerenciável, desde que o fundador entenda o mecanismo antes de cair no buraco.
 
@@ -5585,7 +5585,7 @@ Creditas Empresas    12% a 24% a.a.      60-120m   Imóvel         15-30 dias
 > [!tip] Checklist de relações bancárias para fundador
 > Conta PJ aberta na semana do CNPJ, jamais misturar com conta PF. Capital inicial integralizado formalmente (não transferido como pró-labore). Banco principal escolhido entre agentes do BNDES e Pronampe (Banco do Brasil, Itaú, Bradesco, Santander, BTG). Conta de pagamentos em banco digital para operação corrente de baixo custo. Caixa de reserva em conta separada com investimento automático em CDB com liquidez diária. CNPJ regular na Receita Federal (sem pendências, declarações em dia). CND (Certidão Negativa de Débitos) obtida e arquivada trimestalmente. Monitoramento do score PJ ativo no Serasa (plano gratuito no mínimo). Gerente de conta no banco principal identificado e reunião de apresentação feita nos primeiros noventa dias. Histórico de crédito iniciado com cartão PJ usado e pago integralmente. Fornecedores pagos dentro do prazo para evitar protesto. Pronampe, FGI e linhas regionais pesquisadas antes de precisar (não durante a crise). BNDES planejado com antecedência mínima de seis meses para necessidades de investimento. Cessão de recebíveis estudada como alternativa a aval de imóvel quando tiver contratos recorrentes.
 
-### VER TAMBÉM
+### Ver também
 
 **Ver também:**
 
@@ -5799,7 +5799,7 @@ Andy Grove e Ben Horowitz tratam o caixa da empresa como o oxigênio de um subma
 
 Para o diagnóstico fundacional de capital de giro e ciclo de conversão de caixa (lucro não é caixa, descasamento, CCC), ver [[#CAPÍTULO 8 — CAPITAL DE GIRO E RECEBÍVEIS|Capítulo 8 — Capital de Giro e Recebíveis]] (casa canônica). Este capítulo trata especificamente da operação diária de caixa, 13-week rolling forecast, indicadores DSO/DPO/DIO e gatilhos de ação semanal.
 
-O [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 1 — DINHEIRO PESSOAL DO FUNDADOR|Capítulo 1 (DINHEIRO PESSOAL DO FUNDADOR) (Vol. 1)]] cobre dinheiro pessoal. O [[#CAPÍTULO 4 — MODELAGEM FINANCEIRA OPERACIONAL|Capítulo 4 (MODELAGEM FINANCEIRA OPERACIONAL)]] cobre modelagem. O [[#CAPÍTULO 17 — FINANCIAMENTO NÃO-DILUITIVO|Capítulo 17 (FINANCIAMENTO NÃO-DILUITIVO)]] cobre fomento. O [[#CAPÍTULO 13 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 13 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES)]] cobre equity. Falta a disciplina operacional diária de gestão de caixa, que é onde as startups brasileiras mais morrem. Mais empresas quebram por gestão de caixa ruim do que por estratégia errada.
+O [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 1 — DINHEIRO PESSOAL DO FUNDADOR|Capítulo 1 (Dinheiro Pessoal do Fundador) (Vol. 1)]] cobre dinheiro pessoal. O [[#CAPÍTULO 4 — MODELAGEM FINANCEIRA OPERACIONAL|Capítulo 4 (Modelagem Financeira Operacional)]] cobre modelagem. O [[#CAPÍTULO 17 — FINANCIAMENTO NÃO-DILUITIVO|Capítulo 17 (Financiamento Não-Diluitivo)]] cobre fomento. O [[#CAPÍTULO 13 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 13 (Captação de Equity, Pitch e Relacionamento com Investidores)]] cobre equity. Falta a disciplina operacional diária de gestão de caixa, que é onde as startups brasileiras mais morrem. Mais empresas quebram por gestão de caixa ruim do que por estratégia errada.
 
 ### A sala de máquinas da liquidez: gestão de caixa diária, política de tesouraria e fluxo de 13 semanas
 
@@ -5813,7 +5813,7 @@ Gestão diária ou semanal do fluxo de caixa operacional.
 
 ### Por que uma empresa nunca quebra por falta de lucro no ano, mas quebra por falta de liquidez numa terça-feira às 16h
 
-Receita não é caixa, e o descasamento entre os dois quebra empresas que crescem. Para o diagnóstico fundacional de capital de giro e ciclo de conversão de caixa, ver [[#CAPÍTULO 8 — CAPITAL DE GIRO E RECEBÍVEIS|Capítulo 8 (CAPITAL DE GIRO E RECEBÍVEIS)]].
+Receita não é caixa, e o descasamento entre os dois quebra empresas que crescem. Para o diagnóstico fundacional de capital de giro e ciclo de conversão de caixa, ver [[#CAPÍTULO 8 — CAPITAL DE GIRO E RECEBÍVEIS|Capítulo 8 (Capital de Giro e Recebíveis)]].
 
 > [!warning] Quando o caixa fica crítico
 > Quando o caixa fica crítico, as decisões ficam ruins: aceitar term sheet pior, perder talento, cortar errado.
@@ -5939,7 +5939,7 @@ Receita adiantada sem disciplina. Vender anual, mas gastar imediatamente, como s
 
 ### Ver também
 
-[[#CAPÍTULO 4 — MODELAGEM FINANCEIRA OPERACIONAL|Capítulo 4 (MODELAGEM FINANCEIRA OPERACIONAL)]], Modelagem financeira. [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 8 — TESOURARIA EM ESCALA: GESTÃO DE CAIXA MULTI-MOEDA, MULTI-PAÍS E MULTI-CONTA|Capítulo 8 (TESOURARIA EM ESCALA: GESTÃO DE CAIXA MULTI-MOEDA, MULTI-PAÍS E MULTI-CONTA) (Vol. 9)]], Tesouraria em escala. [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 7 — HEDGING CAMBIAL E GESTÃO DE MOEDA MULTICOUNTRY|Capítulo 7 (HEDGING CAMBIAL E GESTÃO DE MOEDA MULTICOUNTRY) (Vol. 9)]], Hedging cambial.
+[[#CAPÍTULO 4 — MODELAGEM FINANCEIRA OPERACIONAL|Capítulo 4 (Modelagem Financeira Operacional)]], Modelagem financeira. [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 8 — TESOURARIA EM ESCALA: GESTÃO DE CAIXA MULTI-MOEDA, MULTI-PAÍS E MULTI-CONTA|Capítulo 8 (Tesouraria em Escala: Gestão de Caixa Multi-Moeda, Multi-País e Multi-Conta) (Vol. 9)]], Tesouraria em escala. [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 7 — HEDGING CAMBIAL E GESTÃO DE MOEDA MULTICOUNTRY|Capítulo 7 (Hedging Cambial e Gestão de Moeda Multicountry) (Vol. 9)]], Hedging cambial.
 
 > [!info] Fases relacionadas
 > Referenciado em: Fase 11.
@@ -6049,14 +6049,14 @@ O risk register deve ser revisado trimestralmente pelo CEO, com report ao board 
 |---|---|---|---|---|
 | 1 | Cliente principal cancela (>30% da receita) | Média | Alto | Mitigar (diversificar base) + monitorar NPS |
 | 2 | Fundador ou CTO crítico sai ou fica incapacitado | Baixa | Alto | Transferir (Key Man Insurance) + mitigar (documentação) |
-| 3 | Incidente de segurança com vazamento de dados | Média | Alto | Transferir (Cyber Insurance) + mitigar ([[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 14 — SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA|Capítulo 14 (SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA) (Vol. 8)]]) |
+| 3 | Incidente de segurança com vazamento de dados | Média | Alto | Transferir (Cyber Insurance) + mitigar ([[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 14 — SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA|Capítulo 14 (Segurança da Informação: Da Certificação à Engenharia) (Vol. 8)]]) |
 | 4 | Multa regulatória (LGPD, ANPD, setor) | Média | Médio | Mitigar (compliance) + transferir (Cyber Insurance) |
 | 5 | Processo trabalhista de ex-funcionário | Alta | Médio | Mitigar (RH estruturado) + aceitar residual |
 | 6 | Falha do produto que gera indenização a cliente | Média | Alto | Transferir (E&O Insurance) + mitigar (SLA realista) |
 | 7 | Cloud provider fora do ar por 24h+ | Baixa | Alto | Mitigar (redundância multi-região) + aceitar residual |
 | 8 | Decisão de diretoria contestada por sócio ou investidor | Baixa | Alto | Transferir (D&O Insurance) + mitigar (governança) |
 | 9 | Dependência de único fornecedor de API/pagamento | Média | Alto | Mitigar (fornecedor alternativo mapeado) |
-| 10 | Reputação afetada por crise pública | Baixa | Alto | Mitigar (plano de crise — [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9 — CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO|Capítulo 9 (CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO) (Vol. 9)]]) |
+| 10 | Reputação afetada por crise pública | Baixa | Alto | Mitigar (plano de crise — [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9 — CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO|Capítulo 9 (Crise e Continuidade: Prevenção, Resposta, Recuperação) (Vol. 9)]]) |
 
 ---
 
@@ -6116,7 +6116,7 @@ A subsecao acima descreveu coberturas e custos. Aqui o aprofundamento, base lega
 
 **Exclusoes comuns.** Fraude comprovada em sentenca transitada em julgado. Dolo. Atos ilegais conscientes. Processos pre-existentes a vigencia da apolice (sinistro pre-existente). Responsabilidade ambiental (vai para apolice especifica). Disputas entre socios com participacao igual ou superior a 25 por cento (insured versus insured).
 
-**Recomendacao pratica.** Cotar com duas a tres corretoras especializadas em linhas financeiras (Marsh, Aon, Willis Towers Watson, Howden, MDS). Pedir comparativo lado a lado de exclusoes, sublimites por tipo de cobertura, periodo de retroatividade e periodo suplementar de notificacao (run-off ou tail coverage, relevante em M&A e IPO). Revisar exclusoes com advogado societario antes de assinar. Cross-ref para [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 2 — RESPONSABILIDADE DO SÓCIO E DO ADMINISTRADOR|Capítulo 2 (RESPONSABILIDADE DO SÓCIO E DO ADMINISTRADOR) (Vol. 8)]] (responsabilidade pessoal), [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 1 — BOARD E GOVERNANCE|Capítulo 1 (BOARD E GOVERNANCE) (Vol. 9)]] (board), [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 3 — DISPUTA SOCIETÁRIA E SAÍDA DE SÓCIO|Capítulo 3 (DISPUTA SOCIETÁRIA E SAÍDA DE SÓCIO) (Vol. 9)]] (disputa societaria) e [[#CAPÍTULO 13 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 13 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES)]] (captacao, exigido pelo investidor).
+**Recomendacao pratica.** Cotar com duas a tres corretoras especializadas em linhas financeiras (Marsh, Aon, Willis Towers Watson, Howden, MDS). Pedir comparativo lado a lado de exclusoes, sublimites por tipo de cobertura, periodo de retroatividade e periodo suplementar de notificacao (run-off ou tail coverage, relevante em M&A e IPO). Revisar exclusoes com advogado societario antes de assinar. Cross-ref para [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 2 — RESPONSABILIDADE DO SÓCIO E DO ADMINISTRADOR|Capítulo 2 (Responsabilidade do Sócio e do Administrador) (Vol. 8)]] (responsabilidade pessoal), [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 1 — BOARD E GOVERNANCE|Capítulo 1 (Board e Governance) (Vol. 9)]] (board), [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 3 — DISPUTA SOCIETÁRIA E SAÍDA DE SÓCIO|Capítulo 3 (Disputa Societária e Saída de Sócio) (Vol. 9)]] (disputa societaria) e [[#CAPÍTULO 13 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 13 (Captação de Equity, Pitch e Relacionamento com Investidores)]] (captacao, exigido pelo investidor).
 
 #### E&O — Erros e Omissões (Responsabilidade Civil Profissional)
 
@@ -6386,7 +6386,7 @@ A apólice contratada em seed cobre a empresa de seed. Empresa que cresceu, lan�
 O E&O cobre a empresa. O D&O cobre o administrador. São coberturas distintas. Um fundador que assina como administrador e é processado pessoalmente precisa do D&O — não do E&O da empresa.
 
 **4. Ignorar risco de reputação.**
-Não há seguro eficaz para dano reputacional. Crises de imagem — fundador envolvido em polêmica, produto associado a uso nocivo, vazamento de dados que vira manchete — não são cobertas por nenhuma apólice. A única proteção é a prevenção: comunicação proativa, plano de crise documentado (ver [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9 — CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO|Capítulo 9 (CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO) (Vol. 9)]]) e cultura de transparência antes que a crise ocorra.
+Não há seguro eficaz para dano reputacional. Crises de imagem — fundador envolvido em polêmica, produto associado a uso nocivo, vazamento de dados que vira manchete — não são cobertas por nenhuma apólice. A única proteção é a prevenção: comunicação proativa, plano de crise documentado (ver [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9 — CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO|Capítulo 9 (Crise e Continuidade: Prevenção, Resposta, Recuperação) (Vol. 9)]]) e cultura de transparência antes que a crise ocorra.
 
 **5. Montar o risk register uma vez e nunca revisar.**
 Uma lista de riscos feita no ano 1 e nunca atualizada é pior que não ter lista — cria falsa sensação de controle enquanto os riscos reais do estágio atual ficam sem resposta.
@@ -6448,7 +6448,7 @@ Chamamos o erro de Lucas de **O Pitch de Boas Intenções**: contar uma históri
 
 Este capítulo cobre captação de equity em sentido amplo (tipos de investidor, narrativa e pitch, term sheet, due diligence, relacionamento de longo prazo). Para a operação da rodada como projeto estruturado (cronograma de pré-fase e fase ativa, lista priorizada de investidores, gestão de pipeline, materiais como data room e FAQ, governança da rodada), ver [[#CAPÍTULO 14 — PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO|Capítulo 14 — Planejamento de Rodada como Processo]].
 
-O [[#CAPÍTULO 17 — FINANCIAMENTO NÃO-DILUITIVO|Capítulo 17 (FINANCIAMENTO NÃO-DILUITIVO)]] cobre financiamento não-diluitivo. Dívida, grants, RBF e antecipação de recebíveis. Este capítulo cobre financiamento diluitivo. A venda de equity (participação societária) em troca de capital, tipicamente a investidores profissionais (anjos, fundos de venture capital, private equity, corporate venture). Os dois são complementares. Não substitutos. A maior parte das startups que escalam usa combinações dos dois ao longo do tempo.
+O [[#CAPÍTULO 17 — FINANCIAMENTO NÃO-DILUITIVO|Capítulo 17 (Financiamento Não-Diluitivo)]] cobre financiamento não-diluitivo. Dívida, grants, RBF e antecipação de recebíveis. Este capítulo cobre financiamento diluitivo. A venda de equity (participação societária) em troca de capital, tipicamente a investidores profissionais (anjos, fundos de venture capital, private equity, corporate venture). Os dois são complementares. Não substitutos. A maior parte das startups que escalam usa combinações dos dois ao longo do tempo.
 
 Este capítulo é extenso, porque captação é disciplina densa, com muitos pontos não-óbvios. Os fundadores que tratam o tema de forma amadora tipicamente levantam em condições piores (valuation menor e termos pesados), consomem tempo excessivo em processos que morrem por má execução, constroem relacionamentos investidor-fundador que envenenam anos e perdem optionality em rodadas futuras por erros iniciais.
 
@@ -6510,7 +6510,7 @@ Captação de equity é um processo (não evento), que envolve quatro frentes.
 Entregáveis tangíveis. Pitch Deck (doze a quinze slides), estruturado, e adaptável ao público — esqueleto SCQA pronto em [[#Template: Pitch Deck SCQA — Esqueleto|Template: Pitch Deck SCQA — Esqueleto]]. Modelo Financeiro (planilha), com unit economics, projeção três a cinco anos, e cenários. Data Room (pasta estruturada em Google Drive, Notion, ou plataforma dedicada), com documentos organizados. Investor Update mensal, ou bimestral (documento recorrente) — template em [[#Template: Investor Update Mensal — Template|Template: Investor Update Mensal — Template]]. Lista de Investidores-Alvo, com prioridade, status, e pontos de contato.
 
 > [!note] Contexto operacional
-> Captação não acontece no vácuo. A [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16 (Vol. 6)]] é onde a empresa transita de PMF para máquina, e cobre todas as frentes simultâneas (time, operações, crescimento e capital) em que a captação é uma decisão. O [[#CAPÍTULO 14 — PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO|Capítulo 14 (PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO)]] trata o fundraising como projeto com cronograma e milestones próprios. O [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 4 — BOOTSTRAP vs VENTURE CAPITAL: A ESCOLHA FUNDACIONAL|Capítulo 4 (BOOTSTRAP vs VENTURE CAPITAL: A ESCOLHA FUNDACIONAL) (Vol. 1)]] trata a decisão anterior — captar equity ou não.
+> Captação não acontece no vácuo. A [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16 (Vol. 6)]] é onde a empresa transita de PMF para máquina, e cobre todas as frentes simultâneas (time, operações, crescimento e capital) em que a captação é uma decisão. O [[#CAPÍTULO 14 — PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO|Capítulo 14 (Planejamento de Rodada como Processo: Fundraising como Projeto Estruturado)]] trata o fundraising como projeto com cronograma e milestones próprios. O [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 4 — BOOTSTRAP vs VENTURE CAPITAL: A ESCOLHA FUNDACIONAL|Capítulo 4 (Bootstrap vs Venture Capital: A Escolha Fundacional) (Vol. 1)]] trata a decisão anterior — captar equity ou não.
 
 ### Por que captar equity no momento errado ou do sócio errado custa mais caro do que crescer com o próprio caixa
 
@@ -6527,7 +6527,7 @@ Relacionamento define optionality em crise. Os momentos difíceis (caixa crític
 
 ### Quando o equity é o combustível certo (e quando ele é uma armadilha para o seu modelo de negócio)
 
-**Quando captar equity.** O negócio tem motor de crescimento validado, que escala com capital (não "bootstrappa naturalmente"). A janela de mercado é limitada, e velocidade importa (categoria sendo disputada). A necessidade de capital excede a capacidade de dívida razoável (ver [[#CAPÍTULO 17 — FINANCIAMENTO NÃO-DILUITIVO|Capítulo 17 (FINANCIAMENTO NÃO-DILUITIVO)]]). Há capacidade operacional para absorver capital, sem virar bagunça. O time está pronto para governança formal (board, e reporting).
+**Quando captar equity.** O negócio tem motor de crescimento validado, que escala com capital (não "bootstrappa naturalmente"). A janela de mercado é limitada, e velocidade importa (categoria sendo disputada). A necessidade de capital excede a capacidade de dívida razoável (ver [[#CAPÍTULO 17 — FINANCIAMENTO NÃO-DILUITIVO|Capítulo 17 (Financiamento Não-Diluitivo)]]). Há capacidade operacional para absorver capital, sem virar bagunça. O time está pronto para governança formal (board, e reporting).
 
 **Quando NÃO captar equity.** Negócio bootstrap-avel (margens fortes, e crescimento orgânico). Ainda em fase de validação (Fases 2 a 8). Captação antes de PMF tende a destruir valor. O time não está pronto para board, e reporting (ou o fundador não quer esse nível de accountability). Mercado em janela ruim (valuations baixos, e termos pesados), e não é urgente.
 
@@ -6670,13 +6670,13 @@ Investidores sérios têm conjunto razoavelmente consistente de perguntas. Prepa
 
 Processo típico dura dezesseis a vinte semanas, em quatro blocos. Preparação (pitch, modelo, data room, lista de alvos), warm intros via rede, primeiras reuniões em paralelo, term sheets e fechamento. Warm intro tem taxa de resposta dez a vinte vezes maior que cold outreach, é o padrão. Paralelização é obrigatória, rodar quinze a vinte investidores ao mesmo tempo cria competição saudável e respeita timeline. FOMO real funciona, blefe destrói confiança em semanas.
 
-Para o tratamento operacional completo (cronograma detalhado, paralelização, warm intros, fontes de intro), ver [[#CAPÍTULO 14 — PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO|Capítulo 14 (PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO)]].
+Para o tratamento operacional completo (cronograma detalhado, paralelização, warm intros, fontes de intro), ver [[#CAPÍTULO 14 — PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO|Capítulo 14 (Planejamento de Rodada como Processo: Fundraising como Projeto Estruturado)]].
 
 #### 5. Data Room, o que incluir
 
 Data room é estruturado em pastas numeradas (visão geral, time, produto, clientes e receita, unit economics e financeiro, legal, governança, pessoas, métricas detalhadas, materiais de mercado). Investidores sérios esperam acesso após primeira reunião positiva. Ferramentas comuns vão de Google Drive ou Notion a DocSend, Brex Data Room e plataformas dedicadas (Ansarada, iDeals) em rodadas maiores.
 
-Para o tratamento operacional completo (data room como entregável, estrutura por pasta, logs de acesso, priorização de follow-up), ver [[#CAPÍTULO 14 — PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO|Capítulo 14 (PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO)]].
+Para o tratamento operacional completo (data room como entregável, estrutura por pasta, logs de acesso, priorização de follow-up), ver [[#CAPÍTULO 14 — PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO|Capítulo 14 (Planejamento de Rodada como Processo: Fundraising como Projeto Estruturado)]].
 
 #### 6. Term Sheet, termos-chave
 
@@ -6749,7 +6749,7 @@ Aplicado ao caso, considerando 1 milhao de acoes pre-Serie A e novo investimento
 
 **O que aceitar em term sheet.** Full ratchet em term sheet brasileiro de 2026 e marca de investidor agressivo, ou de fundo com tese de protecao de portfolio em mercado em contracao. Quase sempre vale a pena contra-propor broad-based, e se o fundo recusar, considerar se o investidor faz sentido como parceiro. Broad-based e padrao e e dificil recusar em rodada institucional. Aceitar broad-based, e otimizar liquidation preference (1x non-participating) e composicao do board para compensar.
 
-Cross-ref. Para metodos de valuation que ancoram pre e post-money, ver [[#CAPÍTULO 15 — VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR|Capítulo 15 (VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR)]]. Para o quadro completo de negociacao da rodada incluindo trade-offs entre clausulas, ver [[#CAPÍTULO 14 — PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO|Capítulo 14 (PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO)]].
+Cross-ref. Para metodos de valuation que ancoram pre e post-money, ver [[#CAPÍTULO 15 — VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR|Capítulo 15 (Valuation Methods: Como Investidores Calculam e como Você Calcula para Negociar)]]. Para o quadro completo de negociacao da rodada incluindo trade-offs entre clausulas, ver [[#CAPÍTULO 14 — PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO|Capítulo 14 (Planejamento de Rodada como Processo: Fundraising como Projeto Estruturado)]].
 
 #### 7. Due Diligence, o que esperar
 
@@ -6913,7 +6913,7 @@ Reciprocidade. Oferecer valor ao investidor também. Intro para startups do seu 
 > [!warning] Armadilha comum
 > CEO que só fala com investidores quando precisa de algo. Cria transacional. Não relacional. Os melhores relacionamentos founder-investor são setenta por cento conversa ampla sobre mercado, indústria, e oportunidades. E trinta por cento pedidos específicos.
 
-#### 4. Gestão de Crise com Investidores (cross-referência [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9 — CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO|Capítulo 9 (CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO) (Vol. 9)]])
+#### 4. Gestão de Crise com Investidores (cross-referência [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9 — CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO|Capítulo 9 (Crise e Continuidade: Prevenção, Resposta, Recuperação) (Vol. 9)]])
 
 Em crise, o relacionamento construído previamente é o que determina se os investidores ajudam, ou atrapalham.
 
@@ -6958,7 +6958,7 @@ Captação está no padrão quando os oito itens estão em pé.
 
 ### As 6 ciladas mortais de captação: dinheiro burro (Dumb Money), cláusulas leoninas e perder o foco da operação
 
-Captar antes de PMF sólido. Quase sempre destrói valor. Valuation baixo, mais pressão investidor, em empresa ainda em descoberta, igual a receita de morte. Bootstrappar, ou não-diluitivo (ver [[#CAPÍTULO 17 — FINANCIAMENTO NÃO-DILUITIVO|Capítulo 17 (FINANCIAMENTO NÃO-DILUITIVO)]]), até PMF claro.
+Captar antes de PMF sólido. Quase sempre destrói valor. Valuation baixo, mais pressão investidor, em empresa ainda em descoberta, igual a receita de morte. Bootstrappar, ou não-diluitivo (ver [[#CAPÍTULO 17 — FINANCIAMENTO NÃO-DILUITIVO|Capítulo 17 (Financiamento Não-Diluitivo)]]), até PMF claro.
 
 Warm intro negligenciada. Começar cold em vez de investir duas a três semanas em ativar rede. Cold outreach é último recurso. Não padrão.
 
@@ -7021,7 +7021,7 @@ Para validar prontidão para captar.
 
 ### Ver também
 
-[[#CAPÍTULO 14 — PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO|Capítulo 14 (PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO)]], Planejamento de rodada como processo. [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 1 — BOARD E GOVERNANCE|Capítulo 1 (BOARD E GOVERNANCE) (Vol. 9)]], Board, e governance. [[#CAPÍTULO 15 — VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR|Capítulo 15 (VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR)]], Valuation methods. [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 16 — LIQUIDEZ SECUNDÁRIA (SECONDARIES): REALIZAÇÃO PARCIAL DE CAPITAL PARA FUNDADORES, EXECUTIVOS E INVESTIDORES ANTES DO EXIT|Capítulo 16 (LIQUIDEZ SECUNDÁRIA (SECONDARIES): REALIZAÇÃO PARCIAL DE CAPITAL PARA FUNDADORES, EXECUTIVOS E INVESTIDORES ANTES DO EXIT) (Vol. 9)]], Secondary, e liquidez de founder. [[#CAPÍTULO 18 — VENTURE DEBT E REVENUE-BASED FINANCING (RBF)|Capítulo 18 (VENTURE DEBT E REVENUE-BASED FINANCING (RBF))]], Venture debt, e RBF.
+[[#CAPÍTULO 14 — PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO|Capítulo 14 (Planejamento de Rodada como Processo: Fundraising como Projeto Estruturado)]], Planejamento de rodada como processo. [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 1 — BOARD E GOVERNANCE|Capítulo 1 (Board e Governance) (Vol. 9)]], Board, e governance. [[#CAPÍTULO 15 — VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR|Capítulo 15 (Valuation Methods: Como Investidores Calculam e como Você Calcula para Negociar)]], Valuation methods. [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 16 — LIQUIDEZ SECUNDÁRIA (SECONDARIES): REALIZAÇÃO PARCIAL DE CAPITAL PARA FUNDADORES, EXECUTIVOS E INVESTIDORES ANTES DO EXIT|Capítulo 16 (Liquidez Secundária (Secondaries): Realização Parcial de Capital para Fundadores, Executivos e Investidores Antes do Exit) (Vol. 9)]], Secondary, e liquidez de founder. [[#CAPÍTULO 18 — VENTURE DEBT E REVENUE-BASED FINANCING (RBF)|Capítulo 18 (Venture Debt e Revenue-Based Financing (RBF))]], Venture debt, e RBF.
 
 ### Diligência reversa obrigatória: como investigar o investidor com os fundadores que já quebraram ou brigaram no portfólio dele
 
@@ -7164,7 +7164,7 @@ Valor. Quanto precisa. Calcular com base em 18-24 meses de runway, mais buffer. 
 
 Uso dos fundos. Alocação específica. Team build, GTM, expansão geográfica, ou produto. O investidor vai perguntar.
 
-Valuation target. Faixa defensável, baseada em comparables, e modelo (ver [[#CAPÍTULO 15 — VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR|Capítulo 15 (VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR)]]).
+Valuation target. Faixa defensável, baseada em comparables, e modelo (ver [[#CAPÍTULO 15 — VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR|Capítulo 15 (Valuation Methods: Como Investidores Calculam e como Você Calcula para Negociar)]]).
 
 Tipo de investidor ideal. Growth VC, strategic, corporate VC, ou PE? Cada um tem expectativas, e termos, diferentes.
 
@@ -7185,7 +7185,7 @@ Logo acquisition velocity. Acelerar aquisição dos últimos dois a três trimes
 
 #### 1.3 Construir modelo financeiro robusto
 
-Modelo que projeta 36 meses forward (com cenários base, upside, e downside, ver [[#CAPÍTULO 5 — MODELAGEM FINANCEIRA COM COHORTS: PROJEÇÕES QUE FUNCIONAM EM EMPRESA RECORRENTE|Capítulo 5 (MODELAGEM FINANCEIRA COM COHORTS: PROJEÇÕES QUE FUNCIONAM EM EMPRESA RECORRENTE)]]). Usa cohort analysis. Mostra unit economics (CAC, LTV, payback) por segmento. Tem lógica defensável (não "chuto que vai dobrar"). Tem sanity check com benchmark de setor. Bate com receita real dos últimos trimestres (modelo que projeta crescimento forte, mas contraria os últimos meses, é red flag).
+Modelo que projeta 36 meses forward (com cenários base, upside, e downside, ver [[#CAPÍTULO 5 — MODELAGEM FINANCEIRA COM COHORTS: PROJEÇÕES QUE FUNCIONAM EM EMPRESA RECORRENTE|Capítulo 5 (Modelagem Financeira com Cohorts: Projeções Que Funcionam em Empresa Recorrente)]]). Usa cohort analysis. Mostra unit economics (CAC, LTV, payback) por segmento. Tem lógica defensável (não "chuto que vai dobrar"). Tem sanity check com benchmark de setor. Bate com receita real dos últimos trimestres (modelo que projeta crescimento forte, mas contraria os últimos meses, é red flag).
 
 O modelo precisa ser defensável em uma reunião de sessenta minutos, com VC técnico. Testar internamente antes. CTO, advisor, e CFO interrogam o modelo.
 
@@ -7263,7 +7263,7 @@ Term sheet contém. Valuation (pre-money, e post-money). Investment amount. Opti
 
 Term sheet bom para fundador. 1x non-participating liquidation preference. Broad-based weighted anti-dilution. Board cinco ou sete membros, com composição balanceada. Option pool expandido pre-money, mas razoável (10-12%, não 20%). Founder vesting razoável (sem reset agressivo do que já vestou).
 
-Negociar com advogado especializado (ver [[#CAPÍTULO 13 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 13 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES)]] sobre term sheet completo).
+Negociar com advogado especializado (ver [[#CAPÍTULO 13 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 13 (Captação de Equity, Pitch e Relacionamento com Investidores)]] sobre term sheet completo).
 
 #### 3.6 Due diligence formal
 
@@ -7329,7 +7329,7 @@ Captar undercapital, para "não diluir". Captar R$ 50 milhões, quando precisa d
 
 Prometer inatingível. "Vamos dobrar em doze meses". O VC investe esperando isso. Realiza quarenta por cento no ano. Crise em próxima rodada, porque a narrative quebrou. Promessa defensável vem de histórico.
 
-Ignorar regulação de captação pública. Captar R$ 200 milhões com cinquenta pequenos investidores, sem estrutura correta, cai em caos fiscal. Captar de VCs institucionais é mais simples. Captação via equity crowdfunding tem estrutura própria (ver [[#CAPÍTULO 19 — EQUITY CROWDFUNDING NO BRASIL: CAPTAÇÃO PÚBLICA DE PEQUENOS INVESTIDORES|Capítulo 19 (EQUITY CROWDFUNDING NO BRASIL: CAPTAÇÃO PÚBLICA DE PEQUENOS INVESTIDORES)]] — captação pública de pequenos investidores via plataformas reguladas pela CVM).
+Ignorar regulação de captação pública. Captar R$ 200 milhões com cinquenta pequenos investidores, sem estrutura correta, cai em caos fiscal. Captar de VCs institucionais é mais simples. Captação via equity crowdfunding tem estrutura própria (ver [[#CAPÍTULO 19 — EQUITY CROWDFUNDING NO BRASIL: CAPTAÇÃO PÚBLICA DE PEQUENOS INVESTIDORES|Capítulo 19 (Equity Crowdfunding no Brasil: Captação Pública de Pequenos Investidores)]] — captação pública de pequenos investidores via plataformas reguladas pela CVM).
 
 Não ter reserva para secundária de founder. Em rodadas Série B em diante, os fundadores podem negociar liquidez parcial (cinco a quinze por cento das suas ações). Não discutir é perder oportunidade. Discutir antes de fechar é boa prática.
 
@@ -7376,7 +7376,7 @@ Rodada bem-sucedida quando captou o valor planejado, em valuation igual ou acima
 
 ### Ver também
 
-[[#CAPÍTULO 13 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 13 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES)]], Captação de equity, e pitch. [[#CAPÍTULO 15 — VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR|Capítulo 15 (VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR)]], Valuation methods. [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 1 — BOARD E GOVERNANCE|Capítulo 1 (BOARD E GOVERNANCE) (Vol. 9)]], Board, e governance. [[#CAPÍTULO 19 — EQUITY CROWDFUNDING NO BRASIL: CAPTAÇÃO PÚBLICA DE PEQUENOS INVESTIDORES|Capítulo 19 (EQUITY CROWDFUNDING NO BRASIL: CAPTAÇÃO PÚBLICA DE PEQUENOS INVESTIDORES)]], Equity crowdfunding como modalidade alternativa de rodada quando o público-alvo permite captação pública via plataforma.
+[[#CAPÍTULO 13 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 13 (Captação de Equity, Pitch e Relacionamento com Investidores)]], Captação de equity, e pitch. [[#CAPÍTULO 15 — VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR|Capítulo 15 (Valuation Methods: Como Investidores Calculam e como Você Calcula para Negociar)]], Valuation methods. [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 1 — BOARD E GOVERNANCE|Capítulo 1 (Board e Governance) (Vol. 9)]], Board, e governance. [[#CAPÍTULO 19 — EQUITY CROWDFUNDING NO BRASIL: CAPTAÇÃO PÚBLICA DE PEQUENOS INVESTIDORES|Capítulo 19 (Equity Crowdfunding no Brasil: Captação Pública de Pequenos Investidores)]], Equity crowdfunding como modalidade alternativa de rodada quando o público-alvo permite captação pública via plataforma.
 
 ---
 
@@ -7738,7 +7738,7 @@ Comparar com unicórnios como benchmark. "O meu valuation tem que ser tipo Nuban
 
 Ignorar estágio. Valuation de Série B não serve para benchmark de Seed. Múltiplos diferem por estágio.
 
-Foco só em valuation. Não em termos. Rodada a R$ 500 milhões com liquidation preference 2x pode render menos que rodada a R$ 400 milhões com 1x. Termos importam (ver [[#CAPÍTULO 13 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 13 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES)]]).
+Foco só em valuation. Não em termos. Rodada a R$ 500 milhões com liquidation preference 2x pode render menos que rodada a R$ 400 milhões com 1x. Termos importam (ver [[#CAPÍTULO 13 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 13 (Captação de Equity, Pitch e Relacionamento com Investidores)]]).
 
 Negociar com dado desatualizado. O mercado mudou de 2021 para 2024. Múltiplos caíram cinquenta a setenta por cento em SaaS. Operar com 2021 numbers é negociação perdida.
 
@@ -7823,7 +7823,7 @@ Este checklist é diferente dos anteriores. Não é sobre o que construir ao lon
 
 ### Ver também
 
-**Ver também:** [[#CAPÍTULO 13 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 13 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES)]], Captação de equity. [[#CAPÍTULO 14 — PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO|Capítulo 14 (PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO)]], Planejamento de rodada. [[#CAPÍTULO 4 — MODELAGEM FINANCEIRA OPERACIONAL|Capítulo 4 (MODELAGEM FINANCEIRA OPERACIONAL)]], Modelagem financeira operacional. [[#CAPÍTULO 5 — MODELAGEM FINANCEIRA COM COHORTS: PROJEÇÕES QUE FUNCIONAM EM EMPRESA RECORRENTE|Capítulo 5 (MODELAGEM FINANCEIRA COM COHORTS: PROJEÇÕES QUE FUNCIONAM EM EMPRESA RECORRENTE)]], Modelagem com cohorts.
+**Ver também:** [[#CAPÍTULO 13 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 13 (Captação de Equity, Pitch e Relacionamento com Investidores)]], Captação de equity. [[#CAPÍTULO 14 — PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO|Capítulo 14 (Planejamento de Rodada como Processo: Fundraising como Projeto Estruturado)]], Planejamento de rodada. [[#CAPÍTULO 4 — MODELAGEM FINANCEIRA OPERACIONAL|Capítulo 4 (Modelagem Financeira Operacional)]], Modelagem financeira operacional. [[#CAPÍTULO 5 — MODELAGEM FINANCEIRA COM COHORTS: PROJEÇÕES QUE FUNCIONAM EM EMPRESA RECORRENTE|Capítulo 5 (Modelagem Financeira com Cohorts: Projeções Que Funcionam em Empresa Recorrente)]], Modelagem com cohorts.
 
 ---
 
@@ -7845,7 +7845,7 @@ Chamamos essa tragédia silenciosa de **A Cegueira do Empilhamento de Conversív
 ---
 
 > [!note] Posição no livro
-> Este capítulo detalha os instrumentos de captação pré-equity (antes da entrada formal do investidor no quadro societário) usados em rodadas iniciais. O processo completo de captação está no [[#CAPÍTULO 13 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 13 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES)]]. O COCP (Contrato de Opção de Compra de Participação, instrumento específico do marco legal das startups brasileiro) está no [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 1 — MARCO LEGAL DAS STARTUPS: LC 182/2021|Capítulo 1 (MARCO LEGAL DAS STARTUPS: LC 182/2021) (Vol. 8)]]. Stock options (opções de compra de ações) e ESOP (Employee Stock Ownership Plan, ou plano de participação acionária para colaboradores) estão no [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 16 — STOCK OPTIONS E ESOP NO BRASIL|Capítulo 16 (STOCK OPTIONS E ESOP NO BRASIL) (Vol. 6)]].
+> Este capítulo detalha os instrumentos de captação pré-equity (antes da entrada formal do investidor no quadro societário) usados em rodadas iniciais. O processo completo de captação está no [[#CAPÍTULO 13 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 13 (Captação de Equity, Pitch e Relacionamento com Investidores)]]. O COCP (Contrato de Opção de Compra de Participação, instrumento específico do marco legal das startups brasileiro) está no [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 1 — MARCO LEGAL DAS STARTUPS: LC 182/2021|Capítulo 1 (Marco Legal das Startups: Lc 182/2021) (Vol. 8)]]. Stock options (opções de compra de ações) e ESOP (Employee Stock Ownership Plan, ou plano de participação acionária para colaboradores) estão no [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 16 — STOCK OPTIONS E ESOP NO BRASIL|Capítulo 16 (Stock Options e ESOP no Brasil) (Vol. 6)]].
 
 ---
 
@@ -7975,7 +7975,7 @@ O mútuo conversível é o equivalente nacional da nota conversível — um cont
 
 **Quando o IOF pode ser evitado:**
 - Mútuo PJ → PJ com prazo definido: alíquota reduzida
-- Uso do COCP (Marco Legal das Startups) em vez do mútuo conversível: COCP é explicitamente isento de IOF para investimentos em startups (ver [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 1 — MARCO LEGAL DAS STARTUPS: LC 182/2021|Capítulo 1 (MARCO LEGAL DAS STARTUPS: LC 182/2021) (Vol. 8)]])
+- Uso do COCP (Marco Legal das Startups) em vez do mútuo conversível: COCP é explicitamente isento de IOF para investimentos em startups (ver [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 1 — MARCO LEGAL DAS STARTUPS: LC 182/2021|Capítulo 1 (Marco Legal das Startups: Lc 182/2021) (Vol. 8)]])
 
 ---
 
@@ -8365,7 +8365,7 @@ Pode ser mais barato que equity, dependendo do crescimento. Em retrospecto, equi
 Carrega menos peso de governança. Dívida não tem board seat (assento no conselho), ou voto.
 
 > [!note] Instrumentos modernos alternativos
-> Além de venture debt e RBF, security tokens e tokenização de recebíveis começam a aparecer como instrumento alternativo de captação não-diluitiva em casos específicos. Tratamento detalhado, regulação CVM 88 e CVM 175, e quando faz sentido versus quando é hype estão no [[#CAPÍTULO 20 — TOKENIZAÇÃO PARA FOUNDERS: ATIVOS DIGITAIS, SECURITY TOKENS E QUANDO NÃO É HYPE|Capítulo 20 (TOKENIZAÇÃO PARA FOUNDERS: ATIVOS DIGITAIS, SECURITY TOKENS E QUANDO NÃO É HYPE)]].
+> Além de venture debt e RBF, security tokens e tokenização de recebíveis começam a aparecer como instrumento alternativo de captação não-diluitiva em casos específicos. Tratamento detalhado, regulação CVM 88 e CVM 175, e quando faz sentido versus quando é hype estão no [[#CAPÍTULO 20 — TOKENIZAÇÃO PARA FOUNDERS: ATIVOS DIGITAIS, SECURITY TOKENS E QUANDO NÃO É HYPE|Capítulo 20 (Tokenização para Founders: Ativos Digitais, Security Tokens e Quando Não É Hype)]].
 
 ### Quando sua máquina de aquisição ou carteira de recebíveis já tem previsibilidade estatística
 
@@ -8420,7 +8420,7 @@ Players brasileiros. a55, Stone Capital, Linker, Cora, e Trigg. Clearco operou B
 
 ### Ver também
 
-[[#CAPÍTULO 13 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 13 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES)]], Captação de equity. [[#CAPÍTULO 11 — GESTÃO DE CAIXA EM PROFUNDIDADE|Capítulo 11 (GESTÃO DE CAIXA EM PROFUNDIDADE)]], Gestão de caixa em profundidade. [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 16 — LIQUIDEZ SECUNDÁRIA (SECONDARIES): REALIZAÇÃO PARCIAL DE CAPITAL PARA FUNDADORES, EXECUTIVOS E INVESTIDORES ANTES DO EXIT|Capítulo 16 (LIQUIDEZ SECUNDÁRIA (SECONDARIES): REALIZAÇÃO PARCIAL DE CAPITAL PARA FUNDADORES, EXECUTIVOS E INVESTIDORES ANTES DO EXIT) (Vol. 9)]], Secondary.
+[[#CAPÍTULO 13 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 13 (Captação de Equity, Pitch e Relacionamento com Investidores)]], Captação de equity. [[#CAPÍTULO 11 — GESTÃO DE CAIXA EM PROFUNDIDADE|Capítulo 11 (Gestão de Caixa em Profundidade)]], Gestão de caixa em profundidade. [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 16 — LIQUIDEZ SECUNDÁRIA (SECONDARIES): REALIZAÇÃO PARCIAL DE CAPITAL PARA FUNDADORES, EXECUTIVOS E INVESTIDORES ANTES DO EXIT|Capítulo 16 (Liquidez Secundária (Secondaries): Realização Parcial de Capital para Fundadores, Executivos e Investidores Antes do Exit) (Vol. 9)]], Secondary.
 
 ---
 
@@ -8597,7 +8597,7 @@ Rodada bem-sucedida atinge o valor alvo em prazo planejado, com investidores div
 
 ### Ver também
 
-[[#CAPÍTULO 13 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 13 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES)]], Captação de equity. [[#CAPÍTULO 20 — TOKENIZAÇÃO PARA FOUNDERS: ATIVOS DIGITAIS, SECURITY TOKENS E QUANDO NÃO É HYPE|Capítulo 20 (TOKENIZAÇÃO PARA FOUNDERS: ATIVOS DIGITAIS, SECURITY TOKENS E QUANDO NÃO É HYPE)]], Tokenização. [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 16 — LIQUIDEZ SECUNDÁRIA (SECONDARIES): REALIZAÇÃO PARCIAL DE CAPITAL PARA FUNDADORES, EXECUTIVOS E INVESTIDORES ANTES DO EXIT|Capítulo 16 (LIQUIDEZ SECUNDÁRIA (SECONDARIES): REALIZAÇÃO PARCIAL DE CAPITAL PARA FUNDADORES, EXECUTIVOS E INVESTIDORES ANTES DO EXIT) (Vol. 9)]], Secondary e liquidez.
+[[#CAPÍTULO 13 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 13 (Captação de Equity, Pitch e Relacionamento com Investidores)]], Captação de equity. [[#CAPÍTULO 20 — TOKENIZAÇÃO PARA FOUNDERS: ATIVOS DIGITAIS, SECURITY TOKENS E QUANDO NÃO É HYPE|Capítulo 20 (Tokenização para Founders: Ativos Digitais, Security Tokens e Quando Não É Hype)]], Tokenização. [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 16 — LIQUIDEZ SECUNDÁRIA (SECONDARIES): REALIZAÇÃO PARCIAL DE CAPITAL PARA FUNDADORES, EXECUTIVOS E INVESTIDORES ANTES DO EXIT|Capítulo 16 (Liquidez Secundária (Secondaries): Realização Parcial de Capital para Fundadores, Executivos e Investidores Antes do Exit) (Vol. 9)]], Secondary e liquidez.
 
 ---
 
@@ -8658,13 +8658,13 @@ O quadro regulatorio brasileiro de cripto-ativos esta em camadas e tres regulado
 
 **DeFi (Decentralized Finance).** Area cinza. O BACEN tem entendido que protocolo descentralizado sem operador identificavel nao se enquadra como VASP. Mas a fronteira esta em construcao e protocolo com governanca centralizada de fato (mesmo com narrativa de descentralizacao) pode ser enquadrado.
 
-Recomendacao pratica para o fundador. Antes de construir produto em cripto, mapear quatro perguntas. A natureza do token (security, utility, pagamento ou hibrido). Se ha custodia de terceiro (gatilho VASP). Se ha oferta publica ou colocacao restrita. Se ha conversao para fiat (gatilho instituicao de pagamento). As respostas determinam quais autorizacoes sao necessarias e o custo regulatorio total. Cross-ref para [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 4 — REGULATÓRIO SETORIAL BRASILEIRO|Capítulo 4 (REGULATÓRIO SETORIAL BRASILEIRO) (Vol. 10)]] (regulatorio setorial), [[#CAPÍTULO 19 — EQUITY CROWDFUNDING NO BRASIL: CAPTAÇÃO PÚBLICA DE PEQUENOS INVESTIDORES|Capítulo 19 (EQUITY CROWDFUNDING NO BRASIL: CAPTAÇÃO PÚBLICA DE PEQUENOS INVESTIDORES)]] (crowdfunding pode usar token), [[#CAPÍTULO 13 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 13 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES)]] (captacao), [[#CAPÍTULO 3 — TRIBUTÁRIO ESTRATÉGICO PARA STARTUPS|Capítulo 3 (TRIBUTÁRIO ESTRATÉGICO PARA STARTUPS)]] (tributario) e [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 14 — SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA|Capítulo 14 (SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA) (Vol. 8)]] (seguranca em wallet e custodia).
+Recomendacao pratica para o fundador. Antes de construir produto em cripto, mapear quatro perguntas. A natureza do token (security, utility, pagamento ou hibrido). Se ha custodia de terceiro (gatilho VASP). Se ha oferta publica ou colocacao restrita. Se ha conversao para fiat (gatilho instituicao de pagamento). As respostas determinam quais autorizacoes sao necessarias e o custo regulatorio total. Cross-ref para [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 4 — REGULATÓRIO SETORIAL BRASILEIRO|Capítulo 4 (Regulatório Setorial Brasileiro) (Vol. 10)]] (regulatorio setorial), [[#CAPÍTULO 19 — EQUITY CROWDFUNDING NO BRASIL: CAPTAÇÃO PÚBLICA DE PEQUENOS INVESTIDORES|Capítulo 19 (Equity Crowdfunding no Brasil: Captação Pública de Pequenos Investidores)]] (crowdfunding pode usar token), [[#CAPÍTULO 13 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 13 (Captação de Equity, Pitch e Relacionamento com Investidores)]] (captacao), [[#CAPÍTULO 3 — TRIBUTÁRIO ESTRATÉGICO PARA STARTUPS|Capítulo 3 (Tributário Estratégico para Startups)]] (tributario) e [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 14 — SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA|Capítulo 14 (Segurança da Informação: Da Certificação à Engenharia) (Vol. 8)]] (seguranca em wallet e custodia).
 
 ### Uso 1 — Captação e antecipação de recebíveis via Tokens de Renda Fixa / FIDCs Tokenizados
 
 **O que seria.** Empresa emite token que representa ação, ou direito sobre receita futura. Investidores compram token via plataforma registrada. Empresa recebe capital. Tokens ficam em carteira digital do investidor.
 
-**Por que raramente é melhor que alternativas.** Para volume pequeno (R$ 1 milhão a R$ 15 milhões), equity crowdfunding tradicional ([[#CAPÍTULO 19 — EQUITY CROWDFUNDING NO BRASIL: CAPTAÇÃO PÚBLICA DE PEQUENOS INVESTIDORES|Capítulo 19 (EQUITY CROWDFUNDING NO BRASIL: CAPTAÇÃO PÚBLICA DE PEQUENOS INVESTIDORES)]]) é mais simples, e regulatoriamente limpo. Para volume médio, ou grande (R$ 15 milhões em diante), VCs institucionais são a rota padrão. Security token exige plataforma emissora registrada, mais custódia de cripto-ativos, mais compliance adicional. Investidores sofisticados ainda preferem estrutura legal tradicional.
+**Por que raramente é melhor que alternativas.** Para volume pequeno (R$ 1 milhão a R$ 15 milhões), equity crowdfunding tradicional ([[#CAPÍTULO 19 — EQUITY CROWDFUNDING NO BRASIL: CAPTAÇÃO PÚBLICA DE PEQUENOS INVESTIDORES|Capítulo 19 (Equity Crowdfunding no Brasil: Captação Pública de Pequenos Investidores)]]) é mais simples, e regulatoriamente limpo. Para volume médio, ou grande (R$ 15 milhões em diante), VCs institucionais são a rota padrão. Security token exige plataforma emissora registrada, mais custódia de cripto-ativos, mais compliance adicional. Investidores sofisticados ainda preferem estrutura legal tradicional.
 
 **Quando pode fazer sentido.** Empresa com comunidade internacional (cripto-natives) que prefere receber tokens. Liquidez secundária via marketplace é valor percebido real (raro em fase inicial). Operação Web3, ou blockchain, onde token faz parte da narrativa.
 
@@ -8795,7 +8795,7 @@ Tokenização é sucesso quando o problema específico que a motivou foi resolvi
 
 ### Ver também
 
-[[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 4 — REGULATÓRIO SETORIAL BRASILEIRO|Capítulo 4 (REGULATÓRIO SETORIAL BRASILEIRO) (Vol. 10)]], Regulatório setorial BR. [[#CAPÍTULO 19 — EQUITY CROWDFUNDING NO BRASIL: CAPTAÇÃO PÚBLICA DE PEQUENOS INVESTIDORES|Capítulo 19 (EQUITY CROWDFUNDING NO BRASIL: CAPTAÇÃO PÚBLICA DE PEQUENOS INVESTIDORES)]], Equity crowdfunding. [[#CAPÍTULO 13 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 13 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES)]], Captação de equity.
+[[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 4 — REGULATÓRIO SETORIAL BRASILEIRO|Capítulo 4 (Regulatório Setorial Brasileiro) (Vol. 10)]], Regulatório setorial BR. [[#CAPÍTULO 19 — EQUITY CROWDFUNDING NO BRASIL: CAPTAÇÃO PÚBLICA DE PEQUENOS INVESTIDORES|Capítulo 19 (Equity Crowdfunding no Brasil: Captação Pública de Pequenos Investidores)]], Equity crowdfunding. [[#CAPÍTULO 13 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 13 (Captação de Equity, Pitch e Relacionamento com Investidores)]], Captação de equity.
 
 ---
 
@@ -8812,7 +8812,7 @@ Ben Horowitz escreve que **boas notícias devem viajar rápido, mas más notíci
 ---
 
 > [!note] Posição no livro
-> Este capítulo cobre o relacionamento com investidores **depois** que a rodada fecha. A captação (pitch, term sheet, ou carta de intenções, e closing, ou fechamento da rodada) está no [[#CAPÍTULO 13 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 13 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES)]]. O planejamento da rodada está no [[#CAPÍTULO 14 — PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO|Capítulo 14 (PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO)]]. Este capítulo começa no dia seguinte ao wire (transferência do aporte).
+> Este capítulo cobre o relacionamento com investidores **depois** que a rodada fecha. A captação (pitch, term sheet, ou carta de intenções, e closing, ou fechamento da rodada) está no [[#CAPÍTULO 13 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 13 (Captação de Equity, Pitch e Relacionamento com Investidores)]]. O planejamento da rodada está no [[#CAPÍTULO 14 — PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO|Capítulo 14 (Planejamento de Rodada como Processo: Fundraising como Projeto Estruturado)]]. Este capítulo começa no dia seguinte ao wire (transferência do aporte).
 
 ---
 
@@ -9060,7 +9060,7 @@ Um dos maiores valores do IR bem feito é que a Série A começa a ser preparada
 
 **COGS (Cost of Goods Sold).** Custo dos produtos ou serviços vendidos. Em SaaS: custos de infraestrutura, suporte e serviços diretamente vinculados à entrega. Determina a margem bruta.
 
-**Compliance.** Conformidade regulatória. Em startups, refere-se à aderência a normas de LGPD, anticorrupção, trabalhistas, fiscais e setoriais. Capítulo 12 (Vol. 8) (COMPLIANCE E ANTICORRUPÇÃO PARA STARTUPS) trata de Compliance e Anticorrupção em profundidade.
+**Compliance.** Conformidade regulatória. Em startups, refere-se à aderência a normas de LGPD, anticorrupção, trabalhistas, fiscais e setoriais. Capítulo 12 (Vol. 8) (Compliance e Anticorrupção para Startups) trata de Compliance e Anticorrupção em profundidade.
 
 **CRM (Customer Relationship Management).** Sistema de gestão de relacionamento com clientes. Registra interações, pipeline de vendas e histórico do cliente. Exemplos: Salesforce, HubSpot, Pipedrive.
 
