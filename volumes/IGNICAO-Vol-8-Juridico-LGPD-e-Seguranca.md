@@ -5941,13 +5941,15 @@ A Polícia Federal Cibercrime (DCIBER) responde, mas com capacidade limitada. Ca
 # GLOSSÁRIO E SIGLAS DESTE VOLUME
 
 > [!abstract] Vocabulário técnico e siglas deste volume
-> Para garantir que este **Volume 8** funcione de forma 100% independente e autocontida sem exigir consulta a outro livro, esta seção reúne as definições dos **64 termos técnicos e de negócios** e das **55 siglas e abreviações** utilizados ao longo das Fases e Capítulos deste volume.
+> Para garantir que este **Volume 8** funcione de forma 100% independente e autocontida sem exigir consulta a outro livro, esta seção reúne as definições dos **65 termos técnicos e de negócios** e das **56 siglas e abreviações** utilizados ao longo das Fases e Capítulos deste volume.
 
 ---
 
 ## GLOSSÁRIO E SIGLAS DESTE VOLUME
 
 ### Termos Técnicos e de Negócios Usados neste Volume
+
+**ACT (Acordo de Cooperação Técnica).** Instrumento jurídico público (Lei 14.133/2021, art. 184 e Marco Legal de CT&I) firmado entre órgãos públicos e startups/instituições privadas sem transferência de recursos financeiros, utilizado para viabilizar *Customer Discovery*, mapeamento de processos e testes de validação/pilotos em ambiente municipal ou estadual real antes da licitação.
 
 **Advisor.** Conselheiro externo que orienta o fundador em áreas específicas (técnica, comercial, regulatória, captação). Tipicamente compensado com 0,1% a 1% de equity sob contrato FAST.
 
@@ -6164,6 +6166,8 @@ A Polícia Federal Cibercrime (DCIBER) responde, mas com capacidade limitada. Ca
 **ZOPA:** Zone of Possible Agreement. *Negociação.*
 
 **ACL:** Ambiente de Contratação Livre (Mercado Livre de Energia Elétrica). *Energytech / Regulação.*
+
+**ACT:** Acordo de Cooperação Técnica (validação e piloto sem repasse financeiro). *Govtech / Setor Público.*
 
 **ANATEL:** Agência Nacional de Telecomunicações. *Regulação / Telecom e ISPs.*
 

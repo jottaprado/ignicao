@@ -7671,6 +7671,69 @@ Presença em video (Zoom, Meet) tem diferenças específicas de presença presen
 - Microfone próximo: áudio ruim em vídeo é pior do que vídeo ruim com áudio bom — se precisar escolher, invista em microfone
 - Reduzir notifications visíveis: badge de notificação aparecendo na tela durante apresentação é sinal de que há outras prioridades disputando sua atenção
 
+### Pitch cronometrado para bancas de editais, incubadoras, subvenção e Processos Seletivos Estruturados (PSE)
+
+Apresentar para uma banca de edital público, programa de incubação/aceleração (como Hub GovTech, InovAtiva, Sebrae, Cubo, Eretz.bio) ou agência de fomento (Finep, FAPESP PIPE, Centelha, BNDES) é uma disciplina radicalmente diferente de uma reunião de 30 minutos com um fundo de Venture Capital.
+
+Em uma reunião com VC, o tempo é elástico e as perguntas acontecem durante a conversa. Em um **Processo Seletivo Estruturado (PSE)** ou banca de edital, você enfrenta **duas regras implacáveis**:
+
+1. **A Guilhotina do Cronômetro (3, 5, 7 ou 10 minutos):** o tempo é uma restrição física absoluta. Quando o cronômetro zera, o microfone é cortado ou a apresentação é interrompida imediatamente, independentemente do slide em que você esteja.
+2. **A Planilha de Barema (Rubrica de Avaliação por Critérios):** os avaliadores da banca não dão uma "nota subjetiva geral". Eles têm na tela uma planilha oficial do edital com 5 a 10 critérios obrigatórios (ex: *Compreensão do Problema*, *Grau de Inovação e Estrutura da Solução*, *Nível de Validação e Evidências*, *Viabilidade Técnica e Segurança*, *Capacidade de Execução da Equipe*, *Modelo de Negócio e Próximos Passos*).
+
+> [!danger] O erro que mais elimina boas startups em bancas de seleção
+> O fundador gasta 60% do tempo nos primeiros 3 slides contando a visão macro e contextualizando o problema, se alonga na explicação conceitual e **o tempo acaba antes de chegar nos slides de Validação, Arquitetura/Segurança, Equipe e Próximos Passos**.
+>
+> O resultado é matemático e letal: mesmo que a equipe seja brilhante e já tenha conversado com clientes, **o avaliador da banca é proibido de pontuar o que não foi apresentado dentro do tempo regulamentar**. Você recebe nota baixa ou zero nos 4 últimos blocos do barema e fica fora das vagas por falha pura de gestão de pitch.
+
+#### Engenharia Reversa do Barema e a Estrutura dos 10 Blocos Cronometrados
+
+Para nunca deixar um critério de avaliação sem resposta, construa sua apresentação espelhando os **10 blocos canônicos de uma banca técnica e de negócios**, com orçamento rígido de segundos por bloco:
+
+| Bloco | O que precisa ficar cristalino no slide e na fala | Tempo em Pitch de 5 min (300s) | Tempo em Pitch de 10 min (600s) |
+|---|---|---|---|
+| **1. Problema e Recorte** | Qual problema concreto está sendo resolvido, onde ele acontece, quem sofre a dor e qual é o recorte inicial (*caso de uso específico*). | **30s** | **60s** |
+| **2. Evidência do Problema** | Que dados quantitativos, pesquisas próprias ou entrevistas provam que esse problema existe, é frequente e custa caro? | **30s** | **60s** |
+| **3. Contexto e Processo Atual** | Como esse processo funciona hoje na prática (*AS-IS*), quais áreas/sistemas legados participam e por que as soluções atuais falham? | **30s** | **60s** |
+| **4. Solução Proposta** | O que exatamente a sua empresa propõe e qual é o diferencial direto frente às alternativas existentes? | **30s** | **60s** |
+| **5. Funcionamento (Jornada Operacional)** | Como a solução opera passo a passo: *Entrada de dados → Processamento → Ação do sistema → Ação humana → Integração → Resultado*. | **45s** | **90s** |
+| **6. Validação Realizada** | Onde, como e com quem a proposta já foi testada? Qual degrau da **Escada de Evidências** você já atingiu (entrevistas, protótipo testado, piloto, clientes)? | **30s** | **60s** |
+| **7. Arquitetura e Segurança** | Como a solução opera de forma segura, onde é hospedada, como integra com sistemas legados e como trata LGPD, controle de acesso e logs? | **30s** | **60s** |
+| **8. Equipe e Capacidade de Execução** | Quem executará o projeto, quais competências técnicas e de domínio possui, o que já está pronto hoje e por que esse time dá conta desse escopo? | **30s** | **60s** |
+| **9. Modelo de Negócio e Contratação** | Quem paga, quanto custa, qual é a unidade econômica e (se B2G/Enterprise) por qual modalidade jurídica o cliente contrata? | **20s** | **45s** |
+| **10. Próximos Passos (Hipóteses)** | Quais são as 3 ou 4 hipóteses críticas que serão validadas nos próximos meses e com qual meta objetiva de experimento? | **25s** | **45s** |
+
+#### Como Demonstrar Capacidade de Execução (*Coerência Desafio × Time*)
+
+Um motivo recorrente de reprovação em bancas e comitês de investimento é a **assimetria entre a ambição do problema apresentado e a capacidade demonstrada de execução**. Se você apresenta um problema gigantesco, mas não deixa claro quem vai construir, o que já existe e como vai entregar os próximos 90 dias, a banca conclui que o projeto não sairá do papel.
+
+No seu Bloco 8 (*Equipe e Capacidade de Execução*), nunca coloque apenas fotos com cargos genéricos (*CEO, CTO, COO*). Explicite obrigatoriamente estas **9 evidências de execução**:
+
+1. **Quem compõe a equipe core** e qual é a dedicação real de cada integrante;
+2. **Papel operacional exato** de cada pessoa no ciclo atual;
+3. **Competências técnicas instaladas dentro de casa** (engenharia, dados, segurança, produto);
+4. **Competências de negócio e domínio setorial** (experiência prévia no setor-alvo, vendas complexas, regulação);
+5. **Experiências anteriores diretamente conectadas ao problema** (por que este time tem vantagem injusta neste tema);
+6. **O que JÁ foi desenvolvido e validado até hoje** (transparência total sobre o estágio atual: conceito, protótipo, MVP funcional ou produto em produção);
+7. **O que AINDA precisa ser desenvolvido** para o primeiro caso de uso;
+8. **Quais recursos e parcerias são necessários** (e como o programa/edital ou rodada se encaixa nisso);
+9. **Entregas concretas dos próximos 3 a 6 meses**, demonstrando que o escopo inicial foi recortado para caber perfeitamente na capacidade atual do time.
+
+#### Como Estruturar o Slide de "Próximos Passos" Orientado a Hipóteses
+
+Nunca encerre um pitch de estágio inicial ou de incubação com um roadmap genérico de funcionalidades (*"Mês 1: Módulo Financeiro; Mês 2: App iOS; Mês 3: Expansão Nacional"*). Avaliadores experientes sabem que construir software antes de validar premissas é desperdício de capital.
+
+Estruture seus **Próximos Passos** sempre como uma **Matriz de Desbloqueio de Incertezas**, conectando cada prioridade imediata a uma hipótese falsificável e a um experimento concreto:
+
+| Prioridade | Hipótese Crítica a Validar | Ação / Experimento de Validação (Próximos 60–90 dias) | Evidência / Indicador de Sucesso (Critério de Passagem) |
+|---|---|---|---|
+| **Passo 1 (Problema e Processo)** | **H1:** O gargalo operacional ocorre da forma mapeada e gera custo crítico para a área X. | Realizar 15 entrevistas estruturadas com gestores e operadores da ponta em 5 organizações/municípios-alvo. | Mapa do processo *AS-IS* validado + confirmação quantitativa da dor em $ge 70%$ dos entrevistados. |
+| **Passo 2 (Solução e Usabilidade)** | **H2:** O fluxo proposto resolve o gargalo principal sem gerar retrabalho para o operador. | Testar protótipo navegável da jornada operacional com 10 usuários reais executando a tarefa crítica. | Taxa de conclusão da tarefa $ge 80%$ e redução demonstrada no tempo de execução do fluxo. |
+| **Passo 3 (Viabilidade Técnica e TI)** | **H3:** A arquitetura, segurança e modelo de integração são aceitáveis para a TI do cliente/órgão. | Submeter o Dossiê Técnico de 10 Pontos à avaliação de 3 diretores/equipes de TI do setor-alvo. | Requisitos técnicos e de segurança (LGPD/logs/APIs) validados sem bloqueios arquiteturais impeditivos. |
+| **Passo 4 (Adoção Institucional)** | **H4:** Existe interesse concreto de implantação em um caso de uso delimitado. | Formalizar 1 a 2 cartas de manifestação de interesse, Acordo de Cooperação Técnica (ACT) ou contrato-piloto. | Piloto iniciado em ambiente real com linha de base (*baseline*) medida antes da implantação. |
+
+> [!tip] O Protocolo do Cronômetro Impiedoso
+> Ensaie a apresentação em voz alta com um cronômetro regressivo visível na tela até conseguir concluir os **10 blocos com 30 segundos de folga** (ex: terminar em **4min30s** para uma banca de 5 minutos, ou em **9min00s** para uma banca de 10 minutos). Marque checkpoints de tempo nos slides 3, 6 e 8: se no minuto 3 você ainda não chegou ao slide 6, corte imediatamente os exemplos secundários e avance para garantir que Validação, Arquitetura/Segurança, Equipe e Próximos Passos sejam sempre apresentados por inteiro.
+
 ### Armadilhas
 
 > [!warning] Armadilhas de apresentação
@@ -8145,13 +8208,15 @@ A primeira é networking superficial em escala. LinkedIn com cinco mil conexões
 # GLOSSÁRIO E SIGLAS DESTE VOLUME
 
 > [!abstract] Vocabulário técnico e siglas deste volume
-> Para garantir que este **Volume 1** funcione de forma 100% independente e autocontida sem exigir consulta a outro livro, esta seção reúne as definições dos **80 termos técnicos e de negócios** e das **55 siglas e abreviações** utilizados ao longo das Fases e Capítulos deste volume.
+> Para garantir que este **Volume 1** funcione de forma 100% independente e autocontida sem exigir consulta a outro livro, esta seção reúne as definições dos **83 termos técnicos e de negócios** e das **57 siglas e abreviações** utilizados ao longo das Fases e Capítulos deste volume.
 
 ---
 
 ## GLOSSÁRIO E SIGLAS DESTE VOLUME
 
 ### Termos Técnicos e de Negócios Usados neste Volume
+
+**ACT (Acordo de Cooperação Técnica).** Instrumento jurídico público (Lei 14.133/2021, art. 184 e Marco Legal de CT&I) firmado entre órgãos públicos e startups/instituições privadas sem transferência de recursos financeiros, utilizado para viabilizar *Customer Discovery*, mapeamento de processos e testes de validação/pilotos em ambiente municipal ou estadual real antes da licitação.
 
 **ACV (Annual Contract Value).** Valor anual de um contrato com cliente. Usado em vendas B2B para dimensionar deals e calcular receita por cliente.
 
@@ -8229,6 +8294,8 @@ A primeira é networking superficial em escala. LinkedIn com cinco mil conexões
 
 **Headcount.** Número total de funcionários de uma empresa.
 
+**Hipótese falsificável.** Hipótese que pode ser refutada por evidência observável. Hipóteses não-falsificáveis são crenças, não hipóteses científicas. Central na metodologia do livro.
+
 **ICP (Ideal Customer Profile).** Perfil ideal do cliente: a empresa ou pessoa para quem o produto foi especificamente construído e que extrai mais valor dele. Mais específico que persona, que é mais específico que segmento.
 
 **IP (Intellectual Property).** Propriedade intelectual: patentes, marcas registradas, código-fonte, segredos comerciais. Em startups, instrumento de cessão de IP do fundador para a empresa é cláusula obrigatória de contrato societário.
@@ -8264,6 +8331,8 @@ A primeira é networking superficial em escala. LinkedIn com cinco mil conexões
 **Onboarding.** Processo de entrada e ativação de um novo usuário ou colaborador. Onboarding de cliente: caminho do cadastro até o "aha moment". Onboarding de funcionário: integração nas primeiras 4-12 semanas.
 
 **Outbound.** Motion de vendas onde a empresa ativamente prospecta clientes, em vez de esperar inbound. Inclui cold outreach, SDRs e prospecção ativa.
+
+**PSE (Processo Seletivo Estruturado).** Rito formal de avaliação por banca e barema de pontuação utilizado por hubs de incubação pública, aceleradoras setoriais e agências de fomento no Brasil para selecionar startups com base em evidências de validação do problema, estruturação operacional da solução, viabilidade técnica/segurança e capacidade de execução da equipe.
 
 **Pivot.** Mudança estrutural de uma ou mais dimensões do modelo de negócio (cliente, problema, solução, canal, modelo de receita) mantendo aprendizados anteriores. Diferente de pivô cosmético (renomear) e de "abandonar".
 
@@ -8419,6 +8488,8 @@ A primeira é networking superficial em escala. LinkedIn com cinco mil conexões
 
 **ZOPA:** Zone of Possible Agreement. *Negociação.*
 
+**ACT:** Acordo de Cooperação Técnica (validação e piloto sem repasse financeiro). *Govtech / Setor Público.*
+
 **ANATEL:** Agência Nacional de Telecomunicações. *Regulação / Telecom e ISPs.*
 
 **ANVISA:** Agência Nacional de Vigilância Sanitária. *Regulação / Saúde, Alimentos, Cosméticos e Agro.*
@@ -8426,3 +8497,5 @@ A primeira é networking superficial em escala. LinkedIn com cinco mil conexões
 **CVC:** Corporate Venture Capital. *Economia da Inovação / Investimentos.*
 
 **MAPA:** Ministério da Agricultura e Pecuária. *Regulação / Agronegócio e Bioinsumos.*
+
+**PSE:** Processo Seletivo Estruturado (bancas de editais e incubação). *Aceleradoras / Fomento / Govtech.*

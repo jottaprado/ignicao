@@ -119,6 +119,11 @@ const {
   enrichRawGlossaryBody,
   enrichRawAbbrevBody,
 } = require('./vol10_reference_additions');
+const {
+  enrichGovtechBody,
+  enrichPitchBody,
+  enrichAcceleratorsBody,
+} = require('./govtech_banca_additions');
 
 const origHeadingBA = rawSections.get('BA').heading;
 const origHeadingDH = rawSections.get('DH').heading;
@@ -146,6 +151,18 @@ rawSections.set('BA', {
   heading: VOL5_VOL6_VOL9_EXTRAS.MERGED_BA.heading.trim(),
   body: VOL5_VOL6_VOL9_EXTRAS.MERGED_BA.body.trim(),
 });
+if (rawSections.has('DK')) {
+  const dk = rawSections.get('DK');
+  dk.body = enrichGovtechBody(dk.body);
+}
+if (rawSections.has('EX')) {
+  const ex = rawSections.get('EX');
+  ex.body = enrichPitchBody(ex.body);
+}
+if (rawSections.has('AZ')) {
+  const az = rawSections.get('AZ');
+  az.body = enrichAcceleratorsBody(az.body);
+}
 console.log(`      Novos capítulos de Economia da Inovação, Hubs, Verticais, Comex, Franchising e Ciclo Empreendedor carregados: ${Object.keys(vol10NewModules).length} (esperado: 40)`);
 
 // ---------------------------------------------------------------------------

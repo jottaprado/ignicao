@@ -21,6 +21,7 @@ Com **10 volumes, 21 fases, 180 capítulos e 42 playbooks setoriais (~990 mil pa
 
 const EXTRA_GLOSSARY_BY_LETTER = {
   A: [
+    `**ACT (Acordo de Cooperação Técnica).** Instrumento jurídico público (Lei 14.133/2021, art. 184 e Marco Legal de CT&I) firmado entre órgãos públicos e startups/instituições privadas sem transferência de recursos financeiros, utilizado para viabilizar *Customer Discovery*, mapeamento de processos e testes de validação/pilotos em ambiente municipal ou estadual real antes da licitação.`,
     `**Arco Norte.** Complexo logístico-portuário brasileiro localizado acima do paralelo 16°S (portos de Itaqui/MA, Barcarena/PA, Santarém/PA, Santana/AP e estações de transbordo hidroviário de Miritituba/Rio Tapajós e Porto Velho/Rio Madeira), responsável por escoar mais de um terço da safra de grãos do Centro-Oeste e Matopiba.`,
   ],
   B: [
@@ -67,6 +68,7 @@ const EXTRA_GLOSSARY_BY_LETTER = {
   ],
   P: [
     `**Productized Service (Serviço Produtizado).** Serviço B2B ou B2C empacotado como se fosse um produto de software: escopo fechado, entregável padronizado, preço fixo mensal recorrente, SLA definido e procedimentos operacionais padrão (SOPs), servindo como ponte de *bootstrapping* para financiar a criação de um SaaS próprio.`,
+    `**PSE (Processo Seletivo Estruturado).** Rito formal de avaliação por banca e barema de pontuação utilizado por hubs de incubação pública, aceleradoras setoriais e agências de fomento no Brasil para selecionar startups com base em evidências de validação do problema, estruturação operacional da solução, viabilidade técnica/segurança e capacidade de execução da equipe.`,
   ],
   R: [
     `**Rental (Locação Pesada de Ativos).** Modelo de negócios intensivo em capital baseado na compra de frotas de caminhões, máquinas de linha amarela, equipamentos agrícolas ou industriais com desconto de montadora (OEM), locação de longo prazo (36 a 60 meses) dedutível como OpEx no Lucro Real do cliente e posterior revenda do ativo seminovo.`,
@@ -89,6 +91,7 @@ const EXTRA_GLOSSARY_BY_LETTER = {
 
 const EXTRA_ABBREVS = [
   `**ACL**: Ambiente de Contratação Livre (Mercado Livre de Energia Elétrica). *Energytech / Regulação.*`,
+  `**ACT**: Acordo de Cooperação Técnica (validação e piloto sem repasse financeiro). *Govtech / Setor Público.*`,
   `**ANA**: Agência Nacional de Águas e Saneamento Básico. *Regulação / Irrigação e Saneamento.*`,
   `**ANAC**: Agência Nacional de Aviação Civil. *Regulação / Aerospace e Drones.*`,
   `**ANATEL**: Agência Nacional de Telecomunicações. *Regulação / Telecom e ISPs.*`,
@@ -129,6 +132,7 @@ const EXTRA_ABBREVS = [
   `**OEE**: Overall Equipment Effectiveness (Eficiência Global do Equipamento). *Indústria 4.0 / Manufatura.*`,
   `**OPME**: Órteses, Próteses e Materiais Especiais. *Saúde Física / Hospitais e Odontologia.*`,
   `**PNRS**: Política Nacional de Resíduos Sólidos (Lei 12.305/2010). *Gestão de Resíduos / Economia Circular.*`,
+  `**PSE**: Processo Seletivo Estruturado (bancas de editais e incubação). *Aceleradoras / Fomento / Govtech.*`,
   `**RWA**: Real World Assets (Ativos Reais Tokenizados). *Wealthtech / Mercado de Capitais.*`,
   `**SAF**: Sustainable Aviation Fuel (Combustível Sustentável de Aviação). *Biocombustíveis / Aviação.*`,
   `**SCD / SEP**: Sociedade de Crédito Direto / Sociedade de Empréstimo entre Pessoas. *Fintech / Regulação BACEN.*`,
@@ -175,7 +179,7 @@ const EXTRA_INDEX_REMISSIVO_SECTION = `
 - **Funerário (Setor), Cemitérios, Crematórios, Planos de Assistência Familiar e DeathTech**: [[#CAPÍTULO 38 — SETOR FUNERÁRIO, CEMITÉRIOS, CREMATÓRIOS, PLANOS DE ASSISTÊNCIA FAMILIAR, DEATHTECH E SUCESSÃO|Capítulo 38 (Vol. 10)]]
 - **Gaming, Estúdios de Jogos, E-Sports e Apostas Reguladas (iGaming/Bets)**: [[#CAPÍTULO 48 — GAMING, ESTÚDIOS DE JOGOS, E-SPORTS, APOSTAS REGULADAS (IGAMING/BETS) E ECONOMIA VIRTUAL|Capítulo 48 (Vol. 10)]]
 - **Geografia Mundial da Inovação e os 15 Hubs de Inovação do Brasil**: [[#CAPÍTULO 2 — GEOGRAFIA MUNDIAL DA INOVAÇÃO: CONTINENTES, ESPECIALIZAÇÃO, VANTAGENS COMPETITIVAS E HUBS GLOBAIS E BRASILEIROS|Capítulo 2 (Vol. 10)]]
-- **Govtech (Vendas para Governo, Lei 14.133/2021 e CPSI)**: [[#CAPÍTULO 32 — GOVTECH: STARTUP VENDENDO PARA GOVERNO|Capítulo 32 (Vol. 10)]]
+- **Govtech (Vendas para Governo, Discovery Público, Dossiê de TI/Segurança, ACT, Lei 14.133/2021 e CPSI)**: [[#CAPÍTULO 32 — GOVTECH: STARTUP VENDENDO PARA GOVERNO|Capítulo 32 (Vol. 10)]]
 - **Hardware, IoT, Robótica e Deep Tech Física**: [[#CAPÍTULO 21 — HARDWARE E DEEP TECH: CONSTRUIR NEGÓCIO COM FABRICAÇÃO, IP E HORIZONTES LONGOS|Capítulo 21 (Vol. 10)]]
 - **Horizontal B2B SaaS, ERPs e Automação de Backoffice para PMEs**: [[#CAPÍTULO 39 — HORIZONTAL B2B SAAS, ERPS, PRODUTIVIDADE, AUTOMAÇÃO DE BACKOFFICE E PMES|Capítulo 39 (Vol. 10)]]
 - **HRTech, Folha de Pagamento, Benefícios Flexíveis e Recrutamento**: [[#CAPÍTULO 45 — HRTECH, FOLHA DE PAGAMENTO, BENEFÍCIOS FLEXÍVEIS, RECRUTAMENTO E FUTURE OF WORK|Capítulo 45 (Vol. 10)]]
