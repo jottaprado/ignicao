@@ -21,6 +21,34 @@ const fs = require('fs');
 const path = require('path');
 const { execFileSync } = require('child_process');
 const { DOMAIN_INTROS } = require('./domain_intros');
+const {
+  NOTA_DO_AUTOR_V5,
+  APRESENTACAO_ARQUETIPOS_MD,
+  transformFrameworkToOficina,
+  transformCanvasToOficina,
+  applyNarrativeRefactor,
+} = require('./narrative_bible');
+const { NARRATIVE_VOL1 } = require('./narrative_vol1_refactor');
+const { NARRATIVE_VOL2_VOL4 } = fs.existsSync(path.join(__dirname, 'narrative_vol2_vol4_refactor.js'))
+  ? require('./narrative_vol2_vol4_refactor')
+  : { NARRATIVE_VOL2_VOL4: {} };
+const { NARRATIVE_VOL5_VOL6 } = fs.existsSync(path.join(__dirname, 'narrative_vol5_vol6_refactor.js'))
+  ? require('./narrative_vol5_vol6_refactor')
+  : { NARRATIVE_VOL5_VOL6: {} };
+const { NARRATIVE_VOL7_VOL9 } = fs.existsSync(path.join(__dirname, 'narrative_vol7_vol9_refactor.js'))
+  ? require('./narrative_vol7_vol9_refactor')
+  : { NARRATIVE_VOL7_VOL9: {} };
+const { NARRATIVE_VOL10 } = fs.existsSync(path.join(__dirname, 'narrative_vol10_refactor.js'))
+  ? require('./narrative_vol10_refactor')
+  : { NARRATIVE_VOL10: {} };
+
+const ALL_NARRATIVE_SPECS = {
+  ...NARRATIVE_VOL1,
+  ...NARRATIVE_VOL2_VOL4,
+  ...NARRATIVE_VOL5_VOL6,
+  ...NARRATIVE_VOL7_VOL9,
+  ...NARRATIVE_VOL10,
+};
 
 const ROOT = path.resolve(__dirname, '..');
 const VOLUMES_DIR = path.join(ROOT, 'volumes');
@@ -65,8 +93,7 @@ for (const relPath of BASE_VOLS) {
   }).replace(/\r\n/g, '\n');
 
   if (relPath.includes('Vol-1-')) {
-    const mNota = raw.match(/## Nota do autor\n[\s\S]*?(?=\n---\n\n## Sobre este livro)/);
-    if (mNota) notaDoAutorBody = mNota[0].trim();
+    notaDoAutorBody = NOTA_DO_AUTOR_V5;
   }
 
   const lines = raw.split('\n');
@@ -209,7 +236,9 @@ const bgRegex = /^## (BG\.\d+\.\d+) — ([^\n]+)\n([\s\S]*?)(?=\n## BG\.|\n# |(?
 for (const m of bgRaw.matchAll(bgRegex)) {
   const code = m[1].trim();
   const title = m[2].trim();
-  const inner = demoteHeadings(m[3].trim().replace(/(?:\n+---)+\s*$/, ''), 2);
+  const inner = transformFrameworkToOficina(
+    demoteHeadings(m[3].trim().replace(/(?:\n+---)+\s*$/, ''), 2)
+  );
   const heading = `Framework: ${title}`;
   bgItems.set(code, {
     code,
@@ -227,7 +256,9 @@ const czRegex = /^### (CZ\.\d+) — ([^\n]+)\n([\s\S]*?)(?=\n### CZ\.|(?![\s\S])
 for (const m of czRaw.matchAll(czRegex)) {
   const code = m[1].trim();
   const title = m[2].trim();
-  const inner = demoteHeadings(m[3].trim().replace(/(?:\n+---)+\s*$/, ''), 1);
+  const inner = transformCanvasToOficina(
+    demoteHeadings(m[3].trim().replace(/(?:\n+---)+\s*$/, ''), 1)
+  );
   const heading = `Canvas: ${title}`;
   czItems.set(code, {
     code,
@@ -1113,15 +1144,18 @@ Para completar a arquitetura de escala e maturidade da sua companhia, siga para 
     }
   }
 
-  if (blocks.length === 0) return body;
+  if (blocks.length === 0) {
+    return applyNarrativeRefactor(phaseKey, body, ALL_NARRATIVE_SPECS);
+  }
 
   const injected = '\n\n---\n\n' + blocks.join('\n\n---\n\n') + '\n\n---\n\n';
   const sinteseMatch = body.match(/\n### SÍNTESE DA FASE \d+/);
   if (sinteseMatch) {
     const idx = sinteseMatch.index;
-    return body.slice(0, idx) + injected + body.slice(idx + 1);
+    const withBlocks = body.slice(0, idx) + injected + body.slice(idx + 1);
+    return applyNarrativeRefactor(phaseKey, withBlocks, ALL_NARRATIVE_SPECS);
   }
-  return body + injected;
+  return applyNarrativeRefactor(phaseKey, body + injected, ALL_NARRATIVE_SPECS);
 }
 
 // Função que transforma um antigo APÊNDICE XX em CAPÍTULO N — TÍTULO e injeta extras
@@ -1215,6 +1249,8 @@ function buildChapterSection(oldKey, chapNum, rawSection) {
       body = body + '\n\n---\n\n' + extraBlocks.join('\n\n---\n\n');
     }
   }
+
+  body = applyNarrativeRefactor(oldKey, body, ALL_NARRATIVE_SPECS);
 
   return {
     oldKey,
@@ -1891,6 +1927,10 @@ A coleção está organizada em **10 volumes focais**:
 
 ---
 
+${APRESENTACAO_ARQUETIPOS_MD}
+
+---
+
 ${FAST_TRACKS_MD}`;
 
 // Mapas de resolução de links e referências
@@ -2328,7 +2368,9 @@ for (const vSpec of VOLUMES_SPEC) {
       } else if (item.type === 'ref') {
         const origSec = rawSections.get(item.key);
         let refBody = origSec.body.replace(/^## [^\n]+/m, `## ${item.newHeading}`);
-        if (item.key === 'APÊNDICE — DATA DE COMPILAÇÃO E NOTA SOBRE ENVELHECIMENTO') {
+        if (item.key === 'EPÍLOGO') {
+          refBody = applyNarrativeRefactor('EPÍLOGO', refBody, ALL_NARRATIVE_SPECS);
+        } else if (item.key === 'APÊNDICE — DATA DE COMPILAÇÃO E NOTA SOBRE ENVELHECIMENTO') {
           refBody = refBody.replace(/\n+---\n+\*Consulta vitalícia\*[\s\S]*$/, '');
         } else if (item.key === 'APÊNDICE: BIBLIOGRAFIA' || item.key === 'APÊNDICE — BIBLIOGRAFIA UNIFICADA') {
           refBody = refBody
@@ -2440,13 +2482,13 @@ title: "${vSpec.title}"
 subtitle: "${vSpec.subtitle}"
 author: "João Prado"
 date: 2026
-version: "4.0"
+version: "5.0"
 volume: ${vSpec.num}
-collection: "IGNIÇÃO — O manual operacional do empreendedor brasileiro (10 Volumes Autocontidos)"
+collection: "IGNIÇÃO — O manual operacional do empreendedor brasileiro (10 Volumes Autocontidos — Edição Narrativa)"
 language: pt-BR
 ---`;
 
-  let headerBlock = `# ${vSpec.title}\n\n**${vSpec.subtitle}**\n\n*João Prado · 2026 — Edição Autocontida (v4.0)*\n\n---\n\n`;
+  let headerBlock = `# ${vSpec.title}\n\n**${vSpec.subtitle}**\n\n*João Prado · 2026 — Edição Narrativa Autocontida (v5.0)*\n\n---\n\n`;
   if (vSpec.num === 1) {
     headerBlock += `${notaDoAutorBody}\n\n---\n\n${SOBRE_ESTE_LIVRO_V1}\n\n---\n\n## Mapa da Coleção IGNIÇÃO\n\n${COLLECTION_MAP_MERMAID}\n\n---\n\n## Sumário deste Volume\n\n${tocLines.join('\n')}\n\n---\n\n`;
   } else {
