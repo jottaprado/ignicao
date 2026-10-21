@@ -82,6 +82,8 @@ graph LR
 - [[#CAPÍTULO 18 — CAPITAL DE GIRO E RECEBÍVEIS|CAPÍTULO 18 — CAPITAL DE GIRO E RECEBÍVEIS]]
 - [[#CAPÍTULO 19 — RELAÇÕES BANCÁRIAS E CRÉDITO NO BRASIL|CAPÍTULO 19 — RELAÇÕES BANCÁRIAS E CRÉDITO NO BRASIL]]
 - [[#CAPÍTULO 20 — GESTÃO DE RISCO E SEGUROS PARA STARTUPS|CAPÍTULO 20 — GESTÃO DE RISCO E SEGUROS PARA STARTUPS]]
+### Glossário e Siglas deste Volume
+- [[#Glossário e Siglas deste Volume|GLOSSÁRIO E SIGLAS DESTE VOLUME]]
 
 ---
 
@@ -179,7 +181,7 @@ Em 2021 e 2022, o mercado premiava crescimento a qualquer custo. Desde 2023, pre
 
 ### Aquisições como Comprador, quando a startup vira compradora
 
-> [!tip] Tratamento aprofundado em apêndice próprio
+> [!tip] Tratamento aprofundado em capítulo próprio
 > A [[IGNICAO-Vol-9-Maturidade-e-Exit#FASE 20 — ESTRATÉGIA DE SAÍDA (EXIT STRATEGY)|Fase 20 (Vol. 9)]] cobre aquisição como evento de **exit** (quando você vende a sua empresa). O caso inverso — startup pós-PMF como **adquirente** — é movimento que, bem-feito, multiplica velocidade; mal-feito, destrói valor mais rápido que qualquer outra decisão estratégica. O detalhamento operacional completo (três condições para considerar, três tipos de aquisição com preços e cuidados, processo em seis passos, estrutura típica de deal, modelos de integração, alternativas a M&A) está consolidado no [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 14 — M&A ATIVO E ROLL-UPS: FUNDADOR COMO COMPRADOR|Capítulo 14 — M&A como Comprador (Vol. 9)]]. Aqui, três pontos operacionais essenciais para a Fase 14.
 
 **Três condições inegociáveis para considerar M&A.** PMF sólido com unit economics saudáveis (M&A não é resposta para fraqueza estratégica, é amplificador de força que já existe); caixa ou equity forte para pagar (pós-rodada, múltiplos em alta, ou equity com liquidez programada); tese estratégica clara escrita em uma página antes de procurar alvo (por que essa aquisição é melhor que build interno ou parceria; "ganhamos velocidade" é resposta fraca — velocidade para onde?).
@@ -969,7 +971,7 @@ A: Vamos reduzir o time em 20%, focando nas áreas de produto
 ```
 
 **SCQA no board deck:**
-No slide de "Roadblocks e Riscos" do board deck (Template: Board Deck (Apresentação para o Conselho) (Fase 20, Vol. 9)), cada problema deve ser apresentado em formato SCQA implícito: a célula "Risco / problema" é a Complication; "Mitigação atual" é a resposta parcial; "Ajuda necessária do board" é a Question. Quando o board member lê o slide, ele já vê Situation (conhece a empresa), Complication (o problema), e sabe que a questão é "o que fazemos". Sua resposta é a Answer colaborativa.
+No slide de "Roadblocks e Riscos" do board deck (Template: Board Deck (Apresentação para o Conselho) (Fase 14)), cada problema deve ser apresentado em formato SCQA implícito: a célula "Risco / problema" é a Complication; "Mitigação atual" é a resposta parcial; "Ajuda necessária do board" é a Question. Quando o board member lê o slide, ele já vê Situation (conhece a empresa), Complication (o problema), e sabe que a questão é "o que fazemos". Sua resposta é a Answer colaborativa.
 
 ##### Extensão B — Strategic Narrative Framework (Andy Raskin)
 
@@ -1060,7 +1062,7 @@ Em comunicações operacionais internas (status report para time, reunião de sp
 
 ##### Conexão com outros canvases
 
-O Storytelling Canvas **usa como insumo o BMC (Fase 2, Vol. 1)** — os blocos "Segmento de Clientes" e "Proposta de Valor" do BMC alimentam Herói e Virada. **Usa o VPC (Fase 5, Vol. 2)** — os Pains do Customer Profile alimentam "Problema / Tensão"; os Gain Creators alimentam "Mundo depois". **Usa métricas do Pirate Canvas (Fase 11, Vol. 4)** para o bloco "Evidências" — tração real preenche o que sem AARRR seria só afirmação.
+O Storytelling Canvas **usa como insumo o BMC (Fase 2)** — os blocos "Segmento de Clientes" e "Proposta de Valor" do BMC alimentam Herói e Virada. **Usa o VPC (Fase 5)** — os Pains do Customer Profile alimentam "Problema / Tensão"; os Gain Creators alimentam "Mundo depois". **Usa métricas do Pirate Canvas (Fase 11)** para o bloco "Evidências" — tração real preenche o que sem AARRR seria só afirmação.
 
 ##### Leitura adicional
 
@@ -1624,6 +1626,103 @@ Regras:
 - **Crie urgência real.** Múltiplas conversas paralelas criam competição natural. Artificiar urgência sem base (falso deadline) destrói confiança.
 - **Documente tudo.** Cada reunião: o que foi dito, o que o investidor pediu, próxima ação combinada. CRM simples funciona (planilha ou Notion).
 - **Proteja o tempo.** Bloquear 3–4h por dia para captação é suficiente para a maioria dos processos. Fundador que passa 100% do tempo levantando capital destrói o produto que está vendendo.
+
+---
+
+#### Template: Board Deck (Apresentação para o Conselho)
+
+> [!note] Quando usar
+> Reunião trimestral ou mensal de board. Contexto: fundador apresentando para conselheiros e investidores com assento. Não é pitch — o board já acredita na empresa. É atualização operacional com decisões reais na mesa.
+
+> [!tip] Regra de ouro
+> Board deck não é documento de relações públicas. Problemas escondidos viram surpresas ruins seis meses depois. Mostre o que está indo mal com a mesma clareza do que está indo bem.
+
+##### Estrutura-padrão (12–18 slides / ~60 min de reunião)
+
+**Capa**
+
+- Nome da empresa · Data · Período de referência (ex: Q2 2026)
+- Confidencial — não circular
+
+**1. Headline do trimestre (1 slide)**
+
+- Uma frase: o que mais importou neste trimestre
+- 3 bullets: maior vitória, maior aprendizado, decisão crítica a tomar hoje
+
+**2. Métricas-chave (1–2 slides)**
+
+| Métrica | Meta Q[N] | Real Q[N] | Δ% | Tendência |
+|---|---|---|---|---|
+| MRR / ARR | `[R$ ___]` | `[R$ ___]` | `[___]%` | `[↑ / → / ↓]` |
+| Clientes ativos | `[___]` | `[___]` | `[___]%` | `[↑ / → / ↓]` |
+| Churn (MoM) | `[___]%` | `[___]%` | `[___]pp` | `[↑ / → / ↓]` |
+| CAC | `[R$ ___]` | `[R$ ___]` | `[___]%` | `[↑ / → / ↓]` |
+| LTV / CAC | `[___x]` | `[___x]` | `[___]` | `[↑ / → / ↓]` |
+| Burn rate (MoM) | `[R$ ___]` | `[R$ ___]` | `[___]%` | `[↑ / → / ↓]` |
+| Runway | `[___ meses]` | `[___ meses]` | — | `[↑ / → / ↓]` |
+
+> Inclua apenas as métricas relevantes para o estágio. Pre-PMF: ativação e retenção. Pós-PMF: crescimento e eficiência. Escala: eficiência e margem.
+
+**3. Financeiro (1–2 slides)**
+
+- P&L simplificado: receita, COGS, gross margin, opex, EBITDA (ou queima)
+- Cashflow: saldo inicial, entradas, saídas, saldo final
+- Projeção para os próximos 3 meses vs. orçamento
+- Variações relevantes: o que saiu fora do plano e por quê
+
+**4. Produto e tecnologia (1 slide)**
+
+- O que foi entregue no trimestre (top 3 itens)
+- O que está em construção agora (com ETA)
+- Dívida técnica ou incidentes relevantes: `[descrição + status de resolução]`
+
+**5. Time (1 slide)**
+
+- Headcount: início do trimestre vs. final vs. plano
+- Contratações críticas abertas: `[cargo] — prioridade [alta/média]`
+- Saídas relevantes e impacto
+- Nível de engajamento / resultado de pesquisa interna (se houver)
+
+**6. GTM e clientes (1–2 slides)**
+
+- Pipeline: `[R$ ___]` (top of funnel) → `[R$ ___]` (forecast 90d)
+- Deals fechados no trimestre: destaque para logo / tamanho / vertical
+- Churn e downgrade: causas, padrão, ação
+- NPS ou CSAT: `[___]` (vs. último período: `[___]`)
+
+**7. Roadblocks e riscos (1 slide)**
+
+> [!warning] Este slide é o mais importante
+> Liste os 3–5 problemas reais que impedem crescimento. Para cada um: causa-raiz, o que já foi tentado, o que você precisa do board.
+
+| Risco / problema | Probabilidade | Impacto | Mitigação atual | Ajuda necessária do board |
+|---|---|---|---|---|
+| `[Descrever]` | `[Alta/Média/Baixa]` | `[Alto/Médio/Baixo]` | `[Ação em curso]` | `[Sim/Não — o quê]` |
+
+**8. Decisões para o board (1 slide)**
+
+> Itens que requerem aprovação formal ou input estratégico dos conselheiros. Não é espaço para validação — é espaço para decidir.
+
+- [ ] `[Decisão 1]`: proposta do management → `[___]` · Opções: `[A / B / C]`
+- [ ] `[Decisão 2]`: proposta do management → `[___]` · Opções: `[A / B]`
+
+**9. Próximo trimestre (1 slide)**
+
+- Top 3 prioridades com responsável e métrica de sucesso
+- OKRs ou metas do período
+- Eventos críticos: captação, lançamento, evento regulatório, renovação de contrato
+
+**10. Apêndices (opcional)**
+
+- Detalhes de cohort, unit economics, pipeline por vertical, forecast detalhado
+- Não ler na reunião — existem para perguntas
+
+##### Dicas de facilitação
+
+- Envie o deck **72h antes** da reunião para os conselheiros lerem
+- Reserve os primeiros 10 min para perguntas sobre o material, não para apresentar
+- Para cada decisão do slide 8, proponha uma recomendação clara — board que "só escuta" não ajuda
+- Documente as decisões tomadas no board memo (preencher após a reunião)
 
 ---
 
@@ -4933,7 +5032,7 @@ O modelo correto: o investidor é um parceiro com informação assimétrica. Ele
 | Artefato | Frequência | Para quem | Conteúdo |
 |---|---|---|---|
 | Update mensal | Mensal | Todos os investidores | Métricas, progresso, pedido de ajuda |
-| Board deck | Trimestral | Investidores com assento | Revisão completa + decisões (Template [[IGNICAO-Vol-9-Maturidade-e-Exit#Template: Board Deck (Apresentação para o Conselho)|Template: Board Deck (Apresentação para o Conselho) (Vol. 9)]]) |
+| Board deck | Trimestral | Investidores com assento | Revisão completa + decisões (Template [[#Template: Board Deck (Apresentação para o Conselho)|Template: Board Deck (Apresentação para o Conselho)]]) |
 | Update de milestone | Ad hoc | Todos | Quando algo significativo acontece |
 | Chamada 1:1 | Quando necessário | Investidor lead | Decisão estratégica, problema sério |
 
@@ -5093,7 +5192,7 @@ Um dos maiores valores do IR bem feito é que a Série A começa a ser preparada
 5. **Esconder problemas até virarem crises.** A surpresa é sempre pior do que o problema em si.
 6. **Não documentar decisões do board.** Sem registro, revisionism é inevitável.
 
-**Ver também:** [[#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 — Captação]], [[#CAPÍTULO 6 — PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO|Capítulo 6 — Planejamento de Rodada]], [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 1 — BOARD E GOVERNANCE|Capítulo 1 — Board e Governance (Vol. 9)]], Template [[IGNICAO-Vol-9-Maturidade-e-Exit#Template: Board Deck (Apresentação para o Conselho)|Template: Board Deck (Apresentação para o Conselho) (Vol. 9)]]
+**Ver também:** [[#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 — Captação]], [[#CAPÍTULO 6 — PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO|Capítulo 6 — Planejamento de Rodada]], [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 1 — BOARD E GOVERNANCE|Capítulo 1 — Board e Governance (Vol. 9)]], Template [[#Template: Board Deck (Apresentação para o Conselho)|Template: Board Deck (Apresentação para o Conselho)]]
 
 ---
 
@@ -7403,8 +7502,8 @@ em 6 meses                       recorrente — estruture dívida agora
 - [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 2 — VENDAS COMPLEXAS ENTERPRISE: CICLO LONGO, ALTO VALOR, MÚLTIPLOS DECISORES|Capítulo 2 — Unit Economics e Margem de Contribuição (Vol. 6)]] para calcular o break-even por unidade antes de projetar necessidade de giro
 - [[#CAPÍTULO 16 — PLANEJAMENTO FINANCEIRO E ORÇAMENTO|Capítulo 16 — Rodadas de Captação e Term Sheet]] para entender quando equity faz sentido e como negociar termos
 - [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 8 — B2B2C: QUANDO SUA EMPRESA VENDE PARA OUTRA EMPRESA QUE VENDE PARA CONSUMIDOR|Capítulo 8 — Métricas de SaaS (Vol. 3)]] para DSO, churn e demais indicadores aplicados ao modelo recorrente
-- [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 12 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 12 — Modelo de Negócio e Monetização (Vol. 4)]] onde a estrutura de cobrança e ciclo financeiro são definidos pela primeira vez
-- [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16 — Escala Operacional (Vol. 6)]] onde a gestão de capital de giro se torna crítica com o crescimento do volume
+- [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 12 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 12 — Validação do Modelo de Negócio (Vol. 4)]] onde a estrutura de cobrança e ciclo financeiro são definidos pela primeira vez
+- [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#FASE 17 — OPERAÇÕES, PROCESSOS E GESTÃO EM ESCALA|Fase 17 — Operações, Processos e Gestão em Escala (Vol. 7)]] onde a gestão de capital de giro se torna crítica com o crescimento do volume
 
 ---
 
@@ -7780,7 +7879,7 @@ Creditas Empresas    12% a 24% a.a.      60-120m   Imóvel         15-30 dias
 - [[#CAPÍTULO 9 — FINANCIAMENTO NÃO-DILUITIVO|Capítulo 9 — Financiamento Não-Diluitivo]] para grants, Finep, FAPs e recursos públicos sem equity
 - [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 9 — PRICING STRATEGY COMO DISCIPLINA|Capítulo 9 — Pricing Strategy como Disciplina (Vol. 4)]] para entender como margem bruta afeta elegibilidade a crédito
 - [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 10 — SUBSCRIPTION ECONOMY EM PROFUNDIDADE: ALÉM DO "COBRA MENSALMENTE"|Capítulo 10 — Contabilidade e Gestão Financeira (Vol. 4)]] para estrutura de balanço que o banco analisa
-- [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 4 — DESCOBERTA DO PROBLEMA|Fase 4 — Modelo de Negócio (Vol. 2)]] para entender quando faz sentido usar dívida vs equity em cada estágio
+- [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 12 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 12 — Validação do Modelo de Negócio (Vol. 4)]] para entender quando faz sentido usar dívida vs equity em cada estágio
 - [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 1 — GROWTH COMO FUNÇÃO ORGANIZACIONAL: TIME DE GROWTH, BUILD VS HIRE, RELAÇÃO COM PRODUTO|Capítulo 1 — Simples Nacional e Tributação PJ (Vol. 6)]] para manter CNPJ regular como base do score bancário
 
 ---
@@ -8231,3 +8330,312 @@ Contratar diretamente com a seguradora (sem corretora) parece economizar, mas o 
 - [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 2 — RESPONSABILIDADE DO SÓCIO E DO ADMINISTRADOR|Capítulo 2 — Responsabilidade do Sócio e Administrador (Vol. 8)]]
 - [[#CAPÍTULO 4 — GESTÃO DE CAIXA EM PROFUNDIDADE|Capítulo 4 — Gestão de Caixa]]
 - [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9 — CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO|Capítulo 9 — Crise e Continuidade (Vol. 9)]]
+
+---
+
+# GLOSSÁRIO E SIGLAS DESTE VOLUME
+
+> [!abstract] Vocabulário técnico e siglas deste volume
+> Para garantir que este **Volume 5** funcione de forma 100% independente e autocontida sem exigir consulta a outro livro, esta seção reúne as definições dos **88 termos técnicos e de negócios** e das **58 siglas e abreviações** utilizados ao longo das Fases e Capítulos deste volume.
+
+---
+
+## GLOSSÁRIO E SIGLAS DESTE VOLUME
+
+### Termos Técnicos e de Negócios Usados neste Volume
+
+**ACV (Annual Contract Value).** Valor anual de um contrato com cliente. Usado em vendas B2B para dimensionar deals e calcular receita por cliente.
+
+**Acqui-hire.** Aquisição de empresa cujo objetivo principal é contratar o time, não o produto ou receita. O produto é frequentemente descontinuado. Pagamento típico: R$ 500 mil a R$ 3 milhões por engenheiro sênior em pacote de retenção.
+
+**Advisor.** Conselheiro externo que orienta o fundador em áreas específicas (técnica, comercial, regulatória, captação). Tipicamente compensado com 0,1% a 1% de equity sob contrato FAST.
+
+**Aha moment.** Momento em que o usuário percebe pela primeira vez o valor central do produto. Ponto crítico da etapa de ativação no funil AARRR.
+
+**ANPD (Autoridade Nacional de Proteção de Dados).** Autarquia federal brasileira responsável por fiscalizar e aplicar a LGPD. Pode aplicar multas até 2% do faturamento (limite R$ 50 milhões por infração).
+
+**Anti-dilution.** Cláusula societária que protege investidores de diluição em rodadas futuras a valuation menor. Variantes: full ratchet (ajuste integral) e weighted average (mais comum, ajuste ponderado).
+
+**ARR (Annual Recurring Revenue).** Receita anual recorrente. Soma de todos os contratos ativos anualizados. Principal métrica de tamanho de empresa SaaS. ARR = MRR × 12.
+
+**BCB (Banco Central do Brasil).** Autoridade monetária e regulatória do sistema financeiro brasileiro. Regula bancos, fintechs, instituições de pagamento e sandbox regulatório de inovação financeira.
+
+**Board.** Conselho de administração. Órgão de governança da empresa. Em startups, tipicamente 3-5 membros: fundadores, investidores e independentes.
+
+**Burn Multiple.** Net burn (caixa gasto) dividido por net new ARR gerado. Mede eficiência de queima de caixa. Referência: ≤ 1.5x excelente, ≤ 2.5x aceitável, acima de 3x preocupante.
+
+**Burn rate.** Velocidade de consumo de caixa por mês. Caixa disponível dividido pelo burn rate mensal = runway.
+
+**CAC (Customer Acquisition Cost).** Custo total de marketing e vendas dividido pelo número de novos clientes no período. Calculado por canal para diagnóstico preciso, não apenas blended.
+
+**CAC Payback.** Número de meses necessários para recuperar o CAC com a margem bruta gerada pelo cliente. Referência: ≤ 12 meses B2C, ≤ 18 meses B2B enterprise.
+
+**Cap table (Tabela de capitalização).** Documento que registra a estrutura de propriedade de uma empresa: quem tem quantas ações, de qual classe, com qual vesting e a que preço foram emitidas.
+
+**Churn.** Taxa de cancelamento ou perda de clientes ou receita em um período. Churn de clientes: percentual de clientes que cancelaram. Churn de receita (MRR churn): percentual da receita mensal perdida por cancelamentos e downgrades.
+
+**Cliff (de vesting).** Período inicial de vesting em que nenhuma parte da participação veste. Tipicamente 12 meses para cofundadores e funcionários: se sair antes de 1 ano, não recebe nada.
+
+**Closing.** Momento de assinatura e execução de uma transação (rodada de investimento, M&A). Marca a transferência efetiva de capital e participação. Tipicamente precedido por due diligence, term sheet e SPA.
+
+**Cofundador.** Pessoa que funda a empresa em conjunto com um ou mais sócios desde o início. No Brasil, distinto de "co-founder" — usar termo em português é a convenção do livro.
+
+**COGS (Cost of Goods Sold).** Custo dos produtos ou serviços vendidos. Em SaaS: custos de infraestrutura, suporte e serviços diretamente vinculados à entrega. Determina a margem bruta.
+
+**Compliance.** Conformidade regulatória. Em startups, refere-se à aderência a normas de LGPD, anticorrupção, trabalhistas, fiscais e setoriais. Capítulo 12 (Vol. 8) (COMPLIANCE E ANTICORRUPÇÃO PARA STARTUPS) trata de Compliance e Anticorrupção em profundidade.
+
+**CRM (Customer Relationship Management).** Sistema de gestão de relacionamento com clientes. Registra interações, pipeline de vendas e histórico do cliente. Exemplos: Salesforce, HubSpot, Pipedrive.
+
+**DAU/MAU.** Proporção de usuários ativos diários sobre usuários ativos mensais. Indica frequência de uso do produto. ≥ 20% é referência para produto de uso frequente.
+
+**DCF (Discounted Cash Flow).** Método de valuation que desconta fluxos de caixa futuros pelo custo de capital (WACC). Teoricamente rigoroso, altamente sensível a premissas em startups.
+
+**Delaware Flip.** Reestruturação societária em que uma empresa brasileira passa a ser detida por holding em Delaware (EUA). Comum para startups que captam fundos americanos. Custo típico: US$ 30 mil a US$ 80 mil.
+
+**Dilution.** Redução da participação percentual de um acionista em decorrência de novas emissões de ações. Ocorre em cada rodada de captação.
+
+**Down round.** Rodada de captação a valuation menor que o da rodada anterior. Penaliza fundadores e investidores anteriores.
+
+**DPA (Data Processing Agreement).** Acordo de processamento de dados pessoais entre controlador e operador, exigido pela LGPD quando há transferência de dados a terceiro processador.
+
+**DPO (Data Protection Officer).** Encarregado de proteção de dados. Função obrigatória sob a LGPD para empresas que processam grandes volumes de dados pessoais ou dados sensíveis.
+
+**Drag-along.** Cláusula societária que permite ao acionista majoritário forçar os minoritários a vender suas participações nas mesmas condições, em caso de venda da empresa.
+
+**Due diligence (DD).** Processo de investigação e verificação de informações sobre empresa-alvo antes de investimento ou aquisição. Cobre dimensões financeiras, jurídicas, operacionais, tecnológicas e tributárias.
+
+**Earnout.** Parte do preço de aquisição condicionada ao atingimento de metas pós-closing. Tipicamente 20-40% do deal value, pago ao longo de 12 a 36 meses.
+
+**EBITDA.** Lucro antes de juros, impostos, depreciação e amortização. Métrica de geração operacional de caixa, usada em valuation por múltiplos (EV/EBITDA) e em covenants bancários.
+
+**eNPS (Employee Net Promoter Score).** Adaptação do NPS para medir engajamento e satisfação de funcionários. Pergunta: "Em escala de 0 a 10, o quanto você recomendaria trabalhar aqui a um amigo?" Referência saudável: ≥ 30.
+
+**ERP (Enterprise Resource Planning).** Sistema de gestão integrada que centraliza processos operacionais como financeiro, estoque, RH e produção. Exemplos: SAP, Totvs, Oracle.
+
+**ESOP (Employee Stock Option Plan).** Plano de outorga de opções de ações a funcionários. Tipicamente reserva de 10-20% do cap table para o pool. Mecanismo central de retenção em startups.
+
+**EV (Enterprise Value).** Valor total da empresa: capitalização de mercado mais dívida líquida. Usado como numerador nos múltiplos de valuation (EV/ARR, EV/EBITDA).
+
+**Exit.** Saída do fundador ou investidor da empresa, geralmente via M&A, IPO ou secondary.
+
+**FP&A (Financial Planning & Analysis).** Função financeira responsável por planejamento, orçamento e análise de variâncias. Em startups, surge tipicamente após Série B.
+
+**GMV (Gross Merchandise Value).** Volume bruto de transações processadas em uma plataforma. A receita da plataforma é o take rate aplicado sobre o GMV.
+
+**Go-to-market (GTM).** Estratégia de como a empresa leva o produto ao mercado: quais segmentos atacar, por quais canais, com qual motion de vendas e posicionamento.
+
+**GRR (Gross Revenue Retention).** Percentual da receita mantida de um período para o outro, excluindo expansão. Mede churn puro. GRR ideal: acima de 90% em B2B.
+
+**Headcount.** Número total de funcionários de uma empresa.
+
+**ICP (Ideal Customer Profile).** Perfil ideal do cliente: a empresa ou pessoa para quem o produto foi especificamente construído e que extrai mais valor dele. Mais específico que persona, que é mais específico que segmento.
+
+**IP (Intellectual Property).** Propriedade intelectual: patentes, marcas registradas, código-fonte, segredos comerciais. Em startups, instrumento de cessão de IP do fundador para a empresa é cláusula obrigatória de contrato societário.
+
+**IPO (Initial Public Offering).** Oferta pública inicial — abertura de capital na bolsa de valores. No Brasil, na B3. Tipicamente alvo de empresas com ARR ≥ R$ 300 milhões e crescimento ≥ 30% YoY.
+
+**Lead.** Potencial cliente que demonstrou interesse inicial. Pode ser MQL (Marketing Qualified Lead) ou SQL (Sales Qualified Lead) dependendo do nível de qualificação.
+
+**LGPD (Lei Geral de Proteção de Dados).** Lei 13.709/2018 que regula o tratamento de dados pessoais no Brasil. Multa máxima: 2% do faturamento, limite R$ 50 milhões por infração. Fiscalizada pela ANPD.
+
+**Liquidation preference.** Direito dos investidores preferenciais de receber seu investimento de volta (com ou sem juros) antes dos fundadores e acionistas ordinários em caso de exit. Pode ser 1x, 2x ou mais.
+
+**Lock-up.** Período pós-IPO ou pós-aquisição durante o qual os acionistas (fundadores, investidores) não podem vender suas ações. Tipicamente 180 dias pós-IPO, 12 a 36 meses pós-M&A.
+
+**LTV (Lifetime Value).** Valor presente líquido da receita gerada por um cliente ao longo de toda a sua relação com a empresa. LTV/CAC ≥ 3x é referência para modelo sustentável.
+
+**M&A (Mergers and Acquisitions).** Fusões e aquisições. Caminho mais comum de exit para startups brasileiras.
+
+**Magic Number.** Net new ARR do período dividido pelo investimento em Sales & Marketing do período anterior. Mede eficiência de crescimento. ≥ 0.75 indica que escalar gasto em GTM faz sentido.
+
+**Margem bruta.** (Receita - COGS) / Receita. Em SaaS: tipicamente 65-80%. Em marketplace: 30-50%. Em hardware: 30-55%.
+
+**Market fit.** Versão mais ampla de PMF que inclui adequação ao momento de mercado, não apenas ao produto.
+
+**MoM (Month over Month).** Crescimento mês a mês. Em early-stage, crescimento saudável é ≥ 10% MoM sustentado.
+
+**Moat.** Barreira competitiva difícil de replicar. Pode ser efeito de rede, custo de troca, marca, escala, IP ou regulação. Conceito popularizado por Warren Buffett. Ver Framework: 7 Powers (Hamilton Helmer, 2016) (Fase 6).
+
+**MRR (Monthly Recurring Revenue).** Receita recorrente mensal. Soma de todos os contratos ativos, normalizada para mensal.
+
+**MVP (Minimum Viable Product).** Versão mínima do produto com funcionalidades suficientes para validar hipóteses críticas com usuários reais e coletar feedback. Não é produto incompleto: é produto deliberadamente mínimo.
+
+**NDA (Non-Disclosure Agreement).** Acordo de confidencialidade. Documento legal que restringe o compartilhamento de informações confidenciais entre as partes.
+
+**Net Revenue Retention (NRR).** Percentual da receita mantida e expandida em coorte de clientes existentes. Inclui upsell, cross-sell, expansão de seats e desconta churn e downgrades. NRR ≥ 110% indica crescimento orgânico da base.
+
+**NPS (Net Promoter Score).** Métrica de lealdade e satisfação. Pergunta: "Em escala de 0 a 10, o quanto você recomendaria [empresa/produto] para um amigo?" Promotores (9-10) menos Detratores (0-6) = NPS. Referência: ≥ 40 consumer, ≥ 30 enterprise.
+
+**Onboarding.** Processo de entrada e ativação de um novo usuário ou colaborador. Onboarding de cliente: caminho do cadastro até o "aha moment". Onboarding de funcionário: integração nas primeiras 4-12 semanas.
+
+**Outbound.** Motion de vendas onde a empresa ativamente prospecta clientes, em vez de esperar inbound. Inclui cold outreach, SDRs e prospecção ativa.
+
+**P&L (Profit and Loss).** Demonstração de resultados. Mostra receita, custos, despesas e lucro/prejuízo no período.
+
+**Pivot.** Mudança estrutural de uma ou mais dimensões do modelo de negócio (cliente, problema, solução, canal, modelo de receita) mantendo aprendizados anteriores. Diferente de pivô cosmético (renomear) e de "abandonar".
+
+**PMF (Product-Market Fit).** Momento em que produto e mercado se encaixam: produto resolve dor real de segmento identificado de forma que gera retenção, engajamento e crescimento orgânico. Diagnóstico central da [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 13 — PRODUCT-MARKET FIT|Fase 13 (Vol. 4)]].
+
+**Pre-seed.** Rodada de captação anterior à Série Seed. Tipicamente R$ 300 mil a R$ 3 milhões, de anjos ou fundos micro-VC, para time e MVP inicial.
+
+**Ratchet.** Mecanismo de proteção do investidor que ajusta sua participação para cima se a empresa não atingir metas. Gerado por rodadas de valorização ou metas de performance não atingidas.
+
+**RBF (Revenue-Based Financing).** Financiamento em que a empresa devolve um múltiplo do principal como percentual da receita futura, em vez de juros fixos. Não-diluitivo. Exemplos no Brasil: a55, Capital Empreendedor.
+
+**Retenção por coorte.** Análise de quanto um grupo de usuários adquiridos no mesmo período continua ativo ao longo do tempo. Curva que estabiliza (não vai a zero) é o sinal central de PMF.
+
+**ROFR (Right of First Refusal).** Direito de preferência. Cláusula que dá a uma parte (tipicamente investidores existentes) o direito de igualar oferta externa antes que a venda aconteça.
+
+**ROI (Return on Investment).** Retorno sobre investimento. (Ganho - Custo) / Custo. Métrica genérica de eficiência de capital aplicado.
+
+**Rule of 40.** Crescimento percentual de ARR somado com margem EBITDA percentual. Startups saudáveis em escala devem ter Rule of 40 ≥ 40. Criada para avaliar trade-off entre crescimento e lucratividade.
+
+**Runway.** Número de meses antes de a empresa ficar sem caixa, considerando o burn rate atual. Referência: mínimo 12 meses após rodada, ideal 18 a 24 meses.
+
+**SAFE (Simple Agreement for Future Equity).** Instrumento de captação criado pela Y Combinator. Conversível em ações em rodada futura, sem juros e sem prazo de vencimento. Adaptação brasileira é a "Nota Conversível".
+
+**Seed.** Rodada de captação inicial de startup. No Brasil, tipicamente R$ 1 milhão a R$ 10 milhões, de fundos seed ou anjos, para validar PMF e motor inicial de crescimento.
+
+**SLA (Service Level Agreement).** Acordo de nível de serviço. Define métricas de disponibilidade, performance e tempo de resposta que a empresa se compromete a manter. Violações geram créditos ou penalidades.
+
+**SQL (Sales Qualified Lead).** Lead qualificado pelo time de vendas como oportunidade real. Critérios BANT: Budget, Authority, Need, Timeline.
+
+**Tag-along.** Cláusula que garante ao acionista minoritário o direito de vender suas ações nas mesmas condições que o majoritário em caso de venda. Proteção do minoritário.
+
+**TAM (Total Addressable Market).** Mercado total endereçável: receita máxima possível se a empresa capturasse 100% do mercado. Calculado preferencialmente bottom-up.
+
+**Take rate.** Percentual do GMV que a plataforma retém como receita. Varia por setor: delivery 15-30%, ride-sharing 20-30%, marketplace 10-20%.
+
+**Term sheet.** Documento que resume os termos comerciais de uma rodada de investimento ou M&A antes do contrato definitivo. Não vinculante na maior parte das cláusulas, mas vinculante em exclusividade e confidencialidade.
+
+**Unit economics.** Métricas de rentabilidade no nível da unidade básica do negócio (um cliente, uma transação, um produto). CAC, LTV, margem por transação, payback period.
+
+**Valuation.** Valor estimado de uma empresa. Em startups privadas, determinado por rodadas de captação. Pode ser calculado por múltiplos (EV/ARR, EV/EBITDA), DCF ou transações comparáveis.
+
+**Venture Debt.** Financiamento por dívida para startups que já captaram equity. Concedido por bancos especializados (Silicon Valley Bank historicamente) ou fundos de venture debt. Não-diluitivo, mas exige garantias e covenants.
+
+**Vesting.** Mecanismo pelo qual a participação em uma empresa é ganha gradualmente ao longo do tempo. Vesting padrão: 4 anos com 1 ano de cliff. Protege a empresa se fundador ou funcionário sai cedo.
+
+**WACC (Weighted Average Cost of Capital).** Custo médio ponderado de capital. Taxa de desconto usada em DCF para refletir o custo de capital próprio e de dívida da empresa.
+
+**YoY (Year over Year).** Crescimento ano a ano. ARR crescendo ≥ 3x YoY é referência para startup em escala.
+
+---
+
+### Siglas e Abreviações Usadas neste Volume
+
+**AARRR:** Acquisition, Activation, Retention, Referral, Revenue (framework de métricas de growth, Dave McClure). *Growth.*
+
+**ANPD:** Autoridade Nacional de Proteção de Dados. *Regulação / LGPD.*
+
+**API:** Application Programming Interface. *Tecnologia.*
+
+**ARR:** Annual Recurring Revenue (receita recorrente anual). *SaaS / métricas.*
+
+**B2B:** Business-to-Business. *Modelo de negócio.*
+
+**B2B2C:** Business-to-Business-to-Consumer. *Modelo de negócio.*
+
+**B2C:** Business-to-Consumer. *Modelo de negócio.*
+
+**BACEN:** Banco Central do Brasil. *Regulação.*
+
+**BMC:** Business Model Canvas. *Estratégia / modelagem de negócio.*
+
+**BNDES:** Banco Nacional de Desenvolvimento Econômico e Social. *Financiamento.*
+
+**CAC:** Customer Acquisition Cost (custo de aquisição de cliente). *Unit economics.*
+
+**CEO:** Chief Executive Officer. *Gestão.*
+
+**CFO:** Chief Financial Officer. *Gestão.*
+
+**CLT:** Consolidação das Leis do Trabalho (regime trabalhista brasileiro com vínculo formal). *Trabalho.*
+
+**CMV:** Custo de Mercadoria Vendida (contabilidade). *Finanças.*
+
+**COGS:** Cost of Goods Sold (equivalente em inglês ao CMV). *Finanças.*
+
+**CPO:** Chief Product Officer. *Gestão.*
+
+**CRM:** Customer Relationship Management (sistema ou prática). *Vendas.*
+
+**CTO:** Chief Technology Officer. *Gestão.*
+
+**CVM:** Comissão de Valores Mobiliários. *Regulação.*
+
+**DCF:** Discounted Cash Flow (valuation por fluxo de caixa descontado). *Finanças.*
+
+**DPA:** Data Processing Agreement (adendo contratual de dados). *LGPD.*
+
+**DPO:** Data Protection Officer (encarregado de dados sob LGPD). *LGPD.*
+
+**EBITDA:** Earnings Before Interest, Taxes, Depreciation and Amortization. *Finanças.*
+
+**EPP:** Empresa de Pequeno Porte (classificação brasileira). *Regulação.*
+
+**GMV:** Gross Merchandise Value (volume bruto de transações). *Marketplaces.*
+
+**HR / RH:** Human Resources / Recursos Humanos. *Gestão.*
+
+**ICP:** Ideal Customer Profile. *Vendas e marketing.*
+
+**IFRS:** International Financial Reporting Standards. *Contabilidade.*
+
+**INSS:** Instituto Nacional do Seguro Social. *Regulação trabalhista.*
+
+**IPCA:** Índice de Preços ao Consumidor Amplo (indicador de inflação). *Economia brasileira.*
+
+**IPO:** Initial Public Offering (abertura de capital em bolsa). *Exit.*
+
+**IRPJ:** Imposto de Renda Pessoa Jurídica. *Tributos.*
+
+**LGPD:** Lei Geral de Proteção de Dados (Lei 13.709/2018). *Regulação.*
+
+**LTV:** Lifetime Value (valor vitalício de cliente). *Unit economics.*
+
+**LTV:CAC:** razão entre LTV e CAC. *Unit economics.*
+
+**M&A:** Mergers and Acquisitions (fusões e aquisições). *Exit.*
+
+**MEI:** Microempreendedor Individual. *Regulação.*
+
+**MRR:** Monthly Recurring Revenue. *SaaS / métricas.*
+
+**MVP:** Minimum Viable Product (produto mínimo viável). *Produto.*
+
+**NDA:** Non-Disclosure Agreement (acordo de confidencialidade). *Jurídico.*
+
+**NPS:** Net Promoter Score (métrica de recomendação). *Satisfação.*
+
+**P&L / DRE:** Profit and Loss / Demonstração de Resultado. *Contabilidade.*
+
+**PIX:** sistema de pagamentos instantâneos do BACEN. *Pagamentos Brasil.*
+
+**PJ:** Pessoa Jurídica (regime de contratação). *Trabalho.*
+
+**PLR:** Participação nos Lucros e Resultados. *RH.*
+
+**PMF:** Product-Market Fit. *Conceito central.*
+
+**RBF:** Revenue-Based Financing. *Captação não-diluitiva.*
+
+**ROI:** Return on Investment. *Finanças.*
+
+**SaaS:** Software as a Service. *Modelo de negócio.*
+
+**SAFE:** Simple Agreement for Future Equity (instrumento de captação). *Captação.*
+
+**SMB:** Small and Medium Business. *Segmento.*
+
+**SQL:** Sales Qualified Lead. *Vendas.*
+
+**TAM / SAM / SOM:** Total Addressable Market, Serviceable Addressable Market, Serviceable Obtainable Market. *Estratégia de mercado.*
+
+**VC:** Venture Capital. *Captação.*
+
+**VP:** Vice President. *Gestão.*
+
+**VPC:** Value Proposition Canvas. *Framework de produto.*
+
+**YoY:** Year-over-Year (comparação ano a ano). *Métricas.*

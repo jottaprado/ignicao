@@ -72,6 +72,8 @@ graph LR
 - [[#CAPÍTULO 9 — GESTÃO DO CONHECIMENTO|CAPÍTULO 9 — GESTÃO DO CONHECIMENTO]]
 - [[#CAPÍTULO 10 — COMUNICAÇÃO INTERNA|CAPÍTULO 10 — COMUNICAÇÃO INTERNA]]
 - [[#CAPÍTULO 11 — OPERAÇÕES EM ESCALA|CAPÍTULO 11 — OPERAÇÕES EM ESCALA]]
+### Glossário e Siglas deste Volume
+- [[#Glossário e Siglas deste Volume|GLOSSÁRIO E SIGLAS DESTE VOLUME]]
 
 ---
 
@@ -383,22 +385,18 @@ A lição transferível. Operação escalável é pré-requisito para internacio
 
 ### FERRAMENTAS DESTA FASE
 
-Quatro essenciais para a subfase. Templates: Template: OKR Cascade Anual (Fase 17) (OKR Cascade Anual) e Template: Post-Mortem de Incidente Técnico (Fase 17) (Post-Mortem blameless).
+Quatro essenciais para a fase. Templates: [[#Template: OKR Cascade Anual|Template: OKR Cascade Anual]] e [[#Template: Post-Mortem de Incidente Técnico|Template: Post-Mortem de Incidente Técnico]].
 
-**Essenciais para Operações:**
+**Essenciais para a Fase 17:**
 
-- **OKRs** (Andy Grove, John Doerr) — Objectives qualitativos + Key Results quantitativos trimestrais. Ambiciosos (70% de atingimento é meta). Desacoplados de bônus. Framework: OKRs — Objectives and Key Results (Andy Grove, 1970s; John Doerr, popularizou) (Fase 17).
-- **Scaling Up / Rockefeller Habits** (Verne Harnish, 2014) — People, Strategy, Execution, Cash. OPSP de uma página. Para 20-2000 funcionários. Framework: Scaling Up / Rockefeller Habits (Verne Harnish, 2014) (Fase 17).
-- **Amazon 6-Pager** (Bezos) — documento narrativo de seis páginas substitui PowerPoint. Primeiros 20 minutos em leitura silenciosa. Para decisões estratégicas grandes. Framework: Amazon 6-Pager (Jeff Bezos, Amazon) (Fase 17).
-- **DORA Metrics e SPACE Framework** (Forsgren et al.) — Deployment Frequency, Lead Time, Change Failure Rate, Time to Restore. Para engineering performance. Framework: DORA Metrics (Forsgren, Humble, Kim, 2014); SPACE Framework (Forsgren, Storey et al., 2021) (Fase 17).
+- **OKRs** (Andy Grove, John Doerr) — Objectives qualitativos + Key Results quantitativos trimestrais. Ambiciosos (70% de atingimento é meta). Desacoplados de bônus. [[#Framework: OKRs — Objectives and Key Results (Andy Grove, 1970s; John Doerr, popularizou)|Framework: OKRs — Objectives and Key Results (Andy Grove, 1970s; John Doerr, popularizou)]].
+- **Scaling Up / Rockefeller Habits** (Verne Harnish, 2014) — People, Strategy, Execution, Cash. OPSP de uma página. Para 20-2000 funcionários. [[#Framework: Scaling Up / Rockefeller Habits (Verne Harnish, 2014)|Framework: Scaling Up / Rockefeller Habits (Verne Harnish, 2014)]].
+- **Amazon 6-Pager** (Bezos) — documento narrativo de seis páginas substitui PowerPoint. Primeiros 20 minutos em leitura silenciosa. Para decisões estratégicas grandes. [[#Framework: Amazon 6-Pager (Jeff Bezos, Amazon)|Framework: Amazon 6-Pager (Jeff Bezos, Amazon)]].
+- **DORA Metrics e SPACE Framework** (Forsgren et al.) — Deployment Frequency, Lead Time, Change Failure Rate, Time to Restore. Para engineering performance. [[#Framework: DORA Metrics (Forsgren, Humble, Kim, 2014); SPACE Framework (Forsgren, Storey et al., 2021)|Framework: DORA Metrics (Forsgren, Humble, Kim, 2014); SPACE Framework (Forsgren, Storey et al., 2021)]].
 
 **Complementares (consulte conforme o caso):**
 
-- V2MOM (Benioff/Salesforce), OGSM, EOS/Tração (Wickman), MBO (Drucker), Scrum, Kanban, Weekly Business Review (Amazon), 4 Disciplines of Execution (4DX), Hoshin Kanri (cascata com catchball), Balanced Scorecard (Kaplan/Norton), Lean Analytics (Croll/Yoskovitz, OMTM), Value Stream Mapping, Toyota Kata. Detalhamento em Framework: Hoshin Kanri (Japão, anos 1950-1970) (Fase 19, Vol. 9) a Framework: Toyota Kata (Mike Rother, 2010) (Fase 17).
-
----
-
-
+- V2MOM (Benioff/Salesforce), OGSM, EOS/Tração (Wickman), MBO (Drucker), Scrum, Kanban, Weekly Business Review (Amazon), 4 Disciplines of Execution (4DX), Hoshin Kanri (cascata com catchball), Balanced Scorecard (Kaplan/Norton), Lean Analytics (Croll/Yoskovitz, OMTM), Value Stream Mapping, Toyota Kata. Detalhamento passo a passo na subseção **[[#MANUAL PASSO A PASSO DOS FRAMEWORKS DESTA FASE|Manual Passo a Passo dos Frameworks desta Fase]]** logo a seguir.1 a [[#Framework: Toyota Kata (Mike Rother, 2010)|Framework: Toyota Kata (Mike Rother, 2010)]].
 
 ---
 
@@ -415,7 +413,7 @@ Teresa Torres, coach de produto com carreira em empresas como SurveyMonkey e Hub
 
 ##### O que é
 
-Framework de **descoberta contínua** de produto (em oposição a descoberta em projetos pontuais). Tese central: times de produto devem ter **contato semanal com clientes** e **estruturar aprendizado** em torno de uma ferramenta visual, a **Opportunity Solution Tree** (Framework: Opportunity Solution Tree (Teresa Torres) (Fase 9, Vol. 3)).
+Framework de **descoberta contínua** de produto (em oposição a descoberta em projetos pontuais). Tese central: times de produto devem ter **contato semanal com clientes** e **estruturar aprendizado** em torno de uma ferramenta visual, a **Opportunity Solution Tree** (Framework: Opportunity Solution Tree (Teresa Torres) (Fase 17)).
 
 ##### Princípios / estrutura
 
@@ -1616,7 +1614,281 @@ Em organização pequena (< 30-50 pessoas), overhead da estrutura não compensa.
 
 ---
 
+#### Framework: Hoshin Kanri (Japão, anos 1950-1970)
+
+##### Origem
+
+Hoshin Kanri ("gestão de direção") foi desenvolvido no Japão nos anos 1950-60, sintetizando contribuições americanas (Deming, Juran, Drucker, Sarasohn, Protzman) com a engenharia local liderada por Kaoru Ishikawa. O termo *hoshin kanri* foi cunhado em 1964 por Bridgestone Tire, que publicou o primeiro manual da metodologia em 1965 a partir de estudo das empresas vencedoras do Deming Prize. Toyota e Komatsu refinaram o método ao longo dos anos 1960-1970. Chegou ao ocidente nos anos 1980 via adoção de HP, Xerox, Florida Power & Light e outras. Hoje é o método preferido em empresas industriais japonesas e em algumas ocidentais como Danaher, Intel.
+
+##### O que é
+
+Sistema de **planejamento estratégico em cascata** que alinha toda a organização a 3-5 objetivos estratégicos de longo prazo (3-5 anos), desdobrados em metas anuais e atividades mensais. O **valor distintivo** é a **catchball**: negociação iterativa entre níveis (cima-baixo e baixo-cima) até alinhamento.
+
+##### Princípios / estrutura
+
+Componentes:
+
+1. True North (Norte Verdadeiro): aspiração de longo prazo (10+ anos), frequentemente inatingível. Orienta direção, não meta.
+2. Breakthrough Objectives: 3-5 objetivos estratégicos de 3-5 anos. São "quebra-paradigmas", não incrementais.
+3. Annual Objectives: desdobramento do breakthrough para o ano.
+4. Táticas (iniciativas) e Indicadores: como atingir anual + como medir.
+5. Reviews: mensais em todos os níveis.
+
+Catchball process: objetivos não são impostos. Liderança propõe, times revisam e propõem ajustes, ciclo de 2-4 rodadas até alinhamento. Isso gera comprometimento (accountability), diferentemente de objetivos "top-down puros" que geram compliance sem buy-in.
+
+##### Como aplicar do jeito certo
+
+Passo 1, Defina o True North (3-6 meses de trabalho executivo sênior).
+
+Passo 2, Identifique 3-5 Breakthrough Objectives (BOs): não mais. Cada BO deve exigir transformação real, não melhoria incremental.
+
+Passo 3, Cascateie via catchball. Equipe executiva propõe anual. VPs propõem como atingem, diretores propõem iniciativas, etc. Cada nível negocia com o acima.
+
+Passo 4, X-Matrix: ferramenta visual clássica que alinha, em uma única página, BOs, objetivos anuais, iniciativas, indicadores, e responsáveis. Tudo conecta.
+
+Passo 5, Revisão mensal em todos os níveis. Não é cadência de performance (exige compliance), é cadência de aprendizado.
+
+Passo 6, Anual review do Hoshin. O que funcionou? O que não? Ajustar BOs.
+
+##### Exemplo aplicado
+
+Empresa SaaS brasileira madura (R$ 120M ARR):
+
+- True North: ser a plataforma de gestão financeira mais adotada por PMEs brasileiras (10+ anos).
+- Breakthrough Objectives (3 anos):
+
+ 1. Dobrar ARR mantendo margem bruta ≥ 75%.
+ 2. Expandir LatAm (México + Colômbia).
+ 3. Lançar vertical de crédito + folha integrada.
+
+- Annual Objectives (Ano 1):
+- Atingir R$ 180M ARR.
+- Validar entry em México com 100 clientes.
+- Lançar Crédito Beta com 500 clientes.
+- Iniciativas: hire Head of LatAm, parceiria com banco para Crédito, consolidar onboarding digital.
+- Indicadores: MRR, NPS, NRR, cobertura de pipeline LatAm.
+
+##### Erros comuns
+
+BOs ambíguos: "melhorar qualidade" é slogan, não é Hoshin. Precisa ser testável, Mais de 5 BOs: destrói foco, Catchball ignorado: objetivos impostos sem negociação = Hoshin em nome, comando-e-controle na prática, X-Matrix decorativa: se não conecta, não é X-Matrix, Revisões pulam níveis: cascata exige revisão em todos os níveis, Adotado sem cultura de aprendizagem: Hoshin pressupõe que "falha é aprendizado", não "punição". Sem essa cultura, catchball vira farsa.
+
+##### Quando NÃO usar
+
+Startup pré-PMF: Hoshin é de escala (empresas de 100+ pessoas, usualmente 500+), Culturas muito hierárquicas/punitivas: catchball não funciona.
+
+##### Leitura adicional
+
+- Jackson, T. (2006). *Hoshin Kanri for the Lean Enterprise*. Productivity Press.
+- Akao, Y. (1991). *Hoshin Kanri: Policy Deployment for Successful TQM*. Productivity Press.
+
+---
+
+#### Framework: Opportunity Solution Tree (Teresa Torres)
+
+##### Origem
+
+Teresa Torres desenvolveu OST ao longo dos anos 2010s, consolidando em *Continuous Discovery Habits*. Inspirada em work breakdown structures e em árvores de decisão, adaptada para discovery de produto.
+
+##### O que é
+
+Ferramenta visual em formato de árvore que conecta:
+
+- Outcome desejado (topo).
+- Opportunities (necessidades/dores do cliente que, se endereçadas, movem o outcome).
+- Solutions (ideias de como endereçar cada oportunidade).
+- Experiments (como testar cada solução).
+
+##### Princípios / estrutura
+
+```text
+ OUTCOME
+ |
+ ----------------------------------------
+ | | | |
+OPPORTUNITY 1 OPPORTUNITY 2 OPPORTUNITY 3...
+ | | |
+ --- --- ---
+ | | |
+SOLUTION A SOLUTION B SOLUTION C
+ | | |
+EXPERIMENT EXPERIMENT EXPERIMENT
+```
+
+Princípios-chave:
+
+- Oportunidades vêm de pesquisa com clientes, não de brainstorm interno.
+- Múltiplas soluções por oportunidade: força comparação.
+- Priorização por impacto no outcome, não por "ideia mais legal".
+- Experimentos vêm antes de execução completa.
+
+##### Como aplicar do jeito certo
+
+Passo 1, Formule outcome mensurável.
+
+Passo 2, Colete oportunidades via entrevistas com clientes (não speculation).
+
+Passo 3, Para cada oportunidade, gere 3-5 soluções.
+
+Passo 4, Priorize oportunidades por impacto potencial no outcome.
+
+Passo 5, Para oportunidade top, priorize solução com melhor risk/reward.
+
+Passo 6, Desenhe experimento mais rápido/barato para testar premissas.
+
+Passo 7, Atualize árvore com aprendizados.
+
+##### Exemplo aplicado
+
+OST para outcome "aumentar NRR de 95% para 110%":
+
+- Oportunidade 1: clientes não descobrem features avançadas (NRR impactado por baixo engagement).
+- Solução 1.1: tutorial contextual.
+- Solução 1.2: emails de ativação segmentados.
+- Solução 1.3: AI-recommended features.
+- Experimento prioritário: A/B test de 1.2 (mais simples, menor risco).
+
+- Oportunidade 2: preços dos upgrades desconhecidos.
+- Solução 2.1: página de pricing na app.
+- Solução 2.2: in-app prompts para upgrade.
+- Experimento: 2.1 primeiro.
+
+- Oportunidade 3: contato com CS só na crise (não expansion).
+- Solução 3.1: QBRs proativos.
+- Solução 3.2: health score + outreach.
+- Experimento: 3.2.
+
+##### Erros comuns
+
+Oportunidades = features: oportunidade é problema/necessidade do cliente, feature é solução, Árvore estática: não atualiza com pesquisa contínua, Soluções pré-decididas: árvore é retroajustada para justificar decisão.
+
+##### Quando NÃO usar
+
+Pré-PMF onde outcome ainda é ambíguo, Times que ainda não têm disciplina de discovery contínuo.
+
+##### Leitura adicional
+
+- Torres, T. (2021). *Continuous Discovery Habits*. Product Talk.
+
+---
+
 ### CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)
+
+#### Canvas: Team Canvas (Alex Ivanov, 2015)
+
+##### Origem
+
+Alex Ivanov, designer e facilitador russo, publicou o Team Canvas em 2015 como resposta a um problema recorrente em workshops de times: grupos saíam de reuniões de alinhamento com a sensação de que "conversamos muito, mas não sabemos exatamente o que foi decidido nem quem é responsável por quê". O Team Canvas é inspirado no Business Model Canvas de Osterwalder mas voltado para dentro — não para o modelo de negócio, mas para o modelo do time. Parte da premissa de que um time é uma organização em miniatura: tem propósito, papéis, recursos (as pessoas), canais de comunicação, e estrutura de valor (o que cada membro dá e recebe). Sem tornar esse modelo explícito, o time opera com pressupostos implícitos que geram conflito, retrabalho e desengajamento. O Team Canvas tornou o exercício de alinhamento de time replicável em 60-90 minutos.
+
+##### O que é
+
+Tela visual de uma página com **nove blocos** organizados em torno do time como unidade central:
+
+- **People & Roles**: quem são as pessoas, qual papel cada uma exerce no time (não o cargo formal — o papel funcional real).
+- **Common Goals**: quais são os objetivos compartilhados do time para o próximo período. Distingue de objetivos individuais.
+- **Personal Goals**: o que cada membro quer pessoalmente ganhar com esse trabalho (desenvolvimento, visibilidade, dinheiro, aprendizado). Frequentemente não dito.
+- **Purpose**: por que esse time existe? Qual é o propósito que vai além das metas operacionais?
+- **Values**: quais são os valores que o time quer viver — não os valores corporativos genéricos, mas os que esse time específico prioriza no trabalho conjunto.
+- **Strengths & Assets**: o que o time tem de melhor — habilidades, experiências, redes, recursos.
+- **Weaknesses & Risks**: onde o time é fraco ou onde existe risco de conflito.
+- **Needs & Expectations**: o que cada membro precisa dos outros para trabalhar bem. Acordos explícitos.
+- **Rules & Activities**: como o time trabalha — rituais, cadências, normas de comunicação, processos de decisão.
+
+```mermaid
+flowchart TB
+    subgraph Pessoas["Quem somos"]
+        direction LR
+        PR["👥 People & Roles<br/>Papéis funcionais"]
+        PG["🎯 Personal Goals<br/>O que cada um quer"]
+    end
+    subgraph Propósito["Por que existimos"]
+        direction LR
+        CG["🏆 Common Goals<br/>Objetivos compartilhados"]
+        PU["💡 Purpose<br/>Razão de ser"]
+        VA["❤️ Values<br/>O que priorizamos"]
+    end
+    subgraph Capacidade["O que temos"]
+        direction LR
+        SA["💪 Strengths<br/>& Assets"]
+        WR["⚠️ Weaknesses<br/>& Risks"]
+    end
+    subgraph Acordos["Como trabalhamos"]
+        direction LR
+        NE["🤝 Needs<br/>& Expectations"]
+        RA["📋 Rules<br/>& Activities"]
+    end
+    Pessoas --> Propósito --> Capacidade --> Acordos
+```
+
+##### Quando usar
+
+Use o Team Canvas na Fase 14 (escala e time) como artefato de onboarding de novos squads ou ao montar equipe de liderança expandida. Use também em momentos de ruptura: entrada de cofundador ou C-level novo, fusão de times após aquisição, reorganização de squads. Em times de 3-8 pessoas, o canvas pode ser preenchido em sessão única de 90 minutos. Em times maiores, faça por squad e depois alinhe os Common Goals e Values entre squads.
+
+##### Princípios
+
+A tese de Ivanov é que **conflito de time frequentemente não é conflito de personalidade — é conflito de pressupostos não declarados**. Dois co-fundadores que não conversaram sobre Personal Goals assumem que o outro quer a mesma coisa (crescimento acelerado vs. lifestyle company; vender em 5 anos vs. construir por 20). Dois engenheiros que não conversaram sobre Needs & Expectations têm expectativas diferentes sobre code review, autonomia, e prazo. O Team Canvas torna esses pressupostos visíveis antes de se tornarem conflito. **A sessão de preenchimento é mais valiosa que o artefato preenchido** — o que emerge na conversa é o trabalho, não o documento final.
+
+##### Como aplicar
+
+Sessão presencial ou remota (Miro, Mural, FigJam). Facilitador (pode ser o próprio fundador, mas facilita melhor quem não está no canvas). 60-90 minutos para times pequenos (3-6 pessoas); 120-150 minutos para times maiores (6-12).
+
+1. **People & Roles** (10 min) — cada pessoa escreve seu nome e o papel funcional real (não o cargo): "sou quem toma decisão técnica final" / "sou quem mantém relação com os clientes âncora".
+2. **Personal Goals** (15 min) — individualmente primeiro, depois compartilha. O que cada pessoa quer ganhar pessoalmente com esse trabalho nos próximos 12 meses? Dinheiro? Aprendizado? Visibilidade? Espaço para criar? Sem julgamento.
+3. **Common Goals** (15 min) — o que o time quer alcançar *junto*? 3-5 objetivos específicos para o próximo semestre. Discutir até consenso real.
+4. **Purpose** (10 min) — por que esse time existe além das metas? Qual seria a perda para o mundo se esse time parasse de existir?
+5. **Values** (10 min) — quais 3-5 valores o time quer praticar no trabalho conjunto? Votar, depois discutir os que geraram divergência.
+6. **Strengths & Assets / Weaknesses & Risks** (15 min) — o que o time tem de excelente e onde é vulnerável. Honestidade é o requisito — equipe que só lista forças não faz o exercício.
+7. **Needs & Expectations** (10 min) — o que cada pessoa precisa dos outros para trabalhar bem. "Preciso de feedback direto, sem rodeios." "Preciso de autonomia sobre decisões de design." Acordos explícitos.
+8. **Rules & Activities** (10 min) — rituais, cadências, normas. Stand-up diário ou não? Code review obrigatório ou não? Decisão por consenso ou por voto?
+
+Após a sessão: registrar o canvas, colocar visível, revisitar em 3-6 meses.
+
+##### Exemplo brasileiro preenchido — Loggi, formação do squad de expansão nacional (2019)
+
+Quando a Loggi decidiu expandir de São Paulo para 15 cidades em 12 meses (2019), formou um squad de expansão composto por pessoas de produto, operações, dados e comercial que nunca tinham trabalhado juntas. O Team Canvas da sessão inicial:
+
+| Bloco | Conteúdo |
+|---|---|
+| **People & Roles** | PM (decisão de produto e priorização), líder de operações (viabilidade logística e parcerias locais), data analyst (modelo de precificação e projeção de demanda), comercial B2B (clientes-âncora em cada cidade), engenheiro de backend (adaptações de sistema por região). |
+| **Personal Goals** | PM: "quero aprender como se escala operação física, não só digital." Ops: "quero provar que consigo gestão multi-regional." Data: "quero usar modelos preditivos em decisão real, não só relatório." Comercial: "quero virar head de vendas regionais." Engenheiro: "quero ter mais influência na arquitetura." |
+| **Common Goals** | (1) 15 cidades ativas em 12 meses. (2) NPS de entregadores ≥ 45 em todas as cidades ao fim do mês 3. (3) CAC de lojista ≤ R$ 800 nos novos mercados. (4) Tempo de onboarding de cidade ≤ 6 semanas. |
+| **Purpose** | "Tornar entrega rápida acessível para qualquer lojista no Brasil, não só em SP." |
+| **Values** | (1) Velocidade sobre perfeição. (2) Dados antes de opinião. (3) Transparência sobre problemas cedo — sem surpresas tardias. (4) Respeito pela operação local — cada cidade tem suas particularidades. |
+| **Strengths & Assets** | Produto já validado em SP com >18 meses de dados. Marca forte entre entregadores paulistanos. Time com histórico de execução em ambiente caótico. |
+| **Weaknesses & Risks** | Ninguém do squad conhece os mercados-alvo (Recife, BH, Porto Alegre). Risco de replicar o modelo SP sem adaptar. Tensão potencial entre velocidade de expansão (PM + comercial) e qualidade operacional (ops + engenheiro). |
+| **Needs & Expectations** | PM precisa de dados do ops *antes* de priorizar features. Ops precisa de 2 semanas de lead time para qualquer mudança de processo. Data precisa de acesso a dados brutos, sem camadas de abstração. Comercial precisa de suporte de produto para reuniões com clientes grandes. Engenheiro precisa de critério claro de "done" antes de começar cada sprint. |
+| **Rules & Activities** | Weekly de 45 min às segundas (sem slides — só dados + decisões). Slack para comunicação assíncrona (resposta em até 4h em horário comercial). Decisão técnica: engenheiro tem veto. Decisão de produto/prioridade: PM tem última palavra. Decisão de operação: ops tem última palavra. Conflicts escalados para o trio PM + ops + comercial em 24h. |
+
+**Insight do caso.** O bloco que gerou mais conversa foi **Personal Goals** — especialmente o engenheiro que queria "mais influência na arquitetura" e o PM que assumia que o engenheiro estava "só para implementar". Sem o Team Canvas, essa tensão teria emergido na primeira divergência de sprint. Com o canvas, o time chegou a um acordo explícito: o engenheiro entra na reunião de priorização com voto consultivo sobre viabilidade técnica, e o PM explica as decisões de "não agora" com contexto de negócio. **A lição: o conflito mais destrutivo em times de startup é o conflito sobre quem decide o quê. Team Canvas não resolve o conflito — antecipa a conversa e torna o acordo explícito antes que o conflito aconteça.**
+
+##### Variações e extensões
+
+- **Team Canvas Basic**: versão simplificada com apenas 5 blocos (Goals, Roles, Values, Needs, Rules) — para times muito pequenos (2-3 pessoas) ou sessões rápidas de 45 minutos.
+- **Squad Health Check** (Spotify): complemento do Team Canvas — avalia periodicamente a saúde do time em dimensões como Ownership, Speed, Fun, Learning. Útil para revisão trimestral.
+- **Working Agreements Canvas**: foco exclusivo em normas de trabalho — versão mais operacional que o Team Canvas completo.
+
+##### Erros comuns
+
+- Fazer o Team Canvas sem o bloco Personal Goals — é exatamente onde estão os pressupostos não declarados mais perigosos.
+- Facilitador que também está no canvas — difícil ser objetivo; terceiro facilita melhor.
+- Canvas como check-box burocrático (preencher por obrigação, nunca revisitar) — valor está na sessão e na revisão periódica, não no documento.
+- Confundir Values com slogan corporativo — "inovação", "integridade", "excelência" são valores genéricos que não guiam decisão real. "Velocidade sobre perfeição" ou "dados antes de opinião" são valores acionáveis.
+- Tratar o canvas como imutável — times mudam; refaça a cada 6 meses ou quando a composição muda significativamente.
+
+##### Quando NÃO usar
+
+Em times de 1-2 pessoas (overhead não compensa). Em contextos onde há hierarquia rígida que impede honestidade nos blocos Personal Goals e Weaknesses (o canvas produz respostas performáticas, não reais). Em squads temporários de projeto com vida útil <3 meses — overhead de sessão pode não compensar.
+
+##### Conexão com outros canvases
+
+O Team Canvas **complementa o BMC (Fase 2)** e o **Lean Canvas (Fase 1)**: estes descrevem o modelo externo (o negócio); o Team Canvas descreve o modelo interno (o time que vai executar). **Orienta o Risk Canvas (Fase 12)** no bloco "Risco de equipe" — o Team Canvas é o diagnóstico; o Risk Canvas é a priorização e mitigação. **Precede o Storytelling Canvas (Fase 14)** em narrativas de expansão: time alinhado produz narrativa coerente; time desalinhado produz narrativa contraditória.
+
+##### Leitura adicional
+
+- [teamcanvas.com](https://www.teamcanvas.com) — Alex Ivanov mantém o site com templates e estudos de caso.
+- *The Five Dysfunctions of a Team* (Patrick Lencioni, 2002) — modelo de saúde de time que se integra ao Team Canvas.
+- *An Elegant Puzzle* (Will Larson, 2019) — engineering management com foco em time e alinhamento, relevante para squads técnicos.
+
+---
 
 #### Canvas: Org Chart Evolution
 
@@ -1737,7 +2009,7 @@ flowchart TD
 
 ##### Conexão com outros canvases
 
-O Org Chart Evolution **complementa o Team Canvas (Fase 0, Vol. 1)** — o Team Canvas define propósito e valores do time atual; o Org Chart Evolution define a estrutura que o time assume conforme cresce. **Alimenta o Capítulo 2 (Vol. 4) (FRAMEWORK DE CANAIS DE AQUISIÇÃO)** (organizações em escala) e as [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18 (Vol. 8)]] e [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16 (Vol. 6)]].
+O Org Chart Evolution **complementa o Team Canvas (Fase 17)** — o Team Canvas define propósito e valores do time atual; o Org Chart Evolution define a estrutura que o time assume conforme cresce. **Alimenta o Capítulo 2 (Vol. 4) (FRAMEWORK DE CANAIS DE AQUISIÇÃO)** (organizações em escala) e as [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18 (Vol. 8)]] e [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16 (Vol. 6)]].
 
 ##### Leitura adicional
 
@@ -2643,7 +2915,7 @@ Para a metodologia geral de bandas e benchmarks, ver [[IGNICAO-Vol-6-Receita-e-P
 
 Processo completo de atrair, avaliar, contratar e integrar engenheiros e talentos técnicos (software, dados, ML ou aprendizado de máquina, produto, design técnico, SRE ou engenharia de confiabilidade, security ou segurança, platform ou plataforma). Cobre sourcing (busca de candidatos), avaliação, decisão, oferta, onboarding (integração) e retenção. E os trade-offs (compromissos) entre velocidade, qualidade e custo.
 
-Este capítulo se distingue dos apêndices gerais de pessoas e talentos por focar nas particularidades da função técnica. Pipelines (filas de candidatos) escassos. Sinais difíceis de ler. Remuneração pressionada pelo mercado global. Avaliação que exige rigor sem virar teatro.
+Este capítulo se distingue dos capítulos gerais de pessoas e talentos por focar nas particularidades da função técnica. Pipelines (filas de candidatos) escassos. Sinais difíceis de ler. Remuneração pressionada pelo mercado global. Avaliação que exige rigor sem virar teatro.
 
 ### POR QUE IMPORTA
 
@@ -3540,7 +3812,7 @@ A distinção importa por razões práticas:
 > [!important]
 > A maioria das startups em estágio inicial deveria tratar IA como AI Ops antes de tratá-la como AI Product. O ganho de eficiência operacional libera capacidade de equipe para trabalho estratégico sem aumentar headcount.
 
-Para startups nos estágios cobertos em [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 4 — DESCOBERTA DO PROBLEMA|Fase 4 — Tração Inicial (Vol. 2)]] e [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 5 — PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY)|Fase 5 — Crescimento (Vol. 2)]], AI Ops é alavanca de capital: permite que uma equipe de 8 pessoas opere com a capacidade de uma equipe de 12, sem os custos de contratação, treinamento e gestão.
+Para startups nos estágios cobertos em [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 11 — MVP E EXPERIMENTOS DE MERCADO|Fase 11 — MVP e Experimentos de Mercado (Vol. 4)]] e [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 15 — MÁQUINA DE CRESCIMENTO E EXPANSÃO EM ESCALA|Fase 15 — Máquina de Crescimento e Expansão em Escala (Vol. 6)]], AI Ops é alavanca de capital: permite que uma equipe de 8 pessoas opere com a capacidade de uma equipe de 12, sem os custos de contratação, treinamento e gestão.
 
 ---
 
@@ -3896,8 +4168,8 @@ CUSTOS E QUALIDADE
 
 - [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 6 — HARDWARE E DEEP TECH: CONSTRUIR NEGÓCIO COM FABRICAÇÃO, IP E HORIZONTES LONGOS|Capítulo 6 — Cultura e Gestão de Pessoas (Vol. 10)]] — como introduzir ferramentas de IA sem gerar resistência no time
 - [[#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvases e Mapas Visuais]] — ferramentas para mapear workflows antes de automatizá-los
-- [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 4 — DESCOBERTA DO PROBLEMA|Fase 4 — Tração Inicial (Vol. 2)]] — quando AI Ops começa a fazer sentido operacional
-- [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 5 — PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY)|Fase 5 — Crescimento (Vol. 2)]] — como escalar operações com IA sem perder qualidade
+- [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 11 — MVP E EXPERIMENTOS DE MERCADO|Fase 11 — MVP e Experimentos de Mercado (Vol. 4)]] — quando AI Ops começa a fazer sentido operacional
+- [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 15 — MÁQUINA DE CRESCIMENTO E EXPANSÃO EM ESCALA|Fase 15 — Máquina de Crescimento e Expansão em Escala (Vol. 6)]] — como escalar operações com IA sem perder qualidade
 - [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 16 — PLANEJAMENTO FINANCEIRO E ORÇAMENTO|Capítulo 16 — Planejamento Financeiro e Orçamento (Vol. 5)]] — como tratar custo de IA no P&L e no planejamento financeiro
 
 ---
@@ -5735,5 +6007,222 @@ Fase 150+ pessoas
 - [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 6 — CANAIS INDIRETOS E PARCERIAS: PARCERIAS, FRANQUIAS, CHANNEL|Capítulo 6 — Experiência do Cliente e Jornada (Vol. 6)]] para como operações impactam NPS diretamente
 - [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 2 — MODELAGEM FINANCEIRA OPERACIONAL|Capítulo 2 — Modelagem Financeira Operacional (Vol. 5)]] para métricas financeiras que complementam as operacionais
 - [[#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvases e Mapas Visuais]] para ferramentas visuais de mapeamento de processos
-- [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 6 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 6 — Construção (Vol. 2)]] para como configurar operações nos primeiros meses
-- [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 9 — IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES|Fase 9 — Escala (Vol. 3)]] para o contexto estratégico em que este capítulo se insere
+- [[#FASE 17 — OPERAÇÕES, PROCESSOS E GESTÃO EM ESCALA|Fase 17 — Operações, Processos e Gestão em Escala]] para como configurar operações nos primeiros meses
+- [[IGNICAO-Vol-9-Maturidade-e-Exit#FASE 19 — REINVENÇÃO E SEGUNDA CURVA|Fase 19 — Reinvenção e Segunda Curva (Vol. 9)]] para o contexto estratégico em que este capítulo se insere
+
+---
+
+# GLOSSÁRIO E SIGLAS DESTE VOLUME
+
+> [!abstract] Vocabulário técnico e siglas deste volume
+> Para garantir que este **Volume 7** funcione de forma 100% independente e autocontida sem exigir consulta a outro livro, esta seção reúne as definições dos **62 termos técnicos e de negócios** e das **38 siglas e abreviações** utilizados ao longo das Fases e Capítulos deste volume.
+
+---
+
+## GLOSSÁRIO E SIGLAS DESTE VOLUME
+
+### Termos Técnicos e de Negócios Usados neste Volume
+
+**ACV (Annual Contract Value).** Valor anual de um contrato com cliente. Usado em vendas B2B para dimensionar deals e calcular receita por cliente.
+
+**ADR (Architecture Decision Record).** Documento que registra decisões arquiteturais de software, incluindo o contexto, a decisão tomada e as alternativas consideradas. Ferramenta de gestão do conhecimento em times de engenharia.
+
+**Advisor.** Conselheiro externo que orienta o fundador em áreas específicas (técnica, comercial, regulatória, captação). Tipicamente compensado com 0,1% a 1% de equity sob contrato FAST.
+
+**ARR (Annual Recurring Revenue).** Receita anual recorrente. Soma de todos os contratos ativos anualizados. Principal métrica de tamanho de empresa SaaS. ARR = MRR × 12.
+
+**BCB (Banco Central do Brasil).** Autoridade monetária e regulatória do sistema financeiro brasileiro. Regula bancos, fintechs, instituições de pagamento e sandbox regulatório de inovação financeira.
+
+**Bet-the-company (aposta central).** Hipótese cuja refutação invalida o modelo de negócio inteiro. Diferente de hipóteses secundárias, que podem ser refutadas sem comprometer a empresa. Todo negócio tem duas a cinco apostas-centrais.
+
+**Board.** Conselho de administração. Órgão de governança da empresa. Em startups, tipicamente 3-5 membros: fundadores, investidores e independentes.
+
+**CAC (Customer Acquisition Cost).** Custo total de marketing e vendas dividido pelo número de novos clientes no período. Calculado por canal para diagnóstico preciso, não apenas blended.
+
+**CAC Payback.** Número de meses necessários para recuperar o CAC com a margem bruta gerada pelo cliente. Referência: ≤ 12 meses B2C, ≤ 18 meses B2B enterprise.
+
+**Churn.** Taxa de cancelamento ou perda de clientes ou receita em um período. Churn de clientes: percentual de clientes que cancelaram. Churn de receita (MRR churn): percentual da receita mensal perdida por cancelamentos e downgrades.
+
+**Cliff (de vesting).** Período inicial de vesting em que nenhuma parte da participação veste. Tipicamente 12 meses para cofundadores e funcionários: se sair antes de 1 ano, não recebe nada.
+
+**Cofundador.** Pessoa que funda a empresa em conjunto com um ou mais sócios desde o início. No Brasil, distinto de "co-founder" — usar termo em português é a convenção do livro.
+
+**Compliance.** Conformidade regulatória. Em startups, refere-se à aderência a normas de LGPD, anticorrupção, trabalhistas, fiscais e setoriais. Capítulo 12 (Vol. 8) (COMPLIANCE E ANTICORRUPÇÃO PARA STARTUPS) trata de Compliance e Anticorrupção em profundidade.
+
+**Continuous discovery.** Prática de pesquisa contínua com usuários integrada ao ciclo de desenvolvimento de produto, em vez de pesquisas pontuais. Conceito de Teresa Torres. Ver Framework: Continuous Discovery Habits (Teresa Torres, 2021) (Fase 17).
+
+**CRM (Customer Relationship Management).** Sistema de gestão de relacionamento com clientes. Registra interações, pipeline de vendas e histórico do cliente. Exemplos: Salesforce, HubSpot, Pipedrive.
+
+**DPA (Data Processing Agreement).** Acordo de processamento de dados pessoais entre controlador e operador, exigido pela LGPD quando há transferência de dados a terceiro processador.
+
+**Dual-Track Agile.** Modelo em que descoberta (discovery) e entrega (delivery) rodam em trilhos paralelos, alimentando-se mutuamente. Conceito de Marty Cagan.
+
+**ERP (Enterprise Resource Planning).** Sistema de gestão integrada que centraliza processos operacionais como financeiro, estoque, RH e produção. Exemplos: SAP, Totvs, Oracle.
+
+**ESOP (Employee Stock Option Plan).** Plano de outorga de opções de ações a funcionários. Tipicamente reserva de 10-20% do cap table para o pool. Mecanismo central de retenção em startups.
+
+**EV (Enterprise Value).** Valor total da empresa: capitalização de mercado mais dívida líquida. Usado como numerador nos múltiplos de valuation (EV/ARR, EV/EBITDA).
+
+**Exit.** Saída do fundador ou investidor da empresa, geralmente via M&A, IPO ou secondary.
+
+**Founder Mode.** Estilo de gestão hands-on do fundador-CEO em estágio early-to-growth, em contraste com o "manager mode" delegativo. Conceito popularizado por Paul Graham (2024).
+
+**GMV (Gross Merchandise Value).** Volume bruto de transações processadas em uma plataforma. A receita da plataforma é o take rate aplicado sobre o GMV.
+
+**Go-to-market (GTM).** Estratégia de como a empresa leva o produto ao mercado: quais segmentos atacar, por quais canais, com qual motion de vendas e posicionamento.
+
+**Headcount.** Número total de funcionários de uma empresa.
+
+**ICP (Ideal Customer Profile).** Perfil ideal do cliente: a empresa ou pessoa para quem o produto foi especificamente construído e que extrai mais valor dele. Mais específico que persona, que é mais específico que segmento.
+
+**IP (Intellectual Property).** Propriedade intelectual: patentes, marcas registradas, código-fonte, segredos comerciais. Em startups, instrumento de cessão de IP do fundador para a empresa é cláusula obrigatória de contrato societário.
+
+**IPO (Initial Public Offering).** Oferta pública inicial — abertura de capital na bolsa de valores. No Brasil, na B3. Tipicamente alvo de empresas com ARR ≥ R$ 300 milhões e crescimento ≥ 30% YoY.
+
+**JTBD (Jobs to be Done).** Framework de pesquisa que entende comportamento do consumidor como contratação de produtos para realizar um "trabalho" funcional, emocional ou social. Originado por Tony Ulwick (Strategyn, 1990, aplicando Six Sigma à inovação), popularizado por Clayton Christensen em *The Innovator's Solution* (2003), e operacionalizado em Switch Interviews por Bob Moesta. Ver Framework: Jobs to Be Done Framework (Clayton Christensen, Anthony Ulwick, Bob Moesta) (Fase 5) e Framework: Jobs to Be Done Switch Interviews (Bob Moesta & Chris Spiek, via Clayton Christensen) (Fase 5).
+
+**Lead.** Potencial cliente que demonstrou interesse inicial. Pode ser MQL (Marketing Qualified Lead) ou SQL (Sales Qualified Lead) dependendo do nível de qualificação.
+
+**LGPD (Lei Geral de Proteção de Dados).** Lei 13.709/2018 que regula o tratamento de dados pessoais no Brasil. Multa máxima: 2% do faturamento, limite R$ 50 milhões por infração. Fiscalizada pela ANPD.
+
+**LTV (Lifetime Value).** Valor presente líquido da receita gerada por um cliente ao longo de toda a sua relação com a empresa. LTV/CAC ≥ 3x é referência para modelo sustentável.
+
+**M&A (Mergers and Acquisitions).** Fusões e aquisições. Caminho mais comum de exit para startups brasileiras.
+
+**Margem bruta.** (Receita - COGS) / Receita. Em SaaS: tipicamente 65-80%. Em marketplace: 30-50%. Em hardware: 30-55%.
+
+**Market fit.** Versão mais ampla de PMF que inclui adequação ao momento de mercado, não apenas ao produto.
+
+**MRR (Monthly Recurring Revenue).** Receita recorrente mensal. Soma de todos os contratos ativos, normalizada para mensal.
+
+**MVP (Minimum Viable Product).** Versão mínima do produto com funcionalidades suficientes para validar hipóteses críticas com usuários reais e coletar feedback. Não é produto incompleto: é produto deliberadamente mínimo.
+
+**NPS (Net Promoter Score).** Métrica de lealdade e satisfação. Pergunta: "Em escala de 0 a 10, o quanto você recomendaria [empresa/produto] para um amigo?" Promotores (9-10) menos Detratores (0-6) = NPS. Referência: ≥ 40 consumer, ≥ 30 enterprise.
+
+**OKR (Objectives and Key Results).** Framework de definição de metas com objetivo qualitativo e resultados-chave mensuráveis. Criado na Intel por Andy Grove, popularizado pelo Google. Ver Frameworks da Fase 17.
+
+**Onboarding.** Processo de entrada e ativação de um novo usuário ou colaborador. Onboarding de cliente: caminho do cadastro até o "aha moment". Onboarding de funcionário: integração nas primeiras 4-12 semanas.
+
+**Outbound.** Motion de vendas onde a empresa ativamente prospecta clientes, em vez de esperar inbound. Inclui cold outreach, SDRs e prospecção ativa.
+
+**P&L (Profit and Loss).** Demonstração de resultados. Mostra receita, custos, despesas e lucro/prejuízo no período.
+
+**Pivot.** Mudança estrutural de uma ou mais dimensões do modelo de negócio (cliente, problema, solução, canal, modelo de receita) mantendo aprendizados anteriores. Diferente de pivô cosmético (renomear) e de "abandonar".
+
+**PLG (Product-Led Growth).** Motion de crescimento onde o produto é o principal veículo de aquisição, conversão e expansão. Produto gera valor suficiente para que usuário traga outros usuários. Contraposto a SLG (Sales-Led Growth).
+
+**PMF (Product-Market Fit).** Momento em que produto e mercado se encaixam: produto resolve dor real de segmento identificado de forma que gera retenção, engajamento e crescimento orgânico. Diagnóstico central da [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 13 — PRODUCT-MARKET FIT|Fase 13 (Vol. 4)]].
+
+**Post-mortem.** Análise retrospectiva de falha ou incidente, com foco em aprendizado sistêmico em vez de atribuição de culpa. Blameless post-mortem é variante que explicitamente remove julgamento pessoal.
+
+**Pre-seed.** Rodada de captação anterior à Série Seed. Tipicamente R$ 300 mil a R$ 3 milhões, de anjos ou fundos micro-VC, para time e MVP inicial.
+
+**RFC (Request for Comments).** Documento que descreve uma proposta técnica ou organizacional e coleta feedback antes da decisão. Mecanismo de escala de decisão em times técnicos.
+
+**ROI (Return on Investment).** Retorno sobre investimento. (Ganho - Custo) / Custo. Métrica genérica de eficiência de capital aplicado.
+
+**Rockefeller Habits.** Disciplina de execução de Verne Harnish (2014) baseada em prioridades trimestrais, métricas semanais e ritmo de reuniões diárias/semanais/mensais/trimestrais.
+
+**Runway.** Número de meses antes de a empresa ficar sem caixa, considerando o burn rate atual. Referência: mínimo 12 meses após rodada, ideal 18 a 24 meses.
+
+**SDK (Software Development Kit).** Conjunto de ferramentas, bibliotecas e documentação que facilita o desenvolvimento de aplicações em uma plataforma específica.
+
+**Seed.** Rodada de captação inicial de startup. No Brasil, tipicamente R$ 1 milhão a R$ 10 milhões, de fundos seed ou anjos, para validar PMF e motor inicial de crescimento.
+
+**Shape Up.** Metodologia de produto da Basecamp (Ryan Singer, 2019). Ciclos fixos de 6 semanas, escopo flexível, autonomia da equipe. Alternativa ao Scrum. Ver Framework: Shape Up (Ryan Singer / Basecamp, 2019) (Fase 17) e [[#CAPÍTULO 1 — PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA|Capítulo 1 (PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA)]] (Shape Up aplicado ao contexto de produto em escala).
+
+**SLA (Service Level Agreement).** Acordo de nível de serviço. Define métricas de disponibilidade, performance e tempo de resposta que a empresa se compromete a manter. Violações geram créditos ou penalidades.
+
+**SPADE.** Framework de decisão de Gokul Rajaram para decisões importantes: Setting (contexto), People (envolvidos), Alternatives (opções), Decide (escolha), Explain (comunicação).
+
+**SQL (Sales Qualified Lead).** Lead qualificado pelo time de vendas como oportunidade real. Critérios BANT: Budget, Authority, Need, Timeline.
+
+**Take rate.** Percentual do GMV que a plataforma retém como receita. Varia por setor: delivery 15-30%, ride-sharing 20-30%, marketplace 10-20%.
+
+**Technical debt (dívida técnica).** Custo futuro de retrabalho decorrente de decisões técnicas rápidas feitas no passado para ganhar velocidade. Como dívida financeira: acumula juros (velocidade de desenvolvimento decrescente) se não paga.
+
+**Unit economics.** Métricas de rentabilidade no nível da unidade básica do negócio (um cliente, uma transação, um produto). CAC, LTV, margem por transação, payback period.
+
+**Valuation.** Valor estimado de uma empresa. Em startups privadas, determinado por rodadas de captação. Pode ser calculado por múltiplos (EV/ARR, EV/EBITDA), DCF ou transações comparáveis.
+
+**Vesting.** Mecanismo pelo qual a participação em uma empresa é ganha gradualmente ao longo do tempo. Vesting padrão: 4 anos com 1 ano de cliff. Protege a empresa se fundador ou funcionário sai cedo.
+
+---
+
+### Siglas e Abreviações Usadas neste Volume
+
+**API:** Application Programming Interface. *Tecnologia.*
+
+**ARR:** Annual Recurring Revenue (receita recorrente anual). *SaaS / métricas.*
+
+**B2B:** Business-to-Business. *Modelo de negócio.*
+
+**BMC:** Business Model Canvas. *Estratégia / modelagem de negócio.*
+
+**CAC:** Customer Acquisition Cost (custo de aquisição de cliente). *Unit economics.*
+
+**CEO:** Chief Executive Officer. *Gestão.*
+
+**CFO:** Chief Financial Officer. *Gestão.*
+
+**CLT:** Consolidação das Leis do Trabalho (regime trabalhista brasileiro com vínculo formal). *Trabalho.*
+
+**CPO:** Chief Product Officer. *Gestão.*
+
+**CRM:** Customer Relationship Management (sistema ou prática). *Vendas.*
+
+**CTO:** Chief Technology Officer. *Gestão.*
+
+**CVV:** Centro de Valorização da Vida (linha de apoio 188). *Saúde mental.*
+
+**DPA:** Data Processing Agreement (adendo contratual de dados). *LGPD.*
+
+**GMV:** Gross Merchandise Value (volume bruto de transações). *Marketplaces.*
+
+**HR / RH:** Human Resources / Recursos Humanos. *Gestão.*
+
+**ICP:** Ideal Customer Profile. *Vendas e marketing.*
+
+**IPO:** Initial Public Offering (abertura de capital em bolsa). *Exit.*
+
+**JTBD:** Jobs To Be Done. *Framework de produto.*
+
+**KR:** Key Result (no framework OKR). *Planejamento.*
+
+**LGPD:** Lei Geral de Proteção de Dados (Lei 13.709/2018). *Regulação.*
+
+**LTV:** Lifetime Value (valor vitalício de cliente). *Unit economics.*
+
+**M&A:** Mergers and Acquisitions (fusões e aquisições). *Exit.*
+
+**MRR:** Monthly Recurring Revenue. *SaaS / métricas.*
+
+**MVP:** Minimum Viable Product (produto mínimo viável). *Produto.*
+
+**NPS:** Net Promoter Score (métrica de recomendação). *Satisfação.*
+
+**OKR:** Objectives and Key Results. *Planejamento.*
+
+**P&L / DRE:** Profit and Loss / Demonstração de Resultado. *Contabilidade.*
+
+**PIX:** sistema de pagamentos instantâneos do BACEN. *Pagamentos Brasil.*
+
+**PJ:** Pessoa Jurídica (regime de contratação). *Trabalho.*
+
+**PLG:** Product-Led Growth. *Growth.*
+
+**PM:** Product Manager. *Produto.*
+
+**PMF:** Product-Market Fit. *Conceito central.*
+
+**ROI:** Return on Investment. *Finanças.*
+
+**SaaS:** Software as a Service. *Modelo de negócio.*
+
+**SDR:** Sales Development Representative. *Vendas.*
+
+**SIPOC:** Suppliers, Inputs, Process, Outputs, Customers. *Operações.*
+
+**SQL:** Sales Qualified Lead. *Vendas.*
+
+**VP:** Vice President. *Gestão.*

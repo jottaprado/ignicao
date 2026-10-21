@@ -121,6 +121,8 @@ graph LR
 ### Ecossistema, Mentoria e Apoio Inicial (Capítulos 12 e 13)
 - [[#CAPÍTULO 12 — ACELERADORAS, PROGRAMAS E PARCEIROS INSTITUCIONAIS PARA STARTUP BRASILEIRA|CAPÍTULO 12 — ACELERADORAS, PROGRAMAS E PARCEIROS INSTITUCIONAIS PARA STARTUP BRASILEIRA]]
 - [[#CAPÍTULO 13 — REDE, MENTORES E ADVISORS — COMO CONSTRUIR O CAPITAL HUMANO DO EMPREENDEDOR|CAPÍTULO 13 — REDE, MENTORES E ADVISORS — COMO CONSTRUIR O CAPITAL HUMANO DO EMPREENDEDOR]]
+### Glossário e Siglas deste Volume
+- [[#Glossário e Siglas deste Volume|GLOSSÁRIO E SIGLAS DESTE VOLUME]]
 
 ---
 
@@ -605,23 +607,23 @@ A fila virou o principal motor de marketing: cada pessoa esperando convidava ami
 
 ### FERRAMENTAS DESTA FASE
 
-Esta fase é sobre preparação do empreendedor como pessoa. As ferramentas aqui ajudam a tomar a decisão fundamental. Empreender ou não. Quando. Em quê. Detalhamento completo de cada ferramenta no [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#ÍNDICE GERAL DE FRAMEWORKS DA COLEÇÃO|Índice Geral de Frameworks (Vol. 10)]] (catálogo de cento e quarenta e uma ferramentas em dezenove categorias — não é leitura linear, é referência consultiva: quando o livro citar "ver BG.X.Y", abra direto no item, leia em três a cinco minutos e volte para a fase).
+Esta fase é sobre preparação do empreendedor como pessoa. As ferramentas aqui ajudam a tomar a decisão fundamental. Empreender ou não. Quando. Em quê. Todas as ferramentas abaixo estão detalhadas passo a passo na subseção **[[#MANUAL PASSO A PASSO DOS FRAMEWORKS DESTA FASE|Manual Passo a Passo dos Frameworks desta Fase]]** logo a seguir.
 
-Canvases visuais complementares ([[#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvases Visuais da Fase]]): Canvas: Team Canvas (Alex Ivanov, 2015) (Fase 0).
+Canvases visuais complementares ([[#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvases Visuais da Fase]]): [[#Canvas: Team Canvas (Alex Ivanov, 2015)|Canvas: Team Canvas (Alex Ivanov, 2015)]].
 
-Hedgehog Concept (Jim Collins, *Good to Great*, 2001). Ferramenta para encontrar a interseção de três círculos: no que você pode ser o melhor do mundo, o que impulsiona a sua máquina econômica, e o que você ama profundamente. Use para escolher o seu foco empreendedor. Fundador sem hedgehog claro tende a dispersar em múltiplas ideias. Ver Framework: Hedgehog Concept (Jim Collins, 2001) (Fase 0).
+Hedgehog Concept (Jim Collins, *Good to Great*, 2001). Ferramenta para encontrar a interseção de três círculos: no que você pode ser o melhor do mundo, o que impulsiona a sua máquina econômica, e o que você ama profundamente. Use para escolher o seu foco empreendedor. Fundador sem hedgehog claro tende a dispersar em múltiplas ideias. Ver [[#Framework: Hedgehog Concept (Jim Collins, 2001)|Framework: Hedgehog Concept (Jim Collins, 2001)]].
 
-First Principles Thinking (Aristóteles, popularizado por Elon Musk). Método de decompor supostas verdades do mundo dos negócios em elementos fundamentais e reconstruir do zero, em vez de raciocinar por analogia ("sempre foi feito assim"). Use antes de aceitar "precisa de MBA", "precisa de cofundador técnico", "precisa de capital". Cada uma dessas pode ser verdade ou não, dependendo dos primeiros princípios do *seu* caso. Ver Framework: First Principles Thinking (Aristóteles, ~350 a.C.; popularizado por Elon Musk, anos 2010) (Fase 0).
+First Principles Thinking (Aristóteles, popularizado por Elon Musk). Método de decompor supostas verdades do mundo dos negócios em elementos fundamentais e reconstruir do zero, em vez de raciocinar por analogia ("sempre foi feito assim"). Use antes de aceitar "precisa de MBA", "precisa de cofundador técnico", "precisa de capital". Cada uma dessas pode ser verdade ou não, dependendo dos primeiros princípios do *seu* caso. Ver [[#Framework: First Principles Thinking (Aristóteles, ~350 a.C.; popularizado por Elon Musk, anos 2010)|Framework: First Principles Thinking (Aristóteles, ~350 a.C.; popularizado por Elon Musk, anos 2010)]].
 
-Second-Order Thinking (Howard Marks). Método de considerar as consequências de segunda e terceira ordem de uma decisão, não só o impacto imediato. Use ao decidir sair do emprego. Não basta "tenho dezoito meses de runway pessoal". Considere: se a startup fracassar, qual currículo fica? Que mercado reage à minha saída? Ver Framework: Second-Order Thinking (Howard Marks, 2011) (Fase 3).
+Second-Order Thinking (Howard Marks). Método de considerar as consequências de segunda e terceira ordem de uma decisão, não só o impacto imediato. Use ao decidir sair do emprego. Não basta "tenho dezoito meses de runway pessoal". Considere: se a startup fracassar, qual currículo fica? Que mercado reage à minha saída? Ver [[#Framework: Second-Order Thinking (Howard Marks, 2011)|Framework: Second-Order Thinking (Howard Marks, 2011)]].
 
-Inversion (Carl Jacobi, popularizado por Charlie Munger). Técnica de inverter a pergunta: em vez de "como ter sucesso como empreendedor?", pergunte "como garantir que vou fracassar como empreendedor?". Gera lista concreta de armadilhas a evitar. Use na preparação mental antes de começar. Ver Framework: Inversion (Carl Jacobi; Charlie Munger, popularizado) (Fase 1).
+Inversion (Carl Jacobi, popularizado por Charlie Munger). Técnica de inverter a pergunta: em vez de "como ter sucesso como empreendedor?", pergunte "como garantir que vou fracassar como empreendedor?". Gera lista concreta de armadilhas a evitar. Use na preparação mental antes de começar. Ver [[#Framework: Inversion (Carl Jacobi; Charlie Munger, popularizado)|Framework: Inversion (Carl Jacobi; Charlie Munger, popularizado)]].
 
-Pre-mortem (Gary Klein). Exercício de imaginar que a sua empresa já fracassou em dois anos, e descrever por quê, antes de começar. Revela premissas frágeis. Use antes de tomar decisão irreversível de empreender. Ver Framework: Pre-mortem (Gary Klein, 2007) (Fase 0).
+Pre-mortem (Gary Klein). Exercício de imaginar que a sua empresa já fracassou em dois anos, e descrever por quê, antes de começar. Revela premissas frágeis. Use antes de tomar decisão irreversível de empreender. Ver [[#Framework: Pre-mortem (Gary Klein, 2007)|Framework: Pre-mortem (Gary Klein, 2007)]].
 
-Cynefin (Dave Snowden). Modelo para identificar o tipo de problema que você enfrenta: Clear (simples), Complicated (complicado), Complex (complexo) e Chaotic (caótico). Empreender é predominantemente Complex: exige experimentação, não melhores práticas prontas. Use para calibrar expectativa sobre como a jornada vai se desenrolar. Ver Framework: Cynefin Framework (Dave Snowden, 1999) (Fase 0).
+Cynefin (Dave Snowden). Modelo para identificar o tipo de problema que você enfrenta: Clear (simples), Complicated (complicado), Complex (complexo) e Chaotic (caótico). Empreender é predominantemente Complex: exige experimentação, não melhores práticas prontas. Use para calibrar expectativa sobre como a jornada vai se desenrolar. Ver [[#Framework: Cynefin Framework (Dave Snowden, 1999)|Framework: Cynefin Framework (Dave Snowden, 1999)]].
 
-McKinsey 7-Step Problem Solving. Método estruturado de resolução de problemas em sete etapas. Simplificado nesta fase. Aplique em "devo empreender? Em quê?", tratando como problema estruturável. Ver Framework: McKinsey 7-Step Problem Solving (Fase 3) para detalhes.
+McKinsey 7-Step Problem Solving. Método estruturado de resolução de problemas em sete etapas. Simplificado nesta fase. Aplique em "devo empreender? Em quê?", tratando como problema estruturável. Ver [[#Framework: McKinsey 7-Step Problem Solving|Framework: McKinsey 7-Step Problem Solving]].
 
 ---
 
@@ -870,7 +872,7 @@ Quatro vieses cognitivos de alta frequência em contexto de startup, com diagnó
 
 ##### Como aplicar
 
-Não é possível eliminar vieses cognitivos — são fiados em arquitetura neural. O que é possível é criar processos que os mitiguem. Pré-mortems (Framework: Pre-mortem (Gary Klein, 2007) (Fase 0)) atacam otimismo excessivo. Red Teams (Framework: Red Team / Blue Team (Fase 7, Vol. 3)) atacam Curse of Knowledge. Expected Value Thinking (Framework: Expected Value / Bayesian Thinking (Fase 7, Vol. 3)) força consciência de base rates. Decisões importantes tomadas em grupo heterogêneo reduzem viés individual. Documentar predições com data e revisitar reduz overconfidence ao longo do tempo.
+Não é possível eliminar vieses cognitivos — são fiados em arquitetura neural. O que é possível é criar processos que os mitiguem. Pré-mortems (Framework: Pre-mortem (Gary Klein, 2007) (Fase 0)) atacam otimismo excessivo. Red Teams (Framework: Red Team / Blue Team (Fase 0)) atacam Curse of Knowledge. Expected Value Thinking (Framework: Expected Value / Bayesian Thinking (Fase 0)) força consciência de base rates. Decisões importantes tomadas em grupo heterogêneo reduzem viés individual. Documentar predições com data e revisitar reduz overconfidence ao longo do tempo.
 
 ##### Erros comuns
 
@@ -957,6 +959,152 @@ Projetos triviais, overkill, Em urgência extrema, decisão precisa ser rápida,
 - Klein, G. (2007). "Performing a Project Pre-mortem". *HBR*, September.
 - Klein, G. (1998). *Sources of Power: How People Make Decisions*. MIT Press.
 - Kahneman, D. (2011). *Thinking, Fast and Slow*, discute prospective hindsight.
+
+---
+
+#### Framework: Red Team / Blue Team
+
+##### Origem
+
+Prática militar americana dos anos 1960 (desenvolvida durante Guerra Fria para simular raciocínio soviético). Expandiu para cybersecurity nos anos 1990 (red team = atacantes simulados, blue team = defensores). Adotada em corporações grandes (Microsoft, Google, governments) para stress-testar decisões estratégicas.
+
+##### O que é
+
+Técnica de **desafio estruturado a uma decisão ou plano**: um time (red) ativamente busca fraquezas, outro (blue) defende ou refina. Força rigor. Previne groupthink.
+
+##### Princípios / estrutura
+
+Red Team: time designado para **atacar** a proposta/plano. Encontrar fraquezas. Agir como concorrente/adversário.
+
+Blue Team: time que **defende** ou propõe, o time que fez o plano original.
+
+Exercício: red team apresenta críticas, blue team responde. Se blue team não consegue defender, plano tem fraqueza real.
+
+##### Como aplicar do jeito certo
+
+Passo 1, Decisões importantes o suficiente para o esforço. Go/no-go em rodada, M&A, grande produto. Não para trivialidades.
+
+Passo 2, Red team deve ter independência. Membros com autoridade para dissidência real. Não "red team que concorda no final por medo".
+
+Passo 3, Red team prepara em separado. Com tempo adequado para análise crítica genuína.
+
+Passo 4, Sessão formal. Apresentação do plano (blue), ataques (red), defesa (blue), discussão.
+
+Passo 5, Documentar críticas e respostas. Mesmo se plano seguir, registro do que foi questionado.
+
+Passo 6, Se red team conseguiu minar, revisar plano.
+
+##### Exemplo aplicado
+
+Decisão de aquisição de concorrente:
+
+- Blue team (CEO + CFO + time de deal): apresenta tese, sinergia de clientes, ARR combinado, expansion.
+- Red team (2 board members + 1 advisor externo): por uma semana, analisa crítica. Trazem: "integração cultural falha em 70% dos M&A, vocês nunca integraram, concorrente tem debt oculto, preço está no topo do razoável, oportunidade de custo alto (time executivo desviado por 18 meses)."
+- Discussão: CEO convence em alguns pontos, mas concede em outros. Preço é renegociado para baixo, acordo estrutura earn-out para mitigar risco, integration team é pré-contratado.
+
+Resultado: deal melhor (ou deal evitado, que também pode ser bom).
+
+##### Erros comuns
+
+Red team "de fachada": pessoas que vão dizer "tá tudo ok". Sem valor. Blue team defensivo em vez de analítico: reage emocionalmente a críticas em vez de refinar plano. Sem tempo adequado para red team: "analise este deal em 4 horas", vira checkbox. Não documentar decisão final: se 3 meses depois problema surge, sem rastro de que foi antecipado.
+
+##### Quando NÃO usar
+
+Decisões menores (custo do exercício > benefício), Em ambientes onde dissenso é punido, red team honesto impossível.
+
+##### Leitura adicional
+
+- Zenko, M. (2015). *Red Team: How to Succeed by Thinking Like the Enemy*. Basic Books.
+
+---
+
+#### Framework: Expected Value / Bayesian Thinking
+
+##### Origem
+
+Expected Value: conceito estatístico formalizado por Pierre Fermat e Blaise Pascal no séc. XVII. Aplicação a decisão de negócio popularizada por von Neumann e Morgenstern em *Theory of Games and Economic Behavior* (1944).
+
+Bayesian Thinking: Thomas Bayes (séc. XVIII), popularizado em decisão contemporânea por Annie Duke (*Thinking in Bets*, 2018, ex-poker profissional). Aplicado em VCs (Chamath Palihapitiya, Elad Gil), trading, medicina.
+
+##### O que é
+
+Expected Value (EV): em decisão sob incerteza, calcular valor esperado ponderando resultados possíveis por suas probabilidades.
+
+Bayesian Thinking: atualizar crenças (probabilidades) conforme nova evidência chega, em vez de tratar decisões como "certezas".
+
+##### Princípios / estrutura
+
+Expected Value fórmula:
+EV = Σ (probabilidade_i × resultado_i)
+
+Exemplo: investimento de R$ 1M com:
+
+- 40% de chance de retornar R$ 5M.
+- 40% de chance de retornar R$ 1M.
+- 20% de chance de retornar R$ 0.
+
+EV = (0.4 × 5M) + (0.4 × 1M) + (0.2 × 0) = R$ 2.4M.
+
+Investimento positivo EV. Mas: **variância alta** (pode perder tudo). EV não mostra risco de ruína.
+
+Bayesian:
+
+- Começa com prior (crença inicial).
+- Evidência nova chega.
+- Atualiza para posterior (crença revisada).
+- Decisões baseadas em posteriors atualizados, não em priors estáticos.
+
+##### Como aplicar do jeito certo
+
+EV:
+
+1. Liste resultados possíveis.
+2. Estime probabilidade de cada (difícil, mas tentar).
+3. Estime valor/payoff de cada.
+4. Multiplique e some.
+5. Compare alternativas por EV.
+6. Considere risco: EV sozinho ignora ruína.
+
+Bayesian:
+
+1. Comece com prior explícito (% de chance de hipótese ser verdade).
+2. Ao receber evidência, pergunte: quão provável é essa evidência se hipótese for verdade vs. falsa?
+3. Atualize usando Teorema de Bayes (ou aproximação informal).
+4. Decisões baseadas em posteriors.
+
+##### Exemplo aplicado
+
+Decisão: perseverar em vertical X ou pivotar?
+
+Opção A (perseverar):
+
+- 30% chance: vertical ganha tração em 12 meses → R$ 20M ARR em 3 anos. Valor R$ 40M.
+- 40% chance: tração moderada → R$ 5M ARR. Valor R$ 10M.
+- 30% chance: falha → receita cai, encerramento. Valor R$ -5M (custo reestruturação).
+- EV = (0.3 × 40) + (0.4 × 10) + (0.3 × -5) = 12 + 4 - 1.5 = **R$ 14.5M**.
+
+Opção B (pivotar para vertical Y):
+
+- 20% chance: vertical Y muito forte → Valor R$ 50M.
+- 50% chance: tração ok → Valor R$ 8M.
+- 30% chance: falha → Valor R$ -3M.
+- EV = (0.2 × 50) + (0.5 × 8) + (0.3 × -3) = 10 + 4 - 0.9 = **R$ 13.1M**.
+
+EV favorece opção A marginalmente. Mas considerar: variância, timing, opcionalidades futuras, etc.
+
+##### Erros comuns
+
+Probabilidades estimadas com precisão falsa: "30.2% de chance" quando realmente é "mais ou menos 25-35%". Ignorar risco de ruína: EV positivo com 5% de chance de falência = decisão ruim. Priors preguiçosos: começar análise Bayesiana com "não sei, 50%". Melhor pesquisar e estimar prior decente. Não atualizar Bayesian com evidência: trata priors como certezas. Quantificar o inquantificável: forçar números onde não há base vira teatro.
+
+##### Quando NÃO usar
+
+Decisões onde probabilidades são genuinamente impossíveis de estimar. Decisões onde resultado de single event importa mais que valor esperado (jogar russos roleta com EV positivo mas 17% de morte não é decisão racional).
+
+##### Leitura adicional
+
+- Duke, A. (2018). *Thinking in Bets*. Portfolio.
+- Kahneman, D. (2011). *Thinking, Fast and Slow*.
+- Silver, N. (2012). *The Signal and the Noise*. Penguin.
 
 ---
 
@@ -1069,7 +1217,7 @@ Em times de 1-2 pessoas (overhead não compensa). Em contextos onde há hierarqu
 
 ##### Conexão com outros canvases
 
-O Team Canvas **complementa o BMC (Fase 2)** e o **Lean Canvas (Fase 1)**: estes descrevem o modelo externo (o negócio); o Team Canvas descreve o modelo interno (o time que vai executar). **Orienta o Risk Canvas (Fase 12, Vol. 4)** no bloco "Risco de equipe" — o Team Canvas é o diagnóstico; o Risk Canvas é a priorização e mitigação. **Precede o Storytelling Canvas (Fase 14, Vol. 5)** em narrativas de expansão: time alinhado produz narrativa coerente; time desalinhado produz narrativa contraditória.
+O Team Canvas **complementa o BMC (Fase 2)** e o **Lean Canvas (Fase 1)**: estes descrevem o modelo externo (o negócio); o Team Canvas descreve o modelo interno (o time que vai executar). **Orienta o Risk Canvas (Fase 12)** no bloco "Risco de equipe" — o Team Canvas é o diagnóstico; o Risk Canvas é a priorização e mitigação. **Precede o Storytelling Canvas (Fase 14)** em narrativas de expansão: time alinhado produz narrativa coerente; time desalinhado produz narrativa contraditória.
 
 ##### Leitura adicional
 
@@ -1084,7 +1232,7 @@ O Team Canvas **complementa o BMC (Fase 2)** e o **Lean Canvas (Fase 1)**: estes
 #### Template: Entrevista com Advisor (decisão específica · tradeoffs)
 
 > [!important] Disciplina central
-> Advisor é para **refinar decisão que já está em cima da mesa**, não para descobrir o problema. Se você não consegue nomear a decisão em uma frase, você não está pronto para essa conversa — volte para Template: Entrevista de Problema (Fase 4, Vol. 2) (entrevista de problema) ou Template: Entrevista com Especialista de Mercado (mapa de setor · Fases 3-5) (Fase 4, Vol. 2) (especialista). Pareamento natural com o [[#CAPÍTULO 13 — REDE, MENTORES E ADVISORS — COMO CONSTRUIR O CAPITAL HUMANO DO EMPREENDEDOR|Capítulo 13 (REDE, MENTORES E ADVISORS — COMO CONSTRUIR O CAPITAL HUMANO DO EMPREENDEDOR)]], que cobre como construir e formalizar a relação com advisors. Este template é o que se usa **dentro** da conversa, depois que o advisor já está no jogo.
+> Advisor é para **refinar decisão que já está em cima da mesa**, não para descobrir o problema. Se você não consegue nomear a decisão em uma frase, você não está pronto para essa conversa — volte para Template: Entrevista de Problema (Fase 1) (entrevista de problema) ou Template: Entrevista com Especialista de Mercado (mapa de setor · Fases 3-5) (Fase 1) (especialista). Pareamento natural com o [[#CAPÍTULO 13 — REDE, MENTORES E ADVISORS — COMO CONSTRUIR O CAPITAL HUMANO DO EMPREENDEDOR|Capítulo 13 (REDE, MENTORES E ADVISORS — COMO CONSTRUIR O CAPITAL HUMANO DO EMPREENDEDOR)]], que cobre como construir e formalizar a relação com advisors. Este template é o que se usa **dentro** da conversa, depois que o advisor já está no jogo.
 
 ##### Parte A — Roteiro da Conversa (uso durante)
 
@@ -1372,7 +1520,7 @@ Graham mesmo indica: se tivesse que escolher uma das treze, seria a quarta (ente
 
 **Ofereça um atendimento surpreendentemente bom.** Clientes estão acostumados a serem maltratados. Tente fazer seu atendimento não apenas bom, mas surpreendentemente bom. Em estágio inicial, o fundador deve estar pessoalmente na linha de frente. Aplicação: [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 11 — MVP E EXPERIMENTOS DE MERCADO|Fase 11 (Vol. 4)]].
 
-**Você produz o que mede.** Se você quer que algo cresça, meça diariamente. Se quer usuários ativos, meça usuários ativos todo dia. Se quer receita, meça receita semanal. O simples ato de medir já muda o comportamento do time. Aplicação: [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#ÍNDICE GERAL DE FRAMEWORKS DA COLEÇÃO|Índice Geral de Frameworks (Vol. 10)]].
+**Você produz o que mede.** Se você quer que algo cresça, meça diariamente. Se quer usuários ativos, meça usuários ativos todo dia. Se quer receita, meça receita semanal. O simples ato de medir já muda o comportamento do time. Aplicação: [[#MANUAL PASSO A PASSO DOS FRAMEWORKS DESTA FASE|Manual Passo a Passo dos Frameworks desta Fase]].
 
 **Gaste pouco.** A forma mais comum de morte de startup é ficar sem dinheiro. Ser barato é quase sinônimo de iterar rápido. Mais do que isso: cultura de frugalidade mantém a empresa jovem, assim como exercício mantém pessoas jovens. Aplicação: [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 12 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 12 (Vol. 4)]], [[#CAPÍTULO 1 — DINHEIRO PESSOAL DO FUNDADOR|Capítulo 1 (DINHEIRO PESSOAL DO FUNDADOR)]].
 
@@ -1755,16 +1903,16 @@ Clareza da escolha final. Você consegue escrever em duas frases, sem hesitaçã
 
 ### FERRAMENTAS DESTA FASE
 
-Oito ferramentas estressam a candidata antes de comprometer meses ou anos. Não é leitura linear, é referência consultiva. Quando a fase citar "ver BG.X.Y" ou "ver CZ.N", abra o item, leia em três a cinco minutos e volte.
+Oito ferramentas estressam a candidata antes de comprometer meses ou anos. Todas estão detalhadas passo a passo logo a seguir nas subseções **[[#MANUAL PASSO A PASSO DOS FRAMEWORKS DESTA FASE|Manual Passo a Passo dos Frameworks desta Fase]]** e **[[#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvases Visuais desta Fase]]**.
 
 - **Idea → Wedge → Scale (Antler)** — espinha de raciocínio quando há visão grande mas falta cunha. [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 5 — IDEA → WEDGE → SCALE: O FRAMEWORK ANTLER COMO LENTE TRANSVERSAL|Capítulo 5 (IDEA → WEDGE → SCALE: O FRAMEWORK ANTLER COMO LENTE TRANSVERSAL) (Vol. 3)]].
-- **Strategy Canvas / ERRC Grid (Blue Ocean, Kim e Mauborgne, 2005)** — repensar categoria no Método 7 (white space) ou quando a ideia parece "outro X". Canvas: Strategy Canvas (W. Chan Kim & Renée Mauborgne, 2005) (Fase 6, Vol. 2) e Framework: Blue Ocean Strategy (W. Chan Kim & Renée Mauborgne, 2005) (Fase 1).
-- **First Principles Thinking** (Aristóteles, popularizado por Elon Musk) — decompor suposições no Método 1 (Expertise) e antes do Filtro 1 (FMF). Framework: First Principles Thinking (Aristóteles, ~350 a.C.; popularizado por Elon Musk, anos 2010) (Fase 0).
-- **Inversion** (Jacobi, popularizado por Munger) — peneira final, "por que vai falhar?" antes de "por que vai funcionar?". Framework: Inversion (Carl Jacobi; Charlie Munger, popularizado) (Fase 1).
-- **Wardley Mapping** (Simon Wardley, 2005) — posicionar componentes em estágios de evolução, especialmente no Método 5 (Technology Wave Riding). Framework: Wardley Mapping (Simon Wardley, 2005) (Fase 1).
-- **Three Horizons Framework** (McKinsey, 1999) — calibrar H1 (incremental) vs H3 (transformacional), com implicação direta de janela e capital. Framework: Three Horizons Framework (McKinsey, 1999) (Fase 1).
-- **The Mom Test** (Rob Fitzpatrick, 2013) — método de entrevista que evita respostas educadas. Para Calibration Conversations da quinta da Semana das Ideias. Framework: The Mom Test (Rob Fitzpatrick, 2013) (Fase 4, Vol. 2).
-- **Lean Canvas e Business Model Canvas** (Maurya 2012, Osterwalder 2010) — articulação visual do modelo em uma página, depois dos quatro filtros e antes da Fase 2. Canvas: Lean Canvas (Ash Maurya, 2012) (Fase 1) e Canvas: Business Model Canvas (Alexander Osterwalder, 2010) (Fase 2).
+- **Strategy Canvas / ERRC Grid (Blue Ocean, Kim e Mauborgne, 2005)** — repensar categoria no Método 7 (white space) ou quando a ideia parece "outro X". [[#Canvas: Strategy Canvas (W. Chan Kim & Renée Mauborgne, 2005)|Canvas: Strategy Canvas (W. Chan Kim & Renée Mauborgne, 2005)]] e [[#Framework: Blue Ocean Strategy (W. Chan Kim & Renée Mauborgne, 2005)|Framework: Blue Ocean Strategy (W. Chan Kim & Renée Mauborgne, 2005)]].
+- **First Principles Thinking** (Aristóteles, popularizado por Elon Musk) — decompor suposições no Método 1 (Expertise) e antes do Filtro 1 (FMF). [[#Framework: First Principles Thinking (Aristóteles, ~350 a.C.; popularizado por Elon Musk, anos 2010)|Framework: First Principles Thinking (Aristóteles, ~350 a.C.; popularizado por Elon Musk, anos 2010)]].
+- **Inversion** (Jacobi, popularizado por Munger) — peneira final, "por que vai falhar?" antes de "por que vai funcionar?". [[#Framework: Inversion (Carl Jacobi; Charlie Munger, popularizado)|Framework: Inversion (Carl Jacobi; Charlie Munger, popularizado)]].
+- **Wardley Mapping** (Simon Wardley, 2005) — posicionar componentes em estágios de evolução, especialmente no Método 5 (Technology Wave Riding). [[#Framework: Wardley Mapping (Simon Wardley, 2005)|Framework: Wardley Mapping (Simon Wardley, 2005)]].
+- **Three Horizons Framework** (McKinsey, 1999) — calibrar H1 (incremental) vs H3 (transformacional), com implicação direta de janela e capital. [[#Framework: Three Horizons Framework (McKinsey, 1999)|Framework: Three Horizons Framework (McKinsey, 1999)]].
+- **The Mom Test** (Rob Fitzpatrick, 2013) — método de entrevista que evita respostas educadas. Para Calibration Conversations da quinta da Semana das Ideias. [[#Framework: The Mom Test (Rob Fitzpatrick, 2013)|Framework: The Mom Test (Rob Fitzpatrick, 2013)]].
+- **Lean Canvas e Business Model Canvas** (Maurya 2012, Osterwalder 2010) — articulação visual do modelo em uma página, depois dos quatro filtros e antes da Fase 2. [[#Canvas: Lean Canvas (Ash Maurya, 2012)|Canvas: Lean Canvas (Ash Maurya, 2012)]] e [[#Canvas: Business Model Canvas (Alexander Osterwalder, 2010)|Canvas: Business Model Canvas (Alexander Osterwalder, 2010)]].
 
 ---
 
@@ -1824,8 +1972,8 @@ Framework analítico central, ERRC Grid (Eliminate, Reduce, Raise, Create):
 
 O resultado é o **Strategy Canvas**: gráfico que compara seu perfil de valor com concorrentes.
 
-> [!note] Tratamento completo do Strategy Canvas em Canvas: Strategy Canvas (W. Chan Kim & Renée Mauborgne, 2005) (Fase 6, Vol. 2)
-> Origem, estrutura detalhada, como aplicar passo a passo, caso Stone vs adquirentes tradicionais e erros comuns em [[IGNICAO-Vol-2-Descoberta-e-Mercado#Canvas: Strategy Canvas (W. Chan Kim & Renée Mauborgne, 2005)|Canvas: Strategy Canvas (W. Chan Kim & Renée Mauborgne, 2005) (Vol. 2)]].
+> [!note] Tratamento completo do Strategy Canvas em Canvas: Strategy Canvas (W. Chan Kim & Renée Mauborgne, 2005) (Fase 1)
+> Origem, estrutura detalhada, como aplicar passo a passo, caso Stone vs adquirentes tradicionais e erros comuns em [[#Canvas: Strategy Canvas (W. Chan Kim & Renée Mauborgne, 2005)|Canvas: Strategy Canvas (W. Chan Kim & Renée Mauborgne, 2005)]].
 
 ##### Como aplicar do jeito certo
 
@@ -2085,6 +2233,91 @@ Em decisões onde armadilhas já são conhecidas, forward é suficiente.
 
 ---
 
+#### Framework: The Mom Test (Rob Fitzpatrick, 2013)
+
+##### Origem
+
+Rob Fitzpatrick, fundador serial britânico (Founder Centric, The Cranium), publicou *The Mom Test* em 2013, livro curto (~130 páginas) e direto. O título vem da regra central: **mesmo sua mãe diria que sua ideia é boa se perguntada diretamente**, o desafio é fazer perguntas que extraiam verdade mesmo dela. O livro virou referência em Customer Discovery, citado em programas como YC, Techstars, 500 Startups.
+
+##### O que é
+
+Protocolo de entrevista para validar ideias de negócio **evitando respostas falsamente positivas** ("educadamente inúteis") dos entrevistados. Não é framework acadêmico, é guia prático baseado em milhares de entrevistas conduzidas pelo autor e por mentorados.
+
+##### Princípios / estrutura
+
+Três regras fundamentais:
+
+1. Fale da vida deles, não da sua ideia. Perguntas sobre problema do entrevistado em contexto real, sem apresentar sua solução.
+
+2. Pergunte sobre o passado específico, não sobre hipotéticos futuros. "Quando foi a última vez que [problema] aconteceu?" em vez de "Você usaria uma ferramenta que [solução]?".
+
+3. Fale menos, ouça mais. Proporção ideal: entrevistado fala 80% do tempo, você fala 20% (para introduzir perguntas e clarificar).
+
+O que evitar (as "3 coisas ruins"):
+
+- Elogios: "gostei da sua ideia", não significa nada.
+- Conversa fiada hipotética: "eu definitivamente usaria isso", opinião sobre futuro não é dado.
+- Ideias que o entrevistado sugere: "deveriam adicionar feature X", não é seu dever incorporar, pode ser ruído.
+
+O que buscar (sinais de verdade):
+
+- Comportamentos específicos no passado ("fiz X em Y situação").
+- Pagamentos já feitos (ou tentativas): "gastei R$ Z tentando resolver isso".
+- Intensidade emocional genuína (frustração visível, não educada).
+- Quantidade concreta de tempo/dinheiro já investido tentando resolver.
+
+##### Como aplicar do jeito certo
+
+Passo 1, Prepare agenda sem mencionar sua solução. Lista de 5-7 perguntas sobre a vida deles relacionada ao problema.
+
+Passo 2, Abra com contexto. "Estou estudando como [tipo de pessoa] lida com [domínio], posso fazer umas perguntas?" Não "estou validando minha startup".
+
+Passo 3, Faça perguntas abertas sobre passado. "Como foi a última vez que X?" em vez de "Se houvesse Y, você usaria?".
+
+Passo 4, Aprofunde em momentos específicos. "Me conte mais sobre aquela terça-feira quando aconteceu." Detalhamento é onde verdade mora.
+
+Passo 5, Procure evidência de ação já tomada. Se entrevistado nunca tentou resolver o problema, pode não ser dor real.
+
+Passo 6, Pergunte sobre prioridade relativa. "Onde isso se encaixa entre suas preocupações de mês?" Se não é top 3-5, provavelmente não vale produto dedicado.
+
+Passo 7, Transição natural para commitment (se relevante). No fim de conversas com candidatos reais a ICP: "Tenho ideias do que poderia ajudar, posso te mostrar em 2 semanas?" Tentativa de agendar segunda conversa testa interesse real.
+
+Passo 8, Documente. Notas durante (ou logo após) com: quotes literais, comportamentos reportados, sinais emocionais, próximos passos.
+
+##### Exemplo aplicado
+
+Mal feito (pergunta típica fundador):
+"Tenho uma ideia de app que ajuda contadores a processar nota fiscal mais rápido. Você pagaria R$ 200/mês por isso?"
+Resposta típica: "Sim, parece útil!" (sem valor).
+
+Bem feito (Mom Test):
+
+- "Como foi sua última semana processando notas fiscais?"
+- "O que foi mais demorado?"
+- "Quanto tempo você gasta por mês nisso?"
+- "O que você já tentou para agilizar?"
+- "Você usa alguma ferramenta? Qual? Por quê?"
+- "Quanto custa pra você (tempo, dinheiro) essa parte do trabalho?"
+- "Se tivesse uma varinha mágica, o que mudaria?"
+
+Respostas revelam: se problema é real (via especificidade), intenso (via frustração), de alta prioridade (via dinheiro/tempo investido tentando), e se há gap que solução pode preencher.
+
+##### Erros comuns
+
+Pitch disfarçado de entrevista: "quero te entrevistar" mas fala sobre a ideia. Vira validação teatral. Perguntas guiadas: "concorda que X é frustrante?", já sugere a resposta. Desvio para futuros hipotéticos: entrevistado começa a fantasiar, vire para passado. Ignorar sinais negativos: entrevistado diz "não é um problema grande pra mim", fundador insiste ou reinterpreta. Erro grave. Viés de confirmação na análise: só lembra de quotes que apoiam hipótese, ignora os que contradizem. Documentar *tudo* protege. Amostra enviesada: entrevistar só pessoas próximas (cordiais). Buscar ICPs reais, mesmo frios. Parar cedo (3 entrevistas não bastam): padrão começa a emergir em 8-12, confidence em 15-25.
+
+##### Quando NÃO usar
+
+Quando você precisa de dados estatísticos (usar survey), Para validar preferência entre 2 features específicas (A/B testing é melhor), Em [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 8 — EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA E DA SOLUÇÃO|Fase 8 (Vol. 3)]]+ quando produto já existe (usability testing, não Mom Test).
+
+##### Leitura adicional
+
+- Fitzpatrick, R. (2013). *The Mom Test*. Self-published.
+- Cooper, B. & Vlaskovits, P. (2010). *The Entrepreneur's Guide to Customer Development*.
+- Ries, E. (2011). *The Lean Startup*. Capítulos sobre customer interviews.
+
+---
+
 ### CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)
 
 #### Canvas: Lean Canvas (Ash Maurya, 2012)
@@ -2187,13 +2420,630 @@ Em empresas pós-PMF com modelo estabelecido — use BMC. Em projetos internos d
 
 ##### Conexão com outros canvases
 
-O Lean Canvas **se relaciona ao BMC (Fase 2)** como ferramenta complementar para estágios distintos. **Se relaciona ao Hypothesis Canvas (Fase 7, Vol. 3)**: cada bloco do Lean Canvas vira uma ou mais entradas no banco de hipóteses. **Se relaciona ao Test Card (Fase 8, Vol. 3)**: cada hipótese do Lean Canvas vira um ou mais Test Cards na Fase 7. **Precede o BMC**: depois de PMF, migre.
+O Lean Canvas **se relaciona ao BMC (Fase 2)** como ferramenta complementar para estágios distintos. **Se relaciona ao Hypothesis Canvas (Fase 3)**: cada bloco do Lean Canvas vira uma ou mais entradas no banco de hipóteses. **Se relaciona ao Test Card (Fase 8)**: cada hipótese do Lean Canvas vira um ou mais Test Cards na Fase 7. **Precede o BMC**: depois de PMF, migre.
 
 ##### Leitura adicional
 
 - *Running Lean* (Ash Maurya, 2012; 3ª edição em 2022).
 - *Scaling Lean* (Ash Maurya, 2016) — aplicação pós-PMF.
 - [leanstack.com](https://leanstack.com) — ferramenta online + cursos da equipe.
+
+---
+
+#### Canvas: Strategy Canvas (W. Chan Kim & Renée Mauborgne, 2005)
+
+##### Origem
+
+W. Chan Kim e Renée Mauborgne, professores do INSEAD, publicaram *Blue Ocean Strategy* em 2005 após quinze anos de pesquisa empírica analisando 150 movimentos estratégicos em 30 indústrias ao longo de cem anos. A tese central é que **competir em mercado saturado (red ocean) é destrutivo, e criar novo espaço de mercado (blue ocean) é a estratégia vencedora**. O Strategy Canvas é a ferramenta visual central do framework — gráfico que compara curvas de valor de concorrentes para revelar onde existe espaço de diferenciação real, em vez da disputa palmo-a-palmo nas mesmas dimensões. O livro vendeu mais de quatro milhões de cópias e o Strategy Canvas virou referência em planejamento estratégico, embora tenha sido subutilizado em startup brasileira (frequentemente substituído por Porter's Five Forces ou matriz BCG, que são ferramentas distintas).
+
+##### O que é
+
+Gráfico de duas dimensões. **Eixo X**: fatores de competição relevantes no setor (tipicamente 8-15 fatores listados horizontalmente). **Eixo Y**: nível de oferta de cada fator, em escala de baixo a alto. Para cada concorrente (incluindo você), traça-se uma **curva de valor** — uma linha que conecta os pontos representando quanto desse concorrente oferece em cada fator.
+
+```mermaid
+xychart-beta
+    title "Strategy Canvas — exemplo Cirque du Soleil"
+    x-axis "Fatores de competição" ["Preço", "Estrelas", "Animais", "Múltiplas-arenas", "Risco-físico", "Tema", "Refinamento", "Música-teatro", "Atmosfera"]
+    y-axis "Nível de oferta" 0 --> 10
+    line [3, 8, 9, 9, 7, 1, 1, 1, 2]
+    line [9, 1, 0, 0, 5, 9, 9, 9, 9]
+```
+
+A linha superior representa o circo tradicional (Ringling, Barnum & Bailey): alto em estrelas, animais, múltiplas arenas, risco. A linha inferior representa o Cirque du Soleil: alto em tema, refinamento, música/teatro, atmosfera; baixo em estrelas e animais. Onde as curvas divergem dramaticamente, há diferenciação. Onde se sobrepõem, há comoditização.
+
+A análise associada é o **ERRC Grid** — quatro decisões estratégicas para mover a curva:
+
+- **Eliminate**: que fatores que o setor compete podem ser totalmente eliminados?
+- **Reduce**: que fatores podem ser reduzidos abaixo do padrão do setor?
+- **Raise**: que fatores devem ser elevados acima do padrão?
+- **Create**: que fatores nunca oferecidos pelo setor podem ser criados?
+
+##### Quando usar
+
+Use o Strategy Canvas na Fase 5 (mapeamento de mercado e concorrência) quando o setor parece saturado e você precisa decidir como diferenciar. Também use a cada 18-24 meses como check-up estratégico — concorrência se aproxima da sua curva ao longo do tempo, e o Strategy Canvas revela quando a diferenciação está erodindo. Use também em Fase 15 (reinvenção) quando considerar segunda curva.
+
+##### Princípios
+
+A tese de Kim e Mauborgne é que **competição direta é desperdício de capital**. Se duas empresas oferecem o mesmo conjunto de fatores em níveis ligeiramente diferentes, elas brigam por margem cada vez menor. A saída é **mudar o jogo**, não jogar melhor o mesmo jogo. Para isso, é preciso mapear honestamente o que o setor compete (a maioria não articula explicitamente) e identificar onde você pode oferecer perfil radicalmente distinto. **Diferenciação + Custo Baixo simultâneos** é possível quando você elimina/reduz fatores caros e cria fatores baratos mas valiosos.
+
+##### Como aplicar
+
+**Etapa 1 — Mapear o setor atual.** Liste os 8-15 fatores em que os concorrentes competem. Pergunte: o que o cliente compara antes de comprar? O que aparece nas propagandas? O que aparece nas reviews? Tipicamente: preço, qualidade, marca, conveniência, suporte, customização, velocidade, escala. Seja específico ao seu setor.
+
+**Etapa 2 — Traçar curvas dos concorrentes.** Para cada concorrente principal (3-5), atribua nota 1-10 em cada fator e desenhe a linha. Use dados reais (preço de tabela, NPS, share, reviews) quando disponível.
+
+**Etapa 3 — Aplicar ERRC Grid.** Para cada fator, decida: eliminar, reduzir, elevar, criar. Articule por que (qual job-to-be-done deixa de ser servido vs qual passa a ser).
+
+**Etapa 4 — Traçar a curva nova.** A sua curva deve ser **visualmente distinta** das curvas dos concorrentes. Se ela sobrepõe a média do setor com pequeno offset, não é Blue Ocean — é apenas otimização de Red Ocean.
+
+**Etapa 5 — Validar com cliente.** Mostre as curvas para clientes-alvo. Pergunte: "Se essas duas opções existissem, qual escolheria? Por quê?". Se a resposta é "depende", a diferenciação não é forte o suficiente.
+
+Tempo: 4-8 horas para a primeira versão (exige pesquisa de campo dos concorrentes). Revisar a cada 12-18 meses.
+
+##### Exemplo brasileiro preenchido — Stone vs adquirentes tradicionais (2014)
+
+Em 2014, o setor brasileiro de adquirência (Cielo, Rede, Stone nascente) competia em fatores tipicamente bancários: preço de MDR (taxa por transação), aluguel de máquina, prazo de antecipação, marca, capilaridade. Stone construiu sua curva de valor diferente:
+
+| Fator | Cielo / Rede (média do setor) | Stone (entrante 2014) | Decisão ERRC |
+|---|---|---|---|
+| MDR (taxa) | 3-4% | 2-3% | Reduce |
+| Aluguel da máquina | R$ 50-100/mês | R$ 0 (subsidiado) | Reduce |
+| Prazo de antecipação | 30-60 dias | 1 dia (D+1) | Raise |
+| Atendimento ao lojista | Call center distante, demora dias | "Ponto-de-Atenção" — humano dedicado, resposta em horas | Raise |
+| Capilaridade física | Alta (rede bancária) | Baixa (foco digital) | Reduce |
+| Hardware proprietário | Padrão setor (Verifone) | Stone Box (proprietário) | Create |
+| Software de gestão integrada | Pouco | Stone Hub (PDV + gestão) | Create |
+| Marca corporativa-bancária | Alta | Baixa (mas crescente) | Reduce |
+
+```mermaid
+xychart-beta
+    title "Strategy Canvas — Stone vs adquirentes tradicionais (2014)"
+    x-axis "Fatores" ["MDR-baixo", "Aluguel-zero", "Antecip-rápida", "Atendimento", "Capilaridade", "Hardware-próprio", "Software-PDV", "Marca-banco"]
+    y-axis "Nível de oferta" 0 --> 10
+    line [3, 2, 4, 3, 9, 2, 2, 9]
+    line [8, 9, 9, 9, 4, 9, 9, 4]
+```
+
+**Insight do caso.** Stone não venceu fazendo o que Cielo fazia mais barato. Venceu **mudando o que o setor competia**: criou Atendimento Diferenciado (Ponto-de-Atenção, não call center), criou hardware/software próprios para lojistas pequenos (não comprou da Verifone), reduziu o aluguel a zero, antecipou pagamento. O resultado foi uma curva visualmente distinta — comprador de Stone NÃO via Stone como "Cielo mais barata", via como **adquirente diferente**. Isso é Blue Ocean: a Stone não tirava clientes da Cielo apenas via preço, abria mercado novo (lojistas pequenos antes desatendidos pela burocracia bancária). O IPO em 2018 (NASDAQ, valuation US$ 7+ bilhões) validou a aposta.
+
+##### Variações e extensões
+
+- **Pioneer-Migrator-Settler Map**: classifica produtos do portfólio em pioneiros (alta diferenciação, alta margem), migradores (alguma diferenciação) e colonos (commodity). Útil para gestão de portfólio.
+- **Six Paths Framework**: seis lentes para identificar Blue Ocean (indústria alternativa, grupos estratégicos, cadeia de compradores, oferta complementar, apelo emocional vs funcional, tendências de tempo).
+- **Buyer Utility Map**: cruza ciclo de uso do cliente com seis utilidades (produtividade, simplicidade, conveniência, risco, diversão, sustentabilidade).
+
+##### Erros comuns
+
+- Listar fatores genéricos (preço, qualidade) em vez de fatores específicos do setor.
+- Curva nova "ligeiramente acima" da média do setor — isso é otimização, não Blue Ocean.
+- Eliminar/reduzir fatores que clientes ainda valorizam — pesquisar antes, não decidir no escritório.
+- Confundir Strategy Canvas com posicionamento de marketing — é estratégia operacional (o que construir), não slogan.
+- Não validar a curva nova com cliente antes de comprometer recursos — Blue Ocean teórico que ninguém prefere é apenas oceano vazio.
+
+##### Quando NÃO usar
+
+Em setores muito regulados onde os fatores de competição são fixados por norma (não há liberdade de Eliminar/Reduzir/Raise/Create). Em commoditização extrema onde o cliente realmente só compara preço. Em produtos B2B muito customizados onde cada deal tem fatores distintos — Strategy Canvas pressupõe oferta padronizada.
+
+##### Conexão com outros canvases
+
+O Strategy Canvas **complementa** o BMC (Fase 2): o BMC olha para dentro (modelo), o Strategy Canvas olha para fora (concorrência). **Pareia com o Canvas da Cunha (Fase 6)**: a Cunha define o nicho de entrada; o Strategy Canvas define a curva de valor distinta nesse nicho. **Sucede o VPC (Fase 2)**: depois de entender Pains e Gains do cliente, o Strategy Canvas decide quais Pain Relievers/Gain Creators construir vs eliminar.
+
+##### Leitura adicional
+
+- *Blue Ocean Strategy* (W. Chan Kim & Renée Mauborgne, 2005).
+- *Blue Ocean Shift* (Kim & Mauborgne, 2017) — versão com playbook executivo mais detalhado.
+- [blueoceanstrategy.com](https://www.blueoceanstrategy.com) — biblioteca de cases e ferramentas.
+
+---
+
+### TEMPLATES OPERACIONAIS E CASOS PREENCHIDOS DESTA FASE
+
+#### Template: Entrevista de Problema
+
+> [!important] Disciplina central
+> Nesta entrevista você **não fala da sua solução**. Você escuta. No momento em que apresenta a ideia, o entrevistado reage à ideia em vez de descrever a realidade dele — e você perde a evidência limpa.
+
+Este template tem duas partes. A **Parte A** é o roteiro para consultar *durante* a conversa (deixe aberto na tela ou imprima). A **Parte B** é a síntese para preencher *depois* — idealmente nas 24h seguintes, enquanto a memória está fresca. As duas formam um único artefato: roteiro sem síntese vira entrevista perdida; síntese sem roteiro vira interpretação livre. Use as duas em todas as entrevistas da rodada.
+
+##### Parte A — Roteiro da Entrevista (uso durante a conversa)
+
+**Duração alvo:** 30-45 min · **Balanço de fala:** o entrevistado fala a maior parte do tempo. Se você se pegar falando mais que ele em qualquer trecho de 5 minutos, volte a fazer perguntas abertas.
+
+**Abertura (2 min)**
+
+> "Oi, obrigado pelo tempo. Antes de começar: não estou aqui pra te vender nada. Estou pesquisando como [público-alvo] lidam com [área ampla], porque quero entender se existe um problema real antes de construir qualquer coisa. Vou fazer perguntas abertas, sem respostas certas. Posso gravar pra transcrever depois? A gravação fica privada."
+
+**Contexto (5 min)**
+
+- Me conta um pouco sobre o que você faz no dia a dia.
+- Quanto tempo você está nesse papel / nessa empresa?
+- Quem mais na sua rotina está envolvido em [área ampla]?
+
+**Exploração (10 min) — *ainda sem falar da sua solução***
+
+- Me descreve como funciona a rotina quando [atividade relacionada ao problema].
+- Quais são as partes mais chatas dessa rotina?
+- Me conta a última vez que algo deu errado nisso.
+
+**Aprofundamento por problema mencionado (10-15 min)**
+
+Para cada problema que a pessoa citar espontaneamente:
+
+- Me fala mais sobre isso.
+- Quando foi a última vez que aconteceu?
+- O que você fez?
+- Quanto tempo / dinheiro isso custou?
+- O que acontece se você simplesmente **não** resolver? *(mapeia escalação)*
+
+**Tentativas de solução (5 min)**
+
+- O que você já tentou pra resolver?
+- Funcionou? Por que parou ou continua usando?
+- **Já gastou dinheiro (ferramenta, consultor, pessoa extra) pra resolver isso?**
+- Quanto? Por quanto tempo?
+
+**Encerramento (3 min)**
+
+- Tem mais alguém que passa por isso e que eu poderia conversar?
+- Posso voltar se surgirem mais perguntas?
+- Topa ver um protótipo em 30-60 dias e dar sua opinião?
+
+**NÃO PERGUNTAR (lista de proibições)**
+
+- "Você pagaria R$X por isso?"
+- "Se existisse Y, você usaria?"
+- "Você acha que isso seria útil?"
+- "Eu tive uma ideia, o que você acha?"
+- "Você não acharia melhor se…?"
+- Qualquer pergunta que comece com hipótese sua a ser validada pelo entrevistado.
+
+##### Parte B — Síntese Pós-Entrevista
+
+###### Metadados
+
+| Campo | Valor |
+|---|---|
+| **ID** | `ENTR-[AAAA-MM-DD]-[##]` |
+| **Data e hora** | `[DD/MM/AAAA — HH:MM]` |
+| **Duração real** | `[min]` |
+| **Formato** | `[ ] Remoto  [ ] Presencial` |
+| **Gravação (com consentimento)** | `[link ou "não gravada"]` |
+| **Transcrição** | `[link]` |
+| **Entrevistador** | `[Nome]` |
+| **Anotador (se houver)** | `[Nome]` |
+| **Relação com a hipótese** | `[ID da hipótese em teste, se formal]` |
+
+###### Perfil do Entrevistado e Aderência ao ICP
+
+| Campo | Valor |
+|---|---|
+| **Nome** | `[...]` |
+| **Papel / cargo** | `[...]` |
+| **Empresa / contexto** | `[...]` |
+| **Porte do negócio** | `[nº funcionários / faturamento / estágio — seja específico]` |
+| **Localização** | `[cidade / estado / país]` |
+| **Fonte do contato** | `[rede pessoal / LinkedIn / indicação / cold outreach]` |
+| **Vínculo pessoal com o entrevistador?** | `[ ] Não  [ ] Sim` — *se sim: atenção a viés de cortesia nas respostas.* |
+| **Aderente ao ICP hipotético?** | `[ ] Sim  [ ] Parcial  [ ] Não` |
+
+> *Se "Não", a entrevista vale como aprendizado mas **não conta** para o denominador de validação (regra da [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 4 — DESCOBERTA DO PROBLEMA|Fase 4 (Vol. 2)]]).*
+
+###### 1. Contexto e rotina
+
+> *Não pergunte sobre o problema ainda. Deixe a pessoa descrever o mundo dela. Pergunte sobre rotina, responsabilidades, ferramentas, periodicidade. Aqui você calibra o universo onde o problema vive.*
+
+**Descrição geral.** `[Descreva em prosa o que a pessoa faz. Use as palavras dela. 3-5 linhas.]`
+
+**Processo atual mapeado em fases.** *Se o problema investigado tem a forma de um processo ou workflow (recrutamento, compra, onboarding, fechamento, reconciliação, etc.), documente em fases numeradas. Isso ancora onde cada dor acontece — a mesma pessoa pode ter dor forte na Fase 2 e nenhuma na Fase 5. Sem esse mapa, você registra "dor em recrutamento" quando na verdade é "dor em triagem inicial", que é outro problema.*
+
+- **Fase 1 — `[nome curto]`:** `[o que acontece, quem faz, com que ferramenta, quanto tempo leva]`
+- **Fase 2 — `[nome curto]`:** `[...]`
+- **Fase 3 — `[nome curto]`:** `[...]`
+- **Fase 4 — `[nome curto]`:** `[...]`
+
+*(adicione ou remova fases conforme o caso)*
+
+**Ferramentas e stack atual.**
+
+- `[ferramenta — para que usa]`
+- `[...]`
+
+###### 2. Problemas mencionados (o que foi dito — não o que você interpretou)
+
+> *Para cada problema que emergiu na conversa, preencha um bloco. **Crítico:** documente apenas o que o entrevistado disse espontaneamente ou em resposta a pergunta aberta. Problemas que você "provocou" com pergunta tendenciosa valem zero.*
+
+**Problema A — `[título curto, nas palavras do entrevistado se possível]`**
+
+- **Descrição literal:** `[...]`
+- **Era esperado ou inesperado?** `[ ] Esperado (ligado à hipótese em teste)  [ ] Inesperado (surgiu e não estávamos procurando — pode ser o ouro do discovery)`
+- **Em qual fase do processo ocorre?** `[Fase 1 / Fase 2 / transversal / fora do processo mapeado]`
+- **Menção foi espontânea ou provocada?** `[ ] Espontânea  [ ] Provocada por pergunta aberta  [ ] Provocada por pergunta tendenciosa (descartar)`
+- **Frequência observável:** `[diária / semanal / mensal / esporádica]`
+- **Última ocorrência (comportamento passado):** `[quando? o que aconteceu?]`
+- **Custo atual (tempo / dinheiro / energia):** `[número ou descrição concreta]`
+- **Emoção observada:** `[exemplo: frustração, resignação, vergonha, medo — use a palavra que cabe]`
+- **Tentativas anteriores de resolver:** `[o que já tentou? funcionou? por que parou ou continuou?]`
+- **Já gastou dinheiro para resolver?** `[ ] Não  [ ] Sim — quanto? em que? por quanto tempo?]` — *sinal operacional mais limpo de dor. Dinheiro já gasto > promessa de pagar.*
+- **Escalação — o que piora se NÃO resolver?** `[perde cliente / perde contrato / multa / perde emprego / nada concreto]` — *separa urgência real de incômodo crônico.*
+
+**Problema B — `[...]`** `[bloco com mesma estrutura do Problema A]`
+
+**Problema C — `[...]`** `[bloco com mesma estrutura do Problema A]`
+
+###### 3. Verbatim (citações literais)
+
+> *Transcreva exatamente o que a pessoa falou, entre aspas. Mínimo 3 citações marcantes. Verbatim é ouro — serve de evidência em deck interno, no pitch, no roadmap.*
+
+1. > *"[citação literal]"* — sobre `[Problema A]`
+2. > *"[citação literal]"* — sobre `[Problema B]`
+3. > *"[citação literal]"* — sobre `[tema]`
+4. > *"[citação literal]"* — sobre `[tema]`
+
+###### 4. Vocabulário do cliente
+
+> *Anote as palavras e expressões **exatas** que a pessoa usou para descrever o problema, a rotina e as soluções atuais. Não parafraseie. Esse vocabulário vai direto para o marketing, para a landing page e para o roteiro de vendas depois — se você usa a linguagem do cliente, ele se reconhece; se você usa a sua, ele ignora.*
+
+| Como a pessoa chama | Contexto em que usou |
+|---|---|
+| `[palavra / expressão exata]` | `[o que ela estava descrevendo]` |
+| `[...]` | `[...]` |
+| `[...]` | `[...]` |
+
+**Termos que ela *não* usou e que nós estávamos prontos a usar:** `[...]` — *se a pessoa não usa a nossa palavra, provavelmente estamos falando a linguagem errada.*
+
+###### 5. Hierarquia de sinais coletados
+
+> *Classifique a evidência desta entrevista pelo tipo de sinal. **Esta tabela é o filtro central do Mom Test:** só os três primeiros tipos movem decisão — os três últimos enganam.*
+
+| Sinal | Peso | O que veio nesta entrevista? |
+|---|---|---|
+| **Comportamento passado** ("semana passada gastei 4h nisso") | Alto | `[...]` |
+| **Tentativas anteriores de solução** ("usei X, Y e Z, nada resolveu") | Alto | `[...]` |
+| **Métricas de custo** (tempo, dinheiro, energia já gastos) | Alto | `[...]` |
+| **Ideias soltas** ("seria legal se tivesse X") | Baixo-médio | `[...]` |
+| **Hipóteses futuras** ("eu pagaria por isso") | Baixo | `[...]` — *não usar para decisão* |
+| **Elogios** ("que ideia legal!") | Zero | `[...]` — *descartar* |
+
+###### 6. Classificação de Pain Level
+
+> *Atribua **um único nível** ao entrevistado. Padrão de Pain Level 4+ em volume (tipicamente ≥5 entrevistas) é o que move a tese; uma entrevista isolada em nível 3 não descarta a investigação, só ainda não confirma.*
+
+- [ ] **Nível 1** — Tem o problema, mas não sabe que tem.
+- [ ] **Nível 2** — Sabe que tem, mas tolera. Não vai pagar sozinho.
+- [ ] **Nível 3** — Está ativamente procurando solução. Lead quente.
+- [ ] **Nível 4** — Já improvisou gambiarra (planilha Frankenstein, processo manual, ferramenta adaptada). Forte evidência de que pagaria.
+- [ ] **Nível 5** — Tem orçamento comprometido ou facilmente acessível para comprar solução. Cliente ideal.
+
+> *Nível 5 se verifica por **sinal indireto**, nunca por pergunta direta sobre disposição a pagar (que é armadilha e está na lista de proibições da Parte A). Pistas válidas: a pessoa mencionou espontaneamente valor já gasto, contratação de alguém para resolver, mensalidade paga em ferramenta análoga, verba carimbada no orçamento do ano.*
+
+**Justificativa da classificação:** `[1-2 linhas com a evidência direta — não interpretação — que sustenta a nota.]`
+
+###### 7. Observações do entrevistador
+
+> *Separadas dos fatos. Use itálico. Aqui entram sua leitura da linguagem corporal, tom, nível de energia e suspeitas. Fatos acima; interpretação aqui.*
+
+*`[...]`*
+
+*`[...]`*
+
+###### 8. Armadilhas — autoavaliação pós-entrevista
+
+> *Esta seção verifica se as proibições da Parte A foram respeitadas. Marque honestamente o que aconteceu.*
+
+- [ ] Cheguei a apresentar minha solução em algum momento? — *se sim, dados após esse ponto devem ser lidos com ceticismo.*
+- [ ] Fiz pergunta tendenciosa tipo "você não acharia melhor se…"?
+- [ ] Fiz pergunta hipotética sobre o futuro ("você usaria X?", "pagaria Y?")?
+- [ ] Em algum trecho de 5 min, falei mais que o entrevistado?
+- [ ] Filtrei o que ouvi para confirmar tese que eu já tinha?
+- [ ] Tratei uma fala apaixonada como equivalente a um padrão de 10 entrevistas?
+
+> *Cada marca acima contamina parte da evidência. Anote **quais achados ficam sob suspeita** em função dessas contaminações:* `[...]`
+
+###### 9. Refinamento do ICP
+
+> *ICP não muda a cada entrevista — muda quando padrão aparece em 5-10 conversas. Esta seção registra sinais individuais que, acumulados com os de outras entrevistas, podem mover o recorte. Exemplo: a hipótese original do iFood era "redes grandes"; entrevistas acumuladas refinaram para "restaurantes pequenos sem telemarketing".*
+
+**Sub-segmento mais agudo observado nesta entrevista.** *Dentro do perfil entrevistado, o que parece correlacionado com sofrer mais? Porte? Setor? Senioridade? Estágio? Tempo no cargo? Stack? Volume? Anote o recorte que se destacou.*
+
+`[Ex: "padarias com 3+ lojas sentem; com 1-2 não" — ou — "só operadores que fazem a reconciliação manualmente, não quem tem financeiro dedicado"]`
+
+**Esta entrevista sugere algum refino de ICP?**
+
+- [ ] **Estreitou** — ICP ficou mais específico. Novo recorte: `[...]`
+- [ ] **Ampliou** — ICP precisa incluir um perfil que não tínhamos mapeado: `[...]`
+- [ ] **Mudou de direção** — perfil entrevistado era hipótese, mas a dor real aparece em outro lugar: `[...]`
+- [ ] **Confirmou** — ICP atual permanece. Esta entrevista não muda o recorte.
+
+###### 10. Indicações (snowball)
+
+- **Outras pessoas que passam por isso e que podemos conversar:** `[nome — contato — por que foi indicado]`
+- **Posso voltar para nova conversa?** `[ ] Sim  [ ] Não`
+- **Topa ver um protótipo em 30-60 dias?** `[ ] Sim  [ ] Não`
+
+###### 11. Decisão pós-entrevista individual
+
+> *Uma única entrevista não decide nada — mas cada entrevista move a agulha. Marque para onde ela moveu.*
+
+- [ ] **Reforça** a hipótese de problema em teste
+- [ ] **Enfraquece** a hipótese
+- [ ] **Ambígua** — precisa de mais dados
+- [ ] **Falso positivo identificado** (pessoa disse que tem o problema mas o comportamento refuta)
+
+**Justificativa (2-3 linhas):** `[...]`
+
+###### 12. Próximos passos de investigação
+
+> *Distintos de "ações internas de produto". Aqui registramos **perguntas novas que esta entrevista gerou** e que informam a próxima entrevista, uma pesquisa desk, ou um dado a buscar externamente. É o espírito iterativo do discovery: cada conversa afina a próxima.*
+
+**Perguntas a incluir em próximas entrevistas.**
+
+- `[...]`
+- `[...]`
+
+**Dados a buscar externamente (pesquisa desk, benchmark, números de mercado).**
+
+- `[...]`
+- `[...]`
+
+**Perfis diferentes a entrevistar para cruzar padrões.** *"Esta dor é padrão no setor ou é específica desta empresa? Preciso falar com alguém de porte X ou região Y para comparar."*
+
+- `[...]`
+
+###### Anexos
+
+- Gravação: `[link]`
+- Transcrição: `[link]`
+- Artefatos compartilhados pelo entrevistado (prints, planilhas): `[link]`
+- Entrevistas relacionadas: `[ENTR-..., ENTR-...]`
+
+*Preenchido por `[Nome]` em `[DD/MM/AAAA]`.*
+
+> [!tip] Consolidação da rodada
+> Cada entrevista preenchida pela Parte B é uma linha do agregado. A decisão de avanço de fase não sai daqui — sai do **Template: Síntese de Rodada de Entrevistas (decisão de avanço · Fase 3 → Fase 4) (Fase 4) (Síntese de Rodada de Entrevistas)**, que cruza Pain Level, padrões, workarounds e vocabulário das 15-30 entrevistas para decidir perseverar, pivotar problema, pivotar cliente ou abandonar.
+
+---
+
+#### Template: Entrevista com Especialista de Mercado (mapa de setor · Fases 3-5)
+
+> [!important] Disciplina central
+> Aqui você **quer opinião** — é legítimo. Mas opinião de especialista é hipótese a testar, não evidência de cliente. O erro é tratar "o especialista disse X" como validação. A especialista conhece o mercado; quem prova o mercado é o cliente com a carteira.
+
+Use quando precisa mapear setor, dinâmicas competitivas, pontos cegos e tendências regulatórias — a pessoa conhece o mercado, não necessariamente é cliente dele. Não use para saber se *o cliente* tem dor; para isso o instrumento é Template: Entrevista de Problema (Fase 1). Como o Template: Entrevista de Problema (Fase 1), este template tem Parte A (roteiro durante) e Parte B (síntese pós-conversa, idealmente em 24h).
+
+##### Parte A — Roteiro da Conversa (uso durante)
+
+**Duração alvo:** 45-60 min · **Balanço de fala:** o especialista fala mais que você, mas aqui é legítimo intervir para confrontar e pedir exemplos específicos.
+
+**Abertura (3 min)**
+
+> "Obrigado pelo tempo. Estou pesquisando [setor/dinâmica] porque estou construindo uma tese sobre [resumo em uma frase]. Quero muito ouvir onde você acha que estou errado, quais sinais eu não estou vendo e que anti-cases você já viu. Posso gravar?"
+
+**Calibração (5 min)**
+
+- Há quanto tempo você está nesse setor?
+- Em quais posições você viu a dinâmica de perto?
+- O que mudou no setor nos últimos 3 anos?
+
+**Mapa do setor (10 min)**
+
+- Quem são os players relevantes hoje, e por que cada um ainda existe?
+- Qual é a dinâmica competitiva dominante — preço, tecnologia, canal, rede, regulação?
+- Que ciclos e sazonalidades afetam o setor?
+
+**Confronto à nossa tese (15-20 min — seção mais valiosa).** *Esta é a seção mais importante. Se a pessoa só elogia, você perdeu a conversa.*
+
+- Nossa hipótese é [X]. **Onde você acha que está mais fraca?**
+- Que premissas dessa tese são não-triviais — o que teria que ser verdade pra ela funcionar?
+- Você já viu alguém tentar algo parecido? O que aconteceu?
+- Se isso fosse fácil, por que ninguém fez ainda?
+
+**Especificidades de contexto (5 min)**
+
+- Que particularidades regulatórias / tributárias / culturais do Brasil mudam essa tese?
+- Como funciona o capital nesse setor no Brasil?
+
+**Pontos cegos e redes (5 min)**
+
+- O que eu ainda não perguntei e deveria?
+- Outras pessoas com quem eu deveria conversar?
+- Leituras / relatórios que você recomendaria?
+
+**Encerramento (2 min)**
+
+- Posso voltar com dúvidas?
+- Topa receber o resumo do que aprendi em 48h?
+
+**NÃO CONFUNDIR**
+
+- Opinião informada ≠ dado de cliente. Anotar como opinião, não como validação.
+- Elogio à tese é ruído — se não houve pushback, a conversa foi incompleta.
+- "Eu sempre vi assim" ≠ "isso se aplica ao seu caso". Heurística do veterano precisa de fit específico.
+
+##### Parte B — Síntese Pós-Conversa
+
+###### Metadados
+
+| Campo | Valor |
+|---|---|
+| **ID** | `ESP-[AAAA-MM-DD]-[##]` |
+| **Data e hora** | `[DD/MM/AAAA]` |
+| **Duração** | `[min]` |
+| **Formato** | `[ ] Remoto  [ ] Presencial` |
+| **Entrevistador(es)** | `[Nome]` |
+| **Gravação / transcrição** | `[link]` |
+| **Conflito de interesse?** | `[ ] Nenhum  [ ] Consultor pago  [ ] Investidor no setor  [ ] Trabalha em concorrente  [ ] Outro]` — *descrever* |
+
+###### Perfil do Especialista
+
+| Campo | Valor |
+|---|---|
+| **Nome** | `[...]` |
+| **Posição atual / papel** | `[...]` |
+| **Tempo na área** | `[...]` |
+| **Credenciais relevantes** | `[empresas onde atuou, publicações, deals, etc.]` |
+| **Recorte de expertise** | `[técnico / comercial / regulatório / financeiro / operacional]` |
+| **Por que esta pessoa?** | `[1-2 linhas sobre a adequação dela à pergunta em aberto]` |
+
+###### 1. Objetivo da conversa
+
+**Qual hipótese de mercado estamos testando?** `[...]`
+
+**O que precisamos sair sabendo?**
+
+- `[...]`
+- `[...]`
+- `[...]`
+
+**O que já presumíamos e queríamos ver se ela confirma ou refuta?**
+
+- `[...]`
+- `[...]`
+
+###### 2. Mapa do setor (na visão dela)
+
+**Players relevantes e como se posicionam.**
+
+| Player | Posicionamento | Vantagens | Fraquezas |
+|---|---|---|---|
+| `[...]` | `[...]` | `[...]` | `[...]` |
+
+**Dinâmica competitiva dominante hoje.** `[preço? tecnologia? canal? marca? rede? regulatório?]`
+
+**Tendências relevantes (3-5 anos).**
+
+- `[...]`
+- `[...]`
+
+**Ciclos e sazonalidades do setor.** `[...]`
+
+###### 3. Onde o especialista acha que estamos errados
+
+> *Esta é a seção mais valiosa. Pergunte explicitamente: "onde você acha que nossa tese está mais fraca?" Se a pessoa só elogia, você perdeu a conversa.*
+
+- **Fragilidade apontada 1:** `[...]`
+- **Fragilidade apontada 2:** `[...]`
+- **Fragilidade apontada 3:** `[...]`
+
+**Anti-cases mencionados (onde tese parecida já falhou).**
+
+| Empresa / caso | O que tentou | Por que quebrou |
+|---|---|---|
+| `[...]` | `[...]` | `[...]` |
+
+###### 4. "What would have to be true" para a nossa tese
+
+> *Pergunta enquadradora útil em conversa com especialista: "para essa tese dar certo, o que teria que ser verdade sobre o mercado, cliente, regulação, tecnologia?"*
+
+Premissas que a pessoa identificou como *críticas e não-triviais*:
+
+1. `[premissa — e por que é não-trivial]`
+2. `[...]`
+3. `[...]`
+
+###### 5. Especificidades contextuais (Brasil, setor, regulatório)
+
+> *Especialistas brasileiros valem muito por capturar o que livro importado ignora: tributação real, ciclo de capital local, cultura de negócio, governo.*
+
+- **Regulatório / tributário:** `[...]`
+- **Canais dominantes no Brasil:** `[...]`
+- **Dinâmica de capital / investidores relevantes:** `[...]`
+- **Relação com governo / compras públicas (se aplicável):** `[...]`
+- **Padrões culturais que afetam adoção:** `[...]`
+
+###### 6. Hierarquia de sinais da conversa
+
+> *Especialista mistura cinco tipos de afirmação em qualquer conversa — e elas **não têm o mesmo peso**. Classificar o que ouvimos força leitura crítica pós-conversa. Quanto mais alto na tabela, mais peso na decisão.*
+
+| Tipo de sinal | Peso | O que veio nesta conversa? |
+|---|---|---|
+| **Dado verificável** (estatística, relatório, regulação, fonte pública nomeada) | Alto | `[...]` |
+| **Caso pessoal vivido** (ela mesma operou, decidiu, observou de perto — com detalhe específico) | Alto | `[...]` |
+| **Opinião informada** (tese construída com base em padrão repetido observado, mas sem dado formal) | Médio | `[...]` |
+| **Intuição de veterano** ("tenho a sensação de que…", reconhecimento de padrão sem articulação clara) | Baixo-médio | `[...]` — *tratar como hipótese a testar* |
+| **Heurística genérica** ("eu sempre acho que…", máxima aplicada sem fit específico ao nosso caso) | Baixo | `[...]` — *descartar para decisão* |
+
+**Fatos verificáveis a checar depois.** *Listar aqui especificamente o que cai na primeira linha — porque tem que ir para a fila de verificação.*
+
+| Afirmação | Fonte sugerida | Responsável | Prazo |
+|---|---|---|---|
+| `[...]` | `[link / órgão / relatório]` | `[Nome]` | `[DD/MM]` |
+
+###### 7. Pontos cegos identificados
+
+> *"Coisas que eu não sabia que não sabia." Catalogue aqui temas que só apareceram porque a pessoa levantou.*
+
+- `[...]`
+- `[...]`
+
+###### 8. Vocabulário setorial
+
+> *Especialistas dominam o jargão do setor. Capturar como a tribo realmente se expressa vale para marketing, pitch a investidor e conversa com próximo especialista.*
+
+| Termo / expressão | O que significa na prática do setor |
+|---|---|
+| `[termo exato]` | `[...]` |
+| `[...]` | `[...]` |
+
+###### 9. Citações marcantes
+
+> *Não com o mesmo peso da Entrevista de Problema, mas guardar frases bem articuladas do especialista ajuda a reutilizar em deck e memorando interno.*
+
+1. > *"[citação]"*
+2. > *"[citação]"*
+
+###### 10. Armadilhas — autoavaliação pós-conversa
+
+> *Marque honestamente o que aconteceu. Cada item contamina parte da evidência coletada.*
+
+- [ ] Tratei elogio à tese como validação?
+- [ ] Aceitei "eu sempre vi assim" sem pedir caso específico?
+- [ ] Confundi opinião informada com dado verificável?
+- [ ] Deixei passar contradição entre o que ela disse agora e o que disse antes?
+- [ ] Não pedi pushback explícito — só ouvi concordância?
+- [ ] Entrei na conversa sem tese clara a confrontar, e saí com "muitas perspectivas" em vez de direção?
+
+**Achados sob suspeita em função dessas contaminações:** `[...]`
+
+###### 11. Referências, leituras e redes
+
+- **Livros / papers / relatórios indicados:** `[...]`
+- **Outras pessoas que deveríamos conversar:** `[nome — por quê — se topa fazer intro]`
+- **Eventos / comunidades relevantes:** `[...]`
+
+###### 12. Ações internas pós-conversa
+
+**Hipóteses que mudaram.**
+
+- `[hipótese X — como mudou]`
+
+**Hipóteses novas geradas.**
+
+- `[...]`
+
+**Outras ações.**
+
+| Ação | Responsável | Prazo |
+|---|---|---|
+| `[...]` | `[Nome]` | `[DD/MM]` |
+
+**Follow-up com a pessoa.**
+
+- [ ] Agradecer e compartilhar resumo (dentro de 48h)
+- [ ] Compartilhar material prometido: `[...]`
+- [ ] Convidar para conversa futura em: `[gatilho / data]`
+- [ ] Avaliar como advisor formal? `[ ] Sim  [ ] Não`
+
+###### 13. Próximos passos de investigação
+
+> *Perguntas novas que esta conversa gerou. Especialistas tipicamente abrem mais frentes do que fecham — registre as frentes abertas para não perder o fio.*
+
+**Perguntas a explorar com outros especialistas.** `[...]`
+
+**Dados a buscar externamente.** `[...]`
+
+**Hipóteses de mercado a testar com cliente (entrevista de problema Template: Entrevista de Problema (Fase 1)).** `[...]`
+
+*Preenchido por `[Nome]` em `[DD/MM/AAAA]`.*
 
 ---
 
@@ -2259,10 +3109,10 @@ O executor principal é você. Os participantes são três a cinco pessoas que v
 ### Como executar
 
 > [!tip] Canvases visuais como complemento opcional
-> A DII textual é o entregável obrigatório. Para quem pensa visualmente, três canvases da seção de Canvases Visuais complementam: [[#Canvas: Lean Canvas (Ash Maurya, 2012)|Canvas: Lean Canvas (Ash Maurya, 2012)]] mapeia o modelo em nove blocos com foco em suposições testáveis (recomendado para pré-PMF); [[#Canvas: Business Model Canvas (Alexander Osterwalder, 2010)|Canvas: Business Model Canvas (Alexander Osterwalder, 2010)]] dá visão de conjunto para contextos mais maduros; [[IGNICAO-Vol-2-Descoberta-e-Mercado#Canvas: Value Proposition Canvas (Alexander Osterwalder, 2014)|Canvas: Value Proposition Canvas (Alexander Osterwalder, 2014) (Vol. 2)]] força articular o link entre Bloco 2 (Para quem) e Bloco 4 (Solução), evitando "solução em busca de problema".
+> A DII textual é o entregável obrigatório. Para quem pensa visualmente, três canvases da seção de Canvases Visuais complementam: [[#Canvas: Lean Canvas (Ash Maurya, 2012)|Canvas: Lean Canvas (Ash Maurya, 2012)]] mapeia o modelo em nove blocos com foco em suposições testáveis (recomendado para pré-PMF); [[#Canvas: Business Model Canvas (Alexander Osterwalder, 2010)|Canvas: Business Model Canvas (Alexander Osterwalder, 2010)]] dá visão de conjunto para contextos mais maduros; [[#Canvas: Value Proposition Canvas (Alexander Osterwalder, 2014)|Canvas: Value Proposition Canvas (Alexander Osterwalder, 2014)]] força articular o link entre Bloco 2 (Para quem) e Bloco 4 (Solução), evitando "solução em busca de problema".
 
-> [!tip] Canvases Visuais — Opportunity Canvas (Fase 9, Vol. 3)
-> Como alternativa de articulação centrada em produto, o [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#Canvas: Opportunity Canvas (Jeff Patton, 2014)|Canvas: Opportunity Canvas (Jeff Patton, 2014) (Vol. 3)]] de Jeff Patton enquadra a ideia em sete blocos: Users & Customers, Problems, Solutions Today, Solution Ideas, Outcomes, Adoption Strategy e Budget & ROI. Útil para fundadores vindos de produto que pensam em "oportunidades" antes de "modelos de negócio" — sobreposição com a DII textual existe, mas a lente é diferente (produto vs. modelo).
+> [!tip] Canvases Visuais — Opportunity Canvas (Fase 2)
+> Como alternativa de articulação centrada em produto, o [[#Canvas: Opportunity Canvas (Jeff Patton, 2014)|Canvas: Opportunity Canvas (Jeff Patton, 2014)]] de Jeff Patton enquadra a ideia em sete blocos: Users & Customers, Problems, Solutions Today, Solution Ideas, Outcomes, Adoption Strategy e Budget & ROI. Útil para fundadores vindos de produto que pensam em "oportunidades" antes de "modelos de negócio" — sobreposição com a DII textual existe, mas a lente é diferente (produto vs. modelo).
 
 Sete passos em sequência.
 
@@ -2436,14 +3286,14 @@ Enamoramento pela solução. Quando você se apega à solução imaginada, fica 
 
 ### FERRAMENTAS DESTA FASE
 
-Seis ferramentas estruturam a primeira articulação e evitam auto-engano. Canvases complementares no [[#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvases Visuais da Fase]] (Canvas: Business Model Canvas (Alexander Osterwalder, 2010) (Fase 2) BMC, Canvas: Lean Canvas (Ash Maurya, 2012) (Fase 1) Lean Canvas, Canvas: Value Proposition Canvas (Alexander Osterwalder, 2014) (Fase 5, Vol. 2) VPC, Canvas: Opportunity Canvas (Jeff Patton, 2014) (Fase 9, Vol. 3) Opportunity Canvas).
+Seis ferramentas estruturam a primeira articulação e evitam auto-engano. Canvases visuais desta etapa: [[#Canvas: Business Model Canvas (Alexander Osterwalder, 2010)|Canvas: Business Model Canvas (Alexander Osterwalder, 2010)]], [[#Canvas: Lean Canvas (Ash Maurya, 2012)|Canvas: Lean Canvas (Ash Maurya, 2012)]], [[#Canvas: Value Proposition Canvas (Alexander Osterwalder, 2014)|Canvas: Value Proposition Canvas (Alexander Osterwalder, 2014)]] e [[#Canvas: Opportunity Canvas (Jeff Patton, 2014)|Canvas: Opportunity Canvas (Jeff Patton, 2014)]].
 
-- **First Principles Thinking** (Aristóteles, popularizado por Musk) — questione suposições escondidas: precisa ser SaaS? B2B? No Brasil? Antes de escrever o pitch. Framework: First Principles Thinking (Aristóteles, ~350 a.C.; popularizado por Elon Musk, anos 2010) (Fase 0).
-- **Blue Ocean / ERRC Grid** (Kim e Mauborgne, 2005) — Eliminar, Reduzir, Aumentar, Criar. Quando a ideia parece "outro X" ou "Y mas para Z". Framework: Blue Ocean Strategy (W. Chan Kim & Renée Mauborgne, 2005) (Fase 1).
-- **Playing to Win** (Roger Martin e A.G. Lafley, 2013) — cascata de cinco escolhas (aspiração, onde competir, como vencer, capacidades, sistemas). Para rascunho rápido de estratégia. Framework: Playing to Win (Roger Martin & A.G. Lafley, 2013) (Fase 2).
-- **Good Strategy/Bad Strategy** (Richard Rumelt, 2011) — diagnóstico, política orientadora, ações coerentes. Quando a ideia parece "boa em tudo" ou sem foco. Framework: Good Strategy / Bad Strategy (Richard Rumelt, 2011) (Fase 2).
-- **Inversion** (Munger) — "por que vai falhar?" antes de "por que vai funcionar?". Estressa a ideia antes de comprometer tempo. Framework: Inversion (Carl Jacobi; Charlie Munger, popularizado) (Fase 1).
-- **Pyramid Principle** (Barbara Minto, 1978) — começa pela conclusão, três a cinco argumentos de suporte sem sobreposição. Para o pitch de elevador. Framework: Pyramid Principle (Barbara Minto, 1985) (Fase 2).
+- **First Principles Thinking** (Aristóteles, popularizado por Musk) — questione suposições escondidas: precisa ser SaaS? B2B? No Brasil? Antes de escrever o pitch. [[#Framework: First Principles Thinking (Aristóteles, ~350 a.C.; popularizado por Elon Musk, anos 2010)|Framework: First Principles Thinking (Aristóteles, ~350 a.C.; popularizado por Elon Musk, anos 2010)]].
+- **Blue Ocean / ERRC Grid** (Kim e Mauborgne, 2005) — Eliminar, Reduzir, Aumentar, Criar. Quando a ideia parece "outro X" ou "Y mas para Z". [[#Framework: Blue Ocean Strategy (W. Chan Kim & Renée Mauborgne, 2005)|Framework: Blue Ocean Strategy (W. Chan Kim & Renée Mauborgne, 2005)]].
+- **Playing to Win** (Roger Martin e A.G. Lafley, 2013) — cascata de cinco escolhas (aspiração, onde competir, como vencer, capacidades, sistemas). Para rascunho rápido de estratégia. [[#Framework: Playing to Win (Roger Martin & A.G. Lafley, 2013)|Framework: Playing to Win (Roger Martin & A.G. Lafley, 2013)]].
+- **Good Strategy/Bad Strategy** (Richard Rumelt, 2011) — diagnóstico, política orientadora, ações coerentes. Quando a ideia parece "boa em tudo" ou sem foco. [[#Framework: Good Strategy / Bad Strategy (Richard Rumelt, 2011)|Framework: Good Strategy / Bad Strategy (Richard Rumelt, 2011)]].
+- **Inversion** (Munger) — "por que vai falhar?" antes de "por que vai funcionar?". Estressa a ideia antes de comprometer tempo. [[#Framework: Inversion (Carl Jacobi; Charlie Munger, popularizado)|Framework: Inversion (Carl Jacobi; Charlie Munger, popularizado)]].
+- **Pyramid Principle** (Barbara Minto, 1978) — começa pela conclusão, três a cinco argumentos de suporte sem sobreposição. Para o pitch de elevador. [[#Framework: Pyramid Principle (Barbara Minto, 1985)|Framework: Pyramid Principle (Barbara Minto, 1985)]].
 
 ---
 
@@ -2942,13 +3792,246 @@ Em empresas maduras com modelo estabelecido e operando — frameworks de execuç
 
 ##### Conexão com outros canvases
 
-O BMC **precede** o Lean Canvas (Fase 1) como ferramenta histórica, mas o Lean Canvas é mais adequado para startup pré-PMF. O **Value Proposition Canvas** (Fase 5, Vol. 2) aprofunda o bloco "Proposta de Valor" do BMC, que é tipicamente preenchido de forma vaga. O **Strategy Canvas** (Fase 6, Vol. 2) complementa olhando para fora (concorrência), enquanto o BMC olha para dentro (modelo). Em fases iniciais, comece pelo BMC para ter visão de conjunto; depois aprofunde com VPC para a proposta e Strategy Canvas para o posicionamento.
+O BMC **precede** o Lean Canvas (Fase 1) como ferramenta histórica, mas o Lean Canvas é mais adequado para startup pré-PMF. O **Value Proposition Canvas** (Fase 2) aprofunda o bloco "Proposta de Valor" do BMC, que é tipicamente preenchido de forma vaga. O **Strategy Canvas** (Fase 1) complementa olhando para fora (concorrência), enquanto o BMC olha para dentro (modelo). Em fases iniciais, comece pelo BMC para ter visão de conjunto; depois aprofunde com VPC para a proposta e Strategy Canvas para o posicionamento.
 
 ##### Leitura adicional
 
 - *Business Model Generation* (Alexander Osterwalder & Yves Pigneur, 2010).
 - *Testing Business Ideas* (David Bland & Alexander Osterwalder, 2019) — manual de validação para cada bloco.
 - [strategyzer.com](https://strategyzer.com) — ferramenta online + cursos da equipe original.
+
+---
+
+#### Canvas: Value Proposition Canvas (Alexander Osterwalder, 2014)
+
+##### Origem
+
+O Value Proposition Canvas (VPC) é extensão direta do Business Model Canvas, criado pela mesma equipe (Alexander Osterwalder, Yves Pigneur, Greg Bernarda, Alan Smith) e publicado no livro *Value Proposition Design* (2014). A motivação foi observação de campo: o bloco "Proposta de Valor" do BMC era invariavelmente o mais mal preenchido — fundadores escreviam frases vagas tipo "produto melhor" ou "atendimento de qualidade". Osterwalder concluiu que esse bloco merecia uma ferramenta própria, mais profunda, que forçasse a verificar **explicitamente** o encaixe entre o que o cliente precisa e o que o produto oferece.
+
+##### O que é
+
+Tela visual de duas partes complementares que se encaixam como um quebra-cabeça:
+
+```mermaid
+flowchart LR
+    subgraph CP["Customer Profile (lado direito)"]
+        direction TB
+        J["📋 Jobs<br/>O que o cliente<br/>tenta fazer"]
+        P["⚠️ Pains<br/>Frustrações,<br/>riscos, obstáculos"]
+        G["✨ Gains<br/>Benefícios<br/>esperados"]
+    end
+    subgraph VM["Value Map (lado esquerdo)"]
+        direction TB
+        PR["💊 Pain Relievers<br/>Como o produto<br/>reduz os pains"]
+        PS["📦 Products & Services<br/>O que você<br/>oferece"]
+        GC["🎁 Gain Creators<br/>Como o produto<br/>produz os gains"]
+    end
+    PR -.encaixa.-> P
+    GC -.encaixa.-> G
+    PS -.responde.-> J
+    style PS fill:#FFE4B5
+    style J fill:#87CEEB
+    style P fill:#FFB6B6
+    style G fill:#90EE90
+    style PR fill:#FFB6B6
+    style GC fill:#90EE90
+```
+
+O **Customer Profile** mapeia o cliente em três dimensões: Jobs (tarefas funcionais, sociais, emocionais que tenta cumprir), Pains (o que o frustra, prejudica, ameaça) e Gains (o que ele deseja, espera, sonha). O **Value Map** mapeia o produto em três dimensões espelhadas: Products & Services (o que você oferece), Pain Relievers (como o produto alivia os pains do cliente) e Gain Creators (como o produto produz os gains).
+
+O **fit** acontece quando os Pain Relievers correspondem a Pains reais e os Gain Creators correspondem a Gains que o cliente realmente valoriza. Pain Relievers sem Pain correspondente = features inúteis. Pains sem Pain Reliever = motivos de churn.
+
+##### Quando usar
+
+Use o VPC depois de fazer pesquisa qualitativa real (Fase 4 — entrevistas em profundidade, observação em campo, análise de jornada). É a ferramenta certa para tornar o Dossiê do Usuário (saída da Fase 4) acionável: cada persona vira um Customer Profile, e o produto que está sendo desenhado vira o Value Map. Use também como ferramenta de auditoria: revisitar o VPC a cada três meses pós-MVP revela features que viraram Pain Relievers órfãos (sem Pain real) ou Pains que ficaram sem Pain Reliever construído.
+
+##### Princípios
+
+A tese de Osterwalder é que **proposta de valor não é o que você diz que o produto faz, é a correspondência verificável entre as frustrações/desejos do cliente e o que o seu produto efetivamente alivia/entrega**. Fit não se presume — verifica-se com entrevistas, testes, observação. A falha mais comum em startup não é "produto ruim" — é produto bom atacando problema que o cliente não considera importante. O VPC força essa verificação tornando explícita cada conexão.
+
+##### Como aplicar
+
+**Etapa 1 — Customer Profile (sempre primeiro).** Reúna o que você aprendeu na Fase 4. Para a persona escolhida, liste:
+
+- **Jobs** (5-10): o que ela tenta fazer? Funcionais ("conciliar pagamentos do dia"), sociais ("parecer profissional para a equipe"), emocionais ("ter paz antes de dormir").
+- **Pains** (5-10): o que dói? Pode ser frustração ("isso demora 3 horas"), risco ("se eu errar, perco o cliente"), obstáculo ("não tenho como integrar").
+- **Gains** (5-10): o que ela quer? Esperados ("uma forma de fazer mais rápido"), desejados ("relatório que impressione o chefe"), inesperados ("automação que eu não sabia ser possível").
+
+**Importante**: NÃO INVENTE. Cada item deve poder ser citado de uma entrevista, observação ou diário de usuário documentado. Customer Profile com Jobs/Pains/Gains intuitivos = VPC teórico.
+
+**Etapa 2 — Value Map.** Liste:
+
+- **Products & Services**: o que você está construindo (ou planeja construir).
+- **Pain Relievers**: para cada Pain do cliente, como o produto alivia? Seja específico.
+- **Gain Creators**: para cada Gain, como o produto produz? Idem.
+
+**Etapa 3 — Avaliação de fit.** Cada Pain tem Pain Reliever correspondente? Cada Gain tem Gain Creator? Se há Pains sem cobertura, são oportunidades não endereçadas. Se há Pain Relievers sem Pain real, são features potencialmente desperdiçadas.
+
+Tempo: 2-4 horas para a primeira versão (após pesquisa pronta). Cada segmento merece VPC próprio.
+
+##### Exemplo brasileiro preenchido — Wellhub (Gympass) em 2016, B2B
+
+**Customer Profile** — Head de RH de empresa média (200-1000 funcionários):
+
+| Jobs | Pains | Gains |
+|---|---|---|
+| Oferecer benefício que ajude retenção | Caro contratar academia única que não atende todos | Retenção mensurável melhor |
+| Gerenciar programa de bem-estar sem overhead | Funcionários pedem academia mas subsídio direto é complicado (tributário, equidade) | Marca empregadora fortalecida |
+| Prestar contas à diretoria sobre ROI | Difícil medir uso real e impacto em produtividade | Dados de engajamento para C-level |
+| Atender perfis diversos (academia, yoga, crossfit) sem caos | Negociar com múltiplos fornecedores consome tempo | Benefício percebido sem esforço administrativo |
+
+**Value Map** — Wellhub (Gympass) o que oferecia em 2016:
+
+| Products & Services | Pain Relievers | Gain Creators |
+|---|---|---|
+| Plataforma empresarial com acesso a milhares de academias via assinatura | Uma assinatura única cobre todas academias (flexibilidade sem multiplicação de contratos) | Benefício percebido pelo funcionário gera retenção mensurável |
+| Dashboard de uso para RH | Plataforma administra matrícula, pagamento, cancelamento (zero overhead) | Oferta diversa atende perfis diferentes |
+| App para funcionário escolher academia | Estrutura tributária correta (benefício registrado) | Dados de uso para relatórios executivos sobre engagement e ROI |
+| Suporte para RH e funcionário | Negociação consolidada com uma empresa só (em vez de 50 academias) | Fortalecimento da marca empregadora |
+
+**Análise de fit.** Encaixe forte entre quase todos os Pains/Gains e os Pain Relievers/Gain Creators. Note que a oferta da Wellhub não inova radicalmente — apenas elimina as fricções específicas que o RH enfrentava no modelo tradicional (negociar com cada academia, gerenciar reembolsos, justificar tributariamente, medir uso). **A lição: value proposition forte não exige features impressionantes — exige fit preciso entre o que o cliente sofre e o que você alivia.**
+
+##### Variações e extensões
+
+- **Job-to-Be-Done Canvas** (Christensen / Moesta): foco mais profundo em Jobs (especialmente as 4 forças de Moesta — push, pull, anxiety, habit). Ver [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 5 — PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY)|Fase 5 (Vol. 2)]].
+- **Empathy Map** (Fase 4): complementar ao Customer Profile, foca em estados internos do cliente (pensa/sente/vê/ouve).
+- **VPC for Multi-Sided Markets**: marketplaces fazem um VPC para cada lado (oferta e demanda).
+
+##### Erros comuns
+
+- Preencher Customer Profile com intuições em vez de dados reais — VPC teórico não representa mercado.
+- Fazer VPC genérico para "todos os clientes" — segmentos diferentes têm Jobs/Pains/Gains diferentes; cada segmento merece VPC próprio.
+- Inflar Gain Creators — listar benefícios que o produto teoricamente poderia entregar mas não entrega ainda.
+- Ignorar Pains sem Pain Reliever correspondente — essas lacunas são frequentemente os motivos reais de churn.
+- Confundir Products & Services (o que você constrói) com Pain Relievers (como alivia uma dor específica) — o primeiro é descritivo, o segundo é causal.
+
+##### Quando NÃO usar
+
+Em mercados commoditizados com propostas de valor muito padronizadas — VPC adiciona pouco valor onde o cliente já compara só preço e prazo. Em produtos B2B enterprise muito complexos — a "unidade cliente" tem múltiplos stakeholders (usuário final, comprador econômico, sponsor executivo, TI), cada um com seu VPC; a abordagem stakeholder mapping é mais útil.
+
+##### Conexão com outros canvases
+
+O VPC **aprofunda** o bloco "Proposta de Valor" do BMC (Fase 2) — preencher BMC sem antes ter VPC tipicamente produz blocos de Proposta de Valor vazios. **Pareia com o Empathy Map (Fase 4)** para construir o Customer Profile com profundidade emocional. **Alimenta o Lean Canvas (Fase 1)**: os Pains do cliente viram o bloco Problema; os Pain Relievers + Gain Creators viram a Proposta Única de Valor.
+
+##### Leitura adicional
+
+- *Value Proposition Design* (Osterwalder, Pigneur, Bernarda, Smith, 2014).
+- *Testing Business Ideas* (David Bland & Alexander Osterwalder, 2019) — como validar cada elemento do VPC.
+- [strategyzer.com/canvas/value-proposition-canvas](https://strategyzer.com/canvas/value-proposition-canvas).
+
+---
+
+#### Canvas: Opportunity Canvas (Jeff Patton, 2014)
+
+##### Origem
+
+Jeff Patton, autor de *User Story Mapping* (2014) e referência em product management ágil, criou o Opportunity Canvas como ferramenta para times de produto avaliarem se uma oportunidade vale a pena ser perseguida **antes** de comprometer roadmap. A motivação foi observação prática: PMs e times técnicos pulavam direto da ideia ("vamos construir feature X") para a especificação ("aqui está o PRD"), sem articular *por que* essa oportunidade deveria ser priorizada sobre todas as outras. O Opportunity Canvas força a explicitar a tese da oportunidade — quem ganha o quê, com que custo, contra qual alternativa — em uma página visual antes que se gaste tempo construindo.
+
+##### O que é
+
+Tela visual de uma página com **nove blocos** organizados em torno da pergunta central "vale a pena perseguir esta oportunidade?":
+
+- **Problems / Solutions** (lado esquerdo): qual é o problema; qual é a solução proposta?
+- **Users & Customers**: quem usa; quem paga (em B2B podem ser distintos)?
+- **Solutions Today**: como o problema é resolvido hoje (concorrentes, workarounds, status quo)?
+- **User Value**: que benefício tangível o usuário ganha?
+- **Business Problems**: qual problema *do negócio* essa oportunidade resolve (retenção, aquisição, monetização)?
+- **Adoption Strategy**: como vamos fazer o usuário descobrir e adotar?
+- **Metrics**: quais números medem que está funcionando?
+- **Budget**: quanto vamos investir antes de re-avaliar?
+
+```mermaid
+flowchart TB
+    subgraph Top["Articulação da oportunidade"]
+        direction LR
+        PB["📋 Problems<br/>Que problema<br/>resolve?"]
+        SOL["💡 Solutions<br/>Como propomos<br/>resolver?"]
+        US["👥 Users<br/>& Customers"]
+        ST["🔄 Solutions Today<br/>Como é resolvido<br/>hoje?"]
+    end
+    subgraph Mid["Valor"]
+        direction LR
+        UV["✨ User Value<br/>Benefício para<br/>o usuário"]
+        BP["💼 Business Problems<br/>Problema do negócio<br/>que resolve"]
+    end
+    subgraph Bot["Execução"]
+        direction LR
+        AS["🎯 Adoption Strategy<br/>Como adotam?"]
+        ME["📊 Metrics<br/>Como medimos?"]
+        BU["💰 Budget<br/>Quanto investir<br/>antes de avaliar?"]
+    end
+    Top --> Mid --> Bot
+```
+
+##### Quando usar
+
+Use o Opportunity Canvas na Fase 8 (ideação) e durante todo o ciclo de descoberta contínua pós-PMF. É a ferramenta certa para responder "vale a pena construir essa feature/produto/oportunidade adjacente?" antes de comprometer um trimestre de roadmap. Também use em comitês de priorização: comparar três Opportunity Canvases lado a lado é mais informativo que comparar três PRDs longos.
+
+##### Princípios
+
+A tese de Patton é que **decisão de roadmap é decisão de capital** — cada feature construída custa o custo de oportunidade da feature não construída. O Opportunity Canvas força articular *o trade-off* explicitamente. Diferente do BMC (que descreve o negócio inteiro) e do Lean Canvas (que descreve um modelo a validar), o Opportunity Canvas descreve **uma aposta específica de produto** e pode coexistir com vários outros: uma empresa madura típica tem 10-30 Opportunity Canvases ativos em portfólio.
+
+##### Como aplicar
+
+Reúna PM + tech lead + designer + 1 stakeholder de negócio (RH, vendas, operações) — 4-5 pessoas. Tempo: 60-90 minutos. Comece pelos Problems & Users; só depois vá para Solutions. A ordem importa: começar por Solutions reforça viés de "já sabemos o que construir" e mascara perguntas críticas sobre adoção.
+
+1. **Problems**: descreva o problema sem mencionar a solução. "Usuário tipo X sofre com Y em contexto Z."
+2. **Users & Customers**: quem especificamente. Em B2B, distinguir usuário (quem mexe), comprador (quem paga), influenciador (quem decide).
+3. **Solutions Today**: como o problema é resolvido hoje? Excel, processo manual, concorrente, "não fazer nada". Liste 3-5 alternativas com prós/contras.
+4. **User Value**: o que o usuário ganha que hoje não tem? Específico e mensurável.
+5. **Business Problems**: que problema do negócio (retenção, aquisição, monetização, expansion) essa oportunidade endereça?
+6. **Solutions**: agora sim, descreva o que vai construir.
+7. **Adoption Strategy**: como o usuário descobre, experimenta, adota? In-app, email, CSM, marketing pago?
+8. **Metrics**: 2-3 métricas leading + 1 lagging. Se não consegue definir, oportunidade está mal articulada.
+9. **Budget**: quanto vai investir (pessoas × tempo + custo de aquisição) antes de reavaliar? Sem budget, Opportunity Canvas vira fantasia.
+
+Tempo total: 60-90 minutos por canvas. Faça antes de comprometer roadmap — não depois.
+
+##### Exemplo brasileiro preenchido — Hotmart, oportunidade "Hotmart Sparkle" para microcreators (2022)
+
+Em 2022, a Hotmart já dominava infoprodutos médios e grandes (creators que vendiam cursos de R$ 300+ a milhares de alunos). Identificou uma oportunidade adjacente: **microcreators** — pessoas com audiência pequena (1-5k seguidores) que queriam monetizar conteúdo curto e barato (R$ 9-49 por item). O Opportunity Canvas dessa aposta:
+
+| Bloco | Conteúdo |
+|---|---|
+| **Problems** | Microcreators têm audiência pequena mas engajada e querem monetizar, mas o setup atual da Hotmart (criar curso completo com landing page, hospedar conteúdo, configurar afiliados) é overkill para conteúdo de 30-90 minutos a R$ 19. |
+| **Users & Customers** | Usuário e cliente são a mesma pessoa: microcreator brasileiro com 1-5k seguidores no Instagram/TikTok, audiência engajada, já tem conteúdo gravado mas não no formato curso. |
+| **Solutions Today** | (1) Vender via DM no Instagram com PIX — alta fricção, sem rastreamento. (2) Plataformas estrangeiras (Gumroad) — barreiras de PIX/pagamento BR. (3) Não monetizar — "perder" a audiência. |
+| **User Value** | Setup de produto digital em 5 minutos (vs 1-2h da plataforma principal). Pagamento via PIX integrado. Link de venda direto pra bio do Instagram. Sem necessidade de criar landing, configurar funil, integrar afiliados. |
+| **Business Problems** | (1) Aquisição: capturar a base de microcreators que ainda não usa Hotmart e que daqui a 3-5 anos pode virar creator médio. (2) Diversificação: reduzir dependência de "top 1000 creators". (3) Defesa de mercado: bloquear entrada de Gumroad/Stan/Ko-fi no Brasil. |
+| **Solutions** | "Hotmart Sparkle": fluxo simplificado de criação (3 telas), template de venda mobile-first, pagamento PIX nativo, link de bio gerado automaticamente, sem afiliados/cupons (corte deliberado). |
+| **Adoption Strategy** | Indicação de creators existentes (microcreators são frequentemente fans/alunos de creators médios), parcerias com agências de microinfluência, conteúdo orgânico no Instagram da Hotmart focado nesse perfil. |
+| **Metrics** | Leading: número de microcreators ativando produto/mês, GMV médio por microcreator, conversão de visitante em comprador no link de bio. Lagging: % de microcreators que migram para a plataforma principal em 12 meses. |
+| **Budget** | 1 squad (5 pessoas) por 6 meses para MVP + 4 meses de aquisição inicial = ~R$ 1.5M. Reavaliar em 10 meses: se GMV mensal não chegar a R$ 2M ou 5k microcreators ativos, descontinuar. |
+
+**Insight do caso.** O bloco mais valioso aqui é o **Business Problems** explícito — articula que essa oportunidade não é "feature legal", é resposta a três problemas estratégicos da Hotmart (aquisição de creators emergentes, diversificação de dependência, defesa de mercado). Sem essa articulação, "Hotmart Sparkle" pareceria projeto secundário; com ela, fica claro por que merece squad dedicado. **A lição: Opportunity Canvas força distinguir oportunidade-de-produto de oportunidade-de-negócio. Feature sem business problem definido raramente sobrevive a corte de roadmap.**
+
+##### Variações e extensões
+
+- **Lean UX Canvas** (Jeff Gothelf): variação focada em times UX-driven, com bloco de hipóteses explícito.
+- **Product Discovery Canvas** (Roman Pichler): variação para PMs em ambientes ágeis, com ênfase em assumptions e experimentos.
+- **Now/Next/Later Roadmap**: complementa o Opportunity Canvas — uma vez que a oportunidade vale a pena, onde no roadmap ela entra?
+
+##### Erros comuns
+
+- Pular Problems & Users e ir direto para Solutions — viés de "já sei o que construir" mascara perguntas críticas.
+- Articular User Value em features ("vamos ter um botão de X") em vez de benefícios ("o usuário consegue Y em Z minutos vs hoje em W horas").
+- Esquecer Business Problems — oportunidade que ajuda só o usuário sem resolver problema do negócio é caridade, não estratégia.
+- Definir Metrics só lagging (GMV, retenção D90) sem leading — leva 3-6 meses para saber se está funcionando.
+- Não definir Budget de saída — oportunidade roda indefinidamente sem reavaliação, consumindo time.
+
+##### Quando NÃO usar
+
+Em decisões muito pequenas (mudar copy de um botão, ajustar layout) — overhead de canvas não compensa. Em decisões muito grandes e estruturais (entrar em novo país, lançar segunda linha de produto) — use BMC (Fase 2) ou Lean Canvas (Fase 1), que dão visão de modelo completo. Em ambientes onde o roadmap é ditado de fora (clientes enterprise B2B com contratos) — espaço de manobra limitado torna o canvas teatro.
+
+##### Conexão com outros canvases
+
+O Opportunity Canvas **sucede o BMC/Lean** (Canvas: Business Model Canvas (Alexander Osterwalder, 2010) (Fase 2)/2): depois que o modelo de negócio está claro, cada oportunidade-feature tem seu Opportunity Canvas próprio. **Pareia com o Hypothesis Canvas (Fase 3)**: cada Opportunity Canvas pode gerar 3-5 hipóteses falsificáveis para validar antes de construir. **Antecede o MVP Canvas (Fase 9)**: depois de aprovada, a oportunidade vira escopo de MVP.
+
+##### Leitura adicional
+
+- *User Story Mapping* (Jeff Patton, 2014).
+- *Inspired* (Marty Cagan, 2008/2017) — escola de product discovery contínuo onde o Opportunity Canvas se encaixa.
+- [jpattonassociates.com](https://www.jpattonassociates.com) — biblioteca de templates e ensaios de Patton.
 
 ---
 
@@ -3164,8 +4247,8 @@ Essas crenças são subjetivas e vão parecer arbitrárias. Realmente são. O po
 
 Um nó é bet-the-company quando, se for falso, a ideia inteira morre. Esses são os nós que você testa primeiro nas fases seguintes. No exemplo do restaurante: se o dono não estiver disposto a pagar por uma solução de conciliação, nada mais importa. Esse nó é o primeiro alvo.
 
-> [!tip] Canvases Visuais — Hypothesis Canvas (Fase 7, Vol. 3)
-> Enquanto o Story Tree mostra a rede de hipóteses (relações causais entre nós), o [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#Canvas: Hypothesis Canvas (autoral IGNIÇÃO)|Canvas: Hypothesis Canvas (autoral IGNIÇÃO) (Vol. 3)]] é o canvas para detalhar UMA hipótese isolada — especialmente as bet-the-company marcadas neste Passo 5. Tem campos para Hipótese, Pressuposto, Critério de falsificação, Método de teste, Threshold e Resultado. Use junto com [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#Template: Hypothesis Canvas|Template: Hypothesis Canvas (Vol. 3)]] (template preenchível) para documentar cada hipótese crítica antes de avançar para [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 7 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 7 (Vol. 3)]] e [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 8 — EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA E DA SOLUÇÃO|Fase 8 (Vol. 3)]].
+> [!tip] Canvases Visuais — Hypothesis Canvas (Fase 3)
+> Enquanto o Story Tree mostra a rede de hipóteses (relações causais entre nós), o [[#Canvas: Hypothesis Canvas (autoral IGNIÇÃO)|Canvas: Hypothesis Canvas (autoral IGNIÇÃO)]] é o canvas para detalhar UMA hipótese isolada — especialmente as bet-the-company marcadas neste Passo 5. Tem campos para Hipótese, Pressuposto, Critério de falsificação, Método de teste, Threshold e Resultado. Use junto com [[#Template: Hypothesis Canvas|Template: Hypothesis Canvas]] (template preenchível) para documentar cada hipótese crítica antes de avançar para [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 7 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 7 (Vol. 3)]] e [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 8 — EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA E DA SOLUÇÃO|Fase 8 (Vol. 3)]].
 
 #### Passo 6, parcimônia e modularidade
 
@@ -3295,15 +4378,15 @@ Pular para canvas antes de pensar causalmente. O BMC é útil. Mas não é teori
 
 ### FERRAMENTAS DESTA FASE
 
-Sete ferramentas estruturam o raciocínio causal e ajudam a evitar wishful thinking (acreditar no que se quer acreditar). Canvases complementares: Canvas: Hypothesis Canvas (autoral IGNIÇÃO) (Fase 7, Vol. 3) e Canvas: Theory Map / Story Tree (autoral IGNIÇÃO) (Fase 3).
+Sete ferramentas estruturam o raciocínio causal e ajudam a evitar wishful thinking (acreditar no que se quer acreditar). Canvases complementares: [[#Canvas: Hypothesis Canvas (autoral IGNIÇÃO)|Canvas: Hypothesis Canvas (autoral IGNIÇÃO)]] e [[#Canvas: Theory Map / Story Tree (autoral IGNIÇÃO)|Canvas: Theory Map / Story Tree (autoral IGNIÇÃO)]].
 
-- **First Principles Thinking** — questione cada suposição da teoria. "Clientes vão pagar R$ X." Por que especificamente? Framework: First Principles Thinking (Aristóteles, ~350 a.C.; popularizado por Elon Musk, anos 2010) (Fase 0).
-- **MECE** (mutuamente exclusivo, coletivamente exaustivo) — categorize sem sobreposição e sem lacunas, antes de investir em validação. Framework: MECE (Mutually Exclusive, Collectively Exhaustive) — McKinsey (Fase 3).
-- **Pyramid Principle** (Minto) — conclusão no topo, suporte abaixo, para investidor ou advisor entender rápido. Framework: Pyramid Principle (Barbara Minto, 1985) (Fase 2).
-- **McKinsey 7-Step Problem Solving** — aplique à pergunta "há negócio aqui?" para desconfirmar a teoria antes do mundo desconfirmar. Framework: McKinsey 7-Step Problem Solving (Fase 3).
-- **5 Whys** (Toyota) — aplique à cadeia causal da teoria até a raiz ficar sólida. Framework: 5 Whys (Sakichi Toyoda / Toyota, anos 1930) (Fase 3).
-- **Cynefin Framework** (Snowden) — classifique o domínio do problema (Simples, Complicado, Complexo, Caótico). Em Complexo, a teoria é refinada por experimentação, não por mais análise. Framework: Cynefin Framework (Dave Snowden, 1999) (Fase 0).
-- **Second-Order Thinking** (Marks) — consequências das consequências. Se a teoria se materializar, como concorrentes e reguladores reagem? Framework: Second-Order Thinking (Howard Marks, 2011) (Fase 3).
+- **First Principles Thinking** — questione cada suposição da teoria. "Clientes vão pagar R$ X." Por que especificamente? [[#Framework: First Principles Thinking (Aristóteles, ~350 a.C.; popularizado por Elon Musk, anos 2010)|Framework: First Principles Thinking (Aristóteles, ~350 a.C.; popularizado por Elon Musk, anos 2010)]].
+- **MECE** (mutuamente exclusivo, coletivamente exaustivo) — categorize sem sobreposição e sem lacunas, antes de investir em validação. [[#Framework: MECE (Mutually Exclusive, Collectively Exhaustive) — McKinsey|Framework: MECE (Mutually Exclusive, Collectively Exhaustive) — McKinsey]].
+- **Pyramid Principle** (Minto) — conclusão no topo, suporte abaixo, para investidor ou advisor entender rápido. [[#Framework: Pyramid Principle (Barbara Minto, 1985)|Framework: Pyramid Principle (Barbara Minto, 1985)]].
+- **McKinsey 7-Step Problem Solving** — aplique à pergunta "há negócio aqui?" para desconfirmar a teoria antes do mundo desconfirmar. [[#Framework: McKinsey 7-Step Problem Solving|Framework: McKinsey 7-Step Problem Solving]].
+- **5 Whys** (Toyota) — aplique à cadeia causal da teoria até a raiz ficar sólida. [[#Framework: 5 Whys (Sakichi Toyoda / Toyota, anos 1930)|Framework: 5 Whys (Sakichi Toyoda / Toyota, anos 1930)]].
+- **Cynefin Framework** (Snowden) — classifique o domínio do problema (Simples, Complicado, Complexo, Caótico). Em Complexo, a teoria é refinada por experimentação, não por mais análise. [[#Framework: Cynefin Framework (Dave Snowden, 1999)|Framework: Cynefin Framework (Dave Snowden, 1999)]].
+- **Second-Order Thinking** (Marks) — consequências das consequências. Se a teoria se materializar, como concorrentes e reguladores reagem? [[#Framework: Second-Order Thinking (Howard Marks, 2011)|Framework: Second-Order Thinking (Howard Marks, 2011)]].
 
 ---
 
@@ -3802,13 +4885,104 @@ Em decisões puramente operacionais sem premissa nova a testar. Em times sem dis
 
 ##### Conexão com outros canvases
 
-A Theory Map **precede todos os outros canvases** — é o mapa que justifica por que o BMC (Fase 2), o Lean Canvas (Fase 1) e o VPC (Fase 5, Vol. 2) têm os blocos que têm. **Alimenta o Hypothesis Canvas (Fase 7, Vol. 3)**: cada nó ou seta K≥3+I≥4 da árvore vira hipótese prioritária. **Conecta ao Canvas da Cunha (Fase 6, Vol. 2)**: a cunha de entrada de mercado é a operacionalização dos primeiros nós da árvore — qual segmento específico valida as premissas mais críticas com maior velocidade?
+A Theory Map **precede todos os outros canvases** — é o mapa que justifica por que o BMC (Fase 2), o Lean Canvas (Fase 1) e o VPC (Fase 2) têm os blocos que têm. **Alimenta o Hypothesis Canvas (Fase 3)**: cada nó ou seta K≥3+I≥4 da árvore vira hipótese prioritária. **Conecta ao Canvas da Cunha (Fase 6)**: a cunha de entrada de mercado é a operacionalização dos primeiros nós da árvore — qual segmento específico valida as premissas mais críticas com maior velocidade?
 
 ##### Leitura adicional
 
 - Template completo preenchível: [[#Template: Theory Map — Conexão com Business Model Canvas|Template: Theory Map — Conexão com Business Model Canvas]].
 - *The Book of Why* (Judea Pearl & Dana Mackenzie, 2018) — fundação matemática de grafos causais.
 - *The Startup Owner's Manual* (Steve Blank & Bob Dorf, 2012) — externalização de apostas como prática de discovery.
+
+---
+
+#### Canvas: Hypothesis Canvas (autoral IGNIÇÃO)
+
+##### Origem
+
+O Hypothesis Canvas documentado neste livro é uma ferramenta autoral desenvolvida especificamente para o contexto de founder brasileiro operando com recursos limitados e necessidade de ciclos curtos de aprendizado. Parte da tradição do Lean Startup (Eric Ries, 2011) e da metodologia de hipóteses científicas aplicada a negócio (Karl Popper via Steve Blank), mas incorpora duas inovações práticas ausentes nos templates estrangeiros: (1) a ligação explícita entre cada hipótese e a **árvore de teoria** do negócio (Fase 3) — forçando o fundador a articular *qual premissa causal da teoria* está sendo testada; (2) o bloco de **due diligence da amostra** antes da comparação com o threshold — evitando o erro de aceitar resultado de amostra inadequada como evidência válida. O template completo preenchível está no [[#Template: Hypothesis Canvas|Template: Hypothesis Canvas]].
+
+##### O que é
+
+Artefato de uma página — estruturado como tabela de quatro quadrantes — que captura os oito elementos de uma hipótese rigorosamente testável:
+
+- **Teoria**: qual parte da árvore de teoria (Fase 3) esta hipótese testa? Qual é o atributo ou seta causal em jogo?
+- **Hipótese**: afirmação falsificável em uma frase — quantitativa sempre que possível.
+- **Evidência**: como a evidência será coletada? Método, público-alvo, tamanho de amostra, duração, custo.
+- **Medidas**: o que especificamente será contado? Qual é a fórmula da métrica? Quais medidas alternativas foram descartadas?
+- **Threshold (pré-definido)**: qual resultado mínimo considera a hipótese suportada? Qual resultado a considera refutada? Qual é a zona inconclusiva entre os dois?
+- **Due diligence da amostra**: antes de comparar resultado com threshold, a amostra é adequada? Representa o ICP? Há vieses identificados?
+- **Avaliação**: resultado observado vs. threshold ajustado — Suportada / Refutada / Inconclusiva?
+- **Decisão**: Perseverar / Pivotar / Mais dados / Abandonar + próxima ação concreta + impacto na árvore de teoria.
+
+A sequência de preenchimento é deliberada: blocos superiores e médios **antes** de coletar dados; blocos inferiores **após** — respeitando a barreira anti-viés de confirmação.
+
+##### Quando usar
+
+Use o Hypothesis Canvas na Fase 6 (formulação de hipóteses) como artefato central — um canvas por hipótese bet-the-company. Use também em discovery contínuo pós-PMF: qualquer feature ou mudança de modelo que envolva uma crença não testada merece um canvas. Em times que fazem Test Cards (Fase 8), o Hypothesis Canvas é o nível acima: o Test Card registra um experimento; o Hypothesis Canvas registra a hipótese que o experimento testa, com contexto teórico e decisão final.
+
+##### Princípios
+
+Três princípios fundamentam o design do canvas:
+
+**Primeiro: hipótese sem conexão teórica é ruído.** O bloco "Teoria" força o fundador a articular qual pressuposto da teoria do negócio está em jogo. Hipótese validada que não conecta à teoria pode ser irrelevante; hipótese refutada que conecta a um nó crítico da teoria pode matar o modelo inteiro — a diferença importa.
+
+**Segundo: threshold pré-definido evita auto-engano.** Definir critério de sucesso e refutação antes de ver dados é o único mecanismo eficaz contra viés de confirmação. Times que definem threshold após o resultado invariavelmente o ajustam para validar o que já queriam. O bloco de due diligence da amostra acrescenta um segundo filtro: mesmo que o resultado supere o threshold, se a amostra era inadequada, o resultado não é evidência.
+
+**Terceiro: decisão conecta de volta à teoria.** O bloco "Decisão" exige que o fundador articule o impacto na árvore de teoria — não só "vamos continuar" mas "este resultado fortalece/invalida qual nó ou seta da nossa teoria causal do negócio". Sem isso, aprendizados se acumulam sem atualizar a teoria, e a teoria fica desatualizada em relação à evidência coletada.
+
+##### Como aplicar
+
+Para cada hipótese bet-the-company da Fase 6, abra um canvas. Tempo de preenchimento inicial: 30-45 minutos (a parte antes de coletar dados). Conclusão: após coleta e análise.
+
+Use o template completo do [[#Template: Hypothesis Canvas|Template: Hypothesis Canvas]] para o preenchimento. A estrutura do canvas orienta a sequência — não pule blocos, não preencha de baixo para cima.
+
+**Sequência obrigatória:**
+
+1. **Teoria**: abra a árvore de teoria da Fase 3. Qual atributo ou seta esta hipótese testa? Importância (1-5). É bet-the-company?
+2. **Hipótese**: escreva como afirmação falsificável. "X% de [persona Y] fará [ação Z] em [contexto W]."
+3. **Evidência**: escolha o método. Entrevista, questionário, landing page, pré-venda, concierge, A/B, fake door, etc. Tamanho de amostra, duração, custo.
+4. **Medidas**: o que conta? Qual é a fórmula exata? Quais alternativas foram descartadas?
+5. **Threshold**: defina sucesso, refutação e zona inconclusiva. Justifique os números. Assine e date.
+6. **[Coleta de dados]**
+7. **Due diligence da amostra**: tamanho efetivo coletado. Adequado? Representa o ICP? Vieses.
+8. **Ajuste do threshold**: se necessário, documente a razão.
+9. **Avaliação** e **Decisão**.
+
+##### Exemplo brasileiro preenchido — startup de gestão de frota para transportadoras médias (2023)
+
+Uma startup B2B de gestão de frota estava testando a hipótese de que transportadoras de 20-50 caminhões em SP pagariam R$ 180/veículo/mês por rastreamento + relatórios de eficiência integrados.
+
+| Bloco | Conteúdo |
+|---|---|
+| **Teoria** | Atributo A3 da árvore: "cliente paga pelo relatório de eficiência, não só pelo rastreamento". Seta causal: relatório de eficiência → redução de custo de combustível → disposição a pagar premium. Importância: 5. Bet-the-company: sim (preço de R$ 180 vs. concorrente a R$ 90 depende desta hipótese). |
+| **Hipótese** | Transportadoras de 20-50 caminhões em SP com gerente de frota dedicado pagarão R$ 180/veículo/mês por rastreamento + relatório de eficiência mensal, se o relatório mostrar redução ≥5% de consumo de combustível. |
+| **Evidência** | 8 pré-vendas reais (contrato de 3 meses, reembolso se insatisfeito) via cold outreach para lista de 40 transportadoras identificadas em LinkedIn + associações de classe. |
+| **Medidas** | Número de contratos assinados a R$ 180. Threshold: ≥4/8 (50%) = suportada. ≤1/8 (12,5%) = refutada. Entre 2-3 = inconclusivo. |
+| **Threshold** | Sucesso: ≥4 contratos em 30 dias. Refutação: ≤1 contrato. Zona inconclusiva: 2-3 contratos (exige entrevistas adicionais para entender objeções). |
+| **Due diligence** | 8 empresas abordadas, 6 tiveram reunião (2 declinaram). Das 6: 3 assinaram a R$ 180, 1 pediu R$ 120, 2 declinaram. Amostra de 8 é pequena mas representa o ICP (todas têm 20-50 caminhões, SP, gerente de frota). Viés possível: acesso via rede pessoal pode ter selecionado empresas mais abertas a inovação. |
+| **Avaliação** | 3/6 reuniões = 50% de conversão das reuniões. Vs. threshold original (4/8 total): inconclusivo. Ajuste de threshold: com 6 reuniões em vez de 8, o critério proporcional seria ≥3 — resultado beira o limiar de sucesso. |
+| **Decisão** | Mais dados. Ação: expandir para 20 novas abordagens antes de concluir. A 1 que pediu R$ 120 sinaliza que o relatório de eficiência não está bem justificado em termos de ROI — refinar a apresentação do relatório antes das próximas abordagens. Impacto na teoria: hipótese parcialmente suportada, mas seta causal "relatório → disposição a pagar premium" precisa ser reforçada com cálculo de ROI explícito na proposta. |
+
+**Insight do caso.** O bloco de due diligence revelou que a amostra era pequena (6 reuniões, não 8 planejadas), e o resultado ficou na zona cinza. Sem o canvas, o time poderia ter concluído "50% de conversão — excelente, vamos escalar". Com o canvas, ficou claro que 3 contratos numa amostra de 6 é inconclusivo, e a ação certa era ampliar — não comemorar. **A lição: threshold sem due diligence da amostra é falsa precisão. O número de contratos importa, mas a qualidade da amostra que gerou esses contratos importa igualmente.**
+
+##### Variações e extensões
+
+- **Hypothesis Canvas Rápido**: versão de 4 blocos (Hipótese + Método + Threshold + Decisão) para hipóteses de menor risco onde o rigor completo é overhead excessivo.
+- **Portfolio de Hipóteses**: planilha com todos os canvas abertos em paralelo, ranqueados por Importância e status (Pendente / Em teste / Suportada / Refutada). Útil para o "banco de hipóteses" da Fase 6.
+
+##### Quando NÃO usar
+
+Em decisões operacionais rotineiras que não testam premissa nova (ajuste de preço incremental, mudança de copy). Em hipóteses onde a coleta de evidência levaria mais de 90 dias — nesse horizonte, outros aspectos do negócio já terão mudado; redesenhe o experimento para ser mais rápido ou use o canvas como hipótese de longo prazo com checkpoint intermediário.
+
+##### Conexão com outros canvases
+
+O Hypothesis Canvas **sucede a Theory Map (Fase 3)**: cada nó ou seta da árvore teórica gera hipóteses a testar. **Pareia com o Test Card (Fase 8)**: o Hypothesis Canvas define a hipótese e o contexto teórico; o Test Card define o experimento específico. **Alimenta o Lean Canvas (Fase 1)**: hipóteses validadas atualizam os blocos do Lean Canvas com dado real. **Alimenta o Risk Canvas (Fase 12)**: hipóteses refutadas são, frequentemente, a materialização de riscos previamente identificados.
+
+##### Leitura adicional
+
+- Template completo preenchível: [[#Template: Hypothesis Canvas|Template: Hypothesis Canvas]].
+- *The Lean Startup* (Eric Ries, 2011) — fundação filosófica.
+- *Thinking, Fast and Slow* (Daniel Kahneman, 2011) — viés de confirmação e por que threshold pré-definido importa.
 
 ---
 
@@ -3820,7 +4994,7 @@ A Theory Map **precede todos os outros canvases** — é o mapa que justifica po
 
 **Quando usar.** Na Fase 3, depois que a DII (Template da Fase 2) está estável e antes de priorizar hipóteses (Fase 6). Refaça quando descobrir um atributo novo, ou quando a refutação de um atributo bet-the-company forçar redesenho da teoria.
 
-**Exemplo de preenchimento.** Atributo A1 "operadores percebem conciliação como dor top 3", crença 70%. A2 "donos pagam para retirar dor de operadores", crença 40%. Relação A1→A2 confiança média, evidência "Frameworks da Fase 17, Vol. 7.x sobre transferência de dor entre persona-operador e persona-comprador". Bet-the-company, "A2 (se dono não paga, modelo morre)".
+**Exemplo de preenchimento.** Atributo A1 "operadores percebem conciliação como dor top 3", crença 70%. A2 "donos pagam para retirar dor de operadores", crença 40%. Relação A1→A2 confiança média, evidência "Frameworks da Fase 17.x sobre transferência de dor entre persona-operador e persona-comprador". Bet-the-company, "A2 (se dono não paga, modelo morre)".
 
 ```text
 ÁRVORE DE TEORIA, v___ Data: ___/___/___
@@ -4019,6 +5193,98 @@ DIAGNÓSTICO:
 [ ] Atributos da árvore que surgiram durante este exercício:
  _______________________________________________________
 ```
+
+---
+
+#### Template: Hypothesis Canvas
+
+Template central para conectar teoria, hipótese, evidência e avaliação. Use um canvas por hipótese prioritária. Preencha os blocos superior e médio **antes** de coletar dado, os blocos inferiores são preenchidos **após** a coleta, respeitando a ordem indicada.
+
+> [!note] Teoria completa em Canvas: Hypothesis Canvas (autoral IGNIÇÃO) (Fase 3)
+> Origem, estrutura, princípios, como aplicar e caso brasileiro do Hypothesis Canvas encontram-se em [[#Canvas: Hypothesis Canvas (autoral IGNIÇÃO)|Canvas: Hypothesis Canvas (autoral IGNIÇÃO)]]. Este template é o complemento prático (campos preencháveis) daquela seção.
+
+```text
+╔══════════════════════════════════════════════════════════╗
+║ HYPOTHESIS CANVAS #___ ║
+╠════════════════════════════╦═════════════════════════════╣
+║ TEORIA ║ HIPÓTESE ║
+║ Qual parte da sua árvore ║ Afirmação falsificável a ║
+║ esta hipótese testa? ║ testar: ║
+║ ║ ║
+║ Atributo/seta: ___________ ║ ___________________________ ║
+║ Importância (1-5): _______ ║ ___________________________ ║
+║ É bet-the-company? S / N ║ ___________________________ ║
+╠════════════════════════════╬═════════════════════════════╣
+║ EVIDÊNCIA ║ MEDIDAS ║
+║ Como vou coletar? ║ O que especificamente vou ║
+║ [ ] Entrevista ║ contar? ║
+║ [ ] Questionário ║ ║
+║ [ ] Landing page ║ Pergunta/evento: __________ ║
+║ [ ] Pré-venda ║ Respostas possíveis: ______ ║
+║ [ ] Concierge ║ Fórmula da medida: ________ ║
+║ [ ] Wizard of Oz ║ ___________________________ ║
+║ [ ] A/B test ║ ║
+║ [ ] Fake door ║ Medidas ALTERNATIVAS que eu ║
+║ [ ] Outro: _______ ║ descartei e por quê: ______ ║
+║ ║ ___________________________ ║
+║ Público-alvo: ____________ ║ ║
+║ Tamanho planejado: _______ ║ ║
+║ Duração: _________________ ║ ║
+║ Custo: R$ ________________ ║ ║
+╠════════════════════════════╩═════════════════════════════╣
+║ THRESHOLD (preencher ANTES de olhar os dados) ║
+║ ║
+║ Minha crença subjetiva Resultado mínimo para ║
+║ sobre o valor real: considerar SUPORTADA: ║
+║ ║
+║ [ __________ ] [ __________ ] ║
+║ ║
+║ Resultado que considerarei REFUTADO: ║
+║ [ __________ ] ║
+║ ║
+║ Zona INCONCLUSIVA (exige novo experimento): ║
+║ entre [ ______ ] e [ ______ ] ║
+║ ║
+║ Justificativa do threshold: _____________________________ ║
+║ __________________________________________________________ ║
+╠════════════════════════════════════════════════════════════╣
+║ DUE DILIGENCE DA AMOSTRA (antes de comparar com threshold)║
+║ ║
+║ Tamanho efetivo coletado: _____ ║
+║ Adequado para o tipo de teste? [ ] Sim [ ] Não ║
+║ ║
+║ A amostra representa o ICP? [ ] Sim [ ] Parcial [ ] Não ║
+║ Vieses identificados: ____________________________________║
+║ ___________________________________________________________║
+║ ║
+║ AJUSTE DO THRESHOLD: ║
+║ [ ] Mantido ║
+║ [ ] Aumentado para ______ (amostra favorece a hipótese) ║
+║ [ ] Diminuído para ______ (amostra desfavorece hipótese) ║
+║ Justificativa do ajuste: ________________________________ ║
+╠════════════════════════════╦═════════════════════════════╣
+║ AVALIAÇÃO ║ DECISÃO ║
+║ ║ ║
+║ Resultado observado: ║ [ ] Perseverar ║
+║ [ _____________ ] ║ [ ] Pivotar ║
+║ ║ [ ] Mais dados ║
+║ Vs. threshold ajustado: ║ [ ] Abandonar ║
+║ [ ] SUPORTADA ║ ║
+║ [ ] REFUTADA ║ Próxima ação concreta: ║
+║ [ ] INCONCLUSIVA ║ __________________________ ║
+║ ║ __________________________ ║
+║ Explicação alternativa ║ ║
+║ plausível? ______________ ║ Impacto na árvore de teoria:║
+║ ________________________ ║ __________________________ ║
+║ ║ __________________________ ║
+╚════════════════════════════╩═════════════════════════════╝
+
+Data de preenchimento inicial: ___/___/___
+Data de conclusão: ___/___/___
+Assinatura do empreendedor: _______________________________
+```
+
+**Observação sobre o Hypothesis Canvas**: o propósito dele é forçar o empreendedor a tornar visível cada passo do raciocínio. O canvas não é decorativo, se algum bloco estiver em branco quando o experimento começa, é porque esse passo não foi pensado. E um experimento iniciado com passos não pensados é um experimento que vai produzir conclusões erradas, mesmo se o resultado parecer claro.
 
 ---
 
@@ -6800,7 +8066,7 @@ O fundador lidera a construção da rede. Isso é intransferível. Os co-fundado
 Funciona porque mostra homework (você sabe quem é a pessoa), pede algo específico e limitado (trinta minutos, não conversa longa), tem contexto claro do que você quer aprender, e respeita o tempo. Depois do primeiro encontro, envie nota curta agradecendo mais dois ou três pontos específicos que aplicou ou vai aplicar. Faça follow-up em dois ou três meses reportando progresso concreto nas áreas que discutiram. Se a química é boa, proponha cadência regular. E nunca desapareça. Relacionamento se constrói com contato consistente, não com raridade.
 
 > [!tip] Roteiro estruturado para a conversa em si
-> O template acima resolve a abordagem. Para a conversa propriamente dita — quando o objetivo é extrair insight de setor, mapa competitivo, anti-cases, "what would have to be true" — use o [[IGNICAO-Vol-2-Descoberta-e-Mercado#Template: Entrevista com Especialista de Mercado (mapa de setor · Fases 3-5)|Template: Entrevista com Especialista de Mercado (mapa de setor · Fases 3-5) (Vol. 2)]]. Ele tem Parte A (roteiro durante, com a seção "confronto à nossa tese" como núcleo) e Parte B (síntese pós, com hierarquia de sinais que separa dado verificável de heurística genérica). Importante: especialista informa como construir; não valida que há mercado. Para validar mercado, Template: Entrevista de Problema (Fase 4, Vol. 2).
+> O template acima resolve a abordagem. Para a conversa propriamente dita — quando o objetivo é extrair insight de setor, mapa competitivo, anti-cases, "what would have to be true" — use o [[#Template: Entrevista com Especialista de Mercado (mapa de setor · Fases 3-5)|Template: Entrevista com Especialista de Mercado (mapa de setor · Fases 3-5)]]. Ele tem Parte A (roteiro durante, com a seção "confronto à nossa tese" como núcleo) e Parte B (síntese pós, com hierarquia de sinais que separa dado verificável de heurística genérica). Importante: especialista informa como construir; não valida que há mercado. Para validar mercado, Template: Entrevista de Problema (Fase 1).
 
 Para ser mentorado bem, prepare agenda antes de cada encontro com duas ou três perguntas específicas, tome notas, implemente pelo menos uma sugestão antes do próximo encontro e reporte, respeite o tempo combinado, e reciproque quando possível com apresentações, feedback e introduções a outras pessoas que possam ser úteis.
 
@@ -6812,7 +8078,7 @@ Para pedir, espere ter relacionamento substantivo (pelo menos seis meses de ment
 > "[Nome], você tem sido incrivelmente útil nesses últimos meses. Queria formalizar nossa relação como advisor, com equity e compromisso mais estruturado. Especificamente, seria zero vírgula vinte e cinco a zero vírgula cinco por cento de equity com vesting quatro anos, duas a três horas por mês, focando em [áreas específicas]. Faz sentido explorar?"
 
 > [!tip] Conversa de decisão com advisor já formalizado
-> Depois que o advisor está no jogo, o instrumento para extrair valor de cada conversa é o [[#Template: Entrevista com Advisor (decisão específica · tradeoffs)|Template: Entrevista com Advisor (decisão específica · tradeoffs)]]. Use quando há decisão concreta em cima da mesa — não para descobrir problema, não para mapear setor (advisor não substitui Template: Entrevista de Problema (Fase 4, Vol. 2) nem Template: Entrevista com Especialista de Mercado (mapa de setor · Fases 3-5) (Fase 4, Vol. 2)). Estrutura: decisão em uma frase, opções, reenquadramento (advisor pode ver pergunta diferente da que você trouxe), recomendação com convicção, objeções explícitas, casos análogos e separação fato vs. opinião vs. heurística pessoal. Inclui reflexão interna 30 min depois, sem o advisor — porque a decisão é sua, informada por ele.
+> Depois que o advisor está no jogo, o instrumento para extrair valor de cada conversa é o [[#Template: Entrevista com Advisor (decisão específica · tradeoffs)|Template: Entrevista com Advisor (decisão específica · tradeoffs)]]. Use quando há decisão concreta em cima da mesa — não para descobrir problema, não para mapear setor (advisor não substitui Template: Entrevista de Problema (Fase 1) nem Template: Entrevista com Especialista de Mercado (mapa de setor · Fases 3-5) (Fase 1)). Estrutura: decisão em uma frase, opções, reenquadramento (advisor pode ver pergunta diferente da que você trouxe), recomendação com convicção, objeções explícitas, casos análogos e separação fato vs. opinião vs. heurística pessoal. Inclui reflexão interna 30 min depois, sem o advisor — porque a decisão é sua, informada por ele.
 
 Os sinais de que advisor é bom: responde emails em até quarenta e oito horas, participa dos encontros agendados, proativamente faz introduções quando surgem oportunidades, dá feedback construtivo (não só "bom trabalho"), e a empresa tem progresso real após os conselhos aplicados. Os sinais de que é ruim: some por semanas, vem despreparado, não faz as intros prometidas, opina genericamente sem imersão real, ou tenta vender serviços próprios ou da rede dele para você.
 
@@ -6856,3 +8122,276 @@ A primeira é networking superficial em escala. LinkedIn com cinco mil conexões
 
 > [!info] Fases relacionadas
 > Referenciado em: Fase 0, Fase 14.
+
+---
+
+# GLOSSÁRIO E SIGLAS DESTE VOLUME
+
+> [!abstract] Vocabulário técnico e siglas deste volume
+> Para garantir que este **Volume 1** funcione de forma 100% independente e autocontida sem exigir consulta a outro livro, esta seção reúne as definições dos **77 termos técnicos e de negócios** e das **51 siglas e abreviações** utilizados ao longo das Fases e Capítulos deste volume.
+
+---
+
+## GLOSSÁRIO E SIGLAS DESTE VOLUME
+
+### Termos Técnicos e de Negócios Usados neste Volume
+
+**ACV (Annual Contract Value).** Valor anual de um contrato com cliente. Usado em vendas B2B para dimensionar deals e calcular receita por cliente.
+
+**ADR (Architecture Decision Record).** Documento que registra decisões arquiteturais de software, incluindo o contexto, a decisão tomada e as alternativas consideradas. Ferramenta de gestão do conhecimento em times de engenharia.
+
+**Advisor.** Conselheiro externo que orienta o fundador em áreas específicas (técnica, comercial, regulatória, captação). Tipicamente compensado com 0,1% a 1% de equity sob contrato FAST.
+
+**Anti-dilution.** Cláusula societária que protege investidores de diluição em rodadas futuras a valuation menor. Variantes: full ratchet (ajuste integral) e weighted average (mais comum, ajuste ponderado).
+
+**ARR (Annual Recurring Revenue).** Receita anual recorrente. Soma de todos os contratos ativos anualizados. Principal métrica de tamanho de empresa SaaS. ARR = MRR × 12.
+
+**BATNA (Best Alternative to a Negotiated Agreement).** Melhor alternativa caso a negociação não resulte em acordo. Quanto melhor o BATNA, mais poder o negociador tem. Conceito central de Fisher e Ury (Getting to Yes, 1981).
+
+**BCB (Banco Central do Brasil).** Autoridade monetária e regulatória do sistema financeiro brasileiro. Regula bancos, fintechs, instituições de pagamento e sandbox regulatório de inovação financeira.
+
+**Bet-the-company (aposta central).** Hipótese cuja refutação invalida o modelo de negócio inteiro. Diferente de hipóteses secundárias, que podem ser refutadas sem comprometer a empresa. Todo negócio tem duas a cinco apostas-centrais.
+
+**Board.** Conselho de administração. Órgão de governança da empresa. Em startups, tipicamente 3-5 membros: fundadores, investidores e independentes.
+
+**Burn rate.** Velocidade de consumo de caixa por mês. Caixa disponível dividido pelo burn rate mensal = runway.
+
+**CAC (Customer Acquisition Cost).** Custo total de marketing e vendas dividido pelo número de novos clientes no período. Calculado por canal para diagnóstico preciso, não apenas blended.
+
+**Cap table (Tabela de capitalização).** Documento que registra a estrutura de propriedade de uma empresa: quem tem quantas ações, de qual classe, com qual vesting e a que preço foram emitidas.
+
+**Category design.** Estratégia de criar e dominar uma categoria de mercado nova, em vez de competir em categoria existente. Empresa define o problema de forma nova, tornando-se referência da categoria. Ver Framework: Category Design (Play Bigger, 2016) (Fase 6).
+
+**Churn.** Taxa de cancelamento ou perda de clientes ou receita em um período. Churn de clientes: percentual de clientes que cancelaram. Churn de receita (MRR churn): percentual da receita mensal perdida por cancelamentos e downgrades.
+
+**Cliff (de vesting).** Período inicial de vesting em que nenhuma parte da participação veste. Tipicamente 12 meses para cofundadores e funcionários: se sair antes de 1 ano, não recebe nada.
+
+**Closing.** Momento de assinatura e execução de uma transação (rodada de investimento, M&A). Marca a transferência efetiva de capital e participação. Tipicamente precedido por due diligence, term sheet e SPA.
+
+**Cofundador.** Pessoa que funda a empresa em conjunto com um ou mais sócios desde o início. No Brasil, distinto de "co-founder" — usar termo em português é a convenção do livro.
+
+**Compliance.** Conformidade regulatória. Em startups, refere-se à aderência a normas de LGPD, anticorrupção, trabalhistas, fiscais e setoriais. Capítulo 12 (Vol. 8) (COMPLIANCE E ANTICORRUPÇÃO PARA STARTUPS) trata de Compliance e Anticorrupção em profundidade.
+
+**CRM (Customer Relationship Management).** Sistema de gestão de relacionamento com clientes. Registra interações, pipeline de vendas e histórico do cliente. Exemplos: Salesforce, HubSpot, Pipedrive.
+
+**DAG (Directed Acyclic Graph).** Grafo causal direcionado sem ciclos. Usado em construção de teoria do negócio para mapear relações causais entre variáveis.
+
+**Dilution.** Redução da participação percentual de um acionista em decorrência de novas emissões de ações. Ocorre em cada rodada de captação.
+
+**DPA (Data Processing Agreement).** Acordo de processamento de dados pessoais entre controlador e operador, exigido pela LGPD quando há transferência de dados a terceiro processador.
+
+**DPO (Data Protection Officer).** Encarregado de proteção de dados. Função obrigatória sob a LGPD para empresas que processam grandes volumes de dados pessoais ou dados sensíveis.
+
+**Due diligence (DD).** Processo de investigação e verificação de informações sobre empresa-alvo antes de investimento ou aquisição. Cobre dimensões financeiras, jurídicas, operacionais, tecnológicas e tributárias.
+
+**Earnout.** Parte do preço de aquisição condicionada ao atingimento de metas pós-closing. Tipicamente 20-40% do deal value, pago ao longo de 12 a 36 meses.
+
+**EBITDA.** Lucro antes de juros, impostos, depreciação e amortização. Métrica de geração operacional de caixa, usada em valuation por múltiplos (EV/EBITDA) e em covenants bancários.
+
+**ERP (Enterprise Resource Planning).** Sistema de gestão integrada que centraliza processos operacionais como financeiro, estoque, RH e produção. Exemplos: SAP, Totvs, Oracle.
+
+**EV (Enterprise Value).** Valor total da empresa: capitalização de mercado mais dívida líquida. Usado como numerador nos múltiplos de valuation (EV/ARR, EV/EBITDA).
+
+**Exit.** Saída do fundador ou investidor da empresa, geralmente via M&A, IPO ou secondary.
+
+**FMF (Founder-Market Fit).** Alinhamento entre o perfil, experiência e motivação do fundador e as características do problema e mercado que a empresa ataca. Primeiro filtro de avaliação de ideia.
+
+**Founder Mode.** Estilo de gestão hands-on do fundador-CEO em estágio early-to-growth, em contraste com o "manager mode" delegativo. Conceito popularizado por Paul Graham (2024).
+
+**Freemium.** Modelo de negócio com camada gratuita permanente e camada paga com funcionalidades avançadas. Taxa de conversão típica: 2 a 5% dos usuários gratuitos.
+
+**First Principles Thinking.** Método de raciocinar a partir do fundamento, decompondo crenças aceitas e reconstruindo do zero. Atribuído a Aristóteles, popularizado por Elon Musk. Ver Framework: First Principles Thinking (Aristóteles, ~350 a.C.; popularizado por Elon Musk, anos 2010) (Fase 0).
+
+**GMV (Gross Merchandise Value).** Volume bruto de transações processadas em uma plataforma. A receita da plataforma é o take rate aplicado sobre o GMV.
+
+**Go-to-market (GTM).** Estratégia de como a empresa leva o produto ao mercado: quais segmentos atacar, por quais canais, com qual motion de vendas e posicionamento.
+
+**Headcount.** Número total de funcionários de uma empresa.
+
+**ICP (Ideal Customer Profile).** Perfil ideal do cliente: a empresa ou pessoa para quem o produto foi especificamente construído e que extrai mais valor dele. Mais específico que persona, que é mais específico que segmento.
+
+**IP (Intellectual Property).** Propriedade intelectual: patentes, marcas registradas, código-fonte, segredos comerciais. Em startups, instrumento de cessão de IP do fundador para a empresa é cláusula obrigatória de contrato societário.
+
+**IPO (Initial Public Offering).** Oferta pública inicial — abertura de capital na bolsa de valores. No Brasil, na B3. Tipicamente alvo de empresas com ARR ≥ R$ 300 milhões e crescimento ≥ 30% YoY.
+
+**JTBD (Jobs to be Done).** Framework de pesquisa que entende comportamento do consumidor como contratação de produtos para realizar um "trabalho" funcional, emocional ou social. Originado por Tony Ulwick (Strategyn, 1990, aplicando Six Sigma à inovação), popularizado por Clayton Christensen em *The Innovator's Solution* (2003), e operacionalizado em Switch Interviews por Bob Moesta. Ver Framework: Jobs to Be Done Framework (Clayton Christensen, Anthony Ulwick, Bob Moesta) (Fase 5) e Framework: Jobs to Be Done Switch Interviews (Bob Moesta & Chris Spiek, via Clayton Christensen) (Fase 5).
+
+**Lead.** Potencial cliente que demonstrou interesse inicial. Pode ser MQL (Marketing Qualified Lead) ou SQL (Sales Qualified Lead) dependendo do nível de qualificação.
+
+**LGPD (Lei Geral de Proteção de Dados).** Lei 13.709/2018 que regula o tratamento de dados pessoais no Brasil. Multa máxima: 2% do faturamento, limite R$ 50 milhões por infração. Fiscalizada pela ANPD.
+
+**Liquidation preference.** Direito dos investidores preferenciais de receber seu investimento de volta (com ou sem juros) antes dos fundadores e acionistas ordinários em caso de exit. Pode ser 1x, 2x ou mais.
+
+**LTV (Lifetime Value).** Valor presente líquido da receita gerada por um cliente ao longo de toda a sua relação com a empresa. LTV/CAC ≥ 3x é referência para modelo sustentável.
+
+**M&A (Mergers and Acquisitions).** Fusões e aquisições. Caminho mais comum de exit para startups brasileiras.
+
+**Market fit.** Versão mais ampla de PMF que inclui adequação ao momento de mercado, não apenas ao produto.
+
+**MECE (Mutually Exclusive, Collectively Exhaustive).** Princípio de estruturação de problemas em categorias mutuamente exclusivas (sem sobreposição) e coletivamente exaustivas (cobrem todo o espaço). Ferramenta de consultoria estratégica. Ver Framework: MECE (Mutually Exclusive, Collectively Exhaustive) — McKinsey (Fase 3).
+
+**MoM (Month over Month).** Crescimento mês a mês. Em early-stage, crescimento saudável é ≥ 10% MoM sustentado.
+
+**Moat.** Barreira competitiva difícil de replicar. Pode ser efeito de rede, custo de troca, marca, escala, IP ou regulação. Conceito popularizado por Warren Buffett. Ver Framework: 7 Powers (Hamilton Helmer, 2016) (Fase 6).
+
+**MRR (Monthly Recurring Revenue).** Receita recorrente mensal. Soma de todos os contratos ativos, normalizada para mensal.
+
+**MVP (Minimum Viable Product).** Versão mínima do produto com funcionalidades suficientes para validar hipóteses críticas com usuários reais e coletar feedback. Não é produto incompleto: é produto deliberadamente mínimo.
+
+**NPS (Net Promoter Score).** Métrica de lealdade e satisfação. Pergunta: "Em escala de 0 a 10, o quanto você recomendaria [empresa/produto] para um amigo?" Promotores (9-10) menos Detratores (0-6) = NPS. Referência: ≥ 40 consumer, ≥ 30 enterprise.
+
+**Onboarding.** Processo de entrada e ativação de um novo usuário ou colaborador. Onboarding de cliente: caminho do cadastro até o "aha moment". Onboarding de funcionário: integração nas primeiras 4-12 semanas.
+
+**Outbound.** Motion de vendas onde a empresa ativamente prospecta clientes, em vez de esperar inbound. Inclui cold outreach, SDRs e prospecção ativa.
+
+**Pivot.** Mudança estrutural de uma ou mais dimensões do modelo de negócio (cliente, problema, solução, canal, modelo de receita) mantendo aprendizados anteriores. Diferente de pivô cosmético (renomear) e de "abandonar".
+
+**PLG (Product-Led Growth).** Motion de crescimento onde o produto é o principal veículo de aquisição, conversão e expansão. Produto gera valor suficiente para que usuário traga outros usuários. Contraposto a SLG (Sales-Led Growth).
+
+**PMF (Product-Market Fit).** Momento em que produto e mercado se encaixam: produto resolve dor real de segmento identificado de forma que gera retenção, engajamento e crescimento orgânico. Diagnóstico central da [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 13 — PRODUCT-MARKET FIT|Fase 13 (Vol. 4)]].
+
+**Post-mortem.** Análise retrospectiva de falha ou incidente, com foco em aprendizado sistêmico em vez de atribuição de culpa. Blameless post-mortem é variante que explicitamente remove julgamento pessoal.
+
+**RBF (Revenue-Based Financing).** Financiamento em que a empresa devolve um múltiplo do principal como percentual da receita futura, em vez de juros fixos. Não-diluitivo. Exemplos no Brasil: a55, Capital Empreendedor.
+
+**RFC (Request for Comments).** Documento que descreve uma proposta técnica ou organizacional e coleta feedback antes da decisão. Mecanismo de escala de decisão em times técnicos.
+
+**ROI (Return on Investment).** Retorno sobre investimento. (Ganho - Custo) / Custo. Métrica genérica de eficiência de capital aplicado.
+
+**Runway.** Número de meses antes de a empresa ficar sem caixa, considerando o burn rate atual. Referência: mínimo 12 meses após rodada, ideal 18 a 24 meses.
+
+**SAFE (Simple Agreement for Future Equity).** Instrumento de captação criado pela Y Combinator. Conversível em ações em rodada futura, sem juros e sem prazo de vencimento. Adaptação brasileira é a "Nota Conversível".
+
+**SAM (Serviceable Addressable Market).** Porção do TAM que sua empresa pode realisticamente alcançar com seu modelo de negócio e GTM atual.
+
+**Second-Order Thinking.** Pensamento de segunda ordem — método de considerar as consequências das consequências de uma decisão. Conceito central de Howard Marks. Ver Framework: Second-Order Thinking (Howard Marks, 2011) (Fase 3).
+
+**Seed.** Rodada de captação inicial de startup. No Brasil, tipicamente R$ 1 milhão a R$ 10 milhões, de fundos seed ou anjos, para validar PMF e motor inicial de crescimento.
+
+**SLA (Service Level Agreement).** Acordo de nível de serviço. Define métricas de disponibilidade, performance e tempo de resposta que a empresa se compromete a manter. Violações geram créditos ou penalidades.
+
+**SOM (Serviceable Obtainable Market).** Parcela do SAM que a empresa pode realisticamente capturar nos próximos 3 anos. Base para projeções de crescimento defensáveis.
+
+**SPADE.** Framework de decisão de Gokul Rajaram para decisões importantes: Setting (contexto), People (envolvidos), Alternatives (opções), Decide (escolha), Explain (comunicação).
+
+**TAM (Total Addressable Market).** Mercado total endereçável: receita máxima possível se a empresa capturasse 100% do mercado. Calculado preferencialmente bottom-up.
+
+**Term sheet.** Documento que resume os termos comerciais de uma rodada de investimento ou M&A antes do contrato definitivo. Não vinculante na maior parte das cláusulas, mas vinculante em exclusividade e confidencialidade.
+
+**Unit economics.** Métricas de rentabilidade no nível da unidade básica do negócio (um cliente, uma transação, um produto). CAC, LTV, margem por transação, payback period.
+
+**Valuation.** Valor estimado de uma empresa. Em startups privadas, determinado por rodadas de captação. Pode ser calculado por múltiplos (EV/ARR, EV/EBITDA), DCF ou transações comparáveis.
+
+**Venture Debt.** Financiamento por dívida para startups que já captaram equity. Concedido por bancos especializados (Silicon Valley Bank historicamente) ou fundos de venture debt. Não-diluitivo, mas exige garantias e covenants.
+
+**Vesting.** Mecanismo pelo qual a participação em uma empresa é ganha gradualmente ao longo do tempo. Vesting padrão: 4 anos com 1 ano de cliff. Protege a empresa se fundador ou funcionário sai cedo.
+
+**Wedge.** Ponto de entrada no mercado. Nicho inicial onde a empresa tem vantagem diferenciada e a partir do qual pode expandir. Estratégia de entrar pequeno para sair grande.
+
+**ZOPA (Zone of Possible Agreement).** Zona de acordo possível em negociação: sobreposição entre o mínimo aceitável de uma parte e o máximo aceitável da outra. Conceito de Fisher e Ury (Getting to Yes, 1981).
+
+---
+
+### Siglas e Abreviações Usadas neste Volume
+
+**API:** Application Programming Interface. *Tecnologia.*
+
+**ARR:** Annual Recurring Revenue (receita recorrente anual). *SaaS / métricas.*
+
+**B2B:** Business-to-Business. *Modelo de negócio.*
+
+**B2B2C:** Business-to-Business-to-Consumer. *Modelo de negócio.*
+
+**B2C:** Business-to-Consumer. *Modelo de negócio.*
+
+**BACEN:** Banco Central do Brasil. *Regulação.*
+
+**BMC:** Business Model Canvas. *Estratégia / modelagem de negócio.*
+
+**BNDES:** Banco Nacional de Desenvolvimento Econômico e Social. *Financiamento.*
+
+**CAC:** Customer Acquisition Cost (custo de aquisição de cliente). *Unit economics.*
+
+**CEO:** Chief Executive Officer. *Gestão.*
+
+**CFO:** Chief Financial Officer. *Gestão.*
+
+**CLT:** Consolidação das Leis do Trabalho (regime trabalhista brasileiro com vínculo formal). *Trabalho.*
+
+**CPO:** Chief Product Officer. *Gestão.*
+
+**CRM:** Customer Relationship Management (sistema ou prática). *Vendas.*
+
+**CTO:** Chief Technology Officer. *Gestão.*
+
+**CVM:** Comissão de Valores Mobiliários. *Regulação.*
+
+**CVV:** Centro de Valorização da Vida (linha de apoio 188). *Saúde mental.*
+
+**DPA:** Data Processing Agreement (adendo contratual de dados). *LGPD.*
+
+**DPO:** Data Protection Officer (encarregado de dados sob LGPD). *LGPD.*
+
+**EBITDA:** Earnings Before Interest, Taxes, Depreciation and Amortization. *Finanças.*
+
+**GMV:** Gross Merchandise Value (volume bruto de transações). *Marketplaces.*
+
+**HR / RH:** Human Resources / Recursos Humanos. *Gestão.*
+
+**ICP:** Ideal Customer Profile. *Vendas e marketing.*
+
+**INSS:** Instituto Nacional do Seguro Social. *Regulação trabalhista.*
+
+**IPO:** Initial Public Offering (abertura de capital em bolsa). *Exit.*
+
+**JTBD:** Jobs To Be Done. *Framework de produto.*
+
+**LGPD:** Lei Geral de Proteção de Dados (Lei 13.709/2018). *Regulação.*
+
+**LTV:** Lifetime Value (valor vitalício de cliente). *Unit economics.*
+
+**LTV:CAC:** razão entre LTV e CAC. *Unit economics.*
+
+**M&A:** Mergers and Acquisitions (fusões e aquisições). *Exit.*
+
+**MRR:** Monthly Recurring Revenue. *SaaS / métricas.*
+
+**MVP:** Minimum Viable Product (produto mínimo viável). *Produto.*
+
+**NPS:** Net Promoter Score (métrica de recomendação). *Satisfação.*
+
+**PIX:** sistema de pagamentos instantâneos do BACEN. *Pagamentos Brasil.*
+
+**PJ:** Pessoa Jurídica (regime de contratação). *Trabalho.*
+
+**PLG:** Product-Led Growth. *Growth.*
+
+**PM:** Product Manager. *Produto.*
+
+**PMF:** Product-Market Fit. *Conceito central.*
+
+**RACI:** Responsible, Accountable, Consulted, Informed. *Gestão.*
+
+**RBF:** Revenue-Based Financing. *Captação não-diluitiva.*
+
+**ROI:** Return on Investment. *Finanças.*
+
+**SaaS:** Software as a Service. *Modelo de negócio.*
+
+**SAFE:** Simple Agreement for Future Equity (instrumento de captação). *Captação.*
+
+**SDR:** Sales Development Representative. *Vendas.*
+
+**SMB:** Small and Medium Business. *Segmento.*
+
+**SWOT:** Strengths, Weaknesses, Opportunities, Threats. *Estratégia.*
+
+**TAM / SAM / SOM:** Total Addressable Market, Serviceable Addressable Market, Serviceable Obtainable Market. *Estratégia de mercado.*
+
+**VC:** Venture Capital. *Captação.*
+
+**VP:** Vice President. *Gestão.*
+
+**VPC:** Value Proposition Canvas. *Framework de produto.*
+
+**ZOPA:** Zone of Possible Agreement. *Negociação.*

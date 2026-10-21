@@ -88,6 +88,8 @@ graph LR
 - [[#CAPÍTULO 22 — SECOND-TIME FOUNDER|CAPÍTULO 22 — SECOND-TIME FOUNDER]]
 ### Encerramento
 - [[#EPÍLOGO|EPÍLOGO]]
+### Glossário e Siglas deste Volume
+- [[#Glossário e Siglas deste Volume|GLOSSÁRIO E SIGLAS DESTE VOLUME]]
 
 ---
 
@@ -289,8 +291,8 @@ A estratégia de autodisrupção tem quatro elementos. Separe o experimento disr
 
 O exemplo clássico: a Microsoft se autodisrompendo de licenças perpétuas (Office) para subscrição cloud (Office 365). No início, cada usuário que migrava gerava menos receita imediata. Em cinco anos, transformou a empresa.
 
-> [!tip] Canvases Visuais — Strategy Canvas (Fase 6, Vol. 2)
-> Para reposicionar a empresa na nova curva, o [[IGNICAO-Vol-2-Descoberta-e-Mercado#Canvas: Strategy Canvas (W. Chan Kim & Renée Mauborgne, 2005)|Canvas: Strategy Canvas (W. Chan Kim & Renée Mauborgne, 2005) (Vol. 2)]] compara o perfil de valor da empresa contra concorrentes em fatores de competição, e o ERRC Grid (Eliminar, Reduzir, Aumentar, Criar) força repensar a categoria. Útil em pivot transformacional (não cosmético) — a unidade disruptiva precisa de perfil de valor distinto do core, não uma versão "melhor um pouco" do mesmo produto.
+> [!tip] Canvases Visuais — Strategy Canvas (Fase 19)
+> Para reposicionar a empresa na nova curva, o [[#Canvas: Strategy Canvas (W. Chan Kim & Renée Mauborgne, 2005)|Canvas: Strategy Canvas (W. Chan Kim & Renée Mauborgne, 2005)]] compara o perfil de valor da empresa contra concorrentes em fatores de competição, e o ERRC Grid (Eliminar, Reduzir, Aumentar, Criar) força repensar a categoria. Útil em pivot transformacional (não cosmético) — a unidade disruptiva precisa de perfil de valor distinto do core, não uma versão "melhor um pouco" do mesmo produto.
 
 #### Passo 6, considere M&A como alavanca de reinvenção
 
@@ -412,17 +414,17 @@ Ignorar o Innovator's Dilemma. Achar que "somos diferentes, o nosso setor não �
 
 ### FERRAMENTAS DESTA FASE
 
-Três essenciais para a fase. Canvases complementares: Canvas: Strategy Canvas (W. Chan Kim & Renée Mauborgne, 2005) (Fase 6, Vol. 2) e Canvas: Wardley Map (Fase 19).
+Três essenciais para a fase. Canvases complementares: [[#Canvas: Strategy Canvas (W. Chan Kim & Renée Mauborgne, 2005)|Canvas: Strategy Canvas (W. Chan Kim & Renée Mauborgne, 2005)]] e [[#Canvas: Wardley Map|Canvas: Wardley Map]].
 
-**Essenciais para a Fase 15:**
+**Essenciais para a Fase 19:**
 
-- **Innovator's Dilemma / Disruptive Innovation** (Christensen, 1997) — por que empresas bem-sucedidas falham com tecnologias disruptivas. Low-end vs new-market disruption. Diagnóstico-base da fase. Framework: Innovator's Dilemma / Disruptive Innovation (Clayton Christensen, 1997) (Fase 19).
-- **Three Horizons Framework** (McKinsey) — H1 core, H2 emergente, H3 apostas futuras. Estrutura a alocação 70/20/10. Framework: Three Horizons Framework (McKinsey, 1999) (Fase 1, Vol. 1).
-- **Wardley Mapping** — componente em estágio evolutivo (custom, product, commodity). Revela o que está saturando rumo a commodity (precisa saltar) e o que ainda é Custom (vantagem por enquanto). Framework: Wardley Mapping (Simon Wardley, 2005) (Fase 1, Vol. 1).
+- **Innovator's Dilemma / Disruptive Innovation** (Christensen, 1997) — por que empresas bem-sucedidas falham com tecnologias disruptivas. Low-end vs new-market disruption. Diagnóstico-base da fase. [[#Framework: Innovator's Dilemma / Disruptive Innovation (Clayton Christensen, 1997)|Framework: Innovator's Dilemma / Disruptive Innovation (Clayton Christensen, 1997)]].
+- **Three Horizons Framework** (McKinsey) — H1 core, H2 emergente, H3 apostas futuras. Estrutura a alocação 70/20/10. [[#Framework: Three Horizons Framework (McKinsey, 1999)|Framework: Three Horizons Framework (McKinsey, 1999)]].
+- **Wardley Mapping** — componente em estágio evolutivo (custom, product, commodity). Revela o que está saturando rumo a commodity (precisa saltar) e o que ainda é Custom (vantagem por enquanto). [[#Framework: Wardley Mapping (Simon Wardley, 2005)|Framework: Wardley Mapping (Simon Wardley, 2005)]].
 
 **Complementares (consulte conforme o caso):**
 
-- Ambidextrous Organization (O'Reilly/Tushman), Open Innovation (Chesbrough), S-Curves of Innovation (Foster), Category Design (Play Bigger, para reposicionar na nova curva), Crossing the Chasm (Moore, para atravessar para mercado principal em adjacências), Blitzscaling (Hoffman/Yeh, para reinvenção em winner-takes-most), Playing to Win (Martin/Lafley, para reexaminar as cinco escolhas), Scenario Planning (Shell, Schwartz). Detalhamento em Framework: Playing to Win (Roger Martin & A.G. Lafley, 2013) (Fase 2, Vol. 1), Framework: Scenario Planning (Pierre Wack na Royal Dutch Shell, anos 1970) (Fase 19) e Framework: Blitzscaling (Reid Hoffman & Chris Yeh, 2018) (Fase 15, Vol. 6) a Framework: S-Curves of Innovation (Richard Foster, 1986) (Fase 19).
+- Ambidextrous Organization (O'Reilly/Tushman), Open Innovation (Chesbrough), S-Curves of Innovation (Foster), Category Design (Play Bigger, para reposicionar na nova curva), Crossing the Chasm (Moore, para atravessar para mercado principal em adjacências), Blitzscaling (Hoffman/Yeh, para reinvenção em winner-takes-most), Playing to Win (Martin/Lafley, para reexaminar as cinco escolhas), Scenario Planning (Shell, Schwartz). Detalhamento passo a passo na subseção **[[#MANUAL PASSO A PASSO DOS FRAMEWORKS DESTA FASE|Manual Passo a Passo dos Frameworks desta Fase]]** logo a seguir.1, [[#Framework: Scenario Planning (Pierre Wack na Royal Dutch Shell, anos 1970)|Framework: Scenario Planning (Pierre Wack na Royal Dutch Shell, anos 1970)]] e [[#Framework: Blitzscaling (Reid Hoffman & Chris Yeh, 2018)|Framework: Blitzscaling (Reid Hoffman & Chris Yeh, 2018)]] a [[#Framework: S-Curves of Innovation (Richard Foster, 1986)|Framework: S-Curves of Innovation (Richard Foster, 1986)]].
 
 ---
 
@@ -956,6 +958,358 @@ Assumir que S atual nunca acaba: "nossa tecnologia ainda tem décadas". Maybe si
 
 ---
 
+#### Framework: Playing to Win (Roger Martin & A.G. Lafley, 2013)
+
+##### Origem
+
+A.G. Lafley (então CEO da P&G) e Roger Martin (dean da Rotman School) desenvolveram o framework durante a transformação da P&G entre 2000-2013 (receita passou de US$ 39B para US$ 84B, market cap dobrou). Publicaram *Playing to Win: How Strategy Really Works* em 2013. O livro é hoje uma das referências mais sólidas sobre estratégia corporativa, especialmente em contextos de escala.
+
+##### O que é
+
+Framework de **estratégia como cascata de cinco escolhas integradas**. Martin argumenta que estratégia é fazer escolhas, não listar objetivos. E que essas escolhas devem ser **interdependentes e reforçadoras**.
+
+##### Princípios / estrutura — A cascata
+
+Escolha 1, Qual é a nossa aspiração vencedora?
+Definição de sucesso em termos qualitativos e quantitativos. "Vencer" significa algo específico, não "ser bom" ou "crescer". Para P&G: "melhorar a vida de clientes em todo o mundo".
+
+Escolha 2, Onde vamos jogar?
+Escopo. Em quais mercados/segmentos/canais/geografias/categorias? Explicitamente onde **NÃO** vamos jogar. A maioria dos fracassos estratégicos vem de "jogar em todo lugar".
+
+Escolha 3, Como vamos vencer?
+Proposta de valor e vantagem competitiva específica. Duas opções clássicas (Porter): diferenciação de produto ou liderança em custo. Martin expande: qualidade única de experiência, relacionamento, canal, etc.
+
+Escolha 4, Quais capabilities devemos ter?
+As 4-6 habilidades organizacionais que precisamos dominar para vencer. Não tudo, as que são distintivas e críticas.
+
+Escolha 5, Quais sistemas de gestão são necessários?
+Estruturas, processos, métricas e cultura que sustentam e renovam a estratégia. Sem sistemas, as 4 outras escolhas se erodem com tempo.
+
+##### Como aplicar do jeito certo
+
+Passo 1, Faça em cascata, mas itere. As escolhas influenciam-se mutuamente. Começar pela aspiração, descer até sistemas, voltar e ajustar. Leva semanas ou meses, não é workshop de um dia.
+
+Passo 2, Escolha explícita = rejeição explícita. Cada escolha precisa incluir o que rejeitamos. "Jogamos em PMEs brasileiras" deve incluir "NÃO jogamos em enterprise nem em LatAm neste horizonte".
+
+Passo 3, Teste coerência interna. Aspiração → onde jogar → como vencer → capabilities → sistemas. Se capability definida não serve ao "como vencer", há incoerência. Reajuste.
+
+Passo 4, Envolva o time executivo. Estratégia é dos tomadores de decisão, não do consultor. Playing to Win funciona bem em workshops estruturados com liderança.
+
+Passo 5, Documente em uma página. Strategy on a page. Se não cabe, está excessivamente complexo ou não há escolha clara.
+
+Passo 6, Cadência de revisão. Revisar em profundidade a cada 18-24 meses (mais frequente em early-stage), ajustes táticos trimestralmente.
+
+##### Exemplo aplicado
+
+SaaS brasileiro de onboarding digital para PMEs (ficcional, estilo Hondana):
+
+- Aspiração: ser a primeira ferramenta de onboarding digital adotada por PMEs brasileiras, categoria definida pela marca.
+- Onde jogar: PMEs brasileiras de 20-200 funcionários nos setores de varejo e saúde. Canal: digital self-serve + parceiros (contadores). NÃO jogamos em grandes empresas, nem em LatAm hispânica neste horizonte.
+- Como vencer: experiência de onboarding nativa brasileira (CLT, LGPD, contratos tipicamente nacionais) + preço acessível (R$ 5-15/funcionário/mês vs. R$ 30+ de concorrentes internacionais).
+- Capabilities: (1) Product velocity em território regulatório brasileiro, (2) Canal de parceiros com 500+ contadores, (3) Content marketing em SEO brasileiro, (4) Customer success proativo em PT-BR.
+- Sistemas: OKRs trimestrais, weekly business review, program de enablement de contadores, métrica NPS brasileira.
+
+##### Erros comuns
+
+"Estratégia" vira aspiração + objetivos sem escolhas: "seremos líderes" é aspiração, não estratégia. Onde jogar amplo demais: "todas as PMEs do Brasil" é jogar em todo lugar = jogar em lugar nenhum. Focar. Como vencer genérico: "melhor produto" não é vantagem, é clichê. Vantagem precisa ser específica e testável. Capabilities não-diferenciadas: "temos que ter boa tecnologia". Todos precisam. O que é seu distintivo? Sistemas ignorados: times executam escolhas 1-3 mas esquecem que sistemas de gestão (4 e 5) sustentam. Erode em 18 meses. Não rejeitar explicitamente: não dizer "NÃO faremos X" deixa organização tentando fazer tudo. Estratégia escrita em 100 páginas: Martin insiste em strategy on a page. Se não cabe, está incoerente.
+
+##### Quando NÃO usar
+
+Pré-PMF em startup muito early-stage: escolhas 4-5 (capabilities e sistemas) são prematuras, foque em descoberta de problema/solução. Quando urgência operacional não permite iteração multi-semanal. Como ferramenta isolada sem comprometimento da liderança, estratégia sem owner executivo não se executa.
+
+##### Leitura adicional
+
+- Martin, R. & Lafley, A. G. (2013). *Playing to Win: How Strategy Really Works*. Harvard Business Press.
+- Martin, R. (2022). *A New Way to Think*. Harvard Business Press.
+- Martin, R. (continuous). Blog pessoal *Playing to Win* no Medium, aplicações atualizadas.
+
+---
+
+#### Framework: Three Horizons Framework (McKinsey, 1999)
+
+##### Origem
+
+Desenvolvido por McKinsey no fim dos anos 1990, publicado em *The Alchemy of Growth* (Mehrdad Baghai, Stephen Coley, David White, 1999). Respondia à pergunta: **como empresa madura continua crescendo sem cair na armadilha "dividend trap" (core gera caixa, mas empresa estagna)?** O framework virou padrão em estratégia de inovação corporativa.
+
+##### O que é
+
+Framework que organiza iniciativas de crescimento em **três horizontes temporais**, exigindo que empresa gerencie os três simultaneamente:
+
+##### Princípios / estrutura
+
+Horizon 1, Extend & defend core: melhorias e expansões do core business atual. Retorno em 6-18 meses. 70% do esforço tipicamente.
+
+Horizon 2, Build emerging businesses: novas linhas de negócio em crescimento, adjacentes ao core. Retorno em 2-4 anos. 20% do esforço.
+
+Horizon 3, Create viable options for future: exploração de ideias disruptivas ou novos mercados. Retorno em 5+ anos (se houver). 10% do esforço.
+
+Metáfora da alquimia: H1 gera caixa que financia H2. H2 cresce e alguns viram novos cores. H3 explora futuro.
+
+##### Como aplicar do jeito certo
+
+Passo 1, Defina o core atual com precisão. H1 só é claro quando sabemos o que é "core" vs. adjacência.
+
+Passo 2, Mapeie iniciativas atuais em horizontes. Cada projeto, produto ou investimento vai para H1, H2 ou H3.
+
+Passo 3, Teste balanceamento. Muito H1 = futuro comprometido. Muito H3 = caixa hoje comprometido. Empresa saudável tem distribuição adequada ao estágio.
+
+Passo 4, Separe métricas por horizonte. H1 mede performance (receita, margem). H2 mede crescimento e tração (adoção, engagement). H3 mede aprendizado (hipóteses testadas, opções viáveis).
+
+Passo 5, Governance distinta por horizonte. H1 em comitê operacional. H3 frequentemente em entidade separada (skunkworks, corporate venture) para proteger de lógica de core.
+
+Passo 6, Revise anualmente. Horizontes evoluem: H3 pode virar H2. H2 pode virar novo H1.
+
+##### Exemplo aplicado
+
+Empresa SaaS brasileira com R$ 80M ARR (hipotético):
+
+- H1 (core, gestão financeira PME): acelerar adoção em SP/RJ, lançar mobile app, otimizar pricing. 70% do time e budget. Meta: manter crescimento de 30% ao ano.
+
+- H2 (adjacências): crédito para PMEs baseado em dados da plataforma, folha de pagamento integrada. 20% do esforço. Meta: atingir R$ 15M ARR em 36 meses.
+
+- H3 (apostas): AI-driven forecasting como produto autônomo, marketplace de serviços contábeis. 10% do esforço. Meta: validar 1-2 hipóteses por ano, matar as que não validam.
+
+##### Erros comuns
+
+Ignorar H2 e H3: empresa foca 100% em H1. Parece rentável por 3-5 anos, depois core estagna e não há sucessão. Financiar H3 como se fosse H1: esperar retornos rápidos de apostas de longo prazo. Desestimula experimentação. Misturar métricas e governance: tratar H3 com KPIs de H1 mata a inovação. Time H2/H3 sem proteção: sem autonomia e cobertura do CEO, time H3 é sufocado pelo urgente de H1. Proporções rígidas (70/20/10): são benchmarks, não regras. Ajuste por estágio e contexto. H3 vira "inovação theater": hackathons sem follow-through. Precisa de capital, tempo, foco.
+
+##### Quando NÃO usar
+
+Pré-PMF: empresa ainda está construindo H1, prematuro H2-H3, Startup early Series A focada em PMF: foco total em core é correto, Quando capital ou time é estritamente insuficiente para três horizontes, fingir é pior que focar.
+
+##### Leitura adicional
+
+- Baghai, M., Coley, S. & White, D. (1999). *The Alchemy of Growth*. Perseus.
+- McKinsey Quarterly (atualizações periódicas do framework).
+
+---
+
+#### Framework: Wardley Mapping (Simon Wardley, 2005)
+
+##### Origem
+
+Simon Wardley, ex-CEO de empresa inglesa que fazia comércio eletrônico (Fotango), desenvolveu o mapeamento em 2005 após frustração com frameworks estratégicos existentes (SWOT, 5 Forças), que não davam clareza sobre "o que fazer". Wardley Mapping combina **posição** (eixo X: estágio de evolução do componente, de genesis a commodity) com **dependência** (eixo Y: quão próximo do usuário final). Usado hoje em Amazon, governo britânico (cabinet office), muitas big techs. Curiosamente, Wardley publica tudo em Creative Commons, material é open source.
+
+##### O que é
+
+Ferramenta visual para mapear **cadeia de valor** de negócio contra **evolução tecnológica**. Permite ver: onde investir custom vs. onde usar commodity, onde há oportunidade disruptiva, onde temos vantagem vs. onde é ilusão.
+
+##### Princípios / estrutura
+
+Eixo X, Estágios de evolução (da esquerda para direita):
+
+1. Genesis: exploração, custom-built, raro.
+2. Custom-built: único, desenvolvido sob medida.
+3. Product (+ rental): produto maduro com versões, compete por features.
+4. Commodity (+ utility): indiferenciado, competição por preço, fornecido como utility.
+
+Eixo Y, Visibilidade ao usuário: no topo, componentes que o usuário vê direto (UX), embaixo, componentes de infraestrutura invisíveis.
+
+**Componentes são colocados no mapa** e **linhas de dependência** entre eles são desenhadas. Resultado: imagem clara de onde empresa investe valor custom vs. commodity.
+
+##### Doutrinas (princípios derivados do mapping)
+
+- Foque em necessidades do usuário.
+- Use mapas apropriados para contextar.
+- Remova duplicação e bias.
+- Use componentes commoditizados quando disponíveis.
+- Use Genesis/Custom quando quer diferenciar.
+- Pense sobre movimentos de concorrentes e ambiente.
+
+##### Como aplicar do jeito certo
+
+Passo 1, Identifique o usuário e a necessidade. Topo do mapa sempre começa com usuário e JTBD.
+
+Passo 2, Desça a cadeia de valor. Que componentes são necessários para entregar valor ao usuário? Produtos, dados, infraestrutura, habilidades.
+
+Passo 3, Classifique cada componente no eixo de evolução. É genesis (ainda novo), custom-built (único para nós), product (comprável), ou commodity (utility)?
+
+Passo 4, Analise movimentos. Componentes evoluem da esquerda para direita ao longo do tempo. O que é custom-built hoje será commodity em 5 anos. Planejar essa evolução.
+
+Passo 5, Identifique onde investir custom vs. commodity. Regra: investir pesado em componentes custom quando criam diferenciação, comoditizar tudo mais. Amazon faz isso no extremo (AWS é monetização da comoditização de componentes internos).
+
+Passo 6, Jogue cenários. E se concorrente comoditizar nosso componente custom? E se nova tecnologia acelerar evolução? Wardley usa "climatic patterns", forças inevitáveis de evolução.
+
+##### Exemplo aplicado
+
+Startup de e-commerce para artistas (produtor físico + loja online):
+
+Topo (usuário): artista que quer vender produtos customizados.
+
+Descendo a cadeia:
+
+- Loja online customizada (custom-built → product): Shopify resolve isso bem. Commoditizar via Shopify.
+- Integração com produção sob demanda (custom-built): nossa diferenciação. Investir.
+- Marketplace de produção (fornecedores) (genesis-to-custom): único aspecto novo, próprio.
+- Pagamento (commodity): usar Stripe/Pagar.me, não construir.
+- Infraestrutura cloud (commodity): usar AWS/GCP.
+- Logística (product): terceirizar com Loggi/Correios.
+
+Conclusão estratégica: investir pesado em marketplace de produção, usar componentes comoditizados em tudo mais. Competir em nosso diferencial, não em logística ou pagamento.
+
+##### Erros comuns
+
+Mapear componente errado: classificar como custom-built algo que é commodity no mercado. Investir em reinventar roda. Ignorar evolução temporal: hoje custom, amanhã commodity. Empresa fica presa em custom por anos. Mapa estático: não revisitar. Mapas devem ser refeitos em ciclos de 6-12 meses. Desconexão com estratégia: mapa lindo mas não vira decisão de investimento. Ferramenta exige compromisso em agir sobre ela. Aplicar sem entendimento prévio: Wardley mapping tem curva de aprendizado. Primeiros mapas geralmente são imprecisos. Prática. Só mapear uma vez: sem iteração, ferramenta tem valor limitado.
+
+##### Quando NÃO usar
+
+Early-stage antes de saber qual é o core produto/valor, difícil mapear sem concreção, Quando organização não está disposta a agir sobre resultados, Em indústrias muito estáveis onde evolução é lenta e irrelevante.
+
+##### Leitura adicional
+
+- Wardley, S. (livre na web): *Wardley Maps* (livro open-source em Medium/GitBook).
+- Vídeos da OSCON 2014, 2015 (Wardley apresentando), disponíveis em YouTube.
+- Comunidade wardleymaps.com.
+
+---
+
+#### Framework: Jobs to Be Done Framework (Clayton Christensen, Anthony Ulwick, Bob Moesta)
+
+##### Origem
+
+**Theodore Levitt** articulou a semente em 1960 ("Marketing Myopia"): "pessoas não compram uma furadeira de 1/4 de polegada, compram um furo de 1/4 de polegada na parede". **Anthony Ulwick** (Strategyn) formalizou ODI (Outcome-Driven Innovation) nos anos 1990. **Clayton Christensen** (Harvard) popularizou com "milkshake case study" em *Competing Against Luck* (2016) com Moesta, Dillon, Duncan. **Bob Moesta** desenvolveu o protocolo operacional (Switch Interviews). Hoje JTBD é uma das teorias mais influentes em produto.
+
+##### O que é
+
+Framework analítico completo (não só entrevista como Framework: Jobs to Be Done Switch Interviews (Bob Moesta & Chris Spiek, via Clayton Christensen) (Fase 5)) para **entender o que cliente está "contratando" o produto para fazer**. Foco nos "jobs" (tarefas, progressos, resultados) que cliente quer realizar, não em demografia, persona, ou preferência declarada.
+
+##### Princípios / estrutura
+
+Dimensões de um Job:
+
+1. Functional job: o que cliente quer fazer concretamente (ex.: "pagar fornecedor rapidamente").
+2. Emotional job: como quer se sentir (ex.: "em controle", "sem ansiedade").
+3. Social job: como quer ser percebido (ex.: "empresário organizado").
+
+Circumstâncias: contexto matters. Mesmo cliente tem jobs diferentes em diferentes situações.
+
+Progress: clientes contratam produtos para fazer **progresso** de situação A (dor) para situação B (aspiração).
+
+Competition redefinida: concorrentes são qualquer coisa que cliente considera para fazer o mesmo job, não apenas produtos da mesma categoria. Café pode competir com energético para job "acordar cedo".
+
+##### Como aplicar do jeito certo
+
+Passo 1, Articule jobs em forma padrão: "Quando [situação], quero [motivação], para que [resultado]."
+
+Exemplo: "Quando estou fechando o mês, quero conferir meu fluxo de caixa em segundos, para que eu saia do escritório a tempo de buscar meus filhos."
+
+Passo 2, Identifique jobs via switch interviews (Framework: Jobs to Be Done Switch Interviews (Bob Moesta & Chris Spiek, via Clayton Christensen) (Fase 5)) + observação + análise de concorrência ampla.
+
+Passo 3, Priorize jobs por importância × satisfação**: ODI de Ulwick mede cada outcome em 2 dimensões: importance (1-5) + satisfaction com soluções atuais (1-5). Jobs importantes + insatisfeitos = oportunidade.
+
+Passo 4, Desenhe produto para fazer o job melhor, não apenas adicionar features.
+
+Passo 5, Medir em "jobs made easier", não só "features usadas".
+
+##### Exemplo aplicado
+
+SaaS de gestão financeira, análise JTBD:
+
+Jobs identificados:
+
+Job 1, "Fechar o mês rapidamente" (importância 5/5, satisfação 2/5): OPORTUNIDADE.
+
+- Emotional: "aliviar ansiedade de não saber o resultado".
+- Social: "parecer profissional para contador e sócios".
+
+Job 2, "Entender onde o dinheiro foi" (importância 4/5, satisfação 3/5): oportunidade menor.
+
+Job 3, "Descobrir problema financeiro antes que vire crise" (importância 5/5, satisfação 1/5): GRANDE OPORTUNIDADE.
+
+- Emotional: "sentir que está no controle".
+- Social: "não parecer incompetente perante sócios ou família".
+
+Implicação: produto que **faz Job 3 (alerta proativo de anomalias)** tem mais valor do que Job 1 ou 2 individualmente. Roadmap prioriza anomaly detection, health score proativo, aprendizados preditivos.
+
+Concorrência redefinida: para Job 3, competidor não é só outros SaaS financeiros, é também "contador que telefona em crise", "WhatsApp com sócio". Design do produto considera essas alternativas.
+
+##### Erros comuns
+
+Confundir job com feature desejada: cliente diz "queria um botão X", job não é "botão X", é o que cliente quer realizar com ele. Jobs demográficos: "jobs de PMEs", jobs são universais dentro de situações, ignorar demografia em favor de circumstance. Esquecer dimensões emotional e social: focar só em functional perde motivação mais profunda. Análise por opinião, sem switch interviews: especulação. Job abstrato demais: "crescer o negócio" é job macro, não acionável. Específico: "decidir se devo contratar mais um funcionário este mês".
+
+##### Quando NÃO usar
+
+Quando dados de comportamento real são limitados (JTBD precisa de pesquisa profunda), Produtos novos sem "jobs" claros no mercado, em exploração puramente.
+
+##### Leitura adicional
+
+- Christensen, C., Dillon, K., Hall, T. & Duncan, D. (2016). *Competing Against Luck*. HarperBusiness.
+- Ulwick, A. (2016). *Jobs to Be Done: Theory to Practice*. Idea Bite Press.
+- Moesta, B. (2020). *Demand-Side Sales 101*.
+- Levitt, T. (1960). "Marketing Myopia". *HBR*.
+
+---
+
+#### Framework: Blitzscaling (Reid Hoffman & Chris Yeh, 2018)
+
+##### Origem
+
+Reid Hoffman (co-fundador LinkedIn, sócio Greylock) e Chris Yeh publicaram *Blitzscaling* em 2018, baseado em curso de Stanford ministrado por Hoffman. Conceito formaliza estratégia de **priorizar velocidade sobre eficiência** para capturar mercados "winner-takes-most", comum em tech (LinkedIn, Airbnb, Uber, Facebook).
+
+##### O que é
+
+Estratégia de crescimento que aceita **ineficiências temporárias massivas** (perder dinheiro, ter caos organizacional, contratar rápido demais) para **escalar muito mais rápido que concorrentes** em mercados onde primeiro a grande escala domina.
+
+##### Princípios / estrutura
+
+5 estágios de Blitzscaling (por número de funcionários):
+
+1. Family (1-9): founder-led, tudo manual.
+2. Tribe (10-99): contratação crítica, cultura emerge.
+3. Village (100-999): processos necessários, primeira camada de gestão.
+4. City (1.000-9.999): divisões autônomas, sistemas de escala.
+5. Nation (10.000+): maturidade corporativa, inovação interna.
+
+3 técnicas-chave:
+
+- Aceitar caos: priorizar velocidade vs. perfeição.
+- Contraintuitive moves: tocar "fogo no processo" para liberar velocidade (abolir permissões, desligar features).
+- Gerir rapidamente "demissão de rules": processos que funcionaram em tribo quebram em village, destruir e reinventar.
+
+Condição para usar: mercado com **network effects**, **escala como vantagem**, ou **winner-takes-most dynamics**. Blitzscaling em mercado fragmentado é suicídio.
+
+##### Como aplicar do jeito certo
+
+Passo 1, Validar que mercado suporta blitzscaling (network effects, escala ou switching costs fortes).
+
+Passo 2, Levantar capital suficiente para 24+ meses de queima agressiva.
+
+Passo 3, Contratação velocidade > qualidade individual: em blitzscaling, 70% de hires ok são melhores que 95% de hires perfeitos (velocidade).
+
+Passo 4, Priorizar adoção sobre unit economics: LTV:CAC ruim no curto prazo é aceitável SE loops de network/escala se manifestam.
+
+Passo 5, Gestão de "fires": aceitar débito em compliance, tech, cultura, a pagar depois.
+
+Passo 6, Quando atingir liderança, mudar modo: blitzscaling não é permanente. Fase de consolidação vem depois.
+
+##### Exemplo aplicado
+
+LinkedIn (exemplo icônico de Hoffman):
+
+- 2003-2006: crescimento moderado, validando modelo.
+- 2007-2011: blitzscaling. Contratação agressiva (time cresce 10x), expansão internacional, produtos múltiplos simultâneos, compliance atrasado.
+- 2011: IPO a $9B.
+- 2016: adquirido Microsoft por $26B.
+
+Empresa aceitou caos temporário para capturar posição dominante em social profissional, mercado winner-takes-most.
+
+Caso negativo: startup de e-commerce fragmentado que tentou blitzscale. Queimou $100M, não atingiu escala onde economia muda, faliu. Mercado não suportava.
+
+##### Erros comuns
+
+Blitzscaling em mercado errado: sem network effects ou escala-moat, queima de capital sem retorno. Ignorar unit economics para sempre: blitzscaling compra tempo, eventualmente unit economics têm que fechar. Caos virando cultura permanente: após escala atingida, caos mata. Transição para rigor é crítica. Hires erradas em velocidade extrema: contratar 100/mês sem filtro, vem demissão em massa depois. Sub-capitalização: iniciou blitzscaling sem runway. Demite em 12 meses, arruína credibilidade.
+
+##### Quando NÃO usar
+
+Mercados fragmentados sem winner-takes-most, Bootstrapped ou sem capital de blitzscaling, Empresas em fase de consolidação (pós-liderança de mercado), Cultura fundadora que valoriza rigor sobre velocidade.
+
+##### Leitura adicional
+
+- Hoffman, R. & Yeh, C. (2018). *Blitzscaling*. Currency.
+- Hoffman, R. (podcast "Masters of Scale").
+
+---
+
 ### CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)
 
 #### Canvas: Wardley Map
@@ -1054,7 +1408,7 @@ Em decisões táticas de sprint ou trimestre — o eixo evolutivo opera em janel
 
 ##### Conexão com outros canvases
 
-O Wardley Map **complementa o Strategy Canvas (Fase 6, Vol. 2)** — o Strategy Canvas mostra onde competir em dimensões do mercado; o Wardley Map mostra como a tecnologia e os componentes evoluem. **Alimenta decisões de make/buy/partner no Capítulo 7 (Vol. 3) (PLATAFORMA VS PRODUTO: QUANDO CONSTRUIR PLATAFORMA E QUANDO NÃO)** (Plataforma vs. Produto) e no [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 4 — ENGINEERING MANAGEMENT: GESTÃO DO TIME TÉCNICO E DEVELOPER EXPERIENCE|Capítulo 4 — Engineering Management (Vol. 7)]].
+O Wardley Map **complementa o Strategy Canvas (Fase 19)** — o Strategy Canvas mostra onde competir em dimensões do mercado; o Wardley Map mostra como a tecnologia e os componentes evoluem. **Alimenta decisões de make/buy/partner no Capítulo 7 (Vol. 3) (PLATAFORMA VS PRODUTO: QUANDO CONSTRUIR PLATAFORMA E QUANDO NÃO)** (Plataforma vs. Produto) e no [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 4 — ENGINEERING MANAGEMENT: GESTÃO DO TIME TÉCNICO E DEVELOPER EXPERIENCE|Capítulo 4 — Engineering Management (Vol. 7)]].
 
 ##### Leitura adicional
 
@@ -1062,6 +1416,112 @@ O Wardley Map **complementa o Strategy Canvas (Fase 6, Vol. 2)** — o Strategy 
 - *Team Topologies* (Skelton & Pais, 2019) — estrutura organizacional alinhada à topologia do sistema.
 - [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 7 — PLATAFORMA VS PRODUTO: QUANDO CONSTRUIR PLATAFORMA E QUANDO NÃO|Capítulo 7 — Plataforma vs. Produto (Vol. 3)]].
 - Ferramenta online: onlinewardleymaps.com
+
+---
+
+#### Canvas: Strategy Canvas (W. Chan Kim & Renée Mauborgne, 2005)
+
+##### Origem
+
+W. Chan Kim e Renée Mauborgne, professores do INSEAD, publicaram *Blue Ocean Strategy* em 2005 após quinze anos de pesquisa empírica analisando 150 movimentos estratégicos em 30 indústrias ao longo de cem anos. A tese central é que **competir em mercado saturado (red ocean) é destrutivo, e criar novo espaço de mercado (blue ocean) é a estratégia vencedora**. O Strategy Canvas é a ferramenta visual central do framework — gráfico que compara curvas de valor de concorrentes para revelar onde existe espaço de diferenciação real, em vez da disputa palmo-a-palmo nas mesmas dimensões. O livro vendeu mais de quatro milhões de cópias e o Strategy Canvas virou referência em planejamento estratégico, embora tenha sido subutilizado em startup brasileira (frequentemente substituído por Porter's Five Forces ou matriz BCG, que são ferramentas distintas).
+
+##### O que é
+
+Gráfico de duas dimensões. **Eixo X**: fatores de competição relevantes no setor (tipicamente 8-15 fatores listados horizontalmente). **Eixo Y**: nível de oferta de cada fator, em escala de baixo a alto. Para cada concorrente (incluindo você), traça-se uma **curva de valor** — uma linha que conecta os pontos representando quanto desse concorrente oferece em cada fator.
+
+```mermaid
+xychart-beta
+    title "Strategy Canvas — exemplo Cirque du Soleil"
+    x-axis "Fatores de competição" ["Preço", "Estrelas", "Animais", "Múltiplas-arenas", "Risco-físico", "Tema", "Refinamento", "Música-teatro", "Atmosfera"]
+    y-axis "Nível de oferta" 0 --> 10
+    line [3, 8, 9, 9, 7, 1, 1, 1, 2]
+    line [9, 1, 0, 0, 5, 9, 9, 9, 9]
+```
+
+A linha superior representa o circo tradicional (Ringling, Barnum & Bailey): alto em estrelas, animais, múltiplas arenas, risco. A linha inferior representa o Cirque du Soleil: alto em tema, refinamento, música/teatro, atmosfera; baixo em estrelas e animais. Onde as curvas divergem dramaticamente, há diferenciação. Onde se sobrepõem, há comoditização.
+
+A análise associada é o **ERRC Grid** — quatro decisões estratégicas para mover a curva:
+
+- **Eliminate**: que fatores que o setor compete podem ser totalmente eliminados?
+- **Reduce**: que fatores podem ser reduzidos abaixo do padrão do setor?
+- **Raise**: que fatores devem ser elevados acima do padrão?
+- **Create**: que fatores nunca oferecidos pelo setor podem ser criados?
+
+##### Quando usar
+
+Use o Strategy Canvas na Fase 5 (mapeamento de mercado e concorrência) quando o setor parece saturado e você precisa decidir como diferenciar. Também use a cada 18-24 meses como check-up estratégico — concorrência se aproxima da sua curva ao longo do tempo, e o Strategy Canvas revela quando a diferenciação está erodindo. Use também em Fase 15 (reinvenção) quando considerar segunda curva.
+
+##### Princípios
+
+A tese de Kim e Mauborgne é que **competição direta é desperdício de capital**. Se duas empresas oferecem o mesmo conjunto de fatores em níveis ligeiramente diferentes, elas brigam por margem cada vez menor. A saída é **mudar o jogo**, não jogar melhor o mesmo jogo. Para isso, é preciso mapear honestamente o que o setor compete (a maioria não articula explicitamente) e identificar onde você pode oferecer perfil radicalmente distinto. **Diferenciação + Custo Baixo simultâneos** é possível quando você elimina/reduz fatores caros e cria fatores baratos mas valiosos.
+
+##### Como aplicar
+
+**Etapa 1 — Mapear o setor atual.** Liste os 8-15 fatores em que os concorrentes competem. Pergunte: o que o cliente compara antes de comprar? O que aparece nas propagandas? O que aparece nas reviews? Tipicamente: preço, qualidade, marca, conveniência, suporte, customização, velocidade, escala. Seja específico ao seu setor.
+
+**Etapa 2 — Traçar curvas dos concorrentes.** Para cada concorrente principal (3-5), atribua nota 1-10 em cada fator e desenhe a linha. Use dados reais (preço de tabela, NPS, share, reviews) quando disponível.
+
+**Etapa 3 — Aplicar ERRC Grid.** Para cada fator, decida: eliminar, reduzir, elevar, criar. Articule por que (qual job-to-be-done deixa de ser servido vs qual passa a ser).
+
+**Etapa 4 — Traçar a curva nova.** A sua curva deve ser **visualmente distinta** das curvas dos concorrentes. Se ela sobrepõe a média do setor com pequeno offset, não é Blue Ocean — é apenas otimização de Red Ocean.
+
+**Etapa 5 — Validar com cliente.** Mostre as curvas para clientes-alvo. Pergunte: "Se essas duas opções existissem, qual escolheria? Por quê?". Se a resposta é "depende", a diferenciação não é forte o suficiente.
+
+Tempo: 4-8 horas para a primeira versão (exige pesquisa de campo dos concorrentes). Revisar a cada 12-18 meses.
+
+##### Exemplo brasileiro preenchido — Stone vs adquirentes tradicionais (2014)
+
+Em 2014, o setor brasileiro de adquirência (Cielo, Rede, Stone nascente) competia em fatores tipicamente bancários: preço de MDR (taxa por transação), aluguel de máquina, prazo de antecipação, marca, capilaridade. Stone construiu sua curva de valor diferente:
+
+| Fator | Cielo / Rede (média do setor) | Stone (entrante 2014) | Decisão ERRC |
+|---|---|---|---|
+| MDR (taxa) | 3-4% | 2-3% | Reduce |
+| Aluguel da máquina | R$ 50-100/mês | R$ 0 (subsidiado) | Reduce |
+| Prazo de antecipação | 30-60 dias | 1 dia (D+1) | Raise |
+| Atendimento ao lojista | Call center distante, demora dias | "Ponto-de-Atenção" — humano dedicado, resposta em horas | Raise |
+| Capilaridade física | Alta (rede bancária) | Baixa (foco digital) | Reduce |
+| Hardware proprietário | Padrão setor (Verifone) | Stone Box (proprietário) | Create |
+| Software de gestão integrada | Pouco | Stone Hub (PDV + gestão) | Create |
+| Marca corporativa-bancária | Alta | Baixa (mas crescente) | Reduce |
+
+```mermaid
+xychart-beta
+    title "Strategy Canvas — Stone vs adquirentes tradicionais (2014)"
+    x-axis "Fatores" ["MDR-baixo", "Aluguel-zero", "Antecip-rápida", "Atendimento", "Capilaridade", "Hardware-próprio", "Software-PDV", "Marca-banco"]
+    y-axis "Nível de oferta" 0 --> 10
+    line [3, 2, 4, 3, 9, 2, 2, 9]
+    line [8, 9, 9, 9, 4, 9, 9, 4]
+```
+
+**Insight do caso.** Stone não venceu fazendo o que Cielo fazia mais barato. Venceu **mudando o que o setor competia**: criou Atendimento Diferenciado (Ponto-de-Atenção, não call center), criou hardware/software próprios para lojistas pequenos (não comprou da Verifone), reduziu o aluguel a zero, antecipou pagamento. O resultado foi uma curva visualmente distinta — comprador de Stone NÃO via Stone como "Cielo mais barata", via como **adquirente diferente**. Isso é Blue Ocean: a Stone não tirava clientes da Cielo apenas via preço, abria mercado novo (lojistas pequenos antes desatendidos pela burocracia bancária). O IPO em 2018 (NASDAQ, valuation US$ 7+ bilhões) validou a aposta.
+
+##### Variações e extensões
+
+- **Pioneer-Migrator-Settler Map**: classifica produtos do portfólio em pioneiros (alta diferenciação, alta margem), migradores (alguma diferenciação) e colonos (commodity). Útil para gestão de portfólio.
+- **Six Paths Framework**: seis lentes para identificar Blue Ocean (indústria alternativa, grupos estratégicos, cadeia de compradores, oferta complementar, apelo emocional vs funcional, tendências de tempo).
+- **Buyer Utility Map**: cruza ciclo de uso do cliente com seis utilidades (produtividade, simplicidade, conveniência, risco, diversão, sustentabilidade).
+
+##### Erros comuns
+
+- Listar fatores genéricos (preço, qualidade) em vez de fatores específicos do setor.
+- Curva nova "ligeiramente acima" da média do setor — isso é otimização, não Blue Ocean.
+- Eliminar/reduzir fatores que clientes ainda valorizam — pesquisar antes, não decidir no escritório.
+- Confundir Strategy Canvas com posicionamento de marketing — é estratégia operacional (o que construir), não slogan.
+- Não validar a curva nova com cliente antes de comprometer recursos — Blue Ocean teórico que ninguém prefere é apenas oceano vazio.
+
+##### Quando NÃO usar
+
+Em setores muito regulados onde os fatores de competição são fixados por norma (não há liberdade de Eliminar/Reduzir/Raise/Create). Em commoditização extrema onde o cliente realmente só compara preço. Em produtos B2B muito customizados onde cada deal tem fatores distintos — Strategy Canvas pressupõe oferta padronizada.
+
+##### Conexão com outros canvases
+
+O Strategy Canvas **complementa** o BMC (Fase 2): o BMC olha para dentro (modelo), o Strategy Canvas olha para fora (concorrência). **Pareia com o Canvas da Cunha (Fase 6)**: a Cunha define o nicho de entrada; o Strategy Canvas define a curva de valor distinta nesse nicho. **Sucede o VPC (Fase 5)**: depois de entender Pains e Gains do cliente, o Strategy Canvas decide quais Pain Relievers/Gain Creators construir vs eliminar.
+
+##### Leitura adicional
+
+- *Blue Ocean Strategy* (W. Chan Kim & Renée Mauborgne, 2005).
+- *Blue Ocean Shift* (Kim & Mauborgne, 2017) — versão com playbook executivo mais detalhado.
+- [blueoceanstrategy.com](https://www.blueoceanstrategy.com) — biblioteca de cases e ferramentas.
 
 ---
 
@@ -1139,7 +1599,7 @@ flowchart TD
 > Nenhum tipo de exit é "melhor" em abstrato. O melhor é aquele que combina: sinais de mercado favoráveis (múltiplos altos), empresa preparada (data room, métricas auditáveis), e fundador com clareza sobre o próximo capítulo. Quando os três se alinham, exit flui. Quando um está fora, você negocia em desvantagem.
 
 > [!tip] Storytelling Canvas para a narrativa do exit
-> M&A estratégico, IPO e pitch de secondary são, antes de tudo, narrativas. Use o [[IGNICAO-Vol-5-Financas-e-Captacao#Canvas: Storytelling Canvas|Canvas: Storytelling Canvas (Vol. 5)]] para construir a narrativa antes de abrir o data room ou montar o deck. Blocos críticos neste contexto: **Herói** (o comprador/investidor, não você — o que *eles* ganham?), **Mundo depois** (como a aquisição/IPO muda o portfólio ou tese do investidor), **Evidências** (métricas auditáveis do Pirate Canvas / AARRR, NRR, LTV/CAC). O caso Omie em Canvas: Storytelling Canvas (Fase 14, Vol. 5) ilustra como colocar o contador (intermediário de canal) como herói — e não o dono de PME nem a Omie — produziu uma narrativa que ativou simultaneamente investidores e canal de distribuição.
+> M&A estratégico, IPO e pitch de secondary são, antes de tudo, narrativas. Use o [[#Canvas: Storytelling Canvas|Canvas: Storytelling Canvas]] para construir a narrativa antes de abrir o data room ou montar o deck. Blocos críticos neste contexto: **Herói** (o comprador/investidor, não você — o que *eles* ganham?), **Mundo depois** (como a aquisição/IPO muda o portfólio ou tese do investidor), **Evidências** (métricas auditáveis do Pirate Canvas / AARRR, NRR, LTV/CAC). O caso Omie em Canvas: Storytelling Canvas (Fase 20) ilustra como colocar o contador (intermediário de canal) como herói — e não o dono de PME nem a Omie — produziu uma narrativa que ativou simultaneamente investidores e canal de distribuição.
 
 #### Passo 1, mapeie os 5 tipos principais de exit
 
@@ -1196,8 +1656,8 @@ Empresa preparada para exit vale vinte a quarenta por cento mais que empresa em 
 > [!tip] Capítulo 7 (Vol. 5) — Valuation Methods
 > DCF, comparáveis de mercado, precedent transactions e regras de múltiplo por setor: como calcular o valuation interno antes de sentar com um comprador, e como interpretar a divergência entre valuation interno e proposta do adquirente.
 
-> [!tip] Canvases Visuais — Capital Stack / Waterfall em exit (Fase 14, Vol. 5)
-> Em exit (M&A ou IPO), os proceeds não são divididos pro-rata — passam pelo waterfall do [[IGNICAO-Vol-5-Financas-e-Captacao#Canvas: Capital Stack / Waterfall Canvas|Canvas: Capital Stack / Waterfall Canvas (Vol. 5)]]: liquidation preferences (1x ou 2x preferred), participation, conversion, ESOP exercise. Fundadores que não modelam o waterfall ANTES de assinar term sheet descobrem em closing que ficaram com fração menor do que esperavam (ex.: liquidation preference 2x participating em rodada de R$ 100M força investidor a receber R$ 200M antes de qualquer split — e em valuations de exit modestos, fundador zera). Use o canvas para simular cenários de exit em diferentes valuations (alto, médio, baixo) ainda dois ou três anos antes da venda.
+> [!tip] Canvases Visuais — Capital Stack / Waterfall em exit (Fase 20)
+> Em exit (M&A ou IPO), os proceeds não são divididos pro-rata — passam pelo waterfall do [[#Canvas: Capital Stack / Waterfall Canvas|Canvas: Capital Stack / Waterfall Canvas]]: liquidation preferences (1x ou 2x preferred), participation, conversion, ESOP exercise. Fundadores que não modelam o waterfall ANTES de assinar term sheet descobrem em closing que ficaram com fração menor do que esperavam (ex.: liquidation preference 2x participating em rodada de R$ 100M força investidor a receber R$ 200M antes de qualquer split — e em valuations de exit modestos, fundador zera). Use o canvas para simular cenários de exit em diferentes valuations (alto, médio, baixo) ainda dois ou três anos antes da venda.
 
 Contrate auditoria externa das demonstrações dos últimos três anos. Garanta que DRE, balanço e fluxo de caixa estejam limpos e defendíveis. Organize o cap table (tabela de capitalização — registro de quem tem quanto da empresa) sem zonas cinzentas. Documente contratos materiais. Prepare projeções financeiras de três a cinco anos com premissas claras.
 
@@ -1539,18 +1999,18 @@ Due diligence superficial do comprador. Você está comprando-o também, especia
 
 ### FERRAMENTAS DESTA FASE
 
-Quatro essenciais para a fase. Canvases complementares: Canvas: Storytelling Canvas (Fase 14, Vol. 5) e Canvas: Capital Stack / Waterfall Canvas (Fase 14, Vol. 5).
+Quatro essenciais para a fase. Canvases complementares: [[#Canvas: Storytelling Canvas|Canvas: Storytelling Canvas]] e [[#Canvas: Capital Stack / Waterfall Canvas|Canvas: Capital Stack / Waterfall Canvas]].
 
-**Essenciais para a Fase 16:**
+**Essenciais para a Fase 20:**
 
-- **Comparable Company Analysis e Precedent Transactions** (Framework: Comparable Company Analysis / Precedent Transactions (Fase 14, Vol. 5)) — múltiplos de empresas similares públicas ou M&A recentes (EV/Revenue, EV/EBITDA). Em triangulação com DCF, é o que sustenta valuation em negociação real.
-- **Harvard Negotiation, BATNA e ZOPA** (Fisher e Ury, 1981) — separa pessoas de problemas, foca em interesses. BATNA = melhor alternativa caso o acordo não feche (em M&A, continuar o negócio ou outras ofertas). Essencial em term sheet. Framework: Harvard Negotiation / BATNA & ZOPA (Roger Fisher & William Ury, 1981) (Cap. 11, Vol. 4).
-- **Pre-mortem** (Klein, 2007) — imaginar que o deal fracassou e trabalhar de trás para frente. Revela riscos de integração, earnout e retenção antes de assinar. Framework: Pre-mortem (Gary Klein, 2007) (Fase 0, Vol. 1).
-- **Unit Economics e Rule of 40** (Framework: Unit Economics (Fase 14, Vol. 5)) — sinais de saúde que o comprador analisa. Acima dos benchmarks = múltiplo maior.
+- **Comparable Company Analysis e Precedent Transactions** ([[#Framework: Comparable Company Analysis / Precedent Transactions|Framework: Comparable Company Analysis / Precedent Transactions]]) — múltiplos de empresas similares públicas ou M&A recentes (EV/Revenue, EV/EBITDA). Em triangulação com DCF, é o que sustenta valuation em negociação real.
+- **Harvard Negotiation, BATNA e ZOPA** (Fisher e Ury, 1981) — separa pessoas de problemas, foca em interesses. BATNA = melhor alternativa caso o acordo não feche (em M&A, continuar o negócio ou outras ofertas). Essencial em term sheet. [[#Framework: Harvard Negotiation / BATNA & ZOPA (Roger Fisher & William Ury, 1981)|Framework: Harvard Negotiation / BATNA & ZOPA (Roger Fisher & William Ury, 1981)]].
+- **Pre-mortem** (Klein, 2007) — imaginar que o deal fracassou e trabalhar de trás para frente. Revela riscos de integração, earnout e retenção antes de assinar. [[#Framework: Pre-mortem (Gary Klein, 2007)|Framework: Pre-mortem (Gary Klein, 2007)]].
+- **Unit Economics e Rule of 40** ([[#Framework: Unit Economics|Framework: Unit Economics]], [[#Framework: Rule of 40 (Brad Feld / SaaS community)|Framework: Rule of 40 (Brad Feld / SaaS community)]]) — sinais de saúde que o comprador analisa. Acima dos benchmarks = múltiplo maior.
 
 **Complementares (consulte conforme o caso):**
 
-- DCF (Discounted Cash Flow, padrão em corporate finance), Never Split the Difference (Voss, empatia tática para motivações reais do comprador), Ackerman Method (contra-propostas em escada com extras não-monetários), Getting Past No (Ury, para impasses), Expected Value e Bayesian Thinking (aceitar oferta vs continuar crescendo), Cost-Benefit Analysis (NPV de opções), Red Team/Blue Team (contestar valuation antes de assinar), Pyramid Principle (Minto, para teaser, memorandum, management presentations), Positioning (Ries/Trout, categoria como múltiplo prêmio). Detalhamento em Framework: Pyramid Principle (Barbara Minto, 1985) (Fase 2, Vol. 1) a Framework: Discounted Cash Flow (DCF) (Fase 14, Vol. 5).
+- DCF (Discounted Cash Flow, padrão em corporate finance), Never Split the Difference (Voss, empatia tática para motivações reais do comprador), Ackerman Method (contra-propostas em escada com extras não-monetários), Getting Past No (Ury, para impasses), Expected Value e Bayesian Thinking (aceitar oferta vs continuar crescendo), Cost-Benefit Analysis (NPV de opções), Red Team/Blue Team (contestar valuation antes de assinar), Pyramid Principle (Minto, para teaser, memorandum, management presentations), Positioning (Ries/Trout, categoria como múltiplo prêmio). Detalhamento passo a passo na subseção **[[#MANUAL PASSO A PASSO DOS FRAMEWORKS DESTA FASE|Manual Passo a Passo dos Frameworks desta Fase]]** logo a seguir.4 a [[#Framework: Discounted Cash Flow (DCF)|Framework: Discounted Cash Flow (DCF)]].
 
 ---
 
@@ -1568,6 +2028,841 @@ Quatro essenciais para a fase. Canvases complementares: Canvas: Storytelling Can
 | Tax structuring implementado | Estrutura tributária preparada | Sim, ≥ 2 anos antes |
 | Acordo de sócios robusto | Drag-along, tag-along, protections | Sim |
 | Tempo de preparação | Meses antes do processo formal | ≥ 18 meses |
+
+---
+
+### MANUAL PASSO A PASSO DOS FRAMEWORKS DESTA FASE
+
+> [!tip] Uso autocontido neste volume
+> Todos os frameworks abaixo estão detalhados integralmente com origem, estrutura, passo a passo de aplicação, exemplo brasileiro e armadilhas para execução imediata nesta **Fase 20**.
+
+#### Framework: Comparable Company Analysis / Precedent Transactions
+
+##### Origem
+
+Método de valuation consagrado em investment banking e M&A. Usado há décadas, texto referência: Rosenbaum & Pearl, *Investment Banking* (atualizado).
+
+##### O que é
+
+Valuation baseado em **múltiplos** de empresas comparáveis:
+
+- Comparable Company (public companies com atividade similar): EV/Revenue, EV/EBITDA, P/E.
+- Precedent Transactions (M&A recentes): múltiplos pagos em transações similares.
+
+##### Múltiplos típicos SaaS
+
+- EV/Revenue (ARR): 5-15x em SaaS crescendo. Em mercados otimistas (2020-2021): 25-50x. Em mercados deprimidos (2022-2023): 4-8x.
+- EV/EBITDA: 15-30x para empresas lucrativas.
+- Rule of 40 adjusted: empresas com Rule of 40 alto ganham prêmio.
+
+##### Como aplicar
+
+Passo 1, Seleção de comparáveis: empresas similares em setor, tamanho, growth, geografia.
+
+Passo 2, Cálculo de múltiplos de cada comparável.
+
+Passo 3, Estatísticas: média, mediana, range.
+
+Passo 4, Aplicar ao alvo: target's revenue × múltiplo mediano = valor implícito.
+
+Passo 5, Ajustar por especificidades: discount/premium por size, growth, profitability.
+
+##### Exemplo aplicado
+
+Valuation de SaaS B2B brasileiro com R$ 30M ARR, crescendo 60% a.a.:
+
+Comparáveis públicos (ajustados para BR):
+
+- Empresa A: 8x ARR.
+- Empresa B: 12x ARR.
+- Empresa C: 10x ARR.
+- Empresa D: 6x ARR.
+
+Mediana: 9x. Para empresa crescendo 60% (acima da média dos comparáveis), prêmio modesto.
+
+Valuation implícito: R$ 30M × 10x = **R$ 300M** (range R$ 270-360M).
+
+Precedent transactions: busca M&A de SaaS similares nos últimos 24 meses. Múltiplos pagos variam.
+
+Valuation final: triangulação. Ex.: R$ 280-340M.
+
+##### Erros comuns
+
+Comparáveis não comparáveis: comparar SaaS B2B enterprise com SaaS consumer distorce, Ignorar ciclo de mercado: múltiplos variam 3-5x com ciclo (2021 hot → 2023 cold), Cherry-picking: escolher só comparáveis altos.
+
+##### Leitura adicional
+
+- Rosenbaum, J. & Pearl, J. *Investment Banking: Valuation, Leveraged Buyouts, and Mergers & Acquisitions*. Wiley.
+
+---
+
+#### Framework: Discounted Cash Flow (DCF)
+
+##### Origem
+
+DCF tem raízes em trabalhos de **John Burr Williams** (*The Theory of Investment Value*, 1938) e **Irving Fisher**. Consolidou-se como método de valuation em finanças corporativas ao longo do séc. XX. Texto clássico: McKinsey's *Valuation* (Koller, Goedhart, Wessels, atualizado periodicamente).
+
+##### O que é
+
+Método de valuation que calcula **valor presente de fluxos de caixa futuros esperados**, descontando pelo custo de capital (WACC).
+
+##### Princípios / estrutura
+
+Fórmula básica:
+Valor = Σ (FCFt / (1+r)^t) + Terminal Value
+
+Onde:
+
+- FCFt = free cash flow no ano t.
+- r = taxa de desconto (custo de capital).
+- Terminal Value = valor dos fluxos após projeção explícita (geralmente 5-10 anos).
+
+Terminal Value típico: Gordon Growth, FCF_(n+1) / (r - g), onde g = growth rate perpétuo.
+
+##### Como aplicar
+
+Passo 1, Projete FCF para 5-10 anos: receita, COGS, OpEx, CapEx, taxes, working capital changes.
+
+Passo 2, Calcule WACC: custo de dívida + custo de equity ponderados.
+
+Passo 3, Desconte FCFs a valor presente.
+
+Passo 4, Calcule Terminal Value.
+
+Passo 5, Some. Ajuste por net debt.
+
+##### Limitações em startups
+
+DCF é **ruim para early-stage startups** porque:
+
+- FCF negativo por anos, projeções são ficção.
+- Growth rates imprevisíveis.
+- WACC difícil de estimar.
+
+Pre-revenue startups usam **Comparable Company Analysis** (Framework: Comparable Company Analysis / Precedent Transactions (Fase 20)) ou **método de Berkus** (ajustes qualitativos).
+
+##### Erros comuns
+
+Projeções otimistas: todas crescem 50% a.a, WACC subestimado: risco real é alto em startup, Terminal Value dominando valuation: Terminal > 60% do valor = perigoso, DCF em startup pre-revenue: método errado.
+
+##### Leitura adicional
+
+- Koller, Goedhart & Wessels. *Valuation: Measuring and Managing the Value of Companies*. Wiley.
+- Damodaran, A. (damodaran.com, recursos gratuitos).
+
+---
+
+#### Framework: Harvard Negotiation / BATNA & ZOPA (Roger Fisher & William Ury, 1981)
+
+##### Origem
+
+Roger Fisher e William Ury, fundadores do Harvard Negotiation Project, publicaram *Getting to Yes* em 1981, livro mais vendido da história em negociação (15M+ cópias). Pesquisa baseada em décadas de negociações internacionais reais, incluindo Camp David Accords (1978). Virou método-padrão ensinado em Harvard Law School e escolas de negócio globalmente.
+
+##### O que é
+
+Framework de **principled negotiation** (negociação por princípios) que se opõe a "hard bargaining" (posicional) e "soft" (concessivo). Foca em **interesses**, não **posições**, busca **mutual gain** em vez de "win-lose".
+
+##### Princípios / estrutura — 4 princípios
+
+1. Separe as pessoas do problema: emoções e relacionamento não devem distorcer análise.
+2. Foque em interesses, não posições: posição é "quero X", interesse é "por que quero X". Interesses frequentemente são compatíveis mesmo quando posições parecem opostas.
+3. Invente opções de ganho mútuo: antes de decidir, gerar alternativas.
+4. Insista em critérios objetivos: legitimar decisões via padrões independentes (mercado, precedente, expertise).
+
+Conceitos-chave:
+
+- BATNA (Best Alternative to a Negotiated Agreement): o que você faz se a negociação fracassar? BATNA forte = alavanca forte.
+
+- ZOPA (Zone of Possible Agreement): range entre o mínimo aceitável de A e o máximo aceitável de B. Se existe, deal é possível. Se não, não é.
+
+- Reservation value: ponto em que "sair" é melhor que "fechar".
+
+##### Como aplicar do jeito certo
+
+Passo 1, Prepare (70% do resultado depende de preparação):
+
+- Seu BATNA.
+- BATNA estimado do outro.
+- Seus interesses (não só posições).
+- Interesses esperados do outro.
+- Critérios objetivos aplicáveis.
+
+Passo 2, Na mesa, explore interesses antes de apresentar posições.
+
+Passo 3, Brainstorming conjunto: "antes de decidir, que opções existem?"
+
+Passo 4, Critérios objetivos: "mercado paga X para essa role, vamos usar isso como base".
+
+Passo 5, Teste deal contra BATNA: se deal oferecido é pior que BATNA, recuse.
+
+##### Exemplo aplicado
+
+Negociação de aquisição de startup:
+
+- Fundador BATNA: continuar crescendo empresa (valor esperado R$ 80M em 3 anos, probabilidade 60%).
+- Comprador BATNA: construir internamente (custo R$ 30M + 2 anos).
+- Posição inicial fundador: R$ 100M agora.
+- Posição inicial comprador: R$ 50M.
+
+Parece impasse. Mas explorando **interesses**:
+
+- Fundador quer: liquidez pessoal + continuar dirigindo por 3 anos + proteção para time.
+- Comprador quer: tecnologia + time + velocidade (não quer construir).
+
+Opções criativas: R$ 60M upfront + R$ 30M earn-out atrelado a métricas + equity retention em NewCo + retention bonuses para time.
+
+ZOPA existe, apenas não era visível só via posições.
+
+Critério objetivo: múltiplo de ARR em deals comparáveis = 5-8x, empresa tem R$ 12M ARR, range saudável = R$ 60-96M. Legitima conversa.
+
+Deal fecha a R$ 75M total package.
+
+##### Erros comuns
+
+Negociar sem BATNA claro: você não sabe quando sair, pode aceitar deal ruim, Fixar em posições: "eu quero $100M" sem flexibilidade, outro também fixa, impasse, Confundir interesses com posições: negociador experiente extrai interesses do outro, Pressão para fechar: decisão emocional "no momento". Pausar é sempre direito, Sem critérios objetivos: vira disputa de vontades, outro lado cede menos.
+
+##### Quando NÃO usar
+
+Negociações ultra-adversariais onde outra parte não joga por princípios, Transações puramente commodity onde não há interesses complexos.
+
+##### Leitura adicional
+
+- Fisher, R. & Ury, W. (1981, rev. 2011). *Getting to Yes*. Penguin.
+- Ury, W. (2007). *Getting Past No*. Bantam (para negociações difíceis).
+- Harvard Negotiation Project (pon.harvard.edu).
+
+---
+
+#### Framework: Pre-mortem (Gary Klein, 2007)
+
+##### Origem
+
+Gary Klein, psicólogo pesquisador de decisão em ambientes complexos (recipient da APA Award for Outstanding Lifetime Contributions to Applied Psychology), publicou "Performing a Project Pre-mortem" na HBR em 2007. Baseado em décadas de pesquisa em decisão militar e de emergência. Inverte post-mortem (aprender após fracasso) para **aprender antes**.
+
+##### O que é
+
+Exercício estruturado onde time **imagina que projeto/decisão fracassou** e analisa retrospectivamente por que falhou, **antes** do projeto começar. Revela riscos e premissas frágeis que excesso de otimismo do planejamento esconde.
+
+##### Princípios / estrutura
+
+Base psicológica: "prospective hindsight" (pesquisa de Mitchell et al., 1989), imaginar fracasso aumenta em 30% a identificação de riscos comparado a "listar riscos".
+
+Processo simples:
+
+1. Após plano estar fechado (mas antes de execução), reunir time.
+2. Exercício: "imagine que estamos 1 ano no futuro. O projeto fracassou totalmente. Por que aconteceu?"
+3. Cada membro escreve individualmente (5-10 min) razões plausíveis.
+4. Compartilhar e discutir.
+5. Identificar riscos mitigáveis, ajustar plano.
+
+##### Como aplicar do jeito certo
+
+Passo 1, Após plano existir. Fazer pre-mortem antes de existir plano gera lista teórica sem tração.
+
+Passo 2, Escrita individual primeiro. Se começa em discussão, primeiros a falar ancoram os outros. Escrita individual gera diversidade.
+
+Passo 3, Gerar riscos especificamente, não genericamente. "Faltou capital" é genérico, "não captamos a Série A em Q3/2026 porque mercado de venture esfriou + nossos números de retenção caíram no Q2" é específico.
+
+Passo 4, Categorizar riscos. Externos vs. internos, controláveis vs. incontroláveis, altos vs. baixos impacto.
+
+Passo 5, Mitigar controláveis. Para cada risco alto + controlável, o que fazemos para reduzir probabilidade?
+
+Passo 6, Monitorar incontroláveis. Os que não controla, mas pode antecipar, entram em radar com triggers.
+
+##### Exemplo aplicado
+
+Pre-mortem antes de iniciar expansão para México:
+
+Cada membro escreve por que expansão fracassou em 12 meses:
+
+- Não conseguimos contratar Country Manager adequado.
+- Produto não se adaptou a CFDI (regulação fiscal mexicana).
+- Competição local (Clip, Kueski) é mais forte que imaginamos.
+- Dedicamos muito tempo de engineering, atrasando roadmap do BR.
+- Real desvalorizou, custo operacional ficou insustentável.
+- Cultura organizacional não suportou diferença geográfica.
+- Canal de aquisição (que funcionou no BR) não funcionou no México.
+- Parceria estratégica não se materializou como esperado.
+
+Análise: 4 riscos são controláveis (contratação, produto, dedicação de eng, canal), 4 são externos mas mitigáveis (competição, câmbio, cultura, parceria).
+
+Ajustes no plano: contratar Country Manager antes de anunciar expansão, alocar time dedicado, não emprestado do BR, pilot de 3 meses com canal local antes de investimento pesado.
+
+##### Erros comuns
+
+Feito depois que projeto começou: perde valor preventivo, vira check-the-box. Discussão aberta sem escrita individual: primeiros a falar influenciam. Diversidade perdida. Otimismo "performativo": time escreve "talvez algo desse errado", sem comprometimento com riscos reais. Cultura tem que aceitar crítica. Mitigar tudo: nem todo risco é mitigável com custo aceitável. Alguns são "aceitáveis". Esquecer do pre-mortem: documentar, mas não voltar a consultar. Sem revisão, exercício é wasted.
+
+##### Quando NÃO usar
+
+Projetos triviais, overkill, Em urgência extrema, decisão precisa ser rápida, Em cultura de punição, riscos identificados viram "você falhou em prever".
+
+##### Leitura adicional
+
+- Klein, G. (2007). "Performing a Project Pre-mortem". *HBR*, September.
+- Klein, G. (1998). *Sources of Power: How People Make Decisions*. MIT Press.
+- Kahneman, D. (2011). *Thinking, Fast and Slow*, discute prospective hindsight.
+
+---
+
+#### Framework: Unit Economics
+
+##### Origem
+
+Conceito vindo de economia clássica (análise de custo marginal/receita marginal), popularizado em startups nos anos 2010 via SaaS analysts (David Skok, Tomasz Tunguz, Bill Gurley). Hoje é vocabulário universal em VC e startup finance.
+
+##### O que é
+
+Análise da **rentabilidade de um único cliente** ao longo de sua vida com a empresa. Se unit economics negativas, empresa perde dinheiro a cada cliente, crescer acelera falência. Se positivas, empresa ganha com escala.
+
+##### Princípios / estrutura
+
+Componentes essenciais:
+
+- CAC (Customer Acquisition Cost): total de sales + marketing ÷ novos clientes. Fully-loaded (incluindo salários de sales).
+
+- LTV (Lifetime Value): receita líquida total esperada de um cliente durante sua vida.
+
+Fórmulas básicas LTV para SaaS:
+
+- LTV simples = ARPU × Gross Margin × (1 / Monthly Churn).
+- LTV sofisticado considera expansion e decline.
+
+- Payback period: meses até recuperar CAC. Padrão saudável: < 12 meses, ideal < 6.
+
+- Contribution margin: gross margin - CAC allocation.
+
+##### Benchmarks (SaaS B2B)
+
+- LTV:CAC: saudável 3:1+, excelente 5:1+, problemático < 1.5:1.
+- Payback < 12 meses: saudável para growth stage.
+- Gross margin > 70%: padrão SaaS.
+- Burn Multiple (ver Framework: Burn Multiple (David Sacks, 2020) (Fase 14)) < 1: elite.
+
+##### Como aplicar
+
+Passo 1, Instrumente métricas em seu sistema (CRM + billing + marketing).
+
+Passo 2, Segmente por canal, vertical, tamanho. Unit economics blended escondem gigantes negativos.
+
+Passo 3, Decisões baseadas em cohort: LTV requer dados de cohorts reais com tempo.
+
+Passo 4, Ação em canais/segmentos com LTV:CAC < 2: fix ou pare.
+
+##### Exemplo aplicado
+
+SaaS B2B com blended metrics aparentemente ok:
+
+- LTV: R$ 18.000.
+- CAC: R$ 4.200.
+- LTV:CAC: 4.3, parece bom.
+
+Segmentado:
+
+- PMEs < 10 func: LTV R$ 8k. CAC R$ 2k, ratio 4:1 ✓.
+- Mid-market 50-200 func: LTV R$ 35k. CAC R$ 6k, ratio 5.8:1 ✓.
+- Enterprise 500+: LTV R$ 80k. CAC R$ 38k, ratio 2.1:1 ⚠.
+
+Blended esconde enterprise sendo marginal. Ou não investir em enterprise, ou ajustar sales (pricing maior, close rate maior, etc.).
+
+##### Erros comuns
+
+Confundir revenue com gross profit: LTV deve usar gross profit, não revenue bruto, CAC não fully-loaded: excluir salários subestima CAC, LTV com churn pré-PMF: muito cedo, dados instáveis, Blended analysis sem segmentação: esconde problemas.
+
+##### Leitura adicional
+
+- Skok, D. (forentrepreneurs.com), ampla biblioteca SaaS metrics.
+- Gurley, B. (above-the-crowd.com).
+
+---
+
+#### Framework: Rule of 40 (Brad Feld / SaaS community)
+
+##### Origem
+
+Origem informal em early 2010s, atribuída a **Brad Feld** (Foundry Group) e popularizada em SaaS community. Hoje é benchmark universal para SaaS maduro (> $10M ARR).
+
+##### O que é
+
+Rule of 40: Growth rate (%) + Profit margin (%) ≥ 40%.
+
+Reconhece trade-off entre crescimento e rentabilidade. Empresa pode crescer 50% perdendo 10% (OK). Ou crescer 20% com margem 20% (também OK). 80% growth com -60% margem (não OK, queima demais).
+
+##### Como aplicar
+
+Passo 1, Calcule YoY growth rate (receita ano atual vs. ano anterior).
+
+Passo 2, Calcule EBITDA margin (EBITDA ÷ receita).
+
+Passo 3, Soma. Se ≥ 40%, saudável.
+
+Passo 4, Trade-offs explícitos: decisão "crescer 30% mais queimando 20% mais" passa teste?
+
+##### Benchmarks
+
+- ≥ 40: saudável.
+- 40-60: bom.
+- > 60: excepcional (empresas como Zoom em 2020, Salesforce em picos).
+- < 40: preocupante para SaaS maduro, pode ser ok em early-stage growth-focused.
+
+##### Exemplo aplicado
+
+- Empresa A: cresce 60% a.a., margem -10%. 60 + (-10) = 50. Passa.
+- Empresa B: cresce 15% a.a., margem 25%. 15 + 25 = 40. Passa no limite.
+- Empresa C: cresce 80% a.a., margem -50%. 80 + (-50) = 30. Falha.
+
+##### Erros comuns
+
+Aplicar a early-stage: Rule of 40 é para SaaS $10M+ ARR. Pré-PMF foca em crescimento, EBITDA cosmética: ajustes agressivos mascaram real burn.
+
+##### Leitura adicional
+
+- SaaS Capital reports (anuais, Rule of 40 benchmarks).
+
+---
+
+#### Framework: Pyramid Principle (Barbara Minto, 1985)
+
+##### Origem
+
+Barbara Minto, primeira mulher MBA contratada pela McKinsey (1963), desenvolveu o método durante os anos 1960 e 1970 para estruturar comunicação escrita de consultores enquanto editava relatórios da firma. Publicou *The Pyramid Principle: Logic in Writing and Thinking* em 1985 (Pearson em 1987), virou padrão em McKinsey e se espalhou por consultorias e empresas globalmente. Até hoje é referência em comunicação executiva estruturada.
+
+##### O que é
+
+Método para **estruturar comunicação** (escrita e oral) em forma de pirâmide: começa com a **conclusão principal** (topo da pirâmide) e desce para argumentos de suporte e dados.
+
+##### Princípios / estrutura
+
+Regra central: SCQA framework para introdução + estrutura de pirâmide para conteúdo.
+
+SCQA (introdução):
+
+- Situation: contexto estabelecido (o que o leitor já sabe).
+- Complication: mudança/problema que aparece.
+- Question: pergunta-chave que precisa ser respondida.
+- Answer: a resposta, que vira o topo da pirâmide.
+
+Pirâmide (corpo):
+
+- Topo: ideia principal (resposta à pergunta).
+- Nível 2: 3-5 argumentos de suporte (MECE, mutually exclusive, collectively exhaustive).
+- Nível 3 e abaixo: dados, exemplos, detalhes sustentando cada argumento.
+
+Regras:
+
+- Cada nível suporta o nível acima logicamente.
+- Ideias do mesmo nível são MECE.
+- Ordenar por lógica (dedutiva ou indutiva), não ordem cronológica.
+
+##### Como aplicar do jeito certo
+
+Passo 1, Identifique o destinatário e a pergunta. Pyramid é design centrado no leitor/ouvinte.
+
+Passo 2, Formule a resposta em 1 sentença (o topo). Se não cabe em uma sentença, você não sabe a resposta ainda.
+
+Passo 3, Estruture 3-5 argumentos de suporte. MECE: não se sobrepõem e cobrem o essencial.
+
+Passo 4, Para cada argumento, dados e exemplos.
+
+Passo 5, Teste SCQA na introdução. Leitor entende contexto → problema → pergunta → resposta?
+
+Passo 6, Escreva top-down. Conclusão primeiro, depois suporte. Contrário da tendência natural (contar história cronológica).
+
+##### Exemplo aplicado
+
+Deck de apresentação ao board: "Devemos captar Série B?"
+
+SCQA:
+
+- S: crescemos R$ 40M → R$ 85M ARR em 18 meses.
+- C: para sustentar crescimento, runway atual termina em 8 meses.
+- Q: devemos captar agora ou esperar?
+- A (topo da pirâmide): **devemos captar em Q2/2026, alvo US$ 40M, priorizando fundos tier-1 que já expressaram interesse.**
+
+Pirâmide:
+
+1. Timing é agora. Sub-argumentos: runway, sinal de mercado, tese do produto madura.
+2. US$ 40M é o montante certo. Sub: cobre plano de 24 meses com buffer.
+3. Tier-1 maximiza valor além do cheque. Sub: sinal, network, expertise.
+
+Cada sub-argumento com dados.
+
+##### Erros comuns
+
+Conclusão no final: escreve "descobertas, análise, conclusão". Leitor lê até conclusão para entender resposta. Pyramid inverte: conclusão primeiro. Argumentos que se sobrepõem: não-MECE. Confusão. Detalhes onde deveriam estar argumentos: detalhes de baixo nível subindo na pirâmide. Ordem cronológica em vez de lógica: "fizemos A, depois B, depois C". Leitor não quer história, quer conclusão + suporte.
+
+##### Quando NÃO usar
+
+Em narrativas genuinamente cronológicas (história de fundação, lição de vida), Em comunicação muito informal.
+
+##### Leitura adicional
+
+- Minto, B. (1978, 2009 ed.). *The Pyramid Principle*. Prentice Hall.
+- Reinhart, C. & Rogoff, K. (2009). *This Time is Different*. Exemplo aplicado em livro de economia.
+
+---
+
+### CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)
+
+#### Canvas: Storytelling Canvas
+
+##### Origem
+
+Não tem autor único. O Storytelling Canvas emerge da convergência de três tradições ao longo dos anos 2010: (1) o trabalho de Nancy Duarte (*Resonate*, 2010) e Simon Sinek (*Start With Why*, 2009), que sistematizaram estruturas narrativas para comunicação de liderança e pitch; (2) a escola de narrativa estratégica de empresas como Narrative Science e FrameWorks Institute, que estudaram como enquadramento de mensagem afeta percepção de valor; (3) a prática de pitch coaching em aceleradoras (YC, Endeavor, Wayra) onde templates de narrativa viram ferramentas de workshop. O Storytelling Canvas é o artefato visual que condensa essas três tradições — uma tela para construir a narrativa de pitch ou comunicação institucional antes de abrir o PowerPoint.
+
+##### O que é
+
+Tela visual organizada em **oito blocos** que correspondem às oito decisões narrativas centrais:
+
+- **Herói**: quem é o protagonista da história? (O cliente, não a empresa.)
+- **Mundo antes**: como era o mundo antes do problema existir — ou o mundo atual do herói, antes da solução.
+- **Problema / Tensão**: o que perturba o equilíbrio? Qual a dor do herói?
+- **Tentativas falhas**: o que o herói já tentou? Por que não funcionou?
+- **A virada**: como a solução entra? Qual é o insight que muda tudo?
+- **Mundo depois**: como o mundo do herói muda com a solução?
+- **Evidências**: o que prova que a virada é real? (Dados, casos, depoimentos.)
+- **Chamada para ação**: o que você quer que o ouvinte faça após ouvir a história?
+
+```mermaid
+flowchart LR
+    A["👤 Herói<br/>Quem é o cliente?"]
+    B["🌍 Mundo antes<br/>Status quo"]
+    C["⚡ Problema<br/>Tensão / dor"]
+    D["❌ Tentativas falhas<br/>Por que hoje não resolve?"]
+    E["💡 A virada<br/>O insight que muda tudo"]
+    F["🌟 Mundo depois<br/>Como muda a vida?"]
+    G["📊 Evidências<br/>Dados, casos"]
+    H["🎯 Chamada para ação"]
+    A --> B --> C --> D --> E --> F --> G --> H
+```
+
+A estrutura segue o arco narrativo clássico de Joseph Campbell (A Jornada do Herói) aplicado ao contexto de produto e pitch — mas com um twist: **o herói não é o fundador nem a empresa, é o cliente**. A empresa é o "guia" (Gandalf, Yoda) que equipa o herói (Frodo, Luke) para vencer o problema.
+
+##### Quando usar
+
+Use o Storytelling Canvas em três contextos: (1) **pitch de investimento** — qualquer conversa com VC, anjo ou processo de aceleração; (2) **comunicação institucional** — lançamento de produto, entrada em novo mercado, apresentação para board; (3) **venda B2B complexa** — a proposta comercial também é uma narrativa, e o Storytelling Canvas ajuda a estruturá-la do ponto de vista do cliente, não do fornecedor. Preencha o canvas antes de criar o deck — a narrativa define a estrutura; o deck é execução.
+
+##### Princípios
+
+A tese unificada de Duarte, Sinek e da escola de pitch é que **dados sem narrativa não mudam comportamento**. O ser humano toma decisões emocionais e as justifica com lógica (Kahneman, *Thinking, Fast and Slow*). Uma história bem construída ativa a decisão emocional; os dados no bloco "Evidências" fornecem a justificativa racional. Inversamente, decks com dados sem narrativa produzem memorização zero — o investidor sai da reunião sem saber "o que essa empresa faz de diferente". O Storytelling Canvas força articular a narrativa primeiro, os dados depois.
+
+##### Como aplicar
+
+Preencha individualmente primeiro (20-30 min), depois valide em grupo (30 min). A sequência importa:
+
+1. **Herói** — descreva o cliente em uma frase: quem é, em que contexto, qual seu papel. Concreto: "Mariana, diretora de RH de empresa com 200 funcionários em SP, responsável por recrutamento de vagas técnicas."
+2. **Mundo antes** — como é a vida de Mariana hoje, no contexto do problema? Sem mencionar a solução. Quanto tempo perde? Que ferramentas usa? Com que frustrações convive?
+3. **Problema / Tensão** — qual perturbação ela sofre? Qual é a pergunta que ela não consegue responder? Qual é o custo (tempo, dinheiro, emocional) do problema?
+4. **Tentativas falhas** — o que ela já tentou? LinkedIn Recruiter (caro, barulhento), indicações (lentas), agências (caras, incertas). Por que cada um falha?
+5. **A virada** — como a solução entra? Não "o que o produto faz" — qual insight muda tudo para Mariana? "E se ela tivesse acesso ao candidato passivo certo, antes de ele atualizar o LinkedIn?"
+6. **Mundo depois** — como é a vida de Mariana com a solução? Concreto: "Mariana fecha vagas técnicas em 18 dias em vez de 45, sem agência, com candidatos que ela não encontraria no LinkedIn."
+7. **Evidências** — dados, casos, resultados de pilotos. "3 clientes beta fecharam 87% das vagas abertas em <20 dias. NPS de 72 entre candidatos."
+8. **Chamada para ação** — o que você quer que o ouvinte faça agora? "Assinar pilot de 60 dias com 3 vagas inclusas." Específico, com urgência.
+
+##### Exemplo brasileiro preenchido — Omie (ERP para PMEs), pitch de Series B (2020)
+
+A Omie levantou Series B em 2020 (R$ 52 milhões, Softbank + Redpoint Eventures) com uma narrativa clara. Reconstrução do Storytelling Canvas:
+
+| Bloco | Conteúdo |
+|---|---|
+| **Herói** | Carlos, dono de empresa contábil com 80 clientes PME em São Paulo. Responsável por fechar a contabilidade de todos os clientes, muitos dos quais usam sistemas diferentes ou planilhas. |
+| **Mundo antes** | Carlos passa 40% do seu tempo recoletando dados de cada cliente — nota fiscal em um sistema, fluxo de caixa em planilha, folha em outro fornecedor. Nenhum sistema conversa. Cada cliente usa software diferente. Fechar o balancete mensal exige 3-4 dias de trabalho manual. |
+| **Problema / Tensão** | Carlos não consegue escalar — com os 80 clientes atuais já está no limite. Para crescer para 150, precisaria contratar 3 auxiliares. Mas o problema não é falta de mão de obra — é que o modelo de coleta manual é insustentável em qualquer escala. |
+| **Tentativas falhas** | Outros ERPs (Totvs, SAP) são caros demais para PME e exigem implementação. Excel é insustentável. ERPs simples de PME não têm API para o escritório contábil acessar dados do cliente. |
+| **A virada** | E se o ERP do cliente PME e o sistema do contador fossem o mesmo ambiente? Cliente lança nota, contador vê em tempo real. Fim do mês de coleta. |
+| **Mundo depois** | Carlos atende 150 clientes com a mesma equipe de hoje. Balancete fecha em 4 horas. Carlos se torna consultor estratégico dos clientes, não operador de dados. |
+| **Evidências** | 12.000 empresas ativas na plataforma. NPS de 76. Churn mensal < 1%. Tempo médio de onboarding: 3 dias (vs. 3 meses de ERPs tradicionais). |
+| **Chamada para ação** | Investimento de R$ 52M para expandir de SP para todo o Brasil e dobrar a equipe de CS/produto nos próximos 18 meses. |
+
+**Insight do caso.** O Storytelling Canvas da Omie colocou o **contador como herói** — não o dono de PME, não a Omie. Isso foi uma decisão estratégica deliberada: o contador é o gatekeeper de adoção (ele indica o ERP para o cliente PME, não o contrário). Ao fazer o contador o herói, a narrativa ativa o interesse do investidor *e* do canal de distribuição ao mesmo tempo. **A lição: quem você escolhe como herói define quem vai abraçar a sua narrativa. Em B2B com canais de distribuição, o herói frequentemente não é o usuário final — é o intermediário que decide a adoção.**
+
+##### Variações e extensões
+
+- **Pitch Deck Canvas**: versão que mapeia cada bloco do Storytelling Canvas para um slide do deck — Herói → slide de problema, Virada → slide de solução, Evidências → slide de tração.
+- **Press Release Canvas** (Amazon): variação do "trabalhar de trás para frente" da Amazon — escrever o press release do produto *antes* de construí-lo, forçando articular o "Mundo depois" com precisão.
+- **One-Pager Canvas**: comprime o Storytelling Canvas em uma única página A4 para comunicação escrita (email para investidor, proposta comercial).
+
+##### Extensão A — SCQA: narrativa para contextos além do pitch
+
+O **SCQA** (Situation → Complication → Question → Answer), criado por Barbara Minto no McKinsey e sistematizado no *The Minto Pyramid Principle* (1987), é a estrutura de comunicação estruturada mais útil para o fundador em contextos onde o Storytelling Canvas seria pesado demais.
+
+**A lógica do SCQA:**
+
+```text
+Situation:    O que todos já sabem — o contexto compartilhado
+              (estabelece base comum, não discute)
+
+Complication: O que mudou, o problema, a tensão que apareceu
+              (por que estamos tendo essa conversa agora?)
+
+Question:     A pergunta implícita que a Complication gera
+              (o que fazemos a respeito?)
+
+Answer:       A resposta — sua recomendação, tese ou pedido
+              (o que estou propondo)
+```
+
+**Por que SCQA, não Storytelling Canvas:**
+
+| Contexto | Use Storytelling Canvas | Use SCQA |
+|---|---|---|
+| Pitch de investimento (primeira reunião) | ✅ Narrativa emocional cria conexão | — |
+| Update de board (trimestral) | — | ✅ Contexto já existe; foco em problema e ação |
+| Investor update mensal (escrito) | — | ✅ Curto, direto, explica por que a questão importa agora |
+| Email para parceiro estratégico | — | ✅ Respeita o tempo; faz o ponto sem rodeio |
+| PR/press release | — | ✅ Lead jornalístico já é SCQA (who/what/why now) |
+| Comunicação interna de mudança | — | ✅ Time precisa entender o porquê antes de aceitar o o quê |
+| All-hands em momento de crise | Risco — emoção sem substância | ✅ Explica a situação antes de propor a solução |
+
+**SCQA em prática — exemplos do fundador brasileiro:**
+
+*Investor update mensal — SCQA:*
+
+```text
+S: Estamos crescendo MRR 15% ao mês há 6 meses; agendamos 
+   100+ demos no trimestre com conversão de 23%.
+
+C: Nos últimos 30 dias, o ciclo de fechamento dobrou de 21 
+   para 42 dias. A causa identificada: 80% dos deals agora 
+   envolvem aprovação de TI, que não estava no processo original.
+
+Q: Como ajustar o processo sem perder velocidade de vendas?
+
+A: Estamos criando deck técnico específico para TI e adicionando 
+   discovery de TI como etapa obrigatória na Fase 2 do pipeline.
+   [Pedido: intro para CISOs de 3 empresas mid-market no seu portfólio]
+```
+
+*Comunicação interna de layoff — SCQA:*
+
+```text
+S: Levantamos R$ 8M em agosto e planejamos crescimento 
+   de 40% de headcount ao longo de 2024.
+
+C: O mercado desacelerou. Churn acelerou para 4,5% ao mês. 
+   No ritmo atual, atingimos burn crítico em 7 meses.
+
+Q: O que precisamos fazer para preservar a empresa?
+
+A: Vamos reduzir o time em 20%, focando nas áreas de produto 
+   e vendas que sustentam o núcleo. Aqui está o que muda para 
+   quem fica, e como vamos apoiar quem vai sair.
+```
+
+**SCQA no board deck:**
+No slide de "Roadblocks e Riscos" do board deck (Template: Board Deck (Apresentação para o Conselho) (Fase 20)), cada problema deve ser apresentado em formato SCQA implícito: a célula "Risco / problema" é a Complication; "Mitigação atual" é a resposta parcial; "Ajuda necessária do board" é a Question. Quando o board member lê o slide, ele já vê Situation (conhece a empresa), Complication (o problema), e sabe que a questão é "o que fazemos". Sua resposta é a Answer colaborativa.
+
+##### Extensão B — Strategic Narrative Framework (Andy Raskin)
+
+O **Strategic Narrative** de Andy Raskin, consultor de pitch que trabalhou com Zuora, Salesforce, GitHub e outras empresas de alto crescimento, é distinto do Storytelling Canvas em um ponto fundamental: o foco não é a jornada do cliente — é a **mudança no mundo** que torna o status quo inaceitável e posiciona a empresa como única capaz de endereçar o novo estado.
+
+**A estrutura de 5 elementos:**
+
+```text
+1. MUDANÇA PARADIGMÁTICA NO MUNDO
+   "Algo mudou — e isso muda tudo."
+   Uma tendência irrefutável que cria um novo estado no mercado.
+   Não é o problema do cliente. É a força externa que criou o problema.
+
+2. PERDEDORES E VENCEDORES
+   "Quem perde com essa mudança, quem ganha."
+   Posiciona o cliente como potencial vencedor se agir.
+   Cria urgência sem pressão artificial.
+
+3. A TERRA PROMETIDA
+   "Como é o mundo para quem ganhar."
+   O estado desejado — específico, vívido, apetecível.
+   Não é o produto. É o que o produto permite.
+
+4. OS OBSTÁCULOS (e por que a velha solução falha)
+   "Por que o caminho para a Terra Prometida é difícil."
+   O que impede os potenciais vencedores de chegar lá.
+   Por que as soluções existentes não resolvem.
+
+5. A PONTE
+   "Como a empresa remove os obstáculos."
+   O produto como instrumento para a Terra Prometida.
+   Apresentado por último — quando o interlocutor já acredita no problema.
+```
+
+**Por que é diferente do Storytelling Canvas:**
+
+| Aspecto | Storytelling Canvas | Strategic Narrative |
+|---|---|---|
+| Protagonista | Cliente como herói | A mudança no mundo é o protagonista |
+| Tom | Empático, próximo | Estratégico, macro |
+| Melhor para | Pitch 1:1 com investidor ou cliente | Comunicação de categoria: site, all-hands, press, keynote |
+| Inimigo explícito | Ausente (solução falha, não villain) | Presente — status quo ou concorrente pode ser nomeado |
+| Urgência | Via storytelling emocional | Via inevitabilidade da mudança |
+
+**Exemplo brasileiro — Nubank Strategic Narrative (implícito):**
+
+```text
+1. MUDANÇA: A internet transformou como consumidores comparam, escolhem 
+   e exigem serviços — em todos os setores, exceto bancos.
+
+2. PERDEDORES / VENCEDORES: Brasileiros que continuam com os 5 grandes 
+   bancos pagam tarifas e enfrentam burocracia desenhada para outra era. 
+   Quem migra para modelo digital tem custo zero e controle real.
+
+3. TERRA PROMETIDA: Serviço financeiro sem agência, sem tarifa, com 
+   experiência de produto de tecnologia — não de banco. Controle do 
+   dinheiro na palma da mão, sem horário de atendimento.
+
+4. OBSTÁCULOS: Abertura de conta é burocrática. Cartões têm tarifas 
+   ocultas. O banco ligo confuso para reter. Os incumbentes têm inércia 
+   de décadas de monopólio regulatório.
+
+5. A PONTE: Nubank — conta e cartão digital sem tarifas, com suporte 
+   humano via app, abertura em 2 minutos, produto desenhado como software.
+```
+
+**Como combinar Strategic Narrative com Storytelling Canvas:**
+
+O Strategic Narrative é o macro — define o posicionamento de categoria. O Storytelling Canvas é o micro — operacionaliza a narrativa para uma audiência e contexto específicos. Em prática:
+
+1. Construa o Strategic Narrative primeiro — essa é a tese da empresa
+2. Use o bloco "Mudança Paradigmática" como contexto para o Storytelling Canvas
+3. O Storytelling Canvas herda "Mundo antes" e "Tentativas falhas" do Strategic Narrative
+4. Para investidor: Strategic Narrative nos primeiros 3 slides do deck; Storytelling Canvas nos próximos 5
+5. Para o site: Strategic Narrative no hero section; Storytelling Canvas na página de cases/testimonials
+
+##### Erros comuns
+
+- Fazer a empresa o herói — ouvinte não se importa com a jornada da empresa; se importa com o problema do cliente.
+- Pular "Tentativas falhas" — sem esse bloco, a solução não tem contraste; parece mais uma entre muitas.
+- "Chamada para ação" vaga ("entre em contato", "vamos conversar") — ouvinte não sabe o próximo passo; taxa de avanço cai.
+- Evidências genéricas ("clientes adoram", "crescemos 2x") — não constroem credibilidade; dado específico com contexto é o que convence.
+- Usar o mesmo Storytelling Canvas para audiências diferentes — investidor, cliente, parceiro e imprensa têm "Herói" e "Chamada para ação" distintos; o canvas precisa ser refeito para cada audiência.
+
+##### Quando NÃO usar
+
+Em comunicações operacionais internas (status report para time, reunião de sprint) — overhead narrativo não agrega. Em contextos onde a audiência já conhece a narrativa (board recorrente, reunião de acompanhamento) — o canvas é para articular o pitch inicial, não para recapitular.
+
+##### Conexão com outros canvases
+
+O Storytelling Canvas **usa como insumo o BMC (Fase 2)** — os blocos "Segmento de Clientes" e "Proposta de Valor" do BMC alimentam Herói e Virada. **Usa o VPC (Fase 5)** — os Pains do Customer Profile alimentam "Problema / Tensão"; os Gain Creators alimentam "Mundo depois". **Usa métricas do Pirate Canvas (Fase 11)** para o bloco "Evidências" — tração real preenche o que sem AARRR seria só afirmação.
+
+##### Leitura adicional
+
+- *Resonate* (Nancy Duarte, 2010) — estrutura narrativa para apresentações de impacto.
+- *Start With Why* (Simon Sinek, 2009) — Golden Circle como framework de narrativa de propósito.
+- *Building a StoryBrand* (Donald Miller, 2017) — o cliente como herói, empresa como guia.
+
+---
+
+#### Canvas: Capital Stack / Waterfall Canvas
+
+##### Origem
+
+O Waterfall Canvas não tem um autor único — emerge da prática de M&A e de VC como ferramenta para visualizar a distribuição de valor entre diferentes classes de acionistas em um evento de liquidez. Advogados e banqueiros usam modelos de waterfall em planilhas desde os anos 1990; a versão em canvas surgiu da necessidade de tornar esse cálculo compreensível para fundadores em negociações de term sheet e de saída.
+
+##### O que é
+
+Tela visual que mapeia como o valor total de um evento de liquidez (venda da empresa, IPO, secondary) é distribuído entre os diferentes detentores de participação, respeitando a hierarquia de liquidation preferences. Permite simular múltiplos cenários de exit price e visualizar quem recebe quanto em cada um.
+
+```mermaid
+flowchart TD
+    E["Valor total do exit\nR$ ___M"]
+    E --> D1["1º Credores\n(dívidas, venture debt)"]
+    D1 --> D2["2º Preferred shareholders\ncom liquidation preference\n(investidores VC)"]
+    D2 --> D3["3º Preferred shareholders\nparticipating (se existir)"]
+    D3 --> D4["4º Common shareholders\n(fundadores, employees)"]
+    D4 --> D5["Remanescente pro-rata\nentre todos os holders"]
+```
+
+**Os seis campos do canvas:**
+
+- **Cap table atual**: % de cada classe (common, preferred Série Seed, Série A, etc.) e número de ações
+- **Liquidation preferences**: 1x, 2x ou participating — por classe e por investidor
+- **Anti-dilution adjustments**: se houve down round, qual é o ajuste de preço de conversão
+- **Option pool**: opções outorgadas, exercíveis, não-exercidas
+- **Preço de exit simulado**: faixa de cenários (pessimista, base, otimista)
+- **Distribuição resultante**: R$ por classe e por indivíduo em cada cenário
+
+##### Quando usar
+
+Use o Waterfall Canvas em três momentos: (1) **ao receber um term sheet** — para entender o impacto da liquidation preference proposta em diferentes cenários de exit; (2) **antes de iniciar processo de M&A** — para saber quanto cada sócio recebe em diferentes preços de oferta e identificar onde há conflito de interesse; (3) **ao converter SAFEs ou notas conversíveis** — para visualizar a diluição real e o impacto no cap table pós-conversão.
+
+##### Princípios
+
+**Primeiro: liquidation preference é o mecanismo mais importante que a maioria dos fundadores subestima.** Uma empresa vendida por R$ 50M com R$ 20M de preferred com 2x participating pode entregar menos de R$ 5M para o fundador que detém 30% do cap table. Sem o Waterfall Canvas, essa realidade só aparece no dia da assinatura.
+
+**Segundo: simule sempre pelo menos três cenários.** Exit @ 1x capital investido (resultado fraco), @ 3x (resultado bom), @ 10x (resultado excepcional). O comportamento das liquidation preferences é radicalmente diferente nesses três pontos.
+
+**Terceiro: o conflito de interesse entre fundadores e investidores é estrutural.** Investidores com preferred querem maximum protection; fundadores com common querem maximum upside. Modelar o waterfall revela onde os interesses divergem — antes da negociação, não durante.
+
+##### Como aplicar
+
+**Passo 1 — Montar o cap table completo:**
+
+| Holder | Classe | # Ações | % Fully Diluted | Liq. Pref. | Valor Pref. |
+|---|---|---|---|---|---|
+| Fundador A | Common | 4.000.000 | 30% | — | — |
+| Fundador B | Common | 3.000.000 | 22,5% | — | — |
+| Fundo Seed | Preferred A | 2.000.000 | 15% | 1x non-participating | R$ 3M |
+| Fundo Série A | Preferred B | 3.000.000 | 22,5% | 1x participating | R$ 12M |
+| Option pool | Common | 1.500.000 | 11,25% | — | — |
+
+**Passo 2 — Simular cenários de exit:**
+
+Para cada preço de venda simulado, calcular na sequência:
+
+1. Pagar liquidation preference de cada série preferred (ordem: mais recente primeiro, ou pari passu — checar o acordo de sócios)
+2. Se preferred for participating: dividir o remanescente pro-rata entre todos
+3. Se preferred for non-participating: comparar o resultado da preference com a conversão — o holder escolhe o maior
+4. Distribuir o remanescente entre common shareholders pro-rata
+
+**Exemplo simplificado — exit @ R$ 20M:**
+
+```text
+Exit: R$ 20M
+Dívidas: zero
+Preferred A (Seed): R$ 3M pref. 1x non-participating → recebe R$ 3M OU converte em 15%
+Preferred B (Série A): R$ 12M pref. 1x participating → recebe R$ 12M + participa no restante
+Remanescente após prefs: R$ 20M - R$ 3M - R$ 12M = R$ 5M
+  Preferred A: decide converter → 15% de R$ 20M = R$ 3M → igual à preference → indiferente
+  Preferred B (participating): 22,5% de R$ 5M = R$ 1,12M adicional
+  Common (fundadores + pool): 62,5% de R$ 5M = R$ 3,12M
+
+Distribuição total @ R$ 20M:
+  Fundo Seed: R$ 3M (15%)
+  Fundo Série A: R$ 12M + R$ 1,12M = R$ 13,12M (65,6%)
+  Fundadores + pool: R$ 3,12M (15,6%)
+  → Fundadores com 52,5% do cap table recebem 15,6% do exit
+```
+
+**Exit @ R$ 80M (mesmas condições):**
+
+```text
+Remanescente após prefs: R$ 80M - R$ 3M - R$ 12M = R$ 65M
+  Preferred A: 15% de R$ 65M = R$ 9,75M → melhor converter (R$ 9,75M > R$ 3M preference)
+  Preferred B: R$ 12M pref + 22,5% × R$ 65M = R$ 12M + R$ 14,6M = R$ 26,6M
+  Common: 62,5% × R$ 65M = R$ 40,6M
+  Fundadores (52,5% do common): ≈ R$ 33,8M
+  → Exit mais alto = common shareholders recuperam participação real
+```
+
+##### Erros comuns
+
+- Não modelar participating preferred separado de non-participating — a diferença é enorme em exits medianos.
+- Calcular dilution apenas como % do cap table — a % não conta onde está o dinheiro.
+- Ignorar o option pool não-exercido — em muitos acordos, opções não exercidas voltam para o common no momento do exit.
+- Usar o cap table "de memória" em vez do documento legal atual — cap tables têm erros; use o documento oficial.
+
+##### Quando NÃO usar
+
+Em estágio pré-seed ou seed early sem investidores institucionais — sem preferred shares, o waterfall é trivial (pro-rata simples). Como decisão estratégica isolada — a ferramenta informa negociação, não substitui análise de mérito do investidor ou do deal. Como projeção de valor da empresa — o canvas mostra distribuição em cenário de exit, não estima o valor.
+
+##### Conexão com outros canvases
+
+O Waterfall Canvas **usa o cap table atual** (não é um canvas de modelo de negócio) e **alimenta diretamente a negociação de term sheet** (Capítulo 5 (Vol. 5) (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) e Template: Term Sheet Anotado — Guia de Leitura (Fase 14)). É o único canvas deste apêndice de natureza financeira — os demais são estratégicos ou operacionais.
+
+##### Leitura adicional
+
+- Template Term Sheet Anotado (Fase 14) — cláusulas de liquidation preference e anti-dilution.
+- [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 1 — MARCO LEGAL DAS STARTUPS: LC 182/2021|Capítulo 1 (MARCO LEGAL DAS STARTUPS: LC 182/2021) (Vol. 8)]] — COCP como alternativa ao preferred.
+- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 15 — STOCK OPTIONS E ESOP NO BRASIL|Capítulo 15 (STOCK OPTIONS E ESOP NO BRASIL) (Vol. 6)]] — stock options e impacto no cap table.
+- *Venture Deals* (Brad Feld & Jason Mendelson, 2019) — explicação definitiva de waterfall mechanics.
 
 ---
 
@@ -2929,7 +4224,7 @@ Toda empresa longeva atravessa pelo menos uma crise existencial — um choque ma
 ## CAPÍTULO 9 — CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO
 
 > [!tip] Ciclo de crise
-> Quatro apendices cobrem os estagios da crise,
+> Quatro capítulos cobrem os estagios da crise,
 > 1. [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 13 — FRAUDE INTERNA E CONTROLES INTERNOS|Capítulo 13 (FRAUDE INTERNA E CONTROLES INTERNOS) (Vol. 8)]], preparacao e detecao
 > 2. CW (este capítulo), resposta a evento e continuidade operacional
 > 3. [[#CAPÍTULO 10 — COMUNICAÇÃO EM CRISE|Capítulo 10 (COMUNICAÇÃO EM CRISE)]], comunicacao a stakeholders
@@ -3525,7 +4820,7 @@ PÓS-CRISE (30-60 DIAS)
 - [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 2 — VENDAS COMPLEXAS ENTERPRISE: CICLO LONGO, ALTO VALOR, MÚLTIPLOS DECISORES|Capítulo 2 — Relações Institucionais e Regulatórias (Vol. 6)]] para comunicação com ANPD e outros reguladores
 - [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 16 — PLANEJAMENTO FINANCEIRO E ORÇAMENTO|Capítulo 16 — Comunicação com Investidores (Vol. 5)]] para protocolo de notificação de board em incidentes materiais
 - [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 14 — COMPENSAÇÃO E BENEFÍCIOS NO BRASIL|Capítulo 14 — Cultura e Employer Branding (Vol. 6)]] para reconstrução de reputação em crises trabalhistas
-- [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 9 — IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES|Fase 9 — Escala e Operações (Vol. 3)]] para processos e controles que previnem crises operacionais
+- [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#FASE 17 — OPERAÇÕES, PROCESSOS E GESTÃO EM ESCALA|Fase 17 — Operações, Processos e Gestão em Escala (Vol. 7)]] para processos e controles que previnem crises operacionais
 - [[#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvases e Mapas Visuais]] para o Mapa de Stakeholders que alimenta o stakeholder map de crise
 
 ---
@@ -4727,7 +6022,7 @@ flowchart TD
     B -->|"Não — pronto para sair"| D["M&A / venda total"]
     C -->|"Sim e empresa\natende pré-requisitos"| E["IPO"]
     C -->|"Não ou empresa\nainda pequena"| F["Secondary / Série B+\nPreparar para IPO em 3-5 anos"]
-    D --> G["Processo M&A\n(Apêndice BJ)"]
+    D --> G["Processo M&A\n(Cap. 14)"]
 ```
 
 | Critério | Favorece IPO | Favorece M&A |
@@ -6085,3 +7380,338 @@ Boa sorte.
 ---
 
 *Compilado em abril de 2026 para uso pessoal do autor. Reflete opiniões dele, e não pretende ser autoridade final sobre nenhum dos temas tratados. Se você chegou até aqui por empréstimo, compartilhamento ou cópia, saiba que o que leu é material de trabalho de uma pessoa específica em uma trajetória específica, use com esse contexto em mente.*
+
+---
+
+# GLOSSÁRIO E SIGLAS DESTE VOLUME
+
+> [!abstract] Vocabulário técnico e siglas deste volume
+> Para garantir que este **Volume 9** funcione de forma 100% independente e autocontida sem exigir consulta a outro livro, esta seção reúne as definições dos **103 termos técnicos e de negócios** e das **56 siglas e abreviações** utilizados ao longo das Fases e Capítulos deste volume.
+
+---
+
+## GLOSSÁRIO E SIGLAS DESTE VOLUME
+
+### Termos Técnicos e de Negócios Usados neste Volume
+
+**Acqui-hire.** Aquisição de empresa cujo objetivo principal é contratar o time, não o produto ou receita. O produto é frequentemente descontinuado. Pagamento típico: R$ 500 mil a R$ 3 milhões por engenheiro sênior em pacote de retenção.
+
+**Advisor.** Conselheiro externo que orienta o fundador em áreas específicas (técnica, comercial, regulatória, captação). Tipicamente compensado com 0,1% a 1% de equity sob contrato FAST.
+
+**Ambidestria organizacional.** Capacidade de uma empresa de explorar o modelo atual (exploit) e explorar novos modelos (explore) simultaneamente. Estrutura central na [[#FASE 19 — REINVENÇÃO E SEGUNDA CURVA|Fase 19]].
+
+**ANPD (Autoridade Nacional de Proteção de Dados).** Autarquia federal brasileira responsável por fiscalizar e aplicar a LGPD. Pode aplicar multas até 2% do faturamento (limite R$ 50 milhões por infração).
+
+**Anti-dilution.** Cláusula societária que protege investidores de diluição em rodadas futuras a valuation menor. Variantes: full ratchet (ajuste integral) e weighted average (mais comum, ajuste ponderado).
+
+**ARR (Annual Recurring Revenue).** Receita anual recorrente. Soma de todos os contratos ativos anualizados. Principal métrica de tamanho de empresa SaaS. ARR = MRR × 12.
+
+**BATNA (Best Alternative to a Negotiated Agreement).** Melhor alternativa caso a negociação não resulte em acordo. Quanto melhor o BATNA, mais poder o negociador tem. Conceito central de Fisher e Ury (Getting to Yes, 1981).
+
+**BCB (Banco Central do Brasil).** Autoridade monetária e regulatória do sistema financeiro brasileiro. Regula bancos, fintechs, instituições de pagamento e sandbox regulatório de inovação financeira.
+
+**Bet-the-company (aposta central).** Hipótese cuja refutação invalida o modelo de negócio inteiro. Diferente de hipóteses secundárias, que podem ser refutadas sem comprometer a empresa. Todo negócio tem duas a cinco apostas-centrais.
+
+**Blitzscaling.** Estratégia de crescimento deliberadamente ineficiente em velocidade extrema para capturar mercado winner-takes-most antes dos competidores. Conceito de Reid Hoffman. Aceita custo e caos em troca de velocidade. Ver Framework: Blitzscaling (Reid Hoffman & Chris Yeh, 2018) (Fase 19).
+
+**Board.** Conselho de administração. Órgão de governança da empresa. Em startups, tipicamente 3-5 membros: fundadores, investidores e independentes.
+
+**Burn Multiple.** Net burn (caixa gasto) dividido por net new ARR gerado. Mede eficiência de queima de caixa. Referência: ≤ 1.5x excelente, ≤ 2.5x aceitável, acima de 3x preocupante.
+
+**Burn rate.** Velocidade de consumo de caixa por mês. Caixa disponível dividido pelo burn rate mensal = runway.
+
+**CAC (Customer Acquisition Cost).** Custo total de marketing e vendas dividido pelo número de novos clientes no período. Calculado por canal para diagnóstico preciso, não apenas blended.
+
+**CAC Payback.** Número de meses necessários para recuperar o CAC com a margem bruta gerada pelo cliente. Referência: ≤ 12 meses B2C, ≤ 18 meses B2B enterprise.
+
+**Cap table (Tabela de capitalização).** Documento que registra a estrutura de propriedade de uma empresa: quem tem quantas ações, de qual classe, com qual vesting e a que preço foram emitidas.
+
+**Carta de intenção (LOI, Letter of Intent).** Documento não-vinculante que formaliza interesse de uma parte em realizar transação (investimento, aquisição) com outra, antes da due diligence completa.
+
+**Category design.** Estratégia de criar e dominar uma categoria de mercado nova, em vez de competir em categoria existente. Empresa define o problema de forma nova, tornando-se referência da categoria. Ver Framework: Category Design (Play Bigger, 2016) (Fase 6).
+
+**Churn.** Taxa de cancelamento ou perda de clientes ou receita em um período. Churn de clientes: percentual de clientes que cancelaram. Churn de receita (MRR churn): percentual da receita mensal perdida por cancelamentos e downgrades.
+
+**CIM (Confidential Information Memorandum).** Documento confidencial preparado pelo banco de investimento ou advisor que descreve a empresa para potenciais compradores em processo de M&A.
+
+**Cliff (de vesting).** Período inicial de vesting em que nenhuma parte da participação veste. Tipicamente 12 meses para cofundadores e funcionários: se sair antes de 1 ano, não recebe nada.
+
+**Closing.** Momento de assinatura e execução de uma transação (rodada de investimento, M&A). Marca a transferência efetiva de capital e participação. Tipicamente precedido por due diligence, term sheet e SPA.
+
+**Cofundador.** Pessoa que funda a empresa em conjunto com um ou mais sócios desde o início. No Brasil, distinto de "co-founder" — usar termo em português é a convenção do livro.
+
+**COGS (Cost of Goods Sold).** Custo dos produtos ou serviços vendidos. Em SaaS: custos de infraestrutura, suporte e serviços diretamente vinculados à entrega. Determina a margem bruta.
+
+**Compliance.** Conformidade regulatória. Em startups, refere-se à aderência a normas de LGPD, anticorrupção, trabalhistas, fiscais e setoriais. Capítulo 12 (Vol. 8) (COMPLIANCE E ANTICORRUPÇÃO PARA STARTUPS) trata de Compliance e Anticorrupção em profundidade.
+
+**CRM (Customer Relationship Management).** Sistema de gestão de relacionamento com clientes. Registra interações, pipeline de vendas e histórico do cliente. Exemplos: Salesforce, HubSpot, Pipedrive.
+
+**CSD (Certezas, Suposições, Dúvidas).** Framework de mapeamento de hipóteses que separa o que se sabe com certeza, o que se supõe e o que é genuinamente desconhecido.
+
+**DCF (Discounted Cash Flow).** Método de valuation que desconta fluxos de caixa futuros pelo custo de capital (WACC). Teoricamente rigoroso, altamente sensível a premissas em startups.
+
+**Deal flow.** Fluxo de oportunidades de investimento ou aquisição que chega a um investidor ou a uma empresa compradora.
+
+**Delaware Flip.** Reestruturação societária em que uma empresa brasileira passa a ser detida por holding em Delaware (EUA). Comum para startups que captam fundos americanos. Custo típico: US$ 30 mil a US$ 80 mil.
+
+**Dilution.** Redução da participação percentual de um acionista em decorrência de novas emissões de ações. Ocorre em cada rodada de captação.
+
+**Down round.** Rodada de captação a valuation menor que o da rodada anterior. Penaliza fundadores e investidores anteriores.
+
+**DPO (Data Protection Officer).** Encarregado de proteção de dados. Função obrigatória sob a LGPD para empresas que processam grandes volumes de dados pessoais ou dados sensíveis.
+
+**Drag-along.** Cláusula societária que permite ao acionista majoritário forçar os minoritários a vender suas participações nas mesmas condições, em caso de venda da empresa.
+
+**Due diligence (DD).** Processo de investigação e verificação de informações sobre empresa-alvo antes de investimento ou aquisição. Cobre dimensões financeiras, jurídicas, operacionais, tecnológicas e tributárias.
+
+**Earnout.** Parte do preço de aquisição condicionada ao atingimento de metas pós-closing. Tipicamente 20-40% do deal value, pago ao longo de 12 a 36 meses.
+
+**EBITDA.** Lucro antes de juros, impostos, depreciação e amortização. Métrica de geração operacional de caixa, usada em valuation por múltiplos (EV/EBITDA) e em covenants bancários.
+
+**eNPS (Employee Net Promoter Score).** Adaptação do NPS para medir engajamento e satisfação de funcionários. Pergunta: "Em escala de 0 a 10, o quanto você recomendaria trabalhar aqui a um amigo?" Referência saudável: ≥ 30.
+
+**EOR (Employer of Record).** Empresa que atua como empregadora formal de funcionários no exterior, permitindo a startup contratar globalmente sem abrir entidade local. Exemplos: Deel, Remote, Oyster.
+
+**ERP (Enterprise Resource Planning).** Sistema de gestão integrada que centraliza processos operacionais como financeiro, estoque, RH e produção. Exemplos: SAP, Totvs, Oracle.
+
+**ESOP (Employee Stock Option Plan).** Plano de outorga de opções de ações a funcionários. Tipicamente reserva de 10-20% do cap table para o pool. Mecanismo central de retenção em startups.
+
+**EV (Enterprise Value).** Valor total da empresa: capitalização de mercado mais dívida líquida. Usado como numerador nos múltiplos de valuation (EV/ARR, EV/EBITDA).
+
+**Exit.** Saída do fundador ou investidor da empresa, geralmente via M&A, IPO ou secondary.
+
+**FMF (Founder-Market Fit).** Alinhamento entre o perfil, experiência e motivação do fundador e as características do problema e mercado que a empresa ataca. Primeiro filtro de avaliação de ideia.
+
+**Founder Mode.** Estilo de gestão hands-on do fundador-CEO em estágio early-to-growth, em contraste com o "manager mode" delegativo. Conceito popularizado por Paul Graham (2024).
+
+**FP&A (Financial Planning & Analysis).** Função financeira responsável por planejamento, orçamento e análise de variâncias. Em startups, surge tipicamente após Série B.
+
+**Freemium.** Modelo de negócio com camada gratuita permanente e camada paga com funcionalidades avançadas. Taxa de conversão típica: 2 a 5% dos usuários gratuitos.
+
+**GMV (Gross Merchandise Value).** Volume bruto de transações processadas em uma plataforma. A receita da plataforma é o take rate aplicado sobre o GMV.
+
+**Go-to-market (GTM).** Estratégia de como a empresa leva o produto ao mercado: quais segmentos atacar, por quais canais, com qual motion de vendas e posicionamento.
+
+**GRR (Gross Revenue Retention).** Percentual da receita mantida de um período para o outro, excluindo expansão. Mede churn puro. GRR ideal: acima de 90% em B2B.
+
+**Headcount.** Número total de funcionários de uma empresa.
+
+**ICP (Ideal Customer Profile).** Perfil ideal do cliente: a empresa ou pessoa para quem o produto foi especificamente construído e que extrai mais valor dele. Mais específico que persona, que é mais específico que segmento.
+
+**Innovator's Dilemma.** Fenômeno documentado por Clayton Christensen onde empresas bem-sucedidas são incapazes de adotar tecnologias disruptivas por serem racionalmente focadas em seus clientes atuais. Ver Framework: Innovator's Dilemma / Disruptive Innovation (Clayton Christensen, 1997) (Fase 19) e [[#FASE 19 — REINVENÇÃO E SEGUNDA CURVA|Fase 19]].
+
+**IP (Intellectual Property).** Propriedade intelectual: patentes, marcas registradas, código-fonte, segredos comerciais. Em startups, instrumento de cessão de IP do fundador para a empresa é cláusula obrigatória de contrato societário.
+
+**IPO (Initial Public Offering).** Oferta pública inicial — abertura de capital na bolsa de valores. No Brasil, na B3. Tipicamente alvo de empresas com ARR ≥ R$ 300 milhões e crescimento ≥ 30% YoY.
+
+**JTBD (Jobs to be Done).** Framework de pesquisa que entende comportamento do consumidor como contratação de produtos para realizar um "trabalho" funcional, emocional ou social. Originado por Tony Ulwick (Strategyn, 1990, aplicando Six Sigma à inovação), popularizado por Clayton Christensen em *The Innovator's Solution* (2003), e operacionalizado em Switch Interviews por Bob Moesta. Ver Framework: Jobs to Be Done Framework (Clayton Christensen, Anthony Ulwick, Bob Moesta) (Fase 19) e Framework: Jobs to Be Done Switch Interviews (Bob Moesta & Chris Spiek, via Clayton Christensen) (Fase 5).
+
+**Lead.** Potencial cliente que demonstrou interesse inicial. Pode ser MQL (Marketing Qualified Lead) ou SQL (Sales Qualified Lead) dependendo do nível de qualificação.
+
+**LGPD (Lei Geral de Proteção de Dados).** Lei 13.709/2018 que regula o tratamento de dados pessoais no Brasil. Multa máxima: 2% do faturamento, limite R$ 50 milhões por infração. Fiscalizada pela ANPD.
+
+**Liquidation preference.** Direito dos investidores preferenciais de receber seu investimento de volta (com ou sem juros) antes dos fundadores e acionistas ordinários em caso de exit. Pode ser 1x, 2x ou mais.
+
+**Lock-up.** Período pós-IPO ou pós-aquisição durante o qual os acionistas (fundadores, investidores) não podem vender suas ações. Tipicamente 180 dias pós-IPO, 12 a 36 meses pós-M&A.
+
+**LTV (Lifetime Value).** Valor presente líquido da receita gerada por um cliente ao longo de toda a sua relação com a empresa. LTV/CAC ≥ 3x é referência para modelo sustentável.
+
+**M&A (Mergers and Acquisitions).** Fusões e aquisições. Caminho mais comum de exit para startups brasileiras.
+
+**Magic Number.** Net new ARR do período dividido pelo investimento em Sales & Marketing do período anterior. Mede eficiência de crescimento. ≥ 0.75 indica que escalar gasto em GTM faz sentido.
+
+**Margem bruta.** (Receita - COGS) / Receita. Em SaaS: tipicamente 65-80%. Em marketplace: 30-50%. Em hardware: 30-55%.
+
+**Market fit.** Versão mais ampla de PMF que inclui adequação ao momento de mercado, não apenas ao produto.
+
+**MECE (Mutually Exclusive, Collectively Exhaustive).** Princípio de estruturação de problemas em categorias mutuamente exclusivas (sem sobreposição) e coletivamente exaustivas (cobrem todo o espaço). Ferramenta de consultoria estratégica. Ver Framework: MECE (Mutually Exclusive, Collectively Exhaustive) — McKinsey (Fase 3).
+
+**MoM (Month over Month).** Crescimento mês a mês. Em early-stage, crescimento saudável é ≥ 10% MoM sustentado.
+
+**Moat.** Barreira competitiva difícil de replicar. Pode ser efeito de rede, custo de troca, marca, escala, IP ou regulação. Conceito popularizado por Warren Buffett. Ver Framework: 7 Powers (Hamilton Helmer, 2016) (Fase 6).
+
+**MQL (Marketing Qualified Lead).** Lead qualificado pelo marketing com base em critérios de engajamento, mas ainda não abordado pelo time de vendas.
+
+**MRR (Monthly Recurring Revenue).** Receita recorrente mensal. Soma de todos os contratos ativos, normalizada para mensal.
+
+**MVP (Minimum Viable Product).** Versão mínima do produto com funcionalidades suficientes para validar hipóteses críticas com usuários reais e coletar feedback. Não é produto incompleto: é produto deliberadamente mínimo.
+
+**NDA (Non-Disclosure Agreement).** Acordo de confidencialidade. Documento legal que restringe o compartilhamento de informações confidenciais entre as partes.
+
+**NPS (Net Promoter Score).** Métrica de lealdade e satisfação. Pergunta: "Em escala de 0 a 10, o quanto você recomendaria [empresa/produto] para um amigo?" Promotores (9-10) menos Detratores (0-6) = NPS. Referência: ≥ 40 consumer, ≥ 30 enterprise.
+
+**Onboarding.** Processo de entrada e ativação de um novo usuário ou colaborador. Onboarding de cliente: caminho do cadastro até o "aha moment". Onboarding de funcionário: integração nas primeiras 4-12 semanas.
+
+**Outbound.** Motion de vendas onde a empresa ativamente prospecta clientes, em vez de esperar inbound. Inclui cold outreach, SDRs e prospecção ativa.
+
+**P&L (Profit and Loss).** Demonstração de resultados. Mostra receita, custos, despesas e lucro/prejuízo no período.
+
+**Pivot.** Mudança estrutural de uma ou mais dimensões do modelo de negócio (cliente, problema, solução, canal, modelo de receita) mantendo aprendizados anteriores. Diferente de pivô cosmético (renomear) e de "abandonar".
+
+**PLG (Product-Led Growth).** Motion de crescimento onde o produto é o principal veículo de aquisição, conversão e expansão. Produto gera valor suficiente para que usuário traga outros usuários. Contraposto a SLG (Sales-Led Growth).
+
+**PMF (Product-Market Fit).** Momento em que produto e mercado se encaixam: produto resolve dor real de segmento identificado de forma que gera retenção, engajamento e crescimento orgânico. Diagnóstico central da [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 13 — PRODUCT-MARKET FIT|Fase 13 (Vol. 4)]].
+
+**Positioning.** Posicionamento — escolha estratégica de como a empresa quer ser percebida em relação a concorrentes e alternativas, na mente do cliente.
+
+**Post-mortem.** Análise retrospectiva de falha ou incidente, com foco em aprendizado sistêmico em vez de atribuição de culpa. Blameless post-mortem é variante que explicitamente remove julgamento pessoal.
+
+**RBF (Revenue-Based Financing).** Financiamento em que a empresa devolve um múltiplo do principal como percentual da receita futura, em vez de juros fixos. Não-diluitivo. Exemplos no Brasil: a55, Capital Empreendedor.
+
+**ROFR (Right of First Refusal).** Direito de preferência. Cláusula que dá a uma parte (tipicamente investidores existentes) o direito de igualar oferta externa antes que a venda aconteça.
+
+**ROI (Return on Investment).** Retorno sobre investimento. (Ganho - Custo) / Custo. Métrica genérica de eficiência de capital aplicado.
+
+**RPO (Recovery Point Objective).** Quantidade máxima de dados que a empresa pode perder em caso de falha, medida em tempo. Define frequência de backups. Parte do BCP.
+
+**RTO (Recovery Time Objective).** Tempo máximo tolerável de interrupção de um processo crítico antes que cause dano irreparável. Define prioridade de recuperação.
+
+**Rule of 40.** Crescimento percentual de ARR somado com margem EBITDA percentual. Startups saudáveis em escala devem ter Rule of 40 ≥ 40. Criada para avaliar trade-off entre crescimento e lucratividade.
+
+**Runway.** Número de meses antes de a empresa ficar sem caixa, considerando o burn rate atual. Referência: mínimo 12 meses após rodada, ideal 18 a 24 meses.
+
+**SAFE (Simple Agreement for Future Equity).** Instrumento de captação criado pela Y Combinator. Conversível em ações em rodada futura, sem juros e sem prazo de vencimento. Adaptação brasileira é a "Nota Conversível".
+
+**Scenario Planning.** Planejamento por cenários — método desenvolvido pela Royal Dutch Shell nos anos 1970 para preparar a empresa para múltiplos futuros plausíveis, em vez de apostar em uma única previsão. Ver Framework: Scenario Planning (Pierre Wack na Royal Dutch Shell, anos 1970) (Fase 19) e [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 16 — PIVOT: TIPOLOGIA, DECISÃO E EXECUÇÃO|Capítulo 16 (PIVOT: TIPOLOGIA, DECISÃO E EXECUÇÃO) (Vol. 4)]] (cenários como antessala da decisão de pivot).
+
+**Seed.** Rodada de captação inicial de startup. No Brasil, tipicamente R$ 1 milhão a R$ 10 milhões, de fundos seed ou anjos, para validar PMF e motor inicial de crescimento.
+
+**SLA (Service Level Agreement).** Acordo de nível de serviço. Define métricas de disponibilidade, performance e tempo de resposta que a empresa se compromete a manter. Violações geram créditos ou penalidades.
+
+**SPA (Share Purchase Agreement).** Contrato de compra e venda de participação societária. Documento principal de fechamento de rodada de investimento ou M&A.
+
+**Tag-along.** Cláusula que garante ao acionista minoritário o direito de vender suas ações nas mesmas condições que o majoritário em caso de venda. Proteção do minoritário.
+
+**TAM (Total Addressable Market).** Mercado total endereçável: receita máxima possível se a empresa capturasse 100% do mercado. Calculado preferencialmente bottom-up.
+
+**Term sheet.** Documento que resume os termos comerciais de uma rodada de investimento ou M&A antes do contrato definitivo. Não vinculante na maior parte das cláusulas, mas vinculante em exclusividade e confidencialidade.
+
+**Unit economics.** Métricas de rentabilidade no nível da unidade básica do negócio (um cliente, uma transação, um produto). CAC, LTV, margem por transação, payback period.
+
+**Valuation.** Valor estimado de uma empresa. Em startups privadas, determinado por rodadas de captação. Pode ser calculado por múltiplos (EV/ARR, EV/EBITDA), DCF ou transações comparáveis.
+
+**Venture Debt.** Financiamento por dívida para startups que já captaram equity. Concedido por bancos especializados (Silicon Valley Bank historicamente) ou fundos de venture debt. Não-diluitivo, mas exige garantias e covenants.
+
+**Vesting.** Mecanismo pelo qual a participação em uma empresa é ganha gradualmente ao longo do tempo. Vesting padrão: 4 anos com 1 ano de cliff. Protege a empresa se fundador ou funcionário sai cedo.
+
+**WACC (Weighted Average Cost of Capital).** Custo médio ponderado de capital. Taxa de desconto usada em DCF para refletir o custo de capital próprio e de dívida da empresa.
+
+**YoY (Year over Year).** Crescimento ano a ano. ARR crescendo ≥ 3x YoY é referência para startup em escala.
+
+**ZOPA (Zone of Possible Agreement).** Zona de acordo possível em negociação: sobreposição entre o mínimo aceitável de uma parte e o máximo aceitável da outra. Conceito de Fisher e Ury (Getting to Yes, 1981).
+
+---
+
+### Siglas e Abreviações Usadas neste Volume
+
+**AARRR:** Acquisition, Activation, Retention, Referral, Revenue (framework de métricas de growth, Dave McClure). *Growth.*
+
+**ANPD:** Autoridade Nacional de Proteção de Dados. *Regulação / LGPD.*
+
+**API:** Application Programming Interface. *Tecnologia.*
+
+**ARR:** Annual Recurring Revenue (receita recorrente anual). *SaaS / métricas.*
+
+**B2B:** Business-to-Business. *Modelo de negócio.*
+
+**BMC:** Business Model Canvas. *Estratégia / modelagem de negócio.*
+
+**BNDES:** Banco Nacional de Desenvolvimento Econômico e Social. *Financiamento.*
+
+**CAC:** Customer Acquisition Cost (custo de aquisição de cliente). *Unit economics.*
+
+**CEO:** Chief Executive Officer. *Gestão.*
+
+**CFO:** Chief Financial Officer. *Gestão.*
+
+**CLT:** Consolidação das Leis do Trabalho (regime trabalhista brasileiro com vínculo formal). *Trabalho.*
+
+**COGS:** Cost of Goods Sold (equivalente em inglês ao CMV). *Finanças.*
+
+**CPO:** Chief Product Officer. *Gestão.*
+
+**CRM:** Customer Relationship Management (sistema ou prática). *Vendas.*
+
+**CTO:** Chief Technology Officer. *Gestão.*
+
+**CVM:** Comissão de Valores Mobiliários. *Regulação.*
+
+**DCF:** Discounted Cash Flow (valuation por fluxo de caixa descontado). *Finanças.*
+
+**DPO:** Data Protection Officer (encarregado de dados sob LGPD). *LGPD.*
+
+**EBITDA:** Earnings Before Interest, Taxes, Depreciation and Amortization. *Finanças.*
+
+**EOR:** Employer of Record (estrutura para contratação internacional). *Expansão / RH.*
+
+**EPP:** Empresa de Pequeno Porte (classificação brasileira). *Regulação.*
+
+**EVP:** Employee Value Proposition. *RH.*
+
+**GMV:** Gross Merchandise Value (volume bruto de transações). *Marketplaces.*
+
+**HR / RH:** Human Resources / Recursos Humanos. *Gestão.*
+
+**ICP:** Ideal Customer Profile. *Vendas e marketing.*
+
+**IFRS:** International Financial Reporting Standards. *Contabilidade.*
+
+**IPO:** Initial Public Offering (abertura de capital em bolsa). *Exit.*
+
+**IRPJ:** Imposto de Renda Pessoa Jurídica. *Tributos.*
+
+**JTBD:** Jobs To Be Done. *Framework de produto.*
+
+**LGPD:** Lei Geral de Proteção de Dados (Lei 13.709/2018). *Regulação.*
+
+**LTV:** Lifetime Value (valor vitalício de cliente). *Unit economics.*
+
+**LTV:CAC:** razão entre LTV e CAC. *Unit economics.*
+
+**M&A:** Mergers and Acquisitions (fusões e aquisições). *Exit.*
+
+**MQL:** Marketing Qualified Lead. *Vendas.*
+
+**MRR:** Monthly Recurring Revenue. *SaaS / métricas.*
+
+**MVP:** Minimum Viable Product (produto mínimo viável). *Produto.*
+
+**NDA:** Non-Disclosure Agreement (acordo de confidencialidade). *Jurídico.*
+
+**NPS:** Net Promoter Score (métrica de recomendação). *Satisfação.*
+
+**P&L / DRE:** Profit and Loss / Demonstração de Resultado. *Contabilidade.*
+
+**PIX:** sistema de pagamentos instantâneos do BACEN. *Pagamentos Brasil.*
+
+**PJ:** Pessoa Jurídica (regime de contratação). *Trabalho.*
+
+**PLG:** Product-Led Growth. *Growth.*
+
+**PLR:** Participação nos Lucros e Resultados. *RH.*
+
+**PMF:** Product-Market Fit. *Conceito central.*
+
+**RBF:** Revenue-Based Financing. *Captação não-diluitiva.*
+
+**ROI:** Return on Investment. *Finanças.*
+
+**SaaS:** Software as a Service. *Modelo de negócio.*
+
+**SAFE:** Simple Agreement for Future Equity (instrumento de captação). *Captação.*
+
+**SMB:** Small and Medium Business. *Segmento.*
+
+**SWOT:** Strengths, Weaknesses, Opportunities, Threats. *Estratégia.*
+
+**TAM / SAM / SOM:** Total Addressable Market, Serviceable Addressable Market, Serviceable Obtainable Market. *Estratégia de mercado.*
+
+**VC:** Venture Capital. *Captação.*
+
+**VP:** Vice President. *Gestão.*
+
+**VPC:** Value Proposition Canvas. *Framework de produto.*
+
+**YoY:** Year-over-Year (comparação ano a ano). *Métricas.*
+
+**ZOPA:** Zone of Possible Agreement. *Negociação.*

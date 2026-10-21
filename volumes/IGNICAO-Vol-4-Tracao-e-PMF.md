@@ -80,6 +80,8 @@ graph LR
 - [[#CAPÍTULO 14 — DADOS, ANALYTICS E EXPERIMENTAÇÃO|CAPÍTULO 14 — DADOS, ANALYTICS E EXPERIMENTAÇÃO]]
 - [[#CAPÍTULO 15 — AI COMO PARTE DO PRODUTO (AI-NATIVE PRODUCT)|CAPÍTULO 15 — AI COMO PARTE DO PRODUTO (AI-NATIVE PRODUCT)]]
 - [[#CAPÍTULO 16 — PIVOT: TIPOLOGIA, DECISÃO E EXECUÇÃO|CAPÍTULO 16 — PIVOT: TIPOLOGIA, DECISÃO E EXECUÇÃO]]
+### Glossário e Siglas deste Volume
+- [[#Glossário e Siglas deste Volume|GLOSSÁRIO E SIGLAS DESTE VOLUME]]
 
 ---
 
@@ -158,7 +160,7 @@ O entregável tem dois componentes. MVP em operação, e Relatório de Aprendiza
 > **Entregável:** MVP em operação mais Relatório de Aprendizado depois de oito a doze semanas com dez a cinquenta usuários reais — North Star Metric definida, analytics instrumentado, decisão entre seguir, iterar ou pivotar documentada.
 >
 > **Sinais de saída:**
-> - Spec de MVP (Template: Especificação de MVP (Fase 10, Vol. 3)) com escopo dentro e fora explícitos, construído ciclo a ciclo de duas a quatro semanas.
+> - Spec de MVP (Template: Especificação de MVP (Fase 11)) com escopo dentro e fora explícitos, construído ciclo a ciclo de duas a quatro semanas.
 > - Cinco ou mais usuários reais usando o MVP em produção por quatro ou mais semanas (idealmente cinco ou mais pagando recorrentemente).
 > - Cenário de sucesso atingido — ativação acima de trinta por cento, retenção D30 acima de quarenta por cento, conversão trial-pago acima de quinze por cento.
 > - Conversas semanais com usuários como rotina, com backlog de bugs e pedidos organizado e priorizado.
@@ -225,7 +227,7 @@ Métrica primária. Taxa de conversão de visitante em ação. Threshold forte: 
 Custo típico de R$ 500 a R$ 3.000 em tráfego pago, mais alguns dias para montar a página (Carrd, Framer, Webflow, Unbounce). Duração de uma a três semanas. O critério de avanço é demanda confirmada acima do threshold pré-definido.
 
 > [!tip] Templates Operacionais — Templates operacionais desta fase
-> O [[#TEMPLATES OPERACIONAIS E CASOS PREENCHIDOS DESTA FASE|Templates Operacionais da Fase]] inclui o Template Landing Page de Validação (Fase 5, Vol. 2) com estrutura de headline, proposta de valor, CTA e formulário de captura — pronto para adaptar e publicar em Carrd ou Framer sem partir do zero.
+> A seção **[[#TEMPLATES OPERACIONAIS E CASOS PREENCHIDOS DESTA FASE|Templates Operacionais desta Fase]]** ao final desta fase inclui o **[[#Template: Especificação de MVP|Template: Especificação de MVP]]** e o **[[#Template: Checklist de Pre-Launch|Template: Checklist de Pre-Launch]]**, prontos para delimitar escopo e validar a prontidão de lançamento.
 
 #### Fase 2 do ciclo, MVP Concierge (versão manual do produto, entregue à mão pelo fundador)
 
@@ -263,7 +265,7 @@ O executor é você. Com time técnico (interno, terceirizado, ou sócio). Os pa
 Nove passos. Os passos abaixo se aplicam à **terceira fase do ciclo (MVP em Código)** descrita acima, depois das duas anteriores (Teste de Demanda + MVP Concierge) terem produzido evidência positiva. Pular para os passos 1 a 9 sem ter validado as duas fases anteriores é o erro mais caro desta etapa, e equivale a construir software para hipótese ainda não testada.
 
 > [!tip] MVP Canvas antes de construir qualquer coisa
-> Para cada MVP que o time planeja lançar, preencha o [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#Canvas: MVP Canvas (Tristan Kromer)|Canvas: MVP Canvas (Tristan Kromer) (Vol. 3)]] de Tristan Kromer em 30-45 minutos antes de qualquer linha de código: qual é a **hipótese central** (falsificável), quem é o **segmento do MVP** (pode ser subconjunto de 20 pessoas, não 20.000), qual é o **tipo de MVP** (landing page, concierge, wizard of oz — use o mais barato que testa a hipótese), e qual é o **critério de invalidação** (não só de sucesso). A pergunta mais importante do canvas: "Se o MVP falhar pelo critério de invalidação, o que construímos a seguir?" Se a resposta for "não sabemos", a hipótese precisa ser mais específica. O caso Wildlife Studios em Canvas: MVP Canvas (Tristan Kromer) (Fase 9, Vol. 3) mostra como definir o segmento com precisão (moderate spenders apenas) produziu evidência limpa que justificou a expansão do feature para toda a base.
+> Para cada MVP que o time planeja lançar, preencha o [[#Canvas: MVP Canvas (Tristan Kromer)|Canvas: MVP Canvas (Tristan Kromer)]] de Tristan Kromer em 30-45 minutos antes de qualquer linha de código: qual é a **hipótese central** (falsificável), quem é o **segmento do MVP** (pode ser subconjunto de 20 pessoas, não 20.000), qual é o **tipo de MVP** (landing page, concierge, wizard of oz — use o mais barato que testa a hipótese), e qual é o **critério de invalidação** (não só de sucesso). A pergunta mais importante do canvas: "Se o MVP falhar pelo critério de invalidação, o que construímos a seguir?" Se a resposta for "não sabemos", a hipótese precisa ser mais específica. O caso Wildlife Studios em Canvas: MVP Canvas (Tristan Kromer) (Fase 11) mostra como definir o segmento com precisão (moderate spenders apenas) produziu evidência limpa que justificou a expansão do feature para toda a base.
 
 #### Passo 1, construa apenas os Must Haves
 
@@ -497,7 +499,7 @@ Baixa ativação. Curva de retenção desce a zero em duas a quatro semanas. Con
 
 **Critérios de saída (cenário de sucesso). Você concluiu a [[#FASE 11 — MVP E EXPERIMENTOS DE MERCADO|Fase 11]] quando todos os critérios abaixo estão cumpridos.**
 
-- [ ] Spec de MVP (Template: Especificação de MVP (Fase 10, Vol. 3)) com escopo dentro e fora explícitos, construída ciclo a ciclo de duas a quatro semanas.
+- [ ] Spec de MVP (Template: Especificação de MVP (Fase 11)) com escopo dentro e fora explícitos, construída ciclo a ciclo de duas a quatro semanas.
 - [ ] Stack tecnológica escolhida com base no time atual e no princípio de managed services para tudo que não é diferencial (Vercel, Supabase, Stripe, etc.).
 - [ ] Cinco ou mais usuários reais usando o MVP em produção por quatro ou mais semanas (idealmente cinco ou mais pagando recorrentemente).
 - [ ] Analytics instrumentado desde o dia um (Mixpanel, Amplitude, PostHog, ou logs custom). AARRR mapeado.
@@ -514,7 +516,7 @@ Baixa ativação. Curva de retenção desce a zero em duas a quatro semanas. Con
 
 **Primeiros passos práticos.**
 
-1. Abrir o Template Especificação de MVP (Fase 10, Vol. 3), e delimitar o escopo. O que está fora é tão importante quanto o que está dentro.
+1. Abrir o Template Especificação de MVP (Fase 11), e delimitar o escopo. O que está fora é tão importante quanto o que está dentro.
 2. Escolher stack com base no Stack Mínimo da [[#FASE 11 — MVP E EXPERIMENTOS DE MERCADO|Fase 11]]. Priorizar serviços gerenciados (Vercel, Supabase, Stripe).
 3. Instrumentar analytics desde o dia um. Mixpanel, PostHog, ou Amplitude (free tier).
 4. Recrutar os cinco primeiros usuários entre os que participaram dos testes da [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 10 — TESTES DE SOLUÇÃO E USABILIDADE|Fase 10 (Vol. 3)]]. Combinar onboarding um a um.
@@ -539,17 +541,17 @@ Otimizar feature errada. Se a retenção está fraca, não adianta fazer login m
 
 ### FERRAMENTAS DESTA FASE
 
-Três essenciais para a fase; o restante fica como referência consultiva. Canvases complementares: Canvas: Pirate Canvas / AARRR (Dave McClure, 2007) (Fase 11) e Canvas: MVP Canvas (Tristan Kromer) (Fase 9, Vol. 3).
+Três essenciais para a fase — todas detalhadas passo a passo logo a seguir. Canvases complementares: [[#Canvas: Pirate Canvas / AARRR (Dave McClure, 2007)|Canvas: Pirate Canvas / AARRR (Dave McClure, 2007)]] e [[#Canvas: MVP Canvas (Tristan Kromer)|Canvas: MVP Canvas (Tristan Kromer)]].
 
-**Essenciais para a Fase 10:**
+**Essenciais para a Fase 11:**
 
-- **Lean Product Playbook** (Dan Olsen, 2015) — framework iterativo de seis passos para encontrar PMF. Guia geral do ciclo de MVP. Framework: Lean Product Playbook (Dan Olsen, 2015) (Fase 11).
-- **A/B Testing Rigoroso** (Kohavi) — experimentos controlados com sample size, significância e guardrails. A partir de mil eventos por semana. Framework: A/B Testing Rigoroso (Ron Kohavi, décadas de pesquisa na Microsoft/Airbnb) (Fase 11).
-- **Hook Model** (Nir Eyal) — trigger, action, variable reward, investment. Para projetar produtos com formação de hábito, central em MVPs B2C. Framework: Hook Model (Nir Eyal, 2014) (Fase 11).
+- **Lean Product Playbook** (Dan Olsen, 2015) — framework iterativo de seis passos para encontrar PMF. Guia geral do ciclo de MVP. [[#Framework: Lean Product Playbook (Dan Olsen, 2015)|Framework: Lean Product Playbook (Dan Olsen, 2015)]].
+- **A/B Testing Rigoroso** (Kohavi) — experimentos controlados com sample size, significância e guardrails. A partir de mil eventos por semana. [[#Framework: A/B Testing Rigoroso (Ron Kohavi, décadas de pesquisa na Microsoft/Airbnb)|Framework: A/B Testing Rigoroso (Ron Kohavi, décadas de pesquisa na Microsoft/Airbnb)]].
+- **Hook Model** (Nir Eyal) — trigger, action, variable reward, investment. Para projetar produtos com formação de hábito, central em MVPs B2C. [[#Framework: Hook Model (Nir Eyal, 2014)|Framework: Hook Model (Nir Eyal, 2014)]].
 
 **Complementares (consulte conforme o caso):**
 
-- Stage-Gate Process (Cooper, para produtos com múltiplas linhas), Survey Design (Dillman, Krosnick), Conjoint Analysis (Green, para pricing), MaxDiff Analysis (Louviere, Woodworth, para priorizar features), Shape Up (Ryan Singer, ciclos de seis semanas), Dual-Track Agile (Cagan, discovery e delivery em paralelo). Detalhamento e quando usar cada uma em Framework: Survey Design (Don Dillman & Jon Krosnick, padrão moderno) (Fase 8, Vol. 3) a Framework: Dual-Track Agile (Desiree Sy 2007; Cagan & Patton 2012) (Fase 17, Vol. 7).
+- Stage-Gate Process (Cooper, para produtos com múltiplas linhas), Survey Design (Dillman, Krosnick), Conjoint Analysis (Green, para pricing), MaxDiff Analysis (Louviere, Woodworth, para priorizar features), Shape Up (Ryan Singer, ciclos de seis semanas), Dual-Track Agile (Cagan, discovery e delivery em paralelo). Detalhamento passo a passo na subseção **[[#MANUAL PASSO A PASSO DOS FRAMEWORKS DESTA FASE|Manual Passo a Passo dos Frameworks desta Fase]]** logo a seguir.1 a [[#Framework: Dual-Track Agile (Desiree Sy 2007; Cagan & Patton 2012)|Framework: Dual-Track Agile (Desiree Sy 2007; Cagan & Patton 2012)]].
 
 ### Launch playbook, princípios essenciais e leitura de aprofundamento
 
@@ -898,6 +900,241 @@ Eyal, N. (2014). *Hooked: How to Build Habit-Forming Products*. Portfolio/Pengui
 
 ---
 
+#### Framework: Survey Design (Don Dillman & Jon Krosnick, padrão moderno)
+
+##### Origem
+
+Don Dillman (Washington State University) é referência global em metodologia de survey, *Internet, Phone, Mail and Mixed-Mode Surveys: The Tailored Design Method* (1ª edição 1978, 5ª edição 2014) é texto canônico. Jon Krosnick (Stanford) complementa com pesquisa sobre **como formular perguntas** para minimizar viés de resposta. Juntos, são os dois nomes mais citados em literatura acadêmica de surveys.
+
+##### O que é
+
+Coleção de técnicas cientificamente validadas para **formular, administrar e analisar surveys** de forma a minimizar viés e maximizar validade. Fundador que aplica "4 perguntas no Google Forms" sem rigor coleta dados enganadores, pior que não coletar.
+
+##### Princípios / estrutura
+
+Erros comuns em surveys informais:
+
+- Leading questions: "você concorda que X é importante?"
+- Double-barreled: "o produto é fácil e bonito?" (2 perguntas em 1).
+- Vagueness: "você usa com frequência?" (frequência o quê? Por dia/semana/mês?).
+- Ordem enviesada: pergunta sobre satisfação após elogio enviesa, após reclamação, enviesa outro jeito.
+- Escalas inconsistentes: ora 1-5, ora 0-10, confunde.
+- Amostra auto-selecionada: só respondem quem já gosta.
+
+Princípios de design rigoroso:
+
+1. Objetivos claros: cada pergunta deve ter propósito de uso específico.
+2. Perguntas específicas, concretas, unidimensionais.
+3. Escalas consistentes (1-5 ou 0-10, usar uma).
+4. Ordem aleatória de opções para evitar viés de posição.
+5. Amostragem representativa (não só quem responde voluntário).
+6. Tamanho de amostra suficiente para poder estatístico.
+7. Piloto: testar survey com 10-20 pessoas antes de rodar em escala.
+
+##### Como aplicar do jeito certo
+
+Passo 1, Defina pergunta de pesquisa: "qual fração do nosso ICP está insatisfeita com solução atual?"
+
+Passo 2, Desenhe amostra. Probabilística (ideal) ou pragmática (definida). Evitar "quem abrir o link".
+
+Passo 3, Formule perguntas:
+
+- Comportamentais: "na última semana, quantas vezes você usou X?"
+- Atitudinais: "em escala 1-5, quão frustrado ficou com Y?"
+- Factuais: "em que faixa de receita sua empresa está?"
+
+Passo 4, Calcule tamanho de amostra. Para populações grandes, margem de erro 5% em CI 95% ≈ 385 respostas. Calculadoras online fazem o cálculo.
+
+Passo 5, Piloto: 10-20 respostas, ajustar ambiguidades.
+
+Passo 6, Distribua: mix de canais para reduzir viés (email, social, CRM).
+
+Passo 7, Analise: estatística descritiva + cruzamentos por segmento + teste de significância quando comparar grupos.
+
+##### Exemplo aplicado
+
+Survey para validar dor em PMEs brasileiras:
+
+- População: PMEs brasileiras com 5-100 funcionários.
+- Amostra alvo: 400 respostas.
+- Canais: email do próprio CRM + 2 parceiros (contabilidades) + anúncio LinkedIn.
+- Perguntas:
+
+ 1. Em quais dos seguintes processos você gasta mais tempo por semana? (multi-select).
+ 2. Especificamente em [processo top], quantas horas/semana? (faixas).
+ 3. Em escala 1-5, quão frustrado você está com esse processo?
+ 4. Você já pagou por solução para este processo? Quanto?
+ 5. Dados demográficos (setor, porte, localização).
+
+Insights (n=412):
+
+- 68% respondem "gestão financeira" como top 3, 41% como #1.
+- Entre os que citam financeiro como top: 73% gastam 5+ horas/semana, 22% gastam 15+.
+- Frustração média 3.8/5 (alta).
+- 34% já pagaram por solução, ticket médio R$ 180/mês.
+
+Implicação: dor validada em escala. Willingness to pay existe.
+
+##### Erros comuns
+
+Perguntas leading: "você concorda que nossa solução resolve X?", Amostra viesada: só respondem clientes satisfeitos, n pequeno: 30 respostas não generalizam, Ignorar non-response bias: 10% dos enviados responderam, quem são os 90%?, Over-survey: 25 perguntas, dropout enorme, dados ruim.
+
+##### Quando NÃO usar
+
+Descoberta inicial (qualitativo é melhor), Comportamentos que as pessoas não relatam acuradamente (observar, não perguntar), Quando amostra suficiente é inviável.
+
+##### Leitura adicional
+
+- Dillman, D., Smyth, J. & Christian, L. (2014). *Internet, Phone, Mail and Mixed-Mode Surveys* (5th ed.). Wiley.
+- Krosnick, J. (1999). "Survey Research". *Annual Review of Psychology*.
+- Sauro, J. & Lewis, J. (2012). *Quantifying the User Experience*.
+
+---
+
+#### Framework: Conjoint Analysis (Paul Green, 1971)
+
+##### Origem
+
+Paul Green, professor da Wharton, e V. Srinivasan (Stanford) desenvolveram conjoint nos anos 1970 para analisar preferências de consumidores. "Conjoint Measurement for Quantifying Judgmental Data" (Green & Rao, 1971) é paper seminal. Hoje é padrão em pricing research, product positioning e desenvolvimento de produto em empresas como McKinsey, Bain, e grandes CPGs.
+
+##### O que é
+
+Técnica estatística que **decompõe preferências declaradas** em valor relativo de cada atributo que compõe a oferta. Usa o fato que consumidores fazem tradeoffs: não queremos tudo, negociamos features vs. preço vs. outras dimensões.
+
+##### Princípios / estrutura
+
+Problema que resolve: pergunte diretamente "quanto você pagaria por feature X?", respostas são infladas. Conjoint apresenta **bundles** realistas (ex.: "feature A + B + preço R$ 80/mês" vs. "feature C + D + preço R$ 150/mês") e pede preferência. Decompor matematicamente revela valor de cada atributo.
+
+Tipos:
+
+- CBC (Choice-Based Conjoint): mais popular. Usuário escolhe entre 2-3 bundles.
+- Adaptive Choice-Based: dinamicamente ajusta opções.
+- MaxDiff (Framework: MaxDiff Analysis (Louviere & Woodworth, 1990; popularizado por Sawtooth) (Fase 8)): variação para atributos individuais.
+
+##### Como aplicar do jeito certo
+
+Passo 1, Defina 3-6 atributos com 2-4 níveis cada. Ex.: pricing (R$ 50/100/200/400), suporte (email/chat/telefone/dedicado), features (básico/avançado/premium), etc.
+
+Passo 2, Use ferramenta especializada: Sawtooth (padrão), Conjoint.ly, Qualtrics. DIY em Excel é possível mas limitado.
+
+Passo 3, Amostra: 200-500 respondentes do ICP.
+
+Passo 4, Desenho experimental: ferramenta gera bundles a mostrar (fractional factorial design).
+
+Passo 5, Respondente escolhe entre bundles. Típico: 10-20 cenários.
+
+Passo 6, Análise estatística: ferramenta calcula utilidades (part-worths) de cada nível de cada atributo.
+
+Passo 7, Interpreta: qual atributo tem maior importância? Qual nível maximiza preferência?
+
+Passo 8, Simulação: testa cenários de bundle novo vs. concorrência.
+
+##### Exemplo aplicado
+
+Conjoint para definir pricing e features de SaaS B2B:
+
+Atributos:
+
+- Preço: R$ 50, 100, 200, 400/mês.
+- Suporte: email / chat / telefone / dedicado.
+- Features: básico (só core), avançado (+relatórios), premium (+integrações).
+- Contrato: mensal / anual com desconto.
+
+Resultado (n=320 respondentes ICP):
+
+- Preço é 45% da importância (sensibilidade alta).
+- Features 25%.
+- Suporte 20%.
+- Contrato 10%.
+
+Utilidades de preço: R$ 50 (+1.8), R$ 100 (+0.5), R$ 200 (-0.3), R$ 400 (-2.0). Preço acima de R$ 200 reduz drasticamente, abaixo de R$ 100 é quase equivalente.
+
+Insight: empresa pode ir até R$ 200 sem perder muitos, acima disso, abandona. Features intermediárias (avançadas) são "sweet spot", premium agrega pouco incremental vs. avançado.
+
+##### Erros comuns
+
+Muitos atributos: > 6 atributos → fadiga cognitiva → respostas ruidosas, Níveis irrealistas: preço muito absurdo atrapalha, Não validar com comportamento real: conjoint é declarado, sempre complementar com dados reais (A/B tests de pricing), Amostra não-ICP: respondentes aleatórios viesam.
+
+##### Quando NÃO usar
+
+Early-stage sem claras dimensões de oferta, Produtos com muitos atributos não-comparáveis, Quando comportamento real já está disponível (use-o).
+
+##### Leitura adicional
+
+- Orme, B. (2010). *Getting Started with Conjoint Analysis*. Research Publishers.
+- Rao, V. (2014). *Applied Conjoint Analysis*. Springer.
+
+---
+
+#### Framework: Dual-Track Agile (Desiree Sy 2007; Cagan & Patton 2012)
+
+##### Origem
+
+A formalização emergiu em três passos. Lynn Miller cunhou o conceito de "dual track" em 2005. Desiree Sy (Autodesk) publicou *Adapting Usability Investigations for Agile User-Centered Design* em 2007, descrevendo o padrão que vários times já praticavam. Em 2012, Marty Cagan (ex-CPO eBay, fundador da Silicon Valley Product Group) e Jeff Patton (autor de *User Story Mapping*) formalizaram o termo "Dual-Track Scrum/Agile" e o popularizaram via SVPG e *Inspired* (Cagan, 2008/2017). Responde à crítica: Agile/Scrum clássico foca em **delivery**, não **discovery**. Dual-Track separa as duas tracks, paralelas.
+
+##### O que é
+
+Método que opera **dois tracks paralelos**:
+
+1. Discovery Track: PM, designer, engineer-lead exploram problemas e validam soluções com usuários. Output: solutions validadas.
+
+2. Delivery Track: engineering constrói e entrega o que discovery validou. Output: produto em produção.
+
+Ambos acontecem ao mesmo tempo, discovery da próxima feature enquanto engineering entrega a atual.
+
+##### Princípios / estrutura
+
+Discovery track é contínuo, não pontual:
+
+- Entrevistas semanais.
+- Prototipação rápida.
+- Assumption testing.
+- Validação antes de entrega.
+
+Delivery track tem Scrum/Kanban/Shape Up conforme preferência do time.
+
+##### Como aplicar do jeito certo
+
+Passo 1, PM + designer + tech lead dedicam tempo a discovery (20-50% da semana).
+
+Passo 2, Discovery é estruturado: entrevistas, testes, prototypes. Não "reunião ad-hoc".
+
+Passo 3, Só entrega o que discovery validou: features sem evidência não entram em delivery.
+
+Passo 4, Sprints de delivery operam paralelos: engineering builds o que já foi validado.
+
+Passo 5, Métricas separadas: discovery mede aprendizado (hipóteses testadas), delivery mede entrega.
+
+##### Exemplo aplicado
+
+Time de 7 pessoas (1 PM, 1 designer, 4 engs, 1 tech lead):
+
+Semana típica:
+
+- PM + designer + tech lead: 40% do tempo em discovery.
+- 2 entrevistas com usuários.
+- 1 teste de usabilidade com protótipo.
+- 1 assumption test.
+- Engineering: 100% em delivery.
+- Sprint de 2 semanas executando features validadas 2-4 semanas antes.
+
+Flow: feature idea → validada em discovery → entra em backlog de delivery → implementada → medida em produção → aprendizados alimentam discovery.
+
+##### Erros comuns
+
+Discovery cosmético: PM "valida" via opinião de colegas em vez de usuários, Delivery constrói sem validação: engineering em sprint enquanto descoberta é ignorada, Um track só: empresa diz "fazemos dual track" mas discovery some.
+
+##### Quando NÃO usar
+
+Times muito pequenos (< 5) sem recursos para dois tracks, Contextos muito regulamentados onde escopo é imposto externamente.
+
+##### Leitura adicional
+
+- Cagan, M. (2017). *Inspired* (2nd ed.). Wiley.
+- Cagan, M. & Jones, C. (2020). *Empowered*. Wiley.
+
+---
+
 ### CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)
 
 #### Canvas: Pirate Canvas / AARRR (Dave McClure, 2007)
@@ -984,13 +1221,122 @@ Em estágio pré-Activation (antes de ter produto em mãos de usuários reais) �
 
 ##### Conexão com outros canvases
 
-O Pirate Canvas **alimenta o Lean Canvas (Fase 1, Vol. 1)**: métricas do AARRR preenchem os blocos "Métricas-chave" e "Canais" do Lean Canvas com dados reais (não hipóteses). **Sucede o Customer Journey (Fase 5, Vol. 2)**: as etapas da jornada do cliente mapeiam diretamente para as etapas do AARRR — Descoberta/Consideration = Acquisition, Onboarding = Activation, Uso recorrente = Retention, Recomendação = Referral, Upgrade = Revenue. **Orienta o MVP Canvas (Fase 9, Vol. 3)**: o maior vazamento do AARRR é o foco do próximo MVP de crescimento.
+O Pirate Canvas **alimenta o Lean Canvas (Fase 1)**: métricas do AARRR preenchem os blocos "Métricas-chave" e "Canais" do Lean Canvas com dados reais (não hipóteses). **Sucede o Customer Journey (Fase 13)**: as etapas da jornada do cliente mapeiam diretamente para as etapas do AARRR — Descoberta/Consideration = Acquisition, Onboarding = Activation, Uso recorrente = Retention, Recomendação = Referral, Upgrade = Revenue. **Orienta o MVP Canvas (Fase 11)**: o maior vazamento do AARRR é o foco do próximo MVP de crescimento.
 
 ##### Leitura adicional
 
 - *Startup Metrics for Pirates* (Dave McClure, slide deck, 2007) — original disponível publicamente.
 - *Hacking Growth* (Sean Ellis & Morgan Brown, 2017) — expansão prática do framework AARRR em equipes de growth.
 - *Lean Analytics* (Alistair Croll & Benjamin Yoskovitz, 2013) — benchmarks por modelo de negócio (SaaS, marketplace, e-commerce, mobile app).
+
+---
+
+#### Canvas: MVP Canvas (Tristan Kromer)
+
+##### Origem
+
+Tristan Kromer, coach de inovação e autor do blog Grasshopper Herder, desenvolveu o MVP Canvas como resposta a uma frustração recorrente: times que "lançavam MVPs" sem definir antecipadamente o que estavam tentando aprender. O MVP Canvas surgiu ao redor de 2013-2015 como artefato estruturado para forçar três definições antes de qualquer linha de código: qual é a hipótese que o MVP testa, quem são os usuários do MVP (não os usuários futuros do produto final), e qual é o critério de sucesso que dirá ao time o que construir a seguir. Kromer parte da premissa de Eric Ries (*The Lean Startup*, 2011) mas torna operacional a pergunta mais ignorada: "MVP de quê, exatamente?"
+
+##### O que é
+
+Tela visual de uma página com **sete blocos** distribuídos em torno da pergunta central "o que estamos aprendendo com este MVP?":
+
+- **Hipótese central**: a crença que o MVP testa — escrita como falsificável.
+- **Segmento de usuário do MVP**: não o cliente final do produto, mas o cliente específico que validará *essa hipótese* (pode ser subconjunto menor).
+- **Proposta de valor do MVP**: o que o usuário ganha com o MVP — pode ser diferente do produto final.
+- **Canais de recrutamento**: como vamos chegar nos usuários deste MVP.
+- **Critério de sucesso**: o que precisamos ver para considerar a hipótese validada.
+- **Critério de invalidação**: o que precisamos ver para considerar a hipótese refutada.
+- **Tipo de MVP**: qual experimento — landing page, concierge, wizard of oz, protótipo clicável, pré-venda, fake door.
+
+```mermaid
+flowchart TB
+    HI["💡 Hipótese central<br/>(falsificável)"]
+    subgraph Quem["Quem"]
+        SE["👥 Segmento<br/>do MVP"]
+        CR["📡 Canais de<br/>recrutamento"]
+    end
+    subgraph Oque["O que"]
+        PV["✨ Proposta de valor<br/>do MVP"]
+        TI["🔧 Tipo de MVP"]
+    end
+    subgraph Resultado["Resultado"]
+        CS["✅ Critério de<br/>sucesso"]
+        CI["🚫 Critério de<br/>invalidação"]
+    end
+    HI --> Quem
+    HI --> Oque
+    Quem --> Resultado
+    Oque --> Resultado
+```
+
+##### Quando usar
+
+Use o MVP Canvas na Fase 8 (prototipagem e MVP) como artefato de entrada — antes de qualquer construção. Para cada MVP que o time planeja lançar, preencha o canvas em 30-45 minutos com as pessoas envolvidas. Em times pós-PMF com discovery contínuo, MVP Canvas precede qualquer sprint de desenvolvimento de feature nova: cada feature experimentada como "MVP de aprendizado" antes de virar permanente.
+
+##### Princípios
+
+A tese de Kromer é que **"MVP" sem hipótese explícita é só produto incompleto**. A maioria dos times chama de MVP qualquer versão inicial do produto, mas "versão inicial" sem hipótese não ensina nada — você lança, alguns usuários gostam, outros não, e o time não sabe o que isso significa. MVP Canvas faz a pergunta que a maioria evita: "Qual crença específica este MVP vai testar? E quando sabemos que foi refutada?" Sem essa resposta, o MVP nunca "falha" — ele simplesmente não tem critério de aprendizado.
+
+##### Como aplicar
+
+Reúna PM + tech lead + designer + fundador. Tempo: 30-45 minutos. **Sequência de preenchimento:**
+
+1. **Hipótese central** — escreva primeiro, antes de falar sobre o MVP em si. "Acredito que [usuário Y] vai [fazer X] por causa de [razão Z]." Teste: a hipótese pode ser refutada? Se não, reescreva.
+2. **Segmento do MVP** — quem especificamente vai testar esta hipótese? Pode ser 20 pessoas, não 20.000. Quanto mais estreito o segmento, mais limpa a evidência.
+3. **Proposta de valor do MVP** — o que o usuário ganha hoje com esta versão? Não o que o produto promete no futuro — o que o MVP entrega agora.
+4. **Canais de recrutamento** — como vai encontrar essas pessoas? "Nossos clientes" é vago; "lista de 50 churned users do último trimestre via email pessoal do founder" é um canal.
+5. **Tipo de MVP** — qual é o formato do experimento? Não construa código se um protótipo clicável testa a mesma hipótese em 1/10 do tempo.
+6. **Critério de sucesso** — define antes. Número específico.
+7. **Critério de invalidação** — define antes. Zona de incerteza entre sucesso e invalidação = inconclusivo.
+
+Após preencher, faça a pergunta de Kromer: "Se o MVP falhar pelo critério de invalidação, o que construímos a seguir?" Se a resposta for "pivotamos para X", o MVP está bem definido. Se a resposta for "não sabemos", a hipótese precisa ser mais específica.
+
+##### Exemplo brasileiro preenchido — Wildlife Studios, MVP de novo mecanismo de monetização (2022)
+
+A Wildlife Studios (São Paulo, one of the largest mobile game studios globally) testou em 2022 um novo mecanismo de monetização para seu jogo *Sniper 3D*: season passes (passe de temporada com recompensas progressivas), alternativa a loot boxes avulsas. O MVP Canvas:
+
+| Bloco | Conteúdo |
+|---|---|
+| **Hipótese central** | Jogadores de Sniper 3D que compraram ao menos 1 item nos últimos 90 dias pagarão R$ 15 por season pass se perceberem progressão visual clara de recompensas ao longo de 30 dias. |
+| **Segmento do MVP** | Cohort de 50.000 jogadores "moderate spenders" (1-3 compras/trimestre, ARPU R$ 18/mês) em mercado brasileiro. Excluídas as duas pontas — free-to-play puro e heavy spenders — para isolar o segmento mais sensível à proposta. |
+| **Proposta de valor do MVP** | 30 recompensas progressivas (visuais, skins, boosters) por R$ 15 — previsibilidade de valor vs. loteria de loot box. |
+| **Canais de recrutamento** | In-game banner para o cohort selecionado + push notification personalizada no D1 do teste. Sem anúncio externo — experimento contido na base existente. |
+| **Tipo de MVP** | Feature real implementada no jogo para o cohort (não protótipo) — o investimento de desenvolvimento era pequeno o suficiente para ser justificado pela potencial monetização. |
+| **Critério de sucesso** | ≥12% de conversão do cohort (compra do season pass) nos primeiros 7 dias. ARPU do cohort ≥ R$ 22 em 30 dias (vs. R$ 18 baseline). |
+| **Critério de invalidação** | < 6% de conversão em 7 dias OU ARPU < R$ 16 em 30 dias = hipótese refutada. Considerar alternativas de monetização ou repricing. |
+
+**Resultado:** 17% de conversão em D7 (acima do critério de sucesso). ARPU do cohort subiu para R$ 24 em 30 dias. Decisão: Persevere — expandir season pass para todos os usuários ativos + outros jogos do portfólio.
+
+**Insight do caso.** O MVP Canvas forçou a Wildlife a definir o segmento com precisão — testar nos dois extremos (free-to-play puro e heavy spenders) contaminaria o resultado (FTP não compra nada; heavy spenders compram tudo, inclusive o que não funciona). A limpeza do cohort produziu evidência acionável: a proposta funciona para *moderate spenders*, que é exatamente o segmento de maior potencial de upgrade. **A lição: o trabalho mais importante do MVP Canvas é definir quem NÃO entra no experimento — não apenas quem entra.**
+
+##### Variações e extensões
+
+- **Concierge MVP Canvas**: variação específica para MVPs onde o serviço é entregue manualmente (você faz tudo na mão para 10-20 usuários). Canvas adiciona bloco "Script de operação manual".
+- **Wizard of Oz Canvas**: variação onde o backend é falso (humano operando). Canvas adiciona bloco "O que o usuário vê" vs. "O que realmente acontece" para mapear a ilusão deliberada.
+- **Sprint Goal Canvas** (adaptação ágil): integra MVP Canvas com sprint planning — cada sprint tem um canvas de hipótese + critério.
+
+##### Erros comuns
+
+- Chamar de "MVP" qualquer versão incompleta do produto — MVP sem hipótese é produto inacabado, não experimento.
+- Segmento do MVP = segmento total do mercado — dilui o sinal; o experimento não produz evidência limpa.
+- Tipo de MVP mais caro que o necessário — se landing page testa a hipótese, não construa produto; se protótipo clicável testa, não escreva código.
+- Não definir critério de invalidação — MVP "sempre aprende algo", nunca "falha"; loop de aprendizado não fecha.
+- Usar MVP Canvas para justificar construção que já foi decidida — canvas como teatro, não como ferramenta de decisão.
+
+##### Quando NÃO usar
+
+Em produtos altamente regulados onde qualquer versão pública precisa de certificação (healthtech com classe de risco II+, fintech com obrigação de compliance desde o primeiro usuário) — MVP Canvas pressupõe liberdade de lançar versão experimental; em ambientes regulados, o canvas é útil para MVPs internos e simulações. Em produtos onde o custo de construção do MVP mínimo é maior que o custo de validação por entrevistas — entrevista, não construa.
+
+##### Conexão com outros canvases
+
+O MVP Canvas **sucede o Opportunity Canvas (Fase 9)**: a oportunidade aprovada vira hipótese central do MVP Canvas. **Pareia com o Test Card (Fase 8)**: MVP Canvas define o experimento; Test Card registra e acompanha a execução. **Antecede o Pirate Canvas (Fase 11)**: o MVP bem sucedido gera os primeiros dados reais do funil AARRR. **Alimenta o Lean Canvas (Fase 1)**: Proposta de valor validada pelo MVP preenche o bloco "Solução" com dado real.
+
+##### Leitura adicional
+
+- Blog Grasshopper Herder (Tristan Kromer) — onde o MVP Canvas e variações são documentados.
+- *The Lean Startup* (Eric Ries, 2011) — fundação filosófica.
+- *Continuous Discovery Habits* (Teresa Torres, 2021) — escola de discovery contínuo onde MVP Canvas se integra ao ciclo semanal de produto.
 
 ---
 
@@ -1034,6 +1380,64 @@ COMUNICACAO
 [ ] Mensagem de launch escrita e revisada
 [ ] Lista de pessoas-chave informadas em primeira mao
 [ ] Plano de divulgacao para primeiro 7 dias
+```
+
+---
+
+#### Template: Especificação de MVP
+
+**Para que serve.** Define o escopo mínimo viável com proposta de valor, persona foco, JTBDs, listas MoSCoW (must/should/could/won't), critérios de sucesso pós-90 dias e orçamento, prevenindo escopo inflado.
+
+**Quando usar.** Ao concluir validação de problema e solução (Fases 3-7) e entrar em Fase 9 (construção). Refaça toda vez que o time quiser adicionar feature ao escopo. A regra é mover algo para "won't have" antes de adicionar novo "must".
+
+**Exemplo de preenchimento.** Proposta de valor, "concilia repasses de marketplace em 5 minutos por mês". Persona foco, "Carla operações de farmácia, 5 a 15 unidades". Must haves, "import de extrato CSV, conciliação com regra de tolerância R$2, relatório por unidade". Won't haves, "integração API direta com adquirentes (fica para v2)". Critério pós-90 dias, "10 clientes pagantes, retenção D30 ≥80%, NPS ≥30".
+
+```text
+ESPECIFICAÇÃO DO MVP
+Versão: ___ | Data: ___
+
+PROPOSTA DE VALOR (uma frase)
+___________________________________________
+
+PERSONA FOCO (beachhead)
+___________________________________________
+
+JTBDs PRINCIPAIS A RESOLVER
+1) _______________________________________
+2) _______________________________________
+
+MUST HAVES (máximo 15)
+□ _______________________________________
+□ _______________________________________
+...
+
+SHOULD HAVES (roadmap pós-MVP)
+□ _______________________________________
+
+COULD HAVES (se tempo permitir)
+□ _______________________________________
+
+WON'T HAVES (explicitamente fora)
+× _______________________________________
+
+CRITÉRIOS DE SUCESSO DO MVP (após 90 dias)
+- Usuários ativos: _____
+- Retenção D30: _____
+- Conversão trial → pago: _____
+- NPS mínimo: _____
+
+FAIXA DE PREÇO PLANEJADA
+R$ ____ a R$ ____
+
+CANAIS DE AQUISIÇÃO INICIAIS
+1) _______________________________________
+2) _______________________________________
+
+PRAZO DE DESENVOLVIMENTO
+Início: ___ Lançamento: ___
+
+ORÇAMENTO
+R$ _____
 ```
 
 ---
@@ -1505,17 +1909,17 @@ Você acabou de calcular CAC e LTV reais com dados (não chutes), modelou três 
 
 ### FERRAMENTAS DESTA FASE
 
-Três essenciais para a fase; o restante fica como referência consultiva. Canvases complementares: Canvas: Pirate Canvas / AARRR (Dave McClure, 2007) (Fase 11) e Canvas: Risk Canvas (Fase 12). Para diagnóstico estratégico do modelo (forças, fraquezas, oportunidades, ameaças com cruzamentos TOWS), SWOT segue como referência clássica em Framework: SWOT / TOWS Matrix (Albert Humphrey, 1960s) (Fase 6, Vol. 2) — útil em revisões trimestrais ou em mudança estrutural.
+Três essenciais para a fase — todas detalhadas passo a passo logo a seguir. Canvases complementares: [[#Canvas: Pirate Canvas / AARRR (Dave McClure, 2007)|Canvas: Pirate Canvas / AARRR (Dave McClure, 2007)]] e [[#Canvas: Risk Canvas|Canvas: Risk Canvas]]. Para diagnóstico estratégico do modelo (forças, fraquezas, oportunidades, ameaças com cruzamentos TOWS), SWOT segue como referência clássica em [[#Framework: SWOT / TOWS Matrix (Albert Humphrey, 1960s)|Framework: SWOT / TOWS Matrix (Albert Humphrey, 1960s)]] — útil em revisões trimestrais ou em mudança estrutural.
 
-**Essenciais para a Fase 11:**
+**Essenciais para a Fase 12:**
 
-- **Conjoint Analysis** (Paul Green) — peso relativo de cada atributo na decisão de compra, disposição a pagar real. Use no Passo 4 (validação de precificação). Framework: Conjoint Analysis (Paul Green, 1971) (Fase 8, Vol. 3).
-- **A/B Testing Rigoroso** (Kohavi) — validar hipóteses causais em pricing, CTA, onboarding. Use no Passo 4 (precificação) e Passo 6 (alavancas de eficiência). Framework: A/B Testing Rigoroso (Ron Kohavi, décadas de pesquisa na Microsoft/Airbnb) (Fase 11).
-- **JTBD Framework** (Christensen, Moesta, Ulwick) — o "trabalho" que o cliente contrata o produto para fazer. Use no Passo 6 para identificar onde aumentar LTV via expansion. Framework: Jobs to Be Done Framework (Clayton Christensen, Anthony Ulwick, Bob Moesta) (Fase 5, Vol. 2).
+- **Conjoint Analysis** (Paul Green) — peso relativo de cada atributo na decisão de compra, disposição a pagar real. Use no Passo 4 (validação de precificação). [[#Framework: Conjoint Analysis (Paul Green, 1971)|Framework: Conjoint Analysis (Paul Green, 1971)]].
+- **A/B Testing Rigoroso** (Kohavi) — validar hipóteses causais em pricing, CTA, onboarding. Use no Passo 4 (precificação) e Passo 6 (alavancas de eficiência). [[#Framework: A/B Testing Rigoroso (Ron Kohavi, décadas de pesquisa na Microsoft/Airbnb)|Framework: A/B Testing Rigoroso (Ron Kohavi, décadas de pesquisa na Microsoft/Airbnb)]].
+- **JTBD Framework** (Christensen, Moesta, Ulwick) — o "trabalho" que o cliente contrata o produto para fazer. Use no Passo 6 para identificar onde aumentar LTV via expansion. [[#Framework: Jobs to Be Done Framework (Clayton Christensen, Anthony Ulwick, Bob Moesta)|Framework: Jobs to Be Done Framework (Clayton Christensen, Anthony Ulwick, Bob Moesta)]].
 
 **Complementares (consulte conforme o caso):**
 
-- Survey Design (Dillman, Krosnick, para validação em escala), NPS (Reichheld, métrica de lealdade trimestral), Customer Effort Score (Dixon, correlaciona com lealdade melhor que delight), Causal Inference (DiD, RDD, Propensity Score, quando A/B é impossível), Assumption Mapping (Bland, para re-mapear premissas), DuPont Analysis (ROE = margem × giro × alavancagem), SWOT/TOWS (Humphrey, para revisão estratégica anual). Detalhamento em Framework: SWOT / TOWS Matrix (Albert Humphrey, 1960s) (Fase 6, Vol. 2) e Framework: Survey Design (Don Dillman & Jon Krosnick, padrão moderno) (Fase 8, Vol. 3) a Framework: DuPont Analysis (Donaldson Brown / DuPont, 1914) (Fase 14, Vol. 5).
+- Survey Design (Dillman, Krosnick, para validação em escala), NPS (Reichheld, métrica de lealdade trimestral), Customer Effort Score (Dixon, correlaciona com lealdade melhor que delight), Causal Inference (DiD, RDD, Propensity Score, quando A/B é impossível), Assumption Mapping (Bland, para re-mapear premissas), DuPont Analysis (ROE = margem × giro × alavancagem), SWOT/TOWS (Humphrey, para revisão estratégica anual). Detalhamento passo a passo na subseção **[[#MANUAL PASSO A PASSO DOS FRAMEWORKS DESTA FASE|Manual Passo a Passo dos Frameworks desta Fase]]** logo a seguir.2 e [[#Framework: Survey Design (Don Dillman & Jon Krosnick, padrão moderno)|Framework: Survey Design (Don Dillman & Jon Krosnick, padrão moderno)]] a [[#Framework: DuPont Analysis (Donaldson Brown / DuPont, 1914)|Framework: DuPont Analysis (Donaldson Brown / DuPont, 1914)]].
 
 ---
 
@@ -1885,6 +2289,219 @@ Como substituto de produto-fit. Growth hacking amplifica produto bom, não salva
 
 ---
 
+#### Framework: SWOT / TOWS Matrix (Albert Humphrey, 1960s)
+
+##### Origem
+
+SWOT (Strengths, Weaknesses, Opportunities, Threats) emergiu de pesquisa conduzida no Stanford Research Institute entre 1960 e 1970, em estudo de planejamento estratégico de empresas da Fortune 500 ligado ao programa Team Action Management. Albert Humphrey é a atribuição mais comum, embora a paternidade seja parcialmente disputada (alguns acadêmicos creditam Smith Jr., Christensen e Andrews em Harvard nos anos 1950). O framework original chamava-se SOFT (Satisfactory, Opportunity, Fault, Threat), apresentado em seminário em Zurique em 1964; Urick e Orr renomearam para SWOT em publicação posterior. A variação TOWS foi proposta por Heinz Weihrich em 1982, invertendo a ordem para enfatizar o cruzamento entre fatores internos e externos. Virou uma das ferramentas mais usadas (e mais mal-usadas) de gestão no mundo.
+
+##### O que é
+
+Framework de diagnóstico estratégico que mapeia:
+
+- Fatores internos (controláveis pela empresa): Strengths (forças) e Weaknesses (fraquezas).
+- Fatores externos (do mercado/contexto): Opportunities (oportunidades) e Threats (ameaças).
+
+O valor real não está na listagem dos 4 quadrantes, está nos **cruzamentos** da matriz TOWS, que geram estratégias específicas.
+
+##### Princípios / estrutura
+
+Matriz 2x2 com cruzamento:
+
+| | Oportunidades | Ameaças |
+|---|---|---|
+| **Forças** | **SO** (Maxi-Maxi): usar forças para capturar oportunidades | **ST** (Maxi-Mini): usar forças para mitigar ameaças |
+| **Fraquezas** | **WO** (Mini-Maxi): superar fraquezas para aproveitar oportunidades | **WT** (Mini-Mini): minimizar fraquezas e ameaças |
+
+Cada quadrante gera **uma categoria de estratégia**:
+
+- SO: aposta ofensiva. Onde você deve investir mais.
+- ST: defesa. Use pontos fortes para bloquear riscos.
+- WO: desenvolvimento. Investir em capability para capturar janela de mercado.
+- WT: sobrevivência. Estratégias conservadoras, às vezes saída do segmento.
+
+##### Como aplicar do jeito certo
+
+Passo 1, Contextualize antes de listar. SWOT sem contexto vira lista genérica. Defina: SWOT para quê? Para entrar em novo mercado? Defender posição? Captar investimento? O contexto muda o que é força vs. fraqueza.
+
+Passo 2, Forças e fraquezas: interno, relativo aos concorrentes. "Temos time técnico bom", comparado a quem? Força só é força se diferencia. Escreva sempre em forma comparativa: "time técnico mais denso em ML do que principais concorrentes locais".
+
+Passo 3, Oportunidades e ameaças: tendências estruturais, não táticas. "Concorrente X fez promoção" não é ameaça estrutural. "Entrada de big tech americana no vertical" é.
+
+Passo 4, Limite a 5-7 itens por quadrante. Mais vira lista que ninguém usa. Escolha os de maior impacto.
+
+Passo 5, Construa os 4 cruzamentos TOWS. Isso é onde a ferramenta ganha utilidade. Cada célula deve gerar 2-4 estratégias específicas.
+
+Passo 6, Priorize. Dos ~8-16 movimentos possíveis, quais 3-4 você vai executar este ano? SWOT sem priorização é relatório.
+
+##### Exemplo aplicado
+
+Startup: fintech de gestão de gastos corporativos para médias empresas brasileiras (estilo Conta Azul B2B ou Clara/Ramp).
+
+Forças (S):
+
+- Time com 2 engenheiros seniores ex-bancos tier-1.
+- Fluent em regulação BACEN/Receita Federal.
+- 18 clientes-piloto em SP já pagando.
+
+Fraquezas (W):
+
+- Marca desconhecida fora de SP.
+- Sem time de vendas (fundadores vendendo).
+- Runway de 14 meses.
+
+Oportunidades (O):
+
+- Reforma tributária em fase de regulamentação.
+- Consolidação da categoria global (Ramp/Brex ~US$ 10B valuations).
+- PMEs migrando de planilha para SaaS financeiro.
+
+Ameaças (T):
+
+- Entrada anunciada de Brex/Ramp no Brasil em 2026-2027.
+- Banco Central restringindo novas licenças de IP.
+- Competição intensa de Conta Azul, Omie, Clara.
+
+TOWS, estratégias cruzadas:
+
+- SO: aproveitar expertise em regulação + tração inicial para capturar clientes médios SP antes da entrada dos americanos (2026 é a janela).
+- ST: construir defensibilidade em serviço (implementação consultiva) que SaaS americano terá dificuldade em replicar no BR.
+- WO: contratar Head of Sales e acelerar geograficamente em 12 meses.
+- WT: evitar competir por preço agressivo com Conta Azul, manter foco em nicho de médio porte onde operadoras maiores não atendem bem.
+
+##### Erros comuns
+
+Vira lista de adjetivos: "time bom, produto bom, mercado bom". Sem especificidade. Forças e fraquezas não-comparativas: "temos boa cultura" (comparado a quem?). Oportunidades e ameaças táticas, não estruturais. Sem cruzamentos TOWS: usar só os 4 quadrantes separadamente. Valor está no cruzamento. Quadrantes desequilibrados: 20 forças, 2 ameaças. Sinal de auto-engano (fundador super-otimista). Mesmo item em múltiplos quadrantes: "tamanho pequeno é força e fraqueza", escolher. Força por ágil? Fraqueza por vulnerável? Decida. Usado como ponto final, não de partida: SWOT é diagnóstico, estratégia exige decisões a partir dele. Sem as decisões, é exercício acadêmico.
+
+##### Quando NÃO usar
+
+Quando a pergunta é sobre execução tática de curto prazo (OKRs trimestrais são melhores). Como única ferramenta estratégica, SWOT é genérico demais para ser plano. Combine com Playing to Win e/ou Good Strategy/Bad Strategy. Em contextos onde força vs. fraqueza depende totalmente de contexto ("agilidade" pode ser força em mercado disruptivo, fraqueza em mercado regulado).
+
+##### Leitura adicional
+
+- Weihrich, H. (1982). "The TOWS Matrix: A Tool for Situational Analysis". *Long Range Planning*.
+- Harvard Business Review crítica comum: muitos autores argumentam que SWOT pura é fraca, deve ser usada como diagnóstico inicial, não framework principal. Ver: Roger Martin, *Playing to Win*.
+
+---
+
+#### Framework: Jobs to Be Done Framework (Clayton Christensen, Anthony Ulwick, Bob Moesta)
+
+##### Origem
+
+**Theodore Levitt** articulou a semente em 1960 ("Marketing Myopia"): "pessoas não compram uma furadeira de 1/4 de polegada, compram um furo de 1/4 de polegada na parede". **Anthony Ulwick** (Strategyn) formalizou ODI (Outcome-Driven Innovation) nos anos 1990. **Clayton Christensen** (Harvard) popularizou com "milkshake case study" em *Competing Against Luck* (2016) com Moesta, Dillon, Duncan. **Bob Moesta** desenvolveu o protocolo operacional (Switch Interviews). Hoje JTBD é uma das teorias mais influentes em produto.
+
+##### O que é
+
+Framework analítico completo (não só entrevista como Framework: Jobs to Be Done Switch Interviews (Bob Moesta & Chris Spiek, via Clayton Christensen) (Fase 5)) para **entender o que cliente está "contratando" o produto para fazer**. Foco nos "jobs" (tarefas, progressos, resultados) que cliente quer realizar, não em demografia, persona, ou preferência declarada.
+
+##### Princípios / estrutura
+
+Dimensões de um Job:
+
+1. Functional job: o que cliente quer fazer concretamente (ex.: "pagar fornecedor rapidamente").
+2. Emotional job: como quer se sentir (ex.: "em controle", "sem ansiedade").
+3. Social job: como quer ser percebido (ex.: "empresário organizado").
+
+Circumstâncias: contexto matters. Mesmo cliente tem jobs diferentes em diferentes situações.
+
+Progress: clientes contratam produtos para fazer **progresso** de situação A (dor) para situação B (aspiração).
+
+Competition redefinida: concorrentes são qualquer coisa que cliente considera para fazer o mesmo job, não apenas produtos da mesma categoria. Café pode competir com energético para job "acordar cedo".
+
+##### Como aplicar do jeito certo
+
+Passo 1, Articule jobs em forma padrão: "Quando [situação], quero [motivação], para que [resultado]."
+
+Exemplo: "Quando estou fechando o mês, quero conferir meu fluxo de caixa em segundos, para que eu saia do escritório a tempo de buscar meus filhos."
+
+Passo 2, Identifique jobs via switch interviews (Framework: Jobs to Be Done Switch Interviews (Bob Moesta & Chris Spiek, via Clayton Christensen) (Fase 5)) + observação + análise de concorrência ampla.
+
+Passo 3, Priorize jobs por importância × satisfação**: ODI de Ulwick mede cada outcome em 2 dimensões: importance (1-5) + satisfaction com soluções atuais (1-5). Jobs importantes + insatisfeitos = oportunidade.
+
+Passo 4, Desenhe produto para fazer o job melhor, não apenas adicionar features.
+
+Passo 5, Medir em "jobs made easier", não só "features usadas".
+
+##### Exemplo aplicado
+
+SaaS de gestão financeira, análise JTBD:
+
+Jobs identificados:
+
+Job 1, "Fechar o mês rapidamente" (importância 5/5, satisfação 2/5): OPORTUNIDADE.
+
+- Emotional: "aliviar ansiedade de não saber o resultado".
+- Social: "parecer profissional para contador e sócios".
+
+Job 2, "Entender onde o dinheiro foi" (importância 4/5, satisfação 3/5): oportunidade menor.
+
+Job 3, "Descobrir problema financeiro antes que vire crise" (importância 5/5, satisfação 1/5): GRANDE OPORTUNIDADE.
+
+- Emotional: "sentir que está no controle".
+- Social: "não parecer incompetente perante sócios ou família".
+
+Implicação: produto que **faz Job 3 (alerta proativo de anomalias)** tem mais valor do que Job 1 ou 2 individualmente. Roadmap prioriza anomaly detection, health score proativo, aprendizados preditivos.
+
+Concorrência redefinida: para Job 3, competidor não é só outros SaaS financeiros, é também "contador que telefona em crise", "WhatsApp com sócio". Design do produto considera essas alternativas.
+
+##### Erros comuns
+
+Confundir job com feature desejada: cliente diz "queria um botão X", job não é "botão X", é o que cliente quer realizar com ele. Jobs demográficos: "jobs de PMEs", jobs são universais dentro de situações, ignorar demografia em favor de circumstance. Esquecer dimensões emotional e social: focar só em functional perde motivação mais profunda. Análise por opinião, sem switch interviews: especulação. Job abstrato demais: "crescer o negócio" é job macro, não acionável. Específico: "decidir se devo contratar mais um funcionário este mês".
+
+##### Quando NÃO usar
+
+Quando dados de comportamento real são limitados (JTBD precisa de pesquisa profunda), Produtos novos sem "jobs" claros no mercado, em exploração puramente.
+
+##### Leitura adicional
+
+- Christensen, C., Dillon, K., Hall, T. & Duncan, D. (2016). *Competing Against Luck*. HarperBusiness.
+- Ulwick, A. (2016). *Jobs to Be Done: Theory to Practice*. Idea Bite Press.
+- Moesta, B. (2020). *Demand-Side Sales 101*.
+- Levitt, T. (1960). "Marketing Myopia". *HBR*.
+
+---
+
+#### Framework: DuPont Analysis (Donaldson Brown / DuPont, 1914)
+
+##### Origem
+
+Donaldson Brown, controller da DuPont Corporation, desenvolveu a fórmula de decomposição do ROE em 1914 enquanto tentava entender por que divisões com margens semelhantes tinham retornos sobre o patrimônio muito diferentes. O modelo foi adotado pela General Motors quando Alfred Sloan contratou Brown para reorganizar a empresa nos anos 1920. Tornou-se padrão de análise financeira corporativa. A versão moderna com três fatores (margem × giro × alavancagem) é ensinada em todos os cursos de finanças corporativas e usada por gestores de fundos para triagem de empresas.
+
+##### O que é
+
+Decomposição do **ROE (Return on Equity)** em três drivers operacionais que podem ser gerenciados separadamente:
+
+```text
+ROE = Margem Líquida × Giro do Ativo × Multiplicador de Alavancagem
+    = (Lucro Líquido / Receita) × (Receita / Ativo Total) × (Ativo Total / Patrimônio Líquido)
+```
+
+Cada fator representa uma alavanca diferente: margem (eficiência operacional), giro (eficiência de uso de ativos), alavancagem (estrutura de capital).
+
+##### Princípios / estrutura
+
+Duas empresas podem ter o mesmo ROE por razões completamente diferentes: uma via margem alta com giro baixo (luxo, software), outra via giro alto com margem baixa (varejo, distribuição). A análise DuPont revela qual alavanca está gerando (ou destruindo) retorno. Permite benchmarking setorial preciso. A quinta geração do modelo adiciona separação entre resultado operacional e financeiro, distinguindo retorno de operações do retorno de alavancagem financeira.
+
+##### Como aplicar do jeito certo
+
+Passo 1: calcular os três componentes com os demonstrativos financeiros (DRE + Balanço). Passo 2: comparar cada componente contra a média do setor (não apenas o ROE final). Passo 3: identificar qual componente está abaixo da média setorial — esse é o diagnóstico. Passo 4: rastrear evolução temporal dos três componentes separadamente para detectar tendências de deterioração. Passo 5: modelar alavancas — se aumentarmos margem em 2pp mantendo giro, qual o impacto no ROE?
+
+Exemplo aplicado, Magazine Luiza vs. varejo tradicional. Em estágio de crescimento (2017-2019), Magalu tinha margem líquida ~2,5% (similar a varejos físicos), mas giro do ativo muito superior (digitalização acelerou rotatividade de estoque, redução de custos fixos). O ROE consistentemente acima de 20% vinha do giro, não da margem. Análise DuPont mostraria claramente que a alavanca competitiva era operacional (eficiência de capital), não de pricing.
+
+##### Erros comuns a evitar
+
+(1) Usar apenas o ROE final sem decompor, dois ROE de 18% podem ter perfis de risco completamente diferentes. (2) Comparar empresas de setores diferentes sem ajuste (varejo tem giro alto por design, software tem margem alta por design — comparação direta é inútil). (3) Confundir alavancagem financeira com eficiência operacional: ROE alto via alavancagem aumenta retorno mas também risco. (4) Não separar receita recorrente de não-recorrente no cálculo da margem. (5) Usar dados de um único período sem análise de tendência — margem pode ser artificialmente alta por evento pontual.
+
+##### Quando não usar
+
+Para empresas pré-receita (startups early stage), análise DuPont é irrelevante. Para análise de impacto de decisões específicas de produto — use análise incremental (NPV, payback). Para análise de competidores privados sem demonstrativos confiáveis.
+
+##### Leitura adicional
+
+Higgins, R. (2015). *Analysis for Financial Management*. McGraw-Hill. Penman, S. (2013). *Financial Statement Analysis and Security Valuation*. McGraw-Hill.
+
+---
+
 ### CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)
 
 #### Canvas: Risk Canvas
@@ -1983,7 +2600,7 @@ Em decisões pequenas e reversíveis (ajuste de preço, mudança de canal) — o
 
 ##### Conexão com outros canvases
 
-O Risk Canvas **complementa o Lean Canvas (Fase 1, Vol. 1)**: cada bloco do Lean Canvas gera riscos específicos — "Problema" → risco de mercado, "Solução" → risco de solução, "Canais" → risco de cliente, "Fontes de Receita" → risco de modelo. **Pareia com o Test Card (Fase 8, Vol. 3)**: cada risco crítico do canvas pode gerar um Test Card — o experimento que vai testar se o risco é real e qual a magnitude. **Antecede rodadas de captação** (Capítulo 5 (Vol. 5) (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES)): investidores farão perguntas exatamente sobre os riscos do canvas; chegar à reunião com o canvas preenchido demonstra maturidade de gestão.
+O Risk Canvas **complementa o Lean Canvas (Fase 1)**: cada bloco do Lean Canvas gera riscos específicos — "Problema" → risco de mercado, "Solução" → risco de solução, "Canais" → risco de cliente, "Fontes de Receita" → risco de modelo. **Pareia com o Test Card (Fase 8)**: cada risco crítico do canvas pode gerar um Test Card — o experimento que vai testar se o risco é real e qual a magnitude. **Antecede rodadas de captação** (Capítulo 5 (Vol. 5) (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES)): investidores farão perguntas exatamente sobre os riscos do canvas; chegar à reunião com o canvas preenchido demonstra maturidade de gestão.
 
 ##### Leitura adicional
 
@@ -2299,8 +2916,8 @@ Volte para as Fases 7 a 9. Reconsidere a solução. Talvez pivote para problema 
 > [!tip] Capítulo 13 — Customer Experience
 > O [[#CAPÍTULO 13 — CUSTOMER EXPERIENCE: DA JORNADA AO NPS AO CHURN ZERO|Capítulo 13 — Customer Experience]] estrutura como mapear a jornada completa do cliente — desde o primeiro contato até o churn evitado — e identificar os "moments of truth" que mais afetam retenção. Use aqui para diagnosticar por que certos segmentos chegam ao aha e outros não.
 
-> [!tip] Canvases Visuais — Customer Journey Canvas (Fase 5, Vol. 2)
-> Para sustentar PMF, o [[IGNICAO-Vol-2-Descoberta-e-Mercado#Canvas: Customer Journey Canvas|Canvas: Customer Journey Canvas (Vol. 2)]] é o template visual de uma página que materializa a jornada em fases (consciência → consideração → decisão → onboarding → uso → expansão → advocacy) com os "moments of truth" de cada fase. Complementar ao DT: DT é o tratamento teórico, Canvas: Customer Journey Canvas (Fase 5, Vol. 2) é o canvas preenchível para usar em workshop com o time.
+> [!tip] Canvases Visuais — Customer Journey Canvas (Fase 13)
+> Para sustentar PMF, o [[#Canvas: Customer Journey Canvas|Canvas: Customer Journey Canvas]] é o template visual de uma página que materializa a jornada em fases (consciência → consideração → decisão → onboarding → uso → expansão → advocacy) com os "moments of truth" de cada fase. Complementar ao DT: DT é o tratamento teórico, Canvas: Customer Journey Canvas (Fase 13) é o canvas preenchível para usar em workshop com o time.
 
 #### Passo 4, documentar o "aha moment" e operacionalizar a ativação
 
@@ -2496,17 +3113,17 @@ Esperar PMF "cair" sem iteração. PMF é construído, não encontrado. Se há s
 
 ### FERRAMENTAS DESTA FASE
 
-Três essenciais para a fase; o restante fica como referência consultiva. Canvases complementares: Canvas: Customer Journey Canvas (Fase 5, Vol. 2) e Canvas: Pirate Canvas / AARRR (Dave McClure, 2007) (Fase 11).
+Três essenciais para a fase — todas detalhadas passo a passo logo a seguir. Canvases complementares: [[#Canvas: Customer Journey Canvas|Canvas: Customer Journey Canvas]] e [[#Canvas: Pirate Canvas / AARRR (Dave McClure, 2007)|Canvas: Pirate Canvas / AARRR (Dave McClure, 2007)]].
 
-**Essenciais para a Fase 12:**
+**Essenciais para a Fase 13:**
 
-- **Jobs to Be Done Framework** (Christensen, Moesta, Ulwick) — o "trabalho" funcional, emocional e social cruzando importância com satisfação atual. Use no Passo 2 (segmento onde PMF aconteceu primeiro). Framework: Jobs to Be Done Framework (Clayton Christensen, Anthony Ulwick, Bob Moesta) (Fase 5, Vol. 2).
-- **North Star Framework** (Amplitude, Sean Ellis) — North Star Metric com input metrics e key results. Use no Passo 4 (operacionalizar ativação) para ancorar a métrica de PMF. Framework: North Star Framework (Amplitude / Sean Ellis) (Fase 13).
-- **Continuous Discovery Habits** (Torres) — ritual de pesquisa contínua semanal com clientes. Para sustentar PMF e antecipar saturação. Framework: Continuous Discovery Habits (Teresa Torres, 2021) (Fase 17, Vol. 7).
+- **Jobs to Be Done Framework** (Christensen, Moesta, Ulwick) — o "trabalho" funcional, emocional e social cruzando importância com satisfação atual. Use no Passo 2 (segmento onde PMF aconteceu primeiro). [[#Framework: Jobs to Be Done Framework (Clayton Christensen, Anthony Ulwick, Bob Moesta)|Framework: Jobs to Be Done Framework (Clayton Christensen, Anthony Ulwick, Bob Moesta)]].
+- **North Star Framework** (Amplitude, Sean Ellis) — North Star Metric com input metrics e key results. Use no Passo 4 (operacionalizar ativação) para ancorar a métrica de PMF. [[#Framework: North Star Framework (Amplitude / Sean Ellis)|Framework: North Star Framework (Amplitude / Sean Ellis)]].
+- **Continuous Discovery Habits** (Torres) — ritual de pesquisa contínua semanal com clientes. Para sustentar PMF e antecipar saturação. [[#Framework: Continuous Discovery Habits (Teresa Torres, 2021)|Framework: Continuous Discovery Habits (Teresa Torres, 2021)]].
 
 **Complementares (consulte conforme o caso):**
 
-- Kano Model (Basic, Performance, Excitement, para roadmap pós-PMF), RICE/ICE Scoring (priorização de backlog), HEART Framework (Google, com processo GSM), Customer Journey Mapping (moments of truth), Personas (Cooper, segmentação pós-PMF), Dual-Track Agile (Cagan), Thematic Analysis (Braun, Clarke). Detalhamento em Framework: Thematic Analysis (Virginia Braun & Victoria Clarke, 2006) (Fase 4, Vol. 2) a Framework: HEART Framework (Google, Kerry Rodden et al., 2010) (Fase 13).
+- Kano Model (Basic, Performance, Excitement, para roadmap pós-PMF), RICE/ICE Scoring (priorização de backlog), HEART Framework (Google, com processo GSM), Customer Journey Mapping (moments of truth), Personas (Cooper, segmentação pós-PMF), Dual-Track Agile (Cagan), Thematic Analysis (Braun, Clarke). Detalhamento passo a passo na subseção **[[#MANUAL PASSO A PASSO DOS FRAMEWORKS DESTA FASE|Manual Passo a Passo dos Frameworks desta Fase]]** logo a seguir.2 a [[#Framework: HEART Framework (Google, Kerry Rodden et al., 2010)|Framework: HEART Framework (Google, Kerry Rodden et al., 2010)]].
 
 ---
 
@@ -3142,6 +3759,335 @@ Pós-PMF mas antes de ter recursos (1-2 pessoas dedicadas mínimo), Produtos de 
 
 ---
 
+#### Framework: Thematic Analysis (Virginia Braun & Victoria Clarke, 2006)
+
+##### Origem
+
+Virginia Braun (Auckland) e Victoria Clarke (UWE Bristol) publicaram "Using Thematic Analysis in Psychology" em 2006, sistematizando método amplamente usado mas pouco documentado. Resposta à falta de rigor metodológico comum: "thematic analysis" virou termo genérico para qualquer análise qualitativa casual. Braun & Clarke deram estrutura. Hoje é um dos métodos mais usados em pesquisa qualitativa aplicada (incluindo UX research).
+
+##### O que é
+
+Método sistemático para **identificar, analisar e reportar temas** (padrões) em dados qualitativos. Menos teórico que grounded theory (Framework: Grounded Theory (Barney Glaser & Anselm Strauss, 1967) (Fase 4)), mais flexível para pesquisa aplicada.
+
+##### Princípios / estrutura — 6 fases de Braun & Clarke
+
+1. Familiarização com dados (ler, re-ler, anotar impressões iniciais).
+2. Geração de códigos iniciais (linha-a-linha ou tópico-a-tópico).
+3. Busca por temas (agrupar códigos em candidatos a temas).
+4. Revisão de temas (testar contra dados, refinar).
+5. Definição e nomeação de temas.
+6. Produção do relatório (com análise + quotes representativos).
+
+##### Como aplicar do jeito certo
+
+Passo 1, Transcreva tudo (ou note detalhadamente).
+
+Passo 2, Leia sem analisar primeiro. Impressão holística.
+
+Passo 3, Codifique sistematicamente. Cada quote/episódio ganha código descritivo.
+
+Passo 4, Agrupe códigos em temas candidatos. Temas são padrões significativos.
+
+Passo 5, Teste temas: voltam a cada entrevista, ainda fazem sentido? Precisam dividir ou unir?
+
+Passo 6, Defina escopo de cada tema claramente.
+
+Passo 7, Escreva análise com quotes mais fortes sustentando cada tema.
+
+Passo 8, Síntese: como temas se relacionam? Narrativa integrativa?
+
+##### Exemplo aplicado
+
+Análise temática de 12 entrevistas com freelancers brasileiros sobre gestão financeira:
+
+Após codificação:
+
+- ~180 códigos iniciais.
+- 5 temas candidatos emergem.
+
+Temas finais:
+
+1. "Dinheiro é tabu emocional": freelancers evitam pensar em finanças, adiam até crise. Quotes: "Odeio fechar o mês", "Finge que vai dar certo", "Só olho quando não tem jeito".
+
+2. "Ferramentas fragmentadas": todos usam 3-6 ferramentas (planilha + banco + WhatsApp com contador + caderno + app eventual). Nenhum centralizado. Quotes: "Sempre esqueço onde anotei", "Cada ferramenta faz uma coisa".
+
+3. "Pressão do imediato": foco só em próxima semana, planejamento de mês+ raro. "Não tenho tempo nem cabeça para pensar 3 meses à frente".
+
+4. "Desconfiança com automação": mesmo com apps, conferem manualmente. "Não confio 100%, tenho que checar".
+
+5. "Contador como parceiro essencial": 100% têm contador, contato frequente (semanal-mensal). "Meu contador salva minha vida".
+
+Narrativa integrativa: freelancer brasileiro vive finanças em modo "ansiedade intermitente", evita planejar, gerencia reativo, desconfia de automação, depende fortemente de contador humano. Produto tem que respeitar essa psicologia (não forçar planejamento, reduzir fragmentação, integrar com contador, validar sem substituir).
+
+##### Erros comuns
+
+"Themes" que são apenas categorias descritivas: tema é padrão significativo, não apenas agrupamento. Cherry-picking quotes: escolher só os que sustentam narrativa preferida, ignorar contradições. Análise rasa: "temas" são literais do que foi dito, sem interpretação. Não revisar temas: primeira estrutura fica, pode não capturar nuances.
+
+##### Quando NÃO usar
+
+Pesquisa quantitativa, Quando rigor teórico maior necessário (grounded theory).
+
+##### Leitura adicional
+
+- Braun, V. & Clarke, V. (2006). "Using Thematic Analysis in Psychology". *Qualitative Research in Psychology*, 3(2).
+- Braun, V. & Clarke, V. (2013). *Successful Qualitative Research*. Sage.
+
+---
+
+#### Framework: Continuous Discovery Habits (Teresa Torres, 2021)
+
+##### Origem
+
+Teresa Torres, coach de produto com carreira em empresas como SurveyMonkey e HubSpot, publicou *Continuous Discovery Habits* em 2021 consolidando anos de consultoria com times de produto. Livro se tornou referência moderna em product discovery, ensinado em Reforge e escolas de produto globalmente.
+
+##### O que é
+
+Framework de **descoberta contínua** de produto (em oposição a descoberta em projetos pontuais). Tese central: times de produto devem ter **contato semanal com clientes** e **estruturar aprendizado** em torno de uma ferramenta visual, a **Opportunity Solution Tree** (Framework: Opportunity Solution Tree (Teresa Torres) (Fase 9)).
+
+##### Princípios / estrutura
+
+Hábitos principais:
+
+1. Interviewing semanal: time de produto entrevista pelo menos 1-2 clientes por semana. Não eventual, ritual.
+2. Opportunity Solution Tree (OST): ferramenta visual conectando outcome desejado → oportunidades (problemas/necessidades do cliente) → soluções candidatas → experimentos.
+3. Assumption testing: cada solução tem premissas, testar as mais arriscadas antes de construir.
+4. Decision logs: documentar decisões e raciocínio, evitar revisitar mesma discussão.
+5. Time outcome-oriented: time mede sucesso por outcome (métrica de impacto), não output (features entregues).
+
+##### Como aplicar do jeito certo
+
+Passo 1, Defina outcome claro (ex.: "aumentar retenção no dia 30 de 40% para 55%"). Não é "lançar feature X".
+
+Passo 2, Entrevistas semanais com 1-2 clientes do ICP target. Produto Manager + designer + engenheiro juntos quando possível.
+
+Passo 3, Após entrevistas, atualize OST: novas oportunidades identificadas, quais são mais promissoras para o outcome?
+
+Passo 4, Para cada oportunidade promissora, brainstorm soluções candidatas (múltiplas, não única).
+
+Passo 5, Priorize 1-2 soluções para experimentar.
+
+Passo 6, Assumption test rápido: o que precisa ser verdade para a solução funcionar? Teste a premissa mais arriscada.
+
+Passo 7, Construa e libere quando evidência suficiente, volte a descobrir.
+
+##### Exemplo aplicado
+
+Time de SaaS B2B implementa continuous discovery:
+
+Outcome: aumentar conversão trial → paid de 8% para 15%.
+
+Entrevistas semanais com usuários em trial:
+
+Semana 1-4: identifica 4 oportunidades principais via OST:
+
+- "Usuários não entendem valor na 1ª hora."
+- "Configuração inicial trava 40% dos usuários."
+- "Preço parece alto sem contexto."
+- "Falta de urgência para converter."
+
+Prioriza "configuração inicial trava 40%":
+
+- Soluções candidatas: (a) onboarding guiado, (b) setup pré-populado, (c) concierge setup (CS faz).
+- Assumption test: qual das 3 abordagens os usuários preferem?
+- Experimento: oferece (b) e (c) para próximos 20 trials, mede conclusão de setup.
+
+Resultado: setup pré-populado resolve 70% dos casos, concierge para os 30% restantes. Conversão sobe para 13% em 6 semanas.
+
+##### Erros comuns
+
+Entrevistas eventuais: ritual de 1x por trimestre não gera continuous discovery. OST no papel, decisões no ad-hoc: árvore decorativa, time decide por outros critérios. Uma solução por oportunidade: elimina comparação, primeiro pensamento nem sempre é melhor. Pular assumption test: constrói feature grande, descobre que premissa base era falsa. Time output-oriented: mede "features entregues", não impacto em métrica.
+
+##### Quando NÃO usar
+
+Pré-PMF em fase de descoberta ampla, Teresa recomenda framework mais exploratório primeiro, Times muito pequenos sem PM dedicado, difícil manter cadência.
+
+##### Leitura adicional
+
+- Torres, T. (2021). *Continuous Discovery Habits*. Product Talk.
+- Blog producttalk.org (Teresa Torres, artigos e vídeos regulares).
+
+---
+
+#### Framework: Shape Up (Ryan Singer / Basecamp, 2019)
+
+##### Origem
+
+Ryan Singer, ex-VP Produto da Basecamp, publicou *Shape Up* (gratuitamente online em basecamp.com/shapeup) em 2019, consolidando método interno da Basecamp desde ~2009. Alternativa ao Scrum, propondo **ciclos mais longos (6 semanas)**, **trabalho shaped (não user stories)**, e **autonomia de time**.
+
+##### O que é
+
+Método de desenvolvimento de produto que se opõe a Scrum tradicional, com três princípios centrais:
+
+- Shaped work: problemas são "shaped" em documento detalhado antes de chegar ao time, elimina ambiguidade.
+- Ciclos de 6 semanas: tempo suficiente para trabalho significativo, pressão para foco.
+- Betting table: liderança "aposta" em projetos a cada ciclo (não backlog interminável).
+
+##### Princípios / estrutura
+
+Fases:
+
+1. Shaping: senior people (PM, designer senior) tomam tempo "shape" o problema, definem appetite (tempo), boundaries (o que não fará), e risco. 1-2 semanas.
+
+2. Betting: a cada 6 semanas, leadership "aposta" em 4-5 shaped projects. Descartados não viram "debt", somem.
+
+3. Building: times pequenos (1-3 pessoas) executam, têm autonomia total sobre como.
+
+4. Cooldown: 2 semanas após ciclo de 6 semanas para manutenção, tech debt, exploração.
+
+Hill chart: ferramenta visual de progresso. Times acompanham projeto "subindo a colina" (desconhecidos) e "descendo" (conhecidos, em execução).
+
+##### Como aplicar do jeito certo
+
+Passo 1, Cultura de shaping: invista em gente sênior para fazer shaping decente. Shape ruim = projeto ruim.
+
+Passo 2, Ciclos de 6 semanas: resiste a "adicionar no meio", no meio do ciclo, foco total.
+
+Passo 3, Appetite (não estimate): "este problema vale 6 semanas?", se não cabe, reduza escopo ou descarte.
+
+Passo 4, Time pequeno autônomo: não micromanage, entregam ou não entregam.
+
+Passo 5, Cooldown: não cortar. Cooldown é onde surge criatividade e saúde técnica.
+
+##### Exemplo aplicado
+
+SaaS adota Shape Up:
+
+Ciclo de 6 semanas:
+
+- Apostas: (a) redesign de dashboard, (b) feature de automação recorrente, (c) integração com ferramenta X.
+- Time de 2 pessoas em cada.
+- Liderança não interfere por 6 semanas.
+- Hill chart atualizado semanalmente: Shape Up visível sobre o que está incerto vs. decidido.
+
+Final do ciclo:
+
+- Dashboard: shipped.
+- Automação: 85% pronto, leva 1 semana extra do cooldown.
+- Integração X: abandonado (mais complexo que apetite de 6 semanas comportava). Re-shape futuro.
+
+Cooldown de 2 semanas: tech debt, bugs, exploração.
+
+##### Erros comuns
+
+Ciclo de 6 semanas com adições no meio: destrói o método, Shaping superficial: projeto começa com problema vago, termina em confusão, Time sem autonomia real: micromanagement quebra o princípio, Aplicar a time muito grande: Shape Up funciona melhor em times de 3-15 pessoas, em escala grande, adaptações são necessárias.
+
+##### Quando NÃO usar
+
+Startup pré-PMF com pivot frequente, Contextos regulatórios com sprint obrigatório (ex.: governo), Times sem maturidade para autonomia.
+
+##### Leitura adicional
+
+- Singer, R. (2019). *Shape Up*. basecamp.com/shapeup (gratuito).
+
+---
+
+### CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)
+
+#### Canvas: Customer Journey Canvas
+
+##### Origem
+
+O Customer Journey Map / Canvas surgiu da convergência de três escolas em meados dos anos 2000: design thinking (IDEO, Stanford d.school), service design (Nordic School, livet Lavrans Løvlie / Ben Reason) e experiência do cliente (Forrester, escola de CX corporativo). Não tem autor único — virou padrão de prática colaborativa entre 2008 e 2015, com formalização no livro *This Is Service Design Doing* (Marc Stickdorn et al., 2018). A motivação foi observação recorrente: empresas otimizavam touchpoints isolados (home page, atendimento, cobrança) sem ver a jornada inteira do cliente, e o resultado eram experiências fragmentadas onde cada ponto funcionava isolado mas o conjunto deixava o cliente confuso ou frustrado.
+
+##### O que é
+
+Tela visual organizada em **eixo horizontal de tempo** (fases da jornada do cliente, da descoberta ao pós-uso) e **eixo vertical de dimensões** (mínimo cinco):
+
+- **Etapa**: nome curto da fase (Descoberta, Consideração, Compra, Onboarding, Uso, Suporte, Renovação).
+- **Ação**: o que o cliente faz nessa etapa (concretamente — clica, abre app, liga, fala com).
+- **Objetivo**: o que ele tenta cumprir.
+- **Pontos de Dor**: onde algo dá errado, demora, frustra.
+- **Emoções**: o que ele sente (ansiedade, alívio, raiva, tédio, entusiasmo).
+- **Oportunidades**: onde existe espaço para intervenção.
+
+Versões mais avançadas adicionam: ferramentas/canais usados, métricas de sucesso por etapa, KPIs internos, owners do touchpoint, dados quantitativos (NPS por etapa, conversão).
+
+```mermaid
+flowchart LR
+    A["Descoberta<br/>😐 curiosidade"]:::neutral --> B["Consideração<br/>🤔 dúvida"]:::neutral
+    B --> C["Compra<br/>😟 ansiedade"]:::low
+    C --> D["Onboarding<br/>😕 confusão"]:::low
+    D --> E["Primeiro uso<br/>😊 alívio"]:::high
+    E --> F["Uso recorrente<br/>😌 conforto"]:::high
+    F --> G["Suporte<br/>😠 frustração"]:::low
+    G --> H["Renovação<br/>🤔 reavaliação"]:::neutral
+    classDef high fill:#90EE90
+    classDef neutral fill:#FFFFCC
+    classDef low fill:#FFB6B6
+```
+
+A linha emocional (verde alto / amarelo neutro / vermelho baixo) ao longo da jornada é o output mais valioso: pontos vermelhos consecutivos antecipam churn; pontos verdes isolados cercados de vermelho são "experiências boas no contexto errado".
+
+##### Quando usar
+
+Use o Customer Journey Canvas na Fase 4 (pesquisa) como entregável central — junto com personas e VPC. Use também a cada 12 meses como auditoria operacional pós-PMF: a jornada que funcionava em 2024 frequentemente não funciona em 2026 porque mudaram canais (TikTok, WhatsApp), expectativas (resposta em segundos), regulação (LGPD, PIX). Em momentos de pivô (Fase 15), refaça a jornada antes de qualquer investimento operacional.
+
+##### Princípios
+
+A tese é que **experiência do cliente é uma fita contínua, não pontos isolados**. Times divididos por função (marketing, vendas, sucesso, produto, suporte) tendem a otimizar suas próprias caixinhas e ignorar transições entre etapas. O Customer Journey Canvas força olhar a fita inteira e identificar **o ponto mais fraco** — porque a experiência do cliente é tão boa quanto o pior elo. Cliente que teve compra fácil mas onboarding caótico não fica; cliente que teve onboarding ótimo mas suporte distante churna na primeira dúvida real.
+
+##### Como aplicar
+
+Pré-requisito: 5-15 entrevistas qualitativas + dados quantitativos (analytics, NPS, CSAT). Reúna PM + designer + customer success + 1-2 representantes de marketing/vendas/operações. Tempo: 3-4 horas para a primeira versão.
+
+1. **Defina escopo da jornada** — começo e fim. Comece **antes** do ponto óbvio: se você é SaaS, jornada começa quando cliente percebe o problema, não quando entra no site.
+2. **Liste etapas** — 5-10 etapas nomeadas. Use vocabulário do cliente, não interno ("Considera comprar" não "Lead Qualificado").
+3. **Para cada etapa**, preencha as 6 dimensões com base em verbatim e dados.
+4. **Trace a linha emocional** — atribua emoção dominante a cada etapa.
+5. **Identifique pontos críticos** — onde a emoção cai abruptamente, onde há atrito sistemático, onde o cliente abandona.
+6. **Liste oportunidades** — para cada ponto crítico, 1-3 intervenções possíveis. Prioriza pelo impacto na linha emocional, não pelo custo de implementação.
+
+Após primeira versão, **valide com 3-5 clientes reais** — peça que olhem o mapa e apontem onde discordam. Customer Journey desenhado sem validação é frequentemente "como queremos que seja", não "como é".
+
+##### Exemplo brasileiro preenchido — iFood, jornada de primeira compra (2017)
+
+Em 2017, o iFood mapeou a jornada de primeira compra para entender por que 40% dos novos cadastros não completavam pedido inicial. O canvas:
+
+| Etapa | Ação | Objetivo | Dor | Emoção | Oportunidade |
+|---|---|---|---|---|---|
+| **Gatilho** | Sente fome às 19h, vê amigo pedindo via app | Resolver fome rápido | "Será que tem o que eu quero?" | Curiosidade | Hero card mostrando opções na cidade do usuário |
+| **Descoberta** | Baixa app, abre primeira vez | Ver o que tem por perto | Tela inicial mostra muitos restaurantes — paralisia de escolha | Sobrecarga | Curadoria "mais pedidos hoje", reduzir opções iniciais |
+| **Cadastro** | Preenche nome, email, telefone, endereço | Concluir cadastro rápido | Confirmação de SMS demora, formulário pede CPF (não obrigatório) | Frustração | Reduzir cadastro para email + senha + endereço; CPF só na compra |
+| **Busca** | Filtra por categoria ou busca restaurante | Achar comida que quer | Restaurantes que não entregam no endereço aparecem | Decepção | Filtrar por entrega real antes de mostrar |
+| **Cardápio** | Abre restaurante, navega cardápio | Escolher prato | Foto baixa qualidade, descrição inconsistente, preço sem ICMS visível | Dúvida | Padronização de cardápios + preço final na lista |
+| **Carrinho** | Adiciona itens, vê total | Conferir antes de pagar | Taxa de entrega aparece tarde, "valor mínimo" surge surpresa | Irritação | Mostrar taxa e mínimo desde o cardápio |
+| **Pagamento** | Escolhe forma, confirma | Pagar e fechar pedido | Cartão recusado sem explicação, 2FA do banco demora | Ansiedade alta | Adicionar débito em conta e boleto como alternativas ao cartão, mostrar erro específico por tipo ("cartão sem limite" vs "dados incorretos" vs "banco bloqueou"), salvar tentativas no carrinho |
+| **Espera** | Acompanha entrega no mapa | Saber quando chega | Mapa não atualiza em tempo real nos primeiros 10min | Inquietação | Streaming de status mais granular, comunicação proativa de atrasos |
+| **Recebimento** | Recebe entrega, avalia | Comer e avaliar | Pedido errado / faltando item — sem caminho claro de queixa | Raiva | Botão "tem problema?" no mesmo card do pedido |
+| **Pós-uso** | Recebe email pedindo nota | Avaliar (se lembrar) | Email genérico chega 3 dias depois | Apatia | Pedir nota in-app logo após entrega, com 1-tap |
+
+**Insight do caso.** A jornada revelou que **a maior queda de conversão acontecia entre Pagamento e Espera** — clientes davam tudo certo até o pagamento, e quando o cartão era recusado sem explicação, abandonavam. Isso levou a três decisões: (1) adicionar débito em conta e boleto bancário como alternativas ao cartão recusado — formas de pagamento mais acessíveis para o ICP em 2017; (2) mensagens de erro específicas ("cartão sem limite" vs "dados incorretos" vs "banco bloqueou"); (3) salvar carrinho mesmo após falha — cliente não precisava recomeçar do zero. **A lição: Customer Journey Canvas frequentemente revela que o problema não está onde a equipe achava (qualidade de cardápio? variedade?) mas em transição específica que ninguém estava monitorando (o segundo entre "click pagar" e "pedido confirmado").**
+
+##### Variações e extensões
+
+- **Service Blueprint**: extensão do Customer Journey adicionando "linha de visibilidade" — o que o cliente vê (frontstage) vs o que acontece nos bastidores (backstage). Útil para ops e suporte.
+- **Multi-persona Journey Map**: mesma jornada vista por 2-3 personas distintas (decisor vs usuário em B2B; comprador vs presenteado em B2C).
+- **Future-State Journey Map**: jornada como queremos que seja em 12-18 meses, ao lado da atual. Útil para roadmap.
+
+##### Erros comuns
+
+- Mapear a jornada que a empresa quer (frictionless, lógica) em vez da que existe (fragmentada, cheia de workarounds) — desconectado do cliente real.
+- Começar muito tarde (no momento da compra) — perde o gatilho que define quem chega ao site.
+- Tratar como artefato estático — mercados e canais mudam (rise do TikTok como descoberta, do PIX como pagamento, do WhatsApp como suporte); jornada precisa atualização.
+- Otimizar pontos isolados sem ver consequências em pontos seguintes — onboarding mais rápido pode produzir mais churn em 30 dias.
+- Não medir — Customer Journey sem dados é hipótese; precisa NPS por etapa, conversão entre etapas, tempo médio em cada etapa.
+
+##### Quando NÃO usar
+
+Em produtos transacionais simples sem relacionamento contínuo (vending machine, compra one-shot de baixo valor) — overhead não compensa. Em mercados B2B enterprise muito longos (ciclo de venda 12+ meses) — Customer Journey vira documento de 50 páginas que ninguém lê; melhor abordar com sequence diagram do processo de compra.
+
+##### Conexão com outros canvases
+
+O Customer Journey Canvas **pareia com o Empathy Map (Fase 4)**: Empathy Map é estado; Customer Journey é trajetória. **Alimenta o VPC (Fase 5)**: pontos de dor da jornada viram Pains do Customer Profile. **Alimenta o Pirate Canvas / AARRR (Fase 11)**: as etapas da jornada mapeiam diretamente para Acquisition → Activation → Retention → Referral → Revenue. **Sucede o BMC (Fase 2)**: BMC mapeia o modelo; Customer Journey mapeia a experiência operacional do cliente dentro desse modelo.
+
+##### Leitura adicional
+
+- *This Is Service Design Doing* (Marc Stickdorn, Markus Edgar Hormess, Adam Lawrence, Jakob Schneider, 2018).
+- *Mapping Experiences* (James Kalbach, 2nd ed. 2020) — manual extensivo sobre todos os tipos de mapas de experiência.
+- [servicedesigntools.org](https://servicedesigntools.org) — biblioteca de templates open-source.
+
+---
+
 ### TEMPLATES OPERACIONAIS E CASOS PREENCHIDOS DESTA FASE
 
 #### Template: Scorecard de PMF
@@ -3188,6 +4134,50 @@ DIAGNOSTICO
 DECISAO
 [ ] PMF confirmado, escalar com cuidado
 [ ] PMF ainda nao, qual lacuna especifica?
+```
+
+---
+
+#### Template: Persona com dados
+
+**Para que serve.** Sintetiza o ICP em um arquétipo único ancorado em evidência de entrevistas reais, com motivações, frustrações, JTBDs e citação verbatim, em vez de persona inventada de workshop.
+
+**Quando usar.** Após executar 15 a 30 entrevistas de problema (Template da Fase 4) e consolidar a rodada (Template da Fase 4). Atualize sempre que descobrir um novo padrão de comportamento ou que o ICP for refinado por filtragem de anti-perfil.
+
+**Exemplo de preenchimento.** Persona "Carla, gerente de operações". Contexto, "trabalha em rede de 12 farmácias regionais, responde direto ao dono". Motivações, "ser confiável, não deixar furo de estoque". Frustrações, "fechar inventário no fim do mês toma um sábado inteiro". Comportamento observado, "exporta planilha do ERP e refaz manual no Excel mesmo tendo módulo nativo". JTBD, "quando fecho o mês, quero conferir estoque sem refazer cálculo, para que eu não trabalhe no sábado". Citação, "eu não confio no sistema, então sempre faço de novo na mão".
+
+```text
+PERSONA: [nome fictício]
+
+Contexto profissional/pessoal
+___________________________________________
+
+Perfil demográfico
+___________________________________________
+
+Motivações principais (do que se importa)
+1) _______________________________________
+2) _______________________________________
+
+Frustrações principais
+1) _______________________________________
+2) _______________________________________
+
+Comportamentos observados (não declarados)
+1) _______________________________________
+2) _______________________________________
+
+Ferramentas/canais/fontes que usa
+___________________________________________
+
+JTBDs prioritários
+1) Quando _____, eu quero _____, para que _____.
+2) Quando _____, eu quero _____, para que _____.
+
+Citação verbatim representativa
+"___________________________________________"
+
+Base de evidência: [quantas entrevistas, quais]
 ```
 
 ---
@@ -4746,16 +5736,16 @@ O que não cortar em nenhum estágio: consistência. Uma marca inconsistente, co
 
 - [[IGNICAO-Vol-2-Descoberta-e-Mercado#CAPÍTULO 2 — INTELIGÊNCIA COMPETITIVA — MONITORAMENTO, ANÁLISE E RESPOSTA|Capítulo 2 — Inteligência Competitiva — Monitoramento, Análise e Resposta (Vol. 2)]]
 - [[IGNICAO-Vol-2-Descoberta-e-Mercado#CAPÍTULO 1 — PSICOLOGIA DO CONSUMIDOR BRASILEIRO — COMPORTAMENTO, DECISÃO E CONVERSÃO|Capítulo 1 — Psicologia do Consumidor Brasileiro — Comportamento, Decisão e Conversão (Vol. 2)]]
-- [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#ÍNDICE GERAL DE FRAMEWORKS DA COLEÇÃO|Ferramentário Completo do Empreendedor (Vol. 10)]]
-- [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 5 — PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY)|Fase 5 — Posicionamento e Proposta de Valor (Vol. 2)]]
-- [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 9 — IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES|Fase 9 — Go-to-Market e Aquisição (Vol. 3)]]
+- [[#MANUAL PASSO A PASSO DOS FRAMEWORKS DESTA FASE|Manual Passo a Passo dos Frameworks desta Fase]]
+- [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 6 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 6 — Mapeamento de Mercado e Concorrência (Vol. 2)]]
+- [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 15 — MÁQUINA DE CRESCIMENTO E EXPANSÃO EM ESCALA|Fase 15 — Máquina de Crescimento e Expansão em Escala (Vol. 6)]]
 
 ---
 
 ## CAPÍTULO 7 — PRODUCT MARKETING: POSICIONAMENTO, MENSAGEM E LANÇAMENTO
 
 > [!note] Posição no livro
-> Este capítulo complementa o [[#CAPÍTULO 1 — GTM PLAYBOOK: DA IDEIA AO PRIMEIRO MILHÃO DE ARR|Capítulo 1 — GTM Playbook]], o [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 1 — BOARD E GOVERNANCE|Capítulo 1 — Métricas de Crescimento (Vol. 9)]] e o [[#CAPÍTULO 6 — BRANDING E POSICIONAMENTO DE MARCA PARA STARTUPS|Capítulo 6 — Branding e Posicionamento]] (Posicionamento estratégico de longo prazo, do qual a Mensagem aqui derivada). É referência para fundadores que precisam definir posicionamento, construir mensagem e estruturar lançamentos de produto. Leia junto com a [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 5 — PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY)|Fase 5 — Validação de Mercado (Vol. 2)]] e a [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 6 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 6 — Go-to-Market (Vol. 2)]].
+> Este capítulo complementa o [[#CAPÍTULO 1 — GTM PLAYBOOK: DA IDEIA AO PRIMEIRO MILHÃO DE ARR|Capítulo 1 — GTM Playbook]], o [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 1 — BOARD E GOVERNANCE|Capítulo 1 — Métricas de Crescimento (Vol. 9)]] e o [[#CAPÍTULO 6 — BRANDING E POSICIONAMENTO DE MARCA PARA STARTUPS|Capítulo 6 — Branding e Posicionamento]] (Posicionamento estratégico de longo prazo, do qual a Mensagem aqui derivada). É referência para fundadores que precisam definir posicionamento, construir mensagem e estruturar lançamentos de produto. Leia junto com a [[#FASE 11 — MVP E EXPERIMENTOS DE MERCADO|Fase 11 — MVP e Experimentos de Mercado]] e a [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 15 — MÁQUINA DE CRESCIMENTO E EXPANSÃO EM ESCALA|Fase 15 — Máquina de Crescimento e Expansão em Escala (Vol. 6)]].
 
 > [!important] Escopo deste capítulo versus DX
 > Product Marketing (este capítulo) é a disciplina **operacional** de Mensagem e Lançamento, em ciclos curtos (semanas, sprints, releases). Trabalha com a metodologia April Dunford, win/loss interviews, messaging architecture e sales enablement. Branding e Posicionamento ([[#CAPÍTULO 6 — BRANDING E POSICIONAMENTO DE MARCA PARA STARTUPS|Capítulo 6 (BRANDING E POSICIONAMENTO DE MARCA PARA STARTUPS)]]) é a disciplina **estratégica** de Marca e Posicionamento Competitivo, em ciclos longos (anos), com VRIO, Crossing the Chasm, JTBD, identidade verbal e visual e brand equity. EA pressupõe DX, e quando os dois divergem, DX prevalece (Mensagem deriva de Posicionamento, não o contrário).
@@ -8147,3 +9137,306 @@ A diferença entre os dois é disciplina. Evidência antes da decisão. Tese esp
 
 > [!info] Fases relacionadas
 > Referenciado em: Fase 15.
+
+---
+
+# GLOSSÁRIO E SIGLAS DESTE VOLUME
+
+> [!abstract] Vocabulário técnico e siglas deste volume
+> Para garantir que este **Volume 4** funcione de forma 100% independente e autocontida sem exigir consulta a outro livro, esta seção reúne as definições dos **91 termos técnicos e de negócios** e das **52 siglas e abreviações** utilizados ao longo das Fases e Capítulos deste volume.
+
+---
+
+## GLOSSÁRIO E SIGLAS DESTE VOLUME
+
+### Termos Técnicos e de Negócios Usados neste Volume
+
+**ACV (Annual Contract Value).** Valor anual de um contrato com cliente. Usado em vendas B2B para dimensionar deals e calcular receita por cliente.
+
+**Advisor.** Conselheiro externo que orienta o fundador em áreas específicas (técnica, comercial, regulatória, captação). Tipicamente compensado com 0,1% a 1% de equity sob contrato FAST.
+
+**Aha moment.** Momento em que o usuário percebe pela primeira vez o valor central do produto. Ponto crítico da etapa de ativação no funil AARRR.
+
+**Anti-dilution.** Cláusula societária que protege investidores de diluição em rodadas futuras a valuation menor. Variantes: full ratchet (ajuste integral) e weighted average (mais comum, ajuste ponderado).
+
+**ARR (Annual Recurring Revenue).** Receita anual recorrente. Soma de todos os contratos ativos anualizados. Principal métrica de tamanho de empresa SaaS. ARR = MRR × 12.
+
+**Assumption Mapping.** Técnica de mapeamento e priorização de hipóteses por importância e nível de evidência. Originada por David Bland (2019). Ver Framework: Assumption Mapping (David J. Bland, 2019) (Fase 7).
+
+**BATNA (Best Alternative to a Negotiated Agreement).** Melhor alternativa caso a negociação não resulte em acordo. Quanto melhor o BATNA, mais poder o negociador tem. Conceito central de Fisher e Ury (Getting to Yes, 1981).
+
+**Beachhead.** Segmento inicial de mercado onde a empresa concentra esforços antes de expandir. Derivado da estratégia militar (cabeça de praia). O beachhead deve ser pequeno o suficiente para ser dominado, mas grande o suficiente para financiar a expansão.
+
+**Board.** Conselho de administração. Órgão de governança da empresa. Em startups, tipicamente 3-5 membros: fundadores, investidores e independentes.
+
+**Burn Multiple.** Net burn (caixa gasto) dividido por net new ARR gerado. Mede eficiência de queima de caixa. Referência: ≤ 1.5x excelente, ≤ 2.5x aceitável, acima de 3x preocupante.
+
+**Burn rate.** Velocidade de consumo de caixa por mês. Caixa disponível dividido pelo burn rate mensal = runway.
+
+**CAC (Customer Acquisition Cost).** Custo total de marketing e vendas dividido pelo número de novos clientes no período. Calculado por canal para diagnóstico preciso, não apenas blended.
+
+**CAC Payback.** Número de meses necessários para recuperar o CAC com a margem bruta gerada pelo cliente. Referência: ≤ 12 meses B2C, ≤ 18 meses B2B enterprise.
+
+**Cap table (Tabela de capitalização).** Documento que registra a estrutura de propriedade de uma empresa: quem tem quantas ações, de qual classe, com qual vesting e a que preço foram emitidas.
+
+**Churn.** Taxa de cancelamento ou perda de clientes ou receita em um período. Churn de clientes: percentual de clientes que cancelaram. Churn de receita (MRR churn): percentual da receita mensal perdida por cancelamentos e downgrades.
+
+**Cliff (de vesting).** Período inicial de vesting em que nenhuma parte da participação veste. Tipicamente 12 meses para cofundadores e funcionários: se sair antes de 1 ano, não recebe nada.
+
+**Closing.** Momento de assinatura e execução de uma transação (rodada de investimento, M&A). Marca a transferência efetiva de capital e participação. Tipicamente precedido por due diligence, term sheet e SPA.
+
+**Cofundador.** Pessoa que funda a empresa em conjunto com um ou mais sócios desde o início. No Brasil, distinto de "co-founder" — usar termo em português é a convenção do livro.
+
+**COGS (Cost of Goods Sold).** Custo dos produtos ou serviços vendidos. Em SaaS: custos de infraestrutura, suporte e serviços diretamente vinculados à entrega. Determina a margem bruta.
+
+**Compliance.** Conformidade regulatória. Em startups, refere-se à aderência a normas de LGPD, anticorrupção, trabalhistas, fiscais e setoriais. Capítulo 12 (Vol. 8) (COMPLIANCE E ANTICORRUPÇÃO PARA STARTUPS) trata de Compliance e Anticorrupção em profundidade.
+
+**Continuous discovery.** Prática de pesquisa contínua com usuários integrada ao ciclo de desenvolvimento de produto, em vez de pesquisas pontuais. Conceito de Teresa Torres. Ver Framework: Continuous Discovery Habits (Teresa Torres, 2021) (Fase 13).
+
+**CRM (Customer Relationship Management).** Sistema de gestão de relacionamento com clientes. Registra interações, pipeline de vendas e histórico do cliente. Exemplos: Salesforce, HubSpot, Pipedrive.
+
+**DAU/MAU.** Proporção de usuários ativos diários sobre usuários ativos mensais. Indica frequência de uso do produto. ≥ 20% é referência para produto de uso frequente.
+
+**Dilution.** Redução da participação percentual de um acionista em decorrência de novas emissões de ações. Ocorre em cada rodada de captação.
+
+**Down round.** Rodada de captação a valuation menor que o da rodada anterior. Penaliza fundadores e investidores anteriores.
+
+**DPA (Data Processing Agreement).** Acordo de processamento de dados pessoais entre controlador e operador, exigido pela LGPD quando há transferência de dados a terceiro processador.
+
+**Drag-along.** Cláusula societária que permite ao acionista majoritário forçar os minoritários a vender suas participações nas mesmas condições, em caso de venda da empresa.
+
+**Dual-Track Agile.** Modelo em que descoberta (discovery) e entrega (delivery) rodam em trilhos paralelos, alimentando-se mutuamente. Conceito de Marty Cagan.
+
+**Due diligence (DD).** Processo de investigação e verificação de informações sobre empresa-alvo antes de investimento ou aquisição. Cobre dimensões financeiras, jurídicas, operacionais, tecnológicas e tributárias.
+
+**Earnout.** Parte do preço de aquisição condicionada ao atingimento de metas pós-closing. Tipicamente 20-40% do deal value, pago ao longo de 12 a 36 meses.
+
+**EBITDA.** Lucro antes de juros, impostos, depreciação e amortização. Métrica de geração operacional de caixa, usada em valuation por múltiplos (EV/EBITDA) e em covenants bancários.
+
+**ERP (Enterprise Resource Planning).** Sistema de gestão integrada que centraliza processos operacionais como financeiro, estoque, RH e produção. Exemplos: SAP, Totvs, Oracle.
+
+**ESOP (Employee Stock Option Plan).** Plano de outorga de opções de ações a funcionários. Tipicamente reserva de 10-20% do cap table para o pool. Mecanismo central de retenção em startups.
+
+**Exit.** Saída do fundador ou investidor da empresa, geralmente via M&A, IPO ou secondary.
+
+**FMF (Founder-Market Fit).** Alinhamento entre o perfil, experiência e motivação do fundador e as características do problema e mercado que a empresa ataca. Primeiro filtro de avaliação de ideia.
+
+**FP&A (Financial Planning & Analysis).** Função financeira responsável por planejamento, orçamento e análise de variâncias. Em startups, surge tipicamente após Série B.
+
+**Freemium.** Modelo de negócio com camada gratuita permanente e camada paga com funcionalidades avançadas. Taxa de conversão típica: 2 a 5% dos usuários gratuitos.
+
+**GMV (Gross Merchandise Value).** Volume bruto de transações processadas em uma plataforma. A receita da plataforma é o take rate aplicado sobre o GMV.
+
+**Go-to-market (GTM).** Estratégia de como a empresa leva o produto ao mercado: quais segmentos atacar, por quais canais, com qual motion de vendas e posicionamento.
+
+**GRR (Gross Revenue Retention).** Percentual da receita mantida de um período para o outro, excluindo expansão. Mede churn puro. GRR ideal: acima de 90% em B2B.
+
+**Headcount.** Número total de funcionários de uma empresa.
+
+**ICP (Ideal Customer Profile).** Perfil ideal do cliente: a empresa ou pessoa para quem o produto foi especificamente construído e que extrai mais valor dele. Mais específico que persona, que é mais específico que segmento.
+
+**IP (Intellectual Property).** Propriedade intelectual: patentes, marcas registradas, código-fonte, segredos comerciais. Em startups, instrumento de cessão de IP do fundador para a empresa é cláusula obrigatória de contrato societário.
+
+**IPO (Initial Public Offering).** Oferta pública inicial — abertura de capital na bolsa de valores. No Brasil, na B3. Tipicamente alvo de empresas com ARR ≥ R$ 300 milhões e crescimento ≥ 30% YoY.
+
+**JTBD (Jobs to be Done).** Framework de pesquisa que entende comportamento do consumidor como contratação de produtos para realizar um "trabalho" funcional, emocional ou social. Originado por Tony Ulwick (Strategyn, 1990, aplicando Six Sigma à inovação), popularizado por Clayton Christensen em *The Innovator's Solution* (2003), e operacionalizado em Switch Interviews por Bob Moesta. Ver Framework: Jobs to Be Done Framework (Clayton Christensen, Anthony Ulwick, Bob Moesta) (Fase 12) e Framework: Jobs to Be Done Switch Interviews (Bob Moesta & Chris Spiek, via Clayton Christensen) (Fase 5).
+
+**Lead.** Potencial cliente que demonstrou interesse inicial. Pode ser MQL (Marketing Qualified Lead) ou SQL (Sales Qualified Lead) dependendo do nível de qualificação.
+
+**LGPD (Lei Geral de Proteção de Dados).** Lei 13.709/2018 que regula o tratamento de dados pessoais no Brasil. Multa máxima: 2% do faturamento, limite R$ 50 milhões por infração. Fiscalizada pela ANPD.
+
+**Liquidation preference.** Direito dos investidores preferenciais de receber seu investimento de volta (com ou sem juros) antes dos fundadores e acionistas ordinários em caso de exit. Pode ser 1x, 2x ou mais.
+
+**LTV (Lifetime Value).** Valor presente líquido da receita gerada por um cliente ao longo de toda a sua relação com a empresa. LTV/CAC ≥ 3x é referência para modelo sustentável.
+
+**M&A (Mergers and Acquisitions).** Fusões e aquisições. Caminho mais comum de exit para startups brasileiras.
+
+**Magic Number.** Net new ARR do período dividido pelo investimento em Sales & Marketing do período anterior. Mede eficiência de crescimento. ≥ 0.75 indica que escalar gasto em GTM faz sentido.
+
+**Margem bruta.** (Receita - COGS) / Receita. Em SaaS: tipicamente 65-80%. Em marketplace: 30-50%. Em hardware: 30-55%.
+
+**Market fit.** Versão mais ampla de PMF que inclui adequação ao momento de mercado, não apenas ao produto.
+
+**MEDDPICC.** Framework de qualificação de oportunidades em vendas enterprise: Metrics, Economic buyer, Decision criteria, Decision process, Paper process, Identify pain, Champion, Competition.
+
+**MoM (Month over Month).** Crescimento mês a mês. Em early-stage, crescimento saudável é ≥ 10% MoM sustentado.
+
+**Moat.** Barreira competitiva difícil de replicar. Pode ser efeito de rede, custo de troca, marca, escala, IP ou regulação. Conceito popularizado por Warren Buffett. Ver Framework: 7 Powers (Hamilton Helmer, 2016) (Fase 6).
+
+**MQL (Marketing Qualified Lead).** Lead qualificado pelo marketing com base em critérios de engajamento, mas ainda não abordado pelo time de vendas.
+
+**MRR (Monthly Recurring Revenue).** Receita recorrente mensal. Soma de todos os contratos ativos, normalizada para mensal.
+
+**MVP (Minimum Viable Product).** Versão mínima do produto com funcionalidades suficientes para validar hipóteses críticas com usuários reais e coletar feedback. Não é produto incompleto: é produto deliberadamente mínimo.
+
+**Net Revenue Retention (NRR).** Percentual da receita mantida e expandida em coorte de clientes existentes. Inclui upsell, cross-sell, expansão de seats e desconta churn e downgrades. NRR ≥ 110% indica crescimento orgânico da base.
+
+**NPS (Net Promoter Score).** Métrica de lealdade e satisfação. Pergunta: "Em escala de 0 a 10, o quanto você recomendaria [empresa/produto] para um amigo?" Promotores (9-10) menos Detratores (0-6) = NPS. Referência: ≥ 40 consumer, ≥ 30 enterprise.
+
+**OKR (Objectives and Key Results).** Framework de definição de metas com objetivo qualitativo e resultados-chave mensuráveis. Criado na Intel por Andy Grove, popularizado pelo Google. Ver Frameworks da Fase 19.
+
+**Onboarding.** Processo de entrada e ativação de um novo usuário ou colaborador. Onboarding de cliente: caminho do cadastro até o "aha moment". Onboarding de funcionário: integração nas primeiras 4-12 semanas.
+
+**Outbound.** Motion de vendas onde a empresa ativamente prospecta clientes, em vez de esperar inbound. Inclui cold outreach, SDRs e prospecção ativa.
+
+**Pivot.** Mudança estrutural de uma ou mais dimensões do modelo de negócio (cliente, problema, solução, canal, modelo de receita) mantendo aprendizados anteriores. Diferente de pivô cosmético (renomear) e de "abandonar".
+
+**PLG (Product-Led Growth).** Motion de crescimento onde o produto é o principal veículo de aquisição, conversão e expansão. Produto gera valor suficiente para que usuário traga outros usuários. Contraposto a SLG (Sales-Led Growth).
+
+**PMF (Product-Market Fit).** Momento em que produto e mercado se encaixam: produto resolve dor real de segmento identificado de forma que gera retenção, engajamento e crescimento orgânico. Diagnóstico central da [[#FASE 13 — PRODUCT-MARKET FIT|Fase 13]].
+
+**Positioning.** Posicionamento — escolha estratégica de como a empresa quer ser percebida em relação a concorrentes e alternativas, na mente do cliente.
+
+**Post-mortem.** Análise retrospectiva de falha ou incidente, com foco em aprendizado sistêmico em vez de atribuição de culpa. Blameless post-mortem é variante que explicitamente remove julgamento pessoal.
+
+**Ratchet.** Mecanismo de proteção do investidor que ajusta sua participação para cima se a empresa não atingir metas. Gerado por rodadas de valorização ou metas de performance não atingidas.
+
+**RBF (Revenue-Based Financing).** Financiamento em que a empresa devolve um múltiplo do principal como percentual da receita futura, em vez de juros fixos. Não-diluitivo. Exemplos no Brasil: a55, Capital Empreendedor.
+
+**Retenção por coorte.** Análise de quanto um grupo de usuários adquiridos no mesmo período continua ativo ao longo do tempo. Curva que estabiliza (não vai a zero) é o sinal central de PMF.
+
+**ROI (Return on Investment).** Retorno sobre investimento. (Ganho - Custo) / Custo. Métrica genérica de eficiência de capital aplicado.
+
+**Rule of 40.** Crescimento percentual de ARR somado com margem EBITDA percentual. Startups saudáveis em escala devem ter Rule of 40 ≥ 40. Criada para avaliar trade-off entre crescimento e lucratividade.
+
+**Runway.** Número de meses antes de a empresa ficar sem caixa, considerando o burn rate atual. Referência: mínimo 12 meses após rodada, ideal 18 a 24 meses.
+
+**Scenario Planning.** Planejamento por cenários — método desenvolvido pela Royal Dutch Shell nos anos 1970 para preparar a empresa para múltiplos futuros plausíveis, em vez de apostar em uma única previsão. Ver Framework: Scenario Planning (Pierre Wack na Royal Dutch Shell, anos 1970) (Fase 19) e [[#CAPÍTULO 16 — PIVOT: TIPOLOGIA, DECISÃO E EXECUÇÃO|Capítulo 16 (PIVOT: TIPOLOGIA, DECISÃO E EXECUÇÃO)]] (cenários como antessala da decisão de pivot).
+
+**Seed.** Rodada de captação inicial de startup. No Brasil, tipicamente R$ 1 milhão a R$ 10 milhões, de fundos seed ou anjos, para validar PMF e motor inicial de crescimento.
+
+**Shape Up.** Metodologia de produto da Basecamp (Ryan Singer, 2019). Ciclos fixos de 6 semanas, escopo flexível, autonomia da equipe. Alternativa ao Scrum. Ver Framework: Shape Up (Ryan Singer / Basecamp, 2019) (Fase 13) e [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 1 — PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA|Capítulo 1 (PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA) (Vol. 7)]] (Shape Up aplicado ao contexto de produto em escala).
+
+**SLA (Service Level Agreement).** Acordo de nível de serviço. Define métricas de disponibilidade, performance e tempo de resposta que a empresa se compromete a manter. Violações geram créditos ou penalidades.
+
+**SLG (Sales-Led Growth).** Motion de crescimento liderado por vendas. Empresa investe em time comercial (SDRs, AEs) que prospecta e fecha contratos. Contraposto a PLG.
+
+**SPIN Selling.** Método de vendas consultivas de Neil Rackham baseado em quatro tipos de pergunta: Situation, Problem, Implication, Need-payoff. Ver Framework: SPIN Selling (Neil Rackham, 1988) (Fase 15) e [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 2 — VENDAS COMPLEXAS ENTERPRISE: CICLO LONGO, ALTO VALOR, MÚLTIPLOS DECISORES|Capítulo 2 (VENDAS COMPLEXAS ENTERPRISE: CICLO LONGO, ALTO VALOR, MÚLTIPLOS DECISORES) (Vol. 6)]] (SPIN Selling em vendas consultivas enterprise).
+
+**SQL (Sales Qualified Lead).** Lead qualificado pelo time de vendas como oportunidade real. Critérios BANT: Budget, Authority, Need, Timeline.
+
+**Tag-along.** Cláusula que garante ao acionista minoritário o direito de vender suas ações nas mesmas condições que o majoritário em caso de venda. Proteção do minoritário.
+
+**TAM (Total Addressable Market).** Mercado total endereçável: receita máxima possível se a empresa capturasse 100% do mercado. Calculado preferencialmente bottom-up.
+
+**Term sheet.** Documento que resume os termos comerciais de uma rodada de investimento ou M&A antes do contrato definitivo. Não vinculante na maior parte das cláusulas, mas vinculante em exclusividade e confidencialidade.
+
+**Unit economics.** Métricas de rentabilidade no nível da unidade básica do negócio (um cliente, uma transação, um produto). CAC, LTV, margem por transação, payback period.
+
+**Valuation.** Valor estimado de uma empresa. Em startups privadas, determinado por rodadas de captação. Pode ser calculado por múltiplos (EV/ARR, EV/EBITDA), DCF ou transações comparáveis.
+
+**Venture Debt.** Financiamento por dívida para startups que já captaram equity. Concedido por bancos especializados (Silicon Valley Bank historicamente) ou fundos de venture debt. Não-diluitivo, mas exige garantias e covenants.
+
+**Vesting.** Mecanismo pelo qual a participação em uma empresa é ganha gradualmente ao longo do tempo. Vesting padrão: 4 anos com 1 ano de cliff. Protege a empresa se fundador ou funcionário sai cedo.
+
+**Wedge.** Ponto de entrada no mercado. Nicho inicial onde a empresa tem vantagem diferenciada e a partir do qual pode expandir. Estratégia de entrar pequeno para sair grande.
+
+**ZOPA (Zone of Possible Agreement).** Zona de acordo possível em negociação: sobreposição entre o mínimo aceitável de uma parte e o máximo aceitável da outra. Conceito de Fisher e Ury (Getting to Yes, 1981).
+
+---
+
+### Siglas e Abreviações Usadas neste Volume
+
+**AARRR:** Acquisition, Activation, Retention, Referral, Revenue (framework de métricas de growth, Dave McClure). *Growth.*
+
+**AB / A/B:** teste A/B: experimento controlado comparando duas variantes. *Experimentação.*
+
+**API:** Application Programming Interface. *Tecnologia.*
+
+**ARR:** Annual Recurring Revenue (receita recorrente anual). *SaaS / métricas.*
+
+**B2B:** Business-to-Business. *Modelo de negócio.*
+
+**B2B2C:** Business-to-Business-to-Consumer. *Modelo de negócio.*
+
+**B2C:** Business-to-Consumer. *Modelo de negócio.*
+
+**BACEN:** Banco Central do Brasil. *Regulação.*
+
+**BMC:** Business Model Canvas. *Estratégia / modelagem de negócio.*
+
+**BNDES:** Banco Nacional de Desenvolvimento Econômico e Social. *Financiamento.*
+
+**CAC:** Customer Acquisition Cost (custo de aquisição de cliente). *Unit economics.*
+
+**CEO:** Chief Executive Officer. *Gestão.*
+
+**CFO:** Chief Financial Officer. *Gestão.*
+
+**CLT:** Consolidação das Leis do Trabalho (regime trabalhista brasileiro com vínculo formal). *Trabalho.*
+
+**CMO:** Chief Marketing Officer. *Gestão.*
+
+**COGS:** Cost of Goods Sold (equivalente em inglês ao CMV). *Finanças.*
+
+**CPO:** Chief Product Officer. *Gestão.*
+
+**CRM:** Customer Relationship Management (sistema ou prática). *Vendas.*
+
+**DPA:** Data Processing Agreement (adendo contratual de dados). *LGPD.*
+
+**EBITDA:** Earnings Before Interest, Taxes, Depreciation and Amortization. *Finanças.*
+
+**GMV:** Gross Merchandise Value (volume bruto de transações). *Marketplaces.*
+
+**ICP:** Ideal Customer Profile. *Vendas e marketing.*
+
+**IPCA:** Índice de Preços ao Consumidor Amplo (indicador de inflação). *Economia brasileira.*
+
+**IPO:** Initial Public Offering (abertura de capital em bolsa). *Exit.*
+
+**JTBD:** Jobs To Be Done. *Framework de produto.*
+
+**LGPD:** Lei Geral de Proteção de Dados (Lei 13.709/2018). *Regulação.*
+
+**LTV:** Lifetime Value (valor vitalício de cliente). *Unit economics.*
+
+**M&A:** Mergers and Acquisitions (fusões e aquisições). *Exit.*
+
+**MEI:** Microempreendedor Individual. *Regulação.*
+
+**MQL:** Marketing Qualified Lead. *Vendas.*
+
+**MRR:** Monthly Recurring Revenue. *SaaS / métricas.*
+
+**MVP:** Minimum Viable Product (produto mínimo viável). *Produto.*
+
+**NPS:** Net Promoter Score (métrica de recomendação). *Satisfação.*
+
+**OKR:** Objectives and Key Results. *Planejamento.*
+
+**PIX:** sistema de pagamentos instantâneos do BACEN. *Pagamentos Brasil.*
+
+**PJ:** Pessoa Jurídica (regime de contratação). *Trabalho.*
+
+**PLG:** Product-Led Growth. *Growth.*
+
+**PM:** Product Manager. *Produto.*
+
+**PMF:** Product-Market Fit. *Conceito central.*
+
+**RBF:** Revenue-Based Financing. *Captação não-diluitiva.*
+
+**RFP:** Request for Proposal. *Vendas B2B.*
+
+**ROI:** Return on Investment. *Finanças.*
+
+**SaaS:** Software as a Service. *Modelo de negócio.*
+
+**SDR:** Sales Development Representative. *Vendas.*
+
+**SMB:** Small and Medium Business. *Segmento.*
+
+**SQL:** Sales Qualified Lead. *Vendas.*
+
+**SWOT:** Strengths, Weaknesses, Opportunities, Threats. *Estratégia.*
+
+**TAM / SAM / SOM:** Total Addressable Market, Serviceable Addressable Market, Serviceable Obtainable Market. *Estratégia de mercado.*
+
+**VC:** Venture Capital. *Captação.*
+
+**VP:** Vice President. *Gestão.*
+
+**VPC:** Value Proposition Canvas. *Framework de produto.*
+
+**ZOPA:** Zone of Possible Agreement. *Negociação.*

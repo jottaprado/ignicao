@@ -394,8 +394,11 @@ const PHASE_CONFIG = {
     newHeading: 'FASE 0 — PREPARAÇÃO DO EMPREENDEDOR',
     cKey: 'FASE_0',
     bgs: ['BG.3.4', 'BG.2.11', 'BG.4.1', 'BG.4.7', 'BG.4.8', 'BG.5.3'],
+    sharedBgs: ['BG.5.4', 'BG.5.7'],
     czs: ['CZ.8'],
+    sharedCzs: [],
     as: ['A.28'],
+    sharedAs: [],
     eSubstrings: ['Leituras fundamentais', 'Ensaios canônicos de Paul Graham', 'Startups em 13 frases'],
   },
   FASE_1: {
@@ -403,8 +406,11 @@ const PHASE_CONFIG = {
     newHeading: 'FASE 1 — ENCONTRAR A IDEIA',
     cKey: 'FASE_1',
     bgs: ['BG.1.8', 'BG.2.4', 'BG.2.5', 'BG.4.3'],
+    sharedBgs: ['BG.6.1'],
     czs: ['CZ.2'],
+    sharedCzs: ['CZ.4'],
     as: [],
+    sharedAs: ['A.2', 'A.27'],
     eSubstrings: ['Frameworks e ferramentas úteis'],
   },
   FASE_2: {
@@ -412,8 +418,11 @@ const PHASE_CONFIG = {
     newHeading: 'FASE 2 — ARTICULAÇÃO E CAPTURA DA IDEIA',
     cKey: 'FASE_2',
     bgs: ['BG.2.1', 'BG.2.2', 'BG.2.7', 'BG.2.8', 'BG.4.4'],
+    sharedBgs: [],
     czs: ['CZ.1'],
+    sharedCzs: ['CZ.3', 'CZ.5'],
     as: ['A.1'],
+    sharedAs: [],
     eSubstrings: [],
   },
   FASE_2B: {
@@ -421,8 +430,11 @@ const PHASE_CONFIG = {
     newHeading: 'FASE 3 — CONSTRUÇÃO DA TEORIA DO NEGÓCIO',
     cKey: 'FASE_2B',
     bgs: ['BG.4.2', 'BG.4.5', 'BG.4.6', 'BG.5.1', 'BG.5.2', 'BG.5.8', 'BG.5.9'],
+    sharedBgs: [],
     czs: ['CZ.16'],
+    sharedCzs: ['CZ.14'],
     as: ['A.7', 'A.8', 'A.9'],
+    sharedAs: ['A.10'],
     eSubstrings: [],
   },
   FASE_3: {
@@ -430,8 +442,11 @@ const PHASE_CONFIG = {
     newHeading: 'FASE 4 — DESCOBERTA DO PROBLEMA',
     cKey: 'FASE_3',
     bgs: ['BG.6.1', 'BG.6.6', 'BG.6.7', 'BG.9.1', 'BG.9.2', 'BG.9.3'],
+    sharedBgs: ['BG.4.1', 'BG.4.4', 'BG.4.5', 'BG.5.1', 'BG.5.2'],
     czs: ['CZ.6'],
+    sharedCzs: [],
     as: ['A.2', 'A.27', 'A.30'],
+    sharedAs: ['A.28'],
     eSubstrings: [],
   },
   FASE_4: {
@@ -451,8 +466,11 @@ const PHASE_CONFIG = {
       'BG.11.1',
       'BG.11.8',
     ],
+    sharedBgs: ['BG.4.2'],
     czs: ['CZ.3', 'CZ.7'],
+    sharedCzs: ['CZ.1'],
     as: ['A.5', 'A.24', 'A.29'],
+    sharedAs: [],
     eSubstrings: [],
   },
   FASE_5: {
@@ -473,8 +491,11 @@ const PHASE_CONFIG = {
       'BG.12.7',
       'BG.12.12',
     ],
+    sharedBgs: ['BG.1.8', 'BG.2.1', 'BG.2.4', 'BG.2.5', 'BG.2.8'],
     czs: ['CZ.4', 'CZ.15', 'CZ.18'],
+    sharedCzs: ['CZ.20'],
     as: ['A.11', 'A.12'],
+    sharedAs: [],
     eSubstrings: [],
   },
   FASE_6: {
@@ -482,8 +503,11 @@ const PHASE_CONFIG = {
     newHeading: 'FASE 7 — FORMULAÇÃO RIGOROSA DE HIPÓTESES',
     cKey: 'FASE_6',
     bgs: ['BG.5.4', 'BG.5.6', 'BG.5.7', 'BG.5.10', 'BG.9.8'],
+    sharedBgs: ['BG.4.3', 'BG.4.4', 'BG.4.5', 'BG.4.7', 'BG.5.1', 'BG.5.2', 'BG.5.3'],
     czs: ['CZ.14'],
+    sharedCzs: ['CZ.16'],
     as: ['A.3', 'A.10'],
+    sharedAs: ['A.9'],
     eSubstrings: [],
   },
   FASE_7: {
@@ -491,8 +515,11 @@ const PHASE_CONFIG = {
     newHeading: 'FASE 8 — EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA E DA SOLUÇÃO',
     cKey: 'FASE_7',
     bgs: ['BG.10.11', 'BG.10.12', 'BG.10.13', 'BG.8.1', 'BG.8.2', 'BG.8.3'],
+    sharedBgs: ['BG.6.1', 'BG.6.2', 'BG.6.3', 'BG.9.7'],
     czs: ['CZ.9'],
+    sharedCzs: ['CZ.10'],
     as: ['A.4', 'A.19'],
+    sharedAs: ['A.11'],
     eSubstrings: [],
   },
   FASE_8: {
@@ -500,8 +527,11 @@ const PHASE_CONFIG = {
     newHeading: 'FASE 9 — IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES',
     cKey: 'FASE_8',
     bgs: ['BG.10.2', 'BG.10.3', 'BG.10.5', 'BG.10.14', 'BG.11.2', 'BG.11.7'],
+    sharedBgs: ['BG.9.4', 'BG.10.1'],
     czs: ['CZ.5', 'CZ.11'],
+    sharedCzs: ['CZ.1', 'CZ.2'],
     as: ['A.23', 'A.25'],
+    sharedAs: [],
     eSubstrings: [],
   },
   FASE_9: {
@@ -509,8 +539,11 @@ const PHASE_CONFIG = {
     newHeading: 'FASE 10 — TESTES DE SOLUÇÃO E USABILIDADE',
     cKey: 'FASE_9',
     bgs: ['BG.7.1', 'BG.7.2', 'BG.7.3', 'BG.7.4', 'BG.7.5', 'BG.7.6', 'BG.7.7'],
+    sharedBgs: [],
     czs: [],
+    sharedCzs: ['CZ.6'],
     as: ['A.6', 'A.20'],
+    sharedAs: [],
     eSubstrings: [],
   },
   FASE_10: {
@@ -518,8 +551,11 @@ const PHASE_CONFIG = {
     newHeading: 'FASE 11 — MVP E EXPERIMENTOS DE MERCADO',
     cKey: 'FASE_10',
     bgs: ['BG.10.8', 'BG.8.4', 'BG.12.1', 'BG.12.8', 'BG.12.11'],
+    sharedBgs: ['BG.8.1', 'BG.8.2', 'BG.10.9'],
     czs: ['CZ.10'],
+    sharedCzs: ['CZ.11'],
     as: ['A.21'],
+    sharedAs: ['A.6'],
     eSubstrings: [],
   },
   FASE_11: {
@@ -527,8 +563,11 @@ const PHASE_CONFIG = {
     newHeading: 'FASE 12 — VALIDAÇÃO DO MODELO DE NEGÓCIO',
     cKey: 'FASE_11',
     bgs: ['BG.8.5', 'BG.8.6', 'BG.8.7', 'BG.12.4', 'BG.12.9'],
+    sharedBgs: ['BG.1.2', 'BG.11.1', 'BG.18.11'],
     czs: ['CZ.13'],
+    sharedCzs: [],
     as: [],
+    sharedAs: [],
     eSubstrings: [],
   },
   FASE_12: {
@@ -546,8 +585,11 @@ const PHASE_CONFIG = {
       'BG.13.4',
       'BG.13.5',
     ],
+    sharedBgs: ['BG.9.2', 'BG.10.1', 'BG.10.4'],
     czs: [],
+    sharedCzs: ['CZ.7'],
     as: ['A.22'],
+    sharedAs: ['A.5'],
     eSubstrings: [],
   },
   FASE_14D: {
@@ -567,8 +609,11 @@ const PHASE_CONFIG = {
       'BG.18.10',
       'BG.18.11',
     ],
+    sharedBgs: [],
     czs: ['CZ.12', 'CZ.17'],
+    sharedCzs: [],
     as: ['A.14', 'A.17', 'A.18', 'A.32', 'A.33', 'A.37'],
+    sharedAs: ['A.31'],
     eSubstrings: [],
   },
   FASE_14C: {
@@ -587,8 +632,11 @@ const PHASE_CONFIG = {
       'BG.14.6',
       'BG.14.7',
     ],
+    sharedBgs: ['BG.12.1', 'BG.15.1', 'BG.18.1', 'BG.18.3', 'BG.18.4', 'BG.18.5'],
     czs: [],
+    sharedCzs: ['CZ.10', 'CZ.18'],
     as: ['A.13', 'A.15'],
+    sharedAs: ['A.14', 'A.32', 'A.33', 'A.37'],
     eSubstrings: [],
   },
   FASE_14A: {
@@ -612,8 +660,11 @@ const PHASE_CONFIG = {
       'BG.17.14',
       'BG.17.15',
     ],
-    czs: [],
+    sharedBgs: [],
+    czs: ['CZ.19'],
+    sharedCzs: ['CZ.8'],
     as: ['A.16', 'A.34', 'A.38', 'A.39'],
+    sharedAs: [],
     eSubstrings: [],
   },
   FASE_14B: {
@@ -642,8 +693,11 @@ const PHASE_CONFIG = {
       'BG.16.14',
       'BG.17.13',
     ],
-    czs: ['CZ.19'],
+    sharedBgs: ['BG.3.1', 'BG.10.2'],
+    czs: [],
+    sharedCzs: ['CZ.8', 'CZ.19'],
     as: ['A.26', 'A.35', 'A.36'],
+    sharedAs: [],
     eSubstrings: [],
   },
   FASE_13: {
@@ -651,8 +705,11 @@ const PHASE_CONFIG = {
     newHeading: 'FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL',
     cKey: 'FASE_13',
     bgs: [],
+    sharedBgs: ['BG.15.1', 'BG.15.2', 'BG.15.3', 'BG.15.4', 'BG.5.6', 'BG.5.7', 'BG.18.1'],
     czs: [],
+    sharedCzs: ['CZ.17'],
     as: [],
+    sharedAs: [],
     eSubstrings: [
       'Profissionais que você vai precisar',
       'Tipos de comunidades e recursos online',
@@ -664,8 +721,11 @@ const PHASE_CONFIG = {
     newHeading: 'FASE 19 — REINVENÇÃO E SEGUNDA CURVA',
     cKey: 'FASE_15',
     bgs: ['BG.2.6', 'BG.3.1', 'BG.3.2', 'BG.3.3', 'BG.19.1', 'BG.19.2', 'BG.19.3', 'BG.19.4'],
+    sharedBgs: ['BG.2.1', 'BG.2.4', 'BG.2.5', 'BG.11.1', 'BG.12.5'],
     czs: ['CZ.20'],
+    sharedCzs: ['CZ.4'],
     as: [],
+    sharedAs: [],
     eSubstrings: [],
   },
   FASE_16: {
@@ -673,8 +733,11 @@ const PHASE_CONFIG = {
     newHeading: 'FASE 20 — ESTRATÉGIA DE SAÍDA (EXIT STRATEGY)',
     cKey: 'FASE_16',
     bgs: [],
+    sharedBgs: ['BG.18.10', 'BG.18.9', 'BG.15.1', 'BG.5.3', 'BG.18.1', 'BG.18.5', 'BG.4.4'],
     czs: [],
+    sharedCzs: ['CZ.12', 'CZ.17'],
     as: ['A.31'],
+    sharedAs: [],
     eSubstrings: [],
   },
 };
@@ -697,6 +760,97 @@ const CHAPTER_EXTRAS = {
   CW: { eSubstrings: ['Apêndice CW'] },
 };
 
+// Limpa e padroniza a seção ### FERRAMENTAS DESTA FASE em todas as 21 Fases
+function cleanFerramentasSection(body, phaseKey, cfg) {
+  return body.replace(
+    /(^### FERRAMENTAS DESTA FASE\n)([\s\S]*?)(?=\n### |\n---\n\n### |(?![\s\S]))/m,
+    (_, hLine, rawContent) => {
+      // 0) Desembrulhar wikilinks antigos para APÊNDICE A/CZ/BG cujo alias contenha um código (ex: [[...#APÊNDICE A...|Apêndice A.19]])
+      let c = rawContent.replace(
+        /\[\[[^\]|]+\|(?:O\s+)?(?:Ap[êe]ndice\s+)?((?:BG\.\d+\.\d+|CZ\.\d+|A\.\d+)[^\]]*)\]\]/gi,
+        '$1'
+      );
+
+      // 1) Normalizar cabeçalhos internos "**Essenciais para...**"
+      c = c
+        .replace(/\*\*Essenciais para a Fase \d+:\*\*/g, `**Essenciais para a Fase ${cfg.newNum}:**`)
+        .replace(/\*\*Essenciais para (?:Time e Liderança|Operações|Crescimento e Capital):\*\*/g, `**Essenciais para a Fase ${cfg.newNum}:**`)
+        .replace(/\bsubfase\b/g, 'fase');
+
+      // 2) Remover instruções legadas do antigo Ferramentário BG / Apêndice CZ
+      c = c
+        .replace(
+          /Detalhamento completo de cada ferramenta no \[\[[^\]]+\]\]\s*\(catálogo de cento e quarenta e uma ferramentas[^)]*\)\./g,
+          'Todas as ferramentas abaixo estão detalhadas passo a passo na subseção **[[#MANUAL PASSO A PASSO DOS FRAMEWORKS DESTA FASE|Manual Passo a Passo dos Frameworks desta Fase]]** logo a seguir.'
+        )
+        .replace(
+          /Não é leitura linear, é referência consultiva\.\s*Quando a fase citar "ver BG\.X\.Y" ou "ver CZ\.N", abra o item, leia em três a cinco minutos e volte\./g,
+          'Todas estão detalhadas passo a passo logo a seguir nas subseções **[[#MANUAL PASSO A PASSO DOS FRAMEWORKS DESTA FASE|Manual Passo a Passo dos Frameworks desta Fase]]** e **[[#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvases Visuais desta Fase]]**.'
+        )
+        .replace(
+          /Canvases complementares no \[\[[^\]]+\]\]\s*\(CZ\.1 BMC,\s*CZ\.2 Lean Canvas,\s*CZ\.3 VPC,\s*CZ\.5 Opportunity Canvas\)\./g,
+          'Canvases visuais desta etapa: CZ.1, CZ.2, CZ.3 e CZ.5.'
+        )
+        .replace(
+          /A maioria (?:das ferramentas de research )?está no Ferramentário\s*\([^)]+\)\./g,
+          'Todas estão detalhadas passo a passo na subseção **[[#MANUAL PASSO A PASSO DOS FRAMEWORKS DESTA FASE|Manual Passo a Passo dos Frameworks desta Fase]]** logo a seguir.'
+        )
+        .replace(
+          /> \[!note\] Ferramentas específicas de entrevista\n> [^\n]+/g,
+          '> [!note] Ferramentas específicas de entrevista nesta fase\n> *The Mom Test*, *JTBD Switch Interviews*, *Laddering* e *Contextual Inquiry* estão detalhados passo a passo logo abaixo em **[[#MANUAL PASSO A PASSO DOS FRAMEWORKS DESTA FASE|Manual Passo a Passo dos Frameworks desta Fase]]**.'
+        )
+        .replace(
+          /> \[!note\] Métodos consagrados de pesquisa no Ferramentário\n> [^\n]+/g,
+          '> [!note] Métodos consagrados de pesquisa integrados nesta fase\n> A subseção **[[#MANUAL PASSO A PASSO DOS FRAMEWORKS DESTA FASE|Manual Passo a Passo dos Frameworks desta Fase]]** logo abaixo detalha passo a passo *JTBD Switch Interviews*, *Jobs to Be Done Framework*, *Contextual Inquiry*, *Ethnographic Research*, *Laddering*, *Personas*, *Customer Journey Mapping*, *Service Blueprinting* e *Kano Model*.'
+        )
+        .replace(
+          /;\s*o restante fica como referência consultiva(?: no Apêndice BG[^\n.]*)?\./g,
+          ' — todas detalhadas passo a passo logo a seguir.'
+        )
+        .replace(
+          /\.\s*O resto fica como referência consultiva por grupo no Apêndice BG\./g,
+          ' — todas detalhadas passo a passo logo a seguir.'
+        )
+        .replace(
+          /Detalhamento(?: e quando usar cada uma)? em BG\.[^.\n]+\./g,
+          'Detalhamento passo a passo na subseção **[[#MANUAL PASSO A PASSO DOS FRAMEWORKS DESTA FASE|Manual Passo a Passo dos Frameworks desta Fase]]** logo a seguir.'
+        )
+        .replace(
+          /estão detalhadas em BG\.18\.1 a BG\.18\.8 —/g,
+          'estão detalhadas na Fase 14 e nesta fase —'
+        )
+        .replace(/BG\.18\.1,\s*18\.3,\s*18\.4,\s*18\.5/g, 'BG.18.1, BG.18.3, BG.18.4 e BG.18.5')
+        .replace(/\s*\(BG\.\d+\)(?=:)/g, '');
+
+      // 3) Converter "Ver BG.X.Y para detalhes." / "Ver BG.X.Y." / "(BG.X.Y)" / "BG.X.Y" em links locais
+      c = c
+        .replace(/\bVer\s+(BG\.\d+\.\d+)(?:\s+para detalhes)?\./g, (_, code) => {
+          const item = bgItems.get(code.toUpperCase());
+          return item ? `Ver [[#${item.heading}|${item.heading}]].` : _;
+        })
+        .replace(/\b(BG\.\d+\.\d+)\b/g, (code) => {
+          const item = bgItems.get(code.toUpperCase());
+          return item ? `[[#${item.heading}|${item.heading}]]` : code;
+        })
+        .replace(/\b(CZ\.\d+)\s*\(([^)]+)\)/g, (full, code) => {
+          const item = czItems.get(code.toUpperCase());
+          return item ? `[[#${item.heading}|${item.heading}]]` : full;
+        })
+        .replace(/\b(CZ\.\d+)\b/g, (code) => {
+          const item = czItems.get(code.toUpperCase());
+          return item ? `[[#${item.heading}|${item.heading}]]` : code;
+        })
+        .replace(/\b(A\.\d+)\s*\(([^)]+)\)/g, (full, code) => {
+          const item = aItems.get(code.toUpperCase());
+          return item ? `[[#${item.heading}|${item.heading}]]` : full;
+        })
+        .replace(/\n+---\s*$/, '');
+
+      return hLine + c;
+    }
+  );
+}
+
 // Função que injeta Métricas, Frameworks, Canvases, Templates e Leituras na Fase
 function enrichPhaseBody(phaseKey, rawBody) {
   const cfg = PHASE_CONFIG[phaseKey];
@@ -714,6 +868,32 @@ function enrichPhaseBody(phaseKey, rawBody) {
     .replace(/\bEss[ea] ap[êe]ndice\b/g, 'Esta fase')
     .replace(/\bdest[ea] ap[êe]ndice\b/g, 'desta fase')
     .replace(/\bDest[ea] ap[êe]ndice\b/g, 'Desta fase');
+
+  // Corrigir referências específicas herdadas de 738db95 nas Fases 0, 9 e 11:
+  if (phaseKey === 'FASE_0') {
+    body = body.replace(
+      /Aplicação:\s*\[\[#APÊNDICE BG[^\]]+\]\]\./g,
+      'Aplicação: [[#Framework: North Star Metric (Sean Ellis, Amplitude)|Framework: North Star Metric]] e [[#Framework: OKRs Objectives and Key Results (Andy Grove, John Doerr)|Framework: OKRs]].'
+    );
+  } else if (phaseKey === 'FASE_8') {
+    body = body
+      .replace(
+        'Dossiê de Solução (Template A.5)',
+        'Dossiê de Solução (estruturado nos 6 blocos abaixo e no [[#Canvas: Opportunity Canvas (Jeff Patton, 2014)|Canvas: Opportunity Canvas]])'
+      )
+      .replace(
+        /> \[!tip\] Apêndice A — Template do Dossiê de Solução \(A\.5\)\n> O \[\[[^\]]+\]\] contém o template preenchível do Dossiê de Solução com os seis campos acima em formato estruturado\./g,
+        '> [!tip] Estrutura do Dossiê de Solução e Canvases desta Fase\n> Os seis campos acima compõem a estrutura completa do Dossiê de Solução e se conectam diretamente ao **[[#Canvas: Opportunity Canvas (Jeff Patton, 2014)|Canvas: Opportunity Canvas]]** e ao **[[#Canvas: MVP Canvas (Tristan Kromer)|Canvas: MVP Canvas]]** detalhados na seção de Canvases Visuais desta fase.'
+      );
+  } else if (phaseKey === 'FASE_10') {
+    body = body.replace(
+      /> O \[\[[^\]]+\]\] inclui o template A\.5 \(Landing Page de Validação\)[^\n]+/g,
+      '> A seção **[[#TEMPLATES OPERACIONAIS E CASOS PREENCHIDOS DESTA FASE|Templates Operacionais desta Fase]]** ao final desta fase inclui o **[[#Template: Especificação de MVP|Template: Especificação de MVP]]** e o **[[#Template: Checklist de Pre-Launch|Template: Checklist de Pre-Launch]]**, prontos para delimitar escopo e validar a prontidão de lançamento.'
+    );
+  }
+
+  // Limpar e padronizar ### FERRAMENTAS DESTA FASE
+  body = cleanFerramentasSection(body, phaseKey, cfg);
 
   // Ajustar blocos de transição herdados da antiga arquitetura de 6 volumes:
   if (phaseKey === 'FASE_2') {
@@ -810,7 +990,7 @@ Para completar a arquitetura de escala e maturidade da sua companhia, siga para 
       );
   }
 
-  // Construir blocos autocontidos
+  // Construir blocos autocontidos (primários + compartilhados neste volume)
   const blocks = [];
 
   if (cfg.cKey && cItems.has(cfg.cKey)) {
@@ -819,8 +999,9 @@ Para completar a arquitetura de escala e maturidade da sua companhia, siga para 
     );
   }
 
-  if (cfg.bgs.length > 0) {
-    const bgChunks = cfg.bgs.map((code) => {
+  const allPhaseBgs = [...cfg.bgs, ...(cfg.sharedBgs || [])];
+  if (allPhaseBgs.length > 0) {
+    const bgChunks = allPhaseBgs.map((code) => {
       const item = bgItems.get(code);
       if (!item) throw new Error(`BG não encontrado: ${code}`);
       return item.content;
@@ -831,8 +1012,9 @@ Para completar a arquitetura de escala e maturidade da sua companhia, siga para 
     );
   }
 
-  if (cfg.czs.length > 0) {
-    const czChunks = cfg.czs.map((code) => {
+  const allPhaseCzs = [...cfg.czs, ...(cfg.sharedCzs || [])];
+  if (allPhaseCzs.length > 0) {
+    const czChunks = allPhaseCzs.map((code) => {
       const item = czItems.get(code);
       if (!item) throw new Error(`CZ não encontrado: ${code}`);
       return item.content;
@@ -843,8 +1025,9 @@ Para completar a arquitetura de escala e maturidade da sua companhia, siga para 
     );
   }
 
-  if (cfg.as.length > 0) {
-    const aChunks = cfg.as.map((code) => {
+  const allPhaseAs = [...cfg.as, ...(cfg.sharedAs || [])];
+  if (allPhaseAs.length > 0) {
+    const aChunks = allPhaseAs.map((code) => {
       const item = aItems.get(code);
       if (!item) throw new Error(`Template A não encontrado: ${code}`);
       return item.content;
@@ -887,7 +1070,12 @@ function buildChapterSection(oldKey, chapNum, rawSection) {
   const newHeading = `CAPÍTULO ${chapNum} — ${cleanTitle}`;
   let body = rawSection.body.replace(/^## APÊNDICE [^\n]+/m, `## ${newHeading}`);
 
-  if (oldKey === 'I') {
+  if (oldKey === 'B') {
+    body = body.replace(
+      /\(veja a (?:\[\[[^\]]*\|)?tabela A\.9(?:\]\])? para escolher entre entrevista, questionário, pré-venda, MVP, etc\.\)/g,
+      '(veja a [[#Template: Tabela de técnicas de validação por tipo de hipótese|Tabela de técnicas de validação por tipo de hipótese]] na Fase 8 deste volume para escolher entre entrevista, questionário, pré-venda, MVP, etc.)'
+    );
+  } else if (oldKey === 'I') {
     body = body
       .replace('### Fase 0 a 1B, Preparação, Articulação, e Teoria', '### Fases 0 a 3 — Preparação, Ideia, Articulação e Teoria')
       .replace('### Fase 3, Descoberta do Problema, e Pesquisa com Usuários', '### Fases 4 e 5 — Descoberta do Problema e Pesquisa com Usuários')
@@ -1590,8 +1778,31 @@ const oldAnchorToNew = new Map(); // slugify(oldAnchor) -> { volNum, volSlug, he
 const oldCodeToChapterInfo = new Map(); // 'AJ' -> { volNum, volSlug, chapNum, cleanTitle, heading }
 const oldPhaseToNewInfo = new Map(); // 'FASE_2B' -> { volNum, volSlug, newNum, heading }
 
-// Registrar onde cada BG.X.Y, CZ.N, A.N foi embutido
+// Registrar onde cada BG.X.Y, CZ.N, A.N foi embutido (primário global + mapa por volume)
 const embeddedItemLocation = new Map(); // 'BG.1.1' | 'CZ.1' | 'A.1' -> { volNum, volSlug, phaseNewNum, heading, title }
+const perVolEmbeddedItemLocation = new Map(); // volNum -> Map(code -> { volNum, volSlug, phaseNewNum, chapNum, heading, title })
+
+function registerItemInVol(volNum, volSlug, code, locObj, isPrimary) {
+  if (!perVolEmbeddedItemLocation.has(volNum)) {
+    perVolEmbeddedItemLocation.set(volNum, new Map());
+  }
+  const vMap = perVolEmbeddedItemLocation.get(volNum);
+  if (!vMap.has(code)) {
+    vMap.set(code, locObj);
+  }
+  if (isPrimary || !embeddedItemLocation.has(code)) {
+    embeddedItemLocation.set(code, locObj);
+  }
+}
+
+function getItemLocForVol(code, currentVolNum) {
+  const uCode = code.toUpperCase();
+  const vMap = perVolEmbeddedItemLocation.get(currentVolNum);
+  if (vMap && vMap.has(uCode)) {
+    return vMap.get(uCode);
+  }
+  return embeddedItemLocation.get(uCode) || null;
+}
 
 for (const vSpec of VOLUMES_SPEC) {
   let chapCounter = 0;
@@ -1621,67 +1832,96 @@ for (const vSpec of VOLUMES_SPEC) {
           displayLabel: `Fase ${cfg.newNum}`,
         });
 
-        for (const bgCode of cfg.bgs) {
+        const allBgs = [
+          ...cfg.bgs.map((c) => ({ code: c, primary: true })),
+          ...(cfg.sharedBgs || []).map((c) => ({ code: c, primary: false })),
+        ];
+        for (const { code: bgCode, primary } of allBgs) {
           const bgObj = bgItems.get(bgCode);
-          embeddedItemLocation.set(bgCode, {
+          const locObj = {
             volNum: vSpec.num,
             volSlug: vSpec.slug,
             phaseNewNum: cfg.newNum,
+            chapNum: null,
             heading: bgObj.heading,
             title: bgObj.title,
-          });
-          oldAnchorToNew.set(slugify(`${bgCode} — ${bgObj.title}`), {
-            volNum: vSpec.num,
-            volSlug: vSpec.slug,
-            heading: bgObj.heading,
-            displayLabel: `${bgObj.title} (Fase ${cfg.newNum})`,
-          });
-          oldAnchorToNew.set(slugify(bgCode), {
-            volNum: vSpec.num,
-            volSlug: vSpec.slug,
-            heading: bgObj.heading,
-            displayLabel: `${bgObj.title} (Fase ${cfg.newNum})`,
-          });
+          };
+          registerItemInVol(vSpec.num, vSpec.slug, bgCode, locObj, primary);
+          if (primary || !oldAnchorToNew.has(slugify(bgCode))) {
+            oldAnchorToNew.set(slugify(`${bgCode} — ${bgObj.title}`), {
+              volNum: vSpec.num,
+              volSlug: vSpec.slug,
+              heading: bgObj.heading,
+              displayLabel: `${bgObj.title} (Fase ${cfg.newNum})`,
+              itemCode: bgCode,
+            });
+            oldAnchorToNew.set(slugify(bgCode), {
+              volNum: vSpec.num,
+              volSlug: vSpec.slug,
+              heading: bgObj.heading,
+              displayLabel: `${bgObj.title} (Fase ${cfg.newNum})`,
+              itemCode: bgCode,
+            });
+          }
         }
 
-        for (const czCode of cfg.czs) {
+        const allCzs = [
+          ...cfg.czs.map((c) => ({ code: c, primary: true })),
+          ...(cfg.sharedCzs || []).map((c) => ({ code: c, primary: false })),
+        ];
+        for (const { code: czCode, primary } of allCzs) {
           const czObj = czItems.get(czCode);
-          embeddedItemLocation.set(czCode, {
+          const locObj = {
             volNum: vSpec.num,
             volSlug: vSpec.slug,
             phaseNewNum: cfg.newNum,
+            chapNum: null,
             heading: czObj.heading,
             title: czObj.title,
-          });
-          oldAnchorToNew.set(slugify(`${czCode} — ${czObj.title}`), {
-            volNum: vSpec.num,
-            volSlug: vSpec.slug,
-            heading: czObj.heading,
-            displayLabel: `${czObj.title} (Fase ${cfg.newNum})`,
-          });
-          oldAnchorToNew.set(slugify(czCode), {
-            volNum: vSpec.num,
-            volSlug: vSpec.slug,
-            heading: czObj.heading,
-            displayLabel: `${czObj.title} (Fase ${cfg.newNum})`,
-          });
+          };
+          registerItemInVol(vSpec.num, vSpec.slug, czCode, locObj, primary);
+          if (primary || !oldAnchorToNew.has(slugify(czCode))) {
+            oldAnchorToNew.set(slugify(`${czCode} — ${czObj.title}`), {
+              volNum: vSpec.num,
+              volSlug: vSpec.slug,
+              heading: czObj.heading,
+              displayLabel: `${czObj.title} (Fase ${cfg.newNum})`,
+              itemCode: czCode,
+            });
+            oldAnchorToNew.set(slugify(czCode), {
+              volNum: vSpec.num,
+              volSlug: vSpec.slug,
+              heading: czObj.heading,
+              displayLabel: `${czObj.title} (Fase ${cfg.newNum})`,
+              itemCode: czCode,
+            });
+          }
         }
 
-        for (const aCode of cfg.as) {
+        const allAs = [
+          ...cfg.as.map((c) => ({ code: c, primary: true })),
+          ...(cfg.sharedAs || []).map((c) => ({ code: c, primary: false })),
+        ];
+        for (const { code: aCode, primary } of allAs) {
           const aObj = aItems.get(aCode);
-          embeddedItemLocation.set(aCode, {
+          const locObj = {
             volNum: vSpec.num,
             volSlug: vSpec.slug,
             phaseNewNum: cfg.newNum,
+            chapNum: null,
             heading: aObj.heading,
             title: aObj.title,
-          });
-          oldAnchorToNew.set(slugify(aCode), {
-            volNum: vSpec.num,
-            volSlug: vSpec.slug,
-            heading: aObj.heading,
-            displayLabel: `Template: ${aObj.title} (Fase ${cfg.newNum})`,
-          });
+          };
+          registerItemInVol(vSpec.num, vSpec.slug, aCode, locObj, primary);
+          if (primary || !oldAnchorToNew.has(slugify(aCode))) {
+            oldAnchorToNew.set(slugify(aCode), {
+              volNum: vSpec.num,
+              volSlug: vSpec.slug,
+              heading: aObj.heading,
+              displayLabel: `Template: ${aObj.title} (Fase ${cfg.newNum})`,
+              itemCode: aCode,
+            });
+          }
         }
       } else if (item.type === 'chapter') {
         chapCounter += 1;
@@ -1711,25 +1951,28 @@ for (const vSpec of VOLUMES_SPEC) {
         if (extras && extras.bgs) {
           for (const bgCode of extras.bgs) {
             const bgObj = bgItems.get(bgCode);
-            embeddedItemLocation.set(bgCode, {
+            const locObj = {
               volNum: vSpec.num,
               volSlug: vSpec.slug,
               phaseNewNum: null,
               chapNum: chapCounter,
               heading: bgObj.heading,
               title: bgObj.title,
-            });
+            };
+            registerItemInVol(vSpec.num, vSpec.slug, bgCode, locObj, true);
             oldAnchorToNew.set(slugify(`${bgCode} — ${bgObj.title}`), {
               volNum: vSpec.num,
               volSlug: vSpec.slug,
               heading: bgObj.heading,
               displayLabel: `${bgObj.title} (Cap. ${chapCounter})`,
+              itemCode: bgCode,
             });
             oldAnchorToNew.set(slugify(bgCode), {
               volNum: vSpec.num,
               volSlug: vSpec.slug,
               heading: bgObj.heading,
               displayLabel: `${bgObj.title} (Cap. ${chapCounter})`,
+              itemCode: bgCode,
             });
           }
         }
@@ -1839,8 +2082,75 @@ for (let cat = 1; cat <= 19; cat++) {
       volSlug: loc.volSlug,
       heading: loc.heading,
       displayLabel: loc.title,
+      itemCode: firstCode,
     });
   }
+}
+
+// Extrair entradas do Glossário Técnico (142 termos) e Lista de Abreviações para gerar o Glossário de cada Volume (1 a 9)
+const rawGlossaryBody = rawSections.get('APÊNDICE — GLOSSÁRIO DE TERMOS TÉCNICOS').body;
+const glossaryEntries = [...rawGlossaryBody.matchAll(/^\*\*([^*]+?)\.\*\*\s+([^\n]+)/gm)].map((m) => {
+  const head = m[1].trim();
+  const keyTerm = head.replace(/\s*\([^)]*\)/g, '').trim();
+  // Limpar o "Ver [[...]]." final (mesmo com wikilinks aninhados) para que a definição no glossário local de cada volume seja 100% autocontida
+  const cleanDef = m[2]
+    .replace(/\s*Ver\s+\[\[.*$/i, '')
+    .trim();
+  return {
+    head,
+    keyTerm,
+    line: `**${head}.** ${cleanDef}`,
+  };
+});
+
+const rawAbbrevBody = rawSections.get('APÊNDICE — LISTA DE ABREVIAÇÕES').body;
+const abbrevEntries = [...rawAbbrevBody.matchAll(/^\*\*([^*]+?)\*\*:\s+([^\n]+)/gm)]
+  .map((m) => ({
+    sigla: m[1].trim(),
+    keySigla: m[1].split('/')[0].trim(),
+    line: `**${m[1].trim()}:** ${m[2].trim()}`,
+  }))
+  .filter((e) => e.sigla !== 'BG' && e.sigla !== 'CZ');
+
+function buildVolumeGlossaryBlock(volNum, bodyText) {
+  const lowerText = bodyText.toLowerCase();
+  const matchedTerms = glossaryEntries.filter((e) => {
+    const isAcronym = /^[A-Z0-9/&-]{2,5}$/.test(e.keyTerm);
+    if (isAcronym) {
+      const esc = e.keyTerm.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      return new RegExp(`\\b${esc}\\b`).test(bodyText);
+    }
+    const t = e.keyTerm.toLowerCase();
+    if (t.length <= 4) {
+      const esc = e.keyTerm.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      return new RegExp(`\\b${esc}\\b`, 'i').test(bodyText);
+    }
+    return lowerText.includes(t);
+  });
+
+  const matchedAbbrevs = abbrevEntries.filter((e) => {
+    const esc = e.keySigla.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    return new RegExp(`\\b${esc}\\b`).test(bodyText);
+  });
+
+  return `# GLOSSÁRIO E SIGLAS DESTE VOLUME
+
+> [!abstract] Vocabulário técnico e siglas deste volume
+> Para garantir que este **Volume ${volNum}** funcione de forma 100% independente e autocontida sem exigir consulta a outro livro, esta seção reúne as definições dos **${matchedTerms.length} termos técnicos e de negócios** e das **${matchedAbbrevs.length} siglas e abreviações** utilizados ao longo das Fases e Capítulos deste volume.
+
+---
+
+## GLOSSÁRIO E SIGLAS DESTE VOLUME
+
+### Termos Técnicos e de Negócios Usados neste Volume
+
+${matchedTerms.map((e) => e.line).join('\n\n')}
+
+---
+
+### Siglas e Abreviações Usadas neste Volume
+
+${matchedAbbrevs.map((e) => e.line).join('\n\n')}`;
 }
 
 // ---------------------------------------------------------------------------
@@ -1873,19 +2183,69 @@ for (const vSpec of VOLUMES_SPEC) {
       } else if (item.type === 'ref') {
         const origSec = rawSections.get(item.key);
         let refBody = origSec.body.replace(/^## [^\n]+/m, `## ${item.newHeading}`);
-        if (item.key === 'APÊNDICE: ÍNDICE DE FRAMEWORKS') {
+        if (item.key === 'APÊNDICE — DATA DE COMPILAÇÃO E NOTA SOBRE ENVELHECIMENTO') {
+          refBody = refBody.replace(/\n+---\n+\*Consulta vitalícia\*[\s\S]*$/, '');
+        } else if (item.key === 'APÊNDICE: BIBLIOGRAFIA' || item.key === 'APÊNDICE — BIBLIOGRAFIA UNIFICADA') {
+          refBody = refBody.replace(
+            /Cada ferramenta no Ferramentário BG traz sua própria seção "Leitura adicional" com referências específicas\./g,
+            'Cada framework integrado nos Volumes 1 a 9 traz sua própria seção "Leitura adicional" com referências específicas.'
+          );
+        } else if (item.key === 'APÊNDICE: ÍNDICE DE FRAMEWORKS') {
           refBody = refBody
             .replace(
               /^## [^\n]+\n+[\s\S]*?(?=\n### Empreendedorismo científico)/m,
               `## ${item.newHeading}\n\n> [!note] Onde encontrar cada framework\n> Na arquitetura autocontida da coleção IGNIÇÃO, todos os 164 frameworks abaixo estão detalhados passo a passo diretamente dentro das Fases e Capítulos dos **Volumes 1 a 9**. A coluna "Aparece em" aponta diretamente para a Fase ou Capítulo onde o framework é ensinado e aplicado.`
             )
-            .replace(/,\s*(?:BG|CZ)\s*\|/g, ' |');
+            .replace(/,\s*(?:BG|CZ)\s*\|/g, ' |')
+            .replace(
+              /Se você está começando, não se intimide com o tamanho do Ferramentário\.[\s\S]*$/,
+              'Se você está começando, não se intimide com a extensão deste índice: cada volume da coleção já traz integrados em suas Fases e Capítulos exatamente os frameworks necessários para executar aquela etapa do início ao fim.'
+            );
+        } else if (item.key === 'APÊNDICE — LISTA DE ABREVIAÇÕES') {
+          refBody = refBody
+            .replace(/^\*\*BG\*\*:[^\n]+\n+/m, '')
+            .replace(
+              /\*\*Fases 1-2 \(Ideia\):\*\*/,
+              '**[[IGNICAO-Vol-1-Ideacao#FASE 1 — ENCONTRAR A IDEIA|Fases 1 e 2 (Vol. 1)]] (Ideia e Articulação):**'
+            )
+            .replace(
+              /\*\*Fases 3-4 \(Descoberta do Problema\):\*\*/,
+              '**[[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 4 — DESCOBERTA DO PROBLEMA|Fases 4 e 5 (Vol. 2)]] (Descoberta do Problema e Pesquisa com Usuários):**'
+            )
+            .replace(
+              /\*\*Fases 6-7 \(Hipóteses e Experimentos\):\*\*/,
+              '**[[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 7 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fases 7 e 8 (Vol. 3)]] (Hipóteses e Experimentos):**'
+            )
+            .replace(
+              /\*\*Fases 8-9 \(Ideação e Testes\):\*\*/,
+              '**[[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 9 — IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES|Fases 9 e 10 (Vol. 3)]] (Ideação e Testes de Solução):**'
+            );
+        } else if (item.key === 'APÊNDICE — ÍNDICE REMISSIVO') {
+          refBody = refBody
+            .replace(/\. Apêndice Marca Pessoal/g, '')
+            .replace(
+              /Apêndice sobre Envelhecimento \(abril 2026\)/g,
+              '[[#DATA DE COMPILAÇÃO E NOTA SOBRE ENVELHECIMENTO|Data de Compilação e Nota sobre Envelhecimento (abril 2026)]]'
+            )
+            .replace(
+              /Apêndice sobre Impacto e Ética|Apêndice sobre Ética e Impacto/g,
+              '[[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 9 — ÉTICA EMPREENDEDORA: ZONAS CINZENTAS, DECISÕES DIFÍCEIS E CONSEQUÊNCIAS REAIS|Capítulo 9 — Ética Empreendedora (Vol. 6)]] e [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 4 — IMPACTO, SUSTENTABILIDADE E SISTEMA B|Capítulo 4 — Impacto, Sustentabilidade e Sistema B (Vol. 9)]]'
+            )
+            .replace(
+              /- \*\*Impacto \(negócio de impacto social\)\*\*: Apêndice dedicado/g,
+              '- **Impacto (negócio de impacto social)**: [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 4 — IMPACTO, SUSTENTABILIDADE E SISTEMA B|Capítulo 4 — Impacto, Sustentabilidade e Sistema B (Vol. 9)]]'
+            )
+            .replace(
+              /- \*\*Marca pessoal do fundador\*\*: Apêndice dedicado/g,
+              '- **Marca pessoal do fundador**: [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 8 — COMUNICAÇÃO PÚBLICA DO FUNDADOR: NARRATIVA, IMPRENSA E PORTA-VOZ|Capítulo 8 — Comunicação Pública do Fundador (Vol. 6)]]'
+            );
         }
         refBody = refBody
           .replace(/^> \[!note\] Como usar ess[ea] ap[êe]ndice/gm, '> [!note] Como usar este índice')
           .replace(/\bfase ou ap[êe]ndice\b/gi, 'fase ou capítulo')
           .replace(/\bap[êe]ndice ou fase\b/gi, 'capítulo ou fase')
-          .replace(/\bfases, ap[êe]ndices ou seções\b/gi, 'fases, capítulos ou seções');
+          .replace(/\bfases, ap[êe]ndices ou seções\b/gi, 'fases, capítulos ou seções')
+          .replace(/\bem ap[êe]ndices temáticos\b/gi, 'em capítulos temáticos');
         tocLines.push(`- [[#${item.newHeading}|${item.newHeading}]]`);
         blockSections.push(refBody);
       }
@@ -1894,6 +2254,15 @@ for (const vSpec of VOLUMES_SPEC) {
     bodyBlocks.push(
       `# ${b.h1}\n\n${b.intro.trim()}\n\n---\n\n` + blockSections.join('\n\n---\n\n')
     );
+  }
+
+  // Adicionar Glossário e Siglas deste Volume ao final dos Volumes 1 a 9
+  if (vSpec.num >= 1 && vSpec.num <= 9) {
+    const joinedBody = bodyBlocks.join('\n\n---\n\n');
+    const volGlossaryBlock = buildVolumeGlossaryBlock(vSpec.num, joinedBody);
+    tocLines.push('### Glossário e Siglas deste Volume');
+    tocLines.push('- [[#GLOSSÁRIO E SIGLAS DESTE VOLUME|GLOSSÁRIO E SIGLAS DESTE VOLUME]]');
+    bodyBlocks.push(volGlossaryBlock);
   }
 
   const frontmatter = `---
@@ -1954,6 +2323,7 @@ for (const [code, loc] of embeddedItemLocation.entries()) {
     volSlug: loc.volSlug,
     heading: loc.heading,
     displayLabel: loc.title,
+    itemCode: code,
   });
 }
 
@@ -1961,13 +2331,14 @@ for (const [code, loc] of embeddedItemLocation.entries()) {
 for (const [code, aObj] of aItems.entries()) {
   const loc = embeddedItemLocation.get(code);
   if (loc) {
-    for (const [s, info] of globalHeadingIndex.entries()) {
+    for (const [s] of globalHeadingIndex.entries()) {
       if (s.startsWith(slugify(code))) {
         oldAnchorToNew.set(s, {
           volNum: loc.volNum,
           volSlug: loc.volSlug,
           heading: loc.heading,
           displayLabel: loc.title,
+          itemCode: code,
         });
       }
     }
@@ -1979,10 +2350,41 @@ console.log(`[3/6] Índices de headings construídos (${globalHeadingIndex.size}
 // ---------------------------------------------------------------------------
 // 9. Resolver globalmente todos os wikilinks e normalizar referências textuais
 // ---------------------------------------------------------------------------
+// Mapa de subtítulos legados de "Fase N — <Subtítulo Antigo>" herdados de 738db95 para a Fase canônica real:
+const LEGACY_PHASE_LABEL_TO_KEY = [
+  { re: /^Posicionamento e Proposta de Valor$/i, key: 'FASE_5', label: 'Fase 6 — Mapeamento de Mercado e Concorrência' },
+  { re: /^(?:Go-to-Market(?: e Aquisição| e Crescimento)?|Crescimento(?: e Escala)?)$/i, key: 'FASE_14C', label: 'Fase 15 — Máquina de Crescimento e Expansão em Escala' },
+  { re: /^(?:Retenção, Monetização e Expansão de Receita|Modelo de Negócio(?: e Monetização| e Financeiro)?|Modelo de Receita e Unit Economics|Articulação do Modelo de Negócio)$/i, key: 'FASE_11', label: 'Fase 12 — Validação do Modelo de Negócio' },
+  { re: /^(?:Expansão e Novos Mercados|Escala)$/i, key: 'FASE_15', label: 'Fase 19 — Reinvenção e Segunda Curva' },
+  { re: /^(?:Validação de Mercado|Tração Inicial)$/i, key: 'FASE_10', label: 'Fase 11 — MVP e Experimentos de Mercado' },
+  { re: /^(?:Validação de Problema e Cliente|Validação com Clientes Reais)$/i, key: 'FASE_3', label: 'Fase 4 — Descoberta do Problema' },
+  { re: /^(?:Escala Operacional|Construção|Produto e Operação|Escala e Operações)$/i, key: 'FASE_14B', label: 'Fase 17 — Operações, Processos e Gestão em Escala' },
+  { re: /^(?:Constituição e Formalização|Estrutura Jurídica e Societária)$/i, key: 'FASE_13', label: 'Fase 18 — Estruturação Jurídica, Societária e Blindagem Operacional' },
+  { re: /^(?:Escala e Estruturação Organizacional|Escala e Governança)$/i, key: 'FASE_14A', label: 'Fase 16 — Time, Liderança Executiva e Cultura em Escala' },
+  { re: /^Saída e Liquidez$/i, key: 'FASE_16', label: 'Fase 20 — Estratégia de Saída (Exit Strategy)' },
+];
+
+function matchLegacyPhaseAlias(rawAlias) {
+  const clean = (rawAlias || '').replace(/\s*\(Vol\.\s*\d+\)/gi, '').trim();
+  const m = clean.match(/^Fase\s+(?:2B|\d+)\s*[—–-]\s*(.+)$/i);
+  if (!m) return null;
+  const sub = m[1].trim();
+  for (const item of LEGACY_PHASE_LABEL_TO_KEY) {
+    if (item.re.test(sub)) return item;
+  }
+  return null;
+}
+
 function updateAliasLabel(alias, targetInfo, currentVolNum) {
   let out = alias.trim();
   // Remover sufixos antigos "(Vol. X)"
   out = out.replace(/\s*\(Vol\.\s*\d+\)/gi, '').trim();
+
+  // Se o alias era um subtítulo legado de fase ("Fase 9 — Go-to-Market"), atualizar para o rótulo canônico
+  const legacyPhase = matchLegacyPhaseAlias(out);
+  if (legacyPhase) {
+    out = legacyPhase.label;
+  }
 
   // Se o alias era apenas uma sigla de apêndice (ex: "F", "L", "B", "S", "AB", "EJ")
   if (/^[A-Z]{1,2}$/.test(out) && oldCodeToChapterInfo.has(out.toUpperCase())) {
@@ -2001,7 +2403,10 @@ function updateAliasLabel(alias, targetInfo, currentVolNum) {
         ? `Capítulo ${chInfo.chapNum} — ${rest}`
         : `Capítulo ${chInfo.chapNum} (${chInfo.cleanTitle})`;
     } else if (code === 'BG') {
-      out = rest || 'Índice Geral de Frameworks';
+      out =
+        targetInfo && targetInfo.heading === 'MANUAL PASSO A PASSO DOS FRAMEWORKS DESTA FASE'
+          ? 'Manual Passo a Passo dos Frameworks desta Fase'
+          : 'Índice Geral de Frameworks da Coleção';
     } else if (code === 'CZ') {
       out = rest || 'Canvases Visuais da Fase';
     } else if (code === 'A') {
@@ -2013,11 +2418,19 @@ function updateAliasLabel(alias, targetInfo, currentVolNum) {
     }
   }
 
+  if (
+    targetInfo &&
+    targetInfo.heading === 'MANUAL PASSO A PASSO DOS FRAMEWORKS DESTA FASE' &&
+    /Ferramentário|Índice Geral de Frameworks/i.test(out)
+  ) {
+    out = 'Manual Passo a Passo dos Frameworks desta Fase';
+  }
+
   // Se o alias tinha formato "Nome (CZ.N)" ou "Template A.N (Nome)" ou continha código BG.X.Y / CZ.N / A.N
   const mCodeInAlias = out.match(/\b(BG\.\d+\.\d+|CZ\.\d+|A\.\d+)\b/i);
   if (mCodeInAlias) {
     const uCode = mCodeInAlias[1].toUpperCase();
-    const loc = embeddedItemLocation.get(uCode);
+    const loc = getItemLocForVol(uCode, currentVolNum);
     if (loc) {
       const prefix = uCode.startsWith('BG.')
         ? 'Framework: '
@@ -2036,7 +2449,7 @@ function updateAliasLabel(alias, targetInfo, currentVolNum) {
     .replace(/^(Framework:\s*)+/i, 'Framework: ');
 
   // Se o alias mencionava "Fase X", atualizar número quando era link para fase antiga
-  out = out.replace(/\bFase\s+(2B|2b|\d+)\b/g, (full, pNum) => {
+  out = out.replace(/\bFase\s+(2B|2b|\d+)\b/g, (full) => {
     if (targetInfo && targetInfo.heading.startsWith('FASE ')) {
       const mNew = targetInfo.heading.match(/^FASE (\d+)/);
       if (mNew) return `Fase ${mNew[1]}`;
@@ -2051,10 +2464,11 @@ function updateAliasLabel(alias, targetInfo, currentVolNum) {
 }
 
 function formatEmbeddedRef(code, currentVolNum) {
-  const loc = embeddedItemLocation.get(code);
+  const loc = getItemLocForVol(code, currentVolNum);
   if (!loc) return code;
   const where = loc.phaseNewNum !== null ? `Fase ${loc.phaseNewNum}` : `Cap. ${loc.chapNum}`;
-  const volSuffix = loc.volNum !== currentVolNum ? `, Vol. ${loc.volNum}` : '';
+  // Para o Volume 10 (Índices), manter a indicação de volume; nos Volumes 1..9, manter referência limpa sem "(Vol. X)" em ferramentas
+  const volSuffix = currentVolNum === 10 && loc.volNum !== currentVolNum ? `, Vol. ${loc.volNum}` : '';
   return `${loc.title} (${where}${volSuffix})`;
 }
 
@@ -2116,14 +2530,16 @@ function normalizeProseSegment(seg, currentVolNum) {
     .replace(/\bap[êe]ndices verticais\b/g, 'capítulos verticais')
     .replace(/\bAp[êe]ndices de\b/g, 'Capítulos de')
     .replace(/\bap[êe]ndices de\b/g, 'capítulos de')
+    .replace(/\bap[êe]ndices gerais\b/g, 'capítulos gerais')
     .replace(/\boutros ap[êe]ndices\b/g, 'outros capítulos')
     .replace(/\bvários ap[êe]ndices\b/g, 'vários capítulos')
     .replace(/\bvarios ap[êe]ndices\b/g, 'vários capítulos')
     .replace(/\bsete ap[êe]ndices\b/g, 'sete capítulos')
-    .replace(/\bquatro ap[êe]ndices\b/g, 'quatro capítulos')
+    .replace(/\bquatro ap[êe]ndices\b/gi, 'Quatro capítulos')
     .replace(/\b45 ap[êe]ndices\b/g, '45 capítulos')
     .replace(/\bOs ap[êe]ndices\b/g, 'Os capítulos')
     .replace(/\bos ap[êe]ndices\b/g, 'os capítulos')
+    .replace(/\bem ap[êe]ndice próprio\b/g, 'em capítulo próprio')
     .replace(/\beste apendice\b/g, 'este capítulo')
     .replace(/\bEste apendice\b/g, 'Este capítulo')
     .replace(/\bneste apendice\b/g, 'neste capítulo')
@@ -2147,20 +2563,20 @@ function normalizeProseSegment(seg, currentVolNum) {
   // 4d) "BG.X inteiro" ou "BG.X" (categoria)
   s = s.replace(/\b(BG\.\d+)(?:\s+inteiro)?\b/g, (full, catCode) => {
     const first = `${catCode}.1`;
-    const loc = embeddedItemLocation.get(first);
+    const loc = getItemLocForVol(first, currentVolNum);
     if (!loc) return full;
     const where = loc.phaseNewNum !== null ? `Fase ${loc.phaseNewNum}` : `Cap. ${loc.chapNum}`;
-    const volSuffix = loc.volNum !== currentVolNum ? `, Vol. ${loc.volNum}` : '';
+    const volSuffix = currentVolNum === 10 && loc.volNum !== currentVolNum ? `, Vol. ${loc.volNum}` : '';
     return `Frameworks da ${where}${volSuffix}`;
   });
 
   // 5) Menções a CZ.N:
-  // 5a) "(CZ.N)" logo após o nome do canvas -> "(Canvas da Fase X)"
+  // 5a) "(CZ.N)" logo após o nome do canvas -> "(Fase X)"
   s = s.replace(/\((CZ\.\d+)\)/g, (full, code) => {
-    const loc = embeddedItemLocation.get(code);
+    const loc = getItemLocForVol(code, currentVolNum);
     if (!loc) return full;
     const where = loc.phaseNewNum !== null ? `Fase ${loc.phaseNewNum}` : `Cap. ${loc.chapNum}`;
-    const volSuffix = loc.volNum !== currentVolNum ? `, Vol. ${loc.volNum}` : '';
+    const volSuffix = currentVolNum === 10 && loc.volNum !== currentVolNum ? `, Vol. ${loc.volNum}` : '';
     return `(${where}${volSuffix})`;
   });
   // 5b) "CZ.N (Nome)" -> "Canvas: Nome (Fase X)"
@@ -2177,18 +2593,18 @@ function normalizeProseSegment(seg, currentVolNum) {
   // 6) Menções a Templates A.N:
   // 6a) "(A.N)" logo após o nome do entregável -> "(Template da Fase X)"
   s = s.replace(/\((A\.\d+)\)/g, (full, code) => {
-    const loc = embeddedItemLocation.get(code);
+    const loc = getItemLocForVol(code, currentVolNum);
     if (!loc) return full;
     const where = loc.phaseNewNum !== null ? `Fase ${loc.phaseNewNum}` : `Cap. ${loc.chapNum}`;
-    const volSuffix = loc.volNum !== currentVolNum ? `, Vol. ${loc.volNum}` : '';
+    const volSuffix = currentVolNum === 10 && loc.volNum !== currentVolNum ? `, Vol. ${loc.volNum}` : '';
     return `(Template da ${where}${volSuffix})`;
   });
   // 6b) "Templates A.7 (Story Tree) e A.8 (DAG)" / "Template A.1 (Nome)"
   s = s.replace(/\bTemplates?\s+(A\.\d+)\s*\(([^)]+)\)/gi, (full, code, name) => {
-    const loc = embeddedItemLocation.get(code.toUpperCase());
+    const loc = getItemLocForVol(code.toUpperCase(), currentVolNum);
     if (!loc) return full;
     const where = loc.phaseNewNum !== null ? `Fase ${loc.phaseNewNum}` : `Cap. ${loc.chapNum}`;
-    const volSuffix = loc.volNum !== currentVolNum ? `, Vol. ${loc.volNum}` : '';
+    const volSuffix = currentVolNum === 10 && loc.volNum !== currentVolNum ? `, Vol. ${loc.volNum}` : '';
     return `Template ${name.trim()} (${where}${volSuffix})`;
   });
   // 6c) "template A.N" / "exemplo A.N" / "diagrama A.N" / "A.N" isolado
@@ -2215,8 +2631,16 @@ function resolveAnchorTarget(rawAnchor, rawAlias, currentVolNum) {
   const cleanAnchor = rawAnchor.trim().replace(/^#/, '');
   const s = slugify(cleanAnchor);
 
-  // 0) Se o link apontava genericamente para APÊNDICE CZ, APÊNDICE A ou APÊNDICE BG,
-  //    mas o alias especifica o código exato (ex: CZ.10, A.14, BG.4.1), resolver direto para o item!
+  // 0a) Se o link era uma referência de "Ver também" com rótulo legado de fase (ex: "Fase 9 — Go-to-Market"),
+  //     redirecionar para a Fase canônica correspondente:
+  const legacyPhase = matchLegacyPhaseAlias(rawAlias);
+  if (legacyPhase && oldPhaseToNewInfo.has(legacyPhase.key)) {
+    const fInfo = oldPhaseToNewInfo.get(legacyPhase.key);
+    return { volNum: fInfo.volNum, volSlug: fInfo.volSlug, heading: fInfo.heading };
+  }
+
+  // 0b) Se o link apontava genericamente para APÊNDICE CZ, APÊNDICE A ou APÊNDICE BG,
+  //     mas o alias especifica o código exato (ex: CZ.10, A.14, BG.4.1), resolver direto para o item (priorizando o volume atual)!
   if (
     /^apendice-(?:cz|a|bg)\b/.test(s) ||
     s === slugify(rawSections.get('CZ').heading) ||
@@ -2224,9 +2648,11 @@ function resolveAnchorTarget(rawAnchor, rawAlias, currentVolNum) {
     s === slugify(rawSections.get('BG').heading)
   ) {
     const mAliasCode = (rawAlias || '').match(/\b(BG\.\d+\.\d+|CZ\.\d+|A\.\d+)\b/i);
-    if (mAliasCode && embeddedItemLocation.has(mAliasCode[1].toUpperCase())) {
-      const loc = embeddedItemLocation.get(mAliasCode[1].toUpperCase());
-      return { volNum: loc.volNum, volSlug: loc.volSlug, heading: loc.heading };
+    if (mAliasCode) {
+      const loc = getItemLocForVol(mAliasCode[1].toUpperCase(), currentVolNum);
+      if (loc) {
+        return { volNum: loc.volNum, volSlug: loc.volSlug, heading: loc.heading };
+      }
     }
     // Se for referência genérica a Canvases/Templates/Frameworks e o volume atual já tiver essa seção, manter no volume atual!
     const localMap = perVolHeadingIndex.get(currentVolNum);
@@ -2240,37 +2666,57 @@ function resolveAnchorTarget(rawAnchor, rawAlias, currentVolNum) {
       if (localMap && localMap.has(slugify(h))) {
         return { volNum: currentVolNum, volSlug: VOLUMES_SPEC[currentVolNum - 1].slug, heading: h };
       }
+    } else if (s.includes('ferramentario') || s === 'apendice-bg') {
+      const h = 'MANUAL PASSO A PASSO DOS FRAMEWORKS DESTA FASE';
+      if (localMap && localMap.has(slugify(h))) {
+        return { volNum: currentVolNum, volSlug: VOLUMES_SPEC[currentVolNum - 1].slug, heading: h };
+      }
     }
   }
 
-  // 1) Se é um código ou âncora mapeada em oldAnchorToNew:
-  if (oldAnchorToNew.has(s)) {
-    return oldAnchorToNew.get(s);
+  // 1) Se existe no volume atual como heading real (prioridade máxima para autocontenção!):
+  const localMap = perVolHeadingIndex.get(currentVolNum);
+  if (localMap && localMap.has(s)) {
+    return {
+      volNum: currentVolNum,
+      volSlug: VOLUMES_SPEC[currentVolNum - 1].slug,
+      heading: localMap.get(s),
+    };
   }
 
-  // 2) Se começa com "fase-X-" ou "apendice-XX-" ou "bg-X-Y" ou "cz-X" ou "a-X":
+  // 2) Se é um código ou âncora mapeada em oldAnchorToNew:
+  if (oldAnchorToNew.has(s)) {
+    const mapped = oldAnchorToNew.get(s);
+    if (mapped.itemCode) {
+      const localItem = getItemLocForVol(mapped.itemCode, currentVolNum);
+      if (localItem) {
+        return { volNum: localItem.volNum, volSlug: localItem.volSlug, heading: localItem.heading };
+      }
+    }
+    return mapped;
+  }
+
+  // 3) Se começa com "fase-X-" ou "apendice-XX-" ou "bg-X-Y" ou "cz-X" ou "a-X":
   const mBg = cleanAnchor.match(/^(BG\.\d+\.\d+)\b/i);
-  if (mBg && embeddedItemLocation.has(mBg[1].toUpperCase())) {
-    const loc = embeddedItemLocation.get(mBg[1].toUpperCase());
-    return { volNum: loc.volNum, volSlug: loc.volSlug, heading: loc.heading };
+  if (mBg) {
+    const loc = getItemLocForVol(mBg[1].toUpperCase(), currentVolNum);
+    if (loc) return { volNum: loc.volNum, volSlug: loc.volSlug, heading: loc.heading };
   }
   const mBgCat = cleanAnchor.match(/^(BG\.\d+)\b/i);
   if (mBgCat) {
     const firstCode = `${mBgCat[1].toUpperCase()}.1`;
-    if (embeddedItemLocation.has(firstCode)) {
-      const loc = embeddedItemLocation.get(firstCode);
-      return { volNum: loc.volNum, volSlug: loc.volSlug, heading: loc.heading };
-    }
+    const loc = getItemLocForVol(firstCode, currentVolNum);
+    if (loc) return { volNum: loc.volNum, volSlug: loc.volSlug, heading: loc.heading };
   }
   const mCz = cleanAnchor.match(/^(CZ\.\d+)\b/i);
-  if (mCz && embeddedItemLocation.has(mCz[1].toUpperCase())) {
-    const loc = embeddedItemLocation.get(mCz[1].toUpperCase());
-    return { volNum: loc.volNum, volSlug: loc.volSlug, heading: loc.heading };
+  if (mCz) {
+    const loc = getItemLocForVol(mCz[1].toUpperCase(), currentVolNum);
+    if (loc) return { volNum: loc.volNum, volSlug: loc.volSlug, heading: loc.heading };
   }
   const mA = cleanAnchor.match(/^(A\.\d+)\b/i);
-  if (mA && embeddedItemLocation.has(mA[1].toUpperCase())) {
-    const loc = embeddedItemLocation.get(mA[1].toUpperCase());
-    return { volNum: loc.volNum, volSlug: loc.volSlug, heading: loc.heading };
+  if (mA) {
+    const loc = getItemLocForVol(mA[1].toUpperCase(), currentVolNum);
+    if (loc) return { volNum: loc.volNum, volSlug: loc.volSlug, heading: loc.heading };
   }
   const mAp = cleanAnchor.match(/^APÊNDICE\s+([A-Z0-9]{1,3})\b/i);
   if (mAp && oldCodeToChapterInfo.has(mAp[1].toUpperCase())) {
@@ -2284,16 +2730,6 @@ function resolveAnchorTarget(rawAnchor, rawAlias, currentVolNum) {
       const fInfo = oldPhaseToNewInfo.get(fKey);
       return { volNum: fInfo.volNum, volSlug: fInfo.volSlug, heading: fInfo.heading };
     }
-  }
-
-  // 3) Se existe no volume atual como subseção:
-  const localMap = perVolHeadingIndex.get(currentVolNum);
-  if (localMap && localMap.has(s)) {
-    return {
-      volNum: currentVolNum,
-      volSlug: VOLUMES_SPEC[currentVolNum - 1].slug,
-      heading: localMap.get(s),
-    };
   }
 
   // 4) Se existe no índice global de headings:
@@ -2328,10 +2764,24 @@ for (const [volNum, { spec, md }] of rawVolumeDocs.entries()) {
 
   const resolvedLines = lines.map((line) => {
     if (line.trim().startsWith('```')) inFence = !inFence;
-    if (inFence) return line;
+    if (inFence) {
+      return line.replace(/\(Ap[êe]ndice\s+([A-Z]{1,2})\)/g, (full, code) => {
+        const ch = oldCodeToChapterInfo.get(code.toUpperCase());
+        return ch ? `(Cap. ${ch.chapNum})` : full;
+      });
+    }
+
+    // 0) Pré-normalizar "[[...Apêndice A]].N" -> "[[#A.N|A.N]]"
+    let preLine = line.replace(
+      /\[\[(?:[^\]|]+\|)?(?:O\s+)?Ap[êe]ndice\s+(A|CZ|BG)(?:\s*\(Vol\.\s*\d+\))?\]\]\.(\d+(?:\.\d+)?)/gi,
+      (_, prefix, num) => {
+        const code = `${prefix.toUpperCase()}.${num}`;
+        return `[[#${code}|${code}]]`;
+      }
+    );
 
     // 1) Resolver todos os wikilinks [[target|alias]]
-    let outLine = line.replace(/\[\[([^\]]+)\]\]/g, (full, inner) => {
+    let outLine = preLine.replace(/\[\[([^\]]+)\]\]/g, (full, inner) => {
       const parts = inner.split('|');
       const rawTarget = parts[0].trim();
       const rawAlias = (parts[1] || parts[0]).trim();

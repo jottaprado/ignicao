@@ -81,6 +81,8 @@ graph LR
 - [[#CAPÍTULO 17 — CULTURA EM SITUAÇÕES ESPECIAIS: M&A, HIPERCRESCIMENTO, REMOTO|CAPÍTULO 17 — CULTURA EM SITUAÇÕES ESPECIAIS: M&A, HIPERCRESCIMENTO, REMOTO]]
 - [[#CAPÍTULO 18 — DIVERSIDADE, EQUIDADE E INCLUSÃO (DEI) EM STARTUP BRASILEIRA|CAPÍTULO 18 — DIVERSIDADE, EQUIDADE E INCLUSÃO (DEI) EM STARTUP BRASILEIRA]]
 - [[#CAPÍTULO 19 — REMOTE, HYBRID E DISTRIBUÍDO COMO DISCIPLINA|CAPÍTULO 19 — REMOTE, HYBRID E DISTRIBUÍDO COMO DISCIPLINA]]
+### Glossário e Siglas deste Volume
+- [[#Glossário e Siglas deste Volume|GLOSSÁRIO E SIGLAS DESTE VOLUME]]
 
 ---
 
@@ -144,8 +146,8 @@ flowchart LR
 
 Sete passos.
 
-> [!tip] Canvases Visuais — Pirate Canvas / AARRR em escala (Fase 11, Vol. 4) e Network Effects Map (Fase 6, Vol. 2)
-> A máquina de crescimento opera no AARRR — cada etapa do funil (Acquisition, Activation, Retention, Referral, Revenue) tem dono e métrica em escala. O [[IGNICAO-Vol-4-Tracao-e-PMF#Canvas: Pirate Canvas / AARRR (Dave McClure, 2007)|Canvas: Pirate Canvas / AARRR (Dave McClure, 2007) (Vol. 4)]] é o mapa para identificar onde investir capital marginal de growth (CAC alto sinaliza Acquisition; ativação fraca trava Retention). Em modelos de plataforma ou marketplace, o [[IGNICAO-Vol-2-Descoberta-e-Mercado#Canvas: Network Effects Map|Canvas: Network Effects Map (Vol. 2)]] classifica o tipo de efeito de rede (direto, indireto, dados, social) e identifica onde investir para fortalecer defensibilidade conforme cresce — efeito de rede é o moat mais durável em mercados winner-takes-most.
+> [!tip] Canvases Visuais — Pirate Canvas / AARRR em escala (Fase 15) e Network Effects Map (Fase 15)
+> A máquina de crescimento opera no AARRR — cada etapa do funil (Acquisition, Activation, Retention, Referral, Revenue) tem dono e métrica em escala. O [[#Canvas: Pirate Canvas / AARRR (Dave McClure, 2007)|Canvas: Pirate Canvas / AARRR (Dave McClure, 2007)]] é o mapa para identificar onde investir capital marginal de growth (CAC alto sinaliza Acquisition; ativação fraca trava Retention). Em modelos de plataforma ou marketplace, o [[#Canvas: Network Effects Map|Canvas: Network Effects Map]] classifica o tipo de efeito de rede (direto, indireto, dados, social) e identifica onde investir para fortalecer defensibilidade conforme cresce — efeito de rede é o moat mais durável em mercados winner-takes-most.
 
 #### Passo 0, entenda o Motor de Crescimento como sistema integrado
 
@@ -278,7 +280,7 @@ Na prática, isso significa escolher *um caminho por vez* (dos seis), e executar
 
 ### Critérios observáveis de sucesso
 
-Seis critérios. Dois ou mais canais de aquisição validados, com unit economics saudáveis. Payback de CAC abaixo de dezoito meses no canal principal. NRR de cento e dez por cento ou mais, medido nos últimos doze meses. Governança mínima ativa (board ou advisory, mais reporting trimestral). Plano de Financiamento de dezoito meses documentado (Template: Plano de Financiamento Não-Diluitivo (Fase 14, Vol. 5)). Sistema de parcerias estratégicas operacional, com três ou mais parcerias ativas, ou em negociação.
+Seis critérios. Dois ou mais canais de aquisição validados, com unit economics saudáveis. Payback de CAC abaixo de dezoito meses no canal principal. NRR de cento e dez por cento ou mais, medido nos últimos doze meses. Governança mínima ativa (board ou advisory, mais reporting trimestral). Plano de Financiamento de dezoito meses documentado (Template: Plano de Financiamento Não-Diluitivo (Fase 15)). Sistema de parcerias estratégicas operacional, com três ou mais parcerias ativas, ou em negociação.
 
 ### Checklist de avanço
 
@@ -295,7 +297,7 @@ Seis critérios. Dois ou mais canais de aquisição validados, com unit economic
 
 1. Mapear canais de aquisição em planilha. Percentual do pipeline, CAC, LTV, payback por canal.
 2. Calcular NRR dos últimos doze meses (receita na base atual, versus base há doze meses).
-3. Abrir Template Plano de Financiamento (Fase 14, Vol. 5), e definir os próximos dezoito meses de caixa.
+3. Abrir Template Plano de Financiamento (Fase 15), e definir os próximos dezoito meses de caixa.
 4. Listar três a cinco parceiros potenciais que podem acelerar distribuição ([[#CAPÍTULO 6 — CANAIS INDIRETOS E PARCERIAS: PARCERIAS, FRANQUIAS, CHANNEL|Capítulo 6 (CANAIS INDIRETOS E PARCERIAS: PARCERIAS, FRANQUIAS, CHANNEL)]]).
 
 ### Caso brasileiro real, máquina de crescimento da Stone (2014-2018, escala pós-PMF até IPO)
@@ -370,27 +372,23 @@ Foco em vanity metrics. GMV, pageviews, e usuários totais, se não conectam a r
 
 ### FERRAMENTAS DESTA FASE
 
-Cinco essenciais para a subfase. O resto fica como referência consultiva por grupo nos Manuais de Frameworks das Fases. Templates: Template: Data Room — Checklist de Due Diligence (Fase 14, Vol. 5) (Data Room), Template: Term Sheet Anotado — Guia de Leitura (Fase 14, Vol. 5) (Term Sheet Anotado), Template: Plano de Rodada (Fundraising Project Plan) (Fase 14, Vol. 5) (Plano de Rodada), Template: Plano de Marca e PR (Fase 15) (Plano de Marca e PR). Canvases: Canvas: Pirate Canvas / AARRR (Dave McClure, 2007) (Fase 11, Vol. 4), Canvas: Network Effects Map (Fase 6, Vol. 2).
+Cinco essenciais para a fase — todas detalhadas passo a passo logo a seguir. Templates: [[#Template: Data Room — Checklist de Due Diligence|Template: Data Room — Checklist de Due Diligence]], [[#Template: Term Sheet Anotado — Guia de Leitura|Template: Term Sheet Anotado — Guia de Leitura]], [[#Template: Plano de Rodada (Fundraising Project Plan)|Template: Plano de Rodada (Fundraising Project Plan)]], [[#Template: Plano de Marca e PR|Template: Plano de Marca e PR]]. Canvases: [[#Canvas: Pirate Canvas / AARRR (Dave McClure, 2007)|Canvas: Pirate Canvas / AARRR (Dave McClure, 2007)]], [[#Canvas: Network Effects Map|Canvas: Network Effects Map]].
 
-**Essenciais para Crescimento e Capital:**
+**Essenciais para a Fase 15:**
 
-- **AARRR Pirate Metrics** (McClure) — Acquisition, Activation, Retention, Referral, Revenue. Funil-base do crescimento em escala. Framework: AARRR Pirate Metrics (Dave McClure, 2007) (Fase 11, Vol. 4).
-- **Growth Loops** (Balfour) — output vira input (viral, content, paid, sales, data). Crescimento composto vs linear. Framework: Growth Loops (Balfour, Winters, Kwok, A. Chen / Reforge, 2019) (Fase 15).
-- **MEDDIC/MEDDPICC** (Napoli e Dunkel) — padrão-ouro em enterprise para qualificação e fechamento. Framework: MEDDIC / MEDDPICC (Jack Napoli / Dick Dunkel, PTC, 1996) (Fase 15).
-- **Unit Economics + LTV:CAC Ratio + Burn Multiple + Rule of 40** (conjunto financeiro inseparável) — decisões de scale são cegas sem essas quatro métricas em painel único. Framework: Unit Economics (Fase 14, Vol. 5), 18.3, 18.4, 18.5.
-- **Harvard Negotiation, BATNA e ZOPA** — para term sheet e contratos enterprise. Framework: Harvard Negotiation / BATNA & ZOPA (Roger Fisher & William Ury, 1981) (Cap. 11, Vol. 4).
+- **AARRR Pirate Metrics** (McClure) — Acquisition, Activation, Retention, Referral, Revenue. Funil-base do crescimento em escala. [[#Framework: AARRR Pirate Metrics (Dave McClure, 2007)|Framework: AARRR Pirate Metrics (Dave McClure, 2007)]].
+- **Growth Loops** (Balfour) — output vira input (viral, content, paid, sales, data). Crescimento composto vs linear. [[#Framework: Growth Loops (Balfour, Winters, Kwok, A. Chen / Reforge, 2019)|Framework: Growth Loops (Balfour, Winters, Kwok, A. Chen / Reforge, 2019)]].
+- **MEDDIC/MEDDPICC** (Napoli e Dunkel) — padrão-ouro em enterprise para qualificação e fechamento. [[#Framework: MEDDIC / MEDDPICC (Jack Napoli / Dick Dunkel, PTC, 1996)|Framework: MEDDIC / MEDDPICC (Jack Napoli / Dick Dunkel, PTC, 1996)]].
+- **Unit Economics + LTV:CAC Ratio + Burn Multiple + Rule of 40** (conjunto financeiro inseparável) — decisões de scale são cegas sem essas quatro métricas em painel único. [[#Framework: Unit Economics|Framework: Unit Economics]], [[#Framework: LTV:CAC Ratio|Framework: LTV:CAC Ratio]], [[#Framework: Burn Multiple (David Sacks, 2020)|Framework: Burn Multiple (David Sacks, 2020)]] e [[#Framework: Rule of 40 (Brad Feld / SaaS community)|Framework: Rule of 40 (Brad Feld / SaaS community)]].
+- **Harvard Negotiation, BATNA e ZOPA** — para term sheet e contratos enterprise. [[#Framework: Harvard Negotiation / BATNA & ZOPA (Roger Fisher & William Ury, 1981)|Framework: Harvard Negotiation / BATNA & ZOPA (Roger Fisher & William Ury, 1981)]].
 
 **Complementares por grupo (consulte conforme o caso):**
 
-- **Growth e aquisição (Frameworks da Fase 11, Vol. 4)**: T2D3, Bullseye Framework, Blitzscaling, Crossing the Chasm, Category Design, Lean Analytics, Growth Hacking, NFX Taxonomy, API Strategy & Developer Relations.
-- **Marketing e posicionamento (Frameworks da Fase 13, Vol. 4)**: Positioning (Ries/Trout), Obviously Awesome (Dunford), StoryBrand, Brand Archetypes, Content Marketing Flywheel.
+- **Growth e aquisição (Frameworks da Fase 15)**: T2D3, Bullseye Framework, Blitzscaling, Crossing the Chasm, Category Design, Lean Analytics, Growth Hacking, NFX Taxonomy, API Strategy & Developer Relations.
+- **Marketing e posicionamento (Frameworks da Fase 13)**: Positioning (Ries/Trout), Obviously Awesome (Dunford), StoryBrand, Brand Archetypes, Content Marketing Flywheel.
 - **Sales (Frameworks da Fase 15)**: BANT, SPIN Selling, Solution Selling, Challenger Sale, Sandler Selling System, Command of the Message.
-- **Negociação (Frameworks da Cap. 11, Vol. 4)**: Never Split the Difference (Voss), Ackerman Method, Getting Past No (Ury).
-- **Finanças e portfolio (Frameworks da Fase 14, Vol. 5)**: Cohort Analysis, Magic Number, SaaS Quick Ratio, GE/McKinsey 9-Box Matrix.
-
----
-
-
+- **Negociação (Frameworks da Fase 15)**: Never Split the Difference (Voss), Ackerman Method, Getting Past No (Ury).
+- **Finanças e portfolio (Frameworks da Fase 15)**: Cohort Analysis, Magic Number, SaaS Quick Ratio, GE/McKinsey 9-Box Matrix.
 
 ---
 
@@ -1011,6 +1009,576 @@ Deep alinhamento org-wide em:
 
 ---
 
+#### Framework: AARRR Pirate Metrics (Dave McClure, 2007)
+
+##### Origem
+
+Dave McClure, fundador do 500 Startups, publicou "Startup Metrics for Pirates: AARRR!" em 2007 como deck no SlideShare. Respondia à bagunça métrica comum em early-stage: startups mediam "vanity metrics" (pageviews, signups) sem entender o funil completo. AARRR virou o framework de growth mais citado da década de 2010, e base para praticamente toda startup moderna.
+
+##### O que é
+
+Framework que organiza métricas de startup em **5 estágios do funil de valor**, formando o acrônimo pirata AARRR:
+
+1. Acquisition: visitantes chegam ao produto/site.
+2. Activation: visitantes têm primeira experiência positiva.
+3. Retention: usuários voltam e continuam usando.
+4. Referral: usuários trazem outros usuários.
+5. Revenue: usuários monetizam.
+
+##### Princípios / estrutura
+
+Cada estágio tem métricas-chave:
+
+- Acquisition: visitantes/mês, CAC por canal, taxa de captura de email.
+- Activation: % de visitantes que fazem "aha moment" (primeiro valor), tempo até activation.
+- Retention: D1/D7/D30 retention. MAU/WAU. DAU/MAU ratio, cohort curves.
+- Referral: viral coefficient (K-factor). NPS, shares/referrals por usuário.
+- Revenue: ARPU, LTV, taxa de conversão para paid, upsell/expansion.
+
+Filosofia de McClure:
+
+- Focar em 1-2 estágios por vez. Não dá para otimizar tudo simultaneamente.
+- Retention > Acquisition. Empresa que não retém é balde furado.
+- Activation é gate. Sem ativação, todo acquisition vira churn imediato.
+
+##### Como aplicar do jeito certo
+
+Passo 1, Mapeie o funil específico do seu produto. Definir o que é "aha moment" (activation) para você.
+
+Passo 2, Instrumentação: Mixpanel, Amplitude, Heap, ou GA4 bem configurado.
+
+Passo 3, Meça cada estágio com números reais.
+
+Passo 4, Identifique o gargalo. Onde maior porcentagem se perde?
+
+Passo 5, Experimente no gargalo. Se activation é 15%, subir para 25% tem mais impacto que dobrar acquisition.
+
+Passo 6, Monitore cohort curves. Retention acontece em curvas ao longo do tempo, cohort por mês revela tendências.
+
+##### Exemplo aplicado
+
+SaaS B2B com 10k visitantes/mês:
+
+| Estágio | Métrica | Valor | % |
+|---------|---------|-------|---|
+| Acquisition | Visitantes → signups | 10k → 800 | 8% |
+| Activation | Signup → 1ª ação relevante | 800 → 240 | 30% |
+| Retention | D30 retention | 240 → 170 | 71% |
+| Referral | K-factor | 0.15 |, |
+| Revenue | Free → paid (60d) | 170 → 40 | 23% |
+
+Conclusão: activation (30%) é o maior gargalo relativo vs. benchmarks setoriais (~50% em SaaS com onboarding bom). Dobrar activation de 30% → 50% geraria **R$ 340/mês extra em MRR** (assumindo ticket R$ 200) vs. investimento em acquisition.
+
+##### Erros comuns
+
+Focar em acquisition antes de retention: dump de visitantes num produto que não retém. Activation mal definida: "cadastrou" não é activation. Activation é primeiro valor real entregue. Sem cohort analysis: retention medida em blended, escondendo tendências. Ignorar referral: é o único estágio com lógica de "quanto mais usuários, mais aquisição grátis". Vanity metrics: pageviews, signups sem conversão, likes sociais.
+
+##### Quando NÃO usar
+
+Produtos muito simples com ciclos curtos (1-time purchase, por exemplo), Early-stage sem tráfego real, mede sobre n=10 e extrapola. Inútil.
+
+##### Leitura adicional
+
+- McClure, D. (2007). "Startup Metrics for Pirates: AARRR!" SlideShare.
+- Croll, A. & Yoskovitz, B. (2013). *Lean Analytics*. O'Reilly.
+
+---
+
+#### Framework: Harvard Negotiation / BATNA & ZOPA (Roger Fisher & William Ury, 1981)
+
+##### Origem
+
+Roger Fisher e William Ury, fundadores do Harvard Negotiation Project, publicaram *Getting to Yes* em 1981, livro mais vendido da história em negociação (15M+ cópias). Pesquisa baseada em décadas de negociações internacionais reais, incluindo Camp David Accords (1978). Virou método-padrão ensinado em Harvard Law School e escolas de negócio globalmente.
+
+##### O que é
+
+Framework de **principled negotiation** (negociação por princípios) que se opõe a "hard bargaining" (posicional) e "soft" (concessivo). Foca em **interesses**, não **posições**, busca **mutual gain** em vez de "win-lose".
+
+##### Princípios / estrutura — 4 princípios
+
+1. Separe as pessoas do problema: emoções e relacionamento não devem distorcer análise.
+2. Foque em interesses, não posições: posição é "quero X", interesse é "por que quero X". Interesses frequentemente são compatíveis mesmo quando posições parecem opostas.
+3. Invente opções de ganho mútuo: antes de decidir, gerar alternativas.
+4. Insista em critérios objetivos: legitimar decisões via padrões independentes (mercado, precedente, expertise).
+
+Conceitos-chave:
+
+- BATNA (Best Alternative to a Negotiated Agreement): o que você faz se a negociação fracassar? BATNA forte = alavanca forte.
+
+- ZOPA (Zone of Possible Agreement): range entre o mínimo aceitável de A e o máximo aceitável de B. Se existe, deal é possível. Se não, não é.
+
+- Reservation value: ponto em que "sair" é melhor que "fechar".
+
+##### Como aplicar do jeito certo
+
+Passo 1, Prepare (70% do resultado depende de preparação):
+
+- Seu BATNA.
+- BATNA estimado do outro.
+- Seus interesses (não só posições).
+- Interesses esperados do outro.
+- Critérios objetivos aplicáveis.
+
+Passo 2, Na mesa, explore interesses antes de apresentar posições.
+
+Passo 3, Brainstorming conjunto: "antes de decidir, que opções existem?"
+
+Passo 4, Critérios objetivos: "mercado paga X para essa role, vamos usar isso como base".
+
+Passo 5, Teste deal contra BATNA: se deal oferecido é pior que BATNA, recuse.
+
+##### Exemplo aplicado
+
+Negociação de aquisição de startup:
+
+- Fundador BATNA: continuar crescendo empresa (valor esperado R$ 80M em 3 anos, probabilidade 60%).
+- Comprador BATNA: construir internamente (custo R$ 30M + 2 anos).
+- Posição inicial fundador: R$ 100M agora.
+- Posição inicial comprador: R$ 50M.
+
+Parece impasse. Mas explorando **interesses**:
+
+- Fundador quer: liquidez pessoal + continuar dirigindo por 3 anos + proteção para time.
+- Comprador quer: tecnologia + time + velocidade (não quer construir).
+
+Opções criativas: R$ 60M upfront + R$ 30M earn-out atrelado a métricas + equity retention em NewCo + retention bonuses para time.
+
+ZOPA existe, apenas não era visível só via posições.
+
+Critério objetivo: múltiplo de ARR em deals comparáveis = 5-8x, empresa tem R$ 12M ARR, range saudável = R$ 60-96M. Legitima conversa.
+
+Deal fecha a R$ 75M total package.
+
+##### Erros comuns
+
+Negociar sem BATNA claro: você não sabe quando sair, pode aceitar deal ruim, Fixar em posições: "eu quero $100M" sem flexibilidade, outro também fixa, impasse, Confundir interesses com posições: negociador experiente extrai interesses do outro, Pressão para fechar: decisão emocional "no momento". Pausar é sempre direito, Sem critérios objetivos: vira disputa de vontades, outro lado cede menos.
+
+##### Quando NÃO usar
+
+Negociações ultra-adversariais onde outra parte não joga por princípios, Transações puramente commodity onde não há interesses complexos.
+
+##### Leitura adicional
+
+- Fisher, R. & Ury, W. (1981, rev. 2011). *Getting to Yes*. Penguin.
+- Ury, W. (2007). *Getting Past No*. Bantam (para negociações difíceis).
+- Harvard Negotiation Project (pon.harvard.edu).
+
+---
+
+#### Framework: Unit Economics
+
+##### Origem
+
+Conceito vindo de economia clássica (análise de custo marginal/receita marginal), popularizado em startups nos anos 2010 via SaaS analysts (David Skok, Tomasz Tunguz, Bill Gurley). Hoje é vocabulário universal em VC e startup finance.
+
+##### O que é
+
+Análise da **rentabilidade de um único cliente** ao longo de sua vida com a empresa. Se unit economics negativas, empresa perde dinheiro a cada cliente, crescer acelera falência. Se positivas, empresa ganha com escala.
+
+##### Princípios / estrutura
+
+Componentes essenciais:
+
+- CAC (Customer Acquisition Cost): total de sales + marketing ÷ novos clientes. Fully-loaded (incluindo salários de sales).
+
+- LTV (Lifetime Value): receita líquida total esperada de um cliente durante sua vida.
+
+Fórmulas básicas LTV para SaaS:
+
+- LTV simples = ARPU × Gross Margin × (1 / Monthly Churn).
+- LTV sofisticado considera expansion e decline.
+
+- Payback period: meses até recuperar CAC. Padrão saudável: < 12 meses, ideal < 6.
+
+- Contribution margin: gross margin - CAC allocation.
+
+##### Benchmarks (SaaS B2B)
+
+- LTV:CAC: saudável 3:1+, excelente 5:1+, problemático < 1.5:1.
+- Payback < 12 meses: saudável para growth stage.
+- Gross margin > 70%: padrão SaaS.
+- Burn Multiple (ver Framework: Burn Multiple (David Sacks, 2020) (Fase 15)) < 1: elite.
+
+##### Como aplicar
+
+Passo 1, Instrumente métricas em seu sistema (CRM + billing + marketing).
+
+Passo 2, Segmente por canal, vertical, tamanho. Unit economics blended escondem gigantes negativos.
+
+Passo 3, Decisões baseadas em cohort: LTV requer dados de cohorts reais com tempo.
+
+Passo 4, Ação em canais/segmentos com LTV:CAC < 2: fix ou pare.
+
+##### Exemplo aplicado
+
+SaaS B2B com blended metrics aparentemente ok:
+
+- LTV: R$ 18.000.
+- CAC: R$ 4.200.
+- LTV:CAC: 4.3, parece bom.
+
+Segmentado:
+
+- PMEs < 10 func: LTV R$ 8k. CAC R$ 2k, ratio 4:1 ✓.
+- Mid-market 50-200 func: LTV R$ 35k. CAC R$ 6k, ratio 5.8:1 ✓.
+- Enterprise 500+: LTV R$ 80k. CAC R$ 38k, ratio 2.1:1 ⚠.
+
+Blended esconde enterprise sendo marginal. Ou não investir em enterprise, ou ajustar sales (pricing maior, close rate maior, etc.).
+
+##### Erros comuns
+
+Confundir revenue com gross profit: LTV deve usar gross profit, não revenue bruto, CAC não fully-loaded: excluir salários subestima CAC, LTV com churn pré-PMF: muito cedo, dados instáveis, Blended analysis sem segmentação: esconde problemas.
+
+##### Leitura adicional
+
+- Skok, D. (forentrepreneurs.com), ampla biblioteca SaaS metrics.
+- Gurley, B. (above-the-crowd.com).
+
+---
+
+#### Framework: LTV:CAC Ratio
+
+##### Origem
+
+Métrica popularizada por **David Skok** (ex-VC da Matrix Partners, blog forentrepreneurs.com) ao longo dos anos 2010. Hoje é métrica padrão para avaliar saúde de SaaS.
+
+##### O que é
+
+Razão entre LTV (Lifetime Value) e CAC (Customer Acquisition Cost). Responde: "para cada R$ 1 gasto adquirindo cliente, quantos R$ de valor trazemos ao longo da vida?"
+
+##### Benchmarks
+
+- < 1: empresa perde dinheiro por cliente. Insustentável.
+- 1-3: sobrevive mas cresce lentamente.
+- 3-5: saudável para SaaS B2B growth stage.
+- 5-10: excelente, pode investir mais agressivamente em growth.
+- > 10: raramente sustentável, provavelmente sob-investindo em growth.
+
+##### Princípios / estrutura
+
+LTV:CAC de 3+ combinado com payback < 12 meses = empresa pode escalar sem explodir em unit economics.
+
+LTV:CAC alto mas payback longo = risco de capital (precisa financiar gap).
+
+##### Como aplicar
+
+Passo 1, Calcular LTV e CAC bem (Framework: Unit Economics (Fase 15)).
+
+Passo 2, LTV:CAC por segmento.
+
+Passo 3, Monitorar ao longo do tempo: LTV:CAC caindo = sinal de alerta.
+
+Passo 4, Investir onde LTV:CAC > 3, reduzir onde < 2.
+
+##### Erros comuns
+
+LTV inflacionado por assumir churn atual permanente: churn pode subir com scale, CAC subestimado: só marketing, sem salários de sales, Cross-segment averaging: 1 segmento excelente carrega 4 ruins.
+
+##### Leitura adicional
+
+- Skok, D. "SaaS Metrics 2.0". forentrepreneurs.com.
+
+---
+
+#### Framework: Burn Multiple (David Sacks, 2020)
+
+##### Origem
+
+**David Sacks**, ex-COO do PayPal, CEO da Yammer (vendida Microsoft), fundador da Craft Ventures, publicou "Burn Multiple" em 2020. Métrica única que combina burn rate e growth rate em número simples. Virou métrica padrão em VC após 2022-2023 quando eficiência de capital voltou a importar.
+
+##### O que é
+
+Burn Multiple = Net Burn / Net New ARR
+
+- Net Burn: caixa gasto - receita (burn líquido).
+- Net New ARR: novo ARR - churn - downgrades.
+
+Responde: "para cada R$ 1 de novo ARR, quanto queimamos de caixa?"
+
+##### Benchmarks (Sacks)
+
+| Burn Multiple | Classificação |
+|---------------|---------------|
+| < 1x | Amazing (elite) |
+| 1x - 1.5x | Great |
+| 1.5x - 2x | Good |
+| 2x - 3x | Suspect |
+| > 3x | Bad |
+
+##### Como aplicar
+
+Passo 1, Calcule trimestralmente:
+
+- Total burn em Q ÷ New ARR added em Q.
+
+Passo 2, Track tendência: BM melhorando ou piorando?
+
+Passo 3, Meta < 2 para growth-stage saudável.
+
+Passo 4, BM > 3 por 2+ trimestres: red flag. Investigar e agir.
+
+##### Exemplo aplicado
+
+SaaS em Series B:
+
+- Q1 2026: burn R$ 3M, new ARR R$ 2M. BM = 1.5 (Great).
+- Q2 2026: burn R$ 4M, new ARR R$ 2M. BM = 2.0 (Suspect).
+- Q3 2026: burn R$ 5M, new ARR R$ 1.5M. BM = 3.3 (Bad).
+
+Deterioração clara. Burn subiu sem acompanhamento em ARR. Ação: cortar custos, desacelerar hiring, ou aceitar que mercado está hostile.
+
+##### Erros comuns
+
+Burn sem net: burn bruto sem considerar receita. Distorce, ARR sem net: novo ARR sem churn. Infla, BM trimestral sem tendência: 1 quarter ruim pode ser sazonalidade.
+
+##### Leitura adicional
+
+- Sacks, D. (2020). "The Burn Multiple". craftventures.com.
+
+---
+
+#### Framework: Rule of 40 (Brad Feld / SaaS community)
+
+##### Origem
+
+Origem informal em early 2010s, atribuída a **Brad Feld** (Foundry Group) e popularizada em SaaS community. Hoje é benchmark universal para SaaS maduro (> $10M ARR).
+
+##### O que é
+
+Rule of 40: Growth rate (%) + Profit margin (%) ≥ 40%.
+
+Reconhece trade-off entre crescimento e rentabilidade. Empresa pode crescer 50% perdendo 10% (OK). Ou crescer 20% com margem 20% (também OK). 80% growth com -60% margem (não OK, queima demais).
+
+##### Como aplicar
+
+Passo 1, Calcule YoY growth rate (receita ano atual vs. ano anterior).
+
+Passo 2, Calcule EBITDA margin (EBITDA ÷ receita).
+
+Passo 3, Soma. Se ≥ 40%, saudável.
+
+Passo 4, Trade-offs explícitos: decisão "crescer 30% mais queimando 20% mais" passa teste?
+
+##### Benchmarks
+
+- ≥ 40: saudável.
+- 40-60: bom.
+- > 60: excepcional (empresas como Zoom em 2020, Salesforce em picos).
+- < 40: preocupante para SaaS maduro, pode ser ok em early-stage growth-focused.
+
+##### Exemplo aplicado
+
+- Empresa A: cresce 60% a.a., margem -10%. 60 + (-10) = 50. Passa.
+- Empresa B: cresce 15% a.a., margem 25%. 15 + 25 = 40. Passa no limite.
+- Empresa C: cresce 80% a.a., margem -50%. 80 + (-50) = 30. Falha.
+
+##### Erros comuns
+
+Aplicar a early-stage: Rule of 40 é para SaaS $10M+ ARR. Pré-PMF foca em crescimento, EBITDA cosmética: ajustes agressivos mascaram real burn.
+
+##### Leitura adicional
+
+- SaaS Capital reports (anuais, Rule of 40 benchmarks).
+
+---
+
+### CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)
+
+#### Canvas: Pirate Canvas / AARRR (Dave McClure, 2007)
+
+##### Origem
+
+Dave McClure, fundador do fundo 500 Startups, apresentou o framework AARRR em 2007 num slide deck chamado "Startup Metrics for Pirates" — o acrônimo soa como "ARRRR" de pirata, daí o apelido. O contexto era a explosão de startups web na fase pós-Web 2.0, quando times de produto rastreavam dezenas de métricas sem saber quais importavam. AARRR reorganizou o caos em cinco métricas de ciclo de vida do cliente. O "Pirate Canvas" — ou AARRR Canvas — é a versão visual posterior, que traduz as cinco letras em uma tela preenchível com métricas, canais, e hipóteses organizadas por funil. O framework virou o padrão de facto de métricas early-stage em aceleradoras e fundos de venture capital global, incluindo YC, Antler e os principais VCs brasileiros.
+
+##### O que é
+
+Tela visual em cinco colunas correspondendo às cinco letras do acrônimo:
+
+- **Acquisition (Aquisição)**: como o usuário chega. Canais, CAC, volume por canal.
+- **Activation (Ativação)**: primeiro momento de valor — o usuário experimenta o produto e reconhece que funciona. Taxa de ativação, tempo até ativação.
+- **Retention (Retenção)**: o usuário volta. D7, D30, coortes, churn mensal.
+- **Referral (Indicação)**: o usuário traz outros. NPS, taxa de indicação, viralidade (K-factor).
+- **Revenue (Receita)**: o usuário paga. Conversão freemium → pago, ARPU, LTV.
+
+```mermaid
+flowchart LR
+    A["⚓ Acquisition<br/>Como chegam?<br/>CAC por canal"]
+    B["⚡ Activation<br/>Primeiro valor<br/>Taxa de ativação"]
+    C["🔁 Retention<br/>Voltam?<br/>D7 / D30 / churn"]
+    D["📢 Referral<br/>Indicam?<br/>NPS / K-factor"]
+    E["💰 Revenue<br/>Pagam?<br/>ARPU / LTV"]
+    A --> B --> C --> D --> E
+```
+
+A distinção entre Acquisition e Activation é central: usuário que chegou mas não ativou é desperdício de CAC. A métrica de ativação (o "aha moment") é frequentemente o indicador mais importante do produto — encontrá-la é o trabalho de discovery dos primeiros meses.
+
+##### Quando usar
+
+Use o Pirate Canvas na Fase 10 (MVP e primeiros usuários) como estrutura padrão de instrumentação de métricas. Implante antes de lançar o MVP — não depois. Pós-PMF, use-o mensalmente como dashboard de saúde do funil: onde está a maior queda? Qual etapa tem pior conversão? A etapa com maior vazamento é o foco de crescimento do próximo ciclo. Em Fase 14 (escala), o Pirate Canvas orienta alocação de budget por etapa do funil.
+
+##### Princípios
+
+A tese de McClure é que **times sem modelo de funil explícito otimizam a métrica errada**. Times de produto tendem a focar em Acquisition (visível, fácil de medir, resulta em reuniões celebrando "crescimento") e ignorar Retention (invisível, difícil, mas única que gera crescimento sustentável). AARRR força o time a encarar que crescimento em Acquisition com retenção de 20% no D30 é uma banheira furada — você está enchendo o balde enquanto o buraco cresce. **Retenção precede escala de aquisição.**
+
+##### Como aplicar
+
+Monte o Pirate Canvas em três etapas, nesta ordem:
+
+1. **Defina a métrica de cada etapa** — 1 métrica primária por etapa. Não 5. Uma. Acquisition: CAC médio ponderado por canal. Activation: taxa de usuários que atingem o "aha moment" em X dias. Retention: retenção D30 (ou D7 para apps). Referral: NPS ou taxa de indicação ativa (mês). Revenue: conversão freemium → pago ou ARPU mensal.
+2. **Defina o benchmark mínimo** — o que é "saudável" nesta métrica para o seu modelo? SaaS B2B: retenção D30 > 70%. Consumer app: retenção D30 > 25%. Marketplace: depende do lado.
+3. **Identifique o maior vazamento** — onde está a maior queda de conversão entre etapas? Esse é o único foco do próximo trimestre. Não mexa nas outras etapas até resolver essa.
+
+Iteração mensal: atualize números, identifique onde o funil mudou, ajuste foco.
+
+##### Exemplo brasileiro preenchido — Conta Simples, aceleração do funil B2B (2021)
+
+A Conta Simples (conta empresarial digital para PMEs brasileiras) tinha problema claro em 2021: Acquisition funcionava bem (CAC baixo via Google Ads B2B + indicação), mas Activation era o gargalo — 60% dos cadastros não ativavam cartão em 14 dias.
+
+| Etapa | Métrica principal | Número | Benchmark alvo | Status |
+|---|---|---|---|---|
+| **Acquisition** | CAC via canais digitais | R$ 180/cliente | < R$ 250 | ✅ Dentro |
+| **Activation** | % completa onboarding + usa cartão em D14 | 40% | > 65% | 🔴 Crítico |
+| **Retention** | Retenção D30 (conta ainda ativa e com transação) | 71% | > 70% | ✅ Dentro (marginal) |
+| **Referral** | NPS (escala 0-100) | 52 | > 50 | ✅ Dentro |
+| **Revenue** | ARPU mensal (receita por conta ativa) | R$ 68 | > R$ 60 | ✅ Dentro |
+
+**O diagnóstico AARRR.** Com esse canvas, ficou claro: o problema não era "crescer" (Acquisition OK), não era "produto ruim" (Retention e NPS OK), e não era "precificação" (ARPU OK). Era **Activation** — usuários chegavam e não ativavam o cartão em 14 dias. Isso revelou dois culpados: (1) o processo KYC (validação regulatória) tinha fricção invisível — três documentos, dois dias de análise manual; (2) o email de onboarding não explicava por que o cartão era o "primeiro valor" da conta.
+
+**As três ações decorrentes:** (1) automatizar 70% do KYC via integração com Receita Federal + Serasa, reduzindo de 2 dias para 4 horas; (2) reescrever o fluxo de onboarding in-app com checklist progressivo (cada step destravava o próximo); (3) enviar WhatsApp (não email) no D2 com link direto para "ativar seu cartão agora". Resultado em 90 dias: Activation subiu de 40% para 67%.
+
+**Insight do caso.** A armadilha clássica sem Pirate Canvas seria investir mais em Acquisition ("vamos crescer mais cadastros"). O canvas mostrou que investir em Acquisition com 40% de Activation significava jogar 60 centavos de cada R$ 1 de CAC no lixo. **A lição: AARRR não é painel de monitoramento — é protocolo de priorização. O maior vazamento do funil vence o debate de roadmap.**
+
+##### Variações e extensões
+
+- **RARRA** (Thomas Petit & Gabor Papp, 2018): reordena para Retention → Activation → Referral → Revenue → Acquisition — enfatiza que Retention deve ser resolvida antes de escalar Acquisition.
+- **North Star Metric**: uma única métrica que captura valor entregue ao cliente e prediz crescimento de longo prazo. Complementa o AARRR (que é funil; North Star é foco). Exemplos: Airbnb (noites reservadas), WhatsApp (mensagens enviadas por dia), Spotify (tempo de escuta/mês).
+- **Growth Accounting**: decompõe variação de usuários ativos em Novos + Ressuscitados − Churned. Complemento quantitativo ao AARRR.
+
+##### Erros comuns
+
+- Definir múltiplas métricas primárias por etapa — diluição de foco.
+- Focar em Acquisition enquanto Retention é crítica — encher banheira furada.
+- Usar D7 e D30 intercambiavelmente — D7 mede habit formation, D30 mede stickiness; são perguntas distintas.
+- Não segmentar o funil por persona/canal — um funil "médio" pode esconder que canal A tem Activation 80% e canal B tem 15%.
+- Tratar AARRR como relatório (olhar uma vez por mês sem decidir nada) em vez de protocolo de priorização.
+
+##### Quando NÃO usar
+
+Em estágio pré-Activation (antes de ter produto em mãos de usuários reais) — métricas de funil não existem ainda. Em produtos com ciclo de venda B2B enterprise muito longo (6-18 meses) — AARRR pressupõe ciclo curto o suficiente para medir D7/D30; em ciclos longos, use pipeline de vendas (stage-by-stage). Em produtos de uso único (compra one-shot sem recorrência) — Retention não se aplica, e o framework perde uma das cinco etapas.
+
+##### Conexão com outros canvases
+
+O Pirate Canvas **alimenta o Lean Canvas (Fase 1)**: métricas do AARRR preenchem os blocos "Métricas-chave" e "Canais" do Lean Canvas com dados reais (não hipóteses). **Sucede o Customer Journey (Fase 5)**: as etapas da jornada do cliente mapeiam diretamente para as etapas do AARRR — Descoberta/Consideration = Acquisition, Onboarding = Activation, Uso recorrente = Retention, Recomendação = Referral, Upgrade = Revenue. **Orienta o MVP Canvas (Fase 9)**: o maior vazamento do AARRR é o foco do próximo MVP de crescimento.
+
+##### Leitura adicional
+
+- *Startup Metrics for Pirates* (Dave McClure, slide deck, 2007) — original disponível publicamente.
+- *Hacking Growth* (Sean Ellis & Morgan Brown, 2017) — expansão prática do framework AARRR em equipes de growth.
+- *Lean Analytics* (Alistair Croll & Benjamin Yoskovitz, 2013) — benchmarks por modelo de negócio (SaaS, marketplace, e-commerce, mobile app).
+
+---
+
+#### Canvas: Network Effects Map
+
+##### Origem
+
+O mapeamento sistemático dos tipos de efeitos de rede foi popularizado pela NFX (firma de venture capital de San Francisco) a partir de 2018, quando publicaram a taxonomia dos 16 tipos de network effects como framework para investidores e founders avaliarem a defensibilidade de modelos de negócio. O trabalho de James Currier e Pete Flint na NFX codificou décadas de observação empírica — de Metcalfe (Ethernet, 1980) a Reed (grupos, 1999) — numa estrutura acionável para startups. O Network Effects Map adapta essa taxonomia para formato visual em canvas, com foco brasileiro.
+
+##### O que é
+
+Tela visual que mapeia quais tipos de efeitos de rede um modelo de negócio captura, com que força, e como eles interagem. O objetivo não é apenas identificar "tem efeito de rede" — é entender qual tipo, qual a força relativa, e onde está o loop de reforço que torna o modelo defensável.
+
+**Os tipos principais de efeitos de rede (síntese da taxonomia NFX):**
+
+| Tipo | Mecanismo | Exemplos | Força |
+|---|---|---|---|
+| **Direto** | Cada usuário adicional aumenta o valor para todos os outros | WhatsApp, telefone | ●●●●● |
+| **Two-sided** | Dois grupos se beneficiam mutuamente (compradores/vendedores) | iFood, Mercado Livre | ●●●●○ |
+| **Data** | Mais dados = produto melhor = mais usuários = mais dados | Google Search, Waze | ●●●●○ |
+| **Tech Performance** | Mais uso = infraestrutura mais eficiente | CDNs, blockchain com proof-of-work | ●●●○○ |
+| **Language** | Plataforma vira padrão de vocabulário/formato | Slack (canais), GitHub (pull request) | ●●●○○ |
+| **Belief** | Valor existe porque todos acreditam (convenção social) | Bitcoin, moeda fiat | ●●●●● |
+| **Bandwagon** | Pressão social para adotar o que "todo mundo usa" | TikTok, tendências virais | ●●●○○ |
+| **Platform** | Desenvolvedores criam valor para usuários | iOS App Store, Salesforce AppExchange | ●●●●○ |
+
+```mermaid
+flowchart LR
+    subgraph Core["Núcleo do modelo"]
+        P["Produto / Plataforma"]
+    end
+    subgraph NE["Network Effects"]
+        D["Direto\n(usuário→usuário)"]
+        TS["Two-sided\n(lado A→lado B)"]
+        DA["Data\n(uso→melhoria)"]
+        PL["Platform\n(desenvolvedores)"]
+    end
+    P --> D
+    P --> TS
+    P --> DA
+    P --> PL
+    D -->|"reforça"| P
+    TS -->|"reforça"| P
+    DA -->|"reforça"| P
+    PL -->|"reforça"| P
+```
+
+##### Quando usar
+
+Use o Network Effects Map em dois momentos: (1) **ao desenhar o modelo de negócio** (Fase 2–5) — para identificar se e onde há loops de NE que podem ser construídos intencionalmente; (2) **ao preparar pitch de investimento** — investidores de VC avaliam defensibilidade, e NE são um dos principais mecanismos. Saber nomear e explicar o tipo de NE do seu modelo diferencia o fundador.
+
+##### Princípios
+
+**Primeiro: a maioria das startups não tem efeito de rede — tem economias de escala.** "Quanto mais clientes, mais barato o custo unitário" é escala, não NE. Efeito de rede requer que um usuário adicional torne o produto melhor para os outros. Confundir os dois é erro comum de pitch.
+
+**Segundo: NE two-sided são os mais comuns e os mais frágeis no início.** Marketplace sem compradores não atrai vendedores, e vice-versa. O chicken-and-egg problem é o desafio central de modelos two-sided. A solução geralmente é subsidiar um lado temporariamente (iFood subsidiou entregadores; Mercado Livre não cobrou comissão dos primeiros vendedores).
+
+**Terceiro: NE de dados são os mais subestimados.** Poucos fundadores percebem que o loop dados→modelo→produto→mais dados é um dos NE mais poderosos — e mais difíceis de copiar depois de certa escala.
+
+##### Como aplicar
+
+**Passo 1 — Listar todos os NE candidatos:** Para cada tipo na tabela acima, perguntar "nosso modelo tem isso?" e pontuar 0 (não tem), 1 (fraco / emergente) ou 2 (forte / comprovado).
+
+**Passo 2 — Mapear os loops:** Para cada NE identificado com score ≥ 1, desenhar o loop de reforço: Produto → [mecanismo] → mais usuários/dados → produto melhor.
+
+**Passo 3 — Identificar o NE dominante:** Qual é o loop mais forte? Qual é o que mais diferencia o modelo de um produto sem NE? Esse é o NE a comunicar para investidores e a proteger como moat.
+
+**Passo 4 — Identificar onde o NE ainda não existe:** Quais tipos poderiam ser construídos com mudanças de produto? Um SaaS B2B sem NE pode criar NE de dados (analytics de benchmark) ou NE de plataforma (marketplace de integrações).
+
+##### Exemplo brasileiro preenchido — iFood
+
+| Tipo de NE | Score | Mecanismo |
+|---|---|---|
+| Two-sided (restaurante ↔ consumidor) | ●●●●● | Mais restaurantes = mais opções = mais pedidos = mais receita para restaurantes = mais restaurantes |
+| Two-sided (consumidor ↔ entregador) | ●●●○○ | Mais pedidos = mais entregadores disponíveis = menor tempo de entrega = mais pedidos |
+| Data | ●●●○○ | Histórico de pedidos alimenta personalização de feed e estimativa de tempo de entrega |
+| Bandwagon | ●●○○○ | "Todo mundo pede pelo iFood" — pressão social para estar na plataforma |
+| **NE dominante** | — | Two-sided restaurante↔consumidor: o loop mais forte e mais defensável |
+
+**Insight do caso:** O NE mais forte do iFood não é o tecnológico (dados) — é o two-sided de distribuição (restaurante↔consumidor). Por isso, o moat principal é a cobertura geográfica de restaurantes — quem tem mais restaurantes em mais bairros vence a guerra de aquisição de consumidores. Isso explica por que iFood investiu agressivamente em onboarding de restaurantes mesmo com unit economics negativos no curto prazo.
+
+##### Erros comuns
+
+- Chamar escala de efeito de rede — confunde o time e o investidor.
+- Ter NE two-sided fraco no início e não subsidiar o lado correto.
+- Ignorar NE de dados enquanto constrói produto — os dados de hoje são o moat de amanhã.
+- Subestimar o chicken-and-egg: lançar em muitas cidades ao mesmo tempo dilui o NE two-sided — melhor dominar uma cidade completamente antes de expandir.
+
+##### Quando NÃO usar
+
+Em modelos onde a defensibilidade não vem de rede (negócios verticais com regulação, IP forte, ou switching costs contratuais) — forçar análise de NE em modelo que não é de rede gera narrativa falsa em pitch. Em estágio muito inicial sem nenhum usuário — sem volume mínimo, o exercício é especulativo e os scores se tornam wishful thinking. Como substituto de unit economics — NE potencial não compensa unit economics ruins se o loop ainda não está em pé.
+
+##### Conexão com outros canvases
+
+O Network Effects Map **alimenta o Strategy Canvas (Fase 6)** — NE são uma das dimensões de competição onde a empresa pode criar distância; e **alimenta a Theory Map (Fase 3)** — o loop de NE é frequentemente uma das premissas centrais da teoria do negócio que precisa ser validada empiricamente (um NE que não se materializa é uma premissa falsa).
+
+##### Leitura adicional
+
+- NFX Bible (nfx.com/post/network-effects-bible) — taxonomia completa com 16 tipos e exemplos.
+- *The Cold Start Problem* (Andrew Chen, 2021) — como iniciar redes quando o NE ainda não existe.
+- *Platform Revolution* (Parker, Van Alstyne & Choudary, 2016) — NE em plataformas de dois lados.
+
+---
+
 ### TEMPLATES OPERACIONAIS E CASOS PREENCHIDOS DESTA FASE
 
 #### Template: Matriz de Parcerias
@@ -1066,6 +1634,291 @@ Documento vivo de 4-6 páginas, revisão trimestral. Princípios de posicionamen
 - Cobertura editorial: _____
 - Pipeline atribuído a marca/referência: _____
 - NPS: _____
+
+---
+
+#### Template: Plano de Financiamento Não-Diluitivo
+
+Documento de 2-3 páginas, revisão semestral. Tipologia das fontes (Lei do Bem, Finep, BNDES, FAPESP, Venture Debt, RBF), critérios de elegibilidade e ordem de ataque em [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 9 — FINANCIAMENTO NÃO-DILUITIVO|Capítulo 9 (FINANCIAMENTO NÃO-DILUITIVO) (Vol. 5)]].
+
+**Necessidade de caixa nos próximos 18 meses:**
+
+- Cenário conservador: R$ _____
+- Cenário realista: R$ _____
+- Cenário pessimista: R$ _____
+
+**Composição planejada:**
+
+| Fonte | Valor (R$) | % do total | Janela | Status |
+|---|---|---|---|---|
+| Caixa atual | | |, | Ativo |
+| Receita orgânica prevista | | | 18m |, |
+| Incentivos fiscais (Lei do Bem etc.) | | | 12m | Planejado / Em análise |
+| Grants/editais (Finep, BNDES, FAPESP) | | | 3-9m |, |
+| Antecipação de recebíveis | | | Contínuo |, |
+| Venture Debt | | |, |, |
+| RBF | | |, |, |
+| Equity (rodada) | | |, |, |
+| **Total** | | 100% | | |
+
+**Decisões-chave:**
+
+- Qual o gap a cobrir, após receita orgânica?
+- Qual a ordem de ataque (priorizar não-diluitivo antes de equity)?
+- Quais covenants/condições são aceitáveis?
+- Quais garantias corporativas ou pessoais estão na mesa?
+
+**Próximos 90 dias:**
+
+1. _____
+2. _____
+3. _____
+
+---
+
+#### Template: Data Room — Checklist de Due Diligence
+
+> [!note] Quando usar
+> Ao preparar captação de rodada (Seed, Série A em diante) ou processo de M&A. O data room organiza os documentos que um investidor ou adquirente vai solicitar durante a due diligence. Monte antes de iniciar o processo — improvisação no meio da DD sinaliza desorganização.
+
+> [!tip] Ferramentas
+> Notion, Google Drive com permissões por pasta, Capshare, Datasite ou DocSend para controle de acesso e analytics de visualização.
+
+##### Seção 1 — Empresa e societário
+
+- [ ] Contrato social / estatuto social (versão vigente consolidada)
+- [ ] Atas de assembleias e reuniões de sócios (últimos 3 anos)
+- [ ] Cap table atual: percentuais, classes de ações, opções outorgadas e em aberto
+- [ ] Acordos de sócios e shareholders agreements
+- [ ] Certidões negativas: Receita Federal, PGFN, FGTS, Trabalhista (CNDT), Estadual, Municipal
+- [ ] Histórico de alterações societárias (entradas, saídas, fusões)
+- [ ] Estrutura holding / subsidiárias (se houver): organograma societário
+
+##### Seção 2 — Financeiro
+
+- [ ] DRE dos últimos 24–36 meses (auditada ou revisada se disponível)
+- [ ] Balanço patrimonial dos últimos 24–36 meses
+- [ ] Cashflow statement dos últimos 12 meses
+- [ ] Projeções financeiras para 24–36 meses (com premissas explícitas)
+- [ ] Modelo financeiro com unit economics: CAC, LTV, payback, gross margin, burn
+- [ ] Extrato bancário dos últimos 6 meses
+- [ ] Lista de dívidas ativas: banco, montante, vencimento, garantias
+- [ ] Contratos de venture debt ou RBF ativos (se houver)
+- [ ] Nota fiscal de emissão e conciliação de receita (últimos 12 meses)
+
+##### Seção 3 — Clientes e receita
+
+- [ ] Lista dos top 20 clientes: nome, MRR/ARR, data de início, status de renovação
+- [ ] Contratos dos top 10 clientes (MSA, SOW ou equivalente)
+- [ ] Histórico de churn: clientes perdidos nos últimos 12 meses e razão
+- [ ] Análise de cohort de retenção (mínimo 12 meses)
+- [ ] Pipeline de vendas atual: CRM export ou planilha com stage, valor, responsável
+- [ ] NPS ou CSAT score e metodologia de coleta
+
+##### Seção 4 — Produto e tecnologia
+
+- [ ] Descrição da arquitetura técnica (diagrama de sistemas)
+- [ ] Inventário de infra: cloud provider, custos mensais, SLAs
+- [ ] Política de segurança da informação e relatório de pentest (se houver)
+- [ ] Histórico de incidentes de segurança ou downtime relevante
+- [ ] Stack tecnológico: linguagens, frameworks, dependências críticas
+- [ ] Dívida técnica conhecida: lista priorizada
+
+##### Seção 5 — Propriedade Intelectual
+
+- [ ] Registro de marcas: número de processo, status, classes (INPI ou equivalente internacional)
+- [ ] Patentes: número, status, jurisdição (se aplicável)
+- [ ] Contratos de cessão de IP com fundadores e funcionários-chave
+- [ ] Contratos de confidencialidade (NDAs) com ex-funcionários relevantes
+- [ ] Licenças de software de terceiros usadas no produto
+- [ ] Domínios registrados e DNS
+
+##### Seção 6 — Time e RH
+
+- [ ] Organograma atual
+- [ ] Contratos de trabalho / prestação de serviço dos C-levels e tech leads
+- [ ] Plano de ESOP/stock options: pool total, outorgado, vesting schedule, good/bad leaver
+- [ ] Política de remuneração: faixas por nível
+- [ ] Benefícios vigentes
+- [ ] Processos trabalhistas ativos (descrição + status)
+- [ ] Últimas duas folhas de pagamento
+
+##### Seção 7 — Jurídico e regulatório
+
+- [ ] Contratos de fornecedores críticos (cloud, pagamentos, infraestrutura)
+- [ ] Contratos de parceiros comerciais relevantes
+- [ ] Processos judiciais ativos: cível, tributário, trabalhista (descrição + estimativa de valor)
+- [ ] Passivo tributário contingente (se houver parecer jurídico, incluir)
+- [ ] Licenças e autorizações regulatórias (BACEN, ANVISA, ANATEL — conforme setor)
+- [ ] Política de privacidade e termos de uso vigentes
+- [ ] DPA (Data Processing Agreement) com clientes enterprise (se houver)
+- [ ] Laudo LGPD / relatório de adequação (se disponível)
+
+##### Seção 8 — Rodadas anteriores
+
+- [ ] Documentos de captações anteriores: term sheet, contrato de investimento, side letters
+- [ ] Notas conversíveis ou SAFEs em aberto: valor, cap, desconto, vencimento
+- [ ] Relatórios de gestão enviados a investidores (últimos 4 quarters)
+- [ ] Comunicações materiais com o board (atas de reunião)
+
+##### Dicas operacionais
+
+- Organize por pasta com numeração (1. Societário / 2. Financeiro etc.)
+- Versionamento: sempre inclua a data no nome do arquivo (`DRE_2026-Q1.pdf`)
+- Controle de acesso: investidores em estágio inicial recebem acesso parcial (Seções 1–3); DD completa libera tudo
+- Watermark em documentos confidenciais com nome do investidor — rastreável
+
+---
+
+#### Template: Term Sheet Anotado — Guia de Leitura
+
+> [!note] Quando usar
+> Ao receber um term sheet de investidor (Seed, Série A, SAFE com cap, nota conversível). Não substitui advogado especializado em venture — mas permite que você entre na negociação entendendo o que cada cláusula faz antes de chamar o jurídico.
+
+> [!warning] Aviso
+> Cláusulas variam por fundo, jurisdição e estágio. Este guia cobre o padrão brasileiro mais comum. Leia sempre o documento original. Consulte advogado com experiência em venture antes de assinar qualquer instrumento.
+
+##### Estrutura típica de um term sheet
+
+**Parte I — Termos econômicos**
+
+| Cláusula | O que significa | Ponto de negociação |
+|---|---|---|
+| **Valuation pre-money** | Valor da empresa antes do aporte. Determina a participação do investidor: `participação = aporte / (pre-money + aporte)` | Principal alavanca. Fundo âncora tem mais poder aqui. |
+| **Montante do aporte** | Valor total da rodada, incluindo conversão de notas anteriores | Verifique se inclui conversão de SAFEs — impacta participação real |
+| **Participação pós-rodada** | Percentual do investidor após o aporte, fully diluted (inclui option pool) | Pool criado *antes* da rodada dilui fundadores, não o investidor — negocie tamanho |
+| **Option pool** | Reserva para ESOP (típico: 10–20% pós-money). Geralmente criado antes do closing | Se já existe pool, não crie novo sem necessidade. "Pre-money pool refresh" é diluitivo para fundadores |
+| **Tipo de ação** | Preferred shares (ações preferenciais) vs. ordinária. Preferred tem direitos especiais | Quase universal em venture. O que varia são os direitos específicos — veja abaixo |
+| **Liquidation preference** | Valor que o investidor recebe primeiro numa liquidação (venda ou encerramento) | 1x non-participating é padrão. 2x ou participating preference é agressivo — questione |
+| **Participating preferred** | Investidor recebe a preference E participa pro-rata na distribuição restante | Evite se possível. Reduz significativamente o retorno dos fundadores em exits menores |
+| **Anti-dilution** | Proteção do investidor se rodada futura tiver valuation menor (down round) | Broad-based weighted average é razoável. Full ratchet é extremo — evite |
+| **Dividendos** | Geralmente cumulativos ou não. Startups raramente pagam dividendos antes do exit | Dividendo cumulativo acumula preferência na liquidação — impacto real em exit |
+
+**Parte II — Termos de controle e governança**
+
+| Cláusula | O que significa | Ponto de negociação |
+|---|---|---|
+| **Assento no board** | Quantos assentos o investidor recebe e em que composição (fundador / investidor / independente) | Estrutura 2-2-1 (2 fundadores, 2 investidores, 1 independente) é padrão em Série A |
+| **Direito de voto** | Matérias que requerem aprovação do investidor (veto) | Vetos padrão aceitáveis: venda da empresa, emissão de novas ações, mudança de estatuto. Veto em contratação de C-level ou orçamento é excessivo |
+| **Protective provisions** | Lista de ações que requerem aprovação dos preferred shareholders | Negocie para proteger decisões operacionais cotidianas da interferência do investidor |
+| **Pro-rata rights** | Direito de manter participação em rodadas futuras | Razoável para investidores lead. Pode encarecer e complicar rodadas futuras se muito amplo |
+| **Information rights** | Relatórios que você deve enviar (mensal, trimestral, anual) | Defina formato e prazo realistas. Investidores anjos aceitam relatório trimestral simples |
+| **ROFR (Right of First Refusal)** | Investidor tem direito de comprar ações antes de terceiros | Padrão e razoável. Verifique se inclui co-sale (drag and tag) |
+| **Co-sale (tag-along)** | Se fundador vende, investidor pode vender junto nas mesmas condições | Padrão. Protege investidor minoritário |
+| **Drag-along** | Maioria pode obrigar todos a vender se houver oferta de aquisição | Necessário para viabilizar M&A. Verifique threshold — geralmente 70–75% |
+
+**Parte III — Termos de proteção ao investidor**
+
+| Cláusula | O que significa | Ponto de negociação |
+|---|---|---|
+| **Vesting dos fundadores** | Agenda de consolidação das ações dos fundadores, geralmente reset parcial na rodada | 4 anos / 1 ano cliff é padrão. Crédito por tempo já trabalhado é negociável |
+| **Exclusividade** | Período em que você não pode negociar com outros investidores | 30–45 dias é razoável. 90+ dias é excessivo |
+| **Condições precedentes** | O que precisa acontecer antes do closing (due diligence, aprovação regulatória) | Liste itens específicos — condição genérica ("a critério do investidor") é perigosa |
+| **No-shop** | Proibição de solicitar outras ofertas enquanto o term sheet está ativo | Padrão. Garanta que tem saída se o investidor não fechar no prazo |
+| **Break-up fee** | Penalidade se alguma das partes desistir sem causa justa | Pouco comum em Brasil. Se houver, deve ser simétrico |
+| **Representations e warranties** | Declarações e garantias que você faz sobre o estado da empresa | Mantenha dentro do razoável. Indemnification ilimitada é arriscada |
+
+##### Checklist antes de assinar
+
+- [ ] Calculei minha participação pós-rodada fully diluted (incluindo option pool e conversão de notas)?
+- [ ] Entendi o impacto da liquidation preference em cenários de exit: 2x, 5x, 10x?
+- [ ] O vesting dos fundadores foi discutido? Quanto de crédito pelo passado?
+- [ ] Quais matérias o investidor tem veto efetivo?
+- [ ] A composição do board após o investimento foi definida?
+- [ ] O período de exclusividade é razoável para a due diligence que o investidor vai conduzir?
+- [ ] Advogado com experiência em venture revisou o documento?
+
+---
+
+#### Template: Plano de Rodada (Fundraising Project Plan)
+
+> [!note] Quando usar
+> Ao iniciar preparação para captação de rodada (Seed ou Série A). Captação é projeto com prazo, stakeholders e dependências — trate como projeto. Ver também [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 6 — PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO|Capítulo 6 (PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO) (Vol. 5)]] para o método completo.
+
+> [!warning] Tempo real
+> O processo Seed leva 3–6 meses em média. Série A, 4–8 meses. Não comece com 2 meses de runway.
+
+---
+
+**Empresa:** `[Nome]`
+**Rodada target:** `[Seed / Série A / etc.]`
+**Montante target:** `[R$ ___ / US$ ___]`
+**Valuation pretendido (pre-money):** `[R$ ___ / US$ ___]`
+**Runway atual:** `[___ meses]`
+**Data de início do processo:** `[DD/MM/AAAA]`
+**Meta de closing:** `[DD/MM/AAAA]`
+**Lead do processo:** `[Nome do fundador responsável]`
+
+---
+
+##### Fase 1 — Preparação (semanas 1–4)
+
+| Entregável | Responsável | Prazo | Status |
+|---|---|---|---|
+| Tese da rodada (por que agora, por que esse montante) | `[Nome]` | `[___]` | `[ ]` |
+| Deck de pitch v1 (10–12 slides) | `[Nome]` | `[___]` | `[ ]` |
+| One-pager executivo | `[Nome]` | `[___]` | `[ ]` |
+| Modelo financeiro: projeções 24–36 meses + premissas | `[Nome]` | `[___]` | `[ ]` |
+| Data room básico montado (seções 1–4 do Template: Data Room — Checklist de Due Diligence (Fase 15)) | `[Nome]` | `[___]` | `[ ]` |
+| Lista de investidores alvo: tier 1 (10–15), tier 2 (20–30) | `[Nome]` | `[___]` | `[ ]` |
+| Mapa de warm intros: quem pode apresentar para quem | `[Nome]` | `[___]` | `[ ]` |
+| Narrativa da empresa refinada (SCQA ou Elevator Pitch) | `[Nome]` | `[___]` | `[ ]` |
+
+---
+
+##### Fase 2 — Outreach e primeiras reuniões (semanas 5–10)
+
+| Entregável | Responsável | Prazo | Status |
+|---|---|---|---|
+| Envio de outreach para tier 1 (warm intros prioritários) | `[Nome]` | `[___]` | `[ ]` |
+| Envio de outreach para tier 2 | `[Nome]` | `[___]` | `[ ]` |
+| Deck v2 refinado após primeiros feedbacks | `[Nome]` | `[___]` | `[ ]` |
+| CRM de fundraising atualizado semanalmente | `[Nome]` | toda sexta | `[ ]` |
+| Sessão de mock pitch com advisor ou investidor de confiança | `[Nome]` | `[___]` | `[ ]` |
+| Meta de reuniões nesta fase: `[___]` primeiras conversas | — | — | — |
+
+##### Painel de acompanhamento do pipeline
+
+| Investidor | Tier | Quem apresentou | Status | Última interação | Próximo passo |
+|---|---|---|---|---|---|
+| `[Fundo A]` | 1 | `[Nome]` | `[1ª reunião / DD / Term sheet / Pass]` | `[DD/MM]` | `[___]` |
+| `[Fundo B]` | 1 | `[Nome]` | `[___]` | `[DD/MM]` | `[___]` |
+
+---
+
+##### Fase 3 — Due diligence e negociação (semanas 10–16)
+
+| Entregável | Responsável | Prazo | Status |
+|---|---|---|---|
+| Data room completo aberto para fundos em DD | `[Nome]` | `[___]` | `[ ]` |
+| Respostas a perguntas de DD (log de Q&A) | `[Nome]` | contínuo | `[ ]` |
+| Advogado de venture contratado | `[Nome]` | `[___]` | `[ ]` |
+| Term sheet recebido e revisado com jurídico | `[Nome]` | `[___]` | `[ ]` |
+| Negociação de termos: valuation, liquidation preference, board | `[Nome]` | `[___]` | `[ ]` |
+| Referências do fundo / parceiro checadas (back-channel) | `[Nome]` | `[___]` | `[ ]` |
+
+---
+
+##### Fase 4 — Closing (semanas 16–20)
+
+| Entregável | Responsável | Prazo | Status |
+|---|---|---|---|
+| Documentos definitivos enviados pelo fundo | `[Nome]` | `[___]` | `[ ]` |
+| Revisão completa com advogado | `[Nome]` | `[___]` | `[ ]` |
+| Assinaturas de todos os sócios | `[Nome]` | `[___]` | `[ ]` |
+| Wire / aporte confirmado na conta | `[Nome]` | `[___]` | `[ ]` |
+| Comunicação interna: time informado | `[Nome]` | `[___]` | `[ ]` |
+| Comunicação externa: press release / LinkedIn (opcional) | `[Nome]` | `[___]` | `[ ]` |
+| Reunião de kick-off com novo investidor | `[Nome]` | `[___]` | `[ ]` |
+
+---
+
+##### Regras operacionais do processo
+
+- **Não pare de operar.** Captação não suspende o negócio. Métricas continuando a crescer durante o processo fortalecem a posição do fundador.
+- **Crie urgência real.** Múltiplas conversas paralelas criam competição natural. Artificiar urgência sem base (falso deadline) destrói confiança.
+- **Documente tudo.** Cada reunião: o que foi dito, o que o investidor pediu, próxima ação combinada. CRM simples funciona (planilha ou Notion).
+- **Proteja o tempo.** Bloquear 3–4h por dia para captação é suficiente para a maioria dos processos. Fundador que passa 100% do tempo levantando capital destrói o produto que está vendendo.
 
 ---
 
@@ -1136,8 +1989,8 @@ A [[#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16]] (Time 
 > [!important] Por que é momento crítico
 > Até aqui, o fundador fazia tudo, e delegava nada. A dificuldade é mais emocional que técnica. Aprender a *confiar* em alguém com coisas que antes você controlava. O primeiro funcionário define a cultura da empresa com peso desproporcional. Os valores dessa pessoa moldam os próximos cinco a quinze funcionários. Erros de contratação cedo são caros. Em tempo perdido. Em moral quebrada. Em aprendizado de gestão ainda embrionário no fundador. O primeiro funcionário frequentemente tem perfil diferente dos seguintes. Requer empreendedorismo no DNA, mesmo sendo funcionário.
 
-> [!tip] Canvases Visuais — Org Chart Evolution (Fase 17, Vol. 7)
-> Estrutura organizacional em escala não é estática. O [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#Canvas: Org Chart Evolution|Canvas: Org Chart Evolution (Vol. 7)]] é o mapa visual de como o org chart deve evoluir conforme a empresa cresce (10 → 50 → 200 → 500 pessoas), sinalizando quando criar gerência intermediária, quando descentralizar decisões e quais funções aparecem em cada estágio (CFO, CPO, VP Engineering, CHRO). Use para antecipar contratações C-level antes de elas virarem urgência reativa — contratar com seis meses de antecedência custa metade de contratar em pânico.
+> [!tip] Canvases Visuais — Org Chart Evolution (Fase 16)
+> Estrutura organizacional em escala não é estática. O [[#Canvas: Org Chart Evolution|Canvas: Org Chart Evolution]] é o mapa visual de como o org chart deve evoluir conforme a empresa cresce (10 → 50 → 200 → 500 pessoas), sinalizando quando criar gerência intermediária, quando descentralizar decisões e quais funções aparecem em cada estágio (CFO, CPO, VP Engineering, CHRO). Use para antecipar contratações C-level antes de elas virarem urgência reativa — contratar com seis meses de antecedência custa metade de contratar em pânico.
 
 #### Quando contratar o primeiro funcionário
 
@@ -1358,7 +2211,7 @@ Acompanhe também três coisas. Taxa de retenção de doze meses. Tempo médio d
 - Eu consigo, honestamente, demitir alguém de alta performance por violação de valores?
 
 > [!tip] Team Canvas para formalizar o alinhamento do time antes de escalar
-> Antes de formalizar a cultura da empresa (Passo 5) e a cada ciclo de expansão, uma sessão de Team Canvas (Fase 0, Vol. 1) com os primeiros líderes revela desalinhamentos em papéis, objetivos e modos de trabalho que processos operacionais depois não conseguem corrigir. Veja instruções, estrutura dos 9 blocos e exemplo da Loggi em [[IGNICAO-Vol-1-Ideacao#Canvas: Team Canvas (Alex Ivanov, 2015)|Canvas: Team Canvas (Alex Ivanov, 2015) (Vol. 1)]].
+> Antes de formalizar a cultura da empresa (Passo 5) e a cada ciclo de expansão, uma sessão de Team Canvas (Fase 16) com os primeiros líderes revela desalinhamentos em papéis, objetivos e modos de trabalho que processos operacionais depois não conseguem corrigir. Veja instruções, estrutura dos 9 blocos e exemplo da Loggi em [[#Canvas: Team Canvas (Alex Ivanov, 2015)|Canvas: Team Canvas (Alex Ivanov, 2015)]].
 
 ### SAÍDA DESTA FASE
 
@@ -1480,21 +2333,17 @@ A comunicação externa da cultura é arma de dois gumes. Atrai talento alinhado
 
 ### FERRAMENTAS DESTA FASE
 
-Três essenciais para a subfase. Canvases complementares: Canvas: Team Canvas (Alex Ivanov, 2015) (Fase 0, Vol. 1) e Canvas: Org Chart Evolution (Fase 17, Vol. 7). Templates: Template: Job Descriptions — Contratações-chave (Fase 16) (Job Descriptions) e Template: 1:1 — Template de Reunião Individual (Fase 16) (Template de 1:1).
+Três essenciais para a fase. Canvases complementares: [[#Canvas: Team Canvas (Alex Ivanov, 2015)|Canvas: Team Canvas (Alex Ivanov, 2015)]] e [[#Canvas: Org Chart Evolution|Canvas: Org Chart Evolution]]. Templates: [[#Template: Job Descriptions — Contratações-chave|Template: Job Descriptions — Contratações-chave]] e [[#Template: 1:1 — Template de Reunião Individual|Template: 1:1 — Template de Reunião Individual]].
 
-**Essenciais para Time e Liderança:**
+**Essenciais para a Fase 16:**
 
-- **Radical Candor** (Kim Scott, 2017) — Care Personally + Challenge Directly, evita Ruinous Empathy. Base de todo feedback diário não acumulado. Framework: Radical Candor (Kim Scott, 2017) (Fase 16).
-- **Who: A Method for Hiring** (Geoff Smart e Street, 2008) — Scorecard, Source, Select, Sell. Versão operacional do Topgrading. Framework: Who / A Method for Hiring (Geoff Smart & Randy Street, 2008) (Fase 16).
-- **DACI/RACI/RAPID** — papéis de decisão clara quando o time cresce. Evita paralisia. Framework: DACI / RACI / RAPID (RAPID é da Bain; demais têm origens distintas) (Fase 16).
+- **Radical Candor** (Kim Scott, 2017) — Care Personally + Challenge Directly, evita Ruinous Empathy. Base de todo feedback diário não acumulado. [[#Framework: Radical Candor (Kim Scott, 2017)|Framework: Radical Candor (Kim Scott, 2017)]].
+- **Who: A Method for Hiring** (Geoff Smart e Street, 2008) — Scorecard, Source, Select, Sell. Versão operacional do Topgrading. [[#Framework: Who / A Method for Hiring (Geoff Smart & Randy Street, 2008)|Framework: Who / A Method for Hiring (Geoff Smart & Randy Street, 2008)]].
+- **DACI/RACI/RAPID** — papéis de decisão clara quando o time cresce. Evita paralisia. [[#Framework: DACI / RACI / RAPID (RAPID é da Bain; demais têm origens distintas)|Framework: DACI / RACI / RAPID (RAPID é da Bain; demais têm origens distintas)]].
 
 **Complementares (consulte conforme o caso):**
 
-- Situational Leadership (Hersey e Blanchard), 5 Dysfunctions of a Team (Lencioni), Topgrading (Brad Smart), Crucial Conversations (Patterson), Extreme Ownership (Willink/Babin), The Hard Things About Hard Things (Horowitz), Culture Code (Coyle), No Rules Rules (Hastings/Netflix, pós-escala), Servant Leadership (Greenleaf), Intent-Based Leadership (Marquet), Harvard Negotiation/BATNA (Framework: Harvard Negotiation / BATNA & ZOPA (Roger Fisher & William Ury, 1981) (Cap. 11, Vol. 4), para contratação sênior). Detalhamento em Framework: Situational Leadership (Paul Hersey & Ken Blanchard, 1969) (Fase 16) a Framework: Intent-Based Leadership / Turn the Ship Around (L. David Marquet, 2012) (Fase 16).
-
----
-
-
+- Situational Leadership (Hersey e Blanchard), 5 Dysfunctions of a Team (Lencioni), Topgrading (Brad Smart), Crucial Conversations (Patterson), Extreme Ownership (Willink/Babin), The Hard Things About Hard Things (Horowitz), Culture Code (Coyle), No Rules Rules (Hastings/Netflix, pós-escala), Servant Leadership (Greenleaf), Intent-Based Leadership (Marquet), Harvard Negotiation/BATNA ([[#Framework: Harvard Negotiation / BATNA & ZOPA (Roger Fisher & William Ury, 1981)|Framework: Harvard Negotiation / BATNA & ZOPA (Roger Fisher & William Ury, 1981)]], para contratação sênior). Detalhamento passo a passo na subseção **[[#MANUAL PASSO A PASSO DOS FRAMEWORKS DESTA FASE|Manual Passo a Passo dos Frameworks desta Fase]]** logo a seguir.2 a [[#Framework: Intent-Based Leadership / Turn the Ship Around (L. David Marquet, 2012)|Framework: Intent-Based Leadership / Turn the Ship Around (L. David Marquet, 2012)]].
 
 ---
 
@@ -2473,6 +3322,254 @@ Para problemas operacionais especificos (otimizar funil de vendas, reduzir time-
 
 ---
 
+### CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)
+
+#### Canvas: Org Chart Evolution
+
+##### Origem
+
+O Org Chart Evolution não é canvas de um autor único — é síntese de observações empíricas de como as estruturas organizacionais de startups evoluem com o crescimento. O trabalho de Greiner (*Evolution and Revolution as Organizations Grow*, Harvard Business Review, 1972), de Brian Chesky (Airbnb) sobre recentralização em crise, e de Camille Fournier (*The Manager's Path*, 2017) sobre progressão técnica formam a base. O canvas foi desenvolvido como ferramenta diagnóstica para fundadores que precisam responder à pergunta "que estrutura organizacional corresponde ao meu estágio?"
+
+##### O que é
+
+Série de quatro diagramas que mostram como a estrutura da empresa deve evoluir em quatro estágios de crescimento, com os princípios de design organizacional subjacentes a cada transição.
+
+**Os quatro estágios:**
+
+```mermaid
+flowchart LR
+    S1["Estágio 1\nPré-PMF\n<15 pessoas\nTudo no fundador"]
+    S2["Estágio 2\nPós-PMF\n15-40 pessoas\nPrimeiros líderes"]
+    S3["Estágio 3\nEscala inicial\n40-150 pessoas\nSquads e áreas"]
+    S4["Estágio 4\nEscala avançada\n150-500 pessoas\nDivisões e P&L"]
+    S1 --> S2 --> S3 --> S4
+```
+
+##### Estágio 1 — Pré-PMF (< 15 pessoas)
+
+**Princípio:** Todos fazem tudo. O fundador é o CEO, o CPO, o head de vendas e às vezes ainda escreve código. Não há hierarquia — há comprometimento.
+
+```mermaid
+flowchart TD
+    CEO["CEO/Fundador(es)"]
+    CEO --> T1["Eng/Produto (1-3)"]
+    CEO --> T2["Vendas/CS (1-2)"]
+    CEO --> T3["Operações/Admin (1)"]
+```
+
+**O que não montar aqui:**
+
+- VPs ou Heads antes de ter ~10 pessoas diretas para eles gerenciarem
+- Comitês de decisão — o fundador decide, rápido
+- Departamentos de RH, Jurídico, Financeiro próprios — terceirize
+
+**Sinal de que é hora de passar para Estágio 2:** Fundador não consegue mais falar com cada pessoa da empresa toda semana.
+
+##### Estágio 2 — Pós-PMF (15–40 pessoas)
+
+**Princípio:** Contratar os primeiros líderes funcionais. Eles ainda executam — não são gestores puros. O fundador ainda decide tudo estratégico, mas libera espaço operacional.
+
+```mermaid
+flowchart TD
+    CEO["CEO"]
+    CEO --> VP1["Head of Product\nou CTO"]
+    CEO --> VP2["Head of Sales\nou Head of Growth"]
+    CEO --> VP3["Head of Ops\nou COO eventual"]
+    VP1 --> E1["Eng 1"] & E2["Eng 2"] & E3["PM 1"]
+    VP2 --> S1["AE 1"] & S2["AE 2"] & S3["CS 1"]
+    VP3 --> O1["Ops 1"] & O2["Fin/Admin"]
+```
+
+**O que não montar aqui:**
+
+- Mais de 3-4 reports diretos do CEO — limite cognitivo real
+- Processo de performance review formal antes de 25 pessoas — overhead injustificado
+- Departamentos separados de Marketing, Brand, PR — concentre em Growth/Revenue
+
+**Sinal de que é hora de passar para Estágio 3:** Produto ou vendas têm mais de 8-10 pessoas e o head não consegue gerenciar diretamente + há conflito de prioridades entre áreas sem fórum de resolução.
+
+##### Estágio 3 — Escala inicial (40–150 pessoas)
+
+**Princípio:** Squads autônomos orientados a resultado. O fundador/CEO gerencia líderes, não output direto. Rituais formais de alinhamento (OKRs, weekly leadership, quarterly planning).
+
+```mermaid
+flowchart TD
+    CEO["CEO"]
+    CEO --> CPO["CPO"]
+    CEO --> CTO["CTO"]
+    CEO --> CRO["CRO / VP Sales"]
+    CEO --> CFO["CFO"]
+    CEO --> COO["COO / VP Ops"]
+    CPO --> PM1["Squad: Onboarding"] & PM2["Squad: Core Product"] & PM3["Squad: Growth"]
+    CTO --> EM1["Squad: Platform"] & EM2["Squad: Infra"] & EM3["Squad: Mobile"]
+    CRO --> S1["AE Team"] & S2["CS Team"] & S3["Marketing"]
+    CFO --> F1["Finance"] & F2["BI/Analytics"]
+    COO --> O1["HR/People"] & O2["Legal"] & O3["Admin"]
+```
+
+**O que não montar aqui:**
+
+- Mais de 5-6 reports diretos do CEO — atenção fica diluída
+- Estrutura matricial complexa (funcional + por produto) — cria conflito de autoridade sem benefício
+- P&L separado por produto — ainda cedo para accountability de margem por divisão
+
+**Sinal de que é hora de passar para Estágio 4:** Mais de uma linha de produto / mercado com lógicas de go-to-market distintas, ou headcount acima de 150 com decisões cruzando mais de 3 camadas hierárquicas.
+
+##### Estágio 4 — Escala avançada (150–500 pessoas)
+
+**Princípio:** Divisões com P&L próprio. O CEO gerencia um "portfólio" de negócios, não um único produto. Cada divisão tem sua liderança completa. Governança corporativa formal (board, comitês, auditoria).
+
+```mermaid
+flowchart TD
+    CEO["CEO"]
+    CEO --> COO["COO\n(operações compartilhadas)"]
+    CEO --> CFO["CFO"]
+    CEO --> CHRO["CHRO"]
+    CEO --> DIV1["GM: Divisão A\n(produto principal)"]
+    CEO --> DIV2["GM: Divisão B\n(novo mercado)"]
+    CEO --> DIV3["GM: Divisão C\n(enterprise)"]
+    DIV1 --> D1["Product + Eng + Sales + CS"]
+    DIV2 --> D2["Product + Eng + Sales + CS"]
+    DIV3 --> D3["Product + Eng + Sales + CS"]
+    COO --> SH["Shared: Infra, Legal,\nFinance, HR, IT"]
+```
+
+##### Armadilhas transversais
+
+1. **Contratar sênior antes do time.** VP de Marketing sem time de marketing produz overhead e frustração. Contrate o líder quando já tem 3-5 pessoas para liderar.
+2. **Reorganizar em crise.** Reorg consome 3-6 meses de energia. Se a empresa está em crise, reorg piora antes de melhorar. Resolva o problema, depois reorganize.
+3. **Copiar estrutura de empresa maior.** Spotify Model, Amazon Two-Pizza Teams — são para outra escala. Em 30 pessoas, tribe e squad são burocracia vazia.
+4. **Manter estrutura de Estágio 1 na Fase de Escala.** Fundador que ainda gerencia 15 ICs diretamente a 50 pessoas é gargalo — não liderança.
+
+##### Conexão com outros canvases
+
+O Org Chart Evolution **complementa o Team Canvas (Fase 16)** — o Team Canvas define propósito e valores do time atual; o Org Chart Evolution define a estrutura que o time assume conforme cresce. **Alimenta o Capítulo 2 (Vol. 4) (FRAMEWORK DE CANAIS DE AQUISIÇÃO)** (organizações em escala) e as [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18 (Vol. 8)]] e [[#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16]].
+
+##### Leitura adicional
+
+- *The Manager's Path* (Camille Fournier, 2017) — progressão de carreira técnica e estruturas de eng.
+- *High Output Management* (Andy Grove, 1983) — gestão por output, não por atividade.
+- [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 2 — FRAMEWORK DE CANAIS DE AQUISIÇÃO|Capítulo 2 — Organizações em escala: de 20 a 500 pessoas (Vol. 4)]].
+
+---
+
+#### Canvas: Team Canvas (Alex Ivanov, 2015)
+
+##### Origem
+
+Alex Ivanov, designer e facilitador russo, publicou o Team Canvas em 2015 como resposta a um problema recorrente em workshops de times: grupos saíam de reuniões de alinhamento com a sensação de que "conversamos muito, mas não sabemos exatamente o que foi decidido nem quem é responsável por quê". O Team Canvas é inspirado no Business Model Canvas de Osterwalder mas voltado para dentro — não para o modelo de negócio, mas para o modelo do time. Parte da premissa de que um time é uma organização em miniatura: tem propósito, papéis, recursos (as pessoas), canais de comunicação, e estrutura de valor (o que cada membro dá e recebe). Sem tornar esse modelo explícito, o time opera com pressupostos implícitos que geram conflito, retrabalho e desengajamento. O Team Canvas tornou o exercício de alinhamento de time replicável em 60-90 minutos.
+
+##### O que é
+
+Tela visual de uma página com **nove blocos** organizados em torno do time como unidade central:
+
+- **People & Roles**: quem são as pessoas, qual papel cada uma exerce no time (não o cargo formal — o papel funcional real).
+- **Common Goals**: quais são os objetivos compartilhados do time para o próximo período. Distingue de objetivos individuais.
+- **Personal Goals**: o que cada membro quer pessoalmente ganhar com esse trabalho (desenvolvimento, visibilidade, dinheiro, aprendizado). Frequentemente não dito.
+- **Purpose**: por que esse time existe? Qual é o propósito que vai além das metas operacionais?
+- **Values**: quais são os valores que o time quer viver — não os valores corporativos genéricos, mas os que esse time específico prioriza no trabalho conjunto.
+- **Strengths & Assets**: o que o time tem de melhor — habilidades, experiências, redes, recursos.
+- **Weaknesses & Risks**: onde o time é fraco ou onde existe risco de conflito.
+- **Needs & Expectations**: o que cada membro precisa dos outros para trabalhar bem. Acordos explícitos.
+- **Rules & Activities**: como o time trabalha — rituais, cadências, normas de comunicação, processos de decisão.
+
+```mermaid
+flowchart TB
+    subgraph Pessoas["Quem somos"]
+        direction LR
+        PR["👥 People & Roles<br/>Papéis funcionais"]
+        PG["🎯 Personal Goals<br/>O que cada um quer"]
+    end
+    subgraph Propósito["Por que existimos"]
+        direction LR
+        CG["🏆 Common Goals<br/>Objetivos compartilhados"]
+        PU["💡 Purpose<br/>Razão de ser"]
+        VA["❤️ Values<br/>O que priorizamos"]
+    end
+    subgraph Capacidade["O que temos"]
+        direction LR
+        SA["💪 Strengths<br/>& Assets"]
+        WR["⚠️ Weaknesses<br/>& Risks"]
+    end
+    subgraph Acordos["Como trabalhamos"]
+        direction LR
+        NE["🤝 Needs<br/>& Expectations"]
+        RA["📋 Rules<br/>& Activities"]
+    end
+    Pessoas --> Propósito --> Capacidade --> Acordos
+```
+
+##### Quando usar
+
+Use o Team Canvas na Fase 14 (escala e time) como artefato de onboarding de novos squads ou ao montar equipe de liderança expandida. Use também em momentos de ruptura: entrada de cofundador ou C-level novo, fusão de times após aquisição, reorganização de squads. Em times de 3-8 pessoas, o canvas pode ser preenchido em sessão única de 90 minutos. Em times maiores, faça por squad e depois alinhe os Common Goals e Values entre squads.
+
+##### Princípios
+
+A tese de Ivanov é que **conflito de time frequentemente não é conflito de personalidade — é conflito de pressupostos não declarados**. Dois co-fundadores que não conversaram sobre Personal Goals assumem que o outro quer a mesma coisa (crescimento acelerado vs. lifestyle company; vender em 5 anos vs. construir por 20). Dois engenheiros que não conversaram sobre Needs & Expectations têm expectativas diferentes sobre code review, autonomia, e prazo. O Team Canvas torna esses pressupostos visíveis antes de se tornarem conflito. **A sessão de preenchimento é mais valiosa que o artefato preenchido** — o que emerge na conversa é o trabalho, não o documento final.
+
+##### Como aplicar
+
+Sessão presencial ou remota (Miro, Mural, FigJam). Facilitador (pode ser o próprio fundador, mas facilita melhor quem não está no canvas). 60-90 minutos para times pequenos (3-6 pessoas); 120-150 minutos para times maiores (6-12).
+
+1. **People & Roles** (10 min) — cada pessoa escreve seu nome e o papel funcional real (não o cargo): "sou quem toma decisão técnica final" / "sou quem mantém relação com os clientes âncora".
+2. **Personal Goals** (15 min) — individualmente primeiro, depois compartilha. O que cada pessoa quer ganhar pessoalmente com esse trabalho nos próximos 12 meses? Dinheiro? Aprendizado? Visibilidade? Espaço para criar? Sem julgamento.
+3. **Common Goals** (15 min) — o que o time quer alcançar *junto*? 3-5 objetivos específicos para o próximo semestre. Discutir até consenso real.
+4. **Purpose** (10 min) — por que esse time existe além das metas? Qual seria a perda para o mundo se esse time parasse de existir?
+5. **Values** (10 min) — quais 3-5 valores o time quer praticar no trabalho conjunto? Votar, depois discutir os que geraram divergência.
+6. **Strengths & Assets / Weaknesses & Risks** (15 min) — o que o time tem de excelente e onde é vulnerável. Honestidade é o requisito — equipe que só lista forças não faz o exercício.
+7. **Needs & Expectations** (10 min) — o que cada pessoa precisa dos outros para trabalhar bem. "Preciso de feedback direto, sem rodeios." "Preciso de autonomia sobre decisões de design." Acordos explícitos.
+8. **Rules & Activities** (10 min) — rituais, cadências, normas. Stand-up diário ou não? Code review obrigatório ou não? Decisão por consenso ou por voto?
+
+Após a sessão: registrar o canvas, colocar visível, revisitar em 3-6 meses.
+
+##### Exemplo brasileiro preenchido — Loggi, formação do squad de expansão nacional (2019)
+
+Quando a Loggi decidiu expandir de São Paulo para 15 cidades em 12 meses (2019), formou um squad de expansão composto por pessoas de produto, operações, dados e comercial que nunca tinham trabalhado juntas. O Team Canvas da sessão inicial:
+
+| Bloco | Conteúdo |
+|---|---|
+| **People & Roles** | PM (decisão de produto e priorização), líder de operações (viabilidade logística e parcerias locais), data analyst (modelo de precificação e projeção de demanda), comercial B2B (clientes-âncora em cada cidade), engenheiro de backend (adaptações de sistema por região). |
+| **Personal Goals** | PM: "quero aprender como se escala operação física, não só digital." Ops: "quero provar que consigo gestão multi-regional." Data: "quero usar modelos preditivos em decisão real, não só relatório." Comercial: "quero virar head de vendas regionais." Engenheiro: "quero ter mais influência na arquitetura." |
+| **Common Goals** | (1) 15 cidades ativas em 12 meses. (2) NPS de entregadores ≥ 45 em todas as cidades ao fim do mês 3. (3) CAC de lojista ≤ R$ 800 nos novos mercados. (4) Tempo de onboarding de cidade ≤ 6 semanas. |
+| **Purpose** | "Tornar entrega rápida acessível para qualquer lojista no Brasil, não só em SP." |
+| **Values** | (1) Velocidade sobre perfeição. (2) Dados antes de opinião. (3) Transparência sobre problemas cedo — sem surpresas tardias. (4) Respeito pela operação local — cada cidade tem suas particularidades. |
+| **Strengths & Assets** | Produto já validado em SP com >18 meses de dados. Marca forte entre entregadores paulistanos. Time com histórico de execução em ambiente caótico. |
+| **Weaknesses & Risks** | Ninguém do squad conhece os mercados-alvo (Recife, BH, Porto Alegre). Risco de replicar o modelo SP sem adaptar. Tensão potencial entre velocidade de expansão (PM + comercial) e qualidade operacional (ops + engenheiro). |
+| **Needs & Expectations** | PM precisa de dados do ops *antes* de priorizar features. Ops precisa de 2 semanas de lead time para qualquer mudança de processo. Data precisa de acesso a dados brutos, sem camadas de abstração. Comercial precisa de suporte de produto para reuniões com clientes grandes. Engenheiro precisa de critério claro de "done" antes de começar cada sprint. |
+| **Rules & Activities** | Weekly de 45 min às segundas (sem slides — só dados + decisões). Slack para comunicação assíncrona (resposta em até 4h em horário comercial). Decisão técnica: engenheiro tem veto. Decisão de produto/prioridade: PM tem última palavra. Decisão de operação: ops tem última palavra. Conflicts escalados para o trio PM + ops + comercial em 24h. |
+
+**Insight do caso.** O bloco que gerou mais conversa foi **Personal Goals** — especialmente o engenheiro que queria "mais influência na arquitetura" e o PM que assumia que o engenheiro estava "só para implementar". Sem o Team Canvas, essa tensão teria emergido na primeira divergência de sprint. Com o canvas, o time chegou a um acordo explícito: o engenheiro entra na reunião de priorização com voto consultivo sobre viabilidade técnica, e o PM explica as decisões de "não agora" com contexto de negócio. **A lição: o conflito mais destrutivo em times de startup é o conflito sobre quem decide o quê. Team Canvas não resolve o conflito — antecipa a conversa e torna o acordo explícito antes que o conflito aconteça.**
+
+##### Variações e extensões
+
+- **Team Canvas Basic**: versão simplificada com apenas 5 blocos (Goals, Roles, Values, Needs, Rules) — para times muito pequenos (2-3 pessoas) ou sessões rápidas de 45 minutos.
+- **Squad Health Check** (Spotify): complemento do Team Canvas — avalia periodicamente a saúde do time em dimensões como Ownership, Speed, Fun, Learning. Útil para revisão trimestral.
+- **Working Agreements Canvas**: foco exclusivo em normas de trabalho — versão mais operacional que o Team Canvas completo.
+
+##### Erros comuns
+
+- Fazer o Team Canvas sem o bloco Personal Goals — é exatamente onde estão os pressupostos não declarados mais perigosos.
+- Facilitador que também está no canvas — difícil ser objetivo; terceiro facilita melhor.
+- Canvas como check-box burocrático (preencher por obrigação, nunca revisitar) — valor está na sessão e na revisão periódica, não no documento.
+- Confundir Values com slogan corporativo — "inovação", "integridade", "excelência" são valores genéricos que não guiam decisão real. "Velocidade sobre perfeição" ou "dados antes de opinião" são valores acionáveis.
+- Tratar o canvas como imutável — times mudam; refaça a cada 6 meses ou quando a composição muda significativamente.
+
+##### Quando NÃO usar
+
+Em times de 1-2 pessoas (overhead não compensa). Em contextos onde há hierarquia rígida que impede honestidade nos blocos Personal Goals e Weaknesses (o canvas produz respostas performáticas, não reais). Em squads temporários de projeto com vida útil <3 meses — overhead de sessão pode não compensar.
+
+##### Conexão com outros canvases
+
+O Team Canvas **complementa o BMC (Fase 2)** e o **Lean Canvas (Fase 1)**: estes descrevem o modelo externo (o negócio); o Team Canvas descreve o modelo interno (o time que vai executar). **Orienta o Risk Canvas (Fase 12)** no bloco "Risco de equipe" — o Team Canvas é o diagnóstico; o Risk Canvas é a priorização e mitigação. **Precede o Storytelling Canvas (Fase 14)** em narrativas de expansão: time alinhado produz narrativa coerente; time desalinhado produz narrativa contraditória.
+
+##### Leitura adicional
+
+- [teamcanvas.com](https://www.teamcanvas.com) — Alex Ivanov mantém o site com templates e estudos de caso.
+- *The Five Dysfunctions of a Team* (Patrick Lencioni, 2002) — modelo de saúde de time que se integra ao Team Canvas.
+- *An Elegant Puzzle* (Will Larson, 2019) — engineering management com foco em time e alinhamento, relevante para squads técnicos.
+
+---
+
 ### TEMPLATES OPERACIONAIS E CASOS PREENCHIDOS DESTA FASE
 
 #### Template: Mapa de Modos — Founder Mode vs Manager Mode
@@ -3285,7 +4382,7 @@ Referências úteis. Reforge (curso, e community, de growth). Andrew Chen (*The 
 Este capítulo aprofunda a Parte 2 do [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 8 — SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|Capítulo 8 (SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL) (Vol. 4)]]. CP cobre vendas enterprise como uma das quatro motions principais. Aqui o tratamento é outro: enterprise como disciplina autônoma, com profundidade operacional em ciclo longo, múltiplos decisores, MEDDPICC item a item, mapa de poder, gestão de pipeline e contratação de time especializado.
 
 > [!note] Posição no livro
-> Este capítulo complementa o [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 7 — PRODUCT MARKETING: POSICIONAMENTO, MENSAGEM E LANÇAMENTO|Capítulo 7 — Product Marketing (Vol. 4)]] e o [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 1 — GTM PLAYBOOK: DA IDEIA AO PRIMEIRO MILHÃO DE ARR|Capítulo 1 — GTM Playbook (Vol. 4)]]. É referência para fundadores que constroem negócios B2B com ticket acima de R$ 100 mil anuais e ciclos de venda superiores a três meses. Leia junto com a [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 6 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 6 — Go-to-Market (Vol. 2)]] e a [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 9 — IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES|Fase 9 — Crescimento (Vol. 3)]].
+> Este capítulo complementa o [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 7 — PRODUCT MARKETING: POSICIONAMENTO, MENSAGEM E LANÇAMENTO|Capítulo 7 — Product Marketing (Vol. 4)]] e o [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 1 — GTM PLAYBOOK: DA IDEIA AO PRIMEIRO MILHÃO DE ARR|Capítulo 1 — GTM Playbook (Vol. 4)]]. É referência para fundadores que constroem negócios B2B com ticket acima de R$ 100 mil anuais e ciclos de venda superiores a três meses. Leia junto com a [[#FASE 15 — MÁQUINA DE CRESCIMENTO E EXPANSÃO EM ESCALA|Fase 15 — Máquina de Crescimento e Expansão em Escala]] e a [[#FASE 15 — MÁQUINA DE CRESCIMENTO E EXPANSÃO EM ESCALA|Fase 15 — Máquina de Crescimento e Expansão em Escala]].
 
 ---
 
@@ -3602,15 +4699,15 @@ Use a lista abaixo para auditoria do estado da motion enterprise. Itens não cum
 - [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 1 — GTM PLAYBOOK: DA IDEIA AO PRIMEIRO MILHÃO DE ARR|Capítulo 1 — GTM Playbook (Vol. 4)]]
 - [[#CAPÍTULO 3 — REVENUE OPERATIONS: INFRAESTRUTURA, DADOS E PROCESSO PARA CRESCER COM PREVISIBILIDADE|Capítulo 3 — Revenue Operations: Infraestrutura, Dados e Processo para Crescer com Previsibilidade]]
 - [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 16 — PLANEJAMENTO FINANCEIRO E ORÇAMENTO|Capítulo 16 — Planejamento Financeiro e Orçamento (Vol. 5)]]
-- [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 6 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 6 — Go-to-Market (Vol. 2)]]
-- [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 9 — IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES|Fase 9 — Crescimento (Vol. 3)]]
+- [[#FASE 15 — MÁQUINA DE CRESCIMENTO E EXPANSÃO EM ESCALA|Fase 15 — Máquina de Crescimento e Expansão em Escala]]
+- [[#FASE 15 — MÁQUINA DE CRESCIMENTO E EXPANSÃO EM ESCALA|Fase 15 — Máquina de Crescimento e Expansão em Escala]]
 
 ---
 
 ## CAPÍTULO 3 — REVENUE OPERATIONS: INFRAESTRUTURA, DADOS E PROCESSO PARA CRESCER COM PREVISIBILIDADE
 
 > [!note] Posição no livro
-> Este capítulo complementa o [[#CAPÍTULO 2 — VENDAS COMPLEXAS ENTERPRISE: CICLO LONGO, ALTO VALOR, MÚLTIPLOS DECISORES|Capítulo 2 — Vendas Complexas Enterprise]] e o [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 1 — BOARD E GOVERNANCE|Capítulo 1 — Métricas de Crescimento (Vol. 9)]]. É referência para fundadores que percebem que o crescimento começa a depender mais de processo e infraestrutura do que de esforço individual. Leia junto com a [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 9 — IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES|Fase 9 — Crescimento (Vol. 3)]] e a [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 11 — MVP E EXPERIMENTOS DE MERCADO|Fase 11 — Escala (Vol. 4)]].
+> Este capítulo complementa o [[#CAPÍTULO 2 — VENDAS COMPLEXAS ENTERPRISE: CICLO LONGO, ALTO VALOR, MÚLTIPLOS DECISORES|Capítulo 2 — Vendas Complexas Enterprise]] e o [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 1 — BOARD E GOVERNANCE|Capítulo 1 — Métricas de Crescimento (Vol. 9)]]. É referência para fundadores que percebem que o crescimento começa a depender mais de processo e infraestrutura do que de esforço individual. Leia junto com a [[#FASE 15 — MÁQUINA DE CRESCIMENTO E EXPANSÃO EM ESCALA|Fase 15 — Máquina de Crescimento e Expansão em Escala]] e a [[IGNICAO-Vol-9-Maturidade-e-Exit#FASE 19 — REINVENÇÃO E SEGUNDA CURVA|Fase 19 — Reinvenção e Segunda Curva (Vol. 9)]].
 
 > [!note] Relação com o Capítulo 8 (Vol. 4) (SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL)
 > Para a visão de RevOps como uma das quatro partes da motion comercial completa, ver Parte 4 do [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 8 — SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|Capítulo 8 (SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL) (Vol. 4)]]. Este capítulo aprofunda RevOps como disciplina autônoma.
@@ -3969,8 +5066,8 @@ A lista abaixo é o teste prático de maturidade de RevOps. O que falta vira bac
 - [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 1 — BOARD E GOVERNANCE|Capítulo 1 — Métricas de Crescimento (Vol. 9)]]
 - [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 7 — PRODUCT MARKETING: POSICIONAMENTO, MENSAGEM E LANÇAMENTO|Capítulo 7 — Product Marketing: Posicionamento, Mensagem e Lançamento (Vol. 4)]]
 - [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 16 — PLANEJAMENTO FINANCEIRO E ORÇAMENTO|Capítulo 16 — Planejamento Financeiro e Orçamento (Vol. 5)]]
-- [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 9 — IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES|Fase 9 — Crescimento (Vol. 3)]]
-- [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 11 — MVP E EXPERIMENTOS DE MERCADO|Fase 11 — Escala (Vol. 4)]]
+- [[#FASE 15 — MÁQUINA DE CRESCIMENTO E EXPANSÃO EM ESCALA|Fase 15 — Máquina de Crescimento e Expansão em Escala]]
+- [[IGNICAO-Vol-9-Maturidade-e-Exit#FASE 19 — REINVENÇÃO E SEGUNDA CURVA|Fase 19 — Reinvenção e Segunda Curva (Vol. 9)]]
 
 ---
 
@@ -4323,11 +5420,11 @@ Churn de parceiros (% ao ano)      Trimestral    <20%
 
 Business Development não é uma função isolada. Ela se conecta diretamente com as decisões de distribuição, posicionamento e crescimento que permeiam todo o processo de construção da startup.
 
-A definição do ICP, feita na [[IGNICAO-Vol-1-Ideacao#FASE 2 — ARTICULAÇÃO E CAPTURA DA IDEIA|Fase 2 — Validação de Problema e Cliente (Vol. 1)]], é o insumo mais importante para qualificar parceiros. Sem ICP claro, o critério de "o parceiro tem os clientes que eu quero" não pode ser aplicado com rigor.
+A definição do ICP, feita na [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 4 — DESCOBERTA DO PROBLEMA|Fase 4 — Descoberta do Problema (Vol. 2)]], é o insumo mais importante para qualificar parceiros. Sem ICP claro, o critério de "o parceiro tem os clientes que eu quero" não pode ser aplicado com rigor.
 
-O modelo de receita e as métricas de unit economics, trabalhados na [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 6 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 6 — Modelo de Negócio e Financeiro (Vol. 2)]], determinam qual percentual de revenue share é viável sem destruir a margem. Parceria com comissão de 25% só faz sentido se o CAC via canal for suficientemente menor que o CAC via força própria para compensar a margem cedida.
+O modelo de receita e as métricas de unit economics, trabalhados na [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 12 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 12 — Validação do Modelo de Negócio (Vol. 4)]], determinam qual percentual de revenue share é viável sem destruir a margem. Parceria com comissão de 25% só faz sentido se o CAC via canal for suficientemente menor que o CAC via força própria para compensar a margem cedida.
 
-O processo de go-to-market estruturado, discutido na [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 9 — IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES|Fase 9 — Go-to-Market e Crescimento (Vol. 3)]], define quando a startup está pronta para escalar via canal. Ativar parceiros antes de ter playbook de vendas, materiais de enablement e suporte técnico estruturado é um dos erros mais comuns e mais custosos em BD.
+O processo de go-to-market estruturado, discutido na [[#FASE 15 — MÁQUINA DE CRESCIMENTO E EXPANSÃO EM ESCALA|Fase 15 — Máquina de Crescimento e Expansão em Escala]], define quando a startup está pronta para escalar via canal. Ativar parceiros antes de ter playbook de vendas, materiais de enablement e suporte técnico estruturado é um dos erros mais comuns e mais custosos em BD.
 
 ---
 
@@ -4363,13 +5460,13 @@ Use a lista abaixo para auditoria. Marque o que já está em pé. O que falta vi
 
 **Ver também:**
 
-- [[IGNICAO-Vol-1-Ideacao#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvases e Mapas Visuais (Vol. 1)]] — Canvas de Parceria para mapeamento visual do modelo de colaboração
+- [[#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvases e Mapas Visuais]] — Canvas de Parceria para mapeamento visual do modelo de colaboração
 - [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 6 — BRANDING E POSICIONAMENTO DE MARCA PARA STARTUPS|Capítulo 6 — Contratos para Startups (Vol. 4)]] — Estrutura jurídica de contratos de parceria, MOU e revenue share
 - [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 10 — COMUNICAÇÃO INTERNA|Capítulo 10 — Vendas B2B (Vol. 7)]] — Playbook de vendas que o canal de parceiros vai usar
 - [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 8 — SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|Capítulo 8 (SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL) (Vol. 4)]] — motion direta de vendas, contraste com BD
 - [[#CAPÍTULO 2 — VENDAS COMPLEXAS ENTERPRISE: CICLO LONGO, ALTO VALOR, MÚLTIPLOS DECISORES|Capítulo 2 (VENDAS COMPLEXAS ENTERPRISE: CICLO LONGO, ALTO VALOR, MÚLTIPLOS DECISORES)]] — quando o canal vende para enterprise, quem coordena
-- [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 6 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 6 — Modelo de Negócio (Vol. 2)]] — Unit economics e viabilidade do revenue share
-- [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 9 — IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES|Fase 9 — Go-to-Market (Vol. 3)]] — Quando e como ativar canais de parceiros no plano de crescimento
+- [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 12 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 12 — Validação do Modelo de Negócio (Vol. 4)]] — Unit economics e viabilidade do revenue share
+- [[#FASE 15 — MÁQUINA DE CRESCIMENTO E EXPANSÃO EM ESCALA|Fase 15 — Máquina de Crescimento e Expansão em Escala]] — Quando e como ativar canais de parceiros no plano de crescimento
 
 ---
 
@@ -4691,9 +5788,9 @@ SINAIS DE M&A
 - [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 19 — RELAÇÕES BANCÁRIAS E CRÉDITO NO BRASIL|Capítulo 19 — Captação de Recursos com Investidores Institucionais (Vol. 5)]]
 - [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 8 — DESIGN ORGANIZACIONAL|Capítulo 8 — Contratos e Jurídico para Startups (Vol. 7)]]
 - [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 9 — GESTÃO DO CONHECIMENTO|Capítulo 9 — Valuation e Term Sheets (Vol. 7)]]
-- [[IGNICAO-Vol-1-Ideacao#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvases e Mapas Visuais de Referência (Vol. 1)]]
-- [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 6 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 6 — Modelo de Negócio e Monetização (Vol. 2)]]
-- [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 9 — IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES|Fase 9 — Crescimento e Escala (Vol. 3)]]
+- [[#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvases e Mapas Visuais de Referência]]
+- [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 12 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 12 — Validação do Modelo de Negócio (Vol. 4)]]
+- [[#FASE 15 — MÁQUINA DE CRESCIMENTO E EXPANSÃO EM ESCALA|Fase 15 — Máquina de Crescimento e Expansão em Escala]]
 
 ---
 
@@ -8086,3 +9183,336 @@ Exemplos públicos referência. GitLab Handbook (cerca de duas mil páginas púb
 ### Ver também
 
 [[#CAPÍTULO 16 — CULTURA COMO DISCIPLINA|Capítulo 16 (CULTURA COMO DISCIPLINA)]], Cultura. [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 5 — CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS|Capítulo 5 (CONTRATOS E ASPECTOS LEGAIS OPERACIONAIS) (Vol. 8)]], Contratos operacionais. [[#CAPÍTULO 12 — EXECUTIVE HIRING: CONTRATAR LÍDERES SÊNIOR E C-LEVEL|Capítulo 12 (EXECUTIVE HIRING: CONTRATAR LÍDERES SÊNIOR E C-LEVEL)]], Executive hiring. [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 8 — DESIGN ORGANIZACIONAL|Capítulo 8 (DESIGN ORGANIZACIONAL) (Vol. 7)]], Design organizacional. [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 4 — ENGINEERING MANAGEMENT: GESTÃO DO TIME TÉCNICO E DEVELOPER EXPERIENCE|Capítulo 4 (ENGINEERING MANAGEMENT: GESTÃO DO TIME TÉCNICO E DEVELOPER EXPERIENCE) (Vol. 7)]], Engineering management. [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 10 — COMUNICAÇÃO INTERNA|Capítulo 10 (COMUNICAÇÃO INTERNA) (Vol. 7)]], Comunicação interna.
+
+---
+
+# GLOSSÁRIO E SIGLAS DESTE VOLUME
+
+> [!abstract] Vocabulário técnico e siglas deste volume
+> Para garantir que este **Volume 6** funcione de forma 100% independente e autocontida sem exigir consulta a outro livro, esta seção reúne as definições dos **97 termos técnicos e de negócios** e das **61 siglas e abreviações** utilizados ao longo das Fases e Capítulos deste volume.
+
+---
+
+## GLOSSÁRIO E SIGLAS DESTE VOLUME
+
+### Termos Técnicos e de Negócios Usados neste Volume
+
+**ACV (Annual Contract Value).** Valor anual de um contrato com cliente. Usado em vendas B2B para dimensionar deals e calcular receita por cliente.
+
+**Advisor.** Conselheiro externo que orienta o fundador em áreas específicas (técnica, comercial, regulatória, captação). Tipicamente compensado com 0,1% a 1% de equity sob contrato FAST.
+
+**Aha moment.** Momento em que o usuário percebe pela primeira vez o valor central do produto. Ponto crítico da etapa de ativação no funil AARRR.
+
+**ANPD (Autoridade Nacional de Proteção de Dados).** Autarquia federal brasileira responsável por fiscalizar e aplicar a LGPD. Pode aplicar multas até 2% do faturamento (limite R$ 50 milhões por infração).
+
+**Anti-dilution.** Cláusula societária que protege investidores de diluição em rodadas futuras a valuation menor. Variantes: full ratchet (ajuste integral) e weighted average (mais comum, ajuste ponderado).
+
+**ARR (Annual Recurring Revenue).** Receita anual recorrente. Soma de todos os contratos ativos anualizados. Principal métrica de tamanho de empresa SaaS. ARR = MRR × 12.
+
+**ASP (Average Selling Price).** Preço médio de venda. Receita total dividida pela quantidade vendida. Diferenças relevantes entre ASP por segmento ou canal indicam oportunidade de pricing diferenciado.
+
+**BATNA (Best Alternative to a Negotiated Agreement).** Melhor alternativa caso a negociação não resulte em acordo. Quanto melhor o BATNA, mais poder o negociador tem. Conceito central de Fisher e Ury (Getting to Yes, 1981).
+
+**Blitzscaling.** Estratégia de crescimento deliberadamente ineficiente em velocidade extrema para capturar mercado winner-takes-most antes dos competidores. Conceito de Reid Hoffman. Aceita custo e caos em troca de velocidade. Ver Framework: Blitzscaling (Reid Hoffman & Chris Yeh, 2018) (Fase 15).
+
+**Board.** Conselho de administração. Órgão de governança da empresa. Em startups, tipicamente 3-5 membros: fundadores, investidores e independentes.
+
+**Burn Multiple.** Net burn (caixa gasto) dividido por net new ARR gerado. Mede eficiência de queima de caixa. Referência: ≤ 1.5x excelente, ≤ 2.5x aceitável, acima de 3x preocupante.
+
+**Burn rate.** Velocidade de consumo de caixa por mês. Caixa disponível dividido pelo burn rate mensal = runway.
+
+**CAC (Customer Acquisition Cost).** Custo total de marketing e vendas dividido pelo número de novos clientes no período. Calculado por canal para diagnóstico preciso, não apenas blended.
+
+**CAC Payback.** Número de meses necessários para recuperar o CAC com a margem bruta gerada pelo cliente. Referência: ≤ 12 meses B2C, ≤ 18 meses B2B enterprise.
+
+**Cap table (Tabela de capitalização).** Documento que registra a estrutura de propriedade de uma empresa: quem tem quantas ações, de qual classe, com qual vesting e a que preço foram emitidas.
+
+**Category design.** Estratégia de criar e dominar uma categoria de mercado nova, em vez de competir em categoria existente. Empresa define o problema de forma nova, tornando-se referência da categoria. Ver Framework: Category Design (Play Bigger, 2016) (Fase 6).
+
+**Churn.** Taxa de cancelamento ou perda de clientes ou receita em um período. Churn de clientes: percentual de clientes que cancelaram. Churn de receita (MRR churn): percentual da receita mensal perdida por cancelamentos e downgrades.
+
+**Cliff (de vesting).** Período inicial de vesting em que nenhuma parte da participação veste. Tipicamente 12 meses para cofundadores e funcionários: se sair antes de 1 ano, não recebe nada.
+
+**Closing.** Momento de assinatura e execução de uma transação (rodada de investimento, M&A). Marca a transferência efetiva de capital e participação. Tipicamente precedido por due diligence, term sheet e SPA.
+
+**Cofundador.** Pessoa que funda a empresa em conjunto com um ou mais sócios desde o início. No Brasil, distinto de "co-founder" — usar termo em português é a convenção do livro.
+
+**Compliance.** Conformidade regulatória. Em startups, refere-se à aderência a normas de LGPD, anticorrupção, trabalhistas, fiscais e setoriais. Capítulo 12 (Vol. 8) (COMPLIANCE E ANTICORRUPÇÃO PARA STARTUPS) trata de Compliance e Anticorrupção em profundidade.
+
+**CRM (Customer Relationship Management).** Sistema de gestão de relacionamento com clientes. Registra interações, pipeline de vendas e histórico do cliente. Exemplos: Salesforce, HubSpot, Pipedrive.
+
+**DAU/MAU.** Proporção de usuários ativos diários sobre usuários ativos mensais. Indica frequência de uso do produto. ≥ 20% é referência para produto de uso frequente.
+
+**Delaware Flip.** Reestruturação societária em que uma empresa brasileira passa a ser detida por holding em Delaware (EUA). Comum para startups que captam fundos americanos. Custo típico: US$ 30 mil a US$ 80 mil.
+
+**Dilution.** Redução da participação percentual de um acionista em decorrência de novas emissões de ações. Ocorre em cada rodada de captação.
+
+**Down round.** Rodada de captação a valuation menor que o da rodada anterior. Penaliza fundadores e investidores anteriores.
+
+**DPA (Data Processing Agreement).** Acordo de processamento de dados pessoais entre controlador e operador, exigido pela LGPD quando há transferência de dados a terceiro processador.
+
+**Drag-along.** Cláusula societária que permite ao acionista majoritário forçar os minoritários a vender suas participações nas mesmas condições, em caso de venda da empresa.
+
+**Due diligence (DD).** Processo de investigação e verificação de informações sobre empresa-alvo antes de investimento ou aquisição. Cobre dimensões financeiras, jurídicas, operacionais, tecnológicas e tributárias.
+
+**Earnout.** Parte do preço de aquisição condicionada ao atingimento de metas pós-closing. Tipicamente 20-40% do deal value, pago ao longo de 12 a 36 meses.
+
+**EBITDA.** Lucro antes de juros, impostos, depreciação e amortização. Métrica de geração operacional de caixa, usada em valuation por múltiplos (EV/EBITDA) e em covenants bancários.
+
+**eNPS (Employee Net Promoter Score).** Adaptação do NPS para medir engajamento e satisfação de funcionários. Pergunta: "Em escala de 0 a 10, o quanto você recomendaria trabalhar aqui a um amigo?" Referência saudável: ≥ 30.
+
+**EOR (Employer of Record).** Empresa que atua como empregadora formal de funcionários no exterior, permitindo a startup contratar globalmente sem abrir entidade local. Exemplos: Deel, Remote, Oyster.
+
+**ERP (Enterprise Resource Planning).** Sistema de gestão integrada que centraliza processos operacionais como financeiro, estoque, RH e produção. Exemplos: SAP, Totvs, Oracle.
+
+**ESOP (Employee Stock Option Plan).** Plano de outorga de opções de ações a funcionários. Tipicamente reserva de 10-20% do cap table para o pool. Mecanismo central de retenção em startups.
+
+**EV (Enterprise Value).** Valor total da empresa: capitalização de mercado mais dívida líquida. Usado como numerador nos múltiplos de valuation (EV/ARR, EV/EBITDA).
+
+**Exit.** Saída do fundador ou investidor da empresa, geralmente via M&A, IPO ou secondary.
+
+**FMF (Founder-Market Fit).** Alinhamento entre o perfil, experiência e motivação do fundador e as características do problema e mercado que a empresa ataca. Primeiro filtro de avaliação de ideia.
+
+**Founder Mode.** Estilo de gestão hands-on do fundador-CEO em estágio early-to-growth, em contraste com o "manager mode" delegativo. Conceito popularizado por Paul Graham (2024).
+
+**Freemium.** Modelo de negócio com camada gratuita permanente e camada paga com funcionalidades avançadas. Taxa de conversão típica: 2 a 5% dos usuários gratuitos.
+
+**GMV (Gross Merchandise Value).** Volume bruto de transações processadas em uma plataforma. A receita da plataforma é o take rate aplicado sobre o GMV.
+
+**Go-to-market (GTM).** Estratégia de como a empresa leva o produto ao mercado: quais segmentos atacar, por quais canais, com qual motion de vendas e posicionamento.
+
+**GRR (Gross Revenue Retention).** Percentual da receita mantida de um período para o outro, excluindo expansão. Mede churn puro. GRR ideal: acima de 90% em B2B.
+
+**Headcount.** Número total de funcionários de uma empresa.
+
+**ICP (Ideal Customer Profile).** Perfil ideal do cliente: a empresa ou pessoa para quem o produto foi especificamente construído e que extrai mais valor dele. Mais específico que persona, que é mais específico que segmento.
+
+**IP (Intellectual Property).** Propriedade intelectual: patentes, marcas registradas, código-fonte, segredos comerciais. Em startups, instrumento de cessão de IP do fundador para a empresa é cláusula obrigatória de contrato societário.
+
+**IPO (Initial Public Offering).** Oferta pública inicial — abertura de capital na bolsa de valores. No Brasil, na B3. Tipicamente alvo de empresas com ARR ≥ R$ 300 milhões e crescimento ≥ 30% YoY.
+
+**Lead.** Potencial cliente que demonstrou interesse inicial. Pode ser MQL (Marketing Qualified Lead) ou SQL (Sales Qualified Lead) dependendo do nível de qualificação.
+
+**LGPD (Lei Geral de Proteção de Dados).** Lei 13.709/2018 que regula o tratamento de dados pessoais no Brasil. Multa máxima: 2% do faturamento, limite R$ 50 milhões por infração. Fiscalizada pela ANPD.
+
+**Liquidation preference.** Direito dos investidores preferenciais de receber seu investimento de volta (com ou sem juros) antes dos fundadores e acionistas ordinários em caso de exit. Pode ser 1x, 2x ou mais.
+
+**LTV (Lifetime Value).** Valor presente líquido da receita gerada por um cliente ao longo de toda a sua relação com a empresa. LTV/CAC ≥ 3x é referência para modelo sustentável.
+
+**M&A (Mergers and Acquisitions).** Fusões e aquisições. Caminho mais comum de exit para startups brasileiras.
+
+**Magic Number.** Net new ARR do período dividido pelo investimento em Sales & Marketing do período anterior. Mede eficiência de crescimento. ≥ 0.75 indica que escalar gasto em GTM faz sentido.
+
+**Market fit.** Versão mais ampla de PMF que inclui adequação ao momento de mercado, não apenas ao produto.
+
+**MEDDPICC.** Framework de qualificação de oportunidades em vendas enterprise: Metrics, Economic buyer, Decision criteria, Decision process, Paper process, Identify pain, Champion, Competition.
+
+**Moat.** Barreira competitiva difícil de replicar. Pode ser efeito de rede, custo de troca, marca, escala, IP ou regulação. Conceito popularizado por Warren Buffett. Ver Framework: 7 Powers (Hamilton Helmer, 2016) (Fase 6).
+
+**MQL (Marketing Qualified Lead).** Lead qualificado pelo marketing com base em critérios de engajamento, mas ainda não abordado pelo time de vendas.
+
+**MRR (Monthly Recurring Revenue).** Receita recorrente mensal. Soma de todos os contratos ativos, normalizada para mensal.
+
+**MVP (Minimum Viable Product).** Versão mínima do produto com funcionalidades suficientes para validar hipóteses críticas com usuários reais e coletar feedback. Não é produto incompleto: é produto deliberadamente mínimo.
+
+**NDA (Non-Disclosure Agreement).** Acordo de confidencialidade. Documento legal que restringe o compartilhamento de informações confidenciais entre as partes.
+
+**Net Revenue Retention (NRR).** Percentual da receita mantida e expandida em coorte de clientes existentes. Inclui upsell, cross-sell, expansão de seats e desconta churn e downgrades. NRR ≥ 110% indica crescimento orgânico da base.
+
+**NPS (Net Promoter Score).** Métrica de lealdade e satisfação. Pergunta: "Em escala de 0 a 10, o quanto você recomendaria [empresa/produto] para um amigo?" Promotores (9-10) menos Detratores (0-6) = NPS. Referência: ≥ 40 consumer, ≥ 30 enterprise.
+
+**OKR (Objectives and Key Results).** Framework de definição de metas com objetivo qualitativo e resultados-chave mensuráveis. Criado na Intel por Andy Grove, popularizado pelo Google. Ver Frameworks da Fase 19.
+
+**Onboarding.** Processo de entrada e ativação de um novo usuário ou colaborador. Onboarding de cliente: caminho do cadastro até o "aha moment". Onboarding de funcionário: integração nas primeiras 4-12 semanas.
+
+**Outbound.** Motion de vendas onde a empresa ativamente prospecta clientes, em vez de esperar inbound. Inclui cold outreach, SDRs e prospecção ativa.
+
+**P&L (Profit and Loss).** Demonstração de resultados. Mostra receita, custos, despesas e lucro/prejuízo no período.
+
+**Pivot.** Mudança estrutural de uma ou mais dimensões do modelo de negócio (cliente, problema, solução, canal, modelo de receita) mantendo aprendizados anteriores. Diferente de pivô cosmético (renomear) e de "abandonar".
+
+**PLG (Product-Led Growth).** Motion de crescimento onde o produto é o principal veículo de aquisição, conversão e expansão. Produto gera valor suficiente para que usuário traga outros usuários. Contraposto a SLG (Sales-Led Growth).
+
+**PMF (Product-Market Fit).** Momento em que produto e mercado se encaixam: produto resolve dor real de segmento identificado de forma que gera retenção, engajamento e crescimento orgânico. Diagnóstico central da [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 13 — PRODUCT-MARKET FIT|Fase 13 (Vol. 4)]].
+
+**Positioning.** Posicionamento — escolha estratégica de como a empresa quer ser percebida em relação a concorrentes e alternativas, na mente do cliente.
+
+**Post-mortem.** Análise retrospectiva de falha ou incidente, com foco em aprendizado sistêmico em vez de atribuição de culpa. Blameless post-mortem é variante que explicitamente remove julgamento pessoal.
+
+**Pre-seed.** Rodada de captação anterior à Série Seed. Tipicamente R$ 300 mil a R$ 3 milhões, de anjos ou fundos micro-VC, para time e MVP inicial.
+
+**Radical Candor.** Modelo de feedback de Kim Scott (2017) que combina "care personally" com "challenge directly". Antídoto à manipulação insincera, agressão obnóxia e empatia ruinosa.
+
+**Ratchet.** Mecanismo de proteção do investidor que ajusta sua participação para cima se a empresa não atingir metas. Gerado por rodadas de valorização ou metas de performance não atingidas.
+
+**RBF (Revenue-Based Financing).** Financiamento em que a empresa devolve um múltiplo do principal como percentual da receita futura, em vez de juros fixos. Não-diluitivo. Exemplos no Brasil: a55, Capital Empreendedor.
+
+**RFC (Request for Comments).** Documento que descreve uma proposta técnica ou organizacional e coleta feedback antes da decisão. Mecanismo de escala de decisão em times técnicos.
+
+**ROFR (Right of First Refusal).** Direito de preferência. Cláusula que dá a uma parte (tipicamente investidores existentes) o direito de igualar oferta externa antes que a venda aconteça.
+
+**ROI (Return on Investment).** Retorno sobre investimento. (Ganho - Custo) / Custo. Métrica genérica de eficiência de capital aplicado.
+
+**Rule of 40.** Crescimento percentual de ARR somado com margem EBITDA percentual. Startups saudáveis em escala devem ter Rule of 40 ≥ 40. Criada para avaliar trade-off entre crescimento e lucratividade.
+
+**Runway.** Número de meses antes de a empresa ficar sem caixa, considerando o burn rate atual. Referência: mínimo 12 meses após rodada, ideal 18 a 24 meses.
+
+**SAFE (Simple Agreement for Future Equity).** Instrumento de captação criado pela Y Combinator. Conversível em ações em rodada futura, sem juros e sem prazo de vencimento. Adaptação brasileira é a "Nota Conversível".
+
+**Seed.** Rodada de captação inicial de startup. No Brasil, tipicamente R$ 1 milhão a R$ 10 milhões, de fundos seed ou anjos, para validar PMF e motor inicial de crescimento.
+
+**SLA (Service Level Agreement).** Acordo de nível de serviço. Define métricas de disponibilidade, performance e tempo de resposta que a empresa se compromete a manter. Violações geram créditos ou penalidades.
+
+**SLG (Sales-Led Growth).** Motion de crescimento liderado por vendas. Empresa investe em time comercial (SDRs, AEs) que prospecta e fecha contratos. Contraposto a PLG.
+
+**SPADE.** Framework de decisão de Gokul Rajaram para decisões importantes: Setting (contexto), People (envolvidos), Alternatives (opções), Decide (escolha), Explain (comunicação).
+
+**SPIN Selling.** Método de vendas consultivas de Neil Rackham baseado em quatro tipos de pergunta: Situation, Problem, Implication, Need-payoff. Ver Framework: SPIN Selling (Neil Rackham, 1988) (Fase 15) e [[#CAPÍTULO 2 — VENDAS COMPLEXAS ENTERPRISE: CICLO LONGO, ALTO VALOR, MÚLTIPLOS DECISORES|Capítulo 2 (VENDAS COMPLEXAS ENTERPRISE: CICLO LONGO, ALTO VALOR, MÚLTIPLOS DECISORES)]] (SPIN Selling em vendas consultivas enterprise).
+
+**SQL (Sales Qualified Lead).** Lead qualificado pelo time de vendas como oportunidade real. Critérios BANT: Budget, Authority, Need, Timeline.
+
+**Tag-along.** Cláusula que garante ao acionista minoritário o direito de vender suas ações nas mesmas condições que o majoritário em caso de venda. Proteção do minoritário.
+
+**Technical debt (dívida técnica).** Custo futuro de retrabalho decorrente de decisões técnicas rápidas feitas no passado para ganhar velocidade. Como dívida financeira: acumula juros (velocidade de desenvolvimento decrescente) se não paga.
+
+**Term sheet.** Documento que resume os termos comerciais de uma rodada de investimento ou M&A antes do contrato definitivo. Não vinculante na maior parte das cláusulas, mas vinculante em exclusividade e confidencialidade.
+
+**Unit economics.** Métricas de rentabilidade no nível da unidade básica do negócio (um cliente, uma transação, um produto). CAC, LTV, margem por transação, payback period.
+
+**Valuation.** Valor estimado de uma empresa. Em startups privadas, determinado por rodadas de captação. Pode ser calculado por múltiplos (EV/ARR, EV/EBITDA), DCF ou transações comparáveis.
+
+**Venture Debt.** Financiamento por dívida para startups que já captaram equity. Concedido por bancos especializados (Silicon Valley Bank historicamente) ou fundos de venture debt. Não-diluitivo, mas exige garantias e covenants.
+
+**Vesting.** Mecanismo pelo qual a participação em uma empresa é ganha gradualmente ao longo do tempo. Vesting padrão: 4 anos com 1 ano de cliff. Protege a empresa se fundador ou funcionário sai cedo.
+
+**Wedge.** Ponto de entrada no mercado. Nicho inicial onde a empresa tem vantagem diferenciada e a partir do qual pode expandir. Estratégia de entrar pequeno para sair grande.
+
+**YoY (Year over Year).** Crescimento ano a ano. ARR crescendo ≥ 3x YoY é referência para startup em escala.
+
+**ZOPA (Zone of Possible Agreement).** Zona de acordo possível em negociação: sobreposição entre o mínimo aceitável de uma parte e o máximo aceitável da outra. Conceito de Fisher e Ury (Getting to Yes, 1981).
+
+---
+
+### Siglas e Abreviações Usadas neste Volume
+
+**AARRR:** Acquisition, Activation, Retention, Referral, Revenue (framework de métricas de growth, Dave McClure). *Growth.*
+
+**ANPD:** Autoridade Nacional de Proteção de Dados. *Regulação / LGPD.*
+
+**API:** Application Programming Interface. *Tecnologia.*
+
+**ARR:** Annual Recurring Revenue (receita recorrente anual). *SaaS / métricas.*
+
+**B2B:** Business-to-Business. *Modelo de negócio.*
+
+**B2B2C:** Business-to-Business-to-Consumer. *Modelo de negócio.*
+
+**B2C:** Business-to-Consumer. *Modelo de negócio.*
+
+**BACEN:** Banco Central do Brasil. *Regulação.*
+
+**BMC:** Business Model Canvas. *Estratégia / modelagem de negócio.*
+
+**BNDES:** Banco Nacional de Desenvolvimento Econômico e Social. *Financiamento.*
+
+**CAC:** Customer Acquisition Cost (custo de aquisição de cliente). *Unit economics.*
+
+**CEO:** Chief Executive Officer. *Gestão.*
+
+**CFO:** Chief Financial Officer. *Gestão.*
+
+**CLT:** Consolidação das Leis do Trabalho (regime trabalhista brasileiro com vínculo formal). *Trabalho.*
+
+**CMO:** Chief Marketing Officer. *Gestão.*
+
+**CPO:** Chief Product Officer. *Gestão.*
+
+**CRM:** Customer Relationship Management (sistema ou prática). *Vendas.*
+
+**CTO:** Chief Technology Officer. *Gestão.*
+
+**DPA:** Data Processing Agreement (adendo contratual de dados). *LGPD.*
+
+**EBITDA:** Earnings Before Interest, Taxes, Depreciation and Amortization. *Finanças.*
+
+**EOR:** Employer of Record (estrutura para contratação internacional). *Expansão / RH.*
+
+**GMV:** Gross Merchandise Value (volume bruto de transações). *Marketplaces.*
+
+**HR / RH:** Human Resources / Recursos Humanos. *Gestão.*
+
+**HRBP:** HR Business Partner. *RH.*
+
+**ICP:** Ideal Customer Profile. *Vendas e marketing.*
+
+**INSS:** Instituto Nacional do Seguro Social. *Regulação trabalhista.*
+
+**IPCA:** Índice de Preços ao Consumidor Amplo (indicador de inflação). *Economia brasileira.*
+
+**IPO:** Initial Public Offering (abertura de capital em bolsa). *Exit.*
+
+**IRPJ:** Imposto de Renda Pessoa Jurídica. *Tributos.*
+
+**KR:** Key Result (no framework OKR). *Planejamento.*
+
+**LGPD:** Lei Geral de Proteção de Dados (Lei 13.709/2018). *Regulação.*
+
+**LTV:** Lifetime Value (valor vitalício de cliente). *Unit economics.*
+
+**LTV:CAC:** razão entre LTV e CAC. *Unit economics.*
+
+**M&A:** Mergers and Acquisitions (fusões e aquisições). *Exit.*
+
+**MQL:** Marketing Qualified Lead. *Vendas.*
+
+**MRR:** Monthly Recurring Revenue. *SaaS / métricas.*
+
+**MVP:** Minimum Viable Product (produto mínimo viável). *Produto.*
+
+**NDA:** Non-Disclosure Agreement (acordo de confidencialidade). *Jurídico.*
+
+**NPS:** Net Promoter Score (métrica de recomendação). *Satisfação.*
+
+**OKR:** Objectives and Key Results. *Planejamento.*
+
+**P&L / DRE:** Profit and Loss / Demonstração de Resultado. *Contabilidade.*
+
+**PIX:** sistema de pagamentos instantâneos do BACEN. *Pagamentos Brasil.*
+
+**PJ:** Pessoa Jurídica (regime de contratação). *Trabalho.*
+
+**PLG:** Product-Led Growth. *Growth.*
+
+**PLR:** Participação nos Lucros e Resultados. *RH.*
+
+**PM:** Product Manager. *Produto.*
+
+**PMF:** Product-Market Fit. *Conceito central.*
+
+**RAPID:** Recommend, Agree, Perform, Input, Decide (framework de decisão). *Gestão.*
+
+**RACI:** Responsible, Accountable, Consulted, Informed. *Gestão.*
+
+**RBF:** Revenue-Based Financing. *Captação não-diluitiva.*
+
+**RFP:** Request for Proposal. *Vendas B2B.*
+
+**ROI:** Return on Investment. *Finanças.*
+
+**SaaS:** Software as a Service. *Modelo de negócio.*
+
+**SAFE:** Simple Agreement for Future Equity (instrumento de captação). *Captação.*
+
+**SDR:** Sales Development Representative. *Vendas.*
+
+**SMB:** Small and Medium Business. *Segmento.*
+
+**SQL:** Sales Qualified Lead. *Vendas.*
+
+**VC:** Venture Capital. *Captação.*
+
+**VP:** Vice President. *Gestão.*
+
+**YoY:** Year-over-Year (comparação ano a ano). *Métricas.*
+
+**ZOPA:** Zone of Possible Agreement. *Negociação.*

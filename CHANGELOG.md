@@ -10,29 +10,31 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/).
 
 ### Adicionado
 
-- **Coleção 100% Autocontida em 10 Volumes (`volumes/`)**: reengenharia completa da arquitetura editorial para que cada volume funcione como um livro independente e 100% autocontido (~55k a ~98k palavras / ~220 a ~390 páginas impressas por volume), sem exigir consulta simultânea a volumes externos de referência:
-  - **Vol. 1 — Ideação (`volumes/IGNICAO-Vol-1-Ideacao.md`)**: Fases 0 a 3 + Capítulos 1 a 13 + 27 frameworks, 6 canvases e 10 templates integrados (~98k palavras)
-  - **Vol. 2 — Descoberta e Mercado (`volumes/IGNICAO-Vol-2-Descoberta-e-Mercado.md`)**: Fases 4 a 6 + Capítulos 1 a 4 + 26 frameworks, 4 canvases e 11 templates integrados (~70k palavras)
-  - **Vol. 3 — Experimentos e Prototipagem (`volumes/IGNICAO-Vol-3-Experimentos-e-Prototipagem.md`)**: Fases 7 a 10 + Capítulos 1 a 9 + 16 frameworks, 3 canvases e 3 templates integrados (~61k palavras)
-  - **Vol. 4 — Tração e PMF (`volumes/IGNICAO-Vol-4-Tracao-e-PMF.md`)**: Fases 11 a 13 + Capítulos 1 a 16 + 27 frameworks, 2 canvases e 6 templates integrados (~92k palavras)
-  - **Vol. 5 — Finanças e Captação (`volumes/IGNICAO-Vol-5-Financas-e-Captacao.md`)**: Fase 14 + Capítulos 1 a 20 + 15 frameworks, 2 canvases e 4 templates integrados (~88k palavras)
-  - **Vol. 6 — Receita e Pessoas (`volumes/IGNICAO-Vol-6-Receita-e-Pessoas.md`)**: Fases 15 e 16 + Capítulos 1 a 19 + 20 frameworks, 1 canvas e 3 templates integrados (~93k palavras)
-  - **Vol. 7 — Produto, Engenharia e Operações (`volumes/IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes.md`)**: Fase 17 + Capítulos 1 a 11 + 19 frameworks e 2 templates integrados (~55k palavras)
-  - **Vol. 8 — Jurídico, LGPD e Segurança (`volumes/IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca.md`)**: Fase 18 + Capítulos 1 a 14 + 3 frameworks integrados (~57k palavras)
-  - **Vol. 9 — Maturidade e Exit (`volumes/IGNICAO-Vol-9-Maturidade-e-Exit.md`)**: Fases 19 e 20 + Capítulos 1 a 22 + Epílogo + 11 frameworks e 2 canvases integrados (~83k palavras)
+- **Coleção 100% Autocontida em 10 Volumes (`volumes/`) com Zero Dependências Cruzadas de Ferramentas**: reengenharia completa da arquitetura editorial para que cada volume funcione como um livro independente e 100% autocontido (~60k a ~113k palavras / ~240 a ~450 páginas impressas por volume), com **zero links de ferramentas (`#Framework:`, `#Canvas:`, `#Template:`) apontando para fora do próprio volume** nos Volumes 1 a 9 e **Glossário e Siglas próprio ao final de cada volume**:
+  - **Vol. 1 — Ideação (`volumes/IGNICAO-Vol-1-Ideacao.md`)**: Fases 0 a 3 + Capítulos 1 a 13 + 41 ferramentas embutidas + Glossário e Siglas do Volume (~113k palavras)
+  - **Vol. 2 — Descoberta e Mercado (`volumes/IGNICAO-Vol-2-Descoberta-e-Mercado.md`)**: Fases 4 a 6 + Capítulos 1 a 4 + 57 ferramentas embutidas + Glossário e Siglas do Volume (~82k palavras)
+  - **Vol. 3 — Experimentos e Prototipagem (`volumes/IGNICAO-Vol-3-Experimentos-e-Prototipagem.md`)**: Fases 7 a 10 + Capítulos 1 a 9 + 58 ferramentas embutidas + Glossário e Siglas do Volume (~77k palavras)
+  - **Vol. 4 — Tração e PMF (`volumes/IGNICAO-Vol-4-Tracao-e-PMF.md`)**: Fases 11 a 13 + Capítulos 1 a 16 + 40 ferramentas embutidas + Glossário e Siglas do Volume (~103k palavras)
+  - **Vol. 5 — Finanças e Captação (`volumes/IGNICAO-Vol-5-Financas-e-Captacao.md`)**: Fase 14 + Capítulos 1 a 20 + 20 ferramentas embutidas + Glossário e Siglas do Volume (~91k palavras)
+  - **Vol. 6 — Receita e Pessoas (`volumes/IGNICAO-Vol-6-Receita-e-Pessoas.md`)**: Fases 15 e 16 + Capítulos 1 a 19 + 45 ferramentas embutidas + Glossário e Siglas do Volume (~107k palavras)
+  - **Vol. 7 — Produto, Engenharia e Operações (`volumes/IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes.md`)**: Fase 17 + Capítulos 1 a 11 + 27 ferramentas embutidas + Glossário e Siglas do Volume (~60k palavras)
+  - **Vol. 8 — Jurídico, LGPD e Segurança (`volumes/IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca.md`)**: Fase 18 + Capítulos 1 a 14 + 8 ferramentas embutidas + Glossário e Siglas do Volume (~64k palavras)
+  - **Vol. 9 — Maturidade e Exit (`volumes/IGNICAO-Vol-9-Maturidade-e-Exit.md`)**: Fases 19 e 20 + Capítulos 1 a 22 + Epílogo + 25 ferramentas embutidas + Glossário e Siglas do Volume (~98k palavras)
   - **Vol. 10 — Playbooks Setoriais e Glossário (`volumes/IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario.md`)**: Capítulos 1 a 13 (Macroeconomia, Regulação, CADE, Políticas Públicas e 9 Playbooks Verticais) + Glossários, Bibliografias e Índices Gerais (~69k palavras)
-- **Incorporação In-Place de 164 Frameworks, 20 Canvases, 39 Templates, Métricas e Leituras**:
-  - Os **164 frameworks** do antigo Ferramentário (`BG.1.1` a `BG.19.4`), os **20 canvases** (`CZ.1` a `CZ.20`), os **39 templates e estudos de caso preenchidos** (`A.1` a `A.39`), as **19 tabelas de métricas por fase** (antigo `Apêndice C`) e as **18 listas de leituras por etapa** (antigo `Apêndice E`) foram embutidos diretamente dentro da subseção `### FERRAMENTAS DESTA FASE` (ou `### FRAMEWORKS, CANVASES E TEMPLATES DESTE CAPÍTULO`) da Fase ou Capítulo onde são aplicados.
+- **Incorporação In-Place de 164 Frameworks Únicos (227 instâncias), 20 Canvases Únicos (42 instâncias), 39 Templates Únicos (52 instâncias), Métricas, Leituras e Glossário Local por Volume**:
+  - Todos os **164 frameworks** (`BG.1.1` a `BG.19.4`), **20 canvases** (`CZ.1` a `CZ.20`), **39 templates e estudos de caso preenchidos** (`A.1` a `A.39`), **19 tabelas de métricas por fase** e **18 listas de leituras recomendadas** estão embutidos diretamente nas Fases e Capítulos onde são aplicados (incluindo ferramentas compartilhadas entre fases de volumes distintos, sem duplicatas dentro de um mesmo volume).
+  - Adicionada a seção `## GLOSSÁRIO E SIGLAS DESTE VOLUME` ao final de cada um dos Volumes 1 a 9 com todos os termos técnicos e siglas utilizados naquele volume.
 
 ### Modificado
 
-- **Numeração Sequencial Contínua das 21 Fases (`FASE 0` a `FASE 20`)**:
+- **Numeração Sequencial Contínua das 21 Fases (`FASE 0` a `FASE 20`) e Limpeza Integral de `### FERRAMENTAS DESTA FASE`**:
   - Extinta a antiga nomenclatura `FASE 2B` (agora **`FASE 3 — CONSTRUÇÃO DA TEORIA DO NEGÓCIO`**).
   - As antigas `Fases 3 a 12` passam a ser sequencialmente **`FASES 4 a 13`**.
-  - As antigas subfases da `Fase 14` (`14D`, `14C`, `14A`, `14B`) e a antiga `Fase 13` foram promovidas a fases principais dos Volumes 5, 6, 7 e 8 (**`FASE 14 — FINANÇAS E CAPTAÇÃO EM ESCALA`**, **`FASE 15 — MÁQUINA DE CRESCIMENTO E RECEITA`**, **`FASE 16 — PESSOAS, LIDERANÇA E CULTURA`**, **`FASE 17 — OPERAÇÕES, PRODUTO E TECNOLOGIA`** e **`FASE 18 — ESTRUTURAÇÃO SOCIETÁRIA E GOVERNANÇA`**).
-  - As antigas `Fases 15 e 16` passam a ser **`FASE 19 — REINVENÇÃO E CICLO LONGO`** e **`FASE 20 — EXIT`** no Volume 9.
+  - As antigas subfases da `Fase 14` (`14D`, `14C`, `14A`, `14B`) e a antiga `Fase 13` foram promovidas a fases principais dos Volumes 5, 6, 7 e 8 (**`FASE 14`** a **`FASE 18`**).
+  - As antigas `Fases 15 e 16` passam a ser **`FASE 19 — REINVENÇÃO E SEGUNDA CURVA`** e **`FASE 20 — ESTRATÉGIA DE SAÍDA (EXIT STRATEGY)`** no Volume 9.
+  - Reescritas e higienizadas todas as 21 seções `### FERRAMENTAS DESTA FASE`, eliminando menções legadas a `Apêndice BG`, `Ferramentário` ou `Apêndice CZ` e convertendo cada ferramenta em link local dentro do próprio volume.
 - **Transformação dos Apêndices em 141 Capítulos Orgânicos (`## CAPÍTULO 1` a `## CAPÍTULO N`)**:
-  - Extintos os antigos códigos alfabéticos (`APÊNDICE AJ`, `APÊNDICE DU`, `APÊNDICE V`, etc.) nos títulos e no corpo do texto. Cada volume agora numera seus capítulos sequencialmente a partir do `CAPÍTULO 1`, com normalização completa das referências cruzadas em prosa e wikilinks (2.672 links auditados com 0 quebras).
+  - Extintos os antigos códigos alfabéticos (`APÊNDICE AJ`, `APÊNDICE DU`, `APÊNDICE V`, etc.) nos títulos e no corpo do texto. Cada volume agora numera seus capítulos sequencialmente a partir do `CAPÍTULO 1`, com normalização completa das referências cruzadas em prosa e wikilinks (2.924 links auditados com 0 quebras e 0 links de ferramentas entre volumes nos Vols 1 a 9).
 
 ### Removido
 

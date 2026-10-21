@@ -66,6 +66,8 @@ graph LR
 - [[#CAPÍTULO 2 — INTELIGÊNCIA COMPETITIVA — MONITORAMENTO, ANÁLISE E RESPOSTA|CAPÍTULO 2 — INTELIGÊNCIA COMPETITIVA — MONITORAMENTO, ANÁLISE E RESPOSTA]]
 - [[#CAPÍTULO 3 — CATEGORY DESIGN|CAPÍTULO 3 — CATEGORY DESIGN]]
 - [[#CAPÍTULO 4 — CASOS DE FRACASSO BRASILEIROS E LIÇÕES|CAPÍTULO 4 — CASOS DE FRACASSO BRASILEIROS E LIÇÕES]]
+### Glossário e Siglas deste Volume
+- [[#Glossário e Siglas deste Volume|GLOSSÁRIO E SIGLAS DESTE VOLUME]]
 
 ---
 
@@ -543,16 +545,16 @@ Ignorar quando o problema é "interessante" mas não dolorido. As pessoas adoram
 
 ### FERRAMENTAS DESTA FASE
 
-Na descoberta do problema, ferramentas de entrevista e pesquisa são centrais. A maioria está no Ferramentário (Frameworks da Fase 4, Pesquisa & Descoberta). Canvases complementares: Canvas: Value Proposition Canvas (Alexander Osterwalder, 2014) (Fase 5) e Canvas: Empathy Map (Dave Gray / XPLANE, 2009) (Fase 4).
+Na descoberta do problema, ferramentas de entrevista e pesquisa são centrais. Todas estão detalhadas passo a passo na subseção **[[#MANUAL PASSO A PASSO DOS FRAMEWORKS DESTA FASE|Manual Passo a Passo dos Frameworks desta Fase]]** logo a seguir. Canvases complementares: [[#Canvas: Value Proposition Canvas (Alexander Osterwalder, 2014)|Canvas: Value Proposition Canvas (Alexander Osterwalder, 2014)]] e [[#Canvas: Empathy Map (Dave Gray / XPLANE, 2009)|Canvas: Empathy Map (Dave Gray / XPLANE, 2009)]].
 
-- **5 Whys** (Toyoda, Toyota) — perguntar "por quê?" cinco vezes para chegar à causa raiz, em toda entrevista de discovery. Framework: 5 Whys (Sakichi Toyoda / Toyota, anos 1930) (Fase 3, Vol. 1).
-- **MECE** — categorizar problemas reportados sem sobreposição e sem lacunas, na consolidação após dez a vinte entrevistas. Framework: MECE (Mutually Exclusive, Collectively Exhaustive) — McKinsey (Fase 3, Vol. 1).
-- **First Principles Thinking** — resista a reformular o problema do cliente na linguagem da sua solução. Vá ao fundamento da dor real. Framework: First Principles Thinking (Aristóteles, ~350 a.C.; popularizado por Elon Musk, anos 2010) (Fase 0, Vol. 1).
-- **McKinsey 7-Step** (passos 1 e 2) — Define e Structure, para articular o problema e estruturar sub-problemas em issue tree MECE. Framework: McKinsey 7-Step Problem Solving (Fase 3, Vol. 1).
-- **Pyramid Principle** (Minto) — na síntese, "o problema central dos nossos ICPs é X, por três razões: Y1, Y2, Y3". Framework: Pyramid Principle (Barbara Minto, 1985) (Fase 2, Vol. 1).
+- **5 Whys** (Toyoda, Toyota) — perguntar "por quê?" cinco vezes para chegar à causa raiz, em toda entrevista de discovery. [[#Framework: 5 Whys (Sakichi Toyoda / Toyota, anos 1930)|Framework: 5 Whys (Sakichi Toyoda / Toyota, anos 1930)]].
+- **MECE** — categorizar problemas reportados sem sobreposição e sem lacunas, na consolidação após dez a vinte entrevistas. [[#Framework: MECE (Mutually Exclusive, Collectively Exhaustive) — McKinsey|Framework: MECE (Mutually Exclusive, Collectively Exhaustive) — McKinsey]].
+- **First Principles Thinking** — resista a reformular o problema do cliente na linguagem da sua solução. Vá ao fundamento da dor real. [[#Framework: First Principles Thinking (Aristóteles, ~350 a.C.; popularizado por Elon Musk, anos 2010)|Framework: First Principles Thinking (Aristóteles, ~350 a.C.; popularizado por Elon Musk, anos 2010)]].
+- **McKinsey 7-Step** (passos 1 e 2) — Define e Structure, para articular o problema e estruturar sub-problemas em issue tree MECE. [[#Framework: McKinsey 7-Step Problem Solving|Framework: McKinsey 7-Step Problem Solving]].
+- **Pyramid Principle** (Minto) — na síntese, "o problema central dos nossos ICPs é X, por três razões: Y1, Y2, Y3". [[#Framework: Pyramid Principle (Barbara Minto, 1985)|Framework: Pyramid Principle (Barbara Minto, 1985)]].
 
-> [!note] Ferramentas específicas de entrevista
-> Mom Test, JTBD Switch Interviews, Laddering, Contextual Inquiry. Estarão no Ferramentário, Frameworks da Fase 4.
+> [!note] Ferramentas específicas de entrevista nesta fase
+> *The Mom Test*, *JTBD Switch Interviews*, *Laddering* e *Contextual Inquiry* estão detalhados passo a passo logo abaixo em **[[#MANUAL PASSO A PASSO DOS FRAMEWORKS DESTA FASE|Manual Passo a Passo dos Frameworks desta Fase]]**.
 
 ---
 
@@ -1037,6 +1039,347 @@ Pesquisa que exige rigor acadêmico, Quando dados são quantitativos.
 
 ---
 
+#### Framework: First Principles Thinking (Aristóteles, ~350 a.C.; popularizado por Elon Musk, anos 2010)
+
+##### Origem
+
+O conceito remonta a Aristóteles (*Organon*, *Metafísica*), que definia "primeiros princípios" como "o primeiro basis from which a thing is known". Foi resgatado e popularizado no século XXI por Elon Musk, que atribui sucessos de SpaceX e Tesla à aplicação sistemática do método. Musk: "Em vez de raciocinar por analogia, raciocino a partir dos primeiros princípios."
+
+##### O que é
+
+Método de análise que **decompõe um problema até seus elementos fundamentais** (primeiros princípios = verdades básicas que não podem ser deduzidas de outras), e depois reconstrói a solução a partir desses elementos, **em vez de raciocinar por analogia** ("sempre foi feito assim").
+
+##### Princípios / estrutura
+
+Dois modos de raciocínio:
+
+1. Analogia (default humano): "esta empresa é como aquela outra, vamos fazer parecido". Rápido, baixo esforço, frequentemente bom. Falha em contextos de disrupção, onde analogias anteriores não se aplicam.
+
+2. First Principles: "quais são as verdades fundamentais neste problema?". Lento, alto esforço, frequentemente revelador.
+
+Exemplo icônico de Musk (SpaceX): foguetes custavam US$ 65M. Analogia: "foguetes são caros". First principles: "qual o custo de matéria-prima (alumínio, cobre, titânio) em um foguete?" Resposta: ~2% do preço. Conclusão: 98% é margem + ineficiência de processo. Se pudermos construir nós mesmos, pode ser 10-100x mais barato.
+
+##### Como aplicar do jeito certo
+
+Passo 1, Identifique a suposição a ser desafiada. "Sales precisa de SDRs" é suposição. Por quê?
+
+Passo 2, Pergunte "por quê?" até chegar em verdade fundamental. (Similar ao 5 Whys mas aplicado a crenças, não problemas.) "Precisamos de SDRs porque precisamos qualificar leads." Por quê? "Porque AEs caros não podem perder tempo com leads ruins." Por quê? "Porque tempo de AE é escasso." Verdade fundamental: precisa-se de filtro antes de AE engajar.
+
+Passo 3, Pergunte: qual a forma mais fundamental de resolver? Filtro pode ser SDR (humano), chatbot (bot), self-serve form, scoring automatizado. SDRs é uma instância, não é a verdade.
+
+Passo 4, Reconstrua a partir da verdade. Desenhe solução nova, liberta da analogia.
+
+Passo 5, Teste empiricamente. First principles sem teste pode ser arrogância intelectual.
+
+##### Exemplo aplicado
+
+"Startups precisam de escritório físico":
+
+- Suposição questionada.
+- Por quê? "Porque colaboração presencial é melhor."
+- Por quê melhor? "Mais criatividade, ritmo, cultura."
+- Verdade fundamental: **precisa-se de colaboração, ritmo e cultura** (não necessariamente escritório).
+- Reconstrução: qual a forma mais fundamental de gerar cada? Colaboração via Slack/Zoom + offsites trimestrais pode ser suficiente? Ritmo via rituals digitais? Cultura via handbook + onboarding estruturado?
+- GitLab e Automattic construíram empresas de bilhões em modelo 100% remoto, aplicando esse raciocínio.
+
+##### Erros comuns
+
+Confundir first principles com "opinião contrária": não é sempre que analogia está errada. Maioria das vezes, analogia é boa e suficiente. Para em suposição superficial: "por quê?" precisa ir fundo. 2 níveis é raso. Arrogância sem teste: "reinventei X porque first principles". Sem validação empírica, vira hubris. Aplicar a tudo: first principles custa tempo/energia. Aplicar em decisões importantes, não triviais. Ignorar restrições reais: às vezes analogia persiste porque restrição real (regulação, física, etc.) a justifica. Over-engineering: reinventar roda que já está bem construída.
+
+##### Quando NÃO usar
+
+Decisões cotidianas triviais, Em áreas onde você tem conhecimento profundo, analogia provavelmente é suficiente, Sob pressão de tempo extrema.
+
+##### Leitura adicional
+
+- Aristóteles, *Metafísica*, Livro IV (raízes filosóficas).
+- Shane Parrish, Farnam Street blog (ensaios extensos sobre first principles).
+- Ashlee Vance (2015). *Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future*. Ecco.
+
+---
+
+#### Framework: Pyramid Principle (Barbara Minto, 1985)
+
+##### Origem
+
+Barbara Minto, primeira mulher MBA contratada pela McKinsey (1963), desenvolveu o método durante os anos 1960 e 1970 para estruturar comunicação escrita de consultores enquanto editava relatórios da firma. Publicou *The Pyramid Principle: Logic in Writing and Thinking* em 1985 (Pearson em 1987), virou padrão em McKinsey e se espalhou por consultorias e empresas globalmente. Até hoje é referência em comunicação executiva estruturada.
+
+##### O que é
+
+Método para **estruturar comunicação** (escrita e oral) em forma de pirâmide: começa com a **conclusão principal** (topo da pirâmide) e desce para argumentos de suporte e dados.
+
+##### Princípios / estrutura
+
+Regra central: SCQA framework para introdução + estrutura de pirâmide para conteúdo.
+
+SCQA (introdução):
+
+- Situation: contexto estabelecido (o que o leitor já sabe).
+- Complication: mudança/problema que aparece.
+- Question: pergunta-chave que precisa ser respondida.
+- Answer: a resposta, que vira o topo da pirâmide.
+
+Pirâmide (corpo):
+
+- Topo: ideia principal (resposta à pergunta).
+- Nível 2: 3-5 argumentos de suporte (MECE, mutually exclusive, collectively exhaustive).
+- Nível 3 e abaixo: dados, exemplos, detalhes sustentando cada argumento.
+
+Regras:
+
+- Cada nível suporta o nível acima logicamente.
+- Ideias do mesmo nível são MECE.
+- Ordenar por lógica (dedutiva ou indutiva), não ordem cronológica.
+
+##### Como aplicar do jeito certo
+
+Passo 1, Identifique o destinatário e a pergunta. Pyramid é design centrado no leitor/ouvinte.
+
+Passo 2, Formule a resposta em 1 sentença (o topo). Se não cabe em uma sentença, você não sabe a resposta ainda.
+
+Passo 3, Estruture 3-5 argumentos de suporte. MECE: não se sobrepõem e cobrem o essencial.
+
+Passo 4, Para cada argumento, dados e exemplos.
+
+Passo 5, Teste SCQA na introdução. Leitor entende contexto → problema → pergunta → resposta?
+
+Passo 6, Escreva top-down. Conclusão primeiro, depois suporte. Contrário da tendência natural (contar história cronológica).
+
+##### Exemplo aplicado
+
+Deck de apresentação ao board: "Devemos captar Série B?"
+
+SCQA:
+
+- S: crescemos R$ 40M → R$ 85M ARR em 18 meses.
+- C: para sustentar crescimento, runway atual termina em 8 meses.
+- Q: devemos captar agora ou esperar?
+- A (topo da pirâmide): **devemos captar em Q2/2026, alvo US$ 40M, priorizando fundos tier-1 que já expressaram interesse.**
+
+Pirâmide:
+
+1. Timing é agora. Sub-argumentos: runway, sinal de mercado, tese do produto madura.
+2. US$ 40M é o montante certo. Sub: cobre plano de 24 meses com buffer.
+3. Tier-1 maximiza valor além do cheque. Sub: sinal, network, expertise.
+
+Cada sub-argumento com dados.
+
+##### Erros comuns
+
+Conclusão no final: escreve "descobertas, análise, conclusão". Leitor lê até conclusão para entender resposta. Pyramid inverte: conclusão primeiro. Argumentos que se sobrepõem: não-MECE. Confusão. Detalhes onde deveriam estar argumentos: detalhes de baixo nível subindo na pirâmide. Ordem cronológica em vez de lógica: "fizemos A, depois B, depois C". Leitor não quer história, quer conclusão + suporte.
+
+##### Quando NÃO usar
+
+Em narrativas genuinamente cronológicas (história de fundação, lição de vida), Em comunicação muito informal.
+
+##### Leitura adicional
+
+- Minto, B. (1978, 2009 ed.). *The Pyramid Principle*. Prentice Hall.
+- Reinhart, C. & Rogoff, K. (2009). *This Time is Different*. Exemplo aplicado em livro de economia.
+
+---
+
+#### Framework: MECE (Mutually Exclusive, Collectively Exhaustive) — McKinsey
+
+##### Origem
+
+MECE é princípio metodológico central da McKinsey, ensinado sistematicamente em onboarding de consultores. Origem incerta, atribuído a Barbara Minto (anos 1960-70) e refinado ao longo de décadas. Hoje é padrão em todas as top-tier strategy consulting firms.
+
+##### O que é
+
+Princípio de estruturação: categorias ou ideias são **Mutually Exclusive** (não se sobrepõem) e **Collectively Exhaustive** (cobrem tudo que é relevante).
+
+##### Princípios / estrutura
+
+Mutually Exclusive: cada item pertence a apenas uma categoria. Nada "em ambas".
+
+Collectively Exhaustive: juntas, as categorias cobrem 100% do espaço em questão. Nada "de fora".
+
+Exemplo MECE de segmentação:
+
+- Por geografia: Brasil, LatAm ex-Brasil, EUA, Europa, Ásia, Outros. Cada cliente fica em 1 categoria. Todos os clientes estão cobertos.
+
+Exemplo NÃO-MECE:
+
+- Por segmento: PMEs, Grandes Empresas, Empresas de Tecnologia, Empresas B2B.
+- Problema: empresa de tech B2B de grande porte está em 3 categorias (sobreposição), e PMEs B2C ficam em "PMEs" mas categoria não reflete isso (exhaustividade ambígua).
+
+##### Como aplicar do jeito certo
+
+Passo 1, Defina o espaço a ser estruturado.
+
+Passo 2, Escolha dimensão de categorização. Frequentemente tem múltiplas dimensões úteis, escolher a que revela mais.
+
+Passo 3, Liste categorias iniciais.
+
+Passo 4, Teste exclusividade. Para 10 exemplos aleatórios, cada fica em exatamente 1 categoria?
+
+Passo 5, Teste exhaustividade. Há exemplo que não cabe em nenhuma? Adicionar categoria "Outros" é aceitável se minoritário.
+
+Passo 6, Revise. Primeira tentativa raramente é MECE perfeita.
+
+##### Exemplo aplicado
+
+Analisando por que CAC dobrou no último trimestre:
+
+Dimensão 1: canal de aquisição (MECE)
+
+- Google Ads, Meta Ads, LinkedIn Ads, Email, Orgânico, Referral. Cada lead via 1 canal primário.
+
+Dimensão 2: estágio do funil onde caímos (MECE)
+
+- Top (visitor → signup), Middle (signup → qualificação), Bottom (qualificação → fechamento).
+
+Análise MECE revela: CAC dobrou devido a Bottom funnel (conversão caiu 50%) em Google Ads especificamente. Não é problema geral, é problema específico de 1 célula da matriz.
+
+##### Erros comuns
+
+Categorias que se sobrepõem sutilmente: "clientes grandes" e "clientes enterprise", onde está a linha? Categorias arbitrariamente quebradas: dividir por preço em 5 faixas quando 3 capturam 99%. Análise com MECE de dimensão errada: MECE por região quando o problema é setor. Análise rigorosa mas não revela insight. Perfeccionismo MECE paralisante: às vezes "85% MECE" é suficiente para decisão.
+
+##### Quando NÃO usar
+
+Em contextos genuinamente fuzzy (emoções humanas, preferências complexas), MECE artificial distorce.
+
+##### Leitura adicional
+
+- Minto, B. (2009). *The Pyramid Principle*. Capítulos sobre MECE.
+- Ethan Rasiel (1999). *The McKinsey Way*.
+
+---
+
+#### Framework: McKinsey 7-Step Problem Solving
+
+##### Origem
+
+Framework desenvolvido e refinado dentro da McKinsey ao longo de décadas (anos 1950-presente), ensinado sistematicamente em onboarding de novos consultores. Consolidado publicamente em *Bulletproof Problem Solving* (Charles Conn & Robert McLean, 2019), ambos ex-diretores seniores da McKinsey. É o método padrão de consultoria de estratégia de alto nível.
+
+##### O que é
+
+Processo estruturado de 7 passos para atacar problemas complexos de negócio. Aplica rigor analítico + experiência prática acumulada em milhares de engagements.
+
+##### Princípios / estrutura — Os 7 Passos
+
+1. Define the problem (Definir o problema): articulação clara, específica, mensurável do problema. Não "nosso CAC está alto", "nosso CAC cresceu 80% em 6 meses, está em R$ 3.200 vs. meta R$ 1.800, afetando LTV:CAC em 30%".
+
+2. Structure the problem (Estruturar): decompor em sub-problemas via issue tree (árvore MECE). Exemplo: "CAC alto" → canais caros, conversão caindo, ICP mudando, ou combinação.
+
+3. Prioritize the issues (Priorizar): nem todo sub-problema merece mesma atenção. Aplicar 80/20, focar em branches que explicam maior parte do problema.
+
+4. Plan the analysis (Planejar análise): para cada branch priorizada, que análises resolverão? Quais dados, de onde, em quanto tempo?
+
+5. Conduct analysis (Executar): fazer as análises planejadas. Sem pular para respostas.
+
+6. Synthesize findings (Sintetizar): conectar findings em narrativa coerente, não lista de fatos.
+
+7. Communicate the recommendation (Comunicar): formatar em forma decisória (Pyramid Principle).
+
+##### Como aplicar do jeito certo
+
+Passo 1, Resistir à tentação de pular para solução. Fundadores/executivos sob pressão querem "solução já". McKinsey 7-step demora dias/semanas, mas chega em resposta melhor.
+
+Passo 2, Definição do problema é 30% do trabalho. "A problem well-defined is half-solved", Einstein atribuído. Em consultoria: definir problema errado = projeto inteiro perdido.
+
+Passo 3, Issue tree rigorosa MECE. Se branches sobrepõem ou faltam, análise vai ser fraca.
+
+Passo 4, Priorizar antes de analisar. Evitar "análise de tudo", tempo/recurso finito.
+
+Passo 5, Síntese ≠ sumário. Sumário é lista, síntese é insight derivado da combinação dos dados.
+
+Passo 6, Comunicação top-down. Recomendação primeiro, suporte depois (Pyramid).
+
+##### Exemplo aplicado
+
+Problema: "Churn de logo aumentou de 1.2% para 2.8% mensais nos últimos 3 meses."
+
+- Define: churn dobrou em 90 dias, impactando NRR em -6pp e ARR em R$ 2.3M.
+- Structure: por que churn cresceu? 4 branches MECE:
+- Produto piorou (bugs, downtime).
+- Cliente mudou (ICP mudando, dificuldades financeiras).
+- Concorrência intensificada (novos entrantes, preços mais baixos).
+- Nosso CS falhou (onboarding, health scores).
+- Prioritize: análise preliminar mostra 60% dos churns vêm de clientes do vertical X. Focar aí.
+- Plan analysis: entrevistar 20 clientes churned do vertical X, comparar NPS deles com não-churned, analisar logs de uso.
+- Conduct: fazer.
+- Synthesize: descoberta, concorrente Y lançou produto vertical X mais barato, clientes estão migrando. Mas 30% dos churns seriam recuperáveis com intervenção precoce.
+- Communicate: recomendação ao CEO: (a) desenvolver feature específica para vertical X em 90 dias, (b) implementar health score com intervenção nos 30% recuperáveis, (c) revisar pricing no vertical X.
+
+##### Erros comuns
+
+Pular para solução sem definir problema: "churn aumentou, vamos descontar". Resposta errada se causa é produto, Issue tree não-MECE: branches se sobrepõem, análise fragmentada, Analisar tudo: sem priorização, recurso se dilui, Síntese fraca: apresenta 50 datapoints sem insight, Comunicação bottom-up: começa com metodologia, termina com conclusão. Leitor perde paciência.
+
+##### Quando NÃO usar
+
+Problemas simples com solução conhecida (manual > 7-step), Crises em tempo real (OODA Loop é mais rápido), Quando dados necessários não existem e não são obteníveis.
+
+##### Leitura adicional
+
+- Conn, C. & McLean, R. (2019). *Bulletproof Problem Solving*. Wiley.
+- Rasiel, E. & Friga, P. (2001). *The McKinsey Way*. McGraw-Hill.
+
+---
+
+#### Framework: 5 Whys (Sakichi Toyoda / Toyota, anos 1930)
+
+##### Origem
+
+Sakichi Toyoda, fundador da Toyota Industries, desenvolveu a técnica nos anos 1930. Taiichi Ohno formalizou no Toyota Production System nos anos 1950. Técnica tornou-se central em Lean Manufacturing e depois em Lean Startup (Eric Ries). Princípio: ir além de sintomas até chegar em causa-raiz perguntando "por quê?" cinco vezes.
+
+##### O que é
+
+Técnica simples de análise de causa-raiz. Diante de problema, perguntar "por quê?" sequencialmente até chegar em causa fundamental acionável. Cinco é número médio, pode ser menos (3) ou mais (7) dependendo do problema.
+
+##### Princípios / estrutura
+
+Exemplo clássico da Toyota:
+
+- Problema: máquina parou.
+- Por quê? Fusível queimado.
+- Por quê? Sobrecarga.
+- Por quê? Mancal sem lubrificação.
+- Por quê? Bomba de lubrificação falhou.
+- Por quê? Eixo da bomba desgastado por causa de sujeira.
+
+Causa-raiz: **sujeira no ar do chão de fábrica**. Solução: filtro. Sem 5 Whys, solução seria "trocar fusível" (trata sintoma, repete problema).
+
+##### Como aplicar do jeito certo
+
+Passo 1, Formule problema específico e mensurável.
+
+Passo 2, Pergunte "por quê?" focando em processos/sistemas, não em pessoas. "Por que João fez errado" leva a culpa, "Por que o sistema permitiu isso" leva a melhoria.
+
+Passo 3, Cada "por quê" deve ser respondido com evidência. Não especulação.
+
+Passo 4, Pare quando: (a) causa é acionável e (b) mais "por quês" geram respostas externas à sua capacidade de controle.
+
+Passo 5, Teste solução na causa-raiz. Monitor para confirmar resolução.
+
+##### Exemplo aplicado
+
+Problema: "Nosso deploy de produção falhou na sexta-feira causando 3h de downtime."
+
+- Por quê? Migração de banco falhou.
+- Por quê? Script de migração tinha bug em caso de edge.
+- Por quê? Bug não foi detectado em staging.
+- Por quê? Staging não tinha dados que triggeram o edge case.
+- Por quê? Nosso processo de staging não espelha prod em volume.
+
+Causa-raiz: **processo de staging inadequado**. Solução: sync staging com subset representativo de prod + smoke tests obrigatórios.
+
+##### Erros comuns
+
+Focar em pessoas: "por que o engenheiro não testou?" vira culpa. "Por que nosso processo não exige teste?" vira melhoria. Parar cedo demais: "bug no script" não é causa-raiz, é sintoma. Especular em vez de investigar: 5 Whys sem dados vira ficção criativa. Buscar "a" causa-raiz quando há múltiplas: problemas complexos podem ter múltiplas causas, fazer 5 Whys para cada.
+
+##### Quando NÃO usar
+
+Problemas com causas múltiplas e sistêmicas (exige análise mais sofisticada como Ishikawa/Fishbone), Em ambientes com cultura de blame, vira witch hunt.
+
+##### Leitura adicional
+
+- Ohno, T. (1988). *Toyota Production System*. Productivity Press.
+- Ries, E. (2011). *The Lean Startup*. Capítulos sobre 5 Whys.
+
+---
+
 ### CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)
 
 #### Canvas: Empathy Map (Dave Gray / XPLANE, 2009)
@@ -1136,7 +1479,7 @@ Em decisões puramente técnicas (escolha de stack, refatoração interna). Em m
 
 ##### Conexão com outros canvases
 
-O Empathy Map **alimenta o Customer Profile do VPC (Fase 5)** — Pains e Gains do Empathy Map se traduzem diretamente em Pains e Gains do VPC. **Pareia com o Customer Journey Canvas (Fase 5)**: Empathy Map é estado; Customer Journey é trajetória. Os dois juntos dão "estado interno em cada momento da jornada". **Antecede o BMC/Lean** (Canvas: Business Model Canvas (Alexander Osterwalder, 2010) (Fase 2, Vol. 1)/2): entender clientes profundamente vem antes de articular o modelo.
+O Empathy Map **alimenta o Customer Profile do VPC (Fase 5)** — Pains e Gains do Empathy Map se traduzem diretamente em Pains e Gains do VPC. **Pareia com o Customer Journey Canvas (Fase 5)**: Empathy Map é estado; Customer Journey é trajetória. Os dois juntos dão "estado interno em cada momento da jornada". **Antecede o BMC/Lean** (Canvas: Business Model Canvas (Alexander Osterwalder, 2010) (Fase 5)/2): entender clientes profundamente vem antes de articular o modelo.
 
 ##### Leitura adicional
 
@@ -1879,7 +2222,7 @@ Template: Síntese de Rodada de Entrevistas (decisão de avanço · Fase 3 → F
 
 - [ ] Agradecer todos os entrevistados da rodada com resumo não-confidencial do que aprendemos
 - [ ] Convidar entrevistados Pain Level 4+ para lista de early adopters / beta
-- [ ] Compartilhar aprendizados com advisors envolvidos (Template da Fase 0, Vol. 1) e pedir reação
+- [ ] Compartilhar aprendizados com advisors envolvidos (Template da Fase 4) e pedir reação
 
 ###### Anexos
 
@@ -1890,6 +2233,248 @@ Template: Síntese de Rodada de Entrevistas (decisão de avanço · Fase 3 → F
 - Rodadas anteriores (para comparação): `[ROUND-..., ROUND-...]`
 
 *Consolidado por `[Nomes]` em `[DD/MM/AAAA]`. Versão `[1.0]`.*
+
+---
+
+#### Template: Entrevista com Advisor (decisão específica · tradeoffs)
+
+> [!important] Disciplina central
+> Advisor é para **refinar decisão que já está em cima da mesa**, não para descobrir o problema. Se você não consegue nomear a decisão em uma frase, você não está pronto para essa conversa — volte para Template: Entrevista de Problema (Fase 4) (entrevista de problema) ou Template: Entrevista com Especialista de Mercado (mapa de setor · Fases 3-5) (Fase 4) (especialista). Pareamento natural com o [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 13 — REDE, MENTORES E ADVISORS — COMO CONSTRUIR O CAPITAL HUMANO DO EMPREENDEDOR|Capítulo 13 (REDE, MENTORES E ADVISORS — COMO CONSTRUIR O CAPITAL HUMANO DO EMPREENDEDOR) (Vol. 1)]], que cobre como construir e formalizar a relação com advisors. Este template é o que se usa **dentro** da conversa, depois que o advisor já está no jogo.
+
+##### Parte A — Roteiro da Conversa (uso durante)
+
+**Duração alvo:** 60-90 min · **Balanço de fala:** advisor fala bastante, mas você conduz — prepare a pauta e volte a ela quando a conversa derivar.
+
+**Abertura (3 min)**
+
+> "Obrigado pelo tempo. A decisão que temos em cima da mesa é [frase única]. As opções são [A, B, C]. Meu objetivo nessa conversa é ouvir como você veria o problema, que contra-argumentos você enxerga, e que casos parecidos você já viu. Posso gravar para o time ouvir depois?"
+
+**Contexto (5 min)**
+
+- Apresentar em 3 minutos: onde estamos, a decisão, o que tentamos, o que já descartamos e por quê.
+- Confirmar que a pessoa teve acesso ao material prévio, ou resumir o que ela não viu.
+
+**Reenquadramento (10 min — antes de pedir recomendação).** *Frequentemente o valor do advisor está em reformular a pergunta, não em responder a que você trouxe.*
+
+- Do jeito que eu descrevi, a decisão parece a decisão certa a tomar? Ou você formularia diferente?
+- Que pergunta anterior a essa nós ainda não respondemos?
+
+**Recomendação e raciocínio (15 min)**
+
+- Qual é sua recomendação? (Forçar decisão binária: A, B ou C, não "depende".)
+- Qual é a convicção — alta, média, baixa?
+- Me leva pelo raciocínio — o que te fez chegar aí?
+
+**Objeções e condições de reversão (10 min).** *Advisor bom lista o que pode dar errado com a própria recomendação. Se não ouviu objeção nenhuma, pergunte explicitamente.*
+
+- Se você estivesse no nosso lugar, o que te faria mudar de ideia?
+- Em que condições essa recomendação deixaria de valer?
+- Já viu essa recomendação dar errado? Quando?
+
+**Casos análogos (10 min)**
+
+- Você já viu empresa parecida tomar decisão parecida? O que rolou?
+- Onde o caso que você está citando **não** se aplica ao nosso?
+
+**Riscos e pontos cegos (5 min)**
+
+- Que riscos nós não estamos pesando?
+- Que riscos você acha que estamos superdimensionando?
+
+**Encerramento (3 min)**
+
+- O que você faria nos próximos 30 dias se fosse nós?
+- Topa reportar o resultado dessa decisão em [prazo]?
+
+**NÃO FAZER**
+
+- Pedir recomendação sem apresentar o problema com rigor — vira conversa de opinião genérica.
+- Engolir a recomendação sem confronto — advisor não decide por você.
+- Confundir "já vi isso" com "isso se aplica aqui".
+- Tratar heurística pessoal ("eu sempre fiz X") como lei do setor.
+
+##### Parte B — Síntese Pós-Conversa
+
+###### Metadados
+
+| Campo | Valor |
+|---|---|
+| **ID** | `ADV-[AAAA-MM-DD]-[##]` |
+| **Data e hora** | `[DD/MM/AAAA]` |
+| **Duração** | `[min]` |
+| **Formato** | `[ ] Remoto  [ ] Presencial` |
+| **Participantes internos** | `[Nome(s)]` |
+| **Gravação / notas compartilhadas** | `[link]` |
+| **Tipo de relação** | `[ ] Board member  [ ] Advisor formal com equity  [ ] Advisor informal  [ ] Consultor remunerado  [ ] Mentor pontual]` |
+| **Remuneração / contrato** | `[equity %, fee, pro bono, etc.]` |
+| **Conflitos de interesse conhecidos** | `[...]` |
+
+###### Perfil do Advisor
+
+| Campo | Valor |
+|---|---|
+| **Nome** | `[...]` |
+| **Trajetória curta** | `[2-3 linhas sobre empresas, papéis, resultados relevantes]` |
+| **Por que esta pessoa para esta decisão?** | `[fit específico — experiência prévia, rede, especialidade]` |
+| **Já tomou decisão parecida?** | `[ ] Sim — detalhe  [ ] Análoga  [ ] Não, mas observou de perto]` |
+
+###### 1. Decisão em pauta
+
+**A decisão, em uma frase.** *Teste: se você não consegue enquadrar em uma frase com verbo claro, a conversa vai para todo lado. Volte e afie antes.*
+
+`[Ex: "Devemos levantar Series A agora com US$ 8M em termos X, ou esperar 9 meses com mais tração?"]`
+
+**Janela de decisão.**
+
+- **Prazo que temos para decidir:** `[...]`
+- **Custo de adiar:** `[...]`
+- **Reversibilidade:** `[ ] Reversível  [ ] Parcialmente reversível  [ ] Irreversível]`
+
+**Opções em cima da mesa.**
+
+| Opção | Descrição curta | Quem defende internamente |
+|---|---|---|
+| A | `[...]` | `[...]` |
+| B | `[...]` | `[...]` |
+| C (status quo) | `[...]` | `[...]` |
+
+###### 2. Contexto compartilhado antes da conversa
+
+> *O advisor recebeu briefing? Leu material? Quanto viu dos números? Isso modula o peso da recomendação.*
+
+- **Material enviado antes:** `[link ou descrição]`
+- **Tempo de preparo da pessoa:** `[...]`
+- **Lacunas que ficaram — o que ela não viu:** `[...]`
+
+###### 3. Como o advisor reenquadrou o problema
+
+> *Frequentemente o valor do advisor não está na resposta — está no reenquadramento. "Vocês estão fazendo a pergunta errada" vale mais do que "a resposta é B".*
+
+**Ela viu a decisão diferente de como chegamos?** `[ ] Sim, de forma significativa  [ ] Sim, em aspecto pontual  [ ] Não, viu igual`
+
+**Qual foi o reenquadramento? (se houve)** `[...]`
+
+###### 4. Recomendação
+
+**Recomendação principal (em uma frase).** `[...]`
+
+**Convicção do advisor.** `[ ] Alta ("eu faria isso")  [ ] Média ("tendo a achar que…")  [ ] Baixa ("não tenho certeza, mas considere…")`
+
+**Linha de raciocínio (principais porquês).**
+
+1. `[...]`
+2. `[...]`
+3. `[...]`
+
+###### 5. Objeções e contra-argumentos levantados
+
+> *Advisor bom lista o que pode dar errado com a própria recomendação. Se você não ouviu objeção nenhuma, ou ela foi frouxa ou você não perguntou.*
+
+- **Contra-argumento 1:** `[...]`
+- **Contra-argumento 2:** `[...]`
+- **Condições em que a recomendação mudaria:** `[...]`
+
+###### 6. Tradeoffs destacados
+
+| Tradeoff | O que ganhamos | O que perdemos |
+|---|---|---|
+| `[...]` | `[...]` | `[...]` |
+| `[...]` | `[...]` | `[...]` |
+
+###### 7. Casos e analogias citadas
+
+> *"Já vi isso acontecer em [empresa X]" é o ativo central do advisor. Registre — inclusive para comparar entre advisors sobre a mesma decisão.*
+
+| Caso / empresa | O que rolou | Como se aplica ao nosso caso | Como não se aplica |
+|---|---|---|---|
+| `[...]` | `[...]` | `[...]` | `[...]` |
+
+###### 8. Riscos destacados
+
+- **Riscos que não havíamos pesado:** `[...]`
+- **Riscos que já víamos mas foram amplificados:** `[...]`
+- **Riscos que ela acha que estamos superdimensionando:** `[...]`
+
+###### 9. Separação fato vs. opinião vs. heurística pessoal
+
+> *Advisor mistura três coisas em qualquer conversa: fato (verificável), opinião (tese informada) e heurística pessoal ("eu sempre fiz assim"). Separar ajuda a decidir o que pesar.*
+
+**Fatos citados (checáveis).** `[...]`
+
+**Opiniões (com base em experiência mas não necessariamente generalizáveis).** `[...]`
+
+**Heurísticas pessoais (padrão pessoal da pessoa, tratar com cautela).** `[...]`
+
+###### 10. Vocabulário e quadros mentais
+
+> *Advisor bom traz quadros mentais (frameworks, analogias, axiomas) que organizam a decisão. Registre os que ressoaram — você vai reutilizar em pitch, board e nas próximas conversas internas.*
+
+| Termo / framework / analogia | Como ela usou |
+|---|---|
+| `[...]` | `[...]` |
+
+###### 11. Armadilhas — autoavaliação pós-conversa
+
+> *Marque honestamente. Advisor tem autoridade natural — isso contamina a escuta se você não checar.*
+
+- [ ] Engoli a recomendação sem confronto porque a pessoa tem muita credibilidade?
+- [ ] Tratei caso pessoal dela como generalizável sem verificar o fit com nosso contexto?
+- [ ] Aceitei heurística pessoal ("eu sempre fiz assim") como lei do setor?
+- [ ] Pedi recomendação sem ter apresentado a decisão com rigor?
+- [ ] Deixei de pedir objeção / contra-argumento explicitamente?
+- [ ] Confundi convicção dela com qualidade do argumento?
+
+**Achados sob suspeita:** `[...]`
+
+###### 12. Nossa posição pós-conversa
+
+> *Tão importante quanto ouvir é registrar o que fizemos com o que ouvimos. Advisor não decide por nós. Decidimos nós, informados por ela.*
+
+**Frente à recomendação.**
+
+- [ ] **Aceitamos integralmente** — justificativa: `[...]`
+- [ ] **Aceitamos com modificação** — modificação e por quê: `[...]`
+- [ ] **Rejeitamos** — justificativa: `[...]`
+- [ ] **Adiamos decisão** — o que falta saber antes: `[...]`
+
+**Convicção interna após a conversa.** `[ ] Aumentou  [ ] Diminuiu  [ ] Mesma, melhor argumentada  [ ] Gerou confusão — precisamos reprocessar]`
+
+###### 13. Ações acordadas
+
+| Ação | Responsável | Prazo |
+|---|---|---|
+| `[...]` | `[Nome]` | `[DD/MM]` |
+
+**Follow-up com o advisor.**
+
+- [ ] Enviar resumo desta conversa em até 48h (com o que decidimos, inclusive quando decidimos diferente da recomendação)
+- [ ] Reportar resultado da decisão em: `[prazo]`
+- [ ] Próxima conversa agendada? `[data / gatilho]`
+
+###### 14. Reflexão interna (pós-conversa, sem o advisor)
+
+> *Fazer 30 min depois da conversa, só com o time interno. Três perguntas.*
+
+**O que foi sinal e o que foi ruído nesta conversa?** `[...]`
+
+**Onde ela pode estar errada em função do viés dela (experiência datada, setor diferente, ego)?** `[...]`
+
+**Se seguirmos a recomendação e der errado, conseguimos explicar por que parecia razoável na hora?** `[...]`
+
+###### 15. Próximos passos de investigação
+
+> *Perguntas que esta conversa gerou e que precisam ser respondidas antes da próxima rodada de decisão.*
+
+**Outras fontes a consultar antes de decidir.**
+
+- `[outro advisor com viés complementar / especialista no tema / dado externo]`
+- `[...]`
+
+**Dados internos a levantar.** `[...]`
+
+**Se decidirmos, o que precisa estar pronto?** `[...]`
+
+*Preenchido por `[Nome]` em `[DD/MM/AAAA]`.*
 
 ---
 
@@ -2288,16 +2873,16 @@ Perder-se em detalhes irrelevantes. Nem toda informação coletada é útil. Fil
 
 ### FERRAMENTAS DESTA FASE
 
-A maioria das ferramentas de research está no Ferramentário (Frameworks da Fase 4). Canvases complementares: Canvas: Value Proposition Canvas (Alexander Osterwalder, 2014) (Fase 5), Canvas: Empathy Map (Dave Gray / XPLANE, 2009) (Fase 4) e Canvas: Customer Journey Canvas (Fase 5).
+Todas estão detalhadas passo a passo na subseção **[[#MANUAL PASSO A PASSO DOS FRAMEWORKS DESTA FASE|Manual Passo a Passo dos Frameworks desta Fase]]** logo a seguir. Canvases complementares: [[#Canvas: Value Proposition Canvas (Alexander Osterwalder, 2014)|Canvas: Value Proposition Canvas (Alexander Osterwalder, 2014)]], [[#Canvas: Empathy Map (Dave Gray / XPLANE, 2009)|Canvas: Empathy Map (Dave Gray / XPLANE, 2009)]] e [[#Canvas: Customer Journey Canvas|Canvas: Customer Journey Canvas]].
 
-- **5 Whys** — perguntar "por quê?" cinco vezes para chegar à causa raiz, durante entrevistas. Framework: 5 Whys (Sakichi Toyoda / Toyota, anos 1930) (Fase 3, Vol. 1).
-- **MECE** — estruturar achados sem sobreposição e sem lacunas. Framework: MECE (Mutually Exclusive, Collectively Exhaustive) — McKinsey (Fase 3, Vol. 1).
-- **McKinsey 7-Step (Synthesize)** — consolidar achados em aprendizados, não fatos soltos. Framework: McKinsey 7-Step Problem Solving (Fase 3, Vol. 1).
-- **Pyramid Principle** (Minto) — comunicar achados ao time e stakeholders, conclusão no topo. Framework: Pyramid Principle (Barbara Minto, 1985) (Fase 2, Vol. 1).
-- **Second-Order Thinking** (Marks) — o que o usuário fará se a solução existir? Como o comportamento mudará? Framework: Second-Order Thinking (Howard Marks, 2011) (Fase 3, Vol. 1).
+- **5 Whys** — perguntar "por quê?" cinco vezes para chegar à causa raiz, durante entrevistas. [[#Framework: 5 Whys (Sakichi Toyoda / Toyota, anos 1930)|Framework: 5 Whys (Sakichi Toyoda / Toyota, anos 1930)]].
+- **MECE** — estruturar achados sem sobreposição e sem lacunas. [[#Framework: MECE (Mutually Exclusive, Collectively Exhaustive) — McKinsey|Framework: MECE (Mutually Exclusive, Collectively Exhaustive) — McKinsey]].
+- **McKinsey 7-Step (Synthesize)** — consolidar achados em aprendizados, não fatos soltos. [[#Framework: McKinsey 7-Step Problem Solving|Framework: McKinsey 7-Step Problem Solving]].
+- **Pyramid Principle** (Minto) — comunicar achados ao time e stakeholders, conclusão no topo. [[#Framework: Pyramid Principle (Barbara Minto, 1985)|Framework: Pyramid Principle (Barbara Minto, 1985)]].
+- **Second-Order Thinking** (Marks) — o que o usuário fará se a solução existir? Como o comportamento mudará? [[#Framework: Second-Order Thinking (Howard Marks, 2011)|Framework: Second-Order Thinking (Howard Marks, 2011)]].
 
-> [!note] Métodos consagrados de pesquisa no Ferramentário
-> O [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#ÍNDICE GERAL DE FRAMEWORKS DA COLEÇÃO|Índice Geral de Frameworks (Vol. 10)]].6 adiciona: The Mom Test (Fitzpatrick), JTBD Switch Interviews (Moesta), Contextual Inquiry (Beyer e Holtzblatt), Laddering Technique, Diary Studies, Empathy Mapping (Gray), Customer Journey Mapping, Personas (Cooper), Grounded Theory, Thematic Analysis, e cerca de quinze outros métodos.
+> [!note] Métodos consagrados de pesquisa integrados nesta fase
+> A subseção **[[#MANUAL PASSO A PASSO DOS FRAMEWORKS DESTA FASE|Manual Passo a Passo dos Frameworks desta Fase]]** logo abaixo detalha passo a passo *JTBD Switch Interviews*, *Jobs to Be Done Framework*, *Contextual Inquiry*, *Ethnographic Research*, *Laddering*, *Personas*, *Customer Journey Mapping*, *Service Blueprinting* e *Kano Model*.
 
 ---
 
@@ -3102,6 +3687,70 @@ Em mercados muito novos sem clientes existentes para entrevistar, em produtos B2
 
 ---
 
+#### Framework: Second-Order Thinking (Howard Marks, 2011)
+
+##### Origem
+
+Howard Marks, co-fundador da Oaktree Capital (US$ 180B AUM), cunhou o termo no livro *The Most Important Thing* (2011) e desenvolveu em memos aos investidores. Argumento: investidores medíocres pensam em primeira ordem ("isso é bom, vou comprar"), investidores excepcionais pensam em segunda ordem ("isso é bom, então muitos compraram, então preço já incorpora a expectativa, então minha oportunidade está onde?").
+
+##### O que é
+
+Framework de tomada de decisão que considera **consequências de segunda ordem, terceira ordem e subsequentes** de uma ação, não só o efeito imediato.
+
+##### Princípios / estrutura
+
+Primeira ordem: "se fizermos X, Y acontece."
+Segunda ordem: "se Y acontece, Z acontece, outros vão reagir assim, incentivos se alteram."
+Terceira ordem: "se Z e reação, W acontece, equilíbrio muda."
+
+Exemplo clássico: aumentar preço em 20%.
+
+- 1ª ordem: receita sobe 20% (se tudo mais igual).
+- 2ª ordem: clientes reagem, alguns cancelam, sensibilidade importa.
+- 3ª ordem: concorrentes reagem, podem subir ou manter, dinâmica competitiva muda.
+- 4ª ordem: comunicação afeta percepção de marca de longo prazo.
+
+##### Como aplicar do jeito certo
+
+Passo 1, Para cada decisão importante, liste efeitos de 1ª ordem.
+
+Passo 2, Para cada efeito, pergunte: "e depois?"
+
+Passo 3, Continue até 3-4 ordens, ou até retorno diminuir. Além de 4 ordens, incerteza é alta demais, preditividade cai.
+
+Passo 4, Considere reações de múltiplos agentes. Clientes, concorrentes, reguladores, mídia, time interno.
+
+Passo 5, Questione premissas implícitas. "Assumir tudo igual" raramente é verdade.
+
+Passo 6, Tome decisão com entendimento de ordens.
+
+##### Exemplo aplicado
+
+Startup considerando demitir 15% do time para preservar caixa:
+
+- 1ª ordem: custo cai R$ 500k/mês, runway +6 meses.
+- 2ª ordem: moral do time restante cai, produtividade cai, risco de top performers saírem voluntariamente. Mitigação: comunicação cuidadosa, pacote, transparência.
+- 3ª ordem: mercado percebe como sinal de dificuldade, afeta captação futura, afeta recrutamento quando quiser voltar a contratar. Mitigação: narrativa correta, preparação para rodada.
+- 4ª ordem: se crise acabar em 6 meses e precisarmos re-contratar, custo de recontratação alto, perdemos know-how. Trade-off entre caixa hoje e capability amanhã.
+
+Decisão melhor-informada.
+
+##### Erros comuns
+
+Parar em primeira ordem: "vai economizar caixa, faça". Perde consequências críticas. Over-thinking: simular 10 ordens de consequências, paralisia analítica. Ignorar reações de agentes: assume que outros não reagem. Confundir complexidade com precisão: análise elaborada sobre base frágil de premissas. Complexidade não é qualidade.
+
+##### Quando NÃO usar
+
+Decisões reversíveis/pequenas (Jeff Bezos "one-way vs. two-way doors"), gaste pensamento em decisões irreversíveis.
+
+##### Leitura adicional
+
+- Marks, H. (2011). *The Most Important Thing*. Columbia Business.
+- Marks, H. (memos regulares, disponíveis em oaktreecapital.com).
+- Shane Parrish, Farnam Street (popularizou em startup world).
+
+---
+
 ### CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)
 
 #### Canvas: Value Proposition Canvas (Alexander Osterwalder, 2014)
@@ -3213,7 +3862,7 @@ Em mercados commoditizados com propostas de valor muito padronizadas — VPC adi
 
 ##### Conexão com outros canvases
 
-O VPC **aprofunda** o bloco "Proposta de Valor" do BMC (Fase 2, Vol. 1) — preencher BMC sem antes ter VPC tipicamente produz blocos de Proposta de Valor vazios. **Pareia com o Empathy Map (Fase 4)** para construir o Customer Profile com profundidade emocional. **Alimenta o Lean Canvas (Fase 1, Vol. 1)**: os Pains do cliente viram o bloco Problema; os Pain Relievers + Gain Creators viram a Proposta Única de Valor.
+O VPC **aprofunda** o bloco "Proposta de Valor" do BMC (Fase 5) — preencher BMC sem antes ter VPC tipicamente produz blocos de Proposta de Valor vazios. **Pareia com o Empathy Map (Fase 4)** para construir o Customer Profile com profundidade emocional. **Alimenta o Lean Canvas (Fase 1)**: os Pains do cliente viram o bloco Problema; os Pain Relievers + Gain Creators viram a Proposta Única de Valor.
 
 ##### Leitura adicional
 
@@ -3318,13 +3967,126 @@ Em produtos transacionais simples sem relacionamento contínuo (vending machine,
 
 ##### Conexão com outros canvases
 
-O Customer Journey Canvas **pareia com o Empathy Map (Fase 4)**: Empathy Map é estado; Customer Journey é trajetória. **Alimenta o VPC (Fase 5)**: pontos de dor da jornada viram Pains do Customer Profile. **Alimenta o Pirate Canvas / AARRR (Fase 11, Vol. 4)**: as etapas da jornada mapeiam diretamente para Acquisition → Activation → Retention → Referral → Revenue. **Sucede o BMC (Fase 2, Vol. 1)**: BMC mapeia o modelo; Customer Journey mapeia a experiência operacional do cliente dentro desse modelo.
+O Customer Journey Canvas **pareia com o Empathy Map (Fase 4)**: Empathy Map é estado; Customer Journey é trajetória. **Alimenta o VPC (Fase 5)**: pontos de dor da jornada viram Pains do Customer Profile. **Alimenta o Pirate Canvas / AARRR (Fase 11)**: as etapas da jornada mapeiam diretamente para Acquisition → Activation → Retention → Referral → Revenue. **Sucede o BMC (Fase 5)**: BMC mapeia o modelo; Customer Journey mapeia a experiência operacional do cliente dentro desse modelo.
 
 ##### Leitura adicional
 
 - *This Is Service Design Doing* (Marc Stickdorn, Markus Edgar Hormess, Adam Lawrence, Jakob Schneider, 2018).
 - *Mapping Experiences* (James Kalbach, 2nd ed. 2020) — manual extensivo sobre todos os tipos de mapas de experiência.
 - [servicedesigntools.org](https://servicedesigntools.org) — biblioteca de templates open-source.
+
+---
+
+#### Canvas: Business Model Canvas (Alexander Osterwalder, 2010)
+
+##### Origem
+
+Alexander Osterwalder propôs o Business Model Canvas (BMC) na tese de doutorado em 2004, na Universidade de Lausanne, sob orientação de Yves Pigneur. A ferramenta foi sistematizada no livro *Business Model Generation* (2010), escrito colaborativamente com 470 co-autores espalhados por 45 países via plataforma online — o livro virou bestseller global e definiu a forma como milhões de empreendedores conversam sobre modelo de negócio. No Brasil, o BMC entrou no currículo de praticamente toda aceleradora, MBA, programa do Sebrae, Endeavor e Distrito a partir de 2012, virando vocabulário comum.
+
+##### O que é
+
+Tela visual de uma página com **nove blocos** que representam, juntos, como uma empresa cria, entrega e captura valor. Os nove blocos são organizados em duas metades: a metade direita (cliente, valor, canais, relacionamento, receita) descreve **a frente do negócio**; a metade esquerda (recursos, atividades, parcerias, custos) descreve **as engrenagens internas**. No centro, conectando as duas, fica a **Proposta de Valor**.
+
+```mermaid
+flowchart TB
+    subgraph BMC["Business Model Canvas"]
+        direction LR
+        subgraph Esquerda["Engrenagens"]
+            P["Parcerias-Chave"]
+            A["Atividades-Chave"]
+            R["Recursos-Chave"]
+        end
+        subgraph Centro["Valor"]
+            V["Proposta<br/>de Valor"]
+        end
+        subgraph Direita["Frente"]
+            REL["Relacionamento<br/>com Clientes"]
+            C["Canais"]
+            S["Segmentos<br/>de Clientes"]
+        end
+        subgraph Base["Economia"]
+            CO["Estrutura de Custos"]
+            REC["Fontes de Receita"]
+        end
+    end
+    P --> V
+    A --> V
+    R --> V
+    V --> REL
+    V --> C
+    V --> S
+    Esquerda --> CO
+    Direita --> REC
+```
+
+##### Quando usar
+
+Use o BMC nas Fases 2 e 3 do IGNIÇÃO, quando a ideia já tem articulação inicial mas o modelo de negócio ainda precisa ser explicitado. Também use a cada três a seis meses como check-up: revisitar o BMC depois de um trimestre de operação real frequentemente revela inconsistências invisíveis no momento da articulação. Não use o BMC para decidir *se* a ideia é boa — para isso, [[#FASE 4 — DESCOBERTA DO PROBLEMA|Fase 4]] (descoberta com cliente) e [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 8 — EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA E DA SOLUÇÃO|Fase 8 (Vol. 3)]] (experimentos) são as ferramentas certas.
+
+##### Princípios
+
+A tese central de Osterwalder é que **modelo de negócio é objeto de design, não de planejamento**. Designar requer iteração rápida, conversa colaborativa e tolerância à ambiguidade temporária. Os nove blocos são interdependentes: mudar um afeta vários, e o valor do BMC está em tornar essa interdependência visível. O canvas é **descritivo** (mapeia o que você entende do negócio), não **prescritivo** (não diz se o modelo é bom). Por isso, ter um BMC coerente não significa ter um negócio viável — apenas ter clareza sobre o que precisa ser testado.
+
+##### Como aplicar
+
+Reúna 2-4 pessoas (cofundadores idealmente, mais 1 mentor externo se possível). Imprima a tela em A1 ou desenhe na parede com fita crepe. Use post-its (cores diferentes para cada bloco). Bloco a bloco, **na ordem que importa**:
+
+1. **Segmentos de Clientes** primeiro — sem cliente, nada mais importa.
+2. **Proposta de Valor** — por que esses clientes pagariam.
+3. **Canais** — como o cliente descobre, compra, recebe e pede suporte.
+4. **Relacionamento** — self-service, comunidade, suporte humano, automação.
+5. **Fontes de Receita** — modelo (assinatura, transação, licença, freemium).
+6. **Recursos-Chave** — o que a empresa precisa ter (pessoas, tecnologia, IP, capital).
+7. **Atividades-Chave** — o que a empresa precisa fazer todo dia.
+8. **Parcerias-Chave** — quem a empresa precisa ao lado (fornecedores, integradores, distribuição).
+9. **Estrutura de Custos** — onde o dinheiro sai.
+
+Tempo total: 60-120 minutos para a primeira versão. Cada bloco com 3-5 post-its (não parágrafos longos). Revisitar mensalmente nas fases iniciais, trimestralmente depois de PMF.
+
+##### Exemplo brasileiro preenchido — Nubank em 2014
+
+| Bloco | Conteúdo |
+|---|---|
+| **Segmentos de Clientes** | Brasileiros 25-40 anos, urbanos, classes A/B/C+, insatisfeitos com banco tradicional, familiares com smartphone |
+| **Proposta de Valor** | Cartão de crédito sem anuidade, gerenciado 100% por app, sem burocracia, atendimento humano via chat, transparência |
+| **Canais** | App mobile (iOS + Android), landing page, marketing digital orgânico, convite por fila de espera viral |
+| **Relacionamento** | Self-service via app, suporte humano on-demand via chat, comunicação pelo nome próprio |
+| **Fontes de Receita** | Intercâmbio (% sobre cada transação no cartão), juros do rotativo, futuro: receitas adjacentes (lending, investimento) |
+| **Recursos-Chave** | Equipe técnica (engenharia, produto, design), licenças regulatórias, capital, algoritmos de credit scoring |
+| **Atividades-Chave** | Desenvolvimento de produto digital, aquisição de clientes, gestão de risco de crédito, atendimento |
+| **Parcerias-Chave** | Bandeiras (Mastercard, Visa), processadoras de pagamento, BACEN (regulador), provedores cloud |
+| **Estrutura de Custos** | Salários de tecnologia (majoritário), atendimento, marketing, provisões de risco de crédito, compliance |
+
+**Insight do caso.** O BMC do Nubank em 2014 mostra um modelo intencionalmente enxuto: poucos blocos com complexidade real (cartão único, segmento único, canal único). A disciplina foi não adicionar produtos ou segmentos antes de dominar o primeiro. Expansão para conta corrente (2017), lending (2019), investimentos (2020) só aconteceu depois de o cartão dominar o segmento original. Empresas que tentam preencher os nove blocos com complexidade simultânea desde o início frequentemente falham por dispersão. BMC bem feito tem cara de simples.
+
+##### Variações e extensões
+
+- **Lean Canvas** (Fase 1): substitui Parcerias, Atividades, Recursos e Relacionamento por Problema, Solução, Métricas-Chave e Vantagem Injusta. Mais útil em estágio pré-PMF.
+- **Social Business Model Canvas**: adiciona blocos de impacto social, beneficiários e métricas de impacto.
+- **Platform Business Model Canvas**: adapta para marketplaces de dois lados.
+- **Sustainable Business Model Canvas (Triple Layer)**: adiciona camadas ambiental e social.
+
+##### Erros comuns
+
+- Preencher sozinho na cabeça em vez de em conversa colaborativa — o valor do BMC está no debate entre múltiplos olhares, não no documento final.
+- Tratar como artefato estático, não revisitar — BMC sem atualização perde sentido em três meses.
+- Confundir clareza do BMC com validação do mercado — ter BMC bonito não prova que cliente existe.
+- Excesso de detalhe em cada bloco — se você precisa de parágrafo para explicar um bloco, a ideia ainda não está clara.
+- Forçar um único BMC para múltiplos segmentos muito distintos — cada segmento merece BMC próprio.
+
+##### Quando NÃO usar
+
+Em empresas maduras com modelo estabelecido e operando — frameworks de execução como OGSM, Hoshin Kanri ou Balanced Scorecard servem melhor. Em negócios muito simples (consultoria solo, freelance) — BMC introduz overhead sem valor. Em negócios complexos com várias linhas distintas, não force um único BMC: cada linha precisa do seu.
+
+##### Conexão com outros canvases
+
+O BMC **precede** o Lean Canvas (Fase 1) como ferramenta histórica, mas o Lean Canvas é mais adequado para startup pré-PMF. O **Value Proposition Canvas** (Fase 5) aprofunda o bloco "Proposta de Valor" do BMC, que é tipicamente preenchido de forma vaga. O **Strategy Canvas** (Fase 6) complementa olhando para fora (concorrência), enquanto o BMC olha para dentro (modelo). Em fases iniciais, comece pelo BMC para ter visão de conjunto; depois aprofunde com VPC para a proposta e Strategy Canvas para o posicionamento.
+
+##### Leitura adicional
+
+- *Business Model Generation* (Alexander Osterwalder & Yves Pigneur, 2010).
+- *Testing Business Ideas* (David Bland & Alexander Osterwalder, 2019) — manual de validação para cada bloco.
+- [strategyzer.com](https://strategyzer.com) — ferramenta online + cursos da equipe original.
 
 ---
 
@@ -3791,8 +4553,8 @@ O que impede novos concorrentes (incluindo grandes empresas) de te copiar rapida
 > [!tip] Canvases Visuais — Network Effects Map (Fase 6)
 > Quando o modelo tem componente de rede (marketplaces, plataformas, social, comunidades), o [[#Canvas: Network Effects Map|Canvas: Network Effects Map]] classifica o tipo de efeito (direto, indireto, dados, social) e identifica os limites de defensibilidade. Use ao avaliar moats em modelos de plataforma — efeito de rede é a categoria de moat mais forte e mais difícil de identificar com clareza.
 
-> [!tip] Canvases Visuais — Wardley Map (Fase 19, Vol. 9)
-> Para análise estratégica em profundidade, o [[IGNICAO-Vol-9-Maturidade-e-Exit#Canvas: Wardley Map|Canvas: Wardley Map (Vol. 9)]] decompõe a cadeia de valor em estágios de evolução (Genesis → Custom → Product → Commodity), revelando onde investir custom (componentes que criam vantagem) e onde comoditizar (componentes que viraram utility). Complementa Porter (forças estáticas) com lente temporal (evolução).
+> [!tip] Canvases Visuais — Wardley Map (Fase 6)
+> Para análise estratégica em profundidade, o [[#Canvas: Wardley Map|Canvas: Wardley Map]] decompõe a cadeia de valor em estágios de evolução (Genesis → Custom → Product → Commodity), revelando onde investir custom (componentes que criam vantagem) e onde comoditizar (componentes que viraram utility). Complementa Porter (forças estáticas) com lente temporal (evolução).
 
 #### Passo 8, faça uma matriz competitiva
 
@@ -4162,18 +4924,18 @@ Falha em qualquer etapa significa voltar à fase anterior, não pular adiante. S
 
 ### FERRAMENTAS DESTA FASE
 
-Esta é a fase em que o ferramentário estratégico clássico mais brilha. Quatro essenciais para o estágio inicial; o restante fica como referência consultiva nos Manuais de Frameworks das Fases.1-Frameworks da Fase 2, Vol. 1 quando o caso pedir. Canvases visuais: Canvas: Strategy Canvas (W. Chan Kim & Renée Mauborgne, 2005) (Fase 6), Canvas: Canvas da Cunha (autoral IGNIÇÃO) (Fase 6), Canvas: Network Effects Map (Fase 6) e Canvas: Wardley Map (Fase 19, Vol. 9).
+Esta é a fase em que o ferramentário estratégico clássico mais brilha. Quatro essenciais para o estágio inicial — todas detalhadas passo a passo logo a seguir.1-Frameworks da Fase 6 quando o caso pedir. Canvases visuais: [[#Canvas: Strategy Canvas (W. Chan Kim & Renée Mauborgne, 2005)|Canvas: Strategy Canvas (W. Chan Kim & Renée Mauborgne, 2005)]], [[#Canvas: Canvas da Cunha (autoral IGNIÇÃO)|Canvas: Canvas da Cunha (autoral IGNIÇÃO)]], [[#Canvas: Network Effects Map|Canvas: Network Effects Map]] e [[#Canvas: Wardley Map|Canvas: Wardley Map]].
 
-**Essenciais para a Fase 5:**
+**Essenciais para a Fase 6:**
 
-- **Porter's Five Forces** (Porter, 1979) — atratividade estrutural via cinco forças (novos entrantes, fornecedores, compradores, substitutos, rivalidade). Use no Passo 4 para entender dinâmica do mercado. Framework: Porter's Five Forces (Michael Porter, 1979) (Fase 6).
-- **Blue Ocean / ERRC Grid** (Kim e Mauborgne, 2005) — Eliminar, Reduzir, Aumentar, Criar para redefinir categoria. Use no Passo 8 (matriz competitiva) quando quadrante vazio sugerir nova categoria. Framework: Blue Ocean Strategy (W. Chan Kim & Renée Mauborgne, 2005) (Fase 1, Vol. 1).
-- **7 Powers** (Hamilton Helmer, 2016) — sete fontes de defensibilidade estrutural (escala, rede, contra-posicionamento, switching costs, marca, recurso monopolizado, poder de processo). Use no Passo 7 para identificar o moat realista. Framework: 7 Powers (Hamilton Helmer, 2016) (Fase 6).
-- **Strategy Canvas** (Kim e Mauborgne, 2005) — visualização da curva de valor contra concorrentes. Use no Passo 8 antes da matriz 2x2. Canvas: Strategy Canvas (W. Chan Kim & Renée Mauborgne, 2005) (Fase 6).
+- **Porter's Five Forces** (Porter, 1979) — atratividade estrutural via cinco forças (novos entrantes, fornecedores, compradores, substitutos, rivalidade). Use no Passo 4 para entender dinâmica do mercado. [[#Framework: Porter's Five Forces (Michael Porter, 1979)|Framework: Porter's Five Forces (Michael Porter, 1979)]].
+- **Blue Ocean / ERRC Grid** (Kim e Mauborgne, 2005) — Eliminar, Reduzir, Aumentar, Criar para redefinir categoria. Use no Passo 8 (matriz competitiva) quando quadrante vazio sugerir nova categoria. [[#Framework: Blue Ocean Strategy (W. Chan Kim & Renée Mauborgne, 2005)|Framework: Blue Ocean Strategy (W. Chan Kim & Renée Mauborgne, 2005)]].
+- **7 Powers** (Hamilton Helmer, 2016) — sete fontes de defensibilidade estrutural (escala, rede, contra-posicionamento, switching costs, marca, recurso monopolizado, poder de processo). Use no Passo 7 para identificar o moat realista. [[#Framework: 7 Powers (Hamilton Helmer, 2016)|Framework: 7 Powers (Hamilton Helmer, 2016)]].
+- **Strategy Canvas** (Kim e Mauborgne, 2005) — visualização da curva de valor contra concorrentes. Use no Passo 8 antes da matriz 2x2. [[#Canvas: Strategy Canvas (W. Chan Kim & Renée Mauborgne, 2005)|Canvas: Strategy Canvas (W. Chan Kim & Renée Mauborgne, 2005)]].
 
 **Complementares (consulte conforme o caso):**
 
-- SWOT/TOWS Matrix, PESTEL, BCG Growth-Share, Ansoff Matrix, Value Chain Analysis, VRIO, Playing to Win, Wardley Mapping, Scenario Planning, Core Competencies, Value Disciplines. Detalhamento e quando usar cada uma em Framework: SWOT / TOWS Matrix (Albert Humphrey, 1960s) (Fase 6) a Framework: Value Disciplines (Michael Treacy & Fred Wiersema, 1993) (Fase 2, Vol. 1).
+- SWOT/TOWS Matrix, PESTEL, BCG Growth-Share, Ansoff Matrix, Value Chain Analysis, VRIO, Playing to Win, Wardley Mapping, Scenario Planning, Core Competencies, Value Disciplines. Detalhamento passo a passo na subseção **[[#MANUAL PASSO A PASSO DOS FRAMEWORKS DESTA FASE|Manual Passo a Passo dos Frameworks desta Fase]]** logo a seguir.2 a [[#Framework: Value Disciplines (Michael Treacy & Fred Wiersema, 1993)|Framework: Value Disciplines (Michael Treacy & Fred Wiersema, 1993)]].
 
 ---
 
@@ -4251,7 +5013,7 @@ Leitura: setor atrativo para incumbentes estabelecidos, difícil para novos entr
 
 ##### Erros comuns
 
-Análise superficial: "rivalidade é alta" sem mapear quantos competidores, market share, diferenciação. Indústria mal definida: "restaurantes" é inútil, "restaurantes de alta gastronomia em São Paulo" é analisável. Estático demais: análise de 2015 aplicada em 2026 sem considerar mudanças estruturais. Ignorar complementadores: Porter não inclui essa sexta força, mas Brandenburger e Nalebuff (*Co-opetition*, 1996) argumentam que complementadores (ex.: app stores para iOS/Android) são força relevante. Vale considerar. Confundir atratividade setorial com performance da sua empresa: indústria atrativa não garante sucesso, indústria feia não condena. Sua posição importa. Usar como análise isolada: 5 Forças responde "setor é atrativo?", não responde "como devo jogar neste setor?". Combine com Playing to Win (Framework: Playing to Win (Roger Martin & A.G. Lafley, 2013) (Fase 2, Vol. 1)) e 7 Powers (Framework: Three Horizons Framework (McKinsey, 1999) (Fase 1, Vol. 1)).
+Análise superficial: "rivalidade é alta" sem mapear quantos competidores, market share, diferenciação. Indústria mal definida: "restaurantes" é inútil, "restaurantes de alta gastronomia em São Paulo" é analisável. Estático demais: análise de 2015 aplicada em 2026 sem considerar mudanças estruturais. Ignorar complementadores: Porter não inclui essa sexta força, mas Brandenburger e Nalebuff (*Co-opetition*, 1996) argumentam que complementadores (ex.: app stores para iOS/Android) são força relevante. Vale considerar. Confundir atratividade setorial com performance da sua empresa: indústria atrativa não garante sucesso, indústria feia não condena. Sua posição importa. Usar como análise isolada: 5 Forças responde "setor é atrativo?", não responde "como devo jogar neste setor?". Combine com Playing to Win (Framework: Playing to Win (Roger Martin & A.G. Lafley, 2013) (Fase 6)) e 7 Powers (Framework: Three Horizons Framework (McKinsey, 1999) (Fase 6)).
 
 ##### Quando NÃO usar
 
@@ -4419,7 +5181,7 @@ Aplicar a startup single-product: BCG foi pensado para portfólio. Startup com 1
 
 ##### Quando NÃO usar
 
-Single-product ou early-stage startup, sem portfólio, não há o que matricilar. Quando a curva de experiência (BCG assume) não se aplica, indústrias onde economia de escala é pequena. Em setores muito fragmentados onde "líder" tem 5% de share (não há Cash Cow possível). Para decisão de produtos individuais dentro de uma BU, use Kano ou RICE (Frameworks da Fase 0, Vol. 1).
+Single-product ou early-stage startup, sem portfólio, não há o que matricilar. Quando a curva de experiência (BCG assume) não se aplica, indústrias onde economia de escala é pequena. Em setores muito fragmentados onde "líder" tem 5% de share (não há Cash Cow possível). Para decisão de produtos individuais dentro de uma BU, use Kano ou RICE (Frameworks da Fase 4).
 
 ##### Leitura adicional
 
@@ -4541,7 +5303,7 @@ Diversificação prematura: startup com 1 produto tenta lançar linha ortogonal 
 
 ##### Quando NÃO usar
 
-Antes de PMF: Ansoff é ferramenta de crescimento, assume produto que funciona. Quando a decisão é "pivotar ou perseverar", Lean Startup (Frameworks da Fase 3, Vol. 1) é melhor. Para decisões táticas de pricing, posicionamento, canal, frameworks específicos de marketing (Frameworks da Fase 3, Vol. 1) são melhores.
+Antes de PMF: Ansoff é ferramenta de crescimento, assume produto que funciona. Quando a decisão é "pivotar ou perseverar", Lean Startup (Frameworks da Fase 4) é melhor. Para decisões táticas de pricing, posicionamento, canal, frameworks específicos de marketing (Frameworks da Fase 4) são melhores.
 
 ##### Leitura adicional
 
@@ -4670,7 +5432,7 @@ SaaS B2B de gestão financeira:
 - *Infrastructure (hosting/SaaS tools)*: 8% dos custos.
 - *G&A*: 12% dos custos.
 
-Análise: development e CS são os diferenciadores. Marketing é gasto alto mas não é vantagem competitiva (todos concorrentes gastam igual proporcionalmente). Decisão: manter investimento alto em dev+CS, testar redução em marketing via loops orgânicos (Frameworks da Fase 3, Vol. 1).
+Análise: development e CS são os diferenciadores. Marketing é gasto alto mas não é vantagem competitiva (todos concorrentes gastam igual proporcionalmente). Decisão: manter investimento alto em dev+CS, testar redução em marketing via loops orgânicos (Frameworks da Fase 4).
 
 ##### Erros comuns
 
@@ -5011,6 +5773,380 @@ Currier, J. et al. (2018). "The Network Effects Bible." nfx.com. *The Cold Start
 
 ---
 
+#### Framework: Blue Ocean Strategy (W. Chan Kim & Renée Mauborgne, 2005)
+
+##### Origem
+
+W. Chan Kim e Renée Mauborgne, professores de INSEAD, publicaram *Blue Ocean Strategy* em 2005 após 15 anos de pesquisa analisando 150 movimentos estratégicos em 30 indústrias ao longo de 100+ anos. O livro virou bestseller global (> 4 milhões de cópias). Argumento central: **competir em mercado saturado (red ocean) é destrutivo, criar novo espaço de mercado (blue ocean) é a estratégia vencedora**.
+
+##### O que é
+
+Framework para **criar espaços de mercado não-contestados** em vez de competir em indústrias existentes. Foco em inovação de valor, simultaneamente diferenciar e reduzir custos (rejeita o tradeoff Porter entre diferenciação e custo).
+
+##### Princípios / estrutura
+
+Red Ocean (mercados existentes):
+
+- Regras competitivas definidas.
+- Fronteiras da indústria claras.
+- Competir por participação.
+- Exploit demand existente.
+- Escolher entre valor e custo (tradeoff Porter).
+
+Blue Ocean (mercados novos):
+
+- Regras ainda não definidas.
+- Fronteiras redesenhadas.
+- Crescer criando demanda nova.
+- Reach non-customers.
+- Romper tradeoff valor-custo.
+
+Framework analítico central, ERRC Grid (Eliminate, Reduce, Raise, Create):
+
+- Eliminate: quais fatores que a indústria assume como necessários podem ser eliminados?
+- Reduce: quais fatores podem ser reduzidos muito abaixo do padrão da indústria?
+- Raise: quais fatores podem ser elevados muito acima do padrão?
+- Create: quais fatores novos podem ser criados, que indústria nunca ofereceu?
+
+O resultado é o **Strategy Canvas**: gráfico que compara seu perfil de valor com concorrentes.
+
+> [!note] Tratamento completo do Strategy Canvas em Canvas: Strategy Canvas (W. Chan Kim & Renée Mauborgne, 2005) (Fase 6)
+> Origem, estrutura detalhada, como aplicar passo a passo, caso Stone vs adquirentes tradicionais e erros comuns em [[#Canvas: Strategy Canvas (W. Chan Kim & Renée Mauborgne, 2005)|Canvas: Strategy Canvas (W. Chan Kim & Renée Mauborgne, 2005)]].
+
+##### Como aplicar do jeito certo
+
+Passo 1, Mapear o setor atual (Strategy Canvas). Listar 8-15 fatores de competição do setor, desenhar curvas de valor dos principais concorrentes.
+
+Passo 2, Identificar non-customers. Três camadas: (a) near-customers (consomem mínimo, pouca satisfação), (b) refusing customers (rejeitam ativamente), (c) unexplored customers (nunca consideraram). Onde está o maior pool de non-customers? Por quê?
+
+Passo 3, Aplicar o ERRC Grid. Para cada fator de competição, decidir: eliminar, reduzir, elevar ou criar. Esse é o coração da ferramenta.
+
+Passo 4, Testar as três condições de uma boa blue ocean:
+
+- Foco: a nova curva de valor é clara, não tenta ser tudo para todos.
+- Divergência: visualmente distinta dos concorrentes.
+- Tagline: comunicável em frase curta.
+
+Passo 5, Validar com non-customers. A nova proposta atrai quem não era cliente?
+
+Passo 6, Executar. Blue ocean requer execução precisa, teoria sem execução vira ideia de powerpoint.
+
+##### Exemplo aplicado (original do livro)
+
+Cirque du Soleil:
+
+- Mercado existente (circo tradicional): atacado por TV e Disney, em declínio.
+- Movimento Blue Ocean: criar categoria entre circo e teatro.
+- ERRC:
+- *Eliminate*: animais, desconforto dos assentos, múltiplas apresentações simultâneas.
+- *Reduce*: diversão para crianças (infantilização).
+- *Raise*: tema, ambiente refinado, música original.
+- *Create*: narrativa sofisticada, produção artística teatral.
+- Resultado: preço de ingresso 4-5x maior que circo tradicional, público adulto pagante, crescimento massivo.
+
+Exemplo brasileiro (análise posterior): Nubank.
+
+- Mercado existente (bancos tradicionais): alta tarifa, atendimento ruim, processos burocráticos.
+- ERRC:
+- *Eliminate*: agências físicas, maioria das tarifas.
+- *Reduce*: papelada, burocracia de abertura.
+- *Raise*: experiência digital, transparência, atendimento humano (no início).
+- *Create*: cartão roxo com status, cultura brand-first.
+- Resultado: categoria nova de fintech "digital-only humano", crescimento para 80M+ clientes.
+
+##### Erros comuns
+
+Confundir blue ocean com "ideia inovadora qualquer": blue ocean tem lógica estrutural (rompe tradeoff valor-custo, alcança non-customers). Nem toda ideia nova é blue ocean. Pular a análise do red ocean atual: blue ocean só faz sentido depois de entender o mapa competitivo atual. Ferramenta depende do contraste. Fazer ERRC pela metade: só Raise e Create, sem Eliminate e Reduce. Sem eliminar/reduzir, custo explode, não há inovação de valor real. Ignorar execução: livro é forte em conceito, fraco em execução. Blue ocean só funciona se empresa consegue construir capabilities novas. Assumir que blue ocean é protegido para sempre: com sucesso, concorrentes copiam. Blue ocean vira red ocean em 5-10 anos. Necessário re-inventar. Aplicar em contexto mal-estudado: non-customers existem? Qual o tamanho? ERRC sem pesquisa é especulação. Hubris do fundador: "minha ideia é blue ocean". Validar empiricamente.
+
+##### Quando NÃO usar
+
+Em indústrias muito estabelecidas com altas barreiras estruturais, blue ocean pode ser difícil ou impossível. Quando startup não tem capital/time para redefinir categoria, blue ocean exige investimento substancial. Para decisões táticas de curto prazo, é ferramenta de inovação estratégica, não operacional.
+
+##### Leitura adicional
+
+- Kim, W. C. & Mauborgne, R. (2005). *Blue Ocean Strategy*. Harvard Business Press.
+- Kim, W. C. & Mauborgne, R. (2017). *Blue Ocean Shift*. Versão com playbook mais executivo.
+- Crítica: McGahan, A. (2004). "How Industries Evolve". Argumenta que indústrias têm dinâmicas evolutivas próprias, nem sempre blue ocean é possível.
+
+---
+
+#### Framework: Playing to Win (Roger Martin & A.G. Lafley, 2013)
+
+##### Origem
+
+A.G. Lafley (então CEO da P&G) e Roger Martin (dean da Rotman School) desenvolveram o framework durante a transformação da P&G entre 2000-2013 (receita passou de US$ 39B para US$ 84B, market cap dobrou). Publicaram *Playing to Win: How Strategy Really Works* em 2013. O livro é hoje uma das referências mais sólidas sobre estratégia corporativa, especialmente em contextos de escala.
+
+##### O que é
+
+Framework de **estratégia como cascata de cinco escolhas integradas**. Martin argumenta que estratégia é fazer escolhas, não listar objetivos. E que essas escolhas devem ser **interdependentes e reforçadoras**.
+
+##### Princípios / estrutura — A cascata
+
+Escolha 1, Qual é a nossa aspiração vencedora?
+Definição de sucesso em termos qualitativos e quantitativos. "Vencer" significa algo específico, não "ser bom" ou "crescer". Para P&G: "melhorar a vida de clientes em todo o mundo".
+
+Escolha 2, Onde vamos jogar?
+Escopo. Em quais mercados/segmentos/canais/geografias/categorias? Explicitamente onde **NÃO** vamos jogar. A maioria dos fracassos estratégicos vem de "jogar em todo lugar".
+
+Escolha 3, Como vamos vencer?
+Proposta de valor e vantagem competitiva específica. Duas opções clássicas (Porter): diferenciação de produto ou liderança em custo. Martin expande: qualidade única de experiência, relacionamento, canal, etc.
+
+Escolha 4, Quais capabilities devemos ter?
+As 4-6 habilidades organizacionais que precisamos dominar para vencer. Não tudo, as que são distintivas e críticas.
+
+Escolha 5, Quais sistemas de gestão são necessários?
+Estruturas, processos, métricas e cultura que sustentam e renovam a estratégia. Sem sistemas, as 4 outras escolhas se erodem com tempo.
+
+##### Como aplicar do jeito certo
+
+Passo 1, Faça em cascata, mas itere. As escolhas influenciam-se mutuamente. Começar pela aspiração, descer até sistemas, voltar e ajustar. Leva semanas ou meses, não é workshop de um dia.
+
+Passo 2, Escolha explícita = rejeição explícita. Cada escolha precisa incluir o que rejeitamos. "Jogamos em PMEs brasileiras" deve incluir "NÃO jogamos em enterprise nem em LatAm neste horizonte".
+
+Passo 3, Teste coerência interna. Aspiração → onde jogar → como vencer → capabilities → sistemas. Se capability definida não serve ao "como vencer", há incoerência. Reajuste.
+
+Passo 4, Envolva o time executivo. Estratégia é dos tomadores de decisão, não do consultor. Playing to Win funciona bem em workshops estruturados com liderança.
+
+Passo 5, Documente em uma página. Strategy on a page. Se não cabe, está excessivamente complexo ou não há escolha clara.
+
+Passo 6, Cadência de revisão. Revisar em profundidade a cada 18-24 meses (mais frequente em early-stage), ajustes táticos trimestralmente.
+
+##### Exemplo aplicado
+
+SaaS brasileiro de onboarding digital para PMEs (ficcional, estilo Hondana):
+
+- Aspiração: ser a primeira ferramenta de onboarding digital adotada por PMEs brasileiras, categoria definida pela marca.
+- Onde jogar: PMEs brasileiras de 20-200 funcionários nos setores de varejo e saúde. Canal: digital self-serve + parceiros (contadores). NÃO jogamos em grandes empresas, nem em LatAm hispânica neste horizonte.
+- Como vencer: experiência de onboarding nativa brasileira (CLT, LGPD, contratos tipicamente nacionais) + preço acessível (R$ 5-15/funcionário/mês vs. R$ 30+ de concorrentes internacionais).
+- Capabilities: (1) Product velocity em território regulatório brasileiro, (2) Canal de parceiros com 500+ contadores, (3) Content marketing em SEO brasileiro, (4) Customer success proativo em PT-BR.
+- Sistemas: OKRs trimestrais, weekly business review, program de enablement de contadores, métrica NPS brasileira.
+
+##### Erros comuns
+
+"Estratégia" vira aspiração + objetivos sem escolhas: "seremos líderes" é aspiração, não estratégia. Onde jogar amplo demais: "todas as PMEs do Brasil" é jogar em todo lugar = jogar em lugar nenhum. Focar. Como vencer genérico: "melhor produto" não é vantagem, é clichê. Vantagem precisa ser específica e testável. Capabilities não-diferenciadas: "temos que ter boa tecnologia". Todos precisam. O que é seu distintivo? Sistemas ignorados: times executam escolhas 1-3 mas esquecem que sistemas de gestão (4 e 5) sustentam. Erode em 18 meses. Não rejeitar explicitamente: não dizer "NÃO faremos X" deixa organização tentando fazer tudo. Estratégia escrita em 100 páginas: Martin insiste em strategy on a page. Se não cabe, está incoerente.
+
+##### Quando NÃO usar
+
+Pré-PMF em startup muito early-stage: escolhas 4-5 (capabilities e sistemas) são prematuras, foque em descoberta de problema/solução. Quando urgência operacional não permite iteração multi-semanal. Como ferramenta isolada sem comprometimento da liderança, estratégia sem owner executivo não se executa.
+
+##### Leitura adicional
+
+- Martin, R. & Lafley, A. G. (2013). *Playing to Win: How Strategy Really Works*. Harvard Business Press.
+- Martin, R. (2022). *A New Way to Think*. Harvard Business Press.
+- Martin, R. (continuous). Blog pessoal *Playing to Win* no Medium, aplicações atualizadas.
+
+---
+
+#### Framework: Three Horizons Framework (McKinsey, 1999)
+
+##### Origem
+
+Desenvolvido por McKinsey no fim dos anos 1990, publicado em *The Alchemy of Growth* (Mehrdad Baghai, Stephen Coley, David White, 1999). Respondia à pergunta: **como empresa madura continua crescendo sem cair na armadilha "dividend trap" (core gera caixa, mas empresa estagna)?** O framework virou padrão em estratégia de inovação corporativa.
+
+##### O que é
+
+Framework que organiza iniciativas de crescimento em **três horizontes temporais**, exigindo que empresa gerencie os três simultaneamente:
+
+##### Princípios / estrutura
+
+Horizon 1, Extend & defend core: melhorias e expansões do core business atual. Retorno em 6-18 meses. 70% do esforço tipicamente.
+
+Horizon 2, Build emerging businesses: novas linhas de negócio em crescimento, adjacentes ao core. Retorno em 2-4 anos. 20% do esforço.
+
+Horizon 3, Create viable options for future: exploração de ideias disruptivas ou novos mercados. Retorno em 5+ anos (se houver). 10% do esforço.
+
+Metáfora da alquimia: H1 gera caixa que financia H2. H2 cresce e alguns viram novos cores. H3 explora futuro.
+
+##### Como aplicar do jeito certo
+
+Passo 1, Defina o core atual com precisão. H1 só é claro quando sabemos o que é "core" vs. adjacência.
+
+Passo 2, Mapeie iniciativas atuais em horizontes. Cada projeto, produto ou investimento vai para H1, H2 ou H3.
+
+Passo 3, Teste balanceamento. Muito H1 = futuro comprometido. Muito H3 = caixa hoje comprometido. Empresa saudável tem distribuição adequada ao estágio.
+
+Passo 4, Separe métricas por horizonte. H1 mede performance (receita, margem). H2 mede crescimento e tração (adoção, engagement). H3 mede aprendizado (hipóteses testadas, opções viáveis).
+
+Passo 5, Governance distinta por horizonte. H1 em comitê operacional. H3 frequentemente em entidade separada (skunkworks, corporate venture) para proteger de lógica de core.
+
+Passo 6, Revise anualmente. Horizontes evoluem: H3 pode virar H2. H2 pode virar novo H1.
+
+##### Exemplo aplicado
+
+Empresa SaaS brasileira com R$ 80M ARR (hipotético):
+
+- H1 (core, gestão financeira PME): acelerar adoção em SP/RJ, lançar mobile app, otimizar pricing. 70% do time e budget. Meta: manter crescimento de 30% ao ano.
+
+- H2 (adjacências): crédito para PMEs baseado em dados da plataforma, folha de pagamento integrada. 20% do esforço. Meta: atingir R$ 15M ARR em 36 meses.
+
+- H3 (apostas): AI-driven forecasting como produto autônomo, marketplace de serviços contábeis. 10% do esforço. Meta: validar 1-2 hipóteses por ano, matar as que não validam.
+
+##### Erros comuns
+
+Ignorar H2 e H3: empresa foca 100% em H1. Parece rentável por 3-5 anos, depois core estagna e não há sucessão. Financiar H3 como se fosse H1: esperar retornos rápidos de apostas de longo prazo. Desestimula experimentação. Misturar métricas e governance: tratar H3 com KPIs de H1 mata a inovação. Time H2/H3 sem proteção: sem autonomia e cobertura do CEO, time H3 é sufocado pelo urgente de H1. Proporções rígidas (70/20/10): são benchmarks, não regras. Ajuste por estágio e contexto. H3 vira "inovação theater": hackathons sem follow-through. Precisa de capital, tempo, foco.
+
+##### Quando NÃO usar
+
+Pré-PMF: empresa ainda está construindo H1, prematuro H2-H3, Startup early Series A focada em PMF: foco total em core é correto, Quando capital ou time é estritamente insuficiente para três horizontes, fingir é pior que focar.
+
+##### Leitura adicional
+
+- Baghai, M., Coley, S. & White, D. (1999). *The Alchemy of Growth*. Perseus.
+- McKinsey Quarterly (atualizações periódicas do framework).
+
+---
+
+#### Framework: Wardley Mapping (Simon Wardley, 2005)
+
+##### Origem
+
+Simon Wardley, ex-CEO de empresa inglesa que fazia comércio eletrônico (Fotango), desenvolveu o mapeamento em 2005 após frustração com frameworks estratégicos existentes (SWOT, 5 Forças), que não davam clareza sobre "o que fazer". Wardley Mapping combina **posição** (eixo X: estágio de evolução do componente, de genesis a commodity) com **dependência** (eixo Y: quão próximo do usuário final). Usado hoje em Amazon, governo britânico (cabinet office), muitas big techs. Curiosamente, Wardley publica tudo em Creative Commons, material é open source.
+
+##### O que é
+
+Ferramenta visual para mapear **cadeia de valor** de negócio contra **evolução tecnológica**. Permite ver: onde investir custom vs. onde usar commodity, onde há oportunidade disruptiva, onde temos vantagem vs. onde é ilusão.
+
+##### Princípios / estrutura
+
+Eixo X, Estágios de evolução (da esquerda para direita):
+
+1. Genesis: exploração, custom-built, raro.
+2. Custom-built: único, desenvolvido sob medida.
+3. Product (+ rental): produto maduro com versões, compete por features.
+4. Commodity (+ utility): indiferenciado, competição por preço, fornecido como utility.
+
+Eixo Y, Visibilidade ao usuário: no topo, componentes que o usuário vê direto (UX), embaixo, componentes de infraestrutura invisíveis.
+
+**Componentes são colocados no mapa** e **linhas de dependência** entre eles são desenhadas. Resultado: imagem clara de onde empresa investe valor custom vs. commodity.
+
+##### Doutrinas (princípios derivados do mapping)
+
+- Foque em necessidades do usuário.
+- Use mapas apropriados para contextar.
+- Remova duplicação e bias.
+- Use componentes commoditizados quando disponíveis.
+- Use Genesis/Custom quando quer diferenciar.
+- Pense sobre movimentos de concorrentes e ambiente.
+
+##### Como aplicar do jeito certo
+
+Passo 1, Identifique o usuário e a necessidade. Topo do mapa sempre começa com usuário e JTBD.
+
+Passo 2, Desça a cadeia de valor. Que componentes são necessários para entregar valor ao usuário? Produtos, dados, infraestrutura, habilidades.
+
+Passo 3, Classifique cada componente no eixo de evolução. É genesis (ainda novo), custom-built (único para nós), product (comprável), ou commodity (utility)?
+
+Passo 4, Analise movimentos. Componentes evoluem da esquerda para direita ao longo do tempo. O que é custom-built hoje será commodity em 5 anos. Planejar essa evolução.
+
+Passo 5, Identifique onde investir custom vs. commodity. Regra: investir pesado em componentes custom quando criam diferenciação, comoditizar tudo mais. Amazon faz isso no extremo (AWS é monetização da comoditização de componentes internos).
+
+Passo 6, Jogue cenários. E se concorrente comoditizar nosso componente custom? E se nova tecnologia acelerar evolução? Wardley usa "climatic patterns", forças inevitáveis de evolução.
+
+##### Exemplo aplicado
+
+Startup de e-commerce para artistas (produtor físico + loja online):
+
+Topo (usuário): artista que quer vender produtos customizados.
+
+Descendo a cadeia:
+
+- Loja online customizada (custom-built → product): Shopify resolve isso bem. Commoditizar via Shopify.
+- Integração com produção sob demanda (custom-built): nossa diferenciação. Investir.
+- Marketplace de produção (fornecedores) (genesis-to-custom): único aspecto novo, próprio.
+- Pagamento (commodity): usar Stripe/Pagar.me, não construir.
+- Infraestrutura cloud (commodity): usar AWS/GCP.
+- Logística (product): terceirizar com Loggi/Correios.
+
+Conclusão estratégica: investir pesado em marketplace de produção, usar componentes comoditizados em tudo mais. Competir em nosso diferencial, não em logística ou pagamento.
+
+##### Erros comuns
+
+Mapear componente errado: classificar como custom-built algo que é commodity no mercado. Investir em reinventar roda. Ignorar evolução temporal: hoje custom, amanhã commodity. Empresa fica presa em custom por anos. Mapa estático: não revisitar. Mapas devem ser refeitos em ciclos de 6-12 meses. Desconexão com estratégia: mapa lindo mas não vira decisão de investimento. Ferramenta exige compromisso em agir sobre ela. Aplicar sem entendimento prévio: Wardley mapping tem curva de aprendizado. Primeiros mapas geralmente são imprecisos. Prática. Só mapear uma vez: sem iteração, ferramenta tem valor limitado.
+
+##### Quando NÃO usar
+
+Early-stage antes de saber qual é o core produto/valor, difícil mapear sem concreção, Quando organização não está disposta a agir sobre resultados, Em indústrias muito estáveis onde evolução é lenta e irrelevante.
+
+##### Leitura adicional
+
+- Wardley, S. (livre na web): *Wardley Maps* (livro open-source em Medium/GitBook).
+- Vídeos da OSCON 2014, 2015 (Wardley apresentando), disponíveis em YouTube.
+- Comunidade wardleymaps.com.
+
+---
+
+#### Framework: Value Disciplines (Michael Treacy & Fred Wiersema, 1993)
+
+##### Origem
+
+Michael Treacy e Fred Wiersema, ex-consultores de CSC Index, publicaram *The Discipline of Market Leaders* em 1993, após estudo de 80 empresas líderes. Argumento: empresas duradouras escolhem **uma de três disciplinas de valor** e a dominam, não tentam ser excelentes em tudo.
+
+##### O que é
+
+Framework que identifica **três disciplinas de valor** como escolhas estratégicas fundamentais. Empresa deve escolher qual dominar e organizar tudo em torno dela:
+
+##### Princípios / estrutura
+
+1. Operational Excellence: entrega preço baixo + conveniência, com processos ultra-eficientes.
+
+- Exemplos: Walmart, McDonald's, Ryanair, Dell (em sua era pré-compra).
+- Organização: ênfase em eficiência, padronização, supply chain.
+
+1. Product Leadership: produtos tecnicamente superiores, inovação contínua, valor premium.
+
+- Exemplos: Apple, Tesla, Intel (em sua era dominante), 3M.
+- Organização: ênfase em P&D, tolerância a experimentação, time cycles curtos.
+
+1. Customer Intimacy: soluções personalizadas, relacionamento profundo, serviço premium.
+
+- Exemplos: Nordstrom, IBM Global Services, consultorias McKinsey/BCG, Salesforce em enterprise.
+- Organização: ênfase em relacionamento, flexibilidade, customização.
+
+Regra central (e controversa): empresa deve **liderar em uma** e **manter padrão mínimo aceitável nas outras duas**. Tentar ser #1 nas três é receita para mediocridade em todas.
+
+##### Como aplicar do jeito certo
+
+Passo 1, Escolha conscientemente uma disciplina. Não "acontece", é decisão estratégica que molda tudo.
+
+Passo 2, Desenhe organização em torno da disciplina.
+
+- Operational excellence: processos, sistemas, supply chain, automação.
+- Product leadership: P&D, experimentação, velocity de lançamento.
+- Customer intimacy: relacionamento, customização, CS profundo.
+
+Passo 3, Comunique claramente. Time precisa saber "somos companhia de Produto" ou "somos companhia de Operação". Dúvida gera execução morna.
+
+Passo 4, Invista assimetricamente. 60-70% dos recursos em disciplina escolhida, 30-40% para manter padrão nas outras.
+
+Passo 5, Evite "middle". Empresas que tentam ser 2º ou 3º em cada disciplina são derrotadas por focadas.
+
+##### Exemplo aplicado
+
+Startup SaaS brasileira em fase de escolher posicionamento competitivo:
+
+Análise das opções:
+
+- Operational Excellence: preço baixo via automação. Mas mercado brasileiro tem Conta Azul e Omie já baratos. Difícil competir em preço.
+- Product Leadership: produto mais avançado (AI-first, integrations mais profundas). Requer investimento alto em P&D, tempo até ROI.
+- Customer Intimacy: relacionamento profundo com PMEs, implementação consultiva. Exige time de CS forte, mas diferencia de concorrentes self-serve.
+
+Decisão: escolher **Customer Intimacy** em nicho específico (ex.: PMEs do varejo). Preço médio-alto, implementação concierge, onboarding consultivo. Manter padrão aceitável em Operational (preço não exorbitante) e Product (features competitivas, mas não mais avançadas).
+
+##### Erros comuns
+
+Tentar "ser excelente em tudo": falácia comum. Resultado: mediocridade em todas. Escolher disciplina sem capability para suportar: "queremos ser product leader" mas time sem capacity de P&D. Frustração. Mudar disciplina frequentemente: disciplinas demandam tempo (3-5 anos para consolidar). Oscilação destrói. Ignorar que disciplina escolhida tem custos: operational excellence sacrifica customização, product leadership sacrifica preço baixo. Não alinhar cultura/contratação com disciplina: contratar engenheiros criativos para operational excellence, choque cultural.
+
+##### Quando NÃO usar
+
+Pré-PMF: ainda está encontrando encaixe, disciplina emerge depois. Empresa já enorme e diversificada: pode ter múltiplas BUs em disciplinas diferentes (aceitável, mas cada BU precisa escolher a sua). Em nichos muito pequenos: pode não ter espaço para múltiplas disciplinas, a escolha vira menos estratégica.
+
+##### Leitura adicional
+
+- Treacy, M. & Wiersema, F. (1993). "Customer Intimacy and Other Value Disciplines". *HBR*, Jan-Feb.
+- Treacy, M. & Wiersema, F. (1995). *The Discipline of Market Leaders*. Perseus Books.
+
+---
+
 ### CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)
 
 #### Canvas: Strategy Canvas (W. Chan Kim & Renée Mauborgne, 2005)
@@ -5109,7 +6245,7 @@ Em setores muito regulados onde os fatores de competição são fixados por norm
 
 ##### Conexão com outros canvases
 
-O Strategy Canvas **complementa** o BMC (Fase 2, Vol. 1): o BMC olha para dentro (modelo), o Strategy Canvas olha para fora (concorrência). **Pareia com o Canvas da Cunha (Fase 6)**: a Cunha define o nicho de entrada; o Strategy Canvas define a curva de valor distinta nesse nicho. **Sucede o VPC (Fase 5)**: depois de entender Pains e Gains do cliente, o Strategy Canvas decide quais Pain Relievers/Gain Creators construir vs eliminar.
+O Strategy Canvas **complementa** o BMC (Fase 5): o BMC olha para dentro (modelo), o Strategy Canvas olha para fora (concorrência). **Pareia com o Canvas da Cunha (Fase 6)**: a Cunha define o nicho de entrada; o Strategy Canvas define a curva de valor distinta nesse nicho. **Sucede o VPC (Fase 5)**: depois de entender Pains e Gains do cliente, o Strategy Canvas decide quais Pain Relievers/Gain Creators construir vs eliminar.
 
 ##### Leitura adicional
 
@@ -5200,7 +6336,7 @@ Em modelos de negócio B2C de massa com aquisição digital escalável desde o i
 
 ##### Conexão com outros canvases
 
-O Canvas da Cunha **sucede o Empathy Map (Fase 4)** e o **Customer Journey (Fase 5)**: esses canvases revelam quem é o cliente e como vive o problema; o Canvas da Cunha define *qual segmento de cliente* é o ponto de entrada. **Antecede o Lean Canvas (Fase 1, Vol. 1)**: a cunha bem definida preenche os blocos "Problema", "Segmento de Clientes" e "Canais" do Lean com precisão. **Conecta ao Strategy Canvas (Fase 6)**: a cunha é o ponto de entrada; o Strategy Canvas define a curva de valor distinta nesse nicho que impede imitação fácil.
+O Canvas da Cunha **sucede o Empathy Map (Fase 4)** e o **Customer Journey (Fase 5)**: esses canvases revelam quem é o cliente e como vive o problema; o Canvas da Cunha define *qual segmento de cliente* é o ponto de entrada. **Antecede o Lean Canvas (Fase 1)**: a cunha bem definida preenche os blocos "Problema", "Segmento de Clientes" e "Canais" do Lean com precisão. **Conecta ao Strategy Canvas (Fase 6)**: a cunha é o ponto de entrada; o Strategy Canvas define a curva de valor distinta nesse nicho que impede imitação fácil.
 
 ##### Leitura adicional
 
@@ -5301,13 +6437,120 @@ Em modelos onde a defensibilidade não vem de rede (negócios verticais com regu
 
 ##### Conexão com outros canvases
 
-O Network Effects Map **alimenta o Strategy Canvas (Fase 6)** — NE são uma das dimensões de competição onde a empresa pode criar distância; e **alimenta a Theory Map (Fase 3, Vol. 1)** — o loop de NE é frequentemente uma das premissas centrais da teoria do negócio que precisa ser validada empiricamente (um NE que não se materializa é uma premissa falsa).
+O Network Effects Map **alimenta o Strategy Canvas (Fase 6)** — NE são uma das dimensões de competição onde a empresa pode criar distância; e **alimenta a Theory Map (Fase 3)** — o loop de NE é frequentemente uma das premissas centrais da teoria do negócio que precisa ser validada empiricamente (um NE que não se materializa é uma premissa falsa).
 
 ##### Leitura adicional
 
 - NFX Bible (nfx.com/post/network-effects-bible) — taxonomia completa com 16 tipos e exemplos.
 - *The Cold Start Problem* (Andrew Chen, 2021) — como iniciar redes quando o NE ainda não existe.
 - *Platform Revolution* (Parker, Van Alstyne & Choudary, 2016) — NE em plataformas de dois lados.
+
+---
+
+#### Canvas: Wardley Map
+
+##### Origem
+
+Simon Wardley desenvolveu o Wardley Mapping entre 2005 e 2007 enquanto era CEO da Fotango (subsidiária da Canon). Frustrado com a incapacidade de ferramentas estratégicas existentes (SWOT, Porter, BCG Matrix) de capturar a dinâmica de evolução tecnológica, Wardley criou um sistema de mapeamento que combina posicionamento de componentes com seu estágio evolutivo. O primeiro paper foi publicado em 2008; o livro *Wardley Maps* foi disponibilizado gratuitamente em 2020. A ferramenta é amplamente usada em engenharia de plataforma, estratégia de produto e tomada de decisão de build/buy/partner.
+
+##### O que é
+
+Mapa bidimensional onde o eixo X representa o estágio evolutivo de um componente (da esquerda — genesis/custom, para a direita — commodity/utility) e o eixo Y representa a visibilidade para o usuário (de cima — mais visível, para baixo — infraestrutura invisível). Os componentes são conectados por linhas de dependência, criando uma cadeia de valor visível.
+
+```mermaid
+flowchart TB
+    subgraph WM["Wardley Map — eixos"]
+        direction LR
+        subgraph Y["↑ Visível para o usuário"]
+            U["Usuário / Cliente"]
+        end
+        subgraph Meio["Componentes de valor"]
+            A["Componente A\n(Custom — Genesis)"]
+            B["Componente B\n(Produto)"]
+            C["Componente C\n(Commodity)"]
+        end
+        subgraph Base["↓ Infraestrutura"]
+            I["Componente D\n(Utility)"]
+        end
+        U --> A
+        A --> B
+        B --> C
+        C --> I
+    end
+```
+
+**Os quatro estágios evolutivos:**
+
+| Estágio | Característica | Exemplos |
+|---|---|---|
+| **Genesis** | Novo, incerto, experimental. Vantagem competitiva se funcionar. | LLMs em 2020, blockchain em 2015 |
+| **Custom Built** | Feito sob medida para cada usuário. Caro, difícil de escalar. | Engenharia de dados customizada, algoritmos proprietários |
+| **Product** | Produto definido, repetível, com variações. Mercado existe. | SaaS B2B, frameworks de ML |
+| **Commodity/Utility** | Padrão de mercado, intercambiável, comprado por preço. | Cloud computing, email, pagamentos |
+
+##### Quando usar
+
+Use o Wardley Map em dois contextos: (1) **decisão de build vs. buy vs. partner** — para cada componente da stack, o estágio evolutivo indica a estratégia correta: construir no Genesis/Custom (diferenciação), comprar/licenciar no Product (time-to-market), usar commodity/utility (sem fricção); (2) **planejamento de plataforma** — para visualizar quais componentes vão se tornar commodity e onde a vantagem competitiva vai se deslocar nos próximos 3-5 anos.
+
+##### Princípios
+
+**Primeiro: tudo evolui da esquerda para a direita.** Um componente que é Genesis hoje (LLMs em 2023) se torna Commodity mais rápido do que parece (LLM-as-a-service via API em 2025). Estratégia baseada em componentes que estão evoluindo para commodity é estratégia baseada em areia movediça.
+
+**Segundo: construa no Genesis, compre no Product, use utilities.** Investir em construir internamente algo que já é commodity é desperdício de capital e talento. O mapa torna essa decisão visual — e discutível.
+
+**Terceiro: a vantagem competitiva está nos componentes à esquerda que seus concorrentes ainda não têm.** Mas atenção: componente Genesis é arriscado porque pode não evoluir para Product, pode demorar mais do que o planejado, ou pode ser ultrapassado por nova abordagem.
+
+##### Como aplicar
+
+**Passo 1 — Identificar o usuário e suas necessidades:** O que o usuário precisa? (ex: "pagamento de fornecedores aprovado em < 1 hora")
+
+**Passo 2 — Mapear a cadeia de valor:** Quais componentes entregam essa necessidade? Decomponha recursivamente: necessidade → componentes de produto → componentes de tecnologia → infraestrutura.
+
+**Passo 3 — Posicionar cada componente no eixo X:** Para cada componente, determinar se é Genesis, Custom, Product ou Commodity no mercado atual.
+
+**Passo 4 — Identificar movimentos estratégicos:**
+
+- Componentes Custom/Genesis onde há diferenciação: proteger e investir
+- Componentes Product que concorrentes têm e você não: acelerar adoção
+- Componentes que estão evoluindo para Commodity: parar de construir internamente, migrar para solução de mercado
+- Gaps na cadeia de valor: onde há componentes ausentes que impedem a entrega?
+
+**Passo 5 — Simular o mapa em 3 anos:** Como cada componente vai ter evoluído? Onde vai surgir nova diferenciação?
+
+##### Exemplo brasileiro — Startup de crédito (simplificado)
+
+| Componente | Estágio atual | Estratégia |
+|---|---|---|
+| Modelo de crédito proprietário | Custom → Product | Construir internamente — diferenciação |
+| Análise de dados alternativos (redes sociais, telecom) | Genesis → Custom | Investir — moat potencial |
+| Engine de decisão de crédito (regras) | Product → Commodity | Avaliar plataformas de mercado (Experian, Serasa APIs) |
+| Infraestrutura de open banking | Commodity | Usar APIs do Banco Central — não construir |
+| Antifraude | Product | Licenciar (Konduto, Sift) — não construir |
+| App mobile | Product | Construir UX própria; usar componentes de produto para funcionalidades não-diferenciadoras |
+
+**Insight:** A startup gasta engenharia em antifraude (Product → Commodity) quando deveria gastar em dados alternativos (Genesis → Custom). O Wardley Map torna essa má alocação visível — e debatível com o board.
+
+##### Erros comuns
+
+- Mapear tudo como "nós construímos" por orgulho técnico — não há vantagem em reinventar commodity.
+- Confundir "é importante" com "deve ser Genesis" — um componente pode ser crítico e ser commodity.
+- Fazer o mapa uma vez e nunca atualizar — o eixo X muda ao longo do tempo; o mapa envelhece.
+- Usar o Wardley Map para decisões táticas — é ferramenta estratégica, de horizonte 1-3 anos, não de sprint.
+
+##### Quando NÃO usar
+
+Em decisões táticas de sprint ou trimestre — o eixo evolutivo opera em janela de 1-3 anos. Em produtos sem cadeia de valor técnica significativa (negócios de serviço puramente humano, marketplace de oferta tradicional). Em fase pré-PMF, quando os componentes da cadeia de valor ainda não estão estabilizados — o mapa fica especulativo e pode anchorar decisões em premissas que serão substituídas.
+
+##### Conexão com outros canvases
+
+O Wardley Map **complementa o Strategy Canvas (Fase 6)** — o Strategy Canvas mostra onde competir em dimensões do mercado; o Wardley Map mostra como a tecnologia e os componentes evoluem. **Alimenta decisões de make/buy/partner no Capítulo 7 (Vol. 3) (PLATAFORMA VS PRODUTO: QUANDO CONSTRUIR PLATAFORMA E QUANDO NÃO)** (Plataforma vs. Produto) e no [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 4 — ENGINEERING MANAGEMENT: GESTÃO DO TIME TÉCNICO E DEVELOPER EXPERIENCE|Capítulo 4 — Engineering Management (Vol. 7)]].
+
+##### Leitura adicional
+
+- *Wardley Maps* (Simon Wardley, 2020) — disponível gratuitamente em medium.com/@swardley.
+- *Team Topologies* (Skelton & Pais, 2019) — estrutura organizacional alinhada à topologia do sistema.
+- [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 7 — PLATAFORMA VS PRODUTO: QUANDO CONSTRUIR PLATAFORMA E QUANDO NÃO|Capítulo 7 — Plataforma vs. Produto (Vol. 3)]].
+- Ferramenta online: onlinewardleymaps.com
 
 ---
 
@@ -5843,10 +7086,10 @@ Taxa de churn de membros da comunidade vs. não-membros: se a comunidade está f
 
 - [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 6 — BRANDING E POSICIONAMENTO DE MARCA PARA STARTUPS|Capítulo 6 — Branding e Posicionamento de Marca para Startups (Vol. 4)]]
 - [[#CAPÍTULO 2 — INTELIGÊNCIA COMPETITIVA — MONITORAMENTO, ANÁLISE E RESPOSTA|Capítulo 2 — Inteligência Competitiva — Monitoramento, Análise e Resposta]]
-- [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#ÍNDICE GERAL DE FRAMEWORKS DA COLEÇÃO|Ferramentário Completo do Empreendedor (Vol. 10)]]
-- [[#FASE 5 — PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY)|Fase 5 — Posicionamento e Proposta de Valor]]
-- [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 9 — IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES|Fase 9 — Go-to-Market e Aquisição (Vol. 3)]]
-- [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 10 — TESTES DE SOLUÇÃO E USABILIDADE|Fase 10 — Retenção, Monetização e Expansão de Receita (Vol. 3)]]
+- [[#MANUAL PASSO A PASSO DOS FRAMEWORKS DESTA FASE|Manual Passo a Passo dos Frameworks desta Fase]]
+- [[#FASE 6 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 6 — Mapeamento de Mercado e Concorrência]]
+- [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 15 — MÁQUINA DE CRESCIMENTO E EXPANSÃO EM ESCALA|Fase 15 — Máquina de Crescimento e Expansão em Escala (Vol. 6)]]
+- [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 12 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 12 — Validação do Modelo de Negócio (Vol. 4)]]
 
 ---
 
@@ -6246,10 +7489,10 @@ O diagnóstico: empresa obcecada com concorrente tende a convergir para o mesmo 
 
 - [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 6 — BRANDING E POSICIONAMENTO DE MARCA PARA STARTUPS|Capítulo 6 — Branding e Posicionamento de Marca para Startups (Vol. 4)]]
 - [[#CAPÍTULO 1 — PSICOLOGIA DO CONSUMIDOR BRASILEIRO — COMPORTAMENTO, DECISÃO E CONVERSÃO|Capítulo 1 — Psicologia do Consumidor Brasileiro — Comportamento, Decisão e Conversão]]
-- [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#ÍNDICE GERAL DE FRAMEWORKS DA COLEÇÃO|Ferramentário Completo do Empreendedor (Vol. 10)]]
-- [[#FASE 5 — PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY)|Fase 5 — Posicionamento e Proposta de Valor]]
-- [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 9 — IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES|Fase 9 — Go-to-Market e Aquisição (Vol. 3)]]
-- [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 11 — MVP E EXPERIMENTOS DE MERCADO|Fase 11 — Expansão e Novos Mercados (Vol. 4)]]
+- [[#MANUAL PASSO A PASSO DOS FRAMEWORKS DESTA FASE|Manual Passo a Passo dos Frameworks desta Fase]]
+- [[#FASE 6 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 6 — Mapeamento de Mercado e Concorrência]]
+- [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 15 — MÁQUINA DE CRESCIMENTO E EXPANSÃO EM ESCALA|Fase 15 — Máquina de Crescimento e Expansão em Escala (Vol. 6)]]
+- [[IGNICAO-Vol-9-Maturidade-e-Exit#FASE 19 — REINVENÇÃO E SEGUNDA CURVA|Fase 19 — Reinvenção e Segunda Curva (Vol. 9)]]
 
 ---
 
@@ -6586,3 +7829,196 @@ Os sete padrões originais (escalar antes do PMF, queimar caixa em aquisição s
 
 > [!info] Fases relacionadas
 > Referenciado em: Fase 15.
+
+---
+
+# GLOSSÁRIO E SIGLAS DESTE VOLUME
+
+> [!abstract] Vocabulário técnico e siglas deste volume
+> Para garantir que este **Volume 2** funcione de forma 100% independente e autocontida sem exigir consulta a outro livro, esta seção reúne as definições dos **52 termos técnicos e de negócios** e das **36 siglas e abreviações** utilizados ao longo das Fases e Capítulos deste volume.
+
+---
+
+## GLOSSÁRIO E SIGLAS DESTE VOLUME
+
+### Termos Técnicos e de Negócios Usados neste Volume
+
+**Advisor.** Conselheiro externo que orienta o fundador em áreas específicas (técnica, comercial, regulatória, captação). Tipicamente compensado com 0,1% a 1% de equity sob contrato FAST.
+
+**ARR (Annual Recurring Revenue).** Receita anual recorrente. Soma de todos os contratos ativos anualizados. Principal métrica de tamanho de empresa SaaS. ARR = MRR × 12.
+
+**Beachhead.** Segmento inicial de mercado onde a empresa concentra esforços antes de expandir. Derivado da estratégia militar (cabeça de praia). O beachhead deve ser pequeno o suficiente para ser dominado, mas grande o suficiente para financiar a expansão.
+
+**Bet-the-company (aposta central).** Hipótese cuja refutação invalida o modelo de negócio inteiro. Diferente de hipóteses secundárias, que podem ser refutadas sem comprometer a empresa. Todo negócio tem duas a cinco apostas-centrais.
+
+**Board.** Conselho de administração. Órgão de governança da empresa. Em startups, tipicamente 3-5 membros: fundadores, investidores e independentes.
+
+**CAC (Customer Acquisition Cost).** Custo total de marketing e vendas dividido pelo número de novos clientes no período. Calculado por canal para diagnóstico preciso, não apenas blended.
+
+**Category design.** Estratégia de criar e dominar uma categoria de mercado nova, em vez de competir em categoria existente. Empresa define o problema de forma nova, tornando-se referência da categoria. Ver Framework: Category Design (Play Bigger, 2016) (Fase 6).
+
+**Churn.** Taxa de cancelamento ou perda de clientes ou receita em um período. Churn de clientes: percentual de clientes que cancelaram. Churn de receita (MRR churn): percentual da receita mensal perdida por cancelamentos e downgrades.
+
+**Cofundador.** Pessoa que funda a empresa em conjunto com um ou mais sócios desde o início. No Brasil, distinto de "co-founder" — usar termo em português é a convenção do livro.
+
+**Compliance.** Conformidade regulatória. Em startups, refere-se à aderência a normas de LGPD, anticorrupção, trabalhistas, fiscais e setoriais. Capítulo 12 (Vol. 8) (COMPLIANCE E ANTICORRUPÇÃO PARA STARTUPS) trata de Compliance e Anticorrupção em profundidade.
+
+**CRM (Customer Relationship Management).** Sistema de gestão de relacionamento com clientes. Registra interações, pipeline de vendas e histórico do cliente. Exemplos: Salesforce, HubSpot, Pipedrive.
+
+**Down round.** Rodada de captação a valuation menor que o da rodada anterior. Penaliza fundadores e investidores anteriores.
+
+**Due diligence (DD).** Processo de investigação e verificação de informações sobre empresa-alvo antes de investimento ou aquisição. Cobre dimensões financeiras, jurídicas, operacionais, tecnológicas e tributárias.
+
+**ERP (Enterprise Resource Planning).** Sistema de gestão integrada que centraliza processos operacionais como financeiro, estoque, RH e produção. Exemplos: SAP, Totvs, Oracle.
+
+**Exit.** Saída do fundador ou investidor da empresa, geralmente via M&A, IPO ou secondary.
+
+**FMF (Founder-Market Fit).** Alinhamento entre o perfil, experiência e motivação do fundador e as características do problema e mercado que a empresa ataca. Primeiro filtro de avaliação de ideia.
+
+**Freemium.** Modelo de negócio com camada gratuita permanente e camada paga com funcionalidades avançadas. Taxa de conversão típica: 2 a 5% dos usuários gratuitos.
+
+**First Principles Thinking.** Método de raciocinar a partir do fundamento, decompondo crenças aceitas e reconstruindo do zero. Atribuído a Aristóteles, popularizado por Elon Musk. Ver Framework: First Principles Thinking (Aristóteles, ~350 a.C.; popularizado por Elon Musk, anos 2010) (Fase 4).
+
+**Go-to-market (GTM).** Estratégia de como a empresa leva o produto ao mercado: quais segmentos atacar, por quais canais, com qual motion de vendas e posicionamento.
+
+**Headcount.** Número total de funcionários de uma empresa.
+
+**ICP (Ideal Customer Profile).** Perfil ideal do cliente: a empresa ou pessoa para quem o produto foi especificamente construído e que extrai mais valor dele. Mais específico que persona, que é mais específico que segmento.
+
+**Innovator's Dilemma.** Fenômeno documentado por Clayton Christensen onde empresas bem-sucedidas são incapazes de adotar tecnologias disruptivas por serem racionalmente focadas em seus clientes atuais. Ver Framework: Innovator's Dilemma / Disruptive Innovation (Clayton Christensen, 1997) (Fase 19) e [[IGNICAO-Vol-9-Maturidade-e-Exit#FASE 19 — REINVENÇÃO E SEGUNDA CURVA|Fase 19 (Vol. 9)]].
+
+**IP (Intellectual Property).** Propriedade intelectual: patentes, marcas registradas, código-fonte, segredos comerciais. Em startups, instrumento de cessão de IP do fundador para a empresa é cláusula obrigatória de contrato societário.
+
+**IPO (Initial Public Offering).** Oferta pública inicial — abertura de capital na bolsa de valores. No Brasil, na B3. Tipicamente alvo de empresas com ARR ≥ R$ 300 milhões e crescimento ≥ 30% YoY.
+
+**JTBD (Jobs to be Done).** Framework de pesquisa que entende comportamento do consumidor como contratação de produtos para realizar um "trabalho" funcional, emocional ou social. Originado por Tony Ulwick (Strategyn, 1990, aplicando Six Sigma à inovação), popularizado por Clayton Christensen em *The Innovator's Solution* (2003), e operacionalizado em Switch Interviews por Bob Moesta. Ver Framework: Jobs to Be Done Framework (Clayton Christensen, Anthony Ulwick, Bob Moesta) (Fase 5) e Framework: Jobs to Be Done Switch Interviews (Bob Moesta & Chris Spiek, via Clayton Christensen) (Fase 5).
+
+**Lead.** Potencial cliente que demonstrou interesse inicial. Pode ser MQL (Marketing Qualified Lead) ou SQL (Sales Qualified Lead) dependendo do nível de qualificação.
+
+**LGPD (Lei Geral de Proteção de Dados).** Lei 13.709/2018 que regula o tratamento de dados pessoais no Brasil. Multa máxima: 2% do faturamento, limite R$ 50 milhões por infração. Fiscalizada pela ANPD.
+
+**LTV (Lifetime Value).** Valor presente líquido da receita gerada por um cliente ao longo de toda a sua relação com a empresa. LTV/CAC ≥ 3x é referência para modelo sustentável.
+
+**Margem bruta.** (Receita - COGS) / Receita. Em SaaS: tipicamente 65-80%. Em marketplace: 30-50%. Em hardware: 30-55%.
+
+**Market fit.** Versão mais ampla de PMF que inclui adequação ao momento de mercado, não apenas ao produto.
+
+**MECE (Mutually Exclusive, Collectively Exhaustive).** Princípio de estruturação de problemas em categorias mutuamente exclusivas (sem sobreposição) e coletivamente exaustivas (cobrem todo o espaço). Ferramenta de consultoria estratégica. Ver Framework: MECE (Mutually Exclusive, Collectively Exhaustive) — McKinsey (Fase 4).
+
+**MoM (Month over Month).** Crescimento mês a mês. Em early-stage, crescimento saudável é ≥ 10% MoM sustentado.
+
+**Moat.** Barreira competitiva difícil de replicar. Pode ser efeito de rede, custo de troca, marca, escala, IP ou regulação. Conceito popularizado por Warren Buffett. Ver Framework: 7 Powers (Hamilton Helmer, 2016) (Fase 6).
+
+**MVP (Minimum Viable Product).** Versão mínima do produto com funcionalidades suficientes para validar hipóteses críticas com usuários reais e coletar feedback. Não é produto incompleto: é produto deliberadamente mínimo.
+
+**NPS (Net Promoter Score).** Métrica de lealdade e satisfação. Pergunta: "Em escala de 0 a 10, o quanto você recomendaria [empresa/produto] para um amigo?" Promotores (9-10) menos Detratores (0-6) = NPS. Referência: ≥ 40 consumer, ≥ 30 enterprise.
+
+**Onboarding.** Processo de entrada e ativação de um novo usuário ou colaborador. Onboarding de cliente: caminho do cadastro até o "aha moment". Onboarding de funcionário: integração nas primeiras 4-12 semanas.
+
+**Outbound.** Motion de vendas onde a empresa ativamente prospecta clientes, em vez de esperar inbound. Inclui cold outreach, SDRs e prospecção ativa.
+
+**Pivot.** Mudança estrutural de uma ou mais dimensões do modelo de negócio (cliente, problema, solução, canal, modelo de receita) mantendo aprendizados anteriores. Diferente de pivô cosmético (renomear) e de "abandonar".
+
+**PMF (Product-Market Fit).** Momento em que produto e mercado se encaixam: produto resolve dor real de segmento identificado de forma que gera retenção, engajamento e crescimento orgânico. Diagnóstico central da [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 13 — PRODUCT-MARKET FIT|Fase 13 (Vol. 4)]].
+
+**Positioning.** Posicionamento — escolha estratégica de como a empresa quer ser percebida em relação a concorrentes e alternativas, na mente do cliente.
+
+**Post-mortem.** Análise retrospectiva de falha ou incidente, com foco em aprendizado sistêmico em vez de atribuição de culpa. Blameless post-mortem é variante que explicitamente remove julgamento pessoal.
+
+**ROI (Return on Investment).** Retorno sobre investimento. (Ganho - Custo) / Custo. Métrica genérica de eficiência de capital aplicado.
+
+**Runway.** Número de meses antes de a empresa ficar sem caixa, considerando o burn rate atual. Referência: mínimo 12 meses após rodada, ideal 18 a 24 meses.
+
+**SAM (Serviceable Addressable Market).** Porção do TAM que sua empresa pode realisticamente alcançar com seu modelo de negócio e GTM atual.
+
+**Scenario Planning.** Planejamento por cenários — método desenvolvido pela Royal Dutch Shell nos anos 1970 para preparar a empresa para múltiplos futuros plausíveis, em vez de apostar em uma única previsão. Ver Framework: Scenario Planning (Pierre Wack na Royal Dutch Shell, anos 1970) (Fase 19) e [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 16 — PIVOT: TIPOLOGIA, DECISÃO E EXECUÇÃO|Capítulo 16 (PIVOT: TIPOLOGIA, DECISÃO E EXECUÇÃO) (Vol. 4)]] (cenários como antessala da decisão de pivot).
+
+**Second-Order Thinking.** Pensamento de segunda ordem — método de considerar as consequências das consequências de uma decisão. Conceito central de Howard Marks. Ver Framework: Second-Order Thinking (Howard Marks, 2011) (Fase 5).
+
+**SLA (Service Level Agreement).** Acordo de nível de serviço. Define métricas de disponibilidade, performance e tempo de resposta que a empresa se compromete a manter. Violações geram créditos ou penalidades.
+
+**SOM (Serviceable Obtainable Market).** Parcela do SAM que a empresa pode realisticamente capturar nos próximos 3 anos. Base para projeções de crescimento defensáveis.
+
+**TAM (Total Addressable Market).** Mercado total endereçável: receita máxima possível se a empresa capturasse 100% do mercado. Calculado preferencialmente bottom-up.
+
+**Unit economics.** Métricas de rentabilidade no nível da unidade básica do negócio (um cliente, uma transação, um produto). CAC, LTV, margem por transação, payback period.
+
+**Valuation.** Valor estimado de uma empresa. Em startups privadas, determinado por rodadas de captação. Pode ser calculado por múltiplos (EV/ARR, EV/EBITDA), DCF ou transações comparáveis.
+
+**Wedge.** Ponto de entrada no mercado. Nicho inicial onde a empresa tem vantagem diferenciada e a partir do qual pode expandir. Estratégia de entrar pequeno para sair grande.
+
+---
+
+### Siglas e Abreviações Usadas neste Volume
+
+**AARRR:** Acquisition, Activation, Retention, Referral, Revenue (framework de métricas de growth, Dave McClure). *Growth.*
+
+**AB / A/B:** teste A/B: experimento controlado comparando duas variantes. *Experimentação.*
+
+**API:** Application Programming Interface. *Tecnologia.*
+
+**ARR:** Annual Recurring Revenue (receita recorrente anual). *SaaS / métricas.*
+
+**B2B:** Business-to-Business. *Modelo de negócio.*
+
+**B2C:** Business-to-Consumer. *Modelo de negócio.*
+
+**BACEN:** Banco Central do Brasil. *Regulação.*
+
+**BMC:** Business Model Canvas. *Estratégia / modelagem de negócio.*
+
+**CAC:** Customer Acquisition Cost (custo de aquisição de cliente). *Unit economics.*
+
+**CEO:** Chief Executive Officer. *Gestão.*
+
+**CLT:** Consolidação das Leis do Trabalho (regime trabalhista brasileiro com vínculo formal). *Trabalho.*
+
+**CRM:** Customer Relationship Management (sistema ou prática). *Vendas.*
+
+**CVM:** Comissão de Valores Mobiliários. *Regulação.*
+
+**EPP:** Empresa de Pequeno Porte (classificação brasileira). *Regulação.*
+
+**HR / RH:** Human Resources / Recursos Humanos. *Gestão.*
+
+**ICP:** Ideal Customer Profile. *Vendas e marketing.*
+
+**IPO:** Initial Public Offering (abertura de capital em bolsa). *Exit.*
+
+**JTBD:** Jobs To Be Done. *Framework de produto.*
+
+**LGPD:** Lei Geral de Proteção de Dados (Lei 13.709/2018). *Regulação.*
+
+**LTV:** Lifetime Value (valor vitalício de cliente). *Unit economics.*
+
+**LTV:CAC:** razão entre LTV e CAC. *Unit economics.*
+
+**MEI:** Microempreendedor Individual. *Regulação.*
+
+**MVP:** Minimum Viable Product (produto mínimo viável). *Produto.*
+
+**NPS:** Net Promoter Score (métrica de recomendação). *Satisfação.*
+
+**PIX:** sistema de pagamentos instantâneos do BACEN. *Pagamentos Brasil.*
+
+**PM:** Product Manager. *Produto.*
+
+**PMF:** Product-Market Fit. *Conceito central.*
+
+**RFP:** Request for Proposal. *Vendas B2B.*
+
+**ROI:** Return on Investment. *Finanças.*
+
+**SaaS:** Software as a Service. *Modelo de negócio.*
+
+**SDR:** Sales Development Representative. *Vendas.*
+
+**SMB:** Small and Medium Business. *Segmento.*
+
+**SWOT:** Strengths, Weaknesses, Opportunities, Threats. *Estratégia.*
+
+**TAM / SAM / SOM:** Total Addressable Market, Serviceable Addressable Market, Serviceable Obtainable Market. *Estratégia de mercado.*
+
+**VC:** Venture Capital. *Captação.*
+
+**VPC:** Value Proposition Canvas. *Framework de produto.*

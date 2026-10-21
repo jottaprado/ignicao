@@ -480,8 +480,8 @@ A startup que sobrevive a um ciclo completo — expansão, contração, recupera
 - [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 16 — PLANEJAMENTO FINANCEIRO E ORÇAMENTO|Capítulo 16 — Métricas Financeiras e Indicadores de Saúde (Vol. 5)]]
 - [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 14 — COMPENSAÇÃO E BENEFÍCIOS NO BRASIL|Capítulo 14 — Planejamento de Runway e Gestão de Caixa (Vol. 6)]]
 - [[IGNICAO-Vol-2-Descoberta-e-Mercado#CAPÍTULO 2 — INTELIGÊNCIA COMPETITIVA — MONITORAMENTO, ANÁLISE E RESPOSTA|Capítulo 2 — Precificação e Modelagem de Receita (Vol. 2)]]
-- [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 6 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 6 — Modelo de Negócio e Monetização (Vol. 2)]]
-- [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 9 — IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES|Fase 9 — Crescimento e Escala (Vol. 3)]]
+- [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 12 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 12 — Validação do Modelo de Negócio (Vol. 4)]]
+- [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 15 — MÁQUINA DE CRESCIMENTO E EXPANSÃO EM ESCALA|Fase 15 — Máquina de Crescimento e Expansão em Escala (Vol. 6)]]
 
 ---
 
@@ -1812,8 +1812,8 @@ O Estado brasileiro não é um parceiro perfeito nem um inimigo inevitável. É 
 
 - [[IGNICAO-Vol-1-Ideacao#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvases e Mapas Visuais (Vol. 1)]] — para mapear stakeholders regulatórios no Canvas de Partes Interessadas
 - [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 10 — VENTURE DEBT E REVENUE-BASED FINANCING (RBF)|Capítulo 10 — Captação de Recursos (Vol. 5)]] — sobre fontes de capital público e privado em conjunto
-- [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 6 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 6 — Validação de Mercado (Vol. 2)]] — como testar modelos regulados dentro de limites legais
-- [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 9 — IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES|Fase 9 — Escala (Vol. 3)]] — gestão de risco regulatório em expansão de mercado
+- [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 11 — MVP E EXPERIMENTOS DE MERCADO|Fase 11 — MVP e Experimentos de Mercado (Vol. 4)]] — como testar modelos regulados dentro de limites legais
+- [[IGNICAO-Vol-9-Maturidade-e-Exit#FASE 19 — REINVENÇÃO E SEGUNDA CURVA|Fase 19 — Reinvenção e Segunda Curva (Vol. 9)]] — gestão de risco regulatório em expansão de mercado
 
 ---
 
@@ -4015,30 +4015,6 @@ Ao consultar este livro depois de 2027, tenha esse mapa em mente. O que parece v
 
 ---
 
-*Consulta vitalícia*
-
----
-
-Esta seção do livro foi desenhada para ser consultada por você durante toda a sua trajetória, não apenas enquanto você lê pela primeira vez, mas durante os anos em que você estiver construindo, operando, escalando e eventualmente vendendo sua empresa.
-
-Três blocos compõem a Referência:
-
-**O Ferramentário Completo do Empreendedor.** Cento e quarenta e uma ferramentas gerenciais consagradas, organizadas em dezenove categorias, estratégia clássica e moderna, planejamento, pensamento estruturado, resolução de problemas, pesquisa qualitativa e quantitativa, UX research, metodologias e priorização de produto, growth e aquisição, marketing e posicionamento, sales, negociação, operações e execução, liderança e gestão de pessoas, finanças e valuation, inovação e segunda curva. Cada ferramenta apresentada com origem histórica, princípios, como aplicar do jeito certo, exemplo aplicado ao contexto brasileiro, erros comuns, quando não usar, e leitura adicional. É, em volume, um livro dentro deste livro, e pode ser lido como tal, ou consultado ponto a ponto.
-
-**Glossário.** Termos técnicos usados recorrentemente ao longo do manual, agrupados por tema (produto, métricas, captação, operação, etc.). Quando um termo aparece pela primeira vez no corpo principal, ele é definido no contexto, aqui está a referência canônica.
-
-**Templates Prontos para Uso.** Declaração inicial, guia de entrevista de descoberta, banco de hipóteses, cartão de experimento, perfil de persona, spec de MVP, story tree, DAG de métricas, theory map, hypothesis canvas, canvas da cunha, teste de precisão do comprador, matriz de parcerias, plano de financiamento, plano de marca, mapa de modos do fundador, pitch deck SCQA, investor update. Cada template acompanhado de instruções de preenchimento e exemplo.
-
-### Como usar a Referência
-
-Se você está começando, não se intimide com o tamanho do Ferramentário. Ele não foi feito para ser lido de uma vez. As próprias fases e apêndices do livro vão te remeter a ferramentas específicas quando forem aplicáveis, use a seção como manual de apoio, não como leitura obrigatória.
-
-Se você já opera, provavelmente vai chegar à Referência buscando uma ferramenta específica que alguém mencionou em uma reunião ou um artigo, "o que é mesmo MEDDPICC?", "qual é o modelo de 7 Powers?", "como calcula Rule of 40?". Consulte o índice do Ferramentário por categoria e vá direto ao ponto.
-
-O Glossário e os Templates são de acesso permanente. Use o Glossário como dicionário do manual, use os Templates como ponto de partida para seus próprios documentos, não os reinvente do zero, adapte.
-
----
-
 ## GLOSSÁRIO DE TERMOS TÉCNICOS
 
 > [!note] Como usar
@@ -4434,15 +4410,15 @@ Termos técnicos usados recorrentemente neste manual, agrupados por tema. Quando
 
 **Cunha (Wedge):** segmento inicial, específico e defensável, escolhido como ponto de ataque ao mercado, a "entrada estreita" pela qual a empresa começa antes de expandir. Ver [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 5 — IDEA → WEDGE → SCALE: O FRAMEWORK ANTLER COMO LENTE TRANSVERSAL|Capítulo 5 (IDEA → WEDGE → SCALE: O FRAMEWORK ANTLER COMO LENTE TRANSVERSAL) (Vol. 3)]] e [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 6 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 6 (Vol. 2)]].
 
-**Hipótese falsificável:** afirmação formulada em termos testáveis (SE X, ENTÃO Y, MENSURADO POR Z), cujo teste pode invalidá-la. Ver [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 7 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 7 (Vol. 3)]] e [[IGNICAO-Vol-1-Ideacao#TEMPLATES OPERACIONAIS E CASOS PREENCHIDOS DESTA FASE|Templates Operacionais da Fase (Vol. 1)]].3.
+**Hipótese falsificável:** afirmação formulada em termos testáveis (SE X, ENTÃO Y, MENSURADO POR Z), cujo teste pode invalidá-la. Ver [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 7 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 7 (Vol. 3)]] e [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#Template: Banco de Hipóteses — modelo de planilha|Template: Banco de Hipóteses — modelo de planilha (Vol. 3)]].
 
 **ICP (Ideal Customer Profile):** descrição específica e operacional do tipo de cliente que a empresa serve, não demografia abstrata, mas perfil observável e identificável por nomes reais.
 
 **JTBD (Jobs To Be Done):** abordagem que entende o uso de produto como "contratação" para realizar um trabalho específico (funcional, emocional, social) no contexto do usuário. Ver [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 5 — PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY)|Fase 5 (Vol. 2)]].
 
-**MVP (Minimum Viable Product):** primeira versão funcional de um produto, concebida com escopo mínimo suficiente para testar uma hipótese central. Ver [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 11 — MVP E EXPERIMENTOS DE MERCADO|Fase 11 (Vol. 4)]] e [[IGNICAO-Vol-1-Ideacao#TEMPLATES OPERACIONAIS E CASOS PREENCHIDOS DESTA FASE|Templates Operacionais da Fase (Vol. 1)]].6.
+**MVP (Minimum Viable Product):** primeira versão funcional de um produto, concebida com escopo mínimo suficiente para testar uma hipótese central. Ver [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 11 — MVP E EXPERIMENTOS DE MERCADO|Fase 11 (Vol. 4)]] e [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#Template: Especificação de MVP|Template: Especificação de MVP (Vol. 3)]].
 
-**Persona:** representação fictícia mas baseada em dados reais de um segmento de usuário, com contexto, comportamento, motivações. Ver [[IGNICAO-Vol-1-Ideacao#TEMPLATES OPERACIONAIS E CASOS PREENCHIDOS DESTA FASE|Templates Operacionais da Fase (Vol. 1)]].5.
+**Persona:** representação fictícia mas baseada em dados reais de um segmento de usuário, com contexto, comportamento, motivações. Ver [[IGNICAO-Vol-2-Descoberta-e-Mercado#Template: Persona com dados|Template: Persona com dados (Vol. 2)]].
 
 **Pivot / Pivotagem:** mudança deliberada de direção em resposta a aprendizado, pode ser de segmento, produto, canal, modelo de negócio.
 
@@ -4652,8 +4628,6 @@ Manual usa dezenas de siglas e acrônimos do vocabulário padrão de empreendedo
 
 **BACEN**: Banco Central do Brasil. *Regulação.*
 
-**BG**: Baú Gerencial (nome interno deste manual para o ferramentário de frameworks). *Estrutura do livro.*
-
 **BMC**: Business Model Canvas. *Estratégia / modelagem de negócio.*
 
 **BNDES**: Banco Nacional de Desenvolvimento Econômico e Social. *Financiamento.*
@@ -4804,13 +4778,13 @@ Para o leitor que quer aprofundar além do próprio manual, abaixo uma sequênci
 
 **[[IGNICAO-Vol-1-Ideacao#FASE 1 — ENCONTRAR A IDEIA|Fase 1 (Vol. 1)]]-2 (Ideia):** *Zero to One* (Peter Thiel). Framework para pensar monopolio e diferenciação.
 
-**Fases 3-4 (Descoberta do Problema):** *The Mom Test* (Rob Fitzpatrick). Menor livro, maior retorno por hora de leitura.
+**[[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 4 — DESCOBERTA DO PROBLEMA|Fases 4 e 5 (Vol. 2)]] (Descoberta do Problema e Pesquisa com Usuários):** *The Mom Test* (Rob Fitzpatrick). Menor livro, maior retorno por hora de leitura.
 
 **[[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 6 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 6 (Vol. 2)]] (Mercado):** *Crossing the Chasm* (Geoffrey Moore). Adoção, segmentação e diferenciação.
 
-**Fases 6-7 (Hipóteses e Experimentos):** *The Lean Startup* (Eric Ries) + *Running Lean* (Ash Maurya). Metodologia fundacional.
+**[[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 7 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fases 7 e 8 (Vol. 3)]] (Hipóteses e Experimentos):** *The Lean Startup* (Eric Ries) + *Running Lean* (Ash Maurya). Metodologia fundacional.
 
-**Fases 8-9 (Ideação e Testes):** *Inspired* (Marty Cagan). Produto moderno.
+**[[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 9 — IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES|Fases 9 e 10 (Vol. 3)]] (Ideação e Testes de Solução):** *Inspired* (Marty Cagan). Produto moderno.
 
 **[[IGNICAO-Vol-4-Tracao-e-PMF#FASE 11 — MVP E EXPERIMENTOS DE MERCADO|Fase 11 (Vol. 4)]] (MVP):** *Sprint* (Jake Knapp) + *The Right It* (Alberto Savoia, Pretotyping).
 
@@ -4839,7 +4813,7 @@ Para o leitor que quer aprofundar além do próprio manual, abaixo uma sequênci
 > Obras citadas ao longo do livro, em padrão Chicago author-date adaptado para português. Para citações web ou ensaios online, indica-se URL e data de acesso. Para obras estrangeiras, prefere-se a edição em inglês original quando há ambiguidade de tradução, com nota da edição brasileira quando relevante.
 
 > [!note] Como ler a bibliografia
-> Esta lista reúne autores e obras citados em prosa, em entradas dos Manuais de Frameworks das Fases, em apêndices temáticos e em chamadas de leitura adicional. Não é exaustiva. Cada apêndice e ferramenta traz suas próprias referências específicas. Aqui estão consolidadas as cerca de cento e cinquenta entradas de maior frequência e peso argumentativo. Para uma versão curada e mais curta, ver também o [[#BIBLIOGRAFIA UNIFICADA POR DOMÍNIO|Apêndice — Bibliografia Unificada]] mais adiante.
+> Esta lista reúne autores e obras citados em prosa, em entradas dos Manuais de Frameworks das Fases, em capítulos temáticos e em chamadas de leitura adicional. Não é exaustiva. Cada apêndice e ferramenta traz suas próprias referências específicas. Aqui estão consolidadas as cerca de cento e cinquenta entradas de maior frequência e peso argumentativo. Para uma versão curada e mais curta, ver também o [[#BIBLIOGRAFIA UNIFICADA POR DOMÍNIO|Apêndice — Bibliografia Unificada]] mais adiante.
 
 ### Livros
 
@@ -5278,7 +5252,7 @@ Consolidação das principais referências citadas ao longo do livro. Cada item 
 - *The Generalist*, research sobre empresas em crescimento.
 - *Latamlist, Brazil Journal, Pipeline*, cobertura do ecossistema brasileiro.
 
-**Observação sobre a lista.** Esta bibliografia é curada, não exaustiva. Cada ferramenta no Ferramentário BG traz sua própria seção "Leitura adicional" com referências específicas. Aqui estão concentradas as ~60 obras de maior frequência e importância. Livros publicados antes de 2020 tendem a ser clássicos de meia-vida longa, publicações pós-2020 ainda estão em validação temporal, trate com cuidado ("é novo" não é "é bom").
+**Observação sobre a lista.** Esta bibliografia é curada, não exaustiva. Cada framework integrado nos Volumes 1 a 9 traz sua própria seção "Leitura adicional" com referências específicas. Aqui estão concentradas as ~60 obras de maior frequência e importância. Livros publicados antes de 2020 tendem a ser clássicos de meia-vida longa, publicações pós-2020 ainda estão em validação temporal, trate com cuidado ("é novo" não é "é bom").
 
 ---
 
@@ -5630,7 +5604,7 @@ Consolidação das principais referências citadas ao longo do livro. Cada item 
 - **Churn**: [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 13 — PRODUCT-MARKET FIT|Fase 13 (Vol. 4)]], [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 12 — CUSTOMER SUCCESS COMO DISCIPLINA|Capítulo 12 (CUSTOMER SUCCESS COMO DISCIPLINA) (Vol. 4)]]
 - **Cofundador matching**: [[IGNICAO-Vol-1-Ideacao#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0 (Vol. 1)]] (Encontrar co-fundador)
 - **Cold Start Problem**: Framework: Cold Start Problem (Andrew Chen, 2021) (Cap. 6, Vol. 3)
-- **Comunicação pública do fundador**: [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 8 — COMUNICAÇÃO PÚBLICA DO FUNDADOR: NARRATIVA, IMPRENSA E PORTA-VOZ|Capítulo 8 (COMUNICAÇÃO PÚBLICA DO FUNDADOR: NARRATIVA, IMPRENSA E PORTA-VOZ) (Vol. 6)]]. Apêndice Marca Pessoal
+- **Comunicação pública do fundador**: [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 8 — COMUNICAÇÃO PÚBLICA DO FUNDADOR: NARRATIVA, IMPRENSA E PORTA-VOZ|Capítulo 8 (COMUNICAÇÃO PÚBLICA DO FUNDADOR: NARRATIVA, IMPRENSA E PORTA-VOZ) (Vol. 6)]]
 - **Consultoria (como serviço ou modelo)**: [[IGNICAO-Vol-1-Ideacao#FASE 3 — CONSTRUÇÃO DA TEORIA DO NEGÓCIO|Fase 3 (Vol. 1)]]. [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 7 — PLATAFORMA VS PRODUTO: QUANDO CONSTRUIR PLATAFORMA E QUANDO NÃO|Capítulo 7 (PLATAFORMA VS PRODUTO: QUANDO CONSTRUIR PLATAFORMA E QUANDO NÃO) (Vol. 3)]]
 - **Contabilidade inicial**: [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18 (Vol. 8)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 14 — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Capítulo 14 (CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA) (Vol. 5)]]
 - **Contratação (primeiros funcionários)**: [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16 (Vol. 6)]], Framework: Who / A Method for Hiring (Geoff Smart & Randy Street, 2008) (Fase 16, Vol. 6), Capítulo 17 (Vol. 6) (CULTURA EM SITUAÇÕES ESPECIAIS: M&A, HIPERCRESCIMENTO, REMOTO)
@@ -5643,14 +5617,14 @@ Consolidação das principais referências citadas ao longo do livro. Cada item 
 
 ### D
 
-- **Data (compilação do livro)**: Apêndice sobre Envelhecimento (abril 2026)
+- **Data (compilação do livro)**: [[#DATA DE COMPILAÇÃO E NOTA SOBRE ENVELHECIMENTO|Data de Compilação e Nota sobre Envelhecimento (abril 2026)]]
 - **DCF (Discounted Cash Flow)**: Framework: Discounted Cash Flow (DCF) (Fase 14, Vol. 5)
 - **Decisão (frameworks)**: Frameworks da Fase 0, Vol. 1, Frameworks da Fase 3, Vol. 1
 - **Demissão**: [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16 (Vol. 6)]] (seção Demitir bem), [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 11 — LAYOFFS E DOWNSIZING: COMO DEMITIR EM ESCALA SEM DESTRUIR A EMPRESA|Capítulo 11 (LAYOFFS E DOWNSIZING: COMO DEMITIR EM ESCALA SEM DESTRUIR A EMPRESA) (Vol. 9)]]
 - **Descoberta contínua (Continuous Discovery)**: Framework: Continuous Discovery Habits (Teresa Torres, 2021) (Fase 17, Vol. 7). [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 3 — TRL E CRL: MATURIDADE TECNOLÓGICA E DE MERCADO|Capítulo 3 (TRL E CRL: MATURIDADE TECNOLÓGICA E DE MERCADO) (Vol. 3)]]
 - **Design Sprint**: Framework: Google Design Sprint (Jake Knapp, 2016) (Fase 9, Vol. 3)
 - **Design Thinking**: Framework: Design Thinking Double Diamond (British Design Council, 2005) (Fase 9, Vol. 3)
-- **Disciplinas éticas / ESG**: Apêndice sobre Impacto e Ética
+- **Disciplinas éticas / ESG**: [[#C|Capítulo 9 — Ética Empreendedora]] e [[#C|Capítulo 4 — Impacto, Sustentabilidade e Sistema B]]
 - **DORA Metrics**: Framework: DORA Metrics (Forsgren, Humble, Kim, 2014); SPACE Framework (Forsgren, Storey et al., 2021) (Fase 17, Vol. 7)
 - **Due diligence (como alvo)**: [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) (Vol. 5)]]
 
@@ -5664,7 +5638,7 @@ Consolidação das principais referências citadas ao longo do livro. Cada item 
 - **Equity (divisão inicial)**: [[IGNICAO-Vol-1-Ideacao#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0 (Vol. 1)]], [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18 (Vol. 8)]]
 - **Escala (Volume 4 da jornada)**: [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16 (Vol. 6)]] inteira
 - **Escolha de investidor**: [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) (Vol. 5)]] (seção dedicada)
-- **Ética empreendedora**: Apêndice sobre Ética e Impacto
+- **Ética empreendedora**: [[#C|Capítulo 9 — Ética Empreendedora]] e [[#C|Capítulo 4 — Impacto, Sustentabilidade e Sistema B]]
 - **Exit (estratégias)**: [[IGNICAO-Vol-9-Maturidade-e-Exit#FASE 20 — ESTRATÉGIA DE SAÍDA (EXIT STRATEGY)|Fase 20 (Vol. 9)]]
 - **Experimentos controlados**: [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 8 — EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA E DA SOLUÇÃO|Fase 8 (Vol. 3)]], Framework: A/B Testing Rigoroso (Ron Kohavi, décadas de pesquisa na Microsoft/Airbnb) (Fase 11, Vol. 4)
 
@@ -5695,7 +5669,7 @@ Consolidação das principais referências citadas ao longo do livro. Cada item 
 
 - **IA / IA como acelerador**: [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 10 — IA GENERATIVA COMO ACELERADOR DO EMPREENDEDOR (2026)|Capítulo 10 (IA GENERATIVA COMO ACELERADOR DO EMPREENDEDOR (2026)) (Vol. 1)]]
 - **Ideias (como encontrar)**: [[IGNICAO-Vol-1-Ideacao#FASE 1 — ENCONTRAR A IDEIA|Fase 1 (Vol. 1)]]
-- **Impacto (negócio de impacto social)**: Apêndice dedicado
+- **Impacto (negócio de impacto social)**: [[#C|Capítulo 4 — Impacto, Sustentabilidade e Sistema B]]
 - **Indicadores (KPIs por fase)**: cada fase tem seção própria
 - **Internacionalização**: [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 5 — INTERNACIONALIZAÇÃO: ESTRUTURA E PRODUTO PARA MÚLTIPLOS MERCADOS|Capítulo 5 (INTERNACIONALIZAÇÃO: ESTRUTURA E PRODUTO PARA MÚLTIPLOS MERCADOS) (Vol. 9)]]
 - **Investidores (tipos, critérios)**: [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 5 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) (Vol. 5)]]
@@ -5721,7 +5695,7 @@ Consolidação das principais referências citadas ao longo do livro. Cada item 
 
 ### M
 
-- **Marca pessoal do fundador**: Apêndice dedicado
+- **Marca pessoal do fundador**: [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 8 — COMUNICAÇÃO PÚBLICA DO FUNDADOR: NARRATIVA, IMPRENSA E PORTA-VOZ|Capítulo 8 — Comunicação Pública do Fundador (Vol. 6)]]
 - **Marketplace / efeitos de rede**: Framework: Cold Start Problem (Andrew Chen, 2021) (Cap. 6, Vol. 3). [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 1 — GROWTH COMO FUNÇÃO ORGANIZACIONAL: TIME DE GROWTH, BUILD VS HIRE, RELAÇÃO COM PRODUTO|Capítulo 1 (GROWTH COMO FUNÇÃO ORGANIZACIONAL: TIME DE GROWTH, BUILD VS HIRE, RELAÇÃO COM PRODUTO) (Vol. 6)]]
 - **MEDDIC / MEDDPICC**: Framework: MEDDIC / MEDDPICC (Jack Napoli / Dick Dunkel, PTC, 1996) (Fase 15, Vol. 6)
 - **Mercado (mapeamento)**: [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 6 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 6 (Vol. 2)]]
