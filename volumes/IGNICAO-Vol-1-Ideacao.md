@@ -49,7 +49,7 @@ Boa sorte na minha jornada, em cada momento em que eu voltar aqui para buscar um
 
 ## Sobre este livro
 
-**IGNIÇÃO** é um manual operacional em **10 volumes autocontidos** para fundadores e equipes executivas construindo empresas no Brasil — da preparação pessoal antes do CNPJ (Fase 0) até a segunda curva de crescimento e o *exit* via M&A ou IPO (Fase 20).
+**IGNIÇÃO** é um manual operacional em **10 volumes autocontidos** para fundadores e equipes executivas construindo empresas no Brasil — da preparação pessoal antes do CNPJ (Fase 0) até a segunda curva de crescimento, o *exit* via M&A ou IPO (Fase 20) ou a perenidade como máquina de dividendos (*Cash Cow* e *Family Office*).
 
 Cada volume da coleção foi desenhado para funcionar como um **livro completo e independente**: todos os **Frameworks passo a passo**, **Canvases Visuais preenchidos com casos brasileiros**, **Templates operacionais prontos para uso**, **Tabelas de Métricas**, **Guias de Leitura** e **Glossários de Termos e Siglas** estão integrados diretamente dentro de cada volume, sem que você precise abrir outro livro para executar sua etapa atual.
 
@@ -57,14 +57,14 @@ A coleção está organizada em **10 volumes focais**:
 
 - **Volume 1 — Ideação e Fundação (este volume):** Fases 0 a 3 + 13 Capítulos de preparação financeira e mental do fundador, dinâmica de cofundadores, vieses, tomada de decisão, comunicação, produtividade com IA, aceleradoras e mentores.
 - **Volume 2 — Descoberta de Cliente e Mapeamento de Mercado:** Fases 4 a 6 + 4 Capítulos de psicologia do consumidor brasileiro, inteligência competitiva, Category Design e posicionamento estratégico.
-- **Volume 3 — Hipóteses, Experimentos, Prototipagem e Modelos de Negócio:** Fases 7 a 10 + 9 Capítulos sobre método científico, níveis de maturidade, gates de evidência, fechamento de fase, o framework *Idea → Wedge → Scale* e as arquiteturas de Marketplaces, Efeitos de Rede/Plataformas, B2B2C e Open Source (COSS).
+- **Volume 3 — Hipóteses, Experimentos, Prototipagem e Modelos de Negócio:** Fases 7 a 10 + 10 Capítulos sobre método científico, níveis de maturidade, gates de evidência, fechamento de fase, o framework *Idea → Wedge → Scale* e as arquiteturas de Marketplaces, Efeitos de Rede/Plataformas, B2B2C, Open Source (COSS) e Bootstrapping / *Productized Services* (transição *Service-to-Product*).
 - **Volume 4 — Tração, Go-to-Market e Product-Market Fit:** Fases 11 a 13 + 16 Capítulos de GTM inicial, canais de aquisição, marketing, vendas consultivas, pricing, recorrência, negociação, Customer Success, CX, analytics, produto AI-native e pivô.
 - **Volume 5 — Finanças, Captação e Venture Capital:** Fase 14 + 21 Capítulos de demonstrativos financeiros, contabilidade, Reforma Tributária, modelagem operacional, coortes, FP&A, capital de giro, bancos, Comércio Exterior e Importação (Ásia-Brasil), caixa, seguros, captação de VC, valuation, SAFE/mútuo, fomento não-diluitivo e venture debt.
 - **Volume 6 — Receita Enterprise, Liderança e Cultura:** Fases 15 e 16 + 20 Capítulos de Growth em escala, vendas Enterprise, RevOps, parcerias corporativas, canais indiretos, Franchising e Licenciamento (Lei 13.966/2019), marca/PR, Founder Mode, rotina do CEO, contratação C-level, performance, remuneração, ESOP e cultura.
 - **Volume 7 — Produto, Engenharia, Dados, IA e Operações:** Fase 17 + 11 Capítulos de discovery contínuo, gestão de engenharia, dívida técnica, IA na engenharia de software, AI Ops, design organizacional, gestão do conhecimento e excelência operacional.
 - **Volume 8 — Blindagem Jurídica, Societária, LGPD e Segurança:** Fase 18 + 14 Capítulos de Marco Legal das Startups, responsabilidade dos sócios, propriedade intelectual/INPI, non-compete, contratos, direito do trabalho, CDC, contencioso, LGPD, regulação de IA, compliance, prevenção a fraudes e SOC 2 / ISO 27001.
-- **Volume 9 — Maturidade, Governança, Crise e Exit:** Fases 19 e 20 + 21 Capítulos de Conselho de Administração (Board), empresas familiares, conflitos societários, internacionalização, câmbio/tesouraria, gestão de crise, layoffs, recuperação judicial, M&A buy-side, Search Funds, Liquidez Secundária (Secondaries), IPO, tributação de exit, transição pós-M&A, post-mortems e second-time founders + Epílogo.
-- **Volume 10 — Economia da Inovação, Hubs Globais e Playbooks das 32 Verticais:** 38 Capítulos cobrindo a Economia da Inovação e seus Atores, a Geografia Mundial de Hubs por Continente e os 15 Polos Brasileiros, Ciclos Macroeconômicos, Autarquias Reguladoras, CADE, Políticas Públicas e os **32 Playbooks Setoriais** da economia real (de Fintech, Crédito, Insurtech, Wealthtech, Agritech, Infratech, Energytech, Cleantech, Miningtech e Indústria 4.0 até Hardware, Logtech, Mobitech, Proptech, Aerospace, Biotech/Healthtech, Edtech, Govtech, Legaltech, Retailtech, Foodtech, D2C/Wellness, Travel/Pet/Silver, Horizontal/Vertical SaaS, AI-Native, Cybersecurity, DevTools, HRTech, Martech, Creator Economy e Gaming), seguidos pelo Dicionário e Índices Unificados da Coleção.
+- **Volume 9 — Maturidade, Governança, Crise, Exit e Family Office:** Fases 19 e 20 + 23 Capítulos de Conselho de Administração (Board), empresas familiares, conflitos societários, internacionalização, câmbio/tesouraria, gestão de crise, layoffs, recuperação judicial, M&A buy-side, Search Funds, Spin-offs e Carve-outs, Liquidez Secundária (Secondaries), IPO, tributação de exit, transição pós-M&A, post-mortems, second-time founders e a Empresa *Cash Cow* (dividendos vitalícios) + Holdings Patrimoniais, Offshores e *Family Office* + Epílogo.
+- **Volume 10 — Economia da Inovação, Hubs Globais e Playbooks das 37 Verticais:** 43 Capítulos cobrindo a Economia da Inovação e seus Atores, a Geografia Mundial de Hubs por Continente e os 15 Polos Brasileiros, Ciclos Macroeconômicos, Autarquias Reguladoras, CADE, Políticas Públicas e os **37 Playbooks Setoriais** da economia real (de Fintech, Crédito, Insurtech, Wealthtech, Agritech, Infratech, Energytech, Cleantech, Resíduos/Biometano/Celulose, Miningtech e Indústria 4.0 até Hardware, Logtech, Mobitech, Proptech, Segurança Privada/Portaria Remota/Facilities, Telecom/ISPs/Data Centers de IA, Aerospace, Biotech/Healthtech, Edtech, Govtech, Legaltech, Retailtech, Foodtech, D2C/Wellness, Travel/Pet/Silver, Setor Funerário/Assistência Familiar/DeathTech, Horizontal/Vertical SaaS, Serviços Profissionais B2B/Consultorias/Nearshoring, AI-Native, Cybersecurity, DevTools, HRTech, Martech, Creator Economy e Gaming), seguidos pelo Dicionário e Índices Unificados da Coleção.
 
 ---
 
@@ -87,8 +87,8 @@ graph LR
         V3 --> V4 --> V5 --> V6 --> V7 --> V8
     end
     subgraph J3["Ciclo Longo e Setores"]
-        V9["<b>Vol. 9 — Maturidade e Exit</b><br/>Fases 19 e 20 · Board, Crise, M&A e IPO"]
-        V10["<b>Vol. 10 — Economia da Inovação e 32 Verticais</b><br/>Hubs Globais, Regulação, 32 Setores e Dicionário"]
+        V9["<b>Vol. 9 — Maturidade, Exit e Family Office</b><br/>Fases 19 e 20 · Board, Crise, M&A, IPO e Cash Cow"]
+        V10["<b>Vol. 10 — Economia da Inovação e 37 Verticais</b><br/>Hubs Globais, Regulação, 37 Setores e Dicionário"]
         V8 --> V9
     end
     V10 -. "Consulta Setorial e Dicionário" .-> J1
@@ -268,8 +268,8 @@ Execute estas oito tarefas em sequência.
 
 A [[#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0]] é sobre preparar a pessoa que vai empreender, não o negócio. Paul Graham tem alguns ensaios especificamente sobre essa dimensão. Sobre o tipo de pessoa que tende a ter sucesso em startup, o tipo de pensamento que ajuda, o tipo de armadilha interna que derruba. Não são conselhos de "atitude positiva". São observações baseadas na experiência de ter acompanhado mais de três mil fundadores no Y Combinator, cruzada com padrões identificados em retrospecto.
 
-> [!note] Capítulo 21 (Vol. 9) — Second-Time Founder
-> Se você já empreendeu antes — com exit (saída, venda ou encerramento da empresa) com fracasso, ou com empresa ainda ativa — a sua Fase 0 é diferente. O [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 21 — SECOND-TIME FOUNDER|Capítulo 21 (SECOND-TIME FOUNDER) (Vol. 9)]] trata de como o histórico anterior muda a equação de runway, escolha de sócio, e autoconhecimento exigidos aqui.
+> [!note] Capítulo 22 (Vol. 9) — Second-Time Founder
+> Se você já empreendeu antes — com exit (saída, venda ou encerramento da empresa) com fracasso, ou com empresa ainda ativa — a sua Fase 0 é diferente. O [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 22 — SECOND-TIME FOUNDER|Capítulo 22 (SECOND-TIME FOUNDER) (Vol. 9)]] trata de como o histórico anterior muda a equação de runway, escolha de sócio, e autoconhecimento exigidos aqui.
 
 Os três ensaios abaixo são os que mais se aplicam à decisão da Fase 0. Outros três do mesmo autor (*What We Look for in Founders*, *Before the Startup*, *You Weren't Meant to Have a Boss*) entram resumidos no fim. Os links estão no [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#BIBLIOGRAFIA GERAL|Bibliografia e Leituras Recomendadas (Vol. 10)]].
 
@@ -5400,7 +5400,7 @@ A primeira é "resolvo isso depois do exit". Depois do exit é tarde. Décadas d
 
 ### Ver também
 
-[[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 15 — LIQUIDEZ SECUNDÁRIA (SECONDARIES): REALIZAÇÃO PARCIAL DE CAPITAL PARA FUNDADORES, EXECUTIVOS E INVESTIDORES ANTES DO EXIT|Capítulo 15 (LIQUIDEZ SECUNDÁRIA (SECONDARIES): REALIZAÇÃO PARCIAL DE CAPITAL PARA FUNDADORES, EXECUTIVOS E INVESTIDORES ANTES DO EXIT) (Vol. 9)]] (secondary e liquidez), [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 2 — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Capítulo 2 (CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA) (Vol. 5)]] (contabilidade e tributário BR), [[#CAPÍTULO 2 — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Capítulo 2 (SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR)]] (humanidade do fundador).
+[[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 16 — LIQUIDEZ SECUNDÁRIA (SECONDARIES): REALIZAÇÃO PARCIAL DE CAPITAL PARA FUNDADORES, EXECUTIVOS E INVESTIDORES ANTES DO EXIT|Capítulo 16 (LIQUIDEZ SECUNDÁRIA (SECONDARIES): REALIZAÇÃO PARCIAL DE CAPITAL PARA FUNDADORES, EXECUTIVOS E INVESTIDORES ANTES DO EXIT) (Vol. 9)]] (secondary e liquidez), [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 2 — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Capítulo 2 (CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA) (Vol. 5)]] (contabilidade e tributário BR), [[#CAPÍTULO 2 — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Capítulo 2 (SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR)]] (humanidade do fundador).
 
 > [!info] Fases relacionadas
 > Referenciado em: Fase 0.
@@ -5798,7 +5798,7 @@ Sinais de que está acontecendo bem: fundador consegue falar sobre a empresa sem
 
 **[[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 8 — EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA E DA SOLUÇÃO|Fase 8 (Vol. 3)]], Reintegração (6 meses a 2+ anos):**
 
-Fundador reassume vida profissional em formato novo. Pode ser: novo empreendimento (second-time founder, [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 21 — SECOND-TIME FOUNDER|Capítulo 21 (SECOND-TIME FOUNDER) (Vol. 9)]]), emprego em outra empresa (incluindo potencialmente uma que ele mesmo teria sonhado competir contra), função de investidor / advisor, pausa estruturada.
+Fundador reassume vida profissional em formato novo. Pode ser: novo empreendimento (second-time founder, [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 22 — SECOND-TIME FOUNDER|Capítulo 22 (SECOND-TIME FOUNDER) (Vol. 9)]]), emprego em outra empresa (incluindo potencialmente uma que ele mesmo teria sonhado competir contra), função de investidor / advisor, pausa estruturada.
 
 Psicologicamente: **nova identidade integrada**. Empresa que fechou torna-se parte do passado construtor de quem você é, não ferida aberta.
 
@@ -5858,7 +5858,7 @@ Procurar ajuda não é sinal de fraqueza. É sinal de saúde e inteligência. Fu
 
 #### Segunda chance depois de fechamento
 
-O [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 21 — SECOND-TIME FOUNDER|Capítulo 21 (SECOND-TIME FOUNDER) (Vol. 9)]] (Second-Time Founder) cobre o lado operacional da reinvenção. Aqui, o lado psicológico:
+O [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 22 — SECOND-TIME FOUNDER|Capítulo 22 (SECOND-TIME FOUNDER) (Vol. 9)]] (Second-Time Founder) cobre o lado operacional da reinvenção. Aqui, o lado psicológico:
 
 **Quando não empreender de novo imediatamente:**
 

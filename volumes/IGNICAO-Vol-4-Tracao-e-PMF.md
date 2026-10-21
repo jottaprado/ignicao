@@ -44,8 +44,8 @@ graph LR
         V3 --> V4 --> V5 --> V6 --> V7 --> V8
     end
     subgraph J3["Ciclo Longo e Setores"]
-        V9["<b>Vol. 9 — Maturidade e Exit</b><br/>Fases 19 e 20 · Board, Crise, M&A e IPO"]
-        V10["<b>Vol. 10 — Economia da Inovação e 32 Verticais</b><br/>Hubs Globais, Regulação, 32 Setores e Dicionário"]
+        V9["<b>Vol. 9 — Maturidade, Exit e Family Office</b><br/>Fases 19 e 20 · Board, Crise, M&A, IPO e Cash Cow"]
+        V10["<b>Vol. 10 — Economia da Inovação e 37 Verticais</b><br/>Hubs Globais, Regulação, 37 Setores e Dicionário"]
         V8 --> V9
     end
     V10 -. "Consulta Setorial e Dicionário" .-> J1
@@ -5405,7 +5405,7 @@ Marketing de performance está operando bem quando todos os itens abaixo estão 
 
 **Ver também:**
 
-[[#CAPÍTULO 3 — CONTENT MARKETING E SEO COMO DISCIPLINA|Capítulo 3 — Content Marketing e SEO como Disciplina]]. [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 15 — LIQUIDEZ SECUNDÁRIA (SECONDARIES): REALIZAÇÃO PARCIAL DE CAPITAL PARA FUNDADORES, EXECUTIVOS E INVESTIDORES ANTES DO EXIT|Capítulo 15 (LIQUIDEZ SECUNDÁRIA (SECONDARIES): REALIZAÇÃO PARCIAL DE CAPITAL PARA FUNDADORES, EXECUTIVOS E INVESTIDORES ANTES DO EXIT) (Vol. 9)]], Growth e Aquisição. [[#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvases Visuais da Fase]], Canvases e Mapas Visuais. [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 14 — PERFORMANCE REVIEWS ESTRUTURADOS: CICLO, CALIBRAÇÃO E CONEXÃO COM COMPENSAÇÃO|Capítulo 14 (PERFORMANCE REVIEWS ESTRUTURADOS: CICLO, CALIBRAÇÃO E CONEXÃO COM COMPENSAÇÃO) (Vol. 6)]], Métricas e Dashboard de Negócio.
+[[#CAPÍTULO 3 — CONTENT MARKETING E SEO COMO DISCIPLINA|Capítulo 3 — Content Marketing e SEO como Disciplina]]. [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 16 — LIQUIDEZ SECUNDÁRIA (SECONDARIES): REALIZAÇÃO PARCIAL DE CAPITAL PARA FUNDADORES, EXECUTIVOS E INVESTIDORES ANTES DO EXIT|Capítulo 16 (LIQUIDEZ SECUNDÁRIA (SECONDARIES): REALIZAÇÃO PARCIAL DE CAPITAL PARA FUNDADORES, EXECUTIVOS E INVESTIDORES ANTES DO EXIT) (Vol. 9)]], Growth e Aquisição. [[#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvases Visuais da Fase]], Canvases e Mapas Visuais. [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 14 — PERFORMANCE REVIEWS ESTRUTURADOS: CICLO, CALIBRAÇÃO E CONEXÃO COM COMPENSAÇÃO|Capítulo 14 (PERFORMANCE REVIEWS ESTRUTURADOS: CICLO, CALIBRAÇÃO E CONEXÃO COM COMPENSAÇÃO) (Vol. 6)]], Métricas e Dashboard de Negócio.
 
 > [!info] Fases relacionadas
 > Referenciado em: Fase 10.
@@ -7374,7 +7374,7 @@ Limitar responsabilidade (cap em receita do contrato ou 12 meses de serviço): n
 
 As cinco variáveis críticas: preço (e forma de pagamento — cash, ações, ou earnout), earnout (componente de preço condicional a métricas futuras — alta probabilidade de conflito, negocie métricas simples e mensuráveis), representações e garantias (indemnification cap, survival period), escrow (percentual retido para cobrir claims de rep and warranty — negocie prazo máximo de 12 a 18 meses), non-compete do fundador (duração e escopo geográfico — negocie para mínimo viável).
 
-Ver [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 18 — SUCESSÃO NO EXIT E TRANSIÇÃO PÓS-AQUISIÇÃO|Capítulo 18 (SUCESSÃO NO EXIT E TRANSIÇÃO PÓS-AQUISIÇÃO) (Vol. 9)]] para M&A em detalhe.
+Ver [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 19 — SUCESSÃO NO EXIT E TRANSIÇÃO PÓS-AQUISIÇÃO|Capítulo 19 (SUCESSÃO NO EXIT E TRANSIÇÃO PÓS-AQUISIÇÃO) (Vol. 9)]] para M&A em detalhe.
 
 **Negociação com co-fundador em conflito.**
 
@@ -7470,7 +7470,7 @@ Esse processo leva 30 a 60 minutos. Para uma negociação com impacto de seis d�
 
 ### Ver também
 
-[[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 13 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 13 — Captação (Vol. 5)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 15 — VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR|Capítulo 15 — Valuation (Vol. 5)]], [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 6 — TOMADA DE DECISÃO COMO DISCIPLINA|Capítulo 6 — Tomada de Decisão (Vol. 1)]], [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 6 — CONTRATOS EM PROFUNDIDADE POR TIPO|Capítulo 6 — Contratos (Vol. 8)]], [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 18 — SUCESSÃO NO EXIT E TRANSIÇÃO PÓS-AQUISIÇÃO|Capítulo 18 — M&A (Vol. 9)]]
+[[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 13 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 13 — Captação (Vol. 5)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 15 — VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR|Capítulo 15 — Valuation (Vol. 5)]], [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 6 — TOMADA DE DECISÃO COMO DISCIPLINA|Capítulo 6 — Tomada de Decisão (Vol. 1)]], [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 6 — CONTRATOS EM PROFUNDIDADE POR TIPO|Capítulo 6 — Contratos (Vol. 8)]], [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 19 — SUCESSÃO NO EXIT E TRANSIÇÃO PÓS-AQUISIÇÃO|Capítulo 19 — M&A (Vol. 9)]]
 
 ---
 

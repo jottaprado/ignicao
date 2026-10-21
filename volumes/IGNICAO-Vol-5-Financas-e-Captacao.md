@@ -44,8 +44,8 @@ graph LR
         V3 --> V4 --> V5 --> V6 --> V7 --> V8
     end
     subgraph J3["Ciclo Longo e Setores"]
-        V9["<b>Vol. 9 — Maturidade e Exit</b><br/>Fases 19 e 20 · Board, Crise, M&A e IPO"]
-        V10["<b>Vol. 10 — Economia da Inovação e 32 Verticais</b><br/>Hubs Globais, Regulação, 32 Setores e Dicionário"]
+        V9["<b>Vol. 9 — Maturidade, Exit e Family Office</b><br/>Fases 19 e 20 · Board, Crise, M&A, IPO e Cash Cow"]
+        V10["<b>Vol. 10 — Economia da Inovação e 37 Verticais</b><br/>Hubs Globais, Regulação, 37 Setores e Dicionário"]
         V8 --> V9
     end
     V10 -. "Consulta Setorial e Dicionário" .-> J1
@@ -2286,7 +2286,7 @@ Resultado liquido para o socio PF, em vez de pagar a aliquota de PF, recebe valo
 > [!warning] JCP exige deliberacao formal
 > JCP nao e despesa que se lanca contabilmente sem documentacao. Exige assembleia ou ata de deliberacao especifica, antes do encerramento do exercicio. Pagamento sem deliberacao formal e desconsiderado pela Receita Federal e tributado como lucro distribuido normal.
 
-Cross-ref. Em planejamento sucessorio e holding patrimonial pre-exit, ver [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 17 — TRIBUTAÇÃO DO EXIT PARA FUNDADORES BRASILEIROS|Capítulo 17 (TRIBUTAÇÃO DO EXIT PARA FUNDADORES BRASILEIROS) (Vol. 9)]].
+Cross-ref. Em planejamento sucessorio e holding patrimonial pre-exit, ver [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 18 — TRIBUTAÇÃO DO EXIT PARA FUNDADORES BRASILEIROS|Capítulo 18 (TRIBUTAÇÃO DO EXIT PARA FUNDADORES BRASILEIROS) (Vol. 9)]].
 
 #### 2.2 Conversao de Ltda em S.A. fechada, momento e mecanica
 
@@ -2617,7 +2617,7 @@ Disciplina fiscal no padrão quando o contador externo especializado entrou desd
 > Este capítulo é material educacional, não assessoria tributária. A legislação tributária brasileira muda com frequência — alíquotas, regimes especiais, incentivos e jurisprudência administrativa podem ter sido alterados após a data de publicação. Nenhuma decisão de regime tributário, estrutura societária ou benefício fiscal deve ser tomada sem consulta a contador especializado e advogado tributarista. O custo de uma assessoria competente é sempre menor que o passivo gerado por uma decisão errada.
 
 > [!note] Posição no livro
-> Este capítulo complementa o [[#CAPÍTULO 2 — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Capítulo 2 — Contabilidade e Tributário]] (visão operacional e rotinas mensais), o [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 17 — TRIBUTAÇÃO DO EXIT PARA FUNDADORES BRASILEIROS|Capítulo 17 — Tributação do Exit (Vol. 9)]] (planejamento patrimonial pré-venda) e o [[#CAPÍTULO 1 — DEMONSTRATIVOS FINANCEIROS PARA O FUNDADOR|Capítulo 1 — Demonstrativos Financeiros]]. O foco aqui é decisão estratégica de regime, incentivos fiscais para tech, estrutura de holding e armadilhas cotidianas.
+> Este capítulo complementa o [[#CAPÍTULO 2 — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Capítulo 2 — Contabilidade e Tributário]] (visão operacional e rotinas mensais), o [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 18 — TRIBUTAÇÃO DO EXIT PARA FUNDADORES BRASILEIROS|Capítulo 18 — Tributação do Exit (Vol. 9)]] (planejamento patrimonial pré-venda) e o [[#CAPÍTULO 1 — DEMONSTRATIVOS FINANCEIROS PARA O FUNDADOR|Capítulo 1 — Demonstrativos Financeiros]]. O foco aqui é decisão estratégica de regime, incentivos fiscais para tech, estrutura de holding e armadilhas cotidianas.
 
 ---
 
@@ -2940,7 +2940,7 @@ Uma das principais motivações para constituir holding antes de receber investi
 - A distribuição para o sócio PF, quando ocorrer, é isenta de IRPF (dividendos de PJ para PF são isentos — aguardar desdobramento da Reforma Tributária sobre tributação de dividendos)
 - O diferimento pode ser de anos — o capital dentro da holding trabalha antes de ser tributado na saída do sócio
 
-Para detalhes sobre tributação de exit, ver [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 17 — TRIBUTAÇÃO DO EXIT PARA FUNDADORES BRASILEIROS|Capítulo 17 — Tributação do Exit (Vol. 9)]].
+Para detalhes sobre tributação de exit, ver [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 18 — TRIBUTAÇÃO DO EXIT PARA FUNDADORES BRASILEIROS|Capítulo 18 — Tributação do Exit (Vol. 9)]].
 
 #### Holding offshore — quando faz sentido
 
@@ -3085,7 +3085,7 @@ A Receita Federal pode questionar o propósito negocial de uma holding criada 3-
 ### Ver também
 
 - [[#CAPÍTULO 2 — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Capítulo 2 — Contabilidade e Tributário]]
-- [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 17 — TRIBUTAÇÃO DO EXIT PARA FUNDADORES BRASILEIROS|Capítulo 17 — Tributação do Exit (Vol. 9)]]
+- [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 18 — TRIBUTAÇÃO DO EXIT PARA FUNDADORES BRASILEIROS|Capítulo 18 — Tributação do Exit (Vol. 9)]]
 - [[#CAPÍTULO 1 — DEMONSTRATIVOS FINANCEIROS PARA O FUNDADOR|Capítulo 1 — Demonstrativos Financeiros]]
 - [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 16 — STOCK OPTIONS E ESOP NO BRASIL|Capítulo 16 — Stock Options e ESOP (Vol. 6)]]
 
@@ -6684,7 +6684,7 @@ Para validar prontidão para captar.
 
 ### Ver também
 
-[[#CAPÍTULO 14 — PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO|Capítulo 14 (PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO)]], Planejamento de rodada como processo. [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 1 — BOARD E GOVERNANCE|Capítulo 1 (BOARD E GOVERNANCE) (Vol. 9)]], Board, e governance. [[#CAPÍTULO 15 — VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR|Capítulo 15 (VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR)]], Valuation methods. [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 15 — LIQUIDEZ SECUNDÁRIA (SECONDARIES): REALIZAÇÃO PARCIAL DE CAPITAL PARA FUNDADORES, EXECUTIVOS E INVESTIDORES ANTES DO EXIT|Capítulo 15 (LIQUIDEZ SECUNDÁRIA (SECONDARIES): REALIZAÇÃO PARCIAL DE CAPITAL PARA FUNDADORES, EXECUTIVOS E INVESTIDORES ANTES DO EXIT) (Vol. 9)]], Secondary, e liquidez de founder. [[#CAPÍTULO 18 — VENTURE DEBT E REVENUE-BASED FINANCING (RBF)|Capítulo 18 (VENTURE DEBT E REVENUE-BASED FINANCING (RBF))]], Venture debt, e RBF.
+[[#CAPÍTULO 14 — PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO|Capítulo 14 (PLANEJAMENTO DE RODADA COMO PROCESSO: FUNDRAISING COMO PROJETO ESTRUTURADO)]], Planejamento de rodada como processo. [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 1 — BOARD E GOVERNANCE|Capítulo 1 (BOARD E GOVERNANCE) (Vol. 9)]], Board, e governance. [[#CAPÍTULO 15 — VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR|Capítulo 15 (VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR)]], Valuation methods. [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 16 — LIQUIDEZ SECUNDÁRIA (SECONDARIES): REALIZAÇÃO PARCIAL DE CAPITAL PARA FUNDADORES, EXECUTIVOS E INVESTIDORES ANTES DO EXIT|Capítulo 16 (LIQUIDEZ SECUNDÁRIA (SECONDARIES): REALIZAÇÃO PARCIAL DE CAPITAL PARA FUNDADORES, EXECUTIVOS E INVESTIDORES ANTES DO EXIT) (Vol. 9)]], Secondary, e liquidez de founder. [[#CAPÍTULO 18 — VENTURE DEBT E REVENUE-BASED FINANCING (RBF)|Capítulo 18 (VENTURE DEBT E REVENUE-BASED FINANCING (RBF))]], Venture debt, e RBF.
 
 ### Escolhendo o investidor, a diligência do fundador sobre o VC
 
@@ -7963,7 +7963,7 @@ Players brasileiros. a55, Stone Capital, Linker, Cora, e Trigg. Clearco operou B
 
 ### Ver também
 
-[[#CAPÍTULO 13 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 13 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES)]], Captação de equity. [[#CAPÍTULO 11 — GESTÃO DE CAIXA EM PROFUNDIDADE|Capítulo 11 (GESTÃO DE CAIXA EM PROFUNDIDADE)]], Gestão de caixa em profundidade. [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 15 — LIQUIDEZ SECUNDÁRIA (SECONDARIES): REALIZAÇÃO PARCIAL DE CAPITAL PARA FUNDADORES, EXECUTIVOS E INVESTIDORES ANTES DO EXIT|Capítulo 15 (LIQUIDEZ SECUNDÁRIA (SECONDARIES): REALIZAÇÃO PARCIAL DE CAPITAL PARA FUNDADORES, EXECUTIVOS E INVESTIDORES ANTES DO EXIT) (Vol. 9)]], Secondary.
+[[#CAPÍTULO 13 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 13 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES)]], Captação de equity. [[#CAPÍTULO 11 — GESTÃO DE CAIXA EM PROFUNDIDADE|Capítulo 11 (GESTÃO DE CAIXA EM PROFUNDIDADE)]], Gestão de caixa em profundidade. [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 16 — LIQUIDEZ SECUNDÁRIA (SECONDARIES): REALIZAÇÃO PARCIAL DE CAPITAL PARA FUNDADORES, EXECUTIVOS E INVESTIDORES ANTES DO EXIT|Capítulo 16 (LIQUIDEZ SECUNDÁRIA (SECONDARIES): REALIZAÇÃO PARCIAL DE CAPITAL PARA FUNDADORES, EXECUTIVOS E INVESTIDORES ANTES DO EXIT) (Vol. 9)]], Secondary.
 
 ---
 
@@ -8116,7 +8116,7 @@ Rodada bem-sucedida atinge o valor alvo em prazo planejado, com investidores div
 
 ### Ver também
 
-[[#CAPÍTULO 13 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 13 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES)]], Captação de equity. [[#CAPÍTULO 20 — TOKENIZAÇÃO PARA FOUNDERS: ATIVOS DIGITAIS, SECURITY TOKENS E QUANDO NÃO É HYPE|Capítulo 20 (TOKENIZAÇÃO PARA FOUNDERS: ATIVOS DIGITAIS, SECURITY TOKENS E QUANDO NÃO É HYPE)]], Tokenização. [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 15 — LIQUIDEZ SECUNDÁRIA (SECONDARIES): REALIZAÇÃO PARCIAL DE CAPITAL PARA FUNDADORES, EXECUTIVOS E INVESTIDORES ANTES DO EXIT|Capítulo 15 (LIQUIDEZ SECUNDÁRIA (SECONDARIES): REALIZAÇÃO PARCIAL DE CAPITAL PARA FUNDADORES, EXECUTIVOS E INVESTIDORES ANTES DO EXIT) (Vol. 9)]], Secondary e liquidez.
+[[#CAPÍTULO 13 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 13 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES)]], Captação de equity. [[#CAPÍTULO 20 — TOKENIZAÇÃO PARA FOUNDERS: ATIVOS DIGITAIS, SECURITY TOKENS E QUANDO NÃO É HYPE|Capítulo 20 (TOKENIZAÇÃO PARA FOUNDERS: ATIVOS DIGITAIS, SECURITY TOKENS E QUANDO NÃO É HYPE)]], Tokenização. [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 16 — LIQUIDEZ SECUNDÁRIA (SECONDARIES): REALIZAÇÃO PARCIAL DE CAPITAL PARA FUNDADORES, EXECUTIVOS E INVESTIDORES ANTES DO EXIT|Capítulo 16 (LIQUIDEZ SECUNDÁRIA (SECONDARIES): REALIZAÇÃO PARCIAL DE CAPITAL PARA FUNDADORES, EXECUTIVOS E INVESTIDORES ANTES DO EXIT) (Vol. 9)]], Secondary e liquidez.
 
 ---
 

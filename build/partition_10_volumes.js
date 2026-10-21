@@ -103,12 +103,14 @@ if (rawSections.size !== 175) {
   throw new Error(`Esperadas 175 seções, mas foram extraídas ${rawSections.size}`);
 }
 
-// Registrar os 25 novos capítulos do Volume 10 + os novos capítulos de Comércio Exterior (Vol. 5), Franchising (Vol. 6) e a fusão BA+DH (Vol. 9)
+// Registrar os 30 capítulos do Volume 10 + os capítulos de Comércio Exterior (Vol. 5), Franchising (Vol. 6), Service-to-Product (Vol. 3), Spin-offs e Cash Cow/Family Office (Vol. 9) e a fusão BA+DH (Vol. 9)
 const { VOL10_ECON_HUBS } = require('./vol10_econ_hubs');
 const { VOL10_VERTICALS_PART1 } = require('./vol10_verticals_part1');
 const { VOL10_VERTICALS_PART2 } = require('./vol10_verticals_part2');
 const { VOL10_VERTICALS_PART3 } = require('./vol10_verticals_part3');
+const { VOL10_VERTICALS_PART4 } = require('./vol10_verticals_part4');
 const { VOL5_VOL6_VOL9_EXTRAS } = require('./vol5_vol6_vol9_extras');
+const { VOL3_VOL9_LIFECYCLE_EXTRAS } = require('./vol3_vol9_lifecycle_extras');
 
 const origHeadingBA = rawSections.get('BA').heading;
 const origHeadingDH = rawSections.get('DH').heading;
@@ -118,8 +120,10 @@ const vol10NewModules = {
   ...VOL10_VERTICALS_PART1,
   ...VOL10_VERTICALS_PART2,
   ...VOL10_VERTICALS_PART3,
+  ...VOL10_VERTICALS_PART4,
   NEW_COMEX: VOL5_VOL6_VOL9_EXTRAS.NEW_COMEX,
   NEW_FRANCHISING: VOL5_VOL6_VOL9_EXTRAS.NEW_FRANCHISING,
+  ...VOL3_VOL9_LIFECYCLE_EXTRAS,
 };
 for (const [k, v] of Object.entries(vol10NewModules)) {
   rawSections.set(k, {
@@ -133,7 +137,7 @@ rawSections.set('BA', {
   heading: VOL5_VOL6_VOL9_EXTRAS.MERGED_BA.heading.trim(),
   body: VOL5_VOL6_VOL9_EXTRAS.MERGED_BA.body.trim(),
 });
-console.log(`      Novos capítulos de Economia da Inovação, Hubs, Verticais, Comex e Franchising carregados: ${Object.keys(vol10NewModules).length} (esperado: 27)`);
+console.log(`      Novos capítulos de Economia da Inovação, Hubs, Verticais, Comex, Franchising e Ciclo Empreendedor carregados: ${Object.keys(vol10NewModules).length} (esperado: 35)`);
 
 // ---------------------------------------------------------------------------
 // 2. Extrair todos os itens de BG (164), CZ (20), A (39), C (19) e E (18)
@@ -1288,9 +1292,9 @@ const VOLUMES_SPEC = [
     num: 3,
     slug: 'IGNICAO-Vol-3-Experimentos-e-Prototipagem',
     title: 'IGNIÇÃO — Volume 3: Hipóteses, Experimentos, Prototipagem e Modelos de Negócio',
-    subtitle: 'Método Científico, Testes de Validação, Usabilidade e Arquitetura de Plataformas (Fases 7 a 10 e Capítulos 1 a 9)',
+    subtitle: 'Método Científico, Testes de Validação, Usabilidade, Plataformas e Bootstrapping (Fases 7 a 10 e Capítulos 1 a 10)',
     about:
-      'Volume 100% autocontido dedicado à validação científica, experimentação prática e construção do protótipo testado: Formulação Rigorosa de Hipóteses (Fase 7), Experimentos de Validação com compromisso real (Fase 8), Ideação e Prototipagem de Soluções (Fase 9) e Testes de Solução, Usabilidade e Especificação de MVP (Fase 10) — trazendo embutidos 24 frameworks passo a passo de análise de risco, experimentação, design sprint e UX research, os canvases Hypothesis Canvas, Test Card, Opportunity Canvas e MVP Canvas preenchidos e 8 templates práticos —, seguidos por 9 capítulos sobre a abordagem científica ao empreendedorismo, níveis de maturidade, gates de evidência, fechamento de fase e as arquiteturas de Cunha (Wedge), Marketplaces, Efeitos de Rede/Plataformas, B2B2C e Open Source (COSS).',
+      'Volume 100% autocontido dedicado à validação científica, experimentação prática e construção do protótipo testado: Formulação Rigorosa de Hipóteses (Fase 7), Experimentos de Validação com compromisso real (Fase 8), Ideação e Prototipagem de Soluções (Fase 9) e Testes de Solução, Usabilidade e Especificação de MVP (Fase 10) — trazendo embutidos 24 frameworks passo a passo de análise de risco, experimentação, design sprint e UX research, os canvases Hypothesis Canvas, Test Card, Opportunity Canvas e MVP Canvas preenchidos e 8 templates práticos —, seguidos por 10 capítulos sobre a abordagem científica ao empreendedorismo, níveis de maturidade, gates de evidência, fechamento de fase e as arquiteturas de Cunha (Wedge), Marketplaces, Efeitos de Rede/Plataformas, B2B2C, Open Source (COSS) e Bootstrapping / Productized Services (transição Service-to-Product sem diluição).',
     blocks: [
       {
         h1: 'FASES DA ETAPA — HIPÓTESES, EXPERIMENTOS, PROTOTIPAGEM E USABILIDADE (FASES 7 A 10)',
@@ -1315,8 +1319,8 @@ const VOLUMES_SPEC = [
         ],
       },
       {
-        h1: 'ARQUITETURA DE MODELO DE NEGÓCIO: CUNHA, MARKETPLACES, PLATAFORMAS, B2B2C E OPEN SOURCE (CAPÍTULOS 5 A 9)',
-        tocGroup: 'Arquitetura de Modelo de Negócio (Capítulos 5 a 9)',
+        h1: 'ARQUITETURA DE MODELO DE NEGÓCIO: CUNHA, MARKETPLACES, PLATAFORMAS, B2B2C, OPEN SOURCE E BOOTSTRAPPING (CAPÍTULOS 5 A 10)',
+        tocGroup: 'Arquitetura de Modelo de Negócio (Capítulos 5 a 10)',
         intro: DOMAIN_INTROS.V3_BLOCO_2,
         items: [
           { type: 'chapter', key: 'L' },
@@ -1324,6 +1328,7 @@ const VOLUMES_SPEC = [
           { type: 'chapter', key: 'CC' },
           { type: 'chapter', key: 'CK' },
           { type: 'chapter', key: 'BE' },
+          { type: 'chapter', key: 'NEW_SERVICE_TO_PRODUCT' },
         ],
       },
     ],
@@ -1591,10 +1596,10 @@ const VOLUMES_SPEC = [
   {
     num: 9,
     slug: 'IGNICAO-Vol-9-Maturidade-e-Exit',
-    title: 'IGNIÇÃO — Volume 9: Maturidade, Governança, Crise e Exit',
-    subtitle: 'Segunda Curva, Conselho (Board), Internacionalização, Turnaround, M&A e IPO (Fases 19 e 20, Capítulos 1 a 21 e Epílogo)',
+    title: 'IGNIÇÃO — Volume 9: Maturidade, Governança, Crise, Exit e Family Office',
+    subtitle: 'Segunda Curva, Conselho (Board), Internacionalização, Crise, Spin-offs, M&A, IPO, Cash Cow e Family Office (Fases 19 e 20, Capítulos 1 a 23 e Epílogo)',
     about:
-      'Volume 100% autocontido sobre o ciclo longo da companhia consolidada, governança de conselho, expansão internacional, sobrevivência a crises severas e execução de saída (exit). Abre com a Fase 19 (Reinvenção e Segunda Curva) e a Fase 20 (Estratégia de Saída / Exit Strategy) — trazendo embutidos todos os 8 frameworks de planejamento de longo prazo e inovação (Scenario Planning, Hoshin Kanri, OGSM, Balanced Scorecard, Innovator\'s Dilemma, Ambidextrous Organization, Open Innovation e S-Curves), o Wardley Map Canvas e o template de Board Deck —, seguidas por 21 capítulos em ordem cronológica sobre Board Management, empresas familiares e sucessão, conflito societário, ESG/Sistema B, internacionalização e Cayman/Delaware Flip, imigração/vistos, hedge cambial, tesouraria multi-moeda, gestão e comunicação em crise, layoffs, recuperação judicial e wind-down, M&A buy-side e roll-ups, Search Funds (ETA), Liquidez Secundária (Secondaries unificado), IPO na B3 e Nasdaq/NYSE, tributação de exit na pessoa física, transição pós-aquisição, retenção pós-M&A/earnout, post-mortems brasileiros, second-time founders e o Epílogo da coleção.',
+      'Volume 100% autocontido sobre o ciclo longo da companhia consolidada, governança de conselho, expansão internacional, sobrevivência a crises severas, execução de saída (exit), geração perpétua de dividendos (Cash Cow) e gestão patrimonial em Family Office. Abre com a Fase 19 (Reinvenção e Segunda Curva) e a Fase 20 (Estratégia de Saída / Exit Strategy) — trazendo embutidos todos os 8 frameworks de planejamento de longo prazo e inovação (Scenario Planning, Hoshin Kanri, OGSM, Balanced Scorecard, Innovator\'s Dilemma, Ambidextrous Organization, Open Innovation e S-Curves), o Wardley Map Canvas e o template de Board Deck —, seguidas por 23 capítulos em ordem cronológica sobre Board Management, empresas familiares e sucessão, conflito societário, ESG/Sistema B, internacionalização e Cayman/Delaware Flip, imigração/vistos, hedge cambial, tesouraria multi-moeda, gestão e comunicação em crise, layoffs, recuperação judicial e wind-down, M&A buy-side e roll-ups, Search Funds (ETA), Spin-offs e Carve-outs Corporativos, Liquidez Secundária (Secondaries unificado), IPO na B3 e Nasdaq/NYSE, tributação de exit na pessoa física, transição pós-aquisição, retenção pós-M&A/earnout, post-mortems brasileiros, second-time founders, a Empresa Cash Cow (dividendos vitalícios com CEO profissional) + Holdings Patrimoniais, Offshores (Lei 14.754/2023) e Family Office pós-liquidez, e o Epílogo da coleção.',
     blocks: [
       {
         h1: 'FASES DA ETAPA — MATURIDADE, SEGUNDA CURVA E ESTRATÉGIA DE SAÍDA (FASES 19 E 20)',
@@ -1639,12 +1644,13 @@ const VOLUMES_SPEC = [
         ],
       },
       {
-        h1: 'M&A, SEARCH FUNDS, LIQUIDEZ SECUNDÁRIA, IPO, TRIBUTAÇÃO, TRANSIÇÃO PÓS-EXIT E NOVO CICLO (CAPÍTULOS 13 A 21)',
-        tocGroup: 'M&A, Search Funds, Liquidez Secundária, IPO, Tributação, Transição Pós-Exit e Novo Ciclo (Capítulos 13 a 21)',
+        h1: 'M&A, SEARCH FUNDS, SPIN-OFFS, LIQUIDEZ SECUNDÁRIA, IPO, TRIBUTAÇÃO, PÓS-EXIT, CASH COW E FAMILY OFFICE (CAPÍTULOS 13 A 23)',
+        tocGroup: 'M&A, Search Funds, Spin-offs, Liquidez Secundária, IPO, Tributação, Pós-Exit, Cash Cow e Family Office (Capítulos 13 a 23)',
         intro: DOMAIN_INTROS.V9_BLOCO_4,
         items: [
           { type: 'chapter', key: 'BJ' },
           { type: 'chapter', key: 'BL' },
+          { type: 'chapter', key: 'NEW_SPINOFF_CARVEOUT' },
           { type: 'chapter', key: 'BA' },
           { type: 'chapter', key: 'DE' },
           { type: 'chapter', key: 'DG' },
@@ -1652,6 +1658,7 @@ const VOLUMES_SPEC = [
           { type: 'chapter', key: 'DI' },
           { type: 'chapter', key: 'BH' },
           { type: 'chapter', key: 'BF' },
+          { type: 'chapter', key: 'NEW_CASHCOW_FAMILY_OFFICE' },
         ],
       },
       {
@@ -1665,10 +1672,10 @@ const VOLUMES_SPEC = [
   {
     num: 10,
     slug: 'IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario',
-    title: 'IGNIÇÃO — Volume 10: Economia da Inovação, Hubs Globais e Playbooks das 32 Verticais',
-    subtitle: 'Ecossistemas, Geografia de Hubs por Continente, Regulação, 32 Verticais da Economia Real e Dicionário da Coleção (Capítulos 1 a 38 e Índices)',
+    title: 'IGNIÇÃO — Volume 10: Economia da Inovação, Hubs Globais e Playbooks das 37 Verticais',
+    subtitle: 'Ecossistemas, Geografia de Hubs por Continente, Regulação, 37 Verticais da Economia Real e Dicionário da Coleção (Capítulos 1 a 43 e Índices)',
     about:
-      'Volume de fechamento da coleção IGNIÇÃO, reunindo três acervos essenciais e sem excessos: (1) a Economia da Inovação e seus Atores (Universidades/ICTs, Governo/Fomento, Corporações/CVC, Venture Studios e toda a escada do Capital de Risco), a Geografia Mundial da Inovação por Continente (América do Norte, Europa, Ásia-Pacífico, Oriente Médio, África e América Latina), as 5 vantagens competitivas estruturais do Brasil e a radiografia dos 15 principais Hubs de Inovação Brasileiros, seguidos pelo quadro macroeconômico, autarquias reguladoras (BACEN, CVM, SUSEP, ANVISA, ANS, ANATEL, ANEEL, ANP), CADE/Antitruste e Políticas Públicas (Capítulos 1 a 6); (2) os 32 Playbooks Setoriais completos cobrindo todas as grandes verticais da economia real (Capítulos 7 a 38); e (3) o Dicionário, a Bibliografia e os Índices Gerais Unificados da Coleção.',
+      'Volume de fechamento da coleção IGNIÇÃO, reunindo três acervos essenciais e sem excessos: (1) a Economia da Inovação e seus Atores (Universidades/ICTs, Governo/Fomento, Corporações/CVC, Venture Studios e toda a escada do Capital de Risco), a Geografia Mundial da Inovação por Continente (América do Norte, Europa, Ásia-Pacífico, Oriente Médio, África e América Latina), as 5 vantagens competitivas estruturais do Brasil e a radiografia dos 15 principais Hubs de Inovação Brasileiros, seguidos pelo quadro macroeconômico, autarquias reguladoras (BACEN, CVM, SUSEP, ANVISA, ANS, ANATEL, ANEEL, ANP), CADE/Antitruste e Políticas Públicas (Capítulos 1 a 6); (2) os 37 Playbooks Setoriais completos cobrindo todas as grandes verticais e máquinas de caixa da economia real (Capítulos 7 a 43); e (3) o Dicionário, a Bibliografia e os Índices Gerais Unificados da Coleção.',
     blocks: [
       {
         h1: 'ECONOMIA DA INOVAÇÃO, GEOGRAFIA MUNDIAL DE HUBS, MACROECONOMIA E REGULAÇÃO (CAPÍTULOS 1 A 6)',
@@ -1695,33 +1702,36 @@ const VOLUMES_SPEC = [
         ],
       },
       {
-        h1: 'CLUSTER II — AGRO, INFRAESTRUTURA, ENERGIA, CLIMA, RECURSOS NATURAIS E INDÚSTRIA (CAPÍTULOS 11 A 17)',
-        tocGroup: 'Cluster II — Agro, Infraestrutura, Energia, Clima, Recursos Naturais e Indústria (Capítulos 11 a 17)',
+        h1: 'CLUSTER II — AGRO, INFRAESTRUTURA, ENERGIA, CLIMA, RESÍDUOS/FLORESTAL, RECURSOS NATURAIS E INDÚSTRIA (CAPÍTULOS 11 A 18)',
+        tocGroup: 'Cluster II — Agro, Infraestrutura, Energia, Clima, Resíduos/Florestal, Recursos Naturais e Indústria (Capítulos 11 a 18)',
         intro: DOMAIN_INTROS.V10_CLUSTER_2,
         items: [
           { type: 'chapter', key: 'DL' },
           { type: 'chapter', key: 'V_INFRATECH' },
           { type: 'chapter', key: 'V_ENERGYTECH' },
           { type: 'chapter', key: 'DN' },
+          { type: 'chapter', key: 'V_WASTE_FORESTRY' },
           { type: 'chapter', key: 'V_MINING_OIL' },
           { type: 'chapter', key: 'V_INDUSTRIA40' },
           { type: 'chapter', key: 'CA' },
         ],
       },
       {
-        h1: 'CLUSTER III — LOGÍSTICA, MOBILIDADE, IMOBILIÁRIO, CONSTRUÇÃO E AEROESPACIAL/DEFESA (CAPÍTULOS 18 A 21)',
-        tocGroup: 'Cluster III — Logística, Mobilidade, Imobiliário, Construção e Aeroespacial/Defesa (Capítulos 18 a 21)',
+        h1: 'CLUSTER III — LOGÍSTICA, MOBILIDADE, IMOBILIÁRIO, SEGURANÇA/FACILITIES, TELECOM/DATA CENTERS E AEROESPACIAL (CAPÍTULOS 19 A 24)',
+        tocGroup: 'Cluster III — Logística, Mobilidade, Imobiliário, Segurança/Facilities, Telecom/Data Centers e Aeroespacial (Capítulos 19 a 24)',
         intro: DOMAIN_INTROS.V10_CLUSTER_3,
         items: [
           { type: 'chapter', key: 'DQ' },
           { type: 'chapter', key: 'V_MOBITECH' },
           { type: 'chapter', key: 'DO' },
+          { type: 'chapter', key: 'V_SECURITY_FACILITIES' },
+          { type: 'chapter', key: 'V_TELECOM_DATACENTER' },
           { type: 'chapter', key: 'V_AEROSPACE' },
         ],
       },
       {
-        h1: 'CLUSTER IV — SAÚDE, EDUCAÇÃO, GOVERNO E SETOR JURÍDICO (CAPÍTULOS 22 A 25)',
-        tocGroup: 'Cluster IV — Saúde, Educação, Governo e Setor Jurídico (Capítulos 22 a 25)',
+        h1: 'CLUSTER IV — SAÚDE, EDUCAÇÃO, GOVERNO E SETOR JURÍDICO (CAPÍTULOS 25 A 28)',
+        tocGroup: 'Cluster IV — Saúde, Educação, Governo e Setor Jurídico (Capítulos 25 a 28)',
         intro: DOMAIN_INTROS.V10_CLUSTER_4,
         items: [
           { type: 'chapter', key: 'CM' },
@@ -1731,23 +1741,25 @@ const VOLUMES_SPEC = [
         ],
       },
       {
-        h1: 'CLUSTER V — VAREJO, ALIMENTAÇÃO, BENS DE CONSUMO (D2C), TURISMO, PET E LONGEVIDADE (CAPÍTULOS 26 A 29)',
-        tocGroup: 'Cluster V — Varejo, Alimentação, Bens de Consumo (D2C), Turismo, Pet e Longevidade (Capítulos 26 a 29)',
+        h1: 'CLUSTER V — VAREJO, ALIMENTAÇÃO, BENS DE CONSUMO (D2C), TURISMO, PET, LONGEVIDADE E SETOR FUNERÁRIO/ASSISTENCIAL (CAPÍTULOS 29 A 33)',
+        tocGroup: 'Cluster V — Varejo, Alimentação, Bens de Consumo (D2C), Turismo, Pet, Longevidade e Setor Funerário/Assistencial (Capítulos 29 a 33)',
         intro: DOMAIN_INTROS.V10_CLUSTER_5,
         items: [
           { type: 'chapter', key: 'V_RETAILTECH' },
           { type: 'chapter', key: 'V_FOODTECH' },
           { type: 'chapter', key: 'V_D2C_WELLNESS' },
           { type: 'chapter', key: 'V_TRAVEL_PET_SILVER' },
+          { type: 'chapter', key: 'V_FUNERAL_DEATHTECH' },
         ],
       },
       {
-        h1: 'CLUSTER VI — SOFTWARE CORPORATIVO (SAAS), IA, CIBERSEGURANÇA, DEVTOOLS, RH, MARKETING, CREATOR ECONOMY E GAMES (CAPÍTULOS 30 A 38)',
-        tocGroup: 'Cluster VI — Software Corporativo (SaaS), IA, Cibersegurança, DevTools, RH, Marketing, Creator Economy e Games (Capítulos 30 a 38)',
+        h1: 'CLUSTER VI — SOFTWARE CORPORATIVO (SAAS), SERVIÇOS B2B TECH-ENABLED, IA, CIBERSEGURANÇA, DEVTOOLS, RH, MARKETING, CREATOR ECONOMY E GAMES (CAPÍTULOS 34 A 43)',
+        tocGroup: 'Cluster VI — Software Corporativo (SaaS), Serviços B2B Tech-Enabled, IA, Cibersegurança, DevTools, RH, Marketing, Creator Economy e Games (Capítulos 34 a 43)',
         intro: DOMAIN_INTROS.V10_CLUSTER_6,
         items: [
           { type: 'chapter', key: 'V_HORIZONTAL_SAAS' },
           { type: 'chapter', key: 'V_VERTICAL_SAAS' },
+          { type: 'chapter', key: 'V_TECH_SERVICES' },
           { type: 'chapter', key: 'V_AI_NATIVE' },
           { type: 'chapter', key: 'V_CYBERSECURITY' },
           { type: 'chapter', key: 'V_DEVTOOLS_CLOUD' },
@@ -1818,8 +1830,8 @@ graph LR
         V3 --> V4 --> V5 --> V6 --> V7 --> V8
     end
     subgraph J3["Ciclo Longo e Setores"]
-        V9["<b>Vol. 9 — Maturidade e Exit</b><br/>Fases 19 e 20 · Board, Crise, M&A e IPO"]
-        V10["<b>Vol. 10 — Economia da Inovação e 32 Verticais</b><br/>Hubs Globais, Regulação, 32 Setores e Dicionário"]
+        V9["<b>Vol. 9 — Maturidade, Exit e Family Office</b><br/>Fases 19 e 20 · Board, Crise, M&A, IPO e Cash Cow"]
+        V10["<b>Vol. 10 — Economia da Inovação e 37 Verticais</b><br/>Hubs Globais, Regulação, 37 Setores e Dicionário"]
         V8 --> V9
     end
     V10 -. "Consulta Setorial e Dicionário" .-> J1
@@ -1829,7 +1841,7 @@ graph LR
 
 const SOBRE_ESTE_LIVRO_V1 = `## Sobre este livro
 
-**IGNIÇÃO** é um manual operacional em **10 volumes autocontidos** para fundadores e equipes executivas construindo empresas no Brasil — da preparação pessoal antes do CNPJ (Fase 0) até a segunda curva de crescimento e o *exit* via M&A ou IPO (Fase 20).
+**IGNIÇÃO** é um manual operacional em **10 volumes autocontidos** para fundadores e equipes executivas construindo empresas no Brasil — da preparação pessoal antes do CNPJ (Fase 0) até a segunda curva de crescimento, o *exit* via M&A ou IPO (Fase 20) ou a perenidade como máquina de dividendos (*Cash Cow* e *Family Office*).
 
 Cada volume da coleção foi desenhado para funcionar como um **livro completo e independente**: todos os **Frameworks passo a passo**, **Canvases Visuais preenchidos com casos brasileiros**, **Templates operacionais prontos para uso**, **Tabelas de Métricas**, **Guias de Leitura** e **Glossários de Termos e Siglas** estão integrados diretamente dentro de cada volume, sem que você precise abrir outro livro para executar sua etapa atual.
 
@@ -1837,14 +1849,14 @@ A coleção está organizada em **10 volumes focais**:
 
 - **Volume 1 — Ideação e Fundação (este volume):** Fases 0 a 3 + 13 Capítulos de preparação financeira e mental do fundador, dinâmica de cofundadores, vieses, tomada de decisão, comunicação, produtividade com IA, aceleradoras e mentores.
 - **Volume 2 — Descoberta de Cliente e Mapeamento de Mercado:** Fases 4 a 6 + 4 Capítulos de psicologia do consumidor brasileiro, inteligência competitiva, Category Design e posicionamento estratégico.
-- **Volume 3 — Hipóteses, Experimentos, Prototipagem e Modelos de Negócio:** Fases 7 a 10 + 9 Capítulos sobre método científico, níveis de maturidade, gates de evidência, fechamento de fase, o framework *Idea → Wedge → Scale* e as arquiteturas de Marketplaces, Efeitos de Rede/Plataformas, B2B2C e Open Source (COSS).
+- **Volume 3 — Hipóteses, Experimentos, Prototipagem e Modelos de Negócio:** Fases 7 a 10 + 10 Capítulos sobre método científico, níveis de maturidade, gates de evidência, fechamento de fase, o framework *Idea → Wedge → Scale* e as arquiteturas de Marketplaces, Efeitos de Rede/Plataformas, B2B2C, Open Source (COSS) e Bootstrapping / *Productized Services* (transição *Service-to-Product*).
 - **Volume 4 — Tração, Go-to-Market e Product-Market Fit:** Fases 11 a 13 + 16 Capítulos de GTM inicial, canais de aquisição, marketing, vendas consultivas, pricing, recorrência, negociação, Customer Success, CX, analytics, produto AI-native e pivô.
 - **Volume 5 — Finanças, Captação e Venture Capital:** Fase 14 + 21 Capítulos de demonstrativos financeiros, contabilidade, Reforma Tributária, modelagem operacional, coortes, FP&A, capital de giro, bancos, Comércio Exterior e Importação (Ásia-Brasil), caixa, seguros, captação de VC, valuation, SAFE/mútuo, fomento não-diluitivo e venture debt.
 - **Volume 6 — Receita Enterprise, Liderança e Cultura:** Fases 15 e 16 + 20 Capítulos de Growth em escala, vendas Enterprise, RevOps, parcerias corporativas, canais indiretos, Franchising e Licenciamento (Lei 13.966/2019), marca/PR, Founder Mode, rotina do CEO, contratação C-level, performance, remuneração, ESOP e cultura.
 - **Volume 7 — Produto, Engenharia, Dados, IA e Operações:** Fase 17 + 11 Capítulos de discovery contínuo, gestão de engenharia, dívida técnica, IA na engenharia de software, AI Ops, design organizacional, gestão do conhecimento e excelência operacional.
 - **Volume 8 — Blindagem Jurídica, Societária, LGPD e Segurança:** Fase 18 + 14 Capítulos de Marco Legal das Startups, responsabilidade dos sócios, propriedade intelectual/INPI, non-compete, contratos, direito do trabalho, CDC, contencioso, LGPD, regulação de IA, compliance, prevenção a fraudes e SOC 2 / ISO 27001.
-- **Volume 9 — Maturidade, Governança, Crise e Exit:** Fases 19 e 20 + 21 Capítulos de Conselho de Administração (Board), empresas familiares, conflitos societários, internacionalização, câmbio/tesouraria, gestão de crise, layoffs, recuperação judicial, M&A buy-side, Search Funds, Liquidez Secundária (Secondaries), IPO, tributação de exit, transição pós-M&A, post-mortems e second-time founders + Epílogo.
-- **Volume 10 — Economia da Inovação, Hubs Globais e Playbooks das 32 Verticais:** 38 Capítulos cobrindo a Economia da Inovação e seus Atores, a Geografia Mundial de Hubs por Continente e os 15 Polos Brasileiros, Ciclos Macroeconômicos, Autarquias Reguladoras, CADE, Políticas Públicas e os **32 Playbooks Setoriais** da economia real (de Fintech, Crédito, Insurtech, Wealthtech, Agritech, Infratech, Energytech, Cleantech, Miningtech e Indústria 4.0 até Hardware, Logtech, Mobitech, Proptech, Aerospace, Biotech/Healthtech, Edtech, Govtech, Legaltech, Retailtech, Foodtech, D2C/Wellness, Travel/Pet/Silver, Horizontal/Vertical SaaS, AI-Native, Cybersecurity, DevTools, HRTech, Martech, Creator Economy e Gaming), seguidos pelo Dicionário e Índices Unificados da Coleção.`;
+- **Volume 9 — Maturidade, Governança, Crise, Exit e Family Office:** Fases 19 e 20 + 23 Capítulos de Conselho de Administração (Board), empresas familiares, conflitos societários, internacionalização, câmbio/tesouraria, gestão de crise, layoffs, recuperação judicial, M&A buy-side, Search Funds, Spin-offs e Carve-outs, Liquidez Secundária (Secondaries), IPO, tributação de exit, transição pós-M&A, post-mortems, second-time founders e a Empresa *Cash Cow* (dividendos vitalícios) + Holdings Patrimoniais, Offshores e *Family Office* + Epílogo.
+- **Volume 10 — Economia da Inovação, Hubs Globais e Playbooks das 37 Verticais:** 43 Capítulos cobrindo a Economia da Inovação e seus Atores, a Geografia Mundial de Hubs por Continente e os 15 Polos Brasileiros, Ciclos Macroeconômicos, Autarquias Reguladoras, CADE, Políticas Públicas e os **37 Playbooks Setoriais** da economia real (de Fintech, Crédito, Insurtech, Wealthtech, Agritech, Infratech, Energytech, Cleantech, Resíduos/Biometano/Celulose, Miningtech e Indústria 4.0 até Hardware, Logtech, Mobitech, Proptech, Segurança Privada/Portaria Remota/Facilities, Telecom/ISPs/Data Centers de IA, Aerospace, Biotech/Healthtech, Edtech, Govtech, Legaltech, Retailtech, Foodtech, D2C/Wellness, Travel/Pet/Silver, Setor Funerário/Assistência Familiar/DeathTech, Horizontal/Vertical SaaS, Serviços Profissionais B2B/Consultorias/Nearshoring, AI-Native, Cybersecurity, DevTools, HRTech, Martech, Creator Economy e Gaming), seguidos pelo Dicionário e Índices Unificados da Coleção.`;
 
 // Mapas de resolução de links e referências
 const oldAnchorToNew = new Map(); // slugify(oldAnchor) -> { volNum, volSlug, heading, displayLabel }

@@ -62,7 +62,7 @@ const COVERS = [
     file: 'cover-vol-3.png',
     topMark: 'Coleção IGNIÇÃO · Volume 3 de 10 (Autocontido)',
     volBadge: 'VOL. 3 · HIPÓTESES E PROTÓTIPO',
-    subtitle: 'Método Científico, Experimentos, Usabilidade e Modelos de Negócio (Fases 7 a 10 e Capítulos 1 a 9)',
+    subtitle: 'Método Científico, Experimentos, Usabilidade e Modelos de Negócio (Fases 7 a 10 e Capítulos 1 a 10)',
     gradient: 'linear-gradient(135deg, #041f10 0%, #0f3d21 35%, #15803d 75%, #34d399 100%)',
   },
   {
@@ -103,15 +103,15 @@ const COVERS = [
   {
     file: 'cover-vol-9.png',
     topMark: 'Coleção IGNIÇÃO · Volume 9 de 10 (Autocontido)',
-    volBadge: 'VOL. 9 · MATURIDADE E EXIT',
-    subtitle: 'Segunda Curva, Conselho (Board), Internacionalização, Crise, M&A, Secondaries e IPO (Fases 19 e 20 e Capítulos 1 a 21)',
+    volBadge: 'VOL. 9 · MATURIDADE, EXIT E FAMILY OFFICE',
+    subtitle: 'Segunda Curva, Conselho (Board), Crise, Spin-offs, M&A, IPO, Cash Cow e Family Office (Fases 19 e 20 e Capítulos 1 a 23)',
     gradient: 'linear-gradient(135deg, #180828 0%, #3b0764 35%, #86198f 75%, #e879f9 100%)',
   },
   {
     file: 'cover-vol-10.png',
     topMark: 'Coleção IGNIÇÃO · Volume 10 de 10 (Autocontido)',
-    volBadge: 'VOL. 10 · ECONOMIA DA INOVAÇÃO E 32 VERTICAIS',
-    subtitle: 'Atores da Inovação, Hubs Globais e Brasileiros, Regulação, 32 Verticais e Dicionário (Capítulos 1 a 38)',
+    volBadge: 'VOL. 10 · ECONOMIA DA INOVAÇÃO E 37 VERTICAIS',
+    subtitle: 'Atores da Inovação, Hubs Globais e Brasileiros, Regulação, 37 Verticais e Dicionário (Capítulos 1 a 43)',
     gradient: 'linear-gradient(135deg, #090d16 0%, #1e293b 40%, #334155 75%, #94a3b8 100%)',
   },
 ];

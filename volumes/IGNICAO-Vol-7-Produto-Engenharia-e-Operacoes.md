@@ -44,8 +44,8 @@ graph LR
         V3 --> V4 --> V5 --> V6 --> V7 --> V8
     end
     subgraph J3["Ciclo Longo e Setores"]
-        V9["<b>Vol. 9 — Maturidade e Exit</b><br/>Fases 19 e 20 · Board, Crise, M&A e IPO"]
-        V10["<b>Vol. 10 — Economia da Inovação e 32 Verticais</b><br/>Hubs Globais, Regulação, 32 Setores e Dicionário"]
+        V9["<b>Vol. 9 — Maturidade, Exit e Family Office</b><br/>Fases 19 e 20 · Board, Crise, M&A, IPO e Cash Cow"]
+        V10["<b>Vol. 10 — Economia da Inovação e 37 Verticais</b><br/>Hubs Globais, Regulação, 37 Setores e Dicionário"]
         V8 --> V9
     end
     V10 -. "Consulta Setorial e Dicionário" .-> J1
@@ -4166,7 +4166,7 @@ CUSTOS E QUALIDADE
 
 **Ver também:**
 
-- [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 17 — HARDWARE E DEEP TECH: CONSTRUIR NEGÓCIO COM FABRICAÇÃO, IP E HORIZONTES LONGOS|Capítulo 17 — Cultura e Gestão de Pessoas (Vol. 10)]] — como introduzir ferramentas de IA sem gerar resistência no time
+- [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 18 — HARDWARE E DEEP TECH: CONSTRUIR NEGÓCIO COM FABRICAÇÃO, IP E HORIZONTES LONGOS|Capítulo 18 — Cultura e Gestão de Pessoas (Vol. 10)]] — como introduzir ferramentas de IA sem gerar resistência no time
 - [[#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvases e Mapas Visuais]] — ferramentas para mapear workflows antes de automatizá-los
 - [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 11 — MVP E EXPERIMENTOS DE MERCADO|Fase 11 — MVP e Experimentos de Mercado (Vol. 4)]] — quando AI Ops começa a fazer sentido operacional
 - [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 15 — MÁQUINA DE CRESCIMENTO E EXPANSÃO EM ESCALA|Fase 15 — Máquina de Crescimento e Expansão em Escala (Vol. 6)]] — como escalar operações com IA sem perder qualidade
@@ -4250,7 +4250,7 @@ O fundador-leitor que tenta montar o ciclo completo de gestao de pessoas precisa
 **Saida**
 
 - [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 11 — LAYOFFS E DOWNSIZING: COMO DEMITIR EM ESCALA SEM DESTRUIR A EMPRESA|Capítulo 11 (LAYOFFS E DOWNSIZING: COMO DEMITIR EM ESCALA SEM DESTRUIR A EMPRESA) (Vol. 9)]], layoffs
-- [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 19 — RETENÇÃO DE TALENTOS APÓS M&A: O QUE MUDA E O QUE SE PERDE|Capítulo 19 (RETENÇÃO DE TALENTOS APÓS M&A: O QUE MUDA E O QUE SE PERDE) (Vol. 9)]], retencao pos M&A
+- [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 20 — RETENÇÃO DE TALENTOS APÓS M&A: O QUE MUDA E O QUE SE PERDE|Capítulo 20 (RETENÇÃO DE TALENTOS APÓS M&A: O QUE MUDA E O QUE SE PERDE) (Vol. 9)]], retencao pos M&A
 
 ---
 

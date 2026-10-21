@@ -4,69 +4,69 @@
     "file": "volumes/IGNICAO-Vol-1-Ideacao.md",
     "title": "IGNIÇÃO — Volume 1: Ideação e Fundação",
     "subtitle": "Do Pré-Zero à Teoria do Negócio (Fases 0 a 3 e Capítulos 1 a 13)",
-    "words": 112740
+    "words": 112793
   },
   {
     "num": 2,
     "file": "volumes/IGNICAO-Vol-2-Descoberta-e-Mercado.md",
     "title": "IGNIÇÃO — Volume 2: Descoberta de Cliente e Mapeamento de Mercado",
     "subtitle": "Customer Discovery, Pesquisa de Campo, Concorrência e Cunha Estratégica (Fases 4 a 6 e Capítulos 1 a 4)",
-    "words": 82473
+    "words": 82477
   },
   {
     "num": 3,
     "file": "volumes/IGNICAO-Vol-3-Experimentos-e-Prototipagem.md",
     "title": "IGNIÇÃO — Volume 3: Hipóteses, Experimentos, Prototipagem e Modelos de Negócio",
-    "subtitle": "Método Científico, Testes de Validação, Usabilidade e Arquitetura de Plataformas (Fases 7 a 10 e Capítulos 1 a 9)",
-    "words": 77452
+    "subtitle": "Método Científico, Testes de Validação, Usabilidade, Plataformas e Bootstrapping (Fases 7 a 10 e Capítulos 1 a 10)",
+    "words": 80563
   },
   {
     "num": 4,
     "file": "volumes/IGNICAO-Vol-4-Tracao-e-PMF.md",
     "title": "IGNIÇÃO — Volume 4: Tração, Go-to-Market e Product-Market Fit",
     "subtitle": "Do MVP em Produção ao PMF, Canais, Vendas e Pricing (Fases 11 a 13 e Capítulos 1 a 16)",
-    "words": 103509
+    "words": 103513
   },
   {
     "num": 5,
     "file": "volumes/IGNICAO-Vol-5-Financas-e-Captacao.md",
     "title": "IGNIÇÃO — Volume 5: Finanças, Captação e Venture Capital",
     "subtitle": "Contabilidade, Reforma Tributária, FP&A, Comércio Exterior, Caixa e Rodadas de Investimento (Fase 14 e Capítulos 1 a 21)",
-    "words": 94190
+    "words": 94194
   },
   {
     "num": 6,
     "file": "volumes/IGNICAO-Vol-6-Receita-e-Pessoas.md",
     "title": "IGNIÇÃO — Volume 6: Receita Enterprise, Liderança e Cultura",
     "subtitle": "Máquina Comercial em Escala, RevOps, Franchising, Liderança Executiva, Talentos e ESOP (Fases 15 e 16 e Capítulos 1 a 20)",
-    "words": 109559
+    "words": 109563
   },
   {
     "num": 7,
     "file": "volumes/IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes.md",
     "title": "IGNIÇÃO — Volume 7: Produto, Engenharia, Dados, IA e Operações",
     "subtitle": "Discovery Contínuo, Gestão Técnica, Dívida Técnica, AI Ops e Design Organizacional (Fase 17 e Capítulos 1 a 11)",
-    "words": 59825
+    "words": 59829
   },
   {
     "num": 8,
     "file": "volumes/IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca.md",
     "title": "IGNIÇÃO — Volume 8: Blindagem Jurídica, Societária, LGPD e Segurança",
     "subtitle": "Estruturação Societária, Contratos, Trabalhista, Propriedade Intelectual, Compliance e Cibersegurança (Fase 18 e Capítulos 1 a 14)",
-    "words": 63507
+    "words": 63511
   },
   {
     "num": 9,
     "file": "volumes/IGNICAO-Vol-9-Maturidade-e-Exit.md",
-    "title": "IGNIÇÃO — Volume 9: Maturidade, Governança, Crise e Exit",
-    "subtitle": "Segunda Curva, Conselho (Board), Internacionalização, Turnaround, M&A e IPO (Fases 19 e 20, Capítulos 1 a 21 e Epílogo)",
-    "words": 98200
+    "title": "IGNIÇÃO — Volume 9: Maturidade, Governança, Crise, Exit e Family Office",
+    "subtitle": "Segunda Curva, Conselho (Board), Internacionalização, Crise, Spin-offs, M&A, IPO, Cash Cow e Family Office (Fases 19 e 20, Capítulos 1 a 23 e Epílogo)",
+    "words": 103762
   },
   {
     "num": 10,
     "file": "volumes/IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario.md",
-    "title": "IGNIÇÃO — Volume 10: Economia da Inovação, Hubs Globais e Playbooks das 32 Verticais",
-    "subtitle": "Ecossistemas, Geografia de Hubs por Continente, Regulação, 32 Verticais da Economia Real e Dicionário da Coleção (Capítulos 1 a 38 e Índices)",
-    "words": 138479
+    "title": "IGNIÇÃO — Volume 10: Economia da Inovação, Hubs Globais e Playbooks das 37 Verticais",
+    "subtitle": "Ecossistemas, Geografia de Hubs por Continente, Regulação, 37 Verticais da Economia Real e Dicionário da Coleção (Capítulos 1 a 43 e Índices)",
+    "words": 155241
   }
 ]

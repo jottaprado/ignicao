@@ -44,8 +44,8 @@ graph LR
         V3 --> V4 --> V5 --> V6 --> V7 --> V8
     end
     subgraph J3["Ciclo Longo e Setores"]
-        V9["<b>Vol. 9 — Maturidade e Exit</b><br/>Fases 19 e 20 · Board, Crise, M&A e IPO"]
-        V10["<b>Vol. 10 — Economia da Inovação e 32 Verticais</b><br/>Hubs Globais, Regulação, 32 Setores e Dicionário"]
+        V9["<b>Vol. 9 — Maturidade, Exit e Family Office</b><br/>Fases 19 e 20 · Board, Crise, M&A, IPO e Cash Cow"]
+        V10["<b>Vol. 10 — Economia da Inovação e 37 Verticais</b><br/>Hubs Globais, Regulação, 37 Setores e Dicionário"]
         V8 --> V9
     end
     V10 -. "Consulta Setorial e Dicionário" .-> J1
@@ -5476,7 +5476,7 @@ Use a lista abaixo para auditoria. Marque o que já está em pé. O que falta vi
 > [!abstract] Posicao no livro
 > Parceria corporativa como canal e como armadilha, ciclo de doze a vinte e quatro meses, governanca de inovacao versus tesouraria. Vizinhos relevantes,
 > - [[#CAPÍTULO 6 — CANAIS INDIRETOS E PARCERIAS: PARCERIAS, FRANQUIAS, CHANNEL|Capítulo 6 (CANAIS INDIRETOS E PARCERIAS: PARCERIAS, FRANQUIAS, CHANNEL)]], parceria como canal estruturado de distribuicao
-> - [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 24 — GOVTECH: STARTUP VENDENDO PARA GOVERNO|Capítulo 24 (GOVTECH: STARTUP VENDENDO PARA GOVERNO) (Vol. 10)]], analogia operacional, ambos compradores institucionais com ciclo longo
+> - [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 27 — GOVTECH: STARTUP VENDENDO PARA GOVERNO|Capítulo 27 (GOVTECH: STARTUP VENDENDO PARA GOVERNO) (Vol. 10)]], analogia operacional, ambos compradores institucionais com ciclo longo
 > - [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 11 — NEGOCIAÇÃO COMO DISCIPLINA|Capítulo 11 (NEGOCIAÇÃO COMO DISCIPLINA) (Vol. 4)]], framework de negociacao para deals com elefantes
 > - [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 13 — CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 13 (CAPTAÇÃO DE EQUITY, PITCH E RELACIONAMENTO COM INVESTIDORES) (Vol. 5)]], CVC (corporate venture capital) como vertente de investimento
 
@@ -6365,7 +6365,7 @@ Vazamento de dados (LGPD) exige comunicação imediata obrigatória para ANPD e 
 
 Demissão em massa afeta imagem interna e externa. Fundador comunica internamente primeiro (allhands honesto) e externamente depois (com transparência calibrada). Algumas empresas comunicaram bem demissões em 2022 e 2023 (Loft, Quinto Andar em algumas rodadas), outras mal, com vazamentos internos que escalaram.
 
-Crise financeira, rodada não-fechada ou insolvência iminente exige comunicação sequenciada para time, investidores atuais, credores e clientes, cada um em ordem e momento apropriado. Advogado de insolvência (se for o caso) e assessoria jurídica obrigatórios antes de comunicar externamente. O caso 123 Milhas em 2023 é exemplo de comunicação inicial fraca que amplificou a crise (ver [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 20 — POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE|Capítulo 20 (POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE) (Vol. 9)]]).
+Crise financeira, rodada não-fechada ou insolvência iminente exige comunicação sequenciada para time, investidores atuais, credores e clientes, cada um em ordem e momento apropriado. Advogado de insolvência (se for o caso) e assessoria jurídica obrigatórios antes de comunicar externamente. O caso 123 Milhas em 2023 é exemplo de comunicação inicial fraca que amplificou a crise (ver [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 21 — POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE|Capítulo 21 (POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE) (Vol. 9)]]).
 
 Escândalo (fraude, assédio, má conduta) exige investigação antes de qualquer posicionamento público. Falar sem saber vira passivo legal e reputacional maior. Advogado, RH e assessoria juntos definem narrativa. Fundador fala apenas com roteiro validado. Transparência calibrada: não mentir, mas também não especular publicamente.
 
@@ -6391,11 +6391,11 @@ Conflito com investidor, saída de sócio ou briga de board: regra geral é sil�
 
 **Exemplo positivo comparativo**: vazamentos de dados em Nubank ao longo dos anos, comunicação transparente, rápida, com medidas de mitigação claras. Preservou confiança.
 
-**Exemplo negativo comparativo**: Americanas 2023, comunicação inicial minimizando problema ("inconsistências contábeis" para R$ 20-40 bi de fraude) destruiu credibilidade restante. Fundadores (trio 3G) silenciaram publicamente por meses, vácuo foi preenchido por especulação e vazamentos. Ver [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 20 — POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE|Capítulo 20 (POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE) (Vol. 9)]] para análise completa.
+**Exemplo negativo comparativo**: Americanas 2023, comunicação inicial minimizando problema ("inconsistências contábeis" para R$ 20-40 bi de fraude) destruiu credibilidade restante. Fundadores (trio 3G) silenciaram publicamente por meses, vácuo foi preenchido por especulação e vazamentos. Ver [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 21 — POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE|Capítulo 21 (POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE) (Vol. 9)]] para análise completa.
 
 #### 6. Brand pessoal vs corporativo
 
-Há três razões para separar deliberadamente brand pessoal de brand corporativo. No exit, o fundador sai da empresa mas mantém vida pública — se o brand pessoal depende totalmente da empresa, exit vira crise de identidade. Em crise, o brand pessoal pode sustentar parte da reputação enquanto o corporativo é pressionado. E para próximas empresas, second-time founder com brand pessoal construído tem vantagem enorme (ver [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 21 — SECOND-TIME FOUNDER|Capítulo 21 (SECOND-TIME FOUNDER) (Vol. 9)]]).
+Há três razões para separar deliberadamente brand pessoal de brand corporativo. No exit, o fundador sai da empresa mas mantém vida pública — se o brand pessoal depende totalmente da empresa, exit vira crise de identidade. Em crise, o brand pessoal pode sustentar parte da reputação enquanto o corporativo é pressionado. E para próximas empresas, second-time founder com brand pessoal construído tem vantagem enorme (ver [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 22 — SECOND-TIME FOUNDER|Capítulo 22 (SECOND-TIME FOUNDER) (Vol. 9)]]).
 
 Para construir brand pessoal separadamente: desenvolver presença em temas adjacentes que não são só da empresa (liderança, setor amplo, tecnologia em geral), participar de conselhos externos, fazer investimentos angel e mentoring, e escrever ou falar sobre temas de interesse próprio que transcendam a empresa atual.
 
@@ -8227,7 +8227,7 @@ Esse e o ponto que mais surpreende fundadores que estudaram modelo americano. A 
 
 **Recomendacao pratica.** Pre-Serie A, em Ltda, usar phantom shares para colaboradores e clausulas de vesting de fundadores via acordo de quotistas, com aceitacao consciente do risco residual. Na conversao para S.A. (ver [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 2 — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Capítulo 2 (CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA) (Vol. 5)]] sobre conversao Ltda em S.A.), migrar phantom em uso para stock options formais, com plano aprovado em assembleia.
 
-Cross-ref. Para regime tributario que sustenta a deducao do plano, ver [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 2 — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Capítulo 2 (CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA) (Vol. 5)]]. Para tratamento no exit, ver [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 17 — TRIBUTAÇÃO DO EXIT PARA FUNDADORES BRASILEIROS|Capítulo 17 (TRIBUTAÇÃO DO EXIT PARA FUNDADORES BRASILEIROS) (Vol. 9)]].
+Cross-ref. Para regime tributario que sustenta a deducao do plano, ver [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 2 — CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA|Capítulo 2 (CONTABILIDADE, TRIBUTÁRIO E REGIMES FISCAIS PARA STARTUP BRASILEIRA) (Vol. 5)]]. Para tratamento no exit, ver [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 18 — TRIBUTAÇÃO DO EXIT PARA FUNDADORES BRASILEIROS|Capítulo 18 (TRIBUTAÇÃO DO EXIT PARA FUNDADORES BRASILEIROS) (Vol. 9)]].
 
 ---
 
@@ -8904,7 +8904,7 @@ M&A onde a comunicação fica restrita aos executivos. Sinal de que o time opera
 
 ### Ver também
 
-[[#CAPÍTULO 17 — CULTURA COMO DISCIPLINA|Capítulo 17 (CULTURA COMO DISCIPLINA)]], cultura como disciplina raiz. [[#CAPÍTULO 20 — REMOTE, HYBRID E DISTRIBUÍDO COMO DISCIPLINA|Capítulo 20 (REMOTE, HYBRID E DISTRIBUÍDO COMO DISCIPLINA)]], remote e hybrid como disciplina operacional. [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 13 — M&A ATIVO E ROLL-UPS: FUNDADOR COMO COMPRADOR|Capítulo 13 (M&A ATIVO E ROLL-UPS: FUNDADOR COMO COMPRADOR) (Vol. 9)]], M&A ativo, fundador como comprador. [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 19 — RETENÇÃO DE TALENTOS APÓS M&A: O QUE MUDA E O QUE SE PERDE|Capítulo 19 (RETENÇÃO DE TALENTOS APÓS M&A: O QUE MUDA E O QUE SE PERDE) (Vol. 9)]], retenção de talentos após M&A. [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 18 — SUCESSÃO NO EXIT E TRANSIÇÃO PÓS-AQUISIÇÃO|Capítulo 18 (SUCESSÃO NO EXIT E TRANSIÇÃO PÓS-AQUISIÇÃO) (Vol. 9)]], sucessão no exit e transição pós-aquisição. [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 11 — LAYOFFS E DOWNSIZING: COMO DEMITIR EM ESCALA SEM DESTRUIR A EMPRESA|Capítulo 11 (LAYOFFS E DOWNSIZING: COMO DEMITIR EM ESCALA SEM DESTRUIR A EMPRESA) (Vol. 9)]], layoffs e downsizing. [[#CAPÍTULO 19 — DIVERSIDADE, EQUIDADE E INCLUSÃO (DEI) EM STARTUP BRASILEIRA|Capítulo 19 (DIVERSIDADE, EQUIDADE E INCLUSÃO (DEI) EM STARTUP BRASILEIRA)]], DEI em profundidade.
+[[#CAPÍTULO 17 — CULTURA COMO DISCIPLINA|Capítulo 17 (CULTURA COMO DISCIPLINA)]], cultura como disciplina raiz. [[#CAPÍTULO 20 — REMOTE, HYBRID E DISTRIBUÍDO COMO DISCIPLINA|Capítulo 20 (REMOTE, HYBRID E DISTRIBUÍDO COMO DISCIPLINA)]], remote e hybrid como disciplina operacional. [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 13 — M&A ATIVO E ROLL-UPS: FUNDADOR COMO COMPRADOR|Capítulo 13 (M&A ATIVO E ROLL-UPS: FUNDADOR COMO COMPRADOR) (Vol. 9)]], M&A ativo, fundador como comprador. [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 20 — RETENÇÃO DE TALENTOS APÓS M&A: O QUE MUDA E O QUE SE PERDE|Capítulo 20 (RETENÇÃO DE TALENTOS APÓS M&A: O QUE MUDA E O QUE SE PERDE) (Vol. 9)]], retenção de talentos após M&A. [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 19 — SUCESSÃO NO EXIT E TRANSIÇÃO PÓS-AQUISIÇÃO|Capítulo 19 (SUCESSÃO NO EXIT E TRANSIÇÃO PÓS-AQUISIÇÃO) (Vol. 9)]], sucessão no exit e transição pós-aquisição. [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 11 — LAYOFFS E DOWNSIZING: COMO DEMITIR EM ESCALA SEM DESTRUIR A EMPRESA|Capítulo 11 (LAYOFFS E DOWNSIZING: COMO DEMITIR EM ESCALA SEM DESTRUIR A EMPRESA) (Vol. 9)]], layoffs e downsizing. [[#CAPÍTULO 19 — DIVERSIDADE, EQUIDADE E INCLUSÃO (DEI) EM STARTUP BRASILEIRA|Capítulo 19 (DIVERSIDADE, EQUIDADE E INCLUSÃO (DEI) EM STARTUP BRASILEIRA)]], DEI em profundidade.
 
 > [!info] Fases relacionadas
 > Referenciado em, Fase 14, Fase 15.
