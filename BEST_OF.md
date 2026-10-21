@@ -128,11 +128,11 @@
 
 > "Eu trato todos eles como meus diretos. Faço skip-level, co-contrato com eles, e tomo decisões sobre se estão funcionando ou não, como hire, fire, promote e gerenciar. Pode parecer muito trabalho, mas é necessário. O conselho convencional diz para você montar um time executivo top-tier e sair do caminho. Isso, para mim, é absolutamente o que você NÃO deveria fazer."
 
-— Brian Chesky (Airbnb), citado em *Capítulo 10 — Founder Mode (Vol. 6 — Receita e Pessoas)*
+— Brian Chesky (Airbnb), citado em *Capítulo 11 — Founder Mode (Vol. 6 — Receita e Pessoas)*
 
 > "Você não gerencia pessoas. Você gerencia pessoas através do trabalho."
 
-— Jony Ive a Brian Chesky, citado em *Capítulo 10 (Vol. 6 — Receita e Pessoas)*
+— Jony Ive a Brian Chesky, citado em *Capítulo 11 (Vol. 6 — Receita e Pessoas)*
 
 ---
 
@@ -140,7 +140,7 @@
 
 > "Se não estamos dispostos a passar dois anos operando a empresa adquirida mesmo que o deal não tivesse acontecido, não deveríamos comprá-la." É rigoroso. E corrige a maioria dos erros. Elimina aquisições por moda. Por oportunidade. Por ansiedade competitiva.
 
-— Heurística de operadores brasileiros experientes, citada em *Capítulo 14 — M&A Ativo e Roll-Ups (Vol. 9 — Maturidade e Exit)*
+— Heurística de operadores brasileiros experientes, citada em *Capítulo 13 — M&A Ativo e Roll-Ups (Vol. 9 — Maturidade, Exit e Family Office)*
 
 ---
 
@@ -172,7 +172,7 @@
 
 > Relacionamento com top investidores é relacional. Não transacional.
 
-— *Capítulo 5 — Jornada de Captação (Vol. 5 — Finanças e Captação)*
+— *Capítulo 13 — Jornada de Captação (Vol. 5 — Finanças e Captação)*
 
 ---
 
