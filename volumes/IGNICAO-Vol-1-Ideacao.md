@@ -162,7 +162,7 @@ Os quatro primeiros estágios da jornada (**[[#FASE 0 — PREPARAÇÃO DO EMPREE
 
 ### O contrato invisível que você assina antes de abrir o CNPJ
 
-São 23h40 de um domingo em Belo Horizonte. A **Dra. Camila**, cirurgiã-dentista de 34 anos reconhecida como uma das melhores especialistas em reabilitação oral da sua região, fecha o computador na mesa da sala com um nó no estômago. Na sexta-feira, ela havia pedido demissão da clínica onde trabalhava há oito anos para realizar o sonho de abrir sua própria rede odontológica. Só que, ao somar pela primeira vez na ponta do lápis o aluguel do ponto comercial, a parcela dos equipamentos importados, a escola dos dois filhos e o seu custo de vida real, ela descobriu uma verdade gelada: se a clínica demorasse mais de quatro meses para empatar, o limite do cheque especial da família inteira iria explodir.
+Passava das onze e meia da noite de domingo em Belo Horizonte quando a **Dra. Camila**, especialista em reabilitação oral de 34 anos, fechou o notebook na sala com um frio na barriga. Na sexta-feira anterior, ela havia pedido demissão da clínica onde atendia havia oito anos para abrir seu próprio consultório. Ao somar pela primeira vez na ponta do lápis o aluguel do ponto comercial, a parcela dos equipamentos importados, a mensalidade escolar dos dois filhos e as despesas da casa, enxergou um risco concreto: se a operação levasse mais de quatro meses para empatar, a família inteira entraria no cheque especial. Ao longo desta Fase 0, Camila refaz essa conta pelo método do Passo 1 (separando o piso de sobrevivência doméstica do capital da clínica), senta com o marido no Passo 4 para renegociar o padrão de gastos e fixar um limite de parada (*stop-loss*), reconhece na armadilha da demissão impulsiva o erro de sair sem reserva dedicada e só assina o contrato de locação no fechamento da fase após garantir 14 meses reais de fôlego financeiro.
 
 Camila não tinha um problema de ideia em Belo Horizonte: tinha apenas quatro meses de fôlego no caixa pessoal. Levantamentos recorrentes de sobrevivência empresarial no Brasil (como os estudos do Sebrae) confirmam que a falta de planejamento financeiro e de capital de giro encerra muito mais negócios na largada do que a falta de boas ideias, quando na vida real a maioria morre porque o fundador quebrou emocional ou financeiramente seis meses antes de o negócio ter tempo de aprender a ficar de pé.**
 
@@ -601,6 +601,8 @@ A fila virou o principal motor de marketing: cada pessoa esperando convidava ami
 
 ### O Espelho da Fase 0 e o Ritual de Segunda-Feira
 
+**Fechando o ciclo na trincheira:** Quando **Lucas e Marina** aplicaram as travas deste capítulo na rotina entre São Paulo e Florianópolis, a tensão da cena de abertura deixou de ser discussão subjetiva de corredores e virou regra clara de priorização, retenção e proteção de caixa.
+
 > [!tip] O Espelho do Fundador (Autodiagnóstico Rápido)
 > Antes de virar a página para procurar uma ideia de negócio, responda sem dourar a pílula:
 > 1. **O Teste do Extrato (nota de 1 a 5):** Se a sua futura empresa pagar **R$ 0 de pró-labore pelos próximos 12 meses**, suas contas pessoais fecham sem empréstimo e sem vender patrimônio essencial? (Quando a Dra. Camila fez essa conta em Belo Horizonte antes de ampliar a clínica, somou 9 pontos nas três perguntas e adiou a reforma em três meses até recompor a reserva.), sua família dorme em paz ou você precisará tomar decisões desesperadas no mês 5?
@@ -815,7 +817,7 @@ Quatro vieses cognitivos de alta frequência em contexto de startup, com diagnó
 
 **Dunning-Kruger Effect.** Pessoas com conhecimento limitado sobre um domínio tendem a superestimar sua competência; pessoas com expertise profunda tendem a subestimar (porque percebem o quanto ainda não sabem). Em startup, a fase mais perigosa é a curva ascendente inicial: founder aprende rápido sobre novo setor, e "pico de confiança incompetente" coincide com decisões críticas de produto e capital. *Contramedida*: mapear explicitamente o que você não sabe antes de cada decisão importante. Contratar advisor com 10+ anos no setor antes de tomar decisões arquitetônicas. Calibrar previsões com histórico real de acerto.
 
-**Base Rate Neglect (negligência da taxa base).** Ao avaliar probabilidade de sucesso, as pessoas ignoram a taxa base histórica e se focam nas características específicas do próprio caso. "Nosso produto é diferente" é o sinal de base rate neglect. 90% das startups falham: mas todo fundador tem razões para acreditar que a sua é a exceção. Aplica-se a: estimativas de prazo (planning fallacy), probabilidade de fechar deal, estimativa de TAM, e previsão de crescimento. *Contramedida*: buscar ativamente as taxas base de referência antes de estimativas. "Qual a porcentagem de empresas semelhantes que conseguiram X em Y prazo?" Método de previsão Outside View de Daniel Kahneman: começar pela taxa base, depois ajustar por características específicas.
+**Base Rate Neglect (negligência da taxa-base).** Ao avaliar a probabilidade de sucesso, as pessoas ignoram a estatística histórica de referência e olham apenas para os detalhes do próprio caso. "Nosso produto é diferente" é o sintoma clássico desse viés: a maioria das startups não chega a devolver o capital investido (e levantamentos de sobrevivência empresarial do IBGE e do Sebrae mostram que grande parte das empresas brasileiras encerra as atividades antes do quinto ano), mas quase todo fundador acredita que será a exceção. O mesmo erro distorce prazos de entrega (*planning fallacy*), previsão de fechamento comercial e estimativas de mercado. *Contramedida*: consultar a taxa-base histórica antes de projetar metas ("Qual percentual de empresas semelhantes atingiu X no prazo Y?"), aplicando a visão externa (*Outside View*, de Daniel Kahneman) antes de ajustar pelas particularidades do negócio.
 
 ##### Como rodar na segunda-feira às 9h com seu time
 
@@ -851,7 +853,7 @@ Processo simples:
 
 ##### Como rodar na segunda-feira às 9h com seu time
 
-Passo 1: Após plano existir. Fazer pre-mortem antes de existir plano gera lista teórica sem tração.
+Passo 1. Defina o plano concreto que será testado. Na Fase 0, ainda não existe um plano de negócios completo: o plano é a sua própria decisão de transição de vida (por exemplo, sair do emprego em março e viver da reserva familiar por 12 meses). Faça o pre-mortem sobre esse plano concreto para não cair em uma lista abstrata.
 
 Passo 2: Escrita individual primeiro. Se começa em discussão, primeiros a falar ancoram os outros. Escrita individual gera diversidade.
 
@@ -1002,7 +1004,7 @@ O bloco que gerou mais conversa foi **Personal Goals**: especialmente o engenhei
 #### Template: Entrevista com Advisor (decisão específica · tradeoffs)
 
 > [!important] Disciplina central
-> Advisor é para **refinar decisão que já está em cima da mesa**, não para descobrir o problema. Se você não consegue nomear a decisão em uma frase, você não está pronto para essa conversa: volte para Template: Entrevista de Problema (Fase 4) (entrevista de problema) ou Template: Entrevista com Especialista de Mercado (mapa de setor) (Fase 4) (especialista). Pareamento natural com o [[#CAPÍTULO 12 — REDE, MENTORES E ADVISORS — COMO CONSTRUIR O CAPITAL HUMANO DO EMPREENDEDOR|Capítulo 12 (Rede, Mentores e Advisors: Como Construir o Capital Humano do Empreendedor)]], que cobre como construir e formalizar a relação com advisors. Este template é o que se usa **dentro** da conversa, depois que o advisor já está no jogo.
+> O papel do conselheiro (*advisor*) é **refinar uma decisão estratégica que já está na mesa**, e não descobrir o problema do zero. Enquanto na Fase 1 você usa apenas o Lean Canvas, a leitura de maturidade tecnológica (curva S) e conversas curtas de calibragem, os roteiros completos de entrevista de problema e de especialista vivem na Fase 4 (Vol. 2), e a construção formal da relação com conselheiros está no Capítulo 12 deste volume. Use esta pauta enxuta dentro da reunião quando a decisão já couber em uma frase.
 
 ##### Parte A — Roteiro da Conversa (uso durante)
 
@@ -1307,7 +1309,7 @@ Graham mesmo indica: se tivesse que escolher uma das treze, seria a quarta (ente
 > [!important] Se tiver que escolher uma para aplicar hoje, releia a quarta
 > Todo o resto flui daí.
 
-Síntese comparativa de canais:
+> [!info] Fases relacionadas
 
 ---
 
@@ -1325,7 +1327,7 @@ O entregável desta fase, o Dossiê Pessoal do Empreendedor, é o que habilita a
 
 ### O mito da lâmpada acesa: por que boas ideias são garimpadas no tédio, não no chuveiro
 
-Em uma cafeteria em Pinheiros, **Lucas** (engenheiro de software recém-saído de um grande banco) mostra orgulhoso para **Marina** (sua futura sócia comercial) um caderno com três ideias de startups que teve durante o fim de semana: uma rede social para donos de pets, um aplicativo de divisão de contas em bares com IA e um marketplace de chefs em domicílio. Marina escuta em silêncio, fecha o caderno e faz uma única pergunta: *"Lucas, na última terça-feira, Lucas, quem usaria cada uma dessas ideias, e qual dessas pessoas perdeu tempo ou dinheiro com isso na última terça a ponto de pagar?"* Lucas trava. Nenhuma delas. Eram ideias divertidas de contar num jantar, mas pésimas para construir uma empresa.
+Sentados em um café em Pinheiros, o engenheiro de software **Lucas** (recém-saído de um grande banco) abriu diante de **Marina** (sua futura sócia comercial) um bloco com três ideias anotadas no fim de semana: uma rede social para tutores de animais, um divisor de contas de bar com IA e um aplicativo para contratar chefs em casa. Marina ouviu em silêncio, fechou o caderno e perguntou: *"Quem usaria cada uma dessas soluções e qual dessas pessoas perdeu tempo ou dinheiro na última terça-feira a ponto de abrir a carteira?"* Lucas ficou sem resposta: eram ideias simpáticas de conversa de jantar, mas frágeis para sustentar uma empresa. Ao aplicar o Método 1 desta Fase 1 sobre os gargalos que ele próprio vivenciara no banco e passar o caderno pelos quatro filtros de seleção, a dupla descartou os três projetos B2C e reescreveu o bloco em torno de uma dor B2B aguda (a conciliação manual de boletos e recebíveis em distribuidoras médias), preparando a tese que levarão da Fase 2 até o produto.
 
 Paul Graham explica esse ponto cego no ensaio *Schlep Blindness* (2012): nosso cérebro desvia inconscientemente de problemas trabalhosos, burocráticos e sem charme, justamente onde moram as maiores oportunidades, como o processamento de pagamentos online que deu origem à Stripe. **As ideias que mais geram caixa quase nunca brilham numa conversa de bar: elas parecem rotinas operacionais chatas, reguladas e dolorosas que todo um setor aprendeu a tolerar como parte da paisagem.** Na geração de ideias, a resposta contraintuitiva é esta: **as ideias que mais dão lucro parecem problemas operacionais chatos, que todo mundo aprendeu a tolerar: elas parecem problemas operacionais chatos, burocráticos e dolorosos que todo mundo ao redor aprendeu a tolerar como se fossem parte da paisagem.**
 
@@ -1597,7 +1599,7 @@ Cópia dos EUA sem entender contexto brasileiro. "Esse modelo explodiu nos EUA, 
 > [!note] O consumidor brasileiro tem lógica própria que invalida transplantes diretos de modelos estrangeiros
 > O [[IGNICAO-Vol-2-Descoberta-e-Mercado#CAPÍTULO 1 — PSICOLOGIA DO CONSUMIDOR BRASILEIRO — COMPORTAMENTO, DECISÃO E CONVERSÃO|Capítulo 1: Psicologia do Consumidor Brasileiro (Vol. 2)]] cobre comportamento mobile-first, dinâmica de compra da classe C/D e vieses culturais locais. Fundamental antes de filtrar candidatas que dependem de suposições sobre comportamento do cliente brasileiro.
 
-Achismo sem customer conversation. Você passa quatro semanas dentro da sua cabeça sem falar com ninguém do setor da ideia. Customer conversation não é Fase 1. É [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 4 — DESCOBERTA DO PROBLEMA|Fase 4 (Vol. 2)]]. Mas algumas conversas breves e direcionadas na Fase 1, especialmente no dia quinta do exercício acima, filtram muito. Não vire prisioneiro da própria cabeça.
+Achismo sem conversa de campo. Você passa quatro semanas trancado na própria cabeça sem ouvir ninguém do setor da ideia. Entrevista de descoberta com cliente é trabalho da Fase 4 (Vol. 2). Aqui na Fase 1 bastam conversas curtas de calibragem, como as três conversas da quinta-feira previstas no exercício e no checklist desta fase, para descartar fantasias cedo.
 
 Múltiplas ideias simultâneas. "Estou pensando em três ideias ao mesmo tempo." Na Fase 1 isso é ótimo. Quanto mais candidatas, melhor. A partir da [[#FASE 2 — ARTICULAÇÃO E CAPTURA DA IDEIA|Fase 2]], é desastroso. Leve uma. As outras esperam.
 
@@ -1621,7 +1623,7 @@ Guarde esse documento. Mesmo depois de iniciar a [[#FASE 2 — ARTICULAÇÃO E C
 > O critério de saída desta fase é uma decisão de gate: avançar ou não com esta ideia. O [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 2 — MATURIDADE (TRL/CRL), DECISÃO POR GATES E FECHAMENTO DE FASE (COMMITTED NEXT MOVE)|Capítulo 2 (Maturidade (Trl/crl), Decisão por Gates e Fechamento de Fase (Committed Next Move)) (Vol. 3)]] formaliza como estruturar esse tipo de decisão: com critérios objetivos pré-definidos, evitando que o entusiasmo pelo projeto substitua a evidência como critério de avanço.
 
 > [!note] Capítulo 1 (Vol. 3): Abordagem Científica vs Lean Startup
-> Os quatro filtros desta fase e o checklist abaixo têm lógica de falsificação de suposições, não de execução de plano. O [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 1 — ABORDAGEM CIENTÍFICA vs LEAN STARTUP: QUANDO USAR CADA UMA|Capítulo 1 (Abordagem Científica vs Lean Startup: Quando Usar Cada Uma) (Vol. 3)]] contextualiza essa diferença de mentalidade: importante para quem vem do mundo corporativo e tende a tratar lista de ideias como planejamento estratégico.
+> Os quatro filtros desta fase e o checklist abaixo seguem a lógica de falsificação de suposições, e não de execução de plano fechado. O Capítulo 1 do Vol. 3, sobre abordagem científica e Lean Startup, contextualiza essa diferença de mentalidade: essencial para quem vem do ambiente corporativo e costuma tratar uma lista de ideias como planejamento estratégico.
 
 Antes de avançar para a [[#FASE 2 — ARTICULAÇÃO E CAPTURA DA IDEIA|Fase 2]], confirme:
 
@@ -2015,7 +2017,9 @@ Reúna 1-3 pessoas (cofundadores). Use uma folha A1 ou ferramenta digital (Miro,
 
 Tempo total: 30-60 minutos para o primeiro preenchimento (mais rápido que o BMC porque os blocos são mais específicos). **Faça um Lean Canvas por segmento**: não force um canvas único para múltiplos segmentos com problemas distintos. Revisar a cada experimento concluído (a cada 2-4 semanas em fases iniciais).
 
-##### Exemplo brasileiro preenchido: QuintoAndar em 2015 (reconstrução didática com base em dados públicos)
+##### Como teria ficado o Lean Canvas do QuintoAndar em 2015 (reconstrução do autor com dados públicos)
+
+O quadro abaixo é um exercício didático reconstruído pelo autor com base em dados públicos (e não um documento interno da companhia), sintetizando a proposta original de locação residencial sem fiador e sem caução e a hipótese de que o histórico proprietário de pagamentos permitiria calibrar a garantia locatícia ao longo do tempo:
 
 | Bloco | Conteúdo |
 |---|---|
@@ -2068,7 +2072,7 @@ O entregável desta fase é a Lista Curta. Três a cinco candidatas filtradas, c
 
 ### Se você não consegue escrever em uma página sem usar jargão, você ainda não tem uma ideia
 
-Em Curitiba, **Henrique** passou quatro meses dizendo a amigos e ex-colegas da indústria que estava montando *"uma plataforma integrada de inteligência operacional com IA e IoT para descarbonização e eficiência energética no setor produtivo"*. Todo mundo balançava a cabeça nos cafés, dizia *"que animal, mercado gigante!"* e desejava boa sorte. Até que um diretor industrial veterano, amigo do seu pai, pediu para Henrique escrever em uma única folha de papel: **quem assina o cheque, qual dor faz essa pessoa perder o sono na segunda-feira, como ela resolve isso hoje na unha e o que precisa ser verdade para ela trocar o sistema atual pelo seu.** Henrique levou três horas diante da página em branco e suou frio: por trás do vocabulário bonito, ele tinha três negócios diferentes misturados e não sabia dizer se seu comprador era o gerente de manutenção, o diretor financeiro ou a área de sustentabilidade.
+Em Curitiba, **Henrique** passou quatro meses repetindo a ex-colegas da indústria que estava criando *"uma plataforma integrada de inteligência operacional com IA e IoT para descarbonização e eficiência energética no setor produtivo"*. Nos cafés, todo mundo elogiava o tamanho do mercado e desejava sucesso. Até que um diretor industrial experiente, amigo de seu pai, pediu que ele escrevesse em uma única página: **quem assina o contrato, qual problema tira o sono dessa pessoa na segunda-feira, como ela resolve isso hoje na planilha e o que precisa acontecer para ela trocar o sistema atual.** Diante da folha em branco, Henrique percebeu que misturava três negócios distintos e não sabia se vendia para manutenção, finanças ou sustentabilidade. Ao longo desta Fase 2, ele descarta o jargão da versão zero, escolhe um único comprador (o diretor industrial de usinas de etanol de milho e biomassa que perde margem com paradas não programadas de caldeira), reescreve sua Declaração inicial para passar no teste dos 90 segundos e lista no último bloco as incertezas críticas que retomará no Espelho e no fechamento da fase.
 
 Eric Ries mostra em *A Startup Enxuta* que toda startup nasce apoiada em suposições de salto de fé (*leap-of-faith assumptions*): crenças sobre valor e crescimento que precisam ser declaradas por escrito antes do primeiro teste com clientes. **Na cabeça do fundador, toda ideia funciona com perfeição cinematográfica porque o cérebro preenche os buracos lógicos com entusiasmo.**
 
@@ -2080,7 +2084,7 @@ Chamamos esse fenômeno de **A Miragem da Ideia Falada**: enquanto a ideia vive 
 
 Tudo o que você não escreve não existe operacionalmente. A articulação força clareza. Clareza revela lacunas. Lacunas são o material de trabalho das próximas fases. Sem esta fase, você entra no processo de confirmação sem saber exatamente o que está testando, e acaba testando uma versão confusa e movediça da ideia. Pior do que não testar.
 
-Ao listar explicitamente o que você não sabe, você cria a agenda de trabalho das Fases 2 a 6: cada incerteza vira uma suposição a testar nas Fases 6 e 7.
+Ao listar o que você ainda não sabe, você organiza a agenda das etapas seguintes: cada incerteza guia a investigação de campo nas Fases 4 a 6 (Vol. 2), vira hipótese formal na Fase 7 e é testada em experimentos práticos na Fase 8 (Vol. 3).
 
 > [!note] Capítulo 1 (Vol. 3): Abordagem Científica vs Lean Startup
 > A lista de incertezas desta fase é o ponto de partida para o ciclo científico de confirmação que atravessa o livro. O [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 1 — ABORDAGEM CIENTÍFICA vs LEAN STARTUP: QUANDO USAR CADA UMA|Capítulo 1 (Abordagem Científica vs Lean Startup: Quando Usar Cada Uma) (Vol. 3)]] explica a diferença entre a mentalidade de suposição testável (experimental) e o Lean Startup como método prático: contexto útil para quem entra nesta fase sem clareza sobre o que "validar uma ideia" significa na prática.
@@ -2213,7 +2217,7 @@ Solução proposta: App mobile e web que, conectado a três a cinco fornecedores
 
 Modelo de negócios: SaaS por loja, R$ 290 a R$ 490 por mês com setup isento. Não compete com ERP (faixa de R$ 1.500/mês ou mais), compete com o tempo do gerente de produção e com a margem perdida em ruptura: proposta de ROI: economizar duas a três rupturas por mês paga o produto. Cobrança mensal recorrente em cartão. Take-rate adicional opcional sobre integração com fornecedor (1 a 2 por cento).
 
-Por que pode funcionar: Pix e open finance viabilizaram integração com fornecedores que não existia há três anos. Padarias artesanais cresceram vinte e oito por cento no Brasil de 2020 a 2024, com nova geração de donos usando celular como ferramenta de gestão. Hipótese central de valor e pagamento: donos de padaria artesanal com duas a cinco lojas pagam R$ 290 por mês para eliminar duas rupturas de farinha e fermento por mês e recuperar a margem perdida.
+Por que pode funcionar agora: o Pix e o Open Finance, consolidados no país desde 2021, permitem integrar pagamento e reposição de estoque direto com distribuidores pelo celular, ao mesmo tempo em que uma nova geração de gestores assumiu a operação de padarias artesanais (hipótese de expansão setorial a verificar em relatórios da ABIP e do Sebrae). Hipótese central de valor e pagamento: donos de padaria artesanal com duas a cinco lojas pagam R$ 290 por mês para eliminar duas rupturas mensais de farinha e fermento e recuperar a margem perdida.
 
 Por que nós: O fundador tem contatos diretos em três distribuidoras de farinha (rede), trabalhou seis anos em ERP de varejo (expertise técnica), e foi sócio de uma padaria por dois anos (experiência operacional pelo lado do cliente). Combinação que nenhum competidor genérico de ERP tem.
 
@@ -2446,7 +2450,7 @@ Exemplos clássicos (do paper original):
 
 ##### Como rodar na segunda-feira às 9h com seu time
 
-Passo 1: Inventaire capabilities organizacionais. O que sabemos fazer bem? Não produtos, habilidades subjacentes.
+Passo 1. Faça o inventário das capacidades da organização. O que sabemos fazer excepcionalmente bem? Liste as habilidades técnicas e operacionais subjacentes, e não os produtos atuais.
 
 Passo 2: Aplique os três testes. Qual dessas capabilities realmente passa?
 
@@ -2697,7 +2701,7 @@ Tempo total: 60-120 minutos para a primeira versão. Cada bloco com 3-5 post-its
 | **Fontes de Receita** | Intercâmbio (% sobre cada transação no cartão), juros do rotativo, futuro: receitas adjacentes (lending, investimento) |
 | **Recursos-Chave** | Equipe técnica (engenharia, produto, design), licenças regulatórias, capital, algoritmos de credit scoring |
 | **Atividades-Chave** | Desenvolvimento de produto digital, aquisição de clientes, gestão de risco de crédito, atendimento |
-| **Parcerias-Chave** | Bandeiras (Mastercard, Visa), processadoras de pagamento, BCB (regulador), provedores cloud |
+| **Parcerias-Chave** | Bandeira Mastercard (acordo inicial de emissão), processadora de cartões, bureaus de crédito e provedor de nuvem (a autorização do BCB entra em recursos regulatórios e riscos, não como parceria) |
 | **Estrutura de Custos** | Salários de tecnologia (majoritário), atendimento, marketing, provisões de risco de crédito, compliance |
 
 O BMC do Nubank em 2014 mostra um modelo intencionalmente enxuto: poucos blocos com complexidade real (cartão único, segmento único, canal único). A disciplina foi não adicionar produtos ou segmentos antes de dominar o primeiro. Expansão para conta corrente (2017), lending (2019), investimentos (2020) só aconteceu depois de o cartão dominar o segmento original. Empresas que tentam preencher os nove blocos com complexidade simultânea desde o início frequentemente falham por dispersão. BMC bem feito tem cara de simples.
@@ -2794,7 +2798,7 @@ Modelo (pricing percebido como justo? ROI defensável internamente?):
 
 A Fase 2 não é para confirmar se a ideia funciona. É para capturá-la com precisão. Quando Henrique trocou a explicação técnica cheia de siglas da abertura pela DII de uma página focada no custo da hora de caldeira parada, descobriu que ainda não sabia quem assinava o orçamento na usina, levando essa incerteza como ponto de partida direto para a Fase 3, ou que não sabem explicar o problema, ou que a ideia era só sentimento vago. Tudo o que você não escreve não existe operacionalmente. A articulação força clareza, e clareza revela lacunas.
 
-A diferença entre quem faz certo, e quem falha, está em assumir as próprias incertezas. O quinto bloco da Declaração, tudo o que você não sabe, é o mais valioso e o mais negligenciado. Listar incertezas, em vez de mascará-las com confiança, é o que cria a agenda de trabalho das fases seguintes. As suas incertezas de hoje são as suas suposições de amanhã.
+A diferença entre quem faz certo e quem falha está em assumir as próprias lacunas de conhecimento. A lista de incertezas, que fecha a Declaração da Ideia no último item do template, é a parte mais valiosa e a mais negligenciada do documento. Explicitar o que você ainda não sabe, em vez de mascarar dúvidas com confiança retórica, é o que constrói a agenda das fases seguintes: as incertezas mapeadas hoje serão as hipóteses testadas em campo amanhã.
 
 O entregável é uma página única, capaz de ser explicada verbalmente para um estranho em noventa segundos, e esse estranho consegue repetir de volta com precisão. Esse teste de transmissão é o filtro de clareza. Se a ideia não passa, ela ainda não está pronta para ser testada: está pronta para ser reescrita. A Fase 3 vai usar esta Declaração para estruturar a árvore causal da teoria do negócio, e a Fase 4 (no Volume 2) usará o "para quem" e a lista de incertezas como ponto de partida para as primeiras entrevistas de descoberta de problema.
 
@@ -2804,7 +2808,7 @@ O entregável é uma página única, capaz de ser explicada verbalmente para um 
 
 ### Todo negócio se apoia numa cadeia de crenças: qual peça, se cair, leva todas as outras junto?
 
-Na primeira ideia que tiveram juntos (e que a Árvore desta fase ajudou a descartar em poucos dias, abrindo espaço para a marca própria D2C que construiriam a seguir), **Rafael**, no Recife, e **Bia**, em Goiânia, cogitaram criar uma plataforma de compras coletivas de embalagens biodegradáveis para pequenas cafeterias e hamburguerias artesanais. A Declaração da Ideia parecia impecável: os donos de hamburgueria reclamavam do preço das embalagens e diziam amar sustentabilidade. Mas antes de alugar um galpão e encomendar o primeiro lote da fábrica, Bia desenhou no quadro branco a cadeia de eventos que precisava acontecer para a empresa dar lucro: a **Árvore de Teoria do Negócio**. Foi ali que o dominó mortal apareceu: para conseguir desconto de 30% na indústria (Nó C), eles precisavam que 40 hamburguerias comprassem exatamente a mesma medida de caixa na mesma terça-feira do mês (Nó B) e pagassem à vista antecipado (Nó A). Quando ligaram para seis donos de hamburgueria para checar apenas o Nó A, descobriram que 100% deles compravam embalagem no cartão em 60 dias porque operavam sem capital de giro. Um único dominó invisível mataria o negócio inteiro: e eles descobriram isso gastando zero reais em estoque.
+Antes de criarem sua marca própria D2C, **Rafael**, no Recife, e **Bia**, em Goiânia, avaliaram montar uma central de compras coletivas de embalagens biodegradáveis para hamburguerias e cafeterias artesanais. No papel, a Declaração da Ideia parecia certeira: os donos reclamavam do custo das caixas e elogiavam práticas sustentáveis. Antes de alugar galpão ou fechar pedido mínimo na indústria, porém, Bia desenhou no quadro branco a **Árvore de Teoria do Negócio** que você construirá nos nove passos desta Fase 3. O mapa causal revelou o elo crítico: para obter 30% de desconto na fábrica (Nó C), 40 hamburguerias precisariam encomendar a mesma medida de embalagem na mesma terça-feira (Nó B) e pagar à vista de forma antecipada (Nó A). Ao ligarem para seis estabelecimentos para checar a crença por trás do Nó A, esbarraram na distância entre discurso e prática (*say-do gap*): todos elogiavam sustentabilidade, mas 100% parcelavam embalagens no cartão em 60 dias por falta de capital de giro. Esse único nó mortal derrubava a árvore inteira a custo zero de estoque e levou a dupla a formular a teoria alternativa que retomaremos no Espelho e no fechamento desta fase.
 
 Assim como na fábrica de café da manhã de Andy Grove em *High Output Management* (1983), em que o tempo do ovo cozido dita o ritmo de toda a cozinha, numa teoria de negócio um único elo mais fraco limita o resultado do conjunto inteiro. Na ciência do empreendedorismo (Felin, Gambardella, Stern e Zenger), dar um passo além do canvas estático e desenhar a **Teoria Causal do Negócio (*Story Tree* e *DAG*)** é o que separa quem testa o que é fácil de quem testa o que é fatal.
 
@@ -2869,8 +2873,8 @@ Essas crenças são subjetivas e vão parecer arbitrárias. Realmente são. O po
 
 Chamamos de **dominó mortal** (ou atributo *bet-the-company*) o nó da árvore que, se for refutado em campo, derruba a ideia inteira. Esses são os nós que você testa primeiro nas fases seguintes. No exemplo do restaurante: se o dono não estiver disposto a pagar por uma solução de conciliação, nada mais importa. Esse nó é o primeiro alvo.
 
-> [!tip] Canvases Visuais: Hypothesis Canvas (Fase 7)
-> Enquanto o Story Tree mostra a rede de hipóteses (relações causais entre nós), o [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#Canvas: Hypothesis Canvas (autoral IGNIÇÃO)|Canvas: Hypothesis Canvas (autoral IGNIÇÃO) (Vol. 3)]] é o canvas para detalhar UMA hipótese isolada: especialmente as bet-the-company marcadas neste Passo 5. Tem campos para Hipótese, Pressuposto, Critério de falsificação, Método de teste, Threshold e Resultado. Use junto com [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#Template: Hypothesis Canvas|Template: Hypothesis Canvas (Vol. 3)]] (template preenchível) para documentar cada hipótese crítica antes de avançar para [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 7 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 7 (Vol. 3)]] e [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 8 — EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA E DA SOLUÇÃO|Fase 8 (Vol. 3)]].
+> [!tip] Conexão com a Fase 7 (Vol. 3): do nó crítico ao Hypothesis Canvas
+> Enquanto a Árvore de Teoria desta Fase 3 mostra o encadeamento causal entre os nós do negócio, o detalhamento individual de cada hipótese crítica fica concentrado na Fase 7 (Vol. 3), onde você usará o [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#Canvas: Hypothesis Canvas (autoral IGNIÇÃO)|Hypothesis Canvas (Vol. 3)]] e o [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#Template: Hypothesis Canvas|Template: Hypothesis Canvas (Vol. 3)]] para transformar os nós *bet-the-company* identificados neste Passo 5 em experimentos práticos para a Fase 8 (Vol. 3).
 
 #### Passo 6, parcimônia e modularidade
 
@@ -2969,7 +2973,7 @@ Você concluiu a Fase 3 quando todos os critérios abaixo estão cumpridos.
 
 **Primeiros passos práticos.**
 
-1. Abrir os Template Story Tree (Fase 3) e Template: Mapa Causal, DAG Simplificado (Fase 3) (DAG) e fazer versão inicial em duas horas.
+1. Abrir os templates Árvore de Teoria e Mapa Causal (DAG), no fim desta fase, e fazer a primeira versão em duas horas.
 2. Listar todas as crenças implícitas da ideia em modo brainstorm bruto. Depois classificar em níveis da árvore.
 3. Para cada nó, marcar a evidência atual. Forte, fraca, nenhuma.
 4. Escolher três nós críticos para testar primeiro. Aqueles com alto impacto e baixa evidência.
@@ -3406,7 +3410,7 @@ Sessão de 2-3 horas com o time fundador (2-4 pessoas). Facilitador recomendado 
 2. **Premissas de primeiro nível**: o que precisa ser verdade para o resultado final acontecer? Geralmente 3-5 premissas de alto nível (clientes têm a dor, clientes pagam, CAC viável, retenção suficiente, canal escalável).
 3. **Decomposição**: para cada premissa de primeiro nível, quais premissas de segundo nível são necessárias? Repita até chegar em premissas testáveis empiricamente.
 4. **Classificação**: para cada nó, atribua K (1-5) e I (1-5). Calcule P = K × I. Nós com P > 12 são prioridade imediata de teste.
-5. **Identificação de apostas bet-the-company**: adote uma régua única para toda a árvore: os nós com **Impacto I = 5 e Dúvida D ≥ 4** (ou pontuação combinada I × D ≥ 20, como os nós regulatório e de aquisição no exercício retrospectivo da Creditas) são as premissas críticas com menos evidência: essas são as hipóteses que os primeiros experimentos devem atacar.
+5. **Identificação de apostas bet-the-company**: adote uma régua única para toda a árvore: os nós com **Impacto I = 5 e Dúvida D ≥ 4** (ou pontuação combinada I × D ≥ 20, como os nós regulatório e de aquisição no exercício retrospectivo da Creditas) são as premissas críticas com menos evidência, essas são as hipóteses que os primeiros experimentos devem atacar.
 6. **Conexão com o BMC/Lean Canvas**: use o Template: Theory Map, Conexão com Business Model Canvas (Fase 3) para verificar que cada bloco do Canvas tem ao menos um nó correspondente na árvore, e que cada nó da árvore tem ao menos um bloco correspondente no Canvas. Inconsistências revelam: (a) canvas com blocos sem justificativa teórica (remova ou construa a teoria); (b) teoria com premissas sem elemento no canvas (modelo incompleto).
 
 ##### Exemplo brasileiro preenchido: Creditas, árvore de teoria inicial (2012) (reconstrução didática com base em dados públicos)
@@ -3675,7 +3679,7 @@ Mais de 60% das empresas que morrem nos primeiros dois anos não quebram porque 
 
 ### O oxigênio da empresa sai de casa: como o caixa pessoal sustenta a clareza das decisões
 
-Quando **Lucas** deixou seu cargo de engenheiro sênior em um banco na Faria Lima para fundar sua startup com **Marina**, ele tinha um salário líquido de R$ 22 mil por mês, plano de saúde de primeira linha sem coparticipação e bônus anual garantido. No entusiasmo da partida, ele manteve exatamente o mesmo apartamento alugado no Itaim, as mesmas assinaturas, as mesmas viagens e não conversou com a esposa sobre como ficaria o orçamento doméstico após o sexto mês. No décimo mês de operação, justamente quando o produto começou a tracionar mas ainda exigia mais seis meses de validação para levantar um *Seed* decente, a conta pessoal de Lucas bateu no fundo. Resultado? Com o aluguel atrasando em casa, se Marina não tivesse freado a mesa e puxado a conta do serviço B2B padronizado, o aperto doméstico teria levado Lucas a aceitar a primeira proposta predatória de um investidor-anjo oportunista que exigia **35% da companhia por R$ 250 mil** e assinando cláusulas de veto que travariam a startup pelos três anos seguintes.
+Quando **Lucas** pediu demissão do cargo de engenheiro sênior em um banco na Faria Lima para fundar a startup com **Marina**, abriu mão de R$ 22 mil líquidos mensais, plano de saúde sem coparticipação e bônus anual. Na euforia da largada, manteve o mesmo aluguel caro no Itaim, as mesmas assinaturas e viagens e evitou sentar com a esposa para redesenhar o orçamento da casa após o sexto mês. No décimo mês, quando o produto exigia mais um semestre de validação antes de uma rodada *Seed* saudável, a reserva pessoal secou: com o aluguel atrasando, Lucas quase aceitou a oferta predatória de um anjo oportunista que pedia **35% da empresa por R$ 250 mil** com cláusulas de veto que travariam o negócio, salvo pelo freio de Marina ao fechar a primeira conta de serviço B2B padronizado. Ao longo deste Capítulo 1, usamos os números reais de Lucas para demonstrar o cálculo do *burn rate* familiar (cortando o custo fixo doméstico de R$ 22 mil para um piso enxuto de R$ 11 mil mensais), roteirizar a conversa franca de alinhamento em casa e calcular no Espelho e no Ritual os oito meses extras de fôlego pessoal que essa disciplina garante.
 
 Ben Horowitz, em *O Lado Difícil das Situações Difíceis*, lembra que a coragem de um CEO em tempo de guerra é inseparável da sua capacidade de suportar pressão psicológica. E, na travessia que Ben Horowitz chama de *A Luta* (*The Struggle*) em *O Lado Difícil das Situações Difíceis* (2014), nada corrói mais rápido o poder de negociação de um fundador brasileiro do que o **Imposto do Desespero Doméstico** (que mediremos no painel deste capítulo sempre que a reserva cair abaixo de seis meses): quando o boleto da escola dos seus filhos ou o rotativo de 400% ao ano do cartão de crédito pessoal entra na sala de reunião da sua empresa.
 
@@ -3767,7 +3771,7 @@ Este capítulo une dois pilares inseparáveis da sobrevivência nos primeiros an
 
 ### A máquina humana sob pressão: como escolher quem senta no cockpit com você (e como não quebrar por dentro)
 
-Oito meses depois de começarem a operar sua marca própria entre o Recife, onde **Rafael** cuida do crescimento digital, e Goiânia, onde **Bia** coordena fornecedores e logística, a primeira crise de caixa colocou a sociedade à prova. De fora, nos painéis de eventos e nos posts de LinkedIn, a história parece uma linha reta de sucesso. Por dentro, às 4h da manhã de uma quinta-feira, Rafael está sentado na beira da cama com taquicardia pela terceira vez na semana: um grande fornecedor acabou de cancelar o prazo de pagamento, um colaborador-chave pediu demissão levando clientes e Rafael e Bia não têm uma conversa honesta sobre o próprio cansaço há oito meses. Cada um engole o medo em silêncio para "não desanimar o outro", até que uma discussão banal sobre o layout de uma embalagem vira um grito de duas horas na sala de reunião.
+Oito meses após iniciarem a operação da marca própria entre o Recife, onde **Rafael** lidera aquisição digital, e Goiânia, onde **Bia** toca fornecedores e logística, um aperto agudo de caixa expôs o desgaste silencioso da sociedade. Nas redes sociais, a trajetória parecia impecável; na vida real, às 4h da manhã de quinta-feira, Rafael acordava com taquicardia pela terceira vez na semana depois que um fornecedor cortou o prazo de faturamento e um funcionário-chave saiu levando clientes. Como nenhum dos dois falava do próprio esgotamento para "poupar o sócio", oito meses de medo engolido explodiram em duas horas de gritos por causa de um simples ajuste de embalagem. Neste Capítulo 2, acompanhamos como Rafael e Bia saíram desse colapso: reconhecendo que taquicardia recorrente exige avaliação médica imediata, aplicando a nota semanal de energia no check-in de sócios e usando o protocolo de sete passos para conversas difíceis que fecha o Espelho e o Ritual do capítulo.
 
 Ben Horowitz batizou esse abismo psicológico de **"A Luta" (*The Struggle*)**: o lugar onde o suor frio bate no estômago, onde tudo o que podia dar errado dá errado ao mesmo tempo e onde ninguém de fora consegue aliviar o peso da sua cadeira. Segundo estudos de Noam Wasserman em Harvard (*The Founder's Dilemmas*), 65% dos fracassos de startups de alto potencial decorrem de problemas e conflitos de relacionamento no time fundador, e não por falha técnica do produto.
 
@@ -3865,7 +3869,7 @@ Exercício: escrever dez frases "eu sou _____" sem nenhuma delas mencionar a emp
 
 Construir identidade fora da empresa não é deslealdade com o projeto. É infraestrutura para sustentá-lo por dez anos sem destruir a pessoa que o conduz.
 
-Mantenha sua identidade pequena: complemento intelectual (Paul Graham, 2009)
+**Três ensaios de Paul Graham sobre a mente do fundador (1/3): Mantenha sua identidade pequena (*Keep Your Identity Small*, 2009)**
 
 Graham tem um ensaio curto, *Keep Your Identity Small*, que é complementar útil à ideia de "identidade além da empresa". O argumento é sobre uma forma específica de dano que acontece quando a gente adota identidades fortes, ser "liberal", "conservador", "vegetariano militante", "crypto-maximalista", "anti-crypto", "fundador em série", "early adopter", "techie", "anti-techie". Cada identidade forte que a gente adota **reduz a capacidade de pensar com clareza** sobre o tema correspondente, porque qualquer discussão vira ataque ao "eu" em vez de análise do assunto.
 
@@ -3881,7 +3885,7 @@ A razão é prática: trabalho duro por longos períodos sem resultado imediato 
 
 Isso não é romantismo. É operacional. E aparece em três dimensões mensuráveis:
 
-Em qualidade da decisão sob pressão: fundador earnest volta à pergunta "o que é certo para o cliente e para a empresa?", fundador não earnest volta à pergunta "o que parece bom? o que vai me fazer ganhar mais/parecer mais sucesso?". As duas perguntas produzem decisões diferentes, e a diferença compõe ao longo de anos. Em atração de talento: pessoas boas percebem earnestness, não conseguem articular, mas sentem. Fundador earnest atrai primeiros funcionários de qualidade desproporcional aos salários que oferece. Em resiliência à crítica: crítica pública machuca fundador não earnest porque ataca a fachada, fundador earnest absorve, pergunta "há algo verdadeiro aqui?", e segue. A diferença é enorme em momentos de pressão pública.
+Na qualidade da decisão sob pressão: o fundador com sinceridade de propósito (*earnestness*), movido pelo problema real, pergunta "o que é certo para o cliente e para a empresa?", enquanto o fundador movido pela recompensa e pelo status pergunta "o que parece bonito ou me faz parecer bem-sucedido?". As duas perguntas geram escolhas opostas que se acumulam ao longo dos anos. Na atração de talentos: profissionais excelentes percebem a sinceridade de propósito mesmo sem saber defini-la e, por isso, o fundador movido pelo problema atrai primeiros funcionários de nível muito superior ao salário que pode oferecer no início. Na resiliência à crítica: o ataque público machuca quem vive de fachada, mas o fundador movido pelo problema absorve o impacto, pergunta "há algo verdadeiro aqui que precisamos corrigir?" e segue adiante.
 
 Teste simples para autoavaliação: **se você descobrisse amanhã que essa empresa nunca vai ficar grande, mas ainda teria trabalho interessante por 10 anos construindo algo útil para 500 clientes que te pagam bem, você continuaria?** Se sim, você é provavelmente earnest sobre o problema. Se não, você está trabalhando pela recompensa externa, e isso é frágil.
 
@@ -3948,6 +3952,8 @@ Grupos de peer support são complemento, não substituto, da terapia. Servem par
 Mais qualitativas que quantitativas, mas úteis. Qualidade do sono (horas dormidas por noite e nota subjetiva de descanso de 0 a 10), com meta de 7 a 8 horas e nota igual ou superior a 7. Exercício, pelo menos três sessões por semana. Tempo com parceiro ou parceira e família sem celular, pelo menos oito horas por semana. Contato com amigo próximo, pelo menos uma conversa substantiva por mês. Terapia em frequência consistente (se aplicável). Dias de férias reais por ano, pelo menos dez. Red flags (burnout checklist) presentes: zero sustentados. Conversas estruturadas com cofounders, pelo menos uma por trimestre.
 
 ### As bombas-relógio da sociedade e da mente: 50/50 sem desempate, falta de vesting e positividade tóxica
+
+Na frente societária, duas falhas de largada explodem quando o estresse aperta: dividir a empresa em 50/50 sem cláusula de desempate decisório (o que paralisa a operação no primeiro desacordo grave) e assinar o contrato social sem **vesting de 4 anos com *cliff* de 1 ano** (permitindo que um sócio saia no sexto mês levando metade da empresa no bolso, tema detalhado na Fase 0 e na Fase 18 do Vol. 8). Na frente emocional, essas falhas societárias somam-se às armadilhas psicológicas abaixo.
 
 > [!warning] Armadilhas de saúde mental e humanidade
 > "Eu resolvo com mais força de vontade." Burnout clínico não responde a força de vontade. Exige mudança estrutural ou intervenção.
@@ -4046,7 +4052,7 @@ O Capítulo 2 (Saúde Mental, Dinâmica de cofundadores e Humanidade do Fundador
 - Intrusão na vida pessoal (família, amigos veem, perguntam).
 - Cortisol crônico por dias/semanas.
 
-**Guidance prático** ([[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9 — GESTÃO DE CRISE, CONTINUIDADE OPERACIONAL E COMUNICAÇÃO CRÍTICA|Capítulo 9 (Gestão de Crise, Continuidade Operacional e Comunicação Crítica) (Vol. 9)]] cobre crise em detalhe, aqui foco no psicológico):
+**O que fazer na prática** (o Capítulo 9 do Vol. 9, sobre gestão de crise e continuidade operacional, detalha a resposta institucional a vazamento de dados ou post viral negativo; aqui o foco é conter a ruminação mental, ajustar o diálogo interno e fazer uma checagem de realidade com o sócio):
 
 1. **Segure a resposta impulsiva nos primeiros 60 minutos, mas acione o protocolo legal imediatamente**: respire, reúna cofundador e advogado antes de ir a público e, se o incidente envolver vazamento de dados pessoais, cumpra o prazo da LGPD e da ANPD (três dias úteis para comunicação preliminar à autoridade e aos titulares afetados; ver Capítulo 10 do Vol. 8).
 2. **Se responsabilidade é sua, assumir rápido**: silêncio prolongado vira história maior.
@@ -4102,7 +4108,7 @@ O manual é honesto sobre isso porque silenciar é pior. Fundador que sabe antes
 
 #### As fases emocionais observáveis
 
-**Etapa 1: Negação operacional (semanas a meses antes do fechamento):**
+**Etapa 1, Negação operacional (semanas a meses antes do fechamento):**
 
 Empresa já mostra sinais claros de inviabilidade (caixa curto, rodada que não fecha, churn alto, produto que não ganha tração). Fundador intelectualmente sabe, mas emocionalmente trabalha como se ainda desse para virar. Trabalha mais horas, corta gastos pessoais para ajudar empresa, adiciona pivôs desesperados, mantém discurso externo otimista.
 
@@ -4316,7 +4322,7 @@ Esses padrões são observados em founders diferentes, em setores diferentes, em
 
 **Princípio geral do mapa.** Cada fase tem sua cor emocional dominante. Conhecer antecipadamente ajuda em dois momentos: quando o sentimento aparece, reconhecê-lo como "comum nesta fase, passa" (não sinal de falha pessoal), e quando ele se intensifica além do padrão esperado, saber que é o momento de buscar suporte profissional específico (terapeuta, psiquiatra, médico). Saúde mental de fundador não é sinal de fraqueza, é ferramenta operacional. Fundador em crise toma decisões piores, demite mal, capta mal, esgota time. Cuidar da própria saúde mental é decisão de negócio, não apenas de bem-estar.
 
-Síntese comparativa de canais:
+> [!info] Fases relacionadas
 
 ---
 
@@ -4338,7 +4344,7 @@ Síntese comparativa de canais:
 
 ### O inimigo no espelho: por que pessoas brilhantes tomam decisões estúpidas quando se apaixonam pela própria tese
 
-Na sua clínica em Belo Horizonte, a **Dra. Camila** investiu R$ 95 mil em um equipamento importado de escaneamento facial que prometia revolucionar a venda de tratamentos estéticos. Nos seis primeiros meses, apenas três pacientes aceitaram pagar pelo exame. Qualquer observador externo veria que a aposta deu errado e venderia a máquina no mercado secundário para recuperar R$ 70 mil de caixa. Mas Camila fez o oposto: contratou uma agência de tráfego pago de R$ 8 mil mensais só para divulgar a máquina e obrigou a recepcionista a oferecê-la para todos os pacientes, travando a agenda dos procedimentos que realmente davam lucro. Quando seu marido perguntou por que ela insistia naquilo, a resposta saiu no automático: *"Eu não posso desistir agora depois de tudo o que já gastei nessa máquina!"*
+Em sua clínica em Belo Horizonte, a **Dra. Camila** desembolsou R$ 95 mil na compra de um scanner facial importado que prometia impulsionar o fechamento de procedimentos estéticos. Após seis meses e apenas três exames pagos, qualquer análise fria recomendaria revender o aparelho no mercado secundário para recuperar R$ 70 mil de caixa. Camila, porém, dobrou a aposta: contratou uma agência de anúncios por R$ 8 mil ao mês só para promover o equipamento e instruiu a recepção a empurrá-lo a todos os pacientes, tomando o horário das reabilitações orais que sustentavam a margem da clínica. Questionada pelo marido, reagiu no impulso: *"Não posso desistir agora depois de tudo o que já gastei nessa máquina!"* Ao longo deste Capítulo 3 e no exercício do Espelho, voltamos à conta da Dra. Camila na falácia do custo afundado para aplicar o teste da folha em branco: se ela não tivesse o equipamento hoje, tiraria R$ 70 mil do banco para comprá-lo e mais R$ 8 mil mensais para anunciá-lo? A resposta negativa é o que a leva a vender a máquina e estancar a sangria de caixa.
 
 Daniel Kahneman recebeu o Prêmio Nobel de Economia em 2002 pelo trabalho desenvolvido ao longo de décadas com Amos Tversky (1937-1996), demonstrando que o julgamento humano sob incerteza recorre a atalhos mentais (*heurísticas*) que produzem erros sistemáticos e previsíveis: é uma máquina de contar histórias para proteger o próprio ego. Na trincheira empreendedora, onde você precisa vender otimismo para clientes, funcionários e investidores todos os dias, você cai na **Cegueira do Próprio Pitch** (que retomaremos no Espelho e no Ritual deste capítulo).
 
@@ -4480,7 +4486,7 @@ Incluo abaixo porque é uma lista com nomes concretos para padrões de falha que
 
 Os outros dezessete são apenas descrições de caminhos pelos quais você chega a não fazer algo que as pessoas querem. Reler a lista mensalmente, com honestidade, é um dos exercícios de autocorreção mais baratos que um fundador pode ter.
 
-Síntese comparativa de canais:
+> [!info] Fases relacionadas
 
 
 ---
@@ -4508,11 +4514,13 @@ Síntese comparativa de canais:
 
 ### Foguete de Venture Capital ou Máquina de Lucro Bootstrapped: você quer ser rico ou quer ser rei?
 
-Dois engenheiros formados na mesma turma da UFSC, em Florianópolis, abrem empresas de software B2B no mesmo mês e enfrentam o verdadeiro *trade-off* entre velocidade de escala e controle societário, dilema que **Lucas e Marina** resolvem na própria pele adotando uma terceira via: financiar o desenvolvimento do produto com receita de serviço padronizado antes de decidir se captam. O primeiro levanta R$ 15 milhões em três rodadas de Venture Capital, contrata 90 pessoas, estampa capas de portais de inovação e, cinco anos depois, vende a empresa por R$ 80 milhões. Parece um triunfo: até você abrir a planilha de liquidação: após a incidência de cláusulas de preferência de liquidação (*liquidation preference*) de 1x com participação dos fundos sobre os R$ 15 milhões aportados e o desconto do imposto de renda sobre ganho de capital na sua fatia diluída a 9%, sobram no seu bolso cerca de R$ 4,9 milhões líquidos. O segundo amigo nunca captou um centavo de fundo: cresceu financiando o produto com o dinheiro dos próprios clientes (*bootstrapping*), manteve uma equipe enxuta de 22 pessoas com alta automação, tirou R$ 1,5 milhão por ano em dividendos a partir do terceiro ano (sujeitos, desde janeiro de 2026 pela Lei 15.270/2025, à retenção de 10% para pagamentos acima de R$ 50 mil mensais por empresa e ao imposto mínimo anual de até 10%) e, no quinto ano, vendeu 80% da operação para um grupo estratégico por R$ 35 milhões: embolsando **R$ 28 milhões à vista** além dos dividendos já acumulados.
+Dois engenheiros formados na mesma turma da UFSC, em Florianópolis, abrem empresas de software B2B no mesmo mês e enfrentam a escolha entre velocidade de escala e controle societário, dilema que **Lucas e Marina** resolvem na prática adotando uma terceira via: financiar o início do produto com receita de serviço padronizado antes de decidir se captam. O primeiro colega levanta R$ 15 milhões em três rodadas de Venture Capital, contrata 90 pessoas, sai na imprensa e, no quinto ano, vende a companhia por R$ 80 milhões. Na planilha de liquidação, porém, após a preferência de liquidação (*liquidation preference*) de 1x com participação dos fundos sobre os R$ 15 milhões investidos e o imposto sobre ganho de capital na sua fatia diluída a 9%, sobram no seu bolso cerca de R$ 4,9 milhões líquidos. O segundo amigo cresceu com o caixa dos próprios clientes (*bootstrapping*) e uma equipe enxuta de 22 pessoas, distribuiu R$ 1,5 milhão por ano em dividendos a partir do terceiro ano (sujeitos, desde janeiro de 2026 pela Lei 15.270/2025, à retenção de 10% acima de R$ 50 mil mensais e ao ajuste anual de até 10%) e, no quinto ano, vendeu 80% da empresa, avaliada em R$ 35 milhões, recebendo R$ 28 milhões brutos à vista, o que equivale a **cerca de R$ 23 milhões líquidos depois do imposto**, além dos dividendos acumulados e dos 20% remanescentes.
 
-Noam Wasserman resumiu esse dilema em uma pergunta que todo fundador deveria tatuar no braço antes de marcar o primeiro café na Faria Lima: **"Você quer ser Rei (manter controle e lucros) ou quer ser Rico via hipercrescimento: sabendo que escolher o veículo errado para o tamanho da sua pista destrói os dois?"**
+Noam Wasserman, em sua pesquisa em Harvard (*The Founder's Dilemmas*), chamou essa escolha de dilema **rico ou rei**: quem faz questão de manter o controle absoluto das decisões e do conselho tende a ficar com uma empresa menor, enquanto quem aceita dividir o controle com investidores aumenta a probabilidade de construir uma companhia maior e valer mais na saída. Antes de marcar o primeiro café na Faria Lima, defina qual desses caminhos faz sentido para o seu negócio, pois escolher o veículo de capital errado para o tamanho da sua pista compromete tanto o controle quanto o retorno financeiro.
 
 Chamamos o erro mais comum do ecossistema de **A Vaidade do Cheque Alheio**: tratar a captação de Venture Capital como medalha de sucesso em vez de entendê-la pelo que ela realmente é: uma **esteira rolante de velocidade máxima** onde qualquer resultado abaixo de multiplicar a empresa por 10x a 20x é tratado como fracasso.
+
+Em Curitiba, **Henrique** viu esse exato gargalo travar a expansão dos seus sistemas de telemetria industrial e contratos públicos: sem estruturar essa decisão com método, cada novo contrato parecia recomeçar do zero.
 
 ---
 
@@ -4529,6 +4537,8 @@ Este capítulo trata bootstrap como opção séria. VC (venture capital) como op
 **Opções híbridas.** Angel (anjo), ou friends & family. Capital individual, cheques menores (R$ 50 a R$ 500 mil típicos no Brasil), menos pressão por exit rápido, e mais flexível. Revenue-based financing (RBF, financiamento baseado em receita). Capital em troca de percentual de receita futura, até multiplicador (1,3 a 1,6 vezes o investido), sem equity, e sem diluição. *Venture debt* (dívida estruturada para startups que já captaram capital de risco): complementa a rodada em dinheiro com diluição muito menor que uma emissão pura de ações, embora quase sempre inclua *warrants* (opções para o credor subscrever uma pequena fatia societária no futuro). Equity crowdfunding (financiamento coletivo com participação). Captação pública de investimento participativo (*equity crowdfunding*) via plataforma eletrônica autorizada pela CVM nos termos da Resolução CVM 88/2022 (com limite de captação de até R$ 15 milhões por ano, em plataformas como CapTable e Kria; ver Capítulo 13 do Vol. 5). Revenue-funded growth (crescimento financiado por receita). Modelo em que a própria receita financia crescimento, sem capital externo.
 
 ### A matemática da Lei de Potência: por que um fundo de VC precisa que sua empresa tente devolver o fundo inteiro
+
+Faça a conta do gestor: um fundo brasileiro de R$ 400 milhões precisa devolver pelo menos 3x o capital aos cotistas (R$ 1,2 bilhão) em dez anos para justificar o risco frente à renda fixa. Se o fundo termina diluído com 10% da sua startup na saída, uma única investida vencedora precisaria ser vendida por R$ 12 bilhões (ou duas por R$ 6 bilhões) para pagar a conta das outras vinte que ficaram pelo caminho.
 
 Isso é o que a maioria dos fundadores não entende ao escolher o caminho.
 
@@ -4670,7 +4680,7 @@ Para alinhar sua ambição pessoal ao motor financeiro em uma tarde, aplique tr�
 > [!warning] Verdade desconfortável
 > O ecossistema brasileiro de venture, em 2024 a 2026, tem viés forte para captação. Eventos, newsletters, podcasts, aceleradoras e grupos de founders privilegiam a narrativa do capital. Bootstrap existe, mas é menos visível. Se você escolhe bootstrap, aceite que a sua trajetória será menos celebrada publicamente. Em troca, você pode ter uma empresa que vale mais, com mais controle, por mais tempo.
 
-Síntese comparativa de canais:
+> [!info] Fases relacionadas
 
 ---
 
@@ -4699,6 +4709,8 @@ Em *Empresas Feitas para Vencer*, Jim Collins mostrou que os líderes que constr
 O cânone do empreendedorismo brasileiro tende a girar em torno de um conjunto pequeno de casos visíveis: Nubank, iFood, Stone, Wellhub, QuintoAndar, XP, Mercado Livre, Magalu. Esses casos aparecem repetidamente neste livro porque são bem documentados, têm dados públicos confiáveis e cobrem arquétipos úteis. Mas o recorte mais visível da mídia especializada ainda se concentra em fundadores homens do eixo corporativo paulistano, embora levantamentos do ecossistema brasileiro (como os relatórios do Distrito e da Rede Mulher Empreendedora) mostrem que startups fundadas exclusivamente por mulheres historicamente recebem menos de 5% do volume total de capital de risco no país, ao mesmo tempo em que gigantes nacionais como WEG (Jaraguá do Sul), Magazine Luiza (Franca), XP (Porto Alegre) e RD Station (Florianópolis) nasceram longe da Faria Lima. Este capítulo amplia o repertório de propósito.
 
 ### Fundadoras no ecossistema brasileiro: o funil desigual de capital e como blindar a captação
+
+Relatórios recorrentes sobre venture capital na América Latina mostram que equipes fundadas apenas por mulheres captam uma fração mínima dos cheques institucionais, fenômeno explicado em parte pelo estudo de Dana Kanze e coautores (*Academy of Management Journal*, 2018): em bancas de investimento, homens costumam receber perguntas de promoção ("quão grande isso pode ficar?") e mulheres recebem perguntas de prevenção ("como vocês vão defender o mercado?"), o que reduz o valor captado quando a fundadora responde apenas na defensiva. O antídoto prático, demonstrado em entrevistas de mercado, é responder à pergunta de risco com o dado exato e redirecionar a frase seguinte para a alavanca de crescimento.
 
 A invisibilidade relativa de fundadoras mulheres no ecossistema de venture (capital de risco) não reflete ausência delas. Reflete o viés de cobertura. Algumas trajetórias que valem estudo.
 
@@ -4784,6 +4796,8 @@ IA, e futuro do trabalho. Empresas construindo IA que substitui humanos em setor
 
 ### Exercício prático: como transformar sua trajetória regional ou setorial em vantagem de acesso
 
+Em vez de esconder seu sotaque regional ou seu passado fora da tecnologia, faça em trinta minutos o mapa de vantagem de origem: (1) liste três ambientes produtivos nos quais você circula com naturalidade (como Henrique nas usinas do Paraná ou Camila nos consultórios de Minas); (2) aponte qual jargão, regra regulatória ou dor de bolso desse ambiente um fundador de fora levaria dois anos para entender; e (3) use essa credencial logo nos primeiros trinta segundos das suas próximas cinco abordagens a clientes.
+
 Os casos listados aqui são apontamentos. Não estudos de caso completos. O objetivo é ampliar o repertório do leitor para além do cânone concentrado. Não fornecer profundidade sobre cada um. Para aprofundamento. Documentários, livros biográficos, entrevistas em podcasts (especialmente *Trip Nordeste*, *Café com Capital*, *StartSe*, *Flow*, *Cheddar*) oferecem material rico sobre trajetórias específicas. Bases como Distrito, Endeavor Insights, Instituto Empreender Endeavor, relatórios da ABVCAP, e publicações do Sebrae, dão dados agregados e casos documentados em profundidade.
 
 Os 42 guias setoriais e o mapa dos 15 polos regionais do Volume 10 aprofundam com dados e casos locais cada uma das frentes apresentadas neste capítulo. O cânone dá referências amplamente reconhecíveis, e comparáveis. Este capítulo reconhece o limite dessa escolha, e oferece rota de expansão.
@@ -4813,7 +4827,7 @@ Quando você ainda não tem marca famosa, verba de mídia nem trinta engenheiros
 
 ### Portas de mão única vs. portas de duas mãos: por que decidir devagar o que é reversível mata a velocidade da sua empresa
 
-Na segunda-feira de manhã, **Lucas e Marina** entram em uma reunião às 9h para decidir duas coisas na sua startup: (1) se vão mudar o preço do plano básico no site de R$ 199 para R$ 249 por mês nos próximos quinze dias de teste, e (2) se vão assinar um contrato de exclusividade comercial de três anos com uma grande distribuidora que exige travar 60% do roadmap de engenharia. Inacreditavelmente, eles passam **duas horas e meia** debatendo a mudança de R$ 50 no preço do site, pedindo mais planilhas e adiando para a semana seguinte, e aprovam a cláusula de exclusividade de três anos nos últimos dez minutos da reunião porque estavam atrasados para o almoço.
+Às 9h de segunda-feira, **Lucas e Marina** abriram a reunião semanal da startup com dois pontos de pauta: (1) testar por quinze dias a mudança do plano básico no site de R$ 199 para R$ 249 mensais e (2) assinar um contrato comercial de três anos com uma grande distribuidora que exigia exclusividade no setor e travava 60% do *roadmap* de engenharia. Eles gastaram **duas horas e meia** discutindo o ajuste reversível de R$ 50 no site e, famintos antes do almoço, quase aprovaram a exclusividade de três anos em dez minutos. Como veremos na seção sobre decisões Tipo 1 disfarçadas de Tipo 2, no roteiro de *pre-mortem* (*"É março de 2028 e a cláusula de exclusividade com a distribuidora quebrou a startup: o que aconteceu?"*) e na pergunta final do Espelho, Marina travou a assinatura naquela tarde, converteu o contrato em um piloto sem exclusividade de 90 dias e subiu o teste de preço no site no mesmo dia.
 
 Jeff Bezos, em sua célebre carta aos acionistas da Amazon, deu nome a essa patologia organizacional: **confundir Decisões Tipo 1 (portas de mão única, quase irreversíveis, que exigem lentidão, pré-mortem e cálculo frio) com Decisões Tipo 2 (portas de duas mãos, onde você pode atravessar, ver o que acontece e voltar atrás em cinco minutos se der errado).**
 
@@ -4911,7 +4925,7 @@ Antídoto: reference class forecasting. Quanto tempo projetos similares (não o 
 
 **Pre-mortem.**
 
-O que é: imaginar que o projeto falhou, completamente, e trabalhar de trás para frente para identificar as causas.
+Aplicação operacional no rito decisório (usando na prática a ferramenta de Gary Klein apresentada na Fase 0 e no catálogo do Capítulo 3): antes de atravessar uma porta Tipo 1, projete que a decisão fracassou por completo daqui a 12 ou 24 meses e trabalhe de trás para frente com o time para documentar as causas exatas do colapso e as travas preventivas.
 
 Como conduzir. Reunir as pessoas-chave envolvidas na decisão. Estabelecer o contexto: "É [data futura]. O projeto X falhou miseravelmente. Não chegamos nem perto do objetivo. O que aconteceu?" Cada participante escreve independentemente (para evitar groupthink) os motivos do fracasso. Depois discutir em grupo e priorizar os riscos identificados.
 
@@ -4936,7 +4950,7 @@ Framework para decisões importantes que envolvem múltiplas pessoas ou perspect
 
 **Setting.** Qual é a decisão? Qual é o contexto? Qual é a urgência? Por que precisamos decidir agora?
 
-**People.** Quem decide (D, uma pessoa, não um comitê)? Quem aprova (A, pode vetar ou liberar)? Quem recomenda (R, contribui com perspectiva)? Quem executa (E, implementa a decisão)?
+**People (Pessoas).** No modelo SPADE de Gokul Rajaram, defina com clareza quem é o **responsável** (uma única pessoa que toma a decisão final e responde por ela, nunca um comitê), quem **aprova** (quem pode vetar a proposta se ela extrapolar alçada ou risco) e quem é **consultado** (quem oferece dados e perspectivas antes da decisão, sem poder de voto).
 
 **Alternatives.** Pelo menos três opções genuínas, incluindo "não fazer nada". Opções artificiais ("fazer X, não fazer X, ou fazer X pela metade") não contam.
 
@@ -5068,7 +5082,7 @@ Registrar. Toda decisão Tipo 1 deve ser registrada: o que foi decidido, quem de
 
 ### O chefe que não manda em ninguém: como mover clientes, talentos e investidores quando seu crachá não vale nada
 
-Quando **Henrique** era gerente de engenharia em uma multinacional no Paraná, bastava enviar um e-mail convocando sua equipe ou um fornecedor homologado e oito pessoas apareciam na sala no horário marcado. Na primeira semana como fundador da sua própria startup (sem marca famosa, sem orçamento milionário e sem poder hierárquico sobre absolutamente ninguém), ele precisou convencer um diretor de usina a abrir os dados de produção para um teste, um engenheiro sênior de IA a trocar um salário alto por risco, a própria esposa a apoiar um ano de aperto e um cliente industrial desconfiado a assinar o primeiro contrato de piloto pago antes de a plataforma estar pronta. Nenhum deles devia obediência a Henrique.
+Nos tempos em que **Henrique** gerenciava a engenharia de uma multinacional no Paraná, bastava disparar um convite na agenda para reunir oito subordinados e fornecedores na sala. Na primeira semana à frente da própria startup (muito antes de alcançar as 45 usinas retratadas no Capítulo 5, quando ainda não tinha marca, verba nem autoridade hierárquica sobre ninguém), ele precisou convencer um diretor industrial a liberar dados operacionais, um especialista sênior de IA a trocar salário alto por participação, a esposa a atravessar um ano de orçamento curto e a primeira usina desconfiada a fechar um teste comercial. Como veremos na seção sobre fechar clientes grandes sem histórico prévio, Henrique escapou do purgatório de provas de conceito (*POCs*) gratuitas ao estruturar um piloto pago de 60 dias com meta técnica clara e preço de conversão anual já fixado em contrato.
 
 Esse é o choque estrutural de todo fundador no dia 1: **você passa a ter responsabilidade total pelo resultado tendo zero autoridade formal sobre as pessoas de quem mais depende.**
 
@@ -5212,7 +5226,7 @@ Feedback negativo apresentado em frame de desenvolvimento ("aqui está o que pre
 
 ### Narrativa que move capital e pessoas: estrutura de história para quem não tem tempo a perder
 
-Dados informam. Histórias movem. A distinção não é decorativa: é neurológica.
+Dados informam e histórias movem, porque prendem a atenção e ativam a memória de um jeito que a planilha isolada não prende.
 
 Quando ouvimos dados, o cérebro processa nas áreas de linguagem e lógica. Quando ouvimos história, mais áreas são ativadas: córtex sensorial, córtex motor, áreas de emoção. O processo chamado de "neural coupling", onde o cérebro do ouvinte começa a sincronizar com o do narrador, foi demonstrado em um estudo de Princeton (Stephens, Silbert e Hasson, *PNAS*, 2010) quando o ouvinte compreende uma história real contada pelo narrador (embora o estudo tenha comparado fala compreendida com áudio incompreensível, e não narrativa versus dados, ele ilustra como histórias engajam a compreensão contextual).
 
@@ -5402,7 +5416,7 @@ Influência é habilidade difícil de medir diretamente, mas há indicadores obs
 
 Na fábrica da Amazon, Jeff Bezos proibiu apresentações de PowerPoint em reuniões executivas e instituiu o ritual silencioso dos memorandos de seis páginas (*6-pagers*). O motivo é simples: **em um slide com três tópicos soltos ("1. Escalar vendas; 2. Reduzir churn; 3. Usar IA"), qualquer ideia preguiçosa parece genial; mas quando você é obrigado a escrever frases completas com sujeito, verbo, causa e consequência, os furos do seu raciocínio ficam nus na página.**
 
-Quando **Marina** assumiu a operação comercial e de relacionamento com investidores da startup que fundou com **Lucas**, ela percebeu que 70% dos retrabalhos da equipe e 90% dos *follow-ups* ignorados por clientes vinham do mesmo vício: textos prolixos, e-mails que escondiam o pedido principal no quarto parágrafo e mensagens de WhatsApp quebradas em doze linhas que ninguém conseguia processar.
+Ao assumir a frente comercial e o relacionamento com investidores da startup que fundou com **Lucas**, **Marina** auditou as mensagens enviadas no mês anterior e encontrou um padrão claro: o e-mail de proposta que escondera o pedido de decisão no quarto parágrafo ficara 12 dias sem resposta do diretor da distribuidora, e os avisos internos quebrados em doze linhas soltas de WhatsApp haviam gerado três dias de retrabalho na engenharia. Ao longo deste Capítulo 8 e no Ritual final, acompanhamos como Marina reescreveu esse e-mail comercial colocando o pedido e o impacto financeiro logo na primeira frase, padronizou os memorandos internos de uma página e estruturou o relatório mensal enxuto enviado aos investidores-anjos.
 
 No mundo real dos negócios, **a sua escrita é a interface pública do seu cérebro**. Dominar os três documentos vitais de um fundador, o *One-Pager* que abre portas, o *Memo de Decisão* que alinha o time e o *Investor/Client Update* que constrói confiança, aplicando o *Princípio da Pirâmide* de Barbara Minto (começar sempre pela conclusão) é a alavanca mais barata e poderosa que existe.
 
@@ -5430,6 +5444,8 @@ A Amazon proibiu PowerPoint em reuniões de revisão de produto em 2004. Jeff Be
 O argumento para startup brasileira não é copiar essas empresas. É reconhecer que o benefício de escrever bem é real e acessível desde o primeiro dia, sem custo de ferramenta nem de infraestrutura.
 
 ### Os 4 documentos essenciais do fundador: o One-Pager, o Memorando de Decisão, o Update Mensal e o Comunicado Interno
+
+O **One-Pager** (documento executivo de uma página, derivado da DII da Fase 2) é o cartão de visitas escrito da startup para abrir portas com clientes corporativos, parceiros e investidores: em cinco blocos curtos (Problema quantificado, Cliente-alvo, Solução e diferencial, Prova inicial de tração e Pedido objetivo), Marina resume a tese da empresa em 350 palavras que qualquer decisor lê em dois minutos no celular.
 
 #### Memo estratégico
 
@@ -5512,8 +5528,8 @@ Lowlights (3 problemas honestos)
 
 Asks (o que você precisa do investidor)
   Específico e acionável.
-  "Preciso de introdução para o VP de TI da Natura - você tem
-  conexão com a Flavia Mendes?" funciona.
+  "Preciso de introdução à diretora de TI da [rede varejista X].
+  Você conhece quem lidera a área lá?" funciona.
   "Qualquer ajuda com o pipeline enterprise" não funciona.
 ```
 
@@ -5583,9 +5599,11 @@ Anunciar decisão sem explicar o raciocínio cria rumor. O time vai preencher o 
 
 ### Frase curta e conclusão na abertura: o Princípio da Pirâmide, voz ativa e corte de adjetivos
 
+Formulado por Barbara Minto na McKinsey nos anos 1970 (*The Pyramid Principle*), o método ensina a abrir qualquer documento pela conclusão principal e sustentar essa resposta logo abaixo com três argumentos agrupados e dados verificáveis, lógica aparentada ao **BLUF** militar (*Bottom Line Up Front*, conclusão na primeira linha) e à pirâmide invertida do jornalismo.
+
 **Uma ideia por parágrafo.** Se o parágrafo tem duas ideias, ele tem dois parágrafos. Parágrafos longos com múltiplas ideias forçam o leitor a manter contexto demais na memória de trabalho. Resultado: o leitor relê ou desiste.
 
-**Sujeito mais verbo mais objeto.** A frase *"A análise foi conduzida pelo time de produto em relação aos dados de churn"* esconde a ação principal dentro de um substantivo abstrato (*análise*) e empurra quem agiu para o meio da sentença; escrever *"O time de produto analisou os dados de cancelamento"* entrega a mesma informação na voz ativa com metade das palavras. "O time de produto analisou os dados de churn" tem sujeito no começo, verbo depois, objeto claro. Voz ativa não é regra estética: é redução de esforço cognitivo para o leitor.
+**Sujeito, verbo e objeto na ordem direta.** A frase *"A análise foi conduzida pelo time de produto em relação aos dados de churn"* esconde a ação dentro de um substantivo abstrato (*análise*) e empurra quem agiu para o meio da sentença; escrever *"O time de produto analisou os dados de cancelamento"* coloca quem fez a ação no início, o verbo em seguida e o objeto claro com metade das palavras. A voz ativa poupa esforço do leitor.
 
 **Eliminar qualificadores vazios.** "Muito", "bastante", "de certa forma", "em algum momento", "relativamente", "algo como": essas palavras existem porque o escritor não quer se comprometer com precisão. Comprometer-se com precisão é mais útil e mais honesto. "Crescemos bastante" não significa nada. "Crescemos 40% em ARR nos últimos 90 dias" é informação.
 
@@ -5761,6 +5779,8 @@ A regra do post-mortem: foco em sistema e processo, não em pessoa. "O processo 
 Quando publicar internamente: dentro de 72 horas após resolução do incidente. Esperar mais cria a percepção de que a análise está sendo enterrada. Publicar antes sem análise completa cria post-mortem raso que não tem valor.
 
 ### Os três vícios que arruinam a escrita executiva: esconder a conclusão, inflar jargão e soar passivo-agressivo
+
+Três falhas destroem a credibilidade de um texto de negócios: (1) **enterrar a conclusão no último parágrafo**, obrigando o leitor a adivinhar por três páginas o que você está pedindo; (2) **esconder falta de dados atrás de jargão e adjetivos vazios** (escrever "sinergia disruptiva escalável" porque você ainda não sabe dizer quantos reais economiza para o cliente); e (3) **adotar tom passivo-agressivo em cobranças internas** ("como já falei três vezes", "conforme meu e-mail anterior"), que gera defesa imediata em vez de corrigir o processo.
 
 > [!warning] Armadilhas de comunicação escrita
 > **Escrever para mostrar que trabalhou, não para mover ação.** Update longo que documenta tudo que aconteceu mas não tem asks, não aponta problemas reais e não permite que o leitor tome nenhuma ação baseada no que leu é overhead, não comunicação. **Updates que só têm boas notícias.** Investidor aprende em dois ou três ciclos a ignorar esses updates porque não refletem realidade. O paradoxo: update honesto sobre problema aumenta confiança; update positivo artificial destrói. **Comunicados que pedem feedback mas já decidiram.** Fingir que input vai influenciar decisão já tomada é percebido imediatamente pelo time e destrói a credibilidade do próximo pedido de input genuíno. Se a decisão está tomada, comunique a decisão: não peça validação. **Documentação no lugar errado.** Documento que ninguém lê porque está na pasta errada, no sistema errado ou com nome impossível de encontrar tem valor zero. Documentação precisa ser encontrável antes de ser legível. **Memo que substitui conversa necessária.** Memo é excelente para decisões com tempo de análise. Decisão urgente ou situação de alto atrito interpessoal pode precisar de conversa direta primeiro, memo depois para registrar o que foi decidido.
@@ -5987,7 +6007,7 @@ A regra prática: se você pode ler o slide sem o apresentador, o slide tem text
 
 Nervosismo antes de apresentação é fisiologicamente idêntico à excitação: adrenalina, coração acelerado, estado de alerta. A diferença é o rótulo cognitivo que você coloca na sensação.
 
-A intervenção que tem evidência experimental (Alison Wood Brooks, Harvard Business School, 2013): em vez de "me acalmar", dizer para si mesmo "estou animado". Reetiquetamento cognitivo da ansiedade como excitação melhora performance mensurável em tarefas públicas: canto, matemática oral, negociação. Suprimir o estado fisiológico é difícil; redirecionar é mais eficaz.
+Alison Wood Brooks (Harvard Business School, *Journal of Experimental Psychology: General*, 2014) mostrou que dizer "estou animado" antes de cantar em público, fazer um discurso ou resolver uma prova de matemática sob pressão melhora o desempenho em comparação a tentar "se acalmar". Ansiedade e empolgação são estados de alta ativação parecidos, e por isso fazer a reavaliação cognitiva da ansiedade como empolgação funciona melhor do que tentar suprimir a reação do corpo.
 
 O que funciona complementarmente: preparação suficiente para que o nervosismo seja sobre performance, não sobre conteúdo. Você não elimina nervosismo eliminando a preparação: você amplifica o nervosismo. Apresentador bem preparado está nervoso sobre como vai ser recebido; apresentador mal preparado está nervoso sobre se vai lembrar o que falar. O segundo tipo de nervosismo paralisa. O primeiro, não.
 
@@ -6113,6 +6133,10 @@ Presença em video (Zoom, Meet) tem diferenças específicas de presença presen
 
 ### O Playbook de Banca de Edital (5 e 10 minutos): como gabaritar o barema dos avaliadores sem estourar o relógio
 
+Depois de ter o microfone cortado no sétimo minuto de sua primeira banca de fomento sem mostrar uma única tela funcional, **Henrique** refez seus dez minutos bloco a bloco seguindo a tabela de barema abaixo: abriu o primeiro minuto quantificando o custo das paradas térmicas nas usinas e prefeituras, dedicou três minutos às evidências do piloto pago e à arquitetura técnica auditável, apresentou a qualificação da equipe e o cronograma físico-financeiro de execução e fechou os 90 segundos finais com as contrapartidas e próximos passos. Na rodada seguinte, gabaritou a planilha dos avaliadores com dois minutos de sobra no relógio.
+
+Depois de ter o microfone cortado no sétimo minuto de sua primeira banca de fomento sem mostrar uma única tela funcional, **Henrique** refez seus dez minutos bloco a bloco seguindo a tabela de barema abaixo: abriu o primeiro minuto quantificando o custo das paradas térmicas nas usinas e prefeituras, dedicou três minutos às evidências do piloto pago e à arquitetura técnica auditável, apresentou a qualificação da equipe e o cronograma físico-financeiro de execução e fechou os 90 segundos finais com as contrapartidas e próximos passos. Na rodada seguinte, gabaritou a planilha dos avaliadores com dois minutos de sobra no relógio.
+
 Apresentar para uma banca de edital público, programa de incubação/aceleração (como Hub GovTech, InovAtiva, Sebrae, Cubo, Eretz.bio) ou agência de fomento (Finep, FAPESP PIPE, Centelha, BNDES) é uma disciplina radicalmente diferente de uma reunião de 30 minutos com um fundo de Venture Capital.
 
 Em uma reunião com VC, o tempo é elástico e as perguntas acontecem durante a conversa. Em um **Processo Seletivo Estruturado (PSE)** ou banca de edital, você precisa dominar **duas regras do jogo em bancas formais**:
@@ -6203,7 +6227,7 @@ Apresente seus **Próximos Passos** sempre como um **mapa de redução de riscos
 
 Em 2016, quando uma startup brasileira queria validar uma hipótese de mercado, construir um protótipo funcional, analisar trinta entrevistas de clientes, redigir rascunhos de contratos e produzir conteúdo de aquisição, um levantamento que antes consumia seis semanas de trabalho manual de três analistas hoje cabe na rotina semanal da dupla, liberando horas para o que nenhuma ferramenta substitui: ouvir os trinta clientes em campo. Hoje, **Lucas e Marina** executam esse ciclo enxuto ao longo de uma única semana, usando inteligência artificial para acelerar a transcrição das entrevistas da Fase 4, o protótipo navegável da Fase 9 e a modelagem financeira do serviço padronizado na Fase 11, sem jamais pular a conversa real com o cliente: mantendo a folha de pagamento em zero enquanto não comprovam o *Product-Market Fit*.
 
-Como Jason Fried e DHH escreveram em *Rework*, o segredo das empresas mais lucrativas e resilientes não é contratar exércitos de pessoas cedo demais: é manter a estrutura pequena, ágil e letal. A Inteligência Artificial Generativa é o maior multiplicador de força da história para quem sabe usá-la como **exoesqueleto operacional em cada uma das 21 fases da jornada**, mas também é a forma mais rápida de produzir lixo em escala industrial para o fundador preguiçoso que tenta terceirizar o próprio pensamento crítico e o contato humano com o cliente.
+Em *Rework*, Jason Fried e David Heinemeier Hansson defendem manter a estrutura pequena e contratar apenas quando a falta de alguém realmente dói na operação (*hire when it hurts*). A Inteligência Artificial Generativa adia essa dor ao funcionar como **alavanca operacional ao longo das 21 fases da jornada**, mas também vira fábrica de ruído quando o fundador tenta terceirizar para a ferramenta o próprio pensamento crítico e a escuta direta do cliente.
 
 ---
 
@@ -6213,7 +6237,7 @@ Como Jason Fried e DHH escreveram em *Rework*, o segredo das empresas mais lucra
 > [!tip] As quatro camadas de IA neste livro
 > IA aparece em quatro camadas, cada uma com decisões e ferramentas distintas. Você está em **acelerador do empreendedor** (camada 1). As outras três:
 >
-> - **Camada 2: IA como copiloto do fundador** (Capítulo 10 (IA Generativa e Agentes como Copiloto e Acelerador do Fundador (2026))). Versão atualizada deste capítulo para 2026, com casos de uso de alto ROI no dia a dia.
+> - **Camada 2: IA como copiloto diário e mapa fase a fase** (integrada neste Capítulo 10). Unifica num só capítulo os fluxos práticos de rotina do fundador (síntese de entrevistas, revisão de documentos, prototipação e análise) e a tabela de consulta das 21 fases (uso, comando e revisão humana), com um único Espelho e Ritual.
 > - **Camada 3: AI no produto** ([[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 10 — AI COMO PARTE DO PRODUTO (AI-NATIVE PRODUCT)|Capítulo 10 (AI como Parte do Produto (AI-Native Product)) (Vol. 4)]]). LLM como componente crítico do produto que vai a mercado, com RAG, evaluations, mitigação de alucinação, custo de inferência.
 > - **Camada 4: AI Ops e automação interna** ([[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 6 — AI OPS E AUTOMAÇÃO INTELIGENTE|Capítulo 6 (AI Ops e Automação Inteligente) (Vol. 7)]]). IA na operação da empresa, com triagem de tickets, resumo de calls, automação de workflows.
 
@@ -6427,7 +6451,7 @@ Uma ferramenta de automação simples. Zapier, Make, ou n8n, para ligar as coisa
 > [!tip] Não coleção de vinte ferramentas
 > Seis ferramentas bem-dominadas rendem mais do que vinte superficialmente.
 
-Síntese comparativa de canais:
+> [!info] Fases relacionadas
 
 ---
 
@@ -6454,7 +6478,7 @@ Empreender não significa caminhar isolado. Um bom conselheiro (*advisor*) ou pr
 
 ### O pedágio do ecossistema: quando uma aceleradora ou edital multiplica sua velocidade (e quando rouba 10% da sua empresa por café e crachá)
 
-Quando **Lucas e Marina** abriram o CNPJ da startup, receberam em menos de um mês três convites tentadores: uma aceleradora privada desconhecida que pedia **12% de participação societária (*equity*)** em troca de R$ 100 mil e "mentorias exclusivas"; um programa de inovação aberta de um grande banco sem tomada de participação; e um edital de subvenção econômica estadual de R$ 300 mil a fundo perdido. Se Lucas tivesse assinado o primeiro contrato no calor da empolgação, teria avaliado sua empresa em míseros R$ 833 mil e entregado um pedaço irreversível do *cap table*: um erro que bloquearia rodadas sérias de *Seed* no futuro. Em vez disso, Marina ligou para quatro ex-participantes do programa, descobriu que as mentorias eram palestras genéricas e recusou o acordo, focando na subvenção não diluitiva e no piloto comercial direto com o banco.
+No primeiro mês após abrirem o CNPJ, **Lucas e Marina** receberam três propostas: uma aceleradora privada pouco conhecida que pedia **12% de participação (*equity*)** por R$ 100 mil e "mentorias"; o programa de inovação aberta de um grande banco sem tomada de participação; e um edital estadual de subvenção econômica de R$ 300 mil a fundo perdido. Assinar o primeiro termo avaliaria a empresa em R$ 833 mil e comprometeria o *cap table* antes da rodada *Seed*. Marina ouviu quatro ex-acelerados, confirmou que as mentorias eram palestras genéricas e recusou a oferta diluitiva. Seis meses depois, o desfecho comprovou o acerto: o piloto com o banco virou contrato anual recorrente, a subvenção estadual de R$ 300 mil financiou a engenharia com diluição zero e, na frente industrial, **Henrique** aplicou a mesma disciplina nos editais da Finep, FAPESP PIPE e BNDES (usando o barema que aprendera após o tropeço na banca do Capítulo 9) para bancar sua pesquisa aplicada sem entregar participação societária precoce.
 
 No Brasil, o ecossistema de incubadoras, aceleradoras, hubs corporativos (Cubo, InovaBra, Distrito, Porto Digital, ACATE) e editais públicos (Finep, FAPs, SEBRAE, programas GovTech) pode ser uma **catapulta extraordinária de distribuição, selo institucional e capital barato**: ou pode ser um **teatro de eventos** que consome seis meses da sua atenção em troca de fotos no palco enquanto seu caixa seca.
 
@@ -6513,7 +6537,7 @@ Três armadilhas concentram quase todo o arrependimento de fundadores com progra
 > [!tip] Antes de aceitar
 > Mapeou três a cinco programas relevantes para estágio e setor atuais? Para cada, verificou histórico de saídas nos últimos três a cinco anos? Entrou em contato com pelo menos três ex-participantes? Avaliou termos financeiros (SAFE, equity, cláusulas) com advogado? Considerou custo de tempo e localização? Preparou narrativa forte e diferenciada para aplicações (sem copy-paste)? Tem warm intro para o programa-alvo prioritário? A aplicação contempla em paralelo editais de fomento não diluitivos? Plano claro de o que fazer pós-programa? Red flags checados quanto a equity alto, cláusulas incomuns, pressão para decidir?
 
-Síntese comparativa de canais:
+> [!info] Fases relacionadas
 
 ---
 
@@ -6534,7 +6558,7 @@ Síntese comparativa de canais:
 
 ### Ninguém constrói nada relevante sozinho: como montar seu conselho informal de trincheira sem colecionar "advisors zumbis"
 
-No primeiro ano da sua clínica própria em Belo Horizonte, a **Dra. Camila** cometeu um erro clássico de quem busca atalho de autoridade: prometeu verbalmente participação a um executivo famoso do setor hospitalar apenas para exibir o nome dele em reuniões, recebendo em troca um único almoço no ano com conselhos pensados para um hospital de 500 leitos que não resolviam sua mistura entre contas de casa e do CNPJ. No semestre seguinte, Camila mudou de método: aproximou-se de três operadores que estavam apenas **dois degraus à frente dela** (uma dentista que já havia organizado o caixa de duas unidades próprias, um contador especializado na área médica e uma gestora de atendimento particular) e, com uma única recomendação prática sobre compras conjuntas de insumos e separação de pró-labore, economizou R$ 28 mil no ano. convidou um executivo famoso do setor hospitalar para ser seu *advisor*, prometendo verbalmente 1% da empresa só para colocar a foto dele na apresentação institucional. Resultado? Em doze meses, o executivo apareceu em apenas um almoço, deu conselhos genéricos que serviam para um hospital de 500 leitos (mas quebrariam uma clínica enxuta) e nunca abriu uma única porta comercial. No segundo ano, Camila mudou completamente a estratégia: mapeou três operadores que estavam apenas **dois degraus à frente dela**: uma fundadora que havia escalado de 1 para 12 clínicas em São Paulo, um contador especialista em tributação médica e um gestor de tráfego local: e estabeleceu reuniões cirúrgicas de 45 minutos a cada trimestre com perguntas enviadas 48 horas antes. Uma única dica da fundadora paulista sobre negociação de insumos odontológicos economizou R$ 180 mil no ano seguinte.
+No primeiro ano da sua clínica própria em Belo Horizonte, a **Dra. Camila** cometeu um erro clássico de quem busca atalho de autoridade: prometeu verbalmente participação a um executivo famoso do setor hospitalar apenas para exibir o nome dele em reuniões, recebendo em troca um único almoço no ano com conselhos pensados para um hospital de 500 leitos que não resolviam sua mistura entre contas de casa e do CNPJ. No semestre seguinte, Camila mudou de método: aproximou-se de três operadores que estavam apenas **dois degraus à frente dela** (uma dentista que já havia organizado o caixa de duas unidades próprias, um contador especializado na área médica e uma gestora de atendimento particular) e, com uma única recomendação prática sobre compras conjuntas de insumos e separação de pró-labore, economizou R$ 28 mil no ano.: convidou um executivo famoso do setor hospitalar para ser seu *advisor*, prometendo verbalmente 1% da empresa só para colocar a foto dele na apresentação institucional. Resultado? Em doze meses, o executivo apareceu em apenas um almoço, deu conselhos genéricos que serviam para um hospital de 500 leitos (mas quebrariam uma clínica enxuta) e nunca abriu uma única porta comercial. No segundo ano, Camila mudou completamente a estratégia: mapeou três operadores que estavam apenas **dois degraus à frente dela**: uma fundadora que havia escalado de 1 para 12 clínicas em São Paulo, um contador especialista em tributação médica e um gestor de tráfego local: e estabeleceu reuniões cirúrgicas de 45 minutos a cada trimestre com perguntas enviadas 48 horas antes. Uma única dica da fundadora paulista sobre negociação de insumos odontológicos economizou R$ 180 mil no ano seguinte.
 
 Como Reid Hoffman e Ben Casnocha destacam em *The Startup of You* (2012) ao analisar a força de alianças baseadas em reciprocidade e laços de confiança, uma rede profissional sólida nunca nasce distribuindo cartões em coquetéis: **nascem quando você aborda operadores reais com problemas específicos, executa o que eles recomendaram em duas semanas e fecha o loop mostrando o resultado.**
 
@@ -6627,7 +6651,7 @@ A primeira é networking superficial em escala. LinkedIn com cinco mil conexões
 > [!tip] Antes de continuar
 > Listou trinta a cinquenta pessoas-chave da rede atual ou potencial? Identificou cinco a dez mentores em potencial em áreas relevantes? Fez primeiro contato com pelo menos três mentores nos últimos noventa dias? Tem um a três advisors formais ou em formalização? Construiu warm path para pelo menos dez investidores relevantes? Tem CRM pessoal (tabela em Notion ou Airtable) com cadência de contato? Presença pública ativa em pelo menos um canal há pelo menos seis meses? Pratica reciprocidade, fez intros ou ajuda inversa recentemente? Primeiros clientes, funcionários e advisors vieram da rede e não de aquisição fria? Cofundadores também estão construindo rede em frentes complementares?
 
-Síntese comparativa de canais:
+> [!info] Fases relacionadas
 
 ---
 

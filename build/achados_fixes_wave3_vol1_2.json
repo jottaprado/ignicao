@@ -1,0 +1,492 @@
+[
+  {
+    "id": "19",
+    "vol": "1",
+    "code": "N2",
+    "from": "São 23h40 de um domingo em Belo Horizonte. A **Dra. Camila**, cirurgiã-dentista de 34 anos reconhecida como uma das melhores especialistas em reabilitação oral da sua região, fecha o computador na mesa da sala com um nó no estômago. Na sexta-feira, ela havia pedido demissão da clínica onde trabalhava há oito anos para realizar o sonho de abrir sua própria rede odontológica. Só que, ao somar pela primeira vez na ponta do lápis o aluguel do ponto comercial, a parcela dos equipamentos importados, a escola dos dois filhos e o seu custo de vida real, ela descobriu uma verdade gelada: se a clínica demorasse mais de quatro meses para empatar, o limite do cheque especial da família inteira iria explodir.",
+    "to": "Passava das onze e meia da noite de domingo em Belo Horizonte quando a **Dra. Camila**, especialista em reabilitação oral de 34 anos, fechou o notebook na sala com um frio na barriga. Na sexta-feira anterior, ela havia pedido demissão da clínica onde atendia havia oito anos para abrir seu próprio consultório. Ao somar pela primeira vez na ponta do lápis o aluguel do ponto comercial, a parcela dos equipamentos importados, a mensalidade escolar dos dois filhos e as despesas da casa, enxergou um risco concreto: se a operação levasse mais de quatro meses para empatar, a família inteira entraria no cheque especial. Ao longo desta Fase 0, Camila refaz essa conta pelo método do Passo 1 (separando o piso de sobrevivência doméstica do capital da clínica), senta com o marido no Passo 4 para renegociar o padrão de gastos e fixar um limite de parada (*stop-loss*), reconhece na armadilha da demissão impulsiva o erro de sair sem reserva dedicada e só assina o contrato de locação no fechamento da fase após garantir 14 meses reais de fôlego financeiro."
+  },
+  {
+    "id": "80",
+    "vol": "1",
+    "code": "C1",
+    "from": "**Base Rate Neglect (negligência da taxa base).** Ao avaliar probabilidade de sucesso, as pessoas ignoram a taxa base histórica e se focam nas características específicas do próprio caso. \"Nosso produto é diferente\" é o sinal de base rate neglect. 90% das startups falham: mas todo fundador tem razões para acreditar que a sua é a exceção. Aplica-se a: estimativas de prazo (planning fallacy), probabilidade de fechar deal, estimativa de TAM, e previsão de crescimento. *Contramedida*: buscar ativamente as taxas base de referência antes de estimativas. \"Qual a porcentagem de empresas semelhantes que conseguiram X em Y prazo?\" Método de previsão Outside View de Daniel Kahneman: começar pela taxa base, depois ajustar por características específicas.",
+    "to": "**Base Rate Neglect (negligência da taxa-base).** Ao avaliar a probabilidade de sucesso, as pessoas ignoram a estatística histórica de referência e olham apenas para os detalhes do próprio caso. \"Nosso produto é diferente\" é o sintoma clássico desse viés: a maioria das startups não chega a devolver o capital investido (e levantamentos de sobrevivência empresarial do IBGE e do Sebrae mostram que grande parte das empresas brasileiras encerra as atividades antes do quinto ano), mas quase todo fundador acredita que será a exceção. O mesmo erro distorce prazos de entrega (*planning fallacy*), previsão de fechamento comercial e estimativas de mercado. *Contramedida*: consultar a taxa-base histórica antes de projetar metas (\"Qual percentual de empresas semelhantes atingiu X no prazo Y?\"), aplicando a visão externa (*Outside View*, de Daniel Kahneman) antes de ajustar pelas particularidades do negócio."
+  },
+  {
+    "id": "82",
+    "vol": "1",
+    "code": "C5",
+    "from": "Passo 1: Após plano existir. Fazer pre-mortem antes de existir plano gera lista teórica sem tração.",
+    "to": "Passo 1. Defina o plano concreto que será testado. Na Fase 0, ainda não existe um plano de negócios completo: o plano é a sua própria decisão de transição de vida (por exemplo, sair do emprego em março e viver da reserva familiar por 12 meses). Faça o pre-mortem sobre esse plano concreto para não cair em uma lista abstrata."
+  },
+  {
+    "id": "99",
+    "vol": "1",
+    "code": "N3",
+    "from": "Em uma cafeteria em Pinheiros, **Lucas** (engenheiro de software recém-saído de um grande banco) mostra orgulhoso para **Marina** (sua futura sócia comercial) um caderno com três ideias de startups que teve durante o fim de semana: uma rede social para donos de pets, um aplicativo de divisão de contas em bares com IA e um marketplace de chefs em domicílio. Marina escuta em silêncio, fecha o caderno e faz uma única pergunta: *\"Lucas, na última terça-feira, Lucas, quem usaria cada uma dessas ideias, e qual dessas pessoas perdeu tempo ou dinheiro com isso na última terça a ponto de pagar?\"* Lucas trava. Nenhuma delas. Eram ideias divertidas de contar num jantar, mas pésimas para construir uma empresa.",
+    "to": "Sentados em um café em Pinheiros, o engenheiro de software **Lucas** (recém-saído de um grande banco) abriu diante de **Marina** (sua futura sócia comercial) um bloco com três ideias anotadas no fim de semana: uma rede social para tutores de animais, um divisor de contas de bar com IA e um aplicativo para contratar chefs em casa. Marina ouviu em silêncio, fechou o caderno e perguntou: *\"Quem usaria cada uma dessas soluções e qual dessas pessoas perdeu tempo ou dinheiro na última terça-feira a ponto de abrir a carteira?\"* Lucas ficou sem resposta: eram ideias simpáticas de conversa de jantar, mas frágeis para sustentar uma empresa. Ao aplicar o Método 1 desta Fase 1 sobre os gargalos que ele próprio vivenciara no banco e passar o caderno pelos quatro filtros de seleção, a dupla descartou os três projetos B2C e reescreveu o bloco em torno de uma dor B2B aguda (a conciliação manual de boletos e recebíveis em distribuidoras médias), preparando a tese que levarão da Fase 2 até o produto."
+  },
+  {
+    "id": "139",
+    "vol": "1",
+    "code": "E1",
+    "from": "Achismo sem customer conversation. Você passa quatro semanas dentro da sua cabeça sem falar com ninguém do setor da ideia. Customer conversation não é Fase 1. É [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 4 — DESCOBERTA DO PROBLEMA|Fase 4 (Vol. 2)]]. Mas algumas conversas breves e direcionadas na Fase 1, especialmente no dia quinta do exercício acima, filtram muito. Não vire prisioneiro da própria cabeça.",
+    "to": "Achismo sem conversa de campo. Você passa quatro semanas trancado na própria cabeça sem ouvir ninguém do setor da ideia. Entrevista de descoberta com cliente é trabalho da Fase 4 (Vol. 2). Aqui na Fase 1 bastam conversas curtas de calibragem, como as três conversas da quinta-feira previstas no exercício e no checklist desta fase, para descartar fantasias cedo."
+  },
+  {
+    "id": "167",
+    "vol": "1",
+    "code": "C4",
+    "from": "##### Exemplo brasileiro preenchido: QuintoAndar em 2015 (reconstrução didática com base em dados públicos)",
+    "to": "##### Como teria ficado o Lean Canvas do QuintoAndar em 2015 (reconstrução do autor com dados públicos)\n\nO quadro abaixo é um exercício didático reconstruído pelo autor com base em dados públicos (e não um documento interno da companhia), sintetizando a proposta original de locação residencial sem fiador e sem caução e a hipótese de que o histórico proprietário de pagamentos permitiria calibrar a garantia locatícia ao longo do tempo:"
+  },
+  {
+    "id": "177",
+    "vol": "1",
+    "code": "S5",
+    "from": "> Advisor é para **refinar decisão que já está em cima da mesa**, não para descobrir o problema. Se você não consegue nomear a decisão em uma frase, você não está pronto para essa conversa: volte para Template: Entrevista de Problema (Fase 4) (entrevista de problema) ou Template: Entrevista com Especialista de Mercado (mapa de setor) (Fase 4) (especialista). Pareamento natural com o [[#CAPÍTULO 12 — REDE, MENTORES E ADVISORS — COMO CONSTRUIR O CAPITAL HUMANO DO EMPREENDEDOR|Capítulo 12 (Rede, Mentores e Advisors: Como Construir o Capital Humano do Empreendedor)]], que cobre como construir e formalizar a relação com advisors. Este template é o que se usa **dentro** da conversa, depois que o advisor já está no jogo.",
+    "to": "> O papel do conselheiro (*advisor*) é **refinar uma decisão estratégica que já está na mesa**, e não descobrir o problema do zero. Enquanto na Fase 1 você usa apenas o Lean Canvas, a leitura de maturidade tecnológica (curva S) e conversas curtas de calibragem, os roteiros completos de entrevista de problema e de especialista vivem na Fase 4 (Vol. 2), e a construção formal da relação com conselheiros está no Capítulo 12 deste volume. Use esta pauta enxuta dentro da reunião quando a decisão já couber em uma frase."
+  },
+  {
+    "id": "187",
+    "vol": "1",
+    "code": "N2",
+    "from": "Em Curitiba, **Henrique** passou quatro meses dizendo a amigos e ex-colegas da indústria que estava montando *\"uma plataforma integrada de inteligência operacional com IA e IoT para descarbonização e eficiência energética no setor produtivo\"*. Todo mundo balançava a cabeça nos cafés, dizia *\"que animal, mercado gigante!\"* e desejava boa sorte. Até que um diretor industrial veterano, amigo do seu pai, pediu para Henrique escrever em uma única folha de papel: **quem assina o cheque, qual dor faz essa pessoa perder o sono na segunda-feira, como ela resolve isso hoje na unha e o que precisa ser verdade para ela trocar o sistema atual pelo seu.** Henrique levou três horas diante da página em branco e suou frio: por trás do vocabulário bonito, ele tinha três negócios diferentes misturados e não sabia dizer se seu comprador era o gerente de manutenção, o diretor financeiro ou a área de sustentabilidade.",
+    "to": "Em Curitiba, **Henrique** passou quatro meses repetindo a ex-colegas da indústria que estava criando *\"uma plataforma integrada de inteligência operacional com IA e IoT para descarbonização e eficiência energética no setor produtivo\"*. Nos cafés, todo mundo elogiava o tamanho do mercado e desejava sucesso. Até que um diretor industrial experiente, amigo de seu pai, pediu que ele escrevesse em uma única página: **quem assina o contrato, qual problema tira o sono dessa pessoa na segunda-feira, como ela resolve isso hoje na planilha e o que precisa acontecer para ela trocar o sistema atual.** Diante da folha em branco, Henrique percebeu que misturava três negócios distintos e não sabia se vendia para manutenção, finanças ou sustentabilidade. Ao longo desta Fase 2, ele descarta o jargão da versão zero, escolhe um único comprador (o diretor industrial de usinas de etanol de milho e biomassa que perde margem com paradas não programadas de caldeira), reescreve sua Declaração inicial para passar no teste dos 90 segundos e lista no último bloco as incertezas críticas que retomará no Espelho e no fechamento da fase."
+  },
+  {
+    "id": "192",
+    "vol": "1",
+    "code": "C5",
+    "from": "Ao listar explicitamente o que você não sabe, você cria a agenda de trabalho das Fases 2 a 6: cada incerteza vira uma suposição a testar nas Fases 6 e 7.",
+    "to": "Ao listar o que você ainda não sabe, você organiza a agenda das etapas seguintes: cada incerteza guia a investigação de campo nas Fases 4 a 6 (Vol. 2), vira hipótese formal na Fase 7 e é testada em experimentos práticos na Fase 8 (Vol. 3)."
+  },
+  {
+    "id": "193",
+    "vol": "1",
+    "code": "S7",
+    "from": "> Os quatro filtros desta fase e o checklist abaixo têm lógica de falsificação de suposições, não de execução de plano. O [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 1 — ABORDAGEM CIENTÍFICA vs LEAN STARTUP: QUANDO USAR CADA UMA|Capítulo 1 (Abordagem Científica vs Lean Startup: Quando Usar Cada Uma) (Vol. 3)]] contextualiza essa diferença de mentalidade: importante para quem vem do mundo corporativo e tende a tratar lista de ideias como planejamento estratégico.",
+    "to": "> Os quatro filtros desta fase e o checklist abaixo seguem a lógica de falsificação de suposições, e não de execução de plano fechado. O Capítulo 1 do Vol. 3, sobre abordagem científica e Lean Startup, contextualiza essa diferença de mentalidade: essencial para quem vem do ambiente corporativo e costuma tratar uma lista de ideias como planejamento estratégico."
+  },
+  {
+    "id": "202",
+    "vol": "1",
+    "code": "C3",
+    "from": "Por que pode funcionar: Pix e open finance viabilizaram integração com fornecedores que não existia há três anos. Padarias artesanais cresceram vinte e oito por cento no Brasil de 2020 a 2024, com nova geração de donos usando celular como ferramenta de gestão. Hipótese central de valor e pagamento: donos de padaria artesanal com duas a cinco lojas pagam R$ 290 por mês para eliminar duas rupturas de farinha e fermento por mês e recuperar a margem perdida.",
+    "to": "Por que pode funcionar agora: o Pix e o Open Finance, consolidados no país desde 2021, permitem integrar pagamento e reposição de estoque direto com distribuidores pelo celular, ao mesmo tempo em que uma nova geração de gestores assumiu a operação de padarias artesanais (hipótese de expansão setorial a verificar em relatórios da ABIP e do Sebrae). Hipótese central de valor e pagamento: donos de padaria artesanal com duas a cinco lojas pagam R$ 290 por mês para eliminar duas rupturas mensais de farinha e fermento e recuperar a margem perdida."
+  },
+  {
+    "id": "217",
+    "vol": "1",
+    "code": "E9",
+    "from": "Passo 1: Inventaire capabilities organizacionais. O que sabemos fazer bem? Não produtos, habilidades subjacentes.",
+    "to": "Passo 1. Faça o inventário das capacidades da organização. O que sabemos fazer excepcionalmente bem? Liste as habilidades técnicas e operacionais subjacentes, e não os produtos atuais."
+  },
+  {
+    "id": "225",
+    "vol": "1",
+    "code": "C3",
+    "from": "| **Parcerias-Chave** | Bandeiras (Mastercard, Visa), processadoras de pagamento, BCB (regulador), provedores cloud |",
+    "to": "| **Parcerias-Chave** | Bandeira Mastercard (acordo inicial de emissão), processadora de cartões, bureaus de crédito e provedor de nuvem (a autorização do BCB entra em recursos regulatórios e riscos, não como parceria) |"
+  },
+  {
+    "id": "236",
+    "vol": "1",
+    "code": "C5",
+    "from": "A diferença entre quem faz certo, e quem falha, está em assumir as próprias incertezas. O quinto bloco da Declaração, tudo o que você não sabe, é o mais valioso e o mais negligenciado. Listar incertezas, em vez de mascará-las com confiança, é o que cria a agenda de trabalho das fases seguintes. As suas incertezas de hoje são as suas suposições de amanhã.",
+    "to": "A diferença entre quem faz certo e quem falha está em assumir as próprias lacunas de conhecimento. A lista de incertezas, que fecha a Declaração da Ideia no último item do template, é a parte mais valiosa e a mais negligenciada do documento. Explicitar o que você ainda não sabe, em vez de mascarar dúvidas com confiança retórica, é o que constrói a agenda das fases seguintes: as incertezas mapeadas hoje serão as hipóteses testadas em campo amanhã."
+  },
+  {
+    "id": "239",
+    "vol": "1",
+    "code": "N2",
+    "from": "Na primeira ideia que tiveram juntos (e que a Árvore desta fase ajudou a descartar em poucos dias, abrindo espaço para a marca própria D2C que construiriam a seguir), **Rafael**, no Recife, e **Bia**, em Goiânia, cogitaram criar uma plataforma de compras coletivas de embalagens biodegradáveis para pequenas cafeterias e hamburguerias artesanais. A Declaração da Ideia parecia impecável: os donos de hamburgueria reclamavam do preço das embalagens e diziam amar sustentabilidade. Mas antes de alugar um galpão e encomendar o primeiro lote da fábrica, Bia desenhou no quadro branco a cadeia de eventos que precisava acontecer para a empresa dar lucro: a **Árvore de Teoria do Negócio**. Foi ali que o dominó mortal apareceu: para conseguir desconto de 30% na indústria (Nó C), eles precisavam que 40 hamburguerias comprassem exatamente a mesma medida de caixa na mesma terça-feira do mês (Nó B) e pagassem à vista antecipado (Nó A). Quando ligaram para seis donos de hamburgueria para checar apenas o Nó A, descobriram que 100% deles compravam embalagem no cartão em 60 dias porque operavam sem capital de giro. Um único dominó invisível mataria o negócio inteiro: e eles descobriram isso gastando zero reais em estoque.",
+    "to": "Antes de criarem sua marca própria D2C, **Rafael**, no Recife, e **Bia**, em Goiânia, avaliaram montar uma central de compras coletivas de embalagens biodegradáveis para hamburguerias e cafeterias artesanais. No papel, a Declaração da Ideia parecia certeira: os donos reclamavam do custo das caixas e elogiavam práticas sustentáveis. Antes de alugar galpão ou fechar pedido mínimo na indústria, porém, Bia desenhou no quadro branco a **Árvore de Teoria do Negócio** que você construirá nos nove passos desta Fase 3. O mapa causal revelou o elo crítico: para obter 30% de desconto na fábrica (Nó C), 40 hamburguerias precisariam encomendar a mesma medida de embalagem na mesma terça-feira (Nó B) e pagar à vista de forma antecipada (Nó A). Ao ligarem para seis estabelecimentos para checar a crença por trás do Nó A, esbarraram na distância entre discurso e prática (*say-do gap*): todos elogiavam sustentabilidade, mas 100% parcelavam embalagens no cartão em 60 dias por falta de capital de giro. Esse único nó mortal derrubava a árvore inteira a custo zero de estoque e levou a dupla a formular a teoria alternativa que retomaremos no Espelho e no fechamento desta fase."
+  },
+  {
+    "id": "258",
+    "vol": "1",
+    "code": "S7",
+    "from": "1. Abrir os Template Story Tree (Fase 3) e Template: Mapa Causal, DAG Simplificado (Fase 3) (DAG) e fazer versão inicial em duas horas.",
+    "to": "1. Abrir os templates Árvore de Teoria e Mapa Causal (DAG), no fim desta fase, e fazer a primeira versão em duas horas."
+  },
+  {
+    "id": "286",
+    "vol": "1",
+    "code": "S7",
+    "from": "> [!tip] Canvases Visuais: Hypothesis Canvas (Fase 7)",
+    "to": "> [!tip] Conexão com a Fase 7 (Vol. 3): do nó crítico ao Hypothesis Canvas"
+  },
+  {
+    "id": "284",
+    "vol": "1",
+    "code": "S5",
+    "from": "> Enquanto o Story Tree mostra a rede de hipóteses (relações causais entre nós), o [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#Canvas: Hypothesis Canvas (autoral IGNIÇÃO)|Canvas: Hypothesis Canvas (autoral IGNIÇÃO) (Vol. 3)]] é o canvas para detalhar UMA hipótese isolada: especialmente as bet-the-company marcadas neste Passo 5. Tem campos para Hipótese, Pressuposto, Critério de falsificação, Método de teste, Threshold e Resultado. Use junto com [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#Template: Hypothesis Canvas|Template: Hypothesis Canvas (Vol. 3)]] (template preenchível) para documentar cada hipótese crítica antes de avançar para [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 7 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 7 (Vol. 3)]] e [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 8 — EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA E DA SOLUÇÃO|Fase 8 (Vol. 3)]].",
+    "to": "> Enquanto a Árvore de Teoria desta Fase 3 mostra o encadeamento causal entre os nós do negócio, o detalhamento individual de cada hipótese crítica fica concentrado na Fase 7 (Vol. 3), onde você usará o [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#Canvas: Hypothesis Canvas (autoral IGNIÇÃO)|Hypothesis Canvas (Vol. 3)]] e o [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#Template: Hypothesis Canvas|Template: Hypothesis Canvas (Vol. 3)]] para transformar os nós *bet-the-company* identificados neste Passo 5 em experimentos práticos para a Fase 8 (Vol. 3)."
+  },
+  {
+    "id": "292",
+    "vol": "1",
+    "code": "N2",
+    "from": "Quando **Lucas** deixou seu cargo de engenheiro sênior em um banco na Faria Lima para fundar sua startup com **Marina**, ele tinha um salário líquido de R$ 22 mil por mês, plano de saúde de primeira linha sem coparticipação e bônus anual garantido. No entusiasmo da partida, ele manteve exatamente o mesmo apartamento alugado no Itaim, as mesmas assinaturas, as mesmas viagens e não conversou com a esposa sobre como ficaria o orçamento doméstico após o sexto mês. No décimo mês de operação, justamente quando o produto começou a tracionar mas ainda exigia mais seis meses de validação para levantar um *Seed* decente, a conta pessoal de Lucas bateu no fundo. Resultado? Com o aluguel atrasando em casa, se Marina não tivesse freado a mesa e puxado a conta do serviço B2B padronizado, o aperto doméstico teria levado Lucas a aceitar a primeira proposta predatória de um investidor-anjo oportunista que exigia **35% da companhia por R$ 250 mil** e assinando cláusulas de veto que travariam a startup pelos três anos seguintes.",
+    "to": "Quando **Lucas** pediu demissão do cargo de engenheiro sênior em um banco na Faria Lima para fundar a startup com **Marina**, abriu mão de R$ 22 mil líquidos mensais, plano de saúde sem coparticipação e bônus anual. Na euforia da largada, manteve o mesmo aluguel caro no Itaim, as mesmas assinaturas e viagens e evitou sentar com a esposa para redesenhar o orçamento da casa após o sexto mês. No décimo mês, quando o produto exigia mais um semestre de validação antes de uma rodada *Seed* saudável, a reserva pessoal secou: com o aluguel atrasando, Lucas quase aceitou a oferta predatória de um anjo oportunista que pedia **35% da empresa por R$ 250 mil** com cláusulas de veto que travariam o negócio, salvo pelo freio de Marina ao fechar a primeira conta de serviço B2B padronizado. Ao longo deste Capítulo 1, usamos os números reais de Lucas para demonstrar o cálculo do *burn rate* familiar (cortando o custo fixo doméstico de R$ 22 mil para um piso enxuto de R$ 11 mil mensais), roteirizar a conversa franca de alinhamento em casa e calcular no Espelho e no Ritual os oito meses extras de fôlego pessoal que essa disciplina garante."
+  },
+  {
+    "id": "320",
+    "vol": "1",
+    "code": "N2",
+    "from": "Oito meses depois de começarem a operar sua marca própria entre o Recife, onde **Rafael** cuida do crescimento digital, e Goiânia, onde **Bia** coordena fornecedores e logística, a primeira crise de caixa colocou a sociedade à prova. De fora, nos painéis de eventos e nos posts de LinkedIn, a história parece uma linha reta de sucesso. Por dentro, às 4h da manhã de uma quinta-feira, Rafael está sentado na beira da cama com taquicardia pela terceira vez na semana: um grande fornecedor acabou de cancelar o prazo de pagamento, um colaborador-chave pediu demissão levando clientes e Rafael e Bia não têm uma conversa honesta sobre o próprio cansaço há oito meses. Cada um engole o medo em silêncio para \"não desanimar o outro\", até que uma discussão banal sobre o layout de uma embalagem vira um grito de duas horas na sala de reunião.",
+    "to": "Oito meses após iniciarem a operação da marca própria entre o Recife, onde **Rafael** lidera aquisição digital, e Goiânia, onde **Bia** toca fornecedores e logística, um aperto agudo de caixa expôs o desgaste silencioso da sociedade. Nas redes sociais, a trajetória parecia impecável; na vida real, às 4h da manhã de quinta-feira, Rafael acordava com taquicardia pela terceira vez na semana depois que um fornecedor cortou o prazo de faturamento e um funcionário-chave saiu levando clientes. Como nenhum dos dois falava do próprio esgotamento para \"poupar o sócio\", oito meses de medo engolido explodiram em duas horas de gritos por causa de um simples ajuste de embalagem. Neste Capítulo 2, acompanhamos como Rafael e Bia saíram desse colapso: reconhecendo que taquicardia recorrente exige avaliação médica imediata, aplicando a nota semanal de energia no check-in de sócios e usando o protocolo de sete passos para conversas difíceis que fecha o Espelho e o Ritual do capítulo."
+  },
+  {
+    "id": "332",
+    "vol": "1",
+    "code": "S7",
+    "from": "Mantenha sua identidade pequena: complemento intelectual (Paul Graham, 2009)",
+    "to": "**Três ensaios de Paul Graham sobre a mente do fundador (1/3): Mantenha sua identidade pequena (*Keep Your Identity Small*, 2009)**"
+  },
+  {
+    "id": "334",
+    "vol": "1",
+    "code": "E7",
+    "from": "Em qualidade da decisão sob pressão: fundador earnest volta à pergunta \"o que é certo para o cliente e para a empresa?\", fundador não earnest volta à pergunta \"o que parece bom? o que vai me fazer ganhar mais/parecer mais sucesso?\". As duas perguntas produzem decisões diferentes, e a diferença compõe ao longo de anos. Em atração de talento: pessoas boas percebem earnestness, não conseguem articular, mas sentem. Fundador earnest atrai primeiros funcionários de qualidade desproporcional aos salários que oferece. Em resiliência à crítica: crítica pública machuca fundador não earnest porque ataca a fachada, fundador earnest absorve, pergunta \"há algo verdadeiro aqui?\", e segue. A diferença é enorme em momentos de pressão pública.",
+    "to": "Na qualidade da decisão sob pressão: o fundador com sinceridade de propósito (*earnestness*), movido pelo problema real, pergunta \"o que é certo para o cliente e para a empresa?\", enquanto o fundador movido pela recompensa e pelo status pergunta \"o que parece bonito ou me faz parecer bem-sucedido?\". As duas perguntas geram escolhas opostas que se acumulam ao longo dos anos. Na atração de talentos: profissionais excelentes percebem a sinceridade de propósito mesmo sem saber defini-la e, por isso, o fundador movido pelo problema atrai primeiros funcionários de nível muito superior ao salário que pode oferecer no início. Na resiliência à crítica: o ataque público machuca quem vive de fachada, mas o fundador movido pelo problema absorve o impacto, pergunta \"há algo verdadeiro aqui que precisamos corrigir?\" e segue adiante."
+  },
+  {
+    "id": "348",
+    "vol": "1",
+    "code": "E7",
+    "from": "**Guidance prático** ([[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9 — GESTÃO DE CRISE, CONTINUIDADE OPERACIONAL E COMUNICAÇÃO CRÍTICA|Capítulo 9 (Gestão de Crise, Continuidade Operacional e Comunicação Crítica) (Vol. 9)]] cobre crise em detalhe, aqui foco no psicológico):",
+    "to": "**O que fazer na prática** (o Capítulo 9 do Vol. 9, sobre gestão de crise e continuidade operacional, detalha a resposta institucional a vazamento de dados ou post viral negativo; aqui o foco é conter a ruminação mental, ajustar o diálogo interno e fazer uma checagem de realidade com o sócio):"
+  },
+  {
+    "id": "368",
+    "vol": "1",
+    "code": "N2",
+    "from": "Na sua clínica em Belo Horizonte, a **Dra. Camila** investiu R$ 95 mil em um equipamento importado de escaneamento facial que prometia revolucionar a venda de tratamentos estéticos. Nos seis primeiros meses, apenas três pacientes aceitaram pagar pelo exame. Qualquer observador externo veria que a aposta deu errado e venderia a máquina no mercado secundário para recuperar R$ 70 mil de caixa. Mas Camila fez o oposto: contratou uma agência de tráfego pago de R$ 8 mil mensais só para divulgar a máquina e obrigou a recepcionista a oferecê-la para todos os pacientes, travando a agenda dos procedimentos que realmente davam lucro. Quando seu marido perguntou por que ela insistia naquilo, a resposta saiu no automático: *\"Eu não posso desistir agora depois de tudo o que já gastei nessa máquina!\"*",
+    "to": "Em sua clínica em Belo Horizonte, a **Dra. Camila** desembolsou R$ 95 mil na compra de um scanner facial importado que prometia impulsionar o fechamento de procedimentos estéticos. Após seis meses e apenas três exames pagos, qualquer análise fria recomendaria revender o aparelho no mercado secundário para recuperar R$ 70 mil de caixa. Camila, porém, dobrou a aposta: contratou uma agência de anúncios por R$ 8 mil ao mês só para promover o equipamento e instruiu a recepção a empurrá-lo a todos os pacientes, tomando o horário das reabilitações orais que sustentavam a margem da clínica. Questionada pelo marido, reagiu no impulso: *\"Não posso desistir agora depois de tudo o que já gastei nessa máquina!\"* Ao longo deste Capítulo 3 e no exercício do Espelho, voltamos à conta da Dra. Camila na falácia do custo afundado para aplicar o teste da folha em branco: se ela não tivesse o equipamento hoje, tiraria R$ 70 mil do banco para comprá-lo e mais R$ 8 mil mensais para anunciá-lo? A resposta negativa é o que a leva a vender a máquina e estancar a sangria de caixa."
+  },
+  {
+    "id": "386",
+    "vol": "1",
+    "code": "C5",
+    "from": "Dois engenheiros formados na mesma turma da UFSC, em Florianópolis, abrem empresas de software B2B no mesmo mês e enfrentam o verdadeiro *trade-off* entre velocidade de escala e controle societário, dilema que **Lucas e Marina** resolvem na própria pele adotando uma terceira via: financiar o desenvolvimento do produto com receita de serviço padronizado antes de decidir se captam. O primeiro levanta R$ 15 milhões em três rodadas de Venture Capital, contrata 90 pessoas, estampa capas de portais de inovação e, cinco anos depois, vende a empresa por R$ 80 milhões. Parece um triunfo: até você abrir a planilha de liquidação: após a incidência de cláusulas de preferência de liquidação (*liquidation preference*) de 1x com participação dos fundos sobre os R$ 15 milhões aportados e o desconto do imposto de renda sobre ganho de capital na sua fatia diluída a 9%, sobram no seu bolso cerca de R$ 4,9 milhões líquidos. O segundo amigo nunca captou um centavo de fundo: cresceu financiando o produto com o dinheiro dos próprios clientes (*bootstrapping*), manteve uma equipe enxuta de 22 pessoas com alta automação, tirou R$ 1,5 milhão por ano em dividendos a partir do terceiro ano (sujeitos, desde janeiro de 2026 pela Lei 15.270/2025, à retenção de 10% para pagamentos acima de R$ 50 mil mensais por empresa e ao imposto mínimo anual de até 10%) e, no quinto ano, vendeu 80% da operação para um grupo estratégico por R$ 35 milhões: embolsando **R$ 28 milhões à vista** além dos dividendos já acumulados.",
+    "to": "Dois engenheiros formados na mesma turma da UFSC, em Florianópolis, abrem empresas de software B2B no mesmo mês e enfrentam a escolha entre velocidade de escala e controle societário, dilema que **Lucas e Marina** resolvem na prática adotando uma terceira via: financiar o início do produto com receita de serviço padronizado antes de decidir se captam. O primeiro colega levanta R$ 15 milhões em três rodadas de Venture Capital, contrata 90 pessoas, sai na imprensa e, no quinto ano, vende a companhia por R$ 80 milhões. Na planilha de liquidação, porém, após a preferência de liquidação (*liquidation preference*) de 1x com participação dos fundos sobre os R$ 15 milhões investidos e o imposto sobre ganho de capital na sua fatia diluída a 9%, sobram no seu bolso cerca de R$ 4,9 milhões líquidos. O segundo amigo cresceu com o caixa dos próprios clientes (*bootstrapping*) e uma equipe enxuta de 22 pessoas, distribuiu R$ 1,5 milhão por ano em dividendos a partir do terceiro ano (sujeitos, desde janeiro de 2026 pela Lei 15.270/2025, à retenção de 10% acima de R$ 50 mil mensais e ao ajuste anual de até 10%) e, no quinto ano, vendeu 80% da empresa, avaliada em R$ 35 milhões, recebendo R$ 28 milhões brutos à vista, o que equivale a **cerca de R$ 23 milhões líquidos depois do imposto**, além dos dividendos acumulados e dos 20% remanescentes."
+  },
+  {
+    "id": "388",
+    "vol": "1",
+    "code": "C4",
+    "from": "Noam Wasserman resumiu esse dilema em uma pergunta que todo fundador deveria tatuar no braço antes de marcar o primeiro café na Faria Lima: **\"Você quer ser Rei (manter controle e lucros) ou quer ser Rico via hipercrescimento: sabendo que escolher o veículo errado para o tamanho da sua pista destrói os dois?\"**",
+    "to": "Noam Wasserman, em sua pesquisa em Harvard (*The Founder's Dilemmas*), chamou essa escolha de dilema **rico ou rei**: quem faz questão de manter o controle absoluto das decisões e do conselho tende a ficar com uma empresa menor, enquanto quem aceita dividir o controle com investidores aumenta a probabilidade de construir uma companhia maior e valer mais na saída. Antes de marcar o primeiro café na Faria Lima, defina qual desses caminhos faz sentido para o seu negócio, pois escolher o veículo de capital errado para o tamanho da sua pista compromete tanto o controle quanto o retorno financeiro."
+  },
+  {
+    "id": "433",
+    "vol": "1",
+    "code": "N2",
+    "from": "Na segunda-feira de manhã, **Lucas e Marina** entram em uma reunião às 9h para decidir duas coisas na sua startup: (1) se vão mudar o preço do plano básico no site de R$ 199 para R$ 249 por mês nos próximos quinze dias de teste, e (2) se vão assinar um contrato de exclusividade comercial de três anos com uma grande distribuidora que exige travar 60% do roadmap de engenharia. Inacreditavelmente, eles passam **duas horas e meia** debatendo a mudança de R$ 50 no preço do site, pedindo mais planilhas e adiando para a semana seguinte, e aprovam a cláusula de exclusividade de três anos nos últimos dez minutos da reunião porque estavam atrasados para o almoço.",
+    "to": "Às 9h de segunda-feira, **Lucas e Marina** abriram a reunião semanal da startup com dois pontos de pauta: (1) testar por quinze dias a mudança do plano básico no site de R$ 199 para R$ 249 mensais e (2) assinar um contrato comercial de três anos com uma grande distribuidora que exigia exclusividade no setor e travava 60% do *roadmap* de engenharia. Eles gastaram **duas horas e meia** discutindo o ajuste reversível de R$ 50 no site e, famintos antes do almoço, quase aprovaram a exclusividade de três anos em dez minutos. Como veremos na seção sobre decisões Tipo 1 disfarçadas de Tipo 2, no roteiro de *pre-mortem* (*\"É março de 2028 e a cláusula de exclusividade com a distribuidora quebrou a startup: o que aconteceu?\"*) e na pergunta final do Espelho, Marina travou a assinatura naquela tarde, converteu o contrato em um piloto sem exclusividade de 90 dias e subiu o teste de preço no site no mesmo dia."
+  },
+  {
+    "id": "439",
+    "vol": "1",
+    "code": "S5",
+    "from": "O que é: imaginar que o projeto falhou, completamente, e trabalhar de trás para frente para identificar as causas.",
+    "to": "Aplicação operacional no rito decisório (usando na prática a ferramenta de Gary Klein apresentada na Fase 0 e no catálogo do Capítulo 3): antes de atravessar uma porta Tipo 1, projete que a decisão fracassou por completo daqui a 12 ou 24 meses e trabalhe de trás para frente com o time para documentar as causas exatas do colapso e as travas preventivas."
+  },
+  {
+    "id": "440",
+    "vol": "1",
+    "code": "C3",
+    "from": "**People.** Quem decide (D, uma pessoa, não um comitê)? Quem aprova (A, pode vetar ou liberar)? Quem recomenda (R, contribui com perspectiva)? Quem executa (E, implementa a decisão)?",
+    "to": "**People (Pessoas).** No modelo SPADE de Gokul Rajaram, defina com clareza quem é o **responsável** (uma única pessoa que toma a decisão final e responde por ela, nunca um comitê), quem **aprova** (quem pode vetar a proposta se ela extrapolar alçada ou risco) e quem é **consultado** (quem oferece dados e perspectivas antes da decisão, sem poder de voto)."
+  },
+  {
+    "id": "445",
+    "vol": "1",
+    "code": "N2",
+    "from": "Quando **Henrique** era gerente de engenharia em uma multinacional no Paraná, bastava enviar um e-mail convocando sua equipe ou um fornecedor homologado e oito pessoas apareciam na sala no horário marcado. Na primeira semana como fundador da sua própria startup (sem marca famosa, sem orçamento milionário e sem poder hierárquico sobre absolutamente ninguém), ele precisou convencer um diretor de usina a abrir os dados de produção para um teste, um engenheiro sênior de IA a trocar um salário alto por risco, a própria esposa a apoiar um ano de aperto e um cliente industrial desconfiado a assinar o primeiro contrato de piloto pago antes de a plataforma estar pronta. Nenhum deles devia obediência a Henrique.",
+    "to": "Nos tempos em que **Henrique** gerenciava a engenharia de uma multinacional no Paraná, bastava disparar um convite na agenda para reunir oito subordinados e fornecedores na sala. Na primeira semana à frente da própria startup (muito antes de alcançar as 45 usinas retratadas no Capítulo 5, quando ainda não tinha marca, verba nem autoridade hierárquica sobre ninguém), ele precisou convencer um diretor industrial a liberar dados operacionais, um especialista sênior de IA a trocar salário alto por participação, a esposa a atravessar um ano de orçamento curto e a primeira usina desconfiada a fechar um teste comercial. Como veremos na seção sobre fechar clientes grandes sem histórico prévio, Henrique escapou do purgatório de provas de conceito (*POCs*) gratuitas ao estruturar um piloto pago de 60 dias com meta técnica clara e preço de conversão anual já fixado em contrato."
+  },
+  {
+    "id": "454",
+    "vol": "1",
+    "code": "E1",
+    "from": "Dados informam. Histórias movem. A distinção não é decorativa: é neurológica.",
+    "to": "Dados informam e histórias movem, porque prendem a atenção e ativam a memória de um jeito que a planilha isolada não prende."
+  },
+  {
+    "id": "461",
+    "vol": "1",
+    "code": "N2",
+    "from": "Quando **Marina** assumiu a operação comercial e de relacionamento com investidores da startup que fundou com **Lucas**, ela percebeu que 70% dos retrabalhos da equipe e 90% dos *follow-ups* ignorados por clientes vinham do mesmo vício: textos prolixos, e-mails que escondiam o pedido principal no quarto parágrafo e mensagens de WhatsApp quebradas em doze linhas que ninguém conseguia processar.",
+    "to": "Ao assumir a frente comercial e o relacionamento com investidores da startup que fundou com **Lucas**, **Marina** auditou as mensagens enviadas no mês anterior e encontrou um padrão claro: o e-mail de proposta que escondera o pedido de decisão no quarto parágrafo ficara 12 dias sem resposta do diretor da distribuidora, e os avisos internos quebrados em doze linhas soltas de WhatsApp haviam gerado três dias de retrabalho na engenharia. Ao longo deste Capítulo 8 e no Ritual final, acompanhamos como Marina reescreveu esse e-mail comercial colocando o pedido e o impacto financeiro logo na primeira frase, padronizou os memorandos internos de uma página e estruturou o relatório mensal enxuto enviado aos investidores-anjos."
+  },
+  {
+    "id": "467",
+    "vol": "1",
+    "code": "C4",
+    "from": "  \"Preciso de introdução para o VP de TI da Natura - você tem\n  conexão com a Flavia Mendes?\" funciona.",
+    "to": "  \"Preciso de introdução à diretora de TI da [rede varejista X].\n  Você conhece quem lidera a área lá?\" funciona."
+  },
+  {
+    "id": "469",
+    "vol": "1",
+    "code": "E1",
+    "from": "**Sujeito mais verbo mais objeto.** A frase *\"A análise foi conduzida pelo time de produto em relação aos dados de churn\"* esconde a ação principal dentro de um substantivo abstrato (*análise*) e empurra quem agiu para o meio da sentença; escrever *\"O time de produto analisou os dados de cancelamento\"* entrega a mesma informação na voz ativa com metade das palavras. \"O time de produto analisou os dados de churn\" tem sujeito no começo, verbo depois, objeto claro. Voz ativa não é regra estética: é redução de esforço cognitivo para o leitor.",
+    "to": "**Sujeito, verbo e objeto na ordem direta.** A frase *\"A análise foi conduzida pelo time de produto em relação aos dados de churn\"* esconde a ação dentro de um substantivo abstrato (*análise*) e empurra quem agiu para o meio da sentença; escrever *\"O time de produto analisou os dados de cancelamento\"* coloca quem fez a ação no início, o verbo em seguida e o objeto claro com metade das palavras. A voz ativa poupa esforço do leitor."
+  },
+  {
+    "id": "485",
+    "vol": "1",
+    "code": "C3",
+    "from": "A intervenção que tem evidência experimental (Alison Wood Brooks, Harvard Business School, 2013): em vez de \"me acalmar\", dizer para si mesmo \"estou animado\". Reetiquetamento cognitivo da ansiedade como excitação melhora performance mensurável em tarefas públicas: canto, matemática oral, negociação. Suprimir o estado fisiológico é difícil; redirecionar é mais eficaz.",
+    "to": "Alison Wood Brooks (Harvard Business School, *Journal of Experimental Psychology: General*, 2014) mostrou que dizer \"estou animado\" antes de cantar em público, fazer um discurso ou resolver uma prova de matemática sob pressão melhora o desempenho em comparação a tentar \"se acalmar\". Ansiedade e empolgação são estados de alta ativação parecidos, e por isso fazer a reavaliação cognitiva da ansiedade como empolgação funciona melhor do que tentar suprimir a reação do corpo."
+  },
+  {
+    "id": "488",
+    "vol": "1",
+    "code": "N3",
+    "from": "### O Playbook de Banca de Edital (5 e 10 minutos): como gabaritar o barema dos avaliadores sem estourar o relógio",
+    "to": "### O Playbook de Banca de Edital (5 e 10 minutos): como gabaritar o barema dos avaliadores sem estourar o relógio\n\nDepois de ter o microfone cortado no sétimo minuto de sua primeira banca de fomento sem mostrar uma única tela funcional, **Henrique** refez seus dez minutos bloco a bloco seguindo a tabela de barema abaixo: abriu o primeiro minuto quantificando o custo das paradas térmicas nas usinas e prefeituras, dedicou três minutos às evidências do piloto pago e à arquitetura técnica auditável, apresentou a qualificação da equipe e o cronograma físico-financeiro de execução e fechou os 90 segundos finais com as contrapartidas e próximos passos. Na rodada seguinte, gabaritou a planilha dos avaliadores com dois minutos de sobra no relógio."
+  },
+  {
+    "id": "497",
+    "vol": "1",
+    "code": "N7",
+    "from": "Como Jason Fried e DHH escreveram em *Rework*, o segredo das empresas mais lucrativas e resilientes não é contratar exércitos de pessoas cedo demais: é manter a estrutura pequena, ágil e letal. A Inteligência Artificial Generativa é o maior multiplicador de força da história para quem sabe usá-la como **exoesqueleto operacional em cada uma das 21 fases da jornada**, mas também é a forma mais rápida de produzir lixo em escala industrial para o fundador preguiçoso que tenta terceirizar o próprio pensamento crítico e o contato humano com o cliente.",
+    "to": "Em *Rework*, Jason Fried e David Heinemeier Hansson defendem manter a estrutura pequena e contratar apenas quando a falta de alguém realmente dói na operação (*hire when it hurts*). A Inteligência Artificial Generativa adia essa dor ao funcionar como **alavanca operacional ao longo das 21 fases da jornada**, mas também vira fábrica de ruído quando o fundador tenta terceirizar para a ferramenta o próprio pensamento crítico e a escuta direta do cliente."
+  },
+  {
+    "id": "499",
+    "vol": "1",
+    "code": "S5",
+    "from": "> - **Camada 2: IA como copiloto do fundador** (Capítulo 10 (IA Generativa e Agentes como Copiloto e Acelerador do Fundador (2026))). Versão atualizada deste capítulo para 2026, com casos de uso de alto ROI no dia a dia.",
+    "to": "> - **Camada 2: IA como copiloto diário e mapa fase a fase** (integrada neste Capítulo 10). Unifica num só capítulo os fluxos práticos de rotina do fundador (síntese de entrevistas, revisão de documentos, prototipação e análise) e a tabela de consulta das 21 fases (uso, comando e revisão humana), com um único Espelho e Ritual."
+  },
+  {
+    "id": "523",
+    "vol": "1",
+    "code": "N2",
+    "from": "Quando **Lucas e Marina** abriram o CNPJ da startup, receberam em menos de um mês três convites tentadores: uma aceleradora privada desconhecida que pedia **12% de participação societária (*equity*)** em troca de R$ 100 mil e \"mentorias exclusivas\"; um programa de inovação aberta de um grande banco sem tomada de participação; e um edital de subvenção econômica estadual de R$ 300 mil a fundo perdido. Se Lucas tivesse assinado o primeiro contrato no calor da empolgação, teria avaliado sua empresa em míseros R$ 833 mil e entregado um pedaço irreversível do *cap table*: um erro que bloquearia rodadas sérias de *Seed* no futuro. Em vez disso, Marina ligou para quatro ex-participantes do programa, descobriu que as mentorias eram palestras genéricas e recusou o acordo, focando na subvenção não diluitiva e no piloto comercial direto com o banco.",
+    "to": "No primeiro mês após abrirem o CNPJ, **Lucas e Marina** receberam três propostas: uma aceleradora privada pouco conhecida que pedia **12% de participação (*equity*)** por R$ 100 mil e \"mentorias\"; o programa de inovação aberta de um grande banco sem tomada de participação; e um edital estadual de subvenção econômica de R$ 300 mil a fundo perdido. Assinar o primeiro termo avaliaria a empresa em R$ 833 mil e comprometeria o *cap table* antes da rodada *Seed*. Marina ouviu quatro ex-acelerados, confirmou que as mentorias eram palestras genéricas e recusou a oferta diluitiva. Seis meses depois, o desfecho comprovou o acerto: o piloto com o banco virou contrato anual recorrente, a subvenção estadual de R$ 300 mil financiou a engenharia com diluição zero e, na frente industrial, **Henrique** aplicou a mesma disciplina nos editais da Finep, FAPESP PIPE e BNDES (usando o barema que aprendera após o tropeço na banca do Capítulo 9) para bancar sua pesquisa aplicada sem entregar participação societária precoce."
+  },
+  {
+    "id": "898",
+    "vol": "2",
+    "code": "C4",
+    "from": "Caso arquetípico, Peixe Urbano e o modelo daily deals (2010-2015). O padrão típico do Padrão 2, tração inicial explosiva confundida com PMF.",
+    "to": "Caso: Peixe Urbano e o modelo de compras coletivas (fundada em 2010, teve pico entre 2011 e 2013 e manteve operação até 2020, em trajetória paralela ao Caso: Easy Taxi (fundada em 2011, incorporada pela Cabify em 2017).). O padrão típico do Padrão 2 é confundir tração inicial explosiva com PMF sustentável."
+  },
+  {
+    "id": "554",
+    "vol": "2",
+    "code": "S7",
+    "from": "– \"Nossa, Lucas, a ideia é sensacional! Quando ficar pronto, me avisa que a gente testa aqui na distribuidora.\"",
+    "to": "\"Nossa, Lucas, a ideia parece ótima! Quando o sistema estiver rodando, me avisa que a gente avalia testar aqui na distribuidora.\""
+  },
+  {
+    "id": "556",
+    "vol": "2",
+    "code": "N3",
+    "from": "Lucas saiu da cafeteria na Paulista com um sorriso de orelha a orelha e ligou para Marina em Florianópolis. Era o sétimo diretor financeiro que elogiava o protótipo em slides do sistema de conciliação automática de boletos. Para Lucas, aquilo era validação; hora de trancar a porta do quarto e escrever trinta mil linhas de código em Python. Marina, que já havia quebrado uma startup de RH três anos antes, cortou a euforia do sócio em cinco segundos:\n\n– \"Lucas, quantos boletos ou cartas de intenção assinadas você trouxe na mochila hoje? Elogio em cafeteria não paga servidor da AWS. Esse cara não validou o seu produto; ele só usou um elogio barato para encerrar a reunião em vinte minutos sem parecer grosseiro.\"",
+    "to": "Ao sair da cafeteria na Avenida Paulista, **Lucas** ligou entusiasmado para **Marina** em Florianópolis: era o sétimo diretor financeiro que elogiava as telas em slides do sistema de conciliação automática de boletos, e ele já queria se trancar para programar trinta mil linhas em Python. Marina, que havia fechado uma startup de RH três anos antes por construir sem demanda paga, freou o sócio na hora:\n\n\"Lucas, quantos boletos reais ou cartas de intenção assinadas você trouxe na mochila hoje? Elogio em cafeteria não paga servidor em nuvem. Esse diretor só usou uma frase simpática para encerrar a conversa em vinte minutos sem parecer indelicado.\" Ao longo desta Fase 4, Lucas e Marina usam esse choque para conduzir a descoberta: definem no Passo 1 o perfil exato do diretor de operações e finanças de distribuidoras médias, reclassificam o sétimo diretor no nível 2 da escala de dor (elogio educado sem orçamento, armadilha idêntica às provas de conceito gratuitas que drenaram **Henrique** nas primeiras usinas) e constroem o Mapa de Problemas da dupla até fechar o primeiro piloto pago no encerramento da fase."
+  },
+  {
+    "id": "576",
+    "vol": "2",
+    "code": "E8",
+    "from": "Estrutura sugerida (método Mom Test, técnica de entrevista que evita respostas educadas, adaptado).",
+    "to": "Estrutura sugerida, adaptada do *Mom Test* (Rob Fitzpatrick):"
+  },
+  {
+    "id": "593",
+    "vol": "2",
+    "code": "C5",
+    "from": "- [ ] Quinze ou mais entrevistas com pessoas dentro do ICP (pelo menos doze aderentes: fora do perfil contam como aprendizado, não como validação), gravadas (com consentimento) ou transcritas em tempo real, com roteiro Mom Test (Template: Entrevista de Problema (Fase 4)) sem perguntas indutoras.",
+    "to": "- [ ] Quinze ou mais entrevistas realizadas, das quais pelo menos doze com pessoas aderentes ao ICP (as conversas fora do perfil contam como aprendizado de contexto, não como validação), gravadas com consentimento ou anotadas em tempo real seguindo o roteiro de Entrevista de Problema sem perguntas indutoras."
+  },
+  {
+    "id": "595",
+    "vol": "2",
+    "code": "C5",
+    "from": "> Os caminhos são três. Pivotar o problema (algo adjacente emergiu como mais doloroso). Pivotar o cliente (o problema existe, mas em outro perfil). Ou abandonar (volte à Fase 2 com outra ideia). Não avance para a Fase 4 com problema não validado. Construir sobre problema inexistente é o cemitério das startups.",
+    "to": "> Os caminhos são três: pivotar o problema (quando uma dor adjacente apareceu com mais força nas conversas), pivotar o segmento de cliente (quando a dor é real, mas em outro perfil de comprador) ou abandonar a tese atual e voltar à Fase 2 com outra ideia. Não avance para a Fase 5 com problema não validado."
+  },
+  {
+    "id": "605",
+    "vol": "2",
+    "code": "E9",
+    "from": "Passo 1: Prepare agenda sem mencionar sua solução. Lista de 5-7 perguntas sobre a vida deles relacionada ao problema.",
+    "to": "Passo 1. Prepare a pauta sem mencionar a solução, listando de cinco a sete perguntas sobre a rotina real do entrevistado diante do problema."
+  },
+  {
+    "id": "610",
+    "vol": "2",
+    "code": "E7",
+    "from": "Passo 3: Open-ended perguntas. \"Como foi X?\" em vez de \"X foi bom?\". Perguntas fechadas limitam riqueza.",
+    "to": "Passo 3. Faça perguntas abertas: pergunte \"Como funcionou a última vez em que ocorreu X?\" em vez de \"X foi bom?\", pois perguntas fechadas empobrecem o relato."
+  },
+  {
+    "id": "613",
+    "vol": "2",
+    "code": "E9",
+    "from": "Passo 2: Por quê isso importa? Sobe do atributo para consequência.",
+    "to": "Passo 2. Pergunte \"Por que isso importa?\", subindo do atributo técnico para a consequência prática na rotina do cliente."
+  },
+  {
+    "id": "629",
+    "vol": "2",
+    "code": "C4",
+    "from": "Quando a Loggi expandiu de courier corporativo para entregas last-mile B2C em 2018, fez Empathy Map dos entregadores parceiros: não dos clientes finais. A descoberta levou a redesenho do app do entregador.",
+    "to": "Para ilustrar o uso em plataformas de dois lados, considere o caso ilustrativo de um aplicativo de entregas urbanas (inspirado na expansão de redes de *last-mile* como a Loggi a partir de 2018) que construiu o Mapa de Empatia dos motoboys parceiros em vez de olhar apenas para o comprador final, usando a observação de rua para redesenhar a experiência do entregador."
+  },
+  {
+    "id": "630",
+    "vol": "2",
+    "code": "S3",
+    "from": "O quadrante \"Vê\" revelou algo crítico: o app da Loggi competia com 4-6 outros apps por atenção do entregador na mesma tela. Times anteriores haviam tratado o app como \"ferramenta de trabalho dedicada\": a realidade é que o entregador trocava entre apps ao longo do dia conforme o que pagava melhor naquela janela. Isso levou a três decisões: (1) reduzir tempo de aceite de corrida (de 30s para 15s, entregador estava em outro app); (2) notificações mais agressivas com bônus (não dependendo de ele abrir o app); (3) **comunicação por voz** com atendente em casos críticos (entregador não consegue ler chat enquanto pilota). **A lição: Empathy Map dos não clientes (parceiros, fornecedores, intermediários) frequentemente revela mais que Empathy Map do cliente final: porque essas pessoas têm múltiplos chefes invisíveis e otimizam por critérios que você não enxerga sem mapear.**",
+    "to": "O quadrante \"Vê\" mostrou que o aplicativo disputava atenção na mesma tela com outros quatro a seis aplicativos de corrida e mensagens. Enquanto o time interno imaginava o sistema como uma ferramenta de uso dedicado, na rua o entregador alternava entre plataformas conforme o ganho líquido daquela faixa de horário. Essa leitura gerou três ajustes no produto: simplificar a tela de aceite com alerta sonoro claro e um único botão grande (já que o profissional costumava estar com outro aplicativo aberto), destacar o ganho por quilômetro e o bônus diretamente na notificação e priorizar suporte por áudio em ocorrências urgentes, pois ninguém consegue ler texto em chat enquanto pilota. Mapear quem não é o comprador final (entregador, fornecedor, intermediário) costuma revelar tanto quanto mapear o cliente que paga, porque esses parceiros respondem a vários chefes ao mesmo tempo."
+  },
+  {
+    "id": "641",
+    "vol": "2",
+    "code": "N2",
+    "from": "### Fechamento da Fase 4: o que muda na sua cabeça e na sua empresa a partir de agora",
+    "to": "### Fechamento da Fase 4: o que muda na sua cabeça e na sua empresa a partir de agora\n\nTrês semanas depois daquela conversa com **Marina**, **Lucas** voltou à mesa com evidências concretas em vez de elogios de cafeteria: conduziu 18 entrevistas sem mencionar seu software, encontrou quatro diretores de operações de distribuidoras no nível 5 de dor (que perdiam dois dias por semana conciliando boletos manualmente), fechou um piloto pago com o primeiro deles e reclassificou o elogio simpático do café na Paulista com peso quase zero na tabela de sinais."
+  },
+  {
+    "id": "690",
+    "vol": "2",
+    "code": "E9",
+    "from": "Passo 1: Selecione entrevistados que fizeram a troca recentemente. Idealmente últimos 60-90 dias, memória ainda fresca. Clientes próprios ou de concorrentes, não prospects.",
+    "to": "Passo 1. Selecione entrevistados que tenham feito a troca de solução nos últimos 60 a 90 dias, com a memória da decisão ainda fresca, priorizando clientes reais (seus ou de concorrentes) em vez de meros interessados."
+  },
+  {
+    "id": "696",
+    "vol": "2",
+    "code": "C7",
+    "from": "Passo 6: Documente extensivamente. Caderno de campo detalhado, fotos (com permissão), vídeos quando possível.",
+    "to": "Passo 6. Documente a observação de campo respeitando integralmente a LGPD (Lei 13.709/2018): colha termo de consentimento prévio para gravações de áudio ou imagem, jamais fotografe ou anote dados pessoais ou sensíveis de terceiros (como fichas de pacientes em clínicas ou telas com CPF e dados bancários de clientes finais), anonimize os registros no caderno de campo e defina prazo de descarte dos arquivos brutos (ver diretrizes jurídicas no Volume 8)."
+  },
+  {
+    "id": "715",
+    "vol": "2",
+    "code": "E1",
+    "from": "A tese de Osterwalder é que **proposta de valor não é o que você diz que o produto faz, é a correspondência verificável entre as frustrações/desejos do cliente e o que o seu produto efetivamente alivia/entrega**. Fit não se presume, verifica-se com entrevistas, testes, observação. A falha mais comum em startup não é \"produto ruim\", é produto bom atacando problema que o cliente não considera importante. O VPC força essa verificação tornando explícita cada conexão.",
+    "to": "A tese de Osterwalder é que **a proposta de valor consiste na correspondência verificável entre as dores e ganhos prioritários do cliente e o que o produto efetivamente alivia e entrega**. Esse encaixe não se presume: comprova-se com entrevistas, testes e observação de uso. Startups costumam falhar quando constroem um produto bom que ataca um problema que o cliente considera secundário, e o Value Proposition Canvas evita esse erro ao tornar explícita cada conexão."
+  },
+  {
+    "id": "720",
+    "vol": "2",
+    "code": "C5",
+    "from": "O Customer Journey Map / Canvas surgiu da convergência de três escolas em meados dos anos 2000: design thinking (IDEO, Stanford d.school), service design (a consultoria londrina Livework, fundada por Lavrans Løvlie, Ben Reason e Chris Downs, ao lado da tradição nórdica de marketing de serviços) e experiência do cliente (Forrester, escola de CX corporativo). Não tem autor único: virou padrão de prática colaborativa entre 2008 e 2015, com formalização no livro *This Is Service Design Doing* (Marc Stickdorn et al., 2018). A motivação foi observação recorrente: empresas otimizavam touchpoints isolados (home page, atendimento, cobrança) sem ver a jornada inteira do cliente, e o resultado eram experiências fragmentadas onde cada ponto funcionava isolado mas o conjunto deixava o cliente confuso ou frustrado.",
+    "to": "Unificando a linha histórica apresentada na seção de mapeamento da jornada, a ferramenta nasceu nos anos 1990 com os mapas de ciclo de serviço de Ron Zemke e Chip Bell (inspirados nos \"momentos da verdade\" de Jan Carlzon) e ganhou o formato visual de canvas em meados dos anos 2000 pela convergência entre *design thinking* (IDEO, Stanford d.school), *service design* (Livework, de Lavrans Løvlie, Ben Reason e Chris Downs, com sistematização em *This Is Service Design Doing*, de Marc Stickdorn et al., 2018) e experiência do cliente (Forrester). O objetivo foi corrigir uma falha recorrente: empresas otimizavam pontos de contato isolados (página inicial, suporte, cobrança) sem enxergar a jornada completa, gerando experiências fragmentadas que deixavam o cliente frustrado na passagem de um setor a outro."
+  },
+  {
+    "id": "722",
+    "vol": "2",
+    "code": "C5",
+    "from": "Use o Customer Journey Canvas na Fase 4 (pesquisa) como entregável central: junto com personas e VPC.",
+    "to": "Use o Customer Journey Canvas nesta Fase 5 como entregável central, junto com as personas baseadas em dados e o Value Proposition Canvas."
+  },
+  {
+    "id": "723",
+    "vol": "2",
+    "code": "C3",
+    "from": "a jornada que funcionava em 2024 frequentemente não funciona em 2026 porque mudaram canais (TikTok, WhatsApp), expectativas (resposta em segundos), regulação (LGPD, Pix).",
+    "to": "a jornada que funcionava em 2024 frequentemente exige ajustes em 2026 porque mudaram a triagem por agentes de IA no WhatsApp, os pagamentos recorrentes via Pix Automático e as regras fiscais da reforma tributária (IBS, CBS e *split payment*)."
+  },
+  {
+    "id": "732",
+    "vol": "2",
+    "code": "S7",
+    "from": "> [!note] Compatibilidade: tipo journey, renderiza com plugin Mermaid atualizado",
+    "to": "> [!note] Legenda da jornada: as notas de 1 a 5 indicam o humor e o grau de confiança do cliente em cada etapa"
+  },
+  {
+    "id": "736",
+    "vol": "2",
+    "code": "N2",
+    "from": "Quem ignora a Fase 5 e pula para \"vamos construir\" entra na construção sem entender quem vai usar nem em que circunstância. O resultado é produto bem-feito tecnicamente e ignorado por quem deveria adotar.",
+    "to": "Quem pula a Fase 5 entra na construção sem saber que progresso real o cliente busca. Foi aplicando essa leitura que a **Dra. Camila** destravou sua clínica em Belo Horizonte: ao entender nas entrevistas que o verdadeiro \"emprego secreto\" contratado por pacientes de 55 a 70 anos como Dona Helena era voltar a sorrir e mastigar em festas de família sem medo de dor, ela trocou o jargão técnico sobre titânio no site por relatos de pacientes reais, reorganizou a primeira consulta com protocolo de acolhimento sem pressa e viu a ocupação da agenda das manhãs subir de 40% para 85% em seis semanas."
+  },
+  {
+    "id": "739",
+    "vol": "2",
+    "code": "N2",
+    "from": "O choque daquela tarde salvou a empresa de Henrique. Como Peter Thiel ensina, todo grande monopólio começa dominando de forma avassaladora um submercado minúsculo e aparentemente entediante, enquanto quem tenta abraçar o mercado inteiro de uma vez naufraga na **Ilusão do TAM de Bilhões** (armadilha de dimensionamento top-down que retomaremos nos antipadrões e no autodiagnóstico desta fase). Quando você diz que seu produto serve para \"qualquer pequena e média empresa do Brasil\", você está confessando que seu produto é medíocre demais para resolver a dor visceral de alguém específico.",
+    "to": "Aquele corte de realidade salvou a startup de **Henrique**. Como Peter Thiel mostra, negócios duradouros começam conquistando uma fatia concentrada e específica antes de expandir, enquanto quem tenta vender para \"qualquer empresa do Brasil\" cai na **Ilusão do TAM de Bilhões**. Ao longo desta Fase 6, Henrique aplica exatamente esse roteiro: substitui a conta *top-down* por um cálculo *bottom-up* multiplicando o número real de usinas de etanol de milho e biomassa no Mato Grosso e no Paraná pelo ticket anual de R$ 180 mil, preenche o Canvas da Cunha de Entrada focado em paradas não planejadas de turbina, identifica o verdadeiro Dono do Orçamento (o diretor industrial que aprova o piloto e o diretor financeiro que exige *payback* em seis meses) e revisa sua posição competitiva no Espelho que fecha a fase."
+  },
+  {
+    "id": "753",
+    "vol": "2",
+    "code": "S3",
+    "from": "> [!tip] Canvases Visuais: Network Effects Map (Fase 6)",
+    "to": "> [!tip] Para aprofundar neste passo: quadros de efeitos de rede e evolução de cadeia de valor"
+  },
+  {
+    "id": "786",
+    "vol": "2",
+    "code": "E9",
+    "from": "Passo 1: Definir a indústria com precisão. \"Software\" é amplo demais, \"software de gestão de caixa para PMEs brasileiras\" é útil. Indústria definida ampla demais dilui análise, estreita demais ignora substitutos relevantes.",
+    "to": "Passo 1. Defina a indústria com precisão: \"software\" é amplo demais, enquanto \"software de gestão de caixa para PMEs brasileiras\" delimita o jogo competitivo; uma definição ampla demais dilui a análise e uma estreita demais ignora substitutos relevantes."
+  },
+  {
+    "id": "799",
+    "vol": "2",
+    "code": "C5",
+    "from": "- *Tecnologia de processamento de crédito* (V: sim, R: parcialmente, banco tradicional tem tech mas com legado, I: sim, took years to build, O: sim) → Vantagem competitiva sustentável temporária (outros fintechs podem construir).",
+    "to": "- *Tecnologia de processamento de crédito* (V: sim; R: em parte, pois bancos tradicionais têm sistemas próprios, mas presos a legado; I: não, porque outras fintechs construíram o mesmo em poucos anos; O: sim) → Vantagem competitiva temporária."
+  },
+  {
+    "id": "833",
+    "vol": "2",
+    "code": "E9",
+    "from": "– \"Moça, essa loja existe mesmo ou é golpe? Tem Pix com desconto ou parcela em 10x sem juros? Se der problema, eu falo com gente de verdade?\"",
+    "to": "Bia ouviu dezenas de vezes a mesma dúvida: \"Moça, essa loja existe mesmo ou é golpe? Tem desconto no Pix ou parcela em 10x sem juros? Se der problema na entrega, eu falo com uma pessoa de verdade?\""
+  },
+  {
+    "id": "839",
+    "vol": "2",
+    "code": "N9",
+    "from": "Os princípios da behavioral economics (economia comportamental: campo que aplica psicologia às decisões econômicas) de Kahneman e Thaler se aplicam universalmente, mas com amplitudes distintas no contexto brasileiro.",
+    "to": "Os princípios da economia comportamental (*behavioral economics*) de Kahneman e Thaler valem em qualquer país, mas operam com pesos próprios no Brasil: além da âncora das 12x sem juros (1.2.1), o viés de *status quo* explica a baixa taxa histórica de portabilidade bancária e a resistência corporativa a trocar de ERP ou escritório contábil, o **efeito dotação** (*endowment effect*, em que o cliente sente o saldo de *cashback* ou o período de teste já configurado com seus dados como patrimônio próprio) eleva a conversão e a reciprocidade via atendimento humano no WhatsApp destrava o fechamento."
+  },
+  {
+    "id": "842",
+    "vol": "2",
+    "code": "C7",
+    "from": "Presente físico ou gesto personalizado em contratos B2B: cartas escritas à mão, presentes no fechamento de contrato, ligação pessoal do founder: investimentos pequenos que geram reciprocidade desproporcional.",
+    "to": "Gesto personalizado em contratos B2B: carta escrita à mão e ligação direta do fundador logo após a assinatura geram reciprocidade genuína com custo mínimo. Sobre brindes físicos: confira sempre a política de *compliance* da empresa cliente, que costuma fixar teto rigoroso de valor para presentes corporativos, e nunca ofereça brinde, presente ou hospitalidade a servidor ou agente público (conduta vedada pela Lei Anticorrupção, Lei 12.846/2013)."
+  },
+  {
+    "id": "867",
+    "vol": "2",
+    "code": "N2",
+    "from": "O erro mais comum é delegar win/loss para o próprio vendedor. Vendedores racionalizam perdas (\"o cliente foi por preço\") e superestimam suas habilidades em vitórias. Win/loss precisa de entrevistador neutro, idealmente alguém de produto ou de CS, não vendas.",
+    "to": "O erro mais comum é delegar a entrevista de *win/loss* para o próprio vendedor da conta, que tende a culpar o preço nas derrotas e superestimar o próprio discurso nas vitórias. A conversa exige um entrevistador neutro, como alguém de produto, sucesso do cliente ou o sócio técnico. Foi assim que **Henrique** fechou o arco da cena de abertura deste capítulo após ouvir de Roberto o motivo real da derrota: colocou a exportação auditável para o ERP Protheus no topo do *roadmap*, atualizou o *battle card* comercial com garantias de implantação para o gerente de TI e ganhou o contrato na usina seguinte."
+  },
+  {
+    "id": "871",
+    "vol": "2",
+    "code": "C6",
+    "from": "Criar casos de uso que o player global não consegue resolver rapidamente: integração com sistemas tipicamente brasileiros (SPED, NF-e, Pix), conformidade com LGPD e regulações setoriais locais, suporte em português com SLA rigoroso.",
+    "to": "Criar casos de uso locais que o concorrente global vai demorar a entender e priorizar: adaptação nativa à reforma tributária brasileira (IBS, CBS, novos campos de documento fiscal e *split payment*), integração profunda com SPED, NF-e e Pix, conformidade com a LGPD e regulações setoriais locais, além de suporte em português com SLA rigoroso."
+  },
+  {
+    "id": "899",
+    "vol": "2",
+    "code": "N2",
+    "from": "#### Padrão 3 — Queimar capital sem unit economics validadas",
+    "to": "#### Padrão 3: Queimar capital sem unit economics validadas\n\nFoi exatamente esse padrão que derrubou a startup de entregas ultrarrápidas (*quick commerce*) do amigo de **Lucas** entre 2021 e 2022: subsidiada por rodadas fáceis, a operação vendia o equivalente a uma nota de R$ 100 por R$ 70 a cada entrega até que a alta da Selic secou o capital de risco e fechou a empresa em semanas. Ao analisar esse colapso com **Marina**, Lucas estabeleceu que a própria startup só aceleraria gastos comerciais quando a relação LTV/CAC superasse 3x com margem de contribuição positiva no lote piloto."
+  },
+  {
+    "id": "917",
+    "vol": "2",
+    "code": "E9",
+    "from": "O terceiro: reputação do fundador no encerramento define trajetória pós-saída. Os fundadores de empresas que encerraram bem (mesmo perdendo o negócio atual) mantêm capacidade de captar de novo, recrutar de novo e ser relevantes no ecossistema. Os que encerraram mal, som fechado, capital desaparecido, time sem comunicação, pagam preço de reputação por anos.",
+    "to": "O terceiro ponto é que a postura do fundador no encerramento define sua trajetória pós-saída. Quem encerra uma empresa com transparência (mesmo perdendo o negócio atual) preserva a confiança para captar de novo, recrutar boas pessoas e seguir relevante no ecossistema. Já os que encerraram mal, em silêncio, sem prestar contas do capital e sem avisar o time, pagam com a reputação por anos."
+  }
+]

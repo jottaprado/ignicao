@@ -90,9 +90,9 @@ Bia olhou para a planilha de custos logísticos e devolveu uma pergunta que trav
 
 – "Rafael, o que significa 'o pessoal vai adorar' em números? São 5% de conversão na página ou 0,2%? São três meses de retenção ou quatorze? Porque se a retenção média for de dois meses, com o frete dos Correios para o Sudeste, cada cliente que 'adorar' a nossa caixa vai nos dar R$ 42 de prejuízo líquido."
 
-O silêncio de Rafael revela a doença mais comum entre empreendedores na hora de testar ideias: **O Teatro da Validação**. Funciona assim: você lança uma campanha vaga sem definir antes qual número comprova o sucesso, coleta meia dúzia de resultados medíocres e depois move a trave do gol para trás dizendo *"bom, vendeu pouco, mas foi ótimo para aprendizado e fortalecimento de marca!"*.
+A hesitação de Rafael diante da pergunta de Bia expõe a armadilha mais frequente na hora de testar ideias: **O Teatro da Validação**. Você solta uma campanha sem fixar de antemão qual número comprova o sucesso, colhe meia dúzia de vendas mornas e depois muda a regra do jogo dizendo *"vendeu pouco, mas fortaleceu a marca"*. Ao longo desta fase, Rafael e Bia saem desse teatro em três movimentos concretos: primeiro, escrevem a hipótese de retenção da caixa mensal de autocuidado no molde do Passo 2 (com critério de descarte explícito: se menos de 60% das assinantes da primeira safra renovarem no terceiro mês sem cupom, o clube recorrente é descartado); segundo, pontuam essa premissa no topo da matriz Risco × Importância ($R=5 \times I=5 = 25$) e na relação Hipótese/Evidência antes de gastar em estoque; e terceiro, fecham o teste de pré-venda e recompra respondendo à pergunta de Bia com números auditados no caixa.
 
-Karl Popper ensinou há quase um século o que separa a ciência da astrologia: uma afirmação só é científica se for **falseável**: isto é, se você declarar com antecedência qual evidência concreta provará que você está errado. Toda startup carrega em seu núcleo três a cinco **apostas de vida ou morte** (*bet-the-company*), premissas que decidem o futuro da empresa. Se elas forem falsas, não importa quão bonito seja o logotipo ou quão limpo seja o código: o negócio inteiro desmorona.
+Karl Popper mostrou há quase um século o que separa a ciência da astrologia: uma afirmação só é científica se algum resultado observável possível puder desmenti-la (**falseabilidade**). Na gestão de uma startup, essa propriedade lógica vira disciplina de método (**pré-registro**): escreva antes do teste o número exato que prova que você errou. Toda empresa nascente carrega no núcleo três a cinco **apostas de vida ou morte** (*bet-the-company*), premissas que decidem se o negócio sobrevive. Se elas caírem, não importa quão bonito seja o logotipo ou quão limpo seja o código: a tese inteira desmorona.
 
 A maioria dos fundadores testa primeiro a cor do botão ou o nome do plano e deixa a hipótese mortal para o fim, porque tem medo da resposta. Na Fase 7 você faz o contrário: coloca a premissa mais perigosa do negócio no centro da mira e crava a linha numérica exata entre seguir em frente e descartar a ideia.
 
@@ -139,7 +139,7 @@ A priorização de hipóteses também impede que você desperdice energia testan
 
 ### Os sete passos até as apostas de vida ou morte
 
-Cinco passos estruturados (do diagnóstico do motor atual e transição da venda conduzida pelo fundador até canais de marketing, expansão por caminhos e medição de unit economics por canal, detalhada na seção de métricas adiante).
+Sete passos.
 
 #### Passo 1, levante todas as suposições implícitas
 
@@ -362,13 +362,13 @@ Confundir "não refutada ainda" com "validada". Uma hipótese só é validada qu
 
 **O Espelho (autodiagnóstico):**
 1. Qual é a hipótese número um do seu negócio hoje que, se for falsa, destrói completamente a sua empresa?
-2. Você escreveu no papel, antes de rodar o próximo teste, qual número exato significa "fracassamos e vamos mudar de rota"?
+2. Você registrou por escrito no Banco de Hipóteses, antes de iniciar o próximo experimento, qual ponto de corte numérico obriga a descartar a premissa e mudar de rota? *(Chave de leitura do Espelho: se você não soube responder de imediato à pergunta 1, volte ao Passo 4 e rode a matriz Risco × Importância; se a resposta à pergunta 2 foi "não", trave o experimento e preencha agora a coluna de critério de descarte no Banco de Hipóteses; se na pergunta 3 a sua agenda pendeu para tarefas confortáveis, substitua o teste desta semana pela hipótese de menor índice H/E do seu topo de risco.)*
 3. Nas últimas quatro semanas, você passou mais tempo testando coisas confortáveis (layout, textos, ferramentas internas) ou atacando o maior risco comercial do negócio?
 
 **Permissão Libertadora:**
 Você está autorizado a estar errado sobre a sua hipótese inicial. Estar errado em uma hipótese escrita no papel custa zero reais; estar errado depois de um ano programando custa a sua empresa.
 
-**O Ritual de Segunda-Feira às 9h (rotina semanal de 30 minutos):**
+**O Ritual de Segunda-Feira às 9h:**
 Toda segunda-feira, reserve 30 minutos com seus sócios para atualizar o Banco de Hipóteses e escrever em uma folha a regra do teste da semana: *"Nós acreditamos que [Segmento Específico] fará [Ação Concreta de Compra/Uso] dentro de [Prazo], e saberemos que estamos ERRADOS se menos de [X%] fizerem isso."* Assinem juntos antes de iniciar a coleta.
 
 ---
@@ -410,7 +410,7 @@ Exercício: red team apresenta críticas, blue team responde. Se blue team não 
 
 ##### Como rodar na segunda-feira às 9h com seu time
 
-Passo 1: Decisões importantes o suficiente para o esforço. Go/no-go em rodada, M&A, grande produto. Não para trivialidades.
+1. Escolha decisões que justifiquem o esforço analítico: aprovação de rodada de captação (*go/no-go*), fusão ou aquisição (M&A), ou lançamento de linha de produto relevante. Não gaste o método em escolhas triviais.
 
 Passo 2: Red team deve ter independência. Membros com autoridade para dissidência real. Não "red team que concorda no final por medo".
 
@@ -727,7 +727,7 @@ Use o template completo do [[#Template: Hypothesis Canvas|Template: Hypothesis C
 8. **Ajuste do threshold**: se necessário, documente a razão.
 9. **Avaliação** e **Decisão**.
 
-##### Exemplo brasileiro preenchido: startup de gestão de frota para transportadoras médias (2023) (reconstrução didática com base em dados públicos)
+##### Exemplo brasileiro preenchido: Henrique (Curitiba, operando no interior do PR e MT) na telemetria e gestão de frotas de usinas e transportadoras
 
 Uma startup B2B de gestão de frota estava testando a hipótese de que transportadoras de 20-50 caminhões em SP pagariam R$ 180/veículo/mês por rastreamento + relatórios de eficiência integrados.
 
@@ -739,7 +739,7 @@ Uma startup B2B de gestão de frota estava testando a hipótese de que transport
 | **Medidas** | Número de contratos assinados a R$ 180. Threshold: ≥4/8 (50%) = suportada. ≤1/8 (12,5%) = refutada. Entre 2-3 = inconclusivo. |
 | **Threshold** | Sucesso: ≥4 contratos em 30 dias. Refutação: ≤1 contrato. Zona inconclusiva: 2-3 contratos (exige entrevistas adicionais para entender objeções). |
 | **Due diligence** | 8 empresas abordadas, 6 tiveram reunião (2 declinaram). Das 6: 3 assinaram a R$ 180, 1 pediu R$ 120, 2 declinaram. Amostra de 8 é pequena mas representa o ICP (todas têm 20-50 caminhões, SP, gerente de frota). Viés possível: acesso via rede pessoal pode ter selecionado empresas mais abertas a inovação. |
-| **Avaliação** | 3/6 reuniões = 50% de conversão das reuniões. Vs. threshold original (4/8 total): inconclusivo. Ajuste de threshold: com 6 reuniões em vez de 8, o critério proporcional seria ≥3, resultado beira o limiar de sucesso. |
+| **Avaliação** | Resultado: 3 contratos em 8 abordagens totais (37,5%), permanecendo na zona cinzenta (abaixo do ponto de corte de 4/8). As 2 empresas que recusaram a reunião também deram uma resposta negativa de mercado e não podem ser excluídas do denominador; o canvas impede a manobra de contar apenas as 6 reuniões realizadas (3/6 = 50%) para fabricar um falso sucesso. |
 | **Decisão** | Mais dados. Ação: expandir para 20 novas abordagens antes de concluir. A 1 que pediu R$ 120 sinaliza que o relatório de eficiência não está bem justificado em termos de ROI: refinar a apresentação do relatório antes das próximas abordagens. Impacto na teoria: hipótese parcialmente suportada, mas seta causal "relatório → disposição a pagar premium" precisa ser reforçada com cálculo de ROI explícito na proposta. |
 
 O bloco de due diligence revelou que a amostra era pequena (6 reuniões, não 8 planejadas), e o resultado ficou na zona cinza. Sem o canvas, o time poderia ter concluído "50% de conversão: excelente, vamos escalar". Com o canvas, ficou claro que 3 contratos numa amostra de 6 é inconclusivo, e a ação certa era ampliar: não comemorar. **A lição: threshold sem due diligence da amostra é falsa precisão. O número de contratos importa, mas a qualidade da amostra que gerou esses contratos importa igualmente.**
@@ -862,7 +862,7 @@ Assinatura do empreendedor: _______________________________
 
 ### Fechamento da Fase 7: Rafael e Bia cravam no papel o número de descarte antes de ir a campo
 
-O entregável é o Banco de Hipóteses priorizado: tabela viva, não documento que se arquiva. Hipóteses antigas viram verdades validadas ou são refutadas, e novas emergem ao longo do projeto. Revisitar a cada duas a quatro semanas é higiene. O Banco estrutura todas as fases seguintes: as Fases 8, 9, 10 e 11 não testam ideia em geral, testam hipóteses específicas na ordem do risco. A [[#FASE 8 — EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA E DA SOLUÇÃO|Fase 8]] pega as bet-the-company do topo do Banco e desenha experimentos com threshold pré-registrado para cada uma.
+O entregável é o Banco de Hipóteses priorizado: tabela viva, não documento que se arquiva. Como lembra a lógica popperiana, nenhuma hipótese vira verdade definitiva: hipóteses testadas que passam pelo ponto de corte tornam-se premissas de trabalho provisórias (válidas até que nova evidência as desafie), as que falham são descartadas, e novas suposições entram na fila conforme o projeto avança. Revisitar essa tabela a cada duas a quatro semanas é higiene operacional. O Banco estrutura todas as fases seguintes: as Fases 8, 9, 10 e 11 não testam ideia em geral, testam hipóteses específicas na ordem do risco. A [[#FASE 8 — EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA E DA SOLUÇÃO|Fase 8]] pega as bet-the-company do topo do Banco e desenha experimentos com threshold pré-registrado para cada uma.
 
 ---
 
@@ -890,13 +890,13 @@ Esse é o princípio central da Fase 8: palavras são vento; a única validaçã
 Hipóteses sem experimentos são só listas bonitas. Experimentos transformam suposição em evidência. Rápido e barato é fundamental. Se um experimento demora três meses, ou custa R$ 50 mil, você está gastando demais para aprender uma coisa só. Cada experimento termina numa de quatro decisões claras: perseverar, ajustar, pivotar ou abandonar a ideia.
 
 > [!note] Capítulo 1: Científico vs Lean Startup
-> O desenho de experimento descrito nesta fase combina rigor do método científico (threshold, ponto de corte numérico pré-definido, ex-ante, falsificabilidade, isolamento de variável) com velocidade do ciclo Lean (Build-Measure-Learn comprimido em dias, não meses). O [[#CAPÍTULO 1 — ABORDAGEM CIENTÍFICA vs LEAN STARTUP: QUANDO USAR CADA UMA|Capítulo 1: Científico vs Lean Startup]] detalha quando priorizar profundidade (pré-registro formal, controle de viés) versus velocidade (experimento mais barato possível). A tensão entre os dois é permanente em early-stage; o apêndice oferece critério de decisão.
+> O desenho de experimento desta fase combina o rigor do método científico, ancorado em ponto de corte numérico pré-registrado, falsificabilidade e isolamento de variáveis, com a cadência enxuta do ciclo construir-medir-aprender comprimido em dias, e não em meses. O [[#CAPÍTULO 1 — ABORDAGEM CIENTÍFICA vs LEAN STARTUP: QUANDO USAR CADA UMA|Capítulo 1: Científico vs Lean Startup]] detalha quando priorizar profundidade (pré-registro formal, controle de viés) versus velocidade (experimento mais barato possível). A tensão entre os dois é permanente em early-stage; o apêndice oferece critério de decisão.
 
 ### Calibre a expectativa: o espectro de resultados e a regra dos nove em dez
 
 Antes de desenhar o primeiro experimento, calibre a expectativa. Empreendedores iniciantes frequentemente chegam à Fase 8 esperando que "o experimento vai validar a minha ideia". Essa expectativa está calibrada errada. Entender a distribuição real de resultados é o que separa o fundador que aprende do fundador que se ilude.
 
-Os resultados de experimentos caem em um espectro, inspirado no framework Antler de validação: uma referência usada pela aceleradora global para categorizar a força dos sinais de demanda. Com dois extremos e uma enorme zona intermediária.
+Os resultados dos experimentos distribuem-se ao longo de um espectro operacional adotado por este manual para classificar a força dos sinais de demanda, com dois polos opostos (da rejeição imediata à adesão de culto da noite para o dia, movida pelos *earlyvangelists* ou primeiros clientes evangelistas cunhados por Steve Blank em *The Four Steps to the Epiphany*, 2005) e uma extensa zona cinzenta no meio.
 
 O extremo negativo, "spaghetti sandwiches". A ideia teve rejeição clara. Entrevistados demonstraram pouco interesse. Landing page teve conversão baixa. Pré-venda fracassou. A decisão é fácil. Pivotar. Voltar à matriz de Problema versus ICP (Fases 2 e 4) e criar uma nova hipótese para testar.
 
@@ -1191,7 +1191,9 @@ Data de início / fim: Semana 1, Semana 2 do mesmo mês.
 
 **Resultado.** Quarenta e sete visitantes ICP. Doze formulários preenchidos (vinte e cinco por cento). Sete ligações realizadas: quatro confirmaram R$ 290, dois confirmaram R$ 400, um confirmou R$ 590.
 
-**Decisão.** R$ 400 uniforme está invalidado. O mercado bifurca. Nova hipótese: tier duplo, R$ 290 entry com funcionalidade básica e R$ 590 premium com integrações adicionais. A hipótese original está refutada.
+**Due diligence da amostra (Passo 6) e ajuste (Passo 8).** Embora os 47 visitantes tenham superado a meta mínima de 30, apenas 7 atenderam às ligações (amostra final muito pequena e concentrada nos contatos mais engajados dos grupos de WhatsApp, sem separar quem veio do Instagram). Não cabe ajustar o ponto de corte para baixo com base em 7 chamadas.
+
+**Avaliação e Decisão (Passo 9).** Resultado **inconclusivo (zona cinzenta)**: 3 de 7 entrevistados (43%) aceitaram pagar R$ 400 ou mais (2 em R$ 400 e 1 em R$ 590), ficando exatamente entre a linha de refutação (abaixo de 40%, menos de 2 em 5) e o critério de validação (60%, 3 em 5). Um único respondente em R$ 590 não basta para declarar que o mercado bifurcou. Próximo experimento: rodar pré-venda paga (sinal via Pix com cláusula de reembolso) testando as faixas de R$ 290 e R$ 400 diretamente com 20 padarias abordadas fora dos grupos de amigos.
 
 ### Caso brasileiro real, Pulses (HRtech) e a landing page antes de construir
 
@@ -1259,7 +1261,7 @@ Não documentar o experimento. Sem registro escrito antes e depois, você recons
 **Permissão Libertadora:**
 Você está autorizado a fazer coisas que não escalam. Processar os primeiros vinte pedidos manualmente no Excel e no WhatsApp não é amadorismo; é a forma mais rápida e barata de descobrir o que realmente precisa ser programado depois.
 
-**O Ritual de Segunda-Feira às 9h (rotina semanal de 30 minutos):**
+**O Ritual de Segunda-Feira às 9h:**
 Preencha primeiro um Cartão de Experimento cravando quantos clientes precisam pagar para você seguir (ex.: 2 em 5) e quantos "nãos" obrigam a mudar a oferta; só então apresente a oferta de Concierge Pago a cinco clientes reais (em venda enterprise, peça assinatura de piloto pago com data de início).
 
 ---
@@ -1475,7 +1477,7 @@ Passo 1: Defina 3-6 atributos com 2-4 níveis cada. Ex.: pricing (R$ 50/100/200/
 
 Passo 2: Use ferramenta especializada: Sawtooth (padrão), Conjoint.ly, Qualtrics. DIY em Excel é possível mas limitado.
 
-Passo 3: Amostra: 200-500 respondentes do ICP.
+Passo 3 (filtro de estágio e amostra): Só aplique Conjoint ou MaxDiff se você já tiver base mínima de 200 a 500 contatos qualificados do perfil de cliente ideal e orçamento para painel e software especializado (tratados em profundidade na etapa de precificação do Vol. 4). No início da Fase 8, dentro do teto de R$ 500 a R$ 3 mil por experimento, substitua este passo por pré-venda direta testando dois níveis de preço.
 
 Passo 4: Desenho experimental: ferramenta gera bundles a mostrar (fractional factorial design).
 
@@ -1752,7 +1754,7 @@ Esta tabela resume as técnicas de coleta de evidência mais usadas no manual, o
 
 | Técnica | Descrição | Melhor para... | Amostra típica | Onde no manual |
 |---|---|---|---|---|
-| **Entrevistas 1-a-1** | Conversas estruturadas de 30-60 min com perguntas no estilo Mom Test | Desenvolvimento de teoria ([[IGNICAO-Vol-1-Ideacao#FASE 3 — CONSTRUÇÃO DA TEORIA DO NEGÓCIO|Fase 3 (Vol. 1)]]), validação de problema ([[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 4 — DESCOBERTA DO PROBLEMA|Fase 4 (Vol. 2)]]), mecanismos causais da dor ([[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 5 — PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY)|Fase 5 (Vol. 2)]]) | 15-30 entrevistados | Fase 4 (Vol. 2)-3 |
+| **Entrevistas 1-a-1** | Conversas estruturadas de 30-60 min com perguntas no estilo Mom Test | Desenvolvimento de teoria ([[IGNICAO-Vol-1-Ideacao#FASE 3 — CONSTRUÇÃO DA TEORIA DO NEGÓCIO|Fase 3 (Vol. 1)]]), validação de problema ([[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 4 — DESCOBERTA DO PROBLEMA|Fase 4 (Vol. 2)]]), mecanismos causais da dor ([[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 5 — PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY)|Fase 5 (Vol. 2)]]) | 15 a 30 pessoas entrevistadas | Fases 4 e 5 (Vol. 2; e Fase 5 para questionários; Fase 8 para landing page, pré-venda, concierge e teste A/B; Fase 9 para protótipo; Fase 11 no Vol. 4 para MVP) |
 | **Questionários (surveys)** | Série de perguntas fechadas em escala, distribuídas em grupos maiores | Validação de problema em escala, validação de atratividade de proposta | 100-500 respondentes | [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 4 — DESCOBERTA DO PROBLEMA|Fase 4 (Vol. 2)]] late, 5-6 |
 | **Landing page / smoke test** | Página descrevendo o produto antes dele existir, mede conversão de interesse | Validação de proposta de valor, teste de canal de aquisição, "fake door" | 500-5.000 visitantes | Fase 8 |
 | **Pré-venda** | Aceitar pagamento antecipado sem produto pronto | Teste máximo de Willingness to Pay, elimina viés de "eu pagaria" declarado | 10+ pagamentos reais | Fase 8 |
@@ -1766,7 +1768,7 @@ Esta tabela resume as técnicas de coleta de evidência mais usadas no manual, o
 **Nota de vocabulário: validação de problema, de oferta e de solução (síntese operacional deste manual).** Quem vem da literatura do Lean Startup encontrará três tipos distintos de validação que este manual cobre mas não nomeia sempre de forma unificada. A correspondência é:
 
 - **Problem validation** (o problema é real, agudo, no ICP certo?) = Fases 2, 3 e parte da 6.
-- **Offer validation** (a proposta de valor é atrativa? o cliente quer comprar isso?) = Fase 8 late, 7 e 8.
+- **Offer validation** (a proposta de valor é atrativa e o cliente aceita pagar por ela?) = Fase 8 (após a *Problem validation* nas Fases 4 e 5 do Vol. 2 e a formulação de hipóteses na Fase 7; já a *Solution validation* ocorre nas Fases 9 e 10, de modo que falhar na oferta pede voltar à Fase 7 e falhar na usabilidade pede iterar dentro da Fase 10).
 - **Solution validation** (a solução específica funciona, escala, tem economics?) = Fases 8, 9 e 10.
 
 Essa distinção importa operacionalmente: falhar na **Problem validation** exige pivotar de ICP ou problema (volta à [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 4 — DESCOBERTA DO PROBLEMA|Fase 4 (Vol. 2)]]). Falhar na **Offer validation** pode significar que o problema está certo mas a proposta de valor ou o preço estão errados (volta à [[#FASE 7 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 7]] ou 7). Falhar na **Solution validation** sugere que o problema e a oferta estão ok, mas a execução da solução não, iterar dentro da [[#FASE 10 — TESTES DE SOLUÇÃO E USABILIDADE|Fase 10]]-9 costuma bastar. Saber qual das três está quebrando muda a decisão de pivot vs. iterate.
@@ -1775,7 +1777,7 @@ Essa distinção importa operacionalmente: falhar na **Problem validation** exig
 
 ### Fechamento da Fase 8: o que muda na sua cabeça e na sua empresa a partir de agora
 
-O entregável é o conjunto de cartões de experimento executados, cada um com decisão documentada (perseverar, pivotar, ou abandonar). Hipóteses testadas, resultados, aprendizados, próximos passos. O que sobrevive aos testes vira insumo da [[#FASE 9 — IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES|Fase 9]], que usa os aprendizados para definir a solução. O que é refutado força reabertura da árvore de teoria, e às vezes da escolha de cunha. A Fase 8 é o ponto onde a teoria do negócio enfrenta o mundo. Quem trata isso com rigor produz aprendizado real. Quem trata como teatro de validação produz documentação para investidor, e nada mais.
+Quando Lucas e Marina analisaram à mão os contratos e extratos dos primeiros clientes no experimento de Concierge da abertura, descobriram que a hipótese de cobrar por um painel genérico de indicadores havia caído: os diretores financeiros só abriram a carteira quando o relatório apontou, em reais, os boletos pagos em duplicidade e as multas evitáveis da semana seguinte. É essa a mudança mental desta fase: você para de perguntar aos amigos *"vocês gostaram da ideia?"* e passa a perguntar ao caixa *"quem pagou antecipado ou assinou compromisso antes do código existir?"*. Com cada ficha de experimento encerrada por uma decisão clara (seguir, ajustar a rota ou descartar), O que sobrevive aos testes vira insumo da [[#FASE 9 — IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES|Fase 9]], que usa os aprendizados para definir a solução. O que é refutado força reabertura da árvore de teoria, e às vezes da escolha de cunha. A Fase 8 é o ponto onde a teoria do negócio enfrenta o mundo. Quem trata isso com rigor produz aprendizado real. Quem trata como teatro de validação produz documentação para investidor, e nada mais.
 
 Para avançar à Fase 9 (Ideação e Prototipagem de Soluções), as três a cinco apostas de vida ou morte precisam ter sido testadas em campo e as premissas que se mantiveram de pé devem formar uma teoria coerente. Se alguma foi refutada, reavalie a teoria antes de prototipar.
 
@@ -1817,7 +1819,7 @@ Prototipagem é a forma mais barata de testar. Com um dia de trabalho e nenhum c
 
 ### Do rabisco no papel à fachada clicável: subindo a escada de fidelidade sem apego emocional
 
-Cinco passos estruturados (do diagnóstico do motor atual e transição da venda conduzida pelo fundador até canais de marketing, expansão por caminhos e medição de unit economics por canal, detalhada na seção de métricas adiante).
+Sete passos.
 
 ```mermaid
 flowchart LR
@@ -1995,7 +1997,7 @@ A PlayKids, aplicativo infantil criado dentro do grupo Movile em junho de 2013 (
 
 Como ilustração inspirada no desenvolvimento de aplicativos infantis no Brasil (como a trajetória da PlayKids), imagine o efeito de testar em papel antes de programar: a equipe imprime as telas desenhadas e pede a crianças de quatro, seis e oito anos que toquem no papel como se fosse o tablet, observando onde travam e quais gestos fazem espontaneamente.
 
-A abertura dos números por canal revelou uma assimetria clara. O fluxo inicial, pensado em padrão adulto (menu → categoria → item), não funcionava com crianças menores. Elas esperavam ver tudo numa tela única com imagens grandes e tocar diretamente no que queriam. O time redesenhou antes de escrever uma linha de código. Esse padrão de design por imersão visual virou marca registrada do produto e foi parte do que sustentou o crescimento internacional.
+A descoberta foi cirúrgica. O fluxo inicial, pensado em padrão adulto (menu → categoria → item), não funcionava com crianças menores. Elas esperavam ver tudo numa tela única com imagens grandes e tocar diretamente no que queriam. O time redesenhou antes de escrever uma linha de código. Esse padrão de design por imersão visual virou marca registrada do produto e foi parte do que sustentou o crescimento internacional.
 
 Com algumas dezenas de reais em impressões, o protótipo em papel revela falhas de navegação que custariam dezenas de milhares de reais para refazer depois do código pronto. Em produtos para públicos que não verbalizam bem (crianças, idosos, baixa escolaridade, falantes de outras línguas), observação supera entrevista.
 
@@ -2053,7 +2055,7 @@ Construir direto sem prototipar. "Já sei como vai ser." Constatação final: vo
 **Permissão Libertadora:**
 Você está autorizado a fazer protótipos feios, em preto e branco, desenhados no papel ou em blocos cinzas sem logotipo. Beleza prematura esconde falhas estruturais.
 
-**O Ritual de Segunda-Feira às 9h (rotina semanal de 30 minutos):**
+**O Ritual de Segunda-Feira às 9h:**
 Pegue uma folha A4, dobre em oito partes (*Crazy 8s*) e desenhe em oito minutos oito maneiras diferentes de entregar o resultado ao cliente, sendo uma delas obrigatoriamente sem aplicativo próprio. Até quarta-feira, mostre os dois esboços mais simples a dois clientes reais, anote onde travaram e, na segunda-feira seguinte, descarte o pior.
 
 ---
@@ -2114,7 +2116,7 @@ Princípios-chave:
 
 ##### Como rodar na segunda-feira às 9h com seu time
 
-Passo 1: Formule outcome mensurável.
+1. Defina um resultado de negócio mensurável (*outcome*) antes de abrir a geração de ideias.
 
 Passo 2: Colete oportunidades via entrevistas com clientes (não speculation).
 
@@ -2284,7 +2286,7 @@ Aplicação ilustrativa em redesenho de atendimento ao cliente (inspirada em pro
 
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
-Pular empatia: vai para ideação direto, soluciona problema errado, Ideate sem divergência real: grupo converge cedo na ideia do chefe, Prototype alto fidelidade muito cedo: desperdício quando iteração ainda necessária, Test com não usuários: feedback enganoso.
+Pular a etapa de empatia leva o time direto para a ideação e resolve o problema errado. Idear sem divergência real faz o grupo convergir cedo demais na opinião do fundador mais vocal. Prototipar em alta fidelidade cedo demais desperdiça trabalho que a próxima rodada vai descartar. Testar com quem não é usuário real produz retorno enganoso.
 
 ---
 
@@ -2465,7 +2467,7 @@ A tese de Patton é que **decisão de roadmap é decisão de capital**: cada fea
 
 ##### Passo a passo na parede da sala
 
-Reúna PM + tech lead + designer + 1 stakeholder de negócio (RH, vendas, operações): 4-5 pessoas. Tempo: 60-90 minutos. Comece pelos Problems & Users; só depois vá para Solutions. A ordem importa: começar por Solutions reforça viés de "já sabemos o que construir" e mascara perguntas críticas sobre adoção.
+Reúna os sócios e, se houver, quem apoia no design ou na operação (duas a três pessoas bastam no estágio inicial; a dinâmica para squads com gerente de produto e líder técnico fica para o Vol. 7). Separe 60 a 90 minutos e leve as anotações das entrevistas da Fase 5 e os cartões de teste da Fase 8. Preencha primeiro os blocos de problemas e usuários; só depois discuta soluções, para evitar o viés de defender a primeira tela que vocês já queriam construir.
 
 1. **Problems**: descreva o problema sem mencionar a solução. "Usuário tipo X sofre com Y em contexto Z."
 2. **Users & Customers**: quem especificamente. Em B2B, distinguir usuário (quem mexe), comprador (quem paga), influenciador (quem decide).
@@ -2479,7 +2481,7 @@ Reúna PM + tech lead + designer + 1 stakeholder de negócio (RH, vendas, opera�
 
 Tempo total: 60-90 minutos por canvas. Faça antes de comprometer roadmap, não depois.
 
-##### Exemplo brasileiro preenchido: Hotmart, oportunidade "Hotmart Sparkle" para microcreators (2022) (reconstrução didática com base em dados públicos)
+##### Exemplo brasileiro preenchido (reconstrução hipotética): plataforma de criadores testando checkout enxuto no link da bio (inspirada no mercado brasileiro; o app real Hotmart Sparkle focava em comunidades, e números como R$ 1,5 milhão são apenas ilustrativos)
 
 Em 2022, a Hotmart já dominava infoprodutos médios e grandes (creators que vendiam cursos de R$ 300+ a milhares de alunos). Identificou uma oportunidade adjacente: **microcreators**: pessoas com audiência pequena (1-5k seguidores) que queriam monetizar conteúdo curto e barato (R$ 9-49 por item). O Opportunity Canvas dessa aposta:
 
@@ -2645,7 +2647,7 @@ Horizontal (jornada): cliente *Descobre* → *Seleciona loja* → *Escolhe produ
 | Descobre | Busca por CEP | Ordenação por distância | Recomendação personalizada |
 | Seleciona loja | Lista com foto e nota média | Filtro por categoria | Favoritos e histórico |
 | Escolhe produtos | Cardápio simples, uma foto por item | Variações (tamanho, sabor) | Personalização detalhada, combos |
-| Paga | Cartão de crédito via gateway | Pix + carteira digital | Cashback, cupons, parcelamento |
+| Paga (e confirma no WhatsApp, onde o paciente já vive, como viu a Dra. Camila) | Pix nativo (meio mais usado e barato no Brasil) + confirmação via WhatsApp | Cartão de crédito via gateway + carteira digital | Cashback, cupons e parcelamento |
 | Acompanha | Status em texto (recebido, em preparo, saindo) | Mapa em tempo real | Chat com entregador |
 | Recebe | Confirmação por SMS | Avaliação da entrega | Foto do produto na entrega |
 
@@ -2655,7 +2657,7 @@ Horizontal (jornada): cliente *Descobre* → *Seleciona loja* → *Escolhe produ
 
 ### Fechamento da Fase 9: o que muda na sua cabeça e na sua empresa a partir de agora
 
-O entregável desta fase é o Dossiê de Solução. Três a cinco conceitos avaliados em Desejabilidade, Viabilidade e Sustentabilidade; pelo menos um protótipo interativo testado com oito ou mais usuários; e recomendação escrita de qual caminho seguir. Quem economiza no protótipo descobre os mesmos problemas na construção: em momento mais doloroso e caro de corrigir.
+Em Belo Horizonte, a Dra. Camila escapou do **Cemitério dos Protótipos Perfeitos** quando desistiu de encomendar telas polidas por semanas e testou, numa única tarde, um vídeo simulado de 15 segundos no WhatsApp com nove pacientes de reabilitação oral e três recepcionistas de clínicas parceiras. A reação imediata separou o que era vaidade estética do que realmente destravava o retorno do paciente, cabendo num dossiê enxuto de duas páginas para entrar na Fase 10. É isso que muda na sua cabeça ao sair da Fase 9: protótipo não é maquete para receber elogio, mas isca descartável para capturar o erro barato antes de escrever uma linha de código.
 
 Esse dossiê é o insumo da [[#FASE 10 — TESTES DE SOLUÇÃO E USABILIDADE|Fase 10]], onde o conceito escolhido passa por testes de usabilidade estruturados e se converte em Especificação do MVP. Quem chega à Fase 10 sem ter explorado alternativas e sem ter testado protótipo entra na especificação com hipótese implícita não testada. Isso aumenta a chance de retrabalho radical na [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 11 — MVP E EXPERIMENTOS DE MERCADO|Fase 11 (Vol. 4)]].
 
@@ -2665,7 +2667,7 @@ Esse dossiê é o insumo da [[#FASE 10 — TESTES DE SOLUÇÃO E USABILIDADE|Fas
 
 ### A Guilhotina de Escopo e o Silêncio Constrangedor do Teste de Usabilidade
 
-– "Não, não! Não clica aí ainda, deixa eu te explicar como funciona essa tela!", gritou Lucas quase tomando o mouse da mão do gerente financeiro durante o teste de usabilidade em São Paulo.
+"Não, não! Não clica aí ainda, deixa eu te explicar essa tela!", exclamou Lucas, quase puxando o mouse da mão do gerente financeiro durante a sessão de usabilidade em São Paulo.
 
 Sentada ao lado com um bloco de notas, Marina segurou o braço do sócio por baixo da mesa e murmurou:
 
@@ -2675,7 +2677,9 @@ Nos cinco minutos seguintes de silêncio absoluto, Lucas assistiu à cena mais d
 
 Mas o segundo golpe veio à tarde, quando Lucas abriu o backlog para planejar o lançamento do MVP e listou 47 funcionalidades "indispensáveis": incluindo modo escuro, permissões em quatro níveis hierárquicos, exportação em PDF customizável e painel de administração. Marina puxou a caneta vermelha e aplicou a **Guilhotina de Escopo**:
 
-– "Se o cliente consegue importar o extrato e ver a previsão de caixa de amanhã, ele já recebe 90% do valor. Modo escuro, troca de senha automática e painel de admin vão para o lixo agora. Nosso MVP terá três telas e vai ao ar na próxima terça-feira."
+"Se o cliente consegue importar o extrato e enxergar a previsão de caixa de amanhã, ele já recebe 90% do valor. Modo escuro, troca de senha automática e painel de administração vão para a lixeira agora. Nosso produto mínimo terá três telas e entra no ar na próxima terça-feira", cravou Marina.
+
+Ao longo desta fase, veremos esse corte na prática em dois momentos: no Passo 5 (MoSCoW), em que a Guilhotina de Escopo reduz a planilha de 47 itens de Lucas às 3 telas essenciais (importação de OFX/extrato, conciliação de boletos duplicados e projeção de caixa de 30 dias, jogando permissões multinível, PDF customizável e modo escuro para *Won't Have*), e no Espelho de fechamento, quando Lucas aprende a tirar a mão do mouse enquanto o cliente testa o fluxo sozinho.
 
 O que mais atrasa um lançamento é o perfeccionismo: a tentação de incluir "só mais uma funcionalidade" na lista para adiar o dia em que o mercado real julga o produto.
 
@@ -2696,7 +2700,7 @@ Diferente da entrevista de problema ([[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 4
 Faça dez a quinze dessas entrevistas. Grave, transcreva, analise.
 
 > [!tip] Canvases Visuais: Empathy Map (Fase 4)
-> Após cada rodada de testes de solução e usabilidade, o [[IGNICAO-Vol-2-Descoberta-e-Mercado#Canvas: Empathy Map (Dave Gray / XPLANE, 2009)|Canvas: Empathy Map (Dave Gray / XPLANE, 2009) (Vol. 2)]], Says, Thinks, Does, Feels, sintetiza os estados internos do usuário em formato visual de uma página. Útil para alinhar time de produto sobre as descobertas qualitativas (frustração no fluxo X, expectativa não atendida no passo Y) sem que cada membro reconstrua mentalmente a sessão de teste do zero.
+> Após cada rodada de testes de solução e usabilidade, consulte a ficha completa do [[IGNICAO-Vol-2-Descoberta-e-Mercado#Canvas: Empathy Map (Dave Gray / XPLANE, 2009)|Mapa de Empatia de Dave Gray (Vol. 2)]] para consolidar em uma página as seis áreas observadas na sessão (o que o usuário diz, faz, pensa e sente, somados às dores/atritos de tela e aos ganhos esperados). Essa síntese pós-teste alinha rapidamente os sócios sobre onde o fluxo travou sem duplicar a ficha metodológica do Volume 2.
 
 #### Passo 2, aplique a técnica das cinco escalas de valor
 
@@ -2859,7 +2863,7 @@ Iteração prioritária. Simplificar onboarding para três passos. CNPJ, depois 
 
 Em 2015, a Gupy nascia da ideia de Mariana Dias, Bruna Guimarães, Guilherme Dias e Robson Ventura de substituir processos tradicionais de recrutamento por uma plataforma que usasse dados e IA para triagem.
 
-Como ilustração de validação enxuta no setor de recrutamento corporativo (inspirada nos primeiros passos de plataformas brasileiras de RH como a Gupy), imagine rodar o piloto inicial com cinco a oito empresas parceiras antes de abrir a venda comercial ampla: cada empresa usa o fluxo essencial com acompanhamento semanal da equipe de produto, medindo o tempo de fechamento de vaga antes e depois do piloto.
+Antes de abrir a venda para todos, fizeram piloto com poucas empresas: como ilustração de validação enxuta no recrutamento corporativo (inspirada nos primeiros passos de plataformas brasileiras de RH como a Gupy), cinco a oito empresas parceiras usaram o fluxo essencial com acompanhamento semanal da equipe de produto, medindo o tempo de fechamento de vaga antes e depois do teste.
 
 O resultado foi composto. As iterações cruas, baseadas em uso real, calibraram a plataforma antes do go-to-market geral. As empresas-piloto viraram primeiros cases. Depois evangelistas. Depois canal de referência. A Gupy se tornaria, anos depois, uma das maiores plataformas de recrutamento da América Latina.
 
@@ -2919,7 +2923,7 @@ Achar que o gráfico de Van Westendorp já fechou o preço definitivo: a pesquis
 **Permissão Libertadora:**
 Você está autorizado a lançar sem tela automática de "esqueci minha senha", sem painel administrativo bonito, sem modo escuro e sem configuração de perfil. Use o fluxo pronto de recuperação de senha que o seu serviço de autenticação já entrega por padrão e não gaste uma hora construindo painel administrativo próprio ou tela de perfil antes de validar o produto.
 
-**O Ritual de Segunda-Feira às 9h (rotina semanal de 30 minutos):**
+**O Ritual de Segunda-Feira às 9h:**
 Toda segunda-feira, passe a **Guilhotina de Escopo** nos itens que tentaram entrar no backlog durante a semana: aplique a pergunta *"sem isso, o cliente ainda resolve a dor número um?"* e, para cada novo item aceito como Must Have, rebaixe obrigatoriamente outro item para a lista de "Só Depois dos Primeiros 20 Clientes Pagantes".
 
 ---
@@ -2964,7 +2968,7 @@ Tipos:
 
 ##### Como rodar na segunda-feira às 9h com seu time
 
-Passo 1: Defina tarefas específicas, não avaliações gerais. "Crie sua primeira nota fiscal" > "veja se gosta do app".
+1. Defina tarefas operacionais concretas em vez de pedir impressões vagas: peça "emita a sua primeira nota fiscal", que funciona como teste real, e nunca "veja se você gosta do aplicativo", que não testa nada.
 
 Passo 2: Recrute representativos. Usuários que parecem ICP, não colegas.
 
@@ -2982,7 +2986,7 @@ Passo 8: Priorize fix: alto-impacto + alto-frequência primeiro.
 
 ##### Na trincheira real: como isso funciona na prática
 
-Teste de usabilidade de app de gestão financeira para PMEs (5 sessões):
+A segunda rodada de testes de Lucas e Marina no sistema de caixa e conciliação para PMEs, conduzida em silêncio com cinco gerentes financeiros logo após o corte das 47 funcionalidades para três telas (na qual trocaram o jargão "Categorizar" por "Classificar" para destravar a importação do extrato):
 
 Tarefas:
 
@@ -3275,7 +3279,7 @@ Passo 2: Pratique com tarefa neutra (1-2 min) para participante se acostumar.
 
 Passo 3: Durante tarefa real, pesquisador fica em silêncio. Só intervém se participante para de falar por > 15 seg: "o que está pensando?"
 
-Passo 4: Grave (audio + tela).
+4. Grave áudio e tela somente após colher o termo de consentimento informado por escrito ou gravado no início da chamada (LGPD, Lei nº 13.709/2018), especificando finalidade exclusiva de pesquisa de produto, prazo de descarte da gravação, quem na equipe terá acesso e o cuidado de ocultar dados bancários ou de terceiros na tela do participante B2B.
 
 Passo 5: Analise: onde houve confusão? Onde expressou frustração? Onde pensou em abandonar?
 
@@ -3320,7 +3324,7 @@ Alternadas positivas e negativas:
 
 ##### Como rodar na segunda-feira às 9h com seu time
 
-Passo 1: Aplicar logo após uso real (não descrito, mas experiência).
+1. Aplique o questionário imediatamente após o participante usar o protótipo ou sistema de fato nas tarefas propostas, e nunca apenas depois de ouvir uma explicação ou demonstração guiada.
 
 Passo 2: Cálculo:
 
@@ -3670,7 +3674,7 @@ Este capítulo articulou o framework científico (Camuffo, Gambardella, Coali, S
 > [!important] Princípio geral
 > Nenhum framework desaparece em nenhuma fase. O que muda é qual está em primeiro plano. Fundador iniciante que usa só um framework em todas as fases está sub-otimizando. Reconhecer em qual modo estar e quando trocar é parte do método.
 
-Síntese comparativa de canais:
+> [!info] Fases relacionadas
 
 
 ---
@@ -3687,7 +3691,7 @@ Síntese comparativa de canais:
 **Permissão Libertadora:**
 Se você atua em Saúde, Agro, Indústria, Hardware ou Setor Regulado, você está autorizado a ignorar o conselho irresponsável de "quebrar as coisas em produção". Teste a oferta comercial rápido, mas proteja o núcleo técnico com rigor absoluto.
 
-**O Ritual de Segunda-Feira às 9h (rotina semanal de 30 minutos):**
+**O Ritual de Segunda-Feira às 9h:**
 Pegue as cinco decisões pendentes da semana e marque ao lado de cada uma: **[R]** (Reversível, decida e execute até o meio-dia de hoje) ou **[I]** (Irreversível, exija evidência teórica e teste controlado antes de assinar).
 
 ---
@@ -3708,7 +3712,7 @@ Bia não abriu o champanhe. Ela projetou a DRE na parede da sala e apontou para 
 
 – "Rafael, olha para a tela. O nosso custo para trazer uma cliente no Instagram é R$ 95. O lucro bruto do primeiro pote de creme é R$ 40. E 88% das mulheres que compraram há dois meses nunca fizeram o segundo pedido porque acharam o cheiro da fórmula enjoativo. Você está passando dezesseis horas por dia polindo a maçaneta da porta de um prédio que está pegando fogo no alicerce!"
 
-Rafael havia caído numa armadilha clássica de equipes de produto e crescimento: **A Síndrome de Polir o Titanic**. Ele estava gastando munição de **Alavancas de Escala** (*Scale Levers*, otimização de funil, testes A/B de centavos, automações de marketing) quando o **Núcleo do Problema** (*Problem Core*, retenção básica, qualidade da entrega e equação econômica fundamental) ainda estava reprovado.
+Rafael havia caído numa armadilha clássica de equipes de produto e crescimento: **A Síndrome de Polir o Titanic**. Ele gastava energia em micro-otimizações cosméticas de topo de funil (cor de botão, gatilhos de checkout) sem ter aprovado primeiro os portões eliminatórios do **Núcleo do Problema** (*Problem Core*, Gates 1 a 4: dor aguda e frequente, comprador certo com orçamento real, razão clara para trocar o hábito atual e capacidade técnica de entregar a fórmula prometida) nem os portões estruturais de **Alavancas de Escala** (*Scale Levers*, onde este scorecard mede Economia Unitária no Gate 6 e Retenção/Recompra no Gate 8).
 
 Existe uma hierarquia férrea de portões (*Gates*) que você nunca pode violar:
 1. Primeiro você trava o **Problem Core** (a dor é aguda, a solução retém e a unidade básica para em pé).
@@ -3858,7 +3862,7 @@ ___________________________________________________________
 > [!tip] Ritmo de aplicação
 > Aplique o scorecard ao final da Fase 5, depois ao final da Fase 11, e periodicamente daí em diante (trimestralmente nos primeiros dois anos, semestralmente depois). As variações ao longo do tempo contam uma história: em que gates você está melhorando? em quais está estagnando? Isso direciona onde investir energia.
 
-Síntese comparativa de canais:
+> [!info] Fases relacionadas
 
 ---
 
@@ -3976,7 +3980,7 @@ Um próximo passo bom produz evidência. Não apenas atividade. Pergunte, antes 
 **Permissão Libertadora:**
 Você está autorizado a congelar todas as discussões sobre "escala, automação em massa e expansão internacional" até que seus primeiros vinte clientes usem, amem e renovem o seu produto básico.
 
-**O Ritual de Segunda-Feira às 9h (rotina semanal de 30 minutos):**
+**O Ritual de Segunda-Feira às 9h:**
 Toda segunda-feira às 9h, pontue no quadro branco as notas H e E dos quatro gates do **Bloco 1 (Problem Core)**: o gate com a menor nota E vira a prioridade da semana, e qualquer tarefa de otimização de funil (*Scale Lever*) que não ajude a subir essa nota sai imediatamente da fila.
 
 
@@ -4111,7 +4115,7 @@ O framework Antler é especialmente útil, quando o empreendedor reconhece um ou
 > [!important] Antler é o mais prescritivo dos quatro frameworks
 > Dos quatro frameworks articulados nesse manual, o Antler é o mais prescritivo. Ele diz o que fazer, em que ordem. Isso é força, e limite. É força quando o empreendedor está paralisado por excesso de opções, e precisa de disciplina de sequência. É limite quando o contexto exige reconfiguração não sequencial. Por exemplo, em deeptech onde a tecnologia precisa amadurecer, antes da cunha ser definível. Ou em *platform plays* genuínos, onde amplitude inicial é intencional. Como qualquer framework, é ferramenta, não religião. Use onde ajuda. Adapte onde atrapalha.
 
-Síntese comparativa de canais:
+> [!info] Fases relacionadas
 
 ---
 
@@ -4127,7 +4131,7 @@ Síntese comparativa de canais:
 **Permissão Libertadora:**
 Você está autorizado a esconder 80% da sua visão de longo prazo durante a primeira reunião comercial. Venda a aspirina que corta a enxaqueca hoje; apresente o plano de saúde completo depois que a dor passar.
 
-**O Ritual de Segunda-Feira às 9h (rotina semanal de 30 minutos):**
+**O Ritual de Segunda-Feira às 9h:**
 Identifique a parte mais rápida e indolor do seu produto e empacote-a como uma "Oferta de Entrada em 48 Horas" que custe abaixo do limite de aprovação de diretoria do seu cliente.
 
 
@@ -4341,7 +4345,7 @@ Compliance específico pode ser custo estrutural, que define viabilidade.
 **Permissão Libertadora:**
 Você está autorizado a fechar a lista de espera de novos fornecedores hoje e operar no braço (comprando você mesmo o estoque ou garantindo os primeiros pedidos) até que os primeiros vinte fornecedores ganhem dinheiro de verdade.
 
-**O Ritual de Segunda-Feira às 9h (rotina semanal de 30 minutos):**
+**O Ritual de Segunda-Feira às 9h:**
 Divida o número de transações fechadas pelo total de buscas qualificadas feitas na última semana (*search-to-fill*). Se a taxa ficar abaixo do patamar mínimo da sua categoria (como 15% em serviços ou 30% em entregas rápidas), congele imediatamente a abertura de novas praças e concentre 100% da oferta e da demanda em um único bairro ou nicho até destravar o giro.
 
 ### FRAMEWORKS PASSO A PASSO DESTE CAPÍTULO
@@ -4548,7 +4552,7 @@ B2B2C saudável tem diversidade de Bs (nenhum acima de quinze a vinte por cento 
 **Permissão Libertadora:**
 Você está autorizado a parar de queimar caixa no leilão caro do Meta Ads e do Google Ads tentando pescar CPFs de um em um se existir um canal B2B2C capaz de colocar 500 clientes para dentro em uma única assinatura.
 
-**O Ritual de Segunda-Feira às 9h (rotina semanal de 30 minutos):**
+**O Ritual de Segunda-Feira às 9h:**
 Desenhe o seu **Kit de Ativação D+1 para Parceiros**: as 3 mensagens prontas de WhatsApp, o cartaz de QR Code e o incentivo imediato que garante 30% de adesão dos usuários finais na primeira semana pós-contrato.
 
 
@@ -4664,7 +4668,7 @@ Escolha importa: MIT max adoção, pouco controle. AGPL/BSL mais controle, menos
 **Permissão Libertadora:**
 Você está autorizado a manter fechadas e pagas todas as funcionalidades de governança corporativa, conformidade e gerenciamento em equipe. Desenvolvedores amam código aberto, mas empresas pagam por paz de espírito e responsabilidade contratual.
 
-**O Ritual de Segunda-Feira às 9h (rotina semanal de 30 minutos):**
+**O Ritual de Segunda-Feira às 9h:**
 Defina por escrito a fronteira do seu repositório antes de publicar código novo: tudo o que resolve a dor do desenvolvedor individual permanece aberto, e tudo o que atende a exigências de comprador corporativo ("Segurança Corporativa, SSO, Trilha de Auditoria, Multi-usuário acima de 5 assentos e SLA") já nasce exclusivamente no plano Enterprise/Cloud pago, sem jamais fechar funcionalidades que já haviam sido entregues à comunidade aberta.
 
 ---
@@ -4701,11 +4705,11 @@ Exemplo aplicado, Pagar.me (Brasil). API de pagamentos com documentação em por
 
 ### O Cliente Como Seu Melhor Investidor-Anjo: A Escada do Serviço ao Produto
 
-Quando Henrique decidiu abrir uma segunda frente na sua operação em Curitiba, não tinham padrinhos ricos na Faria Lima nem reserva financeira para passar dezoito meses sem salário construindo um software puro. Se tentassem seguir a cartilha romântica do Vale do Silício (*"levante R$ 3 milhões num PowerPoint antes de faturar R$ 1"*), estariam falidos antes do inverno.
+Quando Henrique decidiu abrir uma segunda frente na sua operação em Curitiba para financiar o desenvolvimento do software de telemetria industrial sem diluir sua participação antes da hora, ele sabia que não podia depender de esperar dezoito meses sem receita até o sistema ficar pronto. Se tentasse seguir a cartilha romântica de queimar caixa no escuro esperando um cheque milagroso, ficaria sem fôlego antes da próxima safra.
 
 Em vez disso, Henrique fechou um contrato de R$ 18 mil por mês com três indústrias madeireiras para fazer o controle de perdas de serraria como um serviço recorrente padronizado. Nos primeiros três meses, eles faziam 80% do trabalho usando planilhas avançadas e scripts em Python que rodavam no computador de Henrique. O lucro daqueles três contratos pagava as contas dos sócios e financiava vinte horas por semana de desenvolvimento do software proprietário.
 
-No décimo mês, os scripts já faziam 75% do trabalho sozinhos; no décimo oitavo mês, a ferramenta interna ficou tão robusta que as próprias indústrias passaram a operá-la diretamente como um SaaS puro, com margem bruta de 86%: e Henrique financiou toda essa transição com a receita dos próprios clientes.
+No décimo mês, os scripts internos já executavam 75% do processamento de dados sozinhos; no décimo oitavo mês, a ferramenta ficou tão madura que as próprias indústrias passaram a operá-la diretamente como um SaaS com margem bruta de 86%, e Henrique financiou toda essa transição com a receita dos próprios clientes.
 
 Eles subiram com maestria **A Escada de Quatro Degraus da Produtização**:
 1. **Serviço Artesanal Focalizado** (caixa imediato e aprendizado profundo na veia do cliente);
@@ -4804,7 +4808,7 @@ Em serviços produtizados e *tech-enabled services*, **nunca ofereça implantaç
   * **Saldo Líquido de Caixa no Mês 1:** **+R$ 3.000 positivos já no dia da venda!** Enquanto uma startup SaaS tradicional queima caixa por 14 meses esperando o *CAC Payback*, na sua operação cada novo cliente financia imediatamente a aquisição do próximo.
 
 #### 3.2. Vendas Anuais Antecipadas e o "Imposto Interno de P&D"
-* **Planos Anuais à Vista:** Ofereça 15% de desconto (ou isenção parcial do *setup*) para clientes que pagarem a anuidade à vista via Pix/TED ou cartão parcelado com antecipação. Fechar apenas **10 clientes anuais** de R$ 3.500/mês (R$ 35.000 à vista cada) injeta **R$ 350.000 de caixa imediato**: uma rodada *Pre-Seed* inteira com **0% de diluição no cap table**.
+* **Planos Anuais à Vista:** Ofereça 15% de desconto (ou isenção parcial do *setup*) para clientes que pagarem a anuidade à vista via Pix/TED (ou cartão, descontando a taxa de antecipação da credenciadora). Fechar **10 clientes anuais** de R$ 3.500/mês (R$ 35.000 à vista cada) injeta **R$ 350 mil de caixa antecipado** sem diluir o *cap table*. Atenção contábil e operacional: anuidade antecipada não é aporte de capital livre, mas **receita diferida (passivo de entrega)**. Você deve doze meses de serviço, paga tributos na emissão da nota fiscal e responde por devolução proporcional se o contrato rescindir: provisione em conta separada o custo de servidor, suporte e impostos dos doze meses e use apenas a margem líquida para financiar o desenvolvimento do produto.
 * **Alocação Disciplinada do Lucro para o Squad de Produto:** No DRE gerencial, trave a regra: **50%** da receita líquida cobre a entrega do serviço (CSP), **20%–25%** cobre SG&A/vendas e **25%–30% (o lucro operacional da operação de serviços)** vai obrigatoriamente para uma conta carimbada que financia os engenheiros dedicados a construir o produto.
 
 ---
@@ -4826,7 +4830,7 @@ Pelo **art. 4º da Lei do Software (Lei nº 9.609/1998)**, salvo estipulação c
 
 > [!warning] Cláusula Contratual Obrigatória de Reserva de Tecnologia-Base (*Background & Platform IP*)
 > Insira obrigatoriamente nos seus contratos de prestação de serviços no Brasil:
-> *"Cláusula X: Da Propriedade Intelectual: Pertencerão ao CONTRATANTE exclusivamente os relatórios finais e resultados gerados a partir de seus próprios dados brutos ('Entregáveis Específicos'). O CONTRATANTE reconhece que toda a tecnologia subjacente, plataformas, motores de cálculo, algoritmos, bibliotecas, scripts de automação, conectores, templates e metodologias preexistentes ou desenvolvidos pela CONTRATADA durante a relação contratual ('Tecnologia-Base da CONTRATADA') pertencem de forma **exclusiva e perpétua à CONTRATADA**, nos termos da ressalva do caput do art. 4º da Lei nº 9.609/1998, cabendo ao CONTRATANTE apenas licença não exclusiva de uso durante a vigência contratual."*
+> *(Minuta ilustrativa de ponto de partida; revise sempre com advogado especializado em propriedade intelectual e contratos de tecnologia antes de assinar.)* *"Cláusula X (Da Propriedade Intelectual e Segredo de Negócio): Pertencerão ao CONTRATANTE, em caráter definitivo e com licença perpétua de uso interno após a quitação contratual, os relatórios finais, diagnósticos e resultados gerados a partir de seus próprios dados brutos ('Entregáveis Específicos'). As partes pactuam expressamente, nos termos da ressalva do caput do art. 4º da Lei nº 9.609/1998 (que exige estipulação contratual explícita para afastar a titularidade do contratante nas encomendas de serviço), que o código-fonte, bibliotecas, scripts de automação e conectores de software preexistentes ou desenvolvidos pela CONTRATADA ('Software-Base') pertencem exclusivamente à CONTRATADA sob proteção de direito de programa de computador, enquanto metodologias, modelos matemáticos e fluxos operacionais (que não gozam de direito autoral pelo art. 8º, I, da Lei nº 9.610/1998) permanecem protegidos como segredo de negócio e know-how confidencial da CONTRATADA, concedendo-se ao CONTRATANTE licença não exclusiva de acesso à plataforma apenas durante a vigência da assinatura, sem prejuízo do uso perpétuo dos Entregáveis Específicos."*
 
 #### 4. Mudança de Tíquete Médio e Perfil de Vendedor
 Vender consultoria de R$ 25.000/mês depende do relacionamento pessoal dos sócios. Vender um SaaS ou *Tech-Enabled Service* de R$ 1.500/mês exige máquina de *Inside Sales* (SDRs + *Closers*), geração de demanda *inbound/outbound* previsível e ciclo de fechamento de 15 a 30 dias. Separe o funil comercial e contrate vendedores treinados em venda de volume padronizado.
@@ -4860,6 +4864,6 @@ Não tenha vergonha da Etapa 3. Em mercados brasileiros complexos (contabilidade
 **Permissão Libertadora:**
 Você está autorizado a demitir clientes de consultoria que exigem trabalho sob medida fora da sua tese de produto e a recusar propostas de investidores que queiram 30% da sua empresa por migalhas.
 
-**O Ritual de Segunda-Feira às 9h (rotina semanal de 30 minutos):**
+**O Ritual de Segunda-Feira às 9h:**
 Reserve na agenda: como compromisso sagrado e inegociável: **15 horas desta semana** exclusivamente para construir o script ou módulo interno que vai eliminar a tarefa manual mais repetitiva da sua entrega atual.
 

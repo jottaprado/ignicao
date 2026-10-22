@@ -343,24 +343,15 @@ const BASE_FACTUAL_AND_LEGAL_REPLACEMENTS = [
     'Liquidez Secundária (Secondaries unificado)',
     'Liquidez Secundária (Secondaries)'
   ],
-  [
-    'WACC Brasil (mesmo perfil): 15% a 22%',
-    'WACC Brasil nominal em BRL (mesmo perfil, com Selic a 13,75% a.a.): 20% a 28% (ou 13% a 18% em USD)'
-  ],
-  [
-    'A Regra Invisível do Jogo: A Travessia do Vale da Morte Físico e a Lei Brasileira de Informática',
-    'A Regra do Jogo no Hardware: A Travessia do Vale da Morte Físico e a Lei de Informática (Leis 8.248/1991 e 13.969/2019)'
-  ],
-  [
-    'Executando Pesquisa Clínica no Brasil sob o Novo Marco Legal (Lei 14.874/2024): Prazos Rápidos, Diversidade Genética e CROs',
-    'Pesquisa Clínica no Brasil sob a Lei 14.874/2024: Sistema Nacional de Ética, Prazos da ANVISA e CROs'
-  ],
 ];
 
-const BATCH_FILES = [
+const WAVE1_BATCH_FILES = [
   'checked_fixes_batch1.json',
   'checked_fixes_batch2.json',
   'checked_fixes_batch3.json',
+];
+
+const WAVE2_BATCH_FILES = [
   'achados_fixes_vol1.json',
   'achados_fixes_vol2.json',
   'achados_fixes_vol3.json',
@@ -372,11 +363,32 @@ const BATCH_FILES = [
   'achados_fixes_vol9.json',
   'achados_fixes_vol10a.json',
   'achados_fixes_vol10b.json',
+  'achados_fixes_wave3_vol1_2.json',
+  'achados_fixes_wave3_vol3_4.json',
+  'achados_fixes_wave3_vol5_6.json',
+  'achados_fixes_wave3_vol7_8.json',
+  'achados_fixes_wave3_vol9_10.json',
 ];
 
-function loadAllBatchReplacements() {
-  const pairs = BASE_FACTUAL_AND_LEGAL_REPLACEMENTS.map(([from, to]) => ({ vol: null, from, to }));
-  for (const fname of BATCH_FILES) {
+function stripEmDashOutsideWikilinkTarget(str) {
+  return String(str || '')
+    .split(/(\[\[[^\]]+\]\])/g)
+    .map((part) => {
+      if (part.startsWith('[[') && part.endsWith(']]')) {
+        const pipeIdx = part.indexOf('|');
+        if (pipeIdx < 0) return part;
+        const target = part.slice(0, pipeIdx);
+        const label = part.slice(pipeIdx + 1, -2).replace(/\s*—\s*/g, ': ');
+        return `${target}|${label}]]`;
+      }
+      return part.replace(/\s*—\s*/g, ': ');
+    })
+    .join('');
+}
+
+function loadBatchFiles(fileList, includeBase = false) {
+  const pairs = includeBase ? BASE_FACTUAL_AND_LEGAL_REPLACEMENTS.map(([from, to]) => ({ vol: null, from, to })) : [];
+  for (const fname of fileList) {
     const fpath = path.join(__dirname, fname);
     if (fs.existsSync(fpath)) {
       try {
@@ -386,18 +398,20 @@ function loadAllBatchReplacements() {
             if (item && typeof item.from === 'string' && typeof item.to === 'string' && item.from.trim() && item.to.trim()) {
               const fromStr = item.from.trim();
               const vNum = item.vol ? Number(item.vol) : null;
-              const cleanTo = item.to.trim().replace(/\s*—\s*/g, ': ');
+              const cleanTo = stripEmDashOutsideWikilinkTarget(item.to.trim());
               if (fromStr === cleanTo) continue;
-              pairs.push({ vol: vNum, from: fromStr, to: cleanTo });
+              pairs.push({ id: item.id, vol: vNum, from: fromStr, to: cleanTo });
               // Variantes demovidas de BG (##### -> ### no raw) e de CZ/A (#### -> ### no raw)
               if (fromStr.startsWith('##### ')) {
                 pairs.push({
+                  id: item.id,
                   vol: vNum,
                   from: fromStr.replace(/^##### /, '### '),
                   to: cleanTo.replace(/^##### /, '### '),
                 });
               } else if (fromStr.startsWith('#### ')) {
                 pairs.push({
+                  id: item.id,
                   vol: vNum,
                   from: fromStr.replace(/^#### /, '### '),
                   to: cleanTo.replace(/^#### /, '### '),
@@ -487,10 +501,29 @@ const MECHANICAL_NOISE_REPLACEMENTS = [
   ['Bacen', 'BCB'],
 ];
 
+let CACHED_WAVE1_REPLACEMENTS = null;
+function getWave1Replacements() {
+  if (!CACHED_WAVE1_REPLACEMENTS) {
+    CACHED_WAVE1_REPLACEMENTS = loadBatchFiles(WAVE1_BATCH_FILES, true);
+  }
+  return CACHED_WAVE1_REPLACEMENTS;
+}
+
+let CACHED_WAVE2_REPLACEMENTS = null;
+function getWave2Replacements() {
+  if (!CACHED_WAVE2_REPLACEMENTS) {
+    CACHED_WAVE2_REPLACEMENTS = loadBatchFiles(WAVE2_BATCH_FILES, false);
+  }
+  return CACHED_WAVE2_REPLACEMENTS;
+}
+
 let CACHED_BATCH_REPLACEMENTS = null;
 function getBatchReplacements() {
   if (!CACHED_BATCH_REPLACEMENTS) {
-    CACHED_BATCH_REPLACEMENTS = loadAllBatchReplacements();
+    CACHED_BATCH_REPLACEMENTS = [
+      ...getWave1Replacements(),
+      ...getWave2Replacements(),
+    ];
   }
   return CACHED_BATCH_REPLACEMENTS;
 }
@@ -502,7 +535,10 @@ const RENAMED_HEADINGS_LIST = []; // { volNum, oldHeadingText, newHeadingText }
  * Aplica correções diretamente sobre rawSections e ALL_NARRATIVE_SPECS antes da montagem dos volumes.
  */
 function applyReviewFixesToRawAndSpecs(rawSections, ALL_NARRATIVE_SPECS) {
-  CACHED_BATCH_REPLACEMENTS = loadAllBatchReplacements();
+  CACHED_WAVE1_REPLACEMENTS = null;
+  CACHED_WAVE2_REPLACEMENTS = null;
+  CACHED_BATCH_REPLACEMENTS = null;
+  getBatchReplacements();
 
   // 1) Corrigir duplicata de headings H3 na FASE_0 (#39)
   if (rawSections.has('FASE_0')) {
@@ -553,8 +589,8 @@ function applyReviewFixesToRawAndSpecs(rawSections, ALL_NARRATIVE_SPECS) {
     bh.body = bh.body.replace(/— Marina, se não batermos a meta/g, '— Helena, se não batermos a meta');
   }
 
-  // 3) Aplicar substituições de arquétipos, factuais e ruído mecânico em todas as rawSections
-  const batchList = getBatchReplacements();
+  // 3) Aplicar substituições de arquétipos, factuais (Wave 1) e ruído mecânico em todas as rawSections
+  const batchList = getWave1Replacements();
   for (const [, sec] of rawSections.entries()) {
     let b = sec.body;
     b = b
@@ -562,6 +598,9 @@ function applyReviewFixesToRawAndSpecs(rawSections, ALL_NARRATIVE_SPECS) {
       .replace(/^\*\*Esta seção adiciona guidance específico para momentos pontuais\*\*\s*\n?/gm, '');
 
     for (const [from, to] of ARCHETYPE_TEXT_REPLACEMENTS) {
+      if (b.includes(from)) b = b.split(from).join(to);
+    }
+    for (const [from, to] of MECHANICAL_NOISE_REPLACEMENTS) {
       if (b.includes(from)) b = b.split(from).join(to);
     }
     for (const { from, to } of batchList) {
@@ -640,7 +679,36 @@ function applyPreIndexVolumeFixes(volNum, md) {
       }
     }
   }
-  return out;
+
+  // Também aplicar substituições de substrings dentro de headings H3..H6 (quando from não começa com #)
+  const lines = out.split('\n');
+  let inFence = false;
+  for (let i = 0; i < lines.length; i++) {
+    const ln = lines[i];
+    if (ln.trim().startsWith('```')) {
+      inFence = !inFence;
+      continue;
+    }
+    if (!inFence && /^#{3,6}\s+/.test(ln)) {
+      const oldHText = ln.replace(/^#{3,6}\s+/, '').trim();
+      let newLn = ln;
+      for (const { from, to } of batchList) {
+        if (!from.startsWith('#') && from.length >= 15 && newLn.includes(from)) {
+          newLn = newLn.split(from).join(to);
+        }
+      }
+      if (newLn !== ln) {
+        const firstNewLine = newLn.split('\n')[0].trim();
+        const newHText = firstNewLine.replace(/^#{3,6}\s+/, '').trim();
+        if (oldHText && newHText && oldHText !== newHText) {
+          RENAMED_HEADINGS_LIST.push({ volNum, oldHeadingText: oldHText, newHeadingText: newHText });
+        }
+        lines[i] = newLn;
+      }
+    }
+  }
+
+  return lines.join('\n');
 }
 
 /**
@@ -731,7 +799,9 @@ function stripEmDashesFromProseSegment(seg) {
  *  - Executa uma segunda passada dos lotes sobre o texto já ortografado/sem travessão para capturar 100% dos snippets extraídos do volume final.
  */
 function applyVolumeReviewFixes(volNum, md) {
-  const batchList = getBatchReplacements().filter((item) => !item.vol || item.vol === volNum);
+  const wave1List = getWave1Replacements().filter((item) => !item.vol || item.vol === volNum);
+  const wave2List = getWave2Replacements().filter((item) => !item.vol || item.vol === volNum);
+  const batchList = [...wave1List, ...wave2List];
 
   const preLines = md
     .replace(/^>\s*Referenciado em:\s*Fase[^\n]*\n?/gm, '')
@@ -811,8 +881,8 @@ function applyVolumeReviewFixes(volNum, md) {
       return line;
     }
 
-    // Passada 1 nos lotes (antes da ortografia/remoção de self-links, incluindo snippets com [[...]] ou ]] como #49, #300, #356)
-    for (const { from, to } of batchList) {
+    // Passada 1 nos lotes da Wave 1 (antes da ortografia/remoção de self-links, incluindo snippets com [[...]] ou ]] como #49)
+    for (const { from, to } of wave1List) {
       if (from.startsWith('#')) continue;
       if (line.includes(from)) {
         if (from.includes('[[') || from.includes(']]')) {
@@ -874,7 +944,7 @@ function applyVolumeReviewFixes(volNum, md) {
     for (const { from, to } of batchList) {
       if (from.startsWith('#')) continue;
       if (finalLine.includes(from)) {
-        if (from.includes('[[') || from.includes(']]')) {
+        if (from.includes('[[') || from.includes(']]') || to.includes('[[')) {
           finalLine = finalLine.split(from).join(to);
         } else {
           const segs = finalLine.split(/(\[\[[^\]]+\]\])/g);
@@ -894,7 +964,7 @@ function applyVolumeReviewFixes(volNum, md) {
 
   let joinedOut = outLines.join('\n');
   for (const { from, to } of batchList) {
-    if (!from.startsWith('#') && from.includes('\n') && joinedOut.includes(from)) {
+    if (!/^#{1,2}\s/.test(from) && from.includes('\n') && joinedOut.includes(from)) {
       joinedOut = joinedOut.split(from).join(to);
     }
   }
