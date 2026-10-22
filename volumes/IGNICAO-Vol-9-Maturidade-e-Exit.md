@@ -4040,9 +4040,7 @@ Você precisa conhecer **A Assimetria do Search Fund (ETA)** — tanto como empr
 
 **Retornos aos investidores.** Benchmarks internacionais. ETA médio gera IRR de vinte a trinta por cento para investidores. Distribuição bimodal. Alguns deals explodem (cinco a dez vezes capital). Outros ficam abaixo do esperado.
 
-### A Adaptação Brasileira: Juros Reais Altos, Seller Financing (Parcelamento com o Dono) e Diligência Fiscal/Trabalhista
-
-### O Ecossistema Brasileiro de Search Funds: Casos Reais, Retornos e Lições de Trincheira
+### A Adaptação Brasileira e o Ecossistema de Search Funds: Juros Reais Altos, Seller Financing, Casos Reais e Diligência
 
 Embora ETA seja conceito ainda em formacao no Brasil, alguns casos sao referencia. **Buser** (mobilidade urbana) foi adquirida via estrutura proxima a ETA por searcher experiente em 2022. **Bumeran** Brasil teve aquisicao por searcher self-funded em 2023. **Search Fund Brasil** (SFB) e plataforma que profissionaliza o modelo Stanford no contexto BR, com tres operacoes fechadas entre 2022 e 2024. Outras estruturas em curso, **Patria Search Fund** com foco mid-market e **CIBE Capital** com foco em educacao basica.
 
@@ -5193,13 +5191,21 @@ Estudar estes post-mortems brasileiros em profundidade não é voyeurismo corpor
 > [!note] Nota de integridade
 > Este capítulo complementa o [[IGNICAO-Vol-2-Descoberta-e-Mercado#CAPÍTULO 3 — CASOS DE FRACASSO BRASILEIROS E LIÇÕES|Capítulo 3 (Casos de Fracasso Brasileiros e Lições) (Vol. 2)]], que é temático e extrai padrões. Aqui, tratamos casos brasileiros específicos em profundidade individual, com nome da empresa, trajetória e análise honesta. Base, material público exclusivo, reportagens, entrevistas de fundadores, relatórios financeiros de empresas listadas, livros e podcasts. Nenhuma especulação sobre motivações pessoais. Quando o contexto completo é desconhecido, declaramos. O propósito é aprender padrões com humildade analítica e não julgar pessoas.
 
-### Por Que Aprender Com o Sangue de Quem Quebrou no Brasil Custa Zero e Economiza Dez Anos da Sua Vida
+#### O que este capítulo cobre
+
+Catálogo de doze casos brasileiros, colapsos, dificuldades estruturais, vitórias com lições e casos em progresso com sinais ambíguos. Cada caso está estruturado em cinco seções. Contexto, quando, quem, mercado, tese original. Trajetória, marcos, números, eventos-chave. Diagnóstico, o que deu ou está dando errado. Contrafactuais, o que poderia ter mudado o curso, com humildade. Lições transferíveis, o que o fundador hoje extrai.
+
+#### Por que importa
 
 Casos em profundidade complementam padrões. O [[IGNICAO-Vol-2-Descoberta-e-Mercado#CAPÍTULO 3 — CASOS DE FRACASSO BRASILEIROS E LIÇÕES|Capítulo 3 (Casos de Fracasso Brasileiros e Lições) (Vol. 2)]] traz sete padrões, abstratos por necessidade. Este capítulo traz o tecido concreto, como o padrão se manifesta numa empresa real, quais foram os sinais e qual foi a velocidade de degradação.
 
 Empresas brasileiras têm contexto único, macro, regulação, capital, cultura. Casos americanos ensinam estratégia. Casos brasileiros ensinam adaptação local. O fundador aprende mais com fracasso detalhado do que com sucesso detalhado. Sucesso é multicausal e difícil de replicar. Fracasso é diagnóstico com padrões emergentes. E a honestidade analítica sobre o ecossistema brasileiro importa, porque celebrar só sucessos cria mitologia que prejudica empreendedores iniciantes.
 
-### A Anatomia dos Padrões de Morte: Unit Economics Quebrados, Guerra de Capital, Pirâmide Operacional, Governança e Plataforma
+#### Quando usar
+
+Antes da [[IGNICAO-Vol-1-Ideacao#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0 (Vol. 1)]], para calibrar expectativa. Antes de decisão estratégica grande, lendo caso análogo ao que você considera. Em momento de tração forte, lendo casos de empresas que também voavam antes de cair, humildade analítica. Em decisão de captação ou exit, saída via venda ou IPO, porque os casos ensinam dinâmicas do mercado de capital brasileiro.
+
+#### Organização dos casos
 
 Os doze casos estão agrupados por natureza. Cada caso pode ser lido individualmente, a ordem não é estrita.
 
@@ -5207,7 +5213,7 @@ Os doze casos estão agrupados por natureza. Cada caso pode ser lido individualm
 
 ### Grupo 1 — Colapsos Estruturais: Quando a Matemática da Unidade e a Governança Cobram a Conta
 
-### Autópsia 1 — Peixe Urbano: A Miragem do Faturamento Explosivo Com Retenção Zero de Clientes e Lojistas
+#### Caso 1 — Peixe Urbano e o colapso do modelo daily deals
 
 **Contexto:**
 Peixe Urbano foi fundada em 2010 por Emerson Andrade, Alex Tabor e Julio Vasconcellos, inspirada no sucesso americano do Groupon. Modelo: email diário ofertando descontos agressivos (30-80%) em restaurantes, beleza, entretenimento, viagens. Cresceu explosivamente no primeiro ano, atingindo milhões de usuários em meses.
@@ -5240,7 +5246,7 @@ Mercado daily deals tinha características de bolha: crescimento rápido de ambo
 
 ---
 
-### Autópsia 2 — Easy Taxi: Como a Pioneira Global Perdeu a Guerra de Produto, Regulação e Capital Para a Uber
+#### Caso 2 — Easy Taxi: pioneira que perdeu a liderança
 
 **Contexto:**
 Easy Taxi foi fundada em 2011 no Rio de Janeiro por Tallis Gomes e Daniel Cohen, com Vinicius Gracia e Bernardo Bicalho integrando o time fundador nas primeiras semanas. Primeira a agregar táxis em app no Brasil, anteriormente à entrada de Uber. Rapidamente expandiu para mais de 30 países pelo mundo. Rocket Internet entrou como investidor a partir de 2012 e se tornou parceira-chave da expansão internacional.
@@ -5274,7 +5280,7 @@ Modelo de agregação sem lock-in real: Easy Taxi conectava táxis existentes a 
 
 ---
 
-### Autópsia 3 — 123 Milhas: O Suicídio de Financiar Entregas Presentes Com Vendas Futuras Sem Hedge (Esquema Ponzi Operacional)
+#### Caso 3 — 123 Milhas: colapso de modelo que dependia de crescimento perpétuo
 
 **Contexto:**
 123 Milhas foi fundada em 2013 por Ramiro Madeira em Belo Horizonte. Modelo inicial: venda de passagens aéreas com desconto, financiadas por antecipações e contratos com adiantamento dos clientes. Cresceu para virar uma das maiores agências de viagens online do Brasil.
@@ -5307,7 +5313,7 @@ Modelo dependia de fluxo de caixa antecipado crescente: clientes pagavam antecip
 
 ---
 
-### Autópsia 4 — Hi Technologies (Hilab): O Risco de Prometer ao Mercado uma Tecnologia Que Ainda Não Escala na Ponta
+#### Caso 4 — Hi Technologies: IPO desastroso e lições de governança
 
 **Contexto:**
 Hi Technologies (Laboratório Hi Tech) tem origem em 1985 como Laboratório Hitech (Vagner Nardi). A holding atual Hi Technologies foi reorganizada para o IPO de 2020. Focada em diagnóstico médico. Em 2020, na onda de IPOs de empresas ligadas à pandemia, realizou IPO na B3.
@@ -5340,7 +5346,7 @@ Timing de IPO em janela favorável demais: pandemia criou apetite por qualquer e
 
 ---
 
-### Autópsia 5 — Americanas: R$ 25 Bilhões de Risco Sacado Oculto e Como a Pressão por Resultados Fabrica Fraude Contábil
+#### Caso 5 — Americanas: fraude contábil e fim de era
 
 **Contexto:**
 Americanas S.A. é uma das mais antigas empresas brasileiras (fundada em 1929). Varejista histórica, com operações físicas e digitais, parte do controle do trio 3G Capital (Lemann, Telles, Sicupira) desde 1982. Em janeiro de 2023, empresa divulgou descoberta de "inconsistências contábeis" de ~R$ 20 bilhões, depois revisadas para R$ 40+ bilhões.
@@ -5373,7 +5379,7 @@ Fraude contábil estruturada por anos: não foi erro, foi prática deliberada de
 
 ### Grupo 2 — Risco de Plataforma, Featurização e Mudança de Ciclo Macroeconômico
 
-### Autópsia 6 — Kekanto: O Perigo Mortal de Construir um Negócio Que Vira uma Funcionalidade Gratuita do Google
+#### Caso 6 — Kekanto e a featurização por plataformas globais
 
 **Contexto:**
 Kekanto foi fundada em 2008 por Eduardo Henrique. Plataforma brasileira de reviews de restaurantes, comércio local, serviços. Modelo semelhante a Yelp e TripAdvisor. Atingiu ~5 milhões de usuários em seu pico.
@@ -5405,7 +5411,7 @@ Featurização clássica: categoria "reviews de lugares" virou feature de plataf
 
 ---
 
-### Caso 7 — Brainn: bootstrap até aquisição
+#### Caso 7 — Brainn: bootstrap até aquisição
 
 **Contexto:**
 Brainn.co foi fundada em 2013 por Andre Castellar e outros, como consultoria digital boutique em Curitiba. Bootstrapped (sem captação de venture capital). Construiu reputação em desenvolvimento de software de qualidade, especialmente em setores regulados (saúde, financeiro).
@@ -5440,7 +5446,7 @@ Brainn.co foi fundada em 2013 por Andre Castellar e outros, como consultoria dig
 
 ---
 
-### Caso 8 — Enjoei: IPO, correção e aprendizado de escala
+#### Caso 8 — Enjoei: IPO, correção e aprendizado de escala
 
 **Contexto:**
 Enjoei foi fundada em 2009 por Tiê Tavares e Ana Luiza McLaren. Marketplace de moda usada com estética curada. Começou como blog, virou plataforma. Posicionamento de "consumo consciente" antes de ser tendência mainstream.
@@ -5473,7 +5479,7 @@ Expansão agressiva pós-IPO: com capital de R$ 1,1 bilhão, empresa investiu pe
 
 ---
 
-### Caso 9 — Loggi: hypergrowth e calibração pós-ajuste
+#### Caso 9 — Loggi: hypergrowth e calibração pós-ajuste
 
 **Contexto:**
 Loggi foi fundada em 2013 por Fabien Mendez. Serviço de delivery/last-mile, começando com motoboys em São Paulo e expandindo para mercado de encomendas e-commerce. Atingiu status de unicórnio em 2019.
@@ -5543,7 +5549,7 @@ quadrantChart
 | 6. Sobreextensão geográfica precoce | Rappi, múltiplos LatAm | [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16 (Vol. 6)]] |
 | 7. Perda de momentum de produto | Casos variados em escala | [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16 (Vol. 6)]]-15 |
 
-### Caso 10 — iFood: vitória brutal contra Rappi e lições de execução
+#### Caso 10 — iFood: vitória brutal contra Rappi e lições de execução
 
 **Contexto:**
 iFood foi fundada em 2011 por Patrick Sigrist, Felipe Fioravante, Eduardo Baer, Guilherme Bonifácio e Daniel Oliveira. Modelo inicial: agregador de restaurantes para pedidos. Adquirida por Movile (subsidiária da Naspers/Prosus) em 2013. Competiu com múltiplos players, vitória decisiva contra Rappi em 2018-2022 consolidou liderança.
@@ -5579,7 +5585,7 @@ iFood foi fundada em 2011 por Patrick Sigrist, Felipe Fioravante, Eduardo Baer, 
 
 ---
 
-### Caso 11 — Nubank: sucesso, mas com lições de trajetória longa
+#### Caso 11 — Nubank: sucesso, mas com lições de trajetória longa
 
 **Contexto:**
 Nubank foi fundada em 2013 por David Vélez (colombiano), Cristina Junqueira (brasileira) e Edward Wible (americano). Tese: construir banco digital no Brasil desafiando oligopólio bancário (Itaú, Bradesco, Santander, BB, Caixa). Começou com cartão de crédito sem anuidade.
@@ -5611,7 +5617,7 @@ Nubank foi fundada em 2013 por David Vélez (colombiano), Cristina Junqueira (br
 
 ---
 
-### Caso 12 — Ebanx: de bootstrapped em Curitiba a IPO adiado
+#### Caso 12 — Ebanx: de bootstrapped em Curitiba a IPO adiado
 
 > [!note] Sobre a classificacao de Ebanx
 > Ebanx esta neste grupo por trajetoria de crescimento e exit potencial, mas o proprio texto descreve IPO adiado, demissoes e processos de exit em avaliacao. E caso hibrido, parte vitoria de longo prazo (relevancia, cobertura), parte dificuldade estrutural (timing publico). Mantido aqui pelo aprendizado em mercados emergentes mais que por status binario.
@@ -5696,13 +5702,24 @@ Use os 12 casos como lente para sua empresa:
 | Nubank | Minha thesis sobrevive 8+ anos? | Alongar horizonte |
 | Ebanx | Bootstrap pré-capital traz vantagem? | Considerar |
 
-### Achar Que "Conosco É Diferente" Enquanto Vende R$ 1,00 por R$ 0,80 Esperando Ganhar na Escala
+#### Definição de sucesso
+
+Você aplicou este capítulo bem quando identificou três a cinco casos análogos ao seu contexto, extraiu de cada caso relevante uma lição específica transferível, usou padrões transversais para autoavaliação trimestral e compartilhou casos relevantes com time executivo e board.
+
+#### Armadilhas
 
 > [!warning] Armadilhas ao estudar post-mortems
 > "Não é meu caso" é padrão comum antes do colapso. Cada um desses fundadores provavelmente disse o mesmo em algum momento. Julgar em retrospecto distorce: decisões que parecem óbvias hoje eram ambíguas no momento. Copiar vencedores sem contexto é erro simétrico: Nubank é irrepetível, lições gerais sim, receita específica não. Ignorar casos porque são "grandes demais" é desperdício, porque padrões se manifestam em qualquer tamanho. Leitura de uma só vez é insuficiente: revisitar periodicamente conforme empresa evolui.
 
 > [!tip] Checklist
 > Li os doze casos ao menos uma vez? Identifiquei três a cinco mais análogos à minha situação? Extraí lição específica de cada análogo? Revisitei quando empresa atinge milestone importante (primeira captação, cinquenta funcionários, internacionalização, IPO)? Compartilho lições com cofundadores e board? Consigo dizer "o que não faria" tão claramente quanto "o que farei"?
+
+#### Ver também
+
+[[IGNICAO-Vol-2-Descoberta-e-Mercado#CAPÍTULO 3 — CASOS DE FRACASSO BRASILEIROS E LIÇÕES|Capítulo 3 (Casos de Fracasso Brasileiros e Lições) (Vol. 2)]] cobre casos de fracasso brasileiros (temático). [[#CAPÍTULO 9 — GESTÃO DE CRISE, CONTINUIDADE OPERACIONAL E COMUNICAÇÃO CRÍTICA|Capítulo 9 (Gestão de Crise, Continuidade Operacional e Comunicação Crítica)]] cobre crise e recuperação. [[#CAPÍTULO 10 — LAYOFFS E DOWNSIZING: COMO DEMITIR EM ESCALA SEM DESTRUIR A EMPRESA|Capítulo 10 (Layoffs e Downsizing: Como Demitir em Escala sem Destruir a Empresa)]] cobre layoffs.
+
+> [!info] Fases relacionadas
+> Referenciado em: Fase 3, Fase 15.
 
 ---
 

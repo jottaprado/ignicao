@@ -1042,7 +1042,6 @@ Aval/fiança pessoal              Direito cambiário     O próprio avalista/
 do sócio                                              fiador
 ```
 
----
 
 ---
 

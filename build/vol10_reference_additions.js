@@ -145,7 +145,7 @@ const EXTRA_ABBREVS = [
 ];
 
 const EXTRA_INDEX_REMISSIVO_SECTION = `
-### Índice de Ecossistemas, Ciclo de Vida e das 42 Verticais Setoriais (v4.0)
+### Índice de Ecossistemas, Ciclo de Vida e das 42 Verticais Setoriais (v5.1)
 
 - **Aeroespacial, Spacetech, Drones e Defesa (Dual-Use)**: [[#CAPÍTULO 28 — AEROSPACE, SPACETECH, DRONES, SATÉLITES E TECNOLOGIA DE DEFESA (DUAL-USE)|Capítulo 28 (Vol. 10)]]
 - **Aftermarket Automotivo, Autopeças, Seminovos e Leilões**: [[#CAPÍTULO 24 — CONSÓRCIOS ADMINISTRADOS (BACEN), RENTAL DE MÁQUINAS/FROTAS PESADAS E AFTERMARKET AUTOMOTIVO (AUTOPEÇAS, SEMINOVOS E LEILÕES)|Capítulo 24 (Vol. 10)]]

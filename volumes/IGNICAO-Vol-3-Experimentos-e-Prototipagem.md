@@ -2712,7 +2712,7 @@ Com quinze a vinte respostas, plote as quatro curvas. A intersecção entre "car
 > Van Westendorp revela a faixa psicológica aceitável, mas não informa o modelo de precificação (assinatura, cobrança por uso, por licença, freemium) nem a estratégia de âncora. O [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 6 — PRICING STRATEGY E ECONOMIA DA RECORRÊNCIA (SUBSCRIPTION ECONOMY)|Capítulo 6 — Pricing Strategy (Vol. 4)]] complementa este passo com os modelos de precificação aplicáveis ao estágio de MVP, a lógica de teste Gabor-Granger para granularidade maior, e os erros mais comuns de precificação em lançamento — incluindo o de começar com preço que não é possível aumentar depois.
 
 > [!tip] Product discovery moderno é insumo recomendado para times com PM/designer/eng
-> Para times com PM, designer e engenharia separados, quatro práticas contemporâneas de product discovery (Cagan, Torres) merecem incorporação na rotina desta fase: **Continuous discovery** (entrevistas semanais com clientes em paralelo com desenvolvimento, não fases separadas), **Opportunity Solution Tree** (conectar outcome, oportunidades, soluções, experimentos em árvore antes de priorizar features), **Dual-track agile** (Discovery e Delivery rodando em paralelo, não em sprints alternados), e **User stories INVEST** (Independent, Negotiable, Valuable, Estimable, Small, Testable, com acceptance criteria explícito que torna "pronto" auditável). Para fundadores solo ou pre-seed, são opcionais — ganham relevância quando o time passa de cinco a sete pessoas. Detalhamento e quando aplicar cada prática nos Apêndices BC (Technical Debt — implicações de dívida das decisões de MoSCoW) e Frameworks da Fase 17 (Discovery & Product, com tratamento operacional dos quatro frameworks).
+> Para times com PM, designer e engenharia separados, quatro práticas contemporâneas de product discovery (Cagan, Torres) merecem incorporação na rotina desta fase: **Continuous discovery** (entrevistas semanais com clientes em paralelo com desenvolvimento, não fases separadas), **Opportunity Solution Tree** (conectar outcome, oportunidades, soluções, experimentos em árvore antes de priorizar features), **Dual-track agile** (Discovery e Delivery rodando em paralelo, não em sprints alternados), e **User stories INVEST** (Independent, Negotiable, Valuable, Estimable, Small, Testable, com acceptance criteria explícito que torna "pronto" auditável). Para fundadores solo ou pre-seed, são opcionais — ganham relevância quando o time passa de cinco a sete pessoas. Detalhamento e quando aplicar cada prática nos Capítulo 4 (Vol. 7) (Engineering Management, Developer Experience e Gestão de Dívida Técnica) (Technical Debt — implicações de dívida das decisões de MoSCoW) e Frameworks da Fase 17 (Discovery & Product, com tratamento operacional dos quatro frameworks).
 
 #### Passo 5, mapeie requisitos por ordem de prioridade (MoSCoW)
 
@@ -4084,7 +4084,7 @@ O framework Antler é especialmente útil, quando o empreendedor reconhece um ou
 
 ---
 
-### O Espelho do Capítulo 5: Seu Produto Entra Como um Cavalo de Troia ou Como um Elefante Branco?
+### O Espelho do Capítulo 3: Seu Produto Entra Como um Cavalo de Troia ou Como um Elefante Branco?
 
 **O Espelho (Responda sem anestesia):**
 1. Para o cliente começar a usar o seu produto hoje, ele precisa jogar fora o sistema atual dele e treinar cinquenta pessoas, ou ele consegue ligar a sua cunha em paralelo em uma tarde?
@@ -4296,7 +4296,7 @@ Compliance específico pode ser custo estrutural, que define viabilidade.
 
 ---
 
-### O Espelho do Capítulo 6: Você Criou um Marketplace com Liquidez ou um Deserto de Cadastros?
+### O Espelho do Capítulo 4: Você Criou um Marketplace com Liquidez ou um Deserto de Cadastros?
 
 **O Espelho (Responda sem anestesia):**
 1. Qual é a porcentagem real dos seus fornecedores cadastrados que realizaram pelo menos uma venda paga dentro da plataforma nos últimos trinta dias?
@@ -4501,7 +4501,7 @@ B2B2C saudável tem diversidade de Bs (nenhum acima de quinze a vinte por cento 
 
 ---
 
-### O Espelho do Capítulo 8: Você Está Ativando os Usuários na Ponta ou Vendendo "Vidas Fantasmas"?
+### O Espelho do Capítulo 5: Você Está Ativando os Usuários na Ponta ou Vendendo "Vidas Fantasmas"?
 
 **O Espelho (Responda sem anestesia):**
 1. Se você vende hoje no B2C com CAC sufocante, qual empresa (empregador, banco, seguradora, sindicato, condomínio ou escola) já possui a carteira de milhares dos seus clientes ideais e ganha dinheiro se a dor deles for resolvida?
@@ -4615,7 +4615,7 @@ Escolha importa: MIT max adoção, pouco controle. AGPL/BSL mais controle, menos
 
 ---
 
-### O Espelho do Capítulo 9: Você Criou uma Máquina Comercial Open Core ou uma ONG de Código?
+### O Espelho do Capítulo 6: Você Criou uma Máquina Comercial Open Core ou uma ONG de Código?
 
 **O Espelho (Responda sem anestesia):**
 1. Está cristalino na sua arquitetura o que pertence ao usuário individual (Core Aberto) e o que pertence ao comprador corporativo — como SSO, controle de acesso RBAC, logs de auditoria, alta disponibilidade e nuvem gerenciada (Pago)?
@@ -4809,7 +4809,7 @@ Não tenha vergonha da Etapa 3. Em mercados brasileiros complexos (contabilidade
 
 ---
 
-### O Espelho do Capítulo 10: Você Está Construindo uma Máquina ou Vendendo Suas Horas em Roda de Hamster?
+### O Espelho do Capítulo 7: Você Está Construindo uma Máquina ou Vendendo Suas Horas em Roda de Hamster?
 
 **O Espelho (Responda sem anestesia):**
 1. Se você presta serviços hoje, você aceita qualquer projeto personalizado que o cliente pede, ou vende um pacote de escopo 100% fechado para um único perfil de cliente e uma única dor?

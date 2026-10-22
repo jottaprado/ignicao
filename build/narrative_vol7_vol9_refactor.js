@@ -1962,7 +1962,7 @@ Você precisa conhecer **A Assimetria do Search Fund (ETA)** — tanto como empr
       'COMO': 'As 4 Etapas do Ciclo: Captação do Search Capital, Busca e Aquisição (18-24m), Operação como CEO (4-7a) e Liquidez',
       'Como': 'As 4 Etapas do Ciclo: Captação do Search Capital, Busca e Aquisição (18-24m), Operação como CEO (4-7a) e Liquidez',
       'CONSIDERAÇÕES ESPECÍFICAS PARA BRASIL': 'A Adaptação Brasileira: Juros Reais Altos, Seller Financing (Parcelamento com o Dono) e Diligência Fiscal/Trabalhista',
-      'Casos brasileiros de ETA': 'O Ecossistema Brasileiro de Search Funds: Casos Reais, Retornos e Lições de Trincheira',
+      'Casos brasileiros de ETA': 'A Adaptação Brasileira e o Ecossistema de Search Funds: Juros Reais Altos, Seller Financing, Casos Reais e Diligência',
       'Métricas': 'Critérios do Alvo Ideal: EBITDA de R$ 8M a R$ 30M, Margem > 20%, Receita Recorrente e Baixa Concentração de Clientes',
       'Armadilhas': 'Mudar Tudo nos Primeiros 90 Dias Antes de Conquistar a Confiança da Equipe Antiga ou Alavancar Demais com CDI Alto',
       'ARMADILHAS': 'Mudar Tudo nos Primeiros 90 Dias Antes de Conquistar a Confiança da Equipe Antiga ou Alavancar Demais com CDI Alto',

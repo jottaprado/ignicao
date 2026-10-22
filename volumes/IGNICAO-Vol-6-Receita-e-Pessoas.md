@@ -991,26 +991,20 @@ Chamamos esse colapso de **A Falência do Comando Radial**: a tentativa de gover
 
 ---
 
-> [!abstract] Mapa interno da Fase 14
-> Esta fase tem quatro frentes interdependentes. Use o mapa para navegar.
+> [!abstract] As quatro frentes paralelas da Escala (Fases 14 a 17)
+> A etapa de escala opera em quatro frentes interdependentes distribuídas nos Volumes 5 a 7:
+> - **[[IGNICAO-Vol-5-Financas-e-Captacao#FASE 14 — CAPITAL PARA ESCALA, RODADAS E EFICIÊNCIA FINANCEIRA|Fase 14 — Capital para Escala (Vol. 5)]]**: eficiência financeira, *unit economics* em escala e rodadas Série A em diante.
+> - **[[#FASE 15 — MÁQUINA DE CRESCIMENTO E EXPANSÃO EM ESCALA|Fase 15 — Máquina de Crescimento]]**: transformar a tração pós-PMF em aquisição, retenção e expansão previsíveis e compostas.
+> - **[[#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16 — Time e Liderança Executiva]]**: transição do primeiro funcionário à primeira camada de gestão, C-level, avaliação de performance e cultura.
+> - **[[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#FASE 17 — OPERAÇÕES, PROCESSOS E GESTÃO EM ESCALA|Fase 17 — Operações e Processos (Vol. 7)]]**: passar de uma empresa que depende do fundador no dia a dia para um sistema operacional autônomo.
 >
-> **14A, Time e Lideranca em Escala** — primeiro management, C-level, OKRs, cadencia, performance reviews. Em geral, dois a cinco anos de trabalho continuo.
->
-> **14B, Operacoes em Escala** — passar de empresa-funcionando-com-fundador para empresa-funcionando-sem-fundador-no-dia. Processos, ferramentas, governanca operacional.
->
-> **14C, Maquina de Crescimento** — transformar tracao pos-PMF em crescimento previsivel e composto. Funil saudavel, retencao alavancada, escala de aquisicao.
->
-> **14D, Capital para Escala** — Series A em diante. Diferente de captacao seed/PMF, esta tem expectativas de crescimento e governance maiores.
->
-> As frentes nao sao sequenciais. Sao paralelas. Em geral, fundadores fortes em uma das quatro precisam buscar ajuda nas outras tres.
+> As frentes não são sequenciais — são paralelas. Em geral, fundadores fortes em uma das quatro precisam buscar liderança complementar nas outras três.
 
 ### A matemática combinatória da comunicação: por que a gestão informal colapsa inevitavelmente entre 25 e 50 pessoas
 
 Sem escala, o PMF vira curiosidade histórica. Empresa que atinge PMF mas não escala é empresa que fica pequena para sempre. Possivelmente lucrativa. Possivelmente satisfatória para o fundador. Mas não é o que o ecossistema de venture capital busca financiar. Se o seu caminho é construir uma empresa de software de bilhões, a [[#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16]] é onde se prova, ou não se prova.
 
 A escala também muda quem você é como líder. Na [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 13 — PRODUCT-MARKET FIT|Fase 13 (Vol. 4)]] você é artesão. Na [[#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16]] você é industrial. O conjunto de habilidades é diferente. Às vezes oposto. Muitos fundadores tropeçam aqui. Não por falta de mérito. Mas porque insistem em operar como artesão quando a empresa precisa de industrial. Trocar de modo é parte da [[#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16]].
-
-### Construindo a espinha dorsal de gestão: do primeiro funcionário ao time executivo autônomo
 
 ### O primeiro funcionário, a transição de fundador solo para mais um
 

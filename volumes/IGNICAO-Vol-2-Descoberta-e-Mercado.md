@@ -6064,7 +6064,7 @@ Os sete padrões originais (escalar antes do PMF, queimar caixa em aquisição s
 
 ---
 
-### O Espelho do Capítulo 4: Qual Erro Clássico Já Está Infiltrado na Sua Operação Hoje?
+### O Espelho do Capítulo 3: Qual Erro Clássico Já Está Infiltrado na Sua Operação Hoje?
 
 **O Espelho (Responda sem anestesia):**
 1. Se o mercado de investimentos fechasse completamente pelos próximos 24 meses e nenhum centavo externo entrasse, sua empresa sobreviveria com a margem dos próprios clientes?

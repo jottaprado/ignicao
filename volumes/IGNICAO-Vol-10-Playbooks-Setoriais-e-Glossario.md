@@ -1801,7 +1801,7 @@ Este capítulo trata de política pública (public policy, conjunto de normas, p
 
 O Estado brasileiro opera em quatro papéis simultâneos no ecossistema de startups: regulador, comprador, financiador e competidor. Cada papel cria oportunidades e ameaças distintas.
 
-### O Estado como Regulador
+#### O Estado como Regulador
 
 A economia brasileira é uma das mais reguladas do mundo. Qualquer startup que atue em setores de infraestrutura, saúde, financeiro, telecomunicações, transporte ou dados pessoais responde a pelo menos uma agência reguladora federal.
 
@@ -1821,7 +1821,7 @@ ANEEL          Energia elétrica              Cleantech, energia distribuída
 
 A regulação não é um obstáculo uniforme. Para setores regulados, ela é o campo de jogo. Quem entende as regras joga melhor. Quem ajuda a escrever as regras ganha antes do apito.
 
-### O Estado como Comprador
+#### O Estado como Comprador
 
 O governo federal, estados e municípios somam mais de R$ 800 bilhões em compras públicas por ano. Uma fração minúscula desse volume direcionada a startups representaria mercado suficiente para dezenas de empresas atingirem R$ 10 milhões de ARR (annual recurring revenue — receita recorrente anual) sem um único cliente privado.
 
@@ -1833,7 +1833,7 @@ Além das compras diretas, há canais indiretos relevantes:
 - **BNDES:** além de financiador, é comprador de tecnologia para seus próprios sistemas e para projetos que apoia
 - **Banco Mundial:** projetos no Brasil frequentemente exigem componentes de inovação que governos subnacionais terceirizam
 
-### O Estado como Financiador
+#### O Estado como Financiador
 
 O Brasil tem um dos sistemas de financiamento público à inovação mais robustos da América Latina, amplamente subutilizado por startups que não conhecem os instrumentos ou subestimam o custo real de acesso.
 
@@ -1848,7 +1848,7 @@ PAPPE Subvenção     FINEP/FAP  Não-reembolsável        R$ 100k–R$ 500k
 Crédito FINEP       FINEP      Reembolsável c/ juros   R$ 1M–R$ 50M
 ```
 
-### O Estado como Competidor
+#### O Estado como Competidor
 
 Este é o papel menos discutido e o mais perigoso. O Estado compete diretamente com startups em vários mercados:
 
@@ -1867,7 +1867,7 @@ Este é o papel menos discutido e o mais perigoso. O Estado compete diretamente 
 
 A narrativa popular sobre regulação no Brasil é de obstáculo burocrático. A narrativa estratégica, que poucos founders articulam abertamente, é diferente: regulação bem navegada é vantagem competitiva sustentável.
 
-### A Primeira Onda das Fintechs
+#### A Primeira Onda das Fintechs
 
 Quando Nubank e PicPay nasceram, o sistema financeiro brasileiro era oligopolizado por cinco grandes bancos. A regulação do BACEN era densa, os requisitos de capital eram elevados e o processo de obtenção de licença era opaco.
 
@@ -1898,7 +1898,7 @@ LINHA DO TEMPO REGULATÓRIO — FINTECHS BR
              fintech precisou construir sozinha
 ```
 
-### Regulação como Barreira para Novos Entrantes
+#### Regulação como Barreira para Novos Entrantes
 
 O mecanismo mais poderoso — e menos discutido — é o inverso: empresas que ajudaram a construir o arcabouço regulatório de um setor frequentemente constroem barreiras que dificultam a entrada de concorrentes posteriores.
 
@@ -1911,7 +1911,7 @@ Isso não é necessariamente corrupto ou ilegal. É o resultado natural de quem 
 > [!important]
 > A janela para influenciar normas regulatórias é estreita e específica: durante consultas públicas, audiências públicas e grupos de trabalho do regulador. Depois que a norma é publicada, a influência passa a custar muito mais — em tempo de adaptação, em capital político e às vezes em litígio.
 
-### Como Identificar se Regulação é seu Moat ou seu Risco
+#### Como Identificar se Regulação é seu Moat ou seu Risco
 
 Faça duas perguntas:
 
@@ -1926,7 +1926,7 @@ Se endurecer te beneficia e relaxar te ameaça, você tem moat regulatório. Se 
 
 Founders brasileiros raramente se veem como atores políticos. Esse é um erro estratégico. Empresas americanas como Uber, Airbnb e Google tinham times de política pública antes de ter times de vendas em alguns mercados. No Brasil, a tradição é reclamar da regulação, não participá-la.
 
-### Associações Setoriais como Veículo
+#### Associações Setoriais como Veículo
 
 As associações setoriais são o canal mais acessível para startups que não têm escala para manter um time de relações institucionais próprio.
 
@@ -1953,7 +1953,7 @@ A participação em associações não é filantropia. Você recebe:
 > [!tip]
 > Antes de pagar mensalidade de associação, pergunte: essa associação já foi citada em votos do regulador relevante para meu setor? Ela enviou contribuições às últimas três consultas públicas abertas? Se a resposta for não, o dinheiro pode ser melhor investido.
 
-### Audiências Públicas
+#### Audiências Públicas
 
 Todo regulador federal é obrigado por lei a abrir consultas e audiências públicas antes de publicar normas relevantes. Esse é o mecanismo formal de participação.
 
@@ -1966,7 +1966,7 @@ Como estruturar uma contribuição:
 - Proponha texto alternativo específico, não apenas crítica
 - Inclua exemplos de como outros países regularam o mesmo ponto
 
-### Sandbox Regulatório
+#### Sandbox Regulatório
 
 O sandbox regulatório é o mecanismo mais importante criado na última década para startups que inovam em setores regulados. Em vez de esperar anos por uma licença ou operar na ilegalidade, a startup testa seu modelo sob supervisão do regulador, com regras especialmente flexibilizadas para o período de teste.
 
@@ -1976,7 +1976,7 @@ O BACEN foi pioneiro no Brasil com o **Lab BACEN** (criado em 2019). SUSEP e ANA
 
 ### 4. Sandbox Regulatório em Detalhes
 
-### O Sandbox do BACEN — Lab BACEN
+#### O Sandbox do BACEN — Lab BACEN
 
 O Sandbox Regulatório do Banco Central (Resolução BCB 35/2020, depois substituída pela Resolução 4.959/2021) permite que instituições autorizadas ou em processo de autorização testem modelos de negócio inovadores por período determinado, com dispensa ou adaptação de requisitos regulatórios normalmente exigidos.
 
@@ -2018,11 +2018,11 @@ As primeiras rodadas do Sandbox BACEN (2021-2022) admitiram empresas em categori
 > [!note]
 > Ser admitido no Sandbox não garante que você será autorizado ao final. Mas garante dois a três anos de operação legal em uma zona normalmente proibida, com canal direto ao regulador. Para muitas startups, esse tempo é suficiente para validar o modelo e captar as rodadas que tornam a operação plena viável.
 
-### Sandbox SUSEP
+#### Sandbox SUSEP
 
 A Superintendência de Seguros Privados criou seu sandbox para insurtechs (Resolução SUSEP 381/2020). Permite testar produtos de seguro com coberturas, vigências ou precificações fora dos modelos aprovados. Especialmente relevante para microseguros, seguros paramétricos e modelos de seguro embutido (embedded insurance).
 
-### Sandbox ANATEL
+#### Sandbox ANATEL
 
 A Agência Nacional de Telecomunicações abriu mecanismo para projetos de IoT, conectividade em frequências experimentais e novos modelos de MVNO (operadoras virtuais). Menos estruturado que o BACEN, mas relevante para hardwarestartups e conectividade industrial.
 
@@ -2030,7 +2030,7 @@ A Agência Nacional de Telecomunicações abriu mecanismo para projetos de IoT, 
 
 ### 5. Contratação Pública como Canal de Receita
 
-### O Marco Legal das Startups
+#### O Marco Legal das Startups
 
 A Lei Complementar 182/2021, conhecida como Marco Legal das Startups, criou dois mecanismos cruciais para startups venderem ao governo:
 
@@ -2069,14 +2069,14 @@ Para Dispensa de Licitação:
   └── Prazo de contratação: semanas, não meses
 ```
 
-### O que é o MROSC
+#### O que é o MROSC
 
 O Marco Regulatório das Organizações da Sociedade Civil (Lei 13.019/2014) é frequentemente confundido com o Marco Legal das Startups, mas é diferente. O MROSC regula parcerias entre governo e OSCs (ONGs, associações). Startups constituídas como sociedade anônima ou LTDA não se enquadram no MROSC — a estrutura correta é o Marco Legal ou contratos diretos.
 
 > [!warning]
 > Startups que tentam usar o MROSC para contratar com governo frequentemente enfrentam problemas de prestação de contas e impedimentos legais. Se um gestor público sugerir essa estrutura, questione a assessoria jurídica antes de assinar.
 
-### Como Estruturar uma Proposta para Órgão Público
+#### Como Estruturar uma Proposta para Órgão Público
 
 O maior erro de startups em propostas para governo é apresentar a proposta como se fosse para um fundo de venture capital — com foco em escalabilidade, TAM e métricas de crescimento. Gestores públicos precisam justificar a decisão para auditores do TCU, CGU e para seus superiores hierárquicos.
 
@@ -2094,7 +2094,7 @@ Estrutura recomendada:
 
 O financiamento público não-diluidor é o capital mais barato disponível para startups brasileiras. O problema não é sua existência — é o custo real de acesso que poucos calculam antes de entrar.
 
-### FINEP
+#### FINEP
 
 A Financiadora de Estudos e Projetos é o principal instrumento federal de financiamento à inovação empresarial.
 
@@ -2104,7 +2104,7 @@ A Financiadora de Estudos e Projetos é o principal instrumento federal de finan
 
 **PAPPE Subvenção:** Executado em parceria com FAPs estaduais, com valores menores e processo mais ágil. Mais acessível para startups sem estrutura para gerir projetos FINEP diretos.
 
-### FAPESP
+#### FAPESP
 
 A Fundação de Amparo à Pesquisa do Estado de São Paulo é modelo internacional de financiamento à pesquisa aplicada.
 
@@ -2115,17 +2115,17 @@ A Fundação de Amparo à Pesquisa do Estado de São Paulo é modelo internacion
 > [!note]
 > A FAPESP exige que os projetos tenham rigor científico documentado. Startups sem conexão com pesquisadores da USP, UNICAMP ou UNESP têm dificuldade em acessar o PIPE sem parceiro acadêmico. Cultivar uma relação com um professor orientador antes de submeter o projeto é estratégia que melhora significativamente as chances.
 
-### EMBRAPII
+#### EMBRAPII
 
 A Associação Brasileira de Pesquisa e Inovação Industrial não financia startups diretamente — financia institutos de pesquisa (como Senai, IPT, CIMATEC) que trabalham em parceria com empresas. O modelo é: empresa traz problema + 1/3 do custo, EMBRAPII e o instituto cobrem os outros 2/3.
 
 Para startups, o valor é acesso a infraestrutura de laboratório, prototipagem e validação técnica sem precisar montar estrutura própria. Relevante para hardwarestartups, agrotechs e indústria 4.0.
 
-### FAPs Estaduais
+#### FAPs Estaduais
 
 Cada estado tem (ou deveria ter) sua Fundação de Amparo à Pesquisa. Além da FAPESP em São Paulo, destacam-se FAPERJ (Rio de Janeiro), FAPEMIG (Minas Gerais), FAPESC (Santa Catarina) e FAPESB (Bahia). Editais menores, processo mais ágil, menos concorrência nacional.
 
-### O Custo Real do Capital Público
+#### O Custo Real do Capital Público
 
 ```text
 COMPONENTE DE CUSTO          ESTIMATIVA REALISTA
@@ -2149,7 +2149,7 @@ O que evitam: crédito FINEP sem garantias reais disponíveis; projetos onde o t
 
 ### 7. Relações com o Congresso
 
-### Como Funciona o Lobby no Brasil Pós-Lei de Transparência
+#### Como Funciona o Lobby no Brasil Pós-Lei de Transparência
 
 O Brasil não tem lei de regulamentação do lobby federal (projeto tramita há mais de uma década). Na ausência de regulamentação, a atividade existe em zona cinzenta: tecnicamente permitida como exercício do direito de petição, mas sem registro obrigatório, sem transparência sistemática.
 
@@ -2160,13 +2160,13 @@ Na prática, para startups, o Congresso importa em dois momentos:
 - **Quando uma norma que afeta seu setor está sendo legislada:** PLs sobre tributação de fintechs, regulamentação de plataformas, proteção de dados específicos para saúde
 - **Quando você precisa do Congresso para reverter regulação de agência:** agências reguladoras respondem ao Congresso; pressão parlamentar coordenada pode acelerar ou bloquear normas
 
-### Por que Grandes Fintechs Têm Escritório em Brasília
+#### Por que Grandes Fintechs Têm Escritório em Brasília
 
 Nubank, Mercado Pago, Stone, PagSeguro — todas mantêm presença em Brasília. O motivo não é acesso a contratos públicos. É inteligência regulatória antecipada.
 
 Um assessor bem posicionado em Brasília sabe, semanas antes da publicação oficial, que o BACEN está preparando norma sobre determinado tema, que a CVM vai abrir consulta pública sobre tokenização de valores mobiliários, que o Congresso está articulando PL que pode criar nova categoria de licença. Essa antecipação vale muito mais que o custo de manutenção do escritório.
 
-### Quando Contratar um Assessor Parlamentar faz Sentido
+#### Quando Contratar um Assessor Parlamentar faz Sentido
 
 Para a maioria das startups early-stage, contratar assessor parlamentar é custo sem retorno. Os critérios para quando faz sentido:
 
@@ -2189,13 +2189,13 @@ Abaixo desses patamares, a melhor estratégia é atuar via associação setorial
 
 ### 8. Risco Regulatório como Risco de Negócio
 
-### O que é Risco Regulatório
+#### O que é Risco Regulatório
 
 Risco regulatório é a probabilidade de uma mudança no arcabouço legal ou normativo que afeta materialmente o modelo de negócio de uma empresa. Não é risco hipotético — é risco com probabilidade, impacto e frequência mensuráveis, que deve entrar no valuation e nas decisões estratégicas.
 
 O problema é que founders frequentemente enxergam regulação como dado fixo. Não é. É variável.
 
-### Caso: A Guerra do Intercâmbio nas Maquininhas
+#### Caso: A Guerra do Intercâmbio nas Maquininhas
 
 Entre 2010 e 2018, o mercado de credenciadoras no Brasil era duopolizado por Cielo e Rede. A taxa de intercâmbio (cobrada do lojista por transação) era o motor financeiro do modelo — e era alta o suficiente para financiar programas de fidelidade, exclusividades e margens robustas.
 
@@ -2205,7 +2205,7 @@ Mas a mesma lógica se aplica ao inverso: qualquer startup que construiu receita
 
 Quem não precificou esse risco no modelo financeiro foi surpreendido. Quem precificou construiu receitas alternativas (hardware, software, crédito) antes que a compressão chegasse.
 
-### Caso: Open Banking como Disrupção dos Incumbentes
+#### Caso: Open Banking como Disrupção dos Incumbentes
 
 O Open Finance brasileiro (implementado em fases entre 2021 e 2023) foi, em essência, uma decisão regulatória de transferir poder de dados dos bancos para os clientes. O BACEN forçou os grandes bancos a abrir APIs com dados de conta corrente, crédito, investimentos e seguros para plataformas autorizadas.
 
@@ -2231,7 +2231,7 @@ Startups de crédito:
 
 O Open Finance é um exemplo de risco regulatório positivo para quem se posicionou antecipadamente. Fintechs que participaram dos grupos de trabalho do BACEN durante a construção das normas chegaram ao lançamento com APIs já integradas, enquanto concorrentes levaram meses para adaptar.
 
-### Caso: Pix e a Guerra das Tarifas
+#### Caso: Pix e a Guerra das Tarifas
 
 Quando o BACEN lançou o Pix em novembro de 2020, a primeira consequência foi a destruição de receita de DOC e TED para bancos — transações que geravam R$ 5-15 por operação foram substituídas por transferências gratuitas para pessoas físicas.
 
@@ -2243,7 +2243,7 @@ O que não estava claro em 2020:
 
 Startups que tinham "taxa por transferência" como linha de receita principal viram esse modelo erodir em meses. As que sobreviveram tinham diversificado receita para crédito, float ou serviços value-added antes do lançamento.
 
-### Como Avaliar e Precificar Risco Regulatório
+#### Como Avaliar e Precificar Risco Regulatório
 
 ```text
 FRAMEWORK DE AVALIAÇÃO DE RISCO REGULATÓRIO
@@ -2274,7 +2274,7 @@ FRAMEWORK DE AVALIAÇÃO DE RISCO REGULATÓRIO
 > [!warning]
 > O maior erro em análise de risco regulatório é tratar o regulador como ator racional e consistente. Reguladores brasileiros respondem a pressão política, a escândalos setoriais, a mandatos de dirigentes e a acordos internacionais. Uma mudança de diretoria no BACEN pode mudar a prioridade de pauta de um tema por anos. Monitore pessoas, não apenas normas.
 
-### Construindo Resiliência Regulatória
+#### Construindo Resiliência Regulatória
 
 A startup mais resiliente regulatoriamente não é a que tem o melhor lobista — é a que construiu modelo de negócio onde o valor entregue ao cliente é suficientemente alto para que clientes e parceiros defendam a empresa quando regulação ameaça.
 
@@ -4729,7 +4729,6 @@ Uma solução de TMS ou WMS desenvolvida para rotas entre capitais no Sul-Sudest
 > [!tip] Estratégia de expansão regional
 > Startups de logtech bem-sucedidas no Brasil tipicamente adicionam uma região por vez, adaptando o modelo de operação (parceiros locais, cobertura de seguro diferenciada, tipo de veículo) antes de avançar. Expansão nacional acelerada em logística frequentemente termina em burn de capital sem produto-mercado fit regional.
 
----
 
 ---
 
@@ -5317,7 +5316,6 @@ CRECI é estadual. ITBI é municipal. Legislação de parcelamento do solo é mu
 > [!tip] Estratégia de entrada
 > As proptechs brasileiras que tiveram mais sucesso começaram em São Paulo (maior mercado, regulação mais desenvolvida) e só expandiram quando o modelo estava comprovado. Expansão prematura para mercados regionais com infraestrutura cartorial e regulação distintas costuma ser armadilha de capital.
 
----
 
 ---
 
@@ -7007,7 +7005,6 @@ Processos judiciais são públicos, mas os dados das partes têm proteção da L
 
 Escritórios de advocacia tradicionais têm ciclo de vendas longo, decisão por sócio-sênior e resistência cultural a mudanças de processo. Startups que projetam crescimento rápido em escritórios tradicionais frequentemente se frustram. O crescimento mais rápido está em departamentos jurídicos corporativos e em escritórios jovens.
 
----
 
 ---
 
@@ -9748,7 +9745,7 @@ Para o leitor que quer aprofundar além do próprio manual, abaixo uma sequênci
 > Obras citadas ao longo do livro, em padrão Chicago author-date adaptado para português. Para citações web ou ensaios online, indica-se URL e data de acesso. Para obras estrangeiras, prefere-se a edição em inglês original quando há ambiguidade de tradução, com nota da edição brasileira quando relevante.
 
 > [!note] Como ler a bibliografia
-> Esta lista reúne autores e obras citados em prosa, em entradas dos Manuais de Frameworks das Fases, em capítulos temáticos e em chamadas de leitura adicional. Não é exaustiva. Cada apêndice e ferramenta traz suas próprias referências específicas. Aqui estão consolidadas as cerca de cento e cinquenta entradas de maior frequência e peso argumentativo.
+> Esta lista reúne autores e obras citados em prosa, em entradas dos Manuais de Frameworks das Fases, em capítulos temáticos e em chamadas de leitura adicional. Não é exaustiva. Cada capítulo e ferramenta traz suas próprias referências específicas. Aqui estão consolidadas as cerca de cento e cinquenta entradas de maior frequência e peso argumentativo.
 
 ### Livros
 
@@ -10086,7 +10083,6 @@ Instrução CVM 356. FIDC (parcialmente substituída pela Resolução CVM 175 a 
 
 Instrução Normativa RFB 2.296/2025. Limites de base e regras de transição para JCP a partir de 2026.
 
----
 
 ---
 
@@ -10466,7 +10462,7 @@ Instrução Normativa RFB 2.296/2025. Limites de base e regras de transição pa
 
 - **YC (Y Combinator) matching e filosofia**: [[IGNICAO-Vol-1-Ideacao#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0 (Vol. 1)]], referências dispersas
 
-### Índice de Ecossistemas, Ciclo de Vida e das 42 Verticais Setoriais (v4.0)
+### Índice de Ecossistemas, Ciclo de Vida e das 42 Verticais Setoriais (v5.1)
 
 - **Aeroespacial, Spacetech, Drones e Defesa (Dual-Use)**: [[#CAPÍTULO 28 — AEROSPACE, SPACETECH, DRONES, SATÉLITES E TECNOLOGIA DE DEFESA (DUAL-USE)|Capítulo 28]]
 - **Aftermarket Automotivo, Autopeças, Seminovos e Leilões**: [[#CAPÍTULO 24 — CONSÓRCIOS ADMINISTRADOS (BACEN), RENTAL DE MÁQUINAS/FROTAS PESADAS E AFTERMARKET AUTOMOTIVO (AUTOPEÇAS, SEMINOVOS E LEILÕES)|Capítulo 24]]

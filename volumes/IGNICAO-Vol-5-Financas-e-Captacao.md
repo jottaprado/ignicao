@@ -1956,7 +1956,6 @@ A DRE societária segue CPC e é entregue formalmente. A DRE para gestão pode t
 | Patrimônio Líquido vs. Valuation | PL é valor contábil histórico. Valuation é valor de mercado negociado. | Usar PL como proxy de valuation |
 | Receita Diferida vs. Receita Reconhecida | Diferida é dinheiro recebido, serviço ainda não prestado (passivo). Reconhecida já passou pela DRE. | Contar a anualdade como receita toda no mês do recebimento |
 
----
 
 ---
 
@@ -3566,7 +3565,6 @@ Exemplo:
 
 Para empresas com menos de dois anos de histórico, usar benchmarks de setor como aproximação até ter dados próprios suficientes.
 
----
 
 ---
 
@@ -5183,7 +5181,6 @@ Uma lista de riscos feita no ano 1 e nunca atualizada é pior que não ter lista
 **6. Comprar seguro sem corretora especializada.**
 Contratar diretamente com a seguradora (sem corretora) parece economizar, mas o custo de uma apólice inadequada é muito maior que a comissão da corretora. No sinistro, quem representa a empresa na negociação com a seguradora é a corretora — e isso vale cada centavo da comissão.
 
----
 
 ---
 

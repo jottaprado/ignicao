@@ -426,8 +426,16 @@ rawSections.set('FASE_14C', {
 });
 
 // 3.3 FASE 16 (Vol. 6): Time, Liderança Executiva e Cultura em Escala (antiga 14A)
-const f14aIntro = f14Lines.slice(1, idx14A).join('\n');
+const f14aIntro = f14Lines
+  .slice(1, idx14A)
+  .join('\n')
+  .replace(/^### (?:14A\s*[—–-]\s*)?TIME E LIDERANÇA EM ESCALA\n+/gm, '')
+  .replace(
+    /> \[!abstract\] Mapa interno da Fase 14[\s\S]*?precisam buscar ajuda nas outras tres\./m,
+    `> [!abstract] As quatro frentes paralelas da Escala (Fases 14 a 17)\n> A etapa de escala opera em quatro frentes interdependentes distribuídas nos Volumes 5 a 7:\n> - **[[IGNICAO-Vol-5-Financas-e-Captacao#FASE 14 — CAPITAL PARA ESCALA, RODADAS E EFICIÊNCIA FINANCEIRA|Fase 14 — Capital para Escala (Vol. 5)]]**: eficiência financeira, *unit economics* em escala e rodadas Série A em diante.\n> - **[[#FASE 15 — MÁQUINA DE CRESCIMENTO E EXPANSÃO EM ESCALA|Fase 15 — Máquina de Crescimento (Vol. 6)]]**: transformar a tração pós-PMF em aquisição, retenção e expansão previsíveis e compostas.\n> - **[[#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16 — Time e Liderança Executiva (Vol. 6)]]**: transição do primeiro funcionário à primeira camada de gestão, C-level, avaliação de performance e cultura.\n> - **[[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#FASE 17 — OPERAÇÕES, PROCESSOS E GESTÃO EM ESCALA|Fase 17 — Operações e Processos (Vol. 7)]]**: passar de uma empresa que depende do fundador no dia a dia para um sistema operacional autônomo.\n>\n> As frentes não são sequenciais — são paralelas. Em geral, fundadores fortes em uma das quatro precisam buscar liderança complementar nas outras três.`
+  );
 const f14aCore = promoteHeadings(f14Lines.slice(idx14A + 2, idxTransAB).join('\n'), 1)
+  .replace(/^### (?:14A\s*[—–-]\s*)?TIME E LIDERANÇA EM ESCALA\n+/gm, '')
   .replace(/^### COMO \(Time e Liderança\)/m, '### COMO')
   .replace(/^### PERGUNTAS A RESPONDER \(Time e Liderança\)/m, '### PERGUNTAS A RESPONDER')
   .replace(/^### DEFINIÇÃO DE SUCESSO \(Time e Liderança\)/m, '### SAÍDA DESTA FASE')
@@ -1319,7 +1327,11 @@ function buildChapterSection(oldKey, chapNum, rawSection) {
       return `### ${chapNum}.${subNum} — ${subTitle.trim()}`;
     });
   } else if (oldKey === 'FE' || oldKey === 'BH') {
-    body = body.replace(/^## (?!CAPÍTULO )(.+)$/gm, '### $1');
+    body = body
+      .replace(/^### (.+)$/gm, '#### $1')
+      .replace(/^## (?!CAPÍTULO )(.+)$/gm, '### $1');
+  } else if (oldKey === 'BL') {
+    body = body.replace(/^### CONSIDERAÇÕES ESPECÍFICAS PARA BRASIL\n+/gm, '');
   }
 
   // Dentro de capítulos (antigos apêndices), converter autorreferências "este apêndice" -> "este capítulo"
@@ -1370,6 +1382,7 @@ function buildChapterSection(oldKey, chapNum, rawSection) {
   }
 
   body = applyNarrativeRefactor(oldKey, body, ALL_NARRATIVE_SPECS);
+  body = body.replace(/^### O Espelho do Cap[íi]tulo \d+:/gm, `### O Espelho do Capítulo ${chapNum}:`);
 
   return {
     oldKey,
@@ -2833,9 +2846,9 @@ function normalizeProseSegment(seg, currentVolNum) {
     .replace(/\bdo Ap[êe]ndice E\b/gi, 'da seção de Leituras Recomendadas')
     .replace(/\bno Ap[êe]ndice E\b/gi, 'na seção de Leituras Recomendadas');
 
-  // 3) Menções a "Apêndice XX — Título" ou "Apêndice XX" (com ou sem acento, onde XX é capítulo, ou K -> FG)
+  // 3) Menções a "Apêndice(s) XX — Título" ou "Apêndice(s) XX" (com ou sem acento, onde XX é capítulo, ou K -> FG)
   s = s.replace(
-    /\bAp[êe]ndice\s+([A-Z]{1,2})\b(?:\s*([—–-])\s*([^\n:.,;)]+))?/g,
+    /\bAp[êe]ndices?\s+([A-Z]{1,2})\b(?:\s*([—–-])\s*([^\n:.,;)]+))?/g,
     (full, rawCode, sep, restTitle) => {
       const code = rawCode.toUpperCase() === 'K' ? 'FG' : rawCode.toUpperCase();
       const ch = oldCodeToChapterInfo.get(code);
@@ -2850,6 +2863,7 @@ function normalizeProseSegment(seg, currentVolNum) {
 
   // 3b) Expressões genéricas de apêndice(s) no corpo do texto
   s = s
+    .replace(/\bCada ap[êe]ndice e ferramenta\b/g, 'Cada capítulo e ferramenta')
     .replace(/\bAp[êe]ndices verticais\b/g, 'Capítulos verticais')
     .replace(/\bap[êe]ndices verticais\b/g, 'capítulos verticais')
     .replace(/\bAp[êe]ndices de\b/g, 'Capítulos de')
@@ -3181,7 +3195,9 @@ for (const [volNum, { spec, md }] of rawVolumeDocs.entries()) {
     return outLine;
   });
 
-  const finalMd = resolvedLines.join('\n');
+  const finalMd = resolvedLines
+    .join('\n')
+    .replace(/\n---\s*\n+(?:---\s*\n+)+/g, '\n\n---\n\n');
   const outPath = path.join(VOLUMES_DIR, `${spec.slug}.md`);
   fs.writeFileSync(outPath, finalMd, 'utf8');
 

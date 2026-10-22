@@ -3686,7 +3686,7 @@ Não medir conversion. Volume de tráfego sem conversion é vanity metric.
 
 ---
 
-### O Espelho do Capítulo 3: Seu Conteúdo Atrai Compradores com Cartão na Mão ou Apenas Curiosos?
+### O Espelho do Capítulo 2: Seu Conteúdo Atrai Compradores com Cartão na Mão ou Apenas Curiosos?
 
 **O Espelho (Responda sem anestesia):**
 1. Se você desligar todos os seus anúncios pagos hoje ao meio-dia, quantas vendas ou pedidos de orçamento continuam entrando sozinhos amanhã pelas suas páginas e conteúdos já publicados?
@@ -4073,7 +4073,7 @@ Marketing de performance está operando bem quando todos os itens abaixo estão 
 
 ---
 
-### O Espelho do Capítulo 5: Você Está Comprando Lucro no Banco ou Prints Bonitos no Gerenciador?
+### O Espelho do Capítulo 3: Você Está Comprando Lucro no Banco ou Prints Bonitos no Gerenciador?
 
 **O Espelho (Responda sem anestesia):**
 1. Você sabe de cor, na ponta da língua, qual é o seu **ROAS de Empate (Breakeven)** exato (1 dividido pela sua margem de contribuição percentual antes da mídia)?
@@ -4693,7 +4693,7 @@ Três padrões de win/loss que merecem ação imediata:
 
 ---
 
-### O Espelho do Capítulo 6: Sua Marca é um Bisturi na Mente do Cliente ou um Panfleto Genérico?
+### O Espelho do Capítulo 4: Sua Marca é um Bisturi na Mente do Cliente ou um Panfleto Genérico?
 
 **O Espelho (Responda sem anestesia):**
 1. Se você tapar o logotipo e trocar as cores da página inicial do seu site hoje, o texto que sobra lá dentro ainda é 100% inconfundível, ou poderia servir para qualquer um dos seus cinco maiores concorrentes?
@@ -5063,7 +5063,7 @@ Independente de motion (B2B, enterprise, SMB, PLG), qualquer operação de venda
 
 ---
 
-### O Espelho do Capítulo 8: Seu Time Faz Diagnóstico Cirúrgico ou Vomita Funcionalidades?
+### O Espelho do Capítulo 5: Seu Time Faz Diagnóstico Cirúrgico ou Vomita Funcionalidades?
 
 **O Espelho (Responda sem anestesia):**
 1. Nas suas reuniões comerciais, quem fala mais de 60% do tempo: o seu vendedor explicando telas ou o cliente revelando dores, números e processos internos?
@@ -5565,7 +5565,7 @@ Pricing como disciplina está no padrão quando todos os itens abaixo estão cum
 
 ---
 
-### O Espelho do Capítulo 9: Seu Preço Reflete o Valor que Você Cria ou o Medo que Você Sente?
+### O Espelho do Capítulo 6: Seu Preço Reflete o Valor que Você Cria ou o Medo que Você Sente?
 
 **O Espelho (Responda sem anestesia):**
 1. Nos seus últimos vinte negócios fechados, quantos clientes disseram *"está caro, mas vou pagar porque vale a pena"*? Se absolutamente ninguém reclama do seu preço, você está deixando uma fortuna na mesa.
@@ -5871,7 +5871,7 @@ Esse processo leva 30 a 60 minutos. Para uma negociação com impacto de seis d�
 
 ---
 
-### O Espelho do Capítulo 11: Você Negocia com Estratégia Fria ou Implora pela Assinatura?
+### O Espelho do Capítulo 7: Você Negocia com Estratégia Fria ou Implora pela Assinatura?
 
 **O Espelho (Responda sem anestesia):**
 1. Antes de entrar em uma reunião decisiva de fechamento ou captação, você escreve no papel qual é o seu **Preço de Reserva** (a linha vermelha abaixo da qual você levanta da mesa e diz "não, obrigado")?
@@ -6493,7 +6493,7 @@ CS como disciplina no padrão quando o onboarding estruturado existe com métric
 
 ---
 
-### O Espelho do Capítulo 12: Seu Time Entrega Resultado Real ou Apenas Pede Desculpas com Simpatia?
+### O Espelho do Capítulo 8: Seu Time Entrega Resultado Real ou Apenas Pede Desculpas com Simpatia?
 
 **O Espelho (Responda sem anestesia):**
 1. Quantos dias exatos um cliente novo leva, em média, desde o pagamento até alcançar a primeira vitória concreta dentro do seu produto ou serviço?
@@ -6767,7 +6767,7 @@ Time e stack de dados estão saudáveis quando todos os itens abaixo estão cump
 
 ---
 
-### O Espelho do Capítulo 14: Seus Dados Comandam Decisões ou Enfeitam Reuniões?
+### O Espelho do Capítulo 9: Seus Dados Comandam Decisões ou Enfeitam Reuniões?
 
 **O Espelho (Responda sem anestesia):**
 1. Qual é a única **North Star Metric** da sua empresa hoje — e ela mede o valor real que o cliente recebeu (ex.: *"notas fiscais auditadas sem erro"*, *"consultas realizadas com melhora clínica"*) ou mede apenas vaidade da empresa (ex.: *"usuários cadastrados"*)?
@@ -7087,7 +7087,7 @@ AI-native está no padrão quando todos os itens abaixo estão cumpridos.
 
 ---
 
-### O Espelho do Capítulo 15: Sua IA é o Motor Proprietário ou Apenas um Adesivo Alugado?
+### O Espelho do Capítulo 10: Sua IA é o Motor Proprietário ou Apenas um Adesivo Alugado?
 
 **O Espelho (Responda sem anestesia):**
 1. Se um concorrente contratar dois bons programadores neste fim de semana e conectar na mesma API de IA que você usa, o que exatamente impede que ele replique 100% do seu produto até segunda-feira?
@@ -7279,7 +7279,7 @@ A diferença entre os dois é disciplina. Evidência antes da decisão. Tese esp
 
 ---
 
-### O Espelho do Capítulo 16: Você Está Sendo Resiliente na Visão ou Teimoso num Beco Sem Saída?
+### O Espelho do Capítulo 11: Você Está Sendo Resiliente na Visão ou Teimoso num Beco Sem Saída?
 
 **O Espelho (Responda sem anestesia):**
 1. Se você fosse demitido hoje e uma nova diretoria assumisse a empresa amanhã às 8h sem apego emocional ao código já escrito, qual produto ou segmento eles matariam no primeiro dia?
