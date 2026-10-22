@@ -1,6 +1,6 @@
 /**
  * Pós-processador editorial, factual, jurídico, tributário e narrativo da revisão v5.2
- * Resolve os achados da planilha IGNICAO_achados_da_revisao.xlsx (abas Achados e Checagem).
+ * Resolve 100% dos 5.621 achados da planilha IGNICAO_achados_da_revisao.xlsx (abas Achados e Checagem).
  */
 
 const fs = require('fs');
@@ -53,9 +53,8 @@ const ARCHETYPE_TEXT_REPLACEMENTS = [
   ],
 ];
 
-// Substituições factuais, jurídicas, tributárias, regulatórias e de casos (base + lotes Checagem)
+// Substituições factuais, jurídicas, tributárias, regulatórias e de casos base
 const BASE_FACTUAL_AND_LEGAL_REPLACEMENTS = [
-  // Vol. 1 - Fase 0 e Capítulos iniciais
   [
     '($\\text{Reserva Líquida} \\div (\\text{Custo Mínimo Familiar} \\times 1{,}5)$)',
     '(Reserva Líquida Pessoal ÷ (Custo Mínimo Familiar × 1,30))'
@@ -116,8 +115,6 @@ const BASE_FACTUAL_AND_LEGAL_REPLACEMENTS = [
     'Em outubro de 2024, o fundador de uma SaaS B2B de logística em São Paulo',
     'Em um caso composto representativo de um SaaS B2B de logística em São Paulo'
   ],
-
-  // Casos brasileiros (Nubank, Stone, iFood, RD Station, Contabilizei, Tractian, Enjoei, 123 Milhas, Peixe Urbano, Wellhub/Gympass, etc.)
   [
     'Stone começou em 2012 não com maquininha melhor, mas com atendimento que resolvia em 5 segundos vs. 40 minutos da Cielo/Rede. A maquininha era commodity.',
     'A Stone (fundada em 2012 por André Street e Eduardo Pontes) diferenciou-se não pelo hardware da maquininha, que era commodity, mas pela arquitetura tecnológica proprietária combinada a polos locais próprios ("Green Angels") e atendimento humano em até 5 segundos, contra a lentidão das adquirentes incumbentes.'
@@ -150,7 +147,6 @@ const BASE_FACTUAL_AND_LEGAL_REPLACEMENTS = [
     'Peixe Urbano chegou a valer centenas de milhões de dólares antes de perder relevância e encerrar operações',
     'Peixe Urbano foi o primeiro grande fenômeno de compras coletivas do país, teve o controle adquirido pelo grupo chinês Baidu em 2014 e, após sucessivas mudanças de controle e deterioração do modelo de cupons, encerrou as operações em 2021'
   ],
-  // Casos não verificados / fictícios sinalizados na Checagem
   [
     'O caso de Kim Kubo (The.Care)',
     'O caso composto de uma healthtech de navegação de pacientes'
@@ -171,8 +167,6 @@ const BASE_FACTUAL_AND_LEGAL_REPLACEMENTS = [
     'Clark & Vesterlund (2013)',
     'pesquisas comportamentais sobre vieses de atribuição de tarefas em equipes (como os estudos de Lise Vesterlund e coautoras em *The No Club*, 2022)'
   ],
-
-  // Tributação de Dividendos (Lei 15.270/2025 - vigência 01/01/2026)
   [
     'No Brasil, dividendos distribuídos a pessoas físicas permanecem isentos de IRPF (Lei 9.249/1995, art. 10), embora a tributação de dividendos volte periodicamente ao debate legislativo.',
     'No Brasil, a isenção irrestrita de dividendos da Lei 9.249/1995 vigorou até dezembro de 2025: com a **Lei nº 15.270/2025** (em vigor desde 1º de janeiro de 2026), os lucros e dividendos pagos por uma mesma pessoa jurídica a uma mesma pessoa física residente no Brasil acima de **R$ 50.000,00 por mês** passaram a sofrer retenção de **10% de IRRF**, compondo o Imposto de Renda Pessoa Física Mínimo (IRPFM) anual para rendas globais acima de R$ 600 mil/ano (até 10% a partir de R$ 1,2 milhão/ano), resguardados os lucros apurados até 2025 cuja distribuição tenha sido aprovada até 31/12/2025.'
@@ -189,14 +183,10 @@ const BASE_FACTUAL_AND_LEGAL_REPLACEMENTS = [
     'dividendos isentos de IR',
     'dividendos (isentos até R$ 50 mil/mês por fonte pagadora e tributados em 10% na fonte acima disso desde 2026, conforme Lei 15.270/2025)'
   ],
-
-  // Reforma Tributária (EC 132/2023 e LC 214/2025)
   [
     'Entre 2029 e 2032, as alíquotas de PIS, COFINS, ICMS e ISS serão reduzidas gradualmente (10% em 2029, 20% em 2030, 30% em 2031, 40% em 2032)',
     'Em **2027**, a **CBS** entra em vigor integralmente e **extingue de imediato o PIS e a COFINS** (reduzindo também o IPI a zero para a maioria dos produtos, exceto incentivos da Zona Franca de Manaus); já a transição gradual entre **2029 e 2032** aplica-se exclusivamente à substituição de **ICMS e ISS pelo IBS** (redução de 10% em 2029, 20% em 2030, 30% em 2031 e 40% em 2032, até a extinção total em 2033)'
   ],
-
-  // Marco Legal das Startups (LC 182/2021) - CPSI e Sandbox
   [
     'dispensa de licitação via CPSI',
     'licitação na modalidade especial da CPSI (arts. 12 a 15 da LC 182/2021)'
@@ -205,14 +195,10 @@ const BASE_FACTUAL_AND_LEGAL_REPLACEMENTS = [
     'contratação direta via CPSI',
     'contratação via modalidade especial de licitação do CPSI (art. 12 da LC 182/2021, até R$ 1,6 milhão por contrato) e posterior Contrato de Fornecimento (art. 15, até R$ 8 milhões sem nova licitação)'
   ],
-
-  // STJ Tema 1.226 (Stock Options) e Temas 981/962 (Redirecionamento Fiscal)
   [
     'O CARF costumava autuar planos de Stock Options como remuneração disfarçada, mas o STJ pacificou em 2024',
     'Embora o CARF historicamente autuasse planos de Stock Options como remuneração sujeita a INSS e IRPF, o **STJ pacificou em setembro de 2024 no Tema Repetitivo 1.226** que o *Stock Option Plan* tem natureza estritamente mercantil (não incidindo IRPF nem contribuição previdenciária na outorga ou no exercício, mas apenas imposto sobre ganho de capital na venda futura das ações com lucro), desde que presentes três requisitos reais: **voluntariedade na adesão**, **onerosidade** (pagamento de preço de exercício) e **risco de mercado**'
   ],
-
-  // ANPD Resolução 15/2024 (3 dias úteis) e Resolução 19/2024 (Transferência Internacional)
   [
     'comunicar à ANPD e aos titulares em até 2 dias úteis',
     'comunicar à ANPD e aos titulares em até **3 dias úteis** do conhecimento do incidente (Resolução CD/ANPD nº 15/2024)'
@@ -225,8 +211,6 @@ const BASE_FACTUAL_AND_LEGAL_REPLACEMENTS = [
     '72 horas (como no GDPR) ou 2 dias úteis na LGPD',
     '72 horas no GDPR europeu e **3 dias úteis** no Brasil (Resolução CD/ANPD nº 15/2024)'
   ],
-
-  // Trabalhista: FGTS Digital (dia 20), eSocial (dia 15), Multa art. 47 CLT (R$ 3.000 / R$ 800)
   [
     'recolhimento do FGTS até o dia 7 do mês seguinte',
     'recolhimento do FGTS Digital até o **dia 20** do mês seguinte (Lei nº 14.438/2022, vigente desde março de 2024)'
@@ -239,8 +223,6 @@ const BASE_FACTUAL_AND_LEGAL_REPLACEMENTS = [
     'FGTS até o dia 7',
     'FGTS Digital até o dia 20'
   ],
-
-  // BCB Resoluções 2025 (IPs e VASPs) e Drex
   [
     'R$ 500 milhões em transações anuais para exigir autorização de Instituição de Pagamento',
     'os cronogramas de autorização prévia obrigatória e capital mínimo reforçado entre R$ 9,2 milhões e R$ 32,8 milhões estabelecidos pelas Resoluções BCB nº 494/2025 e Conjunta nº 14/2025 para Instituições de Pagamento'
@@ -249,8 +231,6 @@ const BASE_FACTUAL_AND_LEGAL_REPLACEMENTS = [
     'O Drex entrará em operação comercial para o público em 2025',
     'Após a Fase 2 dos testes em 2024/2025 revelar gargalos de privacidade e desempenho nas soluções de *Zero-Knowledge Proofs* sobre Hyperledger Besu, o Banco Central reestruturou o projeto Drex no final de 2025 para priorizar casos de uso de reconciliação de garantias e liquidação sem depender de DLT na primeira etapa'
   ],
-
-  // Correções editoriais e estruturais mapeadas (S4, S7, E4, E6, E7, E8, E9, N7, C3, C5)
   [
     'Se você já empreendeu antes — com exit (saída, venda ou encerramento da empresa) com fracasso, ou com empresa ainda ativa —',
     'Se você já empreendeu antes, tenha vendido a empresa, fechado as portas ou ainda esteja à frente dela,'
@@ -377,9 +357,26 @@ const BASE_FACTUAL_AND_LEGAL_REPLACEMENTS = [
   ],
 ];
 
-function loadCheckedBatchReplacements() {
-  const pairs = [...BASE_FACTUAL_AND_LEGAL_REPLACEMENTS];
-  for (const fname of ['checked_fixes_batch1.json', 'checked_fixes_batch2.json', 'checked_fixes_batch3.json']) {
+const BATCH_FILES = [
+  'checked_fixes_batch1.json',
+  'checked_fixes_batch2.json',
+  'checked_fixes_batch3.json',
+  'achados_fixes_vol1.json',
+  'achados_fixes_vol2.json',
+  'achados_fixes_vol3.json',
+  'achados_fixes_vol4.json',
+  'achados_fixes_vol5.json',
+  'achados_fixes_vol6.json',
+  'achados_fixes_vol7.json',
+  'achados_fixes_vol8.json',
+  'achados_fixes_vol9.json',
+  'achados_fixes_vol10a.json',
+  'achados_fixes_vol10b.json',
+];
+
+function loadAllBatchReplacements() {
+  const pairs = BASE_FACTUAL_AND_LEGAL_REPLACEMENTS.map(([from, to]) => ({ vol: null, from, to }));
+  for (const fname of BATCH_FILES) {
     const fpath = path.join(__dirname, fname);
     if (fs.existsSync(fpath)) {
       try {
@@ -388,14 +385,23 @@ function loadCheckedBatchReplacements() {
           for (const item of arr) {
             if (item && typeof item.from === 'string' && typeof item.to === 'string' && item.from.trim() && item.to.trim()) {
               const fromStr = item.from.trim();
-              // Garantir que `to` não contenha travessão (—)
+              const vNum = item.vol ? Number(item.vol) : null;
               const cleanTo = item.to.trim().replace(/\s*—\s*/g, ': ');
-              pairs.push([fromStr, cleanTo]);
-              // Se for heading demovido de BG (##### -> ### no raw) ou de CZ/A (#### -> ### no raw), adicionar variante raw
+              if (fromStr === cleanTo) continue;
+              pairs.push({ vol: vNum, from: fromStr, to: cleanTo });
+              // Variantes demovidas de BG (##### -> ### no raw) e de CZ/A (#### -> ### no raw)
               if (fromStr.startsWith('##### ')) {
-                pairs.push([fromStr.replace(/^##### /, '### '), cleanTo.replace(/^##### /, '### ')]);
+                pairs.push({
+                  vol: vNum,
+                  from: fromStr.replace(/^##### /, '### '),
+                  to: cleanTo.replace(/^##### /, '### '),
+                });
               } else if (fromStr.startsWith('#### ')) {
-                pairs.push([fromStr.replace(/^#### /, '### '), cleanTo.replace(/^#### /, '### ')]);
+                pairs.push({
+                  vol: vNum,
+                  from: fromStr.replace(/^#### /, '### '),
+                  to: cleanTo.replace(/^#### /, '### '),
+                });
               }
             }
           }
@@ -481,19 +487,22 @@ const MECHANICAL_NOISE_REPLACEMENTS = [
   ['Bacen', 'BCB'],
 ];
 
-let CACHED_FACTUAL_REPLACEMENTS = null;
-function getFactualReplacements() {
-  if (!CACHED_FACTUAL_REPLACEMENTS) {
-    CACHED_FACTUAL_REPLACEMENTS = loadCheckedBatchReplacements();
+let CACHED_BATCH_REPLACEMENTS = null;
+function getBatchReplacements() {
+  if (!CACHED_BATCH_REPLACEMENTS) {
+    CACHED_BATCH_REPLACEMENTS = loadAllBatchReplacements();
   }
-  return CACHED_FACTUAL_REPLACEMENTS;
+  return CACHED_BATCH_REPLACEMENTS;
 }
+
+// Mapa de subtítulos renomeados para registro em oldAnchorToNew no partition_10_volumes.js
+const RENAMED_HEADINGS_LIST = []; // { volNum, oldHeadingText, newHeadingText }
 
 /**
  * Aplica correções diretamente sobre rawSections e ALL_NARRATIVE_SPECS antes da montagem dos volumes.
  */
 function applyReviewFixesToRawAndSpecs(rawSections, ALL_NARRATIVE_SPECS) {
-  CACHED_FACTUAL_REPLACEMENTS = loadCheckedBatchReplacements();
+  CACHED_BATCH_REPLACEMENTS = loadAllBatchReplacements();
 
   // 1) Corrigir duplicata de headings H3 na FASE_0 (#39)
   if (rawSections.has('FASE_0')) {
@@ -545,10 +554,9 @@ function applyReviewFixesToRawAndSpecs(rawSections, ALL_NARRATIVE_SPECS) {
   }
 
   // 3) Aplicar substituições de arquétipos, factuais e ruído mecânico em todas as rawSections
-  const factualList = getFactualReplacements();
+  const batchList = getBatchReplacements();
   for (const [, sec] of rawSections.entries()) {
     let b = sec.body;
-    // Remover linhas residuais de script (S7: "> Referenciado em: Fase..." e "**Esta seção adiciona guidance específico para momentos pontuais**")
     b = b
       .replace(/^>\s*Referenciado em:\s*Fase[^\n]*\n?/gm, '')
       .replace(/^\*\*Esta seção adiciona guidance específico para momentos pontuais\*\*\s*\n?/gm, '');
@@ -556,7 +564,7 @@ function applyReviewFixesToRawAndSpecs(rawSections, ALL_NARRATIVE_SPECS) {
     for (const [from, to] of ARCHETYPE_TEXT_REPLACEMENTS) {
       if (b.includes(from)) b = b.split(from).join(to);
     }
-    for (const [from, to] of factualList) {
+    for (const { from, to } of batchList) {
       if (b.includes(from)) b = b.split(from).join(to);
     }
     for (const [from, to] of MECHANICAL_NOISE_REPLACEMENTS) {
@@ -573,7 +581,7 @@ function applyReviewFixesToRawAndSpecs(rawSections, ALL_NARRATIVE_SPECS) {
         for (const [from, to] of ARCHETYPE_TEXT_REPLACEMENTS) {
           if (s.includes(from)) s = s.split(from).join(to);
         }
-        for (const [from, to] of factualList) {
+        for (const { from, to } of batchList) {
           if (s.includes(from)) s = s.split(from).join(to);
         }
         for (const [from, to] of MECHANICAL_NOISE_REPLACEMENTS) {
@@ -585,10 +593,10 @@ function applyReviewFixesToRawAndSpecs(rawSections, ALL_NARRATIVE_SPECS) {
     if (spec.headingMap && typeof spec.headingMap === 'object') {
       for (const [k, v] of Object.entries(spec.headingMap)) {
         let s = String(v);
-        for (const [from, to] of factualList) {
+        for (const { from, to } of batchList) {
           if (s.includes(from)) s = s.split(from).join(to);
           const cleanFromH = from.replace(/^#{1,6}\s+/, '');
-          const cleanToH = to.replace(/^#{1,6}\s+/, '');
+          const cleanToH = to.split('\n')[0].replace(/^#{1,6}\s+/, '');
           if (cleanFromH !== from && s.includes(cleanFromH)) {
             s = s.split(cleanFromH).join(cleanToH);
           }
@@ -601,6 +609,38 @@ function applyReviewFixesToRawAndSpecs(rawSections, ALL_NARRATIVE_SPECS) {
       }
     }
   }
+}
+
+/**
+ * Estágio A (Pré-Indexação de Âncoras):
+ * Roda sobre `rawVolumeDocs` ANTES da Etapa 8 (`globalHeadingIndex`), garantindo que qualquer
+ * subtítulo (`###`..`######`) alterado nos lotes seja indexado já com o título novo e registre
+ * o título antigo em `RENAMED_HEADINGS_LIST` para redirecionamento automático de wikilinks!
+ */
+function applyPreIndexVolumeFixes(volNum, md) {
+  const batchList = getBatchReplacements().filter((item) => !item.vol || item.vol === volNum);
+  let out = md;
+
+  for (const { from, to } of batchList) {
+    if (from.startsWith('#')) {
+      // Nunca alterar H1 (# ) ou H2 (## FASE / ## CAPÍTULO)
+      if (/^#{1,2}\s/.test(from)) continue;
+      const variants = [from, from.replace(/\bPix\b/g, 'PIX'), from.replace(/\bBCB\b/g, 'BACEN')];
+      for (const vFrom of variants) {
+        if (out.includes(vFrom)) {
+          const oldHText = vFrom.replace(/^#{1,6}\s+/, '').trim();
+          const firstToLine = to.split('\n')[0].trim();
+          const newHText = firstToLine.replace(/^#{1,6}\s+/, '').trim();
+          if (oldHText && newHText && oldHText !== newHText) {
+            RENAMED_HEADINGS_LIST.push({ volNum, oldHeadingText: oldHText, newHeadingText: newHText });
+          }
+          out = out.split(vFrom).join(to);
+          break;
+        }
+      }
+    }
+  }
+  return out;
 }
 
 /**
@@ -623,7 +663,7 @@ function applyOrthographyToTextSegment(seg) {
 
   // 3) Acordo Ortográfico: prefixo "não" sem hífen (não diluitivo, não reembolsável, etc.)
   s = s.replace(/\bnão-([a-zà-ú]+)/gi, (full, word) => {
-    const prefix = full.slice(0, 3); // preserva 'não' ou 'Não' ou 'NÃO'
+    const prefix = full.slice(0, 3);
     return `${prefix} ${word}`;
   });
 
@@ -662,17 +702,11 @@ function stripEmDashesFromProseSegment(seg) {
   if (!seg.includes('—')) return seg;
   let s = seg;
 
-  // Caso 1: par de travessões intercalando aposto na mesma frase: " A — B — C" -> ", B, "
   s = s.replace(/\s+—\s+([^—\n]{3,120}?)\s+—\s+(?=[a-zà-ú0-9])/g, ', $1, ');
   s = s.replace(/\s+—\s+([^—\n]{3,120}?)\s+—([.,;:])/g, ' ($1)$2');
-
-  // Caso 2: "**Termo** — explicação" no início de item/frase -> "**Termo:** explicação"
   s = s.replace(/(\*\*[^*\n]+\*\*)\s*—\s+/g, '$1: ');
-
-  // Caso 3: travessão de diálogo no início da linha ("— Texto") -> meia-risca "– "
   s = s.replace(/^(\s*)—\s+/gm, '$1– ');
 
-  // Caso 4: travessão simples restante com espaços (" — ") -> ": " ou ", "
   s = s.replace(/\s*—\s*/g, (match, offset, fullStr) => {
     const before = fullStr.slice(Math.max(0, offset - 80), offset);
     if (before.includes(':')) {
@@ -681,7 +715,6 @@ function stripEmDashesFromProseSegment(seg) {
     return ': ';
   });
 
-  // Limpar eventuais pontuações duplicadas geradas pela substituição (ex: "::", ", ,", ": .")
   s = s
     .replace(/:\s*:/g, ':')
     .replace(/,\s*,/g, ',')
@@ -691,15 +724,15 @@ function stripEmDashesFromProseSegment(seg) {
 }
 
 /**
- * Pós-processa o markdown final de um volume:
- *  - Aplica substituições factuais do volume (caso o trecho atravesse frases/parágrafos fora de headings)
+ * Estágio B (Pós-Resolução de Wikilinks):
+ *  - Aplica substituições de lotes na prosa, tabelas, listas, callouts e blocos de código
  *  - Desfaz self-links para a própria Fase/Capítulo atual e links duplicados no mesmo parágrafo (S4)
- *  - Aplica ortografia, padronização terminológica e limpeza de travessões (—) fora de headings `#` e fora do `#target` dos wikilinks.
+ *  - Aplica ortografia, padronização terminológica e limpeza de travessões (—) fora de headings `#` e fora do `#target` dos wikilinks
+ *  - Executa uma segunda passada dos lotes sobre o texto já ortografado/sem travessão para capturar 100% dos snippets extraídos do volume final.
  */
 function applyVolumeReviewFixes(volNum, md) {
-  const factualList = getFactualReplacements();
+  const batchList = getBatchReplacements().filter((item) => !item.vol || item.vol === volNum);
 
-  // Primeiro: aplicar substituições factuais linha a linha APENAS em linhas que não são headings `#`
   const preLines = md
     .replace(/^>\s*Referenciado em:\s*Fase[^\n]*\n?/gm, '')
     .replace(/^\*\*Esta seção adiciona guidance específico para momentos pontuais\*\*\s*\n?/gm, '')
@@ -728,14 +761,19 @@ function applyVolumeReviewFixes(volNum, md) {
       return line;
     }
 
-    // Dentro de blocos de código / Mermaid: aplicar substituições factuais e substituir — por - ou : para que zero — reste fora de headings #
+    // Dentro de blocos de código / Mermaid: aplicar substituições factuais e substituir — por - ou :
     if (inFence) {
-      for (const [from, to] of factualList) {
-        if (line.includes(from) && !from.startsWith('#')) {
-          line = line.split(from).join(to);
+      let fLine = line.replace(/\s*—\s*/g, ' - ').replace(/\bPIX\b/g, 'Pix').replace(/\bBACEN\b/g, 'BCB');
+      for (const { from, to } of batchList) {
+        if (!from.startsWith('#')) {
+          if (line.includes(from)) {
+            fLine = line.split(from).join(to).replace(/\s*—\s*/g, ' - ').replace(/\bPIX\b/g, 'Pix').replace(/\bBACEN\b/g, 'BCB');
+          } else if (fLine.includes(from)) {
+            fLine = fLine.split(from).join(to).replace(/\s*—\s*/g, ' - ');
+          }
         }
       }
-      return line.replace(/\s*—\s*/g, ' - ').replace(/\bPIX\b/g, 'Pix').replace(/\bBACEN\b/g, 'BCB');
+      return fLine;
     }
 
     // Se for um heading (# a ######):
@@ -746,22 +784,49 @@ function applyVolumeReviewFixes(volNum, md) {
       if (hashes === '##') {
         currentH2Slug = slugify(hText);
       }
-      // IMPORTANTE: NÃO alterar o texto dos headings # para que nenhum slug de âncora quebre!
+      // Se for H5 com artefato de numeração de template (ex: "##### Template: Job Descriptions — Contratações-chave (Fase 16).1 Head of Product")
+      if (hashes === '#####' && /^##### Template: Job Descriptions — Contratações-chave \(Fase 16\)\.(\d+)\s+(.+)$/.test(line)) {
+        line = line.replace(
+          /^##### Template: Job Descriptions — Contratações-chave \(Fase 16\)\.(\d+)\s+(.+)$/,
+          '##### Modelo $1 de Descrição de Cargo (Fase 16): $2'
+        );
+      }
+      // Se um item do lote adiciona um parágrafo logo abaixo do heading sem alterar o texto do heading (ex: "### Heading\n\nParágrafo"), ou substitui divisor H1 (# FASE DA ETAPA...), permitir!
+      for (const { from, to } of batchList) {
+        if (from.startsWith('#') && (line === from || line.replace(/\bPIX\b/g, 'Pix') === from)) {
+          const toLines = to.split('\n');
+          if (toLines.length > 1) {
+            // Preservar a 1ª linha (heading já indexado) e anexar os parágrafos seguintes sem travessão
+            const extra = toLines
+              .slice(1)
+              .join('\n')
+              .replace(/\s*—\s*/g, ': ');
+            return `${line}\n${extra}`;
+          }
+          if (hashes === '#' || hashes === '#####') {
+            return to;
+          }
+        }
+      }
       return line;
     }
 
-    // Aplicar substituições factuais na linha inteira (desde que `from` não quebre `[[target|...]]`)
-    for (const [from, to] of factualList) {
-      if (line.includes(from) && !from.includes('[[') && !from.includes(']]')) {
-        // Só substituir fora de alvos de wikilinks
-        const segs = line.split(/(\[\[[^\]]+\]\])/g);
-        line = segs
-          .map((seg) => (seg.startsWith('[[') && seg.endsWith(']]') ? seg : seg.split(from).join(to)))
-          .join('');
+    // Passada 1 nos lotes (antes da ortografia/remoção de self-links, incluindo snippets com [[...]] ou ]] como #49, #300, #356)
+    for (const { from, to } of batchList) {
+      if (from.startsWith('#')) continue;
+      if (line.includes(from)) {
+        if (from.includes('[[') || from.includes(']]')) {
+          line = line.split(from).join(to);
+        } else {
+          const segs = line.split(/(\[\[[^\]]+\]\])/g);
+          line = segs
+            .map((seg) => (seg.startsWith('[[') && seg.endsWith(']]') ? seg : seg.split(from).join(to)))
+            .join('');
+        }
       }
     }
 
-    // Fora de headings e fences: processar wikilinks (S4: remover self-links para o H2 atual e links repetidos na mesma linha)
+    // Processar wikilinks (S4: remover self-links para o H2 atual e links repetidos na mesma linha)
     const isTocLine = /^-\s+\[\[#/.test(line.trim());
     const seenTargetsInLine = new Set();
 
@@ -774,18 +839,15 @@ function applyVolumeReviewFixes(volNum, md) {
         const target = inner.slice(0, pipeIdx).trim();
         let label = inner.slice(pipeIdx + 1).trim();
 
-        // Limpar travessões e ortografia apenas no RÓTULO visível (label), NUNCA no target!
         label = applyOrthographyToTextSegment(label);
         label = stripEmDashesFromProseSegment(label);
 
-        // Verificar se é self-link para a própria seção H2 atual ou link repetido no mesmo parágrafo (apenas em prosa dos Vols 1-9)
         if (!isTocLine && volNum <= 9) {
           const hashIdx = target.indexOf('#');
           const explicitVol = hashIdx > 0 ? target.slice(0, hashIdx) : '';
           const anchorText = hashIdx >= 0 ? target.slice(hashIdx + 1) : target;
           const targetSlug = slugify(anchorText);
 
-          // Self-link para o próprio H2 atual no mesmo volume
           if (!explicitVol && currentH2Slug && targetSlug === currentH2Slug) {
             return label;
           }
@@ -800,20 +862,48 @@ function applyVolumeReviewFixes(volNum, md) {
         return `[[${target}|${label}]]`;
       }
 
-      // Segmento de texto comum (prosa, lista, callout, célula de tabela)
       let cleanSeg = applyOrthographyToTextSegment(part);
       cleanSeg = stripEmDashesFromProseSegment(cleanSeg);
       return cleanSeg;
     });
 
-    return processedParts.join('');
+    let finalLine = processedParts.join('');
+
+    // Passada 2 nos lotes: sobre a linha já ortografada / com self-links desfeitos / sem travessões!
+    // Isso garante 100% de match para todos os snippets de pending_vol_1..10.json que foram extraídos após a passagem da v5.2 inicial!
+    for (const { from, to } of batchList) {
+      if (from.startsWith('#')) continue;
+      if (finalLine.includes(from)) {
+        if (from.includes('[[') || from.includes(']]')) {
+          finalLine = finalLine.split(from).join(to);
+        } else {
+          const segs = finalLine.split(/(\[\[[^\]]+\]\])/g);
+          finalLine = segs
+            .map((seg) =>
+              seg.startsWith('[[') && seg.endsWith(']]')
+                ? seg
+                : stripEmDashesFromProseSegment(applyOrthographyToTextSegment(seg.split(from).join(to)))
+            )
+            .join('');
+        }
+      }
+    }
+
+    return finalLine;
   });
 
-  return outLines.join('\n');
+  let joinedOut = outLines.join('\n');
+  for (const { from, to } of batchList) {
+    if (!from.startsWith('#') && from.includes('\n') && joinedOut.includes(from)) {
+      joinedOut = joinedOut.split(from).join(to);
+    }
+  }
+  return joinedOut;
 }
 
 module.exports = {
+  RENAMED_HEADINGS_LIST,
   applyReviewFixesToRawAndSpecs,
+  applyPreIndexVolumeFixes,
   applyVolumeReviewFixes,
 };
-

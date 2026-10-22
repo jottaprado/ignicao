@@ -78,7 +78,7 @@ graph LR
 
 ---
 
-# FASE DA ETAPA — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL (FASE 18)
+# ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL
 
 No Brasil, um único ponto cego societário, trabalhista ou contratual pode destruir anos de criação de valor e atingir o patrimônio pessoal dos fundadores. A **[[#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18]]** abre este volume com o roteiro prático de 10 passos para formalizar e blindar a companhia desde a fundação até a *due diligence* institucional.
 
@@ -88,7 +88,7 @@ No Brasil, um único ponto cego societário, trabalhista ou contratual pode dest
 
 ### O Esqueleto Jurídico Invisível e a Diligência que Mata a Rodada na Hora H
 
-Lucas e Marina passaram quatro meses negociando um Term Sheet de R$ 18 milhões com um fundo de Venture Capital de São Paulo. O valuation estava fechado, o comitê de investimento havia aprovado a tese comercial e o champanhe já estava na geladeira. Na terceira semana da auditoria jurídica (*legal due diligence*), o escritório de advocacia do fundo abriu a caixa-preta societária da startup e encontrou o retrato do improviso brasileiro: o primeiro desenvolvedor que escreveu o motor central do sistema nos seis meses iniciais nunca havia assinado termo de cessão de propriedade intelectual; a marca principal operava com pedido indeferido no INPI; um ex-sócio minoritário que saiu brigado no primeiro ano ainda detinha 12% no contrato social sem cláusula de *vesting*; e quatro vendedores estratégicos atuavam como PJs com subordinação explícita no WhatsApp. O fundo reduziu o valuation em R$ 4,5 milhões e reteve 25% do cheque em conta vinculada (*escrow*) até a limpeza completa do passivo.
+Dois anos antes, na preparação da Série A retratada no Volume 5, Lucas e Marina haviam passado quatro meses negociando a rodada com um fundo de Venture Capital de São Paulo. O valuation estava fechado, o comitê de investimento havia aprovado a tese comercial e o champanhe já estava na geladeira. Na terceira semana da auditoria jurídica (*legal due diligence*), o escritório de advocacia do fundo abriu a caixa-preta societária da startup e encontrou o retrato do improviso brasileiro: o primeiro desenvolvedor que escreveu o motor central do sistema nos seis meses iniciais nunca havia assinado termo de cessão de propriedade intelectual; a marca principal operava com pedido indeferido no INPI; o investidor-anjo que entrou no décimo mês com 35% do capital ainda mantinha poder de veto sobre qualquer nova rodada, e os fundadores não tinham cláusula de *reverse vesting* no acordo de sócios; e quatro vendedores estratégicos atuavam como PJs com subordinação explícita no WhatsApp. O fundo exigiu a retenção de 25% do aporte em conta vinculada (*escrow*) e condicionou o fechamento da Série A (na qual a participação dos fundadores passaria de 85% para 47%, conforme visto no Volume 5) à limpeza completa do passivo.
 
 Ninguém abre uma empresa sonhando em ler cláusulas societárias, mas o Brasil pune a ingenuidade jurídica com confisco patrimonial. O paradoxo da blindagem operacional é que o jurídico nunca parece urgente enquanto a empresa é pequena: até o dia em que a empresa dá certo e cada atalho do passado ganha poder de veto sobre o seu futuro.
 
@@ -101,13 +101,13 @@ Você precisa vencer **A Fragilidade do Alicerce de Papel**: a ilusão de que te
 
 ### Por Que um Passivo Jurídico Mal Cuidado Destrói Múltiplos de Valuation e Trava Rodadas
 
-Muitos empreendedores postergam formalização. Acham que é burocracia. Na verdade, a falta de formalização gera riscos concretos. Autuações fiscais. Impossibilidade de emitir notas. Quebra de contratos por falta de amparo jurídico. Perda de funcionários por informalidade. Inviabilidade de captar investimento. Bloqueio de contas bancárias. A estruturação tarda. Mas sempre tem que acontecer. E quanto antes, melhor.
+Muitos empreendedores postergam formalização. Acham que é burocracia. Na verdade, a falta de formalização gera riscos concretos. Sem formalização, a empresa sofre autuações fiscais, fica impedida de emitir notas fiscais, perde contratos comerciais por falta de amparo jurídico, afasta talentos pela informalidade e trava qualquer captação de investimento na diligência. Bloqueio de contas bancárias. A estruturação tarda. Mas sempre tem que acontecer. E quanto antes, melhor.
 
 ### A Execução Sequencial dos 10 Passos: Tipo Societário, Acordo de Sócios, IP, Contratos e LGPD
 
 Dez passos.
 
-#### Passo 1, defina o tipo societário
+#### Passo 1: defina o tipo societário
 
 No Brasil, as formas mais comuns para startups são quatro.
 
@@ -120,7 +120,7 @@ LTDA. Mais de um sócio. Mais flexível. Capital social declarado.
 S/A. Estrutura para captação robusta. Mais complexa. Obrigatória para IPO.
 
 > [!important] Para a maioria das startups iniciais, LTDA é o ponto ideal
-> S/A entra em cena quando há captações de venture capital significativas. Migrar de LTDA para S/A custa entre R$ 15 mil e R$ 40 mil em honorários jurídicos para conversão simples (alteração de tipo societário, sem reestruturação de cap table (tabela de capitalização: quem tem quanto da empresa)). Para migração no contexto de Série A com reestruturação societária completa (classes de ações, ESOP, drag/tag-along, holding), a faixa sobe para R$ 30 mil a R$ 100 mil: esta é a faixa documentada no [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 2 — CONTABILIDADE, REGIMES FISCAIS E TRIBUTÁRIO ESTRATÉGICO (REFORMA IBS/CBS E INCENTIVOS)|Capítulo 2 (Contabilidade, Regimes Fiscais e Tributário Estratégico (Reforma Ibs/cbs e Incentivos)) (Vol. 5)]] e se aplica ao cenário típico em que a migração efetivamente acontece. Em ambos os casos, é trivial: não vale antecipar a estrutura mais pesada.
+> S/A entra em cena quando há captações de venture capital significativas. Migrar de LTDA para S/A custa entre R$ 15 mil e R$ 40 mil em honorários jurídicos para conversão simples (alteração de tipo societário, sem reestruturação de cap table (tabela de capitalização: quem tem quanto da empresa)). Para migração no contexto de Série A com reestruturação societária completa (classes de ações, ESOP, drag/tag-along, holding), a faixa sobe para R$ 30 mil a R$ 100 mil: esta é a faixa documentada no [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 2 — CONTABILIDADE, REGIMES FISCAIS E TRIBUTÁRIO ESTRATÉGICO (REFORMA IBS/CBS E INCENTIVOS)|Capítulo 2 (Contabilidade, Regimes Fiscais e Tributário Estratégico (Reforma Ibs/cbs e Incentivos)) (Vol. 5)]] quando a migração inclui classes de ações, ESOP e governança completa. Ainda assim, esse valor representa uma fração pequena do cheque da Série A: não vale antecipar a estrutura mais pesada.
 
 > [!tip] Capítulo 1: Marco Legal das Startups
 > O [[#CAPÍTULO 1 — MARCO LEGAL DAS STARTUPS: LC 182/2021|Capítulo 1: Marco Legal das Startups]] (Lei 182/2021) trata dos mecanismos da Lei Complementar 182/2021: definição legal de startup, proteção ao investidor que não ingressa no quadro societário, sandbox regulatório (art. 11), licitação em modalidade especial para testar soluções inovadoras no setor público (CPSI, arts. 12 a 15) e simplificações para S.A. fechada de menor porte: relevante para decidir estrutura jurídica e acessar programas de fomento.
@@ -129,7 +129,7 @@ S/A. Estrutura para captação robusta. Mais complexa. Obrigatória para IPO.
 
 No Brasil, três regimes principais.
 
-Simples Nacional. Para receitas anuais até o teto definido em lei (verifique o valor atualizado). Menor complexidade. Alíquotas variam conforme atividade e faturamento.
+**Simples Nacional:** para receitas brutas anuais de até R$ 4,8 milhões (enquanto o Lucro Presumido atende empresas até R$ 78 milhões/ano, valores de referência em 2026). Oferece menor complexidade operacional, com alíquotas que variam por anexo e faixa de faturamento. Com a Reforma Tributária (LC 214/2025, com teste de CBS e IBS em 2026 e vigência da CBS em 2027), empresas do Simples que vendem para clientes B2B no regime regular transferem crédito tributário reduzido caso não optem pelo recolhimento de IBS e CBS por fora do documento único; avalie essa escolha com seu contador conforme detalhado no Capítulo 2 do Volume 5.
 
 Lucro Presumido. Para receitas até outro patamar acima do Simples. Bom para algumas atividades com margem alta.
 
@@ -145,7 +145,7 @@ Lucro Real. Obrigatório para receitas acima do limite do Lucro Presumido, e par
 
 Três providências.
 
-Registro da marca no INPI (Brasil) para proteger nome e logo. O processo demora doze a vinte e quatro meses. Mas o protocolo já gera direitos.
+Registro da marca no INPI (Brasil) para proteger nome e logo. O exame pelo INPI leva em média de 12 a 18 meses até a decisão final. O protocolo do pedido garante o direito de prioridade sobre depósitos posteriores na mesma classe, mas o direito exclusivo de uso em todo o território nacional só nasce com a concessão do registro.
 
 Registro de domínio. .com.br, .com, e outros relevantes para o negócio.
 
@@ -157,7 +157,7 @@ Quatro tipos de contrato.
 
 ##### Acordo de sócios, se houver sócios
 
-Obrigatório desde o primeiro dia. Inclua sete itens. Divisão de participação. Vesting de equity (participação societária): ninguém vira sócio pleno no dia zero, a participação se consolida ao longo de anos. Regras de saída voluntária, involuntária, e morte. Direitos de veto em decisões críticas. Mecanismos de resolução de conflito. Não compete, e confidencialidade. Cláusula de tag-along, e drag-along, para rodadas futuras.
+Indispensável desde o primeiro dia entre cofundadores. Na LTDA, como as quotas são subscritas na abertura, o vesting opera por cláusula de opção de recompra das quotas não consolidadas por valor simbólico (*reverse vesting*) no acordo de sócios, com atenção para evitar risco de requalificação trabalhista se o sócio também for empregado. Inclua sete itens essenciais: divisão de participação e vesting de participação societária, ninguém vira sócio pleno no dia zero, a participação se consolida ao longo de anos. Regras de saída voluntária, involuntária, e morte. Direitos de veto em decisões críticas. Mecanismos de resolução de conflito. Não compete, e confidencialidade. Cláusula de tag-along, e drag-along, para rodadas futuras.
 
 ```mermaid
 xychart-beta
@@ -168,12 +168,12 @@ xychart-beta
 ```
 
 > [!note] Como funciona o vesting com cliff
-> Nos primeiros 12 meses (o cliff (período mínimo antes de começar a adquirir participação)), nada vesta. No mês 13, 25% consolida de uma vez. Dos meses 13 a 48, o restante vesta mensalmente (~2,08% ao mês). Se o fundador sai antes de 12 meses, não leva nada. Se sai no mês 30, leva 50% da participação acordada. Isso protege a empresa de cofundadores que saem cedo mas mantêm participação grande.
+> Nos primeiros 12 meses, correspondentes ao período de carência (*cliff*), nenhuma participação se consolida (ao completar o 12º mês, 25% se consolidam de uma vez). No mês 13, 25% consolida de uma vez. Dos meses 13 a 48, o restante vesta mensalmente (~2,08% ao mês). Se o fundador sai antes de completar os 12 meses de carência, não consolida participação alguma. Se sai no mês 30, consolida 62,5% da participação acordada (30 de 48 meses; sem cláusula de recompra no acordo de sócios, ele sairia mantendo 100% das quotas subscritas no contrato social). Isso protege a empresa de cofundadores que saem cedo mas mantêm participação grande.
 
 > [!tip] Canvases Visuais: Capital Stack / Waterfall (Fase 14)
 > Cap table com vesting é o tema central desta fase. O [[IGNICAO-Vol-5-Financas-e-Captacao#Canvas: Capital Stack / Waterfall Canvas|Canvas: Capital Stack / Waterfall Canvas (Vol. 5)]] é o mapa visual da estrutura de capital, Common (fundadores), Preferred (investidores com seniority), pool de ESOP, dívida, e do waterfall em cenário de exit (preferences, participation, conversion). Use desde a primeira rodada para que decisões de term sheet (1x participating, anti-dilution full ratchet vs weighted average, ESOP top-up) tenham impacto visualmente claro no que cada parte recebe em diferentes valuations de saída.
 
-> [!warning] Conflito entre sócios é a segunda maior causa de morte de startups no mundo
+> [!warning] Conflitos entre cofundadores estão entre as causas mais citadas de mortalidade precoce de startups (Noam Wasserman, *The Founder's Dilemmas*): casal sem pacto antenupcial divide bens no litígio; sócios sem acordo dividem a empresa no tribunal
 > Não pule o acordo. Casais que se separam sem contrato pré-nupcial passam por divórcio. Sócios que se separam sem acordo passam por anos de litígio. O [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 3 — DISPUTA SOCIETÁRIA E SAÍDA DE SÓCIO|Capítulo 3 (Disputa Societária e Saída de Sócio) (Vol. 9)]] cobre prevenção (cláusulas que evitam o conflito), mediação (quando o conflito chega) e mecânica jurídica de saída forçada.
 
 ###### Formalização jurídica do equity acordado
@@ -182,7 +182,7 @@ A discussão substantiva sobre divisão de equity entre fundadores: quatro fator
 
 - **Vesting de 4 anos com cliff de 12 meses para todos os fundadores.** Padrão de mercado que protege a empresa de cofundador que sai antes da consolidação completa.
 - **Reverse vesting**: equity não consolidado volta para o pool se o sócio sai. Sem isso, sócio que sai no mês 30 leva 50% mas a empresa fica sem o trabalho que esse equity representava.
-- **Mecanismo de compra de equity do sócio que sai** (shooting mechanism ou buy-sell agreement). Define preço, prazo e fonte do dinheiro para recompra antes do conflito existir.
+- **Mecanismo de recompra das quotas do sócio que sai** (opção de compra com fórmula de preço, prazo de pagamento e regras de *good leaver* e *bad leaver*) e **cláusula de resolução de impasse societário** (*shotgun* ou *buy-or-sell*, em que um sócio propõe preço por quota e o outro escolhe comprar ou vender pelo mesmo valor).
 - **Critério explícito de casting vote em impasse**. Em divisão 50/50, um sócio precisa ter voto de minerva em categoria específica de decisão (técnica, comercial, etc.): sem isso, impasse trava operação.
 
 > [!tip] Não negocie equity em jantar
@@ -220,7 +220,7 @@ Parceiros, fornecedores, e potenciais investidores quando apropriado.
 Cinco providências. Mapeie os tratamentos e defina a base legal de cada um dentre as dez do art. 7º da LGPD (consentimento é apenas uma delas, ao lado de execução de contrato e legítimo interesse). Publique aviso de privacidade transparente. Nomeie encarregado (DPO) ou, se for agente de pequeno porte dispensado pela Resolução CD/ANPD 2/2022, mantenha canal de comunicação com o titular e a ANPD. Mantenha registro de tratamento de dados (ROPA). Tenha processo de resposta a solicitações do titular.
 
 > [!note] Compliance mínimo viável além da LGPD
-> O [[#CAPÍTULO 11 — COMPLIANCE E ANTICORRUPÇÃO PARA STARTUPS|Capítulo 11: Compliance e Anticorrupção]] cobre as obrigações da Lei Anticorrupção (Lei 12.846) aplicáveis a startups, o papel do DPO, PLD/CFT para fintechs, e como montar um programa de compliance enxuto: o mínimo exigido por investidores institucionais e clientes enterprise.
+> O [[#CAPÍTULO 11 — COMPLIANCE E ANTICORRUPÇÃO PARA STARTUPS|Capítulo 11: Compliance e Anticorrupção]] cobre as obrigações da Lei Anticorrupção (Lei 12.846/2013) aplicáveis a startups, prevenção à lavagem de dinheiro (PLD/CFT) para fintechs (enquanto a nomeação do Encarregado/DPO e a governança de privacidade estão no Capítulo 10), e como montar um programa de compliance enxuto: o mínimo exigido por investidores institucionais e clientes enterprise.
 
 #### Passo 6, instale contabilidade em dia
 
@@ -231,17 +231,17 @@ Quatro providências. Contador mensal. Emissão de notas fiscais corretas. Regis
 
 #### Passo 7, separe finanças pessoais e empresariais
 
-Conta bancária exclusivamente da empresa. Cartão corporativo. Pró-labore definido. Dividendos, se houver, formalizados.
+Mantenha conta bancária exclusivamente da pessoa jurídica, cartão corporativo separado, pró-labore mensal formalizado e distribuição de lucros amparada em balancete contábil. Desde janeiro de 2026 (Lei 15.270/2025), a distribuição de lucros e dividendos a pessoa física acima de R$ 50 mil por mês por empresa sofre retenção de 10% de IRRF na fonte e compõe a apuração do imposto mínimo anual, exigindo calibrar a relação entre pró-labore e dividendos com o contador (ver Capítulo 2 do Volume 5).
 
 > [!warning] Misturar CPF e CNPJ é caminho para desorganização e risco fiscal
-> Empréstimos do sócio para a empresa, ou da empresa para o sócio, sem contrato formal, geram autuação fiscal e descaracterização da pessoa jurídica em caso de litígio. Toda movimentação entre as duas pessoas (física e jurídica) precisa de contrato escrito.
+> Empréstimos do sócio para a empresa, ou da empresa para o sócio, sem contrato formal, podem ser autuados como distribuição disfarçada de lucros, atraem incidência de IOF no mútuo e servem de prova de confusão patrimonial em pedido judicial de desconsideração da personalidade jurídica (art. 50 do Código Civil). Toda movimentação entre as duas pessoas (física e jurídica) precisa de contrato escrito.
 
 > [!note] Responsabilidade do sócio e do administrador
 > O [[#CAPÍTULO 2 — RESPONSABILIDADE DO SÓCIO E DO ADMINISTRADOR|Capítulo 2: Responsabilidade do Sócio e Administrador]] explica quando a desconsideração da personalidade jurídica se aplica, o que configura confusão patrimonial, e as obrigações legais do administrador que justificam a separação rigorosa de contas.
 
 #### Passo 8, estabeleça processos operacionais documentados
 
-Cinco documentos vivos. Onboarding (processo de integração do novo colaborador) de novo cliente. Onboarding de novo funcionário. Processo de suporte. Processo de venda. Políticas internas (gastos, viagens, despesas).
+Mantenha cinco documentos operacionais vivos: roteiro de integração (*onboarding*) de novo cliente, integração de novo colaborador, processo de suporte, processo de vendas e políticas internas de gastos, viagens e reembolsos.
 
 > [!tip] Documente o necessário, não o exaustivo
 > Não precisa ser cinquenta páginas. Precisa ser claro e usado. Documento que ninguém lê é teatro de processo. Uma página por processo, em linguagem direta, vale mais do que manual elaborado que ninguém abre.
@@ -270,7 +270,7 @@ Seguro de vida para sócios-chave (key person). Em sociedades pequenas, a perda 
 
 ### Caso Aplicado de Trincheira: A Blindagem Passo a Passo da PadariaPro LTDA
 
-A pessoa jurídica. O formato escolhido foi LTDA (Sociedade Limitada). Adequado até Série A. Migração para S.A. planejada se a rodada superar R$ 5 milhões. CNAE principal: 62.02-3-00 (Desenvolvimento e licenciamento de programas de computador customizáveis). Capital social: R$ 100 mil, com R$ 20 mil integralizados, e R$ 80 mil a integralizar em vinte e quatro meses.
+A pessoa jurídica. O formato escolhido foi LTDA (Sociedade Limitada). Adequado até Série A. Migração para S.A. planejada se a rodada superar R$ 5 milhões. CNAE principal: 62.02-3-00 (Desenvolvimento e licenciamento de programas de computador customizáveis). Capital social: R$ 100 mil, com R$ 20 mil integralizados no ato e R$ 80 mil a integralizar em vinte e quatro meses (atenção ao art. 1.052 do Código Civil: enquanto restarem R$ 80 mil não integralizados, todos os sócios respondem solidariamente por esse saldo perante credores; capital subscrito alto e não integralizado gera exposição patrimonial, não proteção).
 
 O cap table inicial.
 
@@ -278,12 +278,12 @@ O cap table inicial.
 |---|---|---|---|
 | Joana (founder, CEO) | 55% | Tempo integral desde dia um | 48 meses, cliff 12m |
 | Bruno (cofounder, CTO) | 35% | Tempo integral desde mês três | 48 meses, cliff 12m |
-| Pedro (advisor e angel) | 5% | R$ 200 mil investidos em SAFE (pré-rodada) |: |
+| Pedro (advisor e investidor-anjo) | Fora do QSA (0% até conversão) | R$ 200 mil em mútuo conversível (LC 182/2021, art. 5º), estimativa de ~5% pós-conversão na próxima rodada |: |
 | ESOP (pool de equity) | 5% | Reservado para futuras contratações-chave | Por grant |
 
 O contador. Terceirizado. Escritório especializado em startups, R$ 1.200 por mês. Fechamento mensal: DRE, e balanço gerencial. Responsável por obrigações fiscais, folha (via ferramenta integrada), e relatório gerencial.
 
-Os contratos. Modelo de contrato PJ uniformizado para os quatro colaboradores atuais. CLT futura planejada depois da Série A. Termo de uso, mais política de privacidade, publicados no site. DPA assinado com AWS, Z-API (WhatsApp), Asaas (pagamentos), e Mailgun (e-mail transacional).
+Os contratos. Contratação CLT para os colaboradores com rotina fixa, subordinação e dedicação contínua, reservando contrato PJ exclusivamente para prestadores eventuais com autonomia real e cláusula expressa de cessão de propriedade intelectual e sigilo (evitando o passivo trabalhista que derruba o valuation na diligência da Série A). Termo de uso, mais política de privacidade, publicados no site. DPA assinado com AWS, Z-API (WhatsApp), Asaas (pagamentos), e Mailgun (e-mail transacional).
 
 A LGPD ([[#CAPÍTULO 9 — LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Capítulo 9 (LGPD, Compliance e Governança de Dados)]]). DPO terceirizado (DPO-as-a-Service, R$ 800 por mês). Canal `privacidade@padariapro.com.br` ativo. Mapeamento de tratamentos: catorze operações documentadas, com base legal.
 
@@ -291,7 +291,7 @@ O registro de marca. Pedido no INPI no dia 15 de fevereiro do ano. Protocolo em 
 
 A contingência. Reserva líquida: R$ 150 mil (cerca de três meses de despesas fixas). Plano de contingência de quatro páginas documentado ([[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9 — GESTÃO DE CRISE, CONTINUIDADE OPERACIONAL E COMUNICAÇÃO CRÍTICA|Capítulo 9 (Gestão de Crise, Continuidade Operacional e Comunicação Crítica) (Vol. 9)]]), para quatro cenários: caixa crítico, churn explosivo, perda de sócio, e regulatório.
 
-A separação financeira. Conta PJ no Nubank Empresa. Pró-labore dos founders definido em R$ 7.500 por mês (patamar mínimo aceitável definido na [[IGNICAO-Vol-1-Ideacao#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0 (Vol. 1)]]). Nada de "empréstimos entre sócios e empresa" sem contrato formal.
+A separação financeira. Conta PJ no Nubank Empresa. Pró-labore dos fundadores definido em R$ 7.500 por mês (alinhado ao planejamento financeiro pessoal visto no Capítulo 1 e na [[IGNICAO-Vol-1-Ideacao#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0 (Vol. 1)]]). Nada de "empréstimos entre sócios e empresa" sem contrato formal.
 
 ### Os Entregáveis Concretos da Empresa Blindada e Pronta Para Escalar
 
@@ -309,7 +309,7 @@ Você concluiu a Fase 18 quando todos os critérios abaixo estão cumpridos.
 - [ ] Cobertura de seguros adequada ao estágio: responsabilidade civil cobrindo pelo menos 5x o faturamento mensal, cyber se trata dados, D&O após Série A ou quando houver investidores no board, Key Man se sócios são single-point-of-failure.
 
 > [!warning] Critério de saída
-> Postergar formalização não é "ganhar tempo". É acumular dívida fiscal, trabalhista e jurídica que compõe. Custa semanas no começo. Custa meses ou milhões depois.
+> Postergar formalização não é "ganhar tempo". É acumular dívida fiscal, trabalhista e jurídica que cresce mês a mês com juros e multas. Custa semanas no começo. Custa meses ou milhões depois.
 
 **Primeiros passos práticos.**
 
@@ -317,9 +317,9 @@ Você concluiu a Fase 18 quando todos os critérios abaixo estão cumpridos.
 2. Formalize o cap table em planilha detalhada, mais o vesting dos sócios (quatro anos com cliff de doze meses é padrão).
 3. Contrate contador especializado em startup, ou serviços como Contabilizei, ou Omie mais contador, para começar fechamento mensal.
 4. Inicie o registro de marca no INPI. Pode levar oito a dezoito meses. Comece cedo.
-5. Redija política de privacidade, mais termos de uso, mais mapeamento LGPD básico.
+5. Redija a política de privacidade, os termos de uso e o mapeamento básico de dados pessoais (LGPD).
 
-### Os Erros Jurídicos Fatais que Custam Parte do Cap Table ou o Patrimônio da Família
+### Os Erros Jurídicos que Custam Parte do Cap Table ou o Patrimônio da Família
 
 "Depois eu resolvo". Dívida fiscal e trabalhista compõe. Deixar para depois quase sempre é mais caro do que lidar agora.
 
@@ -346,7 +346,7 @@ Abra a pasta societária e contratual da sua empresa agora e responda sem descul
 
 **Regra de Sobrevivência:** O advogado mais caro do mundo é o advogado barato ou o modelo copiado da internet que você usa para economizar R$ 5 mil no ano um e que custa R$ 2 milhões na Série A.
 
-**O Ritual de Segunda-Feira às 9h:** Monte o Data Room permanente da sua empresa em uma pasta organizada na nuvem com 6 subpastas (Societário, Propriedade Intelectual, Contratos Comerciais, Trabalhista/Pessoas, Tributário/Contábil e LGPD/Segurança) e audite os documentos faltantes desta semana.
+**O Ritual de Segunda-Feira às 9h (rotina semanal de 30 minutos):** Monte o Data Room permanente da sua empresa em uma pasta organizada na nuvem com 6 subpastas (Societário, Propriedade Intelectual, Contratos Comerciais, Trabalhista/Pessoas, Tributário/Contábil e LGPD/Segurança) e reserve 20 minutos toda segunda-feira para a rotina de manutenção: arquivar os contratos assinados na semana anterior, conferir se cada novo colaborador ou prestador assinou termo de cessão de PI e NDA antes do acesso aos sistemas e renovar as certidões negativas que vencem nos próximos 30 dias.
 
 ---
 
@@ -354,7 +354,7 @@ Abra a pasta societária e contratual da sua empresa agora e responda sem descul
 
 | Métrica | O que medir | Referência saudável |
 |---|---|---|
-| MRR | Receita recorrente mensal | R$ 100 mil a R$ 500 mil (Série A típica) |
+| Conformidade de PI e Contratos | % de colaboradores e PJs com cessão de PI e NDA assinados e certidões negativas válidas no data room | 100% dos ativos críticos, contratos e registros no INPI regularizados antes da diligência |
 | Crescimento MoM | Crescimento mês a mês | ≥ 10-15% ao mês |
 | Runway | Meses de caixa disponível | ≥ 18 meses pós-rodada |
 | Cap table limpa | Sem problemas de governança ou direitos conflitantes | Sim |
@@ -368,7 +368,7 @@ Abra a pasta societária e contratual da sua empresa agora e responda sem descul
 
 #### Profissionais que você vai precisar
 
-Contador com experiência em startups e PMEs. Advogado com prática em societário, contratos e LGPD. Designer (de produto ou de serviço) freelancer. Tech lead ou desenvolvedor (se o produto exige tecnologia). Eventualmente: especialista em marketing digital, especialista em vendas B2B.
+Contrate quatro perfis especializados conforme a etapa: (1) contador com prática em startups, apuração de créditos na transição IBS/CBS e folha de tecnologia (mensalidade típica de R$ 800 a R$ 3.500 no estágio inicial); (2) advogado societário e contratual habituado ao Marco Legal das Startups (LC 182/2021), acordos de quotistas com *reverse vesting* e contratos B2B; (3) encarregado de dados (DPO as a Service ou interno) com domínio das resoluções da ANPD; e (4) agente de propriedade industrial para buscas de anterioridade e depósitos no INPI. Leituras de cabeceira para o fundador: Lei Complementar 182/2021, Código Civil (arts. 1.052 a 1.087), guias orientativos da ANPD e *Venture Deals* (Brad Feld e Jason Mendelson).
 
 #### Tipos de comunidades e recursos online para empreendedores
 
@@ -384,7 +384,7 @@ Spina, C., Camuffo, A., e Gambardella, A. (2020). *Founders, apply the scientifi
 
 Nessa fase você formalizou o tipo societário (LTDA ou S/A), o regime tributário, o cap table com vesting, o acordo de sócios, os contratos com clientes e colaboradores, o programa LGPD e a contabilidade mensal. A diferença entre quem faz certo e quem falha está em tratar formalização como infraestrutura, não como obstáculo. Escolha de regime tributário tem efeito multimilionário em três a cinco anos. Cap table mal-feita é dor de cabeça em qualquer captação séria. Compliance LGPD é pré-requisito para vender enterprise ou captar Série A institucional.
 
-Com essa base formalizada, a [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16 (Vol. 6)]] pode ser executada: construir time, operação e máquina de crescimento sem o risco jurídico e tributário de uma empresa ainda informal.
+Com a empresa blindada, a Fase 19 (no Volume 9) trata da segunda curva de expansão e governança, garantindo que a estrutura construída desde a [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16 (Vol. 6)]] pode ser executada: construir time, operação e máquina de crescimento sem o risco jurídico e tributário de uma empresa ainda informal.
 
 ---
 
@@ -398,7 +398,7 @@ A primeira muralha jurídica protege quem é dono da empresa, até onde vai o ri
 
 ### O Escudo do Investidor-Anjo e as Engrenagens Reais do Marco Legal das Startups
 
-Em Belo Horizonte, um médico cirurgião amigo da Dra. Camila queria investir R$ 400 mil na primeira rodada de expansão da rede de clínicas e tecnologia dela. Na véspera de assinar a transferência, o contador tradicional do médico travou o negócio com um alerta apocalíptico: "Não coloque seu CPF nem como minoritário nessa LTDA! Meu cunhado entrou com 5% no restaurante de um amigo há seis anos, o restaurante quebrou e a Justiça do Trabalho bloqueou a conta pessoal dele semana passada para pagar dívida de ex-funcionário". Antes de 2017, o contador teria razão caso o aporte entrasse como quota comum de LTDA; desde a LC 155/2016 (em vigor em 2017 para ME e EPP) e com a ampliação da Lei Complementar 182/2021 para mútuo conversível e outros instrumentos em qualquer startup, a lei blindou o investidor passivo. Mas Camila e seu advogado societário mostraram ao investidor que a lei havia mudado estruturalmente o jogo para quem usa os instrumentos jurídicos corretos.
+Em Belo Horizonte, um médico cirurgião amigo da Dra. Camila queria investir R$ 400 mil na nova rodada de expansão da rede de clínicas odontológicas e tecnologia dela. Na véspera de assinar a transferência, o contador tradicional do médico travou o negócio com um alerta apocalíptico: "Não coloque seu CPF nem como minoritário nessa LTDA! Meu cunhado entrou com 5% no restaurante de um amigo há seis anos, o restaurante quebrou e a Justiça do Trabalho bloqueou a conta pessoal dele semana passada para pagar dívida de ex-funcionário". Antes de 2017, o contador teria razão caso o aporte entrasse como quota comum de LTDA; desde a LC 155/2016 (em vigor em 2017 para ME e EPP) e com a ampliação da Lei Complementar 182/2021 para mútuo conversível e outros instrumentos em qualquer startup, a lei blindou o investidor passivo. Camila e seu advogado societário mostraram ao cirurgião que a lei havia mudado estruturalmente o jogo: mesmo que a holding de clínicas operasse como sociedade limitada, o aporte de R$ 400 mil podia ser estruturado via mútuo conversível (art. 5º da LC 182/2021) ou contrato de participação de investidor-anjo (art. 61-A da LC 123/2006, aplicável a ME e EPP independentemente de enquadramento como startup), mantendo o médico fora do quadro societário e blindado contra dívidas trabalhistas.
 
 A verdade dura do ecossistema brasileiro é que a maioria dos empreendedores e contadores generalistas nunca leu as ferramentas práticas da LC 182/2021: e continua assinando contratos sociais amadores que expõem o patrimônio do investidor ou usam veículos errados para contratar com o Estado.
 
@@ -407,15 +407,15 @@ Você precisa dominar **A Assimetria Regulatória do Marco Legal**: saber exatam
 ---
 
 > [!note] Nota de validade
-> A Lei Complementar 182/2021 foi promulgada em junho de 2021. Valores de receita bruta, limites de dispensa de licitação, e regulamentações setoriais do ARE podem ser atualizados por decreto ou resolução posterior. Este capítulo reflete o cenário de abril de 2026. Revisar anualmente com advogado especializado em direito empresarial e startups.
+> A Lei Complementar 182/2021 foi promulgada em junho de 2021. O teto de receita bruta de R$ 16 milhões e os limites do CPSI estão fixados na própria LC 182/2021 e só se alteram por lei complementar; já os limites gerais da Lei 14.133/2021 são corrigidos anualmente por decreto federal e as regras de cada sandbox regulatório são definidas por resolução do respectivo regulador setorial. Este capítulo reflete o cenário de abril de 2026. Revisar anualmente com advogado especializado em direito empresarial e startups.
 
-A [[#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18]] cobre constituição, cap table (quadro societário) e vesting (período de aquisição progressiva da participação). O [[#CAPÍTULO 5 — ARQUITETURA CONTRATUAL PARA STARTUPS: OPERAÇÃO E CONTRATOS EM PROFUNDIDADE POR TIPO|Capítulo 5 (Arquitetura Contratual para Startups: Operação e Contratos em Profundidade por Tipo)]] cobre contratos operacionais e IP (propriedade intelectual). O [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 2 — CONTABILIDADE, REGIMES FISCAIS E TRIBUTÁRIO ESTRATÉGICO (REFORMA IBS/CBS E INCENTIVOS)|Capítulo 2 (Contabilidade, Regimes Fiscais e Tributário Estratégico (Reforma Ibs/cbs e Incentivos)) (Vol. 5)]] cobre tributário. O [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 9 — CAPTAÇÃO DE EQUITY: PLANEJAMENTO DE RODADA, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 9 (Captação de Equity: Planejamento de Rodada, Pitch e Relacionamento com Investidores) (Vol. 5)]] cobre captação. Este capítulo cobre a Lei Complementar 182/2021, o marco legal das startups, com foco nos instrumentos que ela criou e em como usá-los na prática.
+A [[#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18]] cobre constituição, cap table (quadro societário) e vesting (período de aquisição progressiva da participação). O [[#CAPÍTULO 5 — ARQUITETURA CONTRATUAL PARA STARTUPS: OPERAÇÃO E CONTRATOS EM PROFUNDIDADE POR TIPO|Capítulo 5 (Arquitetura Contratual para Startups: Operação e Contratos em Profundidade por Tipo)]] cobre contratos operacionais (enquanto o Capítulo 3 trata de propriedade intelectual e registro no INPI). O [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 2 — CONTABILIDADE, REGIMES FISCAIS E TRIBUTÁRIO ESTRATÉGICO (REFORMA IBS/CBS E INCENTIVOS)|Capítulo 2 (Contabilidade, Regimes Fiscais e Tributário Estratégico (Reforma Ibs/cbs e Incentivos)) (Vol. 5)]] cobre tributário. O [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 9 — CAPTAÇÃO DE EQUITY: PLANEJAMENTO DE RODADA, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 9 (Captação de Equity: Planejamento de Rodada, Pitch e Relacionamento com Investidores) (Vol. 5)]] cobre captação. Este capítulo cobre a Lei Complementar 182/2021, o marco legal das startups, com foco nos instrumentos que ela criou e em como usá-los na prática.
 
 ### Por Que Entender o Marco Legal Destrava Cheques de Anjos que Têm Medo da Justiça Brasileira
 
 Antes da LC 182/2021, o fundador brasileiro usava instrumentos improvisados para captação pré-seed e seed (rodadas iniciais). Mútuo conversível com cláusulas customizadas. SAFE adaptado para o direito brasileiro sem base legal clara. Investidor-anjo sem proteção contra responsabilidade societária.
 
-A lei criou instrumentos nativos. Usar o COCP em vez de um SAFE adaptado não é apenas elegância jurídica, é segurança legal para ambas as partes: menos risco em due diligence (auditoria prévia à transação) e menos argumento para desconto de valuation (avaliação da empresa).
+A lei criou instrumentos nativos. Adotar o COCP previsto na lei brasileira, em vez de traduzir um SAFE estrangeiro sem respaldo local, traz segurança jurídica direta para ambas as partes: menos risco em due diligence (auditoria prévia à transação) e menos argumento para desconto de valuation (avaliação da empresa).
 
 Para govtechs, a LC 182/2021 criou a licitação em modalidade especial e o Contrato Público para Solução Inovadora (CPSI, arts. 12 a 15), aberto a qualquer pessoa física ou jurídica, com teto de R$ 1,6 milhão por contrato de teste e possibilidade de contrato de fornecimento posterior sem nova licitação até cinco vezes esse valor (R$ 8 milhões).
 
@@ -436,13 +436,13 @@ O art. 4º da LC 182/2021 enquadra como startup a organização empresarial ou s
 
 ---
 
-### O Contrato de Opção (COCP) e o Novo Regime Tributário de Stock Options
+### Opções (COCP) e Mútuo Conversível: Como o Investidor Entra Sem Ser Sócio
 
 #### O que é
 
 O COCP é um contrato pelo qual o investidor faz um aporte financeiro na startup sem se tornar sócio imediatamente. Em troca, recebe o **direito de opção** de comprar participação societária no futuro, em condições pré-definidas no contrato.
 
-O SAFE americano (Simple Agreement for Future Equity) é o equivalente funcional. A diferença técnica: o SAFE converte automaticamente ao atingir o gatilho (próxima rodada priced, ou data). O COCP é uma opção: o investidor **decide se exerce ou não** no momento da conversão.
+O SAFE americano (Simple Agreement for Future Equity) é o equivalente funcional. A diferença técnica: o SAFE padrão converte automaticamente na próxima rodada precificada (*priced round*) ou em evento de liquidez, sem data de vencimento. O COCP é uma opção: o investidor **decide se exerce ou não** no momento da conversão.
 
 #### Como funciona na prática
 
@@ -481,7 +481,7 @@ sequenceDiagram
 | Base legal brasileira | ✅ LC 182/2021 | ❌ Adaptação contratual | ✅ Código Civil |
 | Natureza | Opção de equity | Futuro equity | Dívida conversível |
 | Investidor é sócio? | Não, até exercício | Não, até conversão | Não (é credor) |
-| Gera IOF? | Não | Não (estrutura equity) | Sim (operação de crédito) |
+| Gera IOF? | Não | Não (estrutura de opção) | Sim se o mutuante for PJ; em regra isento se investidor PF |
 | Conta para limite Simples? | Não | Depende da estrutura | Não (empréstimo) |
 | Responsabilidade do investidor | Limitada ao aporte | Limitada | Limitada |
 | Risco de requalificação tributária | Baixo | Médio (sem lei) | Médio (juros e IOF) |
@@ -504,7 +504,7 @@ Cláusulas do COCP:
 - Prazo máximo: 5 anos
 - Direitos informativos: acesso mensal a MRR, burn, e headcount
 
-Na próxima rodada (18 meses depois), a startup levanta Série Seed de R$ 2 milhões com valuation pré-money de R$ 8 milhões. O investidor exerce a opção. Calcula-se a participação com base no menor entre: (a) cap de R$ 6M, ou (b) 80% do valuation da rodada (R$ 6,4M). Usa-se o cap (R$ 6M). R$ 400K ÷ R$ 6M = 6,67% de participação.
+Na próxima rodada (18 meses depois), a startup levanta Série Seed de R$ 2 milhões com valuation pré-money de R$ 8 milhões. O investidor exerce a opção. Calcula-se a participação com base no menor entre: (a) cap de R$ 6M, ou (b) 80% do valuation da rodada (R$ 6,4M). Usa-se o cap (R$ 6M). Pelo método de valuation pré-money fixo no cap de R$ 6M, o investidor converte seus R$ 400 mil a R$ 6M (recebendo 6,25% antes do dinheiro novo) e, após a diluição pelos R$ 2 milhões da Série Seed (20% da empresa pós-rodada), passa a deter cerca de 5,0% do cap table final (ou 6,67% caso o contrato estipule expressamente conversão pelo percentual fixo pós-rodada, diferença matemática que precisa estar escrita na cláusula para evitar a diluição inesperada vista no Volume 5).
 
 #### Armadilhas do COCP
 
@@ -524,7 +524,7 @@ A LC 182/2021 manteve e expandiu a figura do investidor-anjo, originalmente regu
 
 #### Proteções legais
 
-O investidor-anjo **não é sócio**. Não consta no contrato social. Não tem direito a voto em assembleia. Não responde por dívidas, obrigações tributárias, trabalhistas, ou de qualquer natureza da empresa: mesmo em falência ou desconsideração da personalidade jurídica.
+O investidor-anjo **não é sócio**. Não consta no contrato social. Não tem direito a voto em assembleia. Não responde por dívidas, obrigações tributárias, trabalhistas ou de qualquer natureza da empresa, inclusive em recuperação judicial ou desconsideração da personalidade jurídica, salvo em caso de dolo, fraude ou simulação com participação direta do investidor (art. 8º, II, da LC 182/2021), desde que atue apenas em caráter consultivo e sem poder de gerência: mesmo em falência ou desconsideração da personalidade jurídica.
 
 Em troca, pode:
 - Receber remuneração de até **50% dos lucros** da empresa, proporcional ao aporte, por até 5 anos.
@@ -539,11 +539,11 @@ Em troca, pode:
 
 ---
 
-### FIPs, Mútuos e Estruturas de Captação Reconhecidas Pelo Artigo 5º
+### FIPs (Art. 9º da LC 182/2021): Quando o Cheque Vem de um Fundo Regulado pela CVM
 
 #### O que e
 
-O FIP e um fundo fechado de investimento regulado pela CVM, hoje pela Resolucao CVM 175/2022 (que substituiu a Instrucao CVM 578/2016). Ele compra participacao societaria em empresas brasileiras, geralmente acoes preferenciais com direitos politicos negociados, e e o veiculo majoritario pelo qual investidores institucionais brasileiros (fundos de pensao, family offices, gestoras locais) alocam capital em VC e private equity no pais.
+O FIP é um fundo fechado de investimento regulado pela CVM, hoje regido pela Resolução CVM 175/2022 (que substituiu a Instrução CVM 578/2016). Ele adquire participação societária ou títulos conversíveis em empresas brasileiras, geralmente ações preferenciais com direitos políticos negociados em acordo de acionistas, e é o veículo majoritário pelo qual investidores institucionais brasileiros (fundos de pensão, *family offices* e gestoras locais) alocam capital em Venture Capital e Private Equity no país.
 
 Para o fundador, importa entender que quando uma gestora brasileira propoe entrar no cap table, o cheque quase sempre vem de um FIP, nao da pessoa juridica da gestora. Isso condiciona governanca, liquidez e estrutura da rodada.
 
@@ -559,9 +559,9 @@ Para o fundador, importa entender que quando uma gestora brasileira propoe entra
 
 **Laudo de avaliacao**. FIP exige laudo de avaliacao independente para entrada (precificacao do aporte) e para saida (precificacao da venda). Isso afeta o calendario da rodada brasileira. O fundador deve antecipar prazo adicional de tres a seis semanas para o laudo de entrada, e contratar avaliador qualificado. Para detalhes do processo de valuation, ver [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 10 — VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR|Capítulo 10 (Valuation Methods: Como Investidores Calculam e como Você Calcula para Negociar) (Vol. 5)]].
 
-**Governanca obrigatoria**. FIP deve ter comite de investimento que aprova cada aporte e cada disposicao. Na pratica, o fundador sente isso em duas frentes. Decisoes da gestora podem demorar mais do que em fundo offshore (precisa passar pelo comite). E clausulas de protective provisions no acordo de acionistas tendem a ser mais detalhadas, refletindo a obrigacao do gestor de prestar contas ao comite.
+**Governança e comitê de investimento**. Muitos FIPs preveem em seu regulamento um comitê de investimento que aprova cada aporte e cada desinvestimento, além das regras de governança e de avaliação do valor justo dos ativos previstas no Anexo Normativo IV da Resolução CVM 175/2022. Na prática, o fundador sente isso em duas frentes: as decisões da gestora podem exigir aprovação formal do comitê, e as cláusulas de matérias sujeitas a veto (*protective provisions*) no acordo de acionistas tendem a ser detalhadas para refletir o dever fiduciário do gestor perante os cotistas.
 
-**Tributacao para a PF investidora**. Todo FIP tem 15 por cento de IR sobre o ganho de capital na realizacao (vs 22,5 por cento de renda fixa de prazo curto). O FIP-IE (Infraestrutura) sob a Lei 11.478/2007 oferece beneficio adicional, isencao plena de IR para a pessoa fisica residente. FIP-EE nao tem aliquota especial alem dos 15 por cento gerais aplicaveis a fundo de participacao. Isso significa que o LP brasileiro tem incentivo de tributacao na realizacao via FIP em relacao a renda fixa, e o gestor tem motivo para manter o veiculo elegivel ao longo da vida do fundo.
+**Tributação para a pessoa física investidora**. Desde a Lei 14.754/2023, o FIP enquadrado como entidade de investimento (com gestão profissional discricionária) mantém a alíquota de 15% de IR sobre os rendimentos na distribuição ou no resgate/alienação das cotas (sem come-cotas semestral, ao contrário dos fundos patrimoniais que não cumpram os requisitos de entidade de investimento). Já o FIP-IE (Infraestrutura) e o FIP-PD&I, sob a Lei 11.478/2007, oferecem isenção de IR sobre ganhos para a pessoa física residente, razão pela qual o gestor preserva rigorosamente o enquadramento regulatório do fundo.
 
 #### Diferenca pratica em relacao a fundo offshore
 
@@ -643,11 +643,13 @@ O poder público não compra produto pronto. Ele contrata o **desenvolvimento ou
 **Limites de valor.** A lei remete aos limites da Lei 14.133/2021, que são atualizados por decreto. Verificar o valor vigente de dispensa de licitação para inovação no momento da contratação. Como referência: o CPSI tem teto próprio fixado na LC 182/2021 (art. 14, § 2º) de R$ 1,6 milhão por contrato de teste e de até cinco vezes esse valor (R$ 8 milhões) no contrato de fornecimento subsequente (art. 15), atualizado anualmente pelo IPCA, não se confundindo com a dispensa geral por valor da Lei 14.133/2021 (que em 2026 é de R$ 65.492,11 para compras e outros serviços, art. 75, II, e R$ 130.984,20 para obras e serviços de engenharia, art. 75, I), mas para contratação de soluções inovadoras via startup há previsão de valores maiores nas regulamentações específicas dos órgãos.
 
 > [!tip] Govtech como canal de aquisição subestimado
-> Prefeituras, estados, autarquias, e fundações públicas têm orçamentos dedicados a inovação. Muitos estão ativamente buscando startups para resolver problemas de gestão, saúde pública, mobilidade, e educação. O custo de aquisição via dispensa de licitação é zero (sem comissão de canal). O risco é o ciclo longo, e a dependência de um único cliente grande. Ver [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 5 — SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|Capítulo 5 (Sales: Motion Completa, do Outbound ao Renewal) (Vol. 4)]] para gestão de concentração de receita.
+> Prefeituras, estados, autarquias, e fundações públicas têm orçamentos dedicados a inovação. Muitos estão ativamente buscando startups para resolver problemas de gestão, saúde pública, mobilidade, e educação. Embora não haja comissão de intermediários, o custo de aquisição no setor público é elevado: exige acompanhar editais, preparar documentação técnica, custear meses de operação assistida e suportar um ciclo de vendas de 12 a 24 meses (planeje caixa para ao menos um ano antes do primeiro recebimento). O risco é o ciclo longo, e a dependência de um único cliente grande. Ver [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 5 — SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|Capítulo 5 (Sales: Motion Completa, do Outbound ao Renewal) (Vol. 4)]] para gestão de concentração de receita.
 
-#### Quem já fez
+#### Caso Prático Ilustrativo: Henrique e o CPSI em Prefeitura do Interior do Paraná
 
-**Empresa**: DataH, startup de analytics para saúde pública.
+Depois de perder uma licitação tradicional da Lei 8.666 nos primeiros anos por exigências de atestado que favoreciam sistemas legados, Henrique utilizou o CPSI (art. 12 da LC 182/2021) para disputar um edital de desafio aberto por uma prefeitura de médio porte no interior do Paraná voltado à redução de perdas na manutenção da frota e de equipamentos públicos. A comissão especial avaliou o potencial de resolução do problema, o grau de desenvolvimento da solução e a viabilidade econômica, contratando o teste prático por 12 meses no valor de R$ 480 mil; cumpridas as metas auditáveis de disponibilidade e economia, o município assinou na sequência o Contrato de Fornecimento por dispensa de licitação (art. 15 da LC 182/2021).
+
+**Cenário composto ilustrativo**: startup brasileira de inteligência de dados para gestão de saúde pública municipal.
 **Contratante**: Secretaria Municipal de Saúde de Belo Horizonte.
 **Mecanismo**: Chamada pública via ARE-like interno, contrato de piloto sem licitação, valor de R$ 180 mil para 6 meses.
 **Resultado**: Contrato pleno de R$ 1,2 milhão após validação do piloto, via contratação direta (enquadrada como serviços de tecnologia especializada).
@@ -670,7 +672,7 @@ O poder público não compra produto pronto. Ele contrata o **desenvolvimento ou
 
 ### As Ilusões Perigosas Sobre o Inova Simples e a Falsa Imunidade do Administrador
 
-**Assumir que todo aporte pré-seed pode ser COCP**. Se o investidor é pessoa física com menos de R$ 10 milhões de patrimônio financeiro, há restrições de CVM sobre ofertas não registradas. Verificar enquadramento na Instrução CVM (ICVM 88/2022, crowdfunding, ou isenções específicas de oferta privada restrita).
+**Confundir aporte privado bilateral com oferta pública de valores mobiliários**. Um contrato de mútuo conversível ou COCP negociado de forma privada e individual com um investidor-anjo não exige registro na CVM. Porém, se a startup captar junto ao público em geral com esforço amplo de venda, precisará utilizar plataforma eletrônica de investimento participativo (*crowdfunding*) regulada pela **Resolução CVM 88/2022** ou observar as hipóteses de dispensa de registro de oferta pública da **Resolução CVM 160/2022**.
 
 **COCP sem advogado**. A lei criou o instrumento, mas a minuta precisa ser feita por especialista. Cláusulas de anti-diluição, drag-along parcial para o optante, e proteção em down round não estão automaticamente incluídas na lei: são negociadas contratualmente.
 
@@ -680,7 +682,7 @@ O poder público não compra produto pronto. Ele contrata o **desenvolvimento ou
 
 **Ignorar o prazo dos dez anos**. Empresa que constituiu como startup em 2018 e cresceu bem pode perder elegibilidade à LC 182 em 2028. Planejar transição antes: especialmente se houver ARE vigente ou contratos de dispensa em andamento.
 
-> [!info] Fases relacionadas
+Síntese comparativa de canais:
 
 ---
 
@@ -688,7 +690,7 @@ O poder público não compra produto pronto. Ele contrata o **desenvolvimento ou
 
 - **LC 182/2021**: texto integral no site do Planalto. Leitura direta obrigatória antes de usar qualquer instrumento.
 - **Regulamentação ARE por regulador**: cada regulador publica edital próprio. Monitorar BCB, CVM, SUSEP, e ANS.
-- **Startup Law (a.k.a. JOBS Act)**: equivalente americano para referência comparativa. Não tem aplicação direta no Brasil.
+- **JOBS Act (Jumpstart Our Business Startups Act, EUA, 2012)**: legislação norte-americana que flexibilizou ofertas públicas, *crowdfunding* de investimento e abertura de capital (IPO) para empresas emergentes, útil como referência comparativa para a Resolução CVM 88/2022.
 - **Deloitte / PwC / KPMG**: relatórios anuais sobre ecossistema de inovação e regulação no Brasil.
 - **ABStartups**: publica atualizações sobre impacto da lei no ecossistema nacional.
 
@@ -704,9 +706,9 @@ Revise os instrumentos jurídicos da sua última (ou próxima) captação e resp
 2. **A Elegibilidade Formal:** Seu contrato social ou estatuto contém a declaração expressa de utilização de modelos de negócios inovadores exigida pela lei para fins de comprovação perante terceiros e editais públicos?
 3. **A Realidade do Administrador:** Você compreende claramente que o escudo de proteção do Marco Legal protege o investidor que não gere o negócio, mas jamais isenta você, sócio administrador, em caso de fraude, confusão patrimonial ou desconsideração trabalhista?
 
-**Regra de Sobrevivência:** Nunca coloque um investidor-anjo diretamente no quadro societário (QSA) de uma LTDA no estágio inicial se ele puder entrar via mútuo conversível amparado pelo Marco Legal das Startups.
+**Regra de Sobrevivência:** Nunca coloque um investidor-anjo diretamente no quadro societário (QSA) de uma LTDA no estágio inicial: utilize mútuo conversível (padrão mais ágil de mercado), contrato de opção de subscrição (COCP) ou contrato de participação (art. 61-A da LC 123/2006 para ME e EPP), preservando a blindagem patrimonial da LC 182/2021.
 
-**O Ritual de Segunda-Feira às 9h:** Verifique com seu jurídico se o contrato social e os contratos de mútuo/opção vigentes da sua empresa citam expressamente os dispositivos da Lei Complementar 182/2021 para garantir a proteção legal máxima aos seus investidores.
+**O Ritual de Segunda-Feira às 9h (rotina semanal de 30 minutos):** Verifique com seu jurídico se o contrato social e os contratos de mútuo/opção vigentes da sua empresa citam expressamente os dispositivos da Lei Complementar 182/2021 e, toda segunda-feira, confira se algum investidor-anjo praticou ato de gestão, assinou como procurador ou assumiu poder de veto operacional na semana anterior, corrigindo imediatamente com o jurídico para não descaracterizar a blindagem legal (art. 8º da LC 182/2021).
 
 
 ---
@@ -717,7 +719,7 @@ Revise os instrumentos jurídicos da sua última (ou próxima) captação e resp
 
 Rafael acordou às 7h10 de uma quarta-feira em Recife e tentou passar o cartão de débito pessoal na padaria da esquina para comprar pão para os filhos. Transação negada. Tentou fazer um Pix pelo aplicativo do banco da sua conta física: saldo bloqueado judicialmente via SISBAJUD até o limite de R$ 310 mil. Uma ex-coordenadora de logística demitida dois anos antes por uma transportadora terceirizada que prestava serviços quase exclusivos à operação de Rafael havia ganhado uma reclamação trabalhista à revelia da terceirizada falida, incluído a startup desde a petição inicial como responsável subsidiária (Súmula 331, IV, do TST, e Tema 1.232 do STF) e, diante de uma conta bancária da empresa sem saldo no dia da penhora, o juiz do trabalho instaurou o Incidente de Desconsideração da Personalidade Jurídica (IDPJ, art. 855-A da CLT) com tutela cautelar (§ 2º), aplicando a Teoria Menor da desconsideração da personalidade jurídica e bloqueou diretamente as contas pessoais dos dois sócios no contrato social.
 
-Nenhum livro americano do Vale do Silício prepara você para esta verdade dura do ambiente de negócios brasileiro: no Brasil, a sigla "LTDA" no final do nome da sua empresa não é uma muralha de titânio; na Justiça do Trabalho e no Código de Defesa do Consumidor, ela é uma folha de papel de seda se você não souber como estruturar sua governança patrimonial.
+Nenhum livro americano do Vale do Silício prepara você para esta verdade dura do ambiente de negócios brasileiro: no Brasil, a sigla "LTDA" no final do nome da sua empresa não é uma muralha de titânio; na Justiça do Trabalho (art. 855-A da CLT) e nas relações de consumo (art. 28, § 5º, do CDC), aplica-se a Teoria Menor da desconsideração, pela qual basta a empresa não ter bens suficientes para que a execução alcance os sócios; já nos contratos civis e empresariais (art. 50 do Código Civil, Teoria Maior), é justamente a governança patrimonial rigorosa que impede a caracterização de desvio de finalidade ou confusão patrimonial, enquanto no fisco (art. 135, III, do CTN) o risco pessoal recai sobre o sócio-administrador que pratica infração à lei ou dissolve irregularmente a sociedade.
 
 Você precisa encarar **A Assimetria da Desconsideração da Personalidade Jurídica no Brasil**: a distância abissal entre a proteção teórica do Artigo 50 do Código Civil (Teoria Maior) e o bloqueio automático de contas pessoais que ocorre nas varas trabalhistas e fiscais quando você mistura CPF e CNPJ.
 
@@ -748,7 +750,7 @@ O que a blindagem societária protege na prática:
 
 O que a blindagem societária não protege automaticamente:
 
-- Dívidas tributárias quando há ato de gestão irregular (ver EP.3)
+- Dívidas tributárias quando há infração à lei ou dissolução irregular pelo administrador (ver seção 2.3; para trabalhista, ver 2.2; para atos de gestão, ver 2.4)
 - Dívidas trabalhistas em execução (ver EP.4)
 - Qualquer situação em que haja confusão patrimonial ou desvio de finalidade (ver EP.2)
 - Atos praticados com dolo, fraude ou abuso de poder
@@ -765,7 +767,7 @@ O Art. 50 do Código Civil brasileiro, com a redação dada pela Lei 13.874/2019
 
 **Gatilho 1: Desvio de finalidade**
 
-Ocorre quando os administradores ou sócios utilizam a pessoa jurídica para perseguir fins diferentes daqueles para os quais ela foi constituída, especificamente com o propósito de prejudicar credores.
+Pelo art. 50, § 1º, do Código Civil (incluído pela Lei da Liberdade Econômica, Lei 13.874/2019), desvio de finalidade é a utilização da pessoa jurídica com o propósito de lesar credores e para a prática de atos ilícitos de qualquer natureza; a mera expansão ou a alteração da finalidade original da atividade econômica específica da empresa não constitui desvio de finalidade (§ 5º).
 
 Exemplos práticos de desvio de finalidade:
 
@@ -842,7 +844,7 @@ A **Reforma Trabalhista de 2017 (Lei 13.467)** inseriu o Art. 855-A na CLT, que 
 > [!note] Execução trabalhista contra sócios minoritários
 > A Justiça do Trabalho, ao incluir sócios na execução, não distingue automaticamente entre sócio-gerente e sócio minoritário passivo. O sócio que tinha 5% das quotas mas não participava da gestão pode ser incluído na execução e precisar apresentar sua defesa via IDPJ. Se não o fizer no prazo, a penhora pode se concretizar. Sócios minoritários que não participam da administração devem monitorar processos trabalhistas da empresa para proteger seus interesses.
 
-**Responsabilidade solidária na terceirização**
+**Responsabilidade subsidiária na terceirização (Lei 6.019/1974, art. 5º-A, § 5º, e Súmula 331, IV, do TST): fiscalize mensalmente os recolhimentos de FGTS e INSS da prestadora e preveja retenção contratual**
 
 Empresa tomadora de serviços responde subsidiariamente por créditos trabalhistas dos empregados da prestadora de serviços que não forem pagos. Se o tomador for empresa do mesmo grupo econômico que a prestadora, a responsabilidade pode ser solidária, não apenas subsidiária.
 
@@ -867,7 +869,7 @@ O dever de lealdade proíbe o administrador de usar, em benefício próprio ou d
 
 Atos de gestão são aqueles que o administrador pratica dentro de suas atribuições estatutárias ou contratuais. Por eles, responde a empresa, não o administrador pessoalmente.
 
-Atos ultra vires são aqueles que excedem os poderes do administrador conforme definidos no contrato social, estatuto ou procuração. Por eles, o administrador pode responder pessoalmente se a contraparte provar que sabia da limitação.
+Atos ultra vires são aqueles que excedem os poderes do administrador conforme definidos no contrato social, estatuto ou procuração. Com a revogação do parágrafo único do art. 1.015 do Código Civil pela Lei 14.195/2021, a sociedade em regra vincula-se perante terceiros de boa-fé e tem ação regressiva contra o administrador que extrapolou seus poderes; além disso, os administradores respondem solidariamente perante a sociedade e os terceiros prejudicados por culpa no desempenho de suas funções (art. 1.016 do CC e art. 158 da Lei 6.404/1976).
 
 > [!note] O problema do administrador de fato
 > Se uma pessoa exerce funções de administração sem ter sido formalmente nomeada, o chamado "administrador de fato", ela pode ser responsabilizada pelos atos praticados como se fosse administrador de direito. Isso é relevante para fundadores que permanecem influenciando decisões após saírem formalmente dos cargos de gestão, situação comum em startups que recebem investimento e passam a ter CEO diferente dos fundadores.
@@ -957,7 +959,7 @@ Execuções fiscais e trabalhistas antigas podem resultar em penhora de ativos d
 - Desistir da rodada
 
 > [!tip] Faça sua própria due diligence antes do investidor
-> Antes de iniciar qualquer processo de captação, o fundador deve contratar um advogado para realizar uma busca completa de ações judiciais (PJe federal, TRT, TJ, CARF), certidões negativas de débito (CND federal, estadual, municipal, FGTS, INSS) e pesquisa de protestos em seu CPF. O custo dessa diligência prévia é uma fração do custo de descobrir o problema durante a rodada.
+> Antes de iniciar qualquer processo de captação, o fundador deve contratar um advogado para realizar uma busca completa de ações judiciais (PJe federal, TRT, TJ, CARF), certidões fiscais e trabalhistas (Certidão Conjunta de Débitos Federais e Previdenciários da RFB/PGFN, certidões estadual e municipal, CNDT do TST e, para a pessoa jurídica, CRF do FGTS), além de distribuidores cíveis, trabalhistas e federais e pesquisa de protestos em seu CPF. O custo dessa diligência prévia é uma fração do custo de descobrir o problema durante a rodada.
 
 ---
 
@@ -1019,7 +1021,7 @@ A separação entre patrimônio pessoal e empresarial não é automática nem pe
 
 ---
 
-### Mapa de Guerra: Onde o Véu Societário Resiste e Onde Ele Cai por Esfera Judicial
+### Mapa de Guerra por Esfera Judicial: Onde o Véu Societário Resiste e Onde Ele Cai
 
 ```text
 SITUAÇÃO                         FUNDAMENTO LEGAL      QUEM RESPONDE
@@ -1060,7 +1062,7 @@ Olhe para o extrato bancário da sua empresa e para a estrutura do seu patrimôn
 
 **Regra de Sobrevivência:** Proteção patrimonial feita depois que a dívida ou o processo nasceu não se chama planejamento: chama-se fraude à execução e o juiz anula em uma canetada.
 
-**O Ritual de Segunda-Feira às 9h:** Audite todas as movimentações entre empresa e sócios do último trimestre com seu contador, elimine 100% de despesas mistas e peça cotação de Seguro de Responsabilidade Civil de Administradores (D&O) com cobertura trabalhista e tributária para os diretores.
+**O Ritual de Segunda-Feira às 9h (rotina semanal de 30 minutos):** Audite todas as movimentações entre empresa e sócios do último trimestre com seu contador, elimine 100% de despesas mistas e peça cotação de Seguro de Responsabilidade Civil de Administradores (D&O) com cobertura trabalhista e tributária para os diretores.
 
 
 ---
@@ -1080,7 +1082,7 @@ Você precisa evitar **A Expropriação por Negligência de Registro**: construi
 > [!note] Nota de validade
 > Taxas do INPI, prazos processuais, e decisões sobre patenteabilidade de software mudam por resolução administrativa. Este capítulo reflete o cenário de abril de 2026. Verificar tabela de retribuições vigente no site do INPI antes de qualquer depósito. A interpretação sobre software patents no Brasil continua evoluindo: acompanhar as Diretrizes de Exame de Patentes do INPI.
 
-O [[#CAPÍTULO 5 — ARQUITETURA CONTRATUAL PARA STARTUPS: OPERAÇÃO E CONTRATOS EM PROFUNDIDADE POR TIPO|Capítulo 5 (Arquitetura Contratual para Startups: Operação e Contratos em Profundidade por Tipo)]] cobre IP (propriedade intelectual) assignment (cessão de direitos) em contratos. O [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 6 — OPEN SOURCE COMO ESTRATÉGIA|Capítulo 6 (Open Source como Estratégia) (Vol. 3)]] cobre open source (código aberto) como modelo de negócio. O [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 21 — HARDWARE E DEEP TECH: CONSTRUIR NEGÓCIO COM FABRICAÇÃO, IP E HORIZONTES LONGOS|Capítulo 21 (Hardware e Deep Tech: Construir Negócio com Fabricação, Ip e Horizontes Longos) (Vol. 10)]] cobre patentes em deep tech e hardware. Este capítulo cobre a disciplina completa de propriedade intelectual: o que registrar, quando, como, a que custo, e o que acontece quando você não registra e deveria ter registrado.
+O [[#CAPÍTULO 5 — ARQUITETURA CONTRATUAL PARA STARTUPS: OPERAÇÃO E CONTRATOS EM PROFUNDIDADE POR TIPO|Capítulo 5 (Arquitetura Contratual para Startups: Operação e Contratos em Profundidade por Tipo)]] cobre as cláusulas de cessão de propriedade intelectual (PI) nos contratos operacionais. O [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 6 — OPEN SOURCE COMO ESTRATÉGIA|Capítulo 6 (Open Source como Estratégia) (Vol. 3)]] cobre open source (código aberto) como modelo de negócio. O [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 21 — HARDWARE E DEEP TECH: CONSTRUIR NEGÓCIO COM FABRICAÇÃO, IP E HORIZONTES LONGOS|Capítulo 21 (Hardware e Deep Tech: Construir Negócio com Fabricação, Ip e Horizontes Longos) (Vol. 10)]] cobre patentes em deep tech e hardware. Este capítulo cobre a disciplina completa de propriedade intelectual: o que registrar, quando, como, a que custo, e o que acontece quando você não registra e deveria ter registrado.
 
 ### Por Que Uma Startup de Tecnologia Sem Titularidade Limpa de IP Vale Zero no M&A
 
@@ -1111,7 +1113,7 @@ flowchart LR
         IPA["IP Assignment\n(contratos de colaboradores)"]
     end
 
-    M --> |"Nome, logo, slogan"| Auto
+    M --> |"Nome, logo, slogan"| INPI_M["Registro de Marca no INPI (10 anos renováveis; Desenho Industrial: 10 anos até 25)"]
     P --> |"Invenção técnica"| Auto
     DA --> |"Criação original"| Contratual
     SI --> |"Know-how secreto"| Contratual
@@ -1169,7 +1171,7 @@ flowchart TD
 
 #### Busca prévia
 
-Antes de depositar, buscar no [buscamar.inpi.gov.br](https://buscamar.inpi.gov.br) se há marca idêntica ou similar registrada na mesma classe. Busca gratuita.
+Antes de depositar, buscar no portal oficial do INPI ([busca.inpi.gov.br](https://busca.inpi.gov.br), sistema pePI, pesquisando tanto pelo nome exato quanto pelo radical na classe de Nice correspondente) se há marca idêntica ou similar registrada na mesma classe. Busca gratuita.
 
 Também verificar: domínios (.com.br, .com), redes sociais, e registro de CNPJ com nome idêntico na Junta Comercial.
 
@@ -1185,7 +1187,7 @@ Custo: taxa básica da WIPO (~CHF 653 + taxas por país designado). Mais barato 
 
 ---
 
-### Patentes de Invenção, Modelos de Utilidade e o Trâmite Prioritário para Startups no INPI
+### Patentes de Invenção, Modelos de Utilidade e o Exame Prioritário para Startups no INPI
 
 #### Quando patentear
 
@@ -1232,7 +1234,7 @@ O Patent Cooperation Treaty permite um único depósito que vale como pedido em 
 
 ---
 
-### Segredo Industrial: Quando NÃO Patentear e Como Proteger Algoritmos e Pesos de Modelos Contra Concorrentes
+### Segredo Industrial e de Negócio: Quando Não Patentear e Como Proteger Algoritmos e Pesos de Modelos
 
 #### Quando é melhor do que patentear
 
@@ -1260,11 +1262,11 @@ O segredo industrial não tem prazo: dura enquanto o segredo for mantido. E não
 
 ---
 
-### Registro de Programa de Computador (Lei 9.609/98): Hash Criptográfico e Prova de Autoria para Licitações e M&A
+### Registro de Programa de Computador (Lei 9.609/1998): Hash Criptográfico e Prova de Autoria para Licitações e M&A
 
 #### Proteção automática
 
-Código-fonte é protegido automaticamente pela Lei 9.609/1998 (Lei do Software) desde o momento da criação: sem necessidade de registro. O autor (ou a empresa, se criado por colaborador em contrato de trabalho) tem direitos exclusivos de reprodução, distribuição, e modificação.
+Código-fonte é protegido automaticamente pela Lei 9.609/1998 (Lei do Software) desde o momento da criação: sem necessidade de registro. O autor (ou a empresa, se criado por colaborador em contrato de trabalho) tem direitos exclusivos de reprodução, distribuição e modificação.
 
 **Registro voluntário no INPI**: existe, mas não é obrigatório. Cria evidência de anterioridade em disputas futuras. Custo baixo (~R$ 80). Vale em situações de litígio onde a data de criação é disputada.
 
@@ -1282,14 +1284,14 @@ Aqui não há proteção automática. O contrato precisa ter **cessão explícit
 
 **Cláusula mínima necessária**:
 
-> *"O PRESTADOR cede, em caráter irrevogável e irretratável, com exclusividade, todos os direitos patrimoniais de autor sobre as obras criadas no âmbito deste contrato, incluindo código-fonte, documentação, e materiais derivados, para a CONTRATANTE, que poderá utilizá-los, reproduzi-los, modificá-los, e sublicenciá-los sem qualquer restrição."*
+> *"O PRESTADOR cede e transfere à CONTRATANTE, em caráter definitivo, irrevogável, irretratável e exclusivo, em todo o território nacional e internacional, pelo prazo integral de proteção legal e para todas as modalidades de utilização econômica (observado o limite legal de 5 anos do art. 51 da Lei 9.610/1998 para eventual encomenda de obras futuras e ressalvados os direitos morais inalienáveis do autor), a totalidade dos direitos patrimoniais de propriedade intelectual e de software (art. 4º da Lei 9.609/1998) sobre as obras e códigos criados no âmbito deste contrato, estando o preço da cessão integralmente contemplado na remuneração ajustada, incluindo código-fonte, documentação, e materiais derivados, para a CONTRATANTE, que poderá utilizá-los, reproduzi-los, modificá-los, e sublicenciá-los sem qualquer restrição."*
 
 > [!warning] Código de freelancer sem cessão é PI de risco
 > Em due diligence de M&A ou Série A, o acquirer ou investidor vai perguntar sobre chain of title de todo o código-fonte. Se partes foram escritas por freelancers sem cessão, isso cria risco legal que pode travar o deal ou gerar desconto. Retroativamente regularizar é possível, mas requer localizar e convencer cada freelancer a assinar: o que nem sempre é viável.
 
 #### Código open source: risco de contaminação
 
-O uso de bibliotecas open source com licenças **copyleft** (GPL, LGPL, AGPL) pode contaminar o código proprietário. A GPL, por exemplo, exige que qualquer software que incorpore código GPL seja distribuído também sob GPL: ou seja, o código da startup se tornaria obrigatoriamente open source.
+O uso de bibliotecas open source com licenças **copyleft** (GPL, LGPL, AGPL) pode contaminar o código proprietário. A GPL exige a abertura do código derivado quando há distribuição do binário ao usuário (como em aplicativos móveis, SDKs ou software instalado no cliente); já em plataformas SaaS que rodam exclusivamente em nuvem sem distribuição do código, o risco crítico de contaminação vem da licença **AGPL** (Affero GPL), que é acionada pelo simples acesso via rede (enquanto a **LGPL** é um *copyleft* fraco que permite ligação dinâmica com código proprietário, e mesmo licenças permissivas como MIT e Apache 2.0 exigem preservar os avisos de autoria e licença): ou seja, o código da startup se tornaria obrigatoriamente open source.
 
 **Licenças "permissivas"** (MIT, Apache 2.0, BSD) não têm esse problema. Podem ser usadas em software proprietário sem restrição.
 
@@ -1310,7 +1312,7 @@ O IP assignment é a cláusula que garante que tudo criado por colaboradores per
 | Estagiário | Termo de estágio | IP assignment explícito (lei de estágio não garante automaticamente) |
 | PJ / Freelancer | Contrato de prestação de serviços | Cessão explícita de direitos patrimoniais |
 | Advisor | Contrato de advisory | IP assignment para qualquer material criado |
-| Pesquisador universitário | Contrato de pesquisa aplicada | IP assignment + licença para publicação acadêmica |
+| Pesquisador de universidade/ICT | Acordo de parceria com a universidade via NIT (Lei 10.973/2004) | Cotitularidade ou licença exclusiva negociada com a instituição e regra de publicação acadêmica |
 
 #### Regularização retroativa
 
@@ -1355,7 +1357,7 @@ O que qualquer investidor ou acquirer vai examinar:
 
 ---
 
-### Os Cinco Erros que Forçam um Rebranding Humilhante ou Travam a Venda da Empresa
+### Os Seis Erros que Forçam um Rebranding Humilhante ou Travam a Venda da Empresa
 
 **Registrar a marca só no Brasil e não internacionalizar.** Empresa cresce, decide entrar nos EUA, e descobre que outra empresa já registrou o mesmo nome para a mesma classe. Rebranding forçado em mercado estrangeiro custa muito mais do que o Madrid Protocol teria custado antes.
 
@@ -1394,7 +1396,7 @@ Verifique agora mesmo os três pontos onde 80% das startups brasileiras reprovam
 
 **Regra de Sobrevivência:** Nunca lance uma marca ao público nem imprima uma única embalagem antes de protocolar o pedido de registro no INPI após busca profissional de anterioridade.
 
-**O Ritual de Segunda-Feira às 9h:** Acesse a busca pública do INPI para verificar a situação de todas as marcas da empresa e colete a assinatura digital de termos retroativos de cessão de propriedade intelectual de qualquer sócio, funcionário ou PJ que ainda não tenha o documento arquivado no Data Room.
+**O Ritual de Segunda-Feira às 9h (rotina semanal de 30 minutos):** Acesse a busca pública do INPI para verificar a situação de todas as marcas da empresa e colete a assinatura digital de termos retroativos de cessão de propriedade intelectual de qualquer sócio, funcionário ou PJ que ainda não tenha o documento arquivado no Data Room.
 
 
 ---
@@ -1419,7 +1421,7 @@ Você precisa substituir **O Blefe da Cláusula Leonina Inexequível** pela enge
 
 ---
 
-### A Jurisprudência Real dos Tribunais Brasileiros: Os 4 Requisitos Sem os Quais Seu Non-Compete É Nulo
+### Os Requisitos dos Tribunais Brasileiros Sem os Quais Seu Non-Compete É Nulo
 
 Diferente dos EUA (onde estados como Califórnia proíbem por completo a non-compete: cláusula de não concorrência) ou da Europa (onde existe regulação específica), o Brasil não tem lei explícita sobre não concorrência pós-emprego. O que existe é um equilíbrio tenso entre:
 
@@ -1460,7 +1462,7 @@ Não há valor legal fixo. A doutrina e jurisprudência mais recentes indicam qu
 **Como estruturar a contraprestação:**
 
 - Paga mensalmente durante o período de restrição (melhor para o funcionário, pior para o fluxo de caixa da empresa)
-- Paga de uma vez na rescisão (melhor para a empresa, mas exige capital)
+- Paga em parcela única na rescisão (preferida pelo ex-colaborador, mas desfavorável para a empresa por exigir caixa imediato e dificultar a retenção caso haja violação posterior, exigindo cláusula expressa de restituição com multa; para a startup, o pagamento mensal durante a quarentena é superior porque preserva o caixa e permite suspender o desembolso se houver quebra da obrigação)
 - Incorporada ao salário durante o emprego (prática comum mas juridicamente questionável: o TST tem criticado)
 
 #### 2. Não-solicitação de clientes (non-solicit clients)
@@ -1520,7 +1522,7 @@ Acordos de sócios frequentemente incluem cláusula de não concorrência para o
 - Código Civil admite restrições desde que não sejam abusivas
 - A cláusula deve ter prazo, âmbito e (para ser robusta) contraprestação
 
-Para sócio que sai voluntariamente vs. sócio excluído: a validade pode variar. Sócio que saiu voluntariamente com pagamento pelo valor de suas cotas tem argumento para aceitar a restrição; sócio excluído sem justa causa tem argumento mais forte para contestar.
+No acordo de sócios de uma limitada, a eficácia da não concorrência depende da modalidade de saída: (1) na **retirada voluntária**, o sócio que vende suas quotas ou pede apuração de haveres submete-se plenamente ao prazo de não concorrência pactuado (além da regra supletiva de 5 anos no trespasse empresarial do art. 1.147 do Código Civil); (2) na **exclusão extrajudicial ou judicial por falta grave** (art. 1.085 do CC, que exige justa causa por atos de inegável gravidade e previsão no contrato social), a obrigação de não concorrer permanece exigível justamente para impedir que o sócio infrator desvie a clientela; e (3) na **saída como *bad leaver* durante o vesting**, o acordo de sócios deve vincular a opção de recompra das quotas não consolidadas à manutenção do dever de não concorrência e não aliciamento pelo prazo ajustado.
 
 ---
 
@@ -1531,7 +1533,7 @@ Para sócio que sai voluntariamente vs. sócio excluído: a validade pode variar
 | **Califórnia (EUA)** | Non-compete proibido | Exceto em contexto de venda de empresa |
 | **Delaware (EUA)** | Non-compete válido com limitações razoáveis | Padrão para acordos de M&A americanos |
 | **Reino Unido** | Válido se razoável (prazo, âmbito, proteção de interesse legítimo) | Garden leave comum para executivos |
-| **Portugal** | Código do Trabalho: non-compete pós-emprego válido com contraprestação (mínimo 50% do salário) | Similar ao Brasil |
+| **Portugal** | Código do Trabalho (art. 136.º): válido até 2 anos (3 anos em funções de especial confiança) com compensação equitativa, sem percentual mínimo fixo em lei (ao contrário do piso de 50% da Alemanha); para quem trabalha no Brasil, prevalece a lei trabalhista brasileira | Similar ao Brasil |
 | **Brasil** | Sem lei específica; validade dependente de jurisprudência e estrutura | Este capítulo |
 
 ---
@@ -1555,11 +1557,11 @@ Para sócio que sai voluntariamente vs. sócio excluído: a validade pode variar
 - [ ] O que acontece se o adquirente me demitir antes do prazo: a non-compete persiste?
 - [ ] Há exceções (ex: posso ser advisor de empresa não concorrente)?
 
-> [!info] Fases relacionadas
+Síntese comparativa de canais:
 
 ---
 
-### As Armadilhas Clássicas: Obrigação Automática de Pagar Quarentena Para Quem Você Não Quer Bloquear
+### As Armadilhas Clássicas: A Obrigação Automática de Pagar Quarentena a Quem Você Não Quer Bloquear
 
 1. **Non-compete sem contraprestação para empregados.** Juridicamente frágil; gera ônus de prova invertido para a empresa na Justiça do Trabalho.
 2. **Âmbito genérico demais.** "Não pode trabalhar em tecnologia" não é executável. "Não pode trabalhar em SaaS de gestão para padarias no Brasil por 12 meses" é.
@@ -1584,7 +1586,7 @@ Pegue o modelo de contrato de trabalho, prestação de serviços e Acordo de Só
 
 **Regra de Sobrevivência:** Para 95% da equipe, não use *non-compete* pós-contratual; use cláusulas implacáveis de confidencialidade, propriedade intelectual e não aliciamento de clientes e funcionários.
 
-**O Ritual de Segunda-Feira às 9h:** Revise com seu advogado trabalhista/societário os contratos dos seus diretores e cofundadores para separar as cláusulas de *Non-Solicitation* (gratuitas e aplicáveis a todos) das cláusulas de *Non-Compete* (restritas à alta cúpula e com direito de dispensa unilateral pela empresa no desligamento).
+**O Ritual de Segunda-Feira às 9h (rotina semanal de 30 minutos):** Revise com seu advogado trabalhista/societário os contratos dos seus diretores e cofundadores para separar as cláusulas de *Non-Solicitation* (não aliciamento de clientes e colaboradores, com prazo de 12 a 24 meses e escopo delimitado, aceitas pelos tribunais sem indenização mensal por não impedirem o exercício da profissão) das cláusulas de *Non-Compete* (restritas à alta cúpula e com direito de dispensa unilateral pela empresa no desligamento).
 
 
 ---
@@ -1620,7 +1622,7 @@ Você precisa dominar **A Engenharia Modular de Contratos por Tipo**: separar os
 
 ### Por Que Delegar 100% da Leitura Contratual ao Jurídico Externo Cega o Fundador Para Riscos de Negócio
 
-Existe uma ilusão confortável de que contratos são "coisa de advogado". O fundador assina onde o advogado manda e segue em frente. Essa postura funciona até o momento em que o contrato vira problema. O fundador então descobre que não entende o que assinou.
+Mesmo depois que seu advogado barrou a cláusula de multa ilimitada na minuta da operadora de saúde, a Dra. Camila percebeu que não podia terceirizar a leitura comercial dos contratos da sua rede de clínicas odontológicas. Quando o fundador assina sem dominar a arquitetura básica de um MSA, de um acordo de tratamento de dados (DPA) e das regras de rescisão, ele só descobre o passivo quando o contrato trava uma renovação ou expõe o caixa da operação.
 
 Os três erros mais caros que fundadores cometem em contratos:
 
@@ -1640,7 +1642,7 @@ Este capítulo desmonta os principais tipos de contrato que uma startup usa e ex
 
 ---
 
-### A Regra da Modularidade: Separando MSA, Order Form, SLA e DPA Para Fechar Vendas Sem Retrabalho
+### A Regra da Modularidade Contratual: Separando MSA, Order Form, SLA e DPA Para Fechar Vendas Sem Retrabalho
 
 #### Contrato é lei entre as partes
 
@@ -1655,7 +1657,7 @@ Nem toda cláusula dura é inválida. A nulidade por abusividade no direito civi
 O que pode ser nulo entre empresas:
 
 - Cláusula que viola norma de ordem pública (ex: contrato que exige descumprimento de lei).
-- Cláusula que configura lesão enorme (uma parte recebe valor irrisório pelo que entrega).
+- Negócio celebrado sob lesão (art. 157 do CC: prestação manifestamente desproporcional por premente necessidade ou inexperiência), dolo ou coação, hipóteses que tornam o contrato **anulável** no prazo decadencial de quatro anos (arts. 171 e 178 do CC), enquanto nos contratos empresariais paritários prevalece a alocação de riscos definida pelas partes (art. 421-A do CC) e, nos contratos de adesão impostos por grandes clientes, são **nulas** as cláusulas que estipulem renúncia antecipada do aderente a direito resultante da natureza do negócio (art. 424 do CC).
 - Cláusula inserida mediante dolo ou coação comprovada.
 
 O que não invalida: cláusula que favorece muito o outro lado, se foi negociada livremente (mesmo que você não tenha lido com atenção).
@@ -1671,7 +1673,7 @@ A responsabilidade máxima da [EMPRESA] sob ou relacionada a este contrato
 não excederá o valor total pago pelo CLIENTE nos 12 (doze) meses anteriores
 ao evento que originou a responsabilidade.
 
-Em nenhuma hipótese a [EMPRESA] será responsável por danos indiretos,
+Ressalvadas as hipóteses de dolo, culpa grave, violação de confidencialidade ou obrigações perante titulares de dados sob a LGPD (e observado que esta limitação aplica-se exclusivamente a contratos empresariais B2B, sendo nula em relações de consumo pelo art. 51, I, do CDC), em nenhuma hipótese a [EMPRESA] será responsável por lucros cessantes ou danos indiretos,
 consequenciais, incidentais, punitivos ou danos por lucros cessantes,
 mesmo que tenha sido avisada da possibilidade de tais danos.
 ```
@@ -1680,7 +1682,7 @@ Alguns clientes corporativos resistem a limitações de responsabilidade. A nego
 
 #### Foro e arbitragem
 
-**Foro:** define qual comarca julgará disputas. Para empresas brasileiras, o padrão é o foro da sede do réu ou da sede do autor, com preferência pelo foro contratualmente eleito. Vantagem de escolher o foro: previsibilidade sobre onde a disputa ocorrerá.
+**Foro:** define qual comarca julgará disputas. Para empresas brasileiras, na ausência de escolha prevalece o foro do domicílio do réu ou do local de cumprimento da obrigação; já a cláusula de eleição de foro (art. 63, § 1º, do CPC, com a redação da Lei 14.879/2024) só produz efeito quando guarda pertinência com o domicílio ou a residência de uma das partes ou com o local da obrigação, sob pena de ser considerada prática abusiva e declinada de ofício pelo juiz. Vantagem de escolher o foro: previsibilidade sobre onde a disputa ocorrerá.
 
 **Arbitragem:** método alternativo de resolução de disputas, um árbitro privado (ou painel) julga em vez do Judiciário. Vantagens: mais rápido (6–18 meses vs. 3–7 anos no Judiciário), mais especializado (árbitros são técnicos no tema), sigiloso. Desvantagem: custo inicial mais alto (taxas administrativas da câmara + honorários dos árbitros).
 
@@ -1694,13 +1696,13 @@ Para contratos B2B acima de R$ 500K de valor anual ou alta complexidade técnica
 
 #### Legislação aplicável em contratos com empresas estrangeiras
 
-Quando a startup brasileira contrata com empresa estrangeira (cliente, fornecedor, investidor), há escolha de lei aplicável. O Brasil adota a **Lei de Introdução às Normas do Direito Brasileiro (LINDB)**, que permite escolha de lei estrangeira para contratos internacionais desde que não viole a ordem pública brasileira.
+Quando a startup brasileira contrata com empresa estrangeira (cliente, fornecedor, investidor), há escolha de lei aplicável. O Brasil adota a **Lei de Introdução às Normas do Direito Brasileiro (LINDB)**, cujo art. 9º determina como regra a lei do país em que a obrigação se constituir, tornando controvertida no Judiciário brasileiro a simples cláusula de escolha de lei estrangeira; por isso, em contratos internacionais, o caminho juridicamente seguro para escolher lei estrangeira é combiná-la com cláusula compromissória de arbitragem (art. 2º, § 1º, da Lei 9.307/1996), desde que não viole a ordem pública brasileira.
 
 Na prática: contratos com VCs americanos ou clientes americanos frequentemente escolhem lei de Nova York ou Delaware. Contratos com empresas europeias frequentemente escolhem lei inglesa ou de algum estado-membro da UE. Para o fundador brasileiro, isso significa que disputas nesses contratos são regidas por regras que ele provavelmente não conhece: mais uma razão para assessoria jurídica especializada antes de assinar.
 
 ---
 
-### MSA (Master Services Agreement): As 8 Cláusulas que Definem Quem Paga a Conta Quando Tudo Dá Errado
+### MSA (Master Services Agreement): As Cláusulas que Definem Quem Paga a Conta Quando Tudo Dá Errado
 
 O MSA é o contrato base que rege toda a relação comercial com um cliente corporativo. Uma vez assinado, as transações específicas são formalizadas por Ordens de Serviço (SoW) que referenciam o MSA.
 
@@ -1868,7 +1870,7 @@ Todo NDA bem redigido lista informações que não são confidenciais, mesmo que
 
 #### Prazo
 
-NDAs com prazo vitalício ou indefinido são juridicamente questionáveis no Brasil: podem ser considerados excessivos pela doutrina e jurisprudência. O prazo razoável de mercado:
+Em NDAs comerciais e técnicos, convém separar duas camadas de prazo: para informações comerciais e operacionais gerais, adota-se prazo determinado de 2 a 5 anos após o término da relação; já para segredos industriais e algoritmos proprietários expressamente identificados, a obrigação de sigilo deve perdurar enquanto a informação mantiver natureza secreta (amparada também pelo art. 195, XI, da LPI): podem ser considerados excessivos pela doutrina e jurisprudência. O prazo razoável de mercado:
 
 - **2 a 3 anos** após a divulgação ou término do relacionamento: padrão para informações comerciais.
 - **5 anos** para informações técnicas sensíveis ou segredos industriais: justificável para tecnologia de produto.
@@ -1878,7 +1880,7 @@ NDAs com prazo vitalício ou indefinido são juridicamente questionáveis no Bra
 
 **Colaboradores CLT:** o dever de lealdade e confidencialidade já existe implicitamente na relação de emprego (art. 482, "g" e "h" da CLT). O NDA formaliza o dever e torna as obrigações mais claras: mas a inexistência de NDA assinado não elimina a obrigação de confidencialidade do empregado.
 
-**Prestadores PJ:** não têm relação de emprego. A obrigação de confidencialidade existe apenas se contratualmente estabelecida. NDA é obrigatório.
+**Prestadores PJ:** não têm relação de emprego. Embora a divulgação de segredo obtido em relação contratual já configure crime de concorrência desleal mesmo após o término do contrato (art. 195, XI, da Lei 9.279/1996, assim como a violação de segredo pelo empregado CLT gera justa causa pelo art. 482, alínea *g*, da CLT), o NDA escrito continua indispensável para delimitar exatamente o que é confidencial e fixar multa contratual líquida.
 
 **Advisors, investidores e parceiros:** não têm relação com a empresa além do contrato específico. NDA é obrigatório antes de qualquer divulgação de informação sensível.
 
@@ -1891,7 +1893,7 @@ NDAs com prazo vitalício ou indefinido são juridicamente questionáveis no Bra
 - NDA que exige marca "CONFIDENCIAL" por escrito, mas as partes nunca marcam nada.
 
 > [!tip] Incluir cláusula penal no NDA
-> Sem multa contratual, o descumprimento do NDA gera direito à indenização por danos: o que exige provar o dano e seu valor, o que é difícil. Com cláusula penal (ex: R$ 500.000 por violação), a empresa tem valor predefinido e exigível sem precisar provar o dano específico. Incluir cláusula penal razoável e proporcional.
+> Sem multa contratual, o descumprimento do NDA gera direito à indenização por danos: o que exige provar o dano e seu valor, o que é difícil. Com cláusula penal calibrada ao risco real do negócio (ex. R$ 100.000 a R$ 500.000 por violação comprovada), a empresa cobra o valor prefixado sem precisar provar a extensão do prejuízo (art. 416 do Código Civil), mas deve observar duas regras do Código Civil: o juiz reduz equitativamente a penalidade se o montante for manifestamente excessivo (art. 413), e o contrato deve prever expressamente que a multa vale como mínimo indenizatório sem prejuízo de indenização suplementar (art. 416, parágrafo único), para que a multa não funcione como teto caso o dano real seja maior. Incluir cláusula penal razoável e proporcional.
 
 ---
 
@@ -1963,7 +1965,7 @@ Listar explicitamente quais cláusulas são vinculantes: não apenas dizer que "
 
 ---
 
-### Contrato de Advisor (Padrão FAST): Entregáveis Reais, Vesting Mensal e Zero Poder de Veto
+### Contrato de Advisor (Padrão FAST): Entregáveis de Disponibilidade, Vesting Mensal e Zero Poder de Veto
 
 #### Escopo de trabalho
 
@@ -2026,7 +2028,7 @@ Recomendação: usar clickwrap para cadastro e para atualizações materiais nos
 - **Obrigações do usuário:** o que o usuário pode e não pode fazer.
 - **Proibições:** uso para fins ilegais, spam, scraping, engenharia reversa.
 - **Conteúdo gerado pelo usuário:** quem é dono do conteúdo, que licença o usuário concede à plataforma para exibir/distribuir.
-- **Limitação de responsabilidade:** a plataforma não garante disponibilidade ininterrupta, resultados específicos, ou adequação para fim específico.
+- **Limitação de responsabilidade (exclusiva para B2B):** em contratos empresariais B2B, a plataforma delimita que não garante disponibilidade ininterrupta ou resultados comerciais específicos; porém, em produtos voltados ao consumidor final (B2C), cláusulas que impossibilitem, exonerem ou atenuem a responsabilidade por vícios, imponham arbitragem compulsória ou afastem o foro do domicílio do consumidor são nulas de pleno direito (arts. 51, I e VII, e 101, I, do CDC; ver Capítulo 8).
 - **Rescisão de conta:** quando e como a empresa pode suspender ou encerrar conta.
 - **Foro e resolução de disputas.**
 
@@ -2063,11 +2065,11 @@ Fornecedores críticos são aqueles cuja interrupção paralisa a operação: pr
 
 O que negociar:
 
-- **SLA com créditos:** o fornecedor deve compensar financeiramente por downtime acima do threshold definido. Créditos de 10x o valor proporcional do tempo de indisponibilidade é o padrão de mercado.
+- **SLA com créditos:** o fornecedor deve compensar financeiramente por downtime acima do threshold definido. Nos grandes provedores de infraestrutura de nuvem (AWS, GCP, Azure), o padrão praticado é o desconto em créditos de serviço equivalentes a faixas de 10% a 100% da fatura mensal conforme o tempo de queda; como compradora, a startup deve negociar em fornecedores críticos (gateways de pagamento, mensageria, APIs) o direito de rescisão sem multa caso a indisponibilidade se repita, evitando aceitar créditos de serviço como único remédio contratual.
 - **Prazo de notificação de incidente:** o fornecedor deve notificar dentro de X horas após descoberta de incidente de segurança.
 - **Plano de continuidade:** o que o fornecedor faz em caso de desastre ou falha sistêmica.
 - **Portabilidade de dados:** garantia de exportação dos dados em formato padrão (não proprietário) antes do término do contrato.
-- **Prazo de saída:** o contrato deve permitir saída em 30–90 dias com acesso garantido aos dados durante o período.
+- **Prazo de saída e regras do Banco Central para fintechs:** o contrato deve permitir transição em 30 a 90 dias com exportação garantida dos dados; se a startup operar como instituição financeira, Sociedade de Crédito Direto (SCD) ou instituição de pagamento autorizada pelo Banco Central (como no braço de *Embedded Finance* de Lucas e Marina), o contrato de processamento ou armazenamento em nuvem precisa conter obrigatoriamente as cláusulas de acesso da auditoria e do regulador, continuidade de negócios e localização de dados exigidas pela **Resolução CMN 4.893/2021** e pela **Resolução BCB 85/2021**.
 - **Auditoria:** para fornecedores que tratam dados sensíveis, direito de auditar conformidade com LGPD/GDPR.
 
 #### Cláusulas de exclusividade com fornecedores
@@ -2107,7 +2109,7 @@ O que revisar:
 - **Confidencialidade:** acesso a dados de clientes, estratégia, e marca exige NDA.
 - **Critérios de entrega e aceite:** o que define que o trabalho está concluído?
 - **Cláusula de saída:** com quanto de aviso a empresa pode encerrar? 30 dias é razoável.
-- **Subconstratação:** a agência pode subcontratar sem autorização? Subcontratados têm acesso a dados da empresa?
+- **Subcontratação:** a agência pode subcontratar sem autorização? Subcontratados têm acesso a dados da empresa?
 
 ---
 
@@ -2115,7 +2117,7 @@ O que revisar:
 
 Due diligence reversa (DD reversa) é o exercício de antecipar, do lado do fundador, o pacote de documentos e respostas que o investidor vai exigir na rodada. Em vez de reagir sob pressão na due diligence formal, o fundador organiza o data room legal antes de sair captar. Quando o investidor entra, o material esta pronto, e a velocidade de fechamento dobra.
 
-A DD legal padrao em Series A, Series B e M&A cobre sete blocos.
+A auditoria jurídica (*due diligence*) padrão em Série A, Série B e M&A cobre sete blocos: estrutura societária e acordo de sócios, plano de opções (ESOP) e atas de reunião do conselho, certidões fiscais e trabalhistas, litígios em curso, titularidade de código e propriedade intelectual, contratos comerciais com cessão de direitos e conformidade com LGPD.
 
 1. Estrutura societaria. Contrato social ou estatuto atualizado, cap table fully diluted (incluindo opcoes outorgadas e nao outorgadas, vesting em curso, SAFEs e notas conversiveis), acordo de socios vigente, atas de reuniao de socios e de board dos ultimos vinte e quatro meses.
 2. Contratos materiais. Top dez contratos com clientes por receita, contratos com fornecedores criticos (cloud, gateway de pagamento, integradores), MSAs e SOWs ativos, contratos de licenciamento de tecnologia recebida ou cedida.
@@ -2167,7 +2169,7 @@ Passe seus contratos atuais por este filtro de três perguntas práticas:
 
 **Regra de Sobrevivência:** Se a sua minuta padrão de venda B2B é tão leonina e unilateral que 100% dos jurídicos dos clientes devolvem com 80 marcações em vermelho, sua minuta não está protegendo você: está atrasando seu fluxo de caixa em 60 dias.
 
-**O Ritual de Segunda-Feira às 9h:** Separe seu contrato B2B em uma estrutura modular (Order Form comercial de 1 página + MSA equilibrado + SLA com crédito limitado + DPA padrão LGPD) para que renovações e upsells exijam apenas a assinatura de um novo Order Form em 5 minutos.
+**O Ritual de Segunda-Feira às 9h (rotina semanal de 30 minutos):** Pegue o último contrato B2B fechado na semana, separe com marca-texto os termos puramente comerciais (preço, quantidade de licenças, prazo e índice de reajuste) das cláusulas jurídicas gerais e envie ao seu advogado para extrair um Order Form comercial de 1 página para que renovações e upsells exijam apenas a assinatura de um novo Order Form em 5 minutos.
 
 
 ---
@@ -2176,11 +2178,11 @@ Passe seus contratos atuais por este filtro de três perguntas práticas:
 
 ### A Bomba-Relógio do Passivo Trabalhista Oculto e a Ilusão do "PJ com Crachá e Horário"
 
-Quando Rafael e Bia começaram a escalar a operação de comércio e logística no Nordeste, seguiram o conselho de corredor mais repetido em grupos de fundadores brasileiros: "Contrata todo mundo como MEI ou PJ que você economiza 70% de encargos e ninguém processa startup moderna". Durante dois anos e meio, quarenta e duas pessoas trabalhavam como PJs: batiam ponto disfarçado em planilha de controle, tinham e-mail corporativo, respondiam a um chefe direto que negava folgas no WhatsApp, recebiam décimo terceiro chamado de "bônus natalino" e eram proibidos de atender outras empresas. No dia em que precisaram desligar seis analistas por baixa performance, o primeiro procurou um advogado trabalhista com trezentos prints de WhatsApp exigindo cobrança de horário. O acordo judicial custou R$ 145 mil para um único ex-PJ: e desencadeou uma reação em cadeia de mais sete ações idênticas em quatro meses, drenando R$ 920 mil do caixa da empresa.
+Quando Rafael e Bia começaram a escalar a operação de comércio e logística no Nordeste, seguiram o conselho de corredor mais repetido em grupos de fundadores brasileiros: "Contrata todo mundo como MEI ou PJ que você economiza 70% de encargos e ninguém processa startup moderna". Enquanto a matriz administrativa já contava com equipe registrada na CLT (auditada por Bia no Volume 6), na frente de expansão logística dezenove analistas de rota e tecnologia atuavam como PJs: batiam ponto disfarçado em planilha de controle, tinham e-mail corporativo, respondiam a um chefe direto que negava folgas no WhatsApp, recebiam décimo terceiro chamado de "bônus natalino" e eram proibidos de atender outras empresas. No dia em que precisaram desligar seis analistas por baixa performance, o primeiro procurou um advogado trabalhista com trezentos prints de WhatsApp em que o gestor cobrava horário fixo de entrada e saída. O acordo judicial custou R$ 145 mil para um único ex-prestador (logo após o bloqueio via Sisbajud visto no Capítulo 2) e desencadeou mais sete reclamações em quatro meses, drenando R$ 920 mil do caixa da operação.
 
-A verdade que ninguém tem coragem de falar no palco é que no Direito do Trabalho brasileiro vigora o **Princípio da Primazia da Realidade sobre a Forma** (Art. 9º da CLT): não importa o quão bonito seja o contrato de prestação de serviços assinado; se na vida real houver pessoalidade, habitualidade, onerosidade e **subordinação**, você não tem um prestador PJ: você tem um empregado CLT sem FGTS depositado e um passivo trabalhista corrigido pelo IPCA com juros de mora pela taxa legal (Selic deduzida do IPCA, conforme ADC 58 do STF e Lei 14.905/2024), além de multas e encargos previdenciários.
+No Direito do Trabalho brasileiro vigora de forma absoluta o **Princípio da Primazia da Realidade sobre a Forma** (Art. 9º da CLT): não importa o quão bonito seja o contrato de prestação de serviços assinado; se na vida real houver pessoalidade, habitualidade, onerosidade e **subordinação**, você não tem um prestador PJ: você tem um empregado CLT sem FGTS depositado e um passivo trabalhista corrigido pelo IPCA com juros de mora pela taxa legal (Selic deduzida do IPCA, conforme ADC 58 do STF e Lei 14.905/2024), além de multas e encargos previdenciários.
 
-Você precisa desarmar **A Bomba-Relógio do Passivo Trabalhista Oculto** antes que ela destrua sua margem ou inviabilize sua auditoria de venda.
+O erro de Rafael e Bia mostra como **A Bomba-Relógio do Passivo Trabalhista Oculto** nasce no WhatsApp da operação diária e precisa ser desarmada na admissão, no controle de jornada e na transição contratual antes que inviabilize o caixa ou uma rodada de investimento.
 
 ---
 
@@ -2192,15 +2194,15 @@ Você precisa desarmar **A Bomba-Relógio do Passivo Trabalhista Oculto** antes 
 
 ---
 
-### Por Que o Passivo Trabalhista É o Maior Destruidor Silencioso de Caixa e Valuation no Brasil
+### Por Que o Passivo Trabalhista Corrói o Caixa e o Valuation no Brasil
 
 A maioria dos fundadores descobre o direito do trabalho brasileiro da pior forma possível: recebendo uma notificação de ação trabalhista de ex-colaborador. Nesse momento, o passivo já existe, o prazo de contestação começa a correr e o custo financeiro e de tempo já é irreversível.
 
-O problema não é má-fé. É ignorância estrutural. Fundadores com formação em tecnologia, produto ou finanças raramente estudam CLT (Consolidação das Leis do Trabalho). A suposição tácita é que "contratar PJ (pessoa jurídica) resolve" ou que "startups são diferentes". Não são.
+Esse passivo raramente nasce de má-fé deliberada, mas do desconhecimento técnico das regras trabalhistas. Fundadores com formação em tecnologia, produto ou finanças raramente estudam a legislação trabalhista e assumem que basta assinar um contrato de prestação de serviços. A suposição tácita é que "contratar PJ (pessoa jurídica) resolve" ou que "startups são diferentes". Não são.
 
-A Justiça do Trabalho no Brasil processa em média 3,5 milhões de novos casos por ano. A taxa de procedência parcial ou total nas ações contra empresas gira em torno de 40–60%. O prazo prescricional para propor ação é de 2 anos após o desligamento, com retroatividade de até 5 anos de parcelas devidas.
+Segundo os relatórios anuais *Justiça em Números* (CNJ) e da Justiça do Trabalho (TST), o país registra milhões de novas reclamações trabalhistas por ano, com alto índice de acordos e condenações parciais quando a empresa não possui prova documental de jornada ou autonomia. O prazo prescricional para propor ação é de 2 anos após o desligamento, com retroatividade de até 5 anos de parcelas devidas.
 
-Isso significa que a startup fundada em 2021, que contratou de forma irregular até 2023 e ainda não foi acionada, pode receber ações até 2025 com cálculos retroativos que remontam a 2020. O risco não desaparece com o tempo: fica amadurecendo.
+Na prática, uma startup que manteve prestadores PJ subordinados entre 2022 e 2025 e os desligou no final de 2025 pode ser acionada até o final de 2027 (prescrição bienal pós-desligamento), cobrando as verbas dos cinco anos anteriores ao ajuizamento da ação (art. 7º, XXIX, da CF). Enquanto a relação irregular permanece ativa, o passivo continua se acumulando mês a mês.
 
 Três contextos onde o fundador aprende isso da forma errada:
 
@@ -2214,7 +2216,9 @@ Este capítulo é o mapa do que você precisa saber antes de crescer o time.
 
 ---
 
-### CLT vs. PJ na Prática: Os 4 Requisitos de Vínculo (Art. 3º da CLT) e a Jurisprudência do STF sobre Pejotização
+### CLT vs. PJ na Prática: Os 5 Elementos de Vínculo (Arts. 2º e 3º da CLT) e o Entendimento do STF sobre Pejotização (ADPF 324, Tema 725 e Tema 1.389)
+
+A análise do risco de contratação PJ no Brasil exige compreender a tensão entre a Justiça do Trabalho e o Supremo Tribunal Federal: enquanto as Varas do Trabalho e o TST aplicam rigorosamente os **cinco elementos fáticos do vínculo empregatício** (trabalho prestado por pessoa física, pessoalidade, não eventualidade, onerosidade e subordinação jurídica, conforme arts. 2º e 3º da CLT), o **STF** firmou na ADPF 324 e no Tema 725 da repercussão geral a licitude da terceirização de atividade-fim e de formas alternativas de contratação civil/comercial, cassando por meio de Reclamações Constitucionais diversas decisões trabalhistas envolvendo executivos, médicos, representantes e profissionais intelectuais hipersuficientes, além de ter reconhecido a repercussão geral do **Tema 1.389** (com suspensão nacional de processos em 2025 para uniformizar a validade de contratos civis/PJ, a competência e o ônus da prova). Ainda assim, para a operação da startup, manter colaboradores subordinados com rotina fixa e chefia direta como PJ continua gerando contingência imediata em fiscalizações e diligências de M&A.
 
 #### Os cinco elementos da relação de emprego
 
@@ -2231,13 +2235,13 @@ A CLT (art. 3º) define empregado pela presença simultânea de cinco elementos.
 **5. Alteridade (não assunção de riscos).** O trabalhador não assume os riscos do negócio: eles ficam com o empregador. Se o "PJ" não tem outros clientes e depende exclusivamente daquela receita, o risco é do contratante.
 
 > [!warning] Contrato não define a relação: a realidade define
-> Assinar um contrato de prestação de serviços PJ não afasta o reconhecimento de vínculo empregatício se os cinco elementos estiverem presentes na prática. O TST chama isso de "princípio da primazia da realidade". O juiz trabalhista olha para o que aconteceu, não para o que está escrito.
+> Assinar um contrato de prestação de serviços PJ não afasta o reconhecimento de vínculo empregatício se os cinco elementos estiverem presentes na prática. Na prática forense e nas auditorias de M&A, e-mails diários de cobrança de horário, controle de folgas e subordinação direta prevalecem sobre qualquer cláusula formal de autonomia escrita no contrato.
 
 #### O que a Reforma Trabalhista (Lei 13.467/2017) mudou
 
 A Reforma de 2017 foi a maior mudança na CLT desde 1943. O que efetivamente mudou:
 
-- **Trabalho intermitente:** nova modalidade contratual, o empregado é chamado quando necessário, recebendo por hora trabalhada (mínimo R$ 7,00/hora ou salário mínimo proporcional). Pouco usado na prática porque cria vínculos empregatícios com obrigações parciais.
+- **Trabalho intermitente:** nova modalidade contratual, o empregado é chamado quando necessário, recebendo por hora ou dia trabalhado (nunca inferior ao valor-hora do salário mínimo vigente ou ao salário devido aos demais empregados na mesma função, conforme art. 452-A da CLT; já no teletrabalho, desde a Lei 14.442/2022, a dispensa de controle de jornada do art. 62, III, da CLT restringe-se a quem contrata por produção ou tarefa, de modo que desenvolvedor remoto contratado por jornada tem direito a controle de ponto e horas extras). Pouco usado na prática porque cria vínculos empregatícios com obrigações parciais.
 - **Trabalho remoto (teletrabalho):** foi regulamentado (art. 75-A a 75-E da CLT). Exige contrato escrito, cláusula sobre responsabilidade por equipamentos e infraestrutura, e registro na CTPS.
 - **Banco de horas:** passou a poder ser acordado individualmente (antes exigia ACT/CCT) com prazo de compensação de 6 meses.
 - **Prevalência do negociado sobre o legislado:** em alguns temas, convenção ou acordo coletivo pode derrogar a CLT. Isso ampliou o espaço para negociação com sindicatos.
@@ -2285,7 +2289,7 @@ Verbas devidas (estimativa):
 - Férias + 1/3 (3 anos):                         R$ 60.000
 - FGTS não depositado (8% x 36 meses):           R$ 43.200
 - Multa FGTS (40%):                              R$ 17.280
-- INSS patronal não recolhido (~20%):            R$ 108.000
+- Aviso prévio indenizado e multa do art. 477 da CLT (Súmula 462 do TST), além do risco fiscal de autuação pela Receita Federal sobre o INSS patronal (~20%, não executado de ofício pela Justiça do Trabalho sobre parcelas declaratórias por força da Súmula Vinculante 53 do STF): R$ 108.000
 - Horas extras (se configuradas):                variável
 - Indenização por danos morais:                  variável (R$ 5K–50K)
 
@@ -2296,7 +2300,7 @@ Esse número é para um colaborador. Se a startup tem 5 desenvolvedores PJ na me
 
 ---
 
-### Admissão Blindada: CBO Correto, Acordo de Teletrabalho, Cessão de IP e Políticas Internas
+### Admissão Blindada no eSocial: CBO Correto, Acordo de Teletrabalho, Cessão de PI e Políticas Internas
 
 #### O que deve existir antes do primeiro dia
 
@@ -2348,11 +2352,11 @@ A CTPS (Carteira de Trabalho e Previdência Social) é hoje digital, gerenciada 
 - Reincidência: dobro das multas.
 
 > [!warning] Admitir sem registrar no eSocial antes do início é crime
-> Além das multas administrativas, manter empregado sem registro caracteriza infração penal (art. 47 da CLT). Em fiscalização do Ministério do Trabalho, cada empregado não registrado pode gerar autuação individual. Não existe "vou registrar amanhã": o registro precede o primeiro dia de trabalho.
+> Além da multa administrativa por empregado sem registro no eSocial (art. 47 da CLT), a omissão dolosa de anotação na CTPS ou nos documentos trabalhistas pode configurar crime de falsidade ideológica (art. 297, § 4º, do Código Penal) e sonegação de contribuição previdenciária (art. 337-A do CP). Em fiscalização do Ministério do Trabalho, cada empregado não registrado pode gerar autuação individual. Não existe "vou registrar amanhã": o registro precede o primeiro dia de trabalho.
 
 ---
 
-### Controle de Jornada (Acima de 20 Funcionários), Banco de Horas e os Requisitos Reais do Cargo de Confiança (Art. 62, II)
+### Controle de Jornada (Acima de 20 Empregados), Banco de Horas e os Requisitos Reais do Cargo de Confiança (Art. 62, II)
 
 #### Jornada padrão
 
@@ -2367,7 +2371,7 @@ Regimes de jornada reduzida (6 horas, turno noturno) existem para categorias esp
 - Adicional em domingos e feriados: 100%.
 - Hora noturna (22h às 5h): adicional de 20% sobre a hora diurna + cômputo reduzido (52 minutos e 30 segundos = 1 hora noturna).
 
-Horas extras habituais por período superior a 1 ano **integram o salário** para todos os fins (férias, 13º, FGTS). Isso cria passivo silencioso em times que trabalham "um pouco a mais" de forma sistemática sem controle formal.
+Horas extras prestadas com habitualidade integram a remuneração para cálculo de férias, 13º salário, aviso prévio, FGTS e descanso semanal remunerado (Súmulas 45, 172 e 347 do TST); além disso, se forem prestadas com habitualidade durante pelo menos 1 ano e suprimidas pelo empregador, geram direito a indenização compensatória (Súmula 291 do TST), enquanto no regime de plantão o uso de celular corporativo por si só não caracteriza sobreaviso, mas sim a permanência em regime de plantão ou escala aguardando chamado a distância (Súmula 428, I e II, do TST). Isso cria passivo silencioso em times que trabalham "um pouco a mais" de forma sistemática sem controle formal.
 
 #### Banco de horas
 
@@ -2420,7 +2424,7 @@ Sócio com contrato de trabalho assinado (sócio-empregado) é possível mas ger
 
 ---
 
-### Estratégia de Remuneração Variável: PLR (Lei 10.101), Prêmios por Desempenho Superior e Benefícios Sem Natureza Salarial
+### Estratégia de Remuneração Variável (PLR e Prêmios) e Encargos Obrigatórios da Folha CLT
 
 #### Vale-Transporte
 
@@ -2449,7 +2453,7 @@ Empregado demitido sem justa causa tem direito ao 13º proporcional.
 
 #### Férias
 
-30 dias corridos por ano de trabalho. Adicional constitucional de 1/3 sobre o valor das férias. Podem ser parceladas em até 3 períodos (com acordo do empregado), sendo que nenhum período pode ser inferior a 14 dias e os outros não inferiores a 5 dias cada.
+30 dias corridos por ano de trabalho. Adicional constitucional de 1/3 sobre o valor das férias. Podem ser parceladas em até 3 períodos (com acordo do empregado), sendo que um dos períodos não pode ser inferior a 14 dias corridos e os demais não podem ser inferiores a 5 dias corridos cada (art. 134, § 1º, da CLT).
 
 Férias não concedidas no período concessivo (até 12 meses após o período aquisitivo) viram **férias em dobro**: o custo duplica por inação da empresa.
 
@@ -2461,7 +2465,7 @@ O custo real de um empregado CLT é significativamente superior ao salário brut
 |---|---|
 | Salário bruto | 100% |
 | FGTS | +8% |
-| INSS patronal (Lucro Presumido/Real) | +20% |
+| INSS patronal (Lucro Presumido/Real: +20% sobre a folha, observada para empresas de TI na CPRB a reoneração gradual da Lei 14.973/2024 entre 2025 e 2027 e a não incidência sobre vale-alimentação/refeição em cartão pelo art. 457, § 2º, da CLT) | +20% |
 | RAT (Risco de Acidente de Trabalho) | +1% a 3% (média: 2%) |
 | Contribuições a terceiros (Salário Educação, SESI/SENAI, etc.) | +5,8% |
 | 13º salário | +8,33% |
@@ -2488,7 +2492,7 @@ Para empresa no Simples Nacional, o INSS patronal é substituído pela alíquota
 | Dispensa sem justa causa | Empresa paga ou trabalha | Depositar saldo | **Sim** | Sim | Sim | **Sim** |
 | Dispensa com justa causa | Não | Depositar saldo | Não | Não | Apenas vencidas | Não |
 | Acordo (art. 484-A) | 50% do aviso | Depositar saldo | **20%** (metade) | Sim | Sim | **Sim (80% do saldo)** |
-| Término de contrato (experiência) | Indenização dos dias restantes | Depositar saldo | Proporcional | Proporcional | Proporcional | Sim |
+| Contrato de experiência (término no prazo vs. rescisão antecipada pelo empregador) | Sem aviso no prazo; na rescisão antecipada, metade dos dias restantes (art. 479 da CLT) | Depositar saldo | Proporcional | Proporcional | 0% no prazo; 40% na rescisão antecipada | Sim (no prazo ou antecipada pelo empregador; no pedido de demissão, não, salvo hipóteses legais) |
 
 #### Aviso prévio na dispensa sem justa causa
 
@@ -2528,13 +2532,13 @@ Introduzido pela Reforma de 2017, o acordo permite que empregador e empregado en
 - O empregado pode sacar 80% do saldo do FGTS.
 - O empregado **não tem acesso ao seguro-desemprego**.
 
-Quando usar: quando o colaborador quer sair mas a empresa não pode arcar com a dispensa sem justa causa completa, ou quando há interesse mútuo em encerrar com fluxo reduzido de saída.
+Quando usar: exclusivamente quando há vontade real de ambas as partes em encerrar o contrato e o empregado prefere sacar 80% do FGTS a pedir demissão (nunca como artifício para baratear uma dispensa decidida unilateralmente pela empresa, sob pena de nulidade pelo art. 9º da CLT), ou quando há interesse mútuo em encerrar com fluxo reduzido de saída.
 
 Quando não usar: se o colaborador precisar do seguro-desemprego (para ele, pode ser melhor a sem justa causa).
 
 #### Homologação da rescisão
 
-Para contratos com mais de 1 ano, a rescisão precisa ser homologada. Com a Reforma, a homologação obrigatória pelo sindicato foi extinta: a empresa pode fazer diretamente. Porém, erros no cálculo rescisório geram ação de diferenças.
+Desde a Reforma Trabalhista de 2017 (que revogou o § 1º do art. 477 da CLT), a rescisão não exige homologação obrigatória no sindicato, mesmo para contratos com mais de 1 ano, salvo se houver exigência expressa na convenção coletiva da categoria. O prazo legal inegociável é de **10 dias corridos** a contar do término do contrato para o pagamento das verbas rescisórias e a entrega dos documentos da extinção contratual, sob pena de multa a favor do empregado no valor equivalente a um salário seu (art. 477, §§ 6º e 8º, da CLT).
 
 Recomendação: para rescisões de colaboradores com mais de 1 ano, contratar contador ou advogado trabalhista para conferir o Termo de Rescisão antes de assinar. O custo é muito menor do que uma ação posterior.
 
@@ -2563,7 +2567,7 @@ O que não configura assédio moral (embora seja má gestão):
 
 #### O que configura assédio sexual
 
-Conduta de natureza sexual não consentida que constranja, ofenda ou crie ambiente hostil. A CLT (art. 216-A do CP) e a Lei 9.029/1995 protegem trabalhadores de:
+Conduta de natureza sexual não consentida que constranja, ofenda ou crie ambiente hostil. O Código Penal (art. 216-A) tipifica como crime o assédio sexual praticado com prevalecimento de condição de superior hierárquico ou ascendência no emprego, enquanto a Lei 9.029/1995 veda práticas discriminatórias e, na esfera cível e trabalhista, a empresa responde objetivamente pelos atos de seus empregados e prepostos no exercício do trabalho (Código Civil, arts. 932, III, e 933), independentemente de culpa ou ciência prévia da diretoria, protegendo trabalhadores contra:
 
 - Propostas sexuais com promessa de benefício ou ameaça de prejuízo.
 - Comentários, gestos ou contato físico não desejados de natureza sexual.
@@ -2588,7 +2592,7 @@ Elementos mínimos:
 - Política de conduta e anti-assédio por escrito, assinada por todos os colaboradores.
 - Canal de denúncias anônimo (pode ser e-mail dedicado, formulário, ou terceiro).
 - Protocolo de investigação com prazo definido.
-- Treinamento anual para líderes sobre o que configura assédio.
+- Cumprimento das obrigações legais de prevenção: regras de conduta, canal de denúncias e capacitação anual obrigatória sobre violência e assédio para empresas com CIPA (Lei 14.457/2022, art. 23, Programa Emprega + Mulheres) e inclusão obrigatória dos fatores de riscos psicossociais relacionados ao trabalho no Gerenciamento de Riscos Ocupacionais (GRO/PGR) da NR-1 (Portaria MTE 1.419/2024).
 - Consequências claras, aplicadas de forma consistente.
 
 > [!important] Tamanho não exime responsabilidade
@@ -2637,7 +2641,7 @@ O que **não pode** ser negociado coletivamente (art. 611-B):
 
 #### Data-base
 
-Cada categoria tem uma data-base: o mês em que o sindicato negocia o reajuste anual. Em TI em São Paulo, a data-base de referência é tipicamente outubro. A empresa deve aplicar o reajuste negociado a partir daquele mês, retroativamente se necessário.
+Cada categoria tem uma data-base: o mês em que o sindicato negocia o reajuste anual. Consulte sempre a data-base fixada na convenção coletiva vigente do seu sindicato (em TI no estado de São Paulo, na convenção SINDPD-SP/SEPROSP, a data-base tradicional é 1º de janeiro). A empresa deve aplicar o reajuste negociado a partir daquele mês, retroativamente se necessário.
 
 Não aplicar o reajuste da data-base é passivo automático: e o colaborador pode cobrar retroativamente dentro do prazo prescricional.
 
@@ -2651,7 +2655,7 @@ O erro mais comum. Desenvolvedor que trabalha exclusivamente para a startup, 8 h
 
 **2. Não pagar horas extras de engenheiros por entender que são "cargos de confiança".**
 
-A exceção de jornada para "cargo de confiança" (art. 62 da CLT) se aplica a gerentes com poder de mando e representação, com salário diferenciado (pelo menos 40% acima dos subordinados). Desenvolvedor sênior, líder técnico, ou head de produto **não se enquadram automaticamente**. O TST rejeita aplicação extensiva desse artigo para cargos técnicos. Se esses profissionais trabalham horas extras sistematicamente sem controle formal, o risco existe.
+A exceção de jornada para "cargo de confiança" (art. 62 da CLT) se aplica a gerentes com poder de mando e representação, com poder real de gestão e remuneração do cargo de confiança (incluída a gratificação de função, se houver) no mínimo 40% superior ao salário efetivo do próprio cargo (art. 62, II e parágrafo único, da CLT). Desenvolvedor sênior, líder técnico, ou head de produto **não se enquadram automaticamente**. O TST rejeita aplicação extensiva desse artigo para cargos técnicos. Se esses profissionais trabalham horas extras sistematicamente sem controle formal, o risco existe.
 
 **3. Demitir com justa causa sem documentação.**
 
@@ -2659,7 +2663,7 @@ Já descrito acima: reversão frequente, custo mais alto do que a sem justa caus
 
 **4. Não registrar no eSocial em dia.**
 
-Admitir no dia 1 e registrar no dia 5. Multa. Repetir isso para todos os colaboradores. Auditoria do Ministério do Trabalho. Custo acumulado desproporcional ao problema que era fácil de evitar.
+Quem admite o colaborador no dia 1 e só registra no eSocial no dia 5 fica sujeito a multa administrativa por empregado (art. 47 da CLT). Se o atraso vira rotina operacional, uma fiscalização do Ministério do Trabalho multiplica a autuação pelo time inteiro, gerando um custo desproporcional para um erro fácil de evitar.
 
 **5. Promessas verbais de bônus ou promoção.**
 
@@ -2667,7 +2671,7 @@ Fundador diz em reunião 1-1 "você vai ter um bônus de R$ 30k no final do ano"
 
 **6. Benefícios informais que viram direito adquirido.**
 
-Festa de natal com R$ 5.000 por pessoa durante 3 anos. No quarto ano, a empresa não faz. Ex-colaboradores cobram como parcela habitual incorporada ao salário. Benefícios dados de forma contínua e uniforme podem ser reconhecidos como verbas remuneratórias. Documentar sempre que um benefício é eventual, discricionário e não incorporado ao salário.
+Pagamentos habituais em dinheiro disfarçados de gratificação fixa todo mês de dezembro, sem regras de desempenho, geram risco de cobrança como parcela salarial; já prêmios por desempenho extraordinário e abonos eventuais não integram a remuneração desde a Reforma de 2017 (art. 457, § 2º, da CLT), e na mudança do teletrabalho para o presencial o empregador pode determiná-la unilateralmente desde que formalize aditivo contratual e respeite o prazo mínimo de transição de 15 dias (art. 75-C, § 2º, da CLT).
 
 **7. Home office sem contrato escrito.**
 
@@ -2711,9 +2715,9 @@ Faça uma auditoria fria na relação com sua equipe hoje, antes que um auditor 
 2. **A Farsa do Cargo de Confiança:** Você classificou analistas plenos ou coordenadores sem poder real de mando/demissão e sem gratificação mínima de 40% como "cargo de confiança" (Art. 62, II da CLT) apenas para não controlar ponto nem pagar hora extra?
 3. **O Gatilho dos 20 Empregados:** Se o seu CNPJ ultrapassou 20 funcionários CLT, você já implantou controle formal de ponto (ou ponto por exceção acordado) e aditivos de teletrabalho claros?
 
-**Regra de Sobrevivência:** Se você quer exigir horário fixo, exclusividade, pessoalidade e subordinação diária de alguém, contrate como CLT; se contratar como PJ (especialmente hipersuficientes técnicos), trate genuinamente como empresa parceira orientada a entregas.
+**Regra de Sobrevivência:** Se você quer exigir horário fixo, exclusividade, pessoalidade e subordinação diária de alguém, contrate como CLT; se contratar profissional autônomo ou PJ (ou empregado hipersuficiente na CLT, que pelo art. 444, parágrafo único, exige diploma de nível superior e salário mensal igual ou superior a duas vezes o limite máximo dos benefícios do RGPS/INSS), preserve autonomia real orientada a entregas; e, ao migrar PJs de risco para CLT, conduza a transição com advogado trabalhista para estruturar a quitação e não produzir prova automática de vínculo retroativo.
 
-**O Ritual de Segunda-Feira às 9h:** Liste todos os prestadores PJ ativos da empresa, classifique-os por grau de risco de subordinação (Alto, Médio, Baixo) e inicie um plano de transição ou readequação real de escopo para eliminar 100% dos casos de alto risco neste trimestre.
+**O Ritual de Segunda-Feira às 9h (rotina semanal de 30 minutos):** Liste todos os prestadores PJ ativos da empresa, classifique-os por grau de risco de subordinação (Alto, Médio, Baixo) e inicie um plano de transição ou readequação real de escopo para eliminar 100% dos casos de alto risco neste trimestre.
 
 
 ---
@@ -2722,7 +2726,7 @@ Faça uma auditoria fria na relação com sua equipe hoje, antes que um auditor 
 
 ### O Tribunal Instantâneo do Reclame Aqui e a Assimetria Implacável do CDC no Brasil
 
-Na segunda-feira seguinte à primeira grande Black Friday do marketplace de Rafael e Bia em Recife, um atraso de integração com uma transportadora terceirizada travou a atualização do código de rastreio de 1.400 pedidos pagos no Pix. Para piorar, o fluxo de cancelamento no aplicativo exigia que o cliente ligasse para um telefone comercial em horário útil, enquanto a compra havia sido feita com um único clique no domingo à noite. Em setenta e duas horas, a nota da empresa no Reclame Aqui despencou de 8.9 para 4.2, o PROCON estadual enviou notificação de abertura de processo administrativo por descumprimento do direito de arrependimento (Art. 49 do CDC) e setenta e oito clientes ingressaram diretamente nos Juizados Especiais Cíveis pedindo devolução em dobro e dano moral por desvio produtivo do consumidor. O lucro líquido da campanha inteira evaporou em custas de correspondentes jurídicos e estornos.
+Na segunda-feira seguinte à maior Black Friday do marketplace de Rafael e Bia em Recife, um atraso de integração com uma transportadora terceirizada travou a atualização do código de rastreio de 1.400 pedidos pagos no Pix. Para piorar, o fluxo de cancelamento no aplicativo exigia que o cliente ligasse para um telefone comercial em horário útil, enquanto a compra havia sido feita com um único clique no domingo à noite. Em duas semanas de reclamações avaliadas sem solução, a nota da empresa no Reclame Aqui caiu de 8,9 para 6,1, o PROCON estadual enviou notificação de abertura de processo administrativo por descumprimento do direito de arrependimento (Art. 49 do CDC) e setenta e oito clientes ingressaram diretamente nos Juizados Especiais Cíveis pedindo devolução em dobro e dano moral por desvio produtivo do consumidor. O lucro líquido da campanha inteira evaporou em custas de correspondentes jurídicos e estornos.
 
 O erro de muitas startups de tecnologia, inclusive B2B que vendem para microempreendedores, é achar que o Código de Defesa do Consumidor (Lei 8.078/90) só vale para varejistas de shopping center. Pela Teoria Finalista Mitigada do STJ, sempre que o seu cliente (mesmo um CNPJ pequeno) tiver vulnerabilidade técnica, jurídica ou econômica diante da sua plataforma, o juiz aplicará o CDC com **responsabilidade objetiva** e **inversão do ônus da prova**.
 
@@ -2731,15 +2735,16 @@ Você precisa dominar **A Engenharia de Defesa Consumerista e Reputacional**: tr
 ---
 
 > [!abstract] Posicao no livro
-> CDC e a moldura que rege a relacao com o consumidor final, pessoa fisica ou pequena empresa em vulnerabilidade. Vizinhos relevantes,
+> [!note] Posição no livro
+> O CDC é a moldura que rege a relação com o consumidor final, pessoa física ou pequena empresa em situação de vulnerabilidade técnica, jurídica ou econômica (teoria finalista mitigada). Capítulos vizinhos: contratos de adesão e cláusulas nulas dialogam com o Capítulo 6, e a responsabilidade solidária na cadeia de fornecimento conecta-se ao Capítulo 9.
 > - [[#CAPÍTULO 9 — LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Capítulo 9 (LGPD, Compliance e Governança de Dados)]], dado pessoal do consumidor, base legal e direitos
 > - [[#CAPÍTULO 5 — ARQUITETURA CONTRATUAL PARA STARTUPS: OPERAÇÃO E CONTRATOS EM PROFUNDIDADE POR TIPO|Capítulo 5 (Arquitetura Contratual para Startups: Operação e Contratos em Profundidade por Tipo)]], termos de uso, contratos de adesao e clausulas abusivas
 > - [[#CAPÍTULO 8 — CONTENCIOSO E LITÍGIO PARA STARTUPS|Capítulo 8 (Contencioso e Litígio para Startups)]], reclamacoes consumeristas, juizado especial e provisao de passivo
 > - [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 4 — MARKETPLACES, PLATAFORMAS E EFEITOS DE REDE: LIQUIDEZ, OVO-E-GALINHA E RISCO DE PLATAFORMA|Capítulo 4 (Marketplaces, Plataformas e Efeitos de Rede: Liquidez, Ovo-e-Galinha e Risco de Plataforma) (Vol. 3)]], responsabilidade solidaria do marketplace pelo lojista terceiro
 
-**Compliance, Riscos e Relacionamento com o Cliente**
+Quem vende produtos ou serviços digitais ao usuário final opera sob as regras imperativas do Código de Defesa do Consumidor desde a primeira oferta pública.
 
-O CDC (Código de Defesa do Consumidor, Lei 8.078/1990) é uma das legislações mais agressivas do mundo em favor do consumidor. Para startups que vendem direto ao público ou operam em cadeias que chegam ao usuário final, ignorar o CDC não é opção. É passivo acumulando juros. Este capítulo traduz os pontos críticos em linguagem operacional.
+Para startups que vendem diretamente ao público ou participam da cadeia de fornecimento ao usuário final, o Código de Defesa do Consumidor (Lei 8.078/1990) incide sobre toda a jornada digital: da promessa no anúncio ao botão de cancelamento.
 
 ---
 
@@ -2747,7 +2752,7 @@ O CDC (Código de Defesa do Consumidor, Lei 8.078/1990) é uma das legislações
 
 O CDC define **consumidor** como "toda pessoa física ou jurídica que adquire ou utiliza produto ou serviço como destinatário final" (Art. 2º). A palavra-chave é "destinatário final": quem usa o produto ou serviço para consumo próprio, sem repassar a terceiros nem incorporar em cadeia produtiva.
 
-**Fornecedor** é qualquer pessoa física ou jurídica que desenvolva atividade de produção, montagem, criação, construção, transformação, importação, exportação, distribuição ou comercialização de produtos ou prestação de serviços (Art. 3º). Se sua startup cobra por um produto ou serviço, você é fornecedor.
+**Fornecedor** é qualquer pessoa física ou jurídica que desenvolva atividade de produção, montagem, criação, construção, transformação, importação, exportação, distribuição ou comercialização de produtos ou prestação de serviços (Art. 3º). Se sua startup oferece produto ou serviço no mercado de consumo, mesmo gratuito para o usuário e remunerado indiretamente por publicidade ou tratamento de dados pessoais (remuneração indireta reconhecida pelo STJ), você é fornecedor sob o CDC (podendo o juiz inverter o ônus da prova a favor do consumidor, conforme art. 6º, VIII, e respondendo o marketplace quando integra a cadeia de consumo ou falha no dever de segurança e informação).
 
 **A linha tênue no B2B2C**
 
@@ -2774,14 +2779,14 @@ O consumidor que contrata fora do estabelecimento comercial, o que inclui toda v
 
 Pontos operacionais críticos:
 
-- O prazo começa no momento da contratação, não da entrega
+- Para produtos físicos, o prazo de 7 dias começa a contar do recebimento efetivo do produto; para serviços contratados a distância, conta-se da assinatura ou do início da disponibilização (art. 49 do CDC)
 - Para assinaturas SaaS, o prazo começa na data da adesão
 - A devolução de valores deve ser integral, incluindo frete
 - Nos serviços já iniciados (streaming, acesso imediato a software), o STJ tem decidido caso a caso: políticas claras no Termo de Uso ajudam, mas não eliminam o risco
 - O fornecedor deve informar o direito de arrependimento de forma ostensiva
 
 > [!warning]
-> Cobrar taxa de cancelamento dentro do período de 7 dias, reter valores parciais ou dificultar o exercício do arrependimento configura prática abusiva (Art. 51) e pode gerar autuação pelo PROCON e ação individual ou coletiva.
+> Cobrar taxa de cancelamento dentro do período de 7 dias, reter valores parciais ou dificultar o exercício do direito de arrependimento configura prática abusiva (art. 39 do CDC) e, quando prevista nos termos de uso, cláusula nula de pleno direito (art. 51, I e IV, do CDC, assim como a imposição de arbitragem compulsória ao consumidor é nula pelo art. 51, VII) e pode gerar autuação pelo PROCON e ação individual ou coletiva.
 
 **Vício do produto ou serviço**
 
@@ -2790,7 +2795,7 @@ O consumidor pode reclamar de vício (defeito) do produto ou serviço nos seguin
 - **30 dias** para produtos e serviços não duráveis
 - **90 dias** para produtos e serviços duráveis
 
-Para software e plataformas SaaS, o STJ tem classificado como serviço durável em regra: aplica-se o prazo de 90 dias. O prazo começa a contar a partir do momento em que o vício se torna aparente.
+Plataformas SaaS e aplicativos tendem a ser enquadrados pela doutrina e pelos tribunais como serviços duráveis, sujeitos ao prazo decadencial de 90 dias para reclamar de vícios (art. 26, II, do CDC), embora o STJ analise cada caso concreto. No **vício aparente** ou de fácil constatação, o prazo conta da entrega efetiva do produto ou do término da execução do serviço (art. 26, § 1º); já no **vício oculto**, conta-se do momento em que o defeito ficar evidenciado (art. 26, § 3º). Além disso, na prestação de serviços com vício de qualidade (art. 20 do CDC), o consumidor pode exigir de imediato a reexecução, a restituição da quantia paga ou o abatimento proporcional do preço, sem depender do prazo de 30 dias previsto no art. 18 para produtos.
 
 Quando o consumidor reclama de vício, o fornecedor tem **30 dias** para sanar o problema. Se não sanar, o consumidor pode exigir substituição do produto, restituição do valor pago ou abatimento proporcional (Art. 18).
 
@@ -2810,7 +2815,7 @@ O ônus da prova da veracidade da publicidade é do anunciante (Art. 38). Guarde
 
 ---
 
-### 3. Cláusulas Abusivas Nulas de Pleno Direito (Art. 51): Por Que Seu Termo de Uso Inglês Traduzido Não Vale Nada no Juizado
+### 3. Cláusulas Abusivas Nulas (Art. 51) e Vinculação da Oferta (Arts. 30 e 35): Por Que Termos Traduzidos Caem no Juizado
 
 Termos de Uso e Políticas de Privacidade são contratos de adesão: o consumidor não negocia as cláusulas. O CDC estabelece regras específicas para contratos de adesão e lista cláusulas que são **nulas de pleno direito** independentemente de assinatura ou aceite (Art. 51).
 
@@ -2868,7 +2873,7 @@ Se necessário: encaminhamento ao MP ou ação civil pública
 
 **Prazo de resposta: 10 dias**
 
-O prazo padrão é de 10 dias corridos a partir do recebimento da notificação. Algumas notificações concedем prazo diferente: sempre leia o documento com atenção. Solicitar prorrogação é possível em casos complexos, mas deve ser feito formalmente antes do vencimento.
+O prazo padrão é de 10 dias corridos a partir do recebimento da notificação. Algumas notificações concedem prazo diferente: sempre leia o documento com atenção. Solicitar prorrogação é possível em casos complexos, mas deve ser feito formalmente antes do vencimento.
 
 > [!warning]
 > Ignorar uma notificação do PROCON é o erro mais caro que uma startup pode cometer. A não resposta configura infração autônoma, independente do mérito da reclamação original. Multas por não resposta no PROCON-SP, por exemplo, variam de R$ 880 a R$ 13,2 milhões dependendo do porte da empresa.
@@ -2898,12 +2903,12 @@ Uma boa defesa ao PROCON deve conter:
 
 ### 5. O Reclame Aqui Como Página de Conversão: Como Transformar Reclamações Públicas em Prova de Confiança (Selo RA1000)
 
-O Reclame Aqui não tem poder legal, mas tem poder econômico. Estudos setoriais indicam que consumidores consultam o índice de reputação da plataforma antes de comprar, especialmente em tickets acima de R$ 200. Uma nota baixa no Reclame Aqui pode reduzir significativamente a taxa de conversão.
+O Reclame Aqui não tem poder legal, mas tem poder econômico. No comércio eletrônico e em assinaturas digitais, grande parte dos consumidores brasileiros consulta a nota e o histórico de respostas da empresa na plataforma antes de concluir a compra, sobretudo em marcas que ainda não conhece. Uma nota baixa no Reclame Aqui pode reduzir significativamente a taxa de conversão.
 
 **Métricas que importam na plataforma**
 
 ```text
-ÍNDICE RA 1000 (metodologia pública da plataforma)
+ÍNDICE RA 1000 (metodologia pública do Reclame Aqui baseada em quatro indicadores: Índice de Resposta ≥ 90%, Índice de Solução ≥ 90%, Média das Avaliações dos consumidores ≥ 7,0 e Índice de Novos Negócios / voltaria a fazer negócio ≥ 70%, além de volume mínimo de avaliações)
 ├── % de reclamações respondidas (peso alto)
 ├── Nota média de satisfação pós-resposta (peso alto)
 ├── % de reclamações com status "Resolvido" (peso médio)
@@ -2965,7 +2970,7 @@ Para fintechs e e-commerces, condenações em ação coletiva têm variado de R$
 
 **Casos relevantes no segmento de fintechs e e-commerces**
 
-- Fintechs de crédito que cobraram tarifas não informadas previamente no CET (Custo Efetivo Total) foram alvo de ações coletivas movidas pelo MP de diversos estados, com condenações em dano moral coletivo revertido ao Fundo de Defesa dos Direitos Difusos
+- **Situações típicas que geram ações civis públicas e autuações coletivas:** fintechs de crédito acionadas por Ministérios Públicos estaduais por cobrança de tarifas não destacadas no Custo Efetivo Total (CET) e plataformas de e-commerce autuadas pela Senacon em operações de Black Friday, com condenações por dano moral coletivo revertidas aos fundos estaduais ou federal de defesa dos direitos difusos (art. 13 da Lei 7.347/1985)
 - Plataformas de e-commerce que cancelaram pedidos unilateralmente durante picos de demanda (como Black Friday) após confirmar o pagamento foram autuadas pelo SENACON e enfrentaram ações coletivas estaduais
 - Empresas SaaS B2C que alteraram planos de assinatura sem aviso adequado enfrentaram ações coletivas baseadas no Art. 6º, III (direito à informação adequada e clara)
 
@@ -2989,7 +2994,7 @@ O SENACON tem colaborado com o CONAR e tem poder legal de autuar empresas (não 
 
 **Dark patterns e publicidade enganosa digital**
 
-A SENACON publicou nota técnica em 2023 identificando práticas recorrentes de dark patterns em plataformas digitais brasileiras. As que mais geraram autuações:
+A Senacon (Secretaria Nacional do Consumidor), os Procons e a ANPD intensificaram a fiscalização contra padrões de interface enganosos (*dark patterns*) em plataformas digitais, enquanto na publicidade com criadores de conteúdo aplica-se o *Guia de Publicidade por Influenciadores Digitais* do CONAR. As práticas de design enganoso que mais geram autuações no Brasil são:
 
 ```text
 DARK PATTERN                        ENQUADRAMENTO CDC
@@ -3023,7 +3028,7 @@ Omitir qualquer desses elementos em publicidade configura infração ao CDC e à
 **E-commerce (venda direta ao consumidor final)**
 
 - [ ] Informar direito de arrependimento de 7 dias de forma ostensiva na página de checkout
-- [ ] Canal de atendimento funcional com prazo de resposta de até 5 dias úteis (boa prática; PROCON espera até 10 dias corridos)
+- [ ] Canal de atendimento eletrônico eficaz com confirmação imediata de recebimento e resposta às demandas do consumidor em até 5 dias (obrigação legal do Decreto 7.962/2013, art. 4º, parágrafo único, além do cadastro recomendável no Consumidor.gov.br)
 - [ ] Política de devolução e reembolso clara, sem taxa de cancelamento dentro do prazo de arrependimento
 - [ ] Prazo de entrega informado antes da conclusão da compra
 - [ ] NF-e emitida e enviada ao consumidor
@@ -3056,9 +3061,9 @@ Omitir qualquer desses elementos em publicidade configura infração ao CDC e à
 
 - [ ] CET informado de forma clara antes da contratação e na publicidade
 - [ ] Direito de arrependimento de 7 dias para crédito contratado online
-- [ ] Proibição de cobrar mais de uma comissão de permanência por período
+- [ ] Vedação de cumular comissão de permanência com juros remuneratórios, correção monetária ou multa moratória (Súmula 472 do STJ e normas do CMN), garantia de liquidação antecipada do débito com redução proporcional dos juros (art. 52, § 2º, do CDC) e observância das regras de prevenção e tratamento do superendividamento e preservação do mínimo existencial (Lei 14.181/2021)
 - [ ] Informação clara sobre todas as tarifas antes da assinatura do contrato
-- [ ] Limite de cobrança de juros de mora (2% ao mês, Art. 52 do CDC)
+- [ ] Limite de multa de mora de no máximo 2% sobre o valor da prestação (art. 52, § 1º, do CDC), acrescida de juros de mora legais ou contratuais sem abusividade
 - [ ] Cláusula de liquidação antecipada com redução proporcional de juros (Lei 10.931/2004)
 - [ ] Vedação à negativação do consumidor sem notificação prévia
 - [ ] Atendimento humano disponível para reclamações: não apenas bot
@@ -3107,7 +3112,7 @@ Teste o seu próprio produto hoje como se você fosse um cliente insatisfeito qu
 
 **Regra de Sobrevivência:** No Brasil, um estorno imediato de R$ 200 concedido sem burocracia para um cliente irritado economiza R$ 5.000 de condenação por dano moral e honorários no Juizado Especial Cível.
 
-**O Ritual de Segunda-Feira às 9h:** Cadastre sua empresa no Consumidor.gov.br e no Reclame Aqui com alerta em tempo real no Slack da liderança, garanta SLA máximo de 24 horas para resolução de qualquer queixa pública e audite o fluxo de cancelamento em 1 clique do seu produto.
+**O Ritual de Segunda-Feira às 9h (rotina semanal de 30 minutos):** Cadastre sua empresa no Consumidor.gov.br e no Reclame Aqui com alerta em tempo real no Slack da liderança, garanta primeira resposta em até 24 horas e solução efetiva em até 5 dias para qualquer queixa no Consumidor.gov.br (plataforma pública oficial da Senacon que reduz a judicialização) e no Reclame Aqui e audite o fluxo de cancelamento em 1 clique do seu produto.
 
 
 ---
@@ -3148,17 +3153,17 @@ Este capítulo cobre os quatro grandes vetores de contencioso que afetam startup
 
 ---
 
-### Arbitragem vs. Poder Judiciário: Por Que uma Cláusula Arbitral Mal Colocada Pode Custar R$ 150 Mil de Taxa de Entrada
+### 1. Arbitragem vs. Poder Judiciário: Por Que uma Cláusula Arbitral Mal Colocada Pode Custar Mais de R$ 100 Mil de Entrada
 
 Antes de mergulhar na mecanica judicial por vetor, vale entender duas vias paralelas que retiram disputa do Judiciario e geralmente entregam resultado melhor para a startup quando o ticket e relevante.
 
-**Arbitragem (Lei 9.307/1996, atualizada pela Lei 13.129/2015).** Jurisdicao privada com forca de coisa julgada. O pré-requisito e clausula compromissoria assinada em contrato (ou compromisso arbitral firmado apos a disputa). As partes escolhem o tribunal arbitral, os arbitros, a sede e o regulamento aplicavel. Sentenca arbitral e titulo executivo judicial e nao cabe recurso de merito.
+**Arbitragem (Lei 9.307/1996, atualizada pela Lei 13.129/2015).** Jurisdição privada com força de coisa julgada. O pré-requisito é cláusula compromissória assinada em contrato (ou compromisso arbitral firmado após o surgimento da disputa). As partes escolhem a câmara arbitral, os árbitros, a sede e o regulamento aplicável. A sentença arbitral é título executivo judicial (art. 515, VII, do CPC) e contra ela não cabe recurso de mérito ao Poder Judiciário.
 
 Vantagens. Sigilo (processo nao publico, relevante em disputa societaria ou de PI). Especializacao (arbitros escolhidos pelas partes, tipicamente com expertise no tema). Velocidade (12 a 18 meses, contra cinco a dez anos do Judiciario brasileiro em primeira instancia mais recurso). Executoriedade internacional via Convencao de Nova York (1958), reconhecida em mais de 170 paises, util para contratos cross-border.
 
-Custos. Taxas administrativas das camaras (CCBC, CAM-CCBC, AmCham, ICC, CAMARB) variam de R$ 50 mil para causas medias a multiplos milhoes em causas grandes. Honorarios de arbitros somam de USD 5 mil a USD 15 mil por arbitro por dia em casos complexos, com painel tipicamente de tres arbitros. Custo total fica em tres a oito por cento do valor em disputa, pago em parcelas ao longo do procedimento.
+**Custos reais nas câmaras brasileiras.** Nas principais câmaras do país (como CAM-CCBC, CIESP/FIESP, CAMARB, Amcham e FGV), as despesas dividem-se entre taxa de administração e honorários dos árbitros conforme tabelas públicas progressivas: em uma disputa de R$ 1 milhão a R$ 2 milhões com três árbitros, a soma de taxas administrativas e honorários arbitrais costuma variar entre R$ 120 mil e R$ 280 mil ao longo do procedimento (podendo ser reduzida pelo uso de árbitro único ou rito de arbitragem expedita para causas menores).
 
-Quando vale. Disputa societaria entre socios ou contra investidor. M&A com earnout em disputa. Contrato de fornecimento estrategico de ticket alto. Joint venture com conflito de governanca. Operacao com contraparte estrangeira.
+**Quando compensa usar arbitragem.** A via arbitral justifica o custo em disputas societárias entre sócios ou com fundos investidores, contratos de M&A com *earnout* ou ajuste de preço em discussão, contratos estratégicos de infraestrutura de alto valor (acima de R$ 2 milhões), *joint ventures* e operações com contraparte estrangeira.
 
 Quando nao vale. Causa abaixo de R$ 500 mil (custo desproporcional ao valor em disputa). Conflito de baixa especificidade tecnica em que o Judiciario decide rapido. Disputa trabalhista (Justica do Trabalho tem jurisdicao especializada e arbitragem trabalhista e restrita).
 
@@ -3194,7 +3199,7 @@ x 5 anos retroativos:                   x 60 meses
 = Base de cálculo bruta:                __________
 
 Verbas adicionais estimadas:
-  13o salário (8,33% ao ano):           __________
+  13º salário (8,33% ao ano):           __________
   Férias + 1/3 (11,11% ao ano):         __________
   FGTS 8% sobre tudo:                   __________
   Multa 40% FGTS em rescisão:           __________
@@ -3220,17 +3225,17 @@ O CPC 25 classifica o risco trabalhista em três categorias:
 
 ---
 
-### 3. Disputas Cíveis e Comerciais: Cobrança de Inadimplentes, Execução de Título e Tutelas de Urgência
+### 3. Disputas Cíveis e Comerciais: Cobrança de Inadimplentes, Execução de Título Extrajudicial e Tutelas de Urgência
 
 Disputas contratuais com clientes, fornecedores e parceiros chegam mais cedo do que os fundadores esperam. Um contrato de SaaS mal redigido, um SLA descumprido, um fornecedor que entregou produto defeituoso: qualquer um desses eventos pode gerar ação judicial.
 
 **Foro de eleição e sua eficácia**
 
-Todo contrato B2B deve conter cláusula de foro de eleição. A finalidade é concentrar eventuais litígios na comarca onde a startup tem sua sede: reduzindo o custo logístico de se defender em cidades remotas onde o cliente está localizado. Nos contratos B2C (consumidor final), a cláusula de foro é relativa e o juiz pode declinar para o domicílio do consumidor, mas em B2B ela é amplamente respeitada.
+Todo contrato B2B deve conter cláusula de foro de eleição. A finalidade é concentrar eventuais litígios na comarca onde a startup tem sua sede: reduzindo o custo logístico de se defender em cidades remotas onde o cliente está localizado. Nos contratos B2C (consumidor final), a cláusula que afasta o foro do domicílio do consumidor é nula; já nos contratos B2B, o foro eleito é válido desde que guarde pertinência com o domicílio ou a residência de uma das partes ou com o local da obrigação (art. 63, § 1º, do CPC, na redação da Lei 14.879/2024), requisito plenamente atendido quando a startup elege a comarca de sua própria sede.
 
 **Mediação e arbitragem como alternativas**
 
-Para contratos de valor relevante (acima de R$ 100 mil em disputas), a arbitragem é frequentemente mais eficiente que a Justiça comum:
+Para contratos estratégicos de alto valor (tipicamente acima de R$ 2 milhões em disputa, acordos de sócios ou operações de M&A), a arbitragem costuma ser mais eficiente que a Justiça comum:
 
 ```text
 COMPARATIVO: ARBITRAGEM vs. JUSTIÇA COMUM
@@ -3250,7 +3255,7 @@ A câmara arbitral mais adequada para startups em disputas de menor valor é o C
 A mediação é ainda mais barata e deve ser o primeiro recurso antes de qualquer arbitragem ou processo judicial. Câmaras empresariais reconhecidas e associadas ao CONIMA (Conselho Nacional das Instituições de Mediação e Arbitragem), como CAM-CCBC, CAMARB, CIESP/FIESP e CBMA, oferecem regulamentos de mediação empresarial com custo e prazo muito inferiores aos de uma arbitragem ou ação judicial.
 
 > [!tip]
-> Inclua cláusula escalonada nos contratos relevantes: primeiro tentativa de negociação direta (30 dias), depois mediação (60 dias), depois arbitragem. Essa cláusula elimina a maioria das disputas antes de chegarem ao árbitro.
+> Inclua cláusula escalonada (*med-arb*) nos contratos societários e enterprise acima do piso de arbitragem: primeiro etapa de negociação direta entre executivos (15 a 30 dias), seguida de mediação (30 a 60 dias, Lei 13.140/2015) e, apenas se persistir o impasse, instauração da arbitragem ou ação judicial. Essa cláusula elimina a maioria das disputas antes de chegarem ao árbitro.
 
 **Ações cautelares e tutelas de urgência**
 
@@ -3264,13 +3269,13 @@ O contencioso tributário tem uma característica que o distingue de outros: exi
 
 **Os três níveis de fiscalização**
 
-- Federal (Receita Federal do Brasil): autuações por IRPJ, CSLL, PIS/COFINS, contribuições previdenciárias. Valores costumam ser expressivos: multas de 75% a 150% sobre o tributo exigido, mais juros SELIC
+- Federal (Receita Federal do Brasil): autuações por IRPJ, CSLL, PIS/COFINS, contribuições previdenciárias. Valores costumam ser expressivos: multa de ofício de 75% ou multa qualificada de 100% em caso de sonegação, fraude ou conluio (elevada a 150% apenas na reincidência, conforme Lei 14.689/2023), acrescida de juros pela taxa Selic (sendo possível negociar descontos exclusivamente sobre multas, juros e encargos, nunca sobre o tributo principal, via transação tributária da Lei 13.988/2020 na PGFN/RFB)
 - Estadual (SEFAZ): autuações por ICMS, DIFAL, SPED inconsistente. Startups de e-commerce e com operações multiestado são alvos frequentes
 - Municipal (Prefeitura): autuações por ISS, especialmente em modelos onde o enquadramento do serviço é disputado
 
 **Defesa administrativa: o primeiro campo de batalha**
 
-Antes de qualquer judicialização, o auto de infração passa por uma fase administrativa obrigatória:
+Recebido o auto de infração, o contribuinte pode optar por discutir a cobrança na via administrativa (que suspende a exigibilidade do crédito sem exigir depósito ou fiança, pelo art. 151, III, do CTN, com julgamento em instância única na DRJ para causas de pequeno valor de até 60 salários mínimos) ou ingressar diretamente no Poder Judiciário (o que importa renúncia ao recurso administrativo, conforme art. 38, parágrafo único, da Lei 6.830/1980):
 
 ```text
 RITO ADMINISTRATIVO FEDERAL (CARF)
@@ -3301,7 +3306,7 @@ A defesa administrativa no CARF tem taxa de êxito historicamente entre 30% e 50
 
 **Riscos específicos de startups**
 
-Startups com Simples Nacional que cresceram e saíram do regime sem planejamento adequado frequentemente têm autuações por diferenças de apuração no período de transição. Startups que distribuíram lucros antes de fechar balanço positivo auditado têm risco de autuação previdenciária sobre a parcela que a Receita entenda como pró-labore disfarçado.
+Startups que cresceram e saíram do Simples Nacional sem planejamento adequado frequentemente enfrentam autuações por diferenças de apuração na transição, e empresas que distribuíram lucros sem balanço contábil positivo sofrem risco de cobrança previdenciária sobre valores requalificados como pró-labore. Além disso, a partir de 2026 e 2027, o contencioso tributário passa a incorporar duas novas frentes (detalhadas no Capítulo 2 do Volume 5): as autuações sobre a retenção de 10% de IRRF em dividendos mensais acima de R$ 50 mil por sócio pessoa física (Lei 15.270/2025) e o novo contencioso administrativo da CBS (na Receita Federal) e do IBS (no Comitê Gestor do IBS, conforme LC 214/2025).
 
 ---
 
@@ -3311,8 +3316,8 @@ O Código de Defesa do Consumidor cria responsabilidade objetiva por defeito do 
 
 **Os três canais de demanda consumerista**
 
-- PROCON: instância administrativa. Notificação do PROCON deve ser respondida em prazo (geralmente 10 dias úteis) ou a empresa leva multa administrativa. A ausência de resposta é frequentemente tratada como confissão de infração
-- Juizado Especial Cível (JEC): ações de até 40 salários mínimos sem advogado, até 20 salários mínimos sem custas. É o principal canal de ações individuais de consumidores. Decisões são rápidas (3 a 6 meses) e a empresa sempre precisa de advogado para se defender
+- PROCON: instância administrativa. Notificação do PROCON deve ser respondida no prazo fixado no documento (em geral 10 dias, contados em dias corridos ou úteis conforme a norma de cada PROCON estadual ou municipal) ou a empresa leva multa administrativa. A ausência de resposta é frequentemente tratada como confissão de infração
+- Juizado Especial Cível (JEC, Lei 9.099/1995): julga causas cíveis de menor complexidade de até 40 salários mínimos, com isenção total de custas processuais e honorários de sucumbência no 1º grau de jurisdição (arts. 54 e 55). Nas causas de até 20 salários mínimos, as partes podem comparecer sem advogado (acima de 20 e até 40 salários mínimos, a assistência por advogado é obrigatória pelo art. 9º), mas na prática a startup ré deve sempre constituir advogado especialista para estruturar a contestação técnica e evitar revelia.
 - Ação Civil Pública / Ação Coletiva: movida pelo Ministério Público, Defensorias ou associações de consumidores. Diferentemente das ações individuais, a condenação aqui vale para toda a coletividade afetada: o passivo pode ser ordens de grandeza maior
 
 > [!warning]
@@ -3332,7 +3337,7 @@ JEC individual  Audiência em   Advogado presente, levar
                                avaliar acordo antes da audiência
 
 Ação coletiva   Citação        Advogado especialista em
-                               class actions imediatamente,
+                               ações civis públicas e coletivas imediatamente,
                                mapear escopo do dano potencial
 ```
 
@@ -3387,18 +3392,18 @@ Uma métrica útil para gestão interna: passivo provisionado / passivo potencia
 
 O custo de um advogado preventivo é uma fração do custo de um advogado contencioso. A afirmação é óbvia mas frequentemente ignorada por startups que otimizam custo de curto prazo.
 
-**Os 5 documentos que eliminam 80% do contencioso trabalhista**
+**Os 5 documentos que mais pesam na defesa trabalhista da startup**
 
 A maioria das reclamatórias trabalhistas prospera por ausência de documentação que comprove o cumprimento de obrigações. Esses cinco documentos, quando bem mantidos, eliminam a maior parte do risco:
 
 1. Contrato de trabalho ou contrato de prestação de serviços com descrição clara das condições: data de admissão, remuneração, jornada, cargo
-2. Registro de ponto eletrônico com backup: ausência de ponto é presunção de jornada máxima legal mais horas extras
+2. Registro de ponto eletrônico com backup: para empresas com mais de 20 empregados por estabelecimento, a não apresentação injustificada dos controles de frequência gera presunção relativa de veracidade da jornada de trabalho alegada na petição inicial pelo reclamante, a qual pode ser elidida por prova em contrário (Súmula 338, I, do TST)
 3. Comprovantes de pagamento de verbas rescisórias assinados pelo colaborador: quitação expressa de cada rubrica
 4. Comprovantes de homologação de rescisão (quando aplicável) ou recibo de entrega de TRCT
 5. Política de remuneração variável documentada e assinada: ausência de clareza sobre metas e comissões é a segunda maior fonte de reclamatória depois de horas extras
 
 > [!tip]
-> Para equipes 100% PJ, documente também: as outras fontes de renda do prestador (outros clientes), a ausência de exclusividade, a liberdade de horário e a assunção de risco pelo prestador. Esses elementos afastam o reconhecimento de vínculo.
+> Se a empresa contratar prestadores PJ em funções sem subordinação, arquive também as evidências de que a autonomia contratual corresponde à rotina real: emissão de notas para outros clientes, ausência de exclusividade, liberdade de agenda e entrega por escopo fechado. Lembre-se do Capítulo 7: documento formal sem autonomia na prática não afasta o vínculo empregatício (art. 9º da CLT).
 
 **O checklist contratual que evita litígio com clientes**
 
@@ -3413,7 +3418,7 @@ Um contrato B2B bem redigido deve conter, no mínimo:
 - Condições de rescisão com aviso prévio e consequências financeiras claras
 
 > [!note]
-> Para contratos com grandes empresas, o cliente frequentemente impõe seu próprio contrato. Identifique as cláusulas de risco (indenização ilimitada, foro do cliente, penalidades sem cap) e negocie explicitamente cada uma antes de assinar: não apenas aceit as condições padrão por conveniência comercial.
+> Para contratos com grandes empresas, o cliente frequentemente impõe seu próprio contrato. Identifique as cláusulas de risco (indenização ilimitada, foro do cliente, penalidades sem cap) e negocie explicitamente cada uma antes de assinar: em vez de aceitar as condições padrão por conveniência comercial.
 
 ---
 
@@ -3515,12 +3520,12 @@ Este capítulo cobre os quatro vetores de contencioso (trabalhista, cível, trib
 Revise o relatório de processos ativos e as cláusulas de resolução de disputas da sua empresa hoje:
 
 1. **A Armadilha da Arbitragem Barata:** Você copiou cláusula de câmara de arbitragem para contratos operacionais menores que R$ 2 milhões sem perceber que apenas as taxas iniciais e honorários de três árbitros custam entre R$ 150 mil e R$ 400 mil, inviabilizando qualquer cobrança judicial rápida?
-2. **O Risco de Revelia:** O endereço oficial da sua empresa no CNPJ, na Junta Comercial e no Domicílio Judicial Eletrônico está monitorado diariamente, ou uma citação judicial em papel pode ser recebida por uma recepcionista de coworking e esquecida na gaveta até você perder o processo por revelia?
+2. **O Risco de Revelia:** O endereço oficial da sua empresa no CNPJ, na Junta Comercial e no Domicílio Judicial Eletrônico do CNJ (plataforma obrigatória para empresas na qual quem deixa de confirmar citação eletrônica em até 3 dias úteis se expõe à citação por oficial e a multa de até 5% do valor da causa por ato atentatório à dignidade da justiça, conforme art. 246, § 1º-C, do CPC) está monitorado diariamente, ou uma citação judicial em papel pode ser recebida por uma recepcionista de coworking e esquecida na gaveta até você perder o processo por revelia?
 3. **O Cálculo do Valor Esperado:** Para cada disputa ativa da sua empresa, você calculou o custo total de continuar litigando (honorários + perícia + horas da diretoria + retenção em escrow no M&A) comparado ao valor de quitar o problema hoje com desconto?
 
-**Regra de Sobrevivência:** Reserve cláusula compromissória de arbitragem exclusivamente para o Acordo de Sócios/Acionistas, contratos de M&A e contratos enterprise multimilionários; para todo o resto, use o foro judicial da sua sede com assinatura digital de duas testemunhas (título executivo extrajudicial).
+**Regra de Sobrevivência:** Reserve cláusula compromissória de arbitragem exclusivamente para o Acordo de Sócios/Acionistas, contratos de M&A e contratos enterprise multimilionários; para todo o resto, use o foro judicial da sua sede e formalize o contrato em plataforma de assinatura eletrônica qualificada ou avançada validada por provedor, o que já confere eficácia de título executivo extrajudicial mesmo sem assinatura de duas testemunhas (art. 784, § 4º, do CPC, incluído pela Lei 14.620/2023).
 
-**O Ritual de Segunda-Feira às 9h:** Exija do seu jurídico um mapa único mensal de contingências classificando cada processo em Provável, Possível ou Remoto (padrão CPC 25) com teto autorizado de acordo imediato para limpar a fila de causas pequenas.
+**O Ritual de Segunda-Feira às 9h (rotina semanal de 30 minutos):** Exija do seu jurídico um mapa único mensal de contingências classificando cada processo em Provável, Possível ou Remoto (padrão CPC 25) com teto autorizado de acordo imediato para limpar a fila de causas pequenas.
 
 
 ---
@@ -3533,9 +3538,9 @@ Para vender a grandes corporações, operar em setores regulados ou passar pelo 
 
 ## CAPÍTULO 9 — LGPD, COMPLIANCE E GOVERNANÇA DE DADOS
 
-### O Teatro do Banner de Cookies vs. A Auditoria de LGPD Que Trava Seu Maior Contrato
+### O Banner de Cookies e a Auditoria de LGPD que Trava o Contrato
 
-Em Belo Horizonte, a healthtech e rede de clínicas da Dra. Camila chegou à fase final de contratação para operar a gestão de saúde ocupacional e telemedicina dos doze mil colaboradores de uma gigante mineradora. O contrato somava R$ 2,4 milhões por ano. Quando o time de privacidade e cibersegurança da mineradora pediu as evidências de conformidade com a Lei Geral de Proteção de Dados (Lei 13.709/2018), o diretor de TI de Camila respondeu orgulhoso: "Temos total conformidade: colocamos o aviso de cookies no site e copiamos uma Política de Privacidade completa no rodapé!". Quarenta e oito horas depois, os auditores da mineradora reprovaram a homologação com um relatório devastador: a empresa tratava dados pessoais sensíveis de saúde (Art. 11 da LGPD) sem inventário de processos (ROPA), usava "consentimento genérico" onde a base legal correta era tutela da saúde ou obrigação legal, mantinha laudos médicos em pastas abertas no Google Drive compartilhadas por link público e não possuía plano de resposta a incidentes nem encarregado de dados (DPO) publicado. Camila precisou correr em um projeto de guerra de quarenta e cinco dias para reestruturar toda a governança de dados e salvar o contrato.
+Em Belo Horizonte, a rede de clínicas odontológicas da Dra. Camila chegou à fase final de contratação para operar o plano odontológico corporativo e a teleodontologia dos doze mil colaboradores de uma gigante mineradora. O contrato somava R$ 2,4 milhões por ano. Quando o time de privacidade e cibersegurança da mineradora pediu as evidências de conformidade com a Lei Geral de Proteção de Dados (Lei 13.709/2018), o diretor de TI de Camila respondeu orgulhoso: "Temos total conformidade: colocamos o aviso de cookies no site e copiamos uma Política de Privacidade completa no rodapé!". Quarenta e oito horas depois, os auditores da mineradora reprovaram a homologação com um relatório devastador: a empresa tratava dados pessoais sensíveis de saúde (Art. 11 da LGPD) sem inventário de processos (ROPA), usava "consentimento genérico" onde a base legal correta era tutela da saúde ou obrigação legal, mantinha radiografias panorâmicas e prontuários odontológicos em pastas abertas no Google Drive compartilhadas por link público e não possuía plano de resposta a incidentes nem encarregado de dados (DPO) publicado. Camila precisou correr em um projeto de guerra de quarenta e cinco dias para reestruturar toda a governança de dados e salvar o contrato.
 
 A mentira mais perigosa sobre a LGPD no Brasil é acreditar que ela se resume a um texto jurídico no site e um botão irritante de "Aceitar Cookies".
 
@@ -3544,7 +3549,7 @@ Você precisa abandonar **O Teatro do Banner de Cookies** e construir **A Govern
 ---
 
 > [!abstract] Mapa da Fatia 5: Legal, Ops e Regulatorio
-> A Fatia 5 reune 45 capítulos em sete familias tematicas. Use este mapa para navegar.
+> Os capítulos de governança jurídica, proteção de dados, compliance e cibersegurança deste volume conectam-se diretamente às exigências de auditoria de clientes enterprise e fundos institucionais.
 >
 > **Governanca de dados** (Capítulo 9 (LGPD, Compliance e Governança de Dados) entrada, [[#CAPÍTULO 13 — SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA|Capítulo 13 (Segurança da Informação: Da Certificação à Engenharia)]] engenharia, [[#CAPÍTULO 11 — COMPLIANCE E ANTICORRUPÇÃO PARA STARTUPS|Capítulo 11 (Compliance e Anticorrupção para Startups)]] integridade)
 >
@@ -3626,7 +3631,7 @@ Entregável prático. Canal de atendimento a titulares (email dedicado, tipo `pr
 
 #### 3. O papel do DPO (Encarregado)
 
-Pessoa indicada pelo controlador, com contato público, responsável por. Receber reclamações, e comunicações, de titulares. Receber comunicações da ANPD, e prestar esclarecimentos. Orientar funcionários sobre práticas. Executar demais atribuições regulamentadas.
+Pessoa indicada pelo controlador e operador para atuar como canal de comunicação entre o controlador, os titulares dos dados e a ANPD (art. 41 da LGPD e Resolução CD/ANPD nº 18/2024), com identidade e contato divulgados publicamente no site, sendo responsável por receber reclamações e solicitações de titulares, atender comunicações da autoridade nacional, orientar colaboradores sobre práticas de proteção de dados e executar as demais atribuições regulamentares.
 
 Pode ser interno, ou externo (DPO as a Service). Em startups até cerca de trinta pessoas, DPO externo, com contato regular, é padrão viável. Acima disso, interno faz mais sentido.
 
@@ -3653,7 +3658,7 @@ Em B2B enterprise, isso evolui para certificações formais (SOC 2 Tipo II, e IS
 
 Qualquer fornecedor que trata dados pessoais em nome da empresa, é um operador na terminologia LGPD. E precisa de contrato com cláusulas específicas. Objeto, e finalidade, do tratamento definidos. Obrigação de seguir instruções do controlador. Confidencialidade, e medidas de segurança. Devolução, ou eliminação, de dados ao fim do contrato. Direito do controlador auditar. Subcontratação condicionada a autorização. Responsabilidade por incidentes.
 
-Operadores típicos em startup. AWS, GCP, ou Azure. Provedores de email marketing. CRMs. Plataformas de atendimento. Processadoras de pagamento. Provedores de RH. Ferramentas de analytics.
+Operadores típicos em uma startup incluem provedores de nuvem (AWS, GCP, Azure), plataformas de e-mail marketing, CRMs, sistemas de atendimento, processadoras de pagamento, softwares de RH e ferramentas de *analytics*. Como grande parte desses fornecedores armazena ou processa dados em servidores no exterior, a contratação configura **transferência internacional de dados pessoais** (arts. 33 a 36 da LGPD), exigindo amparo em mecanismo válido, como a incorporação das **Cláusulas-Padrão Contratuais (CPCs)** aprovadas pelo Regulamento de Transferência Internacional de Dados da ANPD (**Resolução CD/ANPD nº 19/2024**, cuja adequação contratual tornou-se exigível em agosto de 2025).
 
 Os contratos padrão desses provedores (DPA, Data Processing Agreement) cobrem maior parte. Revisar, e assinar DPA, de cada fornecedor principal, é trabalho inicial típico de DPO.
 
@@ -3680,7 +3685,7 @@ Financeiro. BCB (resoluções sobre cibersegurança, e Open Finance). CVM para c
 
 Saúde. LGPD, mais resoluções CFM, ou ANS, mais Lei 13.787/2018 (prontuário eletrônico). Dados de saúde são sensíveis. Regime mais rigoroso.
 
-Menores. Art. 14 LGPD, mais ECA. Consentimento específico de responsáveis. Dificuldade estrutural de operar com menores.
+**Crianças e adolescentes (Menores):** regidos pelo art. 14 da LGPD (melhor interesse do menor e consentimento específico e em destaque de ao menos um dos pais ou responsável legal para crianças), pelo Estatuto da Criança e do Adolescente (ECA) e pelo **ECA Digital (Lei 15.211/2025)**, que impõe a plataformas e aplicações digitais mecanismos aferíveis de verificação de idade (vedada a simples autodeclaração), configurações de máxima proteção e privacidade por padrão (*privacy by design*), ferramentas de supervisão parental e proibição de perfilamento comportamental para publicidade direcionada a menores, sob fiscalização da ANPD.
 
 Educação. LGPD, mais LDB, mais portarias setoriais.
 
@@ -3723,17 +3728,17 @@ Vazamento tratado como problema só técnico. A engenharia contém. Mas ninguém
 
 ### Além da LGPD: Marco Civil da Internet (Guarda de Logs por 6 Meses e Art. 19) e Responsabilidade de Plataformas
 
-LGPD nao cobre tudo. Ela protege dado pessoal. Mas a operacao digital de uma startup gera outros riscos juridicos que vivem em leis distintas. Ignorar esse perimetro e ficar exposto em frentes que o programa de LGPD nao alcanca.
+A LGPD não cobre tudo: ela regula especificamente o tratamento de dados pessoais. Mas a operação digital de uma startup gera outros deveres jurídicos previstos no Marco Civil da Internet e nas normas de cibersegurança; ignorar esse perímetro é ficar exposto em frentes que o programa de privacidade sozinho não alcança.
 
 **Marco Civil da Internet (Lei 12.965/2014).** Estabelece principios de neutralidade de rede, privacidade e protecao de dados na camada de conexao, e regula retencao de logs. Provedor de conexao guarda log por um ano. Provedor de aplicacao guarda log de acesso por seis meses. Esses logs viram prova em processo civil e penal, e podem ser requisitados por ordem judicial. O Marco Civil tambem define o regime de responsabilidade do provedor de aplicacao por conteudo de terceiro, que e o coracao do contencioso de plataforma no Brasil.
 
-**STF Tema 533 (RE 1.057.258, julgado em 26 de junho de 2025 em conjunto com o Tema 987).** Consolidou que plataforma so responde por conteudo ilicito de terceiro apos notificacao especifica e descumprimento de ordem de remocao. E o regime conhecido como notice and takedown. Notificacao generica ("ha conteudo ilicito em algum lugar") nao gera responsabilidade. Notificacao com URL especifica e descricao do ilicito gera obrigacao de remover em prazo razoavel.
+**STF Temas 533 e 987 (julgados pelo Plenário em junho de 2025 sobre o art. 19 do Marco Civil da Internet).** O Supremo Tribunal Federal declarou a inconstitucionalidade parcial do art. 19 da Lei 12.965/2014 (que antes exigia ordem judicial específica como regra geral para responsabilizar aplicações de internet por conteúdo de terceiros): a partir da tese fixada pelo STF, plataformas digitais passam a responder civilmente por danos decorrentes de conteúdos ilícitos de terceiros caso deixem de removê-los após **notificação extrajudicial** (aplicando-se a sistemática do art. 21), mantendo-se a exigência de ordem judicial prévia para crimes contra a honra (sem prejuízo da remoção por notificação em casos de replicação de conteúdo já reconhecido judicialmente como ofensivo) e impondo-se dever de cuidado ativo e remoção imediata para rol de ilícitos gravíssimos (como atos antidemocráticos, terrorismo, crimes contra crianças e adolescentes e violência contra a mulher) e para conteúdos impulsionados ou anúncios pagos.
 
-**STF Tema 987.** Foi decidido em 26 de junho de 2025 (8 a 3). O Supremo declarou o artigo 19 do Marco Civil parcialmente inconstitucional, criou regime de remocao por notificacao extrajudicial para crimes graves e modulou efeitos prospectivamente. O regime brasileiro pos-decisao e hibrido, nao mais notice-and-takedown puro do art. 19 original. O regime brasileiro nao segue mais o notice-and-takedown classico do art. 19 do Marco Civil. Apos a decisao do STF, e regime hibrido com remocao por notificacao extrajudicial para crimes graves.
+**Impacto operacional da tese do STF para plataformas e marketplaces.** Com a superação da regra geral de exigência exclusiva de ordem judicial do art. 19 original, toda startup que hospeda conteúdo gerado por usuários (avaliações, anúncios, comentários, vídeos ou lojas em marketplace) precisa manter canal estruturado de denúncia e *notice and takedown* extrajudicial com registro de protocolo, análise ágil de URLs notificadas e remoção preventiva de anúncios fraudulentos ou conteúdos graves.
 
 **CDC digital (Lei 8.078/1990).** Responsabilidade objetiva por defeito do servico, aplicavel a marketplace e plataforma onde o consumidor identifica a startup como prestadora ou cadeia de fornecimento. Mesmo que o vendedor seja terceiro, o marketplace pode responder solidariamente se aparece como fornecedor para o consumidor medio. Ver [[#CAPÍTULO 7 — DIREITO DO CONSUMIDOR E CDC PARA STARTUPS|Capítulo 7 (Direito do Consumidor e CDC para Startups)]] e [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 4 — MARKETPLACES, PLATAFORMAS E EFEITOS DE REDE: LIQUIDEZ, OVO-E-GALINHA E RISCO DE PLATAFORMA|Capítulo 4 (Marketplaces, Plataformas e Efeitos de Rede: Liquidez, Ovo-e-Galinha e Risco de Plataforma) (Vol. 3)]].
 
-**Decreto 11.856/2023.** Instituiu a Politica Nacional de Ciberseguranca (PNCiber), com governanca pelo GSI/PR, aplicavel a servicos publicos digitais. Em paralelo, a Lei 14.460/2022 transformou a ANPD em autarquia de natureza especial, fortalecendo o orgao. Aplica-se a servicos publicos digitais, mas estabelece padrao de mercado que clientes enterprise e governo passam a exigir em vendor onboarding.
+**Decreto 11.856/2023 (Política Nacional de Cibersegurança - PNCiber) e fortalecimento institucional da ANPD.** O Decreto 11.856/2023 instituiu a Política Nacional de Cibersegurança, elevando o padrão de controles de segurança na cadeia de fornecedores de serviços digitais ao setor público e a grandes empresas. Em paralelo, a ANPD, que havia sido transformada em autarquia de natureza especial pela Lei 14.460/2022, foi estruturada como **Agência Nacional de Proteção de Dados** (MP 1.317/2025 / legislação subsequente), consolidando poder regulatório e fiscalizatório pleno de agência reguladora.
 
 Recomendacao pratica para o fundador. Quatro entregaveis fora do escopo classico de LGPD. Termos de uso solidos com regime de moderacao explicito (o que pode, o que nao pode, prazo para acao apos notificacao). Politica de moderacao publica com canal de notificacao acessivel. Log de notificacoes recebidas, acoes tomadas e prazo de resposta, auditavel. Processo de takedown integrado ao juridico, com SLA interno claro (24 a 72 horas para conteudo ilicito notificado, prazo legal especifico para ordem judicial). Cross-ref para [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 4 — MARKETPLACES, PLATAFORMAS E EFEITOS DE REDE: LIQUIDEZ, OVO-E-GALINHA E RISCO DE PLATAFORMA|Capítulo 4 (Marketplaces, Plataformas e Efeitos de Rede: Liquidez, Ovo-e-Galinha e Risco de Plataforma) (Vol. 3)]] (marketplace), [[#CAPÍTULO 7 — DIREITO DO CONSUMIDOR E CDC PARA STARTUPS|Capítulo 7 (Direito do Consumidor e CDC para Startups)]] (CDC), [[#CAPÍTULO 13 — SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA|Capítulo 13 (Segurança da Informação: Da Certificação à Engenharia)]] (seguranca da informacao) e [[#CAPÍTULO 8 — CONTENCIOSO E LITÍGIO PARA STARTUPS|Capítulo 8 (Contencioso e Litígio para Startups)]] (contencioso).
 
@@ -3770,7 +3775,7 @@ Desafie seu CTO e seu jurídico com estas três perguntas práticas sobre os dad
 
 **Regra de Sobrevivência:** Nunca colete um dado pessoal (especialmente CPF, data de nascimento ou dado sensível) que você não precise estritamente para executar o produto hoje: dado que você não armazena é dado que nunca pode vazar.
 
-**O Ritual de Segunda-Feira às 9h:** Elimine imediatamente qualquer cópia de banco de dados de produção com dados pessoais reais dos ambientes de teste/staging (substituindo por dados sintéticos ou mascarados) e publique o canal oficial do Encarregado de Dados (DPO) no site.
+**O Ritual de Segunda-Feira às 9h (rotina semanal de 30 minutos):** Reserve 15 minutos toda segunda-feira para revisar a fila de solicitações de titulares de dados (garantindo atendimento dentro do prazo legal da LGPD) e conferir se algum novo fornecedor de software ou IA foi contratado na semana sem DPA e cláusulas-padrão de transferência internacional (deixando a substituição de dados reais por sintéticos em ambientes de teste/staging no plano de 90 dias) (substituindo por dados sintéticos ou mascarados) e publique o canal oficial do Encarregado de Dados (DPO) no site.
 
 ### LEITURAS E REFERÊNCIAS COMPLEMENTARES
 
@@ -3782,11 +3787,11 @@ Manual de LGPD da ANPD (Autoridade Nacional de Proteção de Dados). *Privacy La
 
 ### A Caixa-Preta Algorítmica Indefensável e a Nova Fronteira Regulatória da Inteligência Artificial
 
-Em São Paulo, a plataforma B2B de Lucas e Marina lançou um agente autônomo de triagem de crédito e prevenção a fraude que analisava dezenas de variáveis comportamentais para aprovar ou reprovar limites financeiros de pequenas empresas em segundos. O modelo aumentou a velocidade de análise em dez vezes, até que um grupo de lojistas de uma mesma região geográfica percebeu que suas solicitações estavam sendo sistematicamente negadas sem justificativa clara. Quando um grande banco parceiro auditou o motor antes de expandir o contrato, fez duas perguntas simples que deixaram a sala em silêncio: "Qual é o peso de cada variável na negativa automatizada para cumprirmos o direito de explicação e revisão do Artigo 20 da LGPD, e qual teste estatístico vocês rodaram para provar que o modelo não tem viés discriminatório indireto?". O time de ciência de dados não tinha logs de versão do prompt nem trilha de explicabilidade da decisão. O banco suspendeu a integração no mesmo dia até que uma camada de governança algorítmica fosse implementada.
+Em São Paulo, a plataforma B2B de Lucas e Marina lançou um agente autônomo de triagem de crédito e prevenção a fraude que analisava dezenas de variáveis comportamentais para aprovar ou reprovar limites financeiros de pequenas empresas em segundos. O modelo aumentou a velocidade de análise em dez vezes, até que um grupo de lojistas de uma mesma região geográfica percebeu que suas solicitações estavam sendo sistematicamente negadas sem justificativa clara. Quando um grande banco parceiro auditou o motor antes de expandir o contrato, fez duas perguntas simples que deixaram a sala em silêncio: "Qual é o peso de cada variável na negativa automatizada para cumprirmos o direito de explicação e revisão do Artigo 20 da LGPD, e qual teste estatístico vocês rodaram para provar que o modelo não tem viés discriminatório indireto?". O time de ciência de dados não tinha logs de versão do prompt nem trilha de explicabilidade da decisão. O banco suspendeu a integração no mesmo dia até que Lucas e Marina implementassem uma camada completa de governança algorítmica capaz de explicar o peso das variáveis nas negativas (seção 3), auditar o viés regional de CEP que penalizava os lojistas (seção 5) e manter inventário e rastreabilidade de versão de cada modelo em produção.
 
 O grande engano dos fundadores que constroem produtos com Inteligência Artificial hoje é achar que "o LLM decidiu assim" é uma defesa jurídica válida perante um regulador, um juiz ou um cliente corporativo.
 
-Você precisa superar **O Risco da Caixa-Preta Algorítmica Indefensável** e adotar **A Governança de IA por Design**: classificar o grau de risco de cada caso de uso, garantir rastreabilidade de versão de modelo/prompt, testar viés estatístico e assegurar supervisão humana nas decisões que afetam direitos fundamentais ou crédito.
+Para destravar contratos com instituições financeiras e grandes empresas, sua operação precisa registrar **a trilha da decisão algorítmica**: classificar o grau de risco de cada caso de uso, versionar modelo e *prompt*, testar viés estatístico em variáveis sensíveis ou *proxies* e garantir canal de explicação e revisão nas decisões automatizadas que afetam crédito ou direitos fundamentais.
 
 ---
 
@@ -3842,7 +3847,7 @@ Os Princípios da OCDE sobre IA (2019, atualizados 2024) não são regulação v
 
 **PL 2338/2023: o projeto de lei brasileiro**
 
-O Brasil não tem, ainda, lei de IA. O PL 2338/2023 está em tramitação no Senado Federal desde 2023. Foi aprovado na Comissão Especial do Senado em 2024 e aguarda votação no plenário. Pode ser aprovado em 2025 ou 2026, com período de vacatio legis de 18 a 24 meses após promulgação.
+No Brasil, o marco regulatório geral de Inteligência Artificial avança a partir do **PL 2338/2023**, que foi **aprovado pelo Plenário do Senado Federal em dezembro de 2024** e remetido à Câmara dos Deputados (onde tramita em comissão especial desde 2025; caso a Câmara altere o mérito do substitutivo, o texto retorna ao Senado antes da sanção presidencial e do período de *vacatio legis* escalonado).
 
 > [!warning] PL 2338/2023 ainda não é lei
 > O conteúdo descrito neste capítulo reflete o texto do substitutivo aprovado em comissão em 2024. O texto final pode mudar na votação em plenário ou na sanção presidencial. Consulte a versão mais recente disponível no site do Senado Federal antes de tomar qualquer decisão de compliance baseada neste capítulo.
@@ -3853,7 +3858,7 @@ O Brasil não tem, ainda, lei de IA. O PL 2338/2023 está em tramitação no Sen
 
 O PL 2338/2023 adota a mesma abordagem baseada em risco do EU AI Act, com adaptações ao contexto brasileiro. A lógica central: sistemas de IA que podem causar dano significativo a pessoas têm obrigações mais pesadas.
 
-**Três categorias de risco**
+**Classificação de risco no texto aprovado pelo Senado (PL 2338/2023): Risco Excessivo (vedado, como técnicas subliminares, exploração de vulnerabilidades de crianças/idosos e sistemas de pontuação social pelo poder público) e Alto Risco (sujeito a avaliação de impacto algorítmico e governança reforçada)**
 
 ```text
 NÍVEL DE RISCO    DEFINIÇÃO                            CONSEQUÊNCIA
@@ -3874,7 +3879,7 @@ Risco mínimo      Demais sistemas                      Código de conduta
 
 O PL lista explicitamente sistemas de IA de alto risco. Os mais relevantes para startups:
 
-- Concessão de crédito, scoring de crédito, avaliação de solvência e seguros
+- Avaliação de capacidade de endividamento, *scoring* ou concessão de crédito (cujo enquadramento como alto risco foi objeto de intensos debates e ajustes entre o substitutivo aprovado no Senado e a tramitação na Câmara, mas que já se submete hoje às regras de explicação e revisão do art. 20 da LGPD, ao Cadastro Positivo da Lei 12.414/2011 e à governança de modelos do Banco Central)
 - Contratação, seleção, avaliação de desempenho e demissão de trabalhadores
 - Triagem, diagnóstico e tratamento em saúde
 - Educação: admissão, avaliação, certificação, personalização de trilhas
@@ -3892,7 +3897,7 @@ O desenvolvedor (quem cria o modelo ou sistema) é responsável por: documentaç
 O implantador (quem usa o modelo ou sistema em contexto real) é responsável por: avaliar a adequação do sistema ao uso específico, garantir supervisão humana, manter registros de uso, comunicar incidentes, e assegurar que os usuários finais saibam que interagem com IA.
 
 > [!important] Quem usa API de IA de terceiro é implantador
-> Se sua startup usa GPT-4, Claude, Gemini ou qualquer modelo via API para tomar ou recomendar decisões sobre usuários, você é implantador segundo o PL 2338/2023. Isso significa que as obrigações de alto risco recaem sobre você, não sobre a OpenAI ou a Anthropic. A empresa que integra o modelo na decisão é quem responde perante o usuário e o regulador brasileiro.
+> Se sua startup consome modelos de terceiros via API (como modelos da OpenAI, Anthropic ou Google) para tomar ou recomendar decisões sobre usuários, pelo desenho aprovado no Senado para o PL 2338/2023 a cadeia divide-se entre **desenvolvedor**, **distribuidor** e **aplicador** (não 'implantador'): o desenvolvedor mantém deveres sobre o modelo de base, mas a sua startup, como **aplicadora** que integra o sistema ao caso de uso final, responde diretamente pela avaliação de impacto algorítmico, transparência e supervisão perante o usuário e os reguladores brasileiros.
 
 **Sanções previstas**
 
@@ -3904,7 +3909,7 @@ As sanções do PL são graduadas:
 - Proibição de atividade de IA em casos graves e reincidentes
 
 > [!note] Comparação com LGPD
-> A estrutura sancionatória do PL 2338/2023 espelha a da LGPD, com multa de até 2% do faturamento. A ANPD (Autoridade Nacional de Proteção de Dados) aparece como candidata natural ao papel de autoridade regulatória de IA no Brasil, embora o PL ainda deixe isso em aberto.
+> A estrutura sancionatória do PL 2338/2023 espelha a da LGPD, com multa de até 2% do faturamento. A ANPD (Autoridade Nacional de Proteção de Dados) foi designada no texto aprovado pelo Senado como autoridade central e coordenadora do **Sistema Nacional de Regulação e Governança de Inteligência Artificial (SIA)**, atuando em articulação com os reguladores setoriais (como Banco Central, Anvisa, Susep e CVM).
 
 ---
 
@@ -3918,7 +3923,7 @@ O Art. 20 da LGPD estabelece que o titular de dados tem direito de "solicitar a 
 
 Três pontos práticos sobre o Art. 20:
 
-Primeiro, o direito de revisão humana é do titular, não uma obrigação proativa da empresa. A empresa não precisa automaticamente revisar toda decisão automatizada. Mas precisa ter mecanismo funcional para atender a pedido de revisão.
+Primeiro, o art. 20 da LGPD garante ao titular o direito de solicitar a **revisão de decisões tomadas unicamente com base em tratamento automatizado** e de obter informações claras sobre os critérios e procedimentos utilizados, mas **não exige que a revisão seja feita necessariamente por pessoa natural** (a exigência de revisão humana na LGPD foi vetada na Lei 13.853/2019 e o veto foi mantido pelo Congresso). Na prática, porém, manter supervisão e revisão humana para casos críticos é boa prática essencial de governança e consta tanto do PL 2338/2023 quanto de exigências contratuais de bancos e clientes enterprise.
 
 Segundo, a LGPD exige que, quando solicitado, a empresa informe "os critérios e os procedimentos utilizados para a decisão automatizada". Na prática, isso significa que você precisa ser capaz de explicar a lógica do modelo ao titular. Não é necessário revelar o modelo inteiro, mas é obrigatório explicar quais fatores influenciaram a decisão específica.
 
@@ -3954,7 +3959,7 @@ Isso inclui: recusa de crédito automatizada, rejeição de candidatura por tria
 
 ---
 
-### 4. Regras Setoriais de IA: Banco Central (Crédito), CFM/ANVISA (Saúde), CVM e Justiça do Trabalho (Recrutamento)
+### 4. Regras Setoriais de IA: Banco Central (Crédito), Susep (Seguros), CFM/Anvisa (Saúde) e ANPD
 
 Além do framework geral, três reguladores setoriais já publicaram orientações específicas sobre IA.
 
@@ -3962,7 +3967,7 @@ Além do framework geral, três reguladores setoriais já publicaram orientaçõ
 
 A Resolução CMN 4.557/2017 (Estrutura de Gerenciamento de Riscos e Capital) exige que instituições financeiras reguladas pelo Banco Central, fintechs com licença bancária, IPs, SCDs, SEPs, mantenham estrutura de gerenciamento de risco que inclui modelos usados em decisões de crédito e operação.
 
-O BCB já publicou orientações adicionais (Carta Circular 3.978 sobre prevenção à lavagem de dinheiro com uso de IA, e Resolução BCB 85/2021 sobre critérios para uso de modelos em gestão de riscos) que impõem:
+No Sistema Financeiro Nacional, a governança de modelos estatísticos e algorítmicos decorre das estruturas de gerenciamento integrado de riscos exigidas pelo Conselho Monetário Nacional e pelo Banco Central (Resolução CMN 4.557/2017 para instituições dos segmentos S1 a S4, Resolução CMN 4.606/2017 para o segmento S5, em que costumam operar SCDs e SEPs, e normas específicas do BCB para Instituições de Pagamento, além da Resolução BCB 85/2021 para segurança cibernética e da Circular BCB 3.978/2020 para prevenção à lavagem de dinheiro), impondo às instituições parceiras:
 
 - Governança do ciclo de vida do modelo: desenvolvimento, validação, aprovação, monitoramento e descontinuação
 - Validação independente: quem valida o modelo não pode ser quem o desenvolveu
@@ -3973,7 +3978,7 @@ Para fintechs que usam scoring de crédito com ML: a validação independente de
 
 **SUSEP: seguradoras usando IA para precificação**
 
-A SUSEP publicou a Circular 638/2021 e orientações posteriores sobre uso de modelos de ML em precificação de seguros. Os pontos centrais:
+No mercado segurador, embora a Circular Susep 638/2021 trate especificamente de requisitos de segurança cibernética (e não de modelagem de precificação), o uso de algoritmos em subscrição e tarifação de apólices submete-se aos deveres de informação clara do CDC, ao art. 20 da LGPD (direito de explicação e revisão de perfilamento automatizado) e à vedação constitucional e legal de discriminação ilícita (observado que variáveis atuariais tradicionais, como faixa etária e perfil de risco no seguro auto, permanecem praticadas desde que fundamentadas tecnicamente). Boas práticas exigidas em auditorias de insurtechs incluem:
 
 - O modelo precificador precisa ser explicável ao regulador
 - Variáveis proxies de raça, gênero ou origem regional que não sejam atuarialmente justificadas são vedadas
@@ -3984,7 +3989,7 @@ Para insurtechs: o produto de IA que você chama de "modelo proprietário de ris
 
 **ANPD: orientação sobre tratamento de dados em IA**
 
-A Autoridade Nacional de Proteção de Dados publicou em 2024 o Guia Orientativo sobre IA e Proteção de Dados Pessoais. Os pontos práticos:
+A ANPD consolidou sua atuação sobre Inteligência Artificial por meio de seus estudos técnicos de Radar Tecnológico sobre IA Generativa, do programa de Sandbox Regulatório de IA e Proteção de Dados, da tomada de subsídios sobre decisões automatizadas e de medidas preventivas de grande repercussão (como a atuação de 2024 envolvendo o treinamento de modelos de IA da Meta com dados pessoais de brasileiros e a fiscalização de biometria por íris em 2025). Os pontos práticos exigidos pela autoridade incluem:
 
 - Toda atividade de treinamento de modelo com dados pessoais exige base legal na LGPD (consentimento, legítimo interesse, ou obrigação legal)
 - Dados usados para treinar modelos são "tratamento de dados" para fins da LGPD: mesmo que o modelo final não exponha os dados individualmente
@@ -4018,7 +4023,7 @@ O mesmo raciocínio aplica-se a modelos de precificação de seguros que usam va
 
 Sistemas de triagem de candidatos com IA são os mais expostos no Brasil. A Lei 9.029/1995 proíbe práticas discriminatórias em contratação por motivo de sexo, origem, raça, cor, estado civil, situação familiar, deficiência, reabilitação profissional, idade ou gravidez. Um sistema que treina com histórico de contratações passadas da empresa pode perpetuar vieses históricos de quem foi contratado.
 
-A CF Art. 5, I (igualdade perante a lei) e Art. 7, XXX (proibição de diferença de salários por motivo de sexo, etnia, cor ou estado civil) criam base constitucional para contestar discriminação algorítmica.
+A CF Art. 5, I (igualdade perante a lei) e Art. 7º, XXX (proibição de diferença de salários, de exercício de funções e de critério de admissão por motivo de sexo, idade, cor ou estado civil, além da Lei 9.029/1995) criam base constitucional para contestar discriminação algorítmica.
 
 **Casos internacionais como sinal**
 
@@ -4040,7 +4045,7 @@ O Brasil não tem jurisprudência consolidada sobre discriminação algorítmica
 A Lei 9.610/1998 (Lei de Direitos Autorais) exige que o autor de obra protegida seja pessoa natural. Isso é: um ser humano, não uma máquina. Em 2025, o Brasil não tem lei que atribua autoria a conteúdo gerado por IA. O que isso significa na prática:
 
 - Texto, imagem, código, música ou outro conteúdo gerado inteiramente por IA não tem proteção autoral no Brasil
-- Qualquer pessoa pode copiar, distribuir e vender esse conteúdo sem violação de direitos autorais
+- Sem intervenção criativa humana determinante, o resultado bruto gerado por IA não goza de proteção de direito autoral próprio (Lei 9.610/1998, art. 11), mas isso **não significa uso livre irrestrito**: continuam plenamente exigíveis a proteção contratual, o segredo de negócio e a repressão à concorrência desleal (Lei 9.279/1996, art. 195), além do risco de o resultado reproduzir obra protegida ou marca de terceiro
 - Se você vende um produto cujo diferencial é conteúdo gerado por IA, esse conteúdo não está protegido
 
 A exceção relevante: se um ser humano fez escolhas criativas relevantes na produção do resultado (seleção, curadoria, edição substancial, combinação com elementos originais humanos), a obra resultante pode ter proteção parcial pela contribuição humana. Mas a parte gerada por IA em si não está protegida.
@@ -4087,7 +4092,7 @@ No Brasil, a Lei de Direitos Autorais não tem exceção explícita para treinam
 
 ### 7. Cláusulas Obrigatórias em Contratos de IA: Zero Data Retention, Alocação de Responsabilidade por Alucinação e SLA
 
-Usar a API do OpenAI, Anthropic ou Google não é uma decisão de infraestrutura. É uma decisão jurídica. Os Termos de Uso desses fornecedores têm cláusulas que afetam sua posição perante usuários, reguladores e a própria LGPD.
+Escolher a API da OpenAI, da Anthropic ou do Google define não apenas a arquitetura técnica, mas também o regime contratual de retenção de dados, confidencialidade e transferência internacional da sua startup. Os Termos de Uso desses fornecedores têm cláusulas que afetam sua posição perante usuários, reguladores e a própria LGPD.
 
 **Uso de prompts para retreinamento**
 
@@ -4127,7 +4132,7 @@ responsabilidade             do fornecedor em caso de falha
 
 **DPA para LGPD**
 
-A LGPD exige que, quando uma empresa contrata terceiro para processar dados pessoais em seu nome, exista um contrato (ou aditivo) que estabeleça as obrigações do operador: o fornecedor de IA nesse caso. Esse documento é chamado de DPA (Data Processing Agreement) ou, na linguagem da LGPD, contrato de operação de dados.
+Pelo art. 39 da LGPD, o operador deve realizar o tratamento segundo as instruções fornecidas pelo controlador, cabendo a este comprovar a adoção de medidas eficazes de governança (art. 50). Na prática de mercado, essa instrução vinculante e a alocação de responsabilidades são formalizadas no **DPA (*Data Processing Agreement*, ou Acordo de Processamento de Dados)**, que deve ser complementado pelas Cláusulas-Padrão Contratuais da ANPD (Resolução CD/ANPD nº 19/2024) sempre que o provedor de IA processar dados fora do território brasileiro.
 
 OpenAI, Anthropic e Google oferecem DPAs para clientes enterprise. Para clientes de planos básicos de API, a cobertura contratual é menor. Se sua startup processa dados pessoais de usuários brasileiros via API de IA, você precisa de um DPA compatível com a LGPD com o fornecedor. Sem isso, você está operando sem a formalização exigida por lei.
 
@@ -4285,7 +4290,7 @@ Ago 2025            EU AI Act: obrigações de sistemas de alto
 Ago 2026            EU AI Act: plena implementação (todos os
                     sistemas existentes)
 
-2025 (estimado)     PL 2338/2023: votação no plenário do Senado
+Dez/2024 e 2025–2026 PL 2338/2023 aprovado no Plenário do Senado (dez/2024) e em análise na Câmara; no AI Act europeu: proibições (fev/2025), modelos GPAI (ago/2025) e alto risco Anexo III (ago/2026) e Anexo I (ago/2027)
 
 2026-2027           PL 2338/2023: possível vacatio legis
 (estimado)          (18-24 meses após promulgação)
@@ -4298,7 +4303,7 @@ Contínuo            LGPD Art. 20: já em vigor, sem data futura
 ```
 
 > [!note] Data de referência deste capítulo
-> Este capítulo foi escrito com referência a maio de 2026. O ambiente regulatório de IA está em rápida evolução. A situação do PL 2338/2023, as orientações da ANPD e as resoluções do BCB podem ter mudado após essa data. Consulte fontes primárias para decisões de compliance.
+> Este capítulo reflete o cenário regulatório de 2026 (com o PL 2338/2023 aprovado pelo Senado em dezembro de 2024 e em tramitação na Câmara dos Deputados, o cronograma de aplicação escalonada do AI Act europeu entre 2025 e 2027 e as resoluções vigentes da ANPD e do Banco Central). Como a regulação de IA evolui rapidamente, confira sempre o texto legal atualizado antes de decisões críticas de conformidade.
 
 ---
 
@@ -4324,16 +4329,16 @@ Submeta todos os recursos de Inteligência Artificial do seu produto a este inte
 
 **Regra de Sobrevivência:** Em decisões de alto impacto jurídico ou financeiro sobre a vida de uma pessoa, a IA deve operar como copiloto que recomenda e fundamenta, mantendo a trava final auditável.
 
-**O Ritual de Segunda-Feira às 9h:** Crie o Inventário de Modelos e Agentes de IA da sua empresa (documentando finalidade, provedor, dados de entrada, nível de risco e guardrails de saída) e implemente logs completos de entrada/saída para todas as chamadas de LLM em produção.
+**O Ritual de Segunda-Feira às 9h (rotina semanal de 30 minutos):** Crie o Inventário de Modelos e Agentes de IA da sua empresa (documentando finalidade, provedor, dados de entrada, nível de risco e guardrails de saída) e e reserve 20 minutos toda segunda-feira para auditar uma amostra de 10 decisões ou negativas automatizadas da semana anterior conferindo a versão do modelo, o *prompt* utilizado e a ausência de dados pessoais desnecessários nos *logs* (implantando no plano do trimestre o mascaramento de CPF e o prazo de retenção dos registros de LLM em conformidade com o princípio da minimização da LGPD).
 
 
 ---
 
 ## CAPÍTULO 11 — COMPLIANCE E ANTICORRUPÇÃO PARA STARTUPS
 
-### A Responsabilidade Objetiva Implacável da Lei 12.846/2013 e o Representante que Destrói a Empresa
+### A Responsabilidade Objetiva da Lei 12.846/2013 e o Representante Comercial Sem Controle
 
-Em Curitiba, a empresa de tecnologia industrial e gestão pública de Henrique disputava uma licitação limpa e competitiva de R$ 3,8 milhões em um município de médio porte do interior. Sem que Henrique ou qualquer diretor soubesse, um representante comercial autônomo recém-contratado para abrir aquela região prometeu pagar por fora uma "consultoria" de 8% a um assessor da comissão local para acelerar o ateste técnico da prova de conceito. A operação policial que investigava a prefeitura interceptou as mensagens no celular do assessor. Na manhã seguinte, Henrique descobriu da forma mais violenta possível o artigo 2º da Lei Anticorrupção Brasileira (Lei 12.846/2013): a responsabilidade civil e administrativa da pessoa jurídica por atos lesivos à administração pública é **objetiva**: ou seja, a empresa responde com multa de até 20% do faturamento bruto e proibição de contratar com o Poder Público mesmo que o CEO não tenha autorizado nem sabido do ato do representante. O único escudo que salvou a empresa de Henrique da destruição total foi ter um Programa de Integridade real, documentado antes do fato, com cláusula anticorrupção, treinamento assinado e demissão/denúncia imediata do terceiro infrator, reduzindo drasticamente a sanção.
+Em Curitiba, a empresa de tecnologia industrial e gestão pública de Henrique disputava uma licitação limpa e competitiva de R$ 3,8 milhões em um município de médio porte do interior. Sem que Henrique ou qualquer diretor soubesse, um representante comercial autônomo recém-contratado para abrir aquela região prometeu pagar por fora uma "consultoria" de 8% a um assessor da comissão local para acelerar o ateste técnico da prova de conceito. A operação policial que investigava a prefeitura interceptou as mensagens no celular do assessor. Na manhã seguinte, Henrique descobriu da forma mais violenta possível o artigo 2º da Lei Anticorrupção Brasileira (Lei 12.846/2013): a responsabilidade civil e administrativa da pessoa jurídica por atos lesivos à administração pública é **objetiva**: ou seja, a empresa responde objetivamente com multa administrativa de 0,1% a 20% do faturamento bruto pela Lei 12.846/2013 (art. 6º, I) e, de forma cumulada pela Nova Lei de Licitações (Lei 14.133/2021, arts. 155 e 156), fica sujeita às sanções de impedimento de licitar e contratar ou declaração de inidoneidade perante o Poder Público, mesmo que o CEO não tenha autorizado nem sabido do ato ilícito do representante comercial. O único escudo que salvou a empresa de Henrique da destruição total foi ter um Programa de Integridade real, documentado antes do fato, com cláusula anticorrupção, treinamento assinado e demissão/denúncia imediata do terceiro infrator, reduzindo drasticamente a sanção.
 
 Ninguém conta aos fundadores que basta um único despachante aduaneiro, representante comercial ou consultor de licitação oferecer uma vantagem indevida em nome da sua marca para colocar uma bomba nuclear no seu CNPJ.
 
@@ -4343,7 +4348,7 @@ Você precisa construir **O Escudo de Integridade Contra a Responsabilidade Obje
 
 Compliance (conformidade regulatória) é a categoria que todo fundador sabe que existe, acha que é coisa de banco ou empresa listada e descobre que importa na pior hora possível. O momento da descoberta pode ser um due diligence (auditoria pré-investimento) travado, um processo administrativo, um investidor americano pedindo políticas que não existem, ou um incidente de dados que a empresa não sabe nem como notificar. Este capítulo trata compliance como disciplina operacional para startups: o que você precisa, quando precisa e como construir sem travar a operação.
 
-O argumento central é simples. A não conformidade é cara, não só por multa, mas por oportunidade perdida. O custo de não ter um programa de integridade aparece no valuation (avaliação de valor) em M&A (fusões e aquisições), na diligência do Series A americano, na negociação com cliente enterprise, no onboarding (integração inicial) de parceiro multinacional. Compliance não é obstáculo à velocidade. É infraestrutura de crescimento.
+O argumento central é simples. A não conformidade é cara, não só por multa, mas por oportunidade perdida. O custo de não manter um programa de integridade aparece no desconto de preço em uma aquisição (M&A), na auditoria da Série A, na negociação com cliente enterprise, no onboarding (integração inicial) de parceiro multinacional. Compliance não é obstáculo à velocidade. É infraestrutura de crescimento.
 
 ---
 
@@ -4380,7 +4385,7 @@ Para startup, a escala é menor mas o efeito é proporcionalmente mais grave. Um
 
 #### O que é ato lesivo à administração pública
 
-A lei lista atos lesivos no artigo segundo. O núcleo são cinco categorias:
+A Lei 12.846/2013 tipifica os atos lesivos à administração pública nacional ou estrangeira em seu **artigo 5º**, cujo núcleo se divide em cinco categorias:
 
 - Prometer, oferecer ou dar vantagem indevida a agente público, nacional ou estrangeiro
 - Financiar, custear, patrocinar ou de qualquer forma subvencionar a prática dos atos ilícitos da lei
@@ -4401,7 +4406,7 @@ A única defesa disponível não é a de ausência de culpa: é a de que o progr
 
 #### O programa de integridade como atenuante
 
-O Decreto 8.420/2015, que regulamentou a lei, estabelece parâmetros para avaliação do programa de integridade. O Ministério da Transparência publica notas metodológicas que detalham o que é considerado adequado. Um programa bem estruturado pode reduzir a multa em até dois terços no cálculo das sanções administrativas.
+O **Decreto 11.129/2022** (que regulamenta a Lei 12.846/2013 e revogou o antigo Decreto 8.420/2015) estabelece nos arts. 56 e 57 os parâmetros oficiais da **Controladoria-Geral da União (CGU)** para avaliação do programa de integridade. O Ministério da Transparência publica notas metodológicas que detalham o que é considerado adequado. Na dosimetria da multa administrativa (Decreto 11.129/2022, art. 23, V), a comprovação de um programa de integridade efetivo atua como fator redutor de até 4% a 5% na alíquota da multa, enquanto a redução de até dois terços da multa aplicável decorre especificamente da celebração de **acordo de leniência** (art. 16, § 2º, da Lei 12.846/2013).
 
 Os parâmetros do decreto cobrem:
 
@@ -4415,7 +4420,7 @@ Os parâmetros do decreto cobrem:
 - Processo disciplinar
 - Mecanismos de remediação
 
-A CGU (Controladoria-Geral da União) publica um programa de avaliação e certificação do programa de integridade (PRO-ÉTICA) para o qual empresas podem se candidatar. Estar no PRO-ÉTICA funciona como sinal público de maturidade de compliance e tem peso em licitações públicas.
+A CGU (Controladoria-Geral da União), em parceria com o Instituto Ethos, mantém a iniciativa **Empresa Pró-Ética**, um reconhecimento público voluntário (e não uma certificação obrigatória) concedido a empresas com programas de integridade maduros. Nas contratações públicas regidas pela **Lei 14.133/2021**, o programa de integridade deixou de ser apenas diferencial reputacional: ele é **obrigatório** nas contratações de grande vulto (art. 25, § 4º, devendo ser implantado pelo licitante vencedor no prazo de 6 meses da celebração do contrato), funciona como **critério legal de desempate** entre propostas iguais (art. 60, IV) e é requisito obrigatório para a **reabilitação** de empresa punida com impedimento ou declaração de inidoneidade nas hipóteses de atos lesivos (art. 163, parágrafo único).
 
 ---
 
@@ -4480,7 +4485,7 @@ Reputação e antecedentes
 
 Capacidade e proporcionalidade
 [ ] O parceiro tem estrutura operacional compatível com o serviço prestado?
-[ ] A remuneração é proporcional ao mercado? Comissões acima de 15-20% em contratos
+[ ] A remuneração é compatível com o serviço técnico efetivamente comprovado? Em vendas ao setor público, qualquer comissão de êxito exige justificativa escrita, parecer de *due diligence* prévia e aprovação da diretoria ou do conselho, independentemente de o percentual ser de 5%, 8% ou 15% em contratos
     públicos são sinal de alerta
 [ ] Há justificativa documentada para a escolha deste parceiro específico?
 
@@ -4498,7 +4503,7 @@ A frequência de due diligence deve ser proporcional ao risco: parceiros com ace
 
 #### Quando o FCPA se aplica
 
-O Foreign Corrupt Practices Act americano de 1977, com emendas de 1988 e 1998, tem alcance extraterritorial explícito. Ele se aplica a:
+O *Foreign Corrupt Practices Act* (FCPA) norte-americano de 1977 (com as emendas de 1988 e 1998) possui alcance extraterritorial explícito. Embora em fevereiro de 2025 uma Ordem Executiva da Casa Branca tenha determinado pausa temporária de 180 dias em novas investigações e o Departamento de Justiça (DOJ) tenha publicado em junho de 2025 novas diretrizes focando a persecução em casos que afetem diretamente interesses estratégicos ou a competitividade de empresas norte-americanas, o estatuto permanece em pleno vigor, os prazos prescricionais de violações corporativas atravessam mandatos presidenciais e fundos de VC dos EUA continuam exigindo conformidade estrita com o FCPA em suas cláusulas de investimento. Ele se aplica a:
 
 - Issuers: empresas com valores mobiliários listados em bolsas americanas ou registradas na SEC
 - Domestic concerns: qualquer empresa ou cidadão americano
@@ -4511,14 +4516,14 @@ Para a startup brasileira, os gatilhos práticos são:
 - Operação ou filial nos Estados Unidos: qualquer atividade física ou jurídica em território americano ativa jurisdição direta.
 - Funcionário americano que toma decisão: se um diretor americano da empresa toma decisão relacionada ao ato corrupto, o FCPA alcança a empresa.
 
-O DOJ (Department of Justice) americano e a SEC têm histórico de processar empresas não americanas. Embraer pagou USD 205 milhões em 2016 para resolver violações de FCPA em transações com Angola, Moçambique, República Dominicana e Arábia Saudita. Braskem pagou USD 957 milhões em 2016 em resolução conjunta com autoridades americanas, brasileiras e suíças.
+O DOJ (Department of Justice) americano e a SEC têm histórico de processar empresas não americanas. A Embraer celebrou acordo de USD 205 milhões em outubro de 2016 com o DOJ, a SEC e autoridades brasileiras para encerrar investigações de FCPA envolvendo pagamentos e registros contábeis ligados a contratos na República Dominicana, Arábia Saudita, Moçambique e Índia. Braskem pagou USD 957 milhões em 2016 em resolução conjunta com autoridades americanas, brasileiras e suíças.
 
 > [!warning]
 > Pensar que "somos uma startup brasileira, o FCPA não nos pega" é o erro de avaliação mais comum. O gatilho não é o tamanho: é o nexo com o sistema financeiro americano ou com pessoas sujeitas à jurisdição americana. Qualquer rodada com fundo americano cria nexo suficiente para que o fundo exija representações de compliance compatíveis com FCPA.
 
 #### UK Bribery Act
 
-O UK Bribery Act de 2010 é mais amplo que o FCPA em dois aspectos: proíbe suborno tanto de agentes públicos quanto de agentes privados, e cria responsabilidade para empresa por falha em prevenir suborno (Section 6) com uma defesa específica de "adequate procedures": análoga ao programa de integridade brasileiro.
+O UK Bribery Act de 2010 é mais amplo que o FCPA em dois aspectos: proíbe suborno tanto de agentes públicos quanto de agentes privados, e cria responsabilidade penal estrita para a empresa por falha em prevenir suborno praticado por pessoa associada (**Section 7** do UK Bribery Act, enquanto a Section 6 trata do suborno de funcionário público estrangeiro; além disso, desde setembro de 2025, o Reino Unido passou a aplicar também o crime corporativo de falha em prevenir fraude previsto no *Economic Crime and Corporate Transparency Act 2023*) com uma defesa específica de "adequate procedures": análoga ao programa de integridade brasileiro.
 
 A jurisdição se aplica quando há nexo com o Reino Unido: empresa com sede ou operação britânica, cidadão ou residente britânico envolvido, transação que passa pelo sistema financeiro britânico, ou cliente no Reino Unido.
 
@@ -4537,7 +4542,7 @@ Um programa de integridade minimamente viável nos termos da seção 3 deste cap
 
 ---
 
-### 5. A Interseção Entre Governança de Dados, Segurança e Compliance Corporativo
+### 5. A Ponte Operacional Entre Compliance Anticorrupção, Governança de Dados (Capítulo 10) e Segurança
 
 A Lei Geral de Proteção de Dados Pessoais (Lei 13.709/2018) entrou em vigor em setembro de 2020. As sanções administrativas, incluindo a multa de dois por cento da receita com teto de cinquenta milhões por infração, estão vigentes desde agosto de 2021. A ANPD (Autoridade Nacional de Proteção de Dados) escalou suas atividades de fiscalização e começou a publicar decisões de relevância a partir de 2023.
 
@@ -4567,16 +4572,16 @@ Dias 61-90: Controles e resposta a incidentes
 - Plano de resposta a incidentes de dados
 - Treinamento básico do time (o que é dado pessoal, o que não fazer)
 - Definição de processo para RIPD quando aplicável
-- Notificação da identidade do DPO à ANPD (via sistema SIGEN)
+- Divulgação pública da identidade e das informações de contato do Encarregado (DPO) de forma clara e objetiva no site da empresa (art. 41, § 1º, da LGPD e Resolução CD/ANPD nº 18/2024, mantendo o ato formal de designação arquivado para apresentação à ANPD quando solicitado)
 ```
 
 #### RIPD — quando é exigido
 
-O Relatório de Impacto à Proteção de Dados (RIPD) é exigido pela LGPD no artigo 38 quando o tratamento tem "potencial de causar impacto" aos titulares. A ANPD publicou a Resolução CD/ANPD 02/2022 que detalha os casos em que o RIPD é obrigatório ou recomendado.
+O Relatório de Impacto à Proteção de Dados Pessoais (RIPD) está previsto nos arts. 5º, XVII, e 38 da LGPD, podendo ser requisitado pela ANPD especialmente quando o tratamento tiver como fundamento o legítimo interesse (art. 10, § 3º) ou envolver dados sensíveis e operações de alto risco. Para identificar quando um tratamento configura **alto risco**, servem de parâmetro objetivo os critérios do art. 4º da **Resolução CD/ANPD nº 02/2022** (que conjuga critérios gerais, como tratamento em larga escala ou impacto significativo sobre titulares, com critérios específicos, como uso de tecnologias emergentes/IA, vigilância ou decisões automatizadas).
 
 Os casos que tipicamente afetam startups:
 
-- Tratamento de dados sensíveis (saúde, biometria, orientação sexual, origem racial, dados financeiros) em escala
+- Tratamento de dados pessoais sensíveis em larga escala (art. 5º, II, da LGPD: origem racial ou étnica, convicção religiosa, opinião política, filiação a sindicato, dados referentes à saúde ou à vida sexual, dado genético ou biométrico), além de operações massivas com dados financeiros e de *scoring* de crédito (que, embora não sejam classificados como dados sensíveis pelo art. 5º, II, elevam substancialmente o risco de dano aos titulares)
 - Perfilamento de usuários para decisões automatizadas com impacto significativo
 - Tratamento de dados de crianças e adolescentes
 - Vigilância sistemática (geolocalização contínua, monitoramento de comportamento)
@@ -4586,7 +4591,7 @@ O RIPD documenta: natureza do tratamento, necessidade e proporcionalidade, risco
 
 #### Incidente de dados — notificação obrigatória em 72 horas
 
-A ANPD publicou a Resolução CD/ANPD 04/2023 estabelecendo que incidentes de segurança com dados pessoais que possam causar risco ou dano relevante aos titulares devem ser comunicados à autoridade em até 72 horas após o conhecimento do incidente pelo controlador.
+Pelo Regulamento de Comunicação de Incidente de Segurança (**Resolução CD/ANPD nº 15/2024**; enquanto a Resolução CD/ANPD nº 04/2023 rege a dosimetria das sanções administrativas), os incidentes de segurança que possam acarretar risco ou dano relevante aos titulares devem ser comunicados à ANPD e aos titulares afetados no prazo de **3 dias úteis** contados da ciência do evento pelo controlador (prazo contado em dobro, de **6 dias úteis**, para agentes de tratamento de pequeno porte, nos termos da Resolução CD/ANPD nº 02/2022).
 
 ```text
 PROTOCOLO DE RESPOSTA A INCIDENTE DE DADOS
@@ -4635,7 +4640,7 @@ A Lei 9.613/1998 (Lei de Lavagem de Dinheiro), com emendas relevantes pela Lei 1
 Para startups, os setores obrigados mais relevantes são:
 
 - Fintechs com autorização do BCB (IPs, SEPs, SCD, SCFI): regulamentadas pela Circular BCB 3.978/2020 e Resolução BCB 44/2021
-- Exchanges de criptoativos: regulamentadas pela Lei 14.478/2022 (Marco Legal dos Criptoativos) e Resolução BCB 455/2023
+- Prestadoras de Serviços de Ativos Virtuais (PSAVs / *exchanges* de criptoativos): sujeitas à Lei 14.478/2022 (Marco Legal dos Criptoativos, com competência atribuída ao Banco Central pelo Decreto 11.563/2023) e às **Resoluções BCB nº 519, 520 e 521, de novembro de 2025** (em vigor desde fevereiro de 2026), que exigem autorização formal do BCB para funcionar, capital mínimo, segregação patrimonial e governança completa de PLD/FTP
 - Corretoras de seguros e plataformas de distribuição de seguros: regulamentadas pela SUSEP
 - Plataformas de crédito (gestoras, SCDs): Resolução CMN 4.557/2017 e normas BCB
 - Startups de mercado imobiliário (proptech com intermediação): COAF Resolução 36/2021
@@ -4648,7 +4653,7 @@ Para startups, os setores obrigados mais relevantes são:
 
 #### Cadastro no COAF
 
-Pessoas obrigadas precisam se cadastrar no sistema SISCOAF e enviar Relatórios de Inteligência Financeira (RIF) quando identificam operações suspeitas. O COAF disponibiliza o Manual do Usuário do SISCOAF com instruções de cadastro e operação.
+As instituições e pessoas obrigadas pelo art. 9º da Lei 9.613/1998 devem manter cadastro atualizado no órgão regulador ou no **Siscoaf** e enviar, no prazo de 24 horas da conclusão da análise que caracterize atipicidade, as **Comunicações de Operações Suspeitas (COS)** e as **Comunicações de Operações em Espécie (COE)** (cabendo ao próprio COAF produzir, a partir dessas comunicações, os Relatórios de Inteligência Financeira - RIF encaminhados ao Ministério Público e à Polícia), além de apresentar anualmente a comunicação de não ocorrência (declaração negativa) quando exigida pelo regulador setorial. O COAF disponibiliza o Manual do Usuário do SISCOAF com instruções de cadastro e operação.
 
 O cadastro envolve: registro da empresa, indicação do responsável pela comunicação ao COAF, e configuração para envio de comunicações periódicas (operações em espécie acima de limites legais) e comunicações de operações suspeitas.
 
@@ -4696,7 +4701,7 @@ COMPONENTES DO PROGRAMA PLD BÁSICO
 
 #### O que é SOX e por que não se aplica diretamente
 
-A Sarbanes-Oxley Act de 2002 se aplica a empresas com valores mobiliários registrados na SEC. Uma startup brasileira em Series A não está obrigada legalmente à SOX. Mas os fundos americanos que investem nela aplicam princípios análogos como condição de investimento: não por exigência legal, mas por gestão de risco própria.
+A Sarbanes-Oxley Act de 2002 se aplica a empresas com valores mobiliários registrados na SEC. Uma startup brasileira em Série A ou Série B não está obrigada legalmente à SOX. Mas os fundos americanos que investem nela aplicam princípios análogos como condição de investimento: não por exigência legal, mas por gestão de risco própria.
 
 O que VCs americanos chamam de "SOX-like controls" ou "investor-grade financials" é um conjunto de controles internos financeiros que permitem ao fundo:
 
@@ -4746,7 +4751,7 @@ Transações com partes relacionadas
 ```
 
 > [!tip]
-> A maioria dos controles acima não requer sistema caro. Requer processo documentado, aprovação dupla e segregação real de funções. Uma startup de dez pessoas consegue implementar todos os controles da lista com spreadsheets e WhatsApp aprovado: o que importa é o processo consistente, não a ferramenta.
+> A maioria dos controles acima não requer sistema caro. Requer processo documentado, aprovação dupla e segregação real de funções. Uma startup de dez pessoas consegue implementar todos os controles da lista com planilhas auditáveis e dupla alçada configurada diretamente no *internet banking* corporativo (proibindo autorização de pagamentos apenas por mensagem de WhatsApp ou e-mail sem confirmação por chamada de voz para número previamente cadastrado, o que bloqueia o golpe do falso executivo): o que importa é o processo consistente, não a ferramenta.
 
 #### O que não é SOX mas parece SOX
 
@@ -4793,7 +4798,7 @@ Nível esperado: Fundação básica
 - Política de conflito de interesses dos fundadores documentada
 - Política de privacidade pública no site/app (LGPD)
 - Aviso de privacidade para colaboradores
-- DPO designado (pode ser um dos fundadores)
+- Encarregado pelo tratamento de dados (DPO) formalmente designado com canal público no site (agentes de pequeno porte podem ser dispensados da indicação formal mantendo canal de atendimento pela Resolução CD/ANPD nº 02/2022; nas demais empresas, se a função for acumulada internamente, a Resolução CD/ANPD nº 18/2024 exige declarar a ausência de conflito de interesses com chefias que decidem finalidades e meios de tratamento de dados)
 - Sem necessidade de canal de denúncias formal neste estágio
 
 SÉRIE A (10-50 pessoas)
@@ -4837,7 +4842,7 @@ Nível esperado: Programa auditável
 
 Construir um programa de compliance custa. Para a maioria das startups em estágio inicial, o custo anual de um programa básico, advogado externo de compliance em regime de consultoria, plataforma de canal de denúncias simples, DPO as-a-service, fica entre R$ 30.000 e R$ 80.000 por ano.
 
-A multa mínima por ato lesivo à administração pública sob a Lei 12.846/2013 é de R$ 6.000. A multa máxima é vinte por cento do faturamento. Um único incidente de dados notificado à ANPD com evidência de ausência de controles pode resultar em sanção de R$ 500.000 a R$ 1.000.000 para uma empresa de médio porte.
+Pelo art. 6º, I, da Lei 12.846/2013, a multa administrativa por ato lesivo à administração pública varia de **0,1% a 20% do faturamento bruto** do último exercício anterior ao processo administrativo (excluídos os tributos), nunca sendo inferior à vantagem auferida, aplicando-se a faixa alternativa de R$ 6.000 a R$ 60 milhões exclusivamente quando não for possível utilizar o critério do faturamento bruto. Na esfera de proteção de dados, a ausência de controles básicos e de cooperação em incidente de segurança eleva a dosimetria da sanção pecuniária calculada pela ANPD sob a Resolução CD/ANPD nº 04/2023.
 
 A conta não fecha a favor de ignorar compliance. Fecha a favor de construir cedo, com proporcionalidade ao estágio, e crescer o programa conforme o risco cresce.
 
@@ -4865,7 +4870,7 @@ Olhe nos olhos da sua operação comercial e regulatória e responda a estas tr�
 
 **Regra de Sobrevivência:** Se um negócio ou licença pública exige pagamento de "taxa de urgência" por fora para sair, perca o negócio imediatamente: nenhum contrato vale uma investigação de improbidade ou FCPA que destrói a empresa inteira.
 
-**O Ritual de Segunda-Feira às 9h:** Audite todos os contratos de representantes comerciais, despachantes e consultores regulatórios, insira a Cláusula Anticorrupção padrão (Lei 12.846/2013 + FCPA) com rescisão imediata e proíba qualquer pagamento de comissão sem nota fiscal detalhada e comprovação de serviço lícito.
+**O Ritual de Segunda-Feira às 9h (rotina semanal de 30 minutos):** Reserve 15 minutos toda segunda-feira para conferir os pagamentos de comissões comerciais e consultorias da semana anterior contra nota fiscal detalhada e comprovante de entregável lícito, travando qualquer desembolso sem lastro (e inclua como meta do trimestre o aditamento dos contratos de representantes comerciais e despachantes com a Cláusula Anticorrupção padrão (Lei 12.846/2013 + FCPA) com rescisão imediata e proíba qualquer pagamento de comissão sem nota fiscal detalhada e comprovação de serviço lícito.
 
 
 ---
@@ -4874,16 +4879,17 @@ Olhe nos olhos da sua operação comercial e regulatória e responda a estas tr�
 
 ### O Paradoxo da Confiança Cega e o Funcionário Mais Querido que Desviou R$ 480 Mil
 
-Na rede da Dra. Camila em Belo Horizonte, o coordenador financeiro era considerado quase parte da família: estava na empresa desde o quarto mês de vida, nunca tirava férias completas, trabalhava até tarde sem reclamar e tinha a confiança absoluta dos sócios. Justamente por essa confiança cega, ele concentrava na própria mesa todo o ciclo de contas a pagar: cadastrava novos fornecedores no ERP, lançava as notas fiscais, emitia os lotes bancários e tinha o token no celular para aprovar transferências Pix de até R$ 15 mil. Durante quatorze meses, pressionado por dívidas pessoais de apostas online, ele cadastrou duas empresas de fachada com nomes quase idênticos aos de fornecedores reais de insumos médicos e aprovou trinta e oito pagamentos fracionados de R$ 12.600 que somaram R$ 478.800 desviados antes que uma conciliação externa para auditoria descobrisse o rombo.
+Na rede da Dra. Camila em Belo Horizonte, o coordenador financeiro era considerado quase parte da família: estava na empresa desde o quarto mês de vida, nunca tirava férias completas, trabalhava até tarde sem reclamar e tinha a confiança absoluta de Camila e do marido. Justamente por essa confiança cega, ele concentrava na própria mesa todo o ciclo de contas a pagar: cadastrava novos fornecedores no ERP, lançava as notas fiscais, emitia os lotes bancários e tinha o token no celular para aprovar transferências Pix de até R$ 15 mil. Durante quatorze meses, pressionado por dívidas pessoais de apostas online, ele cadastrou duas empresas de fachada com nomes quase idênticos aos de fornecedores reais de insumos médicos e de insumos odontológicos e aprovou trinta e oito pagamentos fracionados de R$ 12.600 (logo abaixo do seu limite individual de alçada de R$ 15 mil no token) que somaram R$ 478.800 desviados antes que uma conciliação bancária independente descobrisse o rombo: um desvio que teria sido travado no primeiro mês se quem cadastra o fornecedor no ERP não pudesse aprovar o Pix, se houvesse dupla assinatura bancária e se as férias anuais obrigatórias tivessem transferido a operação da conta a outro analista.
 
-Donald Cressey demonstrou na criminologia corporativa que 90% das fraudes internas não são cometidas por criminosos profissionais infiltrados, mas por funcionários de extrema confiança quando três elementos se encontram no **Triângulo da Fraude**: **Pressão financeira pessoal**, **Racionalização moral** ("eu trabalho demais e a empresa me deve isso") e **Oportunidade técnica** (falta de segregação de funções).
+Nos anos 1950, ao entrevistar condenados por desvio financeiro em *Other People's Money* (1953), o criminologista Donald Cressey identificou que a grande maioria das fraudes internas não é cometida por criminosos profissionais infiltrados, mas por funcionários de extrema confiança quando três elementos se encontram no **Triângulo da Fraude**: **Pressão financeira pessoal**, **Racionalização moral** ("eu trabalho demais e a empresa me deve isso") e **Oportunidade técnica** (falta de segregação de funções).
 
 Você não controla as dívidas secretas nem a mente de ninguém; a única ponta do triângulo que o fundador controla 100% é eliminar **A Oportunidade Técnica pela Segregação Implacável de Funções**.
 
 ---
 
 > [!abstract] Posicao no livro
-> Preparacao e detecao de fraude interna, controles, segregacao de funcoes, canal de denuncia. Primeiro estagio do ciclo de crise. Vizinhos relevantes,
+> [!note] Posição no livro
+> Este capítulo trata da prevenção e da detecção de fraude interna por meio de segregação de funções, alçadas bancárias e canal de denúncia. Capítulos vizinhos: a gestão de crises agudas e a resposta institucional estão no Volume 9 (Capítulo 9).
 > - [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9 — GESTÃO DE CRISE, CONTINUIDADE OPERACIONAL E COMUNICAÇÃO CRÍTICA|Capítulo 9 (Gestão de Crise, Continuidade Operacional e Comunicação Crítica) (Vol. 9)]], resposta operacional quando a fraude vira crise
 > - [[#CAPÍTULO 11 — COMPLIANCE E ANTICORRUPÇÃO PARA STARTUPS|Capítulo 11 (Compliance e Anticorrupção para Startups)]], programa de integridade e Lei Anticorrupcao
 > - [[#CAPÍTULO 13 — SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA|Capítulo 13 (Segurança da Informação: Da Certificação à Engenharia)]], controle tecnico de acesso e auditoria de logs
@@ -4920,7 +4926,7 @@ O fundador é alvo específico. Atacantes externos sabem que o fundador está di
 
 O impacto vai além de perda financeira. A confiança do time, de clientes e de investidores é abalada. O founder pode enfrentar responsabilização pessoal se os controles eram claramente inexistentes. A evidência de "due care" (cuidado devido) é requerida por investidores. Rodada Série B em diante exige controles formais. Compliance (conformidade) regulatório (PCI DSS, GDPR, LGPD, SOC 2, ISO 27001) também exige framework (estrutura de referência) de controles.
 
-### Os Três Pilares de Defesa: Segregação de Funções, Dupla Alçada no Banco e Conciliação por Quem Não Paga
+### Os Três Pilares de Defesa Operacional: Segregação de Funções, Dupla Alçada no Banco e Conciliação por Quem Não Paga
 
 O padrão internacional de referência é o COSO (Committee of Sponsoring Organizations), que organiza controles em cinco componentes que funcionam em conjunto.
 
@@ -4946,9 +4952,9 @@ Os controles operacionais incluem inventory counts regulares quando aplicável, 
 
 Os controles de TI funcionam em camadas. Least privilege access, com pessoas tendo acesso apenas ao necessário. MFA obrigatório em sistemas críticos. Access reviews trimestrais. Remoção imediata de acesso ao desligamento. Logging e monitoring de atividades privilegiadas. Separação de ambientes de dev, staging e produção.
 
-Os controles de RH abrangem background checks pré-hire (especialmente para roles com acesso a valores ou dados sensíveis), reference checks obrigatórias, code of conduct assinado por todos, compliance training anual e performance management que identifica outliers.
+Os controles de RH exigem cautela trabalhista e de privacidade no Brasil: pela tese vinculante do TST (IRR de 2017) e pela LGPD, a exigência de certidão de antecedentes criminais na admissão só é legítima quando houver previsão legal ou justificativa estrita pela natureza do cargo e grau especial de fidúcia (devendo a empresa evitar consultas restritivas de crédito como SPC/Serasa de candidatos por risco de prática discriminatória sob a Lei 9.029/1995), combinando checagem formal de referências profissionais, reference checks obrigatórias, code of conduct assinado por todos, compliance training anual e performance management que identifica outliers.
 
-### Onde o Dinheiro Vaza no Brasil: Compras/Marketing (Kickbacks), Reembolsos, Estornos Pix e Folha Fantasma
+### Onde o Dinheiro Vaza na Operação: Compras/Marketing (Kickbacks), Reembolsos, Estornos Pix e Folha Fantasma
 
 > [!warning] Sete focos de risco recorrentes
 > **Reembolsos.** Colaborador reembolsa despesas pessoais ou fictícias. Controle: review por manager mais amostragem por compliance, corporate card com auto-reconciliação (Vexpenses, Clicko), categorização mandatória.
@@ -4967,7 +4973,7 @@ Os controles de RH abrangem background checks pré-hire (especialmente para role
 
 ### Automatizando o Controle: ERPs com Trilha de Auditoria, Cartões com Limite por Categoria e Alertas de Anomalia
 
-Em ERP e contabilidade vão Omie, Conta Azul, Sage e SAP no nível enterprise, todos com controles nativos. Em AP automation entram Tipalti, Bill.com, Pleo e Okoa, com approval workflows. Em expense management entram Expensify, Ramp, Vexpenses e Clicko, com integração de corporate card. Em procurement enterprise vão Coupa e Oracle Procurement. Em audit tools, AuditBoard e Workiva. Em whistleblower, EthicsPoint, Convercent e Navex. Em access management, Okta, OneLogin e Auth0. Em logging e SIEM, Splunk, Datadog Security e Panther.
+Na escolha de ferramentas (cenário de 2026), separe o que opera nativamente no Brasil do que exige entidade no exterior: em ERP e gestão financeira nacional, destacam-se **Omie**, **Conta Azul**, **Bling**, **TOTVS** e **SAP**; para gestão de despesas corporativas, cartões e reembolsos no Brasil, operam **VExpenses**, **Flash**, **Clara** e **Jeeves** (enquanto plataformas como **Ramp**, **Brex**, **Bill.com** e **Tipalti** atendem primariamente estruturas norte-americanas, e **Pleo** atende a Europa); em compras corporativas (*procurement*) enterprise, entram **Coupa** e **SAP Ariba**; em canal de ética e denúncias, **Contato Seguro**, **Canal Aberto**, **OneTrust (Convercent)** e **NAVEX (EthicsPoint)**; em gestão de identidade e acesso, **Okta**, **Microsoft Entra ID** e **Auth0**; e em monitoração de logs e SIEM, **Datadog Security**, **Splunk** e **AWS CloudWatch**.
 
 ### Sinais de Alerta Comportamentais e Contábeis: O Funcionário Que Nunca Tira Férias e Recusa Dividir Senhas
 
@@ -4986,12 +4992,12 @@ A contenção, nas primeiras vinte e quatro a setenta e duas horas, começa com 
 
 A investigação leva tipicamente uma a doze semanas. Forensic accountant mais advogado mais investigador interno ou externo. Revisão de documentos, emails, transações. Entrevistas com pessoas não suspeitas que tenham informação. Entrevista formal com suspeito (com representação legal própria, com documentação rigorosa). Quantificação da perda.
 
-A ação depende do que a investigação confirmar. Se confirmado, demissão por justa causa (CLT Art. 482, inciso "a", ato de improbidade). Ação civil para recuperar valores via processo de cobrança e penhora de bens. Possibilidade de ação criminal por estelionato, apropriação indébita ou lavagem em alguns casos. Notificação a autoridades (Polícia, Receita Federal, BCB se aplicável, CVM se empresa listada). Reporting a investidores e board. Claim em seguro se houver cobertura.
+A ação depende do que a investigação confirmar. Se confirmado por sindicância interna documentada (que deve ser instaurada por escrito no mesmo dia da ciência da suspeita para preservar o requisito trabalhista da **imediatidade** e afastar alegação de perdão tácito), aplica-se a demissão por justa causa (CLT, art. 482, alínea *a*, ato de improbidade), observando-se na esfera criminal o prazo decadencial de **6 meses** contados da ciência da autoria para oferecer representação no crime de estelionato (art. 171, § 5º, do Código Penal). Ação civil para recuperar valores via processo de cobrança e penhora de bens. Possibilidade de ação criminal por estelionato, apropriação indébita ou lavagem em alguns casos. Notificação a autoridades (Polícia, Receita Federal, BCB se aplicável, CVM se empresa listada). Reporting a investidores e board. Claim em seguro se houver cobertura.
 
 A remediação fecha o ciclo. Fortalecer os controles que falharam. Training para o time. Comunicação ao time, balanceando transparência e privacidade. Comunicação externa se necessário. Lessons learned documentadas.
 
 > [!info] Timeline e custo
-> Do detect ao caso fechado, seis a dezoito meses. Forensic e legal somam de R$ 100 mil a R$ 500 mil tipicamente. Loss direto é variável, com mediana global da ACFE em US$ 150 mil para SMBs. O impacto reputacional é difícil de quantificar mas real.
+> Da detecção ao encerramento do caso, uma investigação de fraude interna costuma levar de seis a dezoito meses. Os custos de perícia forense e assessoria jurídica somam tipicamente de R$ 100 mil a R$ 500 mil, além da perda financeira direta (cuja mediana global apurada nos relatórios *Occupational Fraud* da ACFE gira em torno de US$ 145 mil a US$ 150 mil para pequenas e médias empresas) e do desgaste reputacional perante conselho e investidores.
 
 ### Evoluindo os Controles Sem Travar a Velocidade Operacional da Empresa
 
@@ -4999,7 +5005,7 @@ Em startup Série A ou B, CFO ou controller é o owner, com review anual de fram
 
 Em escala (Série C ou pré-IPO), surgem internal audit function, audit committee formal no board, external audit anual via Big 4, SOC 2 Type II ou similar e SOX readiness se IPO se aproxima.
 
-### 100% de Pagamentos em Dupla Assinatura, Tempo de Conciliação Bancária (D+1) e Férias Obrigatórias no Financeiro
+### Alçada Dupla Obrigatória Acima do Piso Operacional, Conciliação Bancária (D+1) e Férias Obrigatórias no Financeiro
 
 Loss por fraude detectada, em porcentagem de receita, comparada a benchmarks. Tempo médio de detecção do ato à descoberta, com target abaixo de doze meses. Porcentagem de tips investigados (todos devem ser tratados com rigor). Internal audit coverage, ou seja, porcentagem de áreas críticas auditadas anualmente. Completude de access reviews realizados no trimestre. Compliance training completion. Time-to-remediation de exceções encontradas até fechamento.
 
@@ -5063,7 +5069,7 @@ Abra o gerenciador bancário e o sistema financeiro da sua empresa agora mesmo e
 
 **Regra de Sobrevivência:** Confiança interpessoal é um sentimento humano maravilhoso, mas nunca foi controle financeiro; desenhe seus processos assumindo que qualquer conta com alçada única será inevitavelmente tentada.
 
-**O Ritual de Segunda-Feira às 9h:** Configure hoje mesmo no banco da empresa a obrigatoriedade de dupla aprovação (lançador + aprovador distinto) para 100% dos pagamentos acima de R$ 1.000 e trave a alteração de dados bancários de fornecedores e funcionários sem validação secundária.
+**O Ritual de Segunda-Feira às 9h (rotina semanal de 30 minutos):** Configure hoje mesmo no banco da empresa a obrigatoriedade de dupla aprovação (lançador + aprovador distinto) para 100% dos pagamentos acima de R$ 1.000 e trave a alteração de dados bancários de fornecedores e funcionários sem validação secundária.
 
 
 ---
@@ -5080,7 +5086,7 @@ Você precisa abandonar **A Falácia da Segurança por Obscuridade** e construir
 
 ---
 
-Segurança da informação é aquele tema que todo fundador trata como importante em abstrato e adia em concreto. Até o dia em que um cliente enterprise pede o seu SOC 2 (certificação de controles de segurança). Até o dia em que alguém comete o primeiro incidente. Ou até o dia em que a ANPD ativa uma investigação após um vazamento. Nesse dia, a empresa costuma descobrir que segurança não era linha de despesa opcional. Era infraestrutura de sobrevivência.
+As 310 perguntas da planilha do banco que travou o contrato de Lucas e Marina por cinco meses resumem o destino de toda startup B2B que adia a engenharia de segurança. O bloqueio comercial surge no dia em que um cliente enterprise exige o seu **relatório de asseguração SOC 2** (emitido por auditor independente segundo o padrão da AICPA, dividido entre o **SOC 2 Tipo I**, que atesta o desenho dos controles em uma data específica e serve de atalho para destravar as primeiras vendas enterprise mesmo em times enxutos, e o **SOC 2 Tipo II**, que comprova a eficácia operacional dos controles ao longo de 6 a 12 meses). Até o dia em que alguém comete o primeiro incidente. Ou até o dia em que a ANPD ativa uma investigação após um vazamento. Nesse dia, a empresa costuma descobrir que segurança não era linha de despesa opcional. Era infraestrutura de sobrevivência.
 
 Este capítulo se divide em duas partes. A Parte 1 cobre a visão geral da segurança como disciplina: o que você precisa implementar, certificações relevantes, frameworks (modelos), decisões básicas. É o que todo fundador precisa entender, mesmo que nunca contrate um security engineer (engenheiro de segurança). A Parte 2 entra em profundidade na engenharia de segurança como disciplina organizacional: como montar um programa que escala, como responder a incidentes, como pensar em arquitetura zero-trust (modelo de "confiança zero", em que nada é confiável por padrão).
 
@@ -5112,7 +5118,7 @@ Criptografia em repouso e em trânsito é o quarto. TLS em todas as conexões, d
 
 Gestão de secrets é o quinto. Credenciais e chaves de API vivem em gerenciador de secrets (AWS Secrets Manager, HashiCorp Vault), nunca em código. Arquivo `.env` commitado no Git é erro infantil com consequências graves.
 
-Logs centralizados são o sexto. CloudWatch, Datadog, Splunk, ELK. Sem logs, você não consegue investigar incidente. Retenção mínima: um ano.
+Logs centralizados são o sexto. CloudWatch, Datadog, Splunk, ELK. Sem registros centralizados, você não investiga incidentes nem cumpre a lei; unifique sua tabela de retenção: **6 meses** no mínimo para registros de acesso a aplicações de internet (obrigação legal do art. 15 do Marco Civil da Internet), **1 ano** para *logs* de segurança e auditoria de infraestrutura (padrão exigido em SOC 2 e ISO 27001) e **5 anos** para registros fiscais, trabalhistas e de transações financeiras (combinado à revogação de acessos em até 1 hora nos desligamentos críticos).
 
 Backup com teste de restore é o sétimo. Backup que nunca foi restaurado é esperança, não segurança. Teste trimestralmente.
 
@@ -5126,7 +5132,7 @@ Uma vez que a fundação está em pé, sua empresa eventualmente vai buscar cert
 
 SOC 2 Type II é o padrão americano da AICPA. Avalia desenho e operação efetiva de controles em cinco critérios (segurança, disponibilidade, integridade, confidencialidade, privacidade). Auditoria externa em janela de seis a doze meses. Custo típico: oitenta a trezentos mil reais por ano de auditoria, mais trinta a cem mil reais por ano de plataforma (Vanta, Drata, SecureFrame), mais tempo interno. Quando fazer: quando primeiros clientes enterprise pedem, o que em fintech e SaaS B2B acontece cedo.
 
-ISO 27001 é o padrão internacional (ISO/IEC). Baseia-se em um Sistema de Gestão de Segurança da Informação (SGSI). Preferida em mercados europeus e em setores regulados no Brasil. Auditoria por certificadora acreditada (BSI, BVQI, DNV, TÜV). Custo e prazo similares ao SOC 2.
+A **ISO/IEC 27001:2022** é a norma internacional de referência (cuja transição da versão 2013 encerrou-se em outubro de 2025), estruturada sobre um Sistema de Gestão de Segurança da Informação (SGSI), enquanto operações que lidam com dados de cartões seguem o **PCI DSS 4.0.1** (em que o uso de *checkout* transparente e tokenização via gateway certificado não isenta a empresa do padrão, mas reduz drasticamente o escopo de conformidade ao questionário simplificado **SAQ A**). Preferida em mercados europeus e em setores regulados no Brasil. Auditoria por certificadora acreditada (BSI, BVQI, DNV, TÜV). Custo e prazo similares ao SOC 2.
 
 PCI DSS é obrigatório para qualquer empresa que processa, armazena ou transmite dados de cartão de crédito, não apenas processadoras. Use tokenização via Stripe, Pagar.me, MercadoPago ou Cielo para reduzir o escopo e, idealmente, sair dele.
 
@@ -5186,10 +5192,10 @@ Privacy by design. DPO dedicado, LGPD compliance estruturado, DPIA (Data Protect
 
 Mesmo em programas maduros, incidentes acontecem. A diferença entre empresas que sobrevivem e empresas que não é a qualidade da resposta.
 
-O framework de referência é NIST SP 800-61, em quatro fases. Preparação (plano, ferramentas, runbooks, contatos, feito antes). Detecção e análise (SOC recebe alerta, triage, escalação). Contenção, erradicação e recuperação (isolar, remover causa, restaurar). E pós-incidente (análise de causa raiz, lições aprendidas, atualização de controles).
+O guia de referência é o **NIST SP 800-61 Rev. 3 (publicado em abril de 2025)**, que integrou a resposta a incidentes às seis funções do **NIST CSF 2.0** (Governar, Identificar, Proteger, Detectar, Responder e Recuperar), enquanto no dia a dia operacional as equipes continuam organizando os *runbooks* no ciclo clássico de quatro etapas consagrado pela revisão anterior: Preparação (plano, ferramentas, runbooks, contatos, feito antes). Detecção e análise (SOC recebe alerta, triage, escalação). Contenção, erradicação e recuperação (isolar, remover causa, restaurar). E pós-incidente (análise de causa raiz, lições aprendidas, atualização de controles).
 
 > [!warning] Decisões críticas em tempo real
-> Comunique cedo e claro. Ocultar resulta pior do que admitir. A LGPD exige comunicação à ANPD e a titulares em prazo razoável (a ANPD aplicou multas em casos com dias ou semanas de delay). O GDPR exige setenta e duas horas.
+> Comunique cedo e claro. Ocultar resulta pior do que admitir. Pela **Resolução CD/ANPD nº 15/2024**, a comunicação de incidente de segurança que possa acarretar risco ou dano relevante deve ser feita à ANPD e aos titulares em até **3 dias úteis** contados da ciência do evento pelo controlador (ou **6 dias úteis** para agentes de pequeno porte, em linha com os Capítulos 10 e 12). O GDPR exige setenta e duas horas.
 >
 > Pagamento de ransomware é controverso. FBI e polícia geralmente orientam não pagar. Backup testado evita precisar. OFAC nos EUA pode penalizar pagamento a entidades sancionadas.
 >
@@ -5228,9 +5234,9 @@ Um programa de segurança sem métricas é fé, não disciplina. As métricas qu
 
 ### O Cenário de Ameaças no Brasil: Ransomware, Engenharia Social no WhatsApp, Fraude de Pix e Exigências do BCB
 
-A ANPD está ativa desde 2020, e a fiscalização acelerou em 2022 e 2023. Casos conhecidos: Serasa Experian, Decolar, entre outros sob investigação.
+A fiscalização sancionadora da ANPD (detalhada no Capítulo 10) amadureceu rapidamente a partir de marcos concretos: a primeira multa administrativa aplicada em 2023 (caso Telekall), os processos sancionadores contra órgãos públicos por incidentes de vazamento, a medida preventiva de 2024 proibindo o uso de dados de brasileiros para treinamento de modelos de IA da Meta sem base legal adequada e a fiscalização de coleta biométrica da Tools for Humanity/Worldcoin em 2025.
 
-O framework regulatório brasileiro é composto por LGPD, Marco Civil da Internet, e resoluções específicas setoriais (CMN e BCB para bancário, Circular SUSEP para seguros, RDC ANVISA para saúde).
+O arcabouço regulatório brasileiro de cibersegurança combina a LGPD, o Marco Civil da Internet e normas setoriais estritas: no setor financeiro e de pagamentos, a **Resolução CMN 4.893/2021** (para instituições financeiras) e a **Resolução BCB 85/2021** (para instituições de pagamento) obrigam bancos e fintechs reguladas a auditar os controles de segurança e nuvem de seus fornecedores críticos de tecnologia (origem direta da planilha de 310 perguntas enfrentada por Lucas e Marina). O rigor do Banco Central sobre provedores de infraestrutura e mensageria do Sistema Financeiro Nacional aumentou ainda mais após graves incidentes na cadeia de mensageria do Pix (como o ataque por comprometimento de credenciais internas contra a provedora C&M Software em 2025), somando-se à Circular Susep 638/2021 em seguros e às normas da Anvisa em saúde.
 
 Fraude e engenharia social têm incidência alta no Brasil. Pix, boleto falso, SIM swap. Fintechs precisam de time antifraude separado de cybersec clássico.
 
@@ -5238,7 +5244,7 @@ O mercado de fornecedores brasileiros inclui Tempest, Apura, Kryptus, CIPHER, Bl
 
 Cyber insurance é mercado nascente no Brasil, e cresceu pós-2020. Apólices exigem comprovação de maturidade (auditorias, controles) antes da contratação.
 
-A Polícia Federal Cibercrime (DCIBER) responde, mas com capacidade limitada. Casos grandes são encaminhados para lá.
+Para empresas privadas vítimas de invasão, extorsão por *ransomware* ou fraude eletrônica, o registro imediato do boletim de ocorrência e a preservação da cadeia de custódia devem ser feitos na **Delegacia Especializada de Repressão a Crimes Cibernéticos da Polícia Civil** do respectivo estado; já a Diretoria de Combate a Crimes Cibernéticos da **Polícia Federal (DCIBER)** atua quando há interesse direto da União ou crime com repercussão interestadual ou internacional que exija repressão uniforme (Lei 10.446/2002).
 
 > [!tip] Checklist mínimo aplicável a qualquer empresa
 >
@@ -5263,7 +5269,9 @@ A Polícia Federal Cibercrime (DCIBER) responde, mas com capacidade limitada. Ca
 
 ---
 
-### O Espelho do CISO: Se um Atacante Roubar o Notebook de um Desenvolvedor Hoje, o Que Ele Consegue Acessar?
+### O Espelho do CISO: Se Furtarem o Notebook de um Desenvolvedor Hoje, o Que o Atacante Consegue Acessar?
+
+Antes de responder às perguntas de governança abaixo, faça o teste do equipamento perdido: se o notebook de um engenheiro for furtado agora no metrô, o disco inteiro está criptografado (FileVault/BitLocker), você consegue acionar o bloqueio e apagamento remoto via MDM e a equipe revoga todas as sessões ativas de navegador, tokens de GitHub e credenciais de nuvem (AWS/GCP) em menos de uma hora?
 
 **Fechando o ciclo na trincheira:** Quando **Lucas e Marina** aplicaram as travas deste capítulo na rotina entre São Paulo e Florianópolis, a tensão da cena de abertura deixou de ser discussão subjetiva de corredores e virou regra clara de priorização, retenção e proteção de caixa.
 
@@ -5275,5 +5283,5 @@ Faça esta auditoria de segurança de cinco minutos junto com seu líder de tecn
 
 **Regra de Sobrevivência:** Segurança sem verificação prática é ilusão: um backup que nunca teve sua restauração testada não é um backup, é apenas uma esperança cara.
 
-**O Ritual de Segunda-Feira às 9h:** Audite e revogue imediatamente todos os acessos órfãos de ex-colaboradores, ative autenticação multifator (MFA) obrigatória com SSO corporativo em 100% das ferramentas de nuvem/código e agende um teste prático de restauração de backup de banco de dados para esta semana.
+**O Ritual de Segunda-Feira às 9h (rotina semanal de 30 minutos):** Audite e revogue imediatamente todos os acessos órfãos de ex-colaboradores, reserve 15 minutos toda segunda-feira para cruzar a lista de colaboradores e prestadores desligados na semana anterior contra os usuários ativos no GitHub, AWS/GCP, Slack e e-mail corporativo (enquanto a ativação de MFA obrigatório em 100% das contas críticas entra imediatamente e a migração para SSO corporativo avança no plano do trimestre) e agende um teste prático de restauração de backup de banco de dados para esta semana.
 

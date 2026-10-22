@@ -84,11 +84,11 @@ Quando a empresa passa de um único time para múltiplos *squads* e milhares de 
 
 ### O Imposto Invisível da Osmose Quebrada e a Fábrica da Sua Empresa
 
-São 19h40 de uma sexta-feira chuvosa na Vila Olímpia, em São Paulo, e Marina olha para o painel financeiro da sua scaleup B2B sem acreditar no número na tela. Enquanto ela participava de sete reuniões seguidas de alinhamento que não decidiram absolutamente nada, três squads diferentes em Florianópolis subiram atualizações simultâneas no módulo de faturamento. Ninguém avisou o time de Customer Success, o motor de conciliação travou para 410 clientes corporativos e o suporte técnico acumulou 180 chamados críticos em duas horas. Quando a empresa tinha quatorze pessoas em uma única sala, tudo funcionava por osmose: bastava levantar a cabeça do monitor e gritar uma pergunta. Com oitenta e cinco pessoas, a mesma informalidade que antes era velocidade virou sabotagem mútua.
+Quatrocentos e dez clientes corporativos ficaram sem conciliação numa sexta-feira porque três squads de engenharia em São Paulo subiram código simultaneamente no módulo de faturamento, enquanto Marina, em Florianópolis, olhava para o painel financeiro da sua scaleup B2B. Enquanto ela participava de sete reuniões seguidas de alinhamento que não decidiram absolutamente nada, três squads diferentes em Florianópolis subiram atualizações simultâneas no módulo de faturamento. Ninguém avisou o time de Customer Success, o motor de conciliação travou para 410 clientes corporativos e o suporte técnico acumulou 180 chamados críticos em duas horas. Quando a empresa tinha quatorze pessoas e um único canal de conversa no Slack, tudo funcionava por osmose: bastava levantar a cabeça do monitor e gritar uma pergunta. Com oitenta e cinco pessoas, a mesma informalidade que antes era velocidade virou sabotagem mútua.
 
-Ninguém avisa você nos palcos de empreendedorismo sobre o paradoxo mais cruel da escala: os hábitos heroicos de improviso que salvaram sua startup na fase de tração são exatamente os vícios que destroem sua empresa na fase de operação. Andy Grove ensinava na Intel que toda empresa, mesmo de software puro, é uma fábrica: e que a produção de um executivo não é o que ele faz sozinho, mas o resultado líquido da sua organização somado às áreas que ele influencia.
+Ninguém conta nos palcos de empreendedorismo o paradoxo da escala: os hábitos heroicos de improviso que salvaram sua startup na fase de tração são exatamente os vícios que destroem sua empresa na fase de operação. Andy Grove ensinava na Intel que toda empresa, mesmo de software puro, é uma fábrica: e que a produção de um executivo não é o que ele faz sozinho, mas o resultado líquido da sua organização somado às áreas que ele influencia.
 
-Você acaba de bater de frente com **O Imposto Invisível da Osmose Quebrada**: a perda exponencial de energia produtiva que ocorre quando o número de canais de comunicação cresce geometricamente ($N(N-1)/2$) sem que você instale cadência operacional, donos únicos de processo e indicadores antecedentes. Ou você projeta a máquina que constrói a máquina, ou passa o resto da vida apagando incêndios criados pelo seu próprio time.
+Você acaba de bater de frente com **O Imposto Invisível da Osmose Quebrada**: a perda quadrática de energia produtiva que ocorre quando os canais de comunicação crescem com o quadrado do time (14 pessoas formam 91 canais; 85 pessoas formam 3.570) sem que você instale cadência operacional, donos únicos de processo e indicadores antecedentes. Ou você projeta a máquina que constrói a máquina, ou passa o resto da vida apagando incêndios criados pelo seu próprio time.
 
 ---
 
@@ -102,7 +102,7 @@ flowchart TD
 
  NS --> CO["🏢 COMPANY OBJECTIVES<br/>3-5 objetivos trimestrais<br/>da empresa"]
 
- CO --> O1[O1: Atingir R$ 30M ARR]
+ CO --> O1[O1: Tornar-se referência no segmento B2B com R$ 30M de ARR]
  CO --> O2[O2: Expandir 30% em NRR]
  CO --> O3[O3: Lançar produto B]
 
@@ -116,17 +116,17 @@ flowchart TD
 ```
 
 > [!important] Hierarquia descendente
-> Do North Star à Company, depois aos Times. Os KRs dos times devem somar ao KR do nível acima. Senão times viram silos otimizando métricas que não movem a empresa. Revisão quinzenal de scoring (zero a um). Sweet spot: zero vírgula seis a zero vírgula sete (ambicioso, mas atingível).
+> Do North Star à Company, depois aos Times. Os KRs dos times devem somar ao KR do nível acima. Senão times viram silos otimizando métricas que não movem a empresa. Check-in semanal de 5 minutos, revisão formal nas semanas 4 e 8, e nota de 0,0 a 1,0 na última semana do trimestre. Sweet spot: zero vírgula seis a zero vírgula sete (ambicioso, mas atingível).
 
-> [!tip] Stack mínimo da Fase 14, frente Operações
-> Em escala, stack operacional fica mais importante que stack de produto. **OKRs e gestão**: Notion, Asana, ClickUp, Linear (para times tech), ou plataformas específicas de OKR (Perdoo, Weekdone). **Documentação interna**: Notion, Confluence, Coda. **Comunicação**: Slack ou Microsoft Teams. **Videoconferência**: Google Meet, Zoom. **RH e folha**: Gupy para recrutamento. Sólides, Pipefy ou Factorial para gestão. Omie ou Conta Azul mais parceiros para folha no Brasil. **Financeiro**: Conta Azul ou Omie para ERP pequeno. Sage Intacct, NetSuite para médio. QuickBooks internacional. **Analytics de produto**: Mixpanel, Amplitude, PostHog. **CRM**: HubSpot (grátis inicial), Pipedrive, Salesforce (pesado, enterprise). **Regra**: consolidar ferramentas sempre que possível. O custo escondido de integrar vinte SaaS diferentes é altíssimo.
+> [!tip] Stack mínimo de operações em escala
+> Em escala, a pilha operacional ganha peso equivalente à pilha de produto; consolide as ferramentas por estágio de maturidade (pré-PMF, pós-PMF e escala) conforme a tabela consolidada a seguir. **OKRs e gestão**: Notion, Asana, ClickUp, Linear (para times tech), ou plataformas específicas de OKR (Perdoo, Weekdone). **Documentação interna**: Notion, Confluence, Coda. **Comunicação**: Slack ou Microsoft Teams. **Videoconferência**: Google Meet, Zoom. **RH e folha**: Gupy para recrutamento. Sólides, Pipefy ou Factorial para gestão. Omie ou Conta Azul mais parceiros para folha no Brasil. **Financeiro**: Conta Azul ou Omie para ERP pequeno. Sage Intacct, NetSuite para médio. QuickBooks internacional. **Analytics de produto**: Mixpanel, Amplitude, PostHog. **CRM**: HubSpot (grátis inicial), Pipedrive, Salesforce (pesado, enterprise). **Regra**: consolidar ferramentas sempre que possível. O custo escondido de integrar vinte SaaS diferentes é altíssimo.
 
 > [!note] Entregáveis e gates da subfase Operações
 > Arquitetura Operacional: sistema de OKRs, cadência de reuniões, playbook de processos críticos, stack de ferramentas de gestão. Comece quando o time passa de ~15 pessoas, ou quando comunicação começa a gerar mais atrito do que velocidade. Termine quando processos críticos estão documentados, rituais em cadência, stack estável. Revisite a cada 6-9 meses de alta velocidade de contratação. Executor: CEO + Head of Operations (ou Chief of Staff) + lideranças de área. Decisor: CEO em cadência; lideranças em execução.
 
 ### A Engenharia do Ritmo: OKRs, Reuniões de Pulso, SLAs e Post-Mortems Sem Culpa
 
-Sete passos.
+Cinco passos estruturados (do diagnóstico do motor atual e transição da venda conduzida pelo fundador até canais de marketing, expansão por caminhos e medição de unit economics por canal, detalhada na seção de métricas adiante).
 
 #### Passo 1, institua cadência de gestão em três camadas
 
@@ -154,7 +154,7 @@ OKRs demais. Mais de três a cinco OKRs por time é receita para não alcançar 
 
 Key Results que são iniciativas. "Lançar feature X" não é KR. É iniciativa. KR é o resultado mensurável que a feature deveria produzir. Por exemplo, "aumentar retenção D30 em dez pontos percentuais".
 
-Sandbagging (colocar metas conservadoras para garantir sucesso). OKRs ambiciosos têm sessenta a setenta por cento de atingimento como "bom". Se você bate cem por cento sempre, as metas estão baixas.
+Sandbagging (colocar metas conservadoras para garantir sucesso). Nos OKRs aspiracionais, 60% a 70% de atingimento (0,6 a 0,7) indica meta bem calibrada. Separe OKRs comprometidos (receita do orçamento, SLA contratual, conformidade), que exigem 100%, dos aspiracionais, em que 0,6 a 0,7 é sinal saudável; se você bate 100% até nos aspiracionais, as metas estão conservadoras.
 
 Não recalibrar mid-quarter. Se nas semanas quatro a seis fica claro que um OKR vai falhar (ou exceder muito), ajuste com justificativa escrita. Rígido é pior do que honesto.
 
@@ -173,7 +173,7 @@ Owner: [uma pessoa responsável, não um time]
 > [!note]
 > Estruturação de onboarding 30/60/90, wikis e runbooks, a infraestrutura de conhecimento que torna os playbooks consultáveis, está no [[#CAPÍTULO 8 — GESTÃO DO CONHECIMENTO|Capítulo 8: Gestão do Conhecimento]].
 
-Cada empresa tem processos que, se quebrados, geram dor imediata. Liste os seus. Os típicos. Onboarding de novo cliente. Faturamento e cobrança (incluindo inadimplência). Suporte técnico (SLA por tier). Desenvolvimento de feature (da ideia ao deploy). Incident response (quando o produto cai). Onboarding de novo colaborador. Off-boarding de colaborador. Contratação sênior. Deal review (sales operations). Renewal e churn prevention.
+Cada empresa tem processos que, se quebrados, geram dor imediata. Liste os seus processos críticos. Os dez típicos são: (1) onboarding de novo cliente; (2) faturamento e cobrança (incluindo inadimplência); (3) suporte técnico (SLA por nível); Desenvolvimento de feature (da ideia ao deploy). Incident response (quando o produto cai). Onboarding de novo colaborador. Off-boarding de colaborador. Contratação sênior. Deal review (sales operations). Renewal e churn prevention.
 
 Para cada um, crie um playbook em texto simples (não precisa de software caro) com: dono do processo, passo a passo numerado, SLA por etapa, ferramentas usadas, exceções conhecidas e métrica de qualidade.
 
@@ -185,7 +185,7 @@ A evolução do stack operacional por fase:
 
 ```mermaid
 flowchart LR
- subgraph PreP["PRÉ-PMF (Fase 3-11)"]
+ subgraph PreP["PRÉ-PMF (Fases 0 a 12)"]
  P1[Google Workspace]
  P2[Notion / Linear]
  P3[Slack]
@@ -194,7 +194,7 @@ flowchart LR
  P6[PostHog / Mixpanel]
  end
 
- subgraph PosP["PÓS-PMF (Fase 14, frente Time)"]
+ subgraph PosP["PÓS-PMF (Fases 14 a 16)"]
  PP1[Tudo do pré-PMF +]
  PP2[HubSpot / Salesforce CRM]
  PP3[Intercom / Zendesk]
@@ -204,7 +204,7 @@ flowchart LR
  PP7[1Password / Vault]
  end
 
- subgraph Escala["ESCALA (Série B+)"]
+ subgraph Escala["ESCALA (Série B+: substitui ferramentas anteriores, teto de 15 a 20 ativas)"]
  E1[Tudo anterior +]
  E2[CS: Gainsight / ChurnZero]
  E3[Data: Snowflake / BigQuery]
@@ -235,7 +235,7 @@ flowchart LR
 | Business intelligence | Metabase, Looker, Hex |
 | Data warehouse | BigQuery, Snowflake, Redshift |
 | Financeiro | Conta Azul, QuickBooks, Omie |
-| RH e folha | Gupy, Sólides, Kenoby |
+| Recrutamento, RH e folha | Recrutamento: Gupy, InHire. Gestão de pessoas e DP: Sólides, Factorial, Convenia |
 | Contratos | DocuSign, Clicksign, Zapsign |
 | Pagamentos B2B | Iugu, Pagar.me, Stripe |
 
@@ -250,17 +250,17 @@ flowchart LR
 > [!note]
 > Formatos de all-hands, comunicação de RIF e protocolos async por tamanho de time estão no [[#CAPÍTULO 9 — COMUNICAÇÃO INTERNA|Capítulo 9: Comunicação Interna]].
 
-Comunicação que funcionava com dez não funciona com cinquenta. A regra operacional: com cerca de dez pessoas, Slack no geral, todo mundo sabe o que todo mundo faz. Com cerca de trinta, times virtuais por projeto, all-hands semanais e compartilhamento de conhecimento estruturado. Com cinquenta a cem, comunicação em camadas (C-level para VPs para times), newsletter interna mensal e decisões importantes com RFC (Request for Comments) escrito. Com cem ou mais, fóruns formais (engineering review, product review, business review trimestral), townhalls mensais e comunicação executiva top-down com tempo para perguntas.
+Comunicação que funcionava com dez não funciona com cinquenta. A regra operacional: com cerca de dez pessoas, Slack no geral, todo mundo sabe o que todo mundo faz. Com cerca de trinta, times virtuais por projeto, all-hands semanais e compartilhamento de conhecimento estruturado. Com cinquenta a cem, comunicação em camadas (do C-level aos VPs e dos VPs aos times), newsletter interna mensal e decisões importantes com RFC (Request for Comments) escrito. Com cem ou mais, fóruns formais (engineering review, product review, business review trimestral), townhalls mensais e comunicação executiva top-down com tempo para perguntas.
 
 > [!warning] Sinal-vermelho na comunicação
 > Se mais de vinte por cento das pessoas dizem "não sei o que está acontecendo" em pesquisa anônima, comunicação interna falhou.
 
-#### Passo 6, construa data infrastructure mínima desde cedo
+#### Passo 6: monte cedo uma infraestrutura mínima de dados
 
 > [!tip] Capítulo 9 (Vol. 4): Dados e Analytics
 > Arquitetura de dados para startups em escala: data warehouse, ETL, modelagem de dados, cultura data-driven e como estruturar a função de analytics (self-serve vs. analista centralizado).
 
-Antes de vinte pessoas, planilhas Google resolvem. Acima disso, você precisa de quatro coisas. Data warehouse, mesmo que pequeno: BigQuery ou Snowflake, com ingestão automática de produção, mais CRM, mais financeiro. Dashboards centrais: receita, retenção, CAC e LTV, churn, e pipeline. Atualizados diariamente. Acesso controlado: nem todos precisam ver tudo. Cultura de "dados antes de opinião": decisões grandes são acompanhadas de análise de dado antes.
+Antes de vinte pessoas, planilhas Google resolvem. Acima disso, você precisa de quatro coisas. Data warehouse, mesmo que pequeno: BigQuery ou Snowflake, com ingestão automática dos dados de produção, do CRM e do financeiro. Dashboards centrais: receita, retenção, CAC e LTV, churn, e pipeline. Atualizados diariamente. Acesso controlado: nem todos precisam ver tudo. Cultura de "dados antes de opinião": decisões grandes são acompanhadas de análise de dado antes.
 
 #### Passo 7, institua blameless post-mortems
 
@@ -271,11 +271,11 @@ Quando algo dá errado (produto cai, cliente grande cancela, incidente de segura
 
 ### A Prova Material de Maturidade: O Que Precisa Estar Rodando Sem o Fundador na Sala
 
-A [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16 (Vol. 6)]] (Operações) está concluída quando os seis critérios abaixo estão cumpridos.
+A Fase 17 está concluída quando os seis critérios abaixo estão cumpridos.
 
 1. Cadência de gestão (semanal, trimestral, anual) está formalizada, e rodando há dois ou mais trimestres. Aderência (reuniões acontecendo na data, com agenda e ata) ≥90%.
 2. OKRs estão em uso, com scoring trimestral. Atingimento entre 60-70% do alvo é saudável (100% indica metas baixas).
-3. Os top dez processos críticos têm playbook escrito. Decisões grandes (afetam ≥10 pessoas ou custo ≥R$ 100k) com RFC escrito em ≥80% dos casos.
+3. Os cinco processos que mais doem quando quebram têm playbook escrito, e os dez processos críticos têm dono nomeado. Decisões grandes (afetam ≥10 pessoas ou custo ≥R$ 100k) com RFC escrito em ≥80% dos casos.
 4. Stack operacional está estabilizada (até quinze ferramentas ativas).
 5. Data infrastructure mínima está operando.
 6. Blameless post-mortems estão instituídos. MTTR: P0 <1h, P1 <4h, P2 <24h, com trajetória decrescente em todas as severidades.
@@ -283,7 +283,7 @@ A [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CUL
 **Critérios observáveis.**
 
 1. OKRs trimestrais escritos, com revisão mensal documentada.
-2. Dashboard central existe, com seis ou mais métricas atualizadas semanalmente.
+2. Dashboard central existe, com seis ou mais métricas alimentadas diariamente e revisadas toda semana na WBR.
 3. Cinco ou mais processos críticos documentados, com dono claro.
 4. Reuniões seguem agenda padrão, com decisões e ações registradas.
 5. Stack de SaaS inventariado, e otimizado nos últimos seis meses.
@@ -313,17 +313,17 @@ A [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CUL
 
 **O1: acelerar crescimento em SP Capital e RM, com qualidade de PMF.**
 KR1: crescer de oitenta para cento e cinquenta clientes pagantes no trimestre.
-KR2: manter retenção mensal de noventa e cinco por cento ou mais (churn de cinco por cento ou menos).
+KR2: reduzir o churn mensal de 5% para 3% (mantendo a retenção acima de 95% como métrica de saúde no painel).
 KR3: atingir NPS de cinquenta ou mais.
 
 **O2: reduzir dependência do fundador em vendas.**
 KR1: setenta por cento das deals do trimestre fechadas sem founder no pitch (hoje: trinta por cento).
-KR2: Head of Sales contratado, e ramped em noventa dias.
+KR2: 50% da receita nova vinda de negócios fechados sem o fundador na reunião (tendo a contratação e rampa do Head of Sales em 90 dias como iniciativa-chave).
 KR3: Playbook de vendas v1 documentado, e usado em cem por cento das deals.
 
 **O3: preparar expansão para duas novas cidades (Campinas, Grande Rio).**
 KR1: dez clientes em Campinas até fim do Q3.
-KR2: um Green Angel contratado para Campinas.
+KR2: um representante comercial de campo (no modelo Green Angel da Stone) contratado e operando em Campinas.
 KR3: decisão go ou no-go para Grande Rio documentada até fim do Q3.
 
 **Dashboard Central, seção principal.**
@@ -350,7 +350,7 @@ KR3: decisão go ou no-go para Grande Rio documentada até fim do Q3.
 
 ### As Patologias da Burocracia Precoce e do Caos Institucionalizado
 
-"Processos matam cultura". Falso. Falta de processo mata cultura. As pessoas saem por frustração. O ponto é processos *leves e úteis*, não ausência deles.
+Dizem que processo mata a cultura, mas na prática a falta dele desgasta mais: as pessoas saem cansadas de retrabalho. O que resolve é processo leve e útil. As pessoas saem por frustração. O ponto é processos *leves e úteis*, não ausência deles.
 
 Over-tooling. Adotar toda ferramenta nova que aparece. O resultado: quarenta logins, e nada integrado.
 
@@ -364,9 +364,9 @@ Reuniões demais sem agenda. Reunião sem agenda escrita é roubo de tempo. Canc
 
 ### CASO BRASILEIRO, Fase 17 (Operações), VTEX e internacionalização
 
-A VTEX, plataforma brasileira de comércio eletrônico, expandiu para LatAm, Europa, e América do Norte. A decisão. Antes de internacionalizar agressivamente, consolidaram operações internas com OKRs trimestrais, playbooks de onboarding de cliente multi-idioma, infraestrutura técnica multi-região, processo de contratação em três continentes, e governança de produto com roadmap global.
+A VTEX, plataforma brasileira de comércio eletrônico, expandiu para LatAm, Europa, e América do Norte. O movimento estratégico (segundo leitura operacional da trajetória pública da empresa): ao expandir pela América Latina, Europa e América do Norte rumo ao IPO na NYSE em julho de 2021, a VTEX estruturou cadência de metas trimestrais, playbooks de onboarding multilíngue e arquitetura multirregião, processo de contratação em três continentes, e governança de produto com roadmap global.
 
-O resultado foi internacionalização bem-sucedida, com IPO em Nova York em 2021. Empresas brasileiras que tentaram internacionalizar sem infraestrutura operacional madura tipicamente falharam, ou queimaram capital excessivo na tentativa.
+O resultado foi internacionalização bem-sucedida, com IPO em Nova York em 2021. Na leitura operacional dessa expansão, consolidar cadência, playbooks e donos de processo antes de multiplicar praças evita que a abertura de novos mercados queime caixa com retrabalho e perda de SLA.
 
 Operação escalável é pré-requisito para internacionalização. Não consequência dela. Empresas que invertem a ordem pagam caro.
 
@@ -385,16 +385,18 @@ Feche a planilha de metas e encare a verdade nua da sua operação hoje:
 
 **Regra de Sobrevivência:** Processo bom não é burocracia para impedir erros raros; é o trilho mínimo que libera gente talentosa para decidir rápido sem pedir bênção.
 
-**O Ritual de Segunda-Feira às 9h:** Cancele todas as reuniões recorrentes de status sem pauta escrita e institua a Weekly Business Review (WBR) de 60 minutos guiada exclusivamente por desvios em métricas antecedentes e planos de ação com dono e prazo.
+**O Ritual de Segunda-Feira às 9h (rotina semanal de 30 minutos):** Cancele todas as reuniões recorrentes de status sem pauta escrita e institua a Weekly Business Review (WBR) de 60 minutos guiada exclusivamente por desvios em métricas antecedentes e planos de ação com dono e prazo.
 
 ---
 
 ### MANUAL PASSO A PASSO DOS FRAMEWORKS DESTA FASE
 
 > [!tip] Uso autocontido neste volume
-> Todos os frameworks abaixo estão detalhados integralmente com origem, estrutura, passo a passo de aplicação, exemplo brasileiro e armadilhas para execução imediata nesta **Fase 17**.
+> Os frameworks abaixo reúnem origem, estrutura, passo a passo de aplicação, exemplos aplicados ao contexto brasileiro (incluindo os arquétipos desta coleção) e armadilhas para execução imediata nesta **Fase 17**.
 
-#### Framework: Continuous Discovery Habits (Teresa Torres, 2021)
+#### Framework: Hábitos de Descoberta Contínua (Continuous Discovery Habits, Teresa Torres, 2021)
+
+> **Nota de escopo:** Os seis primeiros blocos deste manual (Continuous Discovery, Shape Up, PR-FAQ, Stage-Gate, Dual-Track e OST) conectam a cadência operacional da Fase 17 à disciplina de produto detalhada no Capítulo 1 deste volume.
 
 ##### De onde vem a ferramenta (e por que sobreviveu ao filtro do tempo)
 
@@ -448,7 +450,7 @@ Semana 1-4: identifica 4 oportunidades principais via OST:
 Prioriza "configuração inicial trava 40%":
 
 - Soluções candidatas: (a) onboarding guiado, (b) setup pré-populado, (c) concierge setup (CS faz).
-- Assumption test: qual das 3 abordagens os usuários preferem?
+- Teste de premissa comportamental: os usuários concluem a configuração inicial sem ajuda quando os dados de exemplo já vêm preenchidos?
 - Experimento: oferece (b) e (c) para próximos 20 trials, mede conclusão de setup.
 
 Resultado: setup pré-populado resolve 70% dos casos, concierge para os 30% restantes. Conversão sobe para 13% em 6 semanas.
@@ -469,7 +471,7 @@ Ryan Singer, ex-VP Produto da Basecamp, publicou *Shape Up* (gratuitamente onlin
 
 Método de desenvolvimento de produto que se opõe a Scrum tradicional, com três princípios centrais:
 
-- Shaped work: problemas são "shaped" em documento detalhado antes de chegar ao time, elimina ambiguidade.
+- Trabalho moldado (shaped work): o problema chega ao time com apetite de tempo, limites claros e solução em esboço grosso (rough, solved, bounded), sem wireframe detalhado, preservando a autonomia de execução.
 - Ciclos de 6 semanas: tempo suficiente para trabalho significativo, pressão para foco.
 - Betting table: liderança "aposta" em projetos a cada ciclo (não backlog interminável).
 
@@ -477,7 +479,7 @@ Método de desenvolvimento de produto que se opõe a Scrum tradicional, com trê
 
 Fases:
 
-1. Shaping: senior people (PM, designer senior) tomam tempo "shape" o problema, definem appetite (tempo), boundaries (o que não fará), e risco. 1-2 semanas.
+1. Moldagem (shaping): profissionais seniores (PM e designer sênior) reservam uma a duas semanas para dar forma ao problema, definem appetite (tempo), boundaries (o que não fará), e risco. 1-2 semanas.
 
 2. Betting: a cada 6 semanas, leadership "aposta" em 4-5 shaped projects. Descartados não viram "debt", somem.
 
@@ -513,7 +515,7 @@ Ciclo de 6 semanas:
 Final do ciclo:
 
 - Dashboard: shipped.
-- Automação: 85% pronto, leva 1 semana extra do cooldown.
+- Automação: 85% pronta ao fim das seis semanas; pela regra do disjuntor (circuit breaker), não consome o cooldown e volta à mesa de apostas reformatada.
 - Integração X: abandonado (mais complexo que apetite de 6 semanas comportava). Re-shape futuro.
 
 Cooldown de 2 semanas: tech debt, bugs, exploração.
@@ -715,14 +717,14 @@ Discovery cosmético: PM "valida" via opinião de colegas em vez de usuários, D
 
 ##### De onde vem a ferramenta (e por que sobreviveu ao filtro do tempo)
 
-**Andy Grove**, CEO da Intel nos anos 1970-80, desenvolveu OKRs a partir do MBO de Drucker (Framework: Management by Objectives (Peter Drucker, 1954) (Fase 17)). Grove ensinou **John Doerr** (que trabalhou na Intel antes da Kleiner Perkins). Em 1999, Doerr apresentou OKRs ao Larry Page e Sergey Brin na Google (empresa com ~40 pessoas). Google adotou e nunca abandonou. Doerr publicou *Measure What Matters* (2018) consolidando método. Hoje OKR é o framework de metas mais usado em tech globalmente.
+**Andy Grove**, então vice-presidente executivo da Intel nos anos 1970 (presidente em 1979 e CEO a partir de 1987), desenvolveu os OKRs a partir do MBO de Drucker (Framework: Management by Objectives (Peter Drucker, 1954) (Fase 17)). Grove ensinou **John Doerr** (que trabalhou na Intel antes da Kleiner Perkins). Em 1999, Doerr apresentou OKRs ao Larry Page e Sergey Brin na Google (empresa com ~40 pessoas). Google adotou e nunca abandonou. Doerr publicou *Measure What Matters* (2018) consolidando método. Hoje OKR é o framework de metas mais usado em tech globalmente.
 
 ##### A mecânica central (sem jargão)
 
 Framework de definição e medição de metas em **ciclos trimestrais** (padrão) com dois componentes por meta:
 
 - Objective: qualitativo, aspiracional, inspirador. "O que queremos alcançar?"
-- Key Results (3-5 por objective): **quantitativos**, mensuráveis, ambiciosos. "Como saberemos que alcançamos?"
+- Key Results (de 2 a 4 por objetivo): **quantitativos**, mensuráveis, ambiciosos. "Como saberemos que alcançamos?"
 
 ##### As regras do jogo
 
@@ -760,8 +762,8 @@ Key Results:
 
 - KR1: CAC por canal < R$ 180 em 3 canais pagos (baseline: R$ 340).
 - KR2: 40% de leads gerados por conteúdo orgânico (baseline: 15%).
-- KR3: Contratar VP de Growth com experiência em SaaS $10M-50M ARR.
-- KR4: Pipeline qualificado sustentar $1M em new ARR em junho (baseline: $400k).
+- KR3: 30% do pipeline qualificado gerado por canais de growth sem participação direta dos fundadores (iniciativa: contratar liderança de Growth).
+- KR4: Fazer o pipeline qualificado sustentar R$ 5 milhões em ARR novo em junho (partindo da base atual de R$ 2 milhões).
 
 Cascata, time de Marketing:
 Objective: Construir motor de conteúdo orgânico sustentável.
@@ -770,11 +772,11 @@ Objective: Construir motor de conteúdo orgânico sustentável.
 - KR2: Sessões orgânicas mensais crescem de 8k → 25k.
 - KR3: Top 3 no Google para 12 keywords-alvo.
 
-Check-ins semanais. Ao fim de Q2: KR1 = 1.0 (hit). KR2 = 0.7 (22k). KR3 = 0.5 (6 keywords). Média = 0.73. Ambição apropriada.
+Check-ins semanais. Ao fim do Q2: KR1 = 1,0 (meta batida). KR2 = 0,7 (20 mil visitas, cumprindo 71% do avanço entre 8 mil e 25 mil). KR3 = 0,5 (6 palavras-chave). Média = 0,73. Ambição apropriada.
 
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
-OKRs safety ("sandbagging"): metas fáceis para "bater 100%". Sinal: atingimento médio é 95%+, ambição baixa, Todo mundo com 10+ OKRs: dilui foco. 3-5 por time é teto, KRs como tarefas: "entregar feature X" é task, não KR. KR é resultado mensurável, Conectar OKR a bônus: distorce comportamentos, Sem check-ins: OKRs ficam esquecidos, revisão só no fim do trimestre = reativo demais, Copiar da Google sem adaptar: métodos operacionais precisam tunning local.
+OKRs safety ("sandbagging"): metas fáceis para "bater 100%". Sinal: atingimento médio é 95%+, ambição baixa, Todo mundo com 10+ OKRs: dilui foco. 3-5 por time é teto, KRs como tarefas: "entregar feature X" é task, não KR. KR é resultado mensurável, Conectar OKR a bônus: distorce comportamentos, Sem check-ins: OKRs ficam esquecidos, revisão só no fim do trimestre = reativo demais, Copiar da Google sem adaptar: métodos operacionais precisam de ajuste fino à realidade local.
 
 ---
 
@@ -856,7 +858,7 @@ V sem verdade: vision é aspiracional mas precisa ser genuína. Copy-paste de ou
 
 ---
 
-#### Framework: EOS / tração (Gino Wickman, 2007)
+#### Framework: EOS / Traction (Gino Wickman, 2007)
 
 ##### De onde vem a ferramenta (e por que sobreviveu ao filtro do tempo)
 
@@ -917,7 +919,7 @@ Implementação EOS (9 meses com Implementer certificado):
 - Level 10 Meeting: toda segunda, 90 min, agenda rígida.
 - IDS: issues identificados são resolvidos estruturadamente.
 
-Resultado após 12 meses: receita +35%, margem +8 pp, retenção de funcionários melhora, sócios alinhados.
+Resultado ilustrativo após 12 meses de execução disciplinada: crescimento de 35% na receita, ganho de 8 pontos percentuais de margem, queda no turnover e sócios alinhados na mesma cadência.
 
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
@@ -929,7 +931,7 @@ EOS parcial: implementar só L10 meeting sem V/TO, rocks, scorecard, fica sem fo
 
 ##### De onde vem a ferramenta (e por que sobreviveu ao filtro do tempo)
 
-**Verne Harnish**, fundador da YPO/EO (Young Presidents Organization/Entrepreneurs Organization) e da Gazelles (consultoria), desenvolveu os "Rockefeller Habits" nos anos 1990, baseado em práticas de John D. Rockefeller aplicadas ao management moderno. Publicou *Mastering the Rockefeller Habits* em 2002, *Scaling Up* em 2014 com versão evoluída. Foco: empresas de 20-2000 funcionários em crescimento.
+**Verne Harnish**, fundador da Entrepreneurs' Organization (EO, criada em 1987 como YEO) e da consultoria Gazelles e da Gazelles (consultoria), desenvolveu os "Rockefeller Habits" nos anos 1990, baseado em práticas de John D. Rockefeller aplicadas ao management moderno. Publicou *Mastering the Rockefeller Habits* em 2002, *Scaling Up* em 2014 com versão evoluída. Foco: empresas de 20-2000 funcionários em crescimento.
 
 ##### A mecânica central (sem jargão)
 
@@ -953,7 +955,7 @@ Framework para scaling baseado em **4 decisões fundamentais**: People, Strategy
 5. Feedback de funcionários coletado continuamente.
 6. Feedback de clientes coletado continuamente.
 7. Valores vividos (contratar/desligar por valores).
-8. Brand Promise (promessa diferenciada monitorada).
+8. Promessa de marca e KPIs diários: um ou dois números diários dizem se o dia foi bom, e os planos e resultados ficam visíveis para toda a empresa.
 9. Funcionários podem descrever estratégia em 1 frase.
 10. Funcionários engajados e produtivos.
 
@@ -985,7 +987,7 @@ Passo 4: Cash: Cash Conversion Cycle monitorado semanalmente.
 **Empresa brasileira de tech services, 150 pessoas, receita R$ 60M**, usando Scaling Up por 3 anos:
 
 - OPSP preenchida anualmente.
-- BHAG: "Ser top 3 em consultoria SAP no Brasil até 2030".
+- BHAG (meta de 10 a 25 anos): "Tornar-se uma das três maiores consultorias de transformação empresarial da América Latina até 2040" (com meta intermediária de 3 a 5 anos para o mercado SAP no Brasil).
 - Daily huddles em cada squad.
 - Weekly leadership review.
 - Quarterly offsite com 15 líderes.
@@ -1023,7 +1025,7 @@ Sistema de management em que:
 4. Avaliar desempenho.
 5. Recompensar desempenho.
 
-Características de objetivos bem definidos (via Drucker, precedendo SMART):
+Características de objetivos bem definidos (sintetizadas por George T. Doran em 1981 na sigla SMART, inspirada na gestão por objetivos de Drucker):
 
 - Específicos.
 - Mensuráveis.
@@ -1053,7 +1055,7 @@ MBO antigo focado só em output quantitativo: pode distorcer (tipos específicos
 
 ##### De onde vem a ferramenta (e por que sobreviveu ao filtro do tempo)
 
-**Jeff Sutherland** e **Ken Schwaber** apresentaram Scrum na OOPSLA '95. Nome "Scrum" vem de estudo de Nonaka & Takeuchi ("The New New Product Development Game", HBR 1986) sobre times japoneses que agiam como rugby team. Scrum Guide primeiro publicado em 2010, revisões em 2017 e 2020. É a metodologia ágil mais usada globalmente (72% dos times ágeis segundo State of Agile 2023).
+**Jeff Sutherland** e **Ken Schwaber** apresentaram Scrum na OOPSLA '95. Nome "Scrum" vem de estudo de Nonaka & Takeuchi ("The New New Product Development Game", HBR 1986) sobre times japoneses que agiam como rugby team. Scrum Guide primeiro publicado em 2010, revisões em 2017 e 2020. É o framework ágil mais adotado globalmente segundo as edições anuais do relatório *State of Agile*.
 
 ##### A mecânica central (sem jargão)
 
@@ -1095,7 +1097,7 @@ Passo 5: Próximo sprint começa imediatamente.
 
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
-Scrum em nome só: "daily sync" sem disciplina vira status update teatral, Sprint virando micro-waterfall: tudo planejado cedo, sem adaptação, Scrum Master como tech lead: papéis confundidos, Ignorar retrospective: melhoria contínua morre, Estimativas em horas: Scrum usa story points para abstrair incerteza.
+Scrum em nome só: "daily sync" sem disciplina vira status update teatral, Sprint virando micro-waterfall: tudo planejado cedo, sem adaptação, Scrum Master como tech lead: papéis confundidos, Ignorar retrospective: melhoria contínua morre, Estimar em horas como obrigação: muitos times usam story points (prática vinda do Extreme Programming) para lidar com incerteza, embora o Scrum Guide não exija unidade específica.
 
 ---
 
@@ -1151,7 +1153,7 @@ Kanban implementado:
 - WIP limit: cada atendente max 3 tickets "em andamento".
 - Cycle time médio monitorado.
 
-Após 3 meses: cycle time médio 5 dias → 1.8 dias. SLA cumprido 94% → 99%.
+Após 3 meses: tempo médio de ciclo caiu de 5 dias para 1,8 dia. SLA cumprido 94% → 99%.
 
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
@@ -1182,7 +1184,7 @@ SPACE: 5 dimensões de desenvolvedor:
 - Communication/Collaboration.
 - Efficiency.
 
-##### Benchmarks DORA (2023)
+##### Faixas de referência DORA (relatórios Accelerate / DORA; cortes variam por edição anual)
 
 | Tier | Deploy freq | Lead time | CFR | Recovery |
 |------|-------------|-----------|-----|----------|
@@ -1245,7 +1247,7 @@ Reuniões estratégicas (decisões grandes, aprovação de projetos, planejament
 
 Proposta para investir R$ 2M em novo mercado:
 
-1. Contexto: mercado Y tem $X bilhões com crescimento 15% a.a. Nossa presença atual: 0%.
+1. Contexto (em prosa corrida, sem tópicos soltos): "Nos últimos doze meses, 410 clientes corporativos da nossa base sofreram atrasos na conciliação bancária em dias de fechamento mensal, gerando 180 chamados críticos por trimestre e travando a expansão de contas-chave."
 2. Proposta: lançar piloto em 6 meses com R$ 2M (team, marketing, produto).
 3. Opções:
     - (a) Greenfield (nossa proposta).
@@ -1294,7 +1296,7 @@ Passo 4: Decisões registradas.
 
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
-WBR vira reporting ritual: 2h de sludge sem decisão, Todos KPIs revisados superficialmente: prefira 3-5 em profundidade a 30 superficiais.
+A WBR vira ritual burocrático de leitura de relatório: duas horas de enrolação sem nenhuma decisão, Todos KPIs revisados superficialmente: prefira 3-5 em profundidade a 30 superficiais.
 
 ---
 
@@ -1315,9 +1317,9 @@ Framework de 4 disciplinas para executar **Wildly Important Goals (WIGs)** em me
 1. Foco no WIG (wildly important goal): 1-2 metas, não 15.
 2. Agir em lead measures: inputs que driven outputs (ao contrário de lag measures, que só reportam).
 3. Scoreboard compelling: visual, atualizado, todos conhecem o score.
-4. Cadence of accountability: weekly huddle (20 min) para commit-ment pessoal.
+4. Cadência de responsabilização: reunião semanal de 20 minutos em que cada pessoa assume um compromisso concreto para a semana.
 
-Diferença do OKR: 4DX foca mais em execution-focus (1-2 metas por vez, lead measures). OKR é mais flexível mas menos focado.
+Diferença em relação ao OKR: o 4DX concentra a execução em uma ou duas metas críticas por vez (WIGs) puxadas por alavancas semanais; use EOS ou OKR simples até 50 pessoas, 4DX quando precisar destravar uma meta operacional única e Scaling Up ou Hoshin Kanri acima de 150 pessoas.
 
 ##### Como rodar na segunda-feira às 9h com seu time
 
@@ -1387,7 +1389,7 @@ O VSM distingue entre **tempo de valor agregado** (tempo em que trabalho real ac
 
 Passo 1: definir o fluxo de valor a mapear (ex. "do lead qualificado ao cliente ativo", "do bug reportado ao deploy em produção"). Passo 2: mapear o estado atual em sessão colaborativa com post-its ou ferramenta digital: cada etapa do processo com responsável, tempo médio de processamento, taxa de defeito, tempo médio de espera. Passo 3: calcular lead time total e % de valor agregado. Passo 4: identificar os maiores desperdícios e restrições (teoria das restrições: o gargalo que limita o fluxo). Passo 5: projetar o estado futuro com kaizens (melhorias) específicos para cada desperdício. Passo 6: implementar e medir.
 
-Exemplo aplicado, onboarding de SaaS B2B. Mapeamento revelou: lead tempo 23 dias entre assinatura e primeira feature ativa. Etapas: contrato assinado (D0) → provisioning de ambiente (D0+3, espera do time de eng) → envio de credenciais (D0+4) → kickoff agendado (D0+8, fila de CS) → kickoff realizado (D0+9) → configuração initial (D0+14, cliente faz sozinho, muitos abandonos) → go-live (D0+23). VSM revelou: 3 dias de espera em provisioning (automação elimina), 4 dias de fila de CS (escalável com CS assíncrono), 9 dias de configuração self-service (simplificação ou guided onboarding). Estado futuro: lead time alvo de 7 dias.
+Exemplo aplicado, onboarding de SaaS B2B. O mapeamento mostrou lead time de 23 dias entre a assinatura do contrato e a primeira funcionalidade ativa (incluindo a configuração inicial). Etapas: contrato assinado (D0) → provisioning de ambiente (D0+3, espera do time de eng) → envio de credenciais (D0+4) → kickoff agendado (D0+8, fila de CS) → kickoff realizado (D0+9) → configuração initial (D0+14, cliente faz sozinho, muitos abandonos) → go-live (D0+23). VSM revelou: 3 dias de espera em provisioning (automação elimina), 4 dias de fila de CS (escalável com CS assíncrono), 9 dias de configuração self-service (simplificação ou guided onboarding). Estado futuro: lead time alvo de 7 dias.
 
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
@@ -1425,7 +1427,7 @@ Exemplo aplicado, equipe de CS de scaleup de healthtech. Direção: "cada client
 
 ##### De onde vem a ferramenta (e por que sobreviveu ao filtro do tempo)
 
-Henrik Kniberg, coach ágil da Spotify, e Anders Ivarsson publicaram em 2012 white paper descrevendo o modelo organizacional da Spotify, *Squads, Tribes, Chapters, Guilds*. O modelo tornou-se o padrão *de facto* de organização ágil em escala em empresas de tecnologia entre 2013-2022. A própria Spotify evoluiu o modelo desde então (documentado em posts subsequentes), mas a versão original virou referência base. Adotado por ING, LEGO Digital, Starbucks, empresas brasileiras (Nubank em alguns estágios, Creditas, várias scaleups tech).
+Henrik Kniberg, coach ágil da Spotify, e Anders Ivarsson publicaram em 2012 white paper descrevendo o modelo organizacional da Spotify, *Squads, Tribes, Chapters, Guilds*. O artigo virou referência frequente de organização ágil em empresas de tecnologia entre 2013 e 2022, embora o próprio Henrik Kniberg tenha alertado que o texto registrava um retrato parcial de 2012, não um modelo fixo nem plenamente operado pela própria Spotify para ser copiado. A própria Spotify evoluiu o modelo desde então (documentado em posts subsequentes), mas a versão original virou referência base. Adotado por ING, LEGO Digital, Starbucks, empresas brasileiras (Nubank em alguns estágios, Creditas, várias scaleups tech).
 
 ##### A mecânica central (sem jargão)
 
@@ -1439,11 +1441,11 @@ Autonomia de squad como default, cada squad decide tech stack, processo, roadmap
 
 Implementar quando organização passa de ~50-80 pessoas e squads únicas viram insuficiente. Definir missões claras e estáveis para cada squad (não projetos, missões de 12+ meses). Nomear Chapter Leads internamente (engenheiros seniores respeitados, não gestores trazidos externamente). Começar com Guilds naturais (voluntárias), não forçadas. Pilotar em uma tribe antes de expandir para toda organização. Revisar periodicamente, modelo não deve virar burocracia em si.
 
-Exemplo aplicado, Nubank em escala. Implementou versão customizada do Spotify Model entre 2017-2021. Squads por área de produto (cartão, conta, lending, investimentos). Tribes agrupando squads adjacentes. Chapters por função técnica (iOS, Android, Backend, Data). Guilds por interesse (Security Guild, Scala Guild, Kotlin Guild). A empresa modificou com o tempo, menos rígida, mais focada em outcome compartilhado do que em estrutura formal.
+Exemplo aplicado no Brasil: o Nubank organizou a engenharia em squads multidisciplinares orientados a domínio de produto (cartão, conta, crédito) combinados a capítulos funcionais, evoluindo depois para estruturas ainda mais focadas em resultados de negócio. Squads por área de produto (cartão, conta, lending, investimentos). Tribes agrupando squads adjacentes. Chapters por função técnica (iOS, Android, Backend, Data). Guilds por interesse (Security Guild, Scala Guild, Kotlin Guild). A empresa modificou com o tempo, menos rígida, mais focada em outcome compartilhado do que em estrutura formal.
 
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
-(1) Copiar estrutura sem cultura, o Spotify Model funciona parcialmente porque a Spotify tinha cultura de autonomia e confiança, implementar a estrutura em cultura de comando-e-controle produz teatro. (2) Virar religião, Spotify Model é uma forma, não a forma, a própria Spotify evoluiu e modificou. (3) Chapter Lead como gestor disfarçado, Chapter Lead deve ser mentor técnico, se vira gestor de performance, hierarquia dupla confunde reports. (4) Guilds forçadas, Guild funciona porque é voluntária. Guild obrigatória é comitê ruim. (5) Squad com missão vaga, "squad de melhorias do produto" não é missão, "squad de checkout com objetivo de aumentar conversão de 15 para 25%" é missão.
+(1) Copiar estrutura sem cultura, o Spotify Model funciona parcialmente porque a Spotify tinha cultura de autonomia e confiança, implementar a estrutura em cultura de comando-e-controle produz teatro. (2) Virar religião: o modelo da Spotify é uma configuração possível, não um dogma. A própria Spotify alterou profundamente essa estrutura ao crescer. (3) Chapter Lead afastado do código: no desenho original de Kniberg e Ivarsson, o Chapter Lead é o gestor de linha (carreira e remuneração) mas continua atuando tecnicamente em um squad; se vira apenas burocrata ou cria chefia paralela sem acordo com o PM, trava o time. (4) Guilds forçadas, Guild funciona porque é voluntária. Guild obrigatória é comitê ruim. (5) Squad com missão vaga, "squad de melhorias do produto" não é missão, "squad de checkout com objetivo de aumentar conversão de 15 para 25%" é missão.
 
 ---
 
@@ -1469,14 +1471,14 @@ Exemplo aplicado, Nubank em escala. Implementou versão customizada do Spotify M
 - KR2: Rodar 8 experimentos controlados (A/B) no trimestre com resultado decisivo
 - KR3: Documentar roadmap priorizado usando RICE para todos os features de prioridade P0/P1
 
-**Insight do exemplo:** OKRs boas são *mensuráveis* (números específicos), *desafiadoras* (se você atinge 100%, provavelmente foram fáceis demais, atingir 70% é sucesso), e *alinhadas* entre si (neste caso, retenção melhor viabiliza programa de indicação, ambos viabilizam canal sustentável). Três objetivos é o máximo recomendado por ciclo, mais que isso dilui foco.
+**Insight do exemplo:** OKRs boas são *mensuráveis* (números específicos), *desafiadoras* (se você atinge 100%, provavelmente foram fáceis demais, atingir 70% é sucesso), e *alinhadas* entre si (neste caso, retenção melhor viabiliza programa de indicação, ambos viabilizam canal sustentável). Recomenda-se de três a cinco objetivos por ciclo (quanto menor o time, mais perto de três); acima disso, o foco se dilui.
 
 ---
 
 #### Template: Post-Mortem de Incidente Técnico
 
 > [!note] Quando usar
-> Após qualquer incidente que afetou usuários, dados ou operações por mais de 15 minutos, ou que causou perda de dados, falha de pagamento, ou exposição de informações. Preencher em até 48h após a resolução, com o time envolvido.
+> Após qualquer incidente que afetou usuários, dados ou operações por mais de 15 minutos, ou que causou perda de dados, falha de pagamento, ou exposição de informações. Redigir o rascunho em até 48 horas após a resolução e publicar a versão final revisada com o time em até cinco dias úteis.
 
 > [!tip] Cultura blameless
 > Post-mortem é sobre o sistema, não sobre a pessoa. O objetivo é impedir a recorrência, não punir quem estava no plantão. Nomeie ações concretas no sistema, não comportamentos individuais.
@@ -1689,17 +1691,17 @@ Esse é o veneno da **A Fábrica de Funcionalidades Cega** (*Feature Factory*): 
 > [!note] Nota de validade
 > Os frameworks de descoberta contínua (Teresa Torres), priorização (RICE, Kano, WSJF), Jobs to be Done e design systems têm vida útil longa. Ferramentas específicas evoluem a cada dezoito a vinte e quatro meses, e devem ser revisadas nesse intervalo.
 
-As Fases 2 a 11 cobrem produto até o PMF: descoberta, validação, MVP, encaixe. Depois disso, produto vira disciplina contínua, em contexto diferente. Time maior, múltiplos stakeholders, roadmap disputado, sistema complexo, clientes com expectativas altas. O território pós-PMF fica subcoberto no manual até aqui.
+As Fases 4 a 13 cobrem o produto até o PMF: descoberta do problema, validação, MVP e product-market fit. Depois disso, produto vira disciplina contínua, em contexto diferente. Time maior, múltiplos stakeholders, roadmap disputado, sistema complexo, clientes com expectativas altas. O território pós-PMF fica subcoberto no manual até aqui.
 
 Este capítulo cobre como Product funciona em empresa pós-PMF escalando para cinquenta a duzentas pessoas, onde a disciplina que levou até aqui já não basta para o que vem a seguir.
 
-### Por Que Mais Engenheiros Frequentemente Produzem Piores Produtos
+### O Custo de Coordenação: Por Que Mais Engenheiros Produzem Produtos Piores Sem Filtro de Descoberta
 
 Empresa em escala precisa de produto como disciplina, não como intuição. O que funcionou no founder sozinho não escala para quatro squads em paralelo. Sem descoberta contínua, a empresa vira feature factory (fábrica de funcionalidades), constrói o que stakeholders pedem, não o que gera valor.
 
-Priorização sem framework é política. Quem grita mais alto, ou tem mais acesso ao CEO, ganha. Isso destrói moral e qualidade. Design sem system vira caos visual. Inconsistência agride o usuário e consome velocity de engineering. Product e Engineering sem ritos viram retrabalho: specs vagas, entregas erradas, moral em queda.
+Priorização sem framework é política. Quem grita mais alto, ou tem mais acesso ao CEO, ganha. Isso destrói moral e qualidade. Sem sistema de design, cada tela sai de um jeito: a inconsistência confunde o usuário e consome a velocidade da engenharia. Product e Engineering sem ritos viram retrabalho: specs vagas, entregas erradas, moral em queda.
 
-### Operando Continuous Discovery, Opportunity Solution Trees e Dual-Track em Escala
+### Descoberta Contínua, Árvore de Oportunidades e Trilha Dupla (Dual-Track) em Escala
 
 #### 1. Descoberta Contínua, framework Teresa Torres
 
@@ -1739,7 +1741,7 @@ flowchart TD
  style E4 fill:#90EE90
 ```
 
-A árvore é viva, não documento morto. Descoberta semanal adiciona, e refina, nós. Se não atualiza em duas semanas, o hábito morreu.
+A árvore é viva, não documento morto. A descoberta semanal acrescenta e refina os nós da árvore. Se não atualiza em duas semanas, o hábito morreu.
 
 O processo semanal em cinco passos. Entrevistar um a três usuários em torno do outcome atual. Adicionar opportunities novas na árvore, ou refinar existentes. Gerar solutions para opportunities que parecem promissoras. Escolher experiments para testar solutions. Executar o experiment, medir, ajustar.
 
@@ -1752,9 +1754,9 @@ Livro-fonte. *Continuous Discovery Habits*, Teresa Torres.
 
 Framework define processo, não resultado. O resultado ainda é decisão humana informada.
 
-**RICE (Reach, Impact, Confidence, Effort).** Reach, quantos usuários, ou clientes, afetados em período específico. Impact, quanto cada usuário ou cliente beneficiado (escala um a cinco, ou massive, high, medium, low, minimal). Confidence, quão seguros sobre Reach, e Impact (em percentual). Effort, pessoa-meses estimados. O score é (Reach vezes Impact vezes Confidence) dividido por Effort.
+**RICE (Reach, Impact, Confidence, Effort).** Reach, quantos usuários, ou clientes, afetados em período específico. Impact: quanto cada usuário ou cliente é beneficiado, medido na escala original da Intercom: 3 (massivo), 2 (alto), 1 (médio), 0,5 (baixo) ou 0,25 (mínimo). Confidence, quão seguros sobre Reach, e Impact (em percentual). Effort, pessoa-meses estimados. O score é (Reach vezes Impact vezes Confidence) dividido por Effort.
 
-Matriz visual de priorização R x I.
+Útil para priorizar listas longas de funcionalidades com dados comparáveis (para priorização de hipóteses por risco versus impacto antes do PMF, consulte a matriz da Fase 7, no Volume 3).
 
 ```mermaid
 quadrantChart
@@ -1772,7 +1774,7 @@ quadrantChart
  "H5 integração Y": [0.2, 0.25]
 ```
 
-O quadrante superior-direito (alto risco mais alto impacto se falhar) contém hipóteses bet-the-company. Essas são as que, se refutadas, destroem o negócio. Teste-as primeiro. Com mais rigor. Inferior-esquerdo (baixo risco mais baixo impacto), ignore. Não gere experimento. Útil para priorizar lista longa de features com dados.
+O quadrante superior direito (alto risco e alto impacto em caso de falha) reúne as hipóteses críticas que, se refutadas, inviabilizam a iniciativa. Essas são as que, se refutadas, destroem o negócio. Teste-as primeiro. Com mais rigor. Inferior-esquerdo (baixo risco mais baixo impacto), ignore. Não gere experimento. Útil para priorizar lista longa de features com dados.
 
 **WSJF (Weighted Shortest Job First, do SAFe).** O score é (Business Value mais Time Criticality mais Risk Reduction ou Opportunity Enablement) dividido por Job Size. Útil para contexto mais enterprise, com coordenação entre múltiplos squads.
 
@@ -1792,17 +1794,17 @@ xychart-beta
  line [0, 15, 35, 60, 90]
 ```
 
-Três curvas principais. A linha inferior (Must-have) tem teto em zero. Ausência frustra, presença não delighta. A linha intermediária (Performance) é linear. Mais é melhor proporcional. A linha superior (Delighter) começa neutra, e sobe forte. Sequência: Basic, depois Performance, depois Delighter. Pular etapa destrói experiência. Útil para balancear "tapar buracos" com "criar amor".
+Três curvas principais. A linha inferior (Must-have) tem teto em zero. Na curva básica, a ausência irrita o usuário e a presença apenas cumpre a obrigação. Na curva de desempenho, a satisfação cresce na proporção direta da entrega. A linha superior (Delighter) começa neutra, e sobe forte. Sequência: Basic, depois Performance, depois Delighter. Pular etapa destrói experiência. Útil para balancear "tapar buracos" com "criar amor".
 
 **MoSCoW.** Must, Should, Could, Won't. Simples. Útil para alinhamento rápido de escopo em sprints.
 
 **Opportunity Prioritization (Torres).** Dentro do Opportunity Solution Tree, escolher a próxima opportunity baseado em três critérios. Impacto esperado no outcome. Evidência acumulada (quantas entrevistas validam). Addressability (resolvível por solução factível).
 
-A escolha do framework varia por estágio. [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 13 — PRODUCT-MARKET FIT|Fase 13 (Vol. 4)]] a 13A, Opportunity mais RICE leve. [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16 (Vol. 6)]] (Operações em diante), RICE mais Kano. Enterprise com múltiplos squads, WSJF.
+A escolha do framework varia por estágio. Logo depois do PMF (Fase 13, Vol. 4), priorização por oportunidade com RICE leve. Na operação em escala (Fase 17), RICE combinado a Kano. Em operação enterprise com múltiplos squads, WSJF.
 
 #### 3. Roadmap, comunicação de aposta
 
-O problema clássico. Roadmap virou contrato. Cliente, vendedor, ou board, pede "quando X?". Produto responde data. A data não bate. A confiança erode.
+O problema clássico ocorre quando o roadmap vira contrato de data fixa: o cliente, o vendedor ou o conselho pergunta quando a funcionalidade X sai, o time de produto promete um dia exato, o prazo estoura e a confiança se desgasta.
 
 A reformulação é roadmap de três horizontes.
 
@@ -1842,11 +1844,11 @@ Ferramentas. Figma, Storybook, Chromatic (visual regression), Tailwind mais shad
 
 JTBD ([[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 5 — PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY)|Fase 5 (Vol. 2)]] na descoberta inicial) continua relevante em escala. Mas em forma evoluída.
 
-**Switch interview (Alan Klement).** Entrevistar clientes que recentemente mudaram para o seu produto (de competidor, ou de nenhum produto). Mapear evento gatilho, forças puxando para mudança, forças resistindo à mudança, e forças puxando de volta. Output: entendimento profundo do "job" que o produto está sendo contratado para fazer.
+**Switch interview (Bob Moesta e Chris Spiek, Re-Wired Group; *Demand-Side Sales 101*, 2020).** Entrevistar clientes que recentemente mudaram para o seu produto (de competidor, ou de nenhum produto). Mapear evento gatilho, forças puxando para mudança, forças resistindo à mudança, e forças puxando de volta. Output: entendimento profundo do "job" que o produto está sendo contratado para fazer.
 
 Aplicação em roadmap. Features que reforçam pull forces do job principal valem mais do que features random. Mesmo que populares.
 
-#### 7. Shape Up (Ryan Singer / Basecamp, 2019)
+#### 7. Shape Up em múltiplos squads (Ryan Singer / Basecamp, 2019; ver estrutura completa no Manual da Fase 17)
 
 Shape Up é a metodologia de desenvolvimento de produto criada por Ryan Singer na Basecamp, publicada como livro gratuito em 2019. Nasceu da insatisfação com Scrum e sprints de duas semanas em produto maduro: o ritmo constante de sprints cria pressão para "estar ocupado" em vez de entregar valor real, e features complexas ficam artificialmente cortadas para "caber no sprint". Shape Up opera em ciclos de seis semanas com três princípios centrais.
 
@@ -1854,7 +1856,7 @@ Shape Up é a metodologia de desenvolvimento de produto criada por Ryan Singer n
 
 **Shaping antes de executar.** Antes de entrar em ciclo, o problema é "moldado" em alto nível: problema definido, abordagem em esboço (fat marker sketch), elementos fora do escopo explicitados, riscos técnicos identificados. O pitch moldado vai para o betting table, não para o backlog. Backlog não existe no Shape Up: itens que ninguém aposta em ciclo após ciclo são descartados.
 
-**Betting table e autonomia total.** A cada ciclo, líderes apostam em pitches. Time que "ganhou" a aposta tem seis semanas de autonomia total para executar: sem interrupcões, sem reuniões de status, sem mudança de escopo. Se não entregou em seis semanas, o projeto é cancelado (circuit breaker), não "carregado" para o próximo ciclo. A pressão é real, mas o tempo também é real.
+**Betting table e autonomia total.** A cada ciclo, líderes apostam em pitches. Time que "ganhou" a aposta tem seis semanas de autonomia total para executar: sem interrupções externas, sem reuniões de status e sem adição de escopo vinda de fora; dentro do ciclo, o próprio time enxuga e lapida o escopo (scope hammering) para caber nas seis semanas. Se não entregou em seis semanas, o projeto é cancelado (circuit breaker), não "carregado" para o próximo ciclo. A pressão é real, mas o tempo também é real.
 
 Quando Shape Up faz sentido. Em produto maduro com mais de dois anos, com time estável de oito ou mais pessoas. Quando sprints de duas semanas estão produzindo "busyness" sem entregas de impacto. Quando features complexas estão sendo artificialmente quebradas sem coerência. Quando há frustração com backlog que cresce infinitamente sem priorização real.
 
@@ -1862,7 +1864,7 @@ Quando Shape Up *não* faz sentido. Em pré-PMF, onde o ciclo de aprendizado pre
 
 Tensão com Scrum e Kanban. Shape Up não é substituto de Scrum para times que já têm boa higiene de processo. É alternativa para contextos onde Scrum virou ritual sem substância. Muitas empresas adotam Shape Up para iniciativas estratégicas maiores e mantêm Scrum para manutenção e bugs.
 
-### Medindo Valor Real: Adoção, Retenção de Coorte e Impacto na Métrica-Alvo
+### Medindo Valor Entregue: Adoção da Funcionalidade, Retenção por Coorte e Impacto na Métrica-Alvo
 
 **Descoberta e validação.** Interviews por semana, ou mês, por squad. Opportunities na árvore (status: exploração, validação, ou endereçada). Experiments rodados por trimestre.
 
@@ -1872,7 +1874,7 @@ Tensão com Scrum e Kanban. Shape Up não é substituto de Scrum para times que 
 
 **Organização.** PM e eng ratio (alvo de um para seis até um para dez). Design e eng ratio (alvo de um para cinco até um para oito). Squads autônomos (outcome definido, decisão local).
 
-### Os Sete Pecados Capitais da Gestão de Produto em Scaleups
+### As Dez Armadilhas Capitais da Gestão de Produto em Scaleups
 
 Feature factory. O time constrói o que stakeholders pedem, sem validação. Muito output. Pouco impacto.
 
@@ -1910,7 +1912,9 @@ Produto em escala está no padrão quando todos os itens abaixo estão cumpridos
 
 ---
 
-### O Espelho de Marty Cagan e Teresa Torres: Seus Squads Resolvem Problemas ou Fecham Tickets?
+### O Espelho de Teresa Torres e Marty Cagan: Seus Squads Resolvem Problemas ou Apenas Fecham Tickets?
+
+Como sintetiza Marty Cagan em *Inspired*, um trio de produto maduro mitiga quatro riscos antes de escalar código: risco de valor (o cliente quer?), risco de usabilidade (ele consegue usar?), risco de viabilidade técnica (conseguimos construir?) e risco de viabilidade de negócio (funciona para a empresa?).
 
 **Fechando o ciclo na trincheira:** Quando **Lucas e Marina** aplicaram as travas deste capítulo na rotina entre São Paulo e Florianópolis, a tensão da cena de abertura deixou de ser discussão subjetiva de corredores e virou regra clara de priorização, retenção e proteção de caixa.
 
@@ -1922,7 +1926,7 @@ Olhe para o roadmap dos seus times de produto neste exato trimestre e responda s
 
 **Regra de Sobrevivência:** Se uma funcionalidade entrou no sprint sem evidência prévia de valor, usabilidade, viabilidade técnica e viabilidade de negócio, você está pagando salários de engenharia para construir passivo.
 
-**O Ritual de Segunda-Feira às 9h:** Exija que cada tríade de produto (PM, Designer e Tech Lead) apresente no seu Opportunity Solution Tree qual hipótese de risco será testada com usuários reais até sexta-feira antes de aprovar qualquer épico de desenvolvimento.
+**O Ritual de Segunda-Feira às 9h (rotina semanal de 30 minutos):** Exija que cada tríade de produto (PM, Designer e Tech Lead) apresente no seu Opportunity Solution Tree qual hipótese de risco será testada com usuários reais até sexta-feira antes de aprovar qualquer épico de desenvolvimento.
 
 
 ---
@@ -1931,7 +1935,7 @@ Olhe para o roadmap dos seus times de produto neste exato trimestre e responda s
 
 ### A Síndrome do Programador-Herói e o Dia em que o CTO Vira o Gargalo da Própria Empresa
 
-São 2h15 da madrugada de uma terça-feira no Córrego Grande, em Florianópolis. Lucas está com três monitores acesos, reescrevendo sozinho um pull request inteiro de arquitetura de fila assíncrona que seu engenheiro sênior mais brilhante levou quatro dias para desenvolver. Na cabeça de Lucas, a justificativa parece nobre: "O deploy precisa subir às 8h da manhã e eu escrevo esse módulo na metade do tempo com o dobro da performance". Duas semanas depois, na reunião individual de sexta-feira, esse mesmo engenheiro sênior pede demissão. A frase que ele deixa na mesa corta como navalha: "Lucas, você não quer um time de engenharia; você quer assistentes que assistam você programar".
+São 2h15 da madrugada de uma terça-feira no Itaim Bibi, em São Paulo. Lucas está com três monitores acesos, reescrevendo sozinho um pull request inteiro de arquitetura de fila assíncrona que seu engenheiro sênior mais brilhante levou quatro dias para desenvolver. Na cabeça de Lucas, a justificativa parece nobre: "O deploy precisa subir às 8h da manhã e eu escrevo esse módulo na metade do tempo com o dobro da performance". Duas semanas depois, na reunião individual de sexta-feira, esse mesmo engenheiro sênior pede demissão. A frase que ele deixa na mesa corta como navalha: "Lucas, você não quer um time de engenharia; você quer assistentes que assistam você programar".
 
 Essa é a transição mais solitária e mal compreendida da carreira de um fundador técnico: o código que fez de você um cofundador indispensável no dia um transforma você no maior destruidor de autonomia do seu time no dia mil. Código aceita lógica binária, compila em segundos e nunca fica ressentido; seres humanos exigem contexto, erram para aprender e precisam sentir que são donos da arquitetura que constroem.
 
@@ -1939,13 +1943,13 @@ Você está diante da **A Síndrome do Programador-Herói**: o vício dopaminér
 
 ---
 
-Este capítulo especializa o [[#CAPÍTULO 4 — ENGINEERING MANAGEMENT, DEVELOPER EXPERIENCE E GESTÃO DE DÍVIDA TÉCNICA|Capítulo 4 (Engineering Management, Developer Experience e Gestão de Dívida Técnica)]] no tema da transicao do fundador tecnico para gestao.
+Este capítulo especializa o [[#CAPÍTULO 4 — ENGINEERING MANAGEMENT, DEVELOPER EXPERIENCE E GESTÃO DE DÍVIDA TÉCNICA|Capítulo 4 (Engineering Management, Developer Experience e Gestão de Dívida Técnica)]] enquanto o Capítulo 4 trata da estrutura de gestão do time técnico, aqui o foco é a travessia pessoal do próprio fundador.
 
-Há um momento previsível na vida de todo fundador técnico, aquele em que ele percebe que parou de escrever código produtivo há seis semanas e que o time de engenharia, que era de três pessoas, agora tem oito. Os problemas que chegam até ele não são mais bugs nem decisões de arquitetura. São conflitos entre dois sêniors, a dev que entregou abaixo do esperado no último sprint (ciclo curto de entrega), o CTO (Chief Technology Officer, diretor de tecnologia) da empresa investidora querendo saber por que o time não está mais rápido.
+Na manhã seguinte ao pedido de demissão do seu principal engenheiro sênior, o fundador técnico percebe que continuar escrevendo código produtivo de madrugada não resolve o gargalo real e que o time de engenharia, que era de três pessoas, agora tem oito. Os problemas que chegam até ele não são mais bugs nem decisões de arquitetura. São conflitos entre dois sêniors, a dev que entregou abaixo do esperado no último sprint (ciclo curto de entrega), o diretor de tecnologia do fundo investidor querendo saber por que o time não entrega mais rápido.
 
-Ninguém o preparou para isso. A escola ensinou algoritmos, não conversas difíceis. O primeiro emprego ensinou a programar bem, não a desenvolver pessoas. Os livros de gestão foram escritos para gerentes de banco, não para fundadores que ainda têm opinião sobre qual ORM (Object-Relational Mapper, biblioteca que mapeia banco para objetos) usar.
+Ninguém o preparou para isso. A faculdade ensinou algoritmos e o primeiro emprego ensinou a programar bem, mas nenhum dos dois ensinou a conduzir conversas difíceis e a desenvolver pessoas. Os livros de gestão foram escritos para gerentes de banco, não para fundadores que ainda têm opinião sobre qual ORM (Object-Relational Mapper, biblioteca que mapeia banco para objetos) usar.
 
-Este capítulo trata da travessia. Da pessoa que era o melhor engenheiro da empresa para quem constrói o time que constrói o produto. A travessia tem custo real, armadilhas previsíveis e ferramentas concretas. Cada uma delas vai coberta aqui.
+Este capítulo trata da travessia. Da pessoa que era o melhor engenheiro da empresa para quem constrói o time que constrói o produto. A travessia tem custo real, armadilhas previsíveis e ferramentas concretas. Cada uma delas é tratada passo a passo neste capítulo.
 
 ---
 
@@ -1990,13 +1994,13 @@ Essas vantagens só aparecem se você parar de usar o background técnico para r
 
 Existe um padrão que aparece com regularidade preocupante em fundadores técnicos que viraram gestores: o gestor continua resolvendo os problemas técnicos do time porque é mais rápido, mais prazeroso, e porque o time admira isso.
 
-O engenheiro trava em um bug difícil. O fundador mergulha no problema, depura em quarenta minutos, o time aplaude, problema resolvido. Parece eficiente. Parece liderança.
+Foi exatamente o que Lucas fez com a fila assíncrona às 2h15 da madrugada: quando o engenheiro trava em um problema difícil e o fundador mergulha para resolver sozinho em quarenta minutos, o código sobe, mas o sênior se desmotiva e o resto do time aprende a esperar pelo herói. Parece eficiente. Parece liderança.
 
 Não é nem um nem o outro.
 
 O que aconteceu, na prática: o engenheiro não aprendeu a resolver aquele tipo de problema. O fundador consumiu capital cognitivo que deveria estar em decisão de contratação, alinhamento de roadmap, conversa com o board. O time aprendeu que trazer problema para o fundador resolve mais rápido do que tentar resolver sozinho. O fundador criou dependência, não capacidade.
 
-Esse padrão tem nome: gestão por admiração. Você gere pela reverência que o time tem por você como técnico, não pelo desenvolvimento que você promove nas pessoas.
+Quando a Síndrome do Programador-Herói se instala no fundador, ela produz no time um efeito colateral previsível: a gestão por admiração. Você gere pela reverência que o time tem por você como técnico, não pelo desenvolvimento que você promove nas pessoas.
 
 #### Por que acontece
 
@@ -2047,7 +2051,7 @@ O 1:1 que não acontece é o fundador sinalizando que não tem interesse genuín
 
 #### Cadência
 
-A cadência recomendada é semanal para os primeiros três meses de qualquer engenheiro no time, e quinzenal depois. Reduzir para mensal só faz sentido para líderes sêniors que trabalham de forma muito autônoma, e mesmo assim com cautela.
+A cadência recomendada é semanal para os primeiros três meses de qualquer engenheiro no time, e quinzenal depois. Reduzir para mensal só faz sentido para líderes seniores que trabalham de forma muito autônoma, e mesmo assim com cautela.
 
 Duração: trinta minutos por padrão, com possibilidade de estender. Nunca cortar antes do tempo sem razão legítima. Cortar 1:1 por prioridade envia mensagem forte sobre o que o gestor de fato prioriza.
 
@@ -2058,7 +2062,7 @@ Duração: trinta minutos por padrão, com possibilidade de estender. Nunca cort
 
 A estrutura de 1:1 que funciona começa com o espaço da pessoa, não do gestor.
 
-Abra com pergunta aberta: "Como você está?" não como protocolo social, mas como pergunta genuína que você ouve a resposta. "O que está travando você essa semana?" "Tem algo que você queria falar mas a reunião de time não era o lugar certo?"
+Abra com pergunta aberta: "Como você está?" não como protocolo social, mas como pergunta genuína cuja resposta você escuta até o fim antes de entrar na pauta. "O que está travando você essa semana?" "Tem algo que você queria falar mas a reunião de time não era o lugar certo?"
 
 Depois explore o que a pessoa quer explorar. Só então traga o que você quer abordar, e anuncie isso antes: "Tenho três coisas que quero falar hoje, posso trazer?"
 
@@ -2086,7 +2090,7 @@ Se a pessoa trava quando você pergunta "como você está?", comece com agenda m
 
 ---
 
-### Radical Candor para Engenheiros: Como Dar Feedback Técnico e Comportamental Sem Rodeios
+### Radical Candor e Modelo SBI: Como Dar Feedback Técnico e Comportamental Sem Rodeios
 
 #### Por que fundadores técnicos dão feedback ruim
 
@@ -2100,7 +2104,7 @@ O modelo SBI (Situação, Comportamento, Impacto) é a estrutura mais simples e 
 
 Situação é o contexto concreto. Não generalização, mas evento específico. "Na revisão de arquitetura de terça-feira" é situação. "Você sempre faz isso" não é situação, é acusação.
 
-Comportamento é o que a pessoa fez ou disse, observável e factual. "Você interrompeu três vezes quando o Lucas estava apresentando" é comportamento. "Você foi desrespeitoso" é julgamento que vai gerar defesa imediata.
+Comportamento é o que a pessoa fez ou disse, observável e factual. "Você interrompeu três vezes quando o Thiago estava apresentando" é comportamento. "Você foi desrespeitoso" é julgamento que vai gerar defesa imediata.
 
 Impacto é o efeito que o comportamento teve. No time, no projeto, em você, nos outros. "O Lucas ficou visivelmente constrangido e encerrou a apresentação mais cedo do que o planejado. O restante do time ficou quieto no resto da reunião" é impacto concreto. "Isso foi um problema" não é impacto, é conclusão sem base.
 
@@ -2237,7 +2241,7 @@ A regra prática é simples: promoção exige desempenho consistente no nível a
 
 #### PIP sem surpresa
 
-PIP (Performance Improvement Plan) é o instrumento formal de documentação de baixo desempenho e das ações necessárias para corrigi-lo. Em startup brasileira, o PIP tem importância legal além da gerencial: é documentação que pode ser necessária em eventual processo trabalhista.
+PIP (Performance Improvement Plan) é o instrumento formal de documentação de baixo desempenho e das ações necessárias para corrigi-lo. No Brasil, sob regime CLT, o PIP não é requisito legal para dispensa sem justa causa, mas protege a empresa contra alegações de arbitrariedade; já para prestadores PJ, nunca aplique PIP formal, pois cobrança disciplinar de desempenho configura subordinação e reforça o risco de vínculo empregatício (ver Volume 8, Capítulo 7).
 
 O erro mais comum com PIP não é colocar alguém em PIP. É colocar alguém em PIP como surpresa.
 
@@ -2258,7 +2262,7 @@ O PIP em si tem estrutura clara:
 
 ---
 
-### A Sombra do CTO: Como Seus Hábitos de Madrugada Moldam a Cultura do Time
+### A Sombra do CTO: Como Seus Commits de Madrugada Moldam a Cultura e a Rotina do Time
 
 #### Cultura não se declara, se pratica
 
@@ -2309,7 +2313,7 @@ O fundador que na primeira falha pergunta publicamente "quem foi o responsável 
 
 ---
 
-### Os Cinco Sintomas de Que Você Já Deveria Estar Operando Como Executivo Técnico
+### Cinco Sinais de Que a Travessia para Executivo Técnico Aconteceu
 
 A transição do fundador técnico para líder de engenharia não tem um evento inaugural. É gradual, às vezes invisível, e frequentemente você só percebe olhando para trás.
 
@@ -2358,16 +2362,16 @@ Abra seu histórico do GitHub e sua agenda das últimas quatro semanas antes de 
 
 **Regra de Sobrevivência:** A partir do décimo quinto engenheiro, cada linha de código no caminho crítico escrita pelo CTO não é um ativo; é um ponto único de falha que você injetou na empresa.
 
-**O Ritual de Segunda-Feira às 9h:** Saia imediatamente da fila de aprovação obrigatória de pull requests diários, transfira a titularidade dos módulos centrais para seus Tech Leads e bloqueie 4 horas semanais para 1:1s individuais e revisão de RFCs arquiteturais.
+**O Ritual de Segunda-Feira às 9h (rotina semanal de 30 minutos):** Saia imediatamente da fila de aprovação obrigatória de pull requests diários, transfira a titularidade dos módulos centrais para seus Tech Leads e bloqueie 4 horas semanais para 1:1s individuais e revisão de RFCs arquiteturais.
 
 
 ---
 
 ## CAPÍTULO 3 — RECRUTAMENTO TÉCNICO EM PROFUNDIDADE
 
-### O Teatro do Quadro-Branco e o Custo Milionário de Contratar o Engenheiro Errado
+### O Teatro do Quadro-Branco e os R$ 190 Mil de Contratar o Engenheiro Errado
 
-Lucas passou três meses cortejando um desenvolvedor sênior egresso de uma gigante de tecnologia internacional. Na entrevista técnica, o candidato foi brilhante: inverteu árvores binárias no quadro-branco em doze minutos, recitou de cor a complexidade assintótica de algoritmos de grafos e negociou um pacote salarial no topo da tabela. Sessenta dias depois da contratação, a realidade desabou. Diante de um sistema real em produção com integrações bancárias instáveis e requisitos de negócio em evolução, o novo contratado paralisou: recusava-se a tocar em código legado, transformava cada revisão de pull request em uma disputa de ego acadêmico e entregou zero funcionalidades completas em dois meses. A demissão custou R$ 190 mil entre salários, encargos, bônus de entrada e o atraso de um trimestre inteiro no produto principal.
+Lucas passou três meses cortejando um desenvolvedor sênior egresso de uma gigante de tecnologia internacional. Na entrevista técnica, o candidato foi brilhante: inverteu árvores binárias no quadro-branco em doze minutos, recitou de cor a complexidade assintótica de algoritmos de grafos e negociou um pacote salarial no topo da tabela. Sessenta dias depois da contratação, ainda dentro do contrato de experiência de 90 dias (o que reduziu o custo rescisório direto, mas não evitou R$ 190 mil entre salários, encargos, recrutamento e atraso do trimestre; ver Volume 8, Capítulo 7), a realidade desabou. Diante de um sistema real em produção com integrações bancárias instáveis e requisitos de negócio em evolução, o novo contratado paralisou: recusava-se a tocar em código legado, transformava cada revisão de pull request em uma disputa de ego acadêmico e entregou zero funcionalidades completas em dois meses. A demissão custou R$ 190 mil entre salários, encargos, bônus de entrada e o atraso de um trimestre inteiro no produto principal.
 
 O paradoxo do recrutamento técnico é que a maioria das startups copia processos seletivos desenhados pelo Google de quinze anos atrás para filtrar dezenas de milhares de recém-formados, quando o que uma scaleup brasileira precisa é de construtores pragmáticos que entreguem software confiável sob restrição de tempo e caixa.
 
@@ -2375,11 +2379,11 @@ Isso é **O Teatro do Quadro-Branco**: o erro sistemático de selecionar engenhe
 
 ---
 
-Para a metodologia geral de bandas e benchmarks, ver [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 11 — COMPENSAÇÃO E BENEFÍCIOS NO BRASIL|Capítulo 11 (Compensação e Benefícios no Brasil) (Vol. 6)]]. Aqui aprofundamos remuneracao no contexto de recrutamento tecnico.
+Para a metodologia geral de bandas e benchmarks, ver [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 11 — COMPENSAÇÃO E BENEFÍCIOS NO BRASIL|Capítulo 11 (Compensação e Benefícios no Brasil) (Vol. 6)]]. Aqui aplicamos essa estrutura especificamente às faixas e particularidades do recrutamento de engenharia.
 
 ### A Engenharia da Contratação Técnica: Selecionando Construtores de Alto Impacto
 
-Processo completo de atrair, avaliar, contratar e integrar engenheiros e talentos técnicos (software, dados, ML ou aprendizado de máquina, produto, design técnico, SRE ou engenharia de confiabilidade, security ou segurança, platform ou plataforma). Cobre sourcing (busca de candidatos), avaliação, decisão, oferta, onboarding (integração) e retenção. E os trade-offs (compromissos) entre velocidade, qualidade e custo.
+Processo completo de atrair, avaliar, contratar e integrar engenheiros e talentos técnicos (software, dados, aprendizado de máquina (ML), produto, design técnico, engenharia de confiabilidade (SRE), segurança e plataforma). Cobre sourcing (busca de candidatos), avaliação, decisão, oferta, onboarding (integração) e retenção. E os trade-offs (compromissos) entre velocidade, qualidade e custo.
 
 Este capítulo se distingue dos capítulos gerais de pessoas e talentos por focar nas particularidades da função técnica. Pipelines (filas de candidatos) escassos. Sinais difíceis de ler. Remuneração pressionada pelo mercado global. Avaliação que exige rigor sem virar teatro.
 
@@ -2427,21 +2431,21 @@ Taxa de conversão esperada. Sourcing para hire, cerca de um a três por cento n
 
 ### Sourcing Ativo no Brasil: Onde Estão os Melhores Engenheiros (Que Não Estão Mandando Currículo)
 
-**Inbound.** Página de carreiras. Objetiva, atrativa, e honesta. Descrição realista, salário (transparência vale ouro), stack, valores, e processo. LinkedIn Jobs, AngelList (Wellfound), Programa Vagas.com, Revelo, Turing, e similares. GitHub. Perfil público, issues abertas, e contribuições open source. Twitter, ou X técnico. Pessoas que escrevem sobre tech. Discord, ou Slack communities. Dev Brasil, Stack Overflow, Reactiflux, Rust, Go, etc. Referrals. Bônus para indicação (R$ 3 a R$ 10 mil é padrão). Indicações têm taxa de contratação três a cinco vezes maior que inbound frio. Eventos técnicos. RubyConf Brasil, The Developers Conference (TDC), Rust BR, PyCon, e meetups regionais.
+**Inbound.** Página de carreiras. Objetiva, atrativa, e honesta. Descrição realista, salário (transparência vale ouro), stack, valores, e processo. LinkedIn Jobs, Wellfound (ex-AngelList), Programathor, Vagas.com, Revelo e plataformas similares. No GitHub, avalie repositórios públicos, issues abertas e contribuições em código aberto; no X (antigo Twitter) e em comunidades técnicas no Discord e no Slack Dev Brasil, Stack Overflow, Reactiflux, Rust, Go, etc. Referrals. Bônus para indicação (R$ 3 a R$ 10 mil é padrão). Indicações têm taxa de contratação três a cinco vezes maior que inbound frio. Eventos técnicos. RubyConf Brasil, The Developers Conference (TDC), Rust BR, PyCon, e meetups regionais.
 
-**Outbound.** LinkedIn Recruiter. Mensagem personalizada, não template. GitHub search, mais e-mail. Funciona, se a mensagem for específica (viu projeto dele, elogio real, pergunta real). Sequences com toque humano. Lemlist, Gem, Woodpecker, são ferramentas. Mas a mensagem precisa ser de humano. Reverse-recruit (Gupy, Revelo). Os candidatos cadastrados, e você busca. Poaching ético. Mira em empresas adjacentes, com gente insatisfeita. Pesquisa via Glassdoor, LinkedIn, e network.
+**Outbound.** LinkedIn Recruiter. Mensagem personalizada, não template. GitHub search, mais e-mail. Funciona, se a mensagem for específica (viu projeto dele, elogio real, pergunta real). Sequences com toque humano. Ferramentas de cadência como Lemlist, Gem e Woodpecker ajudam a organizar o contato, desde que a mensagem seja escrita por uma pessoa real. Em plataformas de recrutamento reverso (como a Revelo), os candidatos se cadastram e a empresa busca diretamente. Poaching ético. Mira em empresas adjacentes, com gente insatisfeita. Pesquisa via Glassdoor, LinkedIn, e network.
 
 O que converte. Mensagem que mostra pesquisa genuína (não template). Clareza sobre o que a vaga é, e não é. Transparência de salário (mesmo que faixa ampla). Valor além de salário, o que o cara vai aprender, quem trabalhará com ele, e o impacto real.
 
-O que não converte. Template que claramente é template. "Temos uma vaga incrível", sem dizer qual. Cold mais vaga júnior mais ping genérico mais exigência de leetcode. Processo com oito etapas.
+O que não converte. Template que claramente é template. "Temos uma vaga incrível", sem dizer qual. Abordagem fria para vaga júnior, mensagem genérica copiada e colada e exigência de enigma algorítmico (leetcode) logo na largada. Processo lento que passa de seis etapas e se arrasta por meses.
 
-### Fim dos Enigmas Algorítmicos: Pareamento Prático, Revisão de PR Real e Arquitetura
+### Além dos Enigmas Algorítmicos: Pareamento Prático, Revisão de PR Real e Desenho de Arquitetura
 
 **Leetcode, ou algoritmos puros.** Prós. Escalável, mensurável, e reduz variância entre entrevistadores. Contras. Mede habilidade desligada do trabalho real. Favorece quem pode estudar, ou treinar (viés de classe). Hostil. Muitos bons engenheiros recusam. Quando faz sentido. FAANG competindo por volume massivo. Para startups, raramente faz sentido.
 
 **Pair programming, ou live coding em problema real (não leetcode).** Prós. Mede como a pessoa pensa, colabora, debuga, e comunica. Contras. Nervosismo deforma sinal. Exige entrevistador treinado. Bom padrão. Sessenta a noventa minutos, problema real (extensão do que o seu time faz), com suporte (Google, docs permitidos, IDE local).
 
-**Take-home challenge.** Prós. Ambiente calmo. Simula trabalho real. O candidato mostra estilo. Contras. Exige tempo do candidato (cinco a dez horas, e o sênior com oferta competitiva não faz). Difícil garantir autoria (agora com IA, ainda mais). Viés a favor de quem tem tempo. Bom padrão. Take-home pequeno (duas a três horas no máximo), com discussão pós, via call de quarenta e cinco minutos.
+**Take-home challenge.** Prós. Ambiente calmo. Simula trabalho real. O candidato mostra estilo. Contras. Exige tempo do candidato (cinco a dez horas, e o sênior com oferta competitiva não faz). É difícil garantir a autoria individual sem etapa ao vivo (especialmente em 2026: defina por escrito se o uso de assistentes de IA é permitido, exija que o candidato explique na entrevista ao vivo cada decisão do código gerado e valide a identidade em processos remotos; ver Capítulo 6). Viés a favor de quem tem tempo. Bom padrão. Take-home pequeno (duas a três horas no máximo), com discussão pós, via call de quarenta e cinco minutos.
 
 **System design.** Prós. Fundamental para sênior em diante. Mede abstração, trade-offs, e experiência. Contras. Exige entrevistador experiente. Sinal ruim, se mal conduzido. Bom padrão. Problema aberto, quarenta e cinco a sessenta minutos, entrevistador guia com perguntas, e o candidato projeta sistema discutindo alternativas.
 
@@ -2452,7 +2456,7 @@ O que não converte. Template que claramente é template. "Temos uma vaga incrí
 > [!tip] Recomendação sintética para startup brasileira
 > Evite leetcode clássico. Use problemas reais. Mix indicado. Recruiter screen, hiring manager screen, um coding real, um system design (para sênior), um behavioral ou values, debrief e references. Total para o candidato, cinco a sete horas. Acima disso, você perde bons candidatos.
 
-### O Scorecard Estruturado: Rubricas Objetivas Contra o Viés de Simpatia
+### Scorecard Estruturado de Avaliação: Rubricas de 1 a 4 Contra o Viés de Simpatia
 
 Sinais que realmente importam.
 
@@ -2480,7 +2484,7 @@ Sinais enganosos (não confiar). Currículo impressionante, sem profundidade na 
 
 Framework típico (varia por empresa).
 
-Junior (L1 a L2). Autônomo em tarefas simples. Precisa de supervisão para projetos. Zero a dois anos.
+Júnior (início de carreira, correspondente a L1–L2 ou L3 conforme a grade unificada do Capítulo 4): autônomo em tarefas bem delimitadas, com supervisão em projetos. Zero a dois anos de experiência.
 
 Mid, ou Pleno (L3). Autônomo em features. Contribui para decisões técnicas. Dois a cinco anos.
 
@@ -2509,7 +2513,7 @@ Principal. R$ 60 a R$ 150 mil em diante, ou equivalente.
 
 Ofertas gringa para brasileiros (cem por cento remoto). Senior, US$ 80 a US$ 180 mil (R$ 400 mil a R$ 900 mil ao ano). Competição direta. Staff em diante, US$ 200 a US$ 400 mil em diante all-in.
 
-Decisões. CLT versus PJ. O candidato ganha mais PJ. Mas perde benefícios. Mix é comum. Em scale-up regulada, forçar CLT pode custar salário. Equity. Em startup early-stage, parte da comp é equity. Explique bem. Quanto é, strike price, vesting (quatro anos, e um cliff), e o que acontece no exit. Bônus. Menos comum em tech brasileiro do que nos EUA. Startups em crescimento, às vezes, têm bônus semestral. Benefícios. PJ sem plano de saúde, mais VR, mais VT, é oferta inferior. CLT tem CLT.
+Na escolha entre CLT e PJ, lembre que contratar engenheiro como PJ exigindo subordinação, horário fixo, pessoalidade e pacote de benefícios típicos de CLT (como VR e VT) caracteriza vínculo empregatício na Justiça do Trabalho (ver Volume 8, Capítulo 7). Em scale-up regulada, forçar CLT pode custar salário. Equity. Em startup early-stage, parte da comp é equity. Explique bem. Explique com transparência o percentual ou número de opções, o preço de exercício (strike price), o cronograma de aquisição (vesting de quatro anos com cliff de um ano) e a regra de liquidez em caso de venda da empresa. Bônus. Menos comum em tech brasileiro do que nos EUA. Startups em crescimento, às vezes, têm bônus semestral. Benefícios. PJ sem plano de saúde, mais VR, mais VT, é oferta inferior. CLT tem CLT.
 
 Transparência de salário. Alinhe cedo (recruiter screen). Candidato com expectativa de R$ 50 mil, sabendo que o teto é R$ 30 mil, economiza tempo de todos. Páginas de carreiras com faixas salariais convertem mais (vide empresas como Buffer, Basecamp, e muitas startups europeias).
 
@@ -2517,7 +2521,7 @@ Transparência de salário. Alinhe cedo (recruiter screen). Candidato com expect
 
 Se você não age ativamente, acaba com time de homens brancos de seis universidades. Não é acaso. É pipeline, viés de entrevista, e rede.
 
-Ações que movem. Sourcing deliberado. Fontes específicas (PrograMaria, PretaLab, Reprograma, Code Like a Girl). Não depende só de indicações. Job description neutra. Linguagem inclusiva, sem exigir unicórnios. "Requisitos" curtos, "nice-to-have" separados. Panels diversos. Candidato mulher vê só homens no processo. Passa por cima de você. Rubric escrito. Reduz viés subjetivo. Treinamento em viés inconsciente, para entrevistadores. Meta por nível, ou time. Não "contratar mais mulheres" genérico. "Em doze meses, pipeline L3 de eng precisa ser trinta e cinco por cento mulheres, ou minorias". Paridade de oferta. Revisar ofertas por demografia. Pay gap surge por diferença de negociação.
+Ações que movem. Sourcing deliberado. Fontes específicas (PrograMaria, PretaLab, Reprograma, Code Like a Girl). Não depende só de indicações. Job description neutra. Linguagem inclusiva, sem exigir unicórnios. "Requisitos" curtos, "nice-to-have" separados. Panels diversos. Uma candidata que só vê homens em todas as etapas de entrevista tende a desistir da vaga. Rubric escrito. Reduz viés subjetivo. Treinamento em viés inconsciente, para entrevistadores. Meta por nível, ou time. Não "contratar mais mulheres" genérico. "Em doze meses, pipeline L3 de eng precisa ser trinta e cinco por cento mulheres, ou minorias". Paridade de oferta: audite propostas por recorte demográfico para evitar distorções geradas apenas pela negociação inicial, e observe que empresas a partir de 100 empregados no Brasil estão sujeitas ao Relatório de Transparência Salarial (Lei 14.611/2023) e às cotas legais de PcD (Lei 8.213/1991; ver Volume 6, Capítulo 19).
 
 ### Primeiros 30 Dias: Do Commit no Dia Um à Autonomia em Produção
 
@@ -2533,11 +2537,11 @@ Red flags no onboarding. Buddy inexistente, ou desinteressado. Documentação au
 
 Contratar é metade da guerra. Reter é a outra metade.
 
-Drivers de retenção técnica, em ordem de impacto. Qualidade do trabalho, problemas interessantes, tecnologia relevante, e aprendizado contínuo. Time, pessoas respeitáveis, e relações saudáveis. Manager, as pessoas saem de managers, não de empresas. Progresso de carreira, caminho visível, e promoções com critério. Compensação, dentro do mercado, e revisada. Autonomia, e propósito, confiança, impacto, e significado do trabalho. Flex, ou remoto, cultura de flexibilidade importa.
+Drivers de retenção técnica, em ordem de impacto. Qualidade do trabalho, problemas interessantes, tecnologia relevante, e aprendizado contínuo. Time, pessoas respeitáveis, e relações saudáveis. Principais fatores de retenção técnica: qualidade do trabalho (problemas desafiadores e aprendizado), time saudável, atuação do gestor direto (as pessoas pedem demissão de maus gestores), clareza de progressão de carreira e remuneração competitiva e revisada. Autonomia, e propósito, confiança, impacto, e significado do trabalho. Flex, ou remoto, cultura de flexibilidade importa.
 
 Drivers de saída, em ordem de prevalência. Manager ruim. Pouco aprendizado. Oferta melhor externa (salário, ou problema). Política interna, ou time tóxico. Falta de carreira visível. Burnout.
 
-Intervenções. Um a um semanais regulares (manager-engineer), sem cancelar. Career conversations trimestrais. Revisão de compensação anual, idealmente duas vezes por ano para top performers. Internal mobility, mover dentro, em vez de perder. Stay interviews (perguntar "o que te manteria aqui?", antes da exit interview).
+Intervenções. Reuniões 1:1 regulares entre gestor e engenheiro (semanais nos primeiros três meses e quinzenais depois, sem cancelar duas seguidas). Career conversations trimestrais. Revisão de compensação anual, idealmente duas vezes por ano para top performers. Internal mobility, mover dentro, em vez de perder. Stay interviews (perguntar "o que te manteria aqui?", antes da exit interview).
 
 ### Os Erros Clássicos que Fazem Você Contratar Rápido e Demitir Devagar
 
@@ -2567,7 +2571,7 @@ Contratar só seniors. Time sem pipeline jr, ou mid, fica caro. E tem problemas 
 
 Contratar só juniors. Sem sêniors para mentorar, os juniors não crescem. O produto decai.
 
-Contratar estranho "brilhante". 160 QI mais personalidade difícil afunda time inteiro.
+Contratar o "gênio intratável" (brilliant jerk): QI alto combinado a comportamento tóxico afunda o time inteiro.
 
 Perder candidato bom por R$ 2 mil. Economia pontual, que custa três a seis meses de busca.
 
@@ -2575,11 +2579,11 @@ Perder candidato bom por R$ 2 mil. Economia pontual, que custa três a seis mese
 
 Mercado aquecido, para sênior em diante, que fala inglês. Competição direta com gringa.
 
-Juniors abundantes. Pretos no mercado limitado. Formar juniors é investimento necessário. Mas não cabe em tudo.
+Há muitos juniores no mercado, mas poucos prontos para produzir com autonomia imediata. Formar juniores é um investimento necessário, mas não resolve toda vaga.
 
-PJ predominante em tech. CLT vira obstáculo em atração. Mas scale-ups reguladas (fintech com cuidado CARF, financeiras BCB) frequentemente forçam CLT.
+PJ predominante em tech. CLT vira obstáculo em atração. Empresas reguladas pelo Banco Central (fintechs e instituições de pagamento) priorizam contratação CLT por exigência de governança, controles internos e mitigação de passivo trabalhista e fiscal.
 
-Home office, ou remoto, virou default em tech pós-2020. Empresas que forçam presencial perdem talento.
+Depois de 2020, o trabalho remoto e o híbrido consolidaram-se em tecnologia; em 2026, embora muitas empresas operem em regime híbrido, exigir presença física integral restringe a busca ao raio geográfico local.
 
 Bootcamps, e programas alternativos (Reprograma, Awari, Trybe, Cubos Academy, Resilia Educacao), formam devs sem graduação tradicional. Sinal válido. Olhe portfolio, ou código.
 
@@ -2587,7 +2591,7 @@ Universidades referência. USP, Unicamp, UFMG, UFRJ, ITA, UFPE, UFRGS, UnB. Mas 
 
 Regulatório. eSocial, e CLT, traz obrigações pesadas. PJ com exclusividade é frequentemente reclassificado pelo fisco. Risco real.
 
-### Checklist Operacional Antes de Emitir Qualquer Carta-Oferta Técnica
+### Checklist Operacional do Ciclo de Contratação e Integração Técnica
 
 - [ ] JDs honestas, com salário ou faixa, stack real, e o que é, e não é
 - [ ] Funil de entrevista definido (cinco a sete etapas, no máximo, para a maioria)
@@ -2611,7 +2615,7 @@ Regulatório. eSocial, e CLT, traz obrigações pesadas. PJ com exclusividade é
 
 **Fechando o ciclo na trincheira:** Quando **Lucas e Marina** aplicaram as travas deste capítulo na rotina entre São Paulo e Florianópolis, a tensão da cena de abertura deixou de ser discussão subjetiva de corredores e virou regra clara de priorização, retenção e proteção de caixa.
 
-Analise as últimas cinco contratações de engenharia da sua empresa e responda com brutal honestidade:
+Analise as últimas cinco contratações de engenharia da sua empresa e responda sem enfeitar:
 
 1. **O Teste da Recontratação:** Se você soubesse no dia da entrevista tudo o que sabe hoje sobre cada um dos últimos cinco engenheiros contratados, quantos deles você contrataria novamente sem hesitar?
 2. **A Simulação do Mundo Real:** Seu teste técnico avalia o candidato lendo código existente, encontrando um bug real e discutindo trade-offs pragmáticos de produto, ou obriga um engenheiro sênior a fazer lição de casa de 12 horas no fim de semana?
@@ -2619,7 +2623,7 @@ Analise as últimas cinco contratações de engenharia da sua empresa e responda
 
 **Regra de Sobrevivência:** Na dúvida entre contratar um engenheiro mediano para fechar a vaga rápido ou deixar a cadeira vazia por mais 45 dias, deixe a cadeira vazia: um engenheiro B- atrai engenheiros C e expulsa seus engenheiros A.
 
-**O Ritual de Segunda-Feira às 9h:** Substitua qualquer teste algorítmico genérico do seu processo seletivo por uma sessão de 60 minutos de code review ao vivo e pareamento sobre um problema anonimizado real do seu próprio repositório, avaliada por rubrica escrita independente.
+**O Ritual de Segunda-Feira às 9h (rotina semanal de 30 minutos):** Substitua qualquer teste algorítmico genérico do seu processo seletivo por uma sessão de 60 minutos de code review ao vivo e pareamento sobre um problema anonimizado real do seu próprio repositório, avaliada por rubrica escrita independente.
 
 
 ---
@@ -2632,7 +2636,7 @@ Na primeira reunião de conselho após a Série A, o investidor líder olha para
 
 Fred Brooks já avisava em *The Mythical Man-Month*, mas toda scaleup repete o mesmo erro: adicionar mais engenheiros a um sistema com alta fricção de ferramentas e acoplamento arquitetural não acelera a entrega: apenas aumenta o custo de coordenação até a paralisia total.
 
-Você está pagando o preço do **O Atrito Sistêmico de Developer Experience (DevEx)**: a degradação silenciosa do ambiente de construção onde engenheiros caros gastam 70% da semana lutando contra pipelines lentos, filas de aprovação e dependências cruzadas, e apenas 30% gerando valor para o cliente.
+Você está pagando o preço do **O Atrito Sistêmico de Developer Experience (DevEx)**: a degradação silenciosa do ambiente de construção onde engenheiros caros gastam boa parte da semana lutando contra pipelines lentos, filas de aprovação e dependências cruzadas (como as 12 horas de reunião e os três dias de espera da equipe de Lucas), sobrando uma fração reduzida do tempo para gerar valor direto ao cliente.
 
 ---
 
@@ -2640,7 +2644,7 @@ Para a metodologia geral de bandas salariais e benchmarks brasileiros, ver [[IGN
 
 Engenharia (de software) é a função organizacional que escala de forma mais diferente das outras. As regras de um time de vendas de 20 pessoas não funcionam num time de engenharia de 20 pessoas. As ferramentas de performance management (gestão de desempenho) de marketing não cabem em avaliação técnica. A estrutura hierárquica que dá certo em operações quebra em produto de software. Fundadores não técnicos costumam aplicar ao time de engenharia o que aprenderam em outras áreas. O resultado é saída de engenheiros bons, débito técnico crescente e time cada vez menos produtivo a cada contratação.
 
-Este capítulo trata das duas faces da disciplina. A **Parte 1** cobre Engineering Management (gestão de engenharia) em escala. Inclui career ladders (trilhas de carreira), levels (níveis), performance reviews (avaliações de desempenho), estrutura organizacional, o que fazer com o IC (Individual Contributor, contribuidor individual) sênior que não quer ser gerente, como montar chapters (capítulos) e squads (esquadrões), como dimensionar headcount (quadro de pessoal). A **Parte 2** cobre Developer Experience (experiência do desenvolvedor) como disciplina, relevante para empresas cujo produto é consumido por desenvolvedores (APIs, SDKs ou kits de desenvolvimento, developer tools ou ferramentas para devs), com princípios que valem também para o DX (developer experience) interno da sua própria engenharia.
+Este capítulo trata das duas faces da disciplina. A **Parte 1** cobre Engineering Management (gestão de engenharia) em escala. Inclui trilhas de carreira, níveis de senioridade, avaliações de desempenho, desenho organizacional, o que fazer com o IC (Individual Contributor, contribuidor individual) sênior que não quer ser gerente, como montar chapters (capítulos) e squads (esquadrões), como dimensionar headcount (quadro de pessoal). A **Parte 2** cobre Developer Experience (experiência do desenvolvedor) como disciplina, relevante para empresas cujo produto é consumido por desenvolvedores (APIs, SDKs ou kits de desenvolvimento, developer tools ou ferramentas para devs), com princípios que valem também para o DX (developer experience) interno da sua própria engenharia.
 
 ---
 
@@ -2656,9 +2660,9 @@ A consequência prática dessas três características é que Engineering Manage
 
 O primeiro princípio: oferecer duas trilhas paralelas de carreira, não forçar todo engenheiro a virar gerente.
 
-**Trilha de Individual Contributor (IC).** L3 Engineer (início de carreira), L4 Senior Engineer, L5 Staff Engineer, L6 Principal Engineer, L7+ Distinguished ou Fellow. Staff+ é um IC com impacto organizacional comparável ao de um gerente, frequentemente maior. Pessoas como Jeff Dean e Sanjay Ghemawat fizeram Google ser o que é construindo trajetorias predominantemente como ICs de altissimo impacto, com momentos pontuais de lideranca tecnica formal.
+**Trilha de Individual Contributor (IC).** L3 Engenheiro (início de carreira, equivalente aos níveis iniciais L1–L2/Pleno em grades compactas), L4 Engenheiro Sênior, L5 Staff Engineer, L6 Principal Engineer, L7+ Distinguished ou Fellow. Staff+ é um IC com impacto organizacional comparável ao de um gerente, frequentemente maior. Engenheiros como Sanjay Ghemawat e Jeff Dean (que construiu a base distribuída do Google como IC de altíssimo impacto antes de liderar o Google Research e a área de IA) mostram o alcance estratégico dessa trilha de altissimo impacto, com momentos pontuais de lideranca tecnica formal.
 
-**Trilha de Manager.** L4 ou L5 Engineering Manager (gerencia 5-10 reports), L6 Senior EM (gerencia outros gerentes), L7 Director, L8 VP Engineering, L9 CTO.
+**Trilha de Gestão (Manager).** L4 Engineering Manager (lidera 5 a 8 engenheiros), L5 Senior EM (par do Staff Engineer, lidera gestores ou múltiplos squads), L6 Director of Engineering (par do Principal), L7 VP de Engenharia, L8 CTO.
 
 Três princípios tornam o sistema funcional: (1) em cada level equivalente, IC e Manager têm o **mesmo impacto esperado e a mesma compensação**: um L5 Staff Engineer ganha o mesmo que um L5 EM, (2) a pessoa pode **transicionar entre trilhas** sem perder level, um Staff que quer virar EM, ou um EM que quer voltar para IC, mantém seu nível, (3) a trilha de IC tem teto alto, um Principal Engineer pode ter mais influência na empresa do que um Director.
 
@@ -2684,10 +2688,10 @@ Empresas transparentes (GitLab, Buffer, Stripe em algumas faixas) publicam as ba
 |---|---|---|
 | L3 | 10-16k | 0-0,05% |
 | L4 | 15-25k | 0,05-0,15% |
-| L5 Staff | 22-38k | 0,15-0,3% |
+| L5 Staff (referência mid-cap; em Série B+ chega a 40-80k, ver Cap. 3) | 22-38k | 0,15-0,3% |
 | L6 Principal | 30-55k | 0,2-0,5% |
 
-Faixas conservadoras, baseadas em mid-cap. Empresas Serie B+ bem capitalizadas (Pave 2025, Atlantico Comp Survey 2024) podem pagar 30 a 50 por cento acima destas faixas, especialmente para L5 Staff e L6 Principal. Calibrar contra benchmarks setoriais antes de adotar.
+Faixas conservadoras, baseadas em mid-cap. Empresas a partir da Série B bem capitalizadas costumam pagar 30% a 50% acima dessas faixas de empresas médias, especialmente para L5 Staff e L6 Principal. Calibrar contra benchmarks setoriais antes de adotar.
 
 Para empresas que captam em USD e operam no Brasil, as faixas podem ser substancialmente superiores. Benchmarking com serviços especializados (Radford, Option Impact, Pave) é obrigatório para evitar pagar muito acima ou muito abaixo do mercado, os dois destroem o time de formas diferentes.
 
@@ -2709,7 +2713,7 @@ A tabela a seguir é um template base para formalizar o career ladder. Adapte pa
 
 **Como usar o template.** Para cada avaliação, o manager preenche os critérios do nível atual da pessoa e do nível seguinte, e documenta evidências concretas para cada dimensão. A decisão de promoção compara evidências com critérios: não com a percepção de "está pronto". Sem evidências documentadas, calibration é inviável.
 
-**Promotion process.** Promoções não devem ser surpresa: manager e engineer concordam que a pessoa está "operando no próximo nível" com consistência antes da promoção formal. O processo típico: (1) manager identifica que engineer opera consistentemente no próximo nível por 2-3 meses, (2) manager elabora dossiê com evidências por dimensão, (3) calibration com outros managers para garantir consistência, (4) aprovação do director ou VP, (5) comunicação com o timeline de início da nova compensação. Promoções surpresa ou negadas sem feedback claro são as principais causas de saída de engenheiros seniores.
+**Promotion process.** Promoções não devem ser surpresa: manager e engineer concordam que a pessoa está "operando no próximo nível" com consistência antes da promoção formal. O processo típico: (1) o gestor identifica que o engenheiro já opera com consistência no nível seguinte há pelo menos dois trimestres (alinhado à regra do Capítulo 2), (2) manager elabora dossiê com evidências por dimensão, (3) calibration com outros managers para garantir consistência, (4) aprovação do director ou VP, (5) comunicação com o timeline de início da nova compensação. Promoções surpresa ou negadas sem feedback claro são as principais causas de saída de engenheiros seniores.
 
 #### Performance reviews
 
@@ -2721,18 +2725,18 @@ Ferramentas: Lattice, 15Five, Culture Amp. Empresas menores usam templates próp
 
 Um dos erros mais comuns em empresas brasileiras de porte médio: acumular as duas funções na mesma pessoa. Tech Lead e EM são papéis **diferentes**:
 
-- **Tech Lead** é um IC com responsabilidade técnica sobre um time, define arquitetura, faz code reviews críticas, bloqueia decisões técnicas importantes. Não gerencia pessoas, não aprova férias, não faz 1:1s de desenvolvimento pessoal.
+- **Tech Lead** é um IC com responsabilidade técnica sobre um time, define arquitetura, faz revisões críticas de código e tem a palavra final para destravar decisões técnicas do time. Não gerencia pessoas, não aprova férias, não faz 1:1s de desenvolvimento pessoal.
 - **Engineering Manager** gerencia pessoas, desenvolvimento de carreira, performance reviews, alocação, contratações. Pode ou não codar no dia a dia, se codar, tende a fazer em menor escopo.
 
 Acumular os dois papéis normalmente leva a negligência em um deles, ou a pessoa gerencia bem e o time perde referência técnica, ou a pessoa mantém contribuição técnica forte e abandona gestão. Em times de 6-10 pessoas, separar os papéis desde o começo é investimento com retorno garantido. Para a travessia especifica do fundador tecnico que vira gestor, ver [[#CAPÍTULO 2 — MANAGEMENT PARA O FUNDADOR TÉCNICO|Capítulo 2 (Management para o Fundador Técnico)]].
 
-### A Promoção Perigosa: Transformando Seu Melhor Desenvolvedor no Primeiro Engineering Manager
+### A Promoção de Alto Risco: Transformando Seu Melhor Desenvolvedor no Primeiro Engineering Manager
 
-A travessia tratada aqui e outra. Nao e a do fundador tecnico que vira CEO de fato. E a do engenheiro senior dentro do time que aceita virar Engineering Manager pela primeira vez na carreira. As duas se parecem na superficie e divergem no conteudo.
+A travessia tratada aqui é outra: não é a do fundador técnico que aprende a liderar a engenharia (vista no Capítulo 2), mas a do engenheiro sênior do time que assume pela primeira vez o cargo de Engineering Manager. Na superfície as duas se parecem; no dia a dia, exigem apoios diferentes. que aceita virar Engineering Manager pela primeira vez na carreira. As duas se parecem na superficie e divergem no conteudo.
 
 EM novo e o cargo de maior turnover em organizacoes de engenharia em escala. Doze a dezoito meses depois da promocao, o EM novo larga o cargo, volta para IC, ou e desmontado pela propria area. Tres choques explicam a maior parte dessa mortalidade.
 
-O primeiro choque e de identidade. O engenheiro promovido construiu reputacao sendo quem resolve. O EM precisa virar quem decide quem resolve. A diferenca parece pequena no organograma e e enorme na cabeca. Quem nao faz a passagem fica resolvendo as coisas e deixando o time sem direcao.
+O primeiro choque é de identidade (como vimos na travessia do fundador no Capítulo 2): o engenheiro promovido construiu reputação sendo quem resolve na unha, mas como EM precisa formar quem resolve e contar com a supervisão próxima do seu próprio diretor. O EM precisa virar quem decide quem resolve. A diferenca parece pequena no organograma e e enorme na cabeca. Quem nao faz a passagem fica resolvendo as coisas e deixando o time sem direcao.
 
 O segundo choque e de metricas. O IC mede valor em codigo entregue, bugs fechados, sistemas no ar. O EM mede valor em resultado do time agregado e em saude do time ao longo dos meses. O sinal demora a chegar e e ambiguo. Quem nao tolera essa defasagem volta para o que da feedback rapido, e codigo.
 
@@ -2744,13 +2748,13 @@ O EM novo, do lado dele, precisa abandonar tres coisas. Codigo critico, mesmo qu
 
 Sinais de fracasso aparecem cedo. EM voltando para IC sem combinado. Time sem cadence visivel de 1:1, weekly e planning. Decisoes paradas no EM por semanas. Quando dois desses sinais coexistem aos seis meses, o gestor do gestor precisa intervir, nao esperar a avaliacao anual.
 
-EM novo nao vira gestor por treino, vira por exposicao supervisionada. O gestor do gestor define o sucesso da transicao.
+O novo EM aprende o cargo exercendo-o na prática, com o próprio gestor acompanhando de perto. O gestor do gestor define o sucesso da transicao.
 
 Para a transicao especifica do fundador tecnico, ver [[#CAPÍTULO 2 — MANAGEMENT PARA O FUNDADOR TÉCNICO|Capítulo 2 (Management para o Fundador Técnico)]].
 
 #### Chapters, Squads e Guilds
 
-Modelos de organização em escala. O mais famoso é o modelo Spotify (publicado em 2012-2014 e adaptado em várias empresas desde então). Squads são times cross-funcionais orientados a produto ou missão, de seis a dez pessoas, com autonomia sobre como entregar. Chapters são agrupamentos horizontais por disciplina: todos os backend engineers de todos os squads formam um chapter, e o EM de backend gerencia o chapter, não o squad. Guilds são comunidades de interesse voluntárias (quem quer discutir IA/ML, segurança ou testing se junta à guild correspondente). Tribes são agrupamentos de squads relacionados.
+Modelos de organização em escala. O mais citado é o modelo da Spotify (descrito por Kniberg e Ivarsson em 2012 como um retrato parcial da época, não como receita pronta para copiar; ver o detalhamento e as armadilhas na Fase 17 e no Capítulo 8). Squads são times cross-funcionais orientados a produto ou missão, de seis a dez pessoas, com autonomia sobre como entregar. Chapters são agrupamentos horizontais por disciplina: todos os backend engineers de todos os squads formam um chapter, e o EM de backend gerencia o chapter, não o squad. Guilds são comunidades de interesse voluntárias (quem quer discutir IA/ML, segurança ou testing se junta à guild correspondente). Tribes são agrupamentos de squads relacionados.
 
 O modelo funciona bem em empresas com mais de cem engenheiros. Abaixo disso, é complexo demais: introduz overhead organizacional sem o benefício que justifica. Para times menores, estruturas mais simples (squads ou um único time) funcionam melhor.
 
@@ -2766,7 +2770,7 @@ Duas razões críticas que, desbalanceadas, criam problemas:
 
 Além de estrutura formal, há práticas culturais que definem times de engenharia saudáveis.
 
-Code review obrigatório: todo merge precisa de pelo menos uma revisão de par. Exceções apenas para hotfix crítico, com post-review. Deployment frequente: continuous deployment ou, no mínimo, diário, releases mensais gigantescos geram risco e concentram debugging. Blameless post-mortems: quando algo dá errado, a investigação foca em sistema e processo, não em culpados. On-call justo: rotação com compensação adequada, alertas bem calibrados e documentação de runbooks. Tempo para refatoração e débito técnico: dez a vinte por cento do tempo do time alocado para trabalho não de-feature. E decisões técnicas documentadas: ADRs (Architecture Decision Records) ou equivalente, para que quem chega depois entenda por que algo foi feito daquele jeito.
+Revisão de código obrigatória: todo merge passa por revisão de par (com exceção de correção emergencial, revisada logo em seguida), mantendo a disciplina de engenharia apresentada no Capítulo 2 e reservando 15% a 20% da capacidade para saúde técnica (como aprofundado no Capítulo 5). Exceções apenas para hotfix crítico, com post-review. Deployment frequente: continuous deployment ou, no mínimo, diário, releases mensais gigantescos geram risco e concentram debugging. Blameless post-mortems: quando algo dá errado, a investigação foca em sistema e processo, não em culpados. Plantão (on-call) justo: rotação com alertas calibrados, runbooks claros e compensação formalizada por escrito (no Brasil, para contratados CLT, escala de plantão à distância exige pagamento de sobreaviso conforme a Súmula 428 do TST, além de hora extra quando acionado; ver Volume 8, Capítulo 7). Tempo para refatoração e débito técnico: dez a vinte por cento do tempo do time alocado para trabalho não de-feature. E decisões técnicas documentadas: ADRs (Architecture Decision Records) ou equivalente, para que quem chega depois entenda por que algo foi feito daquele jeito.
 
 #### Promoção: processo, não prêmio
 
@@ -2791,7 +2795,7 @@ Developer Experience (DX, experiência do desenvolvedor) é a disciplina de cons
 
 **DX interno:** a experiência dos engenheiros da sua empresa em trabalhar no seu próprio codebase (base de código). Quanto tempo leva para um novo dev rodar o projeto pela primeira vez? Testes passam rápido? Build (compilação) é rápido? Deploy (publicação em produção) é simples? DX interno ruim é uma das principais fontes de queda de produtividade em empresas de engenharia em escala.
 
-Este capítulo foca principalmente em DX externo, mas os princípios se aplicam nos dois.
+Embora a engenharia de plataforma (DevEx interno: tempo de build, CI/CD, carga cognitiva, métricas DORA e framework SPACE detalhados na Fase 17, além da proteção da agenda do criador de Paul Graham contra interrupções) seja a alavanca imediata para destravar os 42 engenheiros de Lucas, os mesmos princípios também regem o DevEx externo quando o seu produto é uma API ou SDK consumido por desenvolvedores.
 
 #### Por que DX é decisivo em produtos para devs
 
@@ -2821,7 +2825,7 @@ Ferramentas. Stoplight, ReadMe, Mintlify, Docusaurus. Empresas mais técnicas pr
 
 **Developer portal.** Playground para testar sem credenciais. API explorer inline na documentação. Dashboard de uso, logs, e debugging. Gestão de API keys. Webhook tester.
 
-**Developer Relations (DevRel).** Engenheiros-advocates. Não marketeiros disfarçados. Perfil. Experiência de desenvolvimento real, capacidade de escrever código, e produzir conteúdo técnico, e presença em comunidade. Papel. Conteúdo técnico, participação em eventos, resposta em HackerNews, e Stack Overflow, e criação de exemplos. DevRel bem posicionado entrega pipeline qualificado. Mal posicionado vira marketing caro.
+**Developer Relations (DevRel).** Engenheiros-advocates. Não marketeiros disfarçados. O perfil exige experiência real de desenvolvimento, capacidade de escrever código e conteúdo técnico e presença ativa na comunidade. O papel envolve publicar guias práticos, participar de eventos técnicos, resposta em HackerNews, e Stack Overflow, e criação de exemplos. DevRel bem posicionado entrega pipeline qualificado. Mal posicionado vira marketing caro.
 
 #### Métricas de DX
 
@@ -2854,7 +2858,7 @@ Documentação interna desatualizada. Ou inexistente.
 Débito técnico sobrepondo a qualquer feature nova.
 
 > [!tip] Platform Engineering como ROI mensurável
-> Investir em DX interno (Platform Engineering, como às vezes é chamado) tem ROI mensurável. Um time de plataforma com dois a cinco engenheiros atendendo trinta a cinquenta engenheiros de produto pode entregar ROI de duas a cinco vezes em produtividade. A matemática é simples. Cada hora economizada por engenheiro, multiplicada por trinta a cinquenta engenheiros e por duzentos dias úteis, paga o time de plataforma em pouco tempo.
+> Investir em DX interno (Platform Engineering, como às vezes é chamado) tem ROI mensurável. Um time de plataforma com dois a cinco engenheiros atendendo trinta a cinquenta engenheiros de produto pode entregar ROI de duas a cinco vezes em produtividade. A conta é direta: na equipe de Lucas, economizar 1 hora por dia de cada um dos 42 engenheiros em 220 dias úteis devolve 9.240 horas de engenharia por ano (o equivalente a mais de quatro engenheiros em tempo integral), pagando com folga um time de plataforma de três pessoas.
 
 ---
 
@@ -2862,11 +2866,11 @@ Débito técnico sobrepondo a qualquer feature nova.
 
 #### 1. Medição
 
-Qualitativo. Ticket bugs por sprint, e tempo para adicionar feature simples.
+Quantitativo: número de tickets de bug por sprint e tempo necessário para colocar no ar uma funcionalidade simples.
 
 Engineering Time Survey. Percentual de tempo em "necessário, mas não agrega valor" (manutenção, e workarounds).
 
-SPACE framework. Satisfaction, Performance, Activity, Communication, Efficiency.
+Indicadores de experiência e fluxo (como os frameworks SPACE e DORA, vistos na Fase 17 e no Capítulo 4) combinados a sinais diretos de estoque de dívida: arquivos com maior concentração de bugs (hotspots) e horas gastas em manutenção não planejada.
 
 DORA metrics. Deployment frequency, lead time for changes, MTTR, e change failure rate.
 
@@ -2874,7 +2878,7 @@ DORA metrics. Deployment frequency, lead time for changes, MTTR, e change failur
 
 Deliberate debt. Conscientemente contraído por prazo ("vamos arrumar depois"). Deve ter prazo de pagamento.
 
-Accidental debt. A decisão foi boa na hora. O contexto mudou. E agora é débito.
+Dívida inadvertida ou por evolução de contexto (no quadrante de Martin Fowler, 2009): a decisão arquitetural fazia sentido na época, mas o volume de clientes mudou e o desenho antigo virou gargalo.
 
 Rot. Debt de dependências desatualizadas, linguagens, ou frameworks antigos.
 
@@ -2899,7 +2903,7 @@ Rewrite versus refactor. Reescrita raramente justifica custo. Refactor increment
 
 #### 5. Comunicação ao board
 
-Em termos de business. Não "temos debt técnico". Mas "velocity caiu trinta por cento, quarenta por cento do tempo vai em manutenção, e isso impacta delivery de roadmap em dois trimestres".
+Fale na linguagem do negócio e do conselho: em vez de dizer "temos dívida técnica", mostre que "a velocidade de entrega caiu 30%, quarenta por cento do tempo vai em manutenção, e isso impacta delivery de roadmap em dois trimestres".
 
 Tradeoff explícito. Features de produto, versus pagamento de debt. O board precisa saber.
 
@@ -2907,7 +2911,7 @@ KPIs. Deployment frequency, MTTR, e percentual de tempo em features versus manut
 
 #### 6. Prevention
 
-Code review rigoroso. Catch debt antes de merge.
+Revisão de código rigorosa: antes de aprovar o merge, avalie se a mudança introduz dívida técnica nova e registre o prazo de pagamento.
 
 Automated testing. Regression prevention.
 
@@ -2917,7 +2921,7 @@ Regular refactoring. Pequenos pagamentos contínuos.
 
 ---
 
-### A Ilusão de Medir Linhas de Código, Commits ou Velocidade Individual de Story Points
+### As Armadilhas da Gestão de Engenharia e a Ilusão de Medir Linhas de Código
 
 Forçar carreira única. Toda pessoa boa "tem que virar gerente" é receita para perder IC bom.
 
@@ -2943,7 +2947,7 @@ DX externo como afterthought. Em produto para dev, documentação é o produto. 
 
 **Estratégias de redução.**
 
-*Pair programming e mob programming rotativos*: conhecimento transfere quando duas pessoas trabalham no mesmo problema. Não precisa ser sistemático: uma sessão mensal de pair em áreas de bus factor alto é suficiente para começar. Mob programming (time inteiro em um problema complexo) é especialmente eficaz para sistemas legados opacos.
+*Pair programming e mob programming rotativos*: conhecimento transfere quando duas pessoas trabalham no mesmo problema. Não precisa ser sistemático: uma sessão mensal de pareamento nas áreas críticas com fator ônibus (bus factor) baixo já é suficiente para começar a espalhar o conhecimento. Mob programming (time inteiro em um problema complexo) é especialmente eficaz para sistemas legados opacos.
 
 *Runbooks e incident playbooks*: o "saber como deployar em crise" é frequentemente tácito. Forçar o expert a escrever o runbook como se outra pessoa fosse usar transforma conhecimento tácito em explícito. Regra: nenhum sistema em produção sem runbook de incident response.
 
@@ -2991,7 +2995,9 @@ DX externo como afterthought. Em produto para dev, documentação é o produto. 
 
 ---
 
-### O Espelho de Paul Graham e Nicole Forsgren: Quanto Tempo Leva Para Uma Linha de Código Chegar ao Cliente?
+### O Espelho de Nicole Forsgren e Paul Graham: Quanto Tempo uma Linha de Código Leva até o Cliente?
+
+Paul Graham mostrou no ensaio *Maker's Schedule, Manager's Schedule* (2009) que uma única reunião no meio da tarde quebra um turno inteiro de programação, e Nicole Forsgren demonstrou no programa DORA (*Accelerate*, 2018) que fluxo contínuo e baixo tempo de espera até produção separam as engenharias de elite das que travam na escala.
 
 **Fechando o ciclo na trincheira:** Quando **Lucas e Marina** aplicaram as travas deste capítulo na rotina entre São Paulo e Florianópolis, a tensão da cena de abertura deixou de ser discussão subjetiva de corredores e virou regra clara de priorização, retenção e proteção de caixa.
 
@@ -3003,7 +3009,7 @@ Pare de adivinhar por que a engenharia parece lenta e meça a realidade física 
 
 **Regra de Sobrevivência:** Nunca use métricas de engenharia (como story points ou número de commits) para punir indivíduos; pela Lei de Goodhart, no segundo em que uma métrica vira meta punitiva individual, o time passa a manipular o número e esconde os problemas reais.
 
-**O Ritual de Segunda-Feira às 9h:** Extraia as 4 métricas DORA (Deployment Frequency, Lead Time for Changes, Change Failure Rate e MTTR) dos últimos 30 dias e dedique 20% da capacidade de engenharia deste ciclo para atacar o maior gargalo do pipeline de CI/CD e revisão.
+**O Ritual de Segunda-Feira às 9h (rotina semanal de 30 minutos):** Meça o tempo de espera por revisão de PR e as quatro métricas de fluxo do DORA (frequência de deploy, tempo de ciclo de mudanças, taxa de falha de mudança e tempo de recuperação de implantação com falha; ver o passo a passo na Fase 17) dos últimos 30 dias e dedique 20% da capacidade de engenharia deste ciclo para atacar o maior gargalo do pipeline de CI/CD e revisão.
 
 
 ---
@@ -3014,7 +3020,7 @@ Pare de adivinhar por que a engenharia parece lenta e meça a realidade física 
 
 Em janeiro de 2026, Lucas decidiu liberar irrestritamente agentes autônomos de geração de código para todos os quarenta desenvolvedores da sua scaleup em Florianópolis e São Paulo, prometendo ao conselho dobrar a velocidade do roadmap sem contratar ninguém. Nas primeiras três semanas, a euforia tomou conta do escritório: o volume de pull requests abertos subiu 210% e funcionalidades inteiras brotavam da noite para o dia. Na quarta semana, o pesadelo começou. O tamanho médio dos PRs triplicou, os engenheiros seniores ficaram soterrados revisando milhares de linhas de código verboso gerado por IA que os desenvolvedores juniores não sabiam explicar como funcionava, uma falha sutil de injeção de SQL passou batida na revisão e o sistema ficou fora do ar por seis horas em plena segunda-feira.
 
-A verdade nua sobre Inteligência Artificial na engenharia de software é que a IA não elimina a necessidade de rigor arquitetural: ela amplifica exponencialmente tanto a competência quanto a incompetência do seu time. Quando escrever código fica quase gratuito, o gargalo da engenharia deixa de ser a digitação e passa a ser a especificação, a revisão crítica, os testes automatizados e a segurança.
+Na engenharia de software, a Inteligência Artificial amplifica o que o time já é: uma equipe com arquitetura limpa, testes e revisão anda mais rápido; uma equipe sem disciplina quebra produção na mesma proporção. ela amplifica exponencialmente tanto a competência quanto a incompetência do seu time. Quando escrever código fica quase gratuito, o gargalo da engenharia deixa de ser a digitação e passa a ser a especificação, a revisão crítica, os testes automatizados e a segurança.
 
 Se você adotar agentes de código sem redesenhar seu funil de qualidade, você cairá na **A Inflação de Código Alucinado**: a produção industrial de código órfão que ninguém na sua empresa compreende de verdade até o momento em que ele explode em produção.
 
@@ -3028,7 +3034,7 @@ IA (inteligência artificial) na engenharia interna é o uso de ferramentas base
 
 Não é "IA no produto" (chatbot do lado do cliente ou feature de ML embarcada em produto). É IA como ferramenta de produtividade interna. Os devs do time usam IA para escrever, revisar, testar e manter código.
 
-Até 2022, IA em engenharia era marginal (autocompleters de VSCode, com qualidade razoável). GitHub Copilot (2021 a 2022) popularizou code completion baseado em LLM. Cursor (2023) introduziu uma experiência em que o LLM atua como copiloto ativo, não só como completador. Claude Code (2024 a 2025) levou ao agente autônomo que executa tarefas complexas. Em 2026, os times de engenharia que não usam IA em ao menos vinte a quarenta por cento do fluxo de trabalho ficam para trás em produtividade.
+Até 2022, IA em engenharia era marginal (autocompleters de VSCode, com qualidade razoável). GitHub Copilot (2021 a 2022) popularizou code completion baseado em LLM. Cursor (2023) introduziu uma experiência em que o LLM atua como copiloto ativo, não só como completador. Em 2024, Devin e SWE-agent demonstraram agentes capazes de resolver issues de ponta a ponta; em 2025 e 2026, ferramentas como Claude Code, Codex e Gemini CLI consolidaram o uso de agentes autônomos diretamente no terminal e no fluxo de engenharia. Em 2026, os times de engenharia que não usam IA em ao menos vinte a quarenta por cento do fluxo de trabalho ficam para trás em produtividade.
 
 Este capítulo trata de quatro perguntas. Quando adotar. Como adotar. Quais ferramentas usar em quais contextos. Como gerenciar riscos (segurança, qualidade, dependência) e medir impacto real.
 
@@ -3053,7 +3059,7 @@ Contratação e cultura mudam. O perfil de engenheiro ideal evolui. Menos "digit
 
 **Tier 2, agentes autônomos.** Claude Code, Devin AI, Factory AI, AI Software Engineer. Recebem tarefa de alto nível ("implemente feature X"), executam com autonomia (ler código, escrever código, testar, e iterar). Produtividade substancial em tarefas bem escopadas. Ainda precisam supervisão. Agente de codificação do GitHub Copilot (que substituiu o Copilot Workspace em maio de 2025), OpenAI Codex e Gemini CLI. Recebem uma issue atribuída, trabalham de ponta a ponta e abrem o pull request para revisão. Open Interpreter, Aider. Open-source na mesma direção.
 
-**Tier 3, ferramentas de apoio.** Code review. Greptile, CodeRabbit, Graphite AI review. Substituem, ou augmentam, revisão humana. Testes. QA Wolf, Devzero, TestGPT. Geram testes automatizados a partir de código. Debugging. Tusk, Sentry AI, Datadog AI ops. Analisam logs, e stack traces. Documentação. Mintlify, Readme AI. Geram docs a partir de código. Migration. Gemini Code Transform, Facet. Migram código de uma tecnologia para outra.
+**Tier 3, ferramentas de apoio.** Code review. Greptile, CodeRabbit, Graphite AI review. Aceleram e complementam a revisão humana de código, sem substituir o julgamento de um engenheiro sênior. Testes: QA Wolf e Qodo (ex-CodiumAI/TestGPT). Migração de código: Amazon Q Developer (para atualização de versões de linguagem) e scripts assistidos por agentes. Geram testes automatizados a partir de código. Debugging. Tusk, Sentry AI, Datadog AI ops. Analisam logs, e stack traces. Documentação. Mintlify, Readme AI. Geram docs a partir de código. Migration. Gemini Code Transform, Facet. Migram código de uma tecnologia para outra.
 
 **Tier 4, infraestrutura de model.** Self-hosted LLMs (Llama, Mistral, DeepSeek Coder), em empresas sensíveis a dados. API providers (Anthropic, OpenAI, Google), para uso geral. Fine-tuned models customizados (empresas com base de código grande, e recursos, treinam modelo próprio).
 
@@ -3072,15 +3078,15 @@ Ferramentas de apoio (tier 3). Adoção seletiva por caso de uso. Code review AI
 
 Infraestrutura self-hosted (tier 4). Apenas empresas com fortes restrições de dados (healthtech, fintech, govtech, dados regulamentados de clientes). Overhead grande.
 
-### O Playbook de Adoção Segura: Regras de Contexto, Testes Gerados por IA e Guardrails no CI/CD
+### Playbook de Adoção Segura: Arquivos de Contexto, Testes Obrigatórios e Travas no CI/CD
 
-#### Fase 2, assessment (mês 1)
+#### Etapa 1: diagnóstico (mês 1)
 
-Entender o que o time usa hoje, o que sabe, e o que precisa. Perguntas. Quantos devs já usam Copilot, ou similares? (Tipicamente, alguns adotaram individualmente). Quais linguagens, e frameworks dominantes? (Algumas ferramentas são melhores em certas linguagens). Quais restrições de dados? (O código pode sair para API de modelo? Cliente confidencial?). Qual o estado do onboarding de novos devs? (IA pode acelerar). Quais são os gargalos atuais, testes, revisão, bug fixing, ou feature velocity?
+No primeiro mês, mapeie o que o time já utiliza por conta própria e onde estão os gargalos reais do fluxo. Perguntas essenciais: quantos desenvolvedores já usam Copilot, Cursor ou agentes equivalentes? (Tipicamente, alguns adotaram individualmente). Quais linguagens, e frameworks dominantes? (Algumas ferramentas são melhores em certas linguagens). Quais restrições de dados? (O código pode sair para API de modelo? Cliente confidencial?). Qual o estado do onboarding de novos devs? (IA pode acelerar). Quais são os gargalos atuais, testes, revisão, bug fixing, ou feature velocity?
 
 #### Fase 3, piloto (mês 2 a 3)
 
-Escolher duas a três ferramentas. Testar em subset do time (cinco a dez devs). Critérios de sucesso. Os developers relatam produtividade subjetiva. Métricas. PRs mergeados por dev por semana, bugs escapando para produção, e cycle time. Custo por dev por mês, versus benefício percebido.
+Escolher duas a três ferramentas. Testar em subset do time (cinco a dez devs). Critérios de sucesso. Compare a percepção subjetiva dos desenvolvedores (que pode enganar, como mostrou o estudo do METR em 2025) com métricas reais de fluxo e qualidade: tempo de ciclo até produção, taxa de falha de mudança, tamanho médio de PR, tempo de fila de revisão e bugs em produção. Custo por dev por mês, versus benefício percebido.
 
 #### Fase 4, rollout, e governança (mês 3 a 6)
 
@@ -3090,7 +3096,7 @@ Se o piloto for sucesso, rollout para todo o time. Treinamento em boas práticas
 
 Integração profunda em workflow. Modelos fine-tuned para o código-base da empresa (se justifica). Agentes autônomos para tarefas repetitivas. Medição sistemática de produtividade, e qualidade. Evolução de role descriptions de engineer, para refletir a nova realidade.
 
-### Onde a IA Multiplica por 5x: Testes Unitários, Migrações, Boilerplate e Documentação Viva
+### Onde a IA Mais Rende na Engenharia: Testes Unitários, Migrações, Código Repetitivo e Documentação Viva
 
 **Caso 1, onboarding.** Dev novo em empresa pode demorar duas a quatro semanas para entender o código-base. Com IA acessando código, mais docs, mais explicações ("explique o que faz esse módulo"), o tempo cai para três a sete dias.
 
@@ -3110,7 +3116,7 @@ Integração profunda em workflow. Modelos fine-tuned para o código-base da emp
 
 **Caso 9, entendimento de código legado.** O dev precisa modificar função escrita há cinco anos, por alguém que saiu. IA lê função, explica em português, e sugere como modificar. Tempo reduzido significativamente.
 
-**Caso 10, geração de boilerplate.** Novo endpoint REST, novo CRUD, ou nova migração de database. Padrões repetitivos. IA gera oitenta por cento do código. O dev ajusta. Tempo por task cai cinquenta a setenta por cento.
+**Caso 10, geração de boilerplate.** Novo endpoint REST, novo CRUD, ou nova migração de database. Padrões repetitivos. Em tarefas padronizadas, a IA rascunha a maior parte da estrutura repetitiva, cabendo ao desenvolvedor revisar e ajustar regras de negócio (meça a redução real de tempo no piloto do seu próprio time antes de projetar ganhos para o conselho).
 
 ### Onde a IA Engana e Quebra: Lógica de Domínio Crítica, Concorrência e Segurança Criptográfica
 
@@ -3126,7 +3132,7 @@ Performance optimization em hot paths. Requer perfil detalhado, e trade-offs pro
 
 Entendimento de business logic complexa, que só o dev sênior tem. A IA não substitui conhecimento tácito.
 
-### Blindagem de Código e IP: Zero Data Retention, SAST Automatizado e Segredos
+### Blindagem de Código e Propriedade Intelectual: Zero Data Retention (ZDR), SAST e Segredos
 
 Riscos.
 
@@ -3147,7 +3153,7 @@ Alucinação. A IA gera API call que não existe, ou função de library que nã
 
 ### Medindo o Ganho Real Além da Vaidade: Lead Time, Cobertura de Testes e Change Failure Rate
 
-Medir "aumento de produtividade por IA" é difícil. Mas essencial.
+Medir o ganho real de produtividade com IA exige separar volume de código de entrega de valor: estabeleça a linha de base de tempo de ciclo, taxa de falha e tempo de revisão antes de iniciar o piloto.
 
 Métricas úteis.
 
@@ -3190,15 +3196,15 @@ Ramp-up mais rápido. O time pode absorver juniors mais rapidamente.
 
 Seniors são mais valiosos (não menos). Arquitetura, decisões, revisão de IA output. Tudo depende de senior judgment.
 
-### A Realidade Brasileira: Custo em Dólar por Assento, Legado Fiscal e ROI Líquido
+### A Conta no Brasil: Custo Efetivo em Dólar por Assento, Complexidade Fiscal e ROI Líquido
 
-Custo de ferramentas em real. Copilot custa US$ 10 a US$ 20 por mês por dev (cerca de R$ 50 a R$ 100). Cursor Pro é US$ 20 por mês. Claude Code, Claude Pro, ou API. Gemini Pro. Os custos variam. Para time de trinta devs, o custo de ferramenta-IA é R$ 1.500 a R$ 3.000 por mês. Baixo, comparado a payroll de R$ 600 mil a R$ 1,2 milhão por mês. ROI é positivo, mesmo com ganho marginal.
+Custo de ferramentas em real. Copilot custa US$ 10 a US$ 20 por mês por dev (cerca de R$ 50 a R$ 100). Cursor Pro é US$ 20 por mês. Claude Code, Claude Pro, ou API. Gemini Pro. Os custos variam. Para um time de trinta desenvolvedores em 2026, o desembolso mensal varia de R$ 3.500 a R$ 6.000 em planos básicos de autocompletar (US$ 20/assento mais câmbio e tributos) até R$ 25.000 a R$ 60.000 no uso intensivo de agentes autônomos e APIs empresariais com ZDR. Baixo, comparado a payroll de R$ 600 mil a R$ 1,2 milhão por mês. ROI é positivo, mesmo com ganho marginal.
 
 Regulamentação LGPD. Código-fonte não deve conter dados pessoais embutidos; se o fluxo de engenharia ou operação enviar dados pessoais a fornecedor de IA no exterior, a LGPD exige base legal, contrato de operador (DPA) e mecanismo de transferência internacional como as cláusulas-padrão da ANPD (Resolução CD/ANPD 19/2024). Usar ferramenta que garanta não treinamento é condição. Versões enterprise (Copilot Enterprise, Claude Enterprise, Cursor Business) têm garantias adequadas.
 
 Competência do time brasileiro. Os devs brasileiros tipicamente têm bom inglês (maioria), e adaptam-se rápido a ferramentas americanas. A barreira de adoção é cultura interna ("não vou usar, prefiro pensar sozinho"), mais que competência técnica.
 
-Escassez de talento sênior. O Brasil tem escassez estrutural de engs seniors (muitos foram para empresas gringas, com salário em dólar). A IA pode compensar parcialmente. Junior, mais IA, em algumas tarefas, substitui mid-level.
+Escassez de talento sênior. O Brasil tem escassez estrutural de engs seniors (muitos foram para empresas gringas, com salário em dólar). A IA pode compensar parcialmente. Em tarefas bem delimitadas, um desenvolvedor júnior apoiado por IA entrega o volume de um pleno, mas sem revisão sênior entrega na mesma velocidade os defeitos de arquitetura e segurança que ainda não sabe enxergar.
 
 ### As Armadilhas da Adoção Ingênua: PRs Gigantes, Vazamento de Dados e Atrofia Júnior
 
@@ -3263,7 +3269,7 @@ Inspecione os últimos vinte pull requests aprovados no repositório da sua empr
 
 **Regra de Sobrevivência:** Proíba terminantemente que qualquer linha de código gerada por IA entre na branch principal sem cobertura de teste automatizado correspondente e sem que o autor consiga explicar cada decisão linha por linha.
 
-**O Ritual de Segunda-Feira às 9h:** Padronize um arquivo de instruções arquiteturais e regras de estilo do repositório (como `.cursorrules` ou `CLAUDE.md`) na raiz do projeto e configure análise estática de segurança (SAST) obrigatória no pipeline de CI antes de qualquer revisão humana.
+**O Ritual de Segunda-Feira às 9h (rotina semanal de 30 minutos):** Padronize um arquivo de instruções arquiteturais e regras de estilo do repositório (como `.cursorrules` ou `CLAUDE.md`) na raiz do projeto e configure análise estática de segurança (SAST) obrigatória no pipeline de CI antes de qualquer revisão humana.
 
 
 ---
@@ -3272,7 +3278,7 @@ Inspecione os últimos vinte pull requests aprovados no repositório da sua empr
 
 ### A Escala Desacoplada de Headcount: Como Multiplicar a Operação por 4x Sem Dobrar a Folha
 
-Em Belo Horizonte, a Dra. Camila enfrentava a parede clássica das empresas de serviços e saúde no Brasil: para cada nova clínica aberta, ela precisava contratar mais três atendentes de confirmação no WhatsApp, dois analistas de faturamento para auditar glosas de convênios e um assistente financeiro para conciliar notas fiscais e boletos. Com doze unidades, o backoffice já somava trinta e quatro pessoas em três salas comerciais na Savassi, a margem EBITDA estava esmagada pelos encargos trabalhistas e os erros humanos de digitação comiam R$ 85 mil por mês em glosas médicas não recuperadas. Em vez de alugar mais um andar e contratar mais vinte assistentes para expandir até trinta unidades, Camila redesenhou cada fluxo repetitivo combinando automação determinística via API com agentes de IA generativa supervisionados por exceção. Dezoito meses depois, a rede operava trinta e cinco unidades com o mesmo time de backoffice: e com metade da taxa de erro.
+Em Belo Horizonte, a Dra. Camila enfrentava a parede clássica das empresas de saúde e serviços especializados no Brasil: a cada nova unidade integrada à rede odontológica, precisava multiplicar atendentes de confirmação no WhatsApp, analistas de faturamento para auditar glosas de convênios odontológicos: para cada nova clínica aberta, ela precisava contratar mais três atendentes de confirmação no WhatsApp, dois analistas de faturamento para auditar glosas de convênios e um assistente financeiro para conciliar notas fiscais e boletos. Ao expandir de quatro unidades próprias para uma rede de doze clínicas odontológicas (entre próprias e franqueadas), a central de operações e serviços compartilhados já somava vinte e quatro pessoas em três salas comerciais na Savassi, a margem EBITDA estava esmagada pelos encargos trabalhistas e os erros humanos de digitação comiam R$ 85 mil por mês em glosas médicas não recuperadas. Em vez de alugar mais um andar e contratar mais vinte assistentes para expandir até trinta unidades, Camila redesenhou cada fluxo repetitivo combinando automação determinística via API com agentes de IA generativa supervisionados por exceção. Dezoito meses depois, a rede operava trinta e cinco unidades com o mesmo time de backoffice: e com metade da taxa de erro.
 
 O segredo sujo do crescimento tradicional é que muitas empresas confundem crescer o negócio com inchar a folha de pagamento em tarefas mecânicas de copiar e colar entre sistemas que não conversam.
 
@@ -3280,13 +3286,13 @@ Bem-vindo à era da **A Escala Desacoplada de Headcount (AI Ops)**: a disciplina
 
 ---
 
-**AI Ops e Automação Inteligente, Como Usar IA para Operar Melhor**
+A disciplina de operações assistidas por IA (AI Ops) aplica automação inteligente para escalar processos repetitivos com controle humano.
 
 > [!tip] As quatro camadas de IA neste livro
 > IA aparece em quatro camadas, cada uma com decisões e ferramentas distintas. Você está em **AI Ops** (camada 4). As outras três:
 >
 > - **Camada 1: IA como acelerador do empreendedor** ([[IGNICAO-Vol-1-Ideacao#CAPÍTULO 10 — IA GENERATIVA E AGENTES COMO COPILOTO E ACELERADOR DO FUNDADOR (2026)|Capítulo 10 (IA Generativa e Agentes como Copiloto e Acelerador do Fundador (2026)) (Vol. 1)]]). Uso pessoal do fundador para escrita, pesquisa, análise.
-> - **Camada 2: IA como copiloto do fundador** ([[IGNICAO-Vol-1-Ideacao#CAPÍTULO 10 — IA GENERATIVA E AGENTES COMO COPILOTO E ACELERADOR DO FUNDADOR (2026)|Capítulo 10 (IA Generativa e Agentes como Copiloto e Acelerador do Fundador (2026)) (Vol. 1)]]). Versão atualizada de I para 2026, com casos de uso de alto ROI.
+> - **Camada 2: IA como copiloto do fundador** ([[IGNICAO-Vol-1-Ideacao#CAPÍTULO 10 — IA GENERATIVA E AGENTES COMO COPILOTO E ACELERADOR DO FUNDADOR (2026)|Capítulo 10 (IA Generativa e Agentes como Copiloto e Acelerador do Fundador (2026)) (Vol. 1)]]). Versão atualizada da Camada 1 para o cenário de 2026, com casos de uso de alto retorno operacional.
 > - **Camada 3: AI no produto** ([[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 10 — AI COMO PARTE DO PRODUTO (AI-NATIVE PRODUCT)|Capítulo 10 (AI como Parte do Produto (AI-Native Product)) (Vol. 4)]]). LLM como componente crítico do produto que vai a mercado.
 
 ---
@@ -3313,7 +3319,7 @@ Para startups nos estágios cobertos em [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 11 —
 
 ---
 
-### Anatomia de um Workflow Híbrido: Combinando Regras Determinísticas com Raciocínio de LLM
+### Anatomia do Fluxo Híbrido: Regras Determinísticas, Raciocínio de LLM e Fila Humana
 
 Nem todo trabalho é automatizável com IA. Mas cinco categorias de trabalho são substituíveis hoje, com modelos disponíveis comercialmente, sem engenharia de ponta.
 
@@ -3338,17 +3344,17 @@ E-mails de follow-up, propostas comerciais, respostas de suporte, posts de redes
 
 **Tipo 4: Extração de dados estruturados**
 
-Receber um PDF de nota fiscal e extrair CNPJ, valor, data e itens para uma planilha. Ler um currículo e preencher campos de um ATS. Processar um formulário de cadastro livre e normalizar os dados para um banco estruturado. A IA faz isso com precisão alta quando o schema de saída é bem definido no prompt.
+Para nota fiscal eletrônica (NF-e ou NFS-e), baixe o arquivo XML oficial e extraia CNPJ, valor, data e itens com código determinístico; reserve o LLM para documentos sem padrão fixo, como contratos em PDF, laudos clínicos, recibos digitalizados Ler um currículo e preencher campos de um ATS. Processar um formulário de cadastro livre e normalizar os dados para um banco estruturado. A IA faz isso com precisão alta quando o schema de saída é bem definido no prompt.
 
 **Tipo 5: Suporte L1**
 
-Responder perguntas frequentes, explicar como usar funcionalidades, esclarecer dúvidas de cobrança e conta. O modelo treinado na base de conhecimento interna responde com mais consistência e velocidade do que um agente humano para perguntas que já têm resposta documentada.
+Responder perguntas frequentes, explicar como usar funcionalidades, esclarecer dúvidas de cobrança e conta. O modelo que consulta dinamicamente a base de conhecimento interna (via RAG) responde com mais consistência e velocidade do que um atendente humano para perguntas que já têm resposta documentada.
 
 O limite do suporte L1 com IA é a consulta que exige julgamento, empatia com situação incomum ou acesso a sistemas legados mal documentados. Nesses casos, a IA deve escalar para humano, não tentar responder.
 
 ---
 
-### A Stack Realista no Brasil: Orquestradores, APIs, WhatsApp e Integração com ERPs Nacionais
+### A Pilha Realista no Brasil: Orquestradores, MCP, WhatsApp e Integração com ERPs Nacionais
 
 Uma stack funcional de AI Ops não exige engenheiro de ML, cientista de dados ou infraestrutura própria de GPU. O seguinte conjunto de ferramentas cobre a maioria dos casos de uso de startups em estágio inicial e de crescimento.
 
@@ -3405,7 +3411,7 @@ Para startups com wiki interna no Notion, Confluence ou Google Drive, esse fluxo
 
 ---
 
-### Atacando as Cinco Minas de Ouro: Financeiro, Jurídico, RH, SDR e Operações de Campo
+### Atacando as Áreas de Maior Retorno: Atendimento, Vendas, Financeiro, Jurídico e Operações
 
 **Customer Success com IA**
 
@@ -3417,7 +3423,7 @@ Sugestão de resposta: o agente vê o ticket e uma sugestão de resposta gerada 
 
 **Vendas com IA**
 
-Enriquecimento de leads: ao receber um lead inbound com nome e e-mail corporativo, a IA busca informações públicas (LinkedIn, site, notícias recentes) e preenche campos no CRM automaticamente: setor, tamanho estimado, cargo do contato, tecnologias usadas.
+Enriquecimento de leads: ao receber um lead inbound com nome e e-mail corporativo, a automação consulta fontes empresariais públicas (dados de CNPJ/CNAE e site institucional) ou provedores B2B com base legal documentada sob a LGPD (evitando raspagem não autorizada de perfis pessoais no LinkedIn) e preenche os campos de qualificação no CRM: setor, tamanho estimado, cargo do contato, tecnologias usadas.
 
 Personalização de outreach: o SDR não escreve o e-mail do zero. Um template é preenchido com informações específicas do lead (cargo, empresa, contexto recente) pelo modelo. O SDR revisa e envia. A taxa de resposta aumenta porque o e-mail parece escrito para aquela pessoa.
 
@@ -3436,7 +3442,7 @@ Documentação técnica: comentários de código, READMEs, changelogs e document
 
 ---
 
-### Human-in-the-Loop e Trilha de Auditoria: Como Impedir Que um Agente Faça Estornos ou Promessas Ilegais
+### Alçada Humana e Trilha de Auditoria: Como Impedir Estornos Indevidos ou Promessas Ilegais
 
 Usar LLMs externos para operar uma empresa brasileira cria obrigações legais e riscos contratuais que precisam ser gerenciados antes de escalar qualquer automação.
 
@@ -3447,7 +3453,7 @@ A Lei Geral de Proteção de Dados (Lei 13.709/2018) classifica dados pessoais d
 O que isso significa na prática:
 
 - Antes de enviar qualquer dado de cliente para OpenAI, Anthropic ou Google, verifique a região de processamento, assine o adendo de proteção de dados (Data Processing Agreement: DPA), incorpore as cláusulas-padrão da ANPD para transferência internacional (Resolução CD/ANPD 19/2024, art. 33 da LGPD) e registre o fluxo no inventário de dados. Todos os grandes fornecedores têm DPAs disponíveis, mas é preciso assinar.
-- Dados sensíveis (saúde, finanças, biometria, posição política) têm restrições adicionais. Evite enviá-los para LLMs externos sem avaliação jurídica específica.
+- Dados pessoais sensíveis (origem racial ou étnica, convicção religiosa, opinião política, saúde, vida sexual, dados genéticos ou biométricos, conforme o art. 5º, II, da LGPD) exigem base legal estrita; já dados financeiros, embora não listados como sensíveis na LGPD, são protegidos pelo sigilo bancário (LC 105/2001) e por normas do Banco Central. Evite enviá-los para LLMs externos sem avaliação jurídica específica.
 - Informe na política de privacidade que dados podem ser processados por ferramentas de IA de terceiros. Clientes têm direito de saber.
 
 **O que não pode entrar no prompt de um LLM de terceiro**
@@ -3473,19 +3479,19 @@ Antes de colocar automação de IA em produção, valide em um ambiente controla
 4. Documente o prompt em uso, a versão do modelo e a data de ativação. Quando o comportamento mudar (e vai mudar quando o fornecedor atualizar o modelo), você saberá o que comparar.
 
 > [!warning]
-> Modelos de LLM são atualizados pelos fornecedores sem aviso prévio. O comportamento que você testou em fevereiro pode ser diferente em junho. Mantenha avaliações automatizadas (evals) para detectar regressões em automações críticas.
+> Se a sua automação aponta para o apelido genérico do modelo (como `latest`), o comportamento muda quando o fornecedor atualiza o ponteiro: fixe sempre a versão datada do modelo em produção, acompanhe o calendário de descontinuação e rode sua suíte de avaliação (evals) antes de migrar. O comportamento que você testou em fevereiro pode ser diferente em junho. Mantenha avaliações automatizadas (evals) para detectar regressões em automações críticas.
 
 ---
 
 ### A Conta na Ponta do Lápis: Custo de Tokens e Manutenção vs. Custo CLT Total
 
-A reclamação mais comum de founders que abandonam AI Ops prematuramente é "ficou caro demais". Na maioria dos casos, o problema não é o custo da IA: é a ausência de medição do custo do trabalho manual que a IA substitui.
+A reclamação mais comum de founders que abandonam AI Ops prematuramente é "ficou caro demais". Quem abandona projetos de automação com IA alegando custo alto quase sempre deixou de medir antes o custo real do trabalho manual e do retrabalho que a automação substitui.
 
 **Como calcular o custo por operação**
 
 ```text
 Custo com IA (por operação):
-  Tokens de entrada + tokens de saída × preço por token
+  (Tokens de entrada × preço por token de entrada) + (tokens de saída × preço por token de saída)
   + custo da infraestrutura de orquestração (n8n, Make)
   + tempo de revisão humana (se houver)
 
@@ -3534,7 +3540,7 @@ O atendimento ao cliente via IA no Brasil tem particularidades que afetam a esco
 
 Um chatbot tradicional opera com árvores de decisão e respostas fixas. O cliente percebe imediatamente quando sai do roteiro: o bot não entende, pede para reformular ou transfere sem contexto. A taxa de abandono é alta e o NPS do atendimento cai.
 
-Um agente IA baseado em LLM interpreta a intenção do cliente em linguagem natural, consulta bases de conhecimento dinamicamente e compõe respostas contextualizadas. O cliente não percebe a diferença de um humano em consultas simples e médias.
+Um agente IA baseado em LLM interpreta a intenção do cliente em linguagem natural, consulta bases de conhecimento dinamicamente e compõe respostas contextualizadas. Em consultas simples e médias, o agente resolve a demanda na hora, identificando-se de forma transparente como assistente virtual da empresa e mantendo o atalho visível para falar com um atendente humano.
 
 ```text
 Chatbot tradicional          Agente IA
@@ -3555,7 +3561,7 @@ Para integrar IA com WABA:
 
 1. Obtenha acesso à API oficial do WhatsApp Business via Meta ou via BSP (Business Solution Provider) homologado: Zenvia, Take Blip, Infobip, Twilio são os mais usados no Brasil.
 2. Use n8n, Make ou LangChain para conectar o webhook do WhatsApp ao LLM.
-3. Respeite as janelas de atendimento da Meta: fora de uma conversa iniciada pelo cliente nas últimas 24 horas, só é possível enviar mensagens usando templates pré-aprovados.
+3. Respeite a janela de 24 horas contada a partir da última mensagem enviada pelo cliente na API oficial do WhatsApp Business (considerando a cobrança por mensagem por categoria de template de marketing, utilidade ou autenticação atualizada pela Meta em 2025–2026), só é possível enviar mensagens usando templates pré-aprovados.
 4. Implemente handoff para humano com transferência de contexto. O agente humano deve receber o histórico da conversa com o bot, não começar do zero.
 
 > [!warning]
@@ -3574,7 +3580,7 @@ Fintechs supervisionadas pelo Banco Central (IPs, SFN, SCDs, SEPs) que usam IA e
 
 ---
 
-### Arquitetura Agnóstica de Modelo: Como Trocar de Provedor de LLM em Duas Horas Sem Parar a Empresa
+### Arquitetura Agnóstica de Modelo: Como Trocar de Provedor de LLM em Dias Sem Parar a Empresa
 
 Toda startup que constrói operações críticas sobre APIs de terceiros assume risco de fornecedor. Com IA, esse risco tem características específicas que precisam ser gerenciadas.
 
@@ -3671,7 +3677,9 @@ CUSTOS E QUALIDADE
 
 ---
 
-### O Espelho de Elon Musk e W. Edwards Deming: Você Está Automatizando um Processo Inteligente ou Acelerando a Burrice?
+### O Espelho de W. Edwards Deming e Elon Musk: Você Está Automatizando um Processo Limpo ou Acelerando o Desperdício?
+
+O algoritmo de engenharia popularizado por Elon Musk (relatado por Walter Isaacson, 2023) ordena cinco passos rígidos: questionar cada requisito, deletar etapas inúteis, simplificar o fluxo, acelerar o ciclo e só por último automatizar, ecoando a lição clássica de W. Edwards Deming de que automatizar um processo ruim apenas multiplica o defeito em alta velocidade.
 
 **Fechando o ciclo na trincheira:** Quando a **Dra. Camila** trouxe este protocolo para a operação da clínica em Belo Horizonte, o gargalo que abriu este capítulo deixou de depender do seu heroísmo pessoal na cadeira e passou a rodar como sistema auditável pela equipe.
 
@@ -3683,7 +3691,7 @@ Antes de contratar a próxima leva de analistas operacionais ou plugar uma API d
 
 **Regra de Sobrevivência:** Nunca automatize um fluxo que você ainda não desenhou no papel, limpou os desperdícios e executou manualmente até dominar cada exceção.
 
-**O Ritual de Segunda-Feira às 9h:** Mapeie as três tarefas manuais que mais consomem horas repetitivas da sua operação (como triagem de tickets, leitura de notas fiscais ou qualificação de leads), meça o custo mensal em horas humanas e construa o primeiro protótipo automatizado com revisão humana de saída até sexta-feira.
+**O Ritual de Segunda-Feira às 9h (rotina semanal de 30 minutos):** Mapeie as três tarefas manuais que mais consomem horas repetitivas da sua operação (como triagem de tickets, leitura de notas fiscais ou qualificação de leads), meça o custo mensal em horas humanas e construa o primeiro protótipo automatizado com revisão humana de saída até sexta-feira.
 
 
 ---
@@ -3698,7 +3706,7 @@ A estrutura do seu organograma determina a arquitetura do seu produto e a veloci
 
 ### O Espelho Implícito da Lei de Conway e a Armadilha do Cargo Cult Organizacional
 
-Em Recife, quando o marketplace D2C de Rafael e Bia bateu quarenta e oito funcionários, um consultor de gestão convenceu os fundadores a implantar "o Modelo Spotify completo": com tribos, squads, capítulos, guildas e agilistas dedicados. Três meses depois, Bia descobriu que para mudar a posição do botão de pagamento via Pix na tela de fechamento de pedido era necessário agendar sete reuniões de alinhamento entre o Squad de Checkout, o Squad de Pagamentos, o Capítulo de Frontend, a Guilda de Segurança e o Time de Plataforma. Uma alteração que levava duas horas quando eles tinham quinze pessoas passou a levar seis semanas. Pior: a tela de checkout do aplicativo começou a apresentar três estilos visuais diferentes e duas chamadas redundantes de banco de dados: exatamente uma para cada squad envolvido.
+Em Recife, quando o marketplace D2C de Rafael e Bia bateu quarenta e oito funcionários, um consultor de gestão convenceu os fundadores a implantar "o Modelo Spotify completo": com tribos, squads, capítulos, guildas e agilistas dedicados. Três meses depois, Bia, operando de Goiânia enquanto Rafael liderava o produto em Recife, descobriu que para mudar a posição do botão de pagamento via Pix na tela de fechamento de pedido era necessário agendar sete reuniões de alinhamento (problema que eles só resolveriam ao mapear as dependências na seção 8.1, unificar o fluxo de checkout na 8.4 e reverter os comitês na 8.5) entre o Squad de Checkout, o Squad de Pagamentos, o Capítulo de Frontend, a Guilda de Segurança e o Time de Plataforma. Uma alteração que levava duas horas quando eles tinham quinze pessoas passou a levar seis semanas. Pior: a tela de checkout do aplicativo começou a apresentar três estilos visuais diferentes e duas chamadas redundantes de banco de dados: exatamente uma para cada squad envolvido.
 
 Melvin Conway formulou em 1967 a lei que nenhum organograma bonito consegue revogar: qualquer organização que projeta um sistema produzirá inevitavelmente um design cuja estrutura é uma cópia exata da estrutura de comunicação dessa organização.
 
@@ -3716,7 +3724,7 @@ Quando você copia o organograma de uma gigante de cinco mil funcionários para 
 
 ### Onde o Design Organizacional Se Conecta ao Ciclo de Vida do Talento
 
-O fundador-leitor que tenta montar o ciclo completo de gestao de pessoas precisa atravessar vários capítulos distribuidos pelo livro. Este mapa orienta a sequencia. A Fatia People reune 26 apendices organizados pelos estagios do ciclo de talento.
+O fundador que estrutura o ciclo completo de gestão de pessoas atravessa diversos capítulos distribuídos pela coleção. Este mapa orienta a sequencia. Este quadro resume onde cada etapa do ciclo de talentos e desenho organizacional é aprofundada nos volumes da obra.
 
 **Atrair e contratar**
 
@@ -3773,11 +3781,11 @@ O fundador-leitor que tenta montar o ciclo completo de gestao de pessoas precisa
 
 ### 7.1 — Lei de Conway aplicada a startups
 
-Em 1967, o programador Melvin Conway publicou uma observação que ficou sendo citada para sempre: "As organizações que projetam sistemas são constrangidas a produzir sistemas cujos designs são cópias das estruturas de comunicação dessas organizações."
+Em abril de 1968, na revista *Datamation*, o programador Melvin Conway publicou no artigo *"How Do Committees Invent?"* a observação que se tornaria clássica: "As organizações que projetam sistemas são constrangidas a produzir sistemas cujos designs são cópias das estruturas de comunicação dessas organizações."
 
 A formulação original era descritiva. O uso moderno é prescritivo. Se você sabe que sua arquitetura vai espelhar sua estrutura de comunicação, então projete a estrutura de comunicação que produz a arquitetura que você quer. É o que os engenheiros da Thoughtworks chamam de Inverse Conway Maneuver (manobra de Conway invertida: reorganizar times para induzir a arquitetura desejada). Você reorganiza os times antes de reorganizar o código, para que o código siga naturalmente.
 
-Para uma startup, a implicação é imediata. Se você tem um único time de engenharia fazendo backend, frontend e mobile, você vai produzir um monólito com fronteiras mal definidas. Se você separar frontend e backend em times diferentes com SLAs entre si, você vai produzir uma API que vira controle de facto entre camadas. Se você criar um time por jornada do usuário (cadastro, pagamento, engajamento), a tendência é que os serviços reflitam essas jornadas.
+Para uma startup, a implicação é imediata. Se você tem um único time de engenharia fazendo backend, frontend e mobile, você vai produzir um monólito com fronteiras mal definidas. Se você separar frontend e backend em times diferentes com SLAs entre si, você vai produzir uma API que vira o contrato de fato entre as camadas. Se você criar um time por jornada do usuário (cadastro, pagamento, engajamento), a tendência é que os serviços reflitam essas jornadas.
 
 O erro clássico é o inverso: a empresa adota uma arquitetura de microsserviços enquanto mantém um único time de 12 engenheiros que decide tudo junto em reuniões de duas horas. O resultado é a arquitetura de microsserviços com a latência de decisão de um monólito.
 
@@ -3790,13 +3798,13 @@ O erro clássico é o inverso: a empresa adota uma arquitetura de microsserviço
 - Onde ficam os bugs de integração mais caros? Normalmente no limite entre dois times que têm incentivos diferentes.
 - Quais decisões técnicas são travadas por dependência organizacional? Essa é a dívida que Conway acumula.
 
-A Lei de Conway não determina que estrutura criar. Ela determina que você precisa projetar estrutura e arquitetura juntas, não sequencialmente.
+A Lei de Conway não determina que estrutura criar. Ela exige pensar estrutura de times e arquitetura de software em conjunto: na prática, redesenhe primeiro as fronteiras de comunicação dos times (Manobra Reversa de Conway) para que a arquitetura do código acompanhe a nova estrutura.
 
 ---
 
 ### 7.2 — Modelos de estrutura
 
-Existem três arquétipos de estrutura organizacional relevantes para startups. Eles não são estágios evolutivos lineares: são escolhas com trade-offs.
+Existem quatro arquétipos de estrutura organizacional relevantes para startups em crescimento (funcional, por missão/squads, orientado a plataforma e matricial, em que o profissional responde simultaneamente a um líder funcional e a um líder de produto ou região, modelo que gera paralisia se adotado cedo demais). Eles não são estágios evolutivos lineares: são escolhas com trade-offs.
 
 #### Estrutura funcional
 
@@ -3812,7 +3820,7 @@ Maximiza autonomia e velocidade dentro de cada divisão. O custo é duplicação
 
 #### Modelo de squads (e a crítica ao Spotify Model)
 
-O Spotify Model virou referência em 2012 depois de dois posts de blog do Henrik Kniberg descrevendo como o Spotify organizava times. O modelo tem quatro conceitos:
+O modelo da Spotify ficou famoso a partir do artigo de Henrik Kniberg e Anders Ivarsson (2012) e dos dois vídeos de Kniberg sobre a cultura de engenharia da empresa (2014) descrevendo como o Spotify organizava times. O modelo tem quatro conceitos:
 
 - **Squad**: time pequeno (6 a 12 pessoas) com missão específica, autonomia para decidir como trabalhar, dono de uma área de produto.
 - **Tribe**: conjunto de squads com afinidade de produto ou domínio, agrupadas geograficamente.
@@ -3830,7 +3838,7 @@ O modelo virou benchmark porque resolvia o problema de como escalar sem perder a
 Estágio              Modelo recomendado        Razão
 -----------          ----------------------    ------------------------------
 1-15 pessoas         Funcional flat            Custo de coordenação baixo
-15-50 pessoas        Squads + funções shared   Autonomia sem duplicação
+15-50 pessoas        Squads + funções compartilhadas (sem tribos nem comitês pesados)   Autonomia sem duplicação
 50-150 pessoas       Squads + platform team    Economias de escala técnica
 150+ pessoas         Divisional + plataforma   Complexidade exige separação
 ```
@@ -3841,7 +3849,7 @@ A regra prática: mude de modelo quando o custo de coordenação na estrutura at
 
 ### 7.3 — Spans and layers
 
-Span of control (amplitude de comando) é o número de reports diretos que um gestor tem. Layer (camada hierárquica) é cada nível entre o CEO e o colaborador individual.
+Amplitude de comando (span of control) é o número de liderados diretos que se reportam a um gestor. Layer (camada hierárquica) é cada nível entre o CEO e o colaborador individual.
 
 #### Quanto span é razoável?
 
@@ -3904,7 +3912,7 @@ A primeira causa é escopo mal definido. A solução é clarificar os escopos e 
 A segunda causa é incentivo errado. Se cada squad é avaliada somente pelo seu próprio OKR, qualquer problema que cruze escopos não tem dono com incentivo para resolver. A solução é criar OKRs compartilhados para outcomes que cruzam squads, e tornar a colaboração visível e recompensada.
 
 > [!important] Sinal de problema sistêmico
-> Se você ouve "isso não é nossa squad" mais de duas vezes por mês, o problema não é de atitude. É de design. Squads bem desenhadas têm incentivo e mecanismo para resolver o que pertence ao seu domínio. Quando o comportamento de evasão se generaliza, o design organizacional está criando o comportamento.
+> Se você ouve "isso não é nossa squad" mais de duas vezes por mês, Quando essa resposta se repete na rotina, é o próprio desenho organizacional que está incentivando a evasão. Squads bem desenhadas têm incentivo e mecanismo para resolver o que pertence ao seu domínio. Quando o comportamento de evasão se generaliza, o design organizacional está criando o comportamento.
 
 ---
 
@@ -3922,7 +3930,7 @@ Sinais de que a estrutura está impedindo a estratégia:
 - O produto está crescendo para um novo segmento que a estrutura funcional trata como edge case, mas que representa 40% da receita futura.
 - A arquitetura técnica que a estratégia exige não pode ser construída pelos times na configuração atual.
 
-Reorganize quando a escala quebrou os mecanismos de coordenação (ver FB.6). Não reorganize para resolver conflitos interpessoais, para acomodar ego de líderes ou porque outro founder contou que reestruturou e ficou melhor.
+Reorganize quando a escala quebrou os mecanismos de coordenação (ver seção 8.6; para separação entre plataforma e produto, ver seção 8.7). Não reorganize para resolver conflitos interpessoais, para acomodar ego de líderes ou porque outro founder contou que reestruturou e ficou melhor.
 
 #### Quando reorganização é fuga de problema
 
@@ -3949,7 +3957,7 @@ Se a reorganização for necessária, execute rápido e comunique honestamente.
 
 ### 7.6 — Crescimento e estrutura — o que quebra em cada limiar
 
-O número de Dunbar (Robin Dunbar, 1992) descreve os limites cognitivos de manutenção de relações sociais: 5 relações íntimas, 15 próximas, 50 confiáveis, 150 conhecidas, 500 reconhecidas. Cada limiar representa um ponto onde os mecanismos informais de coordenação falham e precisam ser substituídos por mecanismos formais.
+A heurística de Robin Dunbar (formulada para o limiar de 150 relações nos artigos de 1992–1993 e expandida em 2003–2005 para as camadas de 5, 15, 50, 150 e 500, embora debatida empiricamente por estudos recentes como Lindenfors et al., 2021) oferece uma lente útil para enxergar onde a coordenação informal quebra. Cada limiar representa um ponto onde os mecanismos informais de coordenação falham e precisam ser substituídos por mecanismos formais.
 
 #### O que quebra em 10 pessoas
 
@@ -3961,7 +3969,7 @@ O que precisa ser criado: ritual mínimo de alinhamento (weekly de 30 minutos on
 
 #### O que quebra em 50 pessoas
 
-Em torno de 50 pessoas, o limite de confiança do número de Dunbar começa a ser pressionado. Não é mais possível confiar por experiência direta em todo mundo: você confia em quem você conhece pessoalmente. Quem você não conhece é "aquele cara de engenharia" ou "a menina de produto".
+Em torno de 50 pessoas, o limite de confiança do número de Dunbar começa a ser pressionado. Não é mais possível confiar por experiência direta em todo mundo: você confia em quem você conhece pessoalmente. Quem você não conhece vira "o pessoal de engenharia" ou "alguém do time de produto".
 
 O que quebra: coordenação informal falha porque depende de relações que não existem entre todos. Decisões de produto que antes eram feitas em um café começam a exigir reunião formal. Prioridades conflitam entre times que não têm mais canal direto.
 
@@ -3978,7 +3986,7 @@ O que também quebra: processo de hiring. Com menos de 150 pessoas, o fit cultur
 O que precisa ser criado: declaração explícita de valores com comportamentos concretos (não frases motivacionais), processo de hiring codificado, programa de onboarding que transmita cultura, gestão média com capacidade de multiplicar cultura.
 
 > [!note] O paradoxo da gestão média
-> Startups com cultura de "empresa plana" tendem a resistir a criar gestão média muito depois de 150 pessoas. O resultado, founders e VPs tentando gerir 20 ou mais reports diretos cada, enquanto a cultura fragmenta porque não há ninguém no meio multiplicando-a. Gestão média bem selecionada e bem treinada não burocratiza. Escala a cultura dos fundadores.
+> Startups com cultura de "empresa plana" tendem a resistir a criar gestão média muito depois de 150 pessoas. O resultado: fundadores e VPs tentando gerir 20 ou mais liderados diretos cada, enquanto a cultura se fragmenta porque não há ninguém no meio multiplicando os critérios da empresa. Gestão média bem selecionada e bem treinada não burocratiza. Escala a cultura dos fundadores.
 
 #### O que quebra em 500 pessoas
 
@@ -4012,7 +4020,7 @@ O sinal de que você está criando o platform team cedo demais: nenhum time de p
 
 #### O tax de infraestrutura
 
-Todo platform team tem um custo oculto que chamaremos de infrastructure tax: o tempo que os times de produto precisam gastar aprendendo, integrando e se adaptando às ferramentas e processos que o platform team produz.
+Toda equipe de plataforma cobra um custo oculto de adoção, o Imposto da Plataforma (infrastructure tax): o tempo que os times de produto precisam gastar aprendendo, integrando e se adaptando às ferramentas e processos que o platform team produz.
 
 Quando o platform team funciona bem, o tax é baixo e os benefícios compensam amplamente. Quando o platform team funciona mal, o tax pode superar o benefício: os times de produto passam mais tempo gerenciando a plataforma do que entregando produto.
 
@@ -4051,7 +4059,7 @@ Os pontos mais relevantes para startups:
 - **Adicional de insalubridade**: para trabalho em casa, o risco de adicional de insalubridade é baixo, mas não zero: especialmente para atividades que envolvem exposição a substâncias ou equipamentos específicos.
 
 > [!warning] O passivo oculto do "remoto informal"
-> Muitas startups brasileiras operam em remoto de facto sem ter os contratos ajustados para teletrabalho. Isso cria passivo trabalhista porque os contratos anteriores presumem trabalho presencial. A conversão formal para teletrabalho requer aditivo contratual e, em muitos casos, concordância do empregado. Consulte jurídico antes de adotar remoto permanente.
+> Muitas startups brasileiras operam em remoto de facto sem ter os contratos ajustados para teletrabalho. Isso cria passivo trabalhista porque os contratos anteriores presumem trabalho presencial. A passagem do regime presencial para o teletrabalho exige sempre mútuo acordo registrado em aditivo contratual (art. 75-C, §1º, da CLT), definindo por escrito a responsabilidade por equipamentos e reembolso de despesas (art. 75-D) e a instrução expressa sobre ergonomia e saúde (art. 75-E; valide sempre com assessoria jurídica trabalhista). Consulte jurídico antes de adotar remoto permanente.
 
 #### O que as melhores startups brasileiras fazem
 
@@ -4069,14 +4077,14 @@ O que não funciona no contexto brasileiro:
 
 #### O custo de oportunidade geográfico
 
-O Brasil tem um dos maiores diferenciais de custo de talent entre capitais e interior do mundo. Um engenheiro sênior em São Paulo pode custar o dobro de um engenheiro equivalente em Fortaleza, Belém ou Cuiabá. Startups que adotam remoto genuíno com infraestrutura e cultura adequadas têm acesso a esse diferencial. Startups que exigem presencial em São Paulo pagam o prêmio de São Paulo para todo o time.
+O Brasil tem um dos maiores diferenciais de custo de talent entre capitais e interior do mundo. Pelas pesquisas salariais do ecossistema brasileiro, o custo total de um engenheiro sênior na capital paulista supera com folga o de profissionais de mesma senioridade em polos do interior e de outras regiões (como Campina Grande, Santa Rita do Sapucaí, Joinville, Maringá ou o eixo Recife–Goiânia de Rafael e Bia). Startups que adotam remoto genuíno com infraestrutura e cultura adequadas têm acesso a esse diferencial. Startups que exigem presencial em São Paulo pagam o prêmio de São Paulo para todo o time.
 
 > [!tip] A decisão de modelo de trabalho como decisão estratégica
 > A decisão sobre remoto, presencial ou híbrido não é decisão de RH: é decisão estratégica que afeta modelo de talento, cultura, velocidade de entrega e custo. Founders que tratam isso como benefício operacional perdem a dimensão estratégica. A pergunta certa não é "onde as pessoas trabalham?" mas "qual modelo de trabalho nos permite contratar e reter as pessoas que precisamos para executar esta estratégia neste momento?"
 
 ---
 
-### Os Erros Mais Caros: Inflação de Títulos, Matrizes Prematuras e Reorgs Trimestrais
+### Os Erros Mais Caros do Desenho Organizacional: De Cargos Inflados a Reorgs em Série
 
 ```text
 Tema                   Erro mais caro
@@ -4152,7 +4160,7 @@ Coloque o organograma atual da sua empresa sobre a mesa e faça esta autópsia s
 
 **Regra de Sobrevivência:** Se dois times precisam fazer reuniões diárias de sincronização para conseguir trabalhar, suas fronteiras organizacionais estão erradas: funda os times ou redesenhe a interface técnica entre eles.
 
-**O Ritual de Segunda-Feira às 9h:** Audite seu organograma procurando qualquer gestor com menos de 4 reportados diretos (microgerenciamento e camada inútil) ou mais de 10 (abandono gerencial) e redesenhe as fronteiras de ao menos um fluxo crítico para que o time tenha 100% das competências necessárias para entregar sem depender de terceiros.
+**O Ritual de Segunda-Feira às 9h (rotina semanal de 30 minutos):** Liste no seu organograma qualquer gestor com menos de 4 ou mais de 10 liderados diretos para justificar por escrito cada exceção (como times juniores em rampa) e escolha um fluxo crítico neste mês e redesenhe as fronteiras de ao menos um fluxo crítico para que o time tenha 100% das competências necessárias para entregar sem depender de terceiros.
 
 
 ---
@@ -4172,9 +4180,9 @@ Você está operando sob o risco da **A Amnésia Corporativa por Demissão** (*B
 > [!note] Nota de validade
 > Os princípios de captura, organização e transferência de conhecimento têm vida útil longa. O que muda são as ferramentas específicas: versões de Notion, Confluence, GitBook. Revise a cada dezoito a vinte e quatro meses para atualizar referências de plataforma. Os fundamentos de gestão do conhecimento (knowledge management: disciplina de capturar, organizar e transferir o conhecimento de uma organização) permanecem estáveis.
 
-Toda startup que cresce rápido enfrenta, em algum momento, a mesma crise silenciosa. A pessoa que sabia como determinada coisa funcionava foi embora, e ninguém mais sabe. O cliente que apresentou um problema inédito gerou uma solução que existiu só na cabeça de quem resolveu. A decisão de produto foi tomada, discutida em reunião, nunca registrada. Seis meses depois, o time toma a mesma decisão errada outra vez.
+As seis semanas de paralisia que Henrique viveu em Curitiba mostram na prática o que acontece quando o conhecimento técnico e operacional mora apenas na cabeça de quem construiu a primeira versão. O cliente que apresentou um problema inédito gerou uma solução que existiu só na cabeça de quem resolveu. A decisão de produto foi tomada, discutida em reunião, nunca registrada. Seis meses depois, o time toma a mesma decisão errada outra vez.
 
-Gestão do conhecimento não é burocracia. É a infraestrutura que permite à empresa aprender mais rápido que a competição, integrar pessoas novas sem perder velocidade e tomar decisões melhores porque os erros anteriores estão documentados.
+A gestão do conhecimento é a infraestrutura que permite à empresa aprender mais rápido que a concorrência, integrar pessoas novas sem perder velocidade e tomar decisões melhores porque os erros anteriores estão documentados.
 
 Este capítulo cobre como construir essa infraestrutura de forma pragmática, sem criar wikis que ninguém usa e sem transformar documentação em fim em si mesmo.
 
@@ -4186,9 +4194,9 @@ O custo de não documentar raramente aparece no P&L (profit and loss: demonstrat
 
 **Conhecimento que sai com a pessoa.** Quando um engenheiro sênior sai, ele leva consigo o mapa mental de três anos de decisões arquiteturais. Por que determinado serviço foi separado do monolito. Por que o banco de dados foi modelado daquela forma. Por que a integração com o parceiro X funciona de um jeito não óbvio. Esse conhecimento não está em lugar nenhum. O próximo engenheiro vai descobrir tudo de novo, ou vai fazer diferente e quebrar algo.
 
-**Onboarding lento.** O tempo médio para um engenheiro novo ser produtivo em uma startup sem documentação fica entre três e seis meses. Com documentação estruturada, esse número cai para seis a oito semanas. A diferença não é uma impressão. É tempo de rampa documentado em estudos do setor de People Operations (operações de RH com foco em escala e processos). Para uma empresa que contrata dez engenheiros por ano, a diferença representa meses de produtividade perdida.
+**Onboarding lento.** O tempo médio para um engenheiro novo ser produtivo em uma startup sem documentação fica entre três e seis meses. Com documentação estruturada e onboarding guiado, a experiência prática de gestão de engenharia mostra que esse tempo de rampa cai de três a seis meses para cerca de oito a doze semanas (operações de RH com foco em escala e processos). Para uma empresa que contrata dez engenheiros por ano, a diferença representa meses de produtividade perdida.
 
-**Decisão tomada duas vezes.** Sem registro de decisões anteriores, o time repete discussões que já aconteceram. A reunião sobre "deveríamos mudar o pricing?" acontece em janeiro, em junho, e em novembro. Cada vez, as mesmas posições, os mesmos argumentos, o mesmo resultado inconclusivo. O tempo gasto é invisível porque está distribuído entre muitas pessoas em muitas reuniões.
+**Decisão tomada duas vezes.** Sem registro de decisões anteriores, o time repete discussões que já aconteceram. A reunião sobre "deveríamos mudar o pricing?" acontece em janeiro, em junho e em novembro. Cada vez, as mesmas posições, os mesmos argumentos, o mesmo resultado inconclusivo. O tempo gasto é invisível porque está distribuído entre muitas pessoas em muitas reuniões.
 
 **Dependência de pessoas específicas.** Quando o conhecimento está apenas nas cabeças de certas pessoas, essas pessoas se tornam gargalos. Elas não podem tirar férias sem que algo quebre. Elas ficam sobrecarregadas com perguntas que poderiam estar respondidas em um documento. Elas viram pontos únicos de falha operacional.
 
@@ -4197,7 +4205,7 @@ O custo de não documentar raramente aparece no P&L (profit and loss: demonstrat
 
 ---
 
-### 2. A Taxonomia do Saber Operacional: Decisões (ADRs), Processos (Playbooks) e Emergências (Runbooks)
+### 2. Conhecimento Explícito e Tácito: O Que Vira Documento (ADR, Playbook, Runbook) e o Que Exige Pareamento
 
 A distinção mais útil para gestão do conhecimento em startups é entre conhecimento explícito e conhecimento tácito.
 
@@ -4209,7 +4217,7 @@ O problema é que a maioria das iniciativas de gestão do conhecimento foca apen
 
 **Como capturar o tácito antes que a pessoa saia.**
 
-Entrevistas de saída focadas em conhecimento, não em satisfação. A entrevista de desligamento padrão pergunta sobre clima, liderança, e motivo da saída. Inclua uma sessão de transferência de conhecimento. Quais são os três projetos mais críticos que você tocou? Quais decisões técnicas ou de negócio que você tomou estão documentadas? Quais as coisas que você faz no piloto automático, que ninguém mais faz?
+Reoriente as entrevistas de desligamento para capturar conhecimento crítico, não apenas satisfação com o clima. A entrevista padrão pergunta sobre liderança e motivo da saída; Inclua uma sessão de transferência de conhecimento. Quais são os três projetos mais críticos que você tocou? Quais decisões técnicas ou de negócio que você tomou estão documentadas? Quais as coisas que você faz no piloto automático, que ninguém mais faz?
 
 Sessões de knowledge transfer estruturadas. Quando alguém relevante sai, o gestor deve organizar pelo menos duas sessões de uma hora com o time antes do último dia. O propósito é explícito: extrair o que está na cabeça e colocar em algum lugar acessível.
 
@@ -4237,7 +4245,7 @@ A pergunta "qual ferramenta de wiki usar?" é menos importante do que a pergunta
 
 **As principais opções para startups brasileiras.**
 
-Notion é a escolha mais comum para startups em estágio inicial e médio. Interface amigável, flexível, fácil de criar páginas e bancos de dados. O problema: exatamente porque é fácil criar qualquer coisa, a estrutura tende a virar caos em seis a doze meses. Sem arquitetura de informação deliberada, o Notion se torna um cemitério de documentos que ninguém consegue encontrar.
+O Notion é a escolha mais comum para startups em estágio inicial e médio pela facilidade de criar páginas e tabelas; em 2026, independentemente da ferramenta (Notion, Confluence ou Git), conecte um assistente de busca com IA via RAG (como os recursos nativos de IA do Notion/Slack ou conectores próprios vistos no Capítulo 7), lembrando que a busca inteligente só funciona se os documentos tiverem dono, permissões respeitando a LGPD e revisão em dia. O problema: exatamente porque é fácil criar qualquer coisa, a estrutura tende a virar caos em seis a doze meses. Sem arquitetura de informação deliberada, o Notion se torna um cemitério de documentos que ninguém consegue encontrar.
 
 Confluence é a escolha tradicional de empresas maiores e times de engenharia. Mais rígido, mais estruturado, mais feio visualmente. Tem integração nativa com Jira, o que é relevante para times que usam Jira para gestão de produto. No plano Standard, a licença por usuário do Confluence (US$ 5,78/mês, com faixa gratuita até 10 usuários) sai mais barata que a do Notion Plus (US$ 12 no plano anual ou US$ 16 no mensal), mas o custo real está no tempo de configuração e manutenção. Para startups com menos de cinquenta pessoas, Confluence frequentemente é excesso de complexidade.
 
@@ -4289,7 +4297,7 @@ ESTRUTURA DE WIKI
 
 ---
 
-### 4. O Teste de Fogo do Onboarding: Se o Novo Contratado Precisa Perguntar Tudo, Sua Wiki Falhou
+### 4. O Teste de Fogo do Onboarding 30/60/90: Transformando as Dúvidas do Novato em Wiki Viva
 
 Onboarding estruturado é a primeira e mais visível aplicação de gestão do conhecimento. É o momento em que todo o conhecimento acumulado da empresa precisa ser transferido para uma pessoa nova de forma eficiente.
 
@@ -4312,7 +4320,7 @@ SEMANA 1 - ORIENTAÇÃO
   - Encontros: CEO/co-founder (contexto estratégico)
   - Encontros: gestor direto (expectativas e prioridades)
   - Encontros: pares imediatos
-  - Leitura: mission, vision, values
+  - Leitura obrigatória: missão, visão e valores da empresa
   - Leitura: pitch deck da empresa (versão interna)
   - Leitura: OKRs do trimestre
   - Setup: ferramentas, acessos, ambientes
@@ -4326,7 +4334,7 @@ SEMANAS 2-4 - IMERSÃO
 
 DIAS 31-60 - CONTRIBUIÇÃO
   - Assumir responsabilidade de uma área definida
-  - Entregar dois a três projetos de escopo médio
+  - Entregar um projeto de escopo limitado e iniciar um projeto de escopo médio até o dia 60
   - Participar de rituais de time como membro pleno
   - Identificar gap de conhecimento e propor como preencher
   - Checkpoint: reunião formal de feedback na semana 8
@@ -4353,7 +4361,7 @@ Não é apenas entrega. É também compreensão do contexto, integração cultur
 
 ---
 
-### 5. Documentação de Produto e Arquitetura: O Mínimo Viável que Nunca Envelhece no Vácuo
+### 5. Documentação de Produto e Arquitetura: PRD, One-Pager e Registro de Decisão (ADR)
 
 Times de produto produzem diferentes tipos de documentação para diferentes propósitos. A confusão sobre quando usar cada formato gera dois problemas opostos: excesso de documentação onde não é necessária, e ausência de documentação onde é crítica.
 
@@ -4398,13 +4406,13 @@ Documentos de produto devem incluir data da última atualização e nome do resp
 
 ---
 
-### 6. Post-Mortems Sem Culpa: Convertendo Cada Incidente Doloroso em Vacina Permanente
+### 6. Pós-Mortem Sem Culpa (Pós-Mortem Sem Culpa (ver template completo no Capítulo 9, seção 6, e na Fase 17)): Convertendo Cada Incidente em Vacina Permanente
 
-O pós-mortem é o mecanismo mais poderoso de aprendizado organizacional disponível para startups. Incidentes, falhas, e projetos que deram errado contêm informação valiosa sobre fragilidades do sistema, gaps de processo, e pontos cegos da liderança. A maioria das startups não captura essa informação de forma sistemática.
+Um incidente bem analisado ensina mais sobre as fragilidades reais da operação do que um trimestre inteiro de retrospectivas genéricas. Incidentes, falhas, e projetos que deram errado contêm informação valiosa sobre fragilidades do sistema, gaps de processo, e pontos cegos da liderança. A maioria das startups não captura essa informação de forma sistemática.
 
 **O conceito de blameless postmortem.**
 
-O pós-mortem sem culpa é um princípio desenvolvido em engenharia de confiabilidade de sites (SRE) no Google e disseminado pela indústria. A premissa é que sistemas complexos falham por razões complexas. Atribuir culpa a uma pessoa específica é empiricamente impreciso (porque ignorar os fatores sistêmicos que tornaram o erro possível) e é contraproducente (porque cria incentivo para esconder problemas futuros).
+O pós-mortem sem culpa nasceu na cultura de segurança da aviação e da saúde, foi levado para a engenharia de software por John Allspaw na Etsy (2012) e consolidou-se na indústria com o livro de SRE do Google (2016). A premissa é que sistemas complexos falham por razões complexas. Culpar uma pessoa específica é empiricamente impreciso, porque ignora os fatores sistêmicos que tornaram o erro possível e é contraproducente (porque cria incentivo para esconder problemas futuros).
 
 O pós-mortem sem culpa foca em: o que aconteceu (linha do tempo factual), por que aconteceu (causas raiz sistêmicas), qual foi o impacto, o que foi feito para resolver, e o que será feito para evitar recorrência.
 
@@ -4418,7 +4426,7 @@ TEMPLATE BLAMELESS POSTMORTEM
 CABEÇALHO
   Data do incidente:
   Data do postmortem:
-  Severidade: (P1 crítico / P2 alto / P3 médio)
+  Severidade: (P0 crítico / P1 alto / P2 médio, conforme a régua unificada do volume)
   Status: (resolvido / em andamento)
   Responsável pelo documento:
 
@@ -4457,7 +4465,7 @@ LIÇÕES APRENDIDAS
 
 **Onde guardar pós-mortems.**
 
-Pós-mortems devem estar em um lugar de fácil acesso, organizado por data e por categoria de incidente. Não devem estar em pastas privadas nem em documentos restritos. O valor do pós-mortem está em ser acessível para que a pessoa que enfrentar um problema similar possa pesquisar se algo parecido já aconteceu.
+Pós-mortems devem estar em um lugar de fácil acesso, organizado por data e por categoria de incidente. Para incidentes operacionais comuns, não devem ficar escondidos em pastas privadas (a única exceção são incidentes de segurança ou de dados pessoais sob a LGPD, em que a versão aberta ao time omite dados de titulares e detalhes exploráveis, ficando o relatório forense restrito ao comitê de resposta e ao encarregado/DPO). O valor do pós-mortem está em ser acessível para que a pessoa que enfrentar um problema similar possa pesquisar se algo parecido já aconteceu.
 
 A estrutura recomendada: uma pasta `/postmortems` na wiki, com subpastas por trimestre ou por categoria (infraestrutura, produto, processo, segurança). Cada pós-mortem deve ser indexado com tags para facilitar busca.
 
@@ -4494,7 +4502,7 @@ Evolução         Atualizado a cada mudança  Atualizado a cada ciclo
 
 **O que colocar em um runbook técnico.**
 
-Objetivo: o que esse runbook resolve. Pré-requisitos: acessos, ferramentas, e contexto necessário antes de começar. Passos: instruções numeradas, específicas, com comandos exatos onde aplicável. Verificação: como confirmar que o procedimento foi executado com sucesso. Rollback: o que fazer se algo der errado. Contato: quem acionar se o runbook não resolver.
+Estrutura mínima do runbook: (1) Objetivo: o que este procedimento resolve; (2) Pré-requisitos: acessos, ferramentas e contexto necessários; (3) Passos: instruções numeradas com comandos exatos; Verificação: como confirmar que o procedimento foi executado com sucesso. Rollback: o que fazer se algo der errado. Contato: quem acionar se o runbook não resolver.
 
 Um runbook bom pode ser executado por um engenheiro que nunca fez aquele procedimento antes. Se requer conhecimento implícito para ser executado, ele não está completo.
 
@@ -4503,7 +4511,7 @@ Um runbook bom pode ser executado por um engenheiro que nunca fez aquele procedi
 Contexto: por que esse processo existe e qual problema ele resolve. Escopo: quando esse playbook se aplica e quando não se aplica. Participantes: quem está envolvido e qual o papel de cada um. Fluxo principal: os passos do processo em ordem, com decisões mapeadas. Variações: o que fazer em casos não padrão. Métricas: como medir se o processo está funcionando bem. Histórico de revisões: data e motivo das últimas atualizações.
 
 > [!warning]
-> Runbooks e playbooks desatualizados são piores do que ausentes. Quem segue runbook desatualizado em produção pode causar incidente que não teria ocorrido se tivesse pedido ajuda. Estabeleça política clara, quem é o dono de cada documento, qual a frequência mínima de revisão e como sinalizar que um documento pode estar desatualizado.
+> Procedimentos operacionais nunca testados por uma segunda pessoa criam falsa sensação de segurança na hora da emergência. Quem segue runbook desatualizado em produção pode causar incidente que não teria ocorrido se tivesse pedido ajuda. Estabeleça uma política clara: quem é o dono de cada documento, qual a frequência mínima de revisão e como sinalizar que um procedimento envelheceu.
 
 **Manutenção da documentação operacional.**
 
@@ -4521,7 +4529,7 @@ Gestão do conhecimento sem métricas é fé. É possível instrumentar o quanto
 
 A métrica mais objetiva de gestão do conhecimento em startups é o tempo médio para uma pessoa nova atingir produtividade plena: definida como "entregando no mesmo nível que um colaborador com seis meses de casa". Essa métrica é medida por função e por área.
 
-Benchmark geral: engenheiros de software, oito a doze semanas com onboarding estruturado. Papéis de negócio (vendas, CS, marketing), quatro a oito semanas. Gestores, doze a dezesseis semanas.
+Faixas de referência com onboarding estruturado: engenheiros de software, oito a doze semanas; papéis de negócio (CS e marketing, quatro a seis semanas; vendas consultivas B2B, seis a doze semanas conforme o ciclo comercial). Gestores, doze a dezesseis semanas.
 
 Se o tempo de sua empresa está consistentemente acima do benchmark, o problema é quase sempre documentação insuficiente, onboarding não estruturado, ou ausência de buddy.
 
@@ -4538,7 +4546,7 @@ Ferramentas como Slack e Microsoft Teams permitem buscar por padrões de pergunt
 
 Uma pesquisa curta (três a cinco perguntas, escala de um a dez) aplicada no final do trigésimo e do nonagésimo dia de cada novo colaborador. As perguntas devem cobrir: clareza sobre expectativas, qualidade do material disponível, facilidade de encontrar informação, e se a pessoa sente que tem o que precisa para ser bem-sucedida.
 
-Um NPS de onboarding abaixo de 30 é sinal de problema estrutural. Entre 30 e 50, processo funcional mas com gaps. Acima de 50, onboarding saudável.
+Medido pela pergunta padrão de eNPS (escala de 0 a 10) ao fim dos 30 dias, complementada por três perguntas abertas de diagnóstico, um índice abaixo de 30 aponta falha estrutural; entre 30 e 50 indica processo funcional com lacunas; acima de 50 reflete integração saudável (meta recomendada para o painel).
 
 **Taxa de atualização de documentação.**
 
@@ -4573,7 +4581,7 @@ Mapear o bus factor de processos e sistemas críticos é uma forma de identifica
 
 ---
 
-### O Protocolo Diário: Como Embutir a Escrita no Fluxo de Trabalho Sem Burocratizar
+### O Protocolo Diário: Três Hábitos Para Embutir a Escrita no Fluxo de Trabalho Sem Burocratizar
 
 O maior erro na implementação de gestão do conhecimento em startups é tentar fazer tudo de uma vez. O resultado é um projeto de wiki de três meses que nunca fica pronto, ou um processo de documentação tão pesado que o time rejeita.
 
@@ -4597,34 +4605,32 @@ Em estágio mais avançado, gestão do conhecimento se torna vantagem competitiv
 
 ### O Espelho do Bus Factor: Se as Três Pessoas Mais Antigas da Sua Empresa Saírem Hoje, o Que Para de Funcionar Amanhã?
 
-**Fechando o ciclo na trincheira:** Quando **Henrique** incorporou este filtro nas negociações industriais e públicas a partir de Curitiba, o impasse da abertura foi substituído por critérios técnicos de aprovação, margem protegida e ciclo previsível.
-
 Faça o exercício mais desconfortável de continuidade operacional da sua empresa agora:
 
 1. **O Mapa do Bus Factor 1:** Liste os dez sistemas, contas bancárias, integrações ou processos comerciais mais vitais da sua empresa. Quantos deles hoje dependem do conhecimento exclusivo de uma única pessoa?
-2. **O Teste do Novo Contratado às 22h:** Se um incidente grave acontecer hoje às 22h e o responsável principal estiver em um voo sem sinal, o profissional de plantão tem um runbook passo a passo claro para restaurar o serviço em 15 minutos?
+2. **O Teste do Plantão às 22h:** Dos dez processos críticos que você listou na pergunta anterior, quantos possuem um runbook passo a passo já testado na prática por uma segunda pessoa (se forem menos de cinco, você está exatamente onde Henrique estava antes da crise)? para restaurar o serviço em 15 minutos?
 3. **O Cemitério vs. A Fonte Viva:** Quando um funcionário busca um procedimento interno na sua base de conhecimento, ele encontra um documento confiável atualizado nos últimos 90 dias ou três versões contraditórias abandonadas em 2024?
 
-**Regra de Sobrevivência:** Nenhuma funcionalidade técnica e nenhum processo operacional está "pronto" enquanto o runbook de operação e o registro da decisão arquitetural (ADR) não estiverem escritos no repositório.
+**Regra de Sobrevivência:** Nenhuma funcionalidade crítica vai ao ar sem o runbook de operação atualizado, nenhuma decisão estrutural de arquitetura é fechada sem ADR no repositório e nenhum processo recorrente executado por duas ou mais pessoas opera sem POP documentado.
 
-**O Ritual de Segunda-Feira às 9h:** Identifique os três pontos de *Bus Factor 1* mais perigosos da sua operação hoje e determine que, até sexta-feira, o detentor daquele conhecimento grave a execução em vídeo/texto e que um segundo colega execute o procedimento do zero usando apenas o guia escrito.
+**O Ritual de Segunda-Feira às 9h (rotina semanal de 30 minutos):** Identifique os três pontos de *Bus Factor 1* mais perigosos da sua operação hoje e determine que, até sexta-feira, o detentor daquele conhecimento grave a execução em vídeo/texto e que um segundo colega execute o procedimento do zero usando apenas o guia escrito.
 
 
 ---
 
 ## CAPÍTULO 9 — COMUNICAÇÃO INTERNA
 
-### A Entropia do Rádio-Corredor e o Poder da Cultura do Memorando Silencioso
+### A Entropia do Rádio-Corredor e o Poder da Cultura do Memorando Escrito
 
-Em Recife, Rafael e Bia tomaram uma decisão estratégica simples numa manhã de quarta-feira: pausar temporariamente a expansão para duas categorias novas de produtos para concentrar o capital de giro nos itens campeões de margem antes da Black Friday. Como estavam corridos, comentaram a decisão rapidamente em uma chamada de vídeo com três gerentes, sem publicar nenhum documento escrito e sem abordar o tema no All-Hands. Na quinta-feira às 16h, Bia recebeu a ligação de dois analistas-chave de Goiânia perguntando se a empresa estava quebrando e se haveria demissão em massa na sexta-feira. Em menos de trinta horas, o telefone sem fio corporativo havia transformado um ajuste saudável de foco em pânico generalizado no WhatsApp da equipe.
+Em uma manhã de quarta-feira, Rafael, em Recife, e Bia, em Goiânia, tomaram uma decisão estratégica simples por chamada de vídeo: pausar temporariamente a expansão para duas categorias novas de produtos para concentrar o capital de giro nos itens campeões de margem antes da Black Friday. Como estavam corridos, comentaram a decisão rapidamente em uma chamada de vídeo com três gerentes, sem publicar nenhum documento escrito e sem abordar o tema no All-Hands. Na quinta-feira às 16h, pouco mais de um dia depois, Bia recebeu em Goiânia a ligação de dois analistas-chave perguntando se a empresa estava quebrando e se haveria demissão em massa na sexta-feira (boato que teria sido evitado com um comunicado escrito de três parágrafos explicando o motivo, o que mudava e o que permanecia igual). Em menos de trinta horas, o telefone sem fio corporativo havia transformado um ajuste saudável de foco em pânico generalizado no WhatsApp da equipe.
 
 O paradoxo da comunicação interna é que o silêncio do fundador nunca fica vazio: toda lacuna de contexto deixada pela liderança é preenchida instantaneamente pela interpretação mais pessimista e paranoica possível da equipe.
 
-Quando sua empresa passa de quinze para sessenta ou duzentas pessoas, falar de improviso deixa de funcionar. Você precisa vencer **A Entropia do Rádio-Corredor** instalando **A Cultura do Memorando Escrito e da Transparência Radical**: a disciplina onde decisões complexas nascem em prosa clara antes da reunião e a verdade, boa ou ruim, chega primeiro pela boca do fundador.
+Quando sua empresa passa de quinze para sessenta ou duzentas pessoas, falar de improviso deixa de funcionar. Para impedir que o telefone sem fio corporativo transforme ajustes táticos em pânico, você precisa substituir o improviso oral pela **Cultura do Memorando Escrito** (inspirada no memorando narrativo de Jeff Bezos e na transparência estruturada): a disciplina onde decisões complexas nascem em prosa clara antes da reunião e a verdade, boa ou ruim, chega primeiro pela boca do fundador.
 
 ---
 
-> [!abstract] Onde este capítulo se posiciona no bloco de comunicacao
+> [!abstract] Onde este capítulo se posiciona nos sete capítulos de comunicação da coleção:
 > O livro tem sete capítulos de comunicacao com territorios distintos,
 > - [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 7 — MARCA CORPORATIVA, PR, COMUNICAÇÃO PÚBLICA E MARCA PESSOAL DO FUNDADOR|Capítulo 7 (Marca Corporativa, PR, Comunicação Pública e Marca Pessoal do Fundador) (Vol. 6)]], narrativa publica e imprensa
 > - [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 7 — MARCA CORPORATIVA, PR, COMUNICAÇÃO PÚBLICA E MARCA PESSOAL DO FUNDADOR|Capítulo 7 (Marca Corporativa, PR, Comunicação Pública e Marca Pessoal do Fundador) (Vol. 6)]], marca pessoal e canais proprios
@@ -4636,19 +4642,19 @@ Quando sua empresa passa de quinze para sessenta ou duzentas pessoas, falar de i
 >
 > Este capítulo cobre comunicacao interna com o time, rituais e mecanismos que sustentam alinhamento em escala. Para os outros territorios, ver acima.
 
-**Cultura, Transparência e Alinhamento em Escala**
+A arquitetura de comunicação interna sustenta a cultura, a transparência e o alinhamento conforme a empresa escala.
 
-Comunicação interna não é RH. É infraestrutura. Quando ela falha, a empresa opera com informação corrompida, cada pessoa tomando decisões com um mapa diferente da realidade. O resultado é retrabalho, desconfiança, politicagem e saída de pessoas boas que não aguentam a ambiguidade crônica.
+Quando Rafael e Bia contaram a decisão apenas a três gerentes por vídeo, o boato chegou à equipe antes de qualquer contexto oficial: sem arquitetura de comunicação interna, cada área passa a operar com um mapa diferente da realidade. O resultado é retrabalho, desconfiança, politicagem e saída de pessoas boas que não aguentam a ambiguidade crônica.
 
 Este capítulo cobre os mecanismos, rituais e decisões de design que constroem uma empresa onde a informação certa chega nas mãos certas na hora certa, sem depender de fofoca de corredor ou de um fundador que explica tudo na boca.
 
 ---
 
-### 1. A Física da Distorção: Por Que a Mensagem do CEO Perde 60% da Precisão a Cada Nível Hierárquico
+### 1. A Física da Distorção: Por Que a Mensagem do Fundador Se Perde a Cada Camada Hierárquica
 
 Abaixo de 10 pessoas, comunicação acontece por osmose. Todos estão na mesma sala, ouvem as mesmas conversas, participam das mesmas reuniões. Não existe lacuna de informação porque não existe distância.
 
-Em torno de 15 pessoas, essa osmose para de funcionar. O motivo é estrutural: o número de pares de pessoas cresce exponencialmente com o headcount, mas a capacidade de comunicação direta do fundador não escala no mesmo ritmo.
+Em torno de 15 pessoas, essa osmose para de funcionar. O motivo é estrutural: o número de pares de comunicação cresce com o quadrado do tamanho do time ($n(n-1)/2$: dobrar a equipe quadruplica os canais possíveis), mas a capacidade de comunicação direta do fundador não escala no mesmo ritmo.
 
 ```text
 PARES DE COMUNICAÇÃO POR TAMANHO DE TIME
@@ -4673,7 +4679,7 @@ Os três padrões de falha mais comuns entre 15 e 30 pessoas:
 > [!important]
 > O ponto de inflexão de 15 pessoas exige que a empresa deliberadamente construa mecanismos de comunicação: não improvise. Cada semana de atraso nessa transição custa confiança que demora meses para recuperar.
 
-A solução não é mais reuniões. É arquitetura de informação: definir quem sabe o quê, quando, por qual canal, e com qual nível de contexto.
+A solução está na arquitetura de informação: definir quem sabe o quê, quando, por qual canal, e com qual nível de contexto.
 
 ---
 
@@ -4686,7 +4692,7 @@ O all-hands é o ritual de alinhamento coletivo mais importante da empresa. Não
 ```text
 FREQUÊNCIA DE ALL-HANDS POR ESTÁGIO
 
-Até 20 pessoas     | Quinzenal (30-40 min)
+Até 20 pessoas     | Semanal ou quinzenal (30 min, alinhado à cadência da Fase 17)
 20-50 pessoas      | Mensal    (60 min)
 50-150 pessoas     | Mensal    (75-90 min) + updates assíncronos semanais
 Acima de 150       | Mensal    (90 min) + all-hands por área quinzenal
@@ -4727,7 +4733,7 @@ RIF (Reduction in Force: redução de quadro, ou demissão coletiva) é uma das 
 - **Velocidade:** a comunicação para quem sai e para quem fica deve acontecer no mesmo dia, preferencialmente na mesma manhã
 - **Sequência:** primeiro os afetados (em 1:1 com o gestor direto), depois o time imediato, depois a empresa toda
 - **Clareza sobre o motivo:** dizer "decisão difícil por contexto financeiro" é aceitável. Dizer "estamos otimizando recursos humanos" é insulto à inteligência
-- **Sem vagueza sobre quem saiu:** o time precisa saber quem saiu para processar a perda e reorganizar o trabalho
+- **Clareza por camada sobre quem saiu:** cada gestor comunica nominalmente ao próprio time quem deixou a equipe e como o trabalho será redistribuído, enquanto o comunicado geral à empresa informa a dimensão, os motivos e as áreas afetadas sem expor lista nominal pública
 
 **Sequência de comunicação em um RIF:**
 
@@ -4763,7 +4769,7 @@ Dias 1-3
 
 ---
 
-### 4. Protocolo de Crise Interna: Assumindo o Comando da Narrativa nas Primeiras Duas Horas
+### 4. Protocolo de Crise Interna: Quem Fala, em Quanto Tempo e com Que Estrutura (para gestão de crise externa e layoffs, ver Volume 9, Capítulos 10 e 11)
 
 Crises não avisam. Produto caiu às 3h da manhã. Um cliente de R$2 milhões em ARR cancelou. O CTO foi demitido. Em cada cenário, a comunicação interna precisa acontecer rápido, com contexto suficiente, sem pânico e sem minimização.
 
@@ -4802,7 +4808,7 @@ Quando um C-level sai, seja demissão ou pedido de demissão, a comunicação pr
 
 ---
 
-### 5. Prosa Acima de PowerPoint: Por Que Escrever Bem É a Maior Alavanca de Decisão Executiva
+### 5. Prosa Acima de PowerPoint: O Memorando Narrativo de Decisão Executiva
 
 Documentação assíncrona é o mecanismo pelo qual uma empresa escala seu raciocínio coletivo sem aumentar o número de reuniões. Quando bem implementada, ela permite que alguém contratado hoje entenda decisões tomadas há 18 meses: incluindo o contexto, as alternativas consideradas e o motivo da escolha final.
 
@@ -4843,7 +4849,7 @@ Data: [data de criação]
 
 Usado por times de produto e engenharia para documentar o design de uma feature antes de iniciar o desenvolvimento. Alinha stakeholders, expõe premissas, e serve como referência durante e após a implementação.
 
-**ADR (Architecture Decision Record)**
+**ADR (Architecture Decision Record, cujo formato completo está no Capítulo 9, seção 5, mantendo o código e a arquitetura versionados diretamente no repositório Git)**
 
 Registro pontual e permanente de uma decisão técnica tomada. Não discute, registra. Formato mínimo: contexto, decisão, consequências. Um ADR não é editado após ser fechado, se a decisão mudou, um novo ADR é criado documentando a mudança.
 
@@ -4852,7 +4858,7 @@ Registro pontual e permanente de uma decisão técnica tomada. Não discute, reg
 ```text
 REPOSITÓRIO DE DOCUMENTAÇÃO RECOMENDADO
 
-Notion / Confluence     | Documentação de processo, playbooks, RFCs, ADRs
+Notion / Confluence     | Fonte única da wiki operacional, playbooks e RFCs de negócio (mantendo ADRs técnicos no Git)
 GitHub / GitLab Wiki    | Documentação técnica, design docs, runbooks
 Google Drive            | Documentos colaborativos em edição ativa
 Loom / Tella            | Explicações em vídeo para contexto complexo
@@ -4867,7 +4873,9 @@ A cultura de documentação não se impõe por decreto. Começa quando a lideran
 
 ---
 
-### 6. Slack e Teams como Infraestrutura Cultural
+### 6. Slack, Teams e WhatsApp como Infraestrutura Cultural
+
+No Brasil, ignorar o WhatsApp na política de comunicação interna é fechar os olhos para a realidade: defina por escrito que decisões e aprovações vivem nas ferramentas oficiais (Slack/Teams e wiki), restrinja grupos de WhatsApp a avisos operacionais com moderador definido e respeite o horário de silêncio fora do expediente para não gerar passivo trabalhista de horas extras ou sobreaviso (Súmula 428 do TST; consulte seu jurídico).
 
 Ferramentas de mensageria não são neutras. A forma como os canais são organizados, as normas de uso e o que circula neles molda a cultura da empresa tão diretamente quanto os valores declarados.
 
@@ -4922,7 +4930,7 @@ A assimetria de poder entre liderança e time cria um filtro automático. Mesmo 
 
 **Mecanismos estruturais que funcionam:**
 
-**Pesquisa de Engajamento (quarterly)**
+**Pesquisa de Engajamento Trimestral**
 
 Pesquisa anônima trimestral com 8-12 perguntas cobrindo: clareza de direção, confiança na liderança, qualidade do feedback recebido, equilíbrio de trabalho e vida pessoal, e intenção de permanência. Os resultados devem ser compartilhados com o time inteiro, incluindo os negativos, com plano de ação.
 
@@ -5022,7 +5030,7 @@ Nesse estágio, a comunicação informal não consegue mais carregar o peso de a
 
 **O princípio central:**
 
-Comunicação em escala não é sobre mais mensagens. É sobre informação certa, no canal certo, com o contexto certo, para as pessoas certas, no momento certo. Cada mecanismo adicionado sem propósito claro aumenta o ruído e diminui a atenção do time para o que realmente importa.
+Comunicação em escala não é sobre mais mensagens. Antes de criar um novo canal, ritual ou comunicado recorrente, responda por escrito qual decisão ou alinhamento concreto ele destrava; se não houver resposta clara, não crie. Cada mecanismo adicionado sem propósito claro aumenta o ruído e diminui a atenção do time para o que realmente importa.
 
 A melhor comunicação interna é aquela que o time não percebe como comunicação: percebe como clareza.
 
@@ -5039,19 +5047,21 @@ A melhor comunicação interna é aquela que o time não percebe como comunicaç
 
 ---
 
-### O Espelho de Jeff Bezos e Ben Horowitz: Sua Equipe Sabe a Verdade Sobre o Negócio ou Vive de Fofoca no WhatsApp?
+### O Espelho de Ben Horowitz e Jeff Bezos: Sua Equipe Ouviu a Verdade de Você ou Vive de Boato no WhatsApp?
+
+Jeff Bezos substituiu apresentações de slides por memorandos lidos em silêncio para forçar clareza de pensamento, e Ben Horowitz mostrou em *The Hard Thing About Hard Things* (2014) que, em momentos críticos ou demissões, a confiança da equipe depende de ouvir a verdade diretamente do fundador e de cada gestor imediato, sem atraso nem eufemismo.
 
 **Fechando o ciclo na trincheira:** Quando **Rafael e Bia** conectaram esta disciplina entre a aquisição no Recife e a operação logística em Goiânia, o vazamento que abriu este capítulo estancou e o crescimento voltou a gerar caixa livre.
 
 Teste a nitidez da comunicação da sua empresa fazendo estas três perguntas hoje:
 
 1. **O Teste dos Cinco Funcionários Aleatórios:** Se você parar agora cinco colaboradores de níveis diferentes nos corredores (ou no Slack) e perguntar "Quais são as três prioridades mais importantes da empresa neste trimestre e por quê?", você ouvirá cinco respostas idênticas ou cinco palpites desconexos?
-2. **A Coragem no All-Hands:** Nas suas reuniões gerais com toda a empresa, você mostra apenas gráficos que subiram para parecer um líder infalível, ou tem a coragem de abrir os números vermelhos, explicar o que deu errado e responder às perguntas anônimas mais difíceis?
+2. **A Coragem no All-Hands:** Nas suas reuniões gerais com toda a empresa, no seu último All-Hands, quantos minutos foram dedicados aos indicadores que pioraram (lowlights), à explicação franca do que deu errado e às perguntas anônimas mais difíceis?, explicar o que deu errado e responder às perguntas anônimas mais difíceis?
 3. **Prosa vs. Improviso:** As grandes decisões estratégicas da sua diretoria são debatidas sobre um memorando escrito completo lido em silêncio no início da reunião, ou decididas no grito sobre slides de tópicos superficiais?
 
-**Regra de Sobrevivência:** Se você não repetir a estratégia central da empresa pelo menos sete vezes em formatos diferentes (escrito, All-Hands, 1:1, rituais semanais), metade da sua empresa ainda não ouviu a mensagem pela primeira vez.
+**Regra de Sobrevivência:** Comunique a estratégia central da empresa repetidas vezes em todos os formatos disponíveis (memorando escrito, All-Hands, reuniões 1:1 e rituais semanais): você só comunicou o bastante quando ouve os membros do time explicando os critérios de decisão com as próprias palavras.
 
-**O Ritual de Segunda-Feira às 9h:** Envie toda segunda-feira pela manhã o "Pulso do Fundador", um memorando escrito de 300 palavras para toda a empresa destacando a prioridade número 1 da semana, a métrica principal do negócio e o maior aprendizado com o cliente dos últimos sete dias.
+**O Ritual de Segunda-Feira às 9h (rotina semanal de 30 minutos):** Envie toda segunda-feira pela manhã o "Pulso do Fundador", um memorando escrito de 300 palavras para toda a empresa destacando a prioridade número 1 da semana, a métrica principal do negócio e o maior aprendizado com o cliente dos últimos sete dias.
 
 
 ---
@@ -5060,9 +5070,9 @@ Teste a nitidez da comunicação da sua empresa fazendo estas três perguntas ho
 
 ### O Gargalo Móvel da Teoria das Restrições e a Obsessão pelo Tempo de Ciclo
 
-Quando a rede de clínicas e diagnósticos da Dra. Camila em Belo Horizonte saltou de três para nove unidades, o faturamento bruto triplicou, mas o NPS despencou de 79 para 38 em noventa dias e a taxa de pedidos de cancelamento explodiu. Os médicos continuavam excelentes, mas o paciente esperava quarenta e cinco minutos na recepção porque a autorização do convênio era feita manualmente na hora do check-in; o laudo atrasava quatro dias porque os arquivos ficavam parados em uma fila invisível entre a coleta e a central técnica; e ninguém sabia responder em quanto tempo um exame urgente seria liberado. Ao aplicar o mapeamento de fluxo de valor (*Value Stream Mapping*) inspirado na linha da Toyota e na fábrica de Andy Grove, Camila descobriu que, das 96 horas entre o exame e o laudo entregue, o trabalho real durava apenas 22 minutos: as outras 95 horas e 38 minutos eram puro estoque de espera entre setores.
+Quando a rede de clínicas odontológicas e de radiologia da Dra. Camila em Belo Horizonte saltou de doze para vinte unidades, o faturamento bruto triplicou, mas o NPS despencou de 79 para 38 em noventa dias e a taxa de pedidos de cancelamento explodiu. Os cirurgiões-dentistas continuavam excelentes, mas o paciente esperava quarenta e cinco minutos na recepção porque a autorização do convênio odontológico era conferida manualmente na hora do check-in; o laudo de tomografia atrasava quatro dias porque os arquivos ficavam parados em uma fila entre o exame de imagem e a central técnica; o laudo atrasava quatro dias porque os arquivos ficavam parados em uma fila invisível entre a coleta e a central técnica; e ninguém sabia responder em quanto tempo um exame urgente seria liberado. Ao aplicar o mapeamento de fluxo de valor (*Value Stream Mapping*, ferramenta do Sistema Toyota formalizada por Mike Rother e John Shook) combinado à Teoria das Restrições de Eliyahu Goldratt, Camila descobriu que, das 96 horas entre o exame e o laudo entregue, o trabalho real durava apenas 22 minutos: as outras 95 horas e 38 minutos eram puro estoque de espera entre setores.
 
-A verdade que separa amadores de operadores de classe mundial é simples: toda operação possui exatamente um gargalo dominante (*constraint*) em qualquer momento do tempo, e otimizar qualquer etapa fora desse gargalo é puro teatro que só acumula fila no meio do caminho.
+Toda operação possui um único gargalo dominante (*constraint*) a cada momento: toda operação possui exatamente um gargalo dominante (*constraint*) em qualquer momento do tempo, e otimizar qualquer etapa fora desse gargalo é puro teatro que só acumula fila no meio do caminho.
 
 Você precisa dominar **O Gargalo Móvel da Teoria das Restrições** e **A Obsessão pela Compressão de Ciclo**: identificar a etapa limitante da sua fábrica, subordinar todo o resto a ela, quebrá-la com processo e tecnologia e partir imediatamente para o próximo gargalo.
 
@@ -5074,7 +5084,7 @@ Você precisa dominar **O Gargalo Móvel da Teoria das Restrições** e **A Obse
 > - [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9 — GESTÃO DE CRISE, CONTINUIDADE OPERACIONAL E COMUNICAÇÃO CRÍTICA|Capítulo 9 (Gestão de Crise, Continuidade Operacional e Comunicação Crítica) (Vol. 9)]], BCP e DRP como camada operacional de continuidade
 > - [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 13 — SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA|Capítulo 13 (Segurança da Informação: Da Certificação à Engenharia) (Vol. 8)]], seguranca como disciplina operacional
 > - [[#CAPÍTULO 7 — DESIGN ORGANIZACIONAL|Capítulo 7 (Design Organizacional)]], desenho de equipes, papeis e cadencias que sustentam a operacao
-> - Capítulos verticais com operacao fisica (CM, CA, DL, DQ), quando o playbook exige integracao com mundo nao digital
+> - Capítulos setoriais com operação física (como Saúde, Indústria, Logística e Varejo no Volume 10), quando o playbook exige integração com o mundo físico
 
 Processos, Infraestrutura e Excelência Operacional
 
@@ -5082,7 +5092,7 @@ Processos, Infraestrutura e Excelência Operacional
 
 ### 1. Operações Como Fosso Defensivo: Por Que Concorrentes Podem Copiar Seu Site, Mas Não Sua Máquina
 
-A maioria dos empreendedores trata operações como custo a minimizar. Os que constroem negócios duráveis tratam operações como motor de crescimento. A cadeia causal é direta: excelência operacional reduz fricção para o cliente, fricção menor eleva NPS (Net Promoter Score, índice de recomendação), NPS alto aumenta retenção e recomendação, retenção e recomendação ampliam LTV (Lifetime Value, valor total do cliente ao longo do relacionamento) sem elevar CAC (Customer Acquisition Cost, custo de aquisição de cliente) na mesma proporção.
+A maioria dos empreendedores trata operações como custo a minimizar. Os que constroem negócios duráveis tratam operações como motor de crescimento. A cadeia causal é direta: excelência operacional reduz fricção para o cliente, menor atrito eleva o NPS, o que aumenta a retenção e a indicação orgânica, expandindo o LTV (Lifetime Value, valor total do cliente ao longo do relacionamento) sem elevar CAC (Customer Acquisition Cost, custo de aquisição de cliente) na mesma proporção.
 
 Essa cadeia não é teórica. Empresas como Amazon (malha logística e fulfillment), Nubank (atendimento e operação digital de baixo custo) e Mercado Livre (rede própria Mercado Envios) construíram fossos competitivos apoiados na execução operacional. O produto pode ser copiado em meses. A máquina operacional leva anos para replicar.
 
@@ -5104,7 +5114,7 @@ LTV/CAC saudável
 Margem para reinvestir em produto e operação
 ```
 
-Excelência operacional não significa burocracia. Significa que os processos críticos funcionam de forma previsível, os desvios são detectados rapidamente e as correções são aprendizadas incorporadas ao sistema.
+Excelência operacional não significa burocracia. Significa que os processos críticos funcionam de forma previsível, os desvios são detectados rapidamente e e cada correção vira aprendizado incorporado às regras do sistema.
 
 > [!important]
 > O teste de excelência operacional não é "funciona quando está tudo certo". É "quanto tempo leva para detectar e corrigir quando algo dá errado".
@@ -5117,7 +5127,7 @@ Excelência operacional não significa burocracia. Significa que os processos cr
 
 ---
 
-### 2. Procedimento Operacional Padrão (POP) que Funciona: Simples, Visual e Auditável na Ponta
+### 2. Procedimento Operacional Padrão (POP / SOP) que Funciona: Simples, Visual e Auditável na Ponta
 
 #### Quando Documentar
 
@@ -5140,7 +5150,7 @@ FORMATOS DE DOCUMENTAÇÃO
 │             │ executar uma tarefa           │ onboarding técnico            │
 │             │ operacional específica        │                               │
 ├─────────────┼──────────────────────────────┼───────────────────────────────┤
-│ SOP         │ Procedimento padrão que       │ Processos recorrentes com     │
+│ POP / SOP   │ Procedimento padrão (sinônimo │ Processos recorrentes com     │
 │ (Standard   │ define quem faz o quê,        │ múltiplos responsáveis:       │
 │ Operating   │ em que ordem e com quais      │ cobrança, suporte, lançamento │
 │ Procedure)  │ critérios de qualidade        │                               │
@@ -5166,7 +5176,7 @@ Campos obrigatórios de um SOP:
 - Data da última revisão
 
 > [!warning]
-> SOP sem data de revisão é SOP desatualizado. Coloque revisão semestral no calendário no momento em que o documento é criado.
+> Documento sem data de revisão envelhece rápido: agende revisão trimestral (a cada 90 dias) para runbooks e POPs críticos e semestral para os demais documentos.
 
 #### Onde Guardar
 
@@ -5174,7 +5184,7 @@ A localização da documentação é mais importante que o formato. A regra: a d
 
 ---
 
-### 3. O Relógio da Operação: Rituais Diários de Turno, Semanais de Gargalo e Mensais de Capacidade
+### 3. Cadência Operacional: Rituais Diários de Turno, Semanais de Gargalo e Mensais de Capacidade
 
 Cadência operacional é o ritmo de reuniões, revisões e decisões que mantém a organização alinhada e os problemas visíveis antes de se tornarem crises. A maioria das startups tem cadência fraca: reuniões demais no nível errado, revisões de lagging indicators quando deveriam olhar leading indicators.
 
@@ -5217,7 +5227,7 @@ DIÁRIO - Standup
 
 **Standup diário (15 min):** não é reunião de status para o gestor, é sincronização horizontal entre o time. O único output útil são bloqueios identificados e desbloqueados. Se ninguém tem bloqueio, o standup pode ser assíncrono (mensagem no Slack).
 
-**Weekly semanal (60-90 min):** combina métricas da semana, decisões táticas e comunicação. Estruture em blocos fixos: 20 min de métricas, 40 min de tópicos com dono e decisão esperada, 10 min de comunicados. Evite transformar weekly em fórum de apresentação.
+**Reunião semanal de gestão (60-90 min, apenas com os líderes de área, enviando resumo escrito ao time):** combina métricas da semana, decisões táticas e alinhamento. Estruture em blocos fixos: 20 min de métricas, 40 min de tópicos com dono e decisão esperada, 10 min de comunicados. Evite transformar weekly em fórum de apresentação.
 
 **QBR trimestral (meio dia a um dia):** é o momento de sair da execução e olhar para o padrão. Perguntas centrais: onde estamos vs. onde imaginávamos estar? O que aprendemos? O que muda nas prioridades? Erros frequentes no QBR: focar só em números positivos, não tomar decisões durante a reunião, não registrar os compromissos assumidos.
 
@@ -5226,7 +5236,7 @@ DIÁRIO - Standup
 
 ---
 
-### 4. Comando de Incidente (SEV-1 a SEV-4): Estancar o Sangramento Antes de Buscar a Causa Raiz
+### 4. Comando de Incidente (P0 a P2): Estancar o Sangramento Antes de Buscar a Causa Raiz
 
 Incidentes são inevitáveis em qualquer operação em escala. A diferença entre empresas que crescem e empresas que travam em crises está na capacidade de responder com rapidez e aprender sistematicamente.
 
@@ -5239,7 +5249,7 @@ MATRIZ DE SEVERIDADE DE INCIDENTES
 │ Nível│ Definição                      │ Tempo de      │ Comunicação        │
 │      │                                │ resposta      │ obrigatória        │
 ├──────┼────────────────────────────────┼───────────────┼────────────────────┤
-│  P0  │ Sistema completamente fora     │ Imediato      │ CEO + clientes     │
+│  P0  │ Sistema fora / dados pessoais  │ Imediato      │ CEO, DPO/ANPD e clientes │
 │      │ OU perda de dados de clientes  │ (< 15 min)    │ afetados em < 1h   │
 │      │ OU problema de segurança ativo │               │                    │
 ├──────┼────────────────────────────────┼───────────────┼────────────────────┤
@@ -5265,7 +5275,7 @@ Em incidentes P0 e P1, designe imediatamente um Incident Commander (IC). O IC n�
 > [!warning]
 > O maior erro em incidentes P0 é todo mundo tentando resolver ao mesmo tempo sem coordenação. Isso duplica esforço, contamina os logs de investigação e atrasa a resolução. Designe um IC nos primeiros cinco minutos.
 
-#### Blameless Postmortem
+#### Pós-Mortem Sem Culpa (ver template completo no Capítulo 9, seção 6, e na Fase 17)
 
 O postmortem blameless é a prática de revisar incidentes sem atribuir culpa a indivíduos. O pressuposto central: se um sistema permitiu que um erro humano causasse um incidente, o sistema precisa ser corrigido: não a pessoa.
 
@@ -5282,7 +5292,7 @@ Estrutura mínima de um postmortem:
 
 #### Comunicação Durante Incidentes
 
-A regra de ouro: comunique cedo, comunique frequentemente, nunca fique em silêncio. Um cliente que recebe atualização a cada 30 minutos tolera um incidente de 4 horas. Um cliente que fica sem notícia por 2 horas não tolera um incidente de 45 minutos.
+A regra de ouro: comunique cedo, comunique frequentemente, nunca fique em silêncio. Um cliente que recebe atualização a cada 30 minutos tolera um incidente de 4 horas. Um cliente que fica 40 minutos no escuro sem nenhuma atualização não perdoa nem um incidente resolvido em 45 minutos.
 
 Estrutura da comunicação de incidente:
 
@@ -5292,7 +5302,7 @@ Estrutura da comunicação de incidente:
 
 ---
 
-### 5. O Painel Operacional por Vertical: SaaS, Marketplace, Fintech, Logística e Serviços Físicos
+### 5. O Painel Operacional por Vertical: SaaS, Marketplace, D2C, Serviços Físicos e Indústria/Logística
 
 Métricas operacionais são os sinais que indicam a saúde do motor antes que os resultados financeiros mostrem o problema. Cada modelo de negócio tem seu conjunto específico.
 
@@ -5335,7 +5345,7 @@ MÉTRICAS OPERACIONAIS - Marketplace
 │  Value)              │ pode mascarar unit economics ruins.                │
 ├──────────────────────┼────────────────────────────────────────────────────┤
 │ Fill Rate            │ % das requisições de compra que encontram oferta.  │
-│                      │ Indicador de liquidez do marketplace. < 70%        │
+│                      │ Indicador de liquidez do marketplace (faixa típica de atenção: < 70%, calibrada pela categoria)        │
 │                      │ indica problema grave no lado da oferta.           │
 ├──────────────────────┼────────────────────────────────────────────────────┤
 │ Time to Match        │ Tempo entre requisição e match confirmado.         │
@@ -5376,7 +5386,7 @@ MÉTRICAS OPERACIONAIS - D2C
 
 ---
 
-### 6. Da Planilha ao Sistema: Automatizando Handoffs e Alertas de Violação de SLA
+### 6. Da Planilha ao Sistema: Quando Automatizar, Como Passar o Bastão (Handoffs) e Alertas de SLA
 
 #### Quando Automatizar vs. Contratar
 
@@ -5388,7 +5398,7 @@ MATRIZ DE DECISÃO - AUTOMATIZAR vs. CONTRATAR
                         PROCESSO BEM DEFINIDO?
                         Sim              Não
                    ┌────────────────┬────────────────┐
-Alta     │         │                │                │
+Alta freq. │ Automatize já  │ Documente antes e automatize │
 Frequência│        │  AUTOMATIZAR   │  DOCUMENTAR    │
           │        │  primeiro      │  e depois      │
           │        │                │  automatizar   │
@@ -5426,12 +5436,12 @@ Exemplo:
 #### Ferramentas por Nível de Complexidade
 
 ```text
-STACK DE AUTOMAÇÃO POR MATURIDADE
+PILHA DE AUTOMAÇÃO E AGENTES DE IA POR MATURIDADE (VER CAPÍTULO 7)
 
 NÍVEL 1 - Sem código (até ~R$ 500/mês)
 ├── Zapier: integrações entre SaaS, ideal para notificações e sincronização
 ├── Make (ex-Integromat): mais flexível que Zapier, bom para fluxos complexos
-└── n8n: open source, self-hosted, sem limite de execuções
+└── n8n: código aberto sob licença fair-code, auto-hospedado (exige perfil técnico), sem limite de execuções na versão própria
 
 NÍVEL 2 - Low code (R$ 500–5.000/mês ou equipe técnica interna)
 ├── Retool: dashboards internos e ferramentas operacionais com acesso a DB
@@ -5458,11 +5468,11 @@ Automatizar antes de validar o processo é desperdiçar engenharia. Se o process
 
 ---
 
-### 7. A Engenharia da Escala Não-Linear: Crescer Volume em 10x Sem Multiplicar Custos por 10x
+### 7. A Engenharia da Escala Não Linear: Crescer o Volume Sem Multiplicar os Custos na Mesma Proporção
 
 Dobrar a receita sem dobrar o headcount é o objetivo declarado de toda startup, mas poucos têm um framework para conseguir. A pergunta central: o que, exatamente, precisa escalar para dobrar a receita?
 
-#### O Framework PPP: Produto, Processo, Pessoa
+#### A Ordem de Escala: Produto, Processo, Pessoa
 
 Quando uma tarefa ou capacidade cresce para além da capacidade humana de executar manualmente, ela precisa virar produto, processo ou pessoa: nessa ordem de preferência.
 
@@ -5502,7 +5512,7 @@ Uma forma de medir se você está escalando de forma saudável:
 Índice < 1,0: alarme - headcount crescendo mais rápido que receita
 ```
 
-Monitore esse índice trimestral. Se estiver abaixo de 1,2 por dois trimestres consecutivos, revise o que está sendo resolvido com contratação que deveria ser produto ou processo.
+Monitore esse índice trimestral. Se o índice ficar abaixo de 1,0 (crescimento sublinear) ou cair abaixo da faixa saudável de 1,5 por dois trimestres consecutivos, revise o que está sendo resolvido no braço que deveria ser produto ou processo (e, caso o quadro de pessoas tenha permanecido estável ou encolhido no período, acompanhe diretamente a evolução da receita por colaborador para evitar distorção matemática na fórmula).
 
 #### O Que Normalmente Vira Produto
 
@@ -5521,7 +5531,7 @@ Monitore esse índice trimestral. Se estiver abaixo de 1,2 por dois trimestres c
 
 ---
 
-### 8. As Armadilhas Mortais: Otimizar Fora do Gargalo, Esconder Erros e Burocratizar a Ponta
+### 8. As Oito Armadilhas Operacionais: De Otimizar Fora do Gargalo a Burocratizar a Ponta
 
 Empresas que passam de 10 para 100 funcionários cometem erros operacionais previsíveis. Conhecê-los antecipadamente não evita todos, mas reduz o custo de aprender na prática.
 
@@ -5542,7 +5552,7 @@ Em times pequenos, comunicação acontece por osmose. Em times de 30+ pessoas, c
 
 #### Armadilha 4 — Onboarding Informal
 
-Em startups de até 10 pessoas, o founder onborda cada pessoa diretamente. Isso não escala. Quando o onboarding é informal, cada novo funcionário aprende uma versão diferente do trabalho, da cultura e dos processos. A inconsistência se manifesta em qualidade irregular e dificuldade de diagnóstico de problemas.
+Em empresas de até 10 pessoas, o fundador integra cada novo contratado pessoalmente. Isso não escala. Quando o onboarding é informal, cada novo funcionário aprende uma versão diferente do trabalho, da cultura e dos processos. A inconsistência se manifesta em qualidade irregular e dificuldade de diagnóstico de problemas.
 
 Crie um onboarding estruturado antes de contratar a décima pessoa, não depois.
 
@@ -5553,13 +5563,13 @@ O herói operacional é a pessoa que resolve crises sozinha, trabalha de madruga
 > [!warning]
 > Se uma operação depende de um herói para funcionar, ela não está funcionando: está sendo mantida funcionando artificialmente. O herói não é o problema, é o sintoma de um processo ausente.
 
-#### Armadilha 6 — Automatizar Processos Quebrados
+#### Armadilha 6: Pular a Simplificação Antes de Automatizar (ver os 4 passos na seção 6)
 
 Automatizar um processo ruim cria erros em escala. Antes de automatizar, verifique se o processo produz o output correto quando executado manualmente. Se não produz, corrija o processo. Automatização amplifica o que existe: bom ou ruim.
 
 #### Armadilha 7 — Ignorar a Dívida Operacional
 
-Assim como dívida técnica, dívida operacional se acumula: processos gambiarra, integrações manuais entre sistemas, exceções vira regra. Em estágios iniciais, essa dívida é aceitável para ganhar velocidade. Em escala, ela vira gargalo e risco operacional. Reserve capacidade trimestral para amortizar dívida operacional: refatore processos, elimine gambiarra, consolide ferramentas.
+Assim como dívida técnica, dívida operacional se acumula: gambiarras viram processo padrão, integrações entre sistemas continuam manuais e a exceção vira regra. Em estágios iniciais, essa dívida é aceitável para ganhar velocidade. Em escala, ela vira gargalo e risco operacional. Reserve capacidade trimestral para amortizar dívida operacional: refatore processos, elimine gambiarra, consolide ferramentas.
 
 #### Armadilha 8 — Separar Produto de Operações
 
@@ -5572,7 +5582,7 @@ Empresas que tratam produto e operações como silos distintos criam produtos qu
 ```text
 CHECKLIST DE MATURIDADE OPERACIONAL
 
-Fase 0–10 pessoas
+Estágio 0–10 pessoas
 □ Processos críticos documentados informalmente
 □ Cadência semanal de time
 □ Classificação básica de incidentes (crítico vs. não-crítico)
@@ -5610,7 +5620,9 @@ Fase 150+ pessoas
 
 ---
 
-### O Espelho de Eliyahu Goldratt e Taiichi Ohno: Onde Está a Fila Escondida na Sua Operação Hoje?
+### O Espelho de Taiichi Ohno e Eliyahu Goldratt: Onde Está a Fila Escondida na Sua Operação Hoje?
+
+Eliyahu Goldratt formulou em *A Meta* (1984) os cinco passos de focalização da Teoria das Restrições (identificar o gargalo, explorá-lo ao máximo, subordinar todo o resto a ele, elevar sua capacidade e voltar ao passo um), enquanto Taiichi Ohno estruturou no Sistema Toyota a observação direta no local de trabalho (*gemba*) e o cordão *andon*, que dá a qualquer operador o poder de puxar o freio e sinalizar uma anomalia na hora em que ela ocorre.
 
 **Fechando o ciclo na trincheira:** Quando a **Dra. Camila** trouxe este protocolo para a operação da clínica em Belo Horizonte, o gargalo que abriu este capítulo deixou de depender do seu heroísmo pessoal na cadeira e passou a rodar como sistema auditável pela equipe.
 
@@ -5622,5 +5634,5 @@ Saia da sua sala e acompanhe pessoalmente o pedido de um cliente do segundo em q
 
 **Regra de Sobrevivência:** Uma hora ganha no gargalo da operação é uma hora ganha para a empresa inteira; uma hora ganha fora do gargalo é uma miragem que só aumenta o estoque intermediário.
 
-**O Ritual de Segunda-Feira às 9h:** Escolha o fluxo operacional de maior impacto no cliente, cronometre o tempo real de ponta a ponta (Lead Time vs. Touch Time) e elimine um handoff manual ou fila de espera até sexta-feira.
+**O Ritual de Segunda-Feira às 9h (rotina semanal de 30 minutos):** Escolha o fluxo operacional de maior impacto no cliente, cronometre o tempo real de ponta a ponta (Lead Time vs. Touch Time) e elimine um handoff manual ou fila de espera até sexta-feira.
 

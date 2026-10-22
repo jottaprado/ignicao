@@ -1,0 +1,2690 @@
+[
+  {
+    "id": "3824",
+    "vol": "9",
+    "code": "N3",
+    "from": "o negócio de comércio e distribuição de Rafael e Bia vivia seu trimestre mais lucrativo da história",
+    "to": "o marketplace D2C e marca omnichannel de autocuidado de Rafael e Bia, que já vendia tanto no próprio site quanto para salões e lojistas parceiros, vivia seu trimestre mais forte antes da virada de juros"
+  },
+  {
+    "id": "3825",
+    "vol": "9",
+    "code": "N3",
+    "from": "Em Recife, o negócio de comércio e distribuição de Rafael e Bia vivia seu trimestre mais lucrativo da história: R$ 68 milhões de faturamento anualizado, margem EBITDA de 19%",
+    "to": "Em Recife, o marketplace D2C e omnichannel de autocuidado de Rafael e Bia (doze meses antes do aperto de crédito do Capítulo 11) vivia seu trimestre mais forte: R$ 68 milhões de GMV anualizado, margem EBITDA de 11%"
+  },
+  {
+    "id": "3828",
+    "vol": "9",
+    "code": "S4",
+    "from": "Mergulho de validação (Fases 2 a 4) é obrigatório na curva 2.",
+    "to": "O mergulho de validação ([[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 4 — DESCOBERTA DO PROBLEMA|Fases 4 a 6 (Vol. 2)]] e [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 7 — FORMULAÇÃO DE HIPÓTESES|Fases 7 e 8 (Vol. 3)]]) é obrigatório na segunda curva."
+  },
+  {
+    "id": "3829",
+    "vol": "9",
+    "code": "N6",
+    "from": "*Você tem founder-market-fit com a nova curva também, ou está projetando a sua competência da curva atual numa área onde não tem a mesma profundidade?*",
+    "to": "*Você tem ajuste fundador-mercado (FMF, ou seja, domínio profundo do setor, ativo diferenciado transferível e energia pessoal para uma nova travessia de cinco anos) também na nova curva, ou está projetando sua competência da curva atual em um terreno onde é iniciante?*"
+  },
+  {
+    "id": "3835",
+    "vol": "9",
+    "code": "S4",
+    "from": "quando ainda há espaço na [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16 (Vol. 6)]] (Crescimento e Capital).",
+    "to": "quando ainda há espaço na [[IGNICAO-Vol-6-Receita-e-Pessoas#Os 6 passos da escala: documentar o playbook, dominar um canal até a exaustão, medir unit economics e expandir em profundidade antes da amplitude|Fase 15 (Vol. 6: Máquina de Crescimento e Expansão em Escala)]]."
+  },
+  {
+    "id": "3836",
+    "vol": "9",
+    "code": "S4",
+    "from": "Antes de abrir um ciclo de reinvenção, faça o diagnóstico honesto. A [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16 (Vol. 6)]] traz seis caminhos de expansão disciplinada: três intra-conta (workflow adjacente, papel adjacente, ownership de sistema) e três extra-conta (segmento, geografia, produto). Quantos você efetivamente ativou e esgotou? Fundadores experientes entram na Fase 19 real só depois de ter rodado pelo menos três ou quatro dos seis caminhos com seriedade.",
+    "to": "Antes de abrir um ciclo de reinvenção, faça o diagnóstico honesto. A [[IGNICAO-Vol-6-Receita-e-Pessoas#Os 6 passos da escala: documentar o playbook, dominar um canal até a exaustão, medir unit economics e expandir em profundidade antes da amplitude|Fase 15 (Vol. 6: Máquina de Crescimento e Expansão em Escala)]] apresenta seis caminhos de expansão disciplinada: três dentro da própria conta (fluxo de trabalho adjacente, perfil de usuário adjacente e tornar-se o sistema de registro do cliente) e três fora da conta (novo segmento, nova geografia e novo produto). Quantos você efetivamente ativou e esgotou? Fundadores experientes só entram na Fase 19 depois de ter rodado com seriedade pelo menos três ou quatro desses seis caminhos."
+  },
+  {
+    "id": "3837",
+    "vol": "9",
+    "code": "E9",
+    "from": "#### Passo 1, monitore os sinais antecedentes de saturação",
+    "to": "#### Passo 1: monitore os sinais antecedentes de saturação"
+  },
+  {
+    "id": "3838",
+    "vol": "9",
+    "code": "E2",
+    "from": "Pipeline coverage diminuindo trimestre a trimestre. Taxa de conversão por etapa do funil degradando. \"Custos escondidos\" crescendo: mais SDRs por AE, mais ads por lead, mais conteúdo por MQL.",
+    "to": "A cobertura de pipeline cai a cada trimestre, a taxa de conversão piora em cada etapa do funil e os custos ocultos sobem: são necessários mais pré-vendedores (SDRs) por executivo de contas, mais mídia paga por lead e mais conteúdo por oportunidade qualificada."
+  },
+  {
+    "id": "3841",
+    "vol": "9",
+    "code": "C3",
+    "from": "| Platform pivot (produto vira plataforma) | Produto virou feature, há espaço para plataforma sob o produto | Slack era jogo (Glitch), virou plataforma de mensagens |",
+    "to": "| **Pivô para plataforma** (o produto abre infraestrutura ou ecossistema para terceiros) | O produto principal ganhou escala e permite acoplar novos módulos ou parceiros sobre a mesma base | A TOTVS expandiu do ERP para serviços financeiros (Techfin) e gestão comercial integrada |"
+  },
+  {
+    "id": "3843",
+    "vol": "9",
+    "code": "S4",
+    "from": "Na Fase 15, ela reaparece em forma mais complexa",
+    "to": "Na Fase 19, essa decisão entre pivotar e perseverar volta de forma mais complexa"
+  },
+  {
+    "id": "3844",
+    "vol": "9",
+    "code": "N7",
+    "from": "**Scorecard de pivot vs. persevere (adaptado de Steve Blank + Eric Ries + dados propriamente calibrados).**",
+    "to": "**Scorecard de pivotar ou perseverar (modelo autoral inspirado nos conceitos de Steve Blank e Eric Ries).**"
+  },
+  {
+    "id": "3845",
+    "vol": "9",
+    "code": "E7",
+    "from": "Churn < 2%/mês e caindo, ou logo churn quase zero",
+    "to": "Churn abaixo de 2% ao mês e em queda, ou perda de clientes em número próxima de zero"
+  },
+  {
+    "id": "3846",
+    "vol": "9",
+    "code": "S4",
+    "from": "**O que pivot significa em Fase 15 (vs. Fase 6-9).**",
+    "to": "**O que pivô significa na Fase 19 (em comparação às Fases 8 a 12).**"
+  },
+  {
+    "id": "3847",
+    "vol": "9",
+    "code": "S4",
+    "from": "Em Fase 6-9, pivot frequentemente é mudança de produto, segmento ou modelo de negócio fundamental. Em Fase 15, pivot é mais granular: mudar o motor de crescimento (de PLG para enterprise sales), mudar o segmento de expansão (de SMB para enterprise), mudar a proposta de valor para novos clientes, ou entrar em categoria adjacente (plataforma vs. produto ponto). O custo é maior, mas o aprendizado também é. Empresa que chegou na Fase 15 tem vantagens que empresa em Fase 6 não tem: base instalada, dados, equipe, marca e capital.",
+    "to": "Nas Fases 8 a 12 (validação inicial), o pivô costuma ser uma mudança estrutural de produto, segmento ou modelo de negócio. Na Fase 19 (empresa madura), o pivô é mais cirúrgico: mudar o motor de crescimento (de aquisição autoatendida para vendas corporativas), mudar o segmento de expansão (de pequenas empresas para grandes contas), reposicionar a proposta de valor para novos clientes ou expandir de produto único para plataforma. O custo de transição é maior, mas a empresa que chegou à Fase 19 conta com ativos que não tinha na fase de validação: base instalada, dados proprietários, equipe, marca e capital."
+  },
+  {
+    "id": "3848",
+    "vol": "9",
+    "code": "S4",
+    "from": "> [!important] O maior erro em Fase 15",
+    "to": "> [!important] O maior erro na reinvenção (Fase 19)"
+  },
+  {
+    "id": "3849",
+    "vol": "9",
+    "code": "E9",
+    "from": "Empresas com core em crescimento forte mantêm em dez a quinze por cento.",
+    "to": "Empresas com o negócio principal ainda em forte crescimento reduzem a fatia de apostas adjacentes para dez a quinze por cento."
+  },
+  {
+    "id": "3850",
+    "vol": "9",
+    "code": "E9",
+    "from": "> Alocação no papel, não na prática. Dez por cento de moonshot vira dois por cento em dinheiro real, e zero por cento em atenção do CEO. Se não é defendido ativamente, morre. Time misto. Pessoas do core tentando tocar moonshot em vinte por cento do tempo. Resultado. Nenhum dos dois anda. Moonshot exige time dedicado. Métricas iguais. Exigir do moonshot as mesmas métricas do core (NRR, CAC payback) mata a aposta. Moonshot tem métricas de *aprendizado*, não de *resultado financeiro*.",
+    "to": "> **Alocação só no papel:** dez por cento reservados à segunda curva viram dois por cento em orçamento real e zero na agenda do CEO; sem defesa ativa, a iniciativa morre. **Time misto:** profissionais da operação principal tentam tocar a aposta transformacional em vinte por cento do tempo, e o resultado é que nenhum dos dois avança, pois a nova curva exige equipe dedicada. **Métricas iguais:** cobrar da aposta embrionária os mesmos indicadores de uma operação madura (como NRR e payback de CAC imediato) sufoca o experimento antes da validação; no início, a régua deve medir velocidade de aprendizado e retenção das primeiras coortes, não margem de curto prazo."
+  },
+  {
+    "id": "3851",
+    "vol": "9",
+    "code": "C3",
+    "from": "O exemplo clássico: a Microsoft se autodisrompendo de licenças perpétuas (Office) para subscrição cloud (Office 365). No início, cada usuário que migrava gerava menos receita imediata. Em cinco anos, transformou a empresa.",
+    "to": "Um exemplo conhecido de transição de modelo de receita em empresa madura foi a migração da Microsoft das licenças perpétuas do Office para o modelo de assinatura em nuvem (lançado como Office 365 em 2011, acelerado sob a liderança de Satya Nadella a partir de 2014 e rebatizado como Microsoft 365 em 2020): no início da transição, cada cliente que migrava gerava menos receita imediata no trimestre, mas ao longo da década seguinte a recorrência em nuvem multiplicou o valor da companhia."
+  },
+  {
+    "id": "3852",
+    "vol": "9",
+    "code": "S3",
+    "from": "> [!note] Alternativas a M&A em reinvenção",
+    "to": "> [!note] Parcerias estratégicas antes de aquisições (M&A)"
+  },
+  {
+    "id": "3853",
+    "vol": "9",
+    "code": "C1",
+    "from": "Resolvem 60-80% dos casos de \"preciso entrar nesse mercado/tecnologia\" sem o custo de integração.",
+    "to": "Muitas vezes resolvem a necessidade de acessar um novo mercado ou tecnologia complementar sem o custo e o risco de integrar outra empresa."
+  },
+  {
+    "id": "3855",
+    "vol": "9",
+    "code": "C5",
+    "from": "Commitment temporal: \"Nos próximos dezoito meses, vamos testar X. Se funcionar, expandimos. Se não, voltamos ao foco exclusivo no core.\"",
+    "to": "Compromisso de prazo: \"Nos próximos dezoito meses, vamos medir a tese X com metas claras de validação. Se os sinais de retenção e tração vierem, escalamos; se não vierem, encerramos este experimento e testamos a próxima candidata, mantendo a disciplina de construir a segunda curva.\""
+  },
+  {
+    "id": "3856",
+    "vol": "9",
+    "code": "E9",
+    "from": "poderiam ter feito por volta de 2014 e 2016. Quando a empresa decidiu transformar profundamente a operação digital.",
+    "to": "poderiam ter feito entre 2014 e 2016, quando a empresa decidiu transformar profundamente sua operação digital."
+  },
+  {
+    "id": "3857",
+    "vol": "9",
+    "code": "C3",
+    "from": "Concorrentes online (Americanas, Submarino, Mercado Livre) crescendo a taxas de trinta a cinquenta por cento ao ano, enquanto o varejo físico crescia em um dígito.",
+    "to": "Concorrentes do comércio eletrônico, como a B2W (dona de Americanas.com e Submarino) e o Mercado Livre, ganhavam participação de mercado continuamente sobre as redes físicas tradicionais do Sul, Sudeste e Nordeste, que enfrentavam retração de vendas nas mesmas lojas durante a recessão de 2015 e 2016."
+  },
+  {
+    "id": "3858",
+    "vol": "9",
+    "code": "E9",
+    "from": "Varejo físico ficando concentrado em consumidor mais de quarenta e cinco anos, e em geografias específicas. Margem do varejo físico estável, mas comprimida por aluguel, mais folha, mais concorrência.",
+    "to": "Varejo físico ficando concentrado no consumidor com mais de quarenta e cinco anos e em praças específicas. Margem das lojas físicas estável, mas comprimida pela soma de aluguel, folha e concorrência."
+  },
+  {
+    "id": "3861",
+    "vol": "9",
+    "code": "E9",
+    "from": "Controle familiar permitindo horizonte longo de pagamento.",
+    "to": "Controle familiar que tolera prazo longo de retorno sobre o investimento."
+  },
+  {
+    "id": "3862",
+    "vol": "9",
+    "code": "C3",
+    "from": "Aquisições de empresas digitais (Netshoes em 2019, Estante Virtual, Época Cosméticos, e outras).",
+    "to": "Aquisições de operações digitais para compor o ecossistema (Época Cosméticos em 2013, Netshoes em 2019, Estante Virtual em 2020, Kabum e Jovem Nerd em 2021)."
+  },
+  {
+    "id": "3863",
+    "vol": "9",
+    "code": "E4",
+    "from": "> [!important] A lição transferível da Magalu",
+    "to": "> [!important] O ativo que sustentou a travessia do Magazine Luiza"
+  },
+  {
+    "id": "3864",
+    "vol": "9",
+    "code": "E10",
+    "from": "Quem trata segunda curva como \"projeto especial\" com prazo de doze meses sempre falha.",
+    "to": "Segunda curva tratada como \"projeto especial\" com prazo curto de doze meses costuma morrer antes de atingir tração."
+  },
+  {
+    "id": "3867",
+    "vol": "9",
+    "code": "N9",
+    "from": "### A Prova de Que a Segunda Curva Atingiu Tração Própria Sem Destruir o Caixa Central",
+    "to": "### A Prova de Que a Segunda Curva Atingiu Tração Própria Sem Drenar o Caixa Central\n\n- [ ] O negócio principal (primeira curva) manteve a geração de caixa operacional orçada, a unidade de segunda curva respeita o teto de queima aprovado pelo conselho e o fôlego de caixa (*runway*) consolidado da empresa permanece acima de 18 meses."
+  },
+  {
+    "id": "3868",
+    "vol": "9",
+    "code": "S4",
+    "from": "learning velocity ≥ Fase 7 original (se menor, está sendo tratada como projeto lateral)",
+    "to": "velocidade de aprendizado igual ou superior à da Fase 8 (Experimentos de validação; se for menor, a iniciativa está sendo tratada como projeto lateral)"
+  },
+  {
+    "id": "3869",
+    "vol": "9",
+    "code": "E9",
+    "from": "\"Vamos contratar um VP de Inovação\". Sem autonomia real e sem poder de decisão, viram teatros caros.",
+    "to": "\"Vamos contratar um diretor de inovação\": sem orçamento carimbado, sem autonomia real e sem poder de decisão, o cargo vira teatro caro."
+  },
+  {
+    "id": "3870",
+    "vol": "9",
+    "code": "C5",
+    "from": "Os clientes top sempre querem mais do mesmo. Os disruptores sempre começam por baixo.",
+    "to": "Os maiores clientes atuais tendem a pedir melhorias incrementais do que já existe. Já o disruptor costuma entrar pela base do mercado ou por não consumidores que ninguém atendia."
+  },
+  {
+    "id": "3871",
+    "vol": "9",
+    "code": "C4",
+    "from": "Moore respondeu: \"Ele sairia de memórias e apostaria tudo em microprocessadores\".",
+    "to": "Moore respondeu: \"Ele nos tiraria do negócio de memórias\". Foi a partir dessa resposta que ambos decidiram sair de memórias e concentrar o futuro da Intel em microprocessadores."
+  },
+  {
+    "id": "3872",
+    "vol": "9",
+    "code": "N4",
+    "from": "1. **A Pergunta da Autocanibalização:** Qual tecnologia, modelo de preços ou mudança regulatória poderia tornar o seu produto principal obsoleto em 36 meses: e por que não é um time seu que está construindo esse substituto agora?",
+    "to": "1. **A Pergunta da Autocanibalização (escala de 0 a 2 pontos em cada pergunta; soma de 0 a 2 = negócio principal em risco, 3 a 4 = atenção, 5 a 6 = portfólio saudável):** Qual tecnologia, modelo de preços ou mudança regulatória (como compras assistidas por agentes de IA no WhatsApp e a transição tributária para IBS e CBS que pressionaram a operação de Bia em Recife) poderia tornar o seu produto principal obsoleto em 36 meses, e por que ainda não há uma célula dedicada da sua empresa construindo esse substituto agora?"
+  },
+  {
+    "id": "3873",
+    "vol": "9",
+    "code": "N5",
+    "from": "**O Ritual de Segunda-Feira às 9h:** Separe formalmente no orçamento e no organograma um squad enxuto de Segunda Curva reportando direto ao fundador",
+    "to": "**O Ritual de Segunda-Feira às 9h:** Reserve 30 minutos toda segunda-feira entre o CEO e o líder dedicado da segunda curva para revisar as hipóteses críticas testadas na semana anterior, os aprendizados com clientes-piloto e o bloqueio de agenda do fundador, tomando uma decisão prática de desbloqueio."
+  },
+  {
+    "id": "3876",
+    "vol": "9",
+    "code": "S6",
+    "from": "### MANUAL PASSO A PASSO DOS FRAMEWORKS DESTA FASE",
+    "to": "### MANUAL PRÁTICO DE DIAGNÓSTICO E GOVERNANÇA DA SEGUNDA CURVA\n\n> **Como aplicar no seu negócio:** Os roteiros a seguir condensam as ferramentas essenciais desta fase conectadas diretamente aos cinco arquétipos da coleção."
+  },
+  {
+    "id": "3877",
+    "vol": "9",
+    "code": "S7",
+    "from": "1. Cenários ≠ previsões.** Não se está tentando prever, está-se preparando para múltiplos futuros possíveis.",
+    "to": "1. **Cenários não são previsões.** Ninguém tenta adivinhar o futuro; a empresa se prepara para múltiplos futuros possíveis."
+  },
+  {
+    "id": "3878",
+    "vol": "9",
+    "code": "C2",
+    "from": "4. Driven por drivers e incertezas.** Drivers são forças que impactam todos os cenários (ex.: envelhecimento demográfico), incertezas criam divergência entre cenários (ex.: Trump reeleito vs. Democrata vence).",
+    "to": "4. **Movidos por tendências estruturais e incertezas críticas.** Tendências estruturais afetam todos os cenários (ex.: envelhecimento demográfico), enquanto incertezas críticas fazem os cenários divergirem (ex.: trajetória da taxa Selic e da política fiscal após as eleições de outubro de 2026, ou ritmo de regulamentação do IBS e da CBS)."
+  },
+  {
+    "id": "3880",
+    "vol": "9",
+    "code": "C3",
+    "from": "Hoje é o método preferido em empresas industriais japonesas e em algumas ocidentais como Danaher, Intel.",
+    "to": "Hoje é o método de desdobramento de metas adotado em grupos industriais japoneses e em companhias ocidentais como Danaher e HP."
+  },
+  {
+    "id": "3881",
+    "vol": "9",
+    "code": "C6",
+    "from": "Hoshin Kanri (\"gestão de direção\") foi desenvolvido no Japão nos anos 1950-60",
+    "to": "O Hoshin Kanri (difundido no Brasil por Vicente Falconi como Gerenciamento pelas Diretrizes, ou GPD) foi desenvolvido no Japão nos anos 1950 e 1960"
+  },
+  {
+    "id": "3882",
+    "vol": "9",
+    "code": "N3",
+    "from": "Empresa SaaS brasileira madura (R$ 120M ARR):",
+    "to": "A scaleup de SaaS vertical e serviços financeiros embutidos de Lucas e Marina em São Paulo (R$ 120 milhões de ARR em 2026, com meta de atingir R$ 180 milhões em 2027 e R$ 300 milhões em 2029):"
+  },
+  {
+    "id": "3884",
+    "vol": "9",
+    "code": "C5",
+    "from": "Mesma empresa SaaS:",
+    "to": "Na mesma scaleup de Lucas e Marina (partindo de R$ 120 milhões de ARR em 2026 rumo a R$ 180 milhões em 2027 e R$ 300 milhões em 2029, com objetivo qualitativo de consolidar-se como a plataforma operacional e financeira padrão do seu setor):"
+  },
+  {
+    "id": "3887",
+    "vol": "9",
+    "code": "E9",
+    "from": "1. Financeira: \"como nos vemos para acionistas?\" (receita, lucro, ROI).",
+    "to": "1. **Financeira:** \"como devemos aparecer para os nossos acionistas?\" (crescimento de receita, margem, retorno sobre o capital investido)."
+  },
+  {
+    "id": "3888",
+    "vol": "9",
+    "code": "E7",
+    "from": "3. Autonomous disruption unit: times separados com freedom para experimentar, sem amarras de processo, margem, clientes atuais. (Este é o padrão em companies that survived disruption.)",
+    "to": "3. **Unidade autônoma de disrupção:** equipes separadas com liberdade para experimentar, sem as amarras de processo, margem imediata e exigências dos clientes atuais. (É o padrão das empresas que sobreviveram à disrupção.)"
+  },
+  {
+    "id": "3889",
+    "vol": "9",
+    "code": "E9",
+    "from": "3. Cresça para cima: sobre no mercado com produto melhorando.",
+    "to": "3. Suba de segmento à medida que o produto evolui: conquiste faixas mais exigentes do mercado conforme a tecnologia amadurece."
+  },
+  {
+    "id": "3890",
+    "vol": "9",
+    "code": "C4",
+    "from": "- Ciba-Geigy / Novartis: pharma (exploit) + genomics research (explore).",
+    "to": "- **Ciba Vision** (divisão da Ciba-Geigy documentada por O'Reilly e Tushman na *Harvard Business Review*, 2004): manteve a fabricação tradicional de lentes de contato convencionais (*exploit*) enquanto criou unidades autônomas para desenvolver lentes descartáveis diárias e tratamentos para degeneração macular (*explore*)."
+  },
+  {
+    "id": "3891",
+    "vol": "9",
+    "code": "S7",
+    "from": "- [[IGNICAO-Vol-1-Ideacao#FASE 2 — ARTICULAÇÃO E CAPTURA DA IDEIA|Fase 2 (Vol. 1)]], Emergência: performance lenta, ceticismo.",
+    "to": "- **Etapa 1 (Emergência):** o desempenho técnico e comercial evolui devagar no início do ciclo e predomina o ceticismo do mercado."
+  },
+  {
+    "id": "3892",
+    "vol": "9",
+    "code": "E7",
+    "from": "Assumir que S atual nunca acaba: \"nossa tecnologia ainda tem décadas\". Maybe sim, maybe não, Investir em próxima S cedo demais: tecnologia não estava madura, desperdiça capital, Não investir: incumbente clássico, disruption acontece.",
+    "to": "Achar que a curva S atual nunca acaba (\"nossa tecnologia ainda tem décadas pela frente\"): pode ter, pode não ter. Investir pesado na próxima curva S cedo demais, quando a tecnologia ainda não amadureceu, queima capital antes da hora; não investir nunca repete a paralisia clássica do incumbente até a disrupção acontecer."
+  },
+  {
+    "id": "3904",
+    "vol": "9",
+    "code": "C5",
+    "from": "Um componente que é Genesis hoje (LLMs em 2023) se torna Commodity mais rápido do que parece (LLM-as-a-service via API em 2025).",
+    "to": "Um componente que nasce como Gênese experimental (como os grandes modelos de linguagem por volta de 2020) caminha rapidamente para se tornar utilidade padronizada consumida via API em poucos anos."
+  },
+  {
+    "id": "3912",
+    "vol": "9",
+    "code": "S4",
+    "from": "o Capítulo 21 (Second-Time Founder) é a continuação natural depois do exit da Fase 20.",
+    "to": "o **Capítulo 19 (O Fundador de Segunda Viagem, listado como Capítulo 22 no sumário geral)** é a continuação natural depois do evento de liquidez da Fase 20."
+  },
+  {
+    "id": "3913",
+    "vol": "9",
+    "code": "S1",
+    "from": "### O Paradoxo de Que as Melhores Empresas São Compradas, Mas Só Fecha no Preço Certo Quem Está Pronto Antes",
+    "to": "### Só Vende Bem Quem Se Preparou Antes"
+  },
+  {
+    "id": "3914",
+    "vol": "9",
+    "code": "N1",
+    "from": "Lucas e Marina conseguiram conduzir um processo competitivo impecável e fechar a transação em cento e vinte dias sem perder um único real de valuation na auditoria por uma única razão",
+    "to": "Diante do impasse entre vender a empresa ou seguir independentes, e sabendo que uma transação desse porte com análise do CADE levaria cerca de dez meses e traria propostas com 35% do preço atrelados a metas futuras de earn-out (como veremos no Capítulo 19), Lucas e Marina só puderam sentar à mesa em posição de força para defender o valuation na auditoria por uma única razão"
+  },
+  {
+    "id": "3915",
+    "vol": "9",
+    "code": "C5",
+    "from": "fechar a transação em cento e vinte dias",
+    "to": "conduzir a transação ao longo de dez meses"
+  },
+  {
+    "id": "3916",
+    "vol": "9",
+    "code": "C5",
+    "from": "sem perder um único real de valuation na auditoria",
+    "to": "defendendo o valuation na auditoria e travando as regras do earn-out de 35%"
+  },
+  {
+    "id": "3917",
+    "vol": "9",
+    "code": "N2",
+    "from": "Numa tarde de quinta-feira em São Paulo, Lucas e Marina receberam um convite discreto para um café no último andar de um prédio na Faria Lima",
+    "to": "Em duas semanas consecutivas em São Paulo, Lucas e Marina receberam abordagens de compra de dois grupos distintos: primeiro, um café no último andar de um prédio na Faria Lima com o vice-presidente global de desenvolvimento corporativo (*Corp Dev*) de uma gigante americana de software; dias depois, uma sondagem direta da diretoria de um grande banco brasileiro"
+  },
+  {
+    "id": "3921",
+    "vol": "9",
+    "code": "C1",
+    "from": "tipicamente recebem valuations trinta a sessenta por cento menores do que poderiam. Pagam duas a três vezes mais em impostos",
+    "to": "perdem poder de barganha e costumam aceitar descontos expressivos de avaliação (frequentemente de 20% a 40% abaixo de um processo competitivo preparado), além de pagarem carga tributária evitável por falta de planejamento prévio"
+  },
+  {
+    "id": "3922",
+    "vol": "9",
+    "code": "E7",
+    "from": "Founder que mantém a opção em aberto tem poder de barganha. Founder que precisa vender, quando o telefone toca, vende mal.",
+    "to": "Fundador que mantém a opção aberta negocia melhor. Fundador que precisa vender às pressas aceita desconto."
+  },
+  {
+    "id": "3926",
+    "vol": "9",
+    "code": "C6",
+    "from": "O processo formal leva seis a nove meses de S-1 ou prospecto, mais roadshow.",
+    "to": "O processo formal leva de seis a nove meses entre o pedido de registro da oferta na CVM (pela Resolução CVM 160 para listagem no Novo Mercado ou Bovespa Mais da B3, cuja janela para tecnologia ficou praticamente fechada após 2021, ou via formulário F-1 na SEC para listagem nos EUA, conforme detalhado no Capítulo 16 deste volume) e o roadshow com investidores institucionais."
+  },
+  {
+    "id": "3928",
+    "vol": "9",
+    "code": "E9",
+    "from": "Dois ou mais sinais em duas ou mais categorias merece considerar a sério.",
+    "to": "Dois ou mais sinais presentes ao mesmo tempo, em pelo menos duas categorias diferentes, justificam abrir uma conversa estruturada com o conselho."
+  },
+  {
+    "id": "3929",
+    "vol": "9",
+    "code": "C5",
+    "from": "O que preparar, em cinco frentes.",
+    "to": "O que preparar com antecedência, organizado em seis frentes complementares."
+  },
+  {
+    "id": "3932",
+    "vol": "9",
+    "code": "S4",
+    "from": "Documente processos críticos (vide [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16 (Vol. 6)]], Operações). Meça e reporte KPIs de forma recorrente. Limpe o organograma, reduzindo dependências excessivas de pessoas-chave. Organize dados históricos em data warehouse acessível.",
+    "to": "Documente processos críticos (vide [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#A Arquitetura de Comando: Cadência, Processos e Alavancagem Gerencial|Fase 17, Vol. 7: Operações, Processos e Gestão em Escala]]). Meça e reporte indicadores operacionais de forma recorrente. Limpe o organograma, reduzindo dependências excessivas de pessoas-chave, e organize os dados históricos em repositório auditável e acessível."
+  },
+  {
+    "id": "3937",
+    "vol": "9",
+    "code": "S6",
+    "from": "**Os elementos-chave do SPA (Share Purchase Agreement), em sete pontos.**",
+    "to": "**Os elementos-chave do contrato de compra e venda de ações (SPA, Share Purchase Agreement), em seis pontos (somados às cláusulas de indenização).**"
+  },
+  {
+    "id": "3938",
+    "vol": "9",
+    "code": "C5",
+    "from": "earnout (bônus pós-fechamento atrelado a metas futuras))",
+    "to": "earn-out (parcela complementar do preço de aquisição paga após o fechamento caso metas operacionais acordadas sejam atingidas))"
+  },
+  {
+    "id": "3939",
+    "vol": "9",
+    "code": "C3",
+    "from": "Exija anti-dilution covenant que impede migração de clientes sem compensação.",
+    "to": "Exija cláusula de proteção no contrato (*covenant* de integridade da base) que proíba migrar clientes da unidade adquirida para outros produtos do grupo comprador sem compensar integralmente o cálculo do *earn-out*."
+  },
+  {
+    "id": "3940",
+    "vol": "9",
+    "code": "C7",
+    "from": "o fundador mantém controle sobre headcount, produto e go-to-market por período definido (12-18 meses)",
+    "to": "o fundador mantém controle sobre quadro de pessoal, produto e estratégia comercial durante todo o prazo de apuração do earn-out"
+  },
+  {
+    "id": "3943",
+    "vol": "9",
+    "code": "C1",
+    "from": "> Estudos de M&A (Cass Business School, Harvard) mostram que 40-60% dos earnouts não são pagos integralmente. A razão mais comum: integração pós-aquisição cria mudanças que o fundador não antecipou e que as cláusulas do SPA não protegiam. Regra prática: negocie como se o earnout não vai ser pago. O upfront deve ser suficiente para você considerar o deal justo mesmo sem o earnout. Se não for, negocie mais upfront: não mais earnout.",
+    "to": "> Levantamentos periódicos de transações privadas de tecnologia (como os estudos bienais de *M&A Deal Terms* da SRS Acquiom) mostram que cerca de metade das parcelas de *earn-out* não é paga integralmente. A razão mais frequente é que a integração pós-aquisição altera prioridades operacionais que o fundador não antecipou e que as cláusulas do contrato (SPA) não protegiam. Regra prática: negocie como se o *earn-out* não fosse ser pago. A parcela à vista no fechamento (*upfront*) precisa ser suficiente para você considerar o negócio justo mesmo se o *earn-out* zerar; se não for, negocie mais caixa à vista, não mais meta futura."
+  },
+  {
+    "id": "3944",
+    "vol": "9",
+    "code": "C3",
+    "from": "Lock-up. Fundadores ficam X meses ou anos pós-closing. Típico: dezoito a trinta e seis meses, com retention bonus.",
+    "to": "**Período de permanência e transição dos fundadores:** prazo em que os fundadores permanecem na operação após o fechamento (tipicamente de 18 a 36 meses, remunerados com bônus de retenção), somado à trava de venda (*lock-up*) caso parte do preço seja paga em ações da compradora."
+  },
+  {
+    "id": "3945",
+    "vol": "9",
+    "code": "C6",
+    "from": "Representations and Warranties. Declarações sobre estado da empresa. Falsidade gera indenização.",
+    "to": "Declarações e Garantias (*Representations and Warranties*). Declarações formais dos vendedores sobre a regularidade fiscal, trabalhista, societária e operacional da empresa. Qualquer omissão ou inexatidão gera obrigação de indenizar o comprador: por isso, negocie sempre teto global de responsabilidade (*cap*), franquia mínima (*basket* ou *de minimis*) e prazo de vigência, lembrando que no Brasil contingências trabalhistas e tributárias costumam receber indenização específica e podem contar com apólice de seguro de R&W."
+  },
+  {
+    "id": "3946",
+    "vol": "9",
+    "code": "C5",
+    "from": "(tipicamente dez a quinze por cento por doze a dezoito meses)",
+    "to": "(tipicamente de 10% a 15% do preço por 12 a 18 meses para garantias gerais, podendo ter parcela específica mais longa até o prazo prescricional de 5 anos quando a auditoria identifica contingências fiscais ou trabalhistas materiais)"
+  },
+  {
+    "id": "3951",
+    "vol": "9",
+    "code": "C3",
+    "from": "Se o preço é menor que duas a três vezes o valuation, o investidor preferencial recebe mais e o fundador recebe menos.",
+    "to": "Se a venda ocorrer abaixo do valuation pós-rodada da última captação (ou se houver preferência de liquidação participante), a cláusula de preferência faz os investidores receberem primeiro o capital investido e reduz substancialmente a fatia líquida dos fundadores (simule sempre cada cenário na planilha de Waterfall)."
+  },
+  {
+    "id": "3952",
+    "vol": "9",
+    "code": "C3",
+    "from": "Stock options precisam ter aceleração em change-of-control para funcionar como ferramenta de retenção.",
+    "to": "Planos de *stock options* de executivos-chave devem adotar preferencialmente **aceleração de gatilho duplo (*double-trigger acceleration*)**: o *vesting* só antecipa se houver a venda da empresa **e** o executivo for desligado sem justa causa (ou tiver o cargo esvaziado) nos 12 a 24 meses seguintes, preservando o incentivo de retenção pós-fechamento."
+  },
+  {
+    "id": "3953",
+    "vol": "9",
+    "code": "E9",
+    "from": "por pressa, por vergonha, por ter ficado longo demais",
+    "to": "por pressa de virar a página, por vergonha de admitir o fechamento ou por terem esperado o caixa secar até o limite"
+  },
+  {
+    "id": "3955",
+    "vol": "9",
+    "code": "C6",
+    "from": "Dê baixa em órgãos relevantes (Junta Comercial, Receita, CNPJ).",
+    "to": "Formalize o distrato social ou a ata de liquidação na Junta Comercial e dê baixa no CNPJ perante a Receita Federal e nas inscrições municipal e estadual (lembrando que, embora a Lei Complementar 123/2006 e a Lei 11.598/2007 permitam a baixa do CNPJ independentemente de certidão negativa, os passivos tributários e trabalhistas pendentes são transferidos para a responsabilidade pessoal dos sócios e administradores)."
+  },
+  {
+    "id": "3957",
+    "vol": "9",
+    "code": "C7",
+    "from": "Se há caixa, devolva aos investidores na proporção do que investiram (respeitando liquidation preferences no contrato de investimento).",
+    "to": "Após quitar integralmente credores trabalhistas, fiscais e fornecedores quirografários, distribua eventual saldo remanescente de caixa aos sócios e investidores respeitando estritamente a cascata de preferência de liquidação (*liquidation preference*) prevista no acordo de investimento ou estatuto."
+  },
+  {
+    "id": "3958",
+    "vol": "9",
+    "code": "C1",
+    "from": "*Como você encerra a empresa anterior é a maior variável preditiva de como será a próxima*.",
+    "to": "*A postura ética e a transparência com que você encerra uma empresa determinam quem aceitará investir ou trabalhar com você na próxima jornada*."
+  },
+  {
+    "id": "3960",
+    "vol": "9",
+    "code": "E9",
+    "from": "poderia ter formalizado nos meses que antecederam a venda à TOTVS. Anunciada em outubro de 2021, por R$ 1,86 bilhão.",
+    "to": "poderia ter formalizado nos meses que antecederam a venda para a TOTVS, anunciada em março de 2021 por R$ 1,86 bilhão para 92% do capital."
+  },
+  {
+    "id": "3962",
+    "vol": "9",
+    "code": "C3",
+    "from": "boutiques como Riza Capital e Vinci Partners também atuam",
+    "to": "além de boutiques especializadas em M&A de tecnologia com histórico comprovado em transações de software no Brasil"
+  },
+  {
+    "id": "3963",
+    "vol": "9",
+    "code": "C4",
+    "from": "Planejamento tributário via advogado fiscal: estrutura de offshore controlado, holdings e timing de reconhecimento do ganho.",
+    "to": "Em transações desse porte, um plano preventivo estruturado com advogados tributaristas avalia com anos de antecedência a organização patrimonial dos sócios e o regime de reconhecimento fiscal do ganho de capital e de eventuais parcelas a prazo."
+  },
+  {
+    "id": "3965",
+    "vol": "9",
+    "code": "E4",
+    "from": "> [!important] A lição transferível da RD Station",
+    "to": "> [!important] O que a venda da RD Station ensina sobre preparação de saída"
+  },
+  {
+    "id": "3966",
+    "vol": "9",
+    "code": "E1",
+    "from": "> Exit não é evento de um dia. É processo de doze a vinte e quatro meses, que começa com preparação operacional muito antes de o telefone tocar. Métricas SaaS auditáveis, governança madura, equipe que sobrevive à saída do fundador, e relacionamento prévio com bancos de investimento e potenciais compradores são pré-requisitos. Quem improvisa essas peças quando o comprador aparece negocia em desvantagem e perde vinte a quarenta por cento do preço final.",
+    "to": "> Uma venda estratégica bem-sucedida leva de doze a vinte e quatro meses e começa na preparação operacional muito antes da primeira proposta. Métricas de SaaS auditáveis, governança madura, segunda linha de liderança que opera sem depender exclusivamente dos fundadores e relacionamento prévio com assessores financeiros e compradores naturais são pré-requisitos. Quem improvisa essas frentes apenas quando surge um interessado perde poder de barganha e aceita descontos expressivos no preço final."
+  },
+  {
+    "id": "3968",
+    "vol": "9",
+    "code": "E9",
+    "from": "(CEO por longo período (Bloisi assumiu como CEO global da Prosus em meados de 2024, sucedendo a sua atuacao no Brasil))",
+    "to": "(liderada por longo período por Fabrício Bloisi, que comandou a expansão da Movile e do iFood antes de assumir como CEO global da Prosus em julho de 2024)"
+  },
+  {
+    "id": "3969",
+    "vol": "9",
+    "code": "N8",
+    "from": "**Exits representativos.** Sympla foi vendida em parte para a Movile consolidar controle e posteriormente teve movimentos estratégicos adicionais. PlayKids teve evolução e exits em momentos distintos. iFood tornou-se o ativo central: em transações progressivas, a Naspers/Prosus aumentou participação e a Movile reestruturou o seu papel em torno do iFood como negócio principal. Outros ativos (Wavy em mídia mobile, entre outros) tiveram trajetórias específicas.",
+    "to": "**Transações representativas do portfólio.** Em março de 2020, a Movile anunciou a venda da **Wavy** (sua divisão de mensageria corporativa e conteúdo móvel) para o grupo sueco **Sinch** por cerca de R$ 600 milhões (combinando parcela em dinheiro e ações da compradora). Já o **iFood** consolidou-se como o ativo central do grupo: em agosto de 2022, a controladora **Prosus** firmou acordo para adquirir a participação remanescente de 33% detida pela **Just Eat Takeaway** no iFood por até 1,8 bilhão de euros (1,5 bilhão de euros à vista mais até 300 milhões de euros contingentes), passando a deter 100% do negócio de *delivery*."
+  },
+  {
+    "id": "3970",
+    "vol": "9",
+    "code": "E9",
+    "from": "O papel do iFood no grupo. iFood tornou-se a maior empresa de delivery de comida da América Latina, com participação dominante no mercado brasileiro e presença relevante em outros países. Discussões públicas sobre IPO de iFood recorreram durante a década, com janelas abertas e fechadas dependendo de condições de mercado.",
+    "to": "**O papel do iFood no grupo.** O iFood consolidou liderança superior a 80% no mercado brasileiro de entrega de refeições (após encerrar operações deficitárias em mercados como a Colômbia em 2022 para concentrar capital no Brasil). Ao longo da década, a possibilidade de uma abertura de capital (IPO) do iFood voltou várias vezes ao noticiário financeiro, mas acabou substituída pela consolidação de 100% da propriedade privada sob a Prosus em 2022."
+  },
+  {
+    "id": "3971",
+    "vol": "9",
+    "code": "C5",
+    "from": "- [ ] Mapa de cinco a vinte e cinco potenciais compradores com racional estratégico para cada.",
+    "to": "- [ ] Mapa atualizado de dez a vinte e cinco potenciais compradores estratégicos e financeiros, com tese clara do que cada um ganharia com a aquisição."
+  },
+  {
+    "id": "3972",
+    "vol": "9",
+    "code": "N9",
+    "from": "### Apaixonar-se Pelo Número Bruto da Oferta e Ignorar Liquidation Preference, Escrow e Earn-out Impossível",
+    "to": "### Os Erros Que Custam Mais Caro na Venda: Ilusão do Valor Bruto, Preferência de Liquidação, Escrow e Earn-out\n\nIgnorar a cascata de preferência de liquidação (*liquidation preference*) antes de assinar a carta de intenção (LOI): o fundador comemora uma oferta pelo valor bruto da empresa sem simular na planilha quanto realmente sobra para as ações ordinárias depois que os fundos preferenciais resgatam 1x ou 2x o capital investido. Aceitar retenção em conta garantida (*escrow*) excessiva ou por prazo longo demais sem teto claro de indenização: travar 20% a 25% do preço por cinco anos sem separar contingências específicas drena a liquidez real do fechamento."
+  },
+  {
+    "id": "3973",
+    "vol": "9",
+    "code": "E2",
+    "from": "\"Exit quando chegar a hora\". Decisões retroativas não funcionam. Prepare desde Série A.",
+    "to": "**Deixar para preparar a saída apenas quando o comprador bate à porta:** reorganizações societárias, limpeza de passivos e construção de relacionamento com adquirentes estratégicos não funcionam de véspera; comece a governança de *data room* desde a Série A."
+  },
+  {
+    "id": "3974",
+    "vol": "9",
+    "code": "S5",
+    "from": "cobre como estruturá-lo com proteções: metas controláveis pelo time vendedor",
+    "to": "exige aplicar rigorosamente as cinco travas contratuais detalhadas no Passo 5 desta fase (metas atreladas à receita bruta da unidade, definições contábeis fechadas no contrato, proibição de transferir custos corporativos da compradora e vencimento antecipado em caso de demissão sem justa causa ou mudança de controle)"
+  },
+  {
+    "id": "3975",
+    "vol": "9",
+    "code": "N5",
+    "from": "**O Ritual de Segunda-Feira às 9h:** Construa com seu CFO uma planilha de *Exit Waterfall* simulando três cenários de venda (conservador, base e otimista) para saber exatamente qual valor líquido chega a cada sócio e quais passivos trabalhistas/fiscais comeriam seu *escrow* hoje.",
+    "to": "**O Ritual de Segunda-Feira às 9h:** Na primeira segunda-feira de cada mês, reserve 30 minutos com seu CFO para atualizar a planilha de cascata de saída (*Exit Waterfall*) com o *cap table* do mês, revisar o valor das contingências trabalhistas e fiscais que seriam retidas no *escrow* e destravar um item pendente da pasta permanente de auditoria (*data room*) até a reunião seguinte."
+  },
+  {
+    "id": "3978",
+    "vol": "9",
+    "code": "S5",
+    "from": "### MANUAL PASSO A PASSO DOS FRAMEWORKS DESTA FASE",
+    "to": "### MANUAL PRÁTICO DE VALUATION DE SAÍDA E CASCATA DE LIQUIDAÇÃO\n\n> **Nota de aplicação:** Para os fundamentos de múltiplos, fluxo de caixa descontado (DCF) e estrutura de *cap table*, consulte o **Volume 5 (Finanças e Captação)**. Abaixo estão as duas ferramentas exclusivas da mesa de M&A: a **Calibragem de Múltiplos de Transação Precedente** e a **Simulação Completa de Waterfall e Earn-out no Fechamento**."
+  },
+  {
+    "id": "4002",
+    "vol": "9",
+    "code": "S6",
+    "from": "#### Template: Board Deck (Apresentação para o Conselho)",
+    "to": "#### Template: Board Deck (Apresentação para o Conselho)\n\n> **Adendo de Prontidão para Liquidez (Fase 20):** Na Fase 20, acrescente obrigatoriamente ao pacote trimestral do conselho o **Bloco de Prontidão para M&A (Exit Readiness & Waterfall)**, cobrindo: (1) status da auditoria independente e completude do Data Room; (2) mapa atualizado de compradores estratégicos e fundos de Private Equity; e (3) simulação da cascata de liquidação (*waterfall*) líquida por classe de participação."
+  },
+  {
+    "id": "4004",
+    "vol": "9",
+    "code": "E7",
+    "from": "## CAPÍTULO 1 — BOARD E GOVERNANCE",
+    "to": "## CAPÍTULO 1: CONSELHO E GOVERNANÇA\n\n> **Nota de nomenclatura:** Na governança corporativa brasileira (Lei 6.404/1976 e código do IBGC), o *board of directors* corresponde ao **Conselho de Administração** (deliberativo, com deveres fiduciários legais) ou ao **Conselho Consultivo** (*advisory board*, sem poder de veto vinculante). Ao longo deste capítulo, adotamos **conselho** e **governança** como termos-padrão em português."
+  },
+  {
+    "id": "4006",
+    "vol": "9",
+    "code": "N1",
+    "from": "O paradoxo da governança em startups é que a maioria dos fundadores oscila entre dois erros fatais",
+    "to": "Na relação com o conselho, grande parte dos fundadores oscila entre dois erros opostos"
+  },
+  {
+    "id": "4007",
+    "vol": "9",
+    "code": "N6",
+    "from": "instalar **A Arquitetura de Comando Reverso do Board**: onde o CEO lidera a agenda",
+    "to": "instalar **A Regra Zero Surpresa no Conselho**: onde o CEO lidera a pauta, alinha temas críticos individualmente antes da reunião e extrai contribuição real de cada conselheiro"
+  },
+  {
+    "id": "4013",
+    "vol": "9",
+    "code": "N9",
+    "from": "### A Regra das 72 Horas, Pré-Alinhamento Individual (Nemawashi), Pauta 20/80 e Sessão Executiva",
+    "to": "### A Regra das 72 Horas, o Pré-Alinhamento Individual (Nemawashi), a Pauta 20/80 e a Sessão Executiva\n\nQuatro práticas separam um conselho produtivo de um ritual burocrático: enviar o pacote de leitura (*board book*) com no mínimo **72 horas de antecedência**; conduzir o **pré-alinhamento individual (*nemawashi*)** ligando por 20 minutos para cada conselheiro nos dias anteriores à reunião para ouvir dúvidas e construir consenso antes do plenário; aplicar a **Pauta 20/80**, em que no máximo 20% do tempo revisa o passado (já lido previamente) e 80% debate duas ou três decisões estratégicas de futuro; e encerrar todo encontro com uma **sessão executiva** reservada."
+  },
+  {
+    "id": "4014",
+    "vol": "9",
+    "code": "E2",
+    "from": "Disponibilidade real. Não acumula dez boards. Química. Capacidade de ser crítico construtivo. Não hostil, nem subserviente. Rede complementar.",
+    "to": "Procure um profissional que já tenha operado uma empresa um ou dois estágios à frente da sua, tenha disponibilidade real de agenda (quem acumula oito ou dez conselhos raramente lê o material com profundidade), saiba divergir com franqueza construtiva sem hostilidade nem subserviência e abra portas comerciais ou estratégicas que os fundadores e os fundos atuais ainda não alcançam."
+  },
+  {
+    "id": "4015",
+    "vol": "9",
+    "code": "E9",
+    "from": "Equity. 0,25 por cento a um por cento, com vesting quatro anos, e cliff um ano. Mais próximo a 0,5 por cento em Série A, ou B.",
+    "to": "Participação societária (equity) de 0,25% a 1%, com vesting de quatro anos e cliff de um ano (tipicamente em torno de 0,5% na Série A ou B)."
+  },
+  {
+    "id": "4016",
+    "vol": "9",
+    "code": "C1",
+    "from": "Valor anual. R$ 15 mil a R$ 80 mil em Série A. Cresce com tamanho. Sem D&O, independent qualificado não aceita.",
+    "to": "O prêmio anual varia conforme o limite da apólice, o setor de atuação e o faturamento da companhia (peça cotação a pelo menos duas corretoras especializadas). Muitos conselheiros independentes experientes recusam cadeira sem D&O vigente."
+  },
+  {
+    "id": "4017",
+    "vol": "9",
+    "code": "C5",
+    "from": "Material enviado cinco a sete dias antes da reunião (board book).",
+    "to": "Pacote completo de leitura (*board book*) enviado com no mínimo 72 horas de antecedência (idealmente cinco dias corridos antes da reunião)."
+  },
+  {
+    "id": "4018",
+    "vol": "9",
+    "code": "E9",
+    "from": "Independent session (só independentes, mais investidores, sem CEO). Trinta minutos opcional.",
+    "to": "Sessão exclusiva dos conselheiros (reunindo conselheiros independentes e representantes dos investidores, sem a presença do CEO), de 15 a 30 minutos ao final."
+  },
+  {
+    "id": "4019",
+    "vol": "9",
+    "code": "S5",
+    "from": "#### 3. Board Book, o material de preparação",
+    "to": "#### 3. O pacote do conselho (Board Book): material de preparação"
+  },
+  {
+    "id": "4020",
+    "vol": "9",
+    "code": "E1",
+    "from": "Não é deck bonito com animações. É documento de análise, com tabelas, e gráficos. Funcional. Não performático.",
+    "to": "O pacote do conselho (*board book*) é um documento funcional de análise, com tabelas e gráficos objetivos, que o próprio CEO escreve."
+  },
+  {
+    "id": "4021",
+    "vol": "9",
+    "code": "C3",
+    "from": "**Estatutariamente (Brasil), e por acordo de acionistas (SHA) típico.**",
+    "to": "**Competências legais do conselho (art. 142 da Lei 6.404/1976 nas S.A., como fixar a orientação geral dos negócios, eleger e destituir diretores e escolher auditores independentes, cabendo a destinação de lucros e dividendos à assembleia geral pelo art. 132) e matérias reservadas aos investidores no Acordo de Acionistas (ou no Contrato Social das limitadas):**"
+  },
+  {
+    "id": "4022",
+    "vol": "9",
+    "code": "N3",
+    "from": "Chair (CEO) intervém em tempo real. \"Obrigada, João. Marina, qual a sua visão?\".",
+    "to": "O presidente do conselho (*chair*) ou o próprio CEO intervém com elegância em tempo real: \"Obrigado pelo ponto, Ricardo. Helena, qual é a sua leitura sobre esse risco?\"."
+  },
+  {
+    "id": "4024",
+    "vol": "9",
+    "code": "C2",
+    "from": "CEO possivelmente prepara para deixar cadeira de chair (transição para Chairman independente).",
+    "to": "Na preparação para abertura de capital (IPO), a companhia separa os cargos de CEO e de presidente do conselho (*Chairman*), já que a Lei das S.A. (art. 138, § 3º da Lei 6.404/1976, incluído pela Lei 14.195/2021) e o regulamento do Novo Mercado da B3 vedam a acumulação das duas funções em companhias abertas (ressalvadas apenas as exceções regulamentares da CVM para companhias de menor porte)."
+  },
+  {
+    "id": "4025",
+    "vol": "9",
+    "code": "E9",
+    "from": "Difícil quantificar qualidade de board. Mas.",
+    "to": "Qualidade de conselho é difícil de medir em um único índice, mas sete sinais objetivos ajudam (incluindo envio do pacote de leitura com pelo menos 72 horas de antecedência, ao menos 70% do tempo da reunião dedicado ao futuro e entregas práticas por conselheiro):"
+  },
+  {
+    "id": "4026",
+    "vol": "9",
+    "code": "E9",
+    "from": "Comitê sem agenda, versus sem existir.",
+    "to": "Comitê de fachada."
+  },
+  {
+    "id": "4027",
+    "vol": "9",
+    "code": "N4",
+    "from": "2. **A Proporção Passado vs. Futuro:** Mais de 70% dos minutos da sua última reunião foram gastos lendo slides sobre o que aconteceu no trimestre passado, ou o material de leitura foi enviado 72 horas antes para que a reunião focasse nos 2 grandes dilemas estratégicos do futuro?",
+    "to": "2. **A Proporção Passado vs. Futuro:** Quantos minutos da sua última reunião de conselho foram gastos apenas lendo slides sobre o trimestre passado? Se essa revisão retrospectiva consumiu mais de 30% do encontro, é sinal de que o pacote do conselho não chegou com 72 horas de antecedência ou não foi lido antes de sentar à mesa."
+  },
+  {
+    "id": "4028",
+    "vol": "9",
+    "code": "C5",
+    "from": "a Dra. Camila construiu ao lado do pai (médico fundador da primeira clínica há trinta anos) e do irmão mais novo",
+    "to": "a rede de clínicas odontológicas que a Dra. Camila fundou do zero ganhou feição familiar quando o marido assumiu o financeiro e o irmão mais novo entrou como sócio, formando"
+  },
+  {
+    "id": "4029",
+    "vol": "9",
+    "code": "N3",
+    "from": "a Dra. Camila construiu ao lado do pai (médico fundador da primeira clínica há trinta anos) e do irmão mais novo uma rede regional de saúde que faturava R$ 90 milhões por ano",
+    "to": "a rede de clínicas odontológicas que a Dra. Camila fundou do zero ganhou feição familiar quando o marido assumiu o financeiro e o irmão mais novo entrou como sócio, formando uma operação regional de saúde que faturava R$ 90 milhões por ano"
+  },
+  {
+    "id": "4031",
+    "vol": "9",
+    "code": "E3",
+    "from": "os almoços de domingo na casa dos pais haviam se tornado um campo de batalha silencioso e doloroso",
+    "to": "os almoços de domingo viraram reunião de sócios sem pauta, com o irmão cobrando dividendos entre a salada e o café"
+  },
+  {
+    "id": "4032",
+    "vol": "9",
+    "code": "C5",
+    "from": "John Davis e Renato Tagiuri ensinaram em Harvard o que a estatística brasileira confirma sem piedade: apenas 30% das empresas familiares sobrevivem à transição para a segunda geração",
+    "to": "Enquanto Renato Tagiuri e John Davis criaram em Harvard o modelo clássico dos Três Círculos da empresa familiar, estudos históricos sobre sucessão (iniciados por John Ward nos anos 1980) indicam que cerca de 30% das empresas familiares chegam à segunda geração"
+  },
+  {
+    "id": "4034",
+    "vol": "9",
+    "code": "C1",
+    "from": "Estimativas apontam que mais de noventa por cento das empresas brasileiras são familiares em alguma forma, e respondem por parcela muito significativa do PIB",
+    "to": "Levantamentos do IBGE, do Sebrae e pesquisas de governança (como a Pesquisa de Empresas Familiares da PwC Brasil) apontam que cerca de 90% das empresas privadas brasileiras têm controle familiar e respondem por fatia expressiva do PIB"
+  },
+  {
+    "id": "4035",
+    "vol": "9",
+    "code": "C6",
+    "from": "Casar com sócio ou sócia e ter empresa com cônjuge merece tratamento específico.",
+    "to": "Casar com sócio ou abrir empresa com o cônjuge exige cuidado jurídico específico: antes de constituir a sociedade, confira o regime de bens do casamento, pois o art. 977 do Código Civil veda que cônjuges casados em comunhão universal de bens ou em separação obrigatória sejam sócios entre si."
+  },
+  {
+    "id": "4036",
+    "vol": "9",
+    "code": "S4",
+    "from": "Antes de aceitar entrar em empresa familiar (Fase -1, antes da",
+    "to": "Antes de aceitar entrar em empresa familiar (antes mesmo da"
+  },
+  {
+    "id": "4038",
+    "vol": "9",
+    "code": "C3",
+    "from": "A recomendação do IBGC é pelo menos um terço de conselheiros independentes em empresa familiar de qualquer tamanho",
+    "to": "Boas práticas de governança (como o Código das Melhores Práticas de Governança Corporativa do IBGC, 6ª edição, 2023) recomendam conselheiros independentes para equilibrar a visão da família, sendo o patamar de ao menos um terço o padrão exigido nas companhias abertas"
+  },
+  {
+    "id": "4039",
+    "vol": "9",
+    "code": "C5",
+    "from": "### Sucessão Não É Evento de UTI: O Plano de 5 a 10 Anos Para Transição do Fundador",
+    "to": "### Sucessão Não É Evento de UTI: O Plano de 3 a 10 Anos Para Transição do Fundador (Preparação nos Anos 1 a 3, Transição nos Anos 4 a 7 e Consolidação nos Anos 8 a 10)"
+  },
+  {
+    "id": "4041",
+    "vol": "9",
+    "code": "N9",
+    "from": "### Profissionalizar Não Significa Expulsar a Família: Como Contratar e Dar Autoridade Real a um CEO Não-Familiar (Com Phantom Shares)",
+    "to": "### Profissionalizar Sem Expulsar a Família: Como Contratar e Dar Autoridade Real a um CEO de Mercado (Com Phantom Shares)\n\nQuando a Dra. Camila promoveu sua diretora de operações vinda do mercado para assumir o cargo de CEO da rede de clínicas e concentrou sua própria atuação na presidência do conselho, três regras escritas garantiram autoridade real à executiva: (1) mandato e alçada exclusiva sobre contratações, demissões e execução do orçamento anual aprovado, vedando que familiares desautorizem a CEO; (2) reserva ao conselho e aos sócios apenas das decisões de alocação de capital, dividendos e M&A; e (3) pacote de incentivo de longo prazo via *phantom shares* (direito contratual a bônus em dinheiro indexado à valorização do EBITDA e do valuation da empresa, lembrando que no Brasil pagamentos em dinheiro a executivos CLT sofrem tributação como remuneração trabalhista se não forem estruturados via PLR formal da Lei 10.101/2000 ou plano de ações/quotas restritas com risco mercantil)."
+  },
+  {
+    "id": "4042",
+    "vol": "9",
+    "code": "C6",
+    "from": "suicídio de membro da família em qualquer contexto.",
+    "to": "suicídio ou crise aguda de saúde mental de membro da família (em risco imediato ou ideação suicida, suspenda qualquer pauta societária e acione ajuda especializada imediata pelo CVV no telefone 188, 24 horas, ou pelo SAMU no 192)."
+  },
+  {
+    "id": "4044",
+    "vol": "9",
+    "code": "N9",
+    "from": "### Indicadores de Saúde da Governança Familiar: Payout Ratio, Retenção de Executivos de Mercado e Sucessão Mapeada",
+    "to": "### Indicadores de Saúde da Governança Familiar: Índice de Payout, Retenção de Executivos de Mercado e Sucessão Mapeada\n\n| Indicador de Governança Familiar | Como Medir na Prática | Meta Saudável de Referência |\n| :--- | :--- | :--- |\n| **Índice de Distribuição de Dividendos (*Payout Ratio*)** | Percentual do lucro líquido distribuído aos sócios conforme política aprovada em ata | **25% a 50% do lucro líquido** em fase de expansão (retendo 50% a 75% para financiar crescimento) |\n| **Retenção de Executivos Não Familiares** | Permanência média dos diretores contratados no mercado fora da família | **Acima de 80% de retenção em 24 meses** (saídas precoces sinalizam ingerência familiar) |\n| **Sucessão Mapeada em Cadeiras Críticas** | Posições-chave com substituto de emergência e plano de transição de 3 a 10 anos | **100% das cadeiras críticas** com sucessor mapeado e calendário anual de revisão |"
+  },
+  {
+    "id": "4045",
+    "vol": "9",
+    "code": "E10",
+    "from": "CEO familiar sem qualificação, com \"é da família\" como único critério. Fundador que não sai, anunciando sucessão mas mantendo poder informal.",
+    "to": "Entre as armadilhas emocionais e comportamentais que paralisam empresas familiares (além dos erros estruturais de sucessão já listados no quadro anterior), destacam-se a confusão patrimonial entre caixa da empresa e despesas da casa, o ressentimento entre herdeiros que trabalham na operação e herdeiros acionistas passivos que cobram dividendos crescentes, e o apego à frase \"sempre fizemos assim\" para bloquear controles básicos de auditoria."
+  },
+  {
+    "id": "4046",
+    "vol": "9",
+    "code": "E2",
+    "from": "Estrutura operacional. Holding familiar estruturada. Acordo de acionistas em vigor. Política de emprego familiar documentada. Conselho de administração com independentes. Separação total pessoal e empresarial. Plano de sucessão documentado. Profissionalização de funções-chave (CFO, COO) em andamento.",
+    "to": "**Bloco 1: Estrutura operacional e societária**\n- [ ] Holding familiar constituída e acordo de acionistas/sócios em vigor.\n- [ ] Política escrita de emprego e avaliação de familiares documentada.\n- [ ] Conselho de administração (ou consultivo) ativo com membros independentes.\n- [ ] Separação total entre contas e despesas pessoais da família e caixa empresarial.\n- [ ] Plano de sucessão documentado e profissionalização de funções-chave (CFO, COO) em andamento."
+  },
+  {
+    "id": "4048",
+    "vol": "9",
+    "code": "C2",
+    "from": "Separe formalmente uma política escrita de distribuição anual/trimestral de dividendos (% fixo do lucro líquido após reserva de investimento)",
+    "to": "Aprove formalmente em ata de sócios uma política escrita de distribuição anual ou trimestral de dividendos (% fixo do lucro líquido após reserva de investimento, observando a retenção de 10% de IRRF sobre dividendos acima de R$ 50 mil por mês pagos pela mesma empresa a uma pessoa física desde 2026, conforme a Lei 15.270/2025 e o Capítulo 17)"
+  },
+  {
+    "id": "4049",
+    "vol": "9",
+    "code": "C5",
+    "from": "Rafael e seu primeiro cofundador técnico chegaram ao limite da ruptura",
+    "to": "um fundador amigo de Rafael, em Goiânia, e seu primeiro cofundador técnico chegaram ao limite da ruptura"
+  },
+  {
+    "id": "4052",
+    "vol": "9",
+    "code": "C3",
+    "from": "vetava a entrada de novos executivos por medo de perder espaço e se recusava a assinar aditivos bancários",
+    "to": "usava a cláusula de administração conjunta e o quórum qualificado de 75% do contrato social para vetar a contratação de novos diretores e recusar a assinatura de aditivos bancários"
+  },
+  {
+    "id": "4053",
+    "vol": "9",
+    "code": "C1",
+    "from": "A verdade mais amarga sobre sociedades empresariais é que mais startups morrem por homicídio societário entre cofundadores do que por ataque da concorrência.",
+    "to": "Brigas societárias entre cofundadores matam tantas startups quanto a concorrência, quase sempre por falta de regra escrita de saída antes do primeiro impasse."
+  },
+  {
+    "id": "4054",
+    "vol": "9",
+    "code": "C3",
+    "from": "Processo societário brasileiro é regulado principalmente pelo Código Civil (artigos 997 a 1.141 para Ltda) e pela Lei 6.404 de 1976 para S.A.",
+    "to": "O regime societário brasileiro das sociedades limitadas é regulado pelos arts. 1.052 a 1.087 do Código Civil (com aplicação supletiva das normas da sociedade simples dos arts. 997 a 1.038 ou da Lei das S.A., e quóruns atualizados pelas Leis 13.792/2019 e 14.451/2022), as sociedades por ações regem-se pela Lei 6.404/1976 e a ação judicial de dissolução parcial de sociedade segue o rito dos arts. 599 a 609 do Código de Processo Civil."
+  },
+  {
+    "id": "4056",
+    "vol": "9",
+    "code": "E7",
+    "from": "Série B em diante, com executive early founder que não escala, founder que decide sair por questões pessoais",
+    "to": "Da Série B em diante, com o cofundador que não acompanhou a escala da empresa ou o fundador que decide sair por questões pessoais"
+  },
+  {
+    "id": "4057",
+    "vol": "9",
+    "code": "E9",
+    "from": "E conflito por falta de clareza de papéis se resolve com recontratação interna.",
+    "to": "E o atrito causado por sobreposição de funções entre sócios de boa-fé se resolve repactuando por escrito o escopo, as metas e a alçada de decisão de cada fundador."
+  },
+  {
+    "id": "4058",
+    "vol": "9",
+    "code": "E7",
+    "from": "### Diagnóstico Frio Antes de Sentar à Mesa: Lendo o Acordo de Sócios, o Caixa Disponível e o BATNA Jurídico",
+    "to": "### Diagnóstico Frio Antes de Sentar à Mesa: Lendo o Acordo de Sócios, o Caixa Disponível e a Melhor Alternativa (BATNA)\n\nAntes de sentar para negociar a saída, coloque no papel a sua **melhor alternativa sem acordo (*BATNA, Best Alternative to a Negotiated Agreement*, de Roger Fisher e William Ury)**: quanto custa e quanto tempo leva excluir o sócio ou apurar seus haveres na Justiça. No caso que abre este capítulo, com R$ 600 mil em caixa contra a exigência de R$ 4 milhões à vista do sócio com 45%, a apuração judicial pelo balanço de determinação patrimonial (art. 1.031 do CC) resultaria em fração desse valor, dando base objetiva para fechar uma compra parcelada que cabe na geração de caixa."
+  },
+  {
+    "id": "4059",
+    "vol": "9",
+    "code": "E9",
+    "from": "Qual percentual o sócio tem do total e do vestido?",
+    "to": "Qual percentual o sócio detém no contrato social e qual parcela ele já adquiriu pelo cronograma de vesting?"
+  },
+  {
+    "id": "4061",
+    "vol": "9",
+    "code": "N9",
+    "from": "### Estruturando o Preço e a Forma de Pagamento Sem Quebrar o Caixa: Deságio, Parcelamento, Earn-out e Quotas em Tesouraria",
+    "to": "### Estruturando o Preço e o Pagamento Sem Quebrar o Caixa: Deságio, Parcelamento, Earn-out e Quotas em Tesouraria\n\nNa prática societária brasileira, a saída amigável de um cofundador raramente é paga à vista pelo múltiplo de mercado de uma empresa saudável: aplica-se um **deságio de liquidez e de saída antecipada (tipicamente 30% a 50% sobre o valor de avaliação interna)**, parcelado em **24 a 48 prestações mensais corrigidas pelo IPCA ou por fração do CDI**, com trava contratual limitando a parcela mensal a no máximo 15% ou 20% da geração de caixa operacional livre da sociedade. Se o caixa imediato é curto, parte do preço pode virar um **earn-out societário** (pago apenas se a empresa for vendida nos 36 meses seguintes), e a recompra pode ser feita pela própria sociedade limitada mantendo as **quotas em tesouraria** (com reservas de lucros disponíveis, art. 1.059 do CC e art. 30 da Lei 6.404/1976) ou diretamente pelos sócios remanescentes."
+  },
+  {
+    "id": "4062",
+    "vol": "9",
+    "code": "E9",
+    "from": "Acceleration em saída involuntária sem cause pode ter aceleração parcial em alguns acordos.",
+    "to": "Em casos de desligamento involuntário sem justa causa (*good leaver*), alguns acordos de sócios preveem a antecipação parcial do cronograma de *vesting*."
+  },
+  {
+    "id": "4063",
+    "vol": "9",
+    "code": "C6",
+    "from": "As unvested shares têm cláusula padrão de forfeit, voltando para empresa ou pool, com exceções raras que precisam de justificativa forte.",
+    "to": "Nas sociedades limitadas brasileiras, as quotas ainda não adquiridas pelo cronograma de vesting ficam sujeitas a opção de compra pelos demais sócios ou a cessão obrigatória por preço simbólico fixado no acordo de sócios, com registro da alteração contratual na Junta Comercial (conforme detalhado na Fase 18, no Volume 8)."
+  },
+  {
+    "id": "4065",
+    "vol": "9",
+    "code": "C3",
+    "from": "A enforceabilidade no Brasil é historicamente restritiva pela Justiça do Trabalho quando há desequilíbrio",
+    "to": "Entre sócios na esfera cível, a cláusula de não concorrência vale quando fixa limites objetivos de tempo (referência usual de até cinco anos do art. 1.147 do Código Civil), território e atividade; já se o sócio também era empregado, a Justiça do Trabalho exige compensação financeira mensal proporcional durante o período de restrição"
+  },
+  {
+    "id": "4067",
+    "vol": "9",
+    "code": "C6",
+    "from": "Documentação fiscal, com apuração de haveres, declarações tributárias e impactos em IR do sócio e da empresa.",
+    "to": "Estruturação tributária da saída: na cessão direta de quotas ou ações para outro sócio ou investidor, o sócio retirante apura e recolhe imposto de renda sobre o ganho de capital (alíquotas progressivas de 15% a 22,5% na pessoa física, conforme a Lei 13.259/2016); já se a saída ocorrer via redução de capital social com restituição de haveres, é obrigatório respeitar o prazo de 90 dias para oposição de credores quirografários previsto no art. 1.084 do Código Civil."
+  },
+  {
+    "id": "4068",
+    "vol": "9",
+    "code": "C6",
+    "from": "### Cenários de Guerra: Exclusão por Justa Causa (Art. 1.085/1.030 CC), Tutela de Urgência e Dissolução Parcial",
+    "to": "### Cenários de Litígio: Exclusão por Justa Causa (Arts. 1.085 e 1.030 do CC), Tutela de Urgência e Dissolução Parcial\n\nQuando a saída amigável fracassa, o direito brasileiro oferece três instrumentos cirúrgicos conforme o quadro societário: (1) **Exclusão extrajudicial por justa causa (art. 1.085 do Código Civil, atualizado pela Lei 13.792/2019)**: permite que a maioria do capital social (como um fundador que detém 55% das quotas) exclua o sócio minoritário que pratica atos de inegável gravidade contra a sociedade, desde que exista cláusula expressa de exclusão por justa causa no contrato social e seja garantido o direito de defesa (dispensada reunião formal quando a sociedade tem apenas dois sócios); (2) **Tutela de urgência (art. 300 do CPC)**: medida liminar para afastar imediatamente da administração o sócio que bloqueia contas bancárias ou desvia ativos enquanto o processo corre; e (3) **Ação de dissolução parcial de sociedade com exclusão judicial (art. 1.030 do CC e arts. 599 a 609 do CPC)**: cabível mediante prova de falta grave ou incapacidade superveniente, apurando-se os haveres pelo balanço de determinação."
+  },
+  {
+    "id": "4069",
+    "vol": "9",
+    "code": "C3",
+    "from": "com disputa indo para câmara arbitral (CCBC, CIESP/FIESP, CAM-CCBC)",
+    "to": "com disputa submetida a câmara arbitral prevista em cláusula compromissória (como CAM-CCBC, Câmara de Conciliação, Mediação e Arbitragem CIESP/FIESP, CAMARB ou CBMA)"
+  },
+  {
+    "id": "4071",
+    "vol": "9",
+    "code": "E2",
+    "from": "Buyout subvalorizado, com sócio saindo sentindo que foi ferrado e virando adversário de longo prazo.",
+    "to": "Recompra com avaliação predatória: quando o sócio retirante de boa-fé sente que foi lesado no preço ou nas condições, a economia de curto prazo vira anos de litígio trabalhista, societário e reputacional."
+  },
+  {
+    "id": "4072",
+    "vol": "9",
+    "code": "N9",
+    "from": "Se você ainda não tem um Acordo de Sócios assinado com cláusulas de *vesting*, *good/bad leaver*, *shotgun* e apuração de haveres parcelada",
+    "to": "Se você ainda não tem um Acordo de Sócios assinado com cláusulas de *vesting*, *good leaver* e *bad leaver* (que fixam preços de recompra distintos conforme a saída seja de boa-fé ou por falta grave), *shotgun* (cláusula de compra ou venda compulsória pelo mesmo preço ofertado, cuidando para que não favoreça injustamente o sócio com mais caixa) e apuração de haveres parcelada"
+  },
+  {
+    "id": "4073",
+    "vol": "9",
+    "code": "N5",
+    "from": "convoque seus sócios nesta semana para redigi-lo enquanto todos estão alinhados.",
+    "to": "reúna seus sócios nesta semana com apoio de advogado societário para redigi-lo enquanto todos estão alinhados; e, se o conflito já estiver aberto hoje, separe contrato social, acordo de sócios, extrato de caixa e lista de avais bancários e consulte um advogado societário antes de qualquer conversa."
+  },
+  {
+    "id": "4076",
+    "vol": "9",
+    "code": "C4",
+    "from": "Em novembro de 2019, a Profile, agência de comunicação fundada em 2013 por Rodrigo Vieira da Cunha em São Paulo, recebeu a certificação B Corp.",
+    "to": "Quando uma empresa brasileira de serviços ou tecnologia decide submeter sua operação à certificação do Sistema B (B Corp) ou à diligência socioambiental de um fundo institucional, a revisão documental e operacional costuma levar cerca de um ano."
+  },
+  {
+    "id": "4077",
+    "vol": "9",
+    "code": "E9",
+    "from": "alterar a composição do quadro de funcionários para crescer diversidade",
+    "to": "mudar intencionalmente os processos de recrutamento e a composição do quadro para aumentar a diversidade da equipe"
+  },
+  {
+    "id": "4078",
+    "vol": "9",
+    "code": "E9",
+    "from": "Esse é o ponto que o resto deste capítulo gira em torno.",
+    "to": "É em torno dessa escolha prática que se organiza a governança socioambiental de uma empresa em escala."
+  },
+  {
+    "id": "4080",
+    "vol": "9",
+    "code": "C2",
+    "from": "Fundos com mandato ESG passaram a movimentar trilhões globalmente, e a maior parte deles exige relatório ESG mínimo no kit de DD.",
+    "to": "Mesmo após o ciclo de saques líquidas em fundos rotulados como ESG nos Estados Unidos a partir de 2023 (segundo relatórios da Morningstar e da GSIA), bancos multilaterais de desenvolvimento (IFC, BID Invest, BNDES), fundos europeus sob regulação SFDR e grandes compradores corporativos continuam exigindo questionário auditável de governança, conformidade trabalhista e riscos socioambientais na diligência."
+  },
+  {
+    "id": "4083",
+    "vol": "9",
+    "code": "N9",
+    "from": "### Matriz de Materialidade Enxuta, Governança Real (Letra G), Auditoria de Cadeia de Suprimentos e Teoria da Mudança",
+    "to": "### Matriz de Materialidade Enxuta, Governança Real (Letra G), Auditoria de Fornecedores e Teoria da Mudança\n\nPara transformar exigências socioambientais em gestão prática (como na operação de hardware e sensores industriais de Henrique em Curitiba), aplique três ferramentas enxutas:\n\n1. **Matriz de Materialidade em Uma Página:** cruze os temas que geram impacto financeiro e regulatório direto no seu negócio com os temas exigidos por clientes corporativos e financiadores (como BNDES, Finep e IFC). Para software, priorize privacidade de dados (LGPD), segurança cibernética e consumo de nuvem; para hardware e indústria, priorize segurança do trabalho (NRs), rastreabilidade de componentes e descarte de resíduos.\n2. **Auditoria de Cadeia de Suprimentos:** liste os dez fornecedores críticos de insumos e manufatura, aplique questionário anual de conformidade trabalhista e ambiental e faça verificação técnica presencial ou documental nos fornecedores de maior risco.\n3. **Teoria da Mudança em Cinco Caixas:** documente a cadeia causal entre **Insumos** -> **Atividades** -> **Produtos Entregues (*Outputs*)** -> **Resultados Mensuráveis no Cliente (*Outcomes*)** -> **Impacto de Longo Prazo Auditável**."
+  },
+  {
+    "id": "4084",
+    "vol": "9",
+    "code": "E9",
+    "from": "precisa ser medida com a mesma rigor de churn",
+    "to": "precisa ser medida com o mesmo rigor do churn"
+  },
+  {
+    "id": "4085",
+    "vol": "9",
+    "code": "E1",
+    "from": "Diversidade no time não é meta de diretoria de marketing. É decisão de hiring que muda o pool de candidatos",
+    "to": "Diversidade no time se decide na contratação: amplia a lista de candidatos, exige revisão de critérios e prepara novos entrevistadores"
+  },
+  {
+    "id": "4088",
+    "vol": "9",
+    "code": "N9",
+    "from": "### Indicadores Materiais Auditáveis por Setor, Segurança do Trabalho, Diversidade e Conformidade de Fornecedores",
+    "to": "### Indicadores Materiais Auditáveis por Setor: Segurança do Trabalho, Diversidade e Conformidade de Fornecedores\n\n| Dimensão e Setor | Indicador Auditável | Fórmula / Fonte do Dado | Meta de Referência Operacional |\n| :--- | :--- | :--- | :--- |\n| **Ambiental (Software / SaaS)** | Emissões de nuvem por receita | $\\text{tCO}_2\\text{e (Escopos 2 e 3)} / \\text{R\\$ milhão de ARR}$ (painel AWS/GCP/Azure) | Redução anual contínua por unidade de receita |\n| **Ambiental (Hardware / Indústria)** | Logística reversa e resíduos | $\\text{Insumos e placas com destinação certificada} / \\text{Total descartado}$ | **100% dos resíduos industriais** com certificado legal |\n| **Social (Indústria / Campo)** | Taxa de acidentes com afastamento | $\\text{Acidentes com afastamento} \\times 10^6 / \\text{Horas-homem trabalhadas}$ (eSocial/SESMT) | **Zero acidentes graves** e 100% das NRs em dia |\n| **Social (Geral, $\\ge 100$ empregados)** | Equidade salarial e cotas legais | Relatório Semestral de Transparência Salarial (Lei 14.611/2023) e cotas de PcD/Aprendiz | **Zero diferença salarial injustificada** na mesma função |\n| **Governança e Suprimentos** | Fornecedores críticos auditados | $\\text{Fornecedores críticos homologados} / \\text{Total de fornecedores críticos}$ | **100% dos fornecedores críticos** auditados anualmente |"
+  },
+  {
+    "id": "4089",
+    "vol": "9",
+    "code": "S7",
+    "from": "O conteúdo atual cobre princípios gerais. Esse aprofundamento adiciona práticas específicas por tamanho de empresa, e por dimensão (E, S, G).",
+    "to": "As obrigações escalam conforme o porte da empresa no Brasil: até **99 empregados**, priorize higiene contratual, LGPD, canal de denúncia e saúde ocupacional (PGR/PCMSO); a partir de **100 empregados**, entram obrigatoriamente a cota de Pessoas com Deficiência de 2% a 5% (art. 93 da Lei 8.213/1991) e o Relatório Semestral de Transparência Salarial da Lei 14.611/2023; acima de **250 a 500 empregados**, some auditoria independente, comitê de riscos e inventário completo de emissões."
+  },
+  {
+    "id": "4090",
+    "vol": "9",
+    "code": "E7",
+    "from": "Remote-first, quando funciona para a empresa pelas razões de produto e cultura, derruba commuting de bonus.",
+    "to": "O trabalho remoto, quando faz sentido para o produto e para a cultura da empresa, reduz de quebra as emissões do deslocamento diário."
+  },
+  {
+    "id": "4091",
+    "vol": "9",
+    "code": "C3",
+    "from": "É auditoria de pay equity comparando estatisticamente remuneração por grupo demográfico controlando por função e experiência, agora obrigatória pela Lei 14.611",
+    "to": "No Brasil, a **Lei 14.611/2023** obriga empresas com 100 ou mais empregados a publicar semestralmente o Relatório de Transparência Salarial e de Critérios Remuneratórios (elaborado a partir dos dados do eSocial) e, caso sejam identificadas desigualdades injustificadas na mesma função, a implementar Plano de Ação para Mitigação da Desigualdade Salarial; internamente, empresas maduras complementam essa obrigação legal com revisões salariais periódicas por faixa, cargo e senioridade"
+  },
+  {
+    "id": "4092",
+    "vol": "9",
+    "code": "C6",
+    "from": "Inclusão real, depois da contratação, depende de comunidades internas (ERGs para mulheres, pessoas negras, LGBTQ+, com mandato e orçamento, não só Slack channel)",
+    "to": "A retenção e a inclusão após a contratação passam tanto pelo cumprimento rigoroso das cotas legais obrigatórias no Brasil (a **cota de Pessoas com Deficiência de 2% a 5% do quadro** para empresas com 100 ou mais empregados, nos termos do art. 93 da Lei 8.213/1991, e a **cota de aprendizes de 5% a 15%** das funções que demandem formação profissional em estabelecimentos de médio e grande porte, conforme o art. 429 da CLT) quanto por grupos internos de afinidade (*ERGs*) com patrocínio executivo"
+  },
+  {
+    "id": "4093",
+    "vol": "9",
+    "code": "C6",
+    "from": "alinhado com a normativa CVM ASG e com o framework GRI quando a empresa atua com investidor institucional",
+    "to": "alinhado, para métricas de impacto, ao padrão **GRI** e, para divulgação de informações financeiras relacionadas à sustentabilidade e ao clima, às normas internacionais do **ISSB (IFRS S1 e S2, incorporadas no Brasil pela Resolução CVM 193/2023**, obrigatórias para companhias abertas a partir do exercício de 2026 e usadas como referência crescente por investidores institucionais e compradores listados)"
+  },
+  {
+    "id": "4094",
+    "vol": "9",
+    "code": "C3",
+    "from": "Fundos ESG-focused. Double Impact, Positive Ventures, e Vox Capital, no Brasil.",
+    "to": "No Brasil, fundos de impacto como Vox Capital, Positive Ventures, MOV Investimentos, Bemtevi e Gaia Impacto (detalhados no Volume 10) investem com tese de impacto socioambiental declarada."
+  },
+  {
+    "id": "4097",
+    "vol": "9",
+    "code": "N1",
+    "from": "A verdade que separa expansão global lucrativa de turismo corporativo caro é que internacionalização não começa com abertura de CNPJ estrangeiro",
+    "to": "Na prática, uma expansão internacional sustentável não começa com abertura de subsidiária no exterior"
+  },
+  {
+    "id": "4098",
+    "vol": "9",
+    "code": "E3",
+    "from": "começa com **Founder-Led Sales internacional** e adaptação cirúrgica ao gargalo regulatório e cultural local.",
+    "to": "começa com **vendas conduzidas pessoalmente pelo fundador no novo país (*Founder-Led Sales*)** e com a adaptação direta às exigências fiscais, regulatórias e culturais locais."
+  },
+  {
+    "id": "4099",
+    "vol": "9",
+    "code": "N6",
+    "from": "Você precisa vencer **A Ilusão do Copia-e-Cola Tropical** e dominar tanto a validação comercial progressiva",
+    "to": "Você precisa superar **A Ilusão do Copia-e-Cola Tropical** (achar que o produto brasileiro funciona sem adaptação em outro país) e dominar tanto a validação comercial progressiva"
+  },
+  {
+    "id": "4100",
+    "vol": "9",
+    "code": "E9",
+    "from": "Cedo demais, queima dinheiro. Tarde demais, perde janela competitiva. Bem feita, transforma o tamanho potencial da empresa em ordens de grandeza.",
+    "to": "Feita cedo demais, antes de consolidar o mercado doméstico, a expansão internacional queima caixa; feita tarde demais, entrega os países vizinhos aos concorrentes; executada no momento certo, multiplica o mercado endereçável da companhia."
+  },
+  {
+    "id": "4101",
+    "vol": "9",
+    "code": "N9",
+    "from": "### Arquitetura Societária Internacional: O Sanduíche Cayman + Delaware LLC + Brasil LTDA vs. Delaware C-Corp Direta",
+    "to": "### Arquitetura Societária Internacional: A Estrutura Cayman + Delaware LLC + Brasil Ltda. vs. Delaware C-Corp Direta\n\nNa comparação entre as duas estruturas internacionais mais usadas por fundadores brasileiros:\n\n1. **Sanduíche Cayman Holding + Delaware LLC + Brasil Ltda.:** os fundadores e investidores detêm ações da *holding* nas Ilhas Cayman; abaixo dela fica uma **Delaware LLC** americana (entidade fiscalmente transparente, *disregarded entity*, usada para abrir conta bancária nos EUA e contratar serviços locais sem pagar imposto corporativo americano sobre lucros não gerados nos EUA), que por sua vez detém 100% das quotas da **Ltda. operacional brasileira** (e de eventuais subsidiárias no México ou Colômbia). Custo anual típico de manutenção: US$ 15 mil a US$ 35 mil entre agentes registrados, contabilidade e declarações.\n2. **Delaware C-Corp Direta no Topo:** os fundadores e fundos detêm ações diretamente de uma **C-Corp em Delaware**, que controla a Ltda. brasileira. É exigida quando o mercado principal da empresa são os Estados Unidos ou quando investidores americanos exigem enquadramento no benefício fiscal de *Qualified Small Business Stock* (QSBS, Section 1202 do IRC), mas submete toda a estrutura à tributação corporativa federal americana (21%) e a retenções de até 30% na distribuição de dividendos a não residentes."
+  },
+  {
+    "id": "4103",
+    "vol": "9",
+    "code": "C7",
+    "from": "atenção fiscal redobrada às regras de CFC (Controlled Foreign Corporation)",
+    "to": "atenção fiscal redobrada às regras brasileiras de tributação de controladas no exterior (**Lei 14.754/2023**) e ao fato de que as **Ilhas Cayman integram a lista brasileira de países com tributação favorecida (IN RFB 1.037/2010)**, o que eleva para **25% a alíquota de IRRF** sobre remessas de juros, *royalties* e serviços técnicos do Brasil para Cayman e atrai controle estrito de preços de transferência (Lei 14.596/2023)"
+  },
+  {
+    "id": "4106",
+    "vol": "9",
+    "code": "N9",
+    "from": "### O Mapa da Mina por Geografia: México (CFDI/SPEI), Colômbia, Chile, EUA e Europa",
+    "to": "### O Mapa Operacional por Geografia: México (CFDI/SPEI), Colômbia, Chile, Estados Unidos e Europa\n\nPara operações que expandem a partir do Brasil para a América Latina, três exigências operacionais e fiscais determinam o sucesso da implantação local:\n\n- **México (SAPI de C.V., CFDI 4.0 e SPEI):** toda fatura precisa ser emitida no padrão eletrônico **CFDI 4.0** timbrado junto ao **SAT** (sem o qual o cliente corporativo mexicano não consegue deduzir a despesa), integrando transferências instantâneas via **SPEI** e vouchers **OXXO**.\n- **Colômbia (S.A.S. e Fatura Eletrônica DIAN):** constituição societária ágil via *Sociedad por Acciones Simplificada* (S.A.S.), obrigatoriedade de fatura eletrônica validada previamente pela **DIAN** e cobrança digital via botão **PSE**.\n- **Chile (SpA e DTE no SII):** operação via *Sociedad por Acciones* (SpA), emissão de *Documento Tributario Electrónico* (**DTE**) integrado ao *Servicio de Impuestos Internos* (**SII**) e mercado B2B com alta bancarização e exigência rigorosa de SLA."
+  },
+  {
+    "id": "4107",
+    "vol": "9",
+    "code": "C3",
+    "from": "com subsidiária operacional separada em estado de atividade. SALT (state and local taxes) varia, com Califórnia pesada e Texas e Nevada leves. W-8BEN-E para evitar withholding em pagamentos.",
+    "to": "A C-Corp de Delaware registra-se diretamente nos estados onde possui operação ou funcionários (*foreign qualification*), sem precisar abrir uma nova subsidiária por estado. Os tributos estaduais (*SALT, state and local taxes*) variam conforme a jurisdição. Quando a empresa brasileira fatura cliente americano, entrega o formulário W-8BEN-E para comprovar que é pessoa jurídica estrangeira, mas, na ausência de tratado contra bitributação entre Brasil e EUA, pagamentos caracterizados como royalties de fonte americana sofrem retenção de 30% na fonte."
+  },
+  {
+    "id": "4108",
+    "vol": "9",
+    "code": "C5",
+    "from": "Validar primeiro com inglês (lingua franca dos early adopters), depois localizar conforme tração.",
+    "to": "Valide primeiro no idioma do mercado inicial (espanhol para América Latina, inglês para Estados Unidos e Europa) e localize o restante do conteúdo conforme a tração comercial avançar."
+  },
+  {
+    "id": "4109",
+    "vol": "9",
+    "code": "E7",
+    "from": "Imagens culturalmente adequadas, com foto de brasileiros usando o produto, não americanos translated.",
+    "to": "Um software brasileiro que entra no México ou na Colômbia precisa substituir exemplos em reais por pesos locais, usar referências visuais e casos de empresas da própria região (como Monterrey, Cidade do México ou Bogotá) e integrar os meios de pagamento locais (SPEI, OXXO, PSE) no lugar de Pix e boleto."
+  },
+  {
+    "id": "4110",
+    "vol": "9",
+    "code": "N9",
+    "from": "### Muito Além do Idioma: Adaptando Meios de Pagamento, Impostos, Fusos e Moedas no Código",
+    "to": "### Quem Traduz: Equipe Interna, Freelancer, Agência, Tradução Automática ou Sistema de Gestão (TMS)"
+  },
+  {
+    "id": "4113",
+    "vol": "9",
+    "code": "C4",
+    "from": "Loggi teve expansão brasileira seguida de saída de mercados externos, com lição pública clara sobre foco em ganhar Brasil antes de espalhar.",
+    "to": "A Creditas escolheu o México como principal mercado de expansão latino-americana, construindo operação local com adaptação regulatória e de crédito; já o iFood encerrou suas operações na Colômbia em 2022 após anos de queima de caixa frente à Rappi, concentrando capital para defender sua liderança absoluta no Brasil."
+  },
+  {
+    "id": "4114",
+    "vol": "9",
+    "code": "E2",
+    "from": "Copiar-colar brasileiro. Assumir que produto BR funciona identicamente em outros mercados. Produto precisa de l10n, não só tradução.",
+    "to": "O segundo erro é copiar e colar o produto brasileiro assumindo que funcionará sem ajustes em outros países: expandir exige localização completa de impostos, pagamentos e fluxos locais, não apenas tradução."
+  },
+  {
+    "id": "4116",
+    "vol": "9",
+    "code": "E9",
+    "from": "3. **A Regras de CFC (Lei 14.754/2023):**",
+    "to": "3. **As Regras de Tributação de Controladas no Exterior (Lei 14.754/2023):**"
+  },
+  {
+    "id": "4117",
+    "vol": "9",
+    "code": "N2",
+    "from": "ele entrava nos Estados Unidos usando seu visto comum de turista e negócios (B1/B2), trabalhando normalmente da filial americana e fechando contratos locais.",
+    "to": "ele entrava nos Estados Unidos usando seu visto comum de negócios e turismo (B-1/B-2, que permite reuniões comerciais e feiras, mas proíbe trabalho operacional remunerado em solo americano), trabalhando diretamente da filial americana e concentrando quase seis meses de presença física no ano corrente somados às viagens dos dois anos anteriores."
+  },
+  {
+    "id": "4118",
+    "vol": "9",
+    "code": "S7",
+    "from": "Visto, imigracao e relocation do fundador, EUA, Portugal, Reino Unido, Canada. Decisao pessoal com efeitos societarios e fiscais. Vizinhos relevantes,",
+    "to": "Visto, imigração e mudança internacional do fundador (EUA, Portugal, Reino Unido e Canadá): decisão pessoal com efeitos societários e fiscais diretos (consulte o Capítulo 17 deste volume para as regras de saída fiscal definitiva). Capítulos vizinhos:"
+  },
+  {
+    "id": "4120",
+    "vol": "9",
+    "code": "S2",
+    "from": "Os entregáveis são diagnóstico com país e visto escolhidos, plano de aplicação, timeline (cronograma) realista, budget (orçamento) completo",
+    "to": "Na prática, o planejamento migratório deve separar claramente o que o visto de negócios B-1 permite (reuniões, conferências e negociação de contratos sem remuneração local) do momento de iniciar o dossiê do visto de trabalho (seis a doze meses antes da mudança), definindo país e categoria escolhidos, cronograma realista e orçamento completo"
+  },
+  {
+    "id": "4121",
+    "vol": "9",
+    "code": "E7",
+    "from": "que incluem awards, press, papers, organization membership, judging, original contributions, publications, high salary, e critical role em distinguished organization.",
+    "to": "que correspondem aos oito critérios do USCIS: (1) prêmios nacionais ou internacionais de excelência, (2) associação em entidade que exige conquistas de destaque, (3) matérias sobre você e seu trabalho na imprensa, (4) participação como avaliador ou jurado na área, (5) contribuição original de grande relevância para o setor, (6) autoria de artigos técnicos ou acadêmicos, (7) função crítica ou essencial em organização de reputação distinta e (8) remuneração elevada frente ao mercado."
+  },
+  {
+    "id": "4123",
+    "vol": "9",
+    "code": "C6",
+    "from": "O **EB-5 (Investment Green Card)** é green card via investimento. Mínimo de oitocentos mil dólares em área rural ou de alta unemployment (Target Employment Area), ou um milhão e cinquenta mil fora de TEA. Requer criar ou preservar dez empregos full-time para US workers. Timeline de dois a quatro anos. É complexo, com alta exposição de capital e processo restritivo, e nem sempre é o caminho recomendado.",
+    "to": "O **EB-5 (*Immigrant Investor Program*)** concede residência permanente (*green card*) mediante investimento mínimo de US$ 800 mil em áreas rurais ou de alto desemprego (*Targeted Employment Area*, TEA) ou US$ 1,05 milhão fora de TEA, exigindo a criação ou preservação de dez empregos formais em tempo integral para trabalhadores americanos, com prazo de dois a quatro anos. Além do EB-5 tradicional, duas rotas entram nas dúvidas de fundadores em 2026: a **International Entrepreneur Rule (IER)**, que concede autorização temporária de permanência (*parole* de até 30 meses, renovável por mais 30) para fundadores de *startups* americanas que tenham captado ao menos US$ 311 mil de investidores institucionais qualificados nos EUA; e o programa **Gold Card** anunciado por ordem executiva em 2025 para investidores de US$ 5 milhões, cujo alcance prático frente aos limites legais do Congresso no EB-5 depende de regulamentação e definição judicial."
+  },
+  {
+    "id": "4125",
+    "vol": "9",
+    "code": "N9",
+    "from": "### Portugal e União Europeia: Startup Visa, D2 (Empreendedor), D8 (Nômade Digital) e Regras Fiscais",
+    "to": "### Portugal e União Europeia: Startup Visa, Visto D2 (Empreendedor), Visto D8 (Nômade Digital) e Regras Fiscais\n\nAlém do visto **D2 (Empreendedor)** detalhado abaixo, Portugal opera três frentes migratórias relevantes para fundadores e equipes brasileiras junto à AIMA: o **Startup Visa Portugal** (programa certificado pelo IAPMEI que concede autorização de residência a fundadores de projetos inovadores acolhidos em incubadoras credenciadas), o **Visto D8 para Trabalho Remoto e Nômades Digitais** (voltado a profissionais com contrato de trabalho ou prestação de serviços fora de Portugal e renda mensal média comprovada de pelo menos quatro salários mínimos portugueses) e a rota de **residência CPLP** (que passou a exigir visto consular prévio após a extinção do mecanismo de manifestação de interesse em junho de 2024 e as atualizações da Lei de Estrangeiros em 2025)."
+  },
+  {
+    "id": "4129",
+    "vol": "9",
+    "code": "C3",
+    "from": "Brasileiros com ancestrais portugueses (até bisavô em alguns casos) podem ter acesso direto à cidadania.",
+    "to": "Filhos e netos de cidadãos portugueses podem pedir diretamente a cidadania de origem (já bisnetos precisam que a geração anterior obtenha o reconhecimento primeiro)."
+  },
+  {
+    "id": "4130",
+    "vol": "9",
+    "code": "E9",
+    "from": "O processo envolve pesquisa genealógica mais documentação mais aplicação.",
+    "to": "O processo envolve pesquisa genealógica, reunião de certidões apostiladas e protocolo do pedido (enquanto a rota específica para descendentes de judeus sefarditas teve novas candidaturas encerradas sob o regime anterior entre 2022 e 2024, restando apenas regras de transição restritas)."
+  },
+  {
+    "id": "4132",
+    "vol": "9",
+    "code": "C3",
+    "from": "a connection global e cidadania britânica após cinco anos de residência permanente.",
+    "to": "a conexão com investidores europeus e a possibilidade de solicitar residência permanente (*Indefinite Leave to Remain*, ILR, a partir de 3 anos no visto *Innovator Founder* ou 5 anos na rota *Skilled Worker*, observadas as regras vigentes do Home Office) e cidadania britânica 12 meses após a obtenção do ILR."
+  },
+  {
+    "id": "4134",
+    "vol": "9",
+    "code": "C2",
+    "from": "Fundador com MBA mais alta fluência mais experiência executiva qualifica.",
+    "to": "Fundador com pós-graduação ou mestrado, fluência alta em inglês ou francês e experiência executiva pode competir, mas a nota de corte muda a cada sorteio (a idade reduz pontos após os 30 anos e a oferta de emprego deixou de pontuar na reforma do IRCC de 2025; simule sempre no calculador oficial)."
+  },
+  {
+    "id": "4135",
+    "vol": "9",
+    "code": "C3",
+    "from": "Se a CSD não é comunicada, a pessoa continua sendo residente fiscal brasileiro mais residente fiscal no novo país, situação que gera dupla tributação em cenários sem treaty.",
+    "to": "Quem sai do Brasil sem entregar a Comunicação de Saída Definitiva do País (CSDP) continua residente fiscal brasileiro pelos primeiros 12 meses consecutivos de ausência e pode sofrer tributação simultânea nos dois países nesse intervalo, devendo entregar depois a Declaração de Saída Definitiva do País (DSDP)."
+  },
+  {
+    "id": "4137",
+    "vol": "9",
+    "code": "C5",
+    "from": "Brasil e EUA têm tax treaty para alguns aspectos mas não é abrangente, parte da dupla tributação não é evitada.",
+    "to": "**O Brasil e os Estados Unidos não possuem tratado amplo para evitar a dupla tributação da renda** (contando apenas com acordo de intercâmbio de informações tributárias, acordo FATCA e o reconhecimento de reciprocidade de tratamento pela Receita Federal para compensação limitada de imposto federal pago nos EUA sobre rendimentos da mesma natureza)."
+  },
+  {
+    "id": "4138",
+    "vol": "9",
+    "code": "C5",
+    "from": "Visa holders (O-1, L-1, H-1B) entram no substantial presence test. Acima de cento e oitenta e três dias no ano, viram tax resident.",
+    "to": "Quem possui visto O-1, L-1 ou H-1B passa pelo teste de presença substancial (*Substantial Presence Test*): somam-se os dias do ano corrente (mínimo de 31 dias), mais um terço dos dias do ano anterior e um sexto do ano retrasado; chegando a 183 dias ponderados, torna-se residente fiscal nos EUA, salvo exceções legais (como o Form 8840) avaliadas pelo contador."
+  },
+  {
+    "id": "4142",
+    "vol": "9",
+    "code": "N9",
+    "from": "### Contagem Ponderada de Dias Físicos por País, Prazos de Aprovação (Premium Processing) e Custos Legais",
+    "to": "### Contagem Ponderada de Dias Físicos por País, Prazos de Análise (Premium Processing) e Custos Legais\n\n| Jurisdição | Gatilho de Residência Fiscal por Presença Física | Regra de Cálculo e Exceções Principais |\n| :--- | :--- | :--- |\n| **Estados Unidos (IRS)** | **183 dias ponderados** no triênio (com no mínimo 31 dias no ano corrente) | Soma 100% dos dias do ano atual + $1/3$ do ano anterior + $1/6$ de dois anos atrás (limite seguro de ~121 dias/ano ou exceção de vínculo mais próximo via Form 8840) |\n| **Brasil (Receita Federal)** | **12 meses consecutivos de ausência** (para brasileiro que sai sem CSDP) ou **183 dias** em 12 meses (para estrangeiro sem visto permanente) | Brasileiro que entrega CSDP deixa de ser residente na data da saída; sem CSDP, segue tributado pela renda global no Brasil durante os primeiros 12 meses fora |\n| **Portugal (AT)** | **183 dias** (seguidos ou interpolados em qualquer período de 12 meses) ou habitação habitual | Contam-se os dias de presença física com pernoite em território português ou a manutenção de imóvel em condições que façam supor intenção de residência habitual |\n| **Reino Unido (HMRC)** | **183 dias** no ano fiscal britânico (6 de abril a 5 de abril) ou *Statutory Residence Test (SRT)* | Abaixo de 183 dias, o teste cruza o número de dias no país (a partir de 16, 46, 90 ou 120 dias) com a quantidade de vínculos locais (*ties*: família, imóvel, trabalho) |"
+  },
+  {
+    "id": "4143",
+    "vol": "9",
+    "code": "E2",
+    "from": "Família não alinhada. Mudar sem que cônjuge ou filhos estejam genuinamente onboard, resentimento, volta prematura.",
+    "to": "**Mudar de país sem alinhamento real da família:** transferir a residência sem que o cônjuge e os filhos estejam genuinamente preparados para a adaptação escolar, profissional e cultural gera ressentimento em casa e é a causa número um de retorno prematuro de fundadores antes de completar dois anos no exterior."
+  },
+  {
+    "id": "4144",
+    "vol": "9",
+    "code": "E9",
+    "from": "Visto e imigração bem-executado quando a decisão de mudar foi tomada com clareza após avaliação honesta de trade-offs, o visto escolhido é right fit para sua situação e timeline",
+    "to": "O processo de imigração funciona quando a decisão de mudança nasce de uma avaliação clara de custos e benefícios comerciais, a categoria de visto escolhida é compatível com o estágio da empresa e com o prazo disponível"
+  },
+  {
+    "id": "4146",
+    "vol": "9",
+    "code": "N5",
+    "from": "Crie uma pasta pessoal de \"Evidências O-1 / Global Talent\" para salvar cada menção na mídia, palestra, júri e rodada captada da sua carreira, e instale uma planilha de controle de dias físicos no exterior para nunca cruzar acidentalmente o gatilho fiscal de 183 dias.",
+    "to": "Toda segunda-feira, lance os dias de viagem internacional da semana anterior na planilha de presença física (monitorando a conta ponderada dos EUA e os dias no Brasil e Europa) e arquive na pasta do seu dossiê migratório qualquer matéria de imprensa, palestra ou participação em banca; se a soma ponderada americana passar de 120 dias, acione imediatamente o contador."
+  },
+  {
+    "id": "4147",
+    "vol": "9",
+    "code": "C5",
+    "from": "O lucro inteiro do contrato de R$ 14 milhões desapareceu na mesa de câmbio em uma única semana.",
+    "to": "Quase 40% do lucro projetado no contrato de R$ 14 milhões desapareceu na variação cambial antes da entrega: com margem líquida prevista de 22% (R$ 3,08 milhões) e 55% dos custos atrelados ao dólar, o salto da moeda de R$ 4,90 para R$ 5,85 corroeu cerca de R$ 1,2 milhão diretamente do resultado."
+  },
+  {
+    "id": "4149",
+    "vol": "9",
+    "code": "S2",
+    "from": "Os entregáveis são política de gestão cambial documentada, exposure report (relatório de exposição) mensal, instrumentos de hedge em vigor, estrutura corporativa multicountry funcional e relatórios fiscais conformes em cada jurisdição.",
+    "to": "A governança cambial apoia-se em uma política de proteção documentada, um relatório mensal de exposição por moeda, instrumentos simples de *hedge* em vigor e conformidade fiscal em cada país onde a empresa opera."
+  },
+  {
+    "id": "4151",
+    "vol": "9",
+    "code": "C3",
+    "from": "| **Net exposure USD** | - | **US$ 50k/mês** | - | - | - |",
+    "to": "| **Exposição líquida USD (balanço: US$ 2,2M comprados; fluxo mensal abaixo)** | - | **US$ 50 mil/mês (fluxo operacional)** | - | - | - |"
+  },
+  {
+    "id": "4152",
+    "vol": "9",
+    "code": "C3",
+    "from": "O custo é o spread do banco mais o diferencial de juros entre moedas, tipicamente meio a um e meio por cento do nocional para noventa dias.",
+    "to": "A cotação futura de um NDF já embute matematicamente o diferencial entre a taxa de juros em reais (CDI) e a taxa de juros em dólar (cupom cambial): com Selic/CDI perto de 15% ao ano e juro americano em 4,5%, travar a compra de dólar para 90 dias adiciona cerca de 2,5% a 3% sobre a cotação à vista (*spot*), além do *spread* bancário da operação (enquanto o exportador que vende dólar a termo recebe esse diferencial a seu favor)."
+  },
+  {
+    "id": "4154",
+    "vol": "9",
+    "code": "C3",
+    "from": "Nubank Global atende brasileiros, com experience específica.",
+    "to": "(evitando confundir contas globais de pessoa física para viagens, como a conta global pessoal do Nubank, com contas corporativas de tesouraria empresarial)."
+  },
+  {
+    "id": "4156",
+    "vol": "9",
+    "code": "C3",
+    "from": "em que empresa terceirizada (Deel, Remote, Papaya Global, Velocity Global, RippleHire) atua como empregador local.",
+    "to": "em que uma plataforma global de Employer of Record (EOR, como Deel, Remote, Papaya Global, Velocity Global ou Rippling) atua como empregadora legal no país (com custo típico de US$ 500 a US$ 1.500 por pessoa ao mês, sendo a abertura de subsidiária própria recomendada a partir de 15 a 20 funcionários locais, conforme o Capítulo 5)."
+  },
+  {
+    "id": "4159",
+    "vol": "9",
+    "code": "N9",
+    "from": "### Especular Com Derivativos Alavancados, Esquecer o Ajuste de Margem de Garantia e Pagar Spread de Varejo no Cartão",
+    "to": "### As Armadilhas da Mesa de Câmbio: Derivativos Alavancados, Chamada de Margem e Spread de Varejo no Cartão\n\nDuas armadilhas operacionais drenam o caixa mesmo sem especulação: primeiro, **esquecer a chamada de margem de garantia (*margin call*) e o consumo de limite bancário** em contratos futuros de bolsa ou derivativos de balcão com cláusula de ajuste periódico (CSA), que exigem depósito de caixa antes do vencimento quando o câmbio se move; segundo, **pagar faturas altas de nuvem e softwares estrangeiros no cartão de crédito corporativo brasileiro**, perdendo de 4% a 6% de *spread* de dólar de varejo somado ao IOF de 3,5%."
+  },
+  {
+    "id": "4160",
+    "vol": "9",
+    "code": "C7",
+    "from": "em vez de pagar via contrato local faturado em BRL ou conta corporativa internacional com spread institucional de 0,3% a 0,6%?",
+    "to": "em vez de pagar via contrato local faturado em BRL ou conta corporativa internacional com spread institucional de 0,3% a 0,6% (e você recolhe regularmente os tributos de importação de serviços sobre essas faturas estrangeiras, como IRRF, CIDE, PIS/Cofins-Importação e ISS, detalhados no Capítulo 3 do Volume 5)?"
+  },
+  {
+    "id": "4161",
+    "vol": "9",
+    "code": "N5",
+    "from": "Mapeie 100% das despesas e receitas em moeda estrangeira dos próximos dois trimestres, migre faturas grandes de nuvem/SaaS para faturamento direto sem spread de cartão de varejo e trave a cotação",
+    "to": "Toda segunda-feira às 9h, atualize a planilha de exposição cambial rolante de 13 semanas somando recebimentos e pagamentos contratados em moeda estrangeira e verifique se o percentual protegido por NDF ou caixa em moeda forte permanece dentro da faixa de 50% a 80% definida na política."
+  },
+  {
+    "id": "4163",
+    "vol": "9",
+    "code": "E3",
+    "from": "Durante setenta e duas horas de terror absoluto no fim de semana",
+    "to": "Passaram o fim de semana sem saber se conseguiriam pagar a folha de abril"
+  },
+  {
+    "id": "4164",
+    "vol": "9",
+    "code": "N7",
+    "from": "Tesouraria Corporativa e Administração Financeira (Fernando Motta Fortuna) para contexto brasileiro.",
+    "to": "*Mercado Financeiro: Produtos e Serviços* (Eduardo Fortuna) para o funcionamento dos instrumentos bancários brasileiros."
+  },
+  {
+    "id": "4165",
+    "vol": "9",
+    "code": "C5",
+    "from": "Caixa relevante (mais de cinquenta milhões de reais ou equivalente em dólar).",
+    "to": "Caixa relevante (acima de R$ 100 milhões ou operação ativa em três ou mais países)."
+  },
+  {
+    "id": "4166",
+    "vol": "9",
+    "code": "C3",
+    "from": "um milhão e duzentos mil dólares por ano, equivalente a dois engenheiros sêniores.",
+    "to": "um milhão e duzentos mil dólares por ano, o equivalente ao custo anual de uma equipe inteira de dez engenheiros seniores no Brasil."
+  },
+  {
+    "id": "4168",
+    "vol": "9",
+    "code": "E1",
+    "from": "Isso parece excesso. Não é.",
+    "to": "Cada conta cumpre uma função específica de controle interno e conciliação."
+  },
+  {
+    "id": "4169",
+    "vol": "9",
+    "code": "C5",
+    "from": "concentração máxima por contraparte (vinte por cento do caixa total em único banco, dez por cento em único fundo, por exemplo)",
+    "to": "concentração máxima por contraparte (no máximo trinta por cento do caixa total em um único banco Tier-1 e dez por cento em um único fundo, por exemplo)"
+  },
+  {
+    "id": "4170",
+    "vol": "9",
+    "code": "C3",
+    "from": "spread em aplicação (CDB DI a cento e dois por cento contra noventa e oito por cento, em cem milhões de reais é quatro milhões por ano de diferença)",
+    "to": "spread em aplicação (CDB DI a 102% contra 98% do CDI representa 4 pontos percentuais do CDI; com CDI perto de 15% ao ano, são 0,60% ao ano de diferença, ou R$ 600 mil por ano em um caixa de R$ 100 milhões)"
+  },
+  {
+    "id": "4171",
+    "vol": "9",
+    "code": "C4",
+    "from": "O benchmark é consultoria de tesouraria (A2 Banking, Tesouro Direto Consultoria, Tesouraria Empresarial) ou ex-colega em outra empresa, comparando condições.",
+    "to": "O parâmetro de mercado vem de uma consultoria independente de tesouraria corporativa ou da comparação direta de taxas e *spreads* com CFOs de outras empresas do mesmo porte."
+  },
+  {
+    "id": "4172",
+    "vol": "9",
+    "code": "C3",
+    "from": "A diferença entre CDB DI 103% (liquidez diária) e CDB 109% (trinta dias de carência) é seis por cento ao ano. Em cem milhões de reais, são seis milhões por ano.",
+    "to": "A diferença entre um CDB DI a 103% (liquidez diária) e um CDB a 109% do CDI (trinta dias de carência) é de seis pontos percentuais do CDI, o que equivale a cerca de 0,90% ao ano com CDI de 15%. Em cem milhões de reais, são cerca de novecentos mil reais por ano."
+  },
+  {
+    "id": "4173",
+    "vol": "9",
+    "code": "S7",
+    "from": "Cash pooling multi-país é a oitava camada.",
+    "to": "A gestão integrada de caixa entre países (*cash pooling*) torna-se indispensável quando o grupo opera em múltiplas jurisdições."
+  },
+  {
+    "id": "4174",
+    "vol": "9",
+    "code": "C3",
+    "from": "Em operação de derivativo (NDF, swap), ISDA Master Agreement com cláusulas de collateral é o piso",
+    "to": "Em operações de derivativos de balcão (NDF, *swap*), no Brasil exige-se a assinatura do **Contrato Global de Derivativos (CGD)** com o banco e o registro obrigatório na **B3**; já para a holding no exterior, o padrão internacional é o **ISDA Master Agreement** acompanhado do anexo de garantias (**CSA, *Credit Support Annex***)"
+  },
+  {
+    "id": "4175",
+    "vol": "9",
+    "code": "C3",
+    "from": "Quem dependia de um banco só e estava acima dos duzentos e cinquenta mil de FDIC teve semana ruim.",
+    "to": "Quem concentrava todo o caixa no SVB passou o fim de semana sem saber se recuperaria os recursos acima do limite de US$ 250 mil do FDIC; o resgate integral dos depositantes no domingo veio por decisão sistêmica excepcional do Tesouro e do Fed, que jamais deve ser tomada como garantia para a próxima crise bancária."
+  },
+  {
+    "id": "4176",
+    "vol": "9",
+    "code": "E9",
+    "from": "Runway, ou seja, meses de caixa divididos pela queima mensal.",
+    "to": "**Runway**, calculado como o caixa disponível dividido pela queima líquida mensal, expresso em meses, acompanhado do **custo efetivo total de remessa internacional** (*spread* cambial sobre a PTAX somado a IOF e tarifas por operação)."
+  },
+  {
+    "id": "4177",
+    "vol": "9",
+    "code": "E9",
+    "from": "Quando o tesoureiro vier oferecer \"olha, esse fundo deu vinte por cento ano passado\", a resposta é não.",
+    "to": "Quando o gerente do banco ou o assessor de investimentos oferecer \"olha, esse fundo deu vinte por cento no ano passado\", a resposta do tesoureiro é não."
+  },
+  {
+    "id": "4178",
+    "vol": "9",
+    "code": "S4",
+    "from": "Anos depois, a Receita questiona se aquilo era dívida (com juros, retenção) ou capital (com impacto em patrimônio líquido). Documentar desde o dia um.",
+    "to": "Anos depois, a Receita Federal ou o Banco Central questionam se aquela remessa era empréstimo *intercompany* (que exige contrato formal de mútuo com taxa de juros de mercado segundo a Lei 14.596/2023, retenção de IRRF na remessa de juros e prestação de informações de crédito externo ao BCB quando ultrapassar os pisos regulatórios da Resolução BCB 278/2022) ou integralização de capital social (com atualização societária no CNPJ e no RDE/SCE-IED). Documente a natureza jurídica antes de transferir o primeiro dólar."
+  },
+  {
+    "id": "4179",
+    "vol": "9",
+    "code": "C5",
+    "from": "Acima disso é especulação, mesmo que com boa intenção.",
+    "to": "Acima disso, travar 100% de uma previsão incerta encarece o seguro e engessa o caixa caso o volume de vendas mude. Especulação é outra coisa: abrir posição em derivativos sem exposição operacional real por trás."
+  },
+  {
+    "id": "4181",
+    "vol": "9",
+    "code": "E10",
+    "from": "Este capítulo reflete taxas, produtos e práticas típicas de tesouraria corporativa para startups brasileiras em 2025 e 2026.",
+    "to": "Este capítulo consolida os parâmetros operacionais de tesouraria corporativa multi-moeda (taxas de referência CDI e SOFR, regras cambiais da Lei 14.286/2021 e práticas de diversificação bancária pós-2023)."
+  },
+  {
+    "id": "4182",
+    "vol": "9",
+    "code": "C5",
+    "from": "Todo o seu caixa de reserva está aplicado exclusivamente em ativos de liquidez diária e risco soberano/AAA",
+    "to": "Todo o seu caixa operacional e tático está aplicado exclusivamente em ativos de liquidez diária (D+0/D+1) e risco soberano ou bancário Tier-1, reservando prazos de carência de 30 a 90 dias apenas para a parcela de reserva estratégica prevista na Política de Investimentos (IPS)"
+  },
+  {
+    "id": "4184",
+    "vol": "9",
+    "code": "N5",
+    "from": "Redija uma Política de Investimento de Tesouraria de 1 página aprovada pelo conselho",
+    "to": "Confira toda segunda-feira a concentração percentual do caixa por instituição financeira e o prazo de liquidez das aplicações contra o limite de 30% por banco fixado na sua Política de Investimentos (IPS), e uma vez por mês execute um pagamento operacional real pelo seu banco secundário de contingência."
+  },
+  {
+    "id": "4188",
+    "vol": "9",
+    "code": "N6",
+    "from": "Você precisa dominar **O Protocolo de Comando em Tempo de Guerra**: preparar planos de continuidade (BCP/DRP) em tempo de paz",
+    "to": "Você precisa dominar **O Protocolo de Comando em Crise**: preparar planos de continuidade operacional (BCP) e recuperação de desastres (DRP) em tempo de paz e acionar os quatro papéis de comando (Comandante do Incidente, Líder Técnico, Líder de Comunicação e Líder Jurídico) nos primeiros trinta minutos de qualquer evento crítico."
+  },
+  {
+    "id": "4189",
+    "vol": "9",
+    "code": "E9",
+    "from": "> Quatro capítulos cobrem os estagios da crise,",
+    "to": "> Quatro capítulos cobrem os estágios da crise:"
+  },
+  {
+    "id": "4190",
+    "vol": "9",
+    "code": "S7",
+    "from": "> 2. CW (este capítulo), resposta a evento e continuidade operacional",
+    "to": "> 2. **Capítulo 9 (este capítulo):** resposta imediata ao evento, sala de comando (*war room*) e continuidade operacional (BCP/DRP); seguido pelo **Capítulo 10** (comunicação crítica externa e interna) e pelo **Capítulo 11** (reestruturação e *layoffs*)."
+  },
+  {
+    "id": "4191",
+    "vol": "9",
+    "code": "E1",
+    "from": "O que diferencia empresas que sobrevivem dessas situações das que sucumbem não é a ausência de crise. É a qualidade da resposta. E o que diferencia uma resposta boa de uma ruim não é improviso heroico",
+    "to": "Empresas que atravessam crises graves sem quebrar não tiveram menos incidentes que as demais: responderam com ordem e velocidade porque treinaram seus protocolos e isolaram seus backups quando nada estava dando errado."
+  },
+  {
+    "id": "4192",
+    "vol": "9",
+    "code": "E9",
+    "from": "BCP costuma ser confundido com DRP (Disaster Recovery Plan, plano de recuperação de desastre). A distinção. DRP é subconjunto de BCP",
+    "to": "O **BCP (*Business Continuity Plan*, plano de continuidade de negócios)** costuma ser confundido com o **DRP (*Disaster Recovery Plan*, plano de recuperação de desastres)**: o DRP é o subconjunto técnico do BCP focado em restaurar servidores, bancos de dados e redes (via *backup* isolado e *failover* automático para infraestrutura reserva)"
+  },
+  {
+    "id": "4193",
+    "vol": "9",
+    "code": "C5",
+    "from": "Cada runbook responde seis perguntas: o que aciona este runbook (condição de disparo), quem é acionado imediatamente (lista de contatos)",
+    "to": "Cada *runbook* responde a sete perguntas objetivas: o que aciona este protocolo (gatilho de disparo), quem é chamado imediatamente (lista de contatos fora da rede principal)"
+  },
+  {
+    "id": "4195",
+    "vol": "9",
+    "code": "S5",
+    "from": "A regra geral: transparência temperada com prudência legal. Diga o que você sabe, não especule.",
+    "to": "A regra de ouro da comunicação durante o incidente combina transparência factual com prudência jurídica (aprofundada passo a passo no **Capítulo 10, Comunicação de Crise**): comunique cedo apenas os fatos já confirmados pela equipe técnica, nunca especule sobre causas ainda em investigação e estabeleça horário fixo para a próxima atualização."
+  },
+  {
+    "id": "4198",
+    "vol": "9",
+    "code": "E7",
+    "from": "comunicar board (se houver) antes de outras ações estruturais, não esconder do time.",
+    "to": "comunicar o conselho (se houver) antes de outras medidas estruturais e manter transparência com a liderança."
+  },
+  {
+    "id": "4199",
+    "vol": "9",
+    "code": "E7",
+    "from": "preservação de evidências (ninguém apaga nada, nem por limpeza de rotina), communication hold se necessário",
+    "to": "preservação imediata de provas (*legal hold*: ordem formal para que ninguém apague e-mails, mensagens ou *logs*, suspendendo inclusive rotinas automáticas de limpeza) e centralização absoluta de qualquer manifestação externa no jurídico"
+  },
+  {
+    "id": "4200",
+    "vol": "9",
+    "code": "N9",
+    "from": "### As Armadilhas Fatais: CEO Atrapalhando o Engenheiro que Está Consertando, Mentir Para Ganhar Tempo e Caça às Bruxas",
+    "to": "### As Armadilhas Fatais da Sala de Guerra: Interromper Quem Está Consertando, Esconder do Conselho e Caçar Culpados\n\n> **A regra de silêncio tático sobre a engenharia:** A armadilha mais destrutiva nas primeiras duas horas de uma queda crítica é o CEO e os diretores comerciais entrarem no canal técnico a cada cinco minutos perguntando *\"já voltou?\"* ou *\"qual a previsão?\"*. Cada interrupção força o engenheiro sênior a sair da investigação do *log* para montar explicação executiva, dobrando o tempo de indisponibilidade. No **Protocolo de Comando**, apenas o Líder Técnico fala com a engenharia e atualiza o Comandante do Incidente em janelas fixas de 30 minutos."
+  },
+  {
+    "id": "4201",
+    "vol": "9",
+    "code": "E9",
+    "from": "Se há mais de um tabletop de emergência por trimestre, algo sistemático está errado.",
+    "to": "Se a sala de crise (*war room*) precisa ser acionada para incidentes graves mais de uma vez por trimestre, há uma falha estrutural de arquitetura ou de gestão que exige correção na raiz."
+  },
+  {
+    "id": "4211",
+    "vol": "9",
+    "code": "C5",
+    "from": "\"Foi nossa culpa\"               \"Estamos investigando as causas\"",
+    "to": "\"Foi culpa de falha no fornecedor X\" (antes da perícia)   \"Identificamos o impacto X, pedimos desculpas aos clientes afetados e já acionamos a correção Y\""
+  },
+  {
+    "id": "4217",
+    "vol": "9",
+    "code": "C5",
+    "from": "Quando o ciclo de juros subiu para 13,75% ao ano e o mercado de crédito secou no Brasil",
+    "to": "Quando os juros voltaram a dois dígitos e o mercado de crédito secou no Brasil"
+  },
+  {
+    "id": "4218",
+    "vol": "9",
+    "code": "N3",
+    "from": "Quando o ciclo de juros subiu para 13,75% ao ano e o mercado de crédito secou no Brasil, Rafael e Bia encararam a planilha de fluxo de caixa em Recife",
+    "to": "Quando os juros voltaram a dois dígitos e o mercado de crédito secou no Brasil, Rafael e Bia encararam a planilha de fluxo de caixa em Recife"
+  },
+  {
+    "id": "4219",
+    "vol": "9",
+    "code": "S5",
+    "from": "Rafael e Bia escolheram o caminho difícil ensinado por Ben Horowitz",
+    "to": "Rafael e Bia aprenderam com o erro do vizinho e escolheram a cirurgia do corte único"
+  },
+  {
+    "id": "4220",
+    "vol": "9",
+    "code": "N2",
+    "from": "Este capítulo entra na profundidade operacional do layoff, ou seja, da demissão coletiva por razões econômicas, de reestruturação ou de pivô estratégico.",
+    "to": "Este capítulo detalha a execução financeira, jurídica e humana de uma redução coletiva de quadro (*layoff*), acompanhando como Rafael e Bia dimensionaram o corte único na operação de Recife e Goiânia para recuperar 18 meses de fôlego de caixa sem destruir a cultura de quem permaneceu."
+  },
+  {
+    "id": "4221",
+    "vol": "9",
+    "code": "E8",
+    "from": "Financial runway (caixa para operar), em que a empresa precisa reduzir burn (queima de caixa) para estender caixa.",
+    "to": "Preservação de caixa (*runway*), quando a empresa precisa reduzir a queima mensal para atravessar uma retração de crédito ou queda de vendas."
+  },
+  {
+    "id": "4225",
+    "vol": "9",
+    "code": "E9",
+    "from": "Os fatores de decisão sobre quem têm uma ordem que importa.",
+    "to": "Os critérios objetivos para decidir quais posições e pessoas saem seguem uma ordem rigorosa de prioridade."
+  },
+  {
+    "id": "4226",
+    "vol": "9",
+    "code": "N9",
+    "from": "### A Preparação Silenciosa: Verbas Rescisórias Separadas em Caixa, Estabilidades Legais e Treinamento de Gestores",
+    "to": "### A Preparação Antes do Corte: Verbas Rescisórias Separadas em Caixa, Estabilidades Legais e Treinamento de Gestores\n\nAntes de fechar a lista final de desligamentos, o RH e o jurídico trabalhista precisam cruzar cada nome com as **hipóteses de estabilidade provisória no emprego** previstas na legislação brasileira e na convenção coletiva da categoria (pois demitir sem justa causa empregado estável gera ordem judicial de reintegração com pagamento retroativo de todos os salários ou indenização substitutiva integral): **gestante** (desde a confirmação da gravidez até cinco meses após o parto, mesmo que a empresa desconhecesse a gestação na data da dispensa, conforme o art. 10, II, *b* do ADCT e a Súmula 244 do TST), **membro eleito da CIPA** (da inscrição da candidatura até um ano após o fim do mandato, art. 10, II, *a* do ADCT), **acidentado no trabalho ou portador de doença ocupacional equiparada, incluindo *burnout* com nexo causal** (por 12 meses após a cessação do auxílio-doença acidentário, art. 118 da Lei 8.213/1991), **dirigente sindical** (art. 543, § 3º da CLT) e **estabilidades pré-aposentadoria ou pós-retorno de férias/licença** previstas na Convenção Coletiva de Trabalho (CCT).\n\nNa véspera do corte, conduza um **treinamento obrigatório de 60 minutos com todos os gestores que farão as conversas individuais**: entregue o roteiro escrito de três minutos (comunicação direta nos primeiros 30 segundos, explicação clara de que a decisão decorre de reestruturação econômica do cargo e não de falha moral, leitura do pacote de extensão de plano de saúde e verbas rescisórias, e passagem imediata para o RH), proíba frases defensivas como *\"eu fui contra a sua demissão, mas a diretoria obrigou\"* e alinhe o cronograma minuto a minuto."
+  },
+  {
+    "id": "4227",
+    "vol": "9",
+    "code": "C1",
+    "from": "custo de litígio potencial (estimar dez a vinte por cento das rescisões como risco)",
+    "to": "provisão prudencial para contingências trabalhistas (como regra prática de bolso, reservar entre 10% e 20% do custo total das rescisões para cobrir eventuais reclamações ou acordos judiciais)"
+  },
+  {
+    "id": "4228",
+    "vol": "9",
+    "code": "C6",
+    "from": "O legal mínimo (CLT) inclui aviso prévio (trinta dias mais três dias por ano de casa), 13º proporcional, férias proporcionais mais um terço, multa de quarenta por cento sobre o FGTS e saque do FGTS.",
+    "to": "As verbas rescisórias obrigatórias na demissão sem justa causa pela CLT compreendem: **saldo de salário** dos dias trabalhados no mês, **aviso prévio proporcional** (30 dias base mais 3 dias por ano completo de empresa, até o teto de 90 dias, conforme a Lei 12.506/2011, projetando-se no tempo de serviço para todos os efeitos), **férias vencidas (se houver) e férias proporcionais acrescidas do terço constitucional**, **13º salário proporcional**, **multa de 40% sobre a totalidade dos depósitos de FGTS realizados durante o contrato** e liberação das guias para saque do FGTS e habilitação no seguro-desemprego (além do direito do ex-empregado que contribuía para o plano de saúde coletivo de mantê-lo assumindo o pagamento integral por 6 a 24 meses, nos termos do art. 30 da Lei 9.656/1998)."
+  },
+  {
+    "id": "4229",
+    "vol": "9",
+    "code": "E9",
+    "from": "Os cuidados durante incluem ambiente físico (quem será notificado em sala separada, privacidade)",
+    "to": "Durante o dia do desligamento, os cuidados essenciais incluem o ambiente físico (conversas individuais em salas reservadas ou chamadas de vídeo privadas, preservando a dignidade de quem sai)"
+  },
+  {
+    "id": "4232",
+    "vol": "9",
+    "code": "C2",
+    "from": "Rescisão completa: calcular e pagar dentro dos prazos legais (dez dias da saída para aviso indenizado).",
+    "to": "Quitação das verbas rescisórias e entrega dos documentos: pagamento integral em **até 10 dias corridos contados do término do contrato** (independentemente de o aviso prévio ser trabalhado ou indenizado, conforme a redação dada pela Lei 13.467/2017 ao § 6º do art. 477 da CLT, sob pena de multa de um salário do empregado pelo § 8º do mesmo artigo)."
+  },
+  {
+    "id": "4233",
+    "vol": "9",
+    "code": "E9",
+    "from": "Se a CCT aplicável tem cláusulas adicionais (PLR, benefícios estendidos em rescisão), categorias sindicais diferentes podem ter termos diferentes.",
+    "to": "Cada categoria profissional possui sua própria Convenção Coletiva de Trabalho (CCT), que pode estipular obrigações adicionais além da CLT (como pagamento proporcional de PLR na rescisão, extensão obrigatória de benefícios por 60 ou 90 dias ou cláusulas de estabilidade); se a empresa tiver empregados enquadrados em sindicatos distintos, audite cada convenção antes de fechar a planilha."
+  },
+  {
+    "id": "4234",
+    "vol": "9",
+    "code": "C3",
+    "from": "Se estruturado corretamente, com homologação, pode reduzir significativamente o passivo trabalhista.",
+    "to": "Quando previsto e pactuado formalmente em Acordo Coletivo ou Convenção Coletiva de Trabalho, a adesão ao Plano de Demissão Voluntária ou Incentivada (PDV/PDI) enseja quitação plena e irrevogável dos direitos decorrentes da relação empregatícia, salvo ressalvas expressas (art. 477-B da CLT)."
+  },
+  {
+    "id": "4235",
+    "vol": "9",
+    "code": "S6",
+    "from": "### Antes da Faca: Congelamento de Vagas, Corte de Software/Marketing e Redução de Pró-Labore/Bônus Executivo",
+    "to": "### Antes da Faca: Congelamento de Vagas, Renegociação de Contratos de Nuvem/Software e Redução da Remuneração Executiva"
+  },
+  {
+    "id": "4237",
+    "vol": "9",
+    "code": "N8",
+    "from": "Casos de execução relativamente boa (comunicação transparente, pacotes acima do mínimo, suporte à recolocação) coexistiram com casos de má execução",
+    "to": "No ajuste do mercado brasileiro de tecnologia entre 2022 e 2023, quando dezenas de startups reduziram entre 15% e 30% de suas equipes, a diferença de reputação e retenção ficou evidente: na operação de Rafael e Bia em Recife, o corte único de 22% acompanhado de três meses extras de plano de saúde, pacote de apoio à recolocação e conversa individual olho no olho permitiu que a empresa atingisse o equilíbrio de caixa em sessenta dias com zero pedidos de demissão entre os engenheiros e líderes que permaneceram."
+  },
+  {
+    "id": "4238",
+    "vol": "9",
+    "code": "E2",
+    "from": "> Delay. Decisão adiada por meses, a crise se agrava, o corte precisa ser maior.",
+    "to": "> **Adiar a decisão por meses:** a queima de caixa consome a reserva e obriga a empresa a fazer um corte muito maior e sem recursos para oferecer pacote digno."
+  },
+  {
+    "id": "4239",
+    "vol": "9",
+    "code": "E9",
+    "from": "Bias na escolha de \"performance\" gera ações discriminatórias e reputation damage.",
+    "to": "Viés subjetivo na escolha por suposto \"desempenho\" sem avaliações formais documentadas gera processos trabalhistas por dispensa discriminatória (Lei 9.029/1995) e grave dano de reputação."
+  },
+  {
+    "id": "4240",
+    "vol": "9",
+    "code": "C5",
+    "from": "garantindo à equipe que fica que **não haverá uma segunda rodada de demissões**?",
+    "to": "permitindo demonstrar com transparência à equipe que permanece que **o corte foi dimensionado sobre um cenário conservador para ser único, sem novas rodadas planejadas**?"
+  },
+  {
+    "id": "4243",
+    "vol": "9",
+    "code": "C6",
+    "from": "Para pagar fornecedores que gritavam mais alto, deixou de recolher impostos retidos na fonte, atrasou o FGTS da equipe",
+    "to": "Para pagar fornecedores que gritavam mais alto, deixou de repassar impostos e contribuições descontados na fonte (o que deixa de ser mera dívida fiscal e configura crime de apropriação indébita previdenciária e crime contra a ordem tributária, previstos no art. 168-A do Código Penal e no art. 2º, II da Lei 8.137/1990, com responsabilidade penal direta dos administradores), atrasou o FGTS da equipe"
+  },
+  {
+    "id": "4244",
+    "vol": "9",
+    "code": "C7",
+    "from": "distinguir entre um negócio que tem margem de contribuição positiva e merece um **Turnaround Radical / Recuperação Judicial (Lei 11.101/2005)**",
+    "to": "distinguir entre um negócio operacionalmente viável (que possui margem de contribuição positiva, mais de dois anos regulares de atividade exigidos pelo art. 48 da Lei 11.101/2005 e passivo majoritariamente sujeito à renegociação por **Turnaround Radical, Recuperação Extrajudicial ou Recuperação Judicial**)"
+  },
+  {
+    "id": "4245",
+    "vol": "9",
+    "code": "S7",
+    "from": "As referências à Lei 11.101/2005 (Lei de Recuperação Judicial, Extrajudicial e Falência), à CLT, e ao Código Civil são de domínio público.",
+    "to": "Este capítulo baseia-se na Lei 11.101/2005 (atualizada pela reforma da Lei 14.112/2020), na CLT e no Código Civil, e não substitui assessoria jurídica e contábil especializada."
+  },
+  {
+    "id": "4247",
+    "vol": "9",
+    "code": "E9",
+    "from": "> [!important] O fracasso gerenciado é diferente do fracasso evitado",
+    "to": "> [!important] O encerramento ordenado é o oposto do colapso desordenado"
+  },
+  {
+    "id": "4249",
+    "vol": "9",
+    "code": "E9",
+    "from": "Crescimento de receita mascarado por alto churn é problema estrutural, não de execução.",
+    "to": "Churn alto mascarado temporariamente pela entrada de novas vendas é um problema estrutural de produto, não apenas de execução comercial."
+  },
+  {
+    "id": "4250",
+    "vol": "9",
+    "code": "C6",
+    "from": "### 2. As Cinco Rotas na Encruzilhada: Turnaround de Caixa, M&A de Distressed/Acqui-hire, RJ, Extrajudicial ou Wind-Down Limpo",
+    "to": "### 2. As Cinco Rotas na Encruzilhada: Turnaround de Caixa, M&A de Ativos/Acqui-hire, Recuperação Extrajudicial, Recuperação Judicial ou Wind-Down Limpo\n\n> **Por que a Recuperação Extrajudicial (arts. 161 a 167 da Lei 11.101/2005) costuma ser mais viável que a Judicial para startups e PMEs:** Reformada pela Lei 14.112/2020, a Recuperação Extrajudicial permite que a empresa negocie um plano privado com seus credores e peça apenas a homologação judicial para vincular a minoria dissidente, exigindo a assinatura de credores que representem **mais da metade (50% + 1) dos créditos de cada espécie abrangida** (podendo iniciar o pedido com 1/3 de adesão e completar o quórum em 90 dias, já com suspensão das execuções daquelas classes). Ao contrário da Recuperação Judicial completa, ela tem custo processual drasticamente menor (dispensa, em regra, a remuneração de administrador judicial de até 5% do passivo) e permite inclusive incluir créditos trabalhistas mediante negociação coletiva com o sindicato da categoria."
+  },
+  {
+    "id": "4251",
+    "vol": "9",
+    "code": "E9",
+    "from": "ou simplesmente a legalidade (CNPJ com histórico limpo, contratos existentes)",
+    "to": "ou a estrutura operacional e contratual já homologada (cadastros em grandes clientes, licenças regulatórias e contratos vigentes, lembrando que a compra do CNPJ implica sucessão trabalhista e tributária e exige diligência rigorosa)"
+  },
+  {
+    "id": "4252",
+    "vol": "9",
+    "code": "C3",
+    "from": "cortar 60% do time pode triplicar o runway.",
+    "to": "cortar 60% da folha pode mais que dobrar o *runway* (e chegar a triplicá-lo quando já existe receita recorrente cobrindo parte dos custos fixos, descontado o desembolso imediato das rescisões no mês do corte)."
+  },
+  {
+    "id": "4256",
+    "vol": "9",
+    "code": "C2",
+    "from": "- **Stay automático de 180 dias.** Durante esse prazo, ficam suspensas as execuções e os atos de constrição",
+    "to": "- **Período de suspensão das execuções (*stay period*) de 180 dias corridos.** A partir do deferimento do processamento da recuperação judicial, ficam suspensas por 180 dias corridos (prorrogáveis uma única vez por igual período em caráter excepcional, desde que o devedor não tenha concorrido com a superação do lapso temporal, conforme o art. 6º, § 4º da Lei 11.101/2005 com a redação da Lei 14.112/2020) as execuções e os atos de constrição"
+  },
+  {
+    "id": "4259",
+    "vol": "9",
+    "code": "N9",
+    "from": "### 4. O Passo a Passo do Wind-Down Limpo: Ordem Legal de Pagamentos, Baixa de CNPJ e Preservação do CPF dos Sócios",
+    "to": "### 4. O Passo a Passo do Encerramento Limpo (Wind-Down): Ordem Legal de Pagamentos, Baixa de CNPJ e Proteção do CPF dos Sócios\n\nQuando o encerramento voluntário (*wind-down*) é executado antes da insolvência, a regra absoluta para blindar o CPF dos administradores é respeitar a **hierarquia legal de preferência de créditos** (inspirada no art. 83 da Lei 11.101/2005 e no art. 186 do CTN), jamais pagando fornecedores comuns ou devolvendo mútuos de sócios enquanto restar um único real de passivo trabalhista ou de tributo retido na fonte:\n\n1. **1º Lugar Absoluto: Trabalhistas e Tributos Retidos na Fonte:** 100% das verbas rescisórias de empregados CLT (salários, férias, 13º, FGTS e multa de 40%) e repasse imediato de tributos retidos de terceiros (IRRF e INSS descontados de empregados e prestadores, cuja retenção sem repasse é crime penal).\n2. **2º Lugar: Créditos com Garantia Real e Tributos Próprios:** dívidas bancárias com garantia fiduciária ou real (até o limite do valor do bem gravado) e tributos próprios da operação (ISS, ICMS, PIS/COFINS, IRPJ/CSLL).\n3. **3º Lugar: Fornecedores Quirografários e Distrato de Clientes:** rescisão ordenada de contratos de aluguel, nuvem e fornecedores gerais (negociando descontos à vista para quitação plena) e devolução proporcional de mensalidades pré-pagas por clientes.\n4. **Último Lugar: Créditos Subordinados, Mútuos de Sócios e Capital Social:** sócios e investidores só recebem qualquer saldo remanescente depois que 100% dos credores externos tiverem dado quitação formal."
+  },
+  {
+    "id": "4260",
+    "vol": "9",
+    "code": "C3",
+    "from": "- FGTS do período não recolhido e multa rescisória de 40% sobre o saldo do FGTS.",
+    "to": "- Depósitos de FGTS em aberto e multa rescisória de 40% calculada sobre a **totalidade dos depósitos realizados durante toda a vigência do contrato de trabalho** (corrigidos monetariamente, mesmo que o trabalhador já tenha realizado saques parciais anteriores, conforme o art. 18, § 1º da Lei 8.036/1990), além da baixa imediata no eSocial (CTPS Digital)."
+  },
+  {
+    "id": "4262",
+    "vol": "9",
+    "code": "N9",
+    "from": "### 5. Governança com Investidores no Encerramento: Relatório Final, Liquidação de Ativos e Baixa Contábil (Write-Off) para Fundos",
+    "to": "### 5. Governança com Investidores no Fechamento: Relatório Final, Liquidação de Ativos e Baixa Contábil (Write-Off) para Fundos\n\nOs fundos de Venture Capital sabem que parte do portfólio encerrará as atividades, mas distinguem com rigor o fundador que fecha a empresa com transparência auditável daquele que simplesmente desaparece. Para que os fundos possam registrar a **baixa contábil e fiscal do investimento (*write-off*)** perante seus próprios cotistas e auditores, entregue o **Pacote de Encerramento aos Investidores**:\n\n1. **Relatório Final de Gestão (*Post-Mortem* Executivo de 3 a 5 páginas):** síntese factual da tese original, marcos atingidos, causas estruturais da inviabilidade, alternativas tentadas (cortes, pivô, sondagem de M&A) e demonstração do fluxo de caixa final de liquidação.\n2. **Prestação de Contas da Liquidação e Rateio:** balancete de encerramento assinado pelo contador comprovando a quitação das obrigações trabalhistas e fiscais e, caso reste saldo de caixa ou venda de ativos, o rateio conforme a cascata de *liquidation preference* do Acordo de Acionistas.\n3. **Documentação Societária de Baixa (*Write-Off Package*):** ata de assembleia ou distrato social aprovado pelos sócios, comprovante de baixa do CNPJ na Junta Comercial e na Receita Federal (ou certidão de encerramento das atividades) e carta formal da administração declarando a perda integral do valor econômico das ações/quotas ou títulos conversíveis."
+  },
+  {
+    "id": "4263",
+    "vol": "9",
+    "code": "E9",
+    "from": "como os credores serão pagados, qual será a ordem de preferência.",
+    "to": "como os credores serão pagos e qual será a ordem legal de preferência."
+  },
+  {
+    "id": "4264",
+    "vol": "9",
+    "code": "C3",
+    "from": "os fundadores e o board têm informação privilegiada sobre o encerramento.",
+    "to": "os fundadores e os conselheiros conhecem a iminência da insolvência antes dos credores e demais sócios: alienar ativos relevantes a preço vil, transferir propriedade intelectual para outra empresa dos próprios sócios ou pagar credores escolhidos a dedo nesse período configura **fraude contra credores (arts. 158 a 165 do Código Civil)** ou crime falimentar (arts. 168 e 172 da Lei 11.101/2005), gerando anulação do negócio e responsabilização patrimonial direta."
+  },
+  {
+    "id": "4265",
+    "vol": "9",
+    "code": "C5",
+    "from": "Na prática, o fundador pode ser acionado pessoalmente até quatro ou cinco anos após o encerramento da startup por obrigações trabalhistas.",
+    "to": "O prazo prescricional para o ex-empregado ajuizar reclamação trabalhista é de **dois anos após a extinção do contrato** (art. 7º, XXIX da CF/88), mas uma vez distribuída a ação dentro desse biênio, a fase de liquidação e execução trabalhista (com desconsideração ampla da personalidade jurídica pela Teoria Menor adotada na Justiça do Trabalho) pode perseguir o patrimônio pessoal dos sócios por muitos anos até a satisfação do crédito ou a consumação da prescrição intercorrente por inércia do exequente (art. 11-A da CLT)."
+  },
+  {
+    "id": "4267",
+    "vol": "9",
+    "code": "C7",
+    "from": "O time é contratado pelo adquirente como empregados ou PJ.",
+    "to": "Na compra de 100% das quotas ou ações, a empresa muda de controle societário e os contratos de trabalho vigentes seguem normalmente no CNPJ adquirido (arts. 10 e 448 da CLT); já em operações de *acqui-hire* sem compra do CNPJ, o adquirente contrata diretamente os profissionais sob regime CLT (evitando pejotização de subordinados, que gera passivo trabalhista pelo art. 9º da CLT)."
+  },
+  {
+    "id": "4271",
+    "vol": "9",
+    "code": "N6",
+    "from": "1. **O Cálculo da Linha Zero (*Liquidation Floor*):**",
+    "to": "1. **O Cálculo do Piso de Liquidação (*Liquidation Floor*):**"
+  },
+  {
+    "id": "4273",
+    "vol": "9",
+    "code": "C5",
+    "from": "substitua o DRE mensal por um **Fluxo de Caixa Diário de 13 Semanas** auditado toda segunda-feira às 9h",
+    "to": "complemente o DRE mensal por um **Fluxo de Caixa Semanal de 13 Semanas** revisado toda segunda-feira às 9h (conforme o modelo do Volume 5), travando como linha inegociável o **Piso de Liquidação** trabalhista e fiscal"
+  },
+  {
+    "id": "4276",
+    "vol": "9",
+    "code": "C5",
+    "from": "assinar o contrato de compra é apenas 20% do trabalho; os outros 80% do valor são criados ou destruídos nos primeiros 100 dias de integração pós-fechamento",
+    "to": "fechar o contrato de aquisição consome cerca de 30% do esforço executivo, mas 70% do valor econômico da tese é capturado ou destruído nos primeiros 100 dias de integração pós-fechamento"
+  },
+  {
+    "id": "4277",
+    "vol": "9",
+    "code": "N6",
+    "from": "Você precisa dominar **A Arbitragem de Múltiplos e a Disciplina de Integração (PMI)**",
+    "to": "A disciplina de M&A como comprador apoia-se em duas travas: pagar múltiplo sustentado pelo fluxo de caixa isolado da adquirida e executar a integração de sistemas, pessoas e clientes nos primeiros 100 dias."
+  },
+  {
+    "id": "4278",
+    "vol": "9",
+    "code": "E9",
+    "from": "o oposto da visão \"fundador vendido\" coberta em outros capítulos",
+    "to": "o oposto da perspectiva do fundador que vende sua empresa, tratada na Fase 20 deste volume"
+  },
+  {
+    "id": "4279",
+    "vol": "9",
+    "code": "N9",
+    "from": "### A Matemática do Roll-up: Como Comprar a 4x EBITDA e Ser Avaliado a 10x+ na Escala Consolidada",
+    "to": "### A Matemática do Roll-up na Prática: Como Comprar a 4x EBITDA e Ser Avaliado a 10x+ na Escala Consolidada\n\n> **A conta da arbitragem de múltiplos na prática:** Imagine três empresas regionais de software vertical, cada uma gerando R$ 2 milhões de EBITDA anual (R$ 6 milhões somados), adquiridas isoladamente por 4x EBITDA (desembolso total de R$ 24 milhões). Isoladas, são pequenas demais para atrair fundos institucionais; integradas sob uma única plataforma tecnológica, com unificação de diretoria, nuvem e compras que eleva o EBITDA consolidado de R$ 6 milhões para R$ 7,5 milhões, a operação passa a ter escala para ser avaliada entre 8x e 10x EBITDA (R$ 60 milhões a R$ 75 milhões). O que destrói essa conta na vida real são os dois vazamentos clássicos de *roll-up*: custo de integração acima do orçado e perda de clientes (*churn*) durante a migração forçada de marca ou sistema."
+  },
+  {
+    "id": "4280",
+    "vol": "9",
+    "code": "E8",
+    "from": "A empresa faz M&A (mergers and acquisitions, fusões e aquisições) ativo por seis razões.",
+    "to": "Uma empresa em escala parte para aquisições ativas (M&A *buy-side*) por seis razões estratégicas."
+  },
+  {
+    "id": "4281",
+    "vol": "9",
+    "code": "E2",
+    "from": "Tenha caixa e capacidade de integração, não só capital para compra, mas equipe para integrar. Tese clara (",
+    "to": "ter caixa próprio e equipe disponível para integrar o ativo adquirido (não apenas capital para pagar o preço), uma tese específica que responda por que comprar aquela empresa agora ("
+  },
+  {
+    "id": "4284",
+    "vol": "9",
+    "code": "C3",
+    "from": "Pagamento estimado: vinte e cinco a trinta e cinco milhões (três a quatro vezes ARR). Payback esperado: trinta a trinta e seis meses.",
+    "to": "Preço estimado de aquisição: R$ 24 milhões (4x o EBITDA atual da adquirida, de R$ 6 milhões/ano, com ARR de R$ 18 milhões). Sinergias controláveis em 18 meses: R$ 1,5 milhão/ano de redução de infraestrutura e *backoffice* duplicados + R$ 1,5 milhão/ano de margem incremental de venda cruzada na base atual, elevando o EBITDA gerado pelo ativo para R$ 9 milhões/ano e permitindo retorno do capital investido (*payback*) em cerca de 3,5 anos."
+  },
+  {
+    "id": "4285",
+    "vol": "9",
+    "code": "E9",
+    "from": "Duração típica: deal pequeno (menor que cinco milhões) leva quatro a oito semanas.",
+    "to": "Duração típica da diligência e fechamento: aquisições pequenas (abaixo de R$ 10 milhões) levam de 4 a 8 semanas; operações médias (de R$ 10 milhões a R$ 50 milhões) exigem de 8 a 16 semanas; e transações grandes (acima de R$ 50 milhões, especialmente quando sujeitas ao CADE) levam de 3 a 6 meses."
+  },
+  {
+    "id": "4287",
+    "vol": "9",
+    "code": "E7",
+    "from": "Perda de founders-chave: se founder adquirido sai em seis a doze meses, frequentemente aquisição falha.",
+    "to": "Saída precoce dos fundadores da empresa adquirida: quando o fundador-chave deixa a operação nos primeiros 6 a 12 meses sem ter transferido o relacionamento com clientes e o conhecimento do produto, a aquisição costuma destruir valor."
+  },
+  {
+    "id": "4288",
+    "vol": "9",
+    "code": "C6",
+    "from": "Os riscos específicos de roll-up incluem integração cumulativa",
+    "to": "Os riscos específicos de uma estratégia de consolidação (*roll-up*) incluem a **aprovação prévia obrigatória do CADE (Lei 12.529/2011)** sempre que, na operação, um dos grupos econômicos envolvidos (somando o faturamento de todas as empresas controladas ou coligadas ao fundo investidor no Brasil) tiver registrado faturamento bruto anual igual ou superior a **R$ 750 milhões** e o outro grupo igual ou superior a **R$ 75 milhões** no ano anterior (Portaria Interministerial MJ/MF 994/2012, sendo vedado consumar qualquer ato de integração antes do aval sob pena de multa por *gun jumping* de R$ 60 mil a R$ 60 milhões, além da faculdade do CADE de requisitar em até um ano atos fora dos pisos quando houver concentração regional relevante), bem como a complexidade de integração cumulativa"
+  },
+  {
+    "id": "4289",
+    "vol": "9",
+    "code": "C5",
+    "from": "ROI de aquisição (valor criado vs investimento, payback menor que quatro a cinco anos é saudável)",
+    "to": "retorno sobre o capital investido na aquisição (ROIC e *payback* pelo fluxo de caixa operacional da adquirida somado às sinergias de custo, com meta saudável de retorno integral entre 3 e 4 anos)"
+  },
+  {
+    "id": "4290",
+    "vol": "9",
+    "code": "N9",
+    "from": "### Subestimar o Passivo Trabalhista/Fiscal Oculto da Adquirida no Brasil e Deixar a Empresa Comprada como Ilha Isolada",
+    "to": "### O Risco Oculto da Sucessão Trabalhista e Fiscal no Brasil e o Erro de Deixar a Adquirida como Ilha Isolada\n\nNo direito brasileiro, quem compra uma empresa herda seus esqueletos: na **sucessão trabalhista (arts. 10, 448 e 448-A da CLT)**, qualquer mudança na propriedade ou na estrutura jurídica da empresa não afeta os contratos de trabalho nem as contingências passadas, respondendo a empresa sucessora integralmente pelas dívidas trabalhistas anteriores; na **sucessão tributária (arts. 132 e 133 do Código Tributário Nacional)**, a pessoa jurídica que resulta de fusão, transformação ou incorporação (ou que adquire fundo de comércio/estabelecimento e continua a exploração) responde pelos tributos devidos até a data do ato.\n\nComo o prazo decadencial e prescricional tributário é de **cinco anos** (arts. 173 e 174 do CTN) e o trabalhista alcança os últimos cinco anos para contratos ativos (art. 7º, XXIX da CF/88), uma conta garantida (*escrow*) de apenas 12 a 24 meses não cobre todo o horizonte de risco. A blindagem padrão do comprador no Brasil combina **retenção em *escrow* ou parcela retida do preço (*holdback*) escalonada por até 5 anos** para contingências identificadas na diligência, **cláusula de indenização pelo vendedor com prazo alinhado à prescrição fiscal/trabalhista** e, quando o passivo oculto do CNPJ alvo for impagável, a **compra isolada de ativos selecionados** (tecnologia ou carteira de contratos) sem adquirir o estabelecimento empresarial."
+  },
+  {
+    "id": "4291",
+    "vol": "9",
+    "code": "N5",
+    "from": "inicie relacionamento direto de longo prazo com os donos (sem intermediários) e desenhe seu Playbook Padrão de Integração de 100 Dias.",
+    "to": "abra uma planilha com 15 potenciais alvos de aquisição no seu setor (anotando nome dos sócios, faturamento estimado, existência de sucessores familiares e um contato em comum) e bloqueie duas horas toda segunda-feira para conversar diretamente com um fundador da lista."
+  },
+  {
+    "id": "4293",
+    "vol": "9",
+    "code": "N3",
+    "from": "um ex-diretor colega de Henrique e Dra. Camila",
+    "to": "Gustavo, ex-diretor de operações da rede de clínicas da Dra. Camila,"
+  },
+  {
+    "id": "4294",
+    "vol": "9",
+    "code": "N3",
+    "from": "um ex-diretor colega de Henrique e Dra. Camila olhou para os dois caminhos tradicionais",
+    "to": "Gustavo, ex-diretor de operações da rede de clínicas da Dra. Camila, olhou para os dois caminhos tradicionais"
+  },
+  {
+    "id": "4295",
+    "vol": "9",
+    "code": "C1",
+    "from": "com risco de mortalidade dez vezes menor que o de uma startup do zero",
+    "to": "apoiado nas estatísticas históricas dos estudos bienais da Universidade Stanford sobre *Search Funds*, que registram taxa agregada de retorno interno (TIR) próxima de 35% ao ano e múltiplo médio de 4,5x a 5,5x sobre o capital investido"
+  },
+  {
+    "id": "4297",
+    "vol": "9",
+    "code": "C5",
+    "from": "### A Matemática de Stanford: Por Que Search Funds Entregam Retornos Históricos Superiores a 30% de TIR Com Risco Reduzido de PMF",
+    "to": "### Os Dados de Stanford: Por Que Search Funds Históricos Entregam TIR Agregada Acima de 30% Com Risco Operacional Diferente do Venture Capital\n\nSegundo os levantamentos bienais do *Center for Entrepreneurial Studies* da Universidade Stanford (que acompanham centenas de *search funds* desde 1984 nos EUA, Canadá e mercados internacionais), a classe de ativos apresenta **TIR agregada histórica em torno de 35% ao ano e retorno médio sobre o capital investido (MOIC) próximo de 4,5x a 5,5x**. O dado precisa ser lido com rigor estatístico: cerca de um terço dos *searchers* encerra o período de 24 meses sem concluir nenhuma aquisição, e entre os que compram há casos de perda parcial ou total de capital, mas a taxa de mortalidade pós-aquisição é substancialmente menor do que no estágio zero de Venture Capital porque o alvo já possui clientes, receita recorrente e geração positiva de caixa desde o primeiro dia."
+  },
+  {
+    "id": "4298",
+    "vol": "9",
+    "code": "E9",
+    "from": "Match entre capital, e talento. Capital está disponível (search funds, e family offices, ou escritórios familiares de investimento).",
+    "to": "Alinhamento entre capital institucional e talento operacional: há disponibilidade crescente de investidores especializados em *search funds* e escritórios familiares (*family offices*) dispostos a financiar operadores qualificados."
+  },
+  {
+    "id": "4301",
+    "vol": "9",
+    "code": "E9",
+    "from": "Padrões. Search Fund Accelerator, Pacific Lake Partners, e Relay Investments.",
+    "to": "Investidores institucionais de referência no ecossistema global de *search funds*: **Search Fund Accelerator (SFA)**, **Pacific Lake Partners**, **Relay Investments**, **TTCERO** e o fundo acadêmico de acompanhamento do **IESE Business School** e de **Stanford GSB**."
+  },
+  {
+    "id": "4302",
+    "vol": "9",
+    "code": "E9",
+    "from": "Search fund traditional.",
+    "to": "Modelo de *search fund* tradicional."
+  },
+  {
+    "id": "4303",
+    "vol": "9",
+    "code": "C6",
+    "from": "LLC, ou entidade equivalente, para conduzir busca, e aquisição.",
+    "to": "Veículo societário brasileiro: na fase de busca, constitui-se tipicamente uma **Sociedade Limitada (Ltda.) ou S.A. fechada** com acordo de quotistas/acionistas regulando o direito de preferência (*right of first refusal*) dos investidores na futura aquisição; no momento da compra da empresa-alvo, estruturou-se historicamente uma **S.A. fechada (*holding* de aquisição)** ou **FIP (Fundo de Investimento em Participações)** para acomodar múltiplas classes de ações, governança de conselho e posterior incorporação reversa com aproveitamento fiscal de ágio (conforme detalhado no **Capítulo 17, Tributação no Exit e Planejamento Patrimonial Pré-Venda**)."
+  },
+  {
+    "id": "4305",
+    "vol": "9",
+    "code": "E9",
+    "from": "Quinhentos a dois mil empresas identificadas. Cinquenta a duzentos conversas iniciais.",
+    "to": "Funil típico de prospecção em 24 meses: **500 a 2.000 empresas mapeadas**, **50 a 200 conversas iniciais com proprietários**, **20 a 50 reuniões presenciais com análise financeira**, **5 a 15 cartas de intenção (LOIs) enviadas** e **1 aquisição concluída**."
+  },
+  {
+    "id": "4306",
+    "vol": "9",
+    "code": "E9",
+    "from": "Equity investors (search fund investors, mais novos). Trinta a cinquenta por cento do preço.",
+    "to": "Investidores de capital próprio (*equity* dos apoiadores originais do *search fund* somados a novos coinvestidores da rodada de aquisição): **50% a 70% do preço total no contexto brasileiro**."
+  },
+  {
+    "id": "4309",
+    "vol": "9",
+    "code": "S7",
+    "from": "Embora ETA seja conceito ainda em formacao no Brasil, alguns casos sao referencia.",
+    "to": "O ecossistema brasileiro de *search funds* consolidou-se na última década com dezenas de veículos de busca e aquisições concluídas em setores como software vertical, saúde, educação, serviços industriais e logística."
+  },
+  {
+    "id": "4310",
+    "vol": "9",
+    "code": "C4",
+    "from": "**Buser** (mobilidade urbana) foi adquirida via estrutura proxima a ETA por searcher experiente em 2022. **Bumeran** Brasil teve aquisicao por searcher self-funded em 2023.",
+    "to": "Segundo os levantamentos internacionais do **IESE Business School** (parceiro da Universidade Stanford no estudo global de *search funds*), o Brasil e o México lideram o volume de *search funds* ativos na América Latina, apoiados por fundos locais dedicados à classe (como **Spectra Investments**, que investe em *search funds* e *private equity* no Brasil, além de investidores-anjo egressos de escolas de negócios como Stanford, Harvard, Wharton, INSEAD e IESE)."
+  },
+  {
+    "id": "4312",
+    "vol": "9",
+    "code": "C7",
+    "from": "Ágio por expectativa de rentabilidade futura. Pode gerar benefício fiscal em amortização.",
+    "to": "**Amortização fiscal do ágio por rentabilidade futura (*goodwill*):** no Brasil, a dedutibilidade fiscal do ágio em no mínimo 60 meses (1/60 ao mês na apuração do Lucro Real) **não é automática**; exige estrito cumprimento dos requisitos da **Lei 12.973/2014 (arts. 20 a 22)**, incluindo aquisição entre partes não dependentes, elaboração de laudo de avaliação independente que determine o valor justo dos ativos e passivos da adquirida com protocolo tempestivo na Receita Federal (ou sumário registrado em cartório) e efetiva confusão patrimonial (incorporação da *holding* compradora pela adquirida ou vice-versa) sustentada por propósito negocial real."
+  },
+  {
+    "id": "4313",
+    "vol": "9",
+    "code": "N9",
+    "from": "### Critérios do Alvo Ideal: EBITDA de R$ 8M a R$ 30M, Margem > 20%, Receita Recorrente e Baixa Concentração de Clientes",
+    "to": "### Métricas Operacionais da Busca (Funil de Prospecção) e do Pós-Aquisição (Crescimento, EBITDA e Conversão de Caixa)"
+  },
+  {
+    "id": "4314",
+    "vol": "9",
+    "code": "C5",
+    "from": "### Mudar Tudo nos Primeiros 90 Dias Antes de Conquistar a Confiança da Equipe Antiga ou Alavancar Demais com CDI Alto",
+    "to": "### As Armadilhas Fatais: Mudar Tudo nos Primeiros 180 Dias Antes de Conquistar a Equipe Antiga ou Alavancar Demais Com CDI Alto"
+  },
+  {
+    "id": "4315",
+    "vol": "9",
+    "code": "C5",
+    "from": "a transação foi desenhada com 30% a 50% do preço financiado a prazo pelos próprios vendedores",
+    "to": "a transação foi estruturada com **50% a 70% de capital próprio (*equity*)** e **20% a 40% de financiamento direto pelo próprio vendedor (*seller note* parcelado e vinculado à retenção de contingências)**, evitando dívida bancária cara atrelada ao CDI"
+  },
+  {
+    "id": "4316",
+    "vol": "9",
+    "code": "C5",
+    "from": "Aplique o Scorecard de 10 Critérios de ETA (Recorrência, Margem > 20%, Crescimento Setorial, Baixo CapEx, Pulverização de Clientes, Motivação Clara de Sucessão do Vendedor e Limpeza Fiscal)",
+    "to": "Aplique o **Scorecard de 7 Critérios de ETA** (1. Receita recorrente acima de 70%; 2. Margem EBITDA superior a 20%; 3. Setor em crescimento orgânico; 4. Baixa necessidade de CapEx; 5. Baixa concentração de clientes; 6. Vendedor com motivação real de sucessão; 7. Passivo fiscal e trabalhista auditável)"
+  },
+  {
+    "id": "4317",
+    "vol": "9",
+    "code": "N3",
+    "from": "Dentro da operação industrial e de agronegócio de Henrique em Curitiba, nasceu quase por acaso uma ferramenta interna brilhante",
+    "to": "Dentro da integradora de automação industrial e telemetria agrícola de Henrique em Curitiba, nasceu como módulo interno uma ferramenta de software que logo chamou a atenção de todo o setor"
+  },
+  {
+    "id": "4318",
+    "vol": "9",
+    "code": "N7",
+    "from": "O paradoxo corporativo que Clayton Christensen provou é que uma empresa madura quase sempre esmaga um negócio emergente de alto crescimento",
+    "to": "Clayton Christensen demonstrou em *O Dilema da Inovação* (*The Innovator's Dilemma*, 1997) que negócios emergentes de alto crescimento costumam ser sufocados quando disputam recursos, prioridades e métricas dentro da mesma estrutura organizacional da operação madura, exigindo uma unidade autônoma com governança e incentivos próprios"
+  },
+  {
+    "id": "4319",
+    "vol": "9",
+    "code": "S1",
+    "from": "**Quando uma Ferramenta Interna, Infraestrutura Proprietária ou Unidade de Negócio Vale Muito Mais Fora da Empresa-Mãe do que Dentro Dela: Arquitetura Societária, Tributária, *Cap Table* e Governança no Brasil**",
+    "to": "*Arquitetura societária, tributária, de cap table e de governança para destacar um produto interno, infraestrutura tecnológica ou unidade de negócio em uma companhia independente no Brasil.*"
+  },
+  {
+    "id": "4320",
+    "vol": "9",
+    "code": "C6",
+    "from": "a *spin-off* torna-se uma infraestrutura neutra e passa a vender para todo o setor",
+    "to": "a *spin-off* ganha estrutura para atender outros participantes do mercado, desde que implemente **salvaguardas concorrenciais estritas auditadas (conformidade com a Lei 12.529/2011 do CADE)**: segregação física e lógica de bancos de dados para impedir que a empresa-mãe acesse preços, volumes ou informações comercialmente sensíveis de concorrentes, acordos de confidencialidade com penalidades severas, conselheiros independentes e, quando necessário para convencer rivais diretos, diluição da empresa-mãe para posição sem controle operacional sobre os dados"
+  },
+  {
+    "id": "4321",
+    "vol": "9",
+    "code": "E3",
+    "from": "### 2. O Mapa Cirúrgico das 4 Estruturas: Spin-off Puro, Equity Carve-out, Split-off e Venture Building Corporativo",
+    "to": "### 2. As 4 Estruturas de Separação Societária: Spin-off Puro, Equity Carve-out, Split-off e Venture Building Corporativo"
+  },
+  {
+    "id": "4322",
+    "vol": "9",
+    "code": "C7",
+    "from": "Parte dos sócios entrega (resgata) suas ações na ParentCo em troca de 100% das ações da NewCo destacada",
+    "to": "Parte dos sócios entrega suas ações/quotas na ParentCo em troca de participação na NewCo destacada (atenção: na Lei das S.A., a **cisão com atribuição desproporcional de ações exige aprovação unânime de 100% dos acionistas**, conforme o art. 229, § 5º da Lei 6.404/1976, além de propósito negocial documentado para não ser autuada pela Receita Federal como permuta ou alienação tributável)"
+  },
+  {
+    "id": "4324",
+    "vol": "9",
+    "code": "C3",
+    "from": "Já a **Bemobi** nasceu dentro do grupo M4U, passou por *spin-off / buyout*, escalou globalmente e fez seu próprio IPO na B3.",
+    "to": "Já a **Bemobi**, nascida como unidade de aplicativos e serviços móveis no Rio de Janeiro, foi adquirida pelo grupo norueguês Opera (depois Otello Corporation), escalou internacionalmente como plataforma independente de assinaturas móveis e posteriormente realizou seu *carve-out* e abertura de capital (IPO) na B3 em 2021."
+  },
+  {
+    "id": "4325",
+    "vol": "9",
+    "code": "C7",
+    "from": "a operação tem **neutralidade fiscal total** (sem incidência de IRPJ/CSLL sobre ganho de capital, conforme art. 21 da Lei nº 9.249/1995)",
+    "to": "a transferência patrimonial ocorre **sem apuração de ganho de capital tributável** (conforme o art. 21 da Lei 9.249/1995), observando-se porém duas travas fiscais obrigatórias: a sociedade cindida perde o direito de compensar seus prejuízos fiscais acumulados na exata proporção do patrimônio líquido vertido (art. 33 do Decreto-Lei 2.341/1987) e a operação exige propósito negocial comprovado para afastar questionamentos de simulação"
+  },
+  {
+    "id": "4326",
+    "vol": "9",
+    "code": "C3",
+    "from": "(art. 21 da Lei nº 9.249/1995 e art. 520 do RIR/2018), **sem apuração de ganho de capital tributável** na criação",
+    "to": "(pelo valor contábil escriturado no balanço da conferente, estruturado como aumento de capital subscrito em ações de S.A. fechada ou via cisão parcial sob o art. 21 da Lei 9.249/1995, sempre com validação prévia de tributarista sobre a ausência de ganho de capital e o propósito negocial da reorganização), **sem apuração imediata de ganho tributável** na criação"
+  },
+  {
+    "id": "4327",
+    "vol": "9",
+    "code": "C5",
+    "from": "### 5. O Erro Fatal da \"Subsidiária Sem Dono\": Como Desenhar Cap Table Com Equity Real (15% a 30%) Para os Co-Founders da Spin-off",
+    "to": "### 5. O Erro da \"Subsidiária Sem Dono\": Como Desenhar Cap Table Com Equity Real (15% a 25%) Para os Cofundadores da Spin-off"
+  },
+  {
+    "id": "4328",
+    "vol": "9",
+    "code": "C1",
+    "from": "O erro fatal de 90% das corporações brasileiras ao criar uma *spin-off*",
+    "to": "O erro mais frequente das empresas brasileiras ao criar uma *spin-off*"
+  },
+  {
+    "id": "4330",
+    "vol": "9",
+    "code": "E9",
+    "from": "erro mortal das corporações que deixam 95% na holding mãe e matam a fome do time?",
+    "to": "erro clássico das corporações que retêm mais de 90% na holding-mãe e deixam o time executivo sem participação relevante?"
+  },
+  {
+    "id": "4331",
+    "vol": "9",
+    "code": "N5",
+    "from": "Avalie se a sua iniciativa de Horizonte 2 deve permanecer como diretoria interna ou se deve ser isolada via *Drop-Down* em uma SPE/S.A. separada",
+    "to": "Liste os módulos internos ou ferramentas proprietárias da sua empresa que clientes ou parceiros já pediram para contratar de forma avulsa e, para o principal candidato, anote na planilha quanto ele faturaria isolado, quais três pessoas formariam seu núcleo dedicado e quem seria o líder empreendedor."
+  },
+  {
+    "id": "4332",
+    "vol": "9",
+    "code": "C5",
+    "from": "Seis anos depois de fundar sua scaleup em São Paulo, Lucas vivia uma situação esquizofrênica",
+    "to": "Quatro anos antes da venda da companhia, quando completava seis anos desde a fundação da sua scaleup em São Paulo, Lucas vivia uma contradição em"
+  },
+  {
+    "id": "4334",
+    "vol": "9",
+    "code": "E6",
+    "from": "Lucas vivia uma situação esquizofrênica que quase ninguém de fora acreditava",
+    "to": "Lucas vivia uma contradição em que quase ninguém de fora acreditava"
+  },
+  {
+    "id": "4335",
+    "vol": "9",
+    "code": "N1",
+    "from": "A verdade que o mercado de Venture Capital aprendeu na prática é que **um fundador com sete anos de trincheira",
+    "to": "A experiência acumulada pelo mercado de Venture Capital mostra um padrão claro: quando um fundador passa sete anos construindo um ativo valioso mas continua com a vida financeira familiar estrangulada em casa, ele tende a rejeitar apostas de crescimento ou a vender a empresa inteira cedo demais"
+  },
+  {
+    "id": "4336",
+    "vol": "9",
+    "code": "E10",
+    "from": "> [!important] O Paradoxo \"Rico no Papel, Pobre no Banco\"",
+    "to": "> [!important] A Assimetria de Risco Entre o Fundador e o Fundo de Venture Capital"
+  },
+  {
+    "id": "4338",
+    "vol": "9",
+    "code": "C5",
+    "from": "2. Paga o preço (líquido de IR",
+    "to": "2. Paga o preço acordado (com DARF de ganho de capital apurado e recolhido pelo vendedor PF residente, ou retido na fonte se o vendedor residir no exterior"
+  },
+  {
+    "id": "4339",
+    "vol": "9",
+    "code": "C3",
+    "from": "**2. *Tender Offer* Estruturada (Oferta Pública Interna de Recompra)**",
+    "to": "**2. Janela Organizada de Liquidez (*Tender Offer* Privada)** (observando, quando houver recompra pela própria S.A., o limite legal de utilização exclusiva de reservas de lucros ou capital disponíveis sem redução do capital social, nos termos do art. 30, § 1º, *b* da Lei 6.404/1976, e evitando qualquer característica de oferta pública sem registro na CVM)"
+  },
+  {
+    "id": "4340",
+    "vol": "9",
+    "code": "C5",
+    "from": "o mercado institucional aceita com naturalidade que um fundador venda **entre 10% e 20% da sua própria participação societária**",
+    "to": "o mercado institucional aceita com naturalidade que um fundador realize **entre 5% e 15% da sua própria fatia societária** (desde que o volume secundário total não ultrapasse **10% a 20% do cheque global** da rodada Série B ou C)"
+  },
+  {
+    "id": "4341",
+    "vol": "9",
+    "code": "C3",
+    "from": "como Spectra Investments, Jera Capital, fundos de *Growth* do BTG/XP/Itaú e plataformas globais",
+    "to": "como gestoras locais que atuam em transações secundárias e *late stage* no Brasil (a exemplo da **Spectra Investments** e da **Jera Capital**, além de fundos de *Growth Equity* de casas como BTG Pactual, XP e Itaú) e, para companhias que já possuem *holding* no exterior e escala internacional, fundos globais de secundários (como Lexington Partners e StepStone)"
+  },
+  {
+    "id": "4343",
+    "vol": "9",
+    "code": "C3",
+    "from": "a Receita Federal e o CARF frequentemente autuam a operação",
+    "to": "a Receita Federal costuma autuar a operação (e o CARF historicamente manteve autuações em planos sem risco mercantil) como **remuneração trabalhista disfarçada**, exigindo **IRPF de até 27,5%, contribuição previdenciária patronal (~20% + RAT/Terceiros, chegando a ~28%) e FGTS de 8% com reflexos trabalhistas**"
+  },
+  {
+    "id": "4344",
+    "vol": "9",
+    "code": "N4",
+    "from": "você sabe que realizar até 10% da sua posição acionária na própria rodada é visto pelos melhores fundos globais como higiene saudável",
+    "to": "se um investidor da próxima rodada oferecesse comprar hoje **5% a 15% das suas ações** em uma parcela secundária, você já calculou qual valor líquido resolveria a segurança financeira da sua família pelos próximos cinco anos e já alinhou essa regra com o seu conselho"
+  },
+  {
+    "id": "4345",
+    "vol": "9",
+    "code": "N5",
+    "from": "Antes de abrir uma rodada de crescimento Série B ou C, alinhe previamente com os líderes do seu Conselho",
+    "to": "Calcule hoje em uma planilha qual percentual do seu patrimônio líquido familiar está concentrado nas ações da empresa e qual valor líquido em reais quitaria a moradia da família e três anos de custo de vida doméstico, levando esse parâmetro para alinhamento prévio com o conselho antes da próxima janela de captação."
+  },
+  {
+    "id": "4346",
+    "vol": "9",
+    "code": "C1",
+    "from": "quando o *lock-up* venceu, a alta global de juros havia derretido as cotações em 65%",
+    "to": "quando o período de trava de venda (*lock-up* de 180 dias) venceu, a virada global dos juros entre 2021 e 2022 havia derrubado as ações de grande parte da safra de tecnologia listada na B3 em 50% a 80% abaixo do preço de estreia"
+  },
+  {
+    "id": "4348",
+    "vol": "9",
+    "code": "S4",
+    "from": "M&A (fusões e aquisições) como caminho de exit está na Fase 16 e no",
+    "to": "A venda estratégica (M&A) como caminho de saída está detalhada na **Fase 20 deste volume**, enquanto a perspectiva oposta (quando o fundador atua como comprador de outras empresas) está no"
+  },
+  {
+    "id": "4349",
+    "vol": "9",
+    "code": "E9",
+    "from": "### Fim do Romantismo: Por Que o IPO É uma Ferramenta de Financiamento e Moeda de Aquisição, Nunca o Aposentadoria do Fundador",
+    "to": "### Fim do Romantismo: Por Que o IPO É uma Ferramenta de Financiamento e Moeda de Aquisição, Nunca a Aposentadoria do Fundador"
+  },
+  {
+    "id": "4350",
+    "vol": "9",
+    "code": "C6",
+    "from": "O regulatório (CVM, B3) tem requisitos mínimos.",
+    "to": "No Brasil, o arcabouço regulatório da abertura de capital é regido pela **Resolução CVM 80/2022** (registro de emissor de valores mobiliários nas Categorias A ou B) e pela **Resolução CVM 160/2022** (rito das ofertas públicas de distribuição), combinadas aos segmentos especiais de listagem da **B3** (**Novo Mercado**, que exige exclusivamente ações ordinárias ON, **Nível 2** e o segmento de acesso **Bovespa Mais**, voltado à preparação gradual de médias empresas)."
+  },
+  {
+    "id": "4351",
+    "vol": "9",
+    "code": "C2",
+    "from": "Board com mínimo 20% de conselheiros independentes (mínimo 5 membros)",
+    "to": "Conselho de Administração com no mínimo **20% de conselheiros independentes ou pelo menos 2 conselheiros independentes, o que for maior** (conforme o Regulamento do Novo Mercado da B3 vigente desde 2018), além de vedação ao acúmulo dos cargos de presidente do conselho e CEO, instalação de Comitê de Auditoria (estatutário ou não estatutário), área de auditoria interna e funções de *compliance* e controles internos"
+  },
+  {
+    "id": "4352",
+    "vol": "9",
+    "code": "C3",
+    "from": "Governança corporativa já funcionando (board independente, comitê de auditoria)",
+    "to": "Previsibilidade comercial comprovada (histórico de entrega consistente das projeções trimestrais aos investidores privados, com governança de conselho e comitê de auditoria já operando em ritmo de companhia aberta antes do pedido de registro)"
+  },
+  {
+    "id": "4353",
+    "vol": "9",
+    "code": "C2",
+    "from": "2020 e 2021 foram anos excepcionais. De 2022 a 2024, a janela ficou praticamente fechada.",
+    "to": "2020 e 2021 tiveram janela histórica de liquidez na B3 (com 28 e 46 IPOs realizados, respectivamente). Já entre 2022 e 2025, com a Selic em dois dígitos, a janela de ofertas iniciais de ações na bolsa brasileira permaneceu praticamente fechada, comprovando que o mercado de capitais é profundamente cíclico."
+  },
+  {
+    "id": "4354",
+    "vol": "9",
+    "code": "N9",
+    "from": "### A Maratona Silenciosa de 24 Meses Antes do Sino: Controles Internos (SOX), Governança de Novo Mercado e RI",
+    "to": "### Os 24 Meses Antes do Sino: Auditoria Independente, Controles Internos (FRE/CVM e SOX nos EUA), Governança de Novo Mercado e RI\n\n> **Diferença regulatória entre Brasil e Estados Unidos:** Em uma listagem exclusiva na B3 (sob a Resolução CVM 80/2022 e o Novo Mercado), a companhia deve estruturar controles internos auditáveis, gestão de riscos e Comitê de Auditoria descritos no **Formulário de Referência (FRE)**; já a certificação formal da **Lei Sarbanes-Oxley (SOX, Seções 302 e 404)** é exigência legal específica para companhias que listam ações ou ADRs nas bolsas americanas (NYSE ou Nasdaq) perante a SEC."
+  },
+  {
+    "id": "4355",
+    "vol": "9",
+    "code": "S4",
+    "from": "#### Fase 1 — Decisão e estruturação (meses 1–6)",
+    "to": "#### Etapa 1: Decisão e estruturação (meses 1 a 6)"
+  },
+  {
+    "id": "4357",
+    "vol": "9",
+    "code": "C5",
+    "from": "| **Total estimado para IPO de R$ 500M** | **R$ 25–40M** |",
+    "to": "| **Total estimado para IPO de R$ 500M** | **R$ 26M a R$ 50M (cerca de 5% a 10% da oferta)** |"
+  },
+  {
+    "id": "4358",
+    "vol": "9",
+    "code": "C3",
+    "from": "CEO de empresa pública passa 20–30% do tempo em atividades de IR",
+    "to": "O CEO de uma **companhia aberta** dedica de 20% a 30% da sua agenda anual às rotinas de Relações com Investidores (RI)"
+  },
+  {
+    "id": "4359",
+    "vol": "9",
+    "code": "C6",
+    "from": "necessidade de plan 10b5-1 (ou equivalente brasileiro)",
+    "to": "necessidade de formalizar **Plano Individual de Investimento ou Desinvestimento** nos termos do art. 16 da **Resolução CVM 44/2021** (o equivalente brasileiro do *Rule 10b5-1 plan* americano, que exige antecedência mínima de três meses antes da primeira negociação e cronograma pré-fixado irrevogável)"
+  },
+  {
+    "id": "4360",
+    "vol": "9",
+    "code": "N9",
+    "from": "### Rotas Alternativas: Listagem nos EUA (Nasdaq/NYSE), Registro Categoria B (Dívida), M&A Estratégico ou Private Equity",
+    "to": "### Comparativo de Rotas de Capital e Liquidez: IPO na B3, IPO nos EUA (Nasdaq/NYSE), M&A Estratégico e Private Equity\n\nQuando uma empresa brasileira de tecnologia atinge escala de centenas de milhões de reais de receita mas a janela doméstica da B3 está fechada, quatro alternativas estratégicas entram na mesa do conselho:\n\n1. **IPO Internacional nos Estados Unidos (Nasdaq ou NYSE via Form F-1):** exige constituir *holding* estrangeira (tipicamente em Cayman ou Delaware), converter balanços para normas PCAOB, suportar custos anuais em dólar de seguro D&O e conformidade **SOX (Seção 404)** e apresentar escala que atraia cobertura de analistas americanos (em regra, ARR acima de US$ 100 milhões a US$ 150 milhões).\n2. **Registro de Emissor Categoria B na CVM (Dívida no Mercado de Capitais):** permite captar recursos via emissão de debêntures, notas comerciais ou FIDC/CRI/CRA sem emitir ações, financiando expansão ou aquisições com menor custo regulatório que o IPO de ações.\n3. **Venda de Controle ou Fusão Estratégica (M&A) e Rodada de *Private Equity*:** alternativas que oferecem precificação privada negociada diretamente na mesa, sem desconto de liquidez de bolsa e sem a exposição trimestral de companhia aberta."
+  },
+  {
+    "id": "4362",
+    "vol": "9",
+    "code": "C5",
+    "from": "| Liquidez necessária | Parcial (lock-up 180 dias) | Total (closing em 3–6 meses) |",
+    "to": "| Liquidez imediata para os sócios | Parcial (sujeita a *lock-up* de 180 dias e janelas de venda) | Alta no fechamento (tipicamente 60% a 80% à vista, com 20% a 40% em *escrow* e *earn-out* por 1 a 3 anos) |"
+  },
+  {
+    "id": "4364",
+    "vol": "9",
+    "code": "C5",
+    "from": "Quando ele perguntou ao tributarista se ainda dava tempo de transferir as quotas para uma holding patrimonial ou estrutura internacional para diferir ou otimizar o imposto antes do fechamento",
+    "to": "Quando ele perguntou ao tributarista se havia como evitar que a Receita cobrasse imposto imediato sobre a parcela de R$ 25 milhões de *earn-out* incerto que fora redigida na minuta como simples venda a prazo, ou como comprovar R$ 6 milhões de aportes antigos feitos sem registro contábil para abater da base de cálculo"
+  },
+  {
+    "id": "4367",
+    "vol": "9",
+    "code": "E4",
+    "from": "A verdade que separa o fundador que preserva fortuna geracional do fundador que entrega uma fatia desnecessária do trabalho da sua vida ao fisco é que",
+    "to": "A diferença líquida entre o fundador que preserva o capital construído ao longo de uma década e o fundador que perde milhões em autuações evitáveis na venda da empresa resume-se à **Janela de Antecedência Tributária**:"
+  },
+  {
+    "id": "4368",
+    "vol": "9",
+    "code": "C3",
+    "from": "pode chegar às mãos com R$ 35 a 40M, ou com R$ 45 a 48M, conforme decisões de estrutura tomadas anos antes da venda",
+    "to": "pode receber líquidos cerca de **R$ 39,9 milhões** (vendendo diretamente na pessoa física pela tabela progressiva de 15% a 22,5% da Lei 13.259/2016 e aplicando o dinheiro com diferimento em fundo fechado), ou encolher para **R$ 33 milhões** se cometer o erro de vender as quotas operacionais por dentro de uma holding patrimonial brasileira tributada em 34% de IRPJ/CSLL"
+  },
+  {
+    "id": "4374",
+    "vol": "9",
+    "code": "C2",
+    "from": "Países com tributação favorável para ganho de capital incluem Portugal (NHR), Emirados Árabes (0%), Estados Unidos (depende da estrutura), entre outros.",
+    "to": "Jurisdições frequentemente analisadas em planejamentos patrimoniais com mudança efetiva e definitiva de residência fiscal incluem **Emirados Árabes Unidos** (0% de imposto sobre ganho de capital para pessoas físicas), **Uruguai** (regime de férias fiscais temporárias para novos residentes sobre rendimentos de capital no exterior) e **Portugal** (por meio do novo regime **IFICI**, introduzido a partir de 2024 após o encerramento do antigo NHR, com requisitos estritos de atividade qualificada), lembrando que os **Estados Unidos tributam a renda e o ganho de capital global** de seus residentes fiscais."
+  },
+  {
+    "id": "4376",
+    "vol": "9",
+    "code": "C5",
+    "from": "A disputa está em aberto.",
+    "to": "Em **setembro de 2024**, no julgamento vinculante do **Tema 1.226 (Recursos Repetitivos)**, o **Superior Tribunal de Justiça (STJ)** pacificou que, nos planos de *stock options* de natureza estritamente mercantil (caracterizados por voluntariedade na adesão, onerosidade no preço de exercício e risco real de mercado assumido pelo beneficiário), **não incide IRPF no momento da outorga nem no momento do exercício das opções**, ocorrendo a tributação exclusivamente como **ganho de capital (15% a 22,5%) quando o beneficiário vender as ações com lucro**. Permanece essencial, contudo, estruturar o plano com onerosidade e risco reais (e acompanhar a jurisprudência previdenciária e a tramitação do Marco Legal do Stock Option), pois opções gratuitas ou sem risco continuam sendo autuadas como remuneração salarial."
+  },
+  {
+    "id": "4378",
+    "vol": "9",
+    "code": "E9",
+    "from": "Earnout e parcela do preco de venda condicionada a metas futuras (geralmente EBITDA, receita, ou retencao de clientes). E mecanismo comum em M&A brasileiro",
+    "to": "O **earn-out** é a parcela do preço de venda condicionada ao atingimento de metas futuras (geralmente receita recorrente, EBITDA ou retenção de clientes). É um mecanismo recorrente no M&A brasileiro, e o seu tratamento tributário muda radicalmente conforme a redação contratual e a estrutura do vendedor (pessoa física ou holding):"
+  },
+  {
+    "id": "4379",
+    "vol": "9",
+    "code": "C3",
+    "from": "o ganho liquido aproximado no closing tributa em torno de R$ 5,8 milhoes",
+    "to": "o imposto sobre o ganho de capital devido sobre os R$ 30 milhões recebidos no fechamento é de **R$ 5,625 milhões** (calculado pelas faixas progressivas da Lei 13.259/2016: 15% sobre os primeiros R$ 5 milhões = R$ 750 mil; 17,5% sobre a faixa de R$ 5 milhões a R$ 10 milhões = R$ 875 mil; e 20% sobre a faixa de R$ 10 milhões a R$ 30 milhões = R$ 4,0 milhões)"
+  },
+  {
+    "id": "4383",
+    "vol": "9",
+    "code": "E9",
+    "from": "> [!warning] Combinação tesoura cambial mais tributário",
+    "to": "> [!warning] O efeito combinado de variação cambial e tributação no fechamento"
+  },
+  {
+    "id": "4384",
+    "vol": "9",
+    "code": "C5",
+    "from": "já está constituído e operando com substância real há pelo menos 18 a 24 meses antes da primeira proposta de compra?",
+    "to": "já está constituído, documentado e operando com substância econômica real dentro da **Janela de Antecedência de 24 a 36 meses** antes da assinatura de qualquer proposta de compra?"
+  },
+  {
+    "id": "4386",
+    "vol": "9",
+    "code": "S4",
+    "from": "Complementa a Fase 16 (exit) com profundidade operacional sobre os doze a trinta e seis meses pós-deal.",
+    "to": "Complementa a **Fase 20 (Estratégia de Saída)** aprofundando a realidade operacional, contratual e emocional dos **12 a 36 meses seguintes ao fechamento da venda**."
+  },
+  {
+    "id": "4388",
+    "vol": "9",
+    "code": "S4",
+    "from": "Conecta a Fase 16 com os 12 a 36 meses seguintes ao closing (fechamento do deal).",
+    "to": "Conecta a assinatura do contrato de venda (**Fase 20**) aos 12 a 36 meses seguintes ao fechamento da operação."
+  },
+  {
+    "id": "4391",
+    "vol": "9",
+    "code": "C3",
+    "from": "Movile para Naspers/Prosus (vários deals ao longo dos anos com iFood, Sympla, outros)",
+    "to": "A consolidação do **iFood dentro do grupo Movile/Prosus** (culminando na aquisição pela Prosus, em agosto de 2022, dos 33% detidos pela Just Eat Takeaway por até 1,8 bilhão de euros, mantendo autonomia operacional da marca), a venda da **99 para a chinesa Didi Chuxing em janeiro de 2018** (em que os fundadores Ariel Lambrecht, Paulo Veras e Renato Freitas cumpriram a transição e partiram para novos ciclos empreendedores e de investimento) e a aquisição da **RD Station pela TOTVS em 2021** (estruturada com período planejado de transição dos fundadores na unidade de negócios)"
+  },
+  {
+    "id": "4393",
+    "vol": "9",
+    "code": "E9",
+    "from": "Cem-day check-in formal?",
+    "to": "revisão formal de 100 dias (*100-day check-in*) realizada com o patrocinador executivo da compradora?"
+  },
+  {
+    "id": "4405",
+    "vol": "9",
+    "code": "N7",
+    "from": "elas morrem de uma doença progressiva em cinco estágios que começa exatamente no auge do sucesso",
+    "to": "elas sucumbem a uma doença progressiva em cinco estágios que começa exatamente no topo do sucesso, com a **Arrogância Nascida do Êxito** (Estágio 1), a **Busca Indisciplinada por Mais** (Estágio 2) e a **Negação de Riscos e Perigos** (Estágio 3)"
+  },
+  {
+    "id": "4406",
+    "vol": "9",
+    "code": "S7",
+    "from": "BH cataloga casos individuais brasileiros em profundidade. Para a leitura por PADRAO transversal de fracasso (sete padroes destilados dos casos)",
+    "to": "Este capítulo analisa casos individuais brasileiros em profundidade. Para a leitura por padrão transversal de fracasso (os sete padrões recorrentes extraídos dos casos)"
+  },
+  {
+    "id": "4407",
+    "vol": "9",
+    "code": "E9",
+    "from": "Cada caso está estruturado em cinco seções. Contexto, quando, quem, mercado, tese original. Trajetória, marcos, números, eventos-chave.",
+    "to": "Cada estudo de caso está organizado em cinco partes: **Contexto** (quando nasceu, fundadores, mercado e tese original), **Trajetória** (marcos de escala, captações e eventos críticos), **Diagnóstico** (quais fundamentos operacionais ou financeiros romperam)"
+  },
+  {
+    "id": "4409",
+    "vol": "9",
+    "code": "S2",
+    "from": "**Lições transferíveis:**",
+    "to": "**O que levar para a sua empresa:**"
+  },
+  {
+    "id": "4413",
+    "vol": "9",
+    "code": "C3",
+    "from": "parte do controle do trio 3G Capital (Lemann, Telles, Sicupira) desde 1982",
+    "to": "tendo o trio de acionistas de referência Jorge Paulo Lemann, Marcel Telles e Carlos Alberto Sicupira no bloco de controle desde 1982 (posteriormente fundadores da 3G Capital em 2004). Em janeiro de 2023, a companhia divulgou fato relevante apontando \"inconsistências contábeis\" preliminares da ordem de R$ 20 bilhões em operações de risco sacado (*forfait*), posteriormente detalhadas pela investigação independente como fraude contábil de R$ 25,3 bilhões, levando a empresa à recuperação judicial com passivo total declarado superior a R$ 42 bilhões."
+  },
+  {
+    "id": "4416",
+    "vol": "9",
+    "code": "C5",
+    "from": "Apesar do pivot bem-sucedido para logística em 2013",
+    "to": "Apesar do pivô estratégico do modelo inicial de mensageria expressa para entregas de comércio eletrônico entre 2018 e 2019"
+  },
+  {
+    "id": "4417",
+    "vol": "9",
+    "code": "S4",
+    "from": "| 5. Mudança estrutural ignorada | Kekanto, reviews locais | [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16 (Vol. 6)]]-15 |",
+    "to": "| 5. Mudança estrutural ignorada | Kekanto, avaliações locais | [[#Por Que Todas as Vantagens Competitivas São Temporárias e Como Ler os Sinais Antecedentes de Saturação|Fase 19 (Vol. 9: Reinvenção e Segunda Curva)]] |"
+  },
+  {
+    "id": "4418",
+    "vol": "9",
+    "code": "C3",
+    "from": "**2022**: Rappi reduziu operação BR substancialmente, iFood consolidou liderança.",
+    "to": "**2022 a 2026**: em março de 2022, o **Uber Eats** encerrou seu serviço de entrega de restaurantes no Brasil, enquanto o iFood consolidou liderança acima de 80% do setor e a Rappi manteve operação; a partir de 2025, o mercado entrou em nova rodada de disputa com o retorno da 99Food e a chegada de novos competidores asiáticos."
+  },
+  {
+    "id": "4419",
+    "vol": "9",
+    "code": "S7",
+    "from": "Ebanx esta neste grupo por trajetoria de crescimento e exit potencial, mas o proprio texto descreve IPO adiado, demissoes e processos de exit em avaliacao.",
+    "to": "O **EBANX** consolidou-se como um dos casos brasileiros mais relevantes de infraestrutura de pagamentos *cross-border* em mercados emergentes (América Latina, África e Ásia), mantendo geração de caixa e expansão internacional mesmo após o fechamento da janela global de IPOs a partir de 2022."
+  },
+  {
+    "id": "4420",
+    "vol": "9",
+    "code": "E9",
+    "from": "Esses casos ainda estao se desenvolvendo e merecem post-mortem completo apenas quando o ciclo fechar. Aqui ficam como observacao em curso.",
+    "to": "Esses casos permanecem em evolução operacional e só permitirão uma análise histórica definitiva quando seus ciclos societários se encerrarem. Aqui entram como leitura de sinais de maturidade em tempo real."
+  },
+  {
+    "id": "4422",
+    "vol": "9",
+    "code": "C4",
+    "from": "**C2 Ventures**, reduzio significativamente operacoes em 2023-2024 sem comunicado publico de encerramento.",
+    "to": "**Ajustes silenciosos em portfólios de Venture Capital (2022 a 2024):** dezenas de startups que captaram rodadas Série A e Série B no pico de liquidez de 2021 reduziram substancialmente suas operações entre 2022 e 2024 para sobreviver com o próprio fluxo de caixa, sem comunicado público de encerramento."
+  },
+  {
+    "id": "4423",
+    "vol": "9",
+    "code": "E1",
+    "from": "Uber e Google não eram \"concorrentes diretos\", redefiniram categorias.",
+    "to": "Uber e Google Maps redefiniram a própria categoria tecnológica e o comportamento do usuário."
+  },
+  {
+    "id": "4425",
+    "vol": "9",
+    "code": "C5",
+    "from": "Dezoito meses depois de vender sua primeira startup com sucesso e cumprir o período de transição",
+    "to": "Quatro anos depois de vender sua primeira startup e concluir integralmente o período de transição e *earn-out* ao lado de Marina"
+  },
+  {
+    "id": "4426",
+    "vol": "9",
+    "code": "E9",
+    "from": "> Este capítulo trata especificamente do fundador que ja vendeu, fechou ou saiu de empresa anterior. Trilha de leitura adjacente,",
+    "to": "> Este capítulo trata especificamente do fundador que já vendeu, encerrou ou saiu da sua primeira empresa. Leituras complementares neste volume:"
+  },
+  {
+    "id": "4428",
+    "vol": "9",
+    "code": "C1",
+    "from": "Second-time founders (fundadores em segunda empreitada) têm taxa de sucesso maior em média. Mas não automática.",
+    "to": "Empreendedores de segunda viagem que já obtiveram sucesso anterior apresentam probabilidade estatística superior de acertar novamente (no estudo clássico de Gompers, Kovner, Lerner e Scharfstein na *Journal of Financial Economics*, 2010, fundadores com sucesso prévio tiveram cerca de 30% de chance de sucesso na nova empresa financiada por VC, contra 18% de fundadores estreantes), mas essa vantagem está longe de ser automática."
+  },
+  {
+    "id": "4429",
+    "vol": "9",
+    "code": "E9",
+    "from": "Same story from zero.",
+    "to": "E o risco de queimar caixa antes de validar o ajuste produto-mercado recomeça do zero."
+  },
+  {
+    "id": "4430",
+    "vol": "9",
+    "code": "S7",
+    "from": "> ### RECOMENDAÇÕES",
+    "to": "### Sete Regras de Disciplina Para a Segunda Empresa\n\n**1. Valide o problema com humildade de iniciante:** não substitua entrevistas reais com clientes pelo prestígio do seu currículo."
+  },
+  {
+    "id": "4431",
+    "vol": "9",
+    "code": "E9",
+    "from": "Se veterano, mais novato, formalizar equity significantly unequal (reflete experiência trazida).",
+    "to": "Se a nova sociedade une um fundador veterano e um cofundador de primeira viagem, formalize desde o primeiro dia uma divisão societária proporcional ao capital, repertório e risco aportados por cada um, com acordo escrito sobre ritmo de trabalho e alçadas."
+  },
+  {
+    "id": "4432",
+    "vol": "9",
+    "code": "E9",
+    "from": "Even more importante que primeira vez. Veterano com tudo nas mãos sem contrapeso, igual a decisões ruins.",
+    "to": "Mais importante ainda do que na primeira jornada: um fundador veterano cercado apenas de subordinados que nunca o contrariam toma decisões cegas se não tiver um conselho com vozes independentes capazes de vetar exageros."
+  },
+  {
+    "id": "4433",
+    "vol": "9",
+    "code": "E9",
+    "from": "Vesting next empresa. Quatro anos. Cliff um ano.",
+    "to": "Na nova empresa, aplique cláusula de *vesting* de quatro anos com *cliff* de um ano para absolutamente todos os sócios operacionais, inclusive para o fundador veterano."
+  },
+  {
+    "id": "4435",
+    "vol": "9",
+    "code": "E9",
+    "from": "### O Espelho da Segunda Viagem: Você Ainda Tem Fome Para Comer Vidro porMais Sete Anos ou Só Quer o Status de Ser CEO de Novo?",
+    "to": "### O Espelho da Segunda Viagem: Você Ainda Tem Fome Para Comer Vidro por Mais Sete Anos ou Só Quer o Status de Ser CEO de Novo?"
+  },
+  {
+    "id": "4436",
+    "vol": "9",
+    "code": "C5",
+    "from": "sua empresa detinha 100% do *cap table* nas mãos da família e dos diretores-chave (via *Phantom Shares*)",
+    "to": "o controle societário seguia integralmente nas mãos da família (com os 180 investidores da rodada antiga de *crowdfunding* reunidos em uma participação minoritária limpa via veículo dedicado e os diretores-chave alinhados por contrato de *Phantom Shares*, que paga bônus em dinheiro atrelado ao resultado sem diluir o quadro societário)"
+  },
+  {
+    "id": "4437",
+    "vol": "9",
+    "code": "C3",
+    "from": "sua empresa detinha 100% do *cap table* nas mãos da família e dos diretores-chave (via *Phantom Shares*)",
+    "to": "o controle societário seguia integralmente nas mãos da família (com os 180 investidores da rodada antiga de *crowdfunding* reunidos em uma participação minoritária limpa via veículo dedicado e os diretores-chave alinhados por contrato de *Phantom Shares*, que paga bônus em dinheiro atrelado ao resultado sem diluir o quadro societário)"
+  },
+  {
+    "id": "4439",
+    "vol": "9",
+    "code": "C7",
+    "from": "Se a empresa gera R$ 10M de dividendos, um CEO com 5% recebe R$ 500 mil/ano direto do resultado, pensando exatamente como dono.",
+    "to": "Se a empresa distribui R$ 10 milhões de lucro, um CEO com direito contratual equivalente a 5% recebe R$ 500 mil no ano atrelados diretamente à geração de caixa, pensando como dono (atenção tributária: como pagamentos em dinheiro via *Phantom Dividends* a diretores empregados sofrem incidência de IRPF até 27,5% e encargos previdenciários se pagos fora das regras da Lei 10.101/2000, estruture o incentivo como **PLR formal homologada com metas prévias** ou mediante **ações/quotas preferenciais restritas sem direito a voto**, conforme detalhado no Volume 6)."
+  },
+  {
+    "id": "4441",
+    "vol": "9",
+    "code": "C5",
+    "from": "Estacione 100% do capital em liquidez soberana máxima (**Tesouro Selic / IPCA+** no Brasil e **US Treasury Bills** nos EUA)",
+    "to": "Estacione 100% do capital líquido recebido em títulos soberanos de liquidez diária e pós-fixada sem risco de marcação a mercado (**Tesouro Selic / LFT** no Brasil e **US Treasury Bills de 1 a 3 meses** nos EUA)"
+  },
+  {
+    "id": "4442",
+    "vol": "9",
+    "code": "C2",
+    "from": "na Holding no **Lucro Presumido** a locação paga **11,33% a 14,53%** de tributos federais",
+    "to": "na Holding no **Lucro Presumido** a locação sofre incidência de **11,33% a 14,53%** de tributos corporativos federais (IRPJ, CSLL, PIS e COFINS), devendo-se somar na conta de viabilidade a **tributação sobre a distribuição de dividendos à pessoa física acima dos limites mensais vigentes a partir de 2026** e o regime específico de **IBS e CBS com redutor de alíquota sobre locação e alienação de imóveis (LC 214/2025)**"
+  },
+  {
+    "id": "4443",
+    "vol": "9",
+    "code": "C3",
+    "from": "(> 50% da receita nos 2 anos anteriores ou 3 anos seguintes)",
+    "to": "(mais de 50% da receita operacional nos 2 anos anteriores e nos 2 anos seguintes à aquisição, ou nos 3 primeiros anos seguintes caso a pessoa jurídica inicie suas atividades após a aquisição, nos termos do art. 37, §§ 1º e 2º do CTN, atento ainda ao fato de que, após o Tema 796 do STF, diversos municípios exigem ITBI sobre a diferença entre o valor venal de mercado e o valor histórico declarado no IRPF)"
+  },
+  {
+    "id": "4444",
+    "vol": "9",
+    "code": "C3",
+    "from": "(*US Situs Assets*, como ações da NYSE/Nasdaq ou T-Bills)",
+    "to": "(*US Situs Assets*, como ações de empresas americanas listadas na NYSE/Nasdaq, ETFs domiciliados nos EUA ou imóveis em território americano)"
+  },
+  {
+    "id": "4445",
+    "vol": "9",
+    "code": "C3",
+    "from": "manter **isenta a variação cambial do capital social investido**",
+    "to": "registrar os lucros no balanço anual da controlada com tributação de 15% na Declaração de Ajuste Anual (observando que, nos termos da **Lei 14.754/2023 e da IN RFB 2.180/2024**, a variação cambial positiva do principal aportado passa a compor o ganho de capital tributável no momento da devolução/redução de capital ou resgate de ações da *offshore*, conforme detalhado no Capítulo 17)"
+  },
+  {
+    "id": "4446",
+    "vol": "9",
+    "code": "C7",
+    "from": "no falecimento, o usufruto se extingue automaticamente na Junta Comercial sem inventário das quotas",
+    "to": "no falecimento, o usufruto vitalício extingue-se e consolida a propriedade plena nos filhos sem necessidade de incluir aquelas quotas no inventário judicial (observadas quatro cautelas jurídicas obrigatórias: o recolhimento do **ITCMD** devido na doação da nua-propriedade e, conforme a lei estadual aplicável, na extinção do usufruto; o respeito à **legítima de 50% dos herdeiros necessários** prevista no art. 1.846 do Código Civil com expressa cláusula de dispensa de colação quando sair da parte disponível; a exigência de **justa causa expressa** para as cláusulas de incomunicabilidade, impenhorabilidade e inalienabilidade sobre a legítima, conforme o art. 1.848 do CC; e a possibilidade atual de lavrar inventário e partilha extrajudicial em cartório mesmo com herdeiros menores ou incapazes, desde que consensual e com parecer favorável do Ministério Público, nos termos da **Resolução CNJ 571/2024**)"
+  },
+  {
+    "id": "4447",
+    "vol": "9",
+    "code": "C3",
+    "from": "(atingindo a alíquota máxima de **8%** para grandes patrimônios, inclusive em estados que antes aplicavam alíquota fixa de 4%",
+    "to": "(obrigando todos os estados brasileiros a instituir alíquotas progressivas em razão do valor do quinhão ou doação, respeitado o teto nacional atual de **8%** conforme a escala fixada na lei de cada estado, além de prever a incidência sobre bens no exterior e observar a tese fixada pelo **STF no Tema 1.214**, que declarou inconstitucional a cobrança de ITCMD sobre o repasse de **VGBL e seguro de vida** aos beneficiários na sucessão por morte, ressalvadas as regras complementares da LC 214/2025 para aportes de curto prazo"
+  },
+  {
+    "id": "4448",
+    "vol": "9",
+    "code": "S1",
+    "from": "# ENCERRAMENTO DA JORNADA EMPREENDEDORA",
+    "to": "# ENCERRAMENTO DA JORNADA EMPREENDEDORA\n\n> **Síntese de fechamento da coleção:** Este epílogo reúne a travessia completa dos cinco arquétipos ao longo dos nove volumes de execução e entrega o espelho final do fundador brasileiro."
+  },
+  {
+    "id": "4449",
+    "vol": "9",
+    "code": "N3",
+    "from": "eles eram dois engenheiros com uma hipótese rabiscada no caderno",
+    "to": "eles eram um engenheiro de software e uma vendedora nata com uma hipótese rabiscada no caderno"
+  },
+  {
+    "id": "4450",
+    "vol": "9",
+    "code": "C5",
+    "from": "vimos um casal atravessar o inverno mais duro de liquidez",
+    "to": "vimos dois sócios atravessarem o inverno mais duro de liquidez"
+  },
+  {
+    "id": "4451",
+    "vol": "9",
+    "code": "N3",
+    "from": "ela carregava nas costas o peso solitário de cada plantão e de cada boleto da primeira clínica",
+    "to": "ela carregava nas costas o peso solitário de cada cadeira de atendimento odontológico e de cada boleto da primeira clínica"
+  },
+  {
+    "id": "4452",
+    "vol": "9",
+    "code": "N3",
+    "from": "eles eram dois engenheiros com uma hipótese rabiscada no caderno",
+    "to": "eles eram um engenheiro de software e uma vendedora nata com uma hipótese rabiscada no caderno"
+  },
+  {
+    "id": "4453",
+    "vol": "9",
+    "code": "N3",
+    "from": "vimos um casal atravessar o inverno mais duro de liquidez",
+    "to": "vimos dois sócios atravessarem o inverno mais duro de liquidez"
+  },
+  {
+    "id": "4454",
+    "vol": "9",
+    "code": "E6",
+    "from": "Empreender no Brasil é escolher todos os dias **A Ética do Construtor na Trincheira**",
+    "to": "Empreender no Brasil é escolher todos os dias **O Ofício do Construtor que Não Apaga**:"
+  },
+  {
+    "id": "4455",
+    "vol": "9",
+    "code": "C5",
+    "from": "Se você é o leitor pretendido, ou seja, eu mesmo, relendo em algum momento futuro da minha trajetória, as quase 500 mil palavras aqui reunidas",
+    "to": "Esta coleção foi escrita para acompanhar você, fundador ou fundadora brasileira, ao longo de uma travessia longa, íngreme, frequentemente solitária e sempre mais exigente do que quem nunca assinou uma folha de pagamento imagina. O mais de um milhão de palavras reunido nestes dez volumes"
+  },
+  {
+    "id": "4456",
+    "vol": "9",
+    "code": "E11",
+    "from": "**Sobre métodos e enciclopédias.** Tudo que está aqui é modelo, e todo modelo é simplificação da realidade. Nenhum verbete deste livro",
+    "to": "**Sobre métodos e modelos.** Tudo o que está nestas páginas é ferramenta de decisão, e toda ferramenta precisa ser calibrada para a realidade do seu caixa e do seu setor. Nenhum capítulo desta coleção"
+  },
+  {
+    "id": "4457",
+    "vol": "9",
+    "code": "S7",
+    "from": "*Compilado em abril de 2026 para uso pessoal do autor.",
+    "to": "*IGNIÇÃO 5.0 (Edição Narrativa, abril de 2026). Obra de referência prática para fundadores e operadores brasileiros; não substitui aconselhamento jurídico, contábil ou tributário personalizado."
+  },
+  {
+    "id": "4458",
+    "vol": "9",
+    "code": "S6",
+    "from": "Ao fechar este nono volume da jornada operacional e antes de consultar os playbooks setoriais do Volume 10",
+    "to": "Ao concluir este nono volume da jornada operacional e antes de consultar os *playbooks* setoriais e o glossário do Volume 10, guarde consigo estas três perguntas para toda a sua vida de construtor:"
+  }
+]

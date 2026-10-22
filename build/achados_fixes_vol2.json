@@ -1,0 +1,1647 @@
+[
+  {
+    "id": "555",
+    "vol": "2",
+    "code": "N3",
+    "from": "Era o sétimo diretor de operações que elogiava o protótipo em slides do sistema de roteirização inteligente",
+    "to": "Era o sétimo diretor financeiro que elogiava o protótipo em slides do sistema de conciliação automática de boletos"
+  },
+  {
+    "id": "557",
+    "vol": "2",
+    "code": "E5",
+    "from": "Por que clientes inteligentes mentem na sua cara com um sorriso no rosto? Porque no Brasil dizer",
+    "to": "Clientes inteligentes mentem com um sorriso porque, no Brasil, dizer"
+  },
+  {
+    "id": "558",
+    "vol": "2",
+    "code": "E1",
+    "from": "Existe uma verdade contraintuitiva que separa fundadores amadores de construtores de negócios reais: se você mencionar a sua ideia durante uma entrevista de descoberta, você acabou de contaminar o laboratório. Clientes não sabem projetar o que vão comprar no futuro, mas nunca mentem sobre onde sangraram dinheiro, tempo ou reputação na terça-feira passada. A Fase 4 não existe para validar que você é genial; existe para provar que a dor do cliente já tem orçamento, urgência e dono antes de você escrever a primeira linha de código.",
+    "to": "Se você mencionar a sua ideia durante uma entrevista de descoberta, acabou de contaminar o laboratório. Clientes não sabem projetar o que vão comprar no futuro, mas nunca mentem sobre onde perderam dinheiro, tempo ou reputação na terça-feira passada. A Fase 4 serve para provar que a dor do cliente já tem orçamento, urgência e dono antes da primeira linha de código."
+  },
+  {
+    "id": "559",
+    "vol": "2",
+    "code": "C5",
+    "from": "> [!info] Stack mínimo da Fase 3",
+    "to": "> [!info] Stack mínimo da Fase 4"
+  },
+  {
+    "id": "560",
+    "vol": "2",
+    "code": "C2",
+    "from": "transcrição automática via Whisper (OpenAI) ou Loom (gratuito para uso moderado)",
+    "to": "transcrição nativa do Google Meet ou do Zoom, Whisper (OpenAI) ou Fireflies (em plano gratuito para uso moderado)"
+  },
+  {
+    "id": "562",
+    "vol": "2",
+    "code": "N9",
+    "from": "### Por que perguntar \"você compraria?\" garante que o cliente minta para você",
+    "to": "### Por que a descoberta vem antes do código (e por que \"você compraria?\" induz mentira)\n\nPerguntar \"você compraria?\" convida o entrevistado a fazer uma promessa futura que não lhe custa nada no presente: elogiar uma ideia hipotética evita o constrangimento social de dizer não, enquanto relatar quanto dinheiro e tempo já foram gastos na última semana exige fatos verificáveis."
+  },
+  {
+    "id": "563",
+    "vol": "2",
+    "code": "N6",
+    "from": "As seis dimensões do framework YC (popular, crescente, urgente, caro, obrigatório, frequente) ficam absorvidas como checklist auxiliar dentro do Filtro 1 (heartfelt)",
+    "to": "Na prática, concentre-se na escala de Pain Level como instrumento central de triagem e no Teste de Prioridade como filtro de fechamento antes de avançar"
+  },
+  {
+    "id": "564",
+    "vol": "2",
+    "code": "C5",
+    "from": "Se três ou mais características falham, o problema não é heartfelt. É \"interessante\". Interessante não gera negócio. Heartfelt sim. Teste cada característica com dados reais de entrevistas (entrevistas, observação, dados). Nunca com \"acho que sim\".",
+    "to": "Para passar no filtro, o problema precisa atender a pelo menos quatro das cinco características, sendo obrigatório que seja Doloroso. Caso contrário, é apenas um tema curioso, que rende boa conversa mas não sustenta um negócio. Teste cada característica com entrevistas e observação direta, nunca com \"acho que sim\"."
+  },
+  {
+    "id": "565",
+    "vol": "2",
+    "code": "C5",
+    "from": "Emocional. O problema carrega emoção negativa: frustração, ansiedade, vergonha, medo. Sem emoção, não há urgência de ação.",
+    "to": "Real e Doloroso (alinhado aos cinco critérios do diagrama: Real, Frequente, Doloroso, Reconhecido e Valorado). O problema provoca perda concreta de tempo, dinheiro ou reputação e carrega frustração visível; sem dor reconhecida e valorada, não há urgência para sair da inércia."
+  },
+  {
+    "id": "566",
+    "vol": "2",
+    "code": "N7",
+    "from": "#### Filtro 2, a analogia topológica (poço profundo versus poço largo)",
+    "to": "#### Filtro 2: poço fundo ou poço largo (Paul Graham, 2012)"
+  },
+  {
+    "id": "567",
+    "vol": "2",
+    "code": "E3",
+    "from": "#### Corolário crítico, clientes desesperados e produtos imperfeitos",
+    "to": "#### Corolário: cliente desesperado aceita produto imperfeito"
+  },
+  {
+    "id": "568",
+    "vol": "2",
+    "code": "E2",
+    "from": "O inconsciente nem deixa a ideia chegar à consciência. \"Isso não é um problema de startup.\" É exatamente aí que moram as oportunidades mais valiosas. Porque ninguém quer pegá-las.",
+    "to": "A mente descarta a ideia antes mesmo de ela chegar à consciência, com o rótulo de que aquilo não é problema de startup. Como quase ninguém quer assumir esse trabalho árduo, é justamente ali que se concentram as oportunidades mais valiosas."
+  },
+  {
+    "id": "569",
+    "vol": "2",
+    "code": "E10",
+    "from": "A lógica é econômica antes de ser poética. Se todo mundo quer evitar certa categoria de trabalho, quem se dispõe a fazer encontra mercado inteiro sem concorrência real. Concorrentes evitam problemas chatos por preguiça, ego, ou risco. Empreendedor que ataca deliberadamente problemas chatos frequentemente encontra menos competição, clientes mais leais (ninguém os atende bem), e margens melhores (ninguém quer o trabalho). Se o seu problema é \"sexy\" demais, fácil de vender em pitch, fácil de explicar em coquetel, desconfie. Provavelmente você está competindo com cinquenta outros fundadores na mesma fatia.",
+    "to": "A lógica é econômica antes de ser poética. Se todo mundo evita certa categoria de trabalho pesado, quem se dispõe a executá-la encontra um mercado inteiro com baixa concorrência. O empreendedor que ataca deliberadamente problemas operacionais árduos costuma encontrar menos competição, clientes mais leais (porque ninguém os atende bem) e margens melhores. Se o seu problema parece fácil demais de explicar num coquetel, desconfie: provavelmente você está disputando a mesma fatia com dezenas de outros fundadores."
+  },
+  {
+    "id": "570",
+    "vol": "2",
+    "code": "C2",
+    "from": "Stripe hoje vale mais de US$ 90 bilhões.",
+    "to": "A Stripe superou US$ 1 trilhão em volume anual processado e atingiu avaliação superior a US$ 70 bilhões em recompras privadas entre 2024 e 2025."
+  },
+  {
+    "id": "572",
+    "vol": "2",
+    "code": "C3",
+    "from": "Figma atacou design colaborativo na nuvem quando a Adobe dominava com software offline. Problema técnico schlep: reconstruir ferramenta profissional de design no navegador, com performance aceitável, parecia trabalho de anos sem recompensa evidente. Ninguém queria. Figma fez. Hoje é categoria.",
+    "to": "No Brasil, startups de conciliação fiscal e automação contábil como Arquivei e Contabilizei atacaram um schlep clássico que engenheiros evitavam: ler milhares de layouts municipais de notas fiscais, lidar com instabilidades da Receita Federal e traduzir obrigações acessórias. Era um trabalho árduo e sem glamour aparente, mas resolveu uma dor obrigatória de dezenas de milhares de empresas."
+  },
+  {
+    "id": "573",
+    "vol": "2",
+    "code": "N7",
+    "from": "É um diagnóstico operacional importado do programa da Antler.",
+    "to": "É um diagnóstico operacional direto deste livro, inspirado na triagem de pré-aceleração de fundos de semente."
+  },
+  {
+    "id": "575",
+    "vol": "2",
+    "code": "S6",
+    "from": "Após 5-10 entrevistas com a mesma persona, reúna PM + designer + customer success e preencha os seis quadrantes",
+    "to": "Após 5 a 10 entrevistas com a mesma persona (no Passo 7 de síntese), reúna os cofundadores e quem já atende o cliente para preencher os seis quadrantes"
+  },
+  {
+    "id": "577",
+    "vol": "2",
+    "code": "C1",
+    "from": "Classe C/D tende a minimizar problemas por norma social de não reclamar",
+    "to": "Em entrevistas de campo com públicos das classes C e D (como apontam levantamentos do Instituto Locomotiva e do Data Favela), o incômodo cotidiano pode vir minimizado por hábito; por isso, pergunte pelo impacto concreto no bolso e no tempo, não apenas se algo incomoda"
+  },
+  {
+    "id": "579",
+    "vol": "2",
+    "code": "C5",
+    "from": "A pergunta bônus, que discrimina Pain Level 4 de Pain Level 5: *o que faria você pagar um pequeno depósito hoje por uma solução para isso?*. Essa pergunta separa interessados genuínos (responde com condições concretas: \"se funcionasse com X, se custasse menos que Y\") de interessados ornamentais (responde vago: \"talvez, dependendo\"). Clientes em Pain Level 5 (orçamento comprometido) tendem a dar respostas específicas e acionáveis. Clientes em Pain Level 4 ou menos tendem a hesitar. Use no fim da entrevista, depois de ter mapeado dor em profundidade. Nunca no começo, porque fica leading.",
+    "to": "Para separar na prática o Pain Level 4 do Pain Level 5 sem recorrer a perguntas hipotéticas sobre disposição a pagar, investigue sinais indiretos de orçamento já comprometido: pergunte quanto a empresa já desembolsou nos últimos seis meses com consultorias, horas extras, ferramentas paliativas ou retrabalho para conter o problema, e quem assinou essa despesa. Clientes no Nível 5 citam valores, fornecedores e prazos reais; no Nível 4, mostram a gambiarra interna, mas ainda não destinaram verba específica. Faça essa sondagem de custo histórico no fim da conversa, nunca na abertura, para não induzir a resposta."
+  },
+  {
+    "id": "580",
+    "vol": "2",
+    "code": "E6",
+    "from": "> [!tip] Regra de ouro do entrevistador",
+    "to": "> [!tip] A pergunta final que revela onde está a alavanca"
+  },
+  {
+    "id": "581",
+    "vol": "2",
+    "code": "S6",
+    "from": "##### Pain Level, classifique cada entrevistado",
+    "to": "##### Escala de Pain Level (adaptada da régua de earlyvangelists de Steve Blank, *The Four Steps to the Epiphany*)"
+  },
+  {
+    "id": "582",
+    "vol": "2",
+    "code": "E11",
+    "from": "\"Você compraria um produto feito por crianças com deficiência?\"",
+    "to": "\"Você compraria um produto que doa parte da receita para uma ONG ambiental?\""
+  },
+  {
+    "id": "583",
+    "vol": "2",
+    "code": "E2",
+    "from": "Para cada entrevista, preencha um template padronizado. Nome, papel, empresa (quando aplicável), data. Verbatim, ou seja, citações literais dos momentos mais importantes, exatamente o que a pessoa disse, entre aspas. Problemas mencionados (não os que você interpretou, os que foram ditos). Soluções atuais utilizadas. Quanto tempo, dinheiro, ou energia a pessoa gasta hoje com o problema. Gatilhos emocionais observados (frustração, raiva, resignação). E as suas observações pessoais em itálico, claramente separadas dos fatos.",
+    "to": "Para cada entrevista, preencha a Parte B do Template de Entrevista de Problema com sete campos padronizados: (1) nome, papel, empresa e data; (2) citações literais (*verbatim*) entre aspas das frases mais reveladoras; (3) problemas efetivamente relatados pelo entrevistado; (4) soluções e gambiarras utilizadas hoje; (5) tempo e dinheiro gastos atualmente com o problema; (6) reações emocionais observadas (frustração, pressa, resignação); e (7) observações do entrevistador em itálico, separadas dos fatos."
+  },
+  {
+    "id": "585",
+    "vol": "2",
+    "code": "S3",
+    "from": "> [!note] A jornada do cliente é uma estrutura útil para organizar o que as entrevistas revelam",
+    "to": "> [!note] Registre nos templates dos Passos 6 e 7 a sequência cronológica das etapas que o entrevistado percorre hoje para contornar o problema"
+  },
+  {
+    "id": "586",
+    "vol": "2",
+    "code": "E9",
+    "from": "use ambos para reduzir auto-engano.",
+    "to": "use ambos para reduzir o autoengano (aplicando contramedidas numa escuta semiestruturada e relendo as notas sem filtro)."
+  },
+  {
+    "id": "588",
+    "vol": "2",
+    "code": "C5",
+    "from": "Para tornar o método concreto, este é o roteiro de entrevista de problema da mesma ideia trabalhada nas Fases 2 e 3.",
+    "to": "Para tornar o método concreto neste volume de forma autocontida, acompanhe o roteiro de entrevista de problema do **PadariaPro** (caso didático de um software B2B criado para reduzir desperdício de insumos e ruptura de estoque em pequenas redes de padarias artesanais em São Paulo, cuja hipótese inicial mirava estabelecimentos de duas a cinco lojas)."
+  },
+  {
+    "id": "589",
+    "vol": "2",
+    "code": "C5",
+    "from": "Se você pudesse acordar amanhã e ter uma coisa resolvida no negócio, seria essa, ou outra?",
+    "to": "Qual problema operacional mais tomou o seu tempo no mês passado, e como você controlou o estoque de insumos na última semana?"
+  },
+  {
+    "id": "590",
+    "vol": "2",
+    "code": "C5",
+    "from": "Padrão emergente: as padarias que sentem dor 8 ou mais são aquelas com três ou mais lojas. Abaixo disso, dor é 4-6 e pagar não é prioridade. ICP refinado para três a cinco lojas, não duas a cinco como hipótese original.",
+    "to": "Padrão emergente ao cruzar o número de lojas com a escala de Pain Level (1 a 5): as padarias em Pain Level 4 ou 5 (com gambiarra ativa em planilha e perda semanal documentada) são aquelas com três ou mais lojas. Nas operações de uma ou duas lojas, a dor fica em Pain Level 2 ou 3 e o dono resolve no olho. O ICP foi refinado para redes de três a cinco lojas, em vez de duas a cinco da hipótese inicial."
+  },
+  {
+    "id": "591",
+    "vol": "2",
+    "code": "C4",
+    "from": "tinha hipótese de que o principal cliente seria redes grandes de restaurantes. Era a aposta natural.",
+    "to": "partiu do modelo do Disk Cook (guia impresso e central telefônica de entregas criado nos anos 1990) e precisou descobrir em campo quais restaurantes tinham maior urgência para migrar para pedidos online (reconstrução ilustrativa da triagem comercial)."
+  },
+  {
+    "id": "594",
+    "vol": "2",
+    "code": "C1",
+    "from": "com gasto atual no problema acima de R$ 500/mês (B2C) ou R$ 5.000/mês (B2B) ou cinco horas semanais de tempo próprio",
+    "to": "com gasto atual no problema de pelo menos 1,5 vez o preço que você pretende cobrar (ou cinco horas semanais de trabalho do próprio decisor)"
+  },
+  {
+    "id": "596",
+    "vol": "2",
+    "code": "S4",
+    "from": "os padrões de fracasso documentados em empresas brasileiras mostram que a maioria das mortes por \"problema inexistente\" tinha sinais detectáveis nas entrevistas iniciais",
+    "to": "os casos analisados no Capítulo 4 deste volume (como Kekanto e startups de delivery vertical) e no catálogo de post-mortems mostram que vários negócios encerrados por falta de demanda tinham sinais claros de desinteresse já nas entrevistas iniciais"
+  },
+  {
+    "id": "597",
+    "vol": "2",
+    "code": "C5",
+    "from": "3. Criar tabela no Notion ou Google Sheets com colunas: nome, data, padrão de dor 1, padrão 2, padrão 3, solução atual, quanto pagaria.",
+    "to": "3. Criar tabela no Notion ou Google Sheets (após rodar as três entrevistas piloto do Passo 4) com as colunas: nome, data, padrão de dor 1, padrão 2, padrão 3, solução atual, quanto já gasta hoje (tempo ou dinheiro) e Pain Level (1 a 5)."
+  },
+  {
+    "id": "598",
+    "vol": "2",
+    "code": "N9",
+    "from": "### As 5 ciladas cognitivas que transformam entrevistas em sessões de massagem no ego",
+    "to": "### As oito ciladas que transformam entrevistas em sessões de massagem no ego"
+  },
+  {
+    "id": "599",
+    "vol": "2",
+    "code": "N4",
+    "from": "1. Nas suas últimas dez conversas com potenciais clientes, quantas vezes você falou da sua solução antes do minuto vinte e cinco?",
+    "to": "1. Nas suas últimas dez conversas com potenciais clientes, em quantas você falou da sua solução? (Chave de leitura: se falou em mais de duas, refaça o roteiro; se nenhum entrevistado tem gambiarra ativa ou orçamento alocado, volte ao Passo 1, como Marina fez ao perguntar a Lucas quantos diretores financeiros já pagavam para resolver a conciliação de boletos.)"
+  },
+  {
+    "id": "600",
+    "vol": "2",
+    "code": "N5",
+    "from": "Antes de abrir o editor de código ou o Figma, mande mensagem para cinco decisores do seu nicho com uma única pergunta: *\"Qual foi a maior dor de cabeça operacional que fez você perder dinheiro ou sono no mês passado?\"*",
+    "to": "Transforme a prospecção de descoberta em rotina semanal: toda segunda-feira, antes de mexer no produto ou na operação, mande mensagem para cinco decisores do seu nicho, deixe duas entrevistas agendadas na semana e anote o Pain Level de cada conversa no Mapa de Problemas, abrindo com uma única pergunta: *\"Qual foi a maior dor de cabeça operacional que fez você perder dinheiro ou sono no mês passado?\"*"
+  },
+  {
+    "id": "603",
+    "vol": "2",
+    "code": "C5",
+    "from": "> Mínimo 20 entrevistas com pelo menos 12 confirmando dor nível 8 ou mais, descrevendo comportamento atual, e dispostos a ser early adopters.",
+    "to": "> **Marco de saída da Fase 4:** mínimo de 15 a 20 entrevistas aderentes ao ICP, com pelo menos cinco entrevistados classificados em Pain Level 4 ou 5 (gambiarra ativa ou orçamento comprometido) descrevendo comportamento passado verificável."
+  },
+  {
+    "id": "604",
+    "vol": "2",
+    "code": "C3",
+    "from": "Rob Fitzpatrick, fundador serial britânico (Founder Centric, The Cranium), publicou *The Mom Test* em 2013, livro curto (~130 páginas) e direto. O título vem da regra central: **mesmo sua mãe diria que sua ideia é boa se perguntada diretamente**, o desafio é fazer perguntas que extraiam verdade mesmo dela. O livro virou referência em Customer Discovery, citado em programas como YC, Techstars, 500 Startups.",
+    "to": "Rob Fitzpatrick, empreendedor britânico e cofundador da consultoria de educação empreendedora Founder Centric (após passar pela Y Combinator no verão de 2007), publicou *The Mom Test* em 2013, livro curto (~130 páginas) e direto. O título vem da regra central: **mesmo sua mãe diria que sua ideia é boa se perguntada diretamente**. O desafio é fazer perguntas baseadas em fatos passados que arranquem a verdade até dela. O livro virou referência em Customer Discovery, adotado em programas como YC, Techstars e 500 Global."
+  },
+  {
+    "id": "606",
+    "vol": "2",
+    "code": "E2",
+    "from": "Respostas revelam: se problema é real (via especificidade), intenso (via frustração), de alta prioridade (via dinheiro/tempo investido tentando), e se há gap que solução pode preencher.",
+    "to": "As respostas mostram se o problema é real (pela especificidade do relato), se é intenso (pela frustração demonstrada), se tem prioridade (pelo dinheiro e tempo já gastos tentando resolvê-lo) e se existe uma lacuna que uma nova solução possa preencher."
+  },
+  {
+    "id": "607",
+    "vol": "2",
+    "code": "C5",
+    "from": "Parar cedo (3 entrevistas não bastam): padrão começa a emergir em 8-12, confidence em 15-25.",
+    "to": "Parar cedo (três entrevistas não bastam): o padrão costuma aparecer entre 8 e 12 entrevistas e se firmar com segurança entre 15 e 20 conversas."
+  },
+  {
+    "id": "609",
+    "vol": "2",
+    "code": "C3",
+    "from": "Entrevista em profundidade tem raízes em sociologia qualitativa do séc. XX (Max Weber, Pierre Bourdieu). Consolidou como método de pesquisa de mercado através de empresas como Greenberg, Quirk's, e academia (Juliet Corbin, Anselm Strauss). É método-guarda-chuva que cobre vários protocolos específicos (inclusive Mom Test e JTBD Switch são variações), aqui cobrimos princípios gerais.",
+    "to": "A entrevista em profundidade tem raízes na sociologia empírica e no estudo de entrevistas focadas de Robert K. Merton e Patricia Kendall (*The Focused Interview*, 1946). Consolidou-se como método de pesquisa qualitativa de mercado no pós-guerra e na tradição de análise qualitativa de Anselm Strauss e Juliet Corbin. Funciona como método guarda-chuva que abriga protocolos específicos (como o Mom Test e a entrevista de troca de JTBD); aqui cobrimos seus princípios gerais."
+  },
+  {
+    "id": "611",
+    "vol": "2",
+    "code": "C1",
+    "from": "- 85% reportam que \"tempo em papelada\" é maior frustração, mas papelada é tão diversa que solução pontual não resolve.",
+    "to": "- 13 de 15 diretores entrevistados relataram que o \"tempo gasto em papelada\" é a maior frustração da rotina (6 de 15 apontaram relatórios para a secretaria e 9 de 15 citaram controles internos), mas a papelada é tão diversa que uma ferramenta pontual não resolve."
+  },
+  {
+    "id": "612",
+    "vol": "2",
+    "code": "C5",
+    "from": "Facilitador falando muito: regra de 70/30 (participante/você)",
+    "to": "Facilitador falando demais: mantenha a proporção de 80/20 (o participante fala 80% do tempo e você 20%, intervindo apenas para aprofundar histórias)"
+  },
+  {
+    "id": "614",
+    "vol": "2",
+    "code": "C3",
+    "from": "1. Open coding: ler dados (entrevistas, notas) identificando conceitos e categorias emergentes. Código linha-a-linha em pesquisa rigorosa.",
+    "to": "1. Codificação aberta (*open coding*, na sistematização em três etapas de Strauss e Corbin, 1990, derivada da Grounded Theory original de Glaser e Strauss, 1967): ler as transcrições e notas linha a linha identificando conceitos e categorias emergentes."
+  },
+  {
+    "id": "615",
+    "vol": "2",
+    "code": "C5",
+    "from": "Teoria emergente: retenção de PME em software depende de **transição completa forçada**: onboarding que não permite \"paralelismo\", migração obrigatória, quebra das ferramentas antigas. Empresas que permitem \"usa um pouco de cada\" têm churn alto.",
+    "to": "Hipótese emergente (a testar): nas 18 entrevistas, o abandono em PMEs concentrou-se nas contas em que a migração ficou pela metade e a equipe manteve a planilha antiga em paralelo. Próximo experimento: testar um onboarding com importação assistida dos dados históricos nos primeiros sete dias."
+  },
+  {
+    "id": "626",
+    "vol": "2",
+    "code": "C5",
+    "from": "Use o Empathy Map na Fase 3 (descoberta) como complemento ao Mom Test",
+    "to": "Use o Empathy Map na Fase 4 (descoberta do problema) como complemento ao Mom Test e na Fase 5 (pesquisa com usuários) para construir o Customer Profile do VPC"
+  },
+  {
+    "id": "627",
+    "vol": "2",
+    "code": "C5",
+    "from": "##### Passo a passo na parede da sala (30 a 60 minutos)",
+    "to": "##### Passo a passo na parede da sala (roteiro de oficina colaborativa)"
+  },
+  {
+    "id": "628",
+    "vol": "2",
+    "code": "C5",
+    "from": "\"Mariana, dona de padaria de duas unidades em São Paulo\"",
+    "to": "\"Sueli, dona de padaria artesanal com três lojas na Zona Sul de São Paulo\""
+  },
+  {
+    "id": "633",
+    "vol": "2",
+    "code": "C6",
+    "from": "Posso gravar pra transcrever depois? A gravação fica privada.",
+    "to": "Posso gravar apenas para fins de transcrição interna? O áudio será excluído após a síntese anonimizada (em conformidade com a LGPD, Lei 13.709/2018: registre o consentimento no início da gravação, remova nomes próprios e CNPJs antes de submeter o texto a ferramentas de IA e descarte o arquivo bruto após consolidar os padrões; ver detalhes no Volume 8)."
+  },
+  {
+    "id": "634",
+    "vol": "2",
+    "code": "S7",
+    "from": "- **Já gastou dinheiro para resolver?** `[ ] Não  [ ] Sim: quanto? em que? por quanto tempo?]`: *sinal operacional mais limpo de dor. Dinheiro já gasto > promessa de pagar.*",
+    "to": "- **Já gastou dinheiro para resolver?** `[ ] Não  [ ] Sim: quanto? em quê? por quanto tempo?`: *sinal operacional mais limpo de dor. Dinheiro já gasto vale mais que promessa de pagar.*"
+  },
+  {
+    "id": "635",
+    "vol": "2",
+    "code": "C7",
+    "from": "[ ] Trabalha em concorrente",
+    "to": "[ ] Atua em empresa concorrente (atenção: restrinja a conversa a informações públicas de mercado; nunca solicite segredos de negócio, preços internos ou listas de clientes, sob pena de concorrência desleal na Lei 9.279/1996, art. 195)"
+  },
+  {
+    "id": "636",
+    "vol": "2",
+    "code": "C5",
+    "from": "nenhuma consolidação feita **antes** da rodada fechar é confiável, porque viesa as entrevistas restantes.",
+    "to": "faça sínteses parciais a cada lote de cinco conversas para calibrar o roteiro, mas só feche o veredito de perseverar ou pivotar quando a rodada inteira terminar."
+  },
+  {
+    "id": "638",
+    "vol": "2",
+    "code": "S4",
+    "from": "Definir experimentos de solução a montar na",
+    "to": "Mapear concorrentes, substitutos e cunha de entrada na"
+  },
+  {
+    "id": "642",
+    "vol": "2",
+    "code": "E10",
+    "from": "A Fase 4 ataca o erro mais caro da indústria de startups: construir algo que ninguém quer. A maioria das empresas que falham, falham por isso, como Paul Graham articulou em *18 Mistakes That Kill Startups* e como análises agregadas (CB Insights, Andreessen) confirmam. E na maioria dos casos, o fundador presumiu que o problema existia, sem verificar. A descoberta do problema é a vacina contra esse erro. O custo de descobrir que o problema não existe antes de construir é uma conversa de café. O custo de descobrir depois é meses ou anos de vida e todo o dinheiro investido.",
+    "to": "Ao concluir a Fase 4, você substitui palpites por três ativos auditáveis: o Mapa de Problemas com citações literais, a distribuição real dos entrevistados na escala de Pain Level (1 a 5) e uma decisão clara entre perseverar, refinar o ICP ou descartar a hipótese. Descobrir que a dor é fraca agora custou apenas quinze a vinte conversas; descobrir isso depois do produto pronto custaria meses de engenharia e todo o caixa inicial."
+  },
+  {
+    "id": "643",
+    "vol": "2",
+    "code": "C5",
+    "from": "Quem chega ao fim com formulação do problema idêntica à de partida não validou nada",
+    "to": "Se você chegar ao fim com a formulação do problema idêntica à de partida, desconfie e audite se filtrou as conversas (confirmar a hipótese inicial na íntegra é possível, mas raro na primeira rodada)"
+  },
+  {
+    "id": "644",
+    "vol": "2",
+    "code": "N3",
+    "from": "Na clínica de reabilitação que a Dra. Camila montou na Savassi, em Belo Horizonte, ela tinha certeza absoluta de que seus pacientes buscavam \"protocolos avançados de biomecânica articular\"",
+    "to": "Na clínica odontológica que a Dra. Camila montou na Savassi, em Belo Horizonte, ela cismou que seus pacientes buscavam \"protocolos avançados de reabilitação oral guiada\""
+  },
+  {
+    "id": "645",
+    "vol": "2",
+    "code": "N3",
+    "from": "Ela investiu R$ 85 mil em equipamentos suíços de medição postural",
+    "to": "Mesmo tendo prometido não repetir o erro do equipamento importado que ficara subutilizado no ano anterior, ela investiu R$ 85 mil em um sistema suíço de escaneamento intraoral computadorizado"
+  },
+  {
+    "id": "646",
+    "vol": "2",
+    "code": "N3",
+    "from": "Na clínica de reabilitação que a Dra. Camila montou na Savassi, em Belo Horizonte, ela tinha certeza absoluta de que seus pacientes buscavam \"protocolos avançados de biomecânica articular\".",
+    "to": "Na clínica odontológica que a Dra. Camila montou na Savassi, em Belo Horizonte, ela cismou que seus pacientes buscavam \"protocolos avançados de reabilitação oral guiada\"."
+  },
+  {
+    "id": "647",
+    "vol": "2",
+    "code": "E3",
+    "from": "O resultado no fim do mês foi devastador: agenda vazia pela manhã e inadimplência alta à tarde.",
+    "to": "No fim do mês, a agenda da manhã estava vazia e um terço dos orçamentos apresentados à tarde não se convertia em tratamento."
+  },
+  {
+    "id": "648",
+    "vol": "2",
+    "code": "N7",
+    "from": "Naquele instante, Camila entendeu o que Clayton Christensen e Bob Moesta descobriram: ninguém compra uma furadeira de quarto de polegada; as pessoas compram o furo na parede",
+    "to": "Naquele instante, Camila entendeu o que Theodore Levitt resumiu na imagem da furadeira (em *The Marketing Imagination*, 1983) e Clayton Christensen e Bob Moesta transformaram em método de pesquisa: ninguém compra uma furadeira de quarto de polegada; as pessoas compram o furo na parede"
+  },
+  {
+    "id": "649",
+    "vol": "2",
+    "code": "N6",
+    "from": "você cai na **Cegueira Demográfica do Especialista**",
+    "to": "você incorre na **Cegueira Demográfica do Especialista** (armadilha que voltaremos a combater ao construir personas no Passo 6 e no autodiagnóstico final desta fase)"
+  },
+  {
+    "id": "650",
+    "vol": "2",
+    "code": "E5",
+    "from": "Por que o seu concorrente mais perigoso quase nunca é outro software ou outra clínica do mesmo bairro? Porque, na vida real, o verdadeiro concorrente do seu produto é a gambiarra que o cliente já faz hoje: a planilha travada no Excel, o grupo caótico no WhatsApp, o caderno de espiral na gaveta ou a simples inércia de não fazer nada. Na Fase 5, sua missão é mapear a linha do tempo exata da decisão e descobrir qual \"emprego\" o cliente está contratando você para executar.",
+    "to": "O concorrente mais perigoso da clínica de Camila não era o consultório vizinho na Savassi: era a inércia de pacientes como Dona Helena, que adiou o tratamento por dois anos escondendo o sorriso nas fotos de família, somada às gambiarras cotidianas com que cada cliente contorna a dor (a planilha travada no Excel, o grupo improvisado no WhatsApp ou o caderno de anotações na gaveta). Na Fase 5, sua missão é mapear a linha do tempo da decisão e descobrir qual trabalho (*job*) o cliente está contratando você para executar."
+  },
+  {
+    "id": "656",
+    "vol": "2",
+    "code": "E2",
+    "from": "Anote tudo. O que fez. Quanto tempo. Interrupções. Frustrações. Conversas paralelas.",
+    "to": "Anote o que a pessoa fez, quanto tempo levou em cada tarefa, quem a interrompeu, onde ela se irritou e com quem precisou falar no meio do caminho."
+  },
+  {
+    "id": "658",
+    "vol": "2",
+    "code": "C6",
+    "from": "Ferramentas pagas: Dovetail, Delve, Atlas.ti. Alternativas grátis: planilha com colunas Quote, Código, Categoria, Tema.",
+    "to": "Ferramentas pagas: Dovetail, Delve, Atlas.ti. Alternativas gratuitas: planilha com colunas Citação, Código, Categoria e Tema. Em fluxos apoiados por inteligência artificial (ver Capítulos 10 e 11 do Volume 1), você pode transcrever o áudio automaticamente e pedir a um modelo de linguagem uma primeira sugestão de agrupamento de códigos, desde que anonimize nomes, cargos e empresas antes do envio (LGPD) e confira cada código sugerido contra o trecho original (*verbatim*) para evitar categorias alucinadas."
+  },
+  {
+    "id": "659",
+    "vol": "2",
+    "code": "E9",
+    "from": "##### Triangulação qualitativa mais quantitativa",
+    "to": "##### Triangulação entre entrevistas e survey"
+  },
+  {
+    "id": "660",
+    "vol": "2",
+    "code": "S7",
+    "from": "Terceiro, compare. Tema que apareceu em setenta por cento das entrevistas e sessenta e cinco por cento do survey está validado. Tema em setenta por cento das entrevistas mas vinte por cento do survey é artefato da amostra. Tema em trinta por cento das entrevistas mas setenta por cento do survey indica que você deve fazer mais entrevistas com o perfil certo.",
+    "to": "Terceiro, compare os resultados. Um tema que apareceu em 70% das entrevistas e em 65% do survey está validado. Um tema presente em 70% das entrevistas, mas em apenas 20% do survey, costuma ser viés da amostra inicial. Já um tema citado em 30% das entrevistas e em 70% do survey indica que você precisa conduzir mais entrevistas com o subgrupo certo."
+  },
+  {
+    "id": "661",
+    "vol": "2",
+    "code": "C5",
+    "from": "Para descoberta de problema ou domínio (esta fase), quinze a trinta ainda é o padrão correto.",
+    "to": "Para a descoberta inicial do problema (Fase 4), quinze a trinta conversas são a referência; já para o aprofundamento etnográfico e de JTBD desta Fase 5, oito a quinze sessões longas (de 60 a 90 minutos) costumam bastar, pois cada sessão rende dezenas de observações comportamentais."
+  },
+  {
+    "id": "662",
+    "vol": "2",
+    "code": "C5",
+    "from": "Cada persona deve ter oito elementos. Nome fictício e foto representativa. Dados demográficos básicos. Contexto profissional ou pessoal relevante. Motivações principais. Frustrações principais. Comportamentos-chave observados. Ferramentas, canais, e fontes de informação. JTBDs prioritários. Citação verbatim marcante.",
+    "to": "Cada persona deve conter os nove elementos padronizados do Template de Persona (seção de ferramentas desta fase): (1) nome fictício e rótulo descritivo; (2) papel na decisão (usuário, campeão ou decisor econômico); (3) contexto demográfico e operacional relevante; (4) trabalho principal (*job*) funcional, emocional e social; (5) frustrações atuais e frequência; (6) gambiarras e ferramentas em uso; (7) gatilhos de busca e barreiras à troca; (8) citação literal (*verbatim*) marcante; e (9) base de evidência (quais entrevistas reais sustentam a ficha)."
+  },
+  {
+    "id": "663",
+    "vol": "2",
+    "code": "N3",
+    "from": "Confundi-los é o erro mais caro em pesquisa de usuário para vendas B2B.",
+    "to": "Confundi-los é o erro mais caro em vendas B2B: quando Henrique foi mapear usinas sucroenergéticas no Paraná, descobriu que precisava entrevistar separadamente o operador de caldeira (usuário técnico), o engenheiro de manutenção (campeão interno que sente a dor da parada) e o diretor industrial (comprador econômico que assina o orçamento)."
+  },
+  {
+    "id": "664",
+    "vol": "2",
+    "code": "E9",
+    "from": "Em startups muito pequenas (SMB de cinco a vinte funcionários), os três podem ser a mesma pessoa, o dono.",
+    "to": "Em empresas clientes muito pequenas (de cinco a vinte funcionários), os três papéis costumam caber na mesma pessoa: o próprio dono."
+  },
+  {
+    "id": "665",
+    "vol": "2",
+    "code": "E9",
+    "from": "O próprio consumidor é usuário, decisor, e pagador.",
+    "to": "O próprio consumidor é usuário, decisor e pagador."
+  },
+  {
+    "id": "666",
+    "vol": "2",
+    "code": "S4",
+    "from": "O entregável deste passo, para cada papel relevante no seu contexto, é uma persona caracterizada com os mesmos elementos do Passo 5.",
+    "to": "O entregável deste passo, para cada papel relevante no seu contexto, é uma persona caracterizada com os mesmos elementos definidos no Passo 6."
+  },
+  {
+    "id": "667",
+    "vol": "2",
+    "code": "C5",
+    "from": "Em B2B típico, três personas. Em B2C típico, uma. Em casos especiais de B2C, duas.",
+    "to": "Construa uma persona para cada papel que decide ou usa o produto, o que na prática resulta em duas a quatro personas primárias (tipicamente três em B2B e uma a duas em B2C)."
+  },
+  {
+    "id": "668",
+    "vol": "2",
+    "code": "C5",
+    "from": "identificado na Fase 3 como sinal e confirmado aqui na Fase 4.",
+    "to": "identificado na Fase 4 como sinal inicial e confirmado aqui, na Fase 5."
+  },
+  {
+    "id": "669",
+    "vol": "2",
+    "code": "N9",
+    "from": "### Os nove passos aplicados, entrevista JTBD do PadariaPro",
+    "to": "### Uma entrevista JTBD do PadariaPro: do verbatim à persona"
+  },
+  {
+    "id": "670",
+    "vol": "2",
+    "code": "C5",
+    "from": "A resposta bruta de Fábio, dono de três padarias em Campinas:",
+    "to": "A resposta bruta de Fábio, dono de três padarias na Zona Oeste de São Paulo (dentro do ICP refinado na Fase 4):"
+  },
+  {
+    "id": "671",
+    "vol": "2",
+    "code": "C4",
+    "from": "Liguei pro fornecedor, Anaconda, distribuidor regional, e a moça disse que entrega só quinta.",
+    "to": "Liguei pro fornecedor habitual, a Distribuidora Serrana, e a atendente disse que só entregaria na quinta. Aí acionei nosso plano B, o Marcos do Moinho da Vila"
+  },
+  {
+    "id": "672",
+    "vol": "2",
+    "code": "C5",
+    "from": "O contexto: acontece toda semana, é interrupção de foco executivo, envolve duas a três pessoas em média.",
+    "to": "O contexto: acontece de duas a três vezes por mês, interrompe o foco executivo do dono e mobiliza duas a três pessoas da operação."
+  },
+  {
+    "id": "673",
+    "vol": "2",
+    "code": "E9",
+    "from": "A solução atual é WhatsApp com gerente mais ligação com fornecedor mais plano B mais caro como contingência.",
+    "to": "A solução atual combina três peças improvisadas: áudio de WhatsApp do gerente, ligação de emergência para o distribuidor e acionamento de um fornecedor reserva quinze por cento mais caro."
+  },
+  {
+    "id": "674",
+    "vol": "2",
+    "code": "N8",
+    "from": "Se o produto devolver quatro horas por semana do dono, ele paga R$ 400 por mês sem pestanejar.",
+    "to": "Como ele já perde entre R$ 200 e R$ 300 por semana em farinha vencida (R$ 800 a R$ 1.200 no mês) e ainda paga 15% de ágio nas compras de emergência, a hipótese de preço a testar na próxima fase é uma assinatura de R$ 400 mensais por loja."
+  },
+  {
+    "id": "675",
+    "vol": "2",
+    "code": "C5",
+    "from": "As barreiras à troca foram três. Percepção de que \"a equipe não vai usar\". Medo de investir em ferramenta que vira caro sem adoção. Integração com fornecedor atual (relacionamento pessoal) que não entra em sistema digital. Custo fixo mensal que não se sente \"tangível\", contra a economia, que é difusa.",
+    "to": "As barreiras à troca identificadas na conversa foram quatro: (1) receio de que a equipe operacional da manhã não alimente o sistema; (2) medo de pagar mensalidade por uma ferramenta que fique cara caso a adoção falhe; (3) apego à negociação informal pelo WhatsApp com os vendedores dos moinhos; e (4) percepção de que a mensalidade fixa dói no caixa todo mês, enquanto o desperdício de farinha fica invisível no custo da mercadoria vendida."
+  },
+  {
+    "id": "679",
+    "vol": "2",
+    "code": "C5",
+    "from": "Dez ou mais entrevistas JTBD novas (não reaproveitadas da Fase 3) com roteiro específico, sessenta a noventa minutos cada.",
+    "to": "Dez ou mais entrevistas JTBD novas (não reaproveitadas da Fase 4) com roteiro específico, de sessenta a noventa minutos cada."
+  },
+  {
+    "id": "680",
+    "vol": "2",
+    "code": "C1",
+    "from": "Divergência abaixo de 30% é aceitável (ruído de memória e narrativa); 30-50% exige triangulação com mais fontes; 50% ou mais indica que a fala é pouco confiável",
+    "to": "Para cada afirmação central das entrevistas, registre se a observação em campo confirmou, contradisse ou ainda não testou o relato; quando a prática observada contradisser a fala, priorize sempre o comportamento observado"
+  },
+  {
+    "id": "681",
+    "vol": "2",
+    "code": "C5",
+    "from": "Escolher dez entrevistados da [[#FASE 4 — DESCOBERTA DO PROBLEMA|Fase 4]] que mostraram maior dor, e pedir trinta minutos de follow-up com foco em JTBD.",
+    "to": "Escolher dez entrevistados da Fase 4 que mostraram maior dor e agendar uma conversa de sessenta a noventa minutos, de preferência no próprio local de trabalho, com foco em JTBD."
+  },
+  {
+    "id": "682",
+    "vol": "2",
+    "code": "N9",
+    "from": "### O erro fatal de confundir lista de desejos de funcionalidades com progresso real na vida do cliente",
+    "to": "### Cinco erros metodológicos que distorcem a pesquisa com usuários"
+  },
+  {
+    "id": "683",
+    "vol": "2",
+    "code": "N4",
+    "from": "1. Você sabe qual foi o evento exato (o \"dia em que a corda arrebentou\") que levou seus últimos três clientes a procurarem uma solução?",
+    "to": "1. Quantos atributos das suas personas atuais você consegue rastrear diretamente até uma entrevista ou sessão de observação com data, nome e citação literal (sem cair na **Cegueira Demográfica do Especialista**)? E qual foi o evento concreto (o \"dia em que a corda arrebentou\") que levou seus entrevistados mais urgentes a improvisarem uma gambiarra?"
+  },
+  {
+    "id": "684",
+    "vol": "2",
+    "code": "N5",
+    "from": "Peça para um cliente atual compartilhar a tela (ou mostrar a mesa de trabalho) por quinze minutos e diga apenas: *\"Mostre-me exatamente como você fazia esse processo na semana anterior a nos conhecer.\"* Anote cada gambiarra.",
+    "to": "Ligue para o entrevistado classificado em Pain Level 5 mais articulado da sua rodada da Fase 4 e agende uma sessão presencial (ou por compartilhamento de tela) de sessenta a noventa minutos nesta semana, dizendo apenas: *\"Mostre-me passo a passo como você executou esse processo na última vez em que o problema aconteceu.\"* Anote cada gambiarra, interrupção e planilha paralela."
+  },
+  {
+    "id": "688",
+    "vol": "2",
+    "code": "S7",
+    "from": "---\n\n---",
+    "to": "---"
+  },
+  {
+    "id": "689",
+    "vol": "2",
+    "code": "E9",
+    "from": "Timeline da compra (estrutura do entrevista):",
+    "to": "Linha do tempo da compra (estrutura da entrevista):"
+  },
+  {
+    "id": "691",
+    "vol": "2",
+    "code": "E9",
+    "from": "Implicação para startup: growth loop de referência é alavanca poderosa, invest em programa de indicação.",
+    "to": "Implicação para a startup: como a recomendação de um par de confiança foi o gatilho decisivo da troca, vale estruturar um programa simples de indicação já a partir dos primeiros clientes satisfeitos."
+  },
+  {
+    "id": "695",
+    "vol": "2",
+    "code": "C3",
+    "from": "Aplicação a design de produtos emergiu nos anos 1970-80 com IDEO e Xerox PARC.",
+    "to": "A aplicação ao design de produtos tecnológicos surgiu nos anos 1980 na Xerox PARC (com os estudos de Lucy Suchman) e popularizou-se na década de 1990 por meio de consultorias como a IDEO."
+  },
+  {
+    "id": "697",
+    "vol": "2",
+    "code": "E9",
+    "from": "Menos: conversa minguam, mais: participantes ficam silenciosos.",
+    "to": "Com menos gente, a conversa míngua; com mais participantes, parte do grupo se cala."
+  },
+  {
+    "id": "698",
+    "vol": "2",
+    "code": "E7",
+    "from": "- Grupo 4: Profissionais saúde (nutri, PT, médicos).",
+    "to": "- Grupo 4: profissionais de saúde (nutricionistas, educadores físicos e médicos)."
+  },
+  {
+    "id": "699",
+    "vol": "2",
+    "code": "C5",
+    "from": "Preocupações com dinheiro aparecem em 60% dos dias, quase sempre à noite.",
+    "to": "Preocupações com fluxo de caixa aparecem em 60% dos dias registrados, concentrando-se nas vésperas de pagamento a fornecedores e fechamento de folha."
+  },
+  {
+    "id": "700",
+    "vol": "2",
+    "code": "E9",
+    "from": "Análise sem triangulação: confiar só em diary, combinar com IDIs finalmente",
+    "to": "Análise sem triangulação: confiar apenas no diário de uso; cruze sempre os registros com entrevistas em profundidade"
+  },
+  {
+    "id": "703",
+    "vol": "2",
+    "code": "S5",
+    "from": "#### Framework: Empathy Map (Dave Gray / XPlane, 2010)",
+    "to": "#### Framework: Empathy Map na Pesquisa de Contexto (Dave Gray / XPLANE, 2009)\n\n> *Nota: a estrutura visual completa e o passo a passo de oficina do Empathy Map já foram apresentados na seção de ferramentas da Fase 4; aqui resumimos apenas como alimentá-lo com as observações etnográficas da Fase 5.*"
+  },
+  {
+    "id": "704",
+    "vol": "2",
+    "code": "C5",
+    "from": "Customer journey de PME adotando SaaS financeiro:",
+    "to": "Jornada atual do problema (antes de existir o produto) e jornada de adoção de PME em SaaS financeiro (use a primeira na Fase 5 para mapear a gambiarra atual, como a reposição de farinha de Fábio, e a segunda quando já houver fluxo de compra a auditar):"
+  },
+  {
+    "id": "705",
+    "vol": "2",
+    "code": "S7",
+    "from": "Passo 3**: Identifique**pontos de falha (onde service pode quebrar).",
+    "to": "**Passo 3: Identifique** os pontos de falha (etapas em que o serviço pode quebrar)."
+  },
+  {
+    "id": "706",
+    "vol": "2",
+    "code": "E7",
+    "from": "- Alertas automáticos de import failure.",
+    "to": "- Alertas automáticos de falha na importação de dados."
+  },
+  {
+    "id": "708",
+    "vol": "2",
+    "code": "C3",
+    "from": "**Theodore Levitt** articulou a semente em 1960 (\"Marketing Myopia\"): \"pessoas não compram uma furadeira de 1/4 de polegada, compram um furo de 1/4 de polegada na parede\".",
+    "to": "**Theodore Levitt** lançou a semente em 1960 (\"Marketing Myopia\") e imortalizou em *The Marketing Imagination* (1983, creditando a frase a Leo McGinneva) a imagem clássica: \"as pessoas não compram uma furadeira de um quarto de polegada; compram um furo de um quarto de polegada na parede\"."
+  },
+  {
+    "id": "709",
+    "vol": "2",
+    "code": "E9",
+    "from": "Circumstâncias: contexto matters. Mesmo cliente tem jobs diferentes em diferentes situações.",
+    "to": "Circunstâncias: o contexto pesa. O mesmo cliente prioriza trabalhos (*jobs*) diferentes conforme a situação em que se encontra."
+  },
+  {
+    "id": "710",
+    "vol": "2",
+    "code": "E9",
+    "from": "Roadmap prioriza anomaly detection, health score proativo, aprendizados preditivos.",
+    "to": "O roadmap prioriza detecção de anomalias, indicador preventivo de saúde financeira e alertas preditivos."
+  },
+  {
+    "id": "711",
+    "vol": "2",
+    "code": "C3",
+    "from": "produto que resolve over-served outcomes (alta importância, alta satisfação) está em território saturado.",
+    "to": "produto que resolve over-served outcomes (importância baixa ou moderada e satisfação já alta) entra em território saturado."
+  },
+  {
+    "id": "712",
+    "vol": "2",
+    "code": "C3",
+    "from": "Passo 5: outcomes com Score > 10 são oportunidades, > 12 são grandes oportunidades.",
+    "to": "Passo 5: convertendo as notas 4 e 5 de importância e satisfação para a escala de 0 a 10 de Ulwick (percentual de respondentes que deram nota 4 ou 5 dividido por 10), os outcomes com Opportunity Score acima de 10 indicam oportunidades claras e acima de 12 apontam grandes oportunidades."
+  },
+  {
+    "id": "716",
+    "vol": "2",
+    "code": "C5",
+    "from": "Tempo: 2-4 horas para a primeira versão (após pesquisa pronta).",
+    "to": "Tempo dedicado à oficina: 2 a 4 horas para construir a primeira versão completa (após concluir a pesquisa de campo)."
+  },
+  {
+    "id": "717",
+    "vol": "2",
+    "code": "C7",
+    "from": "Estrutura tributária correta (benefício registrado)",
+    "to": "Benefício corporativo estruturado com apoio jurídico para mitigar risco trabalhista e previdenciário (tema que exige validação contábil em cada empresa)"
+  },
+  {
+    "id": "718",
+    "vol": "2",
+    "code": "S4",
+    "from": "- **Job-to-Be-Done Canvas** (Christensen / Moesta): foco mais profundo em Jobs (especialmente as 4 forças de Moesta, push, pull, anxiety, habit). Ver Fase 5.",
+    "to": "- **Diagrama das Quatro Forças de Troca** (Bob Moesta) e **JTBD Canvas** (Jim Kalbach): detalham as forças que impulsionam ou travam a migração (push, pull, ansiedade e hábito), aplicadas diretamente no Template: Entrevista com Switcher mais adiante nesta fase."
+  },
+  {
+    "id": "719",
+    "vol": "2",
+    "code": "E9",
+    "from": "service design (Nordic School, livet Lavrans Løvlie / Ben Reason)",
+    "to": "service design (a consultoria londrina Livework, fundada por Lavrans Løvlie, Ben Reason e Chris Downs, ao lado da tradição nórdica de marketing de serviços)"
+  },
+  {
+    "id": "721",
+    "vol": "2",
+    "code": "C5",
+    "from": "**eixo vertical de dimensões** (mínimo cinco):",
+    "to": "**eixo vertical de dimensões** (seis a sete camadas, alinhadas ao Passo 3, incluindo as ferramentas atuais):"
+  },
+  {
+    "id": "724",
+    "vol": "2",
+    "code": "S4",
+    "from": "Em momentos de pivô (Fase 15), refaça a jornada antes de qualquer investimento operacional.",
+    "to": "Em momentos de pivô (ver Capítulo 16 do Volume 4), refaça o mapa da jornada antes de qualquer novo investimento operacional."
+  },
+  {
+    "id": "725",
+    "vol": "2",
+    "code": "S6",
+    "from": "Pré-requisito: 5-15 entrevistas qualitativas + dados quantitativos (analytics, NPS, CSAT). Reúna PM + designer + customer success + 1-2 representantes de marketing/vendas/operações.",
+    "to": "Pré-requisito nesta Fase 5: 8 a 15 entrevistas e observações em campo (em empresas já em operação no Volume 4, somam-se dados de analytics e satisfação). Reúna os cofundadores e quem participou das sessões de pesquisa."
+  },
+  {
+    "id": "726",
+    "vol": "2",
+    "code": "C4",
+    "from": "Adicionar débito em conta e boleto como alternativas ao cartão",
+    "to": "Em um aplicativo de delivery (exemplo ilustrativo), habilitar Pix com QR Code imediato, carteira digital e pagamento na maquininha na entrega como alternativas ao cartão online"
+  },
+  {
+    "id": "731",
+    "vol": "2",
+    "code": "E9",
+    "from": "**Exemplo de preenchimento.** Persona \"Carla, gerente de operações\". Contexto, \"trabalha em rede de 12 farmácias regionais, responde direto ao dono\". Motivações, \"ser confiável, não deixar furo de estoque\". Frustrações, \"fechar inventário no fim do mês toma um sábado inteiro\". Comportamento observado, \"exporta planilha do ERP e refaz manual no Excel mesmo tendo módulo nativo\". JTBD, \"quando fecho o mês, quero conferir estoque sem refazer cálculo, para que eu não trabalhe no sábado\". Citação, \"eu não confio no sistema, então sempre faço de novo na mão\".",
+    "to": "**Exemplo de preenchimento.** Persona: \"Carla, gerente de operações\". Contexto: trabalha em uma rede de 12 farmácias regionais e responde direto ao fundador. Motivações: manter a confiança da diretoria e evitar ruptura de medicamentos de giro rápido. Frustrações: fechar o inventário no fim do mês consome um sábado inteiro. Comportamento observado: exporta o relatório do ERP e refaz a conferência no Excel, apesar de o sistema ter módulo de estoque. JTBD: \"quando fecho o mês, quero conciliar o estoque físico com o fiscal sem refazer cálculos na mão, para ter meu fim de semana de volta\". Citação: \"Eu não confio no saldo que o sistema mostra, então confiro tudo na planilha.\""
+  },
+  {
+    "id": "733",
+    "vol": "2",
+    "code": "E9",
+    "from": "são as friccções mais dolorosas",
+    "to": "e \"aguardar entrega\" são as fricções mais dolorosas"
+  },
+  {
+    "id": "734",
+    "vol": "2",
+    "code": "C5",
+    "from": "Use quando entrevistados na rodada da Fase 3 mencionam que trocaram de algo",
+    "to": "Use quando entrevistados na rodada da Fase 4 mencionarem que trocaram recentemente de ferramenta ou fornecedor"
+  },
+  {
+    "id": "735",
+    "vol": "2",
+    "code": "S2",
+    "from": "A diferença entre quem faz certo e quem falha está em observar, não só perguntar. Entrevista produz evidência declarada. Observação em contexto produz evidência comportamental. As duas são diferentes, e a segunda é mais valiosa.",
+    "to": "Camila só entendeu o que travava a agenda da clínica odontológica na Savassi quando saiu de trás da mesa, sentou na recepção e ouviu o que os pacientes faziam antes de marcar a consulta. Faça o mesmo: entrevistas entregam o discurso declarado, mas só a observação do trabalho real mostra onde mora a inércia e qual gambiarra você precisa superar."
+  },
+  {
+    "id": "737",
+    "vol": "2",
+    "code": "N3",
+    "from": "Henrique entrou na sala de um fundo de Venture Capital na Faria Lima com o slide que todo consultor adora",
+    "to": "Henrique entrou na sala do diretor industrial de uma grande usina no interior do Paraná (depois de usar o mesmo argumento diante de uma banca de fomento e de um fundo de capital de risco) com o slide que todo consultor adora"
+  },
+  {
+    "id": "738",
+    "vol": "2",
+    "code": "C1",
+    "from": "O agronegócio brasileiro movimenta R$ 2,6 trilhões por ano",
+    "to": "O PIB do agronegócio brasileiro gira na casa dos trilhões de reais por ano (cerca de R$ 2,6 trilhões nas séries recentes do Cepea/USP-CNA)"
+  },
+  {
+    "id": "740",
+    "vol": "2",
+    "code": "N6",
+    "from": "enquanto os perdedores se afogam na **Ilusão do TAM de Bilhões**",
+    "to": "enquanto quem tenta abraçar o mercado inteiro de uma vez naufraga na **Ilusão do TAM de Bilhões** (armadilha de dimensionamento top-down que retomaremos nos antipadrões e no autodiagnóstico desta fase)"
+  },
+  {
+    "id": "741",
+    "vol": "2",
+    "code": "C5",
+    "from": "na Creditas começando especificamente com crédito consignado e garantia de imóvel quando todos os bancos olhavam para o cartão de crédito",
+    "to": "na Creditas (fundada por Sergio Furio em 2012 ainda como BankFacil), que começou focada em crédito com garantia de imóvel e de veículo enquanto os grandes bancos concentravam sua oferta em linhas pessoais sem garantia de juros altos"
+  },
+  {
+    "id": "742",
+    "vol": "2",
+    "code": "E6",
+    "from": "Uma cunha estratégica (*wedge*) não é o seu destino final; é a ponta afiada do machado que racha a tora de madeira.",
+    "to": "Como mostrou Geoffrey Moore na metáfora da pista de boliche (*Crossing the Chasm*, 1991), uma cunha estratégica não é o seu teto; é o seu primeiro pino da fila"
+  },
+  {
+    "id": "743",
+    "vol": "2",
+    "code": "S4",
+    "from": "> [!question] FMF Check da Fase 5",
+    "to": "> [!question] FMF Check da Fase 6"
+  },
+  {
+    "id": "747",
+    "vol": "2",
+    "code": "E1",
+    "from": "Mercado não é \"software\". Não é \"restaurantes\". Mercado é a intersecção entre tipo de cliente, problema que você resolve, e geografia.",
+    "to": "Mercado é a interseção concreta de três elementos: tipo de cliente, problema resolvido e recorte geográfico (termos amplos como \"software\" ou \"restaurantes\" são apenas setores)."
+  },
+  {
+    "id": "748",
+    "vol": "2",
+    "code": "C5",
+    "from": "Em geral, é um percentual pequeno (de um a dez por cento).",
+    "to": "Deve ser calculado de baixo para cima (*bottom-up*) a partir da sua capacidade real de vendas e atendimento nos primeiros 36 meses (tipicamente uma fração inicial de 1% a 5% do SAM no horizonte de três anos)."
+  },
+  {
+    "id": "749",
+    "vol": "2",
+    "code": "C5",
+    "from": "ex: R$ 2 bi, meta de captura",
+    "to": "ex: R$ 6 mi em 3 anos (conta bottom-up sobre SAM de R$ 150 mi)"
+  },
+  {
+    "id": "750",
+    "vol": "2",
+    "code": "C1",
+    "from": "Status quo, ou seja, \"não fazer nada\". É a alternativa mais poderosa. Por que as pessoas simplesmente aceitam conviver com o problema? Subestimar o status quo é a causa de trinta por cento das startups fracassadas.",
+    "to": "Status quo, ou seja, a inércia de \"não fazer nada\" e continuar convivendo com o problema. É o concorrente mais subestimado pelos fundadores: nas análises pós-morte da CB Insights, a falta de necessidade real que tire o cliente da inércia aparece entre 35% e 42% dos casos."
+  },
+  {
+    "id": "751",
+    "vol": "2",
+    "code": "E9",
+    "from": "**Os quatro tipos de substituto que você precisa mapear no concorrentes indiretos.** O jeito atual como o trabalho é feito hoje cai em quatro categorias bem definidas. Todas precisam ser mapeadas:",
+    "to": "Os concorrentes indiretos costumam cair em quatro categorias operacionais que precisam ser mapeadas em detalhe:"
+  },
+  {
+    "id": "754",
+    "vol": "2",
+    "code": "E7",
+    "from": "revelando onde investir custom (componentes que criam vantagem) e onde comoditizar (componentes que viraram utility)",
+    "to": "mostrando onde vale construir sob medida (componentes que criam diferencial competitivo) e onde comprar pronto como serviço padrão de mercado"
+  },
+  {
+    "id": "755",
+    "vol": "2",
+    "code": "C5",
+    "from": "Quadrantes vazios são oportunidades. Quadrantes cheios são guerras.",
+    "to": "Quadrantes cheios indicam disputa direta de preço; quadrantes vazios são apenas hipóteses e exigem validação nas entrevistas da Fase 5 para confirmar se existe demanda real ou se estão vazios porque ninguém paga por aquela combinação."
+  },
+  {
+    "id": "757",
+    "vol": "2",
+    "code": "C5",
+    "from": "Para case de capital de risco, caminho crível para SOM ≥ R$ 100 milhões em sete a dez anos.",
+    "to": "Para teses voltadas a fundos de capital de risco, demonstre separadamente o SOM inicial de 3 a 5 anos (a cunha de entrada) e a expansão em mercados adjacentes que sustente receita potencial acima de R$ 100 milhões em 7 a 10 anos."
+  },
+  {
+    "id": "758",
+    "vol": "2",
+    "code": "C5",
+    "from": "- [ ] Cinco ou mais concorrentes diretos analisados em cinco ou mais dimensões cada (preço, posicionamento, ICP, pontos fortes e fracos, reação potencial), mais três ou mais indiretos ou substitutos (incluindo status quo).",
+    "to": "- [ ] De 8 a 12 alternativas mapeadas no total (somando concorrentes diretos, indiretos, substitutos e o status quo), com 3 a 5 concorrentes prioritários aprofundados em fichas de cinco dimensões (preço, posicionamento, ICP, forças/fraquezas e reação provável)."
+  },
+  {
+    "id": "759",
+    "vol": "2",
+    "code": "C1",
+    "from": "concentrado se top 1 ≥40% ou top 3 ≥70%; fragmentado se top 5 <30%",
+    "to": "pela heurística prática deste livro, inspirada em índices CR4/HHI do guia do CADE: concentrado quando o líder detém ≥ 40% ou os quatro maiores somam ≥ 70%; moderado na faixa intermediária; e fragmentado quando os cinco maiores somam < 30%"
+  },
+  {
+    "id": "760",
+    "vol": "2",
+    "code": "C5",
+    "from": "Teste de Precisão do Comprador (Template: Teste de Precisão do Comprador (Fase 6)) aplicado, com score de quatro ou mais sobre seis.",
+    "to": "Teste de Precisão do Comprador (Template: Teste de Precisão do Comprador (Fase 6)) aprovado nos três critérios obrigatórios do template (e, como verificação complementar, pelo menos quatro das seis perguntas do checklist de acesso ao comprador)."
+  },
+  {
+    "id": "761",
+    "vol": "2",
+    "code": "C5",
+    "from": "**Canvas da Cunha, PadariaPro.**",
+    "to": "**Canvas da Cunha, PadariaPro (estruturado nos 6 blocos canônicos do template oficial, mais notas de expansão para o Dossiê).**"
+  },
+  {
+    "id": "762",
+    "vol": "2",
+    "code": "E9",
+    "from": "Vinte e sete nomes mapeados em rede mais ABIP.",
+    "to": "Vinte e sete nomes mapeados entre contatos diretos e a lista da associação regional (ABIP)."
+  },
+  {
+    "id": "763",
+    "vol": "2",
+    "code": "S7",
+    "from": "**Contraste com cunha de mercado amplo, Stone (2012, em meia página).**",
+    "to": "**Contraste: a cunha da Stone dentro de um mercado amplo (2012-2014).**"
+  },
+  {
+    "id": "764",
+    "vol": "2",
+    "code": "E3",
+    "from": "Um ICP claramente definido. Não é \"pequenas empresas\". É, por exemplo, \"gerentes de operação em lojas independentes de óticas, com duas a cinco unidades, no interior de São Paulo e Minas Gerais, que usam sistema de gestão próprio ou planilhas\". Precisão cirúrgica.",
+    "to": "Um ICP claramente delimitado. Em vez de dizer \"pequenas empresas\", especifique: \"redes independentes de óticas, com duas a cinco lojas no interior de São Paulo e de Minas Gerais, que ainda controlam estoque e receituário em planilhas\"."
+  },
+  {
+    "id": "765",
+    "vol": "2",
+    "code": "C5",
+    "from": "Nós vendemos para o Gerente de Operações de lojas de óptica com duas a cinco unidades no interior de SP e MG",
+    "to": "Nós vendemos para o sócio-administrador de redes independentes de óticas com duas a cinco unidades no interior de SP e MG (enquanto o gerente de operações atua como campeão interno)"
+  },
+  {
+    "id": "767",
+    "vol": "2",
+    "code": "S4",
+    "from": "Não adianta avançar para a Fase 6 (hipóteses) com cunha instável.",
+    "to": "Não adianta avançar para a Fase 7 (formulação de hipóteses, no Volume 3) com a cunha instável."
+  },
+  {
+    "id": "768",
+    "vol": "2",
+    "code": "C5",
+    "from": "6 dimensões que definem<br/>o ponto de entrada no mercado",
+    "to": "6 blocos do template oficial: ICP, dor, resultado, dono do orçamento, grupo de WhatsApp e alternativa"
+  },
+  {
+    "id": "769",
+    "vol": "2",
+    "code": "C5",
+    "from": "A existência da gambiarra é o sinal mais forte de dor real (Pain Level 4).",
+    "to": "A existência de uma gambiarra ativa é um sinal forte de dor real (Pain Level 4), ficando atrás apenas de quem já destinou orçamento para tentar resolver o problema (Pain Level 5)."
+  },
+  {
+    "id": "770",
+    "vol": "2",
+    "code": "C3",
+    "from": "Se você não consegue listar nem esse núcleo, a sua cunha ainda está larga. Reduza.",
+    "to": "Se você não consegue listar nem esse núcleo inicial, ou a dor ainda está mal definida ou você ainda conhece pouco o setor: volte às entrevistas de campo antes de mexer no tamanho da cunha."
+  },
+  {
+    "id": "771",
+    "vol": "2",
+    "code": "C1",
+    "from": "dominado por bancos com crédito pessoal sem garantia (taxas de cinco a doze por cento ao mês)",
+    "to": "dominado pelos grandes bancos com linhas de crédito pessoal não consignado a juros elevados (em torno de 5% a 6% ao mês nas séries do Banco Central em 2012, além do rotativo do cartão acima de 10% ao mês)"
+  },
+  {
+    "id": "773",
+    "vol": "2",
+    "code": "S4",
+    "from": "O caso completo (com framework Antler aplicado das Fases 1 a 5) está detalhado no",
+    "to": "Essa combinação de preço claro e teste sem risco destravou a adoção inicial antes da expansão para lojas físicas próprias, servindo de referência para o desenho de experimentos que veremos no"
+  },
+  {
+    "id": "775",
+    "vol": "2",
+    "code": "S4",
+    "from": "### Transição, Fase 5 para Fase 6 (e visão panorâmica até PMF)",
+    "to": "### Visão panorâmica: da Fase 6 (Mapeamento de Mercado) ao PMF (Fase 13)"
+  },
+  {
+    "id": "776",
+    "vol": "2",
+    "code": "S4",
+    "from": "subgraph Prob[\"FASES 2-4, PROBLEMA\"]",
+    "to": "subgraph Prob[\"FASES 4-6, PROBLEMA E MERCADO\"]"
+  },
+  {
+    "id": "777",
+    "vol": "2",
+    "code": "N4",
+    "from": "3. Se um cliente do seu submercado-alvo perguntar a um colega de setor sobre você daqui a seis meses, eles frequentam os mesmos eventos, grupos ou associações?",
+    "to": "3. Você consegue escrever a frase do Dono do Orçamento em 30 segundos, zerar os sinais de escopo instável e encontrar seus clientes-alvo nos mesmos eventos, grupos ou associações que você frequenta? (Chave de leitura: se respondeu \"não\" a duas ou mais perguntas deste Espelho, volte ao Passo 10 antes de iniciar o Volume 3.)"
+  },
+  {
+    "id": "778",
+    "vol": "2",
+    "code": "C5",
+    "from": "Dominar 50% de um nicho de R$ 20 milhões vale infinitamente mais do que ter 0,001% de um mercado de R$ 100 bilhões.",
+    "to": "Conquistar metade de um nicho inicial de R$ 20 milhões gera dez vezes mais receita (R$ 10 milhões) do que capturar 0,001% de um mercado genérico de R$ 100 bilhões, funcionando como a porta de entrada para os mercados adjacentes."
+  },
+  {
+    "id": "779",
+    "vol": "2",
+    "code": "N5",
+    "from": "**O Ritual de Segunda-Feira às 9h:**",
+    "to": "**O Ritual de Segunda-Feira às 9h (rotina semanal de 30 minutos):**"
+  },
+  {
+    "id": "780",
+    "vol": "2",
+    "code": "C5",
+    "from": "Abra uma planilha em branco e liste nominalmente os 50 primeiros CNPJs (ou o grupo exato de consumidores) que formam a sua cabeça de praia. Se você não consegue listar 50 nomes reais, você ainda não tem um mercado; tem uma abstração.",
+    "to": "Abra a sua planilha da cunha e dedique 30 minutos toda segunda-feira para alimentar os dois níveis da sua lista: o núcleo nominal de 30 a 80 decisores que você conhece pelo nome (rumo à cunha listável de 100 a 300 contatos do Teste do Grupo de WhatsApp). A cada segunda-feira, acrescente 10 novos nomes qualificados, mande mensagem para 3, registre quem respondeu e ajuste a frase do Dono do Orçamento se aprender algo novo."
+  },
+  {
+    "id": "785",
+    "vol": "2",
+    "code": "N9",
+    "from": "| Wedge identificado | Ponto de entrada diferenciado | Sim, defensável |",
+    "to": "| Cunha de entrada validada | Núcleo nominal listado e compradores testados | 30 a 80 nomes no núcleo (100 a 300 na cunha) e ≥ 5 compradores em Pain Level 4-5 |"
+  },
+  {
+    "id": "787",
+    "vol": "2",
+    "code": "C3",
+    "from": "Conta Azul, Omie, Nibo, Xero, QuickBooks, ContaAzul, ContaSimples, muitos com funding significativo.",
+    "to": "Conta Azul, Omie, Nibo e ERPs de entrada como Bling e Tiny, além de bancos PJ integrados como Conta Simples, vários deles capitalizados por fundos de risco."
+  },
+  {
+    "id": "789",
+    "vol": "2",
+    "code": "N7",
+    "from": "O framework original chamava-se SOFT (Satisfactory, Opportunity, Fault, Threat), apresentado em seminário em Zurique em 1964",
+    "to": "A origem exata é disputada: a atribuição mais repetida liga a ferramenta a Albert Humphrey no SRI (sob a sigla SOFT em 1964), mas pesquisas históricas apontam raízes anteriores nas aulas de política de negócios da Harvard Business School nos anos 1950 e 1960"
+  },
+  {
+    "id": "790",
+    "vol": "2",
+    "code": "C4",
+    "from": "Entrada anunciada de Brex/Ramp no Brasil em 2026-2027.",
+    "to": "Possível entrada de plataformas internacionais de gestão de despesas corporativas (*spend management*) no mercado brasileiro ou avanço dos grandes bancos no segmento."
+  },
+  {
+    "id": "791",
+    "vol": "2",
+    "code": "S3",
+    "from": "Vira lista de adjetivos: \"time bom, produto bom, mercado bom\". Sem especificidade. Forças e fraquezas não comparativas: \"temos boa cultura\" (comparado a quem?). Oportunidades e ameaças táticas, não estruturais. Sem cruzamentos TOWS: usar só os 4 quadrantes separadamente. Valor está no cruzamento. Quadrantes desequilibrados: 20 forças, 2 ameaças. Sinal de auto-engano (fundador super-otimista). Mesmo item em múltiplos quadrantes: \"tamanho pequeno é força e fraqueza\", escolher. Força por ágil? Fraqueza por vulnerável? Decida. Usado como ponto final, não de partida: SWOT é diagnóstico, estratégia exige decisões a partir dele. Sem as decisões, é exercício acadêmico.",
+    "to": "Ao preencher a matriz, evite três erros recorrentes: (1) transformar os quadrantes numa lista vaga de adjetivos (\"time bom, produto bom\"), sem comparar seus indicadores aos de um rival específico; (2) empilhar vinte forças contra duas ameaças por otimismo do fundador, ou repetir o mesmo fato como força e fraqueza sem decidir se a agilidade supera a falta de escala; e (3) parar nos quatro blocos descritivos sem cruzar os quadrantes na matriz TOWS para gerar decisões concretas de foco."
+  },
+  {
+    "id": "793",
+    "vol": "2",
+    "code": "C3",
+    "from": "GE, sob liderança de Fred Borch e posteriormente Jack Welch, usou-a para gerir portfólio complexo de ~150 unidades de negócio.",
+    "to": "Criada no início dos anos 1970, quando a General Electric (sob a liderança de Fred Borch e depois Reginald Jones) reorganizou seu portfólio em cerca de 40 unidades estratégicas de negócio com apoio da McKinsey (ver histórico na *McKinsey Quarterly*, 2008)."
+  },
+  {
+    "id": "794",
+    "vol": "2",
+    "code": "E9",
+    "from": "Zona de cosecha (vermelha, 3 células inferiores/direita)",
+    "to": "Zona de colheita (vermelha, 3 células inferiores à direita)"
+  },
+  {
+    "id": "796",
+    "vol": "2",
+    "code": "C5",
+    "from": "vender para outra cidade com mesmo ICP frequentemente é penetração, não desenvolvimento de mercado.",
+    "to": "vender para outra cidade dentro do mesmo país e para o mesmo perfil de cliente exige menos adaptação de produto do que abrir um novo segmento setorial, mas ainda conta como expansão geográfica de mercado e requer validação da rede local de distribuição."
+  },
+  {
+    "id": "798",
+    "vol": "2",
+    "code": "C2",
+    "from": "E: Selic atual em 12%, inflação em 4.5%, PMEs em dificuldade com crédito",
+    "to": "E: Juros básicos (Selic) em dois dígitos, inflação pressionando o teto da meta e PMEs com restrição de crédito bancário"
+  },
+  {
+    "id": "800",
+    "vol": "2",
+    "code": "C3",
+    "from": "Próximos 12 meses: dominar 30% de PMEs de contabilidade com 80+ clientes e cases.",
+    "to": "Próximos 12 meses: conquistar 80 ou mais clientes entre escritórios contábeis de 5 a 20 pessoas na Grande São Paulo, com pelo menos 5 estudos de caso publicados."
+  },
+  {
+    "id": "801",
+    "vol": "2",
+    "code": "N8",
+    "from": "Caso brasileiro: Nubank criando categoria \"banco digital brasileiro\", não \"banco melhor\", mas categoria nova com regras diferentes.",
+    "to": "Caso aplicado aos arquétipos: quando Lucas e Marina deixam de apresentar seu sistema como \"mais um módulo de contas a pagar\" e passam a enquadrar o problema como \"conciliação preditiva de tesouraria para distribuidoras\", mudam o critério de comparação do diretor financeiro."
+  },
+  {
+    "id": "804",
+    "vol": "2",
+    "code": "C5",
+    "from": "Efeito secundário possível: two-sided se abrir para contadores parceiros (contador que usa a plataforma traz seus clientes).",
+    "to": "Efeito secundário de dois lados (*two-sided*): em uma plataforma financeira B2B (exemplo ilustrativo), cada contador parceiro conectado torna o sistema mais valioso para os demais clientes da sua carteira, pois centraliza conciliação, documentos fiscais e fechamento contábil num único ambiente."
+  },
+  {
+    "id": "811",
+    "vol": "2",
+    "code": "S5",
+    "from": "W. Chan Kim e Renée Mauborgne, professores do INSEAD, publicaram *Blue Ocean Strategy* em 2005 após quinze anos de pesquisa empírica analisando 150 movimentos estratégicos em 30 indústrias ao longo de cem anos.",
+    "to": "W. Chan Kim e Renée Mauborgne (professores do INSEAD e autores de *Blue Ocean Strategy*, 2005, já introduzido na seção do framework acima) desenvolveram o Strategy Canvas a partir da análise de 150 movimentos estratégicos em 30 setores."
+  },
+  {
+    "id": "812",
+    "vol": "2",
+    "code": "S7",
+    "from": "A linha superior representa o circo tradicional (Ringling, Barnum & Bailey): alto em estrelas, animais, múltiplas arenas, risco. A linha inferior representa o Cirque du Soleil: alto em tema, refinamento, música/teatro, atmosfera; baixo em estrelas e animais. Onde as curvas divergem dramaticamente, há diferenciação. Onde se sobrepõem, há comoditização.",
+    "to": "No gráfico acima, a curva que começa alta à esquerda representa o circo tradicional (Ringling Bros. and Barnum & Bailey): forte gasto em estrelas, espetáculos com animais e três picadeiros simultâneos. Já a curva que sobe à direita representa o Cirque du Soleil: reduz ou elimina animais e astros individuais para elevar tema artístico, trilha sonora original e ambientação teatral. Onde as duas curvas se afastam nasce a diferenciação; onde se sobrepõem há disputa pelo mesmo padrão."
+  },
+  {
+    "id": "813",
+    "vol": "2",
+    "code": "S4",
+    "from": "Use o Strategy Canvas na Fase 5 (mapeamento de mercado e concorrência) quando o setor parece saturado e você precisa decidir como diferenciar. Também use a cada 18-24 meses como check-up estratégico: concorrência se aproxima da sua curva ao longo do tempo, e o Strategy Canvas revela quando a diferenciação está erodindo. Use também em Fase 15 (reinvenção) quando considerar segunda curva.",
+    "to": "Use o Strategy Canvas na Fase 6 (mapeamento de mercado e concorrência) quando o setor parecer saturado e você precisar decidir onde divergir do padrão dos incumbentes. Repita o exercício a cada 18 a 24 meses como auditoria estratégica, pois os rivais tendem a copiar sua curva ao longo do tempo, e retome a ferramenta na Fase 19 (reinvenção e segunda curva, no Volume 9)."
+  },
+  {
+    "id": "814",
+    "vol": "2",
+    "code": "C5",
+    "from": "| Capilaridade física | Alta (rede bancária) | Baixa (foco digital) | Reduce |",
+    "to": "| Presença local de atendimento | Gerente bancário generalista | Polos locais com agentes próprios em campo (*Green Angels*) | Raise |"
+  },
+  {
+    "id": "815",
+    "vol": "2",
+    "code": "C4",
+    "from": "| Hardware proprietário | Padrão setor (Verifone) | Stone Box (proprietário) | Create |",
+    "to": "| Suporte técnico e logística | Terceirizado e lento (vários dias úteis) | Troca presencial rápida e atendimento em até 5 segundos (reconstituição ilustrativa inspirada no prospecto do IPO da Stone de 2018) | Create |"
+  },
+  {
+    "id": "816",
+    "vol": "2",
+    "code": "N7",
+    "from": "O conceito de \"cunha\" (wedge) vem da escola de go-to-market de Peter Thiel (*Zero to One*, 2014)",
+    "to": "A estratégia de entrar por um submercado específico e dominá-lo antes de expandir vem da cabeça de praia (*beachhead*) e da pista de boliche de Geoffrey Moore (*Crossing the Chasm*, 1991), reforçada pela tese de monopólio de nicho de Peter Thiel (*Zero to One*, 2014)"
+  },
+  {
+    "id": "817",
+    "vol": "2",
+    "code": "S4",
+    "from": "Use o Canvas da Cunha na Fase 5 (mapeamento de mercado) como entregável final antes de avançar para a Fase 6. É o artefato de saída da fase: sem ele preenchido e aprovado nos três testes complementares (Teste de Precisão do Comprador, ausência de escopo instável, independência de plataforma), a Fase 5 não está concluída. Use também em momentos de pivô (Fase 15): a segunda curva frequentemente exige redefinir a cunha, começando o ciclo de entrada de mercado novamente com o ativo da marca existente.",
+    "to": "Use o Canvas da Cunha na Fase 6 (mapeamento de mercado e concorrência) como entregável final antes de avançar para a Fase 7 (Volume 3). Sem ele preenchido e aprovado nos três testes complementares (Teste de Precisão do Comprador, ausência de escopo instável e independência de plataforma), a Fase 6 não está concluída. Retome o canvas também em momentos de reinvenção e segunda curva (Fase 19, no Volume 9)."
+  },
+  {
+    "id": "818",
+    "vol": "2",
+    "code": "C5",
+    "from": "Donos ou donas operacionais de padarias artesanais com 1-3 unidades físicas em São Paulo (capital + ABC), com delivery próprio via WhatsApp ou iFood",
+    "to": "Donos e sócios-operadores de pequenas redes de padarias artesanais com 3 a 5 unidades na capital paulista (coerente com o ICP refinado do PadariaPro nas Fases 4 e 5), com produção própria diária e perda recorrente de insumos"
+  },
+  {
+    "id": "819",
+    "vol": "2",
+    "code": "C3",
+    "from": "equivale a menos de 20 minutos do custo de mão de obra do dono.",
+    "to": "equivale a menos de 20 minutos por dia do custo de oportunidade do dono (cerca de 7 horas mensais a R$ 45/hora)."
+  },
+  {
+    "id": "820",
+    "vol": "2",
+    "code": "C5",
+    "from": "a partir de 2018, quando publicaram a taxonomia dos 16 tipos de network effects",
+    "to": "a partir de 2018, quando publicaram a taxonomia inicial de 13 tipos de efeitos de rede (posteriormente expandida pelo fundo para 16 categorias)"
+  },
+  {
+    "id": "821",
+    "vol": "2",
+    "code": "C5",
+    "from": "| **Belief** | Valor existe porque todos acreditam (convenção social) | Bitcoin, moeda fiat | ●●●●● |",
+    "to": "| **Belief** | Valor sustentado por convenção coletiva (frágil no início) | Criptoativos, padrão monetário | ●●○○○ |"
+  },
+  {
+    "id": "822",
+    "vol": "2",
+    "code": "C5",
+    "from": "**Terceiro: NE de dados são os mais subestimados.** Poucos fundadores percebem que o loop dados→modelo→produto→mais dados é um dos NE mais poderosos: e mais difíceis de copiar depois de certa escala.",
+    "to": "**Terceiro: efeitos de rede de dados costumam ser superestimados.** Como alertamos na seção do framework NFX, acumular mais dados só gera barreira competitiva real quando o volume adicional melhora o produto de forma automática, contínua e perceptível para o usuário antes de atingir assíntota."
+  },
+  {
+    "id": "827",
+    "vol": "2",
+    "code": "E12",
+    "from": "É exercício de 10-15 minutos, se demora mais, o próprio atraso já é o diagnóstico.",
+    "to": "É um exercício de 10 a 15 minutos. Se demorar mais que isso, o próprio atraso já é o diagnóstico."
+  },
+  {
+    "id": "828",
+    "vol": "2",
+    "code": "C5",
+    "from": "CRITÉRIOS DE APROVAÇÃO (3 checks obrigatórios):",
+    "to": "CRITÉRIOS DE APROVAÇÃO (os 3 critérios obrigatórios abaixo precisam passar; use as 6 perguntas do exemplo da seção como checklist complementar de acesso):"
+  },
+  {
+    "id": "829",
+    "vol": "2",
+    "code": "S4",
+    "from": "[ ] Teste de Precisão do Comprador (template A.11) aprovado.",
+    "to": "[ ] Teste de Precisão do Comprador (template anterior, nesta mesma seção) aprovado."
+  },
+  {
+    "id": "830",
+    "vol": "2",
+    "code": "S6",
+    "from": "### Transição: do Volume 2 (Descoberta e Mercado) para o Volume 3 (Hipóteses, Experimentos e Prototipagem)",
+    "to": "### Ponte para os Capítulos Complementares deste Volume (e preparação para o Volume 3)\n\nCom as Fases 4, 5 e 6 concluídas, os quatro capítulos a seguir aprofundam lentes transversais indispensáveis para operar no mercado brasileiro (psicologia do consumidor local, inteligência competitiva, design de categoria e lições de fracassos reais) antes de você iniciar a formulação de hipóteses e os experimentos da Fase 7 no Volume 3."
+  },
+  {
+    "id": "832",
+    "vol": "2",
+    "code": "N3",
+    "from": "Rafael e Bia importaram para o seu e-commerce D2C em Recife o funil exato que aprenderam em um curso americano de Growth",
+    "to": "Meses depois dos primeiros testes em campo, quando Rafael e Bia lançaram a frente D2C da sua marca a partir de Recife e do centro de distribuição em Goiânia, eles importaram o funil exato que tinham visto em um curso americano de Growth"
+  },
+  {
+    "id": "834",
+    "vol": "2",
+    "code": "C5",
+    "from": "somos o povo mais caloroso e comunicativo do mundo no primeiro contato",
+    "to": "o brasileiro costuma ser caloroso e receptivo no primeiro contato, mas fica desconfiado na hora de pagar (reflexo de golpes digitais frequentes e de juros do rotativo do cartão que superavam 400% ao ano antes do teto legal da Lei 14.690/2023, segundo séries do Banco Central)"
+  },
+  {
+    "id": "835",
+    "vol": "2",
+    "code": "C1",
+    "from": "Este capítulo descreve padrões estatísticos observáveis no comportamento de consumo brasileiro, sustentados por pesquisa e dados de mercado.",
+    "to": "Este capítulo reúne padrões recorrentes observados em campo e em levantamentos de mercado (como séries do Banco Central, relatórios da CNDL/SPC Brasil, Instituto Locomotiva e Reclame Aqui); trate cada padrão como hipótese a testar com o seu próprio cliente."
+  },
+  {
+    "id": "836",
+    "vol": "2",
+    "code": "N2",
+    "from": "### 1.1 — O que Torna o Consumidor Brasileiro Distinto",
+    "to": "### 1.1: O que Torna o Consumidor Brasileiro Distinto (e o que os áudios de Rafael e Bia revelaram)"
+  },
+  {
+    "id": "838",
+    "vol": "2",
+    "code": "C3",
+    "from": "No Brasil, a relação pessoal precede a transação comercial em grau mais pronunciado do que em mercados anglófonos ou asiáticos.",
+    "to": "No Brasil, a relação pessoal precede a transação comercial de modo muito mais acentuado do que em mercados de baixa contextualização como os Estados Unidos e o norte da Europa (como analisa Erin Meyer em *The Culture Map*, 2014)."
+  },
+  {
+    "id": "840",
+    "vol": "2",
+    "code": "C3",
+    "from": "se a parcela de R$100 for maior do que o que o consumidor sente que pode comprometer mensalmente.",
+    "to": "quando o desembolso de R$ 600 de uma só vez estoura o fôlego mensal da família, enquanto a parcela de R$ 100 cabe no orçamento do mês."
+  },
+  {
+    "id": "841",
+    "vol": "2",
+    "code": "E7",
+    "from": "Tática de redução de friction para switching:",
+    "to": "Táticas para reduzir o atrito da troca de fornecedor:"
+  },
+  {
+    "id": "843",
+    "vol": "2",
+    "code": "C1",
+    "from": "As classes C e D representam aproximadamente 54% da população brasileira e cerca de 40% do consumo.",
+    "to": "Segundo levantamentos da FGV Social, do Instituto Locomotiva e do Critério Brasil (ABEP), as classes C, D e E reúnem mais da metade da população brasileira e movimentam mais de 40% do consumo das famílias."
+  },
+  {
+    "id": "844",
+    "vol": "2",
+    "code": "E9",
+    "from": "gera churna mais rápido do que qualquer feature ausente.",
+    "to": "faz o cliente cancelar (ou pedir rebaixamento de plano) mais rápido do que qualquer funcionalidade ausente."
+  },
+  {
+    "id": "845",
+    "vol": "2",
+    "code": "C2",
+    "from": "Certificados SSL visíveis, selos de pagamento seguro (Ebit, Safe to Buy), e presença em sistemas como Boa Vista e Serasa verificáveis aumentam confiança",
+    "to": "Nota pública e índice de solução no Reclame Aqui, CNPJ e endereço físico consultáveis no rodapé, avaliações verificadas de clientes reais, política clara de devolução e presença em lojas oficiais de marketplaces aumentam a confiança"
+  },
+  {
+    "id": "846",
+    "vol": "2",
+    "code": "C1",
+    "from": "Pesquisas indicam que parcela relevante de consumidores brasileiros consulta o Reclame Aqui antes de comprar de empresa desconhecida.",
+    "to": "Levantamentos da própria plataforma Reclame Aqui e da CNDL/SPC Brasil mostram que grande parte dos consumidores brasileiros consulta a reputação da loja no Reclame Aqui antes de comprar pela primeira vez de uma marca desconhecida."
+  },
+  {
+    "id": "847",
+    "vol": "2",
+    "code": "C5",
+    "from": "O consumidor brasileiro tem baixa propensão a reclamar formalmente, mas alta propensão a cancelar silenciosamente",
+    "to": "No cotidiano de uso, muitos clientes brasileiros evitam abrir chamados técnicos de suporte para dar feedback construtivo sobre pequenas falhas, preferindo cancelar em silêncio (embora recorram publicamente ao Reclame Aqui ou ao Procon quando se sentem lesados financeiramente)"
+  },
+  {
+    "id": "848",
+    "vol": "2",
+    "code": "C3",
+    "from": "(anos pares)        (quadrienal)    aumento de consumo coletivo,     comunicação; B2C",
+    "to": "(a cada 4 anos; próxima em 2030)   (quadrienal, jun-jul)   aumento de consumo coletivo (além de Natal, Dia das Mães, Namorados, Pais, Crianças; 13º com 1ª parcela até 30/11 e 2ª até 20/12; e janela orçamentária B2B de set a nov),   comunicação; B2C e B2B"
+  },
+  {
+    "id": "849",
+    "vol": "2",
+    "code": "E1",
+    "from": "Vendedor que muda de empresa e leva clientes para o novo empregador não é exceção no Brasil, é padrão documentado. O relacionamento pertence à pessoa, não apenas à empresa.",
+    "to": "No Brasil, o vendedor que troca de empresa costuma levar parte da carteira consigo, porque a confiança foi construída com a pessoa. Planeje desde cedo a transição de contas e o relacionamento institucional para não depender de um único contato."
+  },
+  {
+    "id": "850",
+    "vol": "2",
+    "code": "C7",
+    "from": "Mais parcelas com parcela menor sempre converte melhor no segmento de massa, mesmo que o custo total seja maior (com juros).",
+    "to": "Parcelas menores costumam converter melhor no varejo de massa. Se houver incidência de juros no parcelamento, exiba com destaque o preço à vista, a taxa mensal e o Custo Efetivo Total (como exige o art. 52 do Código de Defesa do Consumidor) e evite empurrar planos longos a consumidores vulneráveis, em respeito à Lei do Superendividamento (Lei 14.181/2021)."
+  },
+  {
+    "id": "851",
+    "vol": "2",
+    "code": "C6",
+    "from": "\"30 dias de garantia ou devolvemos o dinheiro, sem perguntas\" tem efeito de conversão maior do que qualquer outro argumento de copy quando o consumidor está na margem de decisão.",
+    "to": "Como o art. 49 do Código de Defesa do Consumidor já garante 7 dias de direito de arrependimento em compras fora do estabelecimento (além da garantia legal do art. 26), oferecer \"30 dias de teste ou seu dinheiro de volta, sem burocracia\" explicita uma segurança extra que costuma aumentar mais a conversão do que o volume de devoluções."
+  },
+  {
+    "id": "852",
+    "vol": "2",
+    "code": "C4",
+    "from": "Nubank fez isso ao se posicionar como produto \"dos que se recusam a ser maltratados por banco\".",
+    "to": "O Nubank construiu sua marca desde 2013 posicionando-se contra a burocracia, as tarifas ocultas e as filas das agências bancárias tradicionais (leitura estratégica do posicionamento inicial da empresa)."
+  },
+  {
+    "id": "854",
+    "vol": "2",
+    "code": "S4",
+    "from": "- [[#MANUAL PASSO A PASSO DOS FRAMEWORKS DESTA FASE|Manual Passo a Passo dos Frameworks desta Fase]]",
+    "to": "- [[#MANUAL PASSO A PASSO DOS FRAMEWORKS DESTA FASE|Manual Passo a Passo dos Frameworks de Descoberta, Pesquisa e Mercado (Fases 4, 5 e 6)]]"
+  },
+  {
+    "id": "855",
+    "vol": "2",
+    "code": "C5",
+    "from": "disse o vendedor de Henrique durante a reunião de sexta-feira em Curitiba",
+    "to": "disse o pré-vendedor interno de Henrique durante a reunião de sexta-feira em Curitiba"
+  },
+  {
+    "id": "856",
+    "vol": "2",
+    "code": "E3",
+    "from": "não para tentar reverter a venda, mas com humildade cirúrgica:",
+    "to": "sem tentar reverter a venda, apenas para ouvir com franqueza o que havia pesado na decisão:"
+  },
+  {
+    "id": "857",
+    "vol": "2",
+    "code": "C1",
+    "from": "Nove em cada dez fundadores operam Inteligência Competitiva como fofoca de corredor ou espionagem amadora de redes sociais",
+    "to": "A maioria dos fundadores trata Inteligência Competitiva como fofoca de corredor ou espiadela ocasional em redes sociais"
+  },
+  {
+    "id": "858",
+    "vol": "2",
+    "code": "N7",
+    "from": "Aqui está o paradoxo de Jeff Bezos e Andy Grove aplicado ao mercado brasileiro:",
+    "to": "Jeff Bezos ensina a focar no cliente em vez de correr atrás dos rivais; Andy Grove lembra que só os atentos sobrevivem às viradas do setor. Os dois conselhos se completam no mercado brasileiro:"
+  },
+  {
+    "id": "860",
+    "vol": "2",
+    "code": "C7",
+    "from": "Concorrente com índice baixo tem problema de reputação explorado em comunicação.",
+    "to": "Concorrente com nota baixa no Reclame Aqui abre espaço para você destacar os seus próprios indicadores de suporte (sem difamar nem citar a marca rival de forma depreciativa, pois a publicidade comparativa no Brasil exige dados objetivos comprováveis pelo Código do CONAR e a difamação configura concorrência desleal na Lei 9.279/1996, art. 195)."
+  },
+  {
+    "id": "862",
+    "vol": "2",
+    "code": "C3",
+    "from": "Se um concorrente está sendo adquirido ou adquirindo, você sabe antes do anúncio formal.",
+    "to": "Atos de concentração entre grupos econômicos que superam os pisos legais de faturamento (R$ 750 milhões de um lado e R$ 75 milhões do outro) têm pareceres públicos no site do CADE, úteis para monitorar movimentos de grandes incumbentes do setor."
+  },
+  {
+    "id": "863",
+    "vol": "2",
+    "code": "C3",
+    "from": "**Diário Oficial:** Contratos com governo, licitações vencidas, registros de marcas são públicos. Concorrente que ganhou contrato com governo federal em um setor específico está construindo referência naquele vertical.",
+    "to": "**Fontes públicas oficiais (PNCP, INPI, Juntas e Bibliotecas de Anúncios):** Contratos e editais públicos podem ser consultados no Portal Nacional de Contratações Públicas (PNCP, Lei 14.133/2021) e no Portal da Transparência; pedidos de registro de marca saem na Revista da Propriedade Industrial (RPI) do INPI; alterações societárias ficam nas juntas comerciais; e campanhas pagas ativas aparecem na Biblioteca de Anúncios da Meta e na Central de Transparência de Anúncios do Google."
+  },
+  {
+    "id": "864",
+    "vol": "2",
+    "code": "S5",
+    "from": "#### 2.3.1 — Porter's Five Forces Revisitado para SaaS",
+    "to": "#### 2.3.1: As Cinco Forças de Porter e o VRIO aplicados a SaaS e IA (complemento aos frameworks da Fase 6)"
+  },
+  {
+    "id": "865",
+    "vol": "2",
+    "code": "C6",
+    "from": "**Poder de barganha dos fornecedores em SaaS:** Fornecedores críticos são provedores de infraestrutura (AWS, GCP, Azure), APIs de dados (bureaus de crédito, dados de saúde), e plataformas de distribuição (App Store, Salesforce AppExchange). Concentração em fornecedor único é risco estratégico.",
+    "to": "**Poder de barganha dos fornecedores em SaaS e produtos nativos em IA:** Os fornecedores de maior peso são os provedores de nuvem (AWS, GCP, Azure), as APIs de modelos de linguagem (OpenAI, Anthropic, Google, que controlam o preço por token, os limites de requisição e o risco de lançar funcionalidades que absorvam o seu produto), os birôs de dados e as lojas de aplicativos. Mitigue a dependência de um único modelo usando camada de abstração, roteamento entre mais de um provedor e dados proprietários do seu vertical."
+  },
+  {
+    "id": "866",
+    "vol": "2",
+    "code": "C5",
+    "from": "Intensificada por pricing transparente (todos publicam tabelas de preço)",
+    "to": "Intensificada pela transparência de preços nos produtos self-service (enquanto nas vendas corporativas complexas o preço segue fechado sob proposta, como veremos na seção 2.5)"
+  },
+  {
+    "id": "868",
+    "vol": "2",
+    "code": "C3",
+    "from": "**Engenharia reversa por anúncio de emprego:** Um SDR com quota de R$1,2 milhão por ano revela o ticket médio implícito (a regra de ouro é que SDR fecha 5-10x sua quota em ARR anualizado para inbound; ajuste para outbound). Se a empresa anuncia AE com OTE de R$350 mil, está trabalhando com tickets acima de R$80 mil.",
+    "to": "**Engenharia reversa por anúncio de emprego:** Quando uma vaga comercial divulga a remuneração total esperada (OTE, *On-Target Earnings*) ou a meta anual de receita recorrente (ARR) de um executivo de contas (AE, *Account Executive*, que recebe oportunidades qualificadas pelo pré-vendedor, o SDR), é possível estimar a faixa de preço do produto: como a meta anual de um AE costuma girar entre 4 e 5 vezes o seu OTE, dividir essa meta pelo número médio de contratos fechados no ano indica a ordem de grandeza do ticket anual."
+  },
+  {
+    "id": "869",
+    "vol": "2",
+    "code": "C7",
+    "from": "**Anunciar captação antes de fechar:** Criar percepção de momentum para atrair talentos e parceiros. Cuidado com exagero que configura fraude.",
+    "to": "**Comunicar rodadas apenas após o fechamento formal:** Anuncie captações somente depois dos contratos assinados e dos recursos liquidados em conta; divulgar rodada ainda em negociação viola cláusulas de confidencialidade do *term sheet*, expõe a empresa caso a transação não se concretize e pode induzir parceiros e candidatos a erro. Antes do fechamento, comunique marcos reais de produto e clientes."
+  },
+  {
+    "id": "870",
+    "vol": "2",
+    "code": "E9",
+    "from": "- Abertura de CNPJ ou escritório de representação (verificável no CNPJ.",
+    "to": "- Abertura de CNPJ local ou escritório de representação (verificável na consulta pública da Receita Federal e nas juntas comerciais)."
+  },
+  {
+    "id": "884",
+    "vol": "2",
+    "code": "C5",
+    "from": "#### 1. Os quatro pilares do framework (Play Bigger)",
+    "to": "#### 1. A tríade produto, empresa e categoria (aprofundando o framework Play Bigger apresentado na Fase 6)"
+  },
+  {
+    "id": "885",
+    "vol": "2",
+    "code": "E9",
+    "from": "**Pilar 2: Category Design (propriamente dito).** Nomear a categoria. Literalmente o vocabulário que o mercado vai usar. O nome precisa ser. Memorável. Duas, ou três palavras. Fácil de dizer em conversa. Distinto. Não confunde com categorias existentes. Evoca o problema. O nome sugere o que resolve. Pronunciável em várias línguas. Se for escalar globalmente.",
+    "to": "**Pilar 2: Nomeação e enquadramento da categoria.** Escolher o nome da categoria é definir o vocabulário que o mercado vai usar. Um bom nome precisa ser memorável (duas ou três palavras), fácil de usar em conversa, distinto dos rótulos antigos, capaz de sugerir o problema resolvido e, se houver plano de expansão internacional, pronunciável em outros idiomas."
+  },
+  {
+    "id": "887",
+    "vol": "2",
+    "code": "E9",
+    "from": "Adaptar para evento setorial próprio, em combinação com relatório próprio, mais três a cinco clientes-case, mais circuito de podcasts, é versão viável.",
+    "to": "Adaptar a estratégia combinando um evento setorial próprio, um relatório anual de dados do mercado, três a cinco clientes de referência que falem em público e uma rodada coordenada de participação em podcasts é um caminho viável."
+  },
+  {
+    "id": "888",
+    "vol": "2",
+    "code": "N2",
+    "from": "Uma narrativa de categoria madura tem estrutura consistente.",
+    "to": "Uma narrativa de categoria madura segue uma estrutura consistente em sete passos (como Marina estruturou ao batizar a categoria de \"Tesouraria Preditiva Autônoma\" para substituir a conciliação manual de boletos nas distribuidoras):"
+  },
+  {
+    "id": "890",
+    "vol": "2",
+    "code": "C1",
+    "from": "Share of voice na categoria declarada. Percentual de menções que citam nosso nome, quando a categoria é mencionada. Alvo. Igual ou maior que quarenta por cento, em dezoito meses pós-Lightning Strike.",
+    "to": "Participação nas menções da categoria (*share of voice*): percentual de citações do mercado que associam a sua marca ao nome da nova categoria. Defina a meta de evolução para doze a dezoito meses a partir da sua linha de base inicial, buscando tornar-se a referência mais lembrada nas buscas e conversas do setor."
+  },
+  {
+    "id": "891",
+    "vol": "2",
+    "code": "C3",
+    "from": "*Play Bigger* (também listado em Marca). *Obviously Awesome*, de April Dunford. Podcasts: *Category Thinkers*, com Lochhead.",
+    "to": "*Play Bigger* (Al Ramadan, Dave Peterson, Christopher Lochhead e Kevin Maney, 2016; ver também o Capítulo 6 do Volume 4). *Obviously Awesome*, de April Dunford (2019). Podcasts: *Follow Your Different* (de Christopher Lochhead)."
+  },
+  {
+    "id": "892",
+    "vol": "2",
+    "code": "N9",
+    "from": "porque entram em brigas societárias sem acordo de *vesting*, ou porque subestimam uma mudança regulatória do Banco Central ou da Receita Federal.",
+    "to": "porque entram em impasses societários por falta de governança e fundador único sem contrapesos (Padrão 4), ou porque são atropeladas por mudanças tecnológicas, regulatórias ou de plataforma (Padrão 5) e pela inversão do ciclo de capital (Padrão 8)."
+  },
+  {
+    "id": "893",
+    "vol": "2",
+    "code": "S7",
+    "from": "> AI lista PADROES de fracasso ilustrados por casos brasileiros.",
+    "to": "> Este capítulo analisa os padrões transversais de fracasso ilustrados por casos brasileiros (os estudos de caso individuais em profundidade estão no Capítulo 19 do Volume 9)."
+  },
+  {
+    "id": "896",
+    "vol": "2",
+    "code": "E2",
+    "from": "Fracassos tendem a ter padrões mais claros. Dinheiro acaba. Mercado muda. Concorrente come. Dá para analisar.",
+    "to": "Fracassos costumam deixar rastros mais nítidos: o caixa acaba, o mercado vira ou um concorrente mais eficiente toma o espaço, o que permite isolar as causas."
+  },
+  {
+    "id": "897",
+    "vol": "2",
+    "code": "E9",
+    "from": "Caso arquetípico, Easy Taxi (2011-2018). O padrão típico do Padrão 1, ser primeiro num mercado não é defensibilidade",
+    "to": "Caso: Easy Taxi (fundada em 2011, teve sua operação incorporada pela Cabify em 2017; compare com a rival 99, que lançou o 99Pop para carros particulares e foi adquirida pela Didi Chuxing em 2018). Ser o primeiro num mercado não garante defensibilidade"
+  },
+  {
+    "id": "898",
+    "vol": "2",
+    "code": "C4",
+    "from": "Caso arquetípico, Easy Taxi (2011-2018).",
+    "to": "Caso: Easy Taxi (fundada em 2011, incorporada pela Cabify em 2017)."
+  },
+  {
+    "id": "900",
+    "vol": "2",
+    "code": "S4",
+    "from": "Caso arquetípico, ciclo de delivery verticais (2014-2017, exemplos genéricos do ciclo).",
+    "to": "Caso ilustrativo: a safra de aplicativos de delivery de nicho entre 2014 e 2017 (que tentaram operar logística própria para um único segmento sem atingir densidade de rotas)."
+  },
+  {
+    "id": "901",
+    "vol": "2",
+    "code": "C7",
+    "from": "Se LTV/CAC for menor que três vezes em subescala, vai piorar em escala (quase sempre).",
+    "to": "Se a relação LTV/CAC estiver abaixo de 3x em pequena escala, investigue a causa antes de acelerar com capital externo: o custo de aquisição nos canais pagos tende a subir conforme você esgota os primeiros adotantes, embora o custo unitário de atendimento possa cair com ganhos de escala."
+  },
+  {
+    "id": "903",
+    "vol": "2",
+    "code": "C6",
+    "from": "Featurização é risco categorial, pergunte periodicamente, se big tech adicionar o que fazemos como feature, ainda teríamos negócio?",
+    "to": "Ser absorvido como função gratuita de uma plataforma maior (*featurização*) é um risco estrutural; pergunte a cada trimestre: se uma grande plataforma de nuvem ou um provedor de modelos de inteligência artificial (como ocorreu entre 2024 e 2026 com dezenas de aplicativos de resumo de PDF e redação simples diante das atualizações nativas de ChatGPT, Claude e Gemini) entregar o que fazemos dentro do pacote básico, ainda teremos um negócio defensável?"
+  },
+  {
+    "id": "904",
+    "vol": "2",
+    "code": "E9",
+    "from": "Pré-requisito não é \"temos capital\", é \"PMF sólido mais operação que não precisa mais do fundador diariamente mais caixa para dezoito meses ou mais de operação paralela\".",
+    "to": "O pré-requisito para cruzar a fronteira não é apenas ter dinheiro no banco, e sim reunir três condições simultâneas: PMF comprovado no Brasil, operação local que rode no dia a dia sem depender do fundador e caixa reservado para sustentar ao menos dezoito meses de operação no novo país."
+  },
+  {
+    "id": "906",
+    "vol": "2",
+    "code": "E10",
+    "from": "> Leu os sete padrões e identificou os dois ou três mais relevantes para seu estágio atual? Para cada padrão relevante, tem plano de mitigação documentado? Teste de defensibilidade (padrão um) aplicado recentemente? Teste de PMF real vs falso (padrão dois) validado com dados? Unit economics positivas em subescala antes de capital significativo (padrão três)? Dependência de fundador único avaliada e mitigada (padrão quatro)? Cenário \"big tech vira feature\" mapeado (padrão cinco)? Internacionalização respeita pré-requisitos (padrão seis)? Sistema de preservação de produto em escala funciona (padrão sete)? Revisão trimestral agendada no calendário?",
+    "to": "> Use a tabela de diagnóstico acima como ritual trimestral de revisão com seus sócios, preenchendo ao lado de cada padrão de risco aplicável ao seu estágio uma ação concreta de mitigação com responsável e prazo."
+  },
+  {
+    "id": "907",
+    "vol": "2",
+    "code": "S6",
+    "from": "### Casos brasileiros 2024-2026 — padrões da era pós-bolha",
+    "to": "### Padrão 8: O choque de ciclo de capital e a ressaca pós-2021 (casos brasileiros de 2020 a 2025)"
+  },
+  {
+    "id": "908",
+    "vol": "2",
+    "code": "C4",
+    "from": "com valuation US$ 3 bi alcançado em Série B liderada por SoftBank e Vulcan Capital em agosto de 2020",
+    "to": "alcançando avaliação de US$ 3 bilhões na rodada Série B de dezembro de 2020 liderada pela Vulcan Capital (após a Série A liderada pela Benchmark em 2019)"
+  },
+  {
+    "id": "909",
+    "vol": "2",
+    "code": "S2",
+    "from": "A lição operacional: captação grande sem decisão clara de \"onde apostar\" vira passivo.",
+    "to": "Captar uma grande rodada sem ter clareza de quais apostas de produto já provaram retenção transforma caixa abundante em estrutura fixa difícil de sustentar."
+  },
+  {
+    "id": "910",
+    "vol": "2",
+    "code": "C4",
+    "from": "Em 2024 foi vendida em processo com valuation significativamente menor que o último round privado",
+    "to": "Entre 2023 e 2024, enfrentando a contração do mercado de capitais e o custo pesado de cadeia fria, logística refrigerada e insumos perecíveis, precisou reestruturar operações e enxugar linhas para buscar equilíbrio operacional"
+  },
+  {
+    "id": "911",
+    "vol": "2",
+    "code": "C5",
+    "from": "Olist viveu trajetória intensa: captou rodadas grandes durante pandemia com tese de unificar logística de e-commerce para PMEs",
+    "to": "Olist cresceu conectando pequenos lojistas aos grandes marketplaces e, após captar rodadas expressivas até 2021 para expandir em ERP (Tiny), e-commerce (Vnda) e logística (PAX)"
+  },
+  {
+    "id": "912",
+    "vol": "2",
+    "code": "C4",
+    "from": "Escale, marketplace que conectava consumidores a provedores de serviços, anunciou em 2023 o encerramento ordenado da operação.",
+    "to": "No início de 2023, startups brasileiras que optaram pelo encerramento voluntário e ordenado da operação (comunicando clientes com antecedência, honrando rescisões e devolvendo o caixa remanescente aos acionistas antes de chegar à insolvência) deixaram uma lição importante de governança."
+  },
+  {
+    "id": "913",
+    "vol": "2",
+    "code": "C4",
+    "from": "O fundo reduziu significativamente operações em 2023-2024 sem comunicado público de encerramento",
+    "to": "O encolhimento dos próprios fundos de capital de risco entre 2022 e 2024 ilustra o lado sistêmico desse ciclo. Segundo levantamentos da Associação Latino-Americana de Capital de Risco (LAVCA) e do Distrito, o volume investido em venture capital no Brasil recuou mais de 70% entre o pico de 2021 e 2023, levando diversas gestoras locais de primeiro fundo a pausar novos cheques ou encerrar captações. Como o mercado de capital de risco é pró-cíclico, empresas que captaram no topo da euforia de 2020-2021 com múltiplos inflados precisaram cortar queima de caixa para atravessar anos de diligências muito mais severas."
+  },
+  {
+    "id": "914",
+    "vol": "2",
+    "code": "S7",
+    "from": "> Meliuz nao e caso de fracasso. Esta inclusa por uma decisao operacional ousada (alocacao de tesouraria em Bitcoin) que pode virar caso de aprendizado positivo ou negativo conforme o resultado. E case de \"decisao em jogo aberto\", documentado aqui para acompanhamento futuro do leitor.",
+    "to": "> *Nota: o caso a seguir não descreve um fracasso operacional, mas uma aposta de alto risco na gestão de tesouraria de uma companhia aberta brasileira.*"
+  },
+  {
+    "id": "915",
+    "vol": "2",
+    "code": "C4",
+    "from": "descobriu em 2024 que estava lucrativa, sem dívida, crescendo e ainda assim com market cap próximo de zero",
+    "to": "viu suas ações negociadas na B3 entre 2023 e 2024 em patamar próximo (e em certos pregões abaixo) do próprio saldo de caixa líquido da companhia"
+  },
+  {
+    "id": "916",
+    "vol": "2",
+    "code": "C7",
+    "from": "Pivôs de tesouraria são caminho legítimo, mas envolvem volatilidade que muda o perfil do investidor",
+    "to": "Alocar caixa corporativo em ativos voláteis como criptomoedas é uma operação de altíssimo risco fiduciário, contábil e tributário: exige aprovação formal do conselho de administração e dos acionistas, política escrita de gestão de risco e blindagem integral do capital de giro; para startups de capital fechado, o caixa deve permanecer 100% em liquidez conservadora atrelada ao CDI"
+  },
+  {
+    "id": "918",
+    "vol": "2",
+    "code": "C5",
+    "from": "Os sete padrões originais (escalar antes do PMF, queimar caixa em aquisição sem retenção, confundir hype com tração, assumir dívida de produto, entre outros) seguem todos válidos.",
+    "to": "Os sete padrões estruturais deste capítulo (ausência de defensibilidade real, falso PMF inflado por subsídio, unit economics negativas em escala, dependência de fundador único sem governança, compressão por plataformas e IA, expansão geográfica precoce e perda de velocidade de produto) seguem todos válidos."
+  }
+]

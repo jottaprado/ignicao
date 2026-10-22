@@ -1,0 +1,2396 @@
+[
+  {
+    "id": "1377",
+    "vol": "4",
+    "code": "N3",
+    "from": "Era terça-feira, 23h40, em Florianópolis. O primeiro MVP do sistema de Marina e Lucas estava pronto para ser liberado para os doze clientes que haviam pago o piloto.",
+    "to": "Era terça-feira, 23h40, em São Paulo, com Marina conectada por videochamada direto de Florianópolis. O primeiro MVP do sistema de Marina e Lucas estava pronto para ser liberado para os doze clientes que haviam pago o piloto."
+  },
+  {
+    "id": "1378",
+    "vol": "4",
+    "code": "N3",
+    "from": "Lucas, seus colegas de engenharia não pagam os nossos boletos.",
+    "to": "Lucas, eu mesma travei na semana passada revisando a planilha de preços três vezes antes de mandar, mas aprendi que perfeccionismo de bastidor não paga os nossos boletos."
+  },
+  {
+    "id": "1380",
+    "vol": "4",
+    "code": "E4",
+    "from": "Mas atenção ao paradoxo brutal da Fase 11: **você tem permissão para lançar um produto esteticamente espartano, mas jamais tem permissão para lançar um produto que quebre a promessa central ou corrompa os dados do cliente**.",
+    "to": "A regra da Fase 11 tem duas metades: o produto pode sair feio por fora, mas jamais pode quebrar a promessa central nem corromper os dados do cliente."
+  },
+  {
+    "id": "1381",
+    "vol": "4",
+    "code": "E1",
+    "from": "Um MVP em produção não é um lixo cheio de bugs que trava no primeiro clique; é um bisturi pequeno, feio por fora, mas cirurgicamente confiável na única tarefa que prometeu executar.",
+    "to": "Um MVP em produção pode ser simples por fora, mas executa sem falha a única tarefa que prometeu resolver."
+  },
+  {
+    "id": "1383",
+    "vol": "4",
+    "code": "S4",
+    "from": "> [!tip] Stack mínimo da Fase 10",
+    "to": "> [!tip] Stack mínimo da Fase 11 (referência antecipada para o Passo 1)"
+  },
+  {
+    "id": "1384",
+    "vol": "4",
+    "code": "E9",
+    "from": "Cache: Redis<br/>se precisar, não 'caso precise'",
+    "to": "Cache: Redis<br/>só quando a lentidão aparecer, não por precaução"
+  },
+  {
+    "id": "1386",
+    "vol": "4",
+    "code": "C5",
+    "from": "MVP não é o produto cortado pela metade, com metade dos botões e metade do design. MVP é um processo obsessivo de validação que se concentra em responder duas perguntas por ciclo.",
+    "to": "MVP é o experimento mais barato que testa a hipótese mais arriscada da vez; na Fase 11 ele já assume a forma de software funcional em produção, focado em responder duas perguntas por ciclo."
+  },
+  {
+    "id": "1387",
+    "vol": "4",
+    "code": "C5",
+    "from": "#### Fase 1 do ciclo, Teste de Demanda (Landing Page)",
+    "to": "#### Etapa 1 do ciclo: Teste de Demanda e Problema (Landing Page, meta de 10% de conversão em cadastro)"
+  },
+  {
+    "id": "1388",
+    "vol": "4",
+    "code": "C1",
+    "from": "Threshold forte: mais de dez por cento para cadastro, mais de três por cento para pré-pedido pago. Threshold crítico: menos de dois por cento para cadastro significa que o gancho não ressoa.",
+    "to": "Corte forte (regra prática de operação): acima de 10% para cadastro e acima de 3% para pré-pedido pago. Faixa intermediária (entre 2% e 10% de cadastro): ajuste o gancho da oferta ou a segmentação do público e rode o teste por mais uma semana. Corte crítico: abaixo de 2% para cadastro indica que o gancho não ressoa."
+  },
+  {
+    "id": "1389",
+    "vol": "4",
+    "code": "E9",
+    "from": "use planilha mais WhatsApp mais e-mail",
+    "to": "use planilha, WhatsApp e e-mail"
+  },
+  {
+    "id": "1390",
+    "vol": "4",
+    "code": "C7",
+    "from": "O cliente não precisa saber que é manual.",
+    "to": "O cliente não precisa ver a automação dos bastidores, mas o contrato e a política de privacidade devem prever que pessoas da equipe tratam os dados sob sigilo (especialmente em dados financeiros ou de saúde, em conformidade com a LGPD)."
+  },
+  {
+    "id": "1394",
+    "vol": "4",
+    "code": "E2",
+    "from": "Seis itens. Número de usuários ativos. Taxa de retenção (D7, D30, D60). Conversão de trial para pago. NPS ou score de satisfação. Receita total. CAC médio.",
+    "to": "Escreva a meta e a faixa de fracasso para seis indicadores: usuários ativos (ex.: meta de 12 empresas ativas; fracasso abaixo de 5), retenção em D7, D30 e D60 (ex.: D30 acima de 60%; fracasso abaixo de 30%), conversão de piloto para pago (ex.: acima de 50%), satisfação ou NPS, receita recorrente total e CAC médio."
+  },
+  {
+    "id": "1395",
+    "vol": "4",
+    "code": "C5",
+    "from": "Entrega do valor quase inteiramente manual, com produto mínimo como interface. Útil para aprender operacionalmente antes de automatizar.",
+    "to": "Entrega do valor em beta fechado ou lançamento silencioso, recorrendo a etapas manuais de bastidor (Concierge ou Wizard of Oz, vistos na etapa 2 do ciclo) apenas nos fluxos secundários que ainda não compensa automatizar no código."
+  },
+  {
+    "id": "1397",
+    "vol": "4",
+    "code": "S4",
+    "from": "Decisões tomadas agora sobre motion (PLG versus SLG) moldam o stack de métricas da Fase 10.",
+    "to": "A escolha agora entre o modelo de crescimento puxado pelo produto (PLG) e o puxado por vendas (SLG) define o que você vai medir nesta Fase 11 e na Fase 12."
+  },
+  {
+    "id": "1398",
+    "vol": "4",
+    "code": "C1",
+    "from": "Esse contato direto é onde mora setenta por cento do aprendizado.",
+    "to": "É nesse contato direto que você aprende a maior parte do que precisa para corrigir o produto."
+  },
+  {
+    "id": "1399",
+    "vol": "4",
+    "code": "C3",
+    "from": "Brian Chesky, Joe Gebbia, e Nathan Blecharczyk fotografavam pessoalmente apartamentos dos anfitriões em Nova York",
+    "to": "Brian Chesky e Joe Gebbia foram pessoalmente fotografar os apartamentos dos anfitriões em Nova York (como relata Paul Graham no ensaio *Do Things that Don't Scale*)"
+  },
+  {
+    "id": "1400",
+    "vol": "4",
+    "code": "E3",
+    "from": "Os primeiros cinquenta a cem clientes precisam ser adquiridos com atenção cirúrgica que nenhum anúncio pago consegue replicar.",
+    "to": "Os primeiros cinquenta a cem clientes pedem uma atenção individual que nenhum anúncio pago replica."
+  },
+  {
+    "id": "1401",
+    "vol": "4",
+    "code": "E7",
+    "from": "##### Atendimento direto pelos founders",
+    "to": "##### Atendimento direto pelos fundadores"
+  },
+  {
+    "id": "1402",
+    "vol": "4",
+    "code": "C3",
+    "from": "A coorte (grupo de usuários com comportamento similar analisado junto): usuários que ativaram na semana X.",
+    "to": "A coorte (grupo de usuários que iniciaram no mesmo período): por exemplo, todos os usuários que ativaram na semana X."
+  },
+  {
+    "id": "1403",
+    "vol": "4",
+    "code": "C6",
+    "from": "Se você está em trial gratuito, tenha data de cobrança clara.",
+    "to": "Se você está em período de teste gratuito ou piloto pago, defina a data de cobrança desde o dia um, formalize um termo de piloto simples (com preço, prazo e escopo), configure cobrança recorrente via cartão, boleto ou Pix Automático e emita a NFS-e no padrão nacional vigente em 2026 (incluindo os campos informativos de IBS e CBS da reforma tributária)."
+  },
+  {
+    "id": "1405",
+    "vol": "4",
+    "code": "C5",
+    "from": "Cobertura inicial: duas capitais (Rio de Janeiro e São Paulo).",
+    "to": "Cobertura inicial do piloto: foco concentrado no Rio de Janeiro, expandindo a operação comercial estruturada para São Paulo na etapa seguinte."
+  },
+  {
+    "id": "1406",
+    "vol": "4",
+    "code": "C3",
+    "from": "Integração com ERPs de varejo (TOTVS, SAP). Viria via aquisição da Linx em 2020.",
+    "to": "Software próprio de gestão para o varejo (POS e ERP). Viria anos depois, com a aquisição da Linx, anunciada em 2020 e concluída em 2021."
+  },
+  {
+    "id": "1407",
+    "vol": "4",
+    "code": "C5",
+    "from": "Maquininha proprietária (hardware), produzida internamente. Só depois da validação do modelo comercial.",
+    "to": "Hardware customizado e distribuição logística própria em escala nacional (os polos locais de atendimento presencial). No início, usou terminais POS de fornecedores homologados (como Ingenico e PAX) para validar o modelo comercial e o software de adquirência."
+  },
+  {
+    "id": "1409",
+    "vol": "4",
+    "code": "C4",
+    "from": "Retenção em D mais noventa acima de noventa por cento nos primeiros lojistas. Sinal de produto pegando.",
+    "to": "Retenção elevada em D+90 nos primeiros lojistas (nesta reconstrução ilustrativa do piloto), sinalizando que o serviço resolvia a dor operacional do varejista."
+  },
+  {
+    "id": "1410",
+    "vol": "4",
+    "code": "E4",
+    "from": "> [!important] A lição transferível do MVP da Stone",
+    "to": "> [!important] O que a Stone deixou de fora na largada"
+  },
+  {
+    "id": "1413",
+    "vol": "4",
+    "code": "S4",
+    "from": "##### Sucesso claro, siga para a Fase 11",
+    "to": "##### Sucesso claro: siga para a Fase 12"
+  },
+  {
+    "id": "1414",
+    "vol": "4",
+    "code": "C5",
+    "from": "Cinco ou mais usuários reais usando o MVP em produção por quatro ou mais semanas (idealmente cinco ou mais pagando recorrentemente).",
+    "to": "Dez ou mais clientes reais pagando e usando o MVP em produção por pelo menos oito semanas (ou cinco clientes pagantes no caso de B2B enterprise de tíquete alto)."
+  },
+  {
+    "id": "1415",
+    "vol": "4",
+    "code": "C1",
+    "from": "SaaS <5 min após sign-up, marketplaces <7 dias até primeira transação, consumer <60 segundos para primeira interação de valor.",
+    "to": "SaaS self-serve em poucos minutos após o cadastro, SaaS B2B com implantação ou integração (como o de Lucas e Marina) dentro do prazo de ativação definido no Passo 2, marketplaces na primeira semana e apps de consumo no primeiro minuto de uso."
+  },
+  {
+    "id": "1416",
+    "vol": "4",
+    "code": "S6",
+    "from": "Churn mensal abaixo de 5% (excelente <2%; preocupante >10%), NPS ≥30 (forte ≥50), MRR growth ≥10% mês a mês (forte ≥20%)",
+    "to": "Sinais iniciais de retenção da coorte (mais de 40% dos usuários ativos na quarta semana), satisfação qualitativa positiva nas entrevistas de acompanhamento e primeiros clientes renovando o pagamento (métricas estabilizadas de churn mensal e crescimento de MRR serão exigidas nas Fases 12 e 13)"
+  },
+  {
+    "id": "1417",
+    "vol": "4",
+    "code": "N9",
+    "from": "### Fazer um lançamento barulhento para a imprensa antes de garantir que os primeiros 10 clientes consigam usar até o fim",
+    "to": "### Sete erros do MVP em produção (incluindo fazer alarde na imprensa antes de reter os 10 primeiros clientes)\n\nBuscar cobertura na imprensa ou fazer lançamento ruidoso antes que os dez primeiros clientes completem o fluxo central sem travar só amplifica falhas em público. Quando Lucas e Marina lançaram seu piloto, adiaram qualquer anúncio no LinkedIn até que os doze diretores financeiros conciliassem os primeiros lotes de boletos sem erro."
+  },
+  {
+    "id": "1418",
+    "vol": "4",
+    "code": "E9",
+    "from": "Duas semanas de dados não dá conclusão.",
+    "to": "Duas semanas de dados não bastam para concluir."
+  },
+  {
+    "id": "1419",
+    "vol": "4",
+    "code": "N4",
+    "from": "O que está impedindo você de colocar o produto na mão de clientes reais hoje: um risco real de quebrar a operação do cliente, ou apenas o seu orgulho ferido porque a interface ainda está simples?",
+    "to": "O que impede você de colocar o produto na mão de clientes reais hoje: um risco técnico real de corromper dados ou o desconforto com uma interface simples? (Se houver risco aos dados, volte ao Passo 1 e blinde a operação; se for apenas estética, libere o acesso aos dez primeiros usuários hoje e acompanhe o uso no Passo 4.)"
+  },
+  {
+    "id": "1420",
+    "vol": "4",
+    "code": "C5",
+    "from": "Você está autorizado a não fazer festa de lançamento, não contratar assessoria de imprensa e não postar texto emocionado no LinkedIn no dia do deploy.",
+    "to": "Na largada do MVP, você está autorizado a operar em beta fechado: sem festa de lançamento, sem assessoria de imprensa e sem post emocionado no LinkedIn no dia do deploy (reserve o roteiro de lançamento público de 60 a 90 dias para quando a retenção já estiver validada, na Fase 13 ou no Capítulo 7)."
+  },
+  {
+    "id": "1421",
+    "vol": "4",
+    "code": "N5",
+    "from": "Assista às gravações de sessão (ou sente ao lado) dos últimos cinco usuários que entraram no produto.",
+    "to": "Na mesma reunião de segunda-feira do Passo 6, depois de revisar as métricas da semana, assista às gravações de sessão (ou sente-se ao lado) dos últimos cinco usuários que entraram no produto."
+  },
+  {
+    "id": "1424",
+    "vol": "4",
+    "code": "E12",
+    "from": "O lançamento público não é evento. É período de 60 a 120 dias: 4 a 8 semanas de pré-lançamento (waitlist com 500-2.000 e-mails qualificados, building in public, rede pessoal aquecida",
+    "to": "Quando o MVP já tiver retenção comprovada no beta fechado, o lançamento público funciona como uma janela de 60 a 90 dias dividida em três etapas: 4 a 8 semanas de pré-lançamento (lista de espera com 500 a 2.000 e-mails qualificados, construção em público, rede pessoal aquecida"
+  },
+  {
+    "id": "1425",
+    "vol": "4",
+    "code": "C3",
+    "from": "Algumas empresas crescem sem launch público tradicional (Figma, Notion, Superhuman) via PLG orgânico.",
+    "to": "Algumas empresas crescem sem evento de lançamento tradicional: a Superhuman escalou no início por lista de espera e onboarding individual conduzido pelos fundadores, enquanto produtos como o Notion cresceram por adoção orgânica e comunidade antes de grandes campanhas."
+  },
+  {
+    "id": "1426",
+    "vol": "4",
+    "code": "N9",
+    "from": "Todos os frameworks abaixo estão detalhados integralmente com origem, estrutura, passo a passo de aplicação, exemplo brasileiro e armadilhas para execução imediata nesta **Fase 11**.",
+    "to": "Todos os frameworks abaixo estão detalhados integralmente com origem, estrutura, passo a passo de aplicação, exemplo aplicado (incluindo o caso de conciliação financeira de Lucas e Marina) e armadilhas para execução imediata nesta **Fase 11**."
+  },
+  {
+    "id": "1427",
+    "vol": "4",
+    "code": "E7",
+    "from": "Determinar o target customer.",
+    "to": "Definir o cliente-alvo (*target customer*), identificar necessidades mal atendidas (*unmet needs*), definir a proposta de valor (*value proposition*), especificar o conjunto mínimo de funções (*feature set*), construir o protótipo de MVP e testar com clientes."
+  },
+  {
+    "id": "1428",
+    "vol": "4",
+    "code": "N8",
+    "from": "Passos 1-6 como acima. Em cada, disciplina de **evidência**: target real, needs reais, não especulação.",
+    "to": "Aplique os passos 1 a 6 da pirâmide com evidência real, como fizeram Lucas e Marina: (1) cliente-alvo: diretor financeiro de PME com mais de 500 boletos/mês; (2) necessidade mal atendida: pagamentos duplicados e juros por falha de conciliação; (3) proposta de valor: auditoria automática em 5 minutos; (4) funções mínimas: upload de remessa CNAB e alerta de divergência; (5) protótipo funcional web sem painel cosmético; (6) teste ao vivo com os 12 pilotos pagantes."
+  },
+  {
+    "id": "1429",
+    "vol": "4",
+    "code": "E9",
+    "from": "Pular target customer: construir genérico, Feature set ambicioso: MVP grande, não é \"mínimo\" nem \"viable\", Teste teatral: não com clientes reais.",
+    "to": "Pular o cliente-alvo: o produto sai genérico. Conjunto de funções ambicioso: o MVP fica grande demais e deixa de ser mínimo. Teste de fachada: validar com amigos em vez de clientes reais."
+  },
+  {
+    "id": "1430",
+    "vol": "4",
+    "code": "C3",
+    "from": "Microsoft (onde rodou + 200k experimentos)",
+    "to": "Microsoft (onde liderou a plataforma de experimentação em larga escala da empresa, documentada em *Trustworthy Online Controlled Experiments*)"
+  },
+  {
+    "id": "1431",
+    "vol": "4",
+    "code": "S7",
+    "from": "1. Duração pré-definida: baseada em cálculo, não \"rodar até dar certo\".",
+    "to": "4. Duração pré-definida (continuação dos itens 1 a 3 acima): baseada no cálculo amostral e em ciclos semanais completos (7 ou 14 dias), nunca \"rodar até dar certo\"."
+  },
+  {
+    "id": "1432",
+    "vol": "4",
+    "code": "C2",
+    "from": "Sem peeking: não olhar resultado parcial, destrói validade estatística. Revisar só no prazo.",
+    "to": "Sem interromper no meio (*peeking*): em testes frequentistas clássicos, parar o experimento ao primeiro sinal positivo infla falsos positivos; só acompanhe e encerre antes do prazo se utilizar testes sequenciais formalmente configurados (disponíveis em plataformas como GrowthBook, Optimizely, Statsig, adquirida pela OpenAI em 2025, e Eppo, adquirida pela Datadog em 2025)."
+  },
+  {
+    "id": "1434",
+    "vol": "4",
+    "code": "E9",
+    "from": "- Baseline: 3.2% conversion atual.",
+    "to": "- Linha de base (*baseline*): 3,2% de conversão atual (usando vírgula decimal e ponto de milhar em todas as leituras, como n = 48.000 por variante e p < 0,05)."
+  },
+  {
+    "id": "1435",
+    "vol": "4",
+    "code": "C5",
+    "from": "- Sample size calculado: ~28k visitantes por variante.",
+    "to": "- Tamanho de amostra calculado: cerca de 48.000 visitantes por variante (~96.000 no total, exigindo ~6.900 visitantes/dia ao longo de 14 dias para detectar efeito mínimo de 10% relativo sobre 3,2%, com p bicaudal em torno de 0,0015)."
+  },
+  {
+    "id": "1438",
+    "vol": "4",
+    "code": "S7",
+    "from": "| Referral | K-factor | 0.15 |, |",
+    "to": "| Referral | K-factor | 0,15 | não se aplica |"
+  },
+  {
+    "id": "1439",
+    "vol": "4",
+    "code": "C3",
+    "from": "Dobrar activation de 30% → 50% geraria **R$ 340/mês extra em MRR** (assumindo ticket R$ 200)",
+    "to": "Elevar a ativação de 30% para 50% renderia cerca de 27 clientes pagantes a mais por coorte mensal (passando de 40 para ~67 pagantes), o que representa cerca de **R$ 5.330/mês adicionais em novo MRR** (assumindo tíquete de R$ 200)"
+  },
+  {
+    "id": "1440",
+    "vol": "4",
+    "code": "C3",
+    "from": "Eyal distingue \"facilitator\" (produto que cria hábito com valor para usuário) de \"exploiter\" (cria hábito sem valor).",
+    "to": "Na Matriz da Manipulação, Eyal distingue quatro perfis conforme o criador use o próprio produto e acredite que ele melhora a vida do usuário: *facilitator* (facilitador, que usa e gera valor real), *peddler* (mascate, que acredita no valor mas não usa), *entertainer* (animador, que usa mas sabe que não melhora a vida) e *dealer* (traficante, que não usa nem gera valor; já em *Indistractable*, de 2019, o autor trata de gestão da atenção pessoal contra distrações)."
+  },
+  {
+    "id": "1447",
+    "vol": "4",
+    "code": "N7",
+    "from": "O framework virou o padrão de facto de métricas early-stage em aceleradoras e fundos de venture capital global, incluindo YC, Antler e os principais VCs brasileiros.",
+    "to": "O modelo AARRR difundiu-se amplamente na literatura de produto e growth (como em *Lean Analytics*, de Croll e Yoskovitz, 2013), e o formato visual em tela única usado aqui (Pirate Canvas) é uma adaptação prática para organizar métricas, canais e hipóteses lado a lado."
+  },
+  {
+    "id": "1448",
+    "vol": "4",
+    "code": "S4",
+    "from": "Use o Pirate Canvas na Fase 10 (MVP e primeiros usuários) como estrutura padrão de instrumentação de métricas.",
+    "to": "Use o Pirate Canvas nesta Fase 11 (MVP e primeiros usuários) como estrutura padrão de instrumentação de métricas (e mais adiante, na Fase 15, no Vol. 6, para orientar a divisão de orçamento por etapa do funil)."
+  },
+  {
+    "id": "1450",
+    "vol": "4",
+    "code": "C5",
+    "from": "SaaS B2B: retenção D30 > 70%. Consumer app: retenção D30 > 25%.",
+    "to": "SaaS B2B: retenção da coorte em D30 acima de 60% para usuários ativos (ou acima de 40% no piso mínimo do primeiro piloto; acima de 80% quando medida por logotipo de empresa pagante). Consumer app: retenção em D30 acima de 25%."
+  },
+  {
+    "id": "1452",
+    "vol": "4",
+    "code": "C3",
+    "from": "| **Referral** | NPS (escala 0-100) | 52 | > 50 | ✅ Dentro |",
+    "to": "| **Referral** | NPS (escala de -100 a +100) | 52 | > 50 | ✅ Dentro |"
+  },
+  {
+    "id": "1453",
+    "vol": "4",
+    "code": "E1",
+    "from": "o problema não era \"crescer\" (Acquisition OK), não era \"produto ruim\" (Retention e NPS OK), e não era \"precificação\" (ARPU OK). Era **Activation**",
+    "to": "aquisição, retenção, NPS e receita média por usuário estavam dentro da meta; o gargalo real estava concentrado em **Activation** (ativação)"
+  },
+  {
+    "id": "1461",
+    "vol": "4",
+    "code": "E9",
+    "from": "Cobrir os 12 itens criticos de qualquer launch publico de produto MVP, evitando que voce descubra um buraco basico nos primeiros tres dias.",
+    "to": "Cobrir os 15 itens críticos de qualquer lançamento público de produto MVP (do pré-lançamento aos primeiros 7 dias), evitando que você descubra uma falha básica de operação, divulgação ou suporte nos primeiros três dias."
+  },
+  {
+    "id": "1462",
+    "vol": "4",
+    "code": "C6",
+    "from": "[ ] LGPD em conformidade",
+    "to": "[ ] Conformidade com a LGPD e Linha Vermelha técnica: base legal mapeada por finalidade, contratos de tratamento de dados com operadores (nuvem, e-mail, analytics), canal do titular e encarregado definidos, plano de resposta a incidentes, backup restaurável testado e procedimento de rollback ensaiado"
+  },
+  {
+    "id": "1466",
+    "vol": "4",
+    "code": "N3",
+    "from": "Rafael entrou no escritório em Recife vibrando: no mês da Black Friday, a marca deles havia faturado R$ 310 mil brutos",
+    "to": "Rafael entrou na chamada de vídeo direto de Recife para o escritório da operação em Goiânia vibrando: no mês da Black Friday, a marca deles havia faturado R$ 310 mil brutos"
+  },
+  {
+    "id": "1467",
+    "vol": "4",
+    "code": "N3",
+    "from": "Rafael, cada vez que o sininho da loja apitou neste mês e você comemorou",
+    "to": "Rafael, a sua campanha com criadores foi brilhante para atrair o público, e eu mesma errei ao não travar o frete grátis no checkout ontem; mas, cada vez que o sininho da loja apitou neste mês"
+  },
+  {
+    "id": "1470",
+    "vol": "4",
+    "code": "S4",
+    "from": "> [!question] FMF Check da Fase 11",
+    "to": "> [!question] FMF Check da Fase 12 (Founder-Market Fit: o encaixe entre fundador e mercado)"
+  },
+  {
+    "id": "1471",
+    "vol": "4",
+    "code": "E9",
+    "from": "Modelos óbvios têm concorrência saudando. Não são defensáveis por FMF.",
+    "to": "Modelos óbvios atraem concorrência de sobra, e o conhecimento acumulado do fundador (FMF) não basta para protegê-los."
+  },
+  {
+    "id": "1474",
+    "vol": "4",
+    "code": "N9",
+    "from": "### Calculando o CAC Fully-Loaded, a Margem de Contribuição Nível 1/2/3 e o Payback em regime de caixa",
+    "to": "### Os onze passos da validação financeira: do CAC completo e Margem de Contribuição ao teste Default Alive\n\nAo apurar a margem unitária (Passos 2 e 3), separe três níveis: Margem de Contribuição Nível 1 (receita líquida de impostos menos custo direto da mercadoria ou infraestrutura), Nível 2 (após taxas de pagamento, frete e comissões variáveis) e Nível 3 (após o custo de mídia e aquisição direta do pedido), medindo o payback pelo efetivo desembolso e recebimento no caixa."
+  },
+  {
+    "id": "1476",
+    "vol": "4",
+    "code": "C5",
+    "from": "LTV é aproximadamente igual ao ARPU (receita média por usuário) dividido pelo churn (simplificado).",
+    "to": "LTV é igual ao ARPU mensal (receita média mensal por cliente) multiplicado pela margem bruta e dividido pelo churn mensal: LTV = (ARPU × Margem Bruta) ÷ Churn Mensal, enquanto o CAC Payback em meses é CAC ÷ (ARPU × Margem Bruta)."
+  },
+  {
+    "id": "1477",
+    "vol": "4",
+    "code": "S4",
+    "from": "Aqui na Fase 11 o cap table aparece em versão simplificada porque é input direto da modelagem financeira",
+    "to": "Aqui na Fase 12 o cap table aparece em versão simplificada porque é insumo direto da modelagem financeira"
+  },
+  {
+    "id": "1479",
+    "vol": "4",
+    "code": "C6",
+    "from": "| Detentor | Classe de ação | Número de ações | Percentual antes desta rodada | Número de ações após | Percentual após |",
+    "to": "| Detentor (sócio ou investidor) | Classe de quota/ação (em LTDA são quotas; ações preferenciais exigem S.A. ou conversão de mútuo conversível, ver Vol. 5, Cap. 16) | Número de quotas/ações | Percentual antes desta rodada | Número de quotas/ações após | Percentual após |"
+  },
+  {
+    "id": "1480",
+    "vol": "4",
+    "code": "C3",
+    "from": "subgraph S1[\"🌱 SEED<br/>R$ 2M @ R$ 10M pré\"]",
+    "to": "subgraph S1[\"🌱 SEED<br/>R$ 1,25M @ R$ 11,25M pré (~10%)\"]"
+  },
+  {
+    "id": "1481",
+    "vol": "4",
+    "code": "C5",
+    "from": "subgraph S3[\"📈 SÉRIE B<br/>R$ 60M @ R$ 300M pré<br/>diluição ~17%\"]",
+    "to": "subgraph S3[\"📈 SÉRIE B<br/>R$ 95M @ R$ 300M pré<br/>diluição ~24%\"]"
+  },
+  {
+    "id": "1482",
+    "vol": "4",
+    "code": "C5",
+    "from": "A diluição típica de founder em trajetória SaaS brasileira: oitenta por cento (Seed), depois cinquenta e nove por cento (Série A), depois quarenta e um por cento (Série B)",
+    "to": "A participação retida pelos fundadores nesta trajetória ilustrativa: 80% após o Seed, 59% após a Série A, 41% após a Série B e cerca de 20% a 30% na Série C ou D"
+  },
+  {
+    "id": "1483",
+    "vol": "4",
+    "code": "C3",
+    "from": "Se eu parasse de adquirir novos clientes agora, o negócio seria rentável operacionalmente com os clientes atuais?",
+    "to": "Separe dois testes distintos: (1) a economia unitária é saudável (margem de contribuição positiva e payback do CAC dentro da meta)? e (2) quantos clientes ativos faltam para que a margem de contribuição acumulada cubra 100% dos custos fixos operacionais (ponto de equilíbrio ou *break-even*)?"
+  },
+  {
+    "id": "1484",
+    "vol": "4",
+    "code": "C3",
+    "from": "Graham aponta um calculador público (aord.io/calc) útil para o cálculo mecânico.",
+    "to": "No ensaio original de 2015, Graham indica a calculadora pública criada por Trevor Blackwell (growth.tlb.org), mas uma planilha simples de fluxo de caixa mensal resolve o cálculo."
+  },
+  {
+    "id": "1485",
+    "vol": "4",
+    "code": "N7",
+    "from": "argumenta que ele mata mais startups que qualquer fraude, erro técnico ou concorrente. O roteiro é quase sempre o mesmo, em sete passos.",
+    "to": "descreve a armadilha de combinar caixa curto, crescimento lento e dependência de uma nova rodada. Na prática operacional, o enredo costuma desenrolar-se nestes sete passos:"
+  },
+  {
+    "id": "1486",
+    "vol": "4",
+    "code": "E1",
+    "from": "Não é lucratividade tradicional. Não é escala. Não é sucesso financeiro. É apenas sobrevivência infinita.",
+    "to": "Não é o lucro folgado de uma empresa madura: é o ponto em que a receita cobre o custo básico de vida dos fundadores e a empresa deixa de depender da próxima rodada para continuar viva."
+  },
+  {
+    "id": "1487",
+    "vol": "4",
+    "code": "C3",
+    "from": "Mas que é sistematicamente ignorado em favor de \"vamos captar pré-Seed\". Que tipicamente traz menos dinheiro total do que doze meses de ramen-profitable consistente.",
+    "to": "Ainda assim, muitos fundadores ignoram essa meta estimada para perseguir uma rodada pré-Seed precoce, esquecendo que doze meses no ponto *ramen-profitable* compram autonomia equivalente à de um cheque anjo inicial, sem diluição societária."
+  },
+  {
+    "id": "1488",
+    "vol": "4",
+    "code": "E9",
+    "from": "##### Combinação Default Alive vezes Ramen Profitable vezes Crescimento, matriz operacional",
+    "to": "##### Matriz operacional: Default Alive, Ramen Profitable e Crescimento"
+  },
+  {
+    "id": "1489",
+    "vol": "4",
+    "code": "N3",
+    "from": "### Os onze passos aplicados, unit economics do PadariaPro depois de três meses de piloto",
+    "to": "### Os onze passos aplicados: unit economics do PadariaPro após três meses de piloto (caso didático de reprovação no gate)"
+  },
+  {
+    "id": "1491",
+    "vol": "4",
+    "code": "C5",
+    "from": "O CAC estimado, com base nos três pilotos, e em extrapolação.",
+    "to": "O CAC estimado, com base nos três pilotos e em extrapolação (nota: como o gate da Fase 12 exige CAC real fora da rede pessoal e pelo menos seis meses de leitura de churn, o PadariaPro ainda não cumpre os critérios de saída desta fase)."
+  },
+  {
+    "id": "1492",
+    "vol": "4",
+    "code": "C3",
+    "from": "Churn projetado: três por cento ao mês (vira trinta e seis por cento ao ano), típico de SaaS B2B inicial. Vida média do cliente: vinte e oito meses.",
+    "to": "Churn projetado: 3% ao mês (o que compõe cerca de 31% ao ano) ou ~3,6% ao mês de forma conservadora para resultar em vida média de 28 meses (com 3% exatos, a vida média seria de 33 meses e o LTV de R$ 26.500)."
+  },
+  {
+    "id": "1493",
+    "vol": "4",
+    "code": "C5",
+    "from": "No cenário pessimista (CAC maior, churn maior): 22.260 dividido por 3.000, ou seja, 7 para 1. Ainda viável.",
+    "to": "No cenário pessimista (CAC de R$ 3.000 e churn dobrando para 6% ao mês, o que reduz a vida média para 16,7 meses e o LTV para R$ 13.250): R$ 13.250 divididos por R$ 3.000 resultam em 4,4 para 1. Ainda viável, mas sem folga."
+  },
+  {
+    "id": "1494",
+    "vol": "4",
+    "code": "C3",
+    "from": "Se for seis a oito por cento, o LTV cai para R$ 14 mil, e a razão fica apertada. **Teste:** manter conversa semanal com os três primeiros clientes, e medir NPS mensal.",
+    "to": "Se ficar entre 6% e 8% ao mês, o LTV cai para a faixa de R$ 9,9 mil a R$ 13,3 mil, e a razão LTV/CAC fica apertada. **Teste:** manter conversa semanal com os três primeiros clientes e monitorar a frequência de uso por loja (deixando o NPS para quando a base superar 30 clientes)."
+  },
+  {
+    "id": "1496",
+    "vol": "4",
+    "code": "E3",
+    "from": "A descoberta foi cirúrgica.",
+    "to": "A abertura dos números por canal revelou uma assimetria clara."
+  },
+  {
+    "id": "1499",
+    "vol": "4",
+    "code": "C5",
+    "from": "- [ ] Margem bruta unitária de 60% ou mais (SaaS típico), ou justificada se menor.",
+    "to": "- [ ] Margem bruta unitária de 70% ou mais em SaaS puro (ou 60%+ em SaaS com infraestrutura de IA ou atendimento humano; em marketplaces, margem bruta de 60%+ sobre a receita líquida do *take rate*), ou justificada se menor."
+  },
+  {
+    "id": "1500",
+    "vol": "4",
+    "code": "C5",
+    "from": "- [ ] Churn mensal ≤5% (B2C) ou ≤2% (B2B SaaS); MRR growth mensal acompanhado se aplicável.",
+    "to": "- [ ] Churn mensal de clientes (logo churn) ≤ 5% em B2C ou ≤ 2% a 3% em SaaS B2B PME no estágio inicial (com meta de ≤ 1% a 1,5% em receita líquida à medida que a base amadurece); crescimento mensal de MRR acompanhado."
+  },
+  {
+    "id": "1501",
+    "vol": "4",
+    "code": "S4",
+    "from": "### Transição, Fase 11 para Fase 12",
+    "to": "### Transição: da Fase 12 para a Fase 13"
+  },
+  {
+    "id": "1502",
+    "vol": "4",
+    "code": "S4",
+    "from": "Se algum está fora da faixa em todos os canais testados, fique na Fase 11 e ajuste",
+    "to": "Se algum indicador estiver fora da faixa em todos os canais testados, fique na Fase 12 e ajuste"
+  },
+  {
+    "id": "1503",
+    "vol": "4",
+    "code": "S4",
+    "from": "**Fase 11 e Fase 12 medem dimensões independentes**, não etapas sequenciais: Fase 11 valida *modelo viável*, Fase 12 valida *produto amado pelo mercado*.",
+    "to": "**A Fase 12 e a Fase 13 medem dimensões independentes**: a Fase 12 valida um *modelo economicamente viável*, enquanto a Fase 13 valida um *produto amado pelo mercado (PMF)*. Quatro cenários no fim da Fase 12 orientam a sequência:"
+  },
+  {
+    "id": "1504",
+    "vol": "4",
+    "code": "S4",
+    "from": "avance para Fase 12 só para confirmar e medir; siga para Fase 13/14 em paralelo.",
+    "to": "avance para a Fase 13 para confirmar e medir o PMF, e prepare a passagem para as Fases 14 e 15 (captação e escala) em paralelo."
+  },
+  {
+    "id": "1505",
+    "vol": "4",
+    "code": "S4",
+    "from": "Fase 12 vai confirmar PMF, mas Fase 14 precisa atacar economics primeiro.",
+    "to": "A Fase 13 vai confirmar o PMF, mas a economia unitária precisa ser consertada aqui mesmo na Fase 12 antes de avançar para a Fase 14 (captação)."
+  },
+  {
+    "id": "1506",
+    "vol": "4",
+    "code": "S4",
+    "from": "não tente \"consertar\" pela Fase 12 sozinho.",
+    "to": "não tente consertar apenas medindo PMF na Fase 13."
+  },
+  {
+    "id": "1507",
+    "vol": "4",
+    "code": "N5",
+    "from": "Se o resultado for negativo ou levar mais de 12 meses para se pagar, ajuste preço ou corte custo antes do almoço.",
+    "to": "Em vendas recorrentes (SaaS), compare o CAC completo com a margem de contribuição acumulada em 12 meses; se a conta não fechar em até 12 meses, escolha uma alavanca (preço, frete, escopo ou canal) e leve o plano de ajuste com os números para a reunião semanal dos sócios."
+  },
+  {
+    "id": "1511",
+    "vol": "4",
+    "code": "C5",
+    "from": "| CAC Payback | Meses para recuperar custo de aquisição | ≤ 12 meses B2C, ≤ 18 meses B2B |",
+    "to": "| CAC Payback | Meses para recuperar o CAC pela margem bruta mensal | ≤ 6 a 12 meses B2C, ≤ 12 meses B2B PME, ≤ 18 meses Enterprise |"
+  },
+  {
+    "id": "1512",
+    "vol": "4",
+    "code": "C1",
+    "from": "| Magic Number | Net new ARR / Sales & Marketing spend | ≥ 0.75 para escalar |",
+    "to": "| Magic Number | Novo ARR líquido do trimestre ÷ gasto de vendas e marketing do trimestre anterior (referência Bessemer/Scale VP) | ≥ 0,75 para acelerar escala |"
+  },
+  {
+    "id": "1513",
+    "vol": "4",
+    "code": "E9",
+    "from": "NPS como métrica única: simplifica demais, complementar com CSAT, CES, retention real, Ignorar follow-up qualitativo: score sem diagnóstico não ajuda, NPS inflado via sampling",
+    "to": "Usar o NPS como métrica única simplifica demais: complemente com CSAT, CES e retenção real. Ignorar a pergunta aberta: a nota sem o motivo não orienta ação. Inflar o NPS por viés de amostragem"
+  },
+  {
+    "id": "1514",
+    "vol": "4",
+    "code": "E9",
+    "from": "Developed from pesquisa com 75k+ clientes.",
+    "to": "Desenvolvido a partir de uma pesquisa com mais de 75 mil clientes."
+  },
+  {
+    "id": "1515",
+    "vol": "4",
+    "code": "S7",
+    "from": "-... (rest).",
+    "to": "- Demais canais dos 19 (como relações públicas, anúncios em display e eventos offline) descartados nesta rodada por alto custo inicial ou ciclo longo."
+  },
+  {
+    "id": "1522",
+    "vol": "4",
+    "code": "S4",
+    "from": "Use o Risk Canvas na Fase 11 (modelo de negócio) como check-up antes de comprometer recursos significativos",
+    "to": "Use o Risk Canvas nesta Fase 12 (validação do modelo de negócio) como check-up antes de comprometer recursos significativos"
+  },
+  {
+    "id": "1523",
+    "vol": "4",
+    "code": "S4",
+    "from": "Em Fase 15 (reinvenção), refaça o Risk Canvas para a segunda curva",
+    "to": "Na Fase 19 (reinvenção e segunda curva, Vol. 9), refaça o Risk Canvas para o novo ciclo"
+  },
+  {
+    "id": "1524",
+    "vol": "4",
+    "code": "C4",
+    "from": "A Méliuz (cashback e cupons, listada na B3 em 2020) decidiu expandir para cartão de crédito próprio com Banco Inter. O Risk Canvas antes da decisão:",
+    "to": "Quando a Méliuz (cashback e cupons, que abriu capital na B3 em 2020) expandiu para oferta de cartão de crédito co-branded (lançado em 2019 em parceria com o Banco Pan, antes da aquisição do Acesso Bank), enfrentou dilemas clássicos de transição para serviços financeiros. Reconstrução ilustrativa de um Risk Canvas para esse tipo de decisão:"
+  },
+  {
+    "id": "1528",
+    "vol": "4",
+    "code": "S4",
+    "from": "> [!important] A lição mais importante da Fase 12",
+    "to": "> [!important] A lição mais importante da Fase 13"
+  },
+  {
+    "id": "1529",
+    "vol": "4",
+    "code": "S4",
+    "from": "subgraph PMF[\"Product-Market Fit<br/>(Fase 12)\"]",
+    "to": "subgraph PMF[\"Product-Market Fit<br/>(Fase 13)\"]"
+  },
+  {
+    "id": "1530",
+    "vol": "4",
+    "code": "C5",
+    "from": "Produto com PMF tem curva que estabiliza num patamar acima de zero, mesmo que seja 15% ou 20%.",
+    "to": "Produto com PMF tem curva de retenção que para de cair e estabiliza num patamar horizontal cujo piso saudável depende da categoria (por exemplo, 20% a 25%+ em apps de consumo e marketplaces, 30%+ em assinaturas B2C e 40%+ de usuários ativos ou 70%+ de contas pagantes em SaaS B2B)."
+  },
+  {
+    "id": "1531",
+    "vol": "4",
+    "code": "N7",
+    "from": "Em *Crossing the Chasm*, Geoffrey Moore formaliza que PMF real exige que o produto passe em três testes simultaneamente.",
+    "to": "Popularizado por Marc Andreessen em 2007 (a partir da ênfase de Andy Rachleff no mercado), o conceito de PMF ganha clareza operacional quando combinado às três lentes clássicas do *design thinking* (difundidas pela IDEO: desejabilidade, viabilidade e exequibilidade), exigindo que o negócio passe em três testes simultaneamente."
+  },
+  {
+    "id": "1532",
+    "vol": "4",
+    "code": "C1",
+    "from": "Modelos de crescimento saturam, em média, a cada doze a dezoito meses.",
+    "to": "Canais e alavancas de crescimento costumam dar sinais de saturação ao longo de um a dois anos de operação (como analisa Brian Balfour nos ensaios sobre *Four Fits*)."
+  },
+  {
+    "id": "1533",
+    "vol": "4",
+    "code": "S4",
+    "from": "A Fase 12 é revisitada ao longo de toda a vida da empresa. Não é evento único.",
+    "to": "A Fase 13 (Product-Market Fit) é revisitada ao longo de toda a vida da empresa, sempre que o mercado, o canal ou o produto mudam de patamar."
+  },
+  {
+    "id": "1535",
+    "vol": "4",
+    "code": "C5",
+    "from": "Sete técnicas complementares.",
+    "to": "Cinco sinais complementares que se reforçam mutuamente."
+  },
+  {
+    "id": "1536",
+    "vol": "4",
+    "code": "C1",
+    "from": "SaaS B2B: quarenta por cento ou mais em D90, estável até D180.",
+    "to": "Referências práticas iniciais para calibrar com os seus próprios dados: em SaaS B2B, 40% ou mais de retenção de usuários ativos em D90, estável até D180 (e acima de 70% a 80% quando medida por conta pagante)."
+  },
+  {
+    "id": "1538",
+    "vol": "4",
+    "code": "S4",
+    "from": "Identificar quando você entrou na [[IGNICAO-Vol-1-Ideacao#FASE 2 — ARTICULAÇÃO E CAPTURA DA IDEIA|Fase 2 (Vol. 1)]] (a \"inflexão\")",
+    "to": "Identificar quando você entrou no segundo estágio da curva em S (o trecho íngreme da inflexão)"
+  },
+  {
+    "id": "1539",
+    "vol": "4",
+    "code": "S4",
+    "from": "Se você está rodando Fase 12 sob pressão de tempo, leia o callout de regra combinada ao final e volte aqui depois.",
+    "to": "Se você está rodando a Fase 13 sob pressão de tempo, pule direto para o quadro da regra combinada ao final desta subseção e volte aqui depois."
+  },
+  {
+    "id": "1540",
+    "vol": "4",
+    "code": "N7",
+    "from": "Desigualdade de retornos não é injusta. É matemática.",
+    "to": "Como observa Paul Graham em *Superlinear Returns* (2023), ambientes governados por composição e limiares de desempenho produzem resultados matematicamente muito concentrados."
+  },
+  {
+    "id": "1541",
+    "vol": "4",
+    "code": "N6",
+    "from": "Sean Ellis acima de quarenta por cento, *e* retenção estabilizada, *e* crescimento semanal de cinco por cento ou mais por oito ou mais semanas, é PMF confirmado.",
+    "to": "Como leitura rápida do scorecard de seis dimensões desta fase, combinar Sean Ellis acima de 40%, curva de retenção estabilizada por coorte e crescimento consistente por oito ou mais semanas confirma que o produto atingiu o PMF no segmento avaliado."
+  },
+  {
+    "id": "1542",
+    "vol": "4",
+    "code": "S4",
+    "from": "Prossiga para a [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18 (Vol. 8)]] (estruturação formal), e a [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16 (Vol. 6)]] (escala).",
+    "to": "Prossiga para a Fase 14 (capital para escala, Vol. 5) e a Fase 15 (máquina de crescimento, Vol. 6), conduzindo a Fase 18 (estruturação jurídica, Vol. 8) em paralelo."
+  },
+  {
+    "id": "1543",
+    "vol": "4",
+    "code": "C5",
+    "from": "A empresa atinge PMF, cresce três a quatro vezes em nove meses, descobre que o crescimento quebrou a operação",
+    "to": "A empresa atinge o PMF de demanda e retenção, acelera vendas três a quatro vezes em nove meses sem antes preparar o pré-requisito de exequibilidade operacional para a escala (Fases 14 e 15), descobre que o volume quebrou o suporte"
+  },
+  {
+    "id": "1544",
+    "vol": "4",
+    "code": "C4",
+    "from": "Reconstrução do diagnóstico que João Pedro Resende e Mateus Bicalho poderiam ter feito no fim de 2014.",
+    "to": "Reconstrução hipotética e ilustrativa do diagnóstico de PMF que João Pedro Resende e Mateus Bicalho poderiam ter preenchido no fim de 2014 (os números de Sean Ellis, retenção de coorte e NPS abaixo são simulações didáticas, com 16% de detratores equivalendo a 8 em 50 respondentes, combinadas aos marcos públicos da empresa)."
+  },
+  {
+    "id": "1545",
+    "vol": "4",
+    "code": "S4",
+    "from": "Hipóteses a testar nas Fases 13 e 14.",
+    "to": "Hipóteses de expansão pós-PMF a testar nas Fases 14 e 15."
+  },
+  {
+    "id": "1546",
+    "vol": "4",
+    "code": "C1",
+    "from": "O mercado brasileiro endereçável é, tipicamente, dez a vinte por cento do americano para o mesmo segmento.",
+    "to": "Em muitos recortes de software B2B especializado, o número de empresas com orçamento para a solução no Brasil é uma fração menor do que o equivalente nos Estados Unidos (embora em setores como agronegócio, meios de pagamento e saúde o volume brasileiro seja continental)."
+  },
+  {
+    "id": "1547",
+    "vol": "4",
+    "code": "E1",
+    "from": "Isso não é PMF. É um canal bom.",
+    "to": "Se os usuários somem em 30 dias, você tem um canal pago eficiente, mas o PMF ainda não chegou."
+  },
+  {
+    "id": "1548",
+    "vol": "4",
+    "code": "C5",
+    "from": "Para declarar PMF com confiança, você precisa de evidência em pelo menos 4 das 6 dimensões.",
+    "to": "Para declarar PMF com confiança no segmento medido, você precisa aprovar pelo menos 4 das 6 dimensões abaixo (usando o checklist de saída adiante como folha de verificação dessas mesmas 6 dimensões)."
+  },
+  {
+    "id": "1549",
+    "vol": "4",
+    "code": "C5",
+    "from": "Survey com amostra de ≥ 50 usuários ativos",
+    "to": "Pesquisa com amostra mínima de 40 usuários ativos (ou entrevistas individuais com 100% das contas em B2B enterprise de base pequena, tratando o índice como sinal qualitativo)"
+  },
+  {
+    "id": "1550",
+    "vol": "4",
+    "code": "E9",
+    "from": "Fundar contrata VP de Sales, VP de Marketing e começa a escalar aquisição antes de ter PMF.",
+    "to": "O fundador contrata um vice-presidente de vendas e outro de marketing e começa a escalar a aquisição antes de comprovar o PMF."
+  },
+  {
+    "id": "1551",
+    "vol": "4",
+    "code": "C5",
+    "from": "- [ ] NPS ≥ 40 (idealmente ≥ 50), sustentado por dois ou mais trimestres.",
+    "to": "- [ ] NPS ≥ 30 em B2B enterprise ou ≥ 40 em B2C e PME (ou ≥ 50 como sinal forte, descontando o viés cultural de notas altas no Brasil descrito na seção anterior), sustentado por dois ou mais trimestres."
+  },
+  {
+    "id": "1552",
+    "vol": "4",
+    "code": "C3",
+    "from": "- [ ] Taxa de crescimento semanal entre 5% e 7% sustentada por oito ou mais semanas (benchmark YC para PMF emergente).",
+    "to": "- [ ] Taxa de crescimento semanal de 5% ou mais sustentada por oito ou mais semanas (ou, em B2B de ciclo longo, média móvel de quatro a seis semanas ou crescimento mensal composto de 15% a 20%+)."
+  },
+  {
+    "id": "1553",
+    "vol": "4",
+    "code": "E6",
+    "from": "### O Espelho da Fase 13: Você Está Empurrando a Pedra no Morro ou Segurando o Cabo de Guerra?",
+    "to": "### O espelho da Fase 13: a pedra já desce o morro sozinha ou você ainda empurra cada venda?"
+  },
+  {
+    "id": "1554",
+    "vol": "4",
+    "code": "N5",
+    "from": "Envie hoje a pesquisa de uma única pergunta de Sean Ellis para os clientes que usaram seu produto pelo menos duas vezes nas últimas duas semanas.",
+    "to": "Toda segunda-feira, abra a curva de retenção da coorte mais recente e ligue para um cliente que reduziu o uso na última semana (aplicando a pesquisa de Sean Ellis uma vez por trimestre quando houver amostra mínima de 40 usuários ativos, ou entrevistas diretas em B2B de base concentrada)."
+  },
+  {
+    "id": "1557",
+    "vol": "4",
+    "code": "S6",
+    "from": "Todos os frameworks abaixo estão detalhados integralmente com origem, estrutura, passo a passo de aplicação, exemplo brasileiro e armadilhas para execução imediata nesta **Fase 13**.",
+    "to": "Os frameworks abaixo combinam métodos diretos de medição e priorização de PMF (North Star Metric, HEART, RICE/ICE e Continuous Discovery, além do modelo Kano aplicado à retenção) com ferramentas complementares de posicionamento, narrativa e pesquisa que preparam a transição para os Capítulos 3, 6 e 7."
+  },
+  {
+    "id": "1558",
+    "vol": "4",
+    "code": "C5",
+    "from": "Confidence: confiança na estimativa (100%, 80%, 50%).",
+    "to": "Confidence: confiança na estimativa (100% para evidência alta, 80% média, 50% baixa e 30% ou menos para apostas especulativas; atenção para que itens fáceis e cosméticos, como *dark mode*, não passem na frente de alavancas reais de retenção)."
+  },
+  {
+    "id": "1561",
+    "vol": "4",
+    "code": "C3",
+    "from": "ICE = (Impact × Confidence × Ease) / 3 (ou produto simples)",
+    "to": "ICE = Impact × Confidence × Ease (produto simples das três notas de 1 a 10, como usado na tabela abaixo; algumas equipes usam a média aritmética (I + C + E) ÷ 3, bastando manter a mesma convenção em todo o backlog)"
+  },
+  {
+    "id": "1562",
+    "vol": "4",
+    "code": "C3",
+    "from": "*The North Star Playbook* (John Cutler, 2020, gratuito)",
+    "to": "*The North Star Playbook* (John Cutler e Jason Scherschligt, Amplitude, 2019, gratuito)"
+  },
+  {
+    "id": "1563",
+    "vol": "4",
+    "code": "E9",
+    "from": "Não captura valor entregue, Múltiplas North Stars simultâneas: dilui foco. Uma, Inputs desconectados: métricas que não comprovadamente impactam North Star",
+    "to": "não capturam valor real entregue. Múltiplas North Stars simultâneas: diluem o foco; escolha apenas uma. Inputs desconectados: métricas de entrada que não movem comprovadamente a North Star"
+  },
+  {
+    "id": "1564",
+    "vol": "4",
+    "code": "E1",
+    "from": "Positioning é cognitivo, não do produto. Não é sobre \"ser melhor\", é sobre \"ser diferente\" de forma relevante.",
+    "to": "O posicionamento mora na cabeça do cliente: o objetivo é ocupar um espaço distinto num critério que o comprador já valoriza."
+  },
+  {
+    "id": "1565",
+    "vol": "4",
+    "code": "C3",
+    "from": "7. Reframe competitive alternatives: mostrar por que alternativas são inadequadas.",
+    "to": "7. Determinar a categoria de mercado (seguindo os 10 passos de *Obviously Awesome*: listar clientes que amam o produto, montar o time multifuncional, alinhar o vocabulário, listar alternativas reais, isolar atributos únicos, mapear temas de valor, definir quem mais se importa, escolher o contexto de mercado, conectar uma tendência relevante e registrar em um canvas compartilhado)."
+  },
+  {
+    "id": "1566",
+    "vol": "4",
+    "code": "N7",
+    "from": "\"Para [segmento] que [problema], [produto] é um [categoria] que [unique value], diferentemente de [alternativas], oferece [unique benefits].\"",
+    "to": "No modelo clássico de declaração de posicionamento de Geoffrey Moore (*Crossing the Chasm*, 1991): \"Para [segmento] que [problema], [produto] é um [categoria] que [diferencial central]; diferentemente de [alternativas], oferece [benefício exclusivo]\" (nota: April Dunford evita essa frase rígida e registra os cinco componentes diretamente num quadro de posicionamento)."
+  },
+  {
+    "id": "1567",
+    "vol": "4",
+    "code": "C1",
+    "from": "Resultado: conversion de landing page +40%, sales cycle reduziu 3 semanas.",
+    "to": "Resultado (caso composto ilustrativo, números de referência): conversão da página de captura subiu 40% e o ciclo comercial encurtou em 3 semanas."
+  },
+  {
+    "id": "1568",
+    "vol": "4",
+    "code": "E7",
+    "from": "1. A character (cliente = herói).",
+    "to": "1. Um personagem (*a character*: o cliente é o herói da história, que tem um problema, encontra um guia com um plano, é chamado à ação, evita o fracasso e alcança o sucesso)."
+  },
+  {
+    "id": "1569",
+    "vol": "4",
+    "code": "C5",
+    "from": "#### Framework: Content Marketing Flywheel (HubSpot, Brian Halligan, 2018; inbound marketing 2004)",
+    "to": "#### Framework: Content Marketing Flywheel (HubSpot, Brian Halligan, 2018; inbound marketing cunhado em 2005 e lançado com a HubSpot em 2006)"
+  },
+  {
+    "id": "1581",
+    "vol": "4",
+    "code": "C5",
+    "from": "##### Passo a passo na parede da sala (30 a 60 minutos)",
+    "to": "##### Passo a passo na parede da sala (3 a 4 horas na primeira versão; 30 a 60 minutos nas revisões)"
+  },
+  {
+    "id": "1583",
+    "vol": "4",
+    "code": "S7",
+    "from": "Sintetizar em uma pagina os indicadores que dizem se voce tem PMF, evitando autoengano comum de declarar PMF cedo demais.",
+    "to": "Sintetizar em uma página os indicadores das seis dimensões que mostram se você atingiu o PMF (com metas em % e faixas claras), evitando o autoengano comum de declarar PMF cedo demais."
+  },
+  {
+    "id": "1584",
+    "vol": "4",
+    "code": "N9",
+    "from": "**Exemplo de preenchimento.** SaaS B2B com 80 clientes pagantes, 6 meses pos-launch.",
+    "to": "**Exemplo de preenchimento.** SaaS B2B com 80 clientes pagantes, 6 meses pós-lançamento (Sean Ellis em 46% com 50 respondentes, retenção de contas em D90 em 88%, crescimento de MRR de 18% ao mês, LTV/CAC de 4,5x, payback de 9 meses e 28% de aquisição orgânica -> veredito: PMF confirmado em 6 de 6 dimensões)."
+  },
+  {
+    "id": "1585",
+    "vol": "4",
+    "code": "E9",
+    "from": "- \"Buchas\" de clientes que ficariam zangados se cancelasse, ___",
+    "to": "- Número e percentual de clientes ativos que ficariam \"muito decepcionados\" se o produto deixasse de existir: ___"
+  },
+  {
+    "id": "1586",
+    "vol": "4",
+    "code": "C5",
+    "from": "mais quinze por cento ou mais de novos clientes orgânicos, mais resistência à parada de marketing. Quatro testes em conjunto. Três de quatro é PMF parcial em algum segmento.",
+    "to": "20% ou mais de novos clientes vindos por canais orgânicos ou indicação, NPS na faixa saudável, economia unitária validada e crescimento consistente. São as seis dimensões do scorecard em conjunto: aprovar pelo menos quatro das seis dimensões confirma o PMF no segmento avaliado."
+  },
+  {
+    "id": "1587",
+    "vol": "4",
+    "code": "E9",
+    "from": "o Sean Ellis Score acima de quarenta por cento, mais curva de retenção estabilizada por coorte",
+    "to": "o Sean Ellis Score acima de 40%, curva de retenção estabilizada por coorte"
+  },
+  {
+    "id": "1588",
+    "vol": "4",
+    "code": "S6",
+    "from": "### Transição: do Volume 4 (Tração e PMF) para os Volumes de Escala (Volumes 5 a 8)",
+    "to": "### Ponte para os Capítulos 1 a 16 deste Volume (e preparação para os Volumes 5 a 8)\n\nOs dezesseis capítulos a seguir funcionam como manual tático de execução para construir e destravar cada engrenagem exigida nas Fases 11, 12 e 13 (da primeira venda pelo fundador aos modelos de precificação, retenção, dados e pivotagem); conclua a validação do PMF com eles antes de acionar a escala intensiva de capital e time dos Volumes 5 a 8."
+  },
+  {
+    "id": "1591",
+    "vol": "4",
+    "code": "E3",
+    "from": "Então bateram no muro invisível dos R$ 15 mil mensais.",
+    "to": "Então empacaram nos R$ 15 mil de receita mensal."
+  },
+  {
+    "id": "1592",
+    "vol": "4",
+    "code": "N2",
+    "from": "Três meses depois, o vendedor havia fechado zero contratos e queimado R$ 54 mil do caixa da empresa.",
+    "to": "Três meses depois, o vendedor havia fechado zero contratos e queimado R$ 54 mil do caixa (só destravaram quando voltaram a vender pessoalmente o plano de R$ 149 a R$ 1.490 e contrataram primeiro um SDR júnior para agendar reuniões enquanto Marina fechava)."
+  },
+  {
+    "id": "1593",
+    "vol": "4",
+    "code": "C5",
+    "from": "os próprios fundadores vendem os primeiros 20 a 50 contratos no peito",
+    "to": "os próprios fundadores conduzem de 50 a 100 conversas comerciais e fecham pessoalmente os primeiros 20 contratos fora da rede de amigos"
+  },
+  {
+    "id": "1594",
+    "vol": "4",
+    "code": "C1",
+    "from": "A maioria das startups que fracassa no Brasil não fracassa por produto ruim, fracassa por distribuição errada.",
+    "to": "Muitas startups brasileiras que já construíram um produto funcional travam e morrem porque erram na arquitetura de distribuição (além da falta de demanda e de caixa apontada nos levantamentos clássicos da CB Insights)."
+  },
+  {
+    "id": "1595",
+    "vol": "4",
+    "code": "E8",
+    "from": "Os early adopters (primeiros clientes a adotar) adoram.",
+    "to": "Os primeiros clientes adoram."
+  },
+  {
+    "id": "1596",
+    "vol": "4",
+    "code": "E4",
+    "from": "O objetivo deste capítulo é dar ao fundador um framework completo para construir um GTM que funcione no contexto brasileiro",
+    "to": "O que faltou a Lucas e Marina na largada tem nome técnico: arquitetura de Go-to-Market (GTM), o sistema de decisões sobre quem abordar, por qual canal, com qual processo e a que preço no mercado brasileiro"
+  },
+  {
+    "id": "1597",
+    "vol": "4",
+    "code": "E1",
+    "from": "Isso não é ICP. É um segmento de mercado. ICP é mais preciso.",
+    "to": "\"PMEs do setor industrial\" descreve apenas um segmento amplo; o ICP recorta a interseção exata de atributos que preveem compra rápida e retenção alta."
+  },
+  {
+    "id": "1599",
+    "vol": "4",
+    "code": "E9",
+    "from": "Antes de investir em canal, contrate ou ative pelo menos 10 clientes que se encaixem no ICP hipotético.",
+    "to": "Antes de investir pesado em um canal, conquiste e ative pelo menos 10 a 20 clientes pagantes que se encaixem no ICP hipotético."
+  },
+  {
+    "id": "1600",
+    "vol": "4",
+    "code": "C6",
+    "from": "Ciclos de cartão de crédito e nota fiscal podem adicionar atrito no checkout",
+    "to": "Limites de cartão corporativo e exigência de nota fiscal adicionam atrito no checkout de PMEs, tornando essencial oferecer Pix, Pix Automático (para recorrência sem cartão) e boleto registrado ao lado do cartão de crédito"
+  },
+  {
+    "id": "1601",
+    "vol": "4",
+    "code": "C3",
+    "from": "ferramentas de comunicação (Slack, Teams)",
+    "to": "ferramentas de comunicação como o Slack e SaaS brasileiros com entrada self-serve ou freemium (como RD Station nos planos iniciais, Conta Azul e Sympla para produtores)"
+  },
+  {
+    "id": "1602",
+    "vol": "4",
+    "code": "C5",
+    "from": "Um SDR bem treinado que conhece o setor-alvo e fala a língua do comprador fecha negócios que um trial gratuito não fecharia.",
+    "to": "Um SDR bem treinado que conhece o setor-alvo e fala a língua do comprador abre conversas qualificadas para o fundador ou *closer* fechar negócios que um teste gratuito sozinho nunca destravaria."
+  },
+  {
+    "id": "1603",
+    "vol": "4",
+    "code": "N8",
+    "from": "Casos brasileiros: startups de contabilidade que construíram comunidades de contadores; plataformas de RH que criaram fóruns de gestores de pessoas",
+    "to": "Padrões brasileiros verificáveis: plataformas de gestão como Conta Azul e Omie, que cresceram apoiadas em redes e eventos de contadores parceiros, e empresas de marketing e RH (como RD Station e Gupy), que formaram comunidades ativas de profissionais da área"
+  },
+  {
+    "id": "1604",
+    "vol": "4",
+    "code": "E7",
+    "from": "AEs seniores com OTE alto precisam de pipeline para ser produtivos.",
+    "to": "Executores de contas (AEs) seniores com remuneração-alvo total elevada (OTE, soma de salário fixo e comissão variável na meta) precisam de agenda cheia de oportunidades qualificadas para produzir."
+  },
+  {
+    "id": "1606",
+    "vol": "4",
+    "code": "C1",
+    "from": "Canal             | CAC típico (B2B SaaS, R$)  | Ciclo médio | Escala    | Notas Brasil",
+    "to": "Canal             | CAC estimado (B2B SaaS Brasil, ref. 2025-2026, R$) | Ciclo médio | Escala e LTV esperado | Notas Brasil"
+  },
+  {
+    "id": "1608",
+    "vol": "4",
+    "code": "C1",
+    "from": "E-mail frio tem taxa de abertura de 10–15%. Mas WhatsApp tem taxa de abertura acima de 80%.",
+    "to": "Na prática de prospecção B2B no Brasil (onde a taxa de abertura de e-mail perdeu precisão desde o bloqueio de pixels da Apple em 2021, importando medir a taxa de resposta efetiva, que costuma ficar entre 1% e 5% no e-mail frio), abordagens coordenadas que incluem WhatsApp alcançam leitura e taxa de resposta substancialmente superiores."
+  },
+  {
+    "id": "1609",
+    "vol": "4",
+    "code": "C3",
+    "from": "o trial reverso com cartão pré-registrado (mas sem cobrança nos primeiros 14 dias) tem bom desempenho",
+    "to": "convém separar dois modelos: o *trial reverso* puro (o usuário entra sem cartão no plano completo por 14 dias e, se não assinar, cai para o plano gratuito básico) e o *trial com cobrança automática* via cartão ou Pix Automático (que exige aviso prévio claro antes do débito e funciona bem"
+  },
+  {
+    "id": "1610",
+    "vol": "4",
+    "code": "C5",
+    "from": "#### PME brasileiro (faturamento R$ 500K – R$ 20M)",
+    "to": "#### PME brasileira: pequena empresa (R$ 500 mil a R$ 4,8 milhões, teto da EPP) e média empresa (R$ 4,8 milhões a R$ 20 milhões)"
+  },
+  {
+    "id": "1611",
+    "vol": "4",
+    "code": "C1",
+    "from": "O universo de PMEs formais no Brasil é de mais de 3 milhões de empresas.",
+    "to": "Enquanto o Brasil soma mais de 21 milhões de CNPJs ativos (a maioria MEIs e microempresas, segundo o Mapa de Empresas do Governo Federal e dados do Sebrae), o recorte de pequenas e médias empresas com faturamento anual entre R$ 500 mil e R$ 20 milhões reúne cerca de 800 mil a 1,2 milhão de empresas."
+  },
+  {
+    "id": "1612",
+    "vol": "4",
+    "code": "N3",
+    "from": "Enterprise brasileiro tem cultura de \"fazer um piloto\" que nunca termina em compra.",
+    "to": "No mercado enterprise brasileiro, como Henrique descobriu na pele ao amargar seis meses de teste gratuito numa usina antes de mudar sua regra comercial, existe a cultura de pedir \"um piloto sem compromisso\" que nunca vira contrato."
+  },
+  {
+    "id": "1613",
+    "vol": "4",
+    "code": "C1",
+    "from": "Clientes fora do ICP têm churn 3–5x mais alto, custo de suporte maior e dificilmente viram referência.",
+    "to": "Clientes fora do ICP costumam cancelar numa proporção muito superior à da base ideal (compare as coortes dentro e fora do ICP no seu próprio CRM), consomem mais horas de suporte e raramente geram indicações."
+  },
+  {
+    "id": "1614",
+    "vol": "4",
+    "code": "E9",
+    "from": "Quando esse pessoa sai ou fica sobrecarregada, o processo para.",
+    "to": "Quando essa pessoa sai ou fica sobrecarregada, o processo comercial para."
+  },
+  {
+    "id": "1615",
+    "vol": "4",
+    "code": "C3",
+    "from": "Magic Number         | > 0,5 (meta > 0,75) | > 0,75             | Eficiência de G&A em vendas",
+    "to": "Magic Number         | > 0,5 (meta > 0,75) | > 0,75             | Eficiência do gasto em vendas e marketing (S&M)"
+  },
+  {
+    "id": "1616",
+    "vol": "4",
+    "code": "C3",
+    "from": "ARR de expansão ÷ ARR início",
+    "to": "(ARR inicial da coorte + expansão - contração - churn) ÷ ARR inicial da coorte"
+  },
+  {
+    "id": "1617",
+    "vol": "4",
+    "code": "C3",
+    "from": "**CAC Payback:** (CAC total) ÷ (ARR por cliente × margem bruta).",
+    "to": "**CAC Payback (em meses):** (CAC por cliente) ÷ (MRR por cliente × margem bruta)."
+  },
+  {
+    "id": "1620",
+    "vol": "4",
+    "code": "C7",
+    "from": "Grave as suas próximas cinco chamadas comerciais desta semana, transcreva com IA",
+    "to": "Com aviso prévio e consentimento do interlocutor no início da reunião, grave as suas próximas cinco chamadas comerciais desta semana, transcreva em ferramenta com contrato de proteção de dados (LGPD)"
+  },
+  {
+    "id": "1628",
+    "vol": "4",
+    "code": "E9",
+    "from": "16. Feiras, e eventos. Networking presencial setorial.",
+    "to": "16. Feiras e eventos: relacionamento presencial setorial."
+  },
+  {
+    "id": "1629",
+    "vol": "4",
+    "code": "E2",
+    "from": "Critérios. Alcance. O canal consegue tocar o volume de ICPs que você precisa? CAC estimado. Dado LTV que você tem evidência, cabe no canal?",
+    "to": "Critérios de escolha: alcance (o canal chega ao volume de clientes ideais de que você precisa?), CAC estimado (cabe no LTV que você já comprovou?),"
+  },
+  {
+    "id": "1630",
+    "vol": "4",
+    "code": "C5",
+    "from": "> [!important] Não teste três canais em paralelo no começo",
+    "to": "> [!important] Faça testes baratos nos três canais do anel do meio, mas escale um único canal vencedor por vez"
+  },
+  {
+    "id": "1631",
+    "vol": "4",
+    "code": "E7",
+    "from": "Você não tem banda para otimizar três coisas ao mesmo tempo.",
+    "to": "Depois de rodar os experimentos curtos do anel do meio para achar sinal de vida, você não tem fôlego operacional para escalar e otimizar três canais ao mesmo tempo: dobre a aposta no vencedor."
+  },
+  {
+    "id": "1637",
+    "vol": "4",
+    "code": "E9",
+    "from": "Calendly espalha porque quem manda link implica compartilhamento.",
+    "to": "O Calendly se espalha porque cada link de agendamento enviado apresenta o produto a um novo usuário."
+  },
+  {
+    "id": "1638",
+    "vol": "4",
+    "code": "C5",
+    "from": "Alvo. Minutos em PLG maduro. Dias em PLG inicial.",
+    "to": "Alvo: minutos no fluxo de autoatendimento (se o primeiro valor ainda leva dias, o produto exige implantação assistida antes de operar como PLG puro)."
+  },
+  {
+    "id": "1639",
+    "vol": "4",
+    "code": "E9",
+    "from": "PQL pode ser. Ativou X vezes. Adicionou Y membros. Atingiu Z limite gratuito.",
+    "to": "Um PQL pode ser o usuário que executou a ação central X vezes, convidou Y colegas da equipe ou atingiu o limite Z do plano gratuito."
+  },
+  {
+    "id": "1640",
+    "vol": "4",
+    "code": "C5",
+    "from": "Alvo em PLG puro. Cinco a vinte e cinco por cento, dependendo do modelo",
+    "to": "Referência em PLG: conversão de 2% a 5% de usuário gratuito para pago no modelo *freemium* e de 10% a 25% nos *trials* gratuitos bem qualificados (segundo levantamentos da OpenView e de Wes Bush)"
+  },
+  {
+    "id": "1641",
+    "vol": "4",
+    "code": "C2",
+    "from": "Empresas PLG públicas de ponta têm NRR em faixas altas (acima de cento e vinte por cento).",
+    "to": "Calculado como (ARR inicial + expansão - contração - churn) ÷ ARR inicial, o NRR de empresas PLG abertas de destaque superou 120% no pico de 2021 e estabilizou-se na faixa de 105% a 115% em mercados maduros entre 2024 e 2026."
+  },
+  {
+    "id": "1642",
+    "vol": "4",
+    "code": "E9",
+    "from": "Isso é tanto oportunidade (espaço para novos entrantes com PLG real). Quanto sinal de que o ICP brasileiro tem ritmo de adoção mais conservador.",
+    "to": "Isso representa ao mesmo tempo uma oportunidade aberta para novos entrantes com autoatendimento bem desenhado e um sinal de que o comprador corporativo brasileiro adota novas ferramentas de forma mais conservadora (muitas vezes pedindo apoio no WhatsApp antes de passar o cartão)."
+  },
+  {
+    "id": "1644",
+    "vol": "4",
+    "code": "C2",
+    "from": "Blog e relatórios da OpenView Partners (acervo público sobre PLG).",
+    "to": "*Traction* (*Tração*), de Gabriel Weinberg e Justin Mares (base do método Bullseye de 19 canais). *Zero to One* (*De Zero a Um*), de Peter Thiel e Blake Masters (lei de potência na distribuição). Acervo histórico de relatórios de PLG da OpenView Partners (publicados até 2023) e benchmarks de SaaS no Brasil da Canary, Astella e Distrito."
+  },
+  {
+    "id": "1646",
+    "vol": "4",
+    "code": "N3",
+    "from": "Em vez de fazer posts genéricos dizendo *\"Dia Mundial da Fisioterapia\"*, ela respondeu em profundidade, em artigos técnicos claros e vídeos curtos, às 50 dúvidas mais angustiantes que pacientes digitavam no Google às duas da manhã: *\"dormência no braço direito ao acordar pode ser cervical?\"*, *\"quanto tempo dura a recuperação de cirurgia de manguito rotador?\"*.",
+    "to": "Em vez de fazer posts genéricos de *\"Dia do Dentista\"*, ela passou noites gravando vídeos curtos e escrevendo artigos claros sobre as 50 dúvidas mais urgentes que pacientes de reabilitação oral digitavam no Google às duas da manhã: *\"implante dentário dói?\"*, *\"quanto custa prótese protocolo em BH?\"*, *\"dente mole depois de canal é normal?\"*."
+  },
+  {
+    "id": "1647",
+    "vol": "4",
+    "code": "C1",
+    "from": "a clínica da Dra. Camila recebia 38 mil buscas orgânicas qualificadas por mês de pessoas com dor aguda na região metropolitana, gerando R$ 140 mil mensais em consultas",
+    "to": "o site da clínica da Dra. Camila recebia cerca de 4 mil visitas orgânicas qualificadas por mês vindas do Google e 60 pedidos mensais de avaliação na região metropolitana de BH, gerando R$ 140 mil mensais em tratamentos"
+  },
+  {
+    "id": "1648",
+    "vol": "4",
+    "code": "E6",
+    "from": "Essa é a diferença brutal entre **O Aluguel Eterno do Tráfego Pago** e **A Escritura Definitiva do Ativo Composto**. Anúncio pago é uma torneira: fechou a mão, secou a água.",
+    "to": "Anúncio pago é aluguel: parou de pagar o boleto da plataforma, perdeu o ponto na mesma hora. Conteúdo que responde à dúvida certa de compra é terreno próprio: continua trazendo clientes no mês em que o caixa aperta."
+  },
+  {
+    "id": "1649",
+    "vol": "4",
+    "code": "C2",
+    "from": "O papel do AI-generated content (conteúdo gerado por IA) e do AI-driven search (busca dirigida por IA, como Perplexity e ChatGPT Search) está em fluxo intenso entre 2024 e 2026.",
+    "to": "Com a consolidação dos resumos de IA (*AI Overviews* e Modo IA do Google) ao lado de Perplexity e ChatGPT Search até 2026, buscas puramente informativas de topo de funil perderam cliques diretos; por isso, meça também citações da sua marca em respostas de IA e conversões de fundo de funil, não apenas posição média no ranking."
+  },
+  {
+    "id": "1650",
+    "vol": "4",
+    "code": "N2",
+    "from": "Para muitas startups B2B SaaS brasileiras, content é o canal de menor CAC no longo prazo, mas exige disciplina de doze a vinte e quatro meses antes de retornar.",
+    "to": "Tanto para serviços de alto valor (como o cluster de implantes e o simulador de tratamento da clínica da Dra. Camila) quanto para marcas D2C (como os guias de compra que Rafael testou na loja) e startups B2B SaaS brasileiras, o conteúdo orgânico reduz o CAC estrutural no longo prazo, mas exige doze a vinte e quatro meses de consistência antes de maturar."
+  },
+  {
+    "id": "1652",
+    "vol": "4",
+    "code": "N9",
+    "from": "### Atacando o fundo de funil primeiro (Pain-Point SEO), criando ferramentas gratuitas e dominando a busca por IA (GEO)",
+    "to": "### Como atacar o fundo de funil primeiro (Pain-Point SEO), criar ferramentas gratuitas e aparecer na busca por IA (GEO)\n\nEm vez de começar por artigos genéricos de topo de funil (\"o que é gestão financeira\"), comece pelo **Pain-Point SEO** (fundo de funil com intenção imediata de compra: páginas de comparativo \"[Concorrente A] vs. [Concorrente B]\", \"alternativas ao [Concorrente]\", tabelas de preço e páginas de resolução de dor específica, como \"planilha de conciliação de boletos CNAB\"). Combine isso com uma **ferramenta gratuita interativa** (como uma calculadora de perda com boletos duplicados ou o simulador de reabilitação oral da Dra. Camila) e estruture cada página para **GEO (Generative Engine Optimization)**: resposta direta nas primeiras 60 palavras, dados proprietários citáveis, tabelas comparativas limpas e presença da marca em fontes externas confiáveis (fóruns, avaliações e imprensa setorial) que os motores de IA usam como lastro."
+  },
+  {
+    "id": "1653",
+    "vol": "4",
+    "code": "E9",
+    "from": "Tools. Ahrefs, SEMrush, Moz, Google Search Console. Critérios. Volume de busca suficiente. Intenção relevante (comercial, ou informacional). Dificuldade de ranking factível. Foco inicial. Long-tail.",
+    "to": "Para escolher palavras-chave, use ferramentas como Ahrefs, Semrush ou Google Search Console, combinando três critérios: volume de busca suficiente, intenção comercial clara e dificuldade de ranqueamento compatível com a autoridade atual do seu domínio. Comece pela cauda longa (*long-tail*):"
+  },
+  {
+    "id": "1654",
+    "vol": "4",
+    "code": "E9",
+    "from": "**4. Cadência, e qualidade.**",
+    "to": "**4. Cadência e qualidade.**"
+  },
+  {
+    "id": "1655",
+    "vol": "4",
+    "code": "E9",
+    "from": "Quem desiste em seis meses, abandona o trabalho exatamente quando ele começa a render.",
+    "to": "Quem desiste aos seis meses abandona o trabalho justamente quando ele começa a dar retorno."
+  },
+  {
+    "id": "1657",
+    "vol": "4",
+    "code": "C2",
+    "from": "(1) conteúdo thin sem substância real, que o Google penaliza como \"páginas porta\" (doorway pages)",
+    "to": "(1) geração de páginas em massa sem valor exclusivo, enquadrada pelo Google desde 2024 na política de spam como *abuso de conteúdo em escala* (*scaled content abuse*, distinto das antigas *doorway pages*), o que pode resultar em ação manual e desindexação do domínio inteiro"
+  },
+  {
+    "id": "1658",
+    "vol": "4",
+    "code": "C2",
+    "from": "Schema markup (FAQ, Article, HowTo) onde aplicável?",
+    "to": "Dados estruturados (*Schema markup*) que continuam gerando resultados ricos no Google (como `Article`, `Product`, `Organization` e `Review`, já que o Google descontinuou `HowTo` e restringiu `FAQ` a sites governamentais e de saúde em 2023), validados no Teste de Pesquisa Aprimorada?"
+  },
+  {
+    "id": "1659",
+    "vol": "4",
+    "code": "E10",
+    "from": "Content Ops: editor sênior (R$ 10-20k/mês) + SEO lead (R$ 12-25k/mês) + ferramentas de gestão (R$ 2-5k/mês).",
+    "to": "Escala de investimento por estágio: no estágio fundador, Google Search Console gratuito mais plano inicial de Semrush ou Ahrefs (~R$ 700 a R$ 1.500/mês); em time enxuto de tração, 1 editor especialista com apoio de IA e freelancers técnicos (R$ 8 mil a R$ 15 mil/mês); apenas na escala pós-Série A monta-se operação dedicada com líder de SEO e editor sênior."
+  },
+  {
+    "id": "1660",
+    "vol": "4",
+    "code": "N9",
+    "from": "### Produzir conteúdo de topo de funil genérico que atrai milhões de estudantes e curiosos, mas zero compradores",
+    "to": "### Produzir conteúdo genérico de topo de funil (que atrai curiosos e zero compradores) e outros erros de SEO\n\n**Atrair tráfego de curiosos sem intenção de compra.** Publicar definições escolares (\"o que é fluxo de caixa\") pode gerar 100 mil visitas de estudantes e nenhuma demonstração agendada; priorize termos de dor aguda e comparação de compra antes de abrir o topo do funil."
+  },
+  {
+    "id": "1671",
+    "vol": "4",
+    "code": "C6",
+    "from": "**1. Plataforma.** Slack. Profissional. Comum para B2B. Free com limitações. Pro para empresas médias em diante. Discord. Mais jovem. Melhor para gaming, creator, ou crypto.",
+    "to": "**1. Plataforma.** No Brasil, grupos curados e o recurso Comunidades do **WhatsApp** (ou Telegram) concentram a maior taxa de leitura diária para B2B e D2C, embora tenham busca e histórico limitados. Quando o acervo pesquisável por tópicos importa, entram **Circle** (estruturado para comunidades formais), **Slack** (comum em tecnologia B2B, mas cujo plano gratuito oculta mensagens com mais de 90 dias) e **Discord** (forte em público jovem, jogos e desenvolvedores)."
+  },
+  {
+    "id": "1672",
+    "vol": "4",
+    "code": "E9",
+    "from": "crescimento financeia produto melhor",
+    "to": "o crescimento financia um produto melhor"
+  },
+  {
+    "id": "1673",
+    "vol": "4",
+    "code": "C4",
+    "from": "RD Station construiu RD Community como motor de educação e aquisição: +50 mil membros geraram leads orgânicos com CAC de fracao do custo de outbound.",
+    "to": "A RD Station consolidou um ecossistema de agências parceiras e eventos (como o RD Summit, que chegou a reunir até 20 mil participantes presenciais por edição) que reduziu o CAC de aquisição orgânica a uma fração do outbound frio; de modo semelhante, a Hotmart usou eventos proprietários como o FIRE Festival e comunidades oficiais de criadores (enquanto o Hotmart Club opera como a área de membros dos alunos) para impulsionar indicações cruzadas."
+  },
+  {
+    "id": "1674",
+    "vol": "4",
+    "code": "C2",
+    "from": "Stackoverflow e Reddit dominam buscas técnicas porque comunidade responde perguntas que nenhuma empresa criaria manualmente.",
+    "to": "Fóruns abertos como o Reddit ganharam enorme peso no ranqueamento do Google e no treinamento e citação de motores de busca por IA (enquanto o Stack Overflow perdeu grande parte do volume de perguntas simples após a popularização dos assistentes de código): discussões reais de usuários respondem a dúvidas específicas que nenhuma equipe interna escreveria sozinha."
+  },
+  {
+    "id": "1675",
+    "vol": "4",
+    "code": "E7",
+    "from": "Willingness da empresa de abrir parte do produto ou conteúdo como commons.",
+    "to": "Disposição real da empresa para abrir parte do conhecimento, de planilhas ou do produto como bem comum da comunidade."
+  },
+  {
+    "id": "1679",
+    "vol": "4",
+    "code": "C3",
+    "from": "governa cada centavo por **Margem de Contribuição após Mídia (POAS)**",
+    "to": "governa cada real investido pelo **POAS (Profit on Ad Spend: lucro bruto dividido pelo gasto em mídia)**, pela **Margem de Contribuição após Mídia**"
+  },
+  {
+    "id": "1681",
+    "vol": "4",
+    "code": "E10",
+    "from": "É CPA (Cost Per Action, custo por aquisição), CAC (custo de aquisição de cliente), ROAS (Return on Ad Spend, retorno sobre o investimento em anúncios)",
+    "to": "São métricas financeiras auditadas no caixa: CPA (Cost Per Action, custo por ação), CAC, ROAS e POAS"
+  },
+  {
+    "id": "1682",
+    "vol": "4",
+    "code": "C6",
+    "from": "Maior reach do Brasil. Penetração de redes sociais no país supera 70% da população adulta, com forte concentração em Instagram e Facebook.",
+    "to": "Maior alcance do Brasil, superando 70% da população adulta em Instagram, Facebook e WhatsApp. Além das campanhas de conversão para site, os anúncios de clique para WhatsApp (*Click-to-WhatsApp*) são decisivos para PMEs, clínicas e marcas D2C brasileiras (como a operação de Rafael e Bia): exigem envio de conversões offline via API de Conversões (CAPI) a partir do CRM para que o algoritmo saiba qual conversa virou pagamento real."
+  },
+  {
+    "id": "1683",
+    "vol": "4",
+    "code": "C3",
+    "from": "A janela de atribuição padrão caiu de 28 dias para 7 dias (clique) e 1 dia (view).",
+    "to": "A janela de atribuição padrão após o clique caiu de 28 dias para 7 dias (mantendo 1 dia após visualização por padrão, com ajustes posteriores da Meta na modelagem de conversões assistidas)."
+  },
+  {
+    "id": "1684",
+    "vol": "4",
+    "code": "C2",
+    "from": "Estrutura recomendada: separar campanhas por objetivo (awareness, consideração, conversão), por funil (topo, meio, fundo) e por criativo.",
+    "to": "Estrutura recomendada em 2026: consolidar a conta em poucas campanhas (usando orçamento Advantage+ / CBO e público amplo, deixando que a variedade de criativos faça a segmentação do público) para concentrar pelo menos 50 conversões semanais por conjunto, reservando uma campanha ou conjunto separado apenas para o laboratório de testes de novos criativos."
+  },
+  {
+    "id": "1685",
+    "vol": "4",
+    "code": "C6",
+    "from": "Performance Max (PMax) é a campanha que usa IA para otimizar em todos os inventários do Google simultaneamente",
+    "to": "As campanhas automatizadas por IA do Google (Performance Max em todos os inventários, Demand Gen em YouTube/Discover e recursos de IA na Busca, incluindo inserções em resumos de IA) e da Meta (Advantage+ Shopping) são hoje o padrão operacional: nelas, o fundador deixa de microgerenciar lances manuais e passa a controlar quatro alavancas reais (qualidade dos criativos, envio do sinal de conversão com margem via API, listas de exclusão de termos/clientes atuais e teto de orçamento)"
+  },
+  {
+    "id": "1686",
+    "vol": "4",
+    "code": "C1",
+    "from": "o gap diminuiu cerca de metade entre 2023 e 2025 conforme dados públicos da Right Side Up e da Trendtrack",
+    "to": "o custo de mídia aproximou-se gradualmente do praticado na Meta à medida que mais anunciantes entraram na plataforma, ao mesmo tempo em que a chegada do TikTok Shop e do *live commerce* ao Brasil a partir de 2025 abriu uma frente direta de compra no aplicativo para marcas D2C como a de Rafael e Bia"
+  },
+  {
+    "id": "1687",
+    "vol": "4",
+    "code": "C3",
+    "from": "formulários nativos do LinkedIn convertem em torno de treze por cento, contra dois e meio por cento das landing pages servidas via Meta.",
+    "to": "segundo dados divulgados pelo próprio LinkedIn Ads, seus formulários nativos de geração de leads (*Lead Gen Forms*) convertem em média perto de 13%, contra cerca de 2,35% da média histórica de landing pages externas (lembrando que preencher formulário nativo exige qualificação imediata do SDR para confirmar intenção real)."
+  },
+  {
+    "id": "1689",
+    "vol": "4",
+    "code": "C3",
+    "from": "Nielsen, com metodologia diferente, atribui em torno de cinquenta e seis por cento do ROI de venda à qualidade do criativo (47% mensagem mais 9% contexto)",
+    "to": "Um estudo clássico da Nielsen Catalina Solutions (2017) estimou que o criativo responde por cerca de 47% da variação no impacto de vendas de uma campanha (seguido por alcance e segmentação)"
+  },
+  {
+    "id": "1690",
+    "vol": "4",
+    "code": "E7",
+    "from": "Regra prática: refreshar criativos a cada 2-4 semanas em campanhas de conversão ativas.",
+    "to": "Regra prática: renovar os criativos a cada duas a quatro semanas nas campanhas de conversão ativas."
+  },
+  {
+    "id": "1691",
+    "vol": "4",
+    "code": "C3",
+    "from": "Em B2C com ticket de R$ 100 por mês (SaaS ou assinatura), um CAC acima de R$ 300 é difícil de justificar sem LTV de pelo menos R$ 1.200 (payback em 12 meses).",
+    "to": "Em uma assinatura B2C com mensalidade de R$ 100 e margem bruta de 70% (gerando R$ 70 de margem mensal), um CAC de R$ 350 leva 5 meses para se pagar (e o teto de 12 meses de payback exigiria CAC máximo de R$ 840 e LTV acima de R$ 2.500). Já em B2B com contrato anual de R$ 60.000 (R$ 5.000/mês) e 80% de margem bruta (R$ 4.000/mês), um CAC de R$ 8.000 se paga em apenas 2 meses, havendo espaço para CAC de até R$ 48.000 se a meta de payback for de 12 meses."
+  },
+  {
+    "id": "1692",
+    "vol": "4",
+    "code": "C5",
+    "from": "empresa de SaaS com ROAS de 5x em campanha de Meta, mas que está trazendo clientes que cancelam em 60 dias. O LTV desses clientes é R$ 200. O CAC é R$ 80.",
+    "to": "empresa de SaaS cujo painel da Meta exibe ROAS de 5x porque registra o valor cheio de um plano semestral de R$ 400 contra um CAC de R$ 80, mas os clientes pedem cancelamento e estorno após 60 dias, deixando apenas R$ 200 de receita efetiva."
+  },
+  {
+    "id": "1693",
+    "vol": "4",
+    "code": "C3",
+    "from": "Aumentar budget mais de 20% por semana (ou 30% por mês) coloca campanhas em modo de reaprendizado",
+    "to": "Pela heurística clássica de gestores de tráfego (baseada na documentação da Meta sobre edições significativas), elevar o orçamento em saltos bruscos (acima de 20% de uma só vez a cada poucos dias) costuma reiniciar a fase de aprendizado"
+  },
+  {
+    "id": "1694",
+    "vol": "4",
+    "code": "C1",
+    "from": "Estimativas indicam que 40-60% das conversões em iOS não são reportadas dentro da plataforma.",
+    "to": "Embora a maioria dos usuários de iOS opte por bloquear o rastreamento entre apps desde o iOS 14.5, no Brasil o sistema Android responde por cerca de 80% a 82% dos smartphones em uso (StatCounter, 2025-2026): se o iOS representa ~18% do tráfego geral (podendo chegar a 40%-50% em públicos de alta renda), a perda de visibilidade no pixel puro fica em torno de 10% a 25% do total da conta, sendo mitigada pela API de Conversões server-side."
+  },
+  {
+    "id": "1695",
+    "vol": "4",
+    "code": "N9",
+    "from": "### Delegar o cartão de crédito para agências cobradas por percentual de mídia gasta e ignorar a fadiga criativa",
+    "to": "### Delegar o cartão de crédito para agências cobradas por percentual de mídia gasta e outras seis armadilhas\n\n**Remunerar agência apenas por percentual da verba gasta (*fee* sobre mídia).** Quando a agência ganha 15% a 20% sobre o valor investido em anúncios, o incentivo financeiro dela é fazer você gastar mais, não gerar mais lucro líquido; contrate por valor fixo mensal somado a bônus variável atrelado a CAC e receita confirmada no seu CRM, exigindo renovação quinzenal contra a fadiga de criativos."
+  },
+  {
+    "id": "1698",
+    "vol": "4",
+    "code": "C5",
+    "from": "Desligue hoje qualquer campanha que rode abaixo desse piso.",
+    "to": "Compare esse piso com o MER real do último mês no caixa (e não apenas com o ROAS isolado do painel, pois campanhas de topo de funil podem rodar com ROAS direto menor enquanto alimentam a busca orgânica); se o MER global estiver abaixo do empate, pause primeiro os anúncios de fundo de funil com pior custo por venda confirmada no CRM."
+  },
+  {
+    "id": "1699",
+    "vol": "4",
+    "code": "S7",
+    "from": "$1 / 0,33 = 3,03$",
+    "to": "1 dividido por 0,33 = 3,03"
+  },
+  {
+    "id": "1700",
+    "vol": "4",
+    "code": "N3",
+    "from": "ela definiu uma posição cirúrgica e brutalmente clara na mente dos médicos ortopedistas e pacientes da cidade: *\"A clínica de Belo Horizonte especializada em evitar cirurgias desnecessárias de coluna em executivos acima de 40 anos, com protocolo de 12 semanas auditado por ressonância\"*.",
+    "to": "ela definiu uma posição clara na cabeça dos pacientes e dos colegas dentistas que encaminhavam casos complexos na cidade: *\"A clínica de Belo Horizonte especializada em reabilitação oral completa e implantes de carga imediata para executivos acima de 40 anos, com planejamento digital 3D e garantia documentada de cinco anos\"*, cobrando avaliação diagnóstica de R$ 480 enquanto clínicas de convênio disputavam limpeza a preço de custo."
+  },
+  {
+    "id": "1701",
+    "vol": "4",
+    "code": "N7",
+    "from": "Como Al Ries, Jack Trout e April Dunford provaram, marca não é o desenho colorido na fachada",
+    "to": "Como Al Ries e Jack Trout mostraram ao formular o conceito de posicionamento em 1981, marca vai muito além do letreiro na fachada"
+  },
+  {
+    "id": "1702",
+    "vol": "4",
+    "code": "N6",
+    "from": "você cai na **Vala Comum do Ruído Branco**",
+    "to": "você vira uma marca genérica que tenta agradar a todos e não é lembrada por ninguém"
+  },
+  {
+    "id": "1704",
+    "vol": "4",
+    "code": "S7",
+    "from": "EA pressupõe DX, e quando os dois divergem, DX prevalece (Mensagem deriva de Posicionamento, não o contrário).",
+    "to": "O Capítulo 7 (Product Marketing) parte deste Capítulo 6: quando a mensagem tática de um lançamento divergir do posicionamento estratégico da empresa, o posicionamento prevalece."
+  },
+  {
+    "id": "1705",
+    "vol": "4",
+    "code": "E6",
+    "from": "Brand equity (valor patrimonial da marca) não é gasto, é investimento que acumula juros compostos.",
+    "to": "Cada contato positivo com o produto reduz a desconfiança até a próxima compra: *brand equity* (o valor acumulado da marca) funciona como esse atalho mental na decisão do cliente."
+  },
+  {
+    "id": "1707",
+    "vol": "4",
+    "code": "C3",
+    "from": "Nubank cobra mais que banco convencional em alguns produtos porque a relação emocional com o cliente justifica.",
+    "to": "A marca reduz o custo de aquisição e sustenta margens melhores: enquanto o Nubank usou a força da marca e a isenção de tarifas para crescer por indicação orgânica com CAC mínimo, marcas com posicionamento técnico exclusivo (como a clínica da Dra. Camila ou a Apple no consumo) cobram prêmio de preço sem perder demanda."
+  },
+  {
+    "id": "1708",
+    "vol": "4",
+    "code": "E5",
+    "from": "Essa fórmula parece simples. Não é.",
+    "to": "A estrutura da frase parece simples, mas cada palavra obriga uma renúncia estratégica."
+  },
+  {
+    "id": "1710",
+    "vol": "4",
+    "code": "C5",
+    "from": "O conceito de Jobs to be Done (JTBD) foi originado por Tony Ulwick (Strategyn, 1990)",
+    "to": "A abordagem de *Jobs to be Done* (JTBD) desenvolveu-se ao longo dos anos 1990 (com raízes no método de *Outcome-Driven Innovation* formulado por Tony Ulwick em 1991, visto no Vol. 2, e nas pesquisas de Bob Moesta e Rick Pedi) antes de ser popularizada por Clayton Christensen em *The Innovator's Solution* (2003)"
+  },
+  {
+    "id": "1712",
+    "vol": "4",
+    "code": "C3",
+    "from": "iFood é o exemplo: iFood para Restaurantes, iFood Pago, iFood Benefícios",
+    "to": "No Brasil, o grupo TOTVS usou endosso ao adquirir marcas como **RD Station (by TOTVS)**, enquanto o iFood opera majoritariamente como marca monolítica com extensões descritivas (iFood Mercado, iFood Pago, iFood Benefícios)"
+  },
+  {
+    "id": "1714",
+    "vol": "4",
+    "code": "C7",
+    "from": "Qualquer terceiro pode registrar antes de você e exigir que você mude.",
+    "to": "Sem pedido protocolado no INPI, um terceiro pode tentar registrar o nome antes de você; embora o usuário anterior de boa-fé há pelo menos seis meses possa invocar o direito de precedência (art. 129, § 1º, da Lei 9.279/1996, a LPI) para disputar o registro dentro do prazo legal de oposição, o litígio e uma eventual troca forçada de marca custam caro."
+  },
+  {
+    "id": "1715",
+    "vol": "4",
+    "code": "C2",
+    "from": "presença em eventos de C-level (Fórum Nacional, GPTW, eventos de associações setoriais como ABIFARMA, FEBRABAN)",
+    "to": "presença em eventos de decisores executivos (como Febraban Tech, congressos da Amcham e encontros de entidades setoriais vigentes como Sindusfarma, Interfarma, Brasscom e ABES)"
+  },
+  {
+    "id": "1716",
+    "vol": "4",
+    "code": "E7",
+    "from": "Gosto pessoal do founder não é razão estratégica. Marca não é arte, é ferramenta.",
+    "to": "O gosto pessoal do fundador não é motivo estratégico para refazer a marca: identidade visual é ferramenta comercial."
+  },
+  {
+    "id": "1717",
+    "vol": "4",
+    "code": "C6",
+    "from": "Para startups, medir share of spontaneous recognition no segmento-alvo a cada seis meses.",
+    "to": "Antes de contratar pesquisas caras de lembrança espontânea, acompanhe mensalmente o kit mínimo gratuito de força de marca: evolução das buscas pelo nome da sua empresa no Google Search Console e Google Trends, volume de tráfego direto, respostas ao campo aberto \"Como você nos conheceu?\" no formulário de entrada e menções espontâneas nas reuniões de vendas."
+  },
+  {
+    "id": "1718",
+    "vol": "4",
+    "code": "S4",
+    "from": "- [[#MANUAL PASSO A PASSO DOS FRAMEWORKS DESTA FASE|Manual Passo a Passo dos Frameworks desta Fase]]",
+    "to": "- [[#MANUAL PASSO A PASSO DOS FRAMEWORKS DESTA FASE|Manual Passo a Passo dos Frameworks (ver blocos de Positioning de Ries & Trout, April Dunford, StoryBrand e Arquétipos na Fase 13)]]"
+  },
+  {
+    "id": "1726",
+    "vol": "4",
+    "code": "C5",
+    "from": "O framework tem cinco componentes:",
+    "to": "O método de April Dunford (*Obviously Awesome*) organiza o posicionamento em cinco componentes centrais (extraídos por meio da sequência prática de 10 passos vista na oficina da Fase 13):"
+  },
+  {
+    "id": "1727",
+    "vol": "4",
+    "code": "C3",
+    "from": "#### 1. Alternativas ao status quo (o que o cliente faz sem você)",
+    "to": "#### 1. Alternativas competitivas (incluindo o status quo: o que o cliente faria se você não existisse)"
+  },
+  {
+    "id": "1728",
+    "vol": "4",
+    "code": "S5",
+    "from": "#### Camada 1: Tagline e value proposition",
+    "to": "#### Camada 1: Declaração operacional de valor para campanhas (derivada da tagline definida no Capítulo 6)"
+  },
+  {
+    "id": "1729",
+    "vol": "4",
+    "code": "N2",
+    "from": "Exemplo de pilares para um produto de gestão de crédito B2B:",
+    "to": "Exemplo de pilares de mensagem aplicados ao sistema de auditoria de boletos e tesouraria de Lucas e Marina (onde o lançamento do botão de cobranças indevidas entra como lançamento Tier 2 e o teste do \"e daí?\" traduz a leitura de arquivos CNAB na recuperação imediata de R$ 14.200):"
+  },
+  {
+    "id": "1730",
+    "vol": "4",
+    "code": "C6",
+    "from": "- Montagem da lista de Product Hunt (hunters, upvotes de rede, comentários preparados)",
+    "to": "- Ativação dos canais onde o comprador brasileiro realmente está: lista de transmissão e grupos de clientes no WhatsApp, webinar prático com cliente-referência, parceiros integradores (como escritórios de contabilidade ou consultorias), imprensa setorial e associações de classe (deixando o Product Hunt apenas para ferramentas voltadas ao público global de tecnologia)"
+  },
+  {
+    "id": "1731",
+    "vol": "4",
+    "code": "C5",
+    "from": "Ofereça prova de conceito, trial estruturado ou referência de cliente similar.",
+    "to": "Prefira conectar o comprador a um cliente-referência do mesmo setor ou, se o tíquete exigir uma prova de conceito (POC), defina por escrito antes de começar os critérios objetivos de aprovação, o prazo máximo de 30 dias e a cobrança (ou abatimento na primeira mensalidade), evitando a armadilha dos pilotos gratuitos infinitos que travaram Henrique no início."
+  },
+  {
+    "id": "1736",
+    "vol": "4",
+    "code": "E3",
+    "from": "passou os primeiros trinta e cinco minutos fazendo apenas perguntas cirúrgicas ao diretor industrial",
+    "to": "passou os primeiros trinta e cinco minutos fazendo apenas perguntas diretas sobre paradas não programadas, custo de hora parada e orçamento de manutenção ao diretor industrial"
+  },
+  {
+    "id": "1737",
+    "vol": "4",
+    "code": "C5",
+    "from": "Henrique abriu o notebook por apenas seis minutos, mostrou exatamente a tela de alerta preditivo e saiu com o contrato anual de R$ 96 mil assinado.",
+    "to": "Henrique abriu o notebook por seis minutos, mostrou apenas a tela de alerta preditivo e viu o diretor chamar na mesma hora o gerente financeiro e o comprador para agendar a vistoria técnica do piloto pago, que se converteu trinta dias depois no contrato anual de R$ 96 mil."
+  },
+  {
+    "id": "1738",
+    "vol": "4",
+    "code": "E1",
+    "from": "Quem convence o cliente corporativo não é a sua voz elogiando o seu produto; é a voz do próprio cliente calculando em voz alta o custo insuportável de continuar com o problema.",
+    "to": "Quem convence o cliente corporativo é ele mesmo, no minuto em que calcula em voz alta quanto perde por mês mantendo o problema sem solução."
+  },
+  {
+    "id": "1739",
+    "vol": "4",
+    "code": "N6",
+    "from": "Acabava de morrer **O Show de Slides do Vendedor Ansioso**.",
+    "to": "Acabava de ficar para trás **A Demo Antes da Dor** (o hábito de abrir telas do sistema antes de diagnosticar o problema)."
+  },
+  {
+    "id": "1741",
+    "vol": "4",
+    "code": "E4",
+    "from": "Este capítulo foi construído para atender três leitores distintos dentro do mesmo fundador.",
+    "to": "As quatro partes deste capítulo cobrem em sequência a venda consultiva B2B clássica, a venda para grandes empresas e governo, os modelos de volume para PMEs (inside sales e autoatendimento) e a operação de receita (RevOps):"
+  },
+  {
+    "id": "1742",
+    "vol": "4",
+    "code": "E2",
+    "from": "Ferramentas. LinkedIn Sales Navigator, Apollo, Cognism, Lusha. Critério de saída. Lead no CRM, com dados verificados.",
+    "to": "Ferramentas comuns: LinkedIn Sales Navigator, Apollo, Cognism e Lusha. Critério de saída: contato qualificado registrado no CRM com dados verificados."
+  },
+  {
+    "id": "1743",
+    "vol": "4",
+    "code": "E9",
+    "from": "Sequência multi-canal (email mais LinkedIn mais ligação mais, eventualmente, WhatsApp).",
+    "to": "Sequência multicanal coordenada (e-mail, LinkedIn, ligação telefônica e, com permissão prévia, WhatsApp)."
+  },
+  {
+    "id": "1744",
+    "vol": "4",
+    "code": "E9",
+    "from": "Gravam, e analisam, ligações de venda.",
+    "to": "Gravam e analisam ligações comerciais."
+  },
+  {
+    "id": "1745",
+    "vol": "4",
+    "code": "C5",
+    "from": "| **Outreach → fechamento (agregado)** | **1-3%** |",
+    "to": "| **Outreach → fechamento (agregado das etapas acima, incluindo ~50% de resposta positiva → discovery; referência prática B2B)** | **0,2-1,5%** |"
+  },
+  {
+    "id": "1746",
+    "vol": "4",
+    "code": "C5",
+    "from": "Podendo chegar a duzentos e setenta dias, ou mais, em enterprise.",
+    "to": "Já em vendas enterprise, o ciclo costuma levar de 6 a 18 meses (e em licitações públicas, de 6 a 24 meses, contra 1 a 4 semanas no SMB)."
+  },
+  {
+    "id": "1747",
+    "vol": "4",
+    "code": "C7",
+    "from": "PJ tende a ter menos base, e mais variável.",
+    "to": "Atenção jurídica na contratação de vendedores como PJ: exigir horário fixo, subordinação direta e rotina controlada configura vínculo empregatício (art. 3º da CLT, tema sob escrutínio da Justiça do Trabalho e do STF; consulte o Capítulo 7 do Vol. 8 antes de estruturar contratos comerciais)."
+  },
+  {
+    "id": "1748",
+    "vol": "4",
+    "code": "E12",
+    "from": "Zero a cem por cento paga uma vez. Cem a cento e cinquenta por cento paga uma vírgula cinco vezes. Acima paga duas vezes.",
+    "to": "De 0% a 100% da meta paga 1x a taxa-base; de 100% a 150% paga 1,5x; acima de 150% paga 2x."
+  },
+  {
+    "id": "1750",
+    "vol": "4",
+    "code": "S7",
+    "from": "CP cobre comissionamento na motion comum (B2B clássica, SMB, PLG). EB aprofunda no contexto enterprise específico",
+    "to": "Este capítulo cobre o comissionamento na venda B2B clássica, SMB e PLG. Já o Capítulo 2 do Vol. 6 aprofunda o contexto enterprise específico"
+  },
+  {
+    "id": "1751",
+    "vol": "4",
+    "code": "C5",
+    "from": "O vendedor que passou mais de quarenta por cento do tempo falando no primeiro call, provavelmente, não entendeu a dor.",
+    "to": "O vendedor (ou fundador) que falou por mais de 40% a 50% do tempo na primeira reunião de diagnóstico provavelmente não investigou a fundo a dor do cliente."
+  },
+  {
+    "id": "1752",
+    "vol": "4",
+    "code": "C1",
+    "from": "A média de deals B2B precisa de cinco a doze toques para fechar. O vendedor que desiste no terceiro follow-up perde trinta a quarenta por cento do potencial.",
+    "to": "Na prática de prospecção B2B, uma oportunidade raramente avança com menos de cinco a oito contatos distribuídos; o vendedor que desiste na terceira tentativa deixa boa parte das reuniões na mesa."
+  },
+  {
+    "id": "1753",
+    "vol": "4",
+    "code": "C6",
+    "from": "ou para um órgão público (Receita, BNDES, Banco Central, prefeitura, secretaria estadual)",
+    "to": "para um órgão da administração direta ou autarquia (Receita Federal, Banco Central, prefeitura, secretaria estadual, regidos pela Lei 14.133/2021) ou para empresas públicas e sociedades de economia mista (como BNDES, Petrobras, Banco do Brasil, Caixa e Correios, regidas pela Lei das Estatais, Lei 13.303/2016, e pelo regulamento interno de licitações de cada estatal)"
+  },
+  {
+    "id": "1754",
+    "vol": "4",
+    "code": "E7",
+    "from": "user (o departamento que vai usar), finance (que vai pagar)",
+    "to": "a área usuária (que vai operar o sistema no dia a dia), o financeiro (que libera o orçamento)"
+  },
+  {
+    "id": "1755",
+    "vol": "4",
+    "code": "C3",
+    "from": "Vender para o governo brasileiro é possível, legítimo, e constitui um mercado enorme. Cerca de quinze por cento do PIB nacional.",
+    "to": "Vender para o setor público brasileiro é possível, legítimo e movimenta um mercado expressivo, estimado pelo Ipea e pela OCDE entre 12% e 15% do PIB nacional (somando administração direta e estatais)."
+  },
+  {
+    "id": "1757",
+    "vol": "4",
+    "code": "C3",
+    "from": "O governo conversa com potenciais fornecedores, para desenhar solução, antes de publicar edital.",
+    "to": "Nos termos do art. 32 da Lei 14.133/2021, a administração publica primeiro um edital de pré-seleção, conduz rodadas formais de diálogo com os licitantes qualificados para identificar a solução técnica adequada e, encerrado o diálogo, publica o edital da fase competitiva."
+  },
+  {
+    "id": "1760",
+    "vol": "4",
+    "code": "C5",
+    "from": "Ticket típico, R$ 50 a 3 mil em MRR.",
+    "to": "Tíquete típico: R$ 50 a R$ 500 de MRR (cerca de R$ 600 a R$ 6 mil de ARR anual, abaixo da faixa de R$ 6 mil a R$ 30 mil de ARR onde o inside sales leve começa a compensar)."
+  },
+  {
+    "id": "1761",
+    "vol": "4",
+    "code": "C3",
+    "from": "No Brasil. Resultados Digitais nos primórdios, RD Station, Conta Azul.",
+    "to": "No Brasil: operações híbridas que combinaram entrada self-serve ou ferramentas gratuitas com vendas internas, como RD Station (da Resultados Digitais), Conta Azul e Sympla."
+  },
+  {
+    "id": "1762",
+    "vol": "4",
+    "code": "E9",
+    "from": "Mercantilização posterior (freemium, premium, enterprise upgrade).",
+    "to": "Monetização posterior à adoção (conversão do plano gratuito para o pago e expansão para contas corporativas)."
+  },
+  {
+    "id": "1764",
+    "vol": "4",
+    "code": "E8",
+    "from": "Os dados no CRM (sistema de gestão de clientes) não batem com dados no marketing.",
+    "to": "Os dados do CRM não batem com os relatórios do marketing."
+  },
+  {
+    "id": "1765",
+    "vol": "4",
+    "code": "E9",
+    "from": "Independente de motion (B2B, enterprise, SMB, PLG), qualquer operação de vendas madura tem.",
+    "to": "Independentemente do modelo comercial (B2B consultivo, enterprise, SMB ou PLG), toda operação de vendas madura cumpre os seguintes requisitos:"
+  },
+  {
+    "id": "1766",
+    "vol": "4",
+    "code": "N4",
+    "from": "Nas suas reuniões comerciais, quem fala mais de 60% do tempo: o seu vendedor explicando telas ou o cliente revelando dores, números e processos internos?",
+    "to": "Nas suas reuniões comerciais, quem fala mais de 40% do tempo: você (ou seu vendedor) explicando telas, ou o cliente revelando dores, números e critérios de compra (e o seu modelo comercial e plano de comissão premiam clientes que permanecem ativos ou apenas assinaturas de curto prazo)?"
+  },
+  {
+    "id": "1767",
+    "vol": "4",
+    "code": "N5",
+    "from": "Abra o seu CRM agora e apague (ou mova para arquivo morto) toda oportunidade que esteja parada há mais de 45 dias",
+    "to": "Toda segunda-feira, reserve 30 minutos para higienizar o CRM: filtre toda oportunidade parada há mais de 30 dias sem próximo passo datado e marque-a como perdida registrando o motivo real (preservando o histórico para calcular taxas de conversão e precisão de forecast)"
+  },
+  {
+    "id": "1770",
+    "vol": "4",
+    "code": "N7",
+    "from": "*Mastering Technical Sales*, de John Care e Aron Bohlig (referência original do MEDDIC em vendas técnicas complexas).",
+    "to": "*SPIN Selling*, de Neil Rackham (base clássica de perguntas de diagnóstico em vendas complexas). *Never Split the Difference* (*Negocie como se sua vida dependesse disso*), de Chris Voss. *Gap Selling*, de Jim Keenan (descoberta focada na distância entre estado atual e desejado). *Mastering Technical Sales*, de John Care e Aron Bohlig (manual de pré-vendas e demonstração técnica), ao lado dos materiais do método MEDDIC (criado na PTC por Dick Dunkel e Jack Napoli)."
+  },
+  {
+    "id": "1771",
+    "vol": "4",
+    "code": "C5",
+    "from": "atraíram dezenas de microempresas desorganizadas que exigiam quatro horas de suporte pelo WhatsApp para configurar uma planilha básica",
+    "to": "ao lançarem um plano self-serve lateral de R$ 149 para tentar escalar além dos doze diretores financeiros do piloto inicial, trouxeram dezenas de microempresas sem estrutura que consumiam quatro horas de suporte pelo WhatsApp só para configurar uma planilha básica"
+  },
+  {
+    "id": "1772",
+    "vol": "4",
+    "code": "N8",
+    "from": "o primeiro diretor financeiro que viu a nova proposta fechou em vinte minutos",
+    "to": "ao longo do trimestre seguinte fecharam nove contratos anuais a R$ 1.490/mês (reduzindo a carga de suporte pela metade), e logo na primeira semana um diretor financeiro que analisou a nova proposta aprovou o piloto pago"
+  },
+  {
+    "id": "1773",
+    "vol": "4",
+    "code": "N6",
+    "from": "Essa é **A Paradoxal Maldição do Preço Baixo**.",
+    "to": "Esse é **O Imposto da Covardia** na precificação."
+  },
+  {
+    "id": "1774",
+    "vol": "4",
+    "code": "C1",
+    "from": "O fundador típico subprecifica por três a cinco anos antes de acordar, deixando trinta a sessenta por cento da receita potencial na mesa.",
+    "to": "Na prática recorrente de mentorias e análises de SaaS B2B no Brasil, muitos fundadores subprecificam seus produtos nos primeiros anos por receio de perder vendas, deixando uma fatia relevante de receita e margem bruta na mesa."
+  },
+  {
+    "id": "1776",
+    "vol": "4",
+    "code": "N9",
+    "from": "### Por que aumentar o preço em 1% gera três vezes mais impacto no lucro líquido do que aumentar o volume de vendas em 1%",
+    "to": "### Por que aumentar o preço em 1% gera cerca de três vezes mais impacto no lucro operacional do que aumentar o volume em 1% (Marn e Rosiello, McKinsey/HBR)\n\nNo estudo clássico de Michael Marn e Robert Rosiello publicado na *Harvard Business Review* (*Managing Price, Gaining Profit*, 1992), 1% de ganho em preço realizado sem perda de volume elevou o lucro operacional médio em cerca de 11,1%, contra cerca de 3,3% gerados por 1% de aumento em volume de vendas (já que o preço adicional entra quase integralmente na margem, sem custo variável de entrega)."
+  },
+  {
+    "id": "1777",
+    "vol": "4",
+    "code": "E10",
+    "from": "Pricing é a alavanca de maior impacto no valuation.",
+    "to": "Numa empresa com margem operacional de 10%, cada 1% de melhora no preço líquido realizado representa até 10% de ganho direto no resultado operacional."
+  },
+  {
+    "id": "1778",
+    "vol": "4",
+    "code": "N7",
+    "from": "Startups que criam valor, mas capturam pouco, são absorvidas por quem captura bem (classical Porter).",
+    "to": "Startups que geram enorme utilidade para o usuário, mas não constroem mecanismo de captura de valor (distinção formalizada por Adam Brandenburger e Harborne Stuart em *Value-Based Business Strategy*, 1996), acabam financiando o lucro de quem controla a distribuição."
+  },
+  {
+    "id": "1783",
+    "vol": "4",
+    "code": "E9",
+    "from": "A plotagem cruza as quatro curvas, e revela.",
+    "to": "O cruzamento das quatro curvas acumuladas revela dois marcos:"
+  },
+  {
+    "id": "1785",
+    "vol": "4",
+    "code": "C3",
+    "from": "As curvas em sino são \"aceitável\", e \"bom negócio\".",
+    "to": "No método original de Van Westendorp, as quatro curvas são acumuladas e monotônicas: \"caro\" e \"caro demais\" sobem com o preço, enquanto \"barato\" (bom negócio) e \"barato demais\" descem; o ponto de preço ótimo (OPP) fica no cruzamento de \"barato demais\" com \"caro demais\", e a faixa aceitável fica entre o ponto marginalmente barato e o marginalmente caro."
+  },
+  {
+    "id": "1786",
+    "vol": "4",
+    "code": "C5",
+    "from": "Amostra mínima. Trinta a cinquenta respostas em ICP definido.",
+    "to": "Amostra mínima: pelo menos 50 respondentes qualificados por segmento de ICP analisado (abaixo desse volume em B2B, prefira conduzir de 10 a 15 entrevistas qualitativas profundas)."
+  },
+  {
+    "id": "1787",
+    "vol": "4",
+    "code": "N7",
+    "from": "> [!important] Gabriel Weinberg, \"10x rule\"",
+    "to": "> [!important] A heurística prática do valor 10x superior ao preço"
+  },
+  {
+    "id": "1788",
+    "vol": "4",
+    "code": "E9",
+    "from": "A sequência correta é.",
+    "to": "Siga esta sequência de quatro passos na entrevista:"
+  },
+  {
+    "id": "1789",
+    "vol": "4",
+    "code": "C1",
+    "from": "o preço efetivamente aceito em transação real é quinze a vinte e cinco por cento acima do declarado em pesquisa. Aplicar esse fator de correção ao interpretar dados de PSM.",
+    "to": "respostas declaradas em pesquisa sofrem viés hipotético nos dois sentidos (compradores podem declarar disposição maior por cortesia ou menor por hábito de barganha); por isso, trate o Van Westendorp apenas como faixa inicial e valide o preço com cobrança real no Passo 4."
+  },
+  {
+    "id": "1790",
+    "vol": "4",
+    "code": "C3",
+    "from": "Vinte por cento tier baixo, sessenta por cento tier médio, vinte por cento tier alto (lei de 80/20 aplicada).",
+    "to": "Cerca de 20% no plano de entrada, 60% no plano intermediário e 20% no plano superior (distribuição puxada pelo efeito de compromisso, *compromise effect*, em que o comprador evita os extremos; já o efeito chamariz, *decoy effect*, ocorre quando um plano quase tão caro quanto o superior torna este último uma escolha evidente)."
+  },
+  {
+    "id": "1793",
+    "vol": "4",
+    "code": "C3",
+    "from": "Quando faz sentido. Empresa com pelo menos quinhentos leads por mês (base para detectar sinal).",
+    "to": "Quando faz sentido: em produtos self-serve com volume suficiente para cálculo amostral (por exemplo, com conversão de base de 10%, detectar uma variação relativa de 25% com poder de 80% exige cerca de 2.000 visitantes por variante; abaixo disso, prefira testar preços em safras sequenciais de vendas consultivas)."
+  },
+  {
+    "id": "1794",
+    "vol": "4",
+    "code": "E2",
+    "from": "Características de compra. Decisão rápida (uma a três semanas). Decisor é o dono ou gestor direto. Sensibilidade a preço alta.",
+    "to": "Características de compra: decisão rápida (1 a 3 semanas), tomada pelo sócio ou gestor direto, com alta sensibilidade a fluxo de caixa mensal."
+  },
+  {
+    "id": "1796",
+    "vol": "4",
+    "code": "N9",
+    "from": "### ARPU/ACV, Elasticidade de conversão por faixa de preço, Margem Bruta e Expansão automática por métrica de uso",
+    "to": "### Métricas de pricing: ARPU/ACV, Margem Bruta por plano, Elasticidade de conversão e Price Realization\n\nAcompanhe também a **Margem Bruta por plano e por cliente** (descontando custos variáveis de infraestrutura e inferência de IA para evitar usuários pesados deficitários) e a **Elasticidade de conversão por faixa de preço** (comparando a taxa de fechamento e a receita líquida por visitante entre safras após cada reajuste)."
+  },
+  {
+    "id": "1797",
+    "vol": "4",
+    "code": "C5",
+    "from": "Discount leakage. Desconto médio concedido em deals. Alvo igual, ou menor, a quinze por cento, sem contrapartida.",
+    "to": "Vazamento por desconto (*discount leakage*): desconto médio concedido nos contratos fechados; meta de no máximo 15%, sempre mediante contrapartida objetiva registrada no CRM."
+  },
+  {
+    "id": "1798",
+    "vol": "4",
+    "code": "C1",
+    "from": "\"Qual a diferença do Basic para Pro?\" é resposta confusa em quarenta por cento dos SaaS brasileiros.",
+    "to": "Se o cliente precisa perguntar qual é a diferença prática entre o plano Básico e o Pro, o desenho da sua página de preços falhou."
+  },
+  {
+    "id": "1799",
+    "vol": "4",
+    "code": "C5",
+    "from": "então o seu risco de testar um patamar superior é zero.",
+    "to": "então a sua base atual fica protegida: o único risco é perder parte das novas propostas, e se a taxa de fechamento cair proporcionalmente menos do que o aumento do tíquete, você provou que cobrava barato demais."
+  },
+  {
+    "id": "1800",
+    "vol": "4",
+    "code": "N5",
+    "from": "Proíba qualquer desconto sem contrapartida. Escreva a regra na parede comercial:",
+    "to": "Toda segunda-feira, em 20 minutos, audite no CRM todos os descontos concedidos na semana anterior (conferindo aprovador, percentual de *price realization* e se ninguém reclamou do preço de tabela, sinal de que há espaço para testar um degrau acima) e cobre a regra inegociável da parede comercial:"
+  },
+  {
+    "id": "1809",
+    "vol": "4",
+    "code": "S5",
+    "from": "**NRR (Net Revenue Retention).** ((MRR cohort hoje) dividido por (MRR cohort doze meses atrás)) vezes cem.",
+    "to": "**NRR (Net Revenue Retention, já detalhado no Capítulo 9 e aplicado aqui à leitura de safras).** ((MRR da mesma safra de clientes 12 meses depois, somando expansões e descontando contrações e cancelamentos) ÷ (MRR original da safra)) × 100."
+  },
+  {
+    "id": "1814",
+    "vol": "4",
+    "code": "C6",
+    "from": "E pode ser reduzido com dunning management (Recurly, Chargebee, Vindi no Brasil).",
+    "to": "No Brasil, pode ser reduzido combinando réguas automáticas de recuperação de cobrança (*dunning management*, em plataformas como Vindi, Asaas, Pagar.me, Iugu, Stripe ou Recurly), atualização automática de cartão expirado pelas bandeiras e migração de boletos avulsos para o **Pix Automático** (modalidade de débito recorrente via Pix do Banco Central em operação desde 2025, que elimina a falha por limite de cartão)."
+  },
+  {
+    "id": "1815",
+    "vol": "4",
+    "code": "E7",
+    "from": "AEs de novos logos podem ter parte do bônus em expansão do primeiro ano (reduce rotation incentive).",
+    "to": "Executores de contas (AEs) de novos clientes podem ter parte da comissão atrelada à permanência e expansão do primeiro ano (o que reduz o incentivo de empurrar contratos mal qualificados apenas para bater a meta do mês)."
+  },
+  {
+    "id": "1816",
+    "vol": "4",
+    "code": "C5",
+    "from": "O churn pode ser trinta a cinquenta por cento ao ano em D2C físico. Completamente diferente de SaaS B2B (cinco a dez por cento).",
+    "to": "Em clubes de assinatura de produtos físicos D2C, o cancelamento mensal costuma ficar entre 8% e 15% ao mês (podendo superar 60% já no primeiro mês quando a oferta atrai caçadores de desconto, como na safra de janeiro de Rafael e Bia), patamar muito mais desafiador que o churn mensal de 1% a 3% em SaaS B2B PME."
+  },
+  {
+    "id": "1817",
+    "vol": "4",
+    "code": "C3",
+    "from": "Smart Fit Passport. Acesso multi-academias. Valor incremental, flexibilidade.",
+    "to": "Wellhub (antigo Gympass, fundado no Brasil em 2012): assinatura corporativa de acesso a milhares de academias e estúdios parceiros, com valor recorrente sustentado pela variedade de rede e pelo subsídio de RH das empresas contratantes."
+  },
+  {
+    "id": "1824",
+    "vol": "4",
+    "code": "N3",
+    "from": "Henrique estava prestes a assinar o maior contrato do ano com uma gigante sucroalcooleira no interior de São Paulo: R$ 420 mil por ano.",
+    "to": "Henrique estava prestes a assinar o maior contrato do ano com uma grande usina sucroalcooleira na região de Rondonópolis, no Mato Grosso: R$ 420 mil por ano."
+  },
+  {
+    "id": "1826",
+    "vol": "4",
+    "code": "S7",
+    "from": "Negociacao como disciplina transversal do fundador, aplicavel em term sheets, contratos, parcerias e conflitos societarios. Vizinhos onde DS opera diretamente,",
+    "to": "Posição no livro: a negociação é uma disciplina transversal do fundador, aplicável em *term sheets*, contratos comerciais, parcerias e conflitos societários. Capítulos vizinhos com aplicação direta:"
+  },
+  {
+    "id": "1827",
+    "vol": "4",
+    "code": "N7",
+    "from": "pesquisa de Adam Grant sobre concessões, e adaptação ao contexto operacional do fundador brasileiro.",
+    "to": "as técnicas táticas de Chris Voss (*Never Split the Difference*), os estudos clássicos de Adam Galinsky e Thomas Mussweiler sobre ancoragem na primeira oferta e a adaptação prática ao ambiente de negócios brasileiro."
+  },
+  {
+    "id": "1828",
+    "vol": "4",
+    "code": "E1",
+    "from": "Negociação não é um evento especial. Para o fundador, é condição permanente.",
+    "to": "Para o fundador, negociar faz parte da rotina de toda semana."
+  },
+  {
+    "id": "1829",
+    "vol": "4",
+    "code": "E8",
+    "from": "Salário de contratação, term sheet (proposta preliminar de investimento), preço com cliente, escopo com cofundador, parceria estratégica, contrato B2B, valuation (avaliação de valor) em M&A (fusões e aquisições).",
+    "to": "Salário de contratação, *term sheet* de investimento, preço com cliente, divisão de responsabilidades com cofundador, parceria estratégica, contrato B2B e *valuation* em M&A."
+  },
+  {
+    "id": "1831",
+    "vol": "4",
+    "code": "C5",
+    "from": "Com base nos múltiplos de receita do setor (8–12x ARR),",
+    "to": "Com base no topo da faixa de múltiplos do setor (8x a 10x ARR para empresas com o nosso ritmo de crescimento, o que aponta para R$ 2,5 milhões),"
+  },
+  {
+    "id": "1832",
+    "vol": "4",
+    "code": "C5",
+    "from": "A estrutura de equity do primeiro C-level define o teto esperado pelos seguintes.",
+    "to": "O pacote societário concedido ao primeiro executivo C-level acaba virando o piso que os próximos contratados vão exigir."
+  },
+  {
+    "id": "1833",
+    "vol": "4",
+    "code": "C7",
+    "from": "Limitar responsabilidade (cap em receita do contrato ou 12 meses de serviço): não ceda. Uma cláusula sem limitação pode comprometer a empresa.",
+    "to": "Limitar a responsabilidade contratual (*cap* de indenização limitado ao valor pago nos últimos 12 meses de contrato): defenda esse teto como regra, lembrando que no direito brasileiro a limitação não afasta responsabilidade por dolo, culpa grave ou sanções administrativas da LGPD, e que grandes corporações costumam negociar um subteto maior (*supercap*) para vazamento de dados e violação de propriedade intelectual (consulte sempre seu advogado e veja o Capítulo 6 do Vol. 8)."
+  },
+  {
+    "id": "1835",
+    "vol": "4",
+    "code": "C7",
+    "from": "O \"jeitinho\" como ferramenta legítima. Prazos têm margem. Protocolos têm exceções.",
+    "to": "No setor privado, prazos operacionais e condições comerciais comportam flexibilidade quando negociados às claras e formalizados por escrito em aditivo; já em licitações e contratos com o poder público ou estatais, qualquer pedido deve ocorrer exclusivamente pelos canais formais (pedidos de esclarecimento, impugnação ou requerimento administrativo documentado), sob rigorosa observância da Lei Anticorrupção (Lei 12.846/2013; ver Capítulo 12 do Vol. 8)."
+  },
+  {
+    "id": "1836",
+    "vol": "4",
+    "code": "E9",
+    "from": "Rejeite-a explicitamente antes de contraaproposicionar.",
+    "to": "Rejeite-a de forma explícita antes de apresentar a sua contraproposta."
+  },
+  {
+    "id": "1838",
+    "vol": "4",
+    "code": "S5",
+    "from": "#### Framework: Harvard Negotiation / BATNA & ZOPA (Roger Fisher & William Ury, 1981)",
+    "to": "#### Framework: Harvard Negotiation / BATNA & ZOPA (Roger Fisher & William Ury, 1981; referência central para este capítulo e para a Fase 18 do Vol. 8)"
+  },
+  {
+    "id": "1839",
+    "vol": "4",
+    "code": "E7",
+    "from": "Framework de **principled negotiation** (negociação por princípios) que se opõe a \"hard bargaining\" (posicional) e \"soft\" (concessivo).",
+    "to": "Método de **negociação por princípios** (*principled negotiation*) que supera tanto a barganha posicional dura quanto a postura concessiva passiva: separa as pessoas do problema, foca nos interesses reais por trás das posições e busca ganhos mútuos baseados em critérios objetivos."
+  },
+  {
+    "id": "1840",
+    "vol": "4",
+    "code": "C5",
+    "from": "- Comprador BATNA: construir internamente (custo R$ 30M + 2 anos).",
+    "to": "- BATNA do comprador: construir internamente (custo direto de R$ 30M somado a 2 anos de espera, equivalentes a R$ 45M em margem perdida de *time-to-market*, totalizando custo econômico de R$ 75M e viabilizando acordo de R$ 50M à vista + R$ 25M em earn-out)."
+  },
+  {
+    "id": "1841",
+    "vol": "4",
+    "code": "S7",
+    "from": "Negociar sem BATNA claro: você não sabe quando sair, pode aceitar deal ruim, Fixar em posições: \"eu quero $100M\" sem flexibilidade, outro também fixa, impasse,",
+    "to": "Negociar sem BATNA claro faz você aceitar um acordo ruim por não saber a hora de levantar da mesa. Fixar-se em posições rígidas (\"quero R$ 100M e ponto\") trava o diálogo e gera impasse."
+  },
+  {
+    "id": "1843",
+    "vol": "4",
+    "code": "C5",
+    "from": "Cliente: \"Seu preço está 40% acima dos concorrentes.\"",
+    "to": "Cliente: \"Seu preço está 50% acima dos concorrentes.\""
+  },
+  {
+    "id": "1845",
+    "vol": "4",
+    "code": "S7",
+    "from": "- Freelancer: R$ 58k (85%+... espere, this is complex, simplificando:):",
+    "to": "- Quando você está vendendo (ex.: consultor ou fornecedor cujo piso desejado é R$ 50 mil), inverta a progressão de Ackerman abrindo acima da meta (+54% na 1ª oferta, depois +18%, +6% e número quebrado no fechamento): abre em R$ 77 mil, recua na 2ª rodada para R$ 59 mil, na 3ª para R$ 53 mil e fecha em R$ 50.180 incluindo um entregável não monetário:"
+  },
+  {
+    "id": "1846",
+    "vol": "4",
+    "code": "C5",
+    "from": "Step 1 (balcony): A não reage. Pausa 5 segundos. \"Entendo.\"",
+    "to": "Passo 1 (ir ao balcão): o Cofundador B (Marina, diante da exigência de Lucas) controla o impulso de revidar, faz uma pausa de 5 segundos e diz apenas: \"Entendo o seu ponto.\""
+  },
+  {
+    "id": "1848",
+    "vol": "4",
+    "code": "C5",
+    "from": "### Por que vender para um cliente que já confia em você custa 5 vezes menos do que conquistar um desconhecido na rua",
+    "to": "### Por que reter e expandir um cliente da base custa de 5 a 25 vezes menos do que adquirir um cliente novo (Bain / HBR)"
+  },
+  {
+    "id": "1849",
+    "vol": "4",
+    "code": "S7",
+    "from": "Em enterprise, entre zero vírgula cinco e um vírgula cinco por cento.",
+    "to": "Em enterprise, o churn mensal de contas fica entre 0,5% e 1,5% (contra 1% a 3% em PME)."
+  },
+  {
+    "id": "1850",
+    "vol": "4",
+    "code": "C5",
+    "from": "NRR saudável (base line) é igual ou maior que cem por cento.",
+    "to": "Pela régua unificada deste capítulo, a retenção líquida de receita (NRR) anual saudável parte de ≥ 100% em PME, ≥ 110% como patamar forte em mid-market e ≥ 120% como nível de excelência em enterprise (com 30% a 60% da receita nova em operações maduras vindo de expansão da base)."
+  },
+  {
+    "id": "1853",
+    "vol": "4",
+    "code": "C5",
+    "from": "### Orquestrando os primeiros 15 dias até o First Value, monitorando Health Score preditivo e conduzindo QBRs de ROI",
+    "to": "### Orquestrando o onboarding em três marcos (1º valor em 15 dias, ativação em 30 e adoção em 90), Health Score e QBRs"
+  },
+  {
+    "id": "1854",
+    "vol": "4",
+    "code": "E2",
+    "from": "As dimensões típicas, em cinco peças. Uso do produto. Logins, features-chave usadas, DAU sobre MAU. Engagement. Abertura de e-mails, resposta a outreach do CSM, e participação em QBR.",
+    "to": "As cinco dimensões do Health Score: (1) Uso do produto: frequência de login, funções-chave ativas e razão DAU/MAU; (2) Engajamento com a equipe: abertura de comunicados, resposta ao gerente de sucesso (CSM) e presença nas revisões trimestrais (QBR);"
+  },
+  {
+    "id": "1855",
+    "vol": "4",
+    "code": "E9",
+    "from": "agendar call de save com CSM, mais escalação para Head of CS, se valor for maior que R$ X.",
+    "to": "agendar uma reunião de diagnóstico e resgate com o CSM e escalar para a liderança de CS quando o contrato superar R$ X."
+  },
+  {
+    "id": "1856",
+    "vol": "4",
+    "code": "E9",
+    "from": "QBR é reunião trimestral formal, entre CSM, e cliente-chave. Onde se faz cinco coisas.",
+    "to": "A revisão trimestral de negócios (QBR) é a reunião formal entre o CSM e o decisor da conta-chave, na qual se fazem cinco coisas:"
+  },
+  {
+    "id": "1864",
+    "vol": "4",
+    "code": "E9",
+    "from": "Foundadores com equipe pequena devem obsessionar nos cinco momentos de maior impacto no resultado financeiro:",
+    "to": "Fundadores com equipe enxuta devem concentrar a energia nos cinco momentos da jornada que mais pesam no resultado financeiro:"
+  },
+  {
+    "id": "1865",
+    "vol": "4",
+    "code": "C1",
+    "from": "Empresas com NPS acima de 50 e adoção acima de 70% de seats têm taxa de renovação de 90%+.",
+    "to": "Contas que chegam ao trimestre de renovação com satisfação alta e uso ativo na maioria das licenças contratadas renovam em sua grande maioria sem atrito; quando a renovação vira disputa de última hora, o problema começou meses antes na adoção."
+  },
+  {
+    "id": "1866",
+    "vol": "4",
+    "code": "C3",
+    "from": "com taxa de resposta mínima de 25% para ser significativa (B2B SaaS tipicamente consegue 30-45%; B2C, 8-20%).",
+    "to": "buscando volume absoluto de respostas suficiente para reduzir a margem de erro estatística (100 ou mais respostas no agregado, ou cobertura das contas principais em B2B) e comparando o comportamento de retenção de quem responde com o de quem permanece em silêncio."
+  },
+  {
+    "id": "1867",
+    "vol": "4",
+    "code": "C1",
+    "from": "#### Benchmarks de NPS por segmento (Brasil, 2024-2025)",
+    "to": "#### Faixas de referência aproximadas de NPS por segmento (alinhadas ao Capítulo 12)"
+  },
+  {
+    "id": "1868",
+    "vol": "4",
+    "code": "C3",
+    "from": "O CES foi desenvolvido pelo Corporate Executive Board e tem correlação comprovada com churn: clientes que relatam alto esforço (nota 1-3) têm probabilidade 4x maior de churn",
+    "to": "Formulado por Matthew Dixon, Karen Freeman e Nicholas Toman no estudo do Corporate Executive Board publicado na *Harvard Business Review* (*Stop Trying to Delight Your Customers*, 2010) e atualizado no CES 2.0 com escala direta de 1 (muito difícil) a 7 (muito fácil), o índice mostrou que clientes submetidos a alto esforço de atendimento declaram intenção de deslealdade muito superior (96%, contra 9% nos fluxos de baixo esforço)"
+  },
+  {
+    "id": "1869",
+    "vol": "4",
+    "code": "C3",
+    "from": "cliente com CSAT < 75% em dois atendimentos consecutivos tem 3x mais chance de churn em 90 dias.",
+    "to": "um cliente que atribui nota baixa de satisfação (1 ou 2 na escala de 1 a 5 do CSAT) em dois chamados seguidos, ou nota de esforço 1 a 3 no CES de onboarding, entra imediatamente em fila de intervenção proativa."
+  },
+  {
+    "id": "1875",
+    "vol": "4",
+    "code": "S1",
+    "from": "### O Painel de 80 Gráficos que Não Serve para Nada e a Única Estrela Polar",
+    "to": "### O painel de 80 gráficos que não serve para nada"
+  },
+  {
+    "id": "1877",
+    "vol": "4",
+    "code": "N9",
+    "from": "### Definindo a North Star + Inputs acionáveis, instrumentando os 10 eventos vitais e lendo funis por coorte",
+    "to": "### Definindo a North Star, o dicionário de 10 eventos vitais, a leitura de coorte e o stack de dados\n\nAntes de escolher ferramentas, aplique o método do North Star Playbook (detalhado na Fase 13): defina **uma única North Star Metric** que reflita valor entregue ao cliente (no caso de Marina e Lucas, *boletos auditados e conciliados sem erro por semana*) e **3 a 4 métricas de entrada acionáveis (*inputs*)** (como % de clientes que conectaram o ERP em 24h e % que abriram o alerta semanal no WhatsApp). Em seguida, documente um **dicionário enxuto com os 10 eventos essenciais** da jornada (no padrão `objeto_acao`, como `conta_criada`, `arquivo_cnab_enviado`, `divergencia_detectada`, `alerta_whatsapp_clicado` e `assinatura_renovada`) e leia a conversão e a retenção sempre agrupadas por **coorte semanal de entrada**, permitindo responder em cinco minutos a perguntas como a de Marina (comparando a retenção em D30 de quem clicou no alerta do WhatsApp nas primeiras 48 horas contra quem não clicou)."
+  },
+  {
+    "id": "1878",
+    "vol": "4",
+    "code": "S7",
+    "from": "- CRM (HubSpot) - Airbyte - BigQuery - Coalesce - Mode / Hex",
+    "to": "- **Camadas do stack moderno em ordem:** Fontes operacionais (app, banco de produção, Stripe, HubSpot) -> Ingestão e transporte (Fivetran, Airbyte) -> Armazenamento em *data warehouse* (BigQuery, Snowflake, ClickHouse) -> Transformação e modelagem (dbt, Coalesce) -> Consumo em BI e análise (Metabase, Looker, Mode, Hex)"
+  },
+  {
+    "id": "1879",
+    "vol": "4",
+    "code": "C3",
+    "from": "CAC Payback. CAC dividido por (ARPU vezes Margem Bruta) vezes doze, em meses.",
+    "to": "CAC Payback (em meses): CAC dividido por (ARPU mensal × Margem Bruta)."
+  },
+  {
+    "id": "1880",
+    "vol": "4",
+    "code": "S4",
+    "from": "**[[IGNICAO-Vol-1-Ideacao#FASE 1 — ENCONTRAR A IDEIA|Fase 1 (Vol. 1)]], design do experimento.**",
+    "to": "**Etapa 1 (de 3): desenho do experimento.**"
+  },
+  {
+    "id": "1881",
+    "vol": "4",
+    "code": "C3",
+    "from": "P menor que zero vírgula cinco é convenção. A empresa pode ter política diferente (zero vírgula cinco mais conservador).",
+    "to": "Um valor-p menor que 0,05 (p < 0,05) é a convenção padrão de significância estatística; equipes com alto volume de testes costumam adotar um corte mais rigoroso (p < 0,01) para reduzir falsos positivos."
+  },
+  {
+    "id": "1882",
+    "vol": "4",
+    "code": "C3",
+    "from": "Privacy e LGPD, quem pode acessar o quê, pseudonimização, e direito de esquecimento.",
+    "to": "Privacidade e LGPD: controle de acesso por função, anonimização ou pseudonimização de dados analíticos e fluxo técnico para atender pedidos de eliminação ou bloqueio de dados pessoais pelo titular (art. 18 da LGPD; lembrando que o STF, no Tema 786 em 2021, afastou um \"direito ao esquecimento\" genérico no Brasil)."
+  },
+  {
+    "id": "1883",
+    "vol": "4",
+    "code": "S6",
+    "from": "À medida que a empresa cresce além de 200-500 pessoas, o Modern Data Stack centralizado começa a virar gargalo.",
+    "to": "Nota para a escala futura (pós-Série B/C, aprofundada no Vol. 7): apenas quando a empresa ultrapassa 200 a 500 pessoas o time centralizado de dados costuma virar gargalo, abrindo espaço para arquiteturas descentralizadas como o *Data Mesh* (proposto por Zhamak Dehghani em 2019); até lá, na fase de tração e PMF, mantenha um único repositório central enxuto."
+  },
+  {
+    "id": "1886",
+    "vol": "4",
+    "code": "C3",
+    "from": "Percentual de experimentos com significância estatística atingida. Acima de sessenta por cento.",
+    "to": "Percentual de experimentos executados até o fim com tamanho de amostra e duração respeitados: 100% (já a taxa de experimentos vencedores costuma ficar entre 10% e 30% em operações disciplinadas, segundo Ron Kohavi; exigir 60% de vitórias incentiva *p-hacking*)."
+  },
+  {
+    "id": "1888",
+    "vol": "4",
+    "code": "C5",
+    "from": "Em 2025, dois concorrentes tentaram vender para a usina de clientes de Henrique no Mato Grosso.",
+    "to": "Na safra seguinte à validação do produto, dois concorrentes tentaram vender para uma usina cliente de Henrique no Mato Grosso."
+  },
+  {
+    "id": "1889",
+    "vol": "4",
+    "code": "N3",
+    "from": "Na semana seguinte, Henrique e Lucas mostraram uma arquitetura",
+    "to": "Na semana seguinte, Henrique e sua equipe de engenharia (após uma revisão técnica informal com Lucas) mostraram uma arquitetura"
+  },
+  {
+    "id": "1890",
+    "vol": "4",
+    "code": "N3",
+    "from": "Na semana seguinte, Henrique e Lucas mostraram uma arquitetura **AI-Native (Nativa em IA)**",
+    "to": "Na semana seguinte, Henrique e sua equipe de engenharia (após uma revisão técnica informal com Lucas) mostraram uma arquitetura **AI-Native (Nativa em IA)**"
+  },
+  {
+    "id": "1891",
+    "vol": "4",
+    "code": "E9",
+    "from": "Este é este capítulo que envelhece mais rápido no manual.",
+    "to": "Este é o capítulo que envelhece mais rápido no manual."
+  },
+  {
+    "id": "1892",
+    "vol": "4",
+    "code": "E9",
+    "from": "Versão atualizada de I para 2026, com casos de uso de alto ROI.",
+    "to": "Versão atualizada da Camada 1 para o cenário de 2026, com casos de uso de alto retorno operacional."
+  },
+  {
+    "id": "1897",
+    "vol": "4",
+    "code": "C5",
+    "from": "Structured output. Forçar JSON schema. Reduz invenção de fatos, porque o modelo tem que preencher campos específicos.",
+    "to": "Saída estruturada (*structured output* via JSON Schema): garante que a resposta respeite o formato exigido pelo código, mas não impede alucinação factual; permita sempre campos `null` ou `\"nao_encontrado\"` no schema para que o modelo não invente dados apenas para preencher um campo obrigatório."
+  },
+  {
+    "id": "1898",
+    "vol": "4",
+    "code": "C5",
+    "from": "Em produto com ticket de US$ 10, a margem só de AI vira cinquenta a noventa por cento.",
+    "to": "Em um produto com mensalidade de US$ 10, apenas a conta de inferência de IA passa a consumir de 10% a 50% da receita bruta (derrubando a margem bruta para a faixa de 50% a 90% antes mesmo de servidores e suporte, ou gerando prejuízo direto quando um usuário pesado consome R$ 300 de tokens num plano de R$ 49)."
+  },
+  {
+    "id": "1899",
+    "vol": "4",
+    "code": "C5",
+    "from": "Latência p95 (primeiro token). Igual ou menor que um segundo e meio.",
+    "to": "Latência do primeiro token (*TTFT*): mediana (p50) em até 1 segundo e percentil 95 (p95) em até 1,5 segundo, com resposta completa transmitida via *streaming* em até 5 segundos."
+  },
+  {
+    "id": "1902",
+    "vol": "4",
+    "code": "C2",
+    "from": "EU AI Act (em vigor 2024-2025) classifica sistemas por risco",
+    "to": "O Regulamento Europeu de IA (*EU AI Act*, em vigor desde agosto de 2024 com aplicação escalonada: proibições e literacia em fevereiro de 2025, regras para modelos de propósito geral em agosto de 2025 e obrigações gerais de alto risco entre agosto de 2026 e agosto de 2027, ao lado do debate regulatório do PL 2.338/2023 no Brasil) classifica sistemas por nível de risco"
+  },
+  {
+    "id": "1903",
+    "vol": "4",
+    "code": "N3",
+    "from": "O produto deles nasceu como um \"marketplace de consultores financeiros autônomos para pequenas empresas\". Após seis meses, o marketplace patinava, mas todas as empresas entrevistadas pediam emprestada a planilha automatizada que Marina usava para auditar boletos e conciliar contas nos primeiros 15 minutos da reunião. Em uma sexta-feira decisiva, fecharam o marketplace, mantiveram o CNPJ, aproveitaram 100% do aprendizado do domínio e pivotaram para o software de tesouraria preditiva que salvou a empresa.",
+    "to": "Para financiar o desenvolvimento de um ERP financeiro amplo que patinava nas demos, eles vendiam um serviço produtizado de auditoria de boletos; após seis meses, perceberam que os diretores financeiros ignoravam os outros módulos do ERP e renovavam apenas pelo motor automatizado que Marina e Lucas usavam para detectar cobranças duplicadas em 15 minutos. Em uma sexta-feira decisiva, executaram um *zoom-in pivot* (pivot de foco na solução): descartaram os módulos laterais, transformaram o serviço produtizado no SaaS de auditoria e conciliação de tesouraria e destravaram o crescimento da empresa."
+  },
+  {
+    "id": "1904",
+    "vol": "4",
+    "code": "E4",
+    "from": "Mas atenção ao alerta vermelho deste capítulo: existe uma diferença abissal entre **O Pivot Cirúrgico Baseado em Evidência** e **O Zigue-Zague do Fundador Ansioso**.",
+    "to": "Há uma diferença clara entre **o pivot baseado em evidência** e **o zigue-zague do fundador ansioso**."
+  },
+  {
+    "id": "1905",
+    "vol": "4",
+    "code": "E2",
+    "from": "**1. Customer pivot.** Mantém o problema, e a solução. Muda o cliente-alvo. O padrão.",
+    "to": "**1. Pivot de cliente (*customer pivot*).** Mantém o problema e a solução, mas muda o segmento de cliente-alvo. Isso acontece quando"
+  },
+  {
+    "id": "1906",
+    "vol": "4",
+    "code": "C5",
+    "from": "Mesmo time, mesma tese de marketplace de mobilidade, problema diferente. Customer pivot mais value pivot combinados.",
+    "to": "Mesmo time e mesma base logística de geolocalização, aplicados a um problema diferente do mesmo ecossistema urbano: um *problem pivot* combinado a *customer pivot* (de transporte de passageiros para entregas expressas de documentos e e-commerce; já casos como o do Burbn para o Instagram ilustram um *solution pivot* do tipo *zoom-in* numa única função do aplicativo)."
+  },
+  {
+    "id": "1907",
+    "vol": "4",
+    "code": "N8",
+    "from": "Loft em várias épocas. Adaptou o modelo conforme testava segmentos de imóvel diferentes.",
+    "to": "Loft (2018-2023): nasceu no modelo de *iBuying* intensivo em balanço (comprando, reformando e revendendo apartamentos com capital próprio) e executou um *business model pivot* para plataforma digital e marketplace de crédito e transações imobiliárias para imobiliárias parceiras quando os juros subiram; de modo análogo, a 99 expandiu em 2016 dos táxis para motoristas particulares com o 99POP."
+  },
+  {
+    "id": "1908",
+    "vol": "4",
+    "code": "C4",
+    "from": "mantendo conteúdo infantil como core até a venda da PlayKids para a Sandbox em fevereiro de 2022.",
+    "to": "enquanto o grupo Movile migrou dos serviços de mensageria por operadoras (*carrier billing*) para um ecossistema de aplicativos e investimentos (iFood, Sympla, Zoop), a sua controlada PlayKids (criada em 2013 como plataforma de conteúdo educativo infantil por assinatura) evoluiu no segmento familiar até unir operações com o grupo britânico Sandbox & Co. no início de 2022."
+  },
+  {
+    "id": "1909",
+    "vol": "4",
+    "code": "C5",
+    "from": "Mudança de múltiplos elementos simultaneamente. Cliente, problema, solução, canal, tudo muda. Isso não é pivot. É shutdown e recomeço. Mas mantendo o CNPJ.",
+    "to": "Mudança simultânea de cliente, problema, solução e canal (ao contrário do *zoom-in pivot* de Lucas e Marina na abertura, que manteve o mesmo diretor financeiro, a mesma dor de conciliação e a mesma tecnologia de auditoria): quando tudo muda ao mesmo tempo, trata-se na prática de um encerramento (*shutdown*) seguido de um negócio novo sob o mesmo CNPJ."
+  },
+  {
+    "id": "1910",
+    "vol": "4",
+    "code": "E9",
+    "from": "Pivot frequentemente disfarçado de shutdown",
+    "to": "Shutdown frequentemente disfarçado de pivot"
+  },
+  {
+    "id": "1911",
+    "vol": "4",
+    "code": "C6",
+    "from": "Depois aos investidores. Individualmente, se possível.",
+    "to": "Depois aos investidores, individualmente se possível, cuidando em paralelo da **papelada societária e fiscal do pivot no Brasil** (alteração do objeto social e dos códigos CNAE no contrato social, revisão do enquadramento no Simples Nacional e do Fator R com o contador e verificação prévia das matérias sujeitas a aprovação ou veto de investidores nos contratos de mútuo conversível ou acordo de sócios; ver Fase 18 no Vol. 8)."
+  },
+  {
+    "id": "1912",
+    "vol": "4",
+    "code": "E9",
+    "from": "Os clientes descontinuados mal viram detratores públicos. Os descontinuados bem viram apoiadores para a próxima direção.",
+    "to": "Clientes dispensados sem cuidado viram detratores públicos; já os clientes cuja transição é conduzida com transparência e aviso prévio viram aliados na nova direção."
+  },
+  {
+    "id": "1913",
+    "vol": "4",
+    "code": "E1",
+    "from": "Pivot sem prazo não é pivot. É deriva estratégica.",
+    "to": "Pivot sem prazo definido para validar a nova hipótese vira deriva estratégica."
+  },
+  {
+    "id": "1915",
+    "vol": "4",
+    "code": "N7",
+    "from": "Responda por escrito com seus sócios à pergunta de Andy Grove:",
+    "to": "Depois de aplicar a pergunta clássica que Andy Grove fez a Gordon Moore na Intel em 1985 (relatada em *Só os Paranoicos Sobrevivem* e usada no Espelho acima: *\"Se fôssemos demitidos hoje e o conselho colocasse um novo CEO no nosso lugar, o que ele faria na segunda-feira?\"*), responda por escrito com seus sócios:"
+  }
+]

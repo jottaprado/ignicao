@@ -84,7 +84,7 @@ Com a dor do cliente mapeada no Volume 2, as **[[#FASE 7 — FORMULAÇÃO RIGORO
 
 ### O Teatro da Validação e a Coragem de Definir o Que Mata a Sua Ideia
 
-– "Se a gente lançar o clube de assinatura de cafés especiais, o pessoal vai adorar!", disse Rafael empolgado na mesa da cozinha em Recife.
+– "Se a gente lançar o clube de assinatura de kits de autocuidado e cosméticos naturais, as clientes vão adorar e recomprar todo mês!", disse Rafael empolgado numa chamada de vídeo de Recife com Bia, em Goiânia.
 
 Bia olhou para a planilha de custos logísticos e devolveu uma pergunta que travou a conversa:
 
@@ -92,13 +92,13 @@ Bia olhou para a planilha de custos logísticos e devolveu uma pergunta que trav
 
 O silêncio de Rafael revela a doença mais comum entre empreendedores na hora de testar ideias: **O Teatro da Validação**. Funciona assim: você lança uma campanha vaga sem definir antes qual número comprova o sucesso, coleta meia dúzia de resultados medíocres e depois move a trave do gol para trás dizendo *"bom, vendeu pouco, mas foi ótimo para aprendizado e fortalecimento de marca!"*.
 
-Karl Popper ensinou há quase um século o que separa a ciência da astrologia: uma afirmação só é científica se for **falseável**: isto é, se você declarar com antecedência qual evidência concreta provará que você está errado. Toda startup carrega em seu núcleo duas ou três hipóteses do tipo *Bet-the-Company* (apostas que decidem a vida ou a morte da empresa). Se elas forem falsas, não importa quão bonito seja o logotipo ou quão limpo seja o código: o negócio inteiro desmorona.
+Karl Popper ensinou há quase um século o que separa a ciência da astrologia: uma afirmação só é científica se for **falseável**: isto é, se você declarar com antecedência qual evidência concreta provará que você está errado. Toda startup carrega em seu núcleo três a cinco **apostas de vida ou morte** (*bet-the-company*), premissas que decidem o futuro da empresa. Se elas forem falsas, não importa quão bonito seja o logotipo ou quão limpo seja o código: o negócio inteiro desmorona.
 
-Por que a maioria dos fundadores testa primeiro as coisas fáceis, como a cor do botão ou o nome do plano, e deixa a hipótese mortal por último? Por medo psicológico de descobrir a verdade. Na Fase 7, você vai inverter essa covardia: colocar a premissa mais perigosa do seu negócio no centro da mira e cravar a linha numérica exata entre a vida e o descarte.
+A maioria dos fundadores testa primeiro a cor do botão ou o nome do plano e deixa a hipótese mortal para o fim, porque tem medo da resposta. Na Fase 7 você faz o contrário: coloca a premissa mais perigosa do negócio no centro da mira e crava a linha numérica exata entre seguir em frente e descartar a ideia.
 
 ---
 
-> [!important] Antes de formular hipóteses, faça a Matriz CSD
+> [!note] A Matriz CSD entra no Passo 1 como varredura inicial (as suposições mapeadas viram hipóteses testáveis)
 > CSD significa Certezas, Suposições, Dúvidas. Organiza o seu mapa mental antes de gerar hipóteses. Regra: teste Suposições, não Certezas. Testar Certezas é desperdício. Testar Dúvidas é cedo demais (primeiro descubra do que duvida). Suposições bet-the-company (hipóteses que, se erradas, derrubam o negócio) têm prioridade máxima.
 
 ```mermaid
@@ -137,9 +137,9 @@ A priorização de hipóteses também impede que você desperdice energia testan
 > [!note] Capítulo 1: Científico vs Lean Startup
 > A disciplina de formular hipóteses falsificáveis (hipóteses que podem ser provadas erradas) é o ponto de convergência entre o método científico e a metodologia Lean. O [[#CAPÍTULO 1 — ABORDAGEM CIENTÍFICA vs LEAN STARTUP: QUANDO USAR CADA UMA|Capítulo 1: Científico vs Lean Startup]] mapeia as diferenças e complementaridades: quando o rigor hipotético-dedutivo aplica e quando o loop Build-Measure-Learn é mais adequado. Relevante especialmente para fundadores com background técnico ou científico que estão aplicando o método ao contexto de negócio pela primeira vez.
 
-### Isolando as hipóteses Bet-the-Company de Desejabilidade, Viabilidade e Exequibilidade
+### Os sete passos até as apostas de vida ou morte
 
-Sete passos.
+Cinco passos estruturados (do diagnóstico do motor atual e transição da venda conduzida pelo fundador até canais de marketing, expansão por caminhos e medição de unit economics por canal, detalhada na seção de métricas adiante).
 
 #### Passo 1, levante todas as suposições implícitas
 
@@ -164,8 +164,10 @@ Use esse formato rigoroso:
 ```text
 HIPÓTESE: [afirmação clara e falsificável]
 ATRIBUTO DA TEORIA: [qual nó ou seta da sua árvore de teoria esta hipótese testa]
-PORQUÊ IMPORTA: [se for falsa, qual impacto no negócio]
-PARA VALIDAR PRECISO VER: [critério objetivo e numérico]
+POR QUE IMPORTA (IMPACTO SE FOR FALSA): [qual o impacto no negócio se a premissa cair]
+PARA VALIDAR PRECISO VER: [critério objetivo e numérico de sucesso]
+VAMOS DESCARTAR SE: [critério numérico de refutação]
+ZONA CINZENTA: [entre X e Y, qual único teste extra destrava a decisão]
 MÉTODO: [experimento ou fonte de evidência]
 CUSTO ESTIMADO: [tempo + dinheiro]
 ```
@@ -176,27 +178,27 @@ Para entender a diferença entre hipótese ruim e hipótese boa:
 > "Os clientes vão gostar do produto." Impossível de testar. "Gostar" não é mensurável.
 
 > [!tip] Hipótese boa, falsificável e numérica
-> "Pelo menos trinta por cento dos donos de restaurante do nosso ICP (perfil de cliente ideal), depois de conhecer a solução por uma página de pré-cadastro, vão deixar e-mail e concordar com cobrança antecipada de R$ 49 para acesso ao beta. Se for falsa, significa que a nossa proposta de valor não é forte o bastante para pagamento antecipado, o que compromete a viabilidade do modelo."
+> "Pelo menos trinta por cento dos donos de restaurante do nosso ICP (perfil de cliente ideal), depois de conhecer a solução por uma página de pré-cadastro, pagarão R$ 49 antecipados para garantir acesso ao beta (mantendo o e-mail apenas como métrica secundária de funil). Se for falsa, significa que a nossa proposta de valor não é forte o bastante para pagamento antecipado, o que compromete a viabilidade do modelo."
 
 > [!tip] Hypothesis Canvas e Test Card como par de ferramentas
-> O formato padronizado acima é o coração do Hypothesis Canvas: registrado como template prático no [[#Template: Hypothesis Canvas|Template: Hypothesis Canvas]] e com tratamento teórico no [[#Canvas: Hypothesis Canvas (autoral IGNIÇÃO)|Canvas: Hypothesis Canvas (autoral IGNIÇÃO)]] (em construção). Cada hipótese bet-the-company deve gerar imediatamente 1-3 [[#Canvas: Test Card (David Bland & Alexander Osterwalder, 2019)|Canvas: Test Card (David Bland & Alexander Osterwalder, 2019)]] como follow-up: o Hypothesis Canvas articula *o que* testar; o Test Card articula *como* testar. A disciplina central do Test Card é definir critério de sucesso e critério de refutação **antes** de rodar o experimento: sem isso, qualquer resultado é racionalizado a favor da hipótese. O caso PadariaPro em Canvas: Test Card (David Bland & Alexander Osterwalder, 2019) (Fase 8) mostra como definir zona de incerteza no meio (entre sucesso e refutação) é o que protege contra auto-engano.
+> O formato padronizado acima é o coração do Hypothesis Canvas: registrado como template prático no [[#Template: Hypothesis Canvas|Template: Hypothesis Canvas]] e com tratamento teórico no [[#Canvas: Hypothesis Canvas (autoral IGNIÇÃO)|Canvas: Hypothesis Canvas (autoral IGNIÇÃO)]]. O caso PadariaPro no Test Card (Fase 8) mostra como a zona cinzenta protege contra o autoengano. Cada hipótese bet-the-company deve gerar imediatamente 1-3 [[#Canvas: Test Card (David Bland & Alexander Osterwalder, 2019)|Canvas: Test Card (David Bland & Alexander Osterwalder, 2019)]] como follow-up: o Hypothesis Canvas articula *o que* testar; o Test Card articula *como* testar. A disciplina central do Test Card é definir critério de sucesso e critério de refutação **antes** de rodar o experimento: sem isso, qualquer resultado é racionalizado a favor da hipótese. O caso PadariaPro em Canvas: Test Card (David Bland & Alexander Osterwalder, 2019) (Fase 8) mostra como definir zona de incerteza no meio (entre sucesso e refutação) é o que protege contra auto-engano.
 
 #### Passo 3, aplique o critério de falsificabilidade
 
 > [!quote] Karl Popper sobre hipóteses
 > Uma afirmação só é científica se for possível imaginar um resultado que a refute.
 
-Toda hipótese sua precisa ter um caminho claro de refutação. Se não tiver, não é hipótese. É crença.
+Toda hipótese precisa de um caminho claro de refutação. Sem ele, você está apenas guardando uma crença.
 
 ##### Teste de isolamento, uma hipótese, um elemento por vez
 
 Esse é um dos erros mais comuns em iniciantes: empilhar múltiplos elementos numa única hipótese. Quando você testa coisas compostas, fica impossível saber qual parte foi refutada.
 
-Exemplo de hipótese composta (ruim): "Mulheres em grandes capitais preferem táxi a bicicleta, e fazem isso por causa do conforto, mesmo pagando mais caro."
+Exemplo de hipótese composta (ruim): "Assinantes do clube de autocuidado renovam depois do terceiro mês porque gostam da curadoria dos kits, mesmo com frete de R$ 25." (mistura renovação, motivo e tolerância ao frete na mesma frase).
 
 Essa hipótese junta três afirmações distintas. Mulheres em grandes capitais preferem táxi a bicicleta. O conforto é o principal fator de decisão. O preço mais alto do táxi é tolerado.
 
-Se você testar tudo junto e quarenta e cinco por cento das entrevistadas concordar, o que isso significa? Nada. Pode ser que preferem táxi por outro motivo que não conforto. Pode ser que conforto importa, mas só para viagens longas. Pode ser que o preço é um limite, e acima de X reais elas voltam para a bicicleta. A hipótese composta esconde todas essas nuances.
+Se você testar tudo junto e 45% das assinantes concordarem, o dado não orienta nenhuma ação. Pode ser que renovem por outro motivo. Pode ser que a curadoria importe só nos primeiros meses. Pode ser que o frete seja um teto e, acima de R$ 25, elas cancelem. A hipótese composta esconde todas essas diferenças.
 
 A versão atômica (boa) quebra em três hipóteses separadas, cada uma testável sozinha. Se todas forem validadas, você tem a afirmação conjunta. Se alguma for refutada, você sabe exatamente qual parte da sua teoria precisa ser revisada.
 
@@ -207,7 +209,7 @@ A versão atômica (boa) quebra em três hipóteses separadas, cada uma testáve
 
 Coloque a sua árvore de teoria ([[IGNICAO-Vol-1-Ideacao#FASE 3 — CONSTRUÇÃO DA TEORIA DO NEGÓCIO|Fase 3 (Vol. 1)]]) ao lado do Banco de Hipóteses. Para cada hipótese, responda: *Esta hipótese testa qual nó ou seta da árvore?* Se uma hipótese não pode ser mapeada na árvore, ela é órfã. Ou a hipótese é irrelevante, ou a sua árvore está incompleta. Em ambos os casos, corrija.
 
-Esse exercício costuma revelar que o empreendedor criou hipóteses sobre o que é fácil de medir, em vez do que é importante testar. Se sobraram nós bet-the-company na árvore sem hipóteses correspondentes, você está prestes a testar o acessório enquanto deixa o crítico passar.
+Se sobraram nós vitais na árvore da teoria (Fase 3) sem hipótese correspondente no banco, redija uma hipótese para cada um antes de passar ao Passo 4.
 
 > [!note] Capítulo 6 (Vol. 1): Tomada de Decisão como Disciplina
 > Antes de comprometer recursos com as hipóteses bet-the-company, use o [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 6 — TOMADA DE DECISÃO COMO DISCIPLINA|Capítulo 6: Tomada de Decisão como Disciplina (Vol. 1)]]: hipóteses de alto risco e baixa reversibilidade são decisões Tipo 1 (irreversíveis) e merecem pré-mortem formal antes de qualquer experimento. O apêndice também cobre o framework SPADE para estruturar esse processo em equipe.
@@ -215,7 +217,7 @@ Esse exercício costuma revelar que o empreendedor criou hipóteses sobre o que 
 #### Passo 4, priorize as hipóteses por Risco × Incerteza (primeiro pass)
 
 > [!note] Dois sistemas de priorização, em ordem de aplicação
-> Esta fase usa duas lentes complementares de priorização, aplicadas em sequência. **Primeiro pass: Risco × Incerteza (Passo 4).** Identifica quais hipóteses, se falsas, derrubam o negócio (Risco) e em quais você está mais no escuro (Incerteza). Filtra o conjunto de "vinte ou mais hipóteses" para "três a cinco bet-the-company". **Segundo pass: Sistema H/E (Passo 5).** Para cada bet-the-company já filtrada, mede a força teórica da hipótese (H) versus a evidência empírica já acumulada (E), definindo a ordem e o tipo de teste. R×I é sobre impacto de negócio. H/E é sobre estado epistêmico. Os dois sistemas não competem; trabalham em série.
+> Esta fase usa duas lentes complementares de priorização em sequência. **Primeira peneira: Risco × Incerteza (Passo 4).** Identifica quais hipóteses, se falsas, derrubam o negócio (Risco) e em quais você está mais no escuro (Incerteza), filtrando o conjunto de 15 a 30 hipóteses para três a cinco apostas de vida ou morte. **Segunda peneira: Sistema H/E (Passo 5).** Para cada aposta de vida ou morte filtrada, mede a força teórica da hipótese (H) contra a evidência empírica acumulada (E), definindo a ordem e o tipo de teste. R × I mede impacto no negócio; H/E mede o estado do conhecimento. Os dois sistemas trabalham em série.
 
 Para cada hipótese, atribua duas notas de um a cinco. Risco (R): quão grave para o negócio se for falsa? (Cinco mata o negócio. Um é detalhe secundário.) Incerteza (I): quanta confiança real você tem nela hoje? (Cinco é totalmente no escuro. Um é muito fundamentada.)
 
@@ -241,7 +243,7 @@ quadrantChart
  quadrant-1 "ACEITAR documentar e avançar"
  quadrant-2 "TESTAR URGENTE bet-the-company sem validação"
  quadrant-3 "NÃO TESTAR irrelevante"
- quadrant-4 "TESTES BARATOS gate de consistência"
+ quadrant-4 "REABRIR A TEORIA rever lógica causal"
  "H1 preço aceitação": [0.2, 0.95]
  "H2 retenção 3m": [0.4, 0.9]
  "H3 canal CAC": [0.6, 0.7]
@@ -249,7 +251,7 @@ quadrantChart
  "H5 segundo mercado": [0.85, 0.4]
 ```
 
-H/E responde a duas perguntas. *Essa hipótese é importante?* (H) E *já tenho evidência a favor?* (E). O quadrante superior-esquerdo (H alto e E baixo) é urgência máxima. Isso evita o erro comum de testar primeiro o que é fácil em vez do que é crítico.
+O sistema H/E responde a duas perguntas: *A teoria por trás dessa hipótese se sustenta?* (H) e *Já tenho evidência a favor?* (E). O quadrante superior-esquerdo (H alto e E baixo) é urgência máxima. Isso evita o erro comum de testar primeiro o que é fácil em vez do que é crítico.
 
 Os dois scores juntos mostram onde você está em cada hipótese:
 
@@ -261,11 +263,11 @@ Os dois scores juntos mostram onde você está em cada hipótese:
 | H baixo, E baixo (3, 2) | Palpite sem fundamento nem dado | Ou descartar, ou iniciar investigação exploratória. Nunca investir capital |
 
 > [!warning] Regra de ouro do Sistema H/E
-> Todo investimento significativo (construir feature, contratar, levantar capital, expandir canal) deve ser precedido por H maior ou igual a sete e E maior ou igual a seis para as hipóteses críticas relacionadas àquela decisão. Se qualquer uma das notas está abaixo desses patamares, rode um experimento (Fase 7) antes.
+> Todo investimento significativo (construir feature, contratar, levantar capital, expandir canal) deve ser precedido por H ≥ 7 e E ≥ 6 nas apostas de vida ou morte relacionadas àquela decisão. Se E estiver abaixo de 6, rode um experimento (Fase 8). Se H estiver abaixo de 7, volte à árvore da teoria (Fase 3) antes de investir.
 
 #### Passo 6, monte o Banco de Hipóteses como planilha
 
-Quatorze colunas. ID (H1, H2, e assim por diante). Tipo (Problema, Solução, Cliente, Canal, Monetização). Hipótese (texto completo). Atributo da teoria (vínculo com a árvore da [[IGNICAO-Vol-1-Ideacao#FASE 3 — CONSTRUÇÃO DA TEORIA DO NEGÓCIO|Fase 3 (Vol. 1)]]). Porquê importa. Critério de validação. Método ou experimento. Custo estimado. Score H (Hipótese) de um a dez: quão forte é o raciocínio teórico antes de qualquer teste? Score E (Evidência) de um a dez: quanta evidência empírica você já tem hoje? Status (Nova, Em teste, Validada, Refutada, Abandonada). Resultado (quando testada). Data de teste. Aprendizado.
+Dezoito colunas canônicas (alinhadas ao template da fase): ID (H1, H2...), Tipo (Problema, Solução, Cliente, Canal, Monetização), R (1-5), I (1-5), R × I, Nota H (1-10), Nota E (1-10), Critério de validação, Critério de descarte e Ordem de teste. Hipótese (texto completo). Atributo da teoria (vínculo com a árvore da [[IGNICAO-Vol-1-Ideacao#FASE 3 — CONSTRUÇÃO DA TEORIA DO NEGÓCIO|Fase 3 (Vol. 1)]]). Porquê importa. Critério de validação. Método ou experimento. Custo estimado. Score H (Hipótese) de um a dez: quão forte é o raciocínio teórico antes de qualquer teste? Score E (Evidência) de um a dez: quanta evidência empírica você já tem hoje? Status (Nova, Em teste, Validada, Refutada, Abandonada). Resultado (quando testada). Data de teste. Aprendizado.
 
 > [!important] Essa planilha é o coração operacional do negócio
 > Nos próximos seis a doze meses, ela é o documento mais consultado da empresa. Nunca a perca de vista.
@@ -288,7 +290,7 @@ Documente a ordem escolhida no Banco de Hipóteses (coluna "ordem de teste") com
 
 Para tornar o método concreto, este é o detalhamento de uma hipótese bet-the-company da mesma ideia trabalhada nas fases anteriores, no formato padronizado dos Passos 2 a 5.
 
-HIPÓTESE: Donos de padaria com três a cinco lojas têm perda de oito por cento ou mais de margem em ingredientes críticos por má gestão de estoque.
+HIPÓTESE: Donos de padaria com três a cinco lojas perdem 8 pontos percentuais ou mais da margem bruta em ingredientes críticos (a hipótese sobre a causa, má gestão de estoque, entra separada como H1b).
 
 ATRIBUTO DA TEORIA: Nó "Dor real e frequente" da árvore de teoria (Fase 3). A árvore pressupõe que o problema existe na intensidade necessária para gerar disposição a pagar. Se falsa, todo o ramo de monetização cai antes de qualquer experimento de preço.
 
@@ -298,9 +300,9 @@ PARA VALIDAR PRECISO VER: Sete em dez padarias com três a cinco lojas em SP com
 
 H/E: H = 8 (cadeia causal clara, consistente com casos análogos de food retail), E = 3 (auto-relato em 12 entrevistas, sem auditoria factual). Quadrante H alto + E baixo, prioridade máxima de experimento.
 
-MÉTODO: Auditoria gratuita de estoque. Recrutar dez padarias via indicação direta. Coletar trinta dias de notas fiscais e comparar com o estoque físico inventariado. Complementar com entrevista de quarenta e cinco minutos com o dono para qualificar a dor.
+MÉTODO: Auditoria gratuita de estoque. Recrutar dez padarias via indicação direta. Calcular a perda real por ingrediente crítico: Perda = estoque inicial + compras dos 30 dias − consumo teórico (ficha técnica × produção) − estoque físico final inventariado. Complementar com entrevista de quarenta e cinco minutos com o dono para qualificar a dor.
 
-CUSTO ESTIMADO: Catorze dias. Duas horas por padaria (vinte horas no total). R$ 0 em deslocamento (padarias em raio de cinco quilômetros do fundador). Custo de oportunidade equivalente a três semanas de um fundador.
+CUSTO ESTIMADO: Cinco semanas (30 dias de coleta documental e uma semana de análise), com um dia por padaria para inventário físico e entrevista (dez dias de campo no total) e R$ 0 em deslocamento para padarias no raio de 5 km.
 
 > [!warning] Risco de interpretação enviesada
 > Donos podem subestimar a perda (vergonha de admitir ineficiência) ou superestimá-la (para justificar tecnologia). Cruzar auto-relato com análise factual de notas fiscais reduz esse viés.
@@ -309,9 +311,9 @@ CUSTO ESTIMADO: Catorze dias. Duas horas por padaria (vinte horas no total). R$ 
 
 A Loft, fundada em 2018 por Mate Pencz e Florian Hagenbuch (ex-Printi) em São Paulo, atacou o modelo iBuyer (instant buyer: compra direta de imóveis para revenda rápida com renovação) num mercado dominado por imobiliárias tradicionais com ciclo de venda de seis a doze meses.
 
-A decisão central de modelo foi formal. Em vez de escolher diferencial por intuição, o time formalizou hipóteses priorizadas por R × I antes de comprometer capital. As bet-the-company giravam em torno de três variáveis. Sensibilidade a preço dos vendedores ("se oferecermos cinco por cento abaixo do valor de mercado, com pagamento em sete dias, X por cento dos vendedores aceitarão"). Elasticidade da velocidade ("se o prazo for três dias em vez de sete, a conversão sobe em Y por cento"). Conversão por perfil de urgência ("vendedores em divórcio, mudança de cidade, ou herança convertem Z por cento mais que vendedores oportunistas").
+Se reconstruirmos as premissas de compra e revenda de imóveis (iBuying) da Loft em 2018 como ilustração didática do método R × I, as apostas de vida ou morte girariam em torno de três variáveis de demanda: sensibilidade a preço dos vendedores ("se oferecermos desconto sobre o valor de mercado com pagamento à vista em sete dias, X% dos proprietários aceitarão"), elasticidade do prazo ("reduzir o pagamento para três dias eleva a conversão em Y%") e urgência do vendedor ("proprietários em divórcio, mudança de cidade ou inventário convertem Z% mais que vendedores sem pressa").
 
-As hipóteses foram testadas em sequência, cada experimento com threshold pré-registrado. O resultado contraintuitivo foi que velocidade pesava mais que preço para o segmento-alvo. Vendedores urgentes aceitavam desconto significativo em troca de previsibilidade e prazo curto. O modelo final priorizou velocidade sobre preço, oposto da intuição inicial. A Loft levantou rodadas significativas (Andreessen Horowitz, Fifth Wall, Vulcan Capital) e atingiu valuation acima de US$ 2 bi em 2021.
+Na ponta da demanda, proprietários urgentes de fato aceitavam deságio em troca de liquidez rápida, o que impulsionou a tese inicial e grandes captações até 2021. Porém, como analisado nos Volumes 6 e 10, a hipótese macroeconômica implícita (juros baixos e giro rápido do estoque imobiliário em balanço) virou contra o modelo quando a Selic subiu, forçando a empresa a cortar custos e migrar do iBuying pesado em capital para um marketplace e plataforma de serviços para imobiliárias.
 
 Hipóteses explícitas separam "o que eu acho" de "o que eu testei". A intuição inicial é frequentemente parcialmente certa e parcialmente errada. Só teste com threshold pré-registrado separa.
 
@@ -319,12 +321,12 @@ Hipóteses explícitas separam "o que eu acho" de "o que eu testei". A intuiçã
 
 Você concluiu a Fase 7 quando todos os critérios abaixo estão cumpridos.
 
-- [ ] Banco de Hipóteses (Template: Banco de Hipóteses, modelo de planilha (Fase 7)) com vinte ou mais itens classificados nas cinco categorias (problema, solução, cliente, canal, monetização). Pelo menos três em cada categoria, sem nenhuma vazia.
+- [ ] Banco de Hipóteses (Template: Banco de Hipóteses, modelo de planilha (Fase 7)) com 15 a 30 itens classificados nas cinco categorias (problema, solução, cliente, canal, monetização). Pelo menos três em cada categoria, sem nenhuma vazia.
 - [ ] Todas as hipóteses no formato padronizado (afirmação + atributo da teoria + porquê importa + critério de validação numérico + método + custo estimado).
-- [ ] Cem por cento das hipóteses no formato SE-ENTÃO-MENSURA com critério de falsificação numérico explícito.
+- [ ] Cem por cento das hipóteses redigidas no formato canônico do Passo 2 (Hipótese, Por que importa, Para validar preciso ver, Vamos descartar se e Zona cinzenta).
 - [ ] Cada hipótese vinculada a um nó ou seta da árvore de teoria (Fase 3). Nenhuma órfã.
 - [ ] Sistema H/E (Hypothesis Strength / Evidence Strength) aplicado a cada hipótese, de um a dez em cada eixo.
-- [ ] Hipóteses bet-the-company identificadas pelo quadrante H alto + E baixo, priorizadas no topo (três a cinco).
+- [ ] Três a cinco apostas de vida ou morte identificadas por R × I ≥ 15 e ordenadas pelo sistema H/E (quadrante H alto e E baixo no topo da fila).
 - [ ] Três ou mais Hypothesis Canvas (Template: Hypothesis Canvas (Fase 7)) preenchidos para as bet-the-company.
 - [ ] Status (não testada, em teste, validada, invalidada) marcado em todas.
 - [ ] As três a cinco hipóteses prioritárias têm método de teste inicial desenhado e Test Card (Fase 8) com critério de sucesso e refutação definidos antes do experimento.
@@ -339,7 +341,7 @@ Você concluiu a Fase 7 quando todos os critérios abaixo estão cumpridos.
 3. Reformular as cinco a dez prioritárias em formato falsificável rigoroso.
 4. Para cada hipótese das três do topo, preencher Hypothesis Canvas (Template: Hypothesis Canvas (Fase 7)) com detalhamento.
 
-### A covardia de testar o óbvio enquanto o elefante na sala continua intocado
+### Os erros que mais custam nesta fase
 
 Hipóteses vagas. "Os clientes vão gostar." Use o formato do Passo 2: afirmação com critério numérico e caminho de refutação.
 
@@ -347,7 +349,7 @@ Só hipóteses de solução. Empreendedores ficam obcecados em testar "a soluç�
 
 Priorizar baixo-risco por ser fácil. Testar primeiro o que é confortável. Princípio: teste primeiro o que pode te matar, não o que é agradável de confirmar.
 
-Esquecer de atualizar. A lista vira zumbi se não for visitada semanalmente. Reserve trinta minutos toda segunda para revisar.
+Esquecer de atualizar. Se não for revisada toda semana, a planilha perde utilidade. Reserve 30 minutos toda segunda-feira no Ritual da Fase 7 para atualizar as notas H e E.
 
 Confundir "não refutada ainda" com "validada". Uma hipótese só é validada quando você tem evidência positiva a favor dela. Não apenas ausência de evidência contra.
 
@@ -366,8 +368,8 @@ Confundir "não refutada ainda" com "validada". Uma hipótese só é validada qu
 **Permissão Libertadora:**
 Você está autorizado a estar errado sobre a sua hipótese inicial. Estar errado em uma hipótese escrita no papel custa zero reais; estar errado depois de um ano programando custa a sua empresa.
 
-**O Ritual de Segunda-Feira às 9h:**
-Pegue uma folha em branco e escreva a frase: *"Nós acreditamos que [Segmento Específico] fará [Ação Concreta de Compra/Uso] dentro de [Prazo], e saberemos que estamos ERRADOS se menos de [X%] fizerem isso."* Assine com seus sócios antes de começar a semana.
+**O Ritual de Segunda-Feira às 9h (rotina semanal de 30 minutos):**
+Toda segunda-feira, reserve 30 minutos com seus sócios para atualizar o Banco de Hipóteses e escrever em uma folha a regra do teste da semana: *"Nós acreditamos que [Segmento Específico] fará [Ação Concreta de Compra/Uso] dentro de [Prazo], e saberemos que estamos ERRADOS se menos de [X%] fizerem isso."* Assinem juntos antes de iniciar a coleta.
 
 ---
 
@@ -377,18 +379,18 @@ Pegue uma folha em branco e escreva a frase: *"Nós acreditamos que [Segmento Es
 |---|---|---|
 | Banco de hipóteses preenchido | Hipóteses críticas priorizadas | ≥ 10 hipóteses classificadas |
 | Hipóteses bet-the-company | Apostas de alto impacto e alta incerteza | 2 a 5 identificadas |
-| Sistema H-E (Hipótese/Experimento) | Cada hipótese tem experimento mapeado | 100% das bet-the-company |
-| Critério de falsificação | Cada hipótese tem threshold de refutação | Sim |
+| Sistema H/E (teoria e evidência) | Notas H e E de 1 a 10 atribuídas em cada aposta de vida ou morte | 100% |
+| Critério de descarte pré-declarado | Hipóteses com limiar numérico de refutação e regra de zona cinzenta | 100% (15 a 30 no banco; 3 a 5 apostas vitais) |
 | CSD (Certezas, Suposições, Dúvidas) | Distribuição documentada | Atualizado semanalmente |
 
 ---
 
-### MANUAL PASSO A PASSO DOS FRAMEWORKS DESTA FASE
+### Manual passo a passo dos frameworks de experimentação desta fase
 
 > [!tip] Uso autocontido neste volume
 > Todos os frameworks abaixo estão detalhados integralmente com origem, estrutura, passo a passo de aplicação, exemplo brasileiro e armadilhas para execução imediata nesta **Fase 7**.
 
-#### Framework: Red Team / Blue Team
+#### Framework: Red Team e Blue Team (ataque e defesa aplicados às hipóteses)
 
 ##### De onde vem a ferramenta (e por que sobreviveu ao filtro do tempo)
 
@@ -422,10 +424,10 @@ Passo 6: Se red team conseguiu minar, revisar plano.
 
 ##### Na trincheira real: como isso funciona na prática
 
-Decisão de aquisição de concorrente:
+Estresse da hipótese H1 do PadariaPro (antes de ir a campo):
 
 - Blue team (CEO + CFO + time de deal): apresenta tese, sinergia de clientes, ARR combinado, expansion.
-- Red team (2 board members + 1 advisor externo): por uma semana, analisa crítica. Trazem: "integração cultural falha em 70% dos M&A, vocês nunca integraram, concorrente tem debt oculto, preço está no topo do razoável, oportunidade de custo alto (time executivo desviado por 18 meses)."
+- Red team (2 board members + 1 advisor externo): por uma semana, analisa crítica. Trazem: "a maioria das aquisições não entrega a sinergia prometida (Christensen et al., HBR, 2011), vocês nunca integraram uma operação, o alvo tem dívida oculta, vocês nunca integraram, concorrente tem debt oculto, preço está no topo do razoável, custo de oportunidade alto (time executivo desviado por 18 meses)."
 - Discussão: CEO convence em alguns pontos, mas concede em outros. Preço é renegociado para baixo, acordo estrutura earn-out para mitigar risco, integration team é pré-contratado.
 
 Resultado: deal melhor (ou deal evitado, que também pode ser bom).
@@ -483,14 +485,14 @@ Custos:
 
 Benefícios (horizonte 3 anos):
 
-- Receita nova projetada: R$ 2.5M (Ano 1), R$ 4M (Ano 2), R$ 5M (Ano 3).
+- Margem de contribuição incremental projetada: R$ 2,5 milhões (Ano 1), R$ 4 milhões (Ano 2), R$ 5 milhões (Ano 3).
 - Redução de churn em segmento que adota: R$ 600k/ano.
 - Brand/differentiation: difícil quantificar, estimativa R$ 200k/ano.
 
 NPV (desconto real ilustrativo de 12% a.a. acima da inflação; em termos nominais no Brasil, com Selic a 13,75% a.a. em outubro de 2026, projetos de estágio inicial exigem taxa de desconto de 30% a 50% a.a., somando a taxa livre de risco ao prêmio de risco de uma empresa sem histórico):
 
 - Custos descontados: R$ 1.350k.
-- Benefícios descontados: R$ 7.8M.
+- Margem de contribuição descontada (a 12% a.a. em 3 anos): R$ 9,0 milhões (VPL líquido de R$ 7,8 milhões após deduzir o investimento inicial de R$ 1,2 milhão; com metade da margem, o VPL cai para R$ 3,3 milhões).
 - NPV: R$ 6.45M. Razão B/C: 5.8x.
 
 Sensibilidade: se receita for 50% do projetado, NPV ainda positivo (R$ 2.7M). Robusto.
@@ -509,7 +511,7 @@ Esquecer custos de oportunidade: muito comum. Faz todas as opções parecerem bo
 
 Expected Value: conceito estatístico formalizado por Pierre Fermat e Blaise Pascal no séc. XVII. Aplicação a decisão de negócio popularizada por von Neumann e Morgenstern em *Theory of Games and Economic Behavior* (1944).
 
-Bayesian Thinking: Thomas Bayes (séc. XVIII), popularizado em decisão contemporânea por Annie Duke (*Thinking in Bets*, 2018, ex-poker profissional). Aplicado em VCs (Chamath Palihapitiya, Elad Gil), trading, medicina.
+Bayesian Thinking: formulado por Thomas Bayes (séc. XVIII) e popularizado na tomada de decisão contemporânea por Annie Duke, ex-jogadora profissional de pôquer, em *Thinking in Bets* (2018).
 
 ##### A mecânica central (sem jargão)
 
@@ -534,7 +536,7 @@ Investimento positivo EV. Mas: **variância alta** (pode perder tudo). EV não m
 
 Bayesian:
 
-- Começa com prior (crença inicial).
+- Começa com *prior* (crença inicial): no PadariaPro, os fundadores atribuem 40% de probabilidade inicial de que a perda passe de 8 pontos percentuais (nota E = 3); quando 6 das 10 padarias auditadas superam esse corte, a crença revista sobe para 70% e a nota E avança de 3 para 6.
 - Evidência nova chega.
 - Atualiza para posterior (crença revisada).
 - Decisões baseadas em posteriors atualizados, não em priors estáticos.
@@ -591,7 +593,7 @@ Desenvolvida pelo exército dos EUA em 1949 (procedimento MIL-P-1629) para siste
 
 ##### A mecânica central (sem jargão)
 
-Método sistemático para identificar, priorizar e mitigar modos de falha antes que ocorram. Para cada componente/processo: (1) identificar **modos de falha possíveis**, (2) avaliar **severidade** da consequência (1-10), (3) avaliar **ocorrência** estimada (1-10), (4) avaliar **detecção** (1-10, sendo 10 = muito difícil detectar antes do impacto). Multiplicar os três números gera o **RPN** (Risk Priority Number). Priorizar mitigação por RPN decrescente.
+Método sistemático para identificar, priorizar e mitigar modos de falha antes que ocorram. Para cada componente/processo: (1) identificar **modos de falha possíveis**, (2) avaliar **severidade** da consequência (1-10), (3) avaliar **ocorrência** estimada (1-10), (4) avaliar **detecção** (1-10, sendo 10 = muito difícil detectar antes do impacto). Multiplicar os três números gera o **RPN** (*Risk Priority Number*). Na indústria automotiva, o manual AIAG-VDA substituiu o RPN em 2019 pela **Prioridade de Ação (AP)**, que avalia a severidade primeiro para impedir que falhas graves fiquem escondidas atrás de notas baixas de ocorrência.
 
 ##### Como rodar na segunda-feira às 9h com seu time
 
@@ -615,7 +617,7 @@ David J. Bland, colaborador de Alex Osterwalder (Strategyzer), publicou *Testing
 
 ##### A mecânica central (sem jargão)
 
-Ferramenta para **mapear premissas** de uma ideia/produto em matriz 2x2 de **certeza × risco**, priorizando quais testar primeiro.
+Ferramenta para **mapear premissas** em matriz 2x2 de **certeza × risco** (equivalente direta da primeira peneira Risco × Incerteza do Passo 4 desta fase).
 
 ##### As regras do jogo
 
@@ -676,7 +678,7 @@ Lista genérica de premissas: sem especificidade, teste é difícil, Autoavaliar
 
 ##### Por que este quadro visual foi criado
 
-O Hypothesis Canvas documentado neste livro é uma ferramenta autoral desenvolvida especificamente para o contexto de founder brasileiro operando com recursos limitados e necessidade de ciclos curtos de aprendizado. Parte da tradição do Lean Startup (Eric Ries, 2011) e da metodologia de hipóteses científicas aplicada a negócio (Karl Popper via Steve Blank), mas incorpora duas inovações práticas ausentes nos templates estrangeiros: (1) a ligação explícita entre cada hipótese e a **árvore de teoria** do negócio (Fase 3): forçando o fundador a articular *qual premissa causal da teoria* está sendo testada; (2) o bloco de **due diligence da amostra** antes da comparação com o threshold: evitando o erro de aceitar resultado de amostra inadequada como evidência válida. O template completo preenchível está no [[#Template: Hypothesis Canvas|Template: Hypothesis Canvas]].
+O Hypothesis Canvas documentado neste livro é uma ferramenta autoral desenvolvida especificamente para o contexto de founder brasileiro operando com recursos limitados e necessidade de ciclos curtos de aprendizado. Parte da tradição do Lean Startup (Eric Ries, 2011) e da metodologia de hipóteses científicas aplicada a negócio (Karl Popper via Steve Blank), e se apoia na abordagem científica ao empreendedorismo de Camuffo, Gambardella, Spina e colegas (2020, 2024), destacando na sua estrutura visual dois blocos operacionais indispensáveis: (1) a ligação explícita entre cada hipótese e a **árvore de teoria** do negócio (Fase 3): forçando o fundador a articular *qual premissa causal da teoria* está sendo testada; (2) o bloco de **due diligence da amostra** antes da comparação com o threshold: evitando o erro de aceitar resultado de amostra inadequada como evidência válida. O template completo preenchível está no [[#Template: Hypothesis Canvas|Template: Hypothesis Canvas]].
 
 ##### A anatomia visual de uma página
 
@@ -695,7 +697,7 @@ A sequência de preenchimento é deliberada: blocos superiores e médios **antes
 
 ##### O momento exato de colocar este canvas na parede
 
-Use o Hypothesis Canvas na Fase 6 (formulação de hipóteses) como artefato central: um canvas por hipótese bet-the-company. Use também em discovery contínuo pós-PMF: qualquer feature ou mudança de modelo que envolva uma crença não testada merece um canvas. Em times que fazem Test Cards (Fase 8), o Hypothesis Canvas é o nível acima: o Test Card registra um experimento; o Hypothesis Canvas registra a hipótese que o experimento testa, com contexto teórico e decisão final.
+Use o Hypothesis Canvas na Fase 7 (formulação rigorosa de hipóteses) como artefato central: um canvas para cada aposta de vida ou morte. Use também na descoberta contínua pós-PMF sempre que uma funcionalidade ou mudança de modelo depender de premissa ainda não testada. Em conjunto com os Test Cards da Fase 8, o Hypothesis Canvas registra *qual hipótese* está em jogo e como ela se conecta à árvore da teoria (Fase 3, Vol. 1), enquanto o Test Card detalha *como* cada experimento de campo será executado.
 
 ##### As regras de ouro para preencher sem se enganar
 
@@ -707,7 +709,7 @@ Três princípios fundamentam o design do canvas:
 
 **Terceiro: decisão conecta de volta à teoria.** O bloco "Decisão" exige que o fundador articule o impacto na árvore de teoria: não só "vamos continuar" mas "este resultado fortalece/invalida qual nó ou seta da nossa teoria causal do negócio". Sem isso, aprendizados se acumulam sem atualizar a teoria, e a teoria fica desatualizada em relação à evidência coletada.
 
-##### Passo a passo na parede da sala (30 a 60 minutos)
+##### Passo a passo na parede da sala
 
 Para cada hipótese bet-the-company da Fase 6, abra um canvas. Tempo de preenchimento inicial: 30-45 minutos (a parte antes de coletar dados). Conclusão: após coleta e análise.
 
@@ -733,7 +735,7 @@ Uma startup B2B de gestão de frota estava testando a hipótese de que transport
 |---|---|
 | **Teoria** | Atributo A3 da árvore: "cliente paga pelo relatório de eficiência, não só pelo rastreamento". Seta causal: relatório de eficiência → redução de custo de combustível → disposição a pagar premium. Importância: 5. Bet-the-company: sim (preço de R$ 180 vs. concorrente a R$ 90 depende desta hipótese). |
 | **Hipótese** | Transportadoras de 20-50 caminhões em SP com gerente de frota dedicado pagarão R$ 180/veículo/mês por rastreamento + relatório de eficiência mensal, se o relatório mostrar redução ≥5% de consumo de combustível. |
-| **Evidência** | 8 pré-vendas reais (contrato de 3 meses, reembolso se insatisfeito) via cold outreach para lista de 40 transportadoras identificadas em LinkedIn + associações de classe. |
+| **Evidência** | Abordagem fria a 8 das 40 transportadoras mapeadas via LinkedIn e associações do setor, ofertando contrato piloto de 3 meses com cláusula de reembolso (viés a monitorar: empresas que respondem rápido à prospecção fria costumam ter dor mais aguda que a média da base). |
 | **Medidas** | Número de contratos assinados a R$ 180. Threshold: ≥4/8 (50%) = suportada. ≤1/8 (12,5%) = refutada. Entre 2-3 = inconclusivo. |
 | **Threshold** | Sucesso: ≥4 contratos em 30 dias. Refutação: ≤1 contrato. Zona inconclusiva: 2-3 contratos (exige entrevistas adicionais para entender objeções). |
 | **Due diligence** | 8 empresas abordadas, 6 tiveram reunião (2 declinaram). Das 6: 3 assinaram a R$ 180, 1 pediu R$ 120, 2 declinaram. Amostra de 8 é pequena mas representa o ICP (todas têm 20-50 caminhões, SP, gerente de frota). Viés possível: acesso via rede pessoal pode ter selecionado empresas mais abertas a inovação. |
@@ -749,7 +751,7 @@ O bloco de due diligence revelou que a amostra era pequena (6 reuniões, não 8 
 
 ---
 
-### TEMPLATES OPERACIONAIS E CASOS PREENCHIDOS DESTA FASE
+### Templates operacionais e casos preenchidos desta fase (OST, User Story Map e estrutura do Dossiê de Solução do Passo 7)
 
 #### Template: Banco de Hipóteses — modelo de planilha
 
@@ -761,7 +763,7 @@ O bloco de due diligence revelou que a amostra era pequena (6 reuniões, não 8 
 
 | ID | Tipo | Hipótese | Porquê importa | Critério validação | Método | Custo | Status | Resultado |
 |----|------|----------|----------------|-------------------|--------|-------|--------|-----------|
-| H01 | Problema | Donos de restaurante perdem ≥3h/semana com conciliação de frete | Se falso, o problema não é dolorido o suficiente | ≥60% dos 20 entrevistados menciona espontaneamente | Entrevistas de problema | R$0 + 3 semanas | Em teste |, |
+| H01 | Problema | Donos de padaria com 2 a 5 lojas gastam 4 horas ou mais por semana fechando pedidos de compra no WhatsApp | Se for falsa, a dor operacional de compra não sustenta cobrança recorrente | ≥ 60% dos 20 donos entrevistados comprovam na agenda e no celular 4h ou mais por semana | Entrevistas estruturadas com observação do pedido | R$ 0 + 2 semanas | Em teste | A medir |
 | H02 | Monetização | ICP pagará ≥R$149/mês pela solução | Determina viabilidade do modelo | ≥15% conversão em landing page com oferta | Smoke test + pré-venda | R$1.500 + 3 semanas | Nova |, |
 
 ---
@@ -804,7 +806,7 @@ Template central para conectar teoria, hipótese, evidência e avaliação. Use 
 ╠════════════════════════════╩═════════════════════════════╣
 ║ THRESHOLD (preencher ANTES de olhar os dados) ║
 ║ ║
-║ Minha crença subjetiva Resultado mínimo para ║
+║ Minha crença subjetiva inicial (%) │ Resultado mínimo para validar ║
 ║ sobre o valor real: considerar SUPORTADA: ║
 ║ ║
 ║ [ __________ ] [ __________ ] ║
@@ -827,7 +829,7 @@ Template central para conectar teoria, hipótese, evidência e avaliação. Use 
 ║ Vieses identificados: ____________________________________║
 ║ ___________________________________________________________║
 ║ ║
-║ AJUSTE DO THRESHOLD: ║
+║ AUDITORIA DA AMOSTRA (VÁLIDA? [ ] Sim [ ] Não, repetir coleta): ║
 ║ [ ] Mantido ║
 ║ [ ] Aumentado para ______ (amostra favorece a hipótese) ║
 ║ [ ] Diminuído para ______ (amostra desfavorece hipótese) ║
@@ -854,11 +856,11 @@ Data de conclusão: ___/___/___
 Assinatura do empreendedor: _______________________________
 ```
 
-**Observação sobre o Hypothesis Canvas**: o propósito dele é forçar o empreendedor a tornar visível cada passo do raciocínio. O canvas não é decorativo, se algum bloco estiver em branco quando o experimento começa, é porque esse passo não foi pensado. E um experimento iniciado com passos não pensados é um experimento que vai produzir conclusões erradas, mesmo se o resultado parecer claro.
+**Observação sobre o Hypothesis Canvas**: o propósito dele é forçar o empreendedor a tornar visível cada passo do raciocínio. O canvas não é enfeite. Se algum bloco estiver em branco quando o experimento começa, esse passo simplesmente não foi pensado. E um experimento iniciado com passos não pensados é um experimento que vai produzir conclusões erradas, mesmo se o resultado parecer claro.
 
 ---
 
-### Fechamento da Fase 7: o que muda na sua cabeça e na sua empresa a partir de agora
+### Fechamento da Fase 7: Rafael e Bia cravam no papel o número de descarte antes de ir a campo
 
 O entregável é o Banco de Hipóteses priorizado: tabela viva, não documento que se arquiva. Hipóteses antigas viram verdades validadas ou são refutadas, e novas emergem ao longo do projeto. Revisitar a cada duas a quatro semanas é higiene. O Banco estrutura todas as fases seguintes: as Fases 8, 9, 10 e 11 não testam ideia em geral, testam hipóteses específicas na ordem do risco. A [[#FASE 8 — EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA E DA SOLUÇÃO|Fase 8]] pega as bet-the-company do topo do Banco e desenha experimentos com threshold pré-registrado para cada uma.
 
@@ -868,29 +870,29 @@ O entregável é o Banco de Hipóteses priorizado: tabela viva, não documento q
 
 ### A Moeda da Verdade: Por Que Opinião é Grátis e Compromisso Custa Caro
 
-Lucas queria seis meses e dois engenheiros plenos para construir o motor de inteligência artificial que lia editais e contratos de fornecedores automaticamente. Marina propôs um pacto de 72 horas:
+Lucas queria seis meses e dois engenheiros plenos para construir o motor de inteligência artificial que conciliava extratos bancários e boletos de fornecedores automaticamente. Marina propôs um pacto de 72 horas:
 
 – "Lucas, antes de programar uma única linha de IA, vamos colocar uma página no ar hoje à tarde prometendo a análise pronta em até 24 horas por R$ 1.500. Se dez empresas comprarem até sexta-feira, você mesmo analisa os contratos na mão durante o fim de semana com a minha ajuda. Se ninguém passar o cartão ou assinar o pedido, você acabou de economizar seis meses da nossa vida."
 
-Lucas protestou: *"Mas isso não escala! Isso não é tecnologia, é trabalho braçal!"*. Marina sorriu: *"Exato. Nós não estamos testando se sabemos programar; estamos testando se alguém abre a carteira pelo resultado."*
+Lucas protestou: *"Mas isso não escala! Isso não é tecnologia, é trabalho braçal!"*. Marina sorriu: *"Exato. Nós já sabemos programar. O que precisamos descobrir agora é se alguém abre a carteira pelo resultado."*
 
-Na sexta-feira às 17h, tinham onze pagamentos confirmados no Pix e dois diretores pedindo pacote anual. Foi o experimento **Mágico de Oz** mais lucrativo da vida deles: por fora, parecia uma plataforma automatizada; por trás da cortina, eram dois fundadores tomando café expresso e processando documentos no braço para aprender cada exceção real do cliente.
+Na sexta-feira às 17h, após abordarem 25 diretores financeiros da rede profissional de Marina, tinham três pagamentos de R$ 1.500 confirmados no Pix e dois pedidos de proposta anual. Foi o experimento **Mágico de Oz** que mudou a direção da empresa: por fora, uma página simples prometendo a conciliação pronta em até 24 horas; por trás da cortina, dois fundadores processando planilhas e boletos manualmente para mapear cada divergência real de cadastro e taxa bancária antes de escrever código.
 
-Esse é o princípio central da Fase 8: palavras são vento; a única validação real é quando o cliente entrega uma das três moedas escassas da vida dele: **Dinheiro**, **Tempo Real** ou **Reputação Profissional**. É o que chamamos de **A Lei da Moeda de Compromisso**. Uma resposta positiva em formulário do Google vale zero. Um clique em anúncio vale centavos. Uma reunião de 45 minutos com o diretor financeiro vale tempo. Uma carta de intenção vinculante ou um pagamento antecipado antes do produto existir é ouro puro. Não construa a fábrica para descobrir se alguém quer o tijolo; venda o primeiro lote primeiro.
+Esse é o princípio central da Fase 8: palavras são vento; a única validação real é quando o cliente entrega uma das três moedas escassas da vida dele: **Dinheiro**, **Tempo Real** ou **Reputação Profissional**. É o que Rob Fitzpatrick (*The Mom Test*) chama de **moedas de compromisso** (como quando o cliente apresenta você ao diretor dele ou aceita assinar um caso público com nome e cargo). Uma resposta positiva em formulário do Google vale zero. Um clique em anúncio vale centavos. Uma reunião de 45 minutos com o diretor financeiro vale tempo. Uma carta de intenção assinada por quem detém o orçamento, com preço e data de início, pesa muito; um pagamento antecipado pesa ainda mais, porque a carta raramente obriga juridicamente. Não construa a fábrica para descobrir se alguém quer o tijolo: venda o primeiro lote antes.
 
 ---
 
-> [!tip] Stack mínimo da Fase 7
+> [!tip] Stack mínimo da Fase 8
 > Para rodar experimentos baratos. Landing pages rápidas: Webflow, Framer, Carrd, Wix (R$ 0 a R$ 100 por mês, segundo o uso). Tráfego pago para testes: Meta Ads (R$ 500 a R$ 3.000 para primeiros testes), Google Ads (similar), LinkedIn Ads (se B2B, mais caro mas direto). Analytics: Google Analytics 4 (gratuito), Hotjar ou Microsoft Clarity (gratuitos para uso moderado) para heatmap. Plausible (alternativa simples e privacy-first). Pagamentos para pré-venda: Stripe, Asaas, Pagar.me, Stone, MercadoPago (cada um com particularidades regulatórias no Brasil). Regra: o stack de experimentação deveria custar menos de R$ 1.000 por mês no começo. Se está caro antes de aprender, algo está errado.
 
 ### Por que seis meses de engenharia nunca devem preceder quarenta e oito horas de evidência de pagamento
 
-Hipóteses sem experimentos são só listas bonitas. Experimentos transformam suposição em evidência. Rápido e barato é fundamental. Se um experimento demora três meses, ou custa R$ 50 mil, você está gastando demais para aprender uma coisa só. Cada experimento deve gerar uma decisão clara. Continuar. Ajustar. Pivotar. Ou matar.
+Hipóteses sem experimentos são só listas bonitas. Experimentos transformam suposição em evidência. Rápido e barato é fundamental. Se um experimento demora três meses, ou custa R$ 50 mil, você está gastando demais para aprender uma coisa só. Cada experimento termina numa de quatro decisões claras: perseverar, ajustar, pivotar ou abandonar a ideia.
 
 > [!note] Capítulo 1: Científico vs Lean Startup
 > O desenho de experimento descrito nesta fase combina rigor do método científico (threshold, ponto de corte numérico pré-definido, ex-ante, falsificabilidade, isolamento de variável) com velocidade do ciclo Lean (Build-Measure-Learn comprimido em dias, não meses). O [[#CAPÍTULO 1 — ABORDAGEM CIENTÍFICA vs LEAN STARTUP: QUANDO USAR CADA UMA|Capítulo 1: Científico vs Lean Startup]] detalha quando priorizar profundidade (pré-registro formal, controle de viés) versus velocidade (experimento mais barato possível). A tensão entre os dois é permanente em early-stage; o apêndice oferece critério de decisão.
 
-### CALIBRANDO EXPECTATIVAS, o espectro de resultados e a regra dos nove em dez
+### Calibre a expectativa: o espectro de resultados e a regra dos nove em dez
 
 Antes de desenhar o primeiro experimento, calibre a expectativa. Empreendedores iniciantes frequentemente chegam à Fase 8 esperando que "o experimento vai validar a minha ideia". Essa expectativa está calibrada errada. Entender a distribuição real de resultados é o que separa o fundador que aprende do fundador que se ilude.
 
@@ -903,7 +905,7 @@ O extremo positivo, "overnight cult following". A ideia teve adesão extraordin�
 O meio do espectro, "área cinzenta". Resultados fracos, confusos, conflitantes, ou enviesados. Alguns clientes interessados, outros indiferentes. Feedback misto. Esse é o cenário onde a maioria dos empreendedores realmente se encontra. É onde a maioria também se ilude e segue construindo algo que não deveria. A decisão é difícil. Exige critérios explícitos. Não intuição.
 
 > [!important] A regra operacional mais importante deste manual
-> Assuma que, em nove de cada dez ciclos de hipótese, experimento, e análise, a conclusão correta será recomeçar ou pivotar, não seguir. Essa é a distribuição de base. Se você está sempre chegando a conclusões que favorecem seguir em frente, quase certamente está torcendo em vez de analisando.
+> Como heurística prática deste manual, assuma que em cerca de nove de cada dez ciclos completos de hipótese, experimento e análise a decisão correta será ajustar a rota ou pivotar, e não seguir em linha reta (mesmo quando 30% a 50% das hipóteses individuais se confirmam, basta uma aposta de vida ou morte cair para exigir redesenho do ciclo). Se você chega sempre à conclusão de que deve seguir em frente sem mudar nada, está torcendo em vez de analisar.
 
 Essa calibração tem três implicações práticas.
 
@@ -923,7 +925,7 @@ Se a sua base de primeiros clientes se comporta assim, sem você ter que puxar, 
 
 Não interprete resultados medianos como validação fraca que vai melhorar. Na maior parte das vezes, não melhora.
 
-Aplique os critérios duros da [[#FASE 7 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 7]]. Dez pagamentos antecipados, vinte cartas de intenção, ou cem e-mails a mais de quinze por cento de conversão. Abaixo disso, você está no meio. E o meio é pivô.
+Aplique os critérios de saída desta Fase 8: dez pagamentos antecipados em SaaS para PME, vinte cartas de intenção assinadas por quem decide ou cem e-mails qualificados numa página que converta acima de 15%. Entre o corte de refutação e o de validação, você caiu na zona cinzenta: ela dá direito a um único experimento extra, já previsto no pré-registro, variando preço ou segmento; se cair de novo na zona cinzenta, pivote.
 
 Considere seriamente a teoria alternativa que você mapeou na [[IGNICAO-Vol-1-Ideacao#FASE 3 — CONSTRUÇÃO DA TEORIA DO NEGÓCIO|Fase 3 (Vol. 1)]]. Ela pode ser o caminho real.
 
@@ -942,7 +944,7 @@ Use esse formato:
 
 ```text
 EXPERIMENTO #N
-Hipótese: [copiar da Fase 6]
+Hipótese: [copiar do Banco de Hipóteses da Fase 7]
 Pergunta central: [o que especificamente quero responder]
 Desenho: [o que vou fazer, passo a passo]
 Público: [quantas pessoas, que perfil, como alcanço]
@@ -973,7 +975,7 @@ Para qualquer outro tipo de experimento (entrevistas, landing page, fake door, p
 > Se você define depois, vai ajustar o critério para "validar" o que você já queria. Isso é auto-engano.
 
 > [!tip] Test Card: a forma canônica do Cartão de Experimento
-> O cartão de experimento descrito acima é a adaptação brasileira do **Test Card**: ferramenta de David Bland & Alexander Osterwalder (Strategyzer, 2019) para documentar hipótese, método, critério e decisão num único cartão antes de rodar qualquer experimento. O tratamento completo está no [[#Canvas: Test Card (David Bland & Alexander Osterwalder, 2019)|Canvas: Test Card (David Bland & Alexander Osterwalder, 2019)]] – origem histórica, princípios, exemplo brasileiro PadariaPro com smoke test (teste rápido de demanda com landing page ou anúncio, antes de construir qualquer coisa) de R$ 1.500 que produziu critério claro de Persevere/Pivote, e variações como Learning Card (cartão de aprendizado, registro estruturado do resultado de um experimento) e Riskiest Assumption Test (RAT), teste da premissa mais arriscada. A regra de ouro de Canvas: Test Card (David Bland & Alexander Osterwalder, 2019) (Fase 8): critério de sucesso e critério de refutação devem ser **distintos com zona de incerteza no meio**. Se você define só "sucesso ≥10%" sem definir "refutação ≤2%", qualquer resultado entre 2 e 10% vira interpretação flexível conforme conveniência do time.
+> O cartão de experimento descrito acima é a adaptação brasileira do **Test Card**: ferramenta de David Bland & Alexander Osterwalder (Strategyzer, 2019) para documentar hipótese, método, critério e decisão num único cartão antes de rodar qualquer experimento. O tratamento completo está no [[#Canvas: Test Card (David Bland & Alexander Osterwalder, 2019)|Canvas: Test Card (David Bland & Alexander Osterwalder, 2019)]] – origem histórica, princípios, exemplo brasileiro PadariaPro com smoke test (teste rápido de demanda com landing page ou anúncio, antes de construir qualquer coisa) de R$ 1.500 que produziu critério claro de Persevere/Pivote, e variações como Learning Card (cartão de aprendizado, registro estruturado do resultado de um experimento) e Riskiest Assumption Test (RAT), teste da premissa mais arriscada. Regra de ouro do Test Card (David Bland e Alexander Osterwalder, 2019): o critério de sucesso e o critério de refutação devem ser números **distintos, separados por uma zona cinzenta explícita definida antes da coleta**. Se você define só "sucesso ≥10%" sem definir "refutação ≤2%", qualquer resultado entre 2 e 10% vira interpretação flexível conforme conveniência do time.
 
 #### Passo 2, escolha os tipos de experimento apropriados
 
@@ -1003,7 +1005,7 @@ Como medir: o usuário usa a "solução"? Volta? Paga? Custo baixo em construç�
 
 ##### Pre-sale (venda antecipada)
 
-Você vende o produto antes dele existir. Pede pagamento real ou carta de intenção assinada.
+Você vende o produto antes de ele existir, pedindo pagamento real ou carta de intenção assinada. No Brasil, alinhe com a contabilidade a emissão de nota para entrega futura, formalize por escrito o prazo de entrega e a cláusula de reembolso integral automático caso o projeto não avance, utilize meio de pagamento com estorno simples (Pix ou cartão) e, em vendas B2C online, respeite o direito de arrependimento em 7 dias (art. 49 do CDC).
 
 Como medir: número de vendas e cartas. Valor arrecadado. Critério forte: dinheiro no bolso é mais que carta de intenção, que é mais que interesse verbal. Custo baixo. Tempo de duas a seis semanas.
 
@@ -1012,7 +1014,7 @@ Como medir: número de vendas e cartas. Valor arrecadado. Critério forte: dinhe
 
 ##### Fake Door ou Botão Fantasma (testar interesse sem construir)
 
-Dentro de um produto existente (blog, comunidade), ou de uma página, você coloca um botão que promete uma feature que ainda não construiu. Quando o usuário clica, aparece "em breve" mais formulário.
+Dentro de um produto existente (blog, comunidade), ou de uma página, você coloca um botão que promete uma feature que ainda não construiu. Quando o usuário clica, aparece um aviso de "em breve" acompanhado de um formulário de cadastro.
 
 Como medir: percentual de usuários que clicam. Custo muito baixo. Limitação: mede interesse, não compra.
 
@@ -1043,7 +1045,7 @@ Use entrevistas quando você precisa de profundidade e aprendizados qualitativos
 
 #### Passo 3, operacionalize cada hipótese em uma medida concreta
 
-Esse é a ponte entre teoria e experimento. É onde a maioria dos empreendedores erra. Para cada hipótese prioritária, responda quatro perguntas, nessa ordem.
+Este passo é a ponte entre teoria e experimento. É onde a maioria dos empreendedores erra. Para cada hipótese prioritária, responda quatro perguntas, nessa ordem.
 
 Qual é a hipótese testável? Texto exato da hipótese da [[#FASE 7 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 7]].
 
@@ -1055,7 +1057,7 @@ O que eu vou efetivamente contar como medida? Fórmula exata. Por exemplo: "perc
 
 Exemplo operacionalizado, inspirado no caso MiMoto, do paper de Coali e colegas (2024).
 
-A hipótese: "Tráfego nas grandes capitais é um problema relevante para profissionais." A pergunta no questionário: "Em uma semana típica, quantos dias você fica preso no trânsito no trajeto casa-trabalho?" As respostas possíveis: (a) menos de um dia, (b) um a três dias, (c) três a cinco dias, (d) mais de cinco dias. A medida: percentual de respondentes que escolhem (c) ou (d).
+A hipótese: "Tráfego nas grandes capitais é um problema relevante para profissionais." A pergunta no questionário: "Em uma semana típica, quantos dias você fica preso no trânsito no trajeto casa-trabalho?" As respostas possíveis: (a) nenhum dia, (b) 1 ou 2 dias, (c) 3 ou 4 dias, (d) 5 dias ou mais (a medida soma os respondentes em c ou d, isto é, 3 dias ou mais). A medida: percentual de respondentes que escolhem (c) ou (d).
 
 Você pode escolher outra forma de medir (por exemplo, nota de um a sete, ou foco apenas na resposta "mais de cinco dias"). O importante é que a escolha seja feita antes de ver os dados, documentada, e aplicada de forma consistente na análise.
 
@@ -1081,7 +1083,14 @@ Pré-registro é a prática adotada na pesquisa científica moderna (Simmons, Ne
 
 O empreendedor enfrenta exatamente o mesmo viés. Com custo maior. A análise enviesada aqui não produz artigo acadêmico duvidoso. Produz decisão de investimento com o seu próprio capital, baseada em evidência viciada.
 
-Checklist mínimo de pré-registro a documentar antes de iniciar o experimento. Hipótese específica (texto exato, com atributo e direção). Medida operacional (fórmula exata). População-alvo, e critérios de inclusão e exclusão (quem entra no teste, quem não). Tamanho mínimo da amostra (número antes de começar, não "até o que conseguir"). Threshold de decisão (valor numérico exato). Plano de análise (como os dados serão agregados, se haverá subgrupos). O que faria você descartar resultados (contaminação, vazamento de intenção, falha técnica). O que faria você considerar resultado inconclusivo (não apenas "não suportado").
+Checklist mínimo de pré-registro (marque todos os itens antes de iniciar a coleta):
+- [ ] Hipótese específica (texto exato, com atributo da teoria e direção causal)
+- [ ] Medida operacional (fórmula exata de cálculo)
+- [ ] População-alvo e critérios de inclusão e exclusão (quem entra e quem fica de fora)
+- [ ] Tamanho mínimo da amostra definido antes de começar
+- [ ] Limiares numéricos de validação, refutação e regra da zona cinzenta
+- [ ] Plano de análise e segmentação de subgrupos
+- [ ] Critérios de descarte da coleta (contaminação, falha técnica ou público fora do ICP)
 
 Documente isso em arquivo datado antes de iniciar o experimento. Compartilhe com sócios e advisors. Essa transparência externa cria pressão positiva para não trapacear consigo mesmo.
 
@@ -1092,13 +1101,13 @@ Documente isso em arquivo datado antes de iniciar o experimento. Compartilhe com
 
 Rode o experimento dentro do prazo planejado. Resista à tentação de esticar o prazo porque o resultado está ruim ("mais tempo vai melhorar"). De mudar o critério de sucesso no meio do caminho. De parar cedo porque o resultado está bom ("já sei, não preciso terminar").
 
-Esse é o passo mais negligenciado por empreendedores. É o mais importante para uma avaliação honesta. Antes de comparar o resultado com o threshold, verifique três coisas.
+Pular a auditoria da amostra faz você medir a reação de curiosos e tomar decisão estratégica com base em quem não é o seu cliente. Antes de comparar o resultado com o threshold, verifique três coisas.
 
-Tamanho da amostra. Para entrevistas e MVPs qualitativos, dez a quinze pessoas já trazem insight. Para questionários e testes de conversão, você precisa de pelo menos oitenta a cem respostas. Idealmente centenas, se o mercado é massificado. Amostras muito pequenas produzem ruído, não sinal. Se a amostra está pequena, reconheça a limitação e seja mais conservador no próximo passo.
+Tamanho da amostra. Para entrevistas e MVPs qualitativos, dez a quinze pessoas já trazem insight. Para testes de conversão entre 2% e 10% em páginas de captura, reúna de 300 a 500 visitantes qualificados do ICP ou decida por contagem absoluta de compromissos (como 15 cadastros qualificados com entrevista agendada). Idealmente centenas, se o mercado é massificado. Amostras muito pequenas produzem ruído, não sinal. Se a amostra está pequena, reconheça a limitação e seja mais conservador no próximo passo.
 
 Representatividade. A amostra que você conseguiu reflete o ICP que descreveu na teoria? Mesmo sem amostragem aleatória (quase nunca viável para um empreendedor iniciante), os respondentes precisam ser um "retrato em miniatura" do público-alvo. Se o seu ICP é "donas de pet shop no interior", e oitenta por cento dos respondentes são de capital, a sua amostra está enviesada. Se é "CFOs de empresas de cem ou mais funcionários", e você só conseguiu falar com analistas juniores, você não testou a hipótese real.
 
-Ajuste do threshold se a amostra for enviesada. Se a sua amostra está enviesada para um lado que favorece a hipótese (você testou com early adopters, primeiros adotantes entusiastas, quando o público final é mainstream), aumente o threshold. Seja mais rigoroso. Se está enviesada para um lado que prejudica a hipótese (você testou com um público que não tem o problema na intensidade esperada), considere se o teste faz sentido, ou se deveria ser refeito. Registre o ajuste no Cartão de Experimento, antes de olhar o resultado final.
+Regra condicional para viés de amostra (definida já no pré-registro do Passo 5): se você antecipar que mais da metade dos respondentes virá de adotantes entusiastas (*early adopters*) ou contatos próximos, deixe escrito antes da coleta que o limiar de aprovação subirá (por exemplo, de 15% para 20%). Se após a coleta você descobrir que o público atingido não tem o problema do ICP, descarte a rodada e repita o teste no canal certo, sem jamais alterar a meta para salvar um número fraco.
 
 > [!important] O princípio da avaliação objetiva
 > Você reconhece as limitações da evidência, e as incorpora ao critério. Em vez de usar as limitações depois para explicar por que o resultado ruim "não conta".
@@ -1117,16 +1126,16 @@ Se a hipótese foi suportada: o resultado é consistente com o resto da teoria? 
 
 Se foi inconclusivo: o problema é a amostra, a operacionalização, ou a teoria em si?
 
-> [!quote] Popper sobre evidência refutadora
+> [!note] Karl Popper (*A Lógica da Pesquisa Científica*, 1934): a evidência empírica pode refutar uma teoria com segurança, mas nunca prová-la em definitivo
 > Você só pode aprender que está errado por meio de evidência. Nunca pode provar que está certo em definitivo.
 
 Resultados negativos, nesse enquadramento, são informação valiosa. Não fracasso. Um empreendedor que trata toda evidência refutadora como ruído acaba cego para os sinais que mais deveriam fazê-lo repensar.
 
 #### Passo 9, decida e atualize Banco de Hipóteses, árvore de teoria e Declaração
 
-Depois de comparar resultado com teoria (Passo 8), tome uma das quatro decisões. **Persevere**: hipótese validada, continue no mesmo caminho. **Pivote**: hipótese refutada, mude de direção (cliente, problema, solução, ou canal). **Mais dados**: resultado inconclusivo, rode variante do experimento. **Abandone**: evidência clara e consistente de que não há negócio aqui.
+Depois de confrontar o resultado com a árvore da teoria (Passo 8), tome uma das quatro decisões canônicas deste manual: **Persevere** (hipótese validada, avance para o próximo risco), **Ajuste** (resultado caiu na zona cinzenta, dando direito a uma única rodada extra já prevista no pré-registro; se cair na zona cinzenta de novo, pivote), **Pivote** (hipótese refutada, mude cliente, proposta ou canal na árvore da teoria) ou **Abandone** (evidência consistente de que não há negócio viável na tese).
 
-> [!warning] Não fique em limbo
+**Não fique no limbo após coletar os dados:**
 > Decida.
 
 Atualize artefatos imediatamente após decidir. Versione: a Declaração vai para v0.2, v0.3, v0.4. Isso é saudável. Significa que você está aprendendo.
@@ -1136,7 +1145,7 @@ Atualize artefatos imediatamente após decidir. Versione: a Declaração vai par
 
 ### Os nove passos aplicados, Cartão de Experimento do PadariaPro (hipótese H2 — disposição a pagar)
 
-A estrutura visual do Cartão de Experimento (Template: Cartão de Experimento (Fase 8)):
+A estrutura visual do Cartão de Experimento (modelo completo na seção de templates ao final desta fase):
 
 ```mermaid
 flowchart TD
@@ -1174,7 +1183,7 @@ Critério de refutação: Menos de cinco por cento preenchem o formulário, ou m
 
 Duração: Catorze dias.
 
-Custo: R$ 0 em mídia paga. Aproximadamente oito horas de trabalho (quatro horas para a landing page, quatro horas para as ligações de confirmação).
+Custo: R$ 600 em anúncios segmentados no Instagram em São Paulo (usados para equilibrar o viés dos grupos de WhatsApp) e cerca de oito horas de trabalho (quatro para a página e quatro para as ligações de confirmação).
 
 Riscos e vieses: Preencher formulário é barato e não equivale a pagar. Selection bias (viés de seleção): grupos de WhatsApp podem não representar o segmento completo. Confirmação telefônica mitiga o primeiro risco. Instagram ads segmentados em SP como canal paralelo mitiga o segundo.
 
@@ -1186,15 +1195,15 @@ Data de início / fim: Semana 1, Semana 2 do mesmo mês.
 
 ### Caso brasileiro real, Pulses (HRtech) e a landing page antes de construir
 
-A Pulses, fundada em 2015 por Sady Ennes em Florianópolis (depois adquirida pela TOTVS em 2021), é uma plataforma de pesquisa de clima e cultura organizacional via micro-pulses semanais. Antes de comprometer meses construindo o produto, o fundador validou disposição a pagar via experimento clássico de pré-venda.
+Como ilustração inspirada na trajetória da Pulses (plataforma catarinense de clima organizacional e engajamento por pulsos semanais, adquirida pela TOTVS em 2021), veja como funciona um experimento de pré-venda B2B antes de escrever código:
 
-A decisão foi cirúrgica. Criou landing page em poucos dias prometendo "diagnóstico contínuo de cultura via micro-pesquisas semanais" com preço anunciado por funcionário/mês. Direcionou tráfego para VPs e diretores de RH em empresas médias e grandes via LinkedIn Ads e rede pessoal do fundador no setor.
+O time montou uma página em poucos dias prometendo "diagnóstico contínuo de cultura via micropesquisas semanais", com preço explícito por colaborador ao mês, e direcionou tráfego para diretores de RH de médias e grandes empresas pelo LinkedIn e pela rede do setor.
 
 Em poucas semanas o experimento gerou leads qualificados, reuniões com decisores de RH, e cartas de intenção de empresas dispostas a pagar pelo serviço sem o produto existir ainda. O custo total ficou na casa de poucos milhares de reais. Validou tanto a demanda quanto a disposição a pagar, antes de qualquer linha de código. Anos depois, em 2021, a empresa foi adquirida pela TOTVS: endossando a tese inicial validada por landing page antes do produto.
 
 Experimento barato antes de construir economiza meses. Pré-venda com carta de intenção (ou pagamento real) de comprador econômico é o teste mais forte de demanda em B2B.
 
-### Sinais irrefutáveis de pele em jogo (Skin in the Game) com recibos, pilotos pagos ou LOIs
+### Critérios de saída com pele em jogo: como Henrique troca POCs gratuitos por piloto pago e Rafael e Bia validam recompra
 
 Você concluiu a Fase 8 quando todos os critérios abaixo estão cumpridos.
 
@@ -1205,8 +1214,8 @@ Você concluiu a Fase 8 quando todos os critérios abaixo estão cumpridos.
 - [ ] Banco de Hipóteses atualizado com status pós-experimento (uma ou mais invalidadas conta como aprendizado).
 - [ ] Decisão documentada depois de cada experimento (perseverar, pivotar, mais dados, abandonar).
 - [ ] Evidência forte de três coisas: o problema é real e doloroso para o ICP, o ICP está disposto a pagar (carta de intenção ou pré-venda), pelo menos um canal de aquisição possível.
-- [ ] Critério duro atingido em ao menos um dos três sinais: dez pagamentos antecipados reais, vinte cartas de intenção assinadas, ou cem e-mails qualificados em landing page com conversão maior que quinze por cento.
-- [ ] Benchmarks de resultado por tipo de experimento documentados quando aplicáveis: landing page (>5% bom, >10% forte, <2% fraco em e-mail cadastrado); pré-venda (>20% intenção, >10% conversão paga é muito forte); concierge (NPS >50); Wizard of Oz (uso >2x/semana).
+- [ ] Critério de compromisso atingido conforme o modelo de negócio (informando a origem do tráfego): em B2B enterprise (como Henrique nas usinas), 2 pilotos pagos ou 3 cartas de intenção assinadas pelo dono do orçamento; em SaaS para PME (como Lucas e Marina), 10 pagamentos antecipados; em D2C (como Rafael e Bia), 50 pedidos pagos vindos de tráfego frio ou página convertendo acima de 15% com 100 leads qualificados.
+- [ ] Benchmarks de resultado por tipo de experimento documentados quando aplicáveis: landing page (>5% bom, >10% forte, <2% fraco em e-mail cadastrado); pré-venda (acima de 20% de avanço para reunião de fechamento e acima de 10% de conversão paga, como referência prática deste manual); concierge (ao menos 3 de 5 clientes renovam ou indicam um par); Mágico de Oz (uso repetido superior a 2 vezes por semana).
 - [ ] Custo por aprendizado abaixo de R$ 500 por hipótese respondida (alvo early-stage). Acima de R$ 3.000 indica experimento mal-desenhado.
 - [ ] Velocidade de aprendizado de duas ou mais hipóteses bet-the-company resolvidas por mês em early-stage; quatro ou mais por mês em fase de MVP.
 - [ ] Decisão final tomada (perseverar, pivotar, abandonar) e ação iniciada.
@@ -1221,7 +1230,7 @@ Você concluiu a Fase 8 quando todos os critérios abaixo estão cumpridos.
 3. Executar o experimento mais barato primeiro. Geralmente landing page ou fake door.
 4. Registrar o resultado em planilha, com decisão associada.
 
-### Confundir cliques curiosos ou cadastros de e-mail gratuitos com intenção real de compra
+### Seis armadilhas de experimentação: por que mil cadastros grátis valem menos que dez pagamentos
 
 Experimentos desenhados para validar, não para descobrir. Se a pessoa ama o empreendedor, o "experimento" sai positivo. Controle o viés.
 
@@ -1229,7 +1238,7 @@ Critérios de sucesso frouxos. "Vou considerar sucesso se alguém demonstrar int
 
 Ignorar resultados negativos. Muitos empreendedores desvalorizam dados contrários. "Esse grupo não era o público certo." Se você precisa justificar por que o resultado ruim "não conta", está fugindo da verdade.
 
-Gastar muito em experimentos. Se um experimento custa mais de R$ 3.000, ou demora mais de duas semanas, provavelmente está mal desenhado. Vá mais simples.
+Gastar muito em experimentos. Se um teste simples de página de captura custa mais de R$ 2.000 ou passa de duas semanas (ou se um Concierge passa de oito semanas sem cobrar), o experimento está inchado demais. Vá mais simples.
 
 Testar uma hipótese em vez da outra. Às vezes o que você testa não mede o que você acha. Pré-venda de um produto que não existe testa proposta mais preço mais timing. Não testa se o produto funcionaria. Saiba o que está medindo.
 
@@ -1243,15 +1252,15 @@ Não documentar o experimento. Sem registro escrito antes e depois, você recons
 **Fechando o ciclo na trincheira:** Quando **Lucas e Marina** aplicaram as travas deste capítulo na rotina entre São Paulo e Florianópolis, a tensão da cena de abertura deixou de ser discussão subjetiva de corredores e virou regra clara de priorização, retenção e proteção de caixa.
 
 **O Espelho (autodiagnóstico):**
-1. Qual foi a evidência mais forte que você coletou até hoje: elogios verbais, e-mails cadastrados de graça ou clientes pagando dinheiro real (mesmo que você entregue o serviço no braço)?
+1. No seu último experimento, o número exato de refutação estava escrito antes de abrir a planilha de resultados, e a evidência veio de pagamento real (e não de elogios ou cadastros gratuitos)? (Se responder "não" a duas ou mais perguntas abaixo, você caiu no Teatro da Validação e deve tratar o teste como inconclusivo.)
 2. Qual parte do seu produto você está tentando automatizar com código hoje que poderia ser feita manualmente no modelo Concierge ou Mágico de Oz para os primeiros dez clientes?
 3. Quanto tempo sua equipe leva entre ter uma dúvida sobre o mercado e colocar um experimento real na rua: 48 horas ou 4 semanas?
 
 **Permissão Libertadora:**
 Você está autorizado a fazer coisas que não escalam. Processar os primeiros vinte pedidos manualmente no Excel e no WhatsApp não é amadorismo; é a forma mais rápida e barata de descobrir o que realmente precisa ser programado depois.
 
-**O Ritual de Segunda-Feira às 9h:**
-Desenhe uma oferta de Concierge Pago para entregar manualmente o resultado final que seu produto promete. Apresente essa oferta para cinco clientes reais até quarta-feira cobrando preço justo.
+**O Ritual de Segunda-Feira às 9h (rotina semanal de 30 minutos):**
+Preencha primeiro um Cartão de Experimento cravando quantos clientes precisam pagar para você seguir (ex.: 2 em 5) e quantos "nãos" obrigam a mudar a oferta; só então apresente a oferta de Concierge Pago a cinco clientes reais (em venda enterprise, peça assinatura de piloto pago com data de início).
 
 ---
 
@@ -1264,20 +1273,20 @@ Desenhe uma oferta de Concierge Pago para entregar manualmente o resultado final
 | Regra 9 em 10 | Threshold mínimo antes de pivotar | Definido antes do experimento |
 | Pre-registro | % dos experimentos com hipótese registrada antes | 100% |
 | Evidência qualitativa | Entrevistas de validação complementares | ≥ 5 por experimento crítico |
-| Pré-vendas ou LOIs | Cartas de intenção ou pagamentos antes do produto | ≥ 3 antes de construir |
+| Compromissos com pele em jogo | Pagamentos antecipados, pilotos pagos ou LOIs (e hipóteses vitais resolvidas/mês) | 10 pagamentos PME, 2 pilotos enterprise ou 20 LOIs (≥ 2 apostas/mês) |
 
 ---
 
-### MANUAL PASSO A PASSO DOS FRAMEWORKS DESTA FASE
+### Manual passo a passo dos frameworks de experimentação desta fase
 
 > [!tip] Uso autocontido neste volume
-> Todos os frameworks abaixo estão detalhados integralmente com origem, estrutura, passo a passo de aplicação, exemplo brasileiro e armadilhas para execução imediata nesta **Fase 8**.
+> > Os frameworks abaixo detalham a caixa de ferramentas de experimentação da **Fase 8**, com origem, estrutura, passo a passo e armadilhas de execução.
 
 #### Framework: Pretotyping (Alberto Savoia, 2011)
 
 ##### De onde vem a ferramenta (e por que sobreviveu ao filtro do tempo)
 
-Alberto Savoia, ex-engineering director do Google que liderou iniciativas de Inovação (Adwords, Google Shopping), cunhou o termo "pretotype" em 2011 (anterior ao "prototype"). Formalizou no livro *The Right It* (2019). Distingue **prototipo** (construir a coisa certa) de **pretotipo** (validar se a coisa é certa antes de construir). Savoia argumenta que 90% dos produtos lançados falham, mas não porque são mal construídos, e sim porque construíram a coisa errada.
+Alberto Savoia, ex-engineering director do Google que liderou iniciativas de Inovação (Adwords, Google Shopping), cunhou o termo *pretotype* (pretótipo) por volta de 2011 para designar o teste que vem antes do protótipo. Formalizou no livro *The Right It* (2019). Distingue **prototipo** (construir a coisa certa) de **pretotipo** (validar se a coisa é certa antes de construir). Savoia argumenta que 90% dos produtos lançados falham, mas não porque são mal construídos, e sim porque construíram a coisa errada.
 
 ##### A mecânica central (sem jargão)
 
@@ -1295,11 +1304,11 @@ Para cada hipótese de produto: identificar qual é a decisão binária "vamos c
 
 Airbnb 2007. Antes do produto existir, fundadores alugaram ar-mattress no próprio apartamento durante conferência de design em San Francisco. Três pessoas pagaram US$80 cada para dormir no chão em colchão de ar. Pretotype: comprovou que alguém paga por estadia alternativa no contexto específico (conferência sem hotel disponível). Decidiu a construção do produto.
 
-Exemplo brasileiro, Wellhub pré-launch. Cesar Carvalho fundou Gympass (renomeado Wellhub em 2024) em 2012 em São Paulo. No início rodou teste em uma empresa grande com planilha em Excel e lista manual de academias parceiras, sem app, sem plataforma. Pretotype: validou que RH queria benefício unificado e que funcionários usariam. Só então investiu em construir tecnologia.
+Exemplo brasileiro: o início do Gympass (fundado em 2012 em São Paulo por Cesar Carvalho e renomeado Wellhub em 2024). A empresa começou vendendo diárias e pacotes avulsos diretamente ao consumidor final (B2C), sem produto corporativo pronto; os testes iniciais de demanda mostraram que as academias temiam canibalizar seus alunos diretos, mas que os departamentos de RH das empresas pagariam por um benefício corporativo unificado para funcionários sedentários, originando o pivô para o modelo B2B2C.
 
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
-(1) Pretotype sem threshold pré-definido, vira teatro. (2) Confundir pretotype com MVP, MVP é produto mínimo que funciona, pretotype é simulação de produto que não existe. (3) Fazer pretotype e ignorar resultado negativo ("mas eu acho que..."), dado é dado. (4) Um único pretotype, comportamento binário (funcionou/não funcionou) sem contexto pode induzir erro, múltiplos pretotypes em diferentes variações fornecem sinal melhor.
+(1) Pretótipo sem limiar numérico definido antes da coleta vira teatro. (2) Confundir pretótipo com MVP: o MVP é uma versão mínima que entrega o serviço; o pretótipo apenas simula uma oferta para medir compromisso de compra. (3) Ignorar um resultado negativo dizendo "mas eu acho que vai funcionar": dado coletado em campo supera opinião interna. (4) Rodar uma única variação sem contexto: testar duas ofertas de preço ou canal ajuda a separar rejeição do canal de rejeição da proposta.
 
 ---
 
@@ -1321,7 +1330,7 @@ Processo de quatro etapas sequenciais: (1) **Customer Discovery**: formular e te
 
 Em Customer Discovery: 50-100 conversas com prospects potenciais nos primeiros meses ([[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 4 — DESCOBERTA DO PROBLEMA|Fase 4 (Vol. 2)]] do manual). Documentar hipóteses antes das conversas (quem, problema, solução). Ajustar hipóteses depois de cada conjunto de 5-10 conversas. Em Customer Validation: vender o produto (mesmo que ainda não existe plenamente) para primeiros early adopters, documentar processo de venda que funciona. Customer Creation e Company Building vêm após validação comprovada, correspondem às Fases 11-14 do manual.
 
-Exemplo aplicado. Steve Blank usou Customer Development na E.piphany (sua startup de marketing software nos anos 1990). Processo: 6 meses em Customer Discovery conversando com VPs de Marketing de 60 empresas Fortune 500. Descobriu que problema inicial formulado (software de análise de campanhas) não era dor principal, dor real era integração de dados de múltiplos sistemas. Pivot orientado por Customer Discovery salvou a empresa, levou a IPO em 1999 com valuation de US$2.5B.
+Exemplo aplicado. Steve Blank usou Customer Development na E.piphany (sua startup de marketing software nos anos 1990). Processo: conforme relata em *The Four Steps to the Epiphany*, Blank passou meses em entrevistas de *Customer Discovery* diretamente com executivos de empresas clientes antes de escalar a força de vendas. Descobriu que problema inicial formulado (software de análise de campanhas) não era dor principal, dor real era integração de dados de múltiplos sistemas. Pivot orientado por Customer Discovery salvou a empresa, levou a IPO em 1999 com valuation de US$2.5B.
 
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
@@ -1347,7 +1356,7 @@ Ciclo iterativo de três etapas: **Build** (construir o menor experimento possí
 
 Para cada hipótese de produto: (1) Definir métrica que validará ou refutará a hipótese. (2) Construir o menor MVP que permita medir essa métrica (pode ser pretotype, landing page, concierge MVP, ou versão funcional). (3) Rodar experimento por tempo suficiente para acumular dados estatisticamente significativos. (4) Medir resultado contra threshold pré-definido. (5) Decidir explicitamente o próximo ciclo: dobrar aposta, ajustar, ou pivotar. Documentar cada ciclo em 1 página, construir biblioteca de aprendizados.
 
-Exemplo aplicado, Dropbox 2008. Hipótese: pessoas querem sincronização automática de arquivos entre dispositivos. Desafio: construir funcionalidade técnica é trabalho de meses. **Build**: Drew Houston fez vídeo demo de 3 minutos mostrando como o Dropbox funcionaria, postou no Hacker News. **Measure**: em um dia, waitlist cresceu de 5.000 para 75.000 pessoas. **Learn**: validou demanda antes de construir produto. Construiu depois com confiança de que mercado existia.
+Exemplo aplicado, Dropbox 2008. Hipótese: pessoas querem sincronização automática de arquivos entre dispositivos. Desafio: construir funcionalidade técnica é trabalho de meses. **Build**: com o produto já funcionando em beta fechado, Drew Houston gravou em 2008 um vídeo de demonstração de 3 minutos voltado à comunidade do Digg. **Measure**: a lista de espera saltou de 5.000 para 75.000 inscritos da noite para o dia, validando a demanda em escala antes do lançamento público. **Learn**: validou demanda antes de construir produto. Construiu depois com confiança de que mercado existia.
 
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
@@ -1381,7 +1390,7 @@ Princípios de design rigoroso:
 1. Objetivos claros: cada pergunta deve ter propósito de uso específico.
 2. Perguntas específicas, concretas, unidimensionais.
 3. Escalas consistentes (1-5 ou 0-10, usar uma).
-4. Ordem aleatória de opções para evitar viés de posição.
+4. Embaralhe a ordem apenas nas alternativas sem hierarquia natural (listas de dores, marcas ou funções) e mantenha a ordem lógica nas escalas ordinais (como nunca, às vezes, sempre).
 5. Amostragem representativa (não só quem responde voluntário).
 6. Tamanho de amostra suficiente para poder estatístico.
 7. Piloto: testar survey com 10-20 pessoas antes de rodar em escala.
@@ -1428,11 +1437,15 @@ Insights (n=412):
 - Frustração média 3.8/5 (alta).
 - 34% já pagaram por solução, ticket médio R$ 180/mês.
 
-Implicação: dor validada em escala. Willingness to pay existe.
+Implicação (exemplo ilustrativo): sinal forte de dor entre clientes da base e contatos de parceiros, restando validar a mesma conversão em tráfego frio fora da rede próxima.
 
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
-Perguntas leading: "você concorda que nossa solução resolve X?", Amostra viesada: só respondem clientes satisfeitos, n pequeno: 30 respostas não generalizam, Ignorar non-response bias: 10% dos enviados responderam, quem são os 90%?, Over-survey: 25 perguntas, dropout enorme, dados ruim.
+- Perguntas indutoras (*leading*): "você concorda que nossa solução resolve X?"
+- Amostra enviesada: ouvir apenas clientes já satisfeitos da própria base.
+- Amostra pequena demais: 30 respostas em pesquisa quantitativa não permitem generalizar.
+- Ignorar o viés de não resposta: se só 10% responderam, quem são os outros 90%?
+- Questionário longo demais: 25 perguntas geram abandono alto e respostas apressadas.
 
 ---
 
@@ -1492,7 +1505,7 @@ Resultado (n=320 respondentes ICP):
 - Suporte 20%.
 - Contrato 10%.
 
-Utilidades de preço: R$ 50 (+1.8), R$ 100 (+0.5), R$ 200 (-0.3), R$ 400 (-2.0). Preço acima de R$ 200 reduz drasticamente, abaixo de R$ 100 é quase equivalente.
+Utilidades de preço: R$ 50 (+1,0), R$ 100 (+0,9), R$ 200 (+0,6), R$ 400 (-2,5). Entre R$ 50 e R$ 100 a perda de preferência é mínima, em R$ 200 ainda há utilidade positiva, e acima de R$ 200 a rejeição dispara.
 
 Insight: empresa pode ir até R$ 200 sem perder muitos, acima disso, abandona. Features intermediárias (avançadas) são "sweet spot", premium agrega pouco incremental vs. avançado.
 
@@ -1565,13 +1578,13 @@ Items que se sobrepõem: "dashboard mobile" e "app iOS", qual é diferente?, n p
 
 ##### Por que este quadro visual foi criado
 
-O Test Card foi formalizado no livro *Testing Business Ideas* (David Bland & Alexander Osterwalder, 2019), parte da família Strategyzer (mesma escola do BMC e VPC). É a sistematização, em formato de cartão único, do que já era prática tácita no Lean Startup desde Eric Ries (2011): para cada hipótese, defina o experimento que vai testá-la **antes** de coletar dados, com critério de sucesso explícito. O Test Card tornou esse exercício replicável: cabe numa folha A5, tem campos fixos, e força o time a articular o critério de sucesso antes do experimento começar (não depois, quando já há viés de confirmação).
+O Test Card ganhou circulação ampla com *Value Proposition Design* (2014) e foi expandido em *Testing Business Ideas* (David Bland e Alexander Osterwalder, 2019), na coleção Strategyzer (a mesma do Business Model Canvas e do Value Proposition Canvas), estruturando-se originalmente em quatro frases: *Nós acreditamos que... Para verificar isso, nós vamos... E mediremos... Estamos certos se...* É a sistematização, em formato de cartão único, do que já era prática tácita no Lean Startup desde Eric Ries (2011): para cada hipótese, defina o experimento que vai testá-la **antes** de coletar dados, com critério de sucesso explícito. O Test Card tornou esse exercício replicável: cabe numa folha A5, tem campos fixos, e força o time a articular o critério de sucesso antes do experimento começar (não depois, quando já há viés de confirmação).
 
 O que o livro IGNIÇÃO chama de "Cartão de Experimento" (Template: Cartão de Experimento (Fase 8) da seção de Templates Operacionais) é uma adaptação direta do Test Card, com algumas extensões para o contexto brasileiro (custo em R$, linguagem local). A origem da ferramenta é Strategyzer.
 
 ##### A anatomia visual de uma página
 
-Cartão de uma página com **oito campos** estruturados:
+Cartão de uma página alinhado ao modelo completo da seção de Templates desta fase, reunindo os blocos de pré-registro e decisão:
 
 - **ID do experimento** (numeração sequencial).
 - **Hipótese testada** (uma frase falsificável copiada do banco de hipóteses).
@@ -1611,13 +1624,13 @@ A disciplina central é definir **Critério de Sucesso e Critério de Refutaçã
 
 ##### O momento exato de colocar este canvas na parede
 
-Use o Test Card na Fase 7 (experimentos de validação do problema) como artefato central: um Test Card por experimento, vivo até o experimento concluir. Use também na Fase 6 (formulação de hipóteses) como follow-up imediato: cada hipótese bet-the-company gera 1-3 Test Cards. Em times pós-PMF com cultura de discovery contínuo, Test Card vira hábito semanal: qualquer feature ou mudança de fluxo gera Test Card antes da implementação.
+Use o Test Card na Fase 8 (experimentos de validação do problema e da solução) como artefato central, mantendo um cartão ativo para cada experimento, e crie os primeiros cartões já no fechamento da Fase 7 logo após selecionar as apostas de vida ou morte. O resultado de cada Test Card alimenta diretamente a priorização de protótipos na Fase 9.
 
 ##### As regras de ouro para preencher sem se enganar
 
 A tese de Bland & Osterwalder é que **experimento sem critério pré-definido não é experimento, é demonstração**. Demonstração começa com a conclusão pronta e busca evidência que confirme. Experimento começa com pergunta aberta e aceita qualquer resposta. A diferença é a definição prévia do critério de refutação. Test Card formaliza esse rigor: sem ele, a maioria dos "experimentos" em startup é teatro de método científico.
 
-##### Passo a passo na parede da sala (30 a 60 minutos)
+##### Passo a passo na parede da sala
 
 Para cada hipótese a testar, abrir um Test Card. Tempo de preenchimento: 30-45 min. Participantes: 2-3 pessoas (PM + tech/design + 1 fundador).
 
@@ -1636,7 +1649,7 @@ Rodar o experimento. Atualizar o cartão com resultado, decisão e aprendizados.
 
 ##### Exemplo brasileiro preenchido: PadariaPro, smoke test de proposta de valor (2024) (reconstrução didática com base em dados públicos)
 
-Equipe da PadariaPro (caso recorrente do livro) considerava lançar produto de gestão de delivery próprio para padarias artesanais com 1-3 unidades em São Paulo. Antes de construir, rodaram este Test Card:
+A equipe do PadariaPro (nosso caso recorrente de software de compras e gestão de estoque para redes de 2 a 5 padarias em São Paulo) decidiu testar em campo a disposição a pagar pela sugestão automática de compras antes de escrever código, preenchendo este Test Card:
 
 | Campo | Conteúdo |
 |---|---|
@@ -1655,13 +1668,13 @@ Equipe da PadariaPro (caso recorrente do livro) considerava lançar produto de g
 
 - 47 visitantes ICP confirmados via tag de evento (audience pequena demais, limitação de targeting).
 - 12 preencheram formulário (25,5%: acima do critério de sucesso primário).
-- 7 atendiam à ligação. Dos 7: 4 confirmaram disposição a R$ 290, 2 a R$ 400, 1 a R$ 590. Confirmação de pagamento: 4/7 = 57% (acima do critério).
+- 7 atenderam à ligação em até 24h e 4 deles confirmaram compromisso pelo plano de R$ 290/mês com cartão pré-cadastrado (4/7 = 57% de confirmação entre os contatados, mas abaixo dos 100 visitantes planejados, levando à decisão de Ajuste para testar uma segunda rodada com resposta imediata no WhatsApp). Confirmação de pagamento: 4/7 = 57% (acima do critério).
 
 **Decisão**: Persevere. Hipótese reforçada, disposição a pagar é maior que o teste assumia (alguns aceitariam R$ 400-590). Próximo experimento: pré-venda paga real (R$ 290 com reembolso garantido) para os 12 do formulário.
 
 **Aprendizados**: (1) ICP via Meta Ads funcionou apesar de ceticismo inicial, segmentação por interesse "padaria artesanal" + lookalike captou perfil certo. (2) Disposição a pagar > preço testado sugere que estamos subprecificando: testar R$ 390 no próximo experimento. (3) Tempo de resposta importa: dos 12 que preencheram, os 5 que não atenderam ligação foram contatados em D+2 (vs D+1 nos 7 atendidos). Diferença de 24h em tempo de resposta queimou 40% da amostra.
 
-A disciplina do Test Card neste exemplo evitou três erros típicos: (1) **viés de confirmação**: sem critério pré-definido, "47 visitantes" pareceria sucesso ou fracasso conforme a vontade do time; com critério, é claramente "amostra menor que planejada, mas suficiente porque conversão alta compensa"; (2) **subestimação de preço**: sem perguntar preço de forma sistemática, a equipe assumiria R$ 290 e nunca testaria preços maiores; (3) **falsa sensação de progresso**: sem "Critério de Refutação" registrado, o time poderia ter levado meses para perceber que algo simples como "responder em 24h" estava destruindo a amostra. **A lição: Test Card não é burocracia, é o equipamento de proteção contra os auto-enganos sistemáticos do empreendedor entusiasmado.**
+A disciplina do Test Card neste exemplo evitou três erros típicos: (1) **viés de confirmação**: sem critério pré-definido, "47 visitantes" pareceria sucesso ou fracasso conforme a vontade do time; com a regra pré-registrada ("abaixo de 100 visitantes, exigir limite inferior de conversão acima de 10% ou rodar segunda coleta com resposta imediata no WhatsApp"), anotando também o horário de cada ligação para evitar a perda de 40% dos contatos após 48h; (2) **subestimação de preço**: sem perguntar preço de forma sistemática, a equipe assumiria R$ 290 e nunca testaria preços maiores; (3) **falsa sensação de progresso**: sem "Critério de Refutação" registrado, o time poderia ter levado meses para perceber que algo simples como "responder em 24h" estava destruindo a amostra. **A lição: Test Card não é burocracia, é o equipamento de proteção contra os auto-enganos sistemáticos do empreendedor entusiasmado.**
 
 ##### Variações e extensões
 
@@ -1679,13 +1692,13 @@ A disciplina do Test Card neste exemplo evitou três erros típicos: (1) **viés
 
 ---
 
-### TEMPLATES OPERACIONAIS E CASOS PREENCHIDOS DESTA FASE
+### Templates operacionais e casos preenchidos desta fase (OST, User Story Map e estrutura do Dossiê de Solução do Passo 7)
 
 #### Template: Cartão de Experimento
 
 **Para que serve.** Documenta um experimento individual em uma página com hipótese, desenho, métrica, critério de sucesso pré-registrado e decisão, garantindo rigor de método e prevenindo racionalização posterior do resultado.
 
-**Quando usar.** Antes de cada experimento da Fase 7. O preenchimento dos blocos "Critério de Sucesso", "Riscos e Vieses" e "Métrica Principal" deve ocorrer ANTES de ver qualquer dado, não depois. Preencha "Resultado", "Decisão" e "Aprendizados" no encerramento.
+**Quando usar.** Antes de cada experimento da Fase 8. O preenchimento dos blocos "Critério de Sucesso", "Riscos e Vieses" e "Métrica Principal" deve ocorrer ANTES de ver qualquer dado, não depois. Preencha "Resultado", "Decisão" e "Aprendizados" no encerramento.
 
 **Exemplo de preenchimento.** Hipótese testada, "ICP paga R$149/mês". Pergunta central, "quantos visitantes da landing finalizam compra no checkout antes do produto existir?". Desenho, "rodar Google Ads para 5 termos de cauda longa por 14 dias, medir conversão até cartão informado". Métrica principal, "taxa de conversão visita→cartão". Critério de sucesso, "validar se ≥10%, refutar se ≤3%, zona cinzenta entre 3% e 10%".
 
@@ -1711,7 +1724,7 @@ Como alcanço: ___________________________
 MÉTRICA PRINCIPAL
 ___________________________________________
 
-CRITÉRIO DE SUCESSO (antes de ver resultado)
+CRITÉRIOS DE PRÉ-REGISTRO (definidos antes de ver o resultado: amostra mínima, validar se, refutar se, regra da zona cinzenta e critério de descarte da coleta)
 Validar se: ________________________________
 Refutar se: _______________________________
 
@@ -1750,7 +1763,7 @@ Esta tabela resume as técnicas de coleta de evidência mais usadas no manual, o
 
 **Regra de escolha rápida**: quanto menos evidência você tem sobre o problema, mais qualitativa deve ser a técnica (entrevistas > questionários > A/B test). Quanto mais avançada a validação, mais quantitativa (A/B test > questionário > entrevistas). Landing page, pré-venda e concierge ficam no meio, são qualitativas em amostra e quantitativas em conversão.
 
-**Nota de tradução vocabular, Problem / Offer / Solution validation (Ries, 2011).** Quem vem da literatura do Lean Startup encontrará três tipos distintos de validação que este manual cobre mas não nomeia sempre de forma unificada. A correspondência é:
+**Nota de vocabulário: validação de problema, de oferta e de solução (síntese operacional deste manual).** Quem vem da literatura do Lean Startup encontrará três tipos distintos de validação que este manual cobre mas não nomeia sempre de forma unificada. A correspondência é:
 
 - **Problem validation** (o problema é real, agudo, no ICP certo?) = Fases 2, 3 e parte da 6.
 - **Offer validation** (a proposta de valor é atrativa? o cliente quer comprar isso?) = Fase 8 late, 7 e 8.
@@ -1764,15 +1777,15 @@ Essa distinção importa operacionalmente: falhar na **Problem validation** exig
 
 O entregável é o conjunto de cartões de experimento executados, cada um com decisão documentada (perseverar, pivotar, ou abandonar). Hipóteses testadas, resultados, aprendizados, próximos passos. O que sobrevive aos testes vira insumo da [[#FASE 9 — IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES|Fase 9]], que usa os aprendizados para definir a solução. O que é refutado força reabertura da árvore de teoria, e às vezes da escolha de cunha. A Fase 8 é o ponto onde a teoria do negócio enfrenta o mundo. Quem trata isso com rigor produz aprendizado real. Quem trata como teatro de validação produz documentação para investidor, e nada mais.
 
-Para avançar à [[#FASE 9 — IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES|Fase 9]], pelo menos três a cinco hipóteses bet-the-company devem ter sido testadas e mantidas. Se alguma foi refutada, reavalie a teoria antes de prototipar.
+Para avançar à Fase 9 (Ideação e Prototipagem de Soluções), as três a cinco apostas de vida ou morte precisam ter sido testadas em campo e as premissas que se mantiveram de pé devem formar uma teoria coerente. Se alguma foi refutada, reavalie a teoria antes de prototipar.
 
 ---
 
 ## FASE 9 — IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES
 
-### O Cemitério dos Protótipos Perfeitos e a Regra do Descarte Sem Dor
+### Regra do Descarte Sem Dor (fidelidade proporcional à certeza) e o Cemitério dos Protótipos Perfeitos
 
-Quando a Dra. Camila decidiu criar um aplicativo próprio para acompanhar os exercícios domiciliares dos pacientes da sua clínica em Belo Horizonte, ela cometeu o pecado clássico do especialista perfeccionista. Contratou um estúdio de design por R$ 38 mil e passou quatro meses debatendo a paleta de cores pastel, o arredondamento dos botões, a animação da tela de login e o logotipo em 3D.
+Quando a Dra. Camila decidiu criar um aplicativo próprio para acompanhar a higiene das próteses e os cuidados pós-implante dos pacientes da sua clínica odontológica em Belo Horizonte, ela cometeu o pecado clássico do especialista perfeccionista. Contratou um estúdio de design por R$ 38 mil e passou quatro meses debatendo a paleta de cores pastel, o arredondamento dos botões, a animação da tela de login e o logotipo em 3D.
 
 No dia em que finalmente mostrou as 42 telas de altíssima fidelidade para Dona Helena e outros oito pacientes idosos, o choque veio no primeiro minuto: nenhum deles queria baixar mais um aplicativo na memória cheia do celular, ninguém lembrava a senha do e-mail para fazer login e as letras elegantes em cinza-claro eram impossíveis de ler sem óculos de grau. O que eles queriam? Receber um vídeo curto de 15 segundos direto no WhatsApp às 8h da manhã com um botão grande dizendo *"Já fiz hoje"*.
 
@@ -1780,35 +1793,35 @@ Camila havia construído um monumento para o próprio bom gosto e acabado de ent
 
 Por que nos apaixonamos tanto pela primeira solução que vem à nossa cabeça e gastamos semanas polindo a casca antes de testar o miolo? Porque detalhar cores e telas dá uma deliciosa sensação de controle, enquanto encarar a utilidade nua do produto dá frio na barriga.
 
-Aqui está a regra de ouro da Fase 9, inspirada na engenharia da IDEO e no método *Sprint* da Google Ventures: **a fidelidade do seu protótipo deve ser proporcional à sua certeza, e no começo a sua certeza é próxima de zero**. Se você gastar mais de um dia desenhando um protótipo inicial, seu cérebro criará apego emocional ao trabalho feito e você passará a defender o desenho contra o feedback do usuário, em vez de jogá-lo no lixo com um sorriso quando descobrir um caminho dez vezes mais simples.
+Aqui está a Regra do Descarte Sem Dor desta Fase 9 (no espírito do *Sprint* da Google Ventures, que só constrói a fachada realista no quarto dia após mapear e filtrar alternativas no papel): **a fidelidade do seu protótipo deve ser proporcional à sua certeza, e no começo a sua certeza é próxima de zero**. Se você gastar mais de um dia desenhando um protótipo inicial, seu cérebro criará apego emocional ao trabalho feito e você passará a defender o desenho contra o feedback do usuário, em vez de jogá-lo no lixo com um sorriso quando descobrir um caminho dez vezes mais simples.
 
 ---
 
-> [!question] FMF Check da Fase 8
+> [!question] FMF Check da Fase 9: encaixe fundador-mercado (*founder-market fit*)
 > As ideias de solução que estão emergindo são fruto da sua experiência única com o problema, ou são soluções genéricas que apareceriam em qualquer brainstorm? Se forem genéricas, provavelmente você não está no founder-market-fit que imagina, ou está no estágio em que precisa mergulhar mais fundo no mercado antes de prototipar. Entrevistar dez operadores experientes do setor antes de prototipar é mais barato que prototipar solução genérica.
 
 ### Por que se apaixonar pela primeira ideia de solução cega você para alternativas dez vezes melhores
 
-Entre entender o problema e construir a solução, existe um abismo de decisões. Quase todo problema validado pode ser resolvido de várias formas. App. SaaS. Serviço. Marketplace. Hardware. Comunidade. Curso. Pular direto para "app" é a preguiça que custa caro. Explorar alternativas gera insight, e reduz risco.
+Entre entender o problema e construir a solução, existe um abismo de decisões. Quase todo problema validado admite várias formas de solução: aplicativo, SaaS, serviço produtizado, marketplace, hardware, comunidade ou curso. Pular direto para "app" é a preguiça que custa caro. Explorar alternativas gera insight, e reduz risco.
 
-Prototipagem é a forma mais barata de testar. Com um dia de trabalho, e zero código, você consegue feedback sobre experiência, fluxo, e desejabilidade.
+Prototipagem é a forma mais barata de testar. Com um dia de trabalho e nenhum código, você obtém retorno real sobre experiência, fluxo e desejabilidade.
 
 > [!warning] Construir a solução errada para o problema certo
-> Antes da Tesla, existiam carros elétricos, e ninguém os queria de forma massiva. Não porque o problema (mobilidade limpa) fosse irreal. Mas porque as montadoras tradicionais assumiram que o cliente trocaria desempenho e estética por consciência ambiental. A Tesla atacou o mesmo problema com uma solução que não pedia essa troca. validar o problema não te dá cheque em branco sobre a solução. Um problema real comporta várias hipóteses de solução. E apenas algumas delas funcionam. Teste problema e solução separadamente. E desconfie quando o resultado do primeiro se transferir automaticamente para o segundo. Esta é a tese central da Fase 8.
+> Antes da Tesla, existiam carros elétricos, e ninguém os queria de forma massiva. Não porque o problema (mobilidade limpa) fosse irreal. Mas porque as montadoras tradicionais assumiram que o cliente trocaria desempenho e estética por consciência ambiental. A Tesla atacou o mesmo problema com uma solução que não pedia essa troca. validar o problema não te dá cheque em branco sobre a solução. Um problema real comporta várias hipóteses de solução. E apenas algumas delas funcionam. Teste problema e solução separadamente. E desconfie quando o resultado do primeiro se transferir automaticamente para o segundo. Esta é a tese central desta Fase 9.
 
 > [!note] Capítulo 2: TRL e CRL
 > Se a solução candidata envolve tecnologia nova (hardware, deeptech, biotech, energia), o nível de maturidade tecnológica (TRL) e comercial (CRL) é variável crítica antes de escolher qual conceito prototipar. O [[#CAPÍTULO 2 — MATURIDADE (TRL/CRL), DECISÃO POR GATES E FECHAMENTO DE FASE (COMMITTED NEXT MOVE)|Capítulo 2: TRL e CRL]] define os nove níveis de TRL e os estágios de CRL correspondentes, e ajuda a calibrar o escopo do protótipo ao nível de maturidade real: evitando o erro de prototipar solução que requer TRL 6+ quando o projeto está em TRL 2.
 
 > [!note] Capítulo 1: Científico vs Lean Startup
-> Esta fase aplica a lógica do ciclo Lean em seu ponto mais puro: prototipar barato, testar cedo, iterar. O [[#CAPÍTULO 1 — ABORDAGEM CIENTÍFICA vs LEAN STARTUP: QUANDO USAR CADA UMA|Capítulo 1: Científico vs Lean Startup]] situa esse ciclo dentro da distinção entre validação qualitativa (protótipo, teste de fluxo) e validação quantitativa (métricas de uso, dados de retenção). Relevante especialmente para definir quando parar de iterar protótipos e comprometer recursos para o MVP.
+> Esta fase aplica a lógica do ciclo Lean em seu ponto mais puro: prototipar barato, testar cedo, iterar. O [[#CAPÍTULO 1 — ABORDAGEM CIENTÍFICA vs LEAN STARTUP: QUANDO USAR CADA UMA|Capítulo 1: Científico vs Lean Startup]] mostra quando a velocidade empírica do Lean precisa dar lugar ao rigor de simulação e laboratório (como em hardware, biotecnologia, saúde ou regulação bancária). Relevante especialmente para definir quando parar de iterar protótipos e comprometer recursos para o MVP.
 
 ### Do rabisco no papel à fachada clicável: subindo a escada de fidelidade sem apego emocional
 
-Sete passos.
+Cinco passos estruturados (do diagnóstico do motor atual e transição da venda conduzida pelo fundador até canais de marketing, expansão por caminhos e medição de unit economics por canal, detalhada na seção de métricas adiante).
 
 ```mermaid
 flowchart LR
-    subgraph DIV["Fase de Divergência<br/>(passos 1–2)"]
+    subgraph DIV["Etapa de Divergência e Filtro DVS<br/>(passos 1 a 3: 15-30 ideias → 3-5 conceitos)"]
         D1["Crazy 8s<br/>8 ideias em 8 minutos"]
         D2["How Might We<br/>Reformular JTBDs"]
         D3["Analogias<br/>Outros setores"]
@@ -1830,7 +1843,7 @@ flowchart LR
     subgraph TEST["Teste<br/>(passos 6–7)"]
         PAPER & CLICK & BLUEPRINT --> USER["5+ usuários<br/>testam"]
         USER --> INSIGHT["Capturar aprendizados<br/>e iterar"]
-        INSIGHT -->|Hipótese validada| NEXT(["→ Fase 9<br/>Testes de solução"])
+        INSIGHT -->|Hipótese validada| NEXT(["→ Fase 10<br/>Testes de solução"])
         INSIGHT -->|Hipótese refutada| DIV
     end
 ```
@@ -1848,22 +1861,22 @@ Extremos. E se a solução fosse super-premium (R$ 5.000 por mês)? E se fosse d
 Analogias. Como outros setores resolvem problemas parecidos? O que o Uber ensinou sobre marketplaces pode se aplicar? O que o iFood ensinou sobre logística distribuída?
 
 > [!tip] Meta da divergência
-> Quinze a trinta ideias no papel, mesmo que a maioria seja ruim. A qualidade emerge da quantidade.
+> Gere de 15 a 30 ideias no papel, filtre para 3 a 5 conceitos pela matriz DVS e construa 2 protótipos finalistas. A qualidade nasce da quantidade inicial.
 
 #### Passo 2, avalie e reduza (convergir)
 
 Avalie cada ideia em três dimensões.
 
-Desejabilidade. O usuário quer isso? Baseado em tudo que você aprendeu nas Fases 2 e 3.
+Desejabilidade: o usuário quer isso? Responda com base nas evidências colhidas nas Fases 4 e 5 (descoberta e pesquisa com usuários) e nos experimentos da Fase 8.
 
-Viabilidade. Você consegue entregar? Capacidades técnicas, financeiras, regulatórias.
+Exequibilidade (chamada de Viabilidade técnica nesta sigla DVS): conseguimos construir e entregar com as capacidades técnicas, operacionais e regulatórias atuais? (Já a Viabilidade econômica do negócio entra no terceiro eixo, Sustentabilidade.)
 
 Sustentabilidade. O modelo econômico fecha? Preço viável, custo viável, margem razoável.
 
 Dê nota de um a cinco em cada dimensão. Multiplique. Selecione os três a cinco conceitos com maior pontuação.
 
 > [!note] DVS e matriz Impacto-Esforço são complementares
-> A avaliação por Desejabilidade, Viabilidade, e Sustentabilidade (DVS) é qualitativa. Útil para reduzir trinta ideias para cinco. Já a matriz Impacto vezes Esforço (que aparece no exemplo prático mais adiante) é visual. Útil para priorizar quais protótipos rodar primeiro entre os finalistas. Use as duas em sequência. Primeiro DVS para filtrar. Depois Impacto-Esforço para ordenar.
+> A avaliação por Desejabilidade, Viabilidade, e Sustentabilidade (DVS) é qualitativa. Útil para reduzir trinta ideias para cinco. Já a matriz impacto-esforço (aplicada no exemplo prático mais adiante) é visual. Útil para priorizar quais protótipos rodar primeiro entre os finalistas. Use as duas em sequência. Primeiro DVS para filtrar. Depois Impacto-Esforço para ordenar.
 
 #### Passo 3, detalhe os 3 a 5 conceitos escolhidos
 
@@ -1874,7 +1887,7 @@ Para cada conceito, escreva em uma página seis itens. Nome do conceito (dê nom
 
 #### Passo 4, escolha 1 ou 2 conceitos para prototipar
 
-Escolha o(s) com maior potencial percebido. Defina o formato do protótipo. Seis opções.
+Escolha os dois conceitos finalistas na matriz impacto-esforço e defina o formato do protótipo entre as seis opções abaixo:
 
 ##### Storyboard
 
@@ -1890,7 +1903,7 @@ Telas desenhadas com detalhe visual. Figma ou similar.
 
 ##### Protótipo clicável
 
-Telas com fluxo de navegação. Pode ser feito em Figma, Marvel, Proto.io.
+Telas com fluxo de navegação montadas no Figma ou em geradores de interface por IA (como v0, Lovable e Figma Make). Atenção em 2026: como a IA gera telas polidas em poucas horas, redobre o cuidado para não confundir aparência de produto pronto com fluxo validado; teste a jornada bruta antes de refinar visual.
 
 ##### Protótipo em vídeo
 
@@ -1901,7 +1914,7 @@ Vídeo explicando a solução como se ela existisse. Excelente para testar com p
 Para negócios de serviço. Mapeie touchpoints (pontos de contato entre cliente e serviço), atores, sistemas, e tempo.
 
 > [!tip] Para a maioria dos casos no início, protótipo clicável em Figma
-> É o melhor custo-benefício. Permite testar fluxo real de navegação, sem precisar de código. Designer freelancer faz em dois ou três dias.
+> > O protótipo inicial deve caber em até um dia de trabalho. Se montar um fluxo clicável exigir três dias de um designer, comece pelo protótipo em papel no primeiro dia e só passe para a tela clicável na segunda rodada.
 
 #### Passo 5, prepare roteiro de teste de protótipo
 
@@ -1915,14 +1928,14 @@ Observação silenciosa. Deixe a pessoa errar. Anote onde ela travou.
 
 Pensar em voz alta. Peça que verbalize o que está pensando enquanto navega.
 
-Perguntas pós-teste (dez minutos). O que foi intuitivo? O que foi confuso? Usaria? Pagaria? Quanto?
+Perguntas pós-teste (dez minutos): O que ficou claro de imediato? Onde você teve dúvida? Como você resolve essa etapa hoje e quanto isso custa por mês? Quanto faria sentido pagar para resolver assim? (Feche pedindo um compromisso concreto, como agendar piloto ou assinar carta de intenção.)
 
 > [!note] Capítulo 8 (Vol. 4): Customer Experience
 > O protótipo é o primeiro contato do usuário com a experiência do produto. O [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 8 — CUSTOMER SUCCESS (CS) E CUSTOMER EXPERIENCE (CX): DA JORNADA AO CHURN ZERO E NRR POSITIVO|Capítulo 8: Customer Experience (Vol. 4)]] cobre como estruturar o onboarding (processo de ativação do novo usuário) desde o protótipo: o que o usuário precisa entender e sentir nos primeiros minutos determina retenção futura. Use os princípios de onboarding do DT para guiar quais tarefas incluir no roteiro de teste.
 
 #### Passo 6, teste com 8 a 12 usuários do ICP e itere
 
-A partir do oitavo teste, você começa a ver padrões claros. Se você achar que três testes bastam, está ignorando a diversidade de reações.
+Seguindo a regra clássica de Jakob Nielsen, teste com cinco usuários por rodada e rode pelo menos duas rodadas iterativas (dez sessões no total): cinco usuários já revelam a grande maioria das travas de fluxo, e a segunda rodada confirma se o ajuste funcionou.
 
 Não espere terminar todos os testes para iterar. Depois de cada ciclo de três a quatro testes, ajuste o protótipo com base nos padrões observados e teste a nova versão com os próximos três a quatro usuários. Esse loop curto (testar, ajustar, testar de novo) entrega muito mais aprendizado que oito testes seguidos da mesma versão.
 
@@ -1941,13 +1954,13 @@ O *job* central, identificado na [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 5 —
 
 Crazy 8s, fragmento de oito ideias em oito minutos. App mobile para o gerente fazer pedido por voz. WhatsApp bot que pergunta o estoque diário e faz pedido automático. Dashboard web com previsão mais um clique para confirmar pedido. Etiquetas inteligentes (sensor) em sacos de farinha. Câmera no estoque com visão computacional. E-mail diário com "pedido sugerido" que requer aprovação. Integração com caixa, deduz estoque automaticamente. Parceria com fornecedor: o fornecedor envia semanalmente baseado em consumo.
 
-Matriz Impacto vezes Esforço aplicada às oito ideias. Alto impacto e baixo esforço: a número 2 (WhatsApp bot) e a número 6 (e-mail diário). Prototipar essas duas. Alto impacto mas alto esforço: a número 3 (dashboard) e a número 7 (integração com caixa). Versão reduzida vale prototipar. Descarte inicial: a número 4 (etiquetas, caro, complexo) e a número 5 (câmera, infraestrutura). Guardar para fase pós-PMF.
+Após filtrar as oito ideias pela nota DVS (descartando a 1, pedido por voz em ambiente barulhento de fornada, a 4, etiquetas RFID caras, a 5, câmeras no estoque, e a 8, comissão de fornecedor que gera conflito de interesse), os quatro conceitos finalistas entram na matriz impacto-esforço: alto impacto e baixo esforço ficam com a ideia 2 (bot no WhatsApp) e a ideia 6 (resumo diário por e-mail), que vão para prototipagem imediata; alto impacto e alto esforço ficam com a ideia 3 (painel web) e a ideia 7 (integração com PDV), guardadas para etapa posterior.
 
 **Protótipo número 2, WhatsApp Bot (low-fi).**
 
 Sequência de seis mensagens em PDF, simulando o diálogo bot-usuário:
 
-> *Bot:* "Bom dia, Fábio! Segundo o seu histórico, você vai precisar de 120 kg de farinha T1 esta semana. Confirmar pedido com Anaconda por R$ 2.340? (sim/não/ajustar)"
+> *Bot:* "Bom dia, Fábio! Segundo o seu histórico, você vai precisar de 450 kg de farinha T1 esta semana nas três lojas. Confirmar pedido com o moinho por R$ 2.250 (R$ 5,00/kg)? (sim/não/ajustar)"
 >
 > *Usuário:* "Ajustar para 140 kg"
 >
@@ -1973,20 +1986,20 @@ Imagem de um e-mail simulado, com lista de itens sugeridos, quantidades, valores
 
 O aprendizado principal. WhatsApp é preferido pela conveniência, mas gera ansiedade em valores altos. E-mail gera segurança visual, mas tem problema de abertura.
 
-> [!important] O insight crítico do teste
-> Talvez a solução seja híbrida. WhatsApp para notificação, mais confirmação em app ou web para compras acima de R$ 1 mil. Não dicotomia entre os dois. Os testes raramente confirmam a hipótese binária. Geralmente revelam síntese inesperada.
+> [!important] O que o teste ensinou
+> Talvez a solução seja híbrida. WhatsApp para o aviso diário e confirmação no navegador ou aplicativo para pedidos acima de R$ 1 mil. Não dicotomia entre os dois. Os testes raramente confirmam a hipótese binária. Geralmente revelam síntese inesperada.
 
 ### Caso brasileiro real, prototipagem na PlayKids
 
 A PlayKids, aplicativo infantil criado dentro do grupo Movile em junho de 2013 (e integrado ao grupo internacional Sandbox & Co em 2022), construiu um aplicativo de conteúdo educativo infantil que chegou a mais de cem milhões de downloads e a presença em mais de 180 países. No início, o time precisava testar o fluxo de uso com crianças pequenas: público que não verbaliza preferência da forma que adultos fazem em entrevistas tradicionais.
 
-A decisão foi simples e barata. Em vez de construir MVP digital, imprimiram telas em papel e pediram a crianças de diferentes faixas etárias (quatro, seis e oito anos) para "usar" o papel, observando como cada uma interpretava as telas, onde travavam, e que padrões espontâneos emergiam.
+Como ilustração inspirada no desenvolvimento de aplicativos infantis no Brasil (como a trajetória da PlayKids), imagine o efeito de testar em papel antes de programar: a equipe imprime as telas desenhadas e pede a crianças de quatro, seis e oito anos que toquem no papel como se fosse o tablet, observando onde travam e quais gestos fazem espontaneamente.
 
-A descoberta foi cirúrgica. O fluxo inicial, pensado em padrão adulto (menu → categoria → item), não funcionava com crianças menores. Elas esperavam ver tudo numa tela única com imagens grandes e tocar diretamente no que queriam. O time redesenhou antes de escrever uma linha de código. Esse padrão de design por imersão visual virou marca registrada do produto e foi parte do que sustentou o crescimento internacional.
+A abertura dos números por canal revelou uma assimetria clara. O fluxo inicial, pensado em padrão adulto (menu → categoria → item), não funcionava com crianças menores. Elas esperavam ver tudo numa tela única com imagens grandes e tocar diretamente no que queriam. O time redesenhou antes de escrever uma linha de código. Esse padrão de design por imersão visual virou marca registrada do produto e foi parte do que sustentou o crescimento internacional.
 
-Protótipo em papel revela falhas de experiência por algumas dezenas de reais (custo das impressões) que revelariam por dezenas de milhares depois de desenvolvido. Em produtos para públicos que não verbalizam bem (crianças, idosos, baixa escolaridade, falantes de outras línguas), observação supera entrevista.
+Com algumas dezenas de reais em impressões, o protótipo em papel revela falhas de navegação que custariam dezenas de milhares de reais para refazer depois do código pronto. Em produtos para públicos que não verbalizam bem (crianças, idosos, baixa escolaridade, falantes de outras línguas), observação supera entrevista.
 
-### Um protótipo descartável focado exclusivamente no caminho crítico de geração de valor
+### Critérios de saída da Fase 9
 
 Você concluiu a Fase 9 quando todos os critérios abaixo estão cumpridos.
 
@@ -1997,7 +2010,7 @@ Você concluiu a Fase 9 quando todos os critérios abaixo estão cumpridos.
 - [ ] Cinco ou mais testes documentados com usuários do ICP (idealmente oito ou mais).
 - [ ] Insights qualitativos claros: padrões de uso, onde travam, onde se confundem, onde se encantam (não só "gostaram").
 - [ ] Taxa de conclusão de tarefas sem ajuda acima de 70%; tempo de execução real não excede a expectativa pré-teste em mais de 50%.
-- [ ] Mais de 50% dos testados demonstrando intenção real de uso após ver o protótipo.
+- [ ] Pelo menos 4 de cada 5 usuários da rodada final concluindo a tarefa principal sem ajuda e assumindo um passo concreto de avanço (pedido de acesso ao piloto, indicação de colega do setor ou assinatura de intenção).
 - [ ] Disposição a pagar coletada via "quanto faria sentido cobrar por isso?" (em vez de "você pagaria?"): 70% ou mais sugerem valor igual ou superior ao preço-alvo.
 - [ ] Decisão escrita sobre qual conceito vai virar MVP, com justificativa e lista clara de essencial versus postergável.
 
@@ -2013,7 +2026,7 @@ Você concluiu a Fase 9 quando todos os critérios abaixo estão cumpridos.
 
 ### Polir pixels, discutir logotipo e desenhar telas de configuração antes de provar o fluxo central
 
-Apegar-se à primeira ideia. A primeira ideia raramente é a melhor. Divergir antes de convergir dói. Mas paga.
+Apegar-se à primeira ideia sem explorar alternativas (como fez a Dra. Camila ao encomendar de cara um aplicativo caro em vez de testar um fluxo simples no WhatsApp).
 
 Prototipar com alta fidelidade cedo demais. Um protótipo bonito pode esconder problemas de fluxo. Comece em baixa fidelidade.
 
@@ -2040,8 +2053,8 @@ Construir direto sem prototipar. "Já sei como vai ser." Constatação final: vo
 **Permissão Libertadora:**
 Você está autorizado a fazer protótipos feios, em preto e branco, desenhados no papel ou em blocos cinzas sem logotipo. Beleza prematura esconde falhas estruturais.
 
-**O Ritual de Segunda-Feira às 9h:**
-Pegue uma folha A4, dobre em oito partes (*Crazy 8s*) e desenhe em oito minutos oito maneiras diferentes de entregar o resultado ao seu cliente: sendo obrigatoriamente uma delas sem aplicativo próprio.
+**O Ritual de Segunda-Feira às 9h (rotina semanal de 30 minutos):**
+Pegue uma folha A4, dobre em oito partes (*Crazy 8s*) e desenhe em oito minutos oito maneiras diferentes de entregar o resultado ao cliente, sendo uma delas obrigatoriamente sem aplicativo próprio. Até quarta-feira, mostre os dois esboços mais simples a dois clientes reais, anote onde travaram e, na segunda-feira seguinte, descarte o pior.
 
 ---
 
@@ -2056,10 +2069,10 @@ Pegue uma folha A4, dobre em oito partes (*Crazy 8s*) e desenhe em oito minutos 
 
 ---
 
-### MANUAL PASSO A PASSO DOS FRAMEWORKS DESTA FASE
+### Manual passo a passo dos frameworks de experimentação desta fase
 
 > [!tip] Uso autocontido neste volume
-> Todos os frameworks abaixo estão detalhados integralmente com origem, estrutura, passo a passo de aplicação, exemplo brasileiro e armadilhas para execução imediata nesta **Fase 9**.
+> > Os frameworks abaixo detalham as ferramentas de ideação, priorização e prototipagem desta **Fase 9**, com origem, mecânica, passo a passo e armadilhas.
 
 #### Framework: Opportunity Solution Tree (Teresa Torres)
 
@@ -2072,7 +2085,7 @@ Teresa Torres desenvolveu OST ao longo dos anos 2010s, consolidando em *Continuo
 Ferramenta visual em formato de árvore que conecta:
 
 - Outcome desejado (topo).
-- Opportunities (necessidades/dores do cliente que, se endereçadas, movem o outcome).
+- Oportunidades (*opportunities*): necessidades e dores reais do cliente que, quando resolvidas, movem o resultado desejado (*outcome*).
 - Solutions (ideias de como endereçar cada oportunidade).
 - Experiments (como testar cada solução).
 
@@ -2083,7 +2096,7 @@ Ferramenta visual em formato de árvore que conecta:
  |
  ----------------------------------------
  | | | |
-OPPORTUNITY 1 OPPORTUNITY 2 OPPORTUNITY 3...
+├─ OPORTUNIDADE 1 (dor no pedido)   ├─ OPORTUNIDADE 2 (perda no estoque)   └─ OPORTUNIDADE 3 (falta de histórico)
  | | |
  --- --- ---
  | | |
@@ -2117,7 +2130,7 @@ Passo 7: Atualize árvore com aprendizados.
 
 ##### Na trincheira real: como isso funciona na prática
 
-OST para outcome "aumentar NRR de 95% para 110%":
+Árvore de Oportunidades (OST) para o PadariaPro com o resultado desejado "reduzir a perda de farinha e insumos críticos em 30% nas padarias-piloto":
 
 - Oportunidade 1: clientes não descobrem features avançadas (NRR impactado por baixo engagement).
 - Solução 1.1: tutorial contextual.
@@ -2137,7 +2150,9 @@ OST para outcome "aumentar NRR de 95% para 110%":
 
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
-Oportunidades = features: oportunidade é problema/necessidade do cliente, feature é solução, Árvore estática: não atualiza com pesquisa contínua, Soluções pré-decididas: árvore é retroajustada para justificar decisão.
+- Confundir oportunidade com funcionalidade: oportunidade é a dor ou necessidade do cliente; funcionalidade é apenas uma solução possível.
+- Deixar a árvore estática: não atualizar os ramos após novas entrevistas e testes de protótipo.
+- Montar a árvore de trás para a frente: encaixar oportunidades artificiais apenas para justificar uma solução já decidida pela diretoria.
 
 ---
 
@@ -2199,7 +2214,9 @@ Decisão: lançar MVP com categorização, testar comparação com UI opcional, 
 
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
-Extender o sprint para 2-3 semanas: perde rigor, decisões se arrastam, Decisor não participa: sem supervote, sprint trava, Não testar com usuários reais na sexta: 5 entrevistas são o coração do sprint, Decisor muda decisão na semana seguinte: trabalho jogado fora.
+- Estender o sprint para duas ou três semanas: perde o foco e arrasta as decisões.
+- Rodar sem o decisor na sala: sem o voto de desempate (*supervote*), o grupo trava ou vê a decisão ser desfeita na semana seguinte.
+- Pular o teste de sexta-feira com cinco usuários reais: termina a semana com um protótipo bonito, mas sem nenhuma evidência de uso.
 
 ---
 
@@ -2207,7 +2224,7 @@ Extender o sprint para 2-3 semanas: perde rigor, decisões se arrastam, Decisor 
 
 ##### De onde vem a ferramenta (e por que sobreviveu ao filtro do tempo)
 
-Design Thinking tem raízes em Stanford d.school (David Kelley) e IDEO (fundada por Kelley em 1991). O **Double Diamond** propriamente é a visualização formal desenvolvida pelo British Design Council em 2005, após estudo dos processos de design de empresas como IDEO, Fjord e Seymourpowell: adaptando o modelo divergência-convergência de Béla Bánáthy (1996). A forma "diamante" já existia em IDEO no final dos anos 1990s (David Duncanson) sem esse nome. IDEO popularizou design thinking de forma mais ampla em produtos e serviços. Aplicado em empresas (P&G, Airbnb, Bank of America) e governos.
+O Design Thinking tem raízes na Stanford d.school (David Kelley) e na consultoria IDEO (fundada em 1991). Já o **Double Diamond** (Diamante Duplo) foi formalizado pelo British Design Council em 2005, adaptando a dinâmica de divergência e convergência proposta por Béla Bánáthy (1996) em quatro etapas: descobrir, definir, desenvolver e entregar.
 
 ##### A mecânica central (sem jargão)
 
@@ -2235,7 +2252,7 @@ Princípio-chave: **divergir antes de convergir** em cada diamante.
 
 Solução boa está na interseção.
 
-5 fases operacionais (versão Stanford):
+As 4 etapas do Diamante Duplo (e sua correspondência com as 5 etapas da d.school de Stanford):
 
 1. Empathize (empatizar).
 2. Define (definir problema).
@@ -2257,7 +2274,7 @@ Passo 5: Test: com usuários reais, iterate.
 
 ##### Na trincheira real: como isso funciona na prática
 
-Aplicação em serviço de atendimento ao cliente (case real IDEO):
+Aplicação ilustrativa em redesenho de atendimento ao cliente (inspirada em projetos clássicos como o programa *Keep the Change*, desenhado pela IDEO para o Bank of America):
 
 - Empathize: shadowing de clientes e representantes por semanas.
 - Define: "Clientes com problema urgente precisam de solução rápida porque estresse amplifica frustração."
@@ -2301,7 +2318,7 @@ Exemplo aplicado, startup de RH tech (SaaS para PMEs). Objetivo: "aumentar DAU d
 
 ##### De onde vem a ferramenta (e por que sobreviveu ao filtro do tempo)
 
-Noriaki Kano, professor da Tokyo University of Science, publicou o modelo em 1984 em estudos sobre qualidade no Japão pós-guerra. Responde à pergunta: **nem todas as features são iguais, algumas são obrigatórias, outras encantam, outras são indiferentes**. Hoje é padrão em product management.
+Noriaki Kano, professor da Tokyo University of Science, publicou o modelo em 1984 dentro da escola japonesa de gestão da qualidade. A tese central é simples: nem todas as funcionalidades pesam igual na percepção do cliente; algumas são obrigatórias (básicas), outras aumentam a satisfação proporcionalmente (desempenho), outras encantam (atrativas) e outras são indiferentes. Hoje é padrão em product management.
 
 ##### A mecânica central (sem jargão)
 
@@ -2386,11 +2403,11 @@ Produto não se entrega por features, entrega-se por jornadas de usuário comple
 
 Passo 1: mapear a jornada do usuário horizontalmente com post-its (ou equivalente digital em Miro/FigJam), cada post-it é uma "atividade de alto nível" que o usuário precisa fazer. Passo 2: para cada atividade, listar as "tarefas" concretas que a constituem. Passo 3: para cada tarefa, listar as "user stories" específicas em profundidade. Passo 4: desenhar linhas horizontais cortando o mapa, cada linha é um release. Primeiro release (MVP) corta o mínimo em cada coluna que ainda entrega jornada completa. Releases posteriores aprofundam.
 
-Exemplo aplicado, E-commerce. Jornada horizontal: *Descobrir produto → Adicionar ao carrinho → Checkout → Pagar → Receber notificação → Recebimento*. Profundidade vertical em "Checkout": essencial (endereço único, frete grátis), intermediário (múltiplos endereços, escolha de frete), avançado (presentear, wishlist). MVP horizontal: apenas essencial em cada coluna, usuário consegue completar jornada inteira, mesmo que limitada. Release 2: adicionar intermediário nas colunas críticas (checkout, pagamento). Release 3: avançado.
+Exemplo aplicado: a loja D2C de kits de autocuidado de Rafael e Bia. Jornada horizontal da cliente: *Descobrir o kit → Escolher o perfil de pele → Fechar pedido → Pagar no Pix ou cartão → Receber aviso de envio → Abrir a caixa em casa*. Profundidade vertical na coluna "Fechar pedido": no MVP horizontal entram apenas cadastro em uma tela, endereço único e Pix/cartão (a cliente completa a compra inteira sem travar); na segunda versão entram múltiplos endereços e escolha de transportadora; na terceira, assinatura recorrente com troca de itens e embalagem para presente.
 
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
-(1) Confundir com fluxograma, Story Map não é sobre lógica de fluxo (if-then), é sobre jornada do usuário. (2) Release vertical em vez de horizontal, "primeiro vamos fazer todo o checkout, depois todo o pagamento", isso entrega features, não jornadas. (3) Mapear sem ter pesquisa com usuário, Story Map baseado em hipótese sobre jornada é frequentemente errado, conectar com Customer Discovery (Framework: Customer Development (Steve Blank, 2005) (Fase 8)) ou JTBD Interview (Framework: Jobs to Be Done Switch Interviews (Bob Moesta & Chris Spiek, via Clayton Christensen) (Fase 5)) antes. (4) Mapa grande demais, mais que 20-30 atividades horizontais vira ilegível, decomponha em mapas por persona ou por jornada principal vs auxiliar.
+(1) Confundir com fluxograma, Story Map não é sobre lógica de fluxo (if-then), é sobre jornada do usuário. (2) Release vertical em vez de horizontal, "primeiro vamos fazer todo o checkout, depois todo o pagamento", isso entrega features, não jornadas. (3) Mapear sem ter pesquisa com usuário, Story Map baseado em hipótese sobre jornada é frequentemente errado, conecte antes com as entrevistas de *Customer Development* e de *Jobs to Be Done* (Fases 4 e 5) ou JTBD Interview (Framework: Jobs to Be Done Switch Interviews (Bob Moesta & Chris Spiek, via Clayton Christensen) (Fase 5)) antes. (4) Mapa grande demais, mais que 20-30 atividades horizontais vira ilegível, decomponha em mapas por persona ou por jornada principal vs auxiliar.
 
 ---
 
@@ -2440,13 +2457,13 @@ flowchart TB
 
 ##### O momento exato de colocar este canvas na parede
 
-Use o Opportunity Canvas na Fase 8 (ideação) e durante todo o ciclo de descoberta contínua pós-PMF. É a ferramenta certa para responder "vale a pena construir essa feature/produto/oportunidade adjacente?" antes de comprometer um trimestre de roadmap. Também use em comitês de priorização: comparar três Opportunity Canvases lado a lado é mais informativo que comparar três PRDs longos.
+Use o Opportunity Canvas nesta Fase 9 (antes de abrir a geração de ideias do Passo 1) e durante os ciclos de descoberta contínua pós-PMF. É a ferramenta certa para responder "vale a pena construir essa feature/produto/oportunidade adjacente?" antes de comprometer um trimestre de roadmap. Também use em comitês de priorização: comparar três Opportunity Canvases lado a lado é mais informativo que comparar três PRDs longos.
 
 ##### As regras de ouro para preencher sem se enganar
 
-A tese de Patton é que **decisão de roadmap é decisão de capital**: cada feature construída custa o custo de oportunidade da feature não construída. O Opportunity Canvas força articular *o trade-off* explicitamente. Diferente do BMC (que descreve o negócio inteiro) e do Lean Canvas (que descreve um modelo a validar), o Opportunity Canvas descreve **uma aposta específica de produto** e pode coexistir com vários outros: uma empresa madura típica tem 10-30 Opportunity Canvases ativos em portfólio.
+A tese de Patton é que **decisão de roadmap é decisão de capital**: cada feature construída custa o custo de oportunidade da feature não construída. O Opportunity Canvas força articular *o trade-off* explicitamente. Diferente do BMC (que descreve o negócio inteiro) e do Lean Canvas (que descreve um modelo a validar), o Opportunity Canvas descreve **uma aposta específica de produto** e pode coexistir com vários outros: cada funcionalidade construída consome o tempo e o orçamento de outra que ficou de fora, razão pela qual decidir o roadmap é alocar capital escasso.
 
-##### Passo a passo na parede da sala (30 a 60 minutos)
+##### Passo a passo na parede da sala
 
 Reúna PM + tech lead + designer + 1 stakeholder de negócio (RH, vendas, operações): 4-5 pessoas. Tempo: 60-90 minutos. Comece pelos Problems & Users; só depois vá para Solutions. A ordem importa: começar por Solutions reforça viés de "já sabemos o que construir" e mascara perguntas críticas sobre adoção.
 
@@ -2478,7 +2495,7 @@ Em 2022, a Hotmart já dominava infoprodutos médios e grandes (creators que ven
 | **Metrics** | Leading: número de microcreators ativando produto/mês, GMV médio por microcreator, conversão de visitante em comprador no link de bio. Lagging: % de microcreators que migram para a plataforma principal em 12 meses. |
 | **Budget** | 1 squad (5 pessoas) por 6 meses para MVP + 4 meses de aquisição inicial = ~R$ 1.5M. Reavaliar em 10 meses: se GMV mensal não chegar a R$ 2M ou 5k microcreators ativos, descontinuar. |
 
-O bloco mais valioso aqui é o **Business Problems** explícito: articula que essa oportunidade não é "feature legal", é resposta a três problemas estratégicos da Hotmart (aquisição de creators emergentes, diversificação de dependência, defesa de mercado). Sem essa articulação, "Hotmart Sparkle" pareceria projeto secundário; com ela, fica claro por que merece squad dedicado. **A lição: Opportunity Canvas força distinguir oportunidade-de-produto de oportunidade-de-negócio. Feature sem business problem definido raramente sobrevive a corte de roadmap.**
+O bloco mais valioso aqui é o **Business Problems** explícito: articula que essa oportunidade não é "feature legal", é resposta a três problemas estratégicos da Hotmart (aquisição de creators emergentes, diversificação de dependência, defesa de mercado). Sem essa articulação, "Hotmart Sparkle" pareceria projeto secundário; com ela, fica claro por que merece squad dedicado. O canvas obriga a separar oportunidade de produto de oportunidade de negócio: funcionalidade que não resolve um problema concreto do negócio raramente sobrevive ao corte do roadmap.
 
 ##### Variações e extensões
 
@@ -2500,7 +2517,7 @@ O bloco mais valioso aqui é o **Business Problems** explícito: articula que es
 
 ##### Por que este quadro visual foi criado
 
-Tristan Kromer, coach de inovação e autor do blog Grasshopper Herder, desenvolveu o MVP Canvas como resposta a uma frustração recorrente: times que "lançavam MVPs" sem definir antecipadamente o que estavam tentando aprender. O MVP Canvas surgiu ao redor de 2013-2015 como artefato estruturado para forçar três definições antes de qualquer linha de código: qual é a hipótese que o MVP testa, quem são os usuários do MVP (não os usuários futuros do produto final), e qual é o critério de sucesso que dirá ao time o que construir a seguir. Kromer parte da premissa de Eric Ries (*The Lean Startup*, 2011) mas torna operacional a pergunta mais ignorada: "MVP de quê, exatamente?"
+O MVP Canvas apresentado a seguir sintetiza a tradição de validação enxuta de Eric Ries (*The Lean Startup*, 2011) e os quadros práticos de escopo difundidos por treinadores ágeis como Tristan Kromer (*Grasshopper Herder*) e, no Brasil, por Paulo Caroli (*Lean Inception*, que organiza o alinhamento do MVP em personas, jornadas, funcionalidades, resultado esperado, métricas, custo e cronograma). O objetivo é impedir que o time construa um MVP sem antes cravar qual hipótese está testando, para qual recorte de usuários iniciais e com qual régua de decisão.
 
 ##### A anatomia visual de uma página
 
@@ -2543,14 +2560,14 @@ Use o MVP Canvas na Fase 8 (prototipagem e MVP) como artefato de entrada: antes 
 
 A tese de Kromer é que **"MVP" sem hipótese explícita é só produto incompleto**. A maioria dos times chama de MVP qualquer versão inicial do produto, mas "versão inicial" sem hipótese não ensina nada: você lança, alguns usuários gostam, outros não, e o time não sabe o que isso significa. MVP Canvas faz a pergunta que a maioria evita: "Qual crença específica este MVP vai testar? E quando sabemos que foi refutada?" Sem essa resposta, o MVP nunca "falha": ele simplesmente não tem critério de aprendizado.
 
-##### Passo a passo na parede da sala (30 a 60 minutos)
+##### Passo a passo na parede da sala
 
 Reúna PM + tech lead + designer + fundador. Tempo: 30-45 minutos. **Sequência de preenchimento:**
 
 1. **Hipótese central**: escreva primeiro, antes de falar sobre o MVP em si. "Acredito que [usuário Y] vai [fazer X] por causa de [razão Z]." Teste: a hipótese pode ser refutada? Se não, reescreva.
 2. **Segmento do MVP**: quem especificamente vai testar esta hipótese? Pode ser 20 pessoas, não 20.000. Quanto mais estreito o segmento, mais limpa a evidência.
 3. **Proposta de valor do MVP**, o que o usuário ganha hoje com esta versão? Não o que o produto promete no futuro, o que o MVP entrega agora.
-4. **Canais de recrutamento**: como vai encontrar essas pessoas? "Nossos clientes" é vago; "lista de 50 churned users do último trimestre via email pessoal do founder" é um canal.
+4. **Canais de recrutamento**: como vai encontrar essas pessoas? "Nossos clientes" é vago; "os 20 donos de padaria entrevistados na Fase 5, acionados diretamente pelo WhatsApp do fundador" é um canal concreto.
 5. **Tipo de MVP**: qual é o formato do experimento? Não construa código se um protótipo clicável testa a mesma hipótese em 1/10 do tempo.
 6. **Critério de sucesso**: define antes. Número específico.
 7. **Critério de invalidação**: define antes. Zona de incerteza entre sucesso e invalidação = inconclusivo.
@@ -2559,7 +2576,7 @@ Após preencher, faça a pergunta de Kromer: "Se o MVP falhar pelo critério de 
 
 ##### Exemplo brasileiro preenchido (simulação didática com métricas hipotéticas): Wildlife Studios, MVP de novo mecanismo de monetização
 
-A Wildlife Studios (São Paulo, one of the largest mobile game studios globally) testou em 2022 um novo mecanismo de monetização para seu jogo *Sniper 3D*: season passes (passe de temporada com recompensas progressivas), alternativa a loot boxes avulsas. O MVP Canvas:
+A Wildlife Studios, fundada em São Paulo e um dos maiores estúdios de jogos para celular do mundo, testou em 2022 um novo mecanismo de monetização para seu jogo *Sniper 3D*: *season passes* (passes de temporada com recompensas progressivas e transparentes), em substituição a caixas de recompensa aleatórias (*loot boxes*, modalidade que no Brasil passou a sofrer vedação legal em jogos acessíveis a crianças e adolescentes com o ECA Digital, Lei 15.211/2025). O MVP Canvas:
 
 | Bloco | Conteúdo |
 |---|---|
@@ -2577,7 +2594,7 @@ O MVP Canvas forçou a Wildlife a definir o segmento com precisão: testar nos d
 
 ##### Variações e extensões
 
-- **Concierge MVP Canvas**: variação específica para MVPs onde o serviço é entregue manualmente (você faz tudo na mão para 10-20 usuários). Canvas adiciona bloco "Script de operação manual".
+- **Adaptação para experimentos de Concierge e Mágico de Oz**: quando o MVP ainda é operado manualmente pelos fundadores nos bastidores (para 10 a 20 primeiros clientes), acrescente ao canvas um bloco com o roteiro passo a passo da operação manual e o tempo gasto por entrega.
 - **Wizard of Oz Canvas**: variação onde o backend é falso (humano operando). Canvas adiciona bloco "O que o usuário vê" vs. "O que realmente acontece" para mapear a ilusão deliberada.
 - **Sprint Goal Canvas** (adaptação ágil): integra MVP Canvas com sprint planning, cada sprint tem um canvas de hipótese + critério.
 
@@ -2591,7 +2608,7 @@ O MVP Canvas forçou a Wildlife a definir o segmento com precisão: testar nos d
 
 ---
 
-### TEMPLATES OPERACIONAIS E CASOS PREENCHIDOS DESTA FASE
+### Templates operacionais e casos preenchidos desta fase (OST, User Story Map e estrutura do Dossiê de Solução do Passo 7)
 
 #### Template: Diagrama de Opportunity Solution Tree (Teresa Torres) — exemplo em SaaS brasileiro
 
@@ -2615,7 +2632,7 @@ graph TD
     C6 --> D2{Experimento: rollout 50/50 com medição}
 ```
 
-**Uso:** o topo da árvore é o outcome desejado (métrica mensurável). Opportunities são hipóteses sobre o que, se resolvido, moveria o outcome. Solutions são experimentos específicos para cada opportunity. A disciplina é nunca pular direto de outcome para solution, sempre explicitar qual opportunity a solução tenta endereçar.
+**Uso:** o topo da árvore é o outcome desejado (métrica mensurável). Opportunities são hipóteses sobre o que, se resolvido, moveria o outcome. As soluções (*solutions*) são ideias concretas para resolver cada oportunidade, e abaixo delas entram os experimentos específicos que testam as premissas de cada solução (como nos ramos do PadariaPro). A disciplina é nunca pular direto de outcome para solution, sempre explicitar qual opportunity a solução tenta endereçar.
 
 ---
 
@@ -2656,25 +2673,25 @@ Sentada ao lado com um bloco de notas, Marina segurou o braço do sócio por bai
 
 Nos cinco minutos seguintes de silêncio absoluto, Lucas assistiu à cena mais dolorosa e mais educativa da vida de qualquer criador de produto: o usuário tentou clicar em um título que não era link, procurou um botão de ajuda que não existia, suspirou fundo e fechou a aba. Nenhuma reunião interna de quatro horas teria ensinado o que aqueles cinco minutos de silêncio revelaram.
 
-Mas o segundo golpe veio à tarde, quando Lucas abriu o backlog para planejar o lançamento do MVP e listou 47 funcionalidades "indispensáveis": incluindo modo escuro, permissões em quatro níveis hierárquicos, exportação em PDF customizável e painel de administração. Marina puxou a caneta vermelha e aplicou **A Guilhotina Implacável de Escopo**:
+Mas o segundo golpe veio à tarde, quando Lucas abriu o backlog para planejar o lançamento do MVP e listou 47 funcionalidades "indispensáveis": incluindo modo escuro, permissões em quatro níveis hierárquicos, exportação em PDF customizável e painel de administração. Marina puxou a caneta vermelha e aplicou a **Guilhotina de Escopo**:
 
 – "Se o cliente consegue importar o extrato e ver a previsão de caixa de amanhã, ele já recebe 90% do valor. Modo escuro, troca de senha automática e painel de admin vão para o lixo agora. Nosso MVP terá três telas e vai ao ar na próxima terça-feira."
 
-O maior inimigo do seu lançamento não é a concorrência; é a covardia disfarçada de perfeccionismo: adicionar "só mais uma funcionalidadezinha" para adiar o dia do julgamento real do mercado.
+O que mais atrasa um lançamento é o perfeccionismo: a tentação de incluir "só mais uma funcionalidade" na lista para adiar o dia em que o mercado real julga o produto.
 
 ---
 
-### Por que cada funcionalidade extra antes do lançamento dobra o tempo de entrega e divide a clareza pela metade
+### Por que especificar e cortar o escopo antes de construir (dos 47 itens de Lucas aos 5 essenciais)
 
 Protótipos testam fluxo e conceito. Mas não testam valor real em uso prolongado. Esta fase aprofunda o teste de solução e converte aprendizado em requisitos. Sem especificação clara antes de construir, você gasta mais, demora mais, e entrega menos.
 
-### O teste de 5 usuários em silêncio absoluto e a poda MoSCoW onde Must-Have significa vida ou morte
+### Os oito passos da Fase 10: do teste de usabilidade com 5 usuários em silêncio à Guilhotina de Escopo no MoSCoW
 
 Oito passos.
 
 #### Passo 1, conduza entrevistas de solução
 
-Diferente da entrevista de problema ([[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 4 — DESCOBERTA DO PROBLEMA|Fase 4 (Vol. 2)]]), aqui você mostra o protótipo e pergunta ao usuário seis coisas, de forma estruturada. Se a solução resolve o problema dele. Como ela se compara com o que ele usa hoje. Quanto faria sentido cobrar. Quais features ele sente falta e quais acha supérfluas. Em que momento da rotina ele usaria. O que o impediria de usar.
+Diferente da entrevista de problema ([[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 4 — DESCOBERTA DO PROBLEMA|Fase 4 (Vol. 2)]]), aqui você mostra o protótipo e pergunta ao usuário seis coisas, de forma estruturada. Se a solução resolve o problema dele. Como ela se compara com o que ele usa hoje. (1) se a solução resolve o problema dele; (2) como ela se compara ao que ele usa hoje; (3) quanto faria sentido cobrar; (4) de quais funcionalidades ele sente falta e quais acha supérfluas; (5) em que momento da rotina ele usaria; e (6) o que o impediria de adotar.
 
 Faça dez a quinze dessas entrevistas. Grave, transcreva, analise.
 
@@ -2683,16 +2700,16 @@ Faça dez a quinze dessas entrevistas. Grave, transcreva, analise.
 
 #### Passo 2, aplique a técnica das cinco escalas de valor
 
-Para cada entrevistado, peça avaliação em escala de um a cinco em cinco dimensões: Relevância ("isso resolve um problema real?"), Urgência ("você precisaria disso nos próximos trinta dias?"), Preferência ("prefere ao que usa hoje?"), Diferenciação ("percebe como diferente das alternativas?") e Disposição a pagar ("quanto faria sentido cobrar?"). Calcule a média e o desvio-padrão de cada escala.
+Para cada entrevistado, peça avaliação em escala de um a cinco em cinco dimensões: Relevância ("isso resolve um problema real?"), Urgência ("você precisaria disso nos próximos trinta dias?"), Preferência ("prefere ao que usa hoje?"), Diferenciação ("percebe como diferente das alternativas?") e Disposição a pagar (de 1, não pagaria nada, a 5, pagaria mais do que gasta hoje para contornar o problema; o valor em reais entra no Van Westendorp do Passo 4). Calcule a média e o desvio-padrão de cada escala.
 
 > [!warning] Urgência abaixo de três é alerta vermelho
-> Se a Urgência média ficar abaixo de três, o problema existe mas não é prioridade. Você terá dificuldade de vender. Não é "ainda preciso polir o pitch". É "o problema não é dolorido o suficiente". Volte à Fase 3.
+> Se a Urgência média ficar abaixo de três, o problema existe mas não é prioridade. Você terá dificuldade de vender. Não é "ainda preciso polir o pitch". O diagnóstico correto é que o problema ainda não dói o bastante para justificar a troca: volte à Fase 4 (Descoberta do Problema, no Vol. 2) e refaça a medição de severidade com os *Pain Levels*.
 
 #### Passo 3, faça o teste de cinco segundos (five second test)
 
 Mostre o protótipo ou a página principal por cinco segundos, e tire. Depois pergunte três coisas. O que você entendeu? Para quem é? Qual problema resolve?
 
-Se cinquenta por cento dos testados não conseguem responder bem, o seu posicionamento está confuso. Isso vai matar o seu CAC (custo de aquisição de cliente) depois.
+Se menos de 70% dos testados acertam as três respostas de primeira, o seu posicionamento está confuso, e isso vai inflar o seu CAC (custo de aquisição de cliente) quando a campanha começar.
 
 > [!note] Capítulo 1 (Vol. 2): Psicologia do Consumidor Brasileiro
 > As respostas nas entrevistas de solução são influenciadas por como a pergunta é feita e em que contexto. O [[IGNICAO-Vol-2-Descoberta-e-Mercado#CAPÍTULO 1 — PSICOLOGIA DO CONSUMIDOR BRASILEIRO — COMPORTAMENTO, DECISÃO E CONVERSÃO|Capítulo 1: Psicologia do Consumidor Brasileiro (Vol. 2)]] detalha vieses de resposta específicos do consumidor brasileiro, incluindo tendência de superestimar intenção de uso e subestimar sensibilidade a preço, que distorcem as escalas de valor se não forem antecipados.
@@ -2718,7 +2735,7 @@ Plote as quatro curvas acumuladas (com apenas 15 a 20 respostas, trate os númer
 > Van Westendorp revela a faixa psicológica aceitável, mas não informa o modelo de precificação (assinatura, cobrança por uso, por licença, freemium) nem a estratégia de âncora. O [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 6 — PRICING STRATEGY E ECONOMIA DA RECORRÊNCIA (SUBSCRIPTION ECONOMY)|Capítulo 6: Pricing Strategy (Vol. 4)]] complementa este passo com os modelos de precificação aplicáveis ao estágio de MVP, a lógica de teste Gabor-Granger para granularidade maior, e os erros mais comuns de precificação em lançamento: incluindo o de começar com preço que não é possível aumentar depois.
 
 > [!tip] Product discovery moderno é insumo recomendado para times com PM/designer/eng
-> Para times com PM, designer e engenharia separados, quatro práticas contemporâneas de product discovery (Cagan, Torres) merecem incorporação na rotina desta fase: **Continuous discovery** (entrevistas semanais com clientes em paralelo com desenvolvimento, não fases separadas), **Opportunity Solution Tree** (conectar outcome, oportunidades, soluções, experimentos em árvore antes de priorizar features), **Dual-track agile** (Discovery e Delivery rodando em paralelo, não em sprints alternados), e **User stories INVEST** (Independent, Negotiable, Valuable, Estimable, Small, Testable, com acceptance criteria explícito que torna "pronto" auditável). Para fundadores solo ou pre-seed, são opcionais: ganham relevância quando o time passa de cinco a sete pessoas. Detalhamento e quando aplicar cada prática nos Capítulo 4 (Vol. 7) (Engineering Management, Developer Experience e Gestão de Dívida Técnica) (Technical Debt: implicações de dívida das decisões de MoSCoW) e Frameworks da Fase 17 (Discovery & Product, com tratamento operacional dos quatro frameworks).
+> Para times com PM, designer e engenharia separados, quatro práticas contemporâneas de produto merecem incorporação gradual (descoberta contínua e Árvore de Oportunidades, de Teresa Torres; descoberta e entrega em trilhas paralelas, de Marty Cagan e Jeff Patton; e, na escrita de requisitos de entrega, o critério INVEST de Bill Wake, 2003): **Continuous discovery** (entrevistas semanais com clientes em paralelo com desenvolvimento, não fases separadas), **Opportunity Solution Tree** (conectar outcome, oportunidades, soluções, experimentos em árvore antes de priorizar features), **Dual-track agile** (Discovery e Delivery rodando em paralelo, não em sprints alternados), e **User stories INVEST** (Independent, Negotiable, Valuable, Estimable, Small, Testable, com acceptance criteria explícito que torna "pronto" auditável). Para fundadores solo ou pre-seed, são opcionais: ganham relevância quando o time passa de cinco a sete pessoas. Detalhamento e quando aplicar cada prática nos Capítulo 4 (Vol. 7) (Engineering Management, Developer Experience e Gestão de Dívida Técnica) (Technical Debt: implicações de dívida das decisões de MoSCoW) e Frameworks da Fase 17 (Discovery & Product, com tratamento operacional dos quatro frameworks).
 
 #### Passo 5, mapeie requisitos por ordem de prioridade (MoSCoW)
 
@@ -2759,7 +2776,7 @@ flowchart LR
 
 A tentação é inflar Must Have para vinte ou trinta itens. MVP com vinte Must Haves não é MVP. É produto mínimo *impossível*.
 
-Lista de requisitos funcionais. Cada um em uma das quatro categorias. Must Have. Sem isso, não há produto. Entra no MVP obrigatoriamente. Should Have. Deveria ter, mas dá para viver um tempo sem. Sprint três pós-MVP. Could Have. Desejável. Entra se houver tempo e capacidade. Won't Have (yet). Explicitamente fora do MVP.
+Classifique cada requisito funcional numa das quatro colunas do diagrama acima aplicando a **Guilhotina de Escopo**: **Must Have** (sem isso o cliente não resolve a dor central; entra obrigatoriamente no MVP), **Should Have** (importante, mas a operação roda sem ele nas primeiras semanas; fica para as sprints 1 e 2 pós-MVP), **Could Have** (desejável se sobrar capacidade após validar o básico) e **Won't Have** (cortado explicitamente desta versão para proteger o prazo de lançamento).
 
 > [!important] Regra dura do MoSCoW
 > Um MVP com mais de dez a quinze Must Haves não é MVP. É produto inflado. Se a sua lista passa de quinze, você não dominou o problema ainda. Volte e corte.
@@ -2768,7 +2785,7 @@ Lista de requisitos funcionais. Cada um em uma das quatro categorias. Must Have.
 
 Documento contendo dez itens.
 
-Proposta de valor final, em uma frase. Persona foco (beachhead). JTBDs principais a resolver. Lista de Must Haves. Lista de Should e Could Haves (roadmap futuro). Explicitamente: o que o MVP *não* fará (Won't Haves). Critérios de sucesso do MVP (métricas). Faixa de preço planejada. Canais de aquisição planejados. Prazo de desenvolvimento estimado. Orçamento.
+(1) Proposta de valor final em uma frase; (2) Persona foco (*beachhead*); (3) Principais tarefas (*JTBDs*) a resolver; (4) Lista enxuta de *Must Haves* (até 10 itens); (5) Lista de *Should* e *Could Haves* (próximos ciclos); (6) O que o MVP explicitamente *não* fará (*Won't Haves*); (7) Critérios numéricos de sucesso do MVP; (8) Faixa de preço testada; (9) Canais de aquisição iniciais; e (10) Prazo de desenvolvimento e orçamento máximo combinados.
 
 > [!tip] Templates Operacionais: Template da Especificação do MVP (Template da Fase 10)
 > O [[#Template: Especificação de MVP|Template: Especificação de MVP]] contém o template preenchível da Especificação do MVP com os dez campos acima, mais seção de riscos remanescentes e suposições ainda não validadas. Usar o template em vez de documento livre garante que nenhum campo crítico (Won't Haves, critério de sucesso mensurável) seja omitido por pressão de entrar logo em desenvolvimento.
@@ -2793,7 +2810,7 @@ De forma mensurável. O cliente precisa conseguir medir a redução. Em horas, r
 
 #### Passo 8, aplique o Scale Readiness Check
 
-Esse checklist complementa o gate de direcionalidade. Enquanto o gate pergunta "a solução é a certa?", o Scale Readiness Check pergunta "você tem as condições para construir com segurança?". Os cinco itens precisam ser todos verdadeiros antes da [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 11 — MVP E EXPERIMENTOS DE MERCADO|Fase 11 (Vol. 4)]] começar com intensidade de build.
+Esse checklist complementa o gate de direcionalidade. Enquanto o gate pergunta "a solução é a certa?", a **Checagem de Prontidão para Construir** (*Build Readiness Check*) pergunta "você tem as condições operacionais, quem paga e de qual verba sai o orçamento para construir com segurança?". Os cinco itens precisam ser todos verdadeiros antes da [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 11 — MVP E EXPERIMENTOS DE MERCADO|Fase 11 (Vol. 4)]] começar com intensidade de build.
 
 - [ ] **Um comprador claramente definido.** Você tem nome, cargo, e empresa (ou perfil nomeado no caso B2C) do primeiro comprador. Não "pequenos negócios". Uma lista concreta de cinco a dez pessoas que você saberia chamar hoje para uma demo.
 - [ ] **Um workflow doloroso identificado.** Você observou, não só ouviu, o workflow atual. Sabe onde o cliente trava, quantos minutos por semana ele gasta na gambiarra, e quem mais na organização é afetado.
@@ -2802,9 +2819,9 @@ Esse checklist complementa o gate de direcionalidade. Enquanto o gate pergunta "
 - [ ] **Consciência de que escalar suposições amplifica ineficiência.** Você lista por escrito quais suposições ainda não foram validadas, e se comprometeu a validá-las na [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 11 — MVP E EXPERIMENTOS DE MERCADO|Fase 11 (Vol. 4)]] sem construir por cima delas. Ignorar essa etapa transforma dívida de suposição em dívida de produto, e cria retrabalho caro.
 
 > [!warning] Se algum dos cinco itens não pode ser marcado, não avance em ritmo de produção
-> Continue na Fase 9 em modo de investigação até fechar o item. Escalar desenvolvimento com suposições não testadas é como colocar mais combustível em um carro que ainda não se sabe se tem direção funcionando. Você só vai chegar mais rápido no lugar errado.
+> Fique nesta Fase 10 em modo de investigação (ou volte à Fase 9 se precisar redesenhar o protótipo) até fechar o item pendente. Escalar desenvolvimento com suposições não testadas é como colocar mais combustível em um carro que ainda não se sabe se tem direção funcionando. Você só vai chegar mais rápido no lugar errado.
 
-### Os oito passos aplicados, roteiro de teste de usabilidade do PadariaPro (protótipo híbrido WhatsApp mais Web)
+### Roteiro prático de teste de usabilidade do PadariaPro (protótipo híbrido de WhatsApp e web)
 
 **Briefing ao usuário (cinco minutos).**
 
@@ -2842,7 +2859,7 @@ Iteração prioritária. Simplificar onboarding para três passos. CNPJ, depois 
 
 Em 2015, a Gupy nascia da ideia de Mariana Dias, Bruna Guimarães, Guilherme Dias e Robson Ventura de substituir processos tradicionais de recrutamento por uma plataforma que usasse dados e IA para triagem.
 
-A decisão foi cirúrgica. Antes de abrir comercial amplo, fizeram piloto com cinco a oito empresas-parceiras. Usavam a plataforma com acompanhamento próximo, e iteração semanal. Cada empresa tinha objetivo claro (redução de tempo de contratação, aumento de qualidade de candidato), medido pré e pós.
+Como ilustração de validação enxuta no setor de recrutamento corporativo (inspirada nos primeiros passos de plataformas brasileiras de RH como a Gupy), imagine rodar o piloto inicial com cinco a oito empresas parceiras antes de abrir a venda comercial ampla: cada empresa usa o fluxo essencial com acompanhamento semanal da equipe de produto, medindo o tempo de fechamento de vaga antes e depois do piloto.
 
 O resultado foi composto. As iterações cruas, baseadas em uso real, calibraram a plataforma antes do go-to-market geral. As empresas-piloto viraram primeiros cases. Depois evangelistas. Depois canal de referência. A Gupy se tornaria, anos depois, uma das maiores plataformas de recrutamento da América Latina.
 
@@ -2854,10 +2871,10 @@ Você concluiu a Fase 10 quando todos os critérios abaixo estão cumpridos.
 
 - [ ] Protótipo de média fidelidade clicável (Figma, Webflow, Framer) com fluxos principais navegáveis.
 - [ ] Três a cinco tarefas-chave de teste definidas, com critério de conclusão.
-- [ ] Dez ou mais entrevistas de solução ou sessões de teste com think-aloud, com cinco dimensões avaliadas (Relevância, Urgência, Preferência, Diferenciação, Disposição a pagar). Urgência média ≥3 (≥4 é forte; <3 é alerta vermelho); Preferência média ≥4 sobre alternativa atual.
+- [ ] Dez ou mais entrevistas de solução ou sessões de teste com think-aloud, com cinco dimensões avaliadas (Relevância, Urgência, Preferência, Diferenciação, Disposição a pagar). Urgência média ≥ 3 e Preferência ≥ 4 usadas apenas como filtro exploratório inicial, acompanhadas obrigatoriamente de compromisso comportamental concreto (pré-venda paga, carta de intenção assinada ou sinal financeiro para o piloto).
 - [ ] Taxa de entendimento no teste de cinco segundos ≥70% (o que entendeu, para quem é, qual problema resolve).
 - [ ] Faixa de preço aceitável definida por Van Westendorp, com limite superior identificado.
-- [ ] Número de Must Haves entre cinco e dez (crítico se mais de quinze; volta e corta).
+- [ ] Número de Must Haves enxuto: até 10 itens (alerta amarelo entre 11 e 15; acima de 15, pare e passe a Guilhotina de Escopo novamente).
 - [ ] Friction points documentados por tarefa e por usuário em matriz.
 - [ ] Pelo menos uma iteração do protótipo baseada nos testes.
 - [ ] Teste de precificação Van Westendorp aplicado, faixa de preço psicologicamente aceitável definida.
@@ -2866,7 +2883,7 @@ Você concluiu a Fase 10 quando todos os critérios abaixo estão cumpridos.
 - [ ] Scale Readiness Check com cinco itens marcados (comprador definido, workflow doloroso, titularidade de orçamento, urgência observável, suposições não validadas listadas).
 
 > [!warning] Critério de saída
-> Se qualquer um desses itens falha, não avance. Especialmente o Gate de Direcionalidade e o Scale Readiness Check. Avançar para construção com algum item em aberto custa duas a três vezes mais em retrabalho.
+> Se qualquer um desses itens falha, não avance. Especialmente o Gate de Direcionalidade e o Scale Readiness Check. Avançar para a construção no código deixando itens críticos em aberto quase sempre cobra o preço depois em semanas de retrabalho pesado de engenharia.
 
 **Primeiros passos práticos.**
 
@@ -2875,7 +2892,7 @@ Você concluiu a Fase 10 quando todos os critérios abaixo estão cumpridos.
 3. Agendar cinco sessões de teste de usabilidade de quarenta e cinco minutos cada.
 4. Pedir think-aloud. "Fale em voz alta tudo que está pensando enquanto tenta a tarefa." Observar. Não guiar.
 
-### Guiar o usuário durante o teste e transformar o MVP em um produto obeso de primeiro ano
+### Guiar o usuário durante o teste (em vez de perguntar "o que você faria se eu não estivesse aqui?") e deixar o MVP inchar
 
 Bloat de escopo. Sem disciplina, o MVP cresce. Para cada Must Have, pergunte: "se eu tirasse isso, o produto ainda resolveria o *job* principal?". Se sim, não é Must.
 
@@ -2885,12 +2902,12 @@ Ignorar quem não usaria. Quando um entrevistado diz "não é para mim", isso é
 
 Especificar sem mensuração. "O MVP deve ser intuitivo." O que é intuitivo? Operacionalize em métricas testáveis.
 
-Acreditar que precificação está resolvida. Van Westendorp dá um ponto de partida. Não a resposta final. Preço real será descoberto em mercado.
+Achar que o gráfico de Van Westendorp já fechou o preço definitivo: a pesquisa aponta apenas a faixa aceitável para o lançamento, mas o preço real só se confirma na Fase 11, quando o cliente emite o Pix ou passa o cartão.
 
 
 ---
 
-### O Espelho da Fase 10: Seu MVP é um Estilete Afiado ou um Canivete Suíço Pesado?
+### O Espelho da Fase 10: O que no seu backlog vai para a Guilhotina de Escopo hoje?
 
 **Fechando o ciclo na trincheira:** Quando **Lucas e Marina** aplicaram as travas deste capítulo na rotina entre São Paulo e Florianópolis, a tensão da cena de abertura deixou de ser discussão subjetiva de corredores e virou regra clara de priorização, retenção e proteção de caixa.
 
@@ -2900,10 +2917,10 @@ Acreditar que precificação está resolvida. Van Westendorp dá um ponto de par
 3. Um usuário novo consegue chegar ao primeiro resultado real do seu produto (*Aha! Moment*) em menos de cinco minutos sem treinamento?
 
 **Permissão Libertadora:**
-Você está autorizado a lançar sem tela automática de "esqueci minha senha", sem painel administrativo bonito, sem modo escuro e sem configuração de perfil. Se três clientes esquecerem a senha na primeira semana, você reseta no banco de dados em trinta segundos e comemora que tem gente tentando entrar.
+Você está autorizado a lançar sem tela automática de "esqueci minha senha", sem painel administrativo bonito, sem modo escuro e sem configuração de perfil. Use o fluxo pronto de recuperação de senha que o seu serviço de autenticação já entrega por padrão e não gaste uma hora construindo painel administrativo próprio ou tela de perfil antes de validar o produto.
 
-**O Ritual de Segunda-Feira às 9h:**
-Abra a lista de tarefas do seu MVP, ordene por impacto direto na dor número um do cliente e corte impiedosamente os 50% inferiores para a pasta "Só Depois dos Primeiros 20 Clientes Pagantes".
+**O Ritual de Segunda-Feira às 9h (rotina semanal de 30 minutos):**
+Toda segunda-feira, passe a **Guilhotina de Escopo** nos itens que tentaram entrar no backlog durante a semana: aplique a pergunta *"sem isso, o cliente ainda resolve a dor número um?"* e, para cada novo item aceito como Must Have, rebaixe obrigatoriamente outro item para a lista de "Só Depois dos Primeiros 20 Clientes Pagantes".
 
 ---
 
@@ -2915,11 +2932,11 @@ Abra a lista de tarefas do seu MVP, ordene por impacto direto na dor número um 
 | Erros de usabilidade críticos | Erros que bloqueiam uso | 0 antes de seguir |
 | SUS (System Usability Scale) | Score de usabilidade padronizado | ≥ 68 (acima da média) |
 | Desejabilidade | % que diz "compraria" ou "usaria" | ≥ 60% do segmento-alvo |
-| Net Promoter Score de protótipo | Intenção de recomendar | ≥ 40 |
+| Compromisso real pós-teste | Piloto pago, pré-venda ou carta de intenção assinada ao fim da sessão | ≥ 30% dos testados no ICP |
 
 ---
 
-### MANUAL PASSO A PASSO DOS FRAMEWORKS DESTA FASE
+### Manual passo a passo dos frameworks de experimentação desta fase
 
 > [!tip] Uso autocontido neste volume
 > Todos os frameworks abaixo estão detalhados integralmente com origem, estrutura, passo a passo de aplicação, exemplo brasileiro e armadilhas para execução imediata nesta **Fase 10**.
@@ -2986,7 +3003,12 @@ Prioridades: renomear "Categorizar", permitir importação antes de cadastro (sa
 
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
-Testa com colegas ou amigos: feedback é superficial ou enviesado, Fundador guia o teste: "aqui você clicaria...". Destrói teste, Tarefa vaga: "teste o app" não gera dado, Análise só de "likes": "gostou?" é inútil, onde falhou?, Não iterar: testa, lista problemas, nunca corrige, Pula para quantitativo cedo: n=5 é qualitativo, não gera estatística.
+- Testar com colegas ou amigos: o retorno fica superficial e enviesado pela simpatia.
+- Guiar o usuário durante a sessão ("aqui você clicaria..."): invalida a observação de usabilidade.
+- Dar tarefa vaga ("explore o aplicativo"): não reproduz um objetivo real de uso.
+- Medir apenas opinião ("você gostou?"): esconde onde o usuário travou.
+- Listar problemas e não iterar o protótipo antes da rodada seguinte.
+- Tratar amostra de 5 pessoas como estatística fechada: cinco sessões revelam travas qualitativas de fluxo, não taxas de mercado.
 
 ---
 
@@ -3146,7 +3168,7 @@ Passo 7: Teste resultados com tree testing (Framework: Tree Testing (Donna Spenc
 
 ##### Na trincheira real: como isso funciona na prática
 
-Card sort de 45 funcionalidades em SaaS financeiro (25 participantes):
+Card sort de 45 funcionalidades em SaaS financeiro com 25 participantes (aplicável apenas quando o produto já superou 15 a 20 funcionalidades pós-MVP; para um MVP inicial de três telas, este método é desnecessário):
 
 Cards incluíam: "Criar nota fiscal", "Conciliar extrato bancário", "Gerar DRE", "Cadastrar cliente", "Relatório de fluxo de caixa", etc.
 
@@ -3218,7 +3240,7 @@ Resultado:
 
 Success rate: 40% (baixa).
 
-Ação: mover "Conciliação bancária" de "Financeiro" para "Bancário" (onde maioria esperava), ou duplicar em ambos.
+Ação: como a tabela acima mostrou que apenas 45% encontraram "Conciliação bancária" dentro de "Financeiro" e outros 30% procuraram direto em "Bancário" (onde o *card sort* anterior já sugeria agrupá-la), criar atalho visível nos dois menus e retestar.
 
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
@@ -3230,7 +3252,7 @@ Tarefa enviesada: "ir para bancário e conciliar" sugere caminho, Amostra pequen
 
 ##### De onde vem a ferramenta (e por que sobreviveu ao filtro do tempo)
 
-Psicólogos K. Anders Ericsson e Herbert A. Simon (Nobel de Economia 1978) publicaram *Protocol Analysis: Verbal Reports as Data* em 1984, estabelecendo bases teóricas do método. Adaptado para HCI/UX em *Think Aloud* clássico de Jakob Nielsen nos anos 1990. Virou padrão de usability testing.
+Psicólogos K. Anders Ericsson e Herbert A. Simon (Nobel de Economia 1978) publicaram *Protocol Analysis: Verbal Reports as Data* em 1984, estabelecendo bases teóricas do método. Levado ao design de interfaces por Clayton Lewis na IBM (1982) e popularizado nos anos 1990 por Jakob Nielsen em seus estudos de engenharia de usabilidade, tornando-se o protocolo padrão de testes com usuários.
 
 ##### A mecânica central (sem jargão)
 
@@ -3324,15 +3346,15 @@ Amostra pequena (< 20): baixa confiança estatística, Aplicar sem uso real: "co
 
 ---
 
-### TEMPLATES OPERACIONAIS E CASOS PREENCHIDOS DESTA FASE
+### Templates operacionais e casos preenchidos desta fase (OST, User Story Map e estrutura do Dossiê de Solução do Passo 7)
 
 #### Template: Especificação de MVP
 
 **Para que serve.** Define o escopo mínimo viável com proposta de valor, persona foco, JTBDs, listas MoSCoW (must/should/could/won't), critérios de sucesso pós-90 dias e orçamento, prevenindo escopo inflado.
 
-**Quando usar.** Ao concluir validação de problema e solução (Fases 3-7) e entrar em Fase 9 (construção). Refaça toda vez que o time quiser adicionar feature ao escopo. A regra é mover algo para "won't have" antes de adicionar novo "must".
+**Quando usar.** Ao concluir os testes de solução e usabilidade no fim desta Fase 10, imediatamente antes de iniciar a construção do MVP na Fase 11 (Vol. 4). Refaça toda vez que o time quiser adicionar feature ao escopo. A regra é mover algo para "won't have" antes de adicionar novo "must".
 
-**Exemplo de preenchimento.** Proposta de valor, "concilia repasses de marketplace em 5 minutos por mês". Persona foco, "Carla operações de farmácia, 5 a 15 unidades". Must haves, "import de extrato CSV, conciliação com regra de tolerância R$2, relatório por unidade". Won't haves, "integração API direta com adquirentes (fica para v2)". Critério pós-90 dias, "10 clientes pagantes, retenção D30 ≥80%, NPS ≥30".
+**Exemplo de preenchimento (PadariaPro).** Proposta de valor: "envia às 6h pelo WhatsApp a sugestão diária de compra de farinha e insumos críticos e fecha o pedido com o fornecedor em um clique". Persona foco: "Fábio, dono de rede de 2 a 5 padarias em São Paulo". Must Haves (até 10 itens): "importação de vendas do dia anterior via CSV, cálculo automático de reposição de 5 insumos críticos, disparo diário no WhatsApp e tela web simples de confirmação acima de R$ 1.000". Won't Haves: "integração automática com ERP fiscal, app nativo iOS/Android, controle de validade por câmera e múltiplos níveis de alçada (ficam para depois dos 20 primeiros pagantes)". Critério pós-90 dias: "10 redes de padarias pagando R$ 290/mês e mais de 70% dos pedidos semanais confirmados pelo sistema".
 
 ```text
 ESPECIFICAÇÃO DO MVP
@@ -3386,7 +3408,7 @@ R$ _____
 
 #### Template: Roteiro de Teste de Usabilidade
 
-**Para que serve.** Estruturar uma sessao de teste de usabilidade com usuario real, garantindo que voce observa comportamento e nao opiniao.
+**Para que serve.** Estruturar uma sessão de teste de usabilidade com usuário real (incluindo o termo de consentimento de gravação na abertura e perguntas de aprofundamento ao final), garantindo que você observe comportamento concreto em vez de opinião.
 
 **Quando usar.** Quando voce tem prototipo navegavel ou MVP funcional e quer descobrir onde os usuarios travam. Tipicamente 5 a 8 sessoes individuais de 45 a 60 minutos.
 
@@ -3427,13 +3449,13 @@ Em cada tarefa, observar e nao explicar.
 
 A Fase 10 é a última ponte antes da construção. A diferença em relação à [[#FASE 9 — IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES|Fase 9]] é de profundidade e comprometimento: a Fase 9 produziu conceitos testados em protótipo; a Fase 10 converte os aprendizados em especificação vinculante: o que o MVP fará, para quem, com quais limitações, e como medirá sucesso.
 
-MoSCoW separa o MVP do produto sonhado. Van Westendorp antecipa o erro caro de descobrir tarde que o cliente nunca pagaria o preço imaginado. User stories INVEST impedem o gold-plating da primeira versão. Quem trata a Fase 10 como burocracia e pula direto para a construção descobre que estava construindo coisa diferente do que precisava. Retrabalho de MVP custa duas a três vezes mais do que retrabalho de spec.
+MoSCoW separa o MVP do produto sonhado. Van Westendorp antecipa o erro caro de descobrir tarde que o cliente nunca pagaria o preço imaginado. Cinco usuários reais tentando cumprir a tarefa em silêncio, sem a sua ajuda, mostram exatamente onde o fluxo trava antes que você gaste meses programando a coisa errada. Quem trata a Fase 10 como burocracia e pula direto para a construção descobre que estava construindo coisa diferente do que precisava. Retrabalho de MVP custa duas a três vezes mais do que retrabalho de spec.
 
 ---
 
 ### Transição: do Volume 3 (Hipóteses, Experimentos e Prototipagem) para o Volume 4 (Tração e PMF)
 
-O que você acabou de fazer ao longo dos **Volumes 1, 2 e 3 (Fases 0 a 10)**: preparou-se como fundador, gerou ideias com método e construiu a teoria causal do negócio (Vol. 1); descobriu problemas reais em campo e mapeou usuários, mercado e cunha (Vol. 2); formulou hipóteses *bet-the-company*, validou as centrais com experimentos rigorosos, prototipou, testou com usuários reais e chegou a uma especificação de MVP com escopo disciplinado (*MoSCoW*) e *pricing* testado (Vol. 3). Os **9 capítulos** a seguir deste volume entregam o aparelho do método científico, os *gates* de evidência e os playbooks de arquiteturas de modelo de negócio (*Marketplaces*, *Plataformas*, *B2B2C* e *Open Source*).
+O que você acabou de fazer ao longo dos **Volumes 1, 2 e 3 (Fases 0 a 10)**: preparou-se como fundador, gerou ideias com método e construiu a teoria causal do negócio (Vol. 1); descobriu problemas reais em campo e mapeou usuários, mercado e cunha (Vol. 2); formulou hipóteses *bet-the-company*, validou as centrais com experimentos rigorosos, prototipou, testou com usuários reais e chegou a uma especificação de MVP com escopo disciplinado (*MoSCoW*) e *pricing* testado (Vol. 3). Os **10 capítulos** a seguir deste volume entregam o aparelho do método científico, o scorecard de gates de evidência, a lente transversal da Antler (*Idea → Wedge → Scale*), o fechamento disciplinado de fase e os playbooks de arquiteturas de negócio (*Marketplaces*, *Plataformas*, *B2B2C*, *Open Source* e *Bootstrapping* via serviço produtizado), os *gates* de evidência e os playbooks de arquiteturas de modelo de negócio (*Marketplaces*, *Plataformas*, *B2B2C* e *Open Source*).
 
 O próximo passo está no **Volume 4: Tração, Go-to-Market e Product-Market Fit (Fases 11 a 13)**: colocar o MVP em produção com clientes reais na [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 11 — MVP E EXPERIMENTOS DE MERCADO|Fase 11 (Vol. 4)]], validar a equação econômica e os canais na [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 12 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 12 (Vol. 4)]] e comprovar o *Product-Market Fit* na [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 13 — PRODUCT-MARKET FIT|Fase 13 (Vol. 4)]].
 
@@ -3452,7 +3474,7 @@ Por que fundadores inteligentes passam doze meses construindo produtos que ningu
 
 ### O Bisturi e o Machado: Quando Pensar Como Cientista e Quando Agir Como Guerrilheiro
 
-Em Curitiba, Henrique estava desenvolvendo um novo aditivo biotecnológico para fermentação em usinas de etanol, enquanto seu primo Lucas, em São Paulo, criava um assistente de vendas por WhatsApp para corretoras de seguros. Num almoço de domingo, Lucas tentou dar uma aula de *Lean Startup* para Henrique:
+Em um encontro de fundadores em Curitiba, Henrique contava como estava desenvolvendo seu sistema de sensores para dosar antibiótico automaticamente nas dornas de fermentação de usinas de etanol, enquanto o amigo Lucas, ao lado da sócia Marina, mostrava o sistema de conciliação automática de extratos e boletos que construíam em São Paulo. No almoço, Lucas tentou aplicar a régua do software puro ao hardware industrial de Henrique:
 
 – "Henrique, você está demorando demais nesse laboratório! Faz igual a gente: sobe uma landing page em dois dias, solta na usina uma versão meia-boca na semana que vem e vai consertando em produção conforme der erro!"
 
@@ -3460,31 +3482,31 @@ Henrique largou o garfo e olhou bem nos olhos do primo:
 
 – "Lucas, se o seu chatbot der um erro na corretora, o corretor pede desculpas no WhatsApp e manda um áudio. Se o meu aditivo contaminar uma dorna de fermentação de três milhões de litros na usina, eu destruo R$ 12 milhões em safra num único fim de semana, tomo um processo que fecha a minha empresa e nunca mais piso no Mato Grosso."
 
-Aquele almoço expõe um dogma perigoso que contaminou o mercado: tentar aplicar a mesma régua de experimentação para todos os negócios. É o que chamamos de **A Falácia do Martelo Único**.
+Aquele almoço expõe um dogma perigoso que contaminou o mercado: tentar aplicar a mesma régua de experimentação para todos os negócios. É o erro de confundir o **bisturi do cientista** com o **machado do teste rápido**.
 
-A verdade é que existem duas epistemologias complementares na construção de empresas inovadoras: a **Abordagem Científica de Formulação Teórica** (onde você desenha uma arquitetura causal rigorosa e simula cenários antes de tocar na realidade física, porque o custo do erro é catastrófico ou irreversível) e o **Lean Startup Empírico de Guerrilha** (onde a ação rápida no mercado custa trocados, é totalmente reversível e ensina mais em uma tarde do que três meses de teoria). Saber quando empunhar o bisturi do cientista e quando usar o machado do guerrilheiro é o que separa a prudência estratégica da paralisia covarde.
+A verdade é que existem duas epistemologias complementares na construção de empresas inovadoras: a **Abordagem Científica de Formulação Teórica** (onde você desenha uma arquitetura causal rigorosa e explicita uma árvore causal de premissas e fixa critérios numéricos de refutação antes de ir a campo, disciplina indispensável tanto quando o erro físico é irreversível, como nas usinas de Henrique, quanto quando uma startup digital como a de Lucas precisa testar suas apostas vitais sem cair em autoengano) e o **Lean Startup Empírico de Guerrilha** (onde a ação rápida no mercado custa trocados, é totalmente reversível e ensina mais em uma tarde do que três meses de teoria). Saber quando empunhar o bisturi do cientista e quando usar o machado do guerrilheiro é o que separa a prudência estratégica da paralisia covarde.
 
 ---
 
 > [!important] Para o framework Antler em detalhe
-> Este capítulo articula tres frameworks (cientifico, operacional, jornada PSF para PMF). Antler e o quarto framework relevante e merece tratamento proprio em [[#CAPÍTULO 3 — IDEA → WEDGE → SCALE: O FRAMEWORK ANTLER COMO LENTE TRANSVERSAL|Capítulo 3 (Idea → Wedge → Scale: O Framework Antler como Lente Transversal)]]. Aqui ele e mencionado, la e desdobrado.
+> Este capítulo articula três eixos metodológicos (científico, operacional e jornada do PSF ao PMF); a progressão *Idea → Wedge → Scale*, da Antler, é o quarto eixo complementar e recebe tratamento próprio em [[#CAPÍTULO 3 — IDEA → WEDGE → SCALE: O FRAMEWORK ANTLER COMO LENTE TRANSVERSAL|Capítulo 3 (Idea → Wedge → Scale: O Framework Antler como Lente Transversal)]]. Aqui ele e mencionado, la e desdobrado.
 
 > [!abstract] Como ler a Fatia Frameworks e Casos
 > Esta fatia tem tres trilhas independentes,
 >
-> **Trilha de Decisao** (use quando precisa decidir agora). F (frameworks fundacionais) → G (gates) → L (Antler) → B (fechamento de fase) → EJ (decisao como disciplina)
+> **Roteiro rápido de leitura deste volume para decisões imediatas:** Capítulo 1 (Abordagem Científica vs Lean Startup) → Capítulo 2 (Scorecard de Gates H/E) → Capítulo 4 (Fechamento de Fase e *Committed Next Move*) → Capítulo 5 (Cunha e Escala no modelo Antler).
 >
 > **Trilha de Casos e Aprendizado** (use quando quer evitar fracasso). AI (padroes) ↔ BH (casos) → BF (second-time)
 >
 > **Trilha de Catalogos e Capital Humano** (use como referencia de consulta). C (metricas) → D (vieses) → E (leituras) → AK (programas) → AL (rede) → EF (macro)
 
-Esse manual se baseia na abordagem científica ao empreendedorismo, Camuffo et al., 2020, 2024, Felin et al., 2024, Coali et al., 2024, que tem pontos em comum com o Lean Startup, Ries, 2011, Blank, 2013, Maurya, 2016, mas se distingue em aspectos importantes. Entender essas diferenças ajuda você a escolher a ferramenta certa para cada tipo de decisão.
+Este manual se baseia na abordagem científica ao empreendedorismo (Camuffo et al., 2020, 2024; Felin et al., 2024; Coali et al., 2024), que dialoga diretamente com a tradição do Lean Startup (Ries, 2011; Blank, 2013; Maurya, 2016), mas acrescenta formulação teórica explícita e probabilidades prévias. Entender o papel de cada uma ajuda você a usar a ferramenta certa em cada decisão.
 
 ### Fundamentação acadêmica, as duas tradições por trás dos frameworks
 
 Para entender por que esses dois frameworks coexistem (e por que nenhum é "certo" isoladamente), vale saber a linhagem intelectual de cada um. Ott et al. (2017) categoriza as abordagens à tomada de decisão em incerteza em duas famílias.
 
-A primeira família é a das *cognition-based approaches* (abordagens baseadas em cognição). Elas pressupõem que decisores conseguem compreender o mercado e o comportamento do cliente ao raciocinar através de modelos mentais e estruturas cognitivas. A estratégia emerge de uma representação mental clara do problema. Os principais autores são Csaszar (2018), Csaszar e Laureiro-Martínez (2018), Csaszar e Levinthal (2016), Gary e Wood (2011), Walsh (1995), Felin e Zenger (2009, 2017), Ehrig e Schmidt (2022). O insight central é simples: pensar primeiro (teoria, atributos, causas), agir depois. Uma boa representação cognitiva reduz o espaço de busca.
+A primeira família é a das *cognition-based approaches* (abordagens baseadas em cognição). Elas pressupõem que decisores conseguem compreender o mercado e o comportamento do cliente ao raciocinar através de modelos mentais e estruturas cognitivas. A estratégia emerge de uma representação mental clara do problema. Autores como Felin e Zenger (2009, 2017) e Ehrig e Schmidt (2022) mostram que formular primeiro um mapa causal explícito do problema permite descartar caminhos inviáveis antes de gastar recursos no mercado. O insight central é simples: pensar primeiro (teoria, atributos, causas), agir depois. Uma boa representação cognitiva reduz o espaço de busca.
 
 A segunda família é a das *action-based approaches* (abordagens baseadas em ação). Elas pressupõem que a estratégia se forma iterativamente a partir do feedback de um conjunto inicial de ações. O aprendizado emerge da experimentação controlada. Os autores principais são Ries (2011), Blank (2013), Bingham e Davis (2012), Bingham e Eisenhardt (2011). O insight central inverte o anterior: fazer primeiro (MVP, experimentos), aprender depois. O contato com o mercado gera dados que o modelo mental não consegue antecipar.
 
@@ -3496,13 +3518,13 @@ A abordagem científica não é só filosofia. Tem evidência empírica robusta 
 
 Camuffo et al. (2020) fizeram o primeiro RCT, com cento e dezesseis startups italianas. Empreendedores treinados na abordagem científica apresentaram seleção de projetos melhor e performance de receita superior.
 
-Camuffo et al., working paper 2024, com aproximadamente 750 empreendedores em quatro países (a publicação final poderá ajustar números). Os resultados foram consistentes em três dimensões: taxa maior de terminação de projetos (sinal de seleção mais honesta, não de fraqueza), pivôs mais focados (em vez de mudanças aleatórias) e receita realizada superior no período de observação.
+Camuffo et al. (2024), em estudo de replicação em larga escala publicado no *Strategic Management Journal* com mais de 750 empreendedores. Os resultados foram consistentes em três dimensões: taxa maior de terminação de projetos (sinal de seleção mais honesta, não de fraqueza), pivôs mais focados (em vez de mudanças aleatórias) e receita realizada superior no período de observação.
 
 Agarwal et al. (2024) rodaram um RCT na Tanzânia, no setor agrícola, com foco em theory-building. Empreendedores treinados em scientific approach com ênfase em teoria tiveram performance econômica superior e fizeram mudanças mais holísticas no modelo de negócio.
 
 Novelli e Spina (2024) analisaram a moderação por estágio. O benefício da abordagem científica varia conforme o estágio de desenvolvimento do modelo de negócio. Empreendedores com modelo já parcialmente comprometido se beneficiam rapidamente (ajuste fino). Empreendedores ainda muito cedo são "puxados de volta à prancheta" com aumento temporário de incerteza epistêmica, mas com retornos positivos de longo prazo.
 
-Coali et al. (2024), em análise longitudinal, mostraram que empreendedores científicos não descartam projetos melhores. Não há viés de excesso de terminação. Os projetos selecionados são, em média, melhores que os do grupo de controle, com performance superior persistente anos após o treinamento.
+Estudos longitudinais do mesmo grupo de pesquisa (como Coali, Gambardella e Novelli, 2024, ao lado da síntese de ferramentas de Coali, Novelli, Sirigiri e Spina, 2024) mostram que empreendedores treinados no método científico não descartam projetos promissores por excesso de rigor. Não há viés de excesso de terminação. Os projetos selecionados são, em média, melhores que os do grupo de controle, com performance superior persistente anos após o treinamento.
 
 > [!info] Implicações para o leitor
 > Quando esse manual insiste em formulação de teoria antes de teste, em thresholds ex-ante, em due diligence de amostra, não é rigor por rigor. É tradução de achados empíricos que mostram diferenças mensuráveis de performance entre empreendedores que aplicam esses princípios e os que pulam direto para "construir e ver". A abordagem tem custo, tempo de teorização, desconforto de falsificar as próprias teses, mas o retorno é sistemático.
@@ -3520,13 +3542,13 @@ Ambas as abordagens recusam a ideia de plano de negócios extenso como ponto de 
 | **Função da teoria** | Geralmente implícita, teoria emerge dos testes | Explícita e anterior, teoria guia quais testes vale a pena fazer |
 | **Escolha de experimentos** | Iterativa, "construir-medir-aprender" baseado em aprendizado recente | Deliberada, experimentos escolhidos para testar os atributos bet-the-company primeiro |
 | **Papel da probabilidade** | Pouco formalizado | Explícito, empreendedor atribui crenças subjetivas antes de testar |
-| **Threshold de decisão** | Frequentemente formado após olhar os dados | Definido ex-ante e ajustado apenas por due diligence da amostra |
+| **Limiar de decisão e probabilidades** | Pede métricas acionáveis (*contabilidade da inovação*), mas sem exigir árvore causal formal nem probabilidades prévias (*priors*) explícitas | Exige árvore lógica de atributos, probabilidades prévias (*priors*) e corte numérico ex-ante auditado pela qualidade da amostra |
 | **Resposta a resultado negativo** | Pivotar rápido para próxima hipótese | Comparar com a teoria completa, pivô pode ser dentro da teoria, mudança de teoria, ou abandono |
 | **Natureza** | Mais adaptativa e representacional (espelhar o mercado existente) | Mais generativa (criar novas fontes de valor a partir de uma visão teórica) |
 
 ### Quando cada abordagem brilha
 
-O Lean Startup é mais útil quando o problema é relativamente estruturado e há exemplos de negócios similares no mercado. Quando o custo marginal de experimentar é muito baixo (produto cem por cento digital, com usuários abundantes). Quando você tem muitos dados disponíveis sobre comportamento do mercado. Quando a solução é incremental, não radical. E quando a velocidade de iteração é mais importante que a profundidade de uma única decisão. Exemplo típico: app de produtividade em mercado com dezenas de concorrentes, onde a questão é "qual feature específica resolve melhor?".
+O ciclo rápido do Lean Startup brilha quando o problema já é conhecido no mercado, há negócios similares para comparar e o custo de errar não passa de uma tarde: produto cem por cento digital, usuários abundantes, dados de uso imediatos e ajustes incrementais (como testar qual fluxo de ativação converte melhor em um aplicativo de produtividade).
 
 A abordagem científica é mais útil quando o problema é Knightiano, com alta incerteza, poucos precedentes e nenhum mercado comparável. Quando experimentar é caro (produto físico, regulado, B2B enterprise). Quando as decisões são "low-frequency, high-impact" e erros grandes têm consequência grande. Quando a solução é potencialmente radical ou depende de mudança de comportamento. Quando você precisa reduzir o espaço de solução antes de gastar dinheiro em testes. Exemplo típico: hardware médico, novo mercado em país emergente, plataforma B2B com venda consultiva longa, biotecnologia.
 
@@ -3536,7 +3558,7 @@ Na prática, os bons empreendedores usam as duas de forma integrada.
 
 Comece científico nas Fases 0 a 6 desse manual. Gaste tempo na teoria, atributos, hipóteses, thresholds. Isso reduz drasticamente o risco de testar a coisa errada nos meses seguintes.
 
-Vire lean quando a teoria central estiver validada, nas Fases 7 a 10. Uma vez que você sabe que o problema é real, o ICP está certo, e há disposição a pagar, o ciclo construir-medir-aprender se torna muito eficaz. A teoria já filtrou as apostas ruins, agora é hora de iterar rapidamente sobre os detalhes.
+Use o bisturi científico como base até a Fase 8 (construindo a árvore da teoria na Fase 3, isolando apostas de vida ou morte na Fase 7 e rodando experimentos com pré-registro na Fase 8); acelere com ciclos enxutos de prototipagem e construção nas Fases 9 a 11 (sempre com critério prévio de sucesso); e volte ao rigor científico nas decisões irreversíveis de modelo, precificação e alocação de capital da Fase 12 em diante.
 
 Volte ao modo científico em decisões estratégicas grandes na [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 12 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 12 (Vol. 4)]] em diante. Quando precisar decidir sobre novo mercado, expansão internacional, novo produto, rodada de investimento ou mudança significativa de modelo, volte à árvore de teoria. Essas são novamente decisões de baixa frequência e alto impacto.
 
@@ -3557,13 +3579,13 @@ Volte ao modo científico em decisões estratégicas grandes na [[IGNICAO-Vol-4-
 
 O manual articula três frameworks complementares. Empreendedores iniciantes às vezes se confundem sobre qual usar quando. Esse mapa esclarece.
 
-O primeiro é a Abordagem Científica ao Empreendedorismo (Coali, Camuffo, Novelli, Spina e outros). É uma metodologia acadêmica de tomada de decisão baseada em teoria explícita mais hipóteses falsificáveis mais evidência rigorosa mais avaliação objetiva. Aparece na Introdução (com os cinco princípios), na [[IGNICAO-Vol-1-Ideacao#FASE 3 — CONSTRUÇÃO DA TEORIA DO NEGÓCIO|Fase 3 (Vol. 1)]] (teoria), na [[#FASE 7 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 7]] (hipóteses), na [[#FASE 8 — EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA E DA SOLUÇÃO|Fase 8]] (experimentos mais due diligence mais thresholds), e como ossatura metodológica de todas as fases. As ferramentas centrais são Story Tree, DAG, Theory Map, Hypothesis Canvas. Priorize esse framework em decisões de alta incerteza e alto impacto (contextos Knightianos), em estágios iniciais, em deeptech, em B2B enterprise com ciclo longo.
+O primeiro é a Abordagem Científica ao Empreendedorismo (Coali, Camuffo, Novelli, Spina e outros). É uma metodologia de tomada de decisão apoiada em quatro pilares: teoria causal explícita, hipóteses falsificáveis, evidência empírica rigorosa e avaliação objetiva contra limiares prévios. Aparece na Introdução (com os cinco princípios), na [[IGNICAO-Vol-1-Ideacao#FASE 3 — CONSTRUÇÃO DA TEORIA DO NEGÓCIO|Fase 3 (Vol. 1)]] (teoria), na [[#FASE 7 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 7]] (hipóteses), na [[#FASE 8 — EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA E DA SOLUÇÃO|Fase 8]] (experimentos mais due diligence mais thresholds), e como ossatura metodológica de todas as fases. As ferramentas centrais são Story Tree, DAG, Theory Map, Hypothesis Canvas. Priorize esse framework em decisões de alta incerteza e alto impacto (contextos Knightianos), em estágios iniciais, em deeptech, em B2B enterprise com ciclo longo.
 
-O segundo é o Operacional-prático (YC, Antler, João Prado, Blank, Maurya). Reúne heurísticas e frameworks de operadores de campo para diagnosticar qualidade de ideia, estreitar foco, e tomar decisões rápidas. Aparece nos filtros de problema ideal ([[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 4 — DESCOBERTA DO PROBLEMA|Fase 4 (Vol. 2)]]), Pain Levels (Fase 4 (Vol. 2)), Estratégia da Cunha ([[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 6 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 6 (Vol. 2)]]), Sistema H/E ([[#FASE 7 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 7]]), Ciclo MVP em três fases ([[IGNICAO-Vol-4-Tracao-e-PMF#FASE 11 — MVP E EXPERIMENTOS DE MERCADO|Fase 11 (Vol. 4)]]), Framework de Decisão por Gates ([[#CAPÍTULO 2 — MATURIDADE (TRL/CRL), DECISÃO POR GATES E FECHAMENTO DE FASE (COMMITTED NEXT MOVE)|Capítulo 2 (Maturidade (Trl/crl), Decisão por Gates e Fechamento de Fase (Committed Next Move))]]). Ferramentas centrais: Canvas da Cunha, scorecard de dez gates, Mom Test cheat sheet. Priorize esse framework para avaliação rápida de ideia, tomada de decisão sobre captação ou expansão, e diagnóstico de saúde do negócio em qualquer momento.
+O segundo é o eixo Operacional-prático, que reúne heurísticas de campo da Y Combinator, da Antler, de Steve Blank e de Ash Maurya, articuladas ao Sistema H/E deste manual. Reúne heurísticas e frameworks de operadores de campo para diagnosticar qualidade de ideia, estreitar foco, e tomar decisões rápidas. Aparece nos filtros de problema ideal ([[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 4 — DESCOBERTA DO PROBLEMA|Fase 4 (Vol. 2)]]), Pain Levels (Fase 4 (Vol. 2)), Estratégia da Cunha ([[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 6 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 6 (Vol. 2)]]), Sistema H/E ([[#FASE 7 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 7]]), Ciclo MVP em três fases ([[IGNICAO-Vol-4-Tracao-e-PMF#FASE 11 — MVP E EXPERIMENTOS DE MERCADO|Fase 11 (Vol. 4)]]), Framework de Decisão por Gates ([[#CAPÍTULO 2 — MATURIDADE (TRL/CRL), DECISÃO POR GATES E FECHAMENTO DE FASE (COMMITTED NEXT MOVE)|Capítulo 2 (Maturidade (Trl/crl), Decisão por Gates e Fechamento de Fase (Committed Next Move))]]). Ferramentas centrais: Canvas da Cunha, scorecard de dez gates, Mom Test cheat sheet. Priorize esse framework para avaliação rápida de ideia, tomada de decisão sobre captação ou expansão, e diagnóstico de saúde do negócio em qualquer momento.
 
 O terceiro é a Jornada PSF para PMF para Escala (Maurya, Moore, Ries). É o modelo de estágios pelo qual toda startup passa, cada um com clientes-alvo, métricas e focos diferentes. Aparece na distinção PSF versus PMF na [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 13 — PRODUCT-MARKET FIT|Fase 13 (Vol. 4)]], no ciclo de saturação de dezoito meses, na transição entre Fases 10 e 11. Ferramentas centrais: Sean Ellis Test, escolha de canvas por estágio (Opportunity Canvas para Lean Canvas para BMC). Priorize quando precisar saber em que ponto do ciclo você está e qual é o próximo milestone realista.
 
-Como os três se encaixam na prática? No começo (Fases 0 a 1B), o Framework 1 (científico) domina. Você constrói teoria explícita com atributos e causas. O Framework 2 ajuda a filtrar se o problema tem qualidade (seis dimensões YC, cinco heartfelt). O Framework 3 te situa: você está em pré-PSF, começando o ciclo.
+Como os três eixos se combinam ao longo das fases atuais da coleção? Na preparação e na construção da tese (Fases 0 a 3, Vol. 1), o eixo científico governa a montagem da árvore causal, enquanto o operacional filtra a qualidade inicial do problema. Na descoberta em campo (Fases 4 a 6, Vol. 2), as entrevistas do Mom Test, os *Pain Levels* e a Estratégia da Cunha preparam a matéria-prima para as hipóteses e experimentos científicos das Fases 7 e 8 (Vol. 3), seguidos pela prototipagem, testes de solução e MVP nas Fases 9 a 11 e pela confirmação do PMF e escala da Fase 12 em diante.
 
 Na descoberta de problema e mercado (Fases 2 a 4), o Framework 2 domina na execução (Mom Test, Pain Levels, Cunha). O Framework 1 garante rigor metodológico (entrevistas estruturadas, saturação, evidência diferente de opinião). O Framework 3 é referência silenciosa, ainda pré-PSF.
 
@@ -3578,9 +3600,9 @@ Na estruturação e escala (Fases 12 e 13), os três frameworks quase desaparece
 > [!question] Confusões comuns entre as ferramentas
 > "Uso R vezes I ou H sobre E para priorizar hipóteses?" Os dois, para propósitos diferentes. R vezes I (Risco vezes Incerteza) prioriza o que testar primeiro, quais hipóteses podem matar o negócio se falharem. H sobre E (Hypothesis Strength sobre Evidence Strength) informa quando investir capital. Não invista em nada com H abaixo de sete ou E abaixo de seis.
 >
-> "Fase 7 e Fase 10 ambas falam em Landing Page e Concierge. Preciso fazer duas vezes?" Não. Fase 6 usa essas técnicas para validar problema (dor existe? é dolorida? tem disposição a pagar?). Fase 9 usa as mesmas técnicas dentro do ciclo MVP para validar solução (a feature X realmente resolve? em qual versão?). Mesma ferramenta, pergunta diferente.
+> "A Fase 8 e a Fase 11 falam em página de captura e Concierge. Preciso fazer duas vezes?" Não pelo mesmo motivo: a Fase 8 (neste Vol. 3) usa essas técnicas antes do código para testar se a dor e a disposição a pagar existem; a Fase 11 (no Vol. 4) usa o serviço manual dentro do ciclo do MVP para calibrar a entrega e a retenção da solução.
 >
-> "Sean Ellis quarenta por cento aparece em várias fases. É a mesma medida?" Sim, mas aplicada em escopos diferentes. Na Fase 10, você mede em cerca de dez usuários pioneiros para detectar sinal precoce. Na Fase 12, em centenas, para confirmar PMF. Na descrição PSF, pode ser aplicado ao nicho inicial (cerca de vinte evangelists). O threshold de quarenta por cento é o mesmo, a população muda.
+> "Sean Ellis quarenta por cento aparece em várias fases. É a mesma medida?" Sim, mas aplicada em escopos diferentes. Na Fase 11 (Vol. 4), você aplica a pergunta aos primeiros usuários ativos do MVP (assim que reunir algumas dezenas de respostas) como termômetro precoce; na Fase 13 (Vol. 4), mede em centenas de clientes para confirmar o PMF. Na descrição PSF, pode ser aplicado ao nicho inicial (cerca de vinte evangelists). O threshold de quarenta por cento é o mesmo, a população muda.
 >
 > "Pain Level, CRL, PSF/PMF, Moore's Chasm, qual taxonomia devo usar para meus clientes?" Use em conjunto. Pain Level (um a cinco) classifica cada entrevistado individualmente. CRL (um a sete) classifica a maturidade da sua relação com o mercado como um todo (útil em editais). PSF/PMF classifica o estágio da sua startup. Moore classifica em qual onda de adoção você está (early adopters, early majority, late majority).
 >
@@ -3594,7 +3616,7 @@ Tabela de tradução entre taxonomias de cliente e produto:
 | 2 (sabe que tem) | CRL 2 | Descoberta |: |
 | 3 (procurando solução) | CRL 3 | Pré-PSF / Descoberta | Innovator |
 | 4 (improvisou solução feia) | CRL 4 | PSF em validação | Early adopter |
-| 5 (orçamento comprometido) | CRL 5-6 | PSF validado / PMF inicial | Early adopter / Early majority |
+| 5 (orçamento comprometido no entrevistado) | CRL 5-6 (correspondência aproximada no mercado) | PSF validado / rumo ao PMF | Adotante inicial (*early adopter*) |
 |: | CRL 7 | PMF estabelecido | Early majority |
 
 > [!important] Regra final dos três frameworks
@@ -3606,11 +3628,11 @@ Uma confusão recorrente entre empreendedores iniciantes é qual "canvas" usar. 
 
 Há três canvases principais, e a ordem de uso importa.
 
-O **Opportunity Canvas** é a ferramenta das Fases 1 a 4 (pré-PSF inicial). Seu propósito é avaliar se uma oportunidade específica merece investimento de desenvolvimento, antes de escrever a primeira linha de código. O foco é granular: usuários e clientes, problemas, soluções atuais, ideia de solução, o que os usuários vão fazer para obter valor, estratégia de adoção, métricas de usuário, desafios de negócio, budget, impacto de negócio. Use quando você tem uma ideia preliminar e precisa decidir se a oportunidade vale o custo de desenvolvimento. É útil em empresas estabelecidas com muitas ideias competindo por recursos e em startups em pré-seed avaliando pivots. Não use em negócios já em validação avançada. O Opportunity Canvas fica estreito para representar um modelo de negócio completo.
+O **Opportunity Canvas** é usado na avaliação de novas apostas de produto (apresentado na Oficina da Fase 9 justamente para filtrar qual conceito merece protótipo e retomado no pós-PMF a cada nova funcionalidade adjacente), enquanto o **Business Model Canvas (BMC)** entra como rascunho arquitetural na Fase 9 e passa a governar a operação completa da Fase 12 em diante. Seu propósito é avaliar se uma oportunidade específica merece investimento de desenvolvimento, antes de escrever a primeira linha de código. O foco é granular: usuários e clientes, problemas, soluções atuais, ideia de solução, o que os usuários vão fazer para obter valor, estratégia de adoção, métricas de usuário, desafios de negócio, budget, impacto de negócio. Use quando você tem uma ideia preliminar e precisa decidir se a oportunidade vale o custo de desenvolvimento. É útil em empresas estabelecidas com muitas ideias competindo por recursos e em startups em pré-seed avaliando pivots. Não use em negócios já em validação avançada. O Opportunity Canvas fica estreito para representar um modelo de negócio completo.
 
 O **Lean Canvas** é a ferramenta das Fases 5 a 10 (alta incerteza, MVP, validação de modelo). Seu propósito é estruturar hipóteses de negócio sob alta incerteza, com foco em aprender rápido. Substitui o BMC quando o que importa é testar o problema e a solução antes de otimizar o modelo. Os nove blocos são Problema, Solução, Métricas-Chave, Proposta Única de Valor, Vantagem Injusta (esses cinco substituem os blocos do BMC focados em execução), mais Segmentos de Clientes, Canais, Estrutura de Custos e Fontes de Receita. Use em startup em estágio inicial, com alta incerteza sobre problema, cliente ou solução. Iterações rápidas (revise semanalmente ou quinzenalmente). Não use em negócios com modelo já validado, onde o foco é execução e expansão, ou em conversas com parceiros estratégicos corporativos que querem ver o BMC "sério".
 
-O **Business Model Canvas (BMC)** é a ferramenta da [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 12 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 12 (Vol. 4)]] em diante (pós-PSF, estruturação, escala e revisão no ciclo longo). Seu propósito é descrever o modelo de negócio já funcionando de forma compreensível para stakeholders externos. É visão macro, parceiros, canais de escala, estrutura de custos. Os nove blocos são Parceiros-Chave, Atividades-Chave, Recursos-Chave, Proposta de Valor, Relacionamento com Clientes, Canais, Segmentos de Clientes, Estrutura de Custos e Fontes de Receita. Use quando o negócio tem PMF confirmado, está buscando investimento Série A ou superior, está buscando parcerias estratégicas, ou está consolidando operação. Use também na [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16 (Vol. 6)]] (reinvenção) para revisar explicitamente o modelo vigente antes de desenhar a segunda curva, e na [[IGNICAO-Vol-9-Maturidade-e-Exit#FASE 19 — REINVENÇÃO E SEGUNDA CURVA|Fase 19 (Vol. 9)]] (exit) como documento de referência para due diligence e equity story. Não use em estágios iniciais de incerteza. O BMC incentiva otimização prematura porque seus blocos assumem que você já sabe o modelo, quando o ponto de uma startup inicial é descobri-lo. Na Fase 19 (Vol. 9), quando a segunda curva exige testar hipóteses novas sob alta incerteza, volte ao Lean Canvas para a curva nova enquanto mantém o BMC para o negócio principal.
+O **Business Model Canvas (BMC)** é a ferramenta da [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 12 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 12 (Vol. 4)]] em diante (pós-PSF, estruturação, escala e revisão no ciclo longo). Seu propósito é descrever o modelo de negócio já funcionando de forma compreensível para stakeholders externos. É visão macro, parceiros, canais de escala, estrutura de custos. Os nove blocos são Parceiros-Chave, Atividades-Chave, Recursos-Chave, Proposta de Valor, Relacionamento com Clientes, Canais, Segmentos de Clientes, Estrutura de Custos e Fontes de Receita. Use quando o negócio tem PMF confirmado, está buscando investimento Série A ou superior, está buscando parcerias estratégicas, ou está consolidando operação. Use também na Fase 19 (Vol. 9, reinvenção e novos motores de crescimento) e na Fase 20 (Vol. 9, preparação para saída e M&A) para revisar explicitamente o modelo vigente antes de desenhar a segunda curva, e na [[IGNICAO-Vol-9-Maturidade-e-Exit#FASE 19 — REINVENÇÃO E SEGUNDA CURVA|Fase 19 (Vol. 9)]] (exit) como documento de referência para due diligence e equity story. Não use em estágios iniciais de incerteza. O BMC incentiva otimização prematura porque seus blocos assumem que você já sabe o modelo, quando o ponto de uma startup inicial é descobri-lo. Na Fase 19 (Vol. 9), quando a segunda curva exige testar hipóteses novas sob alta incerteza, volte ao Lean Canvas para a curva nova enquanto mantém o BMC para o negócio principal.
 
 > [!warning] O erro típico do iniciante
 > Começar direto pelo BMC porque é o mais famoso. Resultado: nove blocos preenchidos com suposições disfarçadas de fatos, que ninguém testa depois. O caminho correto é subir na escada de canvases conforme a incerteza diminui.
@@ -3619,13 +3641,13 @@ O **Business Model Canvas (BMC)** é a ferramenta da [[IGNICAO-Vol-4-Tracao-e-PM
 |---|---|---|
 | Ideia solta, múltiplas oportunidades competindo | Opportunity Canvas | Decidir qual oportunidade priorizar |
 | Validação de problema e solução em curso | Lean Canvas | Estruturar hipóteses para teste |
-| PSF confirmado, preparando PMF e captação | BMC | Comunicar modelo a stakeholders externos |
+| Modelo em validação e estruturação pós-PSF (Fase 12 em diante, rumo ao PMF na Fase 13) | BMC | Descrever e alinhar a arquitetura completa do negócio com sócios, parceiros e investidores |
 | Reinvenção ([[IGNICAO-Vol-9-Maturidade-e-Exit#FASE 19 — REINVENÇÃO E SEGUNDA CURVA|Fase 19 (Vol. 9)]]), segunda curva em exploração | Lean Canvas (para a curva nova) e BMC (para o core) em paralelo | Curva nova volta a ter incerteza alta, core existente precisa de clareza para stakeholders |
 | Exit ([[IGNICAO-Vol-9-Maturidade-e-Exit#FASE 20 — ESTRATÉGIA DE SAÍDA (EXIT STRATEGY)|Fase 20 (Vol. 9)]]), preparação e execução | BMC como referência canônica | Base para due diligence, tax structuring e equity story |
 
-Cada canvas é a ferramenta certa para o seu momento. Usar o canvas errado não é neutro. É atraso disfarçado de produtividade.
+Cada canvas é a ferramenta certa para o seu momento. Escolher o canvas errado para o estágio da empresa gera apenas um documento bonito na parede que não ajuda a decidir o próximo passo.
 
-Vale notar que canvases não se substituem completamente. Mesmo depois de ter BMC, você revisita Lean Canvas ao entrar em novo segmento de mercado (a incerteza volta a subir). E mesmo depois de Lean Canvas, você revisita Opportunity Canvas ao avaliar se vale expandir para produto adjacente. É uma escada, mas você pode descer degraus conforme a incerteza do problema aumenta.
+Os canvases não se anulam quando a empresa avança de fase. Mesmo depois de ter BMC, você revisita Lean Canvas ao entrar em novo segmento de mercado (a incerteza volta a subir). E mesmo depois de Lean Canvas, você revisita Opportunity Canvas ao avaliar se vale expandir para produto adjacente. É uma escada, mas você pode descer degraus conforme a incerteza do problema aumenta.
 
 ### Sobre o quarto framework: Idea, Wedge, Scale (Antler)
 
@@ -3635,11 +3657,11 @@ O framework Antler tem desdobramento proprio em [[#CAPÍTULO 3 — IDEA → WEDG
 
 ### Como os três frameworks se reconciliam fase a fase
 
-Este capítulo já cobriu a integração entre os frameworks científico (João Prado), operacional (YC e Antler), e descoberta contínua (Teresa Torres). Essa seção sumariza a reconciliação por fase em forma compacta.
+Este capítulo articulou o framework científico (Camuffo, Gambardella, Coali, Spina e colegas), o operacional-prático (Y Combinator, Antler, Blank e Maurya) e a jornada do PSF ao PMF (Maurya, Moore e Ries). A tabela abaixo consolida qual lente lidera em cada etapa da coleção:
 
 | Fase | Framework dominante | Por que |
 |---|---|---|
-| 0 a 2B | Cientifico | Ideacao com hipoteses falsificaveis antes de construir |
+| 0 a 3 (Vol. 1) | Científico + Operacional | Construção da árvore da teoria e filtro inicial de problema antes de ir a campo |
 | 3 a 6 | Lean Startup com Cientifico | Discovery rapido com threshold ex-ante |
 | 7 a 10 | Lean Startup | Build-measure-learn em ciclos curtos |
 | 11 a 13 | Cientifico de novo | Decisoes maiores (rodada, escala) precisam de threshold rigoroso |
@@ -3648,7 +3670,7 @@ Este capítulo já cobriu a integração entre os frameworks científico (João 
 > [!important] Princípio geral
 > Nenhum framework desaparece em nenhuma fase. O que muda é qual está em primeiro plano. Fundador iniciante que usa só um framework em todas as fases está sub-otimizando. Reconhecer em qual modo estar e quando trocar é parte do método.
 
-> [!info] Fases relacionadas
+Síntese comparativa de canais:
 
 
 ---
@@ -3658,21 +3680,21 @@ Este capítulo já cobriu a integração entre os frameworks científico (João 
 **Fechando o ciclo na trincheira:** Quando **Lucas e Marina** aplicaram as travas deste capítulo na rotina entre São Paulo e Florianópolis, a tensão da cena de abertura deixou de ser discussão subjetiva de corredores e virou regra clara de priorização, retenção e proteção de caixa.
 
 **O Espelho (autodiagnóstico):**
-1. A decisão que você está adiando há semanas é realmente uma "porta de mão única" (como segurança clínica, regulação bancária ou planta industrial), ou é apenas medo de ouvir um "não" comercial que não machuca ninguém?
+1. A decisão que você está adiando há semanas é realmente uma "porta de mão única" irreversível (como dosagem química em usina, segurança clínica ou regulação bancária, que exige o bisturi científico com número de refutação escrito antes do teste), ou é apenas medo de ouvir um "não" comercial que não machuca ninguém?
 2. Onde o erro no seu negócio pode destruir a confiança do cliente ou ferir regras regulatórias se você agir como um amador apressado?
 3. Você está combinando teoria clara ("por que acreditamos que isso funciona") com testes rápidos nas pontas comerciais?
 
 **Permissão Libertadora:**
 Se você atua em Saúde, Agro, Indústria, Hardware ou Setor Regulado, você está autorizado a ignorar o conselho irresponsável de "quebrar as coisas em produção". Teste a oferta comercial rápido, mas proteja o núcleo técnico com rigor absoluto.
 
-**O Ritual de Segunda-Feira às 9h:**
+**O Ritual de Segunda-Feira às 9h (rotina semanal de 30 minutos):**
 Pegue as cinco decisões pendentes da semana e marque ao lado de cada uma: **[R]** (Reversível, decida e execute até o meio-dia de hoje) ou **[I]** (Irreversível, exija evidência teórica e teste controlado antes de assinar).
 
 ---
 
 ### LEITURAS E REFERÊNCIAS COMPLEMENTARES
 
-Camuffo, A., Cordova, A., Gambardella, A., e Spina, C. (2020). *A scientific approach to entrepreneurial decision making: Evidence from a randomized control trial*. Management Science. O estudo fundador que mostrou efeito positivo sobre performance. Camuffo, A., Gambardella, A., Messinese, D., Novelli, E., Paolucci, E., e Spina, C. (2024). *A scientific approach to entrepreneurial decision-making: Large-scale replication and extension*. Strategic Management Journal. Replicação em larga escala (mais de setecentos e cinquenta empreendedores) confirmando os achados. Coali, A., Novelli, E., Sirigiri, A., e Spina, C. (2024). *A scientific approach to decision-making: Key tools and design principles*. Journal of Business Venturing Design. O paper-fonte dos conceitos de atributos, teoria do negócio, thresholds e due diligence de amostra usados nesse manual. Felin, T., Gambardella, A., Novelli, E., e Zenger, T. (2024). *A scientific method for startups*. Journal of Management. Diferenças conceituais entre abordagem científica e Lean Startup. Novelli, E., e Spina, C. (2024). *Making business model decisions like scientists: Strategic commitment, uncertainty and economic performance*. Strategic Management Journal. Como o estágio de desenvolvimento do negócio modera o efeito da abordagem científica. Agarwal, R. et al. (2024). *Does a theory-of-value add value? Evidence from a Randomized Control Trial with Tanzanian Entrepreneurs*. Evidência do valor específico do componente de construção de teoria em contexto emergente. Ehrig, T., e Schmidt, J. (2022). *Theory-based learning and experimentation*. Strategic Management Journal. Fundamentação sobre como estratégias são geradas a partir de teorias. Zellweger, T. M., e Zenger, T. R. (2021). *Entrepreneurs as scientists: A pragmatist approach to producing value out of uncertainty*. Academy of Management Review. Perspectiva filosófica sobre empreendedor-cientista.
+- Camuffo, A., Cordova, A., Gambardella, A., & Spina, C. (2020). *A scientific approach to entrepreneurial decision making: Evidence from a randomized control trial*. Management Science (incluindo também nas referências da abordagem cognitiva e científica Csaszar, 2018; Felin & Zenger, 2009, 2017; Ehrig & Schmidt, 2022; e Coali, Gambardella & Novelli, 2024). O estudo fundador que mostrou efeito positivo sobre performance. Camuffo, A., Gambardella, A., Messinese, D., Novelli, E., Paolucci, E., e Spina, C. (2024). *A scientific approach to entrepreneurial decision-making: Large-scale replication and extension*. Strategic Management Journal. Replicação em larga escala (mais de setecentos e cinquenta empreendedores) confirmando os achados. Coali, A., Novelli, E., Sirigiri, A., e Spina, C. (2024). *A scientific approach to decision-making: Key tools and design principles*. Journal of Business Venturing Design. O paper-fonte dos conceitos de atributos, teoria do negócio, thresholds e due diligence de amostra usados nesse manual. Felin, T., Gambardella, A., Novelli, E., e Zenger, T. (2024). *A scientific method for startups*. Journal of Management. Diferenças conceituais entre abordagem científica e Lean Startup. Novelli, E., e Spina, C. (2024). *Making business model decisions like scientists: Strategic commitment, uncertainty and economic performance*. Strategic Management Journal. Como o estágio de desenvolvimento do negócio modera o efeito da abordagem científica. Agarwal, R. et al. (2024). *Does a theory-of-value add value? Evidence from a Randomized Control Trial with Tanzanian Entrepreneurs*. Evidência do valor específico do componente de construção de teoria em contexto emergente. Ehrig, T., e Schmidt, J. (2022). *Theory-based learning and experimentation*. Strategic Management Journal. Fundamentação sobre como estratégias são geradas a partir de teorias. Zellweger, T. M., e Zenger, T. R. (2021). *Entrepreneurs as scientists: A pragmatist approach to producing value out of uncertainty*. Academy of Management Review. Perspectiva filosófica sobre empreendedor-cientista.
 
 ---
 
@@ -3686,7 +3708,7 @@ Bia não abriu o champanhe. Ela projetou a DRE na parede da sala e apontou para 
 
 – "Rafael, olha para a tela. O nosso custo para trazer uma cliente no Instagram é R$ 95. O lucro bruto do primeiro pote de creme é R$ 40. E 88% das mulheres que compraram há dois meses nunca fizeram o segundo pedido porque acharam o cheiro da fórmula enjoativo. Você está passando dezesseis horas por dia polindo a maçaneta da porta de um prédio que está pegando fogo no alicerce!"
 
-Rafael havia caído na armadilha que destrói a produtividade de 90% das equipes de produto e growth: **A Síndrome de Polir o Titanic**. Ele estava gastando munição de **Alavancas de Escala** (*Scale Levers*, otimização de funil, testes A/B de centavos, automações de marketing) quando o **Núcleo do Problema** (*Problem Core*, retenção básica, qualidade da entrega e equação econômica fundamental) ainda estava reprovado.
+Rafael havia caído numa armadilha clássica de equipes de produto e crescimento: **A Síndrome de Polir o Titanic**. Ele estava gastando munição de **Alavancas de Escala** (*Scale Levers*, otimização de funil, testes A/B de centavos, automações de marketing) quando o **Núcleo do Problema** (*Problem Core*, retenção básica, qualidade da entrega e equação econômica fundamental) ainda estava reprovado.
 
 Existe uma hierarquia férrea de portões (*Gates*) que você nunca pode violar:
 1. Primeiro você trava o **Problem Core** (a dor é aguda, a solução retém e a unidade básica para em pé).
@@ -3698,7 +3720,7 @@ Inverter a ordem desses portões não acelera a sua empresa; apenas acelera a ve
 ---
 
 > [!note] Quando aplicar
-> Este capítulo é um sistema de avaliação numérica que você aplica à sua ideia em qualquer fase. É útil ao final da Fase 5, para decidir se prossegue, e ao final da Fase 11, para decidir se levanta capital ou escala. O framework combina o Sistema H/E, ver Fase 6, com gates de decisão em três categorias, derivadas do trabalho de operadores e investidores em estágio inicial.
+> Este capítulo entrega um scorecard numérico para auditar a saúde da sua tese em momentos de passagem crítica: use-o ao final da Fase 8 (depois dos experimentos de validação) para decidir se avança para prototipagem e MVP, e ao final da Fase 13 (após confirmar o PMF no Vol. 4) antes de acelerar captação e escala. O método combina o Sistema H/E da Fase 7 com gates divididos em três blocos.
 
 O princípio é simples. Em qualquer ideia de negócio há perguntas deal-breakers, se uma falha, a ideia morre, e perguntas levers, fatores que, juntos, determinam a velocidade e a amplitude do crescimento. Não dá para compensar nota baixa num deal-breaker com notas altas nos levers. Daí a estrutura em duas fases.
 
@@ -3708,9 +3730,9 @@ Para ideias frontier, radicais, contrarian, criadoras de mercado novo, há uma t
 
 Para cada gate você atribui duas notas, ambas de um a dez. O H (Hypothesis) mede a força do raciocínio teórico a favor da sua posição nesse gate antes de evidência empírica. H igual a dez é teoria robusta, H igual a um é palpite. O E (Evidence) mede a quantidade e a qualidade da evidência empírica que você acumulou. E igual a dez é dados robustos, múltiplos pilotos pagos, benchmarks de setor. E igual a um é nenhum dado.
 
-A pontuação do gate é uma combinação dos dois. Se a avaliação é prospectiva (você está começando, quase sem dado), use H como número principal mas obrigatoriamente registre E. Se a avaliação é retrospectiva (já existem clientes, MVP em operação), use E como número principal. Um gate está em "Proceed" se H for maior ou igual a sete e E maior ou igual a seis. Está em "Iterate" se a combinação cair entre seis e sete. Está em "Pivot ou Kill" abaixo de seis, principalmente no Problem Core.
+Defina a nota efetiva de cada gate como o **menor valor entre H e E** (se você tem teoria nota 9, mas evidência nota 5, o gate vale 5 até que você rode o experimento). Um gate do *Problem Core* está aprovado (*Proceed*) quando atinge H ≥ 7 e E ≥ 6; entra em revisão (*Iterate*) quando o menor valor fica em 5 ou 6; e dispara alerta de pivô ou descarte (*Pivot / Kill*) quando cai abaixo de 5 após testes de campo.
 
-### Fase 2 do framework — Problem Core (deal-breakers)
+### Bloco 1 do framework: Problem Core (filtros eliminatórios)
 
 Os quatro gates a seguir são deal-breakers. Qualquer um com nota H abaixo de sete significa que você ainda não pode seguir adiante e precisa voltar a gerar teoria ou coletar evidência. Antes de considerar qualquer lever, todos os quatro devem estar em H igual ou superior a sete, e idealmente E igual ou superior a seis.
 
@@ -3727,7 +3749,7 @@ Os quatro gates a seguir são deal-breakers. Qualquer um com nota H abaixo de se
 
 ### Fase 3 do framework — Scale Levers (ponderados)
 
-Os seis gates a seguir são ponderados. Nenhum sozinho é deal-breaker, mas juntos determinam a velocidade de crescimento e a capacidade de atrair investimento. Calcule a pontuação total somando o H de cada gate (máximo de sessenta) e compare com os thresholds no fim da seção.
+Os seis gates a seguir são ponderados. Nenhum sozinho é deal-breaker, mas juntos determinam a velocidade de crescimento e a capacidade de atrair investimento. Calcule a pontuação global somando o H dos dez gates principais (os quatro do Bloco 1 mais os seis do Bloco 2, máximo de 100 pontos) e acompanhe a nota E de cada um conforme os cortes da tabela a seguir.
 
 **Gate 5, Must-Have Resonance (Ressonância de Indispensabilidade).** Os usuários ficariam muito decepcionados se o produto sumisse amanhã? Mede-se com Sean Ellis Test, e o threshold é pelo menos quarenta por cento de "muito decepcionado". Sinais fortes: retenção semanal alta, uso espontâneo em horários fora do esperado, reclamações ativas quando há bugs.
 
@@ -3754,9 +3776,9 @@ Para cada gate de um a dez, anote a nota H. Some os dez Hs e use a tabela abaixo
 
 ### Exemplo trabalhado — LexiAI (assistente de IA para advogados de property conveyancing)
 
-Esse exemplo foi adaptado de caso real e ilustra como o framework revela forças e fraquezas.
+Se passarmos a loja D2C de cosméticos de Rafael e Bia pelo Bloco 1 com os dados da abertura (CAC de R$ 95, margem bruta de R$ 40 na primeira compra e 88% sem recompra no segundo mês), o Gate 4 (*Unit Economics*) reprova com E = 3, travando qualquer gasto em *Scale Levers* até consertar a retenção. Veja agora um segundo exemplo completo em B2B jurídico (LexiAI):
 
-No Problem Core: Gate 1 (Problem Intensity) com H igual a nove (advogados gastam semanas caçando documentos, gargalo claro) e E igual a cinco (seis entrevistas estruturadas confirmam dor mas amostra é limitada), decisão é iterar com mais entrevistas. Gate 2 (Economic Buyer) com H igual a oito (sócios gerenciadores aprovam tecnologia que reduz tempo de caso) e E igual a seis (duas firmas disseram que pagariam mas nenhum piloto assinado), decisão é iterar e fechar três a cinco pilotos. Gate 3 (Market Size) com H igual a oito (cinquenta mil firmas vezes dez mil libras de ARPA vezes vinte por cento de penetração igual a cem milhões de libras de ARR) e E igual a sete (modelo bottom-up triangulado com dados da UK Law Society), decisão é prosseguir. Gate 4 (Willingness to Pay) com H igual a nove (ferramenta economiza cinquenta mil libras por ano em tempo faturável, preço de dez mil libras por ano) e E igual a oito (advogados em pilotos aceitaram preço), decisão é prosseguir.
+No Problem Core: Gate 1 (Problem Intensity) com H igual a nove (advogados gastam semanas caçando documentos, gargalo claro) e E igual a cinco (seis entrevistas estruturadas confirmam dor mas amostra é limitada), decisão é iterar com mais entrevistas. Gate 2 (Economic Buyer) com H igual a oito (sócios gerenciadores aprovam tecnologia que reduz tempo de caso) e E igual a seis (duas bancas assinaram piloto pago de 60 dias, mas a amostra ainda pede mais três contratos para consolidar a nota E), decisão é iterar e fechar três a cinco pilotos. Gate 3 (Market Size) com H igual a oito (dez mil escritórios de advocacia imobiliária no país vezes R$ 12 mil de receita anual média vezes 15% de penetração, resultando em R$ 180 milhões de ARR potencial) e E igual a sete (modelo bottom-up triangulado com dados da UK Law Society), decisão é prosseguir. Gate 4 (Willingness to Pay) com H igual a nove (ferramenta economiza cinquenta mil libras por ano em tempo faturável, preço de dez mil libras por ano) e E igual a oito (advogados em pilotos aceitaram preço), decisão é prosseguir.
 
 Nos Scale Levers: Gate 5 (Must-have) com H igual a sete e E igual a quatro (ainda nice-to-have para alguns). Gate 6 (GTM Fit) com H igual a seis e E igual a três (canal não comprovado). Gate 7 (Defensibility) com H igual a seis e E igual a dois (sem moat ainda). Gate 8 (Retention) com H igual a sete e E igual a três (uso recorrente não comprovado). Gate 9 (Timing) com H igual a oito e E igual a seis (pressão regulatória em direção à automação). Gate 10 (Capital Intensity) com H igual a oito e E igual a sete (modelo tipo SaaS, boas margens).
 
@@ -3768,9 +3790,9 @@ Esse é exatamente o tipo de clareza que fundadores e investidores precisam. O f
 
 Algumas ideias não passam pelo Problem Core tradicional, mas ainda assim podem ser apostas que definem a década. Para essas há uma avaliação alternativa, aplicada apenas quando a ideia é frontier (radical, contrarian, criadora de mercado novo).
 
-OpenAI em 2015 é o exemplo canônico. Problem Core falharia (não havia comprador claro, TAM mensurável ou ROI conhecido). Mas em Exploratory Gates tinha notas iguais ou superiores a nove em Tese Contrarian, Timing e Moat. Isso justificou mantê-la como aposta de longo prazo.
+OpenAI em 2015 é o exemplo canônico. Problem Core falharia (não havia comprador claro, TAM mensurável ou ROI conhecido). Se avaliássemos uma aposta de fronteira como a OpenAI de 2015 apenas com o que se sabia na época, os Exploratory Gates pontuariam alto em Tese Contrarian, Timing e Fosso Acumulado (lembrando que nota exploratória alta justifica financiar pesquisa de longo prazo, mas não garante sobrevivência, já que dezenas de laboratórios com notas parecidas fecharam pelo caminho).
 
-Os cinco Exploratory Gates são os seguintes. **Gate E1, Market Creation Potential**: a ideia pode criar um mercado novo, e não apenas disputar fatia de mercado existente? Airbnb criou o mercado de acomodação peer-to-peer. **Gate E2, Contrarian Thesis**: existe uma crença do mercado que sua tese questiona? "Modelos transformer escalam com compute" era contrarian em 2015. **Gate E3, Timing Inflection**: há um ponto de inflexão tecnológico ou comportamental que torna a ideia viável agora, quando era inviável cinco anos atrás? Custo de GPUs mais avanços em deep learning. **Gate E4, Compounding Moats**: os moats que a ideia pode construir compõem ao longo do tempo (dados, talento, compute, rede)? OpenAI acumulou talento mais compute mais dados de uso, reforçando a posição a cada ano. **Gate E5, Option Value**: mesmo se a tese principal falhar, a empresa terá construído capacidades valiosas (tecnologia, marca, equipe) que abrem outras opções?
+Os cinco Exploratory Gates são os seguintes. **Gate E1, Market Creation Potential**: a ideia pode criar um mercado novo, e não apenas disputar fatia de mercado existente? Airbnb criou o mercado de acomodação peer-to-peer. **Gate E2, Contrarian Thesis**: existe uma crença do mercado que sua tese questiona? "Redes neurais profundas continuarão ganhando capacidade previsível conforme escalarmos dados e poder de computação" era uma tese contrarian em 2015 (reforçada a partir de 2017 com a arquitetura Transformer). **Gate E3, Timing Inflection**: há um ponto de inflexão tecnológico ou comportamental que torna a ideia viável agora, quando era inviável cinco anos atrás? Custo de GPUs mais avanços em deep learning. **Gate E4, Compounding Moats**: os moats que a ideia pode construir compõem ao longo do tempo (dados, talento, compute, rede)? A OpenAI combinou densidade de talento, capacidade de computação e dados de uso, fazendo cada vantagem reforçar as demais ano após ano. **Gate E5, Option Value**: mesmo se a tese principal falhar, a empresa terá construído capacidades valiosas (tecnologia, marca, equipe) que abrem outras opções?
 
 > [!warning] Quando usar e quando não usar Exploratory
 > Uma ou duas notas iguais ou superiores a nove em Exploratory Gates podem justificar manter viva uma ideia que falha Problem Core, como option play (aposta de opção). Mas isso só faz sentido quando você (ou o investidor) tem apetite real para perda total, o horizonte é de sete a dez anos ou mais, e há capacidade técnico-científica diferenciada para executar a tese. Para noventa e cinco por cento das ideias, ignore esse framework e use os dois primeiros (Problem Core e Scale Levers). Exploratory é para deep tech e ideias contrarian. Usá-lo como desculpa para ignorar fundamentos é auto-sabotagem.
@@ -3836,7 +3858,7 @@ ___________________________________________________________
 > [!tip] Ritmo de aplicação
 > Aplique o scorecard ao final da Fase 5, depois ao final da Fase 11, e periodicamente daí em diante (trimestralmente nos primeiros dois anos, semestralmente depois). As variações ao longo do tempo contam uma história: em que gates você está melhorando? em quais está estagnando? Isso direciona onde investir energia.
 
-> [!info] Fases relacionadas
+Síntese comparativa de canais:
 
 ---
 
@@ -3860,7 +3882,7 @@ TRL é uma escala de maturidade tecnológica de um a nove. Criada pela NASA nos 
 
 Se a sua ideia é TRL 1 a 3, você ainda está em pesquisa, e desenvolvimento. Capital de risco tradicional não investe nesse estágio. A fonte típica é fomento público (FINEP, CNPq, Embrapii, e FAP estaduais), grants universitários, ou "friends and family".
 
-Se é TRL 4 a 6, você está na zona de "vale da morte". A tecnologia existe. Mas falta integração, e mercado. Capital típico. Pré-seed, corporate venture, e aceleradoras técnicas.
+Se é TRL 4 a 6, você está na zona de "vale da morte". A tecnologia existe. mas ainda faltam integração em ambiente real e validação comercial. Capital típico nesta faixa: pré-seed, subvenção econômica (como FAPESP PIPE e Finep) e programas de inovação aberta corporativa.
 
 Se é TRL 7 a 9, você é comercializável. Capital de VC tradicional faz sentido.
 
@@ -3879,7 +3901,7 @@ CRL complementa TRL medindo a maturidade da relação com o mercado, e clientes.
 | CRL 2 | Problema validado com entrevistas ou pesquisa (equivalente a final da [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 4 — DESCOBERTA DO PROBLEMA|Fase 4 (Vol. 2)]] deste manual). |
 | CRL 3 | Solução apresentada e interesse confirmado por potenciais clientes (equivalente a final da [[#FASE 7 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 7]]/8). |
 | CRL 4 | Proposta de valor validada, MVP testado com usuários reais (equivalente a [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 11 — MVP E EXPERIMENTOS DE MERCADO|Fase 11 (Vol. 4)]] em curso). |
-| CRL 5 | Piloto em andamento com cliente real (equivalente a final da [[#FASE 10 — TESTES DE SOLUÇÃO E USABILIDADE|Fase 10]]/10). |
+| CRL 5 | Piloto pago em andamento com cliente real (equivalente à Fase 11, MVP em operação no Vol. 4; já o encerramento da Fase 10 corresponde ao CRL 4). |
 | CRL 6 | Primeiro contrato ou receita gerada. |
 | CRL 7 | Solução adotada por múltiplos clientes (equivalente a PMF na [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 13 — PRODUCT-MARKET FIT|Fase 13 (Vol. 4)]]). |
 
@@ -3901,10 +3923,10 @@ Tecnologia madura sem mercado (TRL 9, e CRL 1) é tão ruim quanto mercado ávid
 
 A maioria dos editais brasileiros de fomento, e programas corporativos, pede que você se autoavalie em TRL, e CRL. A tendência do iniciante é inflacionar as notas. Não faça isso. Os avaliadores são técnicos experientes, e identificam autoenganos rapidamente.
 
-A avaliação honesta. Conta a seu favor em editais que buscam estágios específicos (TRL 4 a 6 é ouro para muitos programas de escalonamento). Evita você ser excluído em etapa posterior por desalinhamento. Mostra maturidade empreendedora. Autoconsciência é valorizada.
+A avaliação honesta conta a seu favor em editais que buscam estágios específicos (TRL 4 a 6 é o foco clássico de subvenção para protótipo e piloto industrial), evita que o projeto seja desclassificado na diligência técnica por desalinhamento e demonstra maturidade da equipe.
 
 > [!tip] Se você não sabe onde está
-> Prefira subestimar TRL, ou CRL, na primeira submissão. Você pode argumentar na entrevista que acabou de validar o salto para o próximo nível.
+> Confira sempre a faixa mínima e máxima de TRL/CRL exigida no edital antes de submeter. Na dúvida entre dois níveis que estejam dentro da faixa elegível, declare o nível mais conservador já comprovado por laudo ou piloto e apresente no plano de trabalho as evidências que serão geradas para alcançar o nível seguinte.
 
 ---
 
@@ -3916,7 +3938,7 @@ Antes de encerrar qualquer fase, e abrir a próxima, valide que você tem as qua
 > A ausência de qualquer uma das quatro é sinal de que você está ainda em exploração. Não em compromisso.
 
 - [ ] **Uma cunha definida.** O comprador, o workflow, e o resultado exatos, que você está mirando *primeiro*. Se essa descrição muda dependendo do interlocutor, a cunha ainda não fechou (veja o Wedge Stress Test da [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 6 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 6 (Vol. 2)]]).
-- [ ] **Uma hipótese testável.** Uma afirmação única, falsificável, sobre o que precisa ser verdade para a fase avançar. Escrita antes do teste, com threshold ex-ante (veja [[#CAPÍTULO 1 — ABORDAGEM CIENTÍFICA vs LEAN STARTUP: QUANDO USAR CADA UMA|Capítulo 1 (Abordagem Científica vs Lean Startup: Quando Usar Cada Uma)]] sobre abordagem científica). Para os thresholds quantitativos de saude por fase que sustentam a decisao de COMMITTED NEXT MOVE, ver [[IGNICAO-Vol-5-Financas-e-Captacao#MÉTRICAS E BENCHMARKS DESTA FASE (FASE 14)|Catálogo de Métricas e Benchmarks (Vol. 5)]].
+- [ ] **Uma hipótese testável.** Uma afirmação única, falsificável, sobre o que precisa ser verdade para a fase avançar. Escrita antes do teste, com threshold ex-ante (veja [[#CAPÍTULO 1 — ABORDAGEM CIENTÍFICA vs LEAN STARTUP: QUANDO USAR CADA UMA|Capítulo 1 (Abordagem Científica vs Lean Startup: Quando Usar Cada Uma)]] sobre abordagem científica). Para os critérios quantitativos de saúde por fase que sustentam a decisão de *Committed Next Move* (consultando sempre o checklist de saída da respectiva fase neste volume e, para a etapa de escala), ver [[IGNICAO-Vol-5-Financas-e-Captacao#MÉTRICAS E BENCHMARKS DESTA FASE (FASE 14)|Catálogo de Métricas e Benchmarks (Vol. 5)]].
 - [ ] **Um caminho de validação concreto.** A técnica específica que você vai usar para gerar o sinal. Não "várias técnicas possíveis" (veja a [[#Template: Tabela de técnicas de validação por tipo de hipótese|Tabela de técnicas de validação por tipo de hipótese]] na Fase 8 deste volume para escolher entre entrevista, questionário, pré-venda, MVP, etc.).
 - [ ] **Uma janela curta de execução.** Data de início, e data de fim. Duas a três semanas é o padrão para experimentos em early stage (estágio inicial). Mais que isso geralmente é procrastinação disfarçada de rigor. Janelas curtas forçam decisão. Janelas longas adiam o momento da verdade.
 
@@ -3927,7 +3949,7 @@ Antes de encerrar qualquer fase, e abrir a próxima, valide que você tem as qua
 
 ### Os Quatro Formatos de Sinais Observáveis de Progresso
 
-Um próximo passo bom produz evidência. Não apenas atividade. Pergunte, antes de começar. *Se o experimento funcionar, o que eu vou observar?*. Os quatro formatos de sinal abaixo, qualquer um deles, contam como evidência real. Se nenhum se materializa na janela de execução, o experimento não gerou aprendizado útil. Independentemente de quantas horas você gastou nele.
+Um próximo passo bom produz evidência. Não apenas atividade. Pergunte, antes de começar. *Se o experimento funcionar, o que eu vou observar?*. Os quatro formatos de sinal abaixo, qualquer um deles, contam como evidência real. Se nenhum dos quatro sinais se materializa dentro da janela pré-registrada, o experimento cumpriu seu papel ao **refutar a hipótese**: registre o aprendizado negativo, aplique o veredito de pivô ou ajuste combinado antes do teste e não estique o prazo para tentar salvar a premissa. Independentemente de quantas horas você gastou nele.
 
 **Sinal de produto.** O mesmo usuário volta, e repete o workflow, sem você ter que convidar, lembrar, ou empurrar. Uso espontâneo repetido é o sinal mais forte em early stage. Curiosidade one-off não conta.
 
@@ -3935,7 +3957,7 @@ Um próximo passo bom produz evidência. Não apenas atividade. Pergunte, antes 
 
 **Sinal econômico.** O cliente abre a conversa sobre orçamento. Pede proposta. Pergunta preço sem você puxar. Ou aloca tempo interno para avaliar compra. Interesse que se traduz em movimentação de recursos é diferente de interesse educado.
 
-**Compromisso comportamental do comprador.** O comprador formal (não apenas usuário, ou champion) aceita fazer um piloto com critérios. Assinar carta de intenção. Disponibilizar um canal interno para o projeto. Ou permitir acesso à equipe. Qualquer um desses é ponte para contrato real.
+**Compromisso comportamental do comprador.** O comprador formal (não apenas usuário, ou champion) aceita iniciar um piloto pago com critérios claros de sucesso, assina carta de intenção com prazo e valor, abre um canal interno de trabalho ou libera acesso técnico à equipe. Qualquer um desses é ponte para contrato real.
 
 > [!important] Regra combinada
 > Para o Committed Next Move ser considerado bem-desenhado, ele precisa nominalmente especificar qual dos quatro sinais você espera ver. E qual volume desse sinal você considera suficiente para declarar sucesso. Sem essa especificação ex-ante, você vai terminar a janela olhando os dados em busca de confirmação. E isso é viés. Não aprendizado.
@@ -3954,8 +3976,8 @@ Um próximo passo bom produz evidência. Não apenas atividade. Pergunte, antes 
 **Permissão Libertadora:**
 Você está autorizado a congelar todas as discussões sobre "escala, automação em massa e expansão internacional" até que seus primeiros vinte clientes usem, amem e renovem o seu produto básico.
 
-**O Ritual de Segunda-Feira às 9h:**
-Liste no quadro branco tudo o que o time vai fazer nesta semana. Pinte de vermelho tudo o que for *Scale Lever* prematuro se o seu *Problem Core* ainda não estiver aprovado, e cancele essas tarefas imediatamente.
+**O Ritual de Segunda-Feira às 9h (rotina semanal de 30 minutos):**
+Toda segunda-feira às 9h, pontue no quadro branco as notas H e E dos quatro gates do **Bloco 1 (Problem Core)**: o gate com a menor nota E vira a prioridade da semana, e qualquer tarefa de otimização de funil (*Scale Lever*) que não ajude a subir essa nota sai imediatamente da fila.
 
 
 ---
@@ -3980,22 +4002,22 @@ Duas semanas depois, Henrique voltou à cooperativa com uma proposta irresistív
 
 – "Esqueça o sistema completo. Eu tenho um módulo de R$ 1.900/mês que lê a placa do caminhão por câmera, emite o romaneio em dez segundos no WhatsApp do motorista e entrega o arquivo pronto para o seu SAP sem tocar em nada da sua TI."
 
-O gerente do pátio aprovou a compra no cartão corporativo na mesma tarde. Em seis meses, o pequeno módulo de balança já estava em doze unidades da cooperativa e Henrique começou a substituir, peça por peça, os módulos ao redor.
+O gerente de logística aprovou um piloto pago de 60 dias numa única unidade da cooperativa, dentro da própria alçada de despesas operacionais, enquanto a TI só precisou exportar uma planilha diária em CSV. Em seis meses, com a perda de pesagem documentada e reduzida, o módulo da balança entrou em doze unidades e abriu caminho para o contrato corporativo completo.
 
-Essa é **A Estratégia do Cavalo de Troia** (*Idea → Wedge → Scale*). Fundadores ingênuos anunciam na porta do castelo que vieram derrubar o rei; fundadores brilhantes entram pela porta de serviço resolvendo uma dor aguda, isolada e de implantação imediata que o incumbente acha pequena demais para defender. Quando o gigante percebe, você já é dono do fluxo de dados diário do cliente.
+Essa é a **Estratégia da Entrada pela Balança** (*Idea → Wedge → Scale*): em vez de pedir de saída um contrato milionário que trava no comitê de TI, você entra resolvendo uma dor aguda, isolada e de implantação imediata. Fundadores ingênuos anunciam na porta do castelo que vieram derrubar o rei; fundadores brilhantes entram pela porta de serviço resolvendo uma dor aguda, isolada e de implantação imediata que o incumbente acha pequena demais para defender. Quando o gigante percebe, você já é dono do fluxo de dados diário do cliente.
 
 ---
 
 > [!important] Relacao com F
-> L desdobra o framework Antler como lente transversal. Para o mapa dos quatro frameworks fundacionais do livro (cientifico, operacional, jornada PSF-PMF, Antler), ver [[#CAPÍTULO 1 — ABORDAGEM CIENTÍFICA vs LEAN STARTUP: QUANDO USAR CADA UMA|Capítulo 1 (Abordagem Científica vs Lean Startup: Quando Usar Cada Uma)]].
+> Este capítulo aprofunda o framework da Antler (*Idea → Wedge → Scale*) como lente transversal. Para o mapa dos quatro frameworks fundacionais do livro (cientifico, operacional, jornada PSF-PMF, Antler), ver [[#CAPÍTULO 1 — ABORDAGEM CIENTÍFICA vs LEAN STARTUP: QUANDO USAR CADA UMA|Capítulo 1 (Abordagem Científica vs Lean Startup: Quando Usar Cada Uma)]].
 
 ### Por que este capítulo existe
 
-No [[#CAPÍTULO 1 — ABORDAGEM CIENTÍFICA vs LEAN STARTUP: QUANDO USAR CADA UMA|Capítulo 1 (Abordagem Científica vs Lean Startup: Quando Usar Cada Uma)]], o "Antler" aparece citado dentro do Framework 2, Operacional-prático, junto com YC, João Prado, Blank e Maurya. Em sentido estrito, está correto. O Antler é uma voz do conjunto de operadores de campo, e o vocabulário dele, cunha, Pain Level, Mom Test, *heartfelt problems*, é compartilhado com outros. Mas há um corpo específico de pensamento, a síntese "Idea para Wedge para Scale", que merece tratamento destacado por três razões.
+No [[#CAPÍTULO 1 — ABORDAGEM CIENTÍFICA vs LEAN STARTUP: QUANDO USAR CADA UMA|Capítulo 1 (Abordagem Científica vs Lean Startup: Quando Usar Cada Uma)]], a Antler aparece citada dentro do eixo Operacional-prático ao lado da Y Combinator, de Steve Blank, de Ash Maurya e das ferramentas deste manual. Em sentido estrito, está correto. O Antler é uma voz do conjunto de operadores de campo, e o vocabulário dele, cunha, Pain Level, Mom Test, *heartfelt problems*, é compartilhado com outros. Mas há um corpo específico de pensamento, a síntese "Idea para Wedge para Scale", que merece tratamento destacado por três razões.
 
 A primeira. É framework integrado com três estágios sequenciais, não coleção de heurísticas. Funciona como mapa de progressão do negócio, de forma análoga ao Framework 3, PSF para PMF para Escala. Os dois frameworks se complementam ao ponto de quase se fundirem.
 
-A segunda. Foi integrado em profundidade a esse manual. Dezenas de elementos Antler estão distribuídos hoje nas Fases 3, 4, 6, 8, 13C e 14. Sem um mapa consolidado, a dívida conceitual com o framework fica invisível. E o leitor perde a capacidade de usar Antler como lente transversal quando trabalha em várias fases ao mesmo tempo.
+A segunda razão é prática: como as ferramentas associadas a essa escola (filtros de dor nas Fases 4 e 5, Estratégia da Cunha na Fase 6, experimentos comprometidos na Fase 8, recorte de MVP na Fase 10 e expansão disciplinada nas Fases 14, 15 e 19) aparecem distribuídas ao longo dos volumes, consolidar o mapa em um só lugar permite que você use a lente *Idea → Wedge → Scale* para diagnosticar gargalos em qualquer estágio.
 
 A terceira. O Antler tem vocabulário próprio e preciso, wedge, scope instability, platform versus wedge, expansion discipline, que merece registro consolidado para consulta rápida.
 
@@ -4003,19 +4025,19 @@ Este capítulo complementa o [[#CAPÍTULO 1 — ABORDAGEM CIENTÍFICA vs LEAN ST
 
 ### Os três estágios
 
-O framework Antler propõe uma progressão sequencial, que vai da concepção da ideia à capacidade de escalar, em três estágios fundamentais.
+Na síntese operacional que adotamos neste manual a partir dos programas globais de residência da Antler, a construção da startup segue uma progressão sequencial em três estágios: da concepção da tese (*Idea*) à cunha inicial de entrada (*Wedge*) e, só depois do domínio do nicho, à expansão em escala (*Scale*).
 
 **1. Idea (Ideia).** O estágio em que o empreendedor ainda está identificando o problema, o ICP, e a proposição de valor. Perguntas dominantes. A dor é priorizada? O comprador é claro? O escopo é estável? Os riscos típicos nesse estágio são quatro sintomas clássicos listados no Antler. Escopo largo demais. Problema não prioritário. Comprador mal definido. Construção antes da validação. Esse estágio mapeia essencialmente nas Fases 1 a 3 do manual.
 
 **2. Wedge (Cunha).** O estágio em que a ideia genérica se transforma em um ponto de entrada cirúrgico. Um papel claro. Um workflow doloroso, e recorrente. Um resultado mensurável. E um comprador econômico específico.
 
 > [!important] O estágio mais crítico do framework
-> A passagem da Ideia para a Cunha é onde a maior parte dos fundadores falha. Porque exige renunciar a alternativas imaginadas, em troca de precisão. Mapeia essencialmente na Fase 4 (onde a Estratégia da Cunha é o entregável central).
+> A passagem da Ideia para a Cunha é onde a maior parte dos fundadores falha. Porque exige renunciar a alternativas imaginadas, em troca de precisão. Corresponde diretamente à Fase 6 (Mapeamento de Mercado e Concorrência, no Vol. 2), na qual a Estratégia da Cunha é o entregável central.
 
 **3. Scale (Escala).** O estágio em que a cunha dominada gera autorização para expandir. Em ordem, e com disciplina. Expansão respeita eixos (intra-conta antes de extra-conta), e a regra de variável isolada.
 
 > [!warning] A passagem prematura à escala
-> Sem a cunha realmente dominada, é o erro que o framework trata com mais rigor. "Plataforma é resultado de cunha dominada, não ponto de partida". Mapeia essencialmente na Fase 14 (Crescimento e Capital), com ecos na Fase 15 para diagnóstico de saturação.
+> Tentar escalar sem ter a cunha inicial dominada é o erro que essa progressão combate com mais rigor. "Plataforma é resultado de cunha dominada, não ponto de partida". Mapeia essencialmente na Fase 14 (Crescimento e Capital), com ecos na Fase 15 para diagnóstico de saturação.
 
 A pedra angular do framework é que a progressão é unidirecional, e cumulativa. Você não pula da Ideia direto para a Escala. E não volta da Escala para a Ideia, sem ter estragado alguma coisa pelo caminho. Cada estágio autoriza o próximo. Nenhum estágio substitui o anterior.
 
@@ -4036,8 +4058,8 @@ A tabela abaixo mapeia os principais elementos operacionais do framework, e onde
 | Concorrência como comportamento atual (não como outra startup) | Wedge | [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 6 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 6 (Vol. 2)]], Passo 3 do COMO |
 | Janela de 2 a 3 semanas por experimento | Idea→Wedge | [[#FASE 8 — EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA E DA SOLUÇÃO|Fase 8]], Passo 1 do COMO |
 | Gate de direcionalidade ("reduz ou elimina a dor") | Wedge→Scale | [[#FASE 10 — TESTES DE SOLUÇÃO E USABILIDADE|Fase 10]], Definição de Sucesso |
-| Três caminhos de expansão intra-conta (workflow adjacente, papel adjacente, ownership de sistema) | Scale | [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16 (Vol. 6)]] (Crescimento e Capital), Passo 5 |
-| Regra "mude uma variável por vez" | Scale | [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16 (Vol. 6)]] (Crescimento e Capital), Passo 5 |
+| Três caminhos de expansão intra-conta (workflow adjacente, papel adjacente, ownership de sistema) | Scale | Fase 15 (Vol. 6, Vendas, Receita Previsível e Expansão Comercial), nos caminhos de expansão intra-conta |
+| Regra "mude uma variável por vez" | Scale | Fase 15 (Vol. 6, Vendas, Receita Previsível e Expansão Comercial), nos caminhos de expansão intra-conta |
 | Gate pré-reinvenção ("esgotou os seis caminhos?") | Scale | [[IGNICAO-Vol-9-Maturidade-e-Exit#FASE 19 — REINVENÇÃO E SEGUNDA CURVA|Fase 19 (Vol. 9)]], abertura do COMO |
 | Epígrafe "startup é um experimento para provar uma hipótese não óbvia" | Transversal | Abertura dos Princípios Fundamentais |
 
@@ -4049,7 +4071,7 @@ O quarto framework não substitui os três anteriores. Ele se inscreve neles. Tr
 
 **Com o Framework 2 (Operacional).** Há sobreposição real. Mom Test, Pain Levels, e filtros de problema ideal, são compartilhados entre operadores (YC, Antler, e João Prado). A contribuição específica do Antler, dentro do Framework 2, é a ênfase em disciplina de sequência. Não apenas "foque", mas "foque *nesse* ponto *nessa* ordem". O rigor sequencial é maior no Antler do que no YC original.
 
-**Com o Framework 3 (Jornada PSF para PMF para Escala).** Os dois frameworks são quase isomórficos em seus primeiros movimentos. Mas com ênfases diferentes. PSF é atingido quando a Cunha está comprovada (o produto entrega o *job* principal para o ICP definido). PMF é atingido quando a expansão intra-conta começa a gerar retenção positiva (NRR maior que cem por cento). A Escala do Antler corresponde ao pós-PMF do Framework 3. Quando usados juntos, o Antler traz o *como* (três caminhos intra, mais três extra, mais disciplina de variável isolada). E o Framework 3 traz o *quando* (métricas de transição entre estágios).
+**Com o Framework 3 (Jornada PSF para PMF para Escala).** Os dois frameworks são quase isomórficos em seus primeiros movimentos. Mas com ênfases diferentes. PSF é atingido quando a Cunha está comprovada (o produto entrega o *job* principal para o ICP definido). O PMF é atingido quando o produto se torna indispensável na cunha inicial (superando o corte de 40% no teste de Sean Ellis e estabilizando a retenção na Fase 13), momento a partir do qual a expansão intra-conta passa a impulsionar uma retenção líquida de receita (NRR) acima de 100%. A Escala do Antler corresponde ao pós-PMF do Framework 3. Quando usados juntos, o Antler traz o *como* (três caminhos intra, mais três extra, mais disciplina de variável isolada). E o Framework 3 traz o *quando* (métricas de transição entre estágios).
 
 > [!tip] Regra prática
 > Quando em dúvida sobre qual framework invocar, pergunte o tipo de dúvida que está sendo feita.
@@ -4080,7 +4102,7 @@ Os conceitos abaixo aparecem em várias fases, e merecem definição consolidada
 
 **Directionality (Direcionalidade).** Propriedade da solução. Deve reduzir, ou eliminar, a dor (não apenas "ajudar com"). De forma direta (cadeia causal curta), e mensurável (cliente consegue quantificar o efeito). Gate obrigatório antes da construção do MVP.
 
-**Idea → Wedge → Scale.** Progressão sequencial obrigatória. Saltar estágios produz, ou produto sem cliente (Idea para Scale), ou cliente sem produto escalável (Idea para Wedge ignorado). A passagem Ideia para Cunha é a mais difícil. A passagem Cunha para Escala é a mais frequentemente violada.
+**Idea → Wedge → Scale.** Progressão sequencial obrigatória. Pular etapas gera um produto sem clientes (ir da Ideia direto à Escala) ou projetos sob medida que nunca ganham repetibilidade (ficar preso entre a Ideia e uma Cunha que não se padroniza). A passagem Ideia para Cunha é a mais difícil. A passagem Cunha para Escala é a mais frequentemente violada.
 
 ### Regra final
 
@@ -4089,7 +4111,7 @@ O framework Antler é especialmente útil, quando o empreendedor reconhece um ou
 > [!important] Antler é o mais prescritivo dos quatro frameworks
 > Dos quatro frameworks articulados nesse manual, o Antler é o mais prescritivo. Ele diz o que fazer, em que ordem. Isso é força, e limite. É força quando o empreendedor está paralisado por excesso de opções, e precisa de disciplina de sequência. É limite quando o contexto exige reconfiguração não sequencial. Por exemplo, em deeptech onde a tecnologia precisa amadurecer, antes da cunha ser definível. Ou em *platform plays* genuínos, onde amplitude inicial é intencional. Como qualquer framework, é ferramenta, não religião. Use onde ajuda. Adapte onde atrapalha.
 
-> [!info] Fases relacionadas
+Síntese comparativa de canais:
 
 ---
 
@@ -4105,7 +4127,7 @@ O framework Antler é especialmente útil, quando o empreendedor reconhece um ou
 **Permissão Libertadora:**
 Você está autorizado a esconder 80% da sua visão de longo prazo durante a primeira reunião comercial. Venda a aspirina que corta a enxaqueca hoje; apresente o plano de saúde completo depois que a dor passar.
 
-**O Ritual de Segunda-Feira às 9h:**
+**O Ritual de Segunda-Feira às 9h (rotina semanal de 30 minutos):**
 Identifique a parte mais rápida e indolor do seu produto e empacote-a como uma "Oferta de Entrada em 48 Horas" que custe abaixo do limite de aprovação de diretoria do seu cliente.
 
 
@@ -4115,7 +4137,7 @@ Identifique a parte mais rápida e indolor do seu produto e empacote-a como uma 
 
 ### O Paradoxo do Ovo e da Galinha e a Fuga Pela Porta dos Fundos
 
-Rafael e Bia tiveram a ideia de criar um marketplace conectando confeiteiras artesanais de Goiânia e Recife a empresas que compravam bolos e kits de festa para aniversários de funcionários. No lançamento, cadastraram 180 confeiteiras em uma semana. Comemoraram achando que metade do trabalho estava feita.
+Para expandir sua marca D2C de autocuidado em Goiânia sem carregar estoque próprio de terceiros, Bia e Rafael decidiram testar um marketplace conectando pequenas produtoras artesanais de sabonetes, velas e cosméticos naturais do Centro-Oeste e do Nordeste a empresas que compravam kits corporativos de fim de ano e aniversário. Na primeira semana, cadastraram 180 artesãs parceiras e comemoraram achando que metade do trabalho estava resolvida.
 
 Trinta dias depois, apenas três empresas haviam feito pedidos. As outras 177 confeiteiras ficaram irritadas com o silêncio da plataforma e desinstalaram o aplicativo. Pior ainda: as três empresas que compraram na plataforma pegaram o cartãozinho com o WhatsApp direto da confeiteira dentro da caixa do bolo e passaram a encomendar direto com ela no mês seguinte, sem pagar os 15% de comissão (*take rate*) de Rafael e Bia.
 
@@ -4139,11 +4161,11 @@ Uma categoria crescente de startups opera como marketplace, conectando dois ou m
 
 **Problema do cold start.** Oferta sem demanda, e vice-versa, igual a morte. Padrões de solução. Single-side bootstrap. Começar resolvendo um lado (oferta, ou demanda) sozinho, sem marketplace (por exemplo, OpenTable começou como software SaaS para restaurantes, antes de virar marketplace). Subsídio. Pagar um lado para entrar (Airbnb pagando fotógrafos para listings). Restrição geográfica. Começar em um bairro, ou cidade. Garantir liquidez local antes de expandir. Importar oferta. Trazer dados de fontes externas para simular (OLX, early days).
 
-**Liquidez.** Métrica crítica. Percentual de queries que resultam em match. Abaixo de threshold (varia. Cerca de trinta por cento em mobility. Cerca de quinze por cento em trabalho), o marketplace não funciona. Cold start é resolver liquidez em sub-mercado, antes de expandir.
+**Liquidez.** Métrica crítica. Percentual de queries que resultam em match. Abaixo de um patamar mínimo de liquidez que varia conforme a categoria (como referência prática de mercado, em torno de 30% das buscas convertendo em corridas na mobilidade urbana e 15% a 20% em serviços profissionais sob demanda, subindo para mais de 60% a 80% quando a rede local amadurece), o marketplace perde ambos os lados. Cold start é resolver liquidez em sub-mercado, antes de expandir.
 
 **Defensibilidade.** Network effects. Mais usuários, igual a mais valor para usuários. Forte. Mas precisa ser cultivado. Data effects. Mais uso, igual a dados melhores, igual a produto melhor. Switching costs. Reputação acumulada, e histórico. Brand. Marketplace viram verbo (Uber, e Airbnb).
 
-**Disintermediação.** Risco. Os usuários trocam off-platform após primeiro contato (contratam pedreiro diretamente, sem pagar fee ao marketplace). Mitigações. Pagamento escrow, seguros, warranties, identidade verificada, e features que só acontecem on-platform.
+**Desintermediação.** É o risco de comprador e fornecedor fecharem negócio fora da plataforma após o primeiro contato (por exemplo, contratar o prestador direto pelo WhatsApp para fugir da comissão). Como defender a transação dentro da casa: retenção do pagamento em garantia até a entrega (*escrow*), seguro contra danos, parcelamento sem juros para o comprador com antecipação para o prestador, verificação de identidade e ferramentas de gestão que só funcionam na plataforma.
 
 #### 2. Tipos de dependência de plataforma
 
@@ -4189,11 +4211,11 @@ O segundo conceito é escala mínima viável. Quanto volume é necessário para 
 
 O terceiro é a distinção entre liquidez local e global. Comida é local (quem mora em São Paulo quer comer em São Paulo). Transporte é local. Classificados são locais. E-commerce é nacional ou global. Airbnb tem efeito global, porque quem vai viajar pode escolher qualquer lugar. Plataforma com liquidez local precisa atingir massa crítica cidade por cidade, o que encarece o CAC inicial.
 
-O quarto é gestão de take rate. Cobrar demais expulsa o lado da oferta. Cobrar pouco não sustenta a operação. Os benchmarks setoriais são referência útil: food delivery fica entre quinze e trinta por cento do ticket (brasileiros reclamam de iFood cobrando entre vinte e dois e trinta por cento), ride sharing entre vinte e trinta por cento, e-commerce horizontal entre dez e vinte por cento do GMV, e-commerce vertical entre oito e quinze por cento, classificados entre zero e dez por cento (frequentemente por assinatura), fintech entre um e três por cento por transação, serviços profissionais entre dez e vinte e cinco por cento.
+O quarto é gestão de take rate. Cobrar demais expulsa o lado da oferta. Cobrar pouco não sustenta a operação. Os benchmarks setoriais são referência útil: o delivery de refeições opera tipicamente entre 12% no plano básico sem entrega própria e 23% a 27% no plano completo com logística da plataforma, ride sharing entre vinte e trinta por cento, e-commerce horizontal entre dez e vinte por cento do GMV, e-commerce vertical entre oito e quinze por cento, classificados entre zero e dez por cento (frequentemente por assinatura), fintech entre um e três por cento por transação, serviços profissionais entre dez e vinte e cinco por cento.
 
 O quinto é qualidade como filtro. Plataforma que não filtra oferta ruim (restaurante que entrega atrasado, motorista com rating baixo, vendedor que envia errado) afasta demanda. Rating, reviews, ranking e penalização por performance são governança essencial.
 
-O sexto é multi-homing. O lado da oferta frequentemente está em múltiplas plataformas (restaurante em iFood e Rappi, motorista em Uber e 99). Mitigar exige incentivos de exclusividade, features únicas e UX superior.
+O sexto é multi-homing. O lado da oferta frequentemente está em múltiplas plataformas (restaurante em iFood e Rappi, motorista em Uber e 99). Mitigar o *multi-homing* exige entregar ferramentas de gestão, capital de giro e demanda recorrente que o parceiro perca se sair (evitando depender de contratos de exclusividade pura caso sua plataforma ganhe posição dominante, prática já restringida pelo CADE no setor de delivery em 2023).
 
 ---
 
@@ -4217,7 +4239,7 @@ A transição produto para plataforma é comum mas difícil. Nubank saiu de cart
 
 A transição plataforma para produto é menos comum mas acontece. Airbnb adicionou Airbnb Plus (curado) e Airbnb Luxe (premium), ainda marketplace mas com verificação proprietária. Stone começou em maquininha (produto), evoluiu para banking e marketplace, modelo híbrido. iFood adicionou cozinhas próprias em alguns mercados, tentativa de verticalização. Produto vertical dentro de plataforma faz sentido quando a categoria tem oferta insuficiente que a plataforma pode preencher, quando qualidade é diferenciador e a plataforma pode controlar, e quando a margem do vertical é alta o suficiente para justificar a operação.
 
-### Cobrar um Take Rate abusivo sem entregar seguro, capital de giro, logística ou software de gestão
+### Armadilhas de dependência de plataforma (Meta, Google, AWS e lojas de aplicativos) e de comissão sem contrapartida de valor
 
 Cem por cento de aquisição em um canal. A Meta muda algoritmo. A receita cai quarenta por cento.
 
@@ -4225,7 +4247,7 @@ Infraestrutura em uma cloud, sem plano B. A AWS sobe trinta por cento. As margen
 
 App em uma store, sem canal próprio. A Apple remove app. A empresa morre.
 
-Ignorar mudanças em guidelines. App rejeitado em review. Revenda crítica não autorizada.
+Ignorar mudanças nas regras da App Store ou da Google Play: o aplicativo é barrado na revisão e uma atualização crítica fica impedida de ir ao ar.
 
 Não construir marca própria. O cliente só vê "App do [Marketplace]". Não "empresa X".
 
@@ -4250,7 +4272,7 @@ Marketplace e gestão de risco de plataforma estão saudáveis quando, sendo mar
 
 ### Aprofundamento, mecânica operacional de marketplace
 
-O conteúdo atual do AE cobre cold start, liquidez, defensibilidade, e risco de plataforma. Esse aprofundamento adiciona disciplinas operacionais específicas.
+Depois de estruturar a partida a frio (*cold start*), a liquidez e a defesa contra desintermediação, a operação diária de um marketplace exige dominar seis disciplinas adicionais:
 
 #### 1. Medição detalhada de liquidez
 
@@ -4273,7 +4295,7 @@ Estrutura de take rate por tier. Grandes sellers pagam menos (volume-based tieri
 #### 3. Supply acquisition versus demand acquisition
 
 > [!warning] Erro comum
-> Tratar os dois lados como se fossem equivalentes. Em prática.
+> Erro recorrente: tratar oferta e demanda como se tivessem o mesmo peso. Na prática, um dos lados é sempre o lado mais escasso (*hard side*) e precisa concentrar o esforço inicial.
 
 Supply-constrained markets (por exemplo, mobility em pico). O dinheiro vai para atrair motoristas.
 
@@ -4300,7 +4322,7 @@ Team anti-fraude. Humanos, mais ML, para detectar patterns.
 
 #### 5. Regulamentação setorial específica
 
-Dependendo do vertical. Mobility. Regulação municipal de Uber, ou 99-type services. Food delivery. Regulamentações sanitárias. Financial marketplaces. CVM, Banco Central, e prevenção a lavagem. Healthcare. ANVISA, CFM, e questões éticas. Real estate. CRECI, e regulação de corretagem.
+Além das normas específicas de cada setor (transporte municipal de passageiros em mobilidade, vigilância sanitária em alimentação, Banco Central e CVM em serviços financeiros, Anvisa e conselhos profissionais em saúde, CRECI no mercado imobiliário), todo marketplace operando no Brasil em 2026 precisa estruturar três frentes jurídicas e fiscais: as regras de responsabilidade e transparência do Código de Defesa do Consumidor perante o comprador final, a emissão segregada de notas fiscais (da comissão da plataforma e da venda do parceiro) e a responsabilidade das plataformas digitais pelo recolhimento de IBS e CBS prevista na regulamentação da Reforma Tributária (LC 214/2025).
 
 Compliance específico pode ser custo estrutural, que define viabilidade.
 
@@ -4319,8 +4341,8 @@ Compliance específico pode ser custo estrutural, que define viabilidade.
 **Permissão Libertadora:**
 Você está autorizado a fechar a lista de espera de novos fornecedores hoje e operar no braço (comprando você mesmo o estoque ou garantindo os primeiros pedidos) até que os primeiros vinte fornecedores ganhem dinheiro de verdade.
 
-**O Ritual de Segunda-Feira às 9h:**
-Calcule a razão entre buscas feitas e negócios fechados na última semana. Se for menor que 30%, congele a expansão geográfica imediatamente e concentre 100% da oferta e demanda em um único CEP ou nicho.
+**O Ritual de Segunda-Feira às 9h (rotina semanal de 30 minutos):**
+Divida o número de transações fechadas pelo total de buscas qualificadas feitas na última semana (*search-to-fill*). Se a taxa ficar abaixo do patamar mínimo da sua categoria (como 15% em serviços ou 30% em entregas rápidas), congele imediatamente a abertura de novas praças e concentre 100% da oferta e da demanda em um único bairro ou nicho até destravar o giro.
 
 ### FRAMEWORKS PASSO A PASSO DESTE CAPÍTULO
 
@@ -4328,7 +4350,7 @@ Calcule a razão entre buscas feitas e negócios fechados na última semana. Se 
 
 ##### De onde vem a ferramenta (e por que sobreviveu ao filtro do tempo)
 
-Andrew Chen, ex-head of Rider Growth da Uber e atualmente general partner na Andreessen Horowitz (a16z), sistematizou o Cold Start Problem no livro de mesmo nome (2021). Baseado em sua experiência escalando Uber e em entrevistas com founders de produtos com efeitos de rede (Slack, Zoom, Dropbox, Airbnb, LinkedIn, Instagram, Tinder, TikTok). Resolve problema específico que Clayton Christensen, Andrew Grove e outros não endereçaram diretamente: como *começar* um produto com efeito de rede, quando por definição o produto não tem valor até ter muitos usuários.
+Andrew Chen, ex-head of Rider Growth da Uber e atualmente general partner na Andreessen Horowitz (a16z), sistematizou o Cold Start Problem no livro de mesmo nome (2021). Baseado em sua experiência escalando Uber e em entrevistas com founders de produtos com efeitos de rede (Slack, Zoom, Dropbox, Airbnb, LinkedIn, Instagram, Tinder, TikTok). Ataca o dilema clássico dos negócios de plataforma: como dar a partida num produto cujo valor depende justamente de já ter usuários ativos dos dois lados.: como *começar* um produto com efeito de rede, quando por definição o produto não tem valor até ter muitos usuários.
 
 ##### A mecânica central (sem jargão)
 
@@ -4342,7 +4364,7 @@ Efeitos de rede não são uma coisa, são cinco coisas diferentes que operam de 
 
 Passo 1: identificar se o produto tem efeitos de rede reais (nem todo marketplace/social tem efeito de rede verdadeiro, alguns apenas *parecem* ter). Passo 2: definir Atomic Network (o menor grupo onde produto funciona sem precisar de nada maior). Passo 3: identificar Hard Side e estratégia específica para adquirir primeiros 10, 100, 1000 do Hard Side (tipicamente manualmente, por founders, em processo "unscalable"). Passo 4: construir três growth loops (engagement para retenção, acquisition para aquisição, economic para unit economics). Passo 5: uma vez que uma Atomic Network funciona, replicar com playbook.
 
-Exemplo aplicado, iFood. Atomic Network: restaurantes + consumidores em um bairro ou cidade pequena. Hard Side: restaurantes (difícil convencer a aderir antes de haver consumidores). Estratégia inicial: founders pessoalmente recrutaram dezenas de restaurantes nos primeiros meses, muitas vezes sem pagar taxa, em troca de exclusividade soft. Quando crítica massa foi atingida em Belo Horizonte (primeira Atomic Network), consumidores apareceram organicamente. Replicação: playbook para cada nova cidade foi expandindo gradualmente.
+Exemplo aplicado: a expansão inicial do iFood (nascido em São Paulo em 2011 a partir da evolução digital do guia impresso Disk Cook). A rede atômica (*Atomic Network*) consistia em concentrar dezenas de restaurantes de entrega rápida e consumidores num mesmo bairro paulistano antes de abrir a cidade inteira, atacando primeiro o lado mais difícil (convencer os restaurantes a publicar cardápio e aceitar pedidos online). Quando a densidade local de opções gerava pedidos recorrentes naquela região, o modelo de aquisição era replicado bairro a bairro (observação regulatória: anos depois, quando a empresa já detinha posição dominante, cláusulas de exclusividade com restaurantes foram alvo de restrição pelo CADE em 2023, mostrando que táticas aceitáveis na partida sofrem limites antitruste na escala).
 
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
@@ -4354,15 +4376,15 @@ Exemplo aplicado, iFood. Atomic Network: restaurantes + consumidores em um bairr
 
 ### O Cavalo Alugado do B2B2C: Como Vender Milhares de Vidas num Único Contrato
 
-Quando a Dra. Camila lançou seu programa digital de prevenção de dor lombar e ergonomia, ela tentou vender assinaturas individuais de R$ 39,90 por mês no Instagram diretamente para trabalhadores de escritório (*B2C puro*). A matemática foi cruel: ela gastava R$ 110 em anúncios para convencer uma pessoa a assinar, e o usuário cancelava no terceiro mês assim que a dor nas costas diminuía.
+Quando a Dra. Camila lançou seu programa digital de saúde bucal preventiva e acompanhamento pós-implante em Belo Horizonte, ela tentou primeiro vender assinaturas individuais de R$ 39,90 por mês no Instagram diretamente para pacientes adultos (*B2C puro*). A conta não fechou: ela gastava R$ 110 em anúncios para conquistar cada assinante, e o paciente cancelava no terceiro mês assim que terminava o ciclo inicial de orientação.
 
 Em uma conversa com Henrique num voo entre Confins e Congonhas, ele fez uma pergunta simples:
 
 – "Camila, quem perde R$ 4.000 por semana toda vez que um funcionário pega quinze dias de atestado médico por hérnia de disco no escritório ou na fábrica? Não é o funcionário; é o diretor de RH e o plano de saúde corporativo. Por que você está vendendo de um em um no Instagram, em vez de vender um contrato de R$ 15 mil por mês para uma indústria de mil funcionários colocar o seu programa como benefício obrigatório?"
 
-Seis semanas depois, Camila fechou seu primeiro contrato **B2B2C** com uma rede de call centers em Contagem: um único boleto corporativo colocou 1.200 usuários dentro do aplicativo em um único dia, com custo de aquisição unitário de R$ 2,50 por vida.
+Três meses depois de redesenhar a oferta para departamentos de RH de empresas médias, Camila fechou seu primeiro contrato **B2B2C** com uma rede de *call centers* em Contagem: um único contrato corporativo habilitou 1.200 funcionários para triagem odontológica digital e atendimento preventivo na clínica, derrubando o custo de aquisição inicial para R$ 2,50 por vida cadastrada.
 
-Mas seis meses depois veio a lição oculta do B2B2C que quase fez Camila perder a renovação: **A Armadilha da Dupla Aprovação**. No B2B2C, você tem dois patrões com interesses diferentes: a empresa que paga o boleto (o *Buyer*) e o CPF na ponta que usa o produto (o *End-User*). Se a empresa compra mas o funcionário não engaja, o RH cancela o contrato na renovação anual porque *"ninguém está usando"*. Vencer no B2B2C exige dominar simultaneamente a venda corporativa na porta da frente e o engajamento apaixonado de consumidor final lá dentro.
+Mas seis meses depois veio a lição oculta do B2B2C que quase fez Camila perder a renovação: **A Armadilha da Dupla Aprovação**. No B2B2C, você tem dois patrões com interesses diferentes: a empresa que paga o boleto (o *Buyer*) e o CPF na ponta que usa o produto (o *End-User*). Se a empresa assina o contrato mas os funcionários não ativam nem usam o benefício (monitorado sempre por relatórios agregados e anonimizados para o RH, já que dados individuais de saúde são dados pessoais sensíveis protegidos pelo art. 11 da LGPD), o RH cancela na renovação anual porque *"ninguém está usando"*. Vencer no B2B2C exige dominar simultaneamente a venda corporativa na porta da frente e o engajamento apaixonado de consumidor final lá dentro.
 
 ---
 
@@ -4370,7 +4392,7 @@ Mas seis meses depois veio a lição oculta do B2B2C que quase fez Camila perder
 
 B2B2C (*business-to-business-to-consumer*) é o modelo de negócio em que você (empresa A) vende produto ou serviço para outra empresa (B), que por sua vez usa esse produto para atender seu próprio consumidor final (C). Você não atende C diretamente. C frequentemente sabe da sua existência (via branding, ou seja, marca visível) ou não (via white-label, ou seja, produto rotulado com a marca de B, sem mencionar a sua).
 
-A diferença para B2B puro é simples. Em B2B puro, o cliente B usa o produto internamente (ERP, CRM, ferramentas). Em B2B2C, o cliente B usa o produto para servir outro cliente. Os exemplos brasileiros ajudam a fixar a ideia. Pagar.me e Stripe vendem para lojistas (B), que cobram seus próprios clientes (C). Nuvemshop e VTEX vendem plataforma de e-commerce para lojistas (B), que vendem produtos a consumidores (C). Wellhub vende para empresas (B), que oferecem como benefício a funcionários (C). Olist integra sellers pequenos (B) em marketplaces e os ajuda a vender para consumidores (C). Hiandros e Evino vendem atacado para restaurantes e bares (B), que servem aos consumidores finais (C). O Nubank Marketplace é uma plataforma que integra fornecedores de serviços financeiros (B) para atender clientes Nubank (C). O iFood vende ferramentas aos restaurantes (B) que atendem usuários iFood (C). E o universo de white-label de fintech, conhecido como BaaS (*Banking-as-a-Service*, infraestrutura bancária oferecida como serviço), inclui Dock, Matera e Fitbank, que oferecem infraestrutura bancária a empresas (B) que oferecem contas digitais (C).
+A diferença para B2B puro é simples. Em B2B puro, o cliente B usa o produto internamente (ERP, CRM, ferramentas). Em B2B2C, o cliente B usa o produto para servir outro cliente. Os exemplos brasileiros ajudam a fixar a ideia. Pagar.me e Stripe vendem para lojistas (B), que cobram seus próprios clientes (C). Nuvemshop e VTEX vendem plataforma de e-commerce para lojistas (B), que vendem produtos a consumidores (C). Wellhub vende para empresas (B), que oferecem como benefício a funcionários (C). Olist integra sellers pequenos (B) em marketplaces e os ajuda a vender para consumidores (C). Hiandros e Evino vendem atacado para restaurantes e bares (B), que servem aos consumidores finais (C). Já a Dock fornece infraestrutura de cartões e contas (*Banking as a Service*) para varejistas e fintechs (B) atenderem seus próprios consumidores finais (C). (Note que casos como Nubank Marketplace ou iFood operam como marketplaces em que a própria plataforma detém a relação direta com o consumidor C, e não como B2B2C puro.) O iFood vende ferramentas aos restaurantes (B) que atendem usuários iFood (C). E o universo de white-label de fintech, conhecido como BaaS (*Banking-as-a-Service*, infraestrutura bancária oferecida como serviço), inclui Dock, Matera e Fitbank, que oferecem infraestrutura bancária a empresas (B) que oferecem contas digitais (C).
 
 B2B2C é categoria ampla que combina dinâmicas de B2B (ciclo de venda complexo, contratos enterprise) com economia de C (volume, frequência, unit economics, ou seja, a economia unitária por cliente, pelo consumidor final). Esse híbrido exige estratégia específica.
 
@@ -4404,7 +4426,7 @@ O terceiro é enabler. Você fornece serviço especializado que B não faria int
 
 O quarto é marketplace ou distribuição. Você dá a B distribuição para atingir C. Olist, Mercado Livre Marketplace, iFood para restaurantes, Magalu Seller. C sabe da plataforma e B aparece como vendor. O revenue vem de comissão sobre GMV, assinatura de seller. O moat é liquidez nos dois lados e tecnologia de matching.
 
-O quinto é aggregation ou embedded. O produto entra embutido na experiência do B. Seguro embutido em venda de produto (ConsigaPar dentro do Magazine Luiza), crédito embutido em checkout (Creditas via parceiros). É contextual, integrado no fluxo de C com B. Revenue vem de fee por transação ou take rate. O moat é o ponto de venda proprietário.
+O quinto é aggregation ou embedded. O produto entra embutido na experiência do B. Seguro de garantia estendida embutido no varejo (como a Luizaseg nas lojas do Magazine Luiza), crédito embutido em checkout (Creditas via parceiros). É contextual, integrado no fluxo de C com B. Revenue vem de fee por transação ou take rate. O moat é o ponto de venda proprietário.
 
 ### Estrutura de vendas em B2B2C
 
@@ -4429,7 +4451,7 @@ White-label customization é outra dimensão. B quer colocar sua marca, suas cor
 
 B2B2C frequentemente opera em setores regulados (fintech, saúde, seguros). Há duas camadas de compliance. A primeira é sua empresa como prestadora: registros, licenças, compliance LGPD, auditoria. A segunda é B como seu cliente, que pode exigir compliance da sua parte para C (ISO 27001, SOC 2, PCI-DSS, HIPAA no exterior, LGPD detalhado).
 
-Em BaaS, por exemplo, sua empresa tem licença de banco (ou parceria com um). B contrata sua infraestrutura para oferecer contas digitais. O compliance com KYC, PLD, BCB, Receita, é tudo orquestrado entre você, B e, em última análise, C.
+Em *Banking as a Service* (BaaS), por exemplo, a infraestrutura liquidante precisa operar como instituição autorizada pelo Banco Central do Brasil (instituição de pagamento ou banco), submetida às regras estritas de prevenção à lavagem de dinheiro (PLD/FT), identificação de clientes (KYC), segurança cibernética do Pix e governança de subcredenciamento e BaaS endurecidas pelo BCB entre 2024 e 2026: o contrato precisa delimitar claramente quem responde pela verificação cadastral e pelo suporte ao usuário C, mas a instituição regulada continua respondendo perante o regulador pela higidez da operação.
 
 > [!warning] Compliance trava deals
 > Compliance mal estruturado trava negócios. Enterprise no Brasil (especialmente grandes bancos e corporates) exige vendor assessment rigoroso. Ter SOC 2 Type II e ISO 27001 é diferencial de venda. Inicie o processo de certificação cedo, são seis a doze meses para SOC 2 Type II.
@@ -4460,7 +4482,7 @@ E multi-tenancy técnico é o sexto. A plataforma serve múltiplos Bs com dados 
 
 Além das métricas usuais (ARR, NRR, CAC, LTV), há algumas específicas de B2B2C. GMV (Gross Merchandise Value), que é o volume de transações processadas via seus Bs. Take rate, a porcentagem que você captura da GMV. Revenue por B e por cohort de B. NRR por B (expansão de B via mais Cs ou mais uso). Volume de Cs atingidos (alcance). Transações por C. Concentração (porcentagem de revenue de top dez Bs). Time-to-integration de novos Bs. B onboarding completion rate. SLA uptime por B.
 
-### Achar que a venda acabou na assinatura do contrato B2B e esquecer que a renovação depende do uso B2C
+### Achar que a venda acabou na assinatura do contrato B2B: como medir e puxar a ativação dos usuários finais (C) nos primeiros 30 dias
 
 > [!warning] Armadilhas mais comuns
 > Vender a um B sem validar demanda de C. Contrato fechado, integração feita, B não consegue vender a seus Cs. Produto não se move. Cobrança diminui. B quer sair.
@@ -4526,7 +4548,7 @@ B2B2C saudável tem diversidade de Bs (nenhum acima de quinze a vinte por cento 
 **Permissão Libertadora:**
 Você está autorizado a parar de queimar caixa no leilão caro do Meta Ads e do Google Ads tentando pescar CPFs de um em um se existir um canal B2B2C capaz de colocar 500 clientes para dentro em uma única assinatura.
 
-**O Ritual de Segunda-Feira às 9h:**
+**O Ritual de Segunda-Feira às 9h (rotina semanal de 30 minutos):**
 Desenhe o seu **Kit de Ativação D+1 para Parceiros**: as 3 mensagens prontas de WhatsApp, o cartaz de QR Code e o incentivo imediato que garante 30% de adesão dos usuários finais na primeira semana pós-contrato.
 
 
@@ -4542,7 +4564,7 @@ Lucas virou a tela do notebook e mostrou um dado que mudaria a história da empr
 
 – "Marina, hoje nós gastamos R$ 12 mil de marketing e seis reuniões para convencer um CTO desconfiado a apenas testar a nossa API fechada. Se o núcleo do conector for Open Source sob licença controlada, amanhã de manhã quinhentos desenvolvedores de fintechs vão baixar, auditar a segurança por conta própria e colocar para rodar dentro das empresas deles sem pedir autorização para o setor de compras. E quando o diretor de compliance do banco exigir painel de auditoria, SLA 24/7, Single Sign-On (SSO) e execução em nuvem gerenciada... adivinha quem é a única empresa do mundo que vende a versão Enterprise pronta?"
 
-Três meses após abrirem o repositório *Core*, o projeto alcançou 3.200 estrelas no GitHub e quatro instituições financeiras entraram em contato espontaneamente para assinar contratos anuais de R$ 180 mil da versão comercial gerenciada.
+Três meses após abrirem no GitHub o repositório *Core* do conector de extratos e conciliação (nascido das dores técnicas que enfrentaram após os quatorze meses de construção do MVP relatados no Capítulo 4), o projeto alcançou 3.200 estrelas de desenvolvedores; seis meses depois, após passarem pela auditoria de segurança da informação, fecharam os primeiros contratos anuais de R$ 180 mil da versão corporativa gerenciada com instituições financeiras.
 
 Bem-vindo à engenharia estratégica do **COSS (Commercial Open Source Software)**: o modelo que construiu impérios como GitLab, MongoDB, Supabase, Red Hat, Elastic e a brasileira Rocket.Chat.
 
@@ -4585,7 +4607,7 @@ Mas cuidado com **A Armadilha da Filantropia Acidental**: abrir todo o seu códi
 | **GPL** | Copyleft | Ecossistema Linux |
 | **AGPL** | Copyleft sobre rede | Evita "SaaS sem contribuir back" |
 | **BSL (Business Source)** | Source-available, vira OSS depois de X anos | MariaDB, HashiCorp, CockroachDB |
-| **SSPL** | Controversa, bloqueia cloud providers | MongoDB recent |
+| **SSPL / BSL** | Licenças de "código disponível" (*source-available*, não reconhecidas pela OSI como *open source*); bloqueiam oferta como serviço gerenciado por terceiros | MongoDB (SSPL), Sentry; mudanças da HashiCorp (2023, adquirida pela IBM em 2024) e da Redis (2024) geraram os forks comunitários OpenTofu e Valkey (Elastic e Redis adotaram AGPL em 2024) |
 
 Escolha importa: MIT max adoção, pouco controle. AGPL/BSL mais controle, menos adoção.
 
@@ -4599,7 +4621,7 @@ Escolha importa: MIT max adoção, pouco controle. AGPL/BSL mais controle, menos
 
 **4. Commercial conversion:**
 
-- **OSS users → aware of commercial**: footer, docs, repo, product-led discovery.
+- **Da comunidade aberta para a versão comercial**: no conector de Lucas e Marina, o desenvolvedor baixa o núcleo em licença Apache 2.0 pelo GitHub para rodar em ambiente local; quando a instituição financeira precisa de controle de acesso corporativo (SSO/SAML), trilha de auditoria para o Banco Central, múltiplos ambientes e SLA de suporte (o modelo *Buyer-Based Open Core* popularizado pelo GitLab, em que o que serve ao desenvolvedor individual permanece aberto e o que atende ao gestor ou diretor de segurança nasce pago), a própria documentação técnica conduz o time à assinatura da versão Enterprise.
 - **Self-serve tier paid**: Hobby/Starter → Pro → Enterprise.
 - **Enterprise sales** para grandes contas.
 
@@ -4642,8 +4664,8 @@ Escolha importa: MIT max adoção, pouco controle. AGPL/BSL mais controle, menos
 **Permissão Libertadora:**
 Você está autorizado a manter fechadas e pagas todas as funcionalidades de governança corporativa, conformidade e gerenciamento em equipe. Desenvolvedores amam código aberto, mas empresas pagam por paz de espírito e responsabilidade contratual.
 
-**O Ritual de Segunda-Feira às 9h:**
-Audite sua tabela de funcionalidades e mova imediatamente qualquer item de "Segurança Corporativa, Auditoria, Multi-usuário Acima de 5 Assentos e SLA" exclusivamente para o plano Enterprise/Cloud pago.
+**O Ritual de Segunda-Feira às 9h (rotina semanal de 30 minutos):**
+Defina por escrito a fronteira do seu repositório antes de publicar código novo: tudo o que resolve a dor do desenvolvedor individual permanece aberto, e tudo o que atende a exigências de comprador corporativo ("Segurança Corporativa, SSO, Trilha de Auditoria, Multi-usuário acima de 5 assentos e SLA") já nasce exclusivamente no plano Enterprise/Cloud pago, sem jamais fechar funcionalidades que já haviam sido entregues à comunidade aberta.
 
 ---
 
@@ -4679,11 +4701,11 @@ Exemplo aplicado, Pagar.me (Brasil). API de pagamentos com documentação em por
 
 ### O Cliente Como Seu Melhor Investidor-Anjo: A Escada do Serviço ao Produto
 
-Quando Henrique e seu sócio decidiram criar sua empresa em Curitiba, não tinham padrinhos ricos na Faria Lima nem reserva financeira para passar dezoito meses sem salário construindo um software puro. Se tentassem seguir a cartilha romântica do Vale do Silício (*"levante R$ 3 milhões num PowerPoint antes de faturar R$ 1"*), estariam falidos antes do inverno.
+Quando Henrique decidiu abrir uma segunda frente na sua operação em Curitiba, não tinham padrinhos ricos na Faria Lima nem reserva financeira para passar dezoito meses sem salário construindo um software puro. Se tentassem seguir a cartilha romântica do Vale do Silício (*"levante R$ 3 milhões num PowerPoint antes de faturar R$ 1"*), estariam falidos antes do inverno.
 
 Em vez disso, Henrique fechou um contrato de R$ 18 mil por mês com três indústrias madeireiras para fazer o controle de perdas de serraria como um serviço recorrente padronizado. Nos primeiros três meses, eles faziam 80% do trabalho usando planilhas avançadas e scripts em Python que rodavam no computador de Henrique. O lucro daqueles três contratos pagava as contas dos sócios e financiava vinte horas por semana de desenvolvimento do software proprietário.
 
-No décimo mês, os scripts já faziam 75% do trabalho sozinhos; no décimo oitavo mês, a ferramenta interna ficou tão robusta que as próprias indústrias passaram a operá-la diretamente como um SaaS puro, com margem bruta de 86%: e Henrique ainda era dono de 100% da própria empresa.
+No décimo mês, os scripts já faziam 75% do trabalho sozinhos; no décimo oitavo mês, a ferramenta interna ficou tão robusta que as próprias indústrias passaram a operá-la diretamente como um SaaS puro, com margem bruta de 86%: e Henrique financiou toda essa transição com a receita dos próprios clientes.
 
 Eles subiram com maestria **A Escada de Quatro Degraus da Produtização**:
 1. **Serviço Artesanal Focalizado** (caixa imediato e aprendizado profundo na veia do cliente);
@@ -4691,7 +4713,7 @@ Eles subiram com maestria **A Escada de Quatro Degraus da Produtização**:
 3. **Tech-Enabled Service** (software e IA fazendo 70% do trabalho nos bastidores com margem de 65%);
 4. **Produto Puro / SaaS** (margem de 85%+ e escala exponencial).
 
-Em um país de juros reais altos como o Brasil, fazer o cliente financiar a construção da sua tecnologia não é um "plano B para quem não conseguiu Venture Capital"; é a rota mais inteligente, lucrativa e soberana de construir um império real.
+Em um país de juros reais altos como o Brasil, fazer o cliente financiar a construção da sua tecnologia não é um "plano B para quem não conseguiu Venture Capital"; costuma ser o caminho mais seguro e rentável para financiar a construção do produto sem depender do humor do mercado de capitais.
 
 ---
 
@@ -4761,7 +4783,7 @@ Um **Serviço Produtizado** é um serviço embalado, precificado e vendido como 
 #### 2.3. Etapa 3: *Tech-Enabled Service* (Serviço Habilitado por Tecnologia)
 Aqui a margem bruta salta. Você constrói software proprietário, mas **os primeiros usuários intensivos do software são os seus próprios analistas internos**, enquanto o cliente interage com um painel/plataforma limpa para visualizar resultados e aprovar ações.
 * **A Regra 70/30 de Automação (*Human-in-the-Loop*):** Se antes um analista levava 10 horas para auditar notas fiscais ou conciliar recebíveis, seus scripts proprietários, conectores de API e agentes de IA (LLMs) passam a executar **70% do trabalho pesado nos bastidores**. O especialista humano atua apenas nos **30% críticos** (exceções complexas, validação final de qualidade e relacionamento consultivo).
-* **Impacto no P&L:** A capacidade salta de 10 para 60 clientes por analista, elevando a margem bruta para **60% a 75%** e gerando excedente de caixa livre todo mês.
+* **Impacto no P&L:** A capacidade operacional salta de 10 para cerca de 30 clientes por analista, elevando a margem bruta para **60% a 75%** e gerando excedente de caixa livre todo mês.
 
 #### 2.4. Etapa 4: Produto Puro / SaaS *Self-Serve*
 Quando o motor interno já processou dados reais de dezenas de clientes no modelo *Tech-Enabled*, todas as exceções (*edge cases*) foram mapeadas e automatizadas. A interface interna ganha camada de *onboarding* autoguiado e permissões, desacoplando-se da mão de obra humana e atingindo **margem bruta de 80% a 90%+**.
@@ -4789,7 +4811,7 @@ Em serviços produtizados e *tech-enabled services*, **nunca ofereça implantaç
 
 ### 4. Como Atravessar o Abismo *Service-to-Product*: As 5 Armadilhas Fatais
 
-Mais de 80% das consultorias que tentam criar um produto falham porque caem em cinco armadilhas estruturais:
+A maioria das consultorias que tentam criar um produto próprio tropeça porque cai em cinco armadilhas estruturais (com referências operacionais estimadas por etapa na tabela a seguir):
 
 #### 1. O Vício no Dinheiro Fácil de Projetos Customizados (*Whale Trap*)
 Surge uma grande corporação oferecendo R$ 350.000 para você desenvolver um sistema sob medida fora do seu *roadmap*. Se você aceitar, seus melhores engenheiros ficarão 6 meses presos construindo código exclusivo que não serve para mais ninguém, congelando o seu produto padrão.
@@ -4838,6 +4860,6 @@ Não tenha vergonha da Etapa 3. Em mercados brasileiros complexos (contabilidade
 **Permissão Libertadora:**
 Você está autorizado a demitir clientes de consultoria que exigem trabalho sob medida fora da sua tese de produto e a recusar propostas de investidores que queiram 30% da sua empresa por migalhas.
 
-**O Ritual de Segunda-Feira às 9h:**
+**O Ritual de Segunda-Feira às 9h (rotina semanal de 30 minutos):**
 Reserve na agenda: como compromisso sagrado e inegociável: **15 horas desta semana** exclusivamente para construir o script ou módulo interno que vai eliminar a tarefa manual mais repetitiva da sua entrega atual.
 

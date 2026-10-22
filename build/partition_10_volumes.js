@@ -112,7 +112,9 @@ const {
 } = require('./govtech_banca_additions');
 const { applyTwinChapterMerges } = require('./chapter_mergers');
 const {
+  RENAMED_HEADINGS_LIST,
   applyReviewFixesToRawAndSpecs,
+  applyPreIndexVolumeFixes,
   applyVolumeReviewFixes,
 } = require('./apply_review_fixes');
 
@@ -2527,7 +2529,10 @@ language: pt-BR
     headerBlock += `## Sobre este Volume\n\nEste é o **Volume ${vSpec.num} (${vSpec.title.replace(/^IGNIÇÃO — Volume \d+:\s*/, '')})** da coleção **IGNIÇÃO: O manual operacional do empreendedor brasileiro** (10 volumes).\n\n${vSpec.about}\n\n---\n\n## Mapa da Coleção IGNIÇÃO\n\n${COLLECTION_MAP_MERMAID}\n\n---\n\n## Sumário deste Volume\n\n${tocLines.join('\n')}\n\n---\n\n`;
   }
 
-  const fullMd = `${frontmatter}\n\n${headerBlock}${bodyBlocks.join('\n\n---\n\n')}\n`;
+  const fullMd = applyPreIndexVolumeFixes(
+    vSpec.num,
+    `${frontmatter}\n\n${headerBlock}${bodyBlocks.join('\n\n---\n\n')}\n`
+  );
   rawVolumeDocs.set(vSpec.num, { spec: vSpec, md: fullMd });
 }
 
@@ -2558,6 +2563,23 @@ for (const [volNum, { spec, md }] of rawVolumeDocs.entries()) {
     }
   }
   perVolHeadingIndex.set(volNum, vMap);
+}
+
+// Registrar em oldAnchorToNew e perVolHeadingIndex quaisquer subtítulos H3-H6 renomeados pela revisão
+for (const item of RENAMED_HEADINGS_LIST) {
+  const oldSlug = slugify(item.oldHeadingText);
+  const vSpec = VOLUMES_SPEC[item.volNum - 1];
+  const vMap = perVolHeadingIndex.get(item.volNum);
+  if (vMap && !vMap.has(oldSlug)) {
+    vMap.set(oldSlug, item.newHeadingText);
+  }
+  if (!oldAnchorToNew.has(oldSlug)) {
+    oldAnchorToNew.set(oldSlug, {
+      volNum: item.volNum,
+      volSlug: vSpec ? vSpec.slug : '',
+      heading: item.newHeadingText,
+    });
+  }
 }
 
 // Adicionar mapeamentos para todos os headings de BG, CZ e A pelo código antigo
