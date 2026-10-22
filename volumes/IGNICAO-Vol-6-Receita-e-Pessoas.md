@@ -3,9 +3,9 @@ title: "IGNIÇÃO — Volume 6: Receita Enterprise, Liderança e Cultura"
 subtitle: "Máquina Comercial em Escala, RevOps, Franchising, Liderança Executiva, Talentos e ESOP (Fases 15 e 16 e Capítulos 1 a 15)"
 author: "João Prado"
 date: 2026
-version: "5.0"
+version: "5.1"
 volume: 6
-collection: "IGNIÇÃO — O manual operacional do empreendedor brasileiro (10 Volumes Autocontidos — Edição Narrativa)"
+collection: "IGNIÇÃO — O manual operacional do empreendedor brasileiro (10 Volumes — Edição Narrativa Enxuta)"
 language: pt-BR
 ---
 
@@ -13,13 +13,13 @@ language: pt-BR
 
 **Máquina Comercial em Escala, RevOps, Franchising, Liderança Executiva, Talentos e ESOP (Fases 15 e 16 e Capítulos 1 a 15)**
 
-*João Prado · 2026 — Edição Narrativa Autocontida (v5.0)*
+*João Prado · 2026 — Edição Narrativa Enxuta (v5.1)*
 
 ---
 
 ## Sobre este Volume
 
-Este é o **Volume 6 (Receita Enterprise, Liderança e Cultura)** da coleção **IGNIÇÃO — O manual operacional do empreendedor brasileiro** (10 volumes autocontidos).
+Este é o **Volume 6 (Receita Enterprise, Liderança e Cultura)** da coleção **IGNIÇÃO — O manual operacional do empreendedor brasileiro** (10 volumes).
 
 Volume dedicado à construção da máquina comercial Enterprise, canais de distribuição/franquias e evolução de liderança, pessoas e cultura na scaleup. Abre com a Fase 15 (Máquina de Crescimento e Expansão em Escala) e a Fase 16 (Time, Liderança Executiva e Cultura em Escala) — trazendo embutidos todos os 25 frameworks de metodologias de vendas (MEDDPICC, SPIN, Challenger, Sandler, Solution, BANT, Command of the Message), growth em escala e liderança (Radical Candor, Lencioni, Topgrading, Who, Horowitz, Culture Code, Netflix, SPADE, 7S, etc.) e 6 templates práticos —, seguidas por 15 capítulos sobre Growth, vendas Enterprise, RevOps, Business Development e vendas corporativas, canais indiretos, Franchising e Licenciamento de Redes (Lei 13.966/2019 e COF), marca, PR e comunicação do fundador, Founder Mode e cadência operacional, contratação C-level, avaliação de performance, compensação, Stock Options (ESOP), cultura em escala, diversidade e trabalho remoto/híbrido.
 

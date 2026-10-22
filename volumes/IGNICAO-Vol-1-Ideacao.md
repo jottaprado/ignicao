@@ -3,9 +3,9 @@ title: "IGNIÇÃO — Volume 1: Ideação e Fundação"
 subtitle: "Do Pré-Zero à Teoria do Negócio (Fases 0 a 3 e Capítulos 1 a 12)"
 author: "João Prado"
 date: 2026
-version: "5.0"
+version: "5.1"
 volume: 1
-collection: "IGNIÇÃO — O manual operacional do empreendedor brasileiro (10 Volumes Autocontidos — Edição Narrativa)"
+collection: "IGNIÇÃO — O manual operacional do empreendedor brasileiro (10 Volumes — Edição Narrativa Enxuta)"
 language: pt-BR
 ---
 
@@ -13,7 +13,7 @@ language: pt-BR
 
 **Do Pré-Zero à Teoria do Negócio (Fases 0 a 3 e Capítulos 1 a 12)**
 
-*João Prado · 2026 — Edição Narrativa Autocontida (v5.0)*
+*João Prado · 2026 — Edição Narrativa Enxuta (v5.1)*
 
 ---
 

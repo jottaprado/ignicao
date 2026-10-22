@@ -3,9 +3,9 @@ title: "IGNIÇÃO — Volume 7: Produto, Engenharia, Dados, IA e Operações"
 subtitle: "Discovery Contínuo, Gestão Técnica, Dívida Técnica, AI Ops e Design Organizacional (Fase 17 e Capítulos 1 a 10)"
 author: "João Prado"
 date: 2026
-version: "5.0"
+version: "5.1"
 volume: 7
-collection: "IGNIÇÃO — O manual operacional do empreendedor brasileiro (10 Volumes Autocontidos — Edição Narrativa)"
+collection: "IGNIÇÃO — O manual operacional do empreendedor brasileiro (10 Volumes — Edição Narrativa Enxuta)"
 language: pt-BR
 ---
 
@@ -13,13 +13,13 @@ language: pt-BR
 
 **Discovery Contínuo, Gestão Técnica, Dívida Técnica, AI Ops e Design Organizacional (Fase 17 e Capítulos 1 a 10)**
 
-*João Prado · 2026 — Edição Narrativa Autocontida (v5.0)*
+*João Prado · 2026 — Edição Narrativa Enxuta (v5.1)*
 
 ---
 
 ## Sobre este Volume
 
-Este é o **Volume 7 (Produto, Engenharia, Dados, IA e Operações)** da coleção **IGNIÇÃO — O manual operacional do empreendedor brasileiro** (10 volumes autocontidos).
+Este é o **Volume 7 (Produto, Engenharia, Dados, IA e Operações)** da coleção **IGNIÇÃO — O manual operacional do empreendedor brasileiro** (10 volumes).
 
 O manual operacional do CTO, do CPO e do COO na scaleup brasileira. Abre com a Fase 17 (Operações, Processos e Gestão em Escala) — trazendo embutidos todos os 20 frameworks mundiais de produto e operações (Continuous Discovery, Shape Up, Working Backwards PR/FAQ, Stage-Gate, Dual-Track Agile, OKRs, V2MOM, EOS, Scaling Up, MBO, Scrum, Kanban, DORA & SPACE, Amazon 6-Pager, WBR, 4DX, SIPOC, Value Stream Mapping, Toyota Kata e Spotify Model), o canvas Org Chart Evolution e 3 templates operacionais —, seguida por 10 capítulos sobre produto em múltiplos squads, transição do fundador técnico para gestão, recrutamento técnico, Engineering Management, DevEx e dívida técnica, IA na engenharia de software, AI Ops, design organizacional, gestão do conhecimento, comunicação interna e excelência operacional.
 

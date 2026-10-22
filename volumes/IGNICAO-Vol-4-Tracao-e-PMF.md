@@ -3,9 +3,9 @@ title: "IGNIÇÃO — Volume 4: Tração, Go-to-Market e Product-Market Fit"
 subtitle: "Do MVP em Produção ao PMF, Canais, Vendas e Pricing (Fases 11 a 13 e Capítulos 1 a 11)"
 author: "João Prado"
 date: 2026
-version: "5.0"
+version: "5.1"
 volume: 4
-collection: "IGNIÇÃO — O manual operacional do empreendedor brasileiro (10 Volumes Autocontidos — Edição Narrativa)"
+collection: "IGNIÇÃO — O manual operacional do empreendedor brasileiro (10 Volumes — Edição Narrativa Enxuta)"
 language: pt-BR
 ---
 
@@ -13,13 +13,13 @@ language: pt-BR
 
 **Do MVP em Produção ao PMF, Canais, Vendas e Pricing (Fases 11 a 13 e Capítulos 1 a 11)**
 
-*João Prado · 2026 — Edição Narrativa Autocontida (v5.0)*
+*João Prado · 2026 — Edição Narrativa Enxuta (v5.1)*
 
 ---
 
 ## Sobre este Volume
 
-Este é o **Volume 4 (Tração, Go-to-Market e Product-Market Fit)** da coleção **IGNIÇÃO — O manual operacional do empreendedor brasileiro** (10 volumes autocontidos).
+Este é o **Volume 4 (Tração, Go-to-Market e Product-Market Fit)** da coleção **IGNIÇÃO — O manual operacional do empreendedor brasileiro** (10 volumes).
 
 Volume sobre a travessia do lançamento do MVP em produção até a comprovação do Product-Market Fit: Operação de MVP e Experimentos de Mercado (Fase 11), Validação do Modelo de Negócio (Fase 12) e Product-Market Fit (Fase 13) — com frameworks passo a passo de métricas, growth, posicionamento e negociação, os canvases Pirate/AARRR e Risk Canvas preenchidos e os templates de Pre-Launch e Scorecard de PMF integrados nas fases —, seguidos por 11 capítulos sobre GTM e canais de aquisição até R$ 1M de ARR, SEO/conteúdo e comunidades, mídia paga, branding e PMM, vendas B2B consultivas, pricing e economia da recorrência, negociação, Customer Success e CX, stack de dados, produto AI-native e pivô.
 

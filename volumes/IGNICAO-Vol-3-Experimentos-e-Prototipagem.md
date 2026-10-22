@@ -3,9 +3,9 @@ title: "IGNIÇÃO — Volume 3: Hipóteses, Experimentos, Prototipagem e Modelos
 subtitle: "Método Científico, Testes de Validação, Usabilidade, Plataformas e Bootstrapping (Fases 7 a 10 e Capítulos 1 a 7)"
 author: "João Prado"
 date: 2026
-version: "5.0"
+version: "5.1"
 volume: 3
-collection: "IGNIÇÃO — O manual operacional do empreendedor brasileiro (10 Volumes Autocontidos — Edição Narrativa)"
+collection: "IGNIÇÃO — O manual operacional do empreendedor brasileiro (10 Volumes — Edição Narrativa Enxuta)"
 language: pt-BR
 ---
 
@@ -13,13 +13,13 @@ language: pt-BR
 
 **Método Científico, Testes de Validação, Usabilidade, Plataformas e Bootstrapping (Fases 7 a 10 e Capítulos 1 a 7)**
 
-*João Prado · 2026 — Edição Narrativa Autocontida (v5.0)*
+*João Prado · 2026 — Edição Narrativa Enxuta (v5.1)*
 
 ---
 
 ## Sobre este Volume
 
-Este é o **Volume 3 (Hipóteses, Experimentos, Prototipagem e Modelos de Negócio)** da coleção **IGNIÇÃO — O manual operacional do empreendedor brasileiro** (10 volumes autocontidos).
+Este é o **Volume 3 (Hipóteses, Experimentos, Prototipagem e Modelos de Negócio)** da coleção **IGNIÇÃO — O manual operacional do empreendedor brasileiro** (10 volumes).
 
 Volume dedicado à validação científica, experimentação prática e construção do protótipo testado: Formulação Rigorosa de Hipóteses (Fase 7), Experimentos de Validação com compromisso real (Fase 8), Ideação e Prototipagem de Soluções (Fase 9) e Testes de Solução, Usabilidade e Especificação de MVP (Fase 10) — trazendo embutidos frameworks passo a passo de análise de risco, experimentação, design sprint e UX research, os canvases Hypothesis Canvas, Test Card, Opportunity Canvas e MVP Canvas preenchidos e templates práticos —, seguidos por 7 capítulos sobre a abordagem científica ao empreendedorismo, gates de evidência, TRL/CRL e fechamento de fase, e as arquiteturas de Cunha (Wedge), Marketplaces e Plataformas, B2B2C, Open Source (COSS) e Bootstrapping / Productized Services (transição Service-to-Product sem diluição).
 

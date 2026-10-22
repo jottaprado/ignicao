@@ -39,77 +39,77 @@ const puppeteer = loadPuppeteer();
 const COVERS = [
   {
     file: 'cover.png',
-    topMark: 'Manual de Campo · Edição Completa Autocontida (10 Volumes)',
+    topMark: 'Manual de Campo · Edição Completa (10 Volumes · 155 Capítulos)',
     volBadge: '',
     subtitle: 'O manual operacional do empreendedor brasileiro',
     gradient: 'linear-gradient(135deg, #1a0a00 0%, #4a1a00 35%, #c63b00 75%, #ff6b1a 100%)',
   },
   {
     file: 'cover-vol-1.png',
-    topMark: 'Coleção IGNIÇÃO · Volume 1 de 10 (Autocontido)',
+    topMark: 'Coleção IGNIÇÃO · Volume 1 de 10',
     volBadge: 'VOL. 1 · IDEAÇÃO E FUNDAÇÃO',
-    subtitle: 'Do Pré-Zero à Teoria do Negócio (Fases 0 a 3 e Capítulos 1 a 13)',
+    subtitle: 'Do Pré-Zero à Teoria do Negócio (Fases 0 a 3 e Capítulos 1 a 12)',
     gradient: 'linear-gradient(135deg, #1a0a00 0%, #4a1a00 35%, #c63b00 75%, #ff6b1a 100%)',
   },
   {
     file: 'cover-vol-2.png',
-    topMark: 'Coleção IGNIÇÃO · Volume 2 de 10 (Autocontido)',
+    topMark: 'Coleção IGNIÇÃO · Volume 2 de 10',
     volBadge: 'VOL. 2 · DESCOBERTA E MERCADO',
-    subtitle: 'Customer Discovery, Pesquisa de Campo, Concorrência e Cunha (Fases 4 a 6 e Capítulos 1 a 4)',
+    subtitle: 'Customer Discovery, Pesquisa de Campo, Concorrência e Cunha (Fases 4 a 6 e Capítulos 1 a 3)',
     gradient: 'linear-gradient(135deg, #071324 0%, #102a4c 35%, #1d4ed8 75%, #38bdf8 100%)',
   },
   {
     file: 'cover-vol-3.png',
-    topMark: 'Coleção IGNIÇÃO · Volume 3 de 10 (Autocontido)',
+    topMark: 'Coleção IGNIÇÃO · Volume 3 de 10',
     volBadge: 'VOL. 3 · HIPÓTESES E PROTÓTIPO',
-    subtitle: 'Método Científico, Experimentos, Usabilidade e Modelos de Negócio (Fases 7 a 10 e Capítulos 1 a 10)',
+    subtitle: 'Método Científico, Experimentos, Usabilidade e Modelos de Negócio (Fases 7 a 10 e Capítulos 1 a 7)',
     gradient: 'linear-gradient(135deg, #041f10 0%, #0f3d21 35%, #15803d 75%, #34d399 100%)',
   },
   {
     file: 'cover-vol-4.png',
-    topMark: 'Coleção IGNIÇÃO · Volume 4 de 10 (Autocontido)',
+    topMark: 'Coleção IGNIÇÃO · Volume 4 de 10',
     volBadge: 'VOL. 4 · TRAÇÃO E PMF',
-    subtitle: 'Do MVP em Produção ao Product-Market Fit, Canais, Vendas e Pricing (Fases 11 a 13 e Capítulos 1 a 16)',
+    subtitle: 'Do MVP em Produção ao Product-Market Fit, Canais, Vendas e Pricing (Fases 11 a 13 e Capítulos 1 a 11)',
     gradient: 'linear-gradient(135deg, #1f1400 0%, #4d3300 35%, #b45309 75%, #fbbf24 100%)',
   },
   {
     file: 'cover-vol-5.png',
-    topMark: 'Coleção IGNIÇÃO · Volume 5 de 10 (Autocontido)',
+    topMark: 'Coleção IGNIÇÃO · Volume 5 de 10',
     volBadge: 'VOL. 5 · FINANÇAS E CAPTAÇÃO',
-    subtitle: 'Contabilidade, Tributário, FP&A, Comércio Exterior, Caixa e Venture Capital (Fase 14 e Capítulos 1 a 21)',
+    subtitle: 'Contabilidade, Tributário, FP&A, Comércio Exterior, Caixa e Venture Capital (Fase 14 e Capítulos 1 a 15)',
     gradient: 'linear-gradient(135deg, #1a093b 0%, #3b147a 35%, #6d28d9 75%, #a855f7 100%)',
   },
   {
     file: 'cover-vol-6.png',
-    topMark: 'Coleção IGNIÇÃO · Volume 6 de 10 (Autocontido)',
+    topMark: 'Coleção IGNIÇÃO · Volume 6 de 10',
     volBadge: 'VOL. 6 · RECEITA E PESSOAS',
-    subtitle: 'Máquina Comercial Enterprise, RevOps, Franquias, Liderança Executiva, Talentos e ESOP (Fases 15 e 16 e Capítulos 1 a 20)',
+    subtitle: 'Máquina Comercial Enterprise, RevOps, Franquias, Liderança Executiva, Talentos e ESOP (Fases 15 e 16 e Capítulos 1 a 15)',
     gradient: 'linear-gradient(135deg, #042026 0%, #0c4a56 35%, #0e7490 75%, #22d3ee 100%)',
   },
   {
     file: 'cover-vol-7.png',
-    topMark: 'Coleção IGNIÇÃO · Volume 7 de 10 (Autocontido)',
+    topMark: 'Coleção IGNIÇÃO · Volume 7 de 10',
     volBadge: 'VOL. 7 · PRODUTO E ENGENHARIA',
-    subtitle: 'Operações em Escala, OKRs, Gestão Técnica, Dívida Técnica e IA (Fase 17 e Capítulos 1 a 11)',
+    subtitle: 'Operações em Escala, OKRs, Gestão Técnica, Dívida Técnica e IA (Fase 17 e Capítulos 1 a 10)',
     gradient: 'linear-gradient(135deg, #280606 0%, #5c1111 35%, #b91c1c 75%, #f87171 100%)',
   },
   {
     file: 'cover-vol-8.png',
-    topMark: 'Coleção IGNIÇÃO · Volume 8 de 10 (Autocontido)',
+    topMark: 'Coleção IGNIÇÃO · Volume 8 de 10',
     volBadge: 'VOL. 8 · JURÍDICO E SEGURANÇA',
-    subtitle: 'Estruturação Societária, Contratos, Trabalhista, LGPD e Cibersegurança (Fase 18 e Capítulos 1 a 14)',
+    subtitle: 'Estruturação Societária, Contratos, Trabalhista, LGPD e Cibersegurança (Fase 18 e Capítulos 1 a 13)',
     gradient: 'linear-gradient(135deg, #141f05 0%, #2d470b 35%, #4d7c0f 75%, #a3e635 100%)',
   },
   {
     file: 'cover-vol-9.png',
-    topMark: 'Coleção IGNIÇÃO · Volume 9 de 10 (Autocontido)',
+    topMark: 'Coleção IGNIÇÃO · Volume 9 de 10',
     volBadge: 'VOL. 9 · MATURIDADE, EXIT E FAMILY OFFICE',
-    subtitle: 'Segunda Curva, Conselho (Board), Crise, Spin-offs, M&A, IPO, Cash Cow e Family Office (Fases 19 e 20 e Capítulos 1 a 23)',
+    subtitle: 'Segunda Curva, Conselho (Board), Crise, Spin-offs, M&A, IPO, Cash Cow e Family Office (Fases 19 e 20 e Capítulos 1 a 21)',
     gradient: 'linear-gradient(135deg, #180828 0%, #3b0764 35%, #86198f 75%, #e879f9 100%)',
   },
   {
     file: 'cover-vol-10.png',
-    topMark: 'Coleção IGNIÇÃO · Volume 10 de 10 (Autocontido)',
+    topMark: 'Coleção IGNIÇÃO · Volume 10 de 10',
     volBadge: 'VOL. 10 · ECONOMIA DA INOVAÇÃO E 42 VERTICAIS',
     subtitle: 'Atores da Inovação, Hubs Globais e Brasileiros, Regulação, 42 Verticais e Dicionário (Capítulos 1 a 48)',
     gradient: 'linear-gradient(135deg, #090d16 0%, #1e293b 40%, #334155 75%, #94a3b8 100%)',
@@ -225,7 +225,7 @@ function buildHtml(c) {
   </div>
   <div class="bottom">
     <div class="author">João Prado</div>
-    <div class="meta">2026 · v5.0 · EDIÇÃO NARRATIVA AUTOCONTIDA</div>
+    <div class="meta">2026 · v5.1 · EDIÇÃO NARRATIVA ENXUTA</div>
   </div>
 </body>
 </html>`;

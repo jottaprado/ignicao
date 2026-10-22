@@ -2590,17 +2590,17 @@ title: "${vSpec.title}"
 subtitle: "${vSpec.subtitle}"
 author: "João Prado"
 date: 2026
-version: "5.0"
+version: "5.1"
 volume: ${vSpec.num}
-collection: "IGNIÇÃO — O manual operacional do empreendedor brasileiro (10 Volumes Autocontidos — Edição Narrativa)"
+collection: "IGNIÇÃO — O manual operacional do empreendedor brasileiro (10 Volumes — Edição Narrativa Enxuta)"
 language: pt-BR
 ---`;
 
-  let headerBlock = `# ${vSpec.title}\n\n**${vSpec.subtitle}**\n\n*João Prado · 2026 — Edição Narrativa Autocontida (v5.0)*\n\n---\n\n`;
+  let headerBlock = `# ${vSpec.title}\n\n**${vSpec.subtitle}**\n\n*João Prado · 2026 — Edição Narrativa Enxuta (v5.1)*\n\n---\n\n`;
   if (vSpec.num === 1) {
     headerBlock += `${notaDoAutorBody}\n\n---\n\n${SOBRE_ESTE_LIVRO_V1}\n\n---\n\n## Mapa da Coleção IGNIÇÃO\n\n${COLLECTION_MAP_MERMAID}\n\n---\n\n## Sumário deste Volume\n\n${tocLines.join('\n')}\n\n---\n\n`;
   } else {
-    headerBlock += `## Sobre este Volume\n\nEste é o **Volume ${vSpec.num} (${vSpec.title.replace(/^IGNIÇÃO — Volume \d+:\s*/, '')})** da coleção **IGNIÇÃO — O manual operacional do empreendedor brasileiro** (10 volumes autocontidos).\n\n${vSpec.about}\n\n---\n\n## Mapa da Coleção IGNIÇÃO\n\n${COLLECTION_MAP_MERMAID}\n\n---\n\n## Sumário deste Volume\n\n${tocLines.join('\n')}\n\n---\n\n`;
+    headerBlock += `## Sobre este Volume\n\nEste é o **Volume ${vSpec.num} (${vSpec.title.replace(/^IGNIÇÃO — Volume \d+:\s*/, '')})** da coleção **IGNIÇÃO — O manual operacional do empreendedor brasileiro** (10 volumes).\n\n${vSpec.about}\n\n---\n\n## Mapa da Coleção IGNIÇÃO\n\n${COLLECTION_MAP_MERMAID}\n\n---\n\n## Sumário deste Volume\n\n${tocLines.join('\n')}\n\n---\n\n`;
   }
 
   const fullMd = `${frontmatter}\n\n${headerBlock}${bodyBlocks.join('\n\n---\n\n')}\n`;
