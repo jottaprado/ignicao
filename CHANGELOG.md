@@ -6,6 +6,27 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/).
 
 ---
 
+## [5.1] — 2026-10-22
+
+### Otimizado e Consolidado
+
+- **Desinchaço Cirúrgico Nível 2 — Eliminação de 213.880 Palavras (~855 Páginas) com Zero Perda de Substância (`1.127.851` → `913.971` palavras | `180` → `155` capítulos)**:
+  - **100% Zero Duplicatas de Frameworks, Canvases e Templates (`build/partition_10_volumes.js`)**: remoção das 98 réplicas secundárias de ferramentas (`sharedBgs`, `sharedCzs`, `sharedAs`, economizando ~78,3k palavras). Cada um dos **164 Frameworks (`BG`)**, **20 Canvases (`CZ`)** e **39 Templates (`A`)** aparece agora **exatamente uma única vez** em toda a coleção (em sua Fase ou Capítulo primário), com redirecionamento automático de 100% dos wikilinks.
+  - **Unificação do Glossário e Siglas no Volume 10 (`build/partition_10_volumes.js`)**: remoção das 9 réplicas locais do glossário ao final dos Volumes 1 a 9 (~25,8k palavras eliminadas), mantendo o Glossário Técnico Completo e a Lista de Abreviações unificados no Volume 10.
+  - **Remoção de Andaimes Burocráticos de Almanaque (`build/narrative_bible.js` e `build/domain_intros.js`)**: supressão das fichas `> [!abstract] Resumo operacional` duplicadas, das subseções burocráticas redundantes (`O que este capítulo cobre`, `Quando usar`, `Quem envolve`, `Definição de sucesso`, `PERGUNTAS A RESPONDER`, `Ver também / Conexões`, `Quando não usar`, `Conexão com outros canvases`) e substituição dos 30 resumos longos de abertura de bloco por pontes narrativas concisas (~44,8k palavras eliminadas).
+  - **Fusão de 25 Capítulos "Gêmeos" em 23 Tratados Definitivos (`build/chapter_mergers.js`, reduzindo de 180 para 155 capítulos e eliminando ~65k palavras de sobreposição)**:
+    - *Vol. 1 (13 → 12 caps)*: fusão de `I` + `CT` (*IA Generativa como Acelerador e Copiloto Diário do Fundador*).
+    - *Vol. 2 (4 → 3 caps)*: fusão de `EE` + `S` (*Inteligência Competitiva, Posicionamento Estratégico e Category Design*).
+    - *Vol. 3 (10 → 7 caps)*: fusão tripla de `G` + `H` + `B` (*Governança de Validação: Decisão por Gates, Maturidade TRL/CRL e Committed Next Move*) e fusão de `AE` + `CC` (*Dinâmica de Marketplaces, Plataformas e Efeitos de Rede*).
+    - *Vol. 4 (16 → 11 caps)*: fusões de `DU` + `J` (*GTM Playbook e Arquitetura de Canais*), `AR` + `AS` (*Content Marketing, SEO e Community Building*), `DX` + `EA` (*Branding e Product Marketing — PMM*), `X` + `CB` (*Pricing Strategy e Economia da Assinatura*) e `AA` + `DT` (*Customer Success e Customer Experience*).
+    - *Vol. 5 (21 → 15 caps)*: fusões de `W` + `EN` (*Contabilidade, Regimes Fiscais e Reforma Tributária IBS/CBS*), `AN` + `CD` (*Modelagem Financeira Operacional e Coortes*), `EC` + `EG` (*FP&A, Orçamento Vivo e Revenue Forecasting*), `EZ` + `AT` (*Capital de Giro, CCC, Tesouraria e Crise de Caixa*), `V` + `CF` (*Jornada e Processo de Captação / Fundraising*) e `CI` + `CJ` (*Equity Crowdfunding CVM 88, Tokenização, RWA e Drex*).
+    - *Vol. 6 (20 → 15 caps)*: fusão de `DY` + `FD` (*Business Development e Parcerias com Grandes Corporações*), fusão tripla de `CQ` + `BM` + `CY` (*Relações Públicas, Comunicação Institucional e Marca Pessoal do Fundador*), fusão de `R` + `BQ` (*Founder Mode, Delegação, Gestão do Tempo e Cadência Operacional*) e fusão de `AP` + `FG` (*Cultura Organizacional como Disciplina e em Situações Críticas*).
+    - *Vol. 7 (11 → 10 caps)*: fusão de `CR` + `BC` (*Engineering Management, DevEx e Gestão de Dívida Técnica*).
+    - *Vol. 8 (14 → 13 caps)*: fusão de `EU` + `AH` (*Contratos Empresariais e Operacionais em Profundidade*).
+    - *Vol. 9 (23 → 21 caps)*: fusões de `CW` + `EV` (*Gestão de Crise, Continuidade Operacional e Comunicação Crítica*) e `BR` + `DI` (*Integração Pós-M&A, Transição do Fundador, Retenção de Talentos e Earnout*).
+
+---
+
 ## [5.0] — 2026-10-21
 
 ### Adicionado

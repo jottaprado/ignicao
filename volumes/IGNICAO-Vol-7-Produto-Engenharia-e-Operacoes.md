@@ -1,6 +1,6 @@
 ---
 title: "IGNIÇÃO — Volume 7: Produto, Engenharia, Dados, IA e Operações"
-subtitle: "Discovery Contínuo, Gestão Técnica, Dívida Técnica, AI Ops e Design Organizacional (Fase 17 e Capítulos 1 a 11)"
+subtitle: "Discovery Contínuo, Gestão Técnica, Dívida Técnica, AI Ops e Design Organizacional (Fase 17 e Capítulos 1 a 10)"
 author: "João Prado"
 date: 2026
 version: "5.0"
@@ -11,7 +11,7 @@ language: pt-BR
 
 # IGNIÇÃO — Volume 7: Produto, Engenharia, Dados, IA e Operações
 
-**Discovery Contínuo, Gestão Técnica, Dívida Técnica, AI Ops e Design Organizacional (Fase 17 e Capítulos 1 a 11)**
+**Discovery Contínuo, Gestão Técnica, Dívida Técnica, AI Ops e Design Organizacional (Fase 17 e Capítulos 1 a 10)**
 
 *João Prado · 2026 — Edição Narrativa Autocontida (v5.0)*
 
@@ -21,7 +21,7 @@ language: pt-BR
 
 Este é o **Volume 7 (Produto, Engenharia, Dados, IA e Operações)** da coleção **IGNIÇÃO — O manual operacional do empreendedor brasileiro** (10 volumes autocontidos).
 
-O manual operacional 100% autocontido do CTO, do CPO e do COO na scaleup brasileira. Abre com a Fase 17 (Operações, Processos e Gestão em Escala) — trazendo embutidos todos os 20 frameworks mundiais de produto e operações (Continuous Discovery, Shape Up, Working Backwards PR/FAQ, Stage-Gate, Dual-Track Agile, OKRs, V2MOM, EOS, Scaling Up, MBO, Scrum, Kanban, DORA & SPACE, Amazon 6-Pager, WBR, 4DX, SIPOC, Value Stream Mapping, Toyota Kata e Spotify Model), o canvas Org Chart Evolution e 3 templates operacionais (OKRs Trimestral Preenchido, OKR Cascade Anual e Post-Mortem de Incidente Técnico) —, seguida por 11 capítulos sobre produto em múltiplos squads, transição do fundador técnico para gestão, recrutamento técnico, Engineering Management e DevEx, dívida técnica, IA na engenharia de software, AI Ops, design organizacional, gestão do conhecimento, comunicação interna e excelência operacional.
+O manual operacional do CTO, do CPO e do COO na scaleup brasileira. Abre com a Fase 17 (Operações, Processos e Gestão em Escala) — trazendo embutidos todos os 20 frameworks mundiais de produto e operações (Continuous Discovery, Shape Up, Working Backwards PR/FAQ, Stage-Gate, Dual-Track Agile, OKRs, V2MOM, EOS, Scaling Up, MBO, Scrum, Kanban, DORA & SPACE, Amazon 6-Pager, WBR, 4DX, SIPOC, Value Stream Mapping, Toyota Kata e Spotify Model), o canvas Org Chart Evolution e 3 templates operacionais —, seguida por 10 capítulos sobre produto em múltiplos squads, transição do fundador técnico para gestão, recrutamento técnico, Engineering Management, DevEx e dívida técnica, IA na engenharia de software, AI Ops, design organizacional, gestão do conhecimento, comunicação interna e excelência operacional.
 
 ---
 
@@ -59,36 +59,28 @@ graph LR
 
 ### Fase da Etapa (Fase 17)
 - [[#FASE 17 — OPERAÇÕES, PROCESSOS E GESTÃO EM ESCALA|FASE 17 — OPERAÇÕES, PROCESSOS E GESTÃO EM ESCALA]]
-### Produto em Escala, Engenharia de Software, Dívida Técnica e IA (Capítulos 1 a 7)
+### Produto em Escala, Engenharia de Software, Dívida Técnica e IA (Capítulos 1 a 6)
 - [[#CAPÍTULO 1 — PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA|CAPÍTULO 1 — PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA]]
 - [[#CAPÍTULO 2 — MANAGEMENT PARA O FUNDADOR TÉCNICO|CAPÍTULO 2 — MANAGEMENT PARA O FUNDADOR TÉCNICO]]
 - [[#CAPÍTULO 3 — RECRUTAMENTO TÉCNICO EM PROFUNDIDADE|CAPÍTULO 3 — RECRUTAMENTO TÉCNICO EM PROFUNDIDADE]]
-- [[#CAPÍTULO 4 — ENGINEERING MANAGEMENT: GESTÃO DO TIME TÉCNICO E DEVELOPER EXPERIENCE|CAPÍTULO 4 — ENGINEERING MANAGEMENT: GESTÃO DO TIME TÉCNICO E DEVELOPER EXPERIENCE]]
-- [[#CAPÍTULO 5 — TECHNICAL DEBT COMO DISCIPLINA GERENCIADA|CAPÍTULO 5 — TECHNICAL DEBT COMO DISCIPLINA GERENCIADA]]
-- [[#CAPÍTULO 6 — IA NA ENGENHARIA INTERNA: COPILOT, AGENTES E PRODUTIVIDADE DE DEV|CAPÍTULO 6 — IA NA ENGENHARIA INTERNA: COPILOT, AGENTES E PRODUTIVIDADE DE DEV]]
-- [[#CAPÍTULO 7 — AI OPS E AUTOMAÇÃO INTELIGENTE|CAPÍTULO 7 — AI OPS E AUTOMAÇÃO INTELIGENTE]]
-### Arquitetura Organizacional, Conhecimento, Comunicação e Operações (Capítulos 8 a 11)
-- [[#CAPÍTULO 8 — DESIGN ORGANIZACIONAL|CAPÍTULO 8 — DESIGN ORGANIZACIONAL]]
-- [[#CAPÍTULO 9 — GESTÃO DO CONHECIMENTO|CAPÍTULO 9 — GESTÃO DO CONHECIMENTO]]
-- [[#CAPÍTULO 10 — COMUNICAÇÃO INTERNA|CAPÍTULO 10 — COMUNICAÇÃO INTERNA]]
-- [[#CAPÍTULO 11 — OPERAÇÕES EM ESCALA|CAPÍTULO 11 — OPERAÇÕES EM ESCALA]]
-### Glossário e Siglas deste Volume
-- [[#Glossário e Siglas deste Volume|GLOSSÁRIO E SIGLAS DESTE VOLUME]]
+- [[#CAPÍTULO 4 — ENGINEERING MANAGEMENT, DEVELOPER EXPERIENCE E GESTÃO DE DÍVIDA TÉCNICA|CAPÍTULO 4 — ENGINEERING MANAGEMENT, DEVELOPER EXPERIENCE E GESTÃO DE DÍVIDA TÉCNICA]]
+- [[#CAPÍTULO 5 — IA NA ENGENHARIA INTERNA: COPILOT, AGENTES E PRODUTIVIDADE DE DEV|CAPÍTULO 5 — IA NA ENGENHARIA INTERNA: COPILOT, AGENTES E PRODUTIVIDADE DE DEV]]
+- [[#CAPÍTULO 6 — AI OPS E AUTOMAÇÃO INTELIGENTE|CAPÍTULO 6 — AI OPS E AUTOMAÇÃO INTELIGENTE]]
+### Arquitetura Organizacional, Conhecimento, Comunicação e Operações (Capítulos 7 a 10)
+- [[#CAPÍTULO 7 — DESIGN ORGANIZACIONAL|CAPÍTULO 7 — DESIGN ORGANIZACIONAL]]
+- [[#CAPÍTULO 8 — GESTÃO DO CONHECIMENTO|CAPÍTULO 8 — GESTÃO DO CONHECIMENTO]]
+- [[#CAPÍTULO 9 — COMUNICAÇÃO INTERNA|CAPÍTULO 9 — COMUNICAÇÃO INTERNA]]
+- [[#CAPÍTULO 10 — OPERAÇÕES EM ESCALA|CAPÍTULO 10 — OPERAÇÕES EM ESCALA]]
 
 ---
 
 # FASE DA ETAPA — OPERAÇÕES, PROCESSOS E GESTÃO EM ESCALA (FASE 17)
 
-### Arquitetura deste Domínio: Operações, Processos, Produto e Engenharia em Escala (Fase 17)
-
-Se o Volume 6 construiu a máquina comercial e humana, este **Volume 7** é a **bíblia operacional do CTO, do CPO e do COO na scaleup**. Quando a empresa passa de um único time de produto para múltiplos *squads* e dezenas de milhares de clientes, a coordenação informal colapsa: sem cadência operacional, arquitetura de software resiliente e *discovery* contínuo, cada novo engenheiro contratado deixa o produto mais lento.
-
-A **[[#FASE 17 — OPERAÇÕES, PROCESSOS E GESTÃO EM ESCALA|Fase 17 (Operações, Processos e Gestão em Escala)]]** abre este volume estabelecendo a espinha dorsal de execução da empresa (com o estudo de caso da VTEX). O volume é **100% autocontido**, trazendo embutidos logo na Fase 17 **todos os 20 frameworks mundiais de Produto em Escala e Operações** (*Continuous Discovery Habits*, *Shape Up*, *Working Backwards / PR-FAQ*, *Stage-Gate*, *Dual-Track Agile*, *OKRs*, *V2MOM*, *EOS / Tração*, *Scaling Up / Rockefeller Habits*, *MBO*, *Scrum*, *Kanban*, *DORA Metrics & SPACE*, *Amazon 6-Pager*, *Weekly Business Review*, *4DX*, *SIPOC*, *Value Stream Mapping*, *Toyota Kata* e *Spotify Model*), o canvas *Org Chart Evolution* e os **3 templates operacionais completos** (*Template de OKRs Trimestral Preenchido*, *OKR Cascade Anual* e *Post-Mortem de Incidente Técnico*).
+Quando a empresa passa de um único time para múltiplos *squads* e milhares de clientes, a coordenação informal colapsa. A **[[#FASE 17 — OPERAÇÕES, PROCESSOS E GESTÃO EM ESCALA|Fase 17]]** abre o manual do CTO, do CPO e do COO instalando a cadência operacional, os OKRs e os 20 frameworks mundiais de produto e operações que impedem que o crescimento gere lentidão.
 
 ---
 
 ## FASE 17 — OPERAÇÕES, PROCESSOS E GESTÃO EM ESCALA
-
 
 ### O Imposto Invisível da Osmose Quebrada e a Fábrica da Sua Empresa
 
@@ -139,7 +131,7 @@ Sete passos.
 #### Passo 1, institua cadência de gestão em três camadas
 
 > [!note]
-> Cadência operacional — ritmo de all-hands, incidentes, automação e OKRs operacionais — é detalhada no [[#CAPÍTULO 11 — OPERAÇÕES EM ESCALA|Capítulo 11 — Operações em Escala]].
+> Cadência operacional — ritmo de all-hands, incidentes, automação e OKRs operacionais — é detalhada no [[#CAPÍTULO 10 — OPERAÇÕES EM ESCALA|Capítulo 10 — Operações em Escala]].
 
 Toda empresa em escala roda em três ciclos simultâneos.
 
@@ -179,7 +171,7 @@ Owner: [uma pessoa responsável, não um time]
 #### Passo 3, documente os 10 processos críticos operacionais
 
 > [!note]
-> Estruturação de onboarding 30/60/90, wikis e runbooks — a infraestrutura de conhecimento que torna os playbooks consultáveis — está no [[#CAPÍTULO 9 — GESTÃO DO CONHECIMENTO|Capítulo 9 — Gestão do Conhecimento]].
+> Estruturação de onboarding 30/60/90, wikis e runbooks — a infraestrutura de conhecimento que torna os playbooks consultáveis — está no [[#CAPÍTULO 8 — GESTÃO DO CONHECIMENTO|Capítulo 8 — Gestão do Conhecimento]].
 
 Cada empresa tem processos que, se quebrados, geram dor imediata. Liste os seus. Os típicos. Onboarding de novo cliente. Faturamento e cobrança (incluindo inadimplência). Suporte técnico (SLA por tier). Desenvolvimento de feature (da ideia ao deploy). Incident response (quando o produto cai). Onboarding de novo colaborador. Off-boarding de colaborador. Contratação sênior. Deal review (sales operations). Renewal e churn prevention.
 
@@ -251,12 +243,12 @@ flowchart LR
 > Menos é mais. Doze ferramentas bem-integradas valem mais que trinta ferramentas que ninguém usa direito. Cada ferramenta nova exige treinamento, integração, e custo marginal de atenção.
 
 > [!note]
-> Automação de CS, vendas e operações com IA — incluindo quando automatizar versus manter toque humano — é tratada no [[#CAPÍTULO 7 — AI OPS E AUTOMAÇÃO INTELIGENTE|Capítulo 7 — AI Ops e Automação]].
+> Automação de CS, vendas e operações com IA — incluindo quando automatizar versus manter toque humano — é tratada no [[#CAPÍTULO 6 — AI OPS E AUTOMAÇÃO INTELIGENTE|Capítulo 6 — AI Ops e Automação]].
 
 #### Passo 5, evolua a comunicação interna de 10 para 50 e para 100 pessoas
 
 > [!note]
-> Formatos de all-hands, comunicação de RIF e protocolos async por tamanho de time estão no [[#CAPÍTULO 10 — COMUNICAÇÃO INTERNA|Capítulo 10 — Comunicação Interna]].
+> Formatos de all-hands, comunicação de RIF e protocolos async por tamanho de time estão no [[#CAPÍTULO 9 — COMUNICAÇÃO INTERNA|Capítulo 9 — Comunicação Interna]].
 
 Comunicação que funcionava com dez não funciona com cinquenta. A regra operacional: com cerca de dez pessoas, Slack no geral — todo mundo sabe o que todo mundo faz. Com cerca de trinta, times virtuais por projeto, all-hands semanais e compartilhamento de conhecimento estruturado. Com cinquenta a cem, comunicação em camadas (C-level para VPs para times), newsletter interna mensal e decisões importantes com RFC (Request for Comments) escrito. Com cem ou mais, fóruns formais (engineering review, product review, business review trimestral), townhalls mensais e comunicação executiva top-down com tempo para perguntas.
 
@@ -265,7 +257,7 @@ Comunicação que funcionava com dez não funciona com cinquenta. A regra operac
 
 #### Passo 6, construa data infrastructure mínima desde cedo
 
-> [!tip] Capítulo 14 (Vol. 4) — Dados e Analytics
+> [!tip] Capítulo 9 (Vol. 4) — Dados e Analytics
 > Arquitetura de dados para startups em escala: data warehouse, ETL, modelagem de dados, cultura data-driven e como estruturar a função de analytics (self-serve vs. analista centralizado).
 
 Antes de vinte pessoas, planilhas Google resolvem. Acima disso, você precisa de quatro coisas. Data warehouse, mesmo que pequeno: BigQuery ou Snowflake, com ingestão automática de produção, mais CRM, mais financeiro. Dashboards centrais: receita, retenção, CAC e LTV, churn, e pipeline. Atualizados diariamente. Acesso controlado: nem todos precisam ver tudo. Cultura de "dados antes de opinião": decisões grandes são acompanhadas de análise de dado antes.
@@ -276,15 +268,6 @@ Quando algo dá errado (produto cai, cliente grande cancela, incidente de segura
 
 > [!important] Cultura de erro
 > Cultura que pune erro gera ocultamento. Cultura que aprende do erro gera resiliência.
-
-### O Interrogatório de Prontidão Operacional da Sua Scaleup
-
-- Tenho cadência semanal, trimestral, e anual formalizada?
-- Os meus OKRs descrevem mudança, ou são KPIs disfarçados?
-- Quais processos críticos ainda são "no implícito", e precisam virar playbook?
-- A minha stack está enxuta (doze a quinze ferramentas), ou inflada?
-- Pessoas entrando hoje conseguem saber o que está acontecendo em menos de uma semana?
-- Quando o produto caiu da última vez, o que aprendemos formalmente?
 
 ### A Prova Material de Maturidade: O Que Precisa Estar Rodando Sem o Fundador na Sala
 
@@ -402,28 +385,6 @@ Feche a planilha de metas e encare a verdade nua da sua operação hoje:
 
 **O Ritual de Segunda-Feira às 9h:** Cancele todas as reuniões recorrentes de status sem pauta escrita e institua a Weekly Business Review (WBR) de 60 minutos guiada exclusivamente por desvios em métricas antecedentes e planos de ação com dono e prazo.
 
-> [!abstract] Resumo operacional — Fase 17
-> - **Entregável principal:** Sistema operacional de gestão em escala (cadência em 3 camadas, OKRs trimestrais e anuais, 10 processos críticos documentados, *stack* de dados e cultura de *blameless post-mortems*).
-> - **Sinais de saída:** Empresa opera por 30 dias sem intervenção tática diária do fundador; 100% dos times com OKRs claros e *Weekly Business Review* rodando no ritmo; incidentes críticos documentados com causa-raiz e prevenção.
-> - **Três armadilhas mais comuns:** (1) Burocratizar antes da hora (processo para proteger incompetência em vez de dar velocidade); (2) Transformar OKRs em lista de tarefas ou atrelá-los mecanicamente a bônus individual; (3) Deixar a comunicação interna quebrar na passagem de 20 para 100 pessoas.
-
----
-
-### Abrindo a Oficina de Trincheira desta Fase
-
-Quatro essenciais para a fase. Templates: [[#Template: OKR Cascade Anual|Template: OKR Cascade Anual]] e [[#Template: Post-Mortem de Incidente Técnico|Template: Post-Mortem de Incidente Técnico]].
-
-**Essenciais para a Fase 17:**
-
-- **OKRs** (Andy Grove, John Doerr) — Objectives qualitativos + Key Results quantitativos trimestrais. Ambiciosos (70% de atingimento é meta). Desacoplados de bônus. [[#Framework: OKRs — Objectives and Key Results (Andy Grove, 1970s; John Doerr, popularizou)|Framework: OKRs — Objectives and Key Results (Andy Grove, 1970s; John Doerr, popularizou)]].
-- **Scaling Up / Rockefeller Habits** (Verne Harnish, 2014) — People, Strategy, Execution, Cash. OPSP de uma página. Para 20-2000 funcionários. [[#Framework: Scaling Up / Rockefeller Habits (Verne Harnish, 2014)|Framework: Scaling Up / Rockefeller Habits (Verne Harnish, 2014)]].
-- **Amazon 6-Pager** (Bezos) — documento narrativo de seis páginas substitui PowerPoint. Primeiros 20 minutos em leitura silenciosa. Para decisões estratégicas grandes. [[#Framework: Amazon 6-Pager (Jeff Bezos, Amazon)|Framework: Amazon 6-Pager (Jeff Bezos, Amazon)]].
-- **DORA Metrics e SPACE Framework** (Forsgren et al.) — Deployment Frequency, Lead Time, Change Failure Rate, Time to Restore. Para engineering performance. [[#Framework: DORA Metrics (Forsgren, Humble, Kim, 2014); SPACE Framework (Forsgren, Storey et al., 2021)|Framework: DORA Metrics (Forsgren, Humble, Kim, 2014); SPACE Framework (Forsgren, Storey et al., 2021)]].
-
-**Complementares (consulte conforme o caso):**
-
-- V2MOM (Benioff/Salesforce), OGSM, EOS/Tração (Wickman), MBO (Drucker), Scrum, Kanban, Weekly Business Review (Amazon), 4 Disciplines of Execution (4DX), Hoshin Kanri (cascata com catchball), Balanced Scorecard (Kaplan/Norton), Lean Analytics (Croll/Yoskovitz, OMTM), Value Stream Mapping, Toyota Kata. Detalhamento passo a passo na subseção **[[#MANUAL PASSO A PASSO DOS FRAMEWORKS DESTA FASE|Manual Passo a Passo dos Frameworks desta Fase]]** logo a seguir.1 a [[#Framework: Toyota Kata (Mike Rother, 2010)|Framework: Toyota Kata (Mike Rother, 2010)]].
-
 ---
 
 ### MANUAL PASSO A PASSO DOS FRAMEWORKS DESTA FASE
@@ -439,7 +400,7 @@ Teresa Torres, coach de produto com carreira em empresas como SurveyMonkey e Hub
 
 ##### A mecânica central (sem jargão)
 
-Framework de **descoberta contínua** de produto (em oposição a descoberta em projetos pontuais). Tese central: times de produto devem ter **contato semanal com clientes** e **estruturar aprendizado** em torno de uma ferramenta visual, a **Opportunity Solution Tree** (Framework: Opportunity Solution Tree (Teresa Torres) (Fase 17)).
+Framework de **descoberta contínua** de produto (em oposição a descoberta em projetos pontuais). Tese central: times de produto devem ter **contato semanal com clientes** e **estruturar aprendizado** em torno de uma ferramenta visual, a **Opportunity Solution Tree** (Framework: Opportunity Solution Tree (Teresa Torres) (Fase 9)).
 
 ##### As regras do jogo
 
@@ -493,15 +454,6 @@ Resultado: setup pré-populado resolve 70% dos casos, concierge para os 30% rest
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
 Entrevistas eventuais: ritual de 1x por trimestre não gera continuous discovery. OST no papel, decisões no ad-hoc: árvore decorativa, time decide por outros critérios. Uma solução por oportunidade: elimina comparação, primeiro pensamento nem sempre é melhor. Pular assumption test: constrói feature grande, descobre que premissa base era falsa. Time output-oriented: mede "features entregues", não impacto em métrica.
-
-##### Quando deixar esta ferramenta na gaveta
-
-Pré-PMF em fase de descoberta ampla, Teresa recomenda framework mais exploratório primeiro, Times muito pequenos sem PM dedicado, difícil manter cadência.
-
-##### Para ir mais fundo na fonte original
-
-- Torres, T. (2021). *Continuous Discovery Habits*. Product Talk.
-- Blog producttalk.org (Teresa Torres, artigos e vídeos regulares).
 
 ---
 
@@ -567,14 +519,6 @@ Cooldown de 2 semanas: tech debt, bugs, exploração.
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
 Ciclo de 6 semanas com adições no meio: destrói o método, Shaping superficial: projeto começa com problema vago, termina em confusão, Time sem autonomia real: micromanagement quebra o princípio, Aplicar a time muito grande: Shape Up funciona melhor em times de 3-15 pessoas, em escala grande, adaptações são necessárias.
-
-##### Quando deixar esta ferramenta na gaveta
-
-Startup pré-PMF com pivot frequente, Contextos regulatórios com sprint obrigatório (ex.: governo), Times sem maturidade para autonomia.
-
-##### Para ir mais fundo na fonte original
-
-- Singer, R. (2019). *Shape Up*. basecamp.com/shapeup (gratuito).
 
 ---
 
@@ -644,14 +588,6 @@ Processo: liderança lê PR-FAQ, pergunta questões difíceis antes de aprovar, 
 
 Deck em vez de documento: slides simplificam demais, escrita força raciocínio, PR vaga: "revolucionaria", "incrível", sem especificidade, FAQ só com perguntas fáceis: evita dificuldades, fraqueza em raciocínio, Pular PR-FAQ para "ir mais rápido": ironia, pula rigor, constrói errado, refaz.
 
-##### Quando deixar esta ferramenta na gaveta
-
-Decisões pequenas/táticas (overhead desnecessário), Produtos já validados em iteração pequena.
-
-##### Para ir mais fundo na fonte original
-
-- Bryar, C. & Carr, B. (2021). *Working Backwards*. St. Martin's Press.
-
 ---
 
 #### Framework: Stage-Gate Process (Robert Cooper, 1986)
@@ -710,15 +646,6 @@ Resultado: 1 em 40 chega ao mercado, mas com alta probabilidade de sucesso. Inve
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
 Gates como formalidade: todos passam, sem filtro real, Critérios subjetivos: "executivo gostou" não é critério, Rígido demais em contextos digitais: lean/agile são mais adequados para software em muitos casos.
-
-##### Quando deixar esta ferramenta na gaveta
-
-Software SaaS early-stage (iteração rápida é melhor), Contextos muito incertos onde "critérios" são artificiais.
-
-##### Para ir mais fundo na fonte original
-
-- Cooper, R. G. (1986, multiple editions). *Winning at New Products*. Basic Books.
-- Cooper, R. (2017). "Stage-Gate for the Digital Age", versão atualizada.
 
 ---
 
@@ -779,15 +706,6 @@ Flow: feature idea → validada em discovery → entra em backlog de delivery �
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
 Discovery cosmético: PM "valida" via opinião de colegas em vez de usuários, Delivery constrói sem validação: engineering em sprint enquanto descoberta é ignorada, Um track só: empresa diz "fazemos dual track" mas discovery some.
-
-##### Quando deixar esta ferramenta na gaveta
-
-Times muito pequenos (< 5) sem recursos para dois tracks, Contextos muito regulamentados onde escopo é imposto externamente.
-
-##### Para ir mais fundo na fonte original
-
-- Cagan, M. (2017). *Inspired* (2nd ed.). Wiley.
-- Cagan, M. & Jones, C. (2020). *Empowered*. Wiley.
 
 ---
 
@@ -855,16 +773,6 @@ Check-ins semanais. Ao fim de Q2: KR1 = 1.0 (hit). KR2 = 0.7 (22k). KR3 = 0.5 (6
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
 OKRs safety ("sandbagging"): metas fáceis para "bater 100%". Sinal: atingimento médio é 95%+, ambição baixa, Todo mundo com 10+ OKRs: dilui foco. 3-5 por time é teto, KRs como tarefas: "entregar feature X" é task, não KR. KR é resultado mensurável, Conectar OKR a bônus: distorce comportamentos, Sem check-ins: OKRs ficam esquecidos, revisão só no fim do trimestre = reativo demais, Copiar da Google sem adaptar: métodos operacionais precisam tunning local.
-
-##### Quando deixar esta ferramenta na gaveta
-
-Startups pré-PMF com alta incerteza (trimestres inteiros podem mudar direção), Empresas muito pequenas (< 10 pessoas), overhead relativo alto, Ambientes com cultura rígida de cumprir-metas-ou-demissão (causará sandbagging).
-
-##### Para ir mais fundo na fonte original
-
-- Doerr, J. (2018). *Measure What Matters*. Portfolio.
-- Grove, A. (1983). *High Output Management*. Vintage.
-- Site whatmatters.com (recursos de Doerr).
 
 ---
 
@@ -944,15 +852,6 @@ Measures:
 
 V sem verdade: vision é aspiracional mas precisa ser genuína. Copy-paste de outras empresas, Values que não pautam decisões reais: valores decoração, Methods desconectadas de obstacles: "vamos crescer 5x" sem addressing o obstáculo que impede, V2MOM sem cascata: documento do CEO, times operam sem referência.
 
-##### Quando deixar esta ferramenta na gaveta
-
-Empresas que preferem frameworks mais focados (OKR trimestral), Contextos de alta incerteza onde Vision de 3-5 anos é ficção.
-
-##### Para ir mais fundo na fonte original
-
-- Benioff, M. (2019). *Trailblazer*. Currency.
-- Blog Salesforce (materiais internos tornados públicos sobre V2MOM).
-
 ---
 
 #### Framework: EOS / tração (Gino Wickman, 2007)
@@ -1021,15 +920,6 @@ Resultado após 12 meses: receita +35%, margem +8 pp, retenção de funcionário
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
 EOS parcial: implementar só L10 meeting sem V/TO, rocks, scorecard, fica sem força. Sem Implementer (DIY): maioria das PMEs não consegue implementar sozinhas, custa tempo que vale investir em coach. L10 meeting virando chat: estrutura rígida existe por razão. Rocks virando to-do list: rocks são prioridades grandes, não 50 micro-tarefas.
-
-##### Quando deixar esta ferramenta na gaveta
-
-Tech startups com alta incerteza (OKR é mais ágil), Empresas muito pequenas (< 10 pessoas), Empresas > 300 pessoas (Scaling Up é superior).
-
-##### Para ir mais fundo na fonte original
-
-- Wickman, G. (2007). *tração*. BenBella Books.
-- eosworldwide.com (recursos oficiais).
 
 ---
 
@@ -1104,15 +994,6 @@ Passo 4, Cash: Cash Conversion Cycle monitorado semanalmente.
 
 Meeting rhythm sem rigor: cancela weekly, daily vira desmotivado, OPSP decorativa: preenche, ninguém olha, People sem accountability: "todo mundo ajuda" vira "ninguém responsável", Implementar sem coach: Harnish enfatiza coaching.
 
-##### Quando deixar esta ferramenta na gaveta
-
-Empresas < 20 pessoas (overhead), Startups early-stage com pivots frequentes.
-
-##### Para ir mais fundo na fonte original
-
-- Harnish, V. (2014). *Scaling Up*. Gazelles.
-- scalingup.com (ferramentas).
-
 ---
 
 #### Framework: Management by Objectives (Peter Drucker, 1954)
@@ -1164,15 +1045,6 @@ Passo 4, Feedback constante.
 
 MBO antigo focado só em output quantitativo: pode distorcer (tipos específicos de trabalho não são 100% quantificáveis). Top-down sem participação: Drucker original enfatizava acordo mútuo.
 
-##### Quando deixar esta ferramenta na gaveta
-
-Substituído em contexto moderno por OKRs em maior parte dos casos.
-
-##### Para ir mais fundo na fonte original
-
-- Drucker, P. (1954). *The Practice of Management*. Harper & Brothers.
-- Drucker, P. (1999). *Management Challenges for the 21st Century*.
-
 ---
 
 #### Framework: Scrum (Jeff Sutherland & Ken Schwaber, 1995)
@@ -1222,15 +1094,6 @@ Passo 5, Próximo sprint começa imediatamente.
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
 Scrum em nome só: "daily sync" sem disciplina vira status update teatral, Sprint virando micro-waterfall: tudo planejado cedo, sem adaptação, Scrum Master como tech lead: papéis confundidos, Ignorar retrospective: melhoria contínua morre, Estimativas em horas: Scrum usa story points para abstrair incerteza.
-
-##### Quando deixar esta ferramenta na gaveta
-
-Contextos não-iterativos (operações, atendimento ao cliente), Times pequenos muito maduros (menos overhead ajuda), Contextos com scope muito instável (Kanban pode ser melhor).
-
-##### Para ir mais fundo na fonte original
-
-- Sutherland, J. (2014). *Scrum: The Art of Doing Twice the Work in Half the Time*. Crown Business.
-- Scrum Guide (scrumguides.org, gratuito, atualizado).
 
 ---
 
@@ -1292,15 +1155,6 @@ Após 3 meses: cycle time médio 5 dias → 1.8 dias. SLA cumprido 94% → 99%.
 
 Kanban sem WIP limit: vira só board bonito, fluxo não melhora, WIP limit sem rigor: excedido rotineiramente "só hoje", Sem métricas: não monitora cycle time, throughput, não sabe se melhorou.
 
-##### Quando deixar esta ferramenta na gaveta
-
-Contextos que exigem comprometimento de prazo fixo (projetos complexos pode precisar Scrum).
-
-##### Para ir mais fundo na fonte original
-
-- Anderson, D. (2010). *Kanban*. Blue Hole Press.
-- Ohno, T. (1988). *Toyota Production System*. Productivity Press.
-
 ---
 
 #### Framework: DORA Metrics (Forsgren, Humble, Kim, 2014); SPACE Framework (Forsgren, Storey et al., 2021)
@@ -1350,11 +1204,6 @@ Passo 5, SPACE complementa com dimensões mais suaves.
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
 Medir só Activity: commits/dia é vanity, diz pouco sobre valor entregue, Otimizar uma métrica isoladamente: subir deploy freq sem cuidar de CFR = caos, Ignorar satisfação: equipes exaustas têm métricas boas hoje, colapso amanhã.
-
-##### Para ir mais fundo na fonte original
-
-- Forsgren, N., Humble, J. & Kim, G. (2018). *Accelerate*. IT Revolution.
-- GitHub State of the Octoverse (dados anuais).
 
 ---
 
@@ -1408,10 +1257,6 @@ Proposta para investir R$ 2M em novo mercado:
 
 Virar slide disfarçado: bullets longos fingindo ser prosa, Sem FAQ genuíno: "todas perguntas fáceis", reunião expõe fraqueza.
 
-##### Para ir mais fundo na fonte original
-
-- Bryar, C. & Carr, B. (2021). *Working Backwards*. St. Martin's.
-
 ---
 
 #### Framework: Weekly Business Review (Bezos/Amazon)
@@ -1448,10 +1293,6 @@ Passo 4, Decisões registradas.
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
 WBR vira reporting ritual: 2h de sludge sem decisão, Todos KPIs revisados superficialmente: prefira 3-5 em profundidade a 30 superficiais.
-
-##### Para ir mais fundo na fonte original
-
-- Bryar & Carr (2021). *Working Backwards*.
 
 ---
 
@@ -1502,10 +1343,6 @@ Após 3 meses: lead measures consistentemente batidos. MRR em trajetória +50%.
 
 Muitos WIGs: dilui foco, Lag measures como lead: "vamos olhar MRR" sem identificar inputs, Scoreboard escondido: funcionários não veem progresso.
 
-##### Para ir mais fundo na fonte original
-
-- McChesney, C., Covey, S. & Huling, J. (2012). *The 4 Disciplines of Execution*. Free Press.
-
 ---
 
 #### Framework: SIPOC (Motorola, anos 1980)
@@ -1527,14 +1364,6 @@ Exemplo aplicado, Onboarding de novo cliente SaaS. Suppliers: Sales (info do cli
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
 Processo detalhado demais (mais que 7 passos), SIPOC perde função de visão de alto nível, esquecer Suppliers externos (fornecedores que travam processo se falham), não validar com quem executa (SIPOC criado por gestão sem confirmação operacional frequentemente está errado).
-
-##### Quando deixar esta ferramenta na gaveta
-
-Quando análise detalhada de fluxo já foi feita (SIPOC é predecessor, não substituto), processos pequenos onde 1 página de documentação é overkill.
-
-##### Para ir mais fundo na fonte original
-
-*The Six Sigma Handbook* (Thomas Pyzdek, 2018), materiais iSixSigma.com.
 
 ---
 
@@ -1562,14 +1391,6 @@ Exemplo aplicado, onboarding de SaaS B2B. Mapeamento revelou: lead tempo 23 dias
 
 (1) Mapear o processo ideal em vez do processo real — o VSM revela desperdício, não confirma que tudo está bem. (2) Granularidade excessiva — mapear cada micro-tarefa dilui o foco nos gargalos reais. (3) Criar VSM sem envolver quem executa — gestão frequentemente não sabe o que realmente acontece. (4) VSM como documento estático — deve ser revisitado trimestralmente. (5) Ignorar filas (inventário de trabalho) — o tempo entre etapas é frequentemente mais importante que o tempo dentro da etapa.
 
-##### Quando deixar esta ferramenta na gaveta
-
-Em processos altamente criativos e únicos onde padronização destrói valor (pesquisa, design exploratório). Em estágios muito iniciais onde o processo ainda está sendo descoberto — VSM pressupõe processo repetível. Para otimizações pontuais pequenas onde o overhead do mapeamento não compensa.
-
-##### Para ir mais fundo na fonte original
-
-Rother, M. & Shook, J. (1998). *Learning to See*. Lean Enterprise Institute. *This Is Lean* (Niklas Modig & Pär Åhlström, 2012) — versão mais acessível e aplicada a serviços.
-
 ---
 
 #### Framework: Toyota Kata (Mike Rother, 2010)
@@ -1596,14 +1417,6 @@ Exemplo aplicado, equipe de CS de scaleup de healthtech. Direção: "cada client
 
 (1) Confundir condição alvo com objetivo final — condição alvo é o próximo passo claro num caminho incerto, não a meta do trimestre. (2) Pular direto para solução sem entender condição atual — Toyota Kata começa com dados, não com ideias. (3) Coach que dá respostas — Coaching Kata desenvolve pensamento, coach que resolve problemas impede o desenvolvimento. (4) Ciclos PDCA longos demais — experimento deve ser testável em dias, não semanas. (5) Usar apenas Improvement Kata sem Coaching Kata — o primeiro sem o segundo não escala, o gestor vira gargalo.
 
-##### Quando deixar esta ferramenta na gaveta
-
-Em situações de crise aguda onde o problema é conhecido e a solução imediata — Toyota Kata é para melhoria contínua, não para gestão de incêndio. Para decisões estratégicas de alto impacto — use SPADE ou Playing to Win. Em equipes que ainda não têm processo mínimo definido — kata pressupõe algo a melhorar, não algo a criar do zero.
-
-##### Para ir mais fundo na fonte original
-
-Rother, M. (2010). *Toyota Kata*. McGraw-Hill. Rother, M. (2017). *The Toyota Kata Practice Guide*. McGraw-Hill. Blog: toyota-kata.com.
-
 ---
 
 #### Framework: Spotify Model (Henrik Kniberg & Anders Ivarsson, 2012)
@@ -1629,419 +1442,6 @@ Exemplo aplicado, Nubank em escala. Implementou versão customizada do Spotify M
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
 (1) Copiar estrutura sem cultura, o Spotify Model funciona parcialmente porque a Spotify tinha cultura de autonomia e confiança, implementar a estrutura em cultura de comando-e-controle produz teatro. (2) Virar religião, Spotify Model é uma forma, não a forma, a própria Spotify evoluiu e modificou. (3) Chapter Lead como gestor disfarçado, Chapter Lead deve ser mentor técnico, se vira gestor de performance, hierarquia dupla confunde reports. (4) Guilds forçadas, Guild funciona porque é voluntária. Guild obrigatória é comitê ruim. (5) Squad com missão vaga, "squad de melhorias do produto" não é missão, "squad de checkout com objetivo de aumentar conversão de 15 para 25%" é missão.
-
-##### Quando deixar esta ferramenta na gaveta
-
-Em organização pequena (< 30-50 pessoas), overhead da estrutura não compensa. Em indústria fortemente regulada onde aprovações centralizadas são obrigatórias (não dá para squad autônoma em farmacêutica aprovando próprios trials). Quando cultura subjacente é fortemente hierárquica e mudança cultural não faz parte da iniciativa.
-
-##### Para ir mais fundo na fonte original
-
-*Scaling Agile @ Spotify* (Kniberg & Ivarsson, 2012, white paper), *Team Topologies* (Matthew Skelton & Manuel Pais, 2019), evolução conceitual do Spotify Model, blog crisp.se (Kniberg).
-
----
-
-#### Framework: Hoshin Kanri (Japão, anos 1950-1970)
-
-##### De onde vem a ferramenta (e por que sobreviveu ao filtro do tempo)
-
-Hoshin Kanri ("gestão de direção") foi desenvolvido no Japão nos anos 1950-60, sintetizando contribuições americanas (Deming, Juran, Drucker, Sarasohn, Protzman) com a engenharia local liderada por Kaoru Ishikawa. O termo *hoshin kanri* foi cunhado em 1964 por Bridgestone Tire, que publicou o primeiro manual da metodologia em 1965 a partir de estudo das empresas vencedoras do Deming Prize. Toyota e Komatsu refinaram o método ao longo dos anos 1960-1970. Chegou ao ocidente nos anos 1980 via adoção de HP, Xerox, Florida Power & Light e outras. Hoje é o método preferido em empresas industriais japonesas e em algumas ocidentais como Danaher, Intel.
-
-##### A mecânica central (sem jargão)
-
-Sistema de **planejamento estratégico em cascata** que alinha toda a organização a 3-5 objetivos estratégicos de longo prazo (3-5 anos), desdobrados em metas anuais e atividades mensais. O **valor distintivo** é a **catchball**: negociação iterativa entre níveis (cima-baixo e baixo-cima) até alinhamento.
-
-##### As regras do jogo
-
-Componentes:
-
-1. True North (Norte Verdadeiro): aspiração de longo prazo (10+ anos), frequentemente inatingível. Orienta direção, não meta.
-2. Breakthrough Objectives: 3-5 objetivos estratégicos de 3-5 anos. São "quebra-paradigmas", não incrementais.
-3. Annual Objectives: desdobramento do breakthrough para o ano.
-4. Táticas (iniciativas) e Indicadores: como atingir anual + como medir.
-5. Reviews: mensais em todos os níveis.
-
-Catchball process: objetivos não são impostos. Liderança propõe, times revisam e propõem ajustes, ciclo de 2-4 rodadas até alinhamento. Isso gera comprometimento (accountability), diferentemente de objetivos "top-down puros" que geram compliance sem buy-in.
-
-##### Como rodar na segunda-feira às 9h com seu time
-
-Passo 1, Defina o True North (3-6 meses de trabalho executivo sênior).
-
-Passo 2, Identifique 3-5 Breakthrough Objectives (BOs): não mais. Cada BO deve exigir transformação real, não melhoria incremental.
-
-Passo 3, Cascateie via catchball. Equipe executiva propõe anual. VPs propõem como atingem, diretores propõem iniciativas, etc. Cada nível negocia com o acima.
-
-Passo 4, X-Matrix: ferramenta visual clássica que alinha, em uma única página, BOs, objetivos anuais, iniciativas, indicadores, e responsáveis. Tudo conecta.
-
-Passo 5, Revisão mensal em todos os níveis. Não é cadência de performance (exige compliance), é cadência de aprendizado.
-
-Passo 6, Anual review do Hoshin. O que funcionou? O que não? Ajustar BOs.
-
-##### Na trincheira real: como isso funciona na prática
-
-Empresa SaaS brasileira madura (R$ 120M ARR):
-
-- True North: ser a plataforma de gestão financeira mais adotada por PMEs brasileiras (10+ anos).
-- Breakthrough Objectives (3 anos):
-
- 1. Dobrar ARR mantendo margem bruta ≥ 75%.
- 2. Expandir LatAm (México + Colômbia).
- 3. Lançar vertical de crédito + folha integrada.
-
-- Annual Objectives (Ano 1):
-- Atingir R$ 180M ARR.
-- Validar entry em México com 100 clientes.
-- Lançar Crédito Beta com 500 clientes.
-- Iniciativas: hire Head of LatAm, parceiria com banco para Crédito, consolidar onboarding digital.
-- Indicadores: MRR, NPS, NRR, cobertura de pipeline LatAm.
-
-##### Onde o papel aceita tudo (armadilhas de execução)
-
-BOs ambíguos: "melhorar qualidade" é slogan, não é Hoshin. Precisa ser testável, Mais de 5 BOs: destrói foco, Catchball ignorado: objetivos impostos sem negociação = Hoshin em nome, comando-e-controle na prática, X-Matrix decorativa: se não conecta, não é X-Matrix, Revisões pulam níveis: cascata exige revisão em todos os níveis, Adotado sem cultura de aprendizagem: Hoshin pressupõe que "falha é aprendizado", não "punição". Sem essa cultura, catchball vira farsa.
-
-##### Quando deixar esta ferramenta na gaveta
-
-Startup pré-PMF: Hoshin é de escala (empresas de 100+ pessoas, usualmente 500+), Culturas muito hierárquicas/punitivas: catchball não funciona.
-
-##### Para ir mais fundo na fonte original
-
-- Jackson, T. (2006). *Hoshin Kanri for the Lean Enterprise*. Productivity Press.
-- Akao, Y. (1991). *Hoshin Kanri: Policy Deployment for Successful TQM*. Productivity Press.
-
----
-
-#### Framework: Opportunity Solution Tree (Teresa Torres)
-
-##### De onde vem a ferramenta (e por que sobreviveu ao filtro do tempo)
-
-Teresa Torres desenvolveu OST ao longo dos anos 2010s, consolidando em *Continuous Discovery Habits*. Inspirada em work breakdown structures e em árvores de decisão, adaptada para discovery de produto.
-
-##### A mecânica central (sem jargão)
-
-Ferramenta visual em formato de árvore que conecta:
-
-- Outcome desejado (topo).
-- Opportunities (necessidades/dores do cliente que, se endereçadas, movem o outcome).
-- Solutions (ideias de como endereçar cada oportunidade).
-- Experiments (como testar cada solução).
-
-##### As regras do jogo
-
-```text
- OUTCOME
- |
- ----------------------------------------
- | | | |
-OPPORTUNITY 1 OPPORTUNITY 2 OPPORTUNITY 3...
- | | |
- --- --- ---
- | | |
-SOLUTION A SOLUTION B SOLUTION C
- | | |
-EXPERIMENT EXPERIMENT EXPERIMENT
-```
-
-Princípios-chave:
-
-- Oportunidades vêm de pesquisa com clientes, não de brainstorm interno.
-- Múltiplas soluções por oportunidade: força comparação.
-- Priorização por impacto no outcome, não por "ideia mais legal".
-- Experimentos vêm antes de execução completa.
-
-##### Como rodar na segunda-feira às 9h com seu time
-
-Passo 1, Formule outcome mensurável.
-
-Passo 2, Colete oportunidades via entrevistas com clientes (não speculation).
-
-Passo 3, Para cada oportunidade, gere 3-5 soluções.
-
-Passo 4, Priorize oportunidades por impacto potencial no outcome.
-
-Passo 5, Para oportunidade top, priorize solução com melhor risk/reward.
-
-Passo 6, Desenhe experimento mais rápido/barato para testar premissas.
-
-Passo 7, Atualize árvore com aprendizados.
-
-##### Na trincheira real: como isso funciona na prática
-
-OST para outcome "aumentar NRR de 95% para 110%":
-
-- Oportunidade 1: clientes não descobrem features avançadas (NRR impactado por baixo engagement).
-- Solução 1.1: tutorial contextual.
-- Solução 1.2: emails de ativação segmentados.
-- Solução 1.3: AI-recommended features.
-- Experimento prioritário: A/B test de 1.2 (mais simples, menor risco).
-
-- Oportunidade 2: preços dos upgrades desconhecidos.
-- Solução 2.1: página de pricing na app.
-- Solução 2.2: in-app prompts para upgrade.
-- Experimento: 2.1 primeiro.
-
-- Oportunidade 3: contato com CS só na crise (não expansion).
-- Solução 3.1: QBRs proativos.
-- Solução 3.2: health score + outreach.
-- Experimento: 3.2.
-
-##### Onde o papel aceita tudo (armadilhas de execução)
-
-Oportunidades = features: oportunidade é problema/necessidade do cliente, feature é solução, Árvore estática: não atualiza com pesquisa contínua, Soluções pré-decididas: árvore é retroajustada para justificar decisão.
-
-##### Quando deixar esta ferramenta na gaveta
-
-Pré-PMF onde outcome ainda é ambíguo, Times que ainda não têm disciplina de discovery contínuo.
-
-##### Para ir mais fundo na fonte original
-
-- Torres, T. (2021). *Continuous Discovery Habits*. Product Talk.
-
----
-
-### CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)
-
-#### Canvas: Team Canvas (Alex Ivanov, 2015)
-
-##### Por que este quadro visual foi criado
-
-Alex Ivanov, designer e facilitador russo, publicou o Team Canvas em 2015 como resposta a um problema recorrente em workshops de times: grupos saíam de reuniões de alinhamento com a sensação de que "conversamos muito, mas não sabemos exatamente o que foi decidido nem quem é responsável por quê". O Team Canvas é inspirado no Business Model Canvas de Osterwalder mas voltado para dentro — não para o modelo de negócio, mas para o modelo do time. Parte da premissa de que um time é uma organização em miniatura: tem propósito, papéis, recursos (as pessoas), canais de comunicação, e estrutura de valor (o que cada membro dá e recebe). Sem tornar esse modelo explícito, o time opera com pressupostos implícitos que geram conflito, retrabalho e desengajamento. O Team Canvas tornou o exercício de alinhamento de time replicável em 60-90 minutos.
-
-##### A anatomia visual de uma página
-
-Tela visual de uma página com **nove blocos** organizados em torno do time como unidade central:
-
-- **People & Roles**: quem são as pessoas, qual papel cada uma exerce no time (não o cargo formal — o papel funcional real).
-- **Common Goals**: quais são os objetivos compartilhados do time para o próximo período. Distingue de objetivos individuais.
-- **Personal Goals**: o que cada membro quer pessoalmente ganhar com esse trabalho (desenvolvimento, visibilidade, dinheiro, aprendizado). Frequentemente não dito.
-- **Purpose**: por que esse time existe? Qual é o propósito que vai além das metas operacionais?
-- **Values**: quais são os valores que o time quer viver — não os valores corporativos genéricos, mas os que esse time específico prioriza no trabalho conjunto.
-- **Strengths & Assets**: o que o time tem de melhor — habilidades, experiências, redes, recursos.
-- **Weaknesses & Risks**: onde o time é fraco ou onde existe risco de conflito.
-- **Needs & Expectations**: o que cada membro precisa dos outros para trabalhar bem. Acordos explícitos.
-- **Rules & Activities**: como o time trabalha — rituais, cadências, normas de comunicação, processos de decisão.
-
-```mermaid
-flowchart TB
-    subgraph Pessoas["Quem somos"]
-        direction LR
-        PR["👥 People & Roles<br/>Papéis funcionais"]
-        PG["🎯 Personal Goals<br/>O que cada um quer"]
-    end
-    subgraph Propósito["Por que existimos"]
-        direction LR
-        CG["🏆 Common Goals<br/>Objetivos compartilhados"]
-        PU["💡 Purpose<br/>Razão de ser"]
-        VA["❤️ Values<br/>O que priorizamos"]
-    end
-    subgraph Capacidade["O que temos"]
-        direction LR
-        SA["💪 Strengths<br/>& Assets"]
-        WR["⚠️ Weaknesses<br/>& Risks"]
-    end
-    subgraph Acordos["Como trabalhamos"]
-        direction LR
-        NE["🤝 Needs<br/>& Expectations"]
-        RA["📋 Rules<br/>& Activities"]
-    end
-    Pessoas --> Propósito --> Capacidade --> Acordos
-```
-
-##### O momento exato de colocar este canvas na parede
-
-Use o Team Canvas na Fase 14 (escala e time) como artefato de onboarding de novos squads ou ao montar equipe de liderança expandida. Use também em momentos de ruptura: entrada de cofundador ou C-level novo, fusão de times após aquisição, reorganização de squads. Em times de 3-8 pessoas, o canvas pode ser preenchido em sessão única de 90 minutos. Em times maiores, faça por squad e depois alinhe os Common Goals e Values entre squads.
-
-##### As regras de ouro para preencher sem se enganar
-
-A tese de Ivanov é que **conflito de time frequentemente não é conflito de personalidade — é conflito de pressupostos não declarados**. Dois co-fundadores que não conversaram sobre Personal Goals assumem que o outro quer a mesma coisa (crescimento acelerado vs. lifestyle company; vender em 5 anos vs. construir por 20). Dois engenheiros que não conversaram sobre Needs & Expectations têm expectativas diferentes sobre code review, autonomia, e prazo. O Team Canvas torna esses pressupostos visíveis antes de se tornarem conflito. **A sessão de preenchimento é mais valiosa que o artefato preenchido** — o que emerge na conversa é o trabalho, não o documento final.
-
-##### Passo a passo na parede da sala (30 a 60 minutos)
-
-Sessão presencial ou remota (Miro, Mural, FigJam). Facilitador (pode ser o próprio fundador, mas facilita melhor quem não está no canvas). 60-90 minutos para times pequenos (3-6 pessoas); 120-150 minutos para times maiores (6-12).
-
-1. **People & Roles** (10 min) — cada pessoa escreve seu nome e o papel funcional real (não o cargo): "sou quem toma decisão técnica final" / "sou quem mantém relação com os clientes âncora".
-2. **Personal Goals** (15 min) — individualmente primeiro, depois compartilha. O que cada pessoa quer ganhar pessoalmente com esse trabalho nos próximos 12 meses? Dinheiro? Aprendizado? Visibilidade? Espaço para criar? Sem julgamento.
-3. **Common Goals** (15 min) — o que o time quer alcançar *junto*? 3-5 objetivos específicos para o próximo semestre. Discutir até consenso real.
-4. **Purpose** (10 min) — por que esse time existe além das metas? Qual seria a perda para o mundo se esse time parasse de existir?
-5. **Values** (10 min) — quais 3-5 valores o time quer praticar no trabalho conjunto? Votar, depois discutir os que geraram divergência.
-6. **Strengths & Assets / Weaknesses & Risks** (15 min) — o que o time tem de excelente e onde é vulnerável. Honestidade é o requisito — equipe que só lista forças não faz o exercício.
-7. **Needs & Expectations** (10 min) — o que cada pessoa precisa dos outros para trabalhar bem. "Preciso de feedback direto, sem rodeios." "Preciso de autonomia sobre decisões de design." Acordos explícitos.
-8. **Rules & Activities** (10 min) — rituais, cadências, normas. Stand-up diário ou não? Code review obrigatório ou não? Decisão por consenso ou por voto?
-
-Após a sessão: registrar o canvas, colocar visível, revisitar em 3-6 meses.
-
-##### Exemplo brasileiro preenchido — Loggi, formação do squad de expansão nacional (2019)
-
-Quando a Loggi decidiu expandir de São Paulo para 15 cidades em 12 meses (2019), formou um squad de expansão composto por pessoas de produto, operações, dados e comercial que nunca tinham trabalhado juntas. O Team Canvas da sessão inicial:
-
-| Bloco | Conteúdo |
-|---|---|
-| **People & Roles** | PM (decisão de produto e priorização), líder de operações (viabilidade logística e parcerias locais), data analyst (modelo de precificação e projeção de demanda), comercial B2B (clientes-âncora em cada cidade), engenheiro de backend (adaptações de sistema por região). |
-| **Personal Goals** | PM: "quero aprender como se escala operação física, não só digital." Ops: "quero provar que consigo gestão multi-regional." Data: "quero usar modelos preditivos em decisão real, não só relatório." Comercial: "quero virar head de vendas regionais." Engenheiro: "quero ter mais influência na arquitetura." |
-| **Common Goals** | (1) 15 cidades ativas em 12 meses. (2) NPS de entregadores ≥ 45 em todas as cidades ao fim do mês 3. (3) CAC de lojista ≤ R$ 800 nos novos mercados. (4) Tempo de onboarding de cidade ≤ 6 semanas. |
-| **Purpose** | "Tornar entrega rápida acessível para qualquer lojista no Brasil, não só em SP." |
-| **Values** | (1) Velocidade sobre perfeição. (2) Dados antes de opinião. (3) Transparência sobre problemas cedo — sem surpresas tardias. (4) Respeito pela operação local — cada cidade tem suas particularidades. |
-| **Strengths & Assets** | Produto já validado em SP com >18 meses de dados. Marca forte entre entregadores paulistanos. Time com histórico de execução em ambiente caótico. |
-| **Weaknesses & Risks** | Ninguém do squad conhece os mercados-alvo (Recife, BH, Porto Alegre). Risco de replicar o modelo SP sem adaptar. Tensão potencial entre velocidade de expansão (PM + comercial) e qualidade operacional (ops + engenheiro). |
-| **Needs & Expectations** | PM precisa de dados do ops *antes* de priorizar features. Ops precisa de 2 semanas de lead time para qualquer mudança de processo. Data precisa de acesso a dados brutos, sem camadas de abstração. Comercial precisa de suporte de produto para reuniões com clientes grandes. Engenheiro precisa de critério claro de "done" antes de começar cada sprint. |
-| **Rules & Activities** | Weekly de 45 min às segundas (sem slides — só dados + decisões). Slack para comunicação assíncrona (resposta em até 4h em horário comercial). Decisão técnica: engenheiro tem veto. Decisão de produto/prioridade: PM tem última palavra. Decisão de operação: ops tem última palavra. Conflicts escalados para o trio PM + ops + comercial em 24h. |
-
-**Insight do caso.** O bloco que gerou mais conversa foi **Personal Goals** — especialmente o engenheiro que queria "mais influência na arquitetura" e o PM que assumia que o engenheiro estava "só para implementar". Sem o Team Canvas, essa tensão teria emergido na primeira divergência de sprint. Com o canvas, o time chegou a um acordo explícito: o engenheiro entra na reunião de priorização com voto consultivo sobre viabilidade técnica, e o PM explica as decisões de "não agora" com contexto de negócio. **A lição: o conflito mais destrutivo em times de startup é o conflito sobre quem decide o quê. Team Canvas não resolve o conflito — antecipa a conversa e torna o acordo explícito antes que o conflito aconteça.**
-
-##### Variações e extensões
-
-- **Team Canvas Basic**: versão simplificada com apenas 5 blocos (Goals, Roles, Values, Needs, Rules) — para times muito pequenos (2-3 pessoas) ou sessões rápidas de 45 minutos.
-- **Squad Health Check** (Spotify): complemento do Team Canvas — avalia periodicamente a saúde do time em dimensões como Ownership, Speed, Fun, Learning. Útil para revisão trimestral.
-- **Working Agreements Canvas**: foco exclusivo em normas de trabalho — versão mais operacional que o Team Canvas completo.
-
-##### Onde os fundadores mentem para si mesmos neste canvas
-
-- Fazer o Team Canvas sem o bloco Personal Goals — é exatamente onde estão os pressupostos não declarados mais perigosos.
-- Facilitador que também está no canvas — difícil ser objetivo; terceiro facilita melhor.
-- Canvas como check-box burocrático (preencher por obrigação, nunca revisitar) — valor está na sessão e na revisão periódica, não no documento.
-- Confundir Values com slogan corporativo — "inovação", "integridade", "excelência" são valores genéricos que não guiam decisão real. "Velocidade sobre perfeição" ou "dados antes de opinião" são valores acionáveis.
-- Tratar o canvas como imutável — times mudam; refaça a cada 6 meses ou quando a composição muda significativamente.
-
-##### Quando este canvas atrapalha mais do que ajuda
-
-Em times de 1-2 pessoas (overhead não compensa). Em contextos onde há hierarquia rígida que impede honestidade nos blocos Personal Goals e Weaknesses (o canvas produz respostas performáticas, não reais). Em squads temporários de projeto com vida útil <3 meses — overhead de sessão pode não compensar.
-
-##### Como este quadro conversa com o resto da Oficina
-
-O Team Canvas **complementa o BMC (Fase 2)** e o **Lean Canvas (Fase 1)**: estes descrevem o modelo externo (o negócio); o Team Canvas descreve o modelo interno (o time que vai executar). **Orienta o Risk Canvas (Fase 12)** no bloco "Risco de equipe" — o Team Canvas é o diagnóstico; o Risk Canvas é a priorização e mitigação. **Precede o Storytelling Canvas (Fase 14)** em narrativas de expansão: time alinhado produz narrativa coerente; time desalinhado produz narrativa contraditória.
-
-##### Referências de cabeceira
-
-- [teamcanvas.com](https://www.teamcanvas.com) — Alex Ivanov mantém o site com templates e estudos de caso.
-- *The Five Dysfunctions of a Team* (Patrick Lencioni, 2002) — modelo de saúde de time que se integra ao Team Canvas.
-- *An Elegant Puzzle* (Will Larson, 2019) — engineering management com foco em time e alinhamento, relevante para squads técnicos.
-
----
-
-#### Canvas: Org Chart Evolution
-
-##### Por que este quadro visual foi criado
-
-O Org Chart Evolution não é canvas de um autor único — é síntese de observações empíricas de como as estruturas organizacionais de startups evoluem com o crescimento. O trabalho de Greiner (*Evolution and Revolution as Organizations Grow*, Harvard Business Review, 1972), de Brian Chesky (Airbnb) sobre recentralização em crise, e de Camille Fournier (*The Manager's Path*, 2017) sobre progressão técnica formam a base. O canvas foi desenvolvido como ferramenta diagnóstica para fundadores que precisam responder à pergunta "que estrutura organizacional corresponde ao meu estágio?"
-
-##### A anatomia visual de uma página
-
-Série de quatro diagramas que mostram como a estrutura da empresa deve evoluir em quatro estágios de crescimento, com os princípios de design organizacional subjacentes a cada transição.
-
-**Os quatro estágios:**
-
-```mermaid
-flowchart LR
-    S1["Estágio 1\nPré-PMF\n<15 pessoas\nTudo no fundador"]
-    S2["Estágio 2\nPós-PMF\n15-40 pessoas\nPrimeiros líderes"]
-    S3["Estágio 3\nEscala inicial\n40-150 pessoas\nSquads e áreas"]
-    S4["Estágio 4\nEscala avançada\n150-500 pessoas\nDivisões e P&L"]
-    S1 --> S2 --> S3 --> S4
-```
-
-##### Estágio 1 — Pré-PMF (< 15 pessoas)
-
-**Princípio:** Todos fazem tudo. O fundador é o CEO, o CPO, o head de vendas e às vezes ainda escreve código. Não há hierarquia — há comprometimento.
-
-```mermaid
-flowchart TD
-    CEO["CEO/Fundador(es)"]
-    CEO --> T1["Eng/Produto (1-3)"]
-    CEO --> T2["Vendas/CS (1-2)"]
-    CEO --> T3["Operações/Admin (1)"]
-```
-
-**O que não montar aqui:**
-
-- VPs ou Heads antes de ter ~10 pessoas diretas para eles gerenciarem
-- Comitês de decisão — o fundador decide, rápido
-- Departamentos de RH, Jurídico, Financeiro próprios — terceirize
-
-**Sinal de que é hora de passar para Estágio 2:** Fundador não consegue mais falar com cada pessoa da empresa toda semana.
-
-##### Estágio 2 — Pós-PMF (15–40 pessoas)
-
-**Princípio:** Contratar os primeiros líderes funcionais. Eles ainda executam — não são gestores puros. O fundador ainda decide tudo estratégico, mas libera espaço operacional.
-
-```mermaid
-flowchart TD
-    CEO["CEO"]
-    CEO --> VP1["Head of Product\nou CTO"]
-    CEO --> VP2["Head of Sales\nou Head of Growth"]
-    CEO --> VP3["Head of Ops\nou COO eventual"]
-    VP1 --> E1["Eng 1"] & E2["Eng 2"] & E3["PM 1"]
-    VP2 --> S1["AE 1"] & S2["AE 2"] & S3["CS 1"]
-    VP3 --> O1["Ops 1"] & O2["Fin/Admin"]
-```
-
-**O que não montar aqui:**
-
-- Mais de 3-4 reports diretos do CEO — limite cognitivo real
-- Processo de performance review formal antes de 25 pessoas — overhead injustificado
-- Departamentos separados de Marketing, Brand, PR — concentre em Growth/Revenue
-
-**Sinal de que é hora de passar para Estágio 3:** Produto ou vendas têm mais de 8-10 pessoas e o head não consegue gerenciar diretamente + há conflito de prioridades entre áreas sem fórum de resolução.
-
-##### Estágio 3 — Escala inicial (40–150 pessoas)
-
-**Princípio:** Squads autônomos orientados a resultado. O fundador/CEO gerencia líderes, não output direto. Rituais formais de alinhamento (OKRs, weekly leadership, quarterly planning).
-
-```mermaid
-flowchart TD
-    CEO["CEO"]
-    CEO --> CPO["CPO"]
-    CEO --> CTO["CTO"]
-    CEO --> CRO["CRO / VP Sales"]
-    CEO --> CFO["CFO"]
-    CEO --> COO["COO / VP Ops"]
-    CPO --> PM1["Squad: Onboarding"] & PM2["Squad: Core Product"] & PM3["Squad: Growth"]
-    CTO --> EM1["Squad: Platform"] & EM2["Squad: Infra"] & EM3["Squad: Mobile"]
-    CRO --> S1["AE Team"] & S2["CS Team"] & S3["Marketing"]
-    CFO --> F1["Finance"] & F2["BI/Analytics"]
-    COO --> O1["HR/People"] & O2["Legal"] & O3["Admin"]
-```
-
-**O que não montar aqui:**
-
-- Mais de 5-6 reports diretos do CEO — atenção fica diluída
-- Estrutura matricial complexa (funcional + por produto) — cria conflito de autoridade sem benefício
-- P&L separado por produto — ainda cedo para accountability de margem por divisão
-
-**Sinal de que é hora de passar para Estágio 4:** Mais de uma linha de produto / mercado com lógicas de go-to-market distintas, ou headcount acima de 150 com decisões cruzando mais de 3 camadas hierárquicas.
-
-##### Estágio 4 — Escala avançada (150–500 pessoas)
-
-**Princípio:** Divisões com P&L próprio. O CEO gerencia um "portfólio" de negócios, não um único produto. Cada divisão tem sua liderança completa. Governança corporativa formal (board, comitês, auditoria).
-
-```mermaid
-flowchart TD
-    CEO["CEO"]
-    CEO --> COO["COO\n(operações compartilhadas)"]
-    CEO --> CFO["CFO"]
-    CEO --> CHRO["CHRO"]
-    CEO --> DIV1["GM: Divisão A\n(produto principal)"]
-    CEO --> DIV2["GM: Divisão B\n(novo mercado)"]
-    CEO --> DIV3["GM: Divisão C\n(enterprise)"]
-    DIV1 --> D1["Product + Eng + Sales + CS"]
-    DIV2 --> D2["Product + Eng + Sales + CS"]
-    DIV3 --> D3["Product + Eng + Sales + CS"]
-    COO --> SH["Shared: Infra, Legal,\nFinance, HR, IT"]
-```
-
-##### Armadilhas transversais
-
-1. **Contratar sênior antes do time.** VP de Marketing sem time de marketing produz overhead e frustração. Contrate o líder quando já tem 3-5 pessoas para liderar.
-2. **Reorganizar em crise.** Reorg consome 3-6 meses de energia. Se a empresa está em crise, reorg piora antes de melhorar. Resolva o problema, depois reorganize.
-3. **Copiar estrutura de empresa maior.** Spotify Model, Amazon Two-Pizza Teams — são para outra escala. Em 30 pessoas, tribe e squad são burocracia vazia.
-4. **Manter estrutura de Estágio 1 na Fase de Escala.** Fundador que ainda gerencia 15 ICs diretamente a 50 pessoas é gargalo — não liderança.
-
-##### Como este quadro conversa com o resto da Oficina
-
-O Org Chart Evolution **complementa o Team Canvas (Fase 17)** — o Team Canvas define propósito e valores do time atual; o Org Chart Evolution define a estrutura que o time assume conforme cresce. **Alimenta o Capítulo 2 (Vol. 4) (Framework de Canais de Aquisição)** (organizações em escala) e as [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18 (Vol. 8)]] e [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16 (Vol. 6)]].
-
-##### Referências de cabeceira
-
-- *The Manager's Path* (Camille Fournier, 2017) — progressão de carreira técnica e estruturas de eng.
-- *High Output Management* (Andy Grove, 1983) — gestão por output, não por atividade.
-- [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 2 — FRAMEWORK DE CANAIS DE AQUISIÇÃO|Capítulo 2 — Organizações em escala: de 20 a 500 pessoas (Vol. 4)]].
 
 ---
 
@@ -2266,14 +1666,9 @@ Na **[[#FASE 17 — OPERAÇÕES, PROCESSOS E GESTÃO EM ESCALA|Fase 17]]**, voc�
 
 ---
 
-# PRODUTO EM ESCALA, ENGENHARIA DE SOFTWARE, DÍVIDA TÉCNICA E IA (CAPÍTULOS 1 A 7)
+# PRODUTO EM ESCALA, ENGENHARIA DE SOFTWARE, DÍVIDA TÉCNICA E IA (CAPÍTULOS 1 A 6)
 
-### Arquitetura deste Domínio: Produto em Escala, Engenharia de Software, Dívida Técnica e IA (Capítulos 1 a 7)
-
-Estes sete capítulos formam o manual integrado de liderança técnica e de produto quando a empresa precisa entregar velocidade de inovação e estabilidade de plataforma ao mesmo tempo:
-
-- **Produto e Liderança Técnica ([[#CAPÍTULO 1 — PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA|Capítulo 1]], [[#CAPÍTULO 2 — MANAGEMENT PARA O FUNDADOR TÉCNICO|Capítulo 2]], [[#CAPÍTULO 3 — RECRUTAMENTO TÉCNICO EM PROFUNDIDADE|Capítulo 3]] e [[#CAPÍTULO 4 — ENGINEERING MANAGEMENT: GESTÃO DO TIME TÉCNICO E DEVELOPER EXPERIENCE|Capítulo 4]]):** Como manter *discovery* contínuo e gerenciar portfólio entre múltiplos *squads* (Cap. 1), a transição do fundador desenvolvedor de contribuidor individual (IC) para líder de engenharia/CTO (Cap. 2), como avaliar e recrutar engenheiros excelentes mesmo se você não for técnico (Cap. 3) e como estruturar *Engineering Management*, trilhas de carreira (IC vs. Manager) e *Developer Experience / DevEx* (Cap. 4).
-- **Arquitetura, Dívida Técnica e IA Operacional ([[#CAPÍTULO 5 — TECHNICAL DEBT COMO DISCIPLINA GERENCIADA|Capítulo 5]], [[#CAPÍTULO 6 — IA NA ENGENHARIA INTERNA: COPILOT, AGENTES E PRODUTIVIDADE DE DEV|Capítulo 6]] e [[#CAPÍTULO 7 — AI OPS E AUTOMAÇÃO INTELIGENTE|Capítulo 7]]):** Como diagnosticar, negociar e pagar dívida técnica antes que o sistema pare (Cap. 5), como liderar times de engenharia potencializados por agentes de código e IA (Cap. 6) e como automatizar operações internas de ponta a ponta com *AI Ops* (Cap. 7).
+Estes seis capítulos formam o guia integrado de liderança técnica e de produto em escala: como operar *discovery* contínuo em múltiplos *squads*, fazer a transição de fundador técnico para gestor, recrutar engenheiros de elite, liderar a organização de engenharia pagando a dívida técnica com disciplina e multiplicar a capacidade de entrega com agentes de código e *AI Ops*.
 
 ---
 
@@ -2296,25 +1691,11 @@ As Fases 2 a 11 cobrem produto até o PMF: descoberta, validação, MVP, encaixe
 
 Este capítulo cobre como Product funciona em empresa pós-PMF escalando para cinquenta a duzentas pessoas, onde a disciplina que levou até aqui já não basta para o que vem a seguir.
 
-### Da Fábrica de Tickets à Arquitetura de Produto Orientada a Resultados (Outcomes)
-
-Cinco territórios em Product pós-PMF. Primeiro, descoberta contínua: pesquisa de usuário não para em PMF, evolui de exploratória para iterativa. Segundo, priorização com framework estruturado, não opinião do CEO ou HIPPO (Highest Paid Person's Opinion, opinião da pessoa mais bem paga). Terceiro, roadmap como comunicação de aposta, não contrato de entrega. Quarto, Design Systems (sistemas de design), infraestrutura de UI que permite velocity (velocidade de entrega) em escala. Quinto, colaboração entre Product e Engineering: ritos, specs (especificações), definition of ready e definition of done (critérios de pronto para começar e pronto para entregar).
-
-Os entregáveis são: opportunity solution tree (árvore de oportunidades) viva, framework de priorização aplicado, roadmap de três horizontes, design system documentado e processo de spec até implementação.
-
 ### Por Que Mais Engenheiros Frequentemente Produzem Piores Produtos
 
 Empresa em escala precisa de produto como disciplina, não como intuição. O que funcionou no founder sozinho não escala para quatro squads em paralelo. Sem descoberta contínua, a empresa vira feature factory (fábrica de funcionalidades), constrói o que stakeholders pedem, não o que gera valor.
 
 Priorização sem framework é política. Quem grita mais alto, ou tem mais acesso ao CEO, ganha. Isso destrói moral e qualidade. Design sem system vira caos visual. Inconsistência agride o usuário e consome velocity de engineering. Product e Engineering sem ritos viram retrabalho: specs vagas, entregas erradas, moral em queda.
-
-### O Ponto de Inflexão: De Um Time Fundador para Múltiplos Squads de Produto
-
-[[IGNICAO-Vol-4-Tracao-e-PMF#FASE 13 — PRODUCT-MARKET FIT|Fase 13 (Vol. 4)]], primeiras disciplinas estruturadas (descoberta contínua e priorização leve). [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16 (Vol. 6)]] com primeiros Product Managers contratados, todos os territórios começam a importar. [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16 (Vol. 6)]] com múltiplos squads, Product Ops emerge como função. [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16 (Vol. 6)]] em diante, Design System e Platform Product Management.
-
-### A Tríade Empoderada (PM, Tech Lead e Designer) e a Liderança de Produto
-
-CPO ou VP Product lidera a disciplina. Product Managers (gerentes de produto): um PM por squad, e um a dois squads por PM sênior. Product Designers: idealmente um designer por squad. User Researchers (pesquisadores de usuário): um UR para dois a quatro squads em escala. Product Ops: uma pessoa dedicada a partir de cerca de seis PMs. Staff e Principal PMs: para problemas transversais e iniciativas estratégicas.
 
 ### Operando Continuous Discovery, Opportunity Solution Trees e Dual-Track em Escala
 
@@ -2525,7 +1906,6 @@ Produto em escala está no padrão quando todos os itens abaixo estão cumpridos
 - [ ] Impacto de features é medido, reportado e usado para decisão. Não suposto.
 - [ ] Switch interviews (JTBD aplicado) rodam periodicamente para reforçar decisões de roadmap.
 
-
 ---
 
 ### O Espelho de Marty Cagan e Teresa Torres: Seus Squads Resolvem Problemas ou Fecham Tickets?
@@ -2540,12 +1920,6 @@ Olhe para o roadmap dos seus times de produto neste exato trimestre e responda s
 
 **O Ritual de Segunda-Feira às 9h:** Exija que cada tríade de produto (PM, Designer e Tech Lead) apresente no seu Opportunity Solution Tree qual hipótese de risco será testada com usuários reais até sexta-feira antes de aprovar qualquer épico de desenvolvimento.
 
-### Ver também
-
-[[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 10 — SUBSCRIPTION ECONOMY EM PROFUNDIDADE: ALÉM DO "COBRA MENSALMENTE"|Capítulo 10 (Subscription Economy em Profundidade: Além do "Cobra Mensalmente") (Vol. 4)]], Subscription economy. [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 7 — PLATAFORMA VS PRODUTO: QUANDO CONSTRUIR PLATAFORMA E QUANDO NÃO|Capítulo 7 (Plataforma vs Produto: Quando Construir Plataforma e Quando Não) (Vol. 3)]], Plataforma versus produto. [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 6 — MARKETPLACE DYNAMICS E RISCO DE PLATAFORMA|Capítulo 6 (Marketplace Dynamics e Risco de Plataforma) (Vol. 3)]], Marketplace dynamics. [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 12 — CUSTOMER SUCCESS COMO DISCIPLINA|Capítulo 12 (Customer Success como Disciplina) (Vol. 4)]], Customer Success.
-
-> [!info] Fases relacionadas
-> Referenciado em: Fase 12.
 
 ---
 
@@ -2561,7 +1935,7 @@ Você está diante d'**A Síndrome do Programador-Herói**: o vício dopaminérg
 
 ---
 
-Este capítulo especializa o [[#CAPÍTULO 4 — ENGINEERING MANAGEMENT: GESTÃO DO TIME TÉCNICO E DEVELOPER EXPERIENCE|Capítulo 4 (Engineering Management: Gestão do Time Técnico e Developer Experience)]] no tema da transicao do fundador tecnico para gestao.
+Este capítulo especializa o [[#CAPÍTULO 4 — ENGINEERING MANAGEMENT, DEVELOPER EXPERIENCE E GESTÃO DE DÍVIDA TÉCNICA|Capítulo 4 (Engineering Management, Developer Experience e Gestão de Dívida Técnica)]] no tema da transicao do fundador tecnico para gestao.
 
 Há um momento previsível na vida de todo fundador técnico, aquele em que ele percebe que parou de escrever código produtivo há seis semanas e que o time de engenharia, que era de três pessoas, agora tem oito. Os problemas que chegam até ele não são mais bugs nem decisões de arquitetura. São conflitos entre dois sêniors, a dev que entregou abaixo do esperado no último sprint (ciclo curto de entrega), o CTO (Chief Technology Officer, diretor de tecnologia) da empresa investidora querendo saber por que o time não está mais rápido.
 
@@ -2964,7 +2338,7 @@ Você ainda aprecia elegância técnica. Mas quando decide entre dois caminhos, 
 
 **Ver também:**
 
-[[#CAPÍTULO 4 — ENGINEERING MANAGEMENT: GESTÃO DO TIME TÉCNICO E DEVELOPER EXPERIENCE|Capítulo 4 (Engineering Management: Gestão do Time Técnico e Developer Experience)]], Engineering management como raiz. [[#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvases Visuais da Fase]], Canvases e Mapas Visuais. [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9 — CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO|Capítulo 9 (Crise e Continuidade: Prevenção, Resposta, Recuperação) (Vol. 9)]], Crise e Continuidade. [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 17 — CULTURA COMO DISCIPLINA|Capítulo 17 (Cultura como Disciplina) (Vol. 6)]], cultura organizacional. [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 14 — SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA|Capítulo 14 (Segurança da Informação: Da Certificação à Engenharia) (Vol. 8)]], Segurança da Informação. [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 13 — EXECUTIVE HIRING: CONTRATAR LÍDERES SÊNIOR E C-LEVEL|Capítulo 13 (Executive Hiring: Contratar Líderes Sênior e C-Level) (Vol. 6)]], Executive hiring (CTO/VP Eng).
+[[#CAPÍTULO 4 — ENGINEERING MANAGEMENT, DEVELOPER EXPERIENCE E GESTÃO DE DÍVIDA TÉCNICA|Capítulo 4 (Engineering Management, Developer Experience e Gestão de Dívida Técnica)]], Engineering management como raiz. [[IGNICAO-Vol-1-Ideacao#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvases Visuais da Fase (Vol. 1)]], Canvases e Mapas Visuais. [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9 — GESTÃO DE CRISE, CONTINUIDADE OPERACIONAL E COMUNICAÇÃO CRÍTICA|Capítulo 9 (Gestão de Crise, Continuidade Operacional e Comunicação Crítica) (Vol. 9)]], Crise e Continuidade. [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 13 — CULTURA COMO DISCIPLINA E EM SITUAÇÕES CRÍTICAS (HIPERCRESCIMENTO, M&A E REMOTO)|Capítulo 13 (Cultura como Disciplina e em Situações Críticas (Hipercrescimento, M&A e Remoto)) (Vol. 6)]], cultura organizacional. [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 13 — SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA|Capítulo 13 (Segurança da Informação: Da Certificação à Engenharia) (Vol. 8)]], Segurança da Informação. [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 9 — EXECUTIVE HIRING: CONTRATAR LÍDERES SÊNIOR E C-LEVEL|Capítulo 9 (Executive Hiring: Contratar Líderes Sênior e C-Level) (Vol. 6)]], Executive hiring (CTO/VP Eng).
 
 ---
 
@@ -2995,7 +2369,7 @@ Isso é **O Teatro do Quadro-Branco**: o erro sistemático de selecionar engenhe
 
 ---
 
-Para a metodologia geral de bandas e benchmarks, ver [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 15 — COMPENSAÇÃO E BENEFÍCIOS NO BRASIL|Capítulo 15 (Compensação e Benefícios no Brasil) (Vol. 6)]]. Aqui aprofundamos remuneracao no contexto de recrutamento tecnico.
+Para a metodologia geral de bandas e benchmarks, ver [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 11 — COMPENSAÇÃO E BENEFÍCIOS NO BRASIL|Capítulo 11 (Compensação e Benefícios no Brasil) (Vol. 6)]]. Aqui aprofundamos remuneracao no contexto de recrutamento tecnico.
 
 ### A Engenharia da Contratação Técnica: Selecionando Construtores de Alto Impacto
 
@@ -3225,7 +2599,6 @@ Regulatório. eSocial, e CLT, traz obrigações pesadas. PJ com exclusividade é
 - [ ] Stay interviews com top performers
 - [ ] Offboarding construtivo, quando sai
 
-
 ---
 
 ### O Espelho do Bar Raiser: Você Recruta Pelo Currículo ou Pela Prova de Trabalho Real?
@@ -3240,18 +2613,10 @@ Analise as últimas cinco contratações de engenharia da sua empresa e responda
 
 **O Ritual de Segunda-Feira às 9h:** Substitua qualquer teste algorítmico genérico do seu processo seletivo por uma sessão de 60 minutos de code review ao vivo e pareamento sobre um problema anonimizado real do seu próprio repositório, avaliada por rubrica escrita independente.
 
-### Ver também
-
-[[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 13 — EXECUTIVE HIRING: CONTRATAR LÍDERES SÊNIOR E C-LEVEL|Capítulo 13 (Executive Hiring: Contratar Líderes Sênior e C-Level) (Vol. 6)]], Executive hiring. [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 14 — PERFORMANCE REVIEWS ESTRUTURADOS: CICLO, CALIBRAÇÃO E CONEXÃO COM COMPENSAÇÃO|Capítulo 14 (Performance Reviews Estruturados: Ciclo, Calibração e Conexão com Compensação) (Vol. 6)]], Performance reviews. [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 17 — CULTURA COMO DISCIPLINA|Capítulo 17 (Cultura como Disciplina) (Vol. 6)]], Cultura. [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 19 — DIVERSIDADE, EQUIDADE E INCLUSÃO (DEI) EM STARTUP BRASILEIRA|Capítulo 19 (Diversidade, Equidade e Inclusão (Dei) em Startup Brasileira) (Vol. 6)]], DEI. [[#CAPÍTULO 4 — ENGINEERING MANAGEMENT: GESTÃO DO TIME TÉCNICO E DEVELOPER EXPERIENCE|Capítulo 4 (Engineering Management: Gestão do Time Técnico e Developer Experience)]], Engineering management em escala. [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 15 — COMPENSAÇÃO E BENEFÍCIOS NO BRASIL|Capítulo 15 (Compensação e Benefícios no Brasil) (Vol. 6)]], Compensação e benefícios.
 
 ---
 
-> [!info] Fases relacionadas
-> Referenciado em: Fase 14.
-
----
-
-## CAPÍTULO 4 — ENGINEERING MANAGEMENT: GESTÃO DO TIME TÉCNICO E DEVELOPER EXPERIENCE
+## CAPÍTULO 4 — ENGINEERING MANAGEMENT, DEVELOPER EXPERIENCE E GESTÃO DE DÍVIDA TÉCNICA
 
 ### A Falácia do Homem-Mês em Escala e o Atrito Invisível que Paralisa 40 Engenheiros
 
@@ -3263,7 +2628,7 @@ Você está pagando o preço d'**O Atrito Sistêmico de Developer Experience (De
 
 ---
 
-Para a metodologia geral de bandas salariais e benchmarks brasileiros, ver [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 15 — COMPENSAÇÃO E BENEFÍCIOS NO BRASIL|Capítulo 15 (Compensação e Benefícios no Brasil) (Vol. 6)]]. As faixas tratadas neste capítulo sao especializacao para engineering.
+Para a metodologia geral de bandas salariais e benchmarks brasileiros, ver [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 11 — COMPENSAÇÃO E BENEFÍCIOS NO BRASIL|Capítulo 11 (Compensação e Benefícios no Brasil) (Vol. 6)]]. As faixas tratadas neste capítulo sao especializacao para engineering.
 
 Engenharia (de software) é a função organizacional que escala de forma mais diferente das outras. As regras de um time de vendas de 20 pessoas não funcionam num time de engenharia de 20 pessoas. As ferramentas de performance management (gestão de desempenho) de marketing não cabem em avaliação técnica. A estrutura hierárquica que dá certo em operações quebra em produto de software. Fundadores não-técnicos costumam aplicar ao time de engenharia o que aprenderam em outras áreas. O resultado é saída de engenheiros bons, débito técnico crescente e time cada vez menos produtivo a cada contratação.
 
@@ -3485,6 +2850,65 @@ Débito técnico sobrepondo a qualquer feature nova.
 
 ---
 
+### Gestão Disciplinada de Dívida Técnica (Technical Debt): Medição, Alocação e Prevenção
+
+#### 1. Medição
+
+Qualitativo. Ticket bugs por sprint, e tempo para adicionar feature simples.
+
+Engineering Time Survey. Percentual de tempo em "necessário, mas não agrega valor" (manutenção, e workarounds).
+
+SPACE framework. Satisfaction, Performance, Activity, Communication, Efficiency.
+
+DORA metrics. Deployment frequency, lead time for changes, MTTR, e change failure rate.
+
+#### 2. Categorização
+
+Deliberate debt. Conscientemente contraído por prazo ("vamos arrumar depois"). Deve ter prazo de pagamento.
+
+Accidental debt. A decisão foi boa na hora. O contexto mudou. E agora é débito.
+
+Rot. Debt de dependências desatualizadas, linguagens, ou frameworks antigos.
+
+#### 3. Priorização de pagamento
+
+High frequency vezes high cost. Pagar primeiro. Code path mexido diariamente, com custo alto de mudança.
+
+Blocker. Bloqueia features planejadas.
+
+Risk. Segurança, e confiabilidade.
+
+Low frequency vezes low cost. Aceitar. Não pagar.
+
+#### 4. Alocação de capacity
+
+> [!important] Regra dos vinte por cento
+> Vinte por cento do sprint capacity dedicado a debt. Não negociável. Cair abaixo disso por mais de dois trimestres seguidos é o sinal mais claro de que a empresa prioriza velocity de curto prazo em detrimento de capacidade de execução de longo prazo. A consequência aparece seis a doze meses depois. Sempre.
+
+Fix-it weeks. Uma a duas semanas por trimestre, dedicadas cem por cento a debt.
+
+Rewrite versus refactor. Reescrita raramente justifica custo. Refactor incremental é norma.
+
+#### 5. Comunicação ao board
+
+Em termos de business. Não "temos debt técnico". Mas "velocity caiu trinta por cento, quarenta por cento do tempo vai em manutenção, e isso impacta delivery de roadmap em dois trimestres".
+
+Tradeoff explícito. Features de produto, versus pagamento de debt. O board precisa saber.
+
+KPIs. Deployment frequency, MTTR, e percentual de tempo em features versus manutenção.
+
+#### 6. Prevention
+
+Code review rigoroso. Catch debt antes de merge.
+
+Automated testing. Regression prevention.
+
+Architecture decisions documented (ADRs). Raciocínio preservado.
+
+Regular refactoring. Pequenos pagamentos contínuos.
+
+---
+
 ### A Ilusão de Medir Linhas de Código, Commits ou Velocidade Individual de Story Points
 
 Forçar carreira única. Toda pessoa boa "tem que virar gerente" é receita para perder IC bom.
@@ -3557,7 +2981,6 @@ DX externo como afterthought. Em produto para dev, documentação é o produto. 
 - [ ] Documentação interna viva
 - [ ] Platform team proporcional à escala
 
-
 ---
 
 ### O Espelho de Paul Graham e Nicole Forsgren: Quanto Tempo Leva Para Uma Linha de Código Chegar ao Cliente?
@@ -3572,130 +2995,10 @@ Pare de adivinhar por que a engenharia parece lenta e meça a realidade física 
 
 **O Ritual de Segunda-Feira às 9h:** Extraia as 4 métricas DORA (Deployment Frequency, Lead Time for Changes, Change Failure Rate e MTTR) dos últimos 30 dias e dedique 20% da capacidade de engenharia deste ciclo para atacar o maior gargalo do pipeline de CI/CD e revisão.
 
-### Ver também
-
-[[#CAPÍTULO 5 — TECHNICAL DEBT COMO DISCIPLINA GERENCIADA|Capítulo 5 (Technical Debt como Disciplina Gerenciada)]], Technical debt como disciplina. [[#CAPÍTULO 6 — IA NA ENGENHARIA INTERNA: COPILOT, AGENTES E PRODUTIVIDADE DE DEV|Capítulo 6 (IA na Engenharia Interna: Copilot, Agentes e Produtividade de Dev)]], IA na engenharia interna (Copilot, e AI tooling no time). [[#CAPÍTULO 3 — RECRUTAMENTO TÉCNICO EM PROFUNDIDADE|Capítulo 3 (Recrutamento Técnico em Profundidade)]], Recrutamento técnico. [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 17 — CULTURA COMO DISCIPLINA|Capítulo 17 (Cultura como Disciplina) (Vol. 6)]], Cultura organizacional, incluindo cultura de engenharia. [[#CAPÍTULO 2 — MANAGEMENT PARA O FUNDADOR TÉCNICO|Capítulo 2 (Management para o Fundador Técnico)]], Travessia do fundador técnico. [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 13 — EXECUTIVE HIRING: CONTRATAR LÍDERES SÊNIOR E C-LEVEL|Capítulo 13 (Executive Hiring: Contratar Líderes Sênior e C-Level) (Vol. 6)]], Executive hiring (CTO/VP Eng). [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 15 — COMPENSAÇÃO E BENEFÍCIOS NO BRASIL|Capítulo 15 (Compensação e Benefícios no Brasil) (Vol. 6)]], Bandas de comp.
 
 ---
 
-## CAPÍTULO 5 — TECHNICAL DEBT COMO DISCIPLINA GERENCIADA
-
-### O Juro Composto do Código Apressado: Quando a Alavanca da Dívida Técnica Vira Insolvência
-
-Em Curitiba, Henrique construiu o primeiro módulo da sua plataforma de telemetria agrícola e gestão pública em três semanas de pura adrenalina para fechar o contrato âncora com duas grandes cooperativas do Paraná. Na época, copiar e colar regras fiscais diretamente no banco de dados sem testes automatizados foi uma decisão genial: colocou R$ 1,8 milhão de receita recorrente para dentro e salvou a empresa. Três anos depois, no auge do pico da safra de soja no Mato Grosso, aquela mesma gambiarra cobrou a fatura com juros de agiota. Uma alteração simples na alíquota estadual derrubou a emissão de notas de trinta e oito clientes simultaneamente, o banco de dados travou por onze horas e Henrique recebeu uma notificação extrajudicial de multa contratual de R$ 950 mil.
-
-O erro dos fundadores — técnicos e não-técnicos — é tratar dívida técnica como um debate moral entre "engenheiros perfeccionistas que querem reescrever tudo" e "executivos comerciais que querem vender a qualquer custo". Dívida técnica não é pecado moral nem troféu de velocidade; é um instrumento financeiro idêntico ao endividamento bancário.
-
-Você precisa dominar **O Juro Composto do Código Apressado**: contrair dívida técnica consciente no início para comprar velocidade de aprendizado é alavancagem inteligente; mas ignorar o pagamento dos juros quando o produto escala no caminho crítico transforma sua engenharia em uma massa falida que gasta 90% do tempo mantendo o sistema respirando.
-
----
-
-Este capítulo especializa o [[#CAPÍTULO 4 — ENGINEERING MANAGEMENT: GESTÃO DO TIME TÉCNICO E DEVELOPER EXPERIENCE|Capítulo 4 (Engineering Management: Gestão do Time Técnico e Developer Experience)]] no tema de debt.
-
-> [!note] Aplicabilidade
-> Empresas pós-Série A, com time de engenharia de dez ou mais pessoas.
-
-### Dívida Técnica como Alavanca Financeira: Principal, Juros e Amortização Deliberada
-
-Technical debt (dívida técnica) é trabalho de engenharia acumulado que, deixado em aberto, aumenta o custo de mudanças futuras. A analogia útil são juros compostos negativos em codebase (base de código).
-
-### A Economia do Código: Quando o Atalho Tático Financia o PMF e Quando Ele Mata a Escala
-
-Sem gestão explícita, o tech debt (dívida técnica) acumula até travar desenvolvimento.
-
-Os sintomas. Velocity (velocidade de entrega) caindo, bugs aumentando, contratados desistindo, e incidents (incidentes em produção) crescendo.
-
-> [!warning] Board, e investidor, não veem
-> Tech debt é problema invisível até explodir. O board (conselho) olha para velocity e roadmap (mapa de produto) sem enxergar as causas. Quando a velocity cai trinta por cento de um trimestre para o outro e o motivo é débito acumulado por dois anos, a conversa fica dolorosa. Antecipar essa conversa é parte da disciplina.
-
-### Inventário de Passivo Técnico, Imposto Fixo de 20% por Sprint e Refatoração Incremental (Strangler Fig)
-
-#### 1. Medição
-
-Qualitativo. Ticket bugs por sprint, e tempo para adicionar feature simples.
-
-Engineering Time Survey. Percentual de tempo em "necessário, mas não agrega valor" (manutenção, e workarounds).
-
-SPACE framework. Satisfaction, Performance, Activity, Communication, Efficiency.
-
-DORA metrics. Deployment frequency, lead time for changes, MTTR, e change failure rate.
-
-#### 2. Categorização
-
-Deliberate debt. Conscientemente contraído por prazo ("vamos arrumar depois"). Deve ter prazo de pagamento.
-
-Accidental debt. A decisão foi boa na hora. O contexto mudou. E agora é débito.
-
-Rot. Debt de dependências desatualizadas, linguagens, ou frameworks antigos.
-
-#### 3. Priorização de pagamento
-
-High frequency vezes high cost. Pagar primeiro. Code path mexido diariamente, com custo alto de mudança.
-
-Blocker. Bloqueia features planejadas.
-
-Risk. Segurança, e confiabilidade.
-
-Low frequency vezes low cost. Aceitar. Não pagar.
-
-#### 4. Alocação de capacity
-
-> [!important] Regra dos vinte por cento
-> Vinte por cento do sprint capacity dedicado a debt. Não negociável. Cair abaixo disso por mais de dois trimestres seguidos é o sinal mais claro de que a empresa prioriza velocity de curto prazo em detrimento de capacidade de execução de longo prazo. A consequência aparece seis a doze meses depois. Sempre.
-
-Fix-it weeks. Uma a duas semanas por trimestre, dedicadas cem por cento a debt.
-
-Rewrite versus refactor. Reescrita raramente justifica custo. Refactor incremental é norma.
-
-#### 5. Comunicação ao board
-
-Em termos de business. Não "temos debt técnico". Mas "velocity caiu trinta por cento, quarenta por cento do tempo vai em manutenção, e isso impacta delivery de roadmap em dois trimestres".
-
-Tradeoff explícito. Features de produto, versus pagamento de debt. O board precisa saber.
-
-KPIs. Deployment frequency, MTTR, e percentual de tempo em features versus manutenção.
-
-#### 6. Prevention
-
-Code review rigoroso. Catch debt antes de merge.
-
-Automated testing. Regression prevention.
-
-Architecture decisions documented (ADRs). Raciocínio preservado.
-
-Regular refactoring. Pequenos pagamentos contínuos.
-
-### Checklist de Governança e Amortização de Dívida Técnica
-
-- [ ] Tech debt mensurado (qualitativa, ou quantitativamente)?
-- [ ] Capacity dedicado regularmente (regra dos vinte por cento, ou fix-it weeks)?
-- [ ] Priorização clara (high-freq vezes high-cost primeiro)?
-- [ ] Comunicação estruturada ao board, ou liderança não-técnica?
-- [ ] DORA metrics, ou equivalente, rastreados?
-- [ ] Prevention prática (reviews, testing, ADRs)?
-
-
----
-
-### O Espelho de Ward Cunningham: Você Está Usando Alavancagem ou Entrando no Cheque Especial Técnico?
-
-Convoque seu CTO e seu líder de produto e faça estas três perguntas olhando para os chamados do último mês:
-
-1. **O Mapa de Calor do Código:** Quais são os três arquivos ou microsserviços do nosso repositório que concentram 80% dos bugs em produção e dos atrasos de estimativa hoje?
-2. **A Tentação do Big Rewrite:** Algum líder técnico está pedindo para "parar a evolução do produto por seis meses para reescrever a plataforma do zero em uma tecnologia nova" em vez de estrangular o legado módulo por módulo?
-3. **O Orçamento de Amortização:** Existe uma cota protegida e inegociável de 15% a 25% da capacidade de cada sprint dedicada à saúde arquitetural e automação de testes, ou toda manutenção é atropelada pelo comercial?
-
-**Regra de Sobrevivência:** Nunca pague dívida técnica em módulos frios que ninguém altera e que funcionam quietos; amortize com violência cirúrgica apenas os módulos quentes onde seus engenheiros mexem toda semana.
-
-**O Ritual de Segunda-Feira às 9h:** Crie o Balanço Patrimonial de Dívida Técnica com os 5 maiores passivos do sistema ranqueados por custo semanal em horas de engenharia perdidas e risco de queda em produção, e aloque o pagamento do item #1 neste sprint.
-
-### Ver também
-
-[[#CAPÍTULO 6 — IA NA ENGENHARIA INTERNA: COPILOT, AGENTES E PRODUTIVIDADE DE DEV|Capítulo 6 (IA na Engenharia Interna: Copilot, Agentes e Produtividade de Dev)]], IA na engenharia interna. [[#CAPÍTULO 4 — ENGINEERING MANAGEMENT: GESTÃO DO TIME TÉCNICO E DEVELOPER EXPERIENCE|Capítulo 4 (Engineering Management: Gestão do Time Técnico e Developer Experience)]], Engineering management em escala, e Developer Experience.
-
----
-
-## CAPÍTULO 6 — IA NA ENGENHARIA INTERNA: COPILOT, AGENTES E PRODUTIVIDADE DE DEV
+## CAPÍTULO 5 — IA NA ENGENHARIA INTERNA: COPILOT, AGENTES E PRODUTIVIDADE DE DEV
 
 ### A Inflação de Código Alucinado vs. A Engenharia Aumentada por Agentes de IA
 
@@ -3707,7 +3010,7 @@ Se você adotar agentes de código sem redesenhar seu funil de qualidade, você 
 
 ---
 
-Este capítulo especializa o [[#CAPÍTULO 4 — ENGINEERING MANAGEMENT: GESTÃO DO TIME TÉCNICO E DEVELOPER EXPERIENCE|Capítulo 4 (Engineering Management: Gestão do Time Técnico e Developer Experience)]] no tema de IA na engenharia.
+Este capítulo especializa o [[#CAPÍTULO 4 — ENGINEERING MANAGEMENT, DEVELOPER EXPERIENCE E GESTÃO DE DÍVIDA TÉCNICA|Capítulo 4 (Engineering Management, Developer Experience e Gestão de Dívida Técnica)]] no tema de IA na engenharia.
 
 ### Da Digitação Manual à Engenharia Aumentada por Agentes: O Novo Paradigma de Construção
 
@@ -3936,7 +3239,6 @@ Time de engenharia maduro em uso de IA quando todos os itens abaixo estão cumpr
 > [!note] Nota de validade crítica
 > Este capítulo descreve o estado da arte em abril de 2026. O espaço evolui em trimestres. Ferramentas, modelos, capacidades, e práticas recomendadas, mudam rapidamente. Revisar este capítulo a cada seis a doze meses.
 
-
 ---
 
 ### O Espelho da Engenharia AI-Native: Seus Devs Dominam os Agentes ou São Despachantes de Código que Não Entendem?
@@ -3951,13 +3253,10 @@ Inspecione os últimos vinte pull requests aprovados no repositório da sua empr
 
 **O Ritual de Segunda-Feira às 9h:** Padronize um arquivo de instruções arquiteturais e regras de estilo do repositório (como `.cursorrules` ou `CLAUDE.md`) na raiz do projeto e configure análise estática de segurança (SAST) obrigatória no pipeline de CI antes de qualquer revisão humana.
 
-### Ver também
-
-[[#CAPÍTULO 5 — TECHNICAL DEBT COMO DISCIPLINA GERENCIADA|Capítulo 5 (Technical Debt como Disciplina Gerenciada)]], Technical debt. [[#CAPÍTULO 4 — ENGINEERING MANAGEMENT: GESTÃO DO TIME TÉCNICO E DEVELOPER EXPERIENCE|Capítulo 4 (Engineering Management: Gestão do Time Técnico e Developer Experience)]], Engineering management. [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 10 — IA GENERATIVA COMO ACELERADOR DO EMPREENDEDOR (2026)|Capítulo 10 (IA Generativa como Acelerador do Empreendedor (2026)) (Vol. 1)]], IA generativa como acelerador.
 
 ---
 
-## CAPÍTULO 7 — AI OPS E AUTOMAÇÃO INTELIGENTE
+## CAPÍTULO 6 — AI OPS E AUTOMAÇÃO INTELIGENTE
 
 ### A Escala Desacoplada de Headcount: Como Multiplicar a Operação por 4x Sem Dobrar a Folha
 
@@ -3974,9 +3273,9 @@ Bem-vindo à era d'**A Escala Desacoplada de Headcount (AI Ops)**: a disciplina 
 > [!tip] As quatro camadas de IA neste livro
 > IA aparece em quatro camadas, cada uma com decisões e ferramentas distintas. Você está em **AI Ops** (camada 4). As outras três:
 >
-> - **Camada 1, IA como acelerador do empreendedor** ([[IGNICAO-Vol-1-Ideacao#CAPÍTULO 10 — IA GENERATIVA COMO ACELERADOR DO EMPREENDEDOR (2026)|Capítulo 10 (IA Generativa como Acelerador do Empreendedor (2026)) (Vol. 1)]]). Uso pessoal do fundador para escrita, pesquisa, análise.
-> - **Camada 2, IA como co-piloto do fundador** ([[IGNICAO-Vol-1-Ideacao#CAPÍTULO 11 — IA COMO CO-PILOTO DO FUNDADOR (2026)|Capítulo 11 (IA como Co-Piloto do Fundador (2026)) (Vol. 1)]]). Versão atualizada de I para 2026, com casos de uso de alto ROI.
-> - **Camada 3, AI no produto** ([[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 15 — AI COMO PARTE DO PRODUTO (AI-NATIVE PRODUCT)|Capítulo 15 (AI como Parte do Produto (AI-Native Product)) (Vol. 4)]]). LLM como componente crítico do produto que vai a mercado.
+> - **Camada 1, IA como acelerador do empreendedor** ([[IGNICAO-Vol-1-Ideacao#CAPÍTULO 10 — IA GENERATIVA E AGENTES COMO COPILOTO E ACELERADOR DO FUNDADOR (2026)|Capítulo 10 (IA Generativa e Agentes como Copiloto e Acelerador do Fundador (2026)) (Vol. 1)]]). Uso pessoal do fundador para escrita, pesquisa, análise.
+> - **Camada 2, IA como co-piloto do fundador** ([[IGNICAO-Vol-1-Ideacao#CAPÍTULO 10 — IA GENERATIVA E AGENTES COMO COPILOTO E ACELERADOR DO FUNDADOR (2026)|Capítulo 10 (IA Generativa e Agentes como Copiloto e Acelerador do Fundador (2026)) (Vol. 1)]]). Versão atualizada de I para 2026, com casos de uso de alto ROI.
+> - **Camada 3, AI no produto** ([[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 10 — AI COMO PARTE DO PRODUTO (AI-NATIVE PRODUCT)|Capítulo 10 (AI como Parte do Produto (AI-Native Product)) (Vol. 4)]]). LLM como componente crítico do produto que vai a mercado.
 
 ---
 
@@ -4353,10 +3652,10 @@ CUSTOS E QUALIDADE
 **Ver também:**
 
 - [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 21 — HARDWARE E DEEP TECH: CONSTRUIR NEGÓCIO COM FABRICAÇÃO, IP E HORIZONTES LONGOS|Capítulo 21 — Cultura e Gestão de Pessoas (Vol. 10)]] — como introduzir ferramentas de IA sem gerar resistência no time
-- [[#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvases e Mapas Visuais]] — ferramentas para mapear workflows antes de automatizá-los
+- [[IGNICAO-Vol-1-Ideacao#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvases e Mapas Visuais (Vol. 1)]] — ferramentas para mapear workflows antes de automatizá-los
 - [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 11 — MVP E EXPERIMENTOS DE MERCADO|Fase 11 — MVP e Experimentos de Mercado (Vol. 4)]] — quando AI Ops começa a fazer sentido operacional
 - [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 15 — MÁQUINA DE CRESCIMENTO E EXPANSÃO EM ESCALA|Fase 15 — Máquina de Crescimento e Expansão em Escala (Vol. 6)]] — como escalar operações com IA sem perder qualidade
-- [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 6 — PLANEJAMENTO FINANCEIRO E ORÇAMENTO|Capítulo 6 — Planejamento Financeiro e Orçamento (Vol. 5)]] — como tratar custo de IA no P&L e no planejamento financeiro
+- [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 4 — PLANEJAMENTO FINANCEIRO (FP&A), ORÇAMENTO E REVENUE FORECASTING|Capítulo 4 — Planejamento Financeiro e Orçamento (Vol. 5)]] — como tratar custo de IA no P&L e no planejamento financeiro
 
 ---
 
@@ -4375,20 +3674,13 @@ Antes de contratar a próxima leva de analistas operacionais ou plugar uma API d
 
 ---
 
-# ARQUITETURA ORGANIZACIONAL, CONHECIMENTO, COMUNICAÇÃO E OPERAÇÕES (CAPÍTULOS 8 A 11)
+# ARQUITETURA ORGANIZACIONAL, CONHECIMENTO, COMUNICAÇÃO E OPERAÇÕES (CAPÍTULOS 7 A 10)
 
-### Arquitetura deste Domínio: Design Organizacional, Conhecimento, Comunicação e Excelência Operacional (Capítulos 8 a 11)
-
-Conforme a empresa cresce, a estrutura organizacional dita a arquitetura do produto (Lei de Conway). Estes quatro capítulos mostram como desenhar a máquina organizacional para que a informação flua sem reuniões intermináveis:
-
-- **[[#CAPÍTULO 8 — DESIGN ORGANIZACIONAL|Capítulo 8 — Design Organizacional na Escala]]:** Como desenhar topologias de times (*squads*, tribos, capítulos, plataformas), linhas de reporte e *spans of control* em cada estágio de crescimento.
-- **[[#CAPÍTULO 9 — GESTÃO DO CONHECIMENTO|Capítulo 9 — Gestão do Conhecimento e Documentação Viva]]:** Como criar uma cultura de documentação (*handbook-first*, RFCs, ADRs) onde o conhecimento não vai embora quando um funcionário pede demissão.
-- **[[#CAPÍTULO 10 — COMUNICAÇÃO INTERNA|Capítulo 10 — Comunicação Interna em Escala]]:** Rituais de alinhamento (*All-Hands*, *Town Halls*, comunicação assíncrona vs. síncrona) para manter 50, 200 ou 1.000 pessoas puxando na mesma direção.
-- **[[#CAPÍTULO 11 — OPERAÇÕES EM ESCALA|Capítulo 11 — Operações em Escala]]:** Mapeamento de cadeias de valor, SLAs internos e externos, eliminação de gargalos e melhoria contínua.
+A estrutura do seu organograma determina a arquitetura do seu produto e a velocidade das suas decisões. Estes quatro capítulos mostram como desenhar topologias organizacionais enxutas, instalar documentação viva e gestão do conhecimento, alinhar a comunicação interna sem reuniões inúteis e operar processos com excelência industrial.
 
 ---
 
-## CAPÍTULO 8 — DESIGN ORGANIZACIONAL
+## CAPÍTULO 7 — DESIGN ORGANIZACIONAL
 
 ### O Espelho Implícito da Lei de Conway e a Armadilha do Cargo Cult Organizacional
 
@@ -4414,58 +3706,58 @@ O fundador-leitor que tenta montar o ciclo completo de gestao de pessoas precisa
 
 **Atrair e contratar**
 
-- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 13 — EXECUTIVE HIRING: CONTRATAR LÍDERES SÊNIOR E C-LEVEL|Capítulo 13 (Executive Hiring: Contratar Líderes Sênior e C-Level) (Vol. 6)]], executive hiring (C-level)
+- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 9 — EXECUTIVE HIRING: CONTRATAR LÍDERES SÊNIOR E C-LEVEL|Capítulo 9 (Executive Hiring: Contratar Líderes Sênior e C-Level) (Vol. 6)]], executive hiring (C-level)
 - [[#CAPÍTULO 3 — RECRUTAMENTO TÉCNICO EM PROFUNDIDADE|Capítulo 3 (Recrutamento Técnico em Profundidade)]], recrutamento tecnico
 
 **Desenhar a organizacao**
 
 - FB (este capítulo), design organizacional
-- [[#CAPÍTULO 9 — GESTÃO DO CONHECIMENTO|Capítulo 9 (Gestão do Conhecimento)]], gestao do conhecimento
-- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 20 — REMOTE, HYBRID E DISTRIBUÍDO COMO DISCIPLINA|Capítulo 20 (Remote, Hybrid e Distribuído como Disciplina) (Vol. 6)]], remoto e hibrido
+- [[#CAPÍTULO 8 — GESTÃO DO CONHECIMENTO|Capítulo 8 (Gestão do Conhecimento)]], gestao do conhecimento
+- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 15 — REMOTE, HYBRID E DISTRIBUÍDO COMO DISCIPLINA|Capítulo 15 (Remote, Hybrid e Distribuído como Disciplina) (Vol. 6)]], remoto e hibrido
 
 **Pagar e medir**
 
-- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 15 — COMPENSAÇÃO E BENEFÍCIOS NO BRASIL|Capítulo 15 (Compensação e Benefícios no Brasil) (Vol. 6)]], compensacao (fonte canonica de bandas)
-- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 16 — STOCK OPTIONS E ESOP NO BRASIL|Capítulo 16 (Stock Options e ESOP no Brasil) (Vol. 6)]], stock options e ESOP
-- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 14 — PERFORMANCE REVIEWS ESTRUTURADOS: CICLO, CALIBRAÇÃO E CONEXÃO COM COMPENSAÇÃO|Capítulo 14 (Performance Reviews Estruturados: Ciclo, Calibração e Conexão com Compensação) (Vol. 6)]], performance reviews
+- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 11 — COMPENSAÇÃO E BENEFÍCIOS NO BRASIL|Capítulo 11 (Compensação e Benefícios no Brasil) (Vol. 6)]], compensacao (fonte canonica de bandas)
+- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 12 — STOCK OPTIONS E ESOP NO BRASIL|Capítulo 12 (Stock Options e ESOP no Brasil) (Vol. 6)]], stock options e ESOP
+- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 10 — PERFORMANCE REVIEWS ESTRUTURADOS: CICLO, CALIBRAÇÃO E CONEXÃO COM COMPENSAÇÃO|Capítulo 10 (Performance Reviews Estruturados: Ciclo, Calibração e Conexão com Compensação) (Vol. 6)]], performance reviews
 
 **Cultura e DEI**
 
-- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 17 — CULTURA COMO DISCIPLINA|Capítulo 17 (Cultura como Disciplina) (Vol. 6)]], cultura como disciplina
-- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 19 — DIVERSIDADE, EQUIDADE E INCLUSÃO (DEI) EM STARTUP BRASILEIRA|Capítulo 19 (Diversidade, Equidade e Inclusão (Dei) em Startup Brasileira) (Vol. 6)]], DEI
+- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 13 — CULTURA COMO DISCIPLINA E EM SITUAÇÕES CRÍTICAS (HIPERCRESCIMENTO, M&A E REMOTO)|Capítulo 13 (Cultura como Disciplina e em Situações Críticas (Hipercrescimento, M&A e Remoto)) (Vol. 6)]], cultura como disciplina
+- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 14 — DIVERSIDADE, EQUIDADE E INCLUSÃO (DEI) EM STARTUP BRASILEIRA|Capítulo 14 (Diversidade, Equidade e Inclusão (Dei) em Startup Brasileira) (Vol. 6)]], DEI
 
 **Engineering management**
 
-- [[#CAPÍTULO 4 — ENGINEERING MANAGEMENT: GESTÃO DO TIME TÉCNICO E DEVELOPER EXPERIENCE|Capítulo 4 (Engineering Management: Gestão do Time Técnico e Developer Experience)]], engineering management (raiz)
-- [[#CAPÍTULO 5 — TECHNICAL DEBT COMO DISCIPLINA GERENCIADA|Capítulo 5 (Technical Debt como Disciplina Gerenciada)]], debt
-- [[#CAPÍTULO 6 — IA NA ENGENHARIA INTERNA: COPILOT, AGENTES E PRODUTIVIDADE DE DEV|Capítulo 6 (IA na Engenharia Interna: Copilot, Agentes e Produtividade de Dev)]], IA na engenharia
+- [[#CAPÍTULO 4 — ENGINEERING MANAGEMENT, DEVELOPER EXPERIENCE E GESTÃO DE DÍVIDA TÉCNICA|Capítulo 4 (Engineering Management, Developer Experience e Gestão de Dívida Técnica)]], engineering management (raiz)
+- [[#CAPÍTULO 4 — ENGINEERING MANAGEMENT, DEVELOPER EXPERIENCE E GESTÃO DE DÍVIDA TÉCNICA|Capítulo 4 (Engineering Management, Developer Experience e Gestão de Dívida Técnica)]], debt
+- [[#CAPÍTULO 5 — IA NA ENGENHARIA INTERNA: COPILOT, AGENTES E PRODUTIVIDADE DE DEV|Capítulo 5 (IA na Engenharia Interna: Copilot, Agentes e Produtividade de Dev)]], IA na engenharia
 - [[#CAPÍTULO 2 — MANAGEMENT PARA O FUNDADOR TÉCNICO|Capítulo 2 (Management para o Fundador Técnico)]], a transicao do fundador tecnico
 
 **Founder humano**
 
-- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 11 — FOUNDER MODE, DELEGAÇÃO E QUANDO PARAR DE FAZER|Capítulo 11 (Founder Mode, Delegação e Quando Parar de Fazer) (Vol. 6)]], founder mode e delegacao
-- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 12 — GESTÃO DE TEMPO DO FUNDADOR E OPERATING CADENCE|Capítulo 12 (Gestão de Tempo do Fundador e Operating Cadence) (Vol. 6)]], tempo e cadence
+- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 8 — FOUNDER MODE, DELEGAÇÃO, GESTÃO DE TEMPO E CADÊNCIA OPERACIONAL DO CEO|Capítulo 8 (Founder Mode, Delegação, Gestão de Tempo e Cadência Operacional do CEO) (Vol. 6)]], founder mode e delegacao
+- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 8 — FOUNDER MODE, DELEGAÇÃO, GESTÃO DE TEMPO E CADÊNCIA OPERACIONAL DO CEO|Capítulo 8 (Founder Mode, Delegação, Gestão de Tempo e Cadência Operacional do CEO) (Vol. 6)]], tempo e cadence
 - [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 1 — DINHEIRO PESSOAL DO FUNDADOR|Capítulo 1 (Dinheiro Pessoal do Fundador) (Vol. 1)]], dinheiro pessoal
 - [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 2 — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Capítulo 2 (Saúde Mental, Dinâmica de Co-Founders e Humanidade do Fundador) (Vol. 1)]], saude mental e cofounders
 
 **Comunicacao** (sete capítulos, com mapa de delimitacao proprio em cada um)
 
-- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 9 — COMUNICAÇÃO PÚBLICA DO FUNDADOR: NARRATIVA, IMPRENSA E PORTA-VOZ|Capítulo 9 (Comunicação Pública do Fundador: Narrativa, Imprensa e Porta-Voz) (Vol. 6)]], publica
-- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 10 — MARCA PESSOAL DO FUNDADOR: DISTRIBUIÇÃO, AUTORIDADE E CUSTO DE REPUTAÇÃO|Capítulo 10 (Marca Pessoal do Fundador: Distribuição, Autoridade e Custo de Reputação) (Vol. 6)]], marca pessoal
-- [[#CAPÍTULO 10 — COMUNICAÇÃO INTERNA|Capítulo 10 (Comunicação Interna)]], interna
+- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 7 — MARCA CORPORATIVA, PR, COMUNICAÇÃO PÚBLICA E MARCA PESSOAL DO FUNDADOR|Capítulo 7 (Marca Corporativa, PR, Comunicação Pública e Marca Pessoal do Fundador) (Vol. 6)]], publica
+- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 7 — MARCA CORPORATIVA, PR, COMUNICAÇÃO PÚBLICA E MARCA PESSOAL DO FUNDADOR|Capítulo 7 (Marca Corporativa, PR, Comunicação Pública e Marca Pessoal do Fundador) (Vol. 6)]], marca pessoal
+- [[#CAPÍTULO 9 — COMUNICAÇÃO INTERNA|Capítulo 9 (Comunicação Interna)]], interna
 - [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 8 — COMUNICAÇÃO ESCRITA PARA NEGÓCIOS|Capítulo 8 (Comunicação Escrita para Negócios) (Vol. 1)]], escrita
 - [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 9 — APRESENTAÇÃO E FALA EM PÚBLICO|Capítulo 9 (Apresentação e Fala em Público) (Vol. 1)]], fala em publico
 - [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 7 — INFLUÊNCIA E PERSUASÃO SEM AUTORIDADE FORMAL|Capítulo 7 (Influência e Persuasão sem Autoridade Formal) (Vol. 1)]], persuasao
-- [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 10 — COMUNICAÇÃO EM CRISE|Capítulo 10 (Comunicação em Crise) (Vol. 9)]], crise
+- [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9 — GESTÃO DE CRISE, CONTINUIDADE OPERACIONAL E COMUNICAÇÃO CRÍTICA|Capítulo 9 (Gestão de Crise, Continuidade Operacional e Comunicação Crítica) (Vol. 9)]], crise
 
 **Saida**
 
-- [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 11 — LAYOFFS E DOWNSIZING: COMO DEMITIR EM ESCALA SEM DESTRUIR A EMPRESA|Capítulo 11 (Layoffs e Downsizing: Como Demitir em Escala sem Destruir a Empresa) (Vol. 9)]], layoffs
-- [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 20 — RETENÇÃO DE TALENTOS APÓS M&A: O QUE MUDA E O QUE SE PERDE|Capítulo 20 (Retenção de Talentos Após M&A: O Que Muda e o Que Se Perde) (Vol. 9)]], retencao pos M&A
+- [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 10 — LAYOFFS E DOWNSIZING: COMO DEMITIR EM ESCALA SEM DESTRUIR A EMPRESA|Capítulo 10 (Layoffs e Downsizing: Como Demitir em Escala sem Destruir a Empresa) (Vol. 9)]], layoffs
+- [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 18 — SUCESSÃO NO EXIT, TRANSIÇÃO PÓS-AQUISIÇÃO (M&A) E RETENÇÃO DE TALENTOS|Capítulo 18 (Sucessão no Exit, Transição Pós-Aquisição (M&A) e Retenção de Talentos) (Vol. 9)]], retencao pos M&A
 
 ---
 
-### 8.1 — A Lei de Conway na Carne: Como usar a Manobra Inversa para Desacoplar Seu Sistema
+### 7.1 — Lei de Conway aplicada a startups
 
 Em 1967, o programador Melvin Conway publicou uma observação que ficou sendo citada para sempre: "As organizações que projetam sistemas são constrangidas a produzir sistemas cujos designs são cópias das estruturas de comunicação dessas organizações."
 
@@ -4488,7 +3780,7 @@ A Lei de Conway não determina que estrutura criar. Ela determina que você prec
 
 ---
 
-### 8.2 — Funcional, Divisional, Matricial ou Squads: Qual Estrutura Serve ao Seu Estágio Atual
+### 7.2 — Modelos de estrutura
 
 Existem três arquétipos de estrutura organizacional relevantes para startups. Eles não são estágios evolutivos lineares — são escolhas com trade-offs.
 
@@ -4533,7 +3825,7 @@ A regra prática: mude de modelo quando o custo de coordenação na estrutura at
 
 ---
 
-### 8.3 — Spans and Layers: Eliminando Gerentes de 2 Pessoas e Chefes Sobrecarregados com 18 Diretos
+### 7.3 — Spans and layers
 
 Span of control (amplitude de comando) é o número de reports diretos que um gestor tem. Layer (camada hierárquica) é cada nível entre o CEO e o colaborador individual.
 
@@ -4555,7 +3847,7 @@ Cada camada adicional na hierarquia tem custos que não aparecem no organograma:
 > [!tip] Regra prática de camadas por tamanho
 > Empresas de até 50 pessoas funcionam bem com 2 camadas (CEO mais líderes de área). Empresas de 50 a 150 pessoas raramente precisam de mais de 3 camadas. Empresas de 150 a 500 pessoas chegam a 4. Cada camada acima desse referencial precisa de justificativa explícita. Não "faz sentido ter um gerente médio aqui", mas "sem essa camada, este problema específico não tem solução".
 
-Span otimo varia conforme o time e presencial, hibrido ou totalmente distribuido. Para a disciplina de remoto e hibrido, ver [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 20 — REMOTE, HYBRID E DISTRIBUÍDO COMO DISCIPLINA|Capítulo 20 (Remote, Hybrid e Distribuído como Disciplina) (Vol. 6)]].
+Span otimo varia conforme o time e presencial, hibrido ou totalmente distribuido. Para a disciplina de remoto e hibrido, ver [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 15 — REMOTE, HYBRID E DISTRIBUÍDO COMO DISCIPLINA|Capítulo 15 (Remote, Hybrid e Distribuído como Disciplina) (Vol. 6)]].
 
 #### Quando criar nova camada
 
@@ -4573,7 +3865,7 @@ Não crie nova camada para:
 
 ---
 
-### 8.4 — A Anatomia de um Squad Verdadeiramente Autônomo (Sem Dependências Cruzadas Diárias)
+### 7.4 — Squads autônomas
 
 Squad autônoma não é time que faz o que quer. É time com missão clara, escopo bem definido, ownership (responsabilidade primária) de uma área de produto e capacidade de entregar valor sem depender de outro time para cada decisão operacional.
 
@@ -4602,7 +3894,7 @@ A segunda causa é incentivo errado. Se cada squad é avaliada somente pelo seu 
 
 ---
 
-### 8.5 — Cirurgia Organizacional (Reorg): Quando Executar Raro, Rápido e Sem Sangrar a Moral
+### 7.5 — Reorganizações
 
 Reorganização é uma das operações mais custosas que uma empresa pode fazer. E é uma das mais usadas como escape de problemas que não são estruturais.
 
@@ -4641,7 +3933,7 @@ Se a reorganização for necessária, execute rápido e comunique honestamente.
 
 ---
 
-### 8.6 — As Fraturas Previsíveis do Crescimento: De 15 a 500 Pessoas
+### 7.6 — Crescimento e estrutura — o que quebra em cada limiar
 
 O número de Dunbar (Robin Dunbar, 1992) descreve os limites cognitivos de manutenção de relações sociais: 5 relações íntimas, 15 próximas, 50 confiáveis, 150 conhecidas, 500 reconhecidas. Cada limiar representa um ponto onde os mecanismos informais de coordenação falham e precisam ser substituídos por mecanismos formais.
 
@@ -4684,7 +3976,7 @@ O que precisa ser criado: plataformas internas que permitem autonomia das unidad
 
 ---
 
-### 8.7 — Times de Plataforma e Enablement: Reduzindo a Carga Cognitiva dos Times de Produto
+### 7.7 — Platform teams e enablement
 
 Platform team (time de plataforma interna) é um time que existe para aumentar a velocidade de entrega de outros times. Não entrega produto diretamente para o cliente externo. A distinção é importante porque define o modelo de sucesso do time.
 
@@ -4729,7 +4021,7 @@ O antídoto para o platform team disfuncional é tratar a plataforma como produt
 
 ---
 
-### 8.8 — Topologia Geográfica no Brasil: Remoto, Híbrido ou Presencial Sem Criar Cidadãos de Segunda Classe
+### 7.8 — Remoto, presencial e híbrido no contexto brasileiro
 
 O debate remoto versus presencial no Brasil tem uma dimensão que os frameworks americanos ignoram: a CLT.
 
@@ -4824,13 +4116,13 @@ Serie C+       Reorganização foi evitada ou executada com plano de 6 meses?
 
 **Ver também:**
 
-- [[#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvases Visuais da Fase]], Canvases e Mapas Visuais
-- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 12 — GESTÃO DE TEMPO DO FUNDADOR E OPERATING CADENCE|Capítulo 12 (Gestão de Tempo do Fundador e Operating Cadence) (Vol. 6)]], operating cadence e OKRs
-- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 17 — CULTURA COMO DISCIPLINA|Capítulo 17 (Cultura como Disciplina) (Vol. 6)]], cultura organizacional
-- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 20 — REMOTE, HYBRID E DISTRIBUÍDO COMO DISCIPLINA|Capítulo 20 (Remote, Hybrid e Distribuído como Disciplina) (Vol. 6)]], remoto e hybrid afetam span
-- [[#CAPÍTULO 4 — ENGINEERING MANAGEMENT: GESTÃO DO TIME TÉCNICO E DEVELOPER EXPERIENCE|Capítulo 4 (Engineering Management: Gestão do Time Técnico e Developer Experience)]], engineering management
-- [[#CAPÍTULO 9 — GESTÃO DO CONHECIMENTO|Capítulo 9 (Gestão do Conhecimento)]], gestão do conhecimento
-- [[#CAPÍTULO 10 — COMUNICAÇÃO INTERNA|Capítulo 10 (Comunicação Interna)]], comunicação interna em escala
+- [[IGNICAO-Vol-1-Ideacao#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvases Visuais da Fase (Vol. 1)]], Canvases e Mapas Visuais
+- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 8 — FOUNDER MODE, DELEGAÇÃO, GESTÃO DE TEMPO E CADÊNCIA OPERACIONAL DO CEO|Capítulo 8 (Founder Mode, Delegação, Gestão de Tempo e Cadência Operacional do CEO) (Vol. 6)]], operating cadence e OKRs
+- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 13 — CULTURA COMO DISCIPLINA E EM SITUAÇÕES CRÍTICAS (HIPERCRESCIMENTO, M&A E REMOTO)|Capítulo 13 (Cultura como Disciplina e em Situações Críticas (Hipercrescimento, M&A e Remoto)) (Vol. 6)]], cultura organizacional
+- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 15 — REMOTE, HYBRID E DISTRIBUÍDO COMO DISCIPLINA|Capítulo 15 (Remote, Hybrid e Distribuído como Disciplina) (Vol. 6)]], remoto e hybrid afetam span
+- [[#CAPÍTULO 4 — ENGINEERING MANAGEMENT, DEVELOPER EXPERIENCE E GESTÃO DE DÍVIDA TÉCNICA|Capítulo 4 (Engineering Management, Developer Experience e Gestão de Dívida Técnica)]], engineering management
+- [[#CAPÍTULO 8 — GESTÃO DO CONHECIMENTO|Capítulo 8 (Gestão do Conhecimento)]], gestão do conhecimento
+- [[#CAPÍTULO 9 — COMUNICAÇÃO INTERNA|Capítulo 9 (Comunicação Interna)]], comunicação interna em escala
 
 ---
 
@@ -4849,7 +4141,7 @@ Coloque o organograma atual da sua empresa sobre a mesa e faça esta autópsia s
 
 ---
 
-## CAPÍTULO 9 — GESTÃO DO CONHECIMENTO
+## CAPÍTULO 8 — GESTÃO DO CONHECIMENTO
 
 ### A Amnésia Corporativa por Demissão e a Bomba-Relógio do Bus Factor 1
 
@@ -5279,11 +4571,11 @@ Em estágio mais avançado, gestão do conhecimento se torna vantagem competitiv
 
 **Ver também:**
 
-- [[#CAPÍTULO 8 — DESIGN ORGANIZACIONAL|Capítulo 8 (Design Organizacional)]], design organizacional
-- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 20 — REMOTE, HYBRID E DISTRIBUÍDO COMO DISCIPLINA|Capítulo 20 (Remote, Hybrid e Distribuído como Disciplina) (Vol. 6)]], remote como disciplina e documentação como base
+- [[#CAPÍTULO 7 — DESIGN ORGANIZACIONAL|Capítulo 7 (Design Organizacional)]], design organizacional
+- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 15 — REMOTE, HYBRID E DISTRIBUÍDO COMO DISCIPLINA|Capítulo 15 (Remote, Hybrid e Distribuído como Disciplina) (Vol. 6)]], remote como disciplina e documentação como base
 - [[#CAPÍTULO 2 — MANAGEMENT PARA O FUNDADOR TÉCNICO|Capítulo 2 (Management para o Fundador Técnico)]], management para fundador técnico
-- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 17 — CULTURA COMO DISCIPLINA|Capítulo 17 (Cultura como Disciplina) (Vol. 6)]], cultura como disciplina
-- [[#CAPÍTULO 10 — COMUNICAÇÃO INTERNA|Capítulo 10 (Comunicação Interna)]], comunicação interna
+- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 13 — CULTURA COMO DISCIPLINA E EM SITUAÇÕES CRÍTICAS (HIPERCRESCIMENTO, M&A E REMOTO)|Capítulo 13 (Cultura como Disciplina e em Situações Críticas (Hipercrescimento, M&A e Remoto)) (Vol. 6)]], cultura como disciplina
+- [[#CAPÍTULO 9 — COMUNICAÇÃO INTERNA|Capítulo 9 (Comunicação Interna)]], comunicação interna
 
 ---
 
@@ -5302,7 +4594,7 @@ Faça o exercício mais desconfortável de continuidade operacional da sua empre
 
 ---
 
-## CAPÍTULO 10 — COMUNICAÇÃO INTERNA
+## CAPÍTULO 9 — COMUNICAÇÃO INTERNA
 
 ### A Entropia do Rádio-Corredor e o Poder da Cultura do Memorando Silencioso
 
@@ -5316,13 +4608,13 @@ Quando sua empresa passa de quinze para sessenta ou duzentas pessoas, falar de i
 
 > [!abstract] Onde este capítulo se posiciona no bloco de comunicacao
 > O livro tem sete capítulos de comunicacao com territorios distintos,
-> - [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 9 — COMUNICAÇÃO PÚBLICA DO FUNDADOR: NARRATIVA, IMPRENSA E PORTA-VOZ|Capítulo 9 (Comunicação Pública do Fundador: Narrativa, Imprensa e Porta-Voz) (Vol. 6)]], narrativa publica e imprensa
-> - [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 10 — MARCA PESSOAL DO FUNDADOR: DISTRIBUIÇÃO, AUTORIDADE E CUSTO DE REPUTAÇÃO|Capítulo 10 (Marca Pessoal do Fundador: Distribuição, Autoridade e Custo de Reputação) (Vol. 6)]], marca pessoal e canais proprios
-> - [[#CAPÍTULO 10 — COMUNICAÇÃO INTERNA|Capítulo 10 (Comunicação Interna)]], comunicacao com o time
+> - [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 7 — MARCA CORPORATIVA, PR, COMUNICAÇÃO PÚBLICA E MARCA PESSOAL DO FUNDADOR|Capítulo 7 (Marca Corporativa, PR, Comunicação Pública e Marca Pessoal do Fundador) (Vol. 6)]], narrativa publica e imprensa
+> - [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 7 — MARCA CORPORATIVA, PR, COMUNICAÇÃO PÚBLICA E MARCA PESSOAL DO FUNDADOR|Capítulo 7 (Marca Corporativa, PR, Comunicação Pública e Marca Pessoal do Fundador) (Vol. 6)]], marca pessoal e canais proprios
+> - [[#CAPÍTULO 9 — COMUNICAÇÃO INTERNA|Capítulo 9 (Comunicação Interna)]], comunicacao com o time
 > - [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 8 — COMUNICAÇÃO ESCRITA PARA NEGÓCIOS|Capítulo 8 (Comunicação Escrita para Negócios) (Vol. 1)]], escrita executiva (memo, update, postmortem)
 > - [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 9 — APRESENTAÇÃO E FALA EM PÚBLICO|Capítulo 9 (Apresentação e Fala em Público) (Vol. 1)]], fala em publico (pitch, all-hands, board)
 > - [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 7 — INFLUÊNCIA E PERSUASÃO SEM AUTORIDADE FORMAL|Capítulo 7 (Influência e Persuasão sem Autoridade Formal) (Vol. 1)]], persuasao sem autoridade
-> - [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 10 — COMUNICAÇÃO EM CRISE|Capítulo 10 (Comunicação em Crise) (Vol. 9)]], comunicacao em crise
+> - [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9 — GESTÃO DE CRISE, CONTINUIDADE OPERACIONAL E COMUNICAÇÃO CRÍTICA|Capítulo 9 (Gestão de Crise, Continuidade Operacional e Comunicação Crítica) (Vol. 9)]], comunicacao em crise
 >
 > Este capítulo cobre comunicacao interna com o time, rituais e mecanismos que sustentam alinhamento em escala. Para os outros territorios, ver acima.
 
@@ -5722,10 +5014,10 @@ A melhor comunicação interna é aquela que o time não percebe como comunicaç
 
 - [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 9 — APRESENTAÇÃO E FALA EM PÚBLICO|Capítulo 9 (Apresentação e Fala em Público) (Vol. 1)]], fala em público (all-hands, board)
 - [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 8 — COMUNICAÇÃO ESCRITA PARA NEGÓCIOS|Capítulo 8 (Comunicação Escrita para Negócios) (Vol. 1)]], escrita executiva (memo, update, postmortem)
-- [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 11 — LAYOFFS E DOWNSIZING: COMO DEMITIR EM ESCALA SEM DESTRUIR A EMPRESA|Capítulo 11 (Layoffs e Downsizing: Como Demitir em Escala sem Destruir a Empresa) (Vol. 9)]], comunicação interna em layoff
-- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 17 — CULTURA COMO DISCIPLINA|Capítulo 17 (Cultura como Disciplina) (Vol. 6)]], cultura organizacional
-- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 14 — PERFORMANCE REVIEWS ESTRUTURADOS: CICLO, CALIBRAÇÃO E CONEXÃO COM COMPENSAÇÃO|Capítulo 14 (Performance Reviews Estruturados: Ciclo, Calibração e Conexão com Compensação) (Vol. 6)]], performance reviews
-- [[#CAPÍTULO 8 — DESIGN ORGANIZACIONAL|Capítulo 8 (Design Organizacional)]], desenho da estrutura
+- [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 10 — LAYOFFS E DOWNSIZING: COMO DEMITIR EM ESCALA SEM DESTRUIR A EMPRESA|Capítulo 10 (Layoffs e Downsizing: Como Demitir em Escala sem Destruir a Empresa) (Vol. 9)]], comunicação interna em layoff
+- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 13 — CULTURA COMO DISCIPLINA E EM SITUAÇÕES CRÍTICAS (HIPERCRESCIMENTO, M&A E REMOTO)|Capítulo 13 (Cultura como Disciplina e em Situações Críticas (Hipercrescimento, M&A e Remoto)) (Vol. 6)]], cultura organizacional
+- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 10 — PERFORMANCE REVIEWS ESTRUTURADOS: CICLO, CALIBRAÇÃO E CONEXÃO COM COMPENSAÇÃO|Capítulo 10 (Performance Reviews Estruturados: Ciclo, Calibração e Conexão com Compensação) (Vol. 6)]], performance reviews
+- [[#CAPÍTULO 7 — DESIGN ORGANIZACIONAL|Capítulo 7 (Design Organizacional)]], desenho da estrutura
 
 ---
 
@@ -5744,7 +5036,7 @@ Teste a nitidez da comunicação da sua empresa fazendo estas três perguntas ho
 
 ---
 
-## CAPÍTULO 11 — OPERAÇÕES EM ESCALA
+## CAPÍTULO 10 — OPERAÇÕES EM ESCALA
 
 ### O Gargalo Móvel da Teoria das Restrições e a Obsessão pelo Tempo de Ciclo
 
@@ -5758,10 +5050,10 @@ Você precisa dominar **O Gargalo Móvel da Teoria das Restrições** e **A Obse
 
 > [!abstract] Posicao no livro
 > Operacao como vantagem competitiva, processo, cadencia e instrumentacao para escala previsivel. Vizinhos relevantes,
-> - [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 12 — GESTÃO DE RISCO E SEGUROS PARA STARTUPS|Capítulo 12 (Gestão de Risco e Seguros para Startups) (Vol. 5)]], transferencia de risco residual via seguros
-> - [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9 — CRISE E CONTINUIDADE: PREVENÇÃO, RESPOSTA, RECUPERAÇÃO|Capítulo 9 (Crise e Continuidade: Prevenção, Resposta, Recuperação) (Vol. 9)]], BCP e DRP como camada operacional de continuidade
-> - [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 14 — SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA|Capítulo 14 (Segurança da Informação: Da Certificação à Engenharia) (Vol. 8)]], seguranca como disciplina operacional
-> - [[#CAPÍTULO 8 — DESIGN ORGANIZACIONAL|Capítulo 8 (Design Organizacional)]], desenho de equipes, papeis e cadencias que sustentam a operacao
+> - [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 8 — GESTÃO DE RISCO E SEGUROS PARA STARTUPS|Capítulo 8 (Gestão de Risco e Seguros para Startups) (Vol. 5)]], transferencia de risco residual via seguros
+> - [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9 — GESTÃO DE CRISE, CONTINUIDADE OPERACIONAL E COMUNICAÇÃO CRÍTICA|Capítulo 9 (Gestão de Crise, Continuidade Operacional e Comunicação Crítica) (Vol. 9)]], BCP e DRP como camada operacional de continuidade
+> - [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 13 — SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA|Capítulo 13 (Segurança da Informação: Da Certificação à Engenharia) (Vol. 8)]], seguranca como disciplina operacional
+> - [[#CAPÍTULO 7 — DESIGN ORGANIZACIONAL|Capítulo 7 (Design Organizacional)]], desenho de equipes, papeis e cadencias que sustentam a operacao
 > - Capítulos verticais com operacao fisica (CM, CA, DL, DQ), quando o playbook exige integracao com mundo nao digital
 
 Processos, Infraestrutura e Excelência Operacional
@@ -6290,9 +5582,9 @@ Fase 150+ pessoas
 
 **Ver também:**
 
-- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 6 — CANAIS INDIRETOS E PARCERIAS: PARCERIAS, FRANQUIAS, CHANNEL|Capítulo 6 — Experiência do Cliente e Jornada (Vol. 6)]] para como operações impactam NPS diretamente
-- [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 4 — MODELAGEM FINANCEIRA OPERACIONAL|Capítulo 4 — Modelagem Financeira Operacional (Vol. 5)]] para métricas financeiras que complementam as operacionais
-- [[#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvases e Mapas Visuais]] para ferramentas visuais de mapeamento de processos
+- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 5 — CANAIS INDIRETOS E PARCERIAS: PARCERIAS, FRANQUIAS, CHANNEL|Capítulo 5 — Experiência do Cliente e Jornada (Vol. 6)]] para como operações impactam NPS diretamente
+- [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 3 — MODELAGEM FINANCEIRA OPERACIONAL BOTTOM-UP E PROJEÇÕES POR COORTES (COHORTS)|Capítulo 3 — Modelagem Financeira Operacional (Vol. 5)]] para métricas financeiras que complementam as operacionais
+- [[IGNICAO-Vol-1-Ideacao#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvases e Mapas Visuais (Vol. 1)]] para ferramentas visuais de mapeamento de processos
 - [[#FASE 17 — OPERAÇÕES, PROCESSOS E GESTÃO EM ESCALA|Fase 17 — Operações, Processos e Gestão em Escala]] para como configurar operações nos primeiros meses
 - [[IGNICAO-Vol-9-Maturidade-e-Exit#FASE 19 — REINVENÇÃO E SEGUNDA CURVA|Fase 19 — Reinvenção e Segunda Curva (Vol. 9)]] para o contexto estratégico em que este capítulo se insere
 
@@ -6310,228 +5602,3 @@ Saia da sua sala e acompanhe pessoalmente o pedido de um cliente do segundo em q
 
 **O Ritual de Segunda-Feira às 9h:** Escolha o fluxo operacional de maior impacto no cliente, cronometre o tempo real de ponta a ponta (Lead Time vs. Touch Time) e elimine um handoff manual ou fila de espera até sexta-feira.
 
-
----
-
-# GLOSSÁRIO E SIGLAS DESTE VOLUME
-
-> [!abstract] Vocabulário técnico e siglas deste volume
-> Para garantir que este **Volume 7** funcione de forma 100% independente e autocontida sem exigir consulta a outro livro, esta seção reúne as definições dos **65 termos técnicos e de negócios** e das **39 siglas e abreviações** utilizados ao longo das Fases e Capítulos deste volume.
-
----
-
-## GLOSSÁRIO E SIGLAS DESTE VOLUME
-
-### Termos Técnicos e de Negócios Usados neste Volume
-
-**ACV (Annual Contract Value).** Valor anual de um contrato com cliente. Usado em vendas B2B para dimensionar deals e calcular receita por cliente.
-
-**ADR (Architecture Decision Record).** Documento que registra decisões arquiteturais de software, incluindo o contexto, a decisão tomada e as alternativas consideradas. Ferramenta de gestão do conhecimento em times de engenharia.
-
-**Advisor.** Conselheiro externo que orienta o fundador em áreas específicas (técnica, comercial, regulatória, captação). Tipicamente compensado com 0,1% a 1% de equity sob contrato FAST.
-
-**ARR (Annual Recurring Revenue).** Receita anual recorrente. Soma de todos os contratos ativos anualizados. Principal métrica de tamanho de empresa SaaS. ARR = MRR × 12.
-
-**BCB (Banco Central do Brasil).** Autoridade monetária e regulatória do sistema financeiro brasileiro. Regula bancos, fintechs, instituições de pagamento e sandbox regulatório de inovação financeira.
-
-**Bet-the-company (aposta central).** Hipótese cuja refutação invalida o modelo de negócio inteiro. Diferente de hipóteses secundárias, que podem ser refutadas sem comprometer a empresa. Todo negócio tem duas a cinco apostas-centrais.
-
-**Board.** Conselho de administração. Órgão de governança da empresa. Em startups, tipicamente 3-5 membros: fundadores, investidores e independentes.
-
-**CAC (Customer Acquisition Cost).** Custo total de marketing e vendas dividido pelo número de novos clientes no período. Calculado por canal para diagnóstico preciso, não apenas blended.
-
-**CAC Payback.** Número de meses necessários para recuperar o CAC com a margem bruta gerada pelo cliente. Referência: ≤ 12 meses B2C, ≤ 18 meses B2B enterprise.
-
-**Churn.** Taxa de cancelamento ou perda de clientes ou receita em um período. Churn de clientes: percentual de clientes que cancelaram. Churn de receita (MRR churn): percentual da receita mensal perdida por cancelamentos e downgrades.
-
-**Cliff (de vesting).** Período inicial de vesting em que nenhuma parte da participação veste. Tipicamente 12 meses para cofundadores e funcionários: se sair antes de 1 ano, não recebe nada.
-
-**Cofundador.** Pessoa que funda a empresa em conjunto com um ou mais sócios desde o início. No Brasil, distinto de "co-founder" — usar termo em português é a convenção do livro.
-
-**Compliance.** Conformidade regulatória. Em startups, refere-se à aderência a normas de LGPD, anticorrupção, trabalhistas, fiscais e setoriais. Capítulo 12 (Vol. 8) (Compliance e Anticorrupção para Startups) trata de Compliance e Anticorrupção em profundidade.
-
-**Continuous discovery.** Prática de pesquisa contínua com usuários integrada ao ciclo de desenvolvimento de produto, em vez de pesquisas pontuais. Conceito de Teresa Torres. Ver Framework: Continuous Discovery Habits (Teresa Torres, 2021) (Fase 17).
-
-**CRM (Customer Relationship Management).** Sistema de gestão de relacionamento com clientes. Registra interações, pipeline de vendas e histórico do cliente. Exemplos: Salesforce, HubSpot, Pipedrive.
-
-**DPA (Data Processing Agreement).** Acordo de processamento de dados pessoais entre controlador e operador, exigido pela LGPD quando há transferência de dados a terceiro processador.
-
-**Dual-Track Agile.** Modelo em que descoberta (discovery) e entrega (delivery) rodam em trilhos paralelos, alimentando-se mutuamente. Conceito de Marty Cagan.
-
-**EBITDA.** Lucro antes de juros, impostos, depreciação e amortização. Métrica de geração operacional de caixa, usada em valuation por múltiplos (EV/EBITDA) e em covenants bancários.
-
-**ERP (Enterprise Resource Planning).** Sistema de gestão integrada que centraliza processos operacionais como financeiro, estoque, RH e produção. Exemplos: SAP, Totvs, Oracle.
-
-**ESOP (Employee Stock Option Plan).** Plano de outorga de opções de ações a funcionários. Tipicamente reserva de 10-20% do cap table para o pool. Mecanismo central de retenção em startups.
-
-**EV (Enterprise Value).** Valor total da empresa: capitalização de mercado mais dívida líquida. Usado como numerador nos múltiplos de valuation (EV/ARR, EV/EBITDA).
-
-**Exit.** Saída do fundador ou investidor da empresa, geralmente via M&A, IPO ou secondary.
-
-**Founder Mode.** Estilo de gestão hands-on do fundador-CEO em estágio early-to-growth, em contraste com o "manager mode" delegativo. Conceito popularizado por Paul Graham (2024).
-
-**GMV (Gross Merchandise Value).** Volume bruto de transações processadas em uma plataforma. A receita da plataforma é o take rate aplicado sobre o GMV.
-
-**Go-to-market (GTM).** Estratégia de como a empresa leva o produto ao mercado: quais segmentos atacar, por quais canais, com qual motion de vendas e posicionamento.
-
-**Headcount.** Número total de funcionários de uma empresa.
-
-**ICP (Ideal Customer Profile).** Perfil ideal do cliente: a empresa ou pessoa para quem o produto foi especificamente construído e que extrai mais valor dele. Mais específico que persona, que é mais específico que segmento.
-
-**IP (Intellectual Property).** Propriedade intelectual: patentes, marcas registradas, código-fonte, segredos comerciais. Em startups, instrumento de cessão de IP do fundador para a empresa é cláusula obrigatória de contrato societário.
-
-**IPO (Initial Public Offering).** Oferta pública inicial — abertura de capital na bolsa de valores. No Brasil, na B3. Tipicamente alvo de empresas com ARR ≥ R$ 300 milhões e crescimento ≥ 30% YoY.
-
-**JTBD (Jobs to be Done).** Framework de pesquisa que entende comportamento do consumidor como contratação de produtos para realizar um "trabalho" funcional, emocional ou social. Originado por Tony Ulwick (Strategyn, 1990, aplicando Six Sigma à inovação), popularizado por Clayton Christensen em *The Innovator's Solution* (2003), e operacionalizado em Switch Interviews por Bob Moesta. Ver Framework: Jobs to Be Done Framework (Clayton Christensen, Anthony Ulwick, Bob Moesta) (Fase 5) e Framework: Jobs to Be Done Switch Interviews (Bob Moesta & Chris Spiek, via Clayton Christensen) (Fase 5).
-
-**Lead.** Potencial cliente que demonstrou interesse inicial. Pode ser MQL (Marketing Qualified Lead) ou SQL (Sales Qualified Lead) dependendo do nível de qualificação.
-
-**LGPD (Lei Geral de Proteção de Dados).** Lei 13.709/2018 que regula o tratamento de dados pessoais no Brasil. Multa máxima: 2% do faturamento, limite R$ 50 milhões por infração. Fiscalizada pela ANPD.
-
-**LTV (Lifetime Value).** Valor presente líquido da receita gerada por um cliente ao longo de toda a sua relação com a empresa. LTV/CAC ≥ 3x é referência para modelo sustentável.
-
-**M&A (Mergers and Acquisitions).** Fusões e aquisições. Caminho mais comum de exit para startups brasileiras.
-
-**Margem bruta.** (Receita - COGS) / Receita. Em SaaS: tipicamente 65-80%. Em marketplace: 30-50%. Em hardware: 30-55%.
-
-**Market fit.** Versão mais ampla de PMF que inclui adequação ao momento de mercado, não apenas ao produto.
-
-**MRR (Monthly Recurring Revenue).** Receita recorrente mensal. Soma de todos os contratos ativos, normalizada para mensal.
-
-**MVP (Minimum Viable Product).** Versão mínima do produto com funcionalidades suficientes para validar hipóteses críticas com usuários reais e coletar feedback. Não é produto incompleto: é produto deliberadamente mínimo.
-
-**Net Revenue Retention (NRR).** Percentual da receita mantida e expandida em coorte de clientes existentes. Inclui upsell, cross-sell, expansão de seats e desconta churn e downgrades. NRR ≥ 110% indica crescimento orgânico da base.
-
-**NPS (Net Promoter Score).** Métrica de lealdade e satisfação. Pergunta: "Em escala de 0 a 10, o quanto você recomendaria [empresa/produto] para um amigo?" Promotores (9-10) menos Detratores (0-6) = NPS. Referência: ≥ 40 consumer, ≥ 30 enterprise.
-
-**OKR (Objectives and Key Results).** Framework de definição de metas com objetivo qualitativo e resultados-chave mensuráveis. Criado na Intel por Andy Grove, popularizado pelo Google. Ver Frameworks da Fase 17.
-
-**Onboarding.** Processo de entrada e ativação de um novo usuário ou colaborador. Onboarding de cliente: caminho do cadastro até o "aha moment". Onboarding de funcionário: integração nas primeiras 4-12 semanas.
-
-**Outbound.** Motion de vendas onde a empresa ativamente prospecta clientes, em vez de esperar inbound. Inclui cold outreach, SDRs e prospecção ativa.
-
-**P&L (Profit and Loss).** Demonstração de resultados. Mostra receita, custos, despesas e lucro/prejuízo no período.
-
-**Pivot.** Mudança estrutural de uma ou mais dimensões do modelo de negócio (cliente, problema, solução, canal, modelo de receita) mantendo aprendizados anteriores. Diferente de pivô cosmético (renomear) e de "abandonar".
-
-**PLG (Product-Led Growth).** Motion de crescimento onde o produto é o principal veículo de aquisição, conversão e expansão. Produto gera valor suficiente para que usuário traga outros usuários. Contraposto a SLG (Sales-Led Growth).
-
-**PMF (Product-Market Fit).** Momento em que produto e mercado se encaixam: produto resolve dor real de segmento identificado de forma que gera retenção, engajamento e crescimento orgânico. Diagnóstico central da [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 13 — PRODUCT-MARKET FIT|Fase 13 (Vol. 4)]].
-
-**Post-mortem.** Análise retrospectiva de falha ou incidente, com foco em aprendizado sistêmico em vez de atribuição de culpa. Blameless post-mortem é variante que explicitamente remove julgamento pessoal.
-
-**Pre-seed.** Rodada de captação anterior à Série Seed. Tipicamente R$ 300 mil a R$ 3 milhões, de anjos ou fundos micro-VC, para time e MVP inicial.
-
-**Radical Candor.** Modelo de feedback de Kim Scott (2017) que combina "care personally" com "challenge directly". Antídoto à manipulação insincera, agressão obnóxia e empatia ruinosa.
-
-**RFC (Request for Comments).** Documento que descreve uma proposta técnica ou organizacional e coleta feedback antes da decisão. Mecanismo de escala de decisão em times técnicos.
-
-**ROI (Return on Investment).** Retorno sobre investimento. (Ganho - Custo) / Custo. Métrica genérica de eficiência de capital aplicado.
-
-**Rockefeller Habits.** Disciplina de execução de Verne Harnish (2014) baseada em prioridades trimestrais, métricas semanais e ritmo de reuniões diárias/semanais/mensais/trimestrais.
-
-**Runway.** Número de meses antes de a empresa ficar sem caixa, considerando o burn rate atual. Referência: mínimo 12 meses após rodada, ideal 18 a 24 meses.
-
-**SDK (Software Development Kit).** Conjunto de ferramentas, bibliotecas e documentação que facilita o desenvolvimento de aplicações em uma plataforma específica.
-
-**Seed.** Rodada de captação inicial de startup. No Brasil, tipicamente R$ 1 milhão a R$ 10 milhões, de fundos seed ou anjos, para validar PMF e motor inicial de crescimento.
-
-**Shape Up.** Metodologia de produto da Basecamp (Ryan Singer, 2019). Ciclos fixos de 6 semanas, escopo flexível, autonomia da equipe. Alternativa ao Scrum. Ver Framework: Shape Up (Ryan Singer / Basecamp, 2019) (Fase 17) e [[#CAPÍTULO 1 — PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA|Capítulo 1 (Produto em Escala e Descoberta Contínua)]] (Shape Up aplicado ao contexto de produto em escala).
-
-**SLA (Service Level Agreement).** Acordo de nível de serviço. Define métricas de disponibilidade, performance e tempo de resposta que a empresa se compromete a manter. Violações geram créditos ou penalidades.
-
-**SPADE.** Framework de decisão de Gokul Rajaram para decisões importantes: Setting (contexto), People (envolvidos), Alternatives (opções), Decide (escolha), Explain (comunicação).
-
-**SQL (Sales Qualified Lead).** Lead qualificado pelo time de vendas como oportunidade real. Critérios BANT: Budget, Authority, Need, Timeline.
-
-**Take rate.** Percentual do GMV que a plataforma retém como receita. Varia por setor: delivery 15-30%, ride-sharing 20-30%, marketplace 10-20%.
-
-**Technical debt (dívida técnica).** Custo futuro de retrabalho decorrente de decisões técnicas rápidas feitas no passado para ganhar velocidade. Como dívida financeira: acumula juros (velocidade de desenvolvimento decrescente) se não paga.
-
-**Unit economics.** Métricas de rentabilidade no nível da unidade básica do negócio (um cliente, uma transação, um produto). CAC, LTV, margem por transação, payback period.
-
-**Valuation.** Valor estimado de uma empresa. Em startups privadas, determinado por rodadas de captação. Pode ser calculado por múltiplos (EV/ARR, EV/EBITDA), DCF ou transações comparáveis.
-
-**Vesting.** Mecanismo pelo qual a participação em uma empresa é ganha gradualmente ao longo do tempo. Vesting padrão: 4 anos com 1 ano de cliff. Protege a empresa se fundador ou funcionário sai cedo.
-
----
-
-### Siglas e Abreviações Usadas neste Volume
-
-**API:** Application Programming Interface. *Tecnologia.*
-
-**ARR:** Annual Recurring Revenue (receita recorrente anual). *SaaS / métricas.*
-
-**B2B:** Business-to-Business. *Modelo de negócio.*
-
-**BMC:** Business Model Canvas. *Estratégia / modelagem de negócio.*
-
-**CAC:** Customer Acquisition Cost (custo de aquisição de cliente). *Unit economics.*
-
-**CEO:** Chief Executive Officer. *Gestão.*
-
-**CFO:** Chief Financial Officer. *Gestão.*
-
-**CLT:** Consolidação das Leis do Trabalho (regime trabalhista brasileiro com vínculo formal). *Trabalho.*
-
-**CPO:** Chief Product Officer. *Gestão.*
-
-**CRM:** Customer Relationship Management (sistema ou prática). *Vendas.*
-
-**CTO:** Chief Technology Officer. *Gestão.*
-
-**CVV:** Centro de Valorização da Vida (linha de apoio 188). *Saúde mental.*
-
-**DPA:** Data Processing Agreement (adendo contratual de dados). *LGPD.*
-
-**EBITDA:** Earnings Before Interest, Taxes, Depreciation and Amortization. *Finanças.*
-
-**GMV:** Gross Merchandise Value (volume bruto de transações). *Marketplaces.*
-
-**HR / RH:** Human Resources / Recursos Humanos. *Gestão.*
-
-**ICP:** Ideal Customer Profile. *Vendas e marketing.*
-
-**IPO:** Initial Public Offering (abertura de capital em bolsa). *Exit.*
-
-**JTBD:** Jobs To Be Done. *Framework de produto.*
-
-**KR:** Key Result (no framework OKR). *Planejamento.*
-
-**LGPD:** Lei Geral de Proteção de Dados (Lei 13.709/2018). *Regulação.*
-
-**LTV:** Lifetime Value (valor vitalício de cliente). *Unit economics.*
-
-**M&A:** Mergers and Acquisitions (fusões e aquisições). *Exit.*
-
-**MRR:** Monthly Recurring Revenue. *SaaS / métricas.*
-
-**MVP:** Minimum Viable Product (produto mínimo viável). *Produto.*
-
-**NPS:** Net Promoter Score (métrica de recomendação). *Satisfação.*
-
-**OKR:** Objectives and Key Results. *Planejamento.*
-
-**P&L / DRE:** Profit and Loss / Demonstração de Resultado. *Contabilidade.*
-
-**PIX:** sistema de pagamentos instantâneos do BACEN. *Pagamentos Brasil.*
-
-**PJ:** Pessoa Jurídica (regime de contratação). *Trabalho.*
-
-**PLG:** Product-Led Growth. *Growth.*
-
-**PM:** Product Manager. *Produto.*
-
-**PMF:** Product-Market Fit. *Conceito central.*
-
-**ROI:** Return on Investment. *Finanças.*
-
-**SaaS:** Software as a Service. *Modelo de negócio.*
-
-**SDR:** Sales Development Representative. *Vendas.*
-
-**SIPOC:** Suppliers, Inputs, Process, Outputs, Customers. *Operações.*
-
-**SQL:** Sales Qualified Lead. *Vendas.*
-
-**VP:** Vice President. *Gestão.*

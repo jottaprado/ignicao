@@ -4,8 +4,9 @@
  * Transforma a experiência de leitura dos 10 volumes:
  *  - Substitui o antigo formato de "almanaque/verbete" pela arquitetura de 4 Atos Narrativos + Oficina de Trincheira.
  *  - Apresenta os 4 fundadores-arquétipos brasileiros recorrentes (Lucas & Marina, Dra. Camila, Henrique, Rafael & Bia).
- *  - Converte os subtítulos robóticos ("O QUE É", "POR QUE", "QUANDO USAR", "QUEM ENVOLVE", "COMO EXECUTAR")
- *    em títulos-tese provocativos e conversacionais inspirados nos 10 maiores clássicos de negócios.
+ *  - Remove os andaimes enciclopédicos redundantes ("O que este capítulo cobre", "Quando usar", "Quem envolve",
+ *    "Definição de sucesso", "Perguntas a responder", "Ver também", caixas de resumo repetidas e "Leitura adicional" avulsa).
+ *  - Converte os subtítulos restantes em títulos-tese provocativos e conversacionais inspirados nos 10 maiores clássicos de negócios.
  *  - Reescreve a moldura dos 164 Frameworks, 20 Canvases e 39 Templates no tom de consultor ao lado do dono (estilo Traction).
  */
 
@@ -28,7 +29,7 @@ Mais importante: você não fará esta travessia sozinho. Além de centenas de c
 
 Cada capítulo e fase deste livro agora respira em **dois tempos**:
 1. **A Narrativa de Trincheira (Atos 1 a 4):** abrimos sempre no meio da tensão real — nunca com definições de manual —, dissecamos a física do problema, damos nome às armadilhas invisíveis e fechamos com **O Espelho** (autodiagnóstico direto) e **O Ritual de Segunda-Feira**;
-2. **A Oficina de Trincheira (Caderno de Campo):** ao final de cada fase, você encontra todas as ferramentas, *frameworks*, *canvases* preenchidos e *templates* prontos para abrir na mesa com os seus sócios e executar imediatamente.
+2. **A Oficina de Trincheira (Caderno de Campo):** ao final de cada fase, você encontra todas as ferramentas, *frameworks*, *canvases* preenchidos e *templates* prontos para abrir na mesa com os seus sócios e executar imediatamente — impressos uma única vez na coleção inteira, exatamente na etapa em que entram em ação.
 
 Eu não escrevi este livro do topo da montanha. Escrevi no meio da subida, suando na mesma pedra em que você está agora. Leia os capítulos corridos para mudar a sua forma de enxergar o jogo; abra a Oficina de Trincheira quando precisar agir sob pressão. Se uma única página aqui evitar que você queime dois anos de vida na ideia errada, no sócio errado ou no contrato errado, cada linha terá valido a pena.
 
@@ -52,10 +53,15 @@ Ao longo dos **Volumes 1 a 9**, além das histórias reais de gigantes brasileir
 | **4. Rafael & Bia**<br/>*(Varejo, D2C, Comércio & Marketplace)* | **Rafael** (27, criativo de marketing no Recife) e **Bia** (28, engenheira de produção em Goiânia, obcecada por operações, estoque e planilha). | Se iludem com faturamento bruto alto movido a tráfego pago caro, sofrem com ruptura de estoque e descobrem o peso da cadeia logística e tributária brasileira. | Sobrevivem a uma crise severa de capital de giro e à transição da **Reforma Tributária (IBS/CBS)**, lideram um *turnaround* difícil com corte de custos e constroem uma marca omnichannel com retenção real. |`;
 
 /**
- * Reescreve os subtítulos internos dos 164 Frameworks (BG) para o tom de consultor ao lado do dono (Traction).
+ * Reescreve os subtítulos internos dos 164 Frameworks (BG) para o tom de consultor ao lado do dono (Traction)
+ * e enxuga as subseções finais redundantes ("Quando não usar" e "Leitura adicional").
  */
 function transformFrameworkToOficina(content) {
-  return content
+  let cleaned = content
+    .replace(/\n##### (?:Quando n[ãa]o usar|Leitura adicional)\n[\s\S]*?(?=\n##### |$)/gi, '')
+    .trim();
+
+  return cleaned
     .replace(/^##### Origem$/gim, '##### De onde vem a ferramenta (e por que sobreviveu ao filtro do tempo)')
     .replace(/^##### O que [ée]$/gim, '##### A mecânica central (sem jargão)')
     .replace(/^##### Princ[íi]pios \/ estrutura$/gim, '##### As regras do jogo')
@@ -64,25 +70,28 @@ function transformFrameworkToOficina(content) {
     .replace(/^##### Como aplicar$/gim, '##### Como rodar na segunda-feira às 9h com seu time')
     .replace(/^##### Exemplo aplicado$/gim, '##### Na trincheira real: como isso funciona na prática')
     .replace(/^##### Erros comuns(?: a evitar)?$/gim, '##### Onde o papel aceita tudo (armadilhas de execução)')
-    .replace(/^##### Quando n[ãa]o usar$/gim, '##### Quando deixar esta ferramenta na gaveta')
-    .replace(/^##### Quando usar$/gim, '##### O gatilho exato para sacar este framework')
-    .replace(/^##### Leitura adicional$/gim, '##### Para ir mais fundo na fonte original');
+    .replace(/^##### Quando usar$/gim, '##### O gatilho exato para sacar este framework');
 }
 
 /**
- * Reescreve os subtítulos internos dos 20 Canvases (CZ) para o tom da Oficina de Trincheira.
+ * Reescreve os subtítulos internos dos 20 Canvases (CZ) para o tom da Oficina de Trincheira
+ * e remove subseções finais redundantes.
  */
 function transformCanvasToOficina(content) {
-  return content
+  let cleaned = content
+    .replace(
+      /\n##### (?:Quando n[ãa]o usar|Conex[ãa]o com outros canvases|Leitura adicional)\n[\s\S]*?(?=\n##### |$)/gi,
+      ''
+    )
+    .trim();
+
+  return cleaned
     .replace(/^##### Origem$/gim, '##### Por que este quadro visual foi criado')
     .replace(/^##### O que [ée]$/gim, '##### A anatomia visual de uma página')
     .replace(/^##### Quando usar$/gim, '##### O momento exato de colocar este canvas na parede')
     .replace(/^##### Princ[íi]pios$/gim, '##### As regras de ouro para preencher sem se enganar')
     .replace(/^##### Como aplicar$/gim, '##### Passo a passo na parede da sala (30 a 60 minutos)')
-    .replace(/^##### Erros comuns(?: a evitar)?$/gim, '##### Onde os fundadores mentem para si mesmos neste canvas')
-    .replace(/^##### Quando n[ãa]o usar$/gim, '##### Quando este canvas atrapalha mais do que ajuda')
-    .replace(/^##### Conex[ãa]o com outros canvases$/gim, '##### Como este quadro conversa com o resto da Oficina')
-    .replace(/^##### Leitura adicional$/gim, '##### Referências de cabeceira');
+    .replace(/^##### Erros comuns(?: a evitar)?$/gim, '##### Onde os fundadores mentem para si mesmos neste canvas');
 }
 
 const DEFAULT_HEADING_FALLBACKS = {
@@ -134,6 +143,41 @@ const DEFAULT_HEADING_FALLBACKS = {
 };
 
 /**
+ * Remove subseções H3 puramente enciclopédicas ("O que este capítulo cobre", "Quando usar",
+ * "Quem envolve", "Definição de sucesso", "PERGUNTAS A RESPONDER", "FERRAMENTAS DESTA FASE",
+ * "Ver também", "Conexões", etc.) que duplicam a abertura narrativa e o fechamento de autodiagnóstico.
+ */
+const REDUNDANT_ALMANAC_H3_RE =
+  /^(?:O que (?:est[ea]|ess[ea]) (?:fase|cap[íi]tulo|ap[êe]ndice) cobre|Quando (?:usar(?: ess[ea] (?:cap[íi]tulo|ap[êe]ndice))?|aplicar|considerar)|QUANDO CONSIDERAR|Quem (?:envolve|envolver)|QUEM PARTICIPA|Defini[çc][ãa]o de sucesso(?: do modelo)?|DEFINI[ÇC][ÃA]O DE SUCESSO DO MODELO|PERGUNTAS A RESPONDER|FERRAMENTAS DESTA FASE|Ap[êe]ndices Operacionais desta Etapa|Ver tamb[ée]m|VER TAMB[ÉE]M|Conex[ãa]o com outros (?:cap[íi]tulos|ap[êe]ndices)|Conex[õo]es (?:diretas na cole[çc][ãa]o|no livro)|Rela[çc][ãa]o com (?:outros (?:cap[íi]tulos|ap[êe]ndices) e fases|o resto do manual)|RELA[ÇC][ÃA]O COM O RESTO DO MANUAL)$/i;
+
+function stripRedundantAlmanacH3Sections(body) {
+  const lines = body.split('\n');
+  const out = [];
+  let inFence = false;
+  let skipping = false;
+
+  for (const line of lines) {
+    if (line.trim().startsWith('```')) inFence = !inFence;
+    if (!inFence && /^#{1,3}\s/.test(line)) {
+      if (line.startsWith('### ')) {
+        const hTitle = line.slice(4).trim();
+        skipping = REDUNDANT_ALMANAC_H3_RE.test(hTitle);
+      } else {
+        skipping = false;
+      }
+    }
+    if (!skipping) {
+      out.push(line);
+    }
+  }
+
+  return out
+    .join('\n')
+    .replace(/(?:\n+---){2,}/g, '\n\n---')
+    .replace(/\n{3,}/g, '\n\n');
+}
+
+/**
  * Aplica a arquitetura narrativa de 4 Atos + Oficina de Trincheira a uma Fase ou Capítulo.
  */
 function applyNarrativeRefactor(sectionKey, rawBody, allSpecsMap) {
@@ -142,15 +186,12 @@ function applyNarrativeRefactor(sectionKey, rawBody, allSpecsMap) {
 
   let body = rawBody;
 
-  // 1) Extrair eventual callout "> [!abstract] Resumo operacional..." do topo para movê-lo
-  //    para a entrada da Oficina / Fechamento Prático, impedindo que o capítulo abra como ficha catalográfica.
-  let extractedResumoBox = '';
+  // 1) Remover callout "> [!abstract] Resumo operacional..." redundante (já substituído pelo Ato 1 + Ato 4)
   const resumoRegex = /\n(> \[!abstract\] Resumo operacional[^\n]*(?:\n>.*)*)\n/;
-  const mResumo = body.match(resumoRegex);
-  if (mResumo) {
-    extractedResumoBox = mResumo[1].trim();
-    body = body.replace(resumoRegex, '\n');
-  }
+  body = body.replace(resumoRegex, '\n');
+
+  // 1b) Remover subseções H3 de andaime enciclopédico ("O que este capítulo cobre", "Quando usar", "Quem envolve", "Ver também", etc.)
+  body = stripRedundantAlmanacH3Sections(body);
 
   // 2) Inserir o Ato 1 (Abertura em Tensão: Cena Visceral + Paradoxo + Conceito com Nome Próprio)
   //    logo após o título H2 (## FASE ... ou ## CAPÍTULO ... ou ## EPÍLOGO)
@@ -163,21 +204,21 @@ function applyNarrativeRefactor(sectionKey, rawBody, allSpecsMap) {
   }
 
   // 3) Inserir o Ato 4 (O Espelho de Autodiagnóstico + Ritual de Segunda-Feira)
-  //    e o Resumo Operacional da Oficina no fechamento narrativo ANTES de renomear os H3,
-  //    garantindo que os gatilhos de posição ("### FERRAMENTAS DESTA FASE", etc.) sejam encontrados com 100% de precisão.
+  //    no fechamento narrativo ANTES de renomear os H3
   if (spec.mirrorTitle && spec.mirrorBody) {
-    const mirrorSection = `\n\n---\n\n### ${spec.mirrorTitle}\n\n${spec.mirrorBody.trim()}` +
-      (extractedResumoBox ? `\n\n${extractedResumoBox}` : '') + '\n';
+    const mirrorSection = `\n\n---\n\n### ${spec.mirrorTitle}\n\n${spec.mirrorBody.trim()}\n`;
 
-    // Se for Fase com "FERRAMENTAS DESTA FASE" ou blocos da Oficina, inserir imediatamente antes:
-    const oficinaTriggerRe = /\n(?:---\n\n)?### (?:FERRAMENTAS DESTA FASE|MÉTRICAS E BENCHMARKS DESTA FASE|MANUAL PASSO A PASSO DOS FRAMEWORKS DESTA FASE)/;
+    // Se for Fase com blocos da Oficina, inserir imediatamente antes:
+    const oficinaTriggerRe =
+      /\n(?:---\n\n)?### (?:MÉTRICAS E BENCHMARKS DESTA FASE|MANUAL PASSO A PASSO DOS FRAMEWORKS DESTA FASE|CANVASES VISUAIS DESTA FASE|TEMPLATES OPERACIONAIS E CASOS PREENCHIDOS DESTA FASE|LEITURAS E RECURSOS RECOMENDADOS DESTA FASE)/;
     const mOficina = body.match(oficinaTriggerRe);
     if (mOficina) {
       const idx = mOficina.index;
       body = body.slice(0, idx) + mirrorSection + '\n' + body.slice(idx + 1);
     } else {
-      // Se for Capítulo com seção final de conexões/referências/transição, inserir antes:
-      const tailRe = /\n(?:---\n\n)?### (?:Ver também|Conexões diretas na coleção|Conexão com outros capítulos|Relação com outros capítulos e fases|FRAMEWORKS PASSO A PASSO DESTE CAPÍTULO|LEITURAS E REFERÊNCIAS COMPLEMENTARES|Transição:)/;
+      // Se for Capítulo com seção final de frameworks/referências/transição, inserir antes:
+      const tailRe =
+        /\n(?:---\n\n)?### (?:FRAMEWORKS PASSO A PASSO DESTE CAPÍTULO|LEITURAS E REFERÊNCIAS COMPLEMENTARES|Transição:)/;
       const mTail = body.match(tailRe);
       if (mTail) {
         const idx = mTail.index;
@@ -186,11 +227,9 @@ function applyNarrativeRefactor(sectionKey, rawBody, allSpecsMap) {
         body = body.trimEnd() + mirrorSection;
       }
     }
-  } else if (extractedResumoBox) {
-    body = body.trimEnd() + `\n\n${extractedResumoBox}\n`;
   }
 
-  // 4) Substituir todos os subtítulos enciclopédicos H3 ("### O quê", "### POR QUE", etc.)
+  // 4) Substituir todos os subtítulos enciclopédicos H3 restantes ("### O quê", "### POR QUE", etc.)
   //    pelos títulos-tese customizados de spec.headingMap ou pelos fallbacks narrativos
   const mergedMap = { ...DEFAULT_HEADING_FALLBACKS, ...(spec.headingMap || {}) };
   const lowerMap = new Map();
@@ -227,7 +266,6 @@ function applyNarrativeRefactor(sectionKey, rawBody, allSpecsMap) {
       if (lowerMap.has(hText.toLowerCase())) {
         return `### ${lowerMap.get(hText.toLowerCase())}`;
       }
-      // Fallback para SÍNTESE DA FASE X não mapeada explicitamente
       const mSint = hText.match(/^SÍNTESE DA FASE (\d+)$/i);
       if (mSint) {
         return `### Fechamento da Fase ${mSint[1]}: o que muda na sua cabeça e na sua empresa a partir de agora`;

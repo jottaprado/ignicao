@@ -28,26 +28,26 @@ VOLUMES_DIR = ROOT / "volumes"
 
 EXPECTED_CANVAS_COUNT_BY_FASE = {
     "FASE_0": 1,
-    "FASE_1": 2,
-    "FASE_2": 3,
-    "FASE_3": 2,
+    "FASE_1": 1,
+    "FASE_2": 1,
+    "FASE_3": 1,
     "FASE_4": 1,
-    "FASE_5": 3,
-    "FASE_6": 4,
-    "FASE_7": 2,
-    "FASE_8": 2,
-    "FASE_9": 4,
-    "FASE_10": 1,
-    "FASE_11": 2,
+    "FASE_5": 2,
+    "FASE_6": 3,
+    "FASE_7": 1,
+    "FASE_8": 1,
+    "FASE_9": 2,
+    "FASE_10": 0,
+    "FASE_11": 1,
     "FASE_12": 1,
-    "FASE_13": 1,
+    "FASE_13": 0,
     "FASE_14": 2,
-    "FASE_15": 2,
-    "FASE_16": 2,
-    "FASE_17": 2,
-    "FASE_18": 1,
-    "FASE_19": 2,
-    "FASE_20": 2,
+    "FASE_15": 0,
+    "FASE_16": 1,
+    "FASE_17": 0,
+    "FASE_18": 0,
+    "FASE_19": 1,
+    "FASE_20": 0,
 }
 
 
@@ -205,16 +205,15 @@ def audit_structure_and_links(only_problems: bool = False) -> bool:
             print(f"  ok  {stem:<48} ({words:>7,} palavras | {len(headings_by_vol[stem]):>3} headings)")
 
     print()
-    print("=== RESULTADO (estrutura autocontida, narrativa v5.0 e wikilinks) ===")
+    print("=== RESULTADO (estrutura enxuta v5.0, zero duplicatas e wikilinks) ===")
     print(f"Volumes verificados:        {len(vols)} (esperado: 10)")
     print(f"Fases sequenciais (0-20):   {len(fases)} (esperado: 21)")
-    print(f"Capítulos temáticos:        {len(capitulos)} (esperado: 180)")
-    print(f"Frameworks únicos / total:  {len(uniq_frameworks)} únicos ({len(frameworks)} instâncias nos Vols 1-9 | esperado: 164 únicos)")
-    print(f"Canvases únicos / total:    {len(uniq_canvases)} únicos ({len(canvases)} instâncias nos Vols 1-9 | esperado: 20 únicos)")
-    print(f"Templates únicos / total:   {len(uniq_templates)} únicos ({len(templates)} instâncias nos Vols 1-9 | esperado: 39 únicos)")
-    print(f"Glossários locais (Vol 1-9):{vol_glossaries} (esperado: 9)")
+    print(f"Capítulos temáticos:        {len(capitulos)} (esperado: 155)")
+    print(f"Frameworks únicos / total:  {len(uniq_frameworks)} únicos ({len(frameworks)} instâncias nos Vols 1-9 | esperado: 164 únicos / 164 instâncias)")
+    print(f"Canvases únicos / total:    {len(uniq_canvases)} únicos ({len(canvases)} instâncias nos Vols 1-9 | esperado: 20 únicos / 20 instâncias)")
+    print(f"Templates únicos / total:   {len(uniq_templates)} únicos ({len(templates)} instâncias nos Vols 1-9 | esperado: 39 únicos / 39 instâncias)")
+    print(f"Glossários duplicados 1-9:  {vol_glossaries} (esperado: 0 — unificado no Vol. 10)")
     print(f"Cabeçalhos robóticos H3/H5: {len(robotic_h3) + len(robotic_h5)} (esperado: 0)")
-    print(f"Links de ferramentas cross: {len(cross_vol_tool_links)} nos Vols 1-9 (esperado: 0)")
     print(f"Duplicatas intra-volume:    {len(dups_within_vol)} (esperado: 0)")
     print(f"Wikilinks verificados:      {total_links}")
     print(f"Wikilinks quebrados:        {len(broken_links)}")
@@ -226,14 +225,16 @@ def audit_structure_and_links(only_problems: bool = False) -> bool:
 
     return (
         len(fases) == 21
-        and len(capitulos) == 180
+        and len(capitulos) == 155
         and len(uniq_frameworks) == 164
+        and len(frameworks) == 164
         and len(uniq_canvases) == 20
+        and len(canvases) == 20
         and len(uniq_templates) == 39
-        and vol_glossaries == 9
+        and len(templates) == 39
+        and vol_glossaries == 0
         and len(robotic_h3) == 0
         and len(robotic_h5) == 0
-        and len(cross_vol_tool_links) == 0
         and len(dups_within_vol) == 0
         and len(broken_links) == 0
     )
