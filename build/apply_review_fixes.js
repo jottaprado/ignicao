@@ -368,6 +368,7 @@ const WAVE2_BATCH_FILES = [
   'achados_fixes_wave3_vol5_6.json',
   'achados_fixes_wave3_vol7_8.json',
   'achados_fixes_wave3_vol9_10.json',
+  'achados_fixes_wave4.json',
 ];
 
 function stripEmDashOutsideWikilinkTarget(str) {
@@ -968,7 +969,246 @@ function applyVolumeReviewFixes(volNum, md) {
       joinedOut = joinedOut.split(from).join(to);
     }
   }
-  return joinedOut;
+  return applyFinalVolumePolish(volNum, joinedOut);
+}
+
+const FINAL_PHRASE_FIXES = [
+  ['> [!important] Relacao com F', '> [!important] Relação com o Capítulo 5 (Marketplaces, Plataformas e Efeitos de Rede)'],
+  ['> [!important] Relacao com', '> [!important] Relação com'],
+  ['> [!abstract] Posicao no livro', '> [!abstract] Posição no livro'],
+  ['> [!note] Por que Meliuz esta neste capítulo', '> [!note] Por que o Méliuz está neste capítulo'],
+  ['**Meliuz**, NAO e caso de fracasso.', '**Méliuz:** não é caso de fracasso.'],
+  [' EJ aprofunda quatro dos vieses mais cruciais com profundidade maior. D mantem a vista panoramica e a aplicacao por dominio.', ''],
+  ['Cross-ref. Para ', 'Referência complementar: para '],
+  ['Cross-ref para ', 'Consulte também: '],
+  ['JCP nao e despesa que se lanca', 'JCP não é despesa que se lança'],
+  ['JCP e despesa dedutivel', 'JCP é despesa dedutível'],
+  ['JCP e dedutivel', 'JCP é dedutível'],
+  ['Dividendo nao e.', 'Dividendo não é.'],
+  ['nao ha base para', 'não há base para'],
+  ['nao ha resultado', 'não há resultado'],
+  ['nao ha tributacao', 'não há tributação'],
+  ['que e holding', 'que é holding'],
+  ['que so JCP oferece', 'que só o JCP oferece'],
+  ['Em Ltda, e improviso', 'Em Ltda., é improviso'],
+  ['Esse trabalho de migracao e oportunidade', 'Esse trabalho de migração é oportunidade'],
+  ['deliberacao formal e desconsiderado', 'deliberação formal é desconsiderado'],
+  ['Aqui esta um caso brasileiro tipico.', 'Aqui está um caso brasileiro típico.'],
+  ['Esse e um down round', 'Esse é um down round'],
+  ['parte da dilucao e transferida', 'parte da diluição é transferida'],
+  ['preco de conversao das acoes do seed e ajustado', 'preço de conversão das ações do seed é ajustado'],
+  ['Full ratchet em term sheet brasileiro de 2026 e marca', 'Full ratchet em term sheet brasileiro de 2026 é marca'],
+  ['Broad-based e padrao e e dificil recusar', 'A cláusula *broad-based weighted average* é o padrão de mercado e é difícil recusar'],
+  ['isto e, tokens', 'isto é, tokens'],
+  ['Operar sem autorizacao e infracao', 'Operar sem autorização é infração'],
+  ['pessoa fisica e tributado', 'pessoa física é tributado'],
+  ['**Tokenizacao de recebivel.** E securitizacao moderna.', '**Tokenização de recebível.** É securitização moderna.'],
+  ['Se ha custodia', 'Se há custódia'],
+  ['Se ha oferta', 'Se há oferta'],
+  ['Se ha conversao', 'Se há conversão'],
+  ['fronteira esta em construcao', 'fronteira está em construção'],
+  ['quem esta na empresa', 'quem está na empresa'],
+  ['A solucao no Brasil e contratual, nao societaria', 'A solução no Brasil é contratual, não societária'],
+  ['ja que nao envolvem', 'já que não envolvem'],
+  ['O lado pratico e que', 'O lado prático é que'],
+  ['Para INSS o tema esta em aberto', 'Para o INSS o tema está em aberto'],
+  ['Esta decisao reduz', 'Essa decisão reduz'],
+  ['So fazem sentido apos', 'Só fazem sentido após'],
+  ['As faixas tratadas neste capítulo sao especializacao', 'As faixas tratadas neste capítulo são especialização'],
+  ['O terceiro choque e de tempo.', 'O terceiro choque é de tempo.'],
+  ['onde nao adiciona alem de presenca. E a ilusao', 'onde não adiciona além de presença. É a ilusão'],
+  ['E o veiculo natural', 'É o veículo natural'],
+  ['e mais limitada.', 'é mais limitada.'],
+  ['Este capítulo e a referencia por TIPO', 'Este capítulo é a referência por tipo'],
+  ['quando a personalidade juridica e desconsiderada', 'quando a personalidade jurídica é desconsiderada'],
+  ['que e o coracao do contencioso', 'que é o coração do contencioso'],
+  ['**Search Fund Brasil** (SFB) e plataforma', '**Search Fund Brasil** (SFB) é plataforma'],
+  ['na medida em que e efetivamente recebida', 'na medida em que é efetivamente recebida'],
+  ['o risco e material', 'o risco é material'],
+  ['em que o earnout e altamente provavel', 'em que o earnout é altamente provável'],
+  ['E o problema mais comum de cap table', 'É o problema mais comum de cap table'],
+  ['o melhor para os dois e encerrar', 'o melhor para os dois é encerrar'],
+  ['fica com o advisor, e direito adquirido.', 'fica com o advisor, pois é direito adquirido.'],
+  ['Serie A', 'Série A'],
+  ['Serie B', 'Série B'],
+  ['Pre-Serie A', 'Pré-Série A'],
+  ['pos-IPO', 'pós-IPO'],
+  ['pos-seed', 'pós-seed'],
+  ['pre-money', 'pré-money'],
+];
+
+const FINAL_WORD_MAP = {
+  Relacao: 'Relação', relacao: 'relação', Posicao: 'Posição', posicao: 'posição',
+  Recomendacao: 'Recomendação', recomendacao: 'recomendação', Tributacao: 'Tributação', tributacao: 'tributação',
+  Mediacao: 'Mediação', mediacao: 'mediação', Tokenizacao: 'Tokenização', tokenizacao: 'tokenização',
+  Cenario: 'Cenário', cenario: 'cenário', Diferenca: 'Diferença', diferenca: 'diferença',
+  Atualizacao: 'Atualização', atualizacao: 'atualização', Resolucao: 'Resolução', resolucao: 'resolução',
+  Resolucoes: 'Resoluções', Multiestrategia: 'Multiestratégia', deliberacao: 'deliberação',
+  governanca: 'governança', Governanca: 'Governança', operacao: 'operação', Operacao: 'Operação',
+  operacoes: 'operações', construcao: 'construção', negociacao: 'negociação', Negociacao: 'Negociação',
+  negociacoes: 'negociações', estrategia: 'estratégia', decisao: 'decisão', decisoes: 'decisões',
+  opcoes: 'opções', Opcoes: 'Opções', opcao: 'opção', Opcao: 'Opção', milhoes: 'milhões', milhao: 'milhão',
+  padrao: 'padrão', Padrao: 'Padrão', clausula: 'cláusula', Clausula: 'Cláusula', clausulas: 'cláusulas',
+  classico: 'clássico', fisica: 'física', juridica: 'jurídica', juridico: 'jurídico',
+  societaria: 'societária', societario: 'societário', exercicio: 'exercício', exercicios: 'exercícios',
+  contratacao: 'contratação', contracao: 'contração', transicao: 'transição', explicito: 'explícito',
+  explicita: 'explícita', voluntario: 'voluntário', principios: 'princípios', dificeis: 'difíceis',
+  dificil: 'difícil', metodos: 'métodos', protecao: 'proteção', dominio: 'domínio', dominios: 'domínios',
+  tipico: 'típico', tipica: 'típica', tipicas: 'típicas', atipicos: 'atípicos', ultimo: 'último',
+  ultimos: 'últimos', papeis: 'papéis', saida: 'saída', tambem: 'também', tres: 'três', Tres: 'Três',
+  sao: 'são', nao: 'não', Nao: 'Não', apos: 'após', Apos: 'Após', ate: 'até', ja: 'já', ha: 'há',
+  mes: 'mês', pais: 'país', paises: 'países', numero: 'número', numeros: 'números', socios: 'sócios',
+  Socios: 'Sócios', socio: 'sócio', Socio: 'Sócio', anonima: 'anônima', codigo: 'código', Codigo: 'Código',
+  paragrafo: 'parágrafo', obrigatoria: 'obrigatória', obrigatorio: 'obrigatório', friccao: 'fricção',
+  conversao: 'conversão', acoes: 'ações', acao: 'ação', administracao: 'administração',
+  regulacao: 'regulação', regulamentacao: 'regulamentação', transito: 'trânsito',
+  compatibilizacao: 'compatibilização', migracao: 'migração', inconsistencias: 'inconsistências',
+  historicas: 'históricas', historico: 'histórico', remuneracao: 'remuneração', patrimonio: 'patrimônio',
+  Patrimonio: 'Patrimônio', liquido: 'líquido', Liquido: 'Líquido', calculo: 'cálculo', Mecanica: 'Mecânica',
+  dedutivel: 'dedutível', aliquota: 'alíquota', Aliquota: 'Alíquota', aliquotas: 'alíquotas',
+  distribuicao: 'distribuição', isencao: 'isenção', recepcao: 'recepção', prejuizo: 'prejuízo',
+  deducao: 'dedução', tributaria: 'tributária', tributario: 'tributário', documentacao: 'documentação',
+  especifica: 'específica', especifico: 'específico', especificos: 'específicos', distribuido: 'distribuído',
+  distribuidos: 'distribuídos', indenizacao: 'indenização', insolvencia: 'insolvência', vedacao: 'vedação',
+  estatutaria: 'estatutária', propria: 'própria', proprio: 'próprio', proprios: 'próprios', titulo: 'título',
+  exclusoes: 'exclusões', periodo: 'período', notificacao: 'notificação', notificacoes: 'notificações',
+  captacao: 'captação', dilucao: 'diluição', preco: 'preço', intermediaria: 'intermediária',
+  conversiveis: 'conversíveis', proximo: 'próximo', pratico: 'prático', pratica: 'prática',
+  praticas: 'práticas', praticos: 'práticos', alem: 'além', composicao: 'composição', servicos: 'serviços',
+  minimo: 'mínimo', prevencao: 'prevenção', segregacao: 'segregação', custodia: 'custódia',
+  intermediacao: 'intermediação', autorizacao: 'autorização', autorizacoes: 'autorizações',
+  infracao: 'infração', informacao: 'informação', limitacoes: 'limitações', recebivel: 'recebível',
+  securitizacao: 'securitização', publica: 'pública', publico: 'público', colocacao: 'colocação',
+  vigencia: 'vigência', licenca: 'licença', instituicao: 'instituição', Area: 'Área',
+  identificavel: 'identificável', descentralizacao: 'descentralização', hibrido: 'híbrido',
+  Hibrido: 'Híbrido', regulatorio: 'regulatório', necessarias: 'necessárias', seguranca: 'segurança',
+  diario: 'diário', transformacao: 'transformação', presenca: 'presença', frequencia: 'frequência',
+  comunicacao: 'comunicação', solucao: 'solução', consequencias: 'consequências', aquisicao: 'aquisição',
+  obrigacao: 'obrigação', cessao: 'cessão', concessao: 'concessão', transferencia: 'transferência',
+  execucao: 'execução', Restricao: 'Restrição', restricao: 'restrição', simbolico: 'simbólico',
+  disfarcada: 'disfarçada', criterios: 'critérios', salario: 'salário', reclassificacao: 'reclassificação',
+  previdenciario: 'previdenciário', discussao: 'discussão', emissao: 'emissão', retencao: 'retenção',
+  psicologico: 'psicológico', aprovacao: 'aprovação', aceitacao: 'aceitação',
+  especializacao: 'especialização', Especializacao: 'Especialização', calendario: 'calendário',
+  promocao: 'promoção', situacoes: 'situações', avaliacao: 'avaliação', critico: 'crítico',
+  Reunioes: 'Reuniões', reuniao: 'reunião', tecnicas: 'técnicas', tecnico: 'técnico', ilusao: 'ilusão',
+  propoe: 'propõe', veiculo: 'veículo', estagio: 'estágio', logistica: 'logística', beneficio: 'benefício',
+  Versao: 'Versão', precificacao: 'precificação', comite: 'comitê', diversificacao: 'diversificação',
+  referencia: 'referência', Certidoes: 'Certidões', Litigio: 'Litígio', autuacoes: 'autuações',
+  defensavel: 'defensável', adesao: 'adesão', arbitros: 'árbitros', Judiciario: 'Judiciário',
+  instancia: 'instância', Convencao: 'Convenção', util: 'útil', forca: 'força', camara: 'câmara',
+  Camaras: 'Câmaras', familia: 'família', uteis: 'úteis', conexao: 'conexão', conteudo: 'conteúdo',
+  coracao: 'coração', moderacao: 'moderação', Politica: 'Política', ilicito: 'ilícito',
+  dinamica: 'dinâmica', conjuge: 'cônjuge', educacao: 'educação', basica: 'básica',
+  desprezivel: 'desprezível', competencia: 'competência', repeticao: 'repetição', indebito: 'indébito',
+  condicoes: 'condições', integracao: 'integração', mudanca: 'mudança', realizacao: 'realização',
+  dimensoes: 'dimensões', provavel: 'provável', interferencia: 'interferência', variaveis: 'variáveis',
+  preferivel: 'preferível', calibracao: 'calibração', sistematicos: 'sistêmicos',
+  panoramica: 'panorâmica', panoramico: 'panorâmico', aplicacao: 'aplicação', catalogo: 'catálogo',
+  antidotos: 'antídotos', tatica: 'tática', interacao: 'interação', Meliuz: 'Méliuz', cadencias: 'cadências',
+  cabeca: 'cabeça', ambiguo: 'ambíguo'
+};
+
+const FINAL_WORD_RE = new RegExp(`(?<![/a-zA-Zà-úÀ-Ú0-9])(${Object.keys(FINAL_WORD_MAP).join('|')})(?![a-zA-Zà-úÀ-Ú0-9])`, 'g');
+
+function polishProseChunk(s) {
+  let out = s;
+  for (const [f, t] of FINAL_PHRASE_FIXES) {
+    if (out.includes(f)) out = out.split(f).join(t);
+  }
+  out = out.replace(FINAL_WORD_RE, (m) => FINAL_WORD_MAP[m] || m);
+  // Artigos duplicados antes de negrito (ex: "da **A " -> "da **")
+  out = out.replace(/\b(da|do|na|no|pela|pelo)\s+\*\*(A|O|As|Os)\s+/g, '$1 **');
+  out = out.replace(/\bO\s+\*\*O-1A\b/g, 'O visto **O-1A');
+  out = out.replace(/\buma\s+\*\*uma etapa\b/g, '**uma etapa');
+  out = out.replace(
+    /\(de 2 a 4 semanas por R\$ 20k–R\$ 40k\)\s*\(de 2 a 4 semanas por R\$ 20k–R\$ 40k\)/g,
+    '(de 2 a 4 semanas por R$ 20 mil a R$ 40 mil)'
+  );
+  // Palavras duplicadas (e e, de de, Cinquenta cinquenta)
+  out = out.replace(/(?<![a-zA-Zà-úÀ-Ú0-9-])(e|de)\s+\1(?![a-zA-Zà-úÀ-Ú0-9-])/g, '$1');
+  out = out.replace(/\bCinquenta cinquenta é comum\./g, 'Divisão 50/50 é comum.');
+  out = out.replace(/\bcinquenta cinquenta\b/g, '50/50');
+  // Pontuação de costura (: , / ; , / ., / .;)
+  out = out.replace(/:\s*,/g, ',').replace(/;\s*,/g, ',');
+  out = out.replace(/(?<!\bet al|\bS\.A|\bLtda|\bLtd|\bInc|\bJr|\bSr|\ba\.a|\ba\.m|\ba\.C|\bd\.C|\bC\.V|\b[A-Z]|\.\.)\.,\s+/g, ', ');
+  out = out.replace(/(?<!\ba\.a|\ba\.m|\ba\.C|\bS\.A|\bLtda)\.;\s+/g, '; ');
+  return out;
+}
+
+function applyFinalVolumePolish(volNum, md) {
+  // Sincronizar o único H4 com travessão que era alvo de wikilink (Theory Map)
+  let text = md
+    .split('#Template: Theory Map — Conexão com Business Model Canvas|')
+    .join('#Template: Theory Map: Conexão com Business Model Canvas|')
+    .split('#### Template: Theory Map — Conexão com Business Model Canvas')
+    .join('#### Template: Theory Map: Conexão com Business Model Canvas')
+    .split('#Template: Entrevista de Problema (Mom Test)|')
+    .join('#Template: Entrevista de Problema|');
+
+  const lines = text.split('\n');
+  let inFence = false;
+
+  const polishedLines = lines.map((line) => {
+    if (line.trim().startsWith('```')) {
+      inFence = !inFence;
+      return line;
+    }
+    if (inFence) return line;
+
+    // Subtítulos H3..H6: remover travessões remanescentes (nenhum H3..H6 tem wikilink apontando para versão com —)
+    if (/^#{3,6}\s+/.test(line)) {
+      let hLine = line;
+      if (hLine.includes('—')) {
+        hLine = hLine.replace(/\s*—\s*/g, (m, offset, full) => {
+          const before = full.slice(0, offset);
+          return before.includes(':') ? ', ' : ': ';
+        });
+      }
+      for (const [f, t] of FINAL_PHRASE_FIXES) {
+        if (hLine.includes(f)) hLine = hLine.split(f).join(t);
+      }
+      hLine = hLine.replace(FINAL_WORD_RE, (m) => FINAL_WORD_MAP[m] || m);
+      return hLine;
+    }
+
+    if (/^#{1,2}\s+/.test(line)) return line;
+
+    // Corrigir inícios de parágrafo com letra minúscula e verbetes do Glossário
+    let ln = line
+      .replace(/^a DII funciona para qualquer arquitetura/, 'A DII funciona para qualquer arquitetura')
+      .replace(/^empresa dependente de fundador único/, 'Uma empresa dependente de fundador único')
+      .replace(/^internacionalização é o \[\[/, 'A internacionalização ocupa o [[')
+      .replace(/^escala mata produto se não houver/, 'A escala mata o produto se não houver')
+      .replace(/^n=450 tickets, 3 meses\.$/, 'Amostra: n = 450 tickets ao longo de 3 meses.')
+      .replace(/^dbt como camada de transformação\./, '**dbt como camada de transformação:**')
+      .replace(/^a55 é focada em revenue-based financing/, '**a55:** plataforma focada em *revenue-based financing*')
+      .replace(/^eNPS \(\*Employee Net Promoter Score\*\):/, '- **eNPS (*Employee Net Promoter Score*):**')
+      .replace(/^onde$/, '- **Onde:**')
+      .replace(/^iFood\. Marketplace com efeitos de rede fortes\./, 'O **iFood**: marketplace com efeitos de rede fortes.')
+      .replace(/^iFood teve expansão regional/, 'O **iFood** teve expansão regional')
+      .replace(/^iFood foi fundada em 2011/, 'O **iFood** foi fundado em 2011')
+      .replace('**BCB (Banco Central do Brasil, também BCB).**', '**BCB (Banco Central do Brasil, também grafado Bacen).**')
+      .replace('(também grafado BCB ou BCB)', '(também grafado Bacen)')
+      .replace('**Conselho (board).**', '**Board (conselho de administração ou consultivo).**');
+
+    // Aplicar polish fora do target dos wikilinks
+    const parts = ln.split(/(\[\[[^\]]+\]\])/g);
+    return parts
+      .map((part) => {
+        if (part.startsWith('[[') && part.endsWith(']]')) {
+          const pIdx = part.indexOf('|');
+          if (pIdx < 0) return part;
+          const target = part.slice(0, pIdx);
+          const label = polishProseChunk(part.slice(pIdx + 1, -2));
+          return `${target}|${label}]]`;
+        }
+        return polishProseChunk(part);
+      })
+      .join('');
+  });
+
+  return polishedLines.join('\n');
 }
 
 module.exports = {

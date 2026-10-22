@@ -21,7 +21,7 @@ language: pt-BR
 
 Este é o **Volume 2 (Descoberta de Cliente e Mapeamento de Mercado)** da coleção **IGNIÇÃO: O manual operacional do empreendedor brasileiro** (10 volumes).
 
-Volume dedicado à descoberta profunda do cliente e do mercado antes de qualquer linha de código: Descoberta do Problema em campo com Mom Test (Fase 4), Pesquisa com Usuários e Jobs-to-be-Done (Fase 5) e Mapeamento de Mercado, Concorrência e Cunha (Fase 6): com seus frameworks passo a passo, canvases visuais preenchidos, templates/roteiros de entrevista e métricas integrados dentro de cada fase: , seguidos por 3 capítulos sobre psicologia do consumidor brasileiro, inteligência competitiva e Category Design e casos de fracasso brasileiros.
+Volume dedicado à descoberta profunda do cliente e do mercado antes de qualquer linha de código: Descoberta do Problema em campo com Mom Test (Fase 4), Pesquisa com Usuários e Jobs-to-be-Done (Fase 5) e Mapeamento de Mercado, Concorrência e Cunha (Fase 6): com seus frameworks passo a passo, canvases visuais preenchidos, templates/roteiros de entrevista e métricas integrados dentro de cada fase, seguidos por 3 capítulos sobre psicologia do consumidor brasileiro, inteligência competitiva e Category Design e casos de fracasso brasileiros.
 
 ---
 
@@ -347,7 +347,7 @@ Para cada entrevista, preencha a Parte B do Template de Entrevista de Problema c
 Não espere terminar tudo para analisar. A cada cinco entrevistas, faça uma síntese parcial. Quais problemas apareceram em mais de cinquenta por cento das entrevistas? Quais padrões de comportamento se repetem? Que hipóteses iniciais foram reforçadas e quais foram abaladas? Quais novos problemas apareceram que você não esperava?
 
 > [!tip] Síntese parcial e final no Template: Síntese de Rodada de Entrevistas (decisão de avanço) (Fase 4)
-> O [[#Template: Síntese de Rodada de Entrevistas (decisão de avanço)|Template: Síntese de Rodada de Entrevistas (decisão de avanço)]] é o artefato dessa síntese. Use uma versão "rascunho" a cada lote de cinco para checar padrões; consolide a versão final só quando a rodada inteira fechar: consolidar antes do fim viesa as entrevistas restantes. Template: Síntese de Rodada de Entrevistas (decisão de avanço) (Fase 4) é também o documento que registra a decisão de avanço da fase (perseverar / pivotar problema / pivotar cliente / abandonar).
+> O [[#Template: Síntese de Rodada de Entrevistas (decisão de avanço)|Template: Síntese de Rodada de Entrevistas (decisão de avanço)]] é o artefato dessa síntese. Use uma versão "rascunho" a cada lote de cinco para checar padrões; consolide a versão final só quando a rodada inteira fechar: consolidar antes do fim viesa as entrevistas restantes. A Síntese de Rodada também registra a decisão de avanço da fase (perseverar, pivotar problema, pivotar cliente ou abandonar).
 
 > [!note] Registre nos templates dos Passos 6 e 7 a sequência cronológica das etapas que o entrevistado percorre hoje para contornar o problema
 > Enquanto o Mom Test captura incidentes isolados, o [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 8 — CUSTOMER SUCCESS (CS) E CUSTOMER EXPERIENCE (CX): DA JORNADA AO CHURN ZERO E NRR POSITIVO|Capítulo 8: Customer Experience (Vol. 4)]] oferece a visão de jornada completa, do momento de consciência do problema ao pós-resolução, incluindo métricas de NPS e churn preditivo. Usar a jornada como mapa mental durante a síntese das entrevistas ajuda a localizar em qual etapa a dor é mais aguda.
@@ -355,7 +355,7 @@ Não espere terminar tudo para analisar. A cada cinco entrevistas, faça uma sí
 > [!tip] Canvases Visuais: Value Proposition Canvas (Fase 5)
 > Ao sintetizar as entrevistas, o **Customer Profile** do [[#Canvas: Value Proposition Canvas (Alexander Osterwalder, 2014)|Canvas: Value Proposition Canvas (Alexander Osterwalder, 2014)]], Jobs (o que o cliente está tentando fazer), Pains (frustrações no caminho), Gains (resultados desejados), é o frame visual exato para organizar o que as entrevistas Mom Test capturaram. Use depois da síntese qualitativa para preparar a [[#FASE 5 — PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY)|Fase 5]] (JTBD).
 
-#### Passo 8, separe sintoma de causa raiz — entrevista de raiz causal
+#### Passo 8, separe sintoma de causa raiz: entrevista de raiz causal
 
 O erro mais comum em discovery é documentar sintomas como se fossem problemas. "Meu CRM é uma bagunça" é sintoma. A causa raiz pode ser: processo de vendas mal definido, equipe resistente à adoção de ferramentas, ou dados de entrada inconsistentes vindos de integrações quebradas. Cada causa raiz tem uma solução diferente. Tratar o sintoma sem entender a causa produz produto que não resolve o problema real.
 
@@ -422,7 +422,7 @@ Um ICP pode ter três a cinco problemas mapeados. O foco é em um, o mais agudo,
 O documento final tem cinco a dez páginas, com o seguinte conteúdo: perfil do entrevistado consolidado (ICP refinado); lista dos problemas identificados, ranqueados por frequência e intensidade; verbatim marcantes (citações literais) para cada problema; soluções atuais identificadas e suas deficiências; disposição emocional, ou seja, quanto as pessoas se importam com o problema; comparação com a Declaração Inicial v1: o que se confirmou, o que se refutou, o que emergiu que você não esperava; e versão dois da Declaração da Ideia, atualizada com o que foi aprendido.
 
 > [!note] Mapa de Problemas e Template: Síntese de Rodada de Entrevistas (decisão de avanço) (Fase 4)
-> O Mapa de Problemas é a saída visual da rodada: o entregável de comunicação. O [[#Template: Síntese de Rodada de Entrevistas (decisão de avanço)|Template: Síntese de Rodada de Entrevistas (decisão de avanço)]] é a planilha de decisão estruturada que sustenta o Mapa: cruza distribuição de Pain Level, padrões agregados de problema, workarounds dominantes, vocabulário recorrente e sub-segmentos para registrar a decisão de avanço com rastro à evidência. Use os dois: o Mapa para apresentar, Template: Síntese de Rodada de Entrevistas (decisão de avanço) (Fase 4) para defender.
+> O Mapa de Problemas é a saída visual da rodada: o entregável de comunicação. O [[#Template: Síntese de Rodada de Entrevistas (decisão de avanço)|Template: Síntese de Rodada de Entrevistas (decisão de avanço)]] é a planilha de decisão estruturada que sustenta o Mapa: cruza distribuição de Pain Level, padrões agregados de problema, workarounds dominantes, vocabulário recorrente e sub-segmentos para registrar a decisão de avanço com rastro à evidência. Use os dois: o Mapa para apresentar, a Síntese de Rodada para defender.
 
 ### Os dez passos aplicados, roteiro de entrevista do PadariaPro
 
@@ -623,7 +623,7 @@ Pitch disfarçado de entrevista: "quero te entrevistar" mas fala sobre a ideia. 
 
 ---
 
-#### Framework: In-Depth Interviews (IDIs) — padrão acadêmico/comercial
+#### Framework: In-Depth Interviews (IDIs), padrão acadêmico/comercial
 
 ##### De onde vem a ferramenta (e por que sobreviveu ao filtro do tempo)
 
@@ -681,7 +681,7 @@ Insights emergentes:
 
 - 13 de 15 diretores entrevistados relataram que o "tempo gasto em papelada" é a maior frustração da rotina (6 de 15 apontaram relatórios para a secretaria e 9 de 15 citaram controles internos), mas a papelada é tão diversa que uma ferramenta pontual não resolve.
 - Decisão de compra varia: em 40%, diretor decide sozinho (< R$ 500/mês), em 60%, mantenedor/família decide.
-- WhatsApp é canal central (pais, professores, pagamento), não será substituído, produto tem que integrar.
+- WhatsApp é canal central (país, professores, pagamento), não será substituído, produto tem que integrar.
 - "Sistema" já existe em 100% das escolas, mas todos reportam insatisfação alta (NPS provável negativo).
 
 ##### Onde o papel aceita tudo (armadilhas de execução)
@@ -700,7 +700,7 @@ A teoria do means-end chain foi formalizada por Jonathan Gutman em "A Means-End 
 
 Técnica de entrevista que conecta **atributos** declarados de um produto aos **benefícios funcionais** que geram, até chegar em **valores pessoais fundamentais** que sustentam a preferência. Revela motivações profundas que cliente **não articula** de primeira.
 
-##### Princípios / estrutura — Means-End Chain
+##### Princípios / estrutura: Means-End Chain
 
 Cadeia em 3 níveis:
 
@@ -833,7 +833,7 @@ Virginia Braun (Auckland) e Victoria Clarke (UWE Bristol) publicaram "Using Them
 
 Método sistemático para **identificar, analisar e reportar temas** (padrões) em dados qualitativos. Menos teórico que grounded theory (Framework: Grounded Theory (Barney Glaser & Anselm Strauss, 1967) (Fase 4)), mais flexível para pesquisa aplicada.
 
-##### Princípios / estrutura — 6 fases de Braun & Clarke
+##### Princípios / estrutura: 6 fases de Braun & Clarke
 
 1. Familiarização com dados (ler, re-ler, anotar impressões iniciais).
 2. Geração de códigos iniciais (linha-a-linha ou tópico-a-tópico).
@@ -1053,7 +1053,7 @@ O quadrante "Vê" mostrou que o aplicativo disputava atenção na mesma tela com
 
 Este template tem duas partes. A **Parte A** é o roteiro para consultar *durante* a conversa (deixe aberto na tela ou imprima). A **Parte B** é a síntese para preencher *depois*: idealmente nas 24h seguintes, enquanto a memória está fresca. As duas formam um único artefato: roteiro sem síntese vira entrevista perdida; síntese sem roteiro vira interpretação livre. Use as duas em todas as entrevistas da rodada.
 
-##### Parte A — Roteiro da Entrevista (uso durante a conversa)
+##### Parte A: Roteiro da Entrevista (uso durante a conversa)
 
 **Duração alvo:** 30-45 min · **Balanço de fala:** o entrevistado fala a maior parte do tempo. Se você se pegar falando mais que ele em qualquer trecho de 5 minutos, volte a fazer perguntas abertas.
 
@@ -1105,7 +1105,7 @@ Para cada problema que a pessoa citar espontaneamente:
 - "Você não acharia melhor se…?"
 - Qualquer pergunta que comece com hipótese sua a ser validada pelo entrevistado.
 
-##### Parte B — Síntese Pós-Entrevista
+##### Parte B: Síntese Pós-Entrevista
 
 ###### Metadados
 
@@ -1156,7 +1156,7 @@ Para cada problema que a pessoa citar espontaneamente:
 - `[ferramenta: para que usa]`
 - `[...]`
 
-###### 2. Problemas mencionados (o que foi dito — não o que você interpretou)
+###### 2. Problemas mencionados (o que foi dito: não o que você interpretou)
 
 > *Para cada problema que emergiu na conversa, preencha um bloco. **Crítico:** documente apenas o que o entrevistado disse espontaneamente ou em resposta a pergunta aberta. Problemas que você "provocou" com pergunta tendenciosa valem zero.*
 
@@ -1234,7 +1234,7 @@ Para cada problema que a pessoa citar espontaneamente:
 
 *`[...]`*
 
-###### 8. Armadilhas — autoavaliação pós-entrevista
+###### 8. Armadilhas: autoavaliação pós-entrevista
 
 > *Esta seção verifica se as proibições da Parte A foram respeitadas. Marque honestamente o que aconteceu.*
 
@@ -1318,7 +1318,7 @@ Para cada problema que a pessoa citar espontaneamente:
 
 Use quando precisa mapear setor, dinâmicas competitivas, pontos cegos e tendências regulatórias: a pessoa conhece o mercado, não necessariamente é cliente dele. Não use para saber se *o cliente* tem dor; para isso o instrumento é Template: Entrevista de Problema (Fase 4). Como o Template: Entrevista de Problema (Fase 4), este template tem Parte A (roteiro durante) e Parte B (síntese pós-conversa, idealmente em 24h).
 
-##### Parte A — Roteiro da Conversa (uso durante)
+##### Parte A: Roteiro da Conversa (uso durante)
 
 **Duração alvo:** 45-60 min · **Balanço de fala:** o especialista fala mais que você, mas aqui é legítimo intervir para confrontar e pedir exemplos específicos.
 
@@ -1367,7 +1367,7 @@ Use quando precisa mapear setor, dinâmicas competitivas, pontos cegos e tendên
 - Elogio à tese é ruído: se não houve pushback, a conversa foi incompleta.
 - "Eu sempre vi assim" ≠ "isso se aplica ao seu caso". Heurística do veterano precisa de fit específico.
 
-##### Parte B — Síntese Pós-Conversa
+##### Parte B: Síntese Pós-Conversa
 
 ###### Metadados
 
@@ -1499,7 +1499,7 @@ Premissas que a pessoa identificou como *críticas e não triviais*:
 1. > *"[citação]"*
 2. > *"[citação]"*
 
-###### 10. Armadilhas — autoavaliação pós-conversa
+###### 10. Armadilhas: autoavaliação pós-conversa
 
 > *Marque honestamente o que aconteceu. Cada item contamina parte da evidência coletada.*
 
@@ -1560,7 +1560,7 @@ Premissas que a pessoa identificou como *críticas e não triviais*:
 > [!important] Disciplina central
 > Este não é registro de conversa: é o artefato em que o agregado de entrevistas vira decisão. É aqui que a frase "5 pessoas disseram isso" vira "o problema existe, neste recorte, com esta dor, e devemos perseverar": ou o contrário. Nenhuma entrevista individual é suficiente para essa decisão; faça sínteses parciais a cada lote de cinco conversas para calibrar o roteiro, mas só feche o veredito de perseverar ou pivotar quando a rodada inteira terminar. Consolide só quando a rodada terminou.
 
-Template: Síntese de Rodada de Entrevistas (decisão de avanço) (Fase 4) é o entregável da Fase 4 que sustenta o Mapa de Problemas e a decisão de avanço. Feito em reunião de time (2-4 pessoas) após a rodada fechar, duração típica 2-4h. Deve ser rodado com todas as sínteses individuais (Partes B do Template: Entrevista de Problema (Fase 4), Template: Entrevista com Switcher (JTBD, entrevista de troca) (Fase 5) e, opcionalmente, Template: Entrevista com Especialista de Mercado (mapa de setor) (Fase 4)) abertas e referenciadas. A decisão final registrada aqui tem mais autoridade do que qualquer conversa individual.
+A **Síntese de Rodada de Entrevistas** é o entregável da Fase 4 que sustenta o Mapa de Problemas e a decisão de avanço. Conduza a consolidação em reunião de time (2 a 4 pessoas, duração de 2 a 4 horas) após fechar a rodada, com todas as sínteses individuais abertas na mesa: entrevistas de problema, entrevistas de troca (quando já houver) e, se aplicável, conversas com especialistas do setor. A decisão final registrada aqui tem mais autoridade do que qualquer conversa isolada.
 
 ##### Metadados da rodada
 
@@ -1857,7 +1857,8 @@ Para cada persona (perfil semifictício do cliente típico, baseado em dados rea
 > [!important] Comece a jornada antes do ponto óbvio
 > Jornadas devem começar muito antes do ponto onde você imaginaria que o seu produto entraria. Por exemplo, se você está construindo um sistema de gestão de frota, a jornada começa no momento em que o dono decide contratar o motorista. Não quando o motorista já está na rua.
 
-> [!note] O Customer Journey Map é o artefato central desta fase: e o Capítulo 8 (Vol. 4) (Customer Success (CS) e Customer Experience (CX): Da Jornada ao Churn Zero e NRR Positivo) aprofunda sua aplicação
+> [!note] O Mapa da Jornada do Cliente na retenção pós-lançamento
+> O [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 8 — CUSTOMER SUCCESS (CS) E CUSTOMER EXPERIENCE (CX): DA JORNADA AO CHURN ZERO E NRR POSITIVO|Capítulo 8 do Vol. 4 (Customer Success e Customer Experience)]] mostra como esta jornada vira instrumento contínuo de retenção e expansão depois do lançamento.
 > O [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 8 — CUSTOMER SUCCESS (CS) E CUSTOMER EXPERIENCE (CX): DA JORNADA AO CHURN ZERO E NRR POSITIVO|Capítulo 8: Customer Experience (Vol. 4)]] trata jornada, onboarding, NPS e sinais de churn preditivo como disciplina integrada. O mapeamento que você faz aqui é a versão de descoberta; o Capítulo 8 (Vol. 4) (Customer Success (CS) e Customer Experience (CX): Da Jornada ao Churn Zero e NRR Positivo) mostra como a mesma jornada evolui para instrumento de retenção e melhoria contínua depois do lançamento.
 
 > [!tip] Customer Journey Canvas e VPC como entregáveis visuais
@@ -1912,7 +1913,7 @@ flowchart LR
 
 A diferença entre um empreendedor iniciante e um pesquisador de usuário experiente está aqui. O iniciante "lê as anotações" e tira conclusões com base em memória. O experiente aplica técnicas formais de síntese, que transformam centenas de citações dispersas em padrões claros. Três técnicas a dominar.
 
-##### Affinity mapping — agrupamento por afinidade
+##### Affinity mapping: agrupamento por afinidade
 
 Processo físico ou digital (Miro, FigJam, Mural) para encontrar padrões em grandes volumes de dado qualitativo. Cinco passos.
 
@@ -1928,7 +1929,7 @@ Quinto, priorização dos clusters. Quantos post-its cada cluster tem? Clusters 
 
 O resultado são cinco a quinze clusters temáticos com número de ocorrências e citações exemplares.
 
-##### Coding e thematic analysis — codificação temática
+##### Coding e thematic analysis: codificação temática
 
 Método mais rigoroso, vindo da pesquisa qualitativa acadêmica. Cinco passos.
 
@@ -2064,7 +2065,7 @@ Segundo, monte uma persona distinta para cada papel, não uma persona média. Um
 Terceiro, identifique quais papéis se sobrepõem e quais permanecem distintos no seu contexto. Em empresas clientes muito pequenas (de cinco a vinte funcionários), os três papéis costumam caber na mesma pessoa: o próprio dono. Em médias empresas, o usuário costuma estar separado dos outros dois. Em grandes, os três são sempre distintos e podem somar um quarto papel (TI ou Procurement). Saber onde o seu ICP está nessa geometria define quantas personas você constrói.
 
 > [!tip] B2C também pode ter mais de uma persona
-> Em B2C, o trio costuma colapsar em uma pessoa só. O próprio consumidor é usuário, decisor e pagador. Mas há exceções importantes. Produtos para crianças (pais decidem, crianças usam). Saúde de idosos (filhos frequentemente decidem). Presentes (comprador diferente de destinatário). Benefícios corporativos (empresa paga, funcionário usa). Sempre pergunte: a pessoa que usa é a mesma que paga? Se não, você tem pelo menos duas personas.
+> Em B2C, o trio costuma colapsar em uma pessoa só. O próprio consumidor é usuário, decisor e pagador. Mas há exceções importantes. Produtos para crianças (país decidem, crianças usam). Saúde de idosos (filhos frequentemente decidem). Presentes (comprador diferente de destinatário). Benefícios corporativos (empresa paga, funcionário usa). Sempre pergunte: a pessoa que usa é a mesma que paga? Se não, você tem pelo menos duas personas.
 
 O entregável deste passo, para cada papel relevante no seu contexto, é uma persona caracterizada com os mesmos elementos definidos no Passo 6. Motivações, frustrações, comportamentos, JTBDs, citação verbatim. Construa uma persona para cada papel que decide ou usa o produto, o que na prática resulta em duas a quatro personas primárias (tipicamente três em B2B e uma a duas em B2C).
 
@@ -2196,7 +2197,7 @@ Metodologia desenvolvida por Bob Moesta e Chris Spiek no Re-Wired Group nos anos
 
 Protocolo de entrevista focado no **momento de "troca"** (switch), quando cliente largou solução anterior e adotou uma nova. Revela as **forças causais** por trás da decisão de compra, em vez de preferências declaradas ou features desejadas.
 
-##### Princípios / estrutura — As 4 Forças
+##### Princípios / estrutura: As 4 Forças
 
 Em toda decisão de compra, 4 forças atuam:
 
@@ -3111,7 +3112,7 @@ Base de evidência: [quantas entrevistas, quais]
 
 ---
 
-#### Template: Customer Journey Map — compra em e-commerce brasileiro
+#### Template: Customer Journey Map, compra em e-commerce brasileiro
 
 > [!note] Legenda da jornada: as notas de 1 a 5 indicam o humor e o grau de confiança do cliente em cada etapa
 
@@ -3149,7 +3150,7 @@ journey
 
 A Switch Interview é o instrumento da escola JTBD de Bob Moesta para reconstruir o momento da decisão. Pareia diretamente com a Fase 5, onde JTBDs são formulados pela primeira vez. Use quando entrevistados na rodada da Fase 4 mencionarem que trocaram recentemente de ferramenta ou fornecedor: esses entrevistados merecem uma segunda conversa, agora estruturada pelas 4 forças (push, pull, anxiety, habit). Como os outros templates da família, tem Parte A (roteiro durante) e Parte B (síntese pós).
 
-##### Parte A — Roteiro da Entrevista (uso durante a conversa)
+##### Parte A: Roteiro da Entrevista (uso durante a conversa)
 
 **Duração alvo:** 45-60 min · **Balanço de fala:** o entrevistado fala a maior parte do tempo. Se você se pegar falando mais que ele em qualquer trecho de 5 minutos, volte a fazer perguntas abertas.
 
@@ -3204,7 +3205,7 @@ A Switch Interview é o instrumento da escola JTBD de Bob Moesta para reconstrui
 - "O que você acharia de um produto que fizesse Y?": *apresentação de ideia disfarçada.*
 - "Por que você escolheu?" em genérico: *pergunta muito aberta gera racionalização pós-hoc.*
 
-##### Parte B — Síntese Pós-Entrevista
+##### Parte B: Síntese Pós-Entrevista
 
 ###### Metadados
 
@@ -3329,7 +3330,7 @@ A Switch Interview é o instrumento da escola JTBD de Bob Moesta para reconstrui
 
 **Implicação para o posicionamento / mensagem / onboarding:** `[...]`
 
-###### 10. Armadilhas — autoavaliação pós-entrevista
+###### 10. Armadilhas: autoavaliação pós-entrevista
 
 - [ ] Perguntei sobre hipótese futura ("se tivesse X…")?
 - [ ] Aceitei a primeira explicação ("troquei porque é melhor") sem pedir o episódio específico?
@@ -3407,7 +3408,7 @@ Sem esse mapa, você empreende às cegas. Com ele, você toma decisões informad
 
 ### A matemática de baixo para cima (Bottom-Up) e o desenho da cunha de entrada
 
-Onze passos. Os Passos 1 a 9 cobrem o levantamento de mercado e a síntese do Dossiê. Os Passos 10 e 11, Construção do Canvas da Cunha e Teste de Estresse, aparecem mais adiante na fase, logo após a catraca de saída, o estudo de caso real e as armadilhas da etapa, em virtude do volume. São a parte central e operacionalmente mais importante do método; leia-os como continuação direta do passo a passo.
+O método completo percorre onze passos encadeados: os Passos 1 a 9 cobrem o levantamento competitivo e a síntese do Dossiê de Inteligência de Mercado, enquanto os Passos 10 e 11 (detalhados na sequência imediata das fichas operacionais desta fase) guiam a construção do Canvas da Cunha e o Teste de Estresse da cabeça de praia.
 
 #### Passo 1, defina o mercado corretamente
 
@@ -3624,7 +3625,7 @@ Ignorar o status quo. Como mencionado, o status quo é o concorrente mais comum.
 
 Regulamentação como detalhe. Setores regulados (saúde, financeiro, educação) têm regras que afundam produtos inteiros. Investigue cedo.
 
-### Passo 10 (parte central) — Construa o Canvas da Cunha
+### Passo 10 (parte central): Construa o Canvas da Cunha
 
 Esta é a parte central do método desta fase. Aparece aqui pelo volume, depois das Armadilhas, mas é o trabalho que sustenta tudo o que você fez nos Passos 1 a 9. Sem o Canvas da Cunha preenchido, o Dossiê de Mercado é leitura sem destino. A pergunta operacional é: por onde eu começo a vender, exatamente? A resposta tem nome. Estratégia da Cunha (Wedge Strategy).
 
@@ -3785,7 +3786,7 @@ ___________________________________________________________
 
 Sem esse canvas preenchido, você ainda não sabe o que vai vender, nem para quem, nem por quanto. Não avance para hipóteses ([[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 7 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 7 (Vol. 3)]]) sem isso resolvido.
 
-### Passo 11 — Aplique o Teste de Estresse da Cunha (cinco minutos, Wedge Stress Test)
+### Passo 11: Aplique o Teste de Estresse da Cunha (cinco minutos, Wedge Stress Test)
 
 O Canvas da Cunha (Passo 10) é o instrumento estratégico. Esse teste é o instrumento tático. Use-o sempre que você descrever a cunha para alguém (investidor, mentor, cliente) e sentir que perdeu a pessoa. Ou antes de uma reunião importante, para pressionar a própria cunha e ver onde ela racha.
 
@@ -4105,7 +4106,7 @@ Aplicar a startup single-product: BCG foi pensado para portfólio. Startup com 1
 
 ##### De onde vem a ferramenta (e por que sobreviveu ao filtro do tempo)
 
-Desenvolvida em parceria entre General Electric e McKinsey nos anos 1970, como **evolução da BCG Matrix**. Criada no início dos anos 1970, quando a General Electric (sob a liderança de Fred Borch e depois Reginald Jones) reorganizou seu portfólio em cerca de 40 unidades estratégicas de negócio com apoio da McKinsey (ver histórico na *McKinsey Quarterly*, 2008). A McKinsey Matrix (ou GE-McKinsey Matrix) supera o BCG ao ser **multivariada** em ambos eixos.
+Desenvolvida em parceria entre General Electric e McKinsey nos anos 1970, como **evolução da BCG Matrix**. Sob a liderança de Fred Borch e, na sequência, de Reginald Jones, a GE empregou a ferramenta para reorganizar seu portfólio corporativo em cerca de 40 unidades estratégicas de negócio (conforme registro histórico de 2008 da própria consultoria). A McKinsey Matrix (ou GE-McKinsey Matrix) supera o BCG ao ser **multivariada** em ambos eixos.
 
 ##### A mecânica central (sem jargão)
 
@@ -4387,7 +4388,7 @@ Hamilton Helmer é estrategista com formação em PhD em economia em Yale, funda
 
 Framework para analisar **defensibilidade estrutural**: o que faz empresa gerar retornos acima do custo de capital **de forma persistente**. Complementa 5 Forças (que olha indústria) e Playing to Win (que olha escolhas estratégicas).
 
-##### Princípios / estrutura — Os 7 Poderes
+##### Princípios / estrutura: Os 7 Poderes
 
 1. Scale Economies: custo unitário cai com volume. Clássico. Ex.: Netflix com conteúdo (produção de custo fixo diluída em milhões de assinantes).
 
@@ -5052,7 +5053,7 @@ Tentar vender no Brasil copiando a frieza transacional dos Estados Unidos é ras
 
 A psicologia do consumidor brasileira opera em um contexto que moldou comportamentos específicos. Entender esse contexto é o pré-requisito para qualquer decisão de produto, pricing ou comunicação.
 
-#### 1.1.1 — Alta Relacionalidade
+#### 1.1.1: Alta Relacionalidade
 
 No Brasil, a relação pessoal precede a transação comercial de modo muito mais acentuado do que em mercados de baixa contextualização como os Estados Unidos e o norte da Europa (como analisa Erin Meyer em *The Culture Map*, 2014). Isso se manifesta em:
 
@@ -5062,7 +5063,7 @@ B2C: A recomendação de pessoa conhecida (boca a boca, mensagem no WhatsApp, co
 
 Implicação de produto: funcionalidades que facilitam o compartilhamento e a recomendação pessoal (referral, programa de indicação, review, avaliação pública, "enviar para um amigo") têm ROI (return on investment: retorno sobre o investimento) sistematicamente maior no Brasil do que em mercados onde a confiança institucional é mais forte.
 
-#### 1.1.2 — Confiança em Pessoas Acima de Instituições
+#### 1.1.2: Confiança em Pessoas Acima de Instituições
 
 Décadas de instabilidade econômica, episódios de confisco, e falhas institucionais criaram um consumidor que confia mais em pessoas específicas do que em marcas ou organizações abstratas.
 
@@ -5070,7 +5071,7 @@ Um banco com trinta anos de mercado pode ser percebido como menos confiável do 
 
 Isso explica o fenômeno dos influenciadores brasileiros: a influência não é apenas de alcance, é de transferência de confiança pessoal para produto ou marca. Micro-influenciadores com audiências menores e mais específicas frequentemente convertem melhor do que macro porque a relação de confiança é mais intensa e direta.
 
-#### 1.1.3 — Sensibilidade a Preço Combinada com Aspiração Social
+#### 1.1.3: Sensibilidade a Preço Combinada com Aspiração Social
 
 O consumidor brasileiro tem alta sensibilidade ao preço absoluto e ao preço relativo, mas isso não significa que compra apenas o mais barato. A equação psicológica é: "posso pagar isso?" combinado com "isso me faz sentir como quero me sentir?".
 
@@ -5078,7 +5079,7 @@ Um produto que custa mais do que o competitor mas comunica status, pertencimento
 
 A aspiração social no Brasil é motor de consumo mais poderoso do que em sociedades com menor mobilidade social percebida. O consumidor que "chegou lá" ou que está "chegando lá" usa o consumo como sinalização.
 
-#### 1.1.4 — O "Jeitinho" como Forma de Agência
+#### 1.1.4: O "Jeitinho" como Forma de Agência
 
 O "jeitinho brasileiro" é frequentemente descrito como improviso ou contorno de regras. Na perspectiva de comportamento do consumidor, é mais precisamente uma forma de agência em contexto de restrição: quando o caminho formal não funciona, o consumidor brasileiro encontra o caminho alternativo.
 
@@ -5086,11 +5087,11 @@ Implicação de produto: funcionalidades rígidas que não permitem adaptação 
 
 ---
 
-### 1.2 — Behavioral Economics no Brasil
+### 1.2: Behavioral Economics no Brasil
 
 Os princípios da economia comportamental (*behavioral economics*) de Kahneman e Thaler valem em qualquer país, mas operam com pesos próprios no Brasil: além da âncora das 12x sem juros (1.2.1), o viés de *status quo* explica a baixa taxa histórica de portabilidade bancária e a resistência corporativa a trocar de ERP ou escritório contábil, o **efeito dotação** (*endowment effect*, em que o cliente sente o saldo de *cashback* ou o período de teste já configurado com seus dados como patrimônio próprio) eleva a conversão e a reciprocidade via atendimento humano no WhatsApp destrava o fechamento.
 
-#### 1.2.1 — Ancoragem: 12x Sem Juros como Âncora Perceptual
+#### 1.2.1: Ancoragem: 12x Sem Juros como Âncora Perceptual
 
 O parcelamento sem juros no Brasil criou uma âncora perceptual diferente da maioria dos países. "12x de R$49,90" é processado como "R$49,90 por mês", não como "R$598,80 no total". A âncora é a parcela, não o valor total.
 
@@ -5102,7 +5103,7 @@ Na precificação de software B2C ou SMB, apresentar o preço mensal primeiro (m
 
 Em negociação B2B com PME, a pergunta "quanto você consegue comprometer por mês?" frequentemente desbloqueia negociações travadas em preço total.
 
-#### 1.2.2 — Status Quo Bias
+#### 1.2.2: Status Quo Bias
 
 O consumidor brasileiro tem forte status quo bias em serviços com relacionamento estabelecido: banco, operadora de celular, plano de saúde. A inércia é alta porque trocar envolve esforço, risco percebido, e ruptura de relacionamento.
 
@@ -5110,13 +5111,13 @@ Para startups que competem com players estabelecidos: o argumento de switching p
 
 Táticas para reduzir o atrito da troca de fornecedor: "portabilidade garantida", "migração assistida", "não perde seus dados", "30 dias grátis sem cancelar o atual" reduzem o custo psicológico percebido de tentar.
 
-#### 1.2.3 — Efeito de Posse (Ownership Effect)
+#### 1.2.3: Efeito de Posse (Ownership Effect)
 
 Uma vez que o consumidor brasileiro usa algo e passa a considerá-lo "seu", o valor atribuído ao item aumenta substancialmente. Isso torna free trials e freemium especialmente eficazes quando bem desenhados: o usuário investe tempo e dados no produto, passa a considerar aquele histórico "seu", e o custo psicológico de abandonar sobe.
 
 Implicação: em free trials, a estratégia correta não é limitar funcionalidades, é criar investimento do usuário. Dados inseridos, configurações feitas, relatórios gerados, integrações conectadas: tudo isso aumenta o efeito de posse e a probabilidade de conversão.
 
-#### 1.2.4 — Reciprocidade como Moeda Social
+#### 1.2.4: Reciprocidade como Moeda Social
 
 A norma de reciprocidade é especialmente forte no Brasil. Quando alguém faz algo por você, existe obrigação social de retribuir. Isso se manifesta em:
 
@@ -5128,11 +5129,11 @@ Gesto personalizado em contratos B2B: carta escrita à mão e ligação direta d
 
 ---
 
-### 1.3 — Classe C e D como Mercado Principal
+### 1.3: Classe C e D como Mercado Principal
 
 Segundo levantamentos da FGV Social, do Instituto Locomotiva e do Critério Brasil (ABEP), as classes C, D e E reúnem mais da metade da população brasileira e movimentam mais de 40% do consumo das famílias. São o maior mercado do país, não um nicho.
 
-#### 1.3.1 — Poder de Compra Real vs. Percebido
+#### 1.3.1: Poder de Compra Real vs. Percebido
 
 O erro mais comum de founders de classe média-alta ao tentar servir esse segmento é subestimar a sofisticação e superestimar a limitação de renda.
 
@@ -5140,7 +5141,7 @@ O consumidor de classe C tem renda mensal familiar entre R$2.004 e R$8.640. Tem 
 
 O que é diferente: a decisão de compra é mais deliberada porque a margem de erro financeiro é menor. O consumidor que ganha R$2.500 por mês e está comprometendo R$150 por mês em um produto está comprometendo 6% da renda. Qualquer dúvida sobre valor entregue resulta em cancelamento.
 
-#### 1.3.2 — Canais de Confiança: Recomendação Supera Publicidade
+#### 1.3.2: Canais de Confiança: Recomendação Supera Publicidade
 
 Para esse segmento, a hierarquia de confiança é:
 
@@ -5152,7 +5153,7 @@ Para esse segmento, a hierarquia de confiança é:
 
 Implicação de crescimento: o referral de consumidor para consumidor tem conversão e LTV maiores do que aquisição por mídia paga nesse segmento. Investir em produto que entrega resultado suficiente para gerar recomendação espontânea é mais eficiente do que aumentar budget de mídia.
 
-#### 1.3.3 — Decisão por WhatsApp
+#### 1.3.3: Decisão por WhatsApp
 
 Para parcela significativa das classes C e D, o WhatsApp é o principal canal de comunicação, pesquisa, e até de transação. Grupos de WhatsApp funcionam como fóruns de recomendação e avaliação de produtos.
 
@@ -5164,7 +5165,7 @@ A prova social que mais converte nesse segmento frequentemente é uma screenshot
 
 Fluxos de onboarding ou ativação que chegam por WhatsApp têm taxas de completude maiores do que e-mail ou push notification.
 
-#### 1.3.4 — Crédito como Habilitador
+#### 1.3.4: Crédito como Habilitador
 
 Para classes C e D, crédito não é apenas conveniência, é habilitador de acesso. O parcelamento permite a compra que seria impossível à vista. O limite do cartão é parte do orçamento mensal percebido.
 
@@ -5172,11 +5173,11 @@ Produtos que aceitam parcelamento em mais prestações, que oferecem boleto com 
 
 ---
 
-### 1.4 — Mobile-First e WhatsApp como Interface Principal
+### 1.4: Mobile-First e WhatsApp como Interface Principal
 
 O funil de aquisição, onboarding (integração inicial de novos usuários ao produto) e retenção projetado para desktop com e-mail como canal principal não funciona para o consumidor que vive no smartphone.
 
-#### 1.4.1 — Redesenho do Funil para Entrada por Mensagem
+#### 1.4.1: Redesenho do Funil para Entrada por Mensagem
 
 Quando o ponto de entrada é um WhatsApp ou um Stories do Instagram, o funil clássico (anúncio → landing page → cadastro → e-mail → ativação) precisa ser redesenhado:
 
@@ -5193,7 +5194,7 @@ Prova de valor nos primeiros 3-5 minutos. O smartphone é ambiente de alta conco
 
 ---
 
-### 1.5 — Confiança e Credibilidade no B2C Brasileiro
+### 1.5: Confiança e Credibilidade no B2C Brasileiro
 
 Sinais de confiança no Brasil têm especificidades que diferem de mercados onde credibilidade institucional é maior:
 
@@ -5207,11 +5208,11 @@ Sinais de confiança no Brasil têm especificidades que diferem de mercados onde
 
 ---
 
-### 1.6 — Churn Psicológico: Por que Brasileiros Cancelam
+### 1.6: Churn Psicológico: Por que Brasileiros Cancelam
 
 O churn (taxa de cancelamento de clientes em um período) no Brasil tem padrões específicos que diferem do que os benchmarks internacionais sugerem.
 
-#### 1.6.1 — Causas Reais de Cancelamento
+#### 1.6.1: Causas Reais de Cancelamento
 
 Pesquisas e entrevistas de churn no contexto brasileiro revelam que a razão declarada ("está caro", "não estou usando") frequentemente mascara a razão real:
 
@@ -5221,7 +5222,7 @@ Pesquisas e entrevistas de churn no contexto brasileiro revelam que a razão dec
 
 **Atendimento que não humaniza:** Ticket de suporte que fica três dias sem resposta, chatbot que não resolve, e escalonamento que nunca chega são causas diretas de churn. O consumidor brasileiro tolera menos ineficiência de atendimento do que consumidores de alguns outros mercados porque a expectativa de relação é maior.
 
-#### 1.6.2 — Como Prever Churn
+#### 1.6.2: Como Prever Churn
 
 Indicadores comportamentais de churn iminente que funcionam no contexto brasileiro:
 
@@ -5231,7 +5232,7 @@ Indicadores comportamentais de churn iminente que funcionam no contexto brasilei
 - Mudança de contato principal (o campeão interno saiu da empresa, para B2B).
 - Tentativa de downgrage de plano.
 
-#### 1.6.3 — Como Reverter
+#### 1.6.3: Como Reverter
 
 O salvamento de churn no Brasil responde bem a:
 
@@ -5243,7 +5244,7 @@ Reconhecimento explícito da frustração do cliente. "Entendemos que isso não 
 
 ---
 
-### 1.7 — Sazonalidade Comportamental Brasileira
+### 1.7: Sazonalidade Comportamental Brasileira
 
 O calendário brasileiro tem eventos que redefinem o comportamento de consumo e precisam ser integrados ao planejamento de crescimento:
 
@@ -5281,11 +5282,11 @@ Dia das Mães        Maio            B2C: maior data de presentear    Comunicaç
 
 ---
 
-### 1.8 — B2B no Brasil: Relacionamento, Comitê e Cultura do Gestor
+### 1.8: B2B no Brasil: Relacionamento, Comitê e Cultura do Gestor
 
 O ciclo de vendas B2B brasileiro tem especificidades que muitos playbooks (manuais de processos repetíveis) importados de Silicon Valley ignoram:
 
-#### 1.8.1 — O Papel do Relacionamento Pessoal
+#### 1.8.1: O Papel do Relacionamento Pessoal
 
 Em B2B brasileiro, a relação pessoal entre o vendedor e o comprador é componente do processo de decisão, não apenas facilitador de acesso. O comprador que tem relação pessoal com o fornecedor sente responsabilidade compartilhada pelo sucesso da implementação.
 
@@ -5297,7 +5298,7 @@ O "almoço de negócios" não é protocolo arcaico, é investimento de relaciona
 
 Empresa que terceiriza o relacionamento com cliente inteiramente para automação e CS remoto perde uma das maiores vantagens competitivas disponíveis no mercado brasileiro.
 
-#### 1.8.2 — O Ciclo de Aprovação por Comitê
+#### 1.8.2: O Ciclo de Aprovação por Comitê
 
 Compras B2B acima de determinado ticket no Brasil frequentemente envolvem comitê de aprovação com múltiplos stakeholders: usuário final, gestor imediato, TI (para avaliação de segurança e integração), financeiro (para aprovação de budget), e frequentemente jurídico (para revisão de contrato).
 
@@ -5311,7 +5312,7 @@ Cada stakeholder tem critérios distintos:
 
 A estratégia de venda B2B precisa ter materiais específicos para cada stakeholder, não uma apresentação genérica para "a empresa".
 
-#### 1.8.3 — A Cultura do "Vou Levar para o Meu Gestor"
+#### 1.8.3: A Cultura do "Vou Levar para o Meu Gestor"
 
 "Vou levar para o meu gestor" é a frase mais comum de desaceleração de ciclo de vendas B2B no Brasil. Pode significar:
 
@@ -5323,9 +5324,9 @@ Como distinguir: se o prospect consegue responder "quando você terá resposta?"
 
 ---
 
-### 1.9 — Pricing Psicológico para o Mercado Brasileiro
+### 1.9: Pricing Psicológico para o Mercado Brasileiro
 
-#### 1.9.1 — Preços com Terminação em Dígitos Específicos
+#### 1.9.1: Preços com Terminação em Dígitos Específicos
 
 A pesquisa de pricing psicológico (precificação que explora vieses cognitivos para influenciar percepção de valor) brasileira confirma efeitos similares ao mercado internacional com algumas especificidades:
 
@@ -5335,7 +5336,7 @@ R$49,90 vs. R$50: no contexto de parcelamento, a parcela de R$49,90 tem percepç
 
 Entretanto: preços com terminação em 0 (R$100, R$200, R$500) comunicam premium e simplicidade em contextos onde o comprador é sofisticado (C-level, enterprise). Usar preço quebrado em contexto premium pode reduzir percepção de qualidade.
 
-#### 1.9.2 — Parcelamento como Percepção de Acessibilidade
+#### 1.9.2: Parcelamento como Percepção de Acessibilidade
 
 No Brasil, "em quantas vezes?" é a primeira pergunta de preço, não "quanto custa?". A arquitetura de parcelamento impacta mais a decisão de compra do que o preço total em muitos segmentos.
 
@@ -5347,21 +5348,21 @@ Oferecer parcelamento sem juros como benefício diferenciado ("no cartão em at�
 
 Para produtos de ticket médio (R$500-R$2.000), a apresentação "em 10x de R$X" antes de mostrar o total muda a âncora de avaliação.
 
-#### 1.9.3 — Garantia como Redução de Risco Percebido
+#### 1.9.3: Garantia como Redução de Risco Percebido
 
 Para consumidor com menor margem de segurança financeira, o risco de "errar a compra" é desproporcionalmente alto. Uma garantia explícita e crível reduz esse risco percebido e move compras para frente.
 
-Como o art. 49 do Código de Defesa do Consumidor já garante 7 dias de direito de arrependimento em compras fora do estabelecimento (além da garantia legal do art. 26), oferecer "30 dias de teste ou seu dinheiro de volta, sem burocracia" explicita uma segurança extra que costuma aumentar mais a conversão do que o volume de devoluções.
+Como o art. 49 do Código de Defesa do Consumidor já garante 7 dias de direito de arrependimento em compras fora do estabelecimento (além da garantia legal do art. 26), oferecer "30 dias de teste ou seu dinheiro de volta, sem burocracia" explícita uma segurança extra que costuma aumentar mais a conversão do que o volume de devoluções.
 
 O paradoxo: empresas que oferecem garantia forte têm menos pedidos de devolução do que empresas sem garantia. O consumidor que tem a opção de sair sente-se mais seguro para entrar, e sente-se menos compelido a sair porque a decisão foi voluntária.
 
 ---
 
-### 1.10 — Comunidade e Pertencimento como Diferencial
+### 1.10: Comunidade e Pertencimento como Diferencial
 
 Startups que criam tribo em torno do produto crescem mais rápido no Brasil porque se aproveitam de dois padrões culturais que amplificam o crescimento orgânico: a alta relacionalidade do consumidor brasileiro e a necessidade de pertencimento a grupo de referência.
 
-#### 1.10.1 — Por que Tribo Funciona no Brasil
+#### 1.10.1: Por que Tribo Funciona no Brasil
 
 O consumidor brasileiro tem alta propensão a se identificar com grupo (torcida, religião, bairro, profissão, estilo de vida). Produto que se torna símbolo de identidade de grupo captura uma lealdade que transcende a avaliação racional de custo-benefício.
 
@@ -5369,7 +5370,7 @@ O Nubank construiu sua marca desde 2013 posicionando-se contra a burocracia, as 
 
 Magazine Luiza fez isso de forma diferente: a tribo era de consumidores de classe C que se viam "chegando lá", com a Magalu como parceira nessa jornada.
 
-#### 1.10.2 — Como Construir Comunidade Deliberadamente
+#### 1.10.2: Como Construir Comunidade Deliberadamente
 
 Comunidade não surge apenas de produto bom. É construída com intenção:
 
@@ -5384,7 +5385,7 @@ Comunidade não surge apenas de produto bom. É construída com intenção:
 > [!note] O limite do investimento em comunidade
 > Comunidade amplifica o que já funciona. Não salva produto que não entrega. Um produto medíocre com comunidade forte gera uma tribo de pessoas insatisfeitas que falam mal juntas. O sequenciamento correto: produto que entrega resultado real primeiro, depois construção de comunidade em torno desse resultado.
 
-#### 1.10.3 — Métricas de Saúde de Comunidade
+#### 1.10.3: Métricas de Saúde de Comunidade
 
 NPS de comunidade (separado do NPS de produto): "você recomendaria participar da nossa comunidade para um colega?"
 
@@ -5453,13 +5454,13 @@ Jeff Bezos ensina a focar no cliente em vez de correr atrás dos rivais; Andy Gr
 
 ---
 
-### 2.1 — IC como Processo Contínuo, Não Projeto Pontual
+### 2.1: IC como Processo Contínuo, Não Projeto Pontual
 
 A maioria das startups faz IC em dois momentos: quando está montando pitch deck para investidores (uma análise rasa de concorrentes para o slide de competição) e quando perde um cliente importante para um concorrente (resposta de pânico). Em ambos os casos, a análise chega tarde.
 
 IC eficaz é uma rotina, não um projeto. Tem dois ritmos distintos e complementares:
 
-#### 2.1.1 — Rotina Semanal (Monitoramento Contínuo)
+#### 2.1.1: Rotina Semanal (Monitoramento Contínuo)
 
 Tempo estimado: duas a três horas por semana, delegável para analista ou para o próprio founder com suporte de ferramentas.
 
@@ -5475,7 +5476,7 @@ Revisar o blog, changelog e comunicados de produto dos principais concorrentes. 
 
 Registrar tudo em um documento centralizado de inteligência competitiva. Não apenas o dado bruto, mas a implicação: "Concorrente X lançou integração com Totvs. Significa que estão indo para enterprise. Nossa oportunidade é reforçar velocidade de implementação para PME."
 
-#### 2.1.2 — Análise Profunda Trimestral
+#### 2.1.2: Análise Profunda Trimestral
 
 Tempo estimado: dois a três dias de trabalho concentrado.
 
@@ -5500,11 +5501,11 @@ Síntese estratégica: o que os concorrentes estão fazendo revela onde eles acr
 
 ---
 
-### 2.2 — Fontes de Dados sobre Concorrentes no Brasil
+### 2.2: Fontes de Dados sobre Concorrentes no Brasil
 
 O ecossistema brasileiro tem fontes específicas que analistas internacionais frequentemente ignoram:
 
-#### 2.2.1 — Fontes de Inteligência de Negócios
+#### 2.2.1: Fontes de Inteligência de Negócios
 
 **LinkedIn Sales Navigator:** Permite rastrear contratações, mudanças de cargo, crescimento de headcount. Uma empresa que triplicou o time de vendas nos últimos seis meses está em modo de expansão agressiva. Uma que demitiu líderes de produto está recalibrando estratégia.
 
@@ -5524,7 +5525,7 @@ O ecossistema brasileiro tem fontes específicas que analistas internacionais fr
 
 **Fontes públicas oficiais (PNCP, INPI, Juntas e Bibliotecas de Anúncios):** Contratos e editais públicos podem ser consultados no Portal Nacional de Contratações Públicas (PNCP, Lei 14.133/2021) e no Portal da Transparência; pedidos de registro de marca saem na Revista da Propriedade Industrial (RPI) do INPI; alterações societárias ficam nas juntas comerciais; e campanhas pagas ativas aparecem na Biblioteca de Anúncios da Meta e na Central de Transparência de Anúncios do Google.
 
-#### 2.2.2 — Inteligência de Produto
+#### 2.2.2: Inteligência de Produto
 
 **Wayback Machine (web.archive.org):** Histórico de versões do site do concorrente. Ver como o posicionamento deles mudou ao longo do tempo revela a evolução estratégica.
 
@@ -5534,7 +5535,7 @@ O ecossistema brasileiro tem fontes específicas que analistas internacionais fr
 
 ---
 
-### 2.3 — Frameworks de Análise Competitiva
+### 2.3: Frameworks de Análise Competitiva
 
 #### 2.3.1: As Cinco Forças de Porter e o VRIO aplicados a SaaS e IA (complemento aos frameworks da Fase 6)
 
@@ -5548,7 +5549,7 @@ O framework original de Porter (1979) foi desenvolvido para indústrias tradicio
 
 **Rivalidade em SaaS:** Intensificada pela transparência de preços nos produtos self-service (enquanto nas vendas corporativas complexas o preço segue fechado sob proposta, como veremos na seção 2.5), baixo custo de switching para clientes insatisfeitos, e ciclos de feature rápidos que nivelam diferenciais rapidamente.
 
-#### 2.3.2 — VRIO Aplicado à Análise de Moat
+#### 2.3.2: VRIO Aplicado à Análise de Moat
 
 Jay Barney propôs o framework VRIO para analisar se um recurso gera vantagem competitiva sustentável. Para IC, aplique ao concorrente e a si mesmo:
 
@@ -5560,7 +5561,7 @@ Jay Barney propôs o framework VRIO para analisar se um recurso gera vantagem co
 
 **O (Organizado):** A empresa consegue capturar o valor desse recurso? Uma startup com tecnologia superior mas sem time de vendas não consegue monetizar a vantagem.
 
-#### 2.3.3 — Competitive Moat Mapping
+#### 2.3.3: Competitive Moat Mapping
 
 ```text
 TIPO DE MOAT         COMO FUNCIONA               EXEMPLO BR         DURABILIDADE
@@ -5593,11 +5594,11 @@ Para cada concorrente principal, mapear: qual é o moat deles? Quão profundo es
 
 ---
 
-### 2.4 — Win/Loss Analysis
+### 2.4: Win/Loss Analysis
 
 Win/loss analysis é o processo sistemático de entender por que você ganha e por que você perde deals competitivos. É a fonte de IC mais precisa e mais subutilizada.
 
-#### 2.4.1 — Como Conduzir Entrevistas Pós-Decisão
+#### 2.4.1: Como Conduzir Entrevistas Pós-Decisão
 
 O erro mais comum é delegar a entrevista de *win/loss* para o próprio vendedor da conta, que tende a culpar o preço nas derrotas e superestimar o próprio discurso nas vitórias. A conversa exige um entrevistador neutro, como alguém de produto, sucesso do cliente ou o sócio técnico. Foi assim que **Henrique** fechou o arco da cena de abertura deste capítulo após ouvir de Roberto o motivo real da derrota: colocou a exportação auditável para o ERP Protheus no topo do *roadmap*, atualizou o *battle card* comercial com garantias de implantação para o gerente de TI e ganhou o contrato na usina seguinte.
 
@@ -5617,7 +5618,7 @@ O erro mais comum é delegar a entrevista de *win/loss* para o próprio vendedor
 > [!warning] O que não fazer em entrevista de loss
 > Não tente reabrir o deal na entrevista. Não se defenda. Não corrija percepções equivocadas do cliente no momento da entrevista. Ouça, registre, agradeça. A correção de percepção equivocada acontece em futuras comunicações de produto, não na entrevista de loss.
 
-#### 2.4.2 — O que Fazer com os Dados
+#### 2.4.2: O que Fazer com os Dados
 
 Categorizar perdas em três buckets:
 
@@ -5631,7 +5632,7 @@ Analisar padrão a cada trimestre. Se o Bucket 1 está crescendo, o produto prec
 
 ---
 
-### 2.5 — Análise de Precificação Competitiva
+### 2.5: Análise de Precificação Competitiva
 
 Concorrentes frequentemente não publicam tabelas de preço. Existem formas legítimas de descobrir:
 
@@ -5647,11 +5648,11 @@ Concorrentes frequentemente não publicam tabelas de preço. Existem formas leg�
 
 ---
 
-### 2.6 — Battle Cards Internos
+### 2.6: Battle Cards Internos
 
 Battle card é um documento de uma a duas páginas que prepara o vendedor para competir contra um concorrente específico. É a tradução operacional da inteligência competitiva.
 
-#### 2.6.1 — Estrutura do Battle Card
+#### 2.6.1: Estrutura do Battle Card
 
 ```text
 BATTLE CARD - [NOME DO CONCORRENTE]
@@ -5691,7 +5692,7 @@ Alegações que não podemos provar.
 Ataques que parecem desespero.
 ```
 
-#### 2.6.2 — Como Manter Atualizado e Treinar o Time
+#### 2.6.2: Como Manter Atualizado e Treinar o Time
 
 Battle card não atualizado é pior do que não ter battle card. Vendedor que usa informação desatualizada perde credibilidade.
 
@@ -5709,11 +5710,11 @@ Treinamento do time de vendas:
 
 ---
 
-### 2.7 — Resposta a Movimentos Competitivos
+### 2.7: Resposta a Movimentos Competitivos
 
 Nem todo movimento do concorrente exige resposta. A pergunta-chave: esse movimento muda fundamentalmente o mercado ou é ruído?
 
-#### 2.7.1 — Framework de Decisão: Reagir vs. Ignorar vs. Acelerar
+#### 2.7.1: Framework de Decisão: Reagir vs. Ignorar vs. Acelerar
 
 ```text
 MOVIMENTO DO CONCORRENTE
@@ -5739,7 +5740,7 @@ Você tem vantagem para responder?
     └── NÃO → Reposicionar. Buscar segmento onde você vence.
 ```
 
-#### 2.7.2 — Quando Ignorar é a Decisão Correta
+#### 2.7.2: Quando Ignorar é a Decisão Correta
 
 Ignorar um movimento competitivo parece fraqueza. Frequentemente é sabedoria.
 
@@ -5756,7 +5757,7 @@ Reagir forçaria você a desviar do seu roadmap estratégico. O custo de desvio 
 
 ---
 
-### 2.8 — Sinalização Estratégica
+### 2.8: Sinalização Estratégica
 
 Sinalização estratégica é o uso intencional de comunicação pública para influenciar percepção do mercado, concorrentes, e talentos, sem mentir.
 
@@ -5774,11 +5775,11 @@ O limite ético: sinalização baseada em planos reais (mesmo que ainda não exe
 
 ---
 
-### 2.9 — Monitoramento de Concorrentes Globais Chegando ao Brasil
+### 2.9: Monitoramento de Concorrentes Globais Chegando ao Brasil
 
 A entrada de players globais no Brasil segue padrões identificáveis que oferecem janela de 12-18 meses para resposta:
 
-#### 2.9.1 — Indicadores de Expansão para o Brasil
+#### 2.9.1: Indicadores de Expansão para o Brasil
 
 **Fase 1: Sinais iniciais (18-24 meses antes do lançamento):**
 
@@ -5800,7 +5801,7 @@ A entrada de players globais no Brasil segue padrões identificáveis que oferec
 - Participação em eventos locais como expositor ou palestrante.
 - Campanha de geração de demanda em mídia brasileira.
 
-#### 2.9.2 — O que Fazer na Janela de 12-18 Meses
+#### 2.9.2: O que Fazer na Janela de 12-18 Meses
 
 Quando o sinal de expansão aparece, a resposta correta não é entrar em pânico. É acelerar o que já estava sendo feito:
 
@@ -5812,7 +5813,7 @@ Comunicar ativamente ao mercado sua vantagem local. Não com medo, mas com confi
 
 ---
 
-### 2.10 — A Armadilha da Obsessão Competitiva
+### 2.10: A Armadilha da Obsessão Competitiva
 
 Inteligência competitiva bem usada é vantagem. Mal usada, é patologia organizacional.
 
@@ -5941,7 +5942,7 @@ No Brasil, startups não morrem apenas porque o produto era ruim. Elas morrem po
 
 ---
 
-> [!important] Relacao com o Capítulo 19 (Vol. 9) (Post-Mortems Brasileiros: Catálogo de Casos em Profundidade)
+> [!important] Relação com o Capítulo 19 (Vol. 9) (Post-Mortems Brasileiros: Catálogo de Casos em Profundidade)
 > Este capítulo analisa os padrões transversais de fracasso ilustrados por casos brasileiros (os estudos de caso individuais em profundidade estão no Capítulo 19 do Volume 9). Para mergulho individual em cada caso (Easy Taxi, Peixe Urbano, Kekanto e outros), ver [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 19 — POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE|Capítulo 19 (Post-Mortems Brasileiros: Catálogo de Casos em Profundidade) (Vol. 9)]]. As analises detalhadas vivem la, aqui ficam os padroes transversais.
 
 > [!note] Nota de integridade
@@ -5963,14 +5964,14 @@ Antes da [[IGNICAO-Vol-1-Ideacao#FASE 0 — PREPARAÇÃO DO EMPREENDEDOR|Fase 0 
 
 ### Os sete padrões
 
-#### Padrão 1 — Crescer em mercado sem defensibilidade estrutural
+#### Padrão 1: Crescer em mercado sem defensibilidade estrutural
 
 Caso: Easy Taxi (fundada em 2011, teve sua operação incorporada pela Cabify em 2017; compare com a rival 99, que lançou o 99Pop para carros particulares e foi adquirida pela Didi Chuxing em 2018). Ser o primeiro num mercado não garante defensibilidade quando o modelo agrega oferta sem switching cost real. Network effects superficiais (cada lado vai para onde o outro está, mas nenhum tem lock-in com a plataforma) cedem rapidamente quando entra concorrente com produto estruturalmente diferente (Uber em 2014, com carros particulares, dispatch algorítmico e preço dinâmico). A defesa exige exclusividade, switching costs, dados proprietários ou marca forte o suficiente para que o cliente não procure alternativa. Caso analisado em profundidade no [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 19 — POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE|Capítulo 19 (Post-Mortems Brasileiros: Catálogo de Casos em Profundidade) (Vol. 9)]].
 
 > [!question] Teste de defensibilidade para seu negócio
 > Se um concorrente bem capitalizado lançar produto vinte por cento melhor amanhã, quantos por cento dos seus clientes ficam com você em doze meses? Se a resposta for menor que sessenta por cento, defensibilidade é fraca.
 
-#### Padrão 2 — Confundir tração inicial com PMF sustentável
+#### Padrão 2: Confundir tração inicial com PMF sustentável
 
 Caso: Peixe Urbano e o modelo de compras coletivas (fundada em 2010, teve pico entre 2011 e 2013 e manteve operação até 2020, em trajetória paralela ao Caso: Easy Taxi (fundada em 2011, incorporada pela Cabify em 2017).). O padrão típico do Padrão 2 é confundir tração inicial explosiva com PMF sustentável. Descontos massivos atraem caçadores de cupom, não cliente recorrente, retenção de parceiros despenca, unit economics degradam com escala. O que parecia PMF era novidade mais agressividade mais capital barato. PMF real exige retenção estável em coortes diferentes, não apenas aquisição crescente. Cada categoria de "explosão repentina" dos últimos quinze anos (daily deals, QR code payments, social commerce, cursos online massivos, ciclos de fintech) teve sua fase de "parece PMF mas não é". Caso analisado em profundidade no [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 19 — POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE|Capítulo 19 (Post-Mortems Brasileiros: Catálogo de Casos em Profundidade) (Vol. 9)]].
 
@@ -5986,34 +5987,34 @@ Caso ilustrativo: a safra de aplicativos de delivery de nicho entre 2014 e 2017 
 > [!important] Regra operacional
 > Não capte capital significativo antes de ter unit economics positivas em subescala. Se a relação LTV/CAC estiver abaixo de 3x em pequena escala, investigue a causa antes de acelerar com capital externo: o custo de aquisição nos canais pagos tende a subir conforme você esgota os primeiros adotantes, embora o custo unitário de atendimento possa cair com ganhos de escala.
 
-#### Padrão 4 — Dependência de fundador único
+#### Padrão 4: Dependência de fundador único
 
 Padrão arquetípico (múltiplos casos brasileiros). Empresas brasileiras com fundador fortemente identificado com a marca e sem infraestrutura de liderança compartilhada enfrentam risco existencial quando o fundador tem problema de saúde, se esgota (burnout) e precisa se afastar, tem problema pessoal significativo (divórcio, luto, conflito legal) ou decide sair (para novo projeto, por discórdia com board, por exit forçado).
 
 Os sinais de dependência excessiva são: nenhuma decisão importante acontece sem o fundador, time executivo fraco ou marginalizado, fundador é a única pessoa que entende a estratégia completa, fundador é único ponto de contato com investidores, parceiros grandes e clientes-chave, e cultura é "o jeito que o fundador faz" sem formalização.
 
-empresa dependente de fundador único é mais frágil do que um gráfico de crescimento saudável sugere. Construir líderes complementares, documentar visão estratégica e distribuir relacionamento externo. Isso é [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 2 — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Capítulo 2 (Saúde Mental, Dinâmica de cofundadores e Humanidade do Fundador) (Vol. 1)]] (humanidade do fundador como ativo organizacional) mais [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9 — GESTÃO DE CRISE, CONTINUIDADE OPERACIONAL E COMUNICAÇÃO CRÍTICA|Capítulo 9 (Gestão de Crise, Continuidade Operacional e Comunicação Crítica) (Vol. 9)]] (continuidade quando o fundador some) mais [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16 (Vol. 6)]] (estrutura de C-level e governança) em prática.
+Uma empresa dependente de fundador único é mais frágil do que um gráfico de crescimento saudável sugere. Construir líderes complementares, documentar visão estratégica e distribuir relacionamento externo. Isso é [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 2 — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Capítulo 2 (Saúde Mental, Dinâmica de cofundadores e Humanidade do Fundador) (Vol. 1)]] (humanidade do fundador como ativo organizacional) mais [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9 — GESTÃO DE CRISE, CONTINUIDADE OPERACIONAL E COMUNICAÇÃO CRÍTICA|Capítulo 9 (Gestão de Crise, Continuidade Operacional e Comunicação Crítica) (Vol. 9)]] (continuidade quando o fundador some) mais [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16 — TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16 (Vol. 6)]] (estrutura de C-level e governança) em prática.
 
 > [!question] Teste
 > Se você sumir por sessenta dias (férias longas, saúde, qualquer coisa), a empresa para? Degrada? Continua? A resposta "continua" significa que a fundação é saudável. "Para" significa risco estrutural.
 
-#### Padrão 5 — Ignorar mudança estrutural de mercado
+#### Padrão 5: Ignorar mudança estrutural de mercado
 
 Caso arquetípico, Kekanto e reviews locais (2008-2015). O padrão típico do Padrão 5, empresa bem-sucedida em categoria emergente é progressivamente comprimida quando plataforma global incorpora a funcionalidade como feature (Google Maps com reviews, TripAdvisor em escala, Foursquare). Usuário já está na plataforma global, custo de mudar é alto, empresa de nicho não tem força para competir com bundling. Saída de categoria é gradual, fundador pode demorar a reconhecer. Ser absorvido como função gratuita de uma plataforma maior (*featurização*) é um risco estrutural; pergunte a cada trimestre: se uma grande plataforma de nuvem ou um provedor de modelos de inteligência artificial (como ocorreu entre 2024 e 2026 com dezenas de aplicativos de resumo de PDF e redação simples diante das atualizações nativas de ChatGPT, Claude e Gemini) entregar o que fazemos dentro do pacote básico, ainda teremos um negócio defensável? Se a resposta é não, é questão de tempo e você precisa construir defensibilidade específica (dados proprietários, relacionamento B2B profundo, regulação local, marca em nicho) ou exit antecipado. Caso analisado em profundidade no [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 19 — POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE|Capítulo 19 (Post-Mortems Brasileiros: Catálogo de Casos em Profundidade) (Vol. 9)]].
 
-#### Padrão 6 — Sobreextensão geográfica antes de consolidar doméstico
+#### Padrão 6: Sobreextensão geográfica antes de consolidar doméstico
 
 Padrão observado (múltiplos casos LatAm). Startups brasileiras que, com capital de Série A ou B, lançam em três a cinco países simultaneamente frequentemente descobrem quatro problemas. Execução em paralelo dispersa foco. Adaptação local (localização real, não só tradução) é mais custosa do que estimado. Cada país tem dinâmica regulatória, de canal e de cultura própria. E a base brasileira ainda não estava consolidada: saiu para LatAm com PMF parcial no Brasil. Desastre composto: operação brasileira piora por falta de foco e operações LatAm não engrenam por falta de profundidade.
 
-internacionalização é o [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 5 — INTERNACIONALIZAÇÃO: ESTRUTURA E PRODUTO PARA MÚLTIPLOS MERCADOS|Capítulo 5 (Internacionalização: Estrutura e Produto para Múltiplos Mercados) (Vol. 9)]] inteiro por uma razão. O pré-requisito para cruzar a fronteira não é apenas ter dinheiro no banco, e sim reunir três condições simultâneas: PMF comprovado no Brasil, operação local que rode no dia a dia sem depender do fundador e caixa reservado para sustentar ao menos dezoito meses de operação no novo país. Sem esses três, expansão acelera destruição, não crescimento. Nubank é exceção relevante: expandiu para México e Colômbia depois de estabelecer mercado brasileiro, com capital suficiente para três a cinco anos de operação paralela, com executivos locais de primeira linha. Empresa diferente em estágio, recursos e estrutura.
+A internacionalização ocupa o [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 5 — INTERNACIONALIZAÇÃO: ESTRUTURA E PRODUTO PARA MÚLTIPLOS MERCADOS|Capítulo 5 (Internacionalização: Estrutura e Produto para Múltiplos Mercados) (Vol. 9)]] inteiro por uma razão. O pré-requisito para cruzar a fronteira não é apenas ter dinheiro no banco, e sim reunir três condições simultâneas: PMF comprovado no Brasil, operação local que rode no dia a dia sem depender do fundador e caixa reservado para sustentar ao menos dezoito meses de operação no novo país. Sem esses três, expansão acelera destruição, não crescimento. Nubank é exceção relevante: expandiu para México e Colômbia depois de estabelecer mercado brasileiro, com capital suficiente para três a cinco anos de operação paralela, com executivos locais de primeira linha. Empresa diferente em estágio, recursos e estrutura.
 
-#### Padrão 7 — Perder momentum de produto em empresa que já escalou
+#### Padrão 7: Perder momentum de produto em empresa que já escalou
 
 Padrão observado (casos variados). Empresas que atingiram PMF e escalaram razoavelmente bem (Série B ou mais, mais de duzentas pessoas, receita acima de cem milhões de reais) frequentemente perdem capacidade de inovação de produto. As causas típicas são cinco: fundador se afastou do produto (virou CEO operacional), time de produto virou mercenário e não missionário, processo de produto virou pesado (comitês, aprovações, política), cliente grande adquirido dita roadmap (lock-in em cliente-âncora), e inovação disruptiva vem de concorrente menor e mais ágil que é ignorado até ser tarde.
 
 Os sinais de perda de momentum incluem release notes sobre features táticas e não sobre direção, métricas principais estagnando (retenção, NPS, adoption de novas features), turnover alto dos seniores no time de produto e "innovation theater" (hackathons sem follow-through, comitês de inovação sem poder).
 
-escala mata produto se não houver sistema deliberado para preservá-lo. O [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 1 — PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA|Capítulo 1 (Produto em Escala e Descoberta Contínua) (Vol. 7)]] cobre isso em profundidade. Fundador precisa manter mão no produto mesmo como CEO: não no dia a dia, mas em decisão de direção.
+A escala mata o produto se não houver sistema deliberado para preservá-lo. O [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 1 — PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA|Capítulo 1 (Produto em Escala e Descoberta Contínua) (Vol. 7)]] cobre isso em profundidade. Fundador precisa manter mão no produto mesmo como CEO: não no dia a dia, mas em decisão de direção.
 
 ### Autoavaliação de risco estratégico
 
@@ -6062,9 +6063,9 @@ Loggi captou rodadas substanciais ao longo dos anos, chegou a valuation bilioná
 
 No início de 2023, startups brasileiras que optaram pelo encerramento voluntário e ordenado da operação (comunicando clientes com antecedência, honrando rescisões e devolvendo o caixa remanescente aos acionistas antes de chegar à insolvência) deixaram uma lição importante de governança. Fundadores comunicaram publicamente, fizeram rescisão ordenada de contratos e devolveram capital residual a investidores. Não foi falência, foi decisão consciente de encerrar quando viram que o modelo não convergiria. Esse é um padrão instrutivo positivo: encerramento voluntário executado com dignidade é caso raro e exemplar. Em vez de estender agonia até insolvência técnica, fundadores reconheceram realidade e agiram. Relações com investidores, time e clientes foram preservadas, e os fundadores manterão capacidade de começar de novo. A seção sobre Shutdown Voluntário na [[IGNICAO-Vol-9-Maturidade-e-Exit#FASE 20 — ESTRATÉGIA DE SAÍDA (EXIT STRATEGY)|Fase 20 (Vol. 9)]] desse livro foi inspirada parcialmente por casos como Escale.
 
-C2 Ventures e o encolhimento de fundos de venture ilustra o padrão sistêmico. Não é empresa operacional, mas é parte da mesma história. O encolhimento dos próprios fundos de capital de risco entre 2022 e 2024 ilustra o lado sistêmico desse ciclo. Segundo levantamentos da Associação Latino-Americana de Capital de Risco (LAVCA) e do Distrito, o volume investido em venture capital no Brasil recuou mais de 70% entre o pico de 2021 e 2023, levando diversas gestoras locais de primeiro fundo a pausar novos cheques ou encerrar captações. Como o mercado de capital de risco é pró-cíclico, empresas que captaram no topo da euforia de 2020-2021 com múltiplos inflados precisaram cortar queima de caixa para atravessar anos de diligências muito mais severas., junto com vários outros fundos pequenos e médios do ecossistema. O ciclo de venture brasileiro teve contração forte: menos cheques sendo escritos, valuations menores, due diligences mais rigorosas. O ecossistema VC é pró-cíclico. Quando mercado aquece, muitos fundos abrem; quando esfria, muitos fecham. Empresas que captaram em ciclo de alta (2020-2021) em valuations inflados carregam peso extra nas rodadas subsequentes. A lição operacional: considere em que momento do ciclo você está captando. Captar em topo de euforia é comodidade imediata mas passivo futuro. Captar em vale é doloroso de executar mas frequentemente produz empresa mais disciplinada.
+C2 Ventures e o encolhimento de fundos de venture ilustra o padrão sistêmico. Não é empresa operacional, mas é parte da mesma história. Segundo levantamentos da Associação Latino-Americana de Capital de Risco (LAVCA) e do Distrito, o volume investido em venture capital no Brasil recuou mais de 70% entre o pico de 2021 e 2023, levando gestoras locais de primeiro fundo a reduzir drasticamente o ritmo de novos cheques em 2023-2024, junto com vários outros fundos pequenos e médios do ecossistema. O ciclo de venture brasileiro teve contração forte: menos cheques sendo escritos, valuations menores, due diligences mais rigorosas. O ecossistema VC é pró-cíclico. Quando mercado aquece, muitos fundos abrem; quando esfria, muitos fecham. Empresas que captaram em ciclo de alta (2020-2021) em valuations inflados carregam peso extra nas rodadas subsequentes. A lição operacional: considere em que momento do ciclo você está captando. Captar em topo de euforia é comodidade imediata mas passivo futuro. Captar em vale é doloroso de executar mas frequentemente produz empresa mais disciplinada.
 
-> [!note] Por que Meliuz esta neste capítulo
+> [!note] Por que o Méliuz está neste capítulo
 > *Nota: o caso a seguir não descreve um fracasso operacional, mas uma aposta de alto risco na gestão de tesouraria de uma companhia aberta brasileira.*
 
 Méliuz não é caso de fracasso, mas é caso instrutivo de empresa lidando com o vale. A fintech de cashback, listada na B3 desde 2020, viu suas ações negociadas na B3 entre 2023 e 2024 em patamar próximo (e em certos pregões abaixo) do próprio saldo de caixa líquido da companhia: o mercado de capitais brasileiro não estava precificando a operação tradicional. A resposta foi um pivô estratégico de tesouraria: em março de 2025 anunciou alocação de até dez por cento do caixa em Bitcoin, e em maio de 2025 lançou oferta pública de R$ 450 milhões com finalidade explícita de comprar mais BTC. As ações subiram mais de duzentos por cento ao longo de 2025. O padrão instrutivo é "empresa boa precificada como ruim em mercado errado": reposicionamento como bitcoin treasury é jogada de tesouraria explícita, não de operação, e revela limite estrutural do mercado de capitais brasileiro para SaaS/fintech de pequeno porte. A lição operacional: se sua empresa está bem operacionalmente mas o mercado precifica a zero, considere se o problema é narrativa, listing (B3 vs Nasdaq), ou estrutura de capital. Alocar caixa corporativo em ativos voláteis como criptomoedas é uma operação de altíssimo risco fiduciário, contábil e tributário: exige aprovação formal do conselho de administração e dos acionistas, política escrita de gestão de risco e blindagem integral do capital de giro; para startups de capital fechado, o caixa deve permanecer 100% em liquidez conservadora atrelada ao CDI, e da empresa, em direção possivelmente irreversível.

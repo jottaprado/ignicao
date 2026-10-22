@@ -242,7 +242,7 @@
     "vol": "9",
     "code": "N5",
     "from": "**O Ritual de Segunda-Feira às 9h:** Separe formalmente no orçamento e no organograma um squad enxuto de Segunda Curva reportando direto ao fundador",
-    "to": "**O Ritual de Segunda-Feira às 9h:** Reserve 30 minutos toda segunda-feira entre o CEO e o líder dedicado da segunda curva para revisar as hipóteses críticas testadas na semana anterior, os aprendizados com clientes-piloto e o bloqueio de agenda do fundador, tomando uma decisão prática de desbloqueio."
+    "to": "**O Ritual de Segunda-Feira às 9h:** Reserve 30 minutos toda segunda-feira entre o CEO e o líder dedicado da segunda curva para revisar as hipóteses críticas testadas na semana anterior, os aprendizados com clientes-piloto e o bloqueio de agenda do fundador, tomando uma decisão prática de desbloqueio"
   },
   {
     "id": "3876",
@@ -543,7 +543,7 @@
     "vol": "9",
     "code": "C4",
     "from": "Planejamento tributário via advogado fiscal: estrutura de offshore controlado, holdings e timing de reconhecimento do ganho.",
-    "to": "Em transações desse porte, um plano preventivo estruturado com advogados tributaristas avalia com anos de antecedência a organização patrimonial dos sócios e o regime de reconhecimento fiscal do ganho de capital e de eventuais parcelas a prazo."
+    "to": "Em operações dessa magnitude, um plano preventivo estruturado com advogados tributaristas avalia com anos de antecedência a organização patrimonial dos sócios e o regime de reconhecimento fiscal do ganho de capital e de eventuais parcelas a prazo."
   },
   {
     "id": "3965",
@@ -1131,7 +1131,7 @@
     "vol": "9",
     "code": "C3",
     "from": "com subsidiária operacional separada em estado de atividade. SALT (state and local taxes) varia, com Califórnia pesada e Texas e Nevada leves. W-8BEN-E para evitar withholding em pagamentos.",
-    "to": "A C-Corp de Delaware registra-se diretamente nos estados onde possui operação ou funcionários (*foreign qualification*), sem precisar abrir uma nova subsidiária por estado. Os tributos estaduais (*SALT, state and local taxes*) variam conforme a jurisdição. Quando a empresa brasileira fatura cliente americano, entrega o formulário W-8BEN-E para comprovar que é pessoa jurídica estrangeira, mas, na ausência de tratado contra bitributação entre Brasil e EUA, pagamentos caracterizados como royalties de fonte americana sofrem retenção de 30% na fonte."
+    "to": "que se registra diretamente nos estados onde possui operação ou funcionários (*foreign qualification*), sem precisar abrir uma nova subsidiária em cada localidade. Os tributos estaduais (*SALT, state and local taxes*) variam conforme a jurisdição. Quando a empresa brasileira fatura cliente americano, entrega o formulário W-8BEN-E para comprovar que é pessoa jurídica estrangeira, mas, na ausência de tratado contra bitributação entre Brasil e EUA, pagamentos caracterizados como royalties de fonte americana sofrem retenção de 30% na fonte."
   },
   {
     "id": "4108",
@@ -1355,7 +1355,7 @@
     "vol": "9",
     "code": "N5",
     "from": "Mapeie 100% das despesas e receitas em moeda estrangeira dos próximos dois trimestres, migre faturas grandes de nuvem/SaaS para faturamento direto sem spread de cartão de varejo e trave a cotação",
-    "to": "Toda segunda-feira às 9h, atualize a planilha de exposição cambial rolante de 13 semanas somando recebimentos e pagamentos contratados em moeda estrangeira e verifique se o percentual protegido por NDF ou caixa em moeda forte permanece dentro da faixa de 50% a 80% definida na política."
+    "to": "Atualize a planilha de exposição cambial rolante de 13 semanas somando recebimentos e pagamentos contratados em moeda estrangeira e verifique se o percentual protegido por NDF ou caixa em moeda forte permanece dentro da faixa de 50% a 80% definida na política para a cobertura"
   },
   {
     "id": "4163",
@@ -1481,21 +1481,21 @@
     "vol": "9",
     "code": "C5",
     "from": "Todo o seu caixa de reserva está aplicado exclusivamente em ativos de liquidez diária e risco soberano/AAA",
-    "to": "Todo o seu caixa operacional e tático está aplicado exclusivamente em ativos de liquidez diária (D+0/D+1) e risco soberano ou bancário Tier-1, reservando prazos de carência de 30 a 90 dias apenas para a parcela de reserva estratégica prevista na Política de Investimentos (IPS)"
+    "to": "Toda a sua liquidez imediata e tática está aplicada exclusivamente em títulos de resgate imediato (no mesmo dia ou no dia útil seguinte) e risco soberano ou bancário Tier-1, reservando prazos de carência de 30 a 90 dias apenas para a parcela de reserva estratégica prevista na Política de Investimentos (IPS)"
   },
   {
     "id": "4184",
     "vol": "9",
     "code": "N5",
     "from": "Redija uma Política de Investimento de Tesouraria de 1 página aprovada pelo conselho",
-    "to": "Confira toda segunda-feira a concentração percentual do caixa por instituição financeira e o prazo de liquidez das aplicações contra o limite de 30% por banco fixado na sua Política de Investimentos (IPS), e uma vez por mês execute um pagamento operacional real pelo seu banco secundário de contingência."
+    "to": "Uma vez por mês, execute um pagamento operacional real pelo seu banco secundário de contingência e, a cada semana, confira a distribuição percentual do caixa por banco e o prazo de resgate das aplicações contra o teto de 30% fixado na sua Política de Investimentos (IPS),"
   },
   {
     "id": "4188",
     "vol": "9",
     "code": "N6",
     "from": "Você precisa dominar **O Protocolo de Comando em Tempo de Guerra**: preparar planos de continuidade (BCP/DRP) em tempo de paz",
-    "to": "Você precisa dominar **O Protocolo de Comando em Crise**: preparar planos de continuidade operacional (BCP) e recuperação de desastres (DRP) em tempo de paz e acionar os quatro papéis de comando (Comandante do Incidente, Líder Técnico, Líder de Comunicação e Líder Jurídico) nos primeiros trinta minutos de qualquer evento crítico."
+    "to": "Você precisa dominar **O Protocolo de Comando em Crise**: preparar planos de continuidade operacional (BCP) e recuperação de desastres (DRP) em tempo de paz, acionar os quatro papéis de comando (Comandante do Incidente, Líder Técnico, Líder de Comunicação e Líder Jurídico) nos primeiros trinta minutos de qualquer evento crítico"
   },
   {
     "id": "4189",
@@ -1516,7 +1516,7 @@
     "vol": "9",
     "code": "E1",
     "from": "O que diferencia empresas que sobrevivem dessas situações das que sucumbem não é a ausência de crise. É a qualidade da resposta. E o que diferencia uma resposta boa de uma ruim não é improviso heroico",
-    "to": "Empresas que atravessam crises graves sem quebrar não tiveram menos incidentes que as demais: responderam com ordem e velocidade porque treinaram seus protocolos e isolaram seus backups quando nada estava dando errado."
+    "to": "Empresas que atravessam crises graves sem quebrar não tiveram menos incidentes que as demais: responderam com ordem e velocidade porque isolaram seus backups e testaram seus protocolos antes da emergência. O que separa uma resposta eficaz do colapso operacional não é improviso heroico"
   },
   {
     "id": "4192",
@@ -1838,7 +1838,7 @@
     "vol": "9",
     "code": "N6",
     "from": "Você precisa dominar **A Arbitragem de Múltiplos e a Disciplina de Integração (PMI)**",
-    "to": "A disciplina de M&A como comprador apoia-se em duas travas: pagar múltiplo sustentado pelo fluxo de caixa isolado da adquirida e executar a integração de sistemas, pessoas e clientes nos primeiros 100 dias."
+    "to": "A disciplina de M&A como comprador apoia-se em duas travas operacionais (pagar múltiplo sustentado pelo fluxo de caixa isolado da adquirida e concluir a integração de pessoas, clientes e processos nos primeiros 100 dias)"
   },
   {
     "id": "4278",
@@ -1866,7 +1866,7 @@
     "vol": "9",
     "code": "E2",
     "from": "Tenha caixa e capacidade de integração, não só capital para compra, mas equipe para integrar. Tese clara (",
-    "to": "ter caixa próprio e equipe disponível para integrar o ativo adquirido (não apenas capital para pagar o preço), uma tese específica que responda por que comprar aquela empresa agora ("
+    "to": "Exige caixa próprio e equipe disponível para absorver o ativo adquirido (não apenas capital para pagar o preço), além de uma tese específica de aquisição ("
   },
   {
     "id": "4284",
@@ -1922,14 +1922,14 @@
     "vol": "9",
     "code": "N3",
     "from": "um ex-diretor colega de Henrique e Dra. Camila",
-    "to": "Gustavo, ex-diretor de operações da rede de clínicas da Dra. Camila,"
+    "to": "o executivo Gustavo, ex-diretor de operações da rede de clínicas da Dra. Camila,"
   },
   {
     "id": "4294",
     "vol": "9",
     "code": "N3",
     "from": "um ex-diretor colega de Henrique e Dra. Camila olhou para os dois caminhos tradicionais",
-    "to": "Gustavo, ex-diretor de operações da rede de clínicas da Dra. Camila, olhou para os dois caminhos tradicionais"
+    "to": "o executivo Gustavo, ex-diretor de operações da rede de clínicas da Dra. Camila, olhou para os dois caminhos tradicionais"
   },
   {
     "id": "4295",
@@ -2125,7 +2125,7 @@
     "vol": "9",
     "code": "N5",
     "from": "Avalie se a sua iniciativa de Horizonte 2 deve permanecer como diretoria interna ou se deve ser isolada via *Drop-Down* em uma SPE/S.A. separada",
-    "to": "Liste os módulos internos ou ferramentas proprietárias da sua empresa que clientes ou parceiros já pediram para contratar de forma avulsa e, para o principal candidato, anote na planilha quanto ele faturaria isolado, quais três pessoas formariam seu núcleo dedicado e quem seria o líder empreendedor."
+    "to": "Liste os módulos internos ou ferramentas proprietárias da sua empresa que clientes ou parceiros já pediram para contratar de forma avulsa e, para o principal candidato, anote na planilha quanto ele faturaria isolado, quais três pessoas formariam seu núcleo dedicado e quem lideraria essa operação em uma unidade segregada"
   },
   {
     "id": "4332",
@@ -2202,7 +2202,7 @@
     "vol": "9",
     "code": "N5",
     "from": "Antes de abrir uma rodada de crescimento Série B ou C, alinhe previamente com os líderes do seu Conselho",
-    "to": "Calcule hoje em uma planilha qual percentual do seu patrimônio líquido familiar está concentrado nas ações da empresa e qual valor líquido em reais quitaria a moradia da família e três anos de custo de vida doméstico, levando esse parâmetro para alinhamento prévio com o conselho antes da próxima janela de captação."
+    "to": "Calcule hoje em uma planilha qual percentual do seu patrimônio líquido familiar está concentrado nas ações da empresa e qual valor líquido em reais quitaria a moradia da família e três anos de custo de vida doméstico, usando esse parâmetro para pactuar previamente com o conselho, antes da próxima janela de captação,"
   },
   {
     "id": "4346",
@@ -2608,7 +2608,7 @@
     "vol": "9",
     "code": "C3",
     "from": "(atingindo a alíquota máxima de **8%** para grandes patrimônios, inclusive em estados que antes aplicavam alíquota fixa de 4%",
-    "to": "(obrigando todos os estados brasileiros a instituir alíquotas progressivas em razão do valor do quinhão ou doação, respeitado o teto nacional atual de **8%** conforme a escala fixada na lei de cada estado, além de prever a incidência sobre bens no exterior e observar a tese fixada pelo **STF no Tema 1.214**, que declarou inconstitucional a cobrança de ITCMD sobre o repasse de **VGBL e seguro de vida** aos beneficiários na sucessão por morte, ressalvadas as regras complementares da LC 214/2025 para aportes de curto prazo"
+    "to": "(exigindo que cada unidade da federação institua alíquotas escalonadas segundo o valor do quinhão ou doação, respeitado o teto nacional atual de **8%** fixado pelo Senado, observada ainda a decisão do **STF no Tema 1.214**, que declarou inconstitucional a cobrança de ITCMD sobre o repasse de **VGBL e seguro de vida** aos beneficiários na sucessão por morte, ressalvadas as regras da LC 214/2025 para aportes de curto prazo"
   },
   {
     "id": "4448",

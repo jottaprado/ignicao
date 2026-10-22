@@ -21,7 +21,7 @@ language: pt-BR
 
 Este é o **Volume 4 (Tração, Go-to-Market e Product-Market Fit)** da coleção **IGNIÇÃO: O manual operacional do empreendedor brasileiro** (10 volumes).
 
-Volume sobre a travessia do lançamento do MVP em produção até a comprovação do Product-Market Fit: Operação de MVP e Experimentos de Mercado (Fase 11), Validação do Modelo de Negócio (Fase 12) e Product-Market Fit (Fase 13): com frameworks passo a passo de métricas, growth, posicionamento e negociação, os canvases Pirate/AARRR e Risk Canvas preenchidos e os templates de Pre-Launch e Scorecard de PMF integrados nas fases: , seguidos por 11 capítulos sobre GTM e canais de aquisição até R$ 1M de ARR, SEO/conteúdo e comunidades, mídia paga, branding e PMM, vendas B2B consultivas, pricing e economia da recorrência, negociação, Customer Success e CX, stack de dados, produto AI-native e pivô.
+Volume sobre a travessia do lançamento do MVP em produção até a comprovação do Product-Market Fit: Operação de MVP e Experimentos de Mercado (Fase 11), Validação do Modelo de Negócio (Fase 12) e Product-Market Fit (Fase 13): com frameworks passo a passo de métricas, growth, posicionamento e negociação, os canvases Pirate/AARRR e Risk Canvas preenchidos e os templates de Pre-Launch e Scorecard de PMF integrados nas fases, seguidos por 11 capítulos sobre GTM e canais de aquisição até R$ 1M de ARR, SEO/conteúdo e comunidades, mídia paga, branding e PMM, vendas B2B consultivas, pricing e economia da recorrência, negociação, Customer Success e CX, stack de dados, produto AI-native e pivô.
 
 ---
 
@@ -241,7 +241,7 @@ Custo típico: o mais alto dos três. Semanas ou meses de desenvolvimento. O cri
 Nove passos. Os passos abaixo se aplicam à **terceira fase do ciclo (MVP em Código)** descrita acima, depois das duas anteriores (Teste de Demanda + MVP Concierge) terem produzido evidência positiva. Pular para os passos 1 a 9 sem ter validado as duas fases anteriores é o erro mais caro desta etapa, e equivale a construir software para hipótese ainda não testada.
 
 > [!tip] MVP Canvas antes de construir qualquer coisa
-> Para cada MVP que o time planeja lançar, preencha o [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#Canvas: MVP Canvas (Tristan Kromer)|Canvas: MVP Canvas (Tristan Kromer) (Vol. 3)]] de Tristan Kromer em 30-45 minutos antes de qualquer linha de código: qual é a **hipótese central** (falsificável), quem é o **segmento do MVP** (pode ser subconjunto de 20 pessoas, não 20.000), qual é o **tipo de MVP** (landing page, concierge, wizard of oz: use o mais barato que testa a hipótese), e qual é o **critério de invalidação** (não só de sucesso). A pergunta mais importante do canvas: "Se o MVP falhar pelo critério de invalidação, o que construímos a seguir?" Se a resposta for "não sabemos", a hipótese precisa ser mais específica. O caso Wildlife Studios em Canvas: MVP Canvas (Tristan Kromer) (Fase 9) mostra como definir o segmento com precisão (moderate spenders apenas) produziu evidência limpa que justificou a expansão do feature para toda a base.
+> Para cada MVP que o time planeja lançar, preencha o [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#Canvas: MVP Canvas (Tristan Kromer)|Canvas: MVP Canvas (Tristan Kromer) (Vol. 3)]] de Tristan Kromer em 30-45 minutos antes de qualquer linha de código: qual é a **hipótese central** (falsificável), quem é o **segmento do MVP** (pode ser subconjunto de 20 pessoas, não 20.000), qual é o **tipo de MVP** (landing page, concierge, wizard of oz: use o mais barato que testa a hipótese), e qual é o **critério de invalidação** (não só de sucesso). A pergunta mais importante do canvas: "Se o MVP falhar pelo critério de invalidação, o que construímos a seguir?" Se a resposta for "não sabemos", a hipótese precisa ser mais específica. O caso da Wildlife Studios no [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#Canvas: MVP Canvas (Tristan Kromer)|MVP Canvas (Vol. 3)]] mostra como um recorte estreito de público (apenas jogadores de gasto moderado) gerou evidência limpa para estender a funcionalidade a toda a base.
 
 #### Passo 1, construa apenas os Must Haves
 
@@ -598,7 +598,7 @@ Ron Kohavi é referência mundial em A/B testing, com carreira em Amazon, Micros
 
 Experimento controlado em que usuários são aleatoriamente divididos em **grupo de controle** (vê versão atual) e **grupo de tratamento** (vê versão modificada), métricas-chave são comparadas. **Diferença significativa** revela efeito causal (não só correlação).
 
-##### Princípios / estrutura — Como fazer rigoroso
+##### Princípios / estrutura: Como fazer rigoroso
 
 1. Hipótese explícita: "se mudarmos X, conversão move em Z% ou mais."
 
@@ -910,9 +910,9 @@ A armadilha clássica sem Pirate Canvas seria investir mais em Acquisition ("vam
 
 **Para que serve.** Cobrir os 15 itens críticos de qualquer lançamento público de produto MVP (do pré-lançamento aos primeiros 7 dias), evitando que você descubra uma falha básica de operação, divulgação ou suporte nos primeiros três dias.
 
-**Quando usar.** Uma a duas semanas antes do dia D do launch publico do MVP ou de feature significativa.
+**Quando usar.** Uma a duas semanas antes do dia D do launch público do MVP ou de feature significativa.
 
-**Exemplo de preenchimento.** Lancamento publico do MVP de SaaS B2B contabil.
+**Exemplo de preenchimento.** Lancamento público do MVP de SaaS B2B contabil.
 
 ```
 CHECKLIST DE PRE-LAUNCH
@@ -1148,7 +1148,7 @@ Post-money valuation. Pré-money mais o valor captado. Se capta R$ 10 milhões e
 
 Percentual de diluição. Percentual de equity que sai dos atuais detentores para o novo investidor. Se o investidor entra por R$ 10 milhões em post de R$ 50 milhões, ele fica com vinte por cento, e todos os demais diluem proporcionalmente.
 
-Pool de opções (option pool). Reserva de equity para contratações futuras. O ponto crítico: se o investidor exige aumento de pool *antes* da rodada (pre-money pool increase), a diluição sai toda dos fundadores. Se o aumento é *depois* (post-money), dilui todos. Negociar isso vale muito dinheiro.
+Pool de opções (option pool). Reserva de equity para contratações futuras. O ponto crítico: se o investidor exige aumento de pool *antes* da rodada (pré-money pool increase), a diluição sai toda dos fundadores. Se o aumento é *depois* (post-money), dilui todos. Negociar isso vale muito dinheiro.
 
 Liquidation preference. Em exit, o investidor preferencial recebe primeiro um múltiplo do investido, antes de fundadores receberem qualquer coisa. "1x non-participating" é padrão saudável. "2x participating" é predatório (o investidor recebe duas vezes, *e* mais a parte pro-rata dele). Negocie cedo.
 
@@ -1513,7 +1513,7 @@ Passo 4: Ação focada em reduzir atrito, não em "superar expectativas".
 
 CES após ticket de suporte:
 
-n=450 tickets, 3 meses.
+Amostra: n = 450 tickets ao longo de 3 meses.
 
 - Média CES: 5.2/7 (moderado).
 - Segmento que deu CES baixo (< 4): 22%. Razão top: "tive que explicar o problema 3 vezes a pessoas diferentes".
@@ -1536,7 +1536,7 @@ Donald Rubin (Harvard) desenvolveu o framework de "potential outcomes" na estat�
 
 Conjunto de técnicas estatísticas para **inferir causalidade a partir de dados observacionais** (quando A/B test não é possível). Útil quando experimento randomizado é impraticável (ético, caro, ou simplesmente já aconteceu).
 
-##### Princípios / estrutura — Principais métodos
+##### Princípios / estrutura: Principais métodos
 
 Difference-in-Differences (DiD): compara mudança em grupo tratado vs. grupo controle ao longo do tempo. Controla tendências subjacentes.
 
@@ -2225,7 +2225,7 @@ Acontece com frequência em serviços regulados (saúde, educação), ou com for
 > [!tip] Comunicar PMF a investidores
 > Captação de Série A e posterior exige demonstração de PMF com seis artefatos: gráfico de retenção por coorte estabilizada acima do threshold do setor; Sean Ellis Test recente com percentual e tamanho da amostra; NRR em SaaS com trajetória de 4-8 trimestres; pipeline de indicação (percentual de novos clientes por referência); cohort analysis de LTV/CAC por safra (não média); cinco a dez depoimentos qualitativos de clientes com permissão. Founder que apresenta "temos PMF" sem esses artefatos sinaliza que ainda não mediu PMF com rigor. O detalhamento de como construir cada artefato e estruturar o pitch está no [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 9 — CAPTAÇÃO DE EQUITY: PLANEJAMENTO DE RODADA, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 9: Captação de Equity (Vol. 5)]] e no [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 4 — PLANEJAMENTO FINANCEIRO (FP&A), ORÇAMENTO E REVENUE FORECASTING|Capítulo 4: Revenue Forecasting (Vol. 5)]] (cohort analysis convertido em ARR waterfall, projeção financeira auditável).
 
-### Declaração formal de PMF — critérios mínimos e scorecard
+### Declaração formal de PMF: critérios mínimos e scorecard
 
 PMF não é sentimento. É estado mensurável. Muitos founders declaram PMF prematuramente porque querem fechar rodada, contratar time, ou simplesmente parar de carregar a incerteza. Declarar PMF cedo demais leva a escalar produto quebrado: o erro mais caro que existe em startup.
 
@@ -2715,7 +2715,7 @@ Donald Miller, ex-autor de memórias, fundou StoryBrand após perceber que marke
 
 Framework para estruturar **comunicação de marketing como narrativa** onde **cliente é o herói** e empresa é o **guia** (não o herói).
 
-##### Princípios / estrutura — SB7 Framework
+##### Princípios / estrutura: SB7 Framework
 
 7 elementos de qualquer história boa aplicados a marketing:
 
@@ -2782,7 +2782,7 @@ Carl Jung desenvolveu arquétipos como padrões psicológicos universais (*Arche
 
 Framework para dar **personalidade coerente à marca** baseado em 12 arquétipos psicológicos universais. Cada arquétipo tem valores, motivações e "voz" distintos. Marca escolhe 1 primário (e talvez 1 secundário).
 
-##### Princípios / estrutura — 12 Arquétipos
+##### Princípios / estrutura: 12 Arquétipos
 
 1. The Innocent: otimismo, pureza, simplicidade (Coca-Cola, Dove).
 2. The Everyman: pertencimento, realismo (IKEA, Target).
@@ -2892,7 +2892,7 @@ Conteúdo sem estratégia de topics: posts aleatórios. SEO fraco, não ranqueia
 
 **Para que serve.** Sintetizar em uma página os indicadores das seis dimensões que mostram se você atingiu o PMF (com metas em % e faixas claras), evitando o autoengano comum de declarar PMF cedo demais.
 
-**Quando usar.** Mensalmente apos lancamento publico, ate atingir todos os criterios. Reusar a cada quadrimestre apos PMF para confirmar que segue valido.
+**Quando usar.** Mensalmente após lancamento público, até atingir todos os critérios. Reusar a cada quadrimestre após PMF para confirmar que segue valido.
 
 **Exemplo de preenchimento.** SaaS B2B com 80 clientes pagantes, 6 meses pós-lançamento (Sean Ellis em 46% com 50 respondentes, retenção de contas em D90 em 88%, crescimento de MRR de 18% ao mês, LTV/CAC de 4,5x, payback de 9 meses e 28% de aquisição orgânica -> veredito: PMF confirmado em 6 de 6 dimensões).
 
@@ -3067,7 +3067,7 @@ Se as respostas a essas perguntas forem consistentes entre os 10 clientes, você
 
 Motion (modelo) de GTM é o mecanismo central pelo qual o produto é distribuído e adotado. Cada motion tem custos, velocidades e restrições diferentes.
 
-#### PLG — Product-Led Growth
+#### PLG: Product-Led Growth
 
 PLG (Product-Led Growth: crescimento liderado pelo produto) é quando o produto gera seu próprio crescimento. O usuário descobre, experimenta, adota e paga sem passar por um vendedor. O boca a boca e os loops de viralidade dentro do produto são os principais canais.
 
@@ -3086,7 +3086,7 @@ No contexto brasileiro, PLG enfrenta desafios específicos:
 
 Exemplos de PLG que funcionam no Brasil: produtos de colaboração (Notion, Figma), ferramentas de comunicação como o Slack e SaaS brasileiros com entrada self-serve ou freemium (como RD Station nos planos iniciais, Conta Azul e Sympla para produtores), plataformas de pagamento com integração simples (APIs de pagamento com documentação clara), e-mail marketing e automação de marketing com trial gratuito.
 
-#### SLG — Sales-Led Growth
+#### SLG: Sales-Led Growth
 
 Um time comercial conduz ativamente o processo de vendas. Inclui prospecção, discovery, demo, proposta e fechamento.
 
@@ -3103,7 +3103,7 @@ SLG funciona bem quando:
 
 O risco do SLG é escalar o time de vendas antes de ter o motion definido. Contratar 5 AEs com pipeline não comprovado é destruir capital.
 
-#### MLG — Marketing-Led Growth
+#### MLG: Marketing-Led Growth
 
 A demanda é gerada por marketing: inbound orgânico (SEO, conteúdo), mídia paga (Google Ads, Meta Ads, LinkedIn Ads), eventos, assessoria de imprensa e brand building.
 
@@ -3118,7 +3118,7 @@ No Brasil:
 
 MLG puro raramente sustenta o crescimento de startups B2B com ticket médio no Brasil. O mais comum é MLG + SLG: marketing gera inbound que SDR qualifica e AE fecha.
 
-#### CLG — Community-Led Growth
+#### CLG: Community-Led Growth
 
 A comunidade de usuários, praticantes ou entusiastas do setor gera distribuição e credibilidade para o produto.
 
@@ -3577,7 +3577,7 @@ Ao mesmo tempo, em Belo Horizonte, a Dra. Camila havia tomado uma decisão difer
 
 Dezoito meses depois, o site da clínica da Dra. Camila recebia cerca de 4 mil visitas orgânicas qualificadas por mês vindas do Google e 60 pedidos mensais de avaliação na região metropolitana de BH, gerando R$ 140 mil mensais em tratamentos com custo marginal de mídia próximo de zero.
 
-Anúncio pago é aluguel: parou de pagar o boleto da plataforma, perdeu o ponto na mesma hora. Conteúdo que responde à dúvida certa de compra é terreno próprio: continua trazendo clientes no mês em que o caixa aperta. Conteúdo estratégico e SEO programático voltado para intenção de compra funcionam como juros compostos no banco: o artigo, a calculadora gratuita ou o guia técnico que você publica hoje continua trabalhando para você às três da manhã de domingo pelos próximos cinco anos, derrubando o seu CAC médio mês após mês.
+Anúncio pago é aluguel: parou de pagar o boleto da plataforma, perdeu o ponto na mesma hora. Conteúdo que responde à dúvida certa de compra é terreno próprio: continua trazendo clientes no mês em que o caixa aperta. Conteúdo estratégico e SEO programático voltado para intenção de compra funcionam como juros compostos no banco: o artigo, a calculadora gratuita ou o guia técnico que você pública hoje continua trabalhando para você às três da manhã de domingo pelos próximos cinco anos, derrubando o seu CAC médio mês após mês.
 
 ---
 
@@ -3710,7 +3710,7 @@ Não medir conversion. Volume de tráfego sem conversion é vanity metric.
 
 **O Espelho (autodiagnóstico):**
 1. Se você desligar todos os seus anúncios pagos hoje ao meio-dia, quantas vendas ou pedidos de orçamento continuam entrando sozinhos amanhã pelas suas páginas e conteúdos já publicados?
-2. Os conteúdos que você publica hoje respondem às perguntas de fundo de funil de quem está prestes a comprar (comparativos, preços, como resolver um erro urgente), ou são textos genéricos de "o que é inovação" que ninguém com dinheiro na mão lê?
+2. Os conteúdos que você pública hoje respondem às perguntas de fundo de funil de quem está prestes a comprar (comparativos, preços, como resolver um erro urgente), ou são textos genéricos de "o que é inovação" que ninguém com dinheiro na mão lê?
 3. Você já construiu pelo menos uma calculadora, planilha diagnóstica ou ferramenta gratuita interativa que resolve 10% do problema do cliente em troca do contato dele?
 
 **Permissão Libertadora:**
@@ -3743,7 +3743,7 @@ Marketing de performance sério ignora métricas de vaidade do gerenciador e gov
 > [!note] Aplicabilidade
 > Empresas que dependem de paid ads (anúncios pagos no Google, Meta, LinkedIn, TikTok) como canal primário ou secundário. Aplica-se a partir do momento em que há budget dedicado, mesmo que sejam R$ 5.000 mensais, com alguém responsável por otimizá-lo.
 
-### 1. O que é marketing de performance — e o que o distingue de branding
+### 1. O que é marketing de performance: e o que o distingue de branding
 
 Marketing de performance tem três características que o distinguem.
 
@@ -4134,12 +4134,12 @@ Para uma startup nascente, branding tem uma função econômica implacável: **r
 > [!important] Uma distinção que salva dinheiro
 > Posicionamento é estratégia: define onde você compete e por que você vence. Identidade é execução: como você aparece visualmente e verbalmente. A maioria das startups faz identidade sem ter posicionamento. Resultado: visual bonito, mensagem vazia.
 
-> [!important] Escopo deste capítulo versus EA
+> [!important] Escopo deste capítulo frente ao Capítulo 6 (Comunidade e Eventos)
 > Branding e Posicionamento (este capítulo) é a disciplina **estratégica** de Marca e Posicionamento Competitivo, em ciclos longos (anos), com VRIO, Crossing the Chasm, JTBD, identidade verbal e visual e brand equity. Product Marketing (Capítulo 4 (Branding, Posicionamento de Marca e Product Marketing (PMM))) é a disciplina **operacional** de Mensagem e Lançamento, em ciclos curtos (semanas, sprints, releases), com metodologia April Dunford, win/loss interviews, messaging architecture e sales enablement. O Capítulo 7 (Product Marketing) parte deste Capítulo 6: quando a mensagem tática de um lançamento divergir do posicionamento estratégico da empresa, o posicionamento prevalece.
 
 ---
 
-### 4.1 — Marca como Ativo Composto
+### 4.1: Marca como Ativo Composto
 
 Cada contato positivo com o produto reduz a desconfiança até a próxima compra: *brand equity* (o valor acumulado da marca) funciona como esse atalho mental na decisão do cliente. Toda vez que um cliente experimenta seu produto, ouve seu nome, vê seu logo, lê sua comunicação, ou fala de você para alguém, uma camada é depositada na conta de marca. Essas camadas se acumulam ao longo de meses e anos. Uma marca forte em ano cinco vale materialmente mais do que a mesma empresa com produto idêntico em marca fraca, porque:
 
@@ -4156,7 +4156,7 @@ A marca cria barreira de imitação. Produto se copia. Marca não. Dois anos de 
 
 ---
 
-### 4.2 — Posicionamento: A Estratégia Antes da Identidade
+### 4.2: Posicionamento: A Estratégia Antes da Identidade
 
 Posicionamento é a resposta a três perguntas obrigatórias:
 
@@ -4175,9 +4175,9 @@ A estrutura da frase parece simples, mas cada palavra obriga uma renúncia estra
 
 ---
 
-### 4.3 — Frameworks de Posicionamento Aplicados
+### 4.3: Frameworks de Posicionamento Aplicados
 
-#### 4.3.1 — Crossing the Chasm para Posicionamento de Marca
+#### 4.3.1: Crossing the Chasm para Posicionamento de Marca
 
 Geoffrey Moore identificou que tecnologias passam por um ciclo de adoção com um "abismo" entre os early adopters (visionários) e a maioria inicial (pragmáticos). Isso tem implicação direta de marca:
 
@@ -4189,7 +4189,7 @@ O erro é usar linguagem de visionary sell quando você precisa atravessar para 
 
 A transição de marca ao cruzar o abismo requer: trocar "o futuro é assim" por "empresas como a sua fazem X com resultado Y", substituir evangelismo por prova social, e reduzir o vocabulário técnico-pioneiro por linguagem operacional do segmento-alvo.
 
-#### 4.3.2 — Jobs-to-be-Done Aplicado à Marca
+#### 4.3.2: Jobs-to-be-Done Aplicado à Marca
 
 A abordagem de *Jobs to be Done* (JTBD) desenvolveu-se ao longo dos anos 1990 (com raízes no método de *Outcome-Driven Innovation* formulado por Tony Ulwick em 1991, visto no Vol. 2, e nas pesquisas de Bob Moesta e Rick Pedi) antes de ser popularizada por Clayton Christensen em *The Innovator's Solution* (2003) e popularizado por Clayton Christensen em *The Innovator's Solution* (2003). A tese central é que clientes não compram produtos, eles "contratam" soluções para fazer um trabalho específico. Aplicado à marca, isso significa que sua identidade deve refletir o trabalho, não a categoria.
 
@@ -4199,7 +4199,7 @@ Para startups B2B, o trabalho emocional frequentemente é sobre status e seguran
 
 Exercício prático: entreviste dez clientes que amam seu produto. Pergunte "o que você consegue fazer agora que não conseguia antes?" e "como você descreveria esse produto para um colega de profissão?". A linguagem que aparece nessas entrevistas é a matéria-prima do posicionamento correto.
 
-#### 4.3.3 — Blue Ocean no Contexto Brasileiro
+#### 4.3.3: Blue Ocean no Contexto Brasileiro
 
 W. Chan Kim e Renée Mauborgne propõem criar espaço de mercado não disputado ao redefinir os eixos de valor. No Brasil, há padrões específicos de Blue Ocean disponíveis para startups:
 
@@ -4211,11 +4211,11 @@ O eixo da digitalização de relação: setores onde a relação humana era nece
 
 ---
 
-### 4.4 — Arquitetura de Marca para Startups com Múltiplos Produtos
+### 4.4: Arquitetura de Marca para Startups com Múltiplos Produtos
 
 Quando uma startup lança produtos adicionais, precisa decidir como a marca-mãe se relaciona com cada produto. Três modelos principais:
 
-#### 4.4.1 — Arquitetura Monolítica (Branded House)
+#### 4.4.1: Arquitetura Monolítica (Branded House)
 
 Uma marca principal, produtos são sub-categorias ou features. Nubank é o exemplo brasileiro mais claro: Nubank Conta, Nubank Crédito, Nubank Investimentos, Nu, tudo sob o guarda-chuva da marca matriz. Todo investimento em marca beneficia todos os produtos.
 
@@ -4225,7 +4225,7 @@ Desvantagem: um escândalo ou falha em um produto contamina todos os outros. Dif
 
 Quando usar: quando todos os produtos servem o mesmo perfil de cliente e a experiência de marca pode ser consistente.
 
-#### 4.4.2 — Arquitetura Endossada (Endorsed Brand)
+#### 4.4.2: Arquitetura Endossada (Endorsed Brand)
 
 Marcas independentes com endosso visível da marca-mãe. No Brasil, o grupo TOTVS usou endosso ao adquirir marcas como **RD Station (by TOTVS)**, enquanto o iFood opera majoritariamente como marca monolítica com extensões descritivas (iFood Mercado, iFood Pago, iFood Benefícios), marcas distintas com "by iFood" ou "powered by iFood" como sinal de confiabilidade.
 
@@ -4235,7 +4235,7 @@ Desvantagem: mais custoso em marketing (cada marca precisa de investimento próp
 
 Quando usar: quando você atende múltiplos segmentos distintos que não se identificam com a mesma marca (consumidor final vs. empresário vs. entregador).
 
-#### 4.4.3 — Arquitetura Híbrida
+#### 4.4.3: Arquitetura Híbrida
 
 Combinação situacional. Alguns produtos sob a marca principal, outros com marca própria. Requer disciplina e critério claro de quando cada modelo se aplica, caso contrário gera incoerência.
 
@@ -4244,9 +4244,9 @@ Combinação situacional. Alguns produtos sob a marca principal, outros com marc
 
 ---
 
-### 4.5 — Identidade Verbal: Tom, Nome e Tagline
+### 4.5: Identidade Verbal: Tom, Nome e Tagline
 
-#### 4.5.1 — Tom de Voz
+#### 4.5.1: Tom de Voz
 
 Tom de voz é como sua marca se comunica em todos os pontos de contato: site, e-mail, app, atendimento, redes sociais, documentos legais. Tom inconsistente é marca fragmentada.
 
@@ -4261,7 +4261,7 @@ Para cada adjetivo, criar um par "é/não é". "Direto: dizemos o que precisamos
 
 Criar um guia de tom de voz com exemplos reais de frases aprovadas e frases rejeitadas. Isso é mais acionável do que princípios abstratos.
 
-#### 4.5.2 — Naming: O Processo para Escolher Nome com INPI
+#### 4.5.2: Naming: O Processo para Escolher Nome com INPI
 
 O nome da empresa ou produto é o ativo de marca de vida mais longa. Um nome ruim persiste por décadas. O processo correto tem sete etapas:
 
@@ -4282,7 +4282,7 @@ O nome da empresa ou produto é o ativo de marca de vida mais longa. Um nome rui
 > [!important] INPI não é opcional
 > Operar com marca não registrada é risco legal sério. Sem pedido protocolado no INPI, um terceiro pode tentar registrar o nome antes de você; embora o usuário anterior de boa-fé há pelo menos seis meses possa invocar o direito de precedência (art. 129, § 1º, da Lei 9.279/1996, a LPI) para disputar o registro dentro do prazo legal de oposição, o litígio e uma eventual troca forçada de marca custam caro. Isso já aconteceu com startups brasileiras que tiveram que mudar nome após rodadas de investimento, com custos de rebranding de seis a sete dígitos.
 
-#### 4.5.3 — Tagline que Não Envergonha em Cinco Anos
+#### 4.5.3: Tagline que Não Envergonha em Cinco Anos
 
 Uma boa tagline não descreve o produto, comunica a promessa de valor ou a crença central da marca.
 
@@ -4300,11 +4300,11 @@ Teste de tagline: mostre para dez pessoas do segmento-alvo. Pergunte "o que voc�
 
 ---
 
-### 4.6 — Brand Equity no Brasil: Credibilidade por Segmento
+### 4.6: Brand Equity no Brasil: Credibilidade por Segmento
 
 Construir credibilidade no Brasil tem especificidades por segmento que diferem de mercados anglófonos:
 
-#### 4.6.1 — PMEs (Pequenas e Médias Empresas)
+#### 4.6.1: PMEs (Pequenas e Médias Empresas)
 
 O dono de PME compra de quem conhece, de quem foi indicado, ou de quem demonstra entender o seu mundo específico (varejo alimentar, serviços, construção civil, agro). Credibilidade se constrói por:
 
@@ -4314,13 +4314,13 @@ Cases com nomes conhecidos no setor. Um depoimento de uma rede regional conhecid
 
 Linguagem do setor. Usar o vocabulário que o dono de PME usa, não o vocabulário de startup tech. Isso sinaliza que você entende o negócio dele, não apenas a tecnologia.
 
-#### 4.6.2 — C-Level e Decisores Corporativos
+#### 4.6.2: C-Level e Decisores Corporativos
 
 Para vender para C-level, a marca precisa sinalizar: que a empresa vai continuar existindo (solidez), que outros C-levels do mesmo porte já usam (prova social de pares), e que há suporte e responsabilização (não vou ficar na mão).
 
 Investimento em credibilidade corporativa: presença em eventos de decisores executivos (como Febraban Tech, congressos da Amcham e encontros de entidades setoriais vigentes como Sindusfarma, Interfarma, Brasscom e ABES), cobertura em publicações de negócios (Valor Econômico, Exame), certificações relevantes para o setor (ISO, SOC 2), e cases publicados com metodologia e resultado.
 
-#### 4.6.3 — Consumidor de Baixa Renda (Classes C, D e E)
+#### 4.6.3: Consumidor de Baixa Renda (Classes C, D e E)
 
 Credibilidade para esse segmento não vem de marca global, vem de:
 
@@ -4334,7 +4334,7 @@ Garantia explícita: "devolvo o dinheiro se não funcionar" tem mais peso do que
 
 ---
 
-### 4.7 — Employer Branding como Alavanca de Recrutamento
+### 4.7: Employer Branding como Alavanca de Recrutamento
 
 Em um mercado onde startups não conseguem pagar salários de grandes tech companies, employer branding é a alavanca que nivela o campo.
 
@@ -4359,11 +4359,11 @@ Táticas de alto impacto com custo baixo:
 
 ---
 
-### 4.8 — Quando Rebranding Faz Sentido (e Quando É Fuga de Problema Real)
+### 4.8: Quando Rebranding Faz Sentido (e Quando É Fuga de Problema Real)
 
 Rebranding é caro, consome atenção da liderança, e confunde clientes e mercado durante a transição. Só justifica quando há razão estratégica real.
 
-#### 4.8.1 — Cinco Sinais de que Rebranding é Necessário
+#### 4.8.1: Cinco Sinais de que Rebranding é Necessário
 
 **Sinal 1: Mudança de mercado-alvo estrutural.** A empresa foi criada para servir consumidor final e pivotou para B2B corporativo. A marca construída para um segmento não fala com o outro.
 
@@ -4375,7 +4375,7 @@ Rebranding é caro, consome atenção da liderança, e confunde clientes e merca
 
 **Sinal 5: A marca foi criada para um estágio que ficou para trás.** Nome de startup "disruptora" que agora precisa ser percebida como empresa confiável e madura para contratos enterprise.
 
-#### 4.8.2 — Três Alertas de que Rebranding é Fuga
+#### 4.8.2: Três Alertas de que Rebranding é Fuga
 
 **Alerta 1: A empresa está perdendo mercado e o diagnóstico não é de marca.** Se o problema é produto, pricing, ou execução de vendas, rebranding não resolve. É distração.
 
@@ -4385,11 +4385,11 @@ Rebranding é caro, consome atenção da liderança, e confunde clientes e merca
 
 ---
 
-### 4.9 — Medição de Marca
+### 4.9: Medição de Marca
 
 Marca que não é medida não é gerenciada.
 
-#### 4.9.1 — Reconhecimento Espontâneo vs. Assistido
+#### 4.9.1: Reconhecimento Espontâneo vs. Assistido
 
 Reconhecimento espontâneo: "Quando você pensa em [categoria], quais marcas vêm à mente?" Mede top-of-mind. As primeiras marcas mencionadas têm vantagem de consideração.
 
@@ -4397,7 +4397,7 @@ Reconhecimento assistido: "Você conhece a marca X?" Mede familiaridade. Útil p
 
 Antes de contratar pesquisas caras de lembrança espontânea, acompanhe mensalmente o kit mínimo gratuito de força de marca: evolução das buscas pelo nome da sua empresa no Google Search Console e Google Trends, volume de tráfego direto, respostas ao campo aberto "Como você nos conheceu?" no formulário de entrada e menções espontâneas nas reuniões de vendas. Tracking de crescimento de top-of-mind é indicador de eficiência de marketing.
 
-#### 4.9.2 — NPS de Marca vs. NPS de Produto
+#### 4.9.2: NPS de Marca vs. NPS de Produto
 
 NPS de produto: "Com base na sua experiência com o produto X, o quanto você recomendaria para um colega?" Mede satisfação funcional.
 
@@ -4405,7 +4405,7 @@ NPS de marca: "Com base no que você sabe ou ouviu sobre a empresa X, o quanto v
 
 A diferença entre os dois scores revela: se NPS de produto é muito maior que NPS de marca, a empresa tem produto melhor do que sua reputação: oportunidade de amplificar cases. Se NPS de marca é muito maior que NPS de produto, a empresa tem reputação que o produto não sustenta: risco de churn e decepção.
 
-#### 4.9.3 — Brand Preference vs. Brand Loyalty
+#### 4.9.3: Brand Preference vs. Brand Loyalty
 
 Brand preference: dado acesso a múltiplas opções, o cliente escolheria sua marca. Mede posicionamento competitivo.
 
@@ -4415,7 +4415,7 @@ Alta preference com baixa loyalty indica que a vantagem é racional (feature, pr
 
 ---
 
-### 4.10 — Orçamento de Branding por Estágio
+### 4.10: Orçamento de Branding por Estágio
 
 ```text
 ESTÁGIO         ORÇAMENTO SUGERIDO    ONDE ALOCAR
@@ -4766,7 +4766,7 @@ Este capítulo está organizado em quatro partes. A Parte 1 cobre a motion B2B c
 
 ---
 
-### Parte 1 — MOTION B2B: DO OUTBOUND AO RENEWAL
+### Parte 1: MOTION B2B: DO OUTBOUND AO RENEWAL
 
 #### Por que esse é o ponto de partida
 
@@ -4872,7 +4872,7 @@ CRM como caixa postal de cada vendedor. Sem disciplina de atualização, você n
 
 ---
 
-### Parte 2 — ENTERPRISE E VENDA PARA GOVERNO
+### Parte 2: ENTERPRISE E VENDA PARA GOVERNO
 
 #### Por que enterprise é outro jogo
 
@@ -4904,7 +4904,7 @@ Pregão eletrônico. Padrão para aquisição de bens, e serviços, comuns. Meno
 
 Concorrência. Modalidade para obras, serviços especializados, ou contratações de alta complexidade. O critério pode ser menor preço, melhor técnica, ou técnica-e-preço.
 
-Diálogo competitivo. Novidade da 14.133. Nos termos do art. 32 da Lei 14.133/2021, a administração publica primeiro um edital de pré-seleção, conduz rodadas formais de diálogo com os licitantes qualificados para identificar a solução técnica adequada e, encerrado o diálogo, publica o edital da fase competitiva. Útil em temas inovadores.
+Diálogo competitivo. Novidade da 14.133. Nos termos do art. 32 da Lei 14.133/2021, a administração pública primeiro um edital de pré-seleção, conduz rodadas formais de diálogo com os licitantes qualificados para identificar a solução técnica adequada e, encerrado o diálogo, pública o edital da fase competitiva. Útil em temas inovadores.
 
 Contratação direta por inexigibilidade, ou dispensa. Situações específicas. Fornecedor único. Emergência. Valor abaixo de teto. Estreito, mas aplicável em compras de startup inovadora em alguns casos. Já para testar soluções inovadoras, o Marco Legal das Startups (LC 182/2021, arts. 12 a 15) criou uma modalidade especial de licitação (distinta da contratação direta) que resulta no Contrato Público para Solução Inovadora (CPSI): tem vigência de até 12 meses (prorrogável por mais 12), teto legal de R$ 1,6 milhão por contrato (atualizável) e permite firmar contrato posterior de fornecimento sem nova licitação por até 24 meses (prorrogáveis por mais 24) com teto de até cinco vezes o valor do CPSI (ver Capítulo 1 do Vol. 8).
 
@@ -4929,13 +4929,13 @@ Security & compliance repository. SOC 2, ISO 27001, LGPD statement, DPA template
 
 #### Comp plan em enterprise
 
-Enterprise sales comp costuma ter quatro características. OTE maior. R$ 300 mil a R$ 800 mil ou mais por ano em AE enterprise no Brasil. Split base e variable mais equilibrado. Cinquenta cinquenta é comum. Quota anual, não trimestral. Os ciclos são longos. Medir trimestralmente penaliza o vendedor trabalhando em deal de doze meses. MBO (Management By Objectives) como complemento. Parte do variável atada a objetivos qualitativos (manter top dez contas ativas, desenvolver relacionamento em X conta estratégica).
+Enterprise sales comp costuma ter quatro características. OTE maior. R$ 300 mil a R$ 800 mil ou mais por ano em AE enterprise no Brasil. Split base e variable mais equilibrado. Divisão 50/50 é comum. Quota anual, não trimestral. Os ciclos são longos. Medir trimestralmente penaliza o vendedor trabalhando em deal de doze meses. MBO (Management By Objectives) como complemento. Parte do variável atada a objetivos qualitativos (manter top dez contas ativas, desenvolver relacionamento em X conta estratégica).
 
 Para o playbook enterprise como disciplina autônoma, ver [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 2 — VENDAS COMPLEXAS ENTERPRISE: CICLO LONGO, ALTO VALOR, MÚLTIPLOS DECISORES|Capítulo 2 (Vendas Complexas Enterprise: Ciclo Longo, Alto Valor, Múltiplos Decisores) (Vol. 6)]].
 
 ---
 
-### Parte 3 — SMB, INSIDE SALES, SELF-SERVE E PRODUCT-LED GROWTH
+### Parte 3: SMB, INSIDE SALES, SELF-SERVE E PRODUCT-LED GROWTH
 
 #### O polo oposto do enterprise
 
@@ -5023,7 +5023,7 @@ Descolamento PLG e vendas. Quando o cliente PLG cresce, e precisa de enterprise 
 
 ---
 
-### Parte 4 — REVENUE OPERATIONS (REVOPS)
+### Parte 4: REVENUE OPERATIONS (REVOPS)
 
 > [!note] Escopo desta parte
 > Esta parte oferece visão panorâmica de RevOps como componente da motion comercial completa. Para profundidade operacional (stack tecnológica, pipeline stages detalhados, lead scoring, SLAs), ver [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 3 — REVENUE OPERATIONS: INFRAESTRUTURA, DADOS E PROCESSO PARA CRESCER COM PREVISIBILIDADE|Capítulo 3 (Revenue Operations: Infraestrutura, Dados e Processo para Crescer com Previsibilidade) (Vol. 6)]].
@@ -5182,7 +5182,7 @@ Amostra mínima: pelo menos 50 respondentes qualificados por segmento de ICP ana
 > [!important] A heurística prática do valor 10x superior ao preço
 > Preço onde o cliente percebe valor igual, ou maior, a dez vezes o preço, cria tração orgânica. A relação típica em SaaS B2B maduro. Valor percebido três a oito vezes preço. Produto excepcional, dez vezes ou mais.
 
-#### 1.1 Value-based pricing na prática — como conduzir pesquisa de WTP no Brasil
+#### 1.1 Value-based pricing na prática: como conduzir pesquisa de WTP no Brasil
 
 O Brasil apresenta especificidades que tornam a pesquisa de willingness to pay mais complexa do que em mercados desenvolvidos. Respostas a preços são influenciadas pelo poder de compra regional, pela cultura de barganha, e pela desconfiança histórica com contratos longos.
 
@@ -5264,7 +5264,7 @@ Features que tipicamente são "enterprise-only". SSO (Single Sign-On) via SAML, 
 
 Se as enterprise-only features são o que diferencia o produto, o que está nos tiers menores precisa ser genuinamente útil. Senão, só o tier alto paga. E o funil trava.
 
-#### 4. Pricing para expansão de receita — como estruturas seat-based e usage-based viabilizam NRR acima de 110%
+#### 4. Pricing para expansão de receita: como estruturas seat-based e usage-based viabilizam NRR acima de 110%
 
 NRR (Net Revenue Retention) acima de 110% é o indicador que separa empresas SaaS medianas de excelentes. Significa que, mesmo sem conquistar um único cliente novo, a receita cresce dez por cento ao ano, organicamente, dentro da base existente. Pricing é o principal mecanismo para isso.
 
@@ -5371,7 +5371,7 @@ A empresa não precisa cobrar o mínimo. Mas precisa entender que cobrar preço 
 
 #### 6. Reajustes anuais, a política que ninguém segue, e todo mundo precisa
 
-Regra mínima para SaaS brasileiro. Reajuste anual igual a IPCA mais um a três pontos percentuais. Cobre inflação, mais captura de valor agregado pelo produto.
+**Cláusula contratual de reajuste anual:** no Brasil, a correção monetária automática exige previsão expressa em contrato com índice oficial (IPCA ou IGP-M) e periodicidade mínima de doze meses (Lei 10.192/2001). Ganho real acima da inflação (1 a 3 pontos percentuais adicionais ou mudança de faixa) negocia-se na janela de renovação com aviso prévio de 60 a 90 dias (ver Capítulo 5 do Vol. 8).
 
 Estrutura de comunicação. Comunicar com sessenta a noventa dias de antecedência. Explicar racional (novas features, melhorias, inflação). Oferecer lock-in de um a dois anos, com preço atual, a quem aceitar. Grandfathering. Manter clientes muito antigos no preço antigo, por período limitado (seis a dezoito meses), depois migrar.
 
@@ -5394,11 +5394,11 @@ Quando faz sentido: em produtos self-serve com volume suficiente para cálculo a
 
 Quando NÃO faz sentido. Enterprise sales (amostra pequena, confounders demais). Mudança estrutural (tier novo, modelo novo). Use research first.
 
-Como. Segmentar tráfego cinquenta cinquenta, por hash de visitor ID. Medir. Conversão, ticket médio, churn de noventa dias, e LTV estimado. Mínimo de quatro a oito semanas, para dado robusto. Ferramentas. Stripe, Chargebee, ferramentas nativas de payment.
+Como. Segmentar tráfego 50/50, por hash de visitor ID. Medir. Conversão, ticket médio, churn de noventa dias, e LTV estimado. Mínimo de quatro a oito semanas, para dado robusto. Ferramentas. Stripe, Chargebee, ferramentas nativas de payment.
 
 Ética, e legal. Evitar cobrar preços diferentes para perfis diferentes, sem justificativa (pode violar CDC). Teste A/B por timing, ou cohort, é aceito.
 
-#### 9. Pricing para diferentes tipos de compradores — como manter integridade de preço entre segmentos
+#### 9. Pricing para diferentes tipos de compradores: como manter integridade de preço entre segmentos
 
 Uma das armadilhas mais comuns em startups brasileiras que crescem para mid-market e enterprise: o mesmo produto começa a ser vendido a preços radicalmente diferentes para compradores distintos, sem estrutura que justifique a diferença. O resultado é erosão de preço, resentimento entre contas, e dificuldade em contratar Sales com clareza.
 
@@ -5632,12 +5632,12 @@ Quinze minutos depois, o contrato entrou para assinatura pelo valor integral de 
 
 ---
 
-> [!abstract] Posicao no livro
+> [!abstract] Posição no livro
 > Posição no livro: a negociação é uma disciplina transversal do fundador, aplicável em *term sheets*, contratos comerciais, parcerias e conflitos societários. Capítulos vizinhos com aplicação direta:
-> - [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 5 — ARQUITETURA CONTRATUAL PARA STARTUPS: OPERAÇÃO E CONTRATOS EM PROFUNDIDADE POR TIPO|Capítulo 5 (Arquitetura Contratual para Startups: Operação e Contratos em Profundidade por Tipo) (Vol. 8)]] e Capítulo 5 (Arquitetura Contratual para Startups: Operação e Contratos em Profundidade por Tipo) (Vol. 8), negociacao de clausulas e contratos
-> - [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 1 — BOARD E GOVERNANCE|Capítulo 1 (Board e Governance) (Vol. 9)]], negociacao no board e com investidores
-> - [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 3 — DISPUTA SOCIETÁRIA E SAÍDA DE SÓCIO|Capítulo 3 (Disputa Societária e Saída de Sócio) (Vol. 9)]], negociacao em conflito societario
-> - [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 4 — BUSINESS DEVELOPMENT E PARCERIAS COM GRANDES CORPORAÇÕES BRASILEIRAS|Capítulo 4 (Business Development e Parcerias com Grandes Corporações Brasileiras) (Vol. 6)]], negociacao de deal corporativo de longo ciclo
+> - [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 5 — ARQUITETURA CONTRATUAL PARA STARTUPS: OPERAÇÃO E CONTRATOS EM PROFUNDIDADE POR TIPO|Capítulo 5 (Arquitetura Contratual para Startups: Operação e Contratos em Profundidade por Tipo) (Vol. 8)]] e Capítulo 5 (Arquitetura Contratual para Startups: Operação e Contratos em Profundidade por Tipo) (Vol. 8), negociação de cláusulas e contratos
+> - [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 1 — BOARD E GOVERNANCE|Capítulo 1 (Board e Governance) (Vol. 9)]], negociação no board e com investidores
+> - [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 3 — DISPUTA SOCIETÁRIA E SAÍDA DE SÓCIO|Capítulo 3 (Disputa Societária e Saída de Sócio) (Vol. 9)]], negociação em conflito societário
+> - [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 4 — BUSINESS DEVELOPMENT E PARCERIAS COM GRANDES CORPORAÇÕES BRASILEIRAS|Capítulo 4 (Business Development e Parcerias com Grandes Corporações Brasileiras) (Vol. 6)]], negociação de deal corporativo de longo ciclo
 
 > [!note] Nota
 > Este capítulo integra conceitos de negociação do Harvard Negotiation Project (Fisher, Ury e Patton: projeto de pesquisa de Harvard sobre negociação por interesses), as técnicas táticas de Chris Voss (*Never Split the Difference*), os estudos clássicos de Adam Galinsky e Thomas Mussweiler sobre ancoragem na primeira oferta e a adaptação prática ao ambiente de negócios brasileiro.
@@ -5645,7 +5645,7 @@ Quinze minutos depois, o contrato entrou para assinatura pelo valor integral de 
 Para o fundador, negociar faz parte da rotina de toda semana. Salário de contratação, *term sheet* de investimento, preço com cliente, divisão de responsabilidades com cofundador, parceria estratégica, contrato B2B e *valuation* em M&A. Toda semana há uma negociação relevante acontecendo. A questão não é se você vai negociar, é se vai negociar bem.
 
 > [!important] Negociação é habilidade treinável
-> A crença de que bons negociadores nascem prontos é empiricamente falsa. Estudos de calibração mostram que exposição deliberada a negociações com feedback melhora resultados de forma sistemática. O fundador que pratica melhora. O que evita, piora.
+> A crença de que bons negociadores nascem prontos é empiricamente falsa. Estudos de calibração mostram que exposição deliberada a negociações com feedback melhora resultados de forma sistemática. O fundador que prática melhora. O que evita, piora.
 
 ### Por que dez minutos de fraqueza emocional na mesa de negociação destroem a margem de doze meses de engenharia
 
@@ -5675,7 +5675,7 @@ Quando usar: qualquer negociação com relação futura, parceria estratégica, 
 > [!warning] Quando tudo vira distributivo
 > Negociação com cofundador em conflito tende a colapsar para distributivo por conta da carga emocional. O mesmo acontece com renegociação de salário quando há ressentimento acumulado. Reconhecer o colapso e nomear explicitamente é a primeira intervenção.
 
-#### 2. BATNA — Best Alternative to a Negotiated Agreement
+#### 2. BATNA: Best Alternative to a Negotiated Agreement
 
 BATNA é o que você faz se a negociação não fechar. Não é o mínimo que aceita. É a melhor alternativa concreta disponível caso não haja acordo.
 
@@ -5793,7 +5793,7 @@ Ver [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 9 — CAPTAÇÃO DE EQUITY: PL
 
 Quatro dimensões: salário base, bônus, equity, e aceleração em mudança de controle.
 
-O erro mais comum: ceder em equity para economizar em caixa sem considerar o precedente. O segundo executivo vai pedir o mesmo ou mais do que o primeiro. O pacote societário concedido ao primeiro executivo C-level acaba virando o piso que os próximos contratados vão exigir.
+O erro mais comum: ceder em equity para economizar em caixa sem considerar o precedente. O segundo executivo vai pedir o mesmo ou mais do que o primeiro. O pacote societário concedido na estreia do C-level acaba virando o piso que os próximos diretores contratados vão exigir.
 
 Aceleração em mudança de controle (single-trigger versus double-trigger): single-trigger vesta todo o equity na mudança de controle independente de demissão: caro para fundador, barato para o executivo negociar. Double-trigger vesta na mudança de controle apenas se seguida de demissão: razoável e padrão de mercado.
 
@@ -5931,7 +5931,7 @@ Roger Fisher e William Ury, fundadores do Harvard Negotiation Project, publicara
 
 Método de **negociação por princípios** (*principled negotiation*) que supera tanto a barganha posicional dura quanto a postura concessiva passiva: separa as pessoas do problema, foca nos interesses reais por trás das posições e busca ganhos mútuos baseados em critérios objetivos. Foca em **interesses**, não **posições**, busca **mutual gain** em vez de "win-lose".
 
-##### Princípios / estrutura — 4 princípios
+##### Princípios / estrutura: 4 princípios
 
 1. Separe as pessoas do problema: emoções e relacionamento não devem distorcer análise.
 2. Foque em interesses, não posições: posição é "quero X", interesse é "por que quero X". Interesses frequentemente são compatíveis mesmo quando posições parecem opostas.
@@ -6002,7 +6002,7 @@ Chris Voss, ex-negociador chefe do FBI em sequestros internacionais (24 anos de 
 
 Metodologia que rejeita "win-win" como ingênuo e aplica **técnicas táticas emocionais** testadas em situações de crise real. Foca em **tactical empathy**, **mirror**, **labels**, **calibrated questions**, e **black swans** (informações desconhecidas que mudam tudo).
 
-##### Princípios / estrutura — Técnicas-chave
+##### Princípios / estrutura: Técnicas-chave
 
 1. Tactical empathy: demonstrar que você entende o estado emocional do outro. Não concordar, só entender.
 
@@ -6589,7 +6589,7 @@ Time de dados em escala é multi-função: analytics engineer, data scientist, P
 
 ### Definindo a North Star, o dicionário de 10 eventos vitais, a leitura de coorte e o stack de dados
 
-Antes de escolher ferramentas, aplique o método do North Star Playbook (detalhado na Fase 13): defina **uma única North Star Metric** que reflita valor entregue ao cliente (no caso de Marina e Lucas, *boletos auditados e conciliados sem erro por semana*) e **3 a 4 métricas de entrada acionáveis (*inputs*)** (como % de clientes que conectaram o ERP em 24h e % que abriram o alerta semanal no WhatsApp). Em seguida, documente um **dicionário enxuto com os 10 eventos essenciais** da jornada (no padrão `objeto_acao`, como `conta_criada`, `arquivo_cnab_enviado`, `divergencia_detectada`, `alerta_whatsapp_clicado` e `assinatura_renovada`) e leia a conversão e a retenção sempre agrupadas por **coorte semanal de entrada**, permitindo responder em cinco minutos a perguntas como a de Marina (comparando a retenção em D30 de quem clicou no alerta do WhatsApp nas primeiras 48 horas contra quem não clicou).
+Antes de escolher ferramentas, aplique o método do North Star Playbook (detalhado na Fase 13): defina **uma única North Star Metric** que reflita valor entregue ao cliente (no caso de Marina e Lucas, *boletos auditados e conciliados sem erro por semana*) e **3 a 4 métricas de entrada acionáveis (*inputs*)** (como % de clientes que conectaram o ERP em 24h e % que abriram o alerta semanal no WhatsApp). Em seguida, documente um **dicionário enxuto com os 10 eventos essenciais** da jornada (no padrão `objeto_ação`, como `conta_criada`, `arquivo_cnab_enviado`, `divergencia_detectada`, `alerta_whatsapp_clicado` e `assinatura_renovada`) e leia a conversão e a retenção sempre agrupadas por **coorte semanal de entrada**, permitindo responder em cinco minutos a perguntas como a de Marina (comparando a retenção em D30 de quem clicou no alerta do WhatsApp nas primeiras 48 horas contra quem não clicou).
 
 #### 1. Modern Data Stack
 
@@ -6608,7 +6608,7 @@ Os princípios em cinco peças.
 
 ELT, não ETL. Ingestão bruta (Extract, Load), transformação no warehouse (dbt). Mais escalável, e reprocessável.
 
-dbt como camada de transformação. Código versionado, testado, e documentado. Substitui stored procedures frágeis.
+**dbt como camada de transformação:** Código versionado, testado, e documentado. Substitui stored procedures frágeis.
 
 Warehouse dedicado. Não consultar direto na DB de produção (lock, lentidão, risco).
 
@@ -6715,7 +6715,7 @@ Em empresa Série A a B, centralized é mais pragmático. Hub-and-spoke vira sen
 
 Temas que aparecem em escala (Série B em diante). Data catalog, documentação de tabelas, colunas, e significados. Data lineage, rastreabilidade de onde vem cada número. Data quality, testes automatizados (dbt tests), e alertas para anomalias. Privacidade e LGPD: controle de acesso por função, anonimização ou pseudonimização de dados analíticos e fluxo técnico para atender pedidos de eliminação ou bloqueio de dados pessoais pelo titular (art. 18 da LGPD; lembrando que o STF, no Tema 786 em 2021, afastou um "direito ao esquecimento" genérico no Brasil). SLA de dados, quando dashboards atualizam, e quem responde por atraso.
 
-#### 7. Data Mesh — arquitetura distribuída para escala
+#### 7. Data Mesh: arquitetura distribuída para escala
 
 Nota para a escala futura (pós-Série B/C, aprofundada no Vol. 7): apenas quando a empresa ultrapassa 200 a 500 pessoas o time centralizado de dados costuma virar gargalo, abrindo espaço para arquiteturas descentralizadas como o *Data Mesh* (proposto por Zhamak Dehghani em 2019); até lá, na fase de tração e PMF, mantenha um único repositório central enxuto. Um time central de dados não consegue atender a demanda de 15 squads de produto, 3 times de growth e finance simultaneamente, a qualidade degrada, e o time de dados vira "equipe de relatórios" sem tempo para trabalho de alto valor.
 
@@ -6990,7 +6990,7 @@ Técnicas, em ordem de eficácia mais custo.
 
 Grounding em RAG. Forçar o modelo a responder baseado em contexto recuperado, não em conhecimento paramétrico. Prompt: "Responda apenas com base no contexto abaixo. Se a resposta não está no contexto, diga 'não sei'."
 
-Saída estruturada (*structured output* via JSON Schema): garante que a resposta respeite o formato exigido pelo código, mas não impede alucinação factual; permita sempre campos `null` ou `"nao_encontrado"` no schema para que o modelo não invente dados apenas para preencher um campo obrigatório.
+Saída estruturada (*structured output* via JSON Schema): garante que a resposta respeite o formato exigido pelo código, mas não impede alucinação factual; permita sempre campos `null` ou `"não_encontrado"` no schema para que o modelo não invente dados apenas para preencher um campo obrigatório.
 
 Citação obrigatória. Exigir que a resposta cite a passagem específica do contexto. Auditável.
 

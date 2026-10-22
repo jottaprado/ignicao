@@ -553,32 +553,32 @@ Pelo Anexo Normativo IV da Resolução CVM 175/2022, os Fundos de Investimento e
 
 O FIP é um fundo fechado de investimento regulado pela CVM, hoje regido pela Resolução CVM 175/2022 (que substituiu a Instrução CVM 578/2016). Ele adquire participação societária ou títulos conversíveis em empresas brasileiras, geralmente ações preferenciais com direitos políticos negociados em acordo de acionistas, e é o veículo majoritário pelo qual investidores institucionais brasileiros (fundos de pensão, *family offices* e gestoras locais) alocam capital em Venture Capital e Private Equity no país.
 
-Para o fundador, importa entender que quando uma gestora brasileira propoe entrar no cap table, o cheque quase sempre vem de um FIP, nao da pessoa juridica da gestora. Isso condiciona governanca, liquidez e estrutura da rodada.
+Para o fundador, importa entender que quando uma gestora brasileira propõe entrar no cap table, o cheque quase sempre vem de um FIP, não da pessoa jurídica da gestora. Isso condiciona governança, liquidez e estrutura da rodada.
 
-#### Tres tipos relevantes
+#### Três tipos relevantes
 
-**FIP-EE (Empresas Emergentes)**. Voltado para empresas com receita bruta anual ate o limite definido pela regulamentacao (atualizado periodicamente, na faixa de centenas de milhoes de reais). E o veiculo natural para investimento em startups em estagio early e growth.
+**FIP-EE (Empresas Emergentes)**. Voltado para empresas com receita bruta anual até o limite definido pela regulamentação (atualizado periodicamente, na faixa de centenas de milhões de reais). É o veículo natural para investimento em startups em estágio early e growth.
 
-**FIP-IE (Infraestrutura)**. Para empresas com projetos em setores de infraestrutura (energia, saneamento, logistica, telecom). Tem incentivo fiscal especifico, alem do beneficio padrao de FIP.
+**FIP-IE (Infraestrutura)**. Para empresas com projetos em setores de infraestrutura (energia, saneamento, logística, telecom). Tem incentivo fiscal específico, além do benefício padrão de FIP.
 
-**FIP-Multiestrategia (sob Anexo IV da Res. CVM 175/2022)**. Versao mais ampla, sem restricao de tamanho da investida. Usado por gestoras de private equity tradicional. Alguns fundos de growth tardio em tech tambem operam via Multiestrategia.
+**FIP-Multiestratégia (sob Anexo IV da Res. CVM 175/2022)**. Versão mais ampla, sem restrição de tamanho da investida. Usado por gestoras de private equity tradicional. Alguns fundos de growth tardio em tech também operam via Multiestratégia.
 
-#### Implicacoes praticas
+#### Implicacoes práticas
 
-**Laudo de avaliacao**. FIP exige laudo de avaliacao independente para entrada (precificacao do aporte) e para saida (precificacao da venda). Isso afeta o calendario da rodada brasileira. O fundador deve antecipar prazo adicional de tres a seis semanas para o laudo de entrada, e contratar avaliador qualificado. Para detalhes do processo de valuation, ver [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 10 — VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR|Capítulo 10 (Valuation Methods: Como Investidores Calculam e como Você Calcula para Negociar) (Vol. 5)]].
+**Laudo de avaliação**. FIP exige laudo de avaliação independente para entrada (precificação do aporte) e para saída (precificação da venda). Isso afeta o calendário da rodada brasileira. O fundador deve antecipar prazo adicional de três a seis semanas para o laudo de entrada, e contratar avaliador qualificado. Para detalhes do processo de valuation, ver [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 10 — VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR|Capítulo 10 (Valuation Methods: Como Investidores Calculam e como Você Calcula para Negociar) (Vol. 5)]].
 
 **Governança e comitê de investimento**. Muitos FIPs preveem em seu regulamento um comitê de investimento que aprova cada aporte e cada desinvestimento, além das regras de governança e de avaliação do valor justo dos ativos previstas no Anexo Normativo IV da Resolução CVM 175/2022. Na prática, o fundador sente isso em duas frentes: as decisões da gestora podem exigir aprovação formal do comitê, e as cláusulas de matérias sujeitas a veto (*protective provisions*) no acordo de acionistas tendem a ser detalhadas para refletir o dever fiduciário do gestor perante os cotistas.
 
 **Tributação para a pessoa física investidora**. Desde a Lei 14.754/2023, o FIP enquadrado como entidade de investimento (com gestão profissional discricionária) mantém a alíquota de 15% de IR sobre os rendimentos na distribuição ou no resgate/alienação das cotas (sem come-cotas semestral, ao contrário dos fundos patrimoniais que não cumpram os requisitos de entidade de investimento). Já o FIP-IE (Infraestrutura) e o FIP-PD&I, sob a Lei 11.478/2007, oferecem isenção de IR sobre ganhos para a pessoa física residente, razão pela qual o gestor preserva rigorosamente o enquadramento regulatório do fundo.
 
-#### Diferenca pratica em relacao a fundo offshore
+#### Diferença prática em relação a fundo offshore
 
-Fundo offshore tipico (Cayman master-feeder, LLC americana investindo direto em Cayman holding da startup brasileira) opera com governanca mais flexivel. Sem comite obrigatorio. Sem laudo de entrada (acorda valuation por negociacao direta). Sem regra de diversificacao impondo limite por investida. O term sheet brasileiro de FIP costuma ser mais longo. As negociacoes mais lentas. E a capacidade do gestor de aceitar termos atipicos (por exemplo, side letter exclusiva ou estrutura de earnout no aporte) e mais limitada.
+Fundo offshore típico (Cayman master-feeder, LLC americana investindo direto em Cayman holding da startup brasileira) opera com governança mais flexivel. Sem comitê obrigatório. Sem laudo de entrada (acorda valuation por negociação direta). Sem regra de diversificação impondo limite por investida. O term sheet brasileiro de FIP costuma ser mais longo. As negociações mais lentas. E a capacidade do gestor de aceitar termos atípicos (por exemplo, side letter exclusiva ou estrutura de earnout no aporte) é mais limitada.
 
-Cross-ref. Para term sheet detalhado, ver [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 9 — CAPTAÇÃO DE EQUITY: PLANEJAMENTO DE RODADA, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 9 (Captação de Equity: Planejamento de Rodada, Pitch e Relacionamento com Investidores) (Vol. 5)]]. Para metodos de valuation que sustentam o laudo, ver [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 10 — VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR|Capítulo 10 (Valuation Methods: Como Investidores Calculam e como Você Calcula para Negociar) (Vol. 5)]].
+Referência complementar: para term sheet detalhado, ver [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 9 — CAPTAÇÃO DE EQUITY: PLANEJAMENTO DE RODADA, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 9 (Captação de Equity: Planejamento de Rodada, Pitch e Relacionamento com Investidores) (Vol. 5)]]. Para métodos de valuation que sustentam o laudo, ver [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 10 — VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR|Capítulo 10 (Valuation Methods: Como Investidores Calculam e como Você Calcula para Negociar) (Vol. 5)]].
 
-> [!note] FIP profissional brasileiro tem dinamica diferente
-> FIP profissional brasileiro tem dinamica diferente de fundo offshore e merece atencao no planejamento de rodada brasileira.
+> [!note] FIP profissional brasileiro tem dinâmica diferente
+> FIP profissional brasileiro tem dinâmica diferente de fundo offshore e merece atencao no planejamento de rodada brasileira.
 
 ---
 
@@ -642,7 +642,7 @@ Combinado com a Lei 14.133/2021 (Nova Lei de Licitações), abre um caminho estr
 
 O poder público não compra produto pronto. Ele contrata o **desenvolvimento ou teste de solução inovadora**. O processo é:
 
-1. Órgão público publica **chamada pública** com o problema a ser resolvido.
+1. Órgão público pública **chamada pública** com o problema a ser resolvido.
 2. Startups apresentam propostas técnicas e comerciais.
 3. Comissão técnica avalia e seleciona (até três startups, em geral, para teste paralelo).
 4. Após o julgamento pela comissão especial na licitação de modalidade especial (art. 13), o vencedor assina o CPSI (teto de R$ 1,6 milhão por contrato, art. 14, § 2º) e, se o teste atingir as metas, o órgão pode firmar contrato de fornecimento posterior sem nova licitação por até 24 meses, prorrogáveis por mais 24, até cinco vezes o limite do CPSI (art. 15).
@@ -697,10 +697,10 @@ Depois de perder uma licitação tradicional da Lei 8.666 nos primeiros anos por
 ### Leitura adicional
 
 - **LC 182/2021**: texto integral no site do Planalto. Leitura direta obrigatória antes de usar qualquer instrumento.
-- **Regulamentação ARE por regulador**: cada regulador publica edital próprio. Monitorar BCB, CVM, SUSEP, e ANS.
+- **Regulamentação ARE por regulador**: cada regulador pública edital próprio. Monitorar BCB, CVM, SUSEP, e ANS.
 - **JOBS Act (Jumpstart Our Business Startups Act, EUA, 2012)**: legislação norte-americana que flexibilizou ofertas públicas, *crowdfunding* de investimento e abertura de capital (IPO) para empresas emergentes, útil como referência comparativa para a Resolução CVM 88/2022.
 - **Deloitte / PwC / KPMG**: relatórios anuais sobre ecossistema de inovação e regulação no Brasil.
-- **ABStartups**: publica atualizações sobre impacto da lei no ecossistema nacional.
+- **ABStartups**: pública atualizações sobre impacto da lei no ecossistema nacional.
 
 ---
 
@@ -727,7 +727,7 @@ Revise os instrumentos jurídicos da sua última (ou próxima) captação e resp
 
 Rafael acordou às 7h10 de uma quarta-feira em Recife e tentou passar o cartão de débito pessoal na padaria da esquina para comprar pão para os filhos. Transação negada. Tentou fazer um Pix pelo aplicativo do banco da sua conta física: saldo bloqueado judicialmente via SISBAJUD até o limite de R$ 310 mil. Uma ex-coordenadora de logística demitida dois anos antes por uma transportadora terceirizada que prestava serviços quase exclusivos à operação de Rafael havia ganhado uma reclamação trabalhista à revelia da terceirizada falida, incluído a startup desde a petição inicial como responsável subsidiária (Súmula 331, IV, do TST, e Tema 1.232 do STF) e, diante de uma conta bancária da empresa sem saldo no dia da penhora, o juiz do trabalho instaurou o Incidente de Desconsideração da Personalidade Jurídica (IDPJ, art. 855-A da CLT) com tutela cautelar (§ 2º), aplicando a Teoria Menor da desconsideração da personalidade jurídica e bloqueou diretamente as contas pessoais dos dois sócios no contrato social.
 
-Nenhum livro americano do Vale do Silício prepara você para esta verdade dura do ambiente de negócios brasileiro: no Brasil, a sigla "LTDA" no final do nome da sua empresa não é uma muralha de titânio; na Justiça do Trabalho (art. 855-A da CLT) e nas relações de consumo (art. 28, § 5º, do CDC), aplica-se a Teoria Menor da desconsideração, pela qual basta a empresa não ter bens suficientes para que a execução alcance os sócios; já nos contratos civis e empresariais (art. 50 do Código Civil, Teoria Maior), é justamente a governança patrimonial rigorosa que impede a caracterização de desvio de finalidade ou confusão patrimonial, enquanto no fisco (art. 135, III, do CTN) o risco pessoal recai sobre o sócio-administrador que pratica infração à lei ou dissolve irregularmente a sociedade.
+Nenhum livro americano do Vale do Silício prepara você para esta verdade dura do ambiente de negócios brasileiro: no Brasil, a sigla "LTDA" no final do nome da sua empresa não é uma muralha de titânio; na Justiça do Trabalho (art. 855-A da CLT) e nas relações de consumo (art. 28, § 5º, do CDC), aplica-se a Teoria Menor da desconsideração, pela qual basta a empresa não ter bens suficientes para que a execução alcance os sócios; já nos contratos civis e empresariais (art. 50 do Código Civil, Teoria Maior), é justamente a governança patrimonial rigorosa que impede a caracterização de desvio de finalidade ou confusão patrimonial, enquanto no fisco (art. 135, III, do CTN) o risco pessoal recai sobre o sócio-administrador que prática infração à lei ou dissolve irregularmente a sociedade.
 
 Você precisa encarar **A Assimetria da Desconsideração da Personalidade Jurídica no Brasil**: a distância abissal entre a proteção teórica do Artigo 50 do Código Civil (Teoria Maior) e o bloqueio automático de contas pessoais que ocorre nas varas trabalhistas e fiscais quando você mistura CPF e CNPJ.
 
@@ -883,7 +883,7 @@ O dever de lealdade proíbe o administrador de usar, em benefício próprio ou d
 
 **Atos de gestão vs. atos ultra vires**
 
-Atos de gestão são aqueles que o administrador pratica dentro de suas atribuições estatutárias ou contratuais. Por eles, responde a empresa, não o administrador pessoalmente.
+Atos de gestão são aqueles que o administrador prática dentro de suas atribuições estatutárias ou contratuais. Por eles, responde a empresa, não o administrador pessoalmente.
 
 Atos ultra vires são aqueles que excedem os poderes do administrador conforme definidos no contrato social, estatuto ou procuração. Com a revogação do parágrafo único do art. 1.015 do Código Civil pela Lei 14.195/2021, a sociedade em regra vincula-se perante terceiros de boa-fé e tem ação regressiva contra o administrador que extrapolou seus poderes; além disso, os administradores respondem solidariamente perante a sociedade e os terceiros prejudicados por culpa no desempenho de suas funções (art. 1.016 do CC e art. 158 da Lei 6.404/1976).
 
@@ -1248,7 +1248,7 @@ Proteção para **melhoria funcional de objeto** de uso prático (não para proc
 > [!important] O depósito cria a data de prioridade: não espere o exame
 > A proteção conta da data do depósito, não da concessão. Depositar cedo estabelece a prioridade. Mesmo que o exame demore anos, a data do depósito é o marco legal de anterioridade.
 
-#### PCT — Patente Internacional
+#### PCT: Patente Internacional
 
 O Patent Cooperation Treaty permite um único depósito que vale como pedido em até 153 países membros. O depositante tem 30 meses (a partir da data de prioridade nacional) para entrar nas fases nacionais dos países escolhidos.
 
@@ -1264,7 +1264,7 @@ No Brasil, a tutela jurídica do segredo de negócio apoia-se no **crime de conc
 
 #### Quando é melhor do que patentear
 
-A patente revela a invenção ao público (requisito de disclosure). Em troca de proteção temporária (20 anos), a empresa publica o método completo. Após 20 anos, qualquer um pode usar livremente.
+A patente revela a invenção ao público (requisito de disclosure). Em troca de proteção temporária (20 anos), a empresa pública o método completo. Após 20 anos, qualquer um pode usar livremente.
 
 O segredo industrial não tem prazo: dura enquanto o segredo for mantido. E não revela nada ao concorrente. O trade-off:
 
@@ -1641,8 +1641,8 @@ Você precisa dominar **A Engenharia Modular de Contratos por Tipo**: separar os
 
 ---
 
-> [!important] Relacao com o Capítulo 5 (Arquitetura Contratual para Startups: Operação e Contratos em Profundidade por Tipo)
-> Este capítulo e a referencia por TIPO de contrato. Para o panorama operacional (quando chamar advogado, fluxo de aprovacao, governanca contratual no dia a dia), ver primeiro Capítulo 5 (Arquitetura Contratual para Startups: Operação e Contratos em Profundidade por Tipo).
+> [!important] Relação com o Capítulo 5 (Arquitetura Contratual para Startups: Operação e Contratos em Profundidade por Tipo)
+> Este capítulo é a referência por tipo de contrato. Para o panorama operacional (quando chamar advogado, fluxo de aprovação, governança contratual no dia a dia), ver primeiro Capítulo 5 (Arquitetura Contratual para Startups: Operação e Contratos em Profundidade por Tipo).
 
 > [!note] Aviso legal
 > Este capítulo é material educacional. Contratos têm efeitos jurídicos vinculantes e suas consequências dependem do contexto específico de cada negociação. As descrições aqui apresentadas refletem práticas de mercado e legislação brasileira vigente em maio de 2026. Consulte advogado especializado antes de assinar ou redigir contratos relevantes para a operação da empresa.
@@ -1765,7 +1765,7 @@ SoW (Statement of Work) - por projeto/módulo
 └── Responsabilidades de cada parte
 ```
 
-#### O que deve estar no MSA — ponto por ponto
+#### O que deve estar no MSA: ponto por ponto
 
 **Definições.** Criar glossário explícito das expressões usadas no contrato. Ambiguidade em definições é a origem de 80% das disputas contratuais. O que é "entregável"? O que é "defeito"? O que conta como "hora de suporte"?
 
@@ -1924,7 +1924,7 @@ Em NDAs comerciais e técnicos, convém separar duas camadas de prazo: para info
 
 - NDA assinado depois que a informação foi compartilhada.
 - NDA com definição tão vaga que qualquer coisa é confidencial e nada é confidencial.
-- NDA que não especifica consequências do descumprimento (ausência de multa contratual dificulta a quantificação de danos).
+- NDA que não específica consequências do descumprimento (ausência de multa contratual dificulta a quantificação de danos).
 - NDA assinado por quem não tem poderes de representação da empresa (colaborador sem poderes de assinatura).
 - NDA que exige marca "CONFIDENCIAL" por escrito, mas as partes nunca marcam nada.
 
@@ -2084,7 +2084,7 @@ A Política (ou Aviso) de Privacidade é um instrumento unilateral de transparê
 - Como exercer os direitos (canal de contato).
 - Contato do encarregado de dados (DPO/Encarregado).
 
-#### Atualizações — como fazer de forma legalmente válida
+#### Atualizações: como fazer de forma legalmente válida
 
 Atualizar os termos sem notificar usuários e esperar que aceitem passivamente é juridicamente frágil. Prática robusta:
 
@@ -2120,7 +2120,7 @@ Fornecedores tentam incluir exclusividade (a startup não pode contratar concorr
 
 Recusar ou limitar exclusividade a segmentos muito específicos é o padrão de boas práticas.
 
-#### Renovação automática — como rastrear
+#### Renovação automática: como rastrear
 
 Contratos com renovação automática (auto-renewal) são a principal fonte de gastos indesejados em startups. O padrão: contrato de 1 ano renova automaticamente por igual período se não houver notificação 30–90 dias antes do vencimento.
 
@@ -2157,17 +2157,17 @@ Due diligence reversa (DD reversa) é o exercício de antecipar, do lado do fund
 
 A auditoria jurídica (*due diligence*) padrão em Série A, Série B e M&A cobre sete blocos: estrutura societária e acordo de sócios, plano de opções (ESOP) e atas de reunião do conselho, certidões fiscais e trabalhistas, litígios em curso, titularidade de código e propriedade intelectual, contratos comerciais com cessão de direitos e conformidade com LGPD.
 
-1. Estrutura societaria. Contrato social ou estatuto atualizado, cap table fully diluted (incluindo opcoes outorgadas e nao outorgadas, vesting em curso, SAFEs e notas conversiveis), acordo de socios vigente, atas de reuniao de socios e de board dos ultimos vinte e quatro meses.
+1. Estrutura societária. Contrato social ou estatuto atualizado, cap table fully diluted (incluindo opções outorgadas e não outorgadas, vesting em curso, SAFEs e notas conversíveis), acordo de sócios vigente, atas de reunião de sócios e de board dos últimos vinte e quatro meses.
 2. Contratos materiais. Top dez contratos com clientes por receita, contratos com fornecedores criticos (cloud, gateway de pagamento, integradores), MSAs e SOWs ativos, contratos de licenciamento de tecnologia recebida ou cedida.
-3. Compliance trabalhista. Registros de CLT por colaborador, contratos de PJ com analise de risco de pejotizacao (ver [[#CAPÍTULO 6 — DIREITO DO TRABALHO PARA STARTUPS|Capítulo 6 (Direito do Trabalho para Startups)]]), processos trabalhistas em curso com classificacao de risco (provavel, possivel, remoto), acordos coletivos aplicaveis.
-4. Compliance fiscal. Certidoes negativas federal, estadual e municipal, parcelamentos ativos (Refis, Pert, Litigio Zero), autuacoes em curso e historico de tres exercicios. Esse bloco sai em quinze a trinta dias se nao foi mantido.
-5. Compliance LGPD e dados. ROPA (Registro das Atividades de Tratamento, art. 37 da LGPD, em paralelo ao Records of Processing Activities do GDPR art. 30), DPO designado e publicado, log de incidentes de seguranca dos ultimos vinte e quatro meses, contratos com operadores incluindo DPA. Ver [[#CAPÍTULO 9 — LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Capítulo 9 (LGPD, Compliance e Governança de Dados)]].
-6. Propriedade intelectual. Registros INPI de marca depositados ou concedidos, registro de software (opcional mas defensavel), patentes em curso, dominios renovados em nome da pessoa juridica, contratos de cessao de PI assinados por todo colaborador e prestador que tocou codigo. Ver [[#CAPÍTULO 3 — PROPRIEDADE INTELECTUAL E INPI|Capítulo 3 (Propriedade Intelectual e INPI)]].
-7. Litigios. Mapeamento de processos ativos (judiciais e administrativos) com numero, vara, valor, fase processual e probabilidade de perda calculada por advogado externo. Esse calculo vira a provisao contabil que aparece no balanco que o investidor le.
+3. Compliance trabalhista. Registros de CLT por colaborador, contratos de PJ com analise de risco de pejotizacao (ver [[#CAPÍTULO 6 — DIREITO DO TRABALHO PARA STARTUPS|Capítulo 6 (Direito do Trabalho para Startups)]]), processos trabalhistas em curso com classificacao de risco (provável, possivel, remoto), acordos coletivos aplicaveis.
+4. Compliance fiscal. Certidões negativas federal, estadual e municipal, parcelamentos ativos (Refis, Pert, Litígio Zero), autuações em curso e histórico de três exercícios. Esse bloco sai em quinze a trinta dias se não foi mantido.
+5. Compliance LGPD e dados. ROPA (Registro das Atividades de Tratamento, art. 37 da LGPD, em paralelo ao Records of Processing Activities do GDPR art. 30), DPO designado e publicado, log de incidentes de segurança dos últimos vinte e quatro meses, contratos com operadores incluindo DPA. Ver [[#CAPÍTULO 9 — LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Capítulo 9 (LGPD, Compliance e Governança de Dados)]].
+6. Propriedade intelectual. Registros INPI de marca depositados ou concedidos, registro de software (opcional mas defensável), patentes em curso, domínios renovados em nome da pessoa jurídica, contratos de cessão de PI assinados por todo colaborador e prestador que tocou código. Ver [[#CAPÍTULO 3 — PROPRIEDADE INTELECTUAL E INPI|Capítulo 3 (Propriedade Intelectual e INPI)]].
+7. Litigios. Mapeamento de processos ativos (judiciais e administrativos) com número, vara, valor, fase processual e probabilidade de perda calculada por advogado externo. Esse cálculo vira a provisao contabil que aparece no balanco que o investidor le.
 
 Sinal de pre-operacional bem-feito. Data room legal pronto antes de sair captar, organizado em pastas correspondentes aos sete blocos, com indice e versionamento. O investidor entra, baixa o pacote, e em quarenta e oito horas devolve a primeira lista de pendencias. Sem data room, a primeira lista chega em duas semanas e cada item adiciona dias de atraso.
 
-A DD reversa tambem ajuda contratos com clientes enterprise (que pedem o mesmo pacote em vendor onboarding) e M&A (que pede o pacote ampliado). Ver Capítulo 5 (Arquitetura Contratual para Startups: Operação e Contratos em Profundidade por Tipo) para clausulas-padrao por tipo de contrato, [[#CAPÍTULO 11 — COMPLIANCE E ANTICORRUPÇÃO PARA STARTUPS|Capítulo 11 (Compliance e Anticorrupção para Startups)]] para programa de integridade, [[#CAPÍTULO 2 — RESPONSABILIDADE DO SÓCIO E DO ADMINISTRADOR|Capítulo 2 (Responsabilidade do Sócio e do Administrador)]] para limites pessoais e [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 9 — CAPTAÇÃO DE EQUITY: PLANEJAMENTO DE RODADA, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 9 (Captação de Equity: Planejamento de Rodada, Pitch e Relacionamento com Investidores) (Vol. 5)]] para fluxo de captacao.
+A DD reversa também ajuda contratos com clientes enterprise (que pedem o mesmo pacote em vendor onboarding) e M&A (que pede o pacote ampliado). Ver Capítulo 5 (Arquitetura Contratual para Startups: Operação e Contratos em Profundidade por Tipo) para cláusulas-padrão por tipo de contrato, [[#CAPÍTULO 11 — COMPLIANCE E ANTICORRUPÇÃO PARA STARTUPS|Capítulo 11 (Compliance e Anticorrupção para Startups)]] para programa de integridade, [[#CAPÍTULO 2 — RESPONSABILIDADE DO SÓCIO E DO ADMINISTRADOR|Capítulo 2 (Responsabilidade do Sócio e do Administrador)]] para limites pessoais e [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 9 — CAPTAÇÃO DE EQUITY: PLANEJAMENTO DE RODADA, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 9 (Captação de Equity: Planejamento de Rodada, Pitch e Relacionamento com Investidores) (Vol. 5)]] para fluxo de captação.
 
 ---
 
@@ -2273,7 +2273,7 @@ A CLT (art. 3º) define empregado pela presença simultânea de cinco elementos.
 **5. Trabalho prestado por pessoa física (com alteridade do empregador no art. 2º da CLT).** Pelo art. 3º da CLT, empregado é sempre **pessoa física**: a criação formal de um CNPJ ("pejotização") é afastada pelo princípio da primazia da realidade quando o serviço é prestado de modo inseparável pela pessoa natural com pessoalidade, habitualidade, onerosidade e subordinação. Já a **alteridade** (assunção dos riscos da atividade econômica pelo empregador, prevista no art. 2º da CLT) e a **exclusividade** (o prestador atender a um único tomador) não são requisitos formais do art. 3º, mas funcionam na perícia judicial como indícios probatórios de dependência econômica e ausência de autonomia empresarial real.
 
 > [!warning] Contrato não define a relação: a realidade define
-> Assinar um contrato de prestação de serviços PJ não afasta o reconhecimento de vínculo empregatício se os cinco elementos estiverem presentes na prática. Na prática forense e nas auditorias de M&A, e-mails diários de cobrança de horário, controle de folgas e subordinação direta prevalecem sobre qualquer cláusula formal de autonomia escrita no contrato.
+> Assinar um contrato de prestação de serviços PJ não afasta o reconhecimento de vínculo empregatício se os cinco elementos estiverem presentes na prática. Perante a Justiça do Trabalho e nas auditorias de M&A, e-mails diários de cobrança de horário, controle de folgas e subordinação direta prevalecem sobre qualquer cláusula formal de autonomia escrita no contrato.
 
 #### O que a Reforma Trabalhista (Lei 13.467/2017) mudou
 
@@ -2292,7 +2292,7 @@ O que não mudou com a Reforma:
 - A proteção contra discriminação e assédio.
 - O prazo prescricional de 2 anos com retroatividade de 5 anos.
 
-#### PJ para tech — quando é juridicamente sólido
+#### PJ para tech: quando é juridicamente sólido
 
 Contratar PJ é legal e válido quando a relação tem as características de prestação de serviço autônoma:
 
@@ -2778,11 +2778,11 @@ Você precisa dominar **A Engenharia de Defesa Consumerista e Reputacional**: tr
 
 ---
 
-> [!abstract] Posicao no livro
+> [!abstract] Posição no livro
 > [!note] Posição no livro
 > O CDC é a moldura que rege a relação com o consumidor final, pessoa física ou pequena empresa em situação de vulnerabilidade técnica, jurídica ou econômica (teoria finalista mitigada). Capítulos vizinhos: contratos de adesão e cláusulas nulas dialogam com o Capítulo 6, e a responsabilidade solidária na cadeia de fornecimento conecta-se ao Capítulo 9.
 > - [[#CAPÍTULO 9 — LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Capítulo 9 (LGPD, Compliance e Governança de Dados)]], dado pessoal do consumidor, base legal e direitos
-> - [[#CAPÍTULO 5 — ARQUITETURA CONTRATUAL PARA STARTUPS: OPERAÇÃO E CONTRATOS EM PROFUNDIDADE POR TIPO|Capítulo 5 (Arquitetura Contratual para Startups: Operação e Contratos em Profundidade por Tipo)]], termos de uso, contratos de adesao e clausulas abusivas
+> - [[#CAPÍTULO 5 — ARQUITETURA CONTRATUAL PARA STARTUPS: OPERAÇÃO E CONTRATOS EM PROFUNDIDADE POR TIPO|Capítulo 5 (Arquitetura Contratual para Startups: Operação e Contratos em Profundidade por Tipo)]], termos de uso, contratos de adesão e cláusulas abusivas
 > - [[#CAPÍTULO 8 — CONTENCIOSO E LITÍGIO PARA STARTUPS|Capítulo 8 (Contencioso e Litígio para Startups)]], reclamacoes consumeristas, juizado especial e provisao de passivo
 > - [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 4 — MARKETPLACES, PLATAFORMAS E EFEITOS DE REDE: LIQUIDEZ, OVO-E-GALINHA E RISCO DE PLATAFORMA|Capítulo 4 (Marketplaces, Plataformas e Efeitos de Rede: Liquidez, Ovo-e-Galinha e Risco de Plataforma) (Vol. 3)]], responsabilidade solidaria do marketplace pelo lojista terceiro
 
@@ -3171,16 +3171,16 @@ Em Curitiba, Henrique sofreu um calote contratual de R$ 420 mil de um distribuid
 
 A lição mais dura da gestão de contencioso é que o Poder Judiciário não existe para vingar a honra ferida do fundador: processo judicial é exclusivamente um ativo ou passivo financeiro governado por Valor Presente Líquido (VPL), probabilidade estatística de êxito, custo de oportunidade da atenção executiva e solvência da outra parte.
 
-Você precisa substituir **O Litígio Emocional por Ego** pela disciplina da **A Matemática Fria do Contencioso Estratégico**: saber quando encerrar uma disputa ruim em 48 horas por acordo descontado, quando usar arbitragem empresarial para conflitos societários/M&A e quando jamais assinar cláusula arbitral em contratos pequenos.
+Você precisa substituir **O Litígio Emocional por Ego** pela disciplina da **Matemática Fria do Contencioso Estratégico**: saber quando encerrar uma disputa ruim em 48 horas por acordo descontado, quando usar arbitragem empresarial para conflitos societários/M&A e quando jamais assinar cláusula arbitral em contratos pequenos.
 
 ---
 
-> [!abstract] Posicao no livro
-> Gestao do passivo contingente e do litigio em curso, trabalhista, civel, tributario e consumerista. Vizinhos relevantes,
-> - [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 3 — DISPUTA SOCIETÁRIA E SAÍDA DE SÓCIO|Capítulo 3 (Disputa Societária e Saída de Sócio) (Vol. 9)]], conflito societario como vertente especifica de litigio
-> - [[#CAPÍTULO 2 — RESPONSABILIDADE DO SÓCIO E DO ADMINISTRADOR|Capítulo 2 (Responsabilidade do Sócio e do Administrador)]], limites pessoais quando a personalidade juridica e desconsiderada
-> - [[#CAPÍTULO 5 — ARQUITETURA CONTRATUAL PARA STARTUPS: OPERAÇÃO E CONTRATOS EM PROFUNDIDADE POR TIPO|Capítulo 5 (Arquitetura Contratual para Startups: Operação e Contratos em Profundidade por Tipo)]], clausulas que evitam ou determinam disputa, foro e arbitragem
-> - [[#CAPÍTULO 5 — ARQUITETURA CONTRATUAL PARA STARTUPS: OPERAÇÃO E CONTRATOS EM PROFUNDIDADE POR TIPO|Capítulo 5 (Arquitetura Contratual para Startups: Operação e Contratos em Profundidade por Tipo)]], panorama operacional, prevencao no dia a dia
+> [!abstract] Posição no livro
+> Gestao do passivo contingente e do litigio em curso, trabalhista, civel, tributário e consumerista. Vizinhos relevantes,
+> - [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 3 — DISPUTA SOCIETÁRIA E SAÍDA DE SÓCIO|Capítulo 3 (Disputa Societária e Saída de Sócio) (Vol. 9)]], conflito societário como vertente específica de litigio
+> - [[#CAPÍTULO 2 — RESPONSABILIDADE DO SÓCIO E DO ADMINISTRADOR|Capítulo 2 (Responsabilidade do Sócio e do Administrador)]], limites pessoais quando a personalidade jurídica é desconsiderada
+> - [[#CAPÍTULO 5 — ARQUITETURA CONTRATUAL PARA STARTUPS: OPERAÇÃO E CONTRATOS EM PROFUNDIDADE POR TIPO|Capítulo 5 (Arquitetura Contratual para Startups: Operação e Contratos em Profundidade por Tipo)]], cláusulas que evitam ou determinam disputa, foro e arbitragem
+> - [[#CAPÍTULO 5 — ARQUITETURA CONTRATUAL PARA STARTUPS: OPERAÇÃO E CONTRATOS EM PROFUNDIDADE POR TIPO|Capítulo 5 (Arquitetura Contratual para Startups: Operação e Contratos em Profundidade por Tipo)]], panorama operacional, prevenção no dia a dia
 
 **Como Lidar com Processos sem Paralisar**
 
@@ -3203,21 +3203,21 @@ Este capítulo cobre os quatro grandes vetores de contencioso que afetam startup
 
 Colocar cláusula compromissória de arbitragem por inércia em contratos comerciais de médio porte cria uma armadilha financeira: entre taxa de registro, taxa de administração da câmara e adiantamento de honorários de três árbitros, o custo inicial para instaurar ou responder a um procedimento em câmara de primeira linha facilmente supera R$ 100 mil a R$ 150 mil antes mesmo da primeira audiência.
 
-Antes de mergulhar na mecanica judicial por vetor, vale entender duas vias paralelas que retiram disputa do Judiciario e geralmente entregam resultado melhor para a startup quando o ticket e relevante.
+Antes de mergulhar na mecanica judicial por vetor, vale entender duas vias paralelas que retiram disputa do Judiciário e geralmente entregam resultado melhor para a startup quando o ticket e relevante.
 
 **Arbitragem (Lei 9.307/1996, atualizada pela Lei 13.129/2015).** Jurisdição privada com força de coisa julgada. O pré-requisito é cláusula compromissória assinada em contrato (ou compromisso arbitral firmado após o surgimento da disputa). As partes escolhem a câmara arbitral, os árbitros, a sede e o regulamento aplicável. A sentença arbitral é título executivo judicial (art. 515, VII, do CPC) e contra ela não cabe recurso de mérito ao Poder Judiciário.
 
-Vantagens. Sigilo (processo nao publico, relevante em disputa societaria ou de PI). Especializacao (arbitros escolhidos pelas partes, tipicamente com expertise no tema). Velocidade (12 a 18 meses, contra cinco a dez anos do Judiciario brasileiro em primeira instancia mais recurso). Executoriedade internacional via Convencao de Nova York (1958), reconhecida em mais de 170 paises, util para contratos cross-border.
+Vantagens. Sigilo (processo não público, relevante em disputa societária ou de PI). Especialização (árbitros escolhidos pelas partes, tipicamente com expertise no tema). Velocidade (12 a 18 meses, contra cinco a dez anos do Judiciário brasileiro em primeira instância mais recurso). Executoriedade internacional via Convenção de Nova York (1958), reconhecida em mais de 170 países, útil para contratos cross-border.
 
 **Custos reais nas câmaras brasileiras.** Nas principais câmaras do país (como CAM-CCBC, CIESP/FIESP, CAMARB, Amcham e FGV), as despesas dividem-se entre taxa de administração e honorários dos árbitros conforme tabelas públicas progressivas: em uma disputa de R$ 1 milhão a R$ 2 milhões com três árbitros, a soma de taxas administrativas e honorários arbitrais costuma variar entre R$ 120 mil e R$ 280 mil ao longo do procedimento (podendo ser reduzida pelo uso de árbitro único ou rito de arbitragem expedita para causas menores).
 
 **Quando compensa usar arbitragem.** A via arbitral justifica o custo em disputas societárias entre sócios ou com fundos investidores, contratos de M&A com *earnout* ou ajuste de preço em discussão, contratos estratégicos de infraestrutura de alto valor (acima de R$ 2 milhões), *joint ventures* e operações com contraparte estrangeira.
 
-Quando nao vale. Causa abaixo de R$ 500 mil (custo desproporcional ao valor em disputa). Conflito de baixa especificidade tecnica em que o Judiciario decide rapido. Disputa trabalhista (Justica do Trabalho tem jurisdicao especializada e arbitragem trabalhista e restrita).
+Quando não vale. Causa abaixo de R$ 500 mil (custo desproporcional ao valor em disputa). Conflito de baixa especificidade tecnica em que o Judiciário decide rapido. Disputa trabalhista (Justica do Trabalho tem jurisdicao especializada e arbitragem trabalhista e restrita).
 
-**Mediacao (Lei 13.140/2015).** Processo voluntario com mediador neutro que ajuda as partes a construir acordo. Sem decisao imposta. Sem forca de coisa julgada se nao houver homologacao judicial ou registro em camara. Custo baixo (mediador cobra hora, R$ 500 a R$ 2 mil), prazo curto (60 a 120 dias). Camaras como CNDM relatam taxa de sucesso de 60 a 70 por cento em disputas contratuais.
+**Mediação (Lei 13.140/2015).** Processo voluntário com mediador neutro que ajuda as partes a construir acordo. Sem decisão imposta. Sem força de coisa julgada se não houver homologacao judicial ou registro em câmara. Custo baixo (mediador cobra hora, R$ 500 a R$ 2 mil), prazo curto (60 a 120 dias). Câmaras como CNDM relatam taxa de sucesso de 60 a 70 por cento em disputas contratuais.
 
-Recomendacao pratica. Contratos com ticket acima de R$ 500 mil e disputa potencial complexa devem ter clausula escalonada. Negociacao direta de 30 dias, mediacao de 60 dias, arbitragem em caso de impasse. Essa estrutura resolve a maior parte das disputas antes de chegar ao painel arbitral. Cross-ref para [[#CAPÍTULO 5 — ARQUITETURA CONTRATUAL PARA STARTUPS: OPERAÇÃO E CONTRATOS EM PROFUNDIDADE POR TIPO|Capítulo 5 (Arquitetura Contratual para Startups: Operação e Contratos em Profundidade por Tipo)]] (contratos), [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 3 — DISPUTA SOCIETÁRIA E SAÍDA DE SÓCIO|Capítulo 3 (Disputa Societária e Saída de Sócio) (Vol. 9)]] (disputa societaria), Capítulo 5 (Arquitetura Contratual para Startups: Operação e Contratos em Profundidade por Tipo) (clausulas standard) e [[#CAPÍTULO 2 — RESPONSABILIDADE DO SÓCIO E DO ADMINISTRADOR|Capítulo 2 (Responsabilidade do Sócio e do Administrador)]] (responsabilidade).
+Recomendação prática. Contratos com ticket acima de R$ 500 mil e disputa potencial complexa devem ter cláusula escalonada. Negociação direta de 30 dias, mediação de 60 dias, arbitragem em caso de impasse. Essa estrutura resolve a maior parte das disputas antes de chegar ao painel arbitral. Consulte também: [[#CAPÍTULO 5 — ARQUITETURA CONTRATUAL PARA STARTUPS: OPERAÇÃO E CONTRATOS EM PROFUNDIDADE POR TIPO|Capítulo 5 (Arquitetura Contratual para Startups: Operação e Contratos em Profundidade por Tipo)]] (contratos), [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 3 — DISPUTA SOCIETÁRIA E SAÍDA DE SÓCIO|Capítulo 3 (Disputa Societária e Saída de Sócio) (Vol. 9)]] (disputa societária), Capítulo 5 (Arquitetura Contratual para Startups: Operação e Contratos em Profundidade por Tipo) (cláusulas standard) e [[#CAPÍTULO 2 — RESPONSABILIDADE DO SÓCIO E DO ADMINISTRADOR|Capítulo 2 (Responsabilidade do Sócio e do Administrador)]] (responsabilidade).
 
 ---
 
@@ -3601,21 +3601,21 @@ Você precisa abandonar **O Teatro do Banner de Cookies** e construir **A Govern
 > [!abstract] Mapa da Fatia 5: Legal, Ops e Regulatorio
 > Os capítulos de governança jurídica, proteção de dados, compliance e cibersegurança deste volume conectam-se diretamente às exigências de auditoria de clientes enterprise e fundos institucionais.
 >
-> **Governanca de dados** (Capítulo 9 (LGPD, Compliance e Governança de Dados) entrada, [[#CAPÍTULO 13 — SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA|Capítulo 13 (Segurança da Informação: Da Certificação à Engenharia)]] engenharia, [[#CAPÍTULO 11 — COMPLIANCE E ANTICORRUPÇÃO PARA STARTUPS|Capítulo 11 (Compliance e Anticorrupção para Startups)]] integridade)
+> **Governança de dados** (Capítulo 9 (LGPD, Compliance e Governança de Dados) entrada, [[#CAPÍTULO 13 — SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA|Capítulo 13 (Segurança da Informação: Da Certificação à Engenharia)]] engenharia, [[#CAPÍTULO 11 — COMPLIANCE E ANTICORRUPÇÃO PARA STARTUPS|Capítulo 11 (Compliance e Anticorrupção para Startups)]] integridade)
 >
-> **Contratos e PI** ([[#CAPÍTULO 5 — ARQUITETURA CONTRATUAL PARA STARTUPS: OPERAÇÃO E CONTRATOS EM PROFUNDIDADE POR TIPO|Capítulo 5 (Arquitetura Contratual para Startups: Operação e Contratos em Profundidade por Tipo)]] panorama, Capítulo 5 (Arquitetura Contratual para Startups: Operação e Contratos em Profundidade por Tipo) profundidade por tipo, [[#CAPÍTULO 4 — NÃO-CONCORRÊNCIA E NÃO-SOLICITAÇÃO NO BRASIL|Capítulo 4 (Não Concorrência e Não Solicitação no Brasil)]] retencao, [[#CAPÍTULO 3 — PROPRIEDADE INTELECTUAL E INPI|Capítulo 3 (Propriedade Intelectual e INPI)]] PI)
+> **Contratos e PI** ([[#CAPÍTULO 5 — ARQUITETURA CONTRATUAL PARA STARTUPS: OPERAÇÃO E CONTRATOS EM PROFUNDIDADE POR TIPO|Capítulo 5 (Arquitetura Contratual para Startups: Operação e Contratos em Profundidade por Tipo)]] panorama, Capítulo 5 (Arquitetura Contratual para Startups: Operação e Contratos em Profundidade por Tipo) profundidade por tipo, [[#CAPÍTULO 4 — NÃO-CONCORRÊNCIA E NÃO-SOLICITAÇÃO NO BRASIL|Capítulo 4 (Não Concorrência e Não Solicitação no Brasil)]] retenção, [[#CAPÍTULO 3 — PROPRIEDADE INTELECTUAL E INPI|Capítulo 3 (Propriedade Intelectual e INPI)]] PI)
 >
-> **Governanca societaria** ([[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 1 — BOARD E GOVERNANCE|Capítulo 1 (Board e Governance) (Vol. 9)]] entrada, [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 2 — EMPRESA FAMILIAR E SUCESSÃO: GOVERNANÇA, DINÂMICA E PSICOLOGIA|Capítulo 2 (Empresa Familiar e Sucessão: Governança, Dinâmica e Psicologia) (Vol. 9)]] familia, [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 3 — DISPUTA SOCIETÁRIA E SAÍDA DE SÓCIO|Capítulo 3 (Disputa Societária e Saída de Sócio) (Vol. 9)]] disputa, [[#CAPÍTULO 2 — RESPONSABILIDADE DO SÓCIO E DO ADMINISTRADOR|Capítulo 2 (Responsabilidade do Sócio e do Administrador)]] limites, [[#CAPÍTULO 1 — MARCO LEGAL DAS STARTUPS: LC 182/2021|Capítulo 1 (Marco Legal das Startups: Lc 182/2021)]] marco legal)
+> **Governança societária** ([[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 1 — BOARD E GOVERNANCE|Capítulo 1 (Board e Governance) (Vol. 9)]] entrada, [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 2 — EMPRESA FAMILIAR E SUCESSÃO: GOVERNANÇA, DINÂMICA E PSICOLOGIA|Capítulo 2 (Empresa Familiar e Sucessão: Governança, Dinâmica e Psicologia) (Vol. 9)]] família, [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 3 — DISPUTA SOCIETÁRIA E SAÍDA DE SÓCIO|Capítulo 3 (Disputa Societária e Saída de Sócio) (Vol. 9)]] disputa, [[#CAPÍTULO 2 — RESPONSABILIDADE DO SÓCIO E DO ADMINISTRADOR|Capítulo 2 (Responsabilidade do Sócio e do Administrador)]] limites, [[#CAPÍTULO 1 — MARCO LEGAL DAS STARTUPS: LC 182/2021|Capítulo 1 (Marco Legal das Startups: Lc 182/2021)]] marco legal)
 >
-> **Ciclo de crise** ([[#CAPÍTULO 12 — FRAUDE INTERNA E CONTROLES INTERNOS|Capítulo 12 (Fraude Interna e Controles Internos)]] preparacao, [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9 — GESTÃO DE CRISE, CONTINUIDADE OPERACIONAL E COMUNICAÇÃO CRÍTICA|Capítulo 9 (Gestão de Crise, Continuidade Operacional e Comunicação Crítica) (Vol. 9)]] resposta, Capítulo 9 (Gestão de Crise, Continuidade Operacional e Comunicação Crítica) (Vol. 9) comunicacao, [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 11 — RECUPERAÇÃO JUDICIAL E WIND-DOWN — QUANDO A STARTUP NÃO CONSEGUE CONTINUAR|Capítulo 11 (Recuperação Judicial e Wind-Down: Quando a Startup Não Consegue Continuar) (Vol. 9)]] encerramento, [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 8 — GESTÃO DE RISCO E SEGUROS PARA STARTUPS|Capítulo 8 (Gestão de Risco e Seguros para Startups) (Vol. 5)]] seguros)
+> **Ciclo de crise** ([[#CAPÍTULO 12 — FRAUDE INTERNA E CONTROLES INTERNOS|Capítulo 12 (Fraude Interna e Controles Internos)]] preparacao, [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9 — GESTÃO DE CRISE, CONTINUIDADE OPERACIONAL E COMUNICAÇÃO CRÍTICA|Capítulo 9 (Gestão de Crise, Continuidade Operacional e Comunicação Crítica) (Vol. 9)]] resposta, Capítulo 9 (Gestão de Crise, Continuidade Operacional e Comunicação Crítica) (Vol. 9) comunicação, [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 11 — RECUPERAÇÃO JUDICIAL E WIND-DOWN — QUANDO A STARTUP NÃO CONSEGUE CONTINUAR|Capítulo 11 (Recuperação Judicial e Wind-Down: Quando a Startup Não Consegue Continuar) (Vol. 9)]] encerramento, [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 8 — GESTÃO DE RISCO E SEGUROS PARA STARTUPS|Capítulo 8 (Gestão de Risco e Seguros para Startups) (Vol. 5)]] seguros)
 >
-> **Regulatorio** ([[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 4 — REGULATÓRIO SETORIAL BRASILEIRO|Capítulo 4 (Regulatório Setorial Brasileiro) (Vol. 10)]] indice, [[#CAPÍTULO 10 — REGULATÓRIO DE IA NO BRASIL|Capítulo 10 (Regulatório de IA no Brasil)]] IA, [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 5 — CADE E ANTITRUSTE — QUANDO O CRESCIMENTO ATRAI O REGULADOR|Capítulo 5 (CADE e Antitruste: Quando o Crescimento Atrai o Regulador) (Vol. 10)]] antitrust, [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 6 — POLÍTICA PÚBLICA COMO ESTRATÉGIA|Capítulo 6 (Política Pública como Estratégia) (Vol. 10)]] politica publica, [[#CAPÍTULO 7 — DIREITO DO CONSUMIDOR E CDC PARA STARTUPS|Capítulo 7 (Direito do Consumidor e CDC para Startups)]] CDC)
+> **Regulatorio** ([[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 4 — REGULATÓRIO SETORIAL BRASILEIRO|Capítulo 4 (Regulatório Setorial Brasileiro) (Vol. 10)]] indice, [[#CAPÍTULO 10 — REGULATÓRIO DE IA NO BRASIL|Capítulo 10 (Regulatório de IA no Brasil)]] IA, [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 5 — CADE E ANTITRUSTE — QUANDO O CRESCIMENTO ATRAI O REGULADOR|Capítulo 5 (CADE e Antitruste: Quando o Crescimento Atrai o Regulador) (Vol. 10)]] antitrust, [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 6 — POLÍTICA PÚBLICA COMO ESTRATÉGIA|Capítulo 6 (Política Pública como Estratégia) (Vol. 10)]] politica pública, [[#CAPÍTULO 7 — DIREITO DO CONSUMIDOR E CDC PARA STARTUPS|Capítulo 7 (Direito do Consumidor e CDC para Startups)]] CDC)
 >
 > **Verticais regulados** ([[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 29 — BIOTECH E HEALTHTECH: PLAYBOOK DE REGULAÇÃO, ENSAIOS E CAPITAL|Capítulo 29 (Biotech e Healthtech: Playbook de Regulação, Ensaios e Capital) (Vol. 10)]], [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 21 — HARDWARE E DEEP TECH: CONSTRUIR NEGÓCIO COM FABRICAÇÃO, IP E HORIZONTES LONGOS|Capítulo 21 (Hardware e Deep Tech: Construir Negócio com Fabricação, Ip e Horizontes Longos) (Vol. 10)]], [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 32 — GOVTECH: STARTUP VENDENDO PARA GOVERNO|Capítulo 32 (Govtech: Startup Vendendo para Governo) (Vol. 10)]], [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 11 — AGRITECH: PLAYBOOK PARA O CAMPO BRASILEIRO|Capítulo 11 (Agritech: Playbook para o Campo Brasileiro) (Vol. 10)]], [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 31 — EDTECH: PLAYBOOK PARA TECNOLOGIA DE EDUCAÇÃO NO BRASIL|Capítulo 31 (Edtech: Playbook para Tecnologia de Educação no Brasil) (Vol. 10)]], [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 17 — CLEANTECH E ESG: STARTUPS DE IMPACTO AMBIENTAL NO BRASIL|Capítulo 17 (Cleantech e Esg: Startups de Impacto Ambiental no Brasil) (Vol. 10)]], [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 25 — PROPTECH: TECNOLOGIA NO MERCADO IMOBILIÁRIO BRASILEIRO|Capítulo 25 (Proptech: Tecnologia no Mercado Imobiliário Brasileiro) (Vol. 10)]], [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 33 — LEGALTECH: TECNOLOGIA JURÍDICA NO BRASIL|Capítulo 33 (Legaltech: Tecnologia Jurídica no Brasil) (Vol. 10)]], [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 22 — LOGTECH: TECNOLOGIA EM LOGÍSTICA E SUPPLY CHAIN NO BRASIL|Capítulo 22 (Logtech: Tecnologia em Logística e Supply Chain no Brasil) (Vol. 10)]])
 >
 > **Modelos de negocio especiais** ([[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 4 — MARKETPLACES, PLATAFORMAS E EFEITOS DE REDE: LIQUIDEZ, OVO-E-GALINHA E RISCO DE PLATAFORMA|Capítulo 4 (Marketplaces, Plataformas e Efeitos de Rede: Liquidez, Ovo-e-Galinha e Risco de Plataforma) (Vol. 3)]], Capítulo 4 (Marketplaces, Plataformas e Efeitos de Rede: Liquidez, Ovo-e-Galinha e Risco de Plataforma) (Vol. 3), [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 5 — B2B2C: QUANDO SUA EMPRESA VENDE PARA OUTRA EMPRESA QUE VENDE PARA CONSUMIDOR|Capítulo 5 (B2B2C: Quando Sua Empresa Vende para Outra Empresa Que Vende para Consumidor) (Vol. 3)]], [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 5 — CANAIS INDIRETOS E PARCERIAS: PARCERIAS, FRANQUIAS, CHANNEL|Capítulo 5 (Canais Indiretos e Parcerias: Parcerias, Franquias, Channel) (Vol. 6)]], [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 6 — OPEN SOURCE COMO ESTRATÉGIA|Capítulo 6 (Open Source como Estratégia) (Vol. 3)]], [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 4 — BUSINESS DEVELOPMENT E PARCERIAS COM GRANDES CORPORAÇÕES BRASILEIRAS|Capítulo 4 (Business Development e Parcerias com Grandes Corporações Brasileiras) (Vol. 6)]])
 >
-> **Direito do dia a dia** ([[#CAPÍTULO 6 — DIREITO DO TRABALHO PARA STARTUPS|Capítulo 6 (Direito do Trabalho para Startups)]] trabalhista, [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 2 — CONTABILIDADE, REGIMES FISCAIS E TRIBUTÁRIO ESTRATÉGICO (REFORMA IBS/CBS E INCENTIVOS)|Capítulo 2 (Contabilidade, Regimes Fiscais e Tributário Estratégico (Reforma Ibs/cbs e Incentivos)) (Vol. 5)]] tributario, [[#CAPÍTULO 8 — CONTENCIOSO E LITÍGIO PARA STARTUPS|Capítulo 8 (Contencioso e Litígio para Startups)]] contencioso, [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 5 — INTERNACIONALIZAÇÃO: ESTRUTURA E PRODUTO PARA MÚLTIPLOS MERCADOS|Capítulo 5 (Internacionalização: Estrutura e Produto para Múltiplos Mercados) (Vol. 9)]] internacional, [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 6 — VISTO E IMIGRAÇÃO PARA FUNDADOR BRASILEIRO|Capítulo 6 (Visto e Imigração para Fundador Brasileiro) (Vol. 9)]] visto, [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 4 — ESG, IMPACT E GOVERNANÇA PARA STARTUP|Capítulo 4 (Esg, Impact e Governança para Startup) (Vol. 9)]] ESG, [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 7 — NEGOCIAÇÃO COMO DISCIPLINA|Capítulo 7 (Negociação como Disciplina) (Vol. 4)]] negociacao, [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 10 — OPERAÇÕES EM ESCALA|Capítulo 10 (Operações em Escala) (Vol. 7)]] operacao)
+> **Direito do dia a dia** ([[#CAPÍTULO 6 — DIREITO DO TRABALHO PARA STARTUPS|Capítulo 6 (Direito do Trabalho para Startups)]] trabalhista, [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 2 — CONTABILIDADE, REGIMES FISCAIS E TRIBUTÁRIO ESTRATÉGICO (REFORMA IBS/CBS E INCENTIVOS)|Capítulo 2 (Contabilidade, Regimes Fiscais e Tributário Estratégico (Reforma Ibs/cbs e Incentivos)) (Vol. 5)]] tributário, [[#CAPÍTULO 8 — CONTENCIOSO E LITÍGIO PARA STARTUPS|Capítulo 8 (Contencioso e Litígio para Startups)]] contencioso, [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 5 — INTERNACIONALIZAÇÃO: ESTRUTURA E PRODUTO PARA MÚLTIPLOS MERCADOS|Capítulo 5 (Internacionalização: Estrutura e Produto para Múltiplos Mercados) (Vol. 9)]] internacional, [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 6 — VISTO E IMIGRAÇÃO PARA FUNDADOR BRASILEIRO|Capítulo 6 (Visto e Imigração para Fundador Brasileiro) (Vol. 9)]] visto, [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 4 — ESG, IMPACT E GOVERNANÇA PARA STARTUP|Capítulo 4 (Esg, Impact e Governança para Startup) (Vol. 9)]] ESG, [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 7 — NEGOCIAÇÃO COMO DISCIPLINA|Capítulo 7 (Negociação como Disciplina) (Vol. 4)]] negociação, [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 10 — OPERAÇÕES EM ESCALA|Capítulo 10 (Operações em Escala) (Vol. 7)]] operação)
 
 > [!note] Nota de validade
 > Este capítulo reflete o estado da regulação de dados pessoais brasileira e as práticas de mercado em abril de 2026. LGPD, regulamentações da ANPD, decisões judiciais e regulações setoriais (BCB, ANS) evoluem ano a ano. Revisar anualmente, com atenção a novas resoluções da ANPD, mudanças setoriais aplicáveis ao seu negócio e jurisprudência relevante sobre multas e responsabilidade. Quando houver divergência entre este capítulo e a regulação atual, a regulação atual prevalece.
@@ -3714,7 +3714,7 @@ Os contratos padrão desses provedores (DPA, Data Processing Agreement) cobrem m
 
 #### 6. Resposta a incidente de segurança
 
-Incidente que cause risco, ou dano relevante, a titulares, exige comunicação à ANPD, e aos titulares afetados, em 3 dias uteis (6 dias para agente de pequeno porte) conforme Resolucao CD/ANPD 15/2024 (RCIS). Se a empresa nunca pensou sobre incidentes antes do primeiro, vai responder mal.
+Incidente que cause risco, ou dano relevante, a titulares, exige comunicação à ANPD, e aos titulares afetados, em 3 dias úteis (6 dias para agente de pequeno porte) conforme Resolução CD/ANPD 15/2024 (RCIS). Se a empresa nunca pensou sobre incidentes antes do primeiro, vai responder mal.
 
 **Runbook mínimo.**
 
@@ -3735,7 +3735,7 @@ Financeiro. BCB (resoluções sobre cibersegurança, e Open Finance). CVM para c
 
 Saúde. LGPD, mais resoluções CFM, ou ANS, mais Lei 13.787/2018 (prontuário eletrônico). Dados de saúde são sensíveis. Regime mais rigoroso.
 
-**Crianças e adolescentes (Menores):** regidos pelo art. 14 da LGPD (melhor interesse do menor e consentimento específico e em destaque de ao menos um dos pais ou responsável legal para crianças), pelo Estatuto da Criança e do Adolescente (ECA) e pelo **ECA Digital (Lei 15.211/2025)**, que impõe a plataformas e aplicações digitais mecanismos aferíveis de verificação de idade (vedada a simples autodeclaração), configurações de máxima proteção e privacidade por padrão (*privacy by design*), ferramentas de supervisão parental e proibição de perfilamento comportamental para publicidade direcionada a menores, sob fiscalização da ANPD.
+**Crianças e adolescentes (Menores):** regidos pelo art. 14 da LGPD (melhor interesse do menor e consentimento específico e em destaque de ao menos um dos país ou responsável legal para crianças), pelo Estatuto da Criança e do Adolescente (ECA) e pelo **ECA Digital (Lei 15.211/2025)**, que impõe a plataformas e aplicações digitais mecanismos aferíveis de verificação de idade (vedada a simples autodeclaração), configurações de máxima proteção e privacidade por padrão (*privacy by design*), ferramentas de supervisão parental e proibição de perfilamento comportamental para publicidade direcionada a menores, sob fiscalização da ANPD.
 
 Educação. LGPD, mais LDB, mais portarias setoriais.
 
@@ -3780,7 +3780,7 @@ Vazamento tratado como problema só técnico. A engenharia contém. Mas ninguém
 
 A LGPD não cobre tudo: ela regula especificamente o tratamento de dados pessoais. Mas a operação digital de uma startup gera outros deveres jurídicos previstos no Marco Civil da Internet e nas normas de cibersegurança; ignorar esse perímetro é ficar exposto em frentes que o programa de privacidade sozinho não alcança.
 
-**Marco Civil da Internet (Lei 12.965/2014).** Estabelece principios de neutralidade de rede, privacidade e protecao de dados na camada de conexao, e regula retencao de logs. Provedor de conexao guarda log por um ano. Provedor de aplicacao guarda log de acesso por seis meses. Esses logs viram prova em processo civil e penal, e podem ser requisitados por ordem judicial. O Marco Civil tambem define o regime de responsabilidade do provedor de aplicacao por conteudo de terceiro, que e o coracao do contencioso de plataforma no Brasil.
+**Marco Civil da Internet (Lei 12.965/2014).** Estabelece princípios de neutralidade de rede, privacidade e proteção de dados na camada de conexão, e regula retenção de logs. Provedor de conexão guarda log por um ano. Provedor de aplicação guarda log de acesso por seis meses. Esses logs viram prova em processo civil e penal, e podem ser requisitados por ordem judicial. O Marco Civil também define o regime de responsabilidade do provedor de aplicação por conteúdo de terceiro, que é o coração do contencioso de plataforma no Brasil.
 
 **STF Temas 533 e 987 (julgados pelo Plenário em junho de 2025 sobre o art. 19 do Marco Civil da Internet).** O Supremo Tribunal Federal declarou a inconstitucionalidade parcial do art. 19 da Lei 12.965/2014 (que antes exigia ordem judicial específica como regra geral para responsabilizar aplicações de internet por conteúdo de terceiros): a partir da tese fixada pelo STF, plataformas digitais passam a responder civilmente por danos decorrentes de conteúdos ilícitos de terceiros caso deixem de removê-los após **notificação extrajudicial** (aplicando-se a sistemática do art. 21), mantendo-se a exigência de ordem judicial prévia para crimes contra a honra (sem prejuízo da remoção por notificação em casos de replicação de conteúdo já reconhecido judicialmente como ofensivo) e impondo-se dever de cuidado ativo e remoção imediata para rol de ilícitos gravíssimos (como atos antidemocráticos, terrorismo, crimes contra crianças e adolescentes e violência contra a mulher) e para conteúdos impulsionados ou anúncios pagos.
 
@@ -3790,7 +3790,7 @@ A LGPD não cobre tudo: ela regula especificamente o tratamento de dados pessoai
 
 **Decreto 11.856/2023 (Política Nacional de Cibersegurança - PNCiber) e fortalecimento institucional da ANPD.** O Decreto 11.856/2023 instituiu a Política Nacional de Cibersegurança, elevando o padrão de controles de segurança na cadeia de fornecedores de serviços digitais ao setor público e a grandes empresas. Em paralelo, a ANPD, que havia sido transformada em autarquia de natureza especial pela Lei 14.460/2022, foi estruturada como **Agência Nacional de Proteção de Dados** (MP 1.317/2025 / legislação subsequente), consolidando poder regulatório e fiscalizatório pleno de agência reguladora.
 
-Recomendacao pratica para o fundador. Quatro entregaveis fora do escopo classico de LGPD. Termos de uso solidos com regime de moderacao explicito (o que pode, o que nao pode, prazo para acao apos notificacao). Politica de moderacao publica com canal de notificacao acessivel. Log de notificacoes recebidas, acoes tomadas e prazo de resposta, auditavel. Processo de takedown integrado ao juridico, com SLA interno claro (24 a 72 horas para conteudo ilicito notificado, prazo legal especifico para ordem judicial). Cross-ref para [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 4 — MARKETPLACES, PLATAFORMAS E EFEITOS DE REDE: LIQUIDEZ, OVO-E-GALINHA E RISCO DE PLATAFORMA|Capítulo 4 (Marketplaces, Plataformas e Efeitos de Rede: Liquidez, Ovo-e-Galinha e Risco de Plataforma) (Vol. 3)]] (marketplace), [[#CAPÍTULO 7 — DIREITO DO CONSUMIDOR E CDC PARA STARTUPS|Capítulo 7 (Direito do Consumidor e CDC para Startups)]] (CDC), [[#CAPÍTULO 13 — SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA|Capítulo 13 (Segurança da Informação: Da Certificação à Engenharia)]] (seguranca da informacao) e [[#CAPÍTULO 8 — CONTENCIOSO E LITÍGIO PARA STARTUPS|Capítulo 8 (Contencioso e Litígio para Startups)]] (contencioso).
+Recomendação prática para o fundador. Quatro entregaveis fora do escopo clássico de LGPD. Termos de uso solidos com regime de moderação explícito (o que pode, o que não pode, prazo para ação após notificação). Política de moderação pública com canal de notificação acessivel. Log de notificações recebidas, ações tomadas e prazo de resposta, auditavel. Processo de takedown integrado ao jurídico, com SLA interno claro (24 a 72 horas para conteúdo ilícito notificado, prazo legal específico para ordem judicial). Consulte também: [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 4 — MARKETPLACES, PLATAFORMAS E EFEITOS DE REDE: LIQUIDEZ, OVO-E-GALINHA E RISCO DE PLATAFORMA|Capítulo 4 (Marketplaces, Plataformas e Efeitos de Rede: Liquidez, Ovo-e-Galinha e Risco de Plataforma) (Vol. 3)]] (marketplace), [[#CAPÍTULO 7 — DIREITO DO CONSUMIDOR E CDC PARA STARTUPS|Capítulo 7 (Direito do Consumidor e CDC para Startups)]] (CDC), [[#CAPÍTULO 13 — SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA|Capítulo 13 (Segurança da Informação: Da Certificação à Engenharia)]] (segurança da informação) e [[#CAPÍTULO 8 — CONTENCIOSO E LITÍGIO PARA STARTUPS|Capítulo 8 (Contencioso e Litígio para Startups)]] (contencioso).
 
 ### Checklist Operacional de Adequação à LGPD e Regulação da ANPD
 
@@ -4381,7 +4381,7 @@ Submeta todos os recursos de Inteligência Artificial do seu produto a este inte
 
 **Regra de Sobrevivência:** Em decisões de alto impacto jurídico ou financeiro sobre a vida de uma pessoa, a IA deve operar como copiloto que recomenda e fundamenta, mantendo a trava final auditável.
 
-**O Ritual de Segunda-Feira às 9h:** Crie o Inventário de Modelos e Agentes de IA da sua empresa (documentando finalidade, provedor, dados de entrada, nível de risco e guardrails de saída) e e reserve 20 minutos toda segunda-feira para auditar uma amostra de 10 decisões ou negativas automatizadas da semana anterior conferindo a versão do modelo, o *prompt* utilizado e a ausência de dados pessoais desnecessários nos *logs* (implantando no plano do trimestre o mascaramento de CPF e o prazo de retenção dos registros de LLM em conformidade com o princípio da minimização da LGPD).
+**O Ritual de Segunda-Feira às 9h:** Crie o Inventário de Modelos e Agentes de IA da sua empresa (documentando finalidade, provedor, dados de entrada, nível de risco e guardrails de saída) e reserve 20 minutos toda segunda-feira para auditar uma amostra de 10 decisões ou negativas automatizadas da semana anterior conferindo a versão do modelo, o *prompt* utilizado e a ausência de dados pessoais desnecessários nos *logs* (implantando no plano do trimestre o mascaramento de CPF e o prazo de retenção dos registros de LLM em conformidade com o princípio da minimização da LGPD).
 
 
 ---
@@ -4458,7 +4458,7 @@ A única defesa disponível não é a de ausência de culpa: é a de que o progr
 
 #### O programa de integridade como atenuante
 
-O **Decreto 11.129/2022** (que regulamenta a Lei 12.846/2013 e revogou o antigo Decreto 8.420/2015) estabelece nos arts. 56 e 57 os parâmetros oficiais da **Controladoria-Geral da União (CGU)** para avaliação do programa de integridade. O Ministério da Transparência publica notas metodológicas que detalham o que é considerado adequado. Na dosimetria da multa administrativa (Decreto 11.129/2022, art. 23, V), a comprovação de um programa de integridade efetivo atua como fator redutor de até 4% a 5% na alíquota da multa, enquanto a redução de até dois terços da multa aplicável decorre especificamente da celebração de **acordo de leniência** (art. 16, § 2º, da Lei 12.846/2013).
+O **Decreto 11.129/2022** (que regulamenta a Lei 12.846/2013 e revogou o antigo Decreto 8.420/2015) estabelece nos arts. 56 e 57 os parâmetros oficiais da **Controladoria-Geral da União (CGU)** para avaliação do programa de integridade. O Ministério da Transparência pública notas metodológicas que detalham o que é considerado adequado. Na dosimetria da multa administrativa (Decreto 11.129/2022, art. 23, V), a comprovação de um programa de integridade efetivo atua como fator redutor de até 4% a 5% na alíquota da multa, enquanto a redução de até dois terços da multa aplicável decorre especificamente da celebração de **acordo de leniência** (art. 16, § 2º, da Lei 12.846/2013).
 
 Os parâmetros do decreto cobrem:
 
@@ -4480,7 +4480,7 @@ A CGU (Controladoria-Geral da União), em parceria com o Instituto Ethos, manté
 
 O erro frequente é tentar replicar o programa de uma empresa grande numa startup. Programa burocrático demais não é adotado, não é cumprido, e não protege. O objetivo do MVP de compliance é cobrir os vetores de risco reais da empresa no estágio atual, com controles que funcionam na prática.
 
-#### Código de conduta — o que precisa ter
+#### Código de conduta: o que precisa ter
 
 O código de conduta não é o documento que a empresa exibe no site. É o documento que o time lê, entende, e sabe aplicar em situações concretas. Um código eficaz para startup tem menos de dez páginas, usa linguagem direta, e cobre situações reais que o time vai encontrar.
 
@@ -4498,7 +4498,7 @@ O conteúdo mínimo obrigatório inclui:
 > [!tip]
 > A CGU disponibiliza um guia para elaboração de código de ética e conduta empresarial (disponível em cgu.gov.br) com templates adaptáveis. Para startups em estágio inicial, é possível adaptar o template da CGU em dois dias de trabalho de um advogado com experiência em compliance.
 
-#### Canal de denúncias — requisitos legais e práticos
+#### Canal de denúncias: requisitos legais e práticos
 
 No setor privado, o canal de denúncias deixou de ser apenas uma recomendação de governança: para toda empresa obrigada a constituir CIPA (Comissão Interna de Prevenção de Acidentes e de Assédio), a **Lei 14.457/2022 (art. 23)** torna **obrigatória** a manutenção de procedimentos para recebimento e acompanhamento de denúncias de assédio sexual e de outras violências no trabalho, garantindo o anonimato da pessoa denunciante, apuração com prazo e capacitação anual dos colaboradores. Além disso, para fins de atenuação de multa na Lei Anticorrupção, o **Decreto 11.129/2022** (que revogou e substituiu o antigo Decreto 8.420/2015) avalia no art. 57, X, a existência de canais de denúncia abertos e divulgados a funcionários e terceiros, somados a mecanismos efetivos de proteção a denunciantes de boa-fé.
 
@@ -4515,7 +4515,7 @@ Para startups, a solução prática inicial é um email dedicado (compliance@emp
 > [!important]
 > Canal de denúncias sem protocolo de investigação é teatro de compliance. O que protege a empresa é a cadeia: denúncia recebida, avaliada, investigada com prazo definido, com conclusão documentada, e com retorno ao denunciante (ainda que anonimizado). A ausência de protocolo de investigação é o item mais frequentemente apontado pela CGU como deficiência em avaliações de programas.
 
-#### Due diligence de fornecedores e parceiros — terceiros como vetor de corrupção
+#### Due diligence de fornecedores e parceiros: terceiros como vetor de corrupção
 
 Terceiros são o vetor mais comum de corrupção em empresas privadas. O caso Odebrecht mostrou isso em escala macro: intermediários e agentes comerciais foram os canais principais. Para startups, os vetores típicos são outros: representantes comerciais para venda a governo, lobistas de regulamentação, consultores de acesso a editais públicos, e parceiros locais em expansão regional.
 
@@ -4629,7 +4629,7 @@ Dias 61-90: Controles e resposta a incidentes
 - Divulgação pública da identidade e das informações de contato do Encarregado (DPO) de forma clara e objetiva no site da empresa (art. 41, § 1º, da LGPD e Resolução CD/ANPD nº 18/2024, mantendo o ato formal de designação arquivado para apresentação à ANPD quando solicitado)
 ```
 
-#### RIPD — quando é exigido
+#### RIPD: quando é exigido
 
 O Relatório de Impacto à Proteção de Dados Pessoais (RIPD) está previsto nos arts. 5º, XVII, e 38 da LGPD, podendo ser requisitado pela ANPD especialmente quando o tratamento tiver como fundamento o legítimo interesse (art. 10, § 3º) ou envolver dados sensíveis e operações de alto risco. Para identificar quando um tratamento configura **alto risco**, servem de parâmetro objetivo os critérios do art. 4º da **Resolução CD/ANPD nº 02/2022** (que conjuga critérios gerais, como tratamento em larga escala ou impacto significativo sobre titulares, com critérios específicos, como uso de tecnologias emergentes/IA, vigilância ou decisões automatizadas).
 
@@ -4643,7 +4643,7 @@ Os casos que tipicamente afetam startups:
 
 O RIPD documenta: natureza do tratamento, necessidade e proporcionalidade, riscos identificados, medidas de mitigação adotadas. Não é público (exceto quando a ANPD requisita), mas precisa estar disponível para apresentação à autoridade.
 
-#### Incidente de dados — notificação obrigatória em 72 horas
+#### Incidente de dados: notificação obrigatória em 72 horas
 
 Pelo Regulamento de Comunicação de Incidente de Segurança (**Resolução CD/ANPD nº 15/2024**; enquanto a Resolução CD/ANPD nº 04/2023 rege a dosimetria das sanções administrativas), os incidentes de segurança que possam acarretar risco ou dano relevante aos titulares devem ser comunicados à ANPD e aos titulares afetados no prazo de **3 dias úteis** contados da ciência do evento pelo controlador (prazo contado em dobro, de **6 dias úteis**, para agentes de tratamento de pequeno porte, nos termos da Resolução CD/ANPD nº 02/2022).
 
@@ -4941,13 +4941,13 @@ Você não controla as dívidas secretas nem a mente de ninguém; a única ponta
 
 ---
 
-> [!abstract] Posicao no livro
+> [!abstract] Posição no livro
 > [!note] Posição no livro
 > Este capítulo trata da prevenção e da detecção de fraude interna por meio de segregação de funções, alçadas bancárias e canal de denúncia. Capítulos vizinhos: a gestão de crises agudas e a resposta institucional estão no Volume 9 (Capítulo 9).
 > - [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9 — GESTÃO DE CRISE, CONTINUIDADE OPERACIONAL E COMUNICAÇÃO CRÍTICA|Capítulo 9 (Gestão de Crise, Continuidade Operacional e Comunicação Crítica) (Vol. 9)]], resposta operacional quando a fraude vira crise
 > - [[#CAPÍTULO 11 — COMPLIANCE E ANTICORRUPÇÃO PARA STARTUPS|Capítulo 11 (Compliance e Anticorrupção para Startups)]], programa de integridade e Lei Anticorrupcao
-> - [[#CAPÍTULO 13 — SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA|Capítulo 13 (Segurança da Informação: Da Certificação à Engenharia)]], controle tecnico de acesso e auditoria de logs
-> - [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 8 — GESTÃO DE RISCO E SEGUROS PARA STARTUPS|Capítulo 8 (Gestão de Risco e Seguros para Startups) (Vol. 5)]], seguro D&O e cyber para transferencia de risco residual
+> - [[#CAPÍTULO 13 — SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA|Capítulo 13 (Segurança da Informação: Da Certificação à Engenharia)]], controle técnico de acesso e auditoria de logs
+> - [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 8 — GESTÃO DE RISCO E SEGUROS PARA STARTUPS|Capítulo 8 (Gestão de Risco e Seguros para Startups) (Vol. 5)]], seguro D&O e cyber para transferência de risco residual
 
 > [!warning] Tema sensível
 > Fraude interna é tema que fundadores subestimam de forma quase universal. Probabilidade e impacto reais são maiores do que a intuição diz. Este capítulo é mapa preventivo, não exercício de paranoia.

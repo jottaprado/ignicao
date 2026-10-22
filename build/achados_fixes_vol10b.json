@@ -116,7 +116,7 @@
     "vol": "10",
     "code": "N6",
     "from": "Domine **A Lei da Trava Financeira na Locação e da Engenharia de Suprimentos no Canteiro**",
-    "to": "Domine **a trava financeira do aluguel e o controle de suprimentos na obra**: na locação residencial, vence quem elimina o fiador assumindo a garantia de pagamento em dia para o proprietário e capturando de 8% a 12% do aluguel mensal ao longo de trinta meses (além da taxa de corretagem do primeiro aluguel, seguros e crédito com garantia de imóvel). Na construção civil B2B, o valor está no software e na compra cotada que reduzem em 5% a 10% o desperdício de aço, concreto e mão de obra sobre o Custo Unitário Básico (CUB/INCC) da obra."
+    "to": "Domine **a trava financeira do aluguel e o controle de suprimentos no canteiro de obras**"
   },
   {
     "id": "5002",
@@ -340,7 +340,7 @@
     "vol": "10",
     "code": "C4",
     "from": "A startup carioca/paulista **Gabriel** instalou milhares de \"Camaleões\"",
-    "to": "A startup **Gabriel** (fundada no Rio de Janeiro e expandida para São Paulo) instalou milhares de totens externos conhecidos como \"Camaleões\""
+    "to": "A startup **Gabriel** (fundada no Rio de Janeiro e expandida para São Paulo) instalou milhares de dispositivos conhecidos como \"Camaleões\""
   },
   {
     "id": "5040",
@@ -1334,7 +1334,7 @@
     "vol": "10",
     "code": "C3",
     "from": "Se o CMV passa de 38% e a comissão do aplicativo de entrega leva outros 25%, **cada pedido adicional que sai da cozinha dá prejuízo líquido ao restaurante**",
-    "to": "Se o CMV atinge 38% e a comissão e entrega do aplicativo levam outros 25% a 27%, a margem de contribuição cai para cerca de 35% e deixa de cobrir folha, aluguel, energia e impostos: **o restaurante fecha o mês no prejuízo**, por maior que seja o volume de pedidos"
+    "to": "Se o CMV atinge 38% e a comissão e entrega do aplicativo levam outros 25% a 27%, a margem de contribuição cai para cerca de 35% e deixa de cobrir folha, aluguel, energia e impostos: **o restaurante fecha o mês no prejuízo**"
   },
   {
     "id": "5237",
@@ -1481,7 +1481,7 @@
     "vol": "10",
     "code": "C6",
     "from": "além do modelo de fretamento da **Buser**",
-    "to": "além do modelo de fretamento colaborativo da **Buser** (que protagonizou intensas disputas regulatórias e judiciais com a ANTT e viações incumbentes em torno da regra do circuito fechado). No plano regulatório de Traveltech e Hospitalidade, quatro pontos exigem conformidade desde o dia zero: (1) inscrição obrigatória no **Cadastur** (Lei Geral do Turismo, Lei nº 11.771/2008, atualizada em 2024) para agências de turismo e meios de hospedagem; (2) regras da ANTT e das agências estaduais para fretamento rodoviário; (3) jurisprudência do STJ que permite a condomínios edilícios restringirem locação de curtíssima temporada via plataformas quando houver previsão expressa na convenção condominial; e (4) regime específico de hotelaria e parques na Reforma Tributária (LC 214/2025)."
+    "to": "além do modelo de fretamento colaborativo da **Buser**, que protagonizou intensas disputas regulatórias e judiciais com a ANTT e viações tradicionais em torno da regra do circuito fechado, ao lado de marcos do setor como o **Cadastur** na Lei nº 11.771/2008 atualizada em 2024, a jurisprudência do STJ sobre locação de curta temporada em condomínios e o regime específico de hotelaria e parques na LC 214/2025"
   },
   {
     "id": "5260",
@@ -1726,7 +1726,7 @@
     "vol": "10",
     "code": "C2",
     "from": "centenas de municípios brasileiros ainda operam padrões próprios de *webservices*",
-    "to": "embora a adesão ao padrão nacional da NFS-e (ou o compartilhamento obrigatório com o Ambiente de Dados Nacional, ADN) tenha se tornado regra a partir de janeiro de 2026 pela LC 214/2025, a convivência transitória com sistemas próprios e regras locais de retenção de ISS, INSS, IRRF, CSLL, PIS e COFINS na fonte exige manutenção constante."
+    "to": "tornado obrigatório a partir de janeiro de 2026 pela LC 214/2025 (via emissão direta ou compartilhamento com o Ambiente de Dados Nacional, ADN), a transição prática ainda exige lidar com centenas de *webservices* municipais legados"
   },
   {
     "id": "5304",
@@ -1852,7 +1852,7 @@
     "vol": "10",
     "code": "C1",
     "from": "Cada um desses 50.000 estabelecimentos fatura em média **R$ 50.000 por mês** (R$ 600.000/ano)",
-    "to": "Nos segmentos de clínicas médicas, odontológicas e centros automotivos estruturados, uma parcela de 50.000 estabelecimentos de porte médio fatura em torno de **R$ 50.000 por mês** (R$ 600.000/ano, diferentemente de barbearias e salões individuais enquadrados como MEI, cujo teto anual é de R$ 81.000), movimentando **R$ 30 bilhões por ano de TPV**, dos quais uma fatia crescente é agendada e liquidada dentro do software."
+    "to": "Nos segmentos de clínicas médicas, odontológicas e centros automotivos estruturados, uma parcela de 50.000 estabelecimentos de porte médio fatura em torno de **R$ 50.000 por mês** (R$ 600.000/ano, diferentemente de barbearias e salões individuais enquadrados como MEI, cujo teto anual é de R$ 81.000)"
   },
   {
     "id": "5323",
@@ -1950,7 +1950,7 @@
     "vol": "10",
     "code": "C1",
     "from": "quando olhamos para os dados reais da Receita Federal e dos grandes eventos de liquidez (*M&A*) no Brasil, descobrimos uma verdade contra-intuitiva",
-    "to": "Quando você analisa as transações de fusões e aquisições (*M&A*) de empresas de tecnologia fechadas no Brasil na última década, encontra um fato contraintuitivo"
+    "to": "quando você analisa as transações de fusões e aquisições (*M&A*) de negócios digitais fechadas no Brasil na última década, encontra um fato contraintuitivo"
   },
   {
     "id": "5340",
@@ -2090,7 +2090,7 @@
     "vol": "10",
     "code": "E12",
     "from": "Competir diretamente onde gigantes globais investem dezenas de bilhões de dólares por trimestre em capital físico é suicídio estratégico; por outro lado, construir sobre a camada de aplicação",
-    "to": "Não dispute infraestrutura bruta com quem investe dezenas de bilhões de dólares por trimestre em *data centers* e chips. Construa na camada de aplicação e orquestração vertical"
+    "to": "Disputar infraestrutura bruta com gigantes globais que investem dezenas de bilhões de dólares por trimestre em *data centers* e chips é inviável para uma startup; em compensação, construir na camada de aplicação"
   },
   {
     "id": "5363",

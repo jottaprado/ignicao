@@ -634,7 +634,7 @@
     "vol": "6",
     "code": "N5",
     "from": "**O Ritual de Segunda-Feira às 9h:** Desenhe na folha em branco o **Mapa de Responsabilidades (*Accountability Chart*)**",
-    "to": "**O Ritual de Segunda-Feira às 9h (60 minutos, individual):** Desenhe em uma folha em branco o **Mapa de Responsabilidades (*Accountability Chart*)** com as cinco caixas funcionais dos próximos 12 meses e três indicadores por caixa antes de preencher nomes; ao final, escreva a regra de alçada financeira (quem aprova despesas de até R$ 2.000 sem passar por você)."
+    "to": "**O Ritual de Segunda-Feira às 9h (60 minutos, individual):** Desenhe em uma folha em branco o **Mapa de Responsabilidades (*Accountability Chart*)** com as cinco caixas funcionais essenciais, três indicadores objetivos por caixa e a regra de alçada financeira (quem aprova despesas de até R$ 2.000 sem passar por você),"
   },
   {
     "id": "2592",
@@ -1320,7 +1320,7 @@
     "vol": "6",
     "code": "C2",
     "from": "ferramentas de BI como Looker, Metabase, ou até Google Data Studio.",
-    "to": "A infraestrutura pesada de dados fica com engenharia, enquanto o profissional de RevOps resolve a maior parte das análises operacionais com SQL básico e ferramentas de BI como Looker Studio ou Metabase."
+    "to": "ferramentas de BI como Looker, Metabase ou Looker Studio (antigo Google Data Studio)."
   },
   {
     "id": "2720",
@@ -1551,7 +1551,7 @@
     "vol": "6",
     "code": "S2",
     "from": "A Parte 1 cobre parcerias estratégicas de forma ampla. A Parte 2 entra em franquias e licenciamento",
-    "to": "Este capítulo organiza a expansão indireta em três frentes práticas: primeiro, os cinco arquétipos de parceria estratégica e o que cada um rende; segundo, a fronteira jurídica e operacional entre revenda, licenciamento e franquia; terceiro, a mecânica econômica, o controle de conflitos e a gestão diária de canais."
+    "to": "A primeira seção examina os cinco arquétipos de parceria estratégica e o que cada um entrega na prática. A segunda aprofunda a fronteira operacional entre revenda, licenciamento e franquia"
   },
   {
     "id": "2780",
@@ -1593,7 +1593,7 @@
     "vol": "6",
     "code": "E9",
     "from": "Os royalties são pagamento recorrente sobre faturamento do franqueado, tipicamente quatro a dez por cento ao mês.",
-    "to": "Os royalties são pagamento recorrente calculado sobre o faturamento bruto mensal do franqueado (tipicamente de 4% a 10% do faturamento de cada mês, além de 1% a 4% do faturamento bruto mensal destinados ao fundo de propaganda)."
+    "to": "Os royalties são a remuneração recorrente calculada sobre o faturamento bruto mensal da unidade franqueada (tipicamente de 4% a 10% da receita bruta de cada mês)."
   },
   {
     "id": "2789",
@@ -1663,7 +1663,7 @@
     "vol": "6",
     "code": "E3",
     "from": "o *Franchising* é a máquina mais extraordinária de expansão física sem queimar o caixa próprio",
-    "to": "Bem estruturada, a franquia permite expandir a rede física sem imobilizar o caixa próprio; feita no improviso, vira fábrica de ações judiciais em série"
+    "to": "o sistema de franquias permite expandir a rede física com solidez sem imobilizar o caixa próprio da franqueadora"
   },
   {
     "id": "2802",
@@ -1768,7 +1768,7 @@
     "vol": "6",
     "code": "E9",
     "from": "O argumento tem mérito parcial, e defeito estrutural. Mérito. Sim, o comprador B2B justifica decisões por números. Defeito. Ele escolhe quem convidar para a conversa com critérios que são, no fundo, emocionais.",
-    "to": "O argumento tem mérito parcial. O comprador B2B justifica a decisão com números, mas escolhe quem convidar para a mesa por confiança, reputação e familiaridade."
+    "to": "O argumento tem mérito parcial. O comprador B2B justifica a escolha final com números na planilha, mas decide quem entra na lista de fornecedores avaliados a partir de sinais intangíveis de segurança."
   },
   {
     "id": "2825",
@@ -1992,7 +1992,7 @@
     "vol": "6",
     "code": "E9",
     "from": "o fundador pode, e deve, voltar ao fundador Mode em áreas específicas",
-    "to": "O fundador pode e deve voltar ao Founder Mode em áreas ou momentos específicos"
+    "to": "O fundador pode, e deve, voltar ao Founder Mode em áreas específicas"
   },
   {
     "id": "2898",
@@ -2048,7 +2048,7 @@
     "vol": "6",
     "code": "E9",
     "from": "CFO mediano gestionando mal por dezoito meses, sem ninguém perceber.",
-    "to": "O resultado típico é um CFO mediano conduzindo mal as finanças por dezoito meses sem ninguém perceber."
+    "to": "Um CFO mediano conduzindo mal o caixa e as finanças por dezoito meses, sem ninguém perceber."
   },
   {
     "id": "2908",
@@ -2524,7 +2524,7 @@
     "vol": "6",
     "code": "E9",
     "from": "Esse e o ponto que mais surpreende fundadores que estudaram modelo americano. A lei brasileira nao reconhece naturalmente o conceito de vesting de quotas em Ltda",
-    "to": "Esse é o ponto que mais surpreende fundadores que estudaram o modelo americano: a legislação societária brasileira não opera o *vesting* automático de quotas em Ltda. da mesma forma que as corporações de Delaware, exigindo estrutura contratual cuidadosa de opção ou recompra."
+    "to": "Esse é o ponto que mais surpreende fundadores que estudaram o modelo de Delaware: a legislação societária brasileira não opera a aquisição gradual (*vesting*) automática de participação diretamente no contrato social de uma sociedade limitada (LTDA)"
   },
   {
     "id": "3012",
@@ -2566,7 +2566,7 @@
     "vol": "6",
     "code": "E7",
     "from": "o acquirer sabe que no dia do closing todo o equity vesta imediatamente. Isso reduz o retention incentive pós-aquisição. Muitos acquirers descontam no preço",
-    "to": "o comprador sabe que, no dia do fechamento da aquisição, todas as opções serão adquiridas de uma só vez, reduzindo o incentivo de retenção pós-fechamento; por isso, muitos compradores descontam esse custo no preço da oferta ou exigem um novo pacote de retenção que dilui os fundadores."
+    "to": "o comprador sabe que, no dia do fechamento da aquisição, todas as opções serão adquiridas de uma só vez, reduzindo o incentivo de permanência pós-fechamento; por isso, muitos compradores descontam esse custo diretamente no preço da oferta"
   },
   {
     "id": "3018",
@@ -2692,7 +2692,7 @@
     "vol": "6",
     "code": "E7",
     "from": "Written company handbook (GitLab é referência pública). Culture stories, histórias específicas repetidas. Leadership development programs, focados em cultura",
-    "to": "Manual público da empresa por escrito (o do GitLab é referência aberta). Histórias reais da cultura recontadas no onboarding. Programas de formação de líderes focados em comportamento e cultura, além de entrevista estruturada de alinhamento aos valores no processo seletivo, com critérios objetivos."
+    "to": "Manual da empresa por escrito (o do GitLab é referência aberta). Histórias reais da cultura recontadas na integração de novos membros. Programas de formação de líderes focados em comportamento e cultura"
   },
   {
     "id": "3043",

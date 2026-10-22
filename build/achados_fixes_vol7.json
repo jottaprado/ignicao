@@ -396,7 +396,7 @@
     "vol": "7",
     "code": "C3",
     "from": "O modelo tornou-se o padrão *de facto* de organização ágil em escala em empresas de tecnologia entre 2013-2022.",
-    "to": "O artigo virou referência frequente de organização ágil em empresas de tecnologia entre 2013 e 2022, embora o próprio Henrik Kniberg tenha alertado que o texto registrava um retrato parcial de 2012, não um modelo fixo nem plenamente operado pela própria Spotify para ser copiado."
+    "to": "O artigo virou referência frequente de organização ágil em empresas de tecnologia entre 2013 e 2022, embora Henrik Kniberg tenha alertado que o texto registrava apenas um retrato parcial de 2012, não um método fixo nem plenamente operado pela companhia sueca para ser copiado no atacado."
   },
   {
     "id": "3164",
@@ -921,7 +921,7 @@
     "vol": "7",
     "code": "E9",
     "from": "A travessia tratada aqui e outra. Nao e a do fundador tecnico que vira CEO de fato. E a do engenheiro senior dentro do time",
-    "to": "A travessia tratada aqui é outra: não é a do fundador técnico que aprende a liderar a engenharia (vista no Capítulo 2), mas a do engenheiro sênior do time que assume pela primeira vez o cargo de Engineering Manager. Na superfície as duas se parecem; no dia a dia, exigem apoios diferentes."
+    "to": "A travessia tratada aqui é outra: não é a do fundador técnico que aprende a liderar a engenharia (vista no Capítulo 2), mas a do engenheiro sênior dentro do time"
   },
   {
     "id": "3262",
@@ -935,7 +935,7 @@
     "vol": "7",
     "code": "E1",
     "from": "EM novo nao vira gestor por treino, vira por exposicao supervisionada.",
-    "to": "O novo EM aprende o cargo exercendo-o na prática, com o próprio gestor acompanhando de perto."
+    "to": "O novo EM aprende o cargo exercendo-o na prática, com acompanhamento próximo de sua liderança direta."
   },
   {
     "id": "3264",
@@ -1047,7 +1047,7 @@
     "vol": "7",
     "code": "E4",
     "from": "A verdade nua sobre Inteligência Artificial na engenharia de software é que a IA não elimina a necessidade de rigor arquitetural",
-    "to": "Na engenharia de software, a Inteligência Artificial amplifica o que o time já é: uma equipe com arquitetura limpa, testes e revisão anda mais rápido; uma equipe sem disciplina quebra produção na mesma proporção."
+    "to": "Na engenharia de software, a Inteligência Artificial não substitui a disciplina arquitetural, os testes e a revisão de código"
   },
   {
     "id": "3289",
@@ -1355,7 +1355,7 @@
     "vol": "7",
     "code": "E1",
     "from": "o problema não é de atitude. É de design.",
-    "to": "Quando essa resposta se repete na rotina, é o próprio desenho organizacional que está incentivando a evasão."
+    "to": "é sinal de que o próprio desenho de fronteiras entre as equipes está incentivando a esquiva."
   },
   {
     "id": "3354",

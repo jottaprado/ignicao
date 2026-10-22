@@ -21,7 +21,7 @@ language: pt-BR
 
 Este é o **Volume 7 (Produto, Engenharia, Dados, IA e Operações)** da coleção **IGNIÇÃO: O manual operacional do empreendedor brasileiro** (10 volumes).
 
-O manual operacional do CTO, do CPO e do COO na scaleup brasileira. Abre com a Fase 17 (Operações, Processos e Gestão em Escala): trazendo embutidos todos os 20 frameworks mundiais de produto e operações (Continuous Discovery, Shape Up, Working Backwards PR/FAQ, Stage-Gate, Dual-Track Agile, OKRs, V2MOM, EOS, Scaling Up, MBO, Scrum, Kanban, DORA & SPACE, Amazon 6-Pager, WBR, 4DX, SIPOC, Value Stream Mapping, Toyota Kata e Spotify Model), o canvas Org Chart Evolution e 3 templates operacionais: , seguida por 10 capítulos sobre produto em múltiplos squads, transição do fundador técnico para gestão, recrutamento técnico, Engineering Management, DevEx e dívida técnica, IA na engenharia de software, AI Ops, design organizacional, gestão do conhecimento, comunicação interna e excelência operacional.
+O manual operacional do CTO, do CPO e do COO na scaleup brasileira. Abre com a Fase 17 (Operações, Processos e Gestão em Escala), reunindo 22 frameworks de produto e operação (do Continuous Discovery, Shape Up e OKRs ao Hoshin Kanri, DORA & SPACE, WBR e Toyota Kata), o canvas Org Chart Evolution e 3 templates operacionais, seguida por 10 capítulos sobre produto em múltiplos squads, transição do fundador técnico para gestão, recrutamento técnico, Engineering Management, DevEx e dívida técnica, IA na engenharia de software, operações com IA, design organizacional, gestão do conhecimento, comunicação interna e excelência operacional.
 
 ---
 
@@ -715,7 +715,7 @@ Discovery cosmético: PM "valida" via opinião de colegas em vez de usuários, D
 
 ---
 
-#### Framework: OKRs — Objectives and Key Results (Andy Grove, 1970s; John Doerr, popularizou)
+#### Framework: OKRs, Objectives and Key Results (Andy Grove, 1970s; John Doerr, popularizou)
 
 ##### De onde vem a ferramenta (e por que sobreviveu ao filtro do tempo)
 
@@ -1429,7 +1429,7 @@ Exemplo aplicado, equipe de CS de scaleup de healthtech. Direção: "cada client
 
 ##### De onde vem a ferramenta (e por que sobreviveu ao filtro do tempo)
 
-Henrik Kniberg, coach ágil da Spotify, e Anders Ivarsson publicaram em 2012 white paper descrevendo o modelo organizacional da Spotify, *Squads, Tribes, Chapters, Guilds*. O artigo virou referência frequente de organização ágil em empresas de tecnologia entre 2013 e 2022, embora o próprio Henrik Kniberg tenha alertado que o texto registrava um retrato parcial de 2012, não um modelo fixo nem plenamente operado pela própria Spotify para ser copiado. A própria Spotify evoluiu o modelo desde então (documentado em posts subsequentes), mas a versão original virou referência base. Adotado por ING, LEGO Digital, Starbucks, empresas brasileiras (Nubank em alguns estágios, Creditas, várias scaleups tech).
+Henrik Kniberg, coach ágil da Spotify, e Anders Ivarsson publicaram em 2012 white paper descrevendo o modelo organizacional da Spotify, *Squads, Tribes, Chapters, Guilds*. O artigo virou referência frequente de organização ágil em empresas de tecnologia entre 2013 e 2022, embora Henrik Kniberg tenha alertado que o texto registrava apenas um retrato parcial de 2012, não um método fixo nem plenamente operado pela companhia sueca para ser copiado no atacado. A própria Spotify evoluiu o modelo desde então (documentado em posts subsequentes), mas a versão original virou referência base. Adotado por ING, LEGO Digital, Starbucks, empresas brasileiras (Nubank em alguns estágios, Creditas, várias scaleups tech).
 
 ##### A mecânica central (sem jargão)
 
@@ -1453,7 +1453,7 @@ Exemplo aplicado no Brasil: o Nubank organizou a engenharia em squads multidisci
 
 ### TEMPLATES OPERACIONAIS E CASOS PREENCHIDOS DESTA FASE
 
-#### Template: OKRs trimestral preenchido — scaleup brasileira em PMF
+#### Template: OKRs trimestral preenchido, scaleup brasileira em PMF
 
 **Objetivo 1: Transformar retention em motor de crescimento sustentável**
 
@@ -1569,7 +1569,7 @@ Exemplo aplicado no Brasil: o Nubank organizou a engenharia em squads multidisci
 > [!tip] Princípios
 > OKRs são aspiracionais: atingir 70% de um KR ambicioso é sucesso. Não misture OKR com meta de bônus: isso cria sandbagging. Máximo de 3–5 Objectives por nível; máximo de 3–4 KRs por Objective.
 
-##### Nível 1 — OKRs da empresa (Anuais)
+##### Nível 1: OKRs da empresa (Anuais)
 
 **Contexto estratégico do ano:** `[Uma frase sobre o que esse ano representa para a empresa]`
 
@@ -1604,7 +1604,7 @@ Exemplo aplicado no Brasil: o Nubank organizou a engenharia em squads multidisci
 
 ---
 
-##### Nível 2 — OKRs de time (Trimestral)
+##### Nível 2: OKRs de time (Trimestral)
 
 > Cada time define seus OKRs trimestrais contribuindo para pelo menos um Objective da empresa. Um KR da empresa pode ser quebrado em múltiplos KRs de time ou gerar um Objective de time.
 
@@ -1623,7 +1623,7 @@ Exemplo aplicado no Brasil: o Nubank organizou a engenharia em squads multidisci
 
 ---
 
-##### Nível 3 — OKRs individuais (Trimestral)
+##### Nível 3: OKRs individuais (Trimestral)
 
 > Opcionais em empresas pequenas (< 15 pessoas). Obrigatórios em escala (> 50 pessoas). Derivam dos OKRs de time: o indivíduo apoia os KRs do time, não inventa objetivos pessoais desconectados.
 
@@ -1686,7 +1686,7 @@ No telão do All-Hands trimestral em São Paulo, o VP de Produto de Lucas e Mari
 
 A verdade dura que quase todo fundador descobre tarde demais é que escalar engenharia é fácil; difícil é escalar o discernimento sobre o que merece ser construído. Quando você cresce de um para seis squads sem redesenhar o processo de descoberta, você substitui o contato visceral com o cliente por um balcão de pedidos políticos onde o vendedor mais barulhento ou o executivo mais sênior dita o roadmap.
 
-Esse é o veneno da **A Fábrica de Funcionalidades Cega** (*Feature Factory*): a ilusão reconfortante de medir progresso por código em produção (*output*) em vez de mudança real no comportamento e no bolso do cliente (*outcome*). Em escala, código sem descoberta contínua é apenas dívida de manutenção financiada a juros altos.
+Marina deu nome ao diagnóstico logo na abertura da reunião: a equipe havia caído na armadilha da **Fábrica de Funcionalidades Cega** (*Feature Factory*), a ilusão reconfortante de medir progresso por código em produção (*output*) em vez de mudança real no comportamento e na retenção do cliente (*outcome*). Em escala, código sem descoberta contínua é apenas dívida de manutenção financiada a juros altos.
 
 ---
 
@@ -1947,7 +1947,7 @@ São 2h15 da madrugada de uma terça-feira no Itaim Bibi, em São Paulo. Lucas e
 
 Essa é a transição mais solitária e mal compreendida da carreira de um fundador técnico: o código que fez de você um cofundador indispensável no dia um transforma você no maior destruidor de autonomia do seu time no dia mil. Código aceita lógica binária, compila em segundos e nunca fica ressentido; seres humanos exigem contexto, erram para aprender e precisam sentir que são donos da arquitetura que constroem.
 
-Você está diante da **A Síndrome do Programador-Herói**: o vício dopaminérgico do fundador técnico que foge das conversas difíceis de gestão refugiando-se no teclado, sequestrando os problemas técnicos mais complexos e infantilizando sua própria equipe.
+Você está diante da **Síndrome do Programador-Herói**: o vício dopaminérgico do fundador técnico que foge das conversas difíceis de gestão refugiando-se no teclado, sequestrando os problemas técnicos mais complexos e infantilizando sua própria equipe.
 
 ---
 
@@ -2276,7 +2276,7 @@ O PIP em si tem estrutura clara:
 
 Quando Lucas reescreve código às 2h15 da madrugada e manda mensagens no Slack fora de horário, ele ensina ao time que heroísmo individual vale mais que processo previsível, além de criar passivo trabalhista de horas extras e sobreaviso (Súmula 428 do TST; ver Volume 8, Capítulo 7).
 
-#### Cultura não se declara, se pratica
+#### Cultura não se declara, se prática
 
 Toda empresa tem cultura de engenharia, queira ou não. A diferença é se ela foi construída com intenção ou se emergiu por acidente das práticas cotidianas. Na maioria das startups, emergiu por acidente.
 
@@ -2652,11 +2652,11 @@ Na primeira reunião de conselho após a Série A, o investidor líder olha para
 
 Fred Brooks já avisava em *The Mythical Man-Month*, mas toda scaleup repete o mesmo erro: adicionar mais engenheiros a um sistema com alta fricção de ferramentas e acoplamento arquitetural não acelera a entrega: apenas aumenta o custo de coordenação até a paralisia total.
 
-Você está pagando o preço do **O Atrito Sistêmico de Developer Experience (DevEx)**: a degradação silenciosa do ambiente de construção onde engenheiros caros gastam boa parte da semana lutando contra pipelines lentos, filas de aprovação e dependências cruzadas (como as 12 horas de reunião e os três dias de espera da equipe de Lucas), sobrando uma fração reduzida do tempo para gerar valor direto ao cliente.
+Você está pagando o preço do **Atrito Sistêmico de Developer Experience (DevEx)**: a degradação silenciosa do ambiente de construção onde engenheiros caros gastam boa parte da semana lutando contra pipelines lentos, filas de aprovação e dependências cruzadas (como as 12 horas de reunião e os três dias de espera da equipe de Lucas), sobrando uma fração reduzida do tempo para gerar valor direto ao cliente.
 
 ---
 
-Para a metodologia geral de bandas salariais e benchmarks brasileiros, ver [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 11 — COMPENSAÇÃO E BENEFÍCIOS NO BRASIL|Capítulo 11 (Compensação e Benefícios no Brasil) (Vol. 6)]]. As faixas tratadas neste capítulo sao especializacao para engineering.
+Para a metodologia geral de bandas salariais e benchmarks brasileiros, ver [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 11 — COMPENSAÇÃO E BENEFÍCIOS NO BRASIL|Capítulo 11 (Compensação e Benefícios no Brasil) (Vol. 6)]]. As faixas tratadas neste capítulo são especialização para engineering.
 
 Engenharia de software é a função organizacional que escala de forma mais singular dentro de uma empresa. As regras de um time comercial de 20 pessoas não funcionam num time técnico de 20 pessoas, e a estrutura de comando que dá certo em operações trava no desenvolvimento de produto. O caso de Lucas mostra que até fundadores altamente técnicos erram na passagem de 20 para 42 engenheiros: ele continuou gerindo quatro dezenas de desenvolvedores como se ainda coubessem na mesma sala, sem investir em plataforma interna, automação de esteira e rituais de arquitetura. O resultado, tanto para o fundador técnico que não redesenha o sistema quanto para o fundador não técnico que importa réguas de outras áreas, é o mesmo: saída dos melhores seniores, dívida técnica crescente e queda de entrega líquida a cada nova contratação.
 
@@ -2713,7 +2713,7 @@ Para empresas que captam em USD e operam no Brasil, as faixas podem ser substanc
 
 Revisar bandas anualmente. Mercado de engenharia no Brasil teve inflação salarial entre 2020-2022 (dolarização, remoto global), correção parcial em 2023-2024, manter bandas estáticas por dois anos é fonte garantida de saídas.
 
-#### Template de Career Ladder — Critérios por Dimensão
+#### Template de Career Ladder: Critérios por Dimensão
 
 A tabela a seguir é um template base para formalizar o career ladder. Adapte para a realidade da sua empresa, mas mantenha os três eixos (Escopo, Impacto, Autonomia) e exemplos concretos para cada level: critérios vagos produzem avaliações inconsistentes.
 
@@ -2744,29 +2744,29 @@ Um dos erros mais comuns em empresas brasileiras de porte médio: acumular as du
 - **Tech Lead** é um IC com responsabilidade técnica sobre um time, define arquitetura, faz revisões críticas de código e tem a palavra final para destravar decisões técnicas do time. Não gerencia pessoas, não aprova férias, não faz 1:1s de desenvolvimento pessoal.
 - **Engineering Manager** gerencia pessoas, desenvolvimento de carreira, performance reviews, alocação, contratações. Pode ou não codar no dia a dia, se codar, tende a fazer em menor escopo.
 
-Acumular os dois papéis normalmente leva a negligência em um deles, ou a pessoa gerencia bem e o time perde referência técnica, ou a pessoa mantém contribuição técnica forte e abandona gestão. Em times de 6-10 pessoas, separar os papéis desde o começo é investimento com retorno garantido. Para a travessia especifica do fundador tecnico que vira gestor, ver [[#CAPÍTULO 2 — MANAGEMENT PARA O FUNDADOR TÉCNICO|Capítulo 2 (Management para o Fundador Técnico)]].
+Acumular os dois papéis normalmente leva a negligência em um deles, ou a pessoa gerencia bem e o time perde referência técnica, ou a pessoa mantém contribuição técnica forte e abandona gestão. Em times de 6-10 pessoas, separar os papéis desde o começo é investimento com retorno garantido. Para a travessia específica do fundador técnico que vira gestor, ver [[#CAPÍTULO 2 — MANAGEMENT PARA O FUNDADOR TÉCNICO|Capítulo 2 (Management para o Fundador Técnico)]].
 
 ### A Promoção de Alto Risco: Transformando Seu Melhor Desenvolvedor no Primeiro Engineering Manager
 
-A travessia tratada aqui é outra: não é a do fundador técnico que aprende a liderar a engenharia (vista no Capítulo 2), mas a do engenheiro sênior do time que assume pela primeira vez o cargo de Engineering Manager. Na superfície as duas se parecem; no dia a dia, exigem apoios diferentes. que aceita virar Engineering Manager pela primeira vez na carreira. As duas se parecem na superficie e divergem no conteudo.
+A travessia tratada aqui é outra: não é a do fundador técnico que aprende a liderar a engenharia (vista no Capítulo 2), mas a do engenheiro sênior dentro do time que aceita virar Engineering Manager pela primeira vez na carreira. As duas se parecem na superficie e divergem no conteúdo.
 
-EM novo e o cargo de maior turnover em organizacoes de engenharia em escala. Doze a dezoito meses depois da promocao, o EM novo larga o cargo, volta para IC, ou e desmontado pela propria area. Tres choques explicam a maior parte dessa mortalidade.
+EM novo e o cargo de maior turnover em organizacoes de engenharia em escala. Doze a dezoito meses depois da promoção, o EM novo larga o cargo, volta para IC, ou e desmontado pela própria area. Três choques explicam a maior parte dessa mortalidade.
 
-O primeiro choque é de identidade (como vimos na travessia do fundador no Capítulo 2): o engenheiro promovido construiu reputação sendo quem resolve na unha, mas como EM precisa formar quem resolve e contar com a supervisão próxima do seu próprio diretor. O EM precisa virar quem decide quem resolve. A diferenca parece pequena no organograma e e enorme na cabeca. Quem nao faz a passagem fica resolvendo as coisas e deixando o time sem direcao.
+O primeiro choque é de identidade (como vimos na travessia do fundador no Capítulo 2): o engenheiro promovido construiu reputação sendo quem resolve na unha, mas como EM precisa formar quem resolve e contar com a supervisão próxima do seu próprio diretor. O EM precisa virar quem decide quem resolve. A diferença parece pequena no organograma e enorme na cabeça. Quem não faz a passagem fica resolvendo as coisas e deixando o time sem direcao.
 
-O segundo choque e de metricas. O IC mede valor em codigo entregue, bugs fechados, sistemas no ar. O EM mede valor em resultado do time agregado e em saude do time ao longo dos meses. O sinal demora a chegar e e ambiguo. Quem nao tolera essa defasagem volta para o que da feedback rapido, e codigo.
+O segundo choque e de metricas. O IC mede valor em código entregue, bugs fechados, sistemas no ar. O EM mede valor em resultado do time agregado e em saude do time ao longo dos meses. O sinal demora a chegar e ambíguo. Quem não tolera essa defasagem volta para o que da feedback rapido, e código.
 
-O terceiro choque e de tempo. O IC opera em blocos longos de foco. O EM opera em calendar fragmentado por 1:1s, contratacao, calibration, conversas de carreira. Quem tenta manter o calendario antigo entrega mal os dois lados.
+O terceiro choque é de tempo. O IC opera em blocos longos de foco. O EM opera em calendar fragmentado por 1:1s, contratação, calibration, conversas de carreira. Quem tenta manter o calendário antigo entrega mal os dois lados.
 
-O gestor do EM novo tem trabalho proprio nesse periodo. Contrato explicito de papel no dia da promocao, com escopo, expectativas e o que deixa de ser cobrado. Mentoria semanal nos primeiros seis meses, focada em situacoes concretas de pessoas e processo. Primeira avaliacao formal aos noventa dias, com criterios distintos dos que avaliaram a pessoa como IC.
+O gestor do EM novo tem trabalho próprio nesse período. Contrato explícito de papel no dia da promoção, com escopo, expectativas e o que deixa de ser cobrado. Mentoria semanal nos primeiros seis meses, focada em situações concretas de pessoas e processo. Primeira avaliação formal aos noventa dias, com critérios distintos dos que avaliaram a pessoa como IC.
 
-O EM novo, do lado dele, precisa abandonar tres coisas. Codigo critico, mesmo que doa delegar. Reunioes tecnicas onde nao adiciona alem de presenca. E a ilusao de que pode "fazer junto" o que entregava sozinho antes. O time nao precisa de mais um IC mediano disfarcado de manager.
+O EM novo, do lado dele, precisa abandonar três coisas. Código crítico, mesmo que doa delegar. Reuniões técnicas onde não adiciona além de presença. É a ilusão de que pode "fazer junto" o que entregava sozinho antes. O time não precisa de mais um IC mediano disfarcado de manager.
 
-Sinais de fracasso aparecem cedo. EM voltando para IC sem combinado. Time sem cadence visivel de 1:1, weekly e planning. Decisoes paradas no EM por semanas. Quando dois desses sinais coexistem aos seis meses, o gestor do gestor precisa intervir, nao esperar a avaliacao anual.
+Sinais de fracasso aparecem cedo. EM voltando para IC sem combinado. Time sem cadence visivel de 1:1, weekly e planning. Decisoes paradas no EM por semanas. Quando dois desses sinais coexistem aos seis meses, o gestor do gestor precisa intervir, não esperar a avaliação anual.
 
-O novo EM aprende o cargo exercendo-o na prática, com o próprio gestor acompanhando de perto. O gestor do gestor define o sucesso da transicao.
+O novo EM aprende o cargo exercendo-o na prática, com acompanhamento próximo de sua liderança direta. O gestor do gestor define o sucesso da transição.
 
-Para a transicao especifica do fundador tecnico, ver [[#CAPÍTULO 2 — MANAGEMENT PARA O FUNDADOR TÉCNICO|Capítulo 2 (Management para o Fundador Técnico)]].
+Para a transição específica do fundador técnico, ver [[#CAPÍTULO 2 — MANAGEMENT PARA O FUNDADOR TÉCNICO|Capítulo 2 (Management para o Fundador Técnico)]].
 
 #### Chapters, Squads e Guilds
 
@@ -3038,9 +3038,9 @@ Pare de adivinhar por que a engenharia parece lenta e meça a realidade física 
 
 Em janeiro de 2026, Lucas decidiu liberar irrestritamente agentes autônomos de geração de código para todos os quarenta desenvolvedores da sua scaleup em Florianópolis e São Paulo, prometendo ao conselho dobrar a velocidade do roadmap sem contratar ninguém. Nas primeiras três semanas, a euforia tomou conta do escritório: o volume de pull requests abertos subiu 210% e funcionalidades inteiras brotavam da noite para o dia. Na quarta semana, o pesadelo começou. O tamanho médio dos PRs triplicou, os engenheiros seniores ficaram soterrados revisando milhares de linhas de código verboso gerado por IA que os desenvolvedores juniores não sabiam explicar como funcionava, e uma falha sutil de injeção de SQL passou batida na revisão, expondo dados cadastrais de clientes e obrigando Lucas e Marina a acionar o plano de resposta a incidentes e comunicar a ocorrência à ANPD e aos titulares em três dias úteis (Resolução CD/ANPD 15/2024). O tropeço de Lucas é o fio condutor deste capítulo: veremos o que um piloto controlado de quatro semanas teria mostrado, a política de uso seguro e revisão humana que ele escreveu após o vazamento e a troca da métrica de vaidade (volume de PRs) por tempo de ciclo e taxa de falha em produção.
 
-Na engenharia de software, a Inteligência Artificial amplifica o que o time já é: uma equipe com arquitetura limpa, testes e revisão anda mais rápido; uma equipe sem disciplina quebra produção na mesma proporção.: ela amplifica exponencialmente tanto a competência quanto a incompetência do seu time. Quando escrever código fica quase gratuito, o gargalo da engenharia deixa de ser a digitação e passa a ser a especificação, a revisão crítica, os testes automatizados e a segurança.
+Na engenharia de software, a Inteligência Artificial não substitui a disciplina arquitetural, os testes e a revisão de código: ela amplifica exponencialmente tanto a competência quanto a incompetência do seu time. Quando escrever código fica quase gratuito, o gargalo da engenharia deixa de ser a digitação e passa a ser a especificação, a revisão crítica, os testes automatizados e a segurança.
 
-Se você adotar agentes de código sem redesenhar seu funil de qualidade, você cairá na **A Inflação de Código Alucinado**: a produção industrial de código órfão que ninguém na sua empresa compreende de verdade até o momento em que ele explode em produção.
+Se você adotar agentes de código sem redesenhar seu funil de qualidade, você cairá na **Inflação de Código Alucinado**: a produção industrial de código órfão que ninguém na sua empresa compreende de verdade até o momento em que ele explode em produção.
 
 ---
 
@@ -3306,7 +3306,7 @@ Em Belo Horizonte, a Dra. Camila enfrentava a parede clássica das empresas de s
 
 O segredo sujo do crescimento tradicional é que muitas empresas confundem crescer o negócio com inchar a folha de pagamento em tarefas mecânicas de copiar e colar entre sistemas que não conversam.
 
-Bem-vindo à era da **A Escala Desacoplada de Headcount (AI Ops)**: a disciplina de mapear processos internos ponta a ponta, eliminar etapas inúteis, automatizar o determinístico com código tradicional e usar LLMs apenas onde há interpretação de linguagem ou documento não estruturado, mantendo humanos apenas na aprovação de exceções críticas.
+Essa arquitetura de **Operações com IA e Escala Desacoplada de Headcount** (aplicação de agentes e automação aos processos de negócio, distinta do termo de TI *AIOps* usado pelo Gartner para monitoramento de infraestrutura) consiste em mapear processos ponta a ponta, eliminar etapas inúteis, automatizar o determinístico com código tradicional e acionar modelos de linguagem onde há interpretação documental, mantendo humanos na aprovação de exceções críticas.
 
 ---
 
@@ -3742,7 +3742,7 @@ Em Recife, quando o marketplace D2C de Rafael e Bia bateu quarenta e oito funcio
 
 Melvin Conway formulou em 1967 a lei que nenhum organograma bonito consegue revogar: qualquer organização que projeta um sistema produzirá inevitavelmente um design cuja estrutura é uma cópia exata da estrutura de comunicação dessa organização.
 
-Quando você copia o organograma de uma gigante de cinco mil funcionários para uma startup de cinquenta pessoas, você cai no **O Cargo Cult Organizacional** e sofre o golpe do **O Espelho Implícito da Lei de Conway**: suas fronteiras de time mal desenhadas viram APIs lentas, disputas de território e paralisia decisória.
+Copiar o organograma de uma corporação de cinco mil funcionários dentro de uma startup de cinquenta pessoas tem nome: **Cargo Cult Organizacional**. Pela Lei de Conway, fronteiras de time mal desenhadas transformam-se rapidamente em APIs lentas, disputas de território e paralisia decisória.
 
 ---
 
@@ -3761,13 +3761,13 @@ O fundador que estrutura o ciclo completo de gestão de pessoas atravessa divers
 **Atrair e contratar**
 
 - [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 9 — EXECUTIVE HIRING: CONTRATAR LÍDERES SÊNIOR E C-LEVEL|Capítulo 9 (Executive Hiring: Contratar Líderes Sênior e C-Level) (Vol. 6)]], executive hiring (C-level)
-- [[#CAPÍTULO 3 — RECRUTAMENTO TÉCNICO EM PROFUNDIDADE|Capítulo 3 (Recrutamento Técnico em Profundidade)]], recrutamento tecnico
+- [[#CAPÍTULO 3 — RECRUTAMENTO TÉCNICO EM PROFUNDIDADE|Capítulo 3 (Recrutamento Técnico em Profundidade)]], recrutamento técnico
 
 **Desenhar a organizacao**
 
 - FB (este capítulo), design organizacional
 - [[#CAPÍTULO 8 — GESTÃO DO CONHECIMENTO|Capítulo 8 (Gestão do Conhecimento)]], gestao do conhecimento
-- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 15 — REMOTE, HYBRID E DISTRIBUÍDO COMO DISCIPLINA|Capítulo 15 (Remote, Hybrid e Distribuído como Disciplina) (Vol. 6)]], remoto e hibrido
+- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 15 — REMOTE, HYBRID E DISTRIBUÍDO COMO DISCIPLINA|Capítulo 15 (Remote, Hybrid e Distribuído como Disciplina) (Vol. 6)]], remoto e híbrido
 
 **Pagar e medir**
 
@@ -3785,7 +3785,7 @@ O fundador que estrutura o ciclo completo de gestão de pessoas atravessa divers
 - [[#CAPÍTULO 4 — ENGINEERING MANAGEMENT, DEVELOPER EXPERIENCE E GESTÃO DE DÍVIDA TÉCNICA|Capítulo 4 (Engineering Management, Developer Experience e Gestão de Dívida Técnica)]], engineering management (raiz)
 - [[#CAPÍTULO 4 — ENGINEERING MANAGEMENT, DEVELOPER EXPERIENCE E GESTÃO DE DÍVIDA TÉCNICA|Capítulo 4 (Engineering Management, Developer Experience e Gestão de Dívida Técnica)]], debt
 - [[#CAPÍTULO 5 — IA NA ENGENHARIA INTERNA: COPILOT, AGENTES E PRODUTIVIDADE DE DEV|Capítulo 5 (IA na Engenharia Interna: Copilot, Agentes e Produtividade de Dev)]], IA na engenharia
-- [[#CAPÍTULO 2 — MANAGEMENT PARA O FUNDADOR TÉCNICO|Capítulo 2 (Management para o Fundador Técnico)]], a transicao do fundador tecnico
+- [[#CAPÍTULO 2 — MANAGEMENT PARA O FUNDADOR TÉCNICO|Capítulo 2 (Management para o Fundador Técnico)]], a transição do fundador técnico
 
 **Founder humano**
 
@@ -3794,24 +3794,24 @@ O fundador que estrutura o ciclo completo de gestão de pessoas atravessa divers
 - [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 1 — DINHEIRO PESSOAL DO FUNDADOR|Capítulo 1 (Dinheiro Pessoal do Fundador) (Vol. 1)]], dinheiro pessoal
 - [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 2 — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Capítulo 2 (Saúde Mental, Dinâmica de cofundadores e Humanidade do Fundador) (Vol. 1)]], saude mental e cofounders
 
-**Comunicacao** (sete capítulos, com mapa de delimitacao proprio em cada um)
+**Comunicacao** (sete capítulos, com mapa de delimitacao próprio em cada um)
 
-- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 7 — MARCA CORPORATIVA, PR, COMUNICAÇÃO PÚBLICA E MARCA PESSOAL DO FUNDADOR|Capítulo 7 (Marca Corporativa, PR, Comunicação Pública e Marca Pessoal do Fundador) (Vol. 6)]], publica
+- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 7 — MARCA CORPORATIVA, PR, COMUNICAÇÃO PÚBLICA E MARCA PESSOAL DO FUNDADOR|Capítulo 7 (Marca Corporativa, PR, Comunicação Pública e Marca Pessoal do Fundador) (Vol. 6)]], pública
 - [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 7 — MARCA CORPORATIVA, PR, COMUNICAÇÃO PÚBLICA E MARCA PESSOAL DO FUNDADOR|Capítulo 7 (Marca Corporativa, PR, Comunicação Pública e Marca Pessoal do Fundador) (Vol. 6)]], marca pessoal
 - [[#CAPÍTULO 9 — COMUNICAÇÃO INTERNA|Capítulo 9 (Comunicação Interna)]], interna
 - [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 8 — COMUNICAÇÃO ESCRITA PARA NEGÓCIOS|Capítulo 8 (Comunicação Escrita para Negócios) (Vol. 1)]], escrita
-- [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 9 — APRESENTAÇÃO E FALA EM PÚBLICO|Capítulo 9 (Apresentação e Fala em Público) (Vol. 1)]], fala em publico
+- [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 9 — APRESENTAÇÃO E FALA EM PÚBLICO|Capítulo 9 (Apresentação e Fala em Público) (Vol. 1)]], fala em público
 - [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 7 — INFLUÊNCIA E PERSUASÃO SEM AUTORIDADE FORMAL|Capítulo 7 (Influência e Persuasão sem Autoridade Formal) (Vol. 1)]], persuasao
 - [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9 — GESTÃO DE CRISE, CONTINUIDADE OPERACIONAL E COMUNICAÇÃO CRÍTICA|Capítulo 9 (Gestão de Crise, Continuidade Operacional e Comunicação Crítica) (Vol. 9)]], crise
 
 **Saida**
 
 - [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 10 — LAYOFFS E DOWNSIZING: COMO DEMITIR EM ESCALA SEM DESTRUIR A EMPRESA|Capítulo 10 (Layoffs e Downsizing: Como Demitir em Escala sem Destruir a Empresa) (Vol. 9)]], layoffs
-- [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 18 — SUCESSÃO NO EXIT, TRANSIÇÃO PÓS-AQUISIÇÃO (M&A) E RETENÇÃO DE TALENTOS|Capítulo 18 (Sucessão no Exit, Transição Pós-Aquisição (M&A) e Retenção de Talentos) (Vol. 9)]], retencao pos M&A
+- [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 18 — SUCESSÃO NO EXIT, TRANSIÇÃO PÓS-AQUISIÇÃO (M&A) E RETENÇÃO DE TALENTOS|Capítulo 18 (Sucessão no Exit, Transição Pós-Aquisição (M&A) e Retenção de Talentos) (Vol. 9)]], retenção pos M&A
 
 ---
 
-### 7.1 — Lei de Conway aplicada a startups
+### 7.1: Lei de Conway aplicada a startups
 
 Em abril de 1968, na revista *Datamation*, o programador Melvin Conway publicou no artigo *"How Do Committees Invent?"* a observação que se tornaria clássica: "As organizações que projetam sistemas são constrangidas a produzir sistemas cujos designs são cópias das estruturas de comunicação dessas organizações."
 
@@ -3834,7 +3834,7 @@ A Lei de Conway não determina que estrutura criar. Ela exige pensar estrutura d
 
 ---
 
-### 7.2 — Modelos de estrutura
+### 7.2: Modelos de estrutura
 
 Existem quatro arquétipos de estrutura organizacional relevantes para startups em crescimento (funcional, por missão/squads, orientado a plataforma e matricial, em que o profissional responde simultaneamente a um líder funcional e a um líder de produto ou região, modelo que gera paralisia se adotado cedo demais). Eles não são estágios evolutivos lineares: são escolhas com trade-offs.
 
@@ -3879,7 +3879,7 @@ A regra prática: mude de modelo quando o custo de coordenação na estrutura at
 
 ---
 
-### 7.3 — Spans and layers
+### 7.3: Spans and layers
 
 Amplitude de comando (span of control) é o número de liderados diretos que se reportam a um gestor. Layer (camada hierárquica) é cada nível entre o CEO e o colaborador individual.
 
@@ -3901,7 +3901,7 @@ Cada camada adicional na hierarquia tem custos que não aparecem no organograma:
 > [!tip] Regra prática de camadas por tamanho
 > Empresas de até 50 pessoas funcionam bem com 2 camadas (CEO mais líderes de área). Empresas de 50 a 150 pessoas raramente precisam de mais de 3 camadas. Empresas de 150 a 500 pessoas chegam a 4. Cada camada acima desse referencial precisa de justificativa explícita. Não "faz sentido ter um gerente médio aqui", mas "sem essa camada, este problema específico não tem solução".
 
-Span otimo varia conforme o time e presencial, hibrido ou totalmente distribuido. Para a disciplina de remoto e hibrido, ver [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 15 — REMOTE, HYBRID E DISTRIBUÍDO COMO DISCIPLINA|Capítulo 15 (Remote, Hybrid e Distribuído como Disciplina) (Vol. 6)]].
+Span otimo varia conforme o time e presencial, híbrido ou totalmente distribuído. Para a disciplina de remoto e híbrido, ver [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 15 — REMOTE, HYBRID E DISTRIBUÍDO COMO DISCIPLINA|Capítulo 15 (Remote, Hybrid e Distribuído como Disciplina) (Vol. 6)]].
 
 #### Quando criar nova camada
 
@@ -3919,7 +3919,7 @@ Não crie nova camada para:
 
 ---
 
-### 7.4 — Squads autônomas
+### 7.4: Squads autônomas
 
 Squad autônoma não é time que faz o que quer. É time com missão clara, escopo bem definido, ownership (responsabilidade primária) de uma área de produto e capacidade de entregar valor sem depender de outro time para cada decisão operacional.
 
@@ -3944,11 +3944,11 @@ A primeira causa é escopo mal definido. A solução é clarificar os escopos e 
 A segunda causa é incentivo errado. Se cada squad é avaliada somente pelo seu próprio OKR, qualquer problema que cruze escopos não tem dono com incentivo para resolver. A solução é criar OKRs compartilhados para outcomes que cruzam squads, e tornar a colaboração visível e recompensada.
 
 > [!important] Sinal de problema sistêmico
-> Se você ouve "isso não é nossa squad" mais de duas vezes por mês, Quando essa resposta se repete na rotina, é o próprio desenho organizacional que está incentivando a evasão. Squads bem desenhadas têm incentivo e mecanismo para resolver o que pertence ao seu domínio. Quando o comportamento de evasão se generaliza, o design organizacional está criando o comportamento.
+> Se você ouve "isso não é nossa squad" mais de duas vezes por mês, é sinal de que o próprio desenho de fronteiras entre as equipes está incentivando a esquiva. Squads bem desenhadas têm incentivo e mecanismo para resolver o que pertence ao seu domínio. Quando o comportamento de evasão se generaliza, o design organizacional está criando o comportamento.
 
 ---
 
-### 7.5 — Reorganizações
+### 7.5: Reorganizações
 
 Reorganização é uma das operações mais custosas que uma empresa pode fazer. E é uma das mais usadas como escape de problemas que não são estruturais.
 
@@ -3987,7 +3987,7 @@ Se a reorganização for necessária, execute rápido e comunique honestamente.
 
 ---
 
-### 7.6 — Crescimento e estrutura — o que quebra em cada limiar
+### 7.6: Crescimento e estrutura: o que quebra em cada limiar
 
 A heurística de Robin Dunbar (formulada para o limiar de 150 relações nos artigos de 1992–1993 e expandida em 2003–2005 para as camadas de 5, 15, 50, 150 e 500, embora debatida empiricamente por estudos recentes como Lindenfors et al., 2021) oferece uma lente útil para enxergar onde a coordenação informal quebra. Cada limiar representa um ponto onde os mecanismos informais de coordenação falham e precisam ser substituídos por mecanismos formais.
 
@@ -4030,7 +4030,7 @@ O que precisa ser criado: plataformas internas que permitem autonomia das unidad
 
 ---
 
-### 7.7 — Platform teams e enablement
+### 7.7: Platform teams e enablement
 
 Platform team (time de plataforma interna) é um time que existe para aumentar a velocidade de entrega de outros times. Não entrega produto diretamente para o cliente externo. A distinção é importante porque define o modelo de sucesso do time.
 
@@ -4075,7 +4075,7 @@ O antídoto para o platform team disfuncional é tratar a plataforma como produt
 
 ---
 
-### 7.8 — Remoto, presencial e híbrido no contexto brasileiro
+### 7.8: Remoto, presencial e híbrido no contexto brasileiro
 
 O debate remoto versus presencial no Brasil tem uma dimensão que os frameworks americanos ignoram: a CLT.
 
@@ -4207,7 +4207,7 @@ Em uma manhã de segunda-feira em Curitiba, o engenheiro de operações mais ant
 
 Todo fundador jura que "vai documentar tudo quando a correria diminuir". A correria nunca diminui: e cada mês de crescimento sem gestão do conhecimento concentra o capital intelectual que você pagou milhões para construir dentro do cérebro biológico de três ou quatro funcionários que podem sair amanhã.
 
-Você está operando sob o risco da **A Amnésia Corporativa por Demissão** (*Bus Factor 1*): a fragilidade estrutural onde o conhecimento crítico da empresa é tribal, oral e volátil, obrigando cada novo contratado a aprender por arqueologia no Slack e tornando a empresa refém de heróis insubstituíveis.
+Você está operando sob o risco da **Amnésia Corporativa por Demissão** (quando o *bus factor*, isto é, o número de pessoas cuja saída basta para paralisar um processo crítico, é igual a 1): a fragilidade estrutural em que o conhecimento da empresa permanece oral e volátil, obrigando cada novo contratado a fazer arqueologia no Slack.
 
 ---
 
@@ -4671,16 +4671,16 @@ Quando sua empresa passa de quinze para sessenta ou duzentas pessoas, falar de i
 ---
 
 > [!abstract] Onde este capítulo se posiciona nos sete capítulos de comunicação da coleção:
-> O livro tem sete capítulos de comunicacao com territorios distintos,
-> - [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 7 — MARCA CORPORATIVA, PR, COMUNICAÇÃO PÚBLICA E MARCA PESSOAL DO FUNDADOR|Capítulo 7 (Marca Corporativa, PR, Comunicação Pública e Marca Pessoal do Fundador) (Vol. 6)]], narrativa publica e imprensa
-> - [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 7 — MARCA CORPORATIVA, PR, COMUNICAÇÃO PÚBLICA E MARCA PESSOAL DO FUNDADOR|Capítulo 7 (Marca Corporativa, PR, Comunicação Pública e Marca Pessoal do Fundador) (Vol. 6)]], marca pessoal e canais proprios
-> - Capítulo 9 (Comunicação Interna), comunicacao com o time
+> O livro tem sete capítulos de comunicação com territorios distintos,
+> - [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 7 — MARCA CORPORATIVA, PR, COMUNICAÇÃO PÚBLICA E MARCA PESSOAL DO FUNDADOR|Capítulo 7 (Marca Corporativa, PR, Comunicação Pública e Marca Pessoal do Fundador) (Vol. 6)]], narrativa pública e imprensa
+> - [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 7 — MARCA CORPORATIVA, PR, COMUNICAÇÃO PÚBLICA E MARCA PESSOAL DO FUNDADOR|Capítulo 7 (Marca Corporativa, PR, Comunicação Pública e Marca Pessoal do Fundador) (Vol. 6)]], marca pessoal e canais próprios
+> - Capítulo 9 (Comunicação Interna), comunicação com o time
 > - [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 8 — COMUNICAÇÃO ESCRITA PARA NEGÓCIOS|Capítulo 8 (Comunicação Escrita para Negócios) (Vol. 1)]], escrita executiva (memo, update, postmortem)
-> - [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 9 — APRESENTAÇÃO E FALA EM PÚBLICO|Capítulo 9 (Apresentação e Fala em Público) (Vol. 1)]], fala em publico (pitch, all-hands, board)
+> - [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 9 — APRESENTAÇÃO E FALA EM PÚBLICO|Capítulo 9 (Apresentação e Fala em Público) (Vol. 1)]], fala em público (pitch, all-hands, board)
 > - [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 7 — INFLUÊNCIA E PERSUASÃO SEM AUTORIDADE FORMAL|Capítulo 7 (Influência e Persuasão sem Autoridade Formal) (Vol. 1)]], persuasao sem autoridade
-> - [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9 — GESTÃO DE CRISE, CONTINUIDADE OPERACIONAL E COMUNICAÇÃO CRÍTICA|Capítulo 9 (Gestão de Crise, Continuidade Operacional e Comunicação Crítica) (Vol. 9)]], comunicacao em crise
+> - [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9 — GESTÃO DE CRISE, CONTINUIDADE OPERACIONAL E COMUNICAÇÃO CRÍTICA|Capítulo 9 (Gestão de Crise, Continuidade Operacional e Comunicação Crítica) (Vol. 9)]], comunicação em crise
 >
-> Este capítulo cobre comunicacao interna com o time, rituais e mecanismos que sustentam alinhamento em escala. Para os outros territorios, ver acima.
+> Este capítulo cobre comunicação interna com o time, rituais e mecanismos que sustentam alinhamento em escala. Para os outros territorios, ver acima.
 
 A arquitetura de comunicação interna sustenta a cultura, a transparência e o alinhamento conforme a empresa escala.
 
@@ -4962,7 +4962,7 @@ ESTRUTURA DE CANAIS - REFERÊNCIA
 
 ---
 
-### 7. Feedback Ascendente — Como o Time Fala com a Liderança sem Medo
+### 7. Feedback Ascendente: Como o Time Fala com a Liderança sem Medo
 
 O mecanismo mais importante e menos implementado de comunicação interna é o feedback ascendente: a capacidade de o time dar feedback honesto para a liderança sem consequência. Sem esse mecanismo, a empresa opera com informação filtrada: a liderança recebe a versão polida da realidade, toma decisões com dados errados, e se surpreende quando pessoas-chave pedem demissão.
 
@@ -5120,12 +5120,12 @@ Você precisa dominar **O Gargalo Móvel da Teoria das Restrições** e **A Obse
 
 ---
 
-> [!abstract] Posicao no livro
-> Operacao como vantagem competitiva, processo, cadencia e instrumentacao para escala previsivel. Vizinhos relevantes,
-> - [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 8 — GESTÃO DE RISCO E SEGUROS PARA STARTUPS|Capítulo 8 (Gestão de Risco e Seguros para Startups) (Vol. 5)]], transferencia de risco residual via seguros
+> [!abstract] Posição no livro
+> Operação como vantagem competitiva, processo, cadencia e instrumentacao para escala previsivel. Vizinhos relevantes,
+> - [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 8 — GESTÃO DE RISCO E SEGUROS PARA STARTUPS|Capítulo 8 (Gestão de Risco e Seguros para Startups) (Vol. 5)]], transferência de risco residual via seguros
 > - [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9 — GESTÃO DE CRISE, CONTINUIDADE OPERACIONAL E COMUNICAÇÃO CRÍTICA|Capítulo 9 (Gestão de Crise, Continuidade Operacional e Comunicação Crítica) (Vol. 9)]], BCP e DRP como camada operacional de continuidade
-> - [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 13 — SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA|Capítulo 13 (Segurança da Informação: Da Certificação à Engenharia) (Vol. 8)]], seguranca como disciplina operacional
-> - [[#CAPÍTULO 7 — DESIGN ORGANIZACIONAL|Capítulo 7 (Design Organizacional)]], desenho de equipes, papeis e cadencias que sustentam a operacao
+> - [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 13 — SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA|Capítulo 13 (Segurança da Informação: Da Certificação à Engenharia) (Vol. 8)]], segurança como disciplina operacional
+> - [[#CAPÍTULO 7 — DESIGN ORGANIZACIONAL|Capítulo 7 (Design Organizacional)]], desenho de equipes, papéis e cadências que sustentam a operação
 > - Capítulos setoriais com operação física (como Saúde, Indústria, Logística e Varejo no Volume 10), quando o playbook exige integração com o mundo físico
 
 Processos, Infraestrutura e Excelência Operacional
@@ -5156,7 +5156,7 @@ LTV/CAC saudável
 Margem para reinvestir em produto e operação
 ```
 
-Excelência operacional não significa burocracia. Significa que os processos críticos funcionam de forma previsível, os desvios são detectados rapidamente e e cada correção vira aprendizado incorporado às regras do sistema.
+Excelência operacional não significa burocracia. Significa que os processos críticos funcionam de forma previsível, os desvios são detectados rapidamente e cada correção vira aprendizado incorporado às regras do sistema.
 
 > [!important]
 > O teste de excelência operacional não é "funciona quando está tudo certo". É "quanto tempo leva para detectar e corrigir quando algo dá errado".
@@ -5589,28 +5589,28 @@ Antes das oito falhas clássicas abaixo, lembre as duas armadilhas da linha de f
 
 Empresas que passam de 10 para 100 funcionários cometem erros operacionais previsíveis. Conhecê-los antecipadamente não evita todos, mas reduz o custo de aprender na prática.
 
-#### Armadilha 1 — Processo para Tudo Antes da Hora
+#### Armadilha 1: Processo para Tudo Antes da Hora
 
 Processos excessivos antes da maturidade engessam a velocidade de iteração. Times pequenos precisam de velocidade, não de conformidade. A regra: processo é para repetição. Se uma tarefa ainda está sendo descoberta, não precisa de SOP: precisa de experimento.
 
-#### Armadilha 2 — Métricas de Vaidade no Lugar de Métricas Operacionais
+#### Armadilha 2: Métricas de Vaidade no Lugar de Métricas Operacionais
 
 Número de usuários registrados, downloads, sessões: são métricas de vaidade. Elas crescem sem que o negócio melhore. Métricas operacionais são as que mudam comportamento quando ficam vermelhas. Se a equipe vê a métrica e não sabe o que fazer, é métrica de vaidade.
 
-#### Armadilha 3 — Reuniões que Crescem com o Time
+#### Armadilha 3: Reuniões que Crescem com o Time
 
 Em times pequenos, comunicação acontece por osmose. Em times de 30+ pessoas, comunicação precisa de estrutura. O erro clássico é adicionar reuniões ao invés de substituir comunicação informal por processos escritos. Antes de criar uma reunião, pergunte: isso pode ser resolvido com um documento ou uma mensagem assíncrona?
 
 > [!warning]
 > Reuniões são o custo mais oculto em operações de escala. Uma reunião de 1 hora com 8 pessoas custa 8 horas de trabalho. Trate reuniões como interrupções planejadas, não como o método padrão de trabalho.
 
-#### Armadilha 4 — Onboarding Informal
+#### Armadilha 4: Onboarding Informal
 
 Em empresas de até 10 pessoas, o fundador integra cada novo contratado pessoalmente. Isso não escala. Quando o onboarding é informal, cada novo funcionário aprende uma versão diferente do trabalho, da cultura e dos processos. A inconsistência se manifesta em qualidade irregular e dificuldade de diagnóstico de problemas.
 
 Crie um onboarding estruturado antes de contratar a décima pessoa, não depois.
 
-#### Armadilha 5 — Heroísmo Operacional
+#### Armadilha 5: Heroísmo Operacional
 
 O herói operacional é a pessoa que resolve crises sozinha, trabalha de madrugada para entregar e conhece todos os atalhos do sistema. No curto prazo, parece um ativo. No médio prazo, é um passivo: cria bus factor, não compartilha conhecimento e mascara problemas sistêmicos que deveriam ser corrigidos.
 
@@ -5621,11 +5621,11 @@ O herói operacional é a pessoa que resolve crises sozinha, trabalha de madruga
 
 Automatizar um processo ruim cria erros em escala. Antes de automatizar, verifique se o processo produz o output correto quando executado manualmente. Se não produz, corrija o processo. Automatização amplifica o que existe: bom ou ruim.
 
-#### Armadilha 7 — Ignorar a Dívida Operacional
+#### Armadilha 7: Ignorar a Dívida Operacional
 
 Assim como dívida técnica, dívida operacional se acumula: gambiarras viram processo padrão, integrações entre sistemas continuam manuais e a exceção vira regra. Em estágios iniciais, essa dívida é aceitável para ganhar velocidade. Em escala, ela vira gargalo e risco operacional. Reserve capacidade trimestral para amortizar dívida operacional: refatore processos, elimine gambiarra, consolide ferramentas.
 
-#### Armadilha 8 — Separar Produto de Operações
+#### Armadilha 8: Separar Produto de Operações
 
 Empresas que tratam produto e operações como silos distintos criam produtos que ignoram a realidade operacional e operações que não se beneficiam da tecnologia. Os melhores produtos operacionais nascem da colaboração entre quem constrói e quem opera. Inclua os operadores no processo de produto desde o início.
 

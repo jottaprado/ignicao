@@ -165,7 +165,7 @@
     "vol": "1",
     "code": "C7",
     "from": "O FAST (Founder Advisor Standard Template, criado por Adeo Ressi no Founder Institute em 2011), contrato padrão para formalizar a relação com advisors",
-    "to": "O FAST (*Founder Advisor Standard Template*, criado por Adeo Ressi no Founder Institute em 2011) serve como referência internacional de escopo, mas no Brasil a maioria das startups nasce como sociedade limitada (LTDA): conceder de 0,1% a 0,5% a um conselheiro ou instituir *vesting* entre sócios exige contrato de opção de compra de quotas, *phantom shares* ou cláusula específica no acordo de quotistas redigida com advogado."
+    "to": "O FAST (*Founder Advisor Standard Template*, criado por Adeo Ressi no Founder Institute em 2011 como referência internacional de escopo, exigindo adaptação contratual via opção de compra de quotas ou *phantom shares* quando aplicado a uma sociedade limitada brasileira)"
   },
   {
     "id": "57",
@@ -375,7 +375,7 @@
     "vol": "1",
     "code": "C3",
     "from": "O iFood é transferência do modelo de delivery europeu (Just Eat, Deliveroo) para o Brasil",
-    "to": "O iFood nasceu em 2011 digitalizando o guia impresso Disk Cook e adaptou à realidade brasileira o modelo de marketplace de pedidos online que a europeia Just Eat já operava desde os anos 2000, incorporando logística própria de entregadores e pagamento local. Já a Kovi desenhou um modelo de assinatura semanal de carros voltado especificamente à dor dos motoristas de aplicativo no Brasil e no México que não conseguiam financiamento nem limite no cartão de crédito para locadoras tradicionais."
+    "to": "O iFood nasceu em 2011 digitalizando o guia impresso Disk Cook e trouxe para a realidade brasileira o modelo de marketplace de pedidos online que a europeia Just Eat já operava desde os anos 2000"
   },
   {
     "id": "119",
@@ -970,7 +970,7 @@
     "vol": "1",
     "code": "E1",
     "from": "Não como plano, não como projeção, mas como mapa causal de crenças.",
-    "to": "A Fase 3 tornou explícita a teoria do seu negócio na forma de um mapa causal de crenças encadeadas, atribuindo peso e grau de dúvida a cada nó antes de ir a campo."
+    "to": "Não como plano estático ou planilha de projeção, mas na forma de um mapa causal de hipóteses encadeadas que serão testadas em campo."
   },
   {
     "id": "290",
@@ -1124,7 +1124,7 @@
     "vol": "1",
     "code": "N5",
     "from": "contrate um seguro de vida/invalidez básico e revise seu custo fixo doméstico cortando toda gordura de status",
-    "to": "Toda segunda-feira, das 9h às 9h15, abra sua planilha pessoal, registre os gastos domésticos da semana anterior, confira se nenhuma despesa de casa passou pelo cartão da empresa e atualize seu runway pessoal líquido em meses (deixando tarefas únicas, como cotar seguro de vida e invalidez ou revisar o custo fixo familiar, para um bloco dedicado de 30 dias)."
+    "to": "e, toda segunda-feira das 9h às 9h15, abra sua planilha pessoal, registre os gastos domésticos da semana anterior, confira se nenhuma despesa de casa passou pelo cartão da empresa e atualize seu runway pessoal líquido em meses (deixando tarefas únicas, como cotar seguro de vida e invalidez ou revisar o custo fixo familiar, para um bloco dedicado de 30 dias)"
   },
   {
     "id": "317",
@@ -1229,7 +1229,7 @@
     "vol": "1",
     "code": "C5",
     "from": "Terapia individual é adequada quando há algum sinal de burnout sustentado por mais de quatro semanas",
-    "to": "Separe dois planos de cuidado: a psicoterapia regular funciona como manutenção preventiva do julgamento para qualquer fundador; já sinais persistentes por mais de duas semanas (insônia contínua, anedonia, crises de pânico ou paralisia decisória) exigem avaliação médica e psicológica na mesma semana."
+    "to": "Separe dois planos de cuidado: a psicoterapia regular funciona como manutenção preventiva do julgamento para qualquer fundador, enquanto a avaliação médica e psicológica na mesma semana torna-se indispensável diante de sinais persistentes por mais de duas semanas, como exaustão física e mental contínua"
   },
   {
     "id": "341",
@@ -1488,7 +1488,7 @@
     "vol": "1",
     "code": "C5",
     "from": "Captar muito cedo demais inflaciona valuation, cria pressão para crescer mais rápido do que o produto suporta",
-    "to": "Captar dinheiro demais para o estágio atual empurra a avaliação da empresa acima do que a operação sustenta, força contratações antes do encaixe no mercado e dilui os fundadores sem necessidade"
+    "to": "Captar dinheiro demais para o estágio atual empurra a avaliação da empresa acima do que a operação sustenta, força contratações antes do encaixe no mercado"
   },
   {
     "id": "382",
@@ -1670,7 +1670,7 @@
     "vol": "1",
     "code": "C4",
     "from": "Gupy escalou de Seed a Série C entre 2018 e 2022, com captações reportadas acima de R$ 500 milhões totais",
-    "to": "A Gupy, fundada em 2015 por Mariana Dias, Bruna Guimarães, Guilherme Dias e Robsonutta, consolidou-se no mercado de software de recrutamento e protagonizou em 2022 uma das maiores captações lideradas por mulheres na América Latina (aporte de R$ 500 milhões liderado por SoftBank e Riverwood)."
+    "to": "A Gupy, fundada em 2015 por Mariana Dias, Bruna Guimarães, Guilherme Dias e Robson Privado, consolidou-se no mercado de software de recrutamento e protagonizou em 2022 uma das maiores captações lideradas por mulheres na América Latina (aporte de R$ 500 milhões liderado por SoftBank e Riverwood)"
   },
   {
     "id": "417",
@@ -1796,7 +1796,7 @@
     "vol": "1",
     "code": "E9",
     "from": "Para de trazer decisões. Volta a escalas.",
-    "to": "O time para de trazer soluções próprias e volta a escalar qualquer escolha operacional para a mesa do fundador."
+    "to": "A equipe deixa de propor soluções próprias e volta a subir qualquer escolha operacional para a chefia."
   },
   {
     "id": "443",
@@ -1845,14 +1845,14 @@
     "vol": "1",
     "code": "C5",
     "from": "se o tipo de solução que você oferece faria diferença (\"se existisse X, você consideraria?\"). Cada sim constrói consistência que torna o sim final mais provável.",
-    "to": "Em vendas B2B, o compromisso verdadeiro não nasce de perguntas hipotéticas (que o *Mom Test* proíbe por gerarem elogios falsos), e sim de pequenos passos concretos cumpridos pelo cliente: liberar dados reais para diagnóstico, agendar a próxima sessão técnica com o diretor financeiro e assinar o escopo do piloto pago."
+    "to": "e se ele topa dar um passo concreto de validação agora. Em vendas B2B, o compromisso verdadeiro não nasce de perguntas hipotéticas (que o *Mom Test* desaconselha por gerarem elogios falsos), e sim de avanços verificáveis cumpridos pelo cliente: liberar dados reais para diagnóstico, agendar a próxima sessão técnica com o decisor financeiro e assinar o escopo do piloto pago."
   },
   {
     "id": "451",
     "vol": "1",
     "code": "C7",
     "from": "a pergunta implícita já não é \"devo aceitar?\" mas \"quanto menos posso aceitar e ainda ser consistente com o que disse?\"",
-    "to": "Como o candidato já verbalizou ao longo das entrevistas o que mais valoriza na carreira (autonomia técnica, aprendizado direto, participação societária ou impacto no produto), construa a carta-oferta respondendo ponto a ponto a esses critérios, sem jamais usar o que ele revelou como artifício para comprimir salário abaixo do combinado."
+    "to": "como o candidato já verbalizou ao longo das entrevistas o que mais valoriza na carreira (autonomia técnica, aprendizado direto, participação societária ou impacto no produto), construa a carta-oferta respondendo ponto a ponto a esses critérios, sem jamais usar o que ele revelou como artifício para comprimir salário abaixo do combinado."
   },
   {
     "id": "452",
@@ -1992,7 +1992,7 @@
     "vol": "1",
     "code": "N5",
     "from": "Pegue o texto da sua página inicial, proposta comercial ou *One-Pager*, corte **30% das palavras**, troque todos os adjetivos por números verificáveis",
-    "to": "Antes de enviar seu próximo **Update Mensal** (ou a versão de uma página da sua tese), reescreva o texto aplicando o molde **Resumo em 3 linhas, Números do mês, Conquistas, Problemas reais e Pedidos objetivos**, corte 30% das palavras eliminando advérbios e adjetivos vagos e confira se os problemas estão descritos com a mesma transparência das vitórias."
+    "to": "Antes de enviar seu próximo **Update Mensal** (ou a versão de uma página da sua tese), reescreva o texto aplicando o molde **Resumo em 3 linhas, Números do mês, Conquistas, Problemas reais e Pedidos objetivos**, corte 30% das palavras eliminando advérbios e adjetivos vagos, confira se os problemas estão descritos com a mesma transparência das vitórias"
   },
   {
     "id": "477",
@@ -2013,7 +2013,7 @@
     "vol": "1",
     "code": "C1",
     "from": "a regra física da comunicação oral é uma só: **a atenção humana cai em penhasco após os primeiros 90 segundos",
-    "to": "Em qualquer banca de edital ou comitê de investimento, a regra prática da comunicação oral é direta: **o avaliador só consegue pontuar na planilha os critérios que você provou dentro do tempo do relógio"
+    "to": "a regra prática da comunicação oral é direta: **cada minuto precisa entregar dados claros para os critérios da planilha de avaliação"
   },
   {
     "id": "481",
@@ -2174,7 +2174,7 @@
     "vol": "1",
     "code": "C5",
     "from": "> A IA faz setenta a oitenta por cento do trabalho. O fundador finaliza os vinte a trinta por cento restantes",
-    "to": "> **A regra da caneta e do copiloto (conciliando com o Capítulo 8):** documentos que formam o seu pensamento estratégico (a DII, o memorando de decisão e o rascunho honesto do update mensal) você escreve primeiro e usa a IA apenas como leitor crítico para apontar furos; já nos textos operacionais repetitivos (atas de reunião, resumos de chamadas, variações de anúncios e rascunhos de suporte), a IA redige os primeiros 70% e você revisa os 30% finais."
+    "to": "> **A regra da caneta e do copiloto (conciliando com o Capítulo 8):** documentos que formam o seu pensamento estratégico (a DII, o memorando de decisão e o rascunho honesto do update mensal) você escreve primeiro e usa a IA apenas como leitor crítico para apontar furos; já nos textos operacionais repetitivos (atas de reunião, resumos de chamadas, variações de anúncios e rascunhos de suporte), a IA redige os primeiros 70% e você revisa os 30% finais"
   },
   {
     "id": "518",
@@ -2209,7 +2209,7 @@
     "vol": "1",
     "code": "C5",
     "from": "**ACE Cubo**, encerrou aceleração tradicional, virou venture builder.",
-    "to": "No ecossistema privado brasileiro, verifique sempre o modelo vigente no ano da inscrição: a **ACE** consolidou nos últimos anos sua atuação em consultoria de inovação corporativa e investimentos via ACE Ventures, enquanto hubs de conexão como o **Cubo Itaú** e o **InovaBra Habitat** operam por membresia e geração de negócios, sem tomar participação societária."
+    "to": "Entre as iniciativas privadas brasileiras, verifique sempre o formato vigente no ano da inscrição: a **ACE** consolidou nos últimos anos sua atuação em consultoria de inovação corporativa e investimentos via ACE Ventures, enquanto hubs de conexão como o **Cubo Itaú** e o **InovaBra Habitat** operam por membresia e geração de negócios, sem tomar participação societária."
   },
   {
     "id": "529",
@@ -2251,7 +2251,7 @@
     "vol": "1",
     "code": "C6",
     "from": "SAFE pré-YC é padrão justo, SAFE com cap agressivo (baixo cap, alta diluição depois) é ruim",
-    "to": "Para avaliar os termos contratuais no Brasil, lembre que programas nacionais costumam usar **contrato de mútuo conversível** ou **contrato de participação/investimento-anjo** nos moldes da LC 182/2021 (enquanto o *SAFE* padrão pós-dinheiro é típico de aceleradoras americanas como o YC): fuja de contratos com teto de avaliação (*valuation cap*) artificialmente baixo que dilua mais de 10% da empresa por um cheque pequeno (os instrumentos estão detalhados no Capítulo 16 do Vol. 5)."
+    "to": "Para avaliar os termos no Brasil, lembre que programas nacionais costumam usar **contrato de mútuo conversível** ou **contrato de participação/investimento-anjo** nos moldes da LC 182/2021 (enquanto o *SAFE* padrão pós-dinheiro é típico de aceleradoras americanas como o YC): fuja de teto de avaliação (*valuation cap*) artificialmente baixo que tome mais de 10% da empresa por um cheque pequeno (ver Capítulo 16 do Vol. 5)"
   },
   {
     "id": "537",
@@ -2279,7 +2279,7 @@
     "vol": "1",
     "code": "N3",
     "from": "No primeiro ano da sua rede de clínicas em Belo Horizonte, a **Dra. Camila** cometeu um erro clássico",
-    "to": "No primeiro ano da sua clínica própria em Belo Horizonte, a **Dra. Camila** cometeu um erro clássico de quem busca atalho de autoridade: prometeu verbalmente participação a um executivo famoso do setor hospitalar apenas para exibir o nome dele em reuniões, recebendo em troca um único almoço no ano com conselhos pensados para um hospital de 500 leitos que não resolviam sua mistura entre contas de casa e do CNPJ. No semestre seguinte, Camila mudou de método: aproximou-se de três operadores que estavam apenas **dois degraus à frente dela** (uma dentista que já havia organizado o caixa de duas unidades próprias, um contador especializado na área médica e uma gestora de atendimento particular) e, com uma única recomendação prática sobre compras conjuntas de insumos e separação de pró-labore, economizou R$ 28 mil no ano."
+    "to": "No primeiro ano da sua clínica própria em Belo Horizonte, a **Dra. Camila** cometeu um erro clássico de quem busca atalho de autoridade"
   },
   {
     "id": "542",
@@ -2321,7 +2321,7 @@
     "vol": "1",
     "code": "C7",
     "from": "A estrutura típica brasileira e internacional combina equity de zero vírgula um por cento a um por cento com vesting de dois a quatro anos",
-    "to": "A prática recomendada combina participação de **0,1% a 0,5% (até 1% em casos excepcionais)** atrelada a um cronograma de aquisição (*vesting*) de 24 a 48 meses com período inicial de teste (*cliff*) de 3 a 6 meses; enquanto nos Estados Unidos usa-se o modelo FAST do Founder Institute, **em uma sociedade limitada (LTDA) brasileira essa concessão exige contrato de opção de compra de quotas ou *phantom shares* redigido por advogado societário** (ver Capítulo 16 do Vol. 6), prevendo expressamente que opções ainda não adquiridas caducam sem custo caso a colaboração cesse."
+    "to": "A prática recomendada combina participação de **0,1% a 0,5% (até 1% em casos excepcionais)** atrelada a um cronograma de aquisição (*vesting*) de 24 a 48 meses com período inicial de teste (*cliff*) de 3 a 6 meses (lembrando que, em uma sociedade limitada brasileira, essa concessão exige contrato de opção de compra de quotas ou *phantom shares* redigido por advogado societário, conforme o Capítulo 16 do Vol. 6, prevendo que opções não adquiridas caducam sem custo caso a colaboração cesse)"
   },
   {
     "id": "549",

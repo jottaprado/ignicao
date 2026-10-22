@@ -11,84 +11,84 @@
     "vol": "5",
     "code": "N3",
     "from": "## FASE 14 — CAPITAL PARA ESCALA, RODADAS E EFICIÊNCIA FINANCEIRA",
-    "to": "## FASE 14: CAPITAL PARA ESCALA, RODADAS E EFICIÊNCIA FINANCEIRA\n\n> **Continuidade da jornada:** Nos Capítulos 14 a 21 deste volume, acompanhamos quatro trajetórias recorrentes: **Lucas e Marina** (SaaS B2B de gestão financeira, de São Paulo e Florianópolis, que captaram R$ 6 milhões de Seed, usaram R$ 3,5 milhões em mútuos e linha complementar de RBF/venture debt, e agora preparam a Série A), **Henrique** (hardware e sensores industriais para o agro em Curitiba, combinando subvenção da Finep, EMBRAPII e FIDC de integradores), **Rafael e Bia** (marca nativa digital de cosméticos no Recife, equilibrando transição tributária para o Lucro Real, importação por Santa Catarina e capital de giro) e **Dra. Camila** (rede de clínicas odontológicas em Belo Horizonte, expandindo da segunda para a terceira unidade própria via crowdfunding CVM 88 com veículo sindicado)."
+    "to": "## FASE 14: CAPITAL PARA ESCALA, RODADAS E EFICIÊNCIA FINANCEIRA\n\nNesta fase, acompanhamos os quatro arquétipos do volume nas decisões de capital para escala: **Lucas e Marina** (SaaS B2B preparando a Série A após a Seed e linhas complementares), **Rafael e Bia** (e-commerce de cosméticos gerenciando o Ciclo de Conversão de Caixa e o capital de giro entre o Recife e Goiânia), **Henrique** (indústria de hardware e sensores em Curitiba estruturando o Plano de Financiamento Não-Diluitivo com Finep e BNDES) e **Dra. Camila** (rede de clínicas odontológicas em Belo Horizonte como contraponto de expansão lucrativa sem capital de risco tradicional)."
   },
   {
     "id": "1922",
     "vol": "5",
     "code": "C5",
     "from": "para adicionar R$ 5,4 milhões de receita anualizada, a empresa queimou R$ 11,2 milhões do caixa da rodada Seed",
-    "to": "para adicionar R$ 5,4 milhões de ARR líquido no período, a empresa queimou R$ 11,2 milhões do caixa da rodada Seed"
+    "to": "para adicionar R$ 5,4 milhões de receita anualizada (ARR líquido), a empresa queimou R$ 11,2 milhões somando o caixa da rodada Seed de R$ 6 milhões, os R$ 3,5 milhões dos mútuos de ponte e a linha complementar de RBF"
   },
   {
     "id": "1921",
     "vol": "5",
     "code": "C5",
     "from": "a empresa queimou R$ 11,2 milhões do caixa da rodada Seed",
-    "to": "a empresa consumiu R$ 11,2 milhões somando os R$ 6 milhões da rodada Seed, os R$ 3,5 milhões de mútuo-ponte e R$ 1,7 milhão da linha de RBF"
+    "to": "a empresa queimou R$ 11,2 milhões, quase todo o caixa da Seed de R$ 6 milhões, dos R$ 3,5 milhões da ponte em mútuos e da linha de RBF"
   },
   {
     "id": "1923",
     "vol": "5",
     "code": "E9",
     "from": "Sentada com o notebook aberto na planilha de tesouraria de Florianópolis, ela aponta para a última linha em vermelho",
-    "to": "O conselheiro olhou a planilha por trinta segundos e cravou: \"Vocês dobraram o faturamento, mas precisam de 2 reais de caixa para cada 1 real de ARR novo, e só têm quatro meses e meio de fôlego no banco. Se saírem a campo hoje, o mercado vai precificar o desespero de vocês. Cortem a queima pela metade, baixem o Burn Multiple para perto de 1x e estendam o caixa para doze meses antes de abrir a Série A.\""
+    "to": "Recém-chegada de Florianópolis para a reunião, ela está com o notebook aberto na planilha de tesouraria e aponta para a última linha em vermelho"
   },
   {
     "id": "1924",
     "vol": "5",
     "code": "N7",
     "from": "Andy Grove ensinava na Intel que uma fábrica não é julgada pelo barulho das máquinas, mas pelo rendimento líquido de cada etapa do processo.",
-    "to": "David Sacks (Craft Ventures), ao formular a métrica do *Burn Multiple*, resumiu a mudança de regime do capital de risco: crescimento bruto sem eficiência de capital deixou de ser premiado e passou a ser descontado no múltiplo da rodada."
+    "to": "Em *High Output Management*, Andy Grove usa a analogia da fábrica de café da manhã para mostrar que uma operação não deve ser medida pela atividade bruta das máquinas, mas pelo produto entregue após a etapa limitante do processo."
   },
   {
     "id": "1925",
     "vol": "5",
     "code": "E1",
     "from": "escalar uma operação comercial com *unit economics* sangrando não é crescimento; é suicídio assistido em câmera rápida.",
-    "to": "A diferença entre captar em posição de força e assinar um *term sheet* punitivo não está apenas no crescimento do faturamento, mas em chegar à mesa com mais de nove meses de caixa, *Burn Multiple* abaixo de 1,5x e *unit economics* auditáveis."
+    "to": "escalar vendas com *unit economics* negativos só antecipa o dia em que o caixa acaba."
   },
   {
     "id": "1926",
     "vol": "5",
     "code": "E6",
     "from": "Na Fase 14, você deixa de operar como um garimpeiro em busca de validação e assume a cadeira de engenheiro de alocação de capital.",
-    "to": "a primeira pergunta do sócio não é mais \"quanto vocês cresceram no último ano?\", e sim **\"quantos reais de caixa líquido vocês queimaram para adicionar cada real de ARR novo?\"**"
+    "to": "Na Fase 14, o foco deixa de ser apenas acelerar o motor comercial e passa a ser medir quantos litros de combustível saem do tanque de caixa para cada real de receita nova."
   },
   {
     "id": "1928",
     "vol": "5",
     "code": "S7",
     "from": "#### Passo 3, defina e monitore métricas de saúde financeira",
-    "to": "#### Passo 3: defina e monitore métricas de saúde financeira"
+    "to": "#### Passo 1: defina e monitore métricas de saúde financeira"
   },
   {
     "id": "1929",
     "vol": "5",
     "code": "C1",
     "from": "| ARR / MRR | Receita recorrente anualizada/mensal | Crescimento 2-3x/ano em estágio de scale-up |",
-    "to": "| ARR / MRR | Receita recorrente anualizada/mensal | Crescimento de 1,5x a 2,5x ao ano em Série A/B (referência de mercado; varia por ticket e vertical) |"
+    "to": "| ARR / MRR | Receita recorrente anualizada/mensal | Crescimento de 70% a 150% ao ano (1,7x a 2,5x) em estágio de scale-up, alinhado à eficiência de queima (benchmarks Bessemer / OpenView) |"
   },
   {
     "id": "1930",
     "vol": "5",
     "code": "C5",
     "from": "| Burn Multiple (quantos reais você queima para gerar 1 real de receita nova) | Caixa queimado no período / ARR adicionado | <1 excelente, 1-2 bom, >3 queima caixa sem eficiência |",
-    "to": "| Burn Multiple (quantos reais você queima para gerar 1 real de receita nova) | Caixa líquido queimado no período / ARR líquido adicionado | < 1,0x excelente, 1,0x a 1,5x saudável, 1,5x a 2,0x alerta, > 2,0x queima ineficiente (David Sacks, Craft Ventures) |"
+    "to": "| Burn Multiple (quantos reais você queima para gerar 1 real de receita nova) | Caixa líquido queimado no período / ARR líquido adicionado | < 1,0x excelente, 1,0x a 1,5x bom, 1,5x a 2,0x suspeito/alerta, > 2,0x queima caixa sem eficiência (régua de David Sacks, Craft Ventures) |"
   },
   {
     "id": "1931",
     "vol": "5",
     "code": "C3",
     "from": "| Magic Number | ARR adicionado no trimestre x 4 / S&M do trimestre anterior | >1 saudável, >1.5 ótimo |",
-    "to": "| Magic Number | (Receita recorrente trimestral atual − Receita recorrente trimestral anterior) x 4 / S&M do trimestre anterior | > 0,75 eficiente, > 1,0 ótimo para acelerar vendas e marketing (Scale Venture Partners) |"
+    "to": "| Magic Number | ARR novo líquido do trimestre ÷ S&M do trimestre anterior (ou variação da receita recorrente trimestral × 4 ÷ S&M do trimestre anterior) | > 0,75 saudável para acelerar, > 1,0 ótimo (Lars Leckie / Scale VP) |"
   },
   {
     "id": "1932",
     "vol": "5",
     "code": "E9",
     "from": "| CAC Payback | CAC / (ARR mensal x gross margin) | <12 meses B2B SaaS, <6 meses mais rápido |",
-    "to": "| CAC Payback | CAC / (ARPU mensal novo x margem bruta) | < 12 meses saudável em B2B SaaS, < 6 meses excelente em PME |"
+    "to": "| CAC Payback | CAC ÷ (MRR do novo cliente × margem bruta) | Abaixo de 12 meses é saudável em B2B, abaixo de 6 meses é excelente |"
   },
   {
     "id": "1933",
@@ -102,21 +102,21 @@
     "vol": "5",
     "code": "E9",
     "from": "Depois dos seis meses, você está em modo sobrevivência. E perde poder de negociação.",
-    "to": "- **Regra de ouro:** não inicie o roadshow com menos de 9 meses de caixa; abaixo de 6 meses de runway, o poder de barganha colapsa e os fundos precificam sua urgência."
+    "to": "Com menos de seis meses de caixa, você entra em modo sobrevivência e perde poder de negociação."
   },
   {
     "id": "1935",
     "vol": "5",
     "code": "C3",
     "from": "Semanas 10-16: due diligence aprofundada com três a cinco fundos sérios. Semanas 16-20: term sheets e negociação. Semanas 20-28: closing (documentação legal, KYC).",
-    "to": "com processos decisórios de 9 a 18 meses, compliance rigoroso e foco em sinergia operacional de longo prazo."
+    "to": "Semanas 10-14: aprofundamento de métricas, reuniões com sócios e comitê de investimento com três a cinco fundos finalistas. Semanas 14-16: emissão e negociação de term sheets. Semanas 16-28: due diligence confirmatória (contábil, jurídica e técnica sob exclusividade) e closing (contratos definitivos e KYC, conforme prazos médios observados em levantamentos da LAVCA e ABVCAP)."
   },
   {
     "id": "1937",
     "vol": "5",
     "code": "E9",
     "from": "Uma vez non-participating é padrão saudável. Duas vezes participating com cap é predatório.",
-    "to": "#### Passo 2: prepare a narrativa e os materiais (6 a 8 semanas antes de ir ao mercado)"
+    "to": "Preferência de 1x não participativa (*1x non-participating*) é o padrão saudável. Preferência de 2x participativa (*2x participating*), mesmo com teto (*cap*), é predatória."
   },
   {
     "id": "1938",
@@ -130,56 +130,56 @@
     "vol": "5",
     "code": "E8",
     "from": "Board composition (composição do conselho). Quantos assentos os fundadores mantêm, quantos os investidores ganham e quem escolhe o(s) independente(s).",
-    "to": "- [ ] Demonstrações financeiras dos últimos 2 a 3 anos (auditadas ou revisadas por contabilidade externa a partir da Série A; em Seed, balancetes e DRE conciliados pelo contador)\n- [ ] Projeções financeiras de 3 anos (DRE, fluxo de caixa e premissas explícitas de funil, retenção e contratações)\n- [ ] Cap table completo e atualizado (incluindo histórico de rodadas, SAFEs, mútuos conversíveis e pool de opções)"
+    "to": "Composição do conselho (*board*): quantos assentos os fundadores mantêm, quantos os investidores passam a ter e quem escolhe os membros independentes."
   },
   {
     "id": "1940",
     "vol": "5",
     "code": "C1",
     "from": "A economia de R$ 15-30 mil em honorários custa, em cenário ruim, dezenas de milhões em equity de fundador.",
-    "to": "- **Múltiplos de receita (ARR/GMV):** método dominante para startups em crescimento acelerado. Os múltiplos variam fortemente conforme a taxa de juro (Selic e Treasuries), o crescimento anual, o NRR e a margem bruta: consulte relatórios trimestrais de múltiplos de SaaS listado (como BVP Nasdaq Emerging Cloud Index e dados da B3) e transações privadas recentes do seu setor antes de ancorar sua faixa."
+    "to": "Tentar economizar nos honorários de revisão do *term sheet* (tipicamente de R$ 15 mil a R$ 35 mil) ou no fechamento jurídico completo da rodada de Série A (de R$ 60 mil a R$ 150 mil em escritórios especializados em VC no Brasil) pode custar, em um cenário adverso de saída, dezenas de milhões em participação dos fundadores."
   },
   {
     "id": "1941",
     "vol": "5",
     "code": "E9",
     "from": "As métricas-chave: burn multiple abaixo de um vírgula cinco em SaaS B2B em scale",
-    "to": "- **Diluição saudável por rodada:** em referências de mercado de VC, costuma girar entre 10% e 15% no Pré-Seed, 15% e 25% no Seed e 15% e 25% na Série A (podendo variar conforme o tamanho do cheque e a necessidade de recompor o pool de opções)."
+    "to": "As métricas-chave: *burn multiple* abaixo de 1,5x em SaaS B2B em escala"
   },
   {
     "id": "1942",
     "vol": "5",
     "code": "C3",
     "from": "Em 2021 e 2022, o mercado premiava crescimento a qualquer custo. Desde 2023, premia crescimento eficiente.",
-    "to": "- **Option pool shuffle:** se o investidor exige que o pool de opções (tipicamente de 10% a 15% pós-rodada) seja criado ou expandido no *pre-money*, toda a diluição dessa reserva recai exclusivamente sobre os fundadores e acionistas antigos."
+    "to": "Até o fim de 2021, o mercado premiava crescimento a qualquer custo. A partir de 2022, com a alta global de juros, passou a premiar crescimento eficiente."
   },
   {
     "id": "1943",
     "vol": "5",
     "code": "S6",
     "from": "### Aquisições como Comprador, quando a startup vira compradora",
-    "to": "### Aquisições Estratégicas (M&A Buy-Side): quando a startup vira compradora\n\n*(Nota: o uso de M&A para expansão de produto, consolidação regional e compra de carteira é detalhado no Volume 9; aqui resumimos apenas os impactos diretos sobre caixa, dívida e estrutura de capital da Fase 14.)*"
+    "to": "### Quando a startup vira compradora (uso alternativo do capital da rodada)\n\n*(Nota: o processo completo de M&A está no Capítulo 13 do Volume 9; aqui resumimos os critérios de alocação de capital quando parte da rodada é usada para adquirir concorrentes ou tecnologia.)*"
   },
   {
     "id": "1944",
     "vol": "5",
     "code": "E1",
     "from": "M&A não é resposta para fraqueza estratégica, é amplificador de força que já existe",
-    "to": "- **Due diligence rigorosa:** audite em detalhe passivos trabalhistas, contingências tributárias federais e estaduais, titularidade de código-fonte, contratos com clientes e retenção das safras recentes; no Brasil, passivos ocultos de folha (pejotização e horas extras) e autuações fiscais facilmente superam o preço de compra se não forem descontados no *escrow*."
+    "to": "M&A amplifica uma força que já existe e nunca conserta uma fraqueza estratégica"
   },
   {
     "id": "1946",
     "vol": "5",
     "code": "N6",
     "from": "M&A é resposta quando três condições se sobrepõem: partnership não resolve (resolve 60-80% dos casos com custo zero de integração)",
-    "to": "**Risco se negligenciado:** aceitar capital desalinhado ou assinar cláusulas abusivas (como *liquidation preference* de 2x com participação dupla ou *full ratchet*, que em uma saída modesta podem absorver quase todo o valor e deixar os fundadores de mãos vazias)."
+    "to": "Mesmo com caixa e tese clara, comprar outra operação só faz sentido quando três filtros táticos se sobrepõem: uma parceria comercial não resolve o problema (parcerias resolvem a grande maioria dos casos sem custo nem risco de integração)"
   },
   {
     "id": "1947",
     "vol": "5",
     "code": "C1",
     "from": "Aquisição é evento de uma noite. Integração é processo de dois anos. 70% das aquisições destroem valor exatamente nesse ponto.",
-    "to": "- **Tese explícita sobre o próximo marco:** você sabe apontar quais 3 a 5 indicadores operacionais destravam a rodada seguinte (por exemplo: passar de R$ 2,4M para R$ 8M de ARR com NRR acima de 105%, payback de CAC abaixo de 12 meses e margem bruta de 75%) e quanto cada marco exige de capital."
+    "to": "Assinar a compra é um evento; integrar sistemas, culturas e carteiras leva até dois anos. Como apontam estudos clássicos sobre M&A (Christensen et al., *Harvard Business Review*, 2011), a maioria das aquisições falha em gerar o retorno esperado, e boa parte desse valor se perde na execução da integração pós-fechamento."
   },
   {
     "id": "1949",
@@ -193,21 +193,21 @@
     "vol": "5",
     "code": "S2",
     "from": "| DAU/MAU | ≥ 10% | ≥ 20% | ≥ 30% |",
-    "to": "| Burn Multiple | ≤ 2,0x | ≤ 1,5x | < 1,0x |"
+    "to": "| Magic Number (eficiência de S&M) | ≥ 0,75 | ≥ 1,0 | ≥ 1,2 |"
   },
   {
     "id": "1953",
     "vol": "5",
     "code": "S5",
     "from": "### MANUAL PASSO A PASSO DOS FRAMEWORKS DESTA FASE",
-    "to": "### MANUAL PASSO-A-PASSO DOS FRAMEWORKS DESTA FASE\n\nOs treze instrumentos operacionais a seguir acompanham a ordem cronológica de uma captação estruturada: começam pelo diagnóstico de eficiência e de alternativas sem diluição (Frameworks 1 e 2), passam pela modelagem de diluição, precificação e montagem do funil e da narrativa (Frameworks 3 a 9) e fecham com a auditoria de cláusulas, negociação de *term sheet* e governança pós-rodada (Frameworks 10 a 13)."
+    "to": "### MANUAL PASSO A PASSO DOS FRAMEWORKS DESTA FASE\n\nEste bloco reúne a referência principal de finanças e estrutura de capital da coleção: treze frameworks ordenados desde a auditoria de *unit economics*, *Burn Multiple*, *Rule of 40*, *Magic Number* e Ciclo de Conversão de Caixa até os métodos de *valuation*, análise DuPont, cascata de liquidação (*Waterfall*), *term sheet* e planejamento de fontes não-diluitivas."
   },
   {
     "id": "1954",
     "vol": "5",
     "code": "S4",
     "from": "- Burn Multiple (ver Framework: Burn Multiple (David Sacks, 2020) (Fase 14)) < 1: elite.",
-    "to": "- **Runway real (sob estresse)** = Caixa disponível hoje ÷ Burn líquido mensal em cenário de estresse (receita nova 25% abaixo do plano e ciclo de recebimento 15 dias mais longo)"
+    "to": "- Burn Multiple (ver o framework *Burn Multiple*, adiante) < 1,0x: elite."
   },
   {
     "id": "1956",
@@ -221,21 +221,21 @@
     "vol": "5",
     "code": "S7",
     "from": "| Feb 2025 | 100%| 88% | 82% | 78% | 72% |, |",
-    "to": "| Fev 2025 | 100% | 88% | 82% | 78% | 72% | 70% |"
+    "to": "| Fev 2025 | 100% | 88% | 82% | 78% | 72% | n/d |"
   },
   {
     "id": "1958",
     "vol": "5",
     "code": "C5",
     "from": "SaaS notou churn blended estável em 8%, cohort analysis revela:",
-    "to": "**No exemplo acima:** a retenção bruta de clientes estabiliza perto de 70% a partir do mês 4 (sinal de encaixe do produto), enquanto a expansão de receita nos clientes ativos eleva a retenção líquida de receita (NRR) da safra para 108% no mês 6."
+    "to": "Um SaaS B2B via um churn anual médio (blended) aparentemente estável em 35% ao ano (retenção média de 65% em 12 meses), mas a abertura por safra (cohort analysis) revelou que a média escondia a piora das safras recentes:"
   },
   {
     "id": "1959",
     "vol": "5",
     "code": "C3",
     "from": "Métrica popularizada por **David Skok** (ex-VC da Matrix Partners, blog forentrepreneurs.com) ao longo dos anos 2010.",
-    "to": "##### Passo 2: projete a diluição acumulada até a Série B"
+    "to": "Métrica popularizada por **David Skok** (investidor da Matrix Partners e autor do blog *For Entrepreneurs*, forentrepreneurs.com) ao longo dos anos 2010."
   },
   {
     "id": "1960",
@@ -249,14 +249,14 @@
     "vol": "5",
     "code": "E7",
     "from": "Ação: cortar custos, desacelerar hiring, ou aceitar que mercado está hostile.",
-    "to": "**Cálculo:** Valuation post-money = R$ 6M ÷ 20% = R$ 30M. Valuation pre-money = R$ 30M − R$ 6M = R$ 24M."
+    "to": "Ação: cortar custos, desacelerar contratações ou reconhecer que o mercado está hostil."
   },
   {
     "id": "1962",
     "vol": "5",
     "code": "C3",
     "from": "Origem informal em early 2010s, atribuída a **Brad Feld** (Foundry Group) e popularizada em SaaS community.",
-    "to": "- **Fundadores antes da Série A:** 64,2% somados (600.000 ações de 935.000 totais após o Seed). Com o novo pool de 7,5% e os 20% da Série A, passam a deter **46,5%** da empresa (diluição relativa de 27,5% na rodada)"
+    "to": "Popularizada por **Brad Feld** (Foundry Group) em um artigo de 2015, no qual ele credita a regra a investidores de fundos de *growth equity*."
   },
   {
     "id": "1963",
@@ -270,112 +270,112 @@
     "vol": "5",
     "code": "C4",
     "from": "quando Rory O'Driscoll analisava a tração de receita da Omniture vs. investimento em S&M (proporção mais que 2x em primeiro ano disparou a expressão \"It's Magic!\")",
-    "to": "**A conta que fecha:** antes da Série A há 935.000 ações (600.000 dos fundadores, 100.000 do pool inicial, 158.000 de anjos/pré-seed e 77.000 do Seed). Como a Série A fica com 20,0% e a expansão do pool para 10% pós-rodada exige mais 4,56% do capital final (58.824 novas opções além das 100.000 já existentes), as 935.000 ações anteriores passam a representar **75,44%** do pós-rodada, que terá **1.239.396 ações**. Assim, na coluna Pós-Série A: Fundadores (600.000) = **48,41%** (ou **46,5%** se todo o novo pool de 10% for integralmente reposto no pre-money); Anjos (158.000) = **12,75%**; Seed (77.000) = **6,21%**; Série A (247.879) = **20,00%**; Pool total = **10,00%** (soma exata = **100,0%**). A regra prática permanece: exija que o pool seja dimensionado a partir de um plano nominal de contratações de 18 meses, e não por um percentual arbitrário no pre-money."
+    "to": "a partir da análise de Rory O'Driscoll sobre a relação entre a variação da receita recorrente trimestral anualizada e os gastos de vendas e marketing do trimestre anterior em empresas de SaaS"
   },
   {
     "id": "1965",
     "vol": "5",
     "code": "C3",
     "from": "- Magic Number Q2 = ($12M - $10M) × 4 / $2M = $8M / $2M = 4.0.",
-    "to": "##### Passo 4: simule o Waterfall (quem recebe quanto em diferentes cenários de saída)"
+    "to": "- Magic Number Q2 = (R$ 12 milhões − R$ 10 milhões de ARR) ÷ R$ 2 milhões de S&M no Q1 = R$ 2 milhões ÷ R$ 2 milhões = 1,0 (eficiente, patamar saudável para acelerar o investimento comercial com disciplina)."
   },
   {
     "id": "1966",
     "vol": "5",
     "code": "C3",
     "from": "- DSO: 2 dias (cobra no ato).",
-    "to": "- **Cenário 1: saída baixa (R$ 15M, abaixo do valuation post-money de R$ 30M da Série A)**"
+    "to": "- DSO (PMR no e-commerce brasileiro, como na marca de Rafael e Bia): embora o Pix liquide no ato, o cartão de crédito parcelado em 3x a 6x sem juros liquida em D+30 por parcela (elevando o prazo médio ponderado de recebimento para 35 a 60 dias, a menos que a empresa pague taxa de antecipação à adquirente)."
   },
   {
     "id": "1967",
     "vol": "5",
     "code": "E9",
     "from": "Apertado. Precisa de R$ 90 dias × R$ X/dia de caixa para operar.",
-    "to": "- **Com 1x non-participating (padrão limpo):** o investidor da Série A escolhe entre receber sua preferência de R$ 6M ou converter em 20% (R$ 3M); fica com R$ 6M. Se o Seed (R$ 2M investidos) também tiver 1x de preferência sênior/pari passu sobre os R$ 3M que teria na conversão, leva R$ 2M; os R$ 7M restantes são divididos pró-rata entre fundadores, anjos e pool exercido."
+    "to": "Apertado. Precisa ter em caixa o equivalente a 90 dias × R$ X de desembolso diário para operar."
   },
   {
     "id": "1968",
     "vol": "5",
     "code": "C3",
     "from": "Valor = Σ (FCFt / (1+r)^t) + Terminal Value",
-    "to": "- **Com 1x participating (double dip):** a Série A retira R$ 6M de preferência na largada e ainda recebe 20% dos R$ 9M restantes (R$ 1,8M), levando R$ 7,8M (52% de uma saída de R$ 15M) e comprimindo a fatia dos fundadores."
+    "to": "Valor = Σ [FCFt ÷ (1 + r)^t] + [Valor Terminal ÷ (1 + r)^n] (em que o Valor Terminal também deve ser descontado a valor presente pelo fator do último ano projetado n)"
   },
   {
     "id": "1969",
     "vol": "5",
     "code": "C3",
     "from": "Pre-revenue startups usam **Comparable Company Analysis** (Framework: Comparable Company Analysis / Precedent Transactions (Fase 14)) ou **método de Berkus** (ajustes qualitativos).",
-    "to": "- **No exemplo:** ARR de R$ 3,6M × múltiplo base de 7x (ajustado para 8x pelo NRR de 112% e margem bruta de 78%) = faixa de R$ 25M a R$ 29M pre-money. O Valuation Scorecard entra apenas como calibragem qualitativa de risco, nunca como média aritmética com o VC Method."
+    "to": "Antes da receita (*pre-revenue*), múltiplos de faturamento não se aplicam: use o **Método VC (*VC Method*)**, o **Scorecard de Payne** ou o **Método de Berkus** (ajustes qualitativos por marcos de desrisco), usando transações recentes do setor apenas como checagem de faixa de diluição (ver Capítulo 15)."
   },
   {
     "id": "1970",
     "vol": "5",
     "code": "C2",
     "from": "- EV/Revenue (ARR): 5-15x em SaaS crescendo. Em mercados otimistas (2020-2021): 25-50x. Em mercados deprimidos (2022-2023): 4-8x.",
-    "to": "##### Passo 2: classifique a lista em 3 Tiers e organize o funil em 4 etapas (Pesquisa, Introdução, Reunião e Term Sheet)"
+    "to": "- EV/Revenue (ARR): após o pico de 2020-2021 (25x a 50x) e o ajuste de 2022-2023, a mediana global de SaaS listado estabilizou entre 6x e 8x ARR em 2025-2026 (BVP Nasdaq Emerging Cloud Index). Para SaaS privado no Brasil, aplica-se desconto de iliquidez e custo de capital (Selic), situando rodadas saudáveis tipicamente entre 4x e 8x ARR (ou 8x a 12x apenas para líderes com alto crescimento e NRR > 110%)."
   },
   {
     "id": "1971",
     "vol": "5",
     "code": "C1",
     "from": "Valuation implícito: R$ 30M × 10x = **R$ 300M** (range R$ 270-360M).",
-    "to": "- **Tier 3 (oportunístico / complemento):** 10 a 15 fundos de menor aderência imediata ou investidores que acompanham rodadas mas não lideram."
+    "to": "Valuation implícito (exemplo ilustrativo aplicando desconto de liquidez sobre múltiplos de empresas públicas de software na B3, como TOTVS e LWSA, e transações privadas do setor em 2025-2026, na faixa de 6x a 8x ARR): R$ 30M × 7x = **R$ 210M** (faixa de R$ 180M a R$ 240M; múltiplos de 10x exigem crescimento acelerado com Rule of 40 acima de 50%)."
   },
   {
     "id": "1972",
     "vol": "5",
     "code": "C3",
     "from": "Donaldson Brown, controller da DuPont Corporation, desenvolveu a fórmula de decomposição do ROE em 1914",
-    "to": "**Por que começar pelo Tier 2:** as primeiras 5 a 8 reuniões funcionam como teste de estresse real da narrativa e da planilha. Você mapeia as objeções recorrentes dos analistas e refina o *deck* antes de sentar com os sócios dos fundos Tier 1."
+    "to": "Em 1914, Donaldson Brown, executivo da área financeira da DuPont Corporation (levado à General Motors por Pierre du Pont em 1921), decompôs o retorno sobre o investimento (ROI) em margem e giro do ativo"
   },
   {
     "id": "1973",
     "vol": "5",
     "code": "E9",
     "from": "A quinta geração do modelo adiciona separação entre resultado operacional e financeiro",
-    "to": "##### Passo 3: execute em ondas semanais para concentrar propostas na mesma janela"
+    "to": "A versão DuPont de cinco fatores decompõe ainda a carga tributária, a carga de juros e a margem operacional (EBIT/Receita)"
   },
   {
     "id": "1974",
     "vol": "5",
     "code": "C4",
     "from": "Em estágio de crescimento (2017-2019), Magalu tinha margem líquida ~2,5% (similar a varejos físicos), mas giro do ativo muito superior",
-    "to": "> **Regra de bolso:** só abra a onda de conversas com os fundos Tier 1 quando o Data Room já estiver 100% auditado e as 5 primeiras reuniões com o Tier 2 tiverem validado sua narrativa."
+    "to": "Num exemplo ilustrativo inspirado no varejo omnicanal brasileiro entre 2017 e 2019, mesmo operando com margem líquida recorrente estreita (típica de varejo, entre 3% e 5% antes de créditos fiscais extraordinários), a operação alcança retorno elevado sobre o patrimônio pela combinação de giro do ativo superior e alavancagem financeira/fornecedores"
   },
   {
     "id": "1976",
     "vol": "5",
     "code": "C3",
     "from": "a escola de narrativa estratégica de empresas como Narrative Science e FrameWorks Institute, que estudaram como enquadramento de mensagem afeta percepção de valor",
-    "to": "**Vilão:** a combinação de burocracia bancária tradicional com sistemas de gestão legados e desconectados, que consome dezenas de horas semanais do dono de PME em tarefas manuais e encarece o capital de giro."
+    "to": "a adaptação da Jornada do Herói ao posicionamento comercial e ao enquadramento de valor, sistematizada por autores como Donald Miller (*Building a StoryBrand*, 2017)"
   },
   {
     "id": "1977",
     "vol": "5",
     "code": "N7",
     "from": "O ser humano toma decisões emocionais e as justifica com lógica (Kahneman, *Thinking, Fast and Slow*).",
-    "to": "**Conflito:** a PME brasileira enfrenta simultaneamente uma das maiores complexidades fiscais do mundo (dezenas de obrigações acessórias e regimes em transição) e o crédito corporativo mais caro entre as grandes economias."
+    "to": "As decisões humanas passam primeiro por um julgamento rápido, associativo e intuitivo (o Sistema 1 descrito por Daniel Kahneman em *Thinking, Fast and Slow*) antes do escrutínio analítico do Sistema 2."
   },
   {
     "id": "1978",
     "vol": "5",
     "code": "C4",
     "from": "A Omie levantou Series B em 2020 (R$ 52 milhões, Softbank + Redpoint Eventures) com uma narrativa clara. Reconstrução do Storytelling Canvas:",
-    "to": "**Resolução:** ao transformar o escritório contábil em parceiro de distribuição do ERP na nuvem, a Omie escalou para dezenas de milhares de PMEs e dezenas de milhares de contadores parceiros, atraindo rodadas lideradas por fundos globais como Riverwood Capital, SoftBank e Tencent."
+    "to": "Exemplo ilustrativo inspirado na tese de distribuição via contadores da Omie (que captou Série B liderada pela Riverwood Capital em 2019 e Série C de R$ 580 milhões liderada pelo SoftBank em 2021; os indicadores operacionais na tabela abaixo são hipotéticos para fins didáticos):"
   },
   {
     "id": "1979",
     "vol": "5",
     "code": "S3",
     "from": "O Storytelling Canvas da Omie colocou o **contador como herói**: não o dono de PME, não a Omie. Isso foi uma decisão estratégica deliberada: o contador é o gatekeeper de adoção (ele indica o ERP para o cliente PME, não o contrário). Ao fazer o contador o herói, a narrativa ativa o interesse do investidor *e* do canal de distribuição ao mesmo tempo. **A lição: quem você escolhe como herói define quem vai abraçar a sua narrativa. Em B2B com canais de distribuição, o herói frequentemente não é o usuário final: é o intermediário que decide a adoção.**",
-    "to": "No caso da Omie, a narrativa posiciona o **contador como herói**, e não apenas o dono da PME: na prática do mercado brasileiro, o contador atua como guardião da adoção tecnológica (é ele quem recomenda o ERP ao cliente PME). Ao colocar o parceiro contábil no centro da proposta de valor, a tese conversa simultaneamente com o investidor e com o canal de distribuição. Quem você escolhe como protagonista define quem abraça a narrativa: em B2B via canais, o decisor real da adoção costuma ser o intermediário."
+    "to": "Esse exemplo ilustra o efeito de posicionar o **contador como herói**, e não apenas o dono da PME ou a própria software house: no mercado brasileiro, o contador funciona como guardião (*gatekeeper*) da adoção tecnológica, pois é ele quem recomenda o sistema de gestão ao cliente PME. Ao colocar o parceiro contábil no centro da proposta de valor, a narrativa engaja o investidor e o canal de distribuição ao mesmo tempo. Quem você escolhe como herói define quem abraça a narrativa. Em B2B com canal, o herói costuma ser o intermediário que decide a adoção."
   },
   {
     "id": "1980",
     "vol": "5",
     "code": "C3",
     "from": "criado por Barbara Minto no McKinsey e sistematizado no *The Minto Pyramid Principle* (1987)",
-    "to": "##### Passo 2: organize o Data Room antes de abrir as conversas com os fundos"
+    "to": "criado por Barbara Minto na McKinsey e sistematizado em *The Pyramid Principle* (1978, com edições revistas posteriores)"
   },
   {
     "id": "1982",
@@ -389,7 +389,7 @@
     "vol": "5",
     "code": "C3",
     "from": "O **Strategic Narrative** de Andy Raskin, consultor de pitch que trabalhou com Zuora, Salesforce, GitHub e outras empresas de alto crescimento",
-    "to": "- **Libere por etapa do funil:** na primeira reunião, envie apenas o *teaser* ou o *deck* executivo; após o aprofundamento com o sócio (segunda reunião), abra o Nível 1 do Data Room (financeiro histórico, coortes de retenção e modelo de projeções); reserve o Nível 2 (contratos de clientes, folha nominal, propriedade intelectual e litígios) para quem assinar *term sheet* ou entrar em diligência final sob confidencialidade."
+    "to": "O modelo de **Narrativa Estratégica (*Strategic Narrative*)** sistematizado por Andy Raskin a partir do estudo do deck comercial da Zuora (no ensaio *The Greatest Sales Deck I've Ever Seen*, 2016, estruturado em cinco movimentos: nomear uma grande mudança no mundo, mostrar que haverá vencedores e perdedores, apresentar a terra prometida, introduzir os recursos como 'presentes mágicos' para vencer obstáculos e fechar com a evidência de que o futuro já começou)"
   },
   {
     "id": "1984",
@@ -403,7 +403,7 @@
     "vol": "5",
     "code": "E9",
     "from": "O banco ligo confuso para reter.",
-    "to": "- **Antidiluição:** exija *broad-based weighted average* (média ponderada ampla, padrão de mercado); rejeite *full ratchet* (que reprica 100% das ações do investidor pelo preço da nova rodada mais baixa, transferindo toda a perda de valor para os fundadores)"
+    "to": "Para cancelar, o cliente enfrenta um atendimento confuso, desenhado para dificultar a saída."
   },
   {
     "id": "1986",
@@ -417,14 +417,14 @@
     "vol": "5",
     "code": "C3",
     "from": "Preferred A: decide converter → 15% de R$ 20M = R$ 3M → igual à preference → indiferente",
-    "to": "- **Com 1x non-participating (padrão limpo):** tanto o Seed (R$ 3M investidos por 15%) quanto a Série A (R$ 12M investidos por 20%) verificam se vale mais acionar a preferência 1x ou converter em ações ordinárias. Como 15% de R$ 80M = R$ 12M (> R$ 3M) e 20% de R$ 80M = R$ 16M (> R$ 12M), ambos convertem: a Série A recebe **R$ 16M** (20%), o Seed recebe **R$ 12M** (15%), o pool (12,5%) recebe **R$ 10M** e os fundadores (52,5%) recebem **R$ 42M** (soma = **R$ 80M**)."
+    "to": "Preferred Seed (1x non-participating): como a preferência da Série A (R$ 12M) já é sênior, sobram R$ 8M; se o Seed converter (13,75%), dividiria os R$ 8M com a Série A participativa e ordinárias e receberia menos de R$ 3M, portanto o Seed aciona sua preferência de R$ 3M. Restam R$ 5M para dividir entre Série A (22,5%) e ações ordinárias (63,75%, sendo 52,5% dos fundadores e 11,25% do pool): a Série A recebe mais R$ 1,30M (total R$ 13,30M), os fundadores recebem R$ 3,04M e o pool recebe R$ 0,65M (soma exata: R$ 13,30M + R$ 3,00M + R$ 3,04M + R$ 0,65M = R$ 20,0M)"
   },
   {
     "id": "1989",
     "vol": "5",
     "code": "C3",
     "from": "Remanescente após prefs: R$ 80M - R$ 3M - R$ 12M = R$ 65M",
-    "to": "- **Com 1x participating na Série A (double dip):** a Série A retira primeiro seus R$ 12M de preferência; sobram R$ 68M para dividir pró-rata entre todos (20% Série A, 15% Seed convertido, 12,5% pool e 52,5% fundadores). A Série A leva R$ 12M + R$ 13,6M = **R$ 25,6M** (32% da saída); o Seed leva **R$ 10,2M**; o pool leva **R$ 8,5M**; e os fundadores caem de R$ 42M para **R$ 35,7M** (perda direta de R$ 6,3M por uma única palavra no *term sheet*)."
+    "to": "Remanescente após a preferência participativa da Série A (já que a Seed converte em ordinárias e não desconta os R$ 3M de preferência): R$ 80M − R$ 12M = R$ 68M, divididos pró-rata pelo total de ações entre Série A (22,5% = R$ 15,30M, totalizando R$ 27,30M com a preferência), Seed convertida (13,75% = R$ 9,35M), Fundadores (52,5% do total = R$ 35,70M) e Pool (11,25% do total = R$ 7,65M), fechando a soma exata de R$ 80,0M"
   },
   {
     "id": "1992",
@@ -522,7 +522,7 @@
     "vol": "5",
     "code": "S7",
     "from": "> [!important] Casa canônica dos fundamentos das três demonstrações",
-    "to": "> [!important] Escopo deste capítulo: leitura integrada de DRE, Balanço e DFC"
+    "to": "> [!important] Leitura integrada das três demonstrações financeiras"
   },
   {
     "id": "2010",
@@ -627,21 +627,21 @@
     "vol": "5",
     "code": "E6",
     "from": "é a diferença entre financiar sua própria expansão ou entregar sua margem em guias de DARF.",
-    "to": "é a diferença entre financiar sua própria expansão com geração interna de caixa e entregar sua margem operacional em guias de impostos por ignorar o Fator R e o sublimite estadual de R$ 3,6 milhões."
+    "to": "e o impacto do sublimite estadual de R$ 3,6 milhões é a diferença entre financiar sua própria expansão com geração interna de caixa e entregar sua margem operacional em guias de DARF e ICMS/ISS."
   },
   {
     "id": "2029",
     "vol": "5",
     "code": "E9",
     "from": "Multas crescem em juros, e Selic.",
-    "to": "tributos sobre receita ou consumo (PIS, Cofins, ISS e ICMS, em transição para CBS e IBS entre 2026 e 2033), tributos sobre o lucro (IRPJ e CSLL) e encargos sobre a folha de salários (INSS patronal, RAT/FAP, FGTS e Sistema S)."
+    "to": "Débitos em atraso acumulam multa e juros corrigidos pela taxa Selic."
   },
   {
     "id": "2030",
     "vol": "5",
     "code": "C3",
     "from": "Atraso de três anos em obrigação acessória vira quarenta a sessenta por cento sobre tributo devido.",
-    "to": "- **Anexo V** (desenvolvimento de software, licenciamento, SaaS, consultoria e serviços intelectuais quando a razão entre folha de 12 meses e receita bruta, o Fator R, é **inferior a 28%**): alíquota nominal inicial de **15,5%** na primeira faixa."
+    "to": "Tributo pago em atraso sofre multa de mora de 0,33% ao dia (limitada a 20%, conforme o art. 61 da Lei 9.430/1996) mais juros Selic; já o atraso na entrega de obrigações acessórias como a DCTFWeb gera multa autônoma de 2% ao mês-calendário sobre os tributos declarados (limitada a 20%), e uma autuação de ofício da Receita Federal aplica multa de 75% sobre o tributo omitido."
   },
   {
     "id": "2033",
@@ -655,42 +655,42 @@
     "vol": "5",
     "code": "E9",
     "from": "Alíquota unificada progressiva (seis a trinta e três por cento, no Anexo III, ou V, para serviços, ou tech).",
-    "to": "**Na prática:** uma startup com receita anualizada entre R$ 3,6M e R$ 4,8M continua recolhendo os tributos federais na guia do DAS, mas passa a apurar e pagar o ICMS e o ISS **por fora do Simples**, no regime normal de cada estado e município, o que eleva a carga e a burocracia antes mesmo de atingir o teto federal."
+    "to": "Alíquota nominal progressiva de 6% a 33% nos Anexos III ou V para serviços e tecnologia (com alíquota efetiva calculada após a parcela a deduzir de cada faixa)."
   },
   {
     "id": "2035",
     "vol": "5",
     "code": "C5",
     "from": "IRPJ, e CSLL, sobre margem presumida (trinta e dois por cento para serviços. Oito por cento para comércio).",
-    "to": "No Lucro Presumido, a Receita Federal aplica um percentual fixo de presunção de lucro sobre a receita bruta (em serviços de tecnologia e SaaS em geral, **32%** para IRPJ e CSLL). Para empresas de pequeno porte cujos serviços são prestados exclusivamente pelos sócios ou com receita bruta anual de até R$ 120 mil (exceto profissões legalmente regulamentadas), há hipótese reduzida de 16% para o IRPJ, que se perde integralmente no ano caso a receita supere R$ 120 mil:"
+    "to": "IRPJ sobre base presumida de 32% da receita bruta em serviços e 8% no comércio e indústria; CSLL sobre base presumida de 32% em serviços e 12% no comércio e indústria."
   },
   {
     "id": "2038",
     "vol": "5",
     "code": "C3",
     "from": "SaaS hoje pagando ISS de dois a cinco por cento, pode ver carga consumo subir para cerca de vinte e sete por cento.",
-    "to": "Uma startup que opera em prejuízo contábil e fiscal (investindo pesado em P&D e aquisição de clientes) não deve IRPJ nem CSLL no Lucro Real no período deficitário, mas atenção: a transição para o Lucro Real eleva o PIS/Cofins do regime cumulativo (3,65%) para o **não cumulativo (9,25%)**. Para empresas de software cuja principal despesa é folha de pagamento (que não gera crédito de PIS/Cofins no regime anterior à plena vigência da CBS), esse salto de 5,6 pontos na receita frequentemente custa mais caro do que o IRPJ/CSLL economizado, exigindo simulação linha a linha antes da opção."
+    "to": "Com o IVA dual (CBS federal e IBS estadual/municipal substituindo cinco tributos: PIS, Cofins, IPI, ICMS e ISS, conforme a LC 214/2025), um SaaS fora do Simples que hoje recolhe de 5,65% a 8,65% sobre o faturamento no Lucro Presumido (3,65% de PIS/Cofins mais 2% a 5% de ISS) passará à alíquota-padrão estimada em ~26,5% a 28%, com efeitos distintos em três perfis: (1) no SaaS B2B para clientes no regime regular, o cliente corporativo toma crédito integral do IBS/CBS pago na nota; (2) no SaaS B2C, o aumento de carga é real porque o consumidor final não toma crédito; (3) empresas no Simples Nacional podem manter o recolhimento unificado no DAS (sem transferir crédito cheio) ou recolher IBS/CBS por fora para gerar crédito a clientes B2B, além de setores como serviços de saúde (caso das clínicas de Camila) contarem com redução de 60% na alíquota."
   },
   {
     "id": "2039",
     "vol": "5",
     "code": "S6",
     "from": "#### 2.1 Juros sobre capital proprio (JCP) como instrumento de distribuicao tributariamente eficiente",
-    "to": "#### 2.1 Juros sobre Capital Próprio (JCP) na distribuição de lucros"
+    "to": "#### 2.1 Efeitos Fiscais Societários: Juros sobre Capital Próprio (JCP) e Conversão em S.A."
   },
   {
     "id": "2040",
     "vol": "5",
     "code": "E9",
     "from": "JCP e instrumento previsto na Lei 9.249/1995, art. 9, que permite a empresa distribuir resultado para socios",
-    "to": "Não se aplica ao Simples Nacional nem gera benefício fiscal no Lucro Presumido (já que o JCP não deduz a base presumida, sendo restrito a empresas no Lucro Real com patrimônio líquido elegível e lucro tributável no exercício, observadas as limitações da Lei 14.789/2023)"
+    "to": "O JCP é instrumento previsto na Lei 9.249/1995, art. 9º, que permite à empresa no Lucro Real distribuir resultado aos sócios"
   },
   {
     "id": "2041",
     "vol": "5",
     "code": "C3",
     "from": "A IN RFB 2.296/2025 limitou ainda a base a lucros ja apurados em exercicios anteriores, com excecao para o lucro do exercicio em curso a partir de 2026.",
-    "to": "- **Redução de até 20,4 pontos percentuais na carga de IRPJ + CSLL** sobre o dispêndio elegível (com a exclusão adicional de 60% da base tributável, 34% × 60% = 20,4% do gasto em P&D retorna como menor imposto a pagar; podendo chegar a 27,2% se a exclusão atingir 80% por incremento de pesquisadores exclusivos)"
+    "to": "A Lei 14.789/2023 restringiu a base de cálculo do JCP exclusivamente às contas elegíveis do Patrimônio Líquido (capital social integralizado, reservas de capital de ágio na emissão de ações, reservas de lucros, exceto reserva de incentivos fiscais, e prejuízos acumulados), vedando o cômputo de reservas de subvenção e de variações patrimoniais artificiais."
   },
   {
     "id": "2042",
@@ -725,28 +725,28 @@
     "vol": "5",
     "code": "C3",
     "from": "6. Tratamento contábil em conta de patrimônio líquido. Não em despesa de pessoal.",
-    "to": "#### O caso da startup de SaaS B2B de R$ 2,4M de ARR no Simples Nacional"
+    "to": "6. Reconheça o valor justo das opções como despesa ao longo do período de *vesting* em contrapartida à reserva de capital no Patrimônio Líquido, conforme exige o CPC 10 (IFRS 2): o que sustenta a natureza mercantil perante o fisco e o STJ (Tema 1.226) é a onerosidade e o risco de mercado do contrato, não omitir a contabilização."
   },
   {
     "id": "2049",
     "vol": "5",
     "code": "N3",
     "from": "**Phantom Stock (modelo alternativo crescente).** Direito a receber dinheiro equivalente à valorização de ações (sem entregar ações).",
-    "to": "Alíquota efetiva aproximada pela fórmula da 5ª faixa do Anexo V (RBT12 de R$ 2,4M): **~19,2% sobre a receita bruta**."
+    "to": "**Phantom Stock (ações fantasmas, modelo adotado por Dra. Camila para reter o diretor de operações das clínicas sem diluir o quadro societário da Ltda.).** Direito contratual de receber um bônus em dinheiro atrelado à valorização da empresa ou a metas de geração de caixa, sem emissão de quotas nem entrada no contrato social."
   },
   {
     "id": "2050",
     "vol": "5",
     "code": "C4",
     "from": "Caso Skyworks, ou Alphabet Brasil. Jurisprudência favorável à natureza mercantil. Caso IBM Brasil.",
-    "to": "**Movimento 1: enquadramento no Anexo III via Fator R.** Como a folha de pagamento (R$ 110 mil/mês × 12 = R$ 1,32M/ano) representa **55% da receita bruta**, muito acima do piso legal de 28%, a empresa tem direito imediato de apurar o DAS pelo **Anexo III**. Na 5ª faixa do Anexo III (RBT12 de R$ 2,4M, alíquota nominal de 21% e parcela a deduzir de R$ 125.640), a alíquota efetiva cai para **15,77%** (imposto anual de ~R$ 378,4 mil, gerando **economia imediata de ~R$ 82 mil por ano** apenas corrigindo a apuração mensal no PGDAS-D)."
+    "to": "No julgamento vinculante do Tema 1.226 (REsp 2.069.644/SP e REsp 2.074.564/SP, julgados pela Primeira Seção em 2024), o Superior Tribunal de Justiça (STJ) pacificou que o regime de *stock options* possui natureza mercantil, não incidindo IRPF na aquisição nem contribuição previdenciária quando há onerosidade e risco de mercado, incidindo imposto sobre ganho de capital apenas na venda futura das ações."
   },
   {
     "id": "2051",
     "vol": "5",
     "code": "E7",
     "from": "Executivos chave (C-level). 0,5 a três por cento individual. Engineers senior. 0,1 a 0,5 por cento individual. Early employees (cinco a vinte primeiros).",
-    "to": "**Movimento 2: simulação preventiva do degrau de saída do Simples.** Ao simular o Lucro Presumido para o faturamento atual de R$ 2,4M, a diretoria descobriu que pagar 15,73% sobre a receita (R$ 377,5 mil) **mais** ~28% de encargos patronais fora do DAS sobre a folha de R$ 1,32M (~R$ 369,6 mil) elevaria a conta total para **~R$ 747 mil (31,1% da receita)**! A conclusão prática: com folha equivalente a 55% do faturamento, permanecer no **Simples Nacional pelo Anexo III (15,77%)** é muito mais vantajoso até o sublimite de R$ 3,6M; e, ao cruzar o teto de R$ 4,8M com folha pesada e margem comprimida, a migração natural será para o **Lucro Real** (e não para o Presumido)."
+    "to": "Na alocação individual típica por cargo (referências Carta e Index Ventures): executivos-chave (diretoria C-level contratada pós-Seed/Série A) recebem de 0,5% a 3% individualmente; engenheiros seniores e lideranças técnicas, de 0,1% a 0,5%; e primeiros funcionários (entre o 5º e o 20º contratado), de"
   },
   {
     "id": "2052",
@@ -760,7 +760,7 @@
     "vol": "5",
     "code": "C2",
     "from": "eSocial (mensal). DCTF Mensal (tributos federais). SPED Fiscal (mensal, aplicável conforme regime). ECD, e ECF (anual).",
-    "to": "**Regra prática:** refaça a simulação tributária nos três regimes sempre que a receita crescer mais de 30%, quando a relação folha/receita cruzar a faixa de 28% (Fator R), ao se aproximar dos degraus de R$ 3,6M (sublimite estadual/municipal) e R$ 4,8M (teto do Simples) ou na janela anual de opção em janeiro."
+    "to": "eSocial (folha e encargos mensais, que já substituiu RAIS e CAGED), EFD-Reinf (retenções na fonte), DCTFWeb unificada com o MIT (Módulo de Inclusão de Tributos, que substituiu a antiga DCTF Mensal em 2025), EFD-Contribuições e EFD ICMS/IPI (mensais conforme o regime), ECD e ECF (anuais) e emissão de NFS-e / NF-e adaptada aos campos de IBS e CBS."
   },
   {
     "id": "2055",
@@ -774,7 +774,7 @@
     "vol": "5",
     "code": "C4",
     "from": "Indivíduos que fazem muitos cheques (Mauricio Benvenutti, Mate Pencz, e outros).",
-    "to": "ex-fundadores de tecnologia que já realizaram saídas (*exits*) e executivos seniores do ecossistema que investem regularmente com capital próprio em rodadas pré-seed."
+    "to": "Ex-fundadores com histórico de saída (*exit*) e executivos de tecnologia que investem com frequência como pessoa física ou via veículos próprios."
   },
   {
     "id": "2057",
@@ -802,49 +802,49 @@
     "vol": "5",
     "code": "C5",
     "from": "Série A: ~30%",
-    "to": "**Por que esse erro custa caro:** além de multas de ofício de 75% (que podem dobrar em caso de sonegação ou fraude) mais juros Selic sobre o passivo, a ausência de CND/CPEND federal ou de CRF do FGTS trava rodadas de venture capital, bloqueia desembolsos da Finep e do BNDES e impede a contratação com grandes empresas e órgãos públicos."
+    "to": "Série A: 33,3% (R$ 10M sobre post-money de R$ 30M; com o pool de 15% pré-rodada diluído para 10,0% pós-rodada, restam 56,7% divididos entre Fundador A com 29,8%, Fundador B com 19,8% e Anjo com 7,1%, somando 100%)"
   },
   {
     "id": "2061",
     "vol": "5",
     "code": "N9",
     "from": "### Alíquota Efetiva Total sobre Receita Bruta, Peso do INSS Patronal e Aproveitamento de Créditos",
-    "to": "### Metas de conformidade e revisão tributária\n\nPara acompanhar o peso real dos tributos na operação, monitore trimestralmente três indicadores complementares às metas de conformidade abaixo: (1) **Alíquota Efetiva Total sobre a Receita Bruta** = `(Tributos sobre Faturamento + IRPJ/CSLL + INSS Patronal sobre a Folha) ÷ Receita Bruta`; (2) **Peso do INSS Patronal sobre a Folha e sobre a Receita** (essencial na saída do Simples Nacional); e (3) **Índice de Aproveitamento de Créditos Tributários** sobre insumos de tecnologia, nuvem e comercialização (no Lucro Real e na transição para CBS/IBS)."
+    "to": "### Metas de higiene fiscal e cálculo da Alíquota Efetiva Total\n\nPara medir o peso real dos impostos (como fez Bia ao simular a saída do Simples Nacional), calcule trimestralmente três indicadores ao lado das metas de conformidade abaixo: (1) **Alíquota Efetiva Total sobre a Receita Bruta** = `(Tributos sobre Faturamento + IRPJ/CSLL + INSS Patronal sobre a Folha) ÷ Receita Bruta`; (2) **Peso do INSS Patronal fora do DAS** (que adiciona ~28% sobre a folha CLT na migração do Simples para o Presumido ou Real); e (3) **Índice de Aproveitamento de Créditos Tributários** sobre insumos, logística e tecnologia no Lucro Real e no IVA dual (IBS/CBS)."
   },
   {
     "id": "2062",
     "vol": "5",
     "code": "N9",
     "from": "### Onde empresas saudáveis criam passivos milionários: pejotização cega, CNAE errado e falta de retenção",
-    "to": "### Onde empresas saudáveis criam passivos milionários: pejotização sem critério, CNAE incompatível e falha nas retenções na fonte\n\nAlém dos cinco erros de gestão listados a seguir, três falhas operacionais concentram as maiores autuações em due diligence no Brasil: (1) **pejotização de equipe subordinada** com pessoalidade, habitualidade e horário fixo, que gera passivo trabalhista e previdenciário retroativo de cinco anos (acompanhe a repercussão geral do STF no Tema 1.389 sobre contratos civis/PJ); (2) **escolha de CNAE incompatível** com a operação real de software ou hardware, travando benefícios fiscais ou enquadrando a empresa no anexo errado do Simples; e (3) **falha na retenção na fonte** de IRRF, CSRF (PIS/Cofins/CSLL de 4,65%), ISS retido e INSS sobre notas de prestadores de serviço PJ, em que a empresa tomadora responde solidariamente pelo tributo não retido."
+    "to": "### Onde empresas saudáveis criam passivos milionários: pejotização cega, CNAE errado e falta de retenção\n\nTrês falhas operacionais concentram os passivos fiscais que mais reprovam startups em auditorias de captação, somando-se aos erros de gestão listados a seguir: (1) **pejotização com subordinação direta** (profissionais PJ com pessoalidade, habitualidade e controle de horário geram risco de vínculo empregatício e cobrança retroativa de cinco anos de INSS patronal e FGTS; acompanhe a diretriz vinculante do STF no Tema 1.389 sobre contratos civis/PJ); (2) **CNAE mal selecionado**, que pode impedir a opção pelo Simples, empurrar a empresa para o Anexo V sem necessidade ou bloquear incentivos fiscais; e (3) **omissão nas retenções na fonte sobre serviços tomados de PJs** (IRRF de 1,5%, CSRF de 4,65% para PIS/Cofins/CSLL, ISS retido na fonte e INSS de 11% em cessão de mão de obra), nos quais a contratante responde diretamente pelo imposto que deixou de reter."
   },
   {
     "id": "2063",
     "vol": "5",
     "code": "C5",
     "from": "Em SaaS com alta margem, o Lucro Presumido pode ser melhor desde R$ 1 milhão de faturamento.",
-    "to": "Em janeiro de cada ano (prazo legal para opção irretratável pelo Simples Nacional, ou no primeiro pagamento de DARF que fixa a escolha entre Lucro Presumido e Lucro Real para todo o ano-calendário), o fundador mantém o regime anterior no piloto automático, sem rodar a planilha comparativa com o orçamento do novo exercício."
+    "to": "Em SaaS com folha enxuta abaixo de 28% da receita (que cairia no Anexo V do Simples, com alíquota efetiva partindo de 15,5% e passando de 19% acima de R$ 1,8 milhão), o Lucro Presumido (13,33% a 16,33% sobre a receita mais ~28% de encargos apenas sobre a folha reduzida) costuma ficar mais barato na faixa de R$ 1,5 milhão a R$ 2 milhões de faturamento anual; já com folha acima de 28% (Anexo III), o Simples costuma vencer até o sublimite de R$ 3,6 milhões."
   },
   {
     "id": "2081",
     "vol": "5",
     "code": "C5",
     "from": "- Registro dos projetos no MCTI/SEMPI (recomendado, mas não obrigatório para a dedução)",
-    "to": "**Para negócios sem recorrência contratual (e-commerce D2C, varejo transacional):**\n`LTV = Ticket Médio por Pedido × Margem de Contribuição (%) × Número Médio de Pedidos Acumulados por Cliente na Coorte (em 12, 24 ou 36 meses)`"
+    "to": "- Sem necessidade de habilitação prévia: a empresa aplica a exclusão diretamente na apuração do Lucro Real e tem a obrigação legal de enviar o relatório anual FORMP&D ao MCTI até 31 de julho do ano seguinte (sem o envio tempestivo do FORMP&D e o dossiê técnico de dispêndios, o benefício fica sujeito a glosa fiscal)."
   },
   {
     "id": "2084",
     "vol": "5",
     "code": "C2",
     "from": "Isenção/redução de IPI, PIS, COFINS e II para empresas que desenvolvam ou produzam semicondutores no Brasil.",
-    "to": "**Cuidado com a ilusão do LTV infinito:** quando o churn mensal cai abaixo de 1% (vida teórica de 100 meses, ou mais de 8 anos), a fórmula `1 ÷ Churn` projeta receitas distantes demais para uma startup. Na prática de análise de crédito e de venture capital, trava-se o cálculo do LTV em uma **janela máxima de 36 a 60 meses (3 a 5 anos)**, evitando que um trimestre atipicamente bom de retenção infle artificialmente o múltiplo LTV/CAC."
+    "to": "Reformulado pelo programa Brasil Semicon (Lei 14.968/2024), concede créditos financeiros calculados sobre os dispêndios em P&D e redução de alíquotas sobre insumos e equipamentos para empresas habilitadas na cadeia de semicondutores, displays e painéis solares no Brasil (adaptado à transição de PIS/Cofins para a CBS em 2027)."
   },
   {
     "id": "2086",
     "vol": "5",
     "code": "C5",
     "from": "Para uma empresa com R$ 1M em gastos de P&D, a redução de IRPJ/CSLL via Lei do Bem pode chegar a R$ 200–400K por ano.",
-    "to": "#### O caso de Lucas e Marina: como consertar um SaaS B2B com payback de 28 meses"
+    "to": "Para uma empresa no Lucro Real com lucro tributável suficiente para absorver a dedução, R$ 1 milhão em gastos elegíveis de P&D gera redução efetiva de IRPJ/CSLL via Lei do Bem de R$ 204 mil (60% × 34%) a R$ 272 mil (80% × 34%), chegando ao teto de R$ 340 mil (100% × 34%) apenas quando há patente concedida."
   },
   {
     "id": "2088",
@@ -858,14 +858,14 @@
     "vol": "5",
     "code": "C3",
     "from": "o fundador \"vende\" para a própria holding ao valor de mercado, gerando ganho de capital.",
-    "to": "**Gatilho objetivo para pisar no acelerador:** só escale o orçamento de mídia e a contratação de novos vendedores quando três condições forem simultaneamente verdadeiras nas duas últimas safras trimestrais: (1) **CAC Payback pela margem bruta abaixo de 12 meses** (ou abaixo de 6 meses em PME/B2C), (2) **LTV/CAC acima de 3,0x** calculado com churn real de pelo menos 6 meses de histórico e (3) **retenção de mês 3 e mês 6 estável ou subindo** entre safras consecutivas."
+    "to": "embora o art. 23 da Lei 9.249/1995 permita à pessoa física integralizar as quotas na holding pelo valor constante na declaração de IRPF sem ganho de capital imediato, transferir a participação às vésperas de um *exit* expõe a operação a autuação por falta de propósito negocial (CARF) e transfere o ganho de capital para dentro da PJ (onde pode sofrer tributação combinada de até 34% de IRPJ/CSLL, contra 15% a 22,5% na PF)."
   },
   {
     "id": "2091",
     "vol": "5",
     "code": "C2",
     "from": "- Acordo escrito anterior ao período de apuração",
-    "to": "1. **Audite o CAC completo (*fully loaded*):** some mídia paga, ferramentas de marketing e vendas, comissões e 100% da folha e encargos do time comercial e de marketing nos últimos 3 meses, e divida apenas pelos **clientes novos pagos** ativados no período."
+    "to": "- Regras claras e objetivas assinadas antes de qualquer pagamento de antecipação e com antecedência mínima de 90 dias em relação ao pagamento da parcela final (conforme art. 2º, § 7º, da Lei 10.101/2000, incluído pela Lei 14.020/2020), negociadas por comissão paritária integrada também por um representante indicado pelo sindicato da categoria"
   },
   {
     "id": "2092",
@@ -879,7 +879,7 @@
     "vol": "5",
     "code": "C5",
     "from": "é vantajoso manter o pró-labore no mínimo necessário (pelo menos o salário mínimo, por exigência previdenciária) e distribuir o restante como lucros.",
-    "to": "- **Payback de CAC superior a 18 meses em PME** (em que o churn anual costuma superar 20% a 30%, fazendo o cliente cancelar antes de devolver o custo de aquisição)"
+    "to": "a calibragem depende do regime: no Simples Nacional, ajuste o pró-labore dos sócios (sobre o qual incide retenção de 11% de INSS até o teto previdenciário e tabela progressiva de IRPF até 27,5%) para garantir que a folha total atinja os 28% da receita exigidos pelo Fator R (Anexo III); já no Lucro Presumido e no Lucro Real, onde incide mais 20% de INSS patronal sobre o pró-labore, compare esse custo com as regras vigentes de distribuição de lucros e dividendos."
   },
   {
     "id": "2097",
@@ -893,21 +893,21 @@
     "vol": "5",
     "code": "C1",
     "from": "Por que 90% dos modelos financeiros apresentados por fundadores desmoronam na primeira pergunta de um operador experiente?",
-    "to": "Em vez de projetar que a receita vai crescer 15% ao mês porque o gráfico fica bonito no slide, um modelo operacional parte das engrenagens reais do negócio: quantos vendedores estarão rampados em cada mês, quantas demonstrações cada um realiza, qual a taxa de conversão histórica do funil, quanto tempo leva a implantação e quantos servidores e analistas de suporte serão necessários para atender a base ativa."
+    "to": "Por que tantos modelos financeiros apresentados por fundadores desmoronam na primeira pergunta de um operador experiente?"
   },
   {
     "id": "2100",
     "vol": "5",
     "code": "N7",
     "from": "Andy Grove tratava qualquer projeção empresarial como o cálculo de capacidade de uma linha fabril",
-    "to": "O investidor experiente não abre sua planilha para acreditar no número final do terceiro ano: ele abre a aba de premissas para testar se você sabe exatamente quais alavancas operacionais produzem cada linha de receita e de custo."
+    "to": "Em *High Output Management*, Andy Grove ensinava a olhar uma operação como uma fábrica de café da manhã, na qual a entrega final depende de capacidade instalada, tempo de ciclo e insumo disponível; projetar receita e caixa obedece à mesma lógica operacional"
   },
   {
     "id": "2101",
     "vol": "5",
     "code": "N1",
     "from": "Chamamos a planilha de Lucas de **O Excel de Ficção Científica**",
-    "to": "> A lógica de modelagem financeira (três demonstrações integradas, árvore de variáveis operacionais e análise de cenários) é permanente. O que evolui são as ferramentas de planejamento (planilhas integradas ao ERP e plataformas de FP&A), as normas contábeis de reconhecimento de receita (CPC 47 / IFRS 15) e os referenciais de eficiência do mercado."
+    "to": "A primeira planilha que Lucas levou ao conselho era um clássico **Excel de Ficção Científica**"
   },
   {
     "id": "2102",
@@ -921,7 +921,7 @@
     "vol": "5",
     "code": "S7",
     "from": "Mas como efetivamente construir um modelo financeiro operacional segue ausente.",
-    "to": "O Capítulo 1 mostrou como ler o passado nos demonstrativos contábeis; o Capítulo 3 isolou a economia unitária de cada cliente. Agora vamos unir essas duas pontas em um modelo operacional de 24 a 36 meses capaz de responder, em segundos, o que acontece com o seu caixa quando uma premissa comercial ou de contratação muda."
+    "to": "Construir esse modelo exige ligar cada premissa operacional da rua diretamente às linhas de receita, custo e caixa."
   },
   {
     "id": "2107",
@@ -942,14 +942,14 @@
     "vol": "5",
     "code": "C5",
     "from": "**Cenário Base (P50).** Hipóteses centrais realistas. O que você acredita que vai acontecer, com probabilidade cerca de cinquenta por cento.",
-    "to": "- **Vendedores equivalentes rampados no mês:** um executivo de contas contratado em janeiro não entrega 100% da cota em janeiro; modele a curva real de maturação (*ramp-up*), por exemplo **0% no mês 1, 25% no mês 2, 50% no mês 3, 75% no mês 4 e 100% a partir do mês 5**."
+    "to": "**Cenário Central do Modelo (P50, distinto do orçamento comprometido de P70 a P80 aprovado pelo conselho no Capítulo 6).** Hipóteses centrais realistas para projeção de longo prazo, com probabilidade de cerca de 50% (enquanto o orçamento anual de despesas do Capítulo 6 é travado de forma mais conservadora, para ser batido em 70% a 80% dos casos)."
   },
   {
     "id": "2110",
     "vol": "5",
     "code": "C3",
     "from": "Exemplo. Quanto cada variação de dez por cento em churn mensal afeta o runway?",
-    "to": "- **Receita nova do mês (New MRR)** = `Vendedores equivalentes rampados × Cota mensal de novos contratos por vendedor × Ticket médio mensal (ARPU)`"
+    "to": "Exemplo (partindo de R$ 2,4M de ARR inicial, adição bruta constante de novos clientes e R$ 4,5M de caixa, assumindo captação complementar no mês 15 para completar o ciclo de 24 meses): quanto cada 1 ponto percentual a mais de churn mensal tira do runway e do ARR ao final de 24 meses?"
   },
   {
     "id": "2111",
@@ -963,7 +963,7 @@
     "vol": "5",
     "code": "C3",
     "from": "LTV igual a ACV vezes margem bruta vezes (1 dividido por churn).",
-    "to": "| **Novos clientes do mês** | `= Leads qualificados × Taxa de conversão (%)` ou `= Vendedores rampados × Cota de fechamento` |"
+    "to": "LTV = (ACV × margem bruta) ÷ churn anual (ou, na base mensal, LTV = ARPA mensal × margem bruta ÷ churn mensal)."
   },
   {
     "id": "2113",
@@ -977,7 +977,7 @@
     "vol": "5",
     "code": "C5",
     "from": "Se o modelo tem divergência maior que vinte por cento entre plan, e actual, por dois meses consecutivos em qualquer linha-chave, o plano está desatualizado.",
-    "to": "- **Encargos e benefícios sobre a folha CLT:** aplique o fator multiplicador adequado ao regime tributário da empresa (no Lucro Presumido ou Real, **1,7x a 1,8x sobre o salário bruto nominal** para cobrir INSS patronal de 20%, RAT/FAP, Sistema S, FGTS, provisão de 13º, férias com 1/3 e benefícios; no Simples Nacional nos Anexos III e V, onde a CPP já integra o DAS, **1,4x a 1,5x**; ver detalhamento no Capítulo 6)."
+    "to": "Adote a mesma escada de tolerância do orçamento operacional (Capítulo 6): desvio mensal acima de 5% exige explicação na reunião mensal, acima de 10% pede análise de causa raiz e plano de ação corretivo, e divergência superior a 15% entre orçado (*plan*) e realizado (*actual*) por dois meses consecutivos em uma linha-chave indica que o modelo precisa de *reforecast* completo."
   },
   {
     "id": "2115",
@@ -991,14 +991,14 @@
     "vol": "5",
     "code": "C5",
     "from": "Cons. Custo (R$ 1 a R$ 5 mil por mês).",
-    "to": "- **Três cenários calibrados por variáveis operacionais (e nunca por chute percentual):**\n  - **Cenário Base (plano de gestão):** premissas alinhadas à média histórica dos últimos 6 meses.\n  - **Cenário Pessimista / Estresse (defesa de caixa):** conversão comercial 25% menor, ciclo de vendas 30% mais longo e churn 1,5x maior (define o gatilho de congelamento de contratações).\n  - **Cenário Otimista / Aceleração (teto de capacidade):** conversão 20% acima da base com NRR em expansão (define a necessidade antecipada de servidores, suporte e capital de giro)."
+    "to": "Desvantagens: custo de licença (US$ 500 a US$ 2.500 por mês, ou cerca de R$ 3 mil a R$ 15 mil mensais conforme o porte em 2026, mesma faixa detalhada no Capítulo 7)."
   },
   {
     "id": "2117",
     "vol": "5",
     "code": "C2",
     "from": "**Adaptive Insights, Anaplan.** Pros. Enterprise-grade.",
-    "to": "- **Acima de 100 funcionários (Série B em diante):** plataformas corporativas como **Workday Adaptive Planning** (antiga Adaptive Insights), **Anaplan** ou **Pigment**. Vantagem: integração nativa com ERPs (NetSuite, TOTVS Protheus, SAP) e controle granular de permissões por centro de custo. Limite: licença anual elevada e implantação de vários meses."
+    "to": "**Workday Adaptive Planning (antiga Adaptive Insights), Anaplan e Pigment.** Vantagens: padrão corporativo de grande porte."
   },
   {
     "id": "2118",
@@ -1040,7 +1040,7 @@
     "vol": "5",
     "code": "C2",
     "from": "Cohort 2022 em oitenta e cinco por cento. Cohort 2023 em setenta e cinco por cento. Cohort 2024 projeta setenta por cento.",
-    "to": "Safra de 24 meses atrás em 85% no mês 12; safra de 12 meses atrás em 75% no mês 12; safra recente projetando 70% no mesmo marco."
+    "to": "Safra de 24 meses atrás com retenção de 85% no primeiro ano; safra de 12 meses atrás em 75%; safra recente projetando 70%."
   },
   {
     "id": "2136",
@@ -1229,70 +1229,70 @@
     "vol": "5",
     "code": "N6",
     "from": "Esse fenômeno tem nome: descasamento de caixa.",
-    "to": "Na contabilidade gerencial, esse mecanismo que chamamos de **O Imposto do Prazo no Ciclo de Caixa** atende pelo termo técnico de **descasamento de caixa**."
+    "to": "Na linguagem técnica de tesouraria, **O Imposto Invisível do Ciclo de Caixa** corresponde ao descasamento de caixa entre o desembolso operacional e o recebimento."
   },
   {
     "id": "2191",
     "vol": "5",
     "code": "E4",
     "from": "Este capítulo cobre o ciclo de conversão de caixa, os instrumentos de financiamento de recebíveis (direitos a receber de clientes) disponíveis no Brasil",
-    "to": "**PMR (Prazo Médio de Recebimento, ou DSO, *Days Sales Outstanding*):** quantos dias, em média, a empresa leva para receber o dinheiro depois de emitir a fatura (`Contas a Receber ÷ Receita Bruta Diária Média`)."
+    "to": "Para blindar a operação antes que o crescimento seque a conta corrente, o fundador precisa dominar o ciclo de conversão de caixa, os instrumentos de financiamento de recebíveis (direitos a receber de clientes) disponíveis no Brasil"
   },
   {
     "id": "2192",
     "vol": "5",
     "code": "C3",
     "from": "ela pagou R$ 25 mil de custo antes de receber R$ 10 mil de receita. A margem contábil pode ser positiva. O caixa é negativo.",
-    "to": "**PMP (Prazo Médio de Pagamento, ou DPO, *Days Payable Outstanding*):** quantos dias, em média, a empresa leva para pagar seus fornecedores diretos (`Fornecedores a Pagar ÷ Custo das Mercadorias ou Serviços Vendidos Diário Médio`)."
+    "to": "ou se faturou em janeiro um projeto de implantação de R$ 60 mil entregue no mês (com custo de folha de R$ 25 mil pago à vista em janeiro), mas parcelou o recebimento em seis boletos mensais de R$ 10 mil, o DRE de janeiro registra R$ 60 mil de receita por competência e lucro contábil de R$ 35 mil, enquanto o caixa de janeiro fecha negativo em R$ 15 mil (entrou apenas o primeiro boleto de R$ 10 mil contra R$ 25 mil pagos)."
   },
   {
     "id": "2194",
     "vol": "5",
     "code": "C5",
     "from": "### A equação dos três relógios (PME + PMR − PMP): medindo quantos dias o seu dinheiro fica sequestrado na rua",
-    "to": "### A equação dos três relógios (PME + PMR − PMP) na prática de cada modelo de negócio"
+    "to": "### A equação dos três relógios (PME + PMR − PMP): medindo quantos dias o seu dinheiro fica preso na operação\n\n*(Nota de padronização: em todo este volume usamos **PME** para Prazo Médio de Estocagem, equivalente a DIO; **PMR** para Prazo Médio de Recebimento, equivalente a DSO; e **PMP** para Prazo Médio de Pagamento a fornecedores, equivalente a DPO e por vezes chamado de PMC.)*"
   },
   {
     "id": "2195",
     "vol": "5",
     "code": "E9",
     "from": "CCC negativo  → negócio autofinancia o crescimento (model de supermercado)",
-    "to": "- Fornecedores pagos em 30 dias sobre o CMV (70% da receita = R$ 350 mil/mês, gerando saldo médio de Fornecedores a Pagar de R$ 350 mil)"
+    "to": "CCC negativo  → negócio autofinancia o crescimento (modelo de supermercado ou de SaaS com assinatura anual paga à vista)"
   },
   {
     "id": "2196",
     "vol": "5",
     "code": "C5",
     "from": "PMR  = 32 dias (cartão crédito: liquidação em D+30 para a adquirente, mais 2 dias de processamento)",
-    "to": "**Conta da Necessidade de Capital de Giro (NCG):**\n- **Contas a Receber** (45 dias de receita de R$ 500 mil/mês): **R$ 750.000**\n- **Estoques** (60 dias de CMV de R$ 350 mil/mês): **R$ 700.000**\n- **(-) Fornecedores a Pagar** (30 dias de CMV de R$ 350 mil/mês): **(R$ 350.000)**\n- **(=) NCG presa na operação:** `R$ 750.000 + R$ 700.000 − R$ 350.000 = R$ 1.100.000` (e se as vendas dobrarem para R$ 1 milhão/mês mantendo os mesmos prazos, a operação exigirá **mais R$ 1,1 milhão** de caixa vivo só para financiar estoque e clientes)."
+    "to": "PMR  = 62 dias nas vendas em cartão de crédito em 3x sem antecipação (parcelas liquidadas em D+30, D+60 e D+90, média de 60 dias mais 2 dias de processamento; se o marketplace repassa ao vendedor em D+15, precisa financiar 47 dias de descasamento puro de caixa, ou pagar taxa de antecipação para trazer o PMR para D+2)"
   },
   {
     "id": "2198",
     "vol": "5",
     "code": "N9",
     "from": "### Como funciona a engrenagem dos FIDCs: quando montar ou plugar sua operação num veículo de crédito estruturado",
-    "to": "### Como funciona a engrenagem dos FIDCs e da antecipação de recebíveis\n\nQuando a compressão operacional de prazos não basta, a empresa pode transformar suas faturas a prazo em caixa à vista por meio de **FIDCs (Fundos de Investimento em Direitos Creditórios, regulados pelo Anexo Normativo II da Resolução CVM 175)**. Na prática, existem dois caminhos: (1) **plugar a empresa como cedente em um FIDC multicedente** de mercado (operado por gestoras e fintechs de crédito, viável a partir de R$ 200 mil a R$ 500 mil mensais de faturamento B2B, descontando duplicatas e contratos performados com taxas bem menores que o giro bancário limpo, pois o risco avaliado é o do sacado pagador); ou (2) **estruturar um FIDC próprio (exclusivo/dedicado)** quando a carteira de crédito originada supera **R$ 20 milhões a R$ 30 milhões**, em que a startup subordina de 10% a 20% do patrimônio em cotas subordinadas (que absorvem a primeira perda de inadimplência) e capta de 80% a 90% em cotas seniores e mezanino remuneradas a CDI + *spread*."
+    "to": "### Como funciona a engrenagem dos FIDCs: quando montar ou plugar sua operação num veículo de crédito estruturado\n\nAntes de pensar em constituir um fundo exclusivo (que exige alta escala), a rota mais acessível para startups e scale-ups é **plugar a operação como cedente em um FIDC multicedente já existente** (operado por gestoras de crédito estruturado e plataformas especializadas). Nesse modelo, a partir de R$ 200 mil a R$ 500 mil mensais em duplicatas performadas (notas fiscais de mercadorias entregues ou serviços prestados a clientes PJ com bom histórico), o FIDC compra seus recebíveis com ou sem coobrigação (regresso), aplicando critérios objetivos de elegibilidade (limite de concentração por sacado e checagem de protestos) a taxas frequentemente menores que o desconto bancário tradicional, porque o risco precificado na ponta é o da carteira pulverizada de sacados."
   },
   {
     "id": "2199",
     "vol": "5",
     "code": "C3",
     "from": "(off-balance para o cedente em estrutura apropriada)",
-    "to": "**Custo típico no Brasil (em cenário de Selic na faixa de 13% a 15% ao ano):** no cartão de crédito, as adquirentes cobram taxa de desconto (MDR de 1,5% a 3,5%) mais taxa de antecipação proporcional ao prazo (equivalente a **CDI + 2% a 6% ao ano** nas grandes adquirentes, mas podendo chegar a **1,5% a 3,0% ao mês** em tabelas de balcão para pequenos lojistas; compare sempre o CET anualizado)."
+    "to": "(nota contábil: a baixa dos recebíveis do balanço, *off-balance*, só é permitida pelo CPC 48 / IFRS 9 quando há transferência substancial dos riscos e benefícios; se a startup detém a cota subordinada que absorve as primeiras perdas, a regra geral exige manter os recebíveis e o passivo no balanço, devendo a estrutura ser validada previamente com a auditoria)"
   },
   {
     "id": "2201",
     "vol": "5",
     "code": "N9",
     "from": "### Navegando o custo real (CET) das linhas bancárias de giro no Brasil sem cair em armadilhas de reciprocidade",
-    "to": "### O custo efetivo total (CET) das linhas bancárias de giro e a armadilha da reciprocidade\n\nAo contratar capital de giro bancário no Brasil, nunca compare apenas a taxa nominal de juros: exija a planilha do **CET (Custo Efetivo Total)**, que soma (1) juros nominais (pré-fixados ou CDI + *spread*), (2) **IOF** (alíquota diária mais adicional de 0,38% na contratação para PJ), (3) tarifas de abertura de crédito (TAC/estruturação) e (4) o custo oculto das **exigências de reciprocidade** (como manter 20% a 30% do empréstimo travado em CDB de baixa remuneração ou contratar seguros e previdência sem utilidade operacional, o que reduz o caixa líquido liberado e eleva a taxa efetiva real em vários pontos percentuais)."
+    "to": "### Navegando o custo real (CET) das linhas bancárias de giro no Brasil sem cair em armadilhas de reciprocidade\n\nPara calcular o verdadeiro **Custo Efetivo Total (CET)** de um capital de giro bancário, some aos juros nominais (CDI + *spread*) o IOF (0,38% adicional na largada mais alíquota diária), a tarifa de estruturação (TAC) e o **custo líquido das exigências de reciprocidade**: se o banco pede R$ 200 mil travados em CDB a 85% do CDI ou um seguro/pacote de tarifas de R$ 1.500 mensais para liberar R$ 1 milhão, você está dispondo de apenas R$ 800 mil de caixa líquido novo e precisa dividir todo o gasto financeiro + tarifas + perda de rendimento por esses R$ 800 mil efetivos. A reciprocidade só compensa quando envolve serviços que a empresa já usaria a preço competitivo (como folha de pagamento, custódia remunerada a 100% do CDI ou liquidação de recebíveis sem sobretaxa)."
   },
   {
     "id": "2205",
     "vol": "5",
     "code": "C7",
     "from": "FGI/FGO: fundos de garantia governamentais que cobrem parte da exposição do banco, reduzindo ou eliminando a necessidade de aval pessoal.",
-    "to": "- **Meta de Ciclo de Conversão de Caixa (CCC):** **negativo ou abaixo de 15 dias em SaaS B2B** (impulsionado por planos anuais pagos à vista e cobrança via Pix Automático/cartão); **abaixo de 30 a 45 dias em e-commerce e indústria leve**, monitorado todo mês."
+    "to": "FGI e FGO: fundos garantidores que cobrem até 80% da exposição de risco do banco e reduzem drasticamente a exigência de garantias reais (como imóveis ou trava integral de aplicações), embora os bancos costumem manter a exigência de aval pessoal dos sócios nos contratos (negocie sempre a limitação do aval à sua participação societária ou sua substituição gradual por cessão de recebíveis)."
   },
   {
     "id": "2206",
@@ -1327,7 +1327,7 @@
     "vol": "5",
     "code": "C3",
     "from": "Marketplace que opera contas de sellers e retém float por mais de 1 dia útil pode precisar de autorização como IP",
-    "to": "> **Na próxima segunda-feira, às 9h:** abra o balancete e o relatório de faturamento dos últimos 90 dias, calcule no papel os seus três relógios (**PME + PMR − PMP = Ciclo de Conversão de Caixa em dias**) e multiplique esse número pelo seu desembolso diário médio para enxergar quantos reais estão presos hoje na operação."
+    "to": "Um marketplace que atua na liquidação a *sellers* sem se enquadrar na isenção de marketplace puro (ou que estrutura subcredenciamento ou emissão de moeda eletrônica com contas de pagamento pré-pagas) precisa observar a obrigação de liquidação centralizada na CIP/SLC, a segregação patrimonial dos saldos e os limites regulatórios de volume transacionado (Resoluções BCB 80/2021 e 81/2021 e cronograma de transição do Banco Central) que exigem autorização para funcionar como IP"
   },
   {
     "id": "2211",
@@ -1376,42 +1376,42 @@
     "vol": "5",
     "code": "N3",
     "from": "Em Recife, **Rafael** e **Bia** sempre tiveram orgulho de dizer nos eventos de empreendedorismo",
-    "to": "### Banco só empresta a quem prova que não está desesperado: construindo crédito PJ antes da crise"
+    "to": "Entre a operação no Recife, com **Rafael**, e a gestão financeira em Goiânia, com **Bia**, os dois sócios sempre tiveram orgulho de dizer nos eventos de empreendedorismo"
   },
   {
     "id": "2222",
     "vol": "5",
     "code": "E5",
     "from": "Porque banco não empresta para quem tem pressa; banco empresta para quem tem histórico auditável de adimplência no SCR",
-    "to": "Uma máxima antiga de tesouraria corporativa resume o paradoxo do crédito bancário: o banco te oferece um guarda-chuva no dia de sol e o pede de volta no primeiro minuto de tempestade."
+    "to": "O comitê de crédito de um grande banco aprova limites para quem já construiu histórico auditável de adimplência no SCR"
   },
   {
     "id": "2224",
     "vol": "5",
     "code": "S2",
     "from": "### A anatomia real do problema: separando o sinal do ruído",
-    "to": "### Cinco grandes bancos, uma camada de fintechs e onde a startup se encaixa"
+    "to": "### Cinco bancos, uma camada de fintechs e onde a startup cabe"
   },
   {
     "id": "2225",
     "vol": "5",
     "code": "C1",
     "from": "Cinco bancos (Itaú, Bradesco, Caixa, Banco do Brasil e Santander) concentram mais de oitenta por cento do crédito total concedido ao setor privado.",
-    "to": "Pelo Relatório de Economia Bancária do Banco Central, os cinco maiores conglomerados (Itaú, Banco do Brasil, Bradesco, Caixa e Santander, ao lado do BTG Pactual no atacado corporativo) concentram cerca de 75% a 80% do estoque de crédito corporativo do país."
+    "to": "Segundo os dados do Relatório de Economia Bancária do Banco Central do Brasil (2024/2025), embora a participação de cooperativas e fintechs tenha crescido desde 2020, os cinco maiores conglomerados bancários (Itaú, Banco do Brasil, Caixa, Bradesco e Santander) ainda concentram cerca de 70% a 77% das operações de crédito do Sistema Financeiro Nacional."
   },
   {
     "id": "2226",
     "vol": "5",
     "code": "E10",
     "from": "Há três razões pelas quais relações bancárias merecem atenção desde o primeiro mês da empresa.",
-    "to": "- **Contas PJ nativas digitais para startups e PMEs:** **Cora** e **Contabilizei Bank** (contas PJ focadas em gestão de cobrança, emissão de boletos/Pix e integração contábil; nota: o **Linker** foi adquirido pelo Méliuz e o banco digital B2B **BS2** reposicionou sua operação para câmbio, seguros e crédito corporativo especializado)."
+    "to": "Rafael e Bia tiveram de recorrer a uma linha cara de 3,1% ao mês na véspera da Black Friday porque descobriram na pele que relacionamento bancário PJ se constrói desde o primeiro mês de operação, muito antes de a empresa precisar do primeiro empréstimo."
   },
   {
     "id": "2227",
     "vol": "5",
     "code": "N9",
     "from": "### Por dentro da caixa-preta do comitê de crédito: o que o banco realmente olha no seu CNPJ",
-    "to": "### Por dentro do comitê de crédito: o que o banco analisa no seu CNPJ\n\nQuando um gerente submete o seu CNPJ ao comitê ou ao motor automatizado de risco (*rating* conforme a Resolução CMN 4.966), cinco blocos de dados definem o limite e a taxa: (1) **SCR do Banco Central (Sistema de Informações de Crédito)**, que mostra todo o endividamento bancário da empresa, vencimentos a curto prazo e qualquer atraso ou prejuízo histórico acima de R$ 200; (2) **Faturamento fiscal declarado (PGDAS-D no Simples ou ECF/EFD-Contribuições no Presumido/Real)** confrontado com a movimentação real em conta e o fluxo de recebíveis de cartões e duplicatas; (3) **Balanço e DRE assinados pelo contador** (observando capital social integralizado, liquidez corrente e relação Dívida Líquida/EBITDA); (4) **Score de birôs (Serasa Experian e Boa Vista)** e certidões negativas; e (5) **Garantias reais ou fidejussórias** (cessão fiduciária de recebíveis, aplicação financeira ou fundos garantidores públicos)."
+    "to": "### Banco tradicional, banco digital e fintech: o papel de cada um e o que o comitê de crédito consulta\n\nQuando sua empresa pede limite em qualquer uma das camadas bancárias descritas abaixo, o analista e o motor de risco consultam cinco pontos em sequência: (1) o **SCR do Banco Central** (histórico de pontualidade, endividamento total de curto e longo prazo e eventuais atrasos acima de R$ 200); (2) a **consistência entre faturamento fiscal declarado (PGDAS-D ou ECF/SPED) e a movimentação real em conta corrente**; (3) os **demonstrativos contábeis assinados** (capital social, geração de caixa e alavancagem); (4) **apontamentos em birôs (Serasa/Boa Vista) e certidões negativas (CND federal e FGTS)**; e (5) a **qualidade das garantias oferecidas** (agenda de recebíveis de cartão/duplicatas, aplicações ou aval)."
   },
   {
     "id": "2228",
@@ -1425,7 +1425,7 @@
     "vol": "5",
     "code": "C3",
     "from": "crédito PJ nessas plataformas é limitado (cheque especial digital, antecipação de recebíveis, FGTS)",
-    "to": "2. **Domicílio bancário de recebíveis:** concentre pelo menos 60% a 70% da liquidação de cartões, Pix e boletos no banco em que deseja construir limite de capital de giro, permitindo que o algoritmo de crédito enxergue a recorrência diária das entradas."
+    "to": "o crédito PJ nessas plataformas costuma ser mais limitado em valor e prazo (concentrado em cartão corporativo, antecipação de recebíveis de cartão/boletos e capital de giro curto com trava de recebíveis)"
   },
   {
     "id": "2230",
@@ -1439,14 +1439,14 @@
     "vol": "5",
     "code": "N9",
     "from": "### A regra dos 3 relacionamentos bancários: por que depender de um único banco digital é risco operacional",
-    "to": "### A arquitetura das três contas PJ: por que depender de uma única instituição é risco operacional"
+    "to": "### Separação estrita entre PF e PJ, abertura de contas e blindagem contra risco de banco único"
   },
   {
     "id": "2232",
     "vol": "5",
     "code": "E10",
     "from": "A separação de PF e PJ não é uma preferência de organização, é um imperativo legal e financeiro.",
-    "to": "Manter 100% do caixa e dos recebimentos da empresa em uma única instituição financeira expõe a operação ao risco de bloqueio cautelar algorítmico, indisponibilidade de sistema em dia de folha ou corte abrupto de limite. A partir do estágio Seed, opere com uma arquitetura mínima de **três relacionamentos bancários ativos**:\n1. **Conta Operacional Principal (Fintech PJ ou Banco Ágil):** para pagamentos diários via API, conciliação automática com o ERP, cartões corporativos e emissão de cobranças sem tarifa.\n2. **Banco Tradicional de Primeira Linha (Tier 1):** onde a empresa constrói relacionamento de 12 a 24 meses, mantém parte da custódia e acessa linhas de capital de giro com garantia pública (FGI PEAC e Pronampe), câmbio e fiança bancária.\n3. **Conta Reserva de Tesouraria (Segundo Banco de Primeira Linha ou Banco de Investimento):** onde ficam aplicados no mínimo **3 a 6 meses de folha e custos críticos** em liquidez diária (Tesouro Selic ou CDB DI de banco de primeira linha), totalmente isolados da conta de giro operacional."
+    "to": "Misturar contas pessoais dos sócios com o caixa da empresa (confusão patrimonial, já tratada nos Volumes 1 e 4 com o caso das clínicas de Camila) compromete o patrimônio pessoal pelo art. 50 do Código Civil e reduz diretamente o limite de crédito PJ, pois vendas desviadas ou despesas pessoais pagas no CNPJ distorcem o extrato e o balancete analisados pelo banco."
   },
   {
     "id": "2233",
@@ -1460,7 +1460,7 @@
     "vol": "5",
     "code": "E9",
     "from": "em 2025, com Selic a treze e setenta e cinco por cento, isso equivale a cerca de dezenove por cento ao ano",
-    "to": "**Importante:** linhas de inovação da **Finep** (como Finep Inovacred, operado via bancos de desenvolvimento e agências estaduais como BRDE, BDMG, Bandes e Desenvolve SP) e operações com garantia do **FGI PEAC** costumam ser muito mais acessíveis para startups de base tecnológica do que o financiamento direto do BNDES; avalie as três rotas em paralelo (ver Capítulo 17)."
+    "to": "taxa máxima de Selic + 6% a.a.; por exemplo, com Selic a 13,75% ao ano, o teto nominal fica em 19,75% ao ano"
   },
   {
     "id": "2236",
@@ -1474,14 +1474,14 @@
     "vol": "5",
     "code": "N3",
     "from": "Startup de tech no Ceará, Pernambuco ou Bahia deve obrigatoriamente explorar FNE antes de ir a crédito de mercado.",
-    "to": "**Termos de referência do Pronampe (Lei 13.999/2020, tornado política permanente de crédito pela Lei 14.161/2021 e atualizado anualmente):**\n- **Público elegível:** ME (faturamento até R$ 360 mil/ano) e EPP (faturamento até R$ 4,8 milhões/ano), além de condições específicas conforme portarias vigentes.\n- **Taxa de juros máxima:** **Selic + 6% ao ano** (com garantia de até 100% da operação pelo FGO, Fundo Garantidor de Operações, administrado pelo Banco do Brasil, limitada ao teto de inadimplência da carteira do banco).\n- **Prazo total:** até **48 meses** (incluindo até 11 meses de carência de principal; confirme as condições vigentes na janela anual da sua instituição financeira)."
+    "to": "Rafael, no Recife (área do FNE via Banco do Nordeste), e Bia, em Goiânia (área do FCO via Banco do Brasil), eram o público natural desses fundos constitucionais: uma linha de giro ou inovação aprovada seis meses antes teria financiado o lote de matéria-prima de agosto a uma fração dos 3,1% ao mês do crédito de emergência."
   },
   {
     "id": "2238",
     "vol": "5",
     "code": "C3",
     "from": "Não exige análise de crédito aprofundada porque o risco é do recebível, não da empresa.",
-    "to": "- **Regra de ouro sobre aval pessoal dos sócios:** em estágio inicial (ME/EPP sem histórico longo), quase todos os bancos exigem **aval solidário dos sócios (pessoa física)** nos contratos de giro, mesmo em linhas com FGO/FGI. À medida que a startup cresce, acumula balanços auditados e constitui garantias reais da própria empresa (como **cessão fiduciária de recebíveis de cartão/duplicatas** ou **aplicação financeira vinculada**), negocie explicitamente a **retirada do aval pessoal dos fundadores** ou sua limitação estrita à participação societária."
+    "to": "A aprovação é mais rápida porque o título performado serve de lastro, mas atenção: no desconto bancário tradicional há direito de regresso (coobrigação), ou seja, o banco analisa tanto o cliente sacado quanto a sua empresa e, se o cliente não pagar no vencimento, o banco debita o valor da sua conta."
   },
   {
     "id": "2239",
@@ -1523,7 +1523,7 @@
     "vol": "5",
     "code": "N9",
     "from": "### Como negociar com gerentes PJ sem cair na venda casada de títulos de capitalização e consórcios inúteis",
-    "to": "### Como negociar com gerentes PJ sem aceitar venda casada e construir histórico em 18 meses\n\nAntes de executar o cronograma de 18 meses abaixo, aplique três regras na mesa com o gerente PJ: (1) **recuse venda casada disfarçada de reciprocidade** (a imposição de título de capitalização, consórcio ou seguro sem relação com a operação para liberar crédito é vedada pelo art. 39, I, do CDC e pelas normas do Banco Central; se o gerente pedir reciprocidade comercial, ofereça concentrar a **folha de pagamento**, a **liquidação da maquininha/Pix** ou a **aplicação de parte da reserva de caixa em CDB 100% CDI** do próprio banco); (2) **sempre cote a mesma linha FGI PEAC ou Pronampe em pelo menos dois bancos credenciados ao mesmo tempo**, pois o *spread* e as tarifas mudam de agência para agência; e (3) **envie balancete contábil assinado e faturamento fiscal atualizado a cada trimestre** para renovar o *rating* interno antes de precisar do limite."
+    "to": "### Como negociar com gerentes PJ sem cair na venda casada de títulos de capitalização e consórcios inúteis\n\nCondicionar a liberação de uma linha de crédito à compra de título de capitalização, consórcio ou seguro sem relação com o risco da operação configura **venda casada**, prática expressamente vedada pelas normas do Banco Central e pelo Código de Defesa do Consumidor (art. 39, I). Na mesa de negociação: (1) peça sempre a simulação formal do crédito **isolado de produtos agregados** e, se o gerente alegar exigência de sistema, solicite a condição por escrito no e-mail corporativo (ou registre reclamação no canal do Banco Central caso haja bloqueio indevido de linha pública como Pronampe/FGI); (2) se decidir conceder reciprocidade comercial legítima para reduzir o *spread*, ofereça contrapartidas que preservem o seu patrimônio (folha de pagamento, domicílio de recebíveis ou aplicação em CDB DI 100% CDI); e (3) caso aceite qualquer tarifa ou seguro na operação, incorpore 100% desse desembolso no cálculo do CET antes de comparar com outro banco."
   },
   {
     "id": "2247",
@@ -1565,7 +1565,7 @@
     "vol": "5",
     "code": "C2",
     "from": "quando poderiam estar cobertos em 80% pelo **FGI PEAC do BNDES**",
-    "to": "### A Cascata do Porto: Como Cinco Impostos em Série Dobram o Custo de Importar no Brasil"
+    "to": "com aval pessoal ilimitado quando poderiam contar com garantia complementar do **FGI (Fundo Garantidor para Investimentos do BNDES, nas modalidades vigentes)** e aval limitado à sua participação"
   },
   {
     "id": "2255",
@@ -1579,42 +1579,42 @@
     "vol": "5",
     "code": "C3",
     "from": "o PIS e a COFINS-Importação morderam a base alargada",
-    "to": "- **PIS-Importação (2,1% regra geral) e Cofins-Importação (9,65% regra geral):** desde o julgamento do STF no RE 559.937 e a alteração da Lei 10.865/2004, a base de cálculo é o **Valor Aduaneiro** (sem ICMS e sem o próprio PIS/Cofins por dentro). *(Nota de transição: a partir de 2026/2027, com a Lei Complementar 214/2025, PIS-Importação e Cofins-Importação passam a ser substituídos pela **CBS sobre Importação**, e o ICMS-Importação gradualmente pelo **IBS sobre Importação**, migrando do cálculo em cascata para crédito financeiro pleno no destino.)*"
+    "to": "o PIS e a COFINS-Importação somaram mais 11,75% sobre o valor aduaneiro (Lei 12.865/2013)"
   },
   {
     "id": "2258",
     "vol": "5",
     "code": "C6",
     "from": "O que havia acontecido entre a fábrica na China e o galpão em Curitiba?",
-    "to": "- **ICMS-Importação (cálculo \"por dentro\"):** é o imposto que mais distorce a conta de quem importa pela primeira vez, porque o próprio ICMS integra a sua base de cálculo: `Base do ICMS = (Valor Aduaneiro + II + IPI + PIS-Importação + Cofins-Importação + Taxa Siscomex + Despesas Aduaneiras até o desembaraço) ÷ (1 − Alíquota do ICMS)`. Em um estado com ICMS de 18%, dividir por `0,82` equivale a uma alíquota efetiva de **21,95%** sobre o montante acumulado."
+    "to": "O que havia acontecido entre a fábrica na China e o galpão em Curitiba (onde Henrique importou direto sem regime especial pelo Porto de Paranaguá, recolhendo o ICMS cheio no desembaraço, com alíquota modal do Paraná de 19,5%, antes de avaliar a abertura de filial em Santa Catarina para operar com TTD 409, o diferimento/crédito presumido paranaense ou a importação por encomenda via *trading*)?"
   },
   {
     "id": "2259",
     "vol": "5",
     "code": "C5",
     "from": "Chamamos esse batismo de fogo de **A Ilusão do Preço FOB**",
-    "to": "- **AFRMM (Adicional ao Frete para Renovação da Marinha Mercante):** incide sobre o valor do frete marítimo internacional à alíquota de **8%** (reduzida pela Lei 14.301/2022, a BR do Mar; isento no modal aéreo e em regimes especiais previstos em lei)."
+    "to": "Chamamos esse batismo de fogo de **A Ilusão do Preço de Fábrica**"
   },
   {
     "id": "2260",
     "vol": "5",
     "code": "C3",
     "from": "aplica *Ex-Tarifário* (reduzindo o Imposto de Importação a zero) e opera via *Trading Company*",
-    "to": "**Onde o importador de primeira viagem perde a margem:**\n1. **Armazenagem portuária cobrada sobre o valor CIF:** muitos terminais alfandegados cobram armazenagem em períodos progressivos (1º período de 7 a 10 dias, 2º período mais caro) calculada como percentual sobre o valor CIF da carga; se o desembaraço travar por erro documental ou licença pendente da Anvisa/Inmetro, a conta de armazenagem cresce exponencialmente.\n2. **Sobreestadia de contêiner (*Demurrage*):** multa diária em dólares cobrada pelo armador marítimo quando o importador ultrapassa o prazo livre (*Free Time*, que deve ser negociado entre **14 e 21 dias** antes do embarque) para devolver o contêiner vazio."
+    "to": "pleiteia *Ex-Tarifário* quando o item se enquadra como bem de capital (BK) ou de informática e telecomunicações (BIT) sem produção nacional equivalente (reduzindo o Imposto de Importação para zero ou alíquota reduzida vigente) e opera via *Trading Company*"
   },
   {
     "id": "2261",
     "vol": "5",
     "code": "S7",
     "from": "#### 2.1. As Submodalidades do Radar (Limites Semestrais de Importação)",
-    "to": "#### 2.1. Habilitação no Siscomex (Radar da Receita Federal) e Limites Operacionais"
+    "to": "#### Submodalidades do Radar e limites por semestre"
   },
   {
     "id": "2263",
     "vol": "5",
     "code": "C3",
     "from": "até US$ 3.000 para amostras e protótipos via *Importa Fácil* / RTS, onde a tributação simplificada de 60% de II + ICMS inviabiliza revenda comercial com margem",
-    "to": "#### 2.2. Incoterms 2020 essenciais na negociação com fábricas asiáticas (EXW, FOB, CIF, DAP)"
+    "to": "ou pelos Correios via *Importa Fácil*, até o limite de US$ 3.000 do Regime de Tributação Simplificada (RTS), para amostras e protótipos; embora o Incoterm DDP exista no comércio global, no Brasil a importação formal exige registro da DI/DUIMP em nome do importador brasileiro, e no RTS a carga de Imposto de Importação (20% até US$ 50 e 60% com parcela a deduzir de US$ 20 acima disso, conforme regras vigentes desde 2024) somada ao ICMS estadual por dentro inviabiliza a revenda comercial com margem"
   },
   {
     "id": "2268",
@@ -1691,7 +1691,7 @@
     "vol": "5",
     "code": "C5",
     "from": "Mas caro (taxa efetiva dez a vinte e cinco por cento ao ano).",
-    "to": "Porém, exige margem bruta alta: no mercado brasileiro, operações de RBF cobram um múltiplo fixo de retorno (*cap*) de **1,3x a 1,8x sobre o valor adiantado**, amortizado por retenção de 5% a 15% da receita mensal ao longo de 12 a 24 meses (o que equivale a um custo efetivo anualizado de 28% a 55% ao ano conforme a velocidade da receita; ver detalhamento completo no Capítulo 18)."
+    "to": "Mas tem custo elevado: no Brasil, o RBF cobra um múltiplo fixo de retorno (*cap*) de 1,3x a 1,8x o valor recebido, pago em 12 a 36 meses via percentual da receita (enquanto o *venture debt* opera tipicamente a CDI + 3% a 8% ao ano mais *warrants*, conforme detalhado no Capítulo 18)."
   },
   {
     "id": "2299",
@@ -1726,7 +1726,7 @@
     "vol": "5",
     "code": "E1",
     "from": "Gestão de risco para startup não é montar um departamento. É um processo simples",
-    "to": "Gestão de risco em startup cabe em um protocolo enxuto de quatro etapas (identificar, avaliar, responder e monitorar), revisado a cada trimestre."
+    "to": "Gestão de risco em startup cabe em um protocolo enxuto de quatro etapas"
   },
   {
     "id": "2304",
@@ -1831,14 +1831,14 @@
     "vol": "5",
     "code": "C5",
     "from": "não são cobertas por nenhuma apólice.",
-    "to": "não têm a perda comercial do dano à marca coberta como indenização direta, embora boas apólices de Seguro Cibernético reembolsem as despesas imediatas de assessoria de imprensa de crise e comunicação obrigatória aos titulares após um incidente de dados."
+    "to": "não têm o dano à reputação em si nem a perda futura de vendas cobertos por seguro, embora o custo de gerir a crise e a assessoria de imprensa após um vazamento de dados costume estar coberto na apólice de Seguro Cibernético (*Cyber*)."
   },
   {
     "id": "2323",
     "vol": "5",
     "code": "C7",
     "from": "(travando-a em no máximo 12 meses do valor pago pelo cliente)",
-    "to": "(em contratos **B2B empresariais**, travando o teto indenizatório em 12 meses do valor efetivamente pago pelo cliente, exceto dolo, confidencialidade e violação de propriedade intelectual; já em **relações de consumo B2C**, como pacientes das clínicas de Camila ou consumidores finais do D2C de Rafael e Bia, lembre-se de que o art. 51, I, do Código de Defesa do Consumidor torna nula qualquer cláusula que exonere ou atenue a responsabilidade do fornecedor, tornando o Seguro de RC Profissional/Produtos indispensável)"
+    "to": "(válida em contratos empresariais B2B, travando o teto indenizatório em até 12 meses do valor pago pelo cliente; já em relações de consumo B2C, como nas clínicas de Camila ou no e-commerce de Rafael e Bia, o art. 51, I, do CDC anula cláusulas que atenuem a responsabilidade, devendo a proteção vir do seguro de RC Profissional/Produtos)"
   },
   {
     "id": "2324",
@@ -1852,42 +1852,42 @@
     "vol": "5",
     "code": "N1",
     "from": "Por que fundadores brilhantes na operação parecem amadores ingênuos quando sentam do outro lado da mesa de um fundo de investimento? Porque eles entram na reunião",
-    "to": "Lucas abriu na tela a planilha de conciliação da última sexta-feira: R$ 4,2 milhões em Tesouro Selic e CDBs de liquidez diária para o caixa operacional dos próximos seis meses, R$ 3,8 milhões escalonados em LFTs e CDBs de bancos de primeira linha para a reserva estratégica e uma trava automática para a exposição cambial de US$ 38 mil mensais da infraestrutura de nuvem na AWS. Quando o conselho perguntou qual seria o impacto no runway se o dólar saltasse para R$ 6,10 ou se o resgate precisasse ocorrer no mesmo dia, Marina respondeu em dez segundos com os números na ponta da língua."
+    "to": "Sete em cada dez startups financiadas por um fundo de *early-stage* morrem pelo caminho ou devolvem no máximo o capital investido. Fundadores brilhantes na operação tropeçam na mesa de captação quando entram na reunião"
   },
   {
     "id": "2326",
     "vol": "5",
     "code": "N2",
     "from": "Chamamos o erro de Lucas de **O Pitch de Boas Intenções**: contar uma história simpática de crescimento linear de 20% ao ano",
-    "to": "Na gestão financeira de startups, o caixa captado em uma rodada tem missão operacional clara: financiar o plano de crescimento até o próximo marco de *valuation*, e jamais ser colocado em risco em apostas especulativas de crédito privado, renda variável ou criptoativos."
+    "to": "Naquela tarde, Lucas caiu na armadilha de **O Elogio que Era Não**: confundir a educação protocolar de um investidor ('adorei o time, me mantenha atualizado') com interesse real de compra, apresentando uma projeção comportada de crescimento linear"
   },
   {
     "id": "2327",
     "vol": "5",
     "code": "E9",
     "from": "Duas, ou três, empatam. Seis, ou sete, somem.",
-    "to": "Gerir a tesouraria pós-captação exige separar o saldo em três gavetas de liquidez (caixa operacional de 90 dias, reserva tática de 6 meses e reserva estratégica), blindar as despesas indexadas ao dólar (como servidores em nuvem e licenças internacionais) e instituir alçadas duplas de aprovação bancária."
+    "to": "Duas ou três empatam. Seis ou sete somem."
   },
   {
     "id": "2328",
     "vol": "5",
     "code": "E9",
     "from": "O critério correto é. \"Se isso der certo, dá certo em escala relevante para o seu fundo?\".",
-    "to": "O **FGC (Fundo Garantidor de Créditos)** garante até **R$ 250 mil por CNPJ e por conglomerado financeiro** (com teto global de R$ 1 milhão renovável a cada 4 anos para garantias pagas). Para uma startup com R$ 5 milhões a R$ 20 milhões em caixa, o FGC cobre apenas uma fração residual: por isso, a regra de segurança para reservas corporativas é concentrar os CDBs exclusivamente em **bancos de primeira linha (Tier 1 / S1 do Banco Central)** ou aplicar diretamente em **Títulos Públicos Federais (Tesouro Selic / LFT)**, que contam com a garantia soberana do Tesouro Nacional sem limite de valor."
+    "to": "O critério correto é outro: se der certo, dá certo numa escala que importa para o fundo?"
   },
   {
     "id": "2329",
     "vol": "5",
     "code": "E9",
     "from": "Probabilidade de checar, vezes tamanho do cheque, vezes contribuição além-dinheiro.",
-    "to": "**Tributação das aplicações financeiras de Pessoa Jurídica (regras gerais vigentes em 2026):**\n- **Tabela regressiva de IRRF na fonte (renda fixa e fundos de curto/longo prazo):** **22,5%** até 180 dias; **20,0%** de 181 a 360 dias; **17,5%** de 361 a 720 dias; e **15,0%** acima de 720 dias.\n- **IOF regressivo:** incide apenas sobre os rendimentos em resgates realizados nos primeiros **29 dias** da aplicação (de 96% no 1º dia até 0% no 30º dia).\n- **Tratamento do rendimento conforme o regime tributário da startup:**\n  - No **Simples Nacional**, o IRRF retido na fonte pelo banco sobre a aplicação financeira é **definitivo** (o rendimento financeiro não entra na base do DAS).\n  - No **Lucro Presumido**, as receitas financeiras são somadas diretamente à base de cálculo do **IRPJ (15% + 10% de adicional) e da CSLL (9%)** no trimestre, compensando-se o IRRF já retido na fonte no momento do resgate.\n  - No **Lucro Real**, as receitas financeiras integram o resultado contábil/fiscal (podendo ser absorvidas caso a operação tenha prejuízo fiscal no período) e sofrem incidência de **PIS (0,65%) e Cofins (4,00%) sobre receitas financeiras** (Decreto 8.426/2015, totalizando **4,65%**)."
+    "to": "Probabilidade de o investidor entrar na rodada, vezes o tamanho do cheque, vezes o que ele agrega além do dinheiro."
   },
   {
     "id": "2330",
     "vol": "5",
     "code": "E9",
     "from": "Captar menos é frequentemente mais fácil que captar mais. Cheques menores vêm de menos pessoas.",
-    "to": "**Para startups brasileiras com fatura mensal relevante em dólar (AWS, GCP, Azure, OpenAI, Snowflake, HubSpot):**\n1. **Migração para faturamento local em reais (*local billing*):** grandes provedores de nuvem permitem faturar no Brasil em BRL com nota fiscal local, eliminando o IOF do cartão corporativo internacional e travando a conversão cambial.\n2. **Conta global PJ em dólar ou compra programada de câmbio:** quando o pagamento no exterior é direto, manter saldo equivalente a **3 a 6 meses de faturas de software/nuvem** em conta corporativa em USD (ou fechar contratos de termo de moeda, **NDF**, para despesas previsíveis acima de US$ 50 mil/mês) protege o orçamento contra picos súbitos da taxa de câmbio."
+    "to": "Captar uma rodada menor e mais enxuta costuma ser mais rápido do que tentar fechar uma rodada gigante de uma só vez: exige menos investidores na mesa."
   },
   {
     "id": "2333",
@@ -1901,14 +1901,14 @@
     "vol": "5",
     "code": "C5",
     "from": "A nossa cunha inicial (3-5 lojas, e Sudeste) representa TAM de cerca de 2.500 padarias, e R$ 250 milhões de ARR",
-    "to": "Captar venture capital não é passar o chapéu nem colecionar cafés com analistas: é executar um **processo comercial B2B de alto ticket com janelas sincronizadas**, em que o produto vendido é uma participação minoritária na tese de crescimento da empresa e a alavanca de preço é a densidade de reuniões qualificadas acontecendo na mesma semana."
+    "to": "Com retenção bruta mensal de 98,5% que sustenta o NRR de 112%, a nossa cunha inicial (redes de 3 a 5 lojas no Sudeste, a um tíquete médio de R$ 1.500/mês ou R$ 18 mil/ano) representa um mercado endereçável inicial (SOM/cunha) de 2.500 redes e R$ 45 milhões de ARR, abrindo caminho para as 15 mil redes do mercado nacional (R$ 270 milhões de ARR)"
   },
   {
     "id": "2341",
     "vol": "5",
     "code": "S5",
     "from": "#### 2. Pitch Deck, estrutura de doze a quinze slides",
-    "to": "#### 2. Pitch Deck: estrutura enxuta de 12 slides (com resumo da árvore da Fase 14)"
+    "to": "#### 2. Pitch Deck: a lógica narrativa da sequência de slides (ver template completo na Fase 14)"
   },
   {
     "id": "2342",
@@ -1936,14 +1936,14 @@
     "vol": "5",
     "code": "C6",
     "from": "**Termos brasileiros específicos.**",
-    "to": "**Cláusulas de proteção negocial e especificidades societárias brasileiras (Ltda., S.A., LC 182/2021 e acordo de sócios):**"
+    "to": "**Outros termos negociais do Term Sheet e particularidades societárias brasileiras (Ltda. vs. S.A., quotas preferenciais da IN DREI 81/2020, voto plural da Lei 14.195/2021 e blindagem do investidor-anjo na LC 182/2021; ver Capítulo 16 e Volume 8, Capítulo 1):**"
   },
   {
     "id": "2347",
     "vol": "5",
     "code": "S7",
     "from": "Anti-dilution e a clausula que mais machuca fundadores em down round, e a unica maneira de entender o efeito e simulando numericamente.",
-    "to": "- **Pré-Seed:** 10% a 15% de diluição (preservando mais de 80% do cap table com os fundadores para suportar o Seed e a Série A)."
+    "to": "A cláusula de antidiluição (*anti-dilution*) é a que mais penaliza os fundadores em uma rodada de baixa (*down round*), e a única maneira de compreender seu impacto no quadro societário brasileiro é simulando os números."
   },
   {
     "id": "2348",
@@ -1957,7 +1957,7 @@
     "vol": "5",
     "code": "N9",
     "from": "### Lines, Not Dots (Mark Suster): como construir confiança meses antes de abrir a rodada",
-    "to": "### Construindo linhas, não pontos (Mark Suster): como criar relacionamento 6 meses antes da rodada\n\nO conceito clássico de Mark Suster (Upfront Ventures) resume a psicologia da decisão em venture capital: **investidores não investem em pontos isolados no tempo (*dots*), investem em linhas de execução (*lines*)**. Quando você conhece um sócio de fundo apenas na semana em que precisa do dinheiro, ele enxerga um único ponto estático e assume postura defensiva. Quando você mapeia os 15 fundos ideais **6 a 9 meses antes de abrir a rodada**, toma um café curto de 20 minutos dizendo explicitamente *\"não estou captando agora; nossa meta para os próximos dois trimestres é sair de R$ 400 mil para R$ 650 mil de MRR e baixar o payback para 9 meses\"* e envia três atualizações trimestrais batendo exatamente o que prometeu, dois pontos viram uma linha ascendente de credibilidade antes mesmo do primeiro slide do roadshow."
+    "to": "### Lines, Not Dots (Mark Suster): como construir confiança meses antes da rodada e manter a governança depois do fechamento\n\nNa fase pré-rodada, aplica-se a regra de Mark Suster (*Invest in Lines, Not Dots*): um investidor raramente assina um cheque milionário com base em um único ponto no tempo (a reunião em que você pede dinheiro). Ele decide com base na linha formada por múltiplos pontos ao longo de seis a nove meses: na primeira conversa informal, quando você ainda não está captando, você compartilha os dois ou três marcos operacionais que pretende atingir nos trimestres seguintes; a cada trimestre, envia uma atualização curta mostrando que entregou o que prometeu, transformando ceticismo em confiança acumulada antes de abrir o *roadshow*. Já depois que a rodada fecha (detalhada na governança de conselho do Capítulo 21), essa mesma disciplina continua para preparar a Série B:"
   },
   {
     "id": "2350",
@@ -1978,7 +1978,7 @@
     "vol": "5",
     "code": "E9",
     "from": "CEO que só fala com investidores quando precisa de algo. Cria transacional. Não relacional.",
-    "to": "Na **Etapa 2 do funil de captação (primeira reunião com sócio ou principal do fundo)**"
+    "to": "O CEO que só aparece quando precisa de dinheiro ou de um favor urgente cria uma relação puramente transacional, e não de confiança."
   },
   {
     "id": "2353",
@@ -1999,7 +1999,7 @@
     "vol": "5",
     "code": "N9",
     "from": "### As 6 ciladas mortais de captação: dinheiro burro (Dumb Money), cláusulas leoninas e perder o foco da operação",
-    "to": "### As 6 ciladas de captação: investidor desalinhado, cláusulas tóxicas e paralisia operacional\n\nAntes dos seis erros processuais detalhados abaixo, atenção redobrada às duas armadilhas que mais destroem o cap table em rodadas iniciais no Brasil: (1) **aceitar \"dinheiro caro de investidor amador\" (*dumb money*)**, como empresários tradicionais sem vivência em tecnologia que exigem 30% a 40% da empresa no Pré-Seed ou pedem veto operacional sobre contratações e produto, tornando a startup **infinanciável (*uninvestable*)** para fundos institucionais na Série A; e (2) **ceder cláusulas leoninas em troca de um valuation nominal inflado**, como preferência de liquidação múltipla (2x ou 3x), participação dupla (*participating preferred*) ou antidiluição *full ratchet*."
+    "to": "### Catorze erros de captação, do PMF ao valuation (dinheiro desalinhado, cláusulas leoninas e perda de foco operacional)"
   },
   {
     "id": "2358",
@@ -2034,7 +2034,7 @@
     "vol": "5",
     "code": "S6",
     "from": "### Diligência reversa obrigatória: como investigar o investidor com os fundadores que já quebraram ou brigaram no portfólio dele",
-    "to": "### Diligência reversa nos investidores (*Reverse Due Diligence*): como investigar o fundo antes de assinar\n\nO acordo de acionistas de uma Série A dura mais tempo que a média dos casamentos no Brasil (7 a 10 anos sem cláusula de saída unilateral para o fundador). Antes de assinar o *term sheet*, execute uma **diligência reversa obrigatória** em três passos:\n1. **Converse com 2 fundadores das estrelas do portfólio:** pergunte como o sócio que vai sentar no seu conselho se comporta nas reuniões trimestrais e qual ajuda prática o fundo realmente entregou (contratação de executivos, abertura de contas corporativas, ponte para a Série B).\n2. **Ligue para 2 fundadores de empresas do portfólio que pivotaram, enfrentaram crise ou encerraram atividades (fora da lista indicada pelo fundo):** é na crise, quando a meta de receita atrasa dois trimestres, que o verdadeiro caráter do investidor aparece. Descubra se o sócio ajudou a reestruturar a rota ou se travou pautas societárias e ameaçou a gestão.\n3. **Verifique o ciclo de vida do veículo (Vintage do Fundo):** pergunte em que ano o fundo atual foi captado e quanto de reserva para rodadas subsequentes (*follow-on reserve*) ainda resta disponível para acompanhar sua Série B."
+    "to": "### Anexo prático ao checklist de aceite do Term Sheet: diligência reversa sobre o investidor"
   },
   {
     "id": "2363",
@@ -2083,7 +2083,7 @@
     "vol": "5",
     "code": "C2",
     "from": "tamanho de cheque (Seed R$ 2 a R$ 10 milhões, A 10 a 30 milhões, B 30 a 100 milhões, C 100 a 300 milhões)",
-    "to": "**Passo 3: pondere os fatores de ajuste (Scorecard de Bill Payne):**\n- Força e histórico do time fundador (peso: **30%**)\n- Tamanho e urgência da oportunidade de mercado (peso: **25%**)\n- Produto, tecnologia e barreiras de entrada (peso: **15%**)\n- Ambiente competitivo (peso: **10%**)\n- Canais de tração inicial e parcerias (peso: **10%**)\n- Necessidade de capital adicional até o equilíbrio (peso: **10%**; soma dos pesos = **100%**)"
+    "to": "tamanho de cheque (nas faixas típicas observadas no Brasil em 2025-2026 segundo levantamentos da ABVCAP e do Distrito: Seed de R$ 2 milhões a R$ 12 milhões, Série A de R$ 8 milhões a R$ 45 milhões, Série B de R$ 45 milhões a R$ 150 milhões e Série C acima de R$ 150 milhões)"
   },
   {
     "id": "2381",
@@ -2146,7 +2146,7 @@
     "vol": "5",
     "code": "C4",
     "from": "ContaAzul antes de deal Stone. Receita cerca de R$ 80 milhões, valoração pré-IPO cerca de R$ 500 milhões (cerca de seis vezes).",
-    "to": "Depois da rodada **Seed de R$ 6 milhões**, **Lucas** e **Marina** levantaram ao longo de dezoito meses mais **R$ 3,5 milhões em três mútuos conversíveis e SAFEs de ponte** com tetos (*caps*) diferentes (R$ 25M, R$ 32M e R$ 40M) sem atualizar a planilha de conversão integrada."
+    "to": "No caso real da aquisição da RD Station pela TOTVS anunciada em 2021 (Fato Relevante público na B3), a operação avaliou 100% da empresa em cerca de R$ 2 bilhões (R$ 1,86 bilhão por 92% do capital) para uma receita líquida projetada de R$ 206 milhões em 2021, implicando um múltiplo próximo de 9,7x a receita anual em uma transação estratégica de controle."
   },
   {
     "id": "2398",
@@ -2181,7 +2181,7 @@
     "vol": "5",
     "code": "N9",
     "from": "### O Term Sheet Envenenado: Participating Preferred, múltiplos de liquidação de 2x/3x e antidiluição Full Ratchet",
-    "to": "### O Term Sheet Envenenado: Participating Preferred, múltiplos de 2x/3x e antidiluição Full Ratchet\n\nO preço nominal (*valuation*) é apenas metade da equação de uma rodada; a outra metade mora nas cláusulas econômicas e de controle do *term sheet*. Três cláusulas podem confiscar a economia dos fundadores mesmo em uma venda milionária:\n1. **Preferência de Liquidação com Participação (*Participating Preferred* ou *Double Dip*):** o investidor recebe de volta 100% (1x) do capital investido antes de todos **e ainda participa pró-rata** da divisão do saldo restante com os fundadores, como se já tivesse convertido. Exija sempre o padrão limpo de mercado: **1x *Non-Participating*** (o investidor escolhe entre receber 1x o capital de volta **ou** converter em participação societária, o que for maior).\n2. **Múltiplos de Liquidação Superiores a 1x (2x ou 3x):** garantem ao investidor receber duas ou três vezes o cheque aportado antes que os portadores de ações ordinárias (fundadores e equipe) vejam o primeiro real em um M&A.\n3. **Antidiluição *Full Ratchet* (Catraca Cheia):** se a empresa precisar fazer uma rodada futura a um *valuation* menor (*down round*), mesmo que capte apenas R$ 500 mil por um preço 40% menor, **100% das ações da rodada anterior do investidor são repricadas para o novo preço mais baixo**, transferindo uma diluição devastadora para os fundadores. A única cláusula aceitável como proteção padrão de mercado é a **Média Ponderada Ampla (*Broad-Based Weighted Average*)**, que pondera o ajuste pelo volume real de dinheiro novo emitido."
+    "to": "### O Term Sheet Envenenado: Participating Preferred, múltiplos de liquidação de 2x/3x e antidiluição Full Ratchet\n\nUm *valuation* nominal alto pode esconder cláusulas que transferem a maior parte do valor de saída para o investidor. Imagine uma startup que captou R$ 20 milhões por 25% na Série A (post-money de R$ 80 milhões) e é vendida anos depois pelos mesmos **R$ 80 milhões**:\n- **Com preferência 1x não participativa (*1x non-participating*, padrão saudável):** o investidor escolhe entre resgatar seus R$ 20 milhões de preferência ou converter em 25% da venda (R$ 20 milhões); os **R$ 60 milhões restantes (75%)** ficam com fundadores, equipe e anjos.\n- **Com preferência 2x participativa (*2x participating preferred*, o *double dip*):** o investidor retira primeiro 2x o cheque na largada (**R$ 40 milhões**) e ainda leva 25% dos R$ 40 milhões restantes (**R$ 10 milhões**), embolsando **R$ 50 milhões (62,5% da empresa)** enquanto os detentores de 75% do capital dividem apenas R$ 30 milhões.\n- **Com antidiluição *Full Ratchet* (catraca cheia) contra Média Ponderada Ampla (*Broad-Based Weighted Average*):** se antes da venda a empresa fizer uma rodada ponte na metade do preço por ação, o *full ratchet* reprica 100% das ações da Série A para a metade do preço (dobrando o número de ações do fundo às custas dos fundadores), enquanto a média ponderada ampla ajusta o preço proporcionalmente ao tamanho real do novo aporte. Abaixo, veja também os erros clássicos de precificação na rodada:"
   },
   {
     "id": "2408",
@@ -2202,7 +2202,7 @@
     "vol": "5",
     "code": "N9",
     "from": "### Por que transformar uma Ltda. em S.A. cedo demais custa caro e trava rodadas iniciais no Brasil",
-    "to": "### Sociedade Limitada (Ltda.) vs. S.A. de Capital Fechado: por que transformar cedo demais custa caro e quando migrar\n\nNo Brasil, 95% das startups nascem como **Sociedade Limitada (Ltda., regida pelo Código Civil, arts. 1.052 e seguintes, com aplicação supletiva da Lei das S.A.)** por três razões práticas: (1) dispensa publicação de atas e demonstrações financeiras em jornais ou no Diário Oficial; (2) permite contabilidade e governança societária enxutas, economizando de **R$ 40 mil a R$ 120 mil por ano** em custos jurídicos, societários e de publicação; e (3) **permite captar normalmente de investidores-anjo, aceleradoras e fundos Pré-Seed/Seed por meio de Mútuo Conversível ou Contrato de Participação (LC 182/2021)** sem que o investidor entre no quadro societário antes da hora (protegendo-o contra desconsideração da personalidade jurídica em passivos trabalhistas e fiscais). A **transformação em Sociedade Anônima de Capital Fechado (S.A., Lei 6.404/1976, com as simplificações do Marco Legal das Startups, LC 182/2021, para S.A. com receita bruta anual de até R$ 78 milhões)** só se torna obrigatória quando a startup chega à **Série A institucional** (ou quando o fundo Seed exige emissão direta de ações preferenciais resgatáveis/conversíveis com classes distintas de direitos, planos de *stock options* mercantis puros ou emissão de debêntures; ver detalhamento societário no Volume 8)."
+    "to": "### Por que transformar uma Ltda. em S.A. cedo demais custa caro e quando usar instrumentos de conversão diferida\n\nNo Brasil, operar como **Sociedade Limitada (Ltda.)** durante os estágios Pré-Seed e Seed evita o custo fixo jurídico, contábil e de publicações societárias de uma **Sociedade Anônima (S.A. de capital fechado, Lei 6.404/1976)**, que mesmo após as simplificações do Marco Legal das Startups (LC 182/2021 para S.A. com receita bruta até R$ 78 milhões, dispensando jornais impressos em favor de publicação eletrônica) ainda exige livros societários, atas formais de assembleia/conselho e assessoria especializada que consomem de R$ 40 mil a R$ 100 mil por ano. Enquanto a Ltda. não comporta emissão direta de ações preferenciais conversíveis com resgate ou debêntures (que exigem a transformação em S.A. tipicamente na chegada da Série A institucional; ver Volume 8), a startup capta como Ltda. usando instrumentos de conversão futura:"
   },
   {
     "id": "2413",
@@ -2328,7 +2328,7 @@
     "vol": "5",
     "code": "C2",
     "from": "A regulação define teto de captação (atualmente R$ 15 milhões por empresa em doze meses)",
-    "to": "A **Resolução CVM 88/2022** define os parâmetros oficiais vigentes da modalidade: **teto de captação de até R$ 15 milhões por emissor** (para sociedades empresárias de pequeno porte com receita bruta anual de até R$ 40 milhões individuais ou R$ 80 milhões no grupo econômico no exercício anterior), **prazo máximo de oferta de 180 dias**, **direito de desistência do investidor por pelo menos 5 dias** após a confirmação e **limite anual de investimento de R$ 20 mil por ano-calendário para investidores de varejo em geral** (subindo para até 10% da renda bruta anual ou do patrimônio financeiro para quem declara acima de R$ 200 mil, e sem limite para investidores qualificados)."
+    "to": "A **Resolução CVM 88/2022** define os parâmetros oficiais vigentes da modalidade: **teto de captação de até R$ 15 milhões por emissor** (para sociedades empresárias de pequeno porte com receita bruta anual de até R$ 40 milhões individuais ou R$ 80 milhões no grupo econômico no exercício anterior), **prazo máximo de oferta de 180 dias**, **direito de desistência do investidor por pelo menos 5 dias** após a confirmação e **limite anual de investimento de R$ 20 mil por ano-calendário para investidores de varejo em geral** (subindo para até 10% da renda bruta anual ou do patrimônio financeiro para quem declara acima de R$ 200 mil, e sem limite para investidores qualificados)"
   },
   {
     "id": "2446",
@@ -2356,7 +2356,7 @@
     "vol": "5",
     "code": "C4",
     "from": "Ambipar (antes de IPO). Fez captação via plataforma alternativa antes de entrar na bolsa.",
-    "to": "**Casos reais e perfis que tracionam na Resolução CVM 88:** no ecossistema brasileiro de plataformas como CapTable, EqSeed e Kria, as rodadas que batem o teto em poucos dias concentram-se em (1) **marcas de consumo, saúde, alimentação e redes físicas em expansão** (como o perfil da rede de clínicas de Camila, cervejarias artesanais, marcas D2C e healthtechs com base fiel de clientes e médicos prescritores que viram embaixadores da marca) e (2) **SaaS B2B com comunidade ativa de usuários PME**, captando faixas típicas de **R$ 1,5 milhão a R$ 8 milhões** via mútuo conversível sindicado ou SPE. *(Nota: diferencie sempre o equity crowdfunding societário da Resolução CVM 88 da emissão de utility tokens/fan tokens de clubes esportivos ou da tokenização de recebíveis e precatórios, tratada no Capítulo 20.)*"
+    "to": "Operações documentadas sob a Resolução CVM 88/2022 (que elevou o teto anual de captação para R$ 15 milhões por emissora) concentram-se em plataformas autorizadas pela CVM como **CapTable, EqSeed e Kria**: casos públicos como o da **B4 (bolsa de ação climática, que captou R$ 5 milhões na CapTable em 2023)**, redes de saúde e bem-estar (perfil das clínicas da Dra. Camila) e marcas de consumo com comunidade engajada mostram que o sucesso depende de levar uma âncora de 30% a 50% da rodada já comprometida antes da abertura pública na plataforma (não confunda a emissão societária regulada pela CVM 88 com *fan tokens* de clubes esportivos ou tokenização de recebíveis, tratados no Capítulo 20)."
   },
   {
     "id": "2451",
@@ -2405,6 +2405,6 @@
     "vol": "5",
     "code": "C7",
     "from": "Bloqueie na sua agenda recorrente toda **primeira sexta-feira útil do mês às 14h** para redigir e disparar o **Investor Update Mensal** padronizado para acionistas atuais e para os 10 investidores",
-    "to": "Bloqueie na sua agenda recorrente toda **primeira segunda-feira útil do mês, das 9h às 10h (logo após o fechamento gerencial do 5º dia útil)**, para redigir e disparar o **Investor Update Mensal** completo aos acionistas atuais (e envie separadamente, a cada trimestre, uma versão externa resumida sem dados sensíveis de caixa ou problemas internos para os 10 fundos que você deseja conquistar na próxima rodada)"
+    "to": "Bloqueie na sua agenda recorrente toda **primeira segunda-feira útil do mês, das 9h às 10h (logo após o fechamento gerencial do 5º dia útil)**, para redigir e disparar o **Investor Update Mensal** completo aos acionistas atuais e envie separadamente, a cada trimestre, uma versão externa resumida (sem dados sensíveis de caixa ou problemas internos) para os 10 fundos"
   }
 ]
