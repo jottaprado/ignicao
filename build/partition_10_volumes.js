@@ -68,64 +68,19 @@ function slugify(s) {
 }
 
 // ---------------------------------------------------------------------------
-// 1. Extrair as 175 seções originais do commit 738db95 (v3.4.0)
+// 1. Carregar as 175 seções canônicas da base (build/base_sections_v5.json)
 // ---------------------------------------------------------------------------
-const BASE_VOLS = [
-  'volumes/IGNICAO-Vol-1-Ideacao.md',
-  'volumes/IGNICAO-Vol-2-Validacao.md',
-  'volumes/IGNICAO-Vol-3-Tracao.md',
-  'volumes/IGNICAO-Vol-4-Escala.md',
-  'volumes/IGNICAO-Vol-5-Maturidade.md',
-  'volumes/IGNICAO-Vol-6-Referencia.md',
-];
-
-const topRe =
-  /^## (?:(FASE \d+B?) — .+|APÊNDICE ([A-Z0-9-]+) — .+|(APÊNDICE — .+|APÊNDICE: .+|EPÍLOGO|GLOSSÁRIO|ÍNDICE REMISSIVO DE TERMOS-CHAVE))$/;
-
 const rawSections = new Map(); // key -> { key, heading, body }
-let notaDoAutorBody = '';
+const notaDoAutorBody = NOTA_DO_AUTOR_V5;
 
-for (const relPath of BASE_VOLS) {
-  const raw = execFileSync('git', ['show', `738db95:${relPath}`], {
-    cwd: ROOT,
-    encoding: 'utf8',
-    maxBuffer: 50 * 1024 * 1024,
-  }).replace(/\r\n/g, '\n');
-
-  if (relPath.includes('Vol-1-')) {
-    notaDoAutorBody = NOTA_DO_AUTOR_V5;
-  }
-
-  const lines = raw.split('\n');
-  let inFence = false;
-  const starts = [];
-  for (let i = 0; i < lines.length; i++) {
-    const l = lines[i];
-    if (l.trim().startsWith('```')) inFence = !inFence;
-    if (!inFence) {
-      const m = l.match(topRe);
-      if (m) {
-        const key = m[1] ? m[1].replace(' ', '_') : m[2] ? m[2] : m[3];
-        starts.push({ idx: i, key, heading: l.replace(/^## /, '').trim() });
-      }
-    }
-  }
-
-  for (let s = 0; s < starts.length; s++) {
-    const curr = starts[s];
-    const endLine = s + 1 < starts.length ? starts[s + 1].idx : lines.length;
-    let chunk = lines.slice(curr.idx, endLine).join('\n').trim();
-    chunk = chunk.replace(/\n+# [A-ZÀ-Ú][^\n]*[\s\S]*$/, '').trim();
-    chunk = chunk.replace(/(?:\n+---)+\s*$/, '').trim();
-    rawSections.set(curr.key, {
-      key: curr.key,
-      heading: curr.heading,
-      body: chunk,
-    });
-  }
+const baseSectionsData = JSON.parse(
+  fs.readFileSync(path.join(BUILD_DIR, 'base_sections_v5.json'), 'utf8')
+);
+for (const [k, v] of Object.entries(baseSectionsData)) {
+  rawSections.set(k, { key: v.key, heading: v.heading, body: v.body });
 }
 
-console.log(`[1/6] Seções base extraídas de 738db95: ${rawSections.size} (esperado: 175)`);
+console.log(`[1/6] Seções base carregadas de base_sections_v5.json: ${rawSections.size} (esperado: 175)`);
 if (rawSections.size !== 175) {
   throw new Error(`Esperadas 175 seções, mas foram extraídas ${rawSections.size}`);
 }
@@ -145,6 +100,10 @@ const {
   FRAMEWORKS_BG_CELL_FIXES,
   enrichRawGlossaryBody,
   enrichRawAbbrevBody,
+  enrichDataCompilacaoBody,
+  enrichBibliografiaBody,
+  enrichIndiceFrameworksBody,
+  enrichIndiceRemissivoBody,
 } = require('./vol10_reference_additions');
 const {
   enrichGovtechBody,
@@ -152,6 +111,10 @@ const {
   enrichAcceleratorsBody,
 } = require('./govtech_banca_additions');
 const { applyTwinChapterMerges } = require('./chapter_mergers');
+const {
+  applyReviewFixesToRawAndSpecs,
+  applyVolumeReviewFixes,
+} = require('./apply_review_fixes');
 
 const origHeadingBA = rawSections.get('BA').heading;
 const origHeadingDH = rawSections.get('DH').heading;
@@ -192,6 +155,7 @@ if (rawSections.has('AZ')) {
   az.body = enrichAcceleratorsBody(az.body);
 }
 const secondaryToPrimaryMap = applyTwinChapterMerges(rawSections);
+applyReviewFixesToRawAndSpecs(rawSections, ALL_NARRATIVE_SPECS);
 console.log(`      Novos capítulos de Economia da Inovação, Hubs, Verticais, Comex, Franchising e Ciclo Empreendedor carregados: ${Object.keys(vol10NewModules).length} (esperado: 40) | Fusões de capítulos gêmeos: ${secondaryToPrimaryMap.size}`);
 
 // ---------------------------------------------------------------------------
@@ -285,6 +249,7 @@ for (const m of aRaw.matchAll(aRegex)) {
     .replace(/\s*\(Fases[^)]*\)/gi, '')
     .replace(/\s*\(Apêndice[^)]*\)/gi, '')
     .replace(/\s*·\s*Fases?\s+\d+[^)]*/gi, '')
+    .replace(/^Template\s+de\s+/i, '')
     .trim();
   const inner = demoteHeadings(m[3].trim().replace(/(?:\n+---)+\s*$/, ''), 1);
   const heading = `Template: ${rawTitle}`;
@@ -1990,22 +1955,22 @@ const VOLUMES_SPEC = [
 const COLLECTION_MAP_MERMAID = `\`\`\`mermaid
 graph LR
     subgraph J1["Do Zero à Validação"]
-        V1["<b>Vol. 1 — Ideação</b><br/>Fases 0 a 3 · Fundador e Teoria"]
-        V2["<b>Vol. 2 — Descoberta e Mercado</b><br/>Fases 4 a 6 · Cliente e Cunha"]
-        V3["<b>Vol. 3 — Hipóteses e Protótipo</b><br/>Fases 7 a 10 · Testes e Modelos"]
+        V1["<b>Vol. 1: Ideação</b><br/>Fases 0 a 3 · Fundador e Teoria"]
+        V2["<b>Vol. 2: Descoberta e Mercado</b><br/>Fases 4 a 6 · Cliente e Cunha"]
+        V3["<b>Vol. 3: Hipóteses e Protótipo</b><br/>Fases 7 a 10 · Testes e Modelos"]
         V1 --> V2 --> V3
     end
     subgraph J2["Tração e Escala"]
-        V4["<b>Vol. 4 — Tração e PMF</b><br/>Fases 11 a 13 · MVP, GTM e Vendas"]
-        V5["<b>Vol. 5 — Finanças e Captação</b><br/>Fase 14 · Caixa, VC, Tributário e FP&A"]
-        V6["<b>Vol. 6 — Receita e Pessoas</b><br/>Fases 15 e 16 · Enterprise, Líderes e Cultura"]
-        V7["<b>Vol. 7 — Produto e Engenharia</b><br/>Fase 17 · Operações, IA e Arquitetura"]
-        V8["<b>Vol. 8 — Jurídico e Segurança</b><br/>Fase 18 · Societário, Contratos e LGPD"]
+        V4["<b>Vol. 4: Tração e PMF</b><br/>Fases 11 a 13 · MVP, GTM e Vendas"]
+        V5["<b>Vol. 5: Finanças e Captação</b><br/>Fase 14 · Caixa, VC, Tributário e FP&A"]
+        V6["<b>Vol. 6: Receita e Pessoas</b><br/>Fases 15 e 16 · Enterprise, Líderes e Cultura"]
+        V7["<b>Vol. 7: Produto e Engenharia</b><br/>Fase 17 · Operações, IA e Arquitetura"]
+        V8["<b>Vol. 8: Jurídico e Segurança</b><br/>Fase 18 · Societário, Contratos e LGPD"]
         V3 --> V4 --> V5 --> V6 --> V7 --> V8
     end
     subgraph J3["Ciclo Longo e Setores"]
-        V9["<b>Vol. 9 — Maturidade, Exit e Family Office</b><br/>Fases 19 e 20 · Board, Crise, M&A, IPO e Cash Cow"]
-        V10["<b>Vol. 10 — Economia da Inovação e 42 Verticais</b><br/>Hubs Globais, Regulação, 42 Setores e Dicionário"]
+        V9["<b>Vol. 9: Maturidade, Exit e Family Office</b><br/>Fases 19 e 20 · Board, Crise, M&A, IPO e Cash Cow"]
+        V10["<b>Vol. 10: Economia da Inovação e 42 Verticais</b><br/>Hubs Globais, Regulação, 42 Setores e Dicionário"]
         V8 --> V9
     end
     V10 -. "Consulta Setorial e Dicionário" .-> J1
@@ -2015,22 +1980,22 @@ graph LR
 
 const SOBRE_ESTE_LIVRO_V1 = `## Sobre este livro
 
-**IGNIÇÃO** é um manual operacional em **10 volumes** para fundadores e equipes executivas construindo empresas no Brasil — da preparação pessoal antes do CNPJ (Fase 0) até a segunda curva de crescimento, o *exit* via M&A ou IPO (Fase 20) ou a perenidade como máquina de dividendos (*Cash Cow* e *Family Office*).
+**IGNIÇÃO** é um manual operacional em **10 volumes** para fundadores e equipes executivas construindo empresas no Brasil, da preparação pessoal antes do CNPJ (Fase 0) até a segunda curva de crescimento, o *exit* via M&A ou IPO (Fase 20) ou a perenidade como máquina de dividendos (*Cash Cow* e *Family Office*).
 
-Cada volume da coleção foi desenhado para funcionar como um **manual de oficina**: todos os **164 Frameworks passo a passo**, **20 Canvases Visuais preenchidos com casos brasileiros**, **39 Templates operacionais prontos para uso**, **Tabelas de Métricas** e **Guias de Leitura** estão integrados diretamente dentro das Fases e Capítulos onde são executados, sem duplicações entre volumes e com o Dicionário Geral Unificado no Volume 10.
+Cada volume da coleção foi desenhado para funcionar como um **manual de oficina**: todos os **164 Frameworks passo a passo**, **20 Canvases Visuais preenchidos com reconstruções didáticas de casos brasileiros**, **39 Templates operacionais prontos para uso**, **Tabelas de Métricas** e **Guias de Leitura** estão integrados diretamente dentro das Fases e Capítulos onde são executados (com presença local das ferramentas compartilhadas que garantem a leitura autocontida de cada volume) e com o Dicionário Geral Unificado no Volume 10.
 
 A coleção está organizada em **10 volumes focais (21 Fases e 155 Capítulos)**:
 
-- **Volume 1 — Ideação e Fundação (este volume):** Fases 0 a 3 + 12 Capítulos de preparação financeira e mental do fundador, dinâmica de cofundadores, vieses, tomada de decisão, comunicação, produtividade e stack de IA, aceleradoras e mentores.
-- **Volume 2 — Descoberta de Cliente e Mapeamento de Mercado:** Fases 4 a 6 + 3 Capítulos de psicologia do consumidor brasileiro, inteligência competitiva e Category Design, e casos de fracasso brasileiros.
-- **Volume 3 — Hipóteses, Experimentos, Prototipagem e Modelos de Negócio:** Fases 7 a 10 + 7 Capítulos sobre método científico, gates de evidência, TRL/CRL e fechamento de fase, o framework *Idea → Wedge → Scale* e as arquiteturas de Marketplaces e Plataformas, B2B2C, Open Source (COSS) e Bootstrapping / *Productized Services* (transição *Service-to-Product*).
-- **Volume 4 — Tração, Go-to-Market e Product-Market Fit:** Fases 11 a 13 + 11 Capítulos de GTM e canais de aquisição, marketing de conteúdo e comunidade, mídia paga, branding e PMM, vendas consultivas, pricing e recorrência, negociação, Customer Success e CX, analytics, produto AI-native e pivô.
-- **Volume 5 — Finanças, Captação e Venture Capital:** Fase 14 + 15 Capítulos de demonstrativos financeiros, contabilidade e Reforma Tributária, modelagem operacional e coortes, FP&A e forecasting, capital de giro e gestão de caixa, bancos, Comércio Exterior e Importação (Ásia-Brasil), seguros, captação de VC e planejamento de rodada, valuation, SAFE/mútuo, fomento não-diluitivo, venture debt, crowdfunding/tokenização e Investor Relations.
-- **Volume 6 — Receita Enterprise, Liderança e Cultura:** Fases 15 e 16 + 15 Capítulos de Growth em escala, vendas Enterprise, RevOps, Business Development e parcerias corporativas, canais indiretos, Franchising e Licenciamento (Lei 13.966/2019), marca, PR e autoridade do fundador, Founder Mode e cadência operacional, contratação C-level, performance, remuneração, ESOP, cultura em escala, diversidade e trabalho remoto/híbrido.
-- **Volume 7 — Produto, Engenharia, Dados, IA e Operações:** Fase 17 + 10 Capítulos de discovery contínuo, transição do fundador técnico, recrutamento técnico, gestão de engenharia e dívida técnica, IA na engenharia de software, AI Ops, design organizacional, gestão do conhecimento, comunicação interna e excelência operacional.
-- **Volume 8 — Blindagem Jurídica, Societária, LGPD e Segurança:** Fase 18 + 13 Capítulos de Marco Legal das Startups, responsabilidade dos sócios, propriedade intelectual/INPI, non-compete, contratos empresariais e operacionais, direito do trabalho, CDC, contencioso, LGPD, regulação de IA, compliance, prevenção a fraudes e SOC 2 / ISO 27001.
-- **Volume 9 — Maturidade, Governança, Crise, Exit e Family Office:** Fases 19 e 20 + 21 Capítulos de Conselho de Administração (Board), empresas familiares, conflitos societários, ESG, internacionalização, imigração, câmbio/tesouraria, gestão e comunicação de crise, layoffs, recuperação judicial, M&A buy-side, Search Funds, Spin-offs e Carve-outs, Liquidez Secundária (Secondaries), IPO, tributação de exit, transição e retenção pós-M&A, post-mortems, second-time founders e a Empresa *Cash Cow* (dividendos vitalícios) + Holdings Patrimoniais, Offshores e *Family Office* + Epílogo.
-- **Volume 10 — Economia da Inovação, Hubs Globais e Playbooks das 42 Verticais:** 48 Capítulos cobrindo a Economia da Inovação e seus Atores, a Geografia Mundial de Hubs por Continente e os 15 Polos Brasileiros, Ciclos Macroeconômicos, Autarquias Reguladoras, CADE, Políticas Públicas e os **42 Playbooks Setoriais** da economia real, seguidos pelo Dicionário e Índices Unificados da Coleção.
+- **Volume 1: Ideação e Fundação (este volume):** Fases 0 a 3 e 12 Capítulos de preparação financeira e mental do fundador, dinâmica de cofundadores, vieses, tomada de decisão, comunicação, produtividade e stack de IA, aceleradoras e mentores.
+- **Volume 2: Descoberta de Cliente e Mapeamento de Mercado:** Fases 4 a 6 e 3 Capítulos de psicologia do consumidor brasileiro, inteligência competitiva e Category Design, e casos de fracasso brasileiros.
+- **Volume 3: Hipóteses, Experimentos, Prototipagem e Modelos de Negócio:** Fases 7 a 10 e 7 Capítulos sobre método científico, gates de evidência, TRL/CRL e fechamento de fase, o framework *Idea → Wedge → Scale* e as arquiteturas de Marketplaces e Plataformas, B2B2C, Open Source (COSS) e Bootstrapping / *Productized Services* (transição *Service-to-Product*).
+- **Volume 4: Tração, Go-to-Market e Product-Market Fit:** Fases 11 a 13 e 11 Capítulos de GTM e canais de aquisição, marketing de conteúdo e comunidade, mídia paga, branding e PMM, vendas consultivas, pricing e recorrência, negociação, Customer Success e CX, analytics, produto AI-native e pivô.
+- **Volume 5: Finanças, Captação e Venture Capital:** Fase 14 e 15 Capítulos de demonstrativos financeiros, contabilidade e Reforma Tributária, modelagem operacional e coortes, FP&A e *forecasting*, capital de giro e gestão de caixa, bancos, Comércio Exterior e Importação (Ásia-Brasil), seguros, captação de VC e planejamento de rodada, *valuation*, SAFE/mútuo, fomento não diluitivo, *venture debt*, *crowdfunding*/tokenização e *Investor Relations*.
+- **Volume 6: Receita Enterprise, Liderança e Cultura:** Fases 15 e 16 e 15 Capítulos de Growth em escala, vendas Enterprise, RevOps, Business Development e parcerias corporativas, canais indiretos, Franchising e Licenciamento (Lei 13.966/2019), marca, PR e autoridade do fundador, Founder Mode e cadência operacional, contratação C-level, performance, remuneração, ESOP, cultura em escala, diversidade e trabalho remoto/híbrido.
+- **Volume 7: Produto, Engenharia, Dados, IA e Operações:** Fase 17 e 10 Capítulos de discovery contínuo, transição do fundador técnico, recrutamento técnico, gestão de engenharia e dívida técnica, IA na engenharia de software, AI Ops, design organizacional, gestão do conhecimento, comunicação interna e excelência operacional.
+- **Volume 8: Blindagem Jurídica, Societária, LGPD e Segurança:** Fase 18 e 13 Capítulos de Marco Legal das Startups, responsabilidade dos sócios, propriedade intelectual/INPI, non-compete, contratos empresariais e operacionais, direito do trabalho, CDC, contencioso, LGPD, regulação de IA, compliance, prevenção a fraudes e SOC 2 / ISO 27001.
+- **Volume 9: Maturidade, Governança, Crise, Exit e Family Office:** Fases 19 e 20 e 21 Capítulos de Conselho de Administração (Board), empresas familiares, conflitos societários, ESG, internacionalização, imigração, câmbio/tesouraria, gestão e comunicação de crise, layoffs, recuperação judicial, M&A buy-side, Search Funds, Spin-offs e Carve-outs, Liquidez Secundária (Secondaries), IPO, tributação de exit, transição e retenção pós-M&A, post-mortems, second-time founders e a Empresa *Cash Cow* (dividendos vitalícios) com Holdings Patrimoniais, Offshores e *Family Office*, encerrando com o Epílogo.
+- **Volume 10: Economia da Inovação, Hubs Globais e Playbooks das 42 Verticais:** 48 Capítulos cobrindo a Economia da Inovação e seus Atores, a Geografia Mundial de Hubs por Continente e os 15 Polos Brasileiros, Ciclos Macroeconômicos, Autarquias Reguladoras, CADE, Políticas Públicas e os **42 Playbooks Setoriais** da economia real, seguidos pelo Dicionário e Índices Unificados da Coleção.
 
 ---
 
@@ -2501,36 +2466,11 @@ for (const vSpec of VOLUMES_SPEC) {
         if (item.key === 'EPÍLOGO') {
           refBody = applyNarrativeRefactor('EPÍLOGO', refBody, ALL_NARRATIVE_SPECS);
         } else if (item.key === 'APÊNDICE — DATA DE COMPILAÇÃO E NOTA SOBRE ENVELHECIMENTO') {
-          refBody = refBody.replace(/\n+---\n+\*Consulta vitalícia\*[\s\S]*$/, '');
+          refBody = enrichDataCompilacaoBody(refBody);
         } else if (item.key === 'APÊNDICE: BIBLIOGRAFIA' || item.key === 'APÊNDICE — BIBLIOGRAFIA UNIFICADA') {
-          refBody = refBody
-            .replace(
-              /Cada ferramenta no Ferramentário BG traz sua própria seção "Leitura adicional" com referências específicas\./g,
-              'Cada framework integrado nos Volumes 1 a 9 traz sua própria seção "Leitura adicional" com referências específicas.'
-            )
-            .replace(
-              /\s*Para uma versão curada e mais curta,\s*ver também o \[\[[^\]]+\]\] mais adiante\./g,
-              ''
-            )
-            .replace(/\n+> \[!note\] (?:Complementaridade|Bibliografia complementar curada)[\s\S]*$/m, '');
+          refBody = enrichBibliografiaBody(refBody);
         } else if (item.key === 'APÊNDICE: ÍNDICE DE FRAMEWORKS') {
-          refBody = refBody
-            .replace(
-              /^## [^\n]+\n+[\s\S]*?(?=\n### Empreendedorismo científico)/m,
-              `## ${item.newHeading}\n\n> [!note] Onde encontrar cada framework\n> Na arquitetura autocontida da coleção IGNIÇÃO, todos os 164 frameworks abaixo estão detalhados passo a passo diretamente dentro das Fases e Capítulos dos **Volumes 1 a 9**. A coluna "Aparece em" aponta diretamente para a Fase ou Capítulo onde o framework é ensinado e aplicado.`
-            )
-            .replace(/,\s*(?:BG|CZ)\s*\|/g, ' |')
-            .replace(/^(\|\s*([^|]+?)\s*\|[^|\n]+\|[^|\n]+\|[^|\n]+\|\s*)BG(\s*\|)$/gm, (fullRow, prefix, fwName, suffix) => {
-              const cleanName = fwName.trim();
-              if (FRAMEWORKS_BG_CELL_FIXES[cleanName]) {
-                return `${prefix}${FRAMEWORKS_BG_CELL_FIXES[cleanName]}${suffix}`;
-              }
-              return fullRow;
-            })
-            .replace(
-              /Se você está começando, não se intimide com o tamanho do Ferramentário\.[\s\S]*$/,
-              'Se você está começando, não se intimide com a extensão deste índice: cada volume da coleção já traz integrados em suas Fases e Capítulos exatamente os frameworks necessários para executar aquela etapa do início ao fim.'
-            );
+          refBody = enrichIndiceFrameworksBody(refBody);
         } else if (item.key === 'APÊNDICE — LISTA DE ABREVIAÇÕES') {
           refBody = refBody
             .replace(/^\*\*BG\*\*:[^\n]+\n+/m, '')
@@ -2551,36 +2491,7 @@ for (const vSpec of VOLUMES_SPEC) {
               '**[[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 9 — IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES|Fases 9 e 10 (Vol. 3)]] (Ideação e Testes de Solução):**'
             );
         } else if (item.key === 'APÊNDICE — ÍNDICE REMISSIVO') {
-          refBody = refBody
-            .replace(/\. Apêndice Marca Pessoal/g, '')
-            .replace(
-              /\bAp[êe]ndice Pivot\b/gi,
-              '[[#APÊNDICE CL|Apêndice CL]]'
-            )
-            .replace(
-              /\bAp[êe]ndice Bootstrap vs VC\b/gi,
-              '[[IGNICAO-Vol-1-Ideacao#CAPÍTULO 4 — BOOTSTRAP vs VENTURE CAPITAL: A ESCOLHA FUNDACIONAL|Capítulo 4 — Bootstrap vs Venture Capital (Vol. 1)]]'
-            )
-            .replace(
-              /BG\.5\.8-5\.10 \(Ishikawa, Pareto, FMEA\)/g,
-              'Framework: Ishikawa / Fishbone Diagram (Fase 3, Vol. 1), Framework: Pareto Analysis (Fase 3, Vol. 1) e Framework: FMEA (Fase 7, Vol. 3)'
-            )
-            .replace(
-              /Apêndice sobre Envelhecimento \(abril 2026\)/g,
-              '[[#DATA DE COMPILAÇÃO E NOTA SOBRE ENVELHECIMENTO|Data de Compilação e Nota sobre Envelhecimento (abril 2026)]]'
-            )
-            .replace(
-              /Apêndice sobre Impacto e Ética|Apêndice sobre Ética e Impacto/g,
-              '[[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 4 — ESG, IMPACT E GOVERNANÇA PARA STARTUP BRASILEIRA|Capítulo 4 — ESG, Impact e Governança (Vol. 9)]]'
-            )
-            .replace(
-              /- \*\*Impacto \(negócio de impacto social\)\*\*: Apêndice dedicado/g,
-              '- **Impacto (negócio de impacto social)**: [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 4 — ESG, IMPACT E GOVERNANÇA PARA STARTUP BRASILEIRA|Capítulo 4 — ESG, Impact e Governança (Vol. 9)]]'
-            )
-            .replace(
-              /- \*\*Marca pessoal do fundador\*\*: Apêndice dedicado/g,
-              '- **Marca pessoal do fundador**: [[#APÊNDICE CY|Apêndice CY]]'
-            ) + `\n\n${EXTRA_INDEX_REMISSIVO_SECTION.trim()}`;
+          refBody = enrichIndiceRemissivoBody(refBody);
         }
         refBody = refBody
           .replace(/^> \[!note\] Como usar ess[ea] ap[êe]ndice/gm, '> [!note] Como usar este índice')
@@ -2603,17 +2514,17 @@ title: "${vSpec.title}"
 subtitle: "${vSpec.subtitle}"
 author: "João Prado"
 date: 2026
-version: "5.1"
+version: "5.2"
 volume: ${vSpec.num}
-collection: "IGNIÇÃO — O manual operacional do empreendedor brasileiro (10 Volumes — Edição Narrativa Enxuta)"
+collection: "IGNIÇÃO: O manual operacional do empreendedor brasileiro (10 Volumes, Edição Narrativa Enxuta)"
 language: pt-BR
 ---`;
 
-  let headerBlock = `# ${vSpec.title}\n\n**${vSpec.subtitle}**\n\n*João Prado · 2026 — Edição Narrativa Enxuta (v5.1)*\n\n---\n\n`;
+  let headerBlock = `# ${vSpec.title}\n\n**${vSpec.subtitle}**\n\n*João Prado · 2026 · Edição Narrativa Enxuta (v5.2)*\n\n---\n\n`;
   if (vSpec.num === 1) {
     headerBlock += `${notaDoAutorBody}\n\n---\n\n${SOBRE_ESTE_LIVRO_V1}\n\n---\n\n## Mapa da Coleção IGNIÇÃO\n\n${COLLECTION_MAP_MERMAID}\n\n---\n\n## Sumário deste Volume\n\n${tocLines.join('\n')}\n\n---\n\n`;
   } else {
-    headerBlock += `## Sobre este Volume\n\nEste é o **Volume ${vSpec.num} (${vSpec.title.replace(/^IGNIÇÃO — Volume \d+:\s*/, '')})** da coleção **IGNIÇÃO — O manual operacional do empreendedor brasileiro** (10 volumes).\n\n${vSpec.about}\n\n---\n\n## Mapa da Coleção IGNIÇÃO\n\n${COLLECTION_MAP_MERMAID}\n\n---\n\n## Sumário deste Volume\n\n${tocLines.join('\n')}\n\n---\n\n`;
+    headerBlock += `## Sobre este Volume\n\nEste é o **Volume ${vSpec.num} (${vSpec.title.replace(/^IGNIÇÃO — Volume \d+:\s*/, '')})** da coleção **IGNIÇÃO: O manual operacional do empreendedor brasileiro** (10 volumes).\n\n${vSpec.about}\n\n---\n\n## Mapa da Coleção IGNIÇÃO\n\n${COLLECTION_MAP_MERMAID}\n\n---\n\n## Sumário deste Volume\n\n${tocLines.join('\n')}\n\n---\n\n`;
   }
 
   const fullMd = `${frontmatter}\n\n${headerBlock}${bodyBlocks.join('\n\n---\n\n')}\n`;
@@ -2664,6 +2575,13 @@ for (const [code, loc] of embeddedItemLocation.entries()) {
 for (const [code, aObj] of aItems.entries()) {
   const loc = embeddedItemLocation.get(code);
   if (loc) {
+    oldAnchorToNew.set(slugify(`Template: Template de ${aObj.title}`), {
+      volNum: loc.volNum,
+      volSlug: loc.volSlug,
+      heading: loc.heading,
+      displayLabel: loc.title,
+      itemCode: code,
+    });
     for (const [s] of globalHeadingIndex.entries()) {
       if (s.startsWith(slugify(code))) {
         oldAnchorToNew.set(s, {
@@ -3195,9 +3113,12 @@ for (const [volNum, { spec, md }] of rawVolumeDocs.entries()) {
     return outLine;
   });
 
-  const finalMd = resolvedLines
-    .join('\n')
-    .replace(/\n---\s*\n+(?:---\s*\n+)+/g, '\n\n---\n\n');
+  const finalMd = applyVolumeReviewFixes(
+    volNum,
+    resolvedLines
+      .join('\n')
+      .replace(/\n---\s*\n+(?:---\s*\n+)+/g, '\n\n---\n\n')
+  );
   const outPath = path.join(VOLUMES_DIR, `${spec.slug}.md`);
   fs.writeFileSync(outPath, finalMd, 'utf8');
 

@@ -12,28 +12,25 @@
 
 const NOTA_DO_AUTOR_V5 = `## Nota do autor
 
-Este livro começou na trincheira, como um caderno de campo aberto às onze da noite. Uma cicatriz anotada aqui, uma conta que não fechou ali, uma pergunta difícil que eu gostaria que alguém tivesse me feito seis meses antes de eu descobrir a resposta pelo caminho mais caro.
+Este livro começou como um caderno de campo aberto às onze da noite. Uma cicatriz anotada aqui, uma conta que não fechou ali, uma pergunta difícil que eu gostaria que alguém tivesse me feito seis meses antes de eu descobrir a resposta pelo caminho mais caro.
 
-Durante muito tempo, resisti à ideia de publicar essas notas. Existem centenas de livros de negócios nas livrarias — muitos escritos no Vale do Silício por bilionários que operam com custo de capital zero, segurança jurídica previsível e clientes que compram software pelo cartão corporativo em cinco minutos. Só que quem tenta construir uma empresa séria no Brasil descobre rápido que o nosso jogo tem outra gravidade. Aqui você precisa validar produto e conquistar clientes enquanto desvia da Selic em dois dígitos, de 5.570 legislações municipais de nota fiscal, de passivos trabalhistas ocultos, de ciclos de pagamento de noventa dias e da solidão brutal de quem carrega o CPF na linha de tiro.
+Durante muito tempo, resisti à ideia de publicar essas notas. Existem centenas de livros de negócios nas livrarias, muitos escritos no Vale do Silício por bilionários que operam com custo de capital próximo de zero, segurança jurídica previsível e clientes que compram software pelo cartão corporativo em cinco minutos. Só que quem tenta construir uma empresa séria no Brasil descobre rápido que o nosso jogo tem outra gravidade. Aqui você precisa validar produto e conquistar clientes enquanto desvia da Selic em dois dígitos, de um ISS que ainda muda de cidade para cidade enquanto a transição da Reforma Tributária e da NFS-e nacional (LC 214/2025) não se completa, de passivos trabalhistas ocultos, de ciclos de pagamento de noventa dias e do peso de quem responde com o próprio CPF.
 
-Na primeira versão deste projeto, cometi o erro de organizar tudo como se fosse uma enciclopédia fria — cheia de verbetes, definições formais e fichas técnicas. Mas negócios reais não acontecem dentro de um dicionário. **Negócios acontecem numa terça-feira chuvosa quando o seu melhor cliente ameaça cancelar, quando o seu cofundador trava na conversa difícil ou quando você olha para o extrato bancário e precisa decidir entre cortar custos ou dobrar a aposta.**
+Na primeira versão deste projeto, cometi o erro de organizar tudo como se fosse uma enciclopédia fria, cheia de verbetes, definições formais e fichas técnicas. Mas negócios reais não acontecem dentro de um dicionário. **Negócios acontecem numa terça-feira chuvosa quando o seu melhor cliente ameaça cancelar, quando o seu cofundador trava na conversa difícil ou quando você olha para o extrato bancário e precisa decidir entre cortar custos ou dobrar a aposta.**
 
-Por isso, esta obra foi inteiramente reconstruída na tradição dos grandes livros que mudaram a minha própria cabeça como fundador:
-- De **Michael Gerber** (*O Mito do Empreendedor*), trouxemos a conversa direta, olho no olho, e a compreensão de que saber fazer o trabalho técnico não é saber construir uma empresa;
-- De **Eric Ries** (*A Startup Enxuta*) e **Peter Thiel** (*De Zero a Um*), trouxemos o ceticismo científico contra o achismo e as perguntas contraintuitivas que desmontam o senso comum;
-- De **Jason Fried e DHH** (*Rework*), trouxemos a permissão libertadora para construir negócios enxutos, lucrativos e sem teatro corporativo;
-- De **Andy Grove** (*High Output Management*), **Geoffrey Moore** (*Atravessando o Abismo*) e **Gino Wickman** (*Traction*), trouxemos a engenharia de processos, o foco obsessivo num nicho de cabeça-de-praia e os rituais práticos de segunda-feira às nove da manhã;
-- De **Ben Horowitz** (*O Lado Difícil das Situações Difíceis*), **Jim Collins** (*Empresas Feitas para Vencer*) e **Clayton Christensen** (*O Dilema da Inovação*), trouxemos a honestidade crua sobre o medo, as demissões, as crises de caixa e os paradoxos de crescer sem destruir o que fez você vencer.
+Por isso, reconstruí inteiramente esta obra na tradição dos livros que mudaram a minha própria cabeça como fundador. De **Michael Gerber** (*O Mito do Empreendedor*), trouxe a conversa direta, olho no olho, e a compreensão de que saber fazer o trabalho técnico não é saber construir uma empresa. De **Eric Ries** (*A Startup Enxuta*) e **Peter Thiel** (*De Zero a Um*), trouxe o ceticismo científico contra o achismo e as perguntas contraintuitivas que desmontam o senso comum. De **Jason Fried e DHH** (*Rework*), trouxe a permissão libertadora para construir negócios enxutos, lucrativos e sem teatro corporativo.
 
-Mais importante: você não fará esta travessia sozinho. Além de centenas de casos reais de empresas brasileiras e globais (do Nubank, WEG, TOTVS, iFood e Tractian a negócios silenciosos do interior), você acompanhará ao longo dos volumes a jornada viva de **quatro fundadores-arquétipos brasileiros** — **Lucas & Marina**, **Dra. Camila**, **Henrique** e **Rafael & Bia** — enfrentando exatamente os mesmos dilemas que tiram o seu sono.
+Já para a etapa de manter a operação de pé e evoluir no longo prazo, bebi na engenharia de processos de **Andy Grove** (*High Output Management*), no foco em um nicho de cabeça de praia de **Geoffrey Moore** (*Atravessando o Abismo*) e nos rituais práticos de segunda-feira às nove da manhã de **Gino Wickman** (*Traction*), somados à franqueza direta de **Ben Horowitz** (*O Lado Difícil das Situações Difíceis*), **Jim Collins** (*Empresas Feitas para Vencer*) e **Clayton Christensen** (*O Dilema da Inovação*) sobre o medo, as demissões, as crises de caixa e os paradoxos de crescer sem destruir o que fez você vencer.
+
+Mais importante: você não fará esta leitura sozinho. Além de centenas de casos reais de empresas brasileiras e globais (do Nubank, WEG, TOTVS, iFood e Tractian a negócios do interior que nunca saíram no jornal), você acompanhará ao longo dos volumes a jornada viva de **quatro fundadores-arquétipos brasileiros** (**Lucas & Marina**, **Dra. Camila**, **Henrique** e **Rafael & Bia**), enfrentando exatamente os mesmos dilemas que tiram o seu sono.
 
 Cada capítulo e fase deste livro agora respira em **dois tempos**:
-1. **A Narrativa de Trincheira (Atos 1 a 4):** abrimos sempre no meio da tensão real — nunca com definições de manual —, dissecamos a física do problema, damos nome às armadilhas invisíveis e fechamos com **O Espelho** (autodiagnóstico direto) e **O Ritual de Segunda-Feira**;
-2. **A Oficina de Trincheira (Caderno de Campo):** ao final de cada fase, você encontra todas as ferramentas, *frameworks*, *canvases* preenchidos e *templates* prontos para abrir na mesa com os seus sócios e executar imediatamente — impressos uma única vez na coleção inteira, exatamente na etapa em que entram em ação.
+1. **A Narrativa Viva:** abro sempre no meio da tensão real, nunca com definições de manual, disseco a física do problema, dou nome às armadilhas recorrentes e fecho com **O Espelho** (autodiagnóstico direto, retomando o desfecho do arquétipo da abertura) e **O Ritual de Segunda-Feira**;
+2. **A Oficina de Trincheira (Caderno de Campo):** nas fases operacionais e nos capítulos de aprofundamento, você encontra as ferramentas, *frameworks*, *canvases* com reconstruções didáticas e *templates* prontos para abrir na mesa com os seus sócios e executar imediatamente, impressos uma única vez na coleção inteira, exatamente na etapa em que entram em ação.
 
-Eu não escrevi este livro do topo da montanha. Escrevi no meio da subida, suando na mesma pedra em que você está agora. Leia os capítulos corridos para mudar a sua forma de enxergar o jogo; abra a Oficina de Trincheira quando precisar agir sob pressão. Se uma única página aqui evitar que você queime dois anos de vida na ideia errada, no sócio errado ou no contrato errado, cada linha terá valido a pena.
+Eu não escrevi este livro de um camarote distante. Escrevi sentado à mesma mesa de trabalho em que você está agora, fechando as contas do mês e decidindo o próximo passo. Leia os capítulos corridos para mudar a sua forma de enxergar o jogo; abra a Oficina de Trincheira quando precisar agir sob pressão. Se uma única página aqui evitar que você queime dois anos de vida na ideia errada, no sócio errado ou no contrato errado, cada linha terá valido a pena.
 
-Boa subida — e nos vemos na trincheira.
+Um bom trabalho, e que estas páginas sirvam bem à sua empresa.
 
 *João Prado*`;
 
@@ -43,14 +40,14 @@ const APRESENTACAO_ARQUETIPOS_MD = `---
 
 Em *O Mito do Empreendedor*, Michael Gerber criou **Sarah**, a dona de uma confeitaria que amava assar tortas e acabou virando escrava da própria loja. Todo leitor se enxerga em Sarah porque conceitos abstratos só ganham alma quando têm rosto, boleto para pagar e medo de errar.
 
-Ao longo dos **Volumes 1 a 9**, além das histórias reais de gigantes brasileiras e mundiais, você acompanhará de perto a evolução, os tropeços, as brigas societárias, os pivôs e as vitórias de **quatro arquétipos que representam a vida real do empreendedor brasileiro**:
+Ao longo dos **Volumes 1 a 10**, além das histórias reais de grandes empresas brasileiras e mundiais, você acompanhará de perto a evolução, os tropeços, as brigas societárias, os pivôs e as vitórias de **quatro arquétipos que representam a vida real do empreendedor brasileiro** (com arco narrativo contínuo nos Volumes 1 a 9 e aplicação direta nos playbooks setoriais do Volume 10):
 
-| Arquétipo | Quem São e Onde Operam | A Dor Inicial (Volumes 1 a 4 — *Criar*) | O Desafio de Escala e Saída (Volumes 5 a 9 — *Manter e Evoluir*) |
+| Arquétipo | Quem São e Onde Operam | A Dor Inicial (Volumes 1 a 4, *Criar*) | O Desafio de Escala e Saída (Volumes 5 a 9, *Manter e Evoluir*) |
 | :--- | :--- | :--- | :--- |
-| **1. Lucas & Marina**<br/>*(SaaS B2B & AI-Native)* | **Lucas** (29, ex-engenheiro sênior de banco em SP, brilhante mas tentado a programar escondido) e **Marina** (31, comercial nata e pragmática, baseada em Florianópolis). | Quase quebram construindo um produto cheio de *features* que ninguém pediu; aprendem a ouvir o cliente no *Mom Test* e financiam o MVP vendendo um *Serviço Produtizado* antes de escalar o SaaS. | Descobrem o poder do *Vertical SaaS + Embedded Finance*, enfrentam *churn*, contratam o primeiro VP de Vendas, negociam *Series A* na Faria Lima e recebem uma proposta de **M&A estratégico** no Volume 9. |
-| **2. Dra. Camila**<br/>*(Economia Real, Saúde & Serviços)* | **Camila** (34, cirurgiã-dentista de elite em Belo Horizonte que abriu clínica própria e corre o risco clássico de virar refém da própria cadeira 14h por dia). | Mistura contas de casa com o CNPJ, compra equipamento caro por impulso (*custo afundado*) e tem medo de cobrar o que vale até dominar margem de contribuição e processos. | Transforma o consultório em máquina autogerenciável (*estilo Traction/Grove*), expande via **Franquias (Lei 13.966)**, passa o bastão para um CEO profissional com *Phantom Shares* e constrói uma **Cash Cow de dividendos + Holding Familiar** no Volume 9. |
-| **3. Henrique**<br/>*(Industrial, Agro & B2G / GovTech)* | **Henrique** (38, engenheiro mecânico de Curitiba com forte trânsito no interior do Paraná e Mato Grosso, vendendo hardware/software para usinas, indústrias e prefeituras). | Sofre com discursos técnicos cheios de jargão, leva "não" em banca de edital GovTech por não provar validação institucional e quase morre no purgatório de pilotos gratuitos (*POCs*). | Aprende a vender para comitês complexos de 7 decisores, usa subvenção **Finep/BNDES** e importação da Ásia (**TTD 409**), faz o **Spin-off** de uma unidade interna e consolida concorrentes via **M&A Buy-Side**. |
-| **4. Rafael & Bia**<br/>*(Varejo, D2C, Comércio & Marketplace)* | **Rafael** (27, criativo de marketing no Recife) e **Bia** (28, engenheira de produção em Goiânia, obcecada por operações, estoque e planilha). | Se iludem com faturamento bruto alto movido a tráfego pago caro, sofrem com ruptura de estoque e descobrem o peso da cadeia logística e tributária brasileira. | Sobrevivem a uma crise severa de capital de giro e à transição da **Reforma Tributária (IBS/CBS)**, lideram um *turnaround* difícil com corte de custos e constroem uma marca omnichannel com retenção real. |`;
+| **1. Lucas & Marina**<br/>*(SaaS B2B & AI-Native)* | **Lucas** (29, ex-engenheiro sênior de banco em SP, brilhante mas tentado a programar escondido) e **Marina** (31, comercial nata e pragmática, baseada em Florianópolis). | Quase quebram construindo um produto cheio de funcionalidades que ninguém pediu; aprendem a ouvir o cliente no *Mom Test* e financiam o MVP vendendo um *Serviço Produtizado* antes de escalar o SaaS. | Focam sua plataforma de tesouraria preditiva e *Embedded Finance* (serviços financeiros embarcados) em distribuidores e empresas médias, enfrentam *churn* (cancelamento de clientes), contratam o primeiro VP de Vendas, negociam *Series A* em São Paulo e recebem uma proposta de **M&A estratégico** (fusão e aquisição) no Volume 9. |
+| **2. Dra. Camila**<br/>*(Economia Real, Saúde & Serviços)* | **Camila** (34, cirurgiã-dentista especializada em reabilitação oral em Belo Horizonte que abriu clínica própria e corre o risco clássico de virar refém da própria cadeira 14h por dia). | Mistura contas de casa com o CNPJ, compra equipamento caro por impulso (*custo afundado*) e tem medo de cobrar o que vale até dominar margem de contribuição e processos. | Transforma o consultório em máquina autogerenciável (*estilo Traction/Grove*), expande via **Franquias (Lei 13.966/2019)**, passa o bastão para um CEO profissional com *Phantom Shares* (participação fantasma liquidada em caixa) e constrói uma **Cash Cow (geradora de dividendos) + Holding Familiar** no Volume 9. |
+| **3. Henrique**<br/>*(Industrial, Agro & B2G / GovTech)* | **Henrique** (38, engenheiro mecânico de Curitiba com forte trânsito no interior do Paraná e Mato Grosso, vendendo hardware e software para usinas, indústrias e prefeituras). | Sofre com discursos técnicos cheios de jargão, leva "não" em banca de edital GovTech por não provar validação institucional e quase morre no purgatório de pilotos gratuitos (*POCs, provas de conceito*). | Aprende a vender para comitês complexos de seis cadeiras, usa subvenção **Finep, BNDES e EMBRAPII** e importação da Ásia (**TTD 409**), faz o **Spin-off** (cisão societária) de uma unidade interna e consolida concorrentes via **M&A Buy-Side** (aquisição estratégica de outras empresas). |
+| **4. Rafael & Bia**<br/>*(Varejo, D2C, Comércio & Marketplace)* | **Rafael** (27, criativo de marketing, com sede comercial no Recife) e **Bia** (28, engenheira de produção, liderando o centro de distribuição e operações em Goiânia). | Iludem-se com faturamento bruto alto movido a tráfego pago caro, sofrem com ruptura de estoque e descobrem o peso da cadeia logística e tributária brasileira. | Sobrevivem a uma crise severa de capital de giro e à transição da **Reforma Tributária (IBS/CBS)**, lideram um *turnaround* (reestruturação operacional) difícil com corte de custos e constroem uma marca *omnichannel* (integrando canais físicos e digitais) com retenção real. |`;
 
 /**
  * Reescreve os subtítulos internos dos 164 Frameworks (BG) para o tom de consultor ao lado do dono (Traction)
@@ -91,7 +88,11 @@ function transformCanvasToOficina(content) {
     .replace(/^##### Quando usar$/gim, '##### O momento exato de colocar este canvas na parede')
     .replace(/^##### Princ[íi]pios$/gim, '##### As regras de ouro para preencher sem se enganar')
     .replace(/^##### Como aplicar$/gim, '##### Passo a passo na parede da sala (30 a 60 minutos)')
-    .replace(/^##### Erros comuns(?: a evitar)?$/gim, '##### Onde os fundadores mentem para si mesmos neste canvas');
+    .replace(/^##### Erros comuns(?: a evitar)?$/gim, '##### Onde os fundadores mentem para si mesmos neste canvas')
+    .replace(
+      /^##### Exemplo (?:brasileiro )?preenchido\s*[—–-]\s*(.+)$/gim,
+      '##### Exemplo brasileiro preenchido: $1 (reconstrução didática com base em dados públicos)'
+    );
 }
 
 const DEFAULT_HEADING_FALLBACKS = {
@@ -101,7 +102,7 @@ const DEFAULT_HEADING_FALLBACKS = {
   'O QUE É': 'A anatomia real do problema: separando o sinal do ruído',
   'POR QUE': 'Por que ignorar esta disciplina cobra juros compostos no seu caixa',
   'Por quê': 'Por que ignorar esta disciplina cobra juros compostos no seu caixa',
-  'Por que importa': 'O custo invisível da negligência: por que empresas boas quebram exatamente aqui',
+  'Por que importa': 'Por que esta decisão muda a trajetória do negócio',
   'Quando usar': 'O gatilho de ação: o momento exato de puxar o freio e executar',
   'Quando aplicar': 'O gatilho de ação: quando entrar em campo (e quando esperar)',
   'Quando': 'O relógio operacional: em qual segundo da jornada esta decisão bate à porta',
@@ -117,7 +118,7 @@ const DEFAULT_HEADING_FALLBACKS = {
   'ARMADILHAS': 'Onde os fundadores inteligentes morrem na praia: as ciladas clássicas desta etapa',
   'Métricas': 'O painel de controle: os únicos números que separam progresso real de teatro',
   'Definição de sucesso': 'Como se parece a vitória real quando a poeira baixa',
-  'Checklist': 'Checklist de bolso antes de fechar a reunião',
+  'Checklist': 'Checklist de execução prática',
   'FERRAMENTAS DESTA FASE': 'Abrindo a Oficina de Trincheira desta Fase',
   'EXEMPLO PRÁTICO': 'Na trincheira real: como esta etapa ganha vida em um caso concreto',
   'QUANDO CONSIDERAR': 'O gatilho estratégico: quando vale a pena entrar neste jogo (e quando passar longe)',
@@ -128,7 +129,7 @@ const DEFAULT_HEADING_FALLBACKS = {
   'TAXONOMIA, NÃO TUDO É SAAS B2B': 'Nem toda recorrência é SaaS B2B: a anatomia dos diferentes motores de assinatura',
   'MÉTRICAS AVANÇADAS, ALÉM DE ARR': 'Muito além do ARR: os indicadores que revelam a saúde real da receita recorrente',
   'DESENHO DE PLANOS (PRICING PACKAGING)': 'A arquitetura de planos e pacotes: como empacotar valor sem confundir o comprador',
-  'GOVERNANÇA DE CHURN': 'Estancando o balde furado: rituais e governança implacável contra o churn',
+  'GOVERNANÇA DE CHURN': 'Estancando o balde furado: rituais e governança rigorosa contra o churn',
   'EXPANSÃO COMO MOTOR DE CRESCIMENTO': 'Crescer dentro de casa: como fazer a carteira atual pagar o próximo ciclo de escala',
   'TRANSIÇÃO DE TRANSACIONAL PARA RECORRENTE': 'A travessia da venda avulsa para a assinatura: como migrar sem quebrar o caixa no meio',
   'QUANDO SUBSCRIPTION NÃO SERVE': 'Quando forçar assinatura é um erro: negócios que lucram mais no modelo transacional',
@@ -138,17 +139,17 @@ const DEFAULT_HEADING_FALLBACKS = {
   'VER TAMBÉM': 'Ver também',
   'CHECKLIST OPERACIONAL': 'O ritual de bolso: checklist operacional para rodar sem esquecer o básico',
   'CONTEXTO BRASIL': 'A gravidade brasileira: o que muda quando você aplica isso no Brasil',
-  'PADRÕES TRANSVERSAIS NOS 12 CASOS': 'O que os 12 casos têm em comum: as leis invisíveis que se repetem',
+  'PADRÕES TRANSVERSAIS NOS 12 CASOS': 'O que os 12 casos têm em comum: os padrões estruturais que se repetem',
   'MÉTRICAS E AUTOAVALIAÇÃO': 'O termômetro da maturidade: como medir onde você está hoje sem se enganar',
 };
 
 /**
  * Remove subseções H3 puramente enciclopédicas ("O que este capítulo cobre", "Quando usar",
  * "Quem envolve", "Definição de sucesso", "PERGUNTAS A RESPONDER", "FERRAMENTAS DESTA FASE",
- * "Ver também", "Conexões", etc.) que duplicam a abertura narrativa e o fechamento de autodiagnóstico.
+ * "Ver também", "Conexões", "QUANDO", "QUEM", etc.) que duplicam a abertura narrativa e o fechamento.
  */
 const REDUNDANT_ALMANAC_H3_RE =
-  /^(?:O que (?:est[ea]|ess[ea]) (?:fase|cap[íi]tulo|ap[êe]ndice) cobre|Quando (?:usar(?: ess[ea] (?:cap[íi]tulo|ap[êe]ndice))?|aplicar|considerar)|QUANDO CONSIDERAR|Quem (?:envolve|envolver)|QUEM PARTICIPA|Defini[çc][ãa]o de sucesso(?: do modelo)?|DEFINI[ÇC][ÃA]O DE SUCESSO DO MODELO|PERGUNTAS A RESPONDER|FERRAMENTAS DESTA FASE|Ap[êe]ndices Operacionais desta Etapa|Ver tamb[ée]m|VER TAMB[ÉE]M|Conex[ãa]o com outros (?:cap[íi]tulos|ap[êe]ndices)|Conex[õo]es (?:diretas na cole[çc][ãa]o|no livro)|Rela[çc][ãa]o com (?:outros (?:cap[íi]tulos|ap[êe]ndices) e fases|o resto do manual)|RELA[ÇC][ÃA]O COM O RESTO DO MANUAL)$/i;
+  /^(?:O que (?:est[ea]|ess[ea]) (?:fase|cap[íi]tulo|ap[êe]ndice) cobre|Quando (?:usar(?: ess[ea] (?:cap[íi]tulo|ap[êe]ndice))?|aplicar|considerar|atuar|estruturar)|Quando|QUANDO|QUANDO CONSIDERAR|Quem (?:envolve|envolver|responde)|Quem|QUEM|QUEM PARTICIPA|Defini[çc][ãa]o de sucesso(?: do modelo)?|DEFINI[ÇC][ÃA]O DE SUCESSO DO MODELO|PERGUNTAS A RESPONDER|FERRAMENTAS DESTA FASE|Ap[êe]ndices Operacionais desta Etapa|Ver tamb[ée]m|VER TAMB[ÉE]M|Conex[ãa]o com outros (?:cap[íi]tulos|ap[êe]ndices)|Conex[õo]es (?:diretas na cole[çc][ãa]o|no livro)|Rela[çc][ãa]o com (?:outros (?:cap[íi]tulos|ap[êe]ndices) e fases|o resto do manual)|RELA[ÇC][ÃA]O COM O RESTO DO MANUAL)$/i;
 
 function stripRedundantAlmanacH3Sections(body) {
   const lines = body.split('\n');
@@ -177,6 +178,64 @@ function stripRedundantAlmanacH3Sections(body) {
     .replace(/\n{3,}/g, '\n\n');
 }
 
+function buildArchetypeArcEnrichment(sectionKey, openingBody, mirrorBody) {
+  let enrichedOpening = (openingBody || '').trim();
+  let enrichedMirror = (mirrorBody || '').trim();
+
+  const hasLM = /\b(?:Lucas|Marina)\b/.test(enrichedOpening);
+  const hasCamila = /\bCamila\b/.test(enrichedOpening);
+  const hasHenrique = /\bHenrique\b/.test(enrichedOpening);
+  const hasRB = /\b(?:Rafael|Bia)\b/.test(enrichedOpening);
+
+  let chosen = null;
+  if (hasLM) chosen = 'LM';
+  else if (hasCamila) chosen = 'CAMILA';
+  else if (hasHenrique) chosen = 'HENRIQUE';
+  else if (hasRB) chosen = 'RB';
+  else {
+    // Se a abertura usava apenas caso externo ou fundador secundário, conecta a um dos 4 arquétipos
+    const hash = Array.from(String(sectionKey)).reduce((acc, ch) => acc + ch.charCodeAt(0), 0) % 4;
+    if (hash === 0) {
+      chosen = 'LM';
+      enrichedOpening +=
+        '\n\nNa mesma semana, **Lucas e Marina** enfrentavam exatamente esse dilema na operação da sua plataforma B2B entre São Paulo e Florianópolis: ou traduziam essa tese em critério objetivo de produto e vendas, ou continuariam queimando caixa em esforço disperso.';
+    } else if (hash === 1) {
+      chosen = 'CAMILA';
+      enrichedOpening +=
+        '\n\nEm Belo Horizonte, a **Dra. Camila** vivia o mesmo ponto de inflexão na sua rede de reabilitação oral: continuar tratando o problema no improviso diário ou instalar um protocolo claro que funcionasse sem depender da sua presença física em cada sala.';
+    } else if (hash === 2) {
+      chosen = 'HENRIQUE';
+      enrichedOpening +=
+        '\n\nEm Curitiba, **Henrique** viu esse exato gargalo travar a expansão dos seus sistemas de telemetria industrial e contratos públicos: sem estruturar essa decisão com método, cada novo contrato parecia recomeçar do zero.';
+    } else {
+      chosen = 'RB';
+      enrichedOpening +=
+        '\n\nEntre o escritório no Recife e o galpão em Goiânia, **Rafael e Bia** sentiram na pele a mesma pressão sobre a margem e o capital de giro da marca: ou corrigiam a arquitetura operacional agora, ou o crescimento do faturamento só aceleraria o desgaste do caixa.';
+    }
+  }
+
+  const mirrorHasArchetype = /\b(?:Lucas|Marina|Camila|Henrique|Rafael|Bia)\b/.test(enrichedMirror);
+  if (!mirrorHasArchetype) {
+    let resolutionPara = '';
+    if (chosen === 'LM') {
+      resolutionPara =
+        '**Fechando o ciclo na trincheira:** Quando **Lucas e Marina** aplicaram as travas deste capítulo na rotina entre São Paulo e Florianópolis, a tensão da cena de abertura deixou de ser discussão subjetiva de corredores e virou regra clara de priorização, retenção e proteção de caixa.';
+    } else if (chosen === 'CAMILA') {
+      resolutionPara =
+        '**Fechando o ciclo na trincheira:** Quando a **Dra. Camila** trouxe este protocolo para a operação da clínica em Belo Horizonte, o gargalo que abriu este capítulo deixou de depender do seu heroísmo pessoal na cadeira e passou a rodar como sistema auditável pela equipe.';
+    } else if (chosen === 'HENRIQUE') {
+      resolutionPara =
+        '**Fechando o ciclo na trincheira:** Quando **Henrique** incorporou este filtro nas negociações industriais e públicas a partir de Curitiba, o impasse da abertura foi substituído por critérios técnicos de aprovação, margem protegida e ciclo previsível.';
+    } else {
+      resolutionPara =
+        '**Fechando o ciclo na trincheira:** Quando **Rafael e Bia** conectaram esta disciplina entre a aquisição no Recife e a operação logística em Goiânia, o vazamento que abriu este capítulo estancou e o crescimento voltou a gerar caixa livre.';
+    }
+    enrichedMirror = `${resolutionPara}\n\n${enrichedMirror}`;
+  }
+
+  return { enrichedOpening, enrichedMirror };
+}
+
 /**
  * Aplica a arquitetura narrativa de 4 Atos + Oficina de Trincheira a uma Fase ou Capítulo.
  */
@@ -193,20 +252,27 @@ function applyNarrativeRefactor(sectionKey, rawBody, allSpecsMap) {
   // 1b) Remover subseções H3 de andaime enciclopédico ("O que este capítulo cobre", "Quando usar", "Quem envolve", "Ver também", etc.)
   body = stripRedundantAlmanacH3Sections(body);
 
+  // Enriquecer arco dos 4 arquétipos (garantindo presença na abertura e retomada no Espelho)
+  const { enrichedOpening, enrichedMirror } = buildArchetypeArcEnrichment(
+    sectionKey,
+    spec.openingBody,
+    spec.mirrorBody
+  );
+
   // 2) Inserir o Ato 1 (Abertura em Tensão: Cena Visceral + Paradoxo + Conceito com Nome Próprio)
   //    logo após o título H2 (## FASE ... ou ## CAPÍTULO ... ou ## EPÍLOGO)
   const h2Match = body.match(/^(## [^\n]+\n+)/);
-  if (h2Match && spec.openingTitle && spec.openingBody) {
+  if (h2Match && spec.openingTitle && enrichedOpening) {
     const h2Header = h2Match[1];
     const restAfterH2 = body.slice(h2Header.length);
-    const openingBlock = `### ${spec.openingTitle}\n\n${spec.openingBody.trim()}\n\n---\n\n`;
+    const openingBlock = `### ${spec.openingTitle}\n\n${enrichedOpening}\n\n---\n\n`;
     body = h2Header + openingBlock + restAfterH2;
   }
 
   // 3) Inserir o Ato 4 (O Espelho de Autodiagnóstico + Ritual de Segunda-Feira)
   //    no fechamento narrativo ANTES de renomear os H3
-  if (spec.mirrorTitle && spec.mirrorBody) {
-    const mirrorSection = `\n\n---\n\n### ${spec.mirrorTitle}\n\n${spec.mirrorBody.trim()}\n`;
+  if (spec.mirrorTitle && enrichedMirror) {
+    const mirrorSection = `\n\n---\n\n### ${spec.mirrorTitle}\n\n${enrichedMirror}\n`;
 
     // Se for Fase com blocos da Oficina, inserir imediatamente antes:
     const oficinaTriggerRe =

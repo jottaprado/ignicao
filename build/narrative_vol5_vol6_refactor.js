@@ -132,7 +132,7 @@ Chamamos esse ponto cego de **O Abismo do Degrau Tributário**: a faixa de fatur
 >
 > **Regra de Bolso (*estilo Andy Grove*):** Nunca confie em decisões tributárias baseadas em "médias do setor". O melhor regime depende de três variáveis exclusivas da sua operação: **margem de lucro real**, **peso da folha CLT sobre a receita** e **volume de insumos que geram crédito fiscal**.
 >
-> **O Ritual de Segunda-Feira às 9h:** Peça ao financeiro o cálculo da **Alíquota Efetiva Total** ($\text{Total de Tributos Pagos} \div \text{Receita Bruta}$) dos últimos 3 meses e agende a revisão comparativa de regime tributário caso sua receita ou margem tenha mudado mais de 20%.`,
+> **O Ritual de Segunda-Feira às 9h:** Peça ao financeiro o cálculo da **Alíquota Efetiva Total** (Total de Tributos Pagos ÷ Receita Bruta) dos últimos 3 meses e agende a revisão comparativa de regime tributário caso sua receita ou margem tenha mudado mais de 20%.`,
   },
 
   EN: {
@@ -208,9 +208,9 @@ Andy Grove tratava qualquer projeção empresarial como o cálculo de capacidade
     },
     mirrorTitle: 'O Espelho da Modelagem: Sua Planilha Obedece às Leis da Física ou à Sua Torcida?',
     mirrorBody: `> [!tip] O Espelho do Gestor (Autodiagnóstico Rápido)
-> 1. **O Teste da Célula de Receita:** Abra a sua planilha financeira agora e clique na célula de receita prevista para daqui a seis meses. Ela é resultado de uma multiplicação física ($\text{Leads Qualificados} \times \text{Taxa de Conversão} \times \text{Ticket Médio}$ ou $\text{Vendedores Rampados} \times \text{Quota Realista}$) ou é apenas a célula anterior multiplicada por uma porcentagem arbitrária?
+> 1. **O Teste da Célula de Receita:** Abra a sua planilha financeira agora e clique na célula de receita prevista para daqui a seis meses. Ela é resultado de uma multiplicação física (Leads Qualificados × Taxa de Conversão × Ticket Médio ou Vendedores Rampados × Quota Realista) ou é apenas a célula anterior multiplicada por uma porcentagem arbitrária?
 > 2. **A Travessia do Ramp-Up:** O seu modelo considera que um vendedor recém-contratado no Brasil leva de 3 a 6 meses para atingir 100% da meta e que 25% das contratações comerciais não performam, ou você assume produtividade máxima desde o dia 1?
-> 3. **A Fricção Brasileira nos Custos:** Sua aba de pessoal multiplica o salário nominal por $1{,}7\text{x}$ a $1{,}9\text{x}$ para refletir encargos CLT, férias, 13º e benefícios reais, ou você lançou apenas o salário líquido da proposta?
+> 3. **A Fricção Brasileira nos Custos:** Sua aba de pessoal multiplica o salário nominal por 1,7x a 1,9x para refletir encargos CLT, férias, 13º e benefícios reais, ou você lançou apenas o salário líquido da proposta?
 >
 > **Regra de Bolso (*estilo Andy Grove*):** Um modelo financeiro só serve para alguma coisa se você puder apontar para cada linha de receita e dizer o nome da pessoa, do canal e da capacidade instalada que vão entregá-la.
 >
@@ -329,7 +329,7 @@ Geoffrey Moore e os mestres de vendas enterprise chamam esse abismo de **A Ficç
 >
 > **Regra de Bolso (*estilo Andy Grove*):** Negócio que já escorregou a data de fechamento duas vezes seguidas tem probabilidade estatística próxima de zero no mês corrente — remova-o imediatamente do *Commit* do trimestre.
 >
-> **O Ritual de Segunda-Feira às 9h:** Antes da reunião comercial, filtre todos os negócios com idade superior a $1{,}5\text{x}$ o ciclo médio de vendas, rebaixe-os da previsão do mês e audite pessoalmente os 5 maiores negócios da coluna *Commit*.`,
+> **O Ritual de Segunda-Feira às 9h:** Antes da reunião comercial, filtre todos os negócios com idade superior a 1,5x o ciclo médio de vendas, rebaixe-os da previsão do mês e audite pessoalmente os 5 maiores negócios da coluna *Commit*.`,
   },
 
   EZ: {
@@ -362,7 +362,7 @@ Chamamos essa armadilha de **O Imposto Invisível do Ciclo de Caixa**: quanto ma
     },
     mirrorTitle: 'O Espelho do Capital de Giro: Quantos Dias o Seu Dinheiro Fica Preso na Rua?',
     mirrorBody: `> [!tip] O Espelho do Gestor (Autodiagnóstico Rápido)
-> 1. **O Número na Ponta da Língua:** Sem abrir nenhuma planilha agora, você sabe dizer exatamente quantos dias dura o seu **Ciclo de Conversão de Caixa** ($\text{Prazo de Estoque} + \text{Prazo de Recebimento} - \text{Prazo de Pagamento a Fornecedores}$)?
+> 1. **O Número na Ponta da Língua:** Sem abrir nenhuma planilha agora, você sabe dizer exatamente quantos dias dura o seu **Ciclo de Conversão de Caixa** (Prazo de Estoque + Prazo de Recebimento − Prazo de Pagamento a Fornecedores)?
 > 2. **A Comissão Desalinhada:** Você está pagando comissão à vista para o seu vendedor no mês em que ele assina o contrato, enquanto o cliente corporativo só vai pagar a primeira parcela daqui a 90 dias (e pode ficar inadimplente)?
 > 3. **O Vazamento da Antecipação Automática:** Sua empresa deixou ativada a "antecipação automática" na maquininha de cartão ou no portal do banco pagando $2{,}2\%$ ao mês sem comparar com linhas garantidas ou FIDCs que custariam metade disso?
 >

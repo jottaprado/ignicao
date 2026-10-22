@@ -1,0 +1,819 @@
+/**
+ * Pós-processador editorial, factual, jurídico, tributário e narrativo da revisão v5.2
+ * Resolve os achados da planilha IGNICAO_achados_da_revisao.xlsx (abas Achados e Checagem).
+ */
+
+const fs = require('fs');
+const path = require('path');
+
+function slugify(s) {
+  return String(s || '')
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .replace(/[—–]/g, '-')
+    .replace(/[^a-z0-9\s-]/g, '')
+    .trim()
+    .replace(/\s+/g, '-')
+    .replace(/-+/g, '-')
+    .replace(/^-|-$/g, '');
+}
+
+// Substituições de consistência de arquétipos (N3) e homônimos
+const ARCHETYPE_TEXT_REPLACEMENTS = [
+  // Dra. Camila é sempre cirurgiã-dentista (reabilitação oral) em Belo Horizonte, nunca fisioterapeuta ou médica
+  ['fisioterapeuta de Belo Horizonte', 'cirurgiã-dentista de Belo Horizonte'],
+  ['recém-saída da bancada clínica de fisioterapia', 'recém-saída do consultório odontológico'],
+  ['especialista em reabilitação física', 'especialista em reabilitação oral'],
+  ['clínicas de estética e fisioterapia', 'clínicas de odontologia e estética'],
+  ['clínica de fisioterapia e reabilitação', 'clínica de odontologia e reabilitação'],
+  ['clínica de fisioterapia', 'clínica de odontologia e reabilitação'],
+  ['redes de clínicas de fisioterapia', 'redes de clínicas odontológicas'],
+  ['Fisioterapeutas Sêniores', 'Dentistas Sêniores'],
+  ['fisioterapeutas sêniores', 'dentistas sêniores'],
+  ['fisioterapeutas juniores', 'dentistas juniores'],
+  ['fisioterapeutas recém-formados', 'dentistas recém-formados'],
+  ['fisioterapeutas e recepcionistas', 'dentistas e recepcionistas'],
+  ['Fisioterapeuta Chefe', 'Dentista Chefe'],
+  ['médica brilhante', 'cirurgiã-dentista brilhante'],
+  ['agenda médica', 'agenda clínica'],
+  ['pacientes pós-cirúrgicos', 'pacientes de reabilitação oral'],
+  [
+    'um programador brilhante como **Lucas** em São Paulo, uma clínica impecável como **Camila** em BH, ou um engenheiro industrial como **Henrique** em Curitiba',
+    'um programador brilhante como Lucas, em São Paulo, uma dentista impecável como Camila, em BH, ou um engenheiro mecânico como Henrique, em Curitiba'
+  ],
+  [
+    'uma clínica impecável como **Camila** em BH',
+    'uma dentista impecável como **Camila** em BH'
+  ],
+  // Rafael (Recife) e Bia (Goiânia)
+  [
+    'Rafael, em Goiânia, acusa Bia, em Recife, de queimar margem em anúncios de vaidade; Bia acusa Rafael de travar o crescimento',
+    'Rafael, em Recife, é acusado por Bia, no centro de distribuição em Goiânia, de queimar margem em anúncios de vaidade; Rafael rebate dizendo que Bia trava o crescimento'
+  ],
+];
+
+// Substituições factuais, jurídicas, tributárias, regulatórias e de casos (base + lotes Checagem)
+const BASE_FACTUAL_AND_LEGAL_REPLACEMENTS = [
+  // Vol. 1 - Fase 0 e Capítulos iniciais
+  [
+    '($\\text{Reserva Líquida} \\div (\\text{Custo Mínimo Familiar} \\times 1{,}5)$)',
+    '(Reserva Líquida Pessoal ÷ (Custo Mínimo Familiar × 1,30))'
+  ],
+  [
+    'Se seu custo mínimo é R$ 8.000/mês e você tem R$ 150.000 guardados, seu runway com margem de segurança de 25% (R$ 10.000/mês) é de 15 meses.',
+    'Se seu custo mínimo familiar é R$ 8.000/mês e você tem R$ 156.000 guardados exclusivamente na sua reserva pessoal (separada do caixa da empresa), seu runway com margem de segurança de 30% (R$ 10.400/mês) é de exatos 15 meses.'
+  ],
+  [
+    '60 a 80 horas semanais de trabalho focado',
+    '55 a 65 horas semanais de trabalho intenso (sendo 25 a 30 horas de foco profundo e o restante em vendas, operação e articulação)'
+  ],
+  [
+    'uma em cada quatro fechamentos de startups nos primeiros dois anos decorre de ruptura entre sócios, não de fracasso de produto',
+    'conflitos entre cofundadores estão entre as principais causas não financeiras de mortalidade precoce de startups (Noam Wasserman, *The Founder\'s Dilemmas*, 2012)'
+  ],
+  [
+    'investidores profissionais não assinam acordos de confidencialidade na primeira conversa.',
+    'investidores de Venture Capital quase nunca assinam NDA na primeira conversa de filtro; já em tecnologia dura (deep tech, biotecnologia, química ou hardware com patente pendente), compartilhe inicialmente um deck não confidencial e deixe o segredo industrial para a diligência técnica sob NDA.'
+  ],
+  [
+    'Investidores não olham apenas para a foto (onde você está hoje); eles investem no filme (a inclinação da sua curva de aprendizado e entrega entre duas conversas).',
+    'Como sintetiza Mark Suster na metáfora "Lines, Not Dots", investidores não decidem pela foto isolada de uma reunião, mas pela inclinação da reta que conecta múltiplos pontos de entrega ao longo dos meses.'
+  ],
+  [
+    'reduz pela metade o tempo de validação',
+    'encurta substancialmente o ciclo de validação'
+  ],
+  [
+    'O conceito japonês de *Ikigai* ("razão de viver") oferece uma lente prática para escolher onde empreender na intersecção de quatro círculos',
+    'A adaptação ocidental contemporânea do *Ikigai* para carreira e negócios (popularizada por Marc Winn em 2014 ao combinar o conceito japonês de "razão de viver" com o diagrama de Venn de propósito de Andrés Zuzunaga) oferece uma lente prática na intersecção de quatro círculos'
+  ],
+  [
+    'O Marco Legal das Startups (LC 182/2021) consolidou a segurança jurídica para investidores-anjo (que não respondem por dívidas da empresa, mesmo sob desconsideração da personalidade jurídica, salvo dolo/fraude)',
+    'A Lei Complementar nº 155/2016 (no art. 61-A da LC 123/2006) e o Marco Legal das Startups (LC 182/2021) blindaram o investidor-anjo contra responsabilidade por dívidas da empresa, inclusive em casos de desconsideração da personalidade jurídica, salvo dolo, fraude ou simulação'
+  ],
+  [
+    'O prazo padrão global e brasileiro é de **4 anos com 1 ano de cliff**',
+    'O padrão consagrado para fundadores e primeiros executivos é de **4 anos com 1 ano de cliff** (enquanto em rodadas de investidores-anjo de menor porte no Brasil também se praticam prazos de 2 a 3 anos)'
+  ],
+  [
+    'Raramente funciona com 4 ou mais (diluição excessiva de responsabilidade, custo de coordenação exponencial, paralisia decisória).',
+    'Com 4 ou mais cofundadores, o custo de coordenação cresce rapidamente e exige definição estrita de papéis executivos e alçadas (embora existam exceções bem-sucedidas quando as competências são altamente complementares, como no caso da Contabilizei).'
+  ],
+  [
+    'Dados da Harvard Business School (Noam Wasserman, *The Founder\'s Dilemmas*, analisando mais de 10.000 fundadores) mostram que **65% das startups de alto potencial fracassam por conflitos entre cofundadores**',
+    'Em *The Founder\'s Dilemmas* (2012), Noam Wasserman analisou mais de 10.000 fundadores de tecnologia e ciências da vida; na literatura de Venture Capital, estima-se amplamente que conflitos no time fundador respondam por até 65% dos fracassos de startups em estágio inicial'
+  ],
+  [
+    'No Brasil, a dissolução parcial de sociedade limitada (Código Civil, arts. 1.028 a 1.032; CPC, arts. 599 a 609) pode levar de 2 a 5 anos na Justiça e congelar a empresa no meio do caminho',
+    'No Brasil, uma ação judicial de dissolução parcial de sociedade limitada (Código Civil, arts. 1.028 a 1.032; CPC, arts. 599 a 609) costuma levar de 2 a 5 anos para transitar em julgado e, embora não congele formalmente o CNPJ, trava captações, afasta investidores e drena o caixa na apuração de haveres'
+  ],
+  [
+    'No Brasil, o formato mais seguro é o **Contrato de Opção de Compra de Quotas** ou **Acordo de Quotistas com Cláusula de Recompra pelo Valor Nominal**',
+    'No Brasil, os formatos mais adotados são o **Acordo de Sócios com Cláusula de Opção de Recompra de Quotas pelo Valor Nominal (*Reverse Vesting*)** para cofundadores já no contrato social, ou o **Contrato de Opção de Compra de Quotas** para novos membros durante o período de *cliff*'
+  ],
+  [
+    'Em outubro de 2024, o fundador de uma SaaS B2B de logística em São Paulo',
+    'Em um caso composto representativo de um SaaS B2B de logística em São Paulo'
+  ],
+
+  // Casos brasileiros (Nubank, Stone, iFood, RD Station, Contabilizei, Tractian, Enjoei, 123 Milhas, Peixe Urbano, Wellhub/Gympass, etc.)
+  [
+    'Stone começou em 2012 não com maquininha melhor, mas com atendimento que resolvia em 5 segundos vs. 40 minutos da Cielo/Rede. A maquininha era commodity.',
+    'A Stone (fundada em 2012 por André Street e Eduardo Pontes) diferenciou-se não pelo hardware da maquininha, que era commodity, mas pela arquitetura tecnológica proprietária combinada a polos locais próprios ("Green Angels") e atendimento humano em até 5 segundos, contra a lentidão das adquirentes incumbentes.'
+  ],
+  [
+    'Quando o iFood começou em 2011 (como Disk Cook, guia impresso de cardápios com central telefônica), não existia frota de entregadores via aplicativo nem pagamento online integrado: os pedidos eram transmitidos por telefone ou fax para restaurantes que já tinham motoboy próprio.',
+    'Quando o iFood foi lançado digitalmente em maio de 2011 (evoluindo da Disk Cook, guia impresso de cardápios com central telefônica criado em 1997), o marketplace operava apenas na camada de geração de demanda: não havia frota própria de entregadores na plataforma e o pedido ia para restaurantes que já contavam com motoboys próprios.'
+  ],
+  [
+    'Gympass (Wellhub) nasceu vendendo pacotes de diárias de academias diretamente para consumidores finais (B2C). O CAC era proibitivo e as academias odiavam o modelo porque canibalizava seus alunos mensalistas.',
+    'O Gympass (hoje Wellhub, fundado em 2012 por Cesar Carvalho, João Barbosa e Vinicius Ferriani) nasceu no modelo B2C vendendo passes e diárias avulsas de academias ao consumidor final; diante do CAC elevado e do receio das academias de canibalizar alunos mensalistas, pivotou em 2013/2014 para o modelo B2B2C de benefício corporativo pago pelo RH.'
+  ],
+  [
+    'RD Station e Contabilizei cresceram com eficiência extrema antes de grandes rodadas',
+    'RD Station e Contabilizei construíram máquinas previsíveis de aquisição em PMEs combinando disciplina de unit economics com rodadas sucessivas de Venture Capital institucional desde os estágios iniciais'
+  ],
+  [
+    'Arthur, Igor e Gabriel',
+    'Igor Marinelli e Gabriel Lameirinhas'
+  ],
+  [
+    'Ana Luiza McLaren e Tiê Lima criaram um blog',
+    'Ana Luiza McLaren criou em 2009 um blog para vender roupas paradas no armário e, ao lado do cofundador Tiê Lima, transformou o projeto em marketplace'
+  ],
+  [
+    'Ramiro, Augusto e Cristiane Madureira',
+    'os irmãos Ramiro e Augusto Madureira (tendo Cristiane Madureira também figurado no quadro societário da holding)'
+  ],
+  [
+    'Peixe Urbano chegou a valer centenas de milhões de dólares antes de perder relevância e encerrar operações',
+    'Peixe Urbano foi o primeiro grande fenômeno de compras coletivas do país, teve o controle adquirido pelo grupo chinês Baidu em 2014 e, após sucessivas mudanças de controle e deterioração do modelo de cupons, encerrou as operações em 2021'
+  ],
+  // Casos não verificados / fictícios sinalizados na Checagem
+  [
+    'O caso de Kim Kubo (The.Care)',
+    'O caso composto de uma healthtech de navegação de pacientes'
+  ],
+  [
+    'Kim Kubo (The.Care)',
+    'uma healthtech brasileira de gestão de crônicos'
+  ],
+  [
+    'Hilab abriu capital na B3',
+    'Hilab escalou nacionalmente seus exames laboratoriais remotos em farmácias e clínicas'
+  ],
+  [
+    'Bruno Henrique, PM sênior no Nubank',
+    'um Product Manager sênior em uma grande fintech brasileira'
+  ],
+  [
+    'Clark & Vesterlund (2013)',
+    'pesquisas comportamentais sobre vieses de atribuição de tarefas em equipes (como os estudos de Lise Vesterlund e coautoras em *The No Club*, 2022)'
+  ],
+
+  // Tributação de Dividendos (Lei 15.270/2025 - vigência 01/01/2026)
+  [
+    'No Brasil, dividendos distribuídos a pessoas físicas permanecem isentos de IRPF (Lei 9.249/1995, art. 10), embora a tributação de dividendos volte periodicamente ao debate legislativo.',
+    'No Brasil, a isenção irrestrita de dividendos da Lei 9.249/1995 vigorou até dezembro de 2025: com a **Lei nº 15.270/2025** (em vigor desde 1º de janeiro de 2026), os lucros e dividendos pagos por uma mesma pessoa jurídica a uma mesma pessoa física residente no Brasil acima de **R$ 50.000,00 por mês** passaram a sofrer retenção de **10% de IRRF**, compondo o Imposto de Renda Pessoa Física Mínimo (IRPFM) anual para rendas globais acima de R$ 600 mil/ano (até 10% a partir de R$ 1,2 milhão/ano), resguardados os lucros apurados até 2025 cuja distribuição tenha sido aprovada até 31/12/2025.'
+  ],
+  [
+    'dividendos são isentos de IR na pessoa física (Lei 9.249/1995)',
+    'dividendos são isentos de IRPF até R$ 50 mil/mês por empresa pagadora e tributados em 10% na fonte acima desse limite desde janeiro de 2026 (Lei 15.270/2025)'
+  ],
+  [
+    'distribuição de lucros isenta de IR',
+    'distribuição de lucros (isenta até R$ 50 mil/mês por empresa e sujeita a 10% de IRRF acima desse teto pela Lei 15.270/2025)'
+  ],
+  [
+    'dividendos isentos de IR',
+    'dividendos (isentos até R$ 50 mil/mês por fonte pagadora e tributados em 10% na fonte acima disso desde 2026, conforme Lei 15.270/2025)'
+  ],
+
+  // Reforma Tributária (EC 132/2023 e LC 214/2025)
+  [
+    'Entre 2029 e 2032, as alíquotas de PIS, COFINS, ICMS e ISS serão reduzidas gradualmente (10% em 2029, 20% em 2030, 30% em 2031, 40% em 2032)',
+    'Em **2027**, a **CBS** entra em vigor integralmente e **extingue de imediato o PIS e a COFINS** (reduzindo também o IPI a zero para a maioria dos produtos, exceto incentivos da Zona Franca de Manaus); já a transição gradual entre **2029 e 2032** aplica-se exclusivamente à substituição de **ICMS e ISS pelo IBS** (redução de 10% em 2029, 20% em 2030, 30% em 2031 e 40% em 2032, até a extinção total em 2033)'
+  ],
+
+  // Marco Legal das Startups (LC 182/2021) - CPSI e Sandbox
+  [
+    'dispensa de licitação via CPSI',
+    'licitação na modalidade especial da CPSI (arts. 12 a 15 da LC 182/2021)'
+  ],
+  [
+    'contratação direta via CPSI',
+    'contratação via modalidade especial de licitação do CPSI (art. 12 da LC 182/2021, até R$ 1,6 milhão por contrato) e posterior Contrato de Fornecimento (art. 15, até R$ 8 milhões sem nova licitação)'
+  ],
+
+  // STJ Tema 1.226 (Stock Options) e Temas 981/962 (Redirecionamento Fiscal)
+  [
+    'O CARF costumava autuar planos de Stock Options como remuneração disfarçada, mas o STJ pacificou em 2024',
+    'Embora o CARF historicamente autuasse planos de Stock Options como remuneração sujeita a INSS e IRPF, o **STJ pacificou em setembro de 2024 no Tema Repetitivo 1.226** que o *Stock Option Plan* tem natureza estritamente mercantil (não incidindo IRPF nem contribuição previdenciária na outorga ou no exercício, mas apenas imposto sobre ganho de capital na venda futura das ações com lucro), desde que presentes três requisitos reais: **voluntariedade na adesão**, **onerosidade** (pagamento de preço de exercício) e **risco de mercado**'
+  ],
+
+  // ANPD Resolução 15/2024 (3 dias úteis) e Resolução 19/2024 (Transferência Internacional)
+  [
+    'comunicar à ANPD e aos titulares em até 2 dias úteis',
+    'comunicar à ANPD e aos titulares em até **3 dias úteis** do conhecimento do incidente (Resolução CD/ANPD nº 15/2024)'
+  ],
+  [
+    'prazo de 2 dias úteis da ANPD',
+    'prazo de 3 dias úteis fixado pela Resolução CD/ANPD nº 15/2024'
+  ],
+  [
+    '72 horas (como no GDPR) ou 2 dias úteis na LGPD',
+    '72 horas no GDPR europeu e **3 dias úteis** no Brasil (Resolução CD/ANPD nº 15/2024)'
+  ],
+
+  // Trabalhista: FGTS Digital (dia 20), eSocial (dia 15), Multa art. 47 CLT (R$ 3.000 / R$ 800)
+  [
+    'recolhimento do FGTS até o dia 7 do mês seguinte',
+    'recolhimento do FGTS Digital até o **dia 20** do mês seguinte (Lei nº 14.438/2022, vigente desde março de 2024)'
+  ],
+  [
+    'FGTS (dia 7)',
+    'FGTS Digital (dia 20)'
+  ],
+  [
+    'FGTS até o dia 7',
+    'FGTS Digital até o dia 20'
+  ],
+
+  // BCB Resoluções 2025 (IPs e VASPs) e Drex
+  [
+    'R$ 500 milhões em transações anuais para exigir autorização de Instituição de Pagamento',
+    'os cronogramas de autorização prévia obrigatória e capital mínimo reforçado entre R$ 9,2 milhões e R$ 32,8 milhões estabelecidos pelas Resoluções BCB nº 494/2025 e Conjunta nº 14/2025 para Instituições de Pagamento'
+  ],
+  [
+    'O Drex entrará em operação comercial para o público em 2025',
+    'Após a Fase 2 dos testes em 2024/2025 revelar gargalos de privacidade e desempenho nas soluções de *Zero-Knowledge Proofs* sobre Hyperledger Besu, o Banco Central reestruturou o projeto Drex no final de 2025 para priorizar casos de uso de reconciliação de garantias e liquidação sem depender de DLT na primeira etapa'
+  ],
+
+  // Correções editoriais e estruturais mapeadas (S4, S7, E4, E6, E7, E8, E9, N7, C3, C5)
+  [
+    'Se você já empreendeu antes — com exit (saída, venda ou encerramento da empresa) com fracasso, ou com empresa ainda ativa —',
+    'Se você já empreendeu antes, tenha vendido a empresa, fechado as portas ou ainda esteja à frente dela,'
+  ],
+  [
+    'Se você já empreendeu antes: com exit (saída, venda ou encerramento da empresa) com fracasso, ou com empresa ainda ativa,',
+    'Se você já empreendeu antes, tenha vendido a empresa, fechado as portas ou ainda esteja à frente dela,'
+  ],
+  [
+    '5. Discordância em regime patrimonial. Um quer muito, outro quer médio.',
+    '5. Ambição desalinhada. Um quer construir algo enorme, o outro quer uma empresa de ritmo sustentável.'
+  ],
+  [
+    'Os três cofundadores trouxeram complementaridade completa no escritório de América Latina, com background em Morgan Stanley e formação em Stanford.',
+    'Vélez vinha da Sequoia, onde olhava a América Latina, depois de passar pelo Morgan Stanley e por Stanford.'
+  ],
+  [
+    'Collins descreve companies que levaram 4+ anos para descobrir seu hedgehog.',
+    'Collins descreve empresas que levaram mais de quatro anos para achar o seu conceito do ouriço.'
+  ],
+  [
+    'que definia "primeiros princípios" como "o primeiro basis from which a thing is known"',
+    'que definia "primeiros princípios" como "o primeiro ponto a partir do qual algo é conhecido"'
+  ],
+  [
+    'Não é possível eliminar vieses cognitivos — são fiados em arquitetura neural.',
+    'Não dá para eliminar vieses cognitivos: eles fazem parte de como o cérebro funciona.'
+  ],
+  [
+    'Não é possível eliminar vieses cognitivos: são fiados em arquitetura neural.',
+    'Não dá para eliminar vieses cognitivos: eles fazem parte de como o cérebro funciona.'
+  ],
+  [
+    'Use o Team Canvas na Fase 14 (escala e time) como artefato de onboarding de novos squads',
+    'Use o Team Canvas quando dois ou mais sócios decidem fundar juntos, antes do acordo de sócios. Volte a ele na Fase 16, ao montar a liderança'
+  ],
+  [
+    '*tração*, de Gabriel Weinberg',
+    '*Traction*, de Gabriel Weinberg e Justin Mares'
+  ],
+  [
+    'A diferença entre quem faz certo, e quem falha, está na honestidade do diagnóstico inicial.',
+    'A diferença entre quem acerta e quem falha está na honestidade do diagnóstico.'
+  ],
+  [
+    'qual dessas três pessoas acordou às sete da manhã suando frio e disposta a passar o cartão corporativo para resolver isso?',
+    'Lucas, quem usaria cada uma dessas ideias, e qual dessas pessoas perdeu tempo ou dinheiro com isso na última terça a ponto de pagar?'
+  ],
+  [
+    'Na geração de ideias, a verdade contraintuitiva é brutal: **as ideias mais lucrativas do Brasil quase nunca parecem "geniais" ou cinematográficas à primeira vista',
+    'Na geração de ideias, a resposta contraintuitiva é esta: **as ideias que mais dão lucro parecem problemas operacionais chatos, que todo mundo aprendeu a tolerar'
+  ],
+  [
+    'compense com mais pesquisa com clientes reais nas Fases 3 e 4',
+    'compense com mais pesquisa com clientes reais nas Fases 4 e 5 (Vol. 2)'
+  ],
+  [
+    'quem entrevistar nas Fases 3 e 4',
+    'quem entrevistar nas Fases 4 e 5 (Vol. 2)'
+  ],
+  [
+    'use falas diretas das Fases 3 e 4',
+    'use falas diretas das Fases 4 e 5'
+  ],
+  [
+    'até a Fase 12 (PMF)',
+    'até a Fase 13 (PMF)'
+  ],
+  [
+    'antes de entrar em descoberta de problema (Fase 3)',
+    'antes de entrar em descoberta de problema (Fase 4, Vol. 2)'
+  ],
+  [
+    'cada hipótese da Fase 6 testa um nó ou seta da árvore; cada experimento da Fase 7 coleta evidência',
+    'cada hipótese da Fase 7 (Vol. 3) testa um nó ou seta da árvore; cada experimento da Fase 8 (Vol. 3) coleta evidência'
+  ],
+  [
+    'antes de priorizar hipóteses (Fase 6)',
+    'antes de priorizar hipóteses (Fase 7, Vol. 3)'
+  ],
+  [
+    '"Quando não empreender, um roteiro honesto de autoexclusão"',
+    '"Permissão para dizer \'ainda não\'"'
+  ],
+  [
+    'Aplicação: apêndice sobre Pivot.',
+    'Aplicação: Capítulo 16 do Volume 4 (Pivot).'
+  ],
+  [
+    'procurar por "fundadores" em plataformas como Vittude, Doctoralia, ou Mind Lab',
+    'procurar por psicólogos clínicos em plataformas como Vittude, Zenklub ou Doctoralia'
+  ],
+  [
+    'Camila Farani (investidora), Bel Pesce (FazINOVA), entre outras.',
+    'Camila Farani (investidora), Cristina Junqueira (Nubank), entre outras.'
+  ],
+  [
+    'Market Creation Potential igual a nove (mercado peer-to-peer de acomodação era inexistente, seria criado)',
+    'aluguel entre pessoas existia em nicho (VRBO, Couchsurfing); a aposta era levá-lo ao viajante comum, com pagamento protegido e avaliações'
+  ],
+  [
+    'Curva que sobe sustentadamente igual a NRR maior que cem por cento, e cohort saudável. Curva que desce igual a cohort perdendo dinheiro ao longo do tempo.',
+    'Na curva de receita acumulada por safra, aceleração indica expansão (NRR acima de 100%). Achatamento cedo indica safra morrendo. Compare a inclinação das safras novas com a das antigas.'
+  ],
+  [
+    'A LGPD torna obrigatório definir, antes do início da integração técnica, quem é controlador e quem é operador dos dados pessoais que transitam entre os sistemas.',
+    'Antes da integração, mapeie cada fluxo de dados, quem decide o que se faz com ele, e registre os papéis em contrato. O papel vem do que cada empresa faz. Notificar a ANPD cabe ao controlador.'
+  ],
+  [
+    'Liquidez Secundária (Secondaries unificado)',
+    'Liquidez Secundária (Secondaries)'
+  ],
+  [
+    'WACC Brasil (mesmo perfil): 15% a 22%',
+    'WACC Brasil nominal em BRL (mesmo perfil, com Selic a 13,75% a.a.): 20% a 28% (ou 13% a 18% em USD)'
+  ],
+  [
+    'A Regra Invisível do Jogo: A Travessia do Vale da Morte Físico e a Lei Brasileira de Informática',
+    'A Regra do Jogo no Hardware: A Travessia do Vale da Morte Físico e a Lei de Informática (Leis 8.248/1991 e 13.969/2019)'
+  ],
+  [
+    'Executando Pesquisa Clínica no Brasil sob o Novo Marco Legal (Lei 14.874/2024): Prazos Rápidos, Diversidade Genética e CROs',
+    'Pesquisa Clínica no Brasil sob a Lei 14.874/2024: Sistema Nacional de Ética, Prazos da ANVISA e CROs'
+  ],
+];
+
+function loadCheckedBatchReplacements() {
+  const pairs = [...BASE_FACTUAL_AND_LEGAL_REPLACEMENTS];
+  for (const fname of ['checked_fixes_batch1.json', 'checked_fixes_batch2.json', 'checked_fixes_batch3.json']) {
+    const fpath = path.join(__dirname, fname);
+    if (fs.existsSync(fpath)) {
+      try {
+        const arr = JSON.parse(fs.readFileSync(fpath, 'utf8'));
+        if (Array.isArray(arr)) {
+          for (const item of arr) {
+            if (item && typeof item.from === 'string' && typeof item.to === 'string' && item.from.trim() && item.to.trim()) {
+              const fromStr = item.from.trim();
+              // Garantir que `to` não contenha travessão (—)
+              const cleanTo = item.to.trim().replace(/\s*—\s*/g, ': ');
+              pairs.push([fromStr, cleanTo]);
+              // Se for heading demovido de BG (##### -> ### no raw) ou de CZ/A (#### -> ### no raw), adicionar variante raw
+              if (fromStr.startsWith('##### ')) {
+                pairs.push([fromStr.replace(/^##### /, '### '), cleanTo.replace(/^##### /, '### ')]);
+              } else if (fromStr.startsWith('#### ')) {
+                pairs.push([fromStr.replace(/^#### /, '### '), cleanTo.replace(/^#### /, '### ')]);
+              }
+            }
+          }
+        }
+      } catch (err) {
+        console.warn(`[apply_review_fixes] Aviso ao ler ${fname}:`, err.message);
+      }
+    }
+  }
+  return pairs;
+}
+
+// Substituições de ruído mecânico de conversão de símbolos (E3/E4), LaTeX quebrado (E8), rótulos narrativos (N7/S7) e Acordo Ortográfico (E10)
+const MECHANICAL_NOISE_REPLACEMENTS = [
+  ['Técnico mais Comercial mais Domínio', 'Técnico, Comercial e Domínio'],
+  ['cash, mais ações TOTVS, mais earnout', 'caixa, ações da TOTVS e earn-out'],
+  ['trabalhar muito mais continuar tentando', 'trabalhar muito e continuar tentando'],
+  ['russos roleta', 'roleta-russa'],
+  ['Relentlessly resourceful, *Relentlessly Resourceful*', 'Engenhoso sem trégua (*Relentlessly Resourceful*)'],
+  ['$\\rightarrow$', '→'],
+  ['$\\leftarrow$', '←'],
+  ['$\\leftrightarrow$', '↔'],
+  ['$\\times$', '×'],
+  ['$\\div$', '÷'],
+  ['$\\ge$', '≥'],
+  ['$\\le$', '≤'],
+  ['$\\approx$', '≈'],
+  [' (em Mermaid)', ''],
+  [' em Mermaid', ''],
+  // Rótulos de fórmula narrativa e muletas pedagógicas (N7 / S7 / E4 / E6)
+  ['**Sua permissão (*estilo Rework*):**', '**Sua permissão:**'],
+  ['**Sua Permissão (*estilo Rework*):**', '**Sua permissão:**'],
+  ['**Regra de Bolso (*estilo Gino Wickman*):**', '**Regra de bolso:**'],
+  ['**Regra de Bolso (*estilo Andy Grove*):**', '**Regra de bolso:**'],
+  ['**Regra de Bolso (*estilo Ben Horowitz*):**', '**Regra de bolso:**'],
+  ['**Regra de Bolso (*estilo Geoffrey Moore*):**', '**Regra de bolso:**'],
+  ['**O Espelho (Responda sem anestesia):**', '**O Espelho (autodiagnóstico):**'],
+  ['**O Espelho do Gestor (Responda sem anestesia):**', '**O Espelho do Gestor:**'],
+  ['**Lições transferíveis.** ', ''],
+  ['**A lição transferível.** ', ''],
+  ['**A lição transferível:** ', ''],
+  ['A lição transferível: ', ''],
+  ['A lição transferível. ', ''],
+  ['**Insight do caso.** ', ''],
+  ['**A lição:** ', ''],
+  ['**A lição.** ', ''],
+  ['Lição extraível: ', ''],
+  ['**Guidance prático**:', '**Orientação prática**:'],
+  ['**Guidance prático:**', '**Orientação prática:**'],
+  // Anglicismos desnecessários e glosas intrusivas (E7 / E8 / E9)
+  ['Exploit demand existente', 'Explorar a demanda existente'],
+  ['Reach non-customers', 'Alcançar quem ainda não é cliente'],
+  ['program de enablement', 'programa de capacitação'],
+  ["d'**A ", 'da **A '],
+  ["d'**O ", 'do **O '],
+  ["n'**A ", 'na **A '],
+  ["n'**O ", 'no **O '],
+  ['pitch (apresentação do negócio)', 'pitch'],
+  ['rodada seed (semente)', 'rodada seed'],
+  ['IPO (abertura de capital em bolsa) como exit (saída)', 'IPO ou venda da empresa'],
+  ['term sheet (carta de intenções de investimento)', 'term sheet'],
+  ['All-hands (reunião com toda a empresa)', 'reunião geral (all-hands)'],
+  ['Keynote (palestra principal)', 'palestra principal (keynote)'],
+  ['warm intro (apresentação calorosa via contato em comum)', 'indicação por contato em comum (warm intro)'],
+  ['job board (mural de vagas)', 'mural de vagas'],
+  [' (consumer psychology — estudo dos processos mentais e comportamentais por trás das decisões de compra)', ''],
+  [' (consumer psychology: estudo dos processos mentais e comportamentais por trás das decisões de compra)', ''],
+  // Adjetivos inflados recorrentes (N6)
+  ['solidão brutal', 'solidão'],
+  ['honestidade brutal', 'franqueza direta'],
+  ['verdade brutal', 'verdade dura'],
+  ['realidade brutal', 'realidade dura'],
+  ['clareza brutal', 'clareza direta'],
+  ['foco obsessivo', 'foco disciplinado'],
+  ['execução cirúrgica', 'execução disciplinada'],
+  ['precisão cirúrgica', 'precisão'],
+  ['armadilhas invisíveis', 'armadilhas recorrentes'],
+  ['inimigo invisível', 'inimigo silencioso'],
+  ['imposto invisível', 'custo oculto'],
+  ['teto invisível', 'teto operacional'],
+  // Padronização de termos (E9 / E12)
+  ['BACEN', 'BCB'],
+  ['Bacen', 'BCB'],
+];
+
+let CACHED_FACTUAL_REPLACEMENTS = null;
+function getFactualReplacements() {
+  if (!CACHED_FACTUAL_REPLACEMENTS) {
+    CACHED_FACTUAL_REPLACEMENTS = loadCheckedBatchReplacements();
+  }
+  return CACHED_FACTUAL_REPLACEMENTS;
+}
+
+/**
+ * Aplica correções diretamente sobre rawSections e ALL_NARRATIVE_SPECS antes da montagem dos volumes.
+ */
+function applyReviewFixesToRawAndSpecs(rawSections, ALL_NARRATIVE_SPECS) {
+  CACHED_FACTUAL_REPLACEMENTS = loadCheckedBatchReplacements();
+
+  // 1) Corrigir duplicata de headings H3 na FASE_0 (#39)
+  if (rawSections.has('FASE_0')) {
+    const f0 = rawSections.get('FASE_0');
+    let countTrava = 0;
+    let countSinais = 0;
+    let countPerguntas = 0;
+    f0.body = f0.body
+      .replace(/^### Onde o fundador trava antes mesmo de abrir o CNPJ$/gm, (m) => {
+        countTrava += 1;
+        return countTrava > 1 ? '### As armadilhas recorrentes na largada pessoal' : m;
+      })
+      .replace(/^### Os sinais concretos de que sua fundação pessoal está pronta$/gm, (m) => {
+        countSinais += 1;
+        return countSinais > 1 ? '### Evidências mínimas antes de abrir o CNPJ' : m;
+      })
+      .replace(/^### As perguntas que você precisa responder sem mentir para si mesmo$/gm, (m) => {
+        countPerguntas += 1;
+        return countPerguntas > 1 ? '### O interrogatório final da Fase 0' : m;
+      });
+  }
+
+  // 2) Corrigir homônimos de arquétipos em seções específicas
+  if (rawSections.has('CZ')) {
+    const cz = rawSections.get('CZ');
+    cz.body = cz.body
+      .replace(
+        /Camila, 38 anos, fisioterapeuta, dona de clínica de estética com 4 funcionários em Curitiba/g,
+        'Renata, 38 anos, fisioterapeuta, dona de clínica de estética com 4 funcionários em Curitiba'
+      )
+      .replace(/Dor principal da Camila/g, 'Dor principal da Renata');
+  }
+
+  if (rawSections.has('FASE_13')) {
+    const f13 = rawSections.get('FASE_13');
+    f13.body = f13.body.replace(/\bMariana\b/g, 'Joana');
+  }
+
+  if (rawSections.has('DZ')) {
+    const dz = rawSections.get('DZ');
+    dz.body = dz.body
+      .replace(/\bo Lucas atrasou\b/g, 'o Diego atrasou')
+      .replace(/\bLucas, na daily\b/g, 'Diego, na daily');
+  }
+
+  if (rawSections.has('BH')) {
+    const bh = rawSections.get('BH');
+    bh.body = bh.body.replace(/— Marina, se não batermos a meta/g, '— Helena, se não batermos a meta');
+  }
+
+  // 3) Aplicar substituições de arquétipos, factuais e ruído mecânico em todas as rawSections
+  const factualList = getFactualReplacements();
+  for (const [, sec] of rawSections.entries()) {
+    let b = sec.body;
+    // Remover linhas residuais de script (S7: "> Referenciado em: Fase..." e "**Esta seção adiciona guidance específico para momentos pontuais**")
+    b = b
+      .replace(/^>\s*Referenciado em:\s*Fase[^\n]*\n?/gm, '')
+      .replace(/^\*\*Esta seção adiciona guidance específico para momentos pontuais\*\*\s*\n?/gm, '');
+
+    for (const [from, to] of ARCHETYPE_TEXT_REPLACEMENTS) {
+      if (b.includes(from)) b = b.split(from).join(to);
+    }
+    for (const [from, to] of factualList) {
+      if (b.includes(from)) b = b.split(from).join(to);
+    }
+    for (const [from, to] of MECHANICAL_NOISE_REPLACEMENTS) {
+      if (b.includes(from)) b = b.split(from).join(to);
+    }
+    sec.body = b;
+  }
+
+  // 4) Aplicar substituições de arquétipos, factuais e ruído mecânico em ALL_NARRATIVE_SPECS
+  for (const [, spec] of Object.entries(ALL_NARRATIVE_SPECS)) {
+    for (const field of ['openingTitle', 'openingBody', 'mirrorTitle', 'mirrorBody']) {
+      if (typeof spec[field] === 'string') {
+        let s = spec[field];
+        for (const [from, to] of ARCHETYPE_TEXT_REPLACEMENTS) {
+          if (s.includes(from)) s = s.split(from).join(to);
+        }
+        for (const [from, to] of factualList) {
+          if (s.includes(from)) s = s.split(from).join(to);
+        }
+        for (const [from, to] of MECHANICAL_NOISE_REPLACEMENTS) {
+          if (s.includes(from)) s = s.split(from).join(to);
+        }
+        spec[field] = s;
+      }
+    }
+    if (spec.headingMap && typeof spec.headingMap === 'object') {
+      for (const [k, v] of Object.entries(spec.headingMap)) {
+        let s = String(v);
+        for (const [from, to] of factualList) {
+          if (s.includes(from)) s = s.split(from).join(to);
+          const cleanFromH = from.replace(/^#{1,6}\s+/, '');
+          const cleanToH = to.replace(/^#{1,6}\s+/, '');
+          if (cleanFromH !== from && s.includes(cleanFromH)) {
+            s = s.split(cleanFromH).join(cleanToH);
+          }
+        }
+        for (const [from, to] of MECHANICAL_NOISE_REPLACEMENTS) {
+          if (s.includes(from)) s = s.split(from).join(to);
+        }
+        s = s.replace(/\s+—\s+/g, ': ');
+        spec.headingMap[k] = s;
+      }
+    }
+  }
+}
+
+/**
+ * Aplica Acordo Ortográfico, padronização de PIX -> Pix, cofundador, não diluitivo, etc.
+ * APENAS fora de alvos de wikilinks e fora de headings #.
+ */
+function applyOrthographyToTextSegment(seg) {
+  let s = seg;
+
+  // 1) Substituições exatas da lista de ruído mecânico
+  for (const [from, to] of MECHANICAL_NOISE_REPLACEMENTS) {
+    if (s.includes(from)) s = s.split(from).join(to);
+  }
+
+  // 2) "Passo N, " -> "Passo N: " (E3)
+  s = s.replace(/\b(Passo\s+\d+),\s+/g, '$1: ');
+  s = s.replace(/\b(Etapa\s+\d+),\s+/g, '$1: ');
+  s = s.replace(/\b(Camada\s+\d+),\s+/g, '$1: ');
+  s = s.replace(/\b(Pilar\s+\d+),\s+/g, '$1: ');
+
+  // 3) Acordo Ortográfico: prefixo "não" sem hífen (não diluitivo, não reembolsável, etc.)
+  s = s.replace(/\bnão-([a-zà-ú]+)/gi, (full, word) => {
+    const prefix = full.slice(0, 3); // preserva 'não' ou 'Não' ou 'NÃO'
+    return `${prefix} ${word}`;
+  });
+
+  // 4) Acordo Ortográfico: cofundador, corresponsável, copiloto, coautor, etc.
+  s = s
+    .replace(/\bco-fundador(es|a|as)?\b/g, 'cofundador$1')
+    .replace(/\bCo-fundador(es|a|as)?\b/g, 'Cofundador$1')
+    .replace(/\bCO-FUNDADOR(ES|A|AS)?\b/g, 'COFUNDADOR$1')
+    .replace(/\bco-founder(s)?\b/gi, (_, pl) => (pl ? 'cofundadores' : 'cofundador'))
+    .replace(/\bco-piloto(s)?\b/gi, (m, pl) => (m[0] === 'C' ? `Copiloto${pl || ''}` : `copiloto${pl || ''}`))
+    .replace(/\bco-autor(es|a|as)?\b/gi, (m, suf) => (m[0] === 'C' ? `Coautor${suf || ''}` : `coautor${suf || ''}`))
+    .replace(/\bco-respons[áa]ve(l|is)\b/gi, (m, suf) => (m[0] === 'C' ? `Corresponsáve${suf}` : `corresponsáve${suf}`))
+    .replace(/\bauto-diagn[óo]stico\b/gi, (m) => (m[0] === 'A' ? 'Autodiagnóstico' : 'autodiagnóstico'))
+    .replace(/\bauto-avalia[çc][ãa]o\b/gi, (m) => (m[0] === 'A' ? 'Autoavaliação' : 'autoavaliação'))
+    .replace(/\bdia-a-dia\b/gi, (m) => (m[0] === 'D' ? 'Dia a dia' : 'dia a dia'))
+    .replace(/\bmão-de-obra\b/gi, (m) => (m[0] === 'M' ? 'Mão de obra' : 'mão de obra'))
+    .replace(/\bpasso-a-passo\b/gi, (m) => (m[0] === 'P' ? 'Passo a passo' : 'passo a passo'))
+    .replace(/\bponto-de-vista\b/gi, (m) => (m[0] === 'P' ? 'Ponto de vista' : 'ponto de vista'))
+    .replace(/\bpré-requisito/gi, (m) => (m[0] === 'P' ? 'Pré-requisito' : 'pré-requisito'))
+    .replace(/\bpre-requisito/gi, (m) => (m[0] === 'P' ? 'Pré-requisito' : 'pré-requisito'))
+    .replace(/\bpós-graduação/gi, (m) => (m[0] === 'P' ? 'Pós-graduação' : 'pós-graduação'))
+    .replace(/\bpos-graduação/gi, (m) => (m[0] === 'P' ? 'Pós-graduação' : 'pós-graduação'))
+    .replace(/\binfra-estrutura/gi, (m) => (m[0] === 'I' ? 'Infraestrutura' : 'infraestrutura'))
+    .replace(/\bbem estar\b/gi, (m) => (m[0] === 'B' ? 'Bem-estar' : 'bem-estar'));
+
+  // 5) PIX -> Pix (marca oficial do BCB) fora de siglas compostas
+  s = s.replace(/\bPIX\b/g, 'Pix');
+
+  return s;
+}
+
+/**
+ * Remove travessões (—) de um segmento de prosa, substituindo por pontuação natural (: , ; ou parênteses).
+ */
+function stripEmDashesFromProseSegment(seg) {
+  if (!seg.includes('—')) return seg;
+  let s = seg;
+
+  // Caso 1: par de travessões intercalando aposto na mesma frase: " A — B — C" -> ", B, "
+  s = s.replace(/\s+—\s+([^—\n]{3,120}?)\s+—\s+(?=[a-zà-ú0-9])/g, ', $1, ');
+  s = s.replace(/\s+—\s+([^—\n]{3,120}?)\s+—([.,;:])/g, ' ($1)$2');
+
+  // Caso 2: "**Termo** — explicação" no início de item/frase -> "**Termo:** explicação"
+  s = s.replace(/(\*\*[^*\n]+\*\*)\s*—\s+/g, '$1: ');
+
+  // Caso 3: travessão de diálogo no início da linha ("— Texto") -> meia-risca "– "
+  s = s.replace(/^(\s*)—\s+/gm, '$1– ');
+
+  // Caso 4: travessão simples restante com espaços (" — ") -> ": " ou ", "
+  s = s.replace(/\s*—\s*/g, (match, offset, fullStr) => {
+    const before = fullStr.slice(Math.max(0, offset - 80), offset);
+    if (before.includes(':')) {
+      return ', ';
+    }
+    return ': ';
+  });
+
+  // Limpar eventuais pontuações duplicadas geradas pela substituição (ex: "::", ", ,", ": .")
+  s = s
+    .replace(/:\s*:/g, ':')
+    .replace(/,\s*,/g, ',')
+    .replace(/([.,;:])\s*:\s*/g, '$1 ');
+
+  return s;
+}
+
+/**
+ * Pós-processa o markdown final de um volume:
+ *  - Aplica substituições factuais do volume (caso o trecho atravesse frases/parágrafos fora de headings)
+ *  - Desfaz self-links para a própria Fase/Capítulo atual e links duplicados no mesmo parágrafo (S4)
+ *  - Aplica ortografia, padronização terminológica e limpeza de travessões (—) fora de headings `#` e fora do `#target` dos wikilinks.
+ */
+function applyVolumeReviewFixes(volNum, md) {
+  const factualList = getFactualReplacements();
+
+  // Primeiro: aplicar substituições factuais linha a linha APENAS em linhas que não são headings `#`
+  const preLines = md
+    .replace(/^>\s*Referenciado em:\s*Fase[^\n]*\n?/gm, '')
+    .replace(/^\*\*Esta seção adiciona guidance específico para momentos pontuais\*\*\s*\n?/gm, '')
+    .split('\n');
+
+  let inFence = false;
+  let inFrontmatter = false;
+  let currentH2Slug = '';
+
+  const outLines = preLines.map((rawLine, idx) => {
+    let line = rawLine;
+    if (idx === 0 && line.trim() === '---') {
+      inFrontmatter = true;
+      return line;
+    }
+    if (inFrontmatter) {
+      if (line.trim() === '---') {
+        inFrontmatter = false;
+        return line;
+      }
+      return line;
+    }
+
+    if (line.trim().startsWith('```')) {
+      inFence = !inFence;
+      return line;
+    }
+
+    // Dentro de blocos de código / Mermaid: aplicar substituições factuais e substituir — por - ou : para que zero — reste fora de headings #
+    if (inFence) {
+      for (const [from, to] of factualList) {
+        if (line.includes(from) && !from.startsWith('#')) {
+          line = line.split(from).join(to);
+        }
+      }
+      return line.replace(/\s*—\s*/g, ' - ').replace(/\bPIX\b/g, 'Pix').replace(/\bBACEN\b/g, 'BCB');
+    }
+
+    // Se for um heading (# a ######):
+    const mHeading = line.match(/^(#{1,6})\s+(.+)$/);
+    if (mHeading) {
+      const hashes = mHeading[1];
+      const hText = mHeading[2].trim();
+      if (hashes === '##') {
+        currentH2Slug = slugify(hText);
+      }
+      // IMPORTANTE: NÃO alterar o texto dos headings # para que nenhum slug de âncora quebre!
+      return line;
+    }
+
+    // Aplicar substituições factuais na linha inteira (desde que `from` não quebre `[[target|...]]`)
+    for (const [from, to] of factualList) {
+      if (line.includes(from) && !from.includes('[[') && !from.includes(']]')) {
+        // Só substituir fora de alvos de wikilinks
+        const segs = line.split(/(\[\[[^\]]+\]\])/g);
+        line = segs
+          .map((seg) => (seg.startsWith('[[') && seg.endsWith(']]') ? seg : seg.split(from).join(to)))
+          .join('');
+      }
+    }
+
+    // Fora de headings e fences: processar wikilinks (S4: remover self-links para o H2 atual e links repetidos na mesma linha)
+    const isTocLine = /^-\s+\[\[#/.test(line.trim());
+    const seenTargetsInLine = new Set();
+
+    const parts = line.split(/(\[\[[^\]]+\]\])/g);
+    const processedParts = parts.map((part) => {
+      if (part.startsWith('[[') && part.endsWith(']]')) {
+        const inner = part.slice(2, -2);
+        const pipeIdx = inner.indexOf('|');
+        if (pipeIdx < 0) return part;
+        const target = inner.slice(0, pipeIdx).trim();
+        let label = inner.slice(pipeIdx + 1).trim();
+
+        // Limpar travessões e ortografia apenas no RÓTULO visível (label), NUNCA no target!
+        label = applyOrthographyToTextSegment(label);
+        label = stripEmDashesFromProseSegment(label);
+
+        // Verificar se é self-link para a própria seção H2 atual ou link repetido no mesmo parágrafo (apenas em prosa dos Vols 1-9)
+        if (!isTocLine && volNum <= 9) {
+          const hashIdx = target.indexOf('#');
+          const explicitVol = hashIdx > 0 ? target.slice(0, hashIdx) : '';
+          const anchorText = hashIdx >= 0 ? target.slice(hashIdx + 1) : target;
+          const targetSlug = slugify(anchorText);
+
+          // Self-link para o próprio H2 atual no mesmo volume
+          if (!explicitVol && currentH2Slug && targetSlug === currentH2Slug) {
+            return label;
+          }
+
+          const normTargetKey = `${explicitVol}#${targetSlug}`;
+          if (seenTargetsInLine.has(normTargetKey)) {
+            return label;
+          }
+          seenTargetsInLine.add(normTargetKey);
+        }
+
+        return `[[${target}|${label}]]`;
+      }
+
+      // Segmento de texto comum (prosa, lista, callout, célula de tabela)
+      let cleanSeg = applyOrthographyToTextSegment(part);
+      cleanSeg = stripEmDashesFromProseSegment(cleanSeg);
+      return cleanSeg;
+    });
+
+    return processedParts.join('');
+  });
+
+  return outLines.join('\n');
+}
+
+module.exports = {
+  applyReviewFixesToRawAndSpecs,
+  applyVolumeReviewFixes,
+};
+

@@ -66,23 +66,24 @@ Ao negociar com fábricas na Ásia, EUA ou Europa, o preço unitário sem o **In
 
 ### 4. A Matemática do Imposto em Cascata no Brasil (*Landed Cost*)
 
-O maior choque de um empreendedor de primeira viagem é descobrir que os impostos de importação no Brasil **não são somados de forma simples — eles incidem em cascata uns sobre os outros**, incluindo o frete internacional e o seguro na base de cálculo!
+O maior choque de um importador de primeira viagem é descobrir que os tributos de importação no Brasil incidem em cascata uns sobre os outros, incluindo o frete internacional e o seguro na base de cálculo.
 
 #### 4.1. A Fórmula Exata da Cascata Tributária Aduaneira
-Seja **$\text{VA}$ (Valor Aduaneiro em R$)** a soma de:
-$$\text{VA} = \text{Valor FOB da Mercadoria} + \text{Frete Internacional} + \text{Seguro Internacional}$$
+Seja **VA (Valor Aduaneiro em R$)** a soma de:
 
-Os cinco tributos + taxas portuárias incidem na seguinte ordem estrita:
-1. **II (Imposto de Importação — Federal, custo não-recuperável):**
-   $$\text{II} = \text{VA} \times \text{Alíquota II (TEC/NCM, tipicamente 0\% a 35\%)}$$
-2. **IPI (Imposto sobre Produtos Industrializados — Federal, gera crédito se sua empresa for industrial ou equiparada a industrial no Lucro Real/Presumido):**
-   $$\text{IPI} = (\text{VA} + \text{II}) \times \text{Alíquota IPI (tipicamente 0\% a 15\%)}$$
-3. **PIS-Importação (2,10%) e COFINS-Importação (9,65% — total 11,75%, gera crédito no Lucro Real Não-Cumulativo):**
-   $$\text{PIS/COFINS} = \text{VA} \times 11{,}75\%$$
+\`VA = Valor FOB da Mercadoria + Frete Internacional + Seguro Internacional\`
+
+Os cinco tributos e as taxas portuárias incidem na seguinte ordem estrita:
+1. **II (Imposto de Importação, federal, custo não recuperável):**
+   \`II = VA × Alíquota II (TEC/NCM, tipicamente 0% a 35%)\`
+2. **IPI (Imposto sobre Produtos Industrializados, federal, gera crédito se sua empresa for industrial ou equiparada a industrial no Lucro Real ou Presumido):**
+   \`IPI = (VA + II) × Alíquota IPI (tipicamente 0% a 15%)\`
+3. **PIS-Importação (2,10%) e COFINS-Importação (9,65%, totalizando 11,75% na regra geral, gerando crédito no Lucro Real Não Cumulativo):**
+   \`PIS/COFINS = VA × 11,75%\`
 4. **Taxa SISCOMEX e Despesas Aduaneiras Tributáveis** (adicionadas à base do ICMS).
-5. **ICMS-Importação (Estadual — calculado "por dentro", isto é, dividindo a base por $1 - \text{Alíquota ICMS}$):**
-   $$\text{Base ICMS} = \frac{\text{VA} + \text{II} + \text{IPI} + \text{PIS} + \text{COFINS} + \text{Taxa Siscomex}}{1 - \text{Alíquota ICMS (ex.: 0,18 em SP)}}$$
-   $$\text{ICMS} = \text{Base ICMS} \times \text{Alíquota ICMS}$$
+5. **ICMS-Importação (estadual, calculado "por dentro", isto é, dividindo a base por \`1 - Alíquota ICMS\`):**
+   \`Base ICMS = (VA + II + IPI + PIS + COFINS + Taxa Siscomex) ÷ (1 - Alíquota ICMS)\`
+   \`ICMS = Base ICMS × Alíquota ICMS\`
 6. **Custos Logísticos e Portuários Extras (fora da base dos tributos federais):**
    * **AFRMM (Adicional ao Frete para Renovação da Marinha Mercante):** 8% sobre o valor do frete marítimo internacional (navegação de longo curso);
    * Armazenagem portuária/recinto alfandegado (THC — *Terminal Handling Charge*, capatazia, desova), taxas de liberação de BL, honorários do despachante aduaneiro e frete rodoviário do porto até o seu CD.

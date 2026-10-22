@@ -11,7 +11,7 @@ const NARRATIVE_VOL1 = {
 
 Qual é a mentira mais cara que o imaginário do empreendedorismo vende todos os dias no Brasil? **A mentira de que empresas quebram por falta de boas ideias, quando na vida real a maioria morre porque o fundador quebrou emocional ou financeiramente seis meses antes de o negócio ter tempo de aprender a ficar de pé.**
 
-Em *O Mito do Empreendedor*, Michael Gerber descreve a **"Convulsão Empreendedora"**: aquele instante em que um excelente técnico — um programador brilhante como **Lucas** em São Paulo, uma clínica impecável como **Camila** em BH, ou um engenheiro industrial como **Henrique** em Curitiba — acorda cansado de ter chefe e confunde *saber fazer o trabalho técnico* com *estar pronto para sustentar o peso de uma empresa*. Antes de escrever uma única linha de código ou desenhar uma logomarca, você precisa auditar a única máquina que não tem peça de reposição no início da jornada: **você mesmo, seu caixa pessoal e os loops abertos dentro da sua casa**.`,
+Em *O Mito do Empreendedor*, Michael Gerber descreve a **"Convulsão Empreendedora"**: aquele instante em que um excelente técnico, como um engenheiro brilhante como **Lucas** em São Paulo, uma dentista impecável como **Camila** em BH, ou um engenheiro mecânico como **Henrique** em Curitiba, acorda cansado de ter chefe e confunde *saber fazer o trabalho técnico* com *estar pronto para sustentar o peso de uma empresa*. Antes de escrever uma única linha de código ou desenhar uma logomarca, você precisa auditar a única máquina que não tem peça de reposição no início da jornada: **você mesmo, seu caixa pessoal e os loops abertos dentro da sua casa**.`,
     headingMap: {
       'O que esta fase cobre': 'A fundação invisível: por que preparar a pessoa vem antes de desenhar o negócio',
       'POR QUE': 'Por que negócios promissores morrem no CPF do fundador antes de quebrar no CNPJ',
@@ -35,7 +35,7 @@ Em *O Mito do Empreendedor*, Michael Gerber descreve a **"Convulsão Empreendedo
 >
 > **Sua permissão (*estilo Rework*):** Você está autorizado a **não** pedir demissão agora. Começar *part-time* ou passar seis meses acumulando caixa pessoal não é covardia — é engenharia de sobrevivência.
 >
-> **O que fazer na próxima segunda-feira às 9h:** Abra uma planilha em branco, calcule seu **Runway Pessoal Real** ($\text{Reserva Líquida} \div \text{Custo Mínimo Familiar} \times 1{,}5$) e agende a conversa de 60 minutos com seu cônjuge ou família usando o roteiro desta fase.`,
+> **O que fazer na próxima segunda-feira às 9h:** Abra uma planilha em branco, calcule seu **Runway Pessoal Real** (Reserva Líquida Pessoal ÷ (Custo Mínimo Familiar × 1,30)) e agende a conversa de 60 minutos com seu cônjuge ou família usando os tópicos do Passo 4 desta fase.`,
   },
 
   FASE_1: {
@@ -130,7 +130,7 @@ Chamamos o erro de pular esta etapa de **A Cegueira dos Quadradinhos Soltos**: p
     mirrorBody: `> [!tip] O Espelho Causal (Autodiagnóstico Rápido)
 > Olhe para a cadeia de causa e efeito do seu negócio hoje:
 > 1. **A Falácia do Operador vs. Pagador:** Na sua teoria, a pessoa que sente a dor todo dia no operacional (o usuário) é a mesma que tem poder e orçamento para assinar o contrato (o decisor)? Se não for, qual é a probabilidade real da seta que liga o incômodo do operador à carteira do dono?
-> 2. **Honestidade nas Probabilidades:** Se você multiplicar as probabilidades reais das 4 ou 5 setas críticas até o cliente pagar ($P(A) \times P(B|A) \times P(C|B)$), o resultado dá algo realista entre 15% e 45%, ou você pintou tudo de 90% para se sentir seguro?
+> 2. **Honestidade nas Probabilidades:** Se você multiplicar as probabilidades reais das 4 ou 5 setas críticas até o cliente pagar (P(A) × P(B|A) × P(C|B)), o resultado cai numa faixa realista de trabalho (por exemplo, entre 15% e 45%), ou você pintou tudo de 90% para se sentir seguro?
 > 3. **Isolamento do Dominó Mortal:** Você sabe apontar em 10 segundos quais são as **duas premissas bet-the-company** que, se forem refutadas na próxima semana, obrigam você a mudar a rota imediatamente?
 >
 > **Sua permissão (*estilo Rework*):** Você está autorizado a admitir que tem apenas **30% de confiança** na premissa mais importante do seu negócio hoje. Nomear a dúvida baixa não enfraquece a empresa — ela diz exatamente onde mirar a lanterna na segunda-feira.
