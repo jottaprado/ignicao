@@ -46,7 +46,7 @@
     "vol": "4",
     "code": "C5",
     "from": "MVP não é o produto cortado pela metade, com metade dos botões e metade do design. MVP é um processo obsessivo de validação que se concentra em responder duas perguntas por ciclo.",
-    "to": "MVP é o experimento mais barato que testa a hipótese mais arriscada da vez; na Fase 11 ele já assume a forma de software funcional em produção, focado em responder duas perguntas por ciclo."
+    "to": "MVP é o experimento mais enxuto capaz de validar a incerteza crítica da vez; na Fase 11 ele já assume a forma de software confiável em produção, concentrado em responder duas perguntas por ciclo."
   },
   {
     "id": "1387",
@@ -284,7 +284,7 @@
     "vol": "4",
     "code": "C3",
     "from": "Microsoft (onde rodou + 200k experimentos)",
-    "to": "Microsoft (onde liderou a plataforma de experimentação em larga escala da empresa, documentada em *Trustworthy Online Controlled Experiments*)"
+    "to": "Microsoft (onde liderou a plataforma de experimentação controlada em larga escala da empresa)"
   },
   {
     "id": "1431",
@@ -340,14 +340,14 @@
     "vol": "4",
     "code": "N7",
     "from": "O framework virou o padrão de facto de métricas early-stage em aceleradoras e fundos de venture capital global, incluindo YC, Antler e os principais VCs brasileiros.",
-    "to": "O modelo AARRR difundiu-se amplamente na literatura de produto e growth (como em *Lean Analytics*, de Croll e Yoskovitz, 2013), e o formato visual em tela única usado aqui (Pirate Canvas) é uma adaptação prática para organizar métricas, canais e hipóteses lado a lado."
+    "to": "A divisão nas cinco etapas difundiu-se na literatura de produto e growth (como em *Lean Analytics*, de Alistair Croll e Benjamin Yoskovitz, 2013), e o quadro visual adotado neste volume é uma adaptação prática do autor para inspecionar o ciclo completo em uma folha única."
   },
   {
     "id": "1448",
     "vol": "4",
     "code": "S4",
     "from": "Use o Pirate Canvas na Fase 10 (MVP e primeiros usuários) como estrutura padrão de instrumentação de métricas.",
-    "to": "Use o Pirate Canvas nesta Fase 11 (MVP e primeiros usuários) como estrutura padrão de instrumentação de métricas (e mais adiante, na Fase 15, no Vol. 6, para orientar a divisão de orçamento por etapa do funil)."
+    "to": "Use o Pirate Canvas nesta Fase 11 (MVP e primeiros usuários) como estrutura padrão de instrumentação de métricas, e retome-o na Fase 15 (Vol. 6, máquina comercial e escala) para distribuir o investimento entre aquisição, ativação e retenção."
   },
   {
     "id": "1450",
@@ -459,7 +459,7 @@
     "vol": "4",
     "code": "C5",
     "from": "A diluição típica de founder em trajetória SaaS brasileira: oitenta por cento (Seed), depois cinquenta e nove por cento (Série A), depois quarenta e um por cento (Série B)",
-    "to": "A participação retida pelos fundadores nesta trajetória ilustrativa: 80% após o Seed, 59% após a Série A, 41% após a Série B e cerca de 20% a 30% na Série C ou D"
+    "to": "A participação retida pelos fundadores nesta trajetória ilustrativa de SaaS: oitenta por cento (Seed), depois cinquenta e nove por cento (Série A), depois quarenta e um por cento (Série B)"
   },
   {
     "id": "1483",
@@ -473,7 +473,7 @@
     "vol": "4",
     "code": "C3",
     "from": "Graham aponta um calculador público (aord.io/calc) útil para o cálculo mecânico.",
-    "to": "No ensaio original de 2015, Graham indica a calculadora pública criada por Trevor Blackwell (growth.tlb.org), mas uma planilha simples de fluxo de caixa mensal resolve o cálculo."
+    "to": "No ensaio original de 2015, Graham indica a calculadora pública criada por Trevor Blackwell (growth.tlb.org) para facilitar a conta mecânica."
   },
   {
     "id": "1485",
@@ -578,7 +578,7 @@
     "vol": "4",
     "code": "S4",
     "from": "**Fase 11 e Fase 12 medem dimensões independentes**, não etapas sequenciais: Fase 11 valida *modelo viável*, Fase 12 valida *produto amado pelo mercado*.",
-    "to": "**A Fase 12 e a Fase 13 medem dimensões independentes**: a Fase 12 valida um *modelo economicamente viável*, enquanto a Fase 13 valida um *produto amado pelo mercado (PMF)*. Quatro cenários no fim da Fase 12 orientam a sequência:"
+    "to": "**A Fase 12 e a Fase 13 medem dimensões independentes**, não etapas sequenciais: a Fase 12 valida *modelo viável* e a Fase 13 valida *produto amado pelo mercado (PMF)*."
   },
   {
     "id": "1504",
@@ -1012,7 +1012,7 @@
     "vol": "4",
     "code": "E1",
     "from": "Isso não é ICP. É um segmento de mercado. ICP é mais preciso.",
-    "to": "\"PMEs do setor industrial\" descreve apenas um segmento amplo; o ICP recorta a interseção exata de atributos que preveem compra rápida e retenção alta."
+    "to": "Esses rótulos descrevem apenas um segmento de mercado amplo; o ICP exige um recorte mais preciso de oito atributos combinados."
   },
   {
     "id": "1599",
@@ -1068,7 +1068,7 @@
     "vol": "4",
     "code": "C1",
     "from": "E-mail frio tem taxa de abertura de 10–15%. Mas WhatsApp tem taxa de abertura acima de 80%.",
-    "to": "Na prática de prospecção B2B no Brasil (onde a taxa de abertura de e-mail perdeu precisão desde o bloqueio de pixels da Apple em 2021, importando medir a taxa de resposta efetiva, que costuma ficar entre 1% e 5% no e-mail frio), abordagens coordenadas que incluem WhatsApp alcançam leitura e taxa de resposta substancialmente superiores."
+    "to": "Desde a proteção de privacidade do Apple Mail (2021), a taxa de abertura de e-mail deixou de ser um indicador confiável; na prospecção B2B, o que importa é o retorno efetivo do decisor, que no e-mail frio raramente passa de 1% a 5%, enquanto abordagens estruturadas no WhatsApp obtêm leitura e engajamento muito superiores."
   },
   {
     "id": "1609",
@@ -1418,7 +1418,7 @@
     "vol": "4",
     "code": "C3",
     "from": "Em B2C com ticket de R$ 100 por mês (SaaS ou assinatura), um CAC acima de R$ 300 é difícil de justificar sem LTV de pelo menos R$ 1.200 (payback em 12 meses).",
-    "to": "Em uma assinatura B2C com mensalidade de R$ 100 e margem bruta de 70% (gerando R$ 70 de margem mensal), um CAC de R$ 350 leva 5 meses para se pagar (e o teto de 12 meses de payback exigiria CAC máximo de R$ 840 e LTV acima de R$ 2.500). Já em B2B com contrato anual de R$ 60.000 (R$ 5.000/mês) e 80% de margem bruta (R$ 4.000/mês), um CAC de R$ 8.000 se paga em apenas 2 meses, havendo espaço para CAC de até R$ 48.000 se a meta de payback for de 12 meses."
+    "to": "Em B2C com ticket de R$ 100 por mês e 70% de margem bruta (R$ 70 mensais de contribuição), investir R$ 350 por novo cliente se paga em 5 meses, enquanto o teto de payback em 12 meses comporta CAC até R$ 840 (desde que o LTV passe de R$ 2.520; da mesma forma, numa venda corporativa de R$ 5 mil mensais com 80% de margem, 18 meses de recuperação equivalem a até R$ 72 mil por conta conquistada)."
   },
   {
     "id": "1692",
@@ -1432,7 +1432,7 @@
     "vol": "4",
     "code": "C3",
     "from": "Aumentar budget mais de 20% por semana (ou 30% por mês) coloca campanhas em modo de reaprendizado",
-    "to": "Pela heurística clássica de gestores de tráfego (baseada na documentação da Meta sobre edições significativas), elevar o orçamento em saltos bruscos (acima de 20% de uma só vez a cada poucos dias) costuma reiniciar a fase de aprendizado"
+    "to": "Pela regra de bolso dos gestores de tráfego (inspirada nos guias da Meta sobre edições significativas), subir o orçamento em saltos acima de 20% de uma só vez a cada poucos dias coloca as campanhas em modo de reaprendizado"
   },
   {
     "id": "1694",
@@ -1502,7 +1502,7 @@
     "vol": "4",
     "code": "C3",
     "from": "Nubank cobra mais que banco convencional em alguns produtos porque a relação emocional com o cliente justifica.",
-    "to": "A marca reduz o custo de aquisição e sustenta margens melhores: enquanto o Nubank usou a força da marca e a isenção de tarifas para crescer por indicação orgânica com CAC mínimo, marcas com posicionamento técnico exclusivo (como a clínica da Dra. Camila ou a Apple no consumo) cobram prêmio de preço sem perder demanda."
+    "to": "Enquanto o Nubank usou a reputação da marca e a isenção de tarifas para crescer por indicação orgânica com CAC mínimo, negócios de posicionamento diferenciado (como a clínica da Dra. Camila ou a Apple em eletrônicos) cobram valores superiores à média do setor porque a confiança do cliente sustenta a escolha."
   },
   {
     "id": "1708",
@@ -1516,7 +1516,7 @@
     "vol": "4",
     "code": "C5",
     "from": "O conceito de Jobs to be Done (JTBD) foi originado por Tony Ulwick (Strategyn, 1990)",
-    "to": "A abordagem de *Jobs to be Done* (JTBD) desenvolveu-se ao longo dos anos 1990 (com raízes no método de *Outcome-Driven Innovation* formulado por Tony Ulwick em 1991, visto no Vol. 2, e nas pesquisas de Bob Moesta e Rick Pedi) antes de ser popularizada por Clayton Christensen em *The Innovator's Solution* (2003)"
+    "to": "O conceito de Jobs to be Done (JTBD) amadureceu nos anos 1990, tendo entre seus pioneiros Tony Ulwick (com o método de *Outcome-Driven Innovation*, de 1991, visto no Vol. 2) e Bob Moesta, sendo depois sistematizado"
   },
   {
     "id": "1712",
@@ -1782,7 +1782,7 @@
     "vol": "4",
     "code": "N5",
     "from": "Abra o seu CRM agora e apague (ou mova para arquivo morto) toda oportunidade que esteja parada há mais de 45 dias",
-    "to": "Toda segunda-feira, reserve 30 minutos para higienizar o CRM: filtre toda oportunidade parada há mais de 30 dias sem próximo passo datado e marque-a como perdida registrando o motivo real (preservando o histórico para calcular taxas de conversão e precisão de forecast)"
+    "to": "Toda segunda-feira, dedique 30 minutos à higiene do seu CRM: filtre e marque como perdida (registrando o motivo real para preservar o histórico de conversão e forecast, sem jamais apagar o registro) toda oportunidade parada há mais de 30 dias"
   },
   {
     "id": "1770",
@@ -1838,7 +1838,7 @@
     "vol": "4",
     "code": "N7",
     "from": "Startups que criam valor, mas capturam pouco, são absorvidas por quem captura bem (classical Porter).",
-    "to": "Startups que geram enorme utilidade para o usuário, mas não constroem mecanismo de captura de valor (distinção formalizada por Adam Brandenburger e Harborne Stuart em *Value-Based Business Strategy*, 1996), acabam financiando o lucro de quem controla a distribuição."
+    "to": "Startups que criam valor para o usuário, mas retêm uma fração mínima do benefício gerado (distinção formalizada por Adam Brandenburger e Harborne Stuart em *Value-Based Business Strategy*, 1996), acabam absorvidas ou espremidas por quem controla a distribuição."
   },
   {
     "id": "1783",
@@ -1852,7 +1852,7 @@
     "vol": "4",
     "code": "C3",
     "from": "As curvas em sino são \"aceitável\", e \"bom negócio\".",
-    "to": "No método original de Van Westendorp, as quatro curvas são acumuladas e monotônicas: \"caro\" e \"caro demais\" sobem com o preço, enquanto \"barato\" (bom negócio) e \"barato demais\" descem; o ponto de preço ótimo (OPP) fica no cruzamento de \"barato demais\" com \"caro demais\", e a faixa aceitável fica entre o ponto marginalmente barato e o marginalmente caro."
+    "to": "No método clássico de Van Westendorp, todas as quatro linhas acumuladas são monotônicas (e não em sino): a de \"caro\" (aceitável no limite superior) também sobe com o preço, enquanto a de \"barato\" (bom negócio) desce."
   },
   {
     "id": "1786",
@@ -2153,7 +2153,7 @@
     "vol": "4",
     "code": "C1",
     "from": "Empresas com NPS acima de 50 e adoção acima de 70% de seats têm taxa de renovação de 90%+.",
-    "to": "Contas que chegam ao trimestre de renovação com satisfação alta e uso ativo na maioria das licenças contratadas renovam em sua grande maioria sem atrito; quando a renovação vira disputa de última hora, o problema começou meses antes na adoção."
+    "to": "Contas que chegam ao fim do ciclo com satisfação elevada e uso ativo na maioria das licenças contratadas costumam renovar o contrato quase integralmente sem atrito comercial."
   },
   {
     "id": "1866",
@@ -2174,7 +2174,7 @@
     "vol": "4",
     "code": "C3",
     "from": "O CES foi desenvolvido pelo Corporate Executive Board e tem correlação comprovada com churn: clientes que relatam alto esforço (nota 1-3) têm probabilidade 4x maior de churn",
-    "to": "Formulado por Matthew Dixon, Karen Freeman e Nicholas Toman no estudo do Corporate Executive Board publicado na *Harvard Business Review* (*Stop Trying to Delight Your Customers*, 2010) e atualizado no CES 2.0 com escala direta de 1 (muito difícil) a 7 (muito fácil), o índice mostrou que clientes submetidos a alto esforço de atendimento declaram intenção de deslealdade muito superior (96%, contra 9% nos fluxos de baixo esforço)"
+    "to": "Formulado por Matthew Dixon, Karen Freeman e Nicholas Toman no estudo do Corporate Executive Board publicado na *Harvard Business Review* (*Stop Trying to Delight Your Customers*, 2010) e atualizado no CES 2.0 em escala crescente de concordância, o indicador mostrou que usuários submetidos a alto esforço (nota 1-3) declaram intenção de deslealdade de 96% (contra apenas 9% na ponta oposta), muito maior"
   },
   {
     "id": "1869",
@@ -2335,7 +2335,7 @@
     "vol": "4",
     "code": "C5",
     "from": "Mesmo time, mesma tese de marketplace de mobilidade, problema diferente. Customer pivot mais value pivot combinados.",
-    "to": "Mesmo time e mesma base logística de geolocalização, aplicados a um problema diferente do mesmo ecossistema urbano: um *problem pivot* combinado a *customer pivot* (de transporte de passageiros para entregas expressas de documentos e e-commerce; já casos como o do Burbn para o Instagram ilustram um *solution pivot* do tipo *zoom-in* numa única função do aplicativo)."
+    "to": "Mesmo time, mesma tese de marketplace de mobilidade urbana, problema diferente: um *problem pivot* combinado a *customer pivot* (saindo de caronas individuais para despachos corporativos e pacotes; já casos como a mudança do Burbn para o Instagram ilustram um *solution pivot* do tipo *zoom-in* numa única função do produto)."
   },
   {
     "id": "1907",

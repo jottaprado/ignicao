@@ -686,7 +686,7 @@ Insights emergentes:
 
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
-Perguntas fechadas excessivas: vira survey verbal, perde nuance, Facilitador falando demais: mantenha a proporção de 80/20 (o participante fala 80% do tempo e você 20%, intervindo apenas para aprofundar histórias), Roteiro rígido: recusar seguir thread emergente rica. Flexibilidade importa, Analisar sem transcrever: confiar em memória, perde quotes específicos, Generalização prematura: 3 entrevistas concordam em X, 20 entrevistadas revelam muito mais diversidade, Viés de recência: lembrar da última entrevista, análise enviesada.
+Perguntas fechadas excessivas: vira survey verbal, perde nuance, facilitador falando demais: mantenha a regra de 80/20 (o participante fala 80% do tempo e você 20%, intervindo só para puxar histórias), Roteiro rígido: recusar seguir thread emergente rica. Flexibilidade importa, Analisar sem transcrever: confiar em memória, perde quotes específicos, Generalização prematura: 3 entrevistas concordam em X, 20 entrevistadas revelam muito mais diversidade, Viés de recência: lembrar da última entrevista, análise enviesada.
 
 ---
 
@@ -993,7 +993,7 @@ A tese é que comportamento humano é resultado da tensão entre **estímulos** 
 
 ##### O momento exato de colocar este canvas na parede
 
-Use o Empathy Map na Fase 4 (descoberta do problema) como complemento ao Mom Test e na Fase 5 (pesquisa com usuários) para construir o Customer Profile do VPC: entrevistas de problema capturam comportamento passado; o Empathy Map captura **o universo emocional e contextual** que cerca esse comportamento. Use também na Fase 4 (pesquisa) para construir o Customer Profile do VPC (Fase 5) com profundidade emocional. Em times de produto maduros, faça Empathy Map de cada persona principal a cada 12 meses: clientes mudam, e o mapa fica datado.
+Use o Empathy Map durante a Fase 4 (descoberta do problema, logo antes da Fase 5) como complemento ao Mom Test: entrevistas de problema capturam comportamento passado; o Empathy Map captura **o universo emocional e contextual** que cerca esse comportamento. Use também na Fase 4 (pesquisa) para construir o Customer Profile do VPC (Fase 5) com profundidade emocional. Em times de produto maduros, faça Empathy Map de cada persona principal a cada 12 meses: clientes mudam, e o mapa fica datado.
 
 ##### As regras de ouro para preencher sem se enganar
 
@@ -1558,7 +1558,7 @@ Premissas que a pessoa identificou como *críticas e não triviais*:
 #### Template: Síntese de Rodada de Entrevistas (decisão de avanço)
 
 > [!important] Disciplina central
-> Este não é registro de conversa: é o artefato em que o agregado de entrevistas vira decisão. É aqui que a frase "5 pessoas disseram isso" vira "o problema existe, neste recorte, com esta dor, e devemos perseverar": ou o contrário. Nenhuma entrevista individual é suficiente para essa decisão; faça sínteses parciais a cada lote de cinco conversas para calibrar o roteiro, mas só feche o veredito de perseverar ou pivotar quando a rodada inteira terminar. Consolide só quando a rodada terminou.
+> Este não é registro de conversa: é o artefato em que o agregado de entrevistas vira decisão. É aqui que a frase "5 pessoas disseram isso" vira "o problema existe, neste recorte, com esta dor, e devemos perseverar": ou o contrário. Nenhuma entrevista individual é suficiente para essa decisão; faça rascunhos parciais a cada lote de cinco conversas apenas para ajustar o roteiro, deixando o veredito definitivo para o encerramento da bateria de entrevistas. Consolide só quando a rodada terminou.
 
 A **Síntese de Rodada de Entrevistas** é o entregável da Fase 4 que sustenta o Mapa de Problemas e a decisão de avanço. Conduza a consolidação em reunião de time (2 a 4 pessoas, duração de 2 a 4 horas) após fechar a rodada, com todas as sínteses individuais abertas na mesa: entrevistas de problema, entrevistas de troca (quando já houver) e, se aplicável, conversas com especialistas do setor. A decisão final registrada aqui tem mais autoridade do que qualquer conversa isolada.
 
@@ -1801,7 +1801,7 @@ Ao concluir a Fase 4, você substitui palpites por três ativos auditáveis: o M
 
 A diferença entre quem faz certo e quem falha está numa disciplina simples, e quase sempre violada: não falar da solução, só escutar. No momento em que você menciona a solução, o cliente passa a reagir à ideia em vez de descrever a realidade. E você perde a evidência limpa. Aplicar o Mom Test com rigor: perguntar sobre a vida específica do cliente, sobre momentos concretos em que o problema apareceu, sobre o que ele já faz para resolver hoje: é o que separa entrevista útil de entrevista que confirma viés.
 
-O entregável é o Mapa de Problemas: lista de entrevistados com Pain Level atribuído, padrões de dor ranqueados por frequência e intensidade, e dados reais de entrevistas (verbatim, tentativas de solução, custo atual). Se você chegar ao fim com a formulação do problema idêntica à de partida, desconfie e audite se filtrou as conversas (confirmar a hipótese inicial na íntegra é possível, mas raro na primeira rodada): filtrou as conversas para confirmar o que queria ouvir. A Fase 4 bem-feita produz mudança na própria formulação do problema. A [[#FASE 5 — PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY)|Fase 5]] vai usar esse Mapa para estruturar o conhecimento em Jobs to be Done e identificar o progresso que o cliente está tentando fazer.
+O entregável é o Mapa de Problemas: lista de entrevistados com Pain Level atribuído, padrões de dor ranqueados por frequência e intensidade, e dados reais de entrevistas (verbatim, tentativas de solução, custo atual). Se a formulação do problema sair idêntica à de partida, desconfie (confirmar a hipótese inicial na íntegra é possível, mas raro na primeira rodada) e verifique se você caiu na armadilha mais comum: filtrou as conversas para confirmar o que queria ouvir. A Fase 4 bem-feita produz mudança na própria formulação do problema. A [[#FASE 5 — PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY)|Fase 5]] vai usar esse Mapa para estruturar o conhecimento em Jobs to be Done e identificar o progresso que o cliente está tentando fazer.
 
 ---
 
@@ -2090,7 +2090,7 @@ A pergunta central: "Me leva para a última vez que você precisou reabastecer o
 
 A resposta bruta de Fábio, dono de três padarias na Zona Oeste de São Paulo (dentro do ICP refinado na Fase 4):
 
-> "Foi terça passada. O João, gerente da loja 2, me mandou áudio de WhatsApp às 7h. 'Farinha T1 tá acabando, dá pra hoje só.' Eu tava no carro indo pra loja 3. Liguei pro fornecedor habitual, a Distribuidora Serrana, e a atendente disse que só entregaria na quinta. Aí acionei nosso plano B, o Marcos do Moinho da Vila Aí liguei pro nosso plano B, o João do Moinho da Serra, que trouxe em quatro horas mas cobrou quinze por cento mais caro. No fim a gente fez a semana, mas o dia 2 foi estresse total, eu tinha três reuniões e tive que virar comprador. Isso acontece umas duas a três vezes por mês, depende. Agora, pra evitar, o gerente geralmente pede mais do que precisa, aí sobra farinha mofando no sábado e a gente perde 200-300 reais por semana. Tô trocando perda por perda."
+> "Foi terça passada. O João, gerente da loja 2, me mandou áudio de WhatsApp às 7h. 'Farinha T1 tá acabando, dá pra hoje só.' Eu tava no carro indo pra loja 3. Liguei pro fornecedor habitual, a Distribuidora Serrana, distribuidor regional, e a moça disse que entrega só quinta. Aí liguei pro nosso plano B, o João do Moinho da Serra, que trouxe em quatro horas mas cobrou quinze por cento mais caro. No fim a gente fez a semana, mas o dia 2 foi estresse total, eu tinha três reuniões e tive que virar comprador. Isso acontece umas duas a três vezes por mês, depende. Agora, pra evitar, o gerente geralmente pede mais do que precisa, aí sobra farinha mofando no sábado e a gente perde 200-300 reais por semana. Tô trocando perda por perda."
 
 A análise JTBD da resposta. O job funcional é garantir continuidade de produção sem interrupção. O job emocional é não ser o operador de última hora que apaga incêndio, e não transmitir estresse para a equipe. O job social é ser visto como dono que tem o negócio sob controle pelo gerente e pelos clientes. O contexto: acontece de duas a três vezes por mês, interrompe o foco executivo do dono e mobiliza duas a três pessoas da operação. A solução atual combina três peças improvisadas: áudio de WhatsApp do gerente, ligação de emergência para o distribuidor e acionamento de um fornecedor reserva quinze por cento mais caro. E o "trade de perda por perda" é o ponto-chave. Ou paga mais caro (plano B), ou desperdiça (excesso). Não há caminho sem perda.
 
@@ -2525,7 +2525,7 @@ Implicação: produto que resolve fragmentação (visão única) atacaria dor do
 
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
-Prompt longo demais: dropouts aumentam rapidamente com fadiga, Sem moderação: participantes param de responder após dia 3-4, Análise sem triangulação: confiar apenas no diário de uso; cruze sempre os registros com entrevistas em profundidade, Amostra pequena demais: 3-5 participantes com dropouts = dados quase inúteis, Prompt enviesado: "você teve problemas?" sugere resposta. Neutro: "como foi sua experiência?".
+Prompt longo demais: dropouts aumentam rapidamente com fadiga, Sem moderação: participantes param de responder após dia 3-4, análise sem triangulação: confiar só no diário de uso, sem cruzar os registros com entrevistas individuais em profundidade, Amostra pequena demais: 3-5 participantes com dropouts = dados quase inúteis, Prompt enviesado: "você teve problemas?" sugere resposta. Neutro: "como foi sua experiência?".
 
 ---
 
@@ -2620,7 +2620,7 @@ Passo 1: Escolha persona + momento específico.
 
 Passo 2: Equipe preenche cada quadrante com dados de entrevistas, observações.
 
-Passo 3: Discuta contradições**: o que usuário **diz** vs. o que **pensa**, o que **faz** vs. o que diz fazer. Gap é insight.
+**Passo 3: Discuta contradições**: o que usuário **diz** vs. o que **pensa**, o que **faz** vs. o que diz fazer. Gap é insight.
 
 Passo 4: Identifique oportunidades: endereçar dor, potencializar ganho.
 
@@ -2812,7 +2812,7 @@ Exemplo: "Quando estou fechando o mês, quero conferir meu fluxo de caixa em seg
 
 Passo 2: Identifique jobs via switch interviews (Framework: Jobs to Be Done Switch Interviews (Bob Moesta & Chris Spiek, via Clayton Christensen) (Fase 5)) + observação + análise de concorrência ampla.
 
-Passo 3: Priorize jobs por importância × satisfação**: ODI de Ulwick mede cada outcome em 2 dimensões: importance (1-5) + satisfaction com soluções atuais (1-5). Jobs importantes + insatisfeitos = oportunidade.
+**Passo 3: Priorize jobs por importância × satisfação**: ODI de Ulwick mede cada outcome em 2 dimensões: importance (1-5) + satisfaction com soluções atuais (1-5). Jobs importantes + insatisfeitos = oportunidade.
 
 Passo 4: Desenhe produto para fazer o job melhor, não apenas adicionar features.
 
@@ -3961,7 +3961,7 @@ Análise superficial: "rivalidade é alta" sem mapear quantos competidores, mark
 
 ##### De onde vem a ferramenta (e por que sobreviveu ao filtro do tempo)
 
-SWOT (Strengths, Weaknesses, Opportunities, Threats) emergiu de pesquisa conduzida no Stanford Research Institute entre 1960 e 1970, em estudo de planejamento estratégico de empresas da Fortune 500 ligado ao programa Team Action Management. Albert Humphrey é a atribuição mais comum, embora a paternidade seja parcialmente disputada (alguns acadêmicos creditam Smith Jr., Christensen e Andrews em Harvard nos anos 1950). A origem exata é disputada: a atribuição mais repetida liga a ferramenta a Albert Humphrey no SRI (sob a sigla SOFT em 1964), mas pesquisas históricas apontam raízes anteriores nas aulas de política de negócios da Harvard Business School nos anos 1950 e 1960; Urick e Orr renomearam para SWOT em publicação posterior. A variação TOWS foi proposta por Heinz Weihrich em 1982, invertendo a ordem para enfatizar o cruzamento entre fatores internos e externos. Virou uma das ferramentas mais usadas (e mais mal-usadas) de gestão no mundo.
+SWOT (Strengths, Weaknesses, Opportunities, Threats) emergiu de pesquisa conduzida no Stanford Research Institute entre 1960 e 1970, em estudo de planejamento estratégico de empresas da Fortune 500 ligado ao programa Team Action Management. Albert Humphrey é a atribuição mais comum, embora a paternidade seja parcialmente disputada (alguns acadêmicos creditam Smith Jr., Christensen e Andrews em Harvard nos anos 1950). Segundo o relato difundido no SRI (que carece de documento primário e convive com os registros anteriores do curso de Business Policy da HBS), a versão inicial chamava-se SOFT (Satisfactory, Opportunity, Fault, Threat), apresentada em seminário em Zurique em 1964; Urick e Orr renomearam para SWOT em publicação posterior. A variação TOWS foi proposta por Heinz Weihrich em 1982, invertendo a ordem para enfatizar o cruzamento entre fatores internos e externos. Virou uma das ferramentas mais usadas (e mais mal-usadas) de gestão no mundo.
 
 ##### A mecânica central (sem jargão)
 
@@ -4700,7 +4700,7 @@ Stone não venceu fazendo o que Cielo fazia mais barato. Venceu **mudando o que 
 
 ##### Por que este quadro visual foi criado
 
-O Canvas da Cunha é ferramenta autoral desenvolvida para o contexto específico de startups B2B brasileiras que precisam escolher um segmento de entrada estreito antes de escalar. A estratégia de entrar por um submercado específico e dominá-lo antes de expandir vem da cabeça de praia (*beachhead*) e da pista de boliche de Geoffrey Moore (*Crossing the Chasm*, 1991), reforçada pela tese de monopólio de nicho de Peter Thiel (*Zero to One*, 2014): a ideia de que toda startup dominante começou controlando um nicho pequeno e específico antes de expandir. O canvas operacionaliza essa estratégia: força o fundador a articular com precisão *quem* é o cliente do segmento de entrada, *qual* dor específica está sendo resolvida, e *como* o resultado é mensurável. O "Teste do Grupo de WhatsApp", você consegue listar nominalmente 100-300 pessoas específicas como potenciais primeiros clientes?, é o teste de falsificabilidade da cunha: cunha bem definida passa no teste; cunha vaga não passa. O template completo preenchível está no [[#Template: Canvas da Cunha|Template: Canvas da Cunha]].
+O Canvas da Cunha é ferramenta autoral desenvolvida para o contexto específico de startups B2B brasileiras que precisam escolher um segmento de entrada estreito antes de escalar. A tese de conquistar primeiro uma cabeça de praia (*beachhead*) e derrubar um pino de boliche por vez vem de Geoffrey Moore (*Crossing the Chasm*, 1991), sendo reforçada pelo conceito de "cunha" (wedge) de Peter Thiel (*Zero to One*, 2014): a ideia de que toda startup dominante começou controlando um nicho pequeno e específico antes de expandir. O canvas operacionaliza essa estratégia: força o fundador a articular com precisão *quem* é o cliente do segmento de entrada, *qual* dor específica está sendo resolvida, e *como* o resultado é mensurável. O "Teste do Grupo de WhatsApp", você consegue listar nominalmente 100-300 pessoas específicas como potenciais primeiros clientes?, é o teste de falsificabilidade da cunha: cunha bem definida passa no teste; cunha vaga não passa. O template completo preenchível está no [[#Template: Canvas da Cunha|Template: Canvas da Cunha]].
 
 ##### A anatomia visual de uma página
 
@@ -4777,7 +4777,7 @@ O bloco mais trabalhoso foi a **Dor específica**: a primeira versão dizia "dif
 
 ##### Por que este quadro visual foi criado
 
-O mapeamento sistemático dos tipos de efeitos de rede foi popularizado pela NFX (firma de venture capital de San Francisco) a partir de 2018, quando publicaram a taxonomia inicial de 13 tipos de efeitos de rede (posteriormente expandida pelo fundo para 16 categorias) como framework para investidores e founders avaliarem a defensibilidade de modelos de negócio. O trabalho de James Currier e Pete Flint na NFX codificou décadas de observação empírica, de Metcalfe (Ethernet, 1980) a Reed (grupos, 1999), numa estrutura acionável para startups. O Network Effects Map adapta essa taxonomia para formato visual em canvas, com foco brasileiro.
+O mapeamento sistemático dos tipos de efeitos de rede foi popularizado pela NFX (firma de venture capital de San Francisco) a partir de 2018, quando publicaram a taxonomia inicial de 13 tipos de network effects (ampliada anos depois pelo próprio fundo para 16 categorias) como framework para investidores e founders avaliarem a defensibilidade de modelos de negócio. O trabalho de James Currier e Pete Flint na NFX codificou décadas de observação empírica, de Metcalfe (Ethernet, 1980) a Reed (grupos, 1999), numa estrutura acionável para startups. O Network Effects Map adapta essa taxonomia para formato visual em canvas, com foco brasileiro.
 
 ##### A anatomia visual de uma página
 
@@ -5521,7 +5521,7 @@ O ecossistema brasileiro tem fontes específicas que analistas internacionais fr
 
 **CVM (Comissão de Valores Mobiliários):** Empresas de capital aberto publicam relatórios detalhados de desempenho, riscos, e estratégia. Se seu concorrente é listado ou tem debêntures públicas, há mais transparência obrigatória do que você imagina.
 
-**CADE (Conselho Administrativo de Defesa Econômica):** Comunicados de atos de concentração (fusões e aquisições) são públicos. Atos de concentração entre grupos econômicos que superam os pisos legais de faturamento (R$ 750 milhões de um lado e R$ 75 milhões do outro) têm pareceres públicos no site do CADE, úteis para monitorar movimentos de grandes incumbentes do setor.
+**CADE (Conselho Administrativo de Defesa Econômica):** Comunicados de atos de concentração (fusões e aquisições) são públicos. Operações societárias entre grupos econômicos que superam os pisos legais de faturamento anual no país (R$ 750 milhões de um lado e R$ 75 milhões do outro) geram processos públicos no órgão, úteis para vigiar grandes incumbentes do setor (embora raros em aquisições de startups menores).
 
 **Fontes públicas oficiais (PNCP, INPI, Juntas e Bibliotecas de Anúncios):** Contratos e editais públicos podem ser consultados no Portal Nacional de Contratações Públicas (PNCP, Lei 14.133/2021) e no Portal da Transparência; pedidos de registro de marca saem na Revista da Propriedade Industrial (RPI) do INPI; alterações societárias ficam nas juntas comerciais; e campanhas pagas ativas aparecem na Biblioteca de Anúncios da Meta e na Central de Transparência de Anúncios do Google.
 
@@ -5973,7 +5973,7 @@ Caso: Easy Taxi (fundada em 2011, teve sua operação incorporada pela Cabify em
 
 #### Padrão 2: Confundir tração inicial com PMF sustentável
 
-Caso: Peixe Urbano e o modelo de compras coletivas (fundada em 2010, teve pico entre 2011 e 2013 e manteve operação até 2020, em trajetória paralela ao Caso: Easy Taxi (fundada em 2011, incorporada pela Cabify em 2017).). O padrão típico do Padrão 2 é confundir tração inicial explosiva com PMF sustentável. Descontos massivos atraem caçadores de cupom, não cliente recorrente, retenção de parceiros despenca, unit economics degradam com escala. O que parecia PMF era novidade mais agressividade mais capital barato. PMF real exige retenção estável em coortes diferentes, não apenas aquisição crescente. Cada categoria de "explosão repentina" dos últimos quinze anos (daily deals, QR code payments, social commerce, cursos online massivos, ciclos de fintech) teve sua fase de "parece PMF mas não é". Caso analisado em profundidade no [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 19 — POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE|Capítulo 19 (Post-Mortems Brasileiros: Catálogo de Casos em Profundidade) (Vol. 9)]].
+Caso: Peixe Urbano e o modelo de compras coletivas (fundada em 2010, teve pico entre 2011 e 2013 e manteve operação até 2020, em trajetória paralela ao Caso: Easy Taxi (fundada em 2011, incorporada pela Cabify em 2017). O padrão típico do Padrão 2 é confundir tração inicial explosiva com PMF sustentável. Descontos massivos atraem caçadores de cupom, não cliente recorrente, retenção de parceiros despenca, unit economics degradam com escala. O que parecia PMF era novidade mais agressividade mais capital barato. PMF real exige retenção estável em coortes diferentes, não apenas aquisição crescente. Cada categoria de "explosão repentina" dos últimos quinze anos (daily deals, QR code payments, social commerce, cursos online massivos, ciclos de fintech) teve sua fase de "parece PMF mas não é". Caso analisado em profundidade no [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 19 — POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE|Capítulo 19 (Post-Mortems Brasileiros: Catálogo de Casos em Profundidade) (Vol. 9)]].
 
 > [!warning] Testes de PMF real vs falso
 > Curva de retenção em coortes de três a seis meses estabiliza? (Se não: falso PMF.) Cliente volta sem campanha, desconto ou promoção ativa? (Se não: falso PMF.) Se pausar aquisição paga, crescimento orgânico continua? (Se não: falso PMF.) Unit economics melhoram com volume ou pioram? (Se pioram: falso PMF.)

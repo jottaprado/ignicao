@@ -291,7 +291,7 @@
     "vol": "2",
     "code": "C5",
     "from": "Facilitador falando muito: regra de 70/30 (participante/você)",
-    "to": "Facilitador falando demais: mantenha a proporção de 80/20 (o participante fala 80% do tempo e você 20%, intervindo apenas para aprofundar histórias)"
+    "to": "facilitador falando demais: mantenha a regra de 80/20 (o participante fala 80% do tempo e você 20%, intervindo só para puxar histórias)"
   },
   {
     "id": "614",
@@ -312,7 +312,7 @@
     "vol": "2",
     "code": "C5",
     "from": "Use o Empathy Map na Fase 3 (descoberta) como complemento ao Mom Test",
-    "to": "Use o Empathy Map na Fase 4 (descoberta do problema) como complemento ao Mom Test e na Fase 5 (pesquisa com usuários) para construir o Customer Profile do VPC"
+    "to": "Use o Empathy Map durante a Fase 4 (descoberta do problema, logo antes da Fase 5) como complemento ao Mom Test"
   },
   {
     "id": "627",
@@ -354,7 +354,7 @@
     "vol": "2",
     "code": "C5",
     "from": "nenhuma consolidação feita **antes** da rodada fechar é confiável, porque viesa as entrevistas restantes.",
-    "to": "faça sínteses parciais a cada lote de cinco conversas para calibrar o roteiro, mas só feche o veredito de perseverar ou pivotar quando a rodada inteira terminar."
+    "to": "faça rascunhos parciais a cada lote de cinco conversas apenas para ajustar o roteiro, deixando o veredito definitivo para o encerramento da bateria de entrevistas."
   },
   {
     "id": "638",
@@ -375,7 +375,7 @@
     "vol": "2",
     "code": "C5",
     "from": "Quem chega ao fim com formulação do problema idêntica à de partida não validou nada",
-    "to": "Se você chegar ao fim com a formulação do problema idêntica à de partida, desconfie e audite se filtrou as conversas (confirmar a hipótese inicial na íntegra é possível, mas raro na primeira rodada)"
+    "to": "Se a formulação do problema sair idêntica à de partida, desconfie (confirmar a hipótese inicial na íntegra é possível, mas raro na primeira rodada) e verifique se você caiu na armadilha mais comum"
   },
   {
     "id": "644",
@@ -529,7 +529,7 @@
     "vol": "2",
     "code": "C4",
     "from": "Liguei pro fornecedor, Anaconda, distribuidor regional, e a moça disse que entrega só quinta.",
-    "to": "Liguei pro fornecedor habitual, a Distribuidora Serrana, e a atendente disse que só entregaria na quinta. Aí acionei nosso plano B, o Marcos do Moinho da Vila"
+    "to": "Liguei pro fornecedor habitual, a Distribuidora Serrana, distribuidor regional, e a moça disse que entrega só quinta."
   },
   {
     "id": "672",
@@ -655,7 +655,7 @@
     "vol": "2",
     "code": "E9",
     "from": "Análise sem triangulação: confiar só em diary, combinar com IDIs finalmente",
-    "to": "Análise sem triangulação: confiar apenas no diário de uso; cruze sempre os registros com entrevistas em profundidade"
+    "to": "análise sem triangulação: confiar só no diário de uso, sem cruzar os registros com entrevistas individuais em profundidade"
   },
   {
     "id": "703",
@@ -1061,7 +1061,7 @@
     "vol": "2",
     "code": "N7",
     "from": "O framework original chamava-se SOFT (Satisfactory, Opportunity, Fault, Threat), apresentado em seminário em Zurique em 1964",
-    "to": "A origem exata é disputada: a atribuição mais repetida liga a ferramenta a Albert Humphrey no SRI (sob a sigla SOFT em 1964), mas pesquisas históricas apontam raízes anteriores nas aulas de política de negócios da Harvard Business School nos anos 1950 e 1960"
+    "to": "Segundo o relato difundido no SRI (que carece de documento primário e convive com os registros anteriores do curso de Business Policy da HBS), a versão inicial chamava-se SOFT (Satisfactory, Opportunity, Fault, Threat), apresentada em seminário em Zurique em 1964"
   },
   {
     "id": "790",
@@ -1166,7 +1166,7 @@
     "vol": "2",
     "code": "N7",
     "from": "O conceito de \"cunha\" (wedge) vem da escola de go-to-market de Peter Thiel (*Zero to One*, 2014)",
-    "to": "A estratégia de entrar por um submercado específico e dominá-lo antes de expandir vem da cabeça de praia (*beachhead*) e da pista de boliche de Geoffrey Moore (*Crossing the Chasm*, 1991), reforçada pela tese de monopólio de nicho de Peter Thiel (*Zero to One*, 2014)"
+    "to": "A tese de conquistar primeiro uma cabeça de praia (*beachhead*) e derrubar um pino de boliche por vez vem de Geoffrey Moore (*Crossing the Chasm*, 1991), sendo reforçada pelo conceito de \"cunha\" (wedge) de Peter Thiel (*Zero to One*, 2014)"
   },
   {
     "id": "817",
@@ -1194,7 +1194,7 @@
     "vol": "2",
     "code": "C5",
     "from": "a partir de 2018, quando publicaram a taxonomia dos 16 tipos de network effects",
-    "to": "a partir de 2018, quando publicaram a taxonomia inicial de 13 tipos de efeitos de rede (posteriormente expandida pelo fundo para 16 categorias)"
+    "to": "a partir de 2018, quando publicaram a taxonomia inicial de 13 tipos de network effects (ampliada anos depois pelo próprio fundo para 16 categorias)"
   },
   {
     "id": "821",
@@ -1404,7 +1404,7 @@
     "vol": "2",
     "code": "C3",
     "from": "Se um concorrente está sendo adquirido ou adquirindo, você sabe antes do anúncio formal.",
-    "to": "Atos de concentração entre grupos econômicos que superam os pisos legais de faturamento (R$ 750 milhões de um lado e R$ 75 milhões do outro) têm pareceres públicos no site do CADE, úteis para monitorar movimentos de grandes incumbentes do setor."
+    "to": "Operações societárias entre grupos econômicos que superam os pisos legais de faturamento anual no país (R$ 750 milhões de um lado e R$ 75 milhões do outro) geram processos públicos no órgão, úteis para vigiar grandes incumbentes do setor (embora raros em aquisições de startups menores)."
   },
   {
     "id": "863",
@@ -1530,7 +1530,7 @@
     "vol": "2",
     "code": "C4",
     "from": "Caso arquetípico, Easy Taxi (2011-2018).",
-    "to": "Caso: Easy Taxi (fundada em 2011, incorporada pela Cabify em 2017)."
+    "to": "caso da Easy Taxi, fundada em 2011 e incorporada pela Cabify em 2017, em contraste com a 99, que lançou o 99Pop e foi adquirida pela Didi em 2018"
   },
   {
     "id": "900",

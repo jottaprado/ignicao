@@ -135,7 +135,7 @@
     "id": "532",
     "vol": 1,
     "from": "O ticket em 2025 e 2026 é de quinhentos mil dólares (cerca de dois milhões e meio de reais) em troca de sete por cento de equity.",
-    "to": "O programa é presencial em San Francisco, e o aporte padrão em 2025 e 2026 soma US$ 500 mil divididos em duas partes: US$ 125 mil em SAFE post-money por 7% de participação e US$ 375 mil em SAFE sem teto (uncapped) com cláusula de nação mais favorecida (MFN), que converte nos termos da próxima rodada."
+    "to": "O programa funciona em formato presencial na Califórnia, e o aporte padrão em 2025 e 2026 soma US$ 500 mil divididos em duas parcelas: US$ 125 mil em SAFE post-money por 7% de equity e US$ 375 mil em SAFE sem teto (uncapped) com cláusula de nação mais favorecida (MFN), que converte nos termos da rodada seguinte."
   },
   {
     "id": "571",
@@ -291,13 +291,13 @@
     "id": "1656",
     "vol": 4,
     "from": "*Casos brasileiros*: Nubank criou páginas para cada tipo de cartão × perfil de renda × cidade.",
-    "to": "*Exemplos no Brasil e no mundo*: Quero Bolsa e Educa Mais Brasil geram páginas para cada combinação de curso, faculdade e cidade, assim como portais automotivos (Webmotors, iCarros) criam páginas de Tabela FIPE por marca, modelo e ano; no setor imobiliário, ZAP e Imovelweb operam páginas por bairro, tipo de imóvel e faixa de preço (e, lá fora, plataformas como a alemã Trivago fazem o mesmo por destino)."
+    "to": "*Exemplos verificáveis (no Brasil e lá fora, como a alemã Trivago)*: Quero Bolsa e Educa Mais Brasil criam páginas por curso, faculdade e cidade, enquanto portais automotivos como Webmotors e iCarros estruturam consultas da Tabela FIPE por marca, modelo e ano."
   },
   {
     "id": "1688",
     "vol": 4,
     "from": "Disponível no Google Ads e GA4 para contas com volume suficiente (mínimo ~3.000 conversões por mês).",
-    "to": "Desde 2023, é o modelo padrão no Google Ads e no GA4, sem exigência de piso mínimo de conversões mensais (os antigos modelos baseados em regras, como primeiro clique, linear, *time decay* e por posição, foram descontinuados no Google Ads e no GA4, restando apenas *data-driven* e último clique nas ferramentas do Google, embora sigam úteis como raciocínio analítico ou em plataformas de terceiros)."
+    "to": "Desde 2023, opera por padrão no Google Ads e GA4 sem piso mínimo de conversões mensais (já que as opções baseadas em regras fixas, como primeiro clique, linear, *time decay* e por posição, foram descontinuadas nessas ferramentas, restando nelas apenas *data-driven* e último clique, embora as demais sigam úteis como raciocínio analítico ou em sistemas de terceiros)."
   },
   {
     "id": "1711",
@@ -345,13 +345,13 @@
     "id": "1818",
     "vol": 4,
     "from": "Regras específicas para SaaS. Lei Complementar 116/2003.",
-    "to": "Regras específicas para SaaS (LC 116/2003, item 1.05, e transição da Reforma Tributária pela EC 132/2023 e LC 214/2025: alíquotas-teste de CBS a 0,9% e IBS a 0,1% em 2026, substituição integral de PIS e Cofins pela CBS em 2027, redução gradual do ISS entre 2029 e 2032 e extinção do ISS em 2033, exigindo cláusula de repasse tributário em contratos plurianuais; ver Capítulo 2 do Vol. 5)."
+    "to": "Regras específicas para SaaS: enquadramento no item 1.05 da Lei Complementar 116/2003 (com recolhimento municipal, em regra, na sede da prestadora, art. 3º) e cronograma da Reforma Tributária (EC 132/2023 e LC 214/2025, com alíquotas-teste de CBS a 0,9% e IBS a 0,1% em 2026, entrada plena da CBS em 2027, transição gradual entre 2029 e 2032 e extinção do tributo municipal em 2033, exigindo cláusula de repasse em contratos plurianuais; ver Capítulo 2 do Vol. 5)."
   },
   {
     "id": "1819",
     "vol": 4,
     "from": "PIS, e COFINS, no regime cumulativo (três vírgula sessenta e cinco por cento, regime cumulativo típico para SaaS MEI, ou Simples)",
-    "to": "O ISS de licenciamento e SaaS é devido, em regra, no município do estabelecimento prestador (LC 116/2003, art. 3º); já PIS e Cofins (até sua substituição pela CBS em 2027) são recolhidos de forma unificada dentro do DAS para optantes do Simples Nacional (LC 123/2006, art. 13; lembrando que CNAEs de desenvolvimento e licenciamento de software são vedados ao MEI), à alíquota combinada de 3,65% no regime cumulativo do Lucro Presumido"
+    "to": "Já PIS e COFINS (vigentes até a virada para o novo tributo federal sobre consumo) entram de forma unificada na guia do DAS para optantes do Simples Nacional (LC 123/2006, art. 13, lembrando que atividades de software são vedadas ao MEI), ou somam 3,65% no regime cumulativo do Lucro Presumido"
   },
   {
     "id": "1844",
@@ -363,7 +363,7 @@
     "id": "1884",
     "vol": 4,
     "from": "Em julho de 2024, o plano foi revertido, e cookies de terceiros foram mantidos com mecanismos de opt-out via Privacy Sandbox. A janela de tres a quatro anos de transicao deu lugar a regime hibrido.",
-    "to": "Em julho de 2024, o plano de bloqueio padrão foi revertido; em abril de 2025, o Google desistiu até mesmo do novo aviso de escolha no Chrome, mantendo os cookies de terceiros sob o controle atual do usuário, e no segundo semestre de 2025 anunciou a aposentadoria das principais APIs de anúncios do Privacy Sandbox (como Topics, Protected Audience e Attribution Reporting). Ainda assim, a transição deixou como legado um regime híbrido de mensuração (nota: o Google Analytics opera com cookies primários no navegador, e não de terceiros)."
+    "to": "Em julho de 2024, o plano foi revertido; em abril de 2025, a empresa desistiu também do aviso adicional de escolha no navegador, mantendo os cookies de terceiros sob a configuração atual do usuário, e em outubro de 2025 encerrou as principais APIs publicitárias do Privacy Sandbox (Topics, Protected Audience e Attribution Reporting). Ainda assim, a janela de três a quatro anos de transição consolidou um regime híbrido de mensuração (vale lembrar que o GA4 opera com cookies primários de primeira parte, e não de terceiros)."
   },
   {
     "id": "1885",
@@ -417,13 +417,13 @@
     "id": "2046",
     "vol": 5,
     "from": "O estado da arte em 2026 reflete decisões acumuladas em tribunais administrativos, e judiciais, sobre se o ganho é \"natureza mercantil\"",
-    "to": "Para o IRPF, o STJ pacificou em setembro de 2024 (Tema Repetitivo 1.226) que o plano de *stock options* oneroso e com risco de mercado não sofre IR na outorga nem no exercício, incidindo apenas imposto sobre ganho de capital na revenda das ações (ver Capítulo 16 do Vol. 6); já para fins previdenciários (INSS), o debate administrativo e judicial segue avaliando caso a caso se o plano tem \"natureza mercantil\""
+    "to": "Para o IRPF, o STJ pacificou em setembro de 2024 (Tema Repetitivo 1.226) que um plano oneroso e com risco de mercado não sofre tributação na outorga nem no exercício da opção, incidindo imposto apenas na alienação posterior das participações (ver Capítulo 16 do Vol. 6); já na esfera previdenciária (INSS), tribunais administrativos e judiciais seguem analisando caso a caso se a estrutura possui \"natureza mercantil\""
   },
   {
     "id": "2054",
     "vol": 5,
     "from": "Confirmado posteriormente pela Lei 13.176/2015.",
-    "to": "O Marco Legal das Startups (Lei Complementar 182/2021) atualizou o art. 61-A da LC 123/2006, ampliou a blindagem patrimonial do investidor (art. 8º) e listou expressamente os instrumentos de aporte de capital que não integram o capital social (art. 5º, como mútuo conversível, contrato de opção de subscrição ou de compra e contrato de participação)."
+    "to": "Posteriormente, o Marco Legal das Startups (LC 182/2021) aperfeiçoou esse dispositivo do Estatuto da Micro e Pequena Empresa, reforçou a blindagem patrimonial do aportador (art. 8º) e listou os instrumentos que não integram o capital social (art. 5º, como mútuo conversível, opção de subscrição e contrato de participação)."
   },
   {
     "id": "2080",
@@ -453,7 +453,7 @@
     "id": "2087",
     "vol": 5,
     "from": "Os royalties pagos pela empresa operacional à holding de IP são despesa dedutível no Lucro Real.",
-    "to": "Atenção: royalties pagos a sócios (pessoa física ou jurídica) ou dirigentes da empresa operacional não são dedutíveis para fins de IRPJ (Lei 4.506/1964, art. 71, parágrafo único, \"d\", e RIR/2018, art. 363, I); se a holding de IP for sócia direta da operacional, a dedução é vedada, e mesmo em estruturas com empresas irmãs exige registro no INPI, propósito negocial comprovado e valores a preço de mercado (além disso, desde janeiro de 2026, a distribuição posterior de dividendos à pessoa física acima de R$ 50 mil mensais por empresa sofre retenção de 10% pela Lei 15.270/2025)."
+    "to": "Atenção: os royalties pagos pela empresa operacional a sócios (PF ou PJ) ou dirigentes não são dedutíveis no Lucro Real (Lei 4.506/1964, art. 71, parágrafo único, \"d\", e RIR/2018, art. 363, I); quando a detentora da marca ou software figura no quadro societário da pagadora, o abatimento é vedado, e mesmo entre sociedades irmãs a operação exige registro no INPI, propósito negocial e valor de mercado (lembrando ainda que, desde janeiro de 2026, o repasse mensal de dividendos acima de R$ 50 mil por fonte pagadora a um mesmo beneficiário individual sofre retenção de 10% na fonte pela Lei 15.270/2025)."
   },
   {
     "id": "2093",
@@ -471,7 +471,7 @@
     "id": "2203",
     "vol": 5,
     "from": "startups com faturamento até R$ 4,8 milhões (MEI e ME) ou até R$ 78 milhões (EPP, com variações)",
-    "to": "startups enquadradas como Microempresa (ME, receita bruta anual de até R$ 360 mil) ou Empresa de Pequeno Porte (EPP, receita bruta anual de até R$ 4,8 milhões, conforme a LC 123/2006, além de MEI quando contemplado na portaria vigente; nota: R$ 78 milhões é o teto do Lucro Presumido, e não do Pronampe)"
+    "to": "startups enquadradas na LC 123/2006 como ME (receita bruta anual de até R$ 360 mil) ou EPP (faturamento anual de até R$ 4,8 milhões, além de MEI quando contemplado na portaria vigente; vale notar que R$ 78 milhões é o limite do Lucro Presumido, e não desta linha)"
   },
   {
     "id": "2204",
@@ -501,7 +501,7 @@
     "id": "2262",
     "vol": 5,
     "from": "para prestar o serviço de despacho aduaneiro e operação portuária em um estado com benefício fiscal de ICMS (como SC, ES ou AL)",
-    "to": "para prestar o serviço de despacho aduaneiro e operação portuária em um estado com benefício fiscal de ICMS, como SC, ES ou AL (atenção ao Tema 520 do STF: o ICMS-importação cabe ao estado onde está domiciliado o destinatário jurídico que dá causa à operação; na importação por conta e ordem, os fiscos estaduais tratam a adquirente como destinatária legal, de modo que usufruir com segurança de benefício portuário de outro estado costuma exigir importação por encomenda pela *trading* ou filial própria estabelecida no estado incentivado, sempre mediante parecer tributário prévio)"
+    "to": "para prestar o serviço de despacho aduaneiro e operação portuária em um estado com benefício fiscal de ICMS, como SC, ES ou AL (atenção ao Tema 520 do STF: o imposto estadual na entrada do exterior cabe à unidade federativa onde está domiciliado o destinatário jurídico que dá causa ao negócio; nessa modalidade contratual, os fiscos estaduais tratam a contratante como destinatária legal, de modo que aproveitar com segurança incentivo portuário de outra UF costuma exigir modalidade por encomenda ou filial própria estabelecida no local incentivado, sempre com parecer tributário prévio)"
   },
   {
     "id": "2269",
@@ -735,7 +735,7 @@
     "id": "2805",
     "vol": 6,
     "from": "por que receber R$ 1,00 ou assinar qualquer papel antes do 11º dia anula o contrato inteiro",
-    "to": "por que cobrar qualquer taxa ou assinar contrato ou pré-contrato de franquia antes de 10 dias da entrega da COF expõe o negócio à anulação"
+    "to": "por que cobrar taxas ou assinar instrumento ou pré-contrato de franquia antes do 11º dia pós-entrega abre a porta para a anulabilidade do negócio"
   },
   {
     "id": "2806",
@@ -849,6 +849,6 @@
     "id": "3091",
     "vol": 6,
     "from": "Todos os seus colaboradores remotos ou híbridos assinaram o **Contrato/Aditivo formal de Teletrabalho na modalidade \"Por Produção ou Tarefa\"**",
-    "to": "Os seus colaboradores remotos ou híbridos assinaram o **Contrato ou Aditivo formal de Teletrabalho** (CLT, arts. 75-B e 75-C), enquadrando na modalidade **\"por produção ou tarefa\"** (art. 62, III, na redação da Lei 14.442/2022) **exclusivamente** aqueles que de fato trabalham por entrega sem horário fixo nem *core hours* obrigatórias, e mantendo **controle formal de jornada** (ponto eletrônico e janelas síncronas contratadas) para todos os demais"
+    "to": "Os seus colaboradores remotos ou híbridos assinaram o **Contrato/Aditivo formal de Teletrabalho** (arts. 75-B e 75-C da legislação trabalhista), mantendo **controle formal de jornada** (registro eletrônico e janelas síncronas combinadas) para quem cumpre rotina de disponibilidade ou *core hours*, e reservando a modalidade **\"Por Produção ou Tarefa\"** (art. 62, III) **exclusivamente** a quem é medido apenas por entrega"
   }
 ]

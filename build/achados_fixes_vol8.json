@@ -46,7 +46,7 @@
     "vol": "8",
     "code": "S7",
     "from": "e se aplica ao cenário típico em que a migração efetivamente acontece. Em ambos os casos, é trivial",
-    "to": "quando a migração inclui classes de ações, ESOP e governança completa. Ainda assim, esse valor representa uma fração pequena do cheque da Série A"
+    "to": "e reflete o escopo completo de uma rodada institucional. Ainda assim, esse desembolso representa pouco perto do cheque captado"
   },
   {
     "id": "3469",
@@ -81,7 +81,7 @@
     "vol": "8",
     "code": "E8",
     "from": "Nos primeiros 12 meses (o cliff (período mínimo antes de começar a adquirir participação)), nada vesta.",
-    "to": "Nos primeiros 12 meses, correspondentes ao período de carência (*cliff*), nenhuma participação se consolida (ao completar o 12º mês, 25% se consolidam de uma vez)."
+    "to": "Nos primeiros 12 meses, o período de carência (*cliff*), nenhuma participação se consolida."
   },
   {
     "id": "3474",
@@ -263,14 +263,14 @@
     "vol": "8",
     "code": "C3",
     "from": "R$ 400K ÷ R$ 6M = 6,67% de participação.",
-    "to": "Pelo método de valuation pré-money fixo no cap de R$ 6M, o investidor converte seus R$ 400 mil a R$ 6M (recebendo 6,25% antes do dinheiro novo) e, após a diluição pelos R$ 2 milhões da Série Seed (20% da empresa pós-rodada), passa a deter cerca de 5,0% do cap table final (ou 6,67% caso o contrato estipule expressamente conversão pelo percentual fixo pós-rodada, diferença matemática que precisa estar escrita na cláusula para evitar a diluição inesperada vista no Volume 5)."
+    "to": "Na conversão pelo teto pré-money, os R$ 400K equivalem inicialmente a 6,25% antes do cheque novo e, após a diluição de 20% pelos novos investidores da rodada, resultam em cerca de 5,0% do quadro societário final (chegando a R$ 400K ÷ R$ 6M = 6,67% apenas se o contrato estipular percentual fixo pós-rodada, distinção que evita a surpresa vista no Volume 5)."
   },
   {
     "id": "3529",
     "vol": "8",
     "code": "C7",
     "from": "Não responde por dívidas, obrigações tributárias, trabalhistas, ou de qualquer natureza da empresa",
-    "to": "Não responde por dívidas, obrigações tributárias, trabalhistas ou de qualquer natureza da empresa, inclusive em recuperação judicial ou desconsideração da personalidade jurídica, salvo em caso de dolo, fraude ou simulação com participação direta do investidor (art. 8º, II, da LC 182/2021), desde que atue apenas em caráter consultivo e sem poder de gerência"
+    "to": "Não responde por dívidas, obrigações tributárias, trabalhistas ou de qualquer natureza da empresa (salvo em caso de dolo, fraude ou simulação com envolvimento do próprio anjo, nos termos do art. 8º, II, da LC 182/2021, desde que mantenha atuação estritamente consultiva e sem poder de gerência)"
   },
   {
     "id": "3530",
@@ -837,7 +837,7 @@
     "vol": "8",
     "code": "C3",
     "from": "com salário diferenciado (pelo menos 40% acima dos subordinados)",
-    "to": "com poder real de gestão e remuneração do cargo de confiança (incluída a gratificação de função, se houver) no mínimo 40% superior ao salário efetivo do próprio cargo (art. 62, II e parágrafo único, da CLT)"
+    "to": "com poder real de gestão e padrão salarial (incluída a gratificação de função, se houver) ao menos 40% acima do salário efetivo do próprio empregado (art. 62, II e parágrafo único)"
   },
   {
     "id": "3675",
@@ -991,7 +991,7 @@
     "vol": "8",
     "code": "N5",
     "from": "garanta SLA máximo de 24 horas para resolução de qualquer queixa pública",
-    "to": "garanta primeira resposta em até 24 horas e solução efetiva em até 5 dias para qualquer queixa no Consumidor.gov.br (plataforma pública oficial da Senacon que reduz a judicialização) e no Reclame Aqui"
+    "to": "garanta primeira resposta em até 24 horas e solução definitiva em até 5 dias úteis para qualquer queixa pública (usando a plataforma oficial da Senacon para desarmar litígios antes do Procon ou do Juizado)"
   },
   {
     "id": "3701",
@@ -1390,14 +1390,14 @@
     "vol": "8",
     "code": "C2",
     "from": "O Decreto 8.420/2015, que regulamentou a lei, estabelece parâmetros para avaliação do programa de integridade.",
-    "to": "O **Decreto 11.129/2022** (que regulamenta a Lei 12.846/2013 e revogou o antigo Decreto 8.420/2015) estabelece nos arts. 56 e 57 os parâmetros oficiais da **Controladoria-Geral da União (CGU)** para avaliação do programa de integridade."
+    "to": "O **Decreto 11.129/2022** (que regulamentou a Lei 12.846/2013 e revogou o antigo Decreto 8.420/2015) estabelece nos arts. 56 e 57 os parâmetros oficiais da **Controladoria-Geral da União (CGU, atual denominação do órgão supervisor)** para avaliação do programa de integridade."
   },
   {
     "id": "3779",
     "vol": "8",
     "code": "C3",
     "from": "Um programa bem estruturado pode reduzir a multa em até dois terços no cálculo das sanções administrativas.",
-    "to": "Na dosimetria da multa administrativa (Decreto 11.129/2022, art. 23, V), a comprovação de um programa de integridade efetivo atua como fator redutor de até 4% a 5% na alíquota da multa, enquanto a redução de até dois terços da multa aplicável decorre especificamente da celebração de **acordo de leniência** (art. 16, § 2º, da Lei 12.846/2013)."
+    "to": "Na dosimetria das sanções administrativas (art. 23, V, do decreto), um programa efetivo reduz a alíquota da multa em até 5 pontos percentuais, enquanto a redução de até dois terços do valor aplicável depende da celebração de **acordo de leniência** (art. 16, § 2º, da Lei Anticorrupção)."
   },
   {
     "id": "3780",
@@ -1516,7 +1516,7 @@
     "vol": "8",
     "code": "N5",
     "from": "Audite todos os contratos de representantes comerciais, despachantes e consultores regulatórios, insira a Cláusula Anticorrupção padrão",
-    "to": "Reserve 15 minutos toda segunda-feira para conferir os pagamentos de comissões comerciais e consultorias da semana anterior contra nota fiscal detalhada e comprovante de entregável lícito, travando qualquer desembolso sem lastro (e inclua como meta do trimestre o aditamento dos contratos de representantes comerciais e despachantes com a Cláusula Anticorrupção padrão"
+    "to": "Reserve 15 minutos toda segunda-feira para revisar os pagamentos a representantes comerciais, despachantes e consultores da semana anterior, travando qualquer repasse sem entregável documentado, e programe no trimestre o aditamento desses contratos para incluir a Cláusula Anticorrupção padrão"
   },
   {
     "id": "3799",

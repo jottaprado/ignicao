@@ -1129,22 +1129,37 @@ function polishProseChunk(s) {
   out = out.replace(/(?<![a-zA-Zà-úÀ-Ú0-9-])(e|de)\s+\1(?![a-zA-Zà-úÀ-Ú0-9-])/g, '$1');
   out = out.replace(/\bCinquenta cinquenta é comum\./g, 'Divisão 50/50 é comum.');
   out = out.replace(/\bcinquenta cinquenta\b/g, '50/50');
-  // Pontuação de costura (: , / ; , / ., / .;)
+  // Pontuação de costura (: , / ; , / ., / .; / .. / :: / ).).)
   out = out.replace(/:\s*,/g, ',').replace(/;\s*,/g, ',');
   out = out.replace(/(?<!\bet al|\bS\.A|\bLtda|\bLtd|\bInc|\bJr|\bSr|\ba\.a|\ba\.m|\ba\.C|\bd\.C|\bC\.V|\b[A-Z]|\.\.)\.,\s+/g, ', ');
   out = out.replace(/(?<!\ba\.a|\ba\.m|\ba\.C|\bS\.A|\bLtda)\.;\s+/g, '; ');
+  out = out.replace(/(?<!\.)\.\.(?!\.)/g, '.');
+  out = out.replace(/::+/g, ':');
+  out = out.replace(/\)\.\s*\)\./g, ').');
   return out;
 }
 
 function applyFinalVolumePolish(volNum, md) {
-  // Sincronizar o único H4 com travessão que era alvo de wikilink (Theory Map)
+  // Sincronizar o único H4 com travessão que era alvo de wikilink (Theory Map) e remover headings vazios / linhas duplicadas / colunas extras de tabela
   let text = md
     .split('#Template: Theory Map — Conexão com Business Model Canvas|')
     .join('#Template: Theory Map: Conexão com Business Model Canvas|')
     .split('#### Template: Theory Map — Conexão com Business Model Canvas')
     .join('#### Template: Theory Map: Conexão com Business Model Canvas')
     .split('#Template: Entrevista de Problema (Mom Test)|')
-    .join('#Template: Entrevista de Problema|');
+    .join('#Template: Entrevista de Problema|')
+    .split('### Auditoria Regulatória e Comercial antes de Lançar uma Healthtech ou Biotech no Brasil\n\n### Filtro de Decisão: Você Deve Entrar Neste Mercado?')
+    .join('### Filtro de Decisão: Você Deve Entrar Neste Mercado?')
+    .split('### Auditoria de Trincheira antes de Escalar um Produto de Inteligência Artificial no Brasil\n\n### Triagem de Viabilidade Operacional: Sua Arquitetura Resiste à Escala?')
+    .join('### Triagem de Viabilidade Operacional: Sua Arquitetura Resiste à Escala?')
+    .split('- [[#FASE 15 — MÁQUINA DE CRESCIMENTO E EXPANSÃO EM ESCALA|Fase 15: Máquina de Crescimento e Expansão em Escala]]\n- [[#FASE 15 — MÁQUINA DE CRESCIMENTO E EXPANSÃO EM ESCALA|Fase 15: Máquina de Crescimento e Expansão em Escala]]')
+    .join('- [[#FASE 15 — MÁQUINA DE CRESCIMENTO E EXPANSÃO EM ESCALA|Fase 15: Máquina de Crescimento e Expansão em Escala]]')
+    .split('| **Margem Bruta: 65% a 80%** | **50% a 70% EBITDA** (Leilão Digital e Rede de Vistoria) |')
+    .join('| **Margem Bruta: 65% a 80%** / **50% a 70% EBITDA** (Leilão Digital e Rede de Vistoria) |')
+    .split('| **R$ 150/mês** (manutenção ortodôntica) e **R$ 6.000 a R$ 25.000** (implantes e reabilitação) | **Ticket médio conjugado: R$ 3.500 a R$ 8.000** |')
+    .join('| **R$ 150/mês** (manutenção ortodôntica) e **R$ 6.000 a R$ 25.000** (implantes e reabilitação); **Ticket médio conjugado: R$ 3.500 a R$ 8.000** |')
+    .split('| **R$ 2.500 a R$ 12.000** (Injetáveis/Laser) | **R$ 20.000 a R$ 40.000** (Capilar FUE) |')
+    .join('| **R$ 2.500 a R$ 12.000** (Injetáveis/Laser) / **R$ 20.000 a R$ 40.000** (Capilar FUE) |');
 
   const lines = text.split('\n');
   let inFence = false;
@@ -1188,6 +1203,9 @@ function applyFinalVolumePolish(volNum, md) {
       .replace(/^iFood\. Marketplace com efeitos de rede fortes\./, 'O **iFood**: marketplace com efeitos de rede fortes.')
       .replace(/^iFood teve expansão regional/, 'O **iFood** teve expansão regional')
       .replace(/^iFood foi fundada em 2011/, 'O **iFood** foi fundado em 2011')
+      .replace(/^Passo (\d+: [^*]+)\*\*(:?)/, '**Passo $1**$2')
+      .replace(/^(\d+)\. (Tipicamente 3-4 cenários\.)\*\*/, '$1. **$2**')
+      .replace(/^(\d+)\. (Cenários são narrativas, não listas de variáveis\.)\*\*/, '$1. **$2**')
       .replace('**BCB (Banco Central do Brasil, também BCB).**', '**BCB (Banco Central do Brasil, também grafado Bacen).**')
       .replace('(também grafado BCB ou BCB)', '(também grafado Bacen)')
       .replace('**Conselho (board).**', '**Board (conselho de administração ou consultivo).**');

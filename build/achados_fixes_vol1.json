@@ -4,7 +4,7 @@
     "vol": "1",
     "code": "N3",
     "from": "você acompanhará de perto a evolução, os tropeços, as brigas societárias, os pivôs e as vitórias de",
-    "to": "você acompanhará de forma equilibrada ao longo dos volumes a evolução, os tropeços financeiros, os impasses societários, os pivôs e as vitórias de"
+    "to": "você acompanhará de forma equilibrada em cada fase a evolução, os tropeços financeiros, os impasses societários, os pivôs e as vitórias de"
   },
   {
     "id": "9",
@@ -25,14 +25,14 @@
     "vol": "1",
     "code": "E5",
     "from": "Qual é a mentira mais cara que o imaginário do empreendedorismo vende todos os dias no Brasil? **A mentira de que empresas quebram por falta de boas ideias",
-    "to": "Camila não tinha um problema de ideia em Belo Horizonte: tinha apenas quatro meses de fôlego no caixa pessoal. Levantamentos recorrentes de sobrevivência empresarial no Brasil (como os estudos do Sebrae) confirmam que a falta de planejamento financeiro e de capital de giro encerra muito mais negócios na largada do que a falta de boas ideias"
+    "to": "Camila não tinha um problema de ideia em Belo Horizonte: tinha apenas quatro meses de fôlego no caixa pessoal. Levantamentos recorrentes de sobrevivência empresarial no Brasil (como os estudos do Sebrae) confirmam que **a falta de planejamento financeiro e de capital de giro encerra muito mais negócios na largada do que a escassez de boas ideias"
   },
   {
     "id": "26",
     "vol": "1",
     "code": "E1",
     "from": "Empreender não é primariamente um ato técnico. É um ato psicológico e financeiro sustentado por meses ou anos.",
-    "to": "Quem empreende carrega por anos um peso psicológico e financeiro contínuo, e a maioria das desistências acontece porque o fôlego pessoal do fundador acaba antes de a ideia amadurecer."
+    "to": "Quem empreende carrega por anos um peso psicológico e financeiro contínuo, sustentando decisões difíceis muito antes de o caixa estabilizar."
   },
   {
     "id": "27",
@@ -137,7 +137,7 @@
     "vol": "1",
     "code": "E9",
     "from": "o [[#Canvas: Team Canvas (Alex Ivanov, 2015)|Canvas: Team Canvas (Alex Ivanov, 2015)]] (Alex Ivanov, 2015) é o template",
-    "to": "quando o time tem dois ou mais cofundadores, o [[#Canvas: Team Canvas (Alex Ivanov, 2015)|Team Canvas (Alex Ivanov, 2015)]] é o quadro prático para alinhar pessoas, objetivos, papéis, valores, forças e regras antes do primeiro conflito"
+    "to": "o [[#Canvas: Team Canvas (Alex Ivanov, 2015)|Team Canvas (Alex Ivanov, 2015)]] serve como quadro prático"
   },
   {
     "id": "51",
@@ -291,7 +291,7 @@
     "vol": "1",
     "code": "N7",
     "from": "Peter Thiel abre *De Zero a Um* perguntando qual verdade importante você enxerga e quase ninguém concorda.",
-    "to": "Paul Graham explica esse ponto cego no ensaio *Schlep Blindness* (2012): nosso cérebro desvia inconscientemente de problemas trabalhosos, burocráticos e sem charme, justamente onde moram as maiores oportunidades, como o processamento de pagamentos online que deu origem à Stripe. **As ideias que mais geram caixa quase nunca brilham numa conversa de bar: elas parecem rotinas operacionais chatas, reguladas e dolorosas que todo um setor aprendeu a tolerar como parte da paisagem.**"
+    "to": "Paul Graham explica esse ponto cego no ensaio *Schlep Blindness* (2012): nosso cérebro desvia inconscientemente de tarefas árduas, ingratas e sem glamour, exatamente onde se escondem grandes oportunidades como a infraestrutura de pagamentos online que deu origem à Stripe."
   },
   {
     "id": "103",
@@ -333,7 +333,7 @@
     "vol": "1",
     "code": "C3",
     "from": "Vélez vinha de venture capital latino-americano, e os três viveram pessoalmente a experiência frustrante de ser cliente do sistema bancário tradicional no Brasil.",
-    "to": "Vélez trazia o olhar de investidor de capital de risco e a frustração direta de tentar abrir conta como estrangeiro no Brasil; Cristina Junqueira conhecia por dentro a operação de cartões de crédito de um grande banco brasileiro; e Edward Wible dominava a arquitetura de software necessária para reconstruir o sistema do zero."
+    "to": "Vélez trazia a bagagem de venture capital latino-americano e a frustração direta como recém-chegado ao país; Junqueira dominava por dentro a engrenagem de cartões do Itaú; já Wible aportava a engenharia de software para desenhar a plataforma do zero."
   },
   {
     "id": "112",
@@ -347,7 +347,7 @@
     "vol": "1",
     "code": "N7",
     "from": "Graham usa Larry Page como exemplo. Page não inventou search engine.",
-    "to": "Quem trabalha na fronteira de uma tecnologia enxerga o que falta meses antes do mercado. Foi assim que engenheiros imersos nas primeiras redes universitárias perceberam a necessidade de buscadores melhores por relevância de links antes que o resto do mercado entendesse o tamanho da web."
+    "to": "No clássico exemplo de Larry Page (que podemos ler sob a ótica de Paul Buchheit e Paul Graham sobre *viver no futuro*), ele não criou o primeiro buscador da web."
   },
   {
     "id": "115",
@@ -368,7 +368,7 @@
     "vol": "1",
     "code": "C3",
     "from": "Se assinatura mensal funciona em software (SaaS), funcionaria em produtos físicos?",
-    "to": "A direção horizontal traz para outro setor uma mecânica de receita ou distribuição que já se provou em uma indústria vizinha. A recorrência mensal com cobrança automática, que o software como serviço (SaaS) refinou no ambiente digital com métricas de retenção e cancelamento, voltou repaginada aos produtos físicos de reposição previsível."
+    "to": "Depois que o software como serviço (SaaS) refinou a cobrança recorrente com métricas rigorosas de retenção e cancelamento, caberia devolver essa disciplina de assinatura mensal aos produtos físicos de reposição contínua?"
   },
   {
     "id": "118",
@@ -403,7 +403,7 @@
     "vol": "1",
     "code": "C3",
     "from": "com R$ 4.800 iniciais, entrou no início da curva de adoção da internet residencial brasileira como primeira startup relevante de e-commerce",
-    "to": "fundado em 1999 por Romero Rodrigues, Rodrigo Borges, Ronaldo Takahashi e Mario Letelier como comparador de preços no início da internet comercial brasileira, consolidou-se na década seguinte até ter o controle adquirido pelo grupo sul-africano Naspers em 2009"
+    "to": "como comparador de preços no início da curva de adoção da internet comercial brasileira, tornou-se um dos primeiros negócios digitais relevantes do país (alcançando grande liquidez em 2009)"
   },
   {
     "id": "123",
@@ -452,7 +452,7 @@
     "vol": "1",
     "code": "N8",
     "from": "No fim dos quatro filtros, idealmente você tem três a cinco ideias-candidatas finais. Escolha uma.",
-    "to": "Ao final dos quatro filtros, restam de três a cinco candidatas na sua Lista Curta. Veja como Lucas e Marina aplicaram a peneira às ideias do caderno: o app social de pets caiu no Filtro 4 (sem pagador claro), a gamificação de academias caiu no Filtro 1 (zero vivência no setor) e o roteiro de viagens por IA caiu no Filtro 3 (qualquer modelo gratuito resolve), enquanto a automação de conciliação e cobrança para pequenas distribuidoras passou nos quatro filtros, inclusive no teste da *cegueira ao trabalho chato* (*Schlep Blindness*, de Paul Graham), por atacar uma rotina burocrática que quase todo fundador evita. Escolha a vencedora para levar à"
+    "to": "No fim dos quatro filtros, idealmente você tem três a cinco ideias-candidatas finais. Veja como Lucas e Marina aplicaram a peneira ao caderno: o app social de pets caiu no Filtro 4 (sem pagador claro), a gamificação de academias caiu no Filtro 1 (zero vivência no setor) e o roteiro de viagens por IA caiu no Filtro 3 (qualquer modelo gratuito resolve), enquanto a automação de conciliação e cobrança para pequenas distribuidoras passou nos quatro critérios, inclusive no teste da *cegueira ao trabalho chato* (*Schlep Blindness*, de Paul Graham), por atacar uma rotina árdua que quase todo fundador evita. Escolha uma."
   },
   {
     "id": "132",
@@ -522,7 +522,7 @@
     "vol": "1",
     "code": "N4",
     "from": "1. **Analgésico ou Vitamina?** O seu cliente futuro já está gastando dinheiro ou mantendo uma planilha monstruosa",
-    "to": "1. **Dor com orçamento ou ideia de vitrine?** Olhando para a sua Lista Curta, em quantas candidatas o cliente já gasta dinheiro ou horas de planilha toda semana para contornar o problema, e quantas são apenas ideias de vitrine que rendem elogios mas não têm pagador?"
+    "to": "1. **Dor com orçamento ou ideia de vitrine?** Olhando para as candidatas da sua Lista Curta (como fez Lucas ao reler seu caderno), em quais delas o futuro cliente já desembolsa orçamento ou perde horas de trabalho toda semana"
   },
   {
     "id": "144",
@@ -585,7 +585,7 @@
     "vol": "1",
     "code": "C2",
     "from": "Charlie Munger, sócio de Warren Buffett e vice-chairman da Berkshire Hathaway, popularizou para tomada de decisão empresarial.",
-    "to": "Charlie Munger (1924-2023), que por décadas foi sócio de Warren Buffett e vice-presidente da Berkshire Hathaway, levou o princípio para a tomada de decisão nos negócios com a máxima *\"Invert, always invert. Turn a situation or problem upside down\"* (\"Inverta, sempre inverta: vire a situação ou o problema de cabeça para baixo\")."
+    "to": "Charlie Munger (1924-2023), que por décadas foi sócio de Warren Buffett e vice-presidente da Berkshire Hathaway, popularizou a regra na tomada de decisão empresarial: \"Inverta, sempre inverta; vire a situação ou o problema de cabeça para baixo\"."
   },
   {
     "id": "161",
@@ -676,7 +676,7 @@
     "vol": "1",
     "code": "N5",
     "from": "Bloqueie 2 horas sem celular, preencha os 7 blocos da sua **DII v1**",
-    "to": "Toda segunda-feira, das 9h às 9h30, abra a sua **DII**, substitua uma incerteza da lista pelo aprendizado real das conversas da semana anterior e reescreva a frase do bloco *Para quem* até que qualquer pessoa fora do setor entenda em 30 segundos quem paga e qual é a dor."
+    "to": "Toda segunda-feira, reserve 30 minutos para revisar a sua **DII**, trocar uma incerteza da lista pelo aprendizado real das conversas da semana anterior e lapidar a frase do bloco *Para quem*"
   },
   {
     "id": "211",
@@ -732,7 +732,7 @@
     "vol": "1",
     "code": "E9",
     "from": "Designar requer iteração rápida, conversa colaborativa e tolerância à ambiguidade temporária.",
-    "to": "Desenhar um modelo de negócio exige iteração rápida, conversa franca com clientes e tolerância à ambiguidade enquanto as premissas são testadas."
+    "to": "Desenhar essa arquitetura exige iteração rápida, conversa colaborativa e tolerância à ambiguidade temporária enquanto as premissas são testadas."
   },
   {
     "id": "224",
@@ -816,7 +816,7 @@
     "vol": "1",
     "code": "S4",
     "from": "A 3(b) só é testável com MVP pagante rodando três meses ou mais.",
-    "to": "A sub-hipótese 3(b) exige produto mínimo viável pago rodando por três meses ou mais, razão pela qual fica para a Fase 11 (Vol. 4) em diante."
+    "to": "A 3(b) só é testável com MVP pagante rodando três meses ou mais (validação comercial que se consolida na Fase 11, no Vol. 4)."
   },
   {
     "id": "253",
@@ -991,7 +991,7 @@
     "vol": "1",
     "code": "N7",
     "from": "E nada destrói o córtex pré-frontal de um fundador brasileiro mais rápido do que **O Imposto do Desespero Doméstico**",
-    "to": "E, na travessia que Ben Horowitz chama de *A Luta* (*The Struggle*) em *O Lado Difícil das Situações Difíceis* (2014), nada corrói mais rápido o poder de negociação de um fundador brasileiro do que o **Imposto do Desespero Doméstico** (que mediremos no painel deste capítulo sempre que a reserva cair abaixo de seis meses)"
+    "to": "E, na travessia que o autor chama de *A Luta* (*The Struggle*), nada corrói mais rápido o poder de negociação de um fundador brasileiro do que **O Imposto do Desespero Doméstico** (medido no painel deste capítulo sempre que a reserva cai abaixo de seis meses)"
   },
   {
     "id": "294",
@@ -1033,7 +1033,7 @@
     "vol": "1",
     "code": "C2",
     "from": "CDI em torno de treze a quatorze por cento ao ano em 2025 e 2026",
-    "to": "rendimento de pelo menos 100% do CDI com liquidez diária imediata e cobertura do Fundo Garantidor de Créditos (FGC), verificando sempre os prazos mínimos de carência e as regras tributárias vigentes caso utilize LCI ou LCA para a parcela de prazo mais longo"
+    "to": "remuneração mínima de 100% do CDI, resgate imediato e garantia do FGC, conferindo sempre os prazos mínimos de carência e a tributação vigente nas letras de crédito imobiliário ou do agronegócio da camada seguinte"
   },
   {
     "id": "300",
@@ -1068,21 +1068,21 @@
     "vol": "1",
     "code": "C3",
     "from": "Se captou antes de casar, o equity pré-casamento é seu. O pós-casamento entra em comunhão, exceto se houver pacto específico.",
-    "to": "No regime de comunhão parcial de bens, as quotas subscritas ou adquiridas antes do casamento integram o patrimônio particular, mas as quotas adquiridas onerosamente na constância do casamento e os lucros distribuídos no período entram na partilha; além disso, a valorização das quotas anteriores decorrente do trabalho direto do sócio durante a união exige atenção específica em pacto antenupcial ou contrato de convivência."
+    "to": "As participações subscritas antes da união integram o acervo particular, enquanto as quotas adquiridas onerosamente durante a convivência e os dividendos distribuídos no período entram na meação; já a valorização de participação anterior fruto do trabalho direto do fundador pede cláusula específica para evitar litígio."
   },
   {
     "id": "308",
     "vol": "1",
     "code": "C6",
     "from": "se você é casado em comunhão parcial (regime padrão brasileiro)",
-    "to": "se você é casado ou vive em união estável (que no Brasil segue por padrão o regime da comunhão parcial de bens quando não há contrato escrito em sentido diverso), alinhe desde cedo o contrato de convivência ou pacto antenupcial e lembre que, havendo herdeiros necessários (descendentes, ascendentes ou cônjuge), o testamento só pode dispor livremente sobre metade do patrimônio, cabendo ao acordo de sócios regular a apuração de haveres e a sucessão nas quotas (art. 1.028 do Código Civil)"
+    "to": "se você é casado ou vive em união estável sob comunhão parcial (regime legal padrão quando não há contrato escrito diferente), formalize desde cedo um contrato de convivência ou instrumento pré-nupcial e lembre que, havendo herdeiros necessários, a sucessão testamentária só alcança metade do patrimônio disponível, cabendo ao acordo de sócios regrar a apuração de haveres nas quotas societárias (art. 1.028 do Código Civil)"
   },
   {
     "id": "310",
     "vol": "1",
     "code": "E12",
     "from": "As estratégias para contornar são manter algum vínculo que comprove renda regular",
-    "to": "Para preservar o acesso a crédito pessoal após sair da CLT, aplique seis medidas práticas: (1) mantenha pró-labore formalizado com holerite contábil e DECORE quando necessário; (2) preserve o relacionamento em segmento bancário de alta renda aberto enquanto ainda era empregado; (3) mantenha ao menos dois cartões de crédito ativos com limite aprovado; (4) nunca encerre suas contas bancárias mais antigas, pois o tempo de relacionamento pesa no cálculo de risco; (5) monitore seu CPF e seu score de crédito mensalmente; e (6) avalie linhas com garantia real ou consórcio apenas após comparar o custo efetivo total."
+    "to": "Para contornar essas barreiras em seis frentes práticas, comece por comprovar ganho mensal recorrente via contabilidade"
   },
   {
     "id": "311",
@@ -1369,7 +1369,7 @@
     "vol": "1",
     "code": "C5",
     "from": "buscar orientação externa (coach, terapeuta, mentor já empreendedor) é apropriado",
-    "to": "se a ansiedade persistir por mais de três semanas com prejuízo ao sono ou ao foco, procure avaliação com psicólogo clínico ou médico psiquiatra (deixando mentores de negócios apenas para discutir as hipóteses comerciais da empresa)"
+    "to": "procure acompanhamento com psicólogo clínico ou médico psiquiatra, deixando mentores de negócios apenas para debater as hipóteses comerciais da empresa"
   },
   {
     "id": "364",
@@ -1397,7 +1397,7 @@
     "vol": "1",
     "code": "N5",
     "from": "Agende o primeiro **Check-in Estruturado de Cofundadores** mensal",
-    "to": "Toda segunda-feira, reserve 30 minutos com seu sócio para aplicar o termômetro de saúde de cinco itens desta seção, destravar uma decisão operacional pendente e colocar na mesa a conversa difícil que vocês evitaram na semana anterior; se ainda não têm acordo de sócios formalizado com *vesting*, agende nesta semana a revisão com um advogado societário."
+    "to": "Toda segunda-feira, faça com seu sócio o check-in de saúde da sociedade, destrave uma decisão pendente, encare a conversa difícil evitada na semana anterior e agende com um advogado societário a revisão do instrumento societário"
   },
   {
     "id": "369",
@@ -1418,14 +1418,14 @@
     "vol": "1",
     "code": "N9",
     "from": "o *Viés de Confirmação* ou o *Efeito Dunning-Kruger* sequestraram o volante da sua empresa",
-    "to": "o *Viés de Confirmação*, a *Falácia do Custo Afundado* ou a *Ilusão de Controle* assumiram o volante da sua empresa"
+    "to": "o *Viés de Confirmação* ou a *Ilusão de Controle* assumiram o volante da sua empresa"
   },
   {
     "id": "372",
     "vol": "1",
     "code": "S7",
     "from": "D oferece um catalogo de dez vieses fundamentais com antidotos curtos e checklists por dominio (parcerias, financiamento, marca).",
-    "to": "Este capítulo funciona como catálogo rápido de bolso: apresenta dez vieses cognitivos frequentes na rotina do fundador com seus antídotos práticos e listas de verificação por área. O Capítulo 6 deste volume aprofunda seis desses vieses e estrutura a tomada de decisão como método."
+    "to": "Este capítulo funciona como um catálogo rápido de dez vieses fundamentais, com antídotos práticos e checklists por domínio (parcerias, financiamento, marca), enquanto seis deles são aprofundados mais adiante junto ao método decisório."
   },
   {
     "id": "373",
@@ -1621,7 +1621,7 @@
     "vol": "1",
     "code": "N3",
     "from": "Você quer ter liberdade para decidir se cresce 30% ao ano distribuindo dividendos (como a **Dra. Camila**)",
-    "to": "Você prefere a autonomia de crescer com lucro próprio e distribuir dividendos (o caminho que a **Dra. Camila** poderá trilhar assim que separar as contas da clínica e organizar a operação) ou aceita ter um conselho cobrando duplicar a receita todo ano (o dilema que **Lucas e Marina** colocam na balança ao decidir se mantêm a empresa financiada pelos clientes)?"
+    "to": "Você quer ter liberdade para decidir se cresce 30% ao ano distribuindo dividendos (o caminho que a **Dra. Camila** poderá seguir assim que separar as contas da clínica e organizar a operação)"
   },
   {
     "id": "407",
@@ -1663,7 +1663,7 @@
     "vol": "1",
     "code": "C3",
     "from": "Cristina foi frequentemente o elo entre visão do fundador, e execução de produto regulamentado.",
-    "to": "Cristina Junqueira, cofundadora do Nubank ao lado de David Vélez e Edward Wible, trouxe o domínio executivo da indústria brasileira de cartões de crédito e liderou a construção do produto inicial e a interlocução estratégica nos primeiros anos da operação."
+    "to": "Como cofundadora, trouxe o domínio executivo da indústria bancária e conduziu a estruturação da operação regulada e a interlocução estratégica desde o lançamento."
   },
   {
     "id": "414",
@@ -1768,7 +1768,7 @@
     "vol": "1",
     "code": "S7",
     "from": "EJ trata decisao como disciplina, com vieses sistematicos, SPADE, calibracao e tipologia Tipo 1 vs Tipo 2.",
-    "to": "Este capítulo trata a tomada de decisão sob incerteza como método operacional: diferencia decisões irreversíveis (Tipo 1) e reversíveis (Tipo 2), aprofunda seis vieses cognitivos recorrentes e aplica pré-mortem, protocolo SPADE e calibração de probabilidades (o catálogo rápido de dez vieses e as armadilhas por área estão no Capítulo 3)."
+    "to": "Este capítulo aborda a decisão sob incerteza como método operacional: diferencia escolhas irreversíveis (Tipo 1) e reversíveis (Tipo 2), aprofunda seis vieses sistemáticos e aplica pré-mortem, protocolo SPADE e calibração de probabilidades."
   },
   {
     "id": "437",
@@ -1831,7 +1831,7 @@
     "vol": "1",
     "code": "C5",
     "from": "Cialdini adicionou um setimo, Unidade, em *Pre-Suasion* (2016)",
-    "to": "Em *Pre-Suasion* (2016), Robert Cialdini acrescentou a **Unidade** (*Unity*, o senso de identidade compartilhada em que o interlocutor sente que \"este fundador é um de nós\", exatamente como Henrique conquista gerentes industriais por falar a língua do chão de fábrica) às seis alavancas clássicas de *Influence* (1984)"
+    "to": "Cialdini acrescentou um sétimo princípio, a **Unidade** (*Unity*, quando o interlocutor reconhece no fundador alguém da mesma trincheira, como Henrique ao falar a língua do chão de fábrica com gerentes industriais), em *Pre-Suasion* (2016)"
   },
   {
     "id": "449",
@@ -2132,7 +2132,7 @@
     "vol": "1",
     "code": "C2",
     "from": "Geração de protótipos de UI. Figma, mais plugins de IA. Galileo AI. v0.dev.",
-    "to": "**Geração rápida de interfaces navegáveis:** recursos nativos de inteligência artificial dentro do próprio software de design (como o Figma) e geradores de componentes a partir de texto (como o v0) permitem materializar fluxos de tela em uma tarde para testar com usuários."
+    "to": "**Geração rápida de interfaces de usuário (UI):** recursos nativos de inteligência artificial no seu programa de design (como o Figma) ou geradores de componentes por comando de voz e texto (como o v0) materializam fluxos de tela navegáveis para testar com clientes."
   },
   {
     "id": "505",
@@ -2181,7 +2181,7 @@
     "vol": "1",
     "code": "C2",
     "from": "Claude Code, Cursor, Windsurf, e v0, permitem construir protótipos funcionais sem contratar engenheiro.",
-    "to": "Assistentes de programação e geradores de interface por IA (como Claude Code, Cursor e v0) permitem colocar de pé um protótipo funcional em poucos dias, mas lembre da regra de segurança: antes de conectar dados reais de clientes ou credenciais financeiras a esse código, faça uma revisão técnica de vulnerabilidades e controle de acesso."
+    "to": "assistentes de programação e geradores de interface por IA (como Claude Code, Cursor e v0) permitem colocar de pé protótipos funcionais em poucos dias, mas exigem uma trava de segurança: antes de conectar dados reais de clientes ou credenciais financeiras a esse código, peça a revisão de alguém que domine segurança e controle de acesso."
   },
   {
     "id": "519",
@@ -2237,7 +2237,7 @@
     "vol": "1",
     "code": "C7",
     "from": "Aplique com PMF inicial em tração, ambição global, time bilíngue ou disposto a viver em SF por três meses.",
-    "to": "Aplique quando já tiver sinais claros de tração, ambição internacional e disponibilidade para passar os três meses do lote em San Francisco, e lembre que entrar na Y Combinator ou no Techstars quase sempre exige reestruturar a sociedade no exterior (*flip* societário para uma *C-Corp* em Delaware com subsidiária no Brasil), operação que gera custos jurídicos e impactos tributários que precisam ser avaliados com advogado societário e tributarista antes da assinatura (ver Volume 8)."
+    "to": "Aplique com PMF inicial em tração, ambição global e disponibilidade para viver em SF durante o ciclo, lembrando que ingressar em aceleradoras americanas quase sempre exige reestruturar a holding no exterior (*flip* societário para uma *C-Corp* em Delaware com subsidiária local), operação com custos jurídicos e reflexos tributários que pedem análise prévia de advogado societário e tributarista (ver Volume 8)."
   },
   {
     "id": "535",

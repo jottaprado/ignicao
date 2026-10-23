@@ -87,7 +87,7 @@
     "id": "3359",
     "vol": 7,
     "from": "em trabalho remoto, o controle de jornada é tecnicamente desnecessário desde que o contrato explicite a modalidade teletrabalho com autonomia de horário",
-    "to": "desde a Lei 14.442/2022 (CLT, art. 62, III, e art. 75-B, § 3º), apenas o teletrabalho contratado por produção ou por tarefa fica dispensado do controle de jornada; o teletrabalho por jornada exige controle de ponto e pagamento de horas extras"
+    "to": "desde a Lei 14.442/2022 (CLT, art. 62, III, e art. 75-B, § 3º), apenas o teletrabalho contratado por produção ou por tarefa fica dispensado de marcação de ponto; a modalidade por horário exige registro formal e remuneração de sobrejornada (ver Volume 6, Capítulo 20)"
   },
   {
     "id": "3374",
@@ -153,7 +153,7 @@
     "id": "3522",
     "vol": 8,
     "from": "define startup como pessoa jurídica com **até dez anos de constituição**, **receita bruta anual de até R$ 16 milhões** no exercício social anterior",
-    "to": "enquadra como startup a organização empresarial ou societária com **até dez anos de inscrição no CNPJ**, **receita bruta de até R$ 16 milhões no ano-calendário anterior** (ou R$ 1.333.334 multiplicado pelo número de meses de atividade no ano, quando inferior a 12 meses) e declaração expressa no ato constitutivo (contrato social) de uso de modelos de negócios inovadores ou enquadramento no Inova Simples (art. 4º, § 1º)"
+    "to": "enquadra como startup a organização empresarial ou societária (com cláusula expressa no contrato social ou adesão ao Inova Simples, nos termos do § 1º) que possua **até dez anos de inscrição no CNPJ** e **receita bruta de até R$ 16 milhões no ano-calendário anterior** (ou limite proporcional de R$ 1.333.334 por mês de atividade no primeiro ano)"
   },
   {
     "id": "3523",
@@ -195,25 +195,25 @@
     "id": "3538",
     "vol": 8,
     "from": "em 2026, o limite geral de dispensa (obras e serviços comuns) era de R$ 57,5 mil",
-    "to": "o CPSI tem teto próprio fixado na LC 182/2021 (art. 14, § 2º) de R$ 1,6 milhão por contrato de teste e de até cinco vezes esse valor (R$ 8 milhões) no contrato de fornecimento subsequente (art. 15), atualizado anualmente pelo IPCA, não se confundindo com a dispensa geral por valor da Lei 14.133/2021 (que em 2026 é de R$ 65.492,11 para compras e outros serviços, art. 75, II, e R$ 130.984,20 para obras e serviços de engenharia, art. 75, I)"
+    "to": "o CPSI possui teto próprio fixado na LC 182/2021 de **R$ 1,6 milhão por contrato de teste** (art. 14, § 2º) e de **até cinco vezes esse montante (R$ 8 milhões)** no fornecimento posterior sem nova licitação (art. 15), corrigidos pelo IPCA, não se confundindo com a dispensa geral por valor da Nova Lei de Licitações (que em 2026 é de R$ 65.492,11 para compras e serviços comuns, art. 75, II, e R$ 130.984,20 para obras e serviços de engenharia, art. 75, I)"
   },
   {
     "id": "3542",
     "vol": 8,
     "from": "A discussão sobre IRPF vs. ganho de capital em exercício de opções continua indefinida na jurisprudência administrativa.",
-    "to": "Em setembro de 2024, o STJ pacificou a matéria para fins de Imposto de Renda no Tema 1.226 (recursos repetitivos): planos de stock options com onerosidade e risco têm natureza mercantil, não incidindo IRPF na outorga nem no exercício da opção, mas apenas ganho de capital (15% a 22,5%) na venda futura das ações com lucro."
+    "to": "Em setembro de 2024, o STJ pacificou a tese vinculante no Tema 1.226 (recursos repetitivos): planos de opção de compra de ações com voluntariedade, onerosidade e risco de mercado têm natureza estritamente mercantil, não incidindo IRPF na outorga nem no exercício, mas apenas ganho de capital (15% a 22,5%) na alienação futura das ações com lucro."
   },
   {
     "id": "3548",
     "vol": 8,
     "from": "pedido o redirecionamento da execução para a startup como tomadora subsidiária e, diante de uma conta bancária transitória sem saldo no dia da penhora, o juiz do trabalho aplicou a Teoria Menor",
-    "to": "incluído a startup desde a petição inicial como responsável subsidiária (Súmula 331, IV, do TST, e Tema 1.232 do STF) e, diante de uma conta bancária da empresa sem saldo no dia da penhora, o juiz do trabalho instaurou o Incidente de Desconsideração da Personalidade Jurídica (IDPJ, art. 855-A da CLT) com tutela cautelar (§ 2º), aplicando a Teoria Menor"
+    "to": "incluído a startup no polo passivo desde a petição inicial como tomadora subsidiária (Súmula 331, IV, do TST) e, diante de uma conta empresarial sem saldo no dia da penhora, o juiz do trabalho instaurou o incidente processual do art. 855-A da CLT (IDPJ) com bloqueio cautelar (§ 2º) e aplicou a Teoria Menor"
   },
   {
     "id": "3551",
     "vol": 8,
     "from": "Na **Sociedade Limitada (LTDA)**, cada sócio responde apenas pela integralização de sua cota.",
-    "to": "Na **Sociedade Limitada (LTDA)**, a responsabilidade de cada sócio é restrita ao valor de suas quotas, mas todos respondem solidariamente pela integralização de todo o capital social enquanto houver parcela não integralizada (art. 1.052 do Código Civil); já na S.A., cada acionista responde apenas pelo preço de emissão das ações que subscreveu."
+    "to": "Na **Sociedade Limitada (LTDA)**, a obrigação de cada quotista é restrita ao valor de suas cotas, mas todos respondem solidariamente pela integralização total do capital subscrito enquanto restar parcela em aberto (art. 1.052 do Código Civil); já na S.A., cada acionista responde unicamente pelo preço de emissão das ações que subscreveu."
   },
   {
     "id": "3556",
@@ -237,7 +237,7 @@
     "id": "3560",
     "vol": 8,
     "from": "No direito do trabalho, esse prazo tem sido interpretado extensivamente, e sócios retirantes são frequentemente incluídos em execuções",
-    "to": "No direito do trabalho, o art. 10-A da CLT (incluído pela Lei 13.467/2017) estabelece que o sócio retirante responde de forma subsidiária, apenas depois da empresa devedora e dos sócios atuais (salvo fraude na alteração societária, quando responde solidariamente), e somente em ações ajuizadas até dois anos após a averbação da sua retirada na Junta Comercial, em execuções"
+    "to": "No direito do trabalho, o art. 10-A da CLT (incluído pela Lei 13.467/2017) dispõe que o quotista retirante responde apenas de forma subsidiária, depois de exauridos os bens da empresa devedora e dos sócios atuais (salvo fraude societária, hipótese de responsabilidade solidária), e somente em reclamações ajuizadas dentro do biênio posterior ao registro de sua saída na Junta Comercial, em execuções"
   },
   {
     "id": "3566",
@@ -285,7 +285,7 @@
     "id": "3624",
     "vol": 8,
     "from": "A LGPD exige notificação à ANPD e ao titular em prazo razoável após descoberta do incidente.",
-    "to": "A Resolução CD/ANPD 15/2024 regulamentou a LGPD e fixou o prazo de **três dias úteis** para o controlador comunicar o incidente de segurança relevante à ANPD (art. 6º) e aos titulares afetados (art. 9º), contados da ciência de que houve afetação de dados pessoais (prazo contado em dobro para agentes de pequeno porte); por isso, o DPA deve exigir que o operador notifique o controlador em 24 a 48 horas."
+    "to": "A Resolução CD/ANPD nº 15/2024 regulamentou a LGPD e determinou que o controlador comunique incidentes de segurança relevantes à ANPD (art. 6º) e aos titulares afetados (art. 9º) em **três dias úteis** contados da ciência de afetação de dados pessoais (em dobro para agentes de pequeno porte), razão pela qual convém estipular em contrato que o operador avise o controlador em 24 a 48 horas."
   },
   {
     "id": "3625",
@@ -453,7 +453,7 @@
     "id": "3967",
     "vol": 9,
     "from": "O acionista principal foi Fabrício Bloisi",
-    "to": "Fundada e liderada por Fabrício Bloisi, a Movile teve o grupo sul-africano Naspers (depois Prosus, que investiu desde 2008) como acionista controlador"
+    "to": "O controle societário passou ao grupo sul-africano Naspers (posteriormente Prosus, que investiu desde 2008) na companhia"
   },
   {
     "id": "4037",
@@ -483,7 +483,7 @@
     "id": "4060",
     "vol": 9,
     "from": "Qual o valuation atual da empresa (409A formal ou estimativa recente de rodada)?",
-    "to": "Qual o valor da empresa pelo critério de apuração de haveres previsto no contrato social ou acordo de sócios (já que, se o contrato for omisso no Brasil, aplica-se o balanço de determinação patrimonial do art. 1.031 do CC e art. 606 do CPC, usando-se o preço da última rodada como referência negocial, enquanto o 409A existe apenas para holdings nos EUA)?"
+    "to": "Como se calcula a avaliação da sociedade pela regra de apuração de haveres do estatuto ou acordo de quotistas (visto que, na omissão contratual no Brasil, vale o balanço de determinação dos arts. 1.031 do CC e 606 do CPC, servindo o preço da última rodada como baliza negocial, enquanto o laudo 409A aplica-se apenas a holdings americanas)?"
   },
   {
     "id": "4064",
@@ -567,7 +567,7 @@
     "id": "4122",
     "vol": 9,
     "from": "A solução comum é obter cidadania de país que tem treaty (Portugal, Espanha, Grenada) primeiro e depois aplicar para E-2.",
-    "to": "A alternativa é utilizar dupla cidadania de país signatário de tratado E-2 com os EUA (como Itália, observadas as restrições à cidadania por descendência de 2025, Espanha ou Portugal, incluído na lista do Departamento de Estado em março de 2024 via AMIGOS Act); atenção: desde o fim de 2022 (AMIGOS Act), quem obtém cidadania por investimento (como em Granada) precisa comprovar três anos de domicílio contínuo naquele país antes de pedir o E-2."
+    "to": "A alternativa é utilizar dupla nacionalidade de país signatário do acordo de comércio e navegação americano (como Itália, observadas as restrições de 2025 ao reconhecimento por descendência, Espanha ou Portugal, incluído na lista do Departamento de Estado em 2024 pelo AMIGOS Act); atenção: desde o fim de 2022, quem adquire passaporte por investimento (como em Grenada) precisa comprovar três anos de domicílio prévio naquela jurisdição antes de pleitear o visto."
   },
   {
     "id": "4124",
@@ -681,7 +681,7 @@
     "id": "4231",
     "vol": 9,
     "from": "Homologação: para contratos acima de um ano, homologação (sindicato ou MTE) é recomendada.",
-    "to": "Homologação: desde a Reforma Trabalhista (Lei 13.467/2017, que revogou o § 1º do art. 477 da CLT), a homologação no sindicato ou no MTE para contratos com mais de um ano deixou de ser exigida por lei, só sendo necessária se a convenção coletiva da categoria a impuser expressamente."
+    "to": "Homologação: desde a Reforma Trabalhista de 2017 (Lei 13.467, que revogou a exigência legal após um ano de casa), a chancela do sindicato ou do Ministério do Trabalho deixou de ser obrigatória, aplicando-se apenas quando imposta pela convenção coletiva da categoria."
   },
   {
     "id": "4236",
@@ -711,7 +711,7 @@
     "id": "4257",
     "vol": 9,
     "from": "Para ser aprovado, precisa de maioria qualificada em cada classe de credores (trabalhistas, quirografários, com garantia real, ME e EPP).",
-    "to": "Apresentado no prazo improrrogável de 60 dias sob pena de convolação em falência (art. 53), o plano é aprovado sem assembleia se não houver objeção (art. 55), por termo de adesão escrito dos credores (art. 45-A, incluído pela Lei 14.112/2020) ou em Assembleia Geral de Credores por maioria em cada uma das quatro classes (art. 45: trabalhistas e ME/EPP votam por cabeça; garantia real e quirografários exigem maioria simples tanto por cabeça quanto por valor do crédito presente, admitindo-se ainda a homologação por *cram down* nos requisitos do art. 58, § 1º)."
+    "to": "Apresentado no prazo improrrogável de 60 dias da decisão de processamento sob pena de convolação em falência (art. 53), o texto recebe aprovação tácita se não sofrer objeção (art. 55), pode ser validado por termo de adesão escrito (art. 45-A, da Lei 14.112/2020) ou, havendo objeção (art. 56), precisa de maioria nas quatro classes de votação (art. 45: trabalhistas e ME/EPP deliberam por cabeça; garantia real e quirografários exigem maioria simples tanto por cabeça quanto pelo valor presente, cabendo ainda concessão judicial via *cram down* pelo art. 58, § 1º)."
   },
   {
     "id": "4258",
@@ -729,7 +729,7 @@
     "id": "4266",
     "vol": 9,
     "from": "Uma empresa que tinha débitos tributários não regularizados ao encerrar pode ter seus sócios cobrados pessoalmente por cinco anos após a constituição desses débitos.",
-    "to": "Os cinco anos são apenas o ponto de partida, não o teto final: o fisco tem até cinco anos para lançar tributos não declarados (decadência, art. 173 do CTN), o despacho do juiz que ordena a citação interrompe a prescrição (art. 174, parágrafo único, I, do CTN) e o redirecionamento da execução fiscal aos sócios conta com prazo próprio de cinco anos a partir da citação da empresa ou da constatação posterior da dissolução irregular (Tema 444 do STJ)."
+    "to": "Esse quinquênio é apenas o ponto de partida, não o teto final: o fisco dispõe do prazo decadencial para lançar tributos omitidos (art. 173 do CTN), o despacho judicial que ordena a citação interrompe a contagem prescricional (art. 174, parágrafo único, I, do CTN) e o redirecionamento da execução fiscal aos sócios corre em novo lustro contado da citação da pessoa jurídica ou da ciência da dissolução irregular (Tema 444 do STJ, exigindo revisão com tributarista)."
   },
   {
     "id": "4268",
@@ -747,7 +747,7 @@
     "id": "4286",
     "vol": 9,
     "from": "marketplace de zero vírgula oito a duas vírgula cinco vezes GMV ou oito a vinte vezes receita líquida",
-    "to": "marketplace avaliado tipicamente por múltiplo da receita líquida (*net revenue* derivada do *take rate*) ou de EBITDA (variando conforme crescimento, liquidez da rede e patamar da taxa Selic, já que no mercado brasileiro a mediana histórica de M&A de tecnologia fica na faixa de duas a seis vezes a receita líquida anual)"
+    "to": "marketplace precificado sobre a receita líquida efetiva (*net revenue* extraída do *take rate*) ou sobre a geração de caixa, tipicamente na ordem de duas a cinco vezes a receita líquida anual conforme liquidez da rede e patamar dos juros (Selic)"
   },
   {
     "id": "4304",
@@ -765,7 +765,7 @@
     "id": "4311",
     "vol": 9,
     "from": "Estrutura societária. LLC, ou Ltda holding, adquire empresa operacional. Tributação de ganho de capital. Quinze a 22,5 por cento sobre eventual exit.",
-    "to": "Estrutura societária e tributação no exit. Um veículo de aquisição (S.A. ou Ltda. holding, frequentemente detido por FIP ou pelos investidores) compra a operacional e pode incorporar a adquirida para aproveitar a amortização fiscal do ágio; atenção à saída: a alíquota progressiva de 15% a 22,5% (Lei 13.259/2016) aplica-se apenas à venda de participação por pessoa física (ou conforme o regime próprio de cotistas de FIP), pois se uma holding Ltda./S.A. vender as quotas da operacional, o ganho de capital sofrerá IRPJ e CSLL de cerca de 34%."
+    "to": "Estrutura societária e tributação na saída. Um veículo comprador (S.A. ou Ltda. holding, muitas vezes detido por FIP ou pelos investidores) adquire a sociedade operacional; atenção ao imposto na alienação futura: a tabela progressiva de 15% a 22,5% (Lei 13.259/2016) vale para venda direta por pessoa física (tendo o FIP regime próprio para cotistas), enquanto a venda das quotas por uma holding Ltda. ou S.A. no Lucro Real ou Presumido sofre IRPJ e CSLL de até 34% (ver Capítulo 18)."
   },
   {
     "id": "4323",
@@ -807,7 +807,7 @@
     "id": "4373",
     "vol": 9,
     "from": "Um fundador que se torna residente fiscal em outro país **antes** de vender sua participação pode ser tributado pelas regras desse país, não do Brasil.",
-    "to": "Mudar de residência fiscal para outro país **antes** do exit não afasta, por si só, o imposto brasileiro sobre a venda direta de quotas ou ações de uma empresa sediada no Brasil: pela lei brasileira (art. 18 da Lei 9.249/1995 e art. 26 da Lei 10.833/2003), o ganho de capital de não residente na alienação de bens situados no Brasil continua tributado aqui na fonte (15% a 22,5%, ou 25% se o vendedor residir em jurisdição de tributação favorecida), de modo que qualquer eficiência internacional depende de estrutura societária externa prévia com substância econômica real e análise de tratado."
+    "to": "Mudar de domicílio tributário para o exterior **antes** do *exit* não afasta, por si só, a tributação brasileira sobre a venda direta de quotas ou ações de uma sociedade sediada no país: pela legislação doméstica (art. 18 da Lei 9.249/1995 e art. 26 da Lei 10.833/2003), o lucro de alienação apurado por não residente sobre ativos situados no Brasil continua sujeito a retenção na fonte pelo comprador (de 15% a 22,5%, ou 25% em paraíso fiscal), de modo que qualquer eficiência depende de veículo estrangeiro prévio com substância econômica real, análise de tratado e revisão por tributarista."
   },
   {
     "id": "4375",
@@ -819,7 +819,7 @@
     "id": "4381",
     "vol": 9,
     "from": "A Receita Federal entende que o ganho de capital se consolida no momento do contrato definitivo, ainda que parte do preco seja diferida e condicionada.",
-    "to": "Para parcelas de *earn-out* pactuadas sob verdadeira condição suspensiva (art. 117, I, do CTN e SC Cosit 96/2026), o fato gerador só ocorre quando a meta se implementa (além de o art. 503 do RIR/2018 permitir diferir o reconhecimento do ganho em vendas de investimento a prazo); contudo, se o contrato for mal redigido como preço fixo a prazo com simples ajuste ou cláusula resolutiva, a Receita Federal exige a tributação pelo regime de competência já no fechamento."
+    "to": "Quando as parcelas de *earn-out* são pactuadas sob verdadeira condição suspensiva (art. 117, I, do CTN), o fato gerador tributário só se concretiza no implemento da meta (além de o art. 503 do RIR/2018 facultar o reconhecimento proporcional por recebimento em vendas de participação permanente a prazo); porém, se a cláusula for mal redigida como preço fixo parcelado ou sob condição resolutiva, o fisco exige a tributação integral já na assinatura do contrato."
   },
   {
     "id": "4392",
@@ -837,7 +837,7 @@
     "id": "4411",
     "vol": 9,
     "from": "123 Milhas foi fundada em 2013 por Ramiro Madeira em Belo Horizonte.",
-    "to": "A 123 Milhas foi fundada em Belo Horizonte pelos irmãos Ramiro Júlio Soares Madureira e Augusto Júlio Soares Madureira, operando na arbitragem de compra de milhas de pessoas físicas e, mais tarde, na venda de passagens e pacotes promocionais com data flexível (até entrar em recuperação judicial em agosto de 2023, processo que seguia em curso em 2026)."
+    "to": "A 123 Milhas foi criada em 2016 em Belo Horizonte pelos irmãos Ramiro Júlio Soares Madureira e Augusto Júlio Soares Madureira para intermediar a compra de milhas de pessoas físicas e emitir bilhetes e pacotes promocionais de data flexível (entrando em recuperação judicial em agosto de 2023, processo ainda em tramitação em 2026)."
   },
   {
     "id": "4412",

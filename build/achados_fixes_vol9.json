@@ -445,7 +445,7 @@
     "vol": "9",
     "code": "C3",
     "from": "Exija anti-dilution covenant que impede migração de clientes sem compensação.",
-    "to": "Exija cláusula de proteção no contrato (*covenant* de integridade da base) que proíba migrar clientes da unidade adquirida para outros produtos do grupo comprador sem compensar integralmente o cálculo do *earn-out*."
+    "to": "Exija cláusula contratual protetiva (*covenant* de preservação da carteira) que vede a transferência dessa receita para outras linhas do grupo comprador sem o correspondente ajuste compensatório na apuração do *earn-out*."
   },
   {
     "id": "3940",
@@ -487,7 +487,7 @@
     "vol": "9",
     "code": "C3",
     "from": "Se o preço é menor que duas a três vezes o valuation, o investidor preferencial recebe mais e o fundador recebe menos.",
-    "to": "Se a venda ocorrer abaixo do valuation pós-rodada da última captação (ou se houver preferência de liquidação participante), a cláusula de preferência faz os investidores receberem primeiro o capital investido e reduz substancialmente a fatia líquida dos fundadores (simule sempre cada cenário na planilha de Waterfall)."
+    "to": "Se a venda sair abaixo do *valuation* pós-rodada da última captação (ou em qualquer faixa de preço quando a cláusula for participante), essa prioridade contratual faz os fundos recuperarem primeiro o capital aportado e comprime a fatia líquida dos sócios operacionais (simule cada faixa na matriz de *Waterfall*)."
   },
   {
     "id": "3952",
@@ -648,7 +648,7 @@
     "vol": "9",
     "code": "N6",
     "from": "instalar **A Arquitetura de Comando Reverso do Board**: onde o CEO lidera a agenda",
-    "to": "instalar **A Regra Zero Surpresa no Conselho**: onde o CEO lidera a pauta, alinha temas críticos individualmente antes da reunião e extrai contribuição real de cada conselheiro"
+    "to": "instalar **A Regra Zero Surpresa no Conselho**: onde o CEO conduz a pauta estratégica e alinha decisões críticas individualmente antes da reunião"
   },
   {
     "id": "4013",
@@ -781,7 +781,7 @@
     "vol": "9",
     "code": "C1",
     "from": "Estimativas apontam que mais de noventa por cento das empresas brasileiras são familiares em alguma forma, e respondem por parcela muito significativa do PIB",
-    "to": "Levantamentos do IBGE, do Sebrae e pesquisas de governança (como a Pesquisa de Empresas Familiares da PwC Brasil) apontam que cerca de 90% das empresas privadas brasileiras têm controle familiar e respondem por fatia expressiva do PIB"
+    "to": "Levantamentos do IBGE, do Sebrae e da PwC Brasil indicam que aproximadamente 90% dos negócios privados no país possuem controle familiar e geram fatia expressiva do PIB"
   },
   {
     "id": "4035",
@@ -935,7 +935,7 @@
     "vol": "9",
     "code": "C3",
     "from": "A enforceabilidade no Brasil é historicamente restritiva pela Justiça do Trabalho quando há desequilíbrio",
-    "to": "Entre sócios na esfera cível, a cláusula de não concorrência vale quando fixa limites objetivos de tempo (referência usual de até cinco anos do art. 1.147 do Código Civil), território e atividade; já se o sócio também era empregado, a Justiça do Trabalho exige compensação financeira mensal proporcional durante o período de restrição"
+    "to": "Entre sócios na esfera cível ou arbitral, a validade da cláusula de não concorrência pede limites claros de prazo (referência usual de até cinco anos pelo art. 1.147 do Código Civil), território e objeto; já quando o retirante tinha vínculo celetista, a jurisprudência trabalhista restringe vetos desproporcionais e cobra contrapartida remuneratória"
   },
   {
     "id": "4067",
@@ -984,7 +984,7 @@
     "vol": "9",
     "code": "C4",
     "from": "Em novembro de 2019, a Profile, agência de comunicação fundada em 2013 por Rodrigo Vieira da Cunha em São Paulo, recebeu a certificação B Corp.",
-    "to": "Quando uma empresa brasileira de serviços ou tecnologia decide submeter sua operação à certificação do Sistema B (B Corp) ou à diligência socioambiental de um fundo institucional, a revisão documental e operacional costuma levar cerca de um ano."
+    "to": "Quando uma empresa brasileira de serviços ou tecnologia decide submeter sua operação à certificação do Sistema B (B Corp) ou à diligência socioambiental de um fundo institucional, o processo exige uma profunda reengenharia estatutária e operacional."
   },
   {
     "id": "4077",
@@ -1054,14 +1054,14 @@
     "vol": "9",
     "code": "C3",
     "from": "É auditoria de pay equity comparando estatisticamente remuneração por grupo demográfico controlando por função e experiência, agora obrigatória pela Lei 14.611",
-    "to": "No Brasil, a **Lei 14.611/2023** obriga empresas com 100 ou mais empregados a publicar semestralmente o Relatório de Transparência Salarial e de Critérios Remuneratórios (elaborado a partir dos dados do eSocial) e, caso sejam identificadas desigualdades injustificadas na mesma função, a implementar Plano de Ação para Mitigação da Desigualdade Salarial; internamente, empresas maduras complementam essa obrigação legal com revisões salariais periódicas por faixa, cargo e senioridade"
+    "to": "No Brasil, a **Lei 14.611/2023** exige a publicação semestral do Relatório de Transparência Salarial (gerado via eSocial) e plano de ação mitigador quando houver desigualdade injustificada, prática que negócios maduros complementam com análise estatística interna de equidade remuneratória por cargo e senioridade, obrigatória"
   },
   {
     "id": "4092",
     "vol": "9",
     "code": "C6",
     "from": "Inclusão real, depois da contratação, depende de comunidades internas (ERGs para mulheres, pessoas negras, LGBTQ+, com mandato e orçamento, não só Slack channel)",
-    "to": "A retenção e a inclusão após a contratação passam tanto pelo cumprimento rigoroso das cotas legais obrigatórias no Brasil (a **cota de Pessoas com Deficiência de 2% a 5% do quadro** para empresas com 100 ou mais empregados, nos termos do art. 93 da Lei 8.213/1991, e a **cota de aprendizes de 5% a 15%** das funções que demandem formação profissional em estabelecimentos de médio e grande porte, conforme o art. 429 da CLT) quanto por grupos internos de afinidade (*ERGs*) com patrocínio executivo"
+    "to": "A retenção e a inclusão após a contratação dependem tanto do cumprimento rigoroso das cotas legais sob risco de autuação (a **cota de Pessoas com Deficiência de 2% a 5% do quadro** a partir de 100 funcionários, pelo art. 93 da Lei 8.213/1991, e a **cota de aprendizes de 5% a 15%** em estabelecimentos de médio e grande porte fora de ME/EPP, pelo art. 429 da CLT) quanto de grupos de afinidade de funcionários (*ERGs*) com orçamento e patrocínio executivo"
   },
   {
     "id": "4093",
@@ -1117,7 +1117,7 @@
     "vol": "9",
     "code": "C7",
     "from": "atenção fiscal redobrada às regras de CFC (Controlled Foreign Corporation)",
-    "to": "atenção fiscal redobrada às regras brasileiras de tributação de controladas no exterior (**Lei 14.754/2023**) e ao fato de que as **Ilhas Cayman integram a lista brasileira de países com tributação favorecida (IN RFB 1.037/2010)**, o que eleva para **25% a alíquota de IRRF** sobre remessas de juros, *royalties* e serviços técnicos do Brasil para Cayman e atrai controle estrito de preços de transferência (Lei 14.596/2023)"
+    "to": "atenção fiscal redobrada às regras brasileiras de tributação anual de controladas no exterior (**Lei 14.754/2023**, exigindo validação prévia com tributarista) e ao enquadramento de **Cayman como jurisdição de tributação favorecida pela Receita Federal (IN RFB 1.037/2010)**, o que eleva para **25% o IRRF** em remessas de juros, remuneração de propriedade intelectual e assistência técnica a partir do Brasil, além de acionar controle rigoroso de preços de transferência (Lei 14.596/2023)"
   },
   {
     "id": "4106",
@@ -1145,7 +1145,7 @@
     "vol": "9",
     "code": "E7",
     "from": "Imagens culturalmente adequadas, com foto de brasileiros usando o produto, não americanos translated.",
-    "to": "Um software brasileiro que entra no México ou na Colômbia precisa substituir exemplos em reais por pesos locais, usar referências visuais e casos de empresas da própria região (como Monterrey, Cidade do México ou Bogotá) e integrar os meios de pagamento locais (SPEI, OXXO, PSE) no lugar de Pix e boleto."
+    "to": "Do mesmo modo, um SaaS brasileiro que expande para o México troca as telas em reais por pesos mexicanos, substitui fotos de São Paulo por referências de Monterrey ou da Cidade do México e adota a cobrança via SPEI e OXXO em vez dos meios bancários domésticos."
   },
   {
     "id": "4110",
@@ -1159,7 +1159,7 @@
     "vol": "9",
     "code": "C4",
     "from": "Loggi teve expansão brasileira seguida de saída de mercados externos, com lição pública clara sobre foco em ganhar Brasil antes de espalhar.",
-    "to": "A Creditas escolheu o México como principal mercado de expansão latino-americana, construindo operação local com adaptação regulatória e de crédito; já o iFood encerrou suas operações na Colômbia em 2022 após anos de queima de caixa frente à Rappi, concentrando capital para defender sua liderança absoluta no Brasil."
+    "to": "Já o iFood encerrou sua operação na Colômbia em 2022 após anos de queima de caixa diante da liderança local da Rappi, demonstrando a disciplina de concentrar capital na defesa da posição dominante no Brasil antes de sustentar frentes externas deficitárias."
   },
   {
     "id": "4114",
@@ -1173,14 +1173,14 @@
     "vol": "9",
     "code": "E9",
     "from": "3. **A Regras de CFC (Lei 14.754/2023):**",
-    "to": "3. **As Regras de Tributação de Controladas no Exterior (Lei 14.754/2023):**"
+    "to": "3. **As Regras de CFC (Lei 14.754/2023):**"
   },
   {
     "id": "4117",
     "vol": "9",
     "code": "N2",
     "from": "ele entrava nos Estados Unidos usando seu visto comum de turista e negócios (B1/B2), trabalhando normalmente da filial americana e fechando contratos locais.",
-    "to": "ele entrava nos Estados Unidos usando seu visto comum de negócios e turismo (B-1/B-2, que permite reuniões comerciais e feiras, mas proíbe trabalho operacional remunerado em solo americano), trabalhando diretamente da filial americana e concentrando quase seis meses de presença física no ano corrente somados às viagens dos dois anos anteriores."
+    "to": "ele ingressava no país com seu visto comum de negócios e turismo (B-1/B-2, restrito a reuniões pontuais, conferências e prospecção, vedado o exercício de atividade executiva local), despachando diariamente do escritório da subsidiária em São Francisco e concentrando mais de 160 dias de estada apenas naquele ano-calendário."
   },
   {
     "id": "4118",
@@ -1250,7 +1250,7 @@
     "vol": "9",
     "code": "C3",
     "from": "Se a CSD não é comunicada, a pessoa continua sendo residente fiscal brasileiro mais residente fiscal no novo país, situação que gera dupla tributação em cenários sem treaty.",
-    "to": "Quem sai do Brasil sem entregar a Comunicação de Saída Definitiva do País (CSDP) continua residente fiscal brasileiro pelos primeiros 12 meses consecutivos de ausência e pode sofrer tributação simultânea nos dois países nesse intervalo, devendo entregar depois a Declaração de Saída Definitiva do País (DSDP)."
+    "to": "Quem deixa o país em caráter permanente sem protocolar a comunicação oficial (CSDP) permanece tributado como domiciliado no Brasil durante os primeiros 12 meses consecutivos de ausência, ficando exposto à bitributação internacional nesse intervalo até a entrega da Declaração Definitiva de Saída do País (DSDP)."
   },
   {
     "id": "4137",
@@ -1299,7 +1299,7 @@
     "vol": "9",
     "code": "C5",
     "from": "O lucro inteiro do contrato de R$ 14 milhões desapareceu na mesa de câmbio em uma única semana.",
-    "to": "Quase 40% do lucro projetado no contrato de R$ 14 milhões desapareceu na variação cambial antes da entrega: com margem líquida prevista de 22% (R$ 3,08 milhões) e 55% dos custos atrelados ao dólar, o salto da moeda de R$ 4,90 para R$ 5,85 corroeu cerca de R$ 1,2 milhão diretamente do resultado."
+    "to": "Quase 40% do lucro do contrato de R$ 14 milhões sumiu na mesa de câmbio em uma única semana: sobre o resultado esperado de R$ 3,08 milhões, a desvalorização do real frente à parcela dolarizada dos insumos comeu cerca de R$ 1,2 milhão da operação."
   },
   {
     "id": "4149",
@@ -1334,7 +1334,7 @@
     "vol": "9",
     "code": "C3",
     "from": "em que empresa terceirizada (Deel, Remote, Papaya Global, Velocity Global, RippleHire) atua como empregador local.",
-    "to": "em que uma plataforma global de Employer of Record (EOR, como Deel, Remote, Papaya Global, Velocity Global ou Rippling) atua como empregadora legal no país (com custo típico de US$ 500 a US$ 1.500 por pessoa ao mês, sendo a abertura de subsidiária própria recomendada a partir de 15 a 20 funcionários locais, conforme o Capítulo 5)."
+    "to": "em que uma plataforma especializada (como Deel, Remote, Papaya Global, Velocity Global ou Rippling) atua como empregador local formal (cobrando em média de US$ 500 a US$ 1.500 mensais por profissional nas tabelas fixas de mercado, com ponto de virada para abertura de filial própria na faixa de 15 a 20 pessoas, conforme visto no Capítulo 5)."
   },
   {
     "id": "4159",
@@ -1432,7 +1432,7 @@
     "vol": "9",
     "code": "C3",
     "from": "Em operação de derivativo (NDF, swap), ISDA Master Agreement com cláusulas de collateral é o piso",
-    "to": "Em operações de derivativos de balcão (NDF, *swap*), no Brasil exige-se a assinatura do **Contrato Global de Derivativos (CGD)** com o banco e o registro obrigatório na **B3**; já para a holding no exterior, o padrão internacional é o **ISDA Master Agreement** acompanhado do anexo de garantias (**CSA, *Credit Support Annex***)"
+    "to": "Em operação de derivativo de balcão (NDF, *swap*), no Brasil o piso documental é o **Contrato Global de Derivativos (CGD)** firmado com a instituição financeira e registrado na **B3**, enquanto para a *holding* no exterior utiliza-se o **ISDA Master Agreement**"
   },
   {
     "id": "4175",
@@ -1649,7 +1649,7 @@
     "vol": "9",
     "code": "C2",
     "from": "Rescisão completa: calcular e pagar dentro dos prazos legais (dez dias da saída para aviso indenizado).",
-    "to": "Quitação das verbas rescisórias e entrega dos documentos: pagamento integral em **até 10 dias corridos contados do término do contrato** (independentemente de o aviso prévio ser trabalhado ou indenizado, conforme a redação dada pela Lei 13.467/2017 ao § 6º do art. 477 da CLT, sob pena de multa de um salário do empregado pelo § 8º do mesmo artigo)."
+    "to": "Rescisão completa: quitar as verbas e entregar as guias para habilitação ao benefício governamental de desemprego em **até 10 dias corridos do término do contrato** em qualquer modalidade de desligamento (art. 477, §§ 6º e 8º, da CLT, sob pena de multa de um salário do empregado)."
   },
   {
     "id": "4233",
@@ -1663,7 +1663,7 @@
     "vol": "9",
     "code": "C3",
     "from": "Se estruturado corretamente, com homologação, pode reduzir significativamente o passivo trabalhista.",
-    "to": "Quando previsto e pactuado formalmente em Acordo Coletivo ou Convenção Coletiva de Trabalho, a adesão ao Plano de Demissão Voluntária ou Incentivada (PDV/PDI) enseja quitação plena e irrevogável dos direitos decorrentes da relação empregatícia, salvo ressalvas expressas (art. 477-B da CLT)."
+    "to": "Quando previsto formalmente em acordo ou convenção coletiva de trabalho, a adesão do empregado ao programa (PDV ou PDI) confere quitação plena e irrevogável dos direitos decorrentes da relação empregatícia, salvo ressalvas expressas (art. 477-B da CLT)."
   },
   {
     "id": "4235",
@@ -1677,7 +1677,7 @@
     "vol": "9",
     "code": "N8",
     "from": "Casos de execução relativamente boa (comunicação transparente, pacotes acima do mínimo, suporte à recolocação) coexistiram com casos de má execução",
-    "to": "No ajuste do mercado brasileiro de tecnologia entre 2022 e 2023, quando dezenas de startups reduziram entre 15% e 30% de suas equipes, a diferença de reputação e retenção ficou evidente: na operação de Rafael e Bia em Recife, o corte único de 22% acompanhado de três meses extras de plano de saúde, pacote de apoio à recolocação e conversa individual olho no olho permitiu que a empresa atingisse o equilíbrio de caixa em sessenta dias com zero pedidos de demissão entre os engenheiros e líderes que permaneceram."
+    "to": "Nesse ciclo de reestruturação (que levou unicórnios brasileiros como Loft, QuintoAndar, Ebanx e Loggi a cortarem entre 10% e 30% do quadro), o exemplo de execução digna na operação de Rafael e Bia em Recife (corte único de 22% com conversa individual, extensão de plano de saúde por três meses e apoio ativo à recolocação, preservando 100% dos líderes remanescentes) contrastou com casos de má execução"
   },
   {
     "id": "4238",
@@ -1719,7 +1719,7 @@
     "vol": "9",
     "code": "S7",
     "from": "As referências à Lei 11.101/2005 (Lei de Recuperação Judicial, Extrajudicial e Falência), à CLT, e ao Código Civil são de domínio público.",
-    "to": "Este capítulo baseia-se na Lei 11.101/2005 (atualizada pela reforma da Lei 14.112/2020), na CLT e no Código Civil, e não substitui assessoria jurídica e contábil especializada."
+    "to": "A análise apoia-se na Lei 11.101/2005 (com as alterações da Lei 14.112/2020), na CLT e no Código Civil."
   },
   {
     "id": "4247",
@@ -1803,7 +1803,7 @@
     "vol": "9",
     "code": "C5",
     "from": "Na prática, o fundador pode ser acionado pessoalmente até quatro ou cinco anos após o encerramento da startup por obrigações trabalhistas.",
-    "to": "O prazo prescricional para o ex-empregado ajuizar reclamação trabalhista é de **dois anos após a extinção do contrato** (art. 7º, XXIX da CF/88), mas uma vez distribuída a ação dentro desse biênio, a fase de liquidação e execução trabalhista (com desconsideração ampla da personalidade jurídica pela Teoria Menor adotada na Justiça do Trabalho) pode perseguir o patrimônio pessoal dos sócios por muitos anos até a satisfação do crédito ou a consumação da prescrição intercorrente por inércia do exequente (art. 11-A da CLT)."
+    "to": "Na prática, desde que a ação seja protocolada dentro desse biênio constitucional (art. 7º, XXIX, da CF/88), a fase de liquidação e execução (agravada pelo redirecionamento amplo da Teoria Menor na Justiça do Trabalho) pode bloquear bens e perseguir o patrimônio pessoal do fundador pela década seguinte, enquanto o credor mantiver o processo ativo sem incorrer na prescrição intercorrente (art. 11-A da CLT)."
   },
   {
     "id": "4267",
@@ -1824,7 +1824,7 @@
     "vol": "9",
     "code": "C5",
     "from": "substitua o DRE mensal por um **Fluxo de Caixa Diário de 13 Semanas** auditado toda segunda-feira às 9h",
-    "to": "complemente o DRE mensal por um **Fluxo de Caixa Semanal de 13 Semanas** revisado toda segunda-feira às 9h (conforme o modelo do Volume 5), travando como linha inegociável o **Piso de Liquidação** trabalhista e fiscal"
+    "to": "além do DRE mensal, mantenha um **Fluxo de Caixa Semanal de 13 Semanas** (conforme o modelo do Volume 5) revisado no início de cada semana"
   },
   {
     "id": "4276",
@@ -1845,7 +1845,7 @@
     "vol": "9",
     "code": "E9",
     "from": "o oposto da visão \"fundador vendido\" coberta em outros capítulos",
-    "to": "o oposto da perspectiva do fundador que vende sua empresa, tratada na Fase 20 deste volume"
+    "to": "o inverso da ótica de quem aliena o próprio negócio na saída societária, tratada na Fase 20 deste volume"
   },
   {
     "id": "4279",
@@ -1915,7 +1915,7 @@
     "vol": "9",
     "code": "N5",
     "from": "inicie relacionamento direto de longo prazo com os donos (sem intermediários) e desenhe seu Playbook Padrão de Integração de 100 Dias.",
-    "to": "abra uma planilha com 15 potenciais alvos de aquisição no seu setor (anotando nome dos sócios, faturamento estimado, existência de sucessores familiares e um contato em comum) e bloqueie duas horas toda segunda-feira para conversar diretamente com um fundador da lista."
+    "to": "anote em uma planilha o nome dos donos, a idade aproximada, a ausência de herdeiros operacionais e um contato em comum, e telefone na semana seguinte para os três primeiros da fila."
   },
   {
     "id": "4293",
@@ -2006,7 +2006,7 @@
     "vol": "9",
     "code": "C7",
     "from": "Ágio por expectativa de rentabilidade futura. Pode gerar benefício fiscal em amortização.",
-    "to": "**Amortização fiscal do ágio por rentabilidade futura (*goodwill*):** no Brasil, a dedutibilidade fiscal do ágio em no mínimo 60 meses (1/60 ao mês na apuração do Lucro Real) **não é automática**; exige estrito cumprimento dos requisitos da **Lei 12.973/2014 (arts. 20 a 22)**, incluindo aquisição entre partes não dependentes, elaboração de laudo de avaliação independente que determine o valor justo dos ativos e passivos da adquirida com protocolo tempestivo na Receita Federal (ou sumário registrado em cartório) e efetiva confusão patrimonial (incorporação da *holding* compradora pela adquirida ou vice-versa) sustentada por propósito negocial real."
+    "to": "**Ágio por expectativa de rentabilidade futura (*goodwill*):** o aproveitamento fiscal em no mínimo 60 meses (1/60 ao mês na apuração contábil) **não é automático**; exige o cumprimento rigoroso da **Lei 12.973/2014 (arts. 20 a 22)**, incluindo operação entre partes não dependentes, laudo de avaliação independente protocolado no prazo legal na Receita Federal (ou sumário registrado em cartório) e efetiva incorporação entre compradora e adquirida com propósito negocial, devendo ser validado com tributarista."
   },
   {
     "id": "4313",
@@ -2027,7 +2027,7 @@
     "vol": "9",
     "code": "C5",
     "from": "a transação foi desenhada com 30% a 50% do preço financiado a prazo pelos próprios vendedores",
-    "to": "a transação foi estruturada com **50% a 70% de capital próprio (*equity*)** e **20% a 40% de financiamento direto pelo próprio vendedor (*seller note* parcelado e vinculado à retenção de contingências)**, evitando dívida bancária cara atrelada ao CDI"
+    "to": "a operação foi desenhada com **50% a 70% de capital próprio (*equity*)** e **20% a 40% de saldo financiado a prazo pelos próprios vendedores**, evitando tomar dívida bancária cara"
   },
   {
     "id": "4316",
@@ -2097,7 +2097,7 @@
     "vol": "9",
     "code": "C3",
     "from": "(art. 21 da Lei nº 9.249/1995 e art. 520 do RIR/2018), **sem apuração de ganho de capital tributável** na criação",
-    "to": "(pelo valor contábil escriturado no balanço da conferente, estruturado como aumento de capital subscrito em ações de S.A. fechada ou via cisão parcial sob o art. 21 da Lei 9.249/1995, sempre com validação prévia de tributarista sobre a ausência de ganho de capital e o propósito negocial da reorganização), **sem apuração imediata de ganho tributável** na criação"
+    "to": "(estruturando o *drop-down* preferencialmente em S.A. fechada ou mediante cisão parcial nos termos do art. 21 da Lei nº 9.249/1995, sempre com validação prévia de tributarista quanto à base legal aplicável e ao propósito negocial da reorganização), **sem apuração imediata de ganho de capital tributável** na criação"
   },
   {
     "id": "4327",
@@ -2146,7 +2146,7 @@
     "vol": "9",
     "code": "N1",
     "from": "A verdade que o mercado de Venture Capital aprendeu na prática é que **um fundador com sete anos de trincheira",
-    "to": "A experiência acumulada pelo mercado de Venture Capital mostra um padrão claro: quando um fundador passa sete anos construindo um ativo valioso mas continua com a vida financeira familiar estrangulada em casa, ele tende a rejeitar apostas de crescimento ou a vender a empresa inteira cedo demais"
+    "to": "Na prática do mercado de Venture Capital, **um fundador após sete anos de operação intensa"
   },
   {
     "id": "4336",
@@ -2174,21 +2174,21 @@
     "vol": "9",
     "code": "C5",
     "from": "o mercado institucional aceita com naturalidade que um fundador venda **entre 10% e 20% da sua própria participação societária**",
-    "to": "o mercado institucional aceita com naturalidade que um fundador realize **entre 5% e 15% da sua própria fatia societária** (desde que o volume secundário total não ultrapasse **10% a 20% do cheque global** da rodada Série B ou C)"
+    "to": "o mercado institucional aceita com naturalidade que um fundador venda **entre 5% e 15% da sua própria participação societária**"
   },
   {
     "id": "4341",
     "vol": "9",
     "code": "C3",
     "from": "como Spectra Investments, Jera Capital, fundos de *Growth* do BTG/XP/Itaú e plataformas globais",
-    "to": "como gestoras locais que atuam em transações secundárias e *late stage* no Brasil (a exemplo da **Spectra Investments** e da **Jera Capital**, além de fundos de *Growth Equity* de casas como BTG Pactual, XP e Itaú) e, para companhias que já possuem *holding* no exterior e escala internacional, fundos globais de secundários (como Lexington Partners e StepStone)"
+    "to": "incluindo casas com mandato para secundários de fundos e participações diretas como **Spectra Investments**, veículos de *Growth* de instituições como BTG Pactual, XP e Itaú, *multi-family offices* como Jera Capital e compradores ou plataformas internacionais"
   },
   {
     "id": "4343",
     "vol": "9",
     "code": "C3",
     "from": "a Receita Federal e o CARF frequentemente autuam a operação",
-    "to": "a Receita Federal costuma autuar a operação (e o CARF historicamente manteve autuações em planos sem risco mercantil) como **remuneração trabalhista disfarçada**, exigindo **IRPF de até 27,5%, contribuição previdenciária patronal (~20% + RAT/Terceiros, chegando a ~28%) e FGTS de 8% com reflexos trabalhistas**"
+    "to": "a Receita Federal costuma autuar a operação (e o CARF já manteve autuações dessa natureza, cabendo notar que a alíquota base do fundo de garantia é de 8%, somada a eventuais reflexos na esfera laboral)"
   },
   {
     "id": "4344",
@@ -2251,7 +2251,7 @@
     "vol": "9",
     "code": "C2",
     "from": "2020 e 2021 foram anos excepcionais. De 2022 a 2024, a janela ficou praticamente fechada.",
-    "to": "2020 e 2021 tiveram janela histórica de liquidez na B3 (com 28 e 46 IPOs realizados, respectivamente). Já entre 2022 e 2025, com a Selic em dois dígitos, a janela de ofertas iniciais de ações na bolsa brasileira permaneceu praticamente fechada, comprovando que o mercado de capitais é profundamente cíclico."
+    "to": "Os anos de 2020 e 2021 registraram liquidez histórica na B3 (com 28 e 46 estreias, segundo dados da própria bolsa). Já de 2022 a 2026, sob juros domésticos em dois dígitos, o mercado primário de ações permaneceu sem novas aberturas de capital, comprovando seu caráter profundamente cíclico."
   },
   {
     "id": "4354",
@@ -2328,7 +2328,7 @@
     "vol": "9",
     "code": "C2",
     "from": "Países com tributação favorável para ganho de capital incluem Portugal (NHR), Emirados Árabes (0%), Estados Unidos (depende da estrutura), entre outros.",
-    "to": "Jurisdições frequentemente analisadas em planejamentos patrimoniais com mudança efetiva e definitiva de residência fiscal incluem **Emirados Árabes Unidos** (0% de imposto sobre ganho de capital para pessoas físicas), **Uruguai** (regime de férias fiscais temporárias para novos residentes sobre rendimentos de capital no exterior) e **Portugal** (por meio do novo regime **IFICI**, introduzido a partir de 2024 após o encerramento do antigo NHR, com requisitos estritos de atividade qualificada), lembrando que os **Estados Unidos tributam a renda e o ganho de capital global** de seus residentes fiscais."
+    "to": "Destinos frequentemente avaliados em planejamentos patrimoniais com saída definitiva incluem **Emirados Árabes Unidos** (alíquota zero para pessoas físicas), **Uruguai** (regime temporário para novos residentes sobre rendimentos no exterior) e **Portugal** (pelo **IFICI**, que substituiu o antigo NHR a partir de 2024 com critérios mais restritos de profissão qualificada), ao passo que os **Estados Unidos tributam a renda mundial** de seus residentes."
   },
   {
     "id": "4376",
@@ -2349,7 +2349,7 @@
     "vol": "9",
     "code": "C3",
     "from": "o ganho liquido aproximado no closing tributa em torno de R$ 5,8 milhoes",
-    "to": "o imposto sobre o ganho de capital devido sobre os R$ 30 milhões recebidos no fechamento é de **R$ 5,625 milhões** (calculado pelas faixas progressivas da Lei 13.259/2016: 15% sobre os primeiros R$ 5 milhões = R$ 750 mil; 17,5% sobre a faixa de R$ 5 milhões a R$ 10 milhões = R$ 875 mil; e 20% sobre a faixa de R$ 10 milhões a R$ 30 milhões = R$ 4,0 milhões)"
+    "to": "o imposto devido na parcela inicial do fechamento, se tratada isoladamente pelas faixas da Lei 13.259/2016, soma exatos **R$ 5,625 milhões** (R$ 750 mil na primeira faixa, mais R$ 875 mil na segunda e R$ 4,0 milhões na terceira, ou cerca de R$ 6,1 milhões caso a alíquota marginal siga o valor global da venda a prazo)"
   },
   {
     "id": "4383",
@@ -2384,7 +2384,7 @@
     "vol": "9",
     "code": "C3",
     "from": "Movile para Naspers/Prosus (vários deals ao longo dos anos com iFood, Sympla, outros)",
-    "to": "A consolidação do **iFood dentro do grupo Movile/Prosus** (culminando na aquisição pela Prosus, em agosto de 2022, dos 33% detidos pela Just Eat Takeaway por até 1,8 bilhão de euros, mantendo autonomia operacional da marca), a venda da **99 para a chinesa Didi Chuxing em janeiro de 2018** (em que os fundadores Ariel Lambrecht, Paulo Veras e Renato Freitas cumpriram a transição e partiram para novos ciclos empreendedores e de investimento) e a aquisição da **RD Station pela TOTVS em 2021** (estruturada com período planejado de transição dos fundadores na unidade de negócios)"
+    "to": "a consolidação societária da **Movile e do iFood pelo grupo Prosus** (que já investia na holding desde 2008 e, em agosto de 2022, comprou os 33% restantes do iFood detidos pela Just Eat Takeaway por até 1,8 bilhão de euros, mantendo Sympla e demais ativos sob gestão dedicada)"
   },
   {
     "id": "4393",
@@ -2398,7 +2398,7 @@
     "vol": "9",
     "code": "N7",
     "from": "elas morrem de uma doença progressiva em cinco estágios que começa exatamente no auge do sucesso",
-    "to": "elas sucumbem a uma doença progressiva em cinco estágios que começa exatamente no topo do sucesso, com a **Arrogância Nascida do Êxito** (Estágio 1), a **Busca Indisciplinada por Mais** (Estágio 2) e a **Negação de Riscos e Perigos** (Estágio 3)"
+    "to": "elas sucumbem a uma patologia progressiva em cinco estágios (visível nas autópsias deste capítulo, como a alavancagem sem lastro da 123 Milhas no Estágio 3 de negação de riscos e perigos) que se instala justamente no topo do sucesso"
   },
   {
     "id": "4406",
@@ -2426,7 +2426,7 @@
     "vol": "9",
     "code": "C3",
     "from": "parte do controle do trio 3G Capital (Lemann, Telles, Sicupira) desde 1982",
-    "to": "tendo o trio de acionistas de referência Jorge Paulo Lemann, Marcel Telles e Carlos Alberto Sicupira no bloco de controle desde 1982 (posteriormente fundadores da 3G Capital em 2004). Em janeiro de 2023, a companhia divulgou fato relevante apontando \"inconsistências contábeis\" preliminares da ordem de R$ 20 bilhões em operações de risco sacado (*forfait*), posteriormente detalhadas pela investigação independente como fraude contábil de R$ 25,3 bilhões, levando a empresa à recuperação judicial com passivo total declarado superior a R$ 42 bilhões."
+    "to": "teve os acionistas de referência Jorge Paulo Lemann, Marcel Telles e Carlos Alberto Sicupira no bloco controlador desde 1982 (trio que mais tarde fundaria a 3G Capital em 2004), até o colapso contábil em operações de risco sacado (*forfait*) que revelou R$ 25,3 bilhões em fraudes apuradas em investigação independente, levou ao pedido de recuperação judicial com passivo superior a R$ 42 bilhões e destruiu dezenas de bilhões em valor de mercado"
   },
   {
     "id": "4416",
@@ -2559,7 +2559,7 @@
     "vol": "9",
     "code": "C7",
     "from": "Se a empresa gera R$ 10M de dividendos, um CEO com 5% recebe R$ 500 mil/ano direto do resultado, pensando exatamente como dono.",
-    "to": "Se a empresa distribui R$ 10 milhões de lucro, um CEO com direito contratual equivalente a 5% recebe R$ 500 mil no ano atrelados diretamente à geração de caixa, pensando como dono (atenção tributária: como pagamentos em dinheiro via *Phantom Dividends* a diretores empregados sofrem incidência de IRPF até 27,5% e encargos previdenciários se pagos fora das regras da Lei 10.101/2000, estruture o incentivo como **PLR formal homologada com metas prévias** ou mediante **ações/quotas preferenciais restritas sem direito a voto**, conforme detalhado no Volume 6)."
+    "to": "Se a empresa gera R$ 10M de dividendos, um CEO com 5% recebe R$ 500 mil/ano direto do resultado, pensando exatamente como dono (ressalva fiscal: sem participação societária efetiva, o pagamento em dinheiro a diretor empregado tende a ser tributado como salário com IRPF de até 27,5% e INSS; estruture a remuneração via **PLR formal sob a Lei 10.101/2000** ou mediante **quotas/ações preferenciais com *vesting***, conforme o Volume 6, Capítulo 16)."
   },
   {
     "id": "4441",
@@ -2573,14 +2573,14 @@
     "vol": "9",
     "code": "C2",
     "from": "na Holding no **Lucro Presumido** a locação paga **11,33% a 14,53%** de tributos federais",
-    "to": "na Holding no **Lucro Presumido** a locação sofre incidência de **11,33% a 14,53%** de tributos corporativos federais (IRPJ, CSLL, PIS e COFINS), devendo-se somar na conta de viabilidade a **tributação sobre a distribuição de dividendos à pessoa física acima dos limites mensais vigentes a partir de 2026** e o regime específico de **IBS e CBS com redutor de alíquota sobre locação e alienação de imóveis (LC 214/2025)**"
+    "to": "na Holding no **Lucro Presumido** a locação paga **11,33% a 14,53%** de tributos federais na pessoa jurídica (devendo-se somar, para o dinheiro chegar ao bolso do sócio a partir de 2026, a retenção de **10% de IRRF sobre dividendos acima de R$ 50 mil/mês** pela Lei 15.270/2025 e o acréscimo de 10% nos percentuais de presunção sobre o faturamento anual que exceder R$ 5 milhões pela LC 224/2025)"
   },
   {
     "id": "4443",
     "vol": "9",
     "code": "C3",
     "from": "(> 50% da receita nos 2 anos anteriores ou 3 anos seguintes)",
-    "to": "(mais de 50% da receita operacional nos 2 anos anteriores e nos 2 anos seguintes à aquisição, ou nos 3 primeiros anos seguintes caso a pessoa jurídica inicie suas atividades após a aquisição, nos termos do art. 37, §§ 1º e 2º do CTN, atento ainda ao fato de que, após o Tema 796 do STF, diversos municípios exigem ITBI sobre a diferença entre o valor venal de mercado e o valor histórico declarado no IRPF)"
+    "to": "(> 50% da receita operacional nos 2 anos anteriores e nos 2 seguintes à aquisição, ou nos 3 primeiros anos se a pessoa jurídica for recém-constituída, conforme o art. 37, §§ 1º e 2º, do CTN, cabendo conferir a prática fiscal da prefeitura local, pois vários municípios cobram o imposto sobre a diferença entre o valor venal e a quantia integralizada)"
   },
   {
     "id": "4444",
@@ -2594,7 +2594,7 @@
     "vol": "9",
     "code": "C3",
     "from": "manter **isenta a variação cambial do capital social investido**",
-    "to": "registrar os lucros no balanço anual da controlada com tributação de 15% na Declaração de Ajuste Anual (observando que, nos termos da **Lei 14.754/2023 e da IN RFB 2.180/2024**, a variação cambial positiva do principal aportado passa a compor o ganho de capital tributável no momento da devolução/redução de capital ou resgate de ações da *offshore*, conforme detalhado no Capítulo 17)"
+    "to": "diferir a tributação sobre a variação cambial positiva do principal aportado até que ocorra efetiva devolução ou redução de capital ou alienação/resgate de cotas da *offshore* (momento em que o ganho cambial é tributado à alíquota de 15% pela **Lei 14.754/2023 e IN RFB 2.180/2024**, conforme visto no Capítulo 18)"
   },
   {
     "id": "4446",
@@ -2657,14 +2657,14 @@
     "vol": "9",
     "code": "E6",
     "from": "Empreender no Brasil é escolher todos os dias **A Ética do Construtor na Trincheira**",
-    "to": "Empreender no Brasil é escolher todos os dias **O Ofício do Construtor que Não Apaga**:"
+    "to": "Empreender no Brasil é escolher todos os dias **O Ofício do Construtor e o Fogo que Não se Apaga**"
   },
   {
     "id": "4455",
     "vol": "9",
     "code": "C5",
     "from": "Se você é o leitor pretendido, ou seja, eu mesmo, relendo em algum momento futuro da minha trajetória, as quase 500 mil palavras aqui reunidas",
-    "to": "Esta coleção foi escrita para acompanhar você, fundador ou fundadora brasileira, ao longo de uma travessia longa, íngreme, frequentemente solitária e sempre mais exigente do que quem nunca assinou uma folha de pagamento imagina. O mais de um milhão de palavras reunido nestes dez volumes"
+    "to": "Para você, fundador ou fundadora que constrói um negócio real no Brasil e consulta esta obra nos momentos de decisão crítica da sua trajetória, as cerca de 1,1 milhão de palavras aqui reunidas nestes dez volumes"
   },
   {
     "id": "4456",

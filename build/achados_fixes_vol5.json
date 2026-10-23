@@ -53,7 +53,7 @@
     "vol": "5",
     "code": "E6",
     "from": "Na Fase 14, você deixa de operar como um garimpeiro em busca de validação e assume a cadeira de engenheiro de alocação de capital.",
-    "to": "Na Fase 14, o foco deixa de ser apenas acelerar o motor comercial e passa a ser medir quantos litros de combustível saem do tanque de caixa para cada real de receita nova."
+    "to": "Na Fase 14, sua prioridade passa a ser medir quanto combustível sai do tanque de caixa para abastecer cada real de receita nova."
   },
   {
     "id": "1928",
@@ -186,7 +186,7 @@
     "vol": "5",
     "code": "N5",
     "from": "**O Ritual de Segunda-Feira às 9h:** Reúna seus sócios na abertura da semana, abra o extrato real ao lado da DRE do mês anterior e calcule na lousa três números inegociáveis",
-    "to": "**O Ritual de Segunda-Feira às 9h (como Marina instituiu na abertura da semana):** toda segunda-feira, abra o extrato bancário conciliado e atualize o **Caixa Disponível e o Runway da semana**; na primeira segunda-feira de cada mês, apure com a DRE fechada a **Queima Líquida Mensal e o Ciclo de Conversão de Caixa (CCC em dias)**; e na primeira segunda-feira de cada trimestre, calcule na lousa o **Burn Multiple** e o **Magic Number** do trimestre encerrado"
+    "to": "**O Ritual de Segunda-Feira às 9h (como Marina instituiu com o extrato bancário aberto):** toda segunda-feira, confira o saldo conciliado e o fôlego semanal; na primeira segunda do mês, apure com a DRE fechada a queima líquida e o giro operacional (CCC); na primeira do trimestre, adicione o Magic Number e consolide na lousa os três indicadores-chave"
   },
   {
     "id": "1952",
@@ -389,7 +389,7 @@
     "vol": "5",
     "code": "C3",
     "from": "O **Strategic Narrative** de Andy Raskin, consultor de pitch que trabalhou com Zuora, Salesforce, GitHub e outras empresas de alto crescimento",
-    "to": "O modelo de **Narrativa Estratégica (*Strategic Narrative*)** sistematizado por Andy Raskin a partir do estudo do deck comercial da Zuora (no ensaio *The Greatest Sales Deck I've Ever Seen*, 2016, estruturado em cinco movimentos: nomear uma grande mudança no mundo, mostrar que haverá vencedores e perdedores, apresentar a terra prometida, introduzir os recursos como 'presentes mágicos' para vencer obstáculos e fechar com a evidência de que o futuro já começou)"
+    "to": "O modelo de **Narrativa Estratégica (*Strategic Narrative*)** sistematizado por Andy Raskin a partir do estudo do deck comercial da Zuora (no ensaio *The Greatest Sales Deck I've Ever Seen*, 2016, estruturado em cinco movimentos: nomear uma transformação inegável no mercado, mostrar que haverá vencedores e perdedores, apresentar a terra prometida, introduzir os recursos como 'presentes mágicos' para vencer obstáculos e fechar com a evidência de que o futuro já começou)"
   },
   {
     "id": "1984",
@@ -529,7 +529,7 @@
     "vol": "5",
     "code": "C3",
     "from": "Limites e alíquotas do Simples Nacional são revisados anualmente pela Receita Federal.",
-    "to": "Limites e tabelas do Simples Nacional são definidos por Lei Complementar (LC 123/2006) e regulamentados pelo Comitê Gestor (CGSN); confira anualmente com o contador eventuais alterações de faixas e sublimites."
+    "to": "Limites e tabelas do Simples Nacional dependem de Lei Complementar (LC 123/2006) e de resoluções do Comitê Gestor (CGSN), devendo suas faixas e sublimites ser conferidos a cada exercício."
   },
   {
     "id": "2011",
@@ -627,7 +627,7 @@
     "vol": "5",
     "code": "E6",
     "from": "é a diferença entre financiar sua própria expansão ou entregar sua margem em guias de DARF.",
-    "to": "e o impacto do sublimite estadual de R$ 3,6 milhões é a diferença entre financiar sua própria expansão com geração interna de caixa e entregar sua margem operacional em guias de DARF e ICMS/ISS."
+    "to": "e o efeito do sublimite estadual de ICMS/ISS é a diferença entre financiar sua própria expansão com recursos próprios e entregar sua margem operacional em guias de DARF."
   },
   {
     "id": "2029",
@@ -655,7 +655,7 @@
     "vol": "5",
     "code": "E9",
     "from": "Alíquota unificada progressiva (seis a trinta e três por cento, no Anexo III, ou V, para serviços, ou tech).",
-    "to": "Alíquota nominal progressiva de 6% a 33% nos Anexos III ou V para serviços e tecnologia (com alíquota efetiva calculada após a parcela a deduzir de cada faixa)."
+    "to": "Alíquota nominal progressiva de 6% a 33% no Anexo III ou V para serviços e tecnologia (com alíquota efetiva apurada após a parcela a deduzir de cada faixa)."
   },
   {
     "id": "2035",
@@ -711,7 +711,7 @@
     "vol": "5",
     "code": "C6",
     "from": "A transformacao de Ltda em S.A. e neutra para fins de IRPJ e CSLL.",
-    "to": "A transformação de Ltda. em S.A. não gera ganho de capital em si, **mas produz um efeito tributário imediato e crítico: Sociedades por Ações (S.A.) são legalmente proibidas de optar pelo Simples Nacional (LC 123/2006, art. 3º, § 4º, X)**, forçando a migração imediata da empresa para o Lucro Presumido ou para o Lucro Real."
+    "to": "A transformação de Ltda. em S.A. é neutra para fins de IRPJ e CSLL na mudança em si, **porém traz uma vedação imediata: Sociedades por Ações (S.A.) são proibidas de permanecer no Simples Nacional (LC 123/2006, art. 3º, § 4º, X)**, obrigando a empresa a migrar para o Lucro Presumido ou para o Lucro Real (simule a nova carga antes de assinar o term sheet)."
   },
   {
     "id": "2047",
@@ -732,7 +732,7 @@
     "vol": "5",
     "code": "N3",
     "from": "**Phantom Stock (modelo alternativo crescente).** Direito a receber dinheiro equivalente à valorização de ações (sem entregar ações).",
-    "to": "**Phantom Stock (ações fantasmas, modelo adotado por Dra. Camila para reter o diretor de operações das clínicas sem diluir o quadro societário da Ltda.).** Direito contratual de receber um bônus em dinheiro atrelado à valorização da empresa ou a metas de geração de caixa, sem emissão de quotas nem entrada no contrato social."
+    "to": "**Phantom Stock (ações fantasmas, modelo adotado por Dra. Camila para reter o diretor de operações das clínicas sem alterar o quadro societário da Ltda.).** Direito contratual de receber pagamento em dinheiro equivalente à valorização das ações ou metas de caixa (sem entregar ações nem emitir quotas)."
   },
   {
     "id": "2050",
@@ -767,7 +767,7 @@
     "vol": "5",
     "code": "C3",
     "from": "Sem proteção da LC 155/2016 (responde por dívidas proporcionalmente).",
-    "to": "Ao ingressar diretamente no quadro societário (quotas ou ações), o investidor deixa de contar com a blindagem específica do contrato de participação da LC 155/2016: embora a responsabilidade ordinária seja limitada ao capital social (na Ltda.) ou ao preço de emissão das ações (na S.A.), na Ltda. o sócio fica mais exposto a pedidos de desconsideração da personalidade jurídica em execuções trabalhistas e fiscais."
+    "to": "Sem a blindagem do contrato de participação da LC 155/2016: a responsabilidade ordinária fica limitada ao capital social (na Ltda.) ou ao preço de emissão (na S.A.), mas na Ltda. há maior exposição a pedidos de desconsideração da personalidade jurídica, especialmente na Justiça do Trabalho."
   },
   {
     "id": "2056",
@@ -872,7 +872,7 @@
     "vol": "5",
     "code": "C3",
     "from": "**A regra geral (LC 116/2003):** O ISS é devido ao município onde o serviço é prestado.",
-    "to": "**A regra geral da LC 116/2003 (art. 3º):** o ISS é devido, como regra geral, ao **município do estabelecimento prestador** (onde fica a sede da sua startup de tecnologia, salvo as exceções expressas nos incisos do art. 3º, como construção civil ou cessão de mão de obra; e lembre-se de que, com a transição para o **IBS** até 2033 pela LC 214/2025, a cobrança migra estruturalmente para o município de destino do tomador)."
+    "to": "**A regra geral da LC 116/2003 (art. 3º):** o ISS é devido ao **município do estabelecimento prestador** (onde fica a sede da sua empresa, salvo as exceções listadas nos incisos do art. 3º; com a transição até 2033 pela LC 214/2025, o **IBS** passa a ser cobrado no destino, esvaziando essa disputa histórica)."
   },
   {
     "id": "2095",
@@ -900,7 +900,7 @@
     "vol": "5",
     "code": "N7",
     "from": "Andy Grove tratava qualquer projeção empresarial como o cálculo de capacidade de uma linha fabril",
-    "to": "Em *High Output Management*, Andy Grove ensinava a olhar uma operação como uma fábrica de café da manhã, na qual a entrega final depende de capacidade instalada, tempo de ciclo e insumo disponível; projetar receita e caixa obedece à mesma lógica operacional"
+    "to": "Em *High Output Management*, Andy Grove ensinava a gerir uma operação como uma fábrica de café da manhã, em que a entrega depende da etapa limitante, do ritmo de produção e dos materiais disponíveis; projetar receita e caixa obedece à mesma física de uma linha fabril"
   },
   {
     "id": "2101",
@@ -1320,14 +1320,14 @@
     "vol": "5",
     "code": "E9",
     "from": "define regras de segregação de conteúdo de clientes para Instituições de Pagamento",
-    "to": "define regras estritas de **segregação patrimonial dos recursos de clientes** mantidos em contas de pagamento e de liquidação centralizada na câmara de pagamentos (CIP/Nuclea)"
+    "to": "define regras estritas de **segregação patrimonial dos recursos de clientes** mantidos em contas de pagamento para Instituições de Pagamento"
   },
   {
     "id": "2210",
     "vol": "5",
     "code": "C3",
     "from": "Marketplace que opera contas de sellers e retém float por mais de 1 dia útil pode precisar de autorização como IP",
-    "to": "Um marketplace que atua na liquidação a *sellers* sem se enquadrar na isenção de marketplace puro (ou que estrutura subcredenciamento ou emissão de moeda eletrônica com contas de pagamento pré-pagas) precisa observar a obrigação de liquidação centralizada na CIP/SLC, a segregação patrimonial dos saldos e os limites regulatórios de volume transacionado (Resoluções BCB 80/2021 e 81/2021 e cronograma de transição do Banco Central) que exigem autorização para funcionar como IP"
+    "to": "Um marketplace que realiza a liquidação aos *sellers* fora da isenção regulatória de intermediário puro (ou que atua como subcredenciador ou emissor de moeda eletrônica) precisa cumprir a liquidação centralizada na câmara (CIP/Nuclea), isolar os saldos de terceiros e observar os tetos de volume transacionado (Resolução BCB 81/2021 e normas vigentes do BC em 2026) que obrigam a pedir autorização como IP"
   },
   {
     "id": "2211",
@@ -1348,7 +1348,7 @@
     "vol": "5",
     "code": "C5",
     "from": "Financiar necessidade recorrente com equity é caro (dilução permanente para resolver problema temporário).",
-    "to": "Financiar necessidade permanente de capital de giro vendendo *equity* entrega participação societária perpétua para cobrir uma conta operacional que deveria ser financiada por prazos de fornecedores ou por linhas rotativas lastreadas nas próprias faturas emitidas."
+    "to": "Financiar necessidade recorrente com *equity* dilui os sócios para sempre a fim de cobrir um ciclo que prazos de fornecedores ou linhas lastreadas em recebíveis cobrem enquanto a operação girar."
   },
   {
     "id": "2215",
@@ -1488,7 +1488,7 @@
     "vol": "5",
     "code": "C5",
     "from": "Use essa ordem de prioridade: (1) FGI com banco parceiro, (2) Pronampe se tiver faturamento,",
-    "to": "Siga esta **ordem de prioridade pelo menor Custo Efetivo Total (CET)**: (1) **Fundos Constitucionais Regionais (FNE/FNO/FCO)** ou **Finep Inovacred** (se elegível por região ou inovação); (2) **Pronampe** (para ME/EPP até R$ 4,8M de faturamento); (3) **Capital de giro ou investimento BNDES acoplado à garantia do FGI PEAC** (nos bancos credenciados); (4) **Antecipação de recebíveis performados ou FIDC multicedente**; e (5) **Crédito bancário privado sem garantia pública** apenas como último recurso,"
+    "to": "Use essa ordem de prioridade pelo menor Custo Efetivo Total (observando que o FGI PEAC não é linha avulsa, mas garantia pública acoplada à operação bancária, e que os fundos regionais do item 3 têm a menor taxa onde disponíveis): (1) **Pronampe** (se tiver faturamento como ME/EPP) ou **Finep Inovacred**, (2) **Linha bancária com garantia FGI PEAC**,"
   },
   {
     "id": "2242",
@@ -1572,7 +1572,7 @@
     "vol": "5",
     "code": "N3",
     "from": "importar diretamente de Shenzhen, na China, o primeiro lote de 500 controladores industriais",
-    "to": "importar direto de Shenzhen, na China, a primeira remessa de 500 controladores industriais (que no primeiro embarque pelo regime comum lhe custaram R$ 492 por peça, mas que já no segundo lote, estruturado via *trading* em Santa Catarina com benefício de **TTD 409** e pleito de **Ex-Tarifário**, caíram para R$ 318 nacionalizados)"
+    "to": "importar diretamente de Shenzhen, na China, o primeiro lote de 500 controladores industriais (que no desembaraço comum sairiam por quase quinhentos reais unitários, mas na segunda remessa, com **TTD 409** em Santa Catarina e **Ex-Tarifário**, baixaram para R$ 318 nacionalizados)"
   },
   {
     "id": "2257",
@@ -1649,7 +1649,7 @@
     "vol": "5",
     "code": "E9",
     "from": "**NCM auditada com lição de anuência (Anvisa/Inmetro/Mapa)**",
-    "to": "**NCM auditada e licenças de anuência prévia (Anvisa, Inmetro, Mapa) já deferidas no Portal Único Siscomex**, **Frete marítimo negociado com 14 a 21 dias de Free Time de contêiner**"
+    "to": "**NCM auditada e licenças de anuência prévia (Anvisa, Inmetro, Mapa) já deferidas no Portal Único Siscomex**"
   },
   {
     "id": "2285",
@@ -1719,7 +1719,7 @@
     "vol": "5",
     "code": "C3",
     "from": "como a empresa não possuía apólice de **D&O (Directors & Officers)**, **E&O (Responsabilidade Civil Profissional)** nem **Seguro Cyber**, cada centavo da defesa teria que sair diretamente do fluxo de caixa",
-    "to": "como a empresa não possuía **Seguro Cibernético (Cyber)**, **RC Profissional (E&O / Responsabilidade Civil Odontológica)** nem **D&O (Directors & Officers)**, toda a conta de perícia forense digital e notificação à ANPD (que o Cyber cobriria) e a defesa patrimonial pessoal de Camila contra o pedido de bloqueio de bens dos administradores (que o D&O ampararia) tiveram que sair diretamente do caixa da clínica, somando-se aos custos próprios da defesa trabalhista da pessoa jurídica"
+    "to": "como a empresa não possuía apólice de **D&O (Directors & Officers)**, **E&O (Responsabilidade Civil Profissional)** nem **Seguro Cyber**, tanto a resposta técnica ao ataque e a comunicação regulatória (cobertas pelo Cyber) quanto a blindagem dos gestores contra a penhora (amparada pelo D&O), além da reclamação trabalhista (que em regra não é segurável e recai sobre o empregador), teriam que sair diretamente do fluxo de caixa"
   },
   {
     "id": "2303",
@@ -1831,7 +1831,7 @@
     "vol": "5",
     "code": "C5",
     "from": "não são cobertas por nenhuma apólice.",
-    "to": "não têm o dano à reputação em si nem a perda futura de vendas cobertos por seguro, embora o custo de gerir a crise e a assessoria de imprensa após um vazamento de dados costume estar coberto na apólice de Seguro Cibernético (*Cyber*)."
+    "to": "não têm o abalo de imagem em si nem a perda comercial cobertos por nenhuma apólice, embora as despesas com assessoria de imprensa e condução da resposta pública após um incidente digital costumem estar previstas no Seguro Cyber."
   },
   {
     "id": "2323",
@@ -1852,7 +1852,7 @@
     "vol": "5",
     "code": "N1",
     "from": "Por que fundadores brilhantes na operação parecem amadores ingênuos quando sentam do outro lado da mesa de um fundo de investimento? Porque eles entram na reunião",
-    "to": "Sete em cada dez startups financiadas por um fundo de *early-stage* morrem pelo caminho ou devolvem no máximo o capital investido. Fundadores brilhantes na operação tropeçam na mesa de captação quando entram na reunião"
+    "to": "A maioria absoluta das apostas de um fundo de *early-stage* fica pelo caminho sem gerar retorno múltiplo. Mesmo assim, fundadores brilhantes na operação tropeçam na mesa de captação quando entram na reunião"
   },
   {
     "id": "2326",
@@ -1894,7 +1894,7 @@
     "vol": "5",
     "code": "C3",
     "from": "Valuation baixo em seed, liquidation preference pesada em Série A, e anti-dilution ratchet. Tudo isso compõe ao longo das rodadas.",
-    "to": "**Distinção entre diluição societária e confisco na liquidação:** um *valuation* excessivamente baixo no Seed e uma cláusula de antidiluição *full ratchet* acionada em uma rodada futura **corroem a participação percentual (*% do cap table*)** dos fundadores; já uma **preferência de liquidação múltipla (2x ou 3x) ou participativa (*double dip*)** na Série A não altera o percentual na tabela societária, mas **confisca a fatia em dinheiro que os fundadores recebem na venda da empresa (*exit*)**, mesmo que eles ainda apareçam com 40% das ações no papel."
+    "to": "Valuation baixo em seed e cláusula de anti-dilution ratchet corroem a participação percentual no cap table ao longo das rodadas; já uma liquidation preference pesada em Série A (múltipla ou participativa) não reduz o percentual de ações, mas corrói o valor em dinheiro destinado aos criadores do negócio na venda (*exit*)."
   },
   {
     "id": "2340",
@@ -1922,7 +1922,7 @@
     "vol": "5",
     "code": "E9",
     "from": "Vesting de founders. os fundadores também vestam o seu equity (mesmo já tendo).",
-    "to": "**Vesting dos fundadores (*Founder Vesting*):** na entrada de um fundo institucional, as ações que os fundadores já detêm costumam ser submetidas a um novo cronograma de aquisição de direitos (tipicamente de 4 anos com 1 ano de *cliff*, descontando-se o crédito já negociado pelo tempo de casa)."
+    "to": "**Vesting dos fundadores (*Founder Vesting*):** na entrada de um fundo institucional, a participação que os fundadores já detêm também fica sujeita a um novo cronograma de consolidação gradual (descontado o tempo já cumprido)."
   },
   {
     "id": "2344",
@@ -2020,7 +2020,7 @@
     "vol": "5",
     "code": "C3",
     "from": "Divórcio com cônjuge no Brasil leva trinta dias no cartório",
-    "to": "Um divórcio consensual no Brasil pode ser assinado em um único dia no cartório; já desfazer a sociedade com um investidor tóxico no seu *Cap Table* consome anos de litígio societário e paralisa as próximas rodadas"
+    "to": "Um divórcio consensual no Brasil pode sair em um único dia no cartório"
   },
   {
     "id": "2361",
@@ -2062,7 +2062,7 @@
     "vol": "5",
     "code": "N7",
     "from": "*Startup Funding Masterclass*, série de posts de Brad Feld (Foundry Group).",
-    "to": "a série clássica *Term Sheet Series*, de Brad Feld e Jason Mendelson (que deu origem ao livro *Venture Deals*), os ensaios *Black Swan Farming* (`paulgraham.com/swan.html`) e *How to Raise Money* (`paulgraham.com/fr.html`), de Paul Graham, e o artigo *Invest in Lines, Not Dots*, de Mark Suster (Upfront Ventures)."
+    "to": "Série clássica *Term Sheet Series*, publicada por Brad Feld no blog da Foundry Group, além dos ensaios *Black Swan Farming* (`paulgraham.com/swan.html`) e *How to Raise Money* (`paulgraham.com/fr.html`) e do artigo *Invest in Lines, Not Dots*, de Mark Suster (Upfront Ventures)."
   },
   {
     "id": "2369",
@@ -2139,14 +2139,14 @@
     "vol": "5",
     "code": "C4",
     "from": "Pipefy em sua Série B (2020). ARR R$ 15 milhões, captou US$ 75 milhões a valuation reportado de US$ 300 milhões. Múltiplo, vinte vezes (era 2020 aquecido).",
-    "to": "Em transações históricas divulgadas pela imprensa especializada no Brasil, veja o contraste entre ciclos: no pico de liquidez de 2021, startups de SaaS B2B em estágio de hipercrescimento como a **Pipefy** captaram rodadas internacionais (Série C de US$ 75 milhões) a múltiplos estimados pelo mercado acima de 15x a 20x ARR; já em aquisições estratégicas de empresas de software consolidadas no país, como a compra da **RD Station pela TOTVS em 2021** (avaliada em cerca de R$ 2 bilhões sobre receita recorrente projetada próxima de R$ 200M a R$ 250M na época), os múltiplos refletem fundamentos auditados de crescimento combinado com geração futura de caixa."
+    "to": "Pipefy na Série C (2021): captou US$ 75 milhões no pico de liquidez global para SaaS B2B, em rodada com múltiplo estimado pela imprensa especializada na faixa de 15x a 20x o ARR."
   },
   {
     "id": "2397",
     "vol": "5",
     "code": "C4",
     "from": "ContaAzul antes de deal Stone. Receita cerca de R$ 80 milhões, valoração pré-IPO cerca de R$ 500 milhões (cerca de seis vezes).",
-    "to": "No caso real da aquisição da RD Station pela TOTVS anunciada em 2021 (Fato Relevante público na B3), a operação avaliou 100% da empresa em cerca de R$ 2 bilhões (R$ 1,86 bilhão por 92% do capital) para uma receita líquida projetada de R$ 206 milhões em 2021, implicando um múltiplo próximo de 9,7x a receita anual em uma transação estratégica de controle."
+    "to": "Na operação efetiva da RD divulgada em Fato Relevante na B3 (março de 2021), a compradora pagou R$ 1,86 bilhão por 92% do capital (avaliando 100% do negócio próximo a R$ 2 bilhões) sobre receita líquida projetada de R$ 206 milhões naquele ano, o que equivaleu a aproximadamente 9,7x a receita anual."
   },
   {
     "id": "2398",
@@ -2167,7 +2167,7 @@
     "vol": "5",
     "code": "C3",
     "from": "Valor presente dos FCFs, cerca de R$ 150 milhões.",
-    "to": "Descontando impostos sobre o lucro (34%), reinvestimento em CapEx e necessidade de capital de giro para chegar ao **Fluxo de Caixa Livre para a Firma (FCFF)** de uma empresa em crescimento, o **Valor Presente dos FCFFs explícitos dos Anos 1 a 5 (a WACC de 15% ao ano)** soma cerca de **R$ 95 milhões**, enquanto o **Valor Presente do Valor Terminal** responde pela maior fatia da avaliação."
+    "to": "Descontando impostos sobre o lucro (34%), reinvestimento em CapEx e variação de capital de giro para apurar o **Fluxo de Caixa Livre da Firma (FCFF)** de uma empresa em crescimento, a soma trazida a valor presente para os FCFFs dos Anos 1 a 5 (a WACC de 15% ao ano) fica próxima de **R$ 95 milhões**."
   },
   {
     "id": "2401",
@@ -2188,7 +2188,7 @@
     "vol": "5",
     "code": "C5",
     "from": "acreditavam que ainda detinham 85% da empresa",
-    "to": "acreditavam que ainda detinham **75% da empresa** (já que na rodada Seed institucional de R$ 6 milhões haviam diluído 15% para o fundo líder e reservado 10% de *pool*, depois de Marina ter vetado no décimo mês de vida da empresa uma proposta amadora que pedia 35% por um cheque anjo)"
+    "to": "acreditavam que ainda detinham **75% da empresa** (pois na captação Seed institucional de R$ 6 milhões haviam cedido 15% ao fundo líder e separado 10% para o *pool* de opções, após Marina ter barrado no décimo mês de operação uma proposta amadora que exigia 35% por um cheque anjo)"
   },
   {
     "id": "2409",
@@ -2300,14 +2300,14 @@
     "vol": "5",
     "code": "N3",
     "from": "comprar equipamentos em comodato para clientes enterprise",
-    "to": "financiar a expansão da máquina comercial e o capital de giro de implantação dos contratos *enterprise*"
+    "to": "sustentar o capital de giro de implantação dos novos clientes *enterprise*"
   },
   {
     "id": "2440",
     "vol": "5",
     "code": "C5",
     "from": "Doze meses depois, a dívida estava praticamente quitada pelo próprio fluxo de caixa gerado pelas novas safras de clientes",
-    "to": "Apoiada pelo caixa robusto e pela governança da rodada Seed recente de R$ 6 milhões, Marina estruturou uma linha de **RBF e Venture Debt de 24 meses** com *cap* de retorno de 1,38x e *warrants* inferiores a 1% de diluição, amortizada com **10% da receita mensal** das novas safras. Doze meses depois, mais da metade do saldo já havia sido amortizada pelo próprio fluxo de caixa dos novos contratos e a empresa entrou na Série A com o dobro do ARR, preservando cerca de **17 pontos percentuais de participação societária**"
+    "to": "Apoiada pelo balanço capitalizado da captação Seed recente de R$ 6 milhões, a linha foi contratada pelo prazo de 24 meses (com teto de pagamento de 1,38x o principal e amortização equivalente a 10% do faturamento mensal); um ano depois, mais da metade do saldo devedor já havia sido liquidada pelo próprio fluxo de caixa gerado pelas novas safras de clientes"
   },
   {
     "id": "2442",
@@ -2328,7 +2328,7 @@
     "vol": "5",
     "code": "C2",
     "from": "A regulação define teto de captação (atualmente R$ 15 milhões por empresa em doze meses)",
-    "to": "A **Resolução CVM 88/2022** define os parâmetros oficiais vigentes da modalidade: **teto de captação de até R$ 15 milhões por emissor** (para sociedades empresárias de pequeno porte com receita bruta anual de até R$ 40 milhões individuais ou R$ 80 milhões no grupo econômico no exercício anterior), **prazo máximo de oferta de 180 dias**, **direito de desistência do investidor por pelo menos 5 dias** após a confirmação e **limite anual de investimento de R$ 20 mil por ano-calendário para investidores de varejo em geral** (subindo para até 10% da renda bruta anual ou do patrimônio financeiro para quem declara acima de R$ 200 mil, e sem limite para investidores qualificados)"
+    "to": "A norma (arts. 3º e 4º, conferida em 2026) fixa **teto de captação de R$ 15 milhões** para sociedades empresárias de pequeno porte (receita bruta anual até R$ 40 milhões isolada ou R$ 80 milhões no grupo econômico), **prazo máximo de 180 dias por oferta**, **período mínimo de 5 dias para desistência** sem multa e **teto anual de R$ 20 mil por ano-calendário para o investidor geral** (ampliado a 10% para quem comprova ganhos ou ativos financeiros acima de R$ 200 mil, e livre para qualificados)"
   },
   {
     "id": "2446",
@@ -2370,7 +2370,7 @@
     "vol": "5",
     "code": "C2",
     "from": "As Resolucoes BCB 519, 520 e 521, todas de 10 de novembro de 2025, com vigencia a partir de 2 de fevereiro de 2026",
-    "to": "As Resoluções BCB nº 519, 520 e 521 (publicadas pelo Banco Central na regulamentação da Lei 14.478/2022 e do Decreto 11.563/2023, que designou o BCB como supervisor das Prestadoras de Serviços de Ativos Virtuais, PSAVs/VASPs; confira sempre no portal do BCB as normas complementares vigentes em 2026)"
+    "to": "As Resoluções BCB 519, 520 e 521, editadas em novembro de 2025 com vigência em fevereiro de 2026 (após o Decreto 11.563/2023 ter atribuído a competência regulatória à autarquia; confira no portal oficial eventuais atualizações posteriores)"
   },
   {
     "id": "2454",

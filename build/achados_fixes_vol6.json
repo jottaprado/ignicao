@@ -11,7 +11,7 @@
     "vol": "6",
     "code": "C5",
     "from": "Quando a empresa bateu R$ 180 mil de MRR, eles contrataram três vendedores plenos",
-    "to": "Dois anos antes de chegar aos R$ 650 mil de MRR (quando ainda esqueciam a lição do vendedor sênior contratado a R$ 15 mil de MRR no início da jornada, ver Volume 4), logo que a empresa bateu R$ 180 mil de MRR, eles contrataram três vendedores plenos"
+    "to": "Dois anos antes (esquecendo o tropeço com o vendedor sênior contratado quando tinham apenas R$ 15 mil de receita recorrente, ver Volume 4), assim que a empresa bateu R$ 180 mil de MRR, eles contrataram três vendedores plenos"
   },
   {
     "id": "2465",
@@ -60,7 +60,7 @@
     "vol": "6",
     "code": "S4",
     "from": "Comece depois da Fase 14 (Time + Operações) em operação estável.",
-    "to": "Comece depois da Fase 14 (Capital para escala), com o plano de capital definido."
+    "to": "Comece depois da Fase 14 (Capital para escala), com a estratégia de financiamento definida."
   },
   {
     "id": "2473",
@@ -347,7 +347,7 @@
     "vol": "6",
     "code": "E3",
     "from": "o estudo mais rigoroso já feito em sales",
-    "to": "um dos maiores estudos de campo já realizados sobre vendas complexas"
+    "to": "um dos maiores estudos de campo já realizados na área comercial"
   },
   {
     "id": "2523",
@@ -410,7 +410,7 @@
     "vol": "6",
     "code": "N7",
     "from": "Gino Wickman, em *Traction*, chama esse fenômeno de **Bater no Teto (*Hitting the Ceiling*)**, e a matemática das redes explica o motivo",
-    "to": "Gino Wickman, em *Traction*, chama de **Bater no Teto (*Hitting the Ceiling*)** o momento em que a forma atual de liderar perde capacidade para o próximo salto, e a aritmética das redes mostra por quê (com 7 pessoas existem 21 canais possíveis de comunicação; com 50 pessoas, existem **1.225 canais possíveis**)"
+    "to": "Gino Wickman, em *Traction*, chama de **Bater no Teto (*Hitting the Ceiling*)** o momento em que o modelo atual de gestão perde capacidade para o próximo salto, e a aritmética combinatória das redes explica o motivo"
   },
   {
     "id": "2551",
@@ -487,7 +487,7 @@
     "vol": "6",
     "code": "C5",
     "from": "A faixa ampla \"zero vírgula cinco a cinco por cento\" desta linha é a envoltória que cobre os três perfis",
-    "to": "Resumindo as faixas de referência por perfil (a calibrar conforme o estágio e o pool disponível): Perfil A (sênior com perfil de futuro executivo) entre 1% e 5%; Perfil B (generalista de alto potencial) entre 0,25% e 1%; e Perfil C (especialista técnico crítico) entre 0,5% e 2%"
+    "to": "O intervalo global de 0,25% a 5% (referência que deve ser calibrada conforme o estágio do negócio e a reserva de opções disponível) funciona apenas como a moldura geral desses três grupos"
   },
   {
     "id": "2567",
@@ -564,7 +564,7 @@
     "vol": "6",
     "code": "E7",
     "from": "Exemplos de valores com trade-offs explícitos. \"High agency.",
-    "to": "Exemplos de valores em português com escolhas explícitas: \"Autonomia com responsabilidade: esperamos que você decida sem pedir permissão a toda hora, *mesmo que isso signifique errar mais vezes*.\" \"Franqueza direta: damos feedback honesto e imediato, *mesmo quando a conversa é desconfortável*.\" \"Foco na dor real do cliente: ouvimos o problema do cliente antes da nossa intuição interna.\""
+    "to": "Exemplos de valores com escolhas explícitas (traduzindo na prática princípios como autonomia, franqueza direta e obsessão pelo usuário): \"Autonomia responsável."
   },
   {
     "id": "2578",
@@ -662,7 +662,7 @@
     "vol": "6",
     "code": "E9",
     "from": "Múltiplos accountable/decide: \"decisão conjunta\" = sem decisão, Confundir consulted com approver",
-    "to": "Armadilhas comuns: 1) Múltiplos responsáveis finais (*Accountable* ou *Approver*): \"decisão conjunta\" vira decisão de ninguém; 2) Confundir consultado (*Consulted*) com aprovador (*Approver*); 3) Usar RACI para decisões estratégicas ou DACI para rotinas operacionais"
+    "to": "Principais armadilhas de governança: (1) Múltiplos donos finais (*Accountable* ou *Decider*), já que \"decisão conjunta\" equivale a ausência de decisão; (2) Confundir consultado (*Consulted*) com aprovador (*Approver*)"
   },
   {
     "id": "2596",
@@ -683,7 +683,7 @@
     "vol": "6",
     "code": "E9",
     "from": "Pular reference checks: 50% dos candidatos inflamam passado",
-    "to": "Pular a checagem de referências: muitos candidatos inflam o próprio histórico em entrevistas"
+    "to": "pular a checagem de referências: muitos candidatos inflam o próprio histórico em entrevistas"
   },
   {
     "id": "2600",
@@ -732,7 +732,7 @@
     "vol": "6",
     "code": "E9",
     "from": "Keeper test como eufemismo para \"demitir qualquer um\": baratel cultura, gera medo",
-    "to": "Usar o *Keeper Test* como desculpa para demitir qualquer pessoa a qualquer momento barateia a cultura e espalha medo"
+    "to": "usar o *Keeper Test* como desculpa para demitir qualquer pessoa a qualquer momento: barateia a cultura e espalha medo"
   },
   {
     "id": "2608",
@@ -837,7 +837,7 @@
     "vol": "6",
     "code": "E9",
     "from": "Implementar primeira matriz formal de performance avaliation, não complexa, mas existente.",
-    "to": "Implantar a primeira matriz formal de avaliação de desempenho, simples mas documentada, com ciclos estruturados nos quais líderes avaliam a equipe e o fundador avalia os líderes (sem isso, promoções, reajustes e desligamentos viram politicagem em vez de mérito)."
+    "to": "Implantar a primeira matriz formal de avaliação de desempenho, simples, mas documentada e existente (para que reajustes e promoções reflitam resultados objetivos, não politicagem interna)."
   },
   {
     "id": "2631",
@@ -872,7 +872,7 @@
     "vol": "6",
     "code": "C5",
     "from": "Pipeline estagna porque só você fecha ou tempo seu em deals < 20% do total de trabalho",
-    "to": "Pipeline estagna porque só você fecha contratos grandes, ou o seu tempo gasto em negociações comerciais passa de 50% da semana e você não consegue documentar o processo no papel"
+    "to": "Pipeline estagna porque só você fecha contratos maiores, ou sua agenda em negociações comerciais passa de 50% da semana (faltando tempo para documentar o processo no papel)"
   },
   {
     "id": "2636",
@@ -998,7 +998,7 @@
     "vol": "6",
     "code": "E7",
     "from": "Requer governança clara de areas of ownership.",
-    "to": "Exige regras claras sobre quem é dono de cada parte da jornada e do produto."
+    "to": "Exige regras claras sobre quem responde por cada etapa da jornada do usuário."
   },
   {
     "id": "2661",
@@ -1145,7 +1145,7 @@
     "vol": "6",
     "code": "E9",
     "from": "desconto de 15% a 20% em exchange por compromisso de dois ou três anos.",
-    "to": "desconto de 15% a 20% em troca de um compromisso contratual firme de dois ou três anos."
+    "to": "redução de 15% a 20% no preço mediante compromisso contratual firme de dois ou três anos."
   },
   {
     "id": "2692",
@@ -1285,14 +1285,14 @@
     "vol": "6",
     "code": "C3",
     "from": "lead que é contactado em cinco minutos tem probabilidade de conversão vinte e uma vezes maior do que lead contactado em trinta minutos, segundo dados clássicos do MIT.",
-    "to": "um estudo clássico conduzido por James Oldroyd e pela InsideSales (publicado na *Harvard Business Review*, 2007/2011) mostrou que a probabilidade de conseguir contato e qualificar um lead contatado em até cinco minutos é 21 vezes maior do que quando o retorno demora trinta minutos."
+    "to": "um estudo clássico de James Oldroyd e da InsideSales (publicado na *Harvard Business Review*, 2007/2011) mostrou que a chance de qualificar um lead contatado em cinco minutos é vinte e uma vezes maior do que quando o retorno leva trinta minutos."
   },
   {
     "id": "2715",
     "vol": "6",
     "code": "S5",
     "from": "Se o win rate histórico é 30%, você precisa de 3,3x de pipeline para ter alta confiança de atingir a meta.",
-    "to": "Se a taxa histórica de conversão (*win rate*) é de 30%, uma cobertura de 3,3x apenas empata com a meta na média matemática; para ter alta confiança de bater a meta, some uma margem de segurança (operando com 4x a 4,5x)."
+    "to": "Se o win rate histórico é de 30%, uma cobertura de 3,3x de pipeline apenas empata com a meta na média matemática; para ter alta confiança de atingir a meta, some uma margem de segurança (operando entre 4x e 4,5x)."
   },
   {
     "id": "2716",
@@ -1516,7 +1516,7 @@
     "vol": "6",
     "code": "C5",
     "from": "para fechar um ticket de R$ 690 por mês",
-    "to": "quando lançaram a linha de entrada para pequenas oficinas do interior e tentaram fechar um ticket de R$ 290 por mês (cujo payback contra o CAC de R$ 6.000 passava de 20 meses)"
+    "to": "para fechar uma assinatura de R$ 690 por mês nessa faixa voltada a negócios menores (abaixo dos planos corporativos de R$ 1.490+)"
   },
   {
     "id": "2775",
@@ -1565,14 +1565,14 @@
     "vol": "6",
     "code": "E2",
     "from": "Raro, trabalhoso, poderoso quando dá certo.",
-    "to": "Produto conjunto é raro e dá trabalho, mas quando funciona cria uma oferta que nenhuma das duas empresas entregaria sozinha."
+    "to": "É um formato raro e trabalhoso, mas poderoso quando dá certo."
   },
   {
     "id": "2782",
     "vol": "6",
     "code": "E9",
     "from": "qual problema compartilhado, qual acúmulo mútuo",
-    "to": "qual problema as duas empresas resolvem juntas e o que cada uma ganha de forma mensurável (cuidando da rotina, porque relacionamento de parceria esfria quando ninguém acompanha as metas)"
+    "to": "qual problema as duas resolvem juntas e o que cada uma ganha na prática"
   },
   {
     "id": "2783",
@@ -1607,14 +1607,14 @@
     "vol": "6",
     "code": "E8",
     "from": "OEM (Original Equipment Manufacturer, fabricante que embute produto de outro no próprio)",
-    "to": "OEM é a modalidade em que o seu produto entra embutido na solução de terceiro, em formato white-label ou co-branded (ver glossário do volume para as demais siglas de canal)"
+    "to": "OEM (conforme definido na abertura do capítulo e no glossário do volume)"
   },
   {
     "id": "2791",
     "vol": "6",
     "code": "E9",
     "from": "A regra do setenta-vinte aplica-se com fidelidade.",
-    "to": "Vale a regra de Pareto (80/20): de 70% a 80% da receita indireta vem de 20% dos parceiros. Não distribua o esforço igualmente: os gerentes de contas de canal (CAMs, ou *Channel Account Managers*) acompanham os maiores parceiros toda semana, o grupo intermediário uma vez por mês e a cauda longa por portal de autoatendimento."
+    "to": "Vale aqui o princípio de Pareto (a clássica proporção 80/20 na gestão de canais pelos gerentes de parcerias, ou CAMs)."
   },
   {
     "id": "2792",
@@ -1747,7 +1747,7 @@
     "vol": "6",
     "code": "N3",
     "from": "Durante dois anos, Rafael havia tratado **Marca e Relações Públicas (PR)** como \"despesa fútil de agência para ganhar prêmio\"",
-    "to": "Durante dois anos, Rafael, que havia saído de grandes agências de publicidade justamente por desprezar campanhas criadas só para ganhar prêmio criativo, tratou **Marca e Assessoria de Imprensa** como vaidade e investiu 100% do orçamento em mídia de clique imediato"
+    "to": "Durante dois anos, Rafael, que havia saído de agências justamente por desprezar campanhas feitas só para ganhar prêmio criativo, tratou **Marca e Relações Públicas (PR)** como vaidade"
   },
   {
     "id": "2820",
@@ -1775,7 +1775,7 @@
     "vol": "6",
     "code": "E9",
     "from": "Formato. Aula ao vivo, ou participação em painéis de curso. Custo. Tempo. Retorno. Rede, e reputação.",
-    "to": "Dar aulas ao vivo ou participar de painéis na FGV, no Insper, no Ibmec ou na Fundação Dom Cabral custa tempo da liderança e devolve rede de contatos e reputação entre futuros executivos."
+    "to": "Dar aulas ao vivo ou participar de painéis nessas instituições custa tempo da liderança, mas devolve rede de contatos e reputação entre futuros executivos."
   },
   {
     "id": "2826",
@@ -1957,7 +1957,7 @@
     "vol": "6",
     "code": "N6",
     "from": "Chamamos o erro de Lucas de **A Cegueira da Delegação Cega (Abdicação)**.",
-    "to": "Como resumiu Andy Grove em *High Output Management*, delegar sem acompanhar é abdicar. Chamamos o antídoto operacional que Lucas adotou de **Inspeção por Amostragem**."
+    "to": "Na síntese clássica de Grove, delegar sem acompanhar equivale a abdicar da função executiva."
   },
   {
     "id": "2888",
@@ -1978,14 +1978,14 @@
     "vol": "6",
     "code": "C4",
     "from": "\"Você não gerencia pessoas. Você gerencia pessoas através do trabalho\"",
-    "to": "Segundo o relato público de Chesky sobre sua conversa com Jony Ive (ex-chefe de design da Apple), a síntese em tradução livre foi direta: você gerencia pessoas acompanhando de perto a qualidade do trabalho que elas entregam"
+    "to": "Em tradução livre do relato de Chesky na palestra da Y Combinator (2024): não se gerenciam pessoas no abstrato, gerenciam-se pessoas por meio do trabalho que realizam"
   },
   {
     "id": "2893",
     "vol": "6",
     "code": "E9",
     "from": "Ordens de grandeza maior, que em corporate maduro. Fundador que \"delega e some\" não cria as condições para o VP succeder.",
-    "to": "A rotatividade de executivos no primeiro ano é bem mais alta em startups do que em empresas maduras. O fundador que delega e some não cria as condições mínimas para o novo VP dar certo."
+    "to": "O índice supera com folga o de empresas maduras, porque o fundador que \"delega e some\" não cria as condições para o VP dar certo."
   },
   {
     "id": "2894",
@@ -2020,7 +2020,7 @@
     "vol": "6",
     "code": "C5",
     "from": "Revisar PRs de engenharia pontuais.",
-    "to": "Aprovar todos os PRs rotineiros de engenharia em vez de inspecionar apenas pull requests críticos por amostragem (enquanto reuniões operacionais que não deveriam ser suas consomem 30% ou mais da semana)."
+    "to": "Aprovar todo PR rotineiro de engenharia em vez de ler por amostragem apenas os pull requests críticos da arquitetura."
   },
   {
     "id": "2902",
@@ -2223,14 +2223,14 @@
     "vol": "6",
     "code": "N2",
     "from": "Chamamos a omissão de Henrique de **A Crueldade da Empatia Ruinosa**",
-    "to": "Aos 45 funcionários, Henrique teve a conversa franca que adiara por dez meses, acordou um plano objetivo de 30 dias com Rodrigo e instalou o primeiro ciclo semestral calibrado da empresa. O hábito que ele corrigiu a tempo é o que Kim Scott batizou de **Empatia Ruinosa**"
+    "to": "Aos 45 colaboradores, Henrique finalmente teve a conversa franca com Rodrigo, combinou um plano claro de 30 dias e implantou o primeiro ciclo semestral calibrado após encerrar o vínculo sem surpresas. Essa demora ilustra o que a autora batizou de **Empatia Ruinosa**"
   },
   {
     "id": "2953",
     "vol": "6",
     "code": "N7",
     "from": "**fugir do feedback duro não é empatia pelo funcionário fraco; é covardia gerencial que pune os seus melhores profissionais**",
-    "to": "fugir do feedback duro não é empatia pelo funcionário fraco; é o que Kim Scott chama de empatia ruinosa, uma omissão gerencial que pune os seus melhores profissionais"
+    "to": "fugir do feedback duro não é empatia pelo funcionário fraco; é uma omissão gerencial que pune os seus melhores profissionais"
   },
   {
     "id": "2954",
@@ -2244,7 +2244,7 @@
     "vol": "6",
     "code": "E12",
     "from": "E conexão formal entre avaliação, e decisões, de carreira, e remuneração.",
-    "to": "E a ligação formal entre a avaliação de desempenho e as decisões de carreira e de remuneração."
+    "to": "E a ligação formal entre a avaliação e as decisões de carreira e de remuneração."
   },
   {
     "id": "2956",
@@ -2412,7 +2412,7 @@
     "vol": "6",
     "code": "C7",
     "from": "Auxílio pago como **ressarcimento de despesas** (com comprovação ou sem, dependendo da estrutura) não incide INSS nem IR até os limites definidos pela Receita.",
-    "to": "O auxílio de teletrabalho previsto em contrato escrito ou aditivo (art. 75-D da CLT) e vinculado ao **reembolso comprovado de despesas operacionais** (internet, energia, ergonomia) reduz o risco de incidência de INSS e IRPF; já o pagamento de valor fixo mensal sem comprovação de gastos tende a ser reclassificado como parcela salarial (valide a regra com o contador)."
+    "to": "O auxílio de teletrabalho previsto em contrato escrito (art. 75-D da CLT) como **ressarcimento de despesas** comprovadas (internet, luz, ergonomia) reduz o risco de incidência de INSS e IR; já um valor fixo mensal sem comprovação tende a ser tratado como parcela salarial (valide o desenho com o contador)."
   },
   {
     "id": "2989",
@@ -2461,7 +2461,7 @@
     "vol": "6",
     "code": "C7",
     "from": "PLR paga três vezes por ano perde o benefício fiscal na terceira parcela.",
-    "to": "Pagar PLR mais de duas vezes no mesmo ano civil, ou com periodicidade inferior a um trimestre civil (Lei 10.101/2000, art. 3º, § 2º), pode descaracterizar o programa inteiro perante a Receita Federal e o CARF, gerando cobrança retroativa de encargos previdenciários sobre todas as parcelas pagas."
+    "to": "Pagar PLR mais de duas vezes no ano, ou com intervalo menor que um trimestre civil (Lei 10.101/2000, art. 3º, § 2º), pode descaracterizar o programa inteiro perante a Receita Federal e o CARF, gerando cobrança de encargos previdenciários sobre o montante total distribuído."
   },
   {
     "id": "2996",
@@ -2475,7 +2475,7 @@
     "vol": "6",
     "code": "C7",
     "from": "para premiar o atingimento de metas sem pagar 28%+ de encargos previdenciários sobre o bônus?",
-    "to": "para premiar o atingimento de metas sem encargo previdenciário via **PLR (Lei 10.101/2000)**, mantendo os benefícios do **PAT** estritamente restritos à segurança alimentar (nunca vinculados a metas de desempenho, sob pena de descaracterização salarial)?"
+    "to": "separando claramente os papéis: usar a participação nos lucros para premiar o atingimento de metas sem pagar 28%+ de encargos previdenciários sobre o bônus, e manter o auxílio-alimentação restrito à nutrição do trabalhador (sem jamais atrelá-lo a performance)?"
   },
   {
     "id": "3000",
@@ -2531,7 +2531,7 @@
     "vol": "6",
     "code": "C3",
     "from": "Em setembro de 2024 a Primeira Secao do STJ firmou no Tema 1.226 que stock options tem natureza mercantil para fins de IR (RE 2.069.644 e 2.074.564).",
-    "to": "Em setembro de 2024, a Primeira Seção do STJ firmou no Tema Repetitivo 1.226 (REsp 2.069.644/SP e REsp 2.074.564/SP) que os planos de *stock options* têm natureza mercantil para fins de Imposto de Renda da Pessoa Física (IRPF), incidindo imposto apenas sobre o ganho de capital na revenda das ações. A discussão sobre incidência de contribuição previdenciária (INSS) em planos questionados pela fiscalização, contudo, segue exigindo acompanhamento jurídico específico."
+    "to": "Em setembro de 2024, a Primeira Seção do STJ firmou no Tema Repetitivo 1.226 (REsp 2.069.644/SP e REsp 2.074.564/SP) que os planos de *stock options* têm natureza mercantil para fins de Imposto de Renda."
   },
   {
     "id": "3013",
@@ -2594,7 +2594,7 @@
     "vol": "6",
     "code": "C7",
     "from": "Ao fechar Série A e ter S/A estruturada, converter phantom shares para stock options reais permite que o colaborador tenha instrumento com melhor tratamento tributário potencial.",
-    "to": "Ao fechar a Série A e constituir uma S.A., a migração de *phantom shares* para opções reais exige parecer jurídico e contábil prévio (pois dar quitação de um direito acumulado em dinheiro em troca de opções pode ser interpretado como fato gerador tributário; na prática, costuma-se encerrar formalmente o plano anterior e outorgar um novo plano mercantil amparado em laudo de avaliação)."
+    "to": "Ao fechar a Série A e ter uma S.A. estruturada, substituir *phantom shares* por *stock options* exige parecer jurídico prévio: converter um saldo acumulado em dinheiro pode gerar tributação imediata de IR e INSS, sendo mais seguro encerrar o acordo anterior e outorgar novas opções mercantis com laudo de avaliação."
   },
   {
     "id": "3024",
@@ -2755,7 +2755,7 @@
     "vol": "6",
     "code": "E1",
     "from": "A armadilha não é o modelo em si, é executar híbrido como se fosse presencial com algumas pessoas ausentes.",
-    "to": "O erro está em conduzir o modelo híbrido como se fosse um escritório presencial com alguns colegas ausentes. A correção exige regra clara: se uma pessoa da reunião está remota, todos entram pelo próprio computador em vídeo individual."
+    "to": "O erro está em tocar o modelo híbrido como se fosse um escritório presencial com algumas pessoas ausentes."
   },
   {
     "id": "3058",
@@ -2804,7 +2804,7 @@
     "vol": "6",
     "code": "E1",
     "from": "Treinamento real, não teatro. Workshop de duas horas com vídeo genérico não move nada. Treinamento substantivo, com follow-up, faz diferença. Liderança visível, não só RH.",
-    "to": "> Conecte a diversidade aos objetivos concretos do negócio, mostrando como uma equipe plural entende melhor clientes diversos e evita pontos cegos. Substitua palestras genéricas de duas horas por revisão prática dos critérios de recrutamento e promoção, com participação direta do CEO e acompanhamento trimestral das métricas."
+    "to": "Substitua workshops genéricos de duas horas por capacitação prática com acompanhamento trimestral dos critérios de seleção e promoção, sob patrocínio direto da liderança executiva junto ao RH."
   },
   {
     "id": "3076",
@@ -2853,7 +2853,7 @@
     "vol": "6",
     "code": "E9",
     "from": "Contratação internacional. Brazilian entity pagando pessoa em outro país igual a tributação, e compliance, complexo.",
-    "to": "Contratação internacional: pagar diretamente, pela pessoa jurídica brasileira, profissionais residentes no exterior envolve tributação na fonte e obrigações trabalhistas locais complexas; por isso, o caminho padrão é contratar via plataformas de *Employer of Record* (EOR, como Deel, Remote ou Oyster)."
+    "to": "Contratação internacional: pagar diretamente, pela empresa brasileira, alguém que mora fora traz tributação na fonte e obrigações locais complexas."
   },
   {
     "id": "3086",
