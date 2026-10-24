@@ -1,0 +1,2235 @@
+[
+  {
+    "id": "928",
+    "vol": "3",
+    "code": "C5",
+    "from": "| Hipóteses bet-the-company | Apostas de alto impacto e alta incerteza | 2 a 5 identificadas |",
+    "to": "| Hipóteses de vida ou morte (*bet-the-company*) | Apostas de alto impacto e alta incerteza | 3 a 5 identificadas |"
+  },
+  {
+    "id": "929",
+    "vol": "3",
+    "code": "E7",
+    "from": "> CSD significa Certezas, Suposições, Dúvidas. Organiza o seu mapa mental antes de gerar hipóteses. Regra: teste Suposições, não Certezas. Testar Certezas é desperdício. Testar Dúvidas é cedo demais (primeiro descubra do que duvida). Suposições bet-the-company (hipóteses que, se erradas, derrubam o negócio) têm prioridade máxima.",
+    "to": "> A matriz CSD separa Certezas, Suposições e Dúvidas para organizar o mapa mental antes de formular hipóteses. Teste as Suposições, pois testar Certezas desperdiça recursos e testar Dúvidas exige antes descobrir o que se ignora. As apostas de vida ou morte (suposições que, se falsas, inviabilizam o negócio) recebem prioridade máxima."
+  },
+  {
+    "id": "932",
+    "vol": "3",
+    "code": "S2",
+    "from": "### Por que testar sem linha de corte prévia é apenas procurar desculpas para continuar errando",
+    "to": "### Por que definir a linha de corte antes do experimento evita racionalizar resultados negativos"
+  },
+  {
+    "id": "933",
+    "vol": "3",
+    "code": "E2",
+    "from": "Hipóteses de problema. O problema existe mesmo? Para quem? Quão doloroso?",
+    "to": "**Hipóteses de problema:** verificam se a dor existe de fato, quem a sente com maior intensidade e qual o seu custo real para o cliente."
+  },
+  {
+    "id": "933",
+    "vol": "3",
+    "code": "E2",
+    "from": "Hipóteses de solução. A solução proposta resolve o problema? Os usuários vão adotá-la?",
+    "to": "**Hipóteses de solução:** avaliam se a proposta resolve o problema central e se os usuários reais aceitam adotá-la na rotina."
+  },
+  {
+    "id": "933",
+    "vol": "3",
+    "code": "E2",
+    "from": "Hipóteses de cliente e mercado. Quem é o cliente ideal? Como ele decide?",
+    "to": "**Hipóteses de cliente e mercado:** definem o perfil exato do comprador ideal e mapeiam como ocorre o processo de decisão."
+  },
+  {
+    "id": "933",
+    "vol": "3",
+    "code": "E2",
+    "from": "Hipóteses de canal. Como eu alcanço o cliente? Qual canal tem CAC viável?",
+    "to": "**Hipóteses de canal:** testam por quais meios você alcança o cliente-alvo mantendo um custo de aquisição viável."
+  },
+  {
+    "id": "933",
+    "vol": "3",
+    "code": "E2",
+    "from": "Hipóteses de monetização e modelo. O cliente vai pagar? Quanto? Com que frequência? LTV maior que CAC?",
+    "to": "**Hipóteses de monetização e modelo:** validam se o cliente paga, qual o valor e a frequência de cobrança e se o LTV supera o CAC com folga."
+  },
+  {
+    "id": "933",
+    "vol": "3",
+    "code": "E2",
+    "from": "Hipóteses vagas. \"Os clientes vão gostar.\" Use o formato do Passo 2: afirmação com critério numérico e caminho de refutação.",
+    "to": "Evite formular hipóteses vagas como \"os clientes vão gostar\"; aplique sempre o formato do Passo 2, unindo afirmação falsificável, critério numérico e condição explícita de descarte."
+  },
+  {
+    "id": "933",
+    "vol": "3",
+    "code": "E2",
+    "from": "Só hipóteses de solução. Empreendedores ficam obcecados em testar \"a solução funciona?\", e esquecem de testar \"o cliente paga?\", que é a hipótese mais crítica.",
+    "to": "Não concentre os testes apenas na solução: validar se o produto funciona sem provar que o cliente paga deixa a hipótese financeira mais arriscada no escuro."
+  },
+  {
+    "id": "933",
+    "vol": "3",
+    "code": "E2",
+    "from": "Priorizar baixo-risco por ser fácil. Testar primeiro o que é confortável. Princípio: teste primeiro o que pode te matar, não o que é agradável de confirmar.",
+    "to": "Evite priorizar hipóteses de baixo risco apenas por conveniência: teste primeiro as premissas que podem inviabilizar o negócio, deixando o que é confortável para depois."
+  },
+  {
+    "id": "933",
+    "vol": "3",
+    "code": "E2",
+    "from": "Confundir \"não refutada ainda\" com \"validada\". Uma hipótese só é validada quando você tem evidência positiva a favor dela. Não apenas ausência de evidência contra.",
+    "to": "Não confunda uma hipótese ainda não refutada com uma tese validada: a validação exige evidência empírica positiva a favor da premissa, e não mera ausência de provas contrárias."
+  },
+  {
+    "id": "933",
+    "vol": "3",
+    "code": "E2",
+    "from": "Técnica de **desafio estruturado a uma decisão ou plano**: um time (red) ativamente busca fraquezas, outro (blue) defende ou refina. Força rigor. Previne groupthink.",
+    "to": "Trata-se de uma técnica de **desafio estruturado a uma decisão ou plano**, na qual o time vermelho (*red team*) busca ativamente fraquezas enquanto o time azul (*blue team*) defende ou refina a proposta para elevar o rigor analítico e evitar o pensamento de grupo."
+  },
+  {
+    "id": "933",
+    "vol": "3",
+    "code": "E2",
+    "from": "Red Team: time designado para **atacar** a proposta/plano. Encontrar fraquezas. Agir como concorrente/adversário.",
+    "to": "**Time vermelho (*Red Team*):** grupo designado para **atacar** a proposta ou hipótese central, identificando vulnerabilidades como faria um concorrente ou investidor cético."
+  },
+  {
+    "id": "933",
+    "vol": "3",
+    "code": "E2",
+    "from": "Red team \"de fachada\": pessoas que vão dizer \"tá tudo ok\". Sem valor. Blue team defensivo em vez de analítico: reage emocionalmente a críticas em vez de refinar plano. Sem tempo adequado para red team: \"analise este deal em 4 horas\", vira checkbox. Não documentar decisão final: se 3 meses depois problema surge, sem rastro de que foi antecipado.",
+    "to": "- **Time vermelho de fachada:** escalar colegas que apenas concordam com o plano esvazia o exercício.\n- **Time azul defensivo:** reagir emocionalmente às críticas bloqueia o refinamento da hipótese.\n- **Prazo insuficiente:** reservar poucas horas para analisar uma aposta complexa reduz a dinâmica a mera formalidade.\n- **Falta de registro da decisão:** não documentar as vulnerabilidades apontadas impede rastrear os riscos caso o problema se confirme meses depois."
+  },
+  {
+    "id": "937",
+    "vol": "3",
+    "code": "N9",
+    "from": "- Desejabilidade: clientes querem isso?",
+    "to": "- **Desejabilidade:** os clientes realmente querem a solução e reconhecem valor nela?"
+  },
+  {
+    "id": "938",
+    "vol": "3",
+    "code": "E9",
+    "from": "PORQUÊ IMPORTA (Risco × Incerteza): R = 5 (mata o negócio se falsa), I = 4 (auto-relato em entrevistas Fase 3 sugere a perda existe, mas sem dado de notas fiscais ainda). Prioridade R × I = 20. Bet-the-company.",
+    "to": "POR QUE IMPORTA (Risco × Desconhecimento): R = 5 (inviabiliza o negócio se for falsa), D = 4 (o autorrelato nas entrevistas da Fase 4 sugere que a perda existe, mas ainda faltam dados de notas fiscais). Prioridade = R × D = 20 (aposta de vida ou morte)."
+  },
+  {
+    "id": "938",
+    "vol": "3",
+    "code": "E9",
+    "from": "**Exemplo de preenchimento.** Linha H03, tipo \"Adoção\", hipótese \"operadores de loja farão login no app pelo menos 3x por semana\", porquê importa \"se falso, o produto vira shelfware mesmo com compra do dono\", critério \"≥60% dos usuários ativos D7 nas primeiras 4 semanas\", método \"piloto com 5 lojas medindo eventos de login\", custo \"R$2.000 + 6 semanas\", status \"Em teste\".",
+    "to": "**Exemplo de preenchimento:** Linha H03, tipo \"Adoção\", hipótese \"operadores de loja farão login no aplicativo pelo menos 3 vezes por semana\", por que importa \"se for falsa, o sistema vira software abandonado mesmo após a compra pelo dono\", critério de validação \"≥ 60% dos usuários ativos na primeira semana (D7) ao longo das 4 semanas iniciais\", critério de descarte \"< 30% de acesso semanal\", método \"piloto em 5 lojas medindo registros de acesso\", custo \"R$ 2.000 e 6 semanas\", status \"Em teste\"."
+  },
+  {
+    "id": "938",
+    "vol": "3",
+    "code": "E9",
+    "from": "| ID | Tipo | Hipótese | Porquê importa | Critério validação | Método | Custo | Status | Resultado |",
+    "to": "| ID | Tipo | Hipótese | Por que importa | Critério de validação | Método | Custo | Status | Resultado |"
+  },
+  {
+    "id": "939",
+    "vol": "3",
+    "code": "C5",
+    "from": "- **Threshold (pré-definido)**: qual resultado mínimo considera a hipótese suportada? Qual resultado a considera refutada? Qual é a zona inconclusiva entre os dois?",
+    "to": "- **Limiar de decisão (*threshold* pré-definido):** qual resultado mínimo confirma a hipótese (critério de validação), qual resultado obriga a descartá-la (critério de refutação) e qual faixa intermediária caracteriza zona cinzenta?"
+  },
+  {
+    "id": "940",
+    "vol": "3",
+    "code": "C5",
+    "from": "> Cada hipótese deve testar um e apenas um atributo, ou uma e apenas uma relação causal da sua árvore de teoria. Se há \"e\" ou \"porque\" na frase, provavelmente você precisa quebrá-la.",
+    "to": "> Cada hipótese deve testar apenas um atributo ou um único elo causal da sua árvore de teoria: se a frase contiver \"e\" ou \"porque\" unindo duas premissas distintas, divida-a em duas hipóteses independentes."
+  },
+  {
+    "id": "945",
+    "vol": "3",
+    "code": "E10",
+    "from": "3. Nas últimas quatro semanas, você passou mais tempo testando coisas confortáveis (layout, textos, ferramentas internas) ou atacando o maior risco comercial do negócio?",
+    "to": "3. Nas últimas quatro semanas, sua agenda priorizou experimentos de confirmação confortável ou enfrentou diretamente a premissa comercial que pode inviabilizar a empresa?"
+  },
+  {
+    "id": "948",
+    "vol": "3",
+    "code": "C5",
+    "from": "H (Hypothesis Strength, força teórica da hipótese) mede quão bem fundamentada a sua hipótese está do ponto de vista teórico. H igual a dez significa que a cadeia causal é clara, consistente com o que se sabe do mercado, análoga a casos de sucesso conhecidos e faz sentido à luz da sua árvore de teoria. H igual a três significa um palpite, baseado em intuição pessoal, sem lógica rigorosa por trás.",
+    "to": "O índice H (*Hypothesis Strength*, força teórica da hipótese) mede a solidez lógica da premissa antes de ir a campo: nota 10 indica cadeia causal consistente com os dados de mercado, casos análogos e a árvore da teoria; nota 3 reflete um palpite intuitivo sem mecanismo causal demonstrado."
+  },
+  {
+    "id": "950",
+    "vol": "3",
+    "code": "S7",
+    "from": "H/E: H = 8 (cadeia causal clara, consistente com casos análogos de food retail), E = 3 (auto-relato em 12 entrevistas, sem auditoria factual). Quadrante H alto + E baixo, prioridade máxima de experimento.",
+    "to": "Diagnóstico H/E: H = 8 (cadeia causal consistente com casos análogos do varejo alimentar) e E = 3 (autorrelato em 12 entrevistas, ainda sem auditoria documental). Quadrante H ≥ 7 e E < 6: prioridade máxima para experimentação empírica."
+  },
+  {
+    "id": "951",
+    "vol": "3",
+    "code": "C5",
+    "from": "Documente a ordem escolhida no Banco de Hipóteses (coluna \"ordem de teste\") com justificativa de uma linha. Essas três a cinco hipóteses prioritárias, com Test Card preenchido, vão para a [[#FASE 8 — EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA E DA SOLUÇÃO|Fase 8]].",
+    "to": "Registre a sequência definida no Banco de Hipóteses (coluna \"Ordem de teste\") com uma justificativa objetiva, incluindo R, I, R × I, H, E e critérios de sucesso e descarte. As três a cinco apostas prioritárias, já com Test Card preenchido, seguem para a [[IGNICAO-Vol-3-Experimentos-e-Prototipagem|Fase 8]]."
+  },
+  {
+    "id": "951",
+    "vol": "3",
+    "code": "C5",
+    "from": "- **Portfolio de Hipóteses**: planilha com todos os canvas abertos em paralelo, ranqueados por Importância e status (Pendente / Em teste / Suportada / Refutada). Útil para o \"banco de hipóteses\" da Fase 6.",
+    "to": "- **Portfólio de Hipóteses:** planilha que consolida os canvas ativos ordenados por prioridade (R × I), diagnóstico H/E e status padronizado (Pendente, Em teste, Validada ou Refutada), compondo o Banco de Hipóteses da Fase 7."
+  },
+  {
+    "id": "954",
+    "vol": "3",
+    "code": "C5",
+    "from": "PARA VALIDAR PRECISO VER: Sete em dez padarias com três a cinco lojas em SP com perda de oito por cento ou mais da margem bruta em trinta dias, verificada por análise de notas fiscais de compra, não só por auto-relato.",
+    "to": "PARA VALIDAR PRECISO VER: pelo menos 7 em 10 padarias com 2 a 5 lojas em São Paulo registrando perda igual ou superior a 8% da margem bruta ao longo de 30 dias de notas fiscais auditadas (cinco semanas de ciclo total, somando 30 dias de coleta e uma semana de análise)."
+  },
+  {
+    "id": "959",
+    "vol": "3",
+    "code": "C5",
+    "from": "Para cada tipo, busque pelo menos três a cinco hipóteses. Total alvo: quinze a trinta hipóteses.",
+    "to": "Para cada uma das cinco categorias, formule de três a seis hipóteses testáveis, compondo um banco inicial de quinze a trinta hipóteses."
+  },
+  {
+    "id": "959",
+    "vol": "3",
+    "code": "C5",
+    "from": "1. Abrir o Template Banco de Hipóteses (Fase 7) e listar toda hipótese implícita. Vinte a quarenta itens iniciais.",
+    "to": "1. Abra o Template de Banco de Hipóteses (Fase 7) e registre todas as suposições implícitas do negócio, reunindo de quinze a trinta hipóteses iniciais (pelo menos três por tipo)."
+  },
+  {
+    "id": "959",
+    "vol": "3",
+    "code": "C5",
+    "from": "| Banco de hipóteses preenchido | Hipóteses críticas priorizadas | ≥ 10 hipóteses classificadas |",
+    "to": "| Banco de hipóteses preenchido | Hipóteses classificadas nos 5 tipos | 15 a 30 hipóteses (≥ 3 por tipo) |"
+  },
+  {
+    "id": "960",
+    "vol": "3",
+    "code": "C5",
+    "from": "2. **Hipótese**: escreva como afirmação falsificável. \"X% de [persona Y] fará [ação Z] em [contexto W].\"",
+    "to": "2. **Hipótese (formato canônico do Passo 2):** declare a crença testável, o critério numérico de validação, o limiar explícito de descarte e a ação na zona cinzenta."
+  },
+  {
+    "id": "962",
+    "vol": "3",
+    "code": "E6",
+    "from": "Toda decisão de negócio assume algo sobre o mundo. \"O meu cliente vai pagar R$ 99.\" \"O meu canal principal será Instagram.\" \"Empresas maiores compram mais rápido.\" Cada uma dessas afirmações é uma hipótese. Se você as trata como verdades, constrói sobre areia. Se as escreve como hipóteses e as testa uma a uma, constrói sobre rocha. Empreender sem hipóteses explícitas é tomar todas as decisões com base em vibração.",
+    "to": "Toda decisão empresarial parte de premissas sobre a realidade: \"o cliente pagará R$ 99 mensais\", \"o canal principal de aquisição será o Instagram\" ou \"redes com três lojas fecham contrato mais rápido\". Tratar essas suposições como fatos consumados leva ao Teatro da Validação; transformá-las em hipóteses falsificáveis e testá-las por ordem de risco protege o caixa e orienta cada passo da execução."
+  },
+  {
+    "id": "971",
+    "vol": "3",
+    "code": "E9",
+    "from": "#### Passo 1, levante todas as suposições implícitas",
+    "to": "#### Passo 1: levante todas as suposições implícitas"
+  },
+  {
+    "id": "972",
+    "vol": "3",
+    "code": "N2",
+    "from": "> Todos os frameworks abaixo estão detalhados integralmente com origem, estrutura, passo a passo de aplicação, exemplo brasileiro e armadilhas para execução imediata nesta **Fase 7**.",
+    "to": "> Os frameworks a seguir trazem origem, mecânica passo a passo, aplicação prática aos casos de Fase 7 (como o PadariaPro e o clube de cafés especiais) e armadilhas de execução."
+  },
+  {
+    "id": "972",
+    "vol": "3",
+    "code": "N2",
+    "from": "Decisão: construir feature X (custo R$ 500k em engineering, 4 meses).",
+    "to": "Decisão em análise (PadariaPro, Fase 7): validar se donos de padarias com 2 a 5 lojas pagam R$ 400/mês pelo módulo de previsão de compras antes de investir quatro meses de engenharia."
+  },
+  {
+    "id": "975",
+    "vol": "3",
+    "code": "E9",
+    "from": "Lista genérica de premissas: sem especificidade, teste é difícil, Autoavaliar certeza otimista: empreendedor confia na própria ideia, inflar certeza, Pular para experimentação sem mapear: testa algo aleatório, não o que mais importa.",
+    "to": "- **Lista genérica de premissas:** formular suposições vagas impede desenhar um experimento conclusivo.\n- **Autoavaliação otimista de certeza:** confundir entusiasmo pela própria ideia com evidência factual infla artificialmente o grau de certeza.\n- **Pular direto para o teste sem mapear:** iniciar experimentos sem cruzar impacto e desconhecimento leva a testar o que é secundário."
+  },
+  {
+    "id": "994",
+    "vol": "3",
+    "code": "C5",
+    "from": "Para cada hipótese bet-the-company da Fase 6, abra um canvas. Tempo de preenchimento inicial: 30-45 minutos (a parte antes de coletar dados). Conclusão: após coleta e análise.",
+    "to": "Para cada aposta de vida ou morte priorizada na Fase 7, preencha um canvas individual: reserve de 30 a 45 minutos para os blocos superiores antes de ir a campo e conclua os blocos inferiores logo após analisar os dados coletados."
+  },
+  {
+    "id": "994",
+    "vol": "3",
+    "code": "C5",
+    "from": "**Quando usar.** Ao iniciar a Fase 6 (priorização). Mantenha viva ao longo de toda a jornada até PMF, atualizando status sempre que um experimento for executado e adicionando hipóteses novas conforme descobertas.",
+    "to": "**Quando usar:** no início da Fase 7 (formulação e priorização de hipóteses), mantendo a planilha viva até o Product-Market Fit para atualizar o status a cada experimento rodado na Fase 8 e incorporar novas premissas descobertas em campo."
+  },
+  {
+    "id": "996",
+    "vol": "3",
+    "code": "C5",
+    "from": "| **Due diligence** | 8 empresas abordadas, 6 tiveram reunião (2 declinaram). Das 6: 3 assinaram a R$ 180, 1 pediu R$ 120, 2 declinaram. Amostra de 8 é pequena mas representa o ICP (todas têm 20-50 caminhões, SP, gerente de frota). Viés possível: acesso via rede pessoal pode ter selecionado empresas mais abertas a inovação. |",
+    "to": "| **Diligência da amostra** | Abordagem fria a 8 das 40 transportadoras mapeadas na lista do ICP (20 a 50 caminhões em SP), resultando em 6 reuniões realizadas, 3 pré-contratos assinados a R$ 180/caminhão (com cláusula de reembolso em 90 dias), 1 contraproposta a R$ 120 e 2 recusas. Viés provável: gestores que aceitam reunião em prospecção fria costumam sentir a dor de forma mais aguda que a média do setor. |"
+  },
+  {
+    "id": "1000",
+    "vol": "3",
+    "code": "C5",
+    "from": "Para cada hipótese, atribua duas notas de um a cinco. Risco (R): quão grave para o negócio se for falsa? (Cinco mata o negócio. Um é detalhe secundário.) Incerteza (I): quanta confiança real você tem nela hoje? (Cinco é totalmente no escuro. Um é muito fundamentada.)",
+    "to": "Para cada hipótese, atribua duas notas de 1 a 5: **Risco (R)**, que mede a gravidade para o negócio caso a premissa seja falsa (5 inviabiliza a empresa; 1 afeta apenas um detalhe secundário), e **Desconhecimento / Incerteza (I)**, que reflete a falta de evidência empírica atual (5 indica ausência total de dados; 1 indica premissa já amparada por fatos)."
+  },
+  {
+    "id": "1007",
+    "vol": "3",
+    "code": "C5",
+    "from": "║ [ ] Diminuído para ______ (amostra desfavorece hipótese) ║",
+    "to": "║ AMOSTRA VÁLIDA? [ ] Sim  [ ] Não (repetir com amostra adequada) ║"
+  },
+  {
+    "id": "1007",
+    "vol": "3",
+    "code": "C5",
+    "from": "║ Justificativa do ajuste: ________________________________ ║",
+    "to": "║ Diagnóstico de validade amostral: ________________________ ║"
+  },
+  {
+    "id": "1007",
+    "vol": "3",
+    "code": "C5",
+    "from": "8. **Ajuste do threshold**: se necessário, documente a razão.",
+    "to": "8. **Auditoria de validade da amostra:** registre se a amostra atingiu o tamanho e o perfil exigidos (o limiar de sucesso jamais deve ser alterado após a coleta; se a amostra for inválida, repita o teste)."
+  },
+  {
+    "id": "1008",
+    "vol": "3",
+    "code": "E12",
+    "from": "Template central para conectar teoria, hipótese, evidência e avaliação. Use um canvas por hipótese prioritária. Preencha os blocos superior e médio **antes** de coletar dado, os blocos inferiores são preenchidos **após** a coleta, respeitando a ordem indicada.",
+    "to": "Este template conecta árvore da teoria, hipótese falsificável, evidência empírica e decisão pós-teste. Utilize um canvas para cada aposta prioritária: preencha os blocos superiores e intermediários **antes** de ir a campo e conclua os blocos inferiores **após** encerrar a coleta."
+  },
+  {
+    "id": "1084",
+    "vol": "3",
+    "code": "C5",
+    "from": "Cinco partes na estrutura do roteiro.",
+    "to": "Estruture o roteiro de teste do protótipo (como o painel de sugestão de pedidos do PadariaPro para redes de duas a cinco padarias) em cinco etapas sequenciais:"
+  },
+  {
+    "id": "1084",
+    "vol": "3",
+    "code": "C5",
+    "from": "Contextualização (dois minutos). Descreva a situação real em que a pessoa estaria usando.",
+    "to": "1. **Contextualização (2 minutos):** situe o entrevistado no cenário real de uso (por exemplo, a conferência do estoque de insumos e o fechamento do pedido semanal da padaria)."
+  },
+  {
+    "id": "1084",
+    "vol": "3",
+    "code": "C5",
+    "from": "Tarefas (quinze minutos). Dê três a cinco tarefas para a pessoa executar no protótipo. Por exemplo: \"Você acabou de fechar o caixa do dia. Use essa ferramenta para checar se houve alguma divergência.\"",
+    "to": "2. **Tarefas práticas (15 minutos):** peça ao usuário que execute de três a cinco tarefas concretas no protótipo, como revisar a sugestão automática de compra de farinha para três lojas e aprovar o pedido da semana."
+  },
+  {
+    "id": "1084",
+    "vol": "3",
+    "code": "C5",
+    "from": "Observação silenciosa. Deixe a pessoa errar. Anote onde ela travou.",
+    "to": "3. **Observação silenciosa:** acompanhe a execução sem intervir nem explicar a interface, registrando exatamente em quais telas ou botões o usuário hesita ou trava."
+  },
+  {
+    "id": "1106",
+    "vol": "3",
+    "code": "E2",
+    "from": "Não se limite ao que você imaginou. Faça sessões de brainstorm estruturadas. Sozinho ou com duas a três pessoas. Quatro técnicas úteis.",
+    "to": "Não se prenda à primeira solução imaginada: conduza sessões estruturadas de geração de alternativas, individualmente ou com duas a três pessoas, aplicando quatro técnicas complementares."
+  },
+  {
+    "id": "1106",
+    "vol": "3",
+    "code": "E2",
+    "from": "Para cada conceito, escreva em uma página seis itens. Nome do conceito (dê nome, facilita comunicação). Descrição em um parágrafo. Principal diferencial. Requisitos técnicos principais. Modelo de monetização imaginado. Principais riscos.",
+    "to": "Para cada conceito finalista, elabore uma ficha de uma página com seis elementos numerados: (1) nome do conceito para facilitar a referência nos testes; (2) descrição da proposta em um parágrafo; (3) diferencial central frente às alternativas atuais; (4) requisitos técnicos essenciais; (5) modelo de monetização previsto; e (6) principais riscos de adoção e execução."
+  },
+  {
+    "id": "1106",
+    "vol": "3",
+    "code": "E2",
+    "from": "Documento contendo seis itens. Conceitos gerados e avaliados. Conceitos selecionados, detalhados. Protótipos (ou links). Resumo dos testes com usuários (padrões observados, problemas encontrados, verbatim). Recomendação de conceito a construir, com justificativa. Riscos e incógnitas remanescentes.",
+    "to": "Consolide o aprendizado em um documento enxuto contendo seis itens: (1) lista dos conceitos gerados e avaliados; (2) fichas dos conceitos selecionados; (3) links ou arquivos dos protótipos testados; (4) síntese das sessões com usuários (padrões de uso, atritos e frases literais); (5) recomendação fundamentada do conceito vencedor; e (6) riscos e hipóteses que permanecem abertos para a Fase 10."
+  },
+  {
+    "id": "1107",
+    "vol": "3",
+    "code": "E9",
+    "from": "Para negócios de serviço. Mapeie touchpoints (pontos de contato entre cliente e serviço), atores, sistemas, e tempo.",
+    "to": "Em negócios de serviço, desenhe um mapa de serviço (*service blueprint*) relacionando pontos de contato com o cliente, responsáveis internos, sistemas de suporte e tempo de cada etapa."
+  },
+  {
+    "id": "1107",
+    "vol": "3",
+    "code": "E9",
+    "from": "Imagem de um e-mail simulado, com lista de itens sugeridos, quantidades, valores, e dois botões. \"Confirmar pedido\" e \"Ajustar\".",
+    "to": "Protótipo de baixa fidelidade: imagem de uma mensagem simulada com a lista de insumos sugeridos, quantidades, valores estimados e dois botões de ação (\"Confirmar pedido\" e \"Ajustar quantidades\")."
+  },
+  {
+    "id": "1107",
+    "vol": "3",
+    "code": "E9",
+    "from": "3. Agendar cinco sessões com usuários ICP, mostrando os dois ou três protótipos lado a lado, e pedindo reação.",
+    "to": "3. Agende cinco sessões por rodada com usuários do ICP (no mínimo duas rodadas), apresentando os dois protótipos finalistas para comparar reações e observar o uso."
+  },
+  {
+    "id": "1108",
+    "vol": "3",
+    "code": "E4",
+    "from": "**Insight:** Release 1 corta horizontalmente a jornada inteira, cliente consegue fazer todo o fluxo, mesmo que limitado. Release 1 é MVP de verdade. A tentação de começar por \"release vertical\" (construir todo o módulo de pagamento primeiro) é erro clássico: não entrega valor completo até o último release.",
+    "to": "A primeira entrega (*Release 1*) precisa cortar horizontalmente toda a jornada para que o usuário conclua o trabalho principal de ponta a ponta, ainda que com recursos simples. Começar por uma entrega vertical isolada (como construir apenas o módulo de cadastro ou de pagamento) posterga a geração de valor real até o último ciclo."
+  },
+  {
+    "id": "1115",
+    "vol": "3",
+    "code": "C5",
+    "from": "- [ ] Dez ou mais ideias geradas em sessão de divergência documentada (Crazy 8s, How Might We, Extremos, Analogias). Sem prender à primeira ideia.",
+    "to": "- [ ] Quinze a trinta ideias geradas em sessão documentada de divergência (*Crazy 8s*, \"Como poderíamos\", extremos e analogias), evitando o apego precoce à primeira solução."
+  },
+  {
+    "id": "1115",
+    "vol": "3",
+    "code": "C5",
+    "from": "| Variantes de solução testadas | Quantas ideias de solução avaliadas antes de escolher | ≥ 5 (Crazy 8s) |",
+    "to": "| Funil de ideação e prototipagem | Ideias geradas → conceitos detalhados → protótipos testados | 15 a 30 ideias → 3 a 5 conceitos → 2 protótipos |"
+  },
+  {
+    "id": "1115",
+    "vol": "3",
+    "code": "C5",
+    "from": "#### Passo 4, escolha 1 ou 2 conceitos para prototipar",
+    "to": "#### Passo 4: selecione 2 conceitos finalistas para prototipar"
+  },
+  {
+    "id": "1115",
+    "vol": "3",
+    "code": "C5",
+    "from": "2. Prototipar em Figma ou em papel as duas a três ideias mais promissoras. Low-fi. Não perca tempo em fidelidade.",
+    "to": "2. Construa dois protótipos de baixa fidelidade (em papel ou Figma clicável) a partir dos três a cinco conceitos avaliados, mantendo o custo de produção em horas ou no máximo um dia."
+  },
+  {
+    "id": "1115",
+    "vol": "3",
+    "code": "C5",
+    "from": "- [ ] Dois ou mais protótipos low-fi (papel ou Figma clicável) prontos, resolvendo o job central da Fase 4: não features periféricas.",
+    "to": "- [ ] Dois protótipos de baixa fidelidade (papel ou Figma clicável) construídos em até um dia para testar o trabalho principal mapeado na Fase 4, sem funcionalidades periféricas."
+  },
+  {
+    "id": "1117",
+    "vol": "3",
+    "code": "C5",
+    "from": "- Viability: negócio fecha?",
+    "to": "- **Viabilidade econômica (*Viability*):** o modelo de negócio fecha a conta e sustenta margem saudável?"
+  },
+  {
+    "id": "1118",
+    "vol": "3",
+    "code": "E9",
+    "from": "- [ ] Avaliação DVS (Desejabilidade, Viabilidade, Sustentabilidade) aplicada em todas as ideias, e Matriz Impacto vezes Esforço aplicada nos finalistas.",
+    "to": "- [ ] Avaliação de Desejabilidade, Exequibilidade e Viabilidade aplicada às ideias geradas, seguida da matriz impacto-esforço nos três a cinco conceitos finalistas."
+  },
+  {
+    "id": "1119",
+    "vol": "3",
+    "code": "S3",
+    "from": "\n> [!note] Capítulo 1: Científico vs Lean Startup\n> Esta fase aplica a lógica do ciclo Lean em seu ponto mais puro: prototipar barato, testar cedo, iterar. O [[#CAPÍTULO 1 — ABORDAGEM CIENTÍFICA vs LEAN STARTUP: QUANDO USAR CADA UMA|Capítulo 1: Científico vs Lean Startup]] mostra quando a velocidade empírica do Lean precisa dar lugar ao rigor de simulação e laboratório (como em hardware, biotecnologia, saúde ou regulação bancária). Relevante especialmente para definir quando parar de iterar protótipos e comprometer recursos para o MVP.",
+    "to": "\n> [!note] Leituras relacionadas na coleção\n> Esta fase aplica o ciclo empírico enxuto (prototipar em até um dia, testar com cinco usuários por rodada e iterar antes de escrever código). Para calibrar quando o experimento rápido precisa ser combinado ao rigor científico, à maturidade tecnológica (TRL/CRL) ou aos vieses de decisão, consulte os Capítulos 1 e 2 deste volume e o [[IGNICAO-Vol-2-Descoberta-e-Mercado|Capítulo 1 do Vol. 2 (Psicologia do Consumidor Brasileiro)]]."
+  },
+  {
+    "id": "1119",
+    "vol": "3",
+    "code": "S3",
+    "from": "\n> [!note] Capítulo 1 (Vol. 2): Psicologia do Consumidor Brasileiro\n> A reação do usuário ao protótipo é moldada por fatores que vão além do fluxo. O [[IGNICAO-Vol-2-Descoberta-e-Mercado#CAPÍTULO 1 — PSICOLOGIA DO CONSUMIDOR BRASILEIRO — COMPORTAMENTO, DECISÃO E CONVERSÃO|Capítulo 1: Psicologia do Consumidor Brasileiro (Vol. 2)]] cobre como o consumidor brasileiro processa proposta de valor: ancoragem de preço, mobile-first, e o peso da confiança percebida na primeira impressão. Leia antes de definir quais elementos incluir no protótipo de teste.",
+    "to": "\n> [!note] Psicologia de decisão e percepção de valor no teste\n> A reação do usuário ao protótipo reflete ancoragem de preço, hábito de uso no celular e confiança percebida na primeira tela, conforme detalhado no [[IGNICAO-Vol-2-Descoberta-e-Mercado|Capítulo 1: Psicologia do Consumidor Brasileiro (Vol. 2)]]. Defina quais sinais de confiança precisam aparecer nas telas antes de iniciar as sessões."
+  },
+  {
+    "id": "1121",
+    "vol": "3",
+    "code": "C5",
+    "from": "| Custo do protótipo | Tempo e recursos investidos antes de teste | Semanas, não meses |",
+    "to": "| Custo do protótipo inicial | Tempo investido antes de testar com usuários | Horas (no máximo 1 dia) |"
+  },
+  {
+    "id": "1122",
+    "vol": "3",
+    "code": "C5",
+    "from": "- [ ] Disposição a pagar coletada via \"quanto faria sentido cobrar por isso?\" (em vez de \"você pagaria?\"): 70% ou mais sugerem valor igual ou superior ao preço-alvo.",
+    "to": "- [ ] Investigação de valor e preço realizada com perguntas abertas sobre a rotina atual (\"como você resolve isso hoje, quanto custa e qual valor faria sentido para esta solução?\"), seguida de convite para compromisso concreto (piloto ou carta de intenção)."
+  },
+  {
+    "id": "1123",
+    "vol": "3",
+    "code": "C5",
+    "from": "| Feedback coletado | Usuários que testaram o protótipo | ≥ 5 por iteração |",
+    "to": "| Testes com usuários (regra de Nielsen) | Sessões práticas observadas no protótipo | 5 usuários por rodada (mínimo de 2 rodadas) |"
+  },
+  {
+    "id": "1123",
+    "vol": "3",
+    "code": "C5",
+    "from": "**Testes com cinco usuários, reação bruta.**",
+    "to": "**Primeira rodada de testes com cinco usuários (padrão de Jakob Nielsen para capturar a maior parte dos atritos de uso).**"
+  },
+  {
+    "id": "1123",
+    "vol": "3",
+    "code": "C5",
+    "from": "- [ ] Cinco ou mais testes documentados com usuários do ICP (idealmente oito ou mais).",
+    "to": "- [ ] Cinco usuários testados por rodada, ao longo de pelo menos duas rodadas documentadas com integrantes do ICP."
+  },
+  {
+    "id": "1126",
+    "vol": "3",
+    "code": "E3",
+    "from": "- Pular Problems & Users e ir direto para Solutions: viés de \"já sei o que construir\" mascara perguntas críticas.",
+    "to": "- **Saltar Problemas e Usuários e ir direto para Soluções:** o impulso de desenhar funcionalidades sem antes delimitar a dor oculta perguntas essenciais sobre adoção e hábito."
+  },
+  {
+    "id": "1127",
+    "vol": "3",
+    "code": "E9",
+    "from": "Crazy 8s, fragmento de oito ideias em oito minutos. App mobile para o gerente fazer pedido por voz. WhatsApp bot que pergunta o estoque diário e faz pedido automático. Dashboard web com previsão mais um clique para confirmar pedido. Etiquetas inteligentes (sensor) em sacos de farinha. Câmera no estoque com visão computacional. E-mail diário com \"pedido sugerido\" que requer aprovação. Integração com caixa, deduz estoque automaticamente. Parceria com fornecedor: o fornecedor envia semanalmente baseado em consumo.",
+    "to": "Na sessão de *Crazy 8s* (oito esboços em oito minutos), surgiram alternativas distintas: aplicativo móvel para pedido por voz; robô no WhatsApp que coleta a contagem diária e sugere a compra; painel web com previsão de demanda e confirmação em um clique (ou solução híbrida com alerta no WhatsApp e aprovação no navegador para pedidos acima de R$ 1 mil); etiquetas com sensor nas sacas de farinha; câmera no estoque com visão computacional; mensagem diária com pedido sugerido; baixa automática integrada ao caixa; e reposição semanal gerida pelo próprio fornecedor."
+  },
+  {
+    "id": "1127",
+    "vol": "3",
+    "code": "E9",
+    "from": "1. Reservar duas horas para sessão de ideação. Crazy 8s (oito ideias em oito minutos), mais detalhamento das três melhores.",
+    "to": "1. Reserve duas horas para a sessão de divergência: gere de quinze a trinta ideias combinando *Crazy 8s* (oito esboços em oito minutos) e selecione de três a cinco conceitos para detalhar."
+  },
+  {
+    "id": "1132",
+    "vol": "3",
+    "code": "C5",
+    "from": "> Os seis campos acima compõem a estrutura completa do Dossiê de Solução e se conectam diretamente ao **[[#Canvas: Opportunity Canvas (Jeff Patton, 2014)|Canvas: Opportunity Canvas]]** e ao **[[#Canvas: MVP Canvas (Tristan Kromer)|Canvas: MVP Canvas]]** detalhados na seção de Canvases Visuais desta fase. Use-o para garantir que a documentação de cada conceito avaliado seja consistente entre si e comparável na tomada de decisão do Passo 4.",
+    "to": "> Os seis campos acima compõem o Dossiê de Solução para comparar os três a cinco conceitos finalistas no Passo 4. Utilize o **[[#Canvas: Opportunity Canvas (Jeff Patton, 2014)|Opportunity Canvas]]** antes do Passo 1 para alinhar problema, usuários, valor para o negócio, métricas de adoção e orçamento, e reserve o **[[#Canvas: MVP Canvas (Tristan Kromer)|MVP Canvas]]** para estruturar o experimento do conceito vencedor no Passo 7."
+  },
+  {
+    "id": "1133",
+    "vol": "3",
+    "code": "N9",
+    "from": "### Polir pixels, discutir logotipo e desenhar telas de configuração antes de provar o fluxo central",
+    "to": "### Seis erros de prototipagem que abastecem o Cemitério de Funcionalidades"
+  },
+  {
+    "id": "1135",
+    "vol": "3",
+    "code": "E2",
+    "from": "Construir direto sem prototipar. \"Já sei como vai ser.\" Constatação final: você descobre coisas no protótipo que não imagina na cabeça.",
+    "to": "Pular o protótipo e abrir o editor de código sob a justificativa de que \"já sabemos exatamente como o sistema deve funcionar\" repete o tropeço de Camila na primeira versão da plataforma clínica: o apego precoce à ideia inicial, o polimento visual antes do teste e a busca por elogios esconderam falhas básicas de fluxo que uma manhã com protótipo navegável teria revelado."
+  },
+  {
+    "id": "1142",
+    "vol": "3",
+    "code": "C3",
+    "from": "#### Framework: Design Thinking Double Diamond (British Design Council, 2005)",
+    "to": "#### Framework: Double Diamond (Design Council, Reino Unido, 2005)"
+  },
+  {
+    "id": "1147",
+    "vol": "3",
+    "code": "E7",
+    "from": "Segunda-feira: map do problema, long-term goal, sprint questions, 3-5 expert interviews, \"How might we\" notes, target definido.",
+    "to": "- **Segunda-feira (Mapeamento):** desenhe o mapa do problema, defina o objetivo de longo prazo, liste as perguntas críticas da semana, ouça de 3 a 5 especialistas, registre notas \"Como poderíamos\" (*How Might We*) e escolha o recorte-alvo do teste."
+  },
+  {
+    "id": "1147",
+    "vol": "3",
+    "code": "E7",
+    "from": "Terça-feira: lightning demos (inspiração), sketch individual (4 etapas: notes, ideas, crazy 8s, solution sketch).",
+    "to": "- **Terça-feira (Esboço de soluções):** conduza demonstrações rápidas de referências (*lightning demos*) e produza esboços individuais em quatro etapas (anotações, ideias soltas, *Crazy 8s* e esboço detalhado da solução)."
+  },
+  {
+    "id": "1147",
+    "vol": "3",
+    "code": "E7",
+    "from": "Quarta-feira: heatmap de sketches, speed critique, voto, supervote do decisor, storyboard.",
+    "to": "- **Quarta-feira (Decisão):** marque um mapa de calor sobre os esboços, faça a crítica rápida (*speed critique*), colha o voto da equipe, registre o voto de minerva do decisor (*supervote*) e monte o roteiro visual (*storyboard*) do teste."
+  },
+  {
+    "id": "1147",
+    "vol": "3",
+    "code": "E7",
+    "from": "Quinta-feira: prototype (facade, 10 horas). Pode ser Figma clicável, Keynote, ou realmente HTML/CSS.",
+    "to": "- **Quinta-feira (Protótipo de fachada em até 10 horas):** monte uma superfície navegável realista em Figma, apresentação interativa ou página web simples, focada exclusivamente no fluxo que será posto à prova."
+  },
+  {
+    "id": "1147",
+    "vol": "3",
+    "code": "E7",
+    "from": "Sexta-feira: testes com 5 usuários (entrevistas de 60 min, think-aloud).",
+    "to": "- **Sexta-feira (Teste com 5 usuários):** conduza cinco sessões individuais de 60 minutos aplicando o protocolo de pensamento em voz alta (*think-aloud*) enquanto o usuário interage com o protótipo."
+  },
+  {
+    "id": "1147",
+    "vol": "3",
+    "code": "E7",
+    "from": "- Desirability: pessoas querem?",
+    "to": "- **Desejabilidade (*Desirability*):** os usuários querem a solução e enxergam valor claro nela?"
+  },
+  {
+    "id": "1147",
+    "vol": "3",
+    "code": "E7",
+    "from": "- Feasibility: conseguimos construir?",
+    "to": "- **Exequibilidade (*Feasibility*):** a equipe consegue construir e operar a solução com a tecnologia e os recursos disponíveis?"
+  },
+  {
+    "id": "1147",
+    "vol": "3",
+    "code": "E7",
+    "from": "Solução boa está na interseção.",
+    "to": "Uma solução sustentável nasce na interseção entre desejabilidade, exequibilidade e viabilidade econômica."
+  },
+  {
+    "id": "1147",
+    "vol": "3",
+    "code": "E7",
+    "from": "1. Empathize (empatizar).",
+    "to": "1. **Empatizar (*Empathize*):** mergulhar no contexto real de quem enfrenta o problema."
+  },
+  {
+    "id": "1147",
+    "vol": "3",
+    "code": "E7",
+    "from": "2. Define (definir problema).",
+    "to": "2. **Definir (*Define*):** recortar o problema prioritário com base nas evidências de campo."
+  },
+  {
+    "id": "1147",
+    "vol": "3",
+    "code": "E7",
+    "from": "3. Ideate (ideias).",
+    "to": "3. **Idear (*Ideate*):** gerar múltiplas alternativas de solução antes de escolher uma direção."
+  },
+  {
+    "id": "1147",
+    "vol": "3",
+    "code": "E7",
+    "from": "1. Basic (must-haves): cliente não nota quando presente, frustra quando ausente. Ex.: senha funcionando em login.",
+    "to": "1. **Atributos básicos (*must-be / basic*):** requisitos obrigatórios que o cliente considera garantidos; sua presença não gera entusiasmo, mas sua ausência inviabiliza o uso (ex.: autenticação segura e estabilidade no login)."
+  },
+  {
+    "id": "1147",
+    "vol": "3",
+    "code": "E7",
+    "from": "2. Performance (one-dimensional): mais é melhor, satisfação cresce linearmente com presença. Ex.: velocidade do app.",
+    "to": "2. **Atributos de desempenho (*performance / one-dimensional*):** características em que a satisfação do cliente cresce de forma proporcional à entrega (ex.: rapidez no carregamento de relatórios)."
+  },
+  {
+    "id": "1147",
+    "vol": "3",
+    "code": "E7",
+    "from": "3. Excitement (delighters): cliente não espera, quando presente, cria entusiasmo. Pode virar basic com tempo (ex.: câmera de ré em carros era excitement em 2010, hoje é basic).",
+    "to": "3. **Atributos encantadores (*attractive / delighters*):** diferenciais inesperados que geram forte entusiasmo quando presentes e que, com o amadurecimento do mercado, migram gradualmente para a categoria básica."
+  },
+  {
+    "id": "1147",
+    "vol": "3",
+    "code": "E7",
+    "from": "4. Indifferent: cliente não se importa, esforço desperdiçado.",
+    "to": "4. **Atributos indiferentes (*indifferent*):** funcionalidades pelas quais o cliente não atribui valor prático, representando desperdício direto de engenharia."
+  },
+  {
+    "id": "1147",
+    "vol": "3",
+    "code": "E7",
+    "from": "5. Reverse: mais piora. Ex.: muitas notificações podem diminuir satisfação.",
+    "to": "5. **Atributos reversos (*reverse*):** excessos de complexidade ou automação indesejada que reduzem a satisfação do usuário (ex.: alertas excessivos ao longo do dia)."
+  },
+  {
+    "id": "1148",
+    "vol": "3",
+    "code": "S7",
+    "from": "SOLUTION A SOLUTION B SOLUTION C",
+    "to": "       SOLUÇÃO A              SOLUÇÃO B              SOLUÇÃO C"
+  },
+  {
+    "id": "1148",
+    "vol": "3",
+    "code": "S7",
+    "from": "EXPERIMENT EXPERIMENT EXPERIMENT",
+    "to": "      EXPERIMENTO 1          EXPERIMENTO 2          EXPERIMENTO 3"
+  },
+  {
+    "id": "1149",
+    "vol": "3",
+    "code": "E9",
+    "from": "- Basic: obrigatório. Resolver.",
+    "to": "- **Básicos (*Basic*):** obrigatórios para operar; construa o mínimo robusto que garanta confiança."
+  },
+  {
+    "id": "1149",
+    "vol": "3",
+    "code": "E9",
+    "from": "- Performance: investir proporcionalmente ao valor.",
+    "to": "- **Desempenho (*Performance*):** invista de forma proporcional ao ganho percebido pelo segmento-alvo."
+  },
+  {
+    "id": "1149",
+    "vol": "3",
+    "code": "E9",
+    "from": "- Excitement: 1-2 delighters diferencia, mais dilui foco.",
+    "to": "- **Encantadores (*Delighters*):** escolha um ou dois diferenciais de alto impacto e corte o restante para não dispersar o foco."
+  },
+  {
+    "id": "1149",
+    "vol": "3",
+    "code": "E9",
+    "from": "- Indifferent: não construir.",
+    "to": "- **Indiferentes (*Indifferent*):** elimine imediatamente do escopo do produto."
+  },
+  {
+    "id": "1149",
+    "vol": "3",
+    "code": "E9",
+    "from": "- Reverse: evitar ou ser opcional.",
+    "to": "- **Reversos (*Reverse*):** remova do fluxo ou torne estritamente opcionais nas configurações."
+  },
+  {
+    "id": "1149",
+    "vol": "3",
+    "code": "E9",
+    "from": "Passo 1: mapear a jornada do usuário horizontalmente com post-its (ou equivalente digital em Miro/FigJam), cada post-it é uma \"atividade de alto nível\" que o usuário precisa fazer. Passo 2: para cada atividade, listar as \"tarefas\" concretas que a constituem. Passo 3: para cada tarefa, listar as \"user stories\" específicas em profundidade. Passo 4: desenhar linhas horizontais cortando o mapa, cada linha é um release. Primeiro release (MVP) corta o mínimo em cada coluna que ainda entrega jornada completa. Releases posteriores aprofundam.",
+    "to": "1. **Mapeie as atividades principais:** posicione horizontalmente no quadro (físico ou digital) os blocos que representam as grandes etapas da jornada do usuário.\n2. **Desdobre em tarefas concretas:** abaixo de cada atividade, liste as ações práticas que o usuário realiza para concluir aquela etapa.\n3. **Detalhe as histórias de usuário:** empilhe verticalmente sob cada tarefa as funcionalidades específicas, das mais simples no topo às mais sofisticadas na base.\n4. **Trace as linhas horizontais de entrega (*releases*):** a primeira fatia horizontal compõe o MVP, reunindo apenas o item essencial de cada coluna para permitir que o usuário percorra a jornada de ponta a ponta."
+  },
+  {
+    "id": "1150",
+    "vol": "3",
+    "code": "N8",
+    "from": "    A[Outcome: Aumentar retenção D30 de 45% para 60%] --> B1[Opportunity: Usuários não descobrem a feature core no primeiro dia]",
+    "to": "    A[Resultado desejado: Reduzir a perda mensal de farinha nas padarias em 30%] --> B1[Oportunidade: O padeiro descobre a falta de insumo tarde demais no turno]"
+  },
+  {
+    "id": "1154",
+    "vol": "3",
+    "code": "C3",
+    "from": "Teresa Torres desenvolveu OST ao longo dos anos 2010s, consolidando em *Continuous Discovery Habits*. Inspirada em work breakdown structures e em árvores de decisão, adaptada para discovery de produto.",
+    "to": "Teresa Torres desenvolveu a Opportunity Solution Tree na década de 2010 e consolidou o método no livro *Continuous Discovery Habits* (2021), adaptando estruturas analíticas de decomposição e árvores de decisão para a descoberta contínua de produto."
+  },
+  {
+    "id": "1165",
+    "vol": "3",
+    "code": "C1",
+    "from": "Tela visual de uma página com **nove blocos** organizados em torno da pergunta central \"vale a pena perseguir esta oportunidade?\":",
+    "to": "O quadro visual de uma página organiza **dez campos** (frequentemente agrupados em nove áreas operacionais no mural) em torno da pergunta central \"vale a pena investir recursos nesta oportunidade?\":"
+  },
+  {
+    "id": "1166",
+    "vol": "3",
+    "code": "C5",
+    "from": "Tempo total: 60-90 minutos por canvas. Faça antes de comprometer roadmap, não depois.",
+    "to": "Reserve de 60 a 90 minutos para preencher o quadro em equipe antes de comprometer qualquer item no *roadmap* de engenharia."
+  },
+  {
+    "id": "1171",
+    "vol": "3",
+    "code": "N7",
+    "from": "Após preencher, faça a pergunta de Kromer: \"Se o MVP falhar pelo critério de invalidação, o que construímos a seguir?\" Se a resposta for \"pivotamos para X\", o MVP está bem definido. Se a resposta for \"não sabemos\", a hipótese precisa ser mais específica.",
+    "to": "Esse formato de Canvas de MVP sintetiza boas práticas de experimentação enxuta difundidas por consultores como Tristan Kromer e, no Brasil, dialoga diretamente com o *Canvas MVP* de Paulo Caroli (*Lean Inception*, 2018), que organiza o alinhamento em sete blocos (personas, propostas de valor, jornadas, funcionalidades, resultado esperado, métricas para validar hipóteses e custo & cronograma). Ao concluir o preenchimento, responda: \"Se o MVP falhar no critério de invalidação, qual será o próximo movimento da equipe?\" Se a resposta ainda estiver vaga, refine a hipótese antes de construir."
+  },
+  {
+    "id": "1185",
+    "vol": "3",
+    "code": "E1",
+    "from": "- Esquecer Business Problems: oportunidade que ajuda só o usuário sem resolver problema do negócio é caridade, não estratégia.",
+    "to": "- **Ignorar os problemas do negócio (*Business Problems*):** uma funcionalidade que agrada ao usuário mas não move aquisição, retenção ou margem para a empresa não se sustenta financeiramente."
+  },
+  {
+    "id": "1185",
+    "vol": "3",
+    "code": "E1",
+    "from": "- Chamar de \"MVP\" qualquer versão incompleta do produto: MVP sem hipótese é produto inacabado, não experimento.",
+    "to": "- **Chamar de MVP qualquer entrega incompleta:** lançar um pacote de funcionalidades sem hipótese explícita nem métrica de decisão produz apenas um software pela metade, sem gerar aprendizado validado."
+  },
+  {
+    "id": "1188",
+    "vol": "3",
+    "code": "C3",
+    "from": "- Solutions (ideias de como endereçar cada oportunidade).",
+    "to": "- **Soluções (*Solutions*):** alternativas concretas desenhadas para resolver cada oportunidade priorizada."
+  },
+  {
+    "id": "1188",
+    "vol": "3",
+    "code": "C3",
+    "from": "- Experiments (como testar cada solução).",
+    "to": "- **Experimentos (*Experiments*):** testes empíricos rápidos para validar as premissas mais arriscadas de cada solução candidata."
+  },
+  {
+    "id": "1188",
+    "vol": "3",
+    "code": "C3",
+    "from": "#### Framework: Opportunity Solution Tree (Teresa Torres)",
+    "to": "#### Framework: Árvore de Oportunidades e Soluções (Opportunity Solution Tree, Teresa Torres, 2021)"
+  },
+  {
+    "id": "1188",
+    "vol": "3",
+    "code": "C3",
+    "from": "#### Template: Diagrama de Opportunity Solution Tree (Teresa Torres), exemplo em SaaS brasileiro",
+    "to": "#### Template: Diagrama de Opportunity Solution Tree (Teresa Torres) aplicado ao caso PadariaPro"
+  },
+  {
+    "id": "1194",
+    "vol": "3",
+    "code": "E1",
+    "from": "A tentação é inflar Must Have para vinte ou trinta itens. MVP com vinte Must Haves não é MVP. É produto mínimo *impossível*.",
+    "to": "A armadilha mais comum nesta etapa é inflar a coluna *Must Have* para vinte ou trinta itens por receio de lançar algo enxuto, inviabilizando o prazo e o foco do experimento inicial."
+  },
+  {
+    "id": "1194",
+    "vol": "3",
+    "code": "E1",
+    "from": "> Um MVP com mais de dez a quinze Must Haves não é MVP. É produto inflado. Se a sua lista passa de quinze, você não dominou o problema ainda. Volte e corte.",
+    "to": "> Mantenha a coluna *Must Have* enxuta: o teto saudável é de até 10 itens (com sinal de alerta entre 11 e 15 e corte obrigatório acima de 15). Se a sua lista ultrapassa esse limite, volte ao problema central e elimine o que não for indispensável no primeiro dia de uso."
+  },
+  {
+    "id": "1194",
+    "vol": "3",
+    "code": "E1",
+    "from": "Reduz ou elimina. Não é \"ajuda com\", \"apoia\", \"melhora a experiência de\". Uma solução que não cruza essa barreira não justifica adoção, nem pagamento. Se você se vê usando verbos fracos para descrever o impacto, provavelmente está vendendo melhoria incremental onde o cliente precisa de ruptura.",
+    "to": "O critério é objetivo: o MVP precisa reduzir ou eliminar de forma mensurável a dor principal do cliente. Verbos vagos como \"apoiar\" ou \"melhorar a experiência\" costumam indicar uma melhoria cosmética incapaz de vencer a inércia de troca do comprador."
+  },
+  {
+    "id": "1196",
+    "vol": "3",
+    "code": "S2",
+    "from": "Protótipos testam fluxo e conceito. Mas não testam valor real em uso prolongado. Esta fase aprofunda o teste de solução e converte aprendizado em requisitos. Sem especificação clara antes de construir, você gasta mais, demora mais, e entrega menos.",
+    "to": "Depois que Lucas e Marina viram o padeiro travar diante da tela na primeira sessão silenciosa, ficou claro o que precisavam resolver antes de abrir o editor de código: os protótipos da Fase 9 haviam provado o interesse pelo conceito, mas cabia à Fase 10 testar a usabilidade tarefa a tarefa, medir a percepção de valor e congelar uma especificação enxuta assinada pelos dois sócios."
+  },
+  {
+    "id": "1197",
+    "vol": "3",
+    "code": "N9",
+    "from": "> Se qualquer um desses itens falha, não avance. Especialmente o Gate de Direcionalidade e o Scale Readiness Check. Avançar para a construção no código deixando itens críticos em aberto quase sempre cobra o preço depois em semanas de retrabalho pesado de engenharia.\n\n**Primeiros passos práticos.**",
+    "to": "> Se qualquer um desses itens falha, não avance. Especialmente o Gate de Direcionalidade e o Scale Readiness Check. Avançar para a construção no código deixando itens críticos em aberto quase sempre cobra o preço depois em semanas de retrabalho pesado de engenharia.\n\n**Roteiro prático das sessões de usabilidade e especificação:**"
+  },
+  {
+    "id": "1197",
+    "vol": "3",
+    "code": "N9",
+    "from": "1. Escolher a solução vencedora da [[#FASE 9 — IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES|Fase 9]], e refinar em Figma clicável (ou Webflow ou Framer, se web).",
+    "to": "1. Pegue o protótipo vencedor da [[IGNICAO-Vol-3-Experimentos-e-Prototipagem|Fase 9]] e ajuste os fluxos principais em Figma clicável (ou Webflow/Framer para aplicação web)."
+  },
+  {
+    "id": "1197",
+    "vol": "3",
+    "code": "N9",
+    "from": "2. Escrever três a cinco tarefas concretas que um usuário novo tentaria fazer (por exemplo, \"faça um pedido de farinha para a próxima semana\").",
+    "to": "2. Redija de três a cinco tarefas concretas que reproduzam o trabalho real do usuário (por exemplo, \"confira a sugestão de compra de farinha para as três lojas e aprove o pedido da semana\")."
+  },
+  {
+    "id": "1197",
+    "vol": "3",
+    "code": "N9",
+    "from": "3. Agendar cinco sessões de teste de usabilidade de quarenta e cinco minutos cada.",
+    "to": "3. Conduza rodadas com cinco usuários do ICP em sessões individuais de 45 minutos, registrando a taxa de conclusão e o tempo de cada tarefa."
+  },
+  {
+    "id": "1197",
+    "vol": "3",
+    "code": "N9",
+    "from": "4. Pedir think-aloud. \"Fale em voz alta tudo que está pensando enquanto tenta a tarefa.\" Observar. Não guiar.",
+    "to": "4. Aplique o protocolo de pensamento em voz alta (*think-aloud*): peça ao usuário que narre o que está procurando enquanto interage com a tela, mantenha-se em silêncio sem guiar o clique e anote cada obstáculo na matriz de atritos."
+  },
+  {
+    "id": "1201",
+    "vol": "3",
+    "code": "E9",
+    "from": "- [ ] Taxa de entendimento no teste de cinco segundos ≥70% (o que entendeu, para quem é, qual problema resolve).",
+    "to": "- [ ] Taxa de compreensão no teste de cinco segundos igual ou superior a 70% nas três perguntas (o que o produto faz, para quem serve e qual dor resolve), evitando que um posicionamento confuso infle o custo de aquisição."
+  },
+  {
+    "id": "1206",
+    "vol": "3",
+    "code": "C5",
+    "from": "> O [[#Template: Especificação de MVP|Template: Especificação de MVP]] contém o template preenchível da Especificação do MVP com os dez campos acima, mais seção de riscos remanescentes e suposições ainda não validadas. Usar o template em vez de documento livre garante que nenhum campo crítico (Won't Haves, critério de sucesso mensurável) seja omitido por pressão de entrar logo em desenvolvimento.",
+    "to": "> O [[#Template: Especificação de MVP|Template: Especificação de MVP]] reúne os onze campos essenciais da especificação (ou dez blocos quando prazo e orçamento são consolidados juntos), além da seção de riscos e suposições remanescentes, garantindo que os itens excluídos (*Won't Haves*) e o critério numérico de sucesso sejam travados antes do desenvolvimento."
+  },
+  {
+    "id": "1206",
+    "vol": "3",
+    "code": "C5",
+    "from": "- [ ] Especificação do MVP (Template: Especificação de MVP (Fase 10)) escrita com todos os dez campos, MoSCoW com cinco a quinze Must Haves.",
+    "to": "- [ ] Especificação do MVP ([[#Template: Especificação de MVP|Template: Especificação de MVP]]) preenchida em todos os onze campos, com priorização MoSCoW enxuta (até 10 *Must Haves*, com teto máximo de 15)."
+  },
+  {
+    "id": "1210",
+    "vol": "3",
+    "code": "E9",
+    "from": "O terceiro é a Jornada PSF para PMF para Escala (Maurya, Moore, Ries). É o modelo de estágios pelo qual toda startup passa, cada um com clientes-alvo, métricas e focos diferentes. Aparece na distinção PSF versus PMF na [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 13 — PRODUCT-MARKET FIT|Fase 13 (Vol. 4)]], no ciclo de saturação de dezoito meses, na transição entre Fases 10 e 11. Ferramentas centrais: Sean Ellis Test, escolha de canvas por estágio (Opportunity Canvas para Lean Canvas para BMC). Priorize quando precisar saber em que ponto do ciclo você está e qual é o próximo milestone realista.",
+    "to": "O terceiro eixo acompanha a travessia do ajuste problema-solução (PSF) ao ajuste produto-mercado (PMF) e à escala (Maurya, Moore e Ries), detalhada na [[IGNICAO-Vol-4-Tracao-e-PMF|Fase 13 (Vol. 4)]]. Suas ferramentas centrais incluem o teste de Sean Ellis e a transição progressiva do Opportunity Canvas para o Lean Canvas e deste para o Business Model Canvas, orientando qual marco de validação governa cada etapa."
+  },
+  {
+    "id": "1213",
+    "vol": "3",
+    "code": "E3",
+    "from": "Nos cinco minutos seguintes de silêncio absoluto, Lucas assistiu à cena mais dolorosa e mais educativa da vida de qualquer criador de produto: o usuário tentou clicar em um título que não era link, procurou um botão de ajuda que não existia, suspirou fundo e fechou a aba. Nenhuma reunião interna de quatro horas teria ensinado o que aqueles cinco minutos de silêncio revelaram.",
+    "to": "Nos cinco minutos seguintes em silêncio, Lucas observou uma cena decisiva para qualquer criador de produto: o usuário tentou clicar em um título estático, procurou um botão de ajuda inexistente, suspirou e fechou a aba, revelando em poucos instantes falhas de fluxo que quatro horas de reunião interna jamais mostrariam."
+  },
+  {
+    "id": "1216",
+    "vol": "3",
+    "code": "C5",
+    "from": "- [ ] **Urgência observável.** Não declarada em entrevista. *Observável em comportamento*. O cliente já está pagando algo hoje para mitigar (mesmo que precariamente), já tentou resolver sozinho, ou tem prazo externo (regulatório, contratual, competitivo) que aperta.",
+    "to": "- [ ] **Urgência comprovada em comportamento:** em vez de depender apenas de entusiasmo verbal na entrevista, confirme que o cliente já gasta tempo ou dinheiro tentando contornar o problema hoje, enfrenta um prazo regulatório ou contratual concreto ou aceita assinar pré-venda, piloto pago ou carta de intenção."
+  },
+  {
+    "id": "1217",
+    "vol": "3",
+    "code": "C5",
+    "from": " subgraph M[\"🔴 MUST HAVE<br/>sem isso não vai ao ar<br/>5-15 itens\"]",
+    "to": " subgraph M[\"🔴 MUST HAVE<br/>indispensável no dia 1<br/>até 10 itens (máx. 15)\"]"
+  },
+  {
+    "id": "1220",
+    "vol": "3",
+    "code": "E10",
+    "from": "> Essa não é a precificação ideal. Mas é um ponto de partida muito melhor do que chutar. Preço real será descoberto em mercado.",
+    "to": "> Use a faixa de Van Westendorp como baliza inicial para evitar extremos de preço; a validação definitiva ocorre na Fase 11, quando o cliente efetua o pagamento real."
+  },
+  {
+    "id": "1220",
+    "vol": "3",
+    "code": "E10",
+    "from": "- [ ] Teste de precificação Van Westendorp aplicado, faixa de preço psicologicamente aceitável definida.",
+    "to": "- [ ] Compromisso concreto de adoção registrado ao fim das sessões (assinatura de carta de intenção, adesão a piloto pago ou depósito de pré-venda dentro da faixa de preço definida)."
+  },
+  {
+    "id": "1224",
+    "vol": "3",
+    "code": "E10",
+    "from": "- [ ] Protótipo de média fidelidade clicável (Figma, Webflow, Framer) com fluxos principais navegáveis.",
+    "to": "- [ ] Protótipo navegável de média fidelidade (Figma, Webflow ou Framer) cobrindo de ponta a ponta o fluxo principal."
+  },
+  {
+    "id": "1224",
+    "vol": "3",
+    "code": "E10",
+    "from": "- [ ] Três a cinco tarefas-chave de teste definidas, com critério de conclusão.",
+    "to": "- [ ] Três a cinco tarefas práticas de usabilidade testadas com cinco usuários por rodada, atingindo taxa de conclusão ≥ 80% sem auxílio do moderador."
+  },
+  {
+    "id": "1224",
+    "vol": "3",
+    "code": "E10",
+    "from": "- [ ] Faixa de preço aceitável definida por Van Westendorp, com limite superior identificado.",
+    "to": "- [ ] Faixa de preço aceitável delimitada pelo método Van Westendorp, identificando o ponto ótimo e o teto de preço antes do piloto comercial."
+  },
+  {
+    "id": "1224",
+    "vol": "3",
+    "code": "E10",
+    "from": "- [ ] Friction points documentados por tarefa e por usuário em matriz.",
+    "to": "- [ ] Matriz de pontos de atrito (*friction points*) preenchida por tarefa e por usuário, com zero erros bloqueantes abertos após a iteração."
+  },
+  {
+    "id": "1224",
+    "vol": "3",
+    "code": "E10",
+    "from": "- [ ] Pelo menos uma iteração do protótipo baseada nos testes.",
+    "to": "- [ ] Pelo menos uma rodada completa de ajustes no protótipo executada e revalidada após corrigir os atritos graves."
+  },
+  {
+    "id": "1224",
+    "vol": "3",
+    "code": "E10",
+    "from": "- [ ] Gate de Direcionalidade aprovado: a solução reduz ou elimina, de forma direta e mensurável, a dor identificada na beachhead.",
+    "to": "- [ ] *Gate* de Direcionalidade aprovado: evidência comportamental de que a solução reduz ou elimina a dor principal da cunha de mercado (*beachhead*)."
+  },
+  {
+    "id": "1224",
+    "vol": "3",
+    "code": "E10",
+    "from": "Bloat de escopo. Sem disciplina, o MVP cresce. Para cada Must Have, pergunte: \"se eu tirasse isso, o produto ainda resolveria o *job* principal?\". Se sim, não é Must.",
+    "to": "**Inchaço de escopo (*scope bloat*):** sem corte rigoroso, o MVP acumula funcionalidades secundárias; para cada item classificado como *Must Have*, pergunte se o usuário ainda concluiria o trabalho principal sem ele e mova todo excesso para *Could* ou *Won't Have*."
+  },
+  {
+    "id": "1224",
+    "vol": "3",
+    "code": "E10",
+    "from": "Confiar em \"eu pagaria\". A resposta é sempre mais generosa na entrevista do que na carteira. Trate com desconto de cinquenta a setenta por cento.",
+    "to": "**Confundir elogio com disposição real de compra:** respostas verbais como \"eu pagaria por isso\" são sempre mais generosas na entrevista do que no momento de assinar o contrato; aplique um desconto de 50% a 70% sobre intenções declaradas e exija compromisso concreto."
+  },
+  {
+    "id": "1224",
+    "vol": "3",
+    "code": "E10",
+    "from": "Ignorar quem não usaria. Quando um entrevistado diz \"não é para mim\", isso é informação. Pergunte por quê. Às vezes revela que o seu ICP está mal definido.",
+    "to": "**Descartar quem recusou a proposta sem investigar a causa:** quando um entrevistado afirma que não usaria a solução, investigue o motivo exato, pois a recusa frequentemente expõe um recorte equivocado de ICP ou uma barreira oculta de integração."
+  },
+  {
+    "id": "1224",
+    "vol": "3",
+    "code": "E10",
+    "from": "Especificar sem mensuração. \"O MVP deve ser intuitivo.\" O que é intuitivo? Operacionalize em métricas testáveis.",
+    "to": "**Redigir requisitos vagos sem métrica de verificação:** troque adjetivos subjetivos como \"interface intuitiva\" por critérios operacionais auditáveis (por exemplo, \"80% dos novos usuários concluem o primeiro pedido em menos de 4 minutos sem ajuda\")."
+  },
+  {
+    "id": "1228",
+    "vol": "3",
+    "code": "C5",
+    "from": "Amostra pequena (< 20): baixa confiança estatística, Aplicar sem uso real: \"com base na descrição\" invalida, Interpretar score absoluto sem contexto: comparar com benchmark é chave, Ignorar que SUS é unidimensional: não captura preferências específicas, só usabilidade geral.",
+    "to": "- **Amostra reduzida (< 20 respondentes):** em rodadas qualitativas de 5 a 15 usuários, trate o escore SUS apenas como indicador exploratório e apoie o critério de saída na taxa de conclusão de tarefas (≥ 80%) e na ausência de erros críticos.\n- **Aplicação sem uso prático:** coletar o questionário apenas a partir de uma explicação verbal invalida a nota.\n- **Leitura isolada do número:** compare sempre o resultado com a média histórica de 68 pontos.\n- **Escopo estritamente funcional:** lembre-se de que o SUS mede facilidade de uso percebida, e não disposição de compra."
+  },
+  {
+    "id": "1231",
+    "vol": "3",
+    "code": "S7",
+    "from": "Um único avaliador: detecta só 30% dos problemas, Avaliadores sem experiência: identificam violações superficiais, não profundas, Confundir com usability testing: heurística é avaliação de especialista, teste é de usuário, Não priorizar: lista de 100 violações sem severidade vira paralisia.",
+    "to": "- **Avaliador único:** um especialista isolado identifica em média apenas 30% a 35% dos problemas de interface; reúna de 3 a 5 avaliadores independentes.\n- **Falta de repertório em usabilidade:** avaliadores sem treino tendem a apontar detalhes cosméticos e deixar passar falhas graves de fluxo.\n- **Substituir o teste com usuários reais:** a inspeção heurística limpa erros óbvios antes de ir a campo, mas não dispensa observar cinco usuários do ICP executando tarefas.\n- **Ausência de classificação de severidade:** listar dezenas de infrações sem nota de 0 a 4 paralisa a engenharia."
+  },
+  {
+    "id": "1247",
+    "vol": "3",
+    "code": "S7",
+    "from": "4. PROBES (5 minutos)",
+    "to": "4. APROFUNDAMENTO E PERCEPÇÃO DE VALOR (5 minutos)"
+  },
+  {
+    "id": "1257",
+    "vol": "3",
+    "code": "S7",
+    "from": "### Sobre o quarto framework: Idea, Wedge, Scale (Antler)",
+    "to": "### Integração com o quarto modelo: Idea, Wedge, Scale (Antler)"
+  },
+  {
+    "id": "1258",
+    "vol": "3",
+    "code": "S7",
+    "from": "> [!abstract] Como ler a Fatia Frameworks e Casos",
+    "to": "> [!abstract] Roteiro de leitura dos capítulos transversais deste volume"
+  },
+  {
+    "id": "1259",
+    "vol": "3",
+    "code": "N2",
+    "from": "### Como combinar as duas",
+    "to": "### Como Lucas e Henrique combinam o rigor científico com a velocidade do ciclo Lean"
+  },
+  {
+    "id": "1264",
+    "vol": "3",
+    "code": "N7",
+    "from": "\"Hipótese\" no Lean Startup é tipicamente sobre o modelo de negócio (por exemplo, \"clientes B2B vão adotar auto-serviço\"). Na abordagem científica, hipóteses são derivadas explicitamente de uma teoria causal sobre atributos do problema e da solução.",
+    "to": "No *Lean Startup* de Eric Ries, a hipótese parte das premissas de valor e de crescimento do modelo de negócio e exige métricas de contabilidade da inovação antes do teste; a abordagem científica de Camuffo adiciona a exigência de explicitar uma árvore causal completa com probabilidades atribuídas *ex-ante* a cada elo."
+  },
+  {
+    "id": "1264",
+    "vol": "3",
+    "code": "N7",
+    "from": "\"Pivot\" no Lean Startup é uma mudança de direção após aprendizado. Na abordagem científica, o pivô é informado pela teoria alternativa já mapeada. Você já sabia quais eram as direções possíveis.",
+    "to": "Em ambas as escolas, o pivô é uma mudança estruturada de rota após um experimento refutado: a diferença prática é que a abordagem científica mapeia previamente na árvore da teoria quais ramos alternativos serão acionados caso a hipótese principal caia."
+  },
+  {
+    "id": "1264",
+    "vol": "3",
+    "code": "N7",
+    "from": "\"MVP\" no Lean Startup é um produto mínimo que gera aprendizado. Na abordagem científica, o MVP é um experimento específico que testa uma hipótese específica derivada da teoria. Não é uma versão genérica do produto.",
+    "to": "Tanto Ries quanto Camuffo definem o MVP como um experimento desenhado para testar uma hipótese específica com o menor esforço possível; na abordagem científica, esse experimento fica estritamente vinculado a um atributo isolado da teoria e a um protocolo formal de diligência da amostra."
+  },
+  {
+    "id": "1264",
+    "vol": "3",
+    "code": "N7",
+    "from": "\"Validado\" no Lean Startup tende a significar \"resultado positivo no último experimento\". Na abordagem científica, validação é a convergência entre a teoria inicial, os resultados ajustados por due diligence da amostra, e a comparação com explicações alternativas.",
+    "to": "Para Ries, validar significa demonstrar empiricamente que o produto gera valor real para o cliente nas métricas definidas antes do teste; a abordagem científica complementa esse critério exigindo a auditoria de vieses da amostra e o confronto direto com explicações rivais."
+  },
+  {
+    "id": "1269",
+    "vol": "3",
+    "code": "S4",
+    "from": "Nas hipóteses e experimentos (Fases 5 e 6), os Frameworks 1 e 2 se fundem. O Framework 1 dá a disciplina (falsificabilidade, threshold ex-ante, due diligence de amostra). O Framework 2 dá a priorização operacional (R vezes I e H sobre E). O Framework 3 diz em qual tipo de validação você está (problema, oferta, ou solução).",
+    "to": "Na formulação de hipóteses e na execução de experimentos (Fases 7 e 8), os Modelos 1 e 2 atuam juntos: a abordagem científica garante falsificabilidade, limiar definido antes da coleta e auditoria da amostra, enquanto o ferramental enxuto orienta a priorização prática (R × I e diagnóstico H/E) para validar problema e oferta."
+  },
+  {
+    "id": "1269",
+    "vol": "3",
+    "code": "S4",
+    "from": "Na construção de solução e MVP (Fases 7 a 9), o Framework 2 domina (ciclo MVP em três fases). O Framework 1 entra quando você precisa decidir entre alternativas competidoras (DAG comparando duas teorias da solução). O Framework 3 te diz: você está atravessando pré-PSF para PSF.",
+    "to": "Na prototipagem, especificação e lançamento do MVP (Fases 9 a 11), predomina a cadência de experimentação rápida do Modelo 2, acionando-se a árvore comparativa do Modelo 1 sempre que for preciso escolher entre arquiteturas concorrentes durante a travessia até o ajuste problema-solução (PSF)."
+  },
+  {
+    "id": "1269",
+    "vol": "3",
+    "code": "S4",
+    "from": "Na estruturação e escala (Fases 12 e 13), os três frameworks quase desaparecem e entram outros (governança, finanças, recrutamento). Mas voltam em pontos específicos. Por exemplo, ao abrir novo mercado, você retorna ao Framework 1 (teoria do novo mercado) e ao Framework 2 (cunha do novo mercado).",
+    "to": "Da validação do modelo de negócio à escala (Fases 12 em diante, nos Volumes 4 a 9), entram em cena os referenciais de finanças, governança e operações, mas você retorna imediatamente à árvore da teoria (Modelo 1) e à estratégia de cunha (Modelo 2) sempre que abrir uma nova linha de produto ou expandir para outro mercado."
+  },
+  {
+    "id": "1274",
+    "vol": "3",
+    "code": "S4",
+    "from": "| Exit ([[IGNICAO-Vol-9-Maturidade-e-Exit#FASE 20 — ESTRATÉGIA DE SAÍDA (EXIT STRATEGY)|Fase 20 (Vol. 9)]]), preparação e execução | BMC como referência canônica | Base para due diligence, tax structuring e equity story |",
+    "to": "| Preparação para saída e M&A ([[IGNICAO-Vol-9-Maturidade-e-Exit|Fase 20 (Vol. 9)]]) | BMC auditado como referência canônica | Base para diligência (*due diligence*), estruturação societária e tese de valor (*equity story*) |"
+  },
+  {
+    "id": "1276",
+    "vol": "3",
+    "code": "E1",
+    "from": "> Quando esse manual insiste em formulação de teoria antes de teste, em thresholds ex-ante, em due diligence de amostra, não é rigor por rigor. É tradução de achados empíricos que mostram diferenças mensuráveis de performance entre empreendedores que aplicam esses princípios e os que pulam direto para \"construir e ver\". A abordagem tem custo, tempo de teorização, desconforto de falsificar as próprias teses, mas o retorno é sistemático.",
+    "to": "> A exigência deste manual por teoria explícita antes do teste, limiares de decisão fixados *ex-ante* e auditoria da amostra traduz os achados empíricos dos ensaios controlados com milhares de fundadores: embora estruturar a árvore causal exija tempo e disciplina intelectual, ela evita meses de engenharia gasta na direção errada."
+  },
+  {
+    "id": "1276",
+    "vol": "3",
+    "code": "E1",
+    "from": "Uma confusão recorrente entre empreendedores iniciantes é qual \"canvas\" usar. Existem vários, e a maioria os trata como intercambiáveis. Não são. Cada canvas é otimizado para um estágio diferente do negócio. Usar o canvas errado no estágio errado produz documentos que parecem estruturados mas não ajudam em decisão nenhuma.",
+    "to": "Escolher o quadro visual (*canvas*) inadequado para o estágio atual da startup produz um documento bem formatado na parede que não ajuda a tomar as decisões daquela semana."
+  },
+  {
+    "id": "1277",
+    "vol": "3",
+    "code": "E4",
+    "from": "O manual articula três frameworks complementares. Empreendedores iniciantes às vezes se confundem sobre qual usar quando. Esse mapa esclarece.",
+    "to": "Os três referenciais metodológicos deste volume cumprem papéis distintos e complementares ao longo da jornada, como resume a matriz de aplicação a seguir."
+  },
+  {
+    "id": "1279",
+    "vol": "3",
+    "code": "S7",
+    "from": "Na prática, os bons empreendedores usam as duas de forma integrada.",
+    "to": "Na prática, fundadores experientes alternam deliberadamente entre o enquadramento científico e a experimentação enxuta conforme o custo de reversão da decisão."
+  },
+  {
+    "id": "1279",
+    "vol": "3",
+    "code": "S7",
+    "from": "Comece científico nas Fases 0 a 6 desse manual. Gaste tempo na teoria, atributos, hipóteses, thresholds. Isso reduz drasticamente o risco de testar a coisa errada nos meses seguintes.",
+    "to": "Adote o modo científico do início da jornada até o mapeamento de mercado (Fases 0 a 6) e na abertura da Fase 7: dedicar tempo à árvore da teoria, aos atributos críticos e aos limiares de decisão reduz o risco de passar os meses seguintes testando a premissa errada."
+  },
+  {
+    "id": "1279",
+    "vol": "3",
+    "code": "S7",
+    "from": "Volte ao modo científico em decisões estratégicas grandes na [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 12 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 12 (Vol. 4)]] em diante. Quando precisar decidir sobre novo mercado, expansão internacional, novo produto, rodada de investimento ou mudança significativa de modelo, volte à árvore de teoria. Essas são novamente decisões de baixa frequência e alto impacto.",
+    "to": "Retome o enquadramento científico em decisões estratégicas de baixa frequência e alto custo de reversão da [[IGNICAO-Vol-4-Tracao-e-PMF|Fase 12 (Vol. 4)]] em diante, como entrada em novo país, lançamento de segunda linha de produto, captação institucional ou mudança de modelo de receita."
+  },
+  {
+    "id": "1279",
+    "vol": "3",
+    "code": "S7",
+    "from": "Na descoberta de problema e mercado (Fases 2 a 4), o Framework 2 domina na execução (Mom Test, Pain Levels, Cunha). O Framework 1 garante rigor metodológico (entrevistas estruturadas, saturação, evidência diferente de opinião). O Framework 3 é referência silenciosa, ainda pré-PSF.",
+    "to": "Na descoberta do problema e no mapeamento de mercado (Fases 4 a 6, no Vol. 2), o ferramental enxuto conduz o trabalho de campo (*Mom Test*, níveis de dor e estratégia de cunha), enquanto a abordagem científica assegura o protocolo de amostragem e o critério de saturação antes do ajuste problema-solução (PSF)."
+  },
+  {
+    "id": "1284",
+    "vol": "3",
+    "code": "C1",
+    "from": "Em sessenta dias, os dois enfrentaram os dois monstros que devoram 95% dos marketplaces nascentes: **A Fome de Liquidez na Largada** e **O Vazamento por Desintermediação** (*Leakage*).",
+    "to": "Em sessenta dias, o piloto de kits corporativos da marca D2C com confeiteiras parceiras esbarrou nas duas armadilhas mais comuns de plataformas de dois lados nascentes: **A Fome de Liquidez na Largada** e **O Vazamento por Desintermediação** (*Leakage*)."
+  },
+  {
+    "id": "1284",
+    "vol": "3",
+    "code": "C1",
+    "from": "> Uma ou duas notas iguais ou superiores a nove em Exploratory Gates podem justificar manter viva uma ideia que falha Problem Core, como option play (aposta de opção). Mas isso só faz sentido quando você (ou o investidor) tem apetite real para perda total, o horizonte é de sete a dez anos ou mais, e há capacidade técnico-científica diferenciada para executar a tese. Para noventa e cinco por cento das ideias, ignore esse framework e use os dois primeiros (Problem Core e Scale Levers). Exploratory é para deep tech e ideias contrarian. Usá-lo como desculpa para ignorar fundamentos é auto-sabotagem.",
+    "to": "> Uma ou duas notas iguais ou superiores a 9 nos *Exploratory Gates* podem justificar manter viva uma tese que ainda não pontua alto no *Problem Core*, tratando-a como uma aposta de opção (*option play*). Isso só faz sentido quando há capital paciente disposto a suportar perda total, horizonte de maturação de sete a dez anos e vantagem técnico-científica proprietária. Na imensa maioria dos negócios digitais e tradicionais, concentre-se nos blocos 1 e 2 (*Problem Core* e *Scale Levers*), reservando o bloco exploratório para *deep techs* e teses de fronteira."
+  },
+  {
+    "id": "1286",
+    "vol": "3",
+    "code": "C5",
+    "from": "| Qualquer | Qualquer Core < 7 | 🔴 Pivot/Kill ou voltar: Core quebrado mata a ideia |",
+    "to": "| Qualquer | Qualquer *Gate* do Bloco 1 (*Core*) < 6 (ou nota combinada H/E insuficiente) | 🔴 Pivotar, encerrar ou iterar na fase atual: falha estrutural no *Core* impede avançar |"
+  },
+  {
+    "id": "1287",
+    "vol": "3",
+    "code": "S1",
+    "from": "O princípio é simples. Em qualquer ideia de negócio há perguntas deal-breakers, se uma falha, a ideia morre, e perguntas levers, fatores que, juntos, determinam a velocidade e a amplitude do crescimento. Não dá para compensar nota baixa num deal-breaker com notas altas nos levers. Daí a estrutura em duas fases.",
+    "to": "O princípio estrutural divide a avaliação entre perguntas eliminatórias (*deal-breakers*), nas quais uma falha isolada inviabiliza a tese, e alavancas de escala (*levers*), que determinam o ritmo e a amplitude do crescimento após a validação inicial. Como notas altas em escala jamais compensam uma falha eliminatória, o modelo organiza os dezessete *gates* em três blocos complementares."
+  },
+  {
+    "id": "1294",
+    "vol": "3",
+    "code": "E9",
+    "from": "**Defensibilidade.** Network effects. Mais usuários, igual a mais valor para usuários. Forte. Mas precisa ser cultivado. Data effects. Mais uso, igual a dados melhores, igual a produto melhor. Switching costs. Reputação acumulada, e histórico. Brand. Marketplace viram verbo (Uber, e Airbnb).",
+    "to": "**Defensibilidade acumulada:** os efeitos de rede elevam o valor entregue a cada novo participante; o acúmulo de dados operacionais refina o pareamento de oferta e demanda; o histórico de avaliações eleva o custo de troca; e a marca forte transforma a plataforma em referência direta da categoria."
+  },
+  {
+    "id": "1294",
+    "vol": "3",
+    "code": "E9",
+    "from": "Take rate, igual a fee do marketplace sobre GMV.",
+    "to": "A taxa de captura (*take rate*) corresponde ao percentual retido pela plataforma sobre o volume bruto transacionado (GMV)."
+  },
+  {
+    "id": "1299",
+    "vol": "3",
+    "code": "C5",
+    "from": "### CRL, Customer Readiness Level",
+    "to": "### CRL: Nível de Maturidade Comercial e de Clientes (Escala de 1 a 9)"
+  },
+  {
+    "id": "1309",
+    "vol": "3",
+    "code": "C5",
+    "from": "Antes de encerrar qualquer fase, e abrir a próxima, valide que você tem as quatro peças abaixo definidas com precisão. Elas traduzem a disciplina \"committed experiments, not prolonged exploration\" (experimentos comprometidos, e não exploração prolongada) do programa da Antler para o trabalho fase a fase desse manual.",
+    "to": "Antes de encerrar qualquer fase e avançar para a seguinte, formalize por escrito as quatro peças do seu próximo experimento comprometido (*Committed Next Move*) e vincule-as aos três vereditos pré-declarados (Avançar, Iterar ou Pivotar/Matar)."
+  },
+  {
+    "id": "1310",
+    "vol": "3",
+    "code": "S7",
+    "from": "> [!warning] A ausência de qualquer uma das quatro",
+    "to": "> [!warning] Sinal de que você ainda apenas explora"
+  },
+  {
+    "id": "1310",
+    "vol": "3",
+    "code": "S7",
+    "from": "> [!important] Se as quatro peças não estão claras por escrito",
+    "to": "> [!important] Regra de travamento antes de ir a campo"
+  },
+  {
+    "id": "1318",
+    "vol": "3",
+    "code": "N7",
+    "from": "**Com o Framework 2 (Operacional).** Há sobreposição real. Mom Test, Pain Levels, e filtros de problema ideal, são compartilhados entre operadores (YC, Antler, e João Prado). A contribuição específica do Antler, dentro do Framework 2, é a ênfase em disciplina de sequência. Não apenas \"foque\", mas \"foque *nesse* ponto *nessa* ordem\". O rigor sequencial é maior no Antler do que no YC original.",
+    "to": "**Convergência com o Modelo 2 (Operacional):** ferramentas como *Mom Test*, níveis de dor e filtros de problema inicial são compartilhadas entre aceleradoras como YC e Antler, a literatura de Blank e Maurya e os critérios que estruturei na Fase 4 deste manual. O diferencial específico da Antler reside na disciplina estrita de sequência: atacar o ponto certo na ordem exata antes de dispersar energia."
+  },
+  {
+    "id": "1321",
+    "vol": "3",
+    "code": "C5",
+    "from": "| Canvas da Cunha | Wedge | [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 6 — MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 6 (Vol. 2)]], entregável final |",
+    "to": "| Canvas da Cunha | *Wedge* (Cunha de Entrada) | [[IGNICAO-Vol-2-Descoberta-e-Mercado|Fase 6 (Vol. 2)]], entregável central |"
+  },
+  {
+    "id": "1325",
+    "vol": "3",
+    "code": "E9",
+    "from": "A primeira. É framework integrado com três estágios sequenciais, não coleção de heurísticas. Funciona como mapa de progressão do negócio, de forma análoga ao Framework 3, PSF para PMF para Escala. Os dois frameworks se complementam ao ponto de quase se fundirem.",
+    "to": "O primeiro diferencial está na sua arquitetura integrada em três estágios sequenciais (da Ideia à Cunha e desta à Escala), funcionando como um mapa de progressão que dialoga diretamente com a travessia do ajuste problema-solução (PSF) ao ajuste produto-mercado (PMF) e à escala."
+  },
+  {
+    "id": "1326",
+    "vol": "3",
+    "code": "N3",
+    "from": "Em Goiânia, Rafael estava comemorando na reunião de segunda-feira: depois de três semanas testando dezessete variações de cor de botão, quatro layouts de checkout e cinco gatilhos de escassez no site, a conversão da loja de cosméticos naturais dele e de Bia havia subido de 1,1% para 1,4%.",
+    "to": "Entre a operação no Recife e o centro de distribuição em Goiânia, Rafael comemorava na reunião de segunda-feira: após três semanas testando dezessete cores de botão, quatro telas de pagamento e cinco alertas de escassez na loja virtual da marca D2C de autocuidado que fundou com Bia, a taxa de conversão havia oscilado de 1,1% para 1,4%."
+  },
+  {
+    "id": "1327",
+    "vol": "3",
+    "code": "C6",
+    "from": "#### 2. Tipos de dependência de plataforma",
+    "to": "#### 2. Dependência de plataformas terceiras e defesa contra o vazamento no WhatsApp"
+  },
+  {
+    "id": "1329",
+    "vol": "3",
+    "code": "C5",
+    "from": "3. Você está tentando operar na cidade inteira (ou no Brasil inteiro) de uma vez, em vez de dominar um único bairro ou uma única subcategoria até atingir 80% de liquidez?",
+    "to": "3. Você está tentando pulverizar esforços na cidade inteira de uma só vez, em vez de concentrar oferta e demanda em um único bairro ou subcategoria até superar o patamar mínimo de liquidez do setor (cerca de 30% de propostas fechadas)?"
+  },
+  {
+    "id": "1330",
+    "vol": "3",
+    "code": "E7",
+    "from": "Framework para construir e escalar produtos com efeitos de rede, organizado em cinco estágios sequenciais: (1) *Cold Start Problem*, atingir \"atomic network\", a menor rede viável que gera valor (ex.: um Slack workspace ativo, um Uber city, um Airbnb cidade), (2) *Tipping Point*, pontos de inflexão onde o crescimento acelera, (3) *Escape Velocity*, crescimento autossustentável via três loops (engagement loop, acquisition loop, economic loop), (4) *The Ceiling*, saturação de mercado e estratégias para furar o teto, (5) *The Moat*, como o efeito de rede vira defensibilidade duradoura.",
+    "to": "O método de Andrew Chen organiza a construção e a escala de negócios com efeitos de rede em cinco etapas sequenciais: (1) **Problema da Partida a Frio (*Cold Start Problem*)**, focado em construir a menor rede viável (*atomic network*) capaz de gerar liquidez autônoma (como uma primeira equipe ativa no Slack ou uma única cidade densa no início de aplicativos de transporte e hospedagem); (2) **Ponto de Inflexão (*Tipping Point*)**, quando a densidade local acelera a adesão orgânica; (3) **Velocidade de Escape (*Escape Velocity*)**, sustentada pelos ciclos de engajamento, aquisição e economia unitária; (4) **O Teto (*The Ceiling*)**, etapa em que surgem saturação, desintermediação e perda de qualidade; e (5) **O Fosso (*The Moat*)**, quando o efeito de rede se converte em barreira competitiva duradoura."
+  },
+  {
+    "id": "1334",
+    "vol": "3",
+    "code": "E9",
+    "from": "Marketplaces são alvo fácil de fraude. Operação madura requer.",
+    "to": "Plataformas transacionais atraem tentativas constantes de fraude e desintermediação; por isso, uma operação madura exige quatro camadas de proteção:"
+  },
+  {
+    "id": "1344",
+    "vol": "3",
+    "code": "E8",
+    "from": "A segunda é moat (vantagem competitiva defensável) via integração. Produto integrado ao stack tecnológico de B é difícil de substituir. B que usa Pagar.me como gateway de pagamento não troca facilmente, porque a migração afeta milhares de clientes finais.",
+    "to": "A segunda alavanca é a barreira competitiva criada pela integração técnica profunda: quando o seu sistema passa a operar dentro da infraestrutura tecnológica da empresa parceira (B), como ocorre com processadores de pagamento integrados ao fluxo de caixa, o custo operacional de substituição protege a retenção no longo prazo."
+  },
+  {
+    "id": "1349",
+    "vol": "3",
+    "code": "S5",
+    "from": "**Benchmarks globais.** Mobility (Uber, e 99). Vinte a trinta por cento. Food delivery (iFood, e Rappi). Vinte a trinta por cento. Horizontal marketplace (Mercado Livre). Dez a quinze por cento. Vertical especializado (StockX, e 1stDibs). Dez a vinte por cento. Real estate, ou M&A. Três a seis por cento. Professional services. Quinze a vinte e cinco por cento.",
+    "to": "**Referências de taxa de captura (*take rate*) por vertical (estimativas de mercado até outubro de 2026, detalhadas no Capítulo 6):** mobilidade urbana (Uber, 99) opera entre 20% e 30%; entrega de refeições (iFood, do plano básico ao plano com logística, e Rappi) varia de 12% a 27%; varejo horizontal (Mercado Livre) cobra de 11% a 19%; verticais com verificação de autenticidade praticam de 10% a 20%; imobiliário e intermediação de ativos ficam entre 3% e 6%; e serviços profissionais retêm de 10% a 25%."
+  },
+  {
+    "id": "1355",
+    "vol": "3",
+    "code": "C5",
+    "from": "> Em B2B2C enterprise, do primeiro contato ao volume pleno são dezoito a trinta e seis meses. Isso afeta burn, forecasting e paciência. Modele caixa contando com isso.",
+    "to": "> Em contratos B2B2C com grandes corporações (*enterprise*), o ciclo completo desde a prospecção até a implantação plena na base de usuários finais costuma levar de 18 a 36 meses (enquanto parcerias com empresas médias fecham em poucos meses); dimensione seu fôlego de caixa para suportar essa travessia."
+  },
+  {
+    "id": "1358",
+    "vol": "3",
+    "code": "C4",
+    "from": "O terceiro é enabler. Você fornece serviço especializado que B não faria internamente. Dock para fintech, Smartbill para emissão fiscal, integradores de logística como Loggi B2B e Kangu B2B. C raramente nota sua presença direta. Revenue vem de fee por uso ou comissão. O moat é especialização vertical.",
+    "to": "O terceiro modelo é o de **habilitador (*enabler*)**, no qual você fornece infraestrutura especializada que a empresa parceira (B) não construiria internamente: é o caso da Dock em serviços financeiros, de motores de emissão fiscal integrados a ERPs (como eNotas e NFE.io), de seguradoras embutidas no varejo (como a Luizaseg no Magazine Luiza) e de malhas logísticas B2B como Loggi e Kangu. O consumidor final (C) raramente percebe a sua marca, a receita vem de tarifa por transação ou assinatura e a barreira competitiva nasce da especialização técnica e regulatória."
+  },
+  {
+    "id": "1362",
+    "vol": "3",
+    "code": "C2",
+    "from": "### Traçando a fronteira Open Core (Buyer-Based Open Core) e escolhendo a licença que impede o roubo por gigantes",
+    "to": "### Traçando a fronteira do Open Core por perfil de comprador e escolhendo a licença que protege o uso comercial em nuvem"
+  },
+  {
+    "id": "1370",
+    "vol": "3",
+    "code": "E11",
+    "from": "  * **Saldo Líquido de Caixa no Mês 1:** **+R$ 3.000 positivos já no dia da venda!** Enquanto uma startup SaaS tradicional queima caixa por 14 meses esperando o *CAC Payback*, na sua operação cada novo cliente financia imediatamente a aquisição do próximo.",
+    "to": "  * **Saldo Líquido de Caixa no Mês 1:** descontado o custo direto de entrega do primeiro mês (cerca de R$ 1.800 em horas de analista), a operação já gera **+R$ 1.200 de saldo positivo de caixa logo na largada**, permitindo que cada novo contrato financie a aquisição do próximo cliente sem queimar capital externo."
+  },
+  {
+    "id": "1370",
+    "vol": "3",
+    "code": "E11",
+    "from": "Pelo **art. 4º da Lei do Software (Lei nº 9.609/1998)**, salvo estipulação contratual em contrário, **pertencem exclusivamente ao cliente contratante** os direitos sobre programas desenvolvidos sob encomenda! Se você assinar a minuta padrão de compras de um grande cliente cedendo a PI dos entregáveis sem ressalva, você perde a titularidade do código que queria transformar em SaaS.",
+    "to": "Pelo **art. 4º da Lei do Software (Lei nº 9.609/1998)**, salvo estipulação contratual em contrário, pertencem ao contratante os direitos sobre programas desenvolvidos sob encomenda específica. Por isso, assinar a minuta padrão de compras de uma grande empresa cedendo a propriedade intelectual dos entregáveis sem ressalva transfere ao cliente a titularidade do código que deveria compor a base do seu SaaS."
+  },
+  {
+    "id": "1370",
+    "vol": "3",
+    "code": "E11",
+    "from": "**Como Construir um Negócio Financiado pelos Próprios Clientes (*Customer-Funded*), Subir os 4 Degraus da Escada de Produtização e Financiar um SaaS sem Diluir 1% do *Cap Table***",
+    "to": "*Como financiar a construção de um SaaS com a receita dos próprios clientes (Customer-Funded), subir os quatro degraus da escada de produtização e preservar a participação dos fundadores no Cap Table*"
+  },
+  {
+    "id": "1370",
+    "vol": "3",
+    "code": "E11",
+    "from": "3. **Risco de Confiança B2B:** Empresas brasileiras de médio e grande porte resistem a comprar uma \"ferramenta vazia\" na qual sua equipe interna já sobrecarregada terá que configurar fluxos e operar sozinha. No Brasil, **o cliente corporativo não quer comprar um martelo; ele quer o quadro pendurado na parede**.",
+    "to": "3. **Risco de Confiança B2B:** Empresas brasileiras de médio e grande porte resistem a adquirir uma ferramenta vazia que exija semanas de configuração pela própria equipe interna sobrecarregada; na prática, o comprador corporativo busca o resultado entregue e operando, e não apenas o acesso ao software."
+  },
+  {
+    "id": "1371",
+    "vol": "3",
+    "code": "C5",
+    "from": "> Só force a transição para SaaS *Self-Serve* puro (Etapa 4) se o usuário final na ponta quiser e conseguir operar a ferramenta diariamente sem fricção. Caso contrário, domine a Etapa 3: use IA internamente para derrubar seu custo operacional para 20% da receita e cobre preço premium de serviço completo.",
+    "to": "> Só avance para o SaaS *self-serve* puro (Etapa 4) se o usuário final na ponta tiver rotina e incentivo para operar a ferramenta sozinho sem atrito; caso contrário, consolide a Etapa 3 (*Tech-Enabled Service*), usando automação e IA internamente para manter o custo de entrega entre 25% e 40% da receita (margem bruta de 60% a 75%) enquanto cobra o preço de uma solução completa."
+  },
+  {
+    "id": "1373",
+    "vol": "3",
+    "code": "C1",
+    "from": "> A narrativa tradicional do Vale do Silício convenceu milhares de fundadores de que só existe um caminho legítimo para criar uma empresa de tecnologia: levantar uma rodada *Pre-Seed* com um *pitch deck*, passar 12 meses queimando caixa para programar um software puro do zero e torcer pelo *Product-Market Fit* antes que o dinheiro acabe. Na realidade brasileira: onde o capital inicial é escasso, a taxa básica de juros (Selic) é estruturalmente elevada e o comprador B2B exige confiança: a trilha **Serviço Artesanal → Serviço Produtizado (*Productized Service*) → *Tech-Enabled Service* → Produto Puro (SaaS)** apresenta a maior taxa de sobrevivência, geração imediata de caixa e preservação de *equity* para fundadores sem capital próprio.",
+    "to": "> A narrativa clássica do Vale do Silício popularizou a rota de captar uma rodada *Pre-Seed* apenas com uma apresentação, queimar caixa por doze meses construindo software puro e buscar o *Product-Market Fit* antes que o saldo bancário zere. No ambiente brasileiro, marcado por juros reais elevados e compradores B2B que exigem prova de execução, a progressão **Serviço Artesanal → Serviço Produtizado (*Productized Service*) → Serviço Habilitado por Tecnologia (*Tech-Enabled Service*) → Produto Puro (SaaS)** oferece geração imediata de caixa e preservação societária para fundadores que iniciam sem capital próprio."
+  },
+  {
+    "id": "1373",
+    "vol": "3",
+    "code": "C1",
+    "from": "| **Receita Anual por Colaborador (Brasil)** | R$ 150 mil a R$ 300 mil / ano | R$ 280 mil a R$ 450 mil / ano | R$ 450 mil a R$ 900 mil / ano | **R$ 800 mil a R$ 2,5 milhões+ / ano** |",
+    "to": "| **Receita Anual por Colaborador (estimativa Brasil, ref. 2025–2026)** | R$ 150 mil a R$ 300 mil / ano | R$ 280 mil a R$ 450 mil / ano | R$ 450 mil a R$ 900 mil / ano | **R$ 800 mil a R$ 2,5 milhões+ / ano** |"
+  },
+  {
+    "id": "1373",
+    "vol": "3",
+    "code": "C1",
+    "from": "| **Múltiplo de Valuation (EV/Receita ou EV/EBITDA)** | **0,5x a 1,2x Receita** (ou 3x a 5x EBITDA, dependente dos sócios) | **1,5x a 3,0x ARR** (ou 5x a 7x EBITDA) | **3,0x a 6,0x ARR** (ou 8x a 12x EBITDA, cobiçado por Private Equity) | **6,0x a 12,0x+ ARR** (padrão Venture Capital / SaaS de alto crescimento) |",
+    "to": "| **Múltiplo de Valuation estimado (EV/Receita ou EV/EBITDA, ref. 2025–2026)** | **0,5x a 1,2x Receita** (ou 3x a 5x EBITDA, dependente dos sócios) | **1,5x a 3,0x ARR** (ou 5x a 7x EBITDA) | **3,0x a 6,0x ARR** (ou 8x a 12x EBITDA, atrativo para Private Equity) | **6,0x a 12,0x+ ARR** (referência em Venture Capital para SaaS de alto crescimento) |"
+  },
+  {
+    "id": "1516",
+    "vol": "5",
+    "code": "S5",
+    "from": "#### Framework: DuPont Analysis (Donaldson Brown / DuPont, 1914)",
+    "to": "#### Framework: Identidade DuPont (Donaldson Brown / DuPont, 1914): referência para estágio maduro (ver Capítulo 15)"
+  },
+  {
+    "id": "1936",
+    "vol": "5",
+    "code": "E4",
+    "from": "**Parte I: Termos econômicos**\n\n| Cláusula | O que significa | Ponto de negociação |",
+    "to": "**Parte I: Termos econômicos**\n\n| Cláusula econômica | O que define na rodada | Ponto de atenção na negociação |"
+  },
+  {
+    "id": "1948",
+    "vol": "5",
+    "code": "N7",
+    "from": "| CAC Payback | ≤ 18 meses | ≤ 12 meses | ≤ 9 meses |",
+    "to": "| CAC Payback | ≤ 18 meses (Série A / início) | ≤ 12 meses (Growth / Série B) | ≤ 9 meses (Maduro) |"
+  },
+  {
+    "id": "1950",
+    "vol": "5",
+    "code": "C5",
+    "from": "| Métrica | Early-stage | Growth | Maduro |",
+    "to": "| Métrica | Estágio Inicial (Seed / Série A) | Crescimento (Growth / Série B) | Estágio Maduro (Referência de Escala) |"
+  },
+  {
+    "id": "1950",
+    "vol": "5",
+    "code": "C5",
+    "from": "| NRR |: | ≥ 100% | ≥ 110% |",
+    "to": "| Retenção líquida de receita (NRR) | ≥ 95% | ≥ 100% (meta de saída Série A/B) | ≥ 110% (meta em escala madura) |"
+  },
+  {
+    "id": "1950",
+    "vol": "5",
+    "code": "C5",
+    "from": "| Margem bruta SaaS | ≥ 50% | ≥ 65% | ≥ 75% |",
+    "to": "| Margem bruta SaaS | ≥ 50% | ≥ 65% (meta em Growth) | ≥ 75% (referência madura) |"
+  },
+  {
+    "id": "1950",
+    "vol": "5",
+    "code": "C5",
+    "from": "| Churn mensal | ≤ 3% | ≤ 2% | ≤ 1% |",
+    "to": "| Churn mensal de receita | ≤ 3% | ≤ 2% (meta em Growth) | ≤ 1% (referência madura) |"
+  },
+  {
+    "id": "1950",
+    "vol": "5",
+    "code": "C5",
+    "from": "| Magic Number |: | ≥ 0.75 | ≥ 1.0 |",
+    "to": "| Magic Number (eficiência de S&M) | ≥ 0,5 | ≥ 0,75 (meta em Growth) | ≥ 1,0 (escala acelerada) |"
+  },
+  {
+    "id": "1950",
+    "vol": "5",
+    "code": "C5",
+    "from": "| Rule of 40 |: | ≥ 20 | ≥ 40 |",
+    "to": "| Regra dos 40 (*Rule of 40*) | Não aplicável pré-PMF | ≥ 20 (meta inicial em Growth) | ≥ 40 (referência de escala madura) |"
+  },
+  {
+    "id": "1950",
+    "vol": "5",
+    "code": "C5",
+    "from": "| NPS (consumer) | ≥ 30 | ≥ 40 | ≥ 50 |",
+    "to": "| NPS (produtos B2C / consumidor) | ≥ 30 | ≥ 40 (meta em Growth) | ≥ 50 (referência madura) |"
+  },
+  {
+    "id": "1950",
+    "vol": "5",
+    "code": "C5",
+    "from": "| NPS (enterprise) | ≥ 20 | ≥ 30 | ≥ 40 |",
+    "to": "| NPS (produtos B2B / corporativo) | ≥ 20 | ≥ 30 (meta em Growth) | ≥ 40 (referência madura) |"
+  },
+  {
+    "id": "1950",
+    "vol": "5",
+    "code": "C5",
+    "from": "| eNPS |: | ≥ 20 | ≥ 30 |",
+    "to": "| eNPS (engajamento da equipe) | ≥ 15 | ≥ 20 (meta em Growth) | ≥ 30 (referência madura) |"
+  },
+  {
+    "id": "1954",
+    "vol": "5",
+    "code": "S4",
+    "from": "| Data room básico montado (seções 1–4 do Template: Data Room, Checklist de Due Diligence (Fase 14)) | `[Nome]` | `[___]` | `[ ]` |",
+    "to": "| Data room inicial organizado (seções 1 a 4 do Template de Data Room desta fase, adiante) | `[Nome]` | `[___]` | `[ ]` |"
+  },
+  {
+    "id": "1956",
+    "vol": "5",
+    "code": "E9",
+    "from": "Só blended: esconde tendências críticas, Cohort muito granular: weekly cohorts com 5 clientes/semana = ruído, Não separar revenue de user retention: usuário continua, revenue caiu via downgrade.",
+    "to": "- **Analisar apenas a média geral (*blended*):** misturar clientes antigos e novos esconde a deterioração das safras recentes.\n- **Recorte semanal com amostra mínima:** abrir coortes semanais com apenas 5 clientes gera ruído estatístico em vez de sinal.\n- **Olhar só retenção de logotipos (*users*) e ignorar receita:** o cliente pode continuar ativo no sistema enquanto reduz o valor pago (*downgrade*)."
+  },
+  {
+    "id": "1956",
+    "vol": "5",
+    "code": "E9",
+    "from": "LTV inflacionado por assumir churn atual permanente: churn pode subir com scale, CAC subestimado: só marketing, sem salários de sales, Cross-segment averaging: 1 segmento excelente carrega 4 ruins.",
+    "to": "- **Projetar LTV assumindo o *churn* inicial como perpétuo:** a taxa de cancelamento costuma subir quando a aquisição sai dos primeiros entusiastas para o mercado amplo.\n- **Subestimar o CAC omitindo salários:** incluir apenas mídia paga e esquecer a folha de vendas e pré-vendas distorce o tempo real de retorno.\n- **Tirar a média entre segmentos distintos:** um canal corporativo rentável pode mascarar quatro canais deficitários quando tudo é somado na mesma conta."
+  },
+  {
+    "id": "1956",
+    "vol": "5",
+    "code": "E9",
+    "from": "Burn sem net: burn bruto sem considerar receita. Distorce, ARR sem net: novo ARR sem churn. Infla, BM trimestral sem tendência: 1 quarter ruim pode ser sazonalidade.",
+    "to": "- **Usar queima bruta em vez de queima líquida (*Net Burn*):** ignorar a receita recebida no período distorce o numerador.\n- **Tomar o ARR bruto sem descontar cancelamentos:** somar apenas vendas novas sem subtrair *churn* e contração infla artificialmente o denominador.\n- **Avaliar um trimestre isolado sem olhar a tendência:** variações sazonais de vendas exigem acompanhar a média móvel de dois a quatro trimestres."
+  },
+  {
+    "id": "1956",
+    "vol": "5",
+    "code": "E9",
+    "from": "Projeções otimistas: todas crescem 50% a.a, WACC subestimado: risco real é alto em startup, Terminal Value dominando valuation: Terminal > 60% do valor = perigoso, DCF em startup pre-revenue: método errado.",
+    "to": "- **Projeções lineares de crescimento acelerado:** assumir expansão de 50% ao ano por cinco anos sem lastro de canais invalida o modelo.\n- **Taxa de desconto (WACC) subestimada:** aplicar custo de capital de empresa listada ignora o prêmio de risco e de iliquidez de uma startup.\n- **Valor de perpetuidade (*Terminal Value*) inflado:** quando a perpetuidade responde por mais de 60% do valor presente, toda a conta depende de uma suposição distante.\n- **Aplicar fluxo de caixa descontado antes de haver receita previsível:** em estágio inicial, utilize os métodos de Venture Capital, Berkus ou Scorecard."
+  },
+  {
+    "id": "1956",
+    "vol": "5",
+    "code": "E9",
+    "from": "Comparáveis não comparáveis: comparar SaaS B2B enterprise com SaaS consumer distorce, Ignorar ciclo de mercado: múltiplos variam 3-5x com ciclo (2021 hot → 2023 cold), Cherry-picking: escolher só comparáveis altos.",
+    "to": "- **Escolher empresas incomparáveis:** usar múltiplos de um SaaS corporativo americano para avaliar uma operação local de serviços distorce a faixa de valor.\n- **Ignorar o ciclo de liquidez do mercado:** múltiplos de receita oscilam drasticamente entre momentos de euforia (como 2021) e períodos de juros altos.\n- **Seleção enviesada (*cherry-picking*):** filtrar apenas as transações com os maiores múltiplos da categoria tira a credibilidade da análise diante do investidor."
+  },
+  {
+    "id": "1960",
+    "vol": "5",
+    "code": "C5",
+    "from": "Burn Multiple = Net Burn / Net New ARR",
+    "to": "Burn Multiple = Queima Líquida de Caixa (Net Burn) / ARR Novo Líquido (Net New ARR)"
+  },
+  {
+    "id": "1964",
+    "vol": "5",
+    "code": "C4",
+    "from": "- > 1.0: cada $ em S&M gera > $1 em ARR anualizado. Investir mais.",
+    "to": "- **Acima de 0,75 (com aceleração ótima acima de 1,0):** cada real investido em vendas e marketing no trimestre anterior retorna rapidamente em receita recorrente anualizada líquida, justificando expandir o orçamento comercial."
+  },
+  {
+    "id": "1975",
+    "vol": "5",
+    "code": "N6",
+    "from": "DCF é **ruim para early-stage startups** porque:",
+    "to": "O Fluxo de Caixa Descontado (DCF) é **inadequado para startups em estágio inicial** (sendo útil apenas a partir de estágios maduros de previsibilidade, conforme detalhado no Capítulo 15) porque:"
+  },
+  {
+    "id": "1982",
+    "vol": "5",
+    "code": "E7",
+    "from": "SaaS em Series B:",
+    "to": "Exemplo de SaaS na Série B:"
+  },
+  {
+    "id": "1998",
+    "vol": "5",
+    "code": "S5",
+    "from": "Option pool. Quanto de equity fica reservado para futuros contratados, antes ou depois do investimento (afeta valuation de fundadores).",
+    "to": "**Reserva de opções (*option pool*):** percentual de participação separado para atrair executivos e talentos técnicos; verifique na tabela do [[#Template: Term Sheet Anotado|Term Sheet Anotado]] o impacto diluitivo de criá-lo antes ou depois do aporte."
+  },
+  {
+    "id": "1998",
+    "vol": "5",
+    "code": "S5",
+    "from": "Anti-dilution (proteção contra diluição em rodadas futuras a valuation menor). Weighted average (média ponderada, padrão) versus full-ratchet (ajuste total, predatório).",
+    "to": "**Proteção antidiluição (*anti-dilution*):** cláusula que ajusta o preço de conversão dos investidores caso a empresa capte uma rodada futura por valor inferior (*down round*); priorize a média ponderada ampla (*broad-based weighted average*) e recuse o ajuste integral (*full ratchet*), conforme detalhado no [[#Template: Term Sheet Anotado|Term Sheet Anotado]]."
+  },
+  {
+    "id": "1998",
+    "vol": "5",
+    "code": "S5",
+    "from": "Drag-along, tag-along (obrigação e direito de venda conjunta, respectivamente). Obrigações e direitos em cenário de venda da empresa.",
+    "to": "**Obrigação e direito de venda conjunta (*drag-along* e *tag-along*):** regras que disciplinam a venda total da empresa e a proteção dos minoritários em caso de aquisição, detalhadas com seus quóruns típicos no [[#Template: Term Sheet Anotado|Term Sheet Anotado]]."
+  },
+  {
+    "id": "1998",
+    "vol": "5",
+    "code": "S5",
+    "from": "**Os seis campos do canvas:**",
+    "to": "**Os seis blocos estruturais da simulação de cascata (*Waterfall*):**"
+  },
+  {
+    "id": "1998",
+    "vol": "5",
+    "code": "S5",
+    "from": "- **Cap table atual**: % de cada classe (common, preferred Série Seed, Série A, etc.) e número de ações",
+    "to": "- **Quadro societário atual (*cap table*):** percentual e número de ações de cada classe (ordinárias dos fundadores, preferenciais de cada rodada e opções)"
+  },
+  {
+    "id": "1998",
+    "vol": "5",
+    "code": "S5",
+    "from": "- **Liquidation preferences**: 1x, 2x ou participating, por classe e por investidor",
+    "to": "- **Preferências de liquidação (*liquidation preferences*):** múltiplo (1x ou mais) e modalidade (não participante ou participante) por série, conforme glossário do [[#Template: Term Sheet Anotado|Term Sheet Anotado]]"
+  },
+  {
+    "id": "1998",
+    "vol": "5",
+    "code": "S5",
+    "from": "- **Anti-dilution adjustments**: se houve down round, qual é o ajuste de preço de conversão",
+    "to": "- **Ajustes de antidiluição (*anti-dilution*):** impacto sobre o preço de conversão caso tenha ocorrido rodada com redução de valor (*down round*)"
+  },
+  {
+    "id": "1998",
+    "vol": "5",
+    "code": "S5",
+    "from": "- **Preço de exit simulado**: faixa de cenários (pessimista, base, otimista)",
+    "to": "- **Cenários de valor de saída (*exit*):** faixas de preço de venda simuladas (conservador, base e otimista)"
+  },
+  {
+    "id": "1998",
+    "vol": "5",
+    "code": "S5",
+    "from": "- **Distribuição resultante**: R$ por classe e por indivíduo em cada cenário",
+    "to": "- **Líquido embolsado por classe e por sócio:** valor em reais destinado a cada acionista após aplicar a ordem de prioridade em cada cenário"
+  },
+  {
+    "id": "1998",
+    "vol": "5",
+    "code": "S5",
+    "from": "\n##### O momento exato de colocar este canvas na parede\n",
+    "to": "\n##### Quando montar este quadro na sala de guerra\n"
+  },
+  {
+    "id": "1998",
+    "vol": "5",
+    "code": "S5",
+    "from": "Use o Waterfall Canvas em três momentos: (1) **ao receber um term sheet**: para entender o impacto da liquidation preference proposta em diferentes cenários de exit; (2) **antes de iniciar processo de M&A**: para saber quanto cada sócio recebe em diferentes preços de oferta e identificar onde há conflito de interesse; (3) **ao converter SAFEs ou notas conversíveis**: para visualizar a diluição real e o impacto no cap table pós-conversão.",
+    "to": "Monte o Waterfall Canvas em três ocasiões decisivas: (1) **ao analisar uma proposta de investimento (*term sheet*)**, para enxergar na prática quanto sobra aos fundadores sob diferentes regras de preferência de liquidação; (2) **antes de abrir negociações de M&A**, para calcular o retorno líquido de cada classe de acionistas em diferentes faixas de oferta; e (3) **ao converter mútuos conversíveis ou SAFEs**, para medir a diluição combinada antes da assinatura."
+  },
+  {
+    "id": "1998",
+    "vol": "5",
+    "code": "S5",
+    "from": "\n##### As regras de ouro para preencher sem se enganar\n",
+    "to": "\n##### Princípios práticos para simular sem autoengano\n"
+  },
+  {
+    "id": "1998",
+    "vol": "5",
+    "code": "S5",
+    "from": "**Primeiro: liquidation preference é o mecanismo mais importante que a maioria dos fundadores subestima.** Uma empresa vendida por R$ 50M com R$ 20M de preferred com 2x participating pode entregar menos de R$ 5M para o fundador que detém 30% do cap table. Sem o Waterfall Canvas, essa realidade só aparece no dia da assinatura.",
+    "to": "**Primeiro: a modalidade de preferência de liquidação altera mais o bolso do fundador em saídas médias do que o *valuation* nominal da manchete.** Em uma venda por R$ 50 milhões após captar R$ 20 milhões com preferência de 2x participante, os titulares de ações ordinárias podem receber uma fração mínima do preço mesmo detendo 30% do *cap table*."
+  },
+  {
+    "id": "1998",
+    "vol": "5",
+    "code": "S5",
+    "from": "**Segundo: simule sempre pelo menos três cenários.** Exit @ 1x capital investido (resultado fraco), @ 3x (resultado bom), @ 10x (resultado excepcional). O comportamento das liquidation preferences é radicalmente diferente nesses três pontos.",
+    "to": "**Segundo: projete sempre ao menos três faixas de saída.** Simule uma venda modesta (1x o capital total captado), uma saída intermediária (3x) e um resultado expressivo (10x), observando em que ponto exato as ações preferenciais convertem para ordinárias."
+  },
+  {
+    "id": "1998",
+    "vol": "5",
+    "code": "S5",
+    "from": "**Terceiro: o conflito de interesse entre fundadores e investidores é estrutural.** Investidores com preferred querem maximum protection; fundadores com common querem maximum upside. Modelar o waterfall revela onde os interesses divergem: antes da negociação, não durante.",
+    "to": "**Terceiro: mapeie o desalinhamento de incentivos antes de sentar à mesa.** Enquanto titulares de ações preferenciais priorizam proteção de capital em cenários baixos, fundadores com ações ordinárias dependem do ganho proporcional acima do piso; colocar a cascata no papel antecipa onde surgirão impasses de aprovação."
+  },
+  {
+    "id": "1999",
+    "vol": "5",
+    "code": "C1",
+    "from": "| **Exclusividade** | Período em que você não pode negociar com outros investidores | 30–45 dias é razoável. 90+ dias é excessivo |",
+    "to": "| **Exclusividade (*no-shop*)** | Período em que os fundadores ficam impedidos de negociar com outros fundos | No padrão praticado no Brasil (guias ABVCAP/Anjos do Brasil), 30 a 45 dias é o intervalo usual; prazos de 60 a 90+ dias travam a empresa sem garantia de fechamento |"
+  },
+  {
+    "id": "1999",
+    "vol": "5",
+    "code": "C1",
+    "from": "| **Drag-along** | Maioria pode obrigar todos a vender se houver oferta de aquisição | Necessário para viabilizar M&A. Verifique threshold: geralmente 70–75% |",
+    "to": "| **Obrigação de venda conjunta (*drag-along*)** | Quórum que permite obrigar todos os sócios a venderem suas participações em uma aquisição aprovada | Indispensável para dar segurança jurídica ao comprador em M&A; no mercado brasileiro de VC, exija quórum qualificado (tipicamente 67% a 75% do capital votante/preferencial) e piso mínimo de valor |"
+  },
+  {
+    "id": "1999",
+    "vol": "5",
+    "code": "C1",
+    "from": "| **Option pool** | Reserva para ESOP (típico: 10–20% pós-money). Geralmente criado antes do closing | Se já existe pool, não crie novo sem necessidade. \"Pre-money pool refresh\" é diluitivo para fundadores |",
+    "to": "| **Reserva de opções (*option pool* / ESOP)** | Fatia reservada para atrair e reter executivos e talentos-chave (usual no Brasil: 5% a 10% em Seed e 10% a 15% na Série A) | Se já existe reserva ativa, apresente o plano de contratações de 18 meses para dimensionar apenas o complemento necessário, pois criar todo o *pool* no pré-money dilui exclusivamente os fundadores |"
+  },
+  {
+    "id": "2012",
+    "vol": "5",
+    "code": "S2",
+    "from": "O contador produz as demonstrações. O fundador precisa interpretá-las.",
+    "to": "No modelo de Camila, o escritório contábil gera as demonstrações oficiais, mas cabe aos fundadores ler cada linha para decidir contratações, preços e fôlego de caixa."
+  },
+  {
+    "id": "2012",
+    "vol": "5",
+    "code": "S2",
+    "from": "> [!important] O número que o contador relata e o número que importa para decisão podem ser diferentes",
+    "to": "> [!important] Demonstração contábil fiscal versus demonstrativo gerencial de decisão"
+  },
+  {
+    "id": "2012",
+    "vol": "5",
+    "code": "S2",
+    "from": "> DRE fiscal é produzida para a Receita Federal. DRE gerencial é produzida para decisão interna. Em empresas no Simples Nacional, as duas divergem significativamente. Ver seção sobre contexto brasileiro ao final deste capítulo.",
+    "to": "> A DRE fiscal atende às regras da Receita Federal, enquanto a DRE gerencial organiza receitas, custos diretos e despesas por área para guiar a gestão semanal; em empresas optantes pelo Simples Nacional ou com receita diferida, conciliar as duas visões evita decisões no escuro."
+  },
+  {
+    "id": "2024",
+    "vol": "5",
+    "code": "C5",
+    "from": "Disciplina fiscal no padrão quando o contador externo especializado entrou desde dia um, o regime tributário foi escolhido com simulação anual, o fechamento mensal sai em dez dias úteis ou menos, não há pendência em Receita, Estado, Município ou INSS, stock options têm desenho de tributarista, e benefícios fiscais aplicáveis estão mapeados e em uso. Os itens abaixo sustentam isso.",
+    "to": "A operação atinge maturidade contábil e fiscal quando conta com assessoria especializada desde o início, escolhe o regime tributário mediante simulação formal de cenários, entrega o fechamento gerencial até o 5º dia útil e o contábil até o 10º dia útil do mês seguinte, mantém certidões negativas em dia nas três esferas, estrutura planos de incentivos de longo prazo com respaldo jurídico e documenta o uso de incentivos fiscais aplicáveis."
+  },
+  {
+    "id": "2024",
+    "vol": "5",
+    "code": "C5",
+    "from": "- [ ] Fechamento contábil mensal acontece em igual ou menor que dez dias úteis.",
+    "to": "- [ ] Fechamento gerencial concluído até o 5º dia útil e fechamento contábil entregue até o 10º dia útil de cada mês."
+  },
+  {
+    "id": "2028",
+    "vol": "5",
+    "code": "S2",
+    "from": "### Por que uma escolha errada de regime fiscal em janeiro pode destruir 100% do seu EBITDA no ano",
+    "to": "### O impacto do regime tributário na margem operacional e quando revisar a opção anual"
+  },
+  {
+    "id": "2028",
+    "vol": "5",
+    "code": "S2",
+    "from": "### A simulação na ponta do lápis: calculando o ponto de indiferença entre Simples, Presumido e Real",
+    "to": "### Como simular na prática o ponto de transição entre Simples Nacional (Fator R), Lucro Presumido e Lucro Real"
+  },
+  {
+    "id": "2029",
+    "vol": "5",
+    "code": "E9",
+    "from": "**Regionais (SUDAM, SUDENE, ZFM).** SUDAM (Norte), e SUDENE (Nordeste), oferecem redução de IRPJ para empresas em regiões específicas. Até setenta e cinco por cento de redução, por dez anos. Zona Franca de Manaus tem regime próprio (industrial, com vantagens especiais para eletrônicos).",
+    "to": "**Incentivos regionais (SUDAM, SUDENE e Zona Franca de Manaus):** empreendimentos habilitados nas áreas da SUDAM (Norte) e da SUDENE (Nordeste) contam com redução de até 75% do IRPJ e adicionais não restituíveis pelo prazo de 10 anos, enquanto a Zona Franca de Manaus oferece regime fiscal e aduaneiro próprio para operações industriais e de tecnologia."
+  },
+  {
+    "id": "2032",
+    "vol": "5",
+    "code": "C3",
+    "from": "- [ ] Regime tributário escolhido com simulação formal do próximo ano (outubro a dezembro).",
+    "to": "- [ ] Simulação tributária comparativa concluída entre outubro e novembro, preparando a opção irretratável do ano seguinte (Simples Nacional formalizado até o último dia útil de janeiro; Lucro Presumido ou Real definido no pagamento do primeiro DARF de IRPJ/CSLL do exercício)."
+  },
+  {
+    "id": "2036",
+    "vol": "5",
+    "code": "C3",
+    "from": " ICMS, ISS, PIS, Cofins, IPI :active, a1, 2023, 2033",
+    "to": "    PIS e Cofins (extintos em 2027 com entrada da CBS) :active, a1, 2023, 2027\n    ICMS e ISS (transição gradual para o IBS até 2032) :active, a2, 2026, 2033"
+  },
+  {
+    "id": "2048",
+    "vol": "5",
+    "code": "C3",
+    "from": "A DRE societária segue CPC e é entregue formalmente. A DRE para gestão pode ter ajustes específicos da empresa: tratamento de stock options (IFRS 2), capitalização de software desenvolvido internamente, ou segregação de receita por linha de produto. As duas são válidas para seus fins. O fundador precisa saber qual está lendo.",
+    "to": "A DRE societária segue os pronunciamentos do CPC e sustenta a prestação de contas formal: pelo **CPC 10 (IFRS 2)**, planos de opção de ações ou instrumentos patrimoniais outorgados a colaboradores devem ter seu valor justo reconhecido como despesa ao longo do período de *vesting* em contrapartida ao patrimônio líquido (o que preserva a natureza mercantil do plano depende da onerosidade e do risco de mercado no desenho contratual, e não de omitir o registro contábil). Já a DRE gerencial detalha margens por produto e coorte para orientar a alocação de capital."
+  },
+  {
+    "id": "2053",
+    "vol": "5",
+    "code": "C2",
+    "from": "- [ ] Obrigações acessórias (DCTF, eSocial, SPED, ECF, ECD) em dia.",
+    "to": "- [ ] Obrigações acessórias em dia: eSocial, EFD-Reinf, DCTFWeb integrada ao MIT, EFD-Contribuições e EFD ICMS/IPI (conforme o regime), ECD e ECF anuais, além da NFS-e nacional com destaque dos campos de IBS e CBS exigidos desde 2026."
+  },
+  {
+    "id": "2063",
+    "vol": "5",
+    "code": "C5",
+    "from": "> Faturamento menor que R$ 2 milhões por ano, e margem alta. O Simples tende a vencer. R$ 2 a R$ 10 milhões por ano, com margem média (tech SaaS típico). O Lucro Presumido frequentemente vence. Qualquer faturamento com margem baixa, ou alto volume de custos dedutíveis. O Lucro Real vale simulação.",
+    "to": "> Como regra prática para orientar a simulação anual (comparando o Simples Nacional nos Anexos III e V pelo Fator R de 28% contra o Lucro Presumido com 20% de CPP patronal sobre a folha): até R$ 1,5 milhão a R$ 2 milhões de faturamento anual com folha enxuta ou enquadrada no Anexo III, o Simples costuma ser mais vantajoso; entre R$ 2 milhões e R$ 10 milhões com margem alta e folha moderada, o Lucro Presumido tende a reduzir a carga; já operações em queima de caixa, margem apertada ou alto volume de créditos de PIS/Cofins (e da CBS a partir de 2027) e P&D (Lei do Bem) devem simular o Lucro Real."
+  },
+  {
+    "id": "2069",
+    "vol": "5",
+    "code": "S5",
+    "from": "#### 4. Benefícios fiscais para startup",
+    "to": "#### 4. Panorama de incentivos fiscais aplicáveis a startups (detalhados no Capítulo 3)"
+  },
+  {
+    "id": "2069",
+    "vol": "5",
+    "code": "S5",
+    "from": "> [!warning] Lei do Bem sem documentação",
+    "to": "> [!warning] Exigência de dossiê técnico para a Lei do Bem"
+  },
+  {
+    "id": "2069",
+    "vol": "5",
+    "code": "S5",
+    "from": "> Sem documentação rigorosa, a autuação é garantida.",
+    "to": "> A fruição dos incentivos da Lei do Bem (Lei nº 11.196/2005, analisada em profundidade no Capítulo 3) exige Lucro Real, regularidade fiscal (CND/CPEND) e memória técnica contemporânea de cada projeto de P&D para evitar glosa em fiscalização."
+  },
+  {
+    "id": "2069",
+    "vol": "5",
+    "code": "S5",
+    "from": "**Setoriais.** Audiovisual. Lei do Audiovisual (Ancine). Cultura. Lei Rouanet. Inovação. Editais BNDES, FINEP, e FAPESP (combinam bem com Lei do Bem).",
+    "to": "**Incentivos setoriais e subvenções de fomento:** projetos específicos podem acessar mecanismos setoriais (como Lei do Audiovisual e Lei de Informática) e linhas de subvenção econômica e crédito à inovação da FINEP, do BNDES e de fundações estaduais como a FAPESP, detalhadas nos Capítulos 3 e 17."
+  },
+  {
+    "id": "2069",
+    "vol": "5",
+    "code": "S5",
+    "from": "**Incentivos estaduais.** Vários estados têm programas de atração (Minas, Paraná, RS, Ceará). Vale a pena pesquisar, se expansão geográfica for opção.",
+    "to": "**Programas estaduais e municipais de inovação:** diversos estados (como Minas Gerais, Paraná, Rio Grande do Sul, Santa Catarina e Pernambuco) e municípios mantêm regimes especiais de ICMS, redução de ISS para exportação ou polos tecnológicos e editais locais que devem entrar na conta ao planejar a abertura de filiais."
+  },
+  {
+    "id": "2087",
+    "vol": "5",
+    "code": "C3",
+    "from": "> A Receita Federal fiscaliza contratos de royalties entre empresas do mesmo grupo (preço de transferência). O valor cobrado precisa ser compatível com o mercado e documentado. Royalties artificialmente inflados para transferir lucro da operação para a holding são desconsiderados.",
+    "to": "> A legislação brasileira veda a dedutibilidade de royalties pagos a sócios (pessoas físicas ou jurídicas) ou dirigentes da empresa (Lei nº 4.506/1964, art. 71, parágrafo único, \"d\"): se a holding detentora da marca ou do software for sócia da operacional, a despesa será glosada no Lucro Real. Estruturas de licenciamento intragrupo exigem sociedades sem relação direta de participação proibida em lei, propósito negocial comprovável, registro no INPI e laudo de valor de mercado."
+  },
+  {
+    "id": "2094",
+    "vol": "5",
+    "code": "C2",
+    "from": "> Há proposta em tramitação de tributar dividendos distribuídos a pessoas físicas. O cenário de isenção total sobre distribuição de lucros pode mudar. Acompanhar com tributarista.",
+    "to": "> A partir de janeiro de 2026, a **Lei nº 15.270/2025** instituiu a retenção na fonte de 10% de IRPF sobre dividendos pagos por uma mesma pessoa jurídica a uma mesma pessoa física que superem R$ 50 mil no mês, além do Imposto de Renda Pessoa Física Mínimo (IRPFM) anual com alíquota progressiva de até 10% para rendas globais acima de R$ 600 mil no ano (atingindo 10% a partir de R$ 1,2 milhão). Calibre a proporção entre pró-labore, lucros distribuídos e reserva de lucros junto ao tributarista."
+  },
+  {
+    "id": "2101",
+    "vol": "5",
+    "code": "N1",
+    "from": "Por que o orçamento anual tradicional mata startups e empresas em crescimento? Porque ele confunde **uma hipótese de navegação** escrita sob condições de dezembro com **um direito adquirido de gastar dinheiro** em abril, independentemente de a receita ter entrado ou não.",
+    "to": "O erro que levou o diretor comercial de Henrique a contratar fora de hora nasce de uma confusão recorrente em empresas em crescimento: tratar **uma premissa de navegação** desenhada em dezembro como **uma autorização automática para gastar caixa** em abril, mesmo quando a receita do primeiro trimestre ficou abaixo do planejado."
+  },
+  {
+    "id": "2105",
+    "vol": "5",
+    "code": "S2",
+    "from": "### Por que puxar uma fórmula de crescimento no Excel sem lastro operacional cega o gestor e destrói credibilidade",
+    "to": "### Por que projetar crescimento linear na planilha sem lastro em alavancas operacionais compromete a credibilidade da gestão"
+  },
+  {
+    "id": "2105",
+    "vol": "5",
+    "code": "S2",
+    "from": "### Arquitetura em abas: Premissas, Motor de Receita, Headcount Plan, Custos Diretos e 3 Demonstrativos",
+    "to": "### Arquitetura em sete abas integradas: Premissas, Motor de Receita, Plano de Pessoal, Custos Diretos e Três Demonstrativos"
+  },
+  {
+    "id": "2107",
+    "vol": "5",
+    "code": "E9",
+    "from": "> Receita, custos, e caixa, NÃO são inputs. São outputs calculados de drivers operacionais.",
+    "to": "> Receita, custos e saldo de caixa **não são dados digitados manualmente**: são resultados calculados a partir das alavancas operacionais (*drivers*) do negócio."
+  },
+  {
+    "id": "2107",
+    "vol": "5",
+    "code": "E9",
+    "from": "Para startup em early-mid stage. Mês a mês, próximos vinte e quatro meses. Trimestre a trimestre, meses 25 a 36. Ano a ano, anos quatro, e cinco.",
+    "to": "Para startups em estágio inicial ou de tração, estruture o horizonte temporal em três camadas: projeção mensal detalhada para os primeiros 24 meses, visão trimestral do mês 25 ao mês 36 e consolidação anual para os anos 4 e 5."
+  },
+  {
+    "id": "2109",
+    "vol": "5",
+    "code": "C5",
+    "from": "**Calibração saudável**: o budget base deve ser alcançável com 70-80% de probabilidade, dado o pipeline e os recursos planejados. Cenário upside existe no modelo, mas não é o budget aprovado. O board aprova o base, não o upside.",
+    "to": "**Separação entre cenário central do modelo e orçamento comprometido:** no modelo financeiro (Capítulo 4) trabalha-se com o cenário central (P50), mas na aprovação anual junto ao conselho o **orçamento comprometido (*budget* base)** deve ser calibrado com 70% a 80% de probabilidade de entrega dado o funil existente, mantendo o cenário acelerado (*upside*) como meta de superação atrelada a gatilhos de receita."
+  },
+  {
+    "id": "2114",
+    "vol": "5",
+    "code": "C5",
+    "from": "3. Explicação de variações significativas (maior que dez por cento). Por que S&M estourou? Por que churn subiu?",
+    "to": "3. **Escada de análise de desvios (alinhada ao Capítulo 6):** variação mensal acima de 5% exige justificativa documentada; desvio acima de 10% requer diagnóstico de causa raiz e plano corretivo; e divergência superior a 15% por dois meses seguidos dispara a revisão formal da projeção (*reforecast*)."
+  },
+  {
+    "id": "2114",
+    "vol": "5",
+    "code": "C5",
+    "from": "Divergência plan versus actual em linhas-chave. Igual ou menor que quinze por cento, em média móvel de três meses.",
+    "to": "**Desvio entre orçado e realizado (*plan vs. actual*) nas linhas críticas:** mantido abaixo de 10% na média móvel trimestral, acionando revisão formal (*reforecast*) sempre que a divergência superar 15% por dois meses consecutivos."
+  },
+  {
+    "id": "2114",
+    "vol": "5",
+    "code": "C5",
+    "from": "2. **Gatilho de desvio**: quando qualquer linha-chave (receita ou EBITDA) desvia mais de 10-15% do budget por dois meses consecutivos. Esperar o trimestre acabar para reportar um desvio que já é evidente desde o primeiro mês é gerenciar para trás.",
+    "to": "2. **Gatilho de desvio acumulado:** seguindo a escada única de governança (variação > 5% pede justificativa; > 10% exige causa raiz e plano de ação), sempre que receita ou EBITDA desviar mais de 15% do orçado por dois meses consecutivos, execute imediatamente o *reforecast* sem esperar o fim do trimestre."
+  },
+  {
+    "id": "2114",
+    "vol": "5",
+    "code": "C5",
+    "from": "> Preencher mensalmente. Colunas de \"Real\" são dados do sistema contábil. Colunas de \"Forecast\" são atualização manual ou do modelo financeiro. A variação percentual de FY é o número que o board vai questionar: ter causa raiz pronta para qualquer variação acima de 5%.",
+    "to": "> Preencha até o 5º dia útil de cada mês: extraia as colunas de \"Realizado\" da contabilidade gerencial e atualize as colunas de \"Previsão\" (*Forecast*) no modelo. Siga a escada de governança nas reuniões de conselho: tenha justificativa pronta para qualquer desvio anual acima de 5%, plano de ação corretiva acima de 10% e proposta de *reforecast* quando o desvio superar 15% por dois meses."
+  },
+  {
+    "id": "2117",
+    "vol": "5",
+    "code": "C2",
+    "from": "> A estrutura de modelagem financeira (três demonstrações, drivers e cenários) é estável ao longo de décadas. O que evolui são as ferramentas (Excel, depois Google Sheets, depois modelos em notebook Python ou R, depois Runway, Causal, Anaplan para escala), os padrões de revenue recognition (reconhecimento de receita pelo IFRS 15) e as métricas SaaS específicas em evolução. Revisar anualmente.",
+    "to": "> Os fundamentos da modelagem em três demonstrações integradas por alavancas operacionais permanecem estáveis há décadas. O que evolui são as plataformas de planejamento colaborativo (do Excel e Google Sheets para ferramentas como Abacum, Pigment, Runway e, em porte corporativo, Workday Adaptive Planning e Anaplan), as normas de reconhecimento de receita (CPC 47 / IFRS 15) e os referenciais de eficiência de capital."
+  },
+  {
+    "id": "2118",
+    "vol": "5",
+    "code": "N9",
+    "from": "Cobertura de drivers. Cem por cento dos números em DRE saem de drivers. Zero por cento digitados.",
+    "to": "**Cobertura integral por alavancas (*drivers*):** 100% das linhas projetadas na DRE, no Balanço e no Fluxo de Caixa nascem de fórmulas conectadas à aba de premissas, com 0% de valores fixos digitados no meio das células."
+  },
+  {
+    "id": "2118",
+    "vol": "5",
+    "code": "N9",
+    "from": "Cenários atualizados. Base, upside, e downside, revisados a cada ciclo de planning (trimestral).",
+    "to": "**Três cenários vivos:** cenários Base, Aceleração (*Upside*) e Estresse (*Downside*) revisados a cada fechamento trimestral."
+  },
+  {
+    "id": "2118",
+    "vol": "5",
+    "code": "N9",
+    "from": "Integração DRE-Balanço-FC. Automática. Não manual.",
+    "to": "**Integração contábil automática:** DRE, Balanço Patrimonial e Fluxo de Caixa conectados dinamicamente por fórmulas, com verificação automática de fechamento do balanço."
+  },
+  {
+    "id": "2118",
+    "vol": "5",
+    "code": "N9",
+    "from": "Tempo de resposta a pergunta de investidor sobre modelo. Igual ou menor que vinte e quatro horas, com cenário rodado.",
+    "to": "**Agilidade de simulação para o conselho e investidores:** capacidade de rodar e responder a qualquer pergunta de sensibilidade sobre o modelo em até 24 horas."
+  },
+  {
+    "id": "2122",
+    "vol": "5",
+    "code": "N5",
+    "from": "#### 4. Cenários, base, upside, e downside",
+    "to": "#### 4. Simulação em três cenários: Base, Aceleração (*Upside*) e Estresse (*Downside*)"
+  },
+  {
+    "id": "2129",
+    "vol": "5",
+    "code": "E9",
+    "from": "Curva \"J\" (ideal). Cai um pouco nos primeiros meses (alguns cancelam após trial). Estabiliza. Depois sobe por expansão. Final após vinte e quatro meses, cento e dez a cento e quarenta por cento do inicial.",
+    "to": "**Curva em \"J\" (padrão saudável de expansão):** a retenção recua levemente nos primeiros meses com a saída de clientes fora do perfil ideal, estabiliza em um platô e passa a subir impulsionada pela expansão de receita nas contas ativas, encerrando o mês 24 entre 110% e 140% da receita inicial da coorte."
+  },
+  {
+    "id": "2129",
+    "vol": "5",
+    "code": "E9",
+    "from": "Curva \"decay\". Cai continuamente, sem estabilizar. Setenta por cento aos doze meses. Cinquenta por cento aos vinte e quatro. Problema estrutural de retention. Típico em D2C de assinatura, com produto commodity.",
+    "to": "**Curva de decaimento contínuo:** a retenção cai mês após mês sem formar platô, recuando para 70% em 12 meses e 50% em 24 meses, o que evidencia falha estrutural de retenção típica de produtos sem diferenciação."
+  },
+  {
+    "id": "2129",
+    "vol": "5",
+    "code": "E9",
+    "from": "**Sinal 1, retention melhorando entre cohorts.** Cohort 2023 estava em oitenta por cento no mês doze. Cohort 2024 está em oitenta e sete por cento no mês doze. O produto está melhorando. O onboarding evoluiu. O ICP (Ideal Customer Profile) está mais afinado. Sinal bom.",
+    "to": "**Sinal 1: evolução da retenção entre safras sucessivas.** Se a coorte de 2023 retinha 80% no mês 12 e a coorte de 2024 alcançou 87% no mesmo marco, há evidência concreta de que a integração inicial (*onboarding*), o produto e o recorte do cliente ideal (ICP) evoluíram."
+  },
+  {
+    "id": "2129",
+    "vol": "5",
+    "code": "E9",
+    "from": "**Sinal 3, expansão concentrada em poucos cohorts.** Oitenta por cento da expansão vem de cohorts pré-2020. Cohorts novos não estão expandindo. Pode significar. Mercado de SMB tem menos headroom. Novo produto não está sendo comprado por clientes novos. Upsell depende de relacionamento de longo prazo.",
+    "to": "**Sinal 3: expansão concentrada apenas nas safras antigas.** Quando 80% da receita de expansão provém de coortes anteriores a 2020 e as safras recentes não expandem, investigue se os novos clientes têm menor porte (menor espaço para crescimento de conta), se os módulos adicionais deixaram de ser ofertados na jornada ou se a venda adicional exige anos de maturação."
+  },
+  {
+    "id": "2129",
+    "vol": "5",
+    "code": "E9",
+    "from": "**Sinal 4, churn concentrado em um segmento.** A segmentação revela. Cohorts de clientes adquiridos via ad pago têm churn três vezes maior que orgânico. O CAC justifica esse churn? Se não, o canal está destruindo valor. Com cohort segmentado, fica claro. Sem, invisível.",
+    "to": "**Sinal 4: cancelamento concentrado em um canal específico.** Abrir a coorte por canal de aquisição frequentemente revela que clientes trazidos por mídia paga cancelam à razão de 3x a taxa do canal orgânico, mostrando com clareza onde o custo de aquisição destrói valor."
+  },
+  {
+    "id": "2129",
+    "vol": "5",
+    "code": "E9",
+    "from": "**Sinal 5, payback aumentando.** CAC payback em cohort 2022 era catorze meses. Em 2024 é vinte e dois meses. O custo de aquisição cresceu mais rápido que LTV. Economia piorando. A empresa cresce ARR, mas perde dinheiro por cliente marginal.",
+    "to": "**Sinal 5: alongamento do tempo de retorno do CAC (*payback*).** Se o retorno do investimento comercial subiu de 14 meses na coorte de 2022 para 22 meses na safra de 2024, o custo de aquisição cresceu mais rápido que a margem gerada e a empresa queima caixa a cada cliente marginal."
+  },
+  {
+    "id": "2129",
+    "vol": "5",
+    "code": "E9",
+    "from": "**Decisão 1, investir ou não em canal.** Canal X tem CAC alto, mas cohort curve forte (NRR cento e trinta por cento). Payback longo. LTV alto. Investir. Canal Y tem CAC baixo, mas cohort curve ruim (NRR oitenta por cento). Payback curto. LTV baixo. Cuidado com escalada.",
+    "to": "**Decisão 1: alocar ou cortar verba por canal.** Um canal com CAC elevado, mas curva de coorte ascendente (NRR de 130%) e alto valor vitalício, merece capital paciente; já um canal de aquisição barata cuja coorte encolhe para 80% de NRR destrói margem se for escalado sem correção."
+  },
+  {
+    "id": "2129",
+    "vol": "5",
+    "code": "E9",
+    "from": "**Decisão 3, foco geográfico.** Cohort por geografia. BR NRR cento e dez por cento. LatAm NRR noventa e cinco por cento. US NRR cento e vinte e cinco por cento. Expansão US (apesar de difícil) parece mais rentável que LatAm.",
+    "to": "**Decisão 3: priorização geográfica.** Ao separar as coortes por região (por exemplo, Brasil com NRR de 110%, América Latina com 95% e Estados Unidos com 125%), fica visível qual praça sustenta maior expansão líquida após o custo inicial de entrada."
+  },
+  {
+    "id": "2130",
+    "vol": "5",
+    "code": "E9",
+    "from": "Em planilha, tipicamente. Linha, mês. Colunas, cohorts (cohort jan/24, fev/24, mar/24, etc.). Cada célula, MRR da cohort Y no mês X.",
+    "to": "Na planilha, organize cada linha (ou coluna) como uma **coorte** mensal de entrada (coorte jan/2024, fev/2024, mar/2024) e distribua nas colunas o tempo decorrido desde a aquisição (Mês 0, Mês 1, Mês 2 em diante), preenchendo cada célula com o MRR ou o percentual retido daquela coorte no respectivo mês."
+  },
+  {
+    "id": "2139",
+    "vol": "5",
+    "code": "N9",
+    "from": "Padrões típicos em SaaS B2B.",
+    "to": "Veja como o formato da curva de retenção das coortes revela a presença (ou ausência) de *Product-Market Fit* em negócios de receita recorrente:"
+  },
+  {
+    "id": "2144",
+    "vol": "5",
+    "code": "C5",
+    "from": "> 1. **O Gatilho de Contratação (*Hiring Trigger*):** As novas contratações previstas para o próximo trimestre no seu plano estão condicionadas ao atingimento de metas reais de receita e margem do trimestre atual, ou o RH continua abrindo vagas no piloto automático apenas porque \"estava no plano anual\"?",
+    "to": "> 1. **O Gatilho de Contratação (*Hiring Trigger*):** As novas vagas previstas para o próximo trimestre só são abertas quando a receita e a margem do trimestre anterior superam o piso mínimo (como 85% do orçado), ou sua operação continua contratando no piloto automático apenas porque constava na planilha anual?"
+  },
+  {
+    "id": "2149",
+    "vol": "5",
+    "code": "C6",
+    "from": "Exemplo: headcount plan de Engenharia, 2026",
+    "to": "Exemplo: plano de contratações (*headcount plan*) de Engenharia para o orçamento de 2027 (com transição de PIS/Cofins para a CBS simulada na DRE):"
+  },
+  {
+    "id": "2151",
+    "vol": "5",
+    "code": "E9",
+    "from": "Linha         | Budget | Q1 Real | Q2 Real | Q3 Fore | Q4 Fore | Full Year Fore | Full Year Budget | Δ%",
+    "to": "Linha         | Orçado | 1T Real | 2T Real | 3T Prev | 4T Prev | Ano Previsto | Ano Orçado | Δ%"
+  },
+  {
+    "id": "2152",
+    "vol": "5",
+    "code": "C5",
+    "from": "3. **Ação corretiva com prazo.** Desvio sem plano de ação é desorganização. Desvio com plano de ação é gestão. \"Estamos cortando R$ 80K de opex no Q3, adiando duas contratações de vendas para Q4, e esperamos fechar o ano R$ 300K abaixo do budget original: com o reforecast aprovado de R$ 2.74M.\"",
+    "to": "3. **Plano corretivo com prazo e responsável (Cenário B: trimestre de estresse, 10% abaixo da meta):** apresente a resposta operacional já em curso: \"Reduzimos R$ 80 mil de despesas operacionais no 3º trimestre, condicionamos duas vagas comerciais ao gatilho de receita do 4º trimestre e revisamos a previsão anual (*reforecast*) para R$ 2,74 milhões (recuo de 10% frente ao orçamento original de R$ 3,04 milhões, preservando 18 meses de caixa).\""
+  },
+  {
+    "id": "2153",
+    "vol": "5",
+    "code": "C5",
+    "from": "> 3. **Visão de 12 Meses à Frente (*Rolling Forecast*):** Quando chega o mês de setembro, a sua equipe enxerga os próximos quatro trimestres rolantes ou só consegue ver até o muro artificial de 31 de dezembro?",
+    "to": "> 3. **Horizonte de Planejamento e Gatilhos Trimestrais:** Até a Série A, você combina o orçamento anual com revisão trimestral (*reforecast*) e gatilhos de liberação de verba (evoluindo para a projeção rolante de 4 trimestres, ou *rolling forecast*, assim que estruturar a área de FP&A) ou ainda navega às cegas até o muro de 31 de dezembro?"
+  },
+  {
+    "id": "2155",
+    "vol": "5",
+    "code": "E7",
+    "from": "#### Series A: primeiro orçamento formal",
+    "to": "#### Série A: o primeiro orçamento formal aprovado pelo conselho"
+  },
+  {
+    "id": "2155",
+    "vol": "5",
+    "code": "E7",
+    "from": "#### Series B+: orçamento por departamento, eficiência como métrica secundária",
+    "to": "#### Série B em diante: orçamento descentralizado por área e metas de eficiência"
+  },
+  {
+    "id": "2156",
+    "vol": "5",
+    "code": "E7",
+    "from": "    F -->|Não| H[\"Budget draft\"]",
+    "to": "    F -->|Não| H[\"Minuta de orçamento (Draft)\"]"
+  },
+  {
+    "id": "2156",
+    "vol": "5",
+    "code": "E7",
+    "from": "    H --> I[\"Board approval\"]",
+    "to": "    H --> I[\"Aprovação no conselho (Board)\"]"
+  },
+  {
+    "id": "2160",
+    "vol": "5",
+    "code": "N2",
+    "from": "Estágio         | Descrição                              | Win rate típico B2B SaaS",
+    "to": "Estágio         | Evidência verificável no comprador (critério de saída) | Conversão típica B2B SaaS"
+  },
+  {
+    "id": "2161",
+    "vol": "5",
+    "code": "E3",
+    "from": "Revelação comum. Um a dois pontos percentuais a mais em churn destrói runway. Porque a receita recorrente é fundamentalmente multiplicativa no tempo.",
+    "to": "A análise de sensibilidade costuma revelar que uma variação de 1 a 2 pontos percentuais no cancelamento mensal (*churn*) encurta drasticamente o fôlego de caixa, pois o efeito da retenção sobre a receita recorrente é cumulativo mês após mês."
+  },
+  {
+    "id": "2164",
+    "vol": "5",
+    "code": "E1",
+    "from": "> [!important] Orçamento não é previsão. É compromisso.",
+    "to": "> [!important] Orçamento aprovado funciona como teto condicionado a gatilhos de receita"
+  },
+  {
+    "id": "2164",
+    "vol": "5",
+    "code": "E1",
+    "from": "Desvio de custo positivo (gastou menos que o budget) de R$ 200K pode parecer bom, mas merece análise: foi porque contratações atrasaram? Porque o time não executou o plano de marketing? Economizar custo por não executar o plano não é eficiência: é subexecução.",
+    "to": "Gastar R$ 200 mil abaixo do orçamento planejado exige investigação imediata da causa raiz: se a economia decorreu de atraso em contratações-chave ou da não execução de campanhas comerciais previstas, trata-se de subexecução operacional que cobrará o preço na receita dos trimestres seguintes."
+  },
+  {
+    "id": "2178",
+    "vol": "5",
+    "code": "C7",
+    "from": "| Cash runway | Caixa / burn mensal | ≥18 meses recomendado |",
+    "to": "| Fôlego de caixa (*cash runway*) | Saldo de caixa / queima líquida mensal | ≥ 18 meses pós-rodada (mínimo de 12 meses após novas contratações) |"
+  },
+  {
+    "id": "2179",
+    "vol": "5",
+    "code": "C5",
+    "from": "> 2. **A Travessia do Ramp-Up:** O seu modelo considera que um vendedor recém-contratado no Brasil leva de 3 a 6 meses para atingir 100% da meta e que 25% das contratações comerciais não performam, ou você assume produtividade máxima desde o dia 1?",
+    "to": "> 2. **A Travessia do Ramp-Up:** O seu modelo incorpora que um executivo de contas B2B no Brasil leva de 3 a 6 meses para atingir 100% da meta (gerando novo ARR acima do próprio custo mensal somente após essa maturação, salvo em vendas transacionais de ciclo curtíssimo) e que cerca de 25% das contratações comerciais não performam?"
+  },
+  {
+    "id": "2193",
+    "vol": "5",
+    "code": "E1",
+    "from": "O maior obstáculo ao crédito para startups no Brasil não é a taxa de juros. É a exigência de garantia real. Banco brasileiro não empresta sem garantia. A não ser que o fundador saiba como contornar isso com os mecanismos certos.",
+    "to": "No mercado bancário brasileiro, a principal barreira para uma startup tomar crédito está na exigência de garantias reais ou de aval pessoal dos sócios, o que exige conhecer as linhas públicas de equalização, os fundos garantidores e as estruturas de recebíveis."
+  },
+  {
+    "id": "2211",
+    "vol": "5",
+    "code": "S5",
+    "from": "#### 1. 13-week rolling cash forecast",
+    "to": "#### 1. Projeção de caixa rolante de 13 semanas (*13-week rolling cash forecast*)"
+  },
+  {
+    "id": "2211",
+    "vol": "5",
+    "code": "S5",
+    "from": "Atualizar toda segunda-feira.",
+    "to": "Atualize a planilha toda segunda-feira pela manhã com os saldos bancários reais conciliados (aplicando na rotina semanal a estrutura detalhada no Capítulo 8)."
+  },
+  {
+    "id": "2211",
+    "vol": "5",
+    "code": "S5",
+    "from": "> [!important] Trigger imediato",
+    "to": "> [!important] Gatilho de ação imediata na janela de 13 semanas"
+  },
+  {
+    "id": "2211",
+    "vol": "5",
+    "code": "S5",
+    "from": "> Se em qualquer semana das treze o caixa fica negativo, ação imediata necessária.",
+    "to": "> Se a projeção apontar saldo de caixa abaixo do piso de segurança em qualquer uma das 13 semanas à frente, acione imediatamente o plano de contenção e renegociação antes que a ruptura ocorra."
+  },
+  {
+    "id": "2211",
+    "vol": "5",
+    "code": "S5",
+    "from": "#### 2. DSO, DPO, DIO (dias)",
+    "to": "#### 2. Prazos médios operacionais: DSO, DPO e DIO (monitoramento semanal do ciclo de caixa do Capítulo 8)"
+  },
+  {
+    "id": "2211",
+    "vol": "5",
+    "code": "S5",
+    "from": "DSO (Days Sales Outstanding). Média de dias entre emissão de fatura, e recebimento. Saudável B2B brasileiro, trinta a quarenta e cinco dias. Acima de sessenta dias é problema.",
+    "to": "**Prazo médio de recebimento (DSO, *Days Sales Outstanding*):** número médio de dias entre a emissão da nota fiscal e a entrada efetiva do dinheiro na conta; em vendas B2B no Brasil, a faixa saudável situa-se entre 30 e 45 dias, enquanto prazos acima de 60 dias exigem revisão da régua de cobrança."
+  },
+  {
+    "id": "2211",
+    "vol": "5",
+    "code": "S5",
+    "from": "DPO (Days Payable Outstanding). Média de dias entre receber fatura de fornecedor, e pagar. Saudável, trinta a quarenta e cinco dias. Negociar prazo com fornecedores é ferramenta de caixa.",
+    "to": "**Prazo médio de pagamento (DPO, *Days Payable Outstanding*):** média de dias entre o recebimento da fatura do fornecedor e o desembolso bancário (tipicamente de 30 a 45 dias); alinhar o vencimento dos fornecedores ao ciclo de recebimento dos clientes protege o capital de giro."
+  },
+  {
+    "id": "2211",
+    "vol": "5",
+    "code": "S5",
+    "from": "DIO (Days Inventory Outstanding). Dias de estoque (para empresas com produto físico).",
+    "to": "**Prazo médio de estocagem (DIO, *Days Inventory Outstanding*):** número médio de dias em que o capital permanece imobilizado em estoque antes da venda, variável crítica para operações de comércio e indústria."
+  },
+  {
+    "id": "2231",
+    "vol": "5",
+    "code": "N9",
+    "from": "A segunda é a conta de pagamentos do dia a dia em banco digital (Inter Empresas, Cora, Conta Simples). Aqui ficam os pagamentos correntes de menor valor, reembolsos, adiantamentos de funcionários, pagamentos de fornecedores menores. Custo zero ou muito baixo, operação ágil via app.",
+    "to": "A segunda conta (ou subconta operacional dentro da instituição principal) concentra a movimentação diária em banco digital PJ de baixo custo (como Itaú Empresas, Bradesco Empresas, BTG Pactual Empresas, Cora ou Conta Simples): por ela transitam pagamentos correntes com alçada limitada, cartões corporativos por centro de custo e conciliação automática com o ERP, mantendo a reserva de liquidez isolada na conta de tesouraria."
+  },
+  {
+    "id": "2232",
+    "vol": "5",
+    "code": "E10",
+    "from": "Do ponto de vista bancário, banco que analisa crédito PJ quer ver fluxo de caixa da empresa na conta PJ. Se os últimos doze extratos mostram receita entrando em conta PF, o extrato PJ aparece vazio ou anêmico. Crédito negado ou aprovado em valor menor do que seria se a movimentação fosse toda na conta correta.",
+    "to": "Na análise de crédito corporativo, o banco avalia a consistência do faturamento diretamente nos últimos 12 meses de extrato da conta PJ: quando recebimentos de clientes transitam por contas pessoais dos sócios (erro já superado por Camila no início da operação), o histórico bancário da empresa parece artificialmente fraco e reduz o limite aprovado."
+  },
+  {
+    "id": "2232",
+    "vol": "5",
+    "code": "E10",
+    "from": "> [!warning] Mistura de PF e PJ",
+    "to": "> [!warning] Impacto da confusão patrimonial no limite de crédito PJ"
+  },
+  {
+    "id": "2264",
+    "vol": "5",
+    "code": "E11",
+    "from": "* **Dia 0:** Pagamento de **30% de sinal (*deposit*)** via fechamento de câmbio de importação (remessa antecipada) para a fábrica iniciar a produção;",
+    "to": "* **Dia 0:** Pagamento de 30% de sinal (*deposit*) mediante fechamento de câmbio de importação (remessa antecipada) para a fábrica iniciar a produção;"
+  },
+  {
+    "id": "2265",
+    "vol": "5",
+    "code": "S7",
+    "from": "4. **Taxa SISCOMEX e Despesas Aduaneiras Tributáveis** (adicionadas à base do ICMS).",
+    "to": "4. **Taxa SISCOMEX e despesas aduaneiras tributáveis**, que passam a integrar a base de cálculo por dentro do ICMS no desembaraço (`Base ICMS = (Valor Aduaneiro + II + IPI + PIS/Cofins + Despesas Aduaneiras) / (1 - Alíquota ICMS)`)."
+  },
+  {
+    "id": "2305",
+    "vol": "5",
+    "code": "C5",
+    "from": "R  Média  |  Aceitar   | Mitigar  | Mitigar/Transferir  |",
+    "to": "R  Média  |  Aceitar   | Mitigar  | Transferir (seguro) |"
+  },
+  {
+    "id": "2328",
+    "vol": "5",
+    "code": "E9",
+    "from": "Liquidation Preference. Em caso de venda, ou liquidação, quanto o investidor recebe antes dos founders. Padrão saudável. 1x non-participating (o investidor escolhe entre recuperar o cheque, OU converter, e participar pro-rata). Evitar. 2x ou 3x participating (o investidor recupera duas a três vezes, E participa pro-rata. Pode consumir exit inteiro em cenário médio).",
+    "to": "**Preferência de liquidação (*Liquidation Preference*):** define quanto os titulares de ações preferenciais recebem antes das ações ordinárias na venda ou liquidação da empresa. O padrão equilibrado de mercado é **1x não participante (*1x non-participating*)**, em que o investidor opta entre recuperar 1x o valor aportado ou converter suas ações para participar proporcionalmente (*pro-rata*) do valor total; evite cláusulas de 2x ou 3x participantes (*participating*), que acumulam o reembolso múltiplo com a fatia proporcional e podem absorver quase todo o valor de uma saída intermediária."
+  },
+  {
+    "id": "2328",
+    "vol": "5",
+    "code": "E9",
+    "from": "Anti-dilution. Proteção do investidor, se rodada futura acontece em valuation menor. Dois tipos. Weighted Average (mais justo), ajuste proporcional. Full Ratchet (pesado), conversão ao preço da rodada nova, mesmo que só uma ação seja emitida a esse preço. Evitar.",
+    "to": "**Cláusula antidiluição (*Anti-dilution*):** protege o investidor caso a empresa emita ações em rodada futura por um *valuation* inferior (*down round*). Existem duas modalidades: a **média ponderada ampla (*broad-based weighted average*)**, padrão equilibrado que recalcula o preço de forma proporcional ao tamanho da nova emissão, e o **ajuste integral (*full ratchet*)**, cláusula punitiva que reprica todas as ações anteriores pelo menor valor emitido e deve ser recusada."
+  },
+  {
+    "id": "2328",
+    "vol": "5",
+    "code": "E9",
+    "from": "**Termos de governança.**",
+    "to": "**Cláusulas de governança e controle:**"
+  },
+  {
+    "id": "2328",
+    "vol": "5",
+    "code": "E9",
+    "from": "Protective Provisions. Lista de decisões que precisam de aprovação do board, ou dos investidores. Padrão. Venda da empresa, emissão de novas ações, dívida acima de X, e mudança no contrato social. Cuidado com provisions muito amplas, que limitam operação.",
+    "to": "**Matérias sujeitas a aprovação qualificada (*Protective Provisions*):** rol de decisões estratégicas que dependem de anuência prévia dos investidores preferenciais ou do conselho, como venda da empresa, alteração do objeto social, emissão de nova classe de ações ou endividamento acima de um teto acordado; negocie pisos monetários claros para não engessar a gestão diária."
+  },
+  {
+    "id": "2328",
+    "vol": "5",
+    "code": "E9",
+    "from": "Information Rights. Direito do investidor a reports. Padrão. Relatório mensal, quarterly report, e annual audited. Quanto mais granular, mais trabalho operacional.",
+    "to": "**Direito à informação (*Information Rights*):** obrigação contratual de enviar relatórios periódicos aos investidores, cujo padrão combina atualização gerencial mensal (*investor update*), demonstrativos trimestrais e balanço anual auditado a partir da Série A."
+  },
+  {
+    "id": "2328",
+    "vol": "5",
+    "code": "E9",
+    "from": "Pro-rata Rights. Direito de investidor participar de rodadas futuras, mantendo percentual. Padrão, sim.",
+    "to": "**Direito de preferência em novas rodadas (*Pro-rata Rights*):** prerrogativa que assegura ao investidor atual o direito de subscrever sua proporção na rodada seguinte para manter seu percentual de participação; é cláusula padrão para fundos líderes e investidores institucionais."
+  },
+  {
+    "id": "2372",
+    "vol": "5",
+    "code": "E1",
+    "from": "> [!note] Aviso",
+    "to": "> [!note] Prontidão documental desde o primeiro dia"
+  },
+  {
+    "id": "2377",
+    "vol": "5",
+    "code": "S5",
+    "from": "#### Template: Data Room, Checklist de Due Diligence",
+    "to": "#### Template: Data Room de Captação: Checklist de Diligência Prévia (Due Diligence)"
+  },
+  {
+    "id": "2377",
+    "vol": "5",
+    "code": "S5",
+    "from": "#### Template: Plano de Financiamento Não-Diluitivo",
+    "to": "#### Template: Plano Integrado de Financiamento Não Diluitivo (Subvenção, Crédito e Fomento)"
+  },
+  {
+    "id": "2399",
+    "vol": "5",
+    "code": "E9",
+    "from": "2. Return target. PE quer TIR de vinte a vinte e cinco por cento ao ano em equity investido.",
+    "to": "2. **Meta de retorno (*return target*):** fundos de Private Equity buscam tipicamente uma Taxa Interna de Retorno (TIR) entre 20% e 25% ao ano sobre o capital próprio investido (`Múltiplo de Capital = (1 + TIR)^n`)."
+  },
+  {
+    "id": "2416",
+    "vol": "5",
+    "code": "C3",
+    "from": "**Quando o IOF pode ser evitado:**",
+    "to": "**Regras de incidência e alíquotas do IOF em contratos de mútuo conversível:**"
+  },
+  {
+    "id": "2416",
+    "vol": "5",
+    "code": "C3",
+    "from": "4. **Pro-rata aberta para todos.** Investidores com pro-rata direito em todas as rodadas futuras tornam a próxima rodada mais difícil de fechar: o lead quer concentrar.",
+    "to": "4. **Direito de *pro-rata* pulverizado e erro de IOF no mútuo:** conceder direito irrestrito de preferência a dezenas de pequenos investidores reduz a fatia disponível para o fundo líder na rodada seguinte; além disso, lembre-se de que o IOF-Crédito incide sobre mútuos conversíveis apenas quando o **mutuante é pessoa jurídica** (Lei nº 9.779/1999, art. 13; Decreto nº 6.306/2007 atualizado em 2025, com alíquota adicional de 0,38% mais alíquota diária limitada a 365 dias), sendo isento quando o investidor-anjo mutuante é **pessoa física**."
+  }
+]

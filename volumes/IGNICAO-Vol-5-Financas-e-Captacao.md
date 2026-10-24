@@ -116,7 +116,7 @@ Depois do PMF, as métricas financeiras passam a guiar decisões estratégicas. 
 | Magic Number | ARR novo líquido do trimestre ÷ S&M do trimestre anterior (ou variação da receita recorrente trimestral × 4 ÷ S&M do trimestre anterior) | > 0,75 saudável para acelerar, > 1,0 ótimo (Lars Leckie / Scale VP) |
 | CAC Payback | CAC ÷ (MRR do novo cliente × margem bruta) | Abaixo de 12 meses é saudável em B2B, abaixo de 6 meses é excelente |
 | Rule of 40 | % crescimento de ARR + % EBITDA margin | ≥40 é benchmark de investidores |
-| Cash runway | Caixa / burn mensal | ≥18 meses recomendado |
+| Fôlego de caixa (*cash runway*) | Saldo de caixa / queima líquida mensal | ≥ 18 meses pós-rodada (mínimo de 12 meses após novas contratações) |
 
 #### Passo 4, estruture captação estratégica (não oportunista)
 
@@ -144,11 +144,11 @@ Abaixo destacamos os termos econômicos e de governança mais sensíveis de um *
 
 Valuation pré e pós-money: além do número de manchete, calcule a diluição efetiva após a criação ou expansão do pool de opções.
 
-Option pool. Quanto de equity fica reservado para futuros contratados, antes ou depois do investimento (afeta valuation de fundadores).
+**Reserva de opções (*option pool*):** percentual de participação separado para atrair executivos e talentos técnicos; verifique na tabela do [[#Template: Term Sheet Anotado|Term Sheet Anotado]] o impacto diluitivo de criá-lo antes ou depois do aporte.
 
 Liquidation preference (preferência de liquidação: o investidor recebe antes dos fundadores em caso de venda). Preferência de 1x não participativa (*1x non-participating*) é o padrão saudável. Preferência de 2x participativa (*2x participating*), mesmo com teto (*cap*), é predatória.
 
-Anti-dilution (proteção contra diluição em rodadas futuras a valuation menor). Weighted average (média ponderada, padrão) versus full-ratchet (ajuste total, predatório).
+**Proteção antidiluição (*anti-dilution*):** cláusula que ajusta o preço de conversão dos investidores caso a empresa capte uma rodada futura por valor inferior (*down round*); priorize a média ponderada ampla (*broad-based weighted average*) e recuse o ajuste integral (*full ratchet*), conforme detalhado no [[#Template: Term Sheet Anotado|Term Sheet Anotado]].
 
 Vesting de fundadores. **Re-vesting parcial de fundadores** (submeter novamente a um cronograma de aquisição, tipicamente de 3 a 4 anos, parte das ações que o fundador já havia adquirido) é exigência comum na Série A; negocie sempre o reconhecimento de um percentual já liberado pelo tempo trabalhado desde a fundação. Termos fora do padrão merecem atenção.
 
@@ -158,7 +158,7 @@ Direito de proporcionalidade (*pro-rata rights*): prerrogativa de investir na me
 
 Cláusulas de proteção (*protective provisions*): definem quais matérias exigem aprovação prévia do investidor, como venda da empresa, nova emissão de títulos ou mudança de objeto social.
 
-Drag-along, tag-along (obrigação e direito de venda conjunta, respectivamente). Obrigações e direitos em cenário de venda da empresa.
+**Obrigação e direito de venda conjunta (*drag-along* e *tag-along*):** regras que disciplinam a venda total da empresa e a proteção dos minoritários em caso de aquisição, detalhadas com seus quóruns típicos no [[#Template: Term Sheet Anotado|Term Sheet Anotado]].
 
 > [!warning] Recomendação firme sobre advogado
 > Contrate advogado com experiência em VC (não advogado generalista) antes de assinar qualquer *term sheet*. Os erros mais caros que fundadores cometem ao negociar um *term sheet* vêm de não contar com assessoria que já acompanhou centenas de rodadas. Tentar economizar nos honorários de revisão do *term sheet* (tipicamente de R$ 15 mil a R$ 35 mil) ou no fechamento jurídico completo da rodada de Série A (de R$ 60 mil a R$ 150 mil em escritórios especializados em VC no Brasil) pode custar, em um cenário adverso de saída, dezenas de milhões em participação dos fundadores.
@@ -210,19 +210,19 @@ Até o fim de 2021, o mercado premiava crescimento a qualquer custo. A partir de
 
 ### MÉTRICAS E BENCHMARKS DESTA FASE (FASE 14)
 
-| Métrica | Early-stage | Growth | Maduro |
+| Métrica | Estágio Inicial (Seed / Série A) | Crescimento (Growth / Série B) | Estágio Maduro (Referência de Escala) |
 |---|---|---|---|
-| NRR |: | ≥ 100% | ≥ 110% |
-| CAC Payback | ≤ 18 meses | ≤ 12 meses | ≤ 9 meses |
-| Margem bruta SaaS | ≥ 50% | ≥ 65% | ≥ 75% |
-| Churn mensal | ≤ 3% | ≤ 2% | ≤ 1% |
-| Magic Number |: | ≥ 0.75 | ≥ 1.0 |
-| Rule of 40 |: | ≥ 20 | ≥ 40 |
+| Retenção líquida de receita (NRR) | ≥ 95% | ≥ 100% (meta de saída Série A/B) | ≥ 110% (meta em escala madura) |
+| CAC Payback | ≤ 18 meses (Série A / início) | ≤ 12 meses (Growth / Série B) | ≤ 9 meses (Maduro) |
+| Margem bruta SaaS | ≥ 50% | ≥ 65% (meta em Growth) | ≥ 75% (referência madura) |
+| Churn mensal de receita | ≤ 3% | ≤ 2% (meta em Growth) | ≤ 1% (referência madura) |
+| Magic Number (eficiência de S&M) | ≥ 0,5 | ≥ 0,75 (meta em Growth) | ≥ 1,0 (escala acelerada) |
+| Regra dos 40 (*Rule of 40*) | Não aplicável pré-PMF | ≥ 20 (meta inicial em Growth) | ≥ 40 (referência de escala madura) |
 | Burn Multiple (régua de David Sacks) | N/A | ≤ 2,0x (bom: 1,0x a 1,5x) | ≤ 1,0x (excelente) |
 | Magic Number (eficiência de S&M) | ≥ 0,75 | ≥ 1,0 | ≥ 1,2 |
-| NPS (consumer) | ≥ 30 | ≥ 40 | ≥ 50 |
-| NPS (enterprise) | ≥ 20 | ≥ 30 | ≥ 40 |
-| eNPS |: | ≥ 20 | ≥ 30 |
+| NPS (produtos B2C / consumidor) | ≥ 30 | ≥ 40 (meta em Growth) | ≥ 50 (referência madura) |
+| NPS (produtos B2B / corporativo) | ≥ 20 | ≥ 30 (meta em Growth) | ≥ 40 (referência madura) |
+| eNPS (engajamento da equipe) | ≥ 15 | ≥ 20 (meta em Growth) | ≥ 30 (referência madura) |
 
 > [!note] Nota sobre benchmarks
 > Benchmarks são médias de mercado e variam por setor, modelo de negócio e contexto macroeconômico. Usar como referência de diagnóstico, não como meta absoluta. O que importa é a tendência ao longo do tempo para a sua empresa, não a distância de um número de mercado.
@@ -359,7 +359,9 @@ Ação: reforçar content channel, ajustar pricing.
 
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
-Só blended: esconde tendências críticas, Cohort muito granular: weekly cohorts com 5 clientes/semana = ruído, Não separar revenue de user retention: usuário continua, revenue caiu via downgrade.
+- **Analisar apenas a média geral (*blended*):** misturar clientes antigos e novos esconde a deterioração das safras recentes.
+- **Recorte semanal com amostra mínima:** abrir coortes semanais com apenas 5 clientes gera ruído estatístico em vez de sinal.
+- **Olhar só retenção de logotipos (*users*) e ignorar receita:** o cliente pode continuar ativo no sistema enquanto reduz o valor pago (*downgrade*).
 
 ---
 
@@ -399,7 +401,9 @@ Passo 4: Investir onde LTV:CAC > 3, reduzir onde < 2.
 
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
-LTV inflacionado por assumir churn atual permanente: churn pode subir com scale, CAC subestimado: só marketing, sem salários de sales, Cross-segment averaging: 1 segmento excelente carrega 4 ruins.
+- **Projetar LTV assumindo o *churn* inicial como perpétuo:** a taxa de cancelamento costuma subir quando a aquisição sai dos primeiros entusiastas para o mercado amplo.
+- **Subestimar o CAC omitindo salários:** incluir apenas mídia paga e esquecer a folha de vendas e pré-vendas distorce o tempo real de retorno.
+- **Tirar a média entre segmentos distintos:** um canal corporativo rentável pode mascarar quatro canais deficitários quando tudo é somado na mesma conta.
 
 ---
 
@@ -411,7 +415,7 @@ LTV inflacionado por assumir churn atual permanente: churn pode subir com scale,
 
 ##### A mecânica central (sem jargão)
 
-Burn Multiple = Net Burn / Net New ARR
+Burn Multiple = Queima Líquida de Caixa (Net Burn) / ARR Novo Líquido (Net New ARR)
 
 - Net Burn: caixa gasto - receita (burn líquido).
 - Net New ARR: novo ARR - churn - downgrades.
@@ -442,7 +446,7 @@ Passo 4: BM > 3 por 2+ trimestres: red flag. Investigar e agir.
 
 ##### Na trincheira real: como isso funciona na prática
 
-SaaS em Series B:
+Exemplo de SaaS na Série B:
 
 - Q1 2026: burn R$ 3M, new ARR R$ 2M. BM = 1.5 (Great).
 - Q2 2026: burn R$ 4M, new ARR R$ 2M. BM = 2.0 (Suspect).
@@ -452,7 +456,9 @@ Deterioração clara. Burn subiu sem acompanhamento em ARR. Ação: cortar custo
 
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
-Burn sem net: burn bruto sem considerar receita. Distorce, ARR sem net: novo ARR sem churn. Infla, BM trimestral sem tendência: 1 quarter ruim pode ser sazonalidade.
+- **Usar queima bruta em vez de queima líquida (*Net Burn*):** ignorar a receita recebida no período distorce o numerador.
+- **Tomar o ARR bruto sem descontar cancelamentos:** somar apenas vendas novas sem subtrair *churn* e contração infla artificialmente o denominador.
+- **Avaliar um trimestre isolado sem olhar a tendência:** variações sazonais de vendas exigem acompanhar a média móvel de dois a quatro trimestres.
 
 ---
 
@@ -511,7 +517,7 @@ Ou seja: ARR anualizado gerado em um trimestre ÷ gasto em S&M do trimestre ante
 
 ##### Benchmarks
 
-- > 1.0: cada $ em S&M gera > $1 em ARR anualizado. Investir mais.
+- **Acima de 0,75 (com aceleração ótima acima de 1,0):** cada real investido em vendas e marketing no trimestre anterior retorna rapidamente em receita recorrente anualizada líquida, justificando expandir o orçamento comercial.
 - 0.5 - 1.0: ok, investir com ajustes.
 - < 0.5: S&M ineficiente. Revisar processo, não escalar.
 
@@ -668,7 +674,7 @@ Passo 5: Some. Ajuste por net debt.
 
 ##### Limitações em startups
 
-DCF é **ruim para early-stage startups** porque:
+O Fluxo de Caixa Descontado (DCF) é **inadequado para startups em estágio inicial** (sendo útil apenas a partir de estágios maduros de previsibilidade, conforme detalhado no Capítulo 15) porque:
 
 - FCF negativo por anos, projeções são ficção.
 - Growth rates imprevisíveis.
@@ -678,7 +684,10 @@ Antes da receita (*pre-revenue*), múltiplos de faturamento não se aplicam: use
 
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
-Projeções otimistas: todas crescem 50% a.a, WACC subestimado: risco real é alto em startup, Terminal Value dominando valuation: Terminal > 60% do valor = perigoso, DCF em startup pre-revenue: método errado.
+- **Projeções lineares de crescimento acelerado:** assumir expansão de 50% ao ano por cinco anos sem lastro de canais invalida o modelo.
+- **Taxa de desconto (WACC) subestimada:** aplicar custo de capital de empresa listada ignora o prêmio de risco e de iliquidez de uma startup.
+- **Valor de perpetuidade (*Terminal Value*) inflado:** quando a perpetuidade responde por mais de 60% do valor presente, toda a conta depende de uma suposição distante.
+- **Aplicar fluxo de caixa descontado antes de haver receita previsível:** em estágio inicial, utilize os métodos de Venture Capital, Berkus ou Scorecard.
 
 ---
 
@@ -734,11 +743,13 @@ Valuation final por triangulação (hipotético): faixa de R$ 180M a R$ 240M.
 
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
-Comparáveis não comparáveis: comparar SaaS B2B enterprise com SaaS consumer distorce, Ignorar ciclo de mercado: múltiplos variam 3-5x com ciclo (2021 hot → 2023 cold), Cherry-picking: escolher só comparáveis altos.
+- **Escolher empresas incomparáveis:** usar múltiplos de um SaaS corporativo americano para avaliar uma operação local de serviços distorce a faixa de valor.
+- **Ignorar o ciclo de liquidez do mercado:** múltiplos de receita oscilam drasticamente entre momentos de euforia (como 2021) e períodos de juros altos.
+- **Seleção enviesada (*cherry-picking*):** filtrar apenas as transações com os maiores múltiplos da categoria tira a credibilidade da análise diante do investidor.
 
 ---
 
-#### Framework: DuPont Analysis (Donaldson Brown / DuPont, 1914)
+#### Framework: Identidade DuPont (Donaldson Brown / DuPont, 1914): referência para estágio maduro (ver Capítulo 15)
 
 ##### De onde vem a ferramenta (e por que sobreviveu ao filtro do tempo)
 
@@ -807,11 +818,11 @@ flowchart LR
 
 A estrutura segue o arco narrativo clássico de Joseph Campbell (A Jornada do Herói) aplicado ao contexto de produto e pitch: mas com um twist: **o herói não é o fundador nem a empresa, é o cliente**. A empresa é o "guia" (Gandalf, Yoda) que equipa o herói (Frodo, Luke) para vencer o problema.
 
-##### O momento exato de colocar este canvas na parede
+##### Quando montar este quadro na sala de guerra
 
 Use o Storytelling Canvas em três contextos: (1) **pitch de investimento**, qualquer conversa com VC, anjo ou processo de aceleração; (2) **comunicação institucional**, lançamento de produto, entrada em novo mercado, apresentação para board; (3) **venda B2B complexa**: a proposta comercial também é uma narrativa, e o Storytelling Canvas ajuda a estruturá-la do ponto de vista do cliente, não do fornecedor. Preencha o canvas antes de criar o deck: a narrativa define a estrutura; o deck é execução.
 
-##### As regras de ouro para preencher sem se enganar
+##### Princípios práticos para simular sem autoengano
 
 A tese unificada de Duarte, Sinek e da escola de pitch é que **dados sem narrativa não mudam comportamento**. As decisões humanas passam primeiro por um julgamento rápido, associativo e intuitivo (o Sistema 1 descrito por Daniel Kahneman em *Thinking, Fast and Slow*) antes do escrutínio analítico do Sistema 2. Uma história bem construída ativa a decisão emocional; os dados no bloco "Evidências" fornecem a justificativa racional. Inversamente, decks com dados sem narrativa produzem memorização zero: o investidor sai da reunião sem saber "o que essa empresa faz de diferente". O Storytelling Canvas força articular a narrativa primeiro, os dados depois.
 
@@ -1026,26 +1037,26 @@ flowchart TD
     NP & PA --> D4["4º Acionistas Common e ESOP exercido<br/>recebem sua fatia pro-rata do saldo"]
 ```
 
-**Os seis campos do canvas:**
+**Os seis blocos estruturais da simulação de cascata (*Waterfall*):**
 
-- **Cap table atual**: % de cada classe (common, preferred Série Seed, Série A, etc.) e número de ações
-- **Liquidation preferences**: 1x, 2x ou participating, por classe e por investidor
-- **Anti-dilution adjustments**: se houve down round, qual é o ajuste de preço de conversão
+- **Quadro societário atual (*cap table*):** percentual e número de ações de cada classe (ordinárias dos fundadores, preferenciais de cada rodada e opções)
+- **Preferências de liquidação (*liquidation preferences*):** múltiplo (1x ou mais) e modalidade (não participante ou participante) por série, conforme glossário do [[#Template: Term Sheet Anotado|Term Sheet Anotado]]
+- **Ajustes de antidiluição (*anti-dilution*):** impacto sobre o preço de conversão caso tenha ocorrido rodada com redução de valor (*down round*)
 - **Option pool**: opções outorgadas, exercíveis, não exercidas
-- **Preço de exit simulado**: faixa de cenários (pessimista, base, otimista)
-- **Distribuição resultante**: R$ por classe e por indivíduo em cada cenário
+- **Cenários de valor de saída (*exit*):** faixas de preço de venda simuladas (conservador, base e otimista)
+- **Líquido embolsado por classe e por sócio:** valor em reais destinado a cada acionista após aplicar a ordem de prioridade em cada cenário
 
-##### O momento exato de colocar este canvas na parede
+##### Quando montar este quadro na sala de guerra
 
-Use o Waterfall Canvas em três momentos: (1) **ao receber um term sheet**: para entender o impacto da liquidation preference proposta em diferentes cenários de exit; (2) **antes de iniciar processo de M&A**: para saber quanto cada sócio recebe em diferentes preços de oferta e identificar onde há conflito de interesse; (3) **ao converter SAFEs ou notas conversíveis**: para visualizar a diluição real e o impacto no cap table pós-conversão.
+Monte o Waterfall Canvas em três ocasiões decisivas: (1) **ao analisar uma proposta de investimento (*term sheet*)**, para enxergar na prática quanto sobra aos fundadores sob diferentes regras de preferência de liquidação; (2) **antes de abrir negociações de M&A**, para calcular o retorno líquido de cada classe de acionistas em diferentes faixas de oferta; e (3) **ao converter mútuos conversíveis ou SAFEs**, para medir a diluição combinada antes da assinatura.
 
-##### As regras de ouro para preencher sem se enganar
+##### Princípios práticos para simular sem autoengano
 
-**Primeiro: liquidation preference é o mecanismo mais importante que a maioria dos fundadores subestima.** Uma empresa vendida por R$ 50M com R$ 20M de preferred com 2x participating pode entregar menos de R$ 5M para o fundador que detém 30% do cap table. Sem o Waterfall Canvas, essa realidade só aparece no dia da assinatura.
+**Primeiro: a modalidade de preferência de liquidação altera mais o bolso do fundador em saídas médias do que o *valuation* nominal da manchete.** Em uma venda por R$ 50 milhões após captar R$ 20 milhões com preferência de 2x participante, os titulares de ações ordinárias podem receber uma fração mínima do preço mesmo detendo 30% do *cap table*.
 
-**Segundo: simule sempre pelo menos três cenários.** Exit @ 1x capital investido (resultado fraco), @ 3x (resultado bom), @ 10x (resultado excepcional). O comportamento das liquidation preferences é radicalmente diferente nesses três pontos.
+**Segundo: projete sempre ao menos três faixas de saída.** Simule uma venda modesta (1x o capital total captado), uma saída intermediária (3x) e um resultado expressivo (10x), observando em que ponto exato as ações preferenciais convertem para ordinárias.
 
-**Terceiro: o conflito de interesse entre fundadores e investidores é estrutural.** Investidores com preferred querem maximum protection; fundadores com common querem maximum upside. Modelar o waterfall revela onde os interesses divergem: antes da negociação, não durante.
+**Terceiro: mapeie o desalinhamento de incentivos antes de sentar à mesa.** Enquanto titulares de ações preferenciais priorizam proteção de capital em cenários baixos, fundadores com ações ordinárias dependem do ganho proporcional acima do piso; colocar a cascata no papel antecipa onde surgirão impasses de aprovação.
 
 ##### Passo a passo na parede da sala (30 a 60 minutos)
 
@@ -1113,7 +1124,7 @@ Remanescente após a preferência participativa da Série A (já que a Seed conv
 > 1. **Plano de Financiamento Não Diluitivo (Henrique, AgroTech Hardware em Curitiba):** necessidade total de R$ 3,2M para 18 meses de P&D e lotes-piloto; combinado de **R$ 1,8M via Finep/EMBRAPII** (subvenção econômica para TRL 4 a 7 e crédito de inovação com 24 meses de carência), **R$ 800 mil de cofinanciamento industrial** (verba obrigatória de P&D da Lei de Informática via parceiro âncora) e **R$ 600 mil em antecipação de contratos de integradores via FIDC**, preservando 100% do equity antes da rodada institucional.
 > 2. **Plano de Rodada Série A (Lucas e Marina, SaaS B2B em São Paulo/Florianópolis):** meta de captação de **R$ 18M por 20% de diluição** (*post-money* de R$ 90M), iniciada após baixar o *Burn Multiple* de 2,07x para 1,15x com ARR de R$ 9,6M, NRR de 112% e 11 meses de caixa; funil com 12 fundos Tier 1, 15 Tier 2 e fechamento planejado em 22 semanas com cláusula *1x non-participating* e pool de opções calibrado em 10% pós-rodada.
 
-#### Template: Plano de Financiamento Não-Diluitivo
+#### Template: Plano Integrado de Financiamento Não Diluitivo (Subvenção, Crédito e Fomento)
 
 Documento de 2-3 páginas, revisão semestral. Tipologia das fontes (Lei do Bem, Finep, BNDES, FAPESP, Venture Debt, RBF), critérios de elegibilidade e ordem de ataque em [[#CAPÍTULO 12 — FINANCIAMENTO NÃO-DILUITIVO|Capítulo 12 (Financiamento Não Diluitivo)]].
 
@@ -1308,7 +1319,7 @@ Regras:
 
 ---
 
-#### Template: Data Room, Checklist de Due Diligence
+#### Template: Data Room de Captação: Checklist de Diligência Prévia (Due Diligence)
 
 > [!note] Quando usar
 > Ao preparar captação de rodada (Seed, Série A em diante) ou processo de M&A. O data room organiza os documentos que um investidor ou adquirente vai solicitar durante a due diligence. Monte antes de iniciar o processo: improvisação no meio da DD sinaliza desorganização.
@@ -1414,12 +1425,12 @@ Regras:
 
 **Parte I: Termos econômicos**
 
-| Cláusula | O que significa | Ponto de negociação |
+| Cláusula econômica | O que define na rodada | Ponto de atenção na negociação |
 |---|---|---|
 | **Valuation pré-money** | Valor da empresa antes do aporte. Determina a participação do investidor: `participação = aporte / (pré-money + aporte)` | Principal alavanca. Fundo âncora tem mais poder aqui. |
 | **Montante do aporte** | Valor total da rodada, incluindo conversão de notas anteriores | Verifique se inclui conversão de SAFEs: impacta participação real |
 | **Participação pós-rodada** | Percentual do investidor após o aporte, fully diluted (inclui option pool) | Pool criado *antes* da rodada dilui fundadores, não o investidor: negocie tamanho |
-| **Option pool** | Reserva para ESOP (típico: 10–20% pós-money). Geralmente criado antes do closing | Se já existe pool, não crie novo sem necessidade. "Pre-money pool refresh" é diluitivo para fundadores |
+| **Reserva de opções (*option pool* / ESOP)** | Fatia reservada para atrair e reter executivos e talentos-chave (usual no Brasil: 5% a 10% em Seed e 10% a 15% na Série A) | Se já existe reserva ativa, apresente o plano de contratações de 18 meses para dimensionar apenas o complemento necessário, pois criar todo o *pool* no pré-money dilui exclusivamente os fundadores |
 | **Tipo de ação** | Preferred shares (ações preferenciais) vs. ordinária. Preferred tem direitos especiais | Quase universal em venture. O que varia são os direitos específicos: veja abaixo |
 | **Liquidation preference** | Prioridade de recebimento do investidor em evento de liquidez (venda ou encerramento), conforme detalhado na seção de economia do *term sheet* | O padrão saudável de mercado é 1x *non-participating*; múltiplos de 2x ou cláusula *participating* (dupla participação) são predatórios para os fundadores e devem ser rejeitados |
 | **Participating preferred** | Investidor recebe a preference E participa pro-rata na distribuição restante | Evite se possível. Reduz significativamente o retorno dos fundadores em exits menores |
@@ -1428,7 +1439,7 @@ Regras:
 
 **Parte II: Termos de controle e governança**
 
-| Cláusula | O que significa | Ponto de negociação |
+| Cláusula de Governança | O que significa na prática | Ponto central de negociação |
 |---|---|---|
 | **Assento no board** | Quantos assentos o investidor recebe e em que composição (fundador / investidor / independente) | No Brasil (referências ABVCAP e práticas de escritórios de VC), em Série A é comum conselho de 3 membros (2 fundadores e 1 investidor) ou 5 membros no formato 2-2-1 (2 fundadores, 2 investidores e 1 independente eleito em consenso) |
 | **Direito de voto** | Matérias que requerem aprovação do investidor (veto) | Vetos padrão aceitáveis: venda da empresa, emissão de novas ações, mudança de estatuto. Veto em contratação de C-level ou orçamento é excessivo |
@@ -1437,14 +1448,14 @@ Regras:
 | **Information rights** | Relatórios que você deve enviar (mensal, trimestral, anual) | Defina formato e prazo realistas. Investidores anjos aceitam relatório trimestral simples |
 | **ROFR (Right of First Refusal)** | Investidor tem direito de comprar ações antes de terceiros | Padrão e razoável. Verifique se vem acompanhado de tag-along (direito de venda conjunta / co-sale) |
 | **Co-sale (tag-along)** | Se fundador vende, investidor pode vender junto nas mesmas condições | Padrão. Protege investidor minoritário |
-| **Drag-along** | Maioria pode obrigar todos a vender se houver oferta de aquisição | Necessário para viabilizar M&A. Verifique threshold: geralmente 70–75% |
+| **Obrigação de venda conjunta (*drag-along*)** | Quórum que permite obrigar todos os sócios a venderem suas participações em uma aquisição aprovada | Indispensável para dar segurança jurídica ao comprador em M&A; no mercado brasileiro de VC, exija quórum qualificado (tipicamente 67% a 75% do capital votante/preferencial) e piso mínimo de valor |
 
 ##### Termos principais do Term Sheet
 
 | Cláusula do Term Sheet | O que define na prática | Ponto de atenção na negociação |
 |---|---|---|
 | **Vesting dos fundadores** | Agenda de consolidação das ações dos fundadores, geralmente reset parcial na rodada | 4 anos / 1 ano cliff é padrão. Crédito por tempo já trabalhado é negociável |
-| **Exclusividade** | Período em que você não pode negociar com outros investidores | 30–45 dias é razoável. 90+ dias é excessivo |
+| **Exclusividade (*no-shop*)** | Período em que os fundadores ficam impedidos de negociar com outros fundos | No padrão praticado no Brasil (guias ABVCAP/Anjos do Brasil), 30 a 45 dias é o intervalo usual; prazos de 60 a 90+ dias travam a empresa sem garantia de fechamento |
 | **Condições precedentes** | O que precisa acontecer antes do closing (due diligence, aprovação regulatória) | Liste itens específicos: condição genérica ("a critério do investidor") é perigosa |
 | **No-shop** | Proibição de solicitar outras ofertas enquanto o term sheet está ativo | Padrão. Garanta que tem saída se o investidor não fechar no prazo |
 | **Break-up fee** | Penalidade se alguma das partes desistir sem causa justa | Pouco comum em Brasil. Se houver, deve ser simétrico |
@@ -1491,7 +1502,7 @@ Regras:
 | Deck de pitch v1 (10–12 slides) | `[Nome]` | `[___]` | `[ ]` |
 | One-pager executivo | `[Nome]` | `[___]` | `[ ]` |
 | Modelo financeiro: projeções 24–36 meses + premissas | `[Nome]` | `[___]` | `[ ]` |
-| Data room básico montado (seções 1–4 do Template: Data Room, Checklist de Due Diligence (Fase 14)) | `[Nome]` | `[___]` | `[ ]` |
+| Data room inicial organizado (seções 1 a 4 do Template de Data Room desta fase, adiante) | `[Nome]` | `[___]` | `[ ]` |
 | Lista de investidores alvo: tier 1 (10–15), tier 2 (20–30) | `[Nome]` | `[___]` | `[ ]` |
 | Mapa de warm intros: quem pode apresentar para quem | `[Nome]` | `[___]` | `[ ]` |
 | Narrativa da empresa refinada (SCQA ou Elevator Pitch) | `[Nome]` | `[___]` | `[ ]` |
@@ -1588,14 +1599,14 @@ O [[#CAPÍTULO 3 — MODELAGEM FINANCEIRA OPERACIONAL BOTTOM-UP E PROJEÇÕES PO
 
 ### Por que terceirizar a leitura dos números para o contador deixa a gestão às cegas
 
-O contador produz as demonstrações. O fundador precisa interpretá-las.
+No modelo de Camila, o escritório contábil gera as demonstrações oficiais, mas cabe aos fundadores ler cada linha para decidir contratações, preços e fôlego de caixa.
 
 Delegar a leitura ao contador cria três problemas. Primeiro, o contador responde perguntas feitas, não perguntas que o fundador não sabe que deveria fazer. Segundo, a interpretação estratégica dos números cabe a quem conhece o negócio. O contador conhece normas contábeis. Terceiro, em reunião de conselho ou conversa com investidor, o fundador que não sabe explicar sua própria DRE perde credibilidade rapidamente.
 
 Leitura de demonstrativos não cabe apenas ao diretor financeiro (CFO); é responsabilidade direta do fundador: o CFO aprofunda a análise, mas a decisão de alocação de caixa continua sendo sua.
 
-> [!important] O número que o contador relata e o número que importa para decisão podem ser diferentes
-> DRE fiscal é produzida para a Receita Federal. DRE gerencial é produzida para decisão interna. Em empresas no Simples Nacional, as duas divergem significativamente. Ver seção sobre contexto brasileiro ao final deste capítulo.
+> [!important] Demonstração contábil fiscal versus demonstrativo gerencial de decisão
+> A DRE fiscal atende às regras da Receita Federal, enquanto a DRE gerencial organiza receitas, custos diretos e despesas por área para guiar a gestão semanal; em empresas optantes pelo Simples Nacional ou com receita diferida, conciliar as duas visões evita decisões no escuro.
 
 ---
 
@@ -1953,7 +1964,7 @@ Sem esse ajuste, a "margem bruta" calculada da DRE fiscal no Simples pode estar 
 
 **DRE societária vs. DRE para gestão.**
 
-A DRE societária segue CPC e é entregue formalmente. A DRE para gestão pode ter ajustes específicos da empresa: tratamento de stock options (IFRS 2), capitalização de software desenvolvido internamente, ou segregação de receita por linha de produto. As duas são válidas para seus fins. O fundador precisa saber qual está lendo.
+A DRE societária segue os pronunciamentos do CPC e sustenta a prestação de contas formal: pelo **CPC 10 (IFRS 2)**, planos de opção de ações ou instrumentos patrimoniais outorgados a colaboradores devem ter seu valor justo reconhecido como despesa ao longo do período de *vesting* em contrapartida ao patrimônio líquido (o que preserva a natureza mercantil do plano depende da onerosidade e do risco de mercado no desenho contratual, e não de omitir o registro contábil). Já a DRE gerencial detalha margens por produto e coorte para orientar a alocação de capital.
 
 ---
 
@@ -2008,7 +2019,7 @@ Chamamos esse ponto cego de **O Degrau Tributário** (que na operação de Bia e
 
 A [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18 (Vol. 8)]] cobre constituição da empresa, cap table e contratos. Este capítulo aprofunda o que muitos fundadores brasileiros aprendem errado ou tarde. Contabilidade e tributação como disciplinas operacionais. Erros aqui podem gerar passivos de R$ 5 a R$ 50 milhões, descobertos em due diligence, e fazer exit desmoronar por questões que custariam R$ 50 mil para prevenir.
 
-### Por que uma escolha errada de regime fiscal em janeiro pode destruir 100% do seu EBITDA no ano
+### O impacto do regime tributário na margem operacional e quando revisar a opção anual
 
 Due diligence em M&A, ou captação, descobre tudo. Dívida oculta, passivo contingente, e crédito tributário não reconhecido. Tudo vira ajuste no valor. O comprador sério sai do deal, ou quer desconto.
 
@@ -2019,7 +2030,7 @@ Benefícios fiscais exigem documentação rigorosa. Lei do Bem, incentivos regio
 > [!important] Planejamento tributário aumenta margem
 > Planejamento tributário bem-feito aumenta a margem líquida em 2% a 8% em operações de SaaS ou tecnologia, com impacto direto no caixa e no *valuation*.
 
-### A simulação na ponta do lápis: calculando o ponto de indiferença entre Simples, Presumido e Real
+### Como simular na prática o ponto de transição entre Simples Nacional (Fator R), Lucro Presumido e Lucro Real
 
 #### 1. Regimes tributários brasileiros, escolha consciente
 
@@ -2032,7 +2043,7 @@ Três regimes principais. Simule a escolha entre outubro e novembro, mas observe
 **Lucro Real (obrigatório acima de R$ 78 milhões por ano, ou atividades específicas).** IRPJ quinze por cento, mais dez por cento de adicional sobre acima de R$ 20 mil por mês de lucro. CSLL nove por cento sobre lucro. PIS/Cofins não cumulativo (9,25% combinado, com créditos). ISS municipal. Vantagens. Tributação sobre lucro real. Permite aproveitamento de prejuízos. Créditos amplos. Desvantagens. Complexidade. Auditoria fiscal rigorosa.
 
 > [!tip] Regra prática para regime
-> Faturamento menor que R$ 2 milhões por ano, e margem alta. O Simples tende a vencer. R$ 2 a R$ 10 milhões por ano, com margem média (tech SaaS típico). O Lucro Presumido frequentemente vence. Qualquer faturamento com margem baixa, ou alto volume de custos dedutíveis. O Lucro Real vale simulação.
+> Como regra prática para orientar a simulação anual (comparando o Simples Nacional nos Anexos III e V pelo Fator R de 28% contra o Lucro Presumido com 20% de CPP patronal sobre a folha): até R$ 1,5 milhão a R$ 2 milhões de faturamento anual com folha enxuta ou enquadrada no Anexo III, o Simples costuma ser mais vantajoso; entre R$ 2 milhões e R$ 10 milhões com margem alta e folha moderada, o Lucro Presumido tende a reduzir a carga; já operações em queima de caixa, margem apertada ou alto volume de créditos de PIS/Cofins (e da CBS a partir de 2027) e P&D (Lei do Bem) devem simular o Lucro Real.
 
 > [!warning] Simulação obrigatória
 > Rodar cálculo do próximo ano em cada regime, antes de escolher. Diferenças de R$ 200 a R$ 500 mil por ano, em empresa de R$ 10 milhões de faturamento, são comuns.
@@ -2053,7 +2064,8 @@ gantt
  todayMarker off
 
  section Sistema atual
- ICMS, ISS, PIS, Cofins, IPI :active, a1, 2023, 2033
+    PIS e Cofins (extintos em 2027 com entrada da CBS) :active, a1, 2023, 2027
+    ICMS e ISS (transição gradual para o IBS até 2032) :active, a2, 2026, 2033
 
  section Transição
  2026 - Teste sem cobrança (CBS + IBS) :milestone, t1, 2026, 1d
@@ -2161,18 +2173,18 @@ Nesse caso, tributação como salário. 7,5 a 27,5% na tabela progressiva, mais 
 
 **Benchmark de tamanho de ESOP.** Startups em seed. Pool de dez a quinze por cento, reservado para funcionários. Série A. Ampliar para quinze a vinte por cento. Série B a C. Vinte a vinte e cinco por cento. Na alocação individual típica por cargo (referências Carta e Index Ventures): executivos-chave (diretoria C-level contratada pós-Seed/Série A) recebem de 0,5% a 3% individualmente; engenheiros seniores e lideranças técnicas, de 0,1% a 0,5%; e primeiros funcionários (entre o 5º e o 20º contratado), de 0,5 a dois por cento individual.
 
-#### 4. Benefícios fiscais para startup
+#### 4. Panorama de incentivos fiscais aplicáveis a startups (detalhados no Capítulo 3)
 
 **Lei do Bem (Lei 11.196/2005).** Empresas no **Lucro Real** e com lucro tributável no ano podem deduzir os dispêndios operacionais de P&D (100% como despesa normal) e aplicar uma **exclusão adicional de 60% a 80% da base de cálculo do IRPJ e da CSLL** (chegando a até 100% no caso de patente concedida), sem exigir aprovação prévia do projeto pelo MCTI (basta o envio do relatório anual FORMP&D até 31 de julho do ano subsequente; ver detalhamento no Capítulo 3). Exige apuração pelo Lucro Real, regularidade fiscal, dossiê técnico que comprove o dispêndio em inovação tecnológica e controle de horas por projeto junto ao MCTI. Benefício típico: R$ 200 mil a R$ 2 milhões de redução anual de imposto em startups de tecnologia com faturamento entre R$ 30 milhões e R$ 150 milhões.
 
-> [!warning] Lei do Bem sem documentação
-> Sem documentação rigorosa, a autuação é garantida.
+> [!warning] Exigência de dossiê técnico para a Lei do Bem
+> A fruição dos incentivos da Lei do Bem (Lei nº 11.196/2005, analisada em profundidade no Capítulo 3) exige Lucro Real, regularidade fiscal (CND/CPEND) e memória técnica contemporânea de cada projeto de P&D para evitar glosa em fiscalização.
 
-**Regionais (SUDAM, SUDENE, ZFM).** SUDAM (Norte), e SUDENE (Nordeste), oferecem redução de IRPJ para empresas em regiões específicas. Até setenta e cinco por cento de redução, por dez anos. Zona Franca de Manaus tem regime próprio (industrial, com vantagens especiais para eletrônicos).
+**Incentivos regionais (SUDAM, SUDENE e Zona Franca de Manaus):** empreendimentos habilitados nas áreas da SUDAM (Norte) e da SUDENE (Nordeste) contam com redução de até 75% do IRPJ e adicionais não restituíveis pelo prazo de 10 anos, enquanto a Zona Franca de Manaus oferece regime fiscal e aduaneiro próprio para operações industriais e de tecnologia.
 
-**Setoriais.** Audiovisual. Lei do Audiovisual (Ancine). Cultura. Lei Rouanet. Inovação. Editais BNDES, FINEP, e FAPESP (combinam bem com Lei do Bem).
+**Incentivos setoriais e subvenções de fomento:** projetos específicos podem acessar mecanismos setoriais (como Lei do Audiovisual e Lei de Informática) e linhas de subvenção econômica e crédito à inovação da FINEP, do BNDES e de fundações estaduais como a FAPESP, detalhadas nos Capítulos 3 e 17.
 
-**Incentivos estaduais.** Vários estados têm programas de atração (Minas, Paraná, RS, Ceará). Vale a pena pesquisar, se expansão geográfica for opção.
+**Programas estaduais e municipais de inovação:** diversos estados (como Minas Gerais, Paraná, Rio Grande do Sul, Santa Catarina e Pernambuco) e municípios mantêm regimes especiais de ICMS, redução de ISS para exportação ou polos tecnológicos e editais locais que devem entrar na conta ao planejar a abertura de filiais.
 
 #### 5. Rotinas operacionais mensais
 
@@ -2520,7 +2532,7 @@ Empresa Operacional (Ltda. ou S.A.)
 **Impacto tributário:** Atenção: os royalties pagos pela empresa operacional a sócios (PF ou PJ) ou dirigentes não são dedutíveis no Lucro Real (Lei 4.506/1964, art. 71, parágrafo único, "d", e RIR/2018, art. 363, I); quando a detentora da marca ou software figura no quadro societário da pagadora, o abatimento é vedado, e mesmo entre sociedades irmãs a operação exige registro no INPI, propósito negocial e valor de mercado (lembrando ainda que, desde janeiro de 2026, o repasse mensal de dividendos acima de R$ 50 mil por fonte pagadora a um mesmo beneficiário individual sofre retenção de 10% na fonte pela Lei 15.270/2025). Na holding de IP, os royalties recebidos são tributados: mas com possibilidade de distribuição posterior de lucros com isenção de IRPF para o sócio pessoa física, se a holding for lucro presumido ou real com distribuição de lucros.
 
 > [!warning] Preço de transferência em royalties intragrupo
-> A Receita Federal fiscaliza contratos de royalties entre empresas do mesmo grupo (preço de transferência). O valor cobrado precisa ser compatível com o mercado e documentado. Royalties artificialmente inflados para transferir lucro da operação para a holding são desconsiderados.
+> A legislação brasileira veda a dedutibilidade de royalties pagos a sócios (pessoas físicas ou jurídicas) ou dirigentes da empresa (Lei nº 4.506/1964, art. 71, parágrafo único, "d"): se a holding detentora da marca ou do software for sócia da operacional, a despesa será glosada no Lucro Real. Estruturas de licenciamento intragrupo exigem sociedades sem relação direta de participação proibida em lei, propósito negocial comprovável, registro no INPI e laudo de valor de mercado.
 
 #### Holding e redução de carga no exit
 
@@ -2619,7 +2631,7 @@ Esta é a decisão de planejamento tributário mais cotidiana e mais mal executa
 **A estratégia:** Em empresas lucrativas, a calibragem depende do regime: no Simples Nacional, ajuste o pró-labore dos sócios (sobre o qual incide retenção de 11% de INSS até o teto previdenciário e tabela progressiva de IRPF até 27,5%) para garantir que a folha total atinja os 28% da receita exigidos pelo Fator R (Anexo III); já no Lucro Presumido e no Lucro Real, onde incide mais 20% de INSS patronal sobre o pró-labore, compare esse custo com as regras vigentes de distribuição de lucros e dividendos. A economia em INSS e IRPF pode ser relevante.
 
 > [!important] Atenção à Reforma Tributária da Renda
-> Há proposta em tramitação de tributar dividendos distribuídos a pessoas físicas. O cenário de isenção total sobre distribuição de lucros pode mudar. Acompanhar com tributarista.
+> A partir de janeiro de 2026, a **Lei nº 15.270/2025** instituiu a retenção na fonte de 10% de IRPF sobre dividendos pagos por uma mesma pessoa jurídica a uma mesma pessoa física que superem R$ 50 mil no mês, além do Imposto de Renda Pessoa Física Mínimo (IRPFM) anual com alíquota progressiva de até 10% para rendas globais acima de R$ 600 mil no ano (atingindo 10% a partir de R$ 1,2 milhão). Calibre a proporção entre pró-labore, lucros distribuídos e reserva de lucros junto ao tributarista.
 
 ### Onde empresas saudáveis criam passivos milionários: pejotização com subordinação, enquadramento de CNAE e retenções na fonte
 
@@ -2643,12 +2655,12 @@ Não reconhecer prejuízos fiscais acumulados (Lucro Real). Podem compensar lucr
 
 ### Checklist de higiene tributária e escolha anual de regime fiscal
 
-Disciplina fiscal no padrão quando o contador externo especializado entrou desde dia um, o regime tributário foi escolhido com simulação anual, o fechamento mensal sai em dez dias úteis ou menos, não há pendência em Receita, Estado, Município ou INSS, stock options têm desenho de tributarista, e benefícios fiscais aplicáveis estão mapeados e em uso. Os itens abaixo sustentam isso.
+A operação atinge maturidade contábil e fiscal quando conta com assessoria especializada desde o início, escolhe o regime tributário mediante simulação formal de cenários, entrega o fechamento gerencial até o 5º dia útil e o contábil até o 10º dia útil do mês seguinte, mantém certidões negativas em dia nas três esferas, estrutura planos de incentivos de longo prazo com respaldo jurídico e documenta o uso de incentivos fiscais aplicáveis.
 
 - [ ] Contador especializado em startup contratado.
-- [ ] Regime tributário escolhido com simulação formal do próximo ano (outubro a dezembro).
-- [ ] Fechamento contábil mensal acontece em igual ou menor que dez dias úteis.
-- [ ] Obrigações acessórias (DCTF, eSocial, SPED, ECF, ECD) em dia.
+- [ ] Simulação tributária comparativa concluída entre outubro e novembro, preparando a opção irretratável do ano seguinte (Simples Nacional formalizado até o último dia útil de janeiro; Lucro Presumido ou Real definido no pagamento do primeiro DARF de IRPJ/CSLL do exercício).
+- [ ] Fechamento gerencial concluído até o 5º dia útil e fechamento contábil entregue até o 10º dia útil de cada mês.
+- [ ] Obrigações acessórias em dia: eSocial, EFD-Reinf, DCTFWeb integrada ao MIT, EFD-Contribuições e EFD ICMS/IPI (conforme o regime), ECD e ECF anuais, além da NFS-e nacional com destaque dos campos de IBS e CBS exigidos desde 2026.
 - [ ] Plano de stock options, se houver, foi revisado por tributarista.
 - [ ] Benefícios fiscais aplicáveis (Lei do Bem, SUDAM, ou SUDENE, regionais) mapeados.
 - [ ] Separação clara de pessoal, e empresarial, com políticas escritas.
@@ -2687,7 +2699,7 @@ Em *High Output Management*, Andy Grove ensinava a gerir uma operação como uma
 ---
 
 > [!note] Nota de validade
-> A estrutura de modelagem financeira (três demonstrações, drivers e cenários) é estável ao longo de décadas. O que evolui são as ferramentas (Excel, depois Google Sheets, depois modelos em notebook Python ou R, depois Runway, Causal, Anaplan para escala), os padrões de revenue recognition (reconhecimento de receita pelo IFRS 15) e as métricas SaaS específicas em evolução. Revisar anualmente.
+> Os fundamentos da modelagem em três demonstrações integradas por alavancas operacionais permanecem estáveis há décadas. O que evolui são as plataformas de planejamento colaborativo (do Excel e Google Sheets para ferramentas como Abacum, Pigment, Runway e, em porte corporativo, Workday Adaptive Planning e Anaplan), as normas de reconhecimento de receita (CPC 47 / IFRS 15) e os referenciais de eficiência de capital.
 
 Para revisar a estrutura contábil das três demonstrações (DRE, Balanço Patrimonial e DFC), consulte o [[#CAPÍTULO 1 — DEMONSTRATIVOS FINANCEIROS PARA O FUNDADOR|Capítulo 1: Demonstrativos Financeiros para o Fundador]] (casa canônica). Este capítulo trata especificamente da modelagem operacional a partir de drivers, integração das três demonstrações projetadas, cenários (base, upside, downside) e análise de sensibilidade.
 
@@ -2695,7 +2707,7 @@ Vários pontos do manual mencionam "modelo financeiro": [[IGNICAO-Vol-4-Tracao-e
 
 Este capítulo cobre modelagem financeira como disciplina. Estrutura, drivers (variáveis que dirigem o modelo), cenários, análise de sensibilidade e como usar o modelo como instrumento de decisão operacional, não só como deliverable (entregável) para investidor.
 
-### Por que puxar uma fórmula de crescimento no Excel sem lastro operacional cega o gestor e destrói credibilidade
+### Por que projetar crescimento linear na planilha sem lastro em alavancas operacionais compromete a credibilidade da gestão
 
 Modelo financeiro é instrumento de pensamento, não só documento. Forçar-se a escrever equações entre variáveis força clareza sobre o que move o negócio.
 
@@ -2708,7 +2720,7 @@ Board e investidores esperam visibilidade do plano financeiro em cada trimestre.
 > [!important] Modelo expõe fragilidades
 > O modelo expõe fragilidades do plano, antes de serem expostas pela realidade. Melhor descobrir que LTV (Lifetime Value, valor do cliente ao longo do tempo) não cobre CAC em planilha do que depois de gastar R$ 5 milhões tentando.
 
-### Arquitetura em abas: Premissas, Motor de Receita, Headcount Plan, Custos Diretos e 3 Demonstrativos
+### Arquitetura em sete abas integradas: Premissas, Motor de Receita, Plano de Pessoal, Custos Diretos e Três Demonstrativos
 
 #### 1. Estrutura básica, três demonstrações integradas
 
@@ -2768,7 +2780,7 @@ Integração. Lucro líquido do DRE vai para patrimônio no balanço. Mudança e
 #### 2. Drivers operacionais, o coração do modelo
 
 > [!important] Princípio do modelo
-> Receita, custos, e caixa, NÃO são inputs. São outputs calculados de drivers operacionais.
+> Receita, custos e saldo de caixa **não são dados digitados manualmente**: são resultados calculados a partir das alavancas operacionais (*drivers*) do negócio.
 
 **Drivers de receita (SaaS B2B exemplo).**
 
@@ -2807,13 +2819,13 @@ CAC = Sales & Marketing / novos logos
 
 #### 3. Horizonte temporal
 
-Para startup em early-mid stage. Mês a mês, próximos vinte e quatro meses. Trimestre a trimestre, meses 25 a 36. Ano a ano, anos quatro, e cinco.
+Para startups em estágio inicial ou de tração, estruture o horizonte temporal em três camadas: projeção mensal detalhada para os primeiros 24 meses, visão trimestral do mês 25 ao mês 36 e consolidação anual para os anos 4 e 5.
 
 Por que. Decisões de curto prazo (contratações, e captação) acontecem em cadência mensal. Decisões estratégicas (expansão, e M&A) em cadência anual.
 
 Horizonte mais longo que cinco anos tende a ser exercício de criatividade. Não planejamento. Pode aparecer em pitch de Série A em diante, como "potencial de mercado em dez anos". Separado do modelo operacional.
 
-#### 4. Cenários, base, upside, e downside
+#### 4. Simulação em três cenários: Base, Aceleração (*Upside*) e Estresse (*Downside*)
 
 **Cenário Central do Modelo (P50, distinto do orçamento comprometido de P70 a P80 aprovado pelo conselho no Capítulo 6).** Hipóteses centrais realistas para projeção de longo prazo, com probabilidade de cerca de 50% (enquanto o orçamento anual de despesas do Capítulo 6 é travado de forma mais conservadora, para ser batido em 70% a 80% dos casos). Métricas de PMF mantidas. Crescimento moderado. CAC estável.
 
@@ -2839,7 +2851,7 @@ Exemplo (partindo de R$ 2,4M de ARR inicial, adição bruta constante de novos c
 | 4% | 17 meses | R$ 33M |
 | 5% | 13 meses | R$ 27M |
 
-Revelação comum. Um a dois pontos percentuais a mais em churn destrói runway. Porque a receita recorrente é fundamentalmente multiplicativa no tempo.
+A análise de sensibilidade costuma revelar que uma variação de 1 a 2 pontos percentuais no cancelamento mensal (*churn*) encurta drasticamente o fôlego de caixa, pois o efeito da retenção sobre a receita recorrente é cumulativo mês após mês.
 
 Principais variáveis de sensibilidade em SaaS: *churn* (cada ponto percentual altera a curva de retenção), ACV médio, CAC, ritmo de contratações (*headcount burn*) e janela da captação (postergar ou antecipar a rodada em seis meses altera de forma expressiva a necessidade de caixa e a diluição).
 
@@ -2859,7 +2871,7 @@ Processo mensal (sete a dez dias úteis após fim do mês).
 
 1. Import de dados reais. CRM (MRR), contábil (despesas), e banco (caixa).
 2. Comparação plan versus actual. Variações por linha.
-3. Explicação de variações significativas (maior que dez por cento). Por que S&M estourou? Por que churn subiu?
+3. **Escada de análise de desvios (alinhada ao Capítulo 6):** variação mensal acima de 5% exige justificativa documentada; desvio acima de 10% requer diagnóstico de causa raiz e plano corretivo; e divergência superior a 15% por dois meses seguidos dispara a revisão formal da projeção (*reforecast*).
 4. Forecast re-run. Próximos doze a vinte e quatro meses, com dados atualizados.
 5. Apresentação a liderança, ou board. Mudanças significativas de trajetória discutidas.
 
@@ -2901,15 +2913,15 @@ Um modelo financeiro bem construído deve calcular automaticamente quatro indica
 
 Tempo para atualizar modelo mensalmente. Alvo igual ou menor que três dias úteis.
 
-Divergência plan versus actual em linhas-chave. Igual ou menor que quinze por cento, em média móvel de três meses.
+**Desvio entre orçado e realizado (*plan vs. actual*) nas linhas críticas:** mantido abaixo de 10% na média móvel trimestral, acionando revisão formal (*reforecast*) sempre que a divergência superar 15% por dois meses consecutivos.
 
-Cobertura de drivers. Cem por cento dos números em DRE saem de drivers. Zero por cento digitados.
+**Cobertura integral por alavancas (*drivers*):** 100% das linhas projetadas na DRE, no Balanço e no Fluxo de Caixa nascem de fórmulas conectadas à aba de premissas, com 0% de valores fixos digitados no meio das células.
 
-Cenários atualizados. Base, upside, e downside, revisados a cada ciclo de planning (trimestral).
+**Três cenários vivos:** cenários Base, Aceleração (*Upside*) e Estresse (*Downside*) revisados a cada fechamento trimestral.
 
-Integração DRE-Balanço-FC. Automática. Não manual.
+**Integração contábil automática:** DRE, Balanço Patrimonial e Fluxo de Caixa conectados dinamicamente por fórmulas, com verificação automática de fechamento do balanço.
 
-Tempo de resposta a pergunta de investidor sobre modelo. Igual ou menor que vinte e quatro horas, com cenário rodado.
+**Agilidade de simulação para o conselho e investidores:** capacidade de rodar e responder a qualquer pergunta de sensibilidade sobre o modelo em até 24 horas.
 
 ---
 
@@ -2923,13 +2935,13 @@ Planilha, ou tool. Looker, Tableau, Power BI, Amplitude, Mixpanel, ou Excel para
 
 **Passo 2: identificar padrões de cohort curves.**
 
-Padrões típicos em SaaS B2B.
+Veja como o formato da curva de retenção das coortes revela a presença (ou ausência) de *Product-Market Fit* em negócios de receita recorrente:
 
-Curva "J" (ideal). Cai um pouco nos primeiros meses (alguns cancelam após trial). Estabiliza. Depois sobe por expansão. Final após vinte e quatro meses, cento e dez a cento e quarenta por cento do inicial.
+**Curva em "J" (padrão saudável de expansão):** a retenção recua levemente nos primeiros meses com a saída de clientes fora do perfil ideal, estabiliza em um platô e passa a subir impulsionada pela expansão de receita nas contas ativas, encerrando o mês 24 entre 110% e 140% da receita inicial da coorte.
 
 Curva "plateau". Curva em platô: cai para cerca de 80% nos primeiros 12 meses e depois estabiliza. A retenção bruta acumulada da safra estaciona em 80%, o que significa que o NRR anual daquela coorte é de 80% no primeiro ano, mas passa a ficar próximo de 100% do segundo ano em diante. Padrão saudável em SaaS voltado a PMEs. SaaS comum em SMB.
 
-Curva "decay". Cai continuamente, sem estabilizar. Setenta por cento aos doze meses. Cinquenta por cento aos vinte e quatro. Problema estrutural de retention. Típico em D2C de assinatura, com produto commodity.
+**Curva de decaimento contínuo:** a retenção cai mês após mês sem formar platô, recuando para 70% em 12 meses e 50% em 24 meses, o que evidencia falha estrutural de retenção típica de produtos sem diferenciação.
 
 Curva "J invertida". Sobe nos primeiros meses, e cai depois. Sinal de que o aha moment é rápido, mas o produto não sustenta valor de longo prazo.
 
@@ -2957,7 +2969,7 @@ Receita do mês X é soma das cohorts ativas.
 
 `MRR(t) = MRR remanescente das safras anteriores + MRR da nova safra no mês t`.
 
-Em planilha, tipicamente. Linha, mês. Colunas, cohorts (cohort jan/24, fev/24, mar/24, etc.). Cada célula, MRR da cohort Y no mês X.
+Na planilha, organize cada linha (ou coluna) como uma **coorte** mensal de entrada (coorte jan/2024, fev/2024, mar/2024) e distribua nas colunas o tempo decorrido desde a aquisição (Mês 0, Mês 1, Mês 2 em diante), preenchendo cada célula com o MRR ou o percentual retido daquela coorte no respectivo mês.
 
 Safra jan/24 em jan/24 = MRR inicial; safra jan/24 em fev/24 = `MRR inicial × taxa de retenção (%)`; safra fev/24 em fev/24 = MRR inicial de fev/24, e assim sucessivamente. A soma de todas as safras ativas em cada coluna resulta no `MRR total do mês`.
 
@@ -2987,25 +2999,25 @@ Runway em cada cenário. Decisões disparadas por cada cenário. Ponto de no-ret
 
 ### Sinais Operacionais que Só a Modelagem por Coortes Revela
 
-**Sinal 1, retention melhorando entre cohorts.** Cohort 2023 estava em oitenta por cento no mês doze. Cohort 2024 está em oitenta e sete por cento no mês doze. O produto está melhorando. O onboarding evoluiu. O ICP (Ideal Customer Profile) está mais afinado. Sinal bom.
+**Sinal 1: evolução da retenção entre safras sucessivas.** Se a coorte de 2023 retinha 80% no mês 12 e a coorte de 2024 alcançou 87% no mesmo marco, há evidência concreta de que a integração inicial (*onboarding*), o produto e o recorte do cliente ideal (ICP) evoluíram.
 
 **Sinal 2, retention piorando entre cohorts.** Safra de 24 meses atrás com retenção de 85% no primeiro ano; safra de 12 meses atrás em 75%; safra recente projetando 70%. Algo estrutural piorando. Pode ser. Cliente errado entrando (canal pago mais agressivo trazendo ICP errado). Concorrência crescente. Produto estagnado. Onboarding pior. Diagnóstico urgente.
 
-**Sinal 3, expansão concentrada em poucos cohorts.** Oitenta por cento da expansão vem de cohorts pré-2020. Cohorts novos não estão expandindo. Pode significar. Mercado de SMB tem menos headroom. Novo produto não está sendo comprado por clientes novos. Upsell depende de relacionamento de longo prazo.
+**Sinal 3: expansão concentrada apenas nas safras antigas.** Quando 80% da receita de expansão provém de coortes anteriores a 2020 e as safras recentes não expandem, investigue se os novos clientes têm menor porte (menor espaço para crescimento de conta), se os módulos adicionais deixaram de ser ofertados na jornada ou se a venda adicional exige anos de maturação.
 
-**Sinal 4, churn concentrado em um segmento.** A segmentação revela. Cohorts de clientes adquiridos via ad pago têm churn três vezes maior que orgânico. O CAC justifica esse churn? Se não, o canal está destruindo valor. Com cohort segmentado, fica claro. Sem, invisível.
+**Sinal 4: cancelamento concentrado em um canal específico.** Abrir a coorte por canal de aquisição frequentemente revela que clientes trazidos por mídia paga cancelam à razão de 3x a taxa do canal orgânico, mostrando com clareza onde o custo de aquisição destrói valor.
 
-**Sinal 5, payback aumentando.** CAC payback em cohort 2022 era catorze meses. Em 2024 é vinte e dois meses. O custo de aquisição cresceu mais rápido que LTV. Economia piorando. A empresa cresce ARR, mas perde dinheiro por cliente marginal.
+**Sinal 5: alongamento do tempo de retorno do CAC (*payback*).** Se o retorno do investimento comercial subiu de 14 meses na coorte de 2022 para 22 meses na safra de 2024, o custo de aquisição cresceu mais rápido que a margem gerada e a empresa queima caixa a cada cliente marginal.
 
 ---
 
 ### Alocação de Capital e Decisões Baseadas em Coortes
 
-**Decisão 1, investir ou não em canal.** Canal X tem CAC alto, mas cohort curve forte (NRR cento e trinta por cento). Payback longo. LTV alto. Investir. Canal Y tem CAC baixo, mas cohort curve ruim (NRR oitenta por cento). Payback curto. LTV baixo. Cuidado com escalada.
+**Decisão 1: alocar ou cortar verba por canal.** Um canal com CAC elevado, mas curva de coorte ascendente (NRR de 130%) e alto valor vitalício, merece capital paciente; já um canal de aquisição barata cuja coorte encolhe para 80% de NRR destrói margem se for escalado sem correção.
 
 **Decisão 2: segmentar produto.** A abertura por safra e plano revela: plano Básico com NRR de 75%, plano Pro com NRR de 115% e plano Enterprise com NRR de 140%. Conclusão: concentrar aquisição e migração nos planos Pro e Enterprise e redesenhar ou restringir o plano Básico.
 
-**Decisão 3, foco geográfico.** Cohort por geografia. BR NRR cento e dez por cento. LatAm NRR noventa e cinco por cento. US NRR cento e vinte e cinco por cento. Expansão US (apesar de difícil) parece mais rentável que LatAm.
+**Decisão 3: priorização geográfica.** Ao separar as coortes por região (por exemplo, Brasil com NRR de 110%, América Latina com 95% e Estados Unidos com 125%), fica visível qual praça sustenta maior expansão líquida após o custo inicial de entrada.
 
 **Decisão 4, preço.** Os clientes da coorte que entraram com desconto comercial de 20% ou mais apresentam taxa de cancelamento duas vezes maior do que a base que pagou preço cheio. O desconto está atraindo cliente errado. O cliente não vê valor real. Revisar política de desconto.
 
@@ -3056,7 +3068,7 @@ Modelagem financeira saudável quando o modelo operacional existe com três demo
 
 > [!tip] O Espelho do Gestor (Autodiagnóstico Rápido)
 > 1. **O Teste da Célula de Receita:** Abra a sua planilha financeira agora e clique na célula de receita prevista para daqui a seis meses. Ela é resultado de uma multiplicação física (Leads Qualificados × Taxa de Conversão × Ticket Médio ou Vendedores Rampados × Quota Realista) ou é apenas a célula anterior multiplicada por uma porcentagem arbitrária?
-> 2. **A Travessia do Ramp-Up:** O seu modelo considera que um vendedor recém-contratado no Brasil leva de 3 a 6 meses para atingir 100% da meta e que 25% das contratações comerciais não performam, ou você assume produtividade máxima desde o dia 1?
+> 2. **A Travessia do Ramp-Up:** O seu modelo incorpora que um executivo de contas B2B no Brasil leva de 3 a 6 meses para atingir 100% da meta (gerando novo ARR acima do próprio custo mensal somente após essa maturação, salvo em vendas transacionais de ciclo curtíssimo) e que cerca de 25% das contratações comerciais não performam?
 > 3. **A Fricção Brasileira nos Custos:** Sua aba de pessoal multiplica o salário nominal por 1,7x a 1,9x para refletir encargos CLT, férias, 13º e benefícios reais, ou você lançou apenas o salário líquido da proposta?
 >
 > **Regra de bolso:** Um modelo financeiro só serve para alguma coisa se você puder apontar para cada linha de receita e dizer o nome da pessoa, do canal e da capacidade instalada que vão entregá-la.
@@ -3072,7 +3084,7 @@ Modelagem financeira saudável quando o modelo operacional existe com três demo
 
 Em Curitiba, **Henrique** lembra com amargura do primeiro "Orçamento Anual" que tentou implantar na sua empresa de automação industrial e telemetria agrícola. Em dezembro, ele trancou os líderes de engenharia, vendas e operações numa sala de hotel por dois dias inteiros. Saíram de lá com uma planilha impecável de doze meses, aprovada com aplausos. Em fevereiro, uma quebra climática na safra de soja do Mato Grosso atrasou as compras das usinas em noventa dias, e o dólar subiu 11%, encarecendo os sensores importados. Mesmo vendo a receita do primeiro trimestre ficar 38% abaixo do previsto, o diretor de engenharia continuou contratando os quatro desenvolvedores e comprando os lotes de placas previstos na planilha original; quando Henrique cobrou explicações em abril, ouviu a resposta burocrática de que a verba já estava aprovada desde dezembro. No ciclo seguinte, Henrique redesenhou os cinco blocos do seu FP&A (que detalharemos a seguir): indexou a curva de receita à sazonalidade da safra agrícola, modelou o COGS das placas com gatilho de repasse cambial acima de R$ 5,20 e criou uma trava automática de *Rolling Forecast* pela qual nenhuma vaga de engenharia ou compra de lote de sensores é liberada se a receita realizada do trimestre ficar mais de 15% abaixo da meta.
 
-Por que o orçamento anual tradicional mata startups e empresas em crescimento? Porque ele confunde **uma hipótese de navegação** escrita sob condições de dezembro com **um direito adquirido de gastar dinheiro** em abril, independentemente de a receita ter entrado ou não.
+O erro que levou o diretor comercial de Henrique a contratar fora de hora nasce de uma confusão recorrente em empresas em crescimento: tratar **uma premissa de navegação** desenhada em dezembro como **uma autorização automática para gastar caixa** em abril, mesmo quando a receita do primeiro trimestre ficou abaixo do planejado.
 
 Na gestão operacional de empresas em crescimento acelerado, o orçamento anual nunca pode funcionar como uma peça de museu gravada em pedra em dezembro; tratavam como um sistema vivo de freios e válvulas acoplado ao pulso real da operação. Chamamos o erro de Henrique de **A Tirania do Orçamento Cadáver**: seguir executando o plano de despesas de ontem quando o cenário de receitas de hoje já mudou. Instalar um **FP&A (Planejamento e Análise Financeira) e Orçamento Vivo (*Rolling Forecast*)** significa amarrar a liberação de gastos e contratações a gatilhos reais de performance (*triggers*), revisando a rota a cada trimestre com disciplina implacável.
 
@@ -3093,7 +3105,7 @@ Com orçamento aprovado, o time opera com autonomia dentro de limites claros. O 
 
 O orçamento também cria linguagem comum entre fundador, CFO, e board. Quando o resultado sai diferente do esperado, a conversa é sobre desvio do plano: não sobre o que o plano deveria ter sido.
 
-> [!important] Orçamento não é previsão. É compromisso.
+> [!important] Orçamento aprovado funciona como teto condicionado a gatilhos de receita
 > Modelo financeiro é o que você acredita que vai acontecer. Orçamento é o que você se compromete a alcançar: e dentro de quais limites de gasto. Confundir os dois leva a orçamentos que ninguém cumpre, ou a gastos autorizados que ninguém questiona porque "o modelo dizia isso".
 
 ---
@@ -3132,9 +3144,9 @@ flowchart TD
     D --> E["CFO<br>Consolidação e gaps"]
     E --> F{"Gap entre bottom-up<br>e envelope?"}
     F -->|Sim| G["Priorização e cortes<br>por CEO/CFO"]
-    F -->|Não| H["Budget draft"]
+    F -->|Não| H["Minuta de orçamento (Draft)"]
     G --> H
-    H --> I["Board approval"]
+    H --> I["Aprovação no conselho (Board)"]
     I --> J["Budget aprovado<br>comunicado às áreas"]
 ```
 
@@ -3173,7 +3185,7 @@ Para cada área, o headcount plan responde a quatro perguntas:
 4. Qual o salário médio esperado por nível?
 
 ```text
-Exemplo: headcount plan de Engenharia, 2026
+Exemplo: plano de contratações (*headcount plan*) de Engenharia para o orçamento de 2027 (com transição de PIS/Cofins para a CBS simulada na DRE):
 
 Função               | Q1 | Q2 | Q3 | Q4 | Salário médio (bruto)
 ---------------------|----|----|----|----|----------------------
@@ -3292,7 +3304,7 @@ Board aprova crescimento de 120% porque o modelo mostra que é possível. Mas o 
 
 Para evitar pressão, o fundador submete budget que sabe que vai bater. Board fica confortável. Mas a empresa deixa de contratar e investir na janela certa. Concorrente toma o mercado.
 
-**Calibração saudável**: o budget base deve ser alcançável com 70-80% de probabilidade, dado o pipeline e os recursos planejados. Cenário upside existe no modelo, mas não é o budget aprovado. O board aprova o base, não o upside.
+**Separação entre cenário central do modelo e orçamento comprometido:** no modelo financeiro (Capítulo 4) trabalha-se com o cenário central (P50), mas na aprovação anual junto ao conselho o **orçamento comprometido (*budget* base)** deve ser calibrado com 70% a 80% de probabilidade de entrega dado o funil existente, mantendo o cenário acelerado (*upside*) como meta de superação atrelada a gatilhos de receita.
 
 #### O que fazer quando as áreas pedem mais do que a empresa pode dar
 
@@ -3317,7 +3329,7 @@ Processo de priorização:
 ```text
 Comparação típica em dashboard de board:
 
-Linha         | Budget | Q1 Real | Q2 Real | Q3 Fore | Q4 Fore | Full Year Fore | Full Year Budget | Δ%
+Linha         | Orçado | 1T Real | 2T Real | 3T Prev | 4T Prev | Ano Previsto | Ano Orçado | Δ%
 -------------|--------|---------|---------|---------|---------|----------------|------------------|----
 Receita Líq. (Cenário A: trimestre acima da meta) | R$ 3,04M | R$ 720 mil | R$ 800 mil | R$ 850 mil | R$ 920 mil | R$ 3,29M | R$ 3,04M | +8%
 EBITDA       |(5.42M) |(1.35M)  |(1.20M)  |(1.10M)  |(0.95M)  |(4.60M)         |(5.42M)           | +15%
@@ -3328,7 +3340,7 @@ EBITDA       |(5.42M) |(1.35M)  |(1.20M)  |(1.10M)  |(0.95M)  |(4.60M)         |
 Dois gatilhos:
 
 1. **Gatilho temporal**: trimestralmente. No final de Q1, atualizar projeção para o ano completo. Idem Q2 e Q3.
-2. **Gatilho de desvio**: quando qualquer linha-chave (receita ou EBITDA) desvia mais de 10-15% do budget por dois meses consecutivos. Esperar o trimestre acabar para reportar um desvio que já é evidente desde o primeiro mês é gerenciar para trás.
+2. **Gatilho de desvio acumulado:** seguindo a escada única de governança (variação > 5% pede justificativa; > 10% exige causa raiz e plano de ação), sempre que receita ou EBITDA desviar mais de 15% do orçado por dois meses consecutivos, execute imediatamente o *reforecast* sem esperar o fim do trimestre.
 
 #### Rolling forecast vs. budget anual fixo
 
@@ -3352,7 +3364,7 @@ Três princípios para comunicar desvio negativo com credibilidade:
 
 2. **Causa raiz, não desculpa.** "O mercado desacelerou" não é causa raiz. "A taxa de conversão de trial para pago caiu de 18% para 12% em março, investigamos e identificamos problema de onboarding que está sendo corrigido" é causa raiz.
 
-3. **Ação corretiva com prazo.** Desvio sem plano de ação é desorganização. Desvio com plano de ação é gestão. "Estamos cortando R$ 80K de opex no Q3, adiando duas contratações de vendas para Q4, e esperamos fechar o ano R$ 300K abaixo do budget original: com o reforecast aprovado de R$ 2.74M."
+3. **Plano corretivo com prazo e responsável (Cenário B: trimestre de estresse, 10% abaixo da meta):** apresente a resposta operacional já em curso: "Reduzimos R$ 80 mil de despesas operacionais no 3º trimestre, condicionamos duas vagas comerciais ao gatilho de receita do 4º trimestre e revisamos a previsão anual (*reforecast*) para R$ 2,74 milhões (recuo de 10% frente ao orçamento original de R$ 3,04 milhões, preservando 18 meses de caixa)."
 
 ---
 
@@ -3371,7 +3383,7 @@ Para cada linha material do orçamento, o relatório de variação inclui:
 
 Desvio de receita negativo de R$ 200K significa que a empresa vai ter R$ 200K a menos para gastar: e o impacto direto no EBITDA equivale à margem de contribuição dessa receita perdida (com 10% de tributos sobre o faturamento e 63,8% de margem bruta sobre a receita líquida, cada R$ 200 mil a menos de receita bruta retira cerca de **R$ 115 mil do EBITDA e da geração de caixa**).
 
-Desvio de custo positivo (gastou menos que o budget) de R$ 200K pode parecer bom, mas merece análise: foi porque contratações atrasaram? Porque o time não executou o plano de marketing? Economizar custo por não executar o plano não é eficiência: é subexecução.
+Gastar R$ 200 mil abaixo do orçamento planejado exige investigação imediata da causa raiz: se a economia decorreu de atraso em contratações-chave ou da não execução de campanhas comerciais previstas, trata-se de subexecução operacional que cobrará o preço na receita dos trimestres seguintes.
 
 > [!warning] A armadilha de estar "no budget" cortando custo quando receita falha
 > Empresa que corta R$ 500K de opex para compensar R$ 500K de miss de receita pode reportar EBITDA dentro do budget. Mas pagou com três meses de atraso de produto e pipeline de vendas menor. O board vê o número verde. O fundador sabe que o negócio foi para trás. Transparência sobre esse trade-off é parte do trabalho do CEO.
@@ -3393,7 +3405,7 @@ O instrumento correto é simples:
 
 Formalizar budget anual neste estágio é overhead desnecessário. O fundador deve saber o burn de cor, não precisar consultar planilha para responder.
 
-#### Series A: primeiro orçamento formal
+#### Série A: o primeiro orçamento formal aprovado pelo conselho
 
 Com capital de R$ 5-20M e time de 15-40 pessoas, o budget formal se torna necessário. As principais razões:
 
@@ -3403,7 +3415,7 @@ Com capital de R$ 5-20M e time de 15-40 pessoas, o budget formal se torna necess
 
 Estrutura do budget em Series A: DRE simplificada (receita, COGS, despesas por área), headcount plan, e projeção de caixa. Não precisa ser mais sofisticado que isso.
 
-#### Series B+: orçamento por departamento, eficiência como métrica secundária
+#### Série B em diante: orçamento descentralizado por área e metas de eficiência
 
 Com mais de R$ 30M levantados e time de 60-150 pessoas, o budget ganha camadas:
 
@@ -3461,7 +3473,7 @@ Runway (meses)       |   25.0  |   n/a   |         |        |    19.4     |   25
 ```
 
 > [!note] Como usar esse template
-> Preencher mensalmente. Colunas de "Real" são dados do sistema contábil. Colunas de "Forecast" são atualização manual ou do modelo financeiro. A variação percentual de FY é o número que o board vai questionar: ter causa raiz pronta para qualquer variação acima de 5%.
+> Preencha até o 5º dia útil de cada mês: extraia as colunas de "Realizado" da contabilidade gerencial e atualize as colunas de "Previsão" (*Forecast*) no modelo. Siga a escada de governança nas reuniões de conselho: tenha justificativa pronta para qualquer desvio anual acima de 5%, plano de ação corretiva acima de 10% e proposta de *reforecast* quando o desvio superar 15% por dois meses.
 
 ---
 
@@ -3531,7 +3543,7 @@ Para o componente de New ARR, o forecast baseado em pipeline é o método padrã
 Cada estágio do funil de vendas recebe uma probabilidade de fechamento (win rate por estágio), baseada em dados históricos reais: não em intuição:
 
 ```text
-Estágio         | Descrição                              | Win rate típico B2B SaaS
+Estágio         | Evidência verificável no comprador (critério de saída) | Conversão típica B2B SaaS
 ----------------+----------------------------------------+-------------------------
 Prospectado     | Lead identificado, sem contato         | 5-10%
 Qualificado     | BANT/MEDDIC confirmado, dor validada   | 15-25%
@@ -3606,9 +3618,9 @@ Para empresas com menos de dois anos de histórico, usar benchmarks de setor com
 **Síntese prática em PLANEJAMENTO FINANCEIRO (FP&A), ORÇAMENTO E REVENUE...:** Ao incorporar as balizas de *O Espelho do FP&A: Seu Orçamento É um Painel de...* na operação em Curitiba, **Henrique** substituiu decisões reativas por indicadores auditáveis de execução semanal.
 
 > [!tip] O Espelho do Gestor (Autodiagnóstico Rápido)
-> 1. **O Gatilho de Contratação (*Hiring Trigger*):** As novas contratações previstas para o próximo trimestre no seu plano estão condicionadas ao atingimento de metas reais de receita e margem do trimestre atual, ou o RH continua abrindo vagas no piloto automático apenas porque "estava no plano anual"?
+> 1. **O Gatilho de Contratação (*Hiring Trigger*):** As novas vagas previstas para o próximo trimestre só são abertas quando a receita e a margem do trimestre anterior superam o piso mínimo (como 85% do orçado), ou sua operação continua contratando no piloto automático apenas porque constava na planilha anual?
 > 2. **A Prestação de Contas por Dono:** Cada linha relevante da sua DRE tem o nome e o CPF de um líder específico que senta todo mês até o 7º dia útil para explicar qualquer desvio maior que 5% entre o **Orçado** e o **Realizado**?
-> 3. **Visão de 12 Meses à Frente (*Rolling Forecast*):** Quando chega o mês de setembro, a sua equipe enxerga os próximos quatro trimestres rolantes ou só consegue ver até o muro artificial de 31 de dezembro?
+> 3. **Horizonte de Planejamento e Gatilhos Trimestrais:** Até a Série A, você combina o orçamento anual com revisão trimestral (*reforecast*) e gatilhos de liberação de verba (evoluindo para a projeção rolante de 4 trimestres, ou *rolling forecast*, assim que estruturar a área de FP&A) ou ainda navega às cegas até o muro de 31 de dezembro?
 >
 > **Regra de bolso:** Orçamento de despesa é uma permissão condicional, nunca uma promessa garantida. Se a receita realizada do trimestre ficou 15% abaixo da meta, o plano de novas despesas do trimestre seguinte entra em trava automática no mesmo segundo.
 >
@@ -4129,22 +4141,22 @@ em 6 meses                       recorrente - estruture dívida agora
 
 ### Rituais de Tesouraria, 13-Week Rolling Cash Forecast e Gatilhos de Liquidez
 
-#### 1. 13-week rolling cash forecast
+#### 1. Projeção de caixa rolante de 13 semanas (*13-week rolling cash forecast*)
 
 A ferramenta central da tesouraria de curto prazo é o **Fluxo de Caixa Rolante de 13 Semanas (*13-Week Cash Flow*)**: uma planilha com uma coluna para cada uma das próximas treze semanas, abrindo pelo saldo inicial de caixa conciliado na segunda-feira, somando os recebimentos previstos semana a semana (calculados a partir das faturas já emitidas e do comportamento real de atraso dos clientes) e deduzindo todas as saídas programadas com data certa (folha no 5º dia útil, FGTS, DARFs/DAS, aluguel, nuvem e fornecedores), até chegar ao saldo final projetado de cada sexta-feira. Saídas projetadas. Folha, fornecedores, impostos, aluguel, etc. Caixa final da semana.
 
-Atualizar toda segunda-feira.
+Atualize a planilha toda segunda-feira pela manhã com os saldos bancários reais conciliados (aplicando na rotina semanal a estrutura detalhada no Capítulo 8).
 
-> [!important] Trigger imediato
-> Se em qualquer semana das treze o caixa fica negativo, ação imediata necessária.
+> [!important] Gatilho de ação imediata na janela de 13 semanas
+> Se a projeção apontar saldo de caixa abaixo do piso de segurança em qualquer uma das 13 semanas à frente, acione imediatamente o plano de contenção e renegociação antes que a ruptura ocorra.
 
-#### 2. DSO, DPO, DIO (dias)
+#### 2. Prazos médios operacionais: DSO, DPO e DIO (monitoramento semanal do ciclo de caixa do Capítulo 8)
 
-DSO (Days Sales Outstanding). Média de dias entre emissão de fatura, e recebimento. Saudável B2B brasileiro, trinta a quarenta e cinco dias. Acima de sessenta dias é problema.
+**Prazo médio de recebimento (DSO, *Days Sales Outstanding*):** número médio de dias entre a emissão da nota fiscal e a entrada efetiva do dinheiro na conta; em vendas B2B no Brasil, a faixa saudável situa-se entre 30 e 45 dias, enquanto prazos acima de 60 dias exigem revisão da régua de cobrança.
 
-DPO (Days Payable Outstanding). Média de dias entre receber fatura de fornecedor, e pagar. Saudável, trinta a quarenta e cinco dias. Negociar prazo com fornecedores é ferramenta de caixa.
+**Prazo médio de pagamento (DPO, *Days Payable Outstanding*):** média de dias entre o recebimento da fatura do fornecedor e o desembolso bancário (tipicamente de 30 a 45 dias); alinhar o vencimento dos fornecedores ao ciclo de recebimento dos clientes protege o capital de giro.
 
-DIO (Days Inventory Outstanding). Dias de estoque (para empresas com produto físico).
+**Prazo médio de estocagem (DIO, *Days Inventory Outstanding*):** número médio de dias em que o capital permanece imobilizado em estoque antes da venda, variável crítica para operações de comércio e indústria.
 
 CCC (Cash Conversion Cycle), igual a DSO mais DIO menos DPO. Meta. CCC baixo, ou negativo.
 
@@ -4269,7 +4281,7 @@ A estratégia prática para a maioria das startups é manter **duas ou três con
 
 A primeira das duas ou três contas da arquitetura recomendada é a **conta operacional principal**, aberta em banco comercial ou cooperativa credenciada como agente repassador do BNDES e do Pronampe (como Itaú, Bradesco, Banco do Brasil, BTG Pactual, Sicredi ou Sicoob). Nela concentram-se o faturamento, os pagamentos a fornecedores e a folha salarial, formando o histórico transacional que alimenta o rating interno de crédito.
 
-A segunda é a conta de pagamentos do dia a dia em banco digital (Inter Empresas, Cora, Conta Simples). Aqui ficam os pagamentos correntes de menor valor, reembolsos, adiantamentos de funcionários, pagamentos de fornecedores menores. Custo zero ou muito baixo, operação ágil via app.
+A segunda conta (ou subconta operacional dentro da instituição principal) concentra a movimentação diária em banco digital PJ de baixo custo (como Itaú Empresas, Bradesco Empresas, BTG Pactual Empresas, Cora ou Conta Simples): por ela transitam pagamentos correntes com alçada limitada, cartões corporativos por centro de custo e conciliação automática com o ERP, mantendo a reserva de liquidez isolada na conta de tesouraria.
 
 A terceira é a conta de reserva de liquidez: o colchão equivalente a três a seis meses de despesas operacionais fica segregado em títulos públicos (Tesouro Selic), CDBs de liquidez diária de bancos de primeira linha ou fundos DI taxa zero, nunca misturado à conta corrente de pagamentos. Lembre-se de que o **FGC (Fundo Garantidor de Créditos) cobre apenas até R$ 250 mil por CNPJ em cada conglomerado financeiro**; acima desse patamar, diversifique entre instituições de primeira linha ou utilize títulos públicos federais e fundos soberanos.
 
@@ -4279,9 +4291,9 @@ Misturar contas pessoais dos sócios com o caixa da empresa (confusão patrimoni
 
 Do ponto de vista legal, movimentar receita da empresa em conta PF ou pagar despesas pessoais com conta PJ é retirada de pró-labore ou de lucro sem registro contábil adequado. Em caso de auditoria da Receita Federal, isso gera tributação adicional e multa. Em caso de responsabilização judicial (trabalhista, cível), pode levantar a desconsideração da personalidade jurídica da empresa. O patrimônio pessoal do sócio passa a responder por dívidas da empresa.
 
-Do ponto de vista bancário, banco que analisa crédito PJ quer ver fluxo de caixa da empresa na conta PJ. Se os últimos doze extratos mostram receita entrando em conta PF, o extrato PJ aparece vazio ou anêmico. Crédito negado ou aprovado em valor menor do que seria se a movimentação fosse toda na conta correta.
+Na análise de crédito corporativo, o banco avalia a consistência do faturamento diretamente nos últimos 12 meses de extrato da conta PJ: quando recebimentos de clientes transitam por contas pessoais dos sócios (erro já superado por Camila no início da operação), o histórico bancário da empresa parece artificialmente fraco e reduz o limite aprovado.
 
-> [!warning] Mistura de PF e PJ
+> [!warning] Impacto da confusão patrimonial no limite de crédito PJ
 > O erro mais comum em startups cujo fundador acumulou savings pessoais antes de abrir a empresa é usar conta PF como caixa da empresa nos primeiros meses "para economizar tarifa". Esse erro tem custo alto: histórico bancário PJ zerado, potencial problema tributário e risco de responsabilização pessoal em litígio futuro. Abra a conta PJ na semana em que o CNPJ é emitido. Transfira o aporte inicial dos fundadores como **integralização de capital social** prevista no contrato social (ou, no caso de aportes subsequentes antes de alteração contratual, via contrato formal de **mútuo ou AFAC, Adiantamento para Futuro Aumento de Capital**), jamais misturando transferências soltas entre conta PF e conta PJ.
 
 Na gestão interna de tesouraria, essas duas ou três contas bancárias cumprem três funções separadas: **caixa operacional** (entradas de clientes, folha e fornecedores na conta principal), **conta de giro cotidiano** (pagamentos rápidos e cartões corporativos em banco digital) e **reserva de liquidez** (equivalente a três a seis meses de *burn*, segregada em aplicação de liquidez diária atrelada ao CDI/Selic e intocável na rotina).
@@ -4403,7 +4415,7 @@ Planejamento financeiro precisa considerar esse tempo. Empresa que precisa do di
 
 ### A guerra das garantias: como substituir o aval pessoal no CPF dos sócios por cessão fiduciária de recebíveis e fundos garantidores
 
-O maior obstáculo ao crédito para startups no Brasil não é a taxa de juros. É a exigência de garantia real. Banco brasileiro não empresta sem garantia. A não ser que o fundador saiba como contornar isso com os mecanismos certos.
+No mercado bancário brasileiro, a principal barreira para uma startup tomar crédito está na exigência de garantias reais ou de aval pessoal dos sócios, o que exige conhecer as linhas públicas de equalização, os fundos garantidores e as estruturas de recebíveis.
 
 **O que o banco sempre vai pedir**
 
@@ -4698,7 +4710,7 @@ Os cinco tributos e as taxas portuárias incidem na seguinte ordem estrita:
    `IPI = (VA + II) × Alíquota IPI (tipicamente 0% a 15%)`
 3. **PIS-Importação (2,10%) e COFINS-Importação (9,65%, totalizando 11,75% na regra geral, gerando crédito no Lucro Real Não Cumulativo):**
    `PIS/COFINS = VA × 11,75%`
-4. **Taxa SISCOMEX e Despesas Aduaneiras Tributáveis** (adicionadas à base do ICMS).
+4. **Taxa SISCOMEX e despesas aduaneiras tributáveis**, que passam a integrar a base de cálculo por dentro do ICMS no desembaraço (`Base ICMS = (Valor Aduaneiro + II + IPI + PIS/Cofins + Despesas Aduaneiras) / (1 - Alíquota ICMS)`).
 5. **ICMS-Importação (estadual, calculado "por dentro", isto é, dividindo a base por `1 - Alíquota ICMS`):**
    `Base ICMS = (VA + II + IPI + PIS + COFINS + Taxa Siscomex) ÷ (1 - Alíquota ICMS)`
    `ICMS = Base ICMS × Alíquota ICMS`
@@ -4754,7 +4766,7 @@ flowchart TD
 ### Fechamento de câmbio, trava de hedge cambial e o financiamento dos 120 dias entre o sinal na Ásia e a venda no Brasil
 
 Importar da Ásia alonga drasticamente o **Ciclo de Conversão de Caixa (CCC)**. Em um pedido típico na China:
-* **Dia 0:** Pagamento de **30% de sinal (*deposit*)** via fechamento de câmbio de importação (remessa antecipada) para a fábrica iniciar a produção;
+* **Dia 0:** Pagamento de 30% de sinal (*deposit*) mediante fechamento de câmbio de importação (remessa antecipada) para a fábrica iniciar a produção;
 * **Dia 35:** Fim da fabricação e **Inspeção Pré-Embarque Obrigatória** (contratar auditoria independente local como QIMA, SGS ou Bureau Veritas por US$ 300–400 por homem-dia para testar amostra física na fábrica antes de embarcar e antes de pagar os 70% finais!);
 * **Dia 40:** Embarque marítimo da carga e emissão do Conhecimento de Embarque (*Bill of Lading*, BL) pelo armador.
 * **Dia 85:** Chegada do navio ao Brasil, registro da DUIMP/DI, parametrização aduaneira (**Canal Verde** libera em 24h; **Canal Amarelo** analisa documentos; **Canal Vermelho** faz vistoria física da carga; **Canal Cinza** investiga fraude de valor/origem) e recolhimento dos impostos;
@@ -4803,7 +4815,7 @@ No Brasil, a desconsideração da personalidade jurídica em disputas trabalhist
 
 ---
 
-> [!note] Aviso legal
+> [!note] Prontidão documental desde o primeiro dia legal
 > Este capítulo é material educacional, não assessoria de seguros ou consultoria de riscos. Coberturas, prêmios, exclusões e condições variam por seguradora, setor, porte e histórico da empresa. Nenhuma decisão de contratação de seguro deve ser tomada sem consulta a corretora especializada em empresas de tecnologia. As faixas de preço mencionadas refletem o mercado brasileiro de 2026 e devem ser verificadas na renovação.
 
 > [!note] Posição no livro
@@ -4858,7 +4870,7 @@ A matriz de calor resultante orienta a priorização:
               IMPACTO
               Baixo     Médio      Alto
 P  Alta   |  Monitorar | Mitigar  | Eliminar/Transferir |
-R  Média  |  Aceitar   | Mitigar  | Mitigar/Transferir  |
+R  Média  |  Aceitar   | Mitigar  | Transferir (seguro) |
 O  Baixa  |  Aceitar   | Aceitar  | Transferir (seguro) |
 B
 ```
@@ -5455,23 +5467,23 @@ Term sheet é documento não vinculante (exceto cláusulas específicas como exc
 
 **Valuation pré-money e pós-money.** O *pre-money* é o valor atribuído à empresa antes da entrada do novo recurso, valendo a identidade `Pré-money + Capital investido = Pós-money`. Exemplo: R$ 20 milhões *pre-money* + R$ 5 milhões de aporte = R$ 25 milhões *post-money*, resultando em 20% de participação para o novo investidor.
 
-Liquidation Preference. Em caso de venda, ou liquidação, quanto o investidor recebe antes dos founders. Padrão saudável. 1x non-participating (o investidor escolhe entre recuperar o cheque, OU converter, e participar pro-rata). Evitar. 2x ou 3x participating (o investidor recupera duas a três vezes, E participa pro-rata. Pode consumir exit inteiro em cenário médio).
+**Preferência de liquidação (*Liquidation Preference*):** define quanto os titulares de ações preferenciais recebem antes das ações ordinárias na venda ou liquidação da empresa. O padrão equilibrado de mercado é **1x não participante (*1x non-participating*)**, em que o investidor opta entre recuperar 1x o valor aportado ou converter suas ações para participar proporcionalmente (*pro-rata*) do valor total; evite cláusulas de 2x ou 3x participantes (*participating*), que acumulam o reembolso múltiplo com a fatia proporcional e podem absorver quase todo o valor de uma saída intermediária.
 
-Anti-dilution. Proteção do investidor, se rodada futura acontece em valuation menor. Dois tipos. Weighted Average (mais justo), ajuste proporcional. Full Ratchet (pesado), conversão ao preço da rodada nova, mesmo que só uma ação seja emitida a esse preço. Evitar.
+**Cláusula antidiluição (*Anti-dilution*):** protege o investidor caso a empresa emita ações em rodada futura por um *valuation* inferior (*down round*). Existem duas modalidades: a **média ponderada ampla (*broad-based weighted average*)**, padrão equilibrado que recalcula o preço de forma proporcional ao tamanho da nova emissão, e o **ajuste integral (*full ratchet*)**, cláusula punitiva que reprica todas as ações anteriores pelo menor valor emitido e deve ser recusada.
 
 **Vesting dos fundadores (*Founder Vesting*):** na entrada de um fundo institucional, a participação que os fundadores já detêm também fica sujeita a um novo cronograma de consolidação gradual (descontado o tempo já cumprido). Padrão. Quatro anos, com um ano de cliff. Acelerações. Single trigger (na venda). Double trigger (venda, mais demissão sem causa). Double trigger é padrão saudável.
 
 **Pool de ESOP (*Employee Stock Option Pool*).** Reserva de opções para atrair e reter executivos e especialistas, tipicamente dimensionada entre 10% e 15% do capital pós-rodada. Quando o *term sheet* exige que a reserva seja constituída ou expandida no *pre-money*, essa diluição recai integralmente sobre os sócios anteriores à rodada.
 
-**Termos de governança.**
+**Cláusulas de governança e controle:**
 
 **Assentos no conselho de administração (*Board Seats*):** em rodadas Seed com conselho formal, a composição típica é de **3 membros** (2 fundadores e 1 representante do fundo líder); na Série A, evolui para **3 ou 5 membros** (2 fundadores, 2 investidores e 1 conselheiro independente escolhido em comum acordo). Série A cinco seats (dois founders, mais dois investidores, mais um independente). Série B em diante pode chegar a sete.
 
-Protective Provisions. Lista de decisões que precisam de aprovação do board, ou dos investidores. Padrão. Venda da empresa, emissão de novas ações, dívida acima de X, e mudança no contrato social. Cuidado com provisions muito amplas, que limitam operação.
+**Matérias sujeitas a aprovação qualificada (*Protective Provisions*):** rol de decisões estratégicas que dependem de anuência prévia dos investidores preferenciais ou do conselho, como venda da empresa, alteração do objeto social, emissão de nova classe de ações ou endividamento acima de um teto acordado; negocie pisos monetários claros para não engessar a gestão diária.
 
-Information Rights. Direito do investidor a reports. Padrão. Relatório mensal, quarterly report, e annual audited. Quanto mais granular, mais trabalho operacional.
+**Direito à informação (*Information Rights*):** obrigação contratual de enviar relatórios periódicos aos investidores, cujo padrão combina atualização gerencial mensal (*investor update*), demonstrativos trimestrais e balanço anual auditado a partir da Série A.
 
-Pro-rata Rights. Direito de investidor participar de rodadas futuras, mantendo percentual. Padrão, sim.
+**Direito de preferência em novas rodadas (*Pro-rata Rights*):** prerrogativa que assegura ao investidor atual o direito de subscrever sua proporção na rodada seguinte para manter seu percentual de participação; é cláusula padrão para fundos líderes e investidores institucionais.
 
 ROFR (Right of First Refusal). Direito de investidor comprar primeiro, se o fundador vender ações. Padrão, sim, nas vendas secundárias de ações ou quotas existentes (previsto no acordo de sócios; já em emissões primárias de novas ações, o que se aplica é o direito de preferência ou *pro-rata* na subscrição, previsto no art. 171 da Lei 6.404/1976).
 
@@ -6201,7 +6213,7 @@ Strategic value acima de múltiplos. Empresa incumbent pode pagar duas a três v
 PE compra empresa madura, com mix equity, mais dívida. Opera por três a sete anos. Vende. Modelo.
 
 1. LBO model. Quanta dívida a empresa consegue suportar, mais quanto equity o PE precisa colocar.
-2. Return target. PE quer TIR de vinte a vinte e cinco por cento ao ano em equity investido.
+2. **Meta de retorno (*return target*):** fundos de Private Equity buscam tipicamente uma Taxa Interna de Retorno (TIR) entre 20% e 25% ao ano sobre o capital próprio investido (`Múltiplo de Capital = (1 + TIR)^n`).
 3. Valuation máximo pago igual a valor de saída projetada, dividido por 1 mais TIR, elevado a anos. Menos dívida paga ao longo do período.
 
 PE no Brasil (Actis, Patria Investimentos, Advent, HIG, KKR, Vinci) tipicamente compra empresas com EBITDA de R$ 50 milhões em diante, e múltiplos de cinco a oito vezes EBITDA. Menos relevante para startup típica. Mais relevante se a empresa atinge maturidade, e o PE vira caminho (como os investimentos da Advent International na TOTVS nos anos 2000 e na Prisma/CI&T em 2019, da General Atlantic e Dragoneer no fechamento de capital da Arco Educação em 2023 e da Riverwood Capital e General Atlantic em rodadas de growth equity no Brasil).
@@ -6515,7 +6527,7 @@ O mútuo conversível é o equivalente nacional da nota conversível: um contrat
 - **Taxa de juros:** Deve ser explicitada no contrato. No mútuo com fins econômicos sem taxa pactuada (art. 591 do Código Civil), presumem-se devidos juros pela taxa legal do art. 406 do Código Civil, que desde a Lei 14.905/2024 corresponde à Selic deduzida do IPCA (com piso zero); por isso, explicite sempre no contrato a taxa escolhida ou a eventual ausência de juros.
 - **Código Civil:** O mútuo é disciplinado pelo Código Civil (arts. 586–592). Discussão jurídica sobre se a opção de conversão é válida como condição potestativa pura depende de como o contrato é redigido.
 
-**Quando o IOF pode ser evitado:**
+**Regras de incidência e alíquotas do IOF em contratos de mútuo conversível:**
 - Mútuo PJ → PJ com prazo definido: incidência de IOF-crédito quando o mutuante é pessoa jurídica (alíquota diária limitada a 365 dias mais adicional fixo de 0,38%)
 - Uso do COCP (Marco Legal das Startups) em vez do mútuo conversível: por sua natureza jurídica de outorga de opção (e não de operação de crédito/empréstimo), o contrato de opção de subscrição ou compra de participação não sofre incidência de IOF-crédito, mesmo quando celebrado por pessoa jurídica (ver [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 1 — MARCO LEGAL DAS STARTUPS: LC 182/2021|Capítulo 1 (Marco Legal das Startups: Lc 182/2021) (Vol. 8)]])
 
@@ -6579,7 +6591,7 @@ Na Série A @ R$ 20M pre-money:
 1. **Cap muito baixo.** Atrai investidores mas destrói o cap table se a empresa performar bem. Em conversão a valuation alto, o investidor ganha muito, o fundador perde muito.
 2. **Nota com vencimento curto.** 12 meses não é suficiente para construir o produto e fechar uma rodada. Negocie 18–24 meses.
 3. **Stacking descontrolado.** Cinco SAFEs de cinco investidores diferentes, com caps diferentes, sem modelar o cap table final.
-4. **Pro-rata aberta para todos.** Investidores com pro-rata direito em todas as rodadas futuras tornam a próxima rodada mais difícil de fechar: o lead quer concentrar.
+4. **Direito de *pro-rata* pulverizado e erro de IOF no mútuo:** conceder direito irrestrito de preferência a dezenas de pequenos investidores reduz a fatia disponível para o fundo líder na rodada seguinte; além disso, lembre-se de que o IOF-Crédito incide sobre mútuos conversíveis apenas quando o **mutuante é pessoa jurídica** (Lei nº 9.779/1999, art. 13; Decreto nº 6.306/2007 atualizado em 2025, com alíquota adicional de 0,38% mais alíquota diária limitada a 365 dias), sendo isento quando o investidor-anjo mutuante é **pessoa física**.
 5. **Ignorar o IOF.** Em mútuo conversível com PF, o IOF pode custar mais do que os juros.
 
 **Ver também:** [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 1 — MARCO LEGAL DAS STARTUPS: LC 182/2021|Capítulo 1: Marco Legal e COCP (Vol. 8)]], [[#CAPÍTULO 9 — CAPTAÇÃO DE EQUITY: PLANEJAMENTO DE RODADA, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 9: Captação]], [[#CAPÍTULO 10 — VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR|Capítulo 10: Valuation]], [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 12 — STOCK OPTIONS E ESOP NO BRASIL|Capítulo 12: Stock Options e ESOP (Vol. 6)]]
@@ -6741,7 +6753,7 @@ Quando faz sentido. Early stage com comunidade orgânica de apoiadores (clientes
 
 Armadilhas. Cap table com cinquenta investidores em diante vira pesadelo em rodadas futuras. Os VCs pedem consolidação. Obrigação de reporte trimestral, ou semestral, a investidores mínimos consome tempo do CEO. Percepção de mercado. Rodada via crowdfunding pode ser lida como "não conseguiu com fundos sérios". Isso é injusto, mas é real.
 
-> [!note] Aviso
+> [!note] Prontidão documental desde o primeiro dia
 > Tecnicamente, crowdfunding equity É diluitivo. Apareceu neste capítulo como alternativa a rodada VC tradicional. Leia com essa ressalva.
 
 **Instrumento 7, Debêntures Conversíveis, ou Notas Conversíveis Estruturadas.**

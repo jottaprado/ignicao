@@ -1,0 +1,1430 @@
+[
+  {
+    "id": "2471",
+    "vol": "6",
+    "code": "E9",
+    "from": "> Funil precisa de input constante (CAC por visitante). Loop *se alimenta*. Exemplos reais. Glassdoor (loop de conteúdo). Dropbox (loop viral de referência). Spotify (loop de dados). Os melhores SaaS modernos têm dois a três loops simultâneos. Sem loop, o crescimento é linear com investimento. Com loop, é composto.",
+    "to": "> Um funil exige aporte constante (CAC por visitante), enquanto o loop se retroalimenta. Exemplos reais: Glassdoor (loop de conteúdo gerado por usuários), Dropbox (loop viral de indicação) e Spotify (loop de dados e recomendação). Os SaaS mais eficientes combinam dois a três loops simultâneos; sem loop o crescimento é linear com o gasto de mídia, e com loop torna-se composto."
+  },
+  {
+    "id": "2549",
+    "vol": "6",
+    "code": "C5",
+    "from": "    S1[\"Estágio 1\\nPré-PMF\\n<15 pessoas\\nTudo no fundador\"]",
+    "to": "    S1[\"Estágio 1\\nPré-PMF\\nAté 20 pessoas (escala de Dunbar/Greiner)\\nTudo no fundador\"]"
+  },
+  {
+    "id": "2551",
+    "vol": "6",
+    "code": "E3",
+    "from": "### Cada função vital com um único dono claro, rituais semanais rodando no relógio e alta densidade de talentos (A-Players)",
+    "to": "### Cada área da operação com um único dono claro, rituais semanais rodando no relógio e alta densidade de talentos"
+  },
+  {
+    "id": "2551",
+    "vol": "6",
+    "code": "E3",
+    "from": "3. Peacetime vs. wartime CEO: peacetime CEO cresce via otimização, wartime CEO sobrevive via decisões brutais. Diferentes skills.",
+    "to": "3. CEO de tempos de paz versus CEO de tempos de guerra (*peacetime vs. wartime CEO*): em tempos de paz o líder cresce via otimização e delegação; em tempos de crise sobrevive por meio de decisões duras e rápidas, o que exige repertórios distintos."
+  },
+  {
+    "id": "2551",
+    "vol": "6",
+    "code": "E3",
+    "from": "O quarto é a primeira quebra de \"transparência total\" (60 a 100 pessoas). Até 50 pessoas, all-hands semanal com dados financeiros abertos era viável. Em 80 ou mais, certas informações precisam ser gerenciadas: nem tudo pode ser compartilhado com todos. A primeira decisão de reduzir transparência é politicamente carregada: funcionários veteranos sentem a perda, novos não notam. Comunicação sobre essa mudança é crítica. Executar em silêncio gera ressentimento silencioso que explode meses depois.",
+    "to": "O quarto ponto é a primeira calibragem da transparência irrestrita (entre 50 e 100 pessoas). Até 50 pessoas, a reunião geral semanal com todos os dados financeiros abertos funciona bem; acima desse patamar, informações estratégicas e sensíveis precisam de curadoria por nível de responsabilidade. Como a mudança é politicamente delicada (veteranos sentem a diferença, enquanto recém-chegados não notam), explique o motivo abertamente: mudar a regra sem comunicar gera ressentimento que explode meses depois."
+  },
+  {
+    "id": "2552",
+    "vol": "6",
+    "code": "N6",
+    "from": "> Decisões esperam você por mais de quarenta e oito horas. Reuniões sem você travam. Pessoas perguntam \"o que o fundador quer?\" em vez de decidir. Você tem mais de doze reportes diretos. Você aprovou mais de trinta decisões na última semana, que poderiam ter sido decididas sem você.",
+    "to": "> No **Comando Radial**, toda decisão precisa passar pelo centro antes de virar ação (como as 190 mensagens diárias que travavam a clínica da Dra. Camila): decisões aguardam você por mais de 48 horas, reuniões sem a sua presença não concluem nada, o time pergunta \"o que o fundador quer?\" em vez de resolver pela regra de alçada, você acumula mais de 6 a 8 liderados diretos e aprova mais de 30 decisões operacionais por semana que deveriam ser tomadas pela linha de frente."
+  },
+  {
+    "id": "2557",
+    "vol": "6",
+    "code": "E2",
+    "from": "> A primeira demissão ensina dez vezes mais que a primeira contratação sobre gestão. O fundador aprende a diferenciar entre três coisas. Pessoa errada. Timing errado. Ou gestão inadequada da própria pessoa. As próximas contratações beneficiam desse aprendizado.",
+    "to": "> A primeira demissão ensina dez vezes mais sobre gestão do que a primeira contratação, porque obriga o fundador a distinguir se o erro veio da escolha da pessoa errada, da contratação fora de hora (*timing* prematuro para o estágio da empresa) ou de falha na própria liderança e integração, calibrando todas as contratações seguintes."
+  },
+  {
+    "id": "2563",
+    "vol": "6",
+    "code": "E2",
+    "from": "O processo padrão de contratação sênior leva quatro a seis semanas. Nove etapas. JD escrita com outcomes em três, seis, e doze meses (não só atividades). Triagem por recrutador, ou por você direto. Entrevista cultural com CEO (trinta a quarenta e cinco minutos). Entrevista técnica com profissional sênior da área, ou advisor. Case ou teste prático (quatro a oito horas de trabalho remunerado é razoável). Bar-raiser (um avaliador externo à área que tem poder de veto: garante que o padrão de contratação não caia com o tempo). Reference check rigoroso. Mínimo de três referências, idealmente cinco. Pergunte \"em uma escala de um a dez, quão forte foi o desempenho dessa pessoa?\". Qualquer coisa abaixo de nove merece investigação. Oferta, e negociação. Onboarding estruturado de noventa dias, com marcos claros.",
+    "to": "O processo padrão de contratação sênior leva de quatro a seis semanas e segue nove etapas numeradas: 1) descrição da vaga (*job description*) com entregas esperadas em 3, 6 e 12 meses (e não apenas lista de tarefas); 2) triagem estruturada pelo recrutador ou diretamente pelo fundador; 3) entrevista de cultura e valores com o CEO (30 a 45 minutos); 4) entrevista técnica conduzida por especialista sênior da área ou conselheiro técnico; 5) estudo de caso ou teste prático remunerado (4 a 8 horas de trabalho real); 6) entrevista com avaliador independente de outra área (*bar-raiser*) com poder de veto para proteger a barra de qualidade; 7) checagem rigorosa de três a cinco referências profissionais (perguntando \"de 1 a 10, quão forte foi o desempenho dessa pessoa?\" e investigando qualquer nota abaixo de 9); 8) proposta formal e negociação; e 9) roteiro de integração de 90 dias com marcos claros."
+  },
+  {
+    "id": "2563",
+    "vol": "6",
+    "code": "E2",
+    "from": "**Rituais.** Weekly all-hands: trinta minutos, segundas, 9h. Agenda fixa: métricas-chave, cliente da semana, aprendizado da semana. 1:1s liderança-time: trinta minutos, semanal, cada colaborador. Skip-level CEO com cada pessoa: uma hora, mensal (ou bimestral depois de vinte e cinco pessoas). Retrospectiva quinzenal de cada time (produto, engenharia, vendas).",
+    "to": "**Rituais de gestão em cadência numerada:** 1) **Reunião geral semanal (*all-hands*):** 30 minutos às segundas-feiras às 9h, com pauta fixa cobrindo métricas-chave, cliente da semana e aprendizado da semana; 2) **Conversas individuais (1:1) entre gestor e liderado:** 30 minutos semanais com cada pessoa da equipe; 3) **Conversas *skip-level* do CEO:** 1 hora mensal com colaboradores de dois níveis abaixo (ou bimestral após passar de 20 a 25 pessoas); e 4) **Retrospectiva quinzenal por área:** revisão prática de produto, engenharia e comercial."
+  },
+  {
+    "id": "2574",
+    "vol": "6",
+    "code": "E7",
+    "from": "4. **Manter estrutura de Estágio 1 na Fase de Escala.** Fundador que ainda gerencia 15 ICs diretamente a 50 pessoas é gargalo: não liderança.",
+    "to": "4. **Manter estrutura de Estágio 1 na Fase de Escala.** O fundador que ainda gerencia diretamente 15 especialistas sem função de chefia (*individual contributors*, quem executa sem liderar time) em uma empresa de 50 pessoas atua como gargalo operacional, e não como líder executivo."
+  },
+  {
+    "id": "2574",
+    "vol": "6",
+    "code": "E7",
+    "from": "Você vai construir e operar a máquina de vendas da empresa. No início, isso significa vender pessoalmente e documentar o processo. Depois, contratar e escalar um time de AEs. Você é o primeiro líder de vendas: vem de IC forte ou de líder que ainda fecha negócios.",
+    "to": "Você vai construir e operar a máquina comercial da empresa: nos primeiros meses, venderá pessoalmente para validar e documentar o processo; na sequência, contratará e escalará o time de executivos de contas (*Account Executives*). Como primeiro líder comercial, buscamos um especialista de ponta (*individual contributor*, vendedor sênior que executa sem gerenciar equipe) pronto para assumir liderança ou um gestor que ainda goste de fechar negócios na trincheira."
+  },
+  {
+    "id": "2575",
+    "vol": "6",
+    "code": "C5",
+    "from": "7. Você tem menos de dez reportes diretos. Retenção em 12 meses pós-contratação ≥85% para sêniores, ≥75% para todos.",
+    "to": "7. Você mantém de seis a oito liderados diretos no máximo (faixa de supervisão eficaz recomendada por Andy Grove em *High Output Management*). Retenção em 12 meses pós-contratação ≥ 85% para lideranças e seniores, e ≥ 75% no quadro geral."
+  },
+  {
+    "id": "2578",
+    "vol": "6",
+    "code": "E10",
+    "from": "#### Primeiros noventa dias, onboarding que dá certo",
+    "to": "#### Roteiro de integração de 90 dias"
+  },
+  {
+    "id": "2579",
+    "vol": "6",
+    "code": "S2",
+    "from": "### O Espelho da Fase 16: Você É o Arquiteto do Sistema ou o Gargalo de Todas as Decisões?",
+    "to": "### O Espelho Unificado da Fase 16: Diagnóstico Numérico por Porte (20, 50, 100 e 250 Pessoas)"
+  },
+  {
+    "id": "2579",
+    "vol": "6",
+    "code": "S2",
+    "from": "### Exercício aplicado: Diagnóstico organizacional (Fase 16)",
+    "to": "### Aplicação Prática do Diagnóstico Organizacional: Gabarito por Faixa de Tamanho (20, 50, 100 e 250 Pessoas)"
+  },
+  {
+    "id": "2582",
+    "vol": "6",
+    "code": "C5",
+    "from": "- Processo de performance review formal antes de 25 pessoas: overhead injustificado",
+    "to": "- Ciclo pesado de avaliação formal com calibração cruzada antes de 25 a 30 pessoas: burocracia prematura (nessa faixa, opere com feedback semanal nos 1:1s e conversa estruturada de desenvolvimento a cada seis meses, sem calibração)"
+  },
+  {
+    "id": "2582",
+    "vol": "6",
+    "code": "C5",
+    "from": "Rituais que reforçam valores na prática. All-hands semanais ou quinzenais, com CEO falando. Reconhecimento público de comportamentos exemplares (weekly shoutouts). Post-mortems sem culpa (blameless), depois de incidentes grandes. Revisões 360º anuais com feedback cruzado.",
+    "to": "Os rituais que reforçam valores na prática incluem reuniões gerais (*all-hands*) semanais ou quinzenais conduzidas pelo CEO, reconhecimento público de comportamentos exemplares na semana, análises pós-incidente focadas em processo e não em culpa (*blameless post-mortems*) e conversas semestrais de desenvolvimento (evoluindo para ciclos formais com avaliação 360º e calibração cruzada quando a empresa supera 25 a 30 pessoas)."
+  },
+  {
+    "id": "2592",
+    "vol": "6",
+    "code": "S6",
+    "from": "| Estágio | Receita aproximada | Contratações-chave |",
+    "to": "| Estágio (Porte da Equipe) | Receita Anual (ARR em SaaS ou Faturamento Bruto em Clínica, Indústria e Varejo) | Contratações-Chave e Meta de Pessoas |"
+  },
+  {
+    "id": "2593",
+    "vol": "6",
+    "code": "N9",
+    "from": "Cofundador precisa dar feedback a outro sobre performance:",
+    "to": "Na fintech brasileira de **Lucas e Marina**, quando Marina precisa ter uma conversa crítica com Lucas após três atrasos seguidos nas entregas de produto para clientes corporativos:"
+  },
+  {
+    "id": "2600",
+    "vol": "6",
+    "code": "E7",
+    "from": "Sem Extreme Ownership: \"Foi o engineer júnior que pushou código ruim. Vou falar com o manager dele.\"",
+    "to": "Sem Extreme Ownership: \"Foi o engenheiro júnior que subiu código ruim para produção. Vou cobrar o gestor dele.\""
+  },
+  {
+    "id": "2600",
+    "vol": "6",
+    "code": "E7",
+    "from": "**Jocko Willink** e **Leif Babin**, ex-Navy SEALs da Task Unit Bruiser (Battle of Ramadi, Iraq 2006), publicaram *Extreme Ownership* em 2015. Aplicam princípios de liderança de combate ao mundo corporativo. Willink tem podcast enorme e coaches executivos globalmente.",
+    "to": "**Jocko Willink** e **Leif Babin**, ex-oficiais dos Navy SEALs na Unidade Tática Bruiser (Batalha de Ramadi, Iraque, 2006), publicaram *Extreme Ownership* (*Responsabilidade Extrema*) em 2015, traduzindo princípios de comando em combate para a gestão empresarial; hoje, Willink mantém um dos maiores podcasts de liderança do mercado e treina executivos pelo mundo."
+  },
+  {
+    "id": "2600",
+    "vol": "6",
+    "code": "E7",
+    "from": "Servant leadership como fraqueza: servir ≠ não ter padrões. Pode demitir, pode pushar, Abdicar de decisões difíceis: servant líder ainda decide quando precisa.",
+    "to": "Confundir liderança servidora com permissividade ou abdicação de comando: servir a equipe significa remover obstáculos, mas o líder mantém a barra de exigência alta, pode cobrar resultados com firmeza, demitir quem não entrega e tomar decisões difíceis quando necessário."
+  },
+  {
+    "id": "2601",
+    "vol": "6",
+    "code": "C3",
+    "from": "**Leitura obrigatória para este momento:** *The Hard Things About Hard Things* (Ben Horowitz), *High Output Management* (Andy Grove), *Scaling People* (Claire Hughes Johnson, 2023). Os três foram escritos para fundador transicionando de operador a gestor de gestores.",
+    "to": "**Leitura obrigatória para este momento:** *The Hard Thing About Hard Things* (*O lado difícil das situações difíceis*, Ben Horowitz, 2014), *High Output Management* (*Administração de Alta Performance*, Andy Grove, 1983) e *Scaling People* (Claire Hughes Johnson, 2023). Os três livros foram escritos especificamente para fundadores na transição de operador individual para gestor de gestores."
+  },
+  {
+    "id": "2622",
+    "vol": "6",
+    "code": "S6",
+    "from": "### Transição: das Fases 15 e 16 para os Capítulos de Receita e Pessoas (Vol. 6) e os Volumes 7 a 9",
+    "to": "### Fechamento da Fase 16 e Transição para os Capítulos de Receita e Pessoas (Vol. 6) e os Volumes 7 a 9"
+  },
+  {
+    "id": "2624",
+    "vol": "6",
+    "code": "E10",
+    "from": "Abaixo de 20 pessoas, a empresa opera como time estendido. O fundador conhece cada pessoa, participa de cada decisão importante e a cultura é transmitida por osmose diária. Acima de 100, a empresa necessariamente tem estrutura formal, gerentes de gerentes, processos escritos e RH estabelecido. Entre 20 e 100, o fundador vive a transição mais dolorosa da trajetória: tem que deixar de ser \"o fundador que sabe tudo\" para ser \"o CEO que confia em quem sabe\". Esse ajuste organizacional é o que separa scaleup bem-sucedida de empresa que quebra em crescimento.",
+    "to": "Conforme a escala de evolução organizacional detalhada na abertura desta fase (20, 50, 100 e 250 pessoas), é justamente no intervalo entre 20 e 100 colaboradores que a cultura deixa de ser transmitida por convivência direta e exige que o fundador passe de operador que decide tudo sozinho no comando radial a executivo que governa por meio de líderes, rituais e processos claros."
+  },
+  {
+    "id": "2626",
+    "vol": "6",
+    "code": "E10",
+    "from": "> [!warning] Sinal-alerta de gargalo",
+    "to": "> [!warning] Sinal-alerta de gargalo (remetendo à régua de 48 horas e 30 decisões semanais do Passo 4)"
+  },
+  {
+    "id": "2626",
+    "vol": "6",
+    "code": "E10",
+    "from": "> 1. **O Teste do Organograma Funcional (*Accountability Chart*):** Se você desenhar hoje as 5 a 7 grandes caixas da sua empresa (Vendas, Marketing, Produto/Operações, Sucesso do Cliente, Finanças/Pessoas), existe **um único nome próprio** responsável pelos números de cada caixa, ou o seu nome ainda está escrito dentro de quatro delas?",
+    "to": "> 1. **O Teste do Organograma Funcional (*Accountability Chart*) e da Régua de Gargalo:** Se você desenhar hoje as 5 a 7 grandes caixas da empresa (Vendas, Marketing, Produto/Operações, Sucesso do Cliente, Finanças/Pessoas), existe **um único nome próprio** dono dos números de cada caixa, ou o seu nome ainda ocupa quatro delas (fazendo decisões esperarem mais de 48 horas e levando você a aprovar mais de 30 decisões operacionais por semana, conforme a régua do Passo 4)?"
+  },
+  {
+    "id": "2643",
+    "vol": "6",
+    "code": "N2",
+    "from": "Estágio 1, founder-led growth (pré-seed a Seed, até R$ 3 a 5 mi de ARR). O fundador faz growth. Roda experimentos. Escolhe canais. Vende. Otimiza ativação. Não há função separada. Se o fundador não entende growth, contrata consultor, ou advisor, nessa fase. Contratar \"Head of Growth\" com R$ 5 mi de ARR é prematuro. Vira gargalo, sem dados suficientes para trabalhar.",
+    "to": "No **Estágio 1, *founder-led growth*** (pré-seed a Seed, até R$ 3 a 5 milhões de ARR), o próprio fundador conduz o crescimento: roda experimentos, escolhe canais, vende e corrige a ativação sem criar uma área separada. Foi o erro que **Rafael e Bia** cometeram na cena de abertura ao contratarem um \"Head of Growth\" caro antes de resolverem o vazamento de ativação e retenção de 30 dias; quando falta repertório técnico nessa fase, apoie-se em um consultor pontual ou conselheiro (*advisor*), pois contratar um executivo de growth abaixo de R$ 5 milhões de ARR sem retenção comprovada gera apenas queima de caixa sem base de dados para testar."
+  },
+  {
+    "id": "2643",
+    "vol": "6",
+    "code": "N2",
+    "from": "**Build.** Treinar growth team internamente. Lento. Mas cria cultura. Útil quando a empresa tem produto viral natural, e precisa maximizar (Figma, Notion).",
+    "to": "**Desenvolver internamente (*Build* com apoio de consultor técnico):** treinar analistas e gerentes de produto da própria casa leva mais tempo, mas constrói cultura de experimentação proprietária. Foi o caminho que **Rafael e Bia** adotaram após demitirem o falso guru: Bia assumiu a retenção com o time interno e contratou um consultor técnico por 60 dias apenas para instrumentar o funil e ensinar a cadência semanal de testes."
+  },
+  {
+    "id": "2648",
+    "vol": "6",
+    "code": "N9",
+    "from": "### O pecado fatal de montar um time de Growth antes de ter retenção comprovada (PMF)",
+    "to": "### Os quatro estágios de maturidade para montar um time de Growth (e por que exigir retenção comprovada antes de escalar)"
+  },
+  {
+    "id": "2648",
+    "vol": "6",
+    "code": "N9",
+    "from": "### Modelo Independente vs. Modelo Funcional: como evitar a guerra civil entre Growth, Produto e Marketing",
+    "to": "### Os três modelos de organização (Independente, Funcional e Híbrido): como evitar a guerra civil entre Growth, Produto e Marketing"
+  },
+  {
+    "id": "2650",
+    "vol": "6",
+    "code": "C5",
+    "from": "Estágio 3, growth team (Série A tardia a B, R$ 15 a 50 mi de ARR). Time dedicado de cinco a dez pessoas. Head of Growth, dois a três growth PMs, um a dois growth engineers, um a dois data analysts, e performance marketers. Pode reportar ao CEO, ao CPO, ou ao CMO, dependendo da estrutura.",
+    "to": "No **Estágio 3, *growth team*** (Série A tardia a Série B, de R$ 15 a 50 milhões de ARR), a empresa estrutura um time dedicado de cinco a dez pessoas. Em uma equipe completa de dez profissionais, a composição equilibrada reúne um Head of Growth, dois a três PMs de growth, três a quatro engenheiros de growth, um designer de produto e um a dois analistas de dados (além de especialistas em mídia de performance), reportando ao CEO, ao CPO ou ao CMO conforme a arquitetura da empresa."
+  },
+  {
+    "id": "2657",
+    "vol": "6",
+    "code": "N9",
+    "from": "> **O Ritual de Segunda-Feira às 9h:** Instale a **Reunião Semanal de Growth de 45 minutos**: 15 minutos analisando os resultados dos testes da semana anterior, 15 minutos auditando o gargalo número um do funil AARRR e 15 minutos priorizando pela matriz **ICE** os 3 experimentos que vão ao ar até terça-feira.",
+    "to": "> **O Ritual de Segunda-Feira às 9h:** Instale a **Reunião Semanal de Growth de 45 minutos**: 15 minutos analisando os resultados documentados da semana anterior, 15 minutos auditando o gargalo número um do funil AARRR (com a pergunta de Bia sobre retenção de 30 dias) e 15 minutos priorizando pela matriz **ICE** (média das notas de 1 a 10 para Impacto, Confiança e Facilidade) a cadência de experimentos compatível com o tamanho do time (1 por semana para equipes enxutas de 3 a 5 pessoas, ou 2 a 3 por semana para times estruturados)."
+  },
+  {
+    "id": "2658",
+    "vol": "6",
+    "code": "C5",
+    "from": "- [ ] Cinco a quinze experimentos por mês rodando",
+    "to": "- [ ] Cadência de experimentos calibrada pelo porte da equipe: 1 por semana (4 a 5/mês) para times de 3 a 5 pessoas, 2 a 3 por semana (8 a 15/mês) para times de 6 a 15 pessoas, e 5 a 10 por semana (20 a 40/mês) para operações com mais de 20 especialistas"
+  },
+  {
+    "id": "2662",
+    "vol": "6",
+    "code": "C3",
+    "from": "O desafio no Brasil é que o onboarding precisa compensar menor alfabetização digital em certos segmentos. PMEs brasileiras acostumadas ao Excel resistem a SaaS com curvas de aprendizado acentuadas. Times de growth bem-sucedidos no Brasil (RD Station, Conta Azul) investiram pesado em onboarding guiado por humanos, não apenas self-service.",
+    "to": "No Brasil, o processo de integração (*onboarding*) precisa compensar a menor maturidade digital de pequenas e médias empresas acostumadas a controles manuais em planilhas. Por isso, tanto referências de SaaS B2B horizontal (como Totvs, Conta Azul e RD Station) quanto líderes de SaaS vertical para setores específicos combinaram ativação no produto com implantação guiada por especialistas humanos, em vez de depender exclusivamente do autoatendimento (*self-service*)."
+  },
+  {
+    "id": "2665",
+    "vol": "6",
+    "code": "C2",
+    "from": "Head of Growth, ou VP Growth. Perfil raro. Soma de marketing (entende canais, CAC, LTV), produto (pensa em features, e experiência), dados (sabe ler cohort, e rodar análise), e engineering (dialoga com tech). Tipicamente vem de background em empresas de tecnologia globais com growth team. Salário. R$ 40 a 80 mil por mês em 2025, dependendo da escala.",
+    "to": "**Head of Growth (ou VP de Growth):** perfil multidisciplinar que combina repertório de marketing (aquisição, CAC e LTV), produto (jornada de ativação e retenção), dados (análise de safras e estatística de testes) e engenharia. Costuma vir de scaleups ou empresas de tecnologia com cultura madura de experimentação, com remuneração fixa mensal na faixa de R$ 35 mil a R$ 70 mil segundo guias salariais de executivos de tecnologia no Brasil (como Robert Half e Michael Page, 2025/2026), variando conforme o estágio da empresa."
+  },
+  {
+    "id": "2669",
+    "vol": "6",
+    "code": "N7",
+    "from": "> **Regra de Bolso (*estilo Charlie Munger / Andy Grove*):** Mostre-me o incentivo de comissão e eu te mostrarei o resultado operacional. Se você paga Marketing por clique e Vendas por assinatura sem retenção, você contratou a própria falência.",
+    "to": "> **Regra de Bolso (a máxima de incentivos de Charlie Munger aplicada a RevOps):** \"Mostre-me o incentivo e eu lhe mostrarei o resultado.\" Se você remunera Marketing por clique desqualificado e Vendas por contrato assinado sem retenção, você programou o comissionamento para produzir cancelamento."
+  },
+  {
+    "id": "2677",
+    "vol": "6",
+    "code": "C5",
+    "from": "Sales enterprise (vendas a grandes corporações) é um termo usado livremente em B2B, mas tem definição operacional precisa. No contexto brasileiro de 2026, uma venda enterprise reúne quatro características simultâneas: ticket anual superior a R$ 120 mil, ciclo de fechamento de seis a dezoito meses, participação de três ou mais pessoas no processo de decisão, e processo formal de compra com área de procurement (compras) envolvida.",
+    "to": "Vendas corporativas (*enterprise sales*) têm definição operacional precisa no mercado brasileiro: reúnem simultaneamente contrato anual (ACV) superior a R$ 120 mil, ciclo de fechamento de seis a dezoito meses, comitê decisório com três ou mais interlocutores e rito formal de contratação conduzido pelas áreas de compras (*procurement*), jurídico e segurança da informação."
+  },
+  {
+    "id": "2681",
+    "vol": "6",
+    "code": "C3",
+    "from": "- P, Paper Process: como contrato é revisado/assinado (jurídico, procurement)?",
+    "to": "- **P (*Paper Process*, Processo de Papelada e Contratos):** qual é o fluxo formal de cadastro de fornecedor, revisão jurídica, auditoria de segurança da informação, compras (*procurement*) e alçada de assinatura (completando as oito letras de **MEDDPICC**: *Metrics, Economic Buyer, Decision Criteria, Decision Process, Paper Process, Identify Pain, Champion* e *Competition*)?"
+  },
+  {
+    "id": "2684",
+    "vol": "6",
+    "code": "C6",
+    "from": "Abaixo desse limiar, o processo ainda pode ser B2B complexo: mas as mecânicas são diferentes. Em deals (negócios) de R$ 20 a R$ 80 mil anuais, uma pessoa com autoridade suficiente pode assinar sozinha, o ciclo raramente passa de noventa dias, e as dinâmicas de múltiplos stakeholders (interessados) são menos acentuadas. Este capítulo trata especificamente do universo de grandes corporações brasileiras: estatais, empresas listadas na B3, multinacionais com operação no Brasil, e grandes grupos familiares com estrutura de governança formalizada.",
+    "to": "Abaixo desse patamar de R$ 120 mil anuais, a venda B2B ainda pode ser consultiva, mas opera com outra mecânica: em contratos de R$ 20 mil a R$ 80 mil por ano, um único diretor costuma ter alçada para assinar sozinho e o ciclo raramente passa de 90 dias. Este capítulo foca nas grandes corporações privadas no Brasil (companhias listadas na B3, multinacionais e grandes grupos familiares com governança formal); já nas empresas públicas e sociedades de economia mista (estatais), a contratação não segue o rito privado de RFP, mas o regime próprio de licitações e contratos da **Lei nº 13.303/2016** (Lei das Estatais, detalhada nas vendas ao setor público do Capítulo 8 do Vol. 4)."
+  },
+  {
+    "id": "2696",
+    "vol": "6",
+    "code": "C5",
+    "from": "Esse processo frequentemente leva de sessenta a cento e oitenta dias após o \"sim\" verbal. Startups que não antecipam isso constroem forecast errado e comprometem caixa que ainda não entrou.",
+    "to": "Como a tramitação entre compras, jurídico, segurança da informação e assinatura final leva de 60 a 180 dias após o \"sim\" verbal, a aprovação dos critérios de sucesso da PoC não gera assinatura mágica no mesmo dia, mas deve disparar no dia útil seguinte a abertura do cadastro de fornecedor e a revisão da minuta contratual previamente anexada, evitando previsões de caixa (*forecast*) ilusórias."
+  },
+  {
+    "id": "2697",
+    "vol": "6",
+    "code": "N2",
+    "from": "### Arquitetura de ferramentas sem frankenstein: CRM como fonte única da verdade (Single Source of Truth) integrado ao faturamento e ao CS",
+    "to": "### Arquitetura de ferramentas sem Frankenstein: como Lucas e Marina unificaram HubSpot e Pipedrive em uma única fonte da verdade integrada ao faturamento e ao CS"
+  },
+  {
+    "id": "2703",
+    "vol": "6",
+    "code": "E7",
+    "from": "**Forecast baseado em feeling**: dar alta probabilidade de fechamento a deals sem MEDDPICC preenchido. O resultado é forecast que está errado todo mês e board que perde confiança no CEO.",
+    "to": "**Previsão de vendas (*forecast*) baseada em intuição:** atribuir alta probabilidade de fechamento a oportunidades sem os critérios do MEDDPICC auditados produz previsões erradas todos os meses e destrói a confiança do conselho de administração no CEO."
+  },
+  {
+    "id": "2703",
+    "vol": "6",
+    "code": "E7",
+    "from": "Forecast é a função de RevOps que mais diretamente afeta a confiança do board no CEO. Forecast errado todo mês não é problema de vendas: é problema de processo.",
+    "to": "A precisão da previsão de receita (*forecast*) é a entrega de RevOps que mais pesa na confiança do conselho de administração no CEO: se o fundador leva ao conselho uma previsão de R$ 800 mil para o trimestre e entrega R$ 480 mil mais uma vez, a falha está no processo de qualificação e passagem de estágio, não apenas na ponta comercial."
+  },
+  {
+    "id": "2703",
+    "vol": "6",
+    "code": "E7",
+    "from": "O CEO e o board precisam de visibilidade sobre saúde da máquina de receita com frequência semanal (operacional) e mensal (estratégica). O dashboard de RevOps deve responder às perguntas fundamentais em no máximo dez métricas.",
+    "to": "O CEO e o conselho de administração precisam de visibilidade clara sobre a saúde da máquina de receita em cadência semanal (operacional) e mensal (estratégica), consolidando o painel de RevOps nas dez métricas fundamentais abaixo."
+  },
+  {
+    "id": "2703",
+    "vol": "6",
+    "code": "E7",
+    "from": "A lista abaixo é o teste prático de maturidade de RevOps. O que falta vira backlog do head of RevOps ou do founder que ainda acumula a função.",
+    "to": "A lista abaixo funciona como diagnóstico prático de maturidade de RevOps: cada item pendente entra diretamente na fila de prioridades do líder de operações de receita ou do fundador que ainda acumula a função."
+  },
+  {
+    "id": "2704",
+    "vol": "6",
+    "code": "C5",
+    "from": "### O ponto de inflexão: por que contratar seu primeiro RevOps antes do 8º vendedor rende mais do que contratar o 9º e o 10º vendedores no caos",
+    "to": "### O ponto de inflexão: por que contratar a primeira pessoa de operações a partir de 5 vendedores (e estruturar o time de RevOps aos 20 profissionais de go-to-market) rende mais do que inflar a equipe no caos"
+  },
+  {
+    "id": "2704",
+    "vol": "6",
+    "code": "C5",
+    "from": "Série A (10-20 GTM)| 1 RevOps generalist",
+    "to": "Série A (5+ vendedores / 10-20 em GTM) | 1 especialista de RevOps (generalista)"
+  },
+  {
+    "id": "2704",
+    "vol": "6",
+    "code": "C5",
+    "from": "Sales operations. Contrate uma pessoa dedicada a CRM, previsão de vendas e plano de comissões a partir de cerca de cinco vendedores.",
+    "to": "**Operações de receita (*Sales Ops / RevOps*):** contrate a primeira pessoa dedicada a CRM, previsão de vendas e plano de comissões a partir de cinco vendedores (quando a equipe comercial e de marketing soma de 10 a 20 profissionais em *go-to-market*), evoluindo para um time estruturado de RevOps a partir de 20 pessoas na operação comercial."
+  },
+  {
+    "id": "2715",
+    "vol": "6",
+    "code": "S5",
+    "from": "**Pipeline coverage**: razão entre pipeline total qualificado e meta de receita do período. A cobertura necessária depende do win rate: com win rate de 25%, precisa de 4x de cobertura. Com win rate de 40%, 2,5x é suficiente.",
+    "to": "**Cobertura de funil (*pipeline coverage*):** razão entre o valor total do funil qualificado e a meta de receita nova do período. Como $1 / \\text{taxa de conversão}$ cobre apenas a média matemática (ex.: 4x para conversão de 25%, ou 2,5x para 40%), adicione sempre uma margem de segurança sobre esse piso, conforme a regra detalhada no Capítulo 3 (RevOps)."
+  },
+  {
+    "id": "2725",
+    "vol": "6",
+    "code": "C7",
+    "from": "- [ ] Comp plan auditado anualmente, com clawback de churn ativo e alinhamento ao comportamento desejado",
+    "to": "- [ ] Plano de comissionamento revisado anualmente com suporte jurídico trabalhista: para vendedores CLT, vincule a aquisição e o pagamento da comissão à liquidação das faturas pelo cliente (já que a Lei nº 3.207/1957 e a jurisprudência do TST restringem o estorno/*clawback* à insolvência do comprador, e o art. 468 da CLT veda alteração contratual lesiva)"
+  },
+  {
+    "id": "2738",
+    "vol": "6",
+    "code": "N9",
+    "from": "CHECKLIST DE MOU ANTES DA INTEGRAÇÃO",
+    "to": "CHECKLIST EXECUTIVO DE MOU ANTES DA INTEGRAÇÃO TÉCNICA"
+  },
+  {
+    "id": "2738",
+    "vol": "6",
+    "code": "N9",
+    "from": "Item                                              Obrigatório?",
+    "to": "Item do Acordo Preliminar (MOU)                   Critério / Exigência"
+  },
+  {
+    "id": "2738",
+    "vol": "6",
+    "code": "N9",
+    "from": "Objeto da parceria (o que cada parte faz)         Sim",
+    "to": "Objeto da parceria (escopo de cada parte)         Obrigatório"
+  },
+  {
+    "id": "2738",
+    "vol": "6",
+    "code": "N9",
+    "from": "Prazo de vigência e condições de renovação         Sim",
+    "to": "Prazo de vigência, revisão e renovação            Obrigatório"
+  },
+  {
+    "id": "2738",
+    "vol": "6",
+    "code": "N9",
+    "from": "Modelo de receita e percentuais acordados          Sim",
+    "to": "Modelo de divisão de receita e repasse            Obrigatório"
+  },
+  {
+    "id": "2738",
+    "vol": "6",
+    "code": "N9",
+    "from": "Definição de \"lead gerado pelo parceiro\"           Sim",
+    "to": "Regra de atribuição de oportunidade (lead)        Obrigatório"
+  },
+  {
+    "id": "2738",
+    "vol": "6",
+    "code": "N9",
+    "from": "Propriedade dos dados gerados na integração        Sim",
+    "to": "Titularidade e papéis LGPD sobre dados            Obrigatório"
+  },
+  {
+    "id": "2738",
+    "vol": "6",
+    "code": "N9",
+    "from": "Responsabilidade por incidentes de segurança       Sim",
+    "to": "Alçada e resposta a incidentes de segurança       Obrigatório"
+  },
+  {
+    "id": "2738",
+    "vol": "6",
+    "code": "N9",
+    "from": "Cláusula de exclusividade (ou ausência dela)       Sim se aplicável",
+    "to": "Regra de não exclusividade (ou escopo restrito)   Obrigatório"
+  },
+  {
+    "id": "2738",
+    "vol": "6",
+    "code": "N9",
+    "from": "SLA mínimo de disponibilidade de API               Recomendado",
+    "to": "Nível de serviço (SLA) mínimo de API e suporte    Recomendado"
+  },
+  {
+    "id": "2738",
+    "vol": "6",
+    "code": "N9",
+    "from": "Processo de resolução de disputas                  Recomendado",
+    "to": "Alçada de escalonamento e solução de conflitos    Recomendado"
+  },
+  {
+    "id": "2744",
+    "vol": "6",
+    "code": "C1",
+    "from": "Exploração                Champion identificado,        40-60% para próximo",
+    "to": "Exploração técnica        Defensor interno (champion)   40-60% p/ próximo estágio"
+  },
+  {
+    "id": "2744",
+    "vol": "6",
+    "code": "C1",
+    "from": "                          problema validado             estágio",
+    "to": "                          e caso de uso validados       (hipótese a calibrar*)"
+  },
+  {
+    "id": "2744",
+    "vol": "6",
+    "code": "C1",
+    "from": "MOU assinado              Termos principais acordados   60-80% para contrato",
+    "to": "MOU assinado              Termos e metas acordados      60-80% p/ contrato (*)"
+  },
+  {
+    "id": "2744",
+    "vol": "6",
+    "code": "C1",
+    "from": "- Parceiro de integração tecnológica: 90 a 180 dias",
+    "to": "- Parceiro de integração tecnológica (API/ecossistema): 90 a 180 dias (referência inicial para calibrar no funil próprio)"
+  },
+  {
+    "id": "2744",
+    "vol": "6",
+    "code": "C1",
+    "from": "- Parceiro estratégico (large enterprise): 180 a 540 dias",
+    "to": "- Parceiro corporativo estratégico (*large enterprise*): 180 a 540 dias (estimativa sujeita ao ciclo de compras e homologação)"
+  },
+  {
+    "id": "2759",
+    "vol": "6",
+    "code": "C3",
+    "from": "Baxter Labs       Raízen          Programa de energia       Conversão em projetos-",
+    "to": "Pulse             Raízen          Hub de inovação (agro,    Validação técnica e"
+  },
+  {
+    "id": "2781",
+    "vol": "6",
+    "code": "E2",
+    "from": "> Expansão rápida demais. Abrir cem unidades em dezoito meses sem infraestrutura de suporte vira colapso. Franqueado mal atendido vira processo judicial e reputação destruída.",
+    "to": "> - **Acelerar a expansão além da capacidade de suporte:** abrir dezenas de unidades em poucos meses sem equipe de consultoria de campo, logística e treinamento leva a rede ao colapso operacional, transformando franqueados sem assistência em ações judiciais de rescisão e desgaste grave da marca."
+  },
+  {
+    "id": "2781",
+    "vol": "6",
+    "code": "E2",
+    "from": "> Canal contra self-serve. Cliente compra direto no site, parceiro reclama.",
+    "to": "> - **Canal indireto contra autoatendimento (*self-serve*):** ocorre quando o cliente prospectado pelo parceiro finaliza a assinatura diretamente no site da startup por um preço menor, gerando disputa de comissão e perda de confiança da revenda."
+  },
+  {
+    "id": "2781",
+    "vol": "6",
+    "code": "E2",
+    "from": "> [!tip] Para franquia",
+    "to": "> [!tip] Checklist prático antes de franquear a operação"
+  },
+  {
+    "id": "2781",
+    "vol": "6",
+    "code": "E2",
+    "from": "> COF elaborada por advogado especializado. Manual operacional completo. Programa de suporte a franqueado. Modelagem financeira para você e para franqueado. Plano de expansão dimensionado à capacidade de suporte.",
+    "to": "> - [ ] Elaborar a Circular de Oferta de Franquia (COF) com advogado especializado na Lei nº 13.966/2019, documentar os manuais operacionais de ponta a ponta e validar a modelagem financeira de retorno tanto para a franqueadora quanto para o franqueado antes de iniciar a venda de unidades."
+  },
+  {
+    "id": "2781",
+    "vol": "6",
+    "code": "E2",
+    "from": "> [!tip] Para channel partnerships",
+    "to": "> [!tip] Checklist prático para canais e parcerias comerciais (*channel partnerships*)"
+  },
+  {
+    "id": "2815",
+    "vol": "6",
+    "code": "E10",
+    "from": "A COF deve ser entregue ao candidato a franqueado **no mínimo 10 (dez) dias corridos antes**:",
+    "to": "Pelo art. 2º, § 1º, da Lei nº 13.966/2019, a franqueadora deve entregar a COF ao candidato com **antecedência mínima comprovada de 10 (dez) dias corridos** em relação a dois marcos:"
+  },
+  {
+    "id": "2815",
+    "vol": "6",
+    "code": "E10",
+    "from": "1. Da assinatura do contrato ou pré-contrato de franquia; **E**",
+    "to": "1. Da assinatura do contrato definitivo ou do pré-contrato de franquia; **e**"
+  },
+  {
+    "id": "2815",
+    "vol": "6",
+    "code": "E10",
+    "from": "2. Do pagamento de **qualquer tipo de taxa ou valor** pela parte do candidato à franqueadora ou a empresa ligada a ela.",
+    "to": "2. Do pagamento de **qualquer taxa, sinal ou remuneração** pelo candidato à franqueadora ou a pessoa jurídica a ela vinculada."
+  },
+  {
+    "id": "2833",
+    "vol": "6",
+    "code": "C3",
+    "from": "Copiar modelo de CEO de empresa grande. CEO de empresa pública que \"só faz estratégia\" está num contexto diferente. Tentar imitar em startup de quarenta pessoas, vira abandono operacional, disfarçado de profissionalização.",
+    "to": "**Imitar a rotina de CEO de companhia aberta (*public company*):** o presidente de uma corporação listada em bolsa que dedica a agenda apenas à alocação de capital e relação com investidores governa uma estrutura madura; tentar replicar esse distanciamento em uma startup de 40 pessoas produz abandono operacional disfarçado de profissionalização."
+  },
+  {
+    "id": "2842",
+    "vol": "6",
+    "code": "N2",
+    "from": "**Protocolo de crisis (estrutura):**",
+    "to": "**Protocolo estruturado de gestão de crise (aplicado ao incidente de seis horas de indisponibilidade na fintech de Lucas e Marina):**"
+  },
+  {
+    "id": "2842",
+    "vol": "6",
+    "code": "N2",
+    "from": "2. **2-6 horas**: definir mensagem-chave (1-3 frases). Definir quem comunica a quem e quando.",
+    "to": "2. **Entre 2 e 6 horas:** fechar a mensagem-chave em três frases factuais e definir o mapa de porta-vozes (enquanto Lucas coordenava a recuperação técnica com a engenharia, Marina centralizava a comunicação direta com os diretores financeiros das contas corporativas)."
+  },
+  {
+    "id": "2842",
+    "vol": "6",
+    "code": "N2",
+    "from": "3. **6-24 horas**: comunicação interna (time) + comunicação com stakeholders principais (investidores, clientes-chave, reguladores se aplicável).",
+    "to": "3. **Entre 6 e 24 horas:** alinhar toda a equipe interna para que ninguém passe informação contraditória e enviar atualização formal aos clientes afetados, investidores do conselho e órgãos reguladores (como Banco Central ou ANPD, quando aplicável)."
+  },
+  {
+    "id": "2842",
+    "vol": "6",
+    "code": "N2",
+    "from": "5. **Primeiras 2 semanas**: gerenciar follow-ups, ajustar narrativa conforme informação nova, transparência calibrada.",
+    "to": "5. **Primeiras 2 semanas:** conduzir reuniões individuais de acompanhamento com os clientes críticos (como Marina fez nas 48 horas seguintes ao incidente), respondendo dúvidas técnicas com transparência calibrada."
+  },
+  {
+    "id": "2842",
+    "vol": "6",
+    "code": "N2",
+    "from": "6. **Mês 1-3**: continuidade (mostrar correção de rota, não apenas contrição).",
+    "to": "6. **Meses 1 a 3:** demonstrar correção estrutural de rota com evidências auditáveis de engenharia e governança, provando que o incidente gerou redundância real e não apenas pedidos de desculpas."
+  },
+  {
+    "id": "2850",
+    "vol": "6",
+    "code": "N9",
+    "from": "- Saber 3-5 mensagens-chave que quer transmitir. Voltar a elas nas respostas.",
+    "to": "- **Dominar 3 mensagens-chave e aplicar a técnica da ponte (*bridging*):** defina previamente as 3 ideias centrais que precisam ficar gravadas na matéria e, diante de perguntas difíceis ou especulativas, reconheça o ponto com serenidade, use uma frase de transição (\"o dado essencial para entender esse movimento na operação é o seguinte\") e retome uma das 3 mensagens-chave com números concretos."
+  },
+  {
+    "id": "2851",
+    "vol": "6",
+    "code": "C4",
+    "from": "- [ ] Brand tracking trimestral (social listening, mais pesquisa em cliente)",
+    "to": "- [ ] Acompanhamento trimestral de percepção de marca (*brand tracking*), combinando monitoramento de menções digitais e pesquisa direta com clientes"
+  },
+  {
+    "id": "2854",
+    "vol": "6",
+    "code": "S5",
+    "from": "**Mapear jornalistas-alvo.** Quem cobre o seu mercado? Em quais veículos? Com que linha editorial? Ler os últimos vinte artigos deles antes de tentar pitch.",
+    "to": "**Mapeamento de veículos e jornalistas-alvo:** identifique quem cobre o seu setor nos veículos especializados de tecnologia e finanças (como Valor Econômico, Brazil Journal, NeoFeed e Exame) e na imprensa geral de negócios, lendo as últimas matérias de cada repórter antes de qualquer abordagem."
+  },
+  {
+    "id": "2854",
+    "vol": "6",
+    "code": "S5",
+    "from": "**Construir relacionamento antes de precisar.** Comentar artigos no LinkedIn. Responder tweets. Ir em evento, e apresentar-se sem pedir nada. Só pedir cobertura depois de já existir familiaridade.",
+    "to": "**Construção de relacionamento antes da pauta:** interaja com o trabalho dos jornalistas no LinkedIn, contribua com dados de mercado sem exigir matéria em troca e apresente-se em eventos do setor, construindo confiança antes de oferecer um anúncio relevante."
+  },
+  {
+    "id": "2854",
+    "vol": "6",
+    "code": "S5",
+    "from": "Os tipos de cobertura têm perfis distintos. Veículos especializados tier 1 (TechCrunch, Bloomberg, Reuters, Valor Econômico, Exame, NeoFeed, Brazil Journal) alcançam investidores, executivos e outras startups. Valem para anúncio de rodada Série A ou mais, lançamento significativo, parceria estratégica ou liderança setorial. O acesso é via assessoria de imprensa ou contato direto com o jornalista do setor.",
+    "to": "Como porta-voz na imprensa (apoiado pela estrutura de assessoria, kit de imprensa e mapeamento de veículos já detalhados no Capítulo 6), o fundador deve calibrar sua exposição conforme o perfil do veículo: a imprensa especializada de negócios e tecnologia (Valor Econômico, Brazil Journal, NeoFeed, Exame, Bloomberg, Reuters) fala diretamente com investidores, decisores B2B e talentos seniores, sendo o canal ideal para rodadas Série A em diante, aquisições e teses setoriais."
+  },
+  {
+    "id": "2854",
+    "vol": "6",
+    "code": "S5",
+    "from": "Eventos. Proprietários (o seu evento). Participação (patrocínio, ou palestra, em eventos de terceiros). Web Summit Rio, RD Summit, The Developers Conference, Campus Party, HSM Expo.",
+    "to": "**Eventos proprietários e setoriais:** combine encontros próprios (jantares executivos e fóruns para clientes) com presença estratégica em grandes conferências de tecnologia, gestão e capital no Brasil (como Web Summit Rio, South Summit Brazil, RD Summit, FEBRABAN TECH, Latitud Vamos Latam Summit, The Developer's Conference e HSM+)."
+  },
+  {
+    "id": "2888",
+    "vol": "6",
+    "code": "S7",
+    "from": "Este capítulo mapeia os dois modos. Articula quando operar em cada um. E dá mecanismos concretos de transição, sem romantizar nenhum lado.",
+    "to": "Nas seções a seguir, detalhamos os critérios práticos para alternar entre intervenção direta e delegação estruturada por domínio (deixando a arquitetura de calendário, rituais semanais e cadência operacional para o Capítulo 8)."
+  },
+  {
+    "id": "2890",
+    "vol": "6",
+    "code": "C4",
+    "from": "> Fala textual em podcast do Social Radars, 2025.",
+    "to": "> Síntese em tradução livre da entrevista de Brian Chesky ao podcast *The Social Radars* (Jessica Livingston e Carol Levy, 2023) e de sua palestra no evento da Y Combinator (2024):"
+  },
+  {
+    "id": "2894",
+    "vol": "6",
+    "code": "E9",
+    "from": "#### 6. Retornos táticos ao fundador Mode",
+    "to": "#### 6. Retornos táticos ao Founder Mode"
+  },
+  {
+    "id": "2894",
+    "vol": "6",
+    "code": "E9",
+    "from": "Não comunicar retornos táticos ao fundador Mode. O fundador volta a operar área delegada, sem explicar ao time. Os C-level interpretam como perda de confiança, e pedem demissão. Retorno tático deve ser sempre comunicado, temporalizado, e explicado.",
+    "to": "**Não comunicar retornos táticos ao *Founder Mode*:** quando o fundador volta a intervir diretamente em uma área delegada sem alinhar o motivo e o prazo com o executivo responsável, a liderança interpreta o movimento como desconfiança e pede demissão; todo retorno tático precisa ser explicado, delimitado no tempo e conduzido ao lado do líder da área."
+  },
+  {
+    "id": "2894",
+    "vol": "6",
+    "code": "E9",
+    "from": "- [ ] Houve retorno consciente ao fundador Mode, em área delegada, nos últimos doze meses, comunicado ao time?",
+    "to": "- [ ] Quando houve retorno tático ao *Founder Mode* em área delegada nos últimos doze meses, o escopo e o prazo foram previamente comunicados ao líder e à equipe?"
+  },
+  {
+    "id": "2898",
+    "vol": "6",
+    "code": "N9",
+    "from": "> **O Ritual de Segunda-Feira às 9h:** Liste as 10 decisões que tomaram o seu tempo na última semana, classifique cada uma pelo nível de **Maturidade Relevante à Tarefa (TRM)** do líder responsável e transfira formalmente as decisões reversíveis com critério claro de sucesso.",
+    "to": "> **O Ritual de Segunda-Feira às 9h:** Liste as 10 decisões que tomaram o seu tempo na última semana, classifique cada uma pelo nível de **Maturidade Relevante à Tarefa (TRM, de Andy Grove)** do líder responsável (baixa: exige direção estruturada passo a passo; média: pede acompanhamento conjunto e perguntas de calibração; alta: permite delegação por objetivos e auditoria de indicadores) e transfira formalmente todas as decisões reversíveis onde o líder já atingiu TRM alta."
+  },
+  {
+    "id": "2900",
+    "vol": "6",
+    "code": "E1",
+    "from": "**Sinal 1, reclamações recorrentes de clientes que você nunca ouviu antes.** Antes, você conhecia cada cliente, e a dor dele. Agora descobre em QBR que quinze por cento da base reclama da mesma coisa há quatro meses, e ninguém te contou. Isso é desconexão. Não profissionalização.",
+    "to": "**Sinal 1, reclamações recorrentes de clientes que demoram meses para chegar ao seu ouvido:** antes você conhecia a dor de cada conta; agora descobre na revisão trimestral (QBR) que 15% da base sofre com a mesma falha de produto há quatro meses sem que nenhum filtro intermediário tenha escalado o alerta."
+  },
+  {
+    "id": "2900",
+    "vol": "6",
+    "code": "E1",
+    "from": "O verdadeiro domínio não é escolher um modo. É saber ter mecanismos que preservam o melhor dos dois simultaneamente.",
+    "to": "O domínio executivo consiste em instalar canais diretos de observação que preservem a sensibilidade da linha de frente sem desautorizar a autonomia operacional dos diretores."
+  },
+  {
+    "id": "2919",
+    "vol": "6",
+    "code": "N9",
+    "from": "Management team weekly. CEO, mais todos direct reports (quatro a dez pessoas). Sessenta a noventa minutos. Agenda. Metrics review (dez a quinze minutos). Priorities update (cada pessoa, dois a três minutos). Topics for discussion, ou decision (trinta a sessenta minutos). Announcements, e asks (dez minutos).",
+    "to": "**Reunião semanal de liderança no formato L10 (*Level 10 Meeting*, do sistema EOS detalhado no Volume 7):** reúne o CEO e seus seis a oito liderados diretos por 90 minutos em horário fixo, seguindo sete blocos cronometrados: 1) quebra-gelo de boas notícias (5 min); 2) revisão do *Scorecard* semanal de métricas (5 min); 3) revisão das prioridades trimestrais (*Rocks*, 5 min); 4) manchetes rápidas de clientes e equipe (5 min); 5) checagem das tarefas da semana anterior (*To-Dos*, 5 min); 6) bloco central de 60 minutos dedicado a **IDS** (*Identify, Discuss, Solve*: identificar a causa raiz dos entraves, discutir sem rodeios e definir ações com dono e prazo); e 7) fechamento com avaliação da reunião de 1 a 10 (5 min)."
+  },
+  {
+    "id": "2920",
+    "vol": "6",
+    "code": "E9",
+    "from": "**Antes da reunião.** Agenda enviada antes (mínimo vinte e quatro horas). Sem agenda, igual a sem reunião. Pre-read quando aplicável (documentos, e métricas). Participants mínimos necessários (cada pessoa extra, igual a custo multiplicado). Objetivo claro. Informar, debater, ou decidir? Se \"informar\", considere se pode ser email.",
+    "to": "**Antes da reunião:** envie a pauta e o documento de leitura prévia (*pre-read*) com pelo menos 24 horas de antecedência; reunião sem pauta não acontece. Convide apenas quem é indispensável para a decisão (cada participante extra multiplica o custo em horas da empresa) e explicite se o objetivo é decidir ou debater; se for apenas informar, cancele o encontro e envie por escrito."
+  },
+  {
+    "id": "2920",
+    "vol": "6",
+    "code": "E9",
+    "from": "Direto. Rating X igual a merit increase Y. \"Atinge\" igual a três por cento. \"Excede\" igual a sete por cento. \"Muito excede\" igual a doze por cento. Simples, transparente, e previsível.",
+    "to": "**Modelo direto (fórmula atrelada à nota):** cada conceito na avaliação corresponde a um percentual predefinido de aumento por mérito (por exemplo, \"atinge expectativas\" gera reajuste de 3%, \"excede\" gera 7% e \"supera amplamente\" gera 12%), trazendo transparência e previsibilidade para a equipe."
+  },
+  {
+    "id": "2920",
+    "vol": "6",
+    "code": "E9",
+    "from": "Promoção via processo. Percentual de promoções que vieram de review formal, versus ad-hoc. Alto percentual igual a processo é decisório. Baixo igual a processo é teatro.",
+    "to": "**Proporção de promoções originadas no ciclo formal:** mede quantas promoções decorreram da avaliação estruturada em comparação com decisões avulsas fora de época. Uma taxa alta comprova que o processo governa as decisões de carreira; uma taxa baixa revela que a avaliação virou mero teatro burocrático."
+  },
+  {
+    "id": "2923",
+    "vol": "6",
+    "code": "S4",
+    "from": "**Princípio 5, Maker's Schedule versus Manager's Schedule (Paul Graham, 2009).**",
+    "to": "**Princípio 5, Agenda de Criador (*Maker's Schedule*) versus Agenda de Gestor (*Manager's Schedule*, Paul Graham, 2009):**"
+  },
+  {
+    "id": "2924",
+    "vol": "6",
+    "code": "C5",
+    "from": "Reserve blocos de meia-jornada (idealmente manhãs inteiras, três a quatro vezes por semana) como \"tempo de pensar\". Intocável no calendário. Defenda com a mesma seriedade que você defenderia uma reunião com o maior cliente da empresa. Porque em termos de impacto estratégico, o valor é maior.",
+    "to": "Reserve três manhãs inteiras por semana (12 horas semanais, garantindo de 25% a 40% da sua carga horária em trabalho profundo e mantendo reuniões internas abaixo de 30% da semana) como blocos intocáveis de criação e decisão estratégica, defendendo essas janelas com o mesmo rigor de uma reunião com o maior cliente da empresa."
+  },
+  {
+    "id": "2933",
+    "vol": "6",
+    "code": "N6",
+    "from": "### A Síndrome do VP de Vendas Mágico: Por Que Contratar um Executivo de Multinacional pelo Currículo Quase Sempre Dá Errado",
+    "to": "### O Executivo de Transplante Incompatível (a Síndrome do \"VP Mágico\"): Por Que Contratar Líderes de Multinacional Apenas pelo Logotipo do Currículo Dá Errado"
+  },
+  {
+    "id": "2933",
+    "vol": "6",
+    "code": "N6",
+    "from": "### O Espelho do Executive Hiring: Você Está Contratando um Construtor de Trincheira ou um Turista de Logotipo?",
+    "to": "### O Espelho do Executive Hiring: Você Está Contratando um Construtor de Trincheira ou um Executivo de Transplante Incompatível?"
+  },
+  {
+    "id": "2940",
+    "vol": "6",
+    "code": "N9",
+    "from": "#### Framework: Who / A Method for Hiring (Geoff Smart & Randy Street, 2008)",
+    "to": "#### Framework: Who / A Method for Hiring (Geoff Smart & Randy Street, 2008, base da entrevista cronológica e do método TORC aplicados no Capítulo 9)"
+  },
+  {
+    "id": "2942",
+    "vol": "6",
+    "code": "E9",
+    "from": "Este capítulo trata de performance review formal, como função organizacional. Quando montar. Como montar. Armadilhas. É diferente de um a um (conversa contínua entre gestor, e colaborador), e de feedback (comunicação imediata sobre um evento). Performance review é o agregado estruturado desses sinais.",
+    "to": "Este capítulo detalha quando e como implantar o ciclo formal de avaliação de desempenho (*performance review*) sem cair em armadilhas burocráticas: diferente da conversa individual semanal (**1:1**, alinhamento contínuo entre gestor e liderado) e do feedback imediato após um fato específico, a avaliação formal consolida esses registros para balizar promoções, mérito e desenvolvimento."
+  },
+  {
+    "id": "2944",
+    "vol": "6",
+    "code": "C1",
+    "from": "**Fonte 1, network do CEO, e do board (primária).** Sessenta a oitenta por cento dos best C-level hires vêm de referral de network pessoal. Lista de trinta a cinquenta contatos de segundo grau (pessoas que o seu network conhece). Abordagem. \"Estou procurando VP Engineering. Você conhece alguém que fez X, Y, Z, e poderia estar aberto a conversar?\". Os investidores são fonte rica. As portfolio companies têm gente boa saindo com frequência.",
+    "to": "**Fonte 1, rede direta do CEO e do conselho de administração (canal principal):** na prática de recrutamento executivo em startups, a maioria das contratações C-level bem-sucedidas (tipicamente de 60% a 80% nas carteiras de fundos de venture capital) nasce de indicações qualificadas de primeiro e segundo graus. Mapeie de 30 a 50 referências da sua rede e dos conselheiros com uma pergunta específica (\"Buscamos um VP de Engenharia que já tenha escalado time de 20 para 80 pessoas; quem é o melhor nome que você já viu operar nesse estágio?\") e consulte os fundos investidores sobre executivos de ponta em transição nas empresas do portfólio."
+  },
+  {
+    "id": "2949",
+    "vol": "6",
+    "code": "C5",
+    "from": "Performance at 12 months. Review formal sinaliza \"excedendo\", \"atingindo\", ou \"abaixo\" das expectativas. Alvo de setenta por cento ou mais \"atingindo, ou excedendo\".",
+    "to": "**Taxa de sucesso aos 12 meses, tempo de rampagem e qualidade das contratações do líder:** na avaliação formal de um ano, a meta é ter **80% ou mais** dos executivos contratados atingindo ou superando as metas do *Scorecard*, combinada a dois indicadores operacionais: **tempo de rampagem (*ramp-up*)** até a entrega do plano de 90 dias aprovado pelo CEO/conselho e **qualidade dos talentos atraídos pelo novo líder** (medida pela nota de desempenho e pela retenção acima de 85% das pessoas que ele contratou para a área)."
+  },
+  {
+    "id": "2952",
+    "vol": "6",
+    "code": "N2",
+    "from": "Até trinta funcionários. Um a um semanais, mais conversa informal de carreira trimestral, mais aumento anual discutido entre founders. Não precisa de processo formal.",
+    "to": "**Até 30 funcionários:** opere com conversas individuais (**1:1**) semanais, conversa estruturada de desenvolvimento a cada seis meses e revisão salarial anual entre os fundadores, sem burocracia pesada. Foi exatamente ao cruzar a marca de **35 pessoas** na sua fábrica e distribuidora que **Henrique** percebeu o custo da omissão: após a conversa franca de devolutiva com **Rodrigo**, abriram um plano de recuperação de 30 dias com metas binárias semanais; quando ficou claro que o coordenador não acompanhava a nova complexidade logística, Henrique fez o desligamento respeitoso com transição organizada e instalou seu primeiro ciclo semestral enxuto para evitar novas \"Traições da Gentileza Falsa\"."
+  },
+  {
+    "id": "2958",
+    "vol": "6",
+    "code": "C5",
+    "from": "Para startups, performance review estruturado vira obrigatório entre trinta, e oitenta funcionários. Menos que isso, conversa informal funciona (o CEO conhece todos). Mais que isso, sem estrutura, desigualdades viram cultura ruim, e turnover indesejado.",
+    "to": "Para startups em crescimento, o ciclo estruturado de avaliação de desempenho torna-se obrigatório ao cruzar a marca de **30 funcionários** (faixa de 30 a 80 pessoas): abaixo de 30 colaboradores, os 1:1s semanais e as conversas semestrais diretas dão conta porque o fundador ainda conhece o trabalho de cada pessoa; a partir de 30 pessoas, a ausência de critérios padronizados gera injustiça entre áreas e perda dos melhores talentos."
+  },
+  {
+    "id": "2959",
+    "vol": "6",
+    "code": "C5",
+    "from": "**e) Calibração.** Pré-requisito. Sessões de calibração entre gestores, antes de os resultados irem para os colaboradores. Como funciona. Cada gestor traz propostas de rating para o seu time. O skip-level (gestor do gestor) participa. O grupo discute casos extremos. \"Todos do seu time excedem? Conte-me sobre cada um\". Os ajustes são feitos. O rating final sai da sala.",
+    "to": "**e) Calibração entre gestores (pré-requisito antes da devolutiva):** nenhuma nota individual é comunicada ao colaborador antes de passar pela reunião de calibração (que começa como uma sessão leve de 1 hora entre CEO e gestores nas empresas de 30 a 80 pessoas e ganha comitês por diretoria acima de 80 colaboradores). Cada líder apresenta as avaliações preliminares da sua área com evidências concretas, o gestor sênior (*skip-level*) questiona distorções (\"Por que 100% da sua equipe recebeu nota máxima se a meta trimestral da área ficou em 70%?\") e a régua final sai nivelada da sala."
+  },
+  {
+    "id": "2959",
+    "vol": "6",
+    "code": "C5",
+    "from": "Performance reviews. Formal annual review de cada pessoa. Feedback 360º (onde aplicável). Comp review em ciclo definido.",
+    "to": "**Ciclo de avaliação de desempenho (*performance review*):** alinhado ao Capítulo 10, combine uma avaliação formal completa por ano (com autoavaliação, insumos 360º de pares, calibração entre gestores e revisão de remuneração) e um ciclo leve de desenvolvimento no meio do ano (semestral)."
+  },
+  {
+    "id": "2961",
+    "vol": "6",
+    "code": "C5",
+    "from": "> OKRs como task list. \"Implementar feature X\" não é KR (é task). KR é \"reduzir churn de cinco por cento para três por cento\". OKRs cascateados top-down sem diálogo. O time recebe objetivos e key results sem input e não se sente dono. Too many OKRs. Quinze objectives equivale a zero prioridade. Três a cinco é o limite. OKRs revisados o tempo todo perdem credibilidade. Devem ser sagrados até o próximo review. Comp atrelado a OKRs incentiva sandbagging (KRs conservadores para garantir bônus).",
+    "to": "> **Armadilhas clássicas com OKRs:** 1) transformar resultados-chave em lista de tarefas (\"lançar funcionalidade X\" é tarefa; o KR é \"reduzir o cancelamento mensal de 5% para 3%\"); 2) impor metas de cima para baixo sem participação da equipe; 3) pulverizar o foco em 15 objetivos (limite a 3 a 5 objetivos por trimestre); 4) alterar os KRs no meio do trimestre sempre que a meta fica difícil; e 5) **atrelar bônus financeiro diretamente ao percentual de OKRs**, o que induz metas defensivas (*sandbagging*): em todo este volume, mantemos os **OKRs desacoplados da folha de pagamento** (para estimular ambição) e vinculamos bônus e comissões exclusivamente a **KPIs operacionais de negócio e entregas individuais auditáveis**."
+  },
+  {
+    "id": "2961",
+    "vol": "6",
+    "code": "C5",
+    "from": "Bônus anual (percentual da base). Early-stage (pré-Série B), quinze a trinta por cento típico. Scale-up (Série B em diante), vinte e cinco a cinquenta por cento. Vinculado a metas específicas (company-level OKRs, role-specific KPIs).",
+    "to": "**Bônus anual (percentual sobre o salário-base anual):** situa-se tipicamente entre 15% e 30% no estágio inicial (pré-Série B) e entre 25% e 50% em scaleups (Série B ou posterior). Deve ser vinculado a **KPIs financeiros da empresa (ARR, margem, retenção) e metas operacionais específicas do cargo**, mantendo os OKRs estratégicos desacoplados da fórmula de bônus para evitar conservadorismo deliberado (*sandbagging*, conforme a regra dos Capítulos 8 e 10)."
+  },
+  {
+    "id": "2969",
+    "vol": "6",
+    "code": "C6",
+    "from": "A Lei 14.611/2023 obrigou empresas com 100+ colaboradores a divulgar relatório de igualdade salarial. Empresas menores ainda estão expostas ao risco reputacional e jurídico: o art. 461 da CLT proíbe diferença salarial por motivo de gênero para trabalho de igual valor. Fazer auditoria interna de equidade salarial antes de crescer o time é boa prática: encontrar o problema internamente é muito menos custoso do que via ação trabalhista.",
+    "to": "Além da exigência de publicação semestral do Relatório de Transparência Salarial para empresas com 100 ou mais empregados (**Lei nº 14.611/2023**), qualquer operação no Brasil responde pelo regime geral de **equiparação salarial do art. 461 da CLT**: independentemente de gênero, todo empregado que exerça idêntica função, para o mesmo empregador, no mesmo estabelecimento empresarial, com igual produtividade e perfeição técnica (desde que a diferença de tempo de empresa não supere 4 anos e a de tempo na função não supere 2 anos) tem direito ao mesmo salário do paradigma, gerando passivo retroativo de diferenças salariais com reflexos em férias, 13º, FGTS e INSS (além de multa específica em casos de discriminação por sexo, raça ou etnia, § 6º). Pelo **art. 461, § 2º, da CLT**, a principal blindagem jurídica contra pedidos de equiparação é justamente possuir **plano de cargos e salários ou quadro de carreira** (validado por norma interna ou negociação coletiva, dispensada homologação governamental desde a Reforma Trabalhista) com critérios objetivos de antiguidade e merecimento, que as bandas salariais deste capítulo ajudam a estruturar."
+  },
+  {
+    "id": "2970",
+    "vol": "6",
+    "code": "N2",
+    "from": "Custo total:               R$ 24.840   (~1,66x o salário bruto)",
+    "to": "Custo total mensal:        R$ 24.840   (~1,66x a 1,78x o salário bruto, conforme pacote de benefícios calibrado por Bia para enquadrar os devs de R$ 7.200 e R$ 11.800 na banda de Pleno)"
+  },
+  {
+    "id": "2974",
+    "vol": "6",
+    "code": "C3",
+    "from": "- **Consultoras de RH (Mercer, Korn Ferry, Hay Group):** pesquisas pagas, mais precisas para cargos C-level e gerência.",
+    "to": "- **Consultorias globais de remuneração (Mercer, Korn Ferry, que incorporou o antigo Hay Group em 2015, e Willis Towers Watson / Radford) e guias salariais anuais (Robert Half, Michael Page e levantamentos anuais da comunidade Código Fonte TV, edições 2025/2026):** combinam bases salariais auditadas para cargos executivos e recortes atualizados para carreiras de produto, dados e engenharia no Brasil."
+  },
+  {
+    "id": "2984",
+    "vol": "6",
+    "code": "C7",
+    "from": "Claw-back: se o colaborador pedir demissão antes do cliff, devolve integralmente",
+    "to": "Regra de proteção: condicione a aquisição e o desembolso ao cumprimento efetivo do marco de permanência (ou preveja devolução proporcional no caso de luvas/hiring bonus com cláusula expressa de permanência mínima validada pelo jurídico trabalhista)"
+  },
+  {
+    "id": "2990",
+    "vol": "6",
+    "code": "E7",
+    "from": "- Early-stage (pré-Series A): equity compensa gap entre salário de mercado e o que a startup pode pagar.",
+    "to": "- **Estágio inicial (pré-Série A):** a participação societária (*equity*) compensa a diferença entre o salário de mercado das grandes corporações e o caixa disponível da startup."
+  },
+  {
+    "id": "2990",
+    "vol": "6",
+    "code": "E7",
+    "from": "**Individual vs. familiar:** plano individual cobre apenas o colaborador. Plano familiar inclui dependentes (cônjuge, filhos). O custo para a empresa sobe significativamente com dependentes: mas o impacto na retenção também. Plano familiar é o padrão em startups Series A+.",
+    "to": "**Cobertura individual versus familiar:** o plano individual atende apenas o colaborador, enquanto o extensivo a dependentes (cônjuge e filhos) eleva o custo mensal da apólice, mas multiplica a retenção de profissionais seniores, tornando-se o padrão de mercado a partir da Série A."
+  },
+  {
+    "id": "3006",
+    "vol": "6",
+    "code": "E1",
+    "from": "Equity é a única moeda que uma startup em estágio inicial usa para atrair e reter talento de qualidade sem destruir o caixa. Engenheiro sênior que custaria R$ 30 mil por mês em salário pode aceitar R$ 18 mil com opções bem estruturadas. Não porque aceita pagar a diferença: mas porque acredita no upside (potencial de valorização).",
+    "to": "A participação societária (*equity*) permite que uma startup em estágio inicial atraia e retenha talentos de ponta preservando o caixa operacional: um engenheiro sênior que custaria R$ 30 mil mensais em uma grande corporação aceita R$ 18 mil fixos combinados a um pacote de opções bem desenhado porque enxerga potencial real de multiplicação patrimonial (*upside*) no longo prazo."
+  },
+  {
+    "id": "3007",
+    "vol": "6",
+    "code": "S2",
+    "from": "### Por que alinhar seus executivos-chave com a valorização de longo prazo da empresa é o único jeito de vencer a guerra por talentos contra bancos e big techs",
+    "to": "### Para quem e quando montar o plano de incentivos de longo prazo: alinhando executivos e talentos-chave contra bancos e big techs"
+  },
+  {
+    "id": "3007",
+    "vol": "6",
+    "code": "S2",
+    "from": "O problema: sem estrutura correta, o que deveria ser instrumento de alinhamento vira passivo tributário descoberto em due diligence (auditoria prévia à transação). Ou pior, a empresa chega a um exit (evento de liquidez para os sócios) e o colaborador descobre que o ganho que esperava vai para a Receita Federal de formas que ninguém explicou.",
+    "to": "Esse plano deve ser estruturado logo nas primeiras contratações estratégicas (entre o estágio *Seed* e a Série A, reservando de 10% a 15% do *cap table* para executivos, engenheiros seniores e lideranças críticas), pois outorgar opções sem modelagem jurídica adequada transforma o incentivo de longo prazo em passivo trabalhista e previdenciário descoberto na auditoria (*due diligence*) de uma rodada ou aquisição (*exit*)."
+  },
+  {
+    "id": "3010",
+    "vol": "6",
+    "code": "C3",
+    "from": "O colaborador não recebe ações reais. Recebe uma **promessa de pagamento em dinheiro** equivalente ao valor econômico de determinada participação em um evento de liquidez (M&A, IPO, ou pagamento de dividendos extraordinários).",
+    "to": "Na *phantom share*, o colaborador não subscreve quotas ou ações reais nem desembolsa caixa para preço de exercício: recebe uma **promessa contratual de bônus em dinheiro** atrelada à valorização da empresa, cujo risco econômico reside no fato de que o pagamento só ocorre se houver efetivo evento de liquidez (M&A, IPO ou distribuição extraordinária prevista no contrato)."
+  },
+  {
+    "id": "3013",
+    "vol": "6",
+    "code": "N9",
+    "from": "> [!warning] Não existe estrutura 100% segura em 2026",
+    "to": "> [!warning] O que o Tema 1.226 do STJ pacificou em 2024 e o que segue em risco de autuação em 2026"
+  },
+  {
+    "id": "3014",
+    "vol": "6",
+    "code": "C5",
+    "from": "### Outorgar opções a R$ 0,01 sem risco mercantil, esquecer a cláusula de recompra para Bad Leaver e prometer \"% da empresa\" em vez de número fixo de opções",
+    "to": "### Os erros que destroem a natureza mercantil do plano: preço de exercício simbólico (R$ 0,01 em vez do valor justo), ausência de recompra para Bad Leaver e promessa de \"% fixo\" sem diluição"
+  },
+  {
+    "id": "3016",
+    "vol": "6",
+    "code": "C5",
+    "from": "| Estágio | Pool recomendado (fully diluted) | Observação |",
+    "to": "| Estágio da Rodada | Reserva Total do Pool (% *Fully Diluted*) | Faixas Típicas de Outorga Individual por Cadeira (Referências de Mercado*) |"
+  },
+  {
+    "id": "3017",
+    "vol": "6",
+    "code": "E7",
+    "from": "> Investidores calculam participação fully diluted: incluindo o option pool. Um pool de 15% antes da rodada significa que founders e investidores existentes já estão diluídos por esse pool antes de o novo investidor entrar. Sempre modelar o cap table com o pool incluído antes de negociar valuation.",
+    "to": "> Os fundos de investimento calculam a participação societária na base totalmente diluída (*fully diluted*), já incluindo a reserva do plano de opções (*option pool*). Exigir um *pool* de 15% na condição pré-investimento (*pre-money*) significa que a diluição recai integralmente sobre os **fundadores** e sócios atuais antes da entrada do novo cheque; por isso, simule sempre o quadro societário (*cap table*) com o *pool* incluso antes de fechar o *valuation*."
+  },
+  {
+    "id": "3017",
+    "vol": "6",
+    "code": "E7",
+    "from": "**Pool insuficiente para contratações futuras.** Founders que não criam pool grande o suficiente descobrem que precisam diluir mais na Série A do que planejado para expandir o pool. Criar pool com horizonte de 18–24 meses de contratações planejadas.",
+    "to": "**Reserva de opções (*pool*) subdimensionada para o plano de contratações:** **fundadores** que reservam um *pool* pequeno demais precisam aprovar nova expansão antes da Série A, sofrendo diluição extra fora de hora; dimensione a reserva para cobrir de 18 a 24 meses de contratações executivas e técnicas planejadas."
+  },
+  {
+    "id": "3017",
+    "vol": "6",
+    "code": "E7",
+    "from": "**Não modelar o cap table fully diluted antes de cada rodada.** Founders chegam à Série A achando que têm 40% da empresa. Com o option pool existente, os COCPs, e o novo pool exigido pelo VC, calculado fully diluted, têm 28%. A surpresa na hora do term sheet destrói negociação. Modelar sempre.",
+    "to": "**Não simular o *cap table* totalmente diluído (*fully diluted*) antes da rodada:** muitos **fundadores** chegam à Série A acreditando deter 40% da companhia, mas ao somarem a conversão de mútuos conversíveis, o *pool* existente e a expansão exigida pelo novo fundo na proposta (*term sheet*), descobrem que sua fatia real cai para 28%. Simule todas as conversões antes de sentar à mesa."
+  },
+  {
+    "id": "3018",
+    "vol": "6",
+    "code": "N9",
+    "from": "#### Aceleração",
+    "to": "#### Cláusulas de proteção societária: aceleração de vesting (*single-trigger* vs. *double-trigger*)"
+  },
+  {
+    "id": "3018",
+    "vol": "6",
+    "code": "N9",
+    "from": "**Single-trigger**: aceleração automática em mudança de controle (M&A, fusão). Todas as opções vestem imediatamente quando o deal fecha.",
+    "to": "**Gatilho único (*single-trigger*):** provoca a aquisição (*vesting*) antecipada e automática de 100% das opções no exato momento em que ocorre a mudança de controle societário (M&A ou fusão)."
+  },
+  {
+    "id": "3018",
+    "vol": "6",
+    "code": "N9",
+    "from": "**Double-trigger**: aceleração apenas se houver (1) mudança de controle E (2) demissão sem justa causa (ou rebaixamento de função) dentro de 12 a 24 meses após o evento.",
+    "to": "**Gatilho duplo (*double-trigger*):** a aceleração das opções só ocorre se se combinarem dois eventos cumulativos: (1) a venda do controle da empresa **e** (2) a dispensa sem justa causa (ou esvaziamento de funções/redução salarial) do executivo nos 12 a 24 meses seguintes ao fechamento."
+  },
+  {
+    "id": "3018",
+    "vol": "6",
+    "code": "N9",
+    "from": "> [!tip] Double-trigger é o padrão em startups bem assessoradas",
+    "to": "> [!tip] Por que o gatilho duplo (*double-trigger*) é o padrão de governança em M&A"
+  },
+  {
+    "id": "3018",
+    "vol": "6",
+    "code": "N9",
+    "from": "> Single-trigger parece mais generoso para o colaborador, mas na prática aumenta o custo da aquisição para o acquirer: e isso reduz o preço total do deal. Double-trigger é melhor para todos se o colaborador realmente quer ficar após o exit.",
+    "to": "> A aceleração de gatilho único encarece a operação para o comprador (que terá de criar outro pacote de retenção pós-fechamento) e acaba descontada do preço da empresa; o gatilho duplo protege o executivo contra demissão arbitrária sem destruir o incentivo de permanência após a venda."
+  },
+  {
+    "id": "3018",
+    "vol": "6",
+    "code": "N9",
+    "from": "#### Good leaver / bad leaver",
+    "to": "#### Regras de saída e recompra: *Good Leaver* versus *Bad Leaver*"
+  },
+  {
+    "id": "3018",
+    "vol": "6",
+    "code": "N9",
+    "from": "Define o que acontece com as opções quando o colaborador sai.",
+    "to": "A cláusula de saída (*leaver*) disciplina o destino das opções já adquiridas (*vested*) e das parcelas a adquirir (*unvested*) quando o beneficiário deixa a sociedade, evitando que um ex-executivo saia litigando ou atuando em concorrente e continue sócio no *cap table*:"
+  },
+  {
+    "id": "3018",
+    "vol": "6",
+    "code": "N9",
+    "from": "| Situação | Good leaver | Bad leaver |",
+    "to": "| Critério Contratual | Saída Boa (*Good Leaver*) | Saída Ruim (*Bad Leaver*) |"
+  },
+  {
+    "id": "3018",
+    "vol": "6",
+    "code": "N9",
+    "from": "| Exemplos | Demissão sem justa causa, doença, morte | Demissão por justa causa, violação de NDA, concorrência |",
+    "to": "| Hipóteses típicas | Dispensa sem justa causa, invalidez, aposentadoria ou falecimento | Dispensa por justa causa, quebra de sigilo (NDA) ou ida para concorrente |"
+  },
+  {
+    "id": "3018",
+    "vol": "6",
+    "code": "N9",
+    "from": "| Opções vested | Pode exercer dentro do prazo (90–180 dias) | Empresa recompra pelo preço de exercício (ou perde) |",
+    "to": "| Opções já adquiridas (*vested*) | Mantém o direito de exercer no prazo contratual (90 a 180 dias) ou recompra pelo valor justo | Caducam ou a empresa recompra pelo valor nominal/preço de exercício pago |"
+  },
+  {
+    "id": "3018",
+    "vol": "6",
+    "code": "N9",
+    "from": "**Prazo de exercício pós-saída**. Padrão americano é 90 dias. No Brasil, recomenda-se 180 dias para dar ao colaborador tempo de resolver a situação tributária e financeira do exercício.",
+    "to": "**Prazo de exercício após o desligamento (para *Good Leaver*):** enquanto o padrão americano fixa 90 dias, no Brasil recomenda-se estipular de 180 dias a 12 meses para que o ex-colaborador tenha fôlego financeiro para pagar o preço de exercício na estrutura mercantil."
+  },
+  {
+    "id": "3020",
+    "vol": "6",
+    "code": "E10",
+    "from": "#### 2. Phantom share (ação fantasma)",
+    "to": "#### 2. Phantom share (participação fantasma ou sintética, detalhada na seção de Ltda. abaixo)"
+  },
+  {
+    "id": "3020",
+    "vol": "6",
+    "code": "E10",
+    "from": "**Desvantagem principal**. Tributado como remuneração (bônus) no momento do pagamento: sem discussão sobre natureza mercantil. IRRF na fonte + contribuição previdenciária.",
+    "to": "**Tratamento fiscal e trabalhista:** por ser paga em dinheiro pela própria empresa sem subscrição de ações, tem natureza salarial/remuneratória inequívoca no desembolso (sujeita a IRRF pela tabela progressiva, INSS e FGTS quando vinculada a contrato CLT, conforme detalhado na seção \"Estrutura para Ltda.: phantom shares na prática\" adiante)."
+  },
+  {
+    "id": "3020",
+    "vol": "6",
+    "code": "E10",
+    "from": "**Contrato necessário.** Acordo de phantom shares com: definição do percentual, eventos de liquidez que ativam o pagamento, vesting análogo ao de opções, e good/bad leaver.",
+    "to": "**Contrato de outorga de *phantom shares*:** instrumento particular que formaliza a fórmula de cálculo do bônus sintético, os eventos de liquidez que disparam o pagamento (com condição suspensiva expressa), o cronograma de aquisição (*vesting* de 4 anos com *cliff* de 1 ano), as hipóteses de perda em caso de *Bad Leaver* e o plano de migração futura para opções reais caso a Ltda. seja transformada em S.A."
+  },
+  {
+    "id": "3025",
+    "vol": "6",
+    "code": "C5",
+    "from": "- 3 anos com cliff de 6 meses: para contratações sênior em early-stage que têm poder de barganha.",
+    "to": "- **Padrão de mercado para executivos, colaboradores e cofundadores (4 anos com *cliff* de 1 ano):** protege o *cap table* contra saídas prematuras no primeiro ano (inclusive entre sócios operacionais, via cláusula de *reverse vesting* ou opção de recompra no acordo de sócios)."
+  },
+  {
+    "id": "3025",
+    "vol": "6",
+    "code": "C5",
+    "from": "- 2 anos com cliff de 1 ano: para advisors e colaboradores de curto prazo.",
+    "to": "- **2 anos com *cliff* de 6 a 12 meses:** utilizado exclusivamente para conselheiros consultivos (*advisors*) com entregas trimestrais definidas."
+  },
+  {
+    "id": "3025",
+    "vol": "6",
+    "code": "C5",
+    "from": "- Sem cliff para cofundadores (já têm equity direto, não opção).",
+    "to": "- **Outorgas de reposição (*refresh grants*, 3 a 4 anos sem novo *cliff*):** aplicadas a executivos e talentos-chave que já cumpriram seu primeiro ciclo na empresa e recebem novo lote de retenção."
+  },
+  {
+    "id": "3029",
+    "vol": "6",
+    "code": "N2",
+    "from": "#### 1. Articulação de valores, não clichê",
+    "to": "#### 1. Articulação de princípios com custo real (da frase de pôster à regra dos 14 testes de bancada de Henrique)"
+  },
+  {
+    "id": "3030",
+    "vol": "6",
+    "code": "S7",
+    "from": "> Ferramentas de colaboração evoluem rapidamente. Princípios, comunicação escrita, rituais assíncronos, gestão baseada em confiança, são estáveis. Revisar a cada vinte e quatro meses.",
+    "to": "> Enquanto os aplicativos de colaboração mudam a cada ciclo tecnológico, os fundamentos de comunicação escrita, rituais assíncronos e gestão por entregas permanecem estáveis (ferramentas e referências legais conferidas em abril de 2026)."
+  },
+  {
+    "id": "3032",
+    "vol": "6",
+    "code": "E2",
+    "from": "Valores no cartaz, prática diferente. A hipocrisia visível é destrutiva.",
+    "to": "- **Pregação no pôster de parede e prática oposta na trincheira:** quando o discurso oficial diverge do que a liderança premia na segunda-feira, a hipocrisia visível corrói a confiança (não por acaso, levantamentos globais de engajamento e retenção, como os da Gallup e do MIT Sloan Management Review, apontam cultura tóxica e falha de gestão direta muito à frente de salário entre os motivos de pedido de demissão)."
+  },
+  {
+    "id": "3032",
+    "vol": "6",
+    "code": "E2",
+    "from": "Valores copiados de Netflix, ou Amazon. Não são seus. Não viveram pela sua trajetória. Os funcionários percebem.",
+    "to": "- **Importar frases prontas da Netflix ou da Amazon sem lastro na própria história:** princípios que não nasceram de decisões difíceis vividas pelos fundadores soam artificiais e são rapidamente ignorados pela equipe."
+  },
+  {
+    "id": "3032",
+    "vol": "6",
+    "code": "E2",
+    "from": "Cultura como perk. \"Temos mesa de pebolim, e cerveja grátis\", não é cultura. Isso é benefício. Cultura é comportamento agregado.",
+    "to": "- **Confundir cultura com mimo de escritório (*perks*):** oferecer mesa de pebolim, chope na sexta-feira e moletom personalizado é pacote de conveniência; cultura é o padrão de comportamento que a empresa exige na hora de cumprir um prazo ou corrigir um erro de cliente."
+  },
+  {
+    "id": "3032",
+    "vol": "6",
+    "code": "E2",
+    "from": "Fundador imune a feedback. Se o valor é \"transparência radical\", e o fundador não aceita crítica direta, a cultura é performativa.",
+    "to": "- **Fundador que exige franqueza mas pune quem traz más notícias:** se a empresa declara \"transparência radical\" e o CEO reage na defensiva quando um líder aponta uma falha do produto, o time aprende em uma semana que a franqueza é apenas teatro."
+  },
+  {
+    "id": "3032",
+    "vol": "6",
+    "code": "E2",
+    "from": "Demitir tarde demais por \"cultura\". Os funcionários leem lentidão, como sinal de que os valores não importam.",
+    "to": "- **Adiar o desligamento de quem viola valores inegociáveis:** cada mês de hesitação diante de um comportamento antiético ou desrespeitoso comunica a toda a equipe que os princípios escritos não valem na prática."
+  },
+  {
+    "id": "3032",
+    "vol": "6",
+    "code": "E2",
+    "from": "Contratar rápido, e comprometer fit. Em escala, diluição é fatal.",
+    "to": "- **Baixar a barra de alinhamento cultural para fechar vagas no desespero:** contratar pessoas desalinhadas apenas para bater meta de crescimento de quadro dilui a densidade de talentos e cria focos de atrito em poucos meses."
+  },
+  {
+    "id": "3032",
+    "vol": "6",
+    "code": "E2",
+    "from": "Cultura só top-down. Os funcionários experientes, de todos os níveis, precisam ser co-criadores.",
+    "to": "- **Tratar a cultura como monopólio do topo da pirâmide:** sem envolver os profissionais mais respeitados de cada área como guardiões práticos do padrão de trabalho, as regras não sobrevivem à abertura de novos turnos ou escritórios."
+  },
+  {
+    "id": "3032",
+    "vol": "6",
+    "code": "E2",
+    "from": "Ignorar sub-culturas tóxicas. Time pequeno problemático se propaga, se não endereçado.",
+    "to": "- **Tolerar feudos e subculturas hostis em áreas isoladas:** quando uma diretoria passa a operar com regras próprias de politicagem ou culpa cruzada sem intervenção do CEO, esse padrão contamina o restante da companhia."
+  },
+  {
+    "id": "3032",
+    "vol": "6",
+    "code": "E2",
+    "from": "Medir cultura, e não agir sobre resultados. Engagement survey com score baixo, seguido de inação. Destrói credibilidade do próprio processo.",
+    "to": "- **Rodar pesquisas de clima e engavetar os resultados:** aplicar questionários de engajamento (*pulse surveys*) e não tomar nenhuma atitude visível diante de notas baixas destrói a credibilidade da escuta interna."
+  },
+  {
+    "id": "3032",
+    "vol": "6",
+    "code": "E2",
+    "from": "Onboarding superficial. Primeiro dia com paperwork de RH, em vez de cultura, é oportunidade perdida.",
+    "to": "- **Reduzir a primeira semana do contratado à assinatura de formulários de RH:** desperdiçar a janela de maior atenção do novo colaborador sem ensinar como a empresa decide, atende clientes e resolve conflitos compromete a rampa de integração."
+  },
+  {
+    "id": "3032",
+    "vol": "6",
+    "code": "E2",
+    "from": "Tolerar brilliant jerk por resultado de curto prazo. O custo sistêmico supera o benefício individual em quase todos os casos documentados.",
+    "to": "- **Manter o \"craque tóxico\" (*brilliant jerk*) por medo de perder receita no trimestre:** o custo de rotatividade dos colegas nota 10 e de destruição da confiança interna supera a entrega individual desse profissional em todos os cenários de médio prazo."
+  },
+  {
+    "id": "3034",
+    "vol": "6",
+    "code": "C5",
+    "from": "Exemplo de valor real. \"Intensidade antes de perfeição\". Distingue. Outra empresa pode genuinamente valorizar \"perfeição antes de intensidade\". Implica escolhas diferentes de contratação, processo, e comunicação.",
+    "to": "**Exemplo de princípio real:** *\"Velocidade com segurança mínima vence perfeição lenta\"*. Esse enunciado passa no teste porque o seu oposto (*\"Só lançamos quando cada detalhe estiver impecável, mesmo que leve o dobro do tempo\"*, como na regra dos 14 testes de bancada da fábrica de Henrique) é uma escolha perfeitamente legítima para outra empresa séria, orientando decisões concretas de contratação, engenharia e atendimento."
+  },
+  {
+    "id": "3034",
+    "vol": "6",
+    "code": "C5",
+    "from": "3. Testar tensão. A formulação reversa faz sentido para outra empresa? Se sim, bom.",
+    "to": "3. **Aplicar o teste do oposto plausível:** pergunte se o inverso daquele princípio seria defendido com orgulho por outra empresa séria; se o oposto for algo absurdo que ninguém defenderia (como \"desonestidade\"), descarte a platitude e reescreva como escolha entre duas prioridades legítimas."
+  },
+  {
+    "id": "3034",
+    "vol": "6",
+    "code": "C5",
+    "from": "> 2. **O Teste do Oposto Plausível:** Olhe para os valores escritos no seu site. Se o oposto de um valor seu for algo idiota (ex: o oposto de *\"Honestidade\"* é *\"Ser Ladrão\"*), essa palavra não ajuda ninguém a decidir nada no dia a dia. Seus princípios resolvem dilemas reais (ex: *\"Velocidade com 80% de certeza vence perfeição lenta\"*)?",
+    "to": "> 2. **O Teste do Oposto Plausível:** Olhe para os valores escritos no pôster ou no site da sua empresa. Se o oposto do seu valor é algo que nenhuma empresa séria defenderia (o oposto de *\"Integridade\"* é *\"Fraude\"*), ele é apenas platitude decorativa. Seus princípios têm um oposto que outra operação respeitável escolheria e ajudam o time a decidir sozinho na trincheira (como a regra dos 14 testes de bancada de Henrique antes de liberar qualquer lote)?"
+  },
+  {
+    "id": "3035",
+    "vol": "6",
+    "code": "E7",
+    "from": "Exemplos de articulação boa (publicamente disponíveis). Netflix Culture Deck (original 2009, e revisões). Amazon Leadership Principles. Stripe's \"The Stripe Way\". GitLab's public handbook. Estudar, não para copiar. Mas para ver como articulam, sem clichê.",
+    "to": "**Referências públicas de codificação cultural sem clichês:** vale estudar como empresas globais (o *Culture Deck* da Netflix de 2009, os *Leadership Principles* da Amazon e o manual público do GitLab) e operações brasileiras ou latino-americanas com forte engenharia no país (como os princípios públicos do Nubank e do Mercado Livre, ou o *Código de Cultura* da RD Station divulgado antes da aquisição pela TOTVS) traduzem valores em dilemas operacionais claros (\"dados vencem opinião na dúvida\" contra \"a intuição de quem conhece o cliente tem a palavra final\"), usando-os como referência de formato e nunca para cópia literal."
+  },
+  {
+    "id": "3040",
+    "vol": "6",
+    "code": "E9",
+    "from": "Métricas de funil de recrutamento. Aplicantes por grupo, depois shortlist, depois entrevistas, depois offers, depois aceitos. Taxa de conversão em cada etapa por grupo demográfico. Queda em etapa específica igual a bias, ou fricção localizada, para investigar.",
+    "to": "**Métricas de conversão do funil seletivo:** acompanhe a proporção de candidatos de diferentes perfis e regiões em cada etapa (inscritos, pré-selecionados, avaliados no teste prático cego, aprovados na entrevista final e propostas aceitas). Uma queda brusca de conversão concentrada em uma única etapa aponta viés de avaliação ou barreira específica que precisa ser auditada."
+  },
+  {
+    "id": "3040",
+    "vol": "6",
+    "code": "E9",
+    "from": "Apenas no recrutamento. Contratar diverso, sem retenção, ou promoção, igual a revolving door.",
+    "to": "**Olhar apenas para a porta de entrada:** ampliar a diversidade na contratação sem garantir integração justa, segurança psicológica e critérios claros de promoção cria apenas uma porta giratória (*revolving door*), em que os novos profissionais pedem demissão em seis meses."
+  },
+  {
+    "id": "3043",
+    "vol": "6",
+    "code": "N6",
+    "from": "> [!warning] No asshole rule (Robert Sutton)",
+    "to": "> [!warning] Tolerância zero ao \"craque tóxico\" (a regra de Robert Sutton em *The No Asshole Rule*, detalhada na Seção 8)"
+  },
+  {
+    "id": "3046",
+    "vol": "6",
+    "code": "E9",
+    "from": "Glassdoor rating. Alvo igual ou maior que quatro vírgula zero em cinco.",
+    "to": "**Nota pública no Glassdoor:** meta $\\ge 4,0$ (na escala de 1,0 a 5,0), acompanhada de aprovação do CEO $\\ge 80\\%$ e eNPS interno $\\ge +30$ (excelente $\\ge +50$)."
+  },
+  {
+    "id": "3046",
+    "vol": "6",
+    "code": "E9",
+    "from": "- [ ] CEO approval rating (Glassdoor) ≥ 80%; retenção em primeiros 90 dias ≥ 95%; cultura mantida em escala via handbook, leadership development e rituais.",
+    "to": "- [ ] Indicadores culturais em faixa saudável: eNPS interno $\\ge +30$, nota no Glassdoor $\\ge 4,0$, aprovação do CEO $\\ge 80\\%$ e retenção nos primeiros 90 dias $\\ge 95\\%$, sustentados por manual da empresa (*handbook*), formação de líderes e rituais semanais."
+  },
+  {
+    "id": "3047",
+    "vol": "6",
+    "code": "C5",
+    "from": "### Furando a bolha do recrutamento por indicação de amigos: testes técnicos cegos de trabalho real, busca ativa fora do eixo óbvio e critérios objetivos de avaliação",
+    "to": "### Equilibrando indicação interna (30% a 40% das vagas) com busca ativa fora da bolha: testes técnicos cegos de trabalho real e critérios objetivos de avaliação"
+  },
+  {
+    "id": "3053",
+    "vol": "6",
+    "code": "N3",
+    "from": "A diluição é matemática. Se a empresa tinha 50 pessoas com cultura consolidada e contratou mais 60 em seis meses, os \"novos\" são maioria. Os valores vividos pelos veteranos não se transmitem automaticamente. Cada novo contratado traz suas próprias referências, de empresas anteriores, de culturas diferentes, de estilos de trabalho distintos. Sem mecanismos deliberados de transmissão, a cultura é redefinida por padrão, não por escolha.",
+    "to": "A diluição cultural em fases de expansão acelerada é matemática: quando **Lucas e Marina** saltaram de **45 para 95 colaboradores em oito meses** (somando a contratação em lote após a Série A e a integração da startup adquirida), os recém-chegados tornaram-se maioria absoluta na operação. Como os hábitos dos veteranos não passam por osmose para 50 pessoas novas ao mesmo tempo, cada contratado importa os vícios da sua antiga empresa e, sem rituais deliberados de integração, a cultura muda por inércia."
+  },
+  {
+    "id": "3055",
+    "vol": "6",
+    "code": "N1",
+    "from": "Chamamos o erro inicial da equipe de Rafael de **A Cegueira da Homogeneidade Confortável**: contratar seis pessoas que pensam, estudam e vivem exatamente igual a você e achar que tem seis cérebros na sala, quando na verdade tem apenas **um único cérebro repetido seis vezes com seis salários diferentes**. Em um país continental e desigual como o Brasil, diversidade cognitiva, regional, de gênero e de trajetória combinada com **alta exigência de performance** não é pauta ideológica nem teatro de relações públicas; é inteligência competitiva contra pontos cegos de mercado.",
+    "to": "O tropeço inicial de **Rafael** mostra o custo real da **Homogeneidade de Bolha**: contratar seis profissionais que estudaram nas mesmas escolas, moram nos mesmos bairros e pensam exatamente igual ao fundador não coloca seis cérebros na sala, mas apenas **um único cérebro repetido seis vezes com seis salários diferentes**. Em um mercado continental e heterogêneo como o Brasil, combinar repertórios regionais, socioeconômicos e demográficos distintos com **barra alta de entrega** funciona como defesa operacional direta contra pontos cegos de produto e vendas."
+  },
+  {
+    "id": "3055",
+    "vol": "6",
+    "code": "N1",
+    "from": "Andy Grove já ensinava que você sempre deve medir uma estação de trabalho pelo seu **Output (saída final entregue e testada)**, nunca pela **Atividade (horas sentado na cadeira ou reuniões atendidas)**. Chamamos a patologia do remoto mal gerido de **O Presencialismo Digital de Teatro**: levar os piores vícios do escritório físico (interrupção a cada 3 minutos no Slack/WhatsApp e reuniões infinitas de câmera aberta) para dentro da casa das pessoas, destruindo o foco profundo sem ganhar a energia do presencial.",
+    "to": "Como já ensinava Andy Grove em *High Output Management*, um gestor mede uma estação de trabalho pelo seu **resultado entregue e testado (*output*)**, nunca pela **atividade aparente** (horas conectado no chat ou reuniões de câmera aberta). Quando uma empresa leva os piores vícios do escritório físico (interrupções a cada três minutos no WhatsApp/Slack e vigilância de tela) para dentro da casa da equipe, ela destrói o trabalho profundo sem ganhar a coesão do convívio presencial."
+  },
+  {
+    "id": "3056",
+    "vol": "6",
+    "code": "C5",
+    "from": "**Rituais de pertencimento.** Offsites anuais (se remote), ou retiros estratégicos. Celebração de marcos (primeira rodada, primeiro cliente âncora, aniversários de empresa). Projetos inter-áreas (hackathons, workshops), que juntam pessoas que não trabalhariam juntas.",
+    "to": "**Rituais presenciais de pertencimento (calibrados pelo porte):** em operações remotas ou híbridas, reúna toda a equipe presencialmente a cada trimestre enquanto a empresa tiver até 50 pessoas, semestralmente na faixa de 50 a 200 colaboradores e anualmente (combinado a encontros regionais por área) acima de 200 pessoas, celebrando marcos de clientes e promovendo projetos conjuntos entre áreas que não interagem na rotina."
+  },
+  {
+    "id": "3056",
+    "vol": "6",
+    "code": "C5",
+    "from": "Empresas de duzentas a mil pessoas. All-hands mensal (tamanho limita frequência). Weeklies por time, ou departamento. Offsite anual global, três a cinco dias, todos presenciais. Investimento significativo (R$ 3 a R$ 10 mil por pessoa). Mas crítico. Mini-offsites regionais.",
+    "to": "**Operações de 200 a 1.000 pessoas:** reunião geral (*all-hands*) mensal combinada a rituais semanais por diretoria; seguindo a régua de porte do volume (encontros presenciais trimestrais até 50 pessoas e semestrais de 50 a 200), acima de 200 colaboradores realize um encontro presencial anual de três a cinco dias (investimento típico de R$ 3 mil a R$ 10 mil por pessoa) complementado por encontros regionais semestrais."
+  },
+  {
+    "id": "3057",
+    "vol": "6",
+    "code": "E1",
+    "from": "> Em hipercrescimento, onboarding não é processo de RH. É infraestrutura crítica de transmissão cultural. Precisa ser tratado com o mesmo rigor que sistema de dados ou processo de vendas. Falhar no onboarding em escala equivale a contratar 60 pessoas e apresentá-las a uma empresa diferente da que você quer construir.",
+    "to": "> Durante fases de hipercrescimento, o programa de integração (*onboarding*) funciona como a principal infraestrutura de transmissão cultural da companhia e exige o mesmo rigor de engenharia dedicado ao funil de vendas ou à arquitetura de dados: falhar na integração de 50 ou 60 recém-chegados em poucos meses significa entregar a operação a pessoas que desconhecem os critérios de decisão da casa."
+  },
+  {
+    "id": "3057",
+    "vol": "6",
+    "code": "E1",
+    "from": "Comunicação aumentada do fundador. Em hipercrescimento, o CEO precisa se comunicar com o time com frequência maior do que parece necessária. All-hands quinzenal se torna semanal. Memos escritos sobre decisões importantes circulam amplamente. O objetivo não é controle, é manutenção de contexto compartilhado entre pessoas que nunca se encontraram.",
+    "to": "**Comunicação redobrada dos fundadores:** durante saltos rápidos de contratação, o CEO precisa aumentar a frequência de alinhamento com a base, passando a reunião geral de quinzenal para semanal e publicando memorandos escritos sobre o racional das decisões estratégicas para manter o mesmo contexto entre veteranos e recém-chegados."
+  },
+  {
+    "id": "3060",
+    "vol": "6",
+    "code": "E9",
+    "from": "Onboarding estruturado com componente de cultura explícito. Em remoto, o novo funcionário não absorve cultura por osmose. Precisa de ritual deliberado, sessão de 1:1 com o CEO ou fundador na primeira semana (mesmo que breve), apresentação de casos históricos da empresa onde valores foram testados, buddy cultural, um colega designado para contextualizar a \"forma de fazer as coisas aqui\" nos primeiros 90 dias.",
+    "to": "**Integração (*onboarding*) estruturada com módulo cultural explícito:** no trabalho remoto, o novo colaborador não absorve costumes por osmose e precisa de três rituais deliberados: 1) sessão com o fundador na primeira semana; 2) estudo de casos reais da história da empresa em que os valores custaram dinheiro; e 3) padrinho cultural (*buddy*): um colega veterano designado para orientar sobre \"como decidimos e trabalhamos aqui\" ao longo dos primeiros 90 dias."
+  },
+  {
+    "id": "3060",
+    "vol": "6",
+    "code": "E9",
+    "from": "Escalar o onboarding antes de escalar o headcount. Antes de acelerar contratações, documentar o onboarding atual, identificar o que é insubstituível (sessão com fundador, buddy, imersão em valores) e criar versões escaláveis, vídeo do fundador gravado com qualidade, grupo de onboarding mensal em vez de individual, buddy program com treinamento.",
+    "to": "**Escalar a estrutura de integração antes de acelerar o quadro:** antes de abrir dezenas de vagas simultâneas, documente o roteiro atual, preserve os pontos inegociáveis (conversa com os fundadores, padrinho interno e casos práticos de valores) e construa formatos escaláveis: turmas mensais ou quinzenais de entrada, vídeos gravados de aprofundamento técnico e treinamento específico para os padrinhos (*buddies*)."
+  },
+  {
+    "id": "3060",
+    "vol": "6",
+    "code": "E9",
+    "from": "> Antes de fechar uma aquisição, o adquirente deve perguntar, \"Se descrevêssemos os comportamentos que essa empresa recompensa, não os valores declarados, mas o que de fato acontece, com quais dos nossos valores isso entra em conflito direto?\" Conflito identificado antes é problema gerenciável. Conflito descoberto depois do fechamento é crise.",
+    "to": "> Antes de assinar uma aquisição (M&A), os fundadores da compradora devem responder a uma pergunta central: *\"Se listarmos os comportamentos que a empresa-alvo efetivamente promove e premia no dia a dia (e não apenas as frases do seu site), onde eles colidem frontalmente com as nossas regras de decisão?\"* Mapear esse atrito antes do fechamento permite desenhar um plano de transição; descobri-lo apenas depois da assinatura paralisa a integração."
+  },
+  {
+    "id": "3062",
+    "vol": "6",
+    "code": "E10",
+    "from": "**O que quebra primeiro em times distribuídos.**",
+    "to": "**As três fraturas que aparecem primeiro em times distribuídos (sinal, causa e antídoto operacional):**"
+  },
+  {
+    "id": "3069",
+    "vol": "6",
+    "code": "E7",
+    "from": "Risk de backlash. Em ambiente polarizado, DEI pode atrair crítica interna, ou externa.",
+    "to": "**Risco de reação contrária (*backlash*):** quando conduzida com jargão ideológico desconectado do mérito e da operação, a pauta pode gerar ruído interno ou externo."
+  },
+  {
+    "id": "3069",
+    "vol": "6",
+    "code": "E7",
+    "from": "Custo. Programas, treinamentos, e function dedicada custam.",
+    "to": "**Investimento financeiro e de tempo:** estruturar busca ativa fora dos canais habituais, testes técnicos cegos e programas de formação exige orçamento dedicado."
+  },
+  {
+    "id": "3069",
+    "vol": "6",
+    "code": "E7",
+    "from": "Exagerar compromisso. Over-promise leva a breach of trust.",
+    "to": "**Prometer metas públicas irreais:** anunciar compromissos grandiosos sem plano de execução quebra a confiança da equipe e do mercado."
+  },
+  {
+    "id": "3069",
+    "vol": "6",
+    "code": "E7",
+    "from": "Ignorar backlash interno. Dismiss preocupações é erro. Engagement honesto é melhor.",
+    "to": "**Descartar dúvidas legítimas do time:** ignorar preocupações internas sobre critérios de seleção e promoção alimenta boatos; a resposta correta é demonstrar com transparência que a barra técnica continua idêntica para todos."
+  },
+  {
+    "id": "3070",
+    "vol": "6",
+    "code": "E9",
+    "from": "1. Diagnóstico. Engagement surveys, um a um estruturados, e exit interviews dos últimos seis meses.",
+    "to": "1. **Diagnóstico factual:** consolide os dados de pesquisas de clima, conversas individuais (**1:1**) estruturadas e entrevistas de desligamento dos últimos seis meses."
+  },
+  {
+    "id": "3070",
+    "vol": "6",
+    "code": "E9",
+    "from": "All-hands quinzenal (trinta a quarenta e cinco minutos), com gravação. Um a um semanais (líder-liderado). Team sync semanal, ou quinzenal, de cada squad. Retrospectivas mensais. Virtual coffee, pareamentos aleatórios quinzenais (ferramentas, Donut bot no Slack). Encontros presenciais trimestrais, ou semestrais (offsite, workations, summit). Investimento essencial em remote puro.",
+    "to": "Mantenha uma cadência enxuta de rituais síncronos e presenciais: reunião geral (*all-hands*) quinzenal de 30 a 45 minutos (sempre gravada para consulta assíncrona), conversas individuais (**1:1**) semanais entre gestor e liderado, alinhamento semanal por *squad*, retrospectivas mensais, cafés virtuais quinzenais por sorteio entre áreas e encontros presenciais periódicos conforme o porte da empresa (trimestrais até 50 pessoas, semestrais de 50 a 200 e anuais com encontros regionais acima de 200 colaboradores)."
+  },
+  {
+    "id": "3070",
+    "vol": "6",
+    "code": "E9",
+    "from": "Regular um a um. Quinzenais, no mínimo.",
+    "to": "**Conversas individuais (1:1) regulares:** realizadas semanalmente (ou, no mínimo, a cada quinze dias) com pauta compartilhada previamente por escrito."
+  },
+  {
+    "id": "3075",
+    "vol": "6",
+    "code": "E1",
+    "from": "Token diverse hires. Uma mulher em board de dez homens não é diversidade. É decoração.",
+    "to": "**Contratações isoladas de vitrine (*tokenism*):** colocar uma única pessoa de perfil sub-representado em uma diretoria sem dar voz real nas decisões estratégicas serve apenas como peça de comunicação externa e gera frustração rápida."
+  },
+  {
+    "id": "3075",
+    "vol": "6",
+    "code": "E1",
+    "from": "Esperar perfeição antes de começar. DEI é jornada. Não destino.",
+    "to": "**Adiar mudanças práticas esperando um programa complexo:** comece imediatamente pelo que destrava qualidade na ponta, como adotar testes técnicos cegos e abrir a divulgação de vagas para universidades e comunidades fora do eixo tradicional."
+  },
+  {
+    "id": "3081",
+    "vol": "6",
+    "code": "N9",
+    "from": "### Cumprimento de Entregáveis Semanais no Prazo (%), Horas de Foco Profundo Sem Reunião por Semana e Segurança Jurídica Trabalhista (100% com Aditivo de Teletrabalho por Produção)",
+    "to": "### Indicadores de Saúde da Operação Distribuída: Entregas Semanais no Prazo, Carga de Reuniões (< 10h/semana), Tempo de Rampagem e Segurança Jurídica dos Aditivos de Teletrabalho"
+  },
+  {
+    "id": "3081",
+    "vol": "6",
+    "code": "N9",
+    "from": "### O \"Híbrido Desigual\" (onde quem toma café com o chefe no escritório é promovido e quem está remoto vira cidadão de segunda classe), excesso de chamadas de vídeo e falta de contrato formal de teletrabalho por tarefa",
+    "to": "### As armadilhas do trabalho distribuído: o \"Híbrido Desigual\" (promoção por proximidade física), replicação de reuniões de escritório em vídeo e falhas no aditivo de teletrabalho"
+  },
+  {
+    "id": "3085",
+    "vol": "6",
+    "code": "E9",
+    "from": "Este capítulo cobre remote ou hybrid como disciplina operacional, não como \"deixar pessoas trabalharem de casa\". Os três modelos são: remote-first (sem escritório central), hybrid (escritório mais remoto com políticas claras) e office-first com flex (presencial padrão, remoto como exceção). Cada um exige disciplinas distintas. Erro clássico, operar em hybrid ou remote com práticas de office-first (meetings síncronas demais, decisões em corredores, cultura pessoal como proxy de trabalho).",
+    "to": "Este capítulo trata o trabalho remoto e híbrido como sistema de gestão baseado em escrita e entregas claras. Os três arranjos principais são: **remoto como padrão (*remote-first*)**, sem dependência de sede física; **híbrido estruturado**, combinando dias no escritório e dias remotos sob regras explícitas; e **presencial com flexibilidade (*office-first*)**, em que a rotina ocorre na sede e o trabalho à distância é exceção. O erro clássico é anunciar um modelo remoto ou híbrido mantendo os hábitos do presencial (excesso de reuniões síncronas, decisões tomadas no corredor sem registro escrito e avaliação de desempenho por horas online)."
+  },
+  {
+    "id": "3085",
+    "vol": "6",
+    "code": "E9",
+    "from": "Anchor-based. Define um mercado como anchor (por exemplo, SF), e aplica percentuais por localização (por exemplo, Brasil igual a cinquenta a sessenta e cinco por cento do anchor). Simples. Potencialmente injusto em percentual exato.",
+    "to": "**Indexado a uma praça-âncora (*anchor-based*):** a empresa fixa uma cidade de referência (como São Paulo no Brasil ou São Francisco em operações globais) e aplica faixas percentuais predefinidas por região (por exemplo, pagando no Brasil de 50% a 65% da tabela-base americana), modelo simples de administrar mas que exige revisão anual para não distorcer a competitividade local."
+  },
+  {
+    "id": "3086",
+    "vol": "6",
+    "code": "S6",
+    "from": "#### 3. Hiring distribuído",
+    "to": "#### 3. Recrutamento e seleção para equipes distribuídas"
+  },
+  {
+    "id": "3086",
+    "vol": "6",
+    "code": "S6",
+    "from": "Interview process cem por cento remote (vídeo padrão). Onboarding remote estruturado (buddy, checklist primeiros noventa dias, e reuniões pré-marcadas). Work sample (take-home) com maior peso que \"feeling\" do entrevistador. Time zones, decidir se aceita overlap parcial, ou exige overlap total (quatro horas mínimo, com core hours).",
+    "to": "Em times distribuídos, o processo seletivo avalia duas competências adicionais: **autonomia de execução** e **clareza de comunicação escrita**. Dê peso maior a um teste prático de trabalho real (*work sample*) e à redação de um documento técnico curto do que à simpatia na chamada de vídeo, defina previamente a exigência de sobreposição de fuso horário (mínimo de 4 horas diárias para colaboração entre áreas) e entregue no primeiro dia o roteiro escrito de 90 dias com padrinho (*buddy*) designado."
+  },
+  {
+    "id": "3086",
+    "vol": "6",
+    "code": "S6",
+    "from": "#### 4. Ferramentas",
+    "to": "#### 4. Pilha de ferramentas e regras de canal (SLA de resposta)"
+  },
+  {
+    "id": "3086",
+    "vol": "6",
+    "code": "S6",
+    "from": "Comunicação. Slack, ou Teams. Docs. Notion, Confluence, Coda. Video. Google Meet, Zoom. Projetos. Linear, Jira, ClickUp, Asana. Async video. Loom, Vimeo Record. Pulse de moral. Officevibe, CultureAmp, ou questionário interno.",
+    "to": "Para evitar que o chat vire interrupção constante, defina o papel e o **tempo esperado de resposta (SLA)** de cada canal: **documentação central e RFCs** (Notion, Confluence ou Google Docs, com SLA de 24 horas para leitura e comentários estruturados), **gestão de tarefas e projetos** (Linear, Jira ou Asana, atualizados diariamente como fonte da verdade), **vídeo assíncrono** (Loom para demonstrações de até 5 minutos que substituem reuniões de status), **mensageria rápida** (Slack ou Teams, com SLA de 2 a 4 horas em horário comercial e notificações pausadas durante blocos de foco profundo) e **canal de emergência** (ligação telefônica ou alerta crítico, restrito a incidentes severos de produção)."
+  },
+  {
+    "id": "3086",
+    "vol": "6",
+    "code": "S6",
+    "from": "#### 5. Compensação distribuída",
+    "to": "#### 5. Política de remuneração geográfica (nacional vs. indexada)"
+  },
+  {
+    "id": "3086",
+    "vol": "6",
+    "code": "S6",
+    "from": "Brasileiros em empresas globais. Tipicamente sessenta a oitenta por cento do salário equivalente nos EUA. Empresas brasileiras remote. Salário São Paulo padrão. Ou ajuste de menos dez a vinte por cento, para cidades menores.",
+    "to": "Em startups brasileiras com operação remota nacional, a prática dominante para funções de tecnologia e produto é adotar uma **tabela salarial única nacional** (referenciada pelo mercado de São Paulo) para atrair os melhores profissionais em qualquer estado, ou aplicar no máximo duas faixas transparentes (capitais e interior, com diferença de 10% a 15%), conforme detalhado na seção de remuneração internacional adiante."
+  },
+  {
+    "id": "3086",
+    "vol": "6",
+    "code": "S6",
+    "from": "#### 6. Jurídico remote",
+    "to": "#### 6. Enquadramento jurídico do teletrabalho na CLT (Lei nº 14.442/2022) e contratação internacional"
+  },
+  {
+    "id": "3091",
+    "vol": "6",
+    "code": "C7",
+    "from": "Regras operacionais. Core hours, janela fixa (por exemplo, dez às quatorze locais), onde todos estão disponíveis. Fora disso, assíncrono. Rotating meeting times, meetings globais alternam horário, para não penalizar sempre a mesma região. Async by default, decisão padrão é documento, mais comentários assíncronos. Reunião só se não resolve em async.",
+    "to": "**Regras operacionais de fuso e jornada:** se a empresa exige janela fixa de disponibilidade síncrona (*core hours*, por exemplo das 10h às 14h), mantenha o controle formal de jornada no regime de teletrabalho por jornada (já que a cobrança de horário fixo descaracteriza a exceção de teletrabalho por produção/tarefa do art. 62, III, da CLT). Nos demais horários, opere por padrão de forma assíncrona via documentos compartilhados e alterne o horário de reuniões internacionais para não penalizar sempre o mesmo fuso."
+  },
+  {
+    "id": "3091",
+    "vol": "6",
+    "code": "C7",
+    "from": "> **O Ritual de Segunda-Feira às 9h:** Audite com o jurídico todos os contratos de trabalho remoto para enquadrá-los formalmente em **Teletrabalho por Produção/Tarefa (Art. 62, III da CLT / Lei 14.442/22)** e institua a regra **\"Sem Documento Pré-Lido de 1 Página, Sem Reunião\"**.",
+    "to": "> **O Ritual de Segunda-Feira às 9h:** Audite com o jurídico trabalhista todos os aditivos de teletrabalho (enquadrando em **produção ou tarefa pelo art. 62, III, e art. 75-B, §§ 2º e 3º, da CLT / Lei nº 14.442/2022** exclusivamente as funções medidas por entrega sem cobrança de horário fixo, e mantendo controle de ponto com janelas síncronas definidas para quem cumpre jornada) e institua a regra **\"Sem Documento Pré-Lido de 1 Página, Sem Reunião\"**."
+  },
+  {
+    "id": "3169",
+    "vol": "6",
+    "code": "S5",
+    "from": "#### Canvas: Org Chart Evolution",
+    "to": "#### Canvas: Org Chart Evolution (Arquitetura Organizacional de 20 a 250 Pessoas)"
+  }
+]

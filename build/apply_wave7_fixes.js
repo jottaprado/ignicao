@@ -31,6 +31,27 @@ for (const fname of [
   }
 }
 
+const wave9ByVol = {};
+for (const fname of [
+  'achados_fixes_wave9_p1.json',
+  'achados_fixes_wave9_p2.json',
+  'achados_fixes_wave9_p3.json',
+  'achados_fixes_wave9_p4.json',
+  'achados_fixes_wave9_p5.json',
+  'achados_fixes_wave9_p6.json',
+  'achados_fixes_wave9_p7.json',
+]) {
+  const fpath = path.join(__dirname, fname);
+  if (fs.existsSync(fpath)) {
+    const items = JSON.parse(fs.readFileSync(fpath, 'utf8'));
+    for (const it of items) {
+      const v = Number(it.vol);
+      if (!wave9ByVol[v]) wave9ByVol[v] = [];
+      wave9ByVol[v].push(it);
+    }
+  }
+}
+
 function applyWave7ToVolume(volNum, content) {
   function rep(from, to, label) {
     if (content.includes(from)) {
@@ -1257,6 +1278,47 @@ Para o CPSI e Contrato de Fornecimento (LC 182/2021, arts. 14 e 15):
     );
   }
   console.log(`  [Wave 8][Vol ${volNum}] Applied ${w8Hits}/${w8Items.length} secondary-locus & baseline fixes`);
+
+  // 5. Wave 9 Bare-Number & Range Secondary-Line Audit Fixes (1,930 entries across p1..p7)
+  const w9Items = wave9ByVol[volNum] || [];
+  let w9Hits = 0;
+  for (const it of w9Items) {
+    if (rep(it.from, it.to, `Wave9 #${it.id}`)) {
+      w9Hits++;
+    }
+  }
+  content = content.replace(/\|\s*,\s*(?=\|)/g, '| - ');
+  if (volNum === 1) {
+    content = content.replace(
+      `> [!warning] Critério de saída\n> Se algum dos critérios essenciais acima falhar, não avance: resolva a pendência antes de seguir para a próxima fase.`,
+      `> [!warning] Critério de saída\n> Caso algum dos critérios essenciais de prontidão pessoal ou alinhamento societário acima ainda esteja pendente, conclua-o antes de avançar para a Fase 1.`
+    );
+  }
+  if (volNum === 3) {
+    rep(
+      `> [!note] Capítulo 1: Científico vs Lean Startup`,
+      `> [!note] Aprofundamento no Capítulo 1: Método Científico vs. Lean Startup`,
+      'Vol 3 #1119'
+    );
+    rep(
+      `> [!note] Capítulo 1 (Vol. 2): Psicologia do Consumidor Brasileiro\n> As respostas nas entrevistas de solução são influenciadas por como a pergunta é feita`,
+      `> [!note] Aprofundamento no Volume 2 (Cap. 1): Psicologia do Consumidor Brasileiro\n> As respostas nas entrevistas de solução são influenciadas por como a pergunta é feita`,
+      'Vol 3:2764 #1119'
+    );
+    rep(
+      `**Primeiros passos práticos.**`,
+      `**Primeiros passos práticos de execução.**`,
+      'Vol 3 #1197'
+    );
+  }
+  if (volNum === 5) {
+    rep(
+      `**Parte II: Termos de controle e governança**\n\n| Cláusula | O que significa | Ponto de negociação |`,
+      `**Parte II: Termos de controle e governança**\n\n| Cláusula de Governança | O que significa na prática | Ponto central de negociação |`,
+      'Vol 5:1442 #1936'
+    );
+  }
+  console.log(`  [Wave 9][Vol ${volNum}] Applied ${w9Hits}/${w9Items.length} bare-number & range secondary-line fixes`);
 
   return content;
 }

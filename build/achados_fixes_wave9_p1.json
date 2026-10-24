@@ -1,0 +1,2389 @@
+[
+  {
+    "id": "17",
+    "vol": "1",
+    "code": "C5",
+    "from": "**Para construir e crescer (Fases 9 a 14).** *Do Things That Don't Scale* (2013), em paulgraham.com/ds.html. Por que trabalho manual intenso é o que produz PMF. *Startup = Growth* (2012), em paulgraham.com/growth.html. Benchmarks YC: cinco a sete por cento por semana é saudável, dez por cento é excepcional. *Default Alive or Default Dead* (2015), em paulgraham.com/aord.html. A pergunta diagnóstica mais importante que você precisa responder a partir dos oito ou nove meses de operação. *The Fatal Pinch* (2014), em paulgraham.com/pinch.html. O cenário letal que mata mais startups que qualquer fraude. *Ramen Profitable* (2009), em paulgraham.com/ramenprofitable.html. Por que cobrir custos de vida dos fundadores é milestone subestimado. *Superlinear Returns* (2023), em paulgraham.com/superlinear.html. Por que pequenas diferenças de performance produzem retornos gigantescamente desproporcionais. *Startups in 13 Sentences* (2009), em paulgraham.com/13sentences.html. Treze princípios condensados, um dos ensaios que mais reli ao longo dos anos. Detalhado abaixo como one-pager.",
+    "to": "**Para construir e crescer (Fases 9 a 14).** *Do Things That Don't Scale* (2013), em paulgraham.com/ds.html: mostra por que o trabalho manual intenso nas primeiras dezenas de clientes constrói o ajuste ao mercado (PMF). *Startup = Growth* (2012), em paulgraham.com/growth.html: sintetiza as referências da Y Combinator (crescer de 5% a 7% por semana é saudável, enquanto 10% é excepcional). *Default Alive or Default Dead* (2015), em paulgraham.com/aord.html: traz a pergunta diagnóstica que todo fundador precisa responder a partir do oitavo ou nono mês de operação. *The Fatal Pinch* (2014), em paulgraham.com/pinch.html: detalha a compressão de caixa que encerra mais startups do que qualquer erro societário. *Ramen Profitable* (2009), em paulgraham.com/ramenprofitable.html: explica por que cobrir os custos básicos de vida dos fundadores muda seu poder de barganha. *Superlinear Returns* (2023), em paulgraham.com/superlinear.html: demonstra por que pequenas diferenças de execução geram retornos compostos desproporcionais. *Startups in 13 Sentences* (2009), em paulgraham.com/13sentences.html: condensa treze princípios operacionais detalhados logo adiante como resumo de uma página."
+  },
+  {
+    "id": "17",
+    "vol": "1",
+    "code": "C5",
+    "from": "**Sobre escala e delegação.** *Founder Mode* (2024), em paulgraham.com/foundermode.html. Por que o conselho convencional de \"contratar pessoas boas e sair do caminho\" pode ser desastre. *Maker's Schedule, Manager's Schedule* (2009), em paulgraham.com/makersschedule.html. Dois modos de usar o tempo e a razão pela qual fundadores perdem capacidade de pensar em escala.",
+    "to": "**Sobre escala e delegação.** *Founder Mode* (2024), em paulgraham.com/foundermode.html: analisa por que o conselho convencional de apenas contratar bons executivos e se afastar da operação costuma falhar em empresas em crescimento. *Maker's Schedule, Manager's Schedule* (2009), em paulgraham.com/makersschedule.html: contrasta os dois regimes de uso do tempo e mostra por que reuniões picotadas destroem a capacidade do fundador de pensar com profundidade."
+  },
+  {
+    "id": "17",
+    "vol": "1",
+    "code": "C5",
+    "from": "**Sobre erros que matam.** *The 18 Mistakes That Kill Startups* (2006), em paulgraham.com/startupmistakes.html. Lista canônica dos erros mais frequentes. O insight central é que todos se reduzem a \"não fazer algo que usuários querem\".",
+    "to": "**Sobre erros que encerram a operação.** *The 18 Mistakes That Kill Startups* (2006), em paulgraham.com/startupmistakes.html: reúne a lista clássica das falhas mais frequentes no estágio inicial, cujo argumento central é que todas elas convergem para construir algo que os usuários não querem de verdade."
+  },
+  {
+    "id": "17",
+    "vol": "1",
+    "code": "C5",
+    "from": "**Sobre como pensar.** *Keep Your Identity Small* (2009), já citado, aplicável também a pensamento estratégico. *How to Disagree* (2008), em paulgraham.com/disagree.html. Hierarquia de formas de discordar, útil para cultura interna e debates com sócios.",
+    "to": "**Sobre clareza de raciocínio.** *Keep Your Identity Small* (2009), já citado na abertura, aplica-se diretamente à revisão fria de premissas estratégicas. *How to Disagree* (2008), em paulgraham.com/disagree.html: propõe uma hierarquia de argumentação e refutação útil para preservar a cultura interna e elevar o nível dos debates entre sócios."
+  },
+  {
+    "id": "17",
+    "vol": "1",
+    "code": "C5",
+    "from": "Os três ensaios abaixo são os que mais se aplicam à decisão da Fase 0. Outros três do mesmo autor (*What We Look for in Founders*, *Before the Startup*, *You Weren't Meant to Have a Boss*) entram resumidos no fim. Os links estão no [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#BIBLIOGRAFIA GERAL|Bibliografia e Leituras Recomendadas (Vol. 10)]].",
+    "to": "Os três ensaios abaixo são os que mais se aplicam à decisão pessoal da Fase 0. Outros três do mesmo autor (*What We Look for in Founders*, *Before the Startup* e *You Weren't Meant to Have a Boss*) entram resumidos no fechamento desta seção, e o mapa completo com todos os endereços está consolidado em [[#Ensaios canônicos de Paul Graham: referência consolidada|Ensaios canônicos de Paul Graham]], no final desta fase."
+  },
+  {
+    "id": "25",
+    "vol": "1",
+    "code": "E2",
+    "from": "1. Suas finanças pessoais estão frágeis. Dívidas pessoais altas no cartão, no rotativo, no financiamento atrasado, sem plano de quitação. Reserva de emergência abaixo de seis meses de despesas. Dependentes financeiros sem outra fonte de renda. Empreender com finanças pessoais frágeis costuma terminar em crise dupla, da empresa e da casa. Resolva as finanças primeiro, construa reserva, depois empreenda.",
+    "to": "1. Suas finanças pessoais estão frágeis: há dívidas altas no cartão de crédito, no rotativo ou em financiamentos atrasados sem plano de quitação, a reserva de emergência cobre menos de 6 meses de despesas familiares e existem dependentes sem outra fonte de renda. Empreender com o caixa doméstico exposto costuma terminar em crise dupla, na empresa e em casa; quite os passivos e monte a reserva antes de dar a largada."
+  },
+  {
+    "id": "26",
+    "vol": "1",
+    "code": "E1",
+    "from": "Confie, mas documente. Amigos viram desconhecidos quando dinheiro entra. Documentação não é desconfiança. É higiene básica.",
+    "to": "Confie no seu sócio, mas formalize tudo por escrito desde o primeiro dia: quando o dinheiro entra na mesa, a memória seletiva desgasta até amizades antigas, e documentar combinados funciona como higiene societária básica."
+  },
+  {
+    "id": "26",
+    "vol": "1",
+    "code": "E1",
+    "from": "> Runway menor que doze meses sem fonte de renda alternativa é pré-condição de falha, não de sucesso. Capital pessoal insuficiente produz decisões de negócio ruins.",
+    "to": "> Uma reserva pessoal inferior a 12 meses para quem sai do emprego sem renda alternativa compromete a sobrevivência do projeto, porque a pressão das contas domésticas empurra o fundador para decisões precipitadas no negócio."
+  },
+  {
+    "id": "26",
+    "vol": "1",
+    "code": "E1",
+    "from": "**Chegue a ramen-profitable.** Ramen-profitable significa gerar receita suficiente para cobrir custos básicos de vida dos fundadores. Não é riqueza. É sobrevivência infinita. Uma vez que você cruza essa linha, muda radicalmente sua relação com investidores. Você passa a negociar de força, não de urgência. Aplicação: ",
+    "to": "**Chegue rápido ao ponto de equilíbrio básico (*ramen profitability*).** Atingir esse patamar significa gerar receita limpa suficiente para cobrir os custos essenciais de vida dos fundadores, garantindo fôlego operacional contínuo. Quando você cruza essa linha, a relação com investidores se transforma e a conversa parte de uma posição de autonomia, sem desespero de caixa. Aplicação prática: "
+  },
+  {
+    "id": "28",
+    "vol": "1",
+    "code": "C5",
+    "from": "- Runway pessoal em meses. Idealmente doze ou mais para full-time, seis ou mais para part-time.",
+    "to": "- Reserva pessoal medida em meses de custo familiar: 12 meses ou mais para dedicação integral (*full-time*), ou pelo menos 6 meses para quem começa em paralelo ao emprego (*part-time* ou *side project*)."
+  },
+  {
+    "id": "29",
+    "vol": "1",
+    "code": "C1",
+    "from": "Para alguns fundadores, nenhum candidato óbvio existe no círculo próximo. Encontrar cofundador é trabalho de meses, não de semanas. Um dos erros mais comuns é tratar essa busca com pressa. Começar com o sócio errado piora a jornada em 10x se comparado a começar sozinho. Melhor solo por 6 meses e encontrar o sócio certo do que em par errado por 3 anos.",
+    "to": "Para muitos fundadores, não há candidato óbvio a cofundador no círculo próximo, e encontrar a pessoa certa leva meses de convivência prática. Tratar essa busca com pressa custa caro: segundo a literatura sobre conflitos societários (como Noam Wasserman em *The Founder's Dilemmas*, 2012), errar na escolha do sócio multiplica o desgaste da jornada. Vale mais avançar sozinho nos primeiros 6 meses enquanto testa potenciais parceiros do que firmar sociedade apressada por 3 anos."
+  },
+  {
+    "id": "44",
+    "vol": "1",
+    "code": "C5",
+    "from": "7. Escolha do modelo de dedicação entre três caminhos: full-time (largar tudo, exige runway de doze meses ou mais), part-time (manter emprego, dez a vinte horas semanais), ou side project exploratório (cinco a dez horas semanais, sem pressão de virar empresa, serve para as fases 1 a 4).",
+    "to": "7. Escolha explícita do modelo de dedicação entre três caminhos compatíveis com a sua reserva: integral (*full-time*, exigindo fôlego de 12 meses ou mais), parcial em paralelo ao emprego (*part-time*, de 10 a 20 horas semanais, com reserva mínima de 6 meses) ou projeto lateral exploratório (*side project*, de 5 a 10 horas semanais, desenhado para rodar as Fases 1 a 4 sem pressão imediata de faturamento)."
+  },
+  {
+    "id": "55",
+    "vol": "1",
+    "code": "C5",
+    "from": "3. **\"Primeiro encontro\" via micro-projeto antes de compromisso.** Se você identificou candidato promissor mas não tem confiança suficiente ainda, proponha um mini-projeto de 4 a 8 semanas. Pode ser uma pesquisa de mercado juntos, um protótipo em nível de MVP concierge, ou uma campanha experimental. Sem cap table, sem contrato formal, apenas colaboração intensa. Pessoas que não conseguem trabalhar juntas durante 6 semanas de projeto não vão conseguir durante 6 anos de empresa. Este teste precede compromisso e salva anos.",
+    "to": "3. **Teste prático por microprojeto antes do compromisso societário.** Se você encontrou um candidato promissor mas ainda não trabalhou com ele sob pressão, proponha um projeto conjunto com duração mínima de 6 semanas (e idealmente até 3 meses): uma rodada de entrevistas de descoberta, um protótipo de serviço manual (*MVP concierge*) ou uma campanha experimental de aquisição, sem contrato social nem divisão de *cap table*. Quem não mantém ritmo e transparência durante 6 semanas de execução compartilhada dificilmente sustentará 6 anos de sociedade."
+  },
+  {
+    "id": "62",
+    "vol": "1",
+    "code": "S6",
+    "from": "**Preparação fundadora.** Vélez cofundou com Cristina Junqueira (ex-Boston Consulting Group, ex-Itaú) e Edward Wible (engenheiro de produto americano). Os três traziam complementaridade clara: finanças institucionais (Vélez), profundo conhecimento do sistema bancário brasileiro (Junqueira), e produto digital (Wible). Vélez já tinha a rede com investidores globais construída na Sequoia. Junqueira compreendia a operação regulatória brasileira. Wible garantia que o produto seria radicalmente diferente do software bancário tradicional. A primeira rodada teve Sequoia Capital como investidora principal, em condições viabilizadas por confiança pré-existente no sócio, não construída do zero.",
+    "to": "**Preparação e complementaridade dos fundadores.** Antes de lançar o Nubank, David Vélez estruturava a tese a partir da sua experiência em capital de risco (Sequoia Capital) e buscou cofundadores com repertórios que ele próprio não tinha: Cristina Junqueira trazia o domínio profundo da operação bancária e regulatória brasileira (ex-Itaú e BCG), enquanto Edward Wible liderava a arquitetura de engenharia e produto digital. Essa combinação respondia ao \"por que nós\" da Fase 0 e viabilizou a captação inicial com investidores globais que já conheciam o histórico de execução dos sócios."
+  },
+  {
+    "id": "62",
+    "vol": "1",
+    "code": "S6",
+    "from": "O Nubank, fundado por David Vélez, Cristina Junqueira (ex-Itaú, profundo conhecimento do sistema bancário) e Edward Wible, lançou em 2014 o cartão de crédito roxo sem anuidade, totalmente controlado por aplicativo, com atendimento por chat (depois estendido a canais adicionais) que se tornou referência de simpatia. O critério de aprovação era conservador, recusas eram frequentes nos primeiros anos. Em vez de \"abrir a torneira\", mantiveram o critério rigoroso e aceitaram que a demanda reprimida viraria fila de espera. Centenas de milhares de pessoas se inscreveram para receber o cartão.",
+    "to": "Quando lançaram o cartão sem anuidade controlado por aplicativo em 2014, os fundadores resistiram à tentação de relaxar o modelo de crédito para inflar o crescimento bruto. Preferiram manter a concessão conservadora enquanto calibravam o risco, transformando a demanda excedente em lista de espera e preservando o caixa até que a operação estivesse pronta para escalar."
+  },
+  {
+    "id": "70",
+    "vol": "1",
+    "code": "S4",
+    "from": "#### Framework: Inversion (Carl Jacobi; Charlie Munger, popularizado)",
+    "to": "#### Framework: Inversion (Carl Jacobi; popularizado por Charlie Munger, aplicado na Fase 1)"
+  },
+  {
+    "id": "70",
+    "vol": "1",
+    "code": "S4",
+    "from": "#### Framework: Second-Order Thinking (Howard Marks, 2011)",
+    "to": "#### Framework: Second-Order Thinking (Howard Marks, 2011, aplicado na Fase 3)"
+  },
+  {
+    "id": "70",
+    "vol": "1",
+    "code": "S4",
+    "from": "#### Framework: McKinsey 7-Step Problem Solving",
+    "to": "#### Framework: McKinsey 7-Step Problem Solving (aplicado na Fase 3)"
+  },
+  {
+    "id": "71",
+    "vol": "1",
+    "code": "C5",
+    "from": "- [ ] Escrevi em uma página \"por que eu quero empreender\" (entre 500 e 1.500 palavras), e o texto foi reescrito pelo menos duas vezes em três dias.",
+    "to": "- [ ] Escrevi em uma página (entre 500 e 1.500 palavras) minha declaração pessoal sobre \"por que quero empreender\", revisei o texto pelo menos duas vezes ao longo de três dias e validei minha reserva mínima (12 meses para dedicação integral ou 6 meses em paralelo, com pelo menos 10 horas semanais protegidas)."
+  },
+  {
+    "id": "83",
+    "vol": "1",
+    "code": "S6",
+    "from": "- Decisão de M&A: **Complicated**. Contratar M&A advisor.",
+    "to": "- Decisão sobre regime matrimonial, reserva familiar e blindagem patrimonial antes de abrir o CNPJ: **Complicated**. Consulte contador e advogado societário ou de família."
+  },
+  {
+    "id": "83",
+    "vol": "1",
+    "code": "S6",
+    "from": "`[Ex: \"Devemos levantar Series A agora com US$ 8M em termos X, ou esperar 9 meses com mais tração?\"]`",
+    "to": "`[Ex: \"Devo pedir demissão da CLT agora com 10 meses de reserva pessoal ou iniciar a validação das Fases 1 a 4 em paralelo por 6 meses até acumular 15 meses de fôlego?\"]`"
+  },
+  {
+    "id": "86",
+    "vol": "1",
+    "code": "C5",
+    "from": "Alex Ivanov, designer e facilitador russo, publicou o Team Canvas em 2015 como resposta a um problema recorrente em workshops de times: grupos saíam de reuniões de alinhamento com a sensação de que \"conversamos muito, mas não sabemos exatamente o que foi decidido nem quem é responsável por quê\". O Team Canvas é inspirado no Business Model Canvas de Osterwalder mas voltado para dentro: não para o modelo de negócio, mas para o modelo do time. Parte da premissa de que um time é uma organização em miniatura: tem propósito, papéis, recursos (as pessoas), canais de comunicação, e estrutura de valor (o que cada membro dá e recebe). Sem tornar esse modelo explícito, o time opera com pressupostos implícitos que geram conflito, retrabalho e desengajamento. O Team Canvas tornou o exercício de alinhamento de time replicável em 60-90 minutos.",
+    "to": "Alex Ivanov, designer e facilitador, publicou o Team Canvas em 2015 para resolver um problema recorrente em reuniões de alinhamento: sócios conversavam por horas, mas saíam sem definição clara do que havia sido combinado nem de quem respondia por cada frente. Inspirado na clareza visual do Business Model Canvas de Osterwalder, o instrumento olha para a arquitetura interna da sociedade: propósito compartilhado, papéis, forças complementares, canais de comunicação e o que cada cofundador espera dar e receber. Use o Team Canvas na Fase 0, assim que dois ou mais sócios decidirem fundar juntos e antes de assinar o acordo de sócios, e volte a ele na Fase 16 (Vol. 6) ao estruturar a liderança, em uma sessão única de 90 minutos."
+  },
+  {
+    "id": "86",
+    "vol": "1",
+    "code": "C5",
+    "from": "Sessão presencial ou remota (Miro, Mural, FigJam). Facilitador (pode ser o próprio fundador, mas facilita melhor quem não está no canvas). 60-90 minutos para times pequenos (3-6 pessoas); 120-150 minutos para times maiores (6-12).",
+    "to": "Sessão presencial ou remota (Miro, Mural, FigJam ou folha A3), conduzida em 90 minutos pelos cofundadores na Fase 0 (antes do acordo societário) ou com as lideranças na Fase 16 (Vol. 6)."
+  },
+  {
+    "id": "90",
+    "vol": "1",
+    "code": "S6",
+    "from": "As vantagens de ter sócios: complementaridade de habilidades (técnico, comercial, domínio), tomada de decisão compartilhada nos momentos difíceis, divisão de trabalho inicial quando capital é escasso, credibilidade maior com investidores. As desvantagens: diluição de equity (participação societária), de cem por cento para cinquenta ou trinta e três, decisões compartilhadas que atrasam quando urgentes, risco de conflito societário (Wasserman, em estudo de cerca de 10.000 fundadores publicado em *The Founder's Dilemmas*, encontrou que 65% das startups que falham, falham por problemas de pessoas, sobretudo conflito entre sócios), e coordenação permanente mesmo quando um é mais ativo.",
+    "to": "Entre as vantagens de empreender com sócios estão a complementaridade de competências (técnica, comercial e de domínio do setor), o compartilhamento do peso decisório nos momentos críticos, a divisão do trabalho quando o caixa é curto e a maior credibilidade perante investidores. Entre os custos estão a participação societária dividida (de 100% para 50% ou 33%), a necessidade de alinhamento em decisões urgentes, o esforço contínuo de coordenação e o risco de ruptura entre cofundadores (em *The Founder's Dilemmas*, 2012, Noam Wasserman analisou cerca de 10.000 fundadores e apontou que até 65% dos fracassos em startups de alto potencial decorrem de conflitos no time fundador, obra essencial de leitura ainda nesta Fase 0, ao lado de *O Mito do Empreendedor*, de Michael Gerber, e *O Lado Difícil das Situações Difíceis*, de Ben Horowitz)."
+  },
+  {
+    "id": "98",
+    "vol": "1",
+    "code": "E12",
+    "from": "**Indicadores de PMF.** (1) mercado puxava o produto, não o contrário, a fila era sinal de demanda reprimida, (2) referência espontânea era alta, CAC (Custo de Aquisição de Cliente) efetivo caía à medida que a base cresceu, (3) retenção era alta, cliente que entrava raramente voltava a banco tradicional, (4) clientes faziam o marketing pelos fundadores via comentários em redes sociais e mídia espontânea.",
+    "to": "**Sinais observados na validação (aprofundados na Fase 13, Vol. 4).** (1) A demanda orgânica formou fila de espera sem depender de subsídio artificial de crédito. (2) A indicação espontânea entre usuários reduziu o Custo de Aquisição de Cliente (CAC) efetivo conforme a base crescia. (3) A retenção mensal manteve-se elevada, pois quem ativava o cartão raramente voltava ao banco tradicional. (4) O próprio atendimento alimentava o boca a boca nas redes sociais."
+  },
+  {
+    "id": "189",
+    "vol": "1",
+    "code": "E1",
+    "from": "Teoria bonita demais. Se tudo se conecta perfeitamente e não há incerteza nenhuma, você não construiu teoria. Construiu narrativa. Reintroduza honestamente o que não sabe.",
+    "to": "**Teoria sem lacunas aparentes.** Quando todos os blocos parecem encaixar sem nenhuma dúvida em aberto, você escreveu uma peça de convencimento em vez de uma hipótese de negócio: volte ao diagrama e explicite o que ainda desconhece."
+  },
+  {
+    "id": "189",
+    "vol": "1",
+    "code": "E1",
+    "from": "Causalidade inventada. \"Economia de tempo causa fidelidade.\" Talvez. Mas sem dado, é crença. Marque como baixa confiança.",
+    "to": "**Causalidade presumida sem evidência.** Afirmar que \"economia de tempo gera fidelidade automática\" é apenas uma aposta inicial: enquanto não houver dado comportamental do cliente, classifique a seta como hipótese de baixa confiança."
+  },
+  {
+    "id": "189",
+    "vol": "1",
+    "code": "E1",
+    "from": "Apego à primeira teoria. Se depois de duas horas desenhando você só tem uma versão, está apegado. Desenhe duas.",
+    "to": "**Apego à primeira versão.** Se após duas horas de trabalho você desenhou apenas um caminho causal, o viés de confirmação já se instalou: force-se a rascunhar uma segunda árvore com premissa oposta."
+  },
+  {
+    "id": "189",
+    "vol": "1",
+    "code": "E1",
+    "from": "Teoria que não gera hipóteses testáveis. Se a sua teoria não pode ser traduzida em hipóteses falsificáveis (",
+    "to": "**Árvore que não desce ao chão empírico.** Se os ramos da sua teoria não puderem ser convertidos em hipóteses falsificáveis ("
+  },
+  {
+    "id": "189",
+    "vol": "1",
+    "code": "E1",
+    "from": "Pular para canvas antes de pensar causalmente. O BMC é útil. Mas não é teoria. É inventário. Teoria é a ligação entre os itens do inventário.",
+    "to": "**Ir direto aos quadros estáticos sem mapear causa e efeito.** O Business Model Canvas organiza o inventário das peças do negócio, mas a árvore da teoria é o que explicita por que uma peça move a outra e quais premissas precisam ser testadas primeiro."
+  },
+  {
+    "id": "189",
+    "vol": "1",
+    "code": "E1",
+    "from": "C.K. Prahalad e Gary Hamel publicaram \"The Core Competence of the Corporation\" na Harvard Business Review em 1990, um dos artigos mais citados em estratégia. Surgiu como resposta à diversificação excessiva dos anos 1980: conglomerados massivos com portfolio amplo mas sem coerência competitiva. Prahalad e Hamel argumentavam que empresas duráveis não são portfólios de negócios, são portfólios de **competências**.",
+    "to": "C.K. Prahalad e Gary Hamel publicaram \"The Core Competence of the Corporation\" na *Harvard Business Review* em 1990, um marco da literatura de estratégia. O artigo reagiu à diversificação dispersa dos anos 1980, quando conglomerados acumulavam unidades de negócio sem sinergia técnica ou operacional. A tese central dos autores é que empresas duráveis se estruturam em torno de um conjunto coerente de **competências centrais** difíceis de imitar, das quais os produtos específicos são desdobramentos."
+  },
+  {
+    "id": "189",
+    "vol": "1",
+    "code": "E1",
+    "from": "Esse passo é quase sempre pulado por iniciantes. Por isso é a sua maior vantagem se fizer. Escreva uma segunda árvore de teoria que explique o mesmo fenômeno com atributos ou relações diferentes. Por exemplo: e se os donos de restaurante já toleram a conciliação manual e não vão pagar por automação, mas pagariam por um serviço humano que faz para eles? Essa teoria alternativa não é \"plano B\". É objeto de teste paralelo. Ela protege você de apego a uma narrativa só.",
+    "to": "Iniciantes quase sempre pulam este passo, e justamente por isso cumpri-lo cria uma vantagem real de diagnóstico. Desenhe uma segunda árvore de teoria capaz de explicar o mesmo problema do cliente por outro mecanismo causal. Por exemplo: e se os donos de restaurante tolerarem a conciliação manual e recusarem pagar por um software automático, mas toparem contratar um serviço terceirizado que entregue o fechamento pronto? Trate essa segunda árvore como hipótese concorrente em teste paralelo para não ficar refém de uma única narrativa."
+  },
+  {
+    "id": "190",
+    "vol": "1",
+    "code": "C5",
+    "from": "| Declaração Inicial preenchida | 6 campos da DII completos | Sim |",
+    "to": "| Declaração Inicial da Ideia (DII) preenchida | 7 blocos da DII mais a lista de incertezas completos | Sim |"
+  },
+  {
+    "id": "191",
+    "vol": "1",
+    "code": "E2",
+    "from": "Raiz, missão. Reduzir em cinquenta por cento a perda de margem por gestão de estoque em padarias artesanais pequenas do Brasil.",
+    "to": "- **Raiz (missão):** reduzir pela metade a perda de margem causada pelo controle manual de estoque em pequenas padarias artesanais brasileiras."
+  },
+  {
+    "id": "191",
+    "vol": "1",
+    "code": "E2",
+    "from": "Tronco, tese central. Padarias artesanais com duas a cinco lojas têm perda estrutural de doze a dezoito por cento da margem por gestão manual de estoque. Esse problema é solucionável por software integrado com fornecedores. É um mercado viável, com cinco mil ou mais padarias no Brasil, com disposição a pagar R$ 300 a R$ 500 por mês por loja.",
+    "to": "- **Tronco (tese central):** padarias artesanais com 2 a 5 lojas perdem de 12% a 18% de margem por falhas no controle manual de insumos; um software integrado aos fornecedores estanca esse desperdício em um mercado de mais de 5 mil estabelecimentos dispostos a pagar entre R$ 300 e R$ 500 mensais por loja."
+  },
+  {
+    "id": "191",
+    "vol": "1",
+    "code": "E2",
+    "from": "Galhos principais, quatro.",
+    "to": "- **Quatro galhos principais da árvore causal:**"
+  },
+  {
+    "id": "191",
+    "vol": "1",
+    "code": "E2",
+    "from": "O segundo galho. A solução técnica é viável. As sub-hipóteses são três. APIs com fornecedores são obteníveis. A previsão de demanda acerta acima de setenta e cinco por cento em padarias. A integração com sistemas legados (balança, caixa) é factível.",
+    "to": "- **Segundo galho (viabilidade técnica da solução):** apoia-se em três sub-hipóteses: (a) os distribuidores de insumos disponibilizam integração via API ou arquivo padronizado; (b) o modelo de previsão de demanda atinge acurácia superior a 75% na rotina da padaria; e (c) a conexão com sistemas legados de balança e frente de caixa é tecnicamente executável."
+  },
+  {
+    "id": "191",
+    "vol": "1",
+    "code": "E2",
+    "from": "O terceiro galho. O modelo de negócio sustenta. As sub-hipóteses são três. CAC (custo de aquisição de cliente) abaixo de R$ 800. Churn abaixo de três por cento ao mês. ACV (receita anual por cliente) de R$ 4.000 a R$ 6.000 por ano por loja é viável.",
+    "to": "- **Terceiro galho (sustentabilidade econômica):** apoia-se em três sub-hipóteses: (a) o custo de aquisição de cliente permanece abaixo de R$ 800 por estabelecimento; (b) o cancelamento mensal (*churn*) fica abaixo de 3%; e (c) a receita anual por contrato entre R$ 4.000 e R$ 6.000 por loja sustenta a margem operacional."
+  },
+  {
+    "id": "191",
+    "vol": "1",
+    "code": "E2",
+    "from": "O quarto galho. O diferencial é defensável. As sub-hipóteses são três. Integrações com fornecedores viram moat (barreira de entrada). ERPs genéricos não entrarão no nicho. Especialistas (sistemas de padaria existentes) não digitalizam rápido o bastante.",
+    "to": "- **Quarto galho (defensabilidade competitiva):** apoia-se em três sub-hipóteses: (a) as integrações diretas com fornecedores criam custo de troca e barreira de entrada; (b) os sistemas de gestão (ERPs) generalistas não priorizarão as regras específicas da panificação artesanal; e (c) os softwares legados do setor não atualizarão sua arquitetura na mesma velocidade."
+  },
+  {
+    "id": "191",
+    "vol": "1",
+    "code": "E2",
+    "from": "Tudo o que você não escreve não existe operacionalmente. A articulação força clareza. Clareza revela lacunas. Lacunas são o material de trabalho das próximas fases. Sem esta fase, você entra no processo de confirmação sem saber exatamente o que está testando, e acaba testando uma versão confusa e movediça da ideia. Pior do que não testar.",
+    "to": "Ideias que permanecem apenas na conversa mudam de contorno a cada reunião e impedem qualquer teste sério. Colocar a tese no papel obriga a escolher palavras exatas, expõe os pontos cegos do raciocínio e entrega a matéria-prima que será validada nas próximas fases; pular esse registro faz você ir a campo testar um alvo móvel."
+  },
+  {
+    "id": "191",
+    "vol": "1",
+    "code": "E2",
+    "from": "O primeiro é bloqueio de tempo. Quatro horas contínuas, ou duas sessões de duas horas (que é melhor que quatro de uma). Tire notificações. Sem celular. Caderno em branco ou documento novo.",
+    "to": "O primeiro passo é reservar um bloco protegido na agenda: separe quatro horas contínuas ou, de preferência, duas sessões de duas horas em dias seguidos, com notificações desligadas, longe do celular e diante de uma página em branco."
+  },
+  {
+    "id": "191",
+    "vol": "1",
+    "code": "E2",
+    "from": "O sexto é teste de articulação verbal. Apresente a ideia verbalmente para três a cinco pessoas fora do seu contexto. Não amigos próximos nem família. Peça três coisas. Que repitam a ideia com as próprias palavras. Que apontem o que ficou confuso. Que perguntem o que não entenderam. Se as repetições são muito diferentes do que você quis dizer, a sua articulação está ruim. Reescreva.",
+    "to": "O sexto passo é o teste de transmissão oral: explique a ideia em 90 segundos para três a cinco pessoas de fora do seu setor (evitando amigos íntimos e familiares) e peça que repitam com as próprias palavras o que entenderam, apontem o que soou vago e digam qual dúvida restou. Se a versão devolvida por elas divergir do que você pretendia comunicar, o problema está na clareza da sua formulação: volte ao texto e reescreva."
+  },
+  {
+    "id": "191",
+    "vol": "1",
+    "code": "E2",
+    "from": "Apresentar a solução como se fosse o problema. \"O problema é que não existe um app que X.\" Não. Esse não é o problema. O problema é o que existia antes do app. Foque na dor. Não na ausência da sua solução.",
+    "to": "**Descrever a própria solução como se fosse a dor do cliente.** Frases como \"o problema é que não existe um aplicativo que faça X\" invertem a lógica de descoberta: concentre a descrição na fricção concreta que o cliente já enfrenta hoje, antes de qualquer software existir."
+  },
+  {
+    "id": "191",
+    "vol": "1",
+    "code": "E2",
+    "from": "Cada ação reforça as outras. Política é coerente com diagnóstico. Estratégia real.",
+    "to": "Cada ação tática reforça as demais quando a política de execução responde diretamente ao diagnóstico levantado, formando uma estratégia coesa."
+  },
+  {
+    "id": "194",
+    "vol": "1",
+    "code": "S2",
+    "from": "### Por que ideias que só existem na conversa mudam de forma e enganam o próprio dono",
+    "to": "### Por que ideias que só existem na conversa mudam de forma: quando escrever e quem chamar para testar a clareza"
+  },
+  {
+    "id": "196",
+    "vol": "1",
+    "code": "S3",
+    "from": "O quinto é condensar tudo em uma página só. Use este template (versão formatada no [[#TEMPLATES OPERACIONAIS E CASOS PREENCHIDOS DESTA FASE|Templates Operacionais da Fase]]).",
+    "to": "O quinto passo é condensar toda a formulação em uma única página, preenchendo os 7 blocos da Declaração Inicial da Ideia mais a lista de incertezas críticas conforme o modelo abaixo (cuja ficha completa para preenchimento está em [[#TEMPLATES OPERACIONAIS E CASOS PREENCHIDOS DESTA FASE|Templates Operacionais da Fase]])."
+  },
+  {
+    "id": "196",
+    "vol": "1",
+    "code": "S3",
+    "from": "> [!tip] Canvases visuais como complemento opcional",
+    "to": "> [!tip] Quadros visuais como complemento opcional aos 7 blocos da DII"
+  },
+  {
+    "id": "197",
+    "vol": "1",
+    "code": "E8",
+    "from": "Nós críticos identificados (Passo 5). Galho 1, sub-hipótese (a), se a perda é só três a cinco por cento e não doze a dezoito, o valor não compensa o preço. Galho 2, sub-hipótese (a), se fornecedores não fornecem API, o produto vira \"mais um ERP\" sem diferencial. Galho 3, sub-hipótese (b), se churn passa de seis por cento ao mês, unit economics (economia por unidade) não fecham com o ACV projetado.",
+    "to": "- **Nós mortais identificados (Passo 5):** no Galho 1, sub-hipótese (a), se o desperdício real for de apenas 3% a 5% em vez de 12% a 18%, a economia gerada não paga a mensalidade; no Galho 2, sub-hipótese (a), sem integração direta com os fornecedores o sistema vira apenas mais um controle manual; no Galho 3, sub-hipótese (b), se o cancelamento mensal passar de 6%, a conta unitária por cliente não fecha com a receita anual projetada."
+  },
+  {
+    "id": "197",
+    "vol": "1",
+    "code": "E8",
+    "from": "Fragmento do DAG, mapa causal. \"Dor real ampla\" leva a \"cliente paga preço projetado\", que leva a \"ACV viável\". \"APIs com fornecedores\" leva a \"diferencial real\", que leva a \"defensabilidade\", que leva a \"LTV (valor vitalício do cliente) alto\". \"Churn abaixo de três por cento\" leva a \"LTV viável\", que leva a \"unit economics fecha\".",
+    "to": "- **Fluxo causal no grafo acíclico dirigido (DAG):** \"Desperdício recorrente de insumos\" leva a \"dono da padaria aceita pagar a mensalidade projetada\", que sustenta \"receita anual por loja viável\"; \"integração direta com distribuidores\" gera \"diferencial operacional claro\", que eleva a \"retenção de longo prazo\"; e \"cancelamento mensal abaixo de 3%\" garante que o \"valor vitalício do cliente supere com folga o custo de aquisição\"."
+  },
+  {
+    "id": "203",
+    "vol": "1",
+    "code": "C5",
+    "from": "- **Bloco 6, Por que pode funcionar.** Por que você acha que essa tese tem mérito? Liste três a cinco hipóteses sobre o mundo (não sobre você). \"Decisores percebem o problema como urgente.\" \"Nenhum incumbente atende esse segmento de forma reconhecida.\" \"O orçamento existe e está mal alocado hoje.\" Cada hipótese é uma suposição que você precisará testar. Use o formato testável, \"[Persona] [verbo] [objeto]\", em vez de afirmações vagas como \"o mercado é grande\". Seja cético consigo mesmo.",
+    "to": "- **Bloco 6: Por que pode funcionar.** Liste de três a cinco hipóteses testáveis sobre o comportamento do cliente e a estrutura do mercado (nunca sobre as suas próprias qualidades), sempre no formato `[Persona] [verbo de ação] [objeto mensurável]`: por exemplo, \"Donos de padaria com 2 a 5 lojas pagam R$ 290 por mês para evitar duas rupturas semanais de farinha\" ou \"Gestores de compras gastam mais de 4 horas por semana cotando insumos no WhatsApp\". Fuja de frases genéricas como \"o mercado é grande\" e trate cada linha como premissa a ser provada."
+  },
+  {
+    "id": "208",
+    "vol": "1",
+    "code": "E10",
+    "from": "Público-alvo genérico demais. \"Pessoas\", \"empresas\", \"profissionais\". Generalizações camuflam o fato de que você ainda não sabe quem é o cliente.",
+    "to": "**Público-alvo amplo demais.** Escrever \"pessoas\", \"empresas\" ou \"profissionais\" no Bloco 2 esconde a falta de recorte de quem sofre a dor de forma aguda e impede saber quem entrevistar na Fase 4 (Vol. 2)."
+  },
+  {
+    "id": "210",
+    "vol": "1",
+    "code": "C5",
+    "from": "#### Framework: Pyramid Principle (Barbara Minto, 1985)",
+    "to": "#### Framework: Pyramid Principle (Barbara Minto, 1987)"
+  },
+  {
+    "id": "210",
+    "vol": "1",
+    "code": "C5",
+    "from": "Barbara Minto, primeira mulher MBA contratada pela McKinsey (1963), desenvolveu o método durante os anos 1960 e 1970 para estruturar comunicação escrita de consultores enquanto editava relatórios da firma. Publicou *The Pyramid Principle: Logic in Writing and Thinking* em 1985 (Pearson em 1987), virou padrão em McKinsey e se espalhou por consultorias e empresas globalmente. Até hoje é referência em comunicação executiva estruturada.",
+    "to": "Barbara Minto, primeira mulher com MBA contratada pela McKinsey (1963), desenvolveu o método durante as décadas de 1960 e 1970 para estruturar a argumentação lógica dos relatórios da consultoria. Publicada comercialmente em *The Pyramid Principle: Logic in Writing and Thinking* (Pitman/Pearson, 1987, após versões internas usadas na firma desde os anos 1970), a obra consolidou-se como padrão global de comunicação executiva."
+  },
+  {
+    "id": "215",
+    "vol": "1",
+    "code": "C1",
+    "from": "Confundir produto com competência: \"nosso produto é core competency\", produto é expressão, competência está embaixo. Listar capabilities sem testar: tudo vira core competency. Teste rigoroso necessário. Descontinuar core competency em nome de foco curto prazo: corte de orçamento de P&D mata competência em 3-5 anos, reconstruir custa 10x mais. Ignorar erosão: assumir que competência atual se mantém para sempre. M&A inconsistente: adquirir empresas não relacionadas a core competency. Sinergia ilusória. Construir competência \"da moda\": empresas que gastaram milhões em \"big data competency\" ou \"AI competency\" sem lógica estratégica.",
+    "to": "Seis armadilhas esvaziam o método na prática: (1) confundir o produto atual com a competência central que o sustenta; (2) rotular qualquer atividade rotineira como competência diferenciada sem submetê-la aos três filtros de valor, extensão e dificuldade de imitação; (3) cortar investimentos na base técnica em troca de alívio trimestral de caixa, erodindo uma capacidade que leva anos para ser reconstruída; (4) presumir que a vantagem técnica de hoje continuará relevante sem atualização; (5) buscar aquisições sem relação com o núcleo técnico da empresa; e (6) dispersar capital em rótulos da moda sem conexão com a dor que o negócio resolve."
+  },
+  {
+    "id": "216",
+    "vol": "1",
+    "code": "S6",
+    "from": "Deck de apresentação ao board: \"Devemos captar Série B?\"",
+    "to": "Síntese de 90 segundos da Declaração Inicial da Ideia (DII) de Henrique: \"Reduzimos paradas não planejadas em linhas industriais médias em 30% com manutenção preditiva acessível.\""
+  },
+  {
+    "id": "218",
+    "vol": "1",
+    "code": "E9",
+    "from": "Ignorar Orient: colhe dados, age, colhe dados, age. Sem interpretação, é reativo, Analisar demais (stuck em Orient): dados acumulam sem ação, loop trava, Ignorar sinais do ambiente: decide baseado em modelo interno desatualizado.",
+    "to": "Três desvios travam o ciclo OODA: (1) pular a etapa de Orientação (*Orient*), coletando dados e reagindo no automático sem interpretar o que mudou no mercado; (2) paralisar na análise por excesso de cautela, acumulando relatórios sem decidir nem testar; e (3) fechar-se no modelo mental antigo, ignorando os sinais de campo que contradizem a tese inicial."
+  },
+  {
+    "id": "224",
+    "vol": "1",
+    "code": "C5",
+    "from": "Tempo total: 60-120 minutos para a primeira versão. Cada bloco com 3-5 post-its (não parágrafos longos). Revisitar mensalmente nas fases iniciais, trimestralmente depois de PMF.",
+    "to": "Tempo recomendado para a primeira versão: 60 a 90 minutos, preenchendo cada bloco com 3 a 5 notas curtas e objetivas em vez de parágrafos longos. Revise o quadro mensalmente durante as fases de validação e trimestralmente após atingir o ajuste ao mercado (PMF)."
+  },
+  {
+    "id": "233",
+    "vol": "1",
+    "code": "S4",
+    "from": "O entregável é uma página única, capaz de ser explicada verbalmente para um estranho em noventa segundos, e esse estranho consegue repetir de volta com precisão. Esse teste de transmissão é o filtro de clareza. Se a ideia não passa, ela ainda não está pronta para ser testada: está pronta para ser reescrita. A Fase 3 vai usar esta Declaração para estruturar a árvore causal da teoria do negócio, e a Fase 4 (no Volume 2) usará o \"para quem\" e a lista de incertezas como ponto de partida para as primeiras entrevistas de descoberta de problema.",
+    "to": "O entregável desta Fase 2 é a Declaração Inicial da Ideia (DII) em uma página única, clara o bastante para ser explicada em 90 segundos a um interlocutor de fora do setor e repetida por ele sem distorção. Se a explicação travar, reescreva antes de seguir adiante: na Fase 3, logo a seguir, você transformará esta DII na árvore causal da teoria do negócio, e na Fase 4 (Volume 2) usará o recorte de público e a lista de incertezas para conduzir as entrevistas de descoberta de problema."
+  },
+  {
+    "id": "242",
+    "vol": "1",
+    "code": "E3",
+    "from": "Teoria alternativa de Emily. Uma teoria alternativa muda uma premissa central. E se consumidores declaram interesse em sustentabilidade mas não pagam preço maior de verdade? Esse fenômeno é chamado de say-do gap (lacuna entre o que se diz e o que se faz). Nesse mundo, o negócio precisa igualar o preço da fast fashion, não cobrar a mais. Sustentabilidade vira \"bônus invisível\" da oferta, não âncora de preço. A estratégia muda radicalmente: foco em eficiência de produção, não em posicionamento premium.",
+    "to": "**Teoria alternativa de Emily.** Uma segunda árvore altera uma premissa central da tese: e se os consumidores declararem apreço por sustentabilidade nas pesquisas, mas na hora da compra não aceitarem pagar mais caro (lacuna entre discurso e prática, ou *say-do gap*)? Nesse cenário, o produto precisa competir em paridade de preço com a moda convencional, tratando o menor impacto ambiental como atributo embutido na oferta e deslocando a estratégia do posicionamento *premium* para a eficiência industrial."
+  },
+  {
+    "id": "243",
+    "vol": "1",
+    "code": "C3",
+    "from": "Evite setas circulares (A para B e B para A simultaneamente). Se aparecerem, quebre a relação. Geralmente há uma variável intermediária, ou o relacionamento é correlacional, não causal.",
+    "to": "Evite setas circulares (A apontando para B e B apontando de volta para A), pois o mapa causal precisa ser um **grafo acíclico dirigido (DAG)**, no qual nenhuma seta retorna ao ponto de partida. Quando parecer haver retroalimentação, desmembre a sequência no tempo ou isole a variável intermediária que explica a causa primária."
+  },
+  {
+    "id": "248",
+    "vol": "1",
+    "code": "N6",
+    "from": "> 3. **Isolamento do Dominó Mortal:** Você sabe apontar em 10 segundos quais são as **duas premissas bet-the-company** que, se forem refutadas na próxima semana, obrigam você a mudar a rota imediatamente?",
+    "to": "> 3. **Isolamento do Dominó Mortal (Premissa *Bet-the-Company*):** Você consegue apontar em 10 segundos quais são os **dois nós mortais** da sua árvore que, se forem refutados na próxima semana, obrigam você a mudar a rota imediatamente?"
+  },
+  {
+    "id": "251",
+    "vol": "1",
+    "code": "E9",
+    "from": "- [ ] Ordem de teste definida, priorizada por risco mais informação.",
+    "to": "- [ ] Ordem de execução dos testes definida, priorizando os nós mortais pela combinação de risco de ruína e valor de informação por real gasto."
+  },
+  {
+    "id": "257",
+    "vol": "1",
+    "code": "C5",
+    "from": "> Se qualquer um desses itens falha, não avance. Resolva antes.",
+    "to": "> Se algum dos critérios essenciais acima falhar, não avance: resolva a pendência antes de seguir para a próxima fase."
+  },
+  {
+    "id": "261",
+    "vol": "1",
+    "code": "C5",
+    "from": "#### Passo 5, marcação dos nós bet-the-company",
+    "to": "#### Passo 5: Marcação dos nós mortais (premissas *bet-the-company*)"
+  },
+  {
+    "id": "261",
+    "vol": "1",
+    "code": "C5",
+    "from": "- [ ] Dois a cinco nós bet-the-company identificados (alto impacto, baixa evidência). São os atributos prioritários nos próximos trinta a sessenta dias.",
+    "to": "- [ ] Dois a cinco **nós mortais** (*bet-the-company*) destacados na árvore (crenças de alto impacto e baixa evidência atual que concentrarão os testes dos próximos 30 a 60 dias)."
+  },
+  {
+    "id": "267",
+    "vol": "1",
+    "code": "C3",
+    "from": "#### Framework: 5 Whys (Sakichi Toyoda / Toyota, anos 1930)",
+    "to": "#### Framework: 5 Porquês (atribuído a Sakichi Toyoda e sistematizado por Taiichi Ohno no Sistema Toyota de Produção)"
+  },
+  {
+    "id": "272",
+    "vol": "1",
+    "code": "C5",
+    "from": "Para cada relação causal, atribua um grau de confiança. Alta (setenta a cem por cento): você tem evidência prévia robusta, literatura, dados públicos, experiência direta, de que a relação existe. Média (trinta a setenta por cento): é plausível, mas a sua confiança vem principalmente de intuição ou analogia. Baixa (zero a trinta por cento): é uma aposta com pouca base.",
+    "to": "Para cada relação causal, atribua um nível de evidência atual na escala unificada de 1 a 5 (em que 1 representa aposta sem dados e 5 representa evidência empírica sólida): **Evidência Alta (Níveis 4 e 5, ou 70% a 100% de plausibilidade)**, quando você dispõe de dados históricos, literatura ou observação direta consistente; **Evidência Média (Nível 3, ou 30% a 70%)**, quando a ligação é plausível mas repousa em analogias; e **Evidência Baixa (Níveis 1 e 2, ou 0% a 30%)**, quando se trata de uma aposta ainda sem validação empírica."
+  },
+  {
+    "id": "272",
+    "vol": "1",
+    "code": "C5",
+    "from": "- [ ] Story Tree em ferramenta compartilhável (Miro, Figma, Notion, planilha), com raiz, tronco e três ou mais galhos principais. Oito a quinze atributos, relações causais explícitas, peso de confiança em cada relação (alta, média, baixa).",
+    "to": "- [ ] Story Tree estruturada em ferramenta compartilhável (Miro, Figma, Notion ou planilha), contendo raiz, tronco, três ou mais galhos principais e de 8 a 15 atributos conectados por relações causais com nível de evidência classificado (alta, média ou baixa)."
+  },
+  {
+    "id": "272",
+    "vol": "1",
+    "code": "C5",
+    "from": "- [ ] DAG com dez ou mais nós e quinze ou mais relações causais. Cada nó com classificação de evidência: forte, fraca, ou nenhuma.",
+    "to": "- [ ] Grafo causal (DAG) com 8 a 15 nós e suas ligações sem ciclos, cada um avaliado na mesma escala de evidência (alta, média ou baixa)."
+  },
+  {
+    "id": "273",
+    "vol": "1",
+    "code": "S4",
+    "from": "**Terceiro: árvore viva bate árvore estática.** Theory Map não é documento de planejamento, é modelo vivo que deve ser atualizado à medida que evidência chega. Cada experimento da Fase 7 muda o K (conhecimento) de algum nó. Cada atualização de K muda a P (prioridade de teste) de outros nós. Time que mantém a árvore atualizada tem uma vantagem: sabe em tempo real quais premissas críticas ainda não foram testadas e qual é o estado atual da teoria.",
+    "to": "**Terceiro: árvore viva supera diagrama estático.** O *Theory Map* funciona como painel dinâmico que evolui a cada ida a campo: cada entrevista das Fases 4 e 5 (Vol. 2) e cada hipótese testada nas Fases 7 e 8 (Vol. 3) atualiza o nível de evidência do respectivo nó e recalibra a fila de prioridades da semana seguinte. Manter essa árvore atualizada impede que o time continue discutindo opiniões quando os dados já fecharam a questão."
+  },
+  {
+    "id": "277",
+    "vol": "1",
+    "code": "C5",
+    "from": "#### Passo 9, conexão com o Business Model Canvas (opcional, via Theory Map)",
+    "to": "#### Passo 9: Conexão da árvore causal com o Business Model Canvas (via Theory Map)"
+  },
+  {
+    "id": "281",
+    "vol": "1",
+    "code": "C3",
+    "from": " [Atributo A] P(A)=___%",
+    "to": " [Atributo Inicial A] P(A) = 70% (probabilidade do nó raiz)"
+  },
+  {
+    "id": "281",
+    "vol": "1",
+    "code": "C3",
+    "from": " [Atributo B] P(B|A)=___%",
+    "to": " [Atributo Intermediário B] (resultado de A → B com P(B|A) = 50%; acumulado = 35%)"
+  },
+  {
+    "id": "281",
+    "vol": "1",
+    "code": "C3",
+    "from": " [Atributo C] P(C|B)=___% <-- bet-the-company",
+    "to": " [Atributo Terminal C] (resultado de B → C com P(C|B) = 60%; acumulado = 21%) <-- nó mortal"
+  },
+  {
+    "id": "281",
+    "vol": "1",
+    "code": "C3",
+    "from": "[ ] Não há setas circulares (A→B→A).",
+    "to": "[ ] Não há setas circulares (A → B → A) no grafo acíclico dirigido (DAG)."
+  },
+  {
+    "id": "281",
+    "vol": "1",
+    "code": "C3",
+    "from": "[ ] Cada nó tem uma probabilidade marginal estimada.",
+    "to": "[ ] O nó inicial tem sua probabilidade base P(A) estimada sem dupla contagem nos nós seguintes."
+  },
+  {
+    "id": "281",
+    "vol": "1",
+    "code": "C3",
+    "from": "[ ] Cada seta tem uma probabilidade condicional estimada.",
+    "to": "[ ] Cada seta subsequente traz exclusivamente a probabilidade condicional da transição, como P(B dado A) e P(C dado B)."
+  },
+  {
+    "id": "281",
+    "vol": "1",
+    "code": "C3",
+    "from": "[ ] Os nós bet-the-company estão destacados.",
+    "to": "[ ] Os nós mortais (*bet-the-company*) estão claramente destacados no diagrama."
+  },
+  {
+    "id": "281",
+    "vol": "1",
+    "code": "C3",
+    "from": "[ ] Existe ao menos uma folha terminal (nó sem saída) que representa o outcome final (ex.: \"cliente paga\", \"cliente adota\").",
+    "to": "[ ] Existe ao menos uma folha terminal (nó de saída) que representa o comportamento final observável do cliente (ex.: \"cliente assina e paga\", \"cliente renova no segundo mês\")."
+  },
+  {
+    "id": "281",
+    "vol": "1",
+    "code": "C3",
+    "from": "CÁLCULO DE PLAUSIBILIDADE GERAL (opcional):",
+    "to": "CÁLCULO DE PLAUSIBILIDADE ACUMULADA DA CADEIA (opcional):"
+  },
+  {
+    "id": "281",
+    "vol": "1",
+    "code": "C3",
+    "from": "Multiplicando as probabilidades ao longo do caminho crítico:",
+    "to": "Multiplicando a probabilidade do nó inicial pelas probabilidades condicionais de cada seta ao longo do caminho crítico:"
+  },
+  {
+    "id": "281",
+    "vol": "1",
+    "code": "C3",
+    "from": "P(caminho) = P(A) × P(A→B) × P(B→C) ×... = ___%",
+    "to": "P(C) = P(A) × P(B dado A) × P(C dado B) × ... = ___% (ex.: 0,70 × 0,50 × 0,60 = 21%)"
+  },
+  {
+    "id": "284",
+    "vol": "1",
+    "code": "S5",
+    "from": "Em fevereiro de 2009, Graham escreveu o ensaio *Startups in 13 Sentences*, uma tentativa de condensar tudo que ele diria a um fundador se só pudesse falar treze coisas. Derivou da frase de Paul Buchheit que virou mantra do YC: \"é melhor fazer poucas pessoas extremamente felizes do que muitas pessoas semi-felizes.\"",
+    "to": "Em fevereiro de 2009, Paul Graham publicou *Startups in 13 Sentences*, sintetizando em treze princípios o que diria a um fundador se tivesse apenas alguns minutos, a partir do lema de Paul Buchheit adotado pela Y Combinator: \"é melhor fazer poucas pessoas genuinamente satisfeitas do que muitas pessoas apenas meio satisfeitas\". (Nota: para os templates operacionais completos de *Theory Map* e *Hypothesis Canvas*, consulte a Fase 7 no Volume 3.)"
+  },
+  {
+    "id": "285",
+    "vol": "1",
+    "code": "E12",
+    "from": "2. **Separar razões reversíveis de irreversíveis**: se cliente está fechando, não adianta, se está com gerente novo que prefere alternativa, talvez adiante.",
+    "to": "2. **Separar motivos reversíveis de irreversíveis**: se o cliente encerrou a própria empresa, não há como reverter o cancelamento. Se apenas trocou de gerente e o novo responsável prefere outra ferramenta, vale investigar o que faltou na entrega."
+  },
+  {
+    "id": "285",
+    "vol": "1",
+    "code": "E12",
+    "from": "- Empregar-se em empresa maior, frequentemente com ganho material e emocional significativo, liberdade de criatividade pode vir de cargo sênior em empresa estável.",
+    "to": "- Ingressar em uma empresa maior como executivo ou especialista, muitas vezes com ganho financeiro e tranquilidade imediata. A autonomia criativa também pode ser exercida liderando uma área nova dentro de uma organização estável."
+  },
+  {
+    "id": "290",
+    "vol": "1",
+    "code": "E3",
+    "from": "5. **Suporte profissional**: terapeuta pode ser crítico em crise aguda. Adrenalina e cortisol crônicos destroem sono, clareza, relações.",
+    "to": "5. **Suporte profissional**: contar com um terapeuta pode ser decisivo na crise aguda, pois a descarga contínua de adrenalina e cortisol compromete o sono, o julgamento e as relações próximas."
+  },
+  {
+    "id": "290",
+    "vol": "1",
+    "code": "E3",
+    "from": "- Pós-exit: euforia curta (dias-semanas) → vazio existencial profundo.",
+    "to": "- Pós-venda da empresa (*exit*): alguns dias ou semanas de alívio inicial costumam dar lugar a uma sensação de perda de rotina e propósito."
+  },
+  {
+    "id": "290",
+    "vol": "1",
+    "code": "E3",
+    "from": "Bom PMF vem com pressão de escala inesperada. Usuários pedem mais, investidores pedem mais, time pede direção, e você percebeu que não sabe bem como escalar o que está funcionando. Síndrome do impostor em forma madura, \"eu só tive sorte, vão descobrir\". Extremamente comum. Antídoto parcial: escrever o que de fato funcionou e por quê, transformar intuição tácita em lógica explícita reduz a sensação de \"foi sorte\".",
+    "to": "Alcançar o ajuste ao mercado traz uma cobrança imediata de escala: clientes pedem novas entregas, investidores cobram aceleração, a equipe aguarda diretrizes e você percebe que escalar exige habilidades diferentes das que trouxeram a empresa até aqui. A síndrome do impostor reaparece sob a sensação de ter tido apenas sorte. O antídoto prático é documentar o que funcionou e por quê: converter intuição tácita em processo replicável devolve o controle da operação."
+  },
+  {
+    "id": "294",
+    "vol": "1",
+    "code": "N6",
+    "from": "Chamamos a ilusão inicial entre sócios de **A Lua de Mel Sem Contrato**: quando dois fundadores dividem o *cap table* num guardanapo achando que amizade de faculdade substitui conversas difíceis sobre dinheiro, ritmo de trabalho, *vesting* com *cliff* e protocolos de saúde mental.",
+    "to": "Chamamos a ilusão inicial entre sócios de **A Lua de Mel Sem Contrato**: quando dois fundadores dividem o *cap table* num guardanapo achando que a amizade de faculdade substitui o acordo de sócios formal (que detalharemos na seção seguinte sob esse mesmo nome), adiando conversas difíceis sobre dinheiro, ritmo de trabalho, *vesting* com *cliff* e protocolos de saúde mental."
+  },
+  {
+    "id": "296",
+    "vol": "1",
+    "code": "E11",
+    "from": "Fundador com problema financeiro pessoal toma piores decisões profissionais. Aceita term sheet ruim por desespero de caixa. Não sai de empresa que deveria ter fechado porque precisa do salário mínimo. Não negocia com força.",
+    "to": "Lucas não errou apenas na gestão da empresa; o erro começou em casa, seis meses antes, quando subestimou o peso das contas domésticas. Esse padrão se repete porque a pressão financeira pessoal corrói o julgamento executivo, empurra o fundador a aceitar propostas ruins de investidores por urgência de caixa e prolonga negócios inviáveis pela dependência de uma retirada mínima mensal."
+  },
+  {
+    "id": "297",
+    "vol": "1",
+    "code": "S2",
+    "from": "### Manual de blindagem financeira no Brasil: reserva em Selic, escada de pró-labore, seguros e crédito",
+    "to": "### As quatro travas da conta pessoal no Brasil: reserva em Selic, escada de pró-labore, seguros familiares e proteção do crédito"
+  },
+  {
+    "id": "300",
+    "vol": "1",
+    "code": "S4",
+    "from": "Fase mais longa do manual (2-5 anos típicos) e mais propícia a burnout real. Os sintomas vêm devagar, irritabilidade, sono prejudicado, alegria reduzida, pensamento obsessivo com trabalho, relacionamentos familiares deteriorando. Fundadores frequentemente só identificam burnout depois que já estão profundamente nele. Checkpoints regulares com terapeuta (mensal ou quinzenal) funcionam melhor como prevenção do que como tratamento depois da crise.",
+    "to": "Nas Fases 15 e 16 (pós-PMF e time em escala, após a validação das Fases 4 a 10), esta é a etapa mais longa da jornada (geralmente de 2 a 5 anos) e a que mais concentra quadros de exaustão severa. Os sinais surgem de forma gradual: irritabilidade constante, sono fragmentado, perda de interesse fora do trabalho e desgaste familiar. Como a maioria dos fundadores só reconhece o esgotamento quando já está no limite, sessões quinzenais ou mensais de acompanhamento psicológico funcionam muito melhor como prevenção do que como resgate tardio."
+  },
+  {
+    "id": "301",
+    "vol": "1",
+    "code": "C1",
+    "from": "> [!warning] Sinal de perigo",
+    "to": "> [!warning] Sinal de perigo (muitas vezes após mais de dois anos até o PMF)"
+  },
+  {
+    "id": "310",
+    "vol": "1",
+    "code": "E12",
+    "from": "**Checklist anual de saúde financeira pessoal.** Anualmente, ou semestralmente em fase de alta pressão, confira: a reserva ainda cobre seis a vinte e quatro meses de despesas atualizadas? Os seguros (vida, saúde, invalidez, residencial) foram revisados em cobertura e valor? A declaração de IR está em dia e sem pendências? A separação PF e PJ ficou sem mistura nos últimos doze meses? O score de crédito foi mantido ou melhorado? O relacionamento bancário está saudável com canal acessível para crédito se precisar? A conversa estruturada com o cônjuge aconteceu nos últimos doze meses? A previdência está em dia (INSS ou previdência privada contratada)? O testamento existe e está atualizado com a realidade familiar atual? O pacto matrimonial está alinhado com a estrutura patrimonial atual?",
+    "to": "**Revisão anual de blindagem financeira pessoal.** Uma vez por ano (ou a cada seis meses em períodos de aperto de caixa), aplique este roteiro: (1) verifique se a reserva líquida ainda cobre de 6 a 24 meses do custo familiar atualizado; (2) revise apólices e valores dos seguros de vida, saúde, invalidez e residência; (3) confirme que a declaração de IRPF está regular e sem pendências; (4) audite os extratos dos últimos 12 meses para garantir separação estrita entre contas PF e PJ; (5) acompanhe seu *score* de crédito e mantenha ao menos dois cartões e contas antigas ativas em segmento de relacionamento bancário; (6) realize a conversa anual de alinhamento financeiro com o cônjuge; e (7) mantenha em dia a contribuição previdenciária (INSS ou previdência privada), o pacto patrimonial e o testamento."
+  },
+  {
+    "id": "310",
+    "vol": "1",
+    "code": "E12",
+    "from": "O protocolo de conversa difícil entre sócios tem sete passos. Preparar: escrever o que se quer dizer e o que se quer ouvir. Combinar formato: conversa de sessenta a noventa minutos, presencial ou vídeo, sem interrupções. Abertura: cada um fala dez minutos sem interrupção, o outro ouve sem defender. Clarificação: perguntas de entendimento, sem julgamento. Impacto: cada um articula como o que ouviu afetou. Decisões: o que muda, quem faz o que, quando reencontram. Rituais: conversa similar trimestral, pré-agendada, sem esperar crise.",
+    "to": "**Protocolo em sete passos para conversas difíceis entre sócios:** (1) **Prepare por escrito** o ponto que precisa expor e o que espera ouvir do sócio; (2) **Agende uma janela protegida** de 60 a 90 minutos, presencial ou por vídeo, sem celular na mesa; (3) **Abra com escuta integral**, garantindo 10 minutos ininterruptos para cada sócio expor sua visão sem reação defensiva do outro; (4) **Esclareça os fatos** com perguntas diretas antes de emitir juízo; (5) **Explicite o impacto** prático do problema na rotina de cada um e no caixa da empresa; (6) **Registre os combinados**, definindo o que muda, quem responde por cada ação e a data de retorno; e (7) **Institua a cadência trimestral**, deixando a próxima conversa agendada no calendário antes que uma nova crise acumule."
+  },
+  {
+    "id": "314",
+    "vol": "1",
+    "code": "E2",
+    "from": "E o \"vou resolver isso depois\" não funciona. Depois do exit (saída, evento de liquidez como venda da empresa) você descobre que perdeu cinco anos de contribuição ao INSS, não pôde comprar casa e o cônjuge carregou a família financeiramente sem você endereçar formalmente. Dívidas emocionais também importam.",
+    "to": "Adiar a organização patrimonial com a desculpa de \"resolver depois da venda da empresa\" cobra um preço alto: misturar contas pessoais e societárias é o erro mais recorrente no Brasil e estoura três vezes (na auditoria do investidor, na partilha de um eventual divórcio e na fiscalização da Receita Federal), além de deixar anos de lacuna previdenciária e sobrecarregar financeiramente o cônjuge que sustentou a casa em silêncio."
+  },
+  {
+    "id": "321",
+    "vol": "1",
+    "code": "C3",
+    "from": "### Por que 65% dos fracassos começam num silêncio acumulado entre sócios ou num burnout negado",
+    "to": "### Por que conflitos silenciosos entre cofundadores e o esgotamento negado derrubam startups promissoras"
+  },
+  {
+    "id": "322",
+    "vol": "1",
+    "code": "E1",
+    "from": "Isso não é romantismo. É operacional. E aparece em três dimensões mensuráveis:",
+    "to": "Este capítulo trata a saúde mental do fundador com o mesmo rigor aplicado ao fluxo de caixa, acompanhando três dimensões observáveis:"
+  },
+  {
+    "id": "322",
+    "vol": "1",
+    "code": "E1",
+    "from": "**Princípio geral do mapa.** Cada fase tem sua cor emocional dominante. Conhecer antecipadamente ajuda em dois momentos: quando o sentimento aparece, reconhecê-lo como \"comum nesta fase, passa\" (não sinal de falha pessoal), e quando ele se intensifica além do padrão esperado, saber que é o momento de buscar suporte profissional específico (terapeuta, psiquiatra, médico). Saúde mental de fundador não é sinal de fraqueza, é ferramenta operacional. Fundador em crise toma decisões piores, demite mal, capta mal, esgota time. Cuidar da própria saúde mental é decisão de negócio, não apenas de bem-estar.",
+    "to": "**Princípio geral do mapa emocional.** Cada etapa da construção traz um desgaste característico. Conhecer esse padrão com antecedência ajuda em duas frentes: quando o desconforto surge dentro da faixa esperada, você o reconhece como parte transitória da travessia; quando a intensidade foge do controle, sabe que chegou a hora de acionar apoio especializado (psicólogo ou médico psiquiatra). Pedir ajuda mantém o julgamento afiado, porque um fundador exausto contrata mal, demite tarde, negocia pior e contamina o restante da equipe."
+  },
+  {
+    "id": "328",
+    "vol": "1",
+    "code": "E9",
+    "from": "**Check-in semanal (5 minutos, dominga a noite):**",
+    "to": "**Check-in semanal (5 minutos, domingo à noite):**"
+  },
+  {
+    "id": "332",
+    "vol": "1",
+    "code": "S7",
+    "from": "Earnestness, fazer algo pelos motivos certos (Graham, 2020)",
+    "to": "#### *Earnestness*: fazer algo pelos motivos certos (Paul Graham, 2020)"
+  },
+  {
+    "id": "332",
+    "vol": "1",
+    "code": "S7",
+    "from": "Mean People Fail, caráter como fator competitivo (Graham, 2014)",
+    "to": "#### *Mean People Fail*: caráter como fator competitivo (Paul Graham, 2014)"
+  },
+  {
+    "id": "333",
+    "vol": "1",
+    "code": "E9",
+    "from": "Um terceiro ensaio vale menção aqui, porque trata de algo que a literatura de startup raramente articula: **ser pessoa ruim, moralmente, também é desvantagem competitiva em startup**: não apenas moral, mas economicamente.",
+    "to": "Nesse terceiro ensaio, Paul Graham sustenta um ponto pouco discutido na literatura de negócios: **a falta de integridade moral funciona como desvantagem competitiva concreta**, cobrando preço econômico no longo prazo porque afasta os melhores talentos, parceiros e investidores."
+  },
+  {
+    "id": "339",
+    "vol": "1",
+    "code": "S5",
+    "from": "> [!warning] Sinais de risco no relacionamento",
+    "to": "> [!warning] Sinais de alerta no convívio familiar (roteiro consolidado de proteção doméstica)"
+  },
+  {
+    "id": "339",
+    "vol": "1",
+    "code": "S5",
+    "from": "**Práticas concretas:**",
+    "to": "**Três práticas inegociáveis de convivência familiar ao longo da jornada:**"
+  },
+  {
+    "id": "339",
+    "vol": "1",
+    "code": "S5",
+    "from": "- Zero celular em refeições familiares (zero mesmo, não \"rápido de checar\").",
+    "to": "- Manter o celular fora da mesa durante as refeições em família, sem abrir exceções para \"checar só uma mensagem rápida\"."
+  },
+  {
+    "id": "339",
+    "vol": "1",
+    "code": "S5",
+    "from": "- Explicar à família, uma vez por ano minimamente, o estado da empresa e da sua energia. Família que entende é família que suporta.",
+    "to": "- Compartilhar com o cônjuge e a família, ao menos uma vez por semestre, um retrato honesto do fôlego da empresa e do seu próprio nível de energia, evitando que quem convive com você descubra crises apenas quando elas explodem."
+  },
+  {
+    "id": "339",
+    "vol": "1",
+    "code": "S5",
+    "from": "#### Relacionamento próximo durante e após fechamento",
+    "to": "#### O que muda na dinâmica familiar quando a empresa encerra as atividades"
+  },
+  {
+    "id": "339",
+    "vol": "1",
+    "code": "S5",
+    "from": "Durante a empresa em dificuldade, o cônjuge frequentemente carrega peso emocional que o fundador não pode descarregar no time. Escuta crises diárias, absorve ansiedade, vê o fundador ausente emocionalmente mesmo quando fisicamente presente. Quando a empresa fecha, duas dinâmicas são possíveis. A primeira é alívio compartilhado (\"finalmente acabou, vamos respirar\"): relação sai mais forte. A segunda é ressentimento acumulado: anos de ausência, sacrifício financeiro, estresse. Quando o fundador está emocionalmente pronto para se reconectar, o cônjuge está exausto.",
+    "to": "Ao longo dos meses que antecedem o encerramento, o cônjuge costuma absorver a tensão que o fundador evita demonstrar diante da equipe. Quando a operação finalmente fecha as portas, a reação doméstica segue um de dois caminhos: ou surge um alívio compartilhado pela interrupção da sangria de caixa e de sono, ou emerge o desgaste acumulado por anos de ausência e aperto orçamentário justamente quando o fundador tenta retomar a rotina em casa."
+  },
+  {
+    "id": "339",
+    "vol": "1",
+    "code": "S5",
+    "from": "Para trabalhar a relação durante o fechamento: reconhecer explicitamente (\"eu vejo o que você carregou, obrigado, não foi trivial\"), pedir ajuda específica em vez de esperar apoio genérico (\"preciso de duas horas sozinho hoje para processar, você pode cuidar das crianças?\" em vez de \"estou mal, me ajuda\"), reservar tempo protegido não relacionado à empresa (jantar, passeio, fim de semana em outro lugar). Se a relação está em risco real: terapia de casal antes de esperar a crise.",
+    "to": "Para atravessar a desmobilização da empresa sem romper o vínculo familiar, substitua pedidos vagos de consolo por acordos concretos de rotina (reservar horários específicos para fechar pendências jurídicas e proteger blocos sem falar do negócio) e reconheça abertamente o peso que o parceiro carregou durante a operação."
+  },
+  {
+    "id": "339",
+    "vol": "1",
+    "code": "S5",
+    "from": "Filhos pequenos sentem a tensão mesmo sem entender. Adolescentes entendem e frequentemente compartilham a ansiedade. O fundador ausente emocionalmente durante anos de construção continua ausente no fechamento (absorvido no processo). Mudança de padrão de vida (menos viagens, menos gastos, redução de rotina de lazer) impacta diretamente. Para trabalhar: honestidade apropriada à idade (\"a empresa que a mamãe/o papai construiu não deu certo, a gente vai ficar bem, mas vai ser diferente por um tempo\"), manutenção de rotinas que dão segurança (escola, atividades, horário de jantar) e, para filhos mais velhos, inclusão em nível apropriado sem esconder a ponto de descobrirem por terceiros.",
+    "to": "Com os filhos, o impacto específico do fechamento aparece na mudança brusca de rotina e no ajuste temporário do orçamento doméstico: explique a transição com vocabulário adequado à idade, preserve os horários de escola e convivência que ancoram a segurança da casa e informe os filhos mais velhos diretamente para que não descubram o encerramento por terceiros."
+  },
+  {
+    "id": "343",
+    "vol": "1",
+    "code": "N9",
+    "from": "> [!note] Negociar equity entre cofundadores é uma negociação formal",
+    "to": "> [!note] Divisão de participação (50/50, *vesting* de 4 anos com *cliff* de 1 ano e *vesting* reverso em Ltda.: ver Fase 0 e Fase 18 no Vol. 8)"
+  },
+  {
+    "id": "346",
+    "vol": "1",
+    "code": "C5",
+    "from": "#### Padrão comum a todos os 5 momentos",
+    "to": "#### Padrão comum a todos os momentos críticos da travessia"
+  },
+  {
+    "id": "347",
+    "vol": "1",
+    "code": "S7",
+    "from": "Esse manual, até aqui, cobriu a empresa como projeto profissional e financeiro. Esta seção reconhece o que frequentemente não é discutido publicamente: **fundador que fecha empresa perde muito mais do que capital**. Perde identidade construída ao longo de anos, relações profissionais que se configuraram em torno do projeto, narrativa pessoal pública, rotina diária, senso de propósito, e frequentemente também parte relevante da rede social.",
+    "to": "**Quando uma empresa encerra as atividades, o fundador perde mais do que o capital investido.** O fechamento desfaz uma identidade profissional construída ao longo de anos, altera relações de trabalho que giravam em torno do negócio, interrompe a rotina diária e exige reconstruir a própria narrativa perante o mercado e a família."
+  },
+  {
+    "id": "347",
+    "vol": "1",
+    "code": "S7",
+    "from": "Este capítulo trata de saúde mental do fundador de forma transversal. Este trecho traz um mapa específico: **qual tipo de fragilidade mental tende a aparecer em qual fase da jornada**. Ter esse mapa antecipado permite reconhecer \"estou nessa zona\" e pedir ajuda antes de crise aguda, em vez de atribuir cada crise à circunstância específica do momento.",
+    "to": "O mapa a seguir detalha **qual tipo de pressão emocional costuma emergir em cada fase da construção da empresa**. Consultar esse roteiro com antecedência permite reconhecer os sinais iniciais de desgaste e acionar suporte antes que o cansaço acumulado se converta em crise aguda."
+  },
+  {
+    "id": "351",
+    "vol": "1",
+    "code": "C1",
+    "from": "**Perspectiva**: demitir é parte de liderar. 30-50% das primeiras contratações não se encaixam (não porque pessoas são ruins, porque early startup é caótico). Aprender a fazer bem é habilidade essencial.",
+    "to": "**Perspectiva prática**: desligar quem não se ajustou ao estágio da empresa faz parte do ofício de liderar. Como o início de uma startup opera sob mudança constante de prioridades, uma parcela expressiva das primeiras contratações acaba não acompanhando a transição de fase, e conduzir essas saídas com respeito e rapidez protege o restante do time."
+  },
+  {
+    "id": "351",
+    "vol": "1",
+    "code": "C1",
+    "from": "Duração típica: 2-12 semanas de intensidade aguda, outros 3-9 meses de processo mais lento.",
+    "to": "Duração observada na prática: a fase aguda de desmobilização costuma concentrar-se nas primeiras semanas após a decisão, enquanto a assimilação emocional e profissional se estende pelos meses seguintes."
+  },
+  {
+    "id": "351",
+    "vol": "1",
+    "code": "C1",
+    "from": "Depois de anos de trabalho criativo, a fase jurídica/tributária é monótona e te expõe a riscos (tributários, trabalhistas, contratuais) que você não viu antes. Alguns fundadores entram em desanimação passageira, \"eu assinei pra isso?\". Dura 3-6 meses e passa. Delegar o máximo possível dessa fase para profissionais (contador, advogado) e proteger 30-50% do tempo para trabalho de produto preserva a motivação.",
+    "to": "Após anos concentrado em produto e vendas, mergulhar em auditorias societárias, adequação tributária e revisão de passivos trabalhistas costuma provocar uma queda passageira de energia no fundador. A saída prática é delegar a condução técnica a advogados e contadores de confiança, preservando de um terço a metade da sua agenda semanal ligada diretamente a clientes e produto."
+  },
+  {
+    "id": "352",
+    "vol": "1",
+    "code": "C6",
+    "from": "**O que acontece**: escândalo, breach de dados, cliente insatisfeito fazendo thread viral, notícia negativa. Pode ser totalmente sua culpa ou só parcialmente.",
+    "to": "**O que acontece**: incidente de segurança ou vazamento de dados pessoais, falha grave de serviço ou reclamação pública de cliente que ganha tração nas redes. Se houver vazamento de dados pessoais, o prazo legal já está correndo: a LGPD (art. 48) e a regulamentação da ANPD (Resolução CD/ANPD nº 15/2024, com prazo geral de três dias úteis) exigem comunicar a autoridade e os titulares afetados rapidamente, conforme detalhado no Capítulo 10 do Volume 8."
+  },
+  {
+    "id": "353",
+    "vol": "1",
+    "code": "S6",
+    "from": "#### 7. Quando buscar ajuda profissional",
+    "to": "#### 7. Sinais clínicos e operacionais para acionar psicólogo ou psiquiatra"
+  },
+  {
+    "id": "353",
+    "vol": "1",
+    "code": "S6",
+    "from": "#### Quando buscar ajuda profissional",
+    "to": "#### Quando acionar acompanhamento médico ou psicológico durante a travessia do luto"
+  },
+  {
+    "id": "360",
+    "vol": "1",
+    "code": "E9",
+    "from": "|Fase 7 (Vol. 3)]] ou 6 processada com integridade.",
+    "to": "|Etapas 5 e 6 do luto e da reconstrução]] vividas com integridade."
+  },
+  {
+    "id": "370",
+    "vol": "1",
+    "code": "N6",
+    "from": "Chamamos o erro mais comum do ecossistema de **A Vaidade do Cheque Alheio**: tratar a captação de Venture Capital como medalha de sucesso em vez de entendê-la pelo que ela realmente é: uma **esteira rolante de velocidade máxima** onde qualquer resultado abaixo de multiplicar a empresa por 10x a 20x é tratado como fracasso.",
+    "to": "Chamamos o erro mais recorrente do ecossistema de **A Vaidade do Cheque Alheio** (conceito que retomaremos no Espelho e no Ritual deste capítulo): tratar a captação de Venture Capital como troféu de validação, esquecendo que ela coloca a empresa numa esteira de crescimento forçado em que qualquer retorno abaixo de 10x a 20x o capital investido é visto pelo fundo como insuficiente."
+  },
+  {
+    "id": "376",
+    "vol": "1",
+    "code": "S7",
+    "from": "### Armadilhas de sales enterprise (expansão K)",
+    "to": "### Armadilhas em vendas corporativas complexas (ver Vendas Enterprise na Fase 15 do Vol. 6)"
+  },
+  {
+    "id": "376",
+    "vol": "1",
+    "code": "S7",
+    "from": "### Armadilhas de PLG (expansão J)",
+    "to": "### Armadilhas no crescimento puxado pelo produto (ver PLG na Fase 11 do Vol. 4)"
+  },
+  {
+    "id": "378",
+    "vol": "1",
+    "code": "E9",
+    "from": "**\"Uber for X\" genérico.** Você copia a mecânica do Uber sem entender por que o Uber funcionou (smartphone mais GPS mais pagamento cashless mais motoristas sem hierarquia). O antídoto: antes de adaptar qualquer modelo validado, articule as três razões de sucesso do original e verifique se a sua adaptação mantém todas.",
+    "to": "**\"Uber para X\" sem dissecar a mecânica original.** Copiar a interface de um aplicativo famoso fracassa quando você ignora as quatro engrenagens que tornaram o modelo viável (celular com GPS no bolso, pagamento digital sem atrito, oferta ociosa de motoristas independentes e liquidez local imediata). O antídoto: antes de transplantar qualquer modelo para outro setor, liste as três ou quatro condições econômicas que sustentam o negócio original e verifique se todas permanecem válidas no seu mercado."
+  },
+  {
+    "id": "380",
+    "vol": "1",
+    "code": "E1",
+    "from": "]]. O antídoto: feeling é sinal, não tese. Mesmo com intuição fortíssima, aplicar os quatro filtros (founder-market fit, timing, moat, modelo de pagamento) leva poucos dias e pode salvar meses.",
+    "to": "]]. O antídoto prático: trate a intuição inicial apenas como pista de investigação e submeta a ideia aos quatro filtros básicos (aderência dos fundadores, momento de mercado, defensabilidade e modelo de cobrança), o que leva poucos dias e poupa meses de execução no escuro."
+  },
+  {
+    "id": "380",
+    "vol": "1",
+    "code": "E1",
+    "from": "**Pre-mortem (Klein, 1998, popularizado por Kahneman).** Antes de começar projeto ou decisão importante, faça o exercício: imagine que estamos doze meses no futuro e esse projeto falhou espetacularmente. O que aconteceu? Cada pessoa da equipe escreve, individualmente e por dez minutos, os motivos da falha. Depois compartilha. Tipicamente emergem entre quinze e trinta motivos que não apareceriam em brainstorm otimista, e muitos são mitigáveis antes de começar. Pre-mortem não é pessimismo. É engenharia de risco aplicada antes de engajar capital.",
+    "to": "**Pré-mortem (Gary Klein, 1998, difundido por Daniel Kahneman).** Antes de comprometer caixa ou assinar um contrato irreversível, reúna os sócios e proponha o seguinte exercício: imaginem que estamos doze meses no futuro e que esta iniciativa fracassou por completo. Cada pessoa escreve em silêncio, durante dez minutos, as causas concretas que levaram ao colapso e depois lê sua lista para o grupo. O exercício costuma revelar de quinze a trinta vulnerabilidades operacionais que nunca surgiriam numa reunião otimista, permitindo corrigir rota antes de gastar o dinheiro."
+  },
+  {
+    "id": "387",
+    "vol": "1",
+    "code": "N2",
+    "from": "### A terceira via inteligente: fazer Bootstrap até a tração e levantar capital com poder de barganha",
+    "to": "### A terceira via na prática: financiar a validação com receita própria (como Lucas e Marina) antes de negociar capital em posição de força"
+  },
+  {
+    "id": "391",
+    "vol": "1",
+    "code": "E9",
+    "from": "Unit economics positivos cedo. O seu produto consegue payback de CAC em seis a doze meses, com preço, e custo, atual. Você vê caminho claro para margem saudável (trinta a sessenta por cento operacional para SaaS, varia por setor). Capital inicial pequeno (R$ 200 mil a R$ 2 milhões) te leva ao ponto onde a receita financia crescimento.",
+    "to": "**Economia unitária saudável desde os primeiros contratos.** O modelo híbrido funciona quando o produto recupera o custo de aquisição de clientes (CAC) entre 6 e 12 meses com o preço e a estrutura de custos atuais, operando com margem operacional entre 30% e 60% em software B2B. Com isso, um capital semente enxuto (ou a receita de serviços produtizados, como fizeram Lucas e Marina) sustenta a operação até que o faturamento recorrente financie o próximo degrau."
+  },
+  {
+    "id": "402",
+    "vol": "1",
+    "code": "E2",
+    "from": "Requisitos para o caminho híbrido. Unit economics positivos desde cedo (requisito do bootstrap). Modelo que não seja winner-take-all puro (para permitir tempo). Fundador disciplinado, para não captar cedo por ego, ou impaciência. Capacidade de resistir FOMO do ecossistema.",
+    "to": "Para trilhar esse caminho híbrido, quatro condições precisam estar presentes: economia unitária positiva desde os primeiros clientes, um mercado em que o vencedor não leve tudo sozinho da noite para o dia, disciplina dos sócios para reinvestir o próprio caixa sem inflar a folha e serenidade para ignorar a pressão social das rodadas de palco."
+  },
+  {
+    "id": "402",
+    "vol": "1",
+    "code": "E2",
+    "from": "Vantagens. Quando capta, capta em posição de força. Receita real, métricas sólidas, valuation alto, e negociação equilibrada com investidor. O fundador mantém mais equity após Série A, porque dilui em estágio posterior (valuation maior).",
+    "to": "A principal vantagem dessa escolha aparece na mesa de negociação: quando o fundador decide captar após provar retenção e receita crescente com recursos próprios, conversa com os fundos de igual para igual, defende uma avaliação mais justa e preserva uma fatia maior da empresa após a Série A."
+  },
+  {
+    "id": "402",
+    "vol": "1",
+    "code": "E2",
+    "from": "### Erros mortais: rodar empresa bootstrapped com custo de VC ou levantar VC para um nicho de R$ 30 milhões",
+    "to": "### Erros que destroem o caixa: operar empresa autofinanciada com estrutura de custos de VC ou captar fundo para um nicho de R$ 30 milhões"
+  },
+  {
+    "id": "402",
+    "vol": "1",
+    "code": "E2",
+    "from": "Default \"vou captar\" por pressão social do ecossistema. Evento de startup te ensina captação como trajetória padrão. A primeira pergunta social (\"vocês captaram quanto?\") pressiona. Ignorar isso, e pensar nos próprios trade-offs.",
+    "to": "**Tratar a captação como caminho automático por pressão do ambiente.** Eventos e manchetes do setor treinam o fundador a medir sucesso pelo valor captado. Antes de entrar em rodada, ignore a pergunta social das rodas de coquetel (\"quanto vocês já levantaram?\") e avalie friamente se o seu mercado e o seu perfil de risco pedem capital de risco."
+  },
+  {
+    "id": "402",
+    "vol": "1",
+    "code": "E2",
+    "from": "Bootstrap em negócio que precisaria de VC. Empresa que compete com startup capitalizada não consegue acompanhar velocidade. Perde talento. Perde mercado. Quebra lenta.",
+    "to": "**Tentar autofinanciar um negócio que exige capital intensivo para sobreviver.** Quando a startup disputa um mercado de efeito de rede direto contra concorrentes bem capitalizados, crescer apenas com o fluxo de caixa próprio atrasa a contratação de talentos, entrega participação de mercado ao rival e leva a empresa à estagnação."
+  },
+  {
+    "id": "402",
+    "vol": "1",
+    "code": "E2",
+    "from": "VC em negócio que não é outlier potencial. Empresa média bem-sucedida é pressionada a virar gigante. Se recusa a virar gigante, se transforma em zombie do portfolio.",
+    "to": "**Colocar dinheiro de fundo institucional em um negócio de nicho sem escala de retorno exponencial.** Uma operação saudável que fatura dezenas de milhões com boa margem vira um problema dentro da carteira de um fundo de VC: pressionada a crescer acima do tamanho real do mercado, queima caixa em apostas forçadas e perde a rentabilidade que tinha."
+  },
+  {
+    "id": "402",
+    "vol": "1",
+    "code": "E2",
+    "from": "Captar de angel errado cedo. Cheque de R$ 500 mil de angel inexperiente, com expectativas desalinhadas, pode ser pior que não captar. Angel que exige board seat, mensalmente microgerencia, ou tem expectativas de retorno desalinhadas com tipo de negócio, é passivo. Não ativo.",
+    "to": "**Aceitar cheque inicial de investidor-anjo sem repertório no setor.** Captar R$ 500 mil de um investidor individual com expectativas irreais de prazo e governança costuma sair mais caro do que crescer devagar com receita própria: quem exige assento formal em conselho cedo demais ou tenta microgerenciar a operação semanal drena a energia dos fundadores em vez de ajudar."
+  },
+  {
+    "id": "423",
+    "vol": "1",
+    "code": "C3",
+    "from": "**Agência, e serviços criativos.** Africa, AlmapBBDO, WMcCann, DPZ&T, Ogilvy Brasil, David (agência de publicidade, fundada por Anselmo Ramos), construídos como empresas brasileiras, ou braço local. Agências digitais como F.biz (adquirida), Wunderman, R/GA. Modelo de negócio diferente (venda de tempo, ou criatividade, com margem menor, e dependente de talento). Mas é empreendedorismo válido. E brasileiro.",
+    "to": "**Agências de publicidade e estúdios criativos fundados no Brasil.** Negócios criados por publicitários e empreendedores brasileiros (como Africa, DM9, DPZ, Almap, W/Brasil e F.biz, vários deles posteriormente integrados a holdings globais) operam sob outra lógica econômica: vendem propriedade intelectual, campanha e alocação de equipes criativas, com menor escalabilidade de margem do que software puro, mas geração de caixa e distribuição de dividendos consistentes desde que haja disciplina na gestão de contratos."
+  },
+  {
+    "id": "423",
+    "vol": "1",
+    "code": "C3",
+    "from": "**Saúde (além de healthtech).** Hospitais privados (Einstein, Sírio-Libanês, Oswaldo Cruz). Planos de saúde. Rede de clínicas especializadas. Telemedicina pré-tech. Laboratórios clínicos. Setor regulado. Margem razoável. Crescimento previsível.",
+    "to": "**Serviços de saúde privados fora do modelo de startup pura.** Redes de clínicas especializadas, laboratórios de medicina diagnóstica (como Dasa, Fleury e Sabin) e operadoras regionais combinam regulação sanitária estrita, investimento físico e receita recorrente previsível (distintos de hospitais filantrópicos de excelência, como Albert Einstein e Sírio-Libanês, que reinvestem integralmente o superávit na própria instituição sem distribuição de lucro a sócios)."
+  },
+  {
+    "id": "430",
+    "vol": "1",
+    "code": "E11",
+    "from": "Incluo abaixo porque é uma lista com nomes concretos para padrões de falha que aparecem aqui em vários capítulos em formas dispersas. Leia como checklist periódico. Se você reconhece três ou mais em si simultaneamente, pare e diagnostique.",
+    "to": "Reúno a seguir os padrões de falha mais recorrentes da jornada empreendedora para consulta periódica entre fases (e os 42 setores analisados no Volume 10 aprofundam as armadilhas específicas de cada vertical). Se você identificar três ou mais destes sinais operando ao mesmo tempo na sua empresa, pause a expansão e corrija a base."
+  },
+  {
+    "id": "433",
+    "vol": "1",
+    "code": "N2",
+    "from": "> [!warning] Decisões disfarçadas de Tipo 2",
+    "to": "> [!warning] Decisões irreversíveis (Tipo 1) disfarçadas de ajustes reversíveis (como a cláusula de exclusividade que travou 60% do roadmap)"
+  },
+  {
+    "id": "446",
+    "vol": "1",
+    "code": "E3",
+    "from": "### Por que ouvir onde o sapato do outro aperta persuade mais do que qualquer argumento brilhante",
+    "to": "### Por que mapear onde o calo do interlocutor aperta persuade mais do que qualquer discurso ensaiado"
+  },
+  {
+    "id": "454",
+    "vol": "1",
+    "code": "E1",
+    "from": "**Construção de consenso pré-reunião** (lobby legítimo): conversar individualmente com cada membro relevante do board antes da reunião, apresentar perspectiva, ouvir objeções, ajustar posição se necessário. Reunião onde o resultado já foi alinhado individualmente não é surpresa: é confirmação.",
+    "to": "**Construção de alinhamento prévio à reunião** (articulação individual legítima): converse separadamente com cada conselheiro ou decisor antes da sessão formal para expor o contexto, escutar reservas e ajustar a proposta. Quando o trabalho de escuta é bem feito nos bastidores, a reunião colegiada serve para ratificar uma decisão já amadurecida, evitando surpresas e impasses de última hora."
+  },
+  {
+    "id": "454",
+    "vol": "1",
+    "code": "E1",
+    "from": "A distinção entre persuasão e manipulação não é filosófica: é funcional.",
+    "to": "A fronteira entre persuasão legítima e manipulação aparece no efeito prático que a conversa produz depois que o acordo é fechado:"
+  },
+  {
+    "id": "454",
+    "vol": "1",
+    "code": "E1",
+    "from": "**Reparação após erro**: credibilidade destruída pode ser parcialmente recuperada se a resposta ao erro for clara, rápida e concreta. O que destrói permanentemente não é o erro: é o encobrimento, a negação ou a inação depois.",
+    "to": "**Reconstrução de confiança após falha operacional**: a credibilidade abalada por um erro técnico ou comercial se recupera quando a resposta do fundador é rápida, transparente e acompanhada de correção verificável. O que destrói a reputação de forma permanente é tentar esconder o problema, negar o impacto ou demorar a agir."
+  },
+  {
+    "id": "460",
+    "vol": "1",
+    "code": "E10",
+    "from": "### Quando parar de tentar convencer: reconhecendo incentivos estruturalmente opostos",
+    "to": "### Quando a influência falha: como reconhecer incentivos estruturalmente opostos e parar de insistir"
+  },
+  {
+    "id": "463",
+    "vol": "1",
+    "code": "E12",
+    "from": "Networking como disciplina estruturada está ausente do manual até aqui. Este capítulo cobre o que o fundador iniciante raramente aprende, como construir rede antes de precisar dela, como acionar a rede quando precisa e como ser contribuinte líquido na rede em vez de só receptor.",
+    "to": "Construir e manter uma rede de relacionamentos profissionais exige método deliberado: este capítulo mostra como criar vínculos de confiança antes de precisar de um favor, como acionar as pessoas certas nos momentos decisivos e como gerar valor concreto para a sua rede antes de pedir contrapartida."
+  },
+  {
+    "id": "464",
+    "vol": "1",
+    "code": "C4",
+    "from": "Distribuir o memo antes da reunião não funciona: as pessoas chegam sem ter lido. O modelo da Amazon: 10 a 15 minutos de leitura silenciosa no início da reunião, todos na mesma sala (ou call), sem ninguém falando. Só depois começa a discussão. A qualidade da conversa muda porque todos têm o mesmo contexto e o escritor não pode \"explicar\" o memo: se precisa de explicação oral, o texto falhou.",
+    "to": "Enviar o memorando na véspera esperando que todos cheguem preparados raramente funciona em agendas corridas. Na prática consagrada pela Amazon (descrita por Jeff Bezos a partir do comunicado interno de 2004 sobre memorandos narrativos), a reunião começa com 20 a 30 minutos de leitura silenciosa do texto completo por todos os presentes na sala, antes de qualquer debate oral. Assim, a discussão parte da mesma base de fatos e o autor fica impedido de compensar lacunas do documento no improviso."
+  },
+  {
+    "id": "465",
+    "vol": "1",
+    "code": "N9",
+    "from": "No mundo real dos negócios, **a sua escrita é a interface pública do seu cérebro**. Dominar os três documentos vitais de um fundador, o *One-Pager* que abre portas, o *Memo de Decisão* que alinha o time e o *Investor/Client Update* que constrói confiança, aplicando o *Princípio da Pirâmide* de Barbara Minto (começar sempre pela conclusão) é a alavanca mais barata e poderosa que existe.",
+    "to": "No ambiente de negócios, **a clareza da sua escrita reflete a organização do seu pensamento**. Dominar os documentos centrais da rotina executiva (do resumo de uma página, ou *One-Pager*, e do memorando estratégico de decisão, ou *Decision Memo*, à atualização mensal para investidores, ou *Investor Update*, e ao comunicado interno estruturado), aplicando o *Princípio da Pirâmide* de Barbara Minto (apresentar a conclusão logo na abertura), multiplica a velocidade de alinhamento da empresa."
+  },
+  {
+    "id": "467",
+    "vol": "1",
+    "code": "C4",
+    "from": "\"Preciso de ajuda com o contrato\" gera reunião. \"O contrato com a Petrobras tem cláusula de SLA de 99,9% de uptime: nossa infraestrutura suporta isso? Precisamos de resposta até quinta para a assinatura sexta.\" não gera reunião.",
+    "to": "Mensagens vagas como \"Preciso de ajuda com o contrato\" forçam a marcação de uma reunião inteira só para descobrir qual é a dúvida. Já um pedido específico como \"O contrato com a [Rede Industrial X] exige SLA de 99,9% de disponibilidade: nossa arquitetura atual sustenta essa cláusula? Precisamos de confirmação até quinta-feira às 17h para assinar na sexta\" resolve a decisão em duas linhas de resposta assíncrona."
+  },
+  {
+    "id": "468",
+    "vol": "1",
+    "code": "C3",
+    "from": "**Conclusão primeiro, argumento depois.** Jornalismo chama isso de pirâmide invertida: a informação mais importante no primeiro parágrafo, detalhes depois. Em comunicação de negócios, o leitor tem 30 segundos. Se a conclusão está no último parágrafo, a maioria não chega lá. Escreva a conclusão primeiro, expanda o raciocínio depois.",
+    "to": "**Conclusão na primeira frase, argumentos de sustentação em seguida.** No método de Barbara Minto (*Princípio da Pirâmide*), toda mensagem executiva abre pela resposta ou recomendação principal, apoiada logo abaixo pelos grupos de argumentos e dados que a comprovam, numa lógica aparentada ao *BLUF* (*Bottom Line Up Front*) militar e à pirâmide invertida do jornalismo. Como o leitor ocupado decide nos primeiros 30 segundos se continua lendo, esconder a conclusão no último parágrafo faz a mensagem morrer no caminho."
+  },
+  {
+    "id": "469",
+    "vol": "1",
+    "code": "E1",
+    "from": "- Frases completas com sujeito e verbo. \"Problema de churn crescente\" não é frase: é fragmento. \"O churn mensal cresceu de 2,1% para 3,4% nos últimos três meses, concentrado em clientes com menos de 90 dias de uso\" é frase que transmite informação acionável.",
+    "to": "- **Escreva períodos completos com sujeito, verbo e complemento mensurável.** Anotar apenas \"Problema de cancelamento crescente\" deixa a equipe adivinhando o diagnóstico; escrever \"O cancelamento mensal subiu de 2,1% para 3,4% no último trimestre, concentrado em contas com menos de 90 dias de uso\" entrega um fato pronto para decisão."
+  },
+  {
+    "id": "469",
+    "vol": "1",
+    "code": "E1",
+    "from": "**Como revisar:** ler em voz alta. Frase que você tropeça ao ler em voz alta está mal escrita. Frase que você consegue ler em um fôlego, com entonação natural, geralmente está boa. Isso não é regra poética: é teste funcional de fluidez.",
+    "to": "**Teste de revisão em voz alta:** leia o rascunho falando em ritmo normal. Onde faltar ar ou a língua tropeçar, a sintaxe está truncada e precisa ser cortada ou reordenada; quando o parágrafo flui numa única leitura natural, o texto está pronto para envio."
+  },
+  {
+    "id": "469",
+    "vol": "1",
+    "code": "E1",
+    "from": "Async não é o oposto de reunião: é um modo específico de comunicação com casos de uso próprios.",
+    "to": "A comunicação assíncrona substitui reuniões informativas quando combina registro escrito completo, prazo explícito de resposta e responsável definido:"
+  },
+  {
+    "id": "469",
+    "vol": "1",
+    "code": "E1",
+    "from": "O erro comum: usar exatamente o mesmo pitch para todos. Não é que o deck mude radicalmente, é que a ênfase e o tempo dedicado a cada seção mudam.",
+    "to": "Um erro recorrente na captação é repetir a mesma fala padronizada para perfis opostos de interlocutor: embora a base factual dos slides permaneça a mesma, o peso dedicado à tese de mercado, à tração comercial ou à sinergia operacional precisa se ajustar a quem está do outro lado da mesa."
+  },
+  {
+    "id": "469",
+    "vol": "1",
+    "code": "E1",
+    "from": "Pergunta difícil no meio do pitch não é interrupção: é engajamento. Investidor que faz perguntas está pensando junto. O que destruí o ritmo é resposta que vira conversa paralela de 5 minutos e você esquece onde estava na apresentação.",
+    "to": "Uma pergunta dura no meio da apresentação sinaliza que o investidor está acompanhando o raciocínio e testando a solidez das premissas. O risco real mora em deixar a resposta desviar a conversa por cinco minutos para um detalhe lateral, perdendo o fio condutor e o tempo dos blocos finais."
+  },
+  {
+    "id": "469",
+    "vol": "1",
+    "code": "E1",
+    "from": "Quando a pergunta é sobre problema real da empresa (demissão, vazamento, processo), a pior resposta possível é defensividade ou negação. A melhor resposta possível é reconhecimento, ação e compromisso de continuidade. \"Houve um problema, tomamos as seguintes ações, estamos comprometidos com [resultado]. Posso compartilhar em [data] o status.\" Isso não é admissão de culpa legal: é comunicação que demonstra que a empresa está gerenciando, não escondendo.",
+    "to": "Quando a pergunta aborda um incidente grave da operação (demissão em massa, falha de segurança ou disputa judicial), fugir do tema ou adotar tom defensivo destrói a confiança da sala. A resposta madura combina reconhecimento direto do fato, medidas já executadas e data para o próximo boletim: \"Identificamos a falha, aplicamos as seguintes correções operacionais e enviaremos até [data] o relatório atualizado\". Essa postura demonstra comando da situação com responsabilidade jurídica."
+  },
+  {
+    "id": "469",
+    "vol": "1",
+    "code": "E1",
+    "from": "Cliente enterprise tem processo de decisão com múltiplos stakeholders, critérios formais e cronograma próprio. A apresentação não é para convencer uma pessoa: é para criar condições para que o processo avance.",
+    "to": "Na venda corporativa (*enterprise*), a compra passa por múltiplos decisores, validação técnica e cronograma formal de suprimentos: por isso, o objetivo da apresentação inicial é destravar o avanço para a etapa seguinte do processo interno do cliente, fornecendo a cada área os argumentos de que ela precisa."
+  },
+  {
+    "id": "469",
+    "vol": "1",
+    "code": "E1",
+    "from": "Presença não é carisma inato: é conjunto de comportamentos que sinalizam engajamento, confiança e atenção ao interlocutor. É construível.",
+    "to": "A presença de palco nasce de um conjunto treinável de comportamentos físicos e vocais que transmitem preparo, serenidade e atenção genuína a quem está na sala."
+  },
+  {
+    "id": "469",
+    "vol": "1",
+    "code": "E1",
+    "from": "**Presença pública intencional.** Não é \"ser influenciador\". É deixar rastro pesquisável do que você pensa sobre seu setor, problema ou disciplina. As formas funcionais são LinkedIn ativo (dois a quatro posts por semana, substantivos, não auto-promocionais; compartilhar aprendizado, modelos mentais, dilemas reais), blog ou Substack pessoal ou da empresa (ensaios de oitocentas a duas mil palavras, um a quatro por mês), X com threads sobre assunto específico e interação com outros founders e especialistas, podcasts (aparecer em podcasts do setor é mais fácil de obter do que parece: fundador de empresa real tem histórias), e palestras em eventos do setor. O efeito é composto: depois de doze a vinte e quatro meses de presença consistente, pessoas começam a procurar você para mentoria, trabalho, parceria, investimento. A rede cresce passivamente. O aviso é que nos primeiros seis a doze meses parece que ninguém está lendo. Depois vira vantagem silenciosa.",
+    "to": "**Construção deliberada de presença pública.** Manter presença ativa no seu setor consiste em deixar um histórico pesquisável de análises práticas sobre o problema que a sua empresa resolve. Os canais mais eficazes combinam publicações técnicas no LinkedIn (dois a quatro textos densos por semana sobre aprendizados e dilemas operacionais, sem autopromoção vazia), artigos mensais de 800 a 2.000 palavras em blog ou Substack, participação em *podcasts* especializados do mercado e falas técnicas em encontros da vertical. O retorno funciona como juro composto: nos primeiros 6 a 12 meses a audiência parece silenciosa, mas após 12 a 24 meses de constância esse acervo passa a atrair candidatos seniores, parceiros comerciais e investidores de forma orgânica."
+  },
+  {
+    "id": "471",
+    "vol": "1",
+    "code": "E9",
+    "from": "Análise pós-experimento. Carregue dados brutos, mais threshold, mais teoria, e peça avaliação crítica. \"Dado isso, a hipótese foi suportada? Há explicações alternativas? Que fraquezas amostrais afetam a conclusão?\".",
+    "to": "**Análise crítica pós-experimento.** Forneça ao assistente de IA os dados brutos coletados, a meta mínima de aprovação (*threshold*) definida antes do teste e a árvore da teoria, pedindo uma avaliação cética: \"Com base nestes números, a hipótese foi sustentada? Quais explicações alternativas ou vieses da amostra podem estar distorcendo esta conclusão?\"."
+  },
+  {
+    "id": "471",
+    "vol": "1",
+    "code": "E9",
+    "from": "Redação de copy de landing page, e anúncios. Gere cinco a dez variações de headline, mais subheadline, mais CTA. A/B teste, para identificar campeã.",
+    "to": "**Redação de textos para páginas de captura e anúncios.** Peça de cinco a dez variações combinando título principal (*headline*), subtítulo explicativo e chamada para ação (*CTA*), e coloque as melhores opções em teste A/B para medir qual converte mais cliques reais."
+  },
+  {
+    "id": "471",
+    "vol": "1",
+    "code": "E9",
+    "from": "Análise de churn qualitativa. Carregue emails de cancelamento, e peça categorização das razões, mais contagem.",
+    "to": "**Classificação qualitativa de motivos de cancelamento.** Carregue os registros de saída (anonimizados quanto a dados pessoais) e peça o agrupamento das causas raiz acompanhado da frequência de cada categoria."
+  },
+  {
+    "id": "471",
+    "vol": "1",
+    "code": "E9",
+    "from": "Funciona porque mostra homework (você sabe quem é a pessoa), pede algo específico e limitado (trinta minutos, não conversa longa), tem contexto claro do que você quer aprender, e respeita o tempo. Depois do primeiro encontro, envie nota curta agradecendo mais dois ou três pontos específicos que aplicou ou vai aplicar. Faça follow-up em dois ou três meses reportando progresso concreto nas áreas que discutiram. Se a química é boa, proponha cadência regular. E nunca desapareça. Relacionamento se constrói com contato consistente, não com raridade.",
+    "to": "Esse modelo de abordagem funciona porque demonstra preparo prévio sobre a trajetória do convidado, faz um pedido circunscrito (20 a 30 minutos de conversa), apresenta o dilema com clareza e respeita a agenda de quem vai ouvir. Após o encontro, envie em até 24 horas uma mensagem curta de agradecimento citando dois ou três pontos específicos que você já colocou em prática e retorne dois ou três meses depois mostrando os resultados concretos daquelas sugestões."
+  },
+  {
+    "id": "474",
+    "vol": "1",
+    "code": "C6",
+    "from": "Tom: direto, sem linguagem corporativa defensiva. \"Houve uma falha no nosso sistema de autenticação entre 14h e 16h30 de quinta-feira, afetando 1.200 usuários\" é correto. \"Tivemos uma situação técnica que pode ter causado algum inconveniente\" é linguagem que parece minimização e aumenta a desconfiança.",
+    "to": "**Tom do comunicado:** direto e factual, sem rodeios corporativos. Escrever \"Nosso serviço de autenticação ficou indisponível na quinta-feira entre 14h e 16h30, impactando 1.200 usuários\" informa com precisão, ao passo que fórmulas vagas como \"enfrentamos uma instabilidade pontual\" soam como tentativa de minimizar o ocorrido. Se o incidente envolver dados pessoais, lembre-se de que a LGPD (art. 48) e a Resolução CD/ANPD nº 15/2024 exigem notificar a ANPD e os titulares afetados no prazo regulamentar (três dias úteis): alinhe o texto com o encarregado de dados e o jurídico antes do disparo."
+  },
+  {
+    "id": "475",
+    "vol": "1",
+    "code": "N9",
+    "from": "### A anatomia do e-mail frio e do follow-up que são respondidos em menos de 2 minutos",
+    "to": "### A anatomia do e-mail frio e do follow-up conciso que facilitam uma resposta rápida"
+  },
+  {
+    "id": "477",
+    "vol": "1",
+    "code": "E6",
+    "from": "### Como comprimir cinco anos de tentativa e erro em uma conversa de 45 minutos com quem já tem a cicatriz",
+    "to": "### Como condensar anos de aprendizado operacional em uma conversa de 45 minutos com quem já viveu o problema"
+  },
+  {
+    "id": "477",
+    "vol": "1",
+    "code": "E6",
+    "from": "### Ninguém constrói nada relevante sozinho: como montar seu conselho informal de trincheira sem colecionar \"advisors zumbis\"",
+    "to": "### Ninguém constrói nada relevante sozinho: como montar seu conselho informal de operadores sem colecionar \"advisors de vitrine\""
+  },
+  {
+    "id": "481",
+    "vol": "1",
+    "code": "N9",
+    "from": "### A engenharia da atenção: arco SCQA, um único argumento por slide e contraste visual",
+    "to": "### A engenharia da atenção no pitch: estrutura SCQA, uma mensagem central por slide e hierarquia visual"
+  },
+  {
+    "id": "481",
+    "vol": "1",
+    "code": "N9",
+    "from": "### Onde grandes projetos perdem no gongo: estourar o tempo, simplificar o problema e esquecer as provas de validação",
+    "to": "### Onde bons projetos perdem na banca: estourar o tempo, rasar o diagnóstico do problema e omitir as provas de validação"
+  },
+  {
+    "id": "482",
+    "vol": "1",
+    "code": "E7",
+    "from": "### Como conduzir uma reunião de Conselho: mandando os números antes e debatendo apenas os gargalos",
+    "to": "### Como conduzir uma reunião de conselho: enviando os números antes e debatendo apenas os gargalos estratégicos"
+  },
+  {
+    "id": "482",
+    "vol": "1",
+    "code": "E7",
+    "from": "O que funciona: objeto específico (\"Seed round R$ 3M, edtech corporativa, 15k usuários, ex-Totvs founders\"), parágrafo de abertura com por que você está escrevendo para esse investidor especificamente, 3 linhas sobre a empresa com métricas concretas, pedido específico (\"15 minutos de call para compartilhar contexto\"). Tamanho ideal: 150 a 250 palavras.",
+    "to": "O que funciona na abordagem: linha de assunto objetiva (\"Rodada Seed de R$ 3M, edtech corporativa, 15 mil usuários ativos, fundadores ex-TOTVS\"), parágrafo inicial explicando por que a tese conversa com o portfólio daquele investidor específico, três linhas com indicadores auditáveis de tração e um convite circunscrito (\"15 minutos por vídeo na próxima semana para apresentar os dados\"), mantendo o texto entre 150 e 250 palavras."
+  },
+  {
+    "id": "482",
+    "vol": "1",
+    "code": "E7",
+    "from": "**Mentores: identificação e cadência.** O perfil de bom mentor combina alguns traços. Já passou por desafio similar (mesmo setor, mesmo estágio, ou mesma decisão específica). Está cinco a dez anos à frente, não trinta, porque distância grande perde relevância, ou em posição complementar. Está disposto a dar tempo regular, em torno de uma hora por mês até uma hora por trimestre. Não tem interesse financeiro direto (não é investidor, não é vendedor). Comunica-se em linguagem que você entende. Para identificar, comece pelas pessoas que você já conhece razoavelmente bem e têm experiência relevante. Depois, autores de conteúdo que você consome (blog, podcast, livro) ou participantes de eventos. Founders de empresas um ou dois estágios à frente, no mesmo setor. Ex-colegas seniores. Pessoas apresentadas por conexão mútua.",
+    "to": "**Mentores: critérios de escolha e cadência.** Um bom mentor reúne cinco características práticas: (1) já atravessou dilema semelhante no mesmo setor ou modelo de venda; (2) está um ou dois estágios à frente da sua operação (cinco a dez anos de distância costumam render conselhos mais acionáveis do que trinta anos); (3) dispõe de uma hora mensal ou trimestral para acompanhar a evolução; (4) não tem conflito comercial direto com a empresa; e (5) fala com franqueza operacional. Comece mapeando ex-gestores seniores, especialistas cujos textos técnicos você acompanha e fundadores de empresas que estão um degrau à frente na mesma vertical, acionando conexões em comum para a primeira conversa."
+  },
+  {
+    "id": "484",
+    "vol": "1",
+    "code": "E9",
+    "from": "Wiki bem construída é sistema nervoso da empresa. Permite que novo funcionário se torne produtivo sem depender de uma pessoa específica, que decisões sejam revisadas sem reconstruir contexto, que processos escatem sem o fundador pessoalmente transmitir cada detalhe.",
+    "to": "Uma base interna de documentação (*wiki* operacional) funciona como a memória institucional da empresa: permite que novos contratados ganhem autonomia sem depender de tradição oral, registra o contexto das decisões passadas e garante que os processos escalem sem exigir a intervenção pessoal do fundador em cada etapa."
+  },
+  {
+    "id": "484",
+    "vol": "1",
+    "code": "E9",
+    "from": "ADRs acumulam historia da arquitetura do sistema. Quando engenheiro novo pergunta \"por que usamos Postgres em vez de MongoDB?\", a resposta não precisa vir de quem estava lá em 2021: está no ADR-007.",
+    "to": "Os registros de decisão de arquitetura (ADRs) preservam a história técnica do produto: quando um engenheiro recém-contratado pergunta \"por que adotamos PostgreSQL em vez de MongoDB?\", a justificativa original e os *trade-offs* avaliados em 2021 estão documentados no ADR-007, sem depender de quem estava na empresa na época."
+  },
+  {
+    "id": "484",
+    "vol": "1",
+    "code": "E9",
+    "from": "Sala com VP Comercial, CTO e CFO ao mesmo tempo tem três agendas: VP Comercial quer resultado de negócio, CTO quer segurança e integração técnica, CFO quer ROI e risco financeiro. Apresentação que fala só de resultado de negócio perde CTO e CFO. A estrutura que funciona: abrir com o problema de negócio que conecta todos (todos se importam com o problema que você resolve), depois dividir o deck em seções que adereçam cada perspectiva explicitamente, com transições claras (\"para o time técnico, a questão de integração com o stack atual de vocês é...\").",
+    "to": "Em uma reunião com o diretor comercial, o diretor de tecnologia (CTO) e o diretor financeiro (CFO), convivem três agendas distintas: a área de negócios cobra ganho de receita, a tecnologia avalia segurança e esforço de integração e o financeiro exige retorno sobre o investimento (ROI) e controle de risco. Quem fala apenas de funcionalidades perde metade da sala; a estrutura eficaz abre pelo problema econômico que afeta os três e em seguida organiza os blocos tratando explicitamente da preocupação de cada área (\"para a equipe técnica, detalhamos aqui a arquitetura de integração com os sistemas atuais de vocês...\")."
+  },
+  {
+    "id": "484",
+    "vol": "1",
+    "code": "E9",
+    "from": "Postura: pés paralelos, levemente abertos (largura dos ombros), peso distribuído igualmente. Parece mecânico quando pensado, natural quando praticado. O problema mais comum é cruzar os braços (fechamento) ou colocar as mãos nos bolsos (desleixo). As mãos em repouso natural ao lado do corpo é o default de que partir.",
+    "to": "**Postura de palco:** mantenha os pés paralelos na largura dos ombros, com o peso distribuído de forma equilibrada. Evite cruzar os braços (sinal de defesa) ou esconder as mãos nos bolsos: deixar as mãos soltas ao lado do corpo é a posição de partida mais natural para gesticular com firmeza."
+  },
+  {
+    "id": "487",
+    "vol": "1",
+    "code": "S6",
+    "from": "Volume, ritmo e pausas são os três instrumentos da voz em apresentação.",
+    "to": "**Voz, postura e contato visual (presencial e em vídeo)** formam a base física da entrega oral e apoiam-se em três instrumentos vocais: volume, ritmo e pausa."
+  },
+  {
+    "id": "487",
+    "vol": "1",
+    "code": "S6",
+    "from": "**Volume:** na maioria das situações com microfone, o volume não é o problema, projeção sem microfone ou microfone mal posicionado é. O problema mais comum é volume que cai no final das frases, especialmente no final de pontos importantes. Treinar conscientemente para manter o volume até o final da frase, não reduzi-lo quando a frase está terminando.",
+    "to": "**Volume:** mesmo com microfone, o deslize mais frequente é deixar a voz cair nas últimas palavras da frase, justamente onde costuma estar a conclusão do argumento. Treine sustentar a projeção vocal até a última sílaba de cada período."
+  },
+  {
+    "id": "487",
+    "vol": "1",
+    "code": "S6",
+    "from": "**Ritmo:** apresentador nervoso fala rápido. Apresentador que domina o material fala mais devagar do que parece necessário: porque a pausa entre ideias dá tempo para a audiência processar. Velocidade média de 130 a 150 palavras por minuto permite clareza. Acima de 180 palavras por minuto a audiência começa a perder conteúdo.",
+    "to": "**Ritmo:** a adrenalina acelera a fala sem que o apresentador perceba, enquanto quem domina o conteúdo reduz a cadência para dar tempo de assimilação à banca. Mantenha uma faixa de 130 a 150 palavras por minuto; acima de 180 palavras por minuto, a retenção da mensagem despenca."
+  },
+  {
+    "id": "487",
+    "vol": "1",
+    "code": "S6",
+    "from": "**Pausa:** a pausa intencional é o instrumento mais poderoso e mais subutilizado em apresentação. Depois de afirmação importante: pare. 2 a 3 segundos de silêncio. A audiência processa, o cérebro do apresentador descansa, e o que veio antes ganha peso. A pausa também sinaliza confiança: pessoa insegura preenche o silêncio com \"né?\", \"então...\", \"basicamente...\" A ausência desses preenchedores é sinal de domínio.",
+    "to": "**Pausa:** silenciar por 2 a 3 segundos logo após uma afirmação central dá peso ao número acabado de apresentar e permite que o público processe o raciocínio. Além disso, substituir muletas verbais (\"né?\", \"então...\", \"basicamente...\") por silêncio deliberado transmite domínio imediato da sala."
+  },
+  {
+    "id": "487",
+    "vol": "1",
+    "code": "S6",
+    "from": "#### Postura e movimento",
+    "to": "#### Domínio do espaço físico e postura corporal"
+  },
+  {
+    "id": "487",
+    "vol": "1",
+    "code": "S6",
+    "from": "Movimento sem propósito é distração. Apresentador que vai e vem no palco por nervosismo, que oscila o peso de um pé para o outro, que gesticula sem relação com o conteúdo: esses movimentos criam ruído visual que compete com o conteúdo.",
+    "to": "Deslocamentos involuntários no palco (andar de um lado para o outro sem pausa, balançar o peso entre os calcanhares ou agitar os braços fora do ritmo da fala) geram ruído visual e desviam a atenção do argumento."
+  },
+  {
+    "id": "487",
+    "vol": "1",
+    "code": "S6",
+    "from": "Movimento com propósito é diferente: andar para um lado do palco quando muda de seção, aproximar-se da audiência quando quer criar intimidade, voltar ao centro quando quer autoridade. O palco tem topografia: use deliberadamente.",
+    "to": "Use o movimento de forma intencional para marcar a estrutura da fala: dê dois passos laterais ao encerrar um bloco temático, aproxime-se da mesa ao narrar o caso de um cliente e retorne ao centro para cravar a conclusão."
+  },
+  {
+    "id": "487",
+    "vol": "1",
+    "code": "S6",
+    "from": "#### Contato visual",
+    "to": "#### Contato visual na sala e na câmera"
+  },
+  {
+    "id": "487",
+    "vol": "1",
+    "code": "S6",
+    "from": "Em sala grande, \"fazer contato visual com a audiência\" significa selecionar uma pessoa, fazer contato visual real de 2 a 3 segundos (o tempo de uma frase completa), depois mover para outra pessoa em parte diferente da sala. Não varrer a sala com os olhos sem pousar em ninguém, isso é performance de contato visual, não contato visual real. E não fixar em uma pessoa só, constrange e descarta o resto da audiência.",
+    "to": "Em auditórios ou salas de conselho, sustente o olhar em um interlocutor específico por 2 a 3 segundos (o tempo de concluir uma frase inteira) antes de passar a outra pessoa em quadrante diferente da sala. Evite tanto varrer o ambiente sem fixar os olhos em ninguém quanto falar o tempo todo apenas para o integrante mais sênior da mesa."
+  },
+  {
+    "id": "487",
+    "vol": "1",
+    "code": "S6",
+    "from": "Em videoconferência, contato visual significa olhar para a câmera, não para a imagem da pessoa na tela. Olhar para o rosto da pessoa na tela parece, para ela, que você está olhando para baixo. Olhar para a câmera cria a ilusão de contato visual real. Posicionar a câmera na altura dos olhos (não abaixo, que cria ângulo inferior desfavorável).",
+    "to": "Em reuniões por vídeo, olhe diretamente para a lente da câmera ao fechar seus argumentos principais, e não para as janelas de rosto no monitor (o que dá ao interlocutor a impressão de olhar baixo)."
+  },
+  {
+    "id": "487",
+    "vol": "1",
+    "code": "S6",
+    "from": "- Câmera na altura dos olhos ou levemente acima (não abaixo, que cria perspectiva desfavorável)",
+    "to": "- Posicione a câmera na altura dos olhos ou levemente acima, com iluminação frontal suave e microfone dedicado testado antes de entrar na sala virtual."
+  },
+  {
+    "id": "489",
+    "vol": "1",
+    "code": "E3",
+    "from": "### Nas Fases 0 a 3 (Ideação): usando IA como sparring socrático implacável para furar sua tese",
+    "to": "### Nas Fases 0 a 3 (Ideação): usando a IA como contraditor socrático para testar as premissas da sua tese"
+  },
+  {
+    "id": "489",
+    "vol": "1",
+    "code": "E3",
+    "from": "> [!tip] O Protocolo do Cronômetro Impiedoso",
+    "to": "> [!tip] O Protocolo do Cronômetro"
+  },
+  {
+    "id": "489",
+    "vol": "1",
+    "code": "E3",
+    "from": "> O resultado é matemático e letal: mesmo que a equipe seja brilhante e já tenha conversado com clientes, **o avaliador da banca é proibido de pontuar o que não foi apresentado dentro do tempo regulamentar**. Você recebe nota baixa ou zero nos 4 últimos blocos do barema e fica fora das vagas por falha pura de gestão de pitch.",
+    "to": "> O efeito na pontuação da banca é direto: ainda que a equipe tenha repertório técnico e já tenha ouvido clientes, **os avaliadores não podem atribuir nota aos blocos que ficaram de fora por estouro de tempo**. Perder os minutos finais zera justamente os quesitos de validação, equipe e plano de execução."
+  },
+  {
+    "id": "489",
+    "vol": "1",
+    "code": "E3",
+    "from": "No Brasil, o ecossistema de incubadoras, aceleradoras, hubs corporativos (Cubo, InovaBra, Distrito, Porto Digital, ACATE) e editais públicos (Finep, FAPs, SEBRAE, programas GovTech) pode ser uma **catapulta extraordinária de distribuição, selo institucional e capital barato**: ou pode ser um **teatro de eventos** que consome seis meses da sua atenção em troca de fotos no palco enquanto seu caixa seca.",
+    "to": "No Brasil, programas de incubação, aceleração, *hubs* corporativos (Cubo, InovaBra, Distrito, Porto Digital, ACATE) e editais de subvenção (Finep, FAPs, SEBRAE e desafios GovTech) podem funcionar como **alavanca de distribuição comercial, validação institucional e capital não dilutivo**; quando escolhidos sem critério, porém, viram uma agenda de eventos que consome seis meses dos sócios enquanto o caixa encolhe."
+  },
+  {
+    "id": "490",
+    "vol": "1",
+    "code": "S4",
+    "from": "| **Passo 3 (Viabilidade Técnica e TI)** | **H3:** A arquitetura, segurança e modelo de integração são aceitáveis para a TI do cliente/órgão. | Submeter o Dossiê Técnico de 10 Pontos à avaliação de 3 diretores/equipes de TI do setor-alvo. | Requisitos técnicos e de segurança (LGPD/logs/APIs) validados sem bloqueios arquiteturais impeditivos. |",
+    "to": "| **Passo 3 (Viabilidade Técnica e TI)** | **H3:** A arquitetura, a segurança e o modelo de integração atendem aos padrões da TI do cliente ou órgão público. | Submeter um documento técnico de duas páginas (cobrindo hospedagem, integração via API, conformidade com a LGPD e registros de auditoria) à avaliação de 3 gestores de TI do setor-alvo. | Requisitos técnicos e de segurança validados na Escada de Evidências (entrevista, protótipo testado, piloto e contrato pago) sem bloqueios impeditivos. |"
+  },
+  {
+    "id": "493",
+    "vol": "1",
+    "code": "C5",
+    "from": "> 1. **A Regra dos 80% do Tempo:** Se você tem uma apresentação de 10 minutos, você consegue entregar **todos os 10 blocos essenciais** (incluindo provas reais de validação, capacidade da equipe e próximos passos) em **8 minutos cravados**, deixando 2 minutos de margem de segurança?",
+    "to": "> 1. **A Regra dos 90% do Tempo:** Em uma banca de 10 minutos, você consegue entregar **todos os 10 blocos obrigatórios** (com provas empíricas de validação, histórico complementar da equipe no anexo e plano de execução) em **9 minutos**, preservando 1 minuto inteiro de margem contra imprevistos?"
+  },
+  {
+    "id": "493",
+    "vol": "1",
+    "code": "C5",
+    "from": "No seu Bloco 8 (*Equipe e Capacidade de Execução*), nunca coloque apenas fotos com cargos genéricos (*CEO, CTO, COO*). Explicite obrigatoriamente estas **9 evidências de execução**:",
+    "to": "No Bloco 8 (*Equipe e Capacidade de Execução*), não preencha o slide apenas com fotos e títulos genéricos (*CEO, CTO, COO*): destaque na fala as 3 credenciais mais aderentes ao problema e disponibilize no anexo técnico estas **9 evidências de capacidade de execução**:"
+  },
+  {
+    "id": "498",
+    "vol": "1",
+    "code": "C2",
+    "from": "Uma ferramenta de prototipação visual. Figma, mais IA. Ou v0.dev. Ou Galileo.",
+    "to": "- **Uma ferramenta de prototipação visual assistida por IA:** Figma integrado a geradores de interface ou plataformas como v0 e similares atualizados em outubro de 2026."
+  },
+  {
+    "id": "498",
+    "vol": "1",
+    "code": "C2",
+    "from": "Uma ferramenta de análise de dados. Claude com Code Execution, ChatGPT Data Analysis, ou similar.",
+    "to": "- **Um ambiente de análise de dados com execução de código:** Claude (com análise de dados e execução de *scripts*), ChatGPT (com interpretador de dados) ou equivalente corporativo atualizado em outubro de 2026."
+  },
+  {
+    "id": "505",
+    "vol": "1",
+    "code": "E9",
+    "from": "Desenhar experimentos. Forneça a hipótese, e peça três tipos de experimento, com custo, e tempo, estimados. Use como cardápio para escolher.",
+    "to": "**Desenho de experimentos.** Entregue a hipótese priorizada e peça três formatos distintos de teste empírico com estimativa de custo e prazo de execução, usando a resposta como cardápio inicial de decisão."
+  },
+  {
+    "id": "505",
+    "vol": "1",
+    "code": "E9",
+    "from": "]]). Comparação de M&A estratégico, M&A financeiro, IPO, e secondary, com múltiplos comparáveis do setor, e análise de sensibilidade a premissas-chave (crescimento, margem, e múltiplo aplicado). A IA gera rápido os cenários. Tributarista, e banker, decidem qual caminho seguir.",
+    "to": "]]). Compare venda estratégica, venda para fundo de *private equity*, abertura de capital (IPO) e liquidez secundária a partir de múltiplos históricos do setor e análise de sensibilidade para crescimento e margem: a IA acelera a montagem dos cenários, enquanto o advogado tributarista e o assessor financeiro (*banker*) orientam a decisão final."
+  },
+  {
+    "id": "506",
+    "vol": "1",
+    "code": "N9",
+    "from": "### Nas Fases 7 e 8 (Experimentos): gerando landing pages, copies e variações de teste em horas",
+    "to": "### Nas Fases 7 e 8 (Experimentos): estruturando hipóteses, roteiros de teste e variações de página de captura em horas"
+  },
+  {
+    "id": "507",
+    "vol": "1",
+    "code": "S7",
+    "from": "> \"[Nome], você tem sido incrivelmente útil nesses últimos meses. Queria formalizar nossa relação como advisor, com equity e compromisso mais estruturado. Especificamente, seria zero vírgula vinte e cinco a zero vírgula cinco por cento de equity com vesting quatro anos, duas a três horas por mês, focando em [áreas específicas]. Faz sentido explorar?\"",
+    "to": "> \"[Nome], suas provocações nos últimos meses ajudaram muito a destravar nossa operação. Gostaria de formalizar sua participação como conselheiro (*advisor*), com contrato de 0,25% a 0,5% de participação em *vesting* de 4 anos (com *cliff* de 1 ano) para uma dedicação de 2 a 3 horas por mês focada em [frente específica]. Faz sentido conversarmos sobre os termos?\""
+  },
+  {
+    "id": "508",
+    "vol": "1",
+    "code": "C1",
+    "from": "]]). Pipeline automatizado, que analisa NPS comments, tickets de suporte, reviews públicos, e transcrições de calls de venda em massa. O LLM detecta mudanças qualitativas de sentimento, e padrões recorrentes de reclamação, que precedem em seis a dezoito meses a queda visível em métricas agregadas.",
+    "to": "]]). Estruture uma rotina automatizada para classificar comentários de NPS, chamados de suporte, avaliações públicas e transcrições de reuniões comerciais: modelos de linguagem ajudam a identificar mudanças de tom e queixas recorrentes meses antes de o desgaste aparecer na taxa agregada de cancelamento."
+  },
+  {
+    "id": "508",
+    "vol": "1",
+    "code": "C1",
+    "from": "**Escrita.** Drafts de comunicação interna, posts públicos, atualizações a investidores, pitch decks (texto. Não design), e apresentações. Produtividade em 2026. Três a cinco vezes mais rápido que 2023, para fundador que domina o uso.",
+    "to": "**Escrita executiva.** Rascunhos de comunicados internos, artigos técnicos, relatórios mensais para investidores e estrutura textual de apresentações saem em uma fração do tempo quando o fundador fornece o esqueleto lógico e revisa pessoalmente a versão final."
+  },
+  {
+    "id": "508",
+    "vol": "1",
+    "code": "C1",
+    "from": "**Revisão de candidatos.** Upload de CV, ou LinkedIn, e análise de IA identificando pontos fortes, red flags, e perguntas específicas para entrevista. Não substitui entrevista. Mas prepara melhor a entrevista. Economiza trinta a sessenta minutos por candidato.",
+    "to": "**Triagem preparatória de candidatos.** Ao carregar o currículo ou perfil público do candidato junto com o descritivo da vaga, o assistente destaca experiências relevantes, lacunas a investigar e perguntas específicas para o roteiro de entrevista, poupando tempo de preparação antes da conversa humana."
+  },
+  {
+    "id": "514",
+    "vol": "1",
+    "code": "C2",
+    "from": "**Pesquisa.** Perplexity tornou-se padrão em 2025 a 2026, para pesquisa web com citação. Claude, mais ChatGPT, servem para síntese de múltiplas fontes, e análise profunda. Pesquisa de mercado que em 2020 levava uma semana, hoje leva tarde.",
+    "to": "**Pesquisa e síntese de fontes.** Buscadores com citação direta de fontes (como Perplexity e modos de pesquisa profunda do Claude, do ChatGPT e do Gemini, além do Microsoft Copilot em ambientes Microsoft 365) permitem levantar referências regulatórias e setoriais em uma tarde, cabendo ao fundador verificar cada documento original antes de decidir."
+  },
+  {
+    "id": "518",
+    "vol": "1",
+    "code": "C2",
+    "from": "**\"Segundo cérebro\" em IA.** Usar ferramentas como Notion AI, Mem, Reflect, e ChatGPT com projects, para acumular contexto sobre a sua empresa ao longo do tempo. IA que conhece o seu contexto (métricas, time, dores, e oportunidades) dá respostas significativamente melhores que IA consultada do zero em cada sessão. Investimento de duas a quatro horas para configurar, compensa em meses de uso.",
+    "to": "**Repositório vivo de contexto da empresa.** Organizar documentos estratégicos, métricas históricas e notas de reunião em espaços de projeto (como Projetos no Claude ou no ChatGPT e bases estruturadas no Notion) permite que o assistente responda com base na realidade da sua operação, desde que nenhum dado sensível de clientes seja exposto sem revisão de segurança."
+  },
+  {
+    "id": "519",
+    "vol": "1",
+    "code": "E9",
+    "from": "**Reciprocidade: como ser contribuinte na rede.** O erro comum é buscar a rede só quando precisa de cliente, emprego, intro ou feedback. A prática saudável é o oposto: faça introduções sem ser pedido (você conhece A, encontra B com problema que A resolve, conecta), dê feedback quando pedido, rapidamente, compartilhe aprendizado publicamente sem reserva, ajude outros founders em estágio inicial (pague para trás o que você recebeu), e adote a regra dos cinco minutos. Se alguém precisa de algo que você pode entregar em até cinco minutos (intro, resposta, comentário), entregue sem relutar. O resultado é que quando você precisar da rede, ela estará presente. E quando ninguém precisar, você terá relações mais ricas.",
+    "to": "**Reciprocidade prática na rede.** O erro mais comum é procurar contatos apenas quando você precisa de um cliente, de uma vaga ou de um cheque. Construa saldo positivo antes: apresente duas pessoas da sua rede sempre que enxergar ganho claro para ambas, responda rápido aos pedidos de avaliação, compartilhe aprendizados reais em público, apoie fundadores que estão um degrau atrás (passando adiante a ajuda que recebeu no início) e aplique a regra dos 5 minutos: se um pedido legítimo puder ser resolvido em até 5 minutos (uma apresentação, um contato ou uma leitura pontual), faça na hora."
+  },
+  {
+    "id": "522",
+    "vol": "1",
+    "code": "E9",
+    "from": "**Análise de dados.** Claude, ChatGPT, e Gemini, todos conseguem analisar planilhas, CSVs, e dashboards. O fundador pode jogar dados operacionais (com cuidado com dados sensíveis), e obter análise em minutos. Útil para. Identificar anomalias. Comparar cohorts. Calcular unit economics. Modelar cenários de captação.",
+    "to": "**Análise exploratória de dados.** Claude, ChatGPT e Gemini processam planilhas e arquivos CSV (desde que previamente limpos de dados pessoais identificáveis) em poucos minutos, ajudando a localizar anomalias operacionais, comparar coortes de retenção, conferir a economia unitária e simular cenários de diluição."
+  },
+  {
+    "id": "527",
+    "vol": "1",
+    "code": "S2",
+    "from": "### Quando entrar em um programa destrava portas que levariam dois anos para abrir no frio",
+    "to": "### Como separar mentores que operaram no setor de consultores de palco: três perguntas de verificação"
+  },
+  {
+    "id": "540",
+    "vol": "1",
+    "code": "C5",
+    "from": "> Equity alto por valor pequeno (dez por cento ou mais por menos de quinhentos mil reais sem marca forte). Cláusulas incomuns como pro-rata agressivo, anti-dilution ou direito de veto amplo em contrato inicial. Pressão para aceitar em quarenta e oito horas. Mentores ausentes ou sem experiência relevante. Cobrança alta por participação além do equity. Localização obrigatória onde você não pode ou não quer ir. Programa novo sem histórico de saídas.",
+    "to": "> **Sinais de alerta em propostas de programas:** cobrança de participação societária alta por cheque pequeno (exigir mais de 7% por menos de R$ 300 mil a R$ 500 mil sem histórico comprovado de distribuição), cláusulas abusivas como direito de veto amplo sobre rodadas futuras, pressão para assinar em 48 horas, mentores que nunca operaram empresas reais ou cobrança de mensalidades elevadas além do *equity*. Fora conselheiros individuais com *vesting* e *cliff* (Capítulo 13), quem pede participação na sua empresa precisa entregar capital relevante ou acesso comercial que você não compraria de outra forma."
+  },
+  {
+    "id": "540",
+    "vol": "1",
+    "code": "C5",
+    "from": "### A matemática fria do Equity: quando ceder 5% a 7% vale uma fortuna e quando 2% já é um assalto",
+    "to": "### A conta real da participação societária: quando ceder de 5% a 7% por capital e rede compensa e quando qualquer diluição sem entrega sai cara"
+  },
+  {
+    "id": "544",
+    "vol": "1",
+    "code": "N9",
+    "from": "### Terceirizar decisões para mentores, dar equity sem cliff e esquecer de fechar o loop de gratidão",
+    "to": "### Mentores, conselheiros, rede próxima e presença pública: como evitar terceirizar decisões, ceder participação sem *cliff* de 1 ano ou esquecer de fechar o ciclo de retorno"
+  },
+  {
+    "id": "545",
+    "vol": "1",
+    "code": "C5",
+    "from": "Faça autoavaliação trimestral. Mentores ativos (com quem conversei nos últimos seis meses): alvo de pelo menos cinco. Advisors formais: alvo entre dois e cinco (mais que cinco vira problema de gestão). Intros feitas por mim para outras pessoas no período: pelo menos dez por trimestre. Intros recebidas da minha rede: o volume e a qualidade são indicador de saúde da rede. Presença pública: frequência de publicação mais engajamento significativo (não vanity metrics, mas pessoas relevantes comentando). Touch com dez a vinte pessoas-chave: toquei cada uma nos últimos sessenta a noventa dias? Tabela simples em Notion ou Airtable resolve.",
+    "to": "Execute uma revisão trimestral da sua rede com metas claras por estágio: (1) **mentores informais ativos** (acionados nos últimos 6 meses): de 5 a 10 nomes; (2) **conselheiros formais (*advisors*)**: de 2 a 4 nomes com contrato de *vesting* (acima disso a gestão dispersa); (3) **apresentações úteis feitas por você a terceiros**: pelo menos 10 por trimestre; (4) **apresentações recebidas da rede**: acompanhe volume e taxa de conversão; e (5) **relacionamento com as 30 a 50 pessoas-chave do seu mapa**: garanta um ponto de contato genuíno a cada 60 a 90 dias, registrado numa planilha simples."
+  },
+  {
+    "id": "546",
+    "vol": "1",
+    "code": "C5",
+    "from": "**Email frio para investidor:**",
+    "to": "**E-mail frio para investidor (quando ainda não há indicação quente na rede, conforme visto no Capítulo 13):**"
+  },
+  {
+    "id": "546",
+    "vol": "1",
+    "code": "C5",
+    "from": "O que não funciona: email genérico enviado para 50 investidores sem personalização (detectado imediatamente), pitch completo em email (ninguém lê), pedir \"feedback\" quando você quer investimento (seja direto sobre o que quer).",
+    "to": "O que derruba a taxa de resposta no contato frio (sempre menos eficaz do que uma apresentação feita por fundador do portfólio, mas viável quando já existem métricas reais de tração para mostrar): disparar o mesmo texto genérico para 50 fundos de uma vez, anexar apresentação longa sem contexto ou pedir \"conselhos gerais\" quando na verdade você está buscando investimento."
+  },
+  {
+    "id": "550",
+    "vol": "1",
+    "code": "S6",
+    "from": "### Como evitar o \"Advisor de Slide\": vesting obrigatório, escopo claro e demissão educada de quem sumiu",
+    "to": "### Como evitar o \"Conselheiro de Slide\": *vesting* obrigatório, escopo claro, demissão educada de quem sumiu e ativação da rede para trazer clientes, equipe e capital"
+  },
+  {
+    "id": "551",
+    "vol": "1",
+    "code": "C5",
+    "from": "> \"[Nome], [contexto da conexão: 'Fulano sugeriu que eu falasse com você' ou 'vi seu artigo sobre X']. Estou construindo [descrição em uma frase] e estou exatamente no desafio de [problema específico]. Vi que você passou por [experiência relevante]. Posso te pagar um café de trinta minutos em [data] ou marcar um Zoom semana que vem? Quero aprender com sua experiência sobre [uma ou duas perguntas específicas, não 'picking your brain' genérico].\"",
+    "to": "> \"[Nome], [contexto da conexão: 'Fulano sugeriu que eu conversasse com você' ou 'acompanhei sua análise sobre X']. Estou estruturando [descrição em uma frase] e enfrentando o desafio específico de [gargalo atual]. Como você já atravessou essa etapa em [empresa/setor], conseguiria me ceder 20 a 30 minutos para um café ou chamada na próxima semana? Quero ouvir sua visão prática sobre três perguntas objetivas ligadas a esse ponto.\""
+  },
+  {
+    "id": "558",
+    "vol": "2",
+    "code": "E1",
+    "from": "Protocolo de entrevista para validar ideias de negócio **evitando respostas falsamente positivas** (\"educadamente inúteis\") dos entrevistados. Não é framework acadêmico, é guia prático baseado em milhares de entrevistas conduzidas pelo autor e por mentorados.",
+    "to": "Roteiro prático de entrevista desenhado para testar problemas reais de negócio **sem induzir respostas de mera cortesia** por parte do cliente, consolidado por Rob Fitzpatrick a partir de centenas de rodadas de descoberta em startups."
+  },
+  {
+    "id": "559",
+    "vol": "2",
+    "code": "C5",
+    "from": " Q -->|SIM| Go[\"✅ Avançar para<br/>Fase 4\"]",
+    "to": " Q -->|SIM| Go[\"✅ Seguir para<br/>a Fase 5\"]"
+  },
+  {
+    "id": "561",
+    "vol": "2",
+    "code": "S2",
+    "from": "### O protocolo de interrogatório reverso: extraindo fatos contábeis em vez de opiniões gentis",
+    "to": "### O roteiro de investigação em dez passos: como extrair fatos e gastos reais da rotina do cliente sem contaminar a conversa"
+  },
+  {
+    "id": "561",
+    "vol": "2",
+    "code": "S2",
+    "from": "### A prova material de que o problema existe fora da sua cabeça",
+    "to": "### Checklist de conclusão da Fase 4: a prova material de que o problema existe fora da sua cabeça"
+  },
+  {
+    "id": "562",
+    "vol": "2",
+    "code": "N9",
+    "from": "O custo de descobrir que o problema não existe antes de construir é uma conversa de café. O custo de descobrir depois de construir é meses ou anos de vida e todo o dinheiro investido.",
+    "to": "Como promessas sobre o futuro não custam nada para quem responde, perguntas hipotéticas como \"você compraria?\" geram elogios vazios em vez de compromisso real (veja a escala de peso das evidências na tabela do Passo 5). Descobrir que o problema não sustenta um negócio antes de escrever código custa apenas algumas conversas; descobrir isso depois do lançamento consome meses de caixa e de vida."
+  },
+  {
+    "id": "565",
+    "vol": "2",
+    "code": "C5",
+    "from": " P --> F[\"2️⃣ FREQUENTE<br/>volta toda semana<br/>ou todo dia\"]",
+    "to": " P --> F[\"2️⃣ FREQUENTE<br/>repete-se toda semana<br/>ou todo dia na operação\"]"
+  },
+  {
+    "id": "565",
+    "vol": "2",
+    "code": "C5",
+    "from": " P --> C[\"4️⃣ RECONHECIDO<br/>cliente sabe<br/>que tem o problema\"]",
+    "to": " P --> C[\"4️⃣ RECONHECIDO<br/>cliente admite a dor<br/>e busca saída ativa\"]"
+  },
+  {
+    "id": "565",
+    "vol": "2",
+    "code": "C5",
+    "from": " P --> V[\"5️⃣ VALORADO<br/>já gasta tempo<br/>ou dinheiro tentando\"]",
+    "to": " P --> V[\"5️⃣ VALORADO<br/>já aloca orçamento<br/>ou horas na gambiarra\"]"
+  },
+  {
+    "id": "574",
+    "vol": "2",
+    "code": "C5",
+    "from": "Contexto do entrevistado (cinco minutos). Quem é, o que faz, qual a rotina.",
+    "to": "- **Contexto do entrevistado (5 minutos):** quem é a pessoa, qual o seu papel na operação e como funciona sua rotina semanal (dentro de uma conversa total de 30 minutos)."
+  },
+  {
+    "id": "574",
+    "vol": "2",
+    "code": "C5",
+    "from": "Exploração do domínio (dez minutos). Perguntas abertas sobre o território onde você imagina o problema, sem mencionar o problema. \"Me conta como funciona o seu dia a dia com (atividade relacionada).\" \"Quais são as partes mais chatas disso?\" \"Me conta a última vez que você teve um problema com isso.\"",
+    "to": "- **Exploração do domínio (10 minutos):** faça perguntas abertas sobre a rotina em que o problema costuma surgir, sem mencionar sua hipótese de solução: \"Como funciona hoje o seu processo de [atividade]?\", \"Quais etapas tomam mais tempo ou geram mais retrabalho?\" e \"Conte como foi a última vez em que isso travou a operação\"."
+  },
+  {
+    "id": "574",
+    "vol": "2",
+    "code": "C5",
+    "from": "Aprofundamento (dez minutos). Sempre que algo interessante surgir, pergunte: \"Me fala mais sobre isso.\" E: \"Na última vez, como foi?\"",
+    "to": "- **Aprofundamento em episódios concretos (7 minutos):** sempre que surgir uma fricção específica, peça os números do último episódio: \"Quanto tempo ou dinheiro isso consumiu na última ocorrência?\" e \"Quem mais precisou parar o que estava fazendo para ajudar?\"."
+  },
+  {
+    "id": "574",
+    "vol": "2",
+    "code": "C5",
+    "from": "Tentativas de solução (cinco minutos). \"O que você já tentou fazer para resolver isso? Funcionou? Por que parou?\" Se a pessoa nunca tentou resolver, isso é evidência forte de que o problema não é dolorido.",
+    "to": "- **Tentativas anteriores de solução (5 minutos):** pergunte \"O que você já tentou usar ou contratar para resolver isso, quanto custou e por que parou?\". Se o entrevistado nunca moveu uma palha para contornar a dor, o problema provavelmente está abaixo do nível crítico."
+  },
+  {
+    "id": "574",
+    "vol": "2",
+    "code": "C5",
+    "from": "Encerramento (três minutos). \"Tem mais alguém que você acha que passa por isso, que eu poderia conversar?\" Pedido de indicação.",
+    "to": "- **Encerramento e efeito bola de neve (3 minutos):** feche perguntando \"Com quais outras duas pessoas que enfrentam essa mesma rotina você recomenda que eu converse esta semana?\", garantindo que a lista inicial de 60 a 100 nomes abordados renda as 15 a 20 entrevistas qualificadas."
+  },
+  {
+    "id": "579",
+    "vol": "2",
+    "code": "C5",
+    "from": "Não pergunte \"você acha que um app que faz X seria útil?\". É hipotético, sobre o futuro.",
+    "to": "Jamais pergunte \"você acha que um aplicativo que faz X seria útil?\": perguntas hipotéticas sobre o futuro induzem respostas gentis sem valor preditivo, enquanto o Nível 5 de dor se comprova por gasto ou gambiarra já existente hoje."
+  },
+  {
+    "id": "580",
+    "vol": "2",
+    "code": "E6",
+    "from": "Falar mais do que ouvir. A regra de ouro é que o entrevistado fala oitenta por cento do tempo. Se você está falando muito, está fazendo errado.",
+    "to": "**Falar mais do que escutar.** Na entrevista de descoberta, o cliente deve falar cerca de 80% do tempo e o fundador no máximo 20%: se você estiver dominando a conversa, parou de investigar e começou a tentar vender."
+  },
+  {
+    "id": "580",
+    "vol": "2",
+    "code": "E6",
+    "from": "##### As regras de ouro para preencher sem se enganar",
+    "to": "##### Princípios práticos para preencher sem se enganar"
+  },
+  {
+    "id": "580",
+    "vol": "2",
+    "code": "E6",
+    "from": "- **Era esperado ou inesperado?** `[ ] Esperado (ligado à hipótese em teste)  [ ] Inesperado (surgiu e não estávamos procurando: pode ser o ouro do discovery)`",
+    "to": "- **Era esperado ou inesperado?** `[ ] Esperado (ligado à hipótese em teste)  [ ] Inesperado (surgiu espontaneamente em campo e revelou uma oportunidade não mapeada)`"
+  },
+  {
+    "id": "580",
+    "vol": "2",
+    "code": "E6",
+    "from": "> *Transcreva exatamente o que a pessoa falou, entre aspas. Mínimo 3 citações marcantes. Verbatim é ouro: serve de evidência em deck interno, no pitch, no roadmap.*",
+    "to": "> *Transcreva literalmente o que a pessoa disse, entre aspas, registrando pelo menos 3 frases exatas. As palavras reais do cliente servem de prova empírica para alinhar o time, construir o argumento comercial e priorizar o produto.*"
+  },
+  {
+    "id": "580",
+    "vol": "2",
+    "code": "E6",
+    "from": "**Problemas \"inesperados\" que apareceram em mais de uma entrevista (ouro emergente):** `[...]`",
+    "to": "**Problemas não previstos inicialmente que se repetiram em duas ou mais entrevistas (achados emergentes de campo):** `[...]`"
+  },
+  {
+    "id": "585",
+    "vol": "2",
+    "code": "S3",
+    "from": "> [!tip] Canvases Visuais: Value Proposition Canvas (Fase 5)",
+    "to": "> [!tip] Registro estruturado: Ficha de Entrevista e Mapa de Descoberta (Templates desta Fase 4)"
+  },
+  {
+    "id": "586",
+    "vol": "2",
+    "code": "E9",
+    "from": "Entrevista individual semi-estruturada de 45-90 minutos com participante representativo, explorando temas em profundidade. Mais flexível que survey, mais sistemática que conversa informal.",
+    "to": "Entrevista individual semiestruturada de 45 a 90 minutos com participante representativo do segmento, explorando o contexto e as decisões passadas em profundidade: oferece mais flexibilidade investigativa do que um questionário fechado e muito mais rigor comparativo do que uma conversa informal."
+  },
+  {
+    "id": "586",
+    "vol": "2",
+    "code": "E9",
+    "from": "Valor identificado: identidade pessoal, autonomia, senso de self. Modo dark → conforto físico → tempo noturno de trabalho → espaço de auto-expressão → preservação da identidade.",
+    "to": "Valor terminal identificado: preservação da identidade pessoal e da autonomia. Modo escuro no aplicativo → menor fadiga visual → janela produtiva à noite → espaço de autoexpressão → senso de controle sobre a própria rotina."
+  },
+  {
+    "id": "586",
+    "vol": "2",
+    "code": "E9",
+    "from": "2. Axial coding: relacionar categorias, identificando sub-categorias, condições, consequências, estratégias de ação.",
+    "to": "2. Codificação axial (*axial coding*): conectar os agrupamentos iniciais, identificando subcategorias, condições de contexto, gatilhos e estratégias de ação adotadas pelo usuário."
+  },
+  {
+    "id": "586",
+    "vol": "2",
+    "code": "E9",
+    "from": "1. Familiarização com dados (ler, re-ler, anotar impressões iniciais).",
+    "to": "1. Familiarização com o material bruto (ler e reler as transcrições completas, anotando as primeiras recorrências)."
+  },
+  {
+    "id": "598",
+    "vol": "2",
+    "code": "N9",
+    "from": "Confirmar em vez de refutar. É tentador ouvir só o que reforça a sua tese. Obrigue-se a procurar ativamente evidência contrária. Se você só encontra confirmação, está enviesando.",
+    "to": "**1. Buscar confirmação em vez de tentar refutar a tese.** Ouvir apenas os elogios que confortam a ideia inicial invalida a rodada: procure ativamente os fatos que desmentem a sua premissa."
+  },
+  {
+    "id": "598",
+    "vol": "2",
+    "code": "N9",
+    "from": "Perguntas hipotéticas. \"Você usaria X?\" produz respostas ficcionais. Sempre ancore no passado real.",
+    "to": "**2. Ancorar a conversa em perguntas hipotéticas.** Indagar \"você usaria uma ferramenta assim?\" convida o entrevistado a inventar um comportamento futuro; exija sempre o relato da última vez em que o problema ocorreu."
+  },
+  {
+    "id": "598",
+    "vol": "2",
+    "code": "N9",
+    "from": "Apresentar a solução. No momento em que você mostra a ideia, a conversa muda de tom. A pessoa passa a ser gentil ou crítica com a ideia, não honesta sobre a vida.",
+    "to": "**3. Revelar a solução cedo demais.** Assim que você mostra o seu rascunho de produto, o entrevistado deixa de narrar a própria rotina e passa a opinar por educação sobre o seu desenho."
+  },
+  {
+    "id": "598",
+    "vol": "2",
+    "code": "N9",
+    "from": "Achar que cinco entrevistas bastam. Às vezes bastam, mas você só sabe disso depois de quinze. Não corte caminho.",
+    "to": "**4. Encerrar a rodada com apenas cinco conversas.** Padrões confiáveis raramente emergem antes de 15 a 20 entrevistas dentro do mesmo recorte de clientes."
+  },
+  {
+    "id": "598",
+    "vol": "2",
+    "code": "N9",
+    "from": "Generalizar a partir de um ou dois casos marcantes. Uma entrevista apaixonada vale muito menos que um padrão em dez entrevistas.",
+    "to": "**5. Generalizar a partir de um único caso entusiasta.** Uma conversa isolada com alguém muito empolgado pesa menos do que uma fricção moderada que se repete de forma idêntica em dez operações."
+  },
+  {
+    "id": "598",
+    "vol": "2",
+    "code": "N9",
+    "from": "Ignorar quando o problema é \"interessante\" mas não dolorido. As pessoas adoram falar sobre ineficiências, mas só pagam para resolver as que doem. Diferencie.",
+    "to": "**6. Confundir curiosidade intelectual com dor que abre orçamento.** Muitos profissionais gostam de comentar ineficiências do setor, mas só abrem a carteira para atacar problemas que travam metas, geram multa ou consomem horas caras da equipe."
+  },
+  {
+    "id": "598",
+    "vol": "2",
+    "code": "N9",
+    "from": "Nunca diga \"eu tive uma ideia de negócio que…\". A partir daí, tudo vira cortesia.",
+    "to": "Nunca abra a conversa dizendo \"tive uma ideia de negócio que faz X\": esse preâmbulo aciona a polidez social do interlocutor e contamina os dados."
+  },
+  {
+    "id": "598",
+    "vol": "2",
+    "code": "N9",
+    "from": "Evite perguntas tendenciosas (*leading questions*). \"Você não acharia melhor se…\" ou \"Seria incrível se existisse X, né?\". Deixe o entrevistado dizer o que quer. Se você precisa sugerir, não é dor real.",
+    "to": "Elimine perguntas que induzem a resposta (*leading questions*), como \"não seria muito melhor se existisse X?\". Se você precisa sugerir o incômodo para que o cliente concorde, a dor não é prioritária na rotina dele."
+  },
+  {
+    "id": "598",
+    "vol": "2",
+    "code": "N9",
+    "from": "Não ofereça \"crack grátis\". \"Você gostaria de receber X de graça?\" Quase todo mundo diz sim. Isso não valida negócio nenhum. Só valida que as pessoas gostam de coisas grátis.",
+    "to": "Não teste interesse oferecendo uso gratuito ilimitado (\"você testaria de graça?\"): aceitar algo sem custo nem atrito não prova que o problema justifica uma empresa."
+  },
+  {
+    "id": "601",
+    "vol": "2",
+    "code": "E10",
+    "from": "### MÉTRICAS E BENCHMARKS DESTA FASE (FASE 4)",
+    "to": "### PAINEL DE SAÍDA E MÉTRICAS DE VALIDAÇÃO DESTA FASE (FASE 4)"
+  },
+  {
+    "id": "602",
+    "vol": "2",
+    "code": "S4",
+    "from": "#### Framework: Contextual Inquiry (Hugh Beyer & Karen Holtzblatt, 1997)",
+    "to": "#### Framework: Contextual Inquiry (Hugh Beyer & Karen Holtzblatt, 1997, aplicado em campo nesta Fase 5)"
+  },
+  {
+    "id": "603",
+    "vol": "2",
+    "code": "C5",
+    "from": "| Entrevistas realizadas | Total de entrevistas de problema | ≥ 20 antes de qualquer conclusão |",
+    "to": "| Entrevistas qualificadas concluídas | Total de entrevistas de problema no perfil-alvo | 15 a 20 entrevistas documentadas antes da decisão |"
+  },
+  {
+    "id": "603",
+    "vol": "2",
+    "code": "C5",
+    "from": "| Dores nível 8+ | % das entrevistas com dor acima de 8 em 10 | ≥ 60% |",
+    "to": "| Problemas nos níveis superiores de dor | Entrevistas classificadas em Pain Level 4 ou 5 (com tentativa ativa ou orçamento) | Pelo menos 5 casos claros (ou 60% com dor severa validada) |"
+  },
+  {
+    "id": "612",
+    "vol": "2",
+    "code": "C5",
+    "from": "> Fale menos, ouça mais. Você não está ali para vender o seu produto. Está ali para interrogar o problema. Se você falou mais de vinte por cento do tempo, fez errado.",
+    "to": "> **Regra 80/20 de escuta:** fale no máximo 20% do tempo e deixe o entrevistado ocupar os outros 80% narrando episódios reais da própria rotina (tanto nas entrevistas de descoberta da Fase 4 quanto nas entrevistas de aprofundamento da Fase 5)."
+  },
+  {
+    "id": "613",
+    "vol": "2",
+    "code": "E9",
+    "from": "- Por quê isso importa? \"Porque trabalho muito de noite.\"",
+    "to": "- Por que isso importa para você? \"Porque concentro boa parte do meu trabalho pesado à noite.\""
+  },
+  {
+    "id": "613",
+    "vol": "2",
+    "code": "E9",
+    "from": "- Por quê você trabalha muito de noite? \"Porque dia é caótico com crianças.\"",
+    "to": "- Por que você concentra o trabalho pesado à noite? \"Porque durante o dia a rotina da casa com as crianças é cheia de interrupções.\""
+  },
+  {
+    "id": "613",
+    "vol": "2",
+    "code": "E9",
+    "from": "- Por quê isso importa? \"Porque noite é meu tempo de fazer algo só meu.\"",
+    "to": "- Por que preservar esse horário importa? \"Porque a noite é a única janela em que consigo focar em algo exclusivamente meu.\""
+  },
+  {
+    "id": "613",
+    "vol": "2",
+    "code": "E9",
+    "from": "- Por quê \"algo só seu\" importa? \"Porque sinto que preciso de espaço para mim, senão desapareço como pessoa.\"",
+    "to": "- Por que ter \"algo exclusivamente seu\" pesa tanto? \"Porque preciso desse espaço próprio de criação para não ser engolido apenas pelas urgências do dia.\""
+  },
+  {
+    "id": "613",
+    "vol": "2",
+    "code": "E9",
+    "from": "- \"Time probe\": \"Isso era importante pra você há 5 anos? Por quê mudou?\"",
+    "to": "- Pergunta de contraste temporal (*time probe*): \"Isso já pesava para você há 5 anos? Por que mudou agora?\""
+  },
+  {
+    "id": "634",
+    "vol": "2",
+    "code": "S7",
+    "from": "| **Status** | `[ ] Rascunho  [ ] Em revisão  [ ] Decisão tomada]` |",
+    "to": "| **Status** | `[ ] Rascunho  [ ] Em revisão  [ ] Decisão tomada` |"
+  },
+  {
+    "id": "642",
+    "vol": "2",
+    "code": "E10",
+    "from": "> Nesta entrevista você **não fala da sua solução**. Você escuta. No momento em que apresenta a ideia, o entrevistado reage à ideia em vez de descrever a realidade dele: e você perde a evidência limpa.",
+    "to": "> Conduza a conversa **sem apresentar a sua proposta de produto**: concentre-se nas rotinas e escolhas passadas do entrevistado para colher relatos sem viés de cortesia."
+  },
+  {
+    "id": "649",
+    "vol": "2",
+    "code": "N6",
+    "from": "Persona operacional não é demografia. \"Mulher, trinta e cinco a quarenta e cinco anos, classe B\" é inútil. Não ajuda a decidir produto. \"Mariana, dona de padaria artesanal de três lojas, gasta duas horas por dia conferindo insumos manualmente\" é acionável.",
+    "to": "Uma persona operacional se apoia em comportamentos observáveis, nunca em rótulos genéricos de censo: descrever apenas \"Mulher, 35 a 45 anos, classe B\" é cair na **Cegueira Demográfica** (como veremos também no Espelho desta fase), pois não orienta nenhuma decisão de produto; já especificar \"Mariana, sócia de padaria artesanal com três lojas, que gasta duas horas diárias conferindo estoque no papel\" entrega um perfil acionável."
+  },
+  {
+    "id": "651",
+    "vol": "2",
+    "code": "N9",
+    "from": "##### Princípios / estrutura: As 4 Forças",
+    "to": "##### Estrutura das Quatro Forças de Troca (empurrão da dor atual, atração da nova solução, ansiedade da mudança e inércia do hábito)"
+  },
+  {
+    "id": "652",
+    "vol": "2",
+    "code": "C5",
+    "from": "Documento de dez a vinte páginas. Conteúdo: duas a quatro personas detalhadas; duas a quatro jornadas mapeadas; lista de JTBDs ranqueada por importância e frequência; identificação da beachhead (sub-ICP prioritário); Declaração da Ideia atualizada para v3.",
+    "to": "O Dossiê do Usuário consolida a pesquisa em um documento prático de 10 a 20 páginas contendo: duas a quatro personas caracterizadas com profundidade (uma por papel que decide ou usa), duas a quatro jornadas mapeadas ponta a ponta, a lista priorizada de trabalhos a realizar (*jobs*) por importância e frequência, a escolha justificada do segmento inicial (*beachhead*) e a Declaração Inicial da Ideia atualizada para a versão 3."
+  },
+  {
+    "id": "652",
+    "vol": "2",
+    "code": "C5",
+    "from": "- [ ] Dossiê do Usuário com duas a quatro personas baseadas em dados reais (Template: Persona com dados (Fase 5)), seis ou mais atributos comportamentais por persona, duas a quatro jornadas mapeadas e cinco a dez JTBDs ranqueados.",
+    "to": "- [ ] Dossiê do Usuário concluído com duas a quatro personas baseadas em evidências reais de campo (ver Template: Persona com dados (Fase 5)), seis ou mais atributos comportamentais rastreáveis por persona, duas a quatro jornadas mapeadas e de cinco a dez trabalhos do cliente (*jobs*) priorizados."
+  },
+  {
+    "id": "656",
+    "vol": "2",
+    "code": "E2",
+    "from": "A terceira é diário do usuário, durante uma a duas semanas. Peça a alguns usuários que registrem, durante o período, toda vez que o problema X ocorrer. O que estavam fazendo. Como se sentiram. O que fizeram para resolver. Quanto tempo perderam. Um incentivo (vale-presente) ajuda na adesão.",
+    "to": "A terceira técnica é o diário de uso (*diary study*), conduzido ao longo de uma a duas semanas: peça aos participantes que registrem no exato momento em que a fricção acontecer o que estavam tentando fazer, quanto tempo perderam, quem precisaram acionar e qual improviso usaram para contornar o problema (oferecer uma compensação clara eleva a taxa de conclusão)."
+  },
+  {
+    "id": "656",
+    "vol": "2",
+    "code": "E2",
+    "from": "A quarta é análise de artefatos. Peça para os usuários mostrarem e explicarem os artefatos que usam. Planilhas. Cadernos. Grupos de WhatsApp. Prints. Relatórios. Esses artefatos são registros do comportamento real.",
+    "to": "A quarta técnica é a auditoria de artefatos de trabalho: peça para o usuário abrir e explicar as ferramentas improvisadas que mantém no dia a dia, incluindo planilhas paralelas, cadernos de balcão, grupos de mensagens, capturas de tela e relatórios impressos, pois esses registros revelam o comportamento real sem filtro."
+  },
+  {
+    "id": "656",
+    "vol": "2",
+    "code": "E2",
+    "from": "Para cada persona (perfil semifictício do cliente típico, baseado em dados reais), desenhe em linha do tempo a jornada relacionada ao problema. No mínimo com sete colunas. Etapa (nome da fase da jornada). Ação (o que a pessoa faz). Objetivo (o que ela quer cumprir com aquela ação). Ferramentas atuais (o que usa hoje). Pontos de dor (onde algo dá errado, demora, frustra). Emoções (o que sente: ansiedade, alívio, raiva, tédio). Oportunidades (onde existe espaço para intervenção).",
+    "to": "Para cada persona (perfil representativo construído a partir dos dados empíricos da rodada), mapeie na linha do tempo a jornada atual em sete dimensões: (1) **Etapa**, nomeando o momento do processo; (2) **Ação**, descrevendo o que a pessoa executa; (3) **Objetivo**, indicando o resultado que busca naquela etapa; (4) **Ferramentas atuais**, listando planilhas, sistemas ou gambiarras usados hoje; (5) **Pontos de dor**, marcando onde ocorrem atrasos, erros ou retrabalho; (6) **Estado emocional**, registrando tensão, alívio ou frustração; e (7) **Oportunidades**, apontando onde uma intervenção gera ganho imediato."
+  },
+  {
+    "id": "656",
+    "vol": "2",
+    "code": "E2",
+    "from": "Descobriram algo que a hipótese inicial não previa. O ponto mais doloroso era o fiador. Não o valor. A constrangedora necessidade de pedir a alguém. A dor era social, não financeira.",
+    "to": "Nas entrevistas e observações, os fundadores descobriram um gargalo que a hipótese original subestimava: o maior freio ao fechamento do aluguel vinha do constrangimento social de pedir a um parente ou conhecido que assinasse como fiador, superando até a discussão sobre o valor do pacote mensal."
+  },
+  {
+    "id": "657",
+    "vol": "2",
+    "code": "S7",
+    "from": "Framework analítico completo (não só entrevista como Framework: Jobs to Be Done Switch Interviews (Bob Moesta & Chris Spiek, via Clayton Christensen) (Fase 5)) para **entender o que cliente está \"contratando\" o produto para fazer**. Foco nos \"jobs\" (tarefas, progressos, resultados) que cliente quer realizar, não em demografia, persona, ou preferência declarada.",
+    "to": "Enquanto as entrevistas de troca (*Switch Interviews* de Bob Moesta e Chris Spiek, vistas acima) focam no evento de mudança de fornecedor, o **Framework de Jobs to Be Done** completo analisa **qual progresso concreto o cliente busca alcançar quando contrata um produto ou serviço**, estruturando a estratégia em torno da tarefa funcional, emocional e social a cumprir."
+  },
+  {
+    "id": "662",
+    "vol": "2",
+    "code": "C5",
+    "from": "Componentes de uma persona bem feita:",
+    "to": "**Nove componentes obrigatórios de uma persona baseada em dados (alinhados ao Template operacional desta Fase 5):**"
+  },
+  {
+    "id": "662",
+    "vol": "2",
+    "code": "C5",
+    "from": "PERSONA: [nome fictício]",
+    "to": "PERSONA (uma por papel que decide ou usa, em geral de 2 a 4 perfis, cada item com base de evidência rastreável): [nome e função]"
+  },
+  {
+    "id": "666",
+    "vol": "2",
+    "code": "S4",
+    "from": "#### Passo 6, defina personas com base nos dados coletados",
+    "to": "#### Passo 6: Defina as personas operacionais com os mesmos nove elementos e base de evidência"
+  },
+  {
+    "id": "667",
+    "vol": "2",
+    "code": "C5",
+    "from": "| Personas validadas | Personas com dados reais (não fictícios) | 2 a 3 personas primárias |",
+    "to": "| Personas validadas com evidência | Uma persona por papel que decide ou usa (com dados reais de campo) | 2 a 4 personas operacionais |"
+  },
+  {
+    "id": "674",
+    "vol": "2",
+    "code": "N8",
+    "from": "> Cada elemento da persona precisa ter evidência rastreável das entrevistas. Se você não consegue apontar a entrevista que sustenta cada item, está inventando.",
+    "to": "> Cada atributo incluído na ficha da persona precisa apontar para a entrevista ou observação que o sustenta (por exemplo, registrar a perda relatada de R$ 200 a R$ 300 por semana em farinha e o ágio de 15% na compra de emergência como base para uma hipótese de mensalidade de R$ 400 a testar na fase seguinte)."
+  },
+  {
+    "id": "680",
+    "vol": "2",
+    "code": "C1",
+    "from": "Matriz de saturação. Conte em quantas entrevistas cada tema aparece. Tema presente em sessenta por cento ou mais das entrevistas é provavelmente real. Tema em menos de trinta por cento pode ser ruído ou especificidade de um caso.",
+    "to": "**Matriz de saturação e triangulação prática.** Contabilize em quantas entrevistas cada padrão se repete e cruze sempre o relato verbal com o que foi visto na operação: para cada afirmação central do usuário, anote se a observação presencial confirmou, contradisse ou ainda não testou aquela fala, e, quando houver divergência entre o discurso e a prática, priorize sempre o comportamento observado."
+  },
+  {
+    "id": "681",
+    "vol": "2",
+    "code": "C5",
+    "from": "]]. Use a técnica de *contextual inquiry* (observação do usuário no seu contexto real de trabalho). Peça para a pessoa te mostrar como faz. Abrir a planilha. Navegar pelo sistema. Atender um cliente.",
+    "to": "]]. Aplique a observação no local de trabalho (*contextual inquiry*) e peça para acompanhar a pessoa enquanto ela executa a tarefa real: abrir a planilha de controle, navegar pelo sistema atual e atender um cliente na sua frente."
+  },
+  {
+    "id": "685",
+    "vol": "2",
+    "code": "E10",
+    "from": "- [ ] Cinco ou mais contextos de uso mapeados (quando, onde, com quem, sob qual pressão).",
+    "to": "- [ ] Cinco ou mais contextos reais de ocorrência registrados em campo (momento do dia, local físico, pessoas envolvidas e pressão operacional)."
+  },
+  {
+    "id": "685",
+    "vol": "2",
+    "code": "E10",
+    "from": "- [ ] Gatilhos de troca e barreiras à troca documentados em lista.",
+    "to": "- [ ] Gatilhos concretos de busca por nova solução (*push/pull*) e barreiras à mudança (*anxiety/habit*) documentados a partir de casos reais."
+  },
+  {
+    "id": "685",
+    "vol": "2",
+    "code": "E10",
+    "from": "- [ ] Em B2B, três papéis (usuário, campeão, comprador econômico) entrevistados separadamente, com persona distinta para cada papel relevante no contexto.",
+    "to": "- [ ] Em vendas B2B, os três papéis decisórios (usuário diário, defensor interno e comprador econômico) ouvidos separadamente e representados em personas distintas."
+  },
+  {
+    "id": "685",
+    "vol": "2",
+    "code": "E10",
+    "from": "- [ ] Tese sobre \"dor real\" refinada com mais granularidade (qual job, qual contexto, qual gatilho), com registro \"antes versus depois\".",
+    "to": "- [ ] Tese sobre a dor principal refinada com recorte exato de tarefa (*job*), contexto e gatilho, comparando a versão anterior e a versão pós-campo."
+  },
+  {
+    "id": "685",
+    "vol": "2",
+    "code": "E10",
+    "from": "- [ ] Beachhead escolhida com justificativa baseada em dados (urgência + agudeza + recursos para pagar + alcançabilidade).",
+    "to": "- [ ] Segmento inicial de entrada (*beachhead*) selecionado com base em evidências de urgência da dor, frequência, orçamento disponível e facilidade de acesso comercial."
+  },
+  {
+    "id": "685",
+    "vol": "2",
+    "code": "E10",
+    "from": "- [ ] Declaração da Ideia atualizada para v3.",
+    "to": "- [ ] Declaração Inicial da Ideia atualizada para a versão 3 (DII v3) e pronta para alimentar o mapeamento de mercado da Fase 6."
+  },
+  {
+    "id": "685",
+    "vol": "2",
+    "code": "E10",
+    "from": "Criar personas fictícias. Sem dados, persona é caricatura. Força você a dizer \"a nossa persona é a Ana, uma dona de restaurante…\", mas não protege decisões ruins.",
+    "to": "**Síntese rápida das cinco armadilhas a evitar nesta Fase 5:** (1) desenhar personas imaginárias sem lastro nas entrevistas; (2) tomar o discurso polido do usuário como verdade sem observar a rotina real; (3) projetar telas antes de isolar a tarefa (*job*) que o cliente precisa cumprir; (4) dispersar o foco em detalhes curiosos que não alteram a decisão de produto; e (5) encerrar o dossiê sem definir qual subsegmento (*beachhead*) será atacado primeiro."
+  },
+  {
+    "id": "685",
+    "vol": "2",
+    "code": "E10",
+    "from": "Confiar só no que a pessoa diz. Pessoas relatam uma versão idealizada de si mesmas. Observe além de escutar.",
+    "to": "- **Antídoto contra o discurso idealizado:** contraste sempre o que foi dito na entrevista com os artefatos reais (planilhas, recibos e histórico de uso) coletados no Passo 2."
+  },
+  {
+    "id": "685",
+    "vol": "2",
+    "code": "E10",
+    "from": "Pular JTBDs. Sem clareza do *job*, você projeta funcionalidades sem saber o problema que resolvem. JTBD é a bússola.",
+    "to": "- **Regra de foco no trabalho do cliente (*job*):** toda funcionalidade candidata na Fase 9 precisará apontar para um *job* priorizado neste dossiê."
+  },
+  {
+    "id": "685",
+    "vol": "2",
+    "code": "E10",
+    "from": "Perder-se em detalhes irrelevantes. Nem toda informação coletada é útil. Filtre pelo que afeta a decisão de produto.",
+    "to": "- **Critério de corte na síntese:** descarte observações anedóticas que não modifiquem a escolha de público, canal ou proposta de valor."
+  },
+  {
+    "id": "687",
+    "vol": "2",
+    "code": "S4",
+    "from": "#### Framework: Laddering Technique / Means-End Chain (Gutman 1982; Reynolds & Gutman 1988)",
+    "to": "#### Framework: Laddering Technique / Means-End Chain (Gutman, 1982; Reynolds & Gutman, 1988, aplicado na Fase 4 e aprofundado na Fase 5)"
+  },
+  {
+    "id": "694",
+    "vol": "2",
+    "code": "E9",
+    "from": "Personas inventadas: sem dados reais, é ficção. Não ajuda, Demografia sem comportamento: \"Maria, 32 anos, SP\" não diz nada. Comportamento e motivação são o que importa, Muitas personas: 12 personas ≈ sem foco, Persona como decoração: posters na parede que ninguém consulta. Usar ou descartar, Estático: não atualizado por anos, irrelevante.",
+    "to": "**Cinco armadilhas que inutilizam o uso de personas:** (1) criar perfis ficcionais na sala de reunião sem base em entrevistas reais; (2) preencher apenas idade, renda e cidade sem descrever rotinas, metas e gambiarras; (3) abrir uma dezena de personas simultâneas, pulverizando o foco da equipe; (4) pendurar cartazes bonitos na parede que nunca são consultados na hora de priorizar o produto; e (5) manter o mesmo documento congelado por anos sem atualizá-lo com novos dados de campo."
+  },
+  {
+    "id": "696",
+    "vol": "2",
+    "code": "C7",
+    "from": "- Entre pacientes, gasta 4-5 min só achando ficha.",
+    "to": "- Entre um atendimento e outro na clínica odontológica, perde de 4 a 5 minutos procurando histórico clínico (observação registrada mediante termo de consentimento prévio e sem fotografar ou copiar dados pessoais sensíveis de pacientes, em estrita conformidade com a LGPD, vista no Capítulo 10 do Vol. 8)."
+  },
+  {
+    "id": "699",
+    "vol": "2",
+    "code": "C5",
+    "from": "Prompt diário (fim do dia, 3 min):",
+    "to": "Roteiro de registro por evento (preenchido em 3 minutos logo após cada ocorrência ou no fechamento do turno, cuidando para não confundir o horário de preenchimento com o horário real do problema):"
+  },
+  {
+    "id": "702",
+    "vol": "2",
+    "code": "N3",
+    "from": "Uso típico: workshop de 60-90 min onde time preenche empathy map baseado em dados de pesquisa. Foco em momento específico (\"quando Camila abre o app às 22h após fechar clínica\").",
+    "to": "Uso típico: oficina de 60 a 90 minutos em que a equipe preenche o mapa de empatia com base nas transcrições da pesquisa, recortando um episódio concreto (por exemplo, \"quando a Dra. Camila, cirurgiã-dentista de 34 anos em Belo Horizonte, abre o aplicativo às 22h após fechar o consultório para separar as contas da casa e do CNPJ\")."
+  },
+  {
+    "id": "702",
+    "vol": "2",
+    "code": "N3",
+    "from": "Empathy map de Camila (persona acima) no momento \"fim de dia\":",
+    "to": "Mapa de empatia da Dra. Camila (cirurgiã-dentista em Belo Horizonte) no momento de fechamento do caixa ao fim do dia:"
+  },
+  {
+    "id": "704",
+    "vol": "2",
+    "code": "C5",
+    "from": "> Jornadas devem começar muito antes do ponto onde você imaginaria que o seu produto entraria. Por exemplo, se você está construindo um sistema de gestão de frota, a jornada começa no momento em que o dono decide contratar o motorista. Não quando o motorista já está na rua.",
+    "to": "> Ao mapear a jornada do problema (antes de existir o seu produto), comece passos antes do momento em que a sua ferramenta entraria: por exemplo, no caso de Fábio na padaria artesanal, a jornada da ruptura começa na conferência visual do depósito de farinha na segunda-feira, passa pela cotação apressada no WhatsApp e vai até a compra emergencial com ágio de 15% (diferente de uma jornada de funil de compra, usada apenas quando o produto já está no ar)."
+  },
+  {
+    "id": "705",
+    "vol": "2",
+    "code": "S7",
+    "from": "Passo 5**: Identifique**moments of truth: momentos de alta ansiedade ou alta importância.",
+    "to": "**Passo 5: Identifique** os momentos da verdade (*moments of truth*), isto é, as passagens de maior ansiedade ou impacto decisivo para a permanência do cliente."
+  },
+  {
+    "id": "705",
+    "vol": "2",
+    "code": "S7",
+    "from": "Passo 5**: Identifique**decisões (momentos onde funcionário ou sistema decide).",
+    "to": "**Passo 5: Identifique** os pontos de decisão em que um integrante da equipe ou uma regra de sistema define o próximo caminho do fluxo."
+  },
+  {
+    "id": "710",
+    "vol": "2",
+    "code": "E9",
+    "from": "Insights gerados:",
+    "to": "Aprendizados gerados na observação:"
+  },
+  {
+    "id": "710",
+    "vol": "2",
+    "code": "E9",
+    "from": "Insights emergentes:",
+    "to": "Padrões e aprendizados emergentes:"
+  },
+  {
+    "id": "715",
+    "vol": "2",
+    "code": "E1",
+    "from": "- Problema real não é \"agenda digital\", é **comunicação entre recepção e consultório**.",
+    "to": "- O gargalo central da clínica está na **passagem de bastão entre a recepção e o consultório**, mais do que na simples falta de uma agenda eletrônica."
+  },
+  {
+    "id": "715",
+    "vol": "2",
+    "code": "E1",
+    "from": "Curto demais: 1 hora não é etnografia, é entrevista com deslocamento. Observação sem pergunta de pesquisa: dispersão, não sabe o que busca. Viés de observador: você muda o ambiente só estando lá. Mitigar: voltar múltiplas vezes até se tornar invisível. Hipótese confirmatória: procurar o que você já acha. Disciplina de registrar surpresas (o que contradiz expectativa). Generalização de uma visita: preciso múltiplos contextos para padrões. Extrair sem reciprocidade: participante dá tempo, acesso, confiança, reciprocar (valor, pagamento, share de aprendizados).",
+    "to": "**Seis desvios que comprometem a observação etnográfica:** (1) visitas curtas de apenas uma hora, que capturam apenas uma conversa superficial em vez da rotina real; (2) ir a campo sem perguntas claras de investigação; (3) ignorar o efeito da própria presença sobre o comportamento observado, que só diminui após visitas repetidas; (4) anotar apenas o que confirma a hipótese prévia, deixando de registrar as anomalias; (5) tirar conclusões gerais a partir de um único local visitado; e (6) tomar o tempo do participante sem oferecer contrapartida justa nem compartilhar a síntese dos aprendizados."
+  },
+  {
+    "id": "715",
+    "vol": "2",
+    "code": "E1",
+    "from": "A tese é que **experiência do cliente é uma fita contínua, não pontos isolados**. Times divididos por função (marketing, vendas, sucesso, produto, suporte) tendem a otimizar suas próprias caixinhas e ignorar transições entre etapas. O Customer Journey Canvas força olhar a fita inteira e identificar **o ponto mais fraco**: porque a experiência do cliente é tão boa quanto o pior elo. Cliente que teve compra fácil mas onboarding caótico não fica; cliente que teve onboarding ótimo mas suporte distante churna na primeira dúvida real.",
+    "to": "A premissa central do quadro é que **o cliente vivencia uma sequência contínua de interações**, enquanto a empresa costuma dividir o atendimento em departamentos isolados (marketing, vendas, implantação, produto e suporte). O *Customer Journey Canvas* obriga a equipe a enxergar as passagens de bastão entre áreas e a concertar o elo mais frágil da cadeia: uma contratação rápida seguida de implantação confusa ou de suporte lento leva ao cancelamento logo no primeiro trimestre."
+  },
+  {
+    "id": "715",
+    "vol": "2",
+    "code": "E1",
+    "from": "O entregável é o Dossiê do Usuário. Personas baseadas em dados reais, não em intuição. Jornadas mapeadas com momentos críticos identificados. Lista clara de jobs. Esse dossiê é insumo das Fases 9 e 10 (ideação, prototipagem e testes de solução, no Volume 3).",
+    "to": "Camila só compreendeu o verdadeiro gargalo da clínica quando se sentou ao lado da recepção e observou a rotina sem filtro. Faça o mesmo ao fechar esta Fase 5: consolide o Dossiê do Usuário com personas calcadas em fatos observados, jornadas com sete dimensões e tarefas (*jobs*) priorizadas para alimentar o mapeamento de mercado da Fase 6 e os testes das Fases 7 a 10 (no Volume 3)."
+  },
+  {
+    "id": "720",
+    "vol": "2",
+    "code": "C5",
+    "from": "Pioneirismo no método é creditado a Ron Zemke e Chip Bell em pesquisa de service quality nos anos 1990s. Carbone e Haeckel publicaram *Engineering Customer Experiences* em 1994, formalizando o conceito mais amplo de customer experience. Popularizado nos anos 2000s em design de serviços e em customer experience (Bruce Temkin na Forrester foi referência institucional). Integração com design thinking consolidou método como padrão.",
+    "to": "As raízes do mapeamento de jornada estão nos estudos sobre qualidade em serviços conduzidos por Ron Zemke e Chip Bell na década de 1990 e na sistematização da gestão de experiência publicada por Lou Carbone e Stephan Haeckel em *Engineering Customer Experiences* (1994). Nos anos 2000, com os trabalhos de Bruce Temkin na Forrester e a difusão do *design thinking*, o método consolidou-se como ferramenta padrão de desenho de serviço e produto."
+  },
+  {
+    "id": "720",
+    "vol": "2",
+    "code": "C5",
+    "from": "#### Framework: Customer Journey Mapping (Ron Zemke e Chip Bell, anos 1990s; popularizado nos 2000s)",
+    "to": "#### Framework: Customer Journey Mapping (Ron Zemke e Chip Bell; Carbone e Haeckel, 1994; consolidado no design de serviços nos anos 2000)"
+  },
+  {
+    "id": "721",
+    "vol": "2",
+    "code": "C5",
+    "from": "3. **Para cada etapa**, preencha as 6 dimensões com base em verbatim e dados.",
+    "to": "3. **Para cada etapa da linha do tempo**, preencha as 7 dimensões padronizadas na fase (Etapa, Ação, Objetivo, Ferramentas atuais, Pontos de dor, Emoções e Oportunidades) com base em citações literais e observações de campo."
+  },
+  {
+    "id": "731",
+    "vol": "2",
+    "code": "E9",
+    "from": "Job 1, \"Fechar o mês rapidamente\" (importância 5/5, satisfação 2/5): OPORTUNIDADE.",
+    "to": "- **Job 1: \"Fechar o balanço mensal da loja com rapidez\"** (importância = 5/5, satisfação atual = 2/5) → **Oportunidade prioritária de intervenção**."
+  },
+  {
+    "id": "734",
+    "vol": "2",
+    "code": "C5",
+    "from": "#### Template: Entrevista com Switcher (JTBD, entrevista de troca)",
+    "to": "#### Template: Entrevista com Switcher (JTBD: entrevista de troca)"
+  },
+  {
+    "id": "735",
+    "vol": "2",
+    "code": "S2",
+    "from": "A diferença entre quem faz certo e quem falha está numa disciplina simples, e quase sempre violada: não falar da solução, só escutar. No momento em que você menciona a solução, o cliente passa a reagir à ideia em vez de descrever a realidade. E você perde a evidência limpa. Aplicar o Mom Test com rigor: perguntar sobre a vida específica do cliente, sobre momentos concretos em que o problema apareceu, sobre o que ele já faz para resolver hoje: é o que separa entrevista útil de entrevista que confirma viés.",
+    "to": "O valor real desta Fase 4 depende de manter uma disciplina simples durante todas as conversas: investigar fatos passados sem apresentar a sua ideia de solução. Ao concluir as 15 a 20 entrevistas, pontuar o *Pain Level* de cada caso e preencher o Mapa de Descoberta do Problema, você substitui entusiasmo subjetivo por evidência rastreável antes de avançar para a pesquisa de aprofundamento da Fase 5."
+  },
+  {
+    "id": "735",
+    "vol": "2",
+    "code": "S2",
+    "from": "A diferença entre um empreendedor iniciante e um pesquisador de usuário experiente está aqui. O iniciante \"lê as anotações\" e tira conclusões com base em memória. O experiente aplica técnicas formais de síntese, que transformam centenas de citações dispersas em padrões claros. Três técnicas a dominar.",
+    "to": "Na etapa de síntese, o erro mais comum é reler anotações de cabeça e pinçar apenas as frases que agradam aos fundadores. Transformar dezenas de páginas de transcrição bruta em padrões auditáveis exige aplicar três técnicas formais de codificação:"
+  },
+  {
+    "id": "744",
+    "vol": "2",
+    "code": "S2",
+    "from": "### Por que competir de frente com incumbentes em um mercado amplo é suicídio de caixa",
+    "to": "### O escopo da Fase 6: por que mapear concorrentes, substitutos e regulação antes de disputar um mercado amplo protege o seu caixa"
+  },
+  {
+    "id": "744",
+    "vol": "2",
+    "code": "S2",
+    "from": "Empreendedores apaixonados tendem a acreditar que \"não há concorrentes\", ou que \"o mercado é enorme\". Ambas as afirmações são quase sempre falsas. O mapeamento de mercado força você a enxergar a realidade competitiva. Existem soluções (mesmo que ruins). Existem substitutos (incluindo \"fazer nada\"). Existem players (concorrentes e participantes do mercado) grandes que podem te copiar. Existe regulamentação que pode te inviabilizar.",
+    "to": "Fundadores empolgados costumam repetir que \"não temos concorrentes diretos\" ou que \"basta capturar 1% de um mercado bilionário\", duas premissas que quase sempre desmoronam no primeiro trimestre comercial. O mapeamento estruturado desta Fase 6 (consolidado no Dossiê de Mercado e Competição e no Canvas da Cunha) obriga a identificar quem já disputa o mesmo orçamento (incluindo planilhas, processos internos e a opção do cliente de não fazer nada), quais gigantes adjacentes podem reagir e quais exigências regulatórias condicionam a operação."
+  },
+  {
+    "id": "744",
+    "vol": "2",
+    "code": "S2",
+    "from": "Sem esse mapa, você empreende às cegas. Com ele, você toma decisões informadas sobre posicionamento, diferenciação, e estratégia.",
+    "to": "Com esse levantamento feito em conjunto entre produto, comercial e tecnologia antes de definir preço e canal, suas escolhas de posicionamento e de cunha inicial passam a se apoiar na estrutura real do setor."
+  },
+  {
+    "id": "744",
+    "vol": "2",
+    "code": "S2",
+    "from": "### A matemática de baixo para cima (Bottom-Up) e o desenho da cunha de entrada",
+    "to": "### O método em nove passos: dimensionamento de baixo para cima (Bottom-Up) e desenho da cunha de entrada"
+  },
+  {
+    "id": "827",
+    "vol": "2",
+    "code": "E12",
+    "from": "**Observação sobre o Teste de Precisão do Comprador**: reprovar neste teste raramente significa que sua ideia é ruim, significa que a pesquisa de usuário da ",
+    "to": "**Observação sobre o Teste de Precisão do Comprador**: reprovar nesta verificação quase nunca significa que a tese inteira seja inviável; indica apenas que a pesquisa de usuário da "
+  },
+  {
+    "id": "827",
+    "vol": "2",
+    "code": "E12",
+    "from": "]], sem ele, as hipóteses da fase seguinte não terão ancoragem no mercado específico que você escolheu atacar.",
+    "to": "]]. Sem ele, as hipóteses da fase seguinte ficam sem ancoragem no subsegmento específico que você escolheu atacar."
+  },
+  {
+    "id": "837",
+    "vol": "2",
+    "code": "E8",
+    "from": "A pesquisa de pricing psicológico (precificação que explora vieses cognitivos para influenciar percepção de valor) brasileira confirma efeitos similares ao mercado internacional com algumas especificidades:",
+    "to": "Estudos aplicados ao varejo e aos serviços digitais no Brasil mostram que os mecanismos clássicos de psicologia de preços (ancoragem, efeito chamariz e enquadramento de parcela) operam aqui com particularidades locais bem definidas:"
+  },
+  {
+    "id": "843",
+    "vol": "2",
+    "code": "C1",
+    "from": "O consumidor de classe C tem renda mensal familiar entre R$2.004 e R$8.640. Tem smartphone (penetração de smartphone no Brasil supera 80%), usa aplicativos, tem conta em banco digital, e faz compras online. Não é digitalmente excluído.",
+    "to": "Pelo Critério de Classificação Econômica Brasil (ABEP / levantamentos da FGV Social atualizados em meados da década de 2020), as famílias de classe C (estratos C1 e C2, com renda domiciliar mensal tipicamente distribuída em torno de dois a seis salários mínimos) contam com amplo acesso a celular conectado (acima de 85% dos domicílios urbanos segundo a pesquisa TIC Domicílios do CETIC.br), operam Pix e contas digitais diariamente e compram pela internet, exigindo produtos desenhados para franquia móvel enxuta e tíquete recorrente acessível."
+  },
+  {
+    "id": "844",
+    "vol": "2",
+    "code": "E9",
+    "from": "- Tentativa de downgrage de plano.",
+    "to": "- Pedido de rebaixamento de plano (*downgrade*) ou redução brusca de licenças contratadas."
+  },
+  {
+    "id": "844",
+    "vol": "2",
+    "code": "E9",
+    "from": "Reagir forçaria você a desviar do seu roadmap estratégico. O custo de desvio (oportunidade perdida, time fragmentado, foco dilúido) pode ser maior do que o custo de não reagir.",
+    "to": "Responder no impulso a cada movimento do concorrente desvia a equipe do plano estratégico: o custo de fragmentar a engenharia e diluir o foco do produto quase sempre supera o risco de ignorar uma provocação comercial pontual."
+  },
+  {
+    "id": "844",
+    "vol": "2",
+    "code": "E9",
+    "from": "**G2, Capterra e Reclame Aqui:** Reviews de usuários são a fonte mais direta de pontos fracos dos concorrentes. Analise as reclamações de um a dois estrelas dos seus principais concorrentes. O que aparece sistematicamente é o seu argumento de venda.",
+    "to": "**G2, Capterra e Reclame Aqui:** avaliações públicas de clientes insatisfeitos entregam um mapa gratuito das vulnerabilidades dos incumbentes. Leia sistematicamente os relatos de uma e duas estrelas dos seus principais concorrentes: as queixas que se repetem mês após mês apontam exatamente onde posicionar o seu diferencial comercial."
+  },
+  {
+    "id": "844",
+    "vol": "2",
+    "code": "E9",
+    "from": "**V (Valioso):** O recurso cria valor para o cliente ou reduz custo? Uma patente em tecnologia que o mercado não usa não é valioso.",
+    "to": "**V (Valioso):** o recurso gera ganho mensurável de receita ou redução concreta de custo para o cliente? Uma patente sobre tecnologia que o mercado não demanda não constitui vantagem valiosa."
+  },
+  {
+    "id": "846",
+    "vol": "2",
+    "code": "C1",
+    "from": "Pesquisas e entrevistas de churn no contexto brasileiro revelam que a razão declarada (\"está caro\", \"não estou usando\") frequentemente mascara a razão real:",
+    "to": "Entrevistas de saída com clientes que cancelaram assinaturas no mercado brasileiro mostram que a justificativa educada de formulário (\"ficou caro\" ou \"estamos usando pouco\") quase sempre esconde um destes motivos operacionais:"
+  },
+  {
+    "id": "849",
+    "vol": "2",
+    "code": "E1",
+    "from": "Em B2B brasileiro, a relação pessoal entre o vendedor e o comprador é componente do processo de decisão, não apenas facilitador de acesso. O comprador que tem relação pessoal com o fornecedor sente responsabilidade compartilhada pelo sucesso da implementação.",
+    "to": "Nas vendas B2B no Brasil, o vínculo de confiança construído entre o executivo de contas e o gestor comprador pesa diretamente na aprovação do projeto e na paciência do cliente durante a implantação, razão pela qual a troca brusca de atendimento sem transição planejada costuma elevar o risco de cancelamento."
+  },
+  {
+    "id": "857",
+    "vol": "2",
+    "code": "C1",
+    "from": "Você está autorizado a crescer na velocidade da sua margem positiva e recusar o teatro do \"crescimento a qualquer custo\" que quebrou metade da safra de 2021.",
+    "to": "Você tem plena liberdade para expandir a operação no compasso da sua geração de margem positiva, recusando a queima artificial de caixa em busca de crescimento sem retenção."
+  },
+  {
+    "id": "864",
+    "vol": "2",
+    "code": "S5",
+    "from": "#### Framework: VRIO Framework (Jay Barney, 1995; antecessor VRIN, 1991)",
+    "to": "#### Framework: VRIO Framework (Jay Barney, 1995; evolução do modelo VRIN, 1991)"
+  },
+  {
+    "id": "866",
+    "vol": "2",
+    "code": "C5",
+    "from": "Concorrentes frequentemente não publicam tabelas de preço. Existem formas legítimas de descobrir:",
+    "to": "Em vendas corporativas complexas (*enterprise*), os concorrentes quase nunca divulgam tabelas abertas no site (ao contrário do software de autoatendimento). Ainda assim, existem quatro caminhos legítimos para levantar a faixa praticada no mercado:"
+  },
+  {
+    "id": "875",
+    "vol": "2",
+    "code": "S7",
+    "from": "Este capítulo na sua versão original analisa padrões de fracasso usando casos pré-2023. Em 2024-2026, o ecossistema brasileiro viveu uma nova onda de fracassos com características distintas, resultado do \"venture winter\" que começou em 2022, da correção pós-exuberância de 2021 e da consolidação forçada de setores inteiros. Os padrões de 2024-2026 ensinam lições que não apareciam na onda anterior.",
+    "to": "Além dos casos clássicos anteriores a 2022, a correção de liquidez iniciada naquele ano e as reestruturações ocorridas até 2026 expuseram vulnerabilidades específicas no ecossistema brasileiro: custo de capital elevado com Selic em dois dígitos, exigência de margem de contribuição positiva desde cedo e consolidação de setores fragmentados."
+  },
+  {
+    "id": "879",
+    "vol": "2",
+    "code": "C5",
+    "from": "Al Ramadan, Christopher Lochhead, Dave Peterson e Kevin Maney publicaram *Play Bigger: How Pirates, Dreamers, and Innovators Create and Dominate Markets* em 2016. Tese: em vez de competir em categoria existente, **criar e dominar categoria nova**. Empresas \"category kings\" (Uber, Airbnb, Salesforce) capturam 70-80% do valor de sua categoria.",
+    "to": "Al Ramadan, Christopher Lochhead, Dave Peterson e Kevin Maney publicaram *Play Bigger: How Pirates, Dreamers, and Innovators Create and Dominate Markets* em 2016. A tese central da obra é que, em vez de disputar espaço dentro de um rótulo já dominado, as empresas mais valiosas **definem e lideram uma nova categoria de mercado**: segundo o levantamento dos autores, o líder consolidado (*category king*) captura cerca de 76% do valor total de mercado da categoria."
+  },
+  {
+    "id": "884",
+    "vol": "2",
+    "code": "C5",
+    "from": "3 passos de Category Design:",
+    "to": "**Os três pilares alinhados de *Category Design* (apresentados em *Play Bigger* e retomados no Capítulo 3 deste volume):** definir o ponto de vista sobre o problema (*Point of View*), desenhar o triângulo produto-empresa-categoria e concentrar o lançamento num movimento coordenado (*Lightning Strike*):"
+  },
+  {
+    "id": "894",
+    "vol": "2",
+    "code": "E12",
+    "from": "O manual até aqui traz mais de vinte casos brasileiros de sucesso, Nubank, Magazine Luiza, Stone, Movile, Hotmart, Natura, Quinto Andar, RD Station, entre outros, usados como referências reais em pontos-chave do livro, e o caso fictício PadariaPro como instrumento pedagógico recorrente. Casos de sucesso ensinam o que funcionou naquele contexto específico. Casos de fracasso ensinam padrões que se repetem em múltiplos contextos, em geral mais generalizáveis. O fundador iniciante aprende tanto com \"por que X quebrou\" quanto com \"por que Y deu certo\".",
+    "to": "Ao longo dos volumes, analisamos mais de vinte casos brasileiros de construção bem-sucedida (como Nubank, WEG, TOTVS, Stone, Mercado Livre, Hotmart, Natura, QuintoAndar e RD Station), além da jornada dos nossos quatro fundadores-arquétipos e do exemplo didático da PadariaPro. Enquanto as histórias de sucesso mostram o que funcionou sob condições específicas de época e capital, as quebras empresariais revelam erros estruturais que se repetem em qualquer setor:"
+  },
+  {
+    "id": "894",
+    "vol": "2",
+    "code": "E12",
+    "from": "Em trajetória de fundador, é mais útil saber o que evitar do que o que copiar. Copiar Nubank é impossível, contexto único, timing único, capital único. Evitar padrões de falha é aplicável de forma universal.",
+    "to": "Na prática operacional, estudar causas de mortalidade empresarial entrega um filtro imediato de proteção: reproduzir a trajetória exata de um unicórnio depende de janelas irrepetíveis de mercado, mas evitar os sete erros clássicos de caixa, sociedade e retenção está sob o controle direto de qualquer fundador."
+  },
+  {
+    "id": "894",
+    "vol": "2",
+    "code": "E12",
+    "from": "]], para calibrar expectativa e motivação. Antes de cada decisão estratégica grande, novo mercado, captação, pivô, expansão internacional, contratação executiva, lendo o padrão relevante. Em intervalos regulares, em momentos de boa tração. Quando a empresa está voando, a vigilância cai e o perigo aumenta.",
+    "to": "]], para calibrar expectativas pessoais e motivação; antes de cada decisão estratégica irreversível (entrada em novo mercado, rodada de captação, pivô de modelo, expansão internacional ou contratação executiva), revisando o padrão correspondente; e em intervalos regulares durante fases de forte tração, pois é quando a operação acelera que a vigilância costuma cair."
+  },
+  {
+    "id": "894",
+    "vol": "2",
+    "code": "E12",
+    "from": "Os sinais de dependência excessiva são: nenhuma decisão importante acontece sem o fundador, time executivo fraco ou marginalizado, fundador é a única pessoa que entende a estratégia completa, fundador é único ponto de contato com investidores, parceiros grandes e clientes-chave, e cultura é \"o jeito que o fundador faz\" sem formalização.",
+    "to": "Cinco sinais denunciam dependência excessiva da figura do fundador: (1) nenhuma decisão operacional relevante avança sem o aval pessoal dele; (2) os líderes de área atuam apenas como repassadores de tarefas; (3) somente o CEO compreende a estratégia completa do negócio; (4) investidores, parceiros e grandes contas recusam tratar com qualquer outra pessoa da empresa; e (5) a cultura interna resume-se ao improviso diário do fundador, sem processos documentados."
+  },
+  {
+    "id": "896",
+    "vol": "2",
+    "code": "E2",
+    "from": "> Usar como justificativa para inação é o erro oposto. \"Tudo dá errado, melhor não fazer.\" Empreender é risco. Padrões não são determinísticos. Eles informam, não paralisam.",
+    "to": "> **Não use o estudo de falhas como desculpa para a paralisia.** Ler análises de empresas que fecharam serve para blindar a sua execução com margens de segurança, e nunca para concluir que empreender é inviável."
+  },
+  {
+    "id": "896",
+    "vol": "2",
+    "code": "E2",
+    "from": "> Focar só em fracassos desequilibra a perspectiva. Casos de sucesso ensinam complementarmente. Ambos.",
+    "to": "> **Combine o estudo de fracassos com a análise de empresas duráveis.** Os casos de quebra mostram quais armadilhas evitar no caminho, enquanto os casos de sucesso demonstram como construir vantagens defensáveis: o repertório maduro exige as duas leituras."
+  },
+  {
+    "id": "905",
+    "vol": "2",
+    "code": "N9",
+    "from": "### A arrogância do \"conosco será diferente\" diante de unit economics estruturalmente negativos",
+    "to": "### Armadilhas ao estudar fracassos: da ilusão do \"conosco será diferente\" à paralisia por medo"
+  },
+  {
+    "id": "907",
+    "vol": "2",
+    "code": "S6",
+    "from": "Exemplos conceituais. \"CRM\" (Siebel). \"Business Intelligence\" (Gartner, mais players). \"Observability\" (Datadog, e New Relic). \"Revenue Intelligence\" (Gong). \"Workflow Automation\" (Zapier).",
+    "to": "**Exemplos clássicos de categorias nomeadas no mercado de tecnologia:** *CRM* (consolidado por Siebel e redefinido em nuvem pela Salesforce), *Inbound Marketing* (HubSpot), *Observability* (Datadog e New Relic), *Revenue Intelligence* (Gong) e *Workflow Automation* (Zapier)."
+  },
+  {
+    "id": "907",
+    "vol": "2",
+    "code": "S6",
+    "from": "#### 2. Lightning Strike, o movimento de reivindicação",
+    "to": "#### 2. *Lightning Strike*: o movimento coordenado de inauguração da categoria"
+  },
+  {
+    "id": "907",
+    "vol": "2",
+    "code": "S6",
+    "from": "Play Bigger formaliza o Lightning Strike. Um evento concentrado (lançamento, conferência, ou campanha), que projeta a categoria ao mercado em intensidade alta, e curta duração. É o oposto de campanha gradual. É explosão deliberada.",
+    "to": "Em *Play Bigger*, o *Lightning Strike* designa uma ofensiva concentrada no tempo (combinando lançamento de produto, publicação de dados originais do setor, mobilização de clientes-farol e presença em eventos) para fixar o nome e os critérios da nova categoria na mente dos compradores, em vez de pulverizar o orçamento em campanhas graduais que passam despercebidas."
+  },
+  {
+    "id": "1516",
+    "vol": "2",
+    "code": "S5",
+    "from": "#### Framework: Jobs to Be Done Framework (Clayton Christensen, Anthony Ulwick, Bob Moesta)",
+    "to": "#### Framework: Jobs to Be Done (Clayton Christensen, Anthony Ulwick e Bob Moesta: síntese completa nesta Fase 5)"
+  }
+]
