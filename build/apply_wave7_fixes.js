@@ -8,6 +8,29 @@
  * - Replaces all 227 boilerplate archetype paragraphs with chapter-specific, non-repetitive transitions with strict singular/plural verb agreement
  */
 
+const fs = require('fs');
+const path = require('path');
+
+const wave8ByVol = {};
+for (const fname of [
+  'achados_fixes_wave8_p1.json',
+  'achados_fixes_wave8_p2.json',
+  'achados_fixes_wave8_p3.json',
+  'achados_fixes_wave8_p4.json',
+  'achados_fixes_wave8_p5.json',
+  'achados_fixes_wave8_p6.json',
+]) {
+  const fpath = path.join(__dirname, fname);
+  if (fs.existsSync(fpath)) {
+    const items = JSON.parse(fs.readFileSync(fpath, 'utf8'));
+    for (const it of items) {
+      const v = Number(it.vol);
+      if (!wave8ByVol[v]) wave8ByVol[v] = [];
+      wave8ByVol[v].push(it);
+    }
+  }
+}
+
 function applyWave7ToVolume(volNum, content) {
   function rep(from, to, label) {
     if (content.includes(from)) {
@@ -1205,7 +1228,37 @@ Para o CPSI e Contrato de Fornecimento (LC 182/2021, arts. 14 e 15):
     }
   }
 
-  return lines.join('\n');
+  content = lines.join('\n');
+
+  // 4. Wave 8 Secondary-Locus & 644ea50 Baseline Audit Fixes (1,363 entries across p1..p6)
+  const w8Items = wave8ByVol[volNum] || [];
+  let w8Hits = 0;
+  for (const it of w8Items) {
+    if (rep(it.from, it.to, `Wave8 #${it.id}`)) {
+      w8Hits++;
+    }
+  }
+  content = content.replace(/\|\s*,\s*(?=\|)/g, '| - ');
+  if (volNum === 10) {
+    rep(
+      `- [ ] Aquisições de concorrentes menores avaliadas quanto ao risco de killer acquisition?\n\n---\n\n**Capítulos relacionados na coleção (incluindo Gestão de Caixa e Captação nos Capítulos 11, 13 e 14 do Vol. 5, Precificação no Capítulo 9 do Vol. 4 e Hedging Cambial no Capítulo 7 do Vol. 9):**`,
+      `- [ ] Aquisições de concorrentes menores avaliadas quanto ao risco de killer acquisition?\n\n---\n\n**Capítulos relacionados na coleção (CADE, M&A, Contratos e Governança):**`,
+      'Vol 10:1804 header'
+    );
+    rep(
+      `O Estado brasileiro não é um parceiro perfeito nem um inimigo inevitável. É um sistema complexo com incentivos contraditórios, janelas de oportunidade estreitas e risco de mudança constante. Founders que aprendem a navegar esse sistema constroem vantagens que concorrentes estrangeiros levam anos para entender: e às vezes nunca entendem.\n\n---\n\n**Capítulos relacionados na coleção (incluindo Gestão de Caixa e Captação nos Capítulos 11, 13 e 14 do Vol. 5, Precificação no Capítulo 9 do Vol. 4 e Hedging Cambial no Capítulo 7 do Vol. 9):**`,
+      `O Estado brasileiro não é um parceiro perfeito nem um inimigo inevitável. É um sistema complexo com incentivos contraditórios, janelas de oportunidade estreitas e risco de mudança constante. Founders que aprendem a navegar esse sistema constroem vantagens que concorrentes estrangeiros levam anos para entender: e às vezes nunca entendem.\n\n---\n\n**Capítulos relacionados na coleção (Fomento Público, CPSI e Mercados Regulados):**`,
+      'Vol 10:2379 header'
+    );
+    rep(
+      `No Brasil, câmaras arbitrais e câmaras de mediação operam nesse espaço (parcialmente). A arbitragem tem base legal sólida (Lei 9.307/96: Lei de Arbitragem). A mediação extrajudicial foi regulamentada pela Lei 13.140/2015.`,
+      `No Brasil, câmaras privadas de resolução de disputas (arbitragem empresarial e mediação extrajudicial) atuam de forma complementar ao Judiciário: o instituto jurídico da arbitragem conta com marco consolidado (Lei nº 9.307/1996, alterada pela Lei nº 13.129/2015) e a mediação extrajudicial é regida pela Lei nº 13.140/2015.`,
+      'Vol 10:7177 #5183'
+    );
+  }
+  console.log(`  [Wave 8][Vol ${volNum}] Applied ${w8Hits}/${w8Items.length} secondary-locus & baseline fixes`);
+
+  return content;
 }
 
 module.exports = { applyWave7ToVolume };

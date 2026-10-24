@@ -153,11 +153,11 @@ flowchart TB
 ```
 
 > [!important] Princípio da arquitetura no MVP
-> Composição de managed services no MVP. DevOps real só depois do PMF. Evite criar o seu próprio auth, criar o seu próprio sistema de e-mail, construir observability do zero. Cada "do-zero" prematuro custa três a seis meses, e quase nunca produz vantagem competitiva.
+> Priorize serviços gerenciados no MVP e deixe infraestrutura própria complexa para depois do PMF. Evite construir autenticação, disparo de e-mails ou monitoramento do zero: refazer em casa ferramentas básicas consome semanas preciosas de engenharia sem gerar diferenciação alguma diante do cliente.
 
 ### Por que uma semana com dez usuários reais em produção ensina mais do que um ano em ambiente de teste
 
-Até agora, você trabalhou com evidência declarada (entrevistas) e evidência comportamental limitada (testes de protótipo). O MVP é onde você obtém a evidência mais valiosa: o que as pessoas fazem com um produto real, pago, nas rotinas delas de verdade. Essa evidência é diferente em qualidade. E muitas vezes surpreende.
+Até aqui, o trabalho apoiou-se em evidências declaradas sobre o passado (entrevistas) e em sinais de compromisso pré-produto (pré-vendas e protótipos). O MVP inaugura o teste definitivo: observar o que os clientes fazem com um produto funcional e pago dentro da própria rotina operacional, semana após semana.
 
 > [!warning] MVP não é "versão capenga" do produto
 > Essa é a confusão mais comum. MVP é o experimento mais enxuto capaz de validar a incerteza crítica da vez; na Fase 11 ele já assume a forma de software confiável em produção, concentrado em responder duas perguntas por ciclo. Qual é a premissa ou hipótese mais arriscada *neste momento*? Como podemos testá-la com o menor esforço possível?
@@ -307,7 +307,7 @@ Essa é a tática operacional mais importante desta fase. Para cada usuário nos
 
 Fale com o usuário. Trinta a quarenta e cinco minutos de conversa estruturada antes do onboarding. Quais eram as expectativas dele? O que já tentou? O que espera?
 
-Assista o usuário usar o produto. Compartilhamento de tela, ou presencialmente. Silêncio da sua parte. Observe onde ele hesita, clica errado, fecha a aba com cara de dúvida. Pontos de fricção são invisíveis em métricas. São óbvios em observação.
+Assista ao usuário utilizando o produto, presencialmente ou por compartilhamento de tela, mantendo-se em silêncio. Observe onde ele hesita, clica no lugar errado ou fecha uma aba em dúvida: travamentos que passam despercebidos nos gráficos agregados ficam evidentes na primeira sessão observada.
 
 Corrija os erros imediatamente. Em horas ou dias. Não em semanas. Se três usuários seguidos travam no mesmo lugar, aquele lugar vai para o topo do backlog.
 
@@ -359,7 +359,7 @@ Conta digital simples vinculada à maquininha. Recebimento dos valores em D mais
 
 Portal web básico para o lojista ver transações, antecipar recebíveis, e baixar comprovantes.
 
-Green Angel. Executivo de venda contratado como representante local, que visita o lojista, faz onboarding presencial em até quarenta e oito horas, e fica como ponto de contato direto (telefone direto, WhatsApp).
+Green Angel (o executivo comercial e de suporte de campo do modelo de polos locais da Stone): representante contratado na própria praça que visita o lojista, conclui a ativação presencial em até quarenta e oito horas e atende diretamente via telefone e WhatsApp.
 
 SLA de troca de maquininha em até vinte e quatro horas, em caso de defeito.
 
@@ -409,7 +409,7 @@ Tempo de onboarding. Meta: até quarenta e oito horas, da primeira visita do Gre
 
 NPS pós-trinta dias. Meta: maior que setenta. Múltiplo do que os incumbentes praticavam, que era de dez a trinta.
 
-Taxa de retenção. Lojista ainda processando transações em D mais noventa.
+Taxa de retenção: percentual de lojistas que continuam processando transações na maquininha em D+90 (noventa dias após a ativação).
 
 Volume de transações processadas por lojista (TPV). Sinal de saúde da operação do cliente.
 
@@ -423,7 +423,7 @@ Retenção elevada em D+90 nos primeiros lojistas (nesta reconstrução ilustrat
 
 Indicações orgânicas começaram a aparecer. Lojistas satisfeitos chamavam outros (vizinhos do bairro, fornecedores, parceiros), reduzindo CAC ao longo do tempo.
 
-A partir desses sinais, a Stone investiu em escala. Mais Green Angels. Mais capitais. E eventualmente, hardware proprietário. Em outubro de 2018, IPO na NASDAQ sob o ticker STNE, com Berkshire Hathaway entre os investidores na oferta.
+Com *unit economics* comprovados nos polos iniciais, a Stone multiplicou a capilaridade física dos seus *Green Angels* em novas praças, ampliou o ecossistema de software de gestão no ponto de venda e concluiu seu IPO na NASDAQ em outubro de 2018 (ticker STNE), tendo a Berkshire Hathaway entre os investidores âncora da oferta.
 
 > [!important] O que a Stone deixou de fora na largada
 > O MVP da Stone não foi "versão simples da maquininha". Foi a *menor combinação possível* de hardware mais software mais atendimento humano que demonstrava a tese de wedge: PME insatisfeita com incumbente paga premium por atendimento melhor. O que ficou de fora, crédito, app mobile, hardware próprio, entrou só depois que a tese foi validada. Empresas que lançam tudo de uma vez não conseguem isolar o que está funcionando, e o que não está. E gastam capital amplificando feature errada.
@@ -466,7 +466,7 @@ Baixa ativação. Curva de retenção desce a zero em duas a quatro semanas. Con
 
 **Primeiros passos práticos.**
 
-1. Abrir o Template Especificação de MVP (Fase 10), e delimitar o escopo. O que está fora é tão importante quanto o que está dentro.
+1. Abrir a Especificação de MVP preenchida na Fase 10 (Vol. 3) e travar o escopo: o que fica de fora da primeira versão é tão decisivo quanto o que entra.
 2. Escolher stack com base no Stack Mínimo da Fase 11. Priorizar serviços gerenciados (Vercel, Supabase, Stripe).
 3. Instrumentar analytics desde o dia um. Mixpanel, PostHog, ou Amplitude (free tier).
 4. Recrutar os cinco primeiros usuários entre os que participaram dos testes da [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 10 — TESTES DE SOLUÇÃO E USABILIDADE|Fase 10 (Vol. 3)]]. Combinar onboarding um a um.
@@ -608,7 +608,7 @@ Onde p = baseline conversion rate, MDE = minimum detectable effect em pontos abs
 
 4. Guardrails: métricas que NÃO podem cair. Se ganhar primária mas cair guardrail, é tradeoff.
 
-5. Significância + efeito prático: p < 0.05 é convenção, 0.5% de melhoria pode ser estatisticamente significante mas sem valor de negócio.
+5. Significância estatística e efeito prático: p < 0,05 é a convenção acadêmica, mas um ganho de 0,5% pode ser estatisticamente significativo em amostras gigantescas e ainda assim irrelevante para o negócio.
 
 6. Interpretação cuidadosa: correlation ≠ causation? Já é causal por design. Mas generalização (novos contextos, novos usuários) exige cautela.
 
@@ -643,16 +643,16 @@ Teste de CTA em landing page:
 
 Resultado após 14 dias:
 
-- Controle: 3.18% (n=27,400).
-- Tratamento: 3.67% (n=28,100).
-- Diferença: +15% relativa, p < 0.001.
+- Controle: 3,18% (n = 27.400).
+- Tratamento: 3,67% (n = 28.100).
+- Diferença: +15% relativa, p < 0,001.
 - Guardrails: bounce +2% (ok), tempo +3% (ok).
 
 Decisão: implementar "Começar grátis".
 
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
-Peeking: olhando e parando quando "está ganhando". Invalida estatística. Sem sample size calculation: roda até "parecer diferente", falsos positivos. Múltiplas variantes simultâneas sem correção: Bonferroni ou similar necessário. Analisar subgroups post-hoc: "funcionou para mobile, não desktop", cherry-picking. Confundir significância com relevância: 0.1% melhoria com p<0.05, estatisticamente significante, praticamente irrelevante. Rodar em volume baixo: 500 visitantes não tem poder estatístico para detectar diferenças realistas.
+Seis erros invalidam testes A/B em produto: (1) espiar o painel todos os dias e encerrar o teste assim que uma variante aparece na frente (*peeking*); (2) iniciar o experimento sem calcular o tamanho mínimo de amostra; (3) testar várias versões ao mesmo tempo sem ajuste estatístico para múltiplas comparações; (4) fatiar subgrupos depois do teste pronto até achar um recorte em que a hipótese pareça vencedora; (5) confundir significância estatística (p < 0,05) com relevância econômica prática; e (6) rodar testes A/B com tráfego baixo (como 500 visitantes), onde falta poder estatístico e testes qualitativos diretos funcionam muito melhor.
 
 ---
 
@@ -718,7 +718,7 @@ Conclusão: activation (30%) é o maior gargalo relativo vs. benchmarks setoriai
 
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
-Focar em acquisition antes de retention: dump de visitantes num produto que não retém. Activation mal definida: "cadastrou" não é activation. Activation é primeiro valor real entregue. Sem cohort analysis: retention medida em blended, escondendo tendências. Ignorar referral: é o único estágio com lógica de "quanto mais usuários, mais aquisição grátis". Vanity metrics: pageviews, signups sem conversão, likes sociais.
+Cinco desvios distorcem o funil AARRR: (1) despejar orçamento em aquisição antes de consertar a retenção; (2) chamar mero cadastro de ativação, quando ativação exige que o cliente experimente o primeiro resultado concreto do produto; (3) medir retenção apenas na média geral da base em vez de acompanhar safra por safra (coorte); (4) esquecer a etapa de indicação (*referral*), que reduz o custo de aquisição orgânico; e (5) celebrar métricas de vaidade (visualizações de página, cadastros inativos e curtidas) que não movem receita.
 
 ---
 
@@ -726,7 +726,7 @@ Focar em acquisition antes de retention: dump de visitantes num produto que não
 
 ##### De onde vem a ferramenta (e por que sobreviveu ao filtro do tempo)
 
-Alistair Croll e Benjamin Yoskovitz, empreendedores seriais e mentores de startup, publicaram *Lean Analytics* em 2013 (O'Reilly). Responde à lacuna entre Lean Startup (Ries, 2011) que fala em "build-measure-learn" e realidade de founders que não sabiam **o que medir**. Livro oferece playbook de métricas por estágio e modelo de negócio.
+Alistair Croll e Benjamin Yoskovitz, empreendedores e mentores de aceleradoras, publicaram *Lean Analytics* em 2013 (O'Reilly) para preencher a lacuna prática entre o ciclo "construir-medir-aprender" de Eric Ries (2011) e a dúvida diária dos fundadores sobre **qual indicador medir em cada etapa**, organizando métricas de referência por modelo de negócio e estágio de maturidade.
 
 ##### A mecânica central (sem jargão)
 
@@ -780,7 +780,7 @@ Sem OMTM, time tenta melhorar "tudo" e melhora pouco em cada dimensão.
 
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
-Dashboard de 50 métricas: paralisia analítica, OMTM estática por anos: troca com estágios, Benchmarks sem contexto: "meu CAC está alto", comparado com quê? Setor? Geografia?, Métrica sem acionabilidade: medir não é agir.
+Quatro armadilhas travam o uso de *Lean Analytics*: montar painéis com 50 indicadores que geram paralisia decisória; manter a mesma Métrica Norte (*OMTM*) congelada quando a empresa já mudou de estágio; comparar indicadores com referências genéricas de outros setores ou países sem ajustar para o tíquete e o ciclo local; e acompanhar números que não disparam nenhuma ação prática na semana.
 
 ---
 
@@ -842,7 +842,7 @@ A distinção entre Acquisition e Activation é central: usuário que chegou mas
 
 ##### O momento exato de colocar este canvas na parede
 
-Use o Pirate Canvas nesta Fase 11 (MVP e primeiros usuários) como estrutura padrão de instrumentação de métricas, e retome-o na Fase 15 (Vol. 6, máquina comercial e escala) para distribuir o investimento entre aquisição, ativação e retenção. Implante antes de lançar o MVP: não depois. Pós-PMF, use-o mensalmente como dashboard de saúde do funil: onde está a maior queda? Qual etapa tem pior conversão? A etapa com maior vazamento é o foco de crescimento do próximo ciclo. Em Fase 14 (escala), o Pirate Canvas orienta alocação de budget por etapa do funil.
+Use o Pirate Canvas nesta Fase 11 (MVP e primeiros usuários) como estrutura de instrumentação das métricas iniciais, implantando-o antes de colocar o produto no ar. Após confirmar o PMF, revise-o mensalmente como painel de saúde do funil para localizar a etapa de maior perda e concentrar nela os experimentos do ciclo seguinte; já na Fase 15 (Vol. 6, máquina de crescimento e escala), ele orienta a divisão do orçamento entre aquisição, ativação e retenção.
 
 ##### As regras de ouro para preencher sem se enganar
 
@@ -870,11 +870,11 @@ Como ilustração hipotética de funil AARRR em serviços financeiros B2B (sem a
 | **Referral** | NPS (escala de -100 a +100) | 52 | > 50 | ✅ Dentro |
 | **Revenue** | ARPU mensal (receita por conta ativa) | R$ 68 | > R$ 60 | ✅ Dentro |
 
-**O diagnóstico AARRR.** Com esse canvas, ficou claro: aquisição, retenção, NPS e receita média por usuário estavam dentro da meta; o gargalo real estava concentrado em **Activation** (ativação): usuários chegavam e não ativavam o cartão em 14 dias. Isso revelou dois culpados: (1) o processo KYC (validação regulatória) tinha fricção invisível, três documentos, dois dias de análise manual; (2) o email de onboarding não explicava por que o cartão era o "primeiro valor" da conta.
+**O diagnóstico AARRR.** Com o quadro preenchido, ficou claro que aquisição, retenção, NPS e receita média por usuário estavam dentro da meta; o gargalo concentrava-se na **ativação** (*Activation*), pois os usuários abriam a conta e não ativavam o cartão em até 14 dias. A investigação apontou duas causas operacionais: (1) o cadastro regulatório (*KYC*) exigia três documentos e dois dias de conferência manual; e (2) o e-mail de boas-vindas não deixava claro como desbloquear o cartão para realizar a primeira compra.
 
 **As três ações decorrentes:** (1) automatizar 70% do KYC via integração com Receita Federal + Serasa, reduzindo de 2 dias para 4 horas; (2) reescrever o fluxo de onboarding in-app com checklist progressivo (cada step destravava o próximo); (3) enviar WhatsApp (não email) no D2 com link direto para "ativar seu cartão agora". Resultado em 90 dias: Activation subiu de 40% para 67%.
 
-A armadilha clássica sem Pirate Canvas seria investir mais em Acquisition ("vamos crescer mais cadastros"). O canvas mostrou que investir em Acquisition com 40% de Activation significava jogar 60 centavos de cada R$ 1 de CAC no lixo. **A lição: AARRR não é painel de monitoramento, é protocolo de priorização. O maior vazamento do funil vence o debate de roadmap.**
+Sem o Pirate Canvas, o impulso habitual seria injetar mais verba em aquisição ("vamos dobrar os cadastros"), o que, com apenas 40% de ativação, significaria desperdiçar 60 centavos de cada R$ 1 investido em mídia. O funil AARRR serve justamente para ordenar prioridades de produto: a etapa com maior vazamento define o foco do trimestre.
 
 ##### Variações e extensões
 
@@ -931,7 +931,7 @@ JURIDICO E COMPLIANCE
 COMUNICACAO
 [ ] Mensagem de launch escrita e revisada
 [ ] Lista de pessoas-chave informadas em primeira mao
-[ ] Plano de divulgacao para primeiro 7 dias
+[ ] Plano de divulgação para os primeiros 7 dias
 ```
 
 ---
@@ -1314,7 +1314,7 @@ A razão LTV dividido por CAC, em três cenários. No cenário atual (indicaçã
 
 Os custos fixos mensais atuais. Salários (duas pessoas em parcial): R$ 18.000. Ferramentas e infra base: R$ 2.000. Total: R$ 20.000 por mês.
 
-O break-even. Margem unitária de R$ 795. Clientes para break-even: 20.000 dividido por 795, ou seja, vinte e seis clientes. Se crescer quatro clientes por mês líquido, break-even em mês sete.
+Ponto de equilíbrio (*break-even*) operacional (calculado separadamente da saúde da economia unitária): com margem de contribuição mensal de R$ 795 por cliente, cobrir R$ 20.000 de custos fixos exige vinte e seis clientes ativos; adicionando quatro clientes líquidos ao mês, a operação atinge o equilíbrio no sétimo mês.
 
 **O que precisa ser verdade para o modelo sustentar, três suposições com plano de teste.**
 
@@ -1369,7 +1369,7 @@ CAC mascarado. Não contar tempo de fundador, ou campanhas pontuais como fixas. 
 
 Achar que margem ruim se corrige com escala. Às vezes sim. Muitas vezes não. Se os custos variáveis são altos, escala não resolve.
 
-Subestimar churn. Churn pequeno aparentemente (um por cento) composto por meses dá doze por cento anualizado. Composto por anos dá destruição de coorte.
+Subestimar a erosão composta do *churn*: uma perda mensal aparentemente modesta de 1% equivale a cerca de 11,4% de perda anualizada (`1 - 0,99^12`), e uma taxa de 3% ao mês (~30,6% ao ano, vida média de 33 meses) corrói rapidamente a base se não houver expansão de receita na coorte.
 
 Focar em receita bruta. Receita bruta com margem negativa é veneno. Foque em contribuição.
 
@@ -1463,7 +1463,7 @@ Passo 2: Follow-up qualitativo: "por que essa nota?", revela drivers.
 
 Passo 3: Timing adequado: após experiência material (não imediatamente após onboarding). Transacional (após interação) vs. relacional (anual).
 
-Passo 4: Cadência: mensal, trimestral ou anual. Saas típico: trimestral.
+Passo 4: Cadência de envio: em SaaS B2B, a medição relacional costuma rodar a cada trimestre (ou em marcos de 90 dias após a implantação), evitando bombardear o cliente todo mês.
 
 Passo 5: Benchmarks: NPS varia fortemente por indústria. B2B SaaS médio: 30-40. Exemplares (Apple, Netflix): 50-70+.
 
@@ -1525,7 +1525,7 @@ Ação: implementar context passing entre agentes. CES subiu para 6.1 em 2 meses
 
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
-Misturar CES com CSAT: medem coisas diferentes. Não substituem, Aplicar em todo momento sem propósito: vira fadiga.
+Evite dois erros na medição do esforço do cliente (CES): confundi-lo com a pesquisa de satisfação geral (CSAT), já que o CES mede especificamente o trabalho que o cliente teve para resolver uma demanda, e disparar perguntas em todas as telas sem critério, gerando fadiga e queda na taxa de resposta.
 
 ---
 
@@ -1830,7 +1830,7 @@ O Risk Canvas revelou que o risco mais intuitivo do time (risco de equipe, divid
 
 ---
 
-### Fechamento da Fase 12: o que muda na sua cabeça e na sua empresa a partir de agora
+### Fechamento da Fase 12: da hipótese financeira à economia unitária comprovada
 
 A Fase 12 é o capítulo onde a startup deixa de ser projeto interessante e vira, ou não vira, negócio. O foco sai do produto e vai para a máquina econômica: o que foi diagnosticado aqui é se a empresa consegue adquirir clientes por um custo menor do que eles geram de valor, com margem suficiente para sustentar a operação.
 
@@ -2115,7 +2115,7 @@ Prossiga para a Fase 14 (capital para escala, Vol. 5) e a Fase 15 (máquina de c
 Alguns usuários adoram. A maioria é indiferente. Foque no sub-segmento que adora. Elimine funcionalidades e mensagens voltadas para o grupo indiferente. Esclareça o posicionamento.
 
 > [!important] Resistência ao recorte é o erro
-> Fundadores frequentemente resistem a esse recorte porque parece "perder mercado". É o oposto. Você ganha profundidade e velocidade no nicho que vale.
+> Muitos fundadores hesitam em estreitar o foco com receio de reduzir o mercado endereçável, mas na prática o recorte faz a empresa ganhar retenção, indicação boca a boca e velocidade comercial no subsegmento que realmente valoriza o produto.
 
 ##### Caminho C, sem PMF
 
@@ -2461,7 +2461,7 @@ Score sem base empírica: ICE vira votação subjetiva, Confidence inflado sempr
 
 ---
 
-#### Framework: North Star Framework (Amplitude / Sean Ellis)
+#### Framework: *North Star Metric* e Árvore de Inputs (Sean Ellis / Amplitude)
 
 ##### De onde vem a ferramenta (e por que sobreviveu ao filtro do tempo)
 
@@ -2640,7 +2640,7 @@ Querer múltiplas posições: "somos seguros E rápidos E baratos E inovadores".
 
 ---
 
-#### Framework: Obviously Awesome / April Dunford Positioning (April Dunford, 2019)
+#### Framework: Posicionamento de April Dunford (*Obviously Awesome*, 2019: 5 componentes e 10 passos)
 
 ##### De onde vem a ferramenta (e por que sobreviveu ao filtro do tempo)
 
@@ -2771,7 +2771,7 @@ Success: "Fechamento mensal em 30 min. Durma bem."
 
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
-Empresa como herói: "Somos a melhor empresa de...", cliente não se importa, Jargão: "solução escalável de gestão integrada", StoryBrand pede clareza radical, CTA fraco: "Saiba mais", não decisivo, Plano genérico ou complexo: 3 passos claros é o ponto.
+Quatro erros enfraquecem a narrativa no formato *StoryBrand*: colocar a própria startup como heroína da página ("Somos a maior empresa do setor") em vez de abrir pela dor do cliente; esconder o que o produto faz atrás de jargões vagos ("solução escalável de gestão integrada"); usar botões de chamada passivos ("Saiba mais") em vez de convites diretos à ação; e apresentar um plano de implantação longo ou confuso quando o comprador precisa enxergar três passos simples.
 
 ---
 
@@ -2839,7 +2839,7 @@ Múltiplos arquétipos ao mesmo tempo: diluição de identidade. Arquétipo aspi
 
 ##### De onde vem a ferramenta (e por que sobreviveu ao filtro do tempo)
 
-Brian Halligan e Dharmesh Shah fundaram HubSpot em 2006, o conceito "inbound marketing" nasceu junto. Em 2018, HubSpot substituiu o tradicional "funnel" pelo "flywheel", metáfora de roda que gira com energia acumulada e se auto-reforça. Content marketing é o motor principal.
+Brian Halligan e Dharmesh Shah cunharam o termo *inbound marketing* em 2005 e fundaram a HubSpot em 2006 sob essa tese. Em 2018, a empresa substituiu a imagem linear do funil pelo *flywheel* (volante de inércia), destacando como a retenção e a recomendação dos clientes atuais alimentam a aquisição orgânica ao lado do marketing de conteúdo.
 
 ##### A mecânica central (sem jargão)
 
@@ -2885,7 +2885,7 @@ Startup brasileira, exemplo: blog sobre "gestão financeira para PMEs" com 200+ 
 
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
-Conteúdo sem estratégia de topics: posts aleatórios. SEO fraco, não ranqueia, Qualidade baixa: "publicar 3x por semana" sem conteúdo genuíno, Google não rankeia, público não engaja, Sem CTA claro: gera tráfego, não conversão, Ignorar SEO técnico: blog sem estrutura técnica adequada, Esperar resultado rápido: content marketing demora 6-18 meses para ganhar tração.
+Cinco falhas sabotam o marketing de conteúdo: (1) publicar artigos soltos sem arquitetura de tópicos e palavras-chave, o que impede o ganho de autoridade nas buscas; (2) priorizar volume raso ("três textos genéricos por semana") que não responde às dúvidas técnicas do comprador; (3) atrair leitores sem oferecer um próximo passo claro de conversão (planilha, calculadora ou demonstração); (4) negligenciar a estrutura técnica de indexação e velocidade da página; e (5) esperar retorno em trinta dias num canal cujo efeito composto leva de 6 a 18 meses para amadurecer.
 
 ---
 
@@ -3070,7 +3070,7 @@ Se as respostas a essas perguntas forem consistentes entre os 10 clientes, você
 
 Motion (modelo) de GTM é o mecanismo central pelo qual o produto é distribuído e adotado. Cada motion tem custos, velocidades e restrições diferentes.
 
-#### PLG: Product-Led Growth
+#### PLG (*Product-Led Growth*, detalhado em paralelo aos 4 motions no Capítulo 1)
 
 PLG (Product-Led Growth: crescimento liderado pelo produto) é quando o produto gera seu próprio crescimento. O usuário descobre, experimenta, adota e paga sem passar por um vendedor. O boca a boca e os loops de viralidade dentro do produto são os principais canais.
 
@@ -3121,7 +3121,7 @@ No Brasil:
 
 MLG puro raramente sustenta o crescimento de startups B2B com ticket médio no Brasil. O mais comum é MLG + SLG: marketing gera inbound que SDR qualifica e AE fecha.
 
-#### CLG: Community-Led Growth
+#### CLG (*Community-Led Growth*, detalhado em paralelo aos 4 motions no Capítulo 1)
 
 A comunidade de usuários, praticantes ou entusiastas do setor gera distribuição e credibilidade para o produto.
 
@@ -3133,7 +3133,7 @@ CLG funciona especialmente bem quando:
 - O fundador tem credibilidade prévia nessa comunidade
 - A comunidade tem canais de comunicação ativos (associações, grupos, eventos setoriais)
 
-No Brasil, WhatsApp Groups, grupos no Facebook de nichos profissionais e eventos setoriais (como feiras de agronegócio ou congressos de RH) são canais de CLG com CAC muito baixo para quem sabe navegar.
+No Brasil, grupos curados e Comunidades no WhatsApp (observando os limites nativos de busca de histórico e moderação), plataformas com acervo pesquisável como Circle ou Discord (já que o plano gratuito do Slack oculta mensagens antigas) e encontros presenciais em feiras setoriais funcionam como canais de CLG de baixíssimo CAC quando oferecem troca técnica genuína entre pares.
 
 > [!important] O erro de tentar todos os motions ao mesmo tempo
 > Startups early-stage frequentemente tentam PLG + SLG + MLG simultaneamente porque "não querem deixar dinheiro na mesa". O resultado é que nenhum motion recebe investimento suficiente para funcionar. Escolha o motion principal para os primeiros R$1M de ARR. Adicione um segundo motion apenas quando o primeiro estiver gerando crescimento previsível.
@@ -3340,7 +3340,7 @@ Lead Velocity Rate   | Crescimento positivo| > 10% m/m          | Velocidade de 
 Pipeline Coverage    | 3x meta             | 3–4x meta          | Pipeline / meta de fechamento
 ```
 
-**Magic Number:** (ARR adicionado no trimestre × 4) ÷ (S&M spend do trimestre anterior). Abaixo de 0,5 indica que cada real investido em S&M retorna menos de 50 centavos de ARR novo: modelo comercialmente insustentável.
+**Magic Number:** ARR novo líquido adicionado no trimestre ÷ Gasto de Vendas e Marketing (S&M) do trimestre anterior (ou variação da Receita Recorrente Trimestral × 4 ÷ S&M do trimestre anterior). Abaixo de 0,5 indica baixa eficiência comercial (menos de 50 centavos de ARR anualizado gerado por real investido em S&M); acima de 0,75 sinaliza tração saudável para acelerar aquisição.
 
 **CAC Payback (em meses):** (CAC por cliente) ÷ (MRR por cliente × margem bruta). Startups SaaS com payback acima de 18 meses em estágio seed geralmente estão ou com CAC muito alto ou com ACV (Annual Contract Value) muito baixo para o modelo de vendas sendo usado.
 
@@ -3436,7 +3436,7 @@ flowchart TD
 ```
 
 > [!warning] Erro clássico de orçamento
-> Distribuir orçamento em cinco canais simultaneamente "para ver qual funciona". Resultado. Nenhum canal recebe investimento suficiente para sair do ruído. Bullseye. Teste rápido (três a quatro semanas) em três a cinco canais. Escolha um a dois. Foque oitenta por cento do recurso lá.
+> Pulverizar o orçamento em cinco canais ao mesmo tempo "para ver qual funciona" faz com que nenhum deles receba volume suficiente para sair do ruído estatístico. No método *Bullseye*, rode experimentos curtos (de três a quatro semanas) em três canais candidatos, escolha um ou dois que entreguem clientes ativos dentro da meta de CAC e concentre neles 70% a 80% dos recursos.
 
 O método Bullseye tem três anéis. Externo (todos os dezenove canais). Meio (top três candidatos). Interno (um canal vencedor).
 
@@ -3761,9 +3761,9 @@ Branding e performance não são opostos. São complementares e interdependentes
 > [!important] O erro clássico em startup early-stage
 > Focar 100% em performance e ignorar branding por "não ser mensurável" funciona até o Seed. Na Série A, quando o CAC começa a subir com a escala do budget, a empresa não tem fundação de marca que reduza o atrito. Resultado: ROAS declinante sem alavanca para reverter.
 
-As métricas centrais de performance.
+As cinco métricas centrais de mídia de performance (definidas de forma consolidada a seguir):
 
-- **CPA** (Custo Por Ação): custo médio para gerar uma ação definida, lead, cadastro, trial. Calculado como investimento total dividido pelo número de ações.
+- **CPA** (Custo por Ação): desembolso médio de mídia para gerar uma ação intermediária específica (cadastro, *lead* ou início de teste gratuito), calculado dividindo o investimento no canal pelo total de ações concluídas.
 - **CAC** (Custo de Aquisição de Cliente): custo médio para converter um pagante. Diferente de CPA porque exclui leads que não converteram.
 - **ROAS** (Return on Ad Spend): receita gerada dividida pelo investimento em mídia. ROAS de 3x significa que cada R$ 1 investido gerou R$ 3 em receita. Métrica de curto prazo: não considera margem nem LTV.
 - **MER** (Marketing Efficiency Ratio): receita total dividida pelo investimento total em marketing (todos os canais). Métrica de negócio, não de campanha. Mais honesta que ROAS isolado.
@@ -3797,7 +3797,7 @@ Ponto de atenção: palavras-chave competitivas em categorias como crédito, seg
 
 #### TikTok Ads
 
-Canal emergente no Brasil com CPM tipicamente trinta a quarenta por cento menor que Meta em 2024-2025 (faixa global de US$ 3 a US$ 10 no TikTok versus US$ 7 a US$ 15 no Meta, com Brasil em tier mais baixo dos dois lados). Janela de oportunidade real, mas que se fecha rapidamente: o custo de mídia aproximou-se gradualmente do praticado na Meta à medida que mais anunciantes entraram na plataforma, ao mesmo tempo em que a chegada do TikTok Shop e do *live commerce* ao Brasil a partir de 2025 abriu uma frente direta de compra no aplicativo para marcas D2C como a de Rafael e Bia, em movimento similar ao que aconteceu com Instagram e Facebook entre 2016 e 2020.
+Canal relevante no Brasil, cujo CPM operou cerca de 30% a 40% abaixo da Meta entre 2024 e 2025 (faixa global de US$ 3 a US$ 10 no TikTok contra US$ 7 a US$ 15 na Meta, com o mercado brasileiro nos pisos inferiores de ambas). À medida que mais anunciantes migraram para a plataforma, os custos de leilão aproximaram-se gradualmente, enquanto a operação do TikTok Shop e de vendas ao vivo (*live commerce*) no país a partir de 2025 abriu uma frente de conversão direta dentro do próprio aplicativo para marcas de consumo como a de Rafael e Bia.
 
 Adequado para marcas com produto ou mensagem que funciona em formato nativo de vídeo curto. A lógica do TikTok é "entertainment-first": o ad que parece ad demais performa mal. O criativo precisa se parecer com conteúdo orgânico da plataforma.
 
@@ -3851,7 +3851,7 @@ A regra prática de alocação de budget por estágio varia por maturidade da em
 
 - **Estágio 0-1M ARR**: 70-80% conversão, 20-30% consideração. Awareness é irrelevante, tamanho de audiência não é problema.
 - **Estágio 1-10M ARR**: 60% conversão, 25% consideração, 15% awareness. Começar a construir funil.
-- **Estágio acima de 10M ARR**: balancear os três estágios. Proportion depende do produto, ciclo de compra e competição.
+- **Acima de R$ 10 milhões de ARR**: equilibrar o investimento entre os três estágios do funil, calibrando a proporção entre marca, consideração e captura conforme o ciclo de compra, o ticket médio e a maturidade da categoria.
 
 ---
 
@@ -3882,7 +3882,7 @@ Esse ritmo de exploit/explore evita tanto a armadilha de ficar preso nos canais 
 
 ### 5. Atribuição: last-click está morto
 
-**Last-click** atribui 100% do crédito de conversão ao último ponto de contato antes da compra. É o modelo padrão de muitas plataformas e do Google Analytics 3. O problema: em jornadas de compra que passam por múltiplos canais ao longo de dias ou semanas, last-click sistematicamente superestima canais de captura de demanda (Search, retargeting) e subestima canais de criação de demanda (redes sociais, YouTube, display).
+**Último clique (*last-click*)** atribui 100% do crédito da conversão ao último ponto de contato antes da compra (era o padrão do antigo Universal Analytics, desligado em 2023; hoje o Google Ads e o GA4 operam por padrão com atribuição *data-driven* ao lado da opção de último clique, enquanto modelos baseados em regras fixas como primeiro clique, linear e *time decay* deixaram de ser suportados nativamente). O limite do último clique é estrutural: em jornadas longas e multicanal, ele superestima canais de captura final (busca paga e *retargeting*) e subestima canais de geração de demanda (vídeo, conteúdo e redes sociais).
 
 Resultado prático: empresas que tomam decisões por last-click tendem a sub-investir em awareness e sobre-investir em conversão, até que o pool de audiência qualificada seca.
 
@@ -4003,7 +4003,7 @@ ROAS (Return on Ad Spend) é calculado dentro de uma plataforma específica: rec
 
 MER (Marketing Efficiency Ratio) é a receita total do negócio dividida pelo investimento total em marketing (todos os canais). É uma métrica de negócio.
 
-O problema de otimizar só para ROAS: cada plataforma atribui crédito de formas diferentes, e nenhuma consegue ver o quadro completo. Uma campanha de awareness no YouTube pode ter ROAS de 0,5x dentro do YouTube, mas estar elevando a taxa de conversão de Search: o que não aparece no ROAS do YouTube.
+O risco de otimizar o orçamento apenas pelo ROAS reportado em cada painel é que as plataformas atribuem crédito de forma isolada e sobreposta. Uma campanha de topo de funil no YouTube pode exibir ROAS direto de 0,5x no painel de vídeo enquanto impulsiona a busca orgânica e a conversão de Search. Por isso, calcule o ROAS de equilíbrio (*breakeven*) e confronte o gasto total com o MER (*Marketing Efficiency Ratio*) do mês fechado e com o custo por venda confirmada no CRM antes de cortar verba.
 
 MER resolve isso porque captura o efeito total: se o MER está melhorando conforme se investe em marketing, o marketing está funcionando como um todo, independente do ROAS por canal.
 
@@ -4064,7 +4064,7 @@ Escalar criativo sem escalar produção. Empresas que entendem o valor de creati
 
 Testar sem volume suficiente. A/B test com 200 cliques por variante não tem significância estatística. A conclusão errada de um teste com amostra insuficiente desperdiça budget nas semanas seguintes na variante errada.
 
-Pausar e reiniciar campanhas frequentemente. Cada reinício coloca a campanha novamente em fase de aprendizado. Campaigns que ficam ativas de forma contínua, com ajustes graduais, têm performance melhor ao longo do tempo do que campanhas pausadas e relançadas.
+Pausar e reiniciar campanhas com frequência: cada interrupção devolve o conjunto de anúncios à fase de aprendizado algorítmico. Campanhas mantidas em operação contínua, com ajustes graduais de orçamento e renovação de criativos a cada duas a quatro semanas, sustentam desempenho muito superior ao de campanhas ligadas e desligadas no curto prazo.
 
 Ignorar a landing page. A campanha mais otimizada do mundo desperdicia budget se a landing page tem taxa de conversão baixa. Frequentemente, o melhor investimento marginal não é mais budget em mídia: é otimização de landing page (velocidade, clareza de proposta de valor, CTA, prova social).
 
@@ -4152,9 +4152,9 @@ A marca permite precificação premium. Commodities não têm marca. Marcas fort
 
 A marca atrai talento sem guerra de salário. Engenheiros e designers que querem trabalhar em uma empresa de propósito claro aceitam compensação abaixo do mercado. Para startups em estágio inicial, isso pode ser a diferença entre montar um time A e um time B.
 
-A marca cria barreira de imitação. Produto se copia. Marca não. Dois anos de presença consistente em uma categoria criam uma posição mental que um entrante com produto melhor leva tempo para deslocar.
+A marca constrói uma barreira cumulativa contra imitação: funcionalidades técnicas são copiadas em meses, mas dois anos de presença consistente e promessa cumprida numa categoria criam uma confiança que um novo entrante, mesmo com produto superior, leva tempo para deslocar.
 
-> [!tip] O momento certo para investir em branding (construção de marca)
+> [!tip] O momento certo para investir na construção de marca
 > Não antes de ter Product-Market Fit (encaixe entre produto e mercado) mínimo, e não depois de estar perdendo mercado para marca mais forte. O momento certo é quando há evidência de que o problema que você resolve é real, o segmento-alvo está claro, e você usará a marca para amplificar o que já funciona, não para esconder o que não funciona.
 
 ---
@@ -4188,7 +4188,7 @@ Visionários aceitam incompletude em troca de vantagem competitiva. Eles compram
 
 Pragmáticos compram referência social e prova. Eles precisam que "empresas como a minha já usam isso". Sua marca precisa mostrar casos de uso concretos, nomes conhecidos no portfolio, e linguagem de garantia de resultado.
 
-O erro é usar linguagem de visionary sell quando você precisa atravessar para o mainstream. A marca que funcionou para conquistar os early adopters, frequentemente afasta os pragmáticos que precisam ver segurança, não revolução.
+O erro clássico na transição de estágio é manter o discurso visionário (*visionary sell*) quando a empresa precisa conquistar a maioria pragmática (*mainstream*). A comunicação que atraiu os *early adopters* frequentemente afasta compradores corporativos que buscam prova de retorno, baixo risco operacional e referências do próprio setor.
 
 A transição de marca ao cruzar o abismo requer: trocar "o futuro é assim" por "empresas como a sua fazem X com resultado Y", substituir evangelismo por prova social, e reduzir o vocabulário técnico-pioneiro por linguagem operacional do segmento-alvo.
 
@@ -4349,7 +4349,7 @@ Táticas de alto impacto com custo baixo:
 
 **Blog de engenharia autêntico.** Posts escritos por engenheiros sobre problemas reais resolvidos. Não marketing, mas reflexão técnica genuína. Atrai engenheiros que querem aprender e contribuir.
 
-**Conteúdo de bastidores no LinkedIn.** Founders e líderes compartilhando decisões difíceis, aprendizados, e o que está sendo construído. Transparência atrai identificação.
+**Conteúdo de bastidores no LinkedIn.** Fundadores e lideranças técnicas compartilhando decisões reais de produto, aprendizados operacionais e critérios de engenharia usam a marca pessoal como ferramenta estratégica para atrair talentos e compradores qualificados.
 
 **Programa de referral bem estruturado.** As melhores contratações vêm de rede. Funcionários indicam pessoas em quem confiam quando estão orgulhosos do lugar onde trabalham.
 
@@ -4846,7 +4846,7 @@ A estrutura padrão de remuneração de vendedor é variável alta. Base salaria
 
 Algumas regras que funcionam.
 
-Comissão linear até cem por cento da meta, acelerada depois. Exemplo. De 0% a 100% da meta paga 1x a taxa-base; de 100% a 150% paga 1,5x; acima de 150% paga 2x. Isso recompensa quem bate, e supera meta. Em vez de quem fica confortável em oitenta por cento.
+Comissão linear até 100% da meta, com acelerador para quem supera o alvo: até 100% da meta paga-se 1x a comissão-base; de 100% a 150%, 1,5x; acima de 150%, 2x. Esse desenho premia o vendedor que ultrapassa a cota, em vez de acomodar quem estaciona nos 80%.
 
 Pagar por MRR ou ARR. Não por deal. Comissão sobre receita recorrente alinha o vendedor ao cliente que fica. Não ao cliente que fecha, e cancela.
 
@@ -5091,7 +5091,7 @@ Independentemente do modelo comercial (B2B consultivo, enterprise, SMB ou PLG), 
 
 ---
 
-### O Espelho do Capítulo 5: Seu Time Faz Diagnóstico Cirúrgico ou Vomita Funcionalidades?
+### O Espelho do Capítulo 5: Seu Time Investiga a Dor ou Despeja Funcionalidades?
 
 **Lição consolidada em SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL:** Quando **Henrique** travou as regras de *O Espelho do Capítulo 5: Seu Time Faz...* na rotina de Curitiba, o gargalo que drenava a agenda de liderança deu lugar a um processo previsível.
 
@@ -5214,7 +5214,7 @@ Pesquisar com clientes atuais que já pagam preço baixo. Eles têm âncora defi
 
 #### 2. Estrutura de pricing, modelos principais
 
-**Flat Monthly Fee.** Um preço, sem variação. Simples. Funciona em produtos de baixa diferenciação de uso. Exemplo. R$ 290 por mês para PadariaPro.
+**Assinatura Mensal Fixa (*Flat Monthly Fee*).** Um preço único, sem variação por faixa: simples de comunicar e cobrar, funciona bem quando o uso e o valor entregue variam pouco entre os clientes (exemplo: R$ 290/mês por loja no PadariaPro).
 
 **Tiered (Good-Better-Best).** Três tiers (raramente quatro ou mais). Estrutura clássica de SaaS. Padrão de adoção em SaaS B2B. Cerca de 20% no plano de entrada, 60% no plano intermediário e 20% no plano superior (distribuição puxada pelo efeito de compromisso, *compromise effect*, em que o comprador evita os extremos; já o efeito chamariz, *decoy effect*, ocorre quando um plano quase tão caro quanto o superior torna este último uma escolha evidente). Exemplo. Basic R$ 290, Pro R$ 590, Enterprise R$ 1.290 por mês. Regra de psicologia. O tier do meio deve ser o mais "óbvio". Decoy effect aplicado.
 
@@ -5255,7 +5255,7 @@ Decoy effect aplicado. O tier do meio deve ser a escolha "óbvia". Se noventa e 
 
 **Usage-based (consumption).** Preço por consumo (API calls, transações, GB de dados). Cresce fortemente entre 2022 e 2026, com produtos AI-native. Vantagem. Alinha preço ao valor entregue, e escala com sucesso do cliente. Desvantagem. Imprevisibilidade de receita, e de custo, para o cliente. Exemplos. Snowflake, Twilio, OpenAI.
 
-**Hybrid (base, mais usage).** Preço mínimo fixo, mais componente variável. Captura melhor valor em base heterogênea. Exemplo. R$ 490 por mês inclui dez mil API calls. R$ 0,05 por call adicional.
+**Modelo Híbrido (assinatura fixa + consumo variável).** Combina uma mensalidade mínima previsível com cobrança adicional conforme o volume excedente, capturando melhor o valor em bases heterogêneas (exemplo: R$ 490/mês incluindo 10 mil chamadas de API, mais R$ 0,05 por chamada adicional).
 
 **Enterprise Custom.** Sem preço público. Negociação. Acima de ticket de R$ 50 a 100 mil por ano, ou em deals estratégicos. Base. "Floor price" interno, mais flex de vinte a quarenta por cento em negociação.
 
@@ -5328,7 +5328,7 @@ O comportamento do comprador brasileiro diante de preços tem características e
 
 O parcelamento é uma instituição no Brasil. Mais de sessenta por cento das compras de ticket acima de R$ 500 no varejo são parceladas. O hábito migrou para software.
 
-Em SaaS B2C e SMB, oferecer plano anual com parcelamento em doze vezes no cartão (sem juros) aumenta a adesão ao anual em vinte a quarenta por cento, comparado a cobrar anuidade à vista. O fundador precisa modelar o custo financeiro (MDR do cartão, que varia de 1,5% a 3,5% dependendo da adquirente) e incorporar ao preço.
+Em SaaS voltado a PMEs e consumidores (SMB e B2C), oferecer o plano anual parcelado em até 12 vezes no cartão eleva a conversão do plano anual em 20% a 40% frente à cobrança única à vista. Ao precificar (por exemplo, plano mensal de R$ 129, plano anual à vista por R$ 109/mês ou parcelado em 12x de R$ 115/mês), incorpore tanto a taxa de desconto da adquirente (MDR parcelado de 1,5% a 3,5%) quanto o custo de eventual antecipação de recebíveis (que pode consumir de 8% a 12% na operação de 12 parcelas) e informe a diferença de preço por meio de pagamento de forma visível (Lei 13.455/2017), sem anunciar como "sem juros" no B2C quando houver acréscimo em relação ao valor à vista.
 
 ```text
 Exemplo de estrutura de pricing com parcelamento:
@@ -5654,7 +5654,7 @@ Para o fundador, negociar faz parte da rotina de toda semana. Salário de contra
 
 O fundador negocia em posição de assimetria constante. Contra VC (venture capital: fundo de capital de risco) com mais informação sobre mercado de captação do que o fundador. Contra cliente com mais poder de compra. Contra executivo sênior com mais opções de emprego. Contra cofundador com histórico emocional carregado.
 
-Sem disciplina de negociação, o fundador deixa valor na mesa em todo ciclo. Em term sheet ruim, as cláusulas de liquidation preference (preferência de liquidação no exit) e anti-dilution (proteção contra diluição) podem valer milhões a mais ou a menos no exit (saída via venda ou IPO). Em contratação mal negociada, o precedente de comp (pacote de remuneração) para o primeiro executivo define a estrutura salarial de toda a liderança seguinte. Em contrato B2B sem limitação de responsabilidade adequada, uma cláusula pode comprometer a empresa inteira.
+Sem preparo técnico de negociação, o fundador cede valor crítico em cada transição de estágio. Em um *term sheet* mal calibrado, cláusulas de preferência de liquidação (*liquidation preference*) e antidiluição (*anti-dilution*) podem deslocar milhões de reais dos fundadores para os investidores na saída (*exit*). Na contratação do primeiro executivo C-level, um pacote desalinhado cria um teto salarial distorcido para toda a diretoria seguinte. E em contratos comerciais B2B sem teto de indenização (*liability cap*), uma única falha operacional pode comprometer o patrimônio da companhia.
 
 Negociação não é agressividade. É clareza sobre o que importa para você, clareza sobre o que importa para a outra parte, e criatividade para estruturar um acordo que funciona para ambos.
 
@@ -5732,7 +5732,7 @@ Resposta boa:  "Esse número está bem abaixo dos benchmarks do setor para
                 e aqui está o raciocínio..."
 ```
 
-**Ancoragem em term sheet.** Valuation pré-money, liquidation preference, pro-rata, anti-dilution: todos têm faixas de mercado. Conheça as faixas antes de entrar na negociação. Âncora fora da faixa de mercado perde credibilidade. Âncora no topo da faixa, com fundamentação, é o ponto de partida certo.
+**Ancoragem em *term sheet*.** *Valuation pre-money*, preferência de liquidação, *pro-rata* e antidiluição operam dentro de faixas conhecidas por estágio. Conheça os parâmetros antes de sentar à mesa: ancorar fora da realidade do mercado destrói a credibilidade logo na abertura, enquanto ancorar no topo da faixa de múltiplos do estágio (por exemplo, no teto de 8x a 12x ARR, fundamentado na taxa de crescimento anual e na eficiência de caixa) estabelece a referência certa para a negociação.
 
 #### 4. Separar posição de interesse
 
@@ -5808,7 +5808,7 @@ Limitar a responsabilidade contratual (*cap* de indenização limitado ao valor 
 
 **M&A.**
 
-As cinco variáveis críticas: preço (e forma de pagamento, cash, ações, ou earnout), earnout (componente de preço condicional a métricas futuras, alta probabilidade de conflito, negocie métricas simples e mensuráveis), representações e garantias (indemnification cap, survival period), escrow (percentual retido para cobrir claims de rep and warranty, negocie prazo máximo de 12 a 18 meses), non-compete do fundador (duração e escopo geográfico, negocie para mínimo viável).
+As cinco variáveis críticas na documentação de M&A: (1) preço total e forma de pagamento (parcela à vista em caixa, troca de ações ou parcela contingente); (2) *earnout* condicional a metas futuras (fonte recorrente de litígio: vincule apenas a métricas de receita auditáveis sob seu controle); (3) declarações e garantias (*representations and warranties*, negociando teto de indenização e prazo de prescrição contratual); (4) conta garantia (*escrow*, retendo tipicamente de **10% a 15% do preço por 12 a 18 meses**, admitindo retenção maior ou prazo mais longo apenas para contingências fiscais e trabalhistas já mapeadas na diligência); e (5) cláusula de não concorrência (*non-compete*) dos fundadores, calibrada pelo prazo e escopo estritamente necessários.
 
 Ver [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 18 — SUCESSÃO NO EXIT, TRANSIÇÃO PÓS-AQUISIÇÃO (M&A) E RETENÇÃO DE TALENTOS|Capítulo 18 (Sucessão no Exit, Transição Pós-Aquisição (M&A) e Retenção de Talentos) (Vol. 9)]] para M&A em detalhe.
 
@@ -5981,7 +5981,7 @@ Parece impasse. Mas explorando **interesses**:
 - Fundador quer: liquidez pessoal + continuar dirigindo por 3 anos + proteção para time.
 - Comprador quer: tecnologia + time + velocidade (não quer construir).
 
-Opções criativas: R$ 60M upfront + R$ 30M earn-out atrelado a métricas + equity retention em NewCo + retention bonuses para time.
+Opções de estruturação na zona de acordo (ZOPA): R$ 50M à vista (*upfront*) + R$ 25M de *earnout* atrelado a metas auditáveis (totalizando R$ 75M, acima da BATNA de R$ 80M em 3 anos ponderada por 60% de probabilidade = R$ 48M de valor esperado) + bônus de retenção para executivos-chave.
 
 ZOPA existe, apenas não era visível só via posições.
 
@@ -6184,11 +6184,11 @@ Customer Success de verdade tem duas missões matemáticas: encurtar brutalmente
 
 O [[#CAPÍTULO 5 — SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|Capítulo 5 (Sales: Motion Completa, do Outbound ao Renewal)]] cobre Sales B2B do outbound ao closing, com expansão para motion enterprise (MEDDIC, Command of the Message, negociação multi-ano). Este capítulo cobre o que vem depois: Customer Success como disciplina operacional, a que determina se a empresa de fato faz dinheiro em SaaS.
 
-Em SaaS B2B maduro, sessenta a oitenta por cento do valor total de um cliente vem de expansão e renovação, não da primeira venda. CS é a disciplina que operacionaliza isso. Fundadores que tratam CS como "atendimento" ou "suporte premium" deixam dinheiro na mesa em escala com que nenhuma outra ineficiência rivaliza.
+Em SaaS B2B maduro, de 60% a 80% da receita gerada por um cliente ao longo do contrato vem de renovações e expansões, e não da primeira venda. O Sucesso do Cliente (CS) é a área que transforma essa retenção em método: fundadores que reduzem o CS a um suporte reativo desperdiçam a principal alavanca de crescimento composto do negócio.
 
 ### Por que reter e expandir um cliente da base custa de 5 a 25 vezes menos do que adquirir um cliente novo (Bain / HBR)
 
-A economia de SaaS é simples. O CAC (custo de aquisição de cliente) para conquistar um cliente novo custa cinco a dez vezes mais que expandir um cliente existente. A probabilidade de vender para cliente atual fica em sessenta a setenta por cento. Para lead frio, cinco a vinte por cento. NRR (Net Revenue Retention, retenção líquida de receita) alto, igual ou maior que cento e vinte por cento, é o que separa SaaS com valuation alto de SaaS mediano.
+A matemática de recorrência é clara: adquirir um cliente novo custa de 5x a 10x mais do que expandir uma conta já ativa na base, e a taxa de fechamento em clientes atuais (60% a 70%) supera de longe a de prospecção fria (5% a 20%). Por isso, uma retenção líquida de receita (NRR) igual ou superior a 120% ao ano é o indicador que separa empresas de SaaS líderes de operações medianas.
 
 Números de referência. O churn (cancelamento) logo mensal saudável em SaaS PME fica entre um e três por cento. Em enterprise, o churn mensal de contas fica entre 0,5% e 1,5% (contra 1% a 3% em PME). Pela régua unificada deste capítulo, a retenção líquida de receita (NRR) anual saudável parte de ≥ 100% em PME, ≥ 110% como patamar forte em mid-market e ≥ 120% como nível de excelência em enterprise (com 30% a 60% da receita nova em operações maduras vindo de expansão da base).
 
@@ -6208,9 +6208,9 @@ Os componentes de onboarding maduro, em três janelas.
 
 **Dias trinta a noventa, expansão inicial.** Revisão de primeiros resultados versus success metrics. Identificação de casos de uso adicionais. Introdução de usuários adicionais na conta (multi-seat). Graduação do onboarding para CSM de base.
 
-Ferramentas. Playbooks em Notion, ou Guru. Check-list de onboarding (CSM platforms. Gainsight, ChurnZero, Totango, Vitally). Automações (e-mails drip, in-product tours).
+**Ferramentas de apoio:** roteiros operacionais no Notion ou Guru, listas de acompanhamento de implantação (em plataformas de CS como Gainsight, ChurnZero, Totango ou Vitally) e réguas automatizadas de e-mail e visitas guiadas dentro do produto.
 
-Métricas de onboarding. Activation rate, percentual que completa ação-chave em trinta dias, alvo igual ou maior que setenta por cento. Time to First Value (TTFV), dias entre signup e primeiro resultado, alvo varia por produto. Onboarding completion, percentual que completa sequência formal, alvo igual ou maior que sessenta por cento. 90-day churn, percentual que cancela em noventa dias, alvo menor que cinco por cento.
+**Métricas de implantação (*onboarding*):** taxa de ativação (percentual de contas que concluem a ação-chave em até 30 dias, com meta ≥ 70%); tempo até o primeiro valor (*TTFV*, em dias corridos do cadastro ao primeiro resultado); conclusão do roteiro de implantação (meta ≥ 60%); e cancelamento precoce em 90 dias (meta < 5%).
 
 #### 2. Health Score, sinal antes do churn
 
@@ -6349,11 +6349,11 @@ CS-Led Growth (CSG) é o modelo onde a função de Customer Success, e não a de
 
 ### Time-to-Value (TTV), Taxa de Conclusão de Onboarding, Health Score, Gross Retention (GRR) e Net Revenue Retention (NRR)
 
-**Retention.** Gross Revenue Retention (GRR), receita retida sem expansion, alvo igual ou maior que noventa e cinco por cento em SaaS maduro. Net Revenue Retention (NRR), receita retida mais expansion, alvo igual ou maior que cento e dez por cento. Logo retention mensal, percentual de clientes retidos MoM. Churn rate (logo, e revenue).
+**Retenção:** retenção bruta de receita (GRR, sem contar expansões, cuja referência em SaaS enterprise maduro segundo relatórios da Bessemer e do KeyBanc situa-se entre 90% e 95% ao ano, ou 85% a 90% em PMEs); retenção líquida de receita (NRR, somando expansões, com meta ≥ 110% ao ano); retenção mensal de contas ativas; e taxa de cancelamento (*churn* de clientes e de receita).
 
-**Adoption.** Activation rate (onboarding), igual ou maior que setenta por cento. Feature adoption, percentual usando features-chave. DAU sobre MAU ratio, engagement frequency.
+**Adoção:** taxa de ativação na implantação (referência prática ≥ 70%), percentual da base ativa que utiliza as funcionalidades centrais e razão DAU/MAU (frequência de uso diário sobre o mensal).
 
-**Satisfaction.** NPS (trimestral), igual ou maior que quarenta saudável, igual ou maior que sessenta excepcional. CSAT (ticket-level), igual ou maior que quatro vírgula cinco em cinco. Customer Effort Score (CES).
+**Satisfação:** NPS trimestral (acima de 40 considerado saudável e acima de 60 excelente em B2B), CSAT por chamado encerrado (meta ≥ 4,5 de 5) e Índice de Esforço do Cliente (CES).
 
 **Expansion.** Expansion MRR, receita adicional em base existente. Expansion at renewal, percentual com expansão. Cross-sell rate, percentual com múltiplos produtos.
 
@@ -6559,7 +6559,7 @@ Fechando a etapa de Tração, estes três capítulos atacam três decisões estr
 
 ### O painel de 80 gráficos que não serve para nada
 
-Lucas orgulhava-se dos três monitores gigantes na parede do escritório em Florianópolis. Havia gráficos de pizza, mapas de calor em tempo real, contadores de acessos totais acumulados desde 2023, número de cliques por hora e curtidas nas redes sociais. Todas as linhas subiam sempre para a direita.
+Em visita ao polo de operação em Florianópolis, Lucas observava com orgulho os três monitores gigantes na parede. Havia gráficos de pizza, mapas de calor em tempo real, contadores de acessos totais acumulados desde 2023, número de cliques por hora e curtidas nas redes sociais. Todas as linhas subiam sempre para a direita.
 
 Numa terça-feira, Marina fez uma pergunta simples diante dos três monitores:
 
@@ -6682,7 +6682,7 @@ n = 16 × baseline_rate × (1 - baseline_rate) / MDE²
 onde MDE = Minimum Detectable Effect (em pontos absolutos de conversão)
 ```
 
-Exemplo. Baseline de conversão de vinte por cento, queremos detectar melhoria de dois pontos (vinte e dois por cento).
+**Exemplo:** partindo de uma taxa atual de conversão de 20%, queremos detectar um ganho mínimo de 2 pontos percentuais (chegando a 22%).
 
 ```text
 n = 16 × 0.20 × 0.80 / 0.02² = 6.400 usuários por variante
@@ -6694,7 +6694,7 @@ Calculadoras online (Evan Miller's A/B test calculator, Optimizely Sample Size C
 
 **[[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 4 — DESCOBERTA DO PROBLEMA|Fase 4 (Vol. 2)]], leitura de resultados.** P-value e intervalo de confiança, reportar ambos. Um valor-p menor que 0,05 (p < 0,05) é a convenção padrão de significância estatística; equipes com alto volume de testes costumam adotar um corte mais rigoroso (p < 0,01) para reduzir falsos positivos. Significância prática versus estatística. Zero vírgula um por cento de melhoria pode ser estatisticamente significante, mas sem impacto de negócio. Efeito em métricas guardrail. Se ganhou em primária, mas caiu em guardrail, é trade-off. Não vitória. Interpretação cuidadosa. Correlação. Causalidade. Generalização.
 
-**Ferramentas.** Plataformas dedicadas. Optimizely, Eppo, Statsig, LaunchDarkly (feature flags mais experimentation), GrowthBook (open source). Mais simples. Google Optimize (descontinuado), VWO, Convert. In-house. Construir em cima de warehouse, e feature flags internos.
+**Ferramentas:** plataformas dedicadas de experimentação e *feature flags* (como Optimizely, Eppo, Statsig, LaunchDarkly e a opção de código aberto GrowthBook), ferramentas de teste em páginas web (como VWO e Convert, após a descontinuação do Google Optimize) ou estrutura própria construída sobre o banco analítico (*data warehouse*) e chaves internas de ativação.
 
 #### 4. Quando experimentar, e quando não experimentar
 
@@ -6780,7 +6780,7 @@ Experimentos sem sample size calculation. Resultados falsos passam como verdade.
 
 Peeking em experimentos. Olhar resultados diariamente destrói validade.
 
-Comprar tool sem time. Snowflake ocioso, sem analytics engineer para usar bem.
+Contratar ferramenta cara sem equipe para operá-la: assinar um banco analítico de grande porte que fica ocioso porque não há engenheiro de dados ou analista dedicado para modelar as tabelas.
 
 Dashboard sem dono. A métrica quebra, ninguém nota, e decisões erradas são tomadas baseadas em número errado por semanas.
 
@@ -6917,7 +6917,7 @@ Prompt em produção é código. O tratamento adequado é em quatro pontos.
 
 Versionado. Cada prompt tem versão, histórico, e autor da mudança. Testado. A mudança de prompt passa por eval suite antes de ir a produção. Estruturado. Templates com variáveis, não strings hardcoded. Documentado. Contexto do uso, casos de erro conhecidos, e critério de sucesso.
 
-Ferramentas. LangSmith, PromptLayer, Humanloop, Braintrust. Plataformas de gestão de prompts em produção, com versionamento, e eval, integrados.
+**Ferramentas:** plataformas de gestão de *prompts* em produção com controle de versão e suítes de avaliação integradas, como LangSmith, PromptLayer, Humanloop e Braintrust.
 
 > [!important] Regras práticas de prompt em produção
 > Prompts em produção ficam em arquivos separados, não em strings no código principal. Variáveis de sistema separadas com clareza do input de usuário (defesa contra prompt injection). Exemplos few-shot quando a tarefa pede (raciocínio, formatação específica). Instruções claras sobre formato de saída (JSON, markdown, etc.), com fallback para parsing falho.
@@ -6978,7 +6978,7 @@ Componentes de uma eval suite, em quatro partes. Dataset de teste, cinquenta a q
 
 Tipos de eval. Automated rule-based, checa formato, presença de palavras-chave, e validação de JSON. LLM-as-judge, outro LLM avalia qualidade. Cuidado com viés do judge. Human eval, avaliação humana de subset. Caro, mas gold standard para temas críticos. A/B em produção, feedback implícito (rating, thumbs up ou down, completion), e explícito.
 
-Ferramentas. LangSmith, Braintrust, Helicone, Arize. Plataformas de LLM observability, e eval.
+**Ferramentas:** plataformas de observabilidade e avaliação contínua de modelos de linguagem, como LangSmith, Braintrust, Helicone e Arize.
 
 > [!important] Regra operacional de eval
 > Não entra em produção mudança de prompt, ou modelo, que não passou na eval suite com score igual ou maior que o baseline. Sem isso, qualidade degrada por deriva silenciosa, e ninguém percebe até o cliente reclamar.

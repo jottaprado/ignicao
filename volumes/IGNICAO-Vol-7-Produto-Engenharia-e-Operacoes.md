@@ -82,13 +82,13 @@ Quando a empresa passa de um único time para múltiplos *squads* e milhares de 
 
 ## FASE 17 — OPERAÇÕES, PROCESSOS E GESTÃO EM ESCALA
 
-### O Imposto Invisível da Osmose Quebrada e a Fábrica da Sua Empresa
+### O imposto da osmose quebrada e a fábrica da sua empresa
 
-Quatrocentos e dez clientes corporativos ficaram sem conciliação numa sexta-feira porque três squads subiram código no mesmo módulo de faturamento sem avisar ninguém. Enquanto Marina saía da sétima reunião seguida de alinhamento que não decidiu absolutamente nada em São Paulo, a engenharia em Florianópolis disparou as três atualizações simultâneas: o Customer Success ficou no escuro, o motor de conciliação travou e o suporte técnico acumulou 180 chamados críticos em duas horas. Quando a empresa tinha quatorze pessoas e um único canal de conversa no Slack, tudo funcionava por osmose: bastava levantar a cabeça do monitor e gritar uma pergunta. Com oitenta e cinco pessoas, a mesma informalidade que antes era velocidade virou sabotagem mútua.
+Quatrocentos e dez clientes corporativos ficaram sem conciliação numa sexta-feira porque três squads subiram código no mesmo módulo de faturamento sem avisar ninguém. Enquanto Marina saía da sétima reunião seguida de alinhamento que terminou sem decisão em São Paulo, a engenharia em Florianópolis disparou as três atualizações simultâneas: o Customer Success ficou no escuro, o motor de conciliação travou e o suporte técnico acumulou 180 chamados críticos em duas horas. Quando a empresa tinha quatorze pessoas e um único canal de conversa no Slack, tudo funcionava por osmose: bastava levantar a cabeça do monitor e gritar uma pergunta. Com oitenta e cinco pessoas, a mesma informalidade que antes era velocidade virou sabotagem mútua.
 
 Ninguém conta nos palcos de empreendedorismo o paradoxo da escala: os hábitos heroicos de improviso que salvaram sua startup na fase de tração são exatamente os vícios que destroem sua empresa na fase de operação. Andy Grove ensinava na Intel que toda empresa, mesmo de software puro, é uma fábrica: e que a produção de um executivo não é o que ele faz sozinho, mas o resultado líquido da sua organização somado às áreas que ele influencia.
 
-Você acaba de bater de frente com **O Imposto Invisível da Osmose Quebrada**: a perda quadrática de energia produtiva que ocorre quando os canais de comunicação crescem com o quadrado do time (14 pessoas formam 91 canais; 85 pessoas formam 3.570) sem que você instale cadência operacional, donos únicos de processo e indicadores antecedentes. Ou você projeta a máquina que constrói a máquina, ou passa o resto da vida apagando incêndios criados pelo seu próprio time.
+Você acaba de bater de frente com **O Imposto da Osmose Quebrada**: a perda quadrática de energia produtiva que ocorre quando os canais de comunicação crescem com o quadrado do time (14 pessoas formam 91 canais; 85 pessoas formam 3.570) sem que você instale cadência operacional, donos únicos de processo e indicadores antecedentes. Ou você projeta a máquina que constrói a máquina, ou passa o resto da vida apagando incêndios criados pelo seu próprio time.
 
 ---
 
@@ -116,13 +116,13 @@ flowchart TD
 ```
 
 > [!important] Hierarquia descendente
-> Do North Star à Company, depois aos Times. Os KRs dos times devem somar ao KR do nível acima. Senão times viram silos otimizando métricas que não movem a empresa. Check-in semanal de 5 minutos, revisão formal nas semanas 4 e 8, e nota de 0,0 a 1,0 na última semana do trimestre. Sweet spot: zero vírgula seis a zero vírgula sete (ambicioso, mas atingível).
+> Do North Star à empresa, e depois aos times: os KRs das equipes devem somar diretamente aos KRs da companhia, evitando silos que otimizam métricas locais sem mover o negócio. Faça *check-in* semanal de 5 minutos, revisão nas semanas 4 e 8 e pontuação de 0,0 a 1,0 na última semana do trimestre. Separe **OKRs comprometidos** (meta de receita do orçamento, SLA contratual, conformidade legal, que exigem entrega de 1,0, ou 100%) dos **OKRs aspiracionais** (*moonshots*, cuja faixa saudável de atingimento fica entre 0,6 e 0,7, isto é, 60% a 70%).
 
 > [!tip] Stack mínimo de operações em escala
 > Em escala, a pilha operacional ganha peso equivalente à pilha de produto; consolide as ferramentas por estágio de maturidade (pré-PMF, pós-PMF e escala) conforme a tabela consolidada a seguir. **OKRs e gestão**: Notion, Asana, ClickUp, Linear (para times tech), ou plataformas específicas de OKR (Perdoo, Weekdone). **Documentação interna**: Notion, Confluence, Coda. **Comunicação**: Slack ou Microsoft Teams. **Videoconferência**: Google Meet, Zoom. **RH e folha**: Gupy para recrutamento. Sólides, Pipefy ou Factorial para gestão. Omie ou Conta Azul mais parceiros para folha no Brasil. **Financeiro**: Conta Azul ou Omie para ERP pequeno. Sage Intacct, NetSuite para médio. QuickBooks internacional. **Analytics de produto**: Mixpanel, Amplitude, PostHog. **CRM**: HubSpot (grátis inicial), Pipedrive, Salesforce (pesado, enterprise). **Regra**: consolidar ferramentas sempre que possível. O custo escondido de integrar vinte SaaS diferentes é altíssimo.
 
-> [!note] Entregáveis e gates da subfase Operações
-> Arquitetura Operacional: sistema de OKRs, cadência de reuniões, playbook de processos críticos, stack de ferramentas de gestão. Comece quando o time passa de ~15 pessoas, ou quando comunicação começa a gerar mais atrito do que velocidade. Termine quando processos críticos estão documentados, rituais em cadência, stack estável. Revisite a cada 6-9 meses de alta velocidade de contratação. Executor: CEO + Head of Operations (ou Chief of Staff) + lideranças de área. Decisor: CEO em cadência; lideranças em execução.
+> [!note] Entregáveis e critérios de entrada da Fase 17
+> **Escopo e critérios da Fase 17:** estruturar o sistema de OKRs (2 a 4 resultados-chave por objetivo), a cadência semanal e mensal de reuniões, o manual de processos críticos e o *stack* mínimo de ferramentas de gestão. Comece quando a equipe passa de 15 pessoas ou quando falhas de comunicação passam a gerar mais atrito do que velocidade; conclua quando os processos críticos estiverem documentados, os rituais rodando no calendário e o *stack* estabilizado, revisitando a arquitetura a cada 6 a 9 meses de expansão rápida. Responsáveis: CEO, liderança de operações (ou *Chief of Staff*) e líderes de área.
 
 ### A Engenharia do Ritmo: OKRs, Reuniões de Pulso, SLAs e Post-Mortems Sem Culpa
 
@@ -142,17 +142,17 @@ Toda empresa em escala roda em três ciclos simultâneos.
 **Ciclo semanal, operacional.** Segunda: reunião de liderança (C-level e VPs), focada nos top três a cinco bloqueios da semana. Terça ou quarta: reuniões 1:1 (cada gestor com cada reporte direto, quarenta e cinco a sessenta minutos). Quinta: reviews de área (engenharia, vendas, e CS). Sexta: all-hands, ou newsletter interna.
 
 > [!important] A regra de fundo
-> Se você não tem reunião de liderança semanal fixa, com agenda escrita, você não tem gestão. Tem reação.
+> Sem uma reunião semanal fixa de liderança, com pauta escrita e indicadores atualizados, a diretoria passa a semana apagando incêndios em vez de coordenar prioridades.
 
 #### Passo 2, implemente OKRs corretamente
 
 A maioria implementa errado. Os erros mais comuns, em ordem de frequência.
 
-Confundir OKR com KPI recorrente. OKRs descrevem *mudança* ("aumentar NRR de 95% para 115%"). KPIs descrevem *nível* ("NRR mensal"). Não misture.
+**Confundir OKR de mudança com KPI de manutenção de nível.** Um OKR mede um salto de patamar no trimestre (por exemplo, *"reduzir o churn mensal de 5% para 3%"* ou *"elevar o NRR de 95% para 115%"*), enquanto a manutenção de um indicador saudável (como *"manter retenção mensal acima de 95%"*) deve ficar no painel semanal de saúde operacional (KPI), nunca na lista de OKRs.
 
 OKRs demais. Mais de três a cinco OKRs por time é receita para não alcançar nenhum. Forçar priorização é função do processo.
 
-Key Results que são iniciativas. "Lançar feature X" não é KR. É iniciativa. KR é o resultado mensurável que a feature deveria produzir. Por exemplo, "aumentar retenção D30 em dez pontos percentuais".
+**Escrever tarefas ou entregas no lugar de resultados-chave (*Key Results*).** Entregas binárias como *"lançar a funcionalidade X"*, *"contratar três vendedores"* ou *"documentar o playbook comercial"* são **iniciativas** (meios de execução), não resultados-chave; o KR correspondente precisa medir o efeito produzido no negócio (como *"50% da receita nova do trimestre fechada sem o fundador na reunião"* ou *"ciclo médio dos novos vendedores dentro de 10% do tempo do fundador"*).
 
 Sandbagging (colocar metas conservadoras para garantir sucesso). Nos OKRs aspiracionais, 60% a 70% de atingimento (0,6 a 0,7) indica meta bem calibrada. Separe OKRs comprometidos (receita do orçamento, SLA contratual, conformidade), que exigem 100%, dos aspiracionais, em que 0,6 a 0,7 é sinal saudável; se você bate 100% até nos aspiracionais, as metas estão conservadoras.
 
@@ -224,7 +224,7 @@ flowchart LR
 > [!warning] Não antecipar stack
 > Adquirir ferramentas caras cedo é procrastinar com dinheiro. Ferramenta não resolve falta de processo. A regra: adicione ferramenta quando a ausência já custa mais que o custo anual da ferramenta.
 
-| Função | Ferramentas típicas em 2026 |
+| Função Operacional | Ferramentas Típicas em 2026 (Referência Unificada da Fase 17: Pré-PMF → Pós-PMF → Escala) |
 |---|---|
 | Comunicação | Slack, Discord, Teams |
 | Documentação e wiki | Notion, Confluence, GitBook |
@@ -264,7 +264,7 @@ Antes de vinte pessoas, planilhas Google resolvem. Acima disso, você precisa de
 
 #### Passo 7, institua blameless post-mortems
 
-Quando algo dá errado (produto cai, cliente grande cancela, incidente de segurança), siga este processo: escreva o post-mortem em até cinco dias, com foco no sistema, não na pessoa ("por que o processo permitiu o erro?"). Use três seções: o que aconteceu, o que causou e o que mudar. Publique internamente para toda a empresa aprender. Defina ação de melhoria com dono e prazo.
+Quando ocorrer um incidente relevante (indisponibilidade severa, perda de grande conta ou falha de segurança), acione o protocolo padronizado da Fase 17: circule o **rascunho técnico em até 48 horas** e publique a **versão final revisada em até cinco dias úteis**, sempre com foco nas falhas do sistema e das travas de processo (*"por que a nossa arquitetura permitiu que o erro chegasse à produção?"*). Estruture o documento em três blocos (o que ocorreu e linha do tempo, causa-raiz nos 5 Porquês e ações corretivas com responsável e prazo) e compartilhe com toda a equipe.
 
 > [!important] Cultura de erro
 > Cultura que pune erro gera ocultamento. Cultura que aprende do erro gera resiliência.
@@ -274,10 +274,10 @@ Quando algo dá errado (produto cai, cliente grande cancela, incidente de segura
 A Fase 17 está concluída quando os seis critérios abaixo estão cumpridos.
 
 1. Cadência de gestão (semanal, trimestral, anual) está formalizada, e rodando há dois ou mais trimestres. Aderência (reuniões acontecendo na data, com agenda e ata) ≥90%.
-2. OKRs estão em uso, com scoring trimestral. Atingimento entre 60-70% do alvo é saudável (100% indica metas baixas).
+2. OKRs estão em uso com pontuação trimestral, separando metas comprometidas (orçamento, caixa e SLAs, que exigem 100% de entrega) de metas aspiracionais (nas quais atingimento entre 60% e 70%, ou 0,6 a 0,7, indica ambição bem calibrada).
 3. Os cinco processos que mais doem quando quebram têm playbook escrito, e os dez processos críticos têm dono nomeado. Decisões grandes (afetam ≥10 pessoas ou custo ≥R$ 100k) com RFC escrito em ≥80% dos casos.
-4. Stack operacional está estabilizada (até quinze ferramentas ativas).
-5. Data infrastructure mínima está operando.
+4. Pilha operacional estabilizada e integrada (teto de 15 a 20 ferramentas ativas na escala, substituindo soluções provisórias das fases iniciais sem sobreposição de função).
+5. Infraestrutura mínima de dados em operação (fonte única de verdade e painel executivo confiável).
 6. Blameless post-mortems estão instituídos. MTTR: P0 <1h, P1 <4h, P2 <24h, com trajetória decrescente em todas as severidades.
 
 **Critérios observáveis.**
@@ -316,7 +316,7 @@ A Fase 17 está concluída quando os seis critérios abaixo estão cumpridos.
 **O1: acelerar crescimento em SP Capital e RM, com qualidade de PMF.**
 KR1: crescer de oitenta para cento e cinquenta clientes pagantes no trimestre.
 KR2: reduzir o churn mensal de 5% para 3% (mantendo a retenção acima de 95% como métrica de saúde no painel).
-KR3: atingir NPS de cinquenta ou mais.
+KR3: elevar o NPS relacional de 34 para 50 até o fim do trimestre, eliminando as três principais causas de atrito no onboarding.
 
 **O2: reduzir dependência do fundador em vendas.**
 KR1: setenta por cento das deals do trimestre fechadas sem founder no pitch (hoje: trinta por cento).
@@ -352,7 +352,7 @@ KR3: decisão go ou no-go para Grande Rio documentada até fim do Q3.
 
 ### As Patologias da Burocracia Precoce e do Caos Institucionalizado
 
-Dizem que processo mata cultura; na prática, a falta de rotina clara desgasta muito mais a equipe pelo retrabalho constante. As pessoas saem por frustração. O ponto é processos *leves e úteis*, não ausência deles.
+Dizem que processo mata a cultura; na prática, a falta de rotina clara desgasta muito mais a equipe pelo retrabalho constante e leva talentos a pedir demissão por frustração. O segredo está em desenhar processos enxutos que destravem a autonomia do time.
 
 Over-tooling. Adotar toda ferramenta nova que aparece. O resultado: quarenta logins, e nada integrado.
 
@@ -370,12 +370,12 @@ A VTEX, plataforma brasileira de comércio eletrônico, expandiu para LatAm, Eur
 
 O resultado foi internacionalização bem-sucedida, com IPO em Nova York em 2021. Na leitura operacional dessa expansão, consolidar cadência, playbooks e donos de processo antes de multiplicar praças evita que a abertura de novos mercados queime caixa com retrabalho e perda de SLA.
 
-Operação escalável é pré-requisito para internacionalização. Não consequência dela. Empresas que invertem a ordem pagam caro.
+Uma operação escalável e documentada no mercado doméstico deve preceder qualquer movimento de internacionalização; empresas que tentam arrumar a casa enquanto abrem três países ao mesmo tempo multiplicam o custo do erro.
 
 
 ---
 
-### O Espelho de Andy Grove: Sua Empresa Funciona Porque Você Empurra ou Porque o Sistema Puxa?
+### O Espelho de Andy Grove: autodiagnóstico de saída da Fase 17 (sua empresa funciona porque você empurra ou porque o sistema puxa?)
 
 **Fechamento operacional (OPERAÇÕES, PROCESSOS E GESTÃO EM ESCALA):** Em São Paulo e Florianópolis, a aplicação rigorosa do roteiro de *O Espelho de Andy Grove: Sua Empresa Funciona...* por **Lucas e Marina** converteu incerteza estratégica em cadência mensurável de entrega.
 
@@ -383,7 +383,7 @@ Feche a planilha de metas e encare a verdade nua da sua operação hoje:
 
 1. **O Teste das Férias de 15 Dias:** Se você e seus cofundadores ficarem duas semanas incomunicáveis a partir de amanhã, os processos críticos de entrega, faturamento e atendimento rodam no mesmo padrão ou a operação trava esperando decisões no WhatsApp?
 2. **A Auditoria da Agenda:** Quantas horas da sua última semana foram gastas em reuniões de status onde pessoas apenas leram em voz alta números que deveriam estar em um painel assíncrono antes da reunião começar?
-3. **O Dono do Gargalo:** Para cada uma das cinco métricas vitais da sua empresa hoje, existe um único nome e CPF responsável pelo número, ou a responsabilidade está diluída entre dois departamentos que apontam o dedo um para o outro?
+3. **O Dono do Gargalo:** Para cada uma das cinco métricas principais da sua empresa hoje, existe um único nome e CPF responsável pelo número, ou a responsabilidade está diluída entre dois departamentos que apontam o dedo um para o outro?
 
 **Regra de Sobrevivência:** Processo bom não é burocracia para impedir erros raros; é o trilho mínimo que libera gente talentosa para decidir rápido sem pedir bênção.
 
@@ -422,7 +422,7 @@ Hábitos principais:
 
 Passo 1: defina um resultado claro (ex.: "aumentar retenção no dia 30 de 40% para 55%"), em vez de listar entregas como "lançar a funcionalidade X".
 
-Passo 2: Entrevistas semanais com 1-2 clientes do ICP target. Produto Manager + designer + engenheiro juntos quando possível.
+Passo 2: realize entrevistas semanais com 1 a 2 clientes do perfil ideal (ICP), reunindo gerente de produto (*Product Manager*), designer e engenheiro líder do trio de produto.
 
 Passo 3: Após entrevistas, atualize OST: novas oportunidades identificadas, quais são mais promissoras para o outcome?
 
@@ -436,7 +436,7 @@ Passo 7: Construa e libere quando evidência suficiente, volte a descobrir.
 
 ##### Na trincheira real: como isso funciona na prática
 
-Time de SaaS B2B implementa continuous discovery:
+Na scaleup B2B de Lucas e Marina, o trio de produto implementou *continuous discovery* para atacar a queda de ativação:
 
 Outcome: aumentar conversão trial → paid de 8% para 15%.
 
@@ -505,7 +505,7 @@ Passo 5: Cooldown: não cortar. Cooldown é onde surge criatividade e saúde té
 
 ##### Na trincheira real: como isso funciona na prática
 
-SaaS adota Shape Up:
+A engenharia de Lucas e Marina adotou ciclos inspirados no *Shape Up* para substituir o backlog infinito:
 
 Ciclo de 6 semanas:
 
@@ -542,7 +542,7 @@ Processo de desenvolvimento de produto que começa **escrevendo a press release 
 
 Dois documentos:
 
-Press Release (1-1.5 página): como seria a release quando produto launching.
+Comunicado de imprensa (*Press Release* de 1 a 1,5 página): texto escrito no passado anunciando o produto já lançado e o benefício claro para o cliente.
 
 - Headline.
 - Summary.
@@ -592,7 +592,7 @@ Processo: liderança lê PR-FAQ, pergunta questões difíceis antes de aprovar, 
 
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
-Deck em vez de documento: slides simplificam demais, escrita força raciocínio, PR vaga: "revolucionaria", "incrível", sem especificidade, FAQ só com perguntas fáceis: evita dificuldades, fraqueza em raciocínio, Pular PR-FAQ para "ir mais rápido": ironia, pula rigor, constrói errado, refaz.
+Substituir o texto por slides (apresentações escondem lacunas de raciocínio que a prosa obriga a resolver); escrever um comunicado vago cheio de adjetivos ("solução revolucionária", "incrível") sem especificar o ganho mensurável do cliente; montar um FAQ apenas com perguntas fáceis, fugindo dos riscos técnicos e comerciais reais; ou pular o PR-FAQ para "ganhar velocidade" e acabar refazendo o produto inteiro três meses depois.
 
 ---
 
@@ -633,7 +633,7 @@ Passo 5: Ciclos curtos em versões modernas: Stage-Gate Express reduz duração 
 
 ##### Na trincheira real: como isso funciona na prática
 
-Empresa de CPG testando novo produto:
+Na operação de Rafael e Bia, ao testar o lançamento de uma nova linha com lojistas parceiros via *Stage-Gate* enxuto:
 
 - Discovery: 40 ideias.
 - Gate 1: 10 sobrevivem.
@@ -655,7 +655,7 @@ Gates como formalidade: todos passam, sem filtro real, Critérios subjetivos: "e
 
 ---
 
-#### Framework: Dual-Track Agile (Desiree Sy 2007; Cagan & Patton 2012)
+#### Framework: Dual-Track Agile (Desiree Sy, 2007; Marty Cagan e Jeff Patton, 2012: Trilha de Descoberta Contínua + Trilha de Entrega)
 
 ##### De onde vem a ferramenta (e por que sobreviveu ao filtro do tempo)
 
@@ -715,7 +715,7 @@ Discovery cosmético: PM "valida" via opinião de colegas em vez de usuários, D
 
 ---
 
-#### Framework: OKRs, Objectives and Key Results (Andy Grove, 1970s; John Doerr, popularizou)
+#### Framework: OKRs (Objectives and Key Results: Andy Grove, anos 1970; John Doerr, difusão no Google, 1999)
 
 ##### De onde vem a ferramenta (e por que sobreviveu ao filtro do tempo)
 
@@ -760,9 +760,9 @@ SaaS B2B brasileiro, OKR corporativo Q2 2026:
 
 Objective: Construir motor de crescimento que escala sem depender de founder.
 
-Key Results:
+Resultados-chave (seguindo a regra unificada de **2 a 4 KRs mensuráveis por objetivo**):
 
-- KR1: CAC por canal < R$ 180 em 3 canais pagos (baseline: R$ 340).
+- KR1: reduzir o CAC por canal de R$ 340 (linha de base) para menos de R$ 180 em 3 canais pagos.
 - KR2: 40% de leads gerados por conteúdo orgânico (baseline: 15%).
 - KR3: 30% do pipeline qualificado gerado por canais de growth sem participação direta dos fundadores (iniciativa: contratar liderança de Growth).
 - KR4: Fazer o pipeline qualificado sustentar R$ 5 milhões em ARR novo em junho (partindo da base atual de R$ 2 milhões).
@@ -770,7 +770,7 @@ Key Results:
 Cascata, time de Marketing:
 Objective: Construir motor de conteúdo orgânico sustentável.
 
-- KR1: 50 artigos publicados em Q2.
+- KR1: aumentar o tráfego orgânico qualificado de 8 mil para 15 mil visitas mensais no 2º trimestre (apoiado pela iniciativa editorial de publicar 50 guias técnicos).
 - KR2: Sessões orgânicas mensais crescem de 8k → 25k.
 - KR3: Top 3 no Google para 12 keywords-alvo.
 
@@ -778,7 +778,7 @@ Check-ins semanais. Ao fim do Q2: KR1 = 1,0 (meta batida). KR2 = 0,7 (20 mil vis
 
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
-OKRs safety ("sandbagging"): metas fáceis para "bater 100%". Sinal: atingimento médio é 95%+, ambição baixa, Todo mundo com 10+ OKRs: dilui foco. 3-5 por time é teto, KRs como tarefas: "entregar feature X" é task, não KR. KR é resultado mensurável, Conectar OKR a bônus: distorce comportamentos, Sem check-ins: OKRs ficam esquecidos, revisão só no fim do trimestre = reativo demais, copiar do Google sem adaptar: métodos operacionais precisam de ajuste local.
+Principais armadilhas na implantação de OKRs: (1) *sandbagging* (metas fáceis demais para garantir 100% de atingimento sem esticar a ambição); (2) excesso de prioridades (mais de 3 a 5 objetivos e resultados-chave por equipe diluem o foco); (3) KRs escritos como tarefas ("entregar funcionalidade X" ou "publicar 50 artigos" é iniciativa de esforço, não resultado mensurável de negócio); (4) vincular a nota do OKR aspiracional diretamente ao bônus financeiro individual, incentivando metas conservadoras; (5) esquecer os OKRs na gaveta e só revisá-los no fim do trimestre; e (6) copiar rituais de gigantes de tecnologia sem adaptá-los ao porte da startup.
 
 ---
 
@@ -838,7 +838,7 @@ Methods:
 1. Parcerias com top-3 escolas de cada área.
 2. Plataforma de aprendizado adaptativo.
 3. Garantia de emprego (ou devolução) em 12 meses.
-4. Conteúdo em video + ao vivo + comunidade.
+4. Conteúdo em vídeo + aulas ao vivo + comunidade.
 
 Obstacles:
 
@@ -864,11 +864,11 @@ V sem verdade: vision é aspiracional mas precisa ser genuína. Copy-paste de ou
 
 ##### De onde vem a ferramenta (e por que sobreviveu ao filtro do tempo)
 
-**Gino Wickman** desenvolveu EOS (Entrepreneurial Operating System) em 2003 baseado em experiência de 25 anos como consultor de PMEs. Publicou *tração* em 2007, mais de 2M cópias vendidas. EOS é sistema operacional completo para empresas de 10-250 funcionários, principalmente PMEs tradicionais (não tech startups). Tem rede de Implementers certificados globalmente.
+**Gino Wickman** desenvolveu o EOS (*Entrepreneurial Operating System*) em 2003 com base em sua experiência como consultor de pequenas e médias empresas e publicou *Traction* (*Tração*) em 2007, obra que superou 2 milhões de cópias vendidas. O EOS funciona como um sistema de gestão completo para empresas de 10 a 250 funcionários, apoiado por uma rede global de implementadores certificados.
 
 ##### A mecânica central (sem jargão)
 
-Sistema operacional que define **6 componentes-chave** que toda empresa precisa dominar: Vision, People, Data, Issues, Process, tração. Para cada, ferramentas específicas.
+Sistema operacional que organiza a gestão em **6 componentes-chave**: *Vision* (Visão), *People* (Pessoas), *Data* (Dados), *Issues* (Problemas), *Process* (Processos) e *Traction* (Tração), com ferramentas práticas para cada pilar.
 
 ##### As regras do jogo
 
@@ -879,20 +879,20 @@ Sistema operacional que define **6 componentes-chave** que toda empresa precisa 
 3. Data: scorecard com métricas centrais.
 4. Issues: cadência para identificar e resolver problemas.
 5. Process: processos documentados e executados consistentemente.
-6. tração: sistema para cascatar metas e executar.
+6. *Traction* (Tração): disciplina de desdobrar prioridades trimestrais (*Rocks*) e sustentar o ritmo semanal de execução.
 
 Ferramentas-chave do EOS:
 
-- V/TO (Vision/tração Organizer): documento de visão em 2 páginas.
+- V/TO (*Vision/Traction Organizer*): documento estratégico de alinhamento de visão e tração em 2 páginas.
 - Accountability Chart: organograma por função (não pessoa).
 - Rocks: 3-7 prioridades trimestrais por pessoa.
-- Scorecard: 5-15 números semanais que prevem saúde.
+- Scorecard: 5 a 15 indicadores semanais antecedentes que preveem a saúde operacional do negócio.
 - Level 10 Meeting: reunião semanal de 90 min, estrutura rígida.
 - IDS: framework de resolução de problemas (Identify, Discuss, Solve).
 
 ##### Como rodar na segunda-feira às 9h com seu time
 
-Passo 1: a liderança preenche o V/TO (Vision/Traction Organizer), alinhando a visão e a tração da empresa em oito perguntas-chave (valores, foco, meta de 10 anos, estratégia de marketing, retrato de 3 anos, plano de 1 ano, prioridades trimestrais e lista de problemas).
+Passo 1: a liderança preenche o V/TO (*Vision/Traction Organizer*), estruturando os pilares de *Vision* e *Traction* em oito perguntas-chave (valores, foco central, meta de 10 anos, estratégia de marketing, retrato de 3 anos, plano de 1 ano, prioridades trimestrais e lista de problemas).
 
 Passo 2: Accountability Chart: cada função tem dono claro, elimina "quem faz o quê?".
 
@@ -914,7 +914,7 @@ Ano 0: caos operacional. Sem clareza de quem faz o quê. Reuniões improdutivas.
 
 Implementação EOS (9 meses com Implementer certificado):
 
-- V/TO: clareza sobre 10 anos de vision + 3 anos pictures + 1 ano plan.
+- V/TO: clareza sobre a direção de 10 anos, o retrato de 3 anos e o plano de execução de 1 ano.
 - Accountability Chart: redesenhado, 2 roles redundantes eliminadas, 1 nova role (CFO fractional) criada.
 - Rocks: cada pessoa do leadership tem 3-5 rocks trimestrais.
 - Scorecard: 10 números-chave (MRR, churn, pipeline, caixa, NPS, etc.).
@@ -966,7 +966,7 @@ Ferramentas-chave:
 - One-Page Strategic Plan (OPSP): 1 página com vision + execution.
 - Priorities (similar a rocks do EOS).
 - Meeting rhythm: daily huddle, weekly, monthly, quarterly, annual.
-- BHAG (Big Hairy Audacious Goal): meta de 10-25 anos.
+- BHAG (*Big Hairy Audacious Goal*): meta audaciosa de longo prazo (horizonte de 10 a 25 anos, como chegar à liderança latino-americana do setor até 2040, distinta das metas intermediárias de 3 a 5 anos).
 
 ##### Como rodar na segunda-feira às 9h com seu time
 
@@ -998,7 +998,7 @@ Passo 4: Cash: Cash Conversion Cycle monitorado semanalmente.
 
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
-Meeting rhythm sem rigor: cancela weekly, daily vira desmotivado, OPSP decorativa: preenche, ninguém olha, People sem accountability: "todo mundo ajuda" vira "ninguém responsável", Implementar sem coach: Harnish enfatiza coaching.
+Principais falhas de execução no *Scaling Up*: (1) ritmo de reuniões sem disciplina (cancelar a semanal ou transformar a diária em burocracia desmotivadora); (2) *One-Page Strategic Plan* (OPSP) decorativo, preenchido no *offsite* anual e nunca consultado; (3) falta de dono único por indicador ("todo mundo ajuda" vira "ninguém responde pelo número"); e (4) tentar implantar todos os instrumentos de uma só vez sem acompanhamento executivo.
 
 ---
 
@@ -1111,7 +1111,7 @@ Scrum em nome só: "daily sync" sem disciplina vira status update teatral, Sprin
 
 ##### A mecânica central (sem jargão)
 
-Método de visualização e gestão de fluxo de trabalho com 6 práticas-chave. Menos prescriptivo que Scrum, foca em **fluxo contínuo** e **limite de WIP (Work In Progress)**.
+Método de visualização e gestão de fluxo de trabalho apoiado em 6 práticas centrais. Menos prescritivo que o Scrum, concentra-se em **fluxo contínuo** e **limite explícito de trabalho em progresso (WIP)**.
 
 ##### As regras do jogo
 
@@ -1163,7 +1163,7 @@ Kanban sem WIP limit: vira só board bonito, fluxo não melhora, WIP limit sem r
 
 ---
 
-#### Framework: DORA Metrics (Forsgren, Humble, Kim, 2014); SPACE Framework (Forsgren, Storey et al., 2021)
+#### Framework: Métricas DORA (Forsgren, Humble e Kim, *Accelerate*, 2018) e Framework SPACE (Forsgren, Storey e coautores, 2021)
 
 ##### De onde vem a ferramenta (e por que sobreviveu ao filtro do tempo)
 
@@ -1173,7 +1173,7 @@ DORA (DevOps Research and Assessment) foi fundado em 2014 por **Nicole Forsgren,
 
 DORA: 4 métricas de engineering performance:
 
-1. Deployment Frequency: com que frequência deployamos?
+1. Frequência de implantação (*Deployment Frequency*): com que frequência colocamos código em produção?
 2. Lead Time for Changes: tempo de commit a produção.
 3. Change Failure Rate: % de deploys que causam incidentes.
 4. Time to Restore Service: tempo para recuperar após falha.
@@ -1190,8 +1190,8 @@ SPACE: 5 dimensões de desenvolvedor:
 
 | Tier | Deploy freq | Lead time | CFR | Recovery |
 |------|-------------|-----------|-----|----------|
-| Elite | Múltiplos/dia | < 1 hora | < 5% | < 1 hora |
-| High | 1x/semana | < 1 semana | < 10% | < 1 dia |
+| Elite | Múltiplos/dia (sob demanda) | < 1 dia (ou < 1h no corte 2021) | < 5% (0-15% em 2021) | < 1 hora |
+| High | 1x/dia a 1x/semana | 1 dia a 1 semana | < 10% (ou < 15%) | < 1 dia |
 | Medium | 1x/mês | 1 semana-1 mês | 10-15% | < 1 semana |
 | Low | < 1x/mês | > 1 mês | > 15% | > 1 semana |
 
@@ -1239,7 +1239,7 @@ Regras:
 - 6 páginas máximo (força priorização).
 - Sem bullets extensos (prosa real).
 - Dados completos (tabelas em apêndices ok).
-- Anticipar perguntas (FAQ seção).
+- Antecipar dúvidas e objeções na seção de perguntas frequentes (FAQ) ao final do documento.
 
 ##### Como rodar na segunda-feira às 9h com seu time
 
@@ -1255,7 +1255,7 @@ Proposta para investir R$ 2M em novo mercado:
     - (a) Greenfield (nossa proposta).
     - (b) Parceria com player local.
     - (c) M&A.
-4. Recomendação: greenfield por razões 1, 2, 3.
+4. Recomendação fundamentada: entrar no mercado via operação própria (*greenfield*), pois os múltiplos pedidos pelos alvos locais de M&A superam 8x ARR, a plataforma tecnológica atual já suporta localização fiscal em quatro semanas e um acordo de distribuição exclusiva com parceiro local capturaria metade da margem bruta.
 5. Riscos: mercado ser menor que estimado, competição reagir, time não performar.
 6. FAQ: 8-10 perguntas antecipadas.
 
@@ -1265,7 +1265,7 @@ Virar slide disfarçado: bullets longos fingindo ser prosa, Sem FAQ genuíno: "t
 
 ---
 
-#### Framework: Weekly Business Review (Bezos/Amazon)
+#### Framework: Weekly Business Review (WBR, Bezos/Amazon: substitui a reunião semanal de liderança do Passo 1 em escala)
 
 ##### De onde vem a ferramenta (e por que sobreviveu ao filtro do tempo)
 
@@ -1273,7 +1273,7 @@ Amazon usa ciclo semanal de review em que C-level revê métricas-chave de toda 
 
 ##### A mecânica central (sem jargão)
 
-**Reunião semanal de 1-3 horas** em que executivos revisam métricas-chave, questões de performance, e decisões. Foca em **inputs** (comportamentos que drivam outputs) mais que outputs (que laggam).
+**Reunião semanal de 1 a 3 horas** em que a liderança revisa métricas operacionais, gargalos de execução e decisões pendentes. Prioriza **indicadores antecedentes (*inputs*)** que movem os resultados, em vez de olhar apenas para indicadores históricos (*outputs*) que reagem com atraso.
 
 ##### As regras do jogo
 
@@ -1288,7 +1288,7 @@ Mindset: "controlar o controlável", monitorar inputs que lead outputs.
 
 ##### Como rodar na segunda-feira às 9h com seu time
 
-Passo 1: Definir KPIs com owner clear.
+Passo 1: definir os indicadores (KPIs) da revisão semanal com um único dono nominal para cada métrica.
 
 Passo 2: Weekly update: cada owner traz status.
 
@@ -1317,7 +1317,7 @@ Framework de 4 disciplinas para executar **Wildly Important Goals (WIGs)** em me
 4 disciplinas:
 
 1. Foco no WIG (wildly important goal): 1-2 metas, não 15.
-2. Agir em lead measures: inputs que driven outputs (ao contrário de lag measures, que só reportam).
+2. Atuar sobre indicadores antecedentes (*lead measures*): alavancas de entrada que movem o resultado final, em contraste com indicadores históricos (*lag measures*), que apenas registram o que já aconteceu.
 3. Scoreboard compelling: visual, atualizado, todos conhecem o score.
 4. Cadência de responsabilização: reunião semanal de 20 minutos em que cada pessoa assume um compromisso concreto para a semana.
 
@@ -1327,7 +1327,7 @@ Diferença em relação ao OKR: o 4DX concentra a execução em uma ou duas meta
 
 Passo 1: Definir 1-2 WIGs por time.
 
-Passo 2: Identificar lead measures: comportamentos controláveis que drivão o WIG.
+Passo 2: identificar os indicadores antecedentes (*lead measures*), ou seja, as rotinas semanais sob controle direto da equipe que movem a meta crucialmente importante (WIG).
 
 Passo 3: Criar scoreboard visível.
 
@@ -1391,7 +1391,7 @@ O VSM distingue entre **tempo de valor agregado** (tempo em que trabalho real ac
 
 Passo 1: definir o fluxo de valor a mapear (ex. "do lead qualificado ao cliente ativo", "do bug reportado ao deploy em produção"). Passo 2: mapear o estado atual em sessão colaborativa com post-its ou ferramenta digital: cada etapa do processo com responsável, tempo médio de processamento, taxa de defeito, tempo médio de espera. Passo 3: calcular lead time total e % de valor agregado. Passo 4: identificar os maiores desperdícios e restrições (teoria das restrições: o gargalo que limita o fluxo). Passo 5: projetar o estado futuro com kaizens (melhorias) específicos para cada desperdício. Passo 6: implementar e medir.
 
-Exemplo aplicado, onboarding de SaaS B2B. O mapeamento mostrou lead time de 23 dias entre a assinatura do contrato e a primeira funcionalidade ativa (incluindo a configuração inicial). Etapas: contrato assinado (D0) → provisioning de ambiente (D0+3, espera do time de eng) → envio de credenciais (D0+4) → kickoff agendado (D0+8, fila de CS) → kickoff realizado (D0+9) → configuração initial (D0+14, cliente faz sozinho, muitos abandonos) → go-live (D0+23). VSM revelou: 3 dias de espera em provisioning (automação elimina), 4 dias de fila de CS (escalável com CS assíncrono), 9 dias de configuração self-service (simplificação ou guided onboarding). Estado futuro: lead time alvo de 7 dias.
+Exemplo aplicado, onboarding de SaaS B2B. O mapeamento mostrou lead time de 23 dias entre a assinatura do contrato e a primeira funcionalidade ativa (incluindo a configuração inicial). Etapas: contrato assinado (D0) → provisionamento de ambiente (D0+3, espera do time de engenharia) → envio de credenciais (D0+4) → kickoff agendado (D0+8, fila de CS) → kickoff realizado (D0+9) → configuração inicial (D0+14, cliente faz sozinho, muitos abandonos) → entrada em produção (D0+23). O VSM revelou: 3 dias de espera no provisionamento (automação elimina), 4 dias de fila de CS (escalável com atendimento assíncrono) e 9 dias de configuração manual (simplificação ou *onboarding* guiado). Estado futuro: *lead time* alvo de 7 dias.
 
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
@@ -1403,7 +1403,7 @@ Exemplo aplicado, onboarding de SaaS B2B. O mapeamento mostrou lead time de 23 d
 
 ##### De onde vem a ferramenta (e por que sobreviveu ao filtro do tempo)
 
-Mike Rother, pesquisador de Lean Manufacturing, passou anos estudando o Sistema Toyota de Produção e percebeu que os frameworks visíveis (Kanban, VSM, kaizen) eram apenas a superfície. O que tornava a Toyota diferente era um padrão de comportamento invisível: rotinas de melhoria contínua e de coaching incorporadas no dia a dia de cada gestor. Rother publicou *Toyota Kata* em 2010 sistematizando esses padrões em dois "kata" (palavra japonesa para padrão de movimento praticado até virar reflexo): o Improvement Kata e o Coaching Kata. O livro influenciou profundamente comunidades de Lean, agilismo e engenharia.
+Mike Rother, pesquisador de Lean Manufacturing, passou anos estudando o Sistema Toyota de Produção e percebeu que as ferramentas visíveis (Kanban, VSM, *kaizen*) eram apenas a superfície. O que diferenciava a Toyota no longo prazo era um conjunto de rotinas diárias de melhoria contínua e de orientação (*coaching*) praticadas por cada gestor. Rother publicou *Toyota Kata* em 2010 sistematizando esses hábitos em dois *kata* (termo japonês para sequência de movimentos treinada até virar reflexo): o *Improvement Kata* e o *Coaching Kata*, adotados em operações industriais, times ágeis e engenharia de software.
 
 ##### A mecânica central (sem jargão)
 
@@ -1425,7 +1425,7 @@ Exemplo aplicado, equipe de CS de scaleup de healthtech. Direção: "cada client
 
 ---
 
-#### Framework: Spotify Model (Henrik Kniberg & Anders Ivarsson, 2012)
+#### Framework: Modelo de Squads, Tribes, Chapters e Guilds ("Spotify Model", Henrik Kniberg e Anders Ivarsson, 2012)
 
 ##### De onde vem a ferramenta (e por que sobreviveu ao filtro do tempo)
 
@@ -1433,11 +1433,11 @@ Henrik Kniberg, coach ágil da Spotify, e Anders Ivarsson publicaram em 2012 whi
 
 ##### A mecânica central (sem jargão)
 
-Estrutura organizacional para times de produto/engineering em escala. **Squad**: time pequeno (6-12 pessoas), autônomo, com missão única, multifuncional (produto + engenharia + design + eventualmente data). **Tribe**: coleção de squads que trabalham em área relacionada (ex.: Tribe de Pagamentos agrupa squads de checkout, assinatura, anti-fraude). **Chapter**: agrupamento funcional horizontal dentro de uma tribe (ex.: todos engenheiros backend de uma tribe são um Chapter, reportam ao Chapter Lead mesmo estando em squads diferentes). **Guild**: comunidade de interesse voluntária que atravessa a organização (Guild de Testing, Guild de Mobile, Guild de Acessibilidade).
+Estrutura matricial leve proposta para equipes de produto e engenharia em crescimento. **Squad**: equipe multidisciplinar pequena (6 a 12 pessoas, reunindo produto, engenharia, design e dados), autônoma e focada em uma missão contínua. **Tribe**: agrupamento de *squads* que atuam em um mesmo domínio de negócio (ex.: Tribo de Pagamentos reunindo *checkout*, assinaturas e antifraude). **Chapter**: eixo funcional horizontal dentro da tribo (ex.: engenheiros *backend* de diferentes *squads* da mesma tribo compõem um *Chapter* liderado pelo *Chapter Lead*, que no texto original de Kniberg e Ivarsson acumula a gestão funcional de pessoas e carreira com a atuação técnica direta dentro de uma *squad*, evitando virar um gestor burocrático afastado do código). **Guild**: comunidade transversal e voluntária de prática que cruza toda a empresa (testes, segurança, acessibilidade).
 
 ##### As regras do jogo
 
-Autonomia de squad como default, cada squad decide tech stack, processo, roadmap tático dentro da missão que recebeu. Alinhamento estratégico via missão clara e OKRs compartilhados, não via controle central. Chapters preservam excelência técnica (Chapter Lead é mentor técnico + carreira, não gestor operacional). Guilds disseminam conhecimento e práticas sem hierarquia.
+Autonomia de squad como padrão: cada squad define pilha técnica, rituais e *roadmap* tático dentro da missão recebida, enquanto o alinhamento estratégico vem de objetivos compartilhados e não de comando central. Os *Chapters* preservam a excelência técnica e o desenvolvimento de pessoas (no desenho original de Kniberg e Ivarsson, o *Chapter Lead* é o gestor formal de linha da sua especialidade, responsável por carreira e remuneração, mas continua atuando tecnicamente dentro de uma squad, sem dirigir a prioridade diária de produto das demais squads). As *Guilds* disseminam práticas e ferramentas transversalmente.
 
 ##### Como rodar na segunda-feira às 9h com seu time
 
@@ -1471,7 +1471,7 @@ Exemplo aplicado no Brasil: o Nubank organizou sua engenharia em equipes multidi
 
 - KR1: Implementar descoberta contínua com 3 entrevistas de usuário por PM por semana
 - KR2: Rodar 8 experimentos controlados (A/B) no trimestre com resultado decisivo
-- KR3: Documentar roadmap priorizado usando RICE para todos os features de prioridade P0/P1
+- KR3: elevar de 35% para 80% a proporção de entregas trimestrais que atingem a meta de adoção em 30 dias (apoiado pela priorização sistemática de todas as iniciativas P0/P1 via RICE).
 
 **Insight do exemplo:** OKRs boas são *mensuráveis* (números específicos), *desafiadoras* (se você atinge 100%, provavelmente foram fáceis demais, atingir 70% é sucesso), e *alinhadas* entre si (neste caso, retenção melhor viabiliza programa de indicação, ambos viabilizam canal sustentável). Recomenda-se de três a cinco objetivos por ciclo (quanto menor o time, mais perto de três); acima disso, o foco se dilui.
 
@@ -2220,7 +2220,7 @@ NÍVEL 1 - JÚNIOR
 
 NÍVEL 2 - PLENO
   Escopo: funcionalidades completas, com independência
-  Técnico: projeta soluções para problemas de complexidade média, mentora júniors
+  Técnico: projeta soluções para problemas de complexidade média, mentora juniores
   Colaboração: lidera discussão técnica no escopo próprio, comunica proativamente
   Autonomia: média - decide como dentro do que foi definido
   Promoção para N3: entrega consistente além do escopo, resolve problemas ambíguos
@@ -2406,7 +2406,7 @@ Engenharia é produto. Produto é empresa. Contratar errado em engenharia degrad
 O mercado é global, e competitivo. Dev (desenvolvedor) sênior brasileiro compete com ofertas estrangeiras em dólar. Perder três contratações seguidas para o exterior pode custar seis a doze meses de roadmap (plano de produto).
 
 > [!warning] Custo de erro em engenharia
-> Dev ruim contratado demora seis a doze meses para sair. Deixa dívida técnica. Contamina cultura. E ainda gasta tempo de sêniors que poderiam estar construindo, em code review (revisão de código) remediativo.
+> Um desenvolvedor mal contratado leva de seis a doze meses para ser desligado, deixa dívida técnica, desgasta a cultura da equipe e consome horas preciosas de engenheiros seniores em revisões de código (*code reviews*) corretivas.
 
 A diversidade de time importa. Times homogêneos têm pontos cegos previsíveis.
 
@@ -2504,7 +2504,7 @@ Júnior (início de carreira, correspondente a L1–L2 ou L3 conforme a grade un
 
 Mid, ou Pleno (L3). Autônomo em features. Contribui para decisões técnicas. Dois a cinco anos.
 
-Senior (L4 a L5). Autônomo em projetos grandes. Mentora plenos, e juniors. Técnico sólido mais comunicação. Cinco a dez anos.
+Sênior (L4 a L5): autônomo em projetos de alta complexidade, mentora plenos e juniores, combina domínio técnico com comunicação clara (tipicamente 5 a 10 anos de experiência).
 
 Staff (L6). Impacto cross-team. Define arquitetura. Multiplica o time. Raro. Dez ou mais anos, com histórico excepcional.
 
@@ -2583,9 +2583,9 @@ Entrevistadores despreparados. Chegam sem ler CV. Fazem mesma pergunta cinco vez
 
 Ignorar referência. Reference check bem feito capta sinais que cinco entrevistas não pegam.
 
-Contratar só seniors. Time sem pipeline jr, ou mid, fica caro. E tem problemas de mentoria invertida.
+Contratar apenas seniores: um time sem pipeline de juniores e plenos encarece a folha e perde capacidade de formação interna.
 
-Contratar só juniors. Sem sêniors para mentorar, os juniors não crescem. O produto decai.
+Contratar apenas juniores: sem engenheiros seniores para revisar arquitetura e orientar no dia a dia, os juniores não evoluem e a qualidade do produto degrada.
 
 Contratar o "gênio intratável" (brilliant jerk): QI alto combinado a comportamento tóxico afunda o time inteiro.
 
@@ -2778,7 +2778,7 @@ O modelo funciona bem em empresas com mais de cem engenheiros. Abaixo disso, é 
 
 Duas razões críticas que, desbalanceadas, criam problemas:
 
-**Ratio Sênior:Júnior.** Ideal tipicamente 60:40, 60% de sêniores. Abaixo disso, você acumula débito de mentoria e qualidade técnica cai. Acima disso, você gasta caro sem retorno proporcional e pode sufocar desenvolvimento de júniores. Empresas early-stage tendem a ter ratio distorcido para sênior (não há tempo de treinar júnior), empresas maduras podem absorver mais júnior.
+**Proporção entre seniores e juniores.** Uma referência equilibrada em escala gira em torno de 60:40 (60% de seniores e plenos maduros para 40% de juniores e plenos iniciais). Abaixo disso, acumula-se débito de mentoria e a qualidade técnica cai; acima disso, a folha encarece sem ganho proporcional e trava-se a formação interna. Startups nos estágios iniciais costumam concentrar seniores pela urgência de entrega, abrindo espaço para juniores à medida que a arquitetura e os processos amadurecem.
 
 **Ratio EM:IC.** Ideal 1:6-8 (um gerente para cada 6 a 8 engenheiros). Acima de 1:10, a qualidade do management cai, o gerente não consegue acompanhar cada pessoa. Abaixo de 1:5, você tem mais managers do que o necessário, com overhead e risco de micromanagement.
 
@@ -2949,7 +2949,7 @@ Calibration ignorada. Managers severos punem times. Managers lenientes favorecem
 
 EM que também é tech lead de time grande. Sobrecarga garantida. Separar.
 
-Headcount desalinhado. Crescer time sem sêniores suficientes para mentorar gera débito de qualidade.
+Quadro técnico desequilibrado: expandir o time sem engenheiros seniores suficientes para orientar a equipe gera dívida de qualidade e retrabalho.
 
 Ignorar DX interno. Toda hora gasta contornando o produto próprio é hora não produzindo valor.
 
@@ -3122,7 +3122,7 @@ Integração profunda em workflow. Modelos fine-tuned para o código-base da emp
 
 **Caso 2, bug fixing.** Bug em código legado. O dev lê stack trace, e pergunta à IA "o que pode estar causando esse erro?". A IA sugere hipóteses baseadas em código. O dev investiga. Tempo de resolução de bug cai trinta a cinquenta por cento, em casos comuns.
 
-**Caso 3, refactoring.** Tornar código mais legível, mudar padrão arquitetural, ou migrar de library antiga, para nova. Tarefas tediosas, que devs evitam. IA assistindo reduz sessenta a setenta por cento o esforço.
+**Caso 3: refatoração (*refactoring*).** Tornar o código mais legível, padronizar arquitetura ou migrar bibliotecas legadas são tarefas repetitivas que a equipe costuma postergar; com assistência de IA e suíte de testes automatizados, o esforço cai de 60% a 70%.
 
 **Caso 4, documentation.** Dev escreve pouca documentação, por preguiça, ou pressa. IA gera documentação a partir de código. O dev revisa, e ajusta. A cobertura de docs sobe substancialmente.
 
@@ -3745,7 +3745,7 @@ Copiar o organograma de uma corporação de cinco mil funcionários dentro de um
 ---
 
 > [!note] Escopo deste capítulo
-> Design organizacional (organizational design: desenho da estrutura e relações de uma empresa) é a arte de alinhar estrutura, poder formal, fluxos de comunicação e incentivos ao problema que a empresa precisa resolver. Este capítulo cobre os oito temas mais críticos para founders: a Lei de Conway, modelos de estrutura, spans and layers (amplitude de comando e camadas hierárquicas), squads autônomas, reorganizações, o que quebra nos saltos de escala, platform teams (times de plataforma interna) e o debate remoto-presencial no contexto brasileiro. Cada seção termina com o erro mais caro que startups cometem naquele tópico.
+> Desenho organizacional (*organizational design*) é a disciplina de alinhar estrutura de times, alçadas de decisão, fluxos de comunicação e incentivos ao estágio real da operação. Este capítulo examina oito temas centrais para fundadores: Lei de Conway, modelos estruturais, amplitude de comando e camadas (*spans and layers*), squads multifuncionais, reorganizações, pontos de ruptura nos saltos de escala, times de plataforma interna (*platform teams*) e os regimes presencial, híbrido e remoto no Brasil, fechando cada seção com a principal armadilha de execução.
 
 > [!important] Por que estrutura importa desde cedo
 > Founders costumam tratar design organizacional como problema de escala. Não é. A estrutura que você improvisa com 8 pessoas cria path dependence (dependência de trajetória, em que escolhas iniciais condicionam o futuro) que persiste até os 80. Cada decisão de reporting line (linha de reporte hierárquico), cada silo tolerado, cada ambiguidade de ownership (responsabilidade primária por uma área) que passa vira dívida organizacional. Dívida organizacional é mais cara de resolver do que dívida técnica, porque envolve pessoas, expectativas e política.
@@ -3790,7 +3790,7 @@ O fundador que estrutura o ciclo completo de gestão de pessoas atravessa divers
 - [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 8 — FOUNDER MODE, DELEGAÇÃO, GESTÃO DE TEMPO E CADÊNCIA OPERACIONAL DO CEO|Capítulo 8 (Founder Mode, Delegação, Gestão de Tempo e Cadência Operacional do CEO) (Vol. 6)]], founder mode e delegacao
 - [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 8 — FOUNDER MODE, DELEGAÇÃO, GESTÃO DE TEMPO E CADÊNCIA OPERACIONAL DO CEO|Capítulo 8 (Founder Mode, Delegação, Gestão de Tempo e Cadência Operacional do CEO) (Vol. 6)]], tempo e cadence
 - [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 1 — DINHEIRO PESSOAL DO FUNDADOR|Capítulo 1 (Dinheiro Pessoal do Fundador) (Vol. 1)]], dinheiro pessoal
-- [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 2 — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Capítulo 2 (Saúde Mental, Dinâmica de cofundadores e Humanidade do Fundador) (Vol. 1)]], saude mental e cofounders
+- [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 2 — SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Capítulo 2 (Saúde Mental, Dinâmica de Cofundadores e Humanidade do Fundador) (Vol. 1)]], saúde mental e relação entre cofundadores
 
 **Comunicacao** (sete capítulos, com mapa de delimitacao próprio em cada um)
 
@@ -3840,7 +3840,7 @@ Existem quatro arquétipos de estrutura organizacional relevantes para startups 
 
 Agrupa pessoas por especialidade: todos os engenheiros juntos, todos os designers juntos, todos os analistas de dados juntos. É o padrão de quase toda empresa até 30 pessoas porque reduz custo de coordenação dentro de cada função e facilita desenvolvimento de expertise.
 
-O problema aparece quando a entrega de valor para o cliente cruza funções: o que é sempre. Uma feature de produto precisa de design, engenharia e dados. Se esses três grupos têm chefias diferentes, calendários diferentes e prioridades diferentes, a entrega fica refém da coordenação entre silos. O custo de coordenação cresce exponencialmente com o número de handoffs.
+O problema aparece quando a entrega de valor para o cliente cruza múltiplas funções: lançar uma funcionalidade exige coordenação entre design, engenharia e dados. Se esses três grupos respondem a chefias, calendários e metas distintos, o projeto fica refém da fila entre departamentos, e o atraso acumulado cresce de forma combinatória a cada passagem de bastão (*handoff*).
 
 #### Estrutura divisional
 
@@ -3848,9 +3848,9 @@ Agrupa pessoas por produto, mercado ou cliente. Cada divisão tem suas próprias
 
 Maximiza autonomia e velocidade dentro de cada divisão. O custo é duplicação de capacidade: cada divisão reinventa soluções que outra já resolveu. Plataforma, infraestrutura e ferramental interno ficam fragmentados. Funciona bem quando os produtos são realmente independentes (mercados distintos, tecnologias distintas). Falha quando há dependências técnicas ou de dados entre divisões que a estrutura força a ignorar.
 
-#### Modelo de squads (e a crítica ao Spotify Model)
+#### Modelo de squads e por que não copiá-lo no piloto automático
 
-O modelo da Spotify ficou famoso a partir do artigo de Henrik Kniberg e Anders Ivarsson (2012) e dos dois vídeos de Kniberg sobre a cultura de engenharia da empresa (2014) descrevendo como o Spotify organizava times. O modelo tem quatro conceitos:
+Popularizado pelo artigo de Henrik Kniberg e Anders Ivarsson (2012) e pelos vídeos de cultura de engenharia de 2014 (cujo detalhamento completo de *Squads*, *Tribes*, *Chapters* e *Guilds* está no [[#Framework: Modelo de Squads, Tribes, Chapters e Guilds ("Spotify Model", Henrik Kniberg e Anders Ivarsson, 2012)|bloco do modelo na Fase 17]]), esse desenho organizacional nasceu como retrato aspiracional de um momento específico e os próprios autores desaconselham copiá-lo como receita pronta. Seus quatro elementos estruturais resumem-se a:
 
 - **Squad**: time pequeno (6 a 12 pessoas) com missão específica, autonomia para decidir como trabalhar, dono de uma área de produto.
 - **Tribe**: conjunto de squads com afinidade de produto ou domínio, agrupadas geograficamente.
@@ -3900,7 +3900,7 @@ Cada camada adicional na hierarquia tem custos que não aparecem no organograma:
 > [!tip] Regra prática de camadas por tamanho
 > Empresas de até 50 pessoas funcionam bem com 2 camadas (CEO mais líderes de área). Empresas de 50 a 150 pessoas raramente precisam de mais de 3 camadas. Empresas de 150 a 500 pessoas chegam a 4. Cada camada acima desse referencial precisa de justificativa explícita. Não "faz sentido ter um gerente médio aqui", mas "sem essa camada, este problema específico não tem solução".
 
-Span otimo varia conforme o time e presencial, híbrido ou totalmente distribuído. Para a disciplina de remoto e híbrido, ver [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 15 — REMOTE, HYBRID E DISTRIBUÍDO COMO DISCIPLINA|Capítulo 15 (Remote, Hybrid e Distribuído como Disciplina) (Vol. 6)]].
+O *span* ótimo varia conforme o time é presencial, híbrido ou totalmente distribuído. Para a disciplina de trabalho remoto e híbrido, ver [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 15 — REMOTE, HYBRID E DISTRIBUÍDO COMO DISCIPLINA|Capítulo 15 (Remote, Hybrid e Distribuído como Disciplina) (Vol. 6)]].
 
 #### Quando criar nova camada
 
@@ -3982,7 +3982,7 @@ Se a reorganização for necessária, execute rápido e comunique honestamente.
 
 3. **Defina claramente o novo escopo de cada time antes de anunciar.** Reorganizações que anunciam nova estrutura sem definir escopos criam semanas de ambiguidade que destroem produtividade.
 
-4. **Aceite 6 meses de perda de velocidade.** Este é o número que poucos founders aceitam: toda reorganização custa em torno de 3 a 6 meses de produtividade, porque as pessoas precisam aprender a trabalhar em novos agrupamentos, os processos precisam ser redesenhados e as relações de confiança precisam ser reconstruídas. Se você não pode absorver essa perda agora, não reorganize agora.
+4. **Planeje de 3 a 6 meses de acomodação.** Poucos fundadores colocam essa conta no papel: toda reorganização consome de 3 a 6 meses até recuperar o ritmo anterior, porque as equipes precisam renegociar fronteiras de código, ajustar rituais e reconstruir relações de confiança. Se o caixa ou o momento comercial não comportam essa transição agora, adie a mudança estrutural.
 
 ---
 
@@ -4090,7 +4090,7 @@ Os pontos mais relevantes para startups:
 - **Adicional de insalubridade**: para trabalho em casa, o risco de adicional de insalubridade é baixo, mas não zero: especialmente para atividades que envolvem exposição a substâncias ou equipamentos específicos.
 
 > [!warning] O passivo oculto do "remoto informal"
-> Muitas startups brasileiras operam em remoto de facto sem ter os contratos ajustados para teletrabalho. Isso cria passivo trabalhista porque os contratos anteriores presumem trabalho presencial. A passagem do regime presencial para o teletrabalho exige sempre mútuo acordo registrado em aditivo contratual (art. 75-C, §1º, da CLT), definindo por escrito a responsabilidade por equipamentos e reembolso de despesas (art. 75-D) e a instrução expressa sobre ergonomia e saúde (art. 75-E; valide sempre com assessoria jurídica trabalhista). Consulte jurídico antes de adotar remoto permanente.
+> Muitas startups brasileiras operam em regime remoto de fato sem ajustar os contratos de trabalho para teletrabalho, criando passivo trabalhista porque o instrumento original presume jornada presencial. A mudança do regime presencial para o teletrabalho exige mútuo acordo registrado em aditivo contratual (art. 75-C, § 1º, da CLT), definindo por escrito a responsabilidade por equipamentos e reembolso de despesas (art. 75-D) e a instrução expressa sobre ergonomia e saúde (art. 75-E; valide sempre com assessoria jurídica trabalhista).
 
 #### O que as melhores startups brasileiras fazem
 
@@ -4136,7 +4136,7 @@ Limiares de escala     Ignorar o limiar de 150 pessoas - cultura fragmenta
                        sem gestão média e codificação explícita de valores
 Platform teams         Construir plataforma sem demanda dos times de produto
  - infrastructure tax supera benefício
-Remoto/presencial      Operar remoto de facto sem ajustar contratos CLT - 
+Remoto/presencial      Operar remoto de fato sem ajustar contratos CLT - 
                        passivo trabalhista silencioso
 ```
 
@@ -4154,15 +4154,15 @@ Seed           Times têm missão escrita (não lista de features)?
                Existe ritual de alinhamento semanal?
                Contratos CLT refletem modalidade de trabalho real?
 
-Serie A        Escopos de squads estão documentados e sem sobreposição?
+Série A        Escopos de squads estão documentados e sem sobreposição?
                Spans de gestão são sustentáveis (max 8-10 reports)?
                Cultura está codificada em comportamentos concretos?
 
-Serie B        Platform team criado com modelo de produto interno?
+Série B        Platform team criado com modelo de produto interno?
                Hierarquia tem no máximo 4 camadas?
                Processo de hiring tem calibração explícita de cultura?
 
-Serie C+       Reorganização foi evitada ou executada com plano de 6 meses?
+Série C+       Reorganização foi evitada ou executada com plano de 6 meses?
                Estrutura espelha arquitetura técnica desejada (Conway)?
                Gestão média está multiplicando cultura ou burocratizando?
 ```
@@ -4715,7 +4715,7 @@ A solução está na arquitetura de informação: definir quem sabe o quê, quan
 
 ### 2. O Ritual do All-Hands: Estrutura, Métricas Reais, Perguntas Sem Filtro e o Que Nunca Esconder
 
-O all-hands é o ritual de alinhamento coletivo mais importante da empresa. Não é apresentação de PowerPoint para o time. É o momento em que a liderança mostra o mapa completo e convida perguntas honestas.
+O *all-hands* reúne toda a empresa na mesma página: em vez de uma leitura burocrática de slides, funciona como o fórum regular em que a liderança compartilha o contexto completo do trimestre e responde a perguntas abertas da equipe.
 
 **Frequência recomendada por estágio:**
 
@@ -4954,7 +4954,7 @@ ESTRUTURA DE CANAIS - REFERÊNCIA
 
 ### 7. Feedback Ascendente: Como o Time Fala com a Liderança sem Medo
 
-O mecanismo mais importante e menos implementado de comunicação interna é o feedback ascendente: a capacidade de o time dar feedback honesto para a liderança sem consequência. Sem esse mecanismo, a empresa opera com informação filtrada: a liderança recebe a versão polida da realidade, toma decisões com dados errados, e se surpreende quando pessoas-chave pedem demissão.
+Um canal raramente estruturado na comunicação interna é o *feedback* ascendente: a possibilidade de a equipe relatar problemas reais à liderança sem receio de retaliação. Sem esse termômetro, a diretoria recebe apenas versões filtradas da operação, decide sobre premissas distorcidas e só descobre o desgaste quando profissionais-chave pedem demissão.
 
 **Por que o feedback ascendente é difícil:**
 
@@ -5111,14 +5111,14 @@ Você precisa dominar **O Gargalo Móvel da Teoria das Restrições** e **A Obse
 ---
 
 > [!abstract] Posição no livro
-> Operação como vantagem competitiva, processo, cadencia e instrumentacao para escala previsivel. Vizinhos relevantes,
+> Operação como vantagem competitiva: processos, cadência e instrumentação para escalar com previsibilidade. Capítulos vizinhos:
 > - [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 8 — GESTÃO DE RISCO E SEGUROS PARA STARTUPS|Capítulo 8 (Gestão de Risco e Seguros para Startups) (Vol. 5)]], transferência de risco residual via seguros
 > - [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9 — GESTÃO DE CRISE, CONTINUIDADE OPERACIONAL E COMUNICAÇÃO CRÍTICA|Capítulo 9 (Gestão de Crise, Continuidade Operacional e Comunicação Crítica) (Vol. 9)]], BCP e DRP como camada operacional de continuidade
 > - [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 13 — SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA|Capítulo 13 (Segurança da Informação: Da Certificação à Engenharia) (Vol. 8)]], segurança como disciplina operacional
 > - [[#CAPÍTULO 7 — DESIGN ORGANIZACIONAL|Capítulo 7 (Design Organizacional)]], desenho de equipes, papéis e cadências que sustentam a operação
 > - Capítulos setoriais com operação física (como Saúde, Indústria, Logística e Varejo no Volume 10), quando o playbook exige integração com o mundo físico
 
-Processos, Infraestrutura e Excelência Operacional
+
 
 ---
 
