@@ -68,7 +68,7 @@ const EXTRA_GLOSSARY_BY_LETTER = {
     `**Holding (holding familiar e patrimonial).** Sociedade constituída para deter participações societárias em empresas operacionais (holding pura ou mista) ou bens imóveis e ativos financeiros da família, utilizada para governança sucessória, proteção patrimonial lícita e eficiência no recebimento de dividendos. Ver [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 21 — A EMPRESA CASH COW (DIVIDENDOS PERPÉTUOS), HOLDINGS PATRIMONIAIS, FAMILY OFFICE E GESTÃO DE FORTUNA PÓS-EXIT|Capítulo 21 (Vol. 9)]].`,
   ],
   I: [
-    `**IA generativa e LLM (Large Language Model).** Modelos fundacionais de inteligência artificial treinados em grandes volumes de dados para gerar texto, código, imagem, áudio e ações estruturadas (agentes), Frequentemente combinados a bases proprietárias via RAG (Retrieval-Augmented Generation). Em startups, atuam tanto como acelerador de produtividade interna quanto como componente central de produtos AI-native (cujo custo de inferência impacta diretamente o COGS e a margem bruta). Ver [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 10 — IA GENERATIVA E AGENTES COMO COPILOTO E ACELERADOR DO FUNDADOR (2026)|Capítulo 10 (Vol. 1)]], [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 10 — AI COMO PARTE DO PRODUTO (AI-NATIVE PRODUCT)|Capítulo 10 (Vol. 4)]] e [[#CAPÍTULO 42 — AI-NATIVE, MODELOS FUNDACIONAIS, AGENTES AUTÔNOMOS, INFRAESTRUTURA DE DADOS E MLOPS|Capítulo 42 (Vol. 10)]].`,
+    `**IA generativa e LLM (Large Language Model).** Modelos fundacionais de inteligência artificial treinados em grandes volumes de dados para gerar texto, código, imagem, áudio e ações estruturadas (agentes), frequentemente combinados a bases proprietárias via RAG (Retrieval-Augmented Generation). Em startups, atuam tanto como acelerador de produtividade interna quanto como componente central de produtos AI-native (cujo custo de inferência impacta diretamente o COGS e a margem bruta). Ver [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 10 — IA GENERATIVA E AGENTES COMO COPILOTO E ACELERADOR DO FUNDADOR (2026)|Capítulo 10 (Vol. 1)]], [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 10 — AI COMO PARTE DO PRODUTO (AI-NATIVE PRODUCT)|Capítulo 10 (Vol. 4)]] e [[#CAPÍTULO 42 — AI-NATIVE, MODELOS FUNDACIONAIS, AGENTES AUTÔNOMOS, INFRAESTRUTURA DE DADOS E MLOPS|Capítulo 42 (Vol. 10)]].`,
     `**Investidor-anjo.** Pessoa física (empresário, executivo ou fundador experiente) que investe capital próprio nos estágios iniciais de uma startup (pré-seed e seed), agregando mentoria e rede de contatos. No Brasil, a LC 155/2016 e o Marco Legal das Startups (LC 182/2021) blindam o investidor-anjo contra responsabilidade por dívidas da empresa quando não exerce poder de gerência. Ver [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 9 — CAPTAÇÃO DE EQUITY: PLANEJAMENTO DE RODADA, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 9 (Vol. 5)]] e [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 1 — MARCO LEGAL DAS STARTUPS: LC 182/2021|Capítulo 1 (Vol. 8)]].`,
     `**ISP (Internet Service Provider, provedor de acesso à internet).** Operadora que fornece conectividade à internet. Neste livro, designa sobretudo os provedores regionais de fibra óptica (FTTH) do interior e das periferias brasileiras, que operam mediante outorga de SCM (Serviço de Comunicação Multimídia) da ANATEL ou dispensa de autorização para pequeno porte. Ver [[#CAPÍTULO 27 — TELECOMUNICAÇÕES, PROVEDORES REGIONAIS DE FIBRA (ISPS), REDES PRIVATIVAS 5G, TORRES E DATA CENTERS DE IA|Capítulo 27 (Vol. 10)]].`,
   ],
@@ -396,10 +396,32 @@ function enrichRawGlossaryBody(body) {
     })
     .join('\n');
 
-  // 6) Reordenar alfabeticamente cada bloco de letra ### A .. ### Z (#5456)
-  out = out.replace(/(### [A-Z]\n+)([\s\S]*?)(?=\n---\n+\n### [A-Z]|\n*$)/g, (_, header, content) => {
-    return `${header}${sortGlossaryParagraphs(content)}\n`;
-  });
+  // 6) Reagrupar cada verbete na sua letra inicial real (ex.: "Conselho (board)" -> C, "Preferência de liquidação" -> P) e ordenar alfabeticamente (#5456, #5460)
+  const firstLetterIdx = out.search(/^### [A-Z]\b/m);
+  if (firstLetterIdx >= 0) {
+    const introPart = out.slice(0, firstLetterIdx).replace(/(?:\n+---)+\s*$/, '').trim();
+    const restPart = out.slice(firstLetterIdx);
+    const byLetter = new Map();
+    for (const line of restPart.split(/\n+/)) {
+      const t = line.trim();
+      if (!t.startsWith('**')) continue;
+      const head = t.replace(/^\*\*([^*]+?)\.\*\*[\s\S]*$/, '$1').trim();
+      const firstChar = head
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .replace(/[^A-Za-z]/g, '')
+        .charAt(0)
+        .toUpperCase() || 'A';
+      if (!byLetter.has(firstChar)) byLetter.set(firstChar, []);
+      byLetter.get(firstChar).push(t);
+    }
+    const sortedLetters = [...byLetter.keys()].sort();
+    const letterBlocks = sortedLetters.map((L) => {
+      const content = sortGlossaryParagraphs(byLetter.get(L).join('\n\n'));
+      return `### ${L}\n\n${content}`;
+    });
+    out = `${introPart}\n\n---\n\n${letterBlocks.join('\n\n---\n\n')}\n`;
+  }
 
   return out;
 }

@@ -2556,7 +2556,7 @@ flowchart TB
 
 ##### O momento exato de colocar este canvas na parede
 
-Use o MVP Canvas na Fase 8 (prototipagem e MVP) como artefato de entrada: antes de qualquer construção. Para cada MVP que o time planeja lançar, preencha o canvas em 30-45 minutos com as pessoas envolvidas. Em times pós-PMF com discovery contínuo, MVP Canvas precede qualquer sprint de desenvolvimento de feature nova: cada feature experimentada como "MVP de aprendizado" antes de virar permanente.
+Use o MVP Canvas no Passo 7 desta Fase 9 (para transformar o conceito escolhido em protótipo testável) e novamente na [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 11 — MVP E EXPERIMENTOS DE MERCADO|Fase 11 (Vol. 4)]], antes de construir o MVP em produção. Para cada MVP que o time planeja lançar, preencha o canvas em 30-45 minutos com as pessoas envolvidas. Em times pós-PMF com discovery contínuo, MVP Canvas precede qualquer sprint de desenvolvimento de feature nova: cada feature experimentada como "MVP de aprendizado" antes de virar permanente.
 
 ##### As regras de ouro para preencher sem se enganar
 

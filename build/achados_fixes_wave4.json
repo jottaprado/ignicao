@@ -278,5 +278,285 @@
     "code": "N6",
     "from": "Essa é a engrenagem da **A Recorrência Antissinistro da Assistência Familiar Integrada ao Ativo Físico**: milhões de famílias brasileiras pagam religiosamente de R$ 45 a R$ 95 por mês no cartão, boleto ou conta de energia para proteger a família inteira.",
     "to": "Essa é a engrenagem da **mensalidade que ninguém cancela (o funeral pago em vida integrado ao ativo físico)**: milhões de famílias brasileiras pagam religiosamente de R$ 45 a R$ 95 por mês no cartão, boleto ou conta de energia para proteger a família inteira."
+  },
+  {
+    "id": "95",
+    "vol": "1",
+    "code": "S4",
+    "from": "Aplicação: apêndice sobre Pivot, e o conceito de \"determinação flexível\"",
+    "to": "Aplicação: [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 11 — PIVÔ: QUANDO, COMO E COM QUE DADOS MUDAR DE DIREÇÃO|Capítulo 11: Pivô (Vol. 4)]], e o conceito de \"determinação flexível\""
+  },
+  {
+    "id": "212",
+    "vol": "1",
+    "code": "E9",
+    "from": "Passo 1: Faça em cascata, mas itere. As escolhas influenciam-se mutuamente. Começar pela aspiração, descer até sistemas, voltar e ajustar. Leva semanas ou meses, não é workshop de um dia.",
+    "to": "**Passo 1: faça em cascata, mas itere.** As cinco escolhas influenciam-se mutuamente: comece pela aspiração vencedora, desça até os sistemas de gestão e volte para ajustar o conjunto. Esse alinhamento leva semanas ou meses, não um workshop de um único dia."
+  },
+  {
+    "id": "263",
+    "vol": "1",
+    "code": "C3",
+    "from": "Howard Marks, cofundador da Oaktree Capital (US$ 180B AUM), cunhou o termo no livro *The Most Important Thing* (2011) e desenvolveu em memos aos investidores.",
+    "to": "Howard Marks, cofundador da Oaktree Capital, popularizou entre investidores a expressão *second-level thinking* (pensamento de segundo nível) no livro *The Most Important Thing* (2011) e em seus memorandos, aplicando ao mercado financeiro a tradição clássica de análise de efeitos secundários de Frédéric Bastiat e Henry Hazlitt."
+  },
+  {
+    "id": "338",
+    "vol": "1",
+    "code": "S4",
+    "from": "acordo de saída cobrindo vesting, liquidação de equity não vestida, não concorrência e confidencialidade",
+    "to": "acordo formal de saída cobrindo *vesting*, reversão ou liquidação das quotas ainda não adquiridas pelo *vesting*, cláusula de não concorrência (ver [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 4 — NON-COMPETE, NON-SOLICIT E PROTEÇÃO DE ATIVOS INTANGÍVEIS NO BRASIL|Capítulo 4: Non-Compete e Proteção de Ativos Intangíveis (Vol. 8)]]) e confidencialidade (para o rito completo de dissolução societária, ver [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 3 — DISPUTA SOCIETÁRIA, DEADLOCK E SAÍDA DE SÓCIO|Capítulo 3: Disputa Societária, Deadlock e Saída de Sócio (Vol. 9)]])"
+  },
+  {
+    "id": "410",
+    "vol": "1",
+    "code": "E12",
+    "from": "No Brasil — um país continental onde o PIB pulsa no interior, nas cidades médias, nos serviços essenciais e nas mãos de fundadoras e fundadores que conhecem a dor real da população —, **não se encaixar no molde de \"garoto de 23 anos com moletom do Vale do Silício\" frequentemente é a sua maior vantagem assimétrica.**",
+    "to": "No Brasil, o PIB pulsa no interior, nas cidades médias e nos serviços essenciais. Nesse país real, não se parecer com o estereótipo do garoto de moletom do Vale do Silício costuma ser uma vantagem competitiva genuína."
+  },
+  {
+    "id": "859a",
+    "vol": "2",
+    "code": "S4",
+    "from": "Entrevistas com clientes que avaliaram concorrentes (win/loss: ver DX.4).",
+    "to": "Entrevistas com clientes que avaliaram concorrentes (*win/loss*: ver [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 4 — BRANDING, POSICIONAMENTO DE MARCA E PRODUCT MARKETING (PMM)|Capítulo 4: Product Marketing, seção 4.4 (Vol. 4)]])."
+  },
+  {
+    "id": "859b",
+    "vol": "2",
+    "code": "S4",
+    "from": "Atualização de battle cards (ver EE.6).",
+    "to": "Atualização de *battle cards* (ver a seção 2.6 deste capítulo)."
+  },
+  {
+    "id": "1172",
+    "vol": "3",
+    "code": "S4",
+    "from": "Use o MVP Canvas na Fase 8 (prototipagem e MVP) como artefato de entrada: antes de qualquer construção.",
+    "to": "Use o MVP Canvas no Passo 7 desta Fase 9 (para transformar o conceito escolhido em protótipo testável) e novamente na [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 11 — MVP E EXPERIMENTOS DE MERCADO|Fase 11 (Vol. 4)]], antes de construir o MVP em produção."
+  },
+  {
+    "id": "1172_v4",
+    "vol": "4",
+    "code": "S4",
+    "from": "Use o MVP Canvas na Fase 8 (prototipagem e MVP) como artefato de entrada: antes de qualquer construção.",
+    "to": "Use o MVP Canvas como artefato de entrada nesta Fase 11 (e desde a prototipagem na [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 9 — IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES|Fase 9 (Vol. 3)]]), antes de qualquer construção em código."
+  },
+  {
+    "id": "1396",
+    "vol": "4",
+    "code": "S4",
+    "from": "> [!note] Capítulo 1: GTM Playbook\n> Antes de recrutar os primeiros usuários, defina o motion de aquisição. O [[#CAPÍTULO 1 — GTM PLAYBOOK E ARQUITETURA DE CANAIS: DA PRIMEIRA VENDA AO PRIMEIRO MILHÃO DE ARR|Capítulo 1: GTM Playbook]] cobre como identificar o ICP com precisão suficiente para o outbound manual desta fase, calcular CAC por canal antes de investir, e estruturar o caminho até o primeiro ARR. A escolha agora entre o modelo de crescimento puxado pelo produto (PLG) e o puxado por vendas (SLG) define o que você vai medir nesta Fase 11 e na Fase 12.",
+    "to": "> [!note] Para ir além nesta Fase 11 (Capítulos de aprofundamento)\n> Ao longo dos passos desta fase, consulte os capítulos específicos deste volume conforme a sua necessidade prática: o [[#CAPÍTULO 1 — GTM PLAYBOOK E ARQUITETURA DE CANAIS: DA PRIMEIRA VENDA AO PRIMEIRO MILHÃO DE ARR|Capítulo 1: GTM Playbook]] (para escolher entre movimento puxado pelo produto ou por vendas e priorizar os dois primeiros canais de aquisição), o [[#CAPÍTULO 6 — PRICING STRATEGY E ECONOMIA DA RECORRÊNCIA (SUBSCRIPTION ECONOMY)|Capítulo 6: Pricing Strategy]] (para calibrar cobrança e elasticidade no Passo 8) e o [[#CAPÍTULO 8 — CUSTOMER SUCCESS (CS) E CUSTOMER EXPERIENCE (CX): DA JORNADA AO CHURN ZERO E NRR POSITIVO|Capítulo 8: Customer Success e CX]] (para medir o *time-to-value* no *onboarding* manual do Passo 4)."
+  },
+  {
+    "id": "1475",
+    "vol": "4",
+    "code": "E2",
+    "from": "Inclua no \"gasto total\" quatro coisas. Ads pagos. Salário ou tempo de quem vende ou faz marketing (mesmo você: valorize o seu tempo). Ferramentas (CRM, automação, design). Custos de eventos, brindes e campanhas.",
+    "to": "Some quatro componentes no gasto total de aquisição: (1) mídia paga (*ads*); (2) salário ou custo-hora proporcional de quem vende ou faz marketing (incluindo o tempo dos próprios fundadores); (3) licenças de ferramentas comerciais (CRM, automação, prospecção e design); e (4) custos diretos de eventos, feiras, brindes e campanhas."
+  },
+  {
+    "id": "1478",
+    "vol": "4",
+    "code": "S4",
+    "from": "É a mesma ferramenta vista por dois ângulos: modelo (aqui) e instrumento jurídico (Fase 13).",
+    "to": "É a mesma ferramenta vista por dois ângulos complementares: modelo econômico-financeiro de diluição (aqui na Fase 12) e instrumento societário vinculante (na [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18, no Vol. 8]])."
+  },
+  {
+    "id": "1619_1722",
+    "vol": "4",
+    "code": "S4",
+    "from": "**Ver também:** [[#CAPÍTULO 4 — BRANDING, POSICIONAMENTO DE MARCA E PRODUCT MARKETING (PMM)|Capítulo 4: Product Marketing]], [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 1 — BOARD E GOVERNANCE|Capítulo 1: Métricas de Crescimento (Vol. 9)]], [[IGNICAO-Vol-2-Descoberta-e-Mercado#CAPÍTULO 3 — CASOS DE FRACASSO BRASILEIROS E LIÇÕES|Capítulo 3: Inside Sales e SDR (Vol. 2)]], [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 4 — MARKETPLACES, PLATAFORMAS E EFEITOS DE REDE: LIQUIDEZ, OVO-E-GALINHA E RISCO DE PLATAFORMA|Capítulo 4: Marketplace Dynamics (Vol. 3)]], [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 2 — MATURIDADE (TRL/CRL), DECISÃO POR GATES E FECHAMENTO DE FASE (COMMITTED NEXT MOVE)|Capítulo 2: Modelo de Negócio e Unit Economics (Vol. 3)]]",
+    "to": "**Ver também:** [[#CAPÍTULO 4 — BRANDING, POSICIONAMENTO DE MARCA E PRODUCT MARKETING (PMM)|Capítulo 4: Branding, Posicionamento e Product Marketing]], [[#CAPÍTULO 5 — SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|Capítulo 5: Sales (do Outbound ao Renewal)]], [[#CAPÍTULO 9 — DADOS, ANALYTICS E EXPERIMENTAÇÃO|Capítulo 9: Dados, Analytics e Experimentação]], [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 4 — MARKETPLACES, PLATAFORMAS E EFEITOS DE REDE: LIQUIDEZ, OVO-E-GALINHA E RISCO DE PLATAFORMA|Capítulo 4: Marketplaces, Plataformas e Efeitos de Rede (Vol. 3)]] e [[IGNICAO-Vol-5-Financas-e-Captacao#FASE 14 — CAPITAL PARA ESCALA, RODADAS E EFICIÊNCIA FINANCEIRA|Fase 14: Unit Economics e Eficiência Financeira (Vol. 5)]]."
+  },
+  {
+    "id": "1722_b",
+    "vol": "4",
+    "code": "S4",
+    "from": "[[#CAPÍTULO 2 — CRESCIMENTO ORGÂNICO COMPOSTO: CONTENT MARKETING, SEO E COMMUNITY BUILDING|Capítulo 2: Content Marketing e SEO como Disciplina]]. [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 15 — LIQUIDEZ SECUNDÁRIA (SECONDARIES): REALIZAÇÃO PARCIAL DE CAPITAL PARA FUNDADORES, EXECUTIVOS E INVESTIDORES ANTES DO EXIT|Capítulo 15 (Liquidez Secundária (Secondaries): Realização Parcial de Capital para Fundadores, Executivos e Investidores Antes do Exit) (Vol. 9)]], Growth e Aquisição. [[#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvases Visuais da Fase]], Canvases e Mapas Visuais. [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 10 — PERFORMANCE REVIEWS ESTRUTURADOS: CICLO, CALIBRAÇÃO E CONEXÃO COM COMPENSAÇÃO|Capítulo 10 (Performance Reviews Estruturados: Ciclo, Calibração e Conexão com Compensação) (Vol. 6)]], Métricas e Dashboard de Negócio.",
+    "to": "[[#CAPÍTULO 1 — GTM PLAYBOOK E ARQUITETURA DE CANAIS: DA PRIMEIRA VENDA AO PRIMEIRO MILHÃO DE ARR|Capítulo 1: GTM Playbook e Arquitetura de Canais]], [[#CAPÍTULO 2 — CRESCIMENTO ORGÂNICO COMPOSTO: CONTENT MARKETING, SEO E COMMUNITY BUILDING|Capítulo 2: Crescimento Orgânico Composto (SEO e Comunidade)]], [[#CAPÍTULO 9 — DADOS, ANALYTICS E EXPERIMENTAÇÃO|Capítulo 9: Dados, Analytics e Experimentação]] e [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 1 — GROWTH COMO FUNÇÃO ORGANIZACIONAL: TIME DE GROWTH, BUILD VS HIRE, RELAÇÃO COM PRODUTO|Capítulo 1: Growth como Função Organizacional (Vol. 6)]]."
+  },
+  {
+    "id": "2676",
+    "vol": "6",
+    "code": "S4",
+    "from": "Leia junto com a [[#FASE 15 — MÁQUINA DE CRESCIMENTO E EXPANSÃO EM ESCALA|Fase 15: Máquina de Crescimento e Expansão em Escala]] e a Fase 15: Máquina de Crescimento e Expansão em Escala.",
+    "to": "Leia junto com a [[#FASE 15 — MÁQUINA DE CRESCIMENTO E EXPANSÃO EM ESCALA|Fase 15: Máquina de Crescimento e Expansão em Escala]]."
+  },
+  {
+    "id": "2700a",
+    "vol": "6",
+    "code": "S4",
+    "from": "Este capítulo complementa o [[#CAPÍTULO 2 — VENDAS COMPLEXAS ENTERPRISE: CICLO LONGO, ALTO VALOR, MÚLTIPLOS DECISORES|Capítulo 2: Vendas Complexas Enterprise]] e o [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 1 — BOARD E GOVERNANCE|Capítulo 1: Métricas de Crescimento (Vol. 9)]].",
+    "to": "Este capítulo complementa o [[#CAPÍTULO 2 — VENDAS COMPLEXAS ENTERPRISE: CICLO LONGO, ALTO VALOR, MÚLTIPLOS DECISORES|Capítulo 2: Vendas Complexas Enterprise]], o [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 9 — DADOS, ANALYTICS E EXPERIMENTAÇÃO|Capítulo 9: Dados, Analytics e Experimentação (Vol. 4)]] e o [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 4 — PLANEJAMENTO FINANCEIRO (FP&A), ORÇAMENTO E REVENUE FORECASTING|Capítulo 4: Planejamento Financeiro (FP&A) e Revenue Forecasting (Vol. 5)]]."
+  },
+  {
+    "id": "2700b",
+    "vol": "6",
+    "code": "S4",
+    "from": "- [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 1 — BOARD E GOVERNANCE|Capítulo 1: Métricas de Crescimento (Vol. 9)]]",
+    "to": "- [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 4 — PLANEJAMENTO FINANCEIRO (FP&A), ORÇAMENTO E REVENUE FORECASTING|Capítulo 4: Planejamento Financeiro (FP&A), Orçamento e Revenue Forecasting (Vol. 5)]]"
+  },
+  {
+    "id": "2746",
+    "vol": "6",
+    "code": "S4",
+    "from": "A definição do ICP, feita na [[IGNICAO-Vol-1-Ideacao#FASE 2 — ARTICULAÇÃO E CAPTURA DA IDEIA|Fase 2: Descoberta do Problema (Vol. 1)]], é o insumo mais importante para qualificar parceiros.",
+    "to": "A definição do ICP, iniciada na [[IGNICAO-Vol-1-Ideacao#FASE 2 — ARTICULAÇÃO E CAPTURA DA IDEIA|Fase 2: Articulação e Captura da Ideia (Vol. 1)]] e validada em campo nas [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 4 — DESCOBERTA DO PROBLEMA|Fases 4 e 5: Descoberta do Problema e Pesquisa com Usuários (Vol. 2)]], é o insumo mais importante para qualificar parceiros."
+  },
+  {
+    "id": "3005",
+    "vol": "6",
+    "code": "S4",
+    "from": "A [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18 (Vol. 8)]] cobre cap table (quadro societário), vesting (aquisição progressiva da participação) de fundadores e estrutura societária. O [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 1 — MARCO LEGAL DAS STARTUPS: LC 182/2021|Capítulo 1 (Marco Legal das Startups: Lc 182/2021) (Vol. 8)]] cobre o COCP e o investidor-anjo. O [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 2 — CONTABILIDADE, REGIMES FISCAIS E TRIBUTÁRIO ESTRATÉGICO (REFORMA IBS/CBS E INCENTIVOS)|Capítulo 2 (Contabilidade, Regimes Fiscais e Tributário Estratégico (Reforma Ibs/cbs e Incentivos)) (Vol. 5)]] cobre tributação operacional. Este capítulo cobre os instrumentos de equity (participação societária) para colaboradores, stock options (opções de compra), phantom shares (ações fantasmas), RSUs (Restricted Stock Units, ações restritas), com foco na estruturação jurídica e no principal problema prático, a tributação.",
+    "to": "Enquanto a estrutura societária de fundadores, o Marco Legal das Startups e a tributação operacional da empresa são detalhados na tabela de conexões deste capítulo, o foco aqui recai sobre os quatro instrumentos de participação de longo prazo para executivos e colaboradores (*stock options*, *phantom shares*, *RSUs* e bônus de subscrição), sua modelagem contratual e seu enquadramento fiscal e previdenciário no Brasil."
+  },
+  {
+    "id": "3339",
+    "vol": "7",
+    "code": "S4",
+    "from": "- [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 21 — HARDWARE E DEEP TECH: CONSTRUIR NEGÓCIO COM FABRICAÇÃO, IP E HORIZONTES LONGOS|Capítulo 21: Cultura e Gestão de Pessoas (Vol. 10)]] – como introduzir ferramentas de IA sem gerar resistência no time",
+    "to": "- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 13 — CULTURA ORGANIZACIONAL COMO DISCIPLINA: CONSTRUÇÃO, MANUTENÇÃO E EVOLUÇÃO|Capítulo 13: Cultura Organizacional como Disciplina (Vol. 6)]] – como introduzir ferramentas de IA e automação sem gerar resistência cultural no time"
+  },
+  {
+    "id": "3688a",
+    "vol": "8",
+    "code": "S4",
+    "from": "(ver [[#CAPÍTULO 2 — RESPONSABILIDADE DO SÓCIO E DO ADMINISTRADOR|Capítulo 2: LGPD para Startups]])",
+    "to": "(ver [[#CAPÍTULO 9 — LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Capítulo 9: LGPD, Compliance e Governança de Dados]])"
+  },
+  {
+    "id": "3688b_3698",
+    "vol": "8",
+    "code": "S4",
+    "from": "- [[#CAPÍTULO 2 — RESPONSABILIDADE DO SÓCIO E DO ADMINISTRADOR|Capítulo 2: LGPD para Startups]] – proteção de dados pessoais e interface com o CDC\n- [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 5 — CADE E ANTITRUSTE — QUANDO O CRESCIMENTO ATRAI O REGULADOR|Capítulo 5: Contratos Digitais e Validade Jurídica (Vol. 10)]] – Termos de Uso, assinatura eletrônica e validade probatória\n- [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 11 — RECUPERAÇÃO JUDICIAL E WIND-DOWN — QUANDO A STARTUP NÃO CONSEGUE CONTINUAR|Capítulo 11: Propriedade Intelectual para Startups (Vol. 9)]] – proteção de marca e software\n- [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 4 — DESCOBERTA DO PROBLEMA|Fase 4: Descoberta do Problema (Vol. 2)]] – momento em que a relação de consumo se inicia de fato",
+    "to": "- [[#CAPÍTULO 9 — LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Capítulo 9: LGPD, Compliance e Governança de Dados]] – proteção de dados pessoais e interface direta com o CDC\n- [[#CAPÍTULO 5 — CONTRATOS EMPRESARIAIS E OPERACIONAIS PARA STARTUPS|Capítulo 5: Contratos Empresariais e Operacionais para Startups]] – Termos de Uso, SLA, assinatura eletrônica e validade probatória\n- [[#CAPÍTULO 3 — PROPRIEDADE INTELECTUAL PRÁTICA: INPI, MARCAS, PATENTES E SOFTWARE|Capítulo 3: Propriedade Intelectual Prática (INPI, Marcas, Patentes e Software)]] – proteção de marca, domínio e código-fonte\n- [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 11 — MVP E EXPERIMENTOS DE MERCADO|Fase 11: MVP e Experimentos de Mercado (Vol. 4)]] – momento em que a oferta comercial ao consumidor entra em produção"
+  },
+  {
+    "id": "3726",
+    "vol": "8",
+    "code": "S4",
+    "from": "- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 2 — VENDAS COMPLEXAS ENTERPRISE: CICLO LONGO, ALTO VALOR, MÚLTIPLOS DECISORES|Capítulo 2: Contratos Essenciais para Startups (Vol. 6)]] – modelos de contrato que reduzem risco contratual na origem\n- [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 4 — PLANEJAMENTO FINANCEIRO (FP&A), ORÇAMENTO E REVENUE FORECASTING|Capítulo 4: Compliance Trabalhista e Gestão de Pessoas (Vol. 5)]] – estruturação da área de RH para evitar passivo\n- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 11 — COMPENSAÇÃO E BENEFÍCIOS NO BRASIL|Capítulo 11: Planejamento Tributário para Startups (Vol. 6)]] – escolha de regime e gestão do risco fiscal\n- [[IGNICAO-Vol-2-Descoberta-e-Mercado#CAPÍTULO 2 — INTELIGÊNCIA COMPETITIVA, POSICIONAMENTO E CATEGORY DESIGN|Capítulo 2: Proteção de Dados e LGPD (Vol. 2)]] – litígios regulatórios e responsabilidade por dados",
+    "to": "- [[#CAPÍTULO 5 — CONTRATOS EMPRESARIAIS E OPERACIONAIS PARA STARTUPS|Capítulo 5: Contratos Empresariais e Operacionais para Startups]] – modelos e cláusulas contratuais que reduzem litígios na origem\n- [[#CAPÍTULO 6 — DIREITO DO TRABALHO PARA STARTUPS: CLT, PJ, PEJOTIZAÇÃO E PASSIVOS|Capítulo 6: Direito do Trabalho para Startups (CLT, PJ e Passivos)]] – prevenção de passivo trabalhista na contratação\n- [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 2 — CONTABILIDADE, REGIMES FISCAIS E TRIBUTÁRIO ESTRATÉGICO (REFORMA IBS/CBS E INCENTIVOS)|Capítulo 2: Contabilidade, Regimes Fiscais e Tributário Estratégico (Vol. 5)]] – escolha de regime e gestão do contencioso fiscal\n- [[#CAPÍTULO 9 — LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Capítulo 9: LGPD, Compliance e Governança de Dados]] – prevenção a incidentes regulatórios e responsabilidade civil por dados"
+  },
+  {
+    "id": "3771",
+    "vol": "8",
+    "code": "S4",
+    "from": "- [[IGNICAO-Vol-1-Ideacao#FASE 2 — ARTICULAÇÃO E CAPTURA DA IDEIA|Fase 2: Validação do Modelo de Negócio (Vol. 1)]] – onde as decisões sobre sistemas de IA são tomadas inicialmente",
+    "to": "- [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 10 — PRODUTO AI-NATIVE: ARQUITETURA, DEFENSABILIDADE, CUSTOS DE INFERÊNCIA E UX PROBABILÍSTICA|Capítulo 10: Produto AI-Native (Vol. 4)]] – decisões de arquitetura, provedores de modelos e governança de IA desde o desenho do produto"
+  },
+  {
+    "id": "4023a",
+    "vol": "9",
+    "code": "C3",
+    "from": "Fundador em Série A que nunca preparou material de board, nunca conduziu uma reunião e nunca demitiu membro improdutivo chega despreparado à situação mais consequente do seu calendário trimestral.",
+    "to": "Fundador em Série A que nunca preparou material de conselho, nunca conduziu uma reunião deliberativa e nunca articulou a substituição de um conselheiro improdutivo chega despreparado à instância mais consequente do seu calendário trimestral."
+  },
+  {
+    "id": "4023b",
+    "vol": "9",
+    "code": "C3",
+    "from": "**Substituição de membro.** Contratualmente complexo (especialmente investor director. Board seat é direito contratual do fundo). Investor director. Negociar com sócio sênior do fundo. Se o problema é a pessoa específica, pode trocar por outra do mesmo fundo. Independent director. Termination cláusulas em Board Service Agreement. Vesting não exercido geralmente retorna.",
+    "to": "**Substituição de conselheiro.** Na sociedade anônima (art. 140 da Lei 6.404/1976), o conselheiro é eleito e destituível pela assembleia geral de acionistas (o CEO não \"demite\" conselheiro por ato isolado), cabendo ao acordo de acionistas vincular o voto dos blocos signatários; na limitada, o funcionamento do conselho segue o contrato social e o acordo de sócios. Quando o problema está na atuação individual de um *investor director* (assento vinculado ao fundo pelo acordo de acionistas), o caminho prático é alinhar com os sócios seniores da gestora a indicação de outro representante do mesmo fundo. No caso de conselheiro independente, o contrato de conselheiro (*Board Service Agreement*) disciplina aviso prévio, confidencialidade e reversão da participação (*vesting*) ainda não adquirida."
+  },
+  {
+    "id": "4126",
+    "vol": "9",
+    "code": "C2",
+    "from": "O **D7 (Passive Income, Retirement)** exige renda passiva comprovada (investimentos, aluguéis, pensão), com cerca de nove mil cento e vinte euros anuais para single, mais para família. Não é ideal para fundador ativo, porque requer não trabalho em Portugal.",
+    "to": "O **D7 (titulares de rendimentos próprios ou aposentadoria)** exige renda passiva regular comprovada (dividendos, juros, aluguéis ou pensão) equivalente a pelo menos um salário mínimo português mensal (acima de 11 mil euros anuais nos pisos de 2025/2026), acrescido de 50% para o cônjuge e 30% por dependente. Foi desenhado para quem vive de rendimentos passivos, razão pela qual o fundador em atividade operacional costuma utilizar o visto **D2** (empreendedor) ou **D8** (nômade digital)."
+  },
+  {
+    "id": "4139a",
+    "vol": "9",
+    "code": "C2",
+    "from": "Regime fiscal atraente (IFICI/RNH reformado em 2024). Tratado Portugal-Brasil facilita. Vistos D7, D2 e Golden Visa possíveis para fundadores",
+    "to": "Enquadramento fiscal específico para talentos e inovação por meio do **IFICI** (Incentivo Fiscal à Investigação Científica e Inovação, que substituiu o antigo RNH a partir de 2024 para pessoas físicas elegíveis). O tratado Brasil-Portugal facilita a mobilidade, com vistos D2 (empreendedor), D8 (trabalho remoto), D7 (renda passiva) e Golden Visa"
+  },
+  {
+    "id": "4139b",
+    "vol": "9",
+    "code": "C2",
+    "from": "taxas fiscais específicas (RNH, Non-Habitual Resident, com benefícios fiscais, em reforma a partir de 2024)",
+    "to": "enquadramento fiscal específico para profissionais de alta qualificação e startups certificadas via **IFICI** (Incentivo Fiscal à Investigação Científica e Inovação, que sucedeu o antigo RNH em 2024)"
+  },
+  {
+    "id": "4139c",
+    "vol": "9",
+    "code": "C2",
+    "from": "O RNH (Regime de Residente Não Habitual) oferece dez anos de benefícios fiscais para novos residentes. Alíquota fixa de vinte por cento em renda profissional high-value. Isenção em muitos tipos de renda estrangeira. A reforma de 2024 em diante pode alterar o escopo.",
+    "to": "O **IFICI (Incentivo Fiscal à Investigação Científica e Inovação)**, que substituiu o antigo RNH (encerrado para novos contribuintes em 2024), concede por dez anos alíquota fixa de 20% de IRS sobre rendimentos do trabalho ou profissionais em atividades de investigação, tecnologia e startups certificadas em Portugal, além de regras específicas para rendimentos de fonte estrangeira."
+  },
+  {
+    "id": "4139d",
+    "vol": "9",
+    "code": "C2",
+    "from": "Delaware holding mais Portuguese holding (com RNH ou estrutura fiscal) mais operação brasileira para dupla jurisdição flexível.",
+    "to": "Delaware holding combinada a holding portuguesa (com regime societário de *participation exemption*) e subsidiária operacional brasileira para dupla jurisdição flexível."
+  },
+  {
+    "id": "4639",
+    "vol": "10",
+    "code": "S4",
+    "from": "- [[IGNICAO-Vol-1-Ideacao#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvases e Mapas Visuais (Vol. 1)]] – para mapear stakeholders regulatórios no Canvas de Partes Interessadas",
+    "to": "- [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 12 — FINANCIAMENTO NÃO DILUITIVO E FOMENTO PÚBLICO: FINEP, BNDES, FAPESP PIPE E EMBRAPII|Capítulo 12: Financiamento Não Diluitivo e Fomento Público (FINEP, BNDES, FAPESP PIPE e EMBRAPII) (Vol. 5)]] – subvenção econômica, crédito subsidiado e editais públicos de inovação"
+  },
+  {
+    "id": "5037",
+    "vol": "10",
+    "code": "E12",
+    "from": "- **Para o Condomínio:** O custo mensal de portaria cai imediatamente de **R$ 28.000/mês para R$ 6.500 a R$ 9.500/mês** (uma economia líquida imediata de **60% a 75% na folha**, que permite ao condomínio congelar a taxa condominial por anos ou financiar a reforma da fachada), enquanto a segurança física aumenta drasticamente: pois um porteiro presencial pode ser rendido com uma arma apontada para a guarita, mas um operador remoto sentado a 15 km de distância em um bunker blindado (ou um sistema autônomo com reconhecimento facial anti-spoofing e botão de pânico silencioso) não pode ser coagido fisicamente pelo assaltante na calçada!",
+    "to": "- **Para o Condomínio:** O custo mensal de portaria cai de **R$ 28.000/mês para R$ 6.500 a R$ 9.500/mês**, gerando uma economia imediata de **60% a 75% na folha** para estabilizar a taxa condominial ou financiar melhorias prediais. Na segurança contra coação, o porteiro presencial pode ser rendido na guarita, enquanto o operador remoto a 15 km de distância (apoiado por biometria facial *anti-spoofing* e botão de pânico silencioso) não está exposto ao assaltante na calçada. Em contrapartida, a operação passa a depender integralmente de redundância de energia (nobreaks/gerador) e duplo link de dados, o risco crítico detalhado na Armadilha 1 deste capítulo."
+  },
+  {
+    "id": "5118a",
+    "vol": "10",
+    "code": "C3",
+    "from": "A revolução empresarial da odontologia brasileira (liderada por redes gigantes de franquias e clínicas próprias como **OdontoCompany** (maior rede do mundo com > 1.700 unidades, hoje no grupo SMZTO/Odontoprev), **Sorridents/Salus**, **Oral Sin**, **OrthoDontic**, **Odonto Excellence** e **Coi**) separou radicalmente a **Máquina Comercial e Financeira** da **Execução Clínica Especializada**:",
+    "to": "A profissionalização empresarial da odontologia brasileira (impulsionada por grandes redes de franquias como **OdontoCompany**, fundada por Paulo Zahr e integrante da holding setorial **SMZTO**, **Sorridents**, do grupo **Salus**, **Oral Sin**, **OrthoDontic** e **Odonto Excellence**) separou com clareza a **Máquina Comercial e Financeira** da **Execução Clínica Especializada**:"
+  },
+  {
+    "id": "5118b",
+    "vol": "10",
+    "code": "C3",
+    "from": "Na odontologia, redes como **OdontoCompany** (com **mais de 1.500 unidades franqueadas** e adquirida pelo grupo **Odontoprev** em 2025) e **Oral Sin** (focada em reabilitação com implantes de ticket alto) demonstram que a rentabilidade da clínica depende de avaliação comercial estruturada, financiamento próprio do tratamento e retenção de dentistas especialistas.",
+    "to": "Na odontologia, redes como **OdontoCompany** (fundada por Paulo Zahr, escalada junto à holding **SMZTO** com mais de 1.500 unidades franqueadas) e **Oral Sin** (focada em reabilitação com implantes de ticket alto) demonstram que a rentabilidade da clínica depende de avaliação comercial estruturada, gestão de inadimplência no financiamento odontológico e retenção de dentistas especialistas."
+  },
+  {
+    "id": "5121a",
+    "vol": "10",
+    "code": "C4",
+    "from": "Por que uma farmácia de manipulação bem gerida (ou grandes grupos magistrais de alta tecnologia como **Essentia Group / Essential Nutrition (fundada por Iagê/Dr. Paulo Muzy e parceiros, que se fundiu/aliou a gigantes do setor), Grupo Fagron, Pharmapele, OficialFarma, DrogaVET na manipulação veterinária**) tem **Margem Bruta de 68% a 82%**, contra apenas 26% a 30% de uma drogaria comum que revende remédio industrializado de caixinha?",
+    "to": "Por que uma farmácia de manipulação bem gerida (ou grandes operações magistrais e redes especializadas como **Essentia Group**, fundado por Iagê Terra em Santa Catarina, reunindo a farmácia magistral *Essentia Pharma* e a marca de nutracêuticos *Essential Nutrition*, além de **Pharmapele**, **OficialFarma** e **DrogaVET** na manipulação veterinária, abastecidas por fornecedores globais de insumos farmacêuticos ativos como o **Grupo Fagron**) alcança **Margem Bruta de 68% a 82%**, contra apenas 26% a 30% de uma drogaria comum que revende medicamento industrializado de caixinha?"
+  },
+  {
+    "id": "5210",
+    "vol": "10",
+    "code": "E12",
+    "from": "O coração transacional do varejo moderno divide-se por porte de cliente. No *Enterprise* e *Upper Mid-Market*, a arquitetura dominante é o **Composable / Headless Commerce** (onde o *front-end* de experiência do usuário é desacoplado do *back-end* de catálogo, carrinho, promoções e OMS via APIs, especialidade que levou a brasileira **VTEX** ao IPO na NYSE e impulsionou plataformas como **Wake**). No segmento de PMEs e marcas nativas digitais, a vitória pertence à simplicidade de *setup*, ecossistema de aplicativos plugáveis e meios de pagamento/frete nativos (como a **Nuvemshop**, que se tornou unicórnio atendendo mais de 120 mil lojistas na América Latina). Já na loja física, a substituição dos antigos sistemas de frente de caixa (PDV/POS) instalados em servidores locais Windows por **PDVs 100% em nuvem e *mobile POS*** (rodando em tablets e maquininhas *smart POS* Android com emissão de NFC-e/SAT) permite que o vendedor consulte o estoque de toda a rede, venda itens que não estão naquela filial (*prateleira infinita*) e finalize o pagamento sem fila no caixa tradicional: território disputado pela gigante consolidada **Linx** (adquirida pela Stone) e por ERPs consolidados e especialistas de nicho como **IzzyWay** (focada em supermercados e alimentação), **CIGAM** e **Millennium**.",
+    "to": "O coração transacional do varejo moderno divide-se em três camadas por porte e canal. No segmento *Enterprise* e *Upper Mid-Market*, predomina o **Composable / Headless Commerce**, que desacopla via APIs a interface de compra do motor de catálogo, promoções e gestão de pedidos (OMS), arquitetura que levou a brasileira **VTEX** ao IPO na NYSE e impulsionou plataformas como a **Wake**.\n\nNo segmento de PMEs e marcas nativas digitais, vence a rapidez de implantação combinada a aplicativos plugáveis e meios de pagamento e frete integrados, modelo consagrado pela **Nuvemshop** junto a mais de 120 mil lojistas na América Latina.\n\nJá na loja física, os antigos sistemas de frente de caixa (PDV) presos a servidores locais deram lugar a **PDVs em nuvem e *mobile POS*** em tablets e maquininhas *smart POS* com emissão fiscal integrada. Com eles, o vendedor consulta o estoque da rede inteira, vende itens de outras filiais (*prateleira infinita*) e conclui o pagamento sem fila no caixa, espaço disputado pela **Linx** (adquirida pela Stone) e por ERPs setoriais como **IzzyWay**, **CIGAM** e **Millennium**."
+  },
+  {
+    "id": "5382",
+    "vol": "10",
+    "code": "E12",
+    "from": "Quando o fundador \"turista\" entra em Cybersecurity ou Antifraude no Brasil, ele comete dois erros fatais: primeiro, acha que basta validar se o CPF existe na base da Receita Federal ou pedir uma foto estática de documento: que hoje qualquer fraudador burla em trinta segundos usando *deepfakes* e injeção virtual de câmera em emuladores; segundo, para tentar barrar os criminosos, ele calibra regras tão rígidas que bloqueia 15% dos clientes bons (*falso positivo*) na hora do pagamento ou da abertura de conta, destruindo a receita da empresa cliente e sendo demitido pelo Diretor Comercial em sessenta dias.",
+    "to": "Quando um fundador inexperiente entra em cibersegurança ou antifraude no Brasil, costuma cair em duas armadilhas opostas. A primeira é a validação ingênua: acreditar que basta checar a situação cadastral do CPF na Receita Federal ou pedir foto estática de documento e *selfie* simples, controles que quadrilhas especializadas burlam em segundos com documentos adulterados e ataques de injeção virtual de vídeo (*deepfakes* em emuladores).\n\nA segunda armadilha é a reação descalibrada: para estancar a fraude, a startup aperta as regras de bloqueio até barrar 15% dos compradores legítimos (*falso positivo*) no *checkout* ou na abertura de conta. O resultado é imediato: a perda de vendas supera o custo da própria fraude, e o diretor comercial do cliente cancela o contrato em sessenta dias."
+  },
+  {
+    "id": "410_b",
+    "vol": "1",
+    "code": "E12",
+    "from": "No Brasil: um país continental onde o PIB pulsa no interior, nas cidades médias, nos serviços essenciais e nas mãos de fundadoras e fundadores que conhecem a dor real da população, **não se encaixar no molde de \"garoto de 23 anos com moletom do Vale do Silício\" frequentemente é a sua maior vantagem assimétrica.**",
+    "to": "No Brasil, o PIB pulsa no interior, nas cidades médias e nos serviços essenciais. Nesse país real, não se parecer com o estereótipo do garoto de moletom do Vale do Silício costuma ser uma vantagem competitiva genuína."
+  },
+  {
+    "id": "4639_b",
+    "vol": "10",
+    "code": "S4",
+    "from": "- [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 13 — VENTURE DEBT, REVENUE-BASED FINANCING (RBF) E ESTRUTURAS COM FIDCS|Capítulo 13: Captação de Recursos (Vol. 5)]] – financiamento público (FINEP, BNDES, FAPESP) como instrumento de política pública",
+    "to": "- [[#CAPÍTULO 32 — GOVTECH, B2G, LICITAÇÕES (LEI 14.133/2021) E COMPRAS PÚBLICAS DE INOVAÇÃO (CPSIS)|Capítulo 32: Govtech, B2G, Licitações e Compras Públicas de Inovação]] – contratação pelo Estado via Lei 14.133/2021 e encomendas tecnológicas"
   }
 ]

@@ -2887,7 +2887,7 @@ Termos de Uso e Políticas de Privacidade são contratos de adesão: o consumido
 
 **Política de Privacidade e LGPD**
 
-A Política de Privacidade é complementar ao Termo de Uso e tem superposição com a LGPD (ver [[#CAPÍTULO 2 — RESPONSABILIDADE DO SÓCIO E DO ADMINISTRADOR|Capítulo 2: LGPD para Startups]]). O CDC exige transparência sobre coleta e uso de dados: qualquer uso de dados pessoais para fins que o consumidor não esperaria ao contratar configura prática abusiva.
+A Política de Privacidade é complementar ao Termo de Uso e tem superposição com a LGPD (ver [[#CAPÍTULO 9 — LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Capítulo 9: LGPD, Compliance e Governança de Dados]]). O CDC exige transparência sobre coleta e uso de dados: qualquer uso de dados pessoais para fins que o consumidor não esperaria ao contratar configura prática abusiva.
 
 ---
 
@@ -3138,10 +3138,10 @@ Código CONAR - Anexo P             Publicidade digital e influenciadores
 
 **Ver também:**
 
-- [[#CAPÍTULO 2 — RESPONSABILIDADE DO SÓCIO E DO ADMINISTRADOR|Capítulo 2: LGPD para Startups]] – proteção de dados pessoais e interface com o CDC
-- [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 5 — CADE E ANTITRUSTE — QUANDO O CRESCIMENTO ATRAI O REGULADOR|Capítulo 5: Contratos Digitais e Validade Jurídica (Vol. 10)]] – Termos de Uso, assinatura eletrônica e validade probatória
-- [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 11 — RECUPERAÇÃO JUDICIAL E WIND-DOWN — QUANDO A STARTUP NÃO CONSEGUE CONTINUAR|Capítulo 11: Propriedade Intelectual para Startups (Vol. 9)]] – proteção de marca e software
-- [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 4 — DESCOBERTA DO PROBLEMA|Fase 4: Descoberta do Problema (Vol. 2)]] – momento em que a relação de consumo se inicia de fato
+- [[#CAPÍTULO 9 — LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Capítulo 9: LGPD, Compliance e Governança de Dados]] – proteção de dados pessoais e interface direta com o CDC
+- [[#CAPÍTULO 5 — CONTRATOS EMPRESARIAIS E OPERACIONAIS PARA STARTUPS|Capítulo 5: Contratos Empresariais e Operacionais para Startups]] – Termos de Uso, SLA, assinatura eletrônica e validade probatória
+- [[#CAPÍTULO 3 — PROPRIEDADE INTELECTUAL PRÁTICA: INPI, MARCAS, PATENTES E SOFTWARE|Capítulo 3: Propriedade Intelectual Prática (INPI, Marcas, Patentes e Software)]] – proteção de marca, domínio e código-fonte
+- [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 11 — MVP E EXPERIMENTOS DE MERCADO|Fase 11: MVP e Experimentos de Mercado (Vol. 4)]] – momento em que a oferta comercial ao consumidor entra em produção
 - [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#FASE 17 — OPERAÇÕES, PROCESSOS E GESTÃO EM ESCALA|Fase 17: Operações, Processos e Gestão em Escala (Vol. 7)]] – implementação de compliance operacional no produto
 
 ---
@@ -3167,7 +3167,7 @@ Teste o seu próprio produto hoje como se você fosse um cliente insatisfeito qu
 
 ### A Matemática Fria do Litígio vs. A Falência Lenta de Brigar por Ego na Justiça
 
-Em Curitiba, Henrique sofreu um calote contratual de R$ 420 mil de um distribuidor regional que alegou defeito inexistente nos equipamentos para não pagar a última parcela. Ferido no orgulho, Henrique rejeitou uma proposta de acordo à vista de R$ 280 mil na mediação prévia, batendo na mesa: "Com bandido eu não faço acordo; vou até o fim na Justiça para receber cada centavo com juros e correção!". Quatro anos e meio depois, a ação cível ainda aguardava perícia técnica em primeira instância, Henrique já havia desembolsado R$ 95 mil entre custas processuais, adiantamento de honorários e laudos de assistente técnico, o distribuidor havia esvaziado o patrimônio e a expectativa real de recuperação líquida caiu para zero. Se Henrique tivesse aplicado naquele dia a **Regra do Valor Esperado** que veremos na síntese deste capítulo (multiplicando 70% de chance de êxito no mérito por R$ 420 mil e por 50% de probabilidade de solvência do devedor ao final de 5 anos = R$ 147 mil esperados no futuro, que trazidos a valor presente à taxa de custo de capital de 15% ao ano valem R$ 73 mil hoje, menos R$ 95 mil de custos de litígio = **valor presente líquido negativo de R$ 22 mil**), teria visto em dois minutos que o acordo à vista de R$ 280 mil gerava R$ 302 mil a mais de caixa real do que o processo movido a orgulho.
+Em Curitiba, Henrique sofreu um calote contratual de R$ 420 mil de um distribuidor regional que alegou defeito inexistente nos equipamentos para não pagar a última parcela. Ferido no orgulho, Henrique rejeitou uma proposta de acordo à vista de R$ 280 mil na mediação prévia, batendo na mesa: "Com bandido eu não faço acordo; vou até o fim na Justiça para receber cada centavo com juros e correção!". Quatro anos e meio depois, a ação cível ainda aguardava perícia técnica em primeira instância, Henrique já havia desembolsado R$ 95 mil entre custas processuais, adiantamento de honorários e laudos de assistente técnico, o distribuidor havia esvaziado o patrimônio e a expectativa real de recuperação líquida caiu para zero. Se Henrique tivesse aplicado naquele dia a **Regra do Valor Esperado** que veremos na síntese deste capítulo (multiplicando 70% de chance de êxito no mérito por R$ 420 mil e por 50% de probabilidade de solvência do devedor ao final de 5 anos = R$ 147 mil esperados no futuro, que trazidos a valor presente à taxa de custo de capital de 15% ao ano valem R$ 73 mil hoje, menos R$ 95 mil de custos de litígio = **valor presente líquido negativo de R$ 22 mil**), teria visto em dois minutos que o acordo à vista de R$ 280 mil gerava R$ 302 mil a mais de caixa real do que o processo movido a orgulho. Se Henrique tivesse aplicado naquele dia a **Regra do Valor Esperado** que veremos na síntese deste capítulo (multiplicando 70% de chance de êxito no mérito por R$ 420 mil e por 50% de probabilidade de solvência do devedor ao final de 5 anos = R$ 147 mil esperados no futuro, que trazidos a valor presente à taxa de custo de capital de 15% ao ano valem R$ 73 mil hoje, menos R$ 95 mil de custos de litígio = **valor presente líquido negativo de R$ 22 mil**), teria visto em dois minutos que o acordo à vista de R$ 280 mil gerava R$ 302 mil a mais de caixa real do que o processo movido a orgulho.
 
 A lição mais dura da gestão de contencioso é que o Poder Judiciário não existe para vingar a honra ferida do fundador: processo judicial é exclusivamente um ativo ou passivo financeiro governado por Valor Presente Líquido (VPL), probabilidade estatística de êxito, custo de oportunidade da atenção executiva e solvência da outra parte.
 
@@ -3554,10 +3554,10 @@ Este capítulo cobre os quatro vetores de contencioso (trabalhista, cível, trib
 
 **Ver também:**
 
-- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 2 — VENDAS COMPLEXAS ENTERPRISE: CICLO LONGO, ALTO VALOR, MÚLTIPLOS DECISORES|Capítulo 2: Contratos Essenciais para Startups (Vol. 6)]] – modelos de contrato que reduzem risco contratual na origem
-- [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 4 — PLANEJAMENTO FINANCEIRO (FP&A), ORÇAMENTO E REVENUE FORECASTING|Capítulo 4: Compliance Trabalhista e Gestão de Pessoas (Vol. 5)]] – estruturação da área de RH para evitar passivo
-- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 11 — COMPENSAÇÃO E BENEFÍCIOS NO BRASIL|Capítulo 11: Planejamento Tributário para Startups (Vol. 6)]] – escolha de regime e gestão do risco fiscal
-- [[IGNICAO-Vol-2-Descoberta-e-Mercado#CAPÍTULO 2 — INTELIGÊNCIA COMPETITIVA, POSICIONAMENTO E CATEGORY DESIGN|Capítulo 2: Proteção de Dados e LGPD (Vol. 2)]] – litígios regulatórios e responsabilidade por dados
+- [[#CAPÍTULO 5 — CONTRATOS EMPRESARIAIS E OPERACIONAIS PARA STARTUPS|Capítulo 5: Contratos Empresariais e Operacionais para Startups]] – modelos e cláusulas contratuais que reduzem litígios na origem
+- [[#CAPÍTULO 6 — DIREITO DO TRABALHO PARA STARTUPS: CLT, PJ, PEJOTIZAÇÃO E PASSIVOS|Capítulo 6: Direito do Trabalho para Startups (CLT, PJ e Passivos)]] – prevenção de passivo trabalhista na contratação
+- [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 2 — CONTABILIDADE, REGIMES FISCAIS E TRIBUTÁRIO ESTRATÉGICO (REFORMA IBS/CBS E INCENTIVOS)|Capítulo 2: Contabilidade, Regimes Fiscais e Tributário Estratégico (Vol. 5)]] – escolha de regime e gestão do contencioso fiscal
+- [[#CAPÍTULO 9 — LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Capítulo 9: LGPD, Compliance e Governança de Dados]] – prevenção a incidentes regulatórios e responsabilidade civil por dados
 - [[#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18: Estruturação Jurídica, Societária e Blindagem Operacional]] – fundamentos da estruturação legal da empresa
 - [[IGNICAO-Vol-1-Ideacao#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvases e Mapas Visuais (Vol. 1)]] – ferramentas de diagnóstico para mapeamento de risco operacional
 
@@ -4364,7 +4364,7 @@ Contínuo            LGPD Art. 20: já em vigor, sem data futura
 - [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 10 — IA GENERATIVA E AGENTES COMO COPILOTO E ACELERADOR DO FUNDADOR (2026)|Capítulo 10: IA como Copiloto do Fundador (2026 (Vol. 1)]] – uso prático de IA no dia a dia do fundador
 - [[#CAPÍTULO 13 — SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA|Capítulo 13: Compliance e Regulatório para Startups]] – framework geral de compliance, não específico de IA
 - [[IGNICAO-Vol-1-Ideacao#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvases e Mapas Visuais de Modelo (Vol. 1)]] – ferramentas visuais de análise, incluindo Risk Canvas
-- [[IGNICAO-Vol-1-Ideacao#FASE 2 — ARTICULAÇÃO E CAPTURA DA IDEIA|Fase 2: Validação do Modelo de Negócio (Vol. 1)]] – onde as decisões sobre sistemas de IA são tomadas inicialmente
+- [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 10 — PRODUTO AI-NATIVE: ARQUITETURA, DEFENSABILIDADE, CUSTOS DE INFERÊNCIA E UX PROBABILÍSTICA|Capítulo 10: Produto AI-Native (Vol. 4)]] – decisões de arquitetura, provedores de modelos e governança de IA desde o desenho do produto
 - [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 12 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 12: Validação do Modelo de Negócio (Vol. 4)]] – onde modelos de crédito e precificação com IA aparecem com maior frequência
 
 ---

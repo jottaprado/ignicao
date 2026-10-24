@@ -3201,7 +3201,7 @@ Robert Miller e Stephen Heiman (autores de *Strategic Selling*, 1985) e os criad
 Este capítulo aprofunda a Parte 2 do [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 5 — SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|Capítulo 5 (Sales: Motion Completa, do Outbound ao Renewal) (Vol. 4)]]. O Capítulo 5 do Volume 4 aborda vendas enterprise como uma das quatro frentes comerciais principais. Aqui o tratamento é outro: enterprise como disciplina autônoma, com profundidade operacional em ciclo longo, múltiplos decisores, MEDDPICC item a item, mapa de poder, gestão de pipeline e contratação de time especializado.
 
 > [!note] Posição no livro
-> Este capítulo complementa o [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 4 — BRANDING, POSICIONAMENTO DE MARCA E PRODUCT MARKETING (PMM)|Capítulo 4: Product Marketing (Vol. 4)]] e o [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 1 — GTM PLAYBOOK E ARQUITETURA DE CANAIS: DA PRIMEIRA VENDA AO PRIMEIRO MILHÃO DE ARR|Capítulo 1: GTM Playbook (Vol. 4)]]. É referência para fundadores que constroem negócios B2B com ticket anual acima de R$ 120 mil e ciclos de venda de seis a dezoito meses. Leia junto com a [[#FASE 15 — MÁQUINA DE CRESCIMENTO E EXPANSÃO EM ESCALA|Fase 15: Máquina de Crescimento e Expansão em Escala]] e a Fase 15: Máquina de Crescimento e Expansão em Escala.
+> Este capítulo complementa o [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 4 — BRANDING, POSICIONAMENTO DE MARCA E PRODUCT MARKETING (PMM)|Capítulo 4: Product Marketing (Vol. 4)]] e o [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 1 — GTM PLAYBOOK E ARQUITETURA DE CANAIS: DA PRIMEIRA VENDA AO PRIMEIRO MILHÃO DE ARR|Capítulo 1: GTM Playbook (Vol. 4)]]. É referência para fundadores que constroem negócios B2B com ticket anual acima de R$ 120 mil e ciclos de venda de seis a dezoito meses. Leia junto com a [[#FASE 15 — MÁQUINA DE CRESCIMENTO E EXPANSÃO EM ESCALA|Fase 15: Máquina de Crescimento e Expansão em Escala]].
 
 ---
 
@@ -3561,7 +3561,7 @@ Eliyahu Goldratt (em *A Meta*, ao formular a Teoria das Restrições) e Andy Gro
 ---
 
 > [!note] Posição no livro
-> Este capítulo complementa o [[#CAPÍTULO 2 — VENDAS COMPLEXAS ENTERPRISE: CICLO LONGO, ALTO VALOR, MÚLTIPLOS DECISORES|Capítulo 2: Vendas Complexas Enterprise]] e o [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 1 — BOARD E GOVERNANCE|Capítulo 1: Métricas de Crescimento (Vol. 9)]]. É referência para fundadores que percebem que o crescimento começa a depender mais de processo e infraestrutura do que de esforço individual. Leia junto com a [[#FASE 15 — MÁQUINA DE CRESCIMENTO E EXPANSÃO EM ESCALA|Fase 15: Máquina de Crescimento e Expansão em Escala]] e a [[IGNICAO-Vol-9-Maturidade-e-Exit#FASE 19 — REINVENÇÃO E SEGUNDA CURVA|Fase 19: Reinvenção e Segunda Curva (Vol. 9)]].
+> Este capítulo complementa o [[#CAPÍTULO 2 — VENDAS COMPLEXAS ENTERPRISE: CICLO LONGO, ALTO VALOR, MÚLTIPLOS DECISORES|Capítulo 2: Vendas Complexas Enterprise]], o [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 9 — DADOS, ANALYTICS E EXPERIMENTAÇÃO|Capítulo 9: Dados, Analytics e Experimentação (Vol. 4)]] e o [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 4 — PLANEJAMENTO FINANCEIRO (FP&A), ORÇAMENTO E REVENUE FORECASTING|Capítulo 4: Planejamento Financeiro (FP&A) e Revenue Forecasting (Vol. 5)]]. É referência para fundadores que percebem que o crescimento começa a depender mais de processo e infraestrutura do que de esforço individual. Leia junto com a [[#FASE 15 — MÁQUINA DE CRESCIMENTO E EXPANSÃO EM ESCALA|Fase 15: Máquina de Crescimento e Expansão em Escala]] e a [[IGNICAO-Vol-9-Maturidade-e-Exit#FASE 19 — REINVENÇÃO E SEGUNDA CURVA|Fase 19: Reinvenção e Segunda Curva (Vol. 9)]].
 
 > [!note] Relação com o Capítulo 5 (Vol. 4) (Sales: Motion Completa, do Outbound ao Renewal)
 > Para a visão de RevOps como uma das quatro partes da motion comercial completa, ver Parte 4 do [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 5 — SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|Capítulo 5 (Sales: Motion Completa, do Outbound ao Renewal) (Vol. 4)]]. Este capítulo aprofunda RevOps como disciplina autônoma.
@@ -3921,7 +3921,7 @@ A lista abaixo é o teste prático de maturidade de RevOps. O que falta vira bac
 **Ver também:**
 
 - [[#CAPÍTULO 2 — VENDAS COMPLEXAS ENTERPRISE: CICLO LONGO, ALTO VALOR, MÚLTIPLOS DECISORES|Capítulo 2: Vendas Complexas Enterprise: Ciclo Longo, Alto Valor, Múltiplos Decisores]]
-- [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 1 — BOARD E GOVERNANCE|Capítulo 1: Métricas de Crescimento (Vol. 9)]]
+- [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 4 — PLANEJAMENTO FINANCEIRO (FP&A), ORÇAMENTO E REVENUE FORECASTING|Capítulo 4: Planejamento Financeiro (FP&A), Orçamento e Revenue Forecasting (Vol. 5)]]
 - [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 4 — BRANDING, POSICIONAMENTO DE MARCA E PRODUCT MARKETING (PMM)|Capítulo 4: Product Marketing: Posicionamento, Mensagem e Lançamento (Vol. 4)]]
 - [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 4 — PLANEJAMENTO FINANCEIRO (FP&A), ORÇAMENTO E REVENUE FORECASTING|Capítulo 4: Planejamento Financeiro e Orçamento (Vol. 5)]]
 - [[#FASE 15 — MÁQUINA DE CRESCIMENTO E EXPANSÃO EM ESCALA|Fase 15: Máquina de Crescimento e Expansão em Escala]]
@@ -4312,7 +4312,7 @@ Churn de parceiros (% ao ano)      Trimestral    <20%
 
 Business Development não é uma função isolada. Ela se conecta diretamente com as decisões de distribuição, posicionamento e crescimento que permeiam todo o processo de construção da startup.
 
-A definição do ICP, feita na [[IGNICAO-Vol-1-Ideacao#FASE 2 — ARTICULAÇÃO E CAPTURA DA IDEIA|Fase 2: Descoberta do Problema (Vol. 1)]], é o insumo mais importante para qualificar parceiros. Sem ICP claro, o critério de "o parceiro tem os clientes que eu quero" não pode ser aplicado com rigor.
+A definição do ICP, iniciada na [[IGNICAO-Vol-1-Ideacao#FASE 2 — ARTICULAÇÃO E CAPTURA DA IDEIA|Fase 2: Articulação e Captura da Ideia (Vol. 1)]] e validada em campo nas [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 4 — DESCOBERTA DO PROBLEMA|Fases 4 e 5: Descoberta do Problema e Pesquisa com Usuários (Vol. 2)]], é o insumo mais importante para qualificar parceiros. Sem ICP claro, o critério de "o parceiro tem os clientes que eu quero" não pode ser aplicado com rigor.
 
 O modelo de receita e as métricas de unit economics, trabalhados na [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 12 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 12: Validação do Modelo de Negócio (Vol. 4)]], determinam qual percentual de revenue share é viável sem destruir a margem. Parceria com comissão de 25% só faz sentido se o CAC via canal for suficientemente menor que o CAC via força própria para compensar a margem cedida.
 
@@ -6661,7 +6661,7 @@ O julgamento do **Superior Tribunal de Justiça (STJ: Tema Repetitivo 1.226)** e
 
 Para faixas de salário base e benchmarks de remuneração no Brasil, ver [[#CAPÍTULO 11 — COMPENSAÇÃO E BENEFÍCIOS NO BRASIL|Capítulo 11 (Compensação e Benefícios no Brasil)]]. Este capítulo cobre equity como instrumento complementar.
 
-A [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18 (Vol. 8)]] cobre cap table (quadro societário), vesting (aquisição progressiva da participação) de fundadores e estrutura societária. O [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 1 — MARCO LEGAL DAS STARTUPS: LC 182/2021|Capítulo 1 (Marco Legal das Startups: Lc 182/2021) (Vol. 8)]] cobre o COCP e o investidor-anjo. O [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 2 — CONTABILIDADE, REGIMES FISCAIS E TRIBUTÁRIO ESTRATÉGICO (REFORMA IBS/CBS E INCENTIVOS)|Capítulo 2 (Contabilidade, Regimes Fiscais e Tributário Estratégico (Reforma Ibs/cbs e Incentivos)) (Vol. 5)]] cobre tributação operacional. Este capítulo cobre os instrumentos de equity (participação societária) para colaboradores, stock options (opções de compra), phantom shares (ações fantasmas), RSUs (Restricted Stock Units, ações restritas), com foco na estruturação jurídica e no principal problema prático, a tributação.
+Enquanto a estrutura societária de fundadores, o Marco Legal das Startups e a tributação operacional da empresa são detalhados na tabela de conexões deste capítulo, o foco aqui recai sobre os quatro instrumentos de participação de longo prazo para executivos e colaboradores (*stock options*, *phantom shares*, *RSUs* e bônus de subscrição), sua modelagem contratual e seu enquadramento fiscal e previdenciário no Brasil.
 
 ### Por que alinhar seus executivos-chave com a valorização de longo prazo da empresa é o único jeito de vencer a guerra por talentos contra bancos e big techs
 
@@ -7231,40 +7231,11 @@ Tratar a empresa adquirida como inferior. Mesmo que a aquisição seja amigável
 
 **O playbook de integração cultural.**
 
-```text
-FASES DA INTEGRAÇÃO CULTURAL EM M&A
-
-FASE 1 - DIAGNÓSTICO (primeiros 30 dias)
-  - Mapear valores declarados e comportamentos reais das duas empresas
-  - Identificar onde há sobreposição (facilita integração)
-  - Identificar onde há tensão real (requer decisão consciente)
-  - Entrevistar lideranças e ICs-chave das duas empresas sobre o que
-    NÃO podem perder da cultura anterior
-
-FASE 2 - DECISÃO (dias 30-60)
-  - Definir qual cultura "vence" em cada tensão identificada
-    (não há fusão perfeita, há escolhas)
-  - Ser honesto sobre o que vai mudar e o que não vai
-  - Identificar elementos da empresa adquirida que o adquirente
-    quer preservar ativamente (não fingir que tudo se integra igual)
-
-FASE 3 - COMUNICAÇÃO (dias 60-90)
-  - Comunicar decisões de cultura para todos os níveis, não só executivos
-  - Dar espaço para luto real, a empresa adquirida perdeu algo
-  - Narrar o que é preservado, não só o que muda
-
-FASE 4 - RITUAIS DE INTEGRAÇÃO (meses 3-12)
-  - Criar rituais que incluam pessoas das duas origens
-  - Onboarding cruzado, pessoas da empresa adquirida passam por
-    onboarding do adquirente, e vice-versa
-  - Projetos inter-equipes deliberados que forcem colaboração
-  - Liderança mista em times, evitar guetos de "antigos" e "novos"
-
-FASE 5 - MEDIÇÃO (meses 6-18)
-  - Engagement survey específico para integração
-  - Medir retenção separada por origem (antigos vs. adquiridos)
-  - Identificar onde as divisões persistem e intervir
-```
+- **Etapa 1: Diagnóstico (primeiros 30 dias):** mapear valores declarados e comportamentos reais das duas empresas; identificar pontos de sobreposição (que facilitam a integração) e tensões reais (que exigem decisão consciente); entrevistar lideranças e contribuidores-chave das duas origens sobre o que não podem perder da cultura anterior.
+- **Etapa 2: Decisão (dias 30 a 60):** definir qual padrão cultural prevalece em cada tensão identificada (não há fusão neutra, há escolhas explícitas); comunicar com transparência o que mudará e o que permanecerá intacto; proteger ativamente os elementos da empresa adquirida que geram seu diferencial.
+- **Etapa 3: Comunicação (dias 60 a 90):** desdobrar as decisões de cultura para todos os níveis da organização, e não apenas para a diretoria; acolher o luto organizacional legítimo da equipe adquirida; narrar tanto o que é preservado quanto o que muda.
+- **Etapa 4: Rituais de integração (meses 3 a 12):** instituir rituais conjuntos para profissionais das duas origens; realizar *onboarding* cruzado (a equipe adquirida passa pela imersão da adquirente e vice-versa); formar grupos de trabalho mistos em projetos reais e evitar guetos entre "antigos" e "novos".
+- **Etapa 5: Medição (meses 6 a 18):** rodar pesquisa de clima específica de pós-fusão; acompanhar a retenção separada por origem (quadro original vs. equipe adquirida) e intervir rapidamente onde persistirem divisões.
 
 > [!tip] A pergunta certa na due diligence cultural
 > Antes de fechar uma aquisição, o adquirente deve perguntar, "Se descrevêssemos os comportamentos que essa empresa recompensa, não os valores declarados, mas o que de fato acontece, com quais dos nossos valores isso entra em conflito direto?" Conflito identificado antes é problema gerenciável. Conflito descoberto depois do fechamento é crise.

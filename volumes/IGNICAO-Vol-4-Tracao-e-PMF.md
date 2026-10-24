@@ -276,8 +276,8 @@ Entrega do valor em beta fechado ou lançamento silencioso, recorrendo a etapas 
 > [!tip] Para a primeira rodada, closed beta com lista de espera
 > É quase sempre a melhor opção. Permite controle, aprendizado profundo, e relacionamento direto com cada usuário. Os outros formatos vêm depois, com escala.
 
-> [!note] Capítulo 1: GTM Playbook
-> Antes de recrutar os primeiros usuários, defina o motion de aquisição. O [[#CAPÍTULO 1 — GTM PLAYBOOK E ARQUITETURA DE CANAIS: DA PRIMEIRA VENDA AO PRIMEIRO MILHÃO DE ARR|Capítulo 1: GTM Playbook]] cobre como identificar o ICP com precisão suficiente para o outbound manual desta fase, calcular CAC por canal antes de investir, e estruturar o caminho até o primeiro ARR. A escolha agora entre o modelo de crescimento puxado pelo produto (PLG) e o puxado por vendas (SLG) define o que você vai medir nesta Fase 11 e na Fase 12.
+> [!note] Para ir além nesta Fase 11 (Capítulos de aprofundamento)
+> Ao longo dos passos desta fase, consulte os capítulos específicos deste volume conforme a sua necessidade prática: o [[#CAPÍTULO 1 — GTM PLAYBOOK E ARQUITETURA DE CANAIS: DA PRIMEIRA VENDA AO PRIMEIRO MILHÃO DE ARR|Capítulo 1: GTM Playbook]] (para escolher entre movimento puxado pelo produto ou por vendas e priorizar os dois primeiros canais de aquisição), o [[#CAPÍTULO 6 — PRICING STRATEGY E ECONOMIA DA RECORRÊNCIA (SUBSCRIPTION ECONOMY)|Capítulo 6: Pricing Strategy]] (para calibrar cobrança e elasticidade no Passo 8) e o [[#CAPÍTULO 8 — CUSTOMER SUCCESS (CS) E CUSTOMER EXPERIENCE (CX): DA JORNADA AO CHURN ZERO E NRR POSITIVO|Capítulo 8: Customer Success e CX]] (para medir o *time-to-value* no *onboarding* manual do Passo 4).
 
 #### Passo 4, onboarding manual intensivo, "Faça Coisas Que Não Escalam"
 
@@ -1027,7 +1027,7 @@ Onze passos.
 
 CAC (custo de aquisição de cliente) é o gasto total em marketing mais vendas no período, dividido pelos novos clientes pagantes adquiridos no período.
 
-Inclua no "gasto total" quatro coisas. Ads pagos. Salário ou tempo de quem vende ou faz marketing (mesmo você: valorize o seu tempo). Ferramentas (CRM, automação, design). Custos de eventos, brindes e campanhas.
+Some quatro componentes no gasto total de aquisição: (1) mídia paga (*ads*); (2) salário ou custo-hora proporcional de quem vende ou faz marketing (incluindo o tempo dos próprios fundadores); (3) licenças de ferramentas comerciais (CRM, automação, prospecção e design); e (4) custos diretos de eventos, feiras, brindes e campanhas.
 
 Não inclua os custos de operação do produto em si.
 
@@ -1125,7 +1125,7 @@ Calcule em que mês (e com quanto de ARR) você atinge três marcos. Break-even 
 #### Passo 8, documente o cap table inicial e modele diluição
 
 > [!note] Esta seção é preview operacional para validação do modelo
-> A estruturação formal do cap table, vesting, classes de ações, drag-along/tag-along, contrato de sócios completo, é tema da [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18 (Vol. 8)]]. Aqui na Fase 12 o cap table aparece em versão simplificada porque é insumo direto da modelagem financeira: você precisa saber quantas ações cada sócio tem para projetar diluição em cenários de captação e calcular *runway efetivo após* novas rodadas. É a mesma ferramenta vista por dois ângulos: modelo (aqui) e instrumento jurídico (Fase 13).
+> A estruturação formal do cap table, vesting, classes de ações, drag-along/tag-along, contrato de sócios completo, é tema da [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18 (Vol. 8)]]. Aqui na Fase 12 o cap table aparece em versão simplificada porque é insumo direto da modelagem financeira: você precisa saber quantas ações cada sócio tem para projetar diluição em cenários de captação e calcular *runway efetivo após* novas rodadas. É a mesma ferramenta vista por dois ângulos complementares: modelo econômico-financeiro de diluição (aqui na Fase 12) e instrumento societário vinculante (na [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#FASE 18 — ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18, no Vol. 8]]).
 
 Desde a primeira captação, mantenha um cap table (tabela de capital) documentado. A maioria dos fundadores negligencia isso, e acorda em Série B descobrindo que detém vinte e cinco por cento de uma empresa que vai captar mais. Surpresa cara.
 
@@ -3379,7 +3379,7 @@ Pipeline Coverage    | 3x meta             | 3–4x meta          | Pipeline / m
 
 ---
 
-**Ver também:** [[#CAPÍTULO 4 — BRANDING, POSICIONAMENTO DE MARCA E PRODUCT MARKETING (PMM)|Capítulo 4: Product Marketing]], [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 1 — BOARD E GOVERNANCE|Capítulo 1: Métricas de Crescimento (Vol. 9)]], [[IGNICAO-Vol-2-Descoberta-e-Mercado#CAPÍTULO 3 — CASOS DE FRACASSO BRASILEIROS E LIÇÕES|Capítulo 3: Inside Sales e SDR (Vol. 2)]], [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 4 — MARKETPLACES, PLATAFORMAS E EFEITOS DE REDE: LIQUIDEZ, OVO-E-GALINHA E RISCO DE PLATAFORMA|Capítulo 4: Marketplace Dynamics (Vol. 3)]], [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 2 — MATURIDADE (TRL/CRL), DECISÃO POR GATES E FECHAMENTO DE FASE (COMMITTED NEXT MOVE)|Capítulo 2: Modelo de Negócio e Unit Economics (Vol. 3)]]
+**Ver também:** [[#CAPÍTULO 4 — BRANDING, POSICIONAMENTO DE MARCA E PRODUCT MARKETING (PMM)|Capítulo 4: Branding, Posicionamento e Product Marketing]], [[#CAPÍTULO 5 — SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|Capítulo 5: Sales (do Outbound ao Renewal)]], [[#CAPÍTULO 9 — DADOS, ANALYTICS E EXPERIMENTAÇÃO|Capítulo 9: Dados, Analytics e Experimentação]], [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 4 — MARKETPLACES, PLATAFORMAS E EFEITOS DE REDE: LIQUIDEZ, OVO-E-GALINHA E RISCO DE PLATAFORMA|Capítulo 4: Marketplaces, Plataformas e Efeitos de Rede (Vol. 3)]] e [[IGNICAO-Vol-5-Financas-e-Captacao#FASE 14 — CAPITAL PARA ESCALA, RODADAS E EFICIÊNCIA FINANCEIRA|Fase 14: Unit Economics e Eficiência Financeira (Vol. 5)]].
 
 ---
 
@@ -4088,7 +4088,7 @@ Marketing de performance está operando bem quando todos os itens abaixo estão 
 
 **Ver também:**
 
-[[#CAPÍTULO 2 — CRESCIMENTO ORGÂNICO COMPOSTO: CONTENT MARKETING, SEO E COMMUNITY BUILDING|Capítulo 2: Content Marketing e SEO como Disciplina]]. [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 15 — LIQUIDEZ SECUNDÁRIA (SECONDARIES): REALIZAÇÃO PARCIAL DE CAPITAL PARA FUNDADORES, EXECUTIVOS E INVESTIDORES ANTES DO EXIT|Capítulo 15 (Liquidez Secundária (Secondaries): Realização Parcial de Capital para Fundadores, Executivos e Investidores Antes do Exit) (Vol. 9)]], Growth e Aquisição. [[#CANVASES VISUAIS DESTA FASE (COM EXEMPLOS BRASILEIROS PREENCHIDOS)|Canvases Visuais da Fase]], Canvases e Mapas Visuais. [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 10 — PERFORMANCE REVIEWS ESTRUTURADOS: CICLO, CALIBRAÇÃO E CONEXÃO COM COMPENSAÇÃO|Capítulo 10 (Performance Reviews Estruturados: Ciclo, Calibração e Conexão com Compensação) (Vol. 6)]], Métricas e Dashboard de Negócio.
+[[#CAPÍTULO 1 — GTM PLAYBOOK E ARQUITETURA DE CANAIS: DA PRIMEIRA VENDA AO PRIMEIRO MILHÃO DE ARR|Capítulo 1: GTM Playbook e Arquitetura de Canais]], [[#CAPÍTULO 2 — CRESCIMENTO ORGÂNICO COMPOSTO: CONTENT MARKETING, SEO E COMMUNITY BUILDING|Capítulo 2: Crescimento Orgânico Composto (SEO e Comunidade)]], [[#CAPÍTULO 9 — DADOS, ANALYTICS E EXPERIMENTAÇÃO|Capítulo 9: Dados, Analytics e Experimentação]] e [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 1 — GROWTH COMO FUNÇÃO ORGANIZACIONAL: TIME DE GROWTH, BUILD VS HIRE, RELAÇÃO COM PRODUTO|Capítulo 1: Growth como Função Organizacional (Vol. 6)]].
 
 > [!info] Fases relacionadas
 

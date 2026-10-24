@@ -5486,11 +5486,11 @@ Revisão de todas as observações semanais do trimestre e identificação de pa
 
 Análise de finanças e captação: novos rounds, valuation publicado, uso declarado de recursos.
 
-Entrevistas com clientes que avaliaram concorrentes (win/loss: ver DX.4).
+Entrevistas com clientes que avaliaram concorrentes (*win/loss*: ver [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 4 — BRANDING, POSICIONAMENTO DE MARCA E PRODUCT MARKETING (PMM)|Capítulo 4: Product Marketing, seção 4.4 (Vol. 4)]]).
 
 Revisão de pricing: o que mudou, o que ficou igual, qual a trajetória.
 
-Atualização de battle cards (ver EE.6).
+Atualização de *battle cards* (ver a seção 2.6 deste capítulo).
 
 Análise de produto: comparativo feature por feature atualizado.
 

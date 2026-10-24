@@ -807,6 +807,16 @@ function applyVolumeReviewFixes(volNum, md) {
   const preLines = md
     .replace(/^>\s*Referenciado em:\s*Fase[^\n]*\n?/gm, '')
     .replace(/^\*\*Esta seção adiciona guidance específico para momentos pontuais\*\*\s*\n?/gm, '')
+    .replace(
+      /```text\nFASES DA INTEGRAÇÃO CULTURAL EM M&A\n\nFASE 1 [—–-] DIAGNÓSTICO \(primeiros 30 dias\)[\s\S]*?FASE 5 [—–-] MEDIÇÃO \(meses 6-18\)[\s\S]*?```/,
+      [
+        '- **Etapa 1: Diagnóstico (primeiros 30 dias):** mapear valores declarados e comportamentos reais das duas empresas; identificar pontos de sobreposição (que facilitam a integração) e tensões reais (que exigem decisão consciente); entrevistar lideranças e contribuidores-chave das duas origens sobre o que não podem perder da cultura anterior.',
+        '- **Etapa 2: Decisão (dias 30 a 60):** definir qual padrão cultural prevalece em cada tensão identificada (não há fusão neutra, há escolhas explícitas); comunicar com transparência o que mudará e o que permanecerá intacto; proteger ativamente os elementos da empresa adquirida que geram seu diferencial.',
+        '- **Etapa 3: Comunicação (dias 60 a 90):** desdobrar as decisões de cultura para todos os níveis da organização, e não apenas para a diretoria; acolher o luto organizacional legítimo da equipe adquirida; narrar tanto o que é preservado quanto o que muda.',
+        '- **Etapa 4: Rituais de integração (meses 3 a 12):** instituir rituais conjuntos para profissionais das duas origens; realizar *onboarding* cruzado (a equipe adquirida passa pela imersão da adquirente e vice-versa); formar grupos de trabalho mistos em projetos reais e evitar guetos entre "antigos" e "novos".',
+        '- **Etapa 5: Medição (meses 6 a 18):** rodar pesquisa de clima específica de pós-fusão; acompanhar a retenção separada por origem (quadro original vs. equipe adquirida) e intervir rapidamente onde persistirem divisões.',
+      ].join('\n')
+    )
     .split('\n');
 
   let inFence = false;
@@ -864,9 +874,12 @@ function applyVolumeReviewFixes(volNum, md) {
       }
       // Se um item do lote adiciona um parágrafo logo abaixo do heading sem alterar o texto do heading (ex: "### Heading\n\nParágrafo"), ou substitui divisor H1 (# FASE DA ETAPA...), permitir!
       for (const { from, to } of batchList) {
-        if (from.startsWith('#') && (line === from || line.replace(/\bPIX\b/g, 'Pix') === from)) {
+        if (from.startsWith('#') && (line === from || line.replace(/\bPIX\b/g, 'Pix') === from || line.replace(/\s*—\s*/g, ': ') === from)) {
           const toLines = to.split('\n');
           if (toLines.length > 1) {
+            if (hashes === '#') {
+              return to.replace(/\s*—\s*/g, ': ');
+            }
             // Preservar a 1ª linha (heading já indexado) e anexar os parágrafos seguintes sem travessão
             const extra = toLines
               .slice(1)
@@ -969,7 +982,13 @@ function applyVolumeReviewFixes(volNum, md) {
       joinedOut = joinedOut.split(from).join(to);
     }
   }
-  return applyFinalVolumePolish(volNum, joinedOut);
+  let polished = applyFinalVolumePolish(volNum, joinedOut);
+  for (const { from, to } of batchList) {
+    if (!from.startsWith('#') && polished.includes(from)) {
+      polished = polished.split(from).join(to);
+    }
+  }
+  return polished;
 }
 
 const FINAL_PHRASE_FIXES = [
@@ -1207,8 +1226,7 @@ function applyFinalVolumePolish(volNum, md) {
       .replace(/^(\d+)\. (Tipicamente 3-4 cenários\.)\*\*/, '$1. **$2**')
       .replace(/^(\d+)\. (Cenários são narrativas, não listas de variáveis\.)\*\*/, '$1. **$2**')
       .replace('**BCB (Banco Central do Brasil, também BCB).**', '**BCB (Banco Central do Brasil, também grafado Bacen).**')
-      .replace('(também grafado BCB ou BCB)', '(também grafado Bacen)')
-      .replace('**Conselho (board).**', '**Board (conselho de administração ou consultivo).**');
+      .replace('(também grafado BCB ou BCB)', '(também grafado Bacen)');
 
     // Aplicar polish fora do target dos wikilinks
     const parts = ln.split(/(\[\[[^\]]+\]\])/g);
