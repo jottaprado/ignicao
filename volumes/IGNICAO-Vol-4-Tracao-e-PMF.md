@@ -170,22 +170,22 @@ O ciclo MVP em três etapas, cada uma valida coisa diferente:
 
 ```mermaid
 flowchart LR
- subgraph E1["1️⃣ MVP DE PROBLEMA"]
- M1A["Valida:<br/>pessoas TÊM<br/>o problema mesmo?"]
- M1B["Como:<br/>landing page,<br/>entrevistas em massa"]
- M1C["Sucesso:<br/>evidência de dor<br/>real em ≥ 20 casos"]
+ subgraph E1["1️⃣ Etapa 1: MVP de Demanda e Problema"]
+ M1A["Pergunta:<br/>existe demanda real<br/>por essa proposta?"]
+ M1B["Formato:<br/>landing page / smoke test<br/>com chamada para ação"]
+ M1C["Meta de avanço:<br/>≥10% conversão em cadastro<br/>ou ≥3% em pré-venda"]
  end
 
- subgraph E2["2️⃣ MVP DE SOLUÇÃO"]
- M2A["Valida:<br/>solução RESOLVE<br/>o problema?"]
- M2B["Como:<br/>protótipo clicável,<br/>concierge, wizard of oz"]
- M2C["Sucesso:<br/>usuários voltam,<br/>querem mais, pagam algo"]
+ subgraph E2["2️⃣ Etapa 2: MVP de Solução (Concierge / Mágico de Oz)"]
+ M2A["Pergunta:<br/>a entrega resolve a dor<br/>e faz o cliente voltar?"]
+ M2B["Formato:<br/>operação manual assistida<br/>sem automação pesada"]
+ M2C["Meta de avanço:<br/>5–10 clientes ativos/pagantes<br/>com uso recorrente"]
  end
 
- subgraph E3["3️⃣ MVP DE NEGÓCIO"]
- M3A["Valida:<br/>unit economics<br/>funcionam?"]
- M3B["Como:<br/>versão mínima<br/>de produto + canal real"]
- M3C["Sucesso:<br/>CAC menor que LTV,<br/>retenção estável,<br/>caminho para PMF"]
+ subgraph E3["3️⃣ Etapa 3: MVP de Negócio (Software em Produção)"]
+ M3A["Pergunta:<br/>o fluxo validado escala<br/>com unit economics saudáveis?"]
+ M3B["Formato:<br/>software enxuto automatizando<br/>o núcleo provado na Etapa 2"]
+ M3C["Meta de avanço:<br/>ativação, retenção D30<br/>e conversão para pago"]
  end
 
  E1 --> E2 --> E3
@@ -200,7 +200,7 @@ flowchart LR
 
 Empreendedores iniciantes tendem a pular direto para "MVP em código" e gastar quatro a seis meses e R$ 50 mil a R$ 300 mil antes de qualquer evidência. A alternativa estruturada é fazer o MVP em três fases sequenciais, cada uma testando uma pergunta diferente. Só avance quando a anterior for aprovada.
 
-#### Etapa 1 do ciclo: Teste de Demanda e Problema (Landing Page, meta de 10% de conversão em cadastro)
+#### Etapa 1 do ciclo: MVP de Demanda e Problema (Landing Page / Smoke Test)
 
 A pergunta que responde: existe demanda real por essa proposta de valor, a esse preço, nesse ICP?
 
@@ -213,7 +213,7 @@ Custo típico de R$ 500 a R$ 3.000 em tráfego pago, mais alguns dias para monta
 > [!tip] Templates Operacionais: Templates operacionais desta fase
 > A seção **[[#TEMPLATES OPERACIONAIS E CASOS PREENCHIDOS DESTA FASE|Templates Operacionais desta Fase]]** ao final desta fase inclui o **[[IGNICAO-Vol-3-Experimentos-e-Prototipagem#Template: Especificação de MVP|Template: Especificação de MVP (Vol. 3)]]** e o **[[#Template: Checklist de Pre-Launch|Template: Checklist de Pre-Launch]]**, prontos para delimitar escopo e validar a prontidão de lançamento.
 
-#### Fase 2 do ciclo, MVP Concierge (versão manual do produto, entregue à mão pelo fundador)
+#### Etapa 2 do ciclo: MVP de Solução (Concierge / Mágico de Oz, entregue manualmente)
 
 A pergunta que responde: se entregarmos o valor prometido, o cliente consome, paga, e retorna? A solução realmente *mata* a dor?
 
@@ -223,7 +223,7 @@ Métrica primária. Retenção: percentual de usuários que voltam (o cliente vo
 
 Custo típico: alto em tempo do fundador, baixo em dinheiro. Normalmente quatro a doze semanas. O critério de avanço é pelo menos cinco a dez clientes pagantes que usam regularmente e dizem que ficariam muito decepcionados se o serviço parasse.
 
-#### Fase 3 do ciclo, MVP em Código
+#### Etapa 3 do ciclo: MVP de Negócio (Software Mínimo em Produção)
 
 A pergunta que responde: a operação que já funciona manualmente pode ser automatizada de forma a reduzir custo e escalar?
 
@@ -276,15 +276,12 @@ Entrega do valor em beta fechado ou lançamento silencioso, recorrendo a etapas 
 > [!tip] Para a primeira rodada, closed beta com lista de espera
 > É quase sempre a melhor opção. Permite controle, aprendizado profundo, e relacionamento direto com cada usuário. Os outros formatos vêm depois, com escala.
 
-> [!note] Para ir além nesta Fase 11 (Capítulos de aprofundamento)
-> Ao longo dos passos desta fase, consulte os capítulos específicos deste volume conforme a sua necessidade prática: o [[#CAPÍTULO 1 — GTM PLAYBOOK E ARQUITETURA DE CANAIS: DA PRIMEIRA VENDA AO PRIMEIRO MILHÃO DE ARR|Capítulo 1: GTM Playbook]] (para escolher entre movimento puxado pelo produto ou por vendas e priorizar os dois primeiros canais de aquisição), o [[#CAPÍTULO 6 — PRICING STRATEGY E ECONOMIA DA RECORRÊNCIA (SUBSCRIPTION ECONOMY)|Capítulo 6: Pricing Strategy]] (para calibrar cobrança e elasticidade no Passo 8) e o [[#CAPÍTULO 8 — CUSTOMER SUCCESS (CS) E CUSTOMER EXPERIENCE (CX): DA JORNADA AO CHURN ZERO E NRR POSITIVO|Capítulo 8: Customer Success e CX]] (para medir o *time-to-value* no *onboarding* manual do Passo 4).
+> [!note] Mapa de aprofundamento desta Fase 11
+> Para aprofundar a execução de cada passo desta fase sem interromper a leitura, consulte diretamente: (1) [[#CAPÍTULO 1 — GTM PLAYBOOK E ARQUITETURA DE CANAIS: DA PRIMEIRA VENDA AO PRIMEIRO MILHÃO DE ARR|Capítulo 1: GTM Playbook e Canais]] no recrutamento dos primeiros clientes (Passo 4); (2) [[#CAPÍTULO 8 — CUSTOMER SUCCESS (CS) E CUSTOMER EXPERIENCE (CX): DA JORNADA AO CHURN ZERO E NRR POSITIVO|Capítulo 8: Customer Success e CX]] na medição do *time-to-value* durante o *onboarding* manual (Passo 4); (3) [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 3 — REVENUE OPERATIONS: INFRAESTRUTURA, DADOS E PROCESSO PARA CRESCER COM PREVISIBILIDADE|Capítulo 3: Revenue Operations (Vol. 6)]] na instrumentação do funil comercial (Passo 7); e (4) [[#CAPÍTULO 6 — PRICING STRATEGY E ECONOMIA DA RECORRÊNCIA (SUBSCRIPTION ECONOMY)|Capítulo 6: Pricing Strategy]] no teste de cobrança real (Passo 8).
 
 #### Passo 4, onboarding manual intensivo, "Faça Coisas Que Não Escalam"
 
 Nas primeiras semanas, receba cada novo usuário pessoalmente. Ligue. Faça videochamada. Ensine. Pergunte. É nesse contato direto que você aprende a maior parte do que precisa para corrigir o produto. Automatizar onboarding cedo é erro clássico.
-
-> [!note] Capítulo 8: Customer Experience
-> Onboarding manual intensivo é onde se captura o dado mais valioso sobre time-to-value. O [[#CAPÍTULO 8 — CUSTOMER SUCCESS (CS) E CUSTOMER EXPERIENCE (CX): DA JORNADA AO CHURN ZERO E NRR POSITIVO|Capítulo 8: Customer Experience]] estrutura como medir o momento exato em que o usuário percebe o valor central, o "aha moment", e como o NPS pós-onboarding prediz churn (cancelamento: percentual de usuários que param de usar) antes que qualquer métrica de retenção apareça no dashboard.
 
 Esse conjunto de táticas tem nome. *Do Things That Don't Scale*, do ensaio canônico de Paul Graham, da Y Combinator. O princípio é contraintuitivo, mas provado. Nos estágios iniciais, trabalho manual intenso do fundador é o que produz PMF. Porque é o único caminho para aprendizado de alta resolução. Escala vem depois: e só funciona se o que escala foi descoberto artesanalmente primeiro.
 
@@ -293,9 +290,6 @@ Três táticas específicas compõem esse modo de operação.
 ##### Recrutamento manual de primeiros clientes
 
 Em vez de esperar que marketing digital traga usuários (e gastar R$ 5 mil a R$ 20 mil em ads que convertem a meio por cento), os melhores fundadores abordam pessoas uma a uma. No público-alvo. Por LinkedIn. Por e-mail direto. Por presença em eventos do setor. Ou até presencialmente em cafés.
-
-> [!tip] Capítulo 1: Framework de Canais de Aquisição
-> O [[#CAPÍTULO 1 — GTM PLAYBOOK E ARQUITETURA DE CANAIS: DA PRIMEIRA VENDA AO PRIMEIRO MILHÃO DE ARR|Capítulo 1 (GTM Playbook e Arquitetura de Canais: Da Primeira Venda ao Primeiro Milhão de ARR)]] mapeia todos os canais de aquisição disponíveis, inbound, outbound, eventos, parcerias, viral, com matriz de CAC estimado, velocidade e fit por estágio. Use para priorizar os dois ou três canais que valem testar nesta fase antes de investir em escala.
 
 O exemplo canônico é o Airbnb. Brian Chesky e Joe Gebbia foram pessoalmente fotografar os apartamentos dos anfitriões em Nova York (como relata Paul Graham no ensaio *Do Things that Don't Scale*) para melhorar os anúncios. O Pinterest. Ben Silbermann e Evan Sharp foram literalmente a cafeterias de Palo Alto convidar pessoas para usar.
 
@@ -343,15 +337,9 @@ Sinal de valor real: a curva se *estabiliza* (achata) em algum nível não zero.
 
 Curva que estabiliza em vinte por cento indica que um quinto dos usuários encontrou valor real. Isso é muito melhor do que curva que inicialmente mostra oitenta por cento, mas despenca.
 
-> [!note] Capítulo 3 (Vol. 6): Revenue Operations
-> Com os primeiros usuários em produto, instale o CRM e as definições de pipeline antes de chegar em dez clientes pagantes. O [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 3 — REVENUE OPERATIONS: INFRAESTRUTURA, DADOS E PROCESSO PARA CRESCER COM PREVISIBILIDADE|Capítulo 3: Revenue Operations (Vol. 6)]] cobre como estruturar stages de pipeline, handoffs entre onboarding e expansão, e as métricas de ativação que ligam o comportamento no produto ao forecast de receita. Configurar isso cedo evita retrabalho quando o volume aumentar.
-
 #### Passo 8, valide a disposição real de pagamento
 
 Se você está em período de teste gratuito ou piloto pago, defina a data de cobrança desde o dia um, formalize um termo de piloto simples (com preço, prazo e escopo), configure cobrança recorrente via cartão, boleto ou Pix Automático e emita a NFS-e no padrão nacional vigente em 2026 (incluindo os campos informativos de IBS e CBS da reforma tributária). Meça duas coisas. Percentual que converte de trial para pago. E as razões de não conversão (via entrevista com quem não converteu).
-
-> [!tip] Capítulo 6: Pricing
-> O [[#CAPÍTULO 6 — PRICING STRATEGY E ECONOMIA DA RECORRÊNCIA (SUBSCRIPTION ECONOMY)|Capítulo 6: Pricing]] cobre modelos de precificação (freemium, por uso, por assento, por resultado), como testar elasticidade de preço com experimentos controlados e os erros mais comuns de pricing em early-stage: inclui o método de van Westendorp para calibrar faixas aceitáveis sem chute.
 
 #### Passo 9, produza o Relatório de Aprendizado
 
@@ -519,7 +507,7 @@ Algumas empresas crescem sem evento de lançamento tradicional: a Superhuman esc
 
 ### O Espelho da Fase 11: Seu MVP Já Está na Mão de Quem Paga ou Escondido no Seu Computador?
 
-**Fechando o ciclo na trincheira:** Quando **Lucas e Marina** aplicaram as travas deste capítulo na rotina entre São Paulo e Florianópolis, a tensão da cena de abertura deixou de ser discussão subjetiva de corredores e virou regra clara de priorização, retenção e proteção de caixa.
+**Da teoria à rotina operacional (MVP E EXPERIMENTOS DE MERCADO):** Na revisão mensal em São Paulo e Florianópolis, **Lucas e Marina** transformaram o protocolo de *O Espelho da Fase 11: Seu MVP Já Está na Mão de...* em critério obrigatório antes de liberar novos recursos do orçamento.
 
 **O Espelho (autodiagnóstico):**
 1. O que impede você de colocar o produto na mão de clientes reais hoje: um risco técnico real de corromper dados ou o desconforto com uma interface simples? (Se houver risco aos dados, volte ao Passo 1 e blinde a operação; se for apenas estética, libere o acesso aos dez primeiros usuários hoje e acompanhe o uso no Passo 4.)
@@ -1043,7 +1031,7 @@ A fórmula simples para modelo transacional: LTV é igual à receita média por 
 > [!tip] Capítulo 6: Subscription Economy
 > O [[#CAPÍTULO 6 — PRICING STRATEGY E ECONOMIA DA RECORRÊNCIA (SUBSCRIPTION ECONOMY)|Capítulo 6: Subscription Economy]] cobre a mecânica específica de negócios recorrentes: MRR waterfall (new, expansion, contraction, churn), dinâmica de NRR, pricing de tiers e as armadilhas de churns que não aparecem na DRE até ser tarde demais.
 
-No início, você não tem dados históricos longos. Use proxies. A retenção observada nos primeiros três a seis meses, extrapolada com cuidado. A taxa de churn (cancelamento: percentual de clientes que param de pagar) mensal observada: LTV é igual ao ARPU mensal (receita média mensal por cliente) multiplicado pela margem bruta e dividido pelo churn mensal: LTV = (ARPU × Margem Bruta) ÷ Churn Mensal, enquanto o CAC Payback em meses é CAC ÷ (ARPU × Margem Bruta).
+No início da operação, quando ainda não há histórico de anos de retenção, trabalhe com estimativas conservadoras (*proxies*) apoiadas nas primeiras coortes de três a seis meses. A partir da taxa de cancelamento mensal observada (*churn* de receita ou de clientes), projete o valor do tempo de vida pela fórmula **LTV = (ARPU mensal × Margem Bruta) ÷ Churn Mensal**, e complemente sempre a leitura com o **CAC Payback = CAC ÷ (ARPU mensal × Margem Bruta)** para saber em quantos meses o caixa investido na aquisição retorna.
 
 #### Passo 3, meça o tempo de payback de CAC
 
@@ -1053,7 +1041,12 @@ Esse é o número de meses até você "pagar" o CAC de um cliente. Abaixo de doz
 
 #### Passo 4, valide a precificação com clientes pagantes
 
-Agora você tem dados reais. Responda quatro perguntas. A precificação atual é percebida como adequada? Há segmentos dispostos a pagar mais por mais valor? Há segmentos que precisam de versão mais barata? Tem espaço para upsell ou cross-sell?
+Com clientes reais pagando pelo produto, avalie a estrutura de preço a partir de quatro perguntas práticas:
+
+- **Percepção de valor:** o preço atual é percebido como justo frente ao retorno financeiro que o cliente obtém?
+- **Disposição para planos superiores:** existe um subgrupo de clientes disposto a pagar mais por capacidade extra, SLA ou funcionalidades avançadas?
+- **Barreira de entrada:** há clientes aderentes ao ICP que travam no plano inicial e precisariam de uma faixa de entrada mais enxuta?
+- **Expansão na mesma conta:** o produto permite *upsell* (upgrade de plano/volume) ou *cross-sell* (módulos complementares) ao longo do primeiro ano?
 
 Teste experimentalmente. Aumente o preço para novos clientes em vinte a trinta por cento. Meça a conversão. Introduza tiers (básico, profissional, enterprise). Cobre módulos ou features extras separadamente.
 
@@ -1062,13 +1055,23 @@ Teste experimentalmente. Aumente o preço para novos clientes em vinte a trinta 
 
 #### Passo 5, mapeie todos os custos unitários e recorrentes
 
-Quatro categorias. Custos fixos (aluguel, salários, ferramentas, SaaS). Custos variáveis por cliente (infraestrutura, suporte, transação, comissão). Investimentos pontuais (equipamentos, marcas, desenvolvimento). Impostos.
+Classifique todos os desembolsos da operação em quatro grupos contábeis claros:
+
+- **Custos variáveis diretos (COGS/CPV):** servidores e banco de dados proporcional ao uso, chamadas de API/LLM, taxas de meios de pagamento, implementação e suporte dedicado ao cliente;
+- **Despesas comerciais (CAC):** mídia paga, comissões de vendas, ferramentas de prospecção e equipe de *go-to-market*;
+- **Despesas fixas gerais e de P&D (OpEx):** folha de engenharia e produto, administrativo, jurídico, contabilidade e licenças internas;
+- **Tributos sobre faturamento e investimentos (CapEx):** impostos diretos sobre a nota fiscal (Simples Nacional, ISS, PIS/Cofins ou IBS/CBS) e gastos pontuais de capital.
 
 Gross margin (margem bruta: receita menos custo direto, dividido pela receita): SaaS saudável tem mais de setenta por cento. Marketplaces têm mais de trinta por cento. Serviços podem ter menos de cinquenta por cento e ainda ser bom negócio.
 
 #### Passo 6, identifique alavancas de eficiência
 
-Onde você consegue reduzir o CAC? Aumentar o LTV? Melhorar a margem? Quatro alavancas comuns. Canais de aquisição mais baratos (SEO, referência, parcerias). Mecanismos de retenção (melhor onboarding, features stick, comunidade). Upsell e expansão. Automação de suporte e operação.
+Para melhorar a razão LTV:CAC e encurtar o *payback*, atue sobre quatro alavancas operacionais:
+
+1. **Migração gradual para canais de menor CAC:** combinar aquisição paga com conteúdo orgânico (SEO), indicação de clientes e parcerias de distribuição;
+2. **Blindagem da retenção nos primeiros 90 dias:** acelerar o *onboarding* até o primeiro resultado concreto (*aha moment*) e criar rotinas de uso semanal que travem o cancelamento;
+3. **Expansão líquida de receita (NRR > 100%):** estruturar gatilhos naturais de upgrade por volume, assentos ou módulos adicionais;
+4. **Automação de entrega e suporte:** substituir etapas manuais repetitivas por fluxos autoatendidos para elevar a margem bruta.
 
 #### Passo 7, modele o Canvas Financeiro
 
@@ -1091,7 +1094,7 @@ O plano de uma página é ponto de partida. Modelo financeiro completo em planil
 
 A estrutura do modelo financeiro tem cinco abas.
 
-**Aba 1, Premissas.** Todas as variáveis que movem o modelo. Crescimento mensal de novos clientes (em percentual). Ticket médio (MRR, Monthly Recurring Revenue, ou receita mensal recorrente, ou ARR, Annual Recurring Revenue, receita anual recorrente, por cliente). Churn mensal (em percentual). NRR (Net Revenue Retention: percentual da receita retida e expandida na base de clientes). CAC por canal. Custo variável por cliente. Custos fixos mensais (folha, tools, office). Timing de contratação por função.
+- **Aba 1: Premissas (*Inputs*):** concentra todas as variáveis editáveis que movem o modelo (sem números fixos escondidos nas fórmulas das demais abas), incluindo crescimento mensal de novos clientes por canal, ticket médio (ARPU/MRR), taxas de *churn* e expansão (NRR), CAC por canal, custo direto de servir por cliente, despesas fixas mensais e cronograma de contratações.
 
 **Aba 2, DRE mensal projetada (dezoito a trinta e seis meses).** As linhas: Nova receita, Expansão, Churn, MRR líquido, Custo variável, Margem de contribuição, Folha, Outros custos fixos, EBITDA e Caixa em mãos. As colunas: mês a mês por dezoito a trinta e seis meses.
 
@@ -1402,7 +1405,7 @@ Você acabou de calcular CAC e LTV reais com dados (não chutes), modelou três 
 
 ### O Espelho da Fase 12: Cada Novo Cliente Enriquece ou Empobrece a Sua Empresa?
 
-**Fechando o ciclo na trincheira:** Quando **Rafael e Bia** conectaram esta disciplina entre a aquisição no Recife e a operação logística em Goiânia, o vazamento que abriu este capítulo estancou e o crescimento voltou a gerar caixa livre.
+**Lição consolidada em VALIDAÇÃO DO MODELO DE NEGÓCIO:** Quando **Rafael e Bia** travaram as regras de *O Espelho da Fase 12: Cada Novo Cliente...* na rotina de Recife e Goiânia, o gargalo que drenava o tempo dos fundadores deu lugar a um processo previsível.
 
 **O Espelho (autodiagnóstico):**
 1. No seu cálculo atual de CAC, você incluiu honestamente os salários de marketing, salários e comissões de vendedores, ferramentas e impostos, ou contou só o boleto do Facebook/Google Ads?
@@ -1970,11 +1973,11 @@ Fundadores que ficam estáticos vendo o crescimento morrer aprendem tarde demais
 > [!important] PMF revisitado ao longo de toda a vida da empresa
 > A Fase 13 (Product-Market Fit) é revisitada ao longo de toda a vida da empresa, sempre que o mercado, o canal ou o produto mudam de patamar. Uma empresa de vinte anos, se ainda existe, provavelmente renovou o PMF dela cinco ou seis vezes.
 
-### A tríade de prova do PMF: Curva de Retenção Assintótica, Regra dos 40% de Decepção e Eficiência de Aquisição
+### Os Cinco Sinais Quantitativos do PMF: Retenção Assintótica, Regra dos 40%, Tração Orgânica, NPS e Demanda Puxada
 
-#### Passo 1, medir PMF quantitativamente
+#### Passo 1: medir o PMF quantitativamente em cinco dimensões
 
-Cinco sinais complementares que se reforçam mutuamente.
+Nenhum indicador isolado comprova *Product-Market Fit*; avalie em conjunto cinco sinais complementares que se reforçam mutuamente.
 
 > [!tip] Canvases Visuais: Pirate Canvas / AARRR (Fase 11)
 > Diagnóstico de PMF mora dentro do AARRR. As métricas centrais desta fase, ativação (Activation), retenção por coorte (Retention) e crescimento orgânico via indicação (Referral), são três das cinco etapas do [[#Canvas: Pirate Canvas / AARRR (Dave McClure, 2007)|Canvas: Pirate Canvas / AARRR (Dave McClure, 2007)]]. Use o canvas para visualizar onde o produto entrega valor versus onde vaza usuário. Sem mapear o funil, números soltos enganam (cadastros altos sem ativação são "PMF teatro").
@@ -2080,8 +2083,8 @@ Mapeie os thresholds relevantes no seu mercado. Muitos não são óbvios. Pode s
 > [!quote] Sobre desigualdade de retornos em ambientes superlineares
 > Como observa Paul Graham em *Superlinear Returns* (2023), ambientes governados por composição e limiares de desempenho produzem resultados matematicamente muito concentrados. Ambientes com retornos superlineares produzem desigualdade extrema de resultado. Um fundador fica mil vezes mais rico que outro que trabalhou quase tão duro. Aceitar isso como característica do jogo, e não como falha moral do sistema, ajuda a agir sem ressentimento.
 
-> [!important] Regra combinada PMF mais Crescimento mais Superlinearidade
-> Como leitura rápida do scorecard de seis dimensões desta fase, combinar Sean Ellis acima de 40%, curva de retenção estabilizada por coorte e crescimento consistente por oito ou mais semanas confirma que o produto atingiu o PMF no segmento avaliado. Sean Ellis abaixo de quarenta por cento, *ou* retenção caindo, *ou* crescimento abaixo de dois por cento por semana, é ainda não. Itere. Se o crescimento semanal está entre dois e cinco por cento de forma consistente e crescente por três ou mais meses, você está na virada. Continue iterando. Identifique dois ou três thresholds específicos do seu mercado, e otimize obsessivamente para cruzá-los. O retorno de cruzar um threshold relevante, em startup, é tipicamente maior do que qualquer outra alavanca de curto prazo.
+> [!important] Regra combinada: os 5 sinais de retenção/valor + taxa de crescimento semanal
+> Somando os cinco sinais do Passo 1 à taxa de crescimento semanal do YC (totalizando os seis indicadores do scorecard desta fase), a regra de bolso é direta: quando a curva de retenção por coorte estabiliza acima do piso do setor, o teste de Sean Ellis supera 40%, a aquisição orgânica responde por ao menos 20%–30% das novas ativações e a receita cresce de forma consistente por oito ou mais semanas, o produto atingiu o PMF no segmento avaliado. Sean Ellis abaixo de quarenta por cento, *ou* retenção caindo, *ou* crescimento abaixo de dois por cento por semana, é ainda não. Itere. Se o crescimento semanal está entre dois e cinco por cento de forma consistente e crescente por três ou mais meses, você está na virada. Continue iterando. Identifique dois ou três thresholds específicos do seu mercado, e otimize obsessivamente para cruzá-los. O retorno de cruzar um threshold relevante, em startup, é tipicamente maior do que qualquer outra alavanca de curto prazo.
 
 > [!tip] Default Alive e Default Dead
 > O conceito de Default Alive vs Default Dead é tratado em profundidade na [[#FASE 12 — VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 12]] (Passo 10), onde a pergunta operacional é modelada. Aqui basta saber que PMF é pré-requisito mas não garantia de Default Alive.
@@ -2321,7 +2324,7 @@ Esperar PMF "cair" sem iteração. PMF é construído, não encontrado. Se há s
 
 ### O espelho da Fase 13: a pedra já desce o morro sozinha ou você ainda empurra cada venda?
 
-**Fechando o ciclo na trincheira:** Quando **Lucas e Marina** aplicaram as travas deste capítulo na rotina entre São Paulo e Florianópolis, a tensão da cena de abertura deixou de ser discussão subjetiva de corredores e virou regra clara de priorização, retenção e proteção de caixa.
+**Resultado na trincheira (PRODUCT-MARKET FIT):** A disciplina descrita em *O espelho da Fase 13: a pedra já desce o morro...* permitiu que **Lucas e Marina**, a partir de São Paulo e Florianópolis, blindassem a margem operacional e reduzissem o retrabalho da equipe.
 
 **O Espelho (autodiagnóstico):**
 1. Se você zerar 100% dos seus gastos com anúncios pagos por trinta dias a partir de amanhã, os seus clientes atuais continuam usando o produto no mesmo ritmo e trazendo novos clientes no boca a boca?
@@ -3415,7 +3418,7 @@ Pipeline Coverage    | 3x meta             | 3–4x meta          | Pipeline / m
 flowchart TD
  Outer["🔵 OUTER RING<br/>'Possíveis'<br/>todos os 19 canais<br/>brainstorm inicial"]
 
- Outer --> Middle["🟡 MIDDLE RING<br/>'Prometedores'<br/>3-5 canais com hipótese<br/>de funcionar no seu caso"]
+ Outer --> Middle["🟡 MIDDLE RING<br/>'Promissores'<br/>Top 3 canais candidatos<br/>para experimentos paralelos"]
 
  Middle --> Inner["🟢 INNER RING<br/>'Funcionando'<br/>1-2 canais testados<br/>com CAC aceitável"]
 
@@ -3441,9 +3444,9 @@ O método Bullseye tem três anéis. Externo (todos os dezenove canais). Meio (t
 
 **2. Fase de ranking.** Elimine canais claramente incompatíveis com o seu estágio, CAC, ou LTV (por exemplo, TV é inviável para startup seed B2B SaaS). Dos restantes, escolha os três mais promissores. Critérios de escolha: alcance (o canal chega ao volume de clientes ideais de que você precisa?), CAC estimado (cabe no LTV que você já comprovou?), Velocidade de feedback. Quanto tempo até saber se está funcionando? Compatibilidade com produto. O canal é apropriado para esse tipo de solução? Diferencial versus concorrentes. Concorrentes saturam esse canal, ou ignoram?
 
-**3. Fase de teste.** Escolha apenas um canal, e teste a sério por trinta a sessenta dias. Com investimento modesto, mas suficiente (tipicamente R$ 5 mil a R$ 20 mil para canais pagos, ou equivalente em horas para canais orgânicos). Meça rigorosamente.
+**3. Fase de teste simultâneo no anel do meio.** Rode experimentos paralelos, curtos e de baixo custo nos **três canais do anel do meio** durante três a seis semanas (com orçamento controlado, tipicamente R$ 3 mil a R$ 15 mil por canal pago ou dedicação equivalente em canais orgânicos/outbound), medindo CAC inicial, velocidade de ativação e volume potencial.
 
-**4. Fase de dobrada, ou pivô.** Se o canal escolhido atingir a métrica-alvo, invista pesado. Se não, teste o próximo do top três.
+**4. Fase de foco no anel central (*Inner Ring*).** Se um dos três canais demonstrar CAC e payback saudáveis com espaço para escalar, promova-o para o centro do alvo e concentre nele 70% a 80% do orçamento e da energia do time até extrair seu potencial máximo; se nenhum dos três funcionar, volte ao anel externo e selecione uma nova trinca de hipóteses.
 
 > [!important] Faça testes baratos nos três canais do anel do meio, mas escale um único canal vencedor por vez
 > Depois de rodar os experimentos curtos do anel do meio para achar sinal de vida, você não tem fôlego operacional para escalar e otimizar três canais ao mesmo tempo: dobre a aposta no vencedor.
@@ -3544,7 +3547,7 @@ Dashboards de analytics insuficientes. PLG sem instrumentação é operação ce
 
 ### O Espelho do Capítulo 1: Seu Movimento de Vendas Cabe Dentro do Seu Tíquete Médio?
 
-**Fechando o ciclo na trincheira:** Quando **Lucas e Marina** aplicaram as travas deste capítulo na rotina entre São Paulo e Florianópolis, a tensão da cena de abertura deixou de ser discussão subjetiva de corredores e virou regra clara de priorização, retenção e proteção de caixa.
+**Da teoria à rotina operacional (GTM PLAYBOOK E ARQUITETURA DE CANAIS: DA PRIMEIRA...):** Na revisão mensal em São Paulo e Florianópolis, **Lucas e Marina** transformaram o protocolo de *O Espelho do Capítulo 1: Seu Movimento de Vendas...* em critério obrigatório antes de liberar novos recursos do orçamento.
 
 **O Espelho (autodiagnóstico):**
 1. Você, como fundador, já fechou pessoalmente pelo menos 20 a 30 clientes desconhecidos (fora do seu círculo de amigos e parentes) e escreveu no papel as 10 objeções exatas que surgem em toda reunião?
@@ -3706,7 +3709,7 @@ Não medir conversion. Volume de tráfego sem conversion é vanity metric.
 
 ### O Espelho do Capítulo 2: Seu Conteúdo Atrai Compradores com Cartão na Mão ou Apenas Curiosos?
 
-**Fechando o ciclo na trincheira:** Quando a **Dra. Camila** trouxe este protocolo para a operação da clínica em Belo Horizonte, o gargalo que abriu este capítulo deixou de depender do seu heroísmo pessoal na cadeira e passou a rodar como sistema auditável pela equipe.
+**Lição consolidada em CRESCIMENTO ORGÂNICO COMPOSTO: CONTENT MARKETING, SEO...:** Quando a **Dra. Camila** travou as regras de *O Espelho do Capítulo 2: Seu Conteúdo Atrai...* na rotina de Belo Horizonte, o gargalo que drenava a agenda de liderança deu lugar a um processo previsível.
 
 **O Espelho (autodiagnóstico):**
 1. Se você desligar todos os seus anúncios pagos hoje ao meio-dia, quantas vendas ou pedidos de orçamento continuam entrando sozinhos amanhã pelas suas páginas e conteúdos já publicados?
@@ -4096,7 +4099,7 @@ Marketing de performance está operando bem quando todos os itens abaixo estão 
 
 ### O Espelho do Capítulo 3: Você Está Comprando Lucro no Banco ou Prints Bonitos no Gerenciador?
 
-**Fechando o ciclo na trincheira:** Quando **Rafael e Bia** conectaram esta disciplina entre a aquisição no Recife e a operação logística em Goiânia, o vazamento que abriu este capítulo estancou e o crescimento voltou a gerar caixa livre.
+**Da teoria à rotina operacional (MARKETING DE PERFORMANCE EM PROFUNDIDADE):** Na revisão mensal em Recife e Goiânia, **Rafael e Bia** transformaram o protocolo de *O Espelho do Capítulo 3: Você Está Comprando...* em critério obrigatório antes de liberar novos recursos do orçamento.
 
 **O Espelho (autodiagnóstico):**
 1. Você sabe de cor, na ponta da língua, qual é o seu **ROAS de Empate (Breakeven)** exato (1 dividido pela sua margem de contribuição percentual antes da mídia)?
@@ -4718,7 +4721,7 @@ Três padrões de win/loss que merecem ação imediata:
 
 ### O Espelho do Capítulo 4: Sua Marca é um Bisturi na Mente do Cliente ou um Panfleto Genérico?
 
-**Fechando o ciclo na trincheira:** Quando a **Dra. Camila** trouxe este protocolo para a operação da clínica em Belo Horizonte, o gargalo que abriu este capítulo deixou de depender do seu heroísmo pessoal na cadeira e passou a rodar como sistema auditável pela equipe.
+**Virada de chave em BRANDING, POSICIONAMENTO DE MARCA E PRODUCT MARKETING...:** Foi aplicando o checklist de *O Espelho do Capítulo 4: Sua Marca é um Bisturi...* no dia a dia em Belo Horizonte que a **Dra. Camila** destravou o próximo degrau de escala sustentável do negócio.
 
 **O Espelho (autodiagnóstico):**
 1. Se você tapar o logotipo e trocar as cores da página inicial do seu site hoje, o texto que sobra lá dentro ainda é 100% inconfundível, ou poderia servir para qualquer um dos seus cinco maiores concorrentes?
@@ -5090,7 +5093,7 @@ Independentemente do modelo comercial (B2B consultivo, enterprise, SMB ou PLG), 
 
 ### O Espelho do Capítulo 5: Seu Time Faz Diagnóstico Cirúrgico ou Vomita Funcionalidades?
 
-**Fechando o ciclo na trincheira:** Quando **Henrique** incorporou este filtro nas negociações industriais e públicas a partir de Curitiba, o impasse da abertura foi substituído por critérios técnicos de aprovação, margem protegida e ciclo previsível.
+**Lição consolidada em SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL:** Quando **Henrique** travou as regras de *O Espelho do Capítulo 5: Seu Time Faz...* na rotina de Curitiba, o gargalo que drenava a agenda de liderança deu lugar a um processo previsível.
 
 **O Espelho (autodiagnóstico):**
 1. Nas suas reuniões comerciais, quem fala mais de 40% do tempo: você (ou seu vendedor) explicando telas, ou o cliente revelando dores, números e critérios de compra (e o seu modelo comercial e plano de comissão premiam clientes que permanecem ativos ou apenas assinaturas de curto prazo)?
@@ -5598,7 +5601,7 @@ Pricing como disciplina está no padrão quando todos os itens abaixo estão cum
 
 ### O Espelho do Capítulo 6: Seu Preço Reflete o Valor que Você Cria ou o Medo que Você Sente?
 
-**Fechando o ciclo na trincheira:** Quando **Lucas e Marina** aplicaram as travas deste capítulo na rotina entre São Paulo e Florianópolis, a tensão da cena de abertura deixou de ser discussão subjetiva de corredores e virou regra clara de priorização, retenção e proteção de caixa.
+**Virada de chave em PRICING STRATEGY E ECONOMIA DA RECORRÊNCIA...:** Foi aplicando o checklist de *O Espelho do Capítulo 6: Seu Preço Reflete o...* no dia a dia em São Paulo e Florianópolis que **Lucas e Marina** destravaram o próximo degrau de escala sustentável do negócio.
 
 **O Espelho (autodiagnóstico):**
 1. Nos seus últimos vinte negócios fechados, quantos clientes disseram *"está caro, mas vou pagar porque vale a pena"*? Se absolutamente ninguém reclama do seu preço, você está deixando uma fortuna na mesa.
@@ -5634,7 +5637,7 @@ Quinze minutos depois, o contrato entrou para assinatura pelo valor integral de 
 
 > [!abstract] Posição no livro
 > Posição no livro: a negociação é uma disciplina transversal do fundador, aplicável em *term sheets*, contratos comerciais, parcerias e conflitos societários. Capítulos vizinhos com aplicação direta:
-> - [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 5 — ARQUITETURA CONTRATUAL PARA STARTUPS: OPERAÇÃO E CONTRATOS EM PROFUNDIDADE POR TIPO|Capítulo 5 (Arquitetura Contratual para Startups: Operação e Contratos em Profundidade por Tipo) (Vol. 8)]] e Capítulo 5 (Arquitetura Contratual para Startups: Operação e Contratos em Profundidade por Tipo) (Vol. 8), negociação de cláusulas e contratos
+> - [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 5 — ARQUITETURA CONTRATUAL PARA STARTUPS: OPERAÇÃO E CONTRATOS EM PROFUNDIDADE POR TIPO|Capítulo 5 (Arquitetura Contratual para Startups: Operação e Contratos em Profundidade por Tipo) (Vol. 8)]], negociação de cláusulas e contratos
 > - [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 1 — BOARD E GOVERNANCE|Capítulo 1 (Board e Governance) (Vol. 9)]], negociação no board e com investidores
 > - [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 3 — DISPUTA SOCIETÁRIA E SAÍDA DE SÓCIO|Capítulo 3 (Disputa Societária e Saída de Sócio) (Vol. 9)]], negociação em conflito societário
 > - [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 4 — BUSINESS DEVELOPMENT E PARCERIAS COM GRANDES CORPORAÇÕES BRASILEIRAS|Capítulo 4 (Business Development e Parcerias com Grandes Corporações Brasileiras) (Vol. 6)]], negociação de deal corporativo de longo ciclo
@@ -5906,7 +5909,7 @@ Esse processo leva 30 a 60 minutos. Para uma negociação com impacto de seis d�
 
 ### O Espelho do Capítulo 7: Você Negocia com Estratégia Fria ou Implora pela Assinatura?
 
-**Fechando o ciclo na trincheira:** Quando **Henrique** incorporou este filtro nas negociações industriais e públicas a partir de Curitiba, o impasse da abertura foi substituído por critérios técnicos de aprovação, margem protegida e ciclo previsível.
+**Lição consolidada em NEGOCIAÇÃO COMO DISCIPLINA:** Quando **Henrique** travou as regras de *O Espelho do Capítulo 7: Você Negocia com...* na rotina de Curitiba, o gargalo que drenava a agenda de liderança deu lugar a um processo previsível.
 
 **O Espelho (autodiagnóstico):**
 1. Antes de entrar em uma reunião decisiva de fechamento ou captação, você escreve no papel qual é o seu **Preço de Reserva** (a linha vermelha abaixo da qual você levanta da mesa e diz "não, obrigado")?
@@ -6187,7 +6190,7 @@ Em SaaS B2B maduro, sessenta a oitenta por cento do valor total de um cliente ve
 
 A economia de SaaS é simples. O CAC (custo de aquisição de cliente) para conquistar um cliente novo custa cinco a dez vezes mais que expandir um cliente existente. A probabilidade de vender para cliente atual fica em sessenta a setenta por cento. Para lead frio, cinco a vinte por cento. NRR (Net Revenue Retention, retenção líquida de receita) alto, igual ou maior que cento e vinte por cento, é o que separa SaaS com valuation alto de SaaS mediano.
 
-Números de referência. O churn (cancelamento) logo mensal saudável em SaaS PME fica entre um e três por cento. Em enterprise, o churn mensal de contas fica entre 0,5% e 1,5% (contra 1% a 3% em PME). Pela régua unificada deste capítulo, a retenção líquida de receita (NRR) anual saudável parte de ≥ 100% em PME, ≥ 110% como patamar forte em mid-market e ≥ 120% como nível de excelência em enterprise (com 30% a 60% da receita nova em operações maduras vindo de expansão da base). Forte: igual ou maior que cento e dez por cento. Excepcional: igual ou maior que cento e vinte e cinco por cento. O percentual de receita via expansion em SaaS maduro fica entre trinta e sessenta por cento.
+Números de referência. O churn (cancelamento) logo mensal saudável em SaaS PME fica entre um e três por cento. Em enterprise, o churn mensal de contas fica entre 0,5% e 1,5% (contra 1% a 3% em PME). Pela régua unificada deste capítulo, a retenção líquida de receita (NRR) anual saudável parte de ≥ 100% em PME, ≥ 110% como patamar forte em mid-market e ≥ 120% como nível de excelência em enterprise (com 30% a 60% da receita nova em operações maduras vindo de expansão da base).
 
 Empresa sem CS estruturado tipicamente tem churn duas a cinco vezes maior do que poderia, NRR menor que cem por cento e nenhum advocacy sistemático.
 
@@ -6530,7 +6533,7 @@ CS como disciplina no padrão quando o onboarding estruturado existe com métric
 
 ### O Espelho do Capítulo 8: Seu Time Entrega Resultado Real ou Apenas Pede Desculpas com Simpatia?
 
-**Fechando o ciclo na trincheira:** Quando **Lucas e Marina** aplicaram as travas deste capítulo na rotina entre São Paulo e Florianópolis, a tensão da cena de abertura deixou de ser discussão subjetiva de corredores e virou regra clara de priorização, retenção e proteção de caixa.
+**Lição consolidada em CUSTOMER SUCCESS (CS) E CUSTOMER EXPERIENCE (CX): DA...:** Quando **Lucas e Marina** travaram as regras de *O Espelho do Capítulo 8: Seu Time Entrega...* na rotina de São Paulo e Florianópolis, o gargalo que drenava o tempo dos fundadores deu lugar a um processo previsível.
 
 **O Espelho (autodiagnóstico):**
 1. Quantos dias exatos um cliente novo leva, em média, desde o pagamento até alcançar a primeira vitória concreta dentro do seu produto ou serviço?
@@ -6808,7 +6811,7 @@ Time e stack de dados estão saudáveis quando todos os itens abaixo estão cump
 
 ### O Espelho do Capítulo 9: Seus Dados Comandam Decisões ou Enfeitam Reuniões?
 
-**Fechando o ciclo na trincheira:** Quando **Lucas e Marina** aplicaram as travas deste capítulo na rotina entre São Paulo e Florianópolis, a tensão da cena de abertura deixou de ser discussão subjetiva de corredores e virou regra clara de priorização, retenção e proteção de caixa.
+**Da teoria à rotina operacional (DADOS, ANALYTICS E EXPERIMENTAÇÃO):** Na revisão mensal em São Paulo e Florianópolis, **Lucas e Marina** transformaram o protocolo de *O Espelho do Capítulo 9: Seus Dados Comandam...* em critério obrigatório antes de liberar novos recursos do orçamento.
 
 **O Espelho (autodiagnóstico):**
 1. Qual é a única **North Star Metric** da sua empresa hoje: e ela mede o valor real que o cliente recebeu (ex. *"notas fiscais auditadas sem erro"*, *"consultas realizadas com melhora clínica"*) ou mede apenas vaidade da empresa (ex. *"usuários cadastrados"*)?
@@ -6839,14 +6842,12 @@ Em um produto AI-Native verdadeiro, o cliente não quer bater papo com uma caixa
 ---
 
 > [!warning] Nota de validade
-> Este é o capítulo que envelhece mais rápido no manual. O panorama de modelos, custos, ferramentas e práticas de abril de 2026 estará parcialmente obsoleto em doze a dezoito meses. Os princípios (avaliação rigorosa, mitigação de alucinação, margem real incluindo custo de inferência) têm vida mais longa. Revisar a cada doze meses.
+> Este é o capítulo que envelhece mais rápido no manual. O panorama de modelos, custos, ferramentas e práticas de outubro de 2026 estará parcialmente obsoleto em doze a dezoito meses. Os princípios (avaliação rigorosa, mitigação de alucinação, margem real incluindo custo de inferência) têm vida mais longa. Revisar a cada doze meses.
 
-> [!tip] As quatro camadas de IA neste livro
-> IA aparece em quatro camadas, cada uma com decisões e ferramentas distintas. Você está em **AI no produto** (camada 3). As outras três:
->
-> - **Camada 1: IA como acelerador do empreendedor** ([[IGNICAO-Vol-1-Ideacao#CAPÍTULO 10 — IA GENERATIVA E AGENTES COMO COPILOTO E ACELERADOR DO FUNDADOR (2026)|Capítulo 10 (IA Generativa e Agentes como Copiloto e Acelerador do Fundador (2026)) (Vol. 1)]]). Uso pessoal do fundador para escrita, pesquisa, análise.
-> - **Camada 2: IA como copiloto do fundador** ([[IGNICAO-Vol-1-Ideacao#CAPÍTULO 10 — IA GENERATIVA E AGENTES COMO COPILOTO E ACELERADOR DO FUNDADOR (2026)|Capítulo 10 (IA Generativa e Agentes como Copiloto e Acelerador do Fundador (2026)) (Vol. 1)]]). Versão atualizada da Camada 1 para o cenário de 2026, com casos de uso de alto retorno operacional.
-> - **Camada 4: AI Ops e automação interna** ([[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 6 — AI OPS E AUTOMAÇÃO INTELIGENTE|Capítulo 6 (AI Ops e Automação Inteligente) (Vol. 7)]]). IA na operação da empresa, com triagem de tickets, resumo de calls, automação de workflows. Não é produto.
+> [!tip] As três camadas de IA nesta coleção
+> A inteligência artificial aparece em três frentes distintas ao longo da obra. Você está na **Frente 2: IA como parte do produto (*AI-Native Product*)**. As outras duas são:
+> - **Frente 1: IA como copiloto e acelerador pessoal do fundador** ([[IGNICAO-Vol-1-Ideacao#CAPÍTULO 10 — IA GENERATIVA E AGENTES COMO COPILOTO E ACELERADOR DO FUNDADOR (2026)|Volume 1, Capítulo 10]]): produtividade individual dos fundadores em pesquisa, síntese, modelagem e prototipagem;
+> - **Frente 3: AI Ops e automação interna da operação** ([[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 6 — AI OPS E AUTOMAÇÃO INTELIGENTE|Volume 7, Capítulo 6]]): agentes e fluxos internos para triagem de suporte, resumo de chamadas comerciais e eficiência de *backoffice*.
 
 O [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 10 — IA GENERATIVA E AGENTES COMO COPILOTO E ACELERADOR DO FUNDADOR (2026)|Capítulo 10 (IA Generativa e Agentes como Copiloto e Acelerador do Fundador (2026)) (Vol. 1)]] cobre IA como ferramenta do fundador, acelerador de produtividade pessoal. Este capítulo é outro tema: IA como parte do produto que vai a mercado, com RAG, evaluations, mitigação de alucinação, seleção de modelo, economia de inferência, latência e tudo que muda quando o LLM é componente crítico do produto, não acessório.
 
@@ -6868,7 +6869,7 @@ Dependência de provedor é risco estrutural. Se o seu produto só funciona com 
 
 Os critérios em quatro peças. Qualidade necessária, para a tarefa, qual patamar mínimo de saída é aceitável? Latência, tempo máximo aceitável na UX. Custo por 1M tokens, input e output. Privacidade, os dados podem sair para API de terceiro?
 
-Panorama em abril de 2026, em mudança rápida.
+Panorama em outubro de 2026, em mudança rápida.
 
 Modelos de fronteira (mais capazes, mais caros). Claude Opus 4.7, GPT-4.5 e 5, Gemini Ultra. Custo de cerca de US$ 10 a 75 por 1M tokens output. Usar apenas onde a qualidade é crítica.
 
@@ -7130,7 +7131,7 @@ AI-native está no padrão quando todos os itens abaixo estão cumpridos.
 
 ### O Espelho do Capítulo 10: Sua IA é o Motor Proprietário ou Apenas um Adesivo Alugado?
 
-**Fechando o ciclo na trincheira:** Quando **Lucas e Marina** aplicaram as travas deste capítulo na rotina entre São Paulo e Florianópolis, a tensão da cena de abertura deixou de ser discussão subjetiva de corredores e virou regra clara de priorização, retenção e proteção de caixa.
+**Da teoria à rotina operacional (AI COMO PARTE DO PRODUTO (AI-NATIVE PRODUCT)):** Na revisão mensal em São Paulo e Florianópolis, **Lucas e Marina** transformaram o protocolo de *O Espelho do Capítulo 10: Sua IA é o Motor...* em critério obrigatório antes de liberar novos recursos do orçamento.
 
 **O Espelho (autodiagnóstico):**
 1. Se um concorrente contratar dois bons programadores neste fim de semana e conectar na mesma API de IA que você usa, o que exatamente impede que ele replique 100% do seu produto até segunda-feira?
@@ -7323,7 +7324,7 @@ A diferença entre os dois é disciplina. Evidência antes da decisão. Tese esp
 
 ### O Espelho do Capítulo 11: Você Está Sendo Resiliente na Visão ou Teimoso num Beco Sem Saída?
 
-**Fechando o ciclo na trincheira:** Quando **Lucas e Marina** aplicaram as travas deste capítulo na rotina entre São Paulo e Florianópolis, a tensão da cena de abertura deixou de ser discussão subjetiva de corredores e virou regra clara de priorização, retenção e proteção de caixa.
+**Resultado na trincheira (PIVOT: TIPOLOGIA, DECISÃO E EXECUÇÃO):** A disciplina descrita em *O Espelho do Capítulo 11: Você Está Sendo...* permitiu que **Lucas e Marina**, a partir de São Paulo e Florianópolis, blindassem a margem operacional e reduzissem o retrabalho da equipe.
 
 **O Espelho (autodiagnóstico):**
 1. Se você fosse demitido hoje e uma nova diretoria assumisse a empresa amanhã às 8h sem apego emocional ao código já escrito, qual produto ou segmento eles matariam no primeiro dia?

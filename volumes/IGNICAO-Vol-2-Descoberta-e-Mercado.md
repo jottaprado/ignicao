@@ -512,7 +512,7 @@ Ignorar quando o problema é "interessante" mas não dolorido. As pessoas adoram
 
 ### O Espelho da Fase 4: Você Está Ouvindo Feridas ou Colecionando Elogios?
 
-**Fechando o ciclo na trincheira:** Quando **Lucas e Marina** aplicaram as travas deste capítulo na rotina entre São Paulo e Florianópolis, a tensão da cena de abertura deixou de ser discussão subjetiva de corredores e virou regra clara de priorização, retenção e proteção de caixa.
+**Síntese prática em DESCOBERTA DO PROBLEMA:** Ao incorporarem as balizas de *O Espelho da Fase 4: Você Está Ouvindo Feridas...* na operação em São Paulo e Florianópolis, **Lucas e Marina** substituíram decisões reativas por indicadores auditáveis de execução semanal.
 
 **O Espelho (autodiagnóstico):**
 1. Nas suas últimas dez conversas com potenciais clientes, em quantas você falou da sua solução? (Chave de leitura: se falou em mais de duas, refaça o roteiro; se nenhum entrevistado tem gambiarra ativa ou orçamento alocado, volte ao Passo 1: como Marina fez ao perguntar a Lucas quantos diretores financeiros já pagavam para resolver a conciliação de boletos.)
@@ -1795,8 +1795,6 @@ A **Síntese de Rodada de Entrevistas** é o entregável da Fase 4 que sustenta 
 
 Três semanas depois daquela conversa com **Marina**, **Lucas** voltou à mesa com evidências concretas em vez de elogios de cafeteria: conduziu 18 entrevistas sem mencionar seu software, encontrou quatro diretores de operações de distribuidoras no nível 5 de dor (que perdiam dois dias por semana conciliando boletos manualmente), fechou um piloto pago com o primeiro deles e reclassificou o elogio simpático do café na Paulista com peso quase zero na tabela de sinais.
 
-Três semanas depois daquela conversa com **Marina**, **Lucas** voltou à mesa com evidências concretas em vez de elogios de cafeteria: conduziu 18 entrevistas sem mencionar seu software, encontrou quatro diretores de operações de distribuidoras no nível 5 de dor (que perdiam dois dias por semana conciliando boletos manualmente), fechou um piloto pago com o primeiro deles e reclassificou o elogio simpático do café na Paulista com peso quase zero na tabela de sinais.
-
 Ao concluir a Fase 4, você substitui palpites por três ativos auditáveis: o Mapa de Problemas com citações literais, a distribuição real dos entrevistados na escala de Pain Level (1 a 5) e uma decisão clara entre perseverar, refinar o ICP ou descartar a hipótese. Descobrir que a dor é fraca agora custou apenas quinze a vinte conversas; descobrir isso depois do produto pronto custaria meses de engenharia e todo o caixa inicial.
 
 A diferença entre quem faz certo e quem falha está numa disciplina simples, e quase sempre violada: não falar da solução, só escutar. No momento em que você menciona a solução, o cliente passa a reagir à ideia em vez de descrever a realidade. E você perde a evidência limpa. Aplicar o Mom Test com rigor: perguntar sobre a vida específica do cliente, sobre momentos concretos em que o problema apareceu, sobre o que ele já faz para resolver hoje: é o que separa entrevista útil de entrevista que confirma viés.
@@ -2155,7 +2153,7 @@ Perder-se em detalhes irrelevantes. Nem toda informação coletada é útil. Fil
 
 ### O Espelho da Fase 5: Contra Qual Gambiarra Você Está Lutando de Verdade?
 
-**Fechando o ciclo na trincheira:** Quando a **Dra. Camila** trouxe este protocolo para a operação da clínica em Belo Horizonte, o gargalo que abriu este capítulo deixou de depender do seu heroísmo pessoal na cadeira e passou a rodar como sistema auditável pela equipe.
+**Da teoria à rotina operacional (PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY)):** Na revisão mensal em Belo Horizonte, a **Dra. Camila** transformou o protocolo de *O Espelho da Fase 5: Contra Qual Gambiarra Você...* em critério obrigatório antes de liberar novos recursos do orçamento.
 
 **O Espelho (autodiagnóstico):**
 1. Quantos atributos das suas personas atuais você consegue rastrear diretamente até uma entrevista ou sessão de observação com data, nome e citação literal (sem cair na **Cegueira Demográfica do Especialista**)? E qual foi o evento concreto (o "dia em que a corda arrebentou") que levou seus entrevistados mais urgentes a improvisarem uma gambiarra?
@@ -2723,22 +2721,22 @@ Mapa visual detalhado de **um serviço completo**, mostrando: experiência do cl
 
 ##### As regras do jogo
 
-Camadas verticais:
+Estrutura vertical (cinco camadas de conteúdo separadas por três linhas divisórias):
 
-1. Evidência física: o que cliente vê/toca (app, email, documento).
-2. Ações do cliente: o que cliente faz.
-3. Linha de interação: separa cliente de empresa.
-4. Ações frontstage (empregado visível): o que funcionário faz na frente do cliente.
-5. Linha de visibilidade.
-6. Ações backstage (empregado invisível): o que acontece "nos bastidores".
-7. Linha de interação interna.
-8. Sistemas de suporte: tecnologia, processos, parcerias.
+1. **Evidência física** (*Physical Evidence*): o que o cliente vê, recebe ou toca (tela do app, mensagem de WhatsApp, boleto, contrato).
+2. **Ações do cliente** (*Customer Actions*): passos cronológicos executados pelo usuário.
+   - *--- Linha de interação (separa o cliente da empresa) ---*
+3. **Ações visíveis de linha de frente** (*Frontstage Actions*): interações visíveis de atendentes, vendedores, CS ou interface automatizada.
+   - *--- Linha de visibilidade (separa o que o cliente vê do que fica oculto) ---*
+4. **Ações de bastidor** (*Backstage Actions*): processos internos invisíveis ao cliente (triagem, conferência antifraude, preparação de pedido).
+   - *--- Linha de interação interna (separa a operação direta dos sistemas de apoio) ---*
+5. **Processos e sistemas de suporte** (*Support Processes*): infraestrutura técnica, bancos de dados, APIs, ERPs e parceiros terceirizados.
 
 ##### Como rodar na segunda-feira às 9h com seu time
 
-Passo 1: Mapeie jornada fase a fase.
+Passo 1: Mapeie a jornada do cliente etapa por etapa no eixo horizontal.
 
-Passo 2: Em cada fase, detalhe todas as 8 camadas.
+Passo 2: Para cada etapa, preencha verticalmente as cinco camadas do mapa, demarcando as três linhas divisórias (interação, visibilidade e suporte interno).
 
 **Passo 3: Identifique** os pontos de falha (etapas em que o serviço pode quebrar).
 
@@ -2937,14 +2935,15 @@ A tese de Osterwalder é que **a proposta de valor consiste na correspondência 
 
 Tempo dedicado à oficina: 2 a 4 horas para construir a primeira versão completa (após concluir a pesquisa de campo). Cada segmento merece VPC próprio.
 
-##### Exemplo brasileiro preenchido: Wellhub (Gympass) em 2016, B2B (reconstrução didática com base em dados públicos)
+##### Exemplo brasileiro preenchido: Wellhub (ex-Gympass, 2016, lado B2B corporativo)
 
-**Customer Profile**: Head de RH de empresa média (200-1000 funcionários):
+Preenchimento completo dos **seis blocos do Value Proposition Canvas** (os três blocos do *Customer Profile* à direita conectados aos três blocos do *Value Map* à esquerda) para o comprador corporativo (Head de RH de empresa de 200 a 1.000 funcionários):
 
-| Jobs | Pains | Gains |
-|---|---|---|
-| Oferecer benefício que ajude retenção | Caro contratar academia única que não atende todos | Retenção mensurável melhor |
-| Gerenciar programa de bem-estar sem overhead | Funcionários pedem academia mas subsídio direto é complicado (tributário, equidade) | Marca empregadora fortalecida |
+| Bloco do VPC | Lado Direito: *Customer Profile* (Head de RH) | Bloco Espelhado | Lado Esquerdo: *Value Map* (Wellhub / Gympass B2B) |
+|---|---|---|---|
+| **1. Jobs** (Tarefas) | Oferecer benefício de saúde que retenha talentos; gerir bem-estar em múltiplas cidades sem sobrecarga operacional no RH. | **4. Products & Services** (Produtos e Serviços) | Assinatura corporativa única com acesso a rede credenciada de milhares de academias, estúdios e apps de bem-estar via folha de pagamento. |
+| **2. Pains** (Dores) | Convênio com academia única só atende quem mora perto; reembolso manual em folha gera atrito trabalhista/tributário e baixa adesão (<10%). | **5. Pain Relievers** (Aliviadores de Dor) | Contrato B2B único com faturamento centralizado, enquadramento jurídico claro de benefício corporativo e cobertura geográfica capilar. |
+| **3. Gains** (Ganhos) | Elevar a adesão de colaboradores ativos para 25%–40%, reduzir absenteísmo/sinistralidade do plano de saúde e fortalecer a marca empregadora. | **6. Gain Creators** (Criadores de Ganho) | Painel de RH com métricas de engajamento em tempo real, coparticipação flexível por faixa salarial e inclusão de familiares. |
 | Prestar contas à diretoria sobre ROI | Difícil medir uso real e impacto em produtividade | Dados de engajamento para C-level |
 | Atender perfis diversos (academia, yoga, crossfit) sem caos | Negociar com múltiplos fornecedores consome tempo | Benefício percebido sem esforço administrativo |
 
@@ -3422,15 +3421,15 @@ SAM (mercado que você pode alcançar) é a parte do TAM que a sua empresa pode 
 
 SOM (mercado que você pode capturar realisticamente) é a parte do SAM que você pode conquistar nos primeiros três a cinco anos. Deve ser calculado de baixo para cima (*bottom-up*) a partir da sua capacidade real de vendas e atendimento nos primeiros 36 meses (tipicamente uma fração inicial de 1% a 5% do SAM no horizonte de três anos).
 
-A visualização em círculos concêntricos:
+A visualização em funil de anéis concêntricos (com exemplo numérico B2B coerente na mesma moeda):
 
 ```mermaid
 flowchart TD
- TAM["🌍 TAM<br/>Total Addressable Market<br/>Mercado GLOBAL do problema<br/>Teto absoluto, se tudo fosse nosso<br/>ex: R$ 500 bi"]
+ TAM["🌍 TAM (Total Addressable Market)<br/>Demanda total da categoria no país<br/>Ex.: 500 mil empresas × R$ 12 mil/ano = R$ 6,0 bilhões/ano"]
 
- TAM --> SAM["🌎 SAM<br/>Serviceable Addressable Market<br/>Mercado que podemos alcançar<br/>com produto/canal/região atual<br/>ex: R$ 80 bi, Brasil + região"]
+ TAM --> SAM["🌎 SAM (Serviceable Addressable Market)<br/>Fatia atendível pelo escopo atual de produto e canal<br/>Ex.: 12.500 empresas do segmento-alvo × R$ 12 mil/ano = R$ 150 milhões/ano"]
 
- SAM --> SOM["🎯 SOM<br/>Serviceable Obtainable Market<br/>Mercado realista em 3-5 anos<br/>dada a concorrência<br/>ex: R$ 6 mi em 3 anos (conta bottom-up sobre SAM de R$ 150 mi)"]
+ SAM --> SOM["🎯 SOM (Serviceable Obtainable Market)<br/>Captura realista bottom-up em 3 anos (4% do SAM)<br/>Ex.: 500 clientes pagantes × R$ 12 mil/ano = R$ 6,0 milhões de ARR"]
 
  style TAM fill:#E8F4F8,stroke:#2C5F7C,stroke-width:2px
  style SAM fill:#B0D8E8,stroke:#2C5F7C,stroke-width:2px
@@ -3733,14 +3732,14 @@ As seis dimensões do Canvas, em forma visual:
 
 ```mermaid
 flowchart TD
- C["📋 CANVAS DA CUNHA<br/>6 blocos do template oficial: ICP, dor, resultado, dono do orçamento, grupo de WhatsApp e alternativa"]
+ C["📋 CANVAS DA CUNHA<br/>Os 6 blocos alinhados ao template textual oficial"]
 
- C --> Q1["1️⃣ SEGMENTO-ALVO<br/>Quem é exatamente?<br/>Perfil operacional observável"]
- C --> Q2["2️⃣ DOR AGUDA<br/>Qual problema tira o sono?<br/>Pedível, mensurável"]
- C --> Q3["3️⃣ ALTERNATIVA ATUAL<br/>Como resolve hoje?<br/>Custo, limitações"]
- C --> Q4["4️⃣ POR QUE AGORA<br/>Por que em 2026 e<br/>não em 2020?"]
- C --> Q5["5️⃣ ONDE ESTÃO<br/>Canais, comunidades,<br/>eventos concretos"]
- C --> Q6["6️⃣ DISPOSIÇÃO A PAGAR<br/>Quanto já gastam hoje<br/>com o problema?"]
+ C --> Q1["1️⃣ ICP PRECISO<br/>Cargo, tipo de empresa,<br/>porte e região"]
+ C --> Q2["2️⃣ DOR ESPECÍFICA<br/>Frequência, severidade (1-10)<br/>e custo atual do problema"]
+ C --> Q3["3️⃣ RESULTADO MENSURÁVEL<br/>Métrica concreta melhorada<br/>e prazo de percepção"]
+ C --> Q4["4️⃣ DONO DO ORÇAMENTO<br/>Quem assina o cheque e<br/>qual rubrica existente paga"]
+ C --> Q5["5️⃣ GRUPO DE WHATSAPP (100-300)<br/>Onde encontrar os primeiros<br/>clientes nominalmente"]
+ C --> Q6["6️⃣ ALTERNATIVA ATUAL E TROCA<br/>Como resolvem hoje e por que<br/>trocariam pela sua cunha"]
 
  style C fill:#FFD700,stroke:#8B6914,stroke-width:3px
  style Q1 fill:#E8F4F8
@@ -3867,7 +3866,7 @@ Falha em qualquer etapa significa voltar à fase anterior, não pular adiante. S
 
 ### O Espelho da Fase 6: Você Escolheu uma Cabeça de Praia ou Está Atirando no Oceano?
 
-**Fechando o ciclo na trincheira:** Quando **Henrique** incorporou este filtro nas negociações industriais e públicas a partir de Curitiba, o impasse da abertura foi substituído por critérios técnicos de aprovação, margem protegida e ciclo previsível.
+**Resultado na trincheira (MAPEAMENTO DE MERCADO E CONCORRÊNCIA):** A disciplina descrita em *O Espelho da Fase 6: Você Escolheu uma Cabeça de...* permitiu que **Henrique**, a partir de Curitiba, blindasse a margem operacional e reduzisse o retrabalho da equipe.
 
 **O Espelho (autodiagnóstico):**
 1. O seu cálculo de mercado foi feito multiplicando o número real de clientes acessíveis pelo seu tíquete médio (Bottom-Up), ou copiando um relatório genérico do Google (Top-Down)?
@@ -5410,7 +5409,7 @@ Taxa de churn de membros da comunidade vs. não membros: se a comunidade está f
 
 ### O Espelho do Capítulo 1: Seu Produto Fala Português do Brasil ou Inglês Traduzido?
 
-**Fechando o ciclo na trincheira:** Quando **Rafael e Bia** conectaram esta disciplina entre a aquisição no Recife e a operação logística em Goiânia, o vazamento que abriu este capítulo estancou e o crescimento voltou a gerar caixa livre.
+**Da teoria à rotina operacional (PSICOLOGIA DO CONSUMIDOR BRASILEIRO: COMPORTAMENTO,...):** Na revisão mensal em Recife e Goiânia, **Rafael e Bia** transformaram o protocolo de *O Espelho do Capítulo 1: Seu Produto Fala...* em critério obrigatório antes de liberar novos recursos do orçamento.
 
 **O Espelho (autodiagnóstico):**
 1. Se um cliente da classe C em Goiânia ou um comprador industrial no interior do Paraná entrar no seu site pelo celular 4G agora, em quantos segundos ele encontra uma prova humana real de que você existe?
@@ -5905,7 +5904,7 @@ Preço defensável premium versus categoria adjacente. Categoria nova deveria su
 
 ### O Espelho do Capítulo 2: Você Faz Inteligência Competitiva ou Acredita em Desculpas de Vendas?
 
-**Fechando o ciclo na trincheira:** Quando **Henrique** incorporou este filtro nas negociações industriais e públicas a partir de Curitiba, o impasse da abertura foi substituído por critérios técnicos de aprovação, margem protegida e ciclo previsível.
+**Síntese prática em INTELIGÊNCIA COMPETITIVA, POSICIONAMENTO E CATEGORY DESIGN:** Ao incorporar as balizas de *O Espelho do Capítulo 2: Você Faz Inteligência...* na operação em Curitiba, **Henrique** substituiu decisões reativas por indicadores auditáveis de execução semanal.
 
 **O Espelho (autodiagnóstico):**
 1. Quem na sua empresa liga pessoalmente para os clientes que disseram "não" na última semana: alguém neutro (como o fundador/produto) ou o próprio vendedor que perdeu a comissão?
@@ -6088,7 +6087,7 @@ Os sete padrões estruturais deste capítulo (ausência de defensibilidade real,
 
 ### O Espelho do Capítulo 3: Qual Erro Clássico Já Está Infiltrado na Sua Operação Hoje?
 
-**Fechando o ciclo na trincheira:** Quando **Lucas e Marina** aplicaram as travas deste capítulo na rotina entre São Paulo e Florianópolis, a tensão da cena de abertura deixou de ser discussão subjetiva de corredores e virou regra clara de priorização, retenção e proteção de caixa.
+**Virada de chave em CASOS DE FRACASSO BRASILEIROS E LIÇÕES:** Foi aplicando o checklist de *O Espelho do Capítulo 3: Qual Erro Clássico Já...* no dia a dia em São Paulo e Florianópolis que **Lucas e Marina** destravaram o próximo degrau de escala sustentável do negócio.
 
 **O Espelho (autodiagnóstico):**
 1. Se o mercado de investimentos fechasse completamente pelos próximos 24 meses e nenhum centavo externo entrasse, sua empresa sobreviveria com a margem dos próprios clientes?

@@ -5,6 +5,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { applyWave7ToVolume } = require('./apply_wave7_fixes');
 
 function slugify(s) {
   return String(s || '')
@@ -988,6 +989,7 @@ function applyVolumeReviewFixes(volNum, md) {
       polished = polished.split(from).join(to);
     }
   }
+  polished = applyWave7ToVolume(volNum, polished);
   return polished;
 }
 

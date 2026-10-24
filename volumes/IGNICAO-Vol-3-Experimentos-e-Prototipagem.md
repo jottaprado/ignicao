@@ -358,7 +358,7 @@ Confundir "não refutada ainda" com "validada". Uma hipótese só é validada qu
 
 ### O Espelho da Fase 7: Suas Hipóteses Podem Ser Provadas Falsas ou São Atos de Fé?
 
-**Fechando o ciclo na trincheira:** Quando **Rafael e Bia** conectaram esta disciplina entre a aquisição no Recife e a operação logística em Goiânia, o vazamento que abriu este capítulo estancou e o crescimento voltou a gerar caixa livre.
+**Impacto direto no caixa e na execução (FORMULAÇÃO RIGOROSA DE HIPÓTESES):** Com o filtro de *O Espelho da Fase 7: Suas Hipóteses Podem Ser...* implantado em Recife e Goiânia, **Rafael e Bia** eliminaram o improviso comercial e encurtaram o ciclo de decisão.
 
 **O Espelho (autodiagnóstico):**
 1. Qual é a hipótese número um do seu negócio hoje que, se for falsa, destrói completamente a sua empresa?
@@ -764,7 +764,7 @@ O bloco de due diligence revelou que a amostra era pequena (6 reuniões, não 8 
 | ID | Tipo | Hipótese | Porquê importa | Critério validação | Método | Custo | Status | Resultado |
 |----|------|----------|----------------|-------------------|--------|-------|--------|-----------|
 | H01 | Problema | Donos de padaria com 2 a 5 lojas gastam 4 horas ou mais por semana fechando pedidos de compra no WhatsApp | Se for falsa, a dor operacional de compra não sustenta cobrança recorrente | ≥ 60% dos 20 donos entrevistados comprovam na agenda e no celular 4h ou mais por semana | Entrevistas estruturadas com observação do pedido | R$ 0 + 2 semanas | Em teste | A medir |
-| H02 | Monetização | ICP pagará ≥R$149/mês pela solução | Determina viabilidade do modelo | ≥15% conversão em landing page com oferta | Smoke test + pré-venda | R$1.500 + 3 semanas | Nova |, |
+| H02 | Monetização | ICP pagará ≥R$149/mês pela solução | Determina viabilidade do modelo | ≥15% conversão em landing page com oferta | Smoke test + pré-venda | R$1.500 + 3 semanas | Nova | - |
 
 ---
 
@@ -1251,7 +1251,7 @@ Não documentar o experimento. Sem registro escrito antes e depois, você recons
 
 ### O Espelho da Fase 8: Você Tem Recibos na Mão ou Apenas Cadastros de Curiosos?
 
-**Fechando o ciclo na trincheira:** Quando **Lucas e Marina** aplicaram as travas deste capítulo na rotina entre São Paulo e Florianópolis, a tensão da cena de abertura deixou de ser discussão subjetiva de corredores e virou regra clara de priorização, retenção e proteção de caixa.
+**Resultado na trincheira (EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA E DA SOLUÇÃO):** A disciplina descrita em *O Espelho da Fase 8: Você Tem Recibos na Mão ou...* permitiu que **Lucas e Marina**, a partir de São Paulo e Florianópolis, blindassem a margem operacional e reduzissem o retrabalho da equipe.
 
 **O Espelho (autodiagnóstico):**
 1. No seu último experimento, o número exato de refutação estava escrito antes de abrir a planilha de resultados, e a evidência veio de pagamento real (e não de elogios ou cadastros gratuitos)? (Se responder "não" a duas ou mais perguntas abaixo, você caiu no Teatro da Validação e deve tratar o teste como inconclusivo.)
@@ -1823,30 +1823,27 @@ Sete passos.
 
 ```mermaid
 flowchart LR
-    subgraph DIV["Etapa de Divergência e Filtro DVS<br/>(passos 1 a 3: 15-30 ideias → 3-5 conceitos)"]
-        D1["Crazy 8s<br/>8 ideias em 8 minutos"]
-        D2["How Might We<br/>Reformular JTBDs"]
-        D3["Analogias<br/>Outros setores"]
-        D1 & D2 & D3 --> POOL["Pool de ideias<br/>20–40 candidatas"]
+    subgraph DIV["1. Divergência (Passo 1)"]
+        D1["Gerar 15 a 30 abordagens<br/>(Crazy 8s, HMW, analogias)"]
+        D2["Incluir opções sem código<br/>(serviço, planilha, WhatsApp)"]
+        D1 --> D2
     end
 
-    subgraph CONV["Fase de Convergência<br/>(passos 3–4)"]
-        POOL --> VOTE["Priorizar<br/>impacto vs esforço"]
-        VOTE --> SELECT["Selecionar 1–3<br/>para prototipar"]
+    subgraph CONV["2. Filtro e Conceito (Passos 2 e 3)"]
+        D2 --> F1["Filtrar por Desejabilidade,<br/>Viabilidade e Exequibilidade (DVS)"]
+        F1 --> F2["Selecionar 3 a 5 finalistas<br/>e redigir Concept Cards"]
     end
 
-    subgraph PROTO["Prototipagem<br/>(passos 5–6)"]
-        SELECT --> FID{"Fidelidade<br/>necessária?"}
-        FID -->|Concept test| PAPER["Protótipo em papel<br/>Horas"]
-        FID -->|Fluxo e UX| CLICK["Protótipo clicável<br/>Figma, dias"]
-        FID -->|Serviço complexo| BLUEPRINT["Service blueprint<br/>Dias"]
+    subgraph PROT["3. Prototipagem Enxuta (Passo 4)"]
+        F2 --> P1["Escolher a menor fidelidade<br/>capaz de testar a hipótese"]
+        P1 --> P2["Construir fluxo navegável<br/>ou simulação em 1 a 3 dias"]
     end
 
-    subgraph TEST["Teste<br/>(passos 6–7)"]
-        PAPER & CLICK & BLUEPRINT --> USER["5+ usuários<br/>testam"]
-        USER --> INSIGHT["Capturar aprendizados<br/>e iterar"]
-        INSIGHT -->|Hipótese validada| NEXT(["→ Fase 10<br/>Testes de solução"])
-        INSIGHT -->|Hipótese refutada| DIV
+    subgraph TEST["4. Teste, Iteração e Dossiê (Passos 5 a 7)"]
+        P2 --> T1["Testar com 5 a 8 usuários<br/>reais do ICP (Passo 5)"]
+        T1 --> T2["Iterar falhas de compreensão<br/>e consolidar Dossiê (Passos 6 e 7)"]
+        T2 -->|Conceito validado| NEXT(["→ Fase 10<br/>Usabilidade e cobrança"])
+        T2 -->|Conceito refutado| CONV
     end
 ```
 
@@ -2045,7 +2042,7 @@ Construir direto sem prototipar. "Já sei como vai ser." Constatação final: vo
 
 ### O Espelho da Fase 9: Você Está Prototipando para Aprender ou para Receber Palmas?
 
-**Fechando o ciclo na trincheira:** Quando a **Dra. Camila** trouxe este protocolo para a operação da clínica em Belo Horizonte, o gargalo que abriu este capítulo deixou de depender do seu heroísmo pessoal na cadeira e passou a rodar como sistema auditável pela equipe.
+**Da teoria à rotina operacional (IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES):** Na revisão mensal em Belo Horizonte, a **Dra. Camila** transformou o protocolo de *O Espelho da Fase 9: Você Está Prototipando para...* em critério obrigatório antes de liberar novos recursos do orçamento.
 
 **O Espelho (autodiagnóstico):**
 1. Você desenhou pelo menos três formas radicalmente diferentes de resolver o problema do cliente (incluindo uma sem tela nova, direto no canal onde ele já vive), ou casou com a primeira ideia?
@@ -2663,6 +2660,45 @@ Esse dossiê é o insumo da [[#FASE 10 — TESTES DE SOLUÇÃO E USABILIDADE|Fas
 
 ---
 
+### TEMPLATES OPERACIONAIS E CASOS PREENCHIDOS DESTA FASE
+
+#### Template: Concept Card de Solução (Passo 3)
+
+```text
+CONCEPT CARD DE SOLUÇÃO (1 PÁGINA POR CONCEITO FINALISTA)
+=========================================================
+1. Nome curto do conceito: ____________________________________________
+2. Para quem (ICP específico da cunha): _______________________________
+3. Promessa central em uma frase (sem jargão técnico):
+   "Ajudamos [ICP] a [resultado mensurável] sem [principal fricção atual]."
+4. Como funciona na prática (3 passos na visão do usuário):
+   Passo A (Gatilho/Entrada): _________________________________________
+   Passo B (Ação principal):  _________________________________________
+   Passo C (Resultado/Saída): _________________________________________
+5. O que o conceito deliberadamente NÃO faz nesta versão: ____________
+6. Hipótese crítica de valor que este conceito precisa provar: _______
+```
+
+#### Template: Roteiro de Teste de Solução de 30 Minutos (Passo 5)
+
+- **Bloco 1: Aquecimento e contexto real (5 min).** Peça para o participante mostrar como executa a tarefa hoje antes de abrir o protótipo (*"Mostre como você fechou o pedido desta semana"*).
+- **Bloco 2: Primeira impressão e compreensão da proposta (5 min).** Abra a tela inicial ou envie a primeira mensagem do fluxo e pergunte: *"Sem clicar ainda, o que você entende que isso faz e para quem serve?"*.
+- **Bloco 3: Tarefa prática sem ajuda (12 min).** Entregue uma missão concreta (*"Faça a cotação destes três itens e aprove o fornecedor mais barato"*) e observe em silêncio onde ele hesita, erra ou pede explicação.
+- **Bloco 4: Pergunta de compromisso e fricção de troca (8 min).** Feche medindo disposição real: *"O que impediria você de usar isso na próxima segunda-feira no lugar da sua planilha atual?"* e *"Quanto vale resolver isso por mês?"*.
+
+#### Template: Dossiê de Solução Preenchido (Caso PadariaPro, Passo 7)
+
+| Campo do Dossiê | Registro Consolidado (PadariaPro - Fim da Fase 9) |
+|---|---|
+| **Conceito vencedor** | Cotação comparativa automática via bot de WhatsApp (fornecedor responde no próprio chat e o dono aprova em um clique) |
+| **Amostra testada** | 7 donos de padarias independentes na Zona Sul/Oeste de SP (faturamento de R$ 110 mil a R$ 260 mil/mês) |
+| **Taxa de conclusão da tarefa** | 6 de 7 concluíram a cotação simulada em menos de 4 minutos sem auxílio (1 travou no cadastro inicial de fornecedores) |
+| **Aprendizado que mudou o escopo** | Donos recusaram abrir painel web no computador; 100% exigiram aprovar o pedido diretamente pelo celular no WhatsApp |
+| **Sinal concreto de compromisso** | 4 dos 7 compartilharam a lista real de fornecedores de farinha e laticínios e assinaram termo de piloto pago de R$ 290/mês |
+| **Decisão de saída da Fase 9** | Avançar para o teste de usabilidade e cobrança real da Fase 10 mantendo interface 100% WhatsApp-first |
+
+---
+
 ## FASE 10 — TESTES DE SOLUÇÃO E USABILIDADE
 
 ### A Guilhotina de Escopo e o Silêncio Constrangedor do Teste de Usabilidade
@@ -2913,7 +2949,7 @@ Achar que o gráfico de Van Westendorp já fechou o preço definitivo: a pesquis
 
 ### O Espelho da Fase 10: O que no seu backlog vai para a Guilhotina de Escopo hoje?
 
-**Fechando o ciclo na trincheira:** Quando **Lucas e Marina** aplicaram as travas deste capítulo na rotina entre São Paulo e Florianópolis, a tensão da cena de abertura deixou de ser discussão subjetiva de corredores e virou regra clara de priorização, retenção e proteção de caixa.
+**Fechamento operacional (TESTES DE SOLUÇÃO E USABILIDADE):** Em São Paulo e Florianópolis, a aplicação rigorosa do roteiro de *O Espelho da Fase 10: O que no seu backlog vai...* por **Lucas e Marina** converteu incerteza estratégica em cadência mensurável de entrega.
 
 **O Espelho (autodiagnóstico):**
 1. Nos seus testes de protótipo, você consegue ficar calado observando o usuário errar, ou você interrompe para "explicar o conceito"?
@@ -3681,7 +3717,7 @@ Este capítulo articulou o framework científico (Camuffo, Gambardella, Coali, S
 
 ### O Espelho do Capítulo 1: Você Está Sendo Prudente ou Apenas Se Escondendo Atrás da Teoria?
 
-**Fechando o ciclo na trincheira:** Quando **Lucas e Marina** aplicaram as travas deste capítulo na rotina entre São Paulo e Florianópolis, a tensão da cena de abertura deixou de ser discussão subjetiva de corredores e virou regra clara de priorização, retenção e proteção de caixa.
+**Fechamento operacional (ABORDAGEM CIENTÍFICA vs LEAN STARTUP: QUANDO USAR CADA UMA):** Em São Paulo e Florianópolis, a aplicação rigorosa do roteiro de *O Espelho do Capítulo 1: Você Está Sendo...* por **Lucas e Marina** converteu incerteza estratégica em cadência mensurável de entrega.
 
 **O Espelho (autodiagnóstico):**
 1. A decisão que você está adiando há semanas é realmente uma "porta de mão única" irreversível (como dosagem química em usina, segurança clínica ou regulação bancária, que exige o bisturi científico com número de refutação escrito antes do teste), ou é apenas medo de ouvir um "não" comercial que não machuca ninguém?
@@ -3970,7 +4006,7 @@ Um próximo passo bom produz evidência. Não apenas atividade. Pergunte, antes 
 
 ### O Espelho do Capítulo 2: Em Qual Portão Sua Empresa Está de Verdade Hoje?
 
-**Fechando o ciclo na trincheira:** Quando **Rafael e Bia** conectaram esta disciplina entre a aquisição no Recife e a operação logística em Goiânia, o vazamento que abriu este capítulo estancou e o crescimento voltou a gerar caixa livre.
+**Impacto direto no caixa e na execução (MATURIDADE (TRL/CRL), DECISÃO POR GATES E FECHAMENTO...):** Com o filtro de *O Espelho do Capítulo 2: Em Qual Portão Sua...* implantado em Recife e Goiânia, **Rafael e Bia** eliminaram o improviso comercial e encurtaram o ciclo de decisão.
 
 **O Espelho (autodiagnóstico):**
 1. Se você trouxer mil clientes novos amanhã de manhã, eles vão continuar usando e pagando daqui a noventa dias, ou vão abandonar o barco pela porta dos fundos?
@@ -4121,7 +4157,7 @@ O framework Antler é especialmente útil, quando o empreendedor reconhece um ou
 
 ### O Espelho do Capítulo 3: Seu Produto Entra Como um Cavalo de Troia ou Como um Elefante Branco?
 
-**Fechando o ciclo na trincheira:** Quando **Henrique** incorporou este filtro nas negociações industriais e públicas a partir de Curitiba, o impasse da abertura foi substituído por critérios técnicos de aprovação, margem protegida e ciclo previsível.
+**Fechamento operacional (IDEA → WEDGE → SCALE: O FRAMEWORK ANTLER COMO LENTE...):** Em Curitiba, a aplicação rigorosa do roteiro de *O Espelho do Capítulo 3: Seu Produto Entra Como...* por **Henrique** converteu incerteza estratégica em cadência mensurável de entrega.
 
 **O Espelho (autodiagnóstico):**
 1. Para o cliente começar a usar o seu produto hoje, ele precisa jogar fora o sistema atual dele e treinar cinquenta pessoas, ou ele consegue ligar a sua cunha em paralelo em uma tarde?
@@ -4335,7 +4371,7 @@ Compliance específico pode ser custo estrutural, que define viabilidade.
 
 ### O Espelho do Capítulo 4: Você Criou um Marketplace com Liquidez ou um Deserto de Cadastros?
 
-**Fechando o ciclo na trincheira:** Quando **Rafael e Bia** conectaram esta disciplina entre a aquisição no Recife e a operação logística em Goiânia, o vazamento que abriu este capítulo estancou e o crescimento voltou a gerar caixa livre.
+**Resultado na trincheira (MARKETPLACES, PLATAFORMAS E EFEITOS DE REDE: LIQUIDEZ,...):** A disciplina descrita em *O Espelho do Capítulo 4: Você Criou um...* permitiu que **Rafael e Bia**, a partir de Recife e Goiânia, blindassem a margem operacional e reduzissem o retrabalho da equipe.
 
 **O Espelho (autodiagnóstico):**
 1. Qual é a porcentagem real dos seus fornecedores cadastrados que realizaram pelo menos uma venda paga dentro da plataforma nos últimos trinta dias?
@@ -4542,7 +4578,7 @@ B2B2C saudável tem diversidade de Bs (nenhum acima de quinze a vinte por cento 
 
 ### O Espelho do Capítulo 5: Você Está Ativando os Usuários na Ponta ou Vendendo "Vidas Fantasmas"?
 
-**Fechando o ciclo na trincheira:** Quando a **Dra. Camila** trouxe este protocolo para a operação da clínica em Belo Horizonte, o gargalo que abriu este capítulo deixou de depender do seu heroísmo pessoal na cadeira e passou a rodar como sistema auditável pela equipe.
+**Da teoria à rotina operacional (B2B2C: QUANDO SUA EMPRESA VENDE PARA OUTRA EMPRESA QUE...):** Na revisão mensal em Belo Horizonte, a **Dra. Camila** transformou o protocolo de *O Espelho do Capítulo 5: Você Está Ativando os...* em critério obrigatório antes de liberar novos recursos do orçamento.
 
 **O Espelho (autodiagnóstico):**
 1. Se você vende hoje no B2C com CAC sufocante, qual empresa (empregador, banco, seguradora, sindicato, condomínio ou escola) já possui a carteira de milhares dos seus clientes ideais e ganha dinheiro se a dor deles for resolvida?
@@ -4658,7 +4694,7 @@ Escolha importa: MIT max adoção, pouco controle. AGPL/BSL mais controle, menos
 
 ### O Espelho do Capítulo 6: Você Criou uma Máquina Comercial Open Core ou uma ONG de Código?
 
-**Fechando o ciclo na trincheira:** Quando **Lucas e Marina** aplicaram as travas deste capítulo na rotina entre São Paulo e Florianópolis, a tensão da cena de abertura deixou de ser discussão subjetiva de corredores e virou regra clara de priorização, retenção e proteção de caixa.
+**Impacto direto no caixa e na execução (OPEN SOURCE COMO ESTRATÉGIA):** Com o filtro de *O Espelho do Capítulo 6: Você Criou uma Máquina...* implantado em São Paulo e Florianópolis, **Lucas e Marina** eliminaram o improviso comercial e encurtaram o ciclo de decisão.
 
 **O Espelho (autodiagnóstico):**
 1. Está cristalino na sua arquitetura o que pertence ao usuário individual (Core Aberto) e o que pertence ao comprador corporativo: como SSO, controle de acesso RBAC, logs de auditoria, alta disponibilidade e nuvem gerenciada (Pago)?
@@ -4854,7 +4890,7 @@ Não tenha vergonha da Etapa 3. Em mercados brasileiros complexos (contabilidade
 
 ### O Espelho do Capítulo 7: Você Está Construindo uma Máquina ou Vendendo Suas Horas em Roda de Hamster?
 
-**Fechando o ciclo na trincheira:** Quando **Henrique** incorporou este filtro nas negociações industriais e públicas a partir de Curitiba, o impasse da abertura foi substituído por critérios técnicos de aprovação, margem protegida e ciclo previsível.
+**Da teoria à rotina operacional (BOOTSTRAPPING, SERVIÇOS PRODUTIZADOS (PRODUCTIZED...):** Na revisão mensal em Curitiba, **Henrique** transformou o protocolo de *O Espelho do Capítulo 7: Você Está Construindo...* em critério obrigatório antes de liberar novos recursos do orçamento.
 
 **O Espelho (autodiagnóstico):**
 1. Se você presta serviços hoje, você aceita qualquer projeto personalizado que o cliente pede, ou vende um pacote de escopo 100% fechado para um único perfil de cliente e uma única dor?
