@@ -3255,11 +3255,15 @@ for (const [volNum, { spec, md }] of rawVolumeDocs.entries()) {
     return outLine;
   });
 
-  const finalMd = applyVolumeReviewFixes(
+  const { applyV53CompleteReview } = require('./apply_v53_complete_review');
+  const finalMd = applyV53CompleteReview(
     volNum,
-    resolvedLines
-      .join('\n')
-      .replace(/\n---\s*\n+(?:---\s*\n+)+/g, '\n\n---\n\n')
+    applyVolumeReviewFixes(
+      volNum,
+      resolvedLines
+        .join('\n')
+        .replace(/\n---\s*\n+(?:---\s*\n+)+/g, '\n\n---\n\n')
+    )
   );
   const outPath = path.join(VOLUMES_DIR, `${spec.slug}.md`);
   fs.writeFileSync(outPath, finalMd, 'utf8');
@@ -3277,6 +3281,9 @@ for (const [volNum, { spec, md }] of rawVolumeDocs.entries()) {
     words: wordCount,
   });
 }
+
+const { reconcileAllV53CrossVolumeLinks } = require('./apply_v53_complete_review');
+reconcileAllV53CrossVolumeLinks(VOLUMES_DIR);
 
 fs.writeFileSync(
   path.join(BUILD_DIR, 'volumes_manifest.json'),

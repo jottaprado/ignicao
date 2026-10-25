@@ -66,7 +66,7 @@ const TARGETS = manifest
       input: 'build/manuscrito_preprocessado.md',
       output: 'build/IGNICAO.epub',
       title: 'IGNIÇÃO',
-      subtitle: 'O manual operacional do empreendedor brasileiro (Edição Completa — 10 Volumes)',
+      subtitle: 'O manual operacional do empreendedor brasileiro (Edição Completa — 11 Volumes)',
       cover: 'build/cover.png',
     },
   ]);
@@ -80,7 +80,7 @@ for (const t of TARGETS) {
     inFile,
     '-o',
     outFile,
-    '--from=markdown-tex_math_dollars-tex_math_single_backslash',
+    '--from=markdown-tex_math_dollars-tex_math_single_backslash-yaml_metadata_block',
     '--toc',
     '--toc-depth=2',
     '--metadata',
