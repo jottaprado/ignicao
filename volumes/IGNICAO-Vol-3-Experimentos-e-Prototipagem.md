@@ -65,7 +65,7 @@ graph LR
 - [[#FASE 10: TESTES DE SOLUÇÃO E USABILIDADE|FASE 10: TESTES DE SOLUÇÃO E USABILIDADE]]
 ### Metodologia Científica, Maturidade e Gates de Evidência (Capítulos 1 e 2)
 - [[#CAPÍTULO 1: ABORDAGEM CIENTÍFICA vs LEAN STARTUP: QUANDO USAR CADA UMA|CAPÍTULO 1: ABORDAGEM CIENTÍFICA vs LEAN STARTUP: QUANDO USAR CADA UMA]]
-- [[#CAPÍTULO 2: MATURIDADE (TRL/CRL), DECISÃO POR GATES E FECHAMENTO DE FASE (COMMITTED NEXT MOVE)|CAPÍTULO 2: MATURIDADE (TRL/CRL), DECISÃO POR GATES E FECHAMENTO DE FASE (COMMITTED NEXT MOVE)]]
+- [[#CAPÍTULO 2: MATURIDADE (TRL/CRL), OS DEZ PORTÕES (TEN GATES) E PRÓXIMO PASSO COMPROMETIDO|CAPÍTULO 2: MATURIDADE (TRL/CRL), DECISÃO POR GATES E FECHAMENTO DE FASE (COMMITTED NEXT MOVE)]]
 ### Arquitetura de Modelo de Negócio (Capítulos 3 a 7)
 - [[#CAPÍTULO 3: IDEA → WEDGE → SCALE: O FRAMEWORK ANTLER COMO LENTE TRANSVERSAL|CAPÍTULO 3: IDEA → WEDGE → SCALE: O FRAMEWORK ANTLER COMO LENTE TRANSVERSAL]]
 - [[#CAPÍTULO 4: MARKETPLACES, PLATAFORMAS E EFEITOS DE REDE: LIQUIDEZ, OVO-E-GALINHA E RISCO DE PLATAFORMA|CAPÍTULO 4: MARKETPLACES, PLATAFORMAS E EFEITOS DE REDE: LIQUIDEZ, OVO-E-GALINHA E RISCO DE PLATAFORMA]]
@@ -893,7 +893,7 @@ Esse é o princípio central da Fase 8: palavras são vento, e a única validaç
 > [!tip] Stack mínimo da Fase 8
 > Para rodar experimentos baratos. Landing pages rápidas: Webflow, Framer, Carrd, Wix (R$ 0 a R$ 100 por mês, segundo o uso). Tráfego pago para testes: Meta Ads (R$ 500 a R$ 3.000 para primeiros testes), Google Ads (similar), LinkedIn Ads (se B2B, mais caro mas direto). Analytics: Google Analytics 4 (gratuito), Hotjar ou Microsoft Clarity (gratuitos para uso moderado) para heatmap. Plausible (alternativa simples e privacy-first). Pagamentos para pré-venda: Stripe, Asaas, Pagar.me, Stone, MercadoPago (cada um com particularidades regulatórias no Brasil). Regra: o stack de experimentação deveria custar menos de R$ 1.000 por mês no começo. Se está caro antes de aprender, algo está errado.
 
-### Por que meses de engenharia nunca devem preceder um teste rápido de compromisso e pagamento
+### Por que meses de engenharia nunca devem preceder um teste rápido de compromisso e pagamento (visão executiva)
 
 Hipóteses sem experimentos são só listas bonitas. Experimentos transformam suposição em evidência. Rápido e barato é fundamental. Se um experimento demora três meses, ou custa R$ 50 mil, você está gastando demais para aprender uma coisa só. Cada experimento termina numa de quatro decisões claras: perseverar, ajustar, pivotar ou abandonar a ideia.
 
@@ -1148,7 +1148,7 @@ Depois de confrontar o resultado com a árvore da teoria (Passo 8), tome uma das
 
 Atualize artefatos imediatamente após decidir. Versione: a Declaração vai para v0.2, v0.3, v0.4. Isso é saudável. Significa que você está aprendendo.
 
-> [!tip] Canvases Visuais: Learning Card (Fase 11)
+> [!tip] Canvases Visuais: Learning Card (Fase 8)
 > Depois de cada experimento, o par natural do Test Card é o **Learning Card** (Cartão de Aprendizado, também criado por David J. Bland e Alexander Osterwalder em *Testing Business Ideas*, 2019, detalhado na seção [[#Canvas: Test Card (David Bland & Alexander Osterwalder, 2019)|Canvas: Test Card (David Bland & Alexander Osterwalder, 2019)]] logo adiante). Trata-se de uma ficha de uma página que separa rigorosamente o dado bruto **observado** da **interpretação** da equipe e registra qual das quatro decisões canônicas foi tomada (**Perseverar**, **Ajustar**, **Pivotar** ou **Abandonar**). Essa separação entre fato observado e narrativa evita o viés de confirmação pós-teste e alimenta a atualização semanal do Banco de Hipóteses.
 
 ### Os nove passos aplicados, Cartão de Experimento do PadariaPro (hipótese H2: disposição a pagar)
@@ -1823,10 +1823,10 @@ Prototipagem é a forma mais barata de testar. Com um dia de trabalho e nenhum c
 > Antes da Tesla, já existiam carros elétricos no mercado, mas a adesão era residual porque as montadoras tradicionais partiam da premissa de que o motorista abriria mão de autonomia, desempenho e desenho em nome da consciência ambiental. Ao atacar o mesmo problema com uma arquitetura de solução que entregava aceleração superior e recarga dedicada sem exigir aquele sacrifício, a Tesla provou a regra central desta Fase 9: validar a existência de um problema na Fase 8 nunca dá cheque em branco para a primeira solução que vier à cabeça. Como um problema real comporta dezenas de desenhos diferentes e a maioria deles fracassa no uso prático, você precisa gerar alternativas e testar o protótipo da solução separadamente antes de escrever código.
 
 > [!note] Aprofundamento no Capítulo 2 (Maturidade TRL/CRL, Decisão por Gates e Fechamento de Fase)
-> Se a solução candidata envolve tecnologia física ou científica (*hardware* industrial como os sensores de Henrique nas usinas do PR e do MT, *deeptech*, biotecnologia ou transição energética), o nível de maturidade tecnológica (**TRL**) e comercial (**CRL**) governa qual tipo de protótipo faz sentido construir agora. O [[#CAPÍTULO 2: MATURIDADE (TRL/CRL), DECISÃO POR GATES E FECHAMENTO DE FASE (COMMITTED NEXT MOVE)|Capítulo 2: Maturidade (TRL/CRL), Decisão por Gates e Fechamento de Fase]] detalha os nove níveis de TRL e os níveis de CRL correspondentes, evitando o erro clássico de tentar prototipar em uma tarde uma solução comercial que exige antes validação de bancada em TRL 3 ou 4.
+> Se a solução candidata envolve tecnologia física ou científica (*hardware* industrial como os sensores de Henrique nas usinas do PR e do MT, *deeptech*, biotecnologia ou transição energética), o nível de maturidade tecnológica (**TRL**) e comercial (**CRL**) governa qual tipo de protótipo faz sentido construir agora. O [[#CAPÍTULO 2: MATURIDADE (TRL/CRL), OS DEZ PORTÕES (TEN GATES) E PRÓXIMO PASSO COMPROMETIDO|Capítulo 2: Maturidade (TRL/CRL), Decisão por Gates e Fechamento de Fase]] detalha os nove níveis de TRL e os níveis de CRL correspondentes, evitando o erro clássico de tentar prototipar em uma tarde uma solução comercial que exige antes validação de bancada em TRL 3 ou 4.
 
 > [!note] Leituras relacionadas na coleção
-> Esta fase aplica o ciclo empírico enxuto (prototipar em até um dia, testar com cinco usuários por rodada e iterar antes de escrever código). Para calibrar quando o protótipo rápido deve ser combinado ao rigor científico (em hardware e operações críticas) ou aos portões de maturidade tecnológica e comercial, consulte o [[#CAPÍTULO 1: ABORDAGEM CIENTÍFICA vs LEAN STARTUP: QUANDO USAR CADA UMA|Capítulo 1: Abordagem Científica vs. Lean Startup]] e o [[#CAPÍTULO 2: MATURIDADE (TRL/CRL), DECISÃO POR GATES E FECHAMENTO DE FASE (COMMITTED NEXT MOVE)|Capítulo 2: Maturidade (TRL/CRL), Decisão por Gates e Fechamento de Fase]]. Para compreender os vieses culturais e o medo de travamento nas decisões de compra no Brasil, veja também o [[IGNICAO-Vol-2-Descoberta-e-Mercado#CAPÍTULO 1: PSICOLOGIA DO CONSUMIDOR BRASILEIRO: COMPORTAMENTO, DECISÃO E CONVERSÃO|Capítulo 1: Psicologia do Consumidor Brasileiro (Vol. 2)]].
+> Esta fase aplica o ciclo empírico enxuto (prototipar em até um dia, testar com cinco usuários por rodada e iterar antes de escrever código). Para calibrar quando o protótipo rápido deve ser combinado ao rigor científico (em hardware e operações críticas) ou aos portões de maturidade tecnológica e comercial, consulte o [[#CAPÍTULO 1: ABORDAGEM CIENTÍFICA vs LEAN STARTUP: QUANDO USAR CADA UMA|Capítulo 1: Abordagem Científica vs. Lean Startup]] e o [[#CAPÍTULO 2: MATURIDADE (TRL/CRL), OS DEZ PORTÕES (TEN GATES) E PRÓXIMO PASSO COMPROMETIDO|Capítulo 2: Maturidade (TRL/CRL), Decisão por Gates e Fechamento de Fase]]. Para compreender os vieses culturais e o medo de travamento nas decisões de compra no Brasil, veja também o [[IGNICAO-Vol-2-Descoberta-e-Mercado#CAPÍTULO 1: PSICOLOGIA DO CONSUMIDOR BRASILEIRO: COMPORTAMENTO, DECISÃO E CONVERSÃO|Capítulo 1: Psicologia do Consumidor Brasileiro (Vol. 2)]].
 
 ### Do rabisco no papel à fachada clicável: subindo a escada de fidelidade sem apego emocional
 
@@ -1945,7 +1945,7 @@ Estruture o roteiro de teste do protótipo (como o painel de sugestão de pedido
 5. **Perguntas pós-teste e compromisso real (10 minutos finais):** pergunte o que ficou claro de imediato, em qual ponto ele sentiu falta de informação e quanto ele gasta hoje (em horas e reais) para resolver essa rotina. Em vez de fazer perguntas hipotéticas vazias sobre preço, feche propondo um compromisso concreto (como agendar o piloto real da semana seguinte ou assinar a pré-venda com reembolso garantido).
 
 > [!note] Capítulo 8 (Vol. 4): Customer Experience
-> O protótipo é o primeiro contato do usuário com a experiência do produto. O [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 8: CUSTOMER SUCCESS (CS) E CUSTOMER EXPERIENCE (CX): DA JORNADA AO CHURN ZERO E NRR POSITIVO|Capítulo 8: Customer Success e Customer Experience (Vol. 4)]] mostra como desenhar a ativação inicial (*onboarding*) desde o protótipo, garantindo que o usuário alcance o primeiro resultado tangível nos minutos iniciais. Aplique os princípios de *Design Thinking* (empatia com o contexto real de uso e eliminação de passos supérfluos) para selecionar quais tarefas entram no roteiro de 30 minutos.
+> O protótipo é o primeiro contato do usuário com a experiência do produto. O [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 8: CUSTOMER SUCCESS (CS) E CUSTOMER EXPERIENCE (CX): DA JORNADA À RETENÇÃO SUSTENTÁVEL E NRR ACIMA DE 100%|Capítulo 8: Customer Success e Customer Experience (Vol. 4)]] mostra como desenhar a ativação inicial (*onboarding*) desde o protótipo, garantindo que o usuário alcance o primeiro resultado tangível nos minutos iniciais. Aplique os princípios de *Design Thinking* (empatia com o contexto real de uso e eliminação de passos supérfluos) para selecionar quais tarefas entram no roteiro de 30 minutos.
 
 #### Passo 6: teste em duas rodadas de 5 usuários do ICP (10 a 12 no total) e itere entre elas
 
@@ -1958,7 +1958,7 @@ Não espere terminar todos os testes para iterar. Depois de cada ciclo de três 
 Consolide o aprendizado em um documento enxuto contendo seis itens: (1) lista dos conceitos gerados e avaliados, (2) fichas dos conceitos selecionados, (3) links ou arquivos dos protótipos testados, (4) síntese das sessões com usuários (padrões de uso, atritos e frases literais), (5) recomendação fundamentada do conceito vencedor, e (6) riscos e hipóteses que permanecem abertos para a Fase 10.
 
 > [!tip] Estrutura do Dossiê de Solução e Canvases desta Fase
-> Os seis campos acima compõem o **Dossiê de Solução**, que documenta o conceito vencedor ao final do Passo 7 após comparar os dois protótipos finalistas testados nos Passos 4 a 6. Antes de iniciar a geração de ideias no Passo 1, utilize o **[[#Canvas: Opportunity Canvas (Jeff Patton, 2014)|Opportunity Canvas]]** para alinhar problema, usuários, valor para o negócio e restrições, e, ao encerrar o Passo 7, preencha o **[[#Canvas: MVP Canvas (Tristan Kromer)|MVP Canvas]]** para amarrar as hipóteses e métricas que guiarão a especificação na Fase 10.
+> Os seis campos acima compõem o **Dossiê de Solução**, que documenta o conceito vencedor ao final do Passo 7 após comparar os dois protótipos finalistas testados nos Passos 4 a 6. Antes de iniciar a geração de ideias no Passo 1, utilize o **[[#Canvas: Opportunity Canvas (Jeff Patton, 2014)|Opportunity Canvas]]** para alinhar problema, usuários, valor para o negócio e restrições, e, ao encerrar o Passo 7, preencha o **[[#IGNIÇÃO: Volume 3: Hipóteses, Experimentos, Prototipagem e Modelos de Negócio|MVP Canvas]]** para amarrar as hipóteses e métricas que guiarão a especificação na Fase 10.
 
 ### Os sete passos aplicados, sessão de ideação do PadariaPro
 
@@ -2375,7 +2375,7 @@ Cruzar respostas gera classificação.
 
 Passo 1: Liste 10-20 features candidatas.
 
-Passo 2: Pesquisa com 100+ respondentes do ICP.
+Passo 2: Aplique o questionário à base do seu ICP (idealmente 100 ou mais respondentes em produtos B2C ou maduros. Em estágios iniciais B2B com base restrita, aplique a partir de 20 a 30 clientes reais do ICP tratando a classificação como bússola qualitativa e nunca como prova estatística isolada).
 
 Passo 3: Classifique cada feature.
 
@@ -2548,7 +2548,7 @@ O bloco decisivo nessa simulação é o cruzamento entre **Desafios de Negócio*
 
 ---
 
-#### Canvas: MVP Canvas (Tristan Kromer)
+#### Canvas: MVP Canvas (Tristan Kromer e Paulo Caroli)
 
 ##### Por que este quadro visual foi criado
 
@@ -3667,7 +3667,7 @@ Os três referenciais metodológicos deste volume cumprem papéis distintos e co
 
 O primeiro referencial (**Eixo 1: Abordagem Científica ao Empreendedorismo**, de Camuffo, Gambardella, Novelli, Spina e coautores) apoia a tomada de decisão em quatro pilares: teoria causal explícita, hipóteses falsificáveis decompostas em afirmações atômicas, auditoria rigorosa da amostra e avaliação objetiva contra limiares fixados antes da coleta. Neste manual, ele forma a espinha dorsal da [[IGNICAO-Vol-1-Ideacao#FASE 3: CONSTRUÇÃO DA TEORIA DO NEGÓCIO|Fase 3: Construção da Teoria do Negócio (Vol. 1)]], da [[#FASE 7: FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 7: Formulação Rigorosa de Hipóteses]] e da [[#FASE 8: EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA E DA SOLUÇÃO|Fase 8: Experimentos de Validação]], operando por meio da Árvore da Teoria (*Story Tree / DAG*), do Banco de Hipóteses e do *Hypothesis Canvas*. Priorize este eixo sempre que a decisão tiver alto impacto e alto custo de reversão (como em *deeptech*, hardware industrial, saúde, regulação financeira e mudanças estruturais de modelo de negócio).
 
-O segundo referencial (**Eixo 2: Execução Enxuta e Heurísticas de Campo**, reunindo *Customer Development* de Steve Blank, *Lean Startup* de Eric Ries, *Running Lean* de Ash Maurya e os filtros práticos da Y Combinator e da Antler) fornece as ferramentas ágeis para sair do prédio, estreitar o foco e coletar compromisso real em semanas. Neste manual, ele conduz as entrevistas e os níveis de dor da [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 4: DESCOBERTA DO PROBLEMA|Fase 4 (Vol. 2)]], a Estratégia da Cunha da [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 6: MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 6 (Vol. 2)]], a triagem $R \times I$ e $H/E$ da [[#FASE 7: FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 7]], os oito experimentos de compromisso da [[#FASE 8: EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA E DA SOLUÇÃO|Fase 8]], o ciclo de MVP da [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 11: MVP E EXPERIMENTOS DE MERCADO|Fase 11 (Vol. 4)]] e o Scorecard de 15 Gates do [[#CAPÍTULO 2: MATURIDADE (TRL/CRL), DECISÃO POR GATES E FECHAMENTO DE FASE (COMMITTED NEXT MOVE)|Capítulo 2]].
+O segundo referencial (**Eixo 2: Execução Enxuta e Heurísticas de Campo**, reunindo *Customer Development* de Steve Blank, *Lean Startup* de Eric Ries, *Running Lean* de Ash Maurya e os filtros práticos da Y Combinator e da Antler) fornece as ferramentas ágeis para sair do prédio, estreitar o foco e coletar compromisso real em semanas. Neste manual, ele conduz as entrevistas e os níveis de dor da [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 4: DESCOBERTA DO PROBLEMA|Fase 4 (Vol. 2)]], a Estratégia da Cunha da [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 6: MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 6 (Vol. 2)]], a triagem $R \times I$ e $H/E$ da [[#FASE 7: FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 7]], os oito experimentos de compromisso da [[#FASE 8: EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA E DA SOLUÇÃO|Fase 8]], o ciclo de MVP da [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 11: MVP E EXPERIMENTOS DE MERCADO|Fase 11 (Vol. 4)]] e o Scorecard de 15 Gates do [[#CAPÍTULO 2: MATURIDADE (TRL/CRL), OS DEZ PORTÕES (TEN GATES) E PRÓXIMO PASSO COMPROMETIDO|Capítulo 2]].
 
 O terceiro eixo acompanha a travessia do ajuste problema-solução (PSF) ao ajuste produto-mercado (PMF) e à escala (Maurya, Moore e Ries), detalhada na [[IGNICAO-Vol-4-Tracao-e-PMF#IGNIÇÃO: Volume 4: Tração, Go-to-Market e Product-Market Fit|Fase 13 (Vol. 4)]]. Suas ferramentas centrais incluem o teste de Sean Ellis e a transição progressiva do Opportunity Canvas para o Lean Canvas e deste para o Business Model Canvas, orientando qual marco de validação governa cada etapa.
 
@@ -3679,7 +3679,7 @@ Na formulação de hipóteses e na execução de experimentos (Fases 7 e 8), o *
 
 Na prototipagem, nos testes de usabilidade e no lançamento do MVP (**Fases 9, 10 e 11**), o **Eixo 2 (Execução Enxuta)** acelera a cadência de construção e teste semanal com usuários, enquanto o **Eixo 1 (Científico)** preserva os critérios numéricos de aprovação (como os ≥ 80% de conclusão de tarefas sem ajuda na Fase 10) para impedir que o entusiasmo atropele as evidências.
 
-Na validação do modelo econômico e na confirmação do *Product-Market Fit* (**Fases 12 e 13**, no Volume 4), o **Eixo 3 (Jornada PSF → PMF)** assume o comando por meio das métricas de retenção por safra, teste de Sean Ellis e economia unitária, trabalhando em par com o Scorecard de Gates e com as réguas TRL/CRL do [[#CAPÍTULO 2: MATURIDADE (TRL/CRL), DECISÃO POR GATES E FECHAMENTO DE FASE (COMMITTED NEXT MOVE)|Capítulo 2]]. Já o **Eixo 1 (Científico)** volta ao centro da mesa toda vez que a empresa enfrenta uma decisão estratégica irreversível (mudar precificação, levantar rodada, abrir nova vertical ou desenhar a segunda curva na Fase 19).
+Na validação do modelo econômico e na confirmação do *Product-Market Fit* (**Fases 12 e 13**, no Volume 4), o **Eixo 3 (Jornada PSF → PMF)** assume o comando por meio das métricas de retenção por safra, teste de Sean Ellis e economia unitária, trabalhando em par com o Scorecard de Gates e com as réguas TRL/CRL do [[#CAPÍTULO 2: MATURIDADE (TRL/CRL), OS DEZ PORTÕES (TEN GATES) E PRÓXIMO PASSO COMPROMETIDO|Capítulo 2]]. Já o **Eixo 1 (Científico)** volta ao centro da mesa toda vez que a empresa enfrenta uma decisão estratégica irreversível (mudar precificação, levantar rodada, abrir nova vertical ou desenhar a segunda curva na Fase 19).
 
 Da estruturação comercial à escala e maturidade (**Fases 14 a 20**, nos Volumes 5 a 9), entram em cena os referenciais de finanças corporativas, vendas escaláveis, engenharia e governança, mas os sócios retornam imediatamente à árvore causal (**Eixo 1**) e à disciplina de cunha (**Eixo 2** e **Capítulo 3**) sempre que abrem um novo canal, mudam a precificação ou iniciam uma segunda curva.
 
@@ -3791,13 +3791,13 @@ Pegue as cinco decisões pendentes da semana e marque ao lado de cada uma: **[R]
 
 ---
 
-## CAPÍTULO 2: MATURIDADE (TRL/CRL), DECISÃO POR GATES E FECHAMENTO DE FASE (COMMITTED NEXT MOVE)
+## CAPÍTULO 2: MATURIDADE (TRL/CRL), OS DEZ PORTÕES (TEN GATES) E PRÓXIMO PASSO COMPROMETIDO
 
 ### O Ralo Invisível de Energia: Como Parar de Otimizar o Que Deveria Ser Morto
 
 Entre a operação no Recife e o centro de distribuição em Goiânia, Rafael comemorava na reunião de segunda-feira: após três semanas testando dezessete cores de botão, quatro telas de pagamento e cinco alertas de escassez na loja virtual da marca D2C de autocuidado que fundou com Bia, a taxa de conversão havia oscilado de 1,1% para 1,4%.
 
-Bia não abriu o champanhe. Ela projetou a DRE na parede da sala e apontou para duas linhas em vermelho sangue:
+Em Goiânia, quando Rafael comemorou o novo layout do aplicativo, Bia não abriu o champanhe: projetou a DRE na parede da sala e apontou para duas linhas em vermelho:
 
 "Rafael, olha para a tela. O nosso custo para trazer uma cliente no Instagram é R$ 95. O lucro bruto do primeiro pote de creme é R$ 40. E 88% das mulheres que compraram há dois meses nunca fizeram o segundo pedido porque acharam o cheiro da fórmula enjoativo. Você está passando dezesseis horas por dia polindo a maçaneta da porta de um prédio que está pegando fogo no alicerce!"
 
@@ -3985,7 +3985,7 @@ Se é TRL 7 a 9, você é comercializável. Capital de VC tradicional faz sentid
 
 ---
 
-### CRL: Nível de Maturidade Comercial e de Clientes (Escala de 1 a 9)
+### CRL: Nível de Maturidade Comercial e de Clientes (Escala de 1 a 9, com PMF no Nível 7)
 
 O **CRL** (sigla usada internacionalmente tanto para *Customer Readiness Level*, na escala de 1 a 9 do *KTH Innovation Readiness Level* do Royal Institute of Technology da Suécia, quanto para *Commercial Readiness Level* em editais brasileiros de *deeptech* e transição energética) complementa o TRL ao medir a maturidade da validação de mercado em nove degraus progressivos (frequentemente condensados até o nível 7 na fase de *Product-Market Fit* e estendidos aos níveis 8 e 9 na operação em escala):
 
@@ -4695,55 +4695,55 @@ Quatro vantagens estruturais explicam por que empresas como GitLab, Supabase, El
 
 ### Os seis pilares operacionais do COSS: fronteira do Open Core, escolha da licença e conversão para receita
 
-**1. Modelos de negócio:**
+**1. Modelos de negócio baseados em código aberto:**
 
-- **Open Core**: core open source + features pagas. Ex: GitLab, MongoDB.
+- **Open Core (núcleo aberto + camada corporativa paga):** o núcleo técnico para uso individual permanece em código aberto, enquanto recursos de governança, segurança, escala e suporte corporativo são comercializados (ex.: GitLab, Elastic e Supabase).
 - **SaaS sobre OSS**: managed hosting de projeto open source. Ex: Databricks, Confluent.
 - **Serviços/support**: OSS grátis + support pago. Ex: Red Hat tradicional.
 - **Dual licensing**: OSS com licença restritiva + licença comercial alternativa. Ex: MySQL histórico.
-
+**2. Escolha da licença e blindagem jurídica de propriedade intelectual (Lei do Software nº 9.609/1998 e CLA/DCO):**
 **2. Escolha da licença e blindagem jurídica de propriedade intelectual (Lei do Software nº 9.609/1998 e CLA/DCO):**
 
 Antes de escolher a licença do repositório, trave duas regras jurídicas indispensáveis no Brasil: primeiro, garanta que todos os contratos de trabalho e de prestação de serviços da sua equipe contenham cláusula expressa de titularidade patrimonial do código a favor da empresa (nos termos do **art. 4º da Lei nº 9.609/1998**, Lei do Software), segundo, se você pretende manter a prerrogativa de oferecer versão comercial proprietária (*dual licensing*) ou alterar a licença no futuro, exija que todo contribuidor externo assine eletronicamente no GitHub um **CLA (*Contributor License Agreement*)** concedendo licença ampla ou cessão de direitos à mantenedora (diferente do simples *DCO / Developer Certificate of Origin*, que apenas atesta autoria sob a mesma licença aberta e impede relicenciamento posterior sem autorização de cada autor). Compare as quatro famílias de licenças:
 
 | Licença | Permissividade | Uso típico |
 |---|---|---|
-| **MIT** | Muito permissiva | Biblioteca que você quer ampla adoção |
-| **Apache 2.0** | Permissiva + patent grant | Mais comum em empresa-backed |
-| **GPL** | Copyleft | Ecossistema Linux |
+| **MIT** | Licença permissiva enxuta e direta | Bibliotecas, SDKs e pacotes em que o objetivo é maximizar adoção sem atrito jurídico |
+| **Apache 2.0** | Licença permissiva com cláusula expressa de concessão de patentes (*patent grant*) | Padrão mais adotado por startups de infraestrutura e projetos mantidos por empresas |
+| **GPL (v2 / v3)** | *Copyleft* forte (obras derivadas distribuídas devem manter a mesma licença aberta) | Sistemas operacionais e ferramentas de infraestrutura do ecossistema Linux |
 | **Copyleft fraco (LGPL, MPL 2.0)** | Modificações nos arquivos do próprio componente aberto devem permanecer abertas, mas o componente pode ser ligado a sistemas proprietários maiores | Bibliotecas técnicas e motores embarcados que querem garantir retorno de melhorias na biblioteca sem contaminar o software comercial do usuário |
 | **Permissiva (MIT, Apache 2.0, BSD)** | Permite uso, modificação e redistribuição livre (inclusive em produtos fechados); a Apache 2.0 inclui cláusula expressa de concessão de patentes | Padrão ideal para **SDKs, conectores de borda e bibliotecas** (como o conector bancário de Lucas e Marina, Kubernetes e React), onde o objetivo é maximizar adoção sem atrito |
 | **Copyleft forte em rede (AGPLv3) vs. Source-Available (BSL 1.1, SSPL, FSL)** | A **AGPLv3** (licença *open source* aprovada pela OSI) exige que quem modificar e oferecer o software em rede compartilhe o código-fonte completo sob AGPLv3; já a **BSL (*Business Source License*)**, a **SSPL** e a **FSL (*Functional Source License*)** são licenças de *"código disponível"* (*source-available*, não classificadas como *open source* pela OSI) que proíbem terceiros de vender o software como serviço gerenciado concorrente | **Elastic** (retornou à AGPLv3 em 2024 ao lado de SSPL/ELv2), **Redis** (adotou AGPLv3 no Redis 8 em maio de 2025), **MongoDB** (SSPL), **Sentry** (FSL); nota: a troca da licença do Terraform para BSL pela **HashiCorp** em 2023 (antes da conclusão de sua compra pela **IBM** em fevereiro de 2025) e a mudança da Redis em 2024 geraram os *forks* comunitários **OpenTofu** e **Valkey**, enquanto a **CockroachDB** migrou da BSL para licença proprietária no fim de 2024 |
 
-Escolha importa: MIT max adoção, pouco controle. AGPL/BSL mais controle, menos adoção.
+A escolha da licença define a relação entre alcance e proteção comercial: licenças permissivas (MIT e Apache 2.0) maximizam a adoção pelos desenvolvedores com menor restrição sobre terceiros, enquanto licenças *copyleft* de rede (AGPLv3) ou de código disponível (BSL/SSPL) ampliam a proteção contra provedores de nuvem, mas reduzem a adoção espontânea em grandes empresas.
 
-**3. Community building:**
+**3. Construção e governança da comunidade (*community building*):**
 
 - **Docs excepcionais** (ver [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 4: ENGINEERING MANAGEMENT, DEVELOPER EXPERIENCE E GESTÃO DE DÍVIDA TÉCNICA|Capítulo 4 (Engineering Management, Developer Experience e Gestão de Dívida Técnica) (Vol. 7)]]).
 - **Contributing guide** claro.
 - **Experiência de boas-vindas para novos contribuidores**: mantenha um guia `CONTRIBUTING.md` claro, tarefas iniciais etiquetadas como `good first issue` e resposta rápida aos primeiros *pull requests*.
-- **Governance**: quem decide? Em OSS empresa-backed, empresa tem controle, comunicar claramente.
-- **Events e conferences**.
+- **Governança transparente do repositório:** deixe explícito no documentação quem decide o *roadmap* técnico e como contribuições externas são avaliadas pela empresa mantenedora.
+- **Encontros técnicos e conferências de desenvolvedores:** participe ativamente das comunidades locais de engenharia para formar defensores técnicos orgânicos.
 
-**4. Commercial conversion:**
+**4. Conversão comercial da comunidade para receita (*commercial conversion*):**
 
 - **A jornada prática da comunidade aberta para o contrato pago (o caso de Lucas e Marina):** no ecossistema de conciliação financeira da dupla, o desenvolvedor ou integrador de ERP baixa gratuitamente no GitHub o conector aberto sob licença **Apache 2.0** para ler e padronizar arquivos OFX e CNAB locais, porém, quando a distribuidora ou rede varejista precisa do motor em nuvem que cruza automaticamente milhares de boletos contra a API dos bancos, envia o alerta diário no WhatsApp do financeiro, aplica alçadas de aprovação multiusuário (SSO) e guarda trilha de auditoria (seguindo a separação *Buyer-Based Open Core* por perfil de comprador), a própria documentação técnica conduz o gestor financeiro à assinatura do SaaS comercial.
-- **Self-serve tier paid**: Hobby/Starter → Pro → Enterprise.
-- **Enterprise sales** para grandes contas.
+- **Camadas de autoatendimento pago (*self-serve tiers*):** ofereça degraus claros de evolução do plano gratuito individual para planos de equipe (*Pro/Team*) no cartão corporativo.
+- **Vendas consultivas corporativas (*enterprise sales*):** acione executivos de contas quando múltiplas equipes do mesmo banco ou indústria já utilizam a versão aberta.
 
-**5. Casos bem-sucedidos:**
+**5. Casos globais de referência e lições de licenciamento:**
 
 - **MongoDB**: OSS → SaaS → IPO.
 - **Elastic**: OSS → managed Elasticsearch → IPO.
 - **Databricks**: construído sobre Apache Spark (OSS contribution).
-- **Supabase**: OSS Firebase alternative → managed.
+- **Supabase:** posicionou-se como alternativa aberta ao Firebase baseada em PostgreSQL, monetizando a plataforma gerenciada em nuvem com cobrança por uso e capacidade.
 - **HashiCorp** (criadora do Terraform, Vault e Consul, adquirida pela IBM por US$ 6,4 bilhões em fevereiro de 2025): provou o poder de conquistar os engenheiros de infraestrutura com ferramentas gratuitas de linha de comando e monetizar a governança corporativa em nuvem, mas também deixou a lição histórica de que mudar a licença de um projeto maduro (como fez em 2023 ao trocar a MPL 2.0 pela BSL) pode provocar a criação imediata de um *fork* concorrente pela própria comunidade (*OpenTofu*).
 
 **6. Armadilhas:**
 
 - **Cloud providers "stealing"**: Amazon oferecendo serviço baseado em seu OSS. MongoDB e Elastic mudaram licenças por isso.
-- **Community expectations**: comunidade pode exigir features não monetizáveis.
-- **Support burden**: muitos users grátis geram tickets.
+- **Gestão de expectativas da comunidade:** equilibre o *roadmap* para que pedidos de usuários gratuitos não consumam a capacidade de engenharia necessária para os recursos pagos.
+- **Triagem do esforço de suporte gratuito:** direcione dúvidas da versão gratuita para fóruns comunitários (GitHub Discussions / Discord) e reserve SLA garantido para assinantes comerciais.
 - **Taxa típica de conversão de usuários gratuitos para pagantes**: em projetos COSS maduros, apenas cerca de **0,5% a 2% dos usuários ativos da versão gratuita** convertem-se em clientes pagantes da versão comercial ou em nuvem, o que exige um topo de funil amplo e uma fronteira muito clara entre o uso individual gratuito e os recursos corporativos pagos.
 
 ### Checklist de execução prática para estratégias Open Source (COSS)

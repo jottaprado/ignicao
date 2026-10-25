@@ -481,6 +481,90 @@ function reconcileAllV53CrossVolumeLinks(volumesDir) {
     if (!fs.existsSync(fp)) continue;
     const lines = fs.readFileSync(fp, 'utf8').split('\n');
     linesByVol[v] = lines;
+  }
+
+  // Inject the complete 221-tool catalog and the 5 remaining chapter entries into Vol 10's apparatus
+  if (linesByVol[10]) {
+    let v10Text = linesByVol[10].join('\n');
+    if (!v10Text.includes('### Catálogo Completo das Ferramentas da Coleção (Volumes 1 a 9)')) {
+      const allTools = [];
+      for (let v = 1; v <= 9; v++) {
+        const slug = VOL_SLUGS[v];
+        const vLines = linesByVol[v] || [];
+        let curUnitHeading = '';
+        let curUnitShort = `Vol. ${v}`;
+        for (const ln of vLines) {
+          const mUnit = ln.match(/^##\s+((?:FASE|CAPÍTULO)\s+\d+[^#\n]*)$/i);
+          if (mUnit) {
+            curUnitHeading = mUnit[1].trim();
+            const mShort = curUnitHeading.match(/^((?:FASE|CAPÍTULO)\s+\d+)/i);
+            curUnitShort = mShort ? `${mShort[1]} (Vol. ${v})` : `Vol. ${v}`;
+          }
+          const mTool = ln.match(/^####\s+((?:Framework|Canvas|Template):\s+.+)$/i);
+          if (mTool) {
+            const toolHeading = mTool[1].trim();
+            allTools.push({
+              vol: v,
+              slug,
+              toolHeading,
+              curUnitHeading,
+              curUnitShort,
+            });
+          }
+        }
+      }
+
+      const catalogLines = [
+        `### Catálogo Completo das Ferramentas da Coleção (Volumes 1 a 9: ${allTools.length} Ferramentas)`,
+        '',
+        '| # | Ferramenta (Framework, Canvas ou Template) | Volume | Fase ou Capítulo |',
+        '| :--- | :--- | :--- | :--- |',
+      ];
+      allTools.forEach((t, idx) => {
+        const cleanLabel = t.toolHeading.replace(/\|/g, '/');
+        const unitLink = t.curUnitHeading
+          ? `[[${t.slug}#${t.curUnitHeading}|${t.curUnitShort}]]`
+          : `Vol. ${t.vol}`;
+        catalogLines.push(
+          `| ${idx + 1} | [[${t.slug}#${t.toolHeading}|${cleanLabel}]] | Vol. ${t.vol} | ${unitLink} |`
+        );
+      });
+      catalogLines.push('');
+
+      const marker =
+        'Se você está começando, utilize primeiro apenas as ferramentas da Fase em que sua startup se encontra no momento.';
+      if (v10Text.includes(marker)) {
+        v10Text = v10Text.replace(marker, catalogLines.join('\n') + '\n' + marker);
+      }
+      // Also align the promised count on the heading/callout of Vol 10
+      v10Text = v10Text.replace(
+        /Catálogo Completo das 224 Ferramentas da Coleção/g,
+        `Catálogo Completo das ${allTools.length} Ferramentas da Coleção`
+      );
+    }
+
+    // Ensure the 5 remaining chapters of Vols. 1–9 are linked in the Remissivo
+    const extraRemissivo = [
+      '- **Ética Aplicada, Reputação e Integridade na Trincheira**: [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 3: ÉTICA, REPUTAÇÃO E INTEGRIDADE NA TRINCHEIRA|Capítulo 3 (Vol. 1)]]',
+      '- **Networking Estratégico, Mentores, Advisors e Uso de Aceleradoras**: [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 7: NETWORKING, MENTORES, ADVISORS E ACELERADORAS|Capítulo 7 (Vol. 1)]]',
+      '- **Integração Prática dos Métodos de Descoberta (Design Thinking, Lean Startup e Customer Development)**: [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 1: DESIGN THINKING, LEAN STARTUP E CUSTOMER DEVELOPMENT INTEGRADOS|Capítulo 1 (Vol. 3)]]',
+      '- **Maturidade Tecnológica e Comercial (TRL/CRL), Os Dez Portões (Ten Gates) e Próximo Passo Comprometido**: [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 2: MATURIDADE (TRL/CRL), OS DEZ PORTÕES (TEN GATES) E PRÓXIMO PASSO COMPROMETIDO|Capítulo 2 (Vol. 3)]]',
+      '- **Estratégia Go-To-Market (GTM): Founder-Led Sales, PLG, Outbound, Inbound e ABM**: [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 1: GO-TO-MARKET (GTM) STRATEGY: FOUNDER-LED SALES, PLG, OUTBOUND, INBOUND E ABM|Capítulo 1 (Vol. 4)]]',
+    ];
+    for (const item of extraRemissivo) {
+      if (!v10Text.includes(item)) {
+        v10Text = v10Text.trimEnd() + '\n' + item + '\n';
+      }
+    }
+
+    linesByVol[10] = v10Text.split('\n');
+    fs.writeFileSync(path.join(volumesDir, `${VOL_SLUGS[10]}.md`), v10Text, 'utf8');
+  }
+
+  for (let v = 1; v <= 11; v++) {
+    const slug = VOL_SLUGS[v];
+    const lines = linesByVol[v];
+    if (!lines) continue;
     const hMap = new Map();
     let firstH1 = '';
     for (const line of lines) {

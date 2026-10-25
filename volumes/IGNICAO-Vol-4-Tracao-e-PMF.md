@@ -71,7 +71,7 @@ graph LR
 - [[#CAPÍTULO 5: SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|CAPÍTULO 5: SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL]]
 - [[#CAPÍTULO 6: PRICING STRATEGY E ECONOMIA DA RECORRÊNCIA (SUBSCRIPTION ECONOMY)|CAPÍTULO 6: PRICING STRATEGY E ECONOMIA DA RECORRÊNCIA (SUBSCRIPTION ECONOMY)]]
 - [[#CAPÍTULO 7: NEGOCIAÇÃO COMO DISCIPLINA|CAPÍTULO 7: NEGOCIAÇÃO COMO DISCIPLINA]]
-- [[#CAPÍTULO 8: CUSTOMER SUCCESS (CS) E CUSTOMER EXPERIENCE (CX): DA JORNADA AO CHURN ZERO E NRR POSITIVO|CAPÍTULO 8: SUCESSO E EXPERIÊNCIA DO CLIENTE (CS E CX): DA JORNADA À RETENÇÃO LÍQUIDA ACIMA DE 100%]]
+- [[#CAPÍTULO 8: CUSTOMER SUCCESS (CS) E CUSTOMER EXPERIENCE (CX): DA JORNADA À RETENÇÃO SUSTENTÁVEL E NRR ACIMA DE 100%|CAPÍTULO 8: SUCESSO E EXPERIÊNCIA DO CLIENTE (CS E CX): DA JORNADA À RETENÇÃO LÍQUIDA ACIMA DE 100%]]
 ### Instrumentação de Dados, Produto AI-Native e Anatomia do Pivô (Capítulos 9 a 11)
 - [[#CAPÍTULO 9: DADOS, ANALYTICS E EXPERIMENTAÇÃO|CAPÍTULO 9: DADOS, ANALYTICS E EXPERIMENTAÇÃO]]
 - [[#CAPÍTULO 10: AI COMO PARTE DO PRODUTO (AI-NATIVE PRODUCT)|CAPÍTULO 10: AI COMO PARTE DO PRODUTO (AI-NATIVE PRODUCT)]]
@@ -242,7 +242,7 @@ O investimento desta terceira etapa é o mais alto do ciclo e exige semanas de e
 Os nove passos a seguir aplicam-se à **terceira etapa do ciclo (MVP em Código)**, acionada somente depois que o Teste de Demanda e o MVP Concierge trouxeram evidência concreta de uso e disposição de pagamento.
 
 > [!tip] MVP Canvas antes de construir qualquer coisa
-> Para cada experimento que o time planeja lançar, revise o [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#Canvas: MVP Canvas (Tristan Kromer)|Canvas: MVP Canvas (Vol. 3)]] em 30 a 45 minutos antes de escrever código: qual é a **hipótese central** falsificável, quem forma o **segmento restrito do teste** (como os 12 diretores financeiros do piloto de Lucas e Marina), qual é o **formato mínimo** capaz de testar a premissa e qual é o **critério numérico de invalidação**. O caso da Wildlife Studios (Fase 9, Vol. 3) mostra como a definição precisa do público, restrita aos jogadores de gasto moderado (*moderate spenders*), produziu evidência limpa para expandir a funcionalidade a toda a base.
+> Para cada experimento que o time planeja lançar, revise o [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#Canvas: MVP Canvas (Tristan Kromer e Paulo Caroli)|Canvas: MVP Canvas (Vol. 3)]] (sistematizado por Tristan Kromer e por Paulo Caroli em *Lean Inception*, 2015) em 30 a 45 minutos antes de escrever código: qual é a **hipótese central** falsificável, quem forma o **segmento restrito do teste** (como os 12 diretores financeiros do piloto de Lucas e Marina), qual é o **formato mínimo** capaz de testar a premissa e qual é o **critério numérico de invalidação**. O caso da Wildlife Studios (Fase 9, Vol. 3) mostra como a definição precisa do público, restrita aos jogadores de gasto moderado (*moderate spenders*), produziu evidência limpa para expandir a funcionalidade a toda a base.
 
 #### Passo 1: construa apenas os Must Haves
 
@@ -278,7 +278,7 @@ Entrega do valor em beta fechado ou lançamento silencioso, recorrendo a etapas 
 > É quase sempre a melhor opção. Permite controle, aprendizado profundo, e relacionamento direto com cada usuário. Os outros formatos vêm depois, com escala.
 
 > [!note] Mapa de aprofundamento desta Fase 11
-> Para aprofundar a execução de cada passo desta fase sem interromper a leitura, consulte diretamente: (1) [[#CAPÍTULO 1: GTM PLAYBOOK E ARQUITETURA DE CANAIS: DA PRIMEIRA VENDA AO PRIMEIRO MILHÃO DE ARR|Capítulo 1: GTM Playbook e Canais]] no recrutamento dos primeiros clientes (Passo 4), (2) [[#CAPÍTULO 8: CUSTOMER SUCCESS (CS) E CUSTOMER EXPERIENCE (CX): DA JORNADA AO CHURN ZERO E NRR POSITIVO|Capítulo 8: Customer Success e CX]] na medição do *time-to-value* durante o *onboarding* manual (Passo 4), (3) [[#CAPÍTULO 9: DADOS, ANALYTICS E EXPERIMENTAÇÃO|Capítulo 9: Dados, Analytics e Experimentação]] na instrumentação dos eventos do produto (Passo 5), e (4) [[#CAPÍTULO 6: PRICING STRATEGY E ECONOMIA DA RECORRÊNCIA (SUBSCRIPTION ECONOMY)|Capítulo 6: Pricing Strategy]] no teste de cobrança real (Passo 8).
+> Para aprofundar a execução de cada passo desta fase sem interromper a leitura, consulte diretamente: (1) [[#CAPÍTULO 1: GTM PLAYBOOK E ARQUITETURA DE CANAIS: DA PRIMEIRA VENDA AO PRIMEIRO MILHÃO DE ARR|Capítulo 1: GTM Playbook e Canais]] no recrutamento dos primeiros clientes (Passo 4), (2) [[#CAPÍTULO 8: CUSTOMER SUCCESS (CS) E CUSTOMER EXPERIENCE (CX): DA JORNADA À RETENÇÃO SUSTENTÁVEL E NRR ACIMA DE 100%|Capítulo 8: Customer Success e CX]] na medição do *time-to-value* durante o *onboarding* manual (Passo 4), (3) [[#CAPÍTULO 9: DADOS, ANALYTICS E EXPERIMENTAÇÃO|Capítulo 9: Dados, Analytics e Experimentação]] na instrumentação dos eventos do produto (Passo 5), e (4) [[#CAPÍTULO 6: PRICING STRATEGY E ECONOMIA DA RECORRÊNCIA (SUBSCRIPTION ECONOMY)|Capítulo 6: Pricing Strategy]] no teste de cobrança real (Passo 8).
 
 #### Passo 4: onboarding manual intensivo, "Faça Coisas Que Não Escalam"
 
@@ -523,7 +523,7 @@ Na mesma reunião de segunda-feira do Passo 6: depois de revisar as métricas da
 
 ---
 
-### Tabela de referência única: métricas e patamares da Fase 11
+### Tabela de referência única: métricas e patamares de saída da Fase 11
 
 | Métrica | O que medir | Referência saudável |
 |---|---|---|
@@ -748,7 +748,7 @@ Stages:
 4. Revenue: monetizar comprovadamente.
 5. Scale: crescer ordens de magnitude.
 
-Para cada estágio, acompanhe os indicadores da [[#Tabela de referência única: métricas e patamares da Fase 11|Tabela de referência única da Fase 11]] (em SaaS B2B na etapa de retenção, por exemplo, respeite o piso mínimo de 40% de usuários ativos em D30 no primeiro piloto e busque a meta saudável de 60% em D30 conforme a base amadurece).
+Para cada estágio, acompanhe os indicadores da [[#Tabela de referência única: métricas e patamares de saída da Fase 11|Tabela de referência única da Fase 11]] (em SaaS B2B na etapa de retenção, por exemplo, respeite o piso mínimo de 40% de usuários ativos em D30 no primeiro piloto e busque a meta saudável de 60% em D30 conforme a base amadurece).
 
 OMTM: em cada momento, **1 métrica** (não 20 num dashboard) guia decisão. Troca com estágios.
 
@@ -843,11 +843,11 @@ A distinção entre Acquisition e Activation é central: usuário que chegou mas
 
 ##### O momento exato de colocar este canvas na parede
 
-Use o Pirate Canvas nesta Fase 11 (MVP e primeiros usuários) como estrutura de instrumentação das métricas iniciais, implantando-o antes de colocar o produto no ar. Após confirmar o PMF, revise-o mensalmente como painel de saúde do funil para localizar a etapa de maior perda e concentrar nela os experimentos do ciclo seguinte. Já na Fase 15 (Vol. 6, máquina de crescimento e escala), ele orienta a divisão do orçamento entre aquisição, ativação e retenção.
+Use o Pirate Canvas nesta Fase 11 (MVP e primeiros usuários) como estrutura de instrumentação das métricas iniciais, implantando-o antes de colocar o produto no ar. Após confirmar o PMF na Fase 13, revise-o mensalmente como painel de saúde do funil para localizar a etapa de maior perda e concentrar nela os experimentos do ciclo seguinte. Já na Fase 15 (Vol. 6, máquina de crescimento e escala), ele orienta a divisão do orçamento entre aquisição, ativação e retenção.
 
 ##### As regras de ouro para preencher sem se enganar
 
-A tese de McClure é que **times sem modelo explícito de funil otimizam a métrica errada**. Equipes iniciantes tendem a celebrar Aquisição (visível e fácil de apresentar em reunião) enquanto negligenciam Retenção (mais lenta de medir, porém a única que sustenta o negócio). Conforme os parâmetros da [[#Tabela de referência única: métricas e patamares da Fase 11|Tabela de referência única da Fase 11]], acelerar o cadastro de clientes em SaaS B2B quando a retenção em D30 está abaixo do piso de 40% equivale a despejar água em um balde furado (ao passo que, em aplicativos gratuitos de consumo B2C, uma curva estabilizada entre 20% e 25% em D30 já representa um patamar saudável). **Retenção precede escala de aquisição.**
+A tese de McClure é que **times sem modelo explícito de funil otimizam a métrica errada**. Equipes iniciantes tendem a celebrar Aquisição (visível e fácil de apresentar em reunião) enquanto negligenciam Retenção (mais lenta de medir, porém a única que sustenta o negócio). Conforme os parâmetros da [[#Tabela de referência única: métricas e patamares de saída da Fase 11|Tabela de referência única da Fase 11]], acelerar o cadastro de clientes em SaaS B2B quando a retenção em D30 está abaixo do piso de 40% equivale a despejar água em um balde furado (ao passo que, em aplicativos gratuitos de consumo B2C, uma curva estabilizada entre 20% e 25% em D30 já representa um patamar saudável). **Retenção precede escala de aquisição.**
 
 ##### Passo a passo na parede da sala (3 a 4 horas na primeira versão; 30 a 60 minutos nas revisões)
 
@@ -1904,7 +1904,7 @@ flowchart LR
         M3[Aquisição orgânica ≥20%]
     end
 
-    subgraph SCALE["Escala<br/>(Fase 14)"]
+    subgraph SCALE["Escala<br/>(Fases 14 a 16)"]
         direction TB
         S1[Motor de crescimento]
         S2[NRR ≥110%]
@@ -2137,7 +2137,7 @@ Alguns usuários adoram. A maioria é indiferente. Foque no sub-segmento que ado
 Se os sinais continuarem negativos após os ajustes, retorne às Fases 4 a 6 (Vol. 2) para revisar o problema e o segmento-alvo, ou às Fases 7 a 9 (Vol. 3) para reformular as hipóteses e a solução proposta. Descobrir essa necessidade enquanto ainda há caixa preserva o capital para o pivô certo.
 
 > [!tip] Capítulo 8: Customer Experience
-> O [[#CAPÍTULO 8: CUSTOMER SUCCESS (CS) E CUSTOMER EXPERIENCE (CX): DA JORNADA AO CHURN ZERO E NRR POSITIVO|Capítulo 8: Customer Experience]] estrutura como mapear a jornada completa do cliente, desde o primeiro contato até o churn evitado, e identificar os "moments of truth" que mais afetam retenção. Use aqui para diagnosticar por que certos segmentos chegam ao aha e outros não.
+> O [[#CAPÍTULO 8: CUSTOMER SUCCESS (CS) E CUSTOMER EXPERIENCE (CX): DA JORNADA À RETENÇÃO SUSTENTÁVEL E NRR ACIMA DE 100%|Capítulo 8: Customer Experience]] estrutura como mapear a jornada completa do cliente, desde o primeiro contato até o churn evitado, e identificar os "moments of truth" que mais afetam retenção. Use aqui para diagnosticar por que certos segmentos chegam ao aha e outros não.
 
 > [!tip] Canvases Visuais: Customer Journey Canvas (Fase 5)
 > Para sustentar o PMF, o [[IGNICAO-Vol-2-Descoberta-e-Mercado#Canvas: Customer Journey Canvas|Canvas: Customer Journey Canvas (Vol. 2)]] materializa em uma página a jornada completa (consciência, consideração, decisão, *onboarding*, uso, expansão e recomendação) com os momentos decisivos (*moments of truth*) de cada etapa. O Capítulo 8 deste volume aprofunda a gestão da jornada, enquanto o canvas do Volume 2 oferece o quadro preenchível para oficinas com a equipe.
@@ -2151,7 +2151,7 @@ Depois que você identifica o aha moment, o trabalho é operacionalizá-lo. Quan
 Como ponto de partida para calibrar com os dados da própria base, observe cinco etapas do funil de ativação: conversão de visitante em cadastro entre 2% e 10% (conforme o canal de origem). Conclusão da configuração inicial (*onboarding*) por 60% ou mais dos cadastrados. Chegada à primeira entrega de valor (*aha moment*) por pelo menos 50% dos que concluíram a configuração. Retorno em D7 de 70% ou mais dos usuários que viveram esse marco, e conversão em conta pagante (ou expansão) de 30% ou mais dos usuários engajados.
 
 > [!tip] Capítulo 8: Customer Success
-> O [[#CAPÍTULO 8: CUSTOMER SUCCESS (CS) E CUSTOMER EXPERIENCE (CX): DA JORNADA AO CHURN ZERO E NRR POSITIVO|Capítulo 8: Customer Success]] mostra como estruturar a função de CS antes de contratar o primeiro especialista: placar de saúde da conta (*health score*), roteiros de *onboarding*, revisões trimestrais (QBR) e gatilhos de intervenção que reduzem o cancelamento, cuidado essencial quando a curva de retenção ainda oscila.
+> O [[#CAPÍTULO 8: CUSTOMER SUCCESS (CS) E CUSTOMER EXPERIENCE (CX): DA JORNADA À RETENÇÃO SUSTENTÁVEL E NRR ACIMA DE 100%|Capítulo 8: Customer Success]] mostra como estruturar a função de CS antes de contratar o primeiro especialista: placar de saúde da conta (*health score*), roteiros de *onboarding*, revisões trimestrais (QBR) e gatilhos de intervenção que reduzem o cancelamento, cuidado essencial quando a curva de retenção ainda oscila.
 
 #### Passo 5: estabilizar operações para sustentar PMF
 
@@ -3568,6 +3568,7 @@ Seis meses depois de dispensar o vendedor sênior que queimara R$ 54 mil sem fec
 1. Você, como fundador, já fechou pessoalmente pelo menos 20 contratos com clientes desconhecidos (fora do círculo de amigos e conhecidos), a partir de 50 a 100 conversas, e documentou as 10 objeções que se repetem nas reuniões?
 2. O seu tíquete anual por cliente (ACV) comporta o custo do seu movimento comercial (deixando planos de entrada como R$ 149/mês no autoatendimento e reservando reuniões de vendas para tíquetes como R$ 1.490/mês), e você já concentra de 70% a 80% do orçamento no canal validado pelo método *Bullseye* em vez de pulverizar verba em cinco canais ao mesmo tempo?
 3. Se você gravar a sua melhor reunião de vendas hoje, um vendedor novo conseguiria reproduzir o mesmo roteiro de perguntas na semana que vem?
+4. Se o seu produto possui camada de autoatendimento (*Product-Led Growth*), você já monitora os sinais objetivos de uso que transformam uma conta gratuita em oportunidade comercial qualificada (*Product-Qualified Lead*, PQL) para abordagem consultiva?
 
 **Permissão Libertadora:**
 Você está autorizado a ser o vendedor número um da sua empresa pelos próximos seis meses, mesmo que o seu diploma diga que você é engenheiro, médico ou cientista. Ninguém vende a visão melhor do que quem sente a dor da criação.
@@ -4808,7 +4809,7 @@ A venda B2B percorre oito estágios definidos. Cada um tem objetivo próprio, cr
 
 **Fechamento.** Assinatura (Pagamento). Início. Critério de saída. Contrato assinado, e primeiro pagamento recebido.
 
-**Pós-venda. Onboarding, depois expansion, depois renewal.** Customer Success leva daqui pra frente (ver [[#CAPÍTULO 8: CUSTOMER SUCCESS (CS) E CUSTOMER EXPERIENCE (CX): DA JORNADA AO CHURN ZERO E NRR POSITIVO|Capítulo 8 (Customer Success (CS) e Customer Experience (CX): Da Jornada ao Churn Zero e NRR Positivo)]]). Mas a relação entre vendas, e pós-venda, importa. Vendas que prometem o que o produto não entrega destroem CS, destroem renovação, e destroem reputação.
+**Pós-venda. Onboarding, depois expansion, depois renewal.** Customer Success leva daqui pra frente (ver [[#CAPÍTULO 8: CUSTOMER SUCCESS (CS) E CUSTOMER EXPERIENCE (CX): DA JORNADA À RETENÇÃO SUSTENTÁVEL E NRR ACIMA DE 100%|Capítulo 8 (Customer Success (CS) e Customer Experience (CX): Da Jornada ao Churn Zero e NRR Positivo)]]). Mas a relação entre vendas, e pós-venda, importa. Vendas que prometem o que o produto não entrega destroem CS, destroem renovação, e destroem reputação.
 
 #### Qualificação. BANT, MEDDIC, MEDDPICC
 
@@ -5517,7 +5518,7 @@ Enquanto qualquer guia introdutório de SaaS apresenta MRR, ARR, CAC e LTV, geri
 
 Churn é inimigo número um de subscription. Governança de churn é combinação de três frentes.
 
-**Prevenção antes do pedido de baixa (pré-churn).** Como detalharemos na engenharia de implantação e de *Health Score* do [[#CAPÍTULO 8: CUSTOMER SUCCESS (CS) E CUSTOMER EXPERIENCE (CX): DA JORNADA AO CHURN ZERO E NRR POSITIVO|Capítulo 8]], a retenção começa nos primeiros 15 a 30 dias ao guiar o usuário até a primeira vitória concreta e monitorar quedas de uso na plataforma para que o gerente de sucesso (CSM) intervenha antes que a conta decida sair.
+**Prevenção antes do pedido de baixa (pré-churn).** Como detalharemos na engenharia de implantação e de *Health Score* do [[#CAPÍTULO 8: CUSTOMER SUCCESS (CS) E CUSTOMER EXPERIENCE (CX): DA JORNADA À RETENÇÃO SUSTENTÁVEL E NRR ACIMA DE 100%|Capítulo 8]], a retenção começa nos primeiros 15 a 30 dias ao guiar o usuário até a primeira vitória concreta e monitorar quedas de uso na plataforma para que o gerente de sucesso (CSM) intervenha antes que a conta decida sair.
 
 **Retenção no momento do pedido (em-churn).** Calibre o fluxo de baixa conforme a natureza jurídica da relação. No B2B, o encerramento segue o aviso prévio contratual e passa por entrevista de diagnóstico com a equipe de pós-venda. Já no B2C, criar obstáculos artificiais para impedir a saída (*dark patterns*) viola o Código de Defesa do Consumidor (ver [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 7: DIREITO DO CONSUMIDOR E CDC PARA STARTUPS|Capítulo 7 do Vol. 8]]) e, para setores regulados pelo Executivo federal e serviços financeiros digitais, as regras do SAC (Decreto 11.034/2022, atualizado pelo Decreto 13.135/2026 com vigência a partir de novembro de 2026) exigem cancelamento imediato pelo mesmo canal de contratação: por isso, apresente alternativas de retenção (como pausa de 30 dias, migração para plano menor ou desconto temporário, que costumam reverter de 20% a 40% das baixas por preço) como opções transparentes de um clique, sem jamais bloquear o botão de encerramento.
 
@@ -5964,7 +5965,7 @@ Conceitos-chave:
 
 - Reservation value: ponto em que "sair" é melhor que "fechar".
 
-##### Aplicação imediata na rotina da empresa
+##### Roteiro de aplicação prática na operação
 
 Passo 1: Prepare (70% do resultado depende de preparação):
 
@@ -6038,7 +6039,7 @@ Metodologia que rejeita "win-win" como ingênuo e aplica **técnicas táticas em
 
 8. Black swans: 3 pedaços de informação que, se descobertos, mudam tudo, procurar ativamente.
 
-##### Protocolo prático de execução
+##### Aplicação imediata na rotina da empresa
 
 Passo 1: Preparação emocional tanto quanto racional.
 
@@ -6096,7 +6097,7 @@ Protocolo específico para sequência de **counter-offers** em negociação de p
 
 Entre cada oferta, **calibrated questions** e **pausas**: não só contra-oferta mecânica.
 
-##### Execução prática com a equipe
+##### Passos práticos de implantação
 
 Aplicado em compras/vendas que permitem multiple rounds (imóveis, equipamentos, serviços, freelance). Não aplicável a pricing de produto em massa.
 
@@ -6148,7 +6149,7 @@ Framework de 5 passos para negociar com pessoas difíceis:
 
 5. Use power to educate: se outro lado resiste completamente, demonstre custo de não acordo. Não ameaçar, educar sobre realidade.
 
-##### Protocolo prático de execução
+##### Aplicação imediata na rotina da empresa
 
 Respeite rigorosamente a sequência das cinco etapas: se você tentar educar pelo custo do impasse antes de controlar a própria reação e desarmar o interlocutor, a conversa degrada em confronto aberto. Na segunda-feira, escolha a negociação mais tensa da semana e escreva previamente uma frase para cada um dos cinco passos antes de entrar na sala.
 
@@ -6176,7 +6177,7 @@ Evite três desvios comuns no método de Ury: ameaçar sair da mesa cedo demais 
 
 ---
 
-## CAPÍTULO 8: CUSTOMER SUCCESS (CS) E CUSTOMER EXPERIENCE (CX): DA JORNADA AO CHURN ZERO E NRR POSITIVO
+## CAPÍTULO 8: CUSTOMER SUCCESS (CS) E CUSTOMER EXPERIENCE (CX): DA JORNADA À RETENÇÃO SUSTENTÁVEL E NRR ACIMA DE 100%
 
 ### Bombeiro de Chamado Não é Customer Success: A Engenharia do Primeiro Resultado Rápido
 
@@ -7231,7 +7232,7 @@ Instagram (caso global relevante). Começou como Burbn, app de geolocalização 
 
 **99 (Brasil):** fundada em 2012 como aplicativo exclusivo para chamada de táxis (99Taxis), a empresa ampliou sua arquitetura de oferta em 2016 ao lançar o 99POP com motoristas particulares, executando um pivô de solução e de oferta no lado do fornecedor do marketplace para competir no mercado amplo de mobilidade urbana.
 
-Loft (2018-2023): nasceu no modelo de *iBuying* intensivo em balanço (comprando, reformando e revendendo apartamentos com capital próprio) e executou um *business model pivot* para plataforma digital e marketplace de crédito e transações imobiliárias para imobiliárias parceiras quando os juros subiram. De modo análogo, a 99 expandiu em 2016 dos táxis para motoristas particulares com o 99POP.
+**Loft (Brasil, 2018-2023):** nasceu no modelo de *iBuying* intensivo em balanço (comprando, reformando e revendendo apartamentos com capital próprio) e executou um pivô de modelo de negócios para plataforma digital e marketplace de crédito e transações imobiliárias para imobiliárias parceiras quando o ciclo de juros subiu (caso detalhado no [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 10: LAYOFFS E DOWNSIZING: COMO DEMITIR EM ESCALA SEM DESTRUIR A EMPRESA|Capítulo 10]] e no [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 19: POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE|Capítulo 19 do Volume 9]], além do [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 34: RETAILTECH, E-COMMERCE, OMNICHANNEL, SOCIAL COMMERCE E DIGITALIZAÇÃO DO VAREJO FÍSICO|Capítulo 34 do Volume 10]]).
 
 **Movile (Brasil):** nascida na era dos serviços de mensageria e conteúdo cobrados diretamente na fatura das operadoras de telefonia (*carrier billing*), a empresa executou um pivô de canal e de modelo de negócios com a chegada dos smartphones, migrando para aplicativos distribuídos nas lojas digitais (App Store e Google Play) e consolidando um ecossistema de plataformas móveis e investimentos liderado pelo iFood.
 

@@ -896,6 +896,10 @@
     "newText": "O contrato de delegação cobre seis elementos: o quê (escopo claro da responsabilidade delegada), o resultado esperado (critério concreto de sucesso), o prazo (data de entrega e pontos de checagem intermediários), os recursos disponíveis (orçamento, pessoas, ferramentas e acessos liberados), a faixa de autonomia (o que a pessoa decide sozinha sem consulta prévia) e os gatilhos de escalação (o que exige alinhamento imediato com você antes da decisão)."
   },
   {
+    "line": 2248,
+    "newText": "Confundir desempenho atual com prontidão para o próximo cargo leva a dois erros simétricos: promover prematuramente quem bate metas técnicas mas ainda não demonstrou as competências do degrau seguinte, ou reter sem horizonte de crescimento quem já opera acima do próprio nível."
+  },
+  {
     "line": 2250,
     "newText": "A regra prática unificada do volume é direta: a promoção exige desempenho consistente no nível atual somado a pelo menos dois trimestres operando de forma comprovada nas responsabilidades do nível seguinte, com dossiê de evidências e calibração entre gestores (conforme o processo detalhado no Capítulo 4)."
   },
@@ -1300,6 +1304,10 @@
     "newText": "#### Princípios de DevEx externo para produtos consumidos por desenvolvedores"
   },
   {
+    "line": 2834,
+    "newText": "**Versionamento previsível e guias de migração:** documente de forma explícita o que mudou a cada versão da API, estabeleça janelas claras de descontinuação (*deprecation*) e publique roteiros passo a passo de atualização."
+  },
+  {
     "line": 2836,
     "newText": "Ferramentas de documentação técnica: plataformas como Mintlify, ReadMe e Stoplight aceleram a publicação interativa de APIs, enquanto equipes que exigem controle total sobre versionamento em Git costumam adotar Docusaurus personalizado."
   },
@@ -1308,8 +1316,16 @@
     "newText": "O principal indicador de ativação é o TTFHW (*Time To First Hello World*), que mede o tempo decorrido entre o cadastro do desenvolvedor e a primeira chamada de API concluída com sucesso: a meta de referência é entregar esse marco em poucos minutos, não em horas."
   },
   {
+    "line": 2852,
+    "newText": "**Tempo até o Primeiro Valor (*Time to First Value*, TTFV):** meça os minutos ou horas decorridos desde o cadastro do desenvolvedor até a primeira chamada de API concluída com sucesso em ambiente de testes."
+  },
+  {
+    "line": 2854,
+    "newText": "**Desenvolvedores Ativos Semanais (*Weekly Active Developers*, WAD):** acompanhe a evolução semanal de profissionais únicos integrando ou mantendo aplicações ativas sobre a plataforma."
+  },
+  {
     "line": 2859,
-    "newText": ""
+    "newText": "### Parte 2.2: Experiência do Desenvolvedor Interno (Internal DevEx) e Produtividade da Engenharia"
   },
   {
     "line": 2876,
@@ -1325,15 +1341,35 @@
   },
   {
     "line": 2883,
-    "newText": "#### 1. Como medir o peso real da dívida técnica no fluxo do time"
+    "newText": "#### 1. Como medir o peso real da dívida técnica na velocidade da equipe"
+  },
+  {
+    "line": 2885,
+    "newText": "**Indicadores quantitativos de fluxo:** acompanhe a evolução do número de defeitos abertos por ciclo e o tempo total necessário para colocar em produção uma alteração simples."
+  },
+  {
+    "line": 2886,
+    "newText": "**Pesquisa periódica de atrito da engenharia (*Engineering Time Survey*):** meça trimestralmente qual percentual da semana os desenvolvedores gastam contornando limitações legadas e apagando incêndios em vez de construir valor novo."
+  },
+  {
+    "line": 2887,
+    "newText": ""
   },
   {
     "line": 2889,
     "newText": "Combine os indicadores de fluxo e experiência (frameworks DORA e SPACE detalhados na Fase 17) com métricas diretas do estoque de dívida no repositório: arquivos que concentram a maioria dos defeitos e commits corretivos (*hotspots*), tempo gasto em manutenção não planejada e cobertura de testes nos módulos críticos."
   },
   {
+    "line": 2905,
+    "newText": "- **Bloqueador direto de roadmap (*blocker*):** módulos legados que impedem o lançamento de funcionalidades estratégicas do trimestre entram imediatamente no topo da fila de refatoração."
+  },
+  {
     "line": 2907,
     "newText": "**Risco regulatório, fiscal e de segurança:** mesmo que um módulo receba poucos commits no dia a dia (como o motor de conciliação bancária de Lucas ou o módulo de substituição tributária e NF-e de Rafael e Bia antes de uma mudança de regra), qualquer exposição a falhas de segurança, perda de dados ou exigências regulatórias coloca a refatoração no topo da fila."
+  },
+  {
+    "line": 2911,
+    "newText": "#### 4. Alocação disciplinada de capacidade para pagamento de dívida técnica"
   },
   {
     "line": 2914,
@@ -1344,12 +1380,24 @@
     "newText": "Ao negociar investimentos de plataforma com a diretoria ou o conselho, traduza a dívida técnica em horas de engenharia e impacto no negócio. Quando o investidor perguntou para onde estava indo o dinheiro dos 42 engenheiros, Lucas respondeu no trimestre seguinte com três números auditáveis (vazão de entregas 35% abaixo da meta, 4 horas de espera na suíte de testes e três dias de fila de revisão) e aprovou o plano de plataforma que devolveu 9.240 horas produtivas por ano."
   },
   {
+    "line": 2923,
+    "newText": "**Transparência de escolhas com a liderança e o conselho:** explicite sempre o compromisso entre velocidade de curto prazo e resiliência da plataforma para que a reserva de manutenção seja defendida como investimento operacional."
+  },
+  {
+    "line": 2924,
+    "newText": ""
+  },
+  {
     "line": 2930,
     "newText": "Revisão de código rigorosa: antes de aprovar o merge, avalie se a mudança introduz dívida técnica nova e registre o prazo de pagamento."
   },
   {
     "line": 2934,
     "newText": "Decisões de arquitetura registradas em ADRs (*Architecture Decision Records*), preservando o contexto e as alternativas descartadas."
+  },
+  {
+    "line": 2935,
+    "newText": "**Prevenção contínua na esteira de código:**"
   },
   {
     "line": 2936,
@@ -1477,7 +1525,7 @@
   },
   {
     "line": 3101,
-    "newText": "Antes de liberar agentes de código para o time, instale três travas técnicas no repositório: (1) arquivos de contexto versionados na raiz (`AGENTS.md`, `CLAUDE.md` ou `.cursor/rules`) com os padrões de arquitetura e segurança da empresa; (2) exigência de testes automatizados para qualquer bloco gerado por IA; e (3) verificações automáticas no CI/CD (análise estática SAST, varredura de segredos e limite de tamanho de PR), que teriam barrado os PRs gigantescos da equipe de Lucas."
+    "newText": "Antes de liberar agentes de código para toda a engenharia, rode um **piloto controlado de 4 semanas** em uma equipe-alvo, publique uma **política interna clara de uso de IA** (definindo quais ferramentas são homologadas e proibindo o envio de segredos ou dados pessoais de clientes a modelos externos sem contrato corporativo de retenção zero) e instale três travas técnicas no repositório: (1) arquivos de contexto versionados na raiz (`AGENTS.md`, `CLAUDE.md` ou `.cursor/rules`) com os padrões de arquitetura e segurança da empresa; (2) exigência de testes automatizados para qualquer bloco gerado por IA; e (3) verificações automáticas no CI/CD (análise estática SAST, varredura de segredos e limite de tamanho de PR), que teriam barrado os PRs gigantescos da equipe de Lucas."
   },
   {
     "line": 3107,
@@ -2033,7 +2081,7 @@
   },
   {
     "line": 3871,
-    "newText": "30-80 pessoas        Times de produto + funções    Autonomia de entrega sem criar matriz"
+    "newText": "30-80 pessoas        Squads de produto + funções   Autonomia de entrega sem criar matriz"
   },
   {
     "line": 3887,
@@ -2313,7 +2361,7 @@
   },
   {
     "line": 4399,
-    "newText": "### 5. Documentação de Produto e Arquitetura: PRD, One-Pager e Registro de Decisão (ADR)"
+    "newText": "### 5. Documentação de Produto e Arquitetura: PRD, Brief, One-Pager e Registro de Decisão (ADR)"
   },
   {
     "line": 4405,

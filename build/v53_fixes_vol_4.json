@@ -137,7 +137,7 @@
   },
   {
     "line": 244,
-    "newText": "> Para cada experimento que o time planeja lançar, revise o [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#Canvas: MVP Canvas (Tristan Kromer)|Canvas: MVP Canvas (Vol. 3)]] em 30 a 45 minutos antes de escrever código: qual é a **hipótese central** falsificável, quem forma o **segmento restrito do teste** (como os 12 diretores financeiros do piloto de Lucas e Marina), qual é o **formato mínimo** capaz de testar a premissa e qual é o **critério numérico de invalidação**. O caso da Wildlife Studios (Fase 9, Vol. 3) mostra como a definição precisa do público, restrita aos jogadores de gasto moderado (*moderate spenders*), produziu evidência limpa para expandir a funcionalidade a toda a base."
+    "newText": "> Para cada experimento que o time planeja lançar, revise o [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#Canvas: MVP Canvas (Tristan Kromer e Paulo Caroli)|Canvas: MVP Canvas (Vol. 3)]] (sistematizado por Tristan Kromer e por Paulo Caroli em *Lean Inception*, 2015) em 30 a 45 minutos antes de escrever código: qual é a **hipótese central** falsificável, quem forma o **segmento restrito do teste** (como os 12 diretores financeiros do piloto de Lucas e Marina), qual é o **formato mínimo** capaz de testar a premissa e qual é o **critério numérico de invalidação**. O caso da Wildlife Studios (Fase 9, Vol. 3) mostra como a definição precisa do público, restrita aos jogadores de gasto moderado (*moderate spenders*), produziu evidência limpa para expandir a funcionalidade a toda a base."
   },
   {
     "line": 252,
@@ -345,7 +345,7 @@
   },
   {
     "line": 525,
-    "newText": "### Tabela de referência única: métricas e patamares da Fase 11"
+    "newText": "### Tabela de referência única: métricas e patamares de saída da Fase 11"
   },
   {
     "line": 532,
@@ -545,7 +545,7 @@
   },
   {
     "line": 845,
-    "newText": "Use o Pirate Canvas nesta Fase 11 (MVP e primeiros usuários) como estrutura de instrumentação das métricas iniciais, implantando-o antes de colocar o produto no ar. Após confirmar o PMF, revise-o mensalmente como painel de saúde do funil para localizar a etapa de maior perda e concentrar nela os experimentos do ciclo seguinte; já na Fase 15 (Vol. 6, máquina de crescimento e escala), ele orienta a divisão do orçamento entre aquisição, ativação e retenção."
+    "newText": "Use o Pirate Canvas nesta Fase 11 (MVP e primeiros usuários) como estrutura de instrumentação das métricas iniciais, implantando-o antes de colocar o produto no ar. Após confirmar o PMF na Fase 13, revise-o mensalmente como painel de saúde do funil para localizar a etapa de maior perda e concentrar nela os experimentos do ciclo seguinte; já na Fase 15 (Vol. 6, máquina de crescimento e escala), ele orienta a divisão do orçamento entre aquisição, ativação e retenção."
   },
   {
     "line": 849,
@@ -1609,7 +1609,7 @@
   },
   {
     "line": 1892,
-    "newText": "    subgraph SCALE[\"Escala<br/>(Fase 14)\"]"
+    "newText": "    subgraph SCALE[\"Escala<br/>(Fases 14 a 16)\"]"
   },
   {
     "line": 1896,
@@ -2274,6 +2274,10 @@
   {
     "line": 3554,
     "newText": "2. O seu tíquete anual por cliente (ACV) comporta o custo do seu movimento comercial (deixando planos de entrada como R$ 149/mês no autoatendimento e reservando reuniões de vendas para tíquetes como R$ 1.490/mês), e você já concentra de 70% a 80% do orçamento no canal validado pelo método *Bullseye* em vez de pulverizar verba em cinco canais ao mesmo tempo?"
+  },
+  {
+    "line": 3555,
+    "newText": "3. Se você gravar a sua melhor reunião de vendas hoje, um vendedor novo conseguiria reproduzir o mesmo roteiro de perguntas na semana que vem?\n4. Se o seu produto possui camada de autoatendimento (*Product-Led Growth*), você já monitora os sinais objetivos de uso que transformam uma conta gratuita em oportunidade comercial qualificada (*Product-Qualified Lead*, PQL) para abordagem consultiva?"
   },
   {
     "line": 3583,
@@ -3221,7 +3225,7 @@
   },
   {
     "line": 6164,
-    "newText": "## CAPÍTULO 8 — CUSTOMER SUCCESS (CS) E CUSTOMER EXPERIENCE (CX): DA JORNADA AO CHURN ZERO E NRR POSITIVO"
+    "newText": "## CAPÍTULO 8: CUSTOMER SUCCESS (CS) E CUSTOMER EXPERIENCE (CX): DA JORNADA À RETENÇÃO SUSTENTÁVEL E NRR ACIMA DE 100%"
   },
   {
     "line": 6168,
@@ -3574,6 +3578,10 @@
   {
     "line": 7209,
     "newText": "**99 (Brasil):** fundada em 2012 como aplicativo exclusivo para chamada de táxis (99Taxis), a empresa ampliou sua arquitetura de oferta em 2016 ao lançar o 99POP com motoristas particulares, executando um pivô de solução e de oferta no lado do fornecedor do marketplace para competir no mercado amplo de mobilidade urbana."
+  },
+  {
+    "line": 7211,
+    "newText": "**Loft (Brasil, 2018-2023):** nasceu no modelo de *iBuying* intensivo em balanço (comprando, reformando e revendendo apartamentos com capital próprio) e executou um pivô de modelo de negócios para plataforma digital e marketplace de crédito e transações imobiliárias para imobiliárias parceiras quando o ciclo de juros subiu (caso detalhado no [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 10: CRISE, TURNAROUND, PIVÔ TARDIO E SHUTDOWN DIGNO|Capítulo 10]] e no [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 19: LIÇÕES DE QUEM QUEBROU NO BRASIL: ANATOMIA DE FRACASSOS REAIS|Capítulo 19 do Volume 9]], além do [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 34: PROPTECH E CONSTRUTECH|Capítulo 34 do Volume 10]])."
   },
   {
     "line": 7213,

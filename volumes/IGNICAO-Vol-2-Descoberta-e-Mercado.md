@@ -353,7 +353,7 @@ Faça sínteses parciais a cada lote de cinco entrevistas para calibrar o roteir
 > O [[#Template: Síntese de Rodada de Entrevistas (decisão de avanço)|Template: Síntese de Rodada de Entrevistas (decisão de avanço)]] é o artefato dessa consolidação. Faça uma revisão parcial a cada lote de cinco entrevistas para checar padrões, mas feche o veredito definitivo apenas quando a rodada inteira de 15 a 20 conversas terminar: encerrar o julgamento antes do fim enviesa a escuta nas entrevistas restantes. A Síntese de Rodada registra a decisão entre perseverar, pivotar o problema, pivotar o segmento de cliente ou encerrar a tese.
 
 > [!note] Registre nos templates dos Passos 6 e 7 a sequência cronológica das etapas que o entrevistado percorre hoje para contornar o problema
-> Enquanto o Mom Test captura incidentes isolados, o [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 8: CUSTOMER SUCCESS (CS) E CUSTOMER EXPERIENCE (CX): DA JORNADA AO CHURN ZERO E NRR POSITIVO|Capítulo 8: Customer Experience (Vol. 4)]] oferece a visão de jornada completa, do momento de consciência do problema ao pós-resolução, incluindo métricas de NPS e churn preditivo. Usar a jornada como mapa mental durante a síntese das entrevistas ajuda a localizar em qual etapa a dor é mais aguda.
+> Enquanto o Mom Test captura incidentes isolados, o [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 8: CUSTOMER SUCCESS (CS) E CUSTOMER EXPERIENCE (CX): DA JORNADA À RETENÇÃO SUSTENTÁVEL E NRR ACIMA DE 100%|Capítulo 8: Customer Experience (Vol. 4)]] oferece a visão de jornada completa, do momento de consciência do problema ao pós-resolução, incluindo métricas de NPS e churn preditivo. Usar a jornada como mapa mental durante a síntese das entrevistas ajuda a localizar em qual etapa a dor é mais aguda.
 
 > [!tip] Da síntese ao Customer Profile (Value Proposition Canvas)
 > Ao sintetizar as entrevistas, o **Customer Profile** do [[#Canvas: Value Proposition Canvas (Alexander Osterwalder, 2014)|Canvas: Value Proposition Canvas (Alexander Osterwalder, 2014)]], Jobs (o que o cliente está tentando fazer), Pains (frustrações no caminho), Gains (resultados desejados), é o frame visual exato para organizar o que as entrevistas Mom Test capturaram. Use depois da síntese qualitativa para preparar a [[#FASE 5: PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY)|Fase 5]] (JTBD).
@@ -1862,7 +1862,7 @@ Para cada subgrupo pesquisado, mapeie na linha do tempo a jornada atual do probl
 > Ao mapear a jornada do problema (antes de existir o seu produto), comece alguns passos antes do momento em que a sua ferramenta entraria: por exemplo, no caso de Fábio, dono de padaria artesanal que conheceremos adiante, a jornada da ruptura começa na conferência visual do depósito de farinha na segunda-feira, passa pelo áudio de alerta do gerente às 7h e pela cotação apressada no WhatsApp e termina na compra emergencial com ágio de 15%.
 
 > [!note] O Mapa da Jornada do Cliente na retenção pós-lançamento
-> O [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 8: CUSTOMER SUCCESS (CS) E CUSTOMER EXPERIENCE (CX): DA JORNADA AO CHURN ZERO E NRR POSITIVO|Capítulo 8: Customer Success (CS) e Customer Experience (CX): Da Jornada ao Churn Zero e NRR Positivo (Vol. 4)]] mostra como esta jornada de descoberta evolui para instrumento contínuo de ativação, retenção e expansão depois do lançamento.
+> O [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 8: CUSTOMER SUCCESS (CS) E CUSTOMER EXPERIENCE (CX): DA JORNADA À RETENÇÃO SUSTENTÁVEL E NRR ACIMA DE 100%|Capítulo 8: Customer Success (CS) e Customer Experience (CX): Da Jornada ao Churn Zero e NRR Positivo (Vol. 4)]] mostra como esta jornada de descoberta evolui para instrumento contínuo de ativação, retenção e expansão depois do lançamento.
 
 
 > [!tip] Customer Journey Canvas e VPC como entregáveis visuais
@@ -3638,9 +3638,9 @@ Score quatro sobre seis. A cunha é viável, mas duas dimensões precisam de val
 
 **Contraste: a cunha da Stone dentro de um mercado amplo (2014-2018).** Embora o mercado brasileiro de adquirência atendesse milhões de lojistas, a Stone recortou sua entrada em dimensões operacionais muito claras: pequenos e médios comerciantes mal atendidos pelos grandes adquirentes bancários, começando pelas capitais (Rio de Janeiro e São Paulo) com ativação rápida, transparência na conciliação de taxas e suporte humano imediato. Como documenta o prospecto de IPO da companhia (F-1, 2018), a defesa competitiva nasceu da distribuição hiperlocal por meio de polos operacionais próprios (*Stone Hubs*) e agentes comerciais e técnicos em campo (*Green Angels*), estrutura que os incumbentes apoiados em agências bancárias generalistas não conseguiam replicar rapidamente. Enquanto a PadariaPro ilustra uma cunha de nicho setorial estreito, a Stone demonstra que a cunha também pode ser um recorte de nível de serviço dentro de um mercado amplo, sustentado por uma operação difícil de copiar.
 
-### As mentiras do cálculo Top-Down e a covardia estratégica de não querer excluir ninguém
+### As armadilhas do cálculo Top-Down e a covardia estratégica de não querer excluir ninguém
 
-"Não tenho concorrentes." Você tem. Mesmo que seja o Excel, o papel e caneta, ou "a pessoa faz sozinha". Não reconhecer isso cria falsa sensação de oportunidade.
+**Achar que "não tem concorrentes" e ter medo de excluir segmentos (covardia estratégica no ICP):** primeiro, você sempre tem concorrentes, mesmo que a alternativa atual do cliente seja uma planilha de Excel combinada ao WhatsApp ou fazer a tarefa manualmente, segundo, recusar-se a excluir segmentos do seu ICP por medo de reduzir o TAM no papel dilui a mensagem comercial e impede a conquista da cunha inicial.
 
 Confundir market size com oportunidade. Um mercado de R$ 10 bilhões pode ser péssimo negócio se dominado por dois gigantes bem-financiados. E um nicho de R$ 50 milhões pode ser ótimo se ignorado e você capturar vinte por cento.
 
@@ -4050,7 +4050,7 @@ Oportunidades (O):
 
 Ameaças (T):
 
-- Possível entrada de plataformas internacionais de gestão de despesas corporativas (*spend management*) no mercado brasileiro ou avanço dos grandes bancos no segmento.
+- Entrada agressiva de plataformas internacionais de gestão de despesas corporativas (*spend management*) no mercado brasileiro ou reação comercial dos grandes bancos incumbentes.
 - Banco Central restringindo novas licenças de IP.
 - Competição direta de fintechs de gestão de despesas corporativas já capitalizadas (como Clara e Conta Simples) e reação dos cartões empresariais dos grandes bancos.
 
@@ -6017,7 +6017,7 @@ Síntese de casos recorrentes de governança no Brasil (em que disputas societá
 
 Cinco sinais denunciam dependência excessiva da figura do fundador: (1) nenhuma decisão operacional relevante avança sem o aval pessoal dele, (2) os líderes de área atuam apenas como repassadores de tarefas, (3) somente o CEO compreende a estratégia completa do negócio, (4) investidores, parceiros e grandes contas recusam tratar com qualquer outra pessoa da empresa, e (5) a cultura interna resume-se ao improviso diário do fundador, sem processos documentados.
 
-Uma empresa dependente de um único tomador de decisão é muito mais frágil do que sua curva de receita aparenta. A proteção exige formar lideranças complementares, documentar a estratégia e distribuir o relacionamento com grandes clientes e investidores. Esses três mecanismos são detalhados no [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 2: SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Capítulo 2: Saúde Mental, Dinâmica de Cofundadores e Humanidade do Fundador (Vol. 1)]], no [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9: GESTÃO DE CRISE, CONTINUIDADE OPERACIONAL E COMUNICAÇÃO CRÍTICA|Capítulo 9: Gestão de Crise, Continuidade Operacional e Comunicação Crítica (Vol. 9)]] e na [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16: TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16: Time, Liderança Executiva e Cultura em Escala (Vol. 6)]].
+Uma empresa dependente de um único tomador de decisão é muito mais frágil do que sua curva de receita aparenta. A proteção exige formar lideranças complementares, documentar a estratégia e distribuir o relacionamento com grandes clientes e investidores. Esses três mecanismos são detalhados no [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 2: SAÚDE MENTAL, DINÂMICA DE COFUNDADORES E HUMANIDADE DO FUNDADOR|Capítulo 2: Saúde Mental, Dinâmica de Cofundadores e Humanidade do Fundador (Vol. 1)]], no [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9: GESTÃO DE CRISE, CONTINUIDADE OPERACIONAL E COMUNICAÇÃO CRÍTICA|Capítulo 9: Gestão de Crise, Continuidade Operacional e Comunicação Crítica (Vol. 9)]] e na [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16: TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16: Time, Liderança Executiva e Cultura em Escala (Vol. 6)]].
 
 > [!question] Teste
 > Se você sumir por sessenta dias (férias longas, saúde, qualquer coisa), a empresa para? Degrada? Continua? A resposta "continua" significa que a fundação é saudável. "Para" significa risco estrutural.

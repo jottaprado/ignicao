@@ -2249,7 +2249,7 @@ O ladder não precisa ter cinco ou seis níveis para funcionar. Um ladder com qu
 
 Desempenho é o que a pessoa entrega agora, contra expectativas do nível atual. Potencial é a velocidade e o teto até onde ela pode crescer.
 
-A separação importa porque confundir os dois leva a dois erros opostos. O primeiro é promover quem entrega consistentemente sem checar se tem capacidade para o próximo nível. Resultado: a pessoa fica em posição para a qual não tem as competências ainda necessárias. O segundo é não promover quem mostra alto potencial porque o desempenho ainda não está no nível do próximo degrau. Resultado: a empresa perde a pessoa para outra que vai apostar nela.
+Confundir desempenho atual com prontidão para o próximo cargo leva a dois erros simétricos: promover prematuramente quem bate metas técnicas mas ainda não demonstrou as competências do degrau seguinte, ou reter sem horizonte de crescimento quem já opera acima do próprio nível.
 
 A regra prática unificada do volume é direta: a promoção exige desempenho consistente no nível atual somado a pelo menos dois trimestres operando de forma comprovada nas responsabilidades do nível seguinte, com dossiê de evidências e calibração entre gestores (conforme o processo detalhado no Capítulo 4).
 
@@ -2836,7 +2836,7 @@ API reference completo. Todos os endpoints, parâmetros, respostas, e códigos d
 
 Exemplos executáveis. Playgrounds, sandboxes, e Postman collections.
 
-Versioning claro. O que mudou entre versões. Deprecations com prazo. Migration guides.
+**Versionamento previsível e guias de migração:** documente de forma explícita o que mudou a cada versão da API, estabeleça janelas claras de descontinuação (*deprecation*) e publique roteiros passo a passo de atualização.
 
 Ferramentas de documentação técnica: plataformas como Mintlify, ReadMe e Stoplight aceleram a publicação interativa de APIs, enquanto equipes que exigem controle total sobre versionamento em Git costumam adotar Docusaurus personalizado.
 
@@ -2854,14 +2854,14 @@ DX é disciplina mensurável.
 
 O principal indicador de ativação é o TTFHW (*Time To First Hello World*), que mede o tempo decorrido entre o cadastro do desenvolvedor e a primeira chamada de API concluída com sucesso: a meta de referência é entregar esse marco em poucos minutos, não em horas.
 
-TTFV (Time To First Value). Tempo do signup, até a primeira integração produtiva (Dias). Não semanas.
+**Tempo até o Primeiro Valor (*Time to First Value*, TTFV):** meça os minutos ou horas decorridos desde o cadastro do desenvolvedor até a primeira chamada de API concluída com sucesso em ambiente de testes.
 
-Weekly Active Developers (WAD). Developers únicos ativos por semana.
+**Desenvolvedores Ativos Semanais (*Weekly Active Developers*, WAD):** acompanhe a evolução semanal de profissionais únicos integrando ou mantendo aplicações ativas sobre a plataforma.
 
 Ticket volume por MAU. Volume de support tickets, dividido por Monthly Active Users. Baixo é bom. Alto indica documentação, ou produto, ruim.
 
 Developer NPS. Pesquisa direta com developers. Benchmark global. Trinta ou mais é bom. Cinquenta ou mais é excelente.
-
+### Parte 2.2: Experiência do Desenvolvedor Interno (Internal DevEx) e Produtividade da Engenharia
 #### DX interno
 
 Se os seus próprios engineers gastam horas por dia contornando a complexidade interna do seu produto, a produtividade cai linearmente. Sinais de DX interno ruim.
@@ -2885,11 +2885,11 @@ Débito técnico sobrepondo a qualquer feature nova.
 
 ### Parte 3: Gestão Disciplinada de Dívida Técnica: Medição, Alocação e Prevenção
 
-#### 1. Como medir o peso real da dívida técnica no fluxo do time
+#### 1. Como medir o peso real da dívida técnica na velocidade da equipe
 
-Quantitativo: número de tickets de bug por sprint e tempo necessário para colocar no ar uma funcionalidade simples.
+**Indicadores quantitativos de fluxo:** acompanhe a evolução do número de defeitos abertos por ciclo e o tempo total necessário para colocar em produção uma alteração simples.
+**Pesquisa periódica de atrito da engenharia (*Engineering Time Survey*):** meça trimestralmente qual percentual da semana os desenvolvedores gastam contornando limitações legadas e apagando incêndios em vez de construir valor novo.
 
-Engineering Time Survey. Percentual de tempo em "necessário, mas não agrega valor" (manutenção, e workarounds).
 
 Combine os indicadores de fluxo e experiência (frameworks DORA e SPACE detalhados na Fase 17) com métricas diretas do estoque de dívida no repositório: arquivos que concentram a maioria dos defeitos e commits corretivos (*hotspots*), tempo gasto em manutenção não planejada e cobertura de testes nos módulos decisivos.
 
@@ -2907,13 +2907,13 @@ Dívida inadvertida ou por evolução de contexto (no quadrante de Martin Fowler
 
 High frequency vezes high cost. Pagar primeiro. Code path mexido diariamente, com custo alto de mudança.
 
-**Blocker:** Bloqueia features planejadas.
+- **Bloqueador direto de roadmap (*blocker*):** módulos legados que impedem o lançamento de funcionalidades estratégicas do trimestre entram imediatamente no topo da fila de refatoração.
 
 **Risco regulatório, fiscal e de segurança:** mesmo que um módulo receba poucos commits no dia a dia (como o motor de conciliação bancária de Lucas ou o módulo de substituição tributária e NF-e de Rafael e Bia antes de uma mudança de regra), qualquer exposição a falhas de segurança, perda de dados ou exigências regulatórias coloca a refatoração no topo da fila.
 
 Low frequency vezes low cost (Aceitar). Não pagar.
 
-#### 4. Alocação de capacity
+#### 4. Alocação disciplinada de capacidade para pagamento de dívida técnica
 
 > [!important] Regra dos vinte por cento
 > Reserve 20% da capacidade de engenharia como regra padrão para abater dívida técnica e manter a saúde da plataforma, calibrando a faixa entre 15% e 25% conforme a criticidade do mapa de calor (os 20% verificados no Ritual de Segunda-Feira representam exatamente essa fatia protegida em cada sprint). Operar abaixo de 15% por mais de dois trimestres seguidos cobra a conta entre seis e doze meses depois na forma de lentidão crônica e incidentes.
@@ -2925,8 +2925,8 @@ Rewrite versus refactor. Reescrita raramente justifica custo. Refactor increment
 #### 5. Comunicação ao board
 
 Ao negociar investimentos de plataforma com a diretoria ou o conselho, traduza a dívida técnica em horas de engenharia e impacto no negócio. Quando o investidor perguntou para onde estava indo o dinheiro dos 42 engenheiros, Lucas respondeu no trimestre seguinte com três números auditáveis (vazão de entregas 35% abaixo da meta, 4 horas de espera na suíte de testes e três dias de fila de revisão) e aprovou o plano de plataforma que devolveu 9.240 horas produtivas por ano.
+**Transparência de escolhas com a liderança e o conselho:** explicite sempre o compromisso entre velocidade de curto prazo e resiliência da plataforma para que a reserva de manutenção seja defendida como investimento operacional.
 
-Tradeoff explícito. Features de produto, versus pagamento de debt. O board precisa saber.
 
 KPIs. Deployment frequency, MTTR, e percentual de tempo em features versus manutenção.
 
@@ -2937,7 +2937,7 @@ Revisão de código rigorosa: antes de aprovar o merge, avalie se a mudança int
 Automated testing. Regression prevention.
 
 Decisões de arquitetura registradas em ADRs (*Architecture Decision Records*), preservando o contexto e as alternativas descartadas.
-
+**Prevenção contínua na esteira de código:**
 Refatoração contínua em pequenos lotes (*Boy Scout Rule*: deixar o módulo mais limpo do que o encontrou a cada entrega).
 
 ---
@@ -3103,7 +3103,7 @@ Infraestrutura self-hosted (tier 4). Apenas empresas com fortes restrições de 
 
 ### Playbook de Adoção Segura: Arquivos de Contexto, Testes Obrigatórios e Travas no CI/CD
 
-Antes de liberar agentes de código para o time, instale três travas técnicas no repositório: (1) arquivos de contexto versionados na raiz (`AGENTS.md`, `CLAUDE.md` ou `.cursor/rules`) com os padrões de arquitetura e segurança da empresa, (2) exigência de testes automatizados para qualquer bloco gerado por IA, e (3) verificações automáticas no CI/CD (análise estática SAST, varredura de segredos e limite de tamanho de PR), que teriam barrado os PRs gigantescos da equipe de Lucas.
+Antes de liberar agentes de código para toda a engenharia, rode um **piloto controlado de 4 semanas** em uma equipe-alvo, publique uma **política interna clara de uso de IA** (definindo quais ferramentas são homologadas e proibindo o envio de segredos ou dados pessoais de clientes a modelos externos sem contrato corporativo de retenção zero) e instale três travas técnicas no repositório: (1) arquivos de contexto versionados na raiz (`AGENTS.md`, `CLAUDE.md` ou `.cursor/rules`) com os padrões de arquitetura e segurança da empresa, (2) exigência de testes automatizados para qualquer bloco gerado por IA, e (3) verificações automáticas no CI/CD (análise estática SAST, varredura de segredos e limite de tamanho de PR), que teriam barrado os PRs gigantescos da equipe de Lucas.
 
 #### Etapa 1: diagnóstico (mês 1)
 
@@ -3778,7 +3778,7 @@ O fundador que estrutura o ciclo completo de gestão de pessoas e desenho organi
 
 - Capítulo 7 (este capítulo): desenho organizacional e estrutura de times
 - [[#CAPÍTULO 8: GESTÃO DO CONHECIMENTO|Capítulo 8 (Gestão do Conhecimento)]], gestão do conhecimento
-- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 15: REMOTE, HYBRID E DISTRIBUÍDO COMO DISCIPLINA|Capítulo 15 (Remote, Hybrid e Distribuído como Disciplina) (Vol. 6)]], remoto e híbrido
+- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 15: TRABALHO REMOTO, HÍBRIDO E DISTRIBUÍDO COMO DISCIPLINA|Capítulo 15 (Remote, Hybrid e Distribuído como Disciplina) (Vol. 6)]], remoto e híbrido
 
 **Pagar e medir**
 
@@ -3803,7 +3803,7 @@ O fundador que estrutura o ciclo completo de gestão de pessoas e desenho organi
 - [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 8: FOUNDER MODE, DELEGAÇÃO, GESTÃO DE TEMPO E CADÊNCIA OPERACIONAL DO CEO|Capítulo 8 (Founder Mode, Delegação, Gestão de Tempo e Cadência Operacional do CEO) (Vol. 6)]], founder mode, delegação e cadência operacional
 
 - [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 1: DINHEIRO PESSOAL DO FUNDADOR|Capítulo 1 (Dinheiro Pessoal do Fundador) (Vol. 1)]], dinheiro pessoal
-- [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 2: SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Capítulo 2 (Saúde Mental, Dinâmica de Cofundadores e Humanidade do Fundador) (Vol. 1)]], saúde mental e relação entre cofundadores
+- [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 2: SAÚDE MENTAL, DINÂMICA DE COFUNDADORES E HUMANIDADE DO FUNDADOR|Capítulo 2 (Saúde Mental, Dinâmica de Cofundadores e Humanidade do Fundador) (Vol. 1)]], saúde mental e relação entre cofundadores
 
 **Comunicação** (seis capítulos, com mapa de delimitação próprio em cada um)
 
@@ -3881,7 +3881,7 @@ Popularizado pelo artigo de Henrik Kniberg e Anders Ivarsson (2012) e pelos víd
 Estágio              Modelo recomendado            Razão operacional
 -------------------  ----------------------------  --------------------------------------
 1-30 pessoas         Funcional enxuto (flat)       Custo de coordenação direta é baixo
-30-80 pessoas        Times de produto + funções    Autonomia de entrega sem criar matriz
+30-80 pessoas        Squads de produto + funções   Autonomia de entrega sem criar matriz
                      compartilhadas (sem tribos)   pesada de chapters/tribos prematuros
 80-150 pessoas       Squads + platform team enxuto Padroniza infraestrutura repetitiva
 150+ pessoas         Divisional + plataforma       Complexidade exige fronteiras formais
@@ -3913,7 +3913,7 @@ Cada camada adicional na hierarquia tem custos que não aparecem no organograma:
 > [!tip] Regra prática de camadas por tamanho
 > Empresas de até 50 pessoas funcionam bem com 2 camadas (CEO e líderes de área). Empresas de 50 a 150 pessoas raramente precisam de mais de 3 camadas. Empresas de 150 a 500 pessoas chegam a 4. Cada camada acima desse referencial exige justificativa operacional explícita demonstrando qual gargalo real de coordenação ela resolve.
 
-O *span* ótimo varia conforme o time é presencial, híbrido ou totalmente distribuído. Para a disciplina de trabalho remoto e híbrido, ver [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 15: REMOTE, HYBRID E DISTRIBUÍDO COMO DISCIPLINA|Capítulo 15 (Remote, Hybrid e Distribuído como Disciplina) (Vol. 6)]].
+O *span* ótimo varia conforme o time é presencial, híbrido ou totalmente distribuído. Para a disciplina de trabalho remoto e híbrido, ver [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 15: TRABALHO REMOTO, HÍBRIDO E DISTRIBUÍDO COMO DISCIPLINA|Capítulo 15 (Remote, Hybrid e Distribuído como Disciplina) (Vol. 6)]].
 
 #### Quando criar nova camada
 
@@ -4097,13 +4097,13 @@ A Consolidação das Leis do Trabalho cria obrigações específicas para trabal
 
 Os pontos mais relevantes para startups:
 
-- **Controle de jornada**: desde a Lei 14.442/2022 (CLT, art. 62, III, e art. 75-B, § 3º), apenas o teletrabalho contratado por produção ou por tarefa fica dispensado de marcação de ponto, a modalidade por jornada exige controle formal e pagamento de horas extras (ver [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 15: REMOTE, HYBRID E DISTRIBUÍDO COMO DISCIPLINA|Volume 6, Capítulo 15 (Remote, Hybrid e Distribuído como Disciplina)]]). Por isso, defina por escrito a modalidade de cada contrato e lembre que o registro de ponto é obrigatório para estabelecimentos com mais de 20 empregados (art. 74, § 2º, da CLT).
+- **Controle de jornada**: desde a Lei 14.442/2022 (CLT, art. 62, III, e art. 75-B, § 3º), apenas o teletrabalho contratado por produção ou por tarefa fica dispensado de marcação de ponto, a modalidade por jornada exige controle formal e pagamento de horas extras (ver [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 15: TRABALHO REMOTO, HÍBRIDO E DISTRIBUÍDO COMO DISCIPLINA|Volume 6, Capítulo 15 (Remote, Hybrid e Distribuído como Disciplina)]]). Por isso, defina por escrito a modalidade de cada contrato e lembre que o registro de ponto é obrigatório para estabelecimentos com mais de 20 empregados (art. 74, § 2º, da CLT).
 - **Fornecimento de equipamentos e reembolso de despesas**: o art. 75-D da CLT determina que as disposições relativas à responsabilidade pela aquisição, manutenção ou fornecimento dos equipamentos tecnológicos e da infraestrutura necessária ao trabalho remoto, bem como ao reembolso de despesas arcadas pelo empregado, sejam previstas em contrato escrito. Como transferir o risco e o custo da atividade econômica ao trabalhador esbarra no art. 2º da CLT, formalize a entrega do equipamento em comodato e valide a ajuda de custo mensal (de natureza indenizatória quando comprovada) com advogado trabalhista.
-- **Aditivo contratual e ergonomia (arts. 75-C e 75-E da CLT)**: a transição do regime presencial para o teletrabalho exige mútuo acordo registrado em aditivo contratual, acompanhado de instrução expressa e termo de responsabilidade sobre ergonomia e prevenção de doenças ocupacionais (veja o modelo operacional completo no [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 15: REMOTE, HYBRID E DISTRIBUÍDO COMO DISCIPLINA|Volume 6, Capítulo 15]]).
+- **Aditivo contratual e ergonomia (arts. 75-C e 75-E da CLT)**: a transição do regime presencial para o teletrabalho exige mútuo acordo registrado em aditivo contratual, acompanhado de instrução expressa e termo de responsabilidade sobre ergonomia e prevenção de doenças ocupacionais (veja o modelo operacional completo no [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 15: TRABALHO REMOTO, HÍBRIDO E DISTRIBUÍDO COMO DISCIPLINA|Volume 6, Capítulo 15]]).
 - **Adicional de insalubridade**: para trabalho em casa, o risco de adicional de insalubridade é baixo, mas não zero: especialmente para atividades que envolvem exposição a substâncias ou equipamentos específicos.
 
 > [!warning] O passivo oculto do "remoto informal"
-> Operar em regime remoto ou híbrido na prática mantendo contratos antigos de trabalho presencial gera passivo trabalhista imediato: alinhe os aditivos contratuais e os rituais de comunicação assíncrona seguindo as diretrizes do [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 15: REMOTE, HYBRID E DISTRIBUÍDO COMO DISCIPLINA|Volume 6, Capítulo 15]].
+> Operar em regime remoto ou híbrido na prática mantendo contratos antigos de trabalho presencial gera passivo trabalhista imediato: alinhe os aditivos contratuais e os rituais de comunicação assíncrona seguindo as diretrizes do [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 15: TRABALHO REMOTO, HÍBRIDO E DISTRIBUÍDO COMO DISCIPLINA|Volume 6, Capítulo 15]].
 
 #### O que as melhores startups brasileiras fazem
 
@@ -4187,7 +4187,7 @@ Série C+       Reorganização foi evitada ou executada com plano de 6 meses?
 - [[#Fase 17: Operações, Processos e Gestão em Escala|Blocos do Modelo Spotify, RACI e Mapeamento de Processos na Fase 17 (neste volume)]]
 - [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 8: FOUNDER MODE, DELEGAÇÃO, GESTÃO DE TEMPO E CADÊNCIA OPERACIONAL DO CEO|Capítulo 8 (Founder Mode, Delegação, Gestão de Tempo e Cadência Operacional do CEO) (Vol. 6)]], operating cadence e OKRs
 - [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 13: CULTURA COMO DISCIPLINA E EM SITUAÇÕES CRÍTICAS (HIPERCRESCIMENTO, M&A E REMOTO)|Capítulo 13 (Cultura como Disciplina e em Situações Críticas (Hipercrescimento, M&A e Remoto)) (Vol. 6)]], cultura organizacional
-- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 15: REMOTE, HYBRID E DISTRIBUÍDO COMO DISCIPLINA|Capítulo 15 (Remote, Hybrid e Distribuído como Disciplina) (Vol. 6)]], remoto e hybrid afetam span
+- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 15: TRABALHO REMOTO, HÍBRIDO E DISTRIBUÍDO COMO DISCIPLINA|Capítulo 15 (Remote, Hybrid e Distribuído como Disciplina) (Vol. 6)]], remoto e hybrid afetam span
 - [[#CAPÍTULO 4: ENGINEERING MANAGEMENT, DEVELOPER EXPERIENCE E GESTÃO DE DÍVIDA TÉCNICA|Capítulo 4 (Engineering Management, Developer Experience e Gestão de Dívida Técnica)]], engineering management
 - [[#CAPÍTULO 8: GESTÃO DO CONHECIMENTO|Capítulo 8 (Gestão do Conhecimento)]], gestão do conhecimento
 - [[#CAPÍTULO 9: COMUNICAÇÃO INTERNA|Capítulo 9 (Comunicação Interna)]], comunicação interna em escala
@@ -4415,7 +4415,7 @@ A avaliação formal de 90 dias combina o resultado prático entregue à capacid
 
 ---
 
-### 5. Documentação de Produto e Arquitetura: PRD, One-Pager e Registro de Decisão (ADR)
+### 5. Documentação de Produto e Arquitetura: PRD, Brief, One-Pager e Registro de Decisão (ADR)
 
 Times de produto produzem diferentes tipos de documentação para diferentes propósitos. A confusão sobre quando usar cada formato gera dois problemas opostos: excesso de documentação onde não é necessária, e ausência de documentação onde é decisiva.
 
@@ -4700,7 +4700,7 @@ Em estágio mais avançado, gestão do conhecimento se torna vantagem competitiv
 **Ver também:**
 
 - [[#CAPÍTULO 7: DESIGN ORGANIZACIONAL|Capítulo 7 (Design Organizacional)]], design organizacional
-- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 15: REMOTE, HYBRID E DISTRIBUÍDO COMO DISCIPLINA|Capítulo 15 (Remote, Hybrid e Distribuído como Disciplina) (Vol. 6)]], remote como disciplina e documentação como base
+- [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 15: TRABALHO REMOTO, HÍBRIDO E DISTRIBUÍDO COMO DISCIPLINA|Capítulo 15 (Remote, Hybrid e Distribuído como Disciplina) (Vol. 6)]], remote como disciplina e documentação como base
 - [[#CAPÍTULO 2: MANAGEMENT PARA O FUNDADOR TÉCNICO|Capítulo 2 (Management para o Fundador Técnico)]], management para fundador técnico
 - [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 13: CULTURA COMO DISCIPLINA E EM SITUAÇÕES CRÍTICAS (HIPERCRESCIMENTO, M&A E REMOTO)|Capítulo 13 (Cultura como Disciplina e em Situações Críticas (Hipercrescimento, M&A e Remoto)) (Vol. 6)]], cultura como disciplina
 - [[#CAPÍTULO 9: COMUNICAÇÃO INTERNA|Capítulo 9 (Comunicação Interna)]], comunicação interna
@@ -5194,7 +5194,7 @@ Você precisa dominar **O Gargalo Móvel da Teoria das Restrições** e **A Obse
 > Operação como vantagem competitiva: processos, cadência e instrumentação para escalar com previsibilidade. Capítulos vizinhos:
 > - [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 8: GESTÃO DE RISCO E SEGUROS PARA STARTUPS|Capítulo 8 (Gestão de Risco e Seguros para Startups) (Vol. 5)]], transferência de risco residual via seguros
 > - [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9: GESTÃO DE CRISE, CONTINUIDADE OPERACIONAL E COMUNICAÇÃO CRÍTICA|Capítulo 9 (Gestão de Crise, Continuidade Operacional e Comunicação Crítica) (Vol. 9)]], BCP e DRP como camada operacional de continuidade
-> - [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 13: SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA|Capítulo 13 (Segurança da Informação: Da Certificação à Engenharia) (Vol. 8)]], segurança como disciplina operacional
+> - [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 13: SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA DEFENSIVA|Capítulo 13 (Segurança da Informação: Da Certificação à Engenharia) (Vol. 8)]], segurança como disciplina operacional
 > - [[#CAPÍTULO 7: DESIGN ORGANIZACIONAL|Capítulo 7 (Design Organizacional)]], desenho de equipes, papéis e cadências que sustentam a operação
 > - Capítulos setoriais com operação física (como Saúde, Indústria, Logística e Varejo no Volume 10), quando o playbook exige integração com o mundo físico
 
@@ -5735,7 +5735,7 @@ Estágio 150+ pessoas
 
 **Ver também:**
 
-- [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 8: CUSTOMER SUCCESS (CS) E CUSTOMER EXPERIENCE (CX): DA JORNADA AO CHURN ZERO E NRR POSITIVO|Capítulo 8: Customer Success e Customer Experience (Vol. 4)]] para como a execução operacional impacta diretamente o NPS e a retenção
+- [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 8: CUSTOMER SUCCESS (CS) E CUSTOMER EXPERIENCE (CX): DA JORNADA À RETENÇÃO SUSTENTÁVEL E NRR ACIMA DE 100%|Capítulo 8: Customer Success e Customer Experience (Vol. 4)]] para como a execução operacional impacta diretamente o NPS e a retenção
 - [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 3: MODELAGEM FINANCEIRA OPERACIONAL BOTTOM-UP E PROJEÇÕES POR COORTES (COHORTS)|Capítulo 3: Modelagem Financeira Operacional (Vol. 5)]] para métricas financeiras que complementam as operacionais
 - [[#OPERAÇÕES, PROCESSOS E GESTÃO EM ESCALA (FASE 17)|Mapeamento de Fluxo de Valor (VSM) e SIPOC na Fase 17]] para as ferramentas visuais de mapeamento de processos e filas
 - [[#OPERAÇÕES, PROCESSOS E GESTÃO EM ESCALA (FASE 17)|Fase 17: Operações, Processos e Gestão em Escala]] para a cadência executiva, os OKRs e os frameworks que este capítulo aprofunda

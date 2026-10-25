@@ -788,16 +788,40 @@
     "newText": "A regularização prévia na **ANVISA** (**RDC nº 751/2022** para dispositivos médicos em geral e **RDC nº 657/2022** especificamente para *Software as a Medical Device*, SaMD) é obrigatória antes de qualquer comercialização ou uso clínico no país. Dispositivos e softwares de **Classes I e II** seguem o regime simplificado de **notificação** (art. 6º da RDC 751/2022, sem análise técnica prévia demorada, embora exijam dossiê técnico completo à disposição da fiscalização), enquanto produtos de **Classes III e IV** exigem **registro** completo (art. 7º) e **Certificado de Boas Práticas de Fabricação (CBPF, RDC nº 665/2022)**, alinhado internacionalmente à norma **ISO 13485**."
   },
   {
+    "line": 6024,
+    "newText": "**Sistema de Gestão da Qualidade (ISO 13485 e Boas Práticas de Fabricação):** a implementação de controles de qualidade rastreáveis desde o projeto até o pós-mercado (alinhados à norma ISO 13485 e à RDC Anvisa nº 665/2022) é requisito estrutural para dispositivos e softwares médicos de maior risco."
+  },
+  {
+    "line": 6026,
+    "newText": "**Avaliação e evidência clínica:** para dispositivos e softwares enquadrados nas Classes II, III e IV, a submissão regulatória exige demonstração documentada de desempenho clínico e segurança compatível com a finalidade médica declarada."
+  },
+  {
     "line": 6028,
-    "newText": "Nos mercados internacionais, a aprovação nos Estados Unidos (FDA) ocorre via 510(k) para dispositivos com equivalência substancial a um predicato já registrado, via De Novo para tecnologias inéditas de risco baixo a moderado ou via PMA (*Premarket Approval*) para dispositivos de alto risco (Classe III), com custos diretos e regulatórios que variam de cerca de US$ 50 mil em um 510(k) padrão a vários milhões de dólares em um PMA com ensaio clínico. Na União Europeia, a obtenção da marcação CE sob o regulamento MDR (*Medical Device Regulation*, aplicável desde 2021) exige auditoria rigorosa por um Organismo Notificado (*Notified Body*). A estratégia mais comum entre startups brasileiras de dispositivos médicos consiste em combinar o registro inicial na ANVISA com a submissão ao FDA norte-americano ou ao CE Mark europeu, conforme o mercado prioritário de expansão."
+    "newText": "Nos mercados internacionais, a aprovação nos Estados Unidos (FDA) ocorre via **510(k)** para dispositivos com equivalência substancial a um predicato já registrado, via **De Novo** para tecnologias inéditas de risco baixo a moderado ou via **PMA (*Premarket Approval*)** para dispositivos de alto risco (Classe III), com custos diretos e regulatórios que variam de cerca de US$ 50 mil em um 510(k) padrão a vários milhões de dólares em um PMA com ensaio clínico. Na União Europeia, a obtenção da marcação CE sob o regulamento **MDR (*Medical Device Regulation*)** exige auditoria rigorosa por um Organismo Notificado (*Notified Body*). A estratégia mais comum entre startups brasileiras de dispositivos médicos consiste em combinar o registro inicial na ANVISA com a submissão ao FDA norte-americano ou ao CE Mark europeu, conforme o mercado prioritário de expansão."
+  },
+  {
+    "line": 6030,
+    "newText": "**Desenvolvimento farmacêutico e terapias biológicas (*biotech*):**"
   },
   {
     "line": 6034,
     "newText": "1. **Fase pré-clínica:** pesquisa de descoberta, ensaios *in vitro* em laboratório e testes *in vivo* em modelos animais para avaliar toxicologia preliminar e farmacocinética, com duração típica de três a seis anos e investimento entre US$ 5 milhões e US$ 10 milhões."
   },
   {
+    "line": 6035,
+    "newText": "2. **Fase I:** avaliação de segurança clínica, tolerabilidade e dosagem em pequenos grupos de voluntários (tipicamente de 20 a 100 participantes), com duração de um a dois anos e orçamento entre US$ 2 milhões e US$ 10 milhões."
+  },
+  {
     "line": 6036,
     "newText": "3. **Fase II:** avaliação preliminar de eficácia terapêutica e calibração de dose em pacientes portadores da condição-alvo (tipicamente de 100 a 500 voluntários), com duração média de dois a três anos e orçamento entre US$ 10 milhões e US$ 50 milhões."
+  },
+  {
+    "line": 6038,
+    "newText": "5. **Submissão e revisão de registro sanitário:** protocolo do dossiê completo de qualidade, segurança e eficácia perante as agências reguladoras (NDA ou BLA no FDA norte-americano, dossiê de registro na ANVISA ou EMA europeia), etapa que leva de um a dois anos."
+  },
+  {
+    "line": 6039,
+    "newText": "6. **Fase IV (farmacovigilância pós-mercado):** monitoramento contínuo de segurança e efeitos adversos raros em larga escala após a comercialização."
   },
   {
     "line": 6044,
@@ -822,6 +846,10 @@
   {
     "line": 6065,
     "newText": "> Na prática de mercado no Brasil, um ensaio clínico de **Fase II** consome tipicamente entre **R$ 5 milhões e R$ 20 milhões**, enquanto um estudo multicêntrico de **Fase III** exige de **R$ 30 milhões a mais de R$ 200 milhões**, conforme o tamanho da amostra, a complexidade dos exames de acompanhamento e o número de centros participantes."
+  },
+  {
+    "line": 6069,
+    "newText": "O ciclo de financiamento de uma biotecnologia desde a bancada até o registro comercial exige combinação inteligente de recursos não reembolsáveis e capital paciente:"
   },
   {
     "line": 6071,
@@ -877,15 +905,31 @@
   },
   {
     "line": 6099,
-    "newText": "**Benefícios corporativos de saúde e bem-estar (ex.: Conexa Corporate, Wellhub, Alice para Empresas):** vende contratos corporativos ao RH e entrega atendimento ou acesso à rede para os colaboradores. Opera em modelo B2B2C no qual o custo de aquisição comercial é diluído pelo número de vidas ativas de cada empresa contratante."
+    "newText": "**Benefícios corporativos de saúde e bem-estar (ex.: Conexa Corporate, Wellhub e Alice para Empresas):** comercializa contratos corporativos diretamente ao RH e entrega atendimento clínico ou acesso a redes credenciadas para os colaboradores, operando em modelo B2B2C no qual o custo de aquisição comercial é diluído pelo número de vidas ativas de cada empresa contratante."
+  },
+  {
+    "line": 6109,
+    "newText": "**Conflito de interesse na prescrição médica:** quando o profissional de saúde é simultaneamente sócio de plataforma ou clínica e prescritor de órteses, próteses, exames ou terapias, incidem as vedações do Código de Ética Médica do CFM contra qualquer vantagem pecuniária vinculada à prescrição."
+  },
+  {
+    "line": 6111,
+    "newText": "**Proteção de dados sensíveis de saúde sob a LGPD:** como prontuários, laudos e históricos clínicos são dados pessoais sensíveis (arts. 5º, II, e 11 da Lei nº 13.709/2018), qualquer incidente de segurança acarreta sanções severas da ANPD, ações civis públicas e perda imediata de contratos hospitalares, exigindo criptografia em repouso e em trânsito, controle de acesso por função e trilha completa de auditoria."
   },
   {
     "line": 6113,
     "newText": "Operar telemedicina sem observar a **Resolução CFM nº 2.314/2022** e a **Lei nº 14.510/2022**: o médico precisa manter inscrição ativa no CRM de sua jurisdição, e a empresa prestadora de serviços de telemedicina deve possuir inscrição formal e diretor técnico médico registrado no CRM do estado de sua sede."
   },
   {
+    "line": 6115,
+    "newText": "**Subestimar a necessidade de capital para ensaios clínicos:** como um estudo de Fase II no Brasil consome de R$ 5 milhões a R$ 20 milhões, a startup de biotecnologia que capta apenas o valor mínimo sem reserva para atrasos no recrutamento de pacientes corre o risco de paralisar a pesquisa na metade."
+  },
+  {
     "line": 6119,
     "newText": "**Desequilíbrio na composição de sócios (*fundador médico sem produto* ou *fundador técnico sem vivência clínica*):** o profissional de saúde que domina a prática clínica mas desconhece engenharia de software, vendas B2B e economia unitária tende a construir ferramentas que não escalam; em sentido inverso, o engenheiro de software sem cofundador ou diretor médico experiente subestima fluxos assistenciais e travas éticas do CFM e da ANVISA. A complementaridade entre domínio clínico-regulatório e execução de produto é requisito de sobrevivência no setor."
+  },
+  {
+    "line": 6121,
+    "newText": "**Fundadores puramente técnicos sem liderança clínica:** equipes que dominam engenharia de software mas desconhecem a rotina hospitalar, o faturamento TISS/TUSS e os protocolos médicos constroem ferramentas elegantes que os médicos se recusam a usar no plantão."
   },
   {
     "line": 6123,
@@ -894,6 +938,26 @@
   {
     "line": 6129,
     "newText": "Para *healthtechs* B2B que vendem a hospitais e clínicas, duas métricas operacionais lideram a comprovação de retorno sobre o investimento (ROI) antes das métricas gerais de SaaS e *biotech* listadas a seguir: (1) **Taxa de Glosa Líquida e Recuperação de Glosas** (percentual do faturamento hospitalar glosado na primeira remessa TISS, tipicamente de 5% a 12% segundo a ANAHP, e percentual efetivamente recuperado após recurso documentado, com meta acima de 65%); e (2) **Minutos de Digitação Poupados por Consulta** (redução de 4 a 8 minutos de preenchimento de prontuário e guias por atendimento via escriba clínico de IA, elevando a produtividade e o NPS do corpo clínico)."
+  },
+  {
+    "line": 6131,
+    "newText": "- **Operadoras digitais e planos de saúde (*healthtechs* de risco):** acompanham vidas ativas, receita média por vida (ARPU), índice de sinistralidade médica (*Medical Loss Ratio*, MLR), NPS médico e de beneficiários e taxa de cancelamento (*churn*)."
+  },
+  {
+    "line": 6133,
+    "newText": "- **Redes de clínicas e atenção primária:** monitoram consultas e procedimentos por mês, tíquete médio, taxa de ocupação de consultórios, produtividade por profissional e taxa de retorno dos pacientes."
+  },
+  {
+    "line": 6135,
+    "newText": "- **Software médico e hospitalar (SaaS de saúde):** medem receita recorrente mensal (MRR), cancelamento bruto, retenção líquida de receita (NRR) e engajamento diário do corpo clínico."
+  },
+  {
+    "line": 6137,
+    "newText": "- **Dispositivos médicos e equipamentos (*MedTech*):** controlam unidades instaladas ou vendidas, preço médio de venda (ASP), duração do ciclo comercial hospitalar e cobertura de funil."
+  },
+  {
+    "line": 6139,
+    "newText": "- **Biotecnologia (*Biotech*):** gerenciam marcos regulatórios e pré-clínicos atingidos, velocidade de recrutamento de pacientes por mês, queima mensal de caixa frente ao *runway* e acordos de codesenvolvimento ou licenciamento com a indústria farmacêutica."
   },
   {
     "line": 6143,
@@ -908,8 +972,16 @@
     "newText": "Operadoras de saúde suplementar (ANS): o setor soma cerca de 52 milhões de beneficiários em planos de assistência médico-hospitalar (dentro da faixa de 51 a 53 milhões registrada pela ANS entre 2024 e 2026) e cerca de 33 a 35 milhões em planos exclusivamente odontológicos. A estrutura de mercado combina uma cauda longa de mais de 650 operadoras ativas (incluindo centenas de cooperativas do sistema Unimed e autogestões) com forte concentração no topo: as dez maiores operadoras (lideradas pela Hapvida NotreDame Intermédica, após a fusão concluída em fevereiro de 2022 que reuniu cerca de 8,5 a 9 milhões de beneficiários de saúde, ao lado de Bradesco Saúde, Amil e SulAmérica/Rede D'Or) concentram mais de 40% das vidas cobertas no país."
   },
   {
+    "line": 6149,
+    "newText": "**Rede hospitalar brasileira:** o país conta com cerca de 6,5 mil a 7 mil hospitais (entre públicos, filantrópicos/Santas Casas e privados), com forte liderança nos centros privados de alta complexidade (como Rede D'Or São Luiz, Hospital Israelita Albert Einstein, Hospital Sírio-Libanês, HCor, Hospital Alemão Oswaldo Cruz e Rede São Camilo)."
+  },
+  {
     "line": 6151,
     "newText": "Corpo médico e infraestrutura assistencial: o Brasil ultrapassou a marca de **575 mil a 600 mil médicos em atividade** registrados nos Conselhos Regionais de Medicina (segundo a série Demografia Médica no Brasil da USP/CFM entre 2024 e 2026), distribuídos de forma desigual entre as capitais do Sudeste/Sul e o interior do país."
+  },
+  {
+    "line": 6155,
+    "newText": "**Ecossistema nacional de biotecnologia e P&D farmacêutico:** reúne desde laboratórios farmacêuticos nacionais consolidados com forte investimento em inovação radical, biossimilares e síntese de insumos farmacêuticos ativos (IFAs), como o **Laboratório Cristália** e frentes de inovação da **Hypera Pharma**, **Eurofarma** e **Bionovis**, até startups de biotecnologia intensivas em pesquisa (como **Nintx** e **Recepta Biopharma**) e *spin-offs* acadêmicas oriundas da USP, Unicamp, UFMG, UFRJ e Fiocruz, embora ainda com menor densidade de capital de risco especializado que polos como Boston ou São Francisco."
   },
   {
     "line": 6157,

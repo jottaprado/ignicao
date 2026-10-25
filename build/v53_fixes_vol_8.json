@@ -1885,7 +1885,7 @@
   },
   {
     "line": 2685,
-    "newText": "### Armadilhas trabalhistas recorrentes: cobrar horário de PJ no WhatsApp, falso cargo de confiança e pagamento por fora"
+    "newText": "### Armadilhas trabalhistas recorrentes: cobrar horário de PJ no WhatsApp, falso cargo de confiança, justa causa sem dossiê e pagamento por fora"
   },
   {
     "line": 2691,
@@ -1917,7 +1917,7 @@
   },
   {
     "line": 2728,
-    "newText": "- [ ] FGTS recolhido mensalmente até o dia 20 do mês seguinte via Pix pelo sistema FGTS Digital (art. 15 da Lei 8.036/1990, com redação da Lei 14.438/2022)."
+    "newText": "- [ ] FGTS recolhido mensalmente até o dia 20 do mês seguinte via Pix pelo sistema FGTS Digital (art. 15 da Lei 8.036/1990, com redação da Lei 14.438/2022; o atraso sujeita a empresa a multa de 5% no mês do vencimento e de 10% a partir do mês seguinte, além de atualização e juros de 0,5% ao mês pelo art. 22 da Lei 8.036/1990)."
   },
   {
     "line": 2745,
@@ -1977,7 +1977,7 @@
   },
   {
     "line": 2809,
-    "newText": "### 2. Os Direitos Inegociáveis: Arrependimento em 7 Dias (Art. 49), Responsabilidade Objetiva e Inversão do Ônus da Prova"
+    "newText": "### 2. Os Direitos Inegociáveis do Consumidor: Arrependimento em 7 Dias (Art. 49), Responsabilidade Objetiva (Arts. 12 e 14) e Inversão do Ônus da Prova (Art. 6º, VIII)"
   },
   {
     "line": 2817,
@@ -2201,7 +2201,7 @@
   },
   {
     "line": 3193,
-    "newText": "### 1. Arbitragem vs. Poder Judiciário: Por Que uma Cláusula Arbitral Mal Colocada Pode Custar Mais de R$ 100 Mil de Entrada"
+    "newText": "### 1. Arbitragem versus Poder Judiciário: Por Que uma Cláusula Arbitral Mal Colocada Pode Custar Mais de R$ 100 Mil de Entrada"
   },
   {
     "line": 3197,
@@ -2229,7 +2229,7 @@
   },
   {
     "line": 3215,
-    "newText": "### 2. Contencioso trabalhista: quando fechar acordo na audiência inicial e quando sustentar a defesa até o TST"
+    "newText": "### 2. Contencioso trabalhista: critérios objetivos para fechar acordo na audiência inicial ou sustentar a defesa até o TST e o STF"
   },
   {
     "line": 3221,
@@ -2336,12 +2336,64 @@
     "newText": "- **PROCON:** instância administrativa estadual ou municipal. A notificação do PROCON deve ser respondida no prazo fixado no documento (em geral **10 dias corridos**, conforme detalhado no [[#CAPÍTULO 7 — DIREITO DO CONSUMIDOR E CDC PARA STARTUPS|Capítulo 7]]). Ignorar a notificação gera **presunção relativa de veracidade** dos fatos narrados pelo consumidor e aplicação de multa administrativa graduada pelo art. 57 do CDC"
   },
   {
+    "line": 3369,
+    "newText": "| Canal de Atendimento / Disputa | Prazo Típico de Resposta | Conduta Prioritária da Startup |"
+  },
+  {
+    "line": 3370,
+    "newText": "| :--- | :--- | :--- |"
+  },
+  {
+    "line": 3371,
+    "newText": "| **PROCON** | **10 dias** (conforme notificação administrativa local) | Designar responsável interno, responder sempre por escrito com dossiê técnico e propor composição amigável quando cabível |"
+  },
+  {
     "line": 3372,
-    "newText": "PROCON          10 dias (conf. Designar responsável interno,"
+    "newText": "| **Consumidor.gov.br / Reclame Aqui** | **Até 10 dias** na plataforma oficial (ideal < 48h) | Tratar a reclamação diretamente pela equipe de CS/Operações com autonomia para estorno ou reparo imediato antes que vire processo |"
   },
   {
     "line": 3373,
-    "newText": "                notificação)   responder sempre por escrito,"
+    "newText": "| **Juizado Especial Cível (JEC individual)** | Audiência inicial em **30 a 60 dias** | Comparecer obrigatoriamente com preposto e advogado, levando logs auditáveis e proposta de acordo pré-aprovada se houve falha operacional |"
+  },
+  {
+    "line": 3374,
+    "newText": "| **Ação Civil Pública / Coletiva (MP ou Associações)** | Prazo legal de contestação após citação | Acionar imediatamente banca especializada em contencioso coletivo, mapear a extensão real do evento e demonstrar correção imediata na origem |"
+  },
+  {
+    "line": 3375,
+    "newText": ""
+  },
+  {
+    "line": 3376,
+    "newText": ""
+  },
+  {
+    "line": 3377,
+    "newText": ""
+  },
+  {
+    "line": 3378,
+    "newText": ""
+  },
+  {
+    "line": 3379,
+    "newText": ""
+  },
+  {
+    "line": 3380,
+    "newText": ""
+  },
+  {
+    "line": 3381,
+    "newText": ""
+  },
+  {
+    "line": 3382,
+    "newText": ""
+  },
+  {
+    "line": 3383,
+    "newText": ""
   },
   {
     "line": 3385,
@@ -3109,7 +3161,7 @@
   },
   {
     "line": 4047,
-    "newText": "### 5. Viés Algorítmico e Discriminação Indireta: Como Auditar Seus Modelos Antes Que Eles Virem Ação Civil Pública"
+    "newText": "### 5. Viés Algorítmico e Discriminação Indireta: Protocolo de 4 Passos para Auditar Seus Modelos Antes Que Virem Ação Civil Pública"
   },
   {
     "line": 4053,
@@ -3169,7 +3221,7 @@
   },
   {
     "line": 4136,
-    "newText": "### 7. Cláusulas Obrigatórias em Contratos de IA: Zero Data Retention, Alocação de Responsabilidade por Alucinação e SLA"
+    "newText": "### 7. Cláusulas Obrigatórias em Contratos de IA: Retenção Zero (ZDR), Alocação de Responsabilidade e SLA"
   },
   {
     "line": 4146,
@@ -3901,7 +3953,7 @@
   },
   {
     "line": 5128,
-    "newText": "## CAPÍTULO 13 — SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA"
+    "newText": "## CAPÍTULO 13: SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA DEFENSIVA"
   },
   {
     "line": 5132,

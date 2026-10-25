@@ -77,7 +77,7 @@ graph LR
 - [[#CAPÍTULO 12: STOCK OPTIONS E ESOP NO BRASIL|CAPÍTULO 12: STOCK OPTIONS E ESOP NO BRASIL]]
 - [[#CAPÍTULO 13: CULTURA COMO DISCIPLINA E EM SITUAÇÕES CRÍTICAS (HIPERCRESCIMENTO, M&A E REMOTO)|CAPÍTULO 13: CULTURA COMO DISCIPLINA E EM SITUAÇÕES CRÍTICAS (HIPERCRESCIMENTO, M&A E REMOTO)]]
 - [[#CAPÍTULO 14: DIVERSIDADE, EQUIDADE E INCLUSÃO (DEI) EM STARTUP BRASILEIRA|CAPÍTULO 14: DIVERSIDADE, EQUIDADE E INCLUSÃO (DEI) EM STARTUP BRASILEIRA]]
-- [[#CAPÍTULO 15: REMOTE, HYBRID E DISTRIBUÍDO COMO DISCIPLINA|CAPÍTULO 15: REMOTE, HYBRID E DISTRIBUÍDO COMO DISCIPLINA]]
+- [[#CAPÍTULO 15: TRABALHO REMOTO, HÍBRIDO E DISTRIBUÍDO COMO DISCIPLINA|CAPÍTULO 15: REMOTE, HYBRID E DISTRIBUÍDO COMO DISCIPLINA]]
 
 ---
 
@@ -1637,7 +1637,7 @@ Pular trust-building: "vamos direto à estratégia". Sem trust, debate não acon
 
 ---
 
-#### Framework: Topgrading (Brad Smart, 1999) e Método Who (Geoff Smart e Randy Street, 2008)
+#### Framework: Topgrading (Brad Smart, 1999)
 
 ##### De onde vem a ferramenta (e por que sobreviveu ao filtro do tempo)
 
@@ -5135,7 +5135,7 @@ A regra de ouro para eventos: preparar conteúdo real (não "impressionar") e ca
 
 Os tipos de crise que exigem o fundador como porta-voz têm dinâmicas próprias.
 
-- **Incidente de segurança com dados pessoais (LGPD, art. 48 da Lei 13.709/2018 e Resolução CD/ANPD nº 15/2024):** caso ocorra incidente de segurança que possa acarretar risco ou dano relevante aos titulares, a comunicação à Autoridade Nacional de Proteção de Dados (ANPD) e aos titulares afetados deve ser feita no prazo de **3 dias úteis** contados do conhecimento pelo controlador (com complementação em até 20 dias úteis quando aplicável, ver o protocolo completo no [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 9: LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Capítulo 9 (LGPD, Compliance e Governança de Dados) (Vol. 8)]] e no [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 13: SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA|Capítulo 11 (Cibersegurança) (Vol. 8)]]).
+- **Incidente de segurança com dados pessoais (LGPD, art. 48 da Lei 13.709/2018 e Resolução CD/ANPD nº 15/2024):** caso ocorra incidente de segurança que possa acarretar risco ou dano relevante aos titulares, a comunicação à Autoridade Nacional de Proteção de Dados (ANPD) e aos titulares afetados deve ser feita no prazo de **3 dias úteis** contados do conhecimento pelo controlador (com complementação em até 20 dias úteis quando aplicável, ver o protocolo completo no [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 9: LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Capítulo 9 (LGPD, Compliance e Governança de Dados) (Vol. 8)]] e no [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 13: SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA DEFENSIVA|Capítulo 11 (Cibersegurança) (Vol. 8)]]).
 
 - **Reestruturação e desligamento coletivo (*layoff*):** exige comunicação interna digna e transparente pelo próprio CEO antes de qualquer nota externa, garantindo pacote rescisório integral e apoio de recolocação aos desligados (ver [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 10: LAYOFFS E DOWNSIZING: COMO DEMITIR EM ESCALA SEM DESTRUIR A EMPRESA|Capítulo 10 (Layoffs, Reestruturação e Crise de Caixa) (Vol. 9)]]).
 
@@ -5169,7 +5169,7 @@ Conflito com investidor, saída de sócio ou briga de board: regra geral é sil�
 
 #### 6. O equilíbrio entre a marca pessoal do fundador e a marca institucional da empresa
 
-Há três razões para separar deliberadamente a marca pessoal da marca corporativa. Na saída (*exit*), o fundador deixa o comando executivo mas segue ativo no mercado: se a sua reputação pública se confunde inteiramente com o CNPJ vendido, a transição vira crise de identidade. Em momentos de crise operacional, a credibilidade pessoal construída com transparência ajuda a sustentar o diálogo com o mercado. E, em novos projetos, o empreendedor de segunda viagem com reputação própria consolidada reduz drasticamente o custo de atrair capital e talentos (ver [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 20: SECOND-TIME FOUNDER|Capítulo 20 (Second-Time Fundador) (Vol. 9)]]).
+Há três razões para separar deliberadamente a marca pessoal da marca corporativa. Na saída (*exit*), o fundador deixa o comando executivo mas segue ativo no mercado: se a sua reputação pública se confunde inteiramente com o CNPJ vendido, a transição vira crise de identidade. Em momentos de crise operacional, a credibilidade pessoal construída com transparência ajuda a sustentar o diálogo com o mercado. E, em novos projetos, o empreendedor de segunda viagem com reputação própria consolidada reduz drasticamente o custo de atrair capital e talentos (ver [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 20: O FUNDADOR DE SEGUNDA VIAGEM (SECOND-TIME FOUNDER)|Capítulo 20 (Second-Time Fundador) (Vol. 9)]]).
 
 Para construir marca pessoal com autonomia: desenvolva voz própria em temas amplos do setor (liderança, transformação tecnológica, governança), participe de conselhos externos, atue como investidor-anjo ou mentor e publique reflexões que ultrapassem o escopo comercial imediato da empresa atual.
 
@@ -5433,6 +5433,8 @@ Frequência de contato direto do CEO com cliente. Três a cinco conversas profun
 ---
 
 ### Gestão de Tempo do Fundador e Cadência Operacional (Operating Cadence)
+
+Dominar o equilíbrio entre presença nos detalhes decisivos (*Founder Mode*) e delegação clara só se sustenta na prática quando a agenda pessoal do CEO e o calendário de rituais da empresa operam no mesmo compasso:
 
 #### 1. Gestão de tempo pessoal do fundador
 
@@ -5944,7 +5946,7 @@ Além de proteger a cultura interna, fundos de investimento e compradores estrat
 
 - **Conselho de Administração (*Board*):** não participa de avaliações individuais fora do C-Level, mas recebe o relatório executivo pós-ciclo contendo a taxa de cobertura, a curva de distribuição e o índice de retenção dos profissionais de alta performance.
 
-### Desenhando o ciclo semestral sem burocracia: O Que Entregou (Resultados) x Como Entregou (Cultura e Valores)
+### Desenhando o ciclo semestral sem burocracia: O Que Entregou (Resultados) versus Como Entregou (Cultura e Valores)
 
 #### Etapa 1: desenho do ciclo de avaliação
 
@@ -7048,7 +7050,7 @@ A cultura exige manutenção semanal por meio de cinco rituais práticos:
 
 Cuide para que os rituais não virem teatro mecânico: quando os elogios parecerem superficiais ou ninguém trouxer perguntas reais nas reuniões gerais, reformule a dinâmica imediatamente.
 
-#### 4. Medição, como saber se cultura está saudável
+#### 4. Diagnóstico prático de saúde cultural (sinais quantitativos e qualitativos)
 
 A saúde cultural mede-se pela combinação de indicadores quantitativos (detalhados na tabela de metas da seção seguinte: **eNPS** na escala de -100 a +100, com faixa saudável de **+30 a +60** e excelente **acima de +60**. Participação em pesquisas de clima **≥ 85%**. Rotatividade voluntária anual. Percentual de saídas lamentadas de talentos-chave abaixo de 50% do total de desligamentos. Mobilidade interna. Contratações por indicação em torno de 30%, e avaliações públicas no Glassdoor) com diagnósticos qualitativos.
 
@@ -7184,7 +7186,7 @@ O trabalho distribuído não destrói cultura automaticamente. Mas expõe, com p
 
 2. **Erosão do senso de pertencimento nos recém-chegados:** quem entra depois que a empresa ficou distribuída sente que a cultura original pertence apenas ao grupo antigo. *Antídoto:* integração (*onboarding*) com módulo cultural vivo, padrinho (*buddy*) por 90 dias e encontros presenciais periódicos (itens 1 e 4 abaixo).
 
-3. **Distorção de visibilidade (quem fala mais parece entregar mais):** sem medição objetiva, quem passa o dia aparecendo em chamadas de vídeo ganha mais destaque do que quem trabalha focado entregando código ou vendas. *Antídoto:* avaliação baseada em entregas documentadas e canal público de reconhecimento vinculado aos valores (item 3 abaixo e [[#CAPÍTULO 15: REMOTE, HYBRID E DISTRIBUÍDO COMO DISCIPLINA|Capítulo 15]]).
+3. **Distorção de visibilidade (quem fala mais parece entregar mais):** sem medição objetiva, quem passa o dia aparecendo em chamadas de vídeo ganha mais destaque do que quem trabalha focado entregando código ou vendas. *Antídoto:* avaliação baseada em entregas documentadas e canal público de reconhecimento vinculado aos valores (item 3 abaixo e [[#CAPÍTULO 15: TRABALHO REMOTO, HÍBRIDO E DISTRIBUÍDO COMO DISCIPLINA|Capítulo 15]]).
 
 4. **Seca de feedback espontâneo:** o elogio ou ajuste rápido de corredor desaparece quando exige marcar uma chamada formal. *Antídoto:* rituais síncronos leves de convivência e conversas individuais (**1:1**) semanais obrigatórias (item 2 abaixo).
 
@@ -7199,7 +7201,7 @@ Rituais síncronos não opcionais. Uma ou duas reuniões por semana onde o time 
 
 Canais assíncronos com propósito cultural. Canal de reconhecimento público (no Slack ou equivalente) onde qualquer pessoa pode nomear um colega por demonstrar um valor específico, com o nome do valor explícito, não só "parabéns". Canal de "o que aprendi" onde erros e aprendizados são compartilhados sem punição. Canal informal com regras leves (off-topic, vida fora do trabalho) que recriem parte da socialização perdida.
 
-4. **Encontros presenciais planejados (*offsites*) como investimento estratégico:** em startups de até 50 pessoas, reuniões presenciais trimestrais mantêm a coesão, na faixa de **50 a 200 colaboradores**, realize encontros presenciais **semestrais**, e **acima de 200 pessoas**, promova ao menos um encontro anual geral de **2 a 3 dias** combinado a encontros regionais semestrais por diretoria (regra unificada com a linha 7028 e com o [[#CAPÍTULO 15: REMOTE, HYBRID E DISTRIBUÍDO COMO DISCIPLINA|Capítulo 15]]). Proteja essa rubrica no orçamento anual, pois equipes que nunca se encontram pessoalmente levam o dobro do tempo para resolver atritos.
+4. **Encontros presenciais planejados (*offsites*) como investimento estratégico:** em startups de até 50 pessoas, reuniões presenciais trimestrais mantêm a coesão, na faixa de **50 a 200 colaboradores**, realize encontros presenciais **semestrais**, e **acima de 200 pessoas**, promova ao menos um encontro anual geral de **2 a 3 dias** combinado a encontros regionais semestrais por diretoria (regra unificada com a linha 7028 e com o [[#CAPÍTULO 15: TRABALHO REMOTO, HÍBRIDO E DISTRIBUÍDO COMO DISCIPLINA|Capítulo 15]]). Proteja essa rubrica no orçamento anual, pois equipes que nunca se encontram pessoalmente levam o dobro do tempo para resolver atritos.
 
 Calibração explícita de valores em decisões distribuídas. Em escritório, quando o gestor toma uma decisão difícil, os colegas observam o processo e absorvem o critério. No remoto, esse momento de calibração precisa ser narrado. O líder documenta por escrito (em canal aberto ou handbook) a decisão tomada e o raciocínio cultural por trás dela. Isso substitui, parcialmente, a observação direta.
 
@@ -7541,7 +7543,7 @@ Ao substituir o recrutamento restrito aos amigos de faculdade por casos prático
 
 ---
 
-## CAPÍTULO 15: REMOTE, HYBRID E DISTRIBUÍDO COMO DISCIPLINA
+## CAPÍTULO 15: TRABALHO REMOTO, HÍBRIDO E DISTRIBUÍDO COMO DISCIPLINA
 
 ### O Teatro do Mouse Mexendo: Como Operar Trabalho Remoto ou Híbrido em Alta Performance Sem Virar Polícia de Tela
 

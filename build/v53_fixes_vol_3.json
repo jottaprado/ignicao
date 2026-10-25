@@ -656,6 +656,10 @@
     "newText": "Esse é o princípio central da Fase 8: palavras são vento, e a única validação confiável ocorre quando o cliente entrega uma das três moedas escassas da vida dele: **Dinheiro**, **Tempo Real** ou **Reputação Profissional**. É o que Rob Fitzpatrick (*The Mom Test*) chama de **moedas de compromisso** (como quando o cliente apresenta você ao diretor dele ou aceita assinar um caso público com nome e cargo). Uma resposta positiva em formulário gratuito vale zero. Um clique em anúncio vale centavos. Uma reunião de 45 minutos analisando planilhas reais com o diretor financeiro vale tempo. Uma carta de intenção (*LOI*) assinada por quem detém o orçamento, com escopo, preço e data de início do piloto, tem alto peso comercial em vendas complexas, embora um pagamento antecipado pese ainda mais por já envolver desembolso financeiro direto. Não construa a fábrica para descobrir se alguém quer o tijolo: venda o primeiro lote antes."
   },
   {
+    "line": 893,
+    "newText": "### Por que meses de engenharia nunca devem preceder um teste rápido de compromisso e pagamento (visão executiva)"
+  },
+  {
     "line": 897,
     "newText": "> [!note] Aprofundamento no Capítulo 1 (Abordagem Científica vs. Lean Startup: Quando Usar Cada Uma)"
   },
@@ -726,6 +730,10 @@
   {
     "line": 1134,
     "newText": "> [!note] Falsificabilidade empírica (Karl Popper, *A Lógica da Pesquisa Científica*, 1934): nenhum volume de confirmações prova uma teoria em definitivo, mas um único experimento bem controlado pode refutá-la"
+  },
+  {
+    "line": 1148,
+    "newText": "> [!tip] Canvases Visuais: Learning Card (Fase 8)"
   },
   {
     "line": 1149,
@@ -1364,6 +1372,10 @@
     "newText": "#### Framework: Modelo Kano (Noriaki Kano, 1984)"
   },
   {
+    "line": 2358,
+    "newText": "Passo 2: Aplique o questionário à base do seu ICP (idealmente 100 ou mais respondentes em produtos B2C ou maduros; em estágios iniciais B2B com base restrita, aplique a partir de 20 a 30 clientes reais do ICP tratando a classificação como bússola qualitativa e nunca como prova estatística isolada)."
+  },
+  {
     "line": 2390,
     "newText": "Quatro erros distorcem a aplicação do Modelo Kano: aplicar o questionário a pessoas fora do ICP (que classificam como \"Indiferente\" aquilo que para o comprador real é \"Obrigatório\"); redigir perguntas ambíguas que levam todos os itens a cair na categoria linear de \"Desempenho\"; gastar o orçamento do MVP construindo funcionalidades de \"Encantamento\" (*Excitement*) enquanto os requisitos \"Básicos\" (*Must-be*, como estabilidade, exatidão do cálculo e segurança) falham e destroem a confiança; e esquecer que, com o passar do tempo, todo encantamento vira requisito básico esperado pelo mercado."
   },
@@ -1461,7 +1473,7 @@
   },
   {
     "line": 2525,
-    "newText": "#### Canvas: MVP Canvas (Tristan Kromer)"
+    "newText": "#### Canvas: MVP Canvas (Tristan Kromer e Paulo Caroli)"
   },
   {
     "line": 2529,
@@ -2237,11 +2249,15 @@
   },
   {
     "line": 3757,
-    "newText": "## CAPÍTULO 2 — MATURIDADE (TRL/CRL), DECISÃO POR GATES E FECHAMENTO DE FASE (COMMITTED NEXT MOVE)"
+    "newText": "## CAPÍTULO 2: MATURIDADE (TRL/CRL), OS DEZ PORTÕES (TEN GATES) E PRÓXIMO PASSO COMPROMETIDO"
   },
   {
     "line": 3761,
     "newText": "Entre a operação no Recife e o centro de distribuição em Goiânia, Rafael comemorava na reunião de segunda-feira: após três semanas testando dezessete cores de botão, quatro telas de pagamento e cinco alertas de escassez na loja virtual da marca D2C de autocuidado que fundou com Bia, a taxa de conversão havia oscilado de 1,1% para 1,4%."
+  },
+  {
+    "line": 3763,
+    "newText": "Em Goiânia, quando Rafael comemorou o novo layout do aplicativo, Bia não abriu o champanhe: projetou a DRE na parede da sala e apontou para duas linhas em vermelho:"
   },
   {
     "line": 3765,
@@ -2361,7 +2377,7 @@
   },
   {
     "line": 3950,
-    "newText": "### CRL: Nível de Maturidade Comercial e de Clientes (Escala de 1 a 9)"
+    "newText": "### CRL: Nível de Maturidade Comercial e de Clientes (Escala de 1 a 9, com PMF no Nível 7)"
   },
   {
     "line": 3952,
@@ -2868,8 +2884,36 @@
     "newText": "### Os seis pilares operacionais do COSS: fronteira do Open Core, escolha da licença e conversão para receita"
   },
   {
+    "line": 4650,
+    "newText": "**1. Modelos de negócio baseados em código aberto:**"
+  },
+  {
+    "line": 4652,
+    "newText": "- **Open Core (núcleo aberto + camada corporativa paga):** o núcleo técnico para uso individual permanece em código aberto, enquanto recursos de governança, segurança, escala e suporte corporativo são comercializados (ex.: GitLab, Elastic e Supabase)."
+  },
+  {
+    "line": 4656,
+    "newText": "**2. Escolha da licença e blindagem jurídica de propriedade intelectual (Lei do Software nº 9.609/1998 e CLA/DCO):**"
+  },
+  {
     "line": 4657,
     "newText": "**2. Escolha da licença e blindagem jurídica de propriedade intelectual (Lei do Software nº 9.609/1998 e CLA/DCO):**\n\nAntes de escolher a licença do repositório, trave duas regras jurídicas indispensáveis no Brasil: primeiro, garanta que todos os contratos de trabalho e de prestação de serviços da sua equipe contenham cláusula expressa de titularidade patrimonial do código a favor da empresa (nos termos do **art. 4º da Lei nº 9.609/1998**, Lei do Software); segundo, se você pretende manter a prerrogativa de oferecer versão comercial proprietária (*dual licensing*) ou alterar a licença no futuro, exija que todo contribuidor externo assine eletronicamente no GitHub um **CLA (*Contributor License Agreement*)** concedendo licença ampla ou cessão de direitos à mantenedora (diferente do simples *DCO / Developer Certificate of Origin*, que apenas atesta autoria sob a mesma licença aberta e impede relicenciamento posterior sem autorização de cada autor). Compare as quatro famílias de licenças:"
+  },
+  {
+    "line": 4660,
+    "newText": "|---|---|---|"
+  },
+  {
+    "line": 4661,
+    "newText": "| **MIT** | Licença permissiva enxuta e direta | Bibliotecas, SDKs e pacotes em que o objetivo é maximizar adoção sem atrito jurídico |"
+  },
+  {
+    "line": 4662,
+    "newText": "| **Apache 2.0** | Licença permissiva com cláusula expressa de concessão de patentes (*patent grant*) | Padrão mais adotado por startups de infraestrutura e projetos mantidos por empresas |"
+  },
+  {
+    "line": 4663,
+    "newText": "| **GPL (v2 / v3)** | *Copyleft* forte (obras derivadas distribuídas devem manter a mesma licença aberta) | Sistemas operacionais e ferramentas de infraestrutura do ecossistema Linux |"
   },
   {
     "line": 4664,
@@ -2884,16 +2928,60 @@
     "newText": "| **Copyleft forte em rede (AGPLv3) vs. Source-Available (BSL 1.1, SSPL, FSL)** | A **AGPLv3** (licença *open source* aprovada pela OSI) exige que quem modificar e oferecer o software em rede compartilhe o código-fonte completo sob AGPLv3; já a **BSL (*Business Source License*)**, a **SSPL** e a **FSL (*Functional Source License*)** são licenças de *\"código disponível\"* (*source-available*, não classificadas como *open source* pela OSI) que proíbem terceiros de vender o software como serviço gerenciado concorrente | **Elastic** (retornou à AGPLv3 em 2024 ao lado de SSPL/ELv2), **Redis** (adotou AGPLv3 no Redis 8 em maio de 2025), **MongoDB** (SSPL), **Sentry** (FSL); nota: a troca da licença do Terraform para BSL pela **HashiCorp** em 2023 (antes da conclusão de sua compra pela **IBM** em fevereiro de 2025) e a mudança da Redis em 2024 geraram os *forks* comunitários **OpenTofu** e **Valkey**, enquanto a **CockroachDB** migrou da BSL para licença proprietária no fim de 2024 |"
   },
   {
+    "line": 4668,
+    "newText": "A escolha da licença define a relação entre alcance e proteção comercial: licenças permissivas (MIT e Apache 2.0) maximizam a adoção pelos desenvolvedores com menor restrição sobre terceiros, enquanto licenças *copyleft* de rede (AGPLv3) ou de código disponível (BSL/SSPL) ampliam a proteção contra provedores de nuvem, mas reduzem a adoção espontânea em grandes empresas."
+  },
+  {
+    "line": 4670,
+    "newText": "**3. Construção e governança da comunidade (*community building*):**"
+  },
+  {
     "line": 4674,
     "newText": "- **Experiência de boas-vindas para novos contribuidores**: mantenha um guia `CONTRIBUTING.md` claro, tarefas iniciais etiquetadas como `good first issue` e resposta rápida aos primeiros *pull requests*."
+  },
+  {
+    "line": 4675,
+    "newText": "- **Governança transparente do repositório:** deixe explícito no documentação quem decide o *roadmap* técnico e como contribuições externas são avaliadas pela empresa mantenedora."
+  },
+  {
+    "line": 4676,
+    "newText": "- **Encontros técnicos e conferências de desenvolvedores:** participe ativamente das comunidades locais de engenharia para formar defensores técnicos orgânicos."
+  },
+  {
+    "line": 4678,
+    "newText": "**4. Conversão comercial da comunidade para receita (*commercial conversion*):**"
   },
   {
     "line": 4680,
     "newText": "- **A jornada prática da comunidade aberta para o contrato pago (o caso de Lucas e Marina):** no ecossistema de conciliação financeira da dupla, o desenvolvedor ou integrador de ERP baixa gratuitamente no GitHub o conector aberto sob licença **Apache 2.0** para ler e padronizar arquivos OFX e CNAB locais; porém, quando a distribuidora ou rede varejista precisa do motor em nuvem que cruza automaticamente milhares de boletos contra a API dos bancos, envia o alerta diário no WhatsApp do financeiro, aplica alçadas de aprovação multiusuário (SSO) e guarda trilha de auditoria (seguindo a separação *Buyer-Based Open Core* por perfil de comprador), a própria documentação técnica conduz o gestor financeiro à assinatura do SaaS comercial."
   },
   {
+    "line": 4681,
+    "newText": "- **Camadas de autoatendimento pago (*self-serve tiers*):** ofereça degraus claros de evolução do plano gratuito individual para planos de equipe (*Pro/Team*) no cartão corporativo."
+  },
+  {
+    "line": 4682,
+    "newText": "- **Vendas consultivas corporativas (*enterprise sales*):** acione executivos de contas quando múltiplas equipes do mesmo banco ou indústria já utilizam a versão aberta."
+  },
+  {
+    "line": 4684,
+    "newText": "**5. Casos globais de referência e lições de licenciamento:**"
+  },
+  {
+    "line": 4689,
+    "newText": "- **Supabase:** posicionou-se como alternativa aberta ao Firebase baseada em PostgreSQL, monetizando a plataforma gerenciada em nuvem com cobrança por uso e capacidade."
+  },
+  {
     "line": 4690,
     "newText": "- **HashiCorp** (criadora do Terraform, Vault e Consul, adquirida pela IBM por US$ 6,4 bilhões em fevereiro de 2025): provou o poder de conquistar os engenheiros de infraestrutura com ferramentas gratuitas de linha de comando e monetizar a governança corporativa em nuvem, mas também deixou a lição histórica de que mudar a licença de um projeto maduro (como fez em 2023 ao trocar a MPL 2.0 pela BSL) pode provocar a criação imediata de um *fork* concorrente pela própria comunidade (*OpenTofu*)."
+  },
+  {
+    "line": 4695,
+    "newText": "- **Gestão de expectativas da comunidade:** equilibre o *roadmap* para que pedidos de usuários gratuitos não consumam a capacidade de engenharia necessária para os recursos pagos."
+  },
+  {
+    "line": 4696,
+    "newText": "- **Triagem do esforço de suporte gratuito:** direcione dúvidas da versão gratuita para fóruns comunitários (GitHub Discussions / Discord) e reserve SLA garantido para assinantes comerciais."
   },
   {
     "line": 4697,

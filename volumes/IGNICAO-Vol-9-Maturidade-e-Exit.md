@@ -84,7 +84,7 @@ graph LR
 - [[#CAPÍTULO 17: TRIBUTAÇÃO DO EXIT PARA FUNDADORES BRASILEIROS|CAPÍTULO 17: TRIBUTAÇÃO DO EXIT PARA FUNDADORES BRASILEIROS]]
 - [[#CAPÍTULO 18: SUCESSÃO NO EXIT, TRANSIÇÃO PÓS-AQUISIÇÃO (M&A) E RETENÇÃO DE TALENTOS|CAPÍTULO 18: SUCESSÃO NO EXIT, TRANSIÇÃO PÓS-AQUISIÇÃO (M&A) E RETENÇÃO DE TALENTOS]]
 - [[#CAPÍTULO 19: POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE|CAPÍTULO 19: POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE]]
-- [[#CAPÍTULO 20: SECOND-TIME FOUNDER|CAPÍTULO 20: SECOND-TIME FOUNDER]]
+- [[#CAPÍTULO 20: O FUNDADOR DE SEGUNDA VIAGEM (SECOND-TIME FOUNDER)|CAPÍTULO 20: SECOND-TIME FOUNDER]]
 - [[#CAPÍTULO 21: A EMPRESA CASH COW (DIVIDENDOS PERPÉTUOS), HOLDINGS PATRIMONIAIS, FAMILY OFFICE E GESTÃO DE FORTUNA PÓS-EXIT|CAPÍTULO 21: A EMPRESA CASH COW (DIVIDENDOS PERPÉTUOS), HOLDINGS PATRIMONIAIS, FAMILY OFFICE E GESTÃO DE FORTUNA PÓS-EXIT]]
 ### Encerramento
 - [[#EPÍLOGO|EPÍLOGO]]
@@ -180,7 +180,7 @@ A saturação não acontece de repente. Dá sinais seis a dezoito meses antes da
 **Sinais de saturação interna.** Time sênior em platô: ficam na empresa, mas param de gerar ideias novas. Reuniões de estratégia viram reuniões de otimização. Talento sênior externo recusa ofertas, citando "não vi o próximo capítulo".
 
 > [!important] Regra operacional
-> Se dois ou mais sinais em duas ou mais categorias aparecem por dois ou mais trimestres, você está em saturação. Se três ou mais categorias, a saturação é urgente.
+> **Regra prática de diagnóstico pelo CEO:** acompanhe pessoalmente esse painel ao fim de cada trimestre. Se dois ou mais sinais em duas ou mais categorias persistirem por dois trimestres consecutivos, a primeira curva entrou em desaceleração estrutural. Se três ou mais categorias acenderem ao mesmo tempo, o início do plantio da segunda curva é inadiável.
 
 > [!tip] Canvases Visuais: Wardley Map (Fase 19)
 > O [[#Canvas: Wardley Map|Canvas: Wardley Map]] é a ferramenta literal de Reinvenção e Segunda Curva. Mapeia cada componente do negócio (produto, cadeia de valor, capacidades) num eixo de evolução (Genesis → Custom → Product → Commodity) e revela quais componentes estão saturando rumo a Commodity (precisam saltar para próxima curva) e quais ainda estão em Custom (vantagem competitiva sustentável por enquanto). Sem o mapa, decisão de "onde apostar a segunda curva" vira intuição não falsificável.
@@ -945,7 +945,7 @@ Nesta fase você diagnosticou a saturação com dados de coorte (e não por intu
 A [[#FASE 20: ESTRATÉGIA DE SAÍDA (EXIT STRATEGY)|Fase 20]] começa aqui: fundadores que chegaram a esse ponto, com segunda curva rodando ou com decisão clara sobre o próximo capítulo, estão em posição de planejar o exit com poder de barganha.
 
 > [!note] Quando a "segunda curva" é uma empresa nova (fundador serial)
-> Há um caminho alternativo à reinvenção dentro da empresa atual: o fundador conclui a venda da participação (Fase 20) e inicia um novo negócio do zero. Esse percurso é tratado no [[#CAPÍTULO 20: SECOND-TIME FOUNDER|Capítulo 20: Second-Time Fundador]], que analisa o que muda ao empreender pela segunda vez (rede de contatos e capital mais acessíveis, vieses de excesso de confiança, situação de quem encerrou a primeira operação e escolha entre repetir o setor ou atuar em novo domínio). Se a sua segunda curva será construída em outra companhia, o Capítulo 20 é a sequência direta após a Fase 20.
+> Há um caminho alternativo à reinvenção dentro da empresa atual: o fundador conclui a venda da participação (Fase 20) e inicia um novo negócio do zero. Esse percurso é tratado no [[#CAPÍTULO 20: O FUNDADOR DE SEGUNDA VIAGEM (SECOND-TIME FOUNDER)|Capítulo 20: Second-Time Fundador]], que analisa o que muda ao empreender pela segunda vez (rede de contatos e capital mais acessíveis, vieses de excesso de confiança, situação de quem encerrou a primeira operação e escolha entre repetir o setor ou atuar em novo domínio). Se a sua segunda curva será construída em outra companhia, o Capítulo 20 é a sequência direta após a Fase 20.
 
 ---
 
@@ -1936,7 +1936,7 @@ Para conduzir essa transição, aplique **A Engenharia do Desinvestimento Limpo*
 > [!note] Nota de validade
 > O regime societário brasileiro das sociedades limitadas é regulado pelos arts. 1.052 a 1.087 do Código Civil (com aplicação supletiva das normas da sociedade simples dos arts. 997 a 1.038 ou da Lei das Sociedades por Ações, e quóruns atualizados pelas Leis 13.792/2019 e 14.451/2022), as companhias por ações regem-se pela Lei 6.404/1976 e a ação judicial de dissolução parcial de sociedade segue o rito dos arts. 599 a 609 do Código de Processo Civil, com jurisprudência em evolução. Advogado societário especializado é essencial. Este capítulo é mapa operacional, não parecer jurídico.
 
-O [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 2: SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Capítulo 2 (Saúde Mental, Dinâmica de cofundadores e Humanidade do Fundador) (Vol. 1)]] cobre a dinâmica entre cofundadores como relação humana. O [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 5: ARQUITETURA CONTRATUAL PARA STARTUPS: OPERAÇÃO E CONTRATOS EM PROFUNDIDADE POR TIPO|Capítulo 5 (Arquitetura Contratual para Startups: Operação e Contratos em Profundidade por Tipo) (Vol. 8)]] cobre contratos. Este capítulo cobre o evento operacional mais comum e mal-executado nas startups brasileiras: o dia em que um sócio vai sair. Seja por decisão mútua, por conflito, por desempenho, por mudança de vida ou por oferta externa, cada startup tem probabilidade não zero de passar por isso. A diferença entre fazer bem e mal pode definir se a empresa sobrevive.
+O [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 2: SAÚDE MENTAL, DINÂMICA DE COFUNDADORES E HUMANIDADE DO FUNDADOR|Capítulo 2 (Saúde Mental, Dinâmica de cofundadores e Humanidade do Fundador) (Vol. 1)]] cobre a dinâmica entre cofundadores como relação humana. O [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 5: ARQUITETURA CONTRATUAL PARA STARTUPS: OPERAÇÃO E CONTRATOS EM PROFUNDIDADE POR TIPO|Capítulo 5 (Arquitetura Contratual para Startups: Operação e Contratos em Profundidade por Tipo) (Vol. 8)]] cobre contratos. Este capítulo cobre o evento operacional mais comum e mal-executado nas startups brasileiras: o dia em que um sócio vai sair. Seja por decisão mútua, por conflito, por desempenho, por mudança de vida ou por oferta externa, cada startup tem probabilidade não zero de passar por isso. A diferença entre fazer bem e mal pode definir se a empresa sobrevive.
 
 A saída de um sócio exige condução coordenada em seis frentes: a relacional, para administrar conversas difíceis e encerrar com maturidade um vínculo que deu origem à companhia. A jurídica, com alteração do contrato social ou estatuto e cláusulas expressas de aquisição gradual de participação (*vesting*), bloqueio temporário de venda (*lock-up*), não concorrência (*non-compete*) e confidencialidade. A financeira, com apuração de haveres, cronograma de recompra (*buyout*) compatível com o caixa e redistribuição das quotas. A operacional, para transferir responsabilidades, acessos e carteira de clientes sem vácuo de comando. A reputacional, alinhando a comunicação para equipe, investidores, bancos e clientes, e a estratégica, recompondo a governança para o novo ciclo.
 
@@ -2097,7 +2097,7 @@ Em uma startup de software, a pegada ambiental concentra-se no consumo de servid
 
 #### Social
 
-Nas semanas 3 a 5, Henrique atacou a frente social e de cadeia de suprimentos: aplicou auditoria documental e de conformidade trabalhista nos três fornecedores asiáticos de placas e sensores e implantou os protocolos obrigatórios de segurança do trabalho em espaços confinados (NR-33) e trabalho em altura (NR-35) para os técnicos que instalavam telemetria nos silos das cooperativas. Nas empresas de tecnologia e serviços em geral, a dimensão social também aparece diretamente no orçamento e na retenção: aumentar a diversidade exige ampliar o funil de recrutamento, revisar descrições de vagas, treinar entrevistadores e acompanhar metas trimestrais. Políticas de licença parental estendida têm impacto direto na folha, e a auditoria de equidade salarial (exigida semestralmente pela Lei 14.611/2023 para empresas com 100 ou mais empregados) expõe distorções históricas que precisam ser corrigidas. Soma-se a isso a proteção real à saúde mental da equipe (conectada ao [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 2: SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Capítulo 2 (Saúde Mental, Dinâmica de cofundadores e Humanidade do Fundador) (Vol. 1)]]) e a medição rigorosa de métricas de impacto do próprio produto (como os 30% de redução de desperdício energético e de defensivos comprovados nos clientes de Henrique).
+Nas semanas 3 a 5, Henrique atacou a frente social e de cadeia de suprimentos: aplicou auditoria documental e de conformidade trabalhista nos três fornecedores asiáticos de placas e sensores e implantou os protocolos obrigatórios de segurança do trabalho em espaços confinados (NR-33) e trabalho em altura (NR-35) para os técnicos que instalavam telemetria nos silos das cooperativas. Nas empresas de tecnologia e serviços em geral, a dimensão social também aparece diretamente no orçamento e na retenção: aumentar a diversidade exige ampliar o funil de recrutamento, revisar descrições de vagas, treinar entrevistadores e acompanhar metas trimestrais. Políticas de licença parental estendida têm impacto direto na folha, e a auditoria de equidade salarial (exigida semestralmente pela Lei 14.611/2023 para empresas com 100 ou mais empregados) expõe distorções históricas que precisam ser corrigidas. Soma-se a isso a proteção real à saúde mental da equipe (conectada ao [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 2: SAÚDE MENTAL, DINÂMICA DE COFUNDADORES E HUMANIDADE DO FUNDADOR|Capítulo 2 (Saúde Mental, Dinâmica de cofundadores e Humanidade do Fundador) (Vol. 1)]]) e a medição rigorosa de métricas de impacto do próprio produto (como os 30% de redução de desperdício energético e de defensivos comprovados nos clientes de Henrique).
 
 #### Semanas 6 a 8: Governança corporativa, conselho, ética e canal de denúncias
 
@@ -3566,6 +3566,7 @@ Para situações com dívida relevante com credores financeiros e/ou fornecedore
 O encerramento voluntário (*wind-down*) aplica-se quando não há perspectiva de continuidade e o ativo da empresa é suficiente para quitar ou transacionar amigavelmente 100% do passivo (como veremos na seção 4). Se o passivo superar o ativo e a empresa for inviável para recuperação judicial ou extrajudicial, a liquidação voluntária não fecha a conta e a lei impõe o pedido de **autofalência** pelo próprio devedor ou liquidante (CC, art. 1.103, VII, e Lei 11.101/2005, art. 105). Embora a reforma da Lei 14.112/2020 preveja a extinção das obrigações do falido em três anos após a decretação da falência (art. 158, V), atenção: nas sociedades limitadas e anônimas essa extinção refere-se à pessoa jurídica falida. Avais e fianças pessoais assinados pelos sócios continuam sendo cobrados normalmente pelos bancos, e os débitos tributários seguem regra própria de quitação no Código Tributário Nacional (art. 191), exigindo análise prévia com advogado.
 
 ```text
+Matriz rápida de decisão patrimonial e societária em crise:
 Matriz de decisão - qual caminho seguir:
 
 Situação                                       Opção prioritária
@@ -4173,14 +4174,14 @@ Na transição cultural e humana no Brasil, o componente emocional pesa tanto qu
 - [ ] Tolerância a dezoito a vinte e quatro meses de busca?
 - [ ] Investidores de busca identificados (No caso de *search fund* patrocinado)?
 - [ ] Conselheiro ou mentor com experiência prática em ETA engajado?
-- [ ] Investidores identificados (se traditional)?
-- [ ] Advisor, ou mentor, com experiência em ETA?
+
+
 - [ ] Estrutura legal básica?
 
 **Durante busca.**
 
-- [ ] Processo disciplinado de qualificação?
-- [ ] Pipeline de vinte a cinquenta oportunidades em avaliação constante?
+
+
 - [ ] Fluxo de prospecção ativo (50 a 200 empresas avaliadas nos primeiros meses)?
 - [ ] Fontes de originação proprietária mapeadas (escritórios regionais de contabilidade, advogados societários, sindicatos patronais, associações comerciais e boutiques de M&A do interior)?
 - [ ] Rede de contatos cultivada semanalmente (corretores, assessores e empresários do setor)?
@@ -4189,7 +4190,7 @@ Na transição cultural e humana no Brasil, o componente emocional pesa tanto qu
 
 - [ ] DD completa (financeira, comercial, operacional, legal, tributária, e trabalhista)?
 - [ ] Valuation triangulado?
-- [ ] Estrutura de financiamento definida (equity, debt, seller notes, e rollover)?
+
 - [ ] SPA robusto?
 - [ ] Plano de transição com vendedor?
 - [ ] Estrutura de financiamento fechada (capital dos investidores e *seller note* com o vendedor)?
@@ -4212,7 +4213,7 @@ Quando Gustavo completou cinco anos à frente da empresa de serviços ambientais
 Quer você esteja avaliando empreender via aquisição (ETA), quer seja dono de uma empresa consolidada buscando saída ou expansão, reflita sobre estas três questões:
 
 1. **O Filtro da Recorrência e Margem:** A empresa-alvo possui receita previsível/recorrente, margem EBITDA superior a 20%, baixa necessidade de investimento pesado em máquinas (CapEx) e carteira pulverizada onde nenhum cliente representa mais de 15% do faturamento?
-2. **A Engenharia do Seller Financing no Brasil:** Como a taxa de juros bancária brasileira (CDI) é estruturalmente alta, a operação foi desenhada com **50% a 70% de capital próprio (*equity*)** e **20% a 40% de saldo financiado a prazo pelos próprios vendedores**, evitando tomar dívida bancária cara (*seller note* corrigida por inflação/CDI moderado e vinculada a retenção de contingências), alinhando o interesse do antigo dono no seu sucesso?
+2. **A Engenharia do Financiamento pelo Vendedor (*Seller Note*) no Brasil:** Como a taxa de juros bancária brasileira (CDI) é estruturalmente alta, a sua operação foi desenhada com **50% a 70% de capital próprio (*equity*)** e **20% a 40% de saldo financiado a prazo pelos próprios vendedores**, evitando tomar dívida bancária cara (*seller note* corrigida por inflação ou fração moderada do CDI e vinculada à retenção para contingências) e alinhando o interesse do antigo dono ao seu sucesso?
 3. **A Humildade dos Primeiros 180 Dias:** Ao assumir como novo CEO de uma empresa construída ao longo de 20 anos, você terá a disciplina de dedicar os primeiros 180 dias (seis meses) a ouvir clientes, respeitar os gerentes antigos e dominar os detalhes invisíveis da operação antes de demitir pessoas ou trocar sistemas?
 
 **Regra de Sobrevivência:** Ao adquirir uma empresa brasileira de médio porte, o ativo mais valioso está nas relações de confiança que o fundador antigo construiu por vinte anos com clientes, fornecedores e gerentes-chave: estruture uma transição conjunta de 6 a 12 meses e um *seller note* alinhado para preservar esse capital relacional.
@@ -5091,7 +5092,7 @@ As armadilhas financeiras mais comuns são quatro. Gastos excessivos imediatos (
 
 As opções mais comuns são seis, e a maioria dos fundadores combina duas ou três delas.
 
-Segunda empresa (*second-time fundador*): o intervalo mais saudável antes de iniciar uma nova operação executiva é de 12 a 24 meses para encerrar compromissos, descansar e validar uma tese do zero. Ver [[#CAPÍTULO 20: SECOND-TIME FOUNDER|Capítulo 20 (Second-Time Fundador)]] e [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 2: SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Capítulo 2 (Saúde Mental, Dinâmica de Cofundadores e Humanidade do Fundador) (Vol. 1)]].
+Segunda empresa (*second-time fundador*): o intervalo mais saudável antes de iniciar uma nova operação executiva é de 12 a 24 meses para encerrar compromissos, descansar e validar uma tese do zero. Ver [[#CAPÍTULO 20: O FUNDADOR DE SEGUNDA VIAGEM (SECOND-TIME FOUNDER)|Capítulo 20 (Second-Time Fundador)]] e [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 2: SAÚDE MENTAL, DINÂMICA DE COFUNDADORES E HUMANIDADE DO FUNDADOR|Capítulo 2 (Saúde Mental, Dinâmica de Cofundadores e Humanidade do Fundador) (Vol. 1)]].
 
 Gestão de capital de risco (*venture capital*): estruturar um fundo próprio ou ingressar como sócio operacional (*operating partner* ou *general partner*) em uma gestora estabelecida. Aproveita a experiência de construção de empresas, mas exige disciplina fiduciária de gestão de portfólio em tempo integral.
 
@@ -5840,7 +5841,7 @@ Faça a autópsia preventiva da sua própria empresa hoje respondendo sem filtro
 
 ---
 
-## CAPÍTULO 20: SECOND-TIME FOUNDER
+## CAPÍTULO 20: O FUNDADOR DE SEGUNDA VIAGEM (SECOND-TIME FOUNDER)
 
 ### A Maldição do Segundo Álbum: As Vantagens Assimétricas e os Pontos Cegos do Empreendedor de Segunda Viagem
 
@@ -5857,7 +5858,7 @@ Você precisa separar **A Alavanca Legítima do Veterano** da **Arrogância do A
 >
 > - [[IGNICAO-Vol-2-Descoberta-e-Mercado#CAPÍTULO 3: CASOS DE FRACASSO BRASILEIROS E LIÇÕES|Capítulo 3 (Casos de Fracasso Brasileiros e Lições) (Vol. 2)]] e [[#CAPÍTULO 19: POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE|Capítulo 19 (Post-Mortems Brasileiros: Catálogo de Casos em Profundidade)]] para os padrões de falha que fundadores veteranos costumam conhecer, mas ainda assim arriscam repetir quando relaxam na validação
 > - [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 3: ARMADILHAS MENTAIS E VIESES|Capítulo 3 (Armadilhas Mentais e Vieses) (Vol. 1)]] e [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 6: TOMADA DE DECISÃO COMO DISCIPLINA|Capítulo 6 (Tomada de Decisão como Disciplina) (Vol. 1)]] para os vieses cognitivos mais frequentes na segunda jornada (excesso de confiança e ancoragem no modelo da empresa anterior)
-> - [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 2: SAÚDE MENTAL, DINÂMICA DE CO-FOUNDERS E HUMANIDADE DO FUNDADOR|Capítulo 2 (Saúde Mental, Dinâmica de Cofundadores e Humanidade do Fundador) (Vol. 1)]] para a dimensão humana e familiar do recomeço
+> - [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 2: SAÚDE MENTAL, DINÂMICA DE COFUNDADORES E HUMANIDADE DO FUNDADOR|Capítulo 2 (Saúde Mental, Dinâmica de Cofundadores e Humanidade do Fundador) (Vol. 1)]] para a dimensão humana e familiar do recomeço
 
 > [!note] Aplicabilidade
 > Este capítulo aplica-se tanto ao fundador que realizou um *exit* financeiro na primeira startup quanto àquele que precisou encerrar ou deixar sua operação anterior com aprendizado prático e decide voltar a construir do zero.

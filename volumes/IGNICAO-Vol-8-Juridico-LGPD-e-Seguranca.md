@@ -75,7 +75,7 @@ graph LR
 - [[#CAPÍTULO 10: REGULATÓRIO DE IA NO BRASIL|CAPÍTULO 10: REGULATÓRIO DE IA NO BRASIL]]
 - [[#CAPÍTULO 11: COMPLIANCE E ANTICORRUPÇÃO PARA STARTUPS|CAPÍTULO 11: COMPLIANCE E ANTICORRUPÇÃO PARA STARTUPS]]
 - [[#CAPÍTULO 12: FRAUDE INTERNA E CONTROLES INTERNOS|CAPÍTULO 12: FRAUDE INTERNA E CONTROLES INTERNOS]]
-- [[#CAPÍTULO 13: SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA|CAPÍTULO 13: SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA]]
+- [[#CAPÍTULO 13: SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA DEFENSIVA|CAPÍTULO 13: SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA]]
 
 ---
 
@@ -2696,7 +2696,7 @@ Deixar de aplicar o reajuste da data-base gera passivo trabalhista imediato, e o
 
 ---
 
-### Armadilhas trabalhistas recorrentes: cobrar horário de PJ no WhatsApp, falso cargo de confiança e pagamento por fora
+### Armadilhas trabalhistas recorrentes: cobrar horário de PJ no WhatsApp, falso cargo de confiança, justa causa sem dossiê e pagamento por fora
 
 **1. Contratar como PJ quem trabalha com subordinação e rotina de empregado.**
 
@@ -2739,7 +2739,7 @@ O que ter em ordem antes de crescer o time além dos primeiros 5 colaboradores:
 - [ ] Banco de horas com acordo individual escrito, se utilizado.
 - [ ] Contratos de home office formalizados e registrados no eSocial.
 - [ ] Plantões técnicos com escala formal e adicional de sobreaviso.
-- [ ] FGTS recolhido mensalmente até o dia 20 do mês seguinte via Pix pelo sistema FGTS Digital (art. 15 da Lei 8.036/1990, com redação da Lei 14.438/2022).
+- [ ] FGTS recolhido mensalmente até o dia 20 do mês seguinte via Pix pelo sistema FGTS Digital (art. 15 da Lei 8.036/1990, com redação da Lei 14.438/2022, o atraso sujeita a empresa a multa de 5% no mês do vencimento e de 10% a partir do mês seguinte, além de atualização e juros de 0,5% ao mês pelo art. 22 da Lei 8.036/1990).
 - [ ] Vale-Transporte ativo e desconto dentro do limite de 6%.
 - [ ] Sindicato patronal identificado e CCT do setor monitorada.
 - [ ] Data-base registrada e reajuste anual aplicado.
@@ -2820,7 +2820,7 @@ O modelo B2B2C cria ambiguidade relevante: sua startup vende para uma empresa (B
 
 ---
 
-### 2. Os Direitos Inegociáveis: Arrependimento em 7 Dias (Art. 49), Responsabilidade Objetiva e Inversão do Ônus da Prova
+### 2. Os Direitos Inegociáveis do Consumidor: Arrependimento em 7 Dias (Art. 49), Responsabilidade Objetiva (Arts. 12 e 14) e Inversão do Ônus da Prova (Art. 6º, VIII)
 
 **Direito de arrependimento: Art. 49 do CDC**
 
@@ -3204,7 +3204,7 @@ Este capítulo examina as quatro frentes de litígio mais comuns nas startups br
 
 ---
 
-### 1. Arbitragem vs. Poder Judiciário: Por Que uma Cláusula Arbitral Mal Colocada Pode Custar Mais de R$ 100 Mil de Entrada
+### 1. Arbitragem versus Poder Judiciário: Por Que uma Cláusula Arbitral Mal Colocada Pode Custar Mais de R$ 100 Mil de Entrada
 
 Colocar cláusula compromissória de arbitragem por inércia em contratos comerciais de médio porte cria uma armadilha financeira: entre taxa de registro, taxa de administração da câmara e adiantamento de honorários de três árbitros, o custo inicial para instaurar ou responder a um procedimento em câmara de primeira linha facilmente supera R$ 100 mil a R$ 150 mil antes mesmo da primeira audiência.
 
@@ -3226,7 +3226,7 @@ Antes de mergulhar na mecânica judicial de cada vetor, vale compreender as duas
 
 ---
 
-### 2. Contencioso trabalhista: quando fechar acordo na audiência inicial e quando sustentar a defesa até o TST
+### 2. Contencioso trabalhista: critérios objetivos para fechar acordo na audiência inicial ou sustentar a defesa até o TST e o STF
 
 A área trabalhista concentra o maior passivo contingente em startups operacionais. Três razões explicam:
 
@@ -3380,21 +3380,21 @@ O Código de Defesa do Consumidor cria responsabilidade objetiva por defeito do 
 
 **Estratégia de resposta por canal**
 
-```text
-CANAL           PRAZO TÍPICO   RESPOSTA PRIORITÁRIA
+| Canal de Atendimento / Disputa | Prazo Típico de Resposta | Conduta Prioritária da Startup |
+| :--- | :--- | :--- |
+| **PROCON** | **10 dias** (conforme notificação administrativa local) | Designar responsável interno, responder sempre por escrito com dossiê técnico e propor composição amigável quando cabível |
+| **Consumidor.gov.br / Reclame Aqui** | **Até 10 dias** na plataforma oficial (ideal < 48h) | Tratar a reclamação diretamente pela equipe de CS/Operações com autonomia para estorno ou reparo imediato antes que vire processo |
+| **Juizado Especial Cível (JEC individual)** | Audiência inicial em **30 a 60 dias** | Comparecer obrigatoriamente com preposto e advogado, levando logs auditáveis e proposta de acordo pré-aprovada se houve falha operacional |
+| **Ação Civil Pública / Coletiva (MP ou Associações)** | Prazo legal de contestação após citação | Acionar imediatamente banca especializada em contencioso coletivo, mapear a extensão real do evento e demonstrar correção imediata na origem |
 
-PROCON          10 dias (conf. Designar responsável interno,
-                notificação)   responder sempre por escrito,
-                               propor acordo quando possível
 
-JEC individual  Audiência em   Advogado presente, levar
-                30-60 dias     documentação completa,
-                               avaliar acordo antes da audiência
 
-Ação coletiva   Citação        Advogado especialista em
-                               ações civis públicas e coletivas imediatamente,
-                               mapear escopo do dano potencial
-```
+
+
+
+
+
+
 
 Para startups com volume alto de reclamações no Juizado Especial Cível (JEC), agrupe semanalmente as ações por causa raiz: se a maior parte das demandas decorre do mesmo ponto de fricção (como atraso de transportadora, falha de estorno no Pix ou obstáculo de cancelamento, exatamente como ocorreu com Rafael e Bia no Capítulo 7), o problema é de produto e operação, não jurídico. Corrigir o fluxo no software estanca a entrada de novas ações na origem por uma fração do custo de contestar centenas de processos individuais.
 
@@ -3592,7 +3592,7 @@ Para vender a grandes corporações, operar em setores regulados ou passar pelo 
 > [!abstract] Mapa dos capítulos de governança, regulação e cibersegurança
 > Os cinco capítulos finais deste volume conectam proteção de dados, regulação de IA, integridade corporativa, controles antifraude e engenharia de segurança às exigências de auditoria de clientes *enterprise* e investidores institucionais:
 > - **Governança de dados e IA:** [[#CAPÍTULO 9: LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Capítulo 9 (LGPD, Compliance e Governança de Dados)]] e [[#CAPÍTULO 10: REGULATÓRIO DE IA NO BRASIL|Capítulo 10 (Regulatório de IA no Brasil)]]
-> - **Integridade, controles internos e segurança:** [[#CAPÍTULO 11: COMPLIANCE E ANTICORRUPÇÃO PARA STARTUPS|Capítulo 11 (Compliance e Anticorrupção para Startups)]], [[#CAPÍTULO 12: FRAUDE INTERNA E CONTROLES INTERNOS|Capítulo 12 (Fraude Interna e Controles Internos)]] e [[#CAPÍTULO 13: SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA|Capítulo 13 (Segurança da Informação: Da Certificação à Engenharia)]]
+> - **Integridade, controles internos e segurança:** [[#CAPÍTULO 11: COMPLIANCE E ANTICORRUPÇÃO PARA STARTUPS|Capítulo 11 (Compliance e Anticorrupção para Startups)]], [[#CAPÍTULO 12: FRAUDE INTERNA E CONTROLES INTERNOS|Capítulo 12 (Fraude Interna e Controles Internos)]] e [[#CAPÍTULO 13: SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA DEFENSIVA|Capítulo 13 (Segurança da Informação: Da Certificação à Engenharia)]]
 > - **Conexões com outros volumes:** [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 1: BOARD E GOVERNANCE|Capítulo 1 (Board e Governance) (Vol. 9)]], [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9: GESTÃO DE CRISE, CONTINUIDADE OPERACIONAL E COMUNICAÇÃO CRÍTICA|Capítulo 9 (Gestão de Crise, Continuidade Operacional e Comunicação Crítica) (Vol. 9)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 8: GESTÃO DE RISCO E SEGUROS PARA STARTUPS|Capítulo 8 (Gestão de Risco e Seguros para Startups) (Vol. 5)]] e [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 4: REGULATÓRIO SETORIAL BRASILEIRO|Capítulo 4 (Regulatório Setorial Brasileiro) (Vol. 10)]]
 
 ---
@@ -3612,7 +3612,7 @@ Você precisa abandonar **O Teatro do Banner de Cookies** e construir **A Govern
 > [!note] Posição no livro
 > Este capítulo estrutura o programa prático de proteção de dados pessoais (LGPD, Lei 13.709/2018), a atuação perante a Agência Nacional de Proteção de Dados (ANPD) e a responsabilidade civil das aplicações digitais sob o Marco Civil da Internet.
 > Capítulos vizinhos:
-> - [[#CAPÍTULO 13: SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA|Capítulo 13 (Segurança da Informação: Da Certificação à Engenharia)]], controles técnicos de criptografia, gestão de acessos, retenção de logs e certificações SOC 2 e ISO 27001
+> - [[#CAPÍTULO 13: SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA DEFENSIVA|Capítulo 13 (Segurança da Informação: Da Certificação à Engenharia)]], controles técnicos de criptografia, gestão de acessos, retenção de logs e certificações SOC 2 e ISO 27001
 > - [[#CAPÍTULO 10: REGULATÓRIO DE IA NO BRASIL|Capítulo 10 (Regulatório de IA no Brasil)]], decisões automatizadas (art. 20 da LGPD), treinamento de algoritmos com dados pessoais e governança de modelos
 > - [[#CAPÍTULO 5: ARQUITETURA CONTRATUAL PARA STARTUPS: OPERAÇÃO E CONTRATOS EM PROFUNDIDADE POR TIPO|Capítulo 5 (Arquitetura Contratual para Startups: Operação e Contratos em Profundidade por Tipo)]], aditivos de proteção de dados (DPAs), termos de uso e alocação de responsabilidade contratual
 > - [[#CAPÍTULO 7: DIREITO DO CONSUMIDOR E CDC PARA STARTUPS|Capítulo 7 (Direito do Consumidor e CDC para Startups)]], transparência no uso de dados do consumidor e fiscalização conjunta com a Senacon e os Procons
@@ -3705,7 +3705,7 @@ A função pode ser exercida por um profissional interno (desde que não haja co
 
 - **Controle de acesso pelo princípio do menor privilégio:** cada colaborador acessa exclusivamente os registros necessários para sua função, com autenticação multifator (MFA) obrigatória e revisão periódica de permissões. Na Semana 1 do projeto em Belo Horizonte, a primeira providência da Dra. Camila foi revogar todos os links públicos do Google Drive e migrar as radiografias e prontuários para armazenamento criptografado com controle de acesso estrito por perfil clínico.
 
-- **Registros de auditoria (*logs*) e prazos mínimos de retenção:** registre quem acessou, exportou ou alterou cada dado sensível e quando, observando os pisos legais de guarda (detalhados no [[#CAPÍTULO 13: SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA|Capítulo 13]]): no mínimo **6 meses** para registros de acesso a aplicações de internet (art. 15 do Marco Civil da Internet), **1 ano** para trilhas de segurança e auditoria técnica (requisito 10.5.1 do PCI DSS e prática recomendada em auditorias SOC 2 e ISO 27001), **5 anos** para registros internos de incidentes de segurança da informação, mesmo quando não comunicados à ANPD (art. 10, § 2º, da Resolução CD/ANPD nº 15/2024), bem como para documentos fiscais e previdenciários correntes, e **20 anos** para prontuários médicos, odontológicos e de saúde ocupacional (Lei 13.787/2018 e NR-7).
+- **Registros de auditoria (*logs*) e prazos mínimos de retenção:** registre quem acessou, exportou ou alterou cada dado sensível e quando, observando os pisos legais de guarda (detalhados no [[#CAPÍTULO 13: SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA DEFENSIVA|Capítulo 13]]): no mínimo **6 meses** para registros de acesso a aplicações de internet (art. 15 do Marco Civil da Internet), **1 ano** para trilhas de segurança e auditoria técnica (requisito 10.5.1 do PCI DSS e prática recomendada em auditorias SOC 2 e ISO 27001), **5 anos** para registros internos de incidentes de segurança da informação, mesmo quando não comunicados à ANPD (art. 10, § 2º, da Resolução CD/ANPD nº 15/2024), bem como para documentos fiscais e previdenciários correntes, e **20 anos** para prontuários médicos, odontológicos e de saúde ocupacional (Lei 13.787/2018 e NR-7).
 
 - **Cópias de segurança (*backups*) com restauração testada:** mantenha backups automatizados, isolados e imutáveis, executando testes práticos de restauração (*restore*) a cada trimestre.
 
@@ -3713,7 +3713,7 @@ A função pode ser exercida por um profissional interno (desde que não haja co
 
 - **Plano de resposta a incidentes documentado:** mantenha um roteiro prático (*runbook*) definindo responsáveis, contenção técnica, preservação forense e fluxo de notificação.
 
-Nas vendas corporativas (*enterprise*), esses controles técnicos são auditados por meio de relatórios de asseguração **SOC 2** (Tipo I e Tipo II) ou certificação **ISO/IEC 27001**, temas aprofundados no [[#CAPÍTULO 13: SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA|Capítulo 13]].
+Nas vendas corporativas (*enterprise*), esses controles técnicos são auditados por meio de relatórios de asseguração **SOC 2** (Tipo I e Tipo II) ou certificação **ISO/IEC 27001**, temas aprofundados no [[#CAPÍTULO 13: SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA DEFENSIVA|Capítulo 13]].
 
 #### 5. Contratos com operadores (terceiros)
 
@@ -3801,7 +3801,7 @@ A LGPD disciplina especificamente o tratamento de dados pessoais, mas a operaç�
 
 **Política Nacional de Cibersegurança (Decreto 11.856/2023) e transformação da ANPD em Agência Reguladora (Lei 15.352/2026).** O Decreto 11.856/2023 instituiu a Política Nacional de Cibersegurança (PNCiber) e o Comitê Nacional de Cibersegurança (CNCiber), cujas diretrizes de maturidade e resiliência irradiam exigências para fornecedores de tecnologia que contratam com a administração pública e com infraestruturas decisivas. Em paralelo, a ANPD, que já detinha natureza de autarquia especial desde a Lei 14.460/2022, foi transformada na **Agência Nacional de Proteção de Dados** pela **Lei 15.352, de 25 de fevereiro de 2026** (conversão da MP 1.317/2025), integrando formalmente o rol das agências reguladoras federais com quadro próprio de regulação e fiscalização.
 
-**Recomendação prática para plataformas com conteúdo de usuários.** Estruture quatro entregáveis operacionais além do programa clássico de LGPD: (1) Termos de Uso sólidos com regras explícitas de moderação (definindo condutas vedadas, prazos de análise e direito de defesa do usuário), (2) canal público e acessível para recebimento de notificações extrajudiciais de conteúdo ilícito, (3) registro auditável (*log*) de todas as denúncias recebidas, análises realizadas e remoções efetuadas com carimbo de tempo, e (4) fluxo integrado com o jurídico para remoção ágil de conteúdos ilícitos notificados (em 24 a 72 horas) e cumprimento imediato de ordens judiciais. Consulte também o [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 4: MARKETPLACES, PLATAFORMAS E EFEITOS DE REDE: LIQUIDEZ, OVO-E-GALINHA E RISCO DE PLATAFORMA|Capítulo 4 do Volume 3]] (marketplaces), o [[#CAPÍTULO 7: DIREITO DO CONSUMIDOR E CDC PARA STARTUPS|Capítulo 7]] (CDC), o [[#CAPÍTULO 13: SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA|Capítulo 13]] (segurança da informação) e o [[#CAPÍTULO 8: CONTENCIOSO E LITÍGIO PARA STARTUPS|Capítulo 8]] (contencioso).
+**Recomendação prática para plataformas com conteúdo de usuários.** Estruture quatro entregáveis operacionais além do programa clássico de LGPD: (1) Termos de Uso sólidos com regras explícitas de moderação (definindo condutas vedadas, prazos de análise e direito de defesa do usuário), (2) canal público e acessível para recebimento de notificações extrajudiciais de conteúdo ilícito, (3) registro auditável (*log*) de todas as denúncias recebidas, análises realizadas e remoções efetuadas com carimbo de tempo, e (4) fluxo integrado com o jurídico para remoção ágil de conteúdos ilícitos notificados (em 24 a 72 horas) e cumprimento imediato de ordens judiciais. Consulte também o [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 4: MARKETPLACES, PLATAFORMAS E EFEITOS DE REDE: LIQUIDEZ, OVO-E-GALINHA E RISCO DE PLATAFORMA|Capítulo 4 do Volume 3]] (marketplaces), o [[#CAPÍTULO 7: DIREITO DO CONSUMIDOR E CDC PARA STARTUPS|Capítulo 7]] (CDC), o [[#CAPÍTULO 13: SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA DEFENSIVA|Capítulo 13]] (segurança da informação) e o [[#CAPÍTULO 8: CONTENCIOSO E LITÍGIO PARA STARTUPS|Capítulo 8]] (contencioso).
 
 ### Checklist Operacional de Adequação à LGPD e Regulação da ANPD
 
@@ -4066,7 +4066,7 @@ A **ANPD (Agência Nacional de Proteção de Dados)** consolidou sua atuação s
 
 ---
 
-### 5. Viés Algorítmico e Discriminação Indireta: Como Auditar Seus Modelos Antes Que Eles Virem Ação Civil Pública
+### 5. Viés Algorítmico e Discriminação Indireta: Protocolo de 4 Passos para Auditar Seus Modelos Antes Que Virem Ação Civil Pública
 
 Viés algorítmico é um problema técnico. Mas já é também um problema jurídico. E vai se tornar mais explicitamente um problema jurídico à medida que o PL 2338/2023 for aprovado.
 
@@ -4162,7 +4162,7 @@ No Brasil, a Lei 9.610/1998 vigente ainda não traz exceção específica para m
 
 ---
 
-### 7. Cláusulas Obrigatórias em Contratos de IA: Zero Data Retention, Alocação de Responsabilidade por Alucinação e SLA
+### 7. Cláusulas Obrigatórias em Contratos de IA: Retenção Zero (ZDR), Alocação de Responsabilidade e SLA
 
 Escolher a API da OpenAI, da Anthropic ou do Google define não apenas a arquitetura técnica, mas também o regime contratual de retenção de dados, confidencialidade e transferência internacional da sua startup. Os Termos de Uso desses fornecedores têm cláusulas que afetam sua posição perante usuários, reguladores e a própria LGPD.
 
@@ -4617,7 +4617,7 @@ Um programa de integridade mínimo viável nos moldes da Seção 3 deste capítu
 
 ### 5. A Ponte Operacional Entre Compliance Anticorrupção, Governança de Dados (Capítulo 9) e Segurança (Capítulo 13)
 
-Para evitar estruturas paralelas e retrabalho, empresas enxutas integram a rotina do programa de integridade anticorrupção (Lei 12.846/2013) à governança de proteção de dados detalhada no [[#CAPÍTULO 9: LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Capítulo 9]] e aos controles técnicos de segurança da informação do [[#CAPÍTULO 13: SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA|Capítulo 13]]. Na prática, os três programas compartilham a mesma avaliação prévia de fornecedores (unificando o questionário anticorrupção e o acordo de processamento de dados pessoais), o mesmo canal de recebimento de relatos e o mesmo comitê de resposta a incidentes.
+Para evitar estruturas paralelas e retrabalho, empresas enxutas integram a rotina do programa de integridade anticorrupção (Lei 12.846/2013) à governança de proteção de dados detalhada no [[#CAPÍTULO 9: LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Capítulo 9]] e aos controles técnicos de segurança da informação do [[#CAPÍTULO 13: SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA DEFENSIVA|Capítulo 13]]. Na prática, os três programas compartilham a mesma avaliação prévia de fornecedores (unificando o questionário anticorrupção e o acordo de processamento de dados pessoais), o mesmo canal de recebimento de relatos e o mesmo comitê de resposta a incidentes.
 
 Sob a Lei Geral de Proteção de Dados Pessoais (Lei 13.709/2018), a **Agência Nacional de Proteção de Dados (ANPD, transformada em agência reguladora pela Lei 15.352/2026)** aplica sanções administrativas que chegam a 2% do faturamento no Brasil (limitadas a R$ 50 milhões por infração), além da suspensão parcial do funcionamento do banco de dados ou da atividade de tratamento (art. 52 da LGPD e Resolução CD/ANPD nº 04/2023). Por isso, o responsável por *compliance* e o Encarregado pelo tratamento de dados (DPO) devem operar com um calendário único de execução nos primeiros 90 dias:
 
@@ -4926,7 +4926,7 @@ A conta não fecha a favor de ignorar compliance. Fecha a favor de construir ced
 **Ver também:**
 
 - [[#CAPÍTULO 12: FRAUDE INTERNA E CONTROLES INTERNOS|Capítulo 12: Fraude Interna e Controles Internos]], segregação de funções, dupla alçada bancária e resposta a desvios internos
-- [[#CAPÍTULO 13: SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA|Capítulo 13: Segurança da Informação: Da Certificação à Engenharia]], dimensão técnica de proteção de dados e homologação de segurança
+- [[#CAPÍTULO 13: SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA DEFENSIVA|Capítulo 13: Segurança da Informação: Da Certificação à Engenharia]], dimensão técnica de proteção de dados e homologação de segurança
 - [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 12: VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 12: Validação do Modelo de Negócio e Mapeamento de Riscos (Vol. 4)]], identificação preventiva de riscos regulatórios e operacionais no modelo de negócio
 - [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16: TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16: Time, Liderança Executiva e Cultura em Escala (Vol. 6)]], evolução da governança, conselho e cultura ética no crescimento
 - [[IGNICAO-Vol-9-Maturidade-e-Exit#FASE 20: ESTRATÉGIA DE SAÍDA (EXIT STRATEGY)|Fase 20: Estratégia de Saída (Exit Strategy) (Vol. 9)]], *due diligence* de M&A e IPO em que o histórico de integridade é auditado
@@ -4967,7 +4967,7 @@ Você não controla as dívidas pessoais nem as intenções íntimas de ninguém
 > - [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5: CAPITAL DE GIRO, RECEBÍVEIS E GESTÃO DE CAIXA EM PROFUNDIDADE|Capítulo 5 (Capital de Giro, Recebíveis e Gestão de Caixa em Profundidade) (Vol. 5)]], rotina de tesouraria e fluxo de caixa operacional
 > - [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9: GESTÃO DE CRISE, CONTINUIDADE OPERACIONAL E COMUNICAÇÃO CRÍTICA|Capítulo 9 (Gestão de Crise, Continuidade Operacional e Comunicação Crítica) (Vol. 9)]], resposta operacional quando a fraude vira crise
 > - [[#CAPÍTULO 11: COMPLIANCE E ANTICORRUPÇÃO PARA STARTUPS|Capítulo 11 (Compliance e Anticorrupção para Startups)]], programa de integridade, Lei Anticorrupção (Lei 12.846/2013) e controles internos pré-auditoria
-> - [[#CAPÍTULO 13: SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA|Capítulo 13 (Segurança da Informação: Da Certificação à Engenharia)]], controle técnico de acesso e auditoria de logs
+> - [[#CAPÍTULO 13: SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA DEFENSIVA|Capítulo 13 (Segurança da Informação: Da Certificação à Engenharia)]], controle técnico de acesso e auditoria de logs
 > - [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 8: GESTÃO DE RISCO E SEGUROS PARA STARTUPS|Capítulo 8 (Gestão de Risco e Seguros para Startups) (Vol. 5)]], seguro de crime corporativo / fidelidade para perdas diretas por desvio e seguro D&O para defesa de administradores
 
 > [!warning] Tema sensível
@@ -5158,7 +5158,7 @@ Abra o gerenciador bancário e o sistema financeiro da sua empresa agora mesmo e
 
 ---
 
-## CAPÍTULO 13: SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA
+## CAPÍTULO 13: SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA DEFENSIVA
 
 ### Segurança Como Desbloqueador de Receita Enterprise e o Dia em que o CISO do Banco Barra Seu Contrato
 

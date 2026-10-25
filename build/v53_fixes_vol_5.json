@@ -225,7 +225,7 @@
   },
   {
     "line": 219,
-    "newText": "| Magic Number (eficiência de S&M) | ≥ 0,5 | ≥ 0,75 (meta em Growth) | ≥ 1,0 (escala acelerada) |"
+    "newText": "| Magic Number (eficiência de Vendas e Marketing) | ≥ 0,5 | ≥ 0,75 (meta em Growth) | ≥ 1,0 (escala eficiente) |"
   },
   {
     "line": 221,
@@ -565,7 +565,7 @@
   },
   {
     "line": 653,
-    "newText": "Valor = Σ [FCFt ÷ (1 + r)^t] + [Valor Terminal ÷ (1 + r)^n] (em que o Valor Terminal também deve ser descontado a valor presente pelo fator do último ano projetado n)"
+    "newText": "Valor = Σ [FCFt ÷ (1 + r)^t] + [Valor Terminal ÷ (1 + r)^n] (descontando tanto os fluxos anuais explícitos quanto o Valor Terminal a valor presente pelo custo de capital r)"
   },
   {
     "line": 671,
@@ -757,7 +757,7 @@
   },
   {
     "line": 1037,
-    "newText": "    NP & PA --> D4[\"4º Acionistas Common e ESOP exercido<br/>recebem sua fatia pro-rata do saldo\"]"
+    "newText": "    NP & PA --> D4[\"4º Acionistas Ordinários (Common) e ESOP exercido<br/>recebem sua fatia pro-rata do saldo\"]"
   },
   {
     "line": 1043,
@@ -765,7 +765,7 @@
   },
   {
     "line": 1067,
-    "newText": "| Fundador A | Ordinárias (ON) | 4.000.000 | 30,0% (sobre base total de 13.333.333 ações) | Sem preferência | Sem preferência |"
+    "newText": "| Fundador A | Ordinárias (ON) | 4.000.000 | 30,0% (sobre a base total de 13.333.333 ações) | Sem preferência | Sem preferência |"
   },
   {
     "line": 1068,
@@ -3033,7 +3033,11 @@
   },
   {
     "line": 4552,
-    "newText": "### Usando o Open Finance PJ para colocar bancos em leilão reverso pela sua taxa de juros"
+    "newText": "### Usando o Open Finance PJ para colocar bancos em disputa pela sua taxa de juros"
+  },
+  {
+    "line": 4554,
+    "newText": "Implantado pelo Banco Central do Brasil a partir de 2021, o Open Finance permite que empresas com operação bancária limpa (como fizeram Lucas e Marina ao compartilhar o histórico de recebimentos e conciliação da plataforma com três instituições simultaneamente) usem seus dados reais de fluxo de caixa para reduzir o *spread* de linhas de capital de giro."
   },
   {
     "line": 4562,
@@ -3545,7 +3549,7 @@
   },
   {
     "line": 5209,
-    "newText": "O risk register é o documento central de gestão de riscos. Para startups, o formato mínimo funcional é uma tabela simples:"
+    "newText": "O registro de riscos (*risk register*) consolida em uma única tabela operacional as ameaças monitoradas pela diretoria e pelo conselho:"
   },
   {
     "line": 5218,
@@ -4125,11 +4129,15 @@
   },
   {
     "line": 5748,
-    "newText": "Universo potencial. Trinta a oitenta fundos. Segmentar por estágio (seed, A, B, growth, PE), geografia (BR, LatAm, US, Global), tese (SaaS, fintech, marketplace, health, etc.), tamanho de cheque (nas faixas típicas observadas no Brasil em 2025-2026 segundo levantamentos da ABVCAP e do Distrito: Seed de R$ 2 milhões a R$ 12 milhões, Série A de R$ 8 milhões a R$ 45 milhões, Série B de R$ 45 milhões a R$ 150 milhões e Série C acima de R$ 150 milhões), e atividade recente (fundo que captou LP recentemente, versus fundo em fim de ciclo, sem dry powder: *dry powder* é o capital comprometido por LPs ao fundo mas ainda não desembolsado em investimentos, ou seja, a \"munição disponível\"; fundo no fim do ciclo de investimento já desembolsou a maior parte e prioriza follow-ons no portfólio existente, não novos investimentos)."
+    "newText": "**Mapeamento do universo potencial (30 a 80 fundos):** segmente previamente as gestoras por estágio de atuação (*Seed*, Série A, Série B, *Growth*), geografia (Brasil, América Latina, EUA ou global), tese setorial, faixa de cheque (nas referências observadas no Brasil em 2025-2026 segundo ABVCAP e Distrito: *Seed* de R$ 2 milhões a R$ 12 milhões, Série A de R$ 8 milhões a R$ 45 milhões, Série B de R$ 45 milhões a R$ 150 milhões e Série C acima de R$ 150 milhões) e momento de carteira (priorizando fundos com capital recém-captado disponível para novos aportes, *dry powder*, em vez de veículos em fim de período de investimento que reservam saldo apenas para *follow-on* do portfólio atual)."
+  },
+  {
+    "line": 5750,
+    "newText": "**Fontes de pesquisa e qualificação:** combine bases públicas e setoriais (relatórios da ABVCAP, mapeamentos do Distrito, Crunchbase, Dealroom e PitchBook) com consulta direta a fundadores que captaram nos últimos doze meses e mapeamento no LinkedIn dos sócios (*partners*) responsáveis pela sua vertical."
   },
   {
     "line": 5754,
-    "newText": "De trinta a oitenta para dez a quinze alvos primários. Critérios. Tese alinhada (investe em SaaS? No seu setor?). Partner com track record relevante. Ticket size compatível. Relationship leverage (existing investor, board advisor, ou founder network, pode introduzir). Reputação no mercado (fundo que respeita founders, versus fundo que tem fama de negociação pesada)."
+    "newText": "**Priorização da lista-alvo (10 a 15 fundos prioritários):** filtre o mapeamento inicial para as dez a quinze gestoras que reúnem simultaneamente tese aderente ao seu modelo, sócio com histórico comprovado no setor, cheque compatível com a rodada, ponte quente de apresentação (*warm intro* via fundador investido ou conselheiro) e reputação sólida de parceria pós-investimento."
   },
   {
     "line": 5758,
@@ -4157,7 +4165,11 @@
   },
   {
     "line": 5773,
-    "newText": "Sessenta a noventa minutos. Agenda típica. Cinco minutos, quebra-gelo. Trinta a quarenta minutos, deck pitch. Vinte a trinta minutos, Q&A."
+    "newText": "**Duração e roteiro da primeira reunião (60 a 90 minutos):** estruture a conversa em três blocos: cinco minutos iniciais de contexto e conexão, trinta a quarenta minutos de apresentação da tese e das métricas centrais com espaço para perguntas, e vinte a trinta minutos finais de aprofundamento técnico e definição de próximos passos."
+  },
+  {
+    "line": 5775,
+    "newText": "**Critério objetivo de qualificação ao final da conversa:** avalie o interesse real pelo compromisso de agenda: fundos genuinamente engajados saem da reunião com data de retorno, pedido de acesso ao *data room* ou apresentação aos demais sócios; respostas vagas sem próximo passo datado indicam baixa prioridade e não devem travar o seu cronograma."
   },
   {
     "line": 5779,
@@ -4449,7 +4461,7 @@
   },
   {
     "line": 6142,
-    "newText": "### Método 2: Fluxo de Caixa Descontado (DCF) e o peso brutal do custo de capital (WACC + Selic) no Brasil"
+    "newText": "### Método 2: Fluxo de Caixa Descontado (DCF) e o peso real do custo de capital (WACC e Selic) no Brasil"
   },
   {
     "line": 6146,
@@ -4509,7 +4521,7 @@
   },
   {
     "line": 6234,
-    "newText": "WACC Brasil em dólar (mesmo perfil): 15% a 22% a.a. em dólar (somando o prêmio de risco-país ao WACC americano); já em reais nominais, somando o diferencial de inflação e partindo da Selic de 13,75% a.a. em outubro de 2026, o custo de capital corporativo fica acima de 18% a 25% a.a., enquanto para startups em Série A a taxa de desconto efetiva é a TIR exigida pelos fundos de VC (30% a 50% a.a.)"
+    "newText": "WACC Brasil em dólar (mesmo perfil): 15% a 22% a.a. em dólar (somando o prêmio de risco-país ao custo de capital norte-americano); já em reais nominais, partindo da Selic de 13,75% a.a. em outubro de 2026, o custo de capital corporativo situa-se entre 18% e 25% a.a., enquanto para startups em Série A a taxa de desconto efetiva reflete a TIR exigida pelos fundos de VC (30% a 50% a.a.)"
   },
   {
     "line": 6255,
@@ -4657,7 +4669,7 @@
   },
   {
     "line": 6538,
-    "newText": "Veja na tabela o que aconteceu com Lucas e Marina ao acumular três conversíveis (*post-money cap*) após o Seed antes de entrar na Série A:"
+    "newText": "A simulação abaixo mostra o impacto sobre o *cap table* de Lucas e Marina ao acumularem três conversíveis (*post-money cap*) após a rodada Seed antes de fecharem a Série A:"
   },
   {
     "line": 6539,
@@ -4665,7 +4677,7 @@
   },
   {
     "line": 6540,
-    "newText": "- **Mútuo 1 (R$ 1,0M com cap post-money de R$ 25,0M):** trava **4,0%** da empresa."
+    "newText": "- **Mútuo 1 (R$ 1,0M com cap post-money de R$ 25,0M):** reserva **4,0%** da empresa antes da Série A."
   },
   {
     "line": 6543,
@@ -4729,7 +4741,7 @@
   },
   {
     "line": 6572,
-    "newText": "### Checklist de 10 pontos antes de assinar qualquer Mútuo Conversível ou SAFE"
+    "newText": "### Checklist de 10 pontos obrigatórios antes de assinar qualquer Mútuo Conversível ou SAFE"
   },
   {
     "line": 6583,
@@ -4817,11 +4829,11 @@
   },
   {
     "line": 6667,
-    "newText": "Quando faz sentido. Entre Série A, e Série B, para cobrir CapEx específico (equipamento, ou infra), e para estender runway por seis a doze meses, sem nova rodada."
+    "newText": "**Quando faz sentido contratar Venture Debt:** tipicamente entre a Série A e a Série B, para financiar aquisição de ativos operacionais (equipamentos, sensores ou infraestrutura) ou estender o *runway* por 6 a 12 meses até um marco comercial claro sem emitir ações pelo preço atual."
   },
   {
     "line": 6669,
-    "newText": "Requisitos típicos. Rodada de equity recente (últimos seis a doze meses), com fundo reconhecido. ARR igual ou maior que R$ 3 a R$ 10 milhões. Crescimento YoY igual ou maior que oitenta por cento. Unit economics defensáveis."
+    "newText": "**Requisitos típicos exigidos pelos credores:** rodada institucional de *equity* concluída nos últimos 6 a 12 meses com gestora reconhecida, receita anual recorrente (ARR) a partir de R$ 3 milhões a R$ 10 milhões, crescimento anual consistente e economia unitária positiva."
   },
   {
     "line": 6671,
@@ -4872,6 +4884,10 @@
     "newText": "Quando faz sentido: sempre que o edital financiar exatamente o *roadmap* tecnológico central que a sua empresa já precisaria desenvolver. A pergunta que o fundador deve responder antes de submeter a proposta é simples: **o valor líquido do recurso compensa o esforço técnico de escrita, a exigência de contrapartida e a rigidez da prestação de contas?**"
   },
   {
+    "line": 6723,
+    "newText": "**Armadilhas operacionais em editais de subvenção:** a elaboração técnica e a prestação de contas consomem de 5% a 15% do valor captado em horas de engenharia e contabilidade dedicada; nunca desvie o produto do mercado real apenas para cumprir requisitos de um edital desalinhado, reserve caixa próprio para a contrapartida financeira obrigatória (tipicamente de 10% a 30% do projeto) e revise as cláusulas de titularidade de propriedade intelectual nos convênios com universidades."
+  },
+  {
     "line": 6729,
     "newText": "**Lei do Bem (Lei 11.196/2005, Capítulo III):** permite a **exclusão adicional de 60% a 80% dos dispêndios elegíveis com P&D da base de cálculo do IRPJ e da CSLL** (chegando a 100% quando há registro de patente concedida), o que gera uma economia tributária efetiva de **20,4% a 27,2% (ou até 34%) sobre o valor investido em P&D**. **Requisito estrutural indispensável:** aplica-se exclusivamente a empresas tributadas pelo **Lucro Real** que apurem **lucro fiscal tributável no exercício** (pois a exclusão adicional reduz o imposto devido no ano e, em regra, não pode ser aproveitada por empresas em prejuízo fiscal nem no Simples Nacional ou Lucro Presumido)."
   },
@@ -4889,7 +4905,7 @@
   },
   {
     "line": 6737,
-    "newText": "**Incentivos municipais de ISS e benefícios regionais:** programas municipais de fomento e redução de ISS para inovação (verifique a legislação ativa do seu município, sempre respeitando a alíquota mínima constitucional de 2% da LC 116/2003) e reduções de **75% do IRPJ** para empreendimentos prioritários instalados nas áreas da **SUDENE e SUDAM** (exclusivas para empresas no **Lucro Real** com laudo constitutivo aprovado e sujeitas aos prazos legais vigentes; lembre-se também de que benefícios estaduais de ICMS serão gradualmente extintos na transição para o IBS até 2032)."
+    "newText": "**Incentivos municipais de ISS e benefícios regionais (SUDENE/SUDAM):** verifique os programas municipais de fomento tecnológico na sua sede (respeitado o piso constitucional de 2% de ISS da LC 116/2003) e, para operações industriais ou de infraestrutura instaladas nas áreas da **SUDENE** ou **SUDAM**, avalie o pleito de redução de **75% do IRPJ** (exclusivo para empresas no **Lucro Real** com operação efetiva na região e laudo constitutivo aprovado)."
   },
   {
     "line": 6739,
@@ -4898,6 +4914,10 @@
   {
     "line": 6740,
     "newText": "> Se a sua empresa já está no **Lucro Real, fecha o ano com lucro tributável** e mantém equipe de engenharia desenvolvendo inovação tecnológica, não utilizar a Lei do Bem é deixar de recuperar de 20,4% a 27,2% da folha de P&D em redução direta de IRPJ e CSLL."
+  },
+  {
+    "line": 6742,
+    "newText": "**Requisitos de conformidade fiscal na Lei do Bem:** mantenha memória técnica contemporânea por projeto (horas de engenheiros dedicados, escopo tecnológico e dispêndios elegíveis) para entrega anual do formulário FORMP&D ao MCTI até 31 de julho do ano subsequente; empresas no Simples Nacional ou no Lucro Presumido não são elegíveis ao benefício."
   },
   {
     "line": 6748,
@@ -4933,7 +4953,11 @@
   },
   {
     "line": 6787,
-    "newText": "1. **Primeiro, incentivos fiscais (quando houver lucro tributável).** Se a empresa já opera no Lucro Real com lucro fiscal e realiza P&D, acione a Lei do Bem (exclusão adicional de 60% a 80% dos dispêndios de P&D da base de IRPJ e CSLL, até 100% com patente concedida; lembre-se de que a exclusão é limitada ao lucro do exercício e não gera benefício no ano em que a startup fecha em prejuízo fiscal). Pode render quinze a trinta por cento dos gastos de P&D em caixa economizado. Sem contrapartida, além de documentação."
+    "newText": "1. **Primeiro, incentivos fiscais automáticos (quando houver lucro tributável no Lucro Real):** se a empresa opera no Lucro Real com lucro fiscal e desenvolve P&D tecnológico, acione a Lei do Bem (exclusão adicional de 60% a 80% dos dispêndios de P&D da base de IRPJ e CSLL, chegando a 100% com patente concedida, gerando economia efetiva de 20,4% a 27,2% sobre o gasto elegível de P&D no exercício)."
+  },
+  {
+    "line": 6788,
+    "newText": "2. **Segundo, editais de subvenção econômica aderentes ao produto:** mapeie de três a cinco chamadas abertas (Finep, FAPESP PIPE ou fundações estaduais) cujo escopo financie exatamente o *roadmap* técnico já previsto pela empresa, priorizando aquelas com menor exigência de contrapartida financeira."
   },
   {
     "line": 6793,
@@ -5001,7 +5025,7 @@
   },
   {
     "line": 6884,
-    "newText": "Chamamos o erro que Marina evitou de **O Erro da Gasolina Mais Cara do Mundo**: usar *equity* (que tem custo infinito no longo prazo, pois o sócio nunca sai do seu Cap Table) para financiar capital de giro, compra de ativos, recebíveis ou máquinas de aquisição já validadas. Entender quando e como combinar **Venture Debt, RBF e FIDCs** no seu *Capital Stack* é uma das maiores alavancas de riqueza líquida para os fundadores no momento do *exit*."
+    "newText": "Chamamos o erro que Marina evitou na captação de **O Erro da Gasolina Mais Cara do Mundo**: entregar participação societária definitiva (*equity*, cujo custo compõe até o *exit*) para financiar capital de giro, equipamentos ou carteiras de recebíveis previsíveis. Combinar com disciplina **Venture Debt, RBF e FIDCs** na estrutura de capital preserva dezenas de milhões de reais para os fundadores na liquidez."
   },
   {
     "line": 6891,
@@ -5025,7 +5049,7 @@
   },
   {
     "line": 6904,
-    "newText": "### Negociando Covenants financeiros, Warrants (equity kicker), carência (grace period) e subordinação em FIDCs"
+    "newText": "### Negociando Covenants financeiros, Warrants (equity kicker), carência (grace period) e subordinação em FIDCs (visão comparada)"
   },
   {
     "line": 6906,
