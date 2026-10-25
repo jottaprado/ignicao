@@ -92,6 +92,11 @@ const { VOL10_VERTICALS_PART2 } = require('./vol10_verticals_part2');
 const { VOL10_VERTICALS_PART3 } = require('./vol10_verticals_part3');
 const { VOL10_VERTICALS_PART4 } = require('./vol10_verticals_part4');
 const { VOL10_VERTICALS_PART5 } = require('./vol10_verticals_part5');
+const { VOL11_PART1 } = require('./vol11_part1');
+const { VOL11_PART2 } = require('./vol11_part2');
+const { VOL11_PART3 } = require('./vol11_part3');
+const { VOL11_PART4 } = require('./vol11_part4');
+const { VOL11_PART5 } = require('./vol11_part5');
 const { VOL5_VOL6_VOL9_EXTRAS } = require('./vol5_vol6_vol9_extras');
 const { VOL3_VOL9_LIFECYCLE_EXTRAS } = require('./vol3_vol9_lifecycle_extras');
 const {
@@ -128,6 +133,11 @@ const vol10NewModules = {
   ...VOL10_VERTICALS_PART3,
   ...VOL10_VERTICALS_PART4,
   ...VOL10_VERTICALS_PART5,
+  ...VOL11_PART1,
+  ...VOL11_PART2,
+  ...VOL11_PART3,
+  ...VOL11_PART4,
+  ...VOL11_PART5,
   NEW_COMEX: VOL5_VOL6_VOL9_EXTRAS.NEW_COMEX,
   NEW_FRANCHISING: VOL5_VOL6_VOL9_EXTRAS.NEW_FRANCHISING,
   ...VOL3_VOL9_LIFECYCLE_EXTRAS,
@@ -1252,11 +1262,11 @@ function toEditorialTitleCase(str) {
 // Função que transforma um antigo APÊNDICE XX em CAPÍTULO N — TÍTULO e injeta extras
 function buildChapterSection(oldKey, chapNum, rawSection) {
   const rawUpperTitle = rawSection.heading
-    .replace(/^APÊNDICE [A-Z0-9_-]+\s*—\s*/, '')
+    .replace(/^(?:APÊNDICE [A-Z0-9_-]+|CAPÍTULO \d+)\s*—\s*/, '')
     .trim();
   const cleanTitle = toEditorialTitleCase(rawUpperTitle);
   const newHeading = `CAPÍTULO ${chapNum} — ${rawUpperTitle}`;
-  let body = rawSection.body.replace(/^## APÊNDICE [^\n]+/m, `## ${newHeading}`);
+  let body = rawSection.body.replace(/^## (?:APÊNDICE|CAPÍTULO) [^\n]+/m, `## ${newHeading}`);
 
   if (oldKey === 'B' || oldKey === 'G') {
     body = body
@@ -1945,6 +1955,116 @@ const VOLUMES_SPEC = [
             key: 'APÊNDICE — ÍNDICE REMISSIVO',
             newHeading: 'ÍNDICE REMISSIVO',
           },
+        ],
+      },
+    ],
+  },
+  {
+    num: 11,
+    slug: 'IGNICAO-Vol-11-Workbook-Cases-e-Exercicios',
+    title: 'IGNIÇÃO — Volume 11: Caderno de Trincheira, Simulações de Decisão e Cases Globais & Nacionais',
+    subtitle: '58 Cases Globais e Brasileiros Comentados, 50 Exercícios com Gabarito, 27 Roleplays Executivos e Simulador das 21 Fases (Capítulos 1 a 30)',
+    about:
+      'Volume prático de aplicação, simulação executiva e estudos de caso da coleção IGNIÇÃO, organizado em 10 partes que espelham os Volumes 1 a 10: reúne 58 cases globais e brasileiros estruturados em quatro atos (Contexto e Problema Real, Dilema na Mesa do Fundador, Engenharia da Decisão com Métricas e Tradução para a Realidade Brasileira em Outubro de 2026), 50 exercícios mão na massa com memória de cálculo passo a passo e gabarito comentado, 27 simulações de roleplay executivo comparando o caminho armadilha ao protocolo de alta precisão com rubrica de pontuação, e o Simulador Integrador de Ponta a Ponta das 21 Fases acompanhando a ForjaTech Sistemas Industriais S.A. do mês zero ao exit.',
+    blocks: [
+      {
+        h1: 'PARTE I — IDEAÇÃO, COFUNDADORES, COGNIÇÃO E TESE INICIAL (ESPELHO DO VOLUME 1: CAPÍTULOS 1 A 3)',
+        tocGroup: 'Parte I: Ideação, Cofundadores, Cognição e Tese Inicial (Capítulos 1 a 3)',
+        intro: DOMAIN_INTROS.V11_BLOCO_1,
+        items: [
+          { type: 'chapter', key: 'V11_C1' },
+          { type: 'chapter', key: 'V11_C2' },
+          { type: 'chapter', key: 'V11_C3' },
+        ],
+      },
+      {
+        h1: 'PARTE II — DESCOBERTA DE CLIENTE, JTBD E CUNHA ESTRATÉGICA (ESPELHO DO VOLUME 2: CAPÍTULOS 4 A 6)',
+        tocGroup: 'Parte II: Descoberta de Cliente, JTBD e Cunha Estratégica (Capítulos 4 a 6)',
+        intro: DOMAIN_INTROS.V11_BLOCO_2,
+        items: [
+          { type: 'chapter', key: 'V11_C4' },
+          { type: 'chapter', key: 'V11_C5' },
+          { type: 'chapter', key: 'V11_C6' },
+        ],
+      },
+      {
+        h1: 'PARTE III — HIPÓTESES, EXPERIMENTOS, PROTOTIPAGEM E MODELOS DE NEGÓCIO (ESPELHO DO VOLUME 3: CAPÍTULOS 7 A 9)',
+        tocGroup: 'Parte III: Hipóteses, Experimentos, Prototipagem e Modelos de Negócio (Capítulos 7 a 9)',
+        intro: DOMAIN_INTROS.V11_BLOCO_3,
+        items: [
+          { type: 'chapter', key: 'V11_C7' },
+          { type: 'chapter', key: 'V11_C8' },
+          { type: 'chapter', key: 'V11_C9' },
+        ],
+      },
+      {
+        h1: 'PARTE IV — TRAÇÃO, GO-TO-MARKET, VENDAS CONSULTIVAS, PRICING E PMF (ESPELHO DO VOLUME 4: CAPÍTULOS 10 A 12)',
+        tocGroup: 'Parte IV: Tração, Go-to-Market, Vendas Consultivas, Pricing e PMF (Capítulos 10 a 12)',
+        intro: DOMAIN_INTROS.V11_BLOCO_4,
+        items: [
+          { type: 'chapter', key: 'V11_C10' },
+          { type: 'chapter', key: 'V11_C11' },
+          { type: 'chapter', key: 'V11_C12' },
+        ],
+      },
+      {
+        h1: 'PARTE V — FINANÇAS, TRIBUTÁRIO, FP&A, CAIXA E VENTURE CAPITAL (ESPELHO DO VOLUME 5: CAPÍTULOS 13 A 15)',
+        tocGroup: 'Parte V: Finanças, Tributário, FP&A, Caixa e Venture Capital (Capítulos 13 a 15)',
+        intro: DOMAIN_INTROS.V11_BLOCO_5,
+        items: [
+          { type: 'chapter', key: 'V11_C13' },
+          { type: 'chapter', key: 'V11_C14' },
+          { type: 'chapter', key: 'V11_C15' },
+        ],
+      },
+      {
+        h1: 'PARTE VI — RECEITA ENTERPRISE, REVOPS, FRANQUIAS, LIDERANÇA, TALENTOS E ESOP (ESPELHO DO VOLUME 6: CAPÍTULOS 16 A 18)',
+        tocGroup: 'Parte VI: Receita Enterprise, RevOps, Franquias, Liderança, Talentos e ESOP (Capítulos 16 a 18)',
+        intro: DOMAIN_INTROS.V11_BLOCO_6,
+        items: [
+          { type: 'chapter', key: 'V11_C16' },
+          { type: 'chapter', key: 'V11_C17' },
+          { type: 'chapter', key: 'V11_C18' },
+        ],
+      },
+      {
+        h1: 'PARTE VII — PRODUTO EM ESCALA, ENGENHARIA, DÍVIDA TÉCNICA, DADOS, IA E OPERAÇÕES (ESPELHO DO VOLUME 7: CAPÍTULOS 19 A 21)',
+        tocGroup: 'Parte VII: Produto em Escala, Engenharia, Dívida Técnica, Dados, IA e Operações (Capítulos 19 a 21)',
+        intro: DOMAIN_INTROS.V11_BLOCO_7,
+        items: [
+          { type: 'chapter', key: 'V11_C19' },
+          { type: 'chapter', key: 'V11_C20' },
+          { type: 'chapter', key: 'V11_C21' },
+        ],
+      },
+      {
+        h1: 'PARTE VIII — BLINDAGEM JURÍDICA, SOCIETÁRIA, CONTRATOS, TRABALHISTA, PI, LGPD E CIBERSEGURANÇA (ESPELHO DO VOLUME 8: CAPÍTULOS 22 A 24)',
+        tocGroup: 'Parte VIII: Blindagem Jurídica, Societária, Contratos, Trabalhista, PI, LGPD e Cibersegurança (Capítulos 22 a 24)',
+        intro: DOMAIN_INTROS.V11_BLOCO_8,
+        items: [
+          { type: 'chapter', key: 'V11_C22' },
+          { type: 'chapter', key: 'V11_C23' },
+          { type: 'chapter', key: 'V11_C24' },
+        ],
+      },
+      {
+        h1: 'PARTE IX — MATURIDADE, GOVERNANÇA DE CONSELHO, INTERNACIONALIZAÇÃO, CRISE, M&A, IPO E FAMILY OFFICE (ESPELHO DO VOLUME 9: CAPÍTULOS 25 A 27)',
+        tocGroup: 'Parte IX: Maturidade, Governança de Conselho, Internacionalização, Crise, M&A, IPO e Family Office (Capítulos 25 a 27)',
+        intro: DOMAIN_INTROS.V11_BLOCO_9,
+        items: [
+          { type: 'chapter', key: 'V11_C25' },
+          { type: 'chapter', key: 'V11_C26' },
+          { type: 'chapter', key: 'V11_C27' },
+        ],
+      },
+      {
+        h1: 'PARTE X — CASES SETORIAIS DA ECONOMIA REAL E SIMULADOR INTEGRADOR DAS 21 FASES (ESPELHO DO VOLUME 10: CAPÍTULOS 28 A 30)',
+        tocGroup: 'Parte X: Cases Setoriais da Economia Real e Simulador Integrador das 21 Fases (Capítulos 28 a 30)',
+        intro: DOMAIN_INTROS.V11_BLOCO_10,
+        items: [
+          { type: 'chapter', key: 'V11_C28' },
+          { type: 'chapter', key: 'V11_C29' },
+          { type: 'chapter', key: 'V11_C30' },
         ],
       },
     ],
