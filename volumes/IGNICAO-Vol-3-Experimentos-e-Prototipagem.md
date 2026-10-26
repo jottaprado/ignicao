@@ -5,7 +5,7 @@ author: "João Prado"
 date: 2026
 version: "5.3"
 volume: 3
-collection: "IGNIÇÃO: O manual operacional do empreendedor brasileiro (10 Volumes, Edição Narrativa Enxuta)"
+collection: "IGNIÇÃO: O manual operacional do empreendedor brasileiro (11 Volumes, Edição Narrativa Enxuta)"
 language: pt-BR
 
 ---
@@ -20,7 +20,7 @@ language: pt-BR
 
 ## Sobre este Volume
 
-Este é o **Volume 3 (Hipóteses, Experimentos, Prototipagem e Modelos de Negócio)** da coleção IGNIÇÃO: O manual operacional do empreendedor brasileiro (10 volumes).
+Este é o **Volume 3 (Hipóteses, Experimentos, Prototipagem e Modelos de Negócio)** da coleção IGNIÇÃO: O manual operacional do empreendedor brasileiro (11 volumes).
 
 Este volume guia a transição da teoria de negócio para a validação científica em campo e para a construção do protótipo testado. A jornada percorre quatro fases operacionais em sequência: a Formulação Rigorosa de Hipóteses (Fase 7), os Experimentos de Validação com Compromisso Real (Fase 8), a Ideação e Prototipagem de Soluções (Fase 9) e os Testes de Solução, Usabilidade e Especificação de MVP (Fase 10). Cada fase traz passo a passo práticos de análise de risco, desenho experimental, *design sprint* e pesquisa de usabilidade, além dos quadros *Hypothesis Canvas*, *Test Card*, *Opportunity Canvas* e *MVP Canvas* preenchidos com casos brasileiros. Na segunda metade, sete capítulos aprofundam o método científico aplicado ao empreendedorismo, os portões de evidência e maturidade (*TRL/CRL*), a lente transversal de cunha e escala (*Idea → Wedge → Scale*) e as arquiteturas de *Marketplaces* e Plataformas, *B2B2C*, *Open Source* Comercial (*COSS*) e *Bootstrapping* via serviços produtizados (*Service-to-Product*).
 
@@ -922,13 +922,13 @@ Recomeçar não é fracasso. É o funcionamento normal do processo. O objetivo d
 
 Quando você finalmente acerta o encaixe daquele um em dez ciclos, o sinal do mercado é inequívoco: os primeiros clientes (*early adopters*) pagam adiantado, cobram correções rápidas quando algo falha e recomendam a solução espontaneamente a colegas do setor. Se a resposta ainda parece morna ou ambígua, você segue na faixa intermediária do espectro.
 
-##### Exemplo concreto do extremo positivo: o caso Soylent
+#### Exemplo concreto do extremo positivo: o caso Soylent
 
 Quando o substituto alimentar Soylent foi lançado por Rob Rhinehart em 2013 via financiamento coletivo, antes mesmo de existir produção industrial em escala, os primeiros adotantes fizeram muito mais do que pagar antecipado: escreviam diariamente nos fóruns, publicavam variações próprias da receita, respondiam às dúvidas de novos compradores, relatavam efeitos de cada versão da fórmula e defendiam a marca publicamente contra decisivos. Comportavam-se, na prática, como uma equipe voluntária de produto e vendas, exatamente o perfil de *earlyvangelists* (primeiros clientes evangelistas) conceituado por Steve Blank (2005).
 
 Se a sua base de primeiros clientes se comporta assim, sem você ter que puxar, você está naquele um em dez. Se você precisa empurrar cada venda, responder cada objeção sozinho, e os clientes não convidam mais ninguém, você não está. Independentemente do que o seu otimismo te diga.
 
-##### Como navegar o meio do espectro
+#### Como navegar o meio do espectro
 
 Não interprete resultados medianos como validação fraca que vai melhorar. Na maior parte das vezes, não melhora.
 
@@ -1936,7 +1936,7 @@ Não espere terminar todos os testes para iterar. Depois de cada ciclo de três 
 Consolide o aprendizado em um documento enxuto contendo seis itens: (1) lista dos conceitos gerados e avaliados, (2) fichas dos conceitos selecionados, (3) links ou arquivos dos protótipos testados, (4) síntese das sessões com usuários (padrões de uso, atritos e frases literais), (5) recomendação fundamentada do conceito vencedor, e (6) riscos e hipóteses que permanecem abertos para a Fase 10.
 
 > [!tip] Estrutura do Dossiê de Solução e Canvases desta Fase
-> Os seis campos acima compõem o Dossiê de Solução, que documenta o conceito vencedor ao final do Passo 7 após comparar os dois protótipos finalistas testados nos Passos 4 a 6. Antes de iniciar a geração de ideias no Passo 1, utilize o [[#Canvas: Opportunity Canvas (Jeff Patton, 2014)|Opportunity Canvas]] para alinhar problema, usuários, valor para o negócio e restrições, e, ao encerrar o Passo 7, preencha o [[#IGNIÇÃO: Volume 3: Hipóteses, Experimentos, Prototipagem e Modelos de Negócio|MVP Canvas]] para amarrar as hipóteses e métricas que guiarão a especificação na Fase 10.
+> Os seis campos acima compõem o Dossiê de Solução, que documenta o conceito vencedor ao final do Passo 7 após comparar os dois protótipos finalistas testados nos Passos 4 a 6. Antes de iniciar a geração de ideias no Passo 1, utilize o [[#Canvas: Opportunity Canvas (Jeff Patton, 2014)|Opportunity Canvas]] para alinhar problema, usuários, valor para o negócio e restrições, e, ao encerrar o Passo 7, preencha o [[#Canvas: MVP Canvas (Tristan Kromer e Paulo Caroli)|MVP Canvas]] para amarrar as hipóteses e métricas que guiarão a especificação na Fase 10.
 
 ### Os sete passos aplicados, sessão de ideação do PadariaPro
 
@@ -2641,9 +2641,7 @@ A primeira entrega (*Release 1*) precisa cortar horizontalmente toda a jornada p
 
 ---
 
-#### Fichas operacionais dos Passos 2, 3, 5 e 7 desta fase (Matriz DVF, Concept Card, Roteiro de 30 Minutos e Dossiê de Solução)
-
-##### Template: Matriz de Priorização DVF (Desejabilidade, Viabilidade e Exequibilidade: Passo 2)
+#### Template: Matriz de Priorização DVF (Desejabilidade, Viabilidade e Exequibilidade: Passo 2)
 
 | Conceito Candidato | Desejabilidade (1–5) | Viabilidade Econômica (1–5) | Exequibilidade Técnica (1–5) | Pontuação Total (D × V × F) | Status |
 |---|---|---|---|---|---|
@@ -2651,7 +2649,7 @@ A primeira entrega (*Release 1*) precisa cortar horizontalmente toda a jornada p
 | **Conceito 2:** Painel web completo de estoque e compras | 3 | 4 | 3 | **36** | Descartado |
 | **Conceito 3:** Planilha automatizada com resumo diário por e-mail | 4 | 4 | 4 | **64** | Finalista 2 |
 
-##### Template: Concept Card de Solução (Passo 3)
+#### Template: Concept Card de Solução (Passo 3)
 
 ```text
 CONCEPT CARD DE SOLUÇÃO (PASSO 3: 1 PÁGINA POR CONCEITO CANDIDATO)
@@ -2666,11 +2664,10 @@ CONCEPT CARD DE SOLUÇÃO (PASSO 3: 1 PÁGINA POR CONCEITO CANDIDATO)
 5. Modelo de monetização e faixa de preço prevista:
    ____________________________________________________________________
 6. Principais riscos e premissa decisiva que o protótipo precisa testar:
+   ____________________________________________________________________
 ```
 
-   ____________________________________________________________________
-
-##### Template: Roteiro de Teste de Solução de 30 Minutos (Passo 5: 5 etapas)
+#### Template: Roteiro de Teste de Solução de 30 Minutos (Passo 5: 5 etapas)
 
 - **Etapa 1: Contextualização (2 minutos).** Situe o participante no cenário real do dia a dia antes de mostrar a tela (*"Imagine que são 6h15 da manhã de segunda-feira e você acabou de abrir a padaria"*).
 - **Etapa 2: Tarefas práticas no protótipo (15 minutos).** Entregue de 3 a 5 tarefas concretas sem explicar onde clicar (*"Confira a sugestão de compra de farinha para as suas 3 lojas, ajuste a quantidade da Loja 2 e confirme o pedido"*).
@@ -3000,7 +2997,7 @@ Tipos:
 - Formative (formativo): durante design, rápido, iterativo.
 - Summative (somativo): ao fim de ciclo, avalia atingimento de metas.
 
-##### Protocolo prático de execução
+##### Passos práticos de implantação
 
 1. Defina tarefas operacionais concretas em vez de pedir impressões vagas: peça "emita a sua primeira nota fiscal", que funciona como teste real, e nunca "veja se você gosta do aplicativo", que não testa nada.
 
@@ -3070,7 +3067,7 @@ Método de avaliação em que 3-5 especialistas em UX avaliam interface independ
 9. Ajudar usuários a reconhecer, diagnosticar e se recuperar de erros: mensagens claras.
 10. Ajuda e documentação: quando necessária, fácil de encontrar.
 
-##### Roteiro de aplicação prática na operação
+##### Aplicação imediata na rotina da empresa
 
 Passo 1: 3-5 avaliadores independentes. Cada um vê ~30% dos problemas, juntos, 75%+.
 
@@ -3130,7 +3127,7 @@ Método em que avaliadores **simulam mentalmente** o que usuário novato pensari
 
 Se qualquer resposta é "não", há problema de usabilidade.
 
-##### Roteiro de aplicação prática na operação
+##### Aplicação imediata na rotina da empresa
 
 Passo 1: Defina tarefa específica (ex.: "primeiro usuário cria primeira nota fiscal").
 
@@ -3188,7 +3185,7 @@ Três variações:
 2. Closed card sort: categorias pré-definidas, usuário aloca cards em categorias dadas. Testa se categorias propostas fazem sentido.
 3. Hybrid: categorias iniciais + permissão de criar novas.
 
-##### Protocolo prático de execução
+##### Passos práticos de implantação
 
 Passo 1: Selecione 30-60 cards representativos da informação/funcionalidade.
 
@@ -3249,7 +3246,7 @@ Métricas:
 - Confidence: o quanto estavam seguros da escolha.
 - Path analysis: onde a maioria erra? Qual categoria é magnética?
 
-##### Aplicação imediata na rotina da empresa
+##### Protocolo prático de execução
 
 Passo 1: Prepare estrutura a testar: árvore completa de menus.
 
@@ -3305,7 +3302,7 @@ Dois tipos:
 
 **Concurrent é mais rico** mas pode interferir com cognição (especialmente tarefas complexas).
 
-##### Roteiro de aplicação prática na operação
+##### Aplicação imediata na rotina da empresa
 
 Passo 1: Treine participante: "quero que você fale em voz alta o que está pensando enquanto faz a tarefa. Não é para me explicar, é para eu ouvir seus pensamentos. Pode ser fragmentos, dúvidas, tudo."
 
@@ -3356,7 +3353,7 @@ Alternadas positivas e negativas:
 9. Senti-me muito confiante usando o sistema.
 10. Precisei aprender muitas coisas antes de começar.
 
-##### Execução prática com a equipe
+##### Roteiro de aplicação prática na operação
 
 1. Aplique o questionário imediatamente após o participante usar o protótipo ou sistema de fato nas tarefas propostas, e nunca apenas depois de ouvir uma explicação ou demonstração guiada.
 
@@ -4406,7 +4403,7 @@ O método de Andrew Chen organiza a construção e a escala de negócios com efe
 
 Três conceitos operacionais de Andrew Chen evitam que o fundador queime caixa no escuro: primeiro, reconheça que um negócio de efeito de rede atravessa cinco estágios distintos (Partida a Frio, Ponto de Inflexão, Velocidade de Escape, Teto e Fosso), e o que funciona na escala mata a empresa se aplicado antes da liquidez inicial, segundo, conquiste primeiro o **Lado Difícil (*Hard Side*), que concentra os 10% a 20% de fornecedores ou criadores profissionais responsáveis por 80% do valor da plataforma, para que o Lado Fácil (*Easy Side*) encontre a prateleira abastecida, e terceiro, descubra qual é a sua Rede Atômica (*Atomic Network*)**, o menor grupo autossustentável onde o produto já entrega valor completo (uma única empresa para o Slack, um único campus universitário no início de redes sociais ou um único polo gastronômico para entrega de refeições). Quando a primeira rede atômica para em pé sozinha, escalar consiste em copiar o molde célula por célula.
 
-##### Aplicação imediata na rotina da empresa
+##### Protocolo prático de execução
 
 Passo 1: identificar se o produto tem efeitos de rede reais (nem todo marketplace/social tem efeito de rede verdadeiro, alguns apenas *parecem* ter). Passo 2: definir Atomic Network (o menor grupo onde produto funciona sem precisar de nada maior). Passo 3: identificar Hard Side e estratégia específica para adquirir primeiros 10, 100, 1000 do Hard Side (tipicamente manualmente, por fundadores, em processo "unscalable"). Passo 4: construir três growth loops (engagement para retenção, acquisition para aquisição, economic para unit economics). Passo 5: uma vez que uma Atomic Network funciona, replicar com playbook.
 
@@ -4719,7 +4716,7 @@ Defina por escrito a fronteira do seu repositório antes de publicar código nov
 
 ### FRAMEWORKS PASSO A PASSO DESTE CAPÍTULO
 
-### Oficina de Trincheira do Capítulo 6: Estratégia de API e Relações com Desenvolvedores (DevRel)
+#### Framework: API Strategy & Developer Relations (Jeff Lawson / Twilio, 2008-2016)
 
 ##### De onde vem a ferramenta (e por que sobreviveu ao filtro do tempo)
 
@@ -4733,7 +4730,7 @@ Trata-se de uma estratégia de distribuição de baixo para cima (*bottom-up*) e
 
 **Developer Experience (DX)** como produto: o "produto" que o desenvolvedor experimenta é o processo de integração, documentação, latência da API, qualidade dos erros, SDKs. DX ruim é produto ruim, independentemente da funcionalidade subjacente. Time to first successful call (TTFSC): métrica central de onboarding de API, em quanto tempo um desenvolvedor faz a primeira chamada bem-sucedida? Twilio otimizou para < 5 minutos. Land and expand: desenvolvedor integra em projeto pessoal ou POC, demonstra valor, empresa compra acesso em escala. Developer as champion: desenvolvedor interno que integrou vira advogado da plataforma com a liderança técnica e de negócio.
 
-##### Aplicação imediata na rotina da empresa
+##### Protocolo prático de execução
 
 Produto: garantir que a API tem documentação de referência completa, exemplos em múltiplas linguagens, sandbox de testes, erros com mensagens informativas. Medir TTFSC semanalmente. Aquisição: presença em plataformas de desenvolvedores (GitHub, Stack Overflow, Dev.to, Hacker News), eventos técnicos (meetups, hackathons), conteúdo técnico (tutoriais, artigos de blog de engineering). Comunidade: programa de advocates (desenvolvedores externos que usam e promovem), fórum ou Discord, feedback loop direto entre comunidade e produto. Monetização: freemium ou pay-as-you-go para remover barreira de entrada, expansão automática com uso.
 

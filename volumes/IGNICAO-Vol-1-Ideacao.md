@@ -5,7 +5,7 @@ author: "João Prado"
 date: 2026
 version: "5.3"
 volume: 1
-collection: "IGNIÇÃO: O manual operacional do empreendedor brasileiro (10 Volumes, Edição Narrativa Enxuta)"
+collection: "IGNIÇÃO: O manual operacional do empreendedor brasileiro (11 Volumes, Edição Narrativa Enxuta)"
 language: pt-BR
 
 ---
@@ -46,11 +46,11 @@ Um bom trabalho, e que estas páginas sirvam bem à sua empresa.
 
 ## Sobre este livro
 
-**IGNIÇÃO** é um manual operacional em 10 volumes para fundadores e equipes executivas construindo empresas no Brasil, da preparação pessoal antes do CNPJ (Fase 0) até a segunda curva de crescimento, o *exit* via M&A ou IPO (Fase 20) ou a perenidade como máquina de dividendos (*Cash Cow* e *Family Office*).
+**IGNIÇÃO** é um manual operacional em 11 volumes para fundadores e equipes executivas construindo empresas no Brasil, da preparação pessoal antes do CNPJ (Fase 0) até a segunda curva de crescimento, o *exit* via M&A ou IPO (Fase 20) ou a perenidade como máquina de dividendos (*Cash Cow* e *Family Office*).
 
-Cada volume da coleção foi desenhado para funcionar como um manual de oficina: todos os 163 Frameworks passo a passo, 20 Canvases Visuais preenchidos com reconstruções didáticas de casos brasileiros, 39 Templates operacionais distintos prontos para uso, Tabelas de Métricas e Guias de Leitura estão integrados diretamente dentro das Fases e Capítulos onde são executados nos Volumes 1 a 7 e 9, impressos uma única vez na coleção e articulados com o Glossário Geral e a Lista de Siglas no Volume 10 (além do caderno de exercícios e simulador no Volume 11).
+Cada volume da coleção foi desenhado para funcionar como um manual de oficina: todos os 162 Frameworks passo a passo, 20 Canvases Visuais preenchidos com reconstruções didáticas de casos brasileiros, 42 Templates operacionais distintos prontos para uso (224 ferramentas no total), Tabelas de Métricas e Guias de Leitura estão integrados diretamente dentro das Fases e Capítulos onde são executados nos Volumes 1 a 7 e 9, impressos uma única vez na coleção e articulados com o Glossário Geral e a Lista de Siglas no Volume 10 (além do caderno de exercícios e simulador no Volume 11).
 
-A coleção está organizada em 10 volumes focais (21 Fases e 155 Capítulos):
+A coleção está organizada em 11 volumes focais (21 Fases e 185 Capítulos):
 
 - **Volume 1: Ideação e Fundação (este volume):** Fases 0 a 3, mais 12 capítulos de preparação financeira e mental do fundador, dinâmica de cofundadores, vieses, tomada de decisão, comunicação, produtividade e stack de IA, aceleradoras e mentores.
 - **Volume 2: Descoberta de Cliente e Mapeamento de Mercado:** Fases 4 a 6 e 3 Capítulos de psicologia do consumidor brasileiro, inteligência competitiva e Category Design, e casos de fracasso brasileiros.
@@ -62,6 +62,7 @@ A coleção está organizada em 10 volumes focais (21 Fases e 155 Capítulos):
 - **Volume 8: Blindagem Jurídica, Societária, LGPD e Segurança:** Fase 18, mais 13 capítulos de Marco Legal das Startups, responsabilidade dos sócios, propriedade intelectual/INPI, non-compete, contratos empresariais e operacionais, direito do trabalho, CDC, contencioso, LGPD, regulação de IA, compliance, prevenção a fraudes e SOC 2 / ISO 27001.
 - **Volume 9: Maturidade, Governança, Crise, Exit e Family Office:** Fases 19 e 20, mais 21 capítulos sobre Conselho de Administração (Board), empresas familiares, conflitos societários, ESG, internacionalização, imigração, câmbio/tesouraria, gestão e comunicação de crise, layoffs, recuperação judicial, M&A buy-side, Search Funds, Spin-offs e Carve-outs, Liquidez Secundária (Secondaries), IPO, tributação de exit, transição e retenção pós-M&A, post-mortems, second-time fundadores e a Empresa *Cash Cow* (dividendos vitalícios) com Holdings Patrimoniais, Offshores e *Family Office*, encerrando com o Epílogo.
 - **Volume 10: Economia da Inovação, Hubs Globais e Playbooks das 42 Verticais:** 48 Capítulos cobrindo a Economia da Inovação e seus Atores, a Geografia Mundial de Hubs por Continente e os 15 Polos Brasileiros, Ciclos Macroeconômicos, Autarquias Reguladoras, CADE, Políticas Públicas e os 42 Playbooks Setoriais da economia real, seguidos pelo Dicionário e Índices Unificados da Coleção.
+- **Volume 11: Caderno de Trincheira, Simulações de Decisão e Cases Globais & Nacionais:** 30 Capítulos de aplicação prática espelhando os Volumes 1 a 10, com 58 Cases Profundos (globais e brasileiros), 50 Exercícios com Gabarito Comentado, 27 Simulações de Decisão e Roleplays Executivos e o Simulador Integrador das 21 Fases.
 
 ---
 

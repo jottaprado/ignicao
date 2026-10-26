@@ -5,7 +5,7 @@ author: "João Prado"
 date: 2026
 version: "5.3"
 volume: 8
-collection: "IGNIÇÃO: O manual operacional do empreendedor brasileiro (10 Volumes, Edição Narrativa Enxuta)"
+collection: "IGNIÇÃO: O manual operacional do empreendedor brasileiro (11 Volumes, Edição Narrativa Enxuta)"
 language: pt-BR
 
 ---
@@ -20,7 +20,7 @@ language: pt-BR
 
 ## Sobre este Volume
 
-Este é o **Volume 8 (Blindagem Jurídica, Societária, LGPD e Segurança)** da coleção IGNIÇÃO: O manual operacional do empreendedor brasileiro (10 volumes).
+Este é o **Volume 8 (Blindagem Jurídica, Societária, LGPD e Segurança)** da coleção IGNIÇÃO: O manual operacional do empreendedor brasileiro (11 volumes).
 
 O manual jurídico, societário, regulatório e de segurança da informação para fundadores, executivos e advogados de startups no Brasil. Abre com a Fase 18 (Estruturação Jurídica, Societária e Blindagem Operacional: os 10 passos de formalização, acordo de sócios, propriedade intelectual, contratos, LGPD e proteção patrimonial, com o caso aplicado da PadariaPro LTDA), seguida por 13 capítulos em profundidade sobre o Marco Legal das Startups (LC 182/2021), responsabilidade pessoal dos sócios e desconsideração da personalidade jurídica, registro de marcas, patentes e software no INPI, cláusulas de non-compete, contratos empresariais e operacionais, direito do trabalho para startups (CLT vs. PJ e passivos), CDC aplicado a produtos digitais, contencioso estratégico, LGPD e governança de dados, regulação de IA, compliance anticorrupção, prevenção a fraudes internas e certificações SOC 2 e ISO 27001.
 

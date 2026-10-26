@@ -1,20 +1,23 @@
 #!/usr/bin/env python3
 """
-audit.py — valida integridade estrutural, autocontenção (Frameworks, Canvases e
-Templates embutidos) e 100% dos wikilinks nos 10 volumes canônicos de `volumes/` (v4.0).
+audit.py - valida integridade estrutural, autocontencao (Frameworks, Canvases e
+Templates embutidos), ausencia de travessoes e 100% dos wikilinks nos 11 volumes
+canonicos de `volumes/` (v5.3).
 
 Modos:
-- Padrão (`py audit.py`):
-    1) Verifica presença e unicidade de todas as 21 fases (`FASE 0` a `FASE 20`) e
-       dos 135 capítulos (`CAPÍTULO 1` a `CAPÍTULO N`) nos 10 volumes.
-    2) Verifica a presença dos 164 Frameworks (`#### Framework:`), 20 Canvases
-       (`#### Canvas:`) e 39 Templates (`#### Template:`) embutidos nas fases/capítulos.
-    3) Valida 100% dos wikilinks internos (`[[#Seção]]`) e inter-volumes
-       (`[[IGNICAO-Vol-X#Seção]]`) contra os headings reais de cada volume.
+- Padrao (`py audit.py`):
+    1) Verifica presenca e unicidade de todas as 21 fases (`FASE 0` a `FASE 20`) e
+       dos 185 capitulos (`155` nos Volumes 1 a 10 + `30` no Volume 11).
+    2) Verifica a presenca dos 164 Frameworks (`#### Framework:`), 20 Canvases
+       (`#### Canvas:`) e 40 Templates (`#### Template:`) embutidos nas fases/capitulos
+       (totalizando 224 ferramentas unicas).
+    3) Valida 100% dos wikilinks internos (`[[#Secao]]`) e inter-volumes
+       (`[[IGNICAO-Vol-X#Secao]]`) contra os headings reais de cada volume.
+    4) Verifica ausencia de travessoes (`\u2014`) nos 11 volumes.
 - `--canvas` (`py audit.py --canvas`):
     Verifica os Canvases Visuais (`#### Canvas:`) embutidos por Fase.
 - `--orphans` (`py audit.py --orphans`):
-    Verifica se todos os 164 Frameworks, 20 Canvases e 39 Templates estão embutidos
+    Verifica se todos os 164 Frameworks, 20 Canvases e 40 Templates estao embutidos
     e sem duplicatas nos Volumes 1 a 9.
 """
 
@@ -55,7 +58,7 @@ def slugify(s: str) -> str:
     s = unicodedata.normalize("NFD", s)
     s = "".join(ch for ch in s if unicodedata.category(ch) != "Mn")
     s = s.lower()
-    s = re.sub(r"[—–]", "-", s)
+    s = re.sub(r"[\u2014\u2013]", "-", s)
     s = re.sub(r"[^a-z0-9\s-]", "", s)
     s = re.sub(r"\s+", "-", s)
     s = re.sub(r"-+", "-", s)
@@ -75,9 +78,9 @@ def load_volumes() -> dict[str, str]:
 
 
 def extract_sections(vols: dict[str, str]) -> dict[str, tuple[str, str]]:
-    """Retorna dict key -> (vol_stem, section_text) para cada FASE e CAPÍTULO."""
+    """Retorna dict key -> (vol_stem, section_text) para cada FASE e CAPITULO."""
     boundary = re.compile(
-        r"(?m)^(?:# [A-ZÀ-Ú]|## (?:(FASE \d+) —|(CAPÍTULO \d+) —|EPÍLOGO$|DATA DE COMPILAÇÃO|GLOSSÁRIO|LISTA DE ABREVIAÇÕES|BIBLIOGRAFIA|ÍNDICE ))"
+        r"(?m)^(?:# [A-ZÀ-Ú]|## (?:(FASE \d+)\s*[:\u2014]|(CAPÍTULO \d+)\s*[:\u2014]|EPÍLOGO$|DATA DE COMPILAÇÃO|GLOSSÁRIO|LISTA DE ABREVIAÇÕES|BIBLIOGRAFIA|ÍNDICE ))"
     )
     sections = {}
     duplicates = []
@@ -106,13 +109,15 @@ def extract_sections(vols: dict[str, str]) -> dict[str, tuple[str, str]]:
 
 def audit_structure_and_links(only_problems: bool = False) -> bool:
     vols = load_volumes()
-    if len(vols) != 10:
-        print(f"ERRO: Esperados 10 volumes em volumes/, encontrados {len(vols)}.")
+    if len(vols) != 11:
+        print(f"ERRO: Esperados 11 volumes em volumes/, encontrados {len(vols)}.")
         return False
 
     sections = extract_sections(vols)
     fases = [k for k in sections if k.startswith("FASE_")]
     capitulos = [k for k in sections if ":CAPÍTULO_" in k]
+    capitulos_v1_10 = [k for k in capitulos if not k.startswith("IGNICAO-Vol-11-")]
+    capitulos_v11 = [k for k in capitulos if k.startswith("IGNICAO-Vol-11-")]
 
     all_text = "\n".join(vols.values())
     frameworks = re.findall(r"(?m)^#### Framework: (.+)$", all_text)
@@ -121,8 +126,9 @@ def audit_structure_and_links(only_problems: bool = False) -> bool:
     uniq_frameworks = set(frameworks)
     uniq_canvases = set(canvases)
     uniq_templates = set(templates)
+    em_dashes = all_text.count("\u2014")
 
-    # Verificar duplicatas de ferramentas dentro de um mesmo volume e glossários locais nos Vols 1 a 9
+    # Verificar duplicatas de ferramentas dentro de um mesmo volume e glossarios locais nos Vols 1 a 9
     dups_within_vol = []
     vol_glossaries = 0
     cross_vol_tool_links = []
@@ -140,7 +146,7 @@ def audit_structure_and_links(only_problems: bool = False) -> bool:
                     dups_within_vol.append((stem, h_raw))
                 seen_tools_in_vol.add(h_raw)
         headings_by_vol[stem] = h_set
-        if not stem.startswith("IGNICAO-Vol-10-"):
+        if not stem.startswith(("IGNICAO-Vol-10-", "IGNICAO-Vol-11-")):
             if "## GLOSSÁRIO E SIGLAS DESTE VOLUME" in text:
                 vol_glossaries += 1
             for m_ct in re.finditer(
@@ -165,31 +171,31 @@ def audit_structure_and_links(only_problems: bool = False) -> bool:
             if target.endswith("\\"):
                 target = target[:-1].strip()
             if "#" not in target:
-                broken_links.append((stem, f"[[{inner}]] (link sem âncora '#')"))
+                broken_links.append((stem, f"[[{inner}]] (link sem ancora '#')"))
                 continue
             target_vol, target_heading = target.split("#", 1)
             target_vol = target_vol.strip()
             target_heading = target_heading.strip()
             if target_vol == "":
                 if slugify(target_heading) not in headings_by_vol[stem]:
-                    broken_links.append((stem, f"[[#{target_heading}]] (interno não encontrado)"))
+                    broken_links.append((stem, f"[[#{target_heading}]] (interno nao encontrado)"))
             else:
                 alias = parts[1].strip() if len(parts) > 1 else ""
                 m_vol_alias = re.search(r"\(Vol\.\s*(\d+)\)", alias)
                 if target_vol not in headings_by_vol:
                     broken_links.append((stem, f"[[{target_vol}#{target_heading}]] (volume inexistente)"))
                 elif target_vol == stem:
-                    broken_links.append((stem, f"[[{target_vol}#{target_heading}]] (auto-referência ao próprio volume)"))
+                    broken_links.append((stem, f"[[{target_vol}#{target_heading}]] (auto-referencia ao proprio volume)"))
                 elif slugify(target_heading) not in headings_by_vol[target_vol]:
                     broken_links.append(
-                        (stem, f"[[{target_vol}#{target_heading}]] (heading não encontrado no destino)")
+                        (stem, f"[[{target_vol}#{target_heading}]] (heading nao encontrado no destino)")
                     )
                 elif m_vol_alias and f"-Vol-{m_vol_alias.group(1)}-" not in target_vol:
                     broken_links.append(
-                        (stem, f"[[{inner}]] (alias indica Vol. {m_vol_alias.group(1)}, mas destino é {target_vol})")
+                        (stem, f"[[{inner}]] (alias indica Vol. {m_vol_alias.group(1)}, mas destino e {target_vol})")
                     )
 
-    # Verificar invariantes da Edição Narrativa v5.0 (0 cabeçalhos robóticos H3/H5)
+    # Verificar invariantes da Edicao Narrativa v5.3 (0 cabecalhos roboticos H3/H5)
     robotic_h3 = re.findall(
         r"(?mi)^### (O que est[ea] (?:fase|cap[íi]tulo) cobre|O qu[êe]|O QUE [ÉE]|POR QUE|Por qu[êe]|Por que importa|Quando usar|Quando aplicar|Quando|Quem envolve|Quem envolver|Quem|Como executar|COMO|Como|PERGUNTAS A RESPONDER|SA[ÍI]DA DESTA FASE|Armadilhas|ARMADILHAS|FERRAMENTAS DESTA FASE|S[ÍI]NTESE DA FASE \d+|EXEMPLO PR[ÁA]TICO)$",
         all_text,
@@ -200,21 +206,25 @@ def audit_structure_and_links(only_problems: bool = False) -> bool:
     )
 
     if not only_problems:
+        total_words = 0
         for stem, text in vols.items():
             words = len(text.split())
+            total_words += words
             print(f"  ok  {stem:<48} ({words:>7,} palavras | {len(headings_by_vol[stem]):>3} headings)")
+        print(f"  --  {'TOTAL (11 volumes)':<48} ({total_words:>7,} palavras)")
 
     print()
-    print("=== RESULTADO (estrutura enxuta v5.0, zero duplicatas e wikilinks) ===")
-    print(f"Volumes verificados:        {len(vols)} (esperado: 10)")
+    print("=== RESULTADO (estrutura v5.3, 11 volumes, zero duplicatas e wikilinks) ===")
+    print(f"Volumes verificados:        {len(vols)} (esperado: 11)")
     print(f"Fases sequenciais (0-20):   {len(fases)} (esperado: 21)")
-    print(f"Capítulos temáticos:        {len(capitulos)} (esperado: 155)")
-    print(f"Frameworks únicos / total:  {len(uniq_frameworks)} únicos ({len(frameworks)} instâncias nos Vols 1-9 | esperado: 164 únicos / 164 instâncias)")
-    print(f"Canvases únicos / total:    {len(uniq_canvases)} únicos ({len(canvases)} instâncias nos Vols 1-9 | esperado: 20 únicos / 20 instâncias)")
-    print(f"Templates únicos / total:   {len(uniq_templates)} únicos ({len(templates)} instâncias nos Vols 1-9 | esperado: 39 únicos / 39 instâncias)")
-    print(f"Glossários duplicados 1-9:  {vol_glossaries} (esperado: 0 — unificado no Vol. 10)")
-    print(f"Cabeçalhos robóticos H3/H5: {len(robotic_h3) + len(robotic_h5)} (esperado: 0)")
+    print(f"Capitulos tematicos total:  {len(capitulos)} ({len(capitulos_v1_10)} nos Vols 1-10 + {len(capitulos_v11)} no Vol 11 | esperado: 185)")
+    print(f"Frameworks unicos / total:  {len(uniq_frameworks)} unicos ({len(frameworks)} instancias nos Vols 1-9 | esperado: 162 unicos / 162 instancias)")
+    print(f"Canvases unicos / total:    {len(uniq_canvases)} unicos ({len(canvases)} instancias nos Vols 1-9 | esperado: 20 unicos / 20 instancias)")
+    print(f"Templates unicos / total:   {len(uniq_templates)} unicos ({len(templates)} instancias nos Vols 1-9 | esperado: 42 unicos / 42 instancias)")
+    print(f"Glossarios duplicados 1-9:  {vol_glossaries} (esperado: 0 - unificado no Vol. 10)")
+    print(f"Cabecalhos roboticos H3/H5: {len(robotic_h3) + len(robotic_h5)} (esperado: 0)")
     print(f"Duplicatas intra-volume:    {len(dups_within_vol)} (esperado: 0)")
+    print(f"Travessoes (U+2014):        {em_dashes} (esperado: 0)")
     print(f"Wikilinks verificados:      {total_links}")
     print(f"Wikilinks quebrados:        {len(broken_links)}")
 
@@ -225,23 +235,26 @@ def audit_structure_and_links(only_problems: bool = False) -> bool:
 
     return (
         len(fases) == 21
-        and len(capitulos) == 155
-        and len(uniq_frameworks) == 164
-        and len(frameworks) == 164
+        and len(capitulos) == 185
+        and len(capitulos_v1_10) == 155
+        and len(capitulos_v11) == 30
+        and len(uniq_frameworks) == 162
+        and len(frameworks) == 162
         and len(uniq_canvases) == 20
         and len(canvases) == 20
-        and len(uniq_templates) == 39
-        and len(templates) == 39
+        and len(uniq_templates) == 42
+        and len(templates) == 42
         and vol_glossaries == 0
         and len(robotic_h3) == 0
         and len(robotic_h5) == 0
         and len(dups_within_vol) == 0
+        and em_dashes == 0
         and len(broken_links) == 0
     )
 
 
 def audit_canvas() -> bool:
-    print("=== AUDITORIA DE CANVASES VISUAIS EMBUTIDOS POR FASE (nos 10 volumes) ===\n")
+    print("=== AUDITORIA DE CANVASES VISUAIS EMBUTIDOS POR FASE (nos 11 volumes) ===\n")
     vols = load_volumes()
     sections = extract_sections(vols)
 
@@ -261,12 +274,12 @@ def audit_canvas() -> bool:
             total_mismatches += 1
             print(f"  ERR {fase_key:<10} [{vol_stem}] (encontrados {len(found)}, esperados {expected_n})")
 
-    print(f"\nDivergências de Canvases: {total_mismatches}")
+    print(f"\nDivergencias de Canvases: {total_mismatches}")
     return total_mismatches == 0
 
 
 def audit_orphans() -> bool:
-    print("=== AUDITORIA DE AUTOCONTENÇÃO (164 Frameworks, 20 Canvases, 39 Templates) ===\n")
+    print("=== AUDITORIA DE AUTOCONTENCAO (162 Frameworks, 20 Canvases, 42 Templates = 224 Ferramentas) ===\n")
     vols = load_volumes()
     all_text = "\n".join(vols.values())
 
@@ -277,13 +290,13 @@ def audit_orphans() -> bool:
     uniq_canvases = set(canvases)
     uniq_templates = set(templates)
 
-    print(f"Frameworks únicos embutidos: {len(uniq_frameworks)} / 164 ({len(frameworks)} instâncias totais nos Vols 1-9)")
-    print(f"Canvases únicos embutidos:   {len(uniq_canvases)} / 20 ({len(canvases)} instâncias totais nos Vols 1-9)")
-    print(f"Templates únicos embutidos:  {len(uniq_templates)} / 39 ({len(templates)} instâncias totais nos Vols 1-9)\n")
+    print(f"Frameworks unicos embutidos: {len(uniq_frameworks)} / 162 ({len(frameworks)} instancias totais nos Vols 1-9)")
+    print(f"Canvases unicos embutidos:   {len(uniq_canvases)} / 20 ({len(canvases)} instancias totais nos Vols 1-9)")
+    print(f"Templates unicos embutidos:  {len(uniq_templates)} / 42 ({len(templates)} instancias totais nos Vols 1-9)\n")
 
-    ok = len(uniq_frameworks) == 164 and len(uniq_canvases) == 20 and len(uniq_templates) == 39
-    print("=== RESULTADO (modo orphans / autocontenção) ===")
-    print("Status: 100% dos itens embutidos diretamente nas Fases e Capítulos (0 órfãos)." if ok else "ERRO de contagem.")
+    ok = len(uniq_frameworks) == 162 and len(uniq_canvases) == 20 and len(uniq_templates) == 42
+    print("=== RESULTADO (modo orphans / autocontencao) ===")
+    print("Status: 100% dos 224 itens embutidos diretamente nas Fases e Capitulos (0 orfaos)." if ok else "ERRO de contagem.")
     return ok
 
 

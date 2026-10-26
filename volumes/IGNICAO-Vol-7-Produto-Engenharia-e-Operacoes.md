@@ -5,7 +5,7 @@ author: "João Prado"
 date: 2026
 version: "5.3"
 volume: 7
-collection: "IGNIÇÃO: O manual operacional do empreendedor brasileiro (10 Volumes, Edição Narrativa Enxuta)"
+collection: "IGNIÇÃO: O manual operacional do empreendedor brasileiro (11 Volumes, Edição Narrativa Enxuta)"
 language: pt-BR
 
 ---
@@ -20,7 +20,7 @@ language: pt-BR
 
 ## Sobre este Volume
 
-Este é o **Volume 7 (Produto, Engenharia, Dados, IA e Operações)** da coleção IGNIÇÃO: O manual operacional do empreendedor brasileiro (10 volumes).
+Este é o **Volume 7 (Produto, Engenharia, Dados, IA e Operações)** da coleção IGNIÇÃO: O manual operacional do empreendedor brasileiro (11 volumes).
 
 O manual operacional do CTO, do CPO e do COO na scaleup brasileira. Abre com a Fase 17 (Operações, Processos e Gestão em Escala), reunindo 20 frameworks de produto e operação (do Continuous Discovery, Shape Up e OKRs a DORA, SPACE, WBR e Toyota Kata. Para o canvas Org Chart Evolution, ver [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16: TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Volume 6, Fase 16]], e para Hoshin Kanri, ver [[IGNICAO-Vol-9-Maturidade-e-Exit#FASE 19: REINVENÇÃO E SEGUNDA CURVA|Volume 9, Fase 19]]) e 3 templates operacionais, seguida por 10 capítulos sobre produto em múltiplas squads, transição do fundador técnico para gestão, recrutamento técnico, Engineering Management, DevEx e dívida técnica, IA na engenharia de software, operações com IA, design organizacional, gestão do conhecimento, comunicação interna e excelência operacional.
 

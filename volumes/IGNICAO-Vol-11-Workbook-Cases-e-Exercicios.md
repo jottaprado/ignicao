@@ -5,7 +5,7 @@ author: "João Prado"
 date: 2026
 version: "5.3"
 volume: 11
-collection: "IGNIÇÃO: O manual operacional do empreendedor brasileiro (10 Volumes, Edição Narrativa Enxuta)"
+collection: "IGNIÇÃO: O manual operacional do empreendedor brasileiro (11 Volumes, Edição Narrativa Enxuta)"
 language: pt-BR
 
 ---
@@ -20,7 +20,7 @@ language: pt-BR
 
 ## Sobre este Volume
 
-Este é o **Volume 11 (Caderno de Trincheira, Simulações de Decisão e Cases Globais & Nacionais)** da coleção IGNIÇÃO: O manual operacional do empreendedor brasileiro (10 volumes).
+Este é o **Volume 11 (Caderno de Trincheira, Simulações de Decisão e Cases Globais & Nacionais)** da coleção IGNIÇÃO: O manual operacional do empreendedor brasileiro (11 volumes).
 
 Volume prático de aplicação, simulação executiva e estudos de caso da coleção IGNIÇÃO, organizado em 10 partes que espelham os Volumes 1 a 10: reúne 58 cases globais e brasileiros estruturados em quatro atos (Contexto e Problema Real, Dilema na Mesa do Fundador, Engenharia da Decisão com Métricas e Tradução para a Realidade Brasileira em Outubro de 2026), 50 exercícios mão na massa com memória de cálculo passo a passo e gabarito comentado, 27 simulações de roleplay executivo comparando o caminho armadilha ao protocolo de alta precisão com rubrica de pontuação, e o Simulador Integrador de Ponta a Ponta das 21 Fases acompanhando a ForjaTech Sistemas Industriais S.A. do mês zero ao exit.
 

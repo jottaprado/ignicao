@@ -5,7 +5,7 @@ author: "João Prado"
 date: 2026
 version: "5.3"
 volume: 4
-collection: "IGNIÇÃO: O manual operacional do empreendedor brasileiro (10 Volumes, Edição Narrativa Enxuta)"
+collection: "IGNIÇÃO: O manual operacional do empreendedor brasileiro (11 Volumes, Edição Narrativa Enxuta)"
 language: pt-BR
 
 ---
@@ -20,7 +20,7 @@ language: pt-BR
 
 ## Sobre este Volume
 
-Este é o **Volume 4 (Tração, Go-to-Market e Product-Market Fit)** da coleção IGNIÇÃO: O manual operacional do empreendedor brasileiro (10 volumes).
+Este é o **Volume 4 (Tração, Go-to-Market e Product-Market Fit)** da coleção IGNIÇÃO: O manual operacional do empreendedor brasileiro (11 volumes).
 
 Este volume cobre as Fases 11 a 13 da jornada, da entrada do MVP em produção até a comprovação do Product-Market Fit: Operação de MVP e Experimentos de Mercado (Fase 11), Validação do Modelo de Negócio (Fase 12) e Product-Market Fit (Fase 13). Os frameworks passo a passo, os quadros visuais preenchidos (Pirate Canvas/AARRR e Risk Canvas) e os templates operacionais (Checklist de Pré-Lançamento e Scorecard de PMF) ficam integrados dentro de cada fase. Na sequência, onze capítulos aprofundam GTM e arquitetura de canais até R$ 1 milhão de ARR, crescimento orgânico (SEO, conteúdo e comunidades), mídia paga, posicionamento e marketing de produto (PMM), vendas B2B consultivas, precificação e receita recorrente, negociação, sucesso e experiência do cliente (CS e CX), infraestrutura de dados e experimentação, produto nativo em IA e execução de pivô.
 
@@ -433,15 +433,15 @@ Com *unit economics* comprovados nos polos iniciais, a Stone multiplicou a capil
 
 A Fase 11 tem três possíveis desfechos. Todos legítimos.
 
-##### Sucesso claro: siga para a Fase 12
+#### Sucesso claro: siga para a Fase 12
 
 Os critérios de saída desta fase exigem pelo menos dez a doze clientes pagando de forma recorrente por oito a doze semanas em B2B (ou cinco contratos ativos em vendas corporativas de tíquete alto), acompanhados de ativação acima de 30% a 40% em D7, retenção de usuários ativos em D30 igual ou superior ao piso de 40% em B2B rumo à meta saudável de 60% (ou curva estabilizada acima de 20% a 25% em B2C), conversão de teste para pago acima de 15% e pelo menos três clientes que já indicaram espontaneamente outro cliente (ou 20% de novos usuários vindos por indicação orgânica em B2C).
 
-##### Sinais mistos, itere por mais quatro a oito semanas
+#### Sinais mistos, itere por mais quatro a oito semanas
 
 Ativação razoável mas retenção fraca. Usuários dizem que gostam, mas não voltam. Alguns super-usuários. Maioria silenciosa.
 
-##### Fracasso claro, pivote ou abandone
+#### Fracasso claro, pivote ou abandone
 
 Baixa ativação. Curva de retenção desce a zero em duas a quatro semanas. Conversão para pago menos de cinco por cento. Ausência de referência orgânica.
 
@@ -1554,7 +1554,7 @@ Quatro armadilhas invalidam a inferência causal na validação do modelo: confu
 
 ##### De onde vem a ferramenta (e por que sobreviveu ao filtro do tempo)
 
-Gabriel Weinberg e Justin Mares publicaram *Traction* (2014) mostrando como escolher canais de aquisição por meio de três anéis concêntricos (*Bullseye*). A lista completa dos 19 canais e o passo a passo detalhado de execução estão consolidados no [[#Framework: Lean Product Playbook (Dan Olsen, 2015)|Capítulo 1: GTM Playbook e Arquitetura de Canais]]. Nesta Fase 12, o foco do exercício é filtrar em qual canal a economia unitária (CAC e LTV) fecha no azul.
+Gabriel Weinberg e Justin Mares publicaram *Traction* (2014) mostrando como escolher canais de aquisição por meio de três anéis concêntricos (*Bullseye*). A lista completa dos 19 canais e o passo a passo detalhado de execução estão consolidados no [[#Framework: Seleção de Canais pelo Método Bullseye (Gabriel Weinberg e Justin Mares, 2014) Aplicado ao CAC da Fase 12|Capítulo 1: GTM Playbook e Arquitetura de Canais]]. Nesta Fase 12, o foco do exercício é filtrar em qual canal a economia unitária (CAC e LTV) fecha no azul.
 
 ##### A mecânica central (sem jargão)
 
@@ -4083,7 +4083,7 @@ Posicionamento é a resposta a três perguntas obrigatórias:
 
 **Por que você:** o motivo pelo qual você resolve esse trabalho melhor, de forma que seja difícil de copiar no curto prazo.
 
-A declaração clássica de posicionamento formulada por Geoffrey Moore (detalhada no [[#Framework: Lean Product Playbook (Dan Olsen, 2015)|bloco de Positioning do Manual Passo a Passo da Fase 13]]) amarra esses três elementos ao conectar o cliente-alvo e sua necessidade urgente à categoria do produto, ao benefício central e à diferença objetiva frente à alternativa principal.
+A declaração clássica de posicionamento formulada por Geoffrey Moore (detalhada no [[#IGNIÇÃO: Volume 4: Tração, Go-to-Market e Product-Market Fit|bloco de Positioning do Manual Passo a Passo da Fase 13]]) amarra esses três elementos ao conectar o cliente-alvo e sua necessidade urgente à categoria do produto, ao benefício central e à diferença objetiva frente à alternativa principal.
 
 A frase parece simples, mas cada palavra obriga a uma renúncia concreta: escrever "para PMEs de tecnologia com time comercial acima de dez pessoas" deixa de fora quem a fórmula genérica "para times de vendas B2B" tentaria abraçar.
 
@@ -4367,7 +4367,7 @@ O que não cortar em nenhum estágio: consistência. Uma marca inconsistente, co
 
 - [[IGNICAO-Vol-2-Descoberta-e-Mercado#CAPÍTULO 2: INTELIGÊNCIA COMPETITIVA, POSICIONAMENTO E CATEGORY DESIGN|Capítulo 2: Inteligência Competitiva, Posicionamento e Category Design (Vol. 2)]]
 - [[IGNICAO-Vol-2-Descoberta-e-Mercado#CAPÍTULO 1: PSICOLOGIA DO CONSUMIDOR BRASILEIRO: COMPORTAMENTO, DECISÃO E CONVERSÃO|Capítulo 1: Psicologia do Consumidor Brasileiro: Comportamento, Decisão e Conversão (Vol. 2)]]
-- [[#Framework: Lean Product Playbook (Dan Olsen, 2015)|Posicionamento de Ries e Trout]], [[#Framework: Posicionamento de April Dunford (*Obviously Awesome*, 2019: 5 componentes e 10 passos)|Método de April Dunford]], [[#Framework: StoryBrand Framework (Donald Miller, 2017)|StoryBrand]] e [[#Framework: Brand Archetypes (Margaret Mark e Carol Pearson, 2001. Sobre Carl Jung)|Arquétipos de Marca]] no Manual Passo a Passo da Fase 13
+- [[#IGNIÇÃO: Volume 4: Tração, Go-to-Market e Product-Market Fit|Posicionamento de Ries e Trout]], [[#Framework: Posicionamento de April Dunford (*Obviously Awesome*, 2019: 5 componentes e 10 passos)|Método de April Dunford]], [[#Framework: StoryBrand Framework (Donald Miller, 2017)|StoryBrand]] e [[#Framework: Brand Archetypes (Margaret Mark e Carol Pearson, 2001. Sobre Carl Jung)|Arquétipos de Marca]] no Manual Passo a Passo da Fase 13
 - [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 6: MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 6: Mapeamento de Mercado e Concorrência (Vol. 2)]]
 - [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 15: MÁQUINA DE CRESCIMENTO E EXPANSÃO EM ESCALA|Fase 15: Máquina de Crescimento e Expansão em Escala (Vol. 6)]]
 

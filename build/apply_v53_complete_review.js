@@ -448,7 +448,7 @@ function applyV53CompleteReview(volNum, content) {
         '',
         'Você chegou ao fim da jornada ou talvez só tenha aberto esta página por curiosidade. De qualquer forma, um recado.',
         '',
-        'Esta obra foi escrita para acompanhar quem constrói em uma jornada longa, íngreme, frequentemente solitária, ocasionalmente luminosa e sempre mais exigente do que quem observa de fora imagina. Para você, fundador ou fundadora que ergue um negócio real no Brasil e consulta estes volumes nos momentos de decisão decisiva da sua trajetória, as cerca de 915 mil palavras reunidas nestes dez volumes principais (nove volumes de jornada nas Fases 0 a 20 e o Volume 10 de *playbooks* setoriais e referências, acompanhados do Volume 11 de casos e simulações) são o resultado de anos organizando em método o que aprendi na trincheira, o que vi funcionar ou quebrar em centenas de empresas e o que gostaria de ter lido quando comecei. Um manual canônico é, no fundo, uma carta de navegação escrita para poupar cicatrizes desnecessárias a quem vem depois.',
+        'Esta obra foi escrita para acompanhar quem constrói em uma jornada longa, íngreme, frequentemente solitária, ocasionalmente luminosa e sempre mais exigente do que quem observa de fora imagina. Para você, fundador ou fundadora que ergue um negócio real no Brasil e consulta estes volumes nos momentos de decisão decisiva da sua trajetória, os mais de 1,4 milhão de palavras reunidos nestes 11 volumes (nove volumes de jornada nas Fases 0 a 20, o Volume 10 de *playbooks* setoriais e referências e o Volume 11 de casos, exercícios e simulações) são o resultado de anos organizando em método o que aprendi na trincheira, o que vi funcionar ou quebrar em centenas de empresas e o que gostaria de ter lido quando comecei. Um manual canônico é, no fundo, uma carta de navegação escrita para poupar cicatrizes desnecessárias a quem vem depois.',
         '',
         'Algumas reflexões finais.',
         '',
@@ -458,7 +458,7 @@ function applyV53CompleteReview(volNum, content) {
         '',
         '**Sobre o tempo de maturação.** Construir uma empresa durável no Brasil leva mais tempo do que os relatos de redes sociais fazem parecer: a maioria das companhias sólidas que você admira levou de 8 a 15 anos de execução consistente para chegar à maturidade. Antes de aparecer em qualquer manchete de captação, uma operação real costuma acumular anos de dedicação consistente nos bastidores ajustando produto, canal e margem.',
         '',
-        '**Sobre as pessoas ao seu redor.** Ao longo das 21 fases (Fases 0 a 20) e cerca de 915 mil palavras desta coleção, examinamos ferramentas técnicas para produto, vendas, finanças, governança e regulação, mas nenhuma planilha substitui a escolha de com quem você divide a trincheira. A decisão sobre quem são seus cofundadores, seus primeiros líderes executivos, seus investidores de conselho e seu parceiro ou parceira de vida definirá tanto o valor da companhia quanto a paz dentro da sua casa.',
+        '**Sobre as pessoas ao seu redor.** Ao longo das 21 fases (Fases 0 a 20), 185 capítulos e mais de 1,4 milhão de palavras desta coleção, examinamos ferramentas técnicas para produto, vendas, finanças, governança e regulação, mas nenhuma planilha substitui a escolha de com quem você divide a trincheira. A decisão sobre quem são seus cofundadores, seus primeiros líderes executivos, seus investidores de conselho e seu parceiro ou parceira de vida definirá tanto o valor da companhia quanto a paz dentro da sua casa.',
         '',
         '**Sobre você.** Construir uma empresa ao longo de uma década transforma quem você é: desenvolve disciplina analítica, clareza sob pressão e capacidade de decidir na incerteza, mas também cobra um preço alto se a saúde física e a presença na família forem deixadas para depois. A recomendação final desta coleção é simples: proteja deliberadamente a sua saúde e as pessoas que caminham ao seu lado fora da empresa, porque a operação dentro dela sempre pedirá todo o espaço que você deixar aberto.',
         '',
@@ -488,6 +488,36 @@ function applyV53CompleteReview(volNum, content) {
         '#### C) Regime Tributário de Clínicas Médicas e Requisitos Estritos da Equiparação Hospitalar (Tema 217 do STJ)'
       );
   }
+
+  if (volNum === 1) {
+    joined = joined
+      .replace(
+        '**IGNIÇÃO** é um manual operacional em 10 volumes para fundadores',
+        '**IGNIÇÃO** é um manual operacional em 11 volumes para fundadores'
+      )
+      .replace(
+        'todos os 163 Frameworks passo a passo, 20 Canvases Visuais preenchidos com reconstruções didáticas de casos brasileiros, 39 Templates operacionais distintos prontos para uso',
+        'todos os 162 Frameworks passo a passo, 20 Canvases Visuais preenchidos com reconstruções didáticas de casos brasileiros, 42 Templates operacionais distintos prontos para uso (224 ferramentas no total)'
+      )
+      .replace(
+        'A coleção está organizada em 10 volumes focais (21 Fases e 155 Capítulos):',
+        'A coleção está organizada em 11 volumes focais (21 Fases e 185 Capítulos):'
+      )
+      .replace(
+        '- **Volume 10: Economia da Inovação, Hubs Globais e Playbooks das 42 Verticais:** 48 Capítulos cobrindo a Economia da Inovação e seus Atores, a Geografia Mundial de Hubs por Continente e os 15 Polos Brasileiros, Ciclos Macroeconômicos, Autarquias Reguladoras, CADE, Políticas Públicas e os 42 Playbooks Setoriais da economia real, seguidos pelo Dicionário e Índices Unificados da Coleção.',
+        '- **Volume 10: Economia da Inovação, Hubs Globais e Playbooks das 42 Verticais:** 48 Capítulos cobrindo a Economia da Inovação e seus Atores, a Geografia Mundial de Hubs por Continente e os 15 Polos Brasileiros, Ciclos Macroeconômicos, Autarquias Reguladoras, CADE, Políticas Públicas e os 42 Playbooks Setoriais da economia real, seguidos pelo Dicionário e Índices Unificados da Coleção.\n- **Volume 11: Caderno de Trincheira, Simulações de Decisão e Cases Globais & Nacionais:** 30 Capítulos de aplicação prática espelhando os Volumes 1 a 10, com 58 Cases Profundos (globais e brasileiros), 50 Exercícios com Gabarito Comentado, 27 Simulações de Decisão e Roleplays Executivos e o Simulador Integrador das 21 Fases.'
+      );
+  }
+
+  joined = joined
+    .replace(
+      'collection: "IGNIÇÃO: O manual operacional do empreendedor brasileiro (10 Volumes, Edição Narrativa Enxuta)"',
+      'collection: "IGNIÇÃO: O manual operacional do empreendedor brasileiro (11 Volumes, Edição Narrativa Enxuta)"'
+    )
+    .replace(
+      'da coleção IGNIÇÃO: O manual operacional do empreendedor brasileiro (10 volumes).',
+      'da coleção IGNIÇÃO: O manual operacional do empreendedor brasileiro (11 volumes).'
+    );
 
   console.log(`[v5.3 Complete Review] Vol ${volNum}: applied ${applied} line-indexed fixes.`);
   return joined
@@ -526,6 +556,10 @@ function normHeadingKey(s) {
     .trim();
 }
 
+function stripToolPrefix(s) {
+  return String(s || '').replace(/^(?:Framework|Canvas|Template)\s*:\s*/i, '').trim();
+}
+
 function resolveCanonicalHeading(hMap, firstH1, targetHeading) {
   if (!targetHeading) return firstH1;
   if (hMap.has(targetHeading)) return targetHeading;
@@ -550,12 +584,33 @@ function resolveCanonicalHeading(hMap, firstH1, targetHeading) {
   const exactNorm = keys.find((k) => normHeadingKey(k) === nTarget);
   if (exactNorm) return exactNorm;
 
-  const coreTarget = normHeadingKey(targetHeading.replace(/\([^)]*\)/g, '').split(/[,:—–-]/)[0]);
+  const mToolPrefix = targetHeading.match(/^(Framework|Canvas|Template)\s*:/i);
+  if (mToolPrefix) {
+    const toolType = mToolPrefix[1].toLowerCase();
+    const sameTypeKeys = keys.filter((k) => k.toLowerCase().startsWith(toolType + ':'));
+    const bodyTarget = normHeadingKey(
+      stripToolPrefix(targetHeading)
+        .replace(/\([^)]*\)/g, '')
+        .split(/[,:—–-]/)[0]
+        .replace(/\bframework\b/gi, '')
+    );
+    if (bodyTarget.length >= 4) {
+      const toolMatch = sameTypeKeys.find((k) => {
+        const nk = normHeadingKey(stripToolPrefix(k));
+        return nk.includes(bodyTarget);
+      });
+      if (toolMatch) return toolMatch;
+    }
+  }
+
+  const coreTarget = normHeadingKey(
+    stripToolPrefix(targetHeading).replace(/\([^)]*\)/g, '').split(/[,:—–-]/)[0]
+  );
   if (coreTarget.length > 6) {
     const prefixMatch = keys.find((k) => {
-      const nk = normHeadingKey(k);
+      const nk = normHeadingKey(stripToolPrefix(k));
       if (nk.length <= 6) return false;
-      const coreK = normHeadingKey(k.replace(/\([^)]*\)/g, '').split(/[,:—–-]/)[0]);
+      const coreK = normHeadingKey(stripToolPrefix(k).replace(/\([^)]*\)/g, '').split(/[,:—–-]/)[0]);
       return nk.startsWith(coreTarget) || (coreK.length > 6 && coreTarget.startsWith(coreK));
     });
     if (prefixMatch) return prefixMatch;
@@ -583,65 +638,102 @@ function reconcileAllV53CrossVolumeLinks(volumesDir) {
     linesByVol[v] = lines;
   }
 
-  // Inject the complete 221-tool catalog and the 5 remaining chapter entries into Vol 10's apparatus
+  // Replace the complete tool catalog in Vol 10 with the 3-table auto-generated catalog from Vols 1-9
   if (linesByVol[10]) {
     let v10Text = linesByVol[10].join('\n');
-    if (!v10Text.includes('### Catálogo Completo das Ferramentas da Coleção (Volumes 1 a 9)')) {
-      const allTools = [];
-      for (let v = 1; v <= 9; v++) {
-        const slug = VOL_SLUGS[v];
-        const vLines = linesByVol[v] || [];
-        let curUnitHeading = '';
-        let curUnitShort = `Vol. ${v}`;
-        for (const ln of vLines) {
-          const mUnit = ln.match(/^##\s+((?:FASE|CAPÍTULO)\s+\d+[^#\n]*)$/i);
-          if (mUnit) {
-            curUnitHeading = mUnit[1].trim();
-            const mShort = curUnitHeading.match(/^((?:FASE|CAPÍTULO)\s+\d+)/i);
-            curUnitShort = mShort ? `${mShort[1]} (Vol. ${v})` : `Vol. ${v}`;
-          }
-          const mTool = ln.match(/^####\s+((?:Framework|Canvas|Template):\s+.+)$/i);
-          if (mTool) {
-            const toolHeading = mTool[1].trim();
-            allTools.push({
-              vol: v,
-              slug,
-              toolHeading,
-              curUnitHeading,
-              curUnitShort,
-            });
-          }
+    const fwTools = [];
+    const czTools = [];
+    const tpTools = [];
+
+    for (let v = 1; v <= 9; v++) {
+      const slug = VOL_SLUGS[v];
+      const vLines = linesByVol[v] || [];
+      let curUnitHeading = '';
+      let curUnitShort = `Vol. ${v}`;
+      for (const ln of vLines) {
+        const mUnit = ln.match(/^##\s+((?:FASE|CAPÍTULO)\s+\d+[^#\n]*)$/i);
+        if (mUnit) {
+          curUnitHeading = mUnit[1].trim();
+          const mShort = curUnitHeading.match(/^((?:FASE|CAPÍTULO)\s+\d+)/i);
+          curUnitShort = mShort ? `${mShort[1]} (Vol. ${v})` : `Vol. ${v}`;
+        }
+        const mTool = ln.match(/^####\s+((Framework|Canvas|Template):\s+.+)$/i);
+        if (mTool) {
+          const toolHeading = mTool[1].trim();
+          const kind = mTool[2].toLowerCase();
+          const entry = {
+            vol: v,
+            slug,
+            toolHeading,
+            curUnitHeading,
+            curUnitShort,
+          };
+          if (kind === 'framework') fwTools.push(entry);
+          else if (kind === 'canvas') czTools.push(entry);
+          else if (kind === 'template') tpTools.push(entry);
         }
       }
+    }
 
-      const catalogLines = [
-        `### Catálogo Completo das Ferramentas da Coleção (Volumes 1 a 9: ${allTools.length} Ferramentas)`,
+    const totalTools = fwTools.length + czTools.length + tpTools.length;
+    const buildSubTable = (title, items, colHeader) => {
+      const rows = [
+        `#### ${title}`,
         '',
-        '| # | Ferramenta (Framework, Canvas ou Template) | Volume | Fase ou Capítulo |',
+        `| # | ${colHeader} | Volume | Fase ou Capítulo |`,
         '| :--- | :--- | :--- | :--- |',
       ];
-      allTools.forEach((t, idx) => {
+      items.forEach((t, idx) => {
         const cleanLabel = t.toolHeading.replace(/\|/g, '/');
         const unitLink = t.curUnitHeading
           ? `[[${t.slug}#${t.curUnitHeading}|${t.curUnitShort}]]`
           : `Vol. ${t.vol}`;
-        catalogLines.push(
-          `| ${idx + 1} | [[${t.slug}#${t.toolHeading}|${cleanLabel}]] | Vol. ${t.vol} | ${unitLink} |`
-        );
+        rows.push(`| ${idx + 1} | [[${t.slug}#${t.toolHeading}|${cleanLabel}]] | Vol. ${t.vol} | ${unitLink} |`);
       });
-      catalogLines.push('');
+      rows.push('');
+      return rows.join('\n');
+    };
 
-      const marker =
-        'Se você está começando, utilize primeiro apenas as ferramentas da Fase em que sua startup se encontra no momento.';
-      if (v10Text.includes(marker)) {
-        v10Text = v10Text.replace(marker, catalogLines.join('\n') + '\n' + marker);
-      }
-      // Also align the promised count on the heading/callout of Vol 10
-      v10Text = v10Text.replace(
-        /Catálogo Completo das 224 Ferramentas da Coleção/g,
-        `Catálogo Completo das ${allTools.length} Ferramentas da Coleção`
-      );
+    const newCatalogSection = [
+      `### 2. Catálogo Completo das ${totalTools} Ferramentas da Coleção (${fwTools.length} Frameworks, ${czTools.length} Canvases e ${tpTools.length} Templates)`,
+      '',
+      `As três tabelas a seguir listam integralmente todas as ${totalTools} seções de ferramentas (\`#### Framework:\`, \`#### Canvas:\` e \`#### Template:\`) distribuídas nos Volumes 1 a 7 e 9, organizadas por ordem de Volume e Fase ou Capítulo.`,
+      '',
+      buildSubTable(
+        `2.1. Catálogo Completo dos ${fwTools.length} Frameworks da Coleção`,
+        fwTools,
+        'Framework (link direto para a Oficina)'
+      ),
+      buildSubTable(
+        `2.2. Catálogo Completo dos ${czTools.length} Canvases da Coleção`,
+        czTools,
+        'Canvas (link direto para a Oficina)'
+      ),
+      buildSubTable(
+        `2.3. Catálogo Completo dos ${tpTools.length} Templates da Coleção`,
+        tpTools,
+        'Template (link direto para a Oficina)'
+      ),
+    ].join('\n');
+
+    const startMarker = '### 2. Catálogo Completo das ';
+    const endMarker =
+      'Se você está começando, utilize primeiro apenas as ferramentas da Fase em que sua startup se encontra no momento.';
+    const sIdx = v10Text.indexOf(startMarker);
+    const eIdx = v10Text.indexOf(endMarker);
+    if (sIdx !== -1 && eIdx !== -1 && eIdx > sIdx) {
+      v10Text = v10Text.slice(0, sIdx) + newCatalogSection + '\n' + v10Text.slice(eIdx);
     }
+
+    v10Text = v10Text
+      .replace(
+        /as 224 ferramentas com seção dedicada de oficina \(163 Frameworks, 20 Canvases e 41 Templates\)/g,
+        `as ${totalTools} ferramentas com seção dedicada de oficina (${fwTools.length} Frameworks, ${czTools.length} Canvases e ${tpTools.length} Templates)`
+      )
+      .replace(
+        /Catálogo Completo das \d+ Ferramentas da Coleção \(163 Frameworks, 20 Canvases e 41 Templates\)/g,
+        `Catálogo Completo das ${totalTools} Ferramentas da Coleção (${fwTools.length} Frameworks, ${czTools.length} Canvases e ${tpTools.length} Templates)`
+      );
 
     // Ensure the 5 remaining chapters of Vols. 1–9 are linked in the Remissivo
     const extraRemissivo = [

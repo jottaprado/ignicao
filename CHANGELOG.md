@@ -6,6 +6,45 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/).
 
 ---
 
+## [5.3] — 2026-10-26
+
+### Adicionado
+
+- **Volume 11: Caderno de Trincheira, Simulações de Decisão e Cases Globais & Nacionais (`volumes/IGNICAO-Vol-11-Workbook-Cases-e-Exercicios.md`, 30 Capítulos, ~204k palavras / ~816 páginas)**:
+  - **58 Estudos de Caso Profundos (Globais e Brasileiros)** estruturados em 4 atos (*Contexto e o Problema Real*, *O Dilema na Mesa do Fundador*, *Engenharia da Decisão e Métricas* e *Tradução para a Realidade Brasileira em Outubro de 2026*), cobrindo Airbnb, Stripe, Nubank, Notion, QuintoAndar, Figma, Superhuman, iFood, Intercom, VTEX, Segment, Wellhub, Zappos, Dropbox, DoorDash, Basecamp, GitLab/Elastic, Loggi/MadeiraMadeira, Slack, RD Station, HubSpot, Omie/Conta Azul, Canva, Snowflake/Datadog, TOTVS/Linx, Wise, Brex/Ramp/Creditas, Atlassian, Kavak, Mercado Livre/Mercado Pago, Salesforce, Netflix, O Boticário/Cacau Show/Smart Fit, Amazon, Spotify, Stone/Pagar.me, Duolingo/Klarna, Linear/Vercel, Facebook/Zipcar, Zenefits, Instagram/WhatsApp, 99/Movile, OpenAI/Uber, Adobe/Microsoft, Constellation Software, Asaas/Stark Bank/Adyen, Solinftec/Aegro/John Deere, Alice/Sami/Dr. Consulta, Gove/Aprova Digital, Órigo/Lemon/Mombak e Tractian/WEG/Samsara.
+  - **50 Exercícios Práticos Mão na Massa com Gabarito Comentado** (5 por bloco temático espelhando os Volumes 1 a 10), com enunciados numéricos completos, fórmulas passo a passo, gabaritos comentados e armadilhas comuns.
+  - **27 Simulações de Decisão e Roleplays Executivos** (3 para cada um dos Volumes 1 a 9), com pressões ocultas na mesa, diálogo do caminho armadilha, protocolo de alta precisão e rubrica de pontuação de 0 a 10 pontos.
+  - **Capítulo 30: Simulador Integrador de Ponta a Ponta (O Jogo Completo das 21 Fases, da Fase 0 ao Exit)** com 21 cenários decisórios sequenciais, pontuação cumulativa (0 a 105 pontos) e protocolo de revisão trimestral.
+- **Catálogo Completo das 224 Ferramentas no Volume 10 (`volumes/IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario.md`)**: geração automatizada a partir do corpo dos Volumes 1 a 9 das três tabelas integrais de referência (**162 Frameworks**, **20 Canvases Visuais** e **42 Templates Operacionais**), com links diretos para cada cabeçalho `####` e para a Fase ou Capítulo correspondente.
+- **Suíte de Validação de Ponto Fixo em 5 Camadas (`fixed_point_validation_suite.py` e `audit.py` v5.3)**: validação determinística de estrutura Markdown, paridade de negrito e blocos de código, geometria de tabelas, hierarquia de cabeçalhos, ausência total de travessões (`U+2014`), resolução de 100% dos wikilinks (inclusive com escape `\|` em tabelas Markdown) e compilação limpa dos 12 EPUBs e 12 capas PNG.
+
+### Corrigido e Atualizado
+
+- **Revisão Integral da Planilha de Achados v5.2 -> v5.3 (`IGNICAO_v52_achados_da_revisao.xlsx`, 4.980 células de achados, checagem, pendências, remissões, moldes e links)**:
+  - **Congelamento de numeração, remissões e links internos**: reconciliação integral das remissões a fases e capítulos (com número + título do capítulo) e eliminação de 100% dos links quebrados ou ambíguos nos 11 volumes (`3.129` wikilinks validados com `0` quebras).
+  - **Eliminação dos 175 parágrafos de molde de fechamento e 112 moldes de abertura**: substituição por prosa narrativa orgânica ancorada nos fatos, métricas e dilemas específicos dos quatro arquétipos da coleção (Lucas & Marina, Dra. Camila, Henrique e Rafael & Bia).
+  - **Costura integral dos 25 capítulos fundidos**: remoção de blocos intermediários de `"Ver também"` e notas de bastidor, renumeração contínua de subseções e unificação de fechamentos.
+  - **Eliminação de contradições internas e frases velhas residuais (`C5`)**: unificação das réguas numéricas da coleção (meta de entrevistas na Fase 4, escala de *Pain Level* 1 a 5, *Rule of 40*, *Burn Multiple*, *Magic Number*, *Quick Ratio*, retenção D30 e *Churn* mensal/anual) e remoção de redações antigas que haviam permanecido ao lado das correções.
+  - **Atualização Jurídica, Tributária e Regulatória para Outubro de 2026**:
+    - **LC 224/2025 e IN RFB 2.305/2025**: retenção de **17,5% de IRRF sobre JCP** desde 1º/01/2026, acréscimo de 10% nos percentuais de presunção do **Lucro Presumido** (32% -> **35,2%** em serviços para IRPJ e 12% -> **13,2%** para CSLL) sobre a parcela da receita bruta anual acima de R$ 5 milhões (R$ 1,25 milhão/trimestre) e redução linear de 10% em benefícios fiscais federais.
+    - **Lei 15.270/2025**: retenção de **10% de IRRF sobre dividendos** pagos a pessoa física acima de R$ 50 mil/mês por uma mesma empresa no Brasil e IRPFM progressivo até 10% para rendas anuais acima de R$ 600 mil (e distinção da tributação do ganho de capital na venda da empresa via Holding vs. Pessoa Física).
+    - **EC 132/2023, LC 214/2025 e LC 227/2026 (PLP 108/2024)**: cronograma da Reforma Tributária (CBS/IBS), Comitê Gestor do IBS e progressividade obrigatória do ITCMD.
+    - **Temas Repetitivos 1.226 (2024) e 1.379 (14/10/2026) do STJ**: natureza mercantil dos planos de *Stock Options* (com onerosidade, voluntariedade e risco de mercado), afastando tanto o IRPF quanto a contribuição previdenciária (INSS) na outorga e no exercício, com tributação exclusiva de ganho de capital na alienação das ações.
+    - **Emenda Constitucional 141 (16/10/2026) e Lei 15.371/2026**: redução gradual da jornada máxima constitucional para 42h semanais (dez/2026) e 40h semanais (dez/2027) em escala máxima 5x2 sem redução salarial, e ampliação escalonada da licença-paternidade (10 dias em 2027, 15 em 2028 e 20 em 2029).
+    - **Lei 15.352/2026 (conversão da MP 1.317/2025) e Resolução CD/ANPD 15/2024**: transformação da ANPD em **Agência Nacional de Proteção de Dados** e prazo de **3 dias úteis** para comunicação de incidente de segurança com risco ou dano relevante (com guarda de registros por 5 anos).
+    - **Resoluções BCB 494/2025 e 519 a 521/2025, Resoluções CVM 193 e 244/2026, Decreto 13.135/2026 (Novo SAC), Decreto 12.456/2025 (EAD) e Lei 15.211/2025 (ECA Digital)**: atualização integral nos Volumes 5, 6, 7, 8, 9, 10 e 11.
+  - **Higiene Tipográfica e Sintática Completa**: eliminação de 100% dos travessões (`U+2014`: `0` ocorrências nos 11 volumes), correção de dois-pontos indevidos antes de conjunções (`: e`, `: mas`, `: ou`, `: que`), eliminação de células de tabela órfãs (`| : |`) e recompilação das 12 capas PNG e 12 EPUBs em `build/` com o selo `2026 · v5.3 · EDIÇÃO REVISADA E ATUALIZADA`.
+
+---
+
+## [5.2] — 2026-10-24
+
+### Corrigido
+
+- Primeira rodada de revisão factual, regulatória e de desduplicação inter-volumes sobre a Edição Narrativa Enxuta (reduzindo a repetição entre volumes de 9,9% para 0,8%) e consolidação da auditoria externa em `IGNICAO_v52_achados_da_revisao.xlsx`.
+
+---
+
 ## [5.1] — 2026-10-22
 
 ### Otimizado e Consolidado

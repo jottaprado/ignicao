@@ -5,7 +5,7 @@ author: "João Prado"
 date: 2026
 version: "5.3"
 volume: 9
-collection: "IGNIÇÃO: O manual operacional do empreendedor brasileiro (10 Volumes, Edição Narrativa Enxuta)"
+collection: "IGNIÇÃO: O manual operacional do empreendedor brasileiro (11 Volumes, Edição Narrativa Enxuta)"
 language: pt-BR
 
 ---
@@ -20,7 +20,7 @@ language: pt-BR
 
 ## Sobre este Volume
 
-Este é o **Volume 9 (Maturidade, Governança, Crise, Exit e Family Office)** da coleção IGNIÇÃO: O manual operacional do empreendedor brasileiro (10 volumes).
+Este é o **Volume 9 (Maturidade, Governança, Crise, Exit e Family Office)** da coleção IGNIÇÃO: O manual operacional do empreendedor brasileiro (11 volumes).
 
 Este volume aborda o ciclo longo da companhia consolidada: governança de conselho, expansão internacional, sobrevivência a crises severas, execução de saída (*exit*), geração perene de dividendos (*Cash Cow*) e gestão patrimonial em *Family Office*. As Fases 19 (Reinvenção e Segunda Curva) e 20 (Estratégia de Saída) abrem a jornada trazendo os 8 *frameworks* de planejamento de longo prazo e inovação (*Scenario Planning*, *Hoshin Kanri*, OGSM, *Balanced Scorecard*, *Innovator's Dilemma*, *Ambidextrous Organization*, *Open Innovation* e *S-Curves*), o *Wardley Map Canvas* e o *template* de *Board Deck* com prontidão para M&A. Em seguida, os 21 capítulos aprofundam em sequência a gestão do conselho, empresas familiares e sucessão, disputas societárias, ESG pragmático, internacionalização, vistos, *hedge* cambial, tesouraria multimoeda, gestão de crise, *layoffs*, recuperação judicial, M&A *buy-side*, *Search Funds*, *spin-offs*, liquidez secundária, IPO, tributação de *exit*, transição pós-aquisição, *post-mortems* brasileiros, fundadores de segunda viagem e a estrutura de *Cash Cow* e *Family Office*, encerrando com o Epílogo da jornada.
 
@@ -6088,7 +6088,7 @@ Ao concluir este nono volume da jornada operacional e antes de consultar os *pla
 
 Você chegou ao fim da jornada ou talvez só tenha aberto esta página por curiosidade. De qualquer forma, um recado.
 
-Esta obra foi escrita para acompanhar quem constrói em uma jornada longa, íngreme, frequentemente solitária, ocasionalmente luminosa e sempre mais exigente do que quem observa de fora imagina. Para você, fundador ou fundadora que ergue um negócio real no Brasil e consulta estes volumes nos momentos de decisão decisiva da sua trajetória, as cerca de 915 mil palavras reunidas nestes dez volumes principais (nove volumes de jornada nas Fases 0 a 20 e o Volume 10 de *playbooks* setoriais e referências, acompanhados do Volume 11 de casos e simulações) são o resultado de anos organizando em método o que aprendi na trincheira, o que vi funcionar ou quebrar em centenas de empresas e o que gostaria de ter lido quando comecei. Um manual canônico é, no fundo, uma carta de navegação escrita para poupar cicatrizes desnecessárias a quem vem depois.
+Esta obra foi escrita para acompanhar quem constrói em uma jornada longa, íngreme, frequentemente solitária, ocasionalmente luminosa e sempre mais exigente do que quem observa de fora imagina. Para você, fundador ou fundadora que ergue um negócio real no Brasil e consulta estes volumes nos momentos de decisão decisiva da sua trajetória, os mais de 1,4 milhão de palavras reunidos nestes 11 volumes (nove volumes de jornada nas Fases 0 a 20, o Volume 10 de *playbooks* setoriais e referências e o Volume 11 de casos, exercícios e simulações) são o resultado de anos organizando em método o que aprendi na trincheira, o que vi funcionar ou quebrar em centenas de empresas e o que gostaria de ter lido quando comecei. Um manual canônico é, no fundo, uma carta de navegação escrita para poupar cicatrizes desnecessárias a quem vem depois.
 
 Algumas reflexões finais.
 
@@ -6098,7 +6098,7 @@ Algumas reflexões finais.
 
 **Sobre o tempo de maturação.** Construir uma empresa durável no Brasil leva mais tempo do que os relatos de redes sociais fazem parecer: a maioria das companhias sólidas que você admira levou de 8 a 15 anos de execução consistente para chegar à maturidade. Antes de aparecer em qualquer manchete de captação, uma operação real costuma acumular anos de dedicação consistente nos bastidores ajustando produto, canal e margem.
 
-**Sobre as pessoas ao seu redor.** Ao longo das 21 fases (Fases 0 a 20) e cerca de 915 mil palavras desta coleção, examinamos ferramentas técnicas para produto, vendas, finanças, governança e regulação, mas nenhuma planilha substitui a escolha de com quem você divide a trincheira. A decisão sobre quem são seus cofundadores, seus primeiros líderes executivos, seus investidores de conselho e seu parceiro ou parceira de vida definirá tanto o valor da companhia quanto a paz dentro da sua casa.
+**Sobre as pessoas ao seu redor.** Ao longo das 21 fases (Fases 0 a 20), 185 capítulos e mais de 1,4 milhão de palavras desta coleção, examinamos ferramentas técnicas para produto, vendas, finanças, governança e regulação, mas nenhuma planilha substitui a escolha de com quem você divide a trincheira. A decisão sobre quem são seus cofundadores, seus primeiros líderes executivos, seus investidores de conselho e seu parceiro ou parceira de vida definirá tanto o valor da companhia quanto a paz dentro da sua casa.
 
 **Sobre você.** Construir uma empresa ao longo de uma década transforma quem você é: desenvolve disciplina analítica, clareza sob pressão e capacidade de decidir na incerteza, mas também cobra um preço alto se a saúde física e a presença na família forem deixadas para depois. A recomendação final desta coleção é simples: proteja deliberadamente a sua saúde e as pessoas que caminham ao seu lado fora da empresa, porque a operação dentro dela sempre pedirá todo o espaço que você deixar aberto.
 

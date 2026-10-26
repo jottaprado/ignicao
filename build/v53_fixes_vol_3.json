@@ -684,8 +684,16 @@
     "newText": "> Como heurística prática deste manual, assuma que em cerca de nove de cada dez ciclos completos de hipótese, experimento e análise a decisão correta será ajustar a rota ou pivotar, e não seguir em linha reta (mesmo quando 30% a 50% das hipóteses individuais se confirmam, basta uma aposta de vida ou morte cair para exigir redesenho do ciclo). Se você chega sempre à conclusão de que deve seguir em frente sem mudar nada, está torcendo em vez de analisar."
   },
   {
+    "line": 923,
+    "newText": "#### Exemplo concreto do extremo positivo: o caso Soylent"
+  },
+  {
     "line": 925,
     "newText": "Quando o substituto alimentar Soylent foi lançado por Rob Rhinehart em 2013 via financiamento coletivo, antes mesmo de existir produção industrial em escala, os primeiros adotantes fizeram muito mais do que pagar antecipado: escreviam diariamente nos fóruns, publicavam variações próprias da receita, respondiam às dúvidas de novos compradores, relatavam efeitos de cada versão da fórmula e defendiam a marca publicamente contra críticos. Comportavam-se, na prática, como uma equipe voluntária de produto e vendas, exatamente o perfil de *earlyvangelists* (primeiros clientes evangelistas) conceituado por Steve Blank (2005)."
+  },
+  {
+    "line": 929,
+    "newText": "#### Como navegar o meio do espectro"
   },
   {
     "line": 933,
@@ -1621,7 +1629,7 @@
   },
   {
     "line": 2665,
-    "newText": "#### Fichas operacionais dos Passos 2, 3, 5 e 7 desta fase (Matriz DVF, Concept Card, Roteiro de 30 Minutos e Dossiê de Solução)"
+    "newText": ""
   },
   {
     "line": 2666,
@@ -1629,7 +1637,7 @@
   },
   {
     "line": 2667,
-    "newText": "##### Template: Matriz de Priorização DVF (Desejabilidade, Viabilidade e Exequibilidade: Passo 2)"
+    "newText": "#### Template: Matriz de Priorização DVF (Desejabilidade, Viabilidade e Exequibilidade: Passo 2)"
   },
   {
     "line": 2668,
@@ -1661,7 +1669,7 @@
   },
   {
     "line": 2675,
-    "newText": "##### Template: Concept Card de Solução (Passo 3)"
+    "newText": "#### Template: Concept Card de Solução (Passo 3)"
   },
   {
     "line": 2678,
@@ -1713,11 +1721,11 @@
   },
   {
     "line": 2690,
-    "newText": "```\n\n   ____________________________________________________________________"
+    "newText": "   ____________________________________________________________________\n```"
   },
   {
     "line": 2692,
-    "newText": "##### Template: Roteiro de Teste de Solução de 30 Minutos (Passo 5: 5 etapas)"
+    "newText": "#### Template: Roteiro de Teste de Solução de 30 Minutos (Passo 5: 5 etapas)"
   },
   {
     "line": 2694,
@@ -3137,7 +3145,7 @@
   },
   {
     "line": 4730,
-    "newText": "### Oficina de Trincheira do Capítulo 6: Estratégia de API e Relações com Desenvolvedores (DevRel)"
+    "newText": "#### Framework: API Strategy & Developer Relations (Jeff Lawson / Twilio, 2008-2016)"
   },
   {
     "line": 4734,

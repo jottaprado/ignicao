@@ -5,7 +5,7 @@ author: "João Prado"
 date: 2026
 version: "5.3"
 volume: 6
-collection: "IGNIÇÃO: O manual operacional do empreendedor brasileiro (10 Volumes, Edição Narrativa Enxuta)"
+collection: "IGNIÇÃO: O manual operacional do empreendedor brasileiro (11 Volumes, Edição Narrativa Enxuta)"
 language: pt-BR
 
 ---
@@ -20,7 +20,7 @@ language: pt-BR
 
 ## Sobre este Volume
 
-Este é o **Volume 6 (Receita Enterprise, Liderança e Cultura)** da coleção IGNIÇÃO: O manual operacional do empreendedor brasileiro (10 volumes).
+Este é o **Volume 6 (Receita Enterprise, Liderança e Cultura)** da coleção IGNIÇÃO: O manual operacional do empreendedor brasileiro (11 volumes).
 
 Volume dedicado à construção da máquina comercial Enterprise, canais de distribuição, franquias e evolução de liderança, pessoas e cultura na scale-up. Abre com a Fase 15 (Máquina de Crescimento e Expansão em Escala) e a Fase 16 (Time, Liderança Executiva e Cultura em Escala), trazendo os frameworks clássicos de metodologias de vendas (MEDDPICC, SPIN, Challenger, Sandler, Solution Selling, BANT e Command of the Message), crescimento em escala e liderança (Radical Candor, Lencioni, Topgrading, Who, Horowitz, Culture Code, Netflix, SPADE e 7S), além de templates e quadros visuais práticos, seguidos por 15 capítulos sobre Growth, vendas Enterprise, Operações de Receita (RevOps), desenvolvimento de negócios corporativos, canais indiretos, Franchising e Licenciamento de Redes (Lei 13.966/2019 e COF), marca e relações públicas, modo fundador e cadência operacional, contratação executiva, avaliação de desempenho, remuneração e benefícios, planos de opções (Stock Options e ESOP), cultura em situações críticas, diversidade e trabalho remoto ou híbrido.
 

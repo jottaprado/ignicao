@@ -4,14 +4,14 @@
 
 ### O manual operacional do empreendedor brasileiro
 
-*Do pré-zero ao exit e Family Office · 10 volumes (Edição Narrativa Enxuta v5.2) · 21 fases · 155 capítulos · 940 mil palavras · Zero duplicatas.*
+*Do pré-zero ao exit e Family Office · 11 volumes (Edição Narrativa Enxuta v5.3) · 21 fases · 185 capítulos · 1,41 milhão de palavras · Zero duplicatas.*
 
 [![Licença CC BY-NC-SA](https://img.shields.io/badge/licença-CC%20BY--NC--SA%204.0-orange.svg)](LICENSE.md)
-[![Versão](https://img.shields.io/badge/versão-5.2-blue.svg)](CHANGELOG.md)
+[![Versão](https://img.shields.io/badge/versão-5.3-blue.svg)](CHANGELOG.md)
 [![Idioma](https://img.shields.io/badge/idioma-Português%20BR-green.svg)](#)
 [![PRs Bem-vindos](https://img.shields.io/badge/PRs-bem--vindos-brightgreen.svg)](CONTRIBUTING.md)
 
-[**→ Os 10 Volumes**](#os-10-volumes-autocontidos) · [**Por onde começo?**](#por-onde-começo) · [**Roteiros de Leitura (Fast-Tracks)**](#roteiros-de-leitura-por-perfil-fast-tracks) · [**As 21 Fases**](#as-21-fases) · [**Capítulos por tema**](#capítulos-por-tema) · [**Contribuir**](CONTRIBUTING.md)
+[**→ Os 11 Volumes**](#os-11-volumes-autocontidos) · [**Por onde começo?**](#por-onde-começo) · [**Roteiros de Leitura (Fast-Tracks)**](#roteiros-de-leitura-por-perfil-fast-tracks) · [**As 21 Fases**](#as-21-fases) · [**Capítulos por tema**](#capítulos-por-tema) · [**Contribuir**](CONTRIBUTING.md)
 
 </div>
 
@@ -21,42 +21,44 @@
 
 Livros de empreendedorismo ensinam como fundadores de Silicon Valley pensam. Este manual ensina como **fundar, escalar e sair** dentro do contexto brasileiro — com regulação, capital, cultura e referências daqui.
 
-Na **Edição Narrativa Enxuta (v5.2)**, o IGNIÇÃO combina dois mundos que raramente coexistem na literatura de negócios:
-1. **Narrativa de Trincheira em 4 Atos (inspirada nos 10 maiores clássicos de negócios — *O Mito do Empreendedor*, *A Startup Enxuta*, *De Zero a Um*, *Rework*, *High Output Management*, *Traction*, *O Lado Difícil das Situações Difíceis*, *Empresas Feitas para Vencer*, *Atravessando o Abismo* e *O Dilema da Inovação*):** nenhuma fase ou capítulo abre com definições frias de enciclopédia ou fichas burocráticas. Todas as **177 seções** abrem no meio da tensão real (protagonizada por casos históricos e por **4 fundadores-arquétipos brasileiros recorrentes**: **Lucas & Marina**, **Dra. Camila**, **Henrique** e **Rafael & Bia**), formulam teses contraintuitivas afirmativas e fecham com **O Espelho de Autodiagnóstico** (retomando o arco do arquétipo da abertura) e **O Ritual de Segunda-Feira às 9h**.
-2. **Zero Redundâncias + Revisão Factual, Jurídica, Tributária e Editorial Completa (Outubro de 2026):** cada um dos **164 Frameworks passo a passo**, **20 Canvases Visuais preenchidos com casos brasileiros** e **39 Templates Copiáveis** aparece **exatamente uma única vez** em toda a coleção (em sua Fase ou Capítulo primário), capítulos sobrepostos foram fundidos em tratados definitivos, e 100% dos marcos legais, regulatórios, tributários (Lei 15.270/2025, Reforma Tributária EC 132/2023 e LC 214/2025, Tema 1.226 do STJ, Resoluções ANPD 15/2024 e 19/2024, Resoluções BCB 2025/2026) e estudos de caso foram auditados e atualizados.
+Na **Edição Narrativa Enxuta (v5.3)**, o IGNIÇÃO combina três mundos que raramente coexistem na literatura de negócios:
+1. **Narrativa de Trincheira em 4 Atos (inspirada nos 10 maiores clássicos de negócios — *O Mito do Empreendedor*, *A Startup Enxuta*, *De Zero a Um*, *Rework*, *High Output Management*, *Traction*, *O Lado Difícil das Situações Difíceis*, *Empresas Feitas para Vencer*, *Atravessando o Abismo* e *O Dilema da Inovação*):** nenhuma fase ou capítulo abre com definições frias de enciclopédia ou fichas burocráticas. Todas as **206 seções principais** (21 fases + 185 capítulos) abrem no meio da tensão real (protagonizada por casos históricos e por **4 fundadores-arquétipos brasileiros recorrentes**: **Lucas & Marina**, **Dra. Camila**, **Henrique** e **Rafael & Bia**), formulam teses contraintuitivas afirmativas e fecham com **O Espelho de Autodiagnóstico** (retomando o arco do arquétipo da abertura) e **O Ritual de Segunda-Feira às 9h**.
+2. **Zero Redundâncias + Revisão Factual, Jurídica, Tributária e Editorial Completa (Outubro de 2026):** cada um dos **162 Frameworks passo a passo**, **20 Canvases Visuais preenchidos com casos brasileiros** e **42 Templates Copiáveis** (**224 ferramentas operacionais únicas**) aparece **exatamente uma única vez** em toda a coleção (em sua Fase ou Capítulo primário), capítulos sobrepostos foram fundidos e costurados em tratados definitivos, e 100% dos marcos legais, regulatórios, tributários (Lei 15.270/2025, LC 224/2025, Reforma Tributária EC 132/2023, LC 214/2025 e LC 227/2026, EC 141/2026, Temas 1.226 e 1.379 do STJ, Resoluções ANPD 2/2022, 15/2024 e 19/2024, Decreto 13.135/2026, Resoluções BCB 494/2025 e 519–521/2025) e estudos de caso foram auditados e validados por suíte determinística de ponto fixo.
+3. **Caderno de Trincheira, Simulações de Decisão e Cases Globais & Nacionais (Volume 11):** um volume inteiro de aplicação prática espelhando os Volumes 1 a 10, com **58 Cases Globais e Brasileiros em 4 atos**, **50 Exercícios Práticos Mão na Massa com Gabarito Comentado**, **27 Simulações de Roleplay Executivo** e o **Simulador Integrador das 21 Fases (0 a 105 pontos)**.
 
-**Quem não tem ideia ainda** começa pelo Volume 1 (Ideação). **Quem quer entrevistar clientes e mapear mercado** abre o Volume 2 (Descoberta e Mercado). **Quem vai rodar experimentos, construir o protótipo ou começar por serviços produtizados (*bootstrapping*)** abre o Volume 3 (Experimentos e Prototipagem). **Quem já lançou o MVP e busca Product-Market Fit** abre o Volume 4 (Tração e PMF). **Quem vai captar rodada, estruturar FP&A ou resolver caixa** abre o Volume 5 (Finanças e Captação). **Quem está escalando vendas enterprise, franquias, executivos e cultura** abre o Volume 6 (Receita e Pessoas). **Quem é CTO/CPO/COO escalando produto, engenharia, IA e operações** abre o Volume 7 (Produto, Engenharia e Operações). **Quem precisa blindar societário, contratos, trabalhista, LGPD e segurança** abre o Volume 8 (Jurídico, LGPD e Segurança). **Quem está no ciclo longo, board, crise, spin-offs, preparando o exit ou estruturando uma empresa pagadora de dividendos (*Cash Cow*) e *Family Office*** abre o Volume 9 (Maturidade, Exit e Family Office). **Quem quer dominar a Economia da Inovação, escolher seu Hub global/brasileiro ou executar o playbook da sua vertical (42 setores da economia real)** abre o Volume 10 (Economia da Inovação, Hubs Globais e Playbooks das 42 Verticais).
+**Quem não tem ideia ainda** começa pelo Volume 1 (Ideação). **Quem quer entrevistar clientes e mapear mercado** abre o Volume 2 (Descoberta e Mercado). **Quem vai rodar experimentos, construir o protótipo ou começar por serviços produtizados (*bootstrapping*)** abre o Volume 3 (Experimentos e Prototipagem). **Quem já lançou o MVP e busca Product-Market Fit** abre o Volume 4 (Tração e PMF). **Quem vai captar rodada, estruturar FP&A ou resolver caixa** abre o Volume 5 (Finanças e Captação). **Quem está escalando vendas enterprise, franquias, executivos e cultura** abre o Volume 6 (Receita e Pessoas). **Quem é CTO/CPO/COO escalando produto, engenharia, IA e operações** abre o Volume 7 (Produto, Engenharia e Operações). **Quem precisa blindar societário, contratos, trabalhista, LGPD e segurança** abre o Volume 8 (Jurídico, LGPD e Segurança). **Quem está no ciclo longo, board, crise, spin-offs, preparando o exit ou estruturando uma empresa pagadora de dividendos (*Cash Cow*) e *Family Office*** abre o Volume 9 (Maturidade, Exit e Family Office). **Quem quer dominar a Economia da Inovação, escolher seu Hub global/brasileiro ou executar o playbook da sua vertical (42 setores da economia real)** abre o Volume 10 (Economia da Inovação, Hubs Globais e Playbooks das 42 Verticais). **Quem quer treinar decisões sob pressão com cases reais, exercícios resolvidos, roleplays de negociação e o simulador de ponta a ponta** abre o Volume 11 (Caderno de Trincheira, Simulações de Decisão e Cases Globais & Nacionais).
 
 O que está aqui:
 
-- **10 volumes focais (~58k a ~205k palavras)** com introduções narrativas concisas em todos os blocos temáticos
+- **11 volumes focais (~74k a ~294k palavras, totalizando ~1,41 milhão de palavras)** com introduções narrativas concisas em todos os blocos temáticos
 - **21 fases sequenciais** (`Fase 0` a `Fase 20`) com método, métricas, frameworks, canvases, templates e leituras integrados *in-place*
-- **155 capítulos temáticos** (`Capítulo 1` a `Capítulo N` dentro de cada volume, após fusão cirúrgica de 25 capítulos gêmeos) cobrindo finanças, contabilidade, comércio exterior, captação, GTM, vendas enterprise, franquias, pessoas, engenharia, operações, jurídico, compliance, IA, economia da inovação, geografia de hubs, 42 verticais da economia real, spin-offs, exit, *Cash Cow* e *Family Office*
-- **164 frameworks operacionais únicos** (164 instâncias nos Volumes 1 a 9 — zero duplicatas)
+- **185 capítulos temáticos** (`155 capítulos` nos Volumes 1 a 10 + `30 capítulos` práticos no Volume 11) cobrindo finanças, contabilidade, comércio exterior, captação, GTM, vendas enterprise, franquias, pessoas, engenharia, operações, jurídico, compliance, IA, economia da inovação, geografia de hubs, 42 verticais da economia real, spin-offs, exit, *Cash Cow*, *Family Office*, cases globais/nacionais, exercícios resolvidos e simulações de decisão
+- **162 frameworks operacionais únicos** (162 instâncias nos Volumes 1 a 9 — zero duplicatas)
 - **20 canvases visuais únicos** (20 instâncias nas 21 fases com teoria, exemplo brasileiro preenchido e armadilhas — zero duplicatas)
-- **39 templates e estudos de caso preenchidos únicos** (39 instâncias embutidas no ponto de uso — zero duplicatas)
+- **42 templates e estudos de caso preenchidos únicos** (42 instâncias embutidas no ponto de uso — zero duplicatas)
 - **131 diagramas** Mermaid — renderizam direto no GitHub, Obsidian e EPUB
-- **Casos brasileiros** com análise honesta: Nubank, iFood, Stone, Hotmart, Natura, Magazine Luiza, Wildlife, Peixe Urbano, 99, Loggi, Olist, QuintoAndar, Wellhub, Tractian, Totvs, Embraer/Eve, Unico, Creditas, Solfácil, Vamos, Rede D'Or, Raízen, Inpasa e dezenas de outros
-- **Dicionário Geral Unificado no Volume 10** (180+ termos técnicos, Lista de Abreviações com 78 siglas, Bibliografia Geral e Índices Remissivos da Coleção)
+- **Casos brasileiros e globais** com análise honesta: Nubank, iFood, Stone, Hotmart, Natura, Magazine Luiza, Wildlife, Peixe Urbano, 99, Loggi, Olist, QuintoAndar, Wellhub, Tractian, Totvs, Embraer/Eve, Unico, Creditas, Solfácil, Vamos, Rede D'Or, Raízen, Inpasa, Stripe, Airbnb, Notion, Figma, Supabase, Linear, Constellation Software e dezenas de outros
+- **Dicionário Geral Unificado no Volume 10** (180+ termos técnicos, Lista de Abreviações com 78 siglas, Bibliografia Geral e Catálogo Completo das 224 Ferramentas)
 
 ---
 
-## Os 10 Volumes Autocontidos
+## Os 11 Volumes Autocontidos
 
 | Volume | Escopo | Fases e Capítulos | Palavras | Ler em Markdown | Baixar EPUB |
 |---|---|---|---|---|---|
-| **Vol. 1 — Ideação** | *Do Pré-Zero à Tese de Negócio:* preparação do fundador, cofundadores, geração e articulação da ideia (DII), teoria causal do negócio (Story Tree), saúde mental, decisão, comunicação e stack de IA do fundador | **Fases 0 a 3** + **Capítulos 1 a 12** | ~101k | [`IGNICAO-Vol-1-Ideacao.md`](volumes/IGNICAO-Vol-1-Ideacao.md) | [`IGNICAO-Vol-1-Ideacao.epub`](build/IGNICAO-Vol-1-Ideacao.epub) |
-| **Vol. 2 — Descoberta e Mercado** | *Entrevistas, Pesquisa com Usuários, Mercado e Posicionamento:* Mom Test, JTBD, personas, TAM/SAM/SOM, 5 Forças, inteligência competitiva, Category Design e psicologia do consumidor brasileiro | **Fases 4 a 6** + **Capítulos 1 a 3** | ~66k | [`IGNICAO-Vol-2-Descoberta-e-Mercado.md`](volumes/IGNICAO-Vol-2-Descoberta-e-Mercado.md) | [`IGNICAO-Vol-2-Descoberta-e-Mercado.epub`](build/IGNICAO-Vol-2-Descoberta-e-Mercado.epub) |
-| **Vol. 3 — Experimentos e Prototipagem** | *Hipóteses, Testes Científicos, Protótipos, Modelos de Negócio e Bootstrapping:* banco de hipóteses, falsificabilidade, pré-registro, smoke test, prototipagem, testes de usabilidade (SUS), gates de maturidade (TRL/CRL), plataformas/marketplaces/B2B2C e transição *Service-to-Product* | **Fases 7 a 10** + **Capítulos 1 a 7** | ~61k | [`IGNICAO-Vol-3-Experimentos-e-Prototipagem.md`](volumes/IGNICAO-Vol-3-Experimentos-e-Prototipagem.md) | [`IGNICAO-Vol-3-Experimentos-e-Prototipagem.epub`](build/IGNICAO-Vol-3-Experimentos-e-Prototipagem.epub) |
-| **Vol. 4 — Tração e PMF** | *Do MVP ao Product-Market Fit:* MVP no mercado, unit economics, diagnóstico de PMF, GTM e canais até 1M ARR, conteúdo/comunidade, branding/PMM, vendas consultivas, pricing e recorrência, CS/CX, dados, produto AI-native e pivô | **Fases 11 a 13** + **Capítulos 1 a 11** | ~85k | [`IGNICAO-Vol-4-Tracao-e-PMF.md`](volumes/IGNICAO-Vol-4-Tracao-e-PMF.md) | [`IGNICAO-Vol-4-Tracao-e-PMF.epub`](build/IGNICAO-Vol-4-Tracao-e-PMF.epub) |
-| **Vol. 5 — Finanças e Captação** | *Contabilidade, Reforma Tributária, FP&A, Comércio Exterior, Caixa e Venture Capital:* DRE/DFC, Simples/Presumido/Real e IBS/CBS, modelagem e coortes, FP&A e forecasting, capital de giro e caixa, bancos, importação Ásia-Brasil, seguros, rodadas de VC, valuation, SAFE/mútuo, Finep/BNDES, venture debt e crowdfunding/tokenização | **Fase 14** + **Capítulos 1 a 15** | ~84k | [`IGNICAO-Vol-5-Financas-e-Captacao.md`](volumes/IGNICAO-Vol-5-Financas-e-Captacao.md) | [`IGNICAO-Vol-5-Financas-e-Captacao.epub`](build/IGNICAO-Vol-5-Financas-e-Captacao.epub) |
-| **Vol. 6 — Receita e Pessoas** | *Vendas Enterprise, RevOps, Franquias, Liderança Executiva, Talentos e Cultura:* máquina de crescimento, vendas complexas, RevOps, parcerias corporativas/BDs, Franchising/COF (Lei 13.966), marca/PR/autoridade, Founder Mode e cadência, hiring C-level, remuneração/ESOP e cultura em escala | **Fases 15 e 16** + **Capítulos 1 a 15** | ~96k | [`IGNICAO-Vol-6-Receita-e-Pessoas.md`](volumes/IGNICAO-Vol-6-Receita-e-Pessoas.md) | [`IGNICAO-Vol-6-Receita-e-Pessoas.epub`](build/IGNICAO-Vol-6-Receita-e-Pessoas.epub) |
-| **Vol. 7 — Produto, Engenharia e Operações** | *Arquitetura Técnica, Produto em Escala, IA, Design Organizacional e Processos:* descoberta contínua, gestão de engenharia e dívida técnica, IA na engenharia/AI Ops, topologia de squads, gestão do conhecimento e incidentes | **Fase 17** + **Capítulos 1 a 10** | ~58k | [`IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes.md`](volumes/IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes.md) | [`IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes.epub`](build/IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes.epub) |
-| **Vol. 8 — Jurídico, LGPD e Segurança** | *Estruturação Societária, Propriedade Intelectual, Contratos, Trabalhista e Cibersegurança:* LTDA/SA, Marco Legal, proteção patrimonial, INPI, non-compete, contratos empresariais e operacionais, CLT/PJ, CDC, LGPD, IA e ISO 27001/SOC 2 | **Fase 18** + **Capítulos 1 a 13** | ~61k | [`IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca.md`](volumes/IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca.md) | [`IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca.epub`](build/IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca.epub) |
-| **Vol. 9 — Maturidade, Exit e Family Office** | *Ciclo Longo, Governança, Internacionalização, Crise, Spin-offs, Saída, Cash Cow e Fortuna:* segunda curva, board, empresa familiar, expansão global, câmbio, gestão e comunicação em crise, layoffs, RJ, M&A/roll-ups, Search Funds, Spin-offs/Carve-outs, Secondaries, IPO, tributação de exit, transição e retenção pós-M&A, post-mortems, Empresa *Cash Cow*, Holdings/Offshores/Family Office e Epílogo | **Fases 19 e 20** + **Capítulos 1 a 21** + **Epílogo** | ~96k | [`IGNICAO-Vol-9-Maturidade-e-Exit.md`](volumes/IGNICAO-Vol-9-Maturidade-e-Exit.md) | [`IGNICAO-Vol-9-Maturidade-e-Exit.epub`](build/IGNICAO-Vol-9-Maturidade-e-Exit.epub) |
-| **Vol. 10 — Economia da Inovação, Hubs Globais e Playbooks das 42 Verticais** | *Atores da Inovação, Geografia Mundial/Brasileira de Hubs, Regulação e os 42 Setores da Economia Real:* Universidades, Fomento, CVC, VC, Hubs em 5 continentes, 15 Hubs no Brasil, Macro/BACEN/CVM/ANVISA/CADE, 42 Playbooks Setoriais em 6 Clusters e Dicionário Geral | **Capítulos 1 a 48** + **6 Seções de Dicionário e Índices Unificados** | ~205k | [`IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario.md`](volumes/IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario.md) | [`IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario.epub`](build/IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario.epub) |
+| **Vol. 1 — Ideação** | *Do Pré-Zero à Tese de Negócio:* preparação do fundador, cofundadores, geração e articulação da ideia (DII), teoria causal do negócio (Story Tree), saúde mental, decisão, comunicação e stack de IA do fundador | **Fases 0 a 3** + **Capítulos 1 a 12** | ~122k | [`IGNICAO-Vol-1-Ideacao.md`](volumes/IGNICAO-Vol-1-Ideacao.md) | [`IGNICAO-Vol-1-Ideacao.epub`](build/IGNICAO-Vol-1-Ideacao.epub) |
+| **Vol. 2 — Descoberta e Mercado** | *Entrevistas, Pesquisa com Usuários, Mercado e Posicionamento:* Mom Test, JTBD, personas, TAM/SAM/SOM, 5 Forças, inteligência competitiva, Category Design e psicologia do consumidor brasileiro | **Fases 4 a 6** + **Capítulos 1 a 3** | ~78k | [`IGNICAO-Vol-2-Descoberta-e-Mercado.md`](volumes/IGNICAO-Vol-2-Descoberta-e-Mercado.md) | [`IGNICAO-Vol-2-Descoberta-e-Mercado.epub`](build/IGNICAO-Vol-2-Descoberta-e-Mercado.epub) |
+| **Vol. 3 — Experimentos e Prototipagem** | *Hipóteses, Testes Científicos, Protótipos, Modelos de Negócio e Bootstrapping:* banco de hipóteses, falsificabilidade, pré-registro, smoke test, prototipagem, testes de usabilidade (SUS), gates de maturidade (TRL/CRL), plataformas/marketplaces/B2B2C e transição *Service-to-Product* | **Fases 7 a 10** + **Capítulos 1 a 7** | ~82k | [`IGNICAO-Vol-3-Experimentos-e-Prototipagem.md`](volumes/IGNICAO-Vol-3-Experimentos-e-Prototipagem.md) | [`IGNICAO-Vol-3-Experimentos-e-Prototipagem.epub`](build/IGNICAO-Vol-3-Experimentos-e-Prototipagem.epub) |
+| **Vol. 4 — Tração e PMF** | *Do MVP ao Product-Market Fit:* MVP no mercado, unit economics, diagnóstico de PMF, GTM e canais até 1M ARR, conteúdo/comunidade, branding/PMM, vendas consultivas, pricing e recorrência, CS/CX, dados, produto AI-native e pivô | **Fases 11 a 13** + **Capítulos 1 a 11** | ~103k | [`IGNICAO-Vol-4-Tracao-e-PMF.md`](volumes/IGNICAO-Vol-4-Tracao-e-PMF.md) | [`IGNICAO-Vol-4-Tracao-e-PMF.epub`](build/IGNICAO-Vol-4-Tracao-e-PMF.epub) |
+| **Vol. 5 — Finanças e Captação** | *Contabilidade, Reforma Tributária, FP&A, Comércio Exterior, Caixa e Venture Capital:* DRE/DFC, Simples/Presumido/Real e IBS/CBS, modelagem e coortes, FP&A e forecasting, capital de giro e caixa, bancos, importação Ásia-Brasil, seguros, rodadas de VC, valuation, SAFE/mútuo, Finep/BNDES, venture debt e crowdfunding/tokenização | **Fase 14** + **Capítulos 1 a 15** | ~110k | [`IGNICAO-Vol-5-Financas-e-Captacao.md`](volumes/IGNICAO-Vol-5-Financas-e-Captacao.md) | [`IGNICAO-Vol-5-Financas-e-Captacao.epub`](build/IGNICAO-Vol-5-Financas-e-Captacao.epub) |
+| **Vol. 6 — Receita e Pessoas** | *Vendas Enterprise, RevOps, Franquias, Liderança Executiva, Talentos e Cultura:* máquina de crescimento, vendas complexas, RevOps, parcerias corporativas/BDs, Franchising/COF (Lei 13.966), marca/PR/autoridade, Founder Mode e cadência, hiring C-level, remuneração/ESOP e cultura em escala | **Fases 15 e 16** + **Capítulos 1 a 15** | ~117k | [`IGNICAO-Vol-6-Receita-e-Pessoas.md`](volumes/IGNICAO-Vol-6-Receita-e-Pessoas.md) | [`IGNICAO-Vol-6-Receita-e-Pessoas.epub`](build/IGNICAO-Vol-6-Receita-e-Pessoas.epub) |
+| **Vol. 7 — Produto, Engenharia e Operações** | *Arquitetura Técnica, Produto em Escala, IA, Design Organizacional e Processos:* descoberta contínua, gestão de engenharia e dívida técnica, IA na engenharia/AI Ops, topologia de squads, gestão do conhecimento e incidentes | **Fase 17** + **Capítulos 1 a 10** | ~74k | [`IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes.md`](volumes/IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes.md) | [`IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes.epub`](build/IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes.epub) |
+| **Vol. 8 — Jurídico, LGPD e Segurança** | *Estruturação Societária, Propriedade Intelectual, Contratos, Trabalhista e Cibersegurança:* LTDA/SA, Marco Legal, proteção patrimonial, INPI, non-compete, contratos empresariais e operacionais, CLT/PJ, CDC, LGPD, IA e ISO 27001/SOC 2 | **Fase 18** + **Capítulos 1 a 13** | ~93k | [`IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca.md`](volumes/IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca.md) | [`IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca.epub`](build/IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca.epub) |
+| **Vol. 9 — Maturidade, Exit e Family Office** | *Ciclo Longo, Governança, Internacionalização, Crise, Spin-offs, Saída, Cash Cow e Fortuna:* segunda curva, board, empresa familiar, expansão global, câmbio, gestão e comunicação em crise, layoffs, RJ, M&A/roll-ups, Search Funds, Spin-offs/Carve-outs, Secondaries, IPO, tributação de exit, transição e retenção pós-M&A, post-mortems, Empresa *Cash Cow*, Holdings/Offshores/Family Office e Epílogo | **Fases 19 e 20** + **Capítulos 1 a 21** + **Epílogo** | ~136k | [`IGNICAO-Vol-9-Maturidade-e-Exit.md`](volumes/IGNICAO-Vol-9-Maturidade-e-Exit.md) | [`IGNICAO-Vol-9-Maturidade-e-Exit.epub`](build/IGNICAO-Vol-9-Maturidade-e-Exit.epub) |
+| **Vol. 10 — Economia da Inovação, Hubs Globais e Playbooks das 42 Verticais** | *Atores da Inovação, Geografia Mundial/Brasileira de Hubs, Regulação e os 42 Setores da Economia Real:* Universidades, Fomento, CVC, VC, Hubs em 5 continentes, 15 Hubs no Brasil, Macro/BACEN/CVM/ANVISA/CADE, 42 Playbooks Setoriais em 6 Clusters e Dicionário Geral | **Capítulos 1 a 48** + **6 Seções de Dicionário e Índices Unificados** | ~294k | [`IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario.md`](volumes/IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario.md) | [`IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario.epub`](build/IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario.epub) |
+| **Vol. 11 — Caderno de Trincheira, Simulações de Decisão e Cases Globais & Nacionais** | *Aplicação Prática de Ponta a Ponta:* 58 Cases Globais e Brasileiros em 4 atos, 50 Exercícios Práticos Mão na Massa com Gabarito Comentado, 27 Simulações de Roleplay Executivo e o Simulador Integrador das 21 Fases (0 a 105 pontos) | **Capítulos 1 a 30** (Partes I a X espelhando os Volumes 1 a 10) | ~204k | [`IGNICAO-Vol-11-Workbook-Cases-e-Exercicios.md`](volumes/IGNICAO-Vol-11-Workbook-Cases-e-Exercicios.md) | [`IGNICAO-Vol-11-Workbook-Cases-e-Exercicios.epub`](build/IGNICAO-Vol-11-Workbook-Cases-e-Exercicios.epub) |
 
-> 📦 **Edição Completa (Omnibus):** os 10 volumes também estão disponíveis reunidos em arquivo único para e-readers em [`build/IGNICAO.epub`](build/IGNICAO.epub).
+> 📦 **Edição Completa (Omnibus):** os 11 volumes também estão disponíveis reunidos em arquivo único para e-readers em [`build/IGNICAO.epub`](build/IGNICAO.epub).
 
 ---
 
@@ -73,6 +75,7 @@ Você é CTO/CPO/COO escalando eng/ops  → Vol. 7 (Produto, Engenharia e Opera�
 Você precisa blindar jurídico e LGPD  → Vol. 8 (Jurídico, LGPD e Segurança)       — Fase 18 + Capítulos 1 a 13
 Você está em crise, board, exit ou FO → Vol. 9 (Maturidade, Exit e Family Office) — Fases 19 e 20 + Capítulos 1 a 21
 Quer entender hubs, regulação ou sua vertical → Vol. 10 (Economia da Inovação e 42 Verticais) — Capítulos 1 a 48 + Dicionário Geral
+Quer praticar com cases, exercícios e roleplays → Vol. 11 (Caderno de Trincheira e Simulações) — Capítulos 1 a 30 + Simulador 21 Fases
 ```
 
 ---
@@ -401,7 +404,45 @@ Ninguém precisa ler mais de 900 mil palavras em linha reta antes de agir. Escol
 | **Cap. 46** | *Cluster VI (Software, Serviços B2B, IA, Cyber e Mídia)* — Martech, Adtech, Salestech, CRM, Atendimento Conversacional (WhatsApp-First) e Retail Media |
 | **Cap. 47** | *Cluster VI (Software, Serviços B2B, IA, Cyber e Mídia)* — Creator Economy, Mídia Digital, Streaming, Áudio, Infoprodutos e Plataformas de Comunidade |
 | **Cap. 48** | *Cluster VI (Software, Serviços B2B, IA, Cyber e Mídia)* — Gaming, Estúdios de Jogos, E-Sports, Apostas Reguladas (iGaming/Bets) e Economia Virtual |
-| **Dicionário e Índices** | Glossário de Termos Técnicos (A–Z), Lista de Abreviações, Bibliografia Geral Unificada, Índice Geral de Frameworks e Índice Remissivo da Coleção |
+| **Dicionário e Índices** | Glossário de Termos Técnicos (A–Z), Lista de Abreviações, Bibliografia Geral Unificada, Catálogo Completo das 224 Ferramentas e Índice Remissivo da Coleção |
+
+</details>
+
+<details>
+<summary><strong>🎯 Vol. 11 — Caderno de Trincheira, Simulações de Decisão e Cases Globais & Nacionais (Capítulos 1 a 30)</strong></summary>
+
+| Capítulo | Tema |
+|---|---|
+| **Cap. 1** | Cases globais e brasileiros de ideação, cofundadores e tese inicial (Airbnb, Stripe, Nubank, Notion, QuintoAndar, Figma) |
+| **Cap. 2** | Caderno de exercícios com gabarito comentado: fundação, equity e teoria do negócio |
+| **Cap. 3** | Simulações de decisão e roleplays executivos: sociedade, primeiros talentos e mentoria |
+| **Cap. 4** | Cases globais e brasileiros de customer discovery, JTBD e cunha de mercado (Superhuman, iFood, Intercom, VTEX, Segment, Wellhub) |
+| **Cap. 5** | Caderno de exercícios com gabarito comentado: Mom Test, forças do JTBD, TAM/SAM/SOM e Canvas da Cunha |
+| **Cap. 6** | Simulações de decisão e roleplays executivos: entrevistas de campo, gatekeepers e escolha de ICP |
+| **Cap. 7** | Cases globais e brasileiros de experimentação, prototipagem, plataformas e bootstrapping (Zappos, Dropbox, DoorDash, Basecamp, GitLab/Elastic, Loggi/MadeiraMadeira) |
+| **Cap. 8** | Caderno de exercícios com gabarito comentado: Test Cards, unit economics de marketplace e Service-to-Product |
+| **Cap. 9** | Simulações de decisão e roleplays executivos: usabilidade, pré-venda B2B e corte de escopo de MVP |
+| **Cap. 10** | Cases globais e brasileiros de Go-to-Market, PLG, vendas B2B, pricing e pivô para o PMF (Slack, RD Station, HubSpot, Omie/Conta Azul, Canva, Snowflake/Datadog) |
+| **Cap. 11** | Caderno de exercícios com gabarito comentado: coortes, LTV/CAC/payback, pricing e funil comercial |
+| **Cap. 12** | Simulações de decisão e roleplays executivos: vendas MEDDIC, reajuste de preços e salvamento de contas |
+| **Cap. 13** | Cases globais e brasileiros de finanças, alocação de capital, dívida estruturada e Venture Capital (TOTVS/Linx, Wise, Brex/Ramp/Creditas, Atlassian, Kavak, Mercado Livre/Mercado Pago) |
+| **Cap. 14** | Caderno de exercícios com gabarito comentado: DRE vs. caixa, Reforma Tributária, cap table, waterfall e fomento |
+| **Cap. 15** | Simulações de decisão e roleplays executivos: Term Sheet de Série A, due diligence e crise de runway |
+| **Cap. 16** | Cases globais e brasileiros de escala comercial, RevOps, franchising, cultura e ESOP (Salesforce, Netflix, Nubank/Creditas, O Boticário/Cacau Show/Smart Fit, GitLab, Airbnb Founder Mode) |
+| **Cap. 17** | Caderno de exercícios com gabarito comentado: comissionamento OTE, RevOps, DRE de franquia e plano de opções |
+| **Cap. 18** | Simulações de decisão e roleplays executivos: demissão de executivo, Radical Candor e fechamento Enterprise |
+| **Cap. 19** | Cases globais e brasileiros de produto em escala, arquitetura técnica, DORA, IA em produção e operações (Amazon, Spotify, Stripe/Stone, Duolingo/Klarna, Linear/Vercel) |
+| **Cap. 20** | Caderno de exercícios com gabarito comentado: PR/FAQ, OKRs, métricas DORA, tokenomics de IA e Team Topologies |
+| **Cap. 21** | Simulações de decisão e roleplays executivos: conflito vendas vs. produto, postmortem sem culpa e monólito vs. microsserviços |
+| **Cap. 22** | Cases globais e brasileiros de conflitos societários, compliance regulatório, trabalhista, PI, LGPD e segurança (Facebook/Zipcar, Zenefits, PJ/Stock Options STF/STJ, ANPD Res. 15/2024, INPI) |
+| **Cap. 23** | Caderno de exercícios com gabarito comentado: acordo de sócios, redlining de MSA B2B, trabalhista, LGPD e SOC 2 |
+| **Cap. 24** | Simulações de decisão e roleplays executivos: saída litigiosa de sócio, negociação jurídica B2B e war room de ransomware |
+| **Cap. 25** | Cases globais e brasileiros de governança de conselho, segunda curva, M&A estratégico, IPO e roll-ups (Instagram/WhatsApp, 99/iFood, Nubank/XP/VTEX, OpenAI/Uber, Adobe/Microsoft, Constellation Software) |
+| **Cap. 26** | Caderno de exercícios com gabarito comentado: Board Deck, flip internacional, propostas de M&A, holding e Family Office |
+| **Cap. 27** | Simulações de decisão e roleplays executivos: conselho dividido, negociação de earn-out e governança familiar pós-exit |
+| **Cap. 28** | Cases setoriais da economia real: Fintech, AgTech, HealthTech, GovTech, ClimateTech e Indústria 4.0 (Asaas/Stark Bank, Solinftec/Aegro, Alice/Sami, Gove/Aprova Digital, Órigo/Mombak, Tractian/WEG) |
+| **Cap. 29** | Caderno de exercícios setoriais: regulação BACEN, sinistralidade ANS, Barter/CPR, licitações CPSI e Hardware-as-a-Service |
+| **Cap. 30** | Simulador integrador de ponta a ponta: o jogo completo das 21 Fases (Fase 0 ao Exit — 0 a 105 pontos) |
 
 </details>
 
@@ -417,11 +458,12 @@ Este manual foi escrito em português porque o contexto importa. Aberto porque c
 
 ## Formatos disponíveis e Build
 
-O livro existe como **10 volumes autocontidos em Markdown** na pasta [`volumes/`](volumes/) e como **10 EPUBs independentes** (+ edição completa Omnibus) prontos para leitor digital em [`build/`](build/).
+O livro existe como **11 volumes autocontidos em Markdown** na pasta [`volumes/`](volumes/) e como **11 EPUBs independentes** (+ edição completa Omnibus) prontos para leitor digital em [`build/`](build/).
 
-Para regerar as capas e os EPUBs depois de editar qualquer volume em `volumes/`:
+Para regerar os volumes, as capas e os EPUBs:
 
 ```bash
+node build/partition_10_volumes.js
 node build/render_cover.js
 node build/preprocess_epub.js
 node build/build_epubs.js

@@ -5,7 +5,7 @@ author: "João Prado"
 date: 2026
 version: "5.3"
 volume: 5
-collection: "IGNIÇÃO: O manual operacional do empreendedor brasileiro (10 Volumes, Edição Narrativa Enxuta)"
+collection: "IGNIÇÃO: O manual operacional do empreendedor brasileiro (11 Volumes, Edição Narrativa Enxuta)"
 language: pt-BR
 
 ---
@@ -20,7 +20,7 @@ language: pt-BR
 
 ## Sobre este Volume
 
-Este é o **Volume 5 (Finanças, Captação e Venture Capital)** da coleção IGNIÇÃO: O manual operacional do empreendedor brasileiro (10 volumes).
+Este é o **Volume 5 (Finanças, Captação e Venture Capital)** da coleção IGNIÇÃO: O manual operacional do empreendedor brasileiro (11 volumes).
 
 Manual do CEO e do CFO para finanças operacionais, contabilidade, tributário, comércio exterior, estruturação de capital e captação de recursos no Brasil. Abre com a Fase 14 (Capital para Escala, Rodadas e Eficiência Financeira), que reúne 11 frameworks financeiros e de valuation (Unit Economics, Coortes, LTV:CAC, Burn Multiple, Rule of 40, Magic Number, Quick Ratio, CCC, DCF, Comparables e DuPont), os canvases Storytelling/SCQA e Capital Stack/Waterfall e 6 templates completos de rodada (Data Room, Term Sheet Anotado, Plano de Rodada, Pitch Deck SCQA, Investor Update e Financiamento Não Diluitivo). Em seguida, apresenta 15 capítulos em ordem de execução: demonstrativos financeiros, contabilidade e Reforma Tributária (IBS/CBS), modelagem operacional e coortes, FP&A e projeção de receita, capital de giro e gestão de caixa, relacionamento bancário, Comércio Exterior e Importação (Ásia-Brasil, Radar/SISCOMEX, Landed Cost e benefícios estaduais de ICMS), seguros corporativos, Venture Capital e planejamento de rodada, valuation, SAFE e mútuo conversível, fomento não diluitivo (FINEP, BNDES e FAPESP), venture debt, crowdfunding CVM 88 / tokenização e relação com investidores.
 
@@ -919,7 +919,7 @@ A: Vamos reduzir o time em 20%, focando nas áreas de produto
 ```
 
 **SCQA no board deck:**
-No slide de "Gargalos e Riscos" do *board deck* ([[IGNICAO-Vol-9-Maturidade-e-Exit#TEMPLATES OPERACIONAIS E SIMULAÇÃO DE M&A DESTA FASE (FASE 20)|Template: Board Deck e Prontidão para M&A (Apresentação para o Conselho) (Vol. 9)]]), cada problema ganha clareza quando lido em formato SCQA: o contexto operacional do trimestre é a Situação, a célula "Risco / problema" apresenta a Complicação, a pergunta implícita é o que fazer agora, e a "Mitigação atual" somada à "Ajuda necessária do conselho" forma a Resposta acionável.
+No slide de "Gargalos e Riscos" do *board deck* ([[IGNICAO-Vol-9-Maturidade-e-Exit#IGNIÇÃO: Volume 9: Maturidade, Governança, Crise, Exit e Family Office|Template: Board Deck e Prontidão para M&A (Apresentação para o Conselho) (Vol. 9)]]), cada problema ganha clareza quando lido em formato SCQA: o contexto operacional do trimestre é a Situação, a célula "Risco / problema" apresenta a Complicação, a pergunta implícita é o que fazer agora, e a "Mitigação atual" somada à "Ajuda necessária do conselho" forma a Resposta acionável.
 
 ##### Extensão B: Strategic Narrative Framework (Andy Raskin)
 
@@ -7013,7 +7013,7 @@ O modelo correto: o investidor é um parceiro com informação assimétrica. Ele
 | Artefato | Frequência | Para quem | Conteúdo |
 |---|---|---|---|
 | Update mensal | Mensal | Todos os investidores | Métricas, progresso, pedido de ajuda |
-| Board deck | Trimestral | Investidores com assento | Revisão completa + decisões (ver [[IGNICAO-Vol-9-Maturidade-e-Exit#TEMPLATES OPERACIONAIS E SIMULAÇÃO DE M&A DESTA FASE (FASE 20)\|Template: Board Deck e Prontidão para M&A (Vol. 9)]]) |
+| Board deck | Trimestral | Investidores com assento | Revisão completa + decisões (ver [[IGNICAO-Vol-9-Maturidade-e-Exit#IGNIÇÃO: Volume 9: Maturidade, Governança, Crise, Exit e Family Office\|Template: Board Deck e Prontidão para M&A (Vol. 9)]]) |
 | Update de milestone | Ad hoc | Todos | Quando algo significativo acontece |
 | Chamada 1:1 | Quando necessário | Investidor lead | Decisão estratégica, problema sério |
 
@@ -7153,7 +7153,7 @@ Um dos maiores valores do IR bem feito é que a Série A começa a ser preparada
 6. **Despejar problemas graves pela primeira vez na reunião formal sem alinhamento prévio 1:1 com o conselheiro líder.**
 7. **Não registrar ata e *board memo* em até 24 horas com decisões, responsáveis e prazos.**
 
-**Ver também:** [[#CAPÍTULO 9: CAPTAÇÃO DE EQUITY: PLANEJAMENTO DE RODADA, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 9: Captação de Equity e Planejamento de Rodada]], [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 1: BOARD E GOVERNANCE|Capítulo 1: Board e Governance (Vol. 9)]], [[IGNICAO-Vol-9-Maturidade-e-Exit#TEMPLATES OPERACIONAIS E SIMULAÇÃO DE M&A DESTA FASE (FASE 20)|Template: Board Deck e Prontidão para M&A (Vol. 9)]].
+**Ver também:** [[#CAPÍTULO 9: CAPTAÇÃO DE EQUITY: PLANEJAMENTO DE RODADA, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 9: Captação de Equity e Planejamento de Rodada]], [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 1: BOARD E GOVERNANCE|Capítulo 1: Board e Governance (Vol. 9)]], [[IGNICAO-Vol-9-Maturidade-e-Exit#IGNIÇÃO: Volume 9: Maturidade, Governança, Crise, Exit e Family Office|Template: Board Deck e Prontidão para M&A (Vol. 9)]].
 
 ---
 
