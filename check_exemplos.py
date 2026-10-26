@@ -1,16 +1,16 @@
 #!/usr/bin/env python3
 """
 check_exemplos.py — detecta exemplos práticos que não seguem o template da seção
-dentro dos 10 volumes canônicos em `volumes/`.
+dentro dos 11 volumes canônicos em `volumes/`.
 
-Para cada seção (FASE ou APÊNDICE) com ### EXEMPLO PRÁTICO, o script:
+Para cada seção (FASE ou CAPÍTULO) com ### EXEMPLO PRÁTICO, o script:
 1. Extrai campos do bloco ```text``` mais próximo (o template formal da seção).
 2. Extrai os rótulos usados no exemplo.
 3. Reporta campos do template ausentes no exemplo e rótulos no exemplo
    que não correspondem a nenhum campo do template.
 
 Uso:
-    py check_exemplos.py           # verifica todas as seções dos 10 volumes
+    py check_exemplos.py           # verifica todas as seções dos 11 volumes
     py check_exemplos.py FASE 2    # filtra por nome da seção
 """
 
