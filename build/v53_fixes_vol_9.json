@@ -1560,6 +1560,10 @@
     "newText": "Quando se opera em dois ou mais países, o risco de pagar imposto duas vezes sobre a mesma renda é real. Os acordos para evitar a dupla tributação operam por dois mecanismos: a tributação exclusiva em um dos países ou a compensação, no país de residência, do imposto retido na fonte no exterior. O Brasil mantém mais de trinta acordos em vigor na lista oficial da Receita Federal (incluindo Portugal, Espanha, França, Itália, Suíça, Singapura, Emirados Árabes Unidos, Polônia, Japão, Argentina, Chile, Canadá, México, China e Índia; o antigo tratado com a Alemanha deixou de vigorar em janeiro de 2006 pelo Decreto 5.654/2005, e o acordo assinado com o Reino Unido em novembro de 2022 ainda aguarda conclusão dos trâmites para entrar em vigor). Já com os Estados Unidos não há tratado vigente em 2026, embora a legislação brasileira admita compensar o imposto federal norte-americano sobre lucros e rendimentos sob regras estritas de reciprocidade. Essa ausência de tratado Brasil-EUA encarece remessas de serviços, royalties e dividendos entre os dois países, tornando indispensável o acompanhamento de escritórios jurídicos e tributários com prática internacional (como Machado Meyer, Demarest, Pinheiro Neto, Trench Rossi Watanabe e Mattos Filho)."
   },
   {
+    "line": 2259,
+    "newText": "Quando Lucas e Marina decidiram abrir a frente mexicana após o tropeço inicial que havia queimado US$ 120 mil sem fechar dez clientes, eles substituíram a tradução improvisada pela integração nativa ao faturamento eletrônico obrigatório (*CFDI 4.0* timbrado via *PAC* autorizado pelo *SAT*) e aos pagamentos instantâneos via *SPEI*, alcançando US$ 500 mil de ARR local em doze meses. Para operações que expandem a partir do Brasil para a América Latina, três exigências operacionais e fiscais determinam o sucesso da implantação:"
+  },
+  {
     "line": 2261,
     "newText": "- **México (SAPI de CV, CFDI 4.0 e SPEI):** segunda maior economia da América Latina depois do Brasil, combina grandes oportunidades em software B2B, serviços financeiros e logística com elevada informalidade e exigência fiscal estrita: a estrutura societária preferida para startups é a *Sociedad Anónima Promotora de Inversión* (**SAPI de C.V.**), e toda fatura precisa ser emitida no padrão eletrônico **CFDI 4.0** (com *complemento de pagos* quando liquidada em parcelas ou a prazo) timbrado por um provedor autorizado junto ao **SAT**, sem o qual o cliente corporativo mexicano não consegue deduzir a despesa, integrando transferências instantâneas via **SPEI** e pagamentos em espécie via **OXXO**."
   },
@@ -1993,7 +1997,7 @@
   },
   {
     "line": 2803,
-    "newText": "A carteira corporativa divide-se em três faixas de liquidez dentro da Política de Investimentos (IPS): (1) a **liquidez operacional (0 a 30 dias)**, dimensionada para cobrir de um a dois meses de desembolsos imediatos (folha de pagamento, impostos e fornecedores críticos), mantida em disponibilidade diária imediata (**D+0**); (2) a **liquidez tática (30 a 180 dias)**, correspondente aos meses dois a seis de operação (obrigações trimestrais, décimo terceiro salário e contingências operacionais), alocada integralmente em títulos soberanos ou CDBs de bancos de primeira linha com **resgate diário imediato (D+0 ou D+1)**, como Tesouro Selic (LFT) e CDB DI sem carência; e (3) a **reserva estratégica (acima de 180 dias)**, formada pelo caixa que excede seis meses de fôlego operacional, na qual parte dos recursos pode ser aplicada em títulos públicos ou *US Treasury Bills* com vencimentos escalonados de três a doze meses para capturar prêmio adicional de taxa sem assumir risco de crédito privado."
+    "newText": "A carteira corporativa divide-se em três faixas de liquidez dentro da Política de Investimentos (IPS): (1) a **liquidez operacional (0 a 30 dias)**, dimensionada para cobrir de um a dois meses de desembolsos imediatos (folha de pagamento, impostos e fornecedores críticos), mantida em disponibilidade diária imediata (**D+0**); (2) a **liquidez tática (30 a 180 dias)**, correspondente aos meses dois a seis de operação (obrigações trimestrais, décimo terceiro salário e contingências operacionais), alocada integralmente em títulos soberanos pós-fixados (LFTs adquiridas via tesouraria bancária ou fundos DI Soberanos D+0, lembrando que o programa Tesouro Direto é exclusivo para pessoas físicas) ou CDBs de bancos de primeira linha com **resgate diário imediato (D+0 ou D+1)** sem carência; e (3) a **reserva estratégica (acima de 180 dias)**, formada pelo caixa que excede seis meses de fôlego operacional, na qual parte dos recursos pode ser aplicada em títulos públicos federais (LFTs/LTNs) ou *US Treasury Bills* com vencimentos escalonados de três a doze meses para capturar prêmio adicional de taxa sem assumir risco de crédito privado."
   },
   {
     "line": 2806,
@@ -2001,7 +2005,7 @@
   },
   {
     "line": 2812,
-    "newText": "**Gestão de risco de contraparte e diversificação bancária:** após a intervenção no Silicon Valley Bank em março de 2023, ficou evidente que nenhuma empresa pode tratar um único banco como livre de risco, independentemente do porte do caixa. Mesmo uma startup com US$ 4 milhões a US$ 5 milhões em caixa (como a operação de Lucas e Marina na cena de abertura) precisa aplicar imediatamente a regra dos três pilares: (1) **teto máximo de 30% do caixa total em uma única instituição financeira comercial** (exceto quando aplicado diretamente em títulos públicos federais custodiados em nome da própria empresa, como Tesouro Selic ou *US Treasury Bills*); (2) **reserva mínima de 60 dias de folha de pagamento e custos vitais depositada em um segundo banco local independente** com resgate D+0; e (3) **monitoramento trimestral da classificação de risco (*rating* Moody's, S&P e Fitch)** das instituições parceiras, lembrando que a garantia do FDIC nos Estados Unidos (US$ 250 mil por depositante) e a do FGC no Brasil (R$ 250 mil por CNPJ/instituição, limitada ao teto global de R$ 1 milhão a cada quatro anos) cobrem apenas uma fração mínima do caixa corporativo. Já nas operações de derivativos de balcão (*NDF* e *swap*), a formalização exige o **Contrato Global de Derivativos (CGD)** com registro na **B3** para a entidade brasileira e o **ISDA Master Agreement** (acompanhado de anexo de garantia, *Credit Support Annex*, CSA, acima de limites de exposição definidos) para a holding no exterior."
+    "newText": "**Gestão de risco de contraparte e diversificação bancária:** após a intervenção no Silicon Valley Bank em março de 2023, ficou evidente que nenhuma empresa pode tratar um único banco como livre de risco, independentemente do porte do caixa. Mesmo uma startup com US$ 4 milhões a US$ 5 milhões em caixa (como a operação de Lucas e Marina na cena de abertura) precisa aplicar imediatamente a regra dos três pilares: (1) **teto máximo de 30% do caixa total em uma única instituição financeira comercial** (exceto quando aplicado diretamente em títulos públicos federais custodiados no Selic em nome da própria empresa, como LFTs no Brasil ou *US Treasury Bills* nos Estados Unidos); (2) **reserva mínima de 60 dias de folha de pagamento e custos vitais depositada em um segundo banco local independente** com resgate D+0; e (3) **monitoramento trimestral da classificação de risco (*rating* Moody's, S&P e Fitch)** das instituições parceiras, lembrando que a garantia do FDIC nos Estados Unidos (US$ 250 mil por depositante) e a do FGC no Brasil (R$ 250 mil por CNPJ/instituição, limitada ao teto global de R$ 1 milhão a cada quatro anos) cobrem apenas uma fração mínima do caixa corporativo. Já nas operações de derivativos de balcão (*NDF* e *swap*), a formalização exige o **Contrato Global de Derivativos (CGD)** com registro na **B3** para a entidade brasileira e o **ISDA Master Agreement** (acompanhado de anexo de garantia, *Credit Support Annex*, CSA, acima de limites de exposição definidos) para a holding no exterior."
   },
   {
     "line": 2815,
@@ -2025,7 +2029,11 @@
   },
   {
     "line": 2881,
-    "newText": "Depois do fim de semana em que US$ 4,2 milhões da rodada ficaram inacessíveis no banco regional americano sob intervenção, **Lucas e Marina** implantaram em São Paulo e em Delaware uma regra permanente de custódia: distribuíram o caixa entre três instituições financeiras de primeira linha (respeitando o teto de 30% por banco comercial e alocando o excedente em *US Treasury Bills* e Tesouro Selic), isolaram 60 dias de folha de pagamento em liquidez diária (D+0) em um segundo banco brasileiro independente e instituíram um teste mensal de pagamento real pela conta reserva."
+    "newText": "Depois do fim de semana em que US$ 4,2 milhões da rodada ficaram inacessíveis no banco regional americano sob intervenção, Lucas e Marina implantaram em São Paulo e em Delaware uma regra permanente de custódia: distribuíram o caixa entre três instituições financeiras de primeira linha (respeitando o teto de 30% por banco comercial e alocando o excedente em *US Treasury Bills* e títulos públicos federais pós-fixados, LFTs/fundos DI Soberanos D+0), isolaram 60 dias de folha de pagamento em liquidez diária (D+0) em um segundo banco brasileiro independente e instituíram um teste mensal de pagamento real pela conta reserva."
+  },
+  {
+    "line": 2886,
+    "newText": "2. **A Proibição de Risco de Crédito no Caixa Operacional:** Toda a sua liquidez imediata e tática está aplicada exclusivamente em instrumentos de resgate imediato (no mesmo dia ou no dia útil seguinte) e risco soberano ou bancário Tier-1, reservando prazos de carência de 30 a 90 dias apenas para a parcela de reserva estratégica prevista na Política de Investimentos (IPS) (fundos DI Soberanos D+0, LFTs via tesouraria bancária ou CDB DI D+0 de banco de primeira linha no Brasil e *US Treasury Bills* de curto prazo nos EUA), ou alguém alocou o caixa de sobrevivência da empresa em debêntures privadas, fundos imobiliários ou criptoativos voláteis para ganhar 1% a mais ao ano?"
   },
   {
     "line": 2887,
@@ -3956,12 +3964,40 @@
     "newText": "1. **Validar retenção por coorte antes de confundir volume promocional com Product-Market Fit**: o crescimento explosivo puxado por descontos de 50% a 80% mede apenas o apetite por subsídio, exigindo medir quantos clientes e lojistas permanecem ativos no sexto mês sem promoção."
   },
   {
+    "line": 5343,
+    "newText": "2. **A economia unitária precisa melhorar com a escala em vez de deteriorar**: quando cada novo comerciante ou usuário custa mais caro para adquirir e reter do que a safra anterior, o crescimento acelera o consumo de caixa."
+  },
+  {
     "line": 5344,
     "newText": "3. **Reconhecer a janela de liquidez quando a categoria depende de arbitragem temporária**: recusar saídas estratégicas no pico de euforia de um modelo sem barreira de retenção deixa os fundadores expostos quando o ciclo global vira e resta apenas a venda com desconto."
   },
   {
+    "line": 5345,
+    "newText": "4. **Desconfiar de categorias sustentadas apenas por euforia de capital**: modelos copiados simultaneamente por dezenas de concorrentes sem diferencial de retenção costumam colapsar assim que o financiamento externo seca."
+  },
+  {
     "line": 5346,
     "newText": "5. **Proteger o lado da oferta no marketplace**: se o parceiro comercial perde dinheiro ou margem a cada transação intermediada pela plataforma, a reposição forçada de fornecedores inviabilizará o CAC no médio prazo."
+  },
+  {
+    "line": 5353,
+    "newText": "Fundada em 2011 no Rio de Janeiro por Tallis Gomes e Daniel Cohen (com Vinicius Gracia e Bernardo Bicalho integrando a equipe inicial), a Easy Taxi foi pioneira na chamada de táxis por aplicativo móvel no Brasil antes da chegada da Uber e expandiu-se rapidamente para mais de 30 países com o apoio financeiro e operacional do grupo Rocket Internet a partir de 2012."
+  },
+  {
+    "line": 5356,
+    "newText": "- **2011–2013**: crescimento acelerado no Brasil e conquista da liderança inicial em diversos mercados emergentes da América Latina, Ásia e Oriente Médio."
+  },
+  {
+    "line": 5357,
+    "newText": "- **2013**: captação de rodada Série A e aceleração da abertura simultânea de operações internacionais."
+  },
+  {
+    "line": 5358,
+    "newText": "- **2014**: entrada da Uber no mercado brasileiro, redefinindo a experiência do usuário com motoristas particulares e pagamento automático no aplicativo."
+  },
+  {
+    "line": 5359,
+    "newText": "- **2014–2015**: novas captações que elevaram o total levantado para mais de US$ 75 milhões, em meio a disputas regulatórias municipais e aumento expressivo do custo de subsídio por corrida."
   },
   {
     "line": 5361,
@@ -3980,12 +4016,32 @@
     "newText": "O modelo de agregação de táxis apresentava baixo custo de troca (*switching cost*): o passageiro abria o aplicativo que trouxesse o carro mais rápido e o taxista aceitava a corrida que tocasse primeiro, de modo que o pioneirismo isolado não construiu retenção defensável. A chegada da Uber redefiniu a categoria ao combinar carros particulares, precificação dinâmica e pagamento integrado no cartão, enquanto a rival brasileira 99 (antiga 99Taxis) reagiu rápido abrindo o aplicativo para motoristas particulares (99Pop) e atraindo o capital estratégico da Didi Chuxing. Já a Easy Taxi havia pulverizado capital e foco executivo em mais de 30 países em quatro continentes sob o modelo de expansão acelerada da Rocket Internet e demorou a migrar dos táxis regulamentados para os carros particulares, perdendo o mercado doméstico antes de ser absorvida pela Cabify."
   },
   {
+    "line": 5369,
+    "newText": "- Concentrar capital e engenharia na defesa profunda do Brasil e de dois mercados-chave da América Latina em vez de pulverizar a gestão em mais de 30 países? Teria preservado caixa e foco executivo para responder à mudança tecnológica do setor."
+  },
+  {
+    "line": 5370,
+    "newText": "- Desenvolver uma vertical própria de motoristas particulares assim que o modelo começou a ganhar tração internacional? Exigiria enfrentar o conflito direto com a base de taxistas e sindicatos que sustentava a receita inicial da empresa."
+  },
+  {
     "line": 5372,
     "newText": "- Fusão doméstica com a 99 entre 2014 e 2015 (em vez da sobreextensão global e posterior integração à Cabify)? Uma consolidação brasileira precoce teria reunido liquidez e densidade de rede para enfrentar a entrada da Uber."
   },
   {
     "line": 5376,
     "newText": "1. **Construir custos de troca reais desde a liderança inicial**: chegar primeiro ao mercado só gera defesa duradoura quando o produto cria efeito de rede denso, dados proprietários ou integração financeira que impeçam o usuário de migrar no dia seguinte."
+  },
+  {
+    "line": 5377,
+    "newText": "3. **A expansão geográfica prematura dilui a densidade de rede**: abrir dezenas de países simultaneamente sob pressão de investidores cria presença rasa e vulnerável a competidores focados."
+  },
+  {
+    "line": 5378,
+    "newText": "4. **Monitorar inflexões regulatórias e de modelo de oferta**: quando uma nova arquitetura de serviço reduz estruturalmente o atrito do consumidor, defender apenas o formato legado leva à perda rápida de mercado."
+  },
+  {
+    "line": 5379,
+    "newText": "5. **Capital abundante não substitui retenção orgânica**: mesmo levantando dezenas de milhões de dólares, a operação perde espaço se o usuário migrar ao menor desconto do concorrente."
   },
   {
     "line": 5384,
@@ -4029,7 +4085,7 @@
   },
   {
     "line": 5420,
-    "newText": "Entre 2020 e 2021, a queda da taxa Selic para a mínima histórica de 2% ao ano provocou uma corrida de aberturas de capital na B3 (mais de 45 ofertas iniciais no período). Este caso sintetiza um **arquétipo composto ilustrativo** das empresas de médio porte de tecnologia, varejo digital e saúde que aproveitaram o pico de receitas conjunturais da pandemia para abrir capital antes de amadurecer seus controles internos, sua recorrência de receita e sua governança de companhia aberta (observando-se que a healthtech curitibana Hi Technologies/Hilab permaneceu empresa de capital fechado e realizou captação privada com a EB Capital em 2023)."
+    "newText": "Entre 2020 e 2021, a queda da taxa Selic para a mínima histórica de 2% ao ano provocou uma corrida de aberturas de capital na B3 (mais de 45 ofertas iniciais no período). Este caso sintetiza um **arquétipo composto ilustrativo** das empresas de médio porte de tecnologia, varejo digital e saúde que aproveitaram o pico de receitas conjunturais da pandemia para abrir capital antes de amadurecer seus controles internos, sua recorrência de receita e sua governança de companhia aberta."
   },
   {
     "line": 5424,
@@ -4060,8 +4116,36 @@
     "newText": "O colapso de valor das aberturas de capital prematuras da safra 2020–2021 combinou quatro falhas clássicas. A primeira foi confundir um choque positivo e passageiro de demanda (como vendas digitais ou serviços de saúde impulsionados pelo isolamento social) com uma mudança permanente de patamar operacional, projetando múltiplos de perpetuidade sobre uma receita conjuntural. A segunda foi a imaturidade da governança pré-IPO: empresas que operavam com controles financeiros informais e decisões centralizadas nos fundadores foram lançadas da noite para o dia ao escrutínio trimestral da CVM e dos gestores institucionais sem comitê de auditoria atuante nem planejamento financeiro (FP&A) confiável. A terceira foi a pressão para alocar rapidamente as centenas de milhões captados na oferta primária, levando a aquisições caras e mal integradas. Quando o ciclo monetário virou e o juro básico subiu, o mercado acionário brasileiro puniu severamente a quebra de promessas logo nos primeiros dois trimestres pós-listagem."
   },
   {
+    "line": 5436,
+    "newText": "- Adiar a listagem em 12 a 18 meses para consolidar a governança, auditar processos internos e comprovar a recorrência pós-pandemia? Teria evitado a destruição reputacional no mercado público, ainda que significasse captar em uma faixa mais conservadora de múltiplo."
+  },
+  {
+    "line": 5437,
+    "newText": "- Estruturar a transição para S.A. aberta com CFO e DRI experientes pelo menos quatro trimestres antes do pedido de registro na CVM? Reduziria drasticamente o risco de erros de projeção e ressalvas contábeis logo após a estreia."
+  },
+  {
+    "line": 5438,
+    "newText": "- Preferir uma rodada privada de *growth equity* com fundos institucionais em vez de ir direto à bolsa em janela de euforia? Permitiria financiar a expansão com acompanhamento próximo de conselho sem a pressão trimestral imediata do pregão."
+  },
+  {
+    "line": 5442,
+    "newText": "1. **Janela de liquidez favorável na bolsa não substitui prontidão operacional**: abrir capital sem previsibilidade de receita e sem controles auditados transforma a listagem em armadilha pública."
+  },
+  {
     "line": 5443,
     "newText": "2. **Tratar a governança pré-IPO como alicerce de sobrevivência**: operar por pelo menos quatro a seis trimestres como se já fosse companhia aberta (com auditoria de primeira linha, conselho independente e previsibilidade de resultados) protege a reputação e o patrimônio dos fundadores após a listagem."
+  },
+  {
+    "line": 5444,
+    "newText": "3. **Separar com rigor receita recorrente de picos extraordinários de demanda**: projetar perpetuidade sobre um choque temporário de vendas leva à perda imediata de credibilidade quando a curva normaliza."
+  },
+  {
+    "line": 5445,
+    "newText": "4. **A maturidade de companhia aberta constrói-se em anos de disciplina prévia**: profissionalizar conselho, auditoria e controladoria na véspera do prospecto deixa a operação exposta no primeiro trimestre adverso."
+  },
+  {
+    "line": 5446,
+    "newText": "5. **A perda de confiança no mercado de capitais brasileiro tem custo duradouro**: ações que perdem 80% do valor logo após a estreia ficam anos sem liquidez institucional e sem acesso a novas emissões."
   },
   {
     "line": 5453,
@@ -4088,6 +4172,10 @@
     "newText": "O colapso decorreu de uma fraude contábil continuada ao longo de anos para ocultar o passivo bancário real de operações de risco sacado (*forfait*) e inflar artificialmente as margens operacionais com verbas de fornecedores inexistentes, combinada com a falha simultânea das três linhas internas de defesa e da auditoria externa: diretoria executiva, controles financeiros, comitê de auditoria, conselho de administração e auditores independentes. A pressão por reportar crescimento e geração de caixa em uma disputa acirrada no comércio eletrônico levou à dissimulação sistemática de despesas financeiras nos balanços publicados, mesmo sob acionistas de referência reconhecidos globalmente."
   },
   {
+    "line": 5468,
+    "newText": "- Atuação tempestiva e cética do comitê de auditoria e dos controles internos na conciliação direta das operações de risco sacado junto aos bancos credores? Teria interrompido a dissimulação contábil anos antes de o passivo atingir dezenas de bilhões de reais."
+  },
+  {
     "line": 5472,
     "newText": "1. **Fraude contábil destrói décadas de reputação em poucos dias:** a revelação da fraude de R$ 25,3 bilhões em lançamentos contábeis (que precipitou a recuperação judicial sobre um passivo total de R$ 43 bilhões em uma companhia com acionistas de referência presentes desde 1982) pulverizou mais de R$ 9 bilhões em valor de mercado na primeira semana e mais de R$ 40 bilhões em relação ao pico histórico."
   },
@@ -4108,8 +4196,36 @@
     "newText": "O caso ilustra o risco clássico de absorção por plataforma dominante (*featurização*): a avaliação de estabelecimentos locais deixou de ser um destino digital autônomo para tornar-se uma funcionalidade nativa dentro do Google Maps, onde o usuário já estava diariamente para buscar endereços e traçar rotas no celular. Como o conteúdo de resenhas abertas não gerava efeito de rede transacional nem travava o comerciante em um fluxo exclusivo de reservas ou pagamentos, o Google conseguiu agregar dezenas de milhões de avaliações diretamente na tela de mapas e busca local, esvaziando a necessidade de abrir um aplicativo dedicado. Além disso, o declínio gradual de tráfego orgânico é mais traiçoeiro de reagir do que um choque abrupto: quando ficou claro que o modelo independente de guia de avaliações havia perdido tração estrutural, a janela para um pivô financiado já havia se estreitado."
   },
   {
+    "line": 5501,
+    "newText": "- Reposicionar a operação cedo para um nicho vertical com transação embutida (como reservas pagas, gestão de fila e fidelidade para restaurantes)? Teria criado relação contratual direta com o estabelecimento, embora exigisse mudar o produto de comunidade aberta para SaaS B2B."
+  },
+  {
+    "line": 5502,
+    "newText": "- Licenciar a base de dados locais ou buscar aquisição estratégica antes de o Google Maps consolidar o domínio absoluto das avaliações no celular? Teria capturado valor para os acionistas enquanto o ativo de conteúdo ainda possuía relevância diferencial."
+  },
+  {
+    "line": 5503,
+    "newText": "- Concentrar recursos em poucos centros urbanos com alta densidade comercial e monetização transacional? Reduziria a queima de caixa diante da queda do tráfego orgânico de busca."
+  },
+  {
+    "line": 5507,
+    "newText": "1. **Avaliar continuamente o risco de absorção por grandes plataformas (*featurização*)**: se o seu produto inteiro pode virar um recurso gratuito dentro do sistema operacional, do mapa ou do navegador que o usuário já abre todos os dias, a barreira de defesa precisa migrar para a transação ou para o fluxo de trabalho profundo."
+  },
+  {
     "line": 5508,
     "newText": "2. **O declínio gradual exige indicadores antecedentes de engajamento**: perdas lentas de tráfego orgânico costumam anestesiar a liderança até que o caixa disponível já não permita financiar um pivô completo."
+  },
+  {
+    "line": 5509,
+    "newText": "3. **Conteúdo aberto gerado por usuários só protege o negócio quando há efeito de rede transacional**: avaliações públicas sem trava operacional são rapidamente superadas por plataformas que detêm a jornada diária de localização e busca."
+  },
+  {
+    "line": 5510,
+    "newText": "4. **Construir efeitos de rede locais densos e monetizáveis**: a liderança se sustenta quando a presença de cada comerciante e consumidor gera transações diretas difíceis de replicar."
+  },
+  {
+    "line": 5511,
+    "newText": "5. **Agir rápido enquanto a janela de pivô ou venda estratégica está aberta**: em categorias ameaçadas por gigantes globais, a diretoria dispõe tipicamente de dois a quatro anos para reinventar o modelo antes que o tráfego orgânico se esgote."
   },
   {
     "line": 5515,
@@ -4176,6 +4292,14 @@
     "newText": "O Enjoei foi fundado em 2009 em São Paulo por Ana Luiza McLaren e Tiê Lima (CEO da companhia) a partir de um blog para venda de roupas usadas entre amigas, evoluindo para o principal marketplace brasileiro de moda e itens de segunda mão com curadoria visual e forte identidade de marca."
   },
   {
+    "line": 5556,
+    "newText": "- **2009–2016**: nascimento como blog de moda circular e evolução orgânica para plataforma de comércio eletrônico com comunidade engajada e identidade verbal própria."
+  },
+  {
+    "line": 5557,
+    "newText": "- **2017–2019**: captação de rodadas de Venture Capital e expansão da infraestrutura logística e de pagamentos para escalar o volume transacionado (GMV)."
+  },
+  {
     "line": 5558,
     "newText": "- **Novembro de 2020**: realiza seu IPO na B3 (ticker ENJU3), precificado em 6 de novembro de 2020 a R$ 10,25 por ação (avaliando a companhia em cerca de R$ 2,0 bilhões na oferta que movimentou R$ 1,1 bilhão entre parcela primária e secundária), estreando no pregão de 9 de novembro."
   },
@@ -4196,12 +4320,36 @@
     "newText": "A trajetória pós-IPO do Enjoei oferece uma lição valiosa de calibração operacional, distinta dos colapsos do Grupo 1 (como 123 Milhas e Americanas) e do desaparecimento por plataforma do Caso 6 (Kekanto). Capitalizada com a oferta de novembro de 2020, a companhia acelerou investimentos em marketing e frete subsidiado para ganhar escala rápida em uma categoria (vestuário de segunda mão) que possui tíquete médio moderado, logística reversa trabalhosa e sensibilidade alta ao custo de envio. Quando o cenário macroeconômico virou em 2022 e o mercado acionário passou a cobrar lucratividade imediata em vez de crescimento bruto de GMV, a cotação sofreu forte correção; contudo, por contar com caixa preservado da oferta primária, marca querida pelo público e governança limpa, a gestão conseguiu ajustar a estrutura, recompor o *take rate* e estabilizar o negócio em patamar rentável."
   },
   {
+    "line": 5568,
+    "newText": "- Dimensionar uma captação primária mais enxuta e gradual no IPO? Teria reduzido a pressão imediata do mercado por aceleração agressiva de marketing em uma categoria de margem unitária sensível ao frete."
+  },
+  {
+    "line": 5569,
+    "newText": "- Preservar o foco estrito em curadoria de moda de maior tíquete médio antes de disputar categorias massificadas de baixo valor unitário? Protegeria a margem de contribuição por pedido durante a virada do ciclo de juros."
+  },
+  {
+    "line": 5570,
+    "newText": "- Estender a maturação privada por mais alguns trimestres até comprovar equilíbrio operacional em escala? Entraria na bolsa menos exposta à rotação global contra empresas de crescimento em 2022."
+  },
+  {
     "line": 5574,
     "newText": "1. **A abertura de capital expõe a economia unitária em praça pública**: o caixa captado no IPO compra tempo e capacidade de investimento, mas o mercado acionário pune rapidamente qualquer subsídio de frete ou marketing que não se pague na retenção das coortes."
   },
   {
     "line": 5575,
     "newText": "2. **A cobrança trimestral da bolsa altera os incentivos de alocação de capital**: apostas de maturação longa que são toleradas em conselhos privados sofrem desconto imediato no pregão quando comprimem a margem de curto prazo."
+  },
+  {
+    "line": 5576,
+    "newText": "3. **Marketplaces de tíquete baixo exigem disciplina férrea de frete e *take rate***: quando o custo logístico representa fatia relevante do pedido, subsidiar entregas sem recorrência comprovada corrói rapidamente o caixa."
+  },
+  {
+    "line": 5577,
+    "newText": "4. **A diferenciação de marca e curadoria em nicho fiel é mais defensável do que a guerra de volume genérico**: a identidade construída pelo Enjoei permitiu reter a comunidade mesmo após cortar subsídios."
+  },
+  {
+    "line": 5578,
+    "newText": "5. **Capacidade de adaptação pós-choque separa quem permanece no jogo**: preservar caixa, enxugar a estrutura e migrar da busca por crescimento bruto para geração de EBITDA positivo garantiu a continuidade e a recuperação operacional da companhia."
   },
   {
     "line": 5590,

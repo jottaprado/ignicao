@@ -3,7 +3,7 @@ title: "IGNIÇÃO: Volume 2: Descoberta de Cliente e Mapeamento de Mercado"
 subtitle: "Customer Discovery, Pesquisa de Campo, Concorrência e Cunha Estratégica (Fases 4 a 6 e Capítulos 1 a 3: Psicologia do Consumidor Brasileiro, Inteligência Competitiva e Casos de Fracasso)"
 author: "João Prado"
 date: 2026
-version: "5.2"
+version: "5.3"
 volume: 2
 collection: "IGNIÇÃO: O manual operacional do empreendedor brasileiro (10 Volumes, Edição Narrativa Enxuta)"
 language: pt-BR
@@ -14,13 +14,13 @@ language: pt-BR
 
 **Customer Discovery, Pesquisa de Campo, Concorrência e Cunha Estratégica (Fases 4 a 6 e Capítulos 1 a 3: Psicologia do Consumidor Brasileiro, Inteligência Competitiva e Casos de Fracasso)**
 
-*João Prado · 2026 · Edição Narrativa Enxuta (v5.2)*
+*João Prado · 2026 · Edição Narrativa Enxuta (v5.3)*
 
 ---
 
 ## Sobre este Volume
 
-Este é o **Volume 2 (Descoberta de Cliente e Mapeamento de Mercado)** da coleção **IGNIÇÃO: O manual operacional do empreendedor brasileiro** (10 volumes).
+Este é o **Volume 2 (Descoberta de Cliente e Mapeamento de Mercado)** da coleção IGNIÇÃO: O manual operacional do empreendedor brasileiro (10 volumes).
 
 Volume dedicado à descoberta profunda do cliente e do mercado antes de qualquer linha de código: Descoberta do Problema em campo com *Mom Test* (Fase 4), Pesquisa com Usuários e *Jobs to Be Done* (Fase 5) e Mapeamento de Mercado, Concorrência e Cunha (Fase 6). Cada fase reúne seus frameworks passo a passo, canvases visuais preenchidos, roteiros de entrevista e métricas de saída. Fecham o volume três capítulos transversais: psicologia do consumidor brasileiro, inteligência competitiva e *Category Design*, e casos de fracasso brasileiros.
 
@@ -71,7 +71,7 @@ graph LR
 
 # FASES DA ETAPA: DESCOBERTA DE CLIENTE E MAPEAMENTO DE MERCADO (FASES 4 A 6)
 
-Se o Volume 1 organizou sua hipótese no papel, as **[[#FASE 4: DESCOBERTA DO PROBLEMA|Fases 4]]**, **[[#FASE 5: PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY)|5]]** e **[[#FASE 6: MAPEAMENTO DE MERCADO E CONCORRÊNCIA|6]]** jogam essa tese no choque com a rua. Aqui você aprende a ouvir a dor real do cliente sem ouvir elogios falsos (*The Mom Test*), dissecar o *Job to Be Done* que faz alguém trocar de fornecedor e escolher uma cunha de entrada (*wedge*) onde você consiga ser imbatível.
+Se o Volume 1 organizou sua hipótese no papel, as [[#FASE 4: DESCOBERTA DO PROBLEMA|Fases 4]], [[#FASE 5: PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY)|5]] e [[#FASE 6: MAPEAMENTO DE MERCADO E CONCORRÊNCIA|6]] jogam essa tese no choque com a rua. Aqui você aprende a ouvir a dor real do cliente sem ouvir elogios falsos (*The Mom Test*), dissecar o *Job to Be Done* que faz alguém trocar de fornecedor e escolher uma cunha de entrada (*wedge*) onde você consiga ser imbatível.
 
 ---
 
@@ -79,13 +79,13 @@ Se o Volume 1 organizou sua hipótese no papel, as **[[#FASE 4: DESCOBERTA DO PR
 
 ### A mentira educada do café e o risco de construir para fantasmas
 
-**Lucas** fechou o notebook com um sorriso largo na cafeteria da Avenida Paulista. Acabara de mostrar os protótipos de tela do seu novo sistema de conciliação financeira para o sétimo diretor financeiro em duas semanas. A resposta foi quase idêntica às seis anteriores: *"Cara, isso aqui está genial! O design é super limpo. Quando estiver pronto, me avisa que a gente testa com certeza."*
+Lucas fechou o notebook com um sorriso largo na cafeteria da Avenida Paulista. Acabara de mostrar os protótipos de tela do seu novo sistema de conciliação financeira para o sétimo diretor financeiro em duas semanas. A resposta foi quase idêntica às seis anteriores: *"Cara, isso aqui está genial! O design é super limpo. Quando estiver pronto, me avisa que a gente testa com certeza."*
 
-Ao sair da cafeteria na Avenida Paulista, **Lucas** ligou entusiasmado para **Marina** em Florianópolis: era o sétimo diretor financeiro que elogiava as telas em slides do sistema de conciliação automática de boletos, e ele já queria se trancar para programar trinta mil linhas em Python. Pela segunda vez no ano, Marina, sócia comercial nata, freou o ímpeto técnico do parceiro com uma pergunta direta:
+Ao sair da cafeteria na Avenida Paulista, Lucas ligou entusiasmado para Marina em Florianópolis: era o sétimo diretor financeiro que elogiava as telas em slides do sistema de conciliação automática de boletos, e ele já queria se trancar para programar trinta mil linhas em Python. Pela segunda vez no ano, Marina, sócia comercial nata, freou o ímpeto técnico do parceiro com uma pergunta direta:
 
-"Lucas, quantos boletos reais ou cartas de intenção assinadas você trouxe na mochila hoje? Elogio em cafeteria não paga servidor em nuvem. Esse diretor só usou uma frase simpática para encerrar a conversa em vinte minutos sem parecer indelicado." Ao longo desta Fase 4, Lucas e Marina usam esse choque de realidade para conduzir a descoberta em campo: definem no Passo 1 o perfil exato do diretor financeiro de distribuidoras médias, reclassificam o sétimo diretor no nível 2 da escala de dor (elogio educado sem orçamento, parente das provas de conceito gratuitas que ainda vão drenar **Henrique** nas usinas no Volume 3) e constroem o Mapa de Problemas da dupla até fechar o primeiro piloto pago.
+"Lucas, quantos boletos reais ou cartas de intenção assinadas você trouxe na mochila hoje? Elogio em cafeteria não paga servidor em nuvem. Esse diretor só usou uma frase simpática para encerrar a conversa em vinte minutos sem parecer indelicado." Ao longo desta Fase 4, Lucas e Marina usam esse choque de realidade para conduzir a descoberta em campo: definem no Passo 1 o perfil exato do diretor financeiro de distribuidoras médias, reclassificam o sétimo diretor no nível 2 da escala de dor (elogio educado sem orçamento, parente das provas de conceito gratuitas que ainda vão drenar Henrique nas usinas no Volume 3) e constroem o Mapa de Problemas da dupla até fechar o primeiro piloto pago.
 
-A **Fase 4** existe para vacinar sua empresa contra a **Cegueira da Mentira Educada**. Aqui vale uma regra simples: é proibido falar da sua solução. Você não vai apresentar telas, não vai pedir opinião sobre funcionalidades e jamais vai fazer a pergunta proibida (*"Você usaria um aplicativo que faz X?"*). Sua missão é conduzir uma investigação sobre o passado recente do cliente: o que ele fez na última terça-feira quando o problema aconteceu, quanto tempo perdeu, que gambiarra improvisou no Excel e quanto dinheiro já tentou gastar para se livrar dessa dor. Se não há cicatriz no passado nem improviso no presente, o problema não é agudo. É apenas uma conversa simpática de cafeteria.
+A **Fase 4** existe para vacinar sua empresa contra a Cegueira da Mentira Educada. Aqui vale uma regra simples: é proibido falar da sua solução. Você não vai apresentar telas, não vai pedir opinião sobre funcionalidades e jamais vai fazer a pergunta proibida (*"Você usaria um aplicativo que faz X?"*). Sua missão é conduzir uma investigação sobre o passado recente do cliente: o que ele fez na última terça-feira quando o problema aconteceu, quanto tempo perdeu, que gambiarra improvisou no Excel e quanto dinheiro já tentou gastar para se livrar dessa dor. Se não há cicatriz no passado nem improviso no presente, o problema não é agudo. É apenas uma conversa simpática de cafeteria.
 
 Se você mencionar a sua ideia durante uma entrevista de descoberta, acabou de contaminar o laboratório. Clientes não sabem projetar o que vão comprar no futuro, mas nunca mentem sobre onde perderam dinheiro, tempo ou reputação na terça-feira passada. A Fase 4 serve para provar que a dor do cliente já tem orçamento, urgência e dono antes da primeira linha de código.
 
@@ -114,11 +114,11 @@ Veja na tabela do Passo 3 como separar promessas vazias de fatos comprovados. De
 Antes de falar de execução, entenda o que faz um problema valer a pena perseguir. Empreendedores messiânicos, que querem "salvar o mundo em geral", tendem a quebrar. Empreendedores que miram um problema específico e agudo tendem a crescer. Use os filtros desta seção em conjunto.
 
 > [!note] Hierarquia dos instrumentos de qualidade do problema
-> Use dois instrumentos práticos: a escala de *Pain Level* (Passo 3) para classificar cada entrevistado e o **Teste de Prioridade** (logo adiante) para confirmar se vale dedicar semanas ao problema. Os Filtros 1 e 2 e o Corolário abaixo servem de calibragem conceitual antes de ir a campo.
+> Use dois instrumentos práticos: a escala de *Pain Level* (Passo 3) para classificar cada entrevistado e o Teste de Prioridade (logo adiante) para confirmar se vale dedicar semanas ao problema. Os Filtros 1 e 2 e o Corolário abaixo servem de calibragem conceitual antes de ir a campo.
 
 #### Filtro 1, as cinco características de um *heartfelt problem* (problema genuinamente sentido)
 
-Um problema forte costuma reunir pelo menos quatro das cinco características abaixo (sendo **Doloroso** obrigatório), sempre validadas por entrevistas e observação direta, nunca por palpite:
+Um problema forte costuma reunir pelo menos quatro das cinco características abaixo (sendo Doloroso obrigatório), sempre validadas por entrevistas e observação direta, nunca por palpite:
 
 ```mermaid
 flowchart LR
@@ -164,7 +164,7 @@ Inevitável (*unavoidable*). Não há jeito fácil de contornar. Se o cliente po
 
 - **Poço fundo:** pouca gente tem o problema, mas quem tem precisa tanto de uma solução que aceita usar até uma versão inicial rústica. Um diretor financeiro de distribuidora perdendo R$ 15 mil por mês em boletos duplicados está em um poço fundo.
 
-Negócios bilionários costumam combinar profundidade e largura (como a busca do Google, que Paul Graham chama de cratera imensa), mas toda startup iniciante deve cavar primeiro um **poço fundo em um nicho estreito** antes de buscar largura. Um poço fundo entrega quatro vantagens imediatas: clientes que viram defensores da solução, clareza sobre o que construir primeiro, menor necessidade de capital e defensibilidade natural contra grandes concorrentes que ignoram nichos específicos.
+Negócios bilionários costumam combinar profundidade e largura (como a busca do Google, que Paul Graham chama de cratera imensa), mas toda startup iniciante deve cavar primeiro um poço fundo em um nicho estreito antes de buscar largura. Um poço fundo entrega quatro vantagens imediatas: clientes que viram defensores da solução, clareza sobre o que construir primeiro, menor necessidade de capital e defensibilidade natural contra grandes concorrentes que ignoram nichos específicos.
 
 > [!tip] Regra operacional do poço profundo
 > Se a sua empresa sumisse amanhã, um grupo bem específico de pessoas deveria reclamar muito. Se ninguém reclamaria, você não tem poço. Tem uma poça.
@@ -177,7 +177,7 @@ O que isso significa na prática: se você está obcecado em polir o produto ant
 
 Este corolário se conecta a dois conceitos.
 
-O primeiro conceito é o Limiar de Desespero, medido pela escala de **Pain Level de 1 a 5** adaptada do perfil de *earlyvangelist* de Steve Blank em *The Four Steps to the Epiphany* (2005): (1) tem o problema, mas ainda não o percebe, (2) sabe que tem, mas tolera, (3) busca solução ativamente no mercado, (4) já improvisou uma gambiarra própria com planilha ou processo manual, e (5) já tem orçamento comprometido ou acessível para pagar. Abaixo desse limiar, o usuário reclama de qualquer atrito e cancela, acima dele (nível 4 e, sobretudo, nível 5), o cliente paga e opera mesmo com interface simples, fluxos manuais e suporte via WhatsApp. Identifique se os clientes da sua cunha estão em nível 4 ou 5 antes de gastar meses polindo código.
+O primeiro conceito é o Limiar de Desespero, medido pela escala de Pain Level de 1 a 5 adaptada do perfil de *earlyvangelist* de Steve Blank em *The Four Steps to the Epiphany* (2005): (1) tem o problema, mas ainda não o percebe, (2) sabe que tem, mas tolera, (3) busca solução ativamente no mercado, (4) já improvisou uma gambiarra própria com planilha ou processo manual, e (5) já tem orçamento comprometido ou acessível para pagar. Abaixo desse limiar, o usuário reclama de qualquer atrito e cancela, acima dele (nível 4 e, sobretudo, nível 5), o cliente paga e opera mesmo com interface simples, fluxos manuais e suporte via WhatsApp. Identifique se os clientes da sua cunha estão em nível 4 ou 5 antes de gastar meses polindo código.
 
 O segundo é o "problema chato", também conhecido como Schlep Blindness (cegueira para trabalho árduo: Paul Graham, 2012). *Schlep* é palavra em iídiche, hoje de uso comum no inglês, que significa "tarefa tediosa e desagradável". Graham cunhou o termo para descrever o padrão pelo qual empreendedores (especialmente técnicos) sistematicamente evitam problemas que envolvem trabalho chato e sem glamour: regulação, negociação com bancos, operação manual, migração de dados legados, compliance, suporte trabalhoso. A mente descarta a ideia antes mesmo de ela chegar à consciência, com o rótulo de que aquilo não é problema de startup. Como quase ninguém quer assumir esse trabalho árduo, é justamente ali que se concentram as oportunidades mais valiosas.
 
@@ -189,7 +189,7 @@ A **Stripe** resolveu pagamentos online atacando o *schlep* que todo desenvolved
 
 A **Scale AI** atacou a rotulagem e curadoria de dados de treino para inteligência artificial (*data labeling*), tarefa operacional pesada que todo laboratório de IA precisava executar mas preferia terceirizar. Fundada por Alexandr Wang e Lucy Guo em 2016, a empresa tornou-se infraestrutura crítica do setor. Em junho de 2025, a Meta investiu cerca de US$ 14,3 bilhões por 49% da Scale AI (avaliando o negócio em US$ 29 bilhões), movimento no qual Alexandr Wang deixou o cargo de CEO para liderar frentes de IA na Meta.
 
-No Brasil, empresas de conciliação fiscal e automação contábil como **Arquivei (hoje Qive)** e **Contabilizei** atacaram um *schlep* clássico que engenheiros de software evitavam: integrar centenas de padrões municipais de notas fiscais de serviço (NFS-e), lidar com instabilidades dos portais fazendários e traduzir obrigações acessórias complexas. Era um trabalho árduo e sem glamour aparente, mas resolveu uma dor obrigatória de dezenas de milhares de empresas.
+No Brasil, empresas de conciliação fiscal e automação contábil como Arquivei (hoje Qive) e Contabilizei atacaram um *schlep* clássico que engenheiros de software evitavam: integrar centenas de padrões municipais de notas fiscais de serviço (NFS-e), lidar com instabilidades dos portais fazendários e traduzir obrigações acessórias complexas. Era um trabalho árduo e sem glamour aparente, mas resolveu uma dor obrigatória de dezenas de milhares de empresas.
 
 A Uber enfrentou disputas regulatórias municipais e embates jurídicos com sindicatos de táxi que afugentavam outros fundadores. Justamente por ser um trabalho desgastante, caro e litigioso, esse obstáculo abriu espaço para quem aceitou encarar o atrito.
 
@@ -197,15 +197,6 @@ Da mesma forma, a **Stone** construiu sua vantagem competitiva enfrentando o tra
 
 > [!tip] Problemas chatos com clientes desesperados
 > Como vimos na Fase 1 (Volume 1) ao discutir a *Schlep Blindness* de Paul Graham (2012), fundadores costumam evitar problemas operacionais árduos, burocráticos ou regulatórios. Na Fase 4, use essa aversão a seu favor como critério de triagem: se as entrevistas revelarem um processo penoso que os concorrentes evitam por dar trabalho demais (como conciliação fiscal, folha de pagamento ou integração com sistemas legados), não descarte a dor pela complexidade. Onde há fricção operacional severa e cliente no limite, a barreira de entrada trabalha para quem resolve o problema até o fim.
-
-
-
-
-
-
-
-
-
 
 ### Teste de prioridade: três perguntas rápidas
 
@@ -215,7 +206,7 @@ Antes de avançar, submeta o seu problema a um teste de prioridade em três perg
 > Não pergunte "quem acharia interessante". Pergunte quem sentiria falta em quarenta e oito horas se o processo parasse, sem ninguém avisar. Se a resposta for "as pessoas em geral" ou "todo mundo", o problema não é prioritário para ninguém em específico. Uma boa resposta aponta um cargo concreto, como "o diretor financeiro da distribuidora", que sofre com o problema toda semana.
 
 > [!question] Pergunta 2: qual métrica numérica e rastreada mudaria?
-> Se o problema é real e prioritário, existe uma métrica que alguém já acompanha que se moveria. Tempo de ciclo. Custo por transação. Taxa de retrabalho. NPS interno. Faturamento por hora. Churn. Se nenhuma métrica rastreada se moveria, o problema pode até existir, mas ninguém tem caso de negócio para resolvê-lo. E portanto ninguém tem budget.
+> Se o problema é real e prioritário, existe uma métrica que alguém já acompanha que se moveria. Tempo de ciclo. Custo por transação. Taxa de retrabalho. NPS interno. Faturamento por hora (Churn). Se nenhuma métrica rastreada se moveria, o problema pode até existir, mas ninguém tem caso de negócio para resolvê-lo. E portanto ninguém tem budget.
 
 > [!question] Pergunta 3: alguém escalaria o problema para um nível acima?
 > Problemas prioritários sobem na hierarquia. Alguém reporta ao chefe. Alguém pede recursos. Alguém marca uma reunião urgente. Se o problema existe mas ninguém o escala, ele está sendo absorvido silenciosamente. Significa que não é urgente o suficiente para forçar mudança de comportamento.
@@ -290,7 +281,7 @@ Nem todo sinal obtido em entrevista tem o mesmo valor preditivo. A tabela a segu
 | Elogios ("Nossa, que ideia legal!") | Quase zero | Pessoas mentem sobre interesse por educação ou para encerrar a conversa sem atrito |
 | Hipóteses futuras ("Eu pagaria por isso") | Quase zero | Promessas sobre o futuro não têm custo no presente e raramente viram compra real |
 | Ideias soltas ("Seria legal se tivesse tal funcionalidade") | Baixo a médio | Útil para mapear vocabulário, insuficiente para validar demanda |
-| Comportamento passado ("Semana passada gastei 4 horas nisso") | Alto | Dado verificável; ações já tomadas no passado recente são a prova mais limpa |
+| Comportamento passado ("Semana passada gastei 4 horas nisso") | Alto | Dado verificável, ações já tomadas no passado recente são a prova mais limpa |
 | Tentativas anteriores de solução ("Usei X, Y e Z, nenhum resolveu") | Alto | Prova que a dor já superou a inércia e levou o cliente a agir |
 | Métricas de custo (tempo, dinheiro e retrabalho já gastos) | Alto | Traduzem a severidade real do problema em números auditáveis |
 
@@ -318,7 +309,7 @@ Nível 5. Além da gambiarra, tem orçamento comprometido ou facilmente acessív
 
 Jamais pergunte "você acha que um aplicativo que faz X seria útil?": perguntas hipotéticas sobre o futuro induzem respostas gentis sem valor preditivo, enquanto o Nível 4 de dor se comprova por gambiarra ativa e o Nível 5 por gasto ou orçamento já existentes.
 
-Nunca pergunte "você pagaria R$ 99 por isso?": perguntas hipotéticas de preço fabricam promessas vazias. Investigue quanto a pessoa **já gasta hoje** (em tempo, retrabalho ou ferramentas) e classifique o *Pain Level* real.
+Nunca pergunte "você pagaria R$ 99 por isso?": perguntas hipotéticas de preço fabricam promessas vazias. Investigue quanto a pessoa já gasta hoje (em tempo, retrabalho ou ferramentas) e classifique o *Pain Level* real.
 
 Nunca abra a conversa dizendo "tive uma ideia de negócio que faz X": esse preâmbulo aciona a polidez social do interlocutor e contamina os dados.
 
@@ -356,7 +347,7 @@ Faça sínteses parciais a cada lote de cinco entrevistas para calibrar o roteir
 > Enquanto o Mom Test captura incidentes isolados, o [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 8: CUSTOMER SUCCESS (CS) E CUSTOMER EXPERIENCE (CX): DA JORNADA À RETENÇÃO SUSTENTÁVEL E NRR ACIMA DE 100%|Capítulo 8: Customer Experience (Vol. 4)]] oferece a visão de jornada completa, do momento de consciência do problema ao pós-resolução, incluindo métricas de NPS e churn preditivo. Usar a jornada como mapa mental durante a síntese das entrevistas ajuda a localizar em qual etapa a dor é mais aguda.
 
 > [!tip] Da síntese ao Customer Profile (Value Proposition Canvas)
-> Ao sintetizar as entrevistas, o **Customer Profile** do [[#Canvas: Value Proposition Canvas (Alexander Osterwalder, 2014)|Canvas: Value Proposition Canvas (Alexander Osterwalder, 2014)]], Jobs (o que o cliente está tentando fazer), Pains (frustrações no caminho), Gains (resultados desejados), é o frame visual exato para organizar o que as entrevistas Mom Test capturaram. Use depois da síntese qualitativa para preparar a [[#FASE 5: PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY)|Fase 5]] (JTBD).
+> Ao sintetizar as entrevistas, o Customer Profile do [[#Canvas: Value Proposition Canvas (Alexander Osterwalder, 2014)|Canvas: Value Proposition Canvas (Alexander Osterwalder, 2014)]], Jobs (o que o cliente está tentando fazer), Pains (frustrações no caminho), Gains (resultados desejados), é o frame visual exato para organizar o que as entrevistas Mom Test capturaram. Use depois da síntese qualitativa para preparar a [[#FASE 5: PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY)|Fase 5]] (JTBD).
 
 #### Passo 8: Separe sintoma de causa raiz na análise das falas
 
@@ -429,7 +420,7 @@ O [[#Template: Síntese de Rodada de Entrevistas (decisão de avanço)|Template:
 
 ### O roteiro aplicado: o caso ilustrativo PadariaPro
 
-Para ver o roteiro e a tabela de triagem funcionando juntos, acompanhe o caso didático do **PadariaPro**, uma hipótese de software de controle de compras e validade de insumos para pequenas redes de padarias artesanais em São Paulo.
+Para ver o roteiro e a tabela de triagem funcionando juntos, acompanhe o caso didático do PadariaPro, uma hipótese de software de controle de compras e validade de insumos para pequenas redes de padarias artesanais em São Paulo.
 
 Abertura (dois minutos). "Oi, [Nome]. Obrigado pelo tempo. Antes de começar: não estou aqui para te vender nada. Estou pesquisando como padarias pequenas gerenciam compras e estoque, porque quero entender se tem um problema real antes de construir uma solução. Vou fazer umas perguntas abertas, sem respostas certas. A gravação fica privada, só para eu transcrever depois. Tudo bem?"
 
@@ -445,7 +436,7 @@ Análise depois de dez entrevistas:
 
 | Entrevistado (nº de lojas) | Perda financeira/mês | Método atual | Pain Level (1-5) | Evidência de gasto ou gambiarra |
 |---|---|---|---|---|
-| Padaria A (Pinheiros, 2 lojas) | R$ 3.500 | Caderno e planilha | Nível 4 | Sem consultoria paga; montou planilha própria de controle |
+| Padaria A (Pinheiros, 2 lojas) | R$ 3.500 | Caderno e planilha | Nível 4 | Sem consultoria paga, montou planilha própria de controle |
 | Padaria B (Vila Madalena, 4 lojas) | R$ 8.000 | Planilha | Nível 5 | Pagou R$ 2.000 a consultor de estoque |
 | Padaria C (Moema, 1 loja) | R$ 2.000 | Sistema antigo | Nível 2 | Paga R$ 150/mês em módulo fiscal básico |
 | . | | | | |
@@ -510,12 +501,11 @@ Você concluiu a Fase 4 quando todos os critérios abaixo estão cumpridos.
 
 **8. Confundir curiosidade intelectual com dor que abre orçamento.** Muitos profissionais gostam de comentar ineficiências do setor, mas só abrem a carteira para atacar problemas que travam metas, geram multa ou consomem horas caras da equipe.
 
-
 ---
 
 ### O Espelho da Fase 4: você está ouvindo feridas ou colecionando elogios?
 
-Seis semanas depois daquele café na Avenida Paulista, **Lucas e Marina** fecharam a Síntese de Rodada das 18 entrevistas com distribuidoras de autopeças e materiais elétricos. Ao guardar os slides na gaveta e interrogar apenas o fechamento da última sexta-feira, encontraram seis diretores financeiros em *Pain Level* 4 ou 5: dois deles já pagavam um analista exclusivo só para cruzar arquivos de retorno bancário com notas fiscais canceladas no braço. Já o sétimo diretor financeiro, aquele do elogio entusiasmado na Paulista, ficou no Nível 2 da escala: achava a ideia simpática, mas emitia poucos boletos e resolvia tudo em vinte minutos. Com o Mapa de Problemas pronto, a dupla descartou as distribuidoras pequenas, focou nas operações acima de dois mil boletos mensais e assinou o primeiro piloto pago do serviço de conciliação antes de abrir o editor de código.
+Seis semanas depois daquele café na Avenida Paulista, Lucas e Marina fecharam a Síntese de Rodada das 18 entrevistas com distribuidoras de autopeças e materiais elétricos. Ao guardar os slides na gaveta e interrogar apenas o fechamento da última sexta-feira, encontraram seis diretores financeiros em *Pain Level* 4 ou 5: dois deles já pagavam um analista exclusivo só para cruzar arquivos de retorno bancário com notas fiscais canceladas no braço. Já o sétimo diretor financeiro, aquele do elogio entusiasmado na Paulista, ficou no Nível 2 da escala: achava a ideia simpática, mas emitia poucos boletos e resolvia tudo em vinte minutos. Com o Mapa de Problemas pronto, a dupla descartou as distribuidoras pequenas, focou nas operações acima de dois mil boletos mensais e assinou o primeiro piloto pago do serviço de conciliação antes de abrir o editor de código.
 
 **O Espelho (autodiagnóstico):**
 1. Nas suas últimas dez conversas com potenciais clientes, em quantas você falou da sua solução? (Se falou em mais de duas, refaça o roteiro. Lembre-se da pergunta de Marina: quantas cartas de intenção ou boletos reais você trouxe na mochila?)
@@ -555,11 +545,11 @@ Transforme a prospecção de descoberta em rotina semanal: toda segunda-feira, a
 
 ##### De onde vem a ferramenta (e por que sobreviveu ao filtro do tempo)
 
-Rob Fitzpatrick, empreendedor que passou pela Y Combinator em 2007 e fundador da consultoria de educação empreendedora Fundador Centric, publicou *The Mom Test* em 2013, um guia direto de cerca de 130 páginas. O título nasce da regra central: **até a sua mãe vai dizer que a sua ideia é boa se você perguntar do jeito errado**. O método ensina a formular perguntas ancoradas no passado concreto que extraem a verdade mesmo de interlocutores que querem agradar.
+Rob Fitzpatrick, empreendedor que passou pela Y Combinator em 2007 e fundador da consultoria de educação empreendedora Fundador Centric, publicou *The Mom Test* em 2013, um guia direto de cerca de 130 páginas. O título nasce da regra central: até a sua mãe vai dizer que a sua ideia é boa se você perguntar do jeito errado. O método ensina a formular perguntas ancoradas no passado concreto que extraem a verdade mesmo de interlocutores que querem agradar.
 
 ##### A mecânica central (sem jargão)
 
-Roteiro prático de entrevista desenhado para testar problemas reais de negócio **sem induzir respostas de mera cortesia** por parte do cliente, consolidado por Rob Fitzpatrick a partir de centenas de rodadas de descoberta em startups.
+Roteiro prático de entrevista desenhado para testar problemas reais de negócio sem induzir respostas de mera cortesia por parte do cliente, consolidado por Rob Fitzpatrick a partir de centenas de rodadas de descoberta em startups.
 
 ##### As regras do jogo
 
@@ -694,23 +684,23 @@ Nas entrevistas em profundidade (IDIs), evite seis erros que empobrecem os dados
 
 ---
 
-#### Framework: Laddering Technique / Means-End Chain (Gutman, 1982; Reynolds e Gutman, 1988)
+#### Framework: Laddering Technique / Means-End Chain (Gutman, 1982, Reynolds e Gutman, 1988)
 
 ##### De onde vem a ferramenta (e por que sobreviveu ao filtro do tempo)
 
-A teoria do means-end chain foi formalizada por Jonathan Gutman em "A Means-End Chain Model Based on Consumer Categorization Processes" (*Journal of Marketing*, 1982), com trabalho prévio com Reynolds em 1979. A **técnica de laddering** propriamente dita, a metodologia de entrevista em profundidade e o hierarchical value map como output analítico, foi formalizada por Reynolds & Gutman em "Laddering Theory, Method, Analysis, and Interpretation" em 1988. Hoje é padrão em pesquisa de marca, posicionamento, e UX research profunda.
+A teoria do means-end chain foi formalizada por Jonathan Gutman em "A Means-End Chain Model Based on Consumer Categorization Processes" (*Journal of Marketing*, 1982), com trabalho prévio com Reynolds em 1979. A técnica de laddering propriamente dita, a metodologia de entrevista em profundidade e o hierarchical value map como output analítico, foi formalizada por Reynolds & Gutman em "Laddering Theory, Method, Analysis, and Interpretation" em 1988. Hoje é padrão em pesquisa de marca, posicionamento, e UX research profunda.
 
 ##### A mecânica central (sem jargão)
 
-Técnica de entrevista que conecta **atributos** declarados de um produto aos **benefícios funcionais** que geram, até chegar em **valores pessoais fundamentais** que sustentam a preferência. Revela motivações profundas que cliente **não articula** de primeira.
+Técnica de entrevista que conecta atributos declarados de um produto aos benefícios funcionais que geram, até chegar em valores pessoais fundamentais que sustentam a preferência. Revela motivações profundas que cliente não articula de primeira.
 
 ##### Princípios / estrutura: Means-End Chain
 
 Cadeia em 3 níveis:
 
-1. Atributos (concreto): features do produto. Ex.: "tem integração com WhatsApp".
-2. Consequências/Benefícios (intermediário): o que atributo permite. Ex.: "resolvo mais rápido com clientes".
-3. Valores pessoais (abstrato): por que benefício importa. Ex.: "eu quero me sentir em controle do meu negócio" ou "quero ter mais tempo com minha família".
+1. Atributos (concreto): features do produto, por exemplo: "tem integração com WhatsApp".
+2. Consequências/Benefícios (intermediário): o que atributo permite, por exemplo: "resolvo mais rápido com clientes".
+3. Valores pessoais (abstrato): por que benefício importa, por exemplo: "eu quero me sentir em controle do meu negócio" ou "quero ter mais tempo com minha família".
 
 Técnica do laddering: pergunta "por que isso importa pra você?" sucessivamente, subindo a escada (ladder) de concreto para abstrato.
 
@@ -759,11 +749,11 @@ Ao conduzir entrevistas de *laddering*, cuide de cinco armadilhas: (1) parar no 
 
 ##### De onde vem a ferramenta (e por que sobreviveu ao filtro do tempo)
 
-Barney Glaser (Columbia) e Anselm Strauss (UCSF) publicaram *The Discovery of Grounded Theory* em 1967, resposta à dominância de sociologia teórica-dedutiva. Tese: teoria deve **emergir dos dados** (ground up), não ser imposta. Método tornou-se padrão em pesquisa qualitativa acadêmica. Versões modernas (Kathy Charmaz, 2006, constructivist GT) atualizam para paradigma contemporâneo.
+Barney Glaser (Columbia) e Anselm Strauss (UCSF) publicaram *The Discovery of Grounded Theory* em 1967, resposta à dominância de sociologia teórica-dedutiva. Tese: teoria deve emergir dos dados (ground up), não ser imposta. Método tornou-se padrão em pesquisa qualitativa acadêmica. Versões modernas (Kathy Charmaz, 2006, constructivist GT) atualizam para paradigma contemporâneo.
 
 ##### A mecânica central (sem jargão)
 
-Método sistemático de **construir teoria a partir de dados qualitativos** através de iteração entre coleta e análise. Diferente de análise "descritiva" (resumo do que foi dito), grounded theory busca **conceitualizar** fenômenos observados.
+Método sistemático de **construir teoria a partir de dados qualitativos** através de iteração entre coleta e análise. Diferente de análise "descritiva" (resumo do que foi dito), grounded theory busca conceitualizar fenômenos observados.
 
 ##### As regras do jogo
 
@@ -773,7 +763,7 @@ Três fases de codificação:
 
 2. Codificação axial (*axial coding*): conectar os agrupamentos iniciais, identificando subcategorias, condições de contexto, gatilhos e estratégias de ação adotadas pelo usuário.
 
-3. Selective coding: integrar ao redor de **categoria core** que explica fenômeno central. Teoria emerge.
+3. Selective coding: integrar ao redor de categoria core que explica fenômeno central. Teoria emerge.
 
 Constant comparative method: comparar cada novo dado com análise prévia, refinar categorias iterativamente.
 
@@ -815,7 +805,7 @@ Dados: 18 entrevistas, 120 min cada, com PMEs que abandonaram em 6 meses.
 - Atrito operacional (migração parcial + falta de tempo + preferência por ferramentas habituais).
 - Dúvida de valor (custo-benefício + "não via retorno" + "complicou mais que resolveu").
 
-Selective coding: categoria core emerge, **"transição parcial e reversível"**. PMEs não abandonam por uma razão, abandonam porque **nunca fizeram transição completa**: mantiveram ferramentas paralelas, usavam software a meio-gás, a dor original não desapareceu porque solução antiga continuou ativa. No momento de crise ou sobrecarga, voltam para o antigo (mais familiar).
+Selective coding: categoria core emerge, "transição parcial e reversível". PMEs não abandonam por uma razão, abandonam porque nunca fizeram transição completa: mantiveram ferramentas paralelas, usavam software a meio-gás, a dor original não desapareceu porque solução antiga continuou ativa. No momento de crise ou sobrecarga, voltam para o antigo (mais familiar).
 
 Hipótese emergente (a testar): nas 18 entrevistas, o abandono em PMEs concentrou-se nas contas em que a migração ficou pela metade e a equipe manteve a planilha antiga em paralelo. Próximo experimento: testar um onboarding com importação assistida dos dados históricos nos primeiros sete dias.
 
@@ -959,11 +949,11 @@ No Diagrama de Afinidade (Método KJ), evite quatro erros de condução: abrir d
 
 ##### Por que este quadro visual foi criado
 
-O Empathy Map foi criado por Dave Gray e a equipe da consultoria XPLANE em torno de 2009 e popularizado no livro *Gamestorming* (Gray, Brown & Macanufo, 2010). Surgiu como ferramenta de design thinking para deslocar conversas sobre cliente do registro demográfico ("nossa persona é mulher, 30-40 anos, classe B") para o registro **comportamental e emocional** ("o que ela vê quando abre o aplicativo de banco no celular pela manhã, antes do café?"). A motivação foi a observação de que personas tradicionais produziam descrições caricatas que não geravam empatia real: Empathy Map força sair do "quem é" e entrar no "como vive".
+O Empathy Map foi criado por Dave Gray e a equipe da consultoria XPLANE em torno de 2009 e popularizado no livro *Gamestorming* (Gray, Brown & Macanufo, 2010). Surgiu como ferramenta de design thinking para deslocar conversas sobre cliente do registro demográfico ("nossa persona é mulher, 30-40 anos, classe B") para o registro comportamental e emocional ("o que ela vê quando abre o aplicativo de banco no celular pela manhã, antes do café?"). A motivação foi a observação de que personas tradicionais produziam descrições caricatas que não geravam empatia real: Empathy Map força sair do "quem é" e entrar no "como vive".
 
 ##### A anatomia visual de uma página
 
-Tela visual em forma de cruz com **seis quadrantes** organizados ao redor de uma pessoa (avatar central):
+Tela visual em forma de cruz com seis quadrantes organizados ao redor de uma pessoa (avatar central):
 
 - **Pensa & Sente** (centro/cima): o que ocupa a cabeça dessa pessoa? O que a preocupa? O que a entusiasma?
 - **Vê** (esquerda): o que ela observa no ambiente, clientes, concorrentes, mercado, mídia?
@@ -993,11 +983,11 @@ flowchart TB
     Top --> Mid --> FF --> Bot
 ```
 
-A tese é que o comportamento humano nasce da tensão entre **estímulos externos** (o que a pessoa vê e ouve), **estados internos** (o que pensa e sente) e **polos motivacionais** (dores e ganhos). Mapear os seis blocos revela contradições: a pessoa diz X em público e faz Y na rotina, ouve A do chefe e é movida por B em segredo. É nessas contradições que um produto novo encontra adoção.
+A tese é que o comportamento humano nasce da tensão entre estímulos externos (o que a pessoa vê e ouve), estados internos (o que pensa e sente) e polos motivacionais (dores e ganhos). Mapear os seis blocos revela contradições: a pessoa diz X em público e faz Y na rotina, ouve A do chefe e é movida por B em segredo. É nessas contradições que um produto novo encontra adoção.
 
 ##### O momento exato de colocar este canvas na parede
 
-Use o *Empathy Map* durante a Fase 4 (descoberta do problema) como complemento ao *Mom Test*: entrevistas de problema capturam comportamento passado, enquanto o *Empathy Map* organiza **o universo emocional e contextual** que cerca esse comportamento. Use também na [[#FASE 5: PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY)|Fase 5 (pesquisa com usuários)]] para construir o *Customer Profile* do [[#Canvas: Value Proposition Canvas (Alexander Osterwalder, 2014)|Value Proposition Canvas]] com profundidade emocional. Em times de produto maduros, revise o mapa de cada persona principal a cada 12 meses.
+Use o *Empathy Map* durante a Fase 4 (descoberta do problema) como complemento ao *Mom Test*: entrevistas de problema capturam comportamento passado, enquanto o *Empathy Map* organiza o universo emocional e contextual que cerca esse comportamento. Use também na [[#FASE 5: PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY)|Fase 5 (pesquisa com usuários)]] para construir o *Customer Profile* do [[#Canvas: Value Proposition Canvas (Alexander Osterwalder, 2014)|Value Proposition Canvas]] com profundidade emocional. Em times de produto maduros, revise o mapa de cada persona principal a cada 12 meses.
 
 ##### Princípios práticos para preencher sem se enganar
 
@@ -1005,7 +995,7 @@ A tese de Gray é que **empatia é capacidade construída, não dom**. Para cons
 
 ##### Passo a passo na parede da sala (roteiro de oficina colaborativa)
 
-Reúna os fundadores e, se já houver operação ativa, quem atende diretamente o cliente (2 a 5 pessoas no total), logo após consolidar a síntese do Passo 7. Tempo: 90 a 120 minutos. **Pré-requisito inegociável**: pesquisa de campo concluída, com pelo menos 5 a 10 entrevistas qualitativas e observação direta. Sem dados reais de campo, o Mapa de Empatia vira apenas suposição compartilhada.
+Reúna os fundadores e, se já houver operação ativa, quem atende diretamente o cliente (2 a 5 pessoas no total), logo após consolidar a síntese do Passo 7. Tempo: 90 a 120 minutos. Pré-requisito inegociável: pesquisa de campo concluída, com pelo menos 5 a 10 entrevistas qualitativas e observação direta. Sem dados reais de campo, o Mapa de Empatia vira apenas suposição compartilhada.
 
 1. **Escolha uma persona específica**: não "nossos clientes em geral", mas "Sueli, dona de padaria artesanal com três lojas na Zona Sul de São Paulo". O *Empathy Map* é feito por pessoa concreta, não por segmento abstrato.
 2. **Vê**: leia verbatim de entrevistas e observação. O que essa pessoa vê no celular pela manhã? No trabalho? Em casa? Que ambiente físico habita? Que mídia consome?
@@ -1019,7 +1009,7 @@ Tempo de execução: 90 a 120 minutos para a primeira versão consolidada, com r
 
 ##### Exemplo brasileiro preenchido: aplicativo de entregas em São Paulo, persona "Carlos, motoboy parceiro" (reconstrução didática)
 
-Para ilustrar o uso em plataformas de dois lados, considere o caso ilustrativo de um aplicativo de entregas urbanas em São Paulo que construiu o Mapa de Empatia de **Carlos** (32 anos, motoboy profissional que roda das 7h às 19h na capital paulista) em vez de olhar apenas para o comprador final, usando a observação de rua para redesenhar a experiência do entregador:
+Para ilustrar o uso em plataformas de dois lados, considere o caso ilustrativo de um aplicativo de entregas urbanas em São Paulo que construiu o Mapa de Empatia de Carlos (32 anos, motoboy profissional que roda das 7h às 19h na capital paulista) em vez de olhar apenas para o comprador final, usando a observação de rua para redesenhar a experiência do entregador:
 
 | Quadrante | Conteúdo |
 |---|---|
@@ -1055,11 +1045,11 @@ O quadrante "Vê" mostrou que o aplicativo disputava atenção na mesma tela com
 > [!important] Disciplina central
 > Conduza a conversa **sem apresentar a sua proposta de produto**: concentre-se nas rotinas e escolhas passadas do entrevistado para colher relatos sem viés de cortesia.
 
-Este template tem duas partes. A **Parte A** é o roteiro para consultar *durante* a conversa (deixe aberto na tela ou imprima). A **Parte B** é a síntese para preencher *depois*: idealmente nas 24h seguintes, enquanto a memória está fresca. As duas formam um único artefato: roteiro sem síntese vira entrevista perdida. Síntese sem roteiro vira interpretação livre. Use as duas em todas as entrevistas da rodada.
+Este template tem duas partes. A Parte A é o roteiro para consultar *durante* a conversa (deixe aberto na tela ou imprima). A Parte B é a síntese para preencher *depois*: idealmente nas 24h seguintes, enquanto a memória está fresca. As duas formam um único artefato: roteiro sem síntese vira entrevista perdida. Síntese sem roteiro vira interpretação livre. Use as duas em todas as entrevistas da rodada.
 
 ##### Parte A: Roteiro da Entrevista (uso durante a conversa)
 
-**Duração alvo:** 30-45 min · **Balanço de fala:** o entrevistado fala a maior parte do tempo. Se você se pegar falando mais que ele em qualquer trecho de 5 minutos, volte a fazer perguntas abertas.
+**Duração alvo:** 30-45 min · Balanço de fala: o entrevistado fala a maior parte do tempo. Se você se pegar falando mais que ele em qualquer trecho de 5 minutos, volte a fazer perguntas abertas.
 
 **Abertura (2 min)**
 
@@ -1087,7 +1077,7 @@ Para cada problema que a pessoa citar espontaneamente:
 - Quando foi a última vez que aconteceu?
 - O que você fez?
 - Quanto tempo / dinheiro isso custou?
-- O que acontece se você simplesmente **não** resolver? *(mapeia escalação)*
+- O que acontece se você simplesmente não resolver? *(mapeia escalação)*
 
 **Tentativas de solução (5 min)**
 
@@ -1140,7 +1130,7 @@ Para cada problema que a pessoa citar espontaneamente:
 | **Vínculo pessoal com o entrevistador?** | `[ ] Não  [ ] Sim`: *se sim: atenção a viés de cortesia nas respostas.* |
 | **Aderente ao ICP hipotético?** | `[ ] Sim  [ ] Parcial  [ ] Não` |
 
-> *Se "Não", a entrevista vale como aprendizado mas **não conta** para o denominador de validação (regra da Fase 4).*
+> *Se "Não", a entrevista vale como aprendizado mas não conta para o denominador de validação (regra da Fase 4).*
 
 ###### 1. Contexto e rotina
 
@@ -1164,7 +1154,7 @@ Para cada problema que a pessoa citar espontaneamente:
 
 ###### 2. Problemas mencionados (o que foi dito: não o que você interpretou)
 
-> *Para cada problema que emergiu na conversa, preencha um bloco. **Decisivo:** documente apenas o que o entrevistado disse espontaneamente ou em resposta a pergunta aberta. Problemas que você "provocou" com pergunta tendenciosa valem zero.*
+> *Para cada problema que emergiu na conversa, preencha um bloco. Decisivo: documente apenas o que o entrevistado disse espontaneamente ou em resposta a pergunta aberta. Problemas que você "provocou" com pergunta tendenciosa valem zero.*
 
 **Problema A: `[título curto, nas palavras do entrevistado se possível]`**
 
@@ -1195,7 +1185,7 @@ Para cada problema que a pessoa citar espontaneamente:
 
 ###### 4. Vocabulário do cliente
 
-> *Anote as palavras e expressões **exatas** que a pessoa usou para descrever o problema, a rotina e as soluções atuais. Não parafraseie. Esse vocabulário vai direto para o marketing, para a landing page e para o roteiro de vendas depois: se você usa a linguagem do cliente, ele se reconhece. Se você usa a sua, ele ignora.*
+> *Anote as palavras e expressões exatas que a pessoa usou para descrever o problema, a rotina e as soluções atuais. Não parafraseie. Esse vocabulário vai direto para o marketing, para a landing page e para o roteiro de vendas depois: se você usa a linguagem do cliente, ele se reconhece. Se você usa a sua, ele ignora.*
 
 | Como a pessoa chama | Contexto em que usou |
 |---|---|
@@ -1224,11 +1214,11 @@ Para cada problema que a pessoa citar espontaneamente:
 
 - [ ] **Nível 1**: Tem o problema, mas não sabe que tem.
 - [ ] **Nível 2**: Sabe que tem, mas tolera. Não vai pagar sozinho.
-- [ ] **Nível 3**: Está ativamente procurando solução. Lead quente.
+- [ ] **Nível 3**: Está ativamente procurando uma solução no mercado, com prazo definido. Contato comercial quente.
 - [ ] **Nível 4**: Já improvisou gambiarra (planilha Frankenstein, processo manual, ferramenta adaptada). Forte evidência de que pagaria.
 - [ ] **Nível 5**: Tem orçamento comprometido ou facilmente acessível para comprar solução. Cliente ideal.
 
-> *O Nível 5 verifica-se sempre por **evidência indireta de gasto passado ou orçamento alocado**, nunca por pergunta hipotética sobre disposição futura a pagar (que induz a resposta e viola as regras da Parte A). Sinais válidos: relato espontâneo de valor já desembolsado, contratação de pessoal para contornar o problema, mensalidade paga em ferramenta substituta ou rubrica já aprovada no orçamento anual.*
+> *O Nível 5 verifica-se sempre por evidência indireta de gasto passado ou orçamento alocado, nunca por pergunta hipotética sobre disposição futura a pagar (que induz a resposta e viola as regras da Parte A). Sinais válidos: relato espontâneo de valor já desembolsado, contratação de pessoal para contornar o problema, mensalidade paga em ferramenta substituta ou rubrica já aprovada no orçamento anual.*
 
 **Justificativa da classificação:** `[1-2 linhas com a evidência direta, não interpretação, que sustenta a nota.]`
 
@@ -1251,7 +1241,7 @@ Para cada problema que a pessoa citar espontaneamente:
 - [ ] Filtrei o que ouvi para confirmar tese que eu já tinha?
 - [ ] Tratei uma fala apaixonada como equivalente a um padrão de 10 entrevistas?
 
-> *Cada marca acima contamina parte da evidência. Anote **quais achados ficam sob suspeita** em função dessas contaminações:* `[preencher]`
+> *Cada marca acima contamina parte da evidência. Anote quais achados ficam sob suspeita em função dessas contaminações:* `[preencher]`
 
 ###### 9. Refinamento do ICP
 
@@ -1287,7 +1277,7 @@ Para cada problema que a pessoa citar espontaneamente:
 
 ###### 12. Próximos passos de investigação
 
-> *Distintos de "ações internas de produto". Aqui registramos **perguntas novas que esta entrevista gerou** e que informam a próxima entrevista, uma pesquisa desk, ou um dado a buscar externamente. É o espírito iterativo do discovery: cada conversa afina a próxima.*
+> *Distintos de "ações internas de produto". Aqui registramos perguntas novas que esta entrevista gerou e que informam a próxima entrevista, uma pesquisa desk, ou um dado a buscar externamente. É o espírito iterativo do discovery: cada conversa afina a próxima.*
 
 **Perguntas a incluir em próximas entrevistas.**
 
@@ -1326,7 +1316,7 @@ Use quando precisa mapear setor, dinâmicas competitivas, pontos cegos e tendên
 
 ##### Parte A: Roteiro da Conversa (uso durante)
 
-**Duração alvo:** 45-60 min · **Balanço de fala:** o especialista fala mais que você, mas aqui é legítimo intervir para confrontar e pedir exemplos específicos.
+**Duração alvo:** 45-60 min · Balanço de fala: o especialista fala mais que você, mas aqui é legítimo intervir para confrontar e pedir exemplos específicos.
 
 **Abertura (3 min)**
 
@@ -1385,7 +1375,7 @@ Use quando precisa mapear setor, dinâmicas competitivas, pontos cegos e tendên
 | **Formato** | `[ ] Remoto  [ ] Presencial` |
 | **Entrevistador(es)** | `[Nome]` |
 | **Gravação / transcrição** | `[link]` |
-| **Conflito de interesse?** | `[ ] Nenhum  [ ] Consultor pago  [ ] Investidor no setor  [ ] Atua em empresa concorrente (atenção: restrinja a conversa a informações públicas de mercado; nunca solicite segredos de negócio, preços internos ou listas de clientes, sob pena de concorrência desleal na Lei 9.279/1996, art. 195)  [ ] Outro]`: *descrever* |
+| **Conflito de interesse?** | `[ ] Nenhum  [ ] Consultor pago  [ ] Investidor no setor  [ ] Atua em empresa concorrente (atenção: restrinja a conversa a informações públicas de mercado, nunca solicite segredos de negócio, preços internos ou listas de clientes, sob pena de concorrência desleal na Lei 9.279/1996, art. 195)  [ ] Outro]`: *descrever* |
 
 ###### Perfil do Especialista
 
@@ -1466,7 +1456,7 @@ Premissas que a pessoa identificou como *decisivas e não triviais*:
 
 ###### 6. Hierarquia de sinais da conversa
 
-> *O especialista mistura cinco tipos de afirmação em qualquer conversa, e elas **não têm o mesmo peso**. Classificar o que ouvimos força leitura crítica pós-conversa. Quanto mais alto na tabela, mais peso na decisão.*
+> *O especialista mistura cinco tipos de afirmação em qualquer conversa, e elas não têm o mesmo peso. Classificar o que ouvimos força leitura crítica pós-conversa. Quanto mais alto na tabela, mais peso na decisão.*
 
 | Tipo de sinal | Peso | O que veio nesta conversa? |
 |---|---|---|
@@ -1581,7 +1571,7 @@ A **Síntese de Rodada de Entrevistas** é o entregável da Fase 4 que sustenta 
 
 ##### Hipótese em teste (ao iniciar a rodada)
 
-> *Registre como a hipótese estava formulada **quando a rodada começou**, não como está hoje. O que muda entre o início e o fim é parte do aprendizado.*
+> *Registre como a hipótese estava formulada quando a rodada começou, não como está hoje. O que muda entre o início e o fim é parte do aprendizado.*
 
 **Hipótese de problema.** `[preencher]`
 
@@ -1612,7 +1602,7 @@ A **Síntese de Rodada de Entrevistas** é o entregável da Fase 4 que sustenta 
 
 ###### 1. Distribuição de Pain Level (só entrevistas aderentes ao ICP)
 
-> *Esta é a tabela central da consolidação. Critério do livro para avanço: **≥5 entrevistas em Pain Level 4 ou 5**. Se não chegou a essa marca, a hipótese de problema ainda não está validada, independentemente do que "a gente sentiu" nas conversas.*
+> *Esta é a tabela central da consolidação. Critério do livro para avanço: ≥5 entrevistas em Pain Level 4 ou 5. Se não chegou a essa marca, a hipótese de problema ainda não está validada, independentemente do que "a gente sentiu" nas conversas.*
 
 | Pain Level | Nº de entrevistas | % do total aderente |
 |---|---|---|
@@ -1799,13 +1789,9 @@ A **Síntese de Rodada de Entrevistas** é o entregável da Fase 4 que sustenta 
 
 ### Fechamento da Fase 4: da conversa de café às evidências de dor aguda no campo
 
-Com a Síntese de Rodada preenchida e o Mapa de Problemas validado em campo (como fizeram Lucas e Marina ao encerrar as 18 entrevistas com seis diretores financeiros em *Pain Level* 4 ou 5 e o primeiro piloto pago de conciliação assinado), você deixa os palpites de cafeteria para trás e registra uma das quatro decisões do template: **perseverar** no recorte validado, **pivotar o problema** dentro do mesmo cliente, **pivotar o segmento de cliente** para onde a dor é mais aguda ou **abandonar** a tese economizando meses de caixa.
+Com a Síntese de Rodada preenchida e o Mapa de Problemas validado em campo (como fizeram Lucas e Marina ao encerrar as 18 entrevistas com seis diretores financeiros em *Pain Level* 4 ou 5 e o primeiro piloto pago de conciliação assinado), você deixa os palpites de cafeteria para trás e registra uma das quatro decisões do template: perseverar no recorte validado, pivotar o problema dentro do mesmo cliente, pivotar o segmento de cliente para onde a dor é mais aguda ou abandonar a tese economizando meses de caixa.
 
-
-
-
-
-Para quem tomou a decisão de perseverar com o **Mapa de Problemas** sustentado pela **Síntese de Rodada**, o próximo passo é a **[[#FASE 5: PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY)|Fase 5: Pesquisa com Usuários (Customer Discovery)]]**, onde acompanharemos o cliente em seu contexto real de trabalho e dissecaremos a linha do tempo da compra com *Jobs to Be Done*.
+Para quem tomou a decisão de perseverar com o Mapa de Problemas sustentado pela Síntese de Rodada, o próximo passo é a [[#FASE 5: PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY)|Fase 5: Pesquisa com Usuários (Customer Discovery)]], onde acompanharemos o cliente em seu contexto real de trabalho e dissecaremos a linha do tempo da compra com *Jobs to Be Done*.
 
 ---
 
@@ -1813,15 +1799,15 @@ Para quem tomou a decisão de perseverar com o **Mapa de Problemas** sustentado 
 
 ### O trabalho escondido do produto e a anatomia da gambiarra real
 
-Na clínica odontológica que a **Dra. Camila** montou na Savassi, em Belo Horizonte, ela cismou que seus pacientes buscavam "protocolos avançados de reabilitação oral guiada". Mesmo tendo prometido não repetir o erro do equipamento importado que ficara subutilizado no ano anterior, ela investiu R$ 85 mil em um sistema suíço de escaneamento intraoral computadorizado e estampou termos científicos em todo o site. No fim do mês, a agenda da manhã não chegava à metade da capacidade e um terço dos orçamentos apresentados à tarde não se convertia em tratamento.
+Na clínica odontológica que a Dra. Camila montou na Savassi, em Belo Horizonte, ela cismou que seus pacientes buscavam "protocolos avançados de reabilitação oral guiada". Mesmo tendo prometido não repetir o erro do equipamento importado que ficara subutilizado no ano anterior, ela investiu R$ 85 mil em um sistema suíço de escaneamento intraoral computadorizado e estampou termos científicos em todo o site. No fim do mês, a agenda da manhã não chegava à metade da capacidade e um terço dos orçamentos apresentados à tarde não se convertia em tratamento.
 
 Intrigada, Camila resolveu sentar na recepção por três dias e conversar com os dez pacientes mais fiéis: não sobre implantes ou escaneamento computadorizado, mas sobre o dia exato em que decidiram agendar a primeira consulta. Dona Helena, de 68 anos, entregou a verdade em uma frase:
 
 "Doutora, eu não sei o que é reabilitação oral guiada. Eu vim porque minha neta casa em março e eu não queria sair de novo nas fotos da família com a mão na frente da boca."
 
-Naquele instante, Camila entendeu o que Theodore Levitt resumiu na imagem da furadeira (em *The Marketing Imagination*, 1983) e que Clayton Christensen e Bob Moesta transformaram em método de pesquisa: ninguém compra uma furadeira de um quarto de polegada. As pessoas compram o furo de um quarto de polegada na parede. Quando você olha apenas para os dados demográficos ("mulher, 68 anos, classe B, Belo Horizonte"), cai na **Cegueira Demográfica do Especialista** (armadilha que voltaremos a combater ao construir personas no Passo 6 e no autodiagnóstico final desta fase): tratar o cliente como uma linha de planilha do IBGE em vez de um ser humano tentando fazer progresso contra uma angústia real.
+Naquele instante, Camila entendeu o que Theodore Levitt resumiu na imagem da furadeira (em *The Marketing Imagination*, 1983) e que Clayton Christensen e Bob Moesta transformaram em método de pesquisa: ninguém compra uma furadeira de um quarto de polegada. As pessoas compram o furo de um quarto de polegada na parede. Quando você olha apenas para os dados demográficos ("mulher, 68 anos, classe B, Belo Horizonte"), cai na Cegueira Demográfica do Especialista (armadilha que voltaremos a combater ao construir personas no Passo 6 e no autodiagnóstico final desta fase): tratar o cliente como uma linha de planilha do IBGE em vez de um ser humano tentando fazer progresso contra uma angústia real.
 
-O concorrente mais perigoso da clínica de Camila não era o consultório vizinho na Savassi: era a inércia de pacientes como Dona Helena, que adiou o tratamento por dois anos usando analgésico por conta própria, mastigando só de um lado e escondendo o sorriso com a mão nas festas. No mundo B2B, essa mesma inércia se esconde atrás da planilha travada no Excel, do grupo improvisado no WhatsApp ou do caderno de anotações na gaveta. Na Fase 5, sua missão é mapear a linha do tempo da decisão e descobrir qual **trabalho (*job*)** o cliente está contratando você para realizar.
+O concorrente mais perigoso da clínica de Camila não era o consultório vizinho na Savassi, mas sim a inércia de pacientes como Dona Helena, que adiou o tratamento por dois anos usando analgésico por conta própria, mastigando só de um lado e escondendo o sorriso com a mão nas festas. No mundo B2B, essa mesma inércia se esconde atrás da planilha travada no Excel, do grupo improvisado no WhatsApp ou do caderno de anotações na gaveta. Na Fase 5, sua missão é mapear a linha do tempo da decisão e descobrir qual **trabalho (*job*)** o cliente está contratando você para realizar.
 
 ---
 
@@ -1856,14 +1842,13 @@ A quarta técnica é a auditoria de artefatos de trabalho: peça para o usuário
 
 #### Passo 3: conduza o mapeamento de jornada
 
-Para cada subgrupo pesquisado, mapeie na linha do tempo a jornada atual do problema em sete dimensões: (1) **Etapa**, nomeando o momento do processo, (2) **Ação**, descrevendo o que a pessoa executa, (3) **Objetivo**, indicando o resultado que busca naquela etapa, (4) **Ferramentas atuais**, listando planilhas, sistemas ou gambiarras usados hoje, (5) **Pontos de dor**, marcando onde ocorrem atrasos, erros ou retrabalho, (6) **Estado emocional**, registrando tensão, alívio ou frustração, e (7) **Oportunidades**, apontando onde uma intervenção gera ganho imediato.
+Para cada subgrupo pesquisado, mapeie na linha do tempo a jornada atual do problema em sete dimensões: (1) Etapa, nomeando o momento do processo, (2) Ação, descrevendo o que a pessoa executa, (3) Objetivo, indicando o resultado que busca naquela etapa, (4) Ferramentas atuais, listando planilhas, sistemas ou gambiarras usados hoje, (5) Pontos de dor, marcando onde ocorrem atrasos, erros ou retrabalho, (6) Estado emocional, registrando tensão, alívio ou frustração, e (7) Oportunidades, apontando onde uma intervenção gera ganho imediato.
 
 > [!important] Comece a jornada antes do ponto óbvio
 > Ao mapear a jornada do problema (antes de existir o seu produto), comece alguns passos antes do momento em que a sua ferramenta entraria: por exemplo, no caso de Fábio, dono de padaria artesanal que conheceremos adiante, a jornada da ruptura começa na conferência visual do depósito de farinha na segunda-feira, passa pelo áudio de alerta do gerente às 7h e pela cotação apressada no WhatsApp e termina na compra emergencial com ágio de 15%.
 
 > [!note] O Mapa da Jornada do Cliente na retenção pós-lançamento
 > O [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 8: CUSTOMER SUCCESS (CS) E CUSTOMER EXPERIENCE (CX): DA JORNADA À RETENÇÃO SUSTENTÁVEL E NRR ACIMA DE 100%|Capítulo 8: Customer Success (CS) e Customer Experience (CX): Da Jornada ao Churn Zero e NRR Positivo (Vol. 4)]] mostra como esta jornada de descoberta evolui para instrumento contínuo de ativação, retenção e expansão depois do lançamento.
-
 
 > [!tip] Customer Journey Canvas e VPC como entregáveis visuais
 > O mapa em sete colunas descrito acima é a base do [[#Canvas: Customer Journey Canvas|Canvas: Customer Journey Canvas]], entregável central da Fase 5 ao lado das Personas e do [[#Canvas: Value Proposition Canvas (Alexander Osterwalder, 2014)|Canvas: Value Proposition Canvas (Alexander Osterwalder, 2014)]] (complementados pelo [[#Canvas: Empathy Map (Dave Gray / XPLANE, 2009)|Canvas: Empathy Map]] elaborado na Fase 4). Para cada subgrupo e persona principal, preencha etapas, ações, objetivos, ferramentas atuais, dores, curva emocional e oportunidades.
@@ -1911,11 +1896,11 @@ flowchart LR
 > "Quero automatizar planilhas" está incompleto. Sem circunstância e sem outcome. Solução que atende JTBD bem formulado tende a ser mais específica e mais defensável.
 
 > [!tip] Switch Interview quando o entrevistado trocou de solução
-> Sempre que um entrevistado da Fase 4 ou da Fase 5 relatar que **trocou recentemente de solução** (abandonou um concorrente, substituiu uma planilha ou mudou de fornecedor), agende uma conversa específica usando o [[#Template: Entrevista com Switcher (JTBD: entrevista de troca)|Template: Entrevista com Switcher (JTBD: entrevista de troca)]]. Criada por Bob Moesta e Chris Spiek, a *Switch Interview* reconstrói a linha do tempo real da compra e mapeia as quatro forças em disputa: empurrão da situação atual (*push*), atração da nova solução (*pull*), ansiedade da troca (*anxiety*) e hábito que prende ao status quo (*habit*).
+> Sempre que um entrevistado da Fase 4 ou da Fase 5 relatar que trocou recentemente de solução (abandonou um concorrente, substituiu uma planilha ou mudou de fornecedor), agende uma conversa específica usando o [[#Template: Entrevista com Switcher (JTBD: entrevista de troca)|Template: Entrevista com Switcher (JTBD: entrevista de troca)]]. Criada por Bob Moesta e Chris Spiek, a *Switch Interview* reconstrói a linha do tempo real da compra e mapeia as quatro forças em disputa: empurrão da situação atual (*push*), atração da nova solução (*pull*), ansiedade da troca (*anxiety*) e hábito que prende ao status quo (*habit*).
 
 #### Passo 5: síntese qualitativa das entrevistas (técnicas formais)
 
-Na etapa de síntese, evite reler anotações de cabeça pinçando apenas as frases convenientes. Aplique as duas ferramentas de codificação já detalhadas no manual da Fase 4 (o [[#Framework: Affinity Diagramming / Método KJ (Jiro Kawakita, anos 1960)|Diagrama de Afinidade / Método KJ]] para agrupar achados em parede com os sócios e a [[#Framework: Thematic Analysis (Virginia Braun e Victoria Clarke, 2006)|Análise Temática]] para codificar transcrições) e acrescente nesta Fase 5 dois controles obrigatórios: a **matriz de saturação por subgrupo** e o **cruzamento entre fala declarada e comportamento observado em campo**.
+Na etapa de síntese, evite reler anotações de cabeça pinçando apenas as frases convenientes. Aplique as duas ferramentas de codificação já detalhadas no manual da Fase 4 (o [[#Framework: Affinity Diagramming / Método KJ (Jiro Kawakita, anos 1960)|Diagrama de Afinidade / Método KJ]] para agrupar achados em parede com os sócios e a [[#Framework: Thematic Analysis (Virginia Braun e Victoria Clarke, 2006)|Análise Temática]] para codificar transcrições) e acrescente nesta Fase 5 dois controles obrigatórios: a matriz de saturação por subgrupo e o cruzamento entre fala declarada e comportamento observado em campo.
 
 ##### Affinity mapping: agrupamento por afinidade
 
@@ -1927,7 +1912,7 @@ Segundo, pool único. Junte todos os post-its de todas as entrevistas em um espa
 
 Terceiro, agrupamento silencioso. A equipe (duas a quatro pessoas) move post-its em silêncio, agrupando por similaridade. Os movimentos podem ser reorganizados. O processo é fluido.
 
-Quarto, nomeação dos grupos. Depois do agrupamento estabilizar, em uma a duas horas, nomeie cada cluster com uma frase curta que captura o tema. Por exemplo: "ansiedade no fechamento do mês"; "retrabalho por falta de integração".
+Quarto, nomeação dos grupos. Depois do agrupamento estabilizar, em uma a duas horas, nomeie cada cluster com uma frase curta que captura o tema. Por exemplo: "ansiedade no fechamento do mês", "retrabalho por falta de integração".
 
 Quinto, priorização dos clusters. Quantos post-its cada cluster tem? Clusters grandes são temas recorrentes. Clusters pequenos mas de alto impacto também importam.
 
@@ -1963,7 +1948,7 @@ Segundo, transforme cada tema em uma a três perguntas de survey quantitativa, a
 Terceiro, compare os resultados. Um tema que apareceu em 70% das entrevistas e em 65% do survey está validado. Um tema presente em 70% das entrevistas, mas em apenas 20% do survey, costuma ser viés da amostra inicial. Já um tema citado em 30% das entrevistas e em 70% do survey indica que você precisa conduzir mais entrevistas com o subgrupo certo.
 
 > [!note] A regra dos cinco usuários, de Nielsen
-> A regra dos cinco usuários (Jakob Nielsen) vale especificamente para testes de usabilidade de interface, onde cinco sessões capturam cerca de 85% dos erros visuais de navegação, e não para descoberta de cliente. Nossa régua prática ao longo da etapa é fixa: **15 a 20 entrevistas de problema** na Fase 4; **10 a 15 sessões de JTBD** (de 60 a 90 minutos) somadas a **pelo menos 5 observações em campo** nesta Fase 5, e **100 a 500 respostas** quando você rodar questionários quantitativos de validação.
+> A regra dos cinco usuários (Jakob Nielsen) vale especificamente para testes de usabilidade de interface, onde cinco sessões capturam cerca de 85% dos erros visuais de navegação, e não para descoberta de cliente. Nossa régua prática ao longo da etapa é fixa: 15 a 20 entrevistas de problema na Fase 4, 10 a 15 sessões de JTBD (de 60 a 90 minutos) somadas a pelo menos 5 observações em campo nesta Fase 5, e 100 a 500 respostas quando você rodar questionários quantitativos de validação.
 
 ##### Diário de pesquisa estruturado
 
@@ -2048,7 +2033,7 @@ flowchart TD
  style Suc fill:#90EE90
 ```
 
-Uma persona operacional se apoia em comportamentos observáveis, nunca em rótulos genéricos de censo: descrever apenas "Homem, 35 a 45 anos, classe B" é cair na **Cegueira Demográfica**, pois não orienta nenhuma decisão de produto. Já especificar "Fábio, dono-operador de padaria artesanal com três lojas na Zona Oeste de São Paulo, que perde a manhã de terça-feira cotando farinha de emergência pelo WhatsApp" entrega um perfil acionável.
+Uma persona operacional se apoia em comportamentos observáveis, nunca em rótulos genéricos de censo: descrever apenas "Homem, 35 a 45 anos, classe B" é cair na Cegueira Demográfica, pois não orienta nenhuma decisão de produto. Já especificar "Fábio, dono-operador de padaria artesanal com três lojas na Zona Oeste de São Paulo, que perde a manhã de terça-feira cotando farinha de emergência pelo WhatsApp" entrega um perfil acionável.
 
 #### Passo 7: Mapeie os três papéis na decisão de compra (em B2B, quem usa raramente é quem paga)
 
@@ -2071,14 +2056,14 @@ Terceiro, identifique quais papéis se sobrepõem e quais permanecem distintos n
 > [!tip] B2C também pode ter mais de uma persona
 > Em B2C, os três papéis costumam se concentrar em uma única pessoa: o próprio consumidor usa, decide e paga. Mas atenção às exceções clássicas: produtos para crianças (os pais decidem e pagam, as crianças usam), saúde e cuidado de idosos (os filhos adultos frequentemente decidem), presentes (o comprador é diferente do destinatário) e benefícios corporativos como o Wellhub/Gympass (o RH contrata, o colaborador usa). Pergunte sempre: quem usa no dia a dia é a mesma pessoa que assina o pagamento? Se não for, você precisa mapear pelo menos duas personas.
 
-O entregável deste passo é caracterizar uma persona com os nove elementos do Passo 6 para cada papel que decide ou opera o produto, resultando em **duas a quatro personas principais** (tipicamente três em negócios B2B e uma a duas em B2C).
+O entregável deste passo é caracterizar uma persona com os nove elementos do Passo 6 para cada papel que decide ou opera o produto, resultando em duas a quatro personas principais (tipicamente três em negócios B2B e uma a duas em B2C).
 
 #### Passo 8: identifique o sub-ICP mais doloroso
 
 > [!note] ICP, sub-ICP e beachhead: três níveis de granularidade do mesmo conceito
 > **ICP** (Ideal Customer Profile): o perfil amplo de cliente potencial, definido na [[#FASE 4: DESCOBERTA DO PROBLEMA|Fase 4]] (ex: "donos de restaurante de 1-3 unidades em capitais brasileiras com delivery próprio").
-> **Sub-ICP** ou **sub-segmento**: recorte mais estreito dentro do ICP onde a dor é mais aguda (ex: "donos que operam sozinhos, sem gerente"), identificado na Fase 4 como sinal inicial e confirmado aqui, na Fase 5.
-> **Beachhead**: o sub-ICP escolhido como **ponto de entrada no mercado**: a praia onde você desembarca. É o sub-ICP mais doloroso operacionalmente filtrado pelos quatro critérios deste passo (urgência, agudeza, recursos, alcançabilidade).
+> **Sub-ICP** ou sub-segmento: recorte mais estreito dentro do ICP onde a dor é mais aguda (ex: "donos que operam sozinhos, sem gerente"), identificado na Fase 4 como sinal inicial e confirmado aqui, na Fase 5.
+> **Beachhead**: o sub-ICP escolhido como ponto de entrada no mercado: a praia onde você desembarca. É o sub-ICP mais doloroso operacionalmente filtrado pelos quatro critérios deste passo (urgência, agudeza, recursos, alcançabilidade).
 >
 > A relação de inclusão é direta: ICP ⊃ sub-ICP ⊃ *beachhead* (cabeça de praia). Todo segmento de entrada (*beachhead*) é um sub-ICP, mas nem todo sub-ICP vira o seu primeiro ataque. Os termos cumprem papéis distintos: o ICP define quem pode vir a ser cliente da empresa, enquanto a *beachhead* define quem será o primeiro grupo que você vai conquistar.
 
@@ -2096,9 +2081,9 @@ Veja a resposta literal de **Fábio**, dono de três padarias artesanais na Zona
 
 > "Foi na terça-feira passada. O Marcos, gerente da loja 2, me mandou áudio no WhatsApp às 7h da manhã: 'A farinha tipo 1 está acabando, só dá para a fornada de hoje.' Eu estava no trânsito indo para a loja 3. Liguei para o nosso fornecedor habitual, a Distribuidora Serrana, e a atendente avisou que só entregaria na quinta-feira. Aí tive de acionar o nosso plano B, o seu Valdir do Moinho Bandeirante, que entregou em quatro horas mas cobrou 15% mais caro. Salvamos a produção da semana, mas a minha terça-feira virou um caos: desmarquei três reuniões para virar comprador de emergência. Isso acontece duas a três vezes por mês. E o pior: para não faltar, o gerente pede sacas a mais por medo, sobra farinha mofando no sábado e jogamos fora de R$ 200 a R$ 300 toda semana. Estou trocando perda por perda."
 
-Veja a leitura dos trabalhos (*jobs*) embutidos nessa fala: o **trabalho funcional** é garantir o abastecimento contínuo de insumos sem parar a fornada. O **trabalho emocional** é deixar de ser o bombeiro que apaga incêndio às 7h da manhã no trânsito, e o **trabalho social** é ser visto pelo gerente e pelos clientes como um dono que mantém a operação sob controle. A gambiarra atual combina três peças frágeis (alerta tardio por áudio de WhatsApp, compra de emergência 15% mais cara no Moinho Bandeirante e estoque inflado no olhômetro que gera descarte no sábado). A frase final de Fábio resume a trava econômica do negócio: hoje ele vive "trocando perda por perda".
+Veja a leitura dos trabalhos (*jobs*) embutidos nessa fala: o trabalho funcional é garantir o abastecimento contínuo de insumos sem parar a fornada. O trabalho emocional é deixar de ser o bombeiro que apaga incêndio às 7h da manhã no trânsito, e o trabalho social é ser visto pelo gerente e pelos clientes como um dono que mantém a operação sob controle. A gambiarra atual combina três peças frágeis (alerta tardio por áudio de WhatsApp, compra de emergência 15% mais cara no Moinho Bandeirante e estoque inflado no olhômetro que gera descarte no sábado). A frase final de Fábio resume a trava econômica do negócio: hoje ele vive "trocando perda por perda".
 
-Fragmento da persona resultante: **Fábio, 38 anos, dono-operador de três padarias artesanais na Zona Oeste de São Paulo**. Formação técnica, resolve a operação pelo WhatsApp e por planilhas no celular, desconfia de sistemas complexos mas adota ferramentas que provem retorno já na primeira semana. O trabalho principal que ele contrata é "devolver minhas manhãs de gestão sem faltar farinha nem jogar insumo no lixo". Somando os R$ 800 a R$ 1.200 mensais de descarte, o ágio de 15% nas compras de terça-feira (cerca de R$ 600 no mês) e as seis a oito horas mensais do próprio dono apagando incêndio, o desperdício total passa de R$ 2.500 por mês nas três lojas, o que sustenta testar uma assinatura de R$ 400 mensais para o conjunto da rede. Se a ferramenta economizar apenas 2% de margem teórica no papel sem eliminar a correria de terça-feira, ele não paga.
+Fragmento da persona resultante: Fábio, 38 anos, dono-operador de três padarias artesanais na Zona Oeste de São Paulo. Formação técnica, resolve a operação pelo WhatsApp e por planilhas no celular, desconfia de sistemas complexos mas adota ferramentas que provem retorno já na primeira semana. O trabalho principal que ele contrata é "devolver minhas manhãs de gestão sem faltar farinha nem jogar insumo no lixo". Somando os R$ 800 a R$ 1.200 mensais de descarte, o ágio de 15% nas compras de terça-feira (cerca de R$ 600 no mês) e as seis a oito horas mensais do próprio dono apagando incêndio, o desperdício total passa de R$ 2.500 por mês nas três lojas, o que sustenta testar uma assinatura de R$ 400 mensais para o conjunto da rede. Se a ferramenta economizar apenas 2% de margem teórica no papel sem eliminar a correria de terça-feira, ele não paga.
 
 Os gatilhos de troca observados foram três. Incidente recente de ruptura que causou perda grande (mais de R$ 5 mil), ou cliente insatisfeito. Chegada de nova loja (passar de duas para três, de três para quatro) torna sistema manual inviável. Indicação de par (outro dono de padaria) sobre ferramenta que funcionou.
 
@@ -2106,11 +2091,11 @@ As barreiras à troca identificadas na conversa foram quatro: (1) receio de que 
 
 ### Caso brasileiro real, pesquisa com usuários no QuintoAndar e a dor do fiador
 
-Como reconstrução didática de pesquisa centrada no trabalho do cliente, considere o mercado brasileiro de locação residencial em 2013, quando Gabriel Braga e André Penha fundaram o **QuintoAndar** (iniciando a operação em Campinas e logo expandindo para São Paulo). Alugar um imóvel exigia fiador com escritura quitada na mesma cidade, seguro-fiança caro ou depósito caução de três aluguéis, além de semanas de cartório.
+Como reconstrução didática de pesquisa centrada no trabalho do cliente, considere o mercado brasileiro de locação residencial em 2013, quando Gabriel Braga e André Penha fundaram o QuintoAndar (iniciando a operação em Campinas e logo expandindo para São Paulo). Alugar um imóvel exigia fiador com escritura quitada na mesma cidade, seguro-fiança caro ou depósito caução de três aluguéis, além de semanas de cartório.
 
 Nas entrevistas e observações, os fundadores descobriram um gargalo que a hipótese original subestimava: o maior freio ao fechamento do aluguel vinha do constrangimento social de pedir a um parente ou conhecido que assinasse como fiador, superando até a discussão sobre o valor do pacote mensal.
 
-Nessa leitura sob a lente de *Jobs to Be Done*, além do custo financeiro e da demora burocrática, a barreira emocional e social que travava o inquilino solvente era o constrangimento de pedir a um parente ou amigo que colocasse o próprio imóvel em garantia como fiador. Ao posicionar a promessa pública diretamente como **"aluguel sem fiador e sem depósito caução"** (mantendo a vistoria padronizada de entrada e saída e o contrato eletrônico), a empresa atacou a ansiedade central que impedia a mudança e destravou os dois lados do balcão.
+Nessa leitura sob a lente de *Jobs to Be Done*, além do custo financeiro e da demora burocrática, a barreira emocional e social que travava o inquilino solvente era o constrangimento de pedir a um parente ou amigo que colocasse o próprio imóvel em garantia como fiador. Ao posicionar a promessa pública diretamente como "aluguel sem fiador e sem depósito caução" (mantendo a vistoria padronizada de entrada e saída e o contrato eletrônico), a empresa atacou a ansiedade central que impedia a mudança e destravou os dois lados do balcão.
 
 Pesquisa aprofundada revela qual dor é emocionalmente mais forte, não apenas qual é operacionalmente mais cara. A proposta de valor precisa atacar a dor emocional.
 
@@ -2150,21 +2135,20 @@ Você concluiu a Fase 5 quando todos os critérios abaixo estão cumpridos.
 
 - **Regra de foco no trabalho do cliente (*job*):** toda funcionalidade candidata na Fase 9 precisará apontar para um *job* priorizado neste dossiê.
 
-**6. Fundir papéis distintos numa única persona genérica.** Em vendas B2B ou familiares, misturar usuário técnico, campeão interno e decisor econômico na mesma ficha esconde conflitos de incentivo, construa sempre **uma persona separada para cada papel que decide ou opera o processo (duas a quatro personas no total)**.
+**6. Fundir papéis distintos numa única persona genérica.** Em vendas B2B ou familiares, misturar usuário técnico, campeão interno e decisor econômico na mesma ficha esconde conflitos de incentivo, construa sempre uma persona separada para cada papel que decide ou opera o processo (duas a quatro personas no total).
 
 - **Critério de corte na síntese:** descarte observações anedóticas que não modifiquem a escolha de público, canal ou proposta de valor.
-
 
 ---
 
 ### O Espelho da Fase 5: contra qual gambiarra você está lutando de verdade?
 
-De volta ao consultório na Savassi, em Belo Horizonte, a **Dra. Camila** releu a frase de Dona Helena anotada no bloco e encarou a página inicial do próprio site: havia doze menções a "titânio suíço" e "escaneamento intraoral computadorizado", mas nenhuma linha sobre voltar a sorrir nas fotos de família ou mastigar sem receio no casamento da neta. Naquela mesma semana, respeitando rigorosamente as normas éticas do Conselho Federal de Odontologia (Resolução CFO-196/2019, sem promessa de resultado e mediante termo de consentimento livre e esclarecido por escrito), ela substituiu o jargão acadêmico por orientações claras sobre acolhimento e reabilitação para pacientes acima de 55 anos e reformulou a primeira consulta para ouvir a história de cada pessoa antes de falar de tecnologia. Em seis semanas, a ocupação das manhãs subiu de 40% para 85%.
+De volta ao consultório na Savassi, em Belo Horizonte, a Dra. Camila releu a frase de Dona Helena anotada no bloco e encarou a página inicial do próprio site: havia doze menções a "titânio suíço" e "escaneamento intraoral computadorizado", mas nenhuma linha sobre voltar a sorrir nas fotos de família ou mastigar sem receio no casamento da neta. Naquela mesma semana, respeitando rigorosamente as normas éticas do Conselho Federal de Odontologia (Resolução CFO-196/2019, sem promessa de resultado e mediante termo de consentimento livre e esclarecido por escrito), ela substituiu o jargão acadêmico por orientações claras sobre acolhimento e reabilitação para pacientes acima de 55 anos e reformulou a primeira consulta para ouvir a história de cada pessoa antes de falar de tecnologia. Em seis semanas, a ocupação das manhãs subiu de 40% para 85%.
 
 **O Espelho (autodiagnóstico):**
 1. Se o seu cliente mais fiel explicasse a um amigo por que contratou você (como Dona Helena explicou à Dra. Camila), ele usaria alguma das palavras que estão hoje no topo do seu site? E quantos atributos das suas personas atuais possuem data, nome e citação literal rastreáveis no caderno de campo?
 2. Qual é a gambiarra atual, no Excel, no WhatsApp ou no papel, que você está tentando demitir da rotina do seu cliente?
-3. Qual é a maior **ansiedade de troca** (*anxiety*) e o maior **hábito atual** (*habit*) que fazem os entrevistados do seu segmento hesitarem antes de abandonar a planilha ou o fornecedor antigo?
+3. Qual é a maior **ansiedade de troca** (*anxiety*) e o maior hábito atual (*habit*) que fazem os entrevistados do seu segmento hesitarem antes de abandonar a planilha ou o fornecedor antigo?
 
 **Permissão Libertadora:**
 Você está autorizado a jogar no lixo todas as "Personas de Marketing" fictícias com fotos de banco de imagens e hobbies inventados.
@@ -2189,7 +2173,7 @@ Reserve 30 minutos toda segunda-feira às 9h para manter o Dossiê do Usuário v
 ### MANUAL PASSO A PASSO DOS FRAMEWORKS (FASE 5)
 
 > [!tip] Uso autocontido neste volume
-> **Como escolher entre os métodos desta seção:** Para todas as startups nesta Fase 5, quatro ferramentas formam o núcleo obrigatório: **Entrevistas de Troca (*Switch Interviews*)**, **Observação Contextual (*Contextual Inquiry*)**, **Personas baseadas em dados** e **Mapeamento da Jornada do Problema**. Use **Estudos de Diário (*Diary Studies*)** quando o hábito se espalha por vários dias, **Grupos Focais (*Focus Groups*)** apenas para testar reação de linguagem social, **Service Blueprinting** quando precisar desenhar bastidores operacionais complexos e **Outcome-Driven Innovation (ODI)** quando tiver escala para rodar pesquisas quantitativas com mais de 100 respondentes. (O passo a passo completo do *Empathy Map* já foi apresentado na Fase 4. Aqui veremos apenas como alimentá-lo com a observação etnográfica.)
+> **Como escolher entre os métodos desta seção:** Para todas as startups nesta Fase 5, quatro ferramentas formam o núcleo obrigatório: **Entrevistas de Troca (*Switch Interviews*), Observação Contextual (*Contextual Inquiry*), Personas baseadas em dados e Mapeamento da Jornada do Problema. Use Estudos de Diário (*Diary Studies*) quando o hábito se espalha por vários dias, Grupos Focais (*Focus Groups*) apenas para testar reação de linguagem social, Service Blueprinting quando precisar desenhar bastidores operacionais complexos e Outcome-Driven Innovation (ODI)** quando tiver escala para rodar pesquisas quantitativas com mais de 100 respondentes. (O passo a passo completo do *Empathy Map* já foi apresentado na Fase 4. Aqui veremos apenas como alimentá-lo com a observação etnográfica.)
 
 #### Framework: Jobs to Be Done Switch Interviews (Bob Moesta e Chris Spiek)
 
@@ -2199,7 +2183,7 @@ Desenvolvida por Bob Moesta e Chris Spiek no Re-Wired Group em parceria com Clay
 
 ##### A mecânica central (sem jargão)
 
-Trata-se de um protocolo de entrevista focado no **momento real de troca (*switch*)**, quando o cliente abandonou uma solução anterior (ou uma gambiarra interna) e contratou uma nova. Em vez de perguntar quais funcionalidades a pessoa deseja, a conversa reconstrói as **quatro forças causais** que produziram a mudança.
+Trata-se de um protocolo de entrevista focado no **momento real de troca (*switch*), quando o cliente abandonou uma solução anterior (ou uma gambiarra interna) e contratou uma nova. Em vez de perguntar quais funcionalidades a pessoa deseja, a conversa reconstrói as quatro forças causais** que produziram a mudança.
 
 ##### Estrutura das Quatro Forças de Troca (empurrão da dor atual, atração da nova solução, ansiedade da mudança e inércia do hábito)
 
@@ -2217,14 +2201,9 @@ A linha do tempo da compra percorrida na entrevista divide-se em seis marcos:
 1. **Primeiro pensamento (*first thought*):** o instante e o contexto exato em que a pessoa percebeu pela primeira vez que o jeito antigo não dava mais conta.
 2. **Busca passiva (*passive looking*):** o período em que ela passou a reparar em alternativas sem ainda agir.
 3. **Busca ativa (*active looking*):** o gatilho (o "dia em que a corda arrebentou") que a levou a cotar, testar e comparar opções.
-4. **Decisão (*deciding*):** a negociação final, as concessões feitas e as quatro forças em disputa: o **empurrão da dor atual (*push*)**, a **atração da nova solução (*pull*)**, a **ansiedade com a mudança (*anxiety*)** e o **hábito que prendia ao modelo antigo (*habit*)**.
+4. **Decisão (*deciding*):** a negociação final, as concessões feitas e as quatro forças em disputa: o **empurrão da dor atual (*push*), a atração da nova solução (*pull*), a ansiedade com a mudança (*anxiety*) e o hábito que prendia ao modelo antigo (*habit*)**.
 5. **Primeira utilização (*consuming*):** o que aconteceu na primeira semana de uso real.
 6. **Satisfação pós-compra (*satisfaction*):** o veredito prático sobre se o trabalho (*job*) foi cumprido.
-
-
-
-
-
 
 ##### Passos práticos de implantação
 
@@ -2236,7 +2215,7 @@ Passo 3: Trabalhe a timeline para trás. Quando decidiu? Quando começou a consi
 
 Passo 4: Identifique as 4 forças em cada ponto. Push: o que pressionava? Pull: o que atraía? Anxiety: o que preocupava? Habit: o que prendia ao antigo?
 
-Passo 5: Investigue os gatilhos concretos de transição. Qual evento exato tirou o cliente da **busca passiva** e o jogou na **busca ativa**? Quase sempre há um episódio datado ("meu contador ligou avisando de uma multa", "perdi dois boletos de R$ 18 mil na sexta-feira") que destrava o orçamento.
+Passo 5: Investigue os gatilhos concretos de transição. Qual evento exato tirou o cliente da busca passiva e o jogou na busca ativa? Quase sempre há um episódio datado ("meu contador ligou avisando de uma multa", "perdi dois boletos de R$ 18 mil na sexta-feira") que destrava o orçamento.
 
 Passo 6: Explore rejeição também. Soluções consideradas e rejeitadas, por quê? Revela pull fracos ou anxiety altas.
 
@@ -2272,11 +2251,11 @@ Evite cinco erros recorrentes ao conduzir entrevistas de troca: (1) entrevistar 
 
 ##### De onde vem a ferramenta (e por que sobreviveu ao filtro do tempo)
 
-Karen Holtzblatt desenvolveu a investigação contextual (*Contextual Inquiry*) no fim dos anos 1980 na Digital Equipment Corporation (DEC) e consolidou o método com Hugh Beyer, na InContext Enterprises, no livro *Contextual Design: Defining Customer-Centered Systems* (1998). A ferramenta nasceu da constatação prática de que os usuários **não conseguem relatar de memória todos os pequenos desvios e gambiarras que fazem no trabalho**, mas revelam cada detalhe quando são observados em tempo real no próprio posto de serviço.
+Karen Holtzblatt desenvolveu a investigação contextual (*Contextual Inquiry*) no fim dos anos 1980 na Digital Equipment Corporation (DEC) e consolidou o método com Hugh Beyer, na InContext Enterprises, no livro *Contextual Design: Defining Customer-Centered Systems* (1998). A ferramenta nasceu da constatação prática de que os usuários não conseguem relatar de memória todos os pequenos desvios e gambiarras que fazem no trabalho, mas revelam cada detalhe quando são observados em tempo real no próprio posto de serviço.
 
 ##### A mecânica central (sem jargão)
 
-É um método de pesquisa etnográfica aplicada: o pesquisador **acompanha o usuário executando suas tarefas reais no ambiente de trabalho** (escritório, balcão, depósito ou consultório) e faz perguntas curtas no momento em que as decisões acontecem. Assim, os dados mostram o que a pessoa realmente **faz**, e não apenas o que ela **diz** que faz.
+É um método de pesquisa etnográfica aplicada: o pesquisador acompanha o usuário executando suas tarefas reais no ambiente de trabalho (escritório, balcão, depósito ou consultório) e faz perguntas curtas no momento em que as decisões acontecem. Assim, os dados mostram o que a pessoa realmente faz, e não apenas o que ela diz que faz.
 
 ##### As regras do jogo
 
@@ -2319,7 +2298,7 @@ Visita de três horas a uma clínica com três fisioterapeutas em Curitiba. Obse
 
 Aprendizados gerados na observação:
 
-- O gargalo central da clínica está na **passagem de bastão entre a recepção e o consultório**, mais do que na simples falta de uma agenda eletrônica.
+- O gargalo central da clínica está na passagem de bastão entre a recepção e o consultório, mais do que na simples falta de uma agenda eletrônica.
 - Backlog de WhatsApp sinaliza "caos invisível", mostrar no dashboard pode ser diferencial.
 - Como o intervalo entre um paciente e outro dura apenas 4 a 5 minutos, o registro de evolução precisa ser concluído em menos de 60 segundos na tela.
 - Ambiente tem muitos papéis físicos, integração com impressão importa (diferentemente de PME tech-savvy).
@@ -2340,7 +2319,7 @@ O método etnográfico nasceu na antropologia cultural do início do século XX 
 
 ##### A mecânica central (sem jargão)
 
-Pesquisa imersiva em que observador **acompanha usuário por período extenso** (meio dia a vários dias) em ambiente natural, observando sem intervir muito. Diferente do Contextual Inquiry (que é interventivo e focado em tarefa), etnografia é **holística** e captura contexto amplo de vida/trabalho.
+Pesquisa imersiva em que observador acompanha usuário por período extenso (meio dia a vários dias) em ambiente natural, observando sem intervir muito. Diferente do Contextual Inquiry (que é interventivo e focado em tarefa), etnografia é holística e captura contexto amplo de vida/trabalho.
 
 ##### As regras do jogo
 
@@ -2403,7 +2382,7 @@ Sociólogo Robert K. Merton desenvolveu "focused interviews" nos anos 1940 anali
 
 ##### A mecânica central (sem jargão)
 
-Trata-se de uma discussão moderada em grupo pequeno (de 6 a 10 participantes) sobre um tema específico. Seu valor próprio (e também seu limite) está na **interação social entre os participantes**: as pessoas reagem às falas umas das outras, expõem discordâncias de vocabulário e revelam como uma categoria é vista em público (embora escondam fragilidades individuais que só aparecem em entrevistas individuais).
+Trata-se de uma discussão moderada em grupo pequeno (de 6 a 10 participantes) sobre um tema específico. Seu valor próprio (e também seu limite) está na interação social entre os participantes: as pessoas reagem às falas umas das outras, expõem discordâncias de vocabulário e revelam como uma categoria é vista em público (embora escondam fragilidades individuais que só aparecem em entrevistas individuais).
 
 ##### As regras do jogo
 
@@ -2476,7 +2455,7 @@ Os estudos de diário (*Diary Studies*) nasceram na psicologia e na sociologia d
 
 ##### A mecânica central (sem jargão)
 
-Participantes **registram suas experiências** ao longo de um período (dias a semanas) em formato estruturado (app, planilha, gravação de vídeo). Dados são coletados **no momento em que acontecem**, evitando viés de recall.
+Participantes **registram suas experiências** ao longo de um período (dias a semanas) em formato estruturado (app, planilha, gravação de vídeo). Dados são coletados no momento em que acontecem, evitando viés de recall.
 
 ##### As regras do jogo
 
@@ -2542,7 +2521,7 @@ Cinco erros derrubam um estudo de diário: (1) pedir formulários diários longo
 
 ##### De onde vem a ferramenta (e por que sobreviveu ao filtro do tempo)
 
-Alan Cooper, conhecido como o "pai do Visual Basic" (por ter criado o protótipo visual Ruby, adquirido pela Microsoft em 1988), apresentou o método de **Personas** no livro *The Inmates Are Running the Asylum* (1999). Seu argumento central é que projetar um sistema para um "usuário médio genérico" produz interfaces confusas que não servem bem a ninguém, enquanto ancorar as decisões de produto em perfis específicos, construídos a partir de pesquisa real de campo, obriga a equipe a priorizar o que importa.
+Alan Cooper, conhecido como o "pai do Visual Basic" (por ter criado o protótipo visual Ruby, adquirido pela Microsoft em 1988), apresentou o método de Personas no livro *The Inmates Are Running the Asylum* (1999). Seu argumento central é que projetar um sistema para um "usuário médio genérico" produz interfaces confusas que não servem bem a ninguém, enquanto ancorar as decisões de produto em perfis específicos, construídos a partir de pesquisa real de campo, obriga a equipe a priorizar o que importa.
 
 ##### A mecânica central (sem jargão)
 
@@ -2606,7 +2585,7 @@ Uso em decisões: feature de "relatório em linguagem simples" ganha prioridade 
 
 ##### De onde vem a ferramenta (e por que sobreviveu ao filtro do tempo)
 
-Enquanto a persona descreve quem é o usuário e qual o seu papel na compra, o Mapa de Empatia recorta um **episódio decisivo específico** observado em campo para expor a pressão do ambiente ao redor dele.
+Enquanto a persona descreve quem é o usuário e qual o seu papel na compra, o Mapa de Empatia recorta um episódio decisivo específico observado em campo para expor a pressão do ambiente ao redor dele.
 
 ##### A mecânica central (sem jargão)
 
@@ -2621,7 +2600,7 @@ Template visual que organiza entendimento empático sobre usuário em 6 quadrant
 
 ##### As regras do jogo
 
-Em uma oficina de 60 minutos após as visitas de campo, escolha um momento exato observado (por exemplo, quando a **Dra. Patrícia**, cirurgiã-dentista de 36 anos entrevistada em Curitiba, abre o notebook às 21h30 na mesa da sala para separar os recibos de pacientes particulares das contas da casa) e preencha os quadrantes cruzando fala e cena observada:
+Em uma oficina de 60 minutos após as visitas de campo, escolha um momento exato observado (por exemplo, quando a Dra. Patrícia, cirurgiã-dentista de 36 anos entrevistada em Curitiba, abre o notebook às 21h30 na mesa da sala para separar os recibos de pacientes particulares das contas da casa) e preencha os quadrantes cruzando fala e cena observada:
 
 ##### Aplicação imediata na rotina da empresa
 
@@ -2629,7 +2608,7 @@ Passo 1: Escolha persona + momento específico.
 
 Passo 2: Equipe preenche cada quadrante com dados de entrevistas, observações.
 
-**O foco da leitura na Fase 5 está nas contradições observadas:** o que a pessoa **disse** na entrevista inicial versus o que ela **fez** quando o telefone tocou ou a planilha travou na sua frente.
+**O foco da leitura na Fase 5 está nas contradições observadas:** o que a pessoa disse na entrevista inicial versus o que ela fez quando o telefone tocou ou a planilha travou na sua frente.
 
 Passo 4: Identifique oportunidades: endereçar dor, potencializar ganho.
 
@@ -2697,7 +2676,7 @@ Passo 6: Oportunidades específicas: por fase, o que pode melhorar?
 
 ##### Na trincheira real: como isso funciona na prática
 
-**Compare as duas aplicações do mapa de jornada:** primeiro, a **jornada atual do problema** (usada nesta Fase 5 antes de existir o produto, ilustrada abaixo pela reposição semanal de farinha na padaria de Fábio), segundo, a **jornada de adoção de um software B2B** (usada quando você já tem um fluxo de contratação e ativação para auditar):
+**Compare as duas aplicações do mapa de jornada:** primeiro, a jornada atual do problema (usada nesta Fase 5 antes de existir o produto, ilustrada abaixo pela reposição semanal de farinha na padaria de Fábio), segundo, a jornada de adoção de um software B2B (usada quando você já tem um fluxo de contratação e ativação para auditar):
 
 - **Jornada do problema (Fábio, reposição de farinha sem sistema):** (1) *Conferência visual na segunda-feira:* olha a pilha de sacas no depósito sem pesar sobras (emoção: falsa tranquilidade), (2) *Alerta de ruptura na terça às 7h:* recebe áudio do gerente Marcos avisando que a farinha só dá para hoje (emoção: pico de estresse no trânsito), (3) *Cotação no WhatsApp às 7h30:* liga para a Distribuidora Serrana e descobre que só entregam na quinta (emoção: frustração), (4) *Compra de emergência às 8h30:* aciona o seu Valdir no Moinho Bandeirante pagando 15% de ágio para receber em quatro horas (emoção: alívio caro), (5) *Excesso preventivo na quinta:* gerente pede sacas a mais por medo de nova falta, (6) *Descarte no sábado:* R$ 200 a R$ 300 de insumo vencido ou úmido vão para o lixo (emoção: resignação).
 
@@ -2795,11 +2774,11 @@ Três erros recorrentes comprometem o *Service Blueprint*: desenhar um diagrama 
 
 ##### De onde vem a ferramenta (e por que sobreviveu ao filtro do tempo)
 
-Como vimos na abertura desta fase com a imagem da furadeira de Theodore Levitt (*The Marketing Imagination*, 1983), a teoria de **Jobs to Be Done (JTBD)** sustenta que os clientes não compram produtos pelo que eles são, mas os "contratam" para realizar um progresso específico em uma circunstância concreta. Nos anos 1990 e 2000, a abordagem desdobrou-se em duas vertentes complementares: a **escola qualitativa de processo de troca**, desenvolvida por Bob Moesta, Chris Spiek e Clayton Christensen (famosa pelo estudo do *milkshake* matinal e consolidada em *Competing Against Luck*, de 2016, já operacionalizada no protocolo de *Switch Interviews* no início deste manual), e a **escola quantitativa de resultados esperados**, formalizada por Anthony Ulwick no método ODI (detalhado na subseção seguinte). Aqui reunimos a síntese da arquitetura de trabalhos (funcional, emocional, social e de consumo) para estruturar o Dossiê do Usuário.
+Como vimos na abertura desta fase com a imagem da furadeira de Theodore Levitt (*The Marketing Imagination*, 1983), a teoria de Jobs to Be Done (JTBD) sustenta que os clientes não compram produtos pelo que eles são, mas os "contratam" para realizar um progresso específico em uma circunstância concreta. Nos anos 1990 e 2000, a abordagem desdobrou-se em duas vertentes complementares: a escola qualitativa de processo de troca, desenvolvida por Bob Moesta, Chris Spiek e Clayton Christensen (famosa pelo estudo do *milkshake* matinal e consolidada em *Competing Against Luck*, de 2016, já operacionalizada no protocolo de *Switch Interviews* no início deste manual), e a escola quantitativa de resultados esperados, formalizada por Anthony Ulwick no método ODI (detalhado na subseção seguinte). Aqui reunimos a síntese da arquitetura de trabalhos (funcional, emocional, social e de consumo) para estruturar o Dossiê do Usuário.
 
 ##### A mecânica central (sem jargão)
 
-Enquanto as entrevistas de troca (*Switch Interviews* de Bob Moesta e Chris Spiek, vistas acima) focam no evento de mudança de fornecedor, o **Framework de Jobs to Be Done** completo analisa **qual progresso concreto o cliente busca alcançar quando contrata um produto ou serviço**, estruturando a estratégia em torno da tarefa funcional, emocional e social a cumprir.
+Enquanto as entrevistas de troca (*Switch Interviews* de Bob Moesta e Chris Spiek, vistas acima) focam no evento de mudança de fornecedor, o Framework de Jobs to Be Done completo analisa qual progresso concreto o cliente busca alcançar quando contrata um produto ou serviço, estruturando a estratégia em torno da tarefa funcional, emocional e social a cumprir.
 
 ##### As regras do jogo
 
@@ -2811,7 +2790,7 @@ Dimensões de um Job:
 
 Circunstâncias: o contexto pesa. O mesmo cliente prioriza trabalhos (*jobs*) diferentes conforme a situação em que se encontra.
 
-Progress: clientes contratam produtos para fazer **progresso** de situação A (dor) para situação B (aspiração).
+Progress: clientes contratam produtos para fazer progresso de situação A (dor) para situação B (aspiração).
 
 Competition redefinida: concorrentes são qualquer coisa que cliente considera para fazer o mesmo job, não apenas produtos da mesma categoria. Café pode competir com energético para job "acordar cedo".
 
@@ -2837,14 +2816,11 @@ Jobs identificados:
 
 Aplicando a fórmula de oportunidade de Ulwick ($\text{Oportunidade} = \text{Importância} + \max(\text{Importância} - \text{Satisfação}, 0)$, em escala de 1 a 5) aos três trabalhos mapeados por Lucas e Marina junto aos diretores financeiros de distribuidoras, a ordem de prioridade sai diretamente da conta:
 
-- **Job 1 (Maior oportunidade, nota 9/10): "Identificar na sexta-feira antes das 15h quais boletos pagos no banco correspondem a notas fiscais ativas ou canceladas"** (Importância = 5/5, Satisfação atual = 1/5 → $\text{Oportunidade} = 5 + (5 - 1) = 9$). **Foco imediato da cunha de entrada.**
+- **Job 1 (Maior oportunidade, nota 9/10): "Identificar na sexta-feira antes das 15h quais boletos pagos no banco correspondem a notas fiscais ativas ou canceladas"** (Importância = 5/5, Satisfação atual = 1/5 → $\text{Oportunidade} = 5 + (5 - 1) = 9$). Foco imediato da cunha de entrada.
 
+- **Job 2 (Oportunidade intermediária, nota 8/10): "Fechar o balanço mensal de contas a receber da distribuidora sem divergência com a contabilidade externa"** (Importância = 5/5, Satisfação atual = 2/5 → $\text{Oportunidade} = 5 + (5 - 2) = 8$). Segundo módulo do produto.
 
-
-
-- **Job 2 (Oportunidade intermediária, nota 8/10): "Fechar o balanço mensal de contas a receber da distribuidora sem divergência com a contabilidade externa"** (Importância = 5/5, Satisfação atual = 2/5 → $\text{Oportunidade} = 5 + (5 - 2) = 8$). **Segundo módulo do produto.**
-
-- **Job 3 (Baixa prioridade, nota 4/10): "Visualizar gráficos anuais de faturamento por região em painel colorido"** (Importância = 3/5, Satisfação atual = 2/5 → $\text{Oportunidade} = 3 + (3 - 2) = 4$). **Descartado do escopo inicial.**
+- **Job 3 (Baixa prioridade, nota 4/10): "Visualizar gráficos anuais de faturamento por região em painel colorido"** (Importância = 3/5, Satisfação atual = 2/5 → $\text{Oportunidade} = 3 + (3 - 2) = 4$). Descartado do escopo inicial.
 
 - Emotional: "sentir que está no controle".
 - Social: "não parecer incompetente perante sócios ou família".
@@ -2863,11 +2839,11 @@ Ao aplicar *Jobs to Be Done*, evite cinco deslizes clássicos: (1) confundir a t
 
 ##### De onde vem a ferramenta (e por que sobreviveu ao filtro do tempo)
 
-Após projetos conduzidos na IBM nos anos 1980, **Anthony Ulwick** fundou a consultoria Strategyn em 1991, publicou o artigo "Turn Customer Input into Innovation" na *Harvard Business Review* (2002) e sistematizou o método **ODI (*Outcome-Driven Innovation*)** nos livros *What Customers Want* (2005) e *Jobs to Be Done: Theory to Practice* (2016). Enquanto as entrevistas de Moesta reconstroem a história qualitativa da troca, o ODI oferece a régua quantitativa: decompõe o trabalho principal do cliente em 50 a 100 declarações padronizadas de resultados desejados (*desired outcomes*, sempre escritas no formato *"minimizar o tempo/risco de [etapa]"*) e pede que uma amostra de 100 a 500 usuários avalie a importância e a satisfação atual de cada item para localizar matematicamente onde o mercado está mal atendido.
+Após projetos conduzidos na IBM nos anos 1980, Anthony Ulwick fundou a consultoria Strategyn em 1991, publicou o artigo "Turn Customer Input into Innovation" na *Harvard Business Review* (2002) e sistematizou o método **ODI (*Outcome-Driven Innovation*)** nos livros *What Customers Want* (2005) e *Jobs to Be Done: Theory to Practice* (2016). Enquanto as entrevistas de Moesta reconstroem a história qualitativa da troca, o ODI oferece a régua quantitativa: decompõe o trabalho principal do cliente em 50 a 100 declarações padronizadas de resultados desejados (*desired outcomes*, sempre escritas no formato *"minimizar o tempo/risco de [etapa]"*) e pede que uma amostra de 100 a 500 usuários avalie a importância e a satisfação atual de cada item para localizar matematicamente onde o mercado está mal atendido.
 
 ##### A mecânica central (sem jargão)
 
-Metodologia de descoberta de oportunidade de produto baseada em mensuração quantitativa de *outcomes* (resultados desejados pelo cliente). Diferencia-se do JTBD clássico por ser **quantitativo**: para cada Job, identificar 50-150 outcomes desejados, medir em pesquisa estruturada (importância × satisfação), e identificar os **under-served outcomes** (alta importância, baixa satisfação), essas são as oportunidades de inovação. O produto que resolve under-served outcomes ganha mercado, produto que resolve over-served outcomes (importância baixa ou moderada e satisfação já alta) entra em território saturado.
+Metodologia de descoberta de oportunidade de produto baseada em mensuração quantitativa de *outcomes* (resultados desejados pelo cliente). Diferencia-se do JTBD clássico por ser quantitativo: para cada Job, identificar 50-150 outcomes desejados, medir em pesquisa estruturada (importância × satisfação), e identificar os under-served outcomes (alta importância, baixa satisfação), essas são as oportunidades de inovação. O produto que resolve under-served outcomes ganha mercado, produto que resolve over-served outcomes (importância baixa ou moderada e satisfação já alta) entra em território saturado.
 
 ##### Roteiro de aplicação prática na operação
 
@@ -2887,7 +2863,7 @@ Na aplicação de *Outcome-Driven Innovation* (ODI), cuide de três erros freque
 
 ##### Por que este quadro visual foi criado
 
-O Value Proposition Canvas (VPC) é extensão direta do Business Model Canvas, criado pela mesma equipe (Alexander Osterwalder, Yves Pigneur, Greg Bernarda, Alan Smith) e publicado no livro *Value Proposition Design* (2014). A motivação foi observação de campo: o bloco "Proposta de Valor" do BMC era invariavelmente o mais mal preenchido, fundadores escreviam frases vagas tipo "produto melhor" ou "atendimento de qualidade". Osterwalder concluiu que esse bloco merecia uma ferramenta própria, mais profunda, que forçasse a verificar **explicitamente** o encaixe entre o que o cliente precisa e o que o produto oferece.
+O Value Proposition Canvas (VPC) é extensão direta do Business Model Canvas, criado pela mesma equipe (Alexander Osterwalder, Yves Pigneur, Greg Bernarda, Alan Smith) e publicado no livro *Value Proposition Design* (2014). A motivação foi observação de campo: o bloco "Proposta de Valor" do BMC era invariavelmente o mais mal preenchido, fundadores escreviam frases vagas tipo "produto melhor" ou "atendimento de qualidade". Osterwalder concluiu que esse bloco merecia uma ferramenta própria, mais profunda, que forçasse a verificar explicitamente o encaixe entre o que o cliente precisa e o que o produto oferece.
 
 ##### A anatomia visual de uma página
 
@@ -2918,17 +2894,17 @@ flowchart LR
     style GC fill:#90EE90
 ```
 
-O **Customer Profile** mapeia o cliente em três dimensões: Jobs (tarefas funcionais, sociais, emocionais que tenta cumprir), Pains (o que o frustra, prejudica, ameaça) e Gains (o que ele deseja, espera, sonha). O **Value Map** mapeia o produto em três dimensões espelhadas: Products & Services (o que você oferece), Pain Relievers (como o produto alivia os pains do cliente) e Gain Creators (como o produto produz os gains).
+O **Customer Profile** mapeia o cliente em três dimensões: Jobs (tarefas funcionais, sociais, emocionais que tenta cumprir), Pains (o que o frustra, prejudica, ameaça) e Gains (o que ele deseja, espera, sonha). O Value Map mapeia o produto em três dimensões espelhadas: Products & Services (o que você oferece), Pain Relievers (como o produto alivia os pains do cliente) e Gain Creators (como o produto produz os gains).
 
 O **fit** acontece quando os Pain Relievers correspondem a Pains reais e os Gain Creators correspondem a Gains que o cliente realmente valoriza. Pain Relievers sem Pain correspondente = features inúteis. Pains sem Pain Reliever = motivos de churn.
 
 ##### O momento exato de colocar este canvas na parede
 
-Use o *Value Proposition Canvas* (VPC) depois de concluir a pesquisa qualitativa de campo (Fases 4 e 5: entrevistas de problema, entrevistas de troca JTBD, observação no local de trabalho e mapeamento de jornada). É a ferramenta que transforma o **Dossiê do Usuário (saída desta Fase 5)** em insumo direto de produto: cada persona validada alimenta um *Customer Profile* (lado direito), e a solução que você vai desenhar no Volume 3 ocupa o *Value Map* (lado esquerdo). Revisite o quadro a cada trimestre após o lançamento para podar funcionalidades que não aliviam nenhuma dor real.
+Use o *Value Proposition Canvas* (VPC) depois de concluir a pesquisa qualitativa de campo (Fases 4 e 5: entrevistas de problema, entrevistas de troca JTBD, observação no local de trabalho e mapeamento de jornada). É a ferramenta que transforma o Dossiê do Usuário (saída desta Fase 5) em insumo direto de produto: cada persona validada alimenta um *Customer Profile* (lado direito), e a solução que você vai desenhar no Volume 3 ocupa o *Value Map* (lado esquerdo). Revisite o quadro a cada trimestre após o lançamento para podar funcionalidades que não aliviam nenhuma dor real.
 
 ##### Princípios práticos para preencher sem se enganar
 
-A tese de Osterwalder é que **a proposta de valor consiste na correspondência verificável entre as dores e ganhos prioritários do cliente e o que o produto efetivamente alivia e entrega**. Esse encaixe não se presume: comprova-se com entrevistas, testes e observação de uso. Startups costumam falhar quando constroem um produto bom que ataca um problema que o cliente considera secundário, e o Value Proposition Canvas evita esse erro ao tornar explícita cada conexão.
+A tese de Osterwalder é que a proposta de valor consiste na correspondência verificável entre as dores e ganhos prioritários do cliente e o que o produto efetivamente alivia e entrega. Esse encaixe não se presume: comprova-se com entrevistas, testes e observação de uso. Startups costumam falhar quando constroem um produto bom que ataca um problema que o cliente considera secundário, e o Value Proposition Canvas evita esse erro ao tornar explícita cada conexão.
 
 ##### Passo a passo na parede da sala (roteiro de oficina colaborativa)
 
@@ -2944,7 +2920,7 @@ Regra de integridade: cada item do *Customer Profile* precisa apontar para uma e
 
 - **Products & Services**: o que você está construindo (ou planeja construir).
 - **Pain Relievers**: para cada Pain do cliente, como o produto alivia? Seja específico.
-- **Gain Creators**: para cada Gain, como o produto produz? Idem.
+- **Gain Creators**: para cada Gain, como o produto produz? O mesmo princípio se aplica.
 
 **Etapa 3: Avaliação de fit.** Cada Pain tem Pain Reliever correspondente? Cada Gain tem Gain Creator? Se há Pains sem cobertura, são oportunidades não endereçadas. Se há Pain Relievers sem Pain real, são features potencialmente desperdiçadas.
 
@@ -2956,26 +2932,15 @@ Preenchimento completo dos **seis blocos do Value Proposition Canvas** (os três
 
 | Bloco do VPC | Lado Direito: *Customer Profile* (Head de RH) | Bloco Espelhado | Lado Esquerdo: *Value Map* (Wellhub / Gympass B2B) |
 |---|---|---|---|
-| **1. Jobs** (Trabalhos) | Oferecer benefício de saúde que retenha talentos; gerir bem-estar em múltiplas unidades sem sobrecarga no RH; prestar contas à diretoria sobre o uso do benefício; atender perfis diversos (musculação, natação, ioga, *crossfit*) sem multiplicar contratos. | **4. Products & Services** (Oferta em 2016) | Assinatura corporativa única com acesso a rede credenciada de milhares de academias e estúdios via aplicativo de *check-in* e folha de pagamento (posteriormente ampliada em 2020 para aplicativos de bem-estar e terapia online). |
-| **2. Pains** (Dores) | Convênio com academia única só atende quem mora perto; reembolso manual em folha gera atrito trabalhista/tributário e baixa adesão (<10%). | **5. Pain Relievers** (Aliviadores de Dor) | Contrato B2B único com faturamento centralizado, enquadramento jurídico claro de benefício corporativo e cobertura geográfica capilar. |
-| **3. Gains** (Ganhos esperados) | Elevar a taxa de adesão dos colaboradores ativos (meta do RH de sair de menos de 10% para a faixa de 25% a 40%); reduzir absenteísmo e sinistralidade do plano médico; fortalecer a marca empregadora sem esforço administrativo extra. | **6. Gain Creators** (Criadores de ganho) | Relatórios consolidados de adesão para o RH e diretoria; coparticipação flexível por faixa salarial; variedade de modalidades esportivas na mesma mensalidade (com extensão a dependentes nos planos corporativos). |
-
-
-
-
-
-
-
-
-
-
-
+| **1. Jobs** (Trabalhos) | Oferecer benefício de saúde que retenha talentos, gerir bem-estar em múltiplas unidades sem sobrecarga no RH, prestar contas à diretoria sobre o uso do benefício, atender perfis diversos (musculação, natação, ioga, *crossfit*) sem multiplicar contratos. | **4. Products & Services** (Oferta em 2016) | Assinatura corporativa única com acesso a rede credenciada de milhares de academias e estúdios via aplicativo de *check-in* e folha de pagamento (posteriormente ampliada em 2020 para aplicativos de bem-estar e terapia online). |
+| **2. Pains** (Dores) | Convênio com academia única só atende quem mora perto, reembolso manual em folha gera atrito trabalhista/tributário e baixa adesão (<10%). | **5. Pain Relievers** (Aliviadores de Dor) | Contrato B2B único com faturamento centralizado, enquadramento jurídico claro de benefício corporativo e cobertura geográfica capilar. |
+| **3. Gains** (Ganhos esperados) | Elevar a taxa de adesão dos colaboradores ativos (meta do RH de sair de menos de 10% para a faixa de 25% a 40%), reduzir absenteísmo e sinistralidade do plano médico, fortalecer a marca empregadora sem esforço administrativo extra. | **6. Gain Creators** (Criadores de ganho) | Relatórios consolidados de adesão para o RH e diretoria, coparticipação flexível por faixa salarial, variedade de modalidades esportivas na mesma mensalidade (com extensão a dependentes nos planos corporativos). |
 
 **Análise de encaixe.** Há correspondência direta entre as dores e ganhos do RH e os aliviadores da oferta: o Wellhub não precisou reinventar a atividade física, mas eliminar os atritos operacionais que o departamento pessoal enfrentava no modelo tradicional (negociar contrato com dezenas de academias, conferir comprovantes de reembolso, enquadrar o benefício na legislação trabalhista e provar adesão). Uma proposta de valor forte não depende de funcionalidades pirotécnicas, e sim do encaixe exato entre a fricção que o comprador sofre e o trabalho que você retira da mesa dele.
 
 ##### Variações e extensões
 
-- **Diagrama das Quatro Forças de Troca** (Bob Moesta) e **JTBD Canvas** (Jim Kalbach): detalham as forças que impulsionam ou travam a migração (push, pull, ansiedade e hábito), aplicadas diretamente no Template: Entrevista com Switcher mais adiante nesta fase.
+- **Diagrama das Quatro Forças de Troca** (Bob Moesta) e JTBD Canvas (Jim Kalbach): detalham as forças que impulsionam ou travam a migração (push, pull, ansiedade e hábito), aplicadas diretamente no Template: Entrevista com Switcher mais adiante nesta fase.
 - **Empathy Map** (Fase 4): complementar ao Customer Profile, foca em estados internos do cliente (pensa/sente/vê/ouve).
 - **VPC for Multi-Sided Markets**: marketplaces fazem um VPC para cada lado (oferta e demanda).
 
@@ -2997,9 +2962,9 @@ Unificando a linha histórica apresentada na seção de mapeamento da jornada, a
 
 ##### A anatomia visual de uma página
 
-Tela visual organizada em **eixo horizontal de tempo** (etapas cronológicas pelas quais a pessoa passa) e **eixo vertical nas sete dimensões do Passo 3**:
+Tela visual organizada em **eixo horizontal de tempo** (etapas cronológicas pelas quais a pessoa passa) e eixo vertical nas sete dimensões do Passo 3:
 
-- **1. Etapa:** momento cronológico do processo. Na Fase 5 (antes de existir o seu produto), mapeie as etapas da **jornada atual do problema** (por exemplo: *Gatilho da dor → Improviso inicial → Consulta a terceiros → Compra ou paliativo de emergência → Consequência no fechamento*). Quando a empresa já tem produto no ar (ou analisa o funil de um concorrente), as colunas seguem o ciclo de uso (*Descoberta → Consideração → Contratação/Pagamento → Ativação → Uso recorrente → Suporte → Renovação*).
+- **1. Etapa:** momento cronológico do processo. Na Fase 5 (antes de existir o seu produto), mapeie as etapas da jornada atual do problema (por exemplo: *Gatilho da dor → Improviso inicial → Consulta a terceiros → Compra ou paliativo de emergência → Consequência no fechamento*). Quando a empresa já tem produto no ar (ou analisa o funil de um concorrente), as colunas seguem o ciclo de uso (*Descoberta → Consideração → Contratação/Pagamento → Ativação → Uso recorrente → Suporte → Renovação*).
 - **2. Ação:** o que a pessoa faz concretamente naquela etapa.
 - **3. Objetivo:** o que ela tenta resolver naquele passo.
 - **4. Ferramentas atuais:** planilhas, conversas de WhatsApp, cadernos ou sistemas que ela usa hoje naquela etapa.
@@ -3033,13 +2998,13 @@ Use o *Customer Journey Canvas* nesta Fase 5 como entregável central do Dossiê
 
 ##### Princípios práticos para preencher sem se enganar
 
-A premissa central do quadro é que **o cliente vivencia uma sequência contínua de etapas**, enquanto as empresas costumam fatiar o atendimento em silos isolados (marketing, vendas, implantação, produto e suporte). O *Customer Journey Canvas* obriga a equipe a enxergar as passagens de bastão e a **consertar** o elo mais frágil da cadeia: uma venda rápida seguida de ativação confusa destrói a retenção logo no primeiro mês.
+A premissa central do quadro é que o cliente vivencia uma sequência contínua de etapas, enquanto as empresas costumam fatiar o atendimento em silos isolados (marketing, vendas, implantação, produto e suporte). O *Customer Journey Canvas* obriga a equipe a enxergar as passagens de bastão e a consertar o elo mais frágil da cadeia: uma venda rápida seguida de ativação confusa destrói a retenção logo no primeiro mês.
 
 ##### Passo a passo na parede da sala (roteiro de oficina colaborativa)
 
-Pré-requisito nesta Fase 5: ter concluído as **10 a 15 sessões de entrevistas JTBD e pelo menos 5 observações em campo** (quando a empresa já está em operação, na etapa do Volume 4, somam-se dados de uso e satisfação). Reúna os sócios e quem participou das visitas. Tempo estimado: 3 a 4 horas para a primeira versão.
+Pré-requisito nesta Fase 5: ter concluído as 10 a 15 sessões de entrevistas JTBD e pelo menos 5 observações em campo (quando a empresa já está em operação, na etapa do Volume 4, somam-se dados de uso e satisfação). Reúna os sócios e quem participou das visitas. Tempo estimado: 3 a 4 horas para a primeira versão.
 
-1. **Defina escopo da jornada**: começo e fim. Comece **antes** do ponto óbvio: se você é SaaS, jornada começa quando cliente percebe o problema, não quando entra no site.
+1. **Defina escopo da jornada**: começo e fim. Comece antes do ponto óbvio: se você é SaaS, jornada começa quando cliente percebe o problema, não quando entra no site.
 2. **Liste etapas**: 5-10 etapas nomeadas. Use vocabulário do cliente, não interno ("Considera comprar" não "Lead Qualificado").
 3. **Para cada etapa da linha do tempo**, preencha as 7 dimensões padronizadas na fase (Etapa, Ação, Objetivo, Ferramentas atuais, Pontos de dor, Emoções e Oportunidades) com base em citações literais e observações de campo.
 4. **Trace a linha emocional**: atribua emoção dominante a cada etapa.
@@ -3056,16 +3021,16 @@ Para ver como o quadro expõe gargalos ocultos em fluxos transacionais, imagine 
 |---|---|---|---|---|---|---|
 | **Gatilho** | Sente fome às 19h e vê colega pedindo pelo celular | Jantar sem cozinhar | WhatsApp e indicação de amigos | Dúvida se há restaurantes bons que entregam rápido no bairro | Curiosidade | Destacar opções com entrega rápida confirmada para o CEP do usuário |
 | **Descoberta** | Baixa o aplicativo e abre pela primeira vez | Ver opções próximas | Loja de aplicativos e tela inicial | Excesso de restaurantes listados sem curadoria gera paralisia de escolha | Sobrecarga | Criar vitrine "Mais pedidos perto de você hoje" na abertura |
-| **Cadastro** | Preenche nome, e-mail, telefone e endereço | Liberar navegação rápido | Formulário no celular e SMS | Código de confirmação por SMS atrasa; tela pede dados excessivos antes do cardápio | Frustração | Permitir explorar o cardápio antes do cadastro e pedir dados fiscais só no pagamento |
+| **Cadastro** | Preenche nome, e-mail, telefone e endereço | Liberar navegação rápido | Formulário no celular e SMS | Código de confirmação por SMS atrasa, tela pede dados excessivos antes do cardápio | Frustração | Permitir explorar o cardápio antes do cadastro e pedir dados fiscais só no pagamento |
 | **Busca** | Filtra por categoria ou procura restaurante | Achar prato dentro do orçamento | Barra de busca do app | Restaurantes fora do raio de atendimento aparecem na listagem | Decepção | Filtrar estritamente pelo raio de entrega ativo antes de exibir a lista |
 | **Cardápio** | Abre restaurante e escolhe itens | Montar refeição | Cardápio digital no app | Fotos ruins, descrições vagas e preço listado sem exibir taxa de entrega e embalagem | Dúvida | Padronizar cardápios e mostrar taxa de entrega logo na listagem |
 | **Carrinho** | Revisa itens e confere valor total | Confirmar preço final | Tela de sacola do app | Taxa de entrega alta e valor mínimo de pedido surgem de surpresa no fechamento | Irritação | Exibir taxa de entrega e pedido mínimo desde a escolha do restaurante |
-| **Pagamento** | Seleciona meio de pagamento e confirma | Fechar o pedido sem atrito | Cartão de crédito no app ou maquininha | Cartão recusado sem mensagem clara do motivo; autenticação bancária lenta | Ansiedade alta | Habilitar vale-refeição e pagamento na entrega (maquininha ou dinheiro, no contexto de 2017; hoje, Pix com código imediato e carteiras digitais), exibir motivo exato da recusa e manter o carrinho salvo |
-| **Espera** | Acompanha preparo e deslocamento | Saber quando a comida chega na portaria | Tela de status e interfone | Estimativa congela sem atualização; difícil falar com o restaurante em caso de atraso | Impaciência | Rastreamento em tempo real do entregador no mapa e alerta de saída para entrega |
-| **Recebimento** | Recebe o pedido na portaria | Conferir itens e jantar quente | Sacola lacrada | Pedido chega frio ou com item trocado; processo longo para pedir reembolso | Alívio ou frustração | Reembolso imediato no app para item faltante com crédito na conta |
+| **Pagamento** | Seleciona meio de pagamento e confirma | Fechar o pedido sem atrito | Cartão de crédito no app ou maquininha | Cartão recusado sem mensagem clara do motivo, autenticação bancária lenta | Ansiedade alta | Habilitar vale-refeição e pagamento na entrega (maquininha ou dinheiro, no contexto de 2017, hoje, Pix com código imediato e carteiras digitais), exibir motivo exato da recusa e manter o carrinho salvo |
+| **Espera** | Acompanha preparo e deslocamento | Saber quando a comida chega na portaria | Tela de status e interfone | Estimativa congela sem atualização, difícil falar com o restaurante em caso de atraso | Impaciência | Rastreamento em tempo real do entregador no mapa e alerta de saída para entrega |
+| **Recebimento** | Recebe o pedido na portaria | Conferir itens e jantar quente | Sacola lacrada | Pedido chega frio ou com item trocado, processo longo para pedir reembolso | Alívio ou frustração | Reembolso imediato no app para item faltante com crédito na conta |
 | **Pós-uso** | Recebe lembrete pedindo avaliação | Avaliar se a experiência valeu a pena | Notificação no celular ou e-mail | E-mail genérico enviado três dias depois, quando o pedido já foi esquecido | Apatia | Pedir avaliação em um toque no próprio aplicativo logo após a entrega |
 
-O mapeamento lado a lado revela que a maior queda de conversão acontecia na transição entre **Pagamento** e **Espera**: o usuário escolhia o prato, mas abandonava o aplicativo quando o cartão era recusado com um erro genérico e o carrinho se perdia. Isso orienta três intervenções imediatas: oferecer meios alternativos compatíveis com a rotina do público (como vale-refeição e pagamento na maquininha na entrega em 2017, ou Pix imediato hoje), explicar exatamente por que a transação falhou ("cartão sem limite" versus "código de segurança incorreto") e preservar o carrinho preenchido para que a pessoa tente outro meio em um toque. O problema não estava no cardápio, estava no segundo entre tocar em pagar e ver o pedido confirmado.
+O mapeamento lado a lado revela que a maior queda de conversão acontecia na transição entre Pagamento e Espera: o usuário escolhia o prato, mas abandonava o aplicativo quando o cartão era recusado com um erro genérico e o carrinho se perdia. Isso orienta três intervenções imediatas: oferecer meios alternativos compatíveis com a rotina do público (como vale-refeição e pagamento na maquininha na entrega em 2017, ou Pix imediato hoje), explicar exatamente por que a transação falhou ("cartão sem limite" versus "código de segurança incorreto") e preservar o carrinho preenchido para que a pessoa tente outro meio em um toque. O problema não estava no cardápio, estava no segundo entre tocar em pagar e ver o pedido confirmado.
 
 ##### Variações e extensões
 
@@ -3089,7 +3054,7 @@ O mapeamento lado a lado revela que a maior queda de conversão acontecia na tra
 
 **Para que serve.** Consolida cada papel que decide ou usa o produto (duas a quatro personas por negócio) em uma ficha padronizada de nove elementos ancorada nas evidências de campo.
 
-**Quando usar.** Ao final das **10 a 15 sessões de entrevistas JTBD e das 5 observações de campo desta Fase 5**, partindo da Síntese de Rodada da Fase 4. Atualize a ficha sempre que uma nova rodada de campo revelar um padrão relevante ou refinar o segmento de entrada.
+**Quando usar.** Ao final das 10 a 15 sessões de entrevistas JTBD e das 5 observações de campo desta Fase 5, partindo da Síntese de Rodada da Fase 4. Atualize a ficha sempre que uma nova rodada de campo revelar um padrão relevante ou refinar o segmento de entrada.
 
 **Exemplo de preenchimento.** Persona: "Carla, gerente de operações". Contexto: trabalha em uma rede de 12 farmácias regionais e responde direto ao fundador. Motivações: manter a confiança da diretoria e evitar ruptura de medicamentos de giro rápido. Frustrações: fechar o inventário no fim do mês consome um sábado inteiro. Comportamento observado: exporta o relatório do ERP e refaz a conferência no Excel, apesar de o sistema ter módulo de estoque. JTBD: "quando fecho o mês, quero conciliar o estoque físico com o fiscal sem refazer cálculos na mão, para ter meu fim de semana de volta". Citação: "Eu não confio no saldo que o sistema mostra, então confiro tudo na planilha."
 
@@ -3171,13 +3136,13 @@ journey
 #### Template: Entrevista com Switcher (JTBD: entrevista de troca)
 
 > [!important] Disciplina central da entrevista de troca
-> Aplique este roteiro exclusivamente a pessoas que já **trocaram** de solução na prática (abandonaram um concorrente, substituíram uma planilha manual ou migraram de fornecedor), inclusive quando entrevistados da rodada da Fase 4 mencionarem uma mudança recente. O foco é reconstruir o filme real da decisão de compra, e não apenas ouvir queixas genéricas sobre a rotina antiga. Se não houve troca concreta, utilize o Template de Entrevista de Problema da Fase 4.
+> Aplique este roteiro exclusivamente a pessoas que já trocaram de solução na prática (abandonaram um concorrente, substituíram uma planilha manual ou migraram de fornecedor), inclusive quando entrevistados da rodada da Fase 4 mencionarem uma mudança recente. O foco é reconstruir o filme real da decisão de compra, e não apenas ouvir queixas genéricas sobre a rotina antiga. Se não houve troca concreta, utilize o Template de Entrevista de Problema da Fase 4.
 
 A *Switch Interview* (entrevista de troca) é o protocolo criado por Bob Moesta e Chris Spiek para reconstruir passo a passo a linha do tempo de quem trocou recentemente de solução ou fornecedor. Use este roteiro sempre que um entrevistado da Fase 4 ou da Fase 5 mencionar que abandonou uma ferramenta antiga nos últimos meses, mapeando as quatro forças em disputa: empurrão da dor atual (*push*), atração da solução nova (*pull*), ansiedade da mudança (*anxiety*) e hábito que prendia ao modelo antigo (*habit*). O template divide-se em Parte A (guia de condução durante a conversa) e Parte B (ficha de síntese pós-entrevista).
 
 ##### Parte A: Roteiro da Entrevista (uso durante a conversa)
 
-**Duração alvo:** 60 minutos (até 90 minutos quando combinada com observação do local de trabalho) · **Balanço de fala:** o entrevistado deve falar pelo menos 80% do tempo. Se você perceber que está explicando demais, volte às perguntas abertas sobre o dia da compra.
+**Duração alvo:** 60 minutos (até 90 minutos quando combinada com observação do local de trabalho) · Balanço de fala: o entrevistado deve falar pelo menos 80% do tempo. Se você perceber que está explicando demais, volte às perguntas abertas sobre o dia da compra.
 
 **Abertura (2 min)**
 
@@ -3400,11 +3365,9 @@ A *Switch Interview* (entrevista de troca) é o protocolo criado por Bob Moesta 
 
 ### Fechamento da Fase 5: o que muda na sua cabeça e na sua empresa a partir de agora
 
-A **Dra. Camila** só descobriu o que esvaziava as manhãs da sua clínica na Savassi quando parou de falar de escaneamento suíço, sentou na recepção e perguntou a Dona Helena pelo dia em que ela decidiu marcar a consulta. E a equipe do software de fisioterapia em Curitiba só enxergou a janela real de quatro minutos entre um paciente e outro quando foi observar o balcão em silêncio. Ao encerrar esta Fase 5, reúna as duas frentes (a linha do tempo da troca colhida nas entrevistas de *Jobs to Be Done* e a realidade nua das observações de campo) no seu **Dossiê do Usuário**: duas a quatro personas com nove elementos rastreáveis, as jornadas do problema nas sete dimensões, os trabalhos (*jobs*) priorizados e o segmento de entrada (*beachhead*) definido.
+A Dra. Camila só descobriu o que esvaziava as manhãs da sua clínica na Savassi quando parou de falar de escaneamento suíço, sentou na recepção e perguntou a Dona Helena pelo dia em que ela decidiu marcar a consulta. E a equipe do software de fisioterapia em Curitiba só enxergou a janela real de quatro minutos entre um paciente e outro quando foi observar o balcão em silêncio. Ao encerrar esta Fase 5, reúna as duas frentes (a linha do tempo da troca colhida nas entrevistas de *Jobs to Be Done* e a realidade nua das observações de campo) no seu Dossiê do Usuário: duas a quatro personas com nove elementos rastreáveis, as jornadas do problema nas sete dimensões, os trabalhos (*jobs*) priorizados e o segmento de entrada (*beachhead*) definido.
 
-
-
-A **[[#FASE 6: MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 6: Mapeamento de Mercado e Concorrência]]** vai usar esse Dossiê do Usuário para posicionar a sua empresa no terreno competitivo real: dimensionar o mercado de baixo para cima (*bottom-up*), auditar todas as alternativas que disputam o mesmo orçamento (incluindo planilhas e a inércia de não fazer nada) e desenhar o **Canvas da Cunha** para conquistar a sua cabeça de praia.
+A **[[#FASE 6: MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 6: Mapeamento de Mercado e Concorrência]]** vai usar esse Dossiê do Usuário para posicionar a sua empresa no terreno competitivo real: dimensionar o mercado de baixo para cima (*bottom-up*), auditar todas as alternativas que disputam o mesmo orçamento (incluindo planilhas e a inércia de não fazer nada) e desenhar o Canvas da Cunha para conquistar a sua cabeça de praia.
 
 ---
 
@@ -3416,7 +3379,7 @@ Henrique entrou na sala de reunião de um fundo de capital de risco em São Paul
 
 "Henrique, '1% de um mercado trilionário' é a frase mais cara e mais vazia do empreendedorismo. Quem tenta vender para o agronegócio inteiro no primeiro dia fica sem caixa no oitavo mês. Diga-me quais vinte usinas de etanol de milho e biomassa no Mato Grosso e no Paraná não conseguem operar sem o seu sensor amanhã de manhã."
 
-Aquele corte de realidade salvou a startup de **Henrique**. Como mostra Peter Thiel (*Zero to One*, 2014), negócios duradouros começam dominando um nicho pequeno e específico antes de expandir, enquanto quem tenta vender para "qualquer empresa do Brasil" cai na **Ilusão do TAM de Bilhões**. Ao longo desta Fase 6, Henrique aplica esse roteiro passo a passo: no Passo 2, substitui a conta *top-down* por um cálculo *bottom-up* multiplicando as 85 usinas de etanol de milho e cogeração de biomassa mapeadas no Mato Grosso, Paraná e Goiás pelo tíquete anual de R$ 180 mil. No Passo 10, preenche o **Canvas da Cunha** focado em paradas não planejadas de turbina e define o **Dono do Orçamento** (o diretor industrial que assina o piloto dentro da rubrica de manutenção preditiva, respeitando o retorno em até seis meses exigido pela diretoria financeira). No manual de frameworks, analisa seu setor pelas Cinco Forças de Porter, e, no Espelho que fecha a fase, consolida o **Dossiê de Mercado** que lhe abriu as portas dos primeiros pilotos.
+Aquele corte de realidade salvou a startup de Henrique. Como mostra Peter Thiel (*Zero to One*, 2014), negócios duradouros começam dominando um nicho pequeno e específico antes de expandir, enquanto quem tenta vender para "qualquer empresa do Brasil" cai na Ilusão do TAM de Bilhões. Ao longo desta Fase 6, Henrique aplica esse roteiro passo a passo: no Passo 2, substitui a conta *top-down* por um cálculo *bottom-up* multiplicando as 85 usinas de etanol de milho e cogeração de biomassa mapeadas no Mato Grosso, Paraná e Goiás pelo tíquete anual de R$ 180 mil. No Passo 10, preenche o Canvas da Cunha focado em paradas não planejadas de turbina e define o Dono do Orçamento (o diretor industrial que assina o piloto dentro da rubrica de manutenção preditiva, respeitando o retorno em até seis meses exigido pela diretoria financeira). No manual de frameworks, analisa seu setor pelas Cinco Forças de Porter, e, no Espelho que fecha a fase, consolida o Dossiê de Mercado que lhe abriu as portas dos primeiros pilotos.
 
 Pense na Amazon vendendo apenas livros físicos pela internet em 1995, ou na Creditas (fundada por Sergio Furio em 2012 ainda como plataforma de comparação BankFacil), que ao migrar para a originação própria concentrou sua operação inicial no crédito com garantia de imóvel (*home equity*) e no refinanciamento de veículos, enquanto os grandes bancos priorizavam linhas pessoais sem garantia a juros elevados. Na formulação de Geoffrey Moore, você conquista primeiro uma cabeça de praia (*Crossing the Chasm*, 1991) para depois derrubar um pino adjacente por vez na estratégia da pista de boliche (*Inside the Tornado*, 1995). Nesta Fase 6, o objetivo é escolher e validar essa cunha inicial até que os primeiros potenciais compradores caibam nominalmente em uma lista de grupo de WhatsApp.
 
@@ -3427,13 +3390,13 @@ Pense na Amazon vendendo apenas livros físicos pela internet em 1995, ou na Cre
 
 ### Por que mapear o mercado antes de disputar
 
-Fundadores empolgados costumam repetir que "não temos concorrentes diretos" ou que "basta capturar 1% de um mercado bilionário", duas premissas que quase sempre desmoronam no primeiro trimestre comercial. O mapeamento estruturado desta Fase 6, consolidado no **Dossiê de Mercado** e no **Canvas da Cunha**, obriga a identificar quem já disputa o mesmo orçamento (incluindo planilhas, processos internos e a opção do cliente de não fazer nada), quais gigantes adjacentes podem reagir e quais exigências regulatórias condicionam a operação.
+Fundadores empolgados costumam repetir que "não temos concorrentes diretos" ou que "basta capturar 1% de um mercado bilionário", duas premissas que quase sempre desmoronam no primeiro trimestre comercial. O mapeamento estruturado desta Fase 6, consolidado no Dossiê de Mercado e no Canvas da Cunha, obriga a identificar quem já disputa o mesmo orçamento (incluindo planilhas, processos internos e a opção do cliente de não fazer nada), quais gigantes adjacentes podem reagir e quais exigências regulatórias condicionam a operação.
 
 Com esse levantamento feito em conjunto entre produto, comercial e tecnologia antes de definir preço e canal, suas escolhas de posicionamento e de cunha inicial passam a se apoiar na estrutura real do setor.
 
 ### O método em onze passos: dimensionamento de baixo para cima e desenho da cunha
 
-O método percorre onze passos encadeados. Os Passos 1 a 9 estruturam o levantamento competitivo e a síntese do **Dossiê de Mercado** (acompanhados dos critérios de saída da fase, do caso aplicado da PadariaPro e das armadilhas de dimensionamento), enquanto os Passos 10 e 11 fecham a decisão tática com a construção do **Canvas da Cunha** e a aplicação do **Teste de Estresse da Cunha**.
+O método percorre onze passos encadeados. Os Passos 1 a 9 estruturam o levantamento competitivo e a síntese do Dossiê de Mercado (acompanhados dos critérios de saída da fase, do caso aplicado da PadariaPro e das armadilhas de dimensionamento), enquanto os Passos 10 e 11 fecham a decisão tática com a construção do Canvas da Cunha e a aplicação do Teste de Estresse da Cunha.
 
 #### Passo 1: defina o mercado corretamente
 
@@ -3445,7 +3408,7 @@ TAM (*Total Addressable Market*, ou mercado total disponível) é a demanda tota
 
 SAM (mercado que você pode alcançar) é a parte do TAM que a sua empresa pode realisticamente atender: geograficamente, tecnologicamente, regulatoriamente.
 
-SOM (*Serviceable Obtainable Market*, ou mercado atingível na prática) é a fatia do SAM que você consegue conquistar nos primeiros três anos (36 meses), calculada de baixo para cima (*bottom-up*) a partir da sua capacidade real de prospecção, fechamento e implantação (tipicamente de 1% a 5% do SAM no terceiro ano). No caso de **Henrique**, em vez de alegar "1% do PIB do agronegócio", o cálculo *bottom-up* mapeou 85 usinas de etanol de milho e cogeração de biomassa no Mato Grosso, Paraná e Goiás multiplicadas pelo tíquete anual de R$ 180 mil (SAM de R$ 15,3 milhões/ano), projetando capturar 15 usinas até o fim do terceiro ano (SOM de R$ 2,7 milhões de ARR).
+SOM (*Serviceable Obtainable Market*, ou mercado atingível na prática) é a fatia do SAM que você consegue conquistar nos primeiros três anos (36 meses), calculada de baixo para cima (*bottom-up*) a partir da sua capacidade real de prospecção, fechamento e implantação (tipicamente de 1% a 5% do SAM no terceiro ano). No caso de Henrique, em vez de alegar "1% do PIB do agronegócio", o cálculo *bottom-up* mapeou 85 usinas de etanol de milho e cogeração de biomassa no Mato Grosso, Paraná e Goiás multiplicadas pelo tíquete anual de R$ 180 mil (SAM de R$ 15,3 milhões/ano), projetando capturar 15 usinas até o fim do terceiro ano (SOM de R$ 2,7 milhões de ARR).
 
 A visualização em funil de anéis concêntricos (com exemplo numérico B2B coerente na mesma moeda):
 
@@ -3576,14 +3539,14 @@ Documento de dez a vinte páginas contendo: definição precisa do mercado. Cál
 
 ### Critérios de saída da Fase 6
 
-Você concluiu a Fase 6 quando todos os critérios abaixo (consolidando o **Dossiê de Mercado** dos Passos 1 a 9 e o **Canvas da Cunha** dos Passos 10 e 11) estão cumpridos:
+Você concluiu a Fase 6 quando todos os critérios abaixo (consolidando o Dossiê de Mercado dos Passos 1 a 9 e o Canvas da Cunha dos Passos 10 e 11) estão cumpridos:
 
 - [ ] Dossiê de Mercado escrito.
 - [ ] TAM, SAM e SOM calculados *bottom-up* com dados verificáveis (e não por percentual genérico de relatório *top-down*), com premissas explícitas. Para teses voltadas a fundos de capital de risco, demonstre separadamente o SOM atingível em 3 anos (a cunha de entrada) e a expansão em mercados adjacentes que sustente receita potencial acima de R$ 100 milhões em 7 a 10 anos.
 - [ ] De 8 a 12 alternativas mapeadas no total (somando concorrentes diretos, indiretos, mudanças de processo e o *status quo*), com 3 a 5 alternativas prioritárias aprofundadas nas fichas padronizadas de seis dimensões definidas no Passo 3.
 - [ ] CAGR do mercado estimado por duas fontes convergentes. Benchmark: ≥15% (B2B SaaS) ou ≥10% (consumer) sinaliza expansão, abaixo de 5% indica mercado estagnado e exige estratégia diferente.
 - [ ] Dispersão competitiva caracterizada: pela regra prática deste livro baseada na participação dos quatro maiores operadores (CR4), o setor é concentrado quando os quatro líderes somam ≥ 70% de participação, moderado entre 30% e 70%, e fragmentado quando somam < 30% (se utilizar o índice HHI do *Guia para Análise de Atos de Concentração Horizontal* do CADE, de 2016, mercados abaixo de 1.500 pontos são não concentrados, de 1.500 a 2.500 moderadamente concentrados e acima de 2.500 altamente concentrados). Setores fragmentados favorecem a entrada por cunha, setores concentrados exigem diferencial estrutural ou foco em nicho mal atendido.
-- [ ] **Canvas da Cunha** preenchido nos seis blocos essenciais (ICP preciso, dor específica, resultado mensurável, dono do orçamento, Teste do Grupo de WhatsApp e alternativa atual com vantagem), acompanhado do plano de expansão no **Dossiê de Mercado**.
+- [ ] **Canvas da Cunha** preenchido nos seis blocos essenciais (ICP preciso, dor específica, resultado mensurável, dono do orçamento, Teste do Grupo de WhatsApp e alternativa atual com vantagem), acompanhado do plano de expansão no Dossiê de Mercado.
 - [ ] Os quatro critérios de validação da cunha aprovados em conjunto: (1) [[#Template: Teste de Precisão do Comprador (3 critérios obrigatórios)|Teste de Precisão do Comprador]] aprovado nos três critérios obrigatórios do template (e em pelo menos quatro das seis perguntas do checklist complementar de acesso), (2) ausência de escopo instável (nenhum ou no máximo um dos quatro sinais de alerta do Passo 10), (3) cunha vendável de forma autônoma, sem depender de promessa de *roadmap* ou plataforma futura, e (4) aprovação no Teste de Estresse da Cunha do Passo 11.
 - [ ] Posicionamento diferenciado em dimensão valorizada pelo ICP (sem depender apenas de "preço mais baixo" ou "mais funcionalidades").
 - [ ] Regulamentação aplicável investigada, com plano de conformidade.
@@ -3606,13 +3569,13 @@ Você concluiu a Fase 6 quando todos os critérios abaixo (consolidando o **Doss
 
 1. **ICP preciso (segmento inicial da cunha):** Sócios-operadores de pequenas redes de padarias artesanais com três a cinco lojas, produção própria diária e faturamento de R$ 100 mil a R$ 300 mil por mês por loja, na capital paulista e região metropolitana.
 
-2. **Dor específica (e justificativa na pesquisa da [[#FASE 5: PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY)|Fase 5]]):** Perda de R$ 3 mil a R$ 8 mil mensais por loja com desperdício de insumos perecíveis e ruptura de estoque, somada a quatro a oito horas semanais do sócio gastas fechando pedidos manuais de reposição a fornecedores por planilha e WhatsApp. Na Fase 5, esse recorte apresentou severidade 8 a 9 (equivalente a **Pain Level 5**, com gambiarras ativas e orçamento disponível), contra nota 4 a 6 em padarias de loja única.
+2. **Dor específica (e justificativa na pesquisa da [[#FASE 5: PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY)|Fase 5]]):** Perda de R$ 3 mil a R$ 8 mil mensais por loja com desperdício de insumos perecíveis e ruptura de estoque, somada a quatro a oito horas semanais do sócio gastas fechando pedidos manuais de reposição a fornecedores por planilha e WhatsApp. Na Fase 5, esse recorte apresentou severidade 8 a 9 (equivalente a Pain Level 5, com gambiarras ativas e orçamento disponível), contra nota 4 a 6 em padarias de loja única.
 
 3. **Resultado mensurável:** Integrar previsão de demanda por item e disparo automático de pedidos aos fornecedores, com a meta de reduzir o desperdício mensal em 60% a 80% e devolver quatro horas semanais ao sócio-operador (hipótese a validar em piloto de 60 dias com três redes na Fase 8).
 
 4. **Dono do orçamento e critérios de entrada:** O próprio sócio-operador da rede (que controla a rubrica de compras e insumos sem depender de diretoria de TI). Implantação em menos de sete dias, com mensalidade em teste de R$ 400 por loja (R$ 1.200 a R$ 2.000 mensais para redes de três a cinco unidades), 30 dias iniciais de teste e integração com dois moinhos fornecedores (Anaconda e Moinho da Serra).
 
-5. **Teste do Grupo de WhatsApp e alternativa atual:** A partir de um universo estimado em cerca de 400 pequenas redes artesanais na Grande São Paulo (cruzando dados da ABIP, feiras como a FIPAN e busca ativa), os fundadores listaram nominalmente **180 redes específicas** (dentro da régua de 100 a 300 da cunha), com um **núcleo inicial de 27 sócios-operadores** já mapeados com nome e contato (12 diretos e 15 via associação). A alternativa atual é a planilha de Excel combinada a mensagens manuais no WhatsApp, a vantagem em uma frase é cortar até R$ 5 mil mensais de desperdício por loja e 4 horas semanais de retrabalho por uma mensalidade de R$ 400 por unidade.
+5. **Teste do Grupo de WhatsApp e alternativa atual:** A partir de um universo estimado em cerca de 400 pequenas redes artesanais na Grande São Paulo (cruzando dados da ABIP, feiras como a FIPAN e busca ativa), os fundadores listaram nominalmente 180 redes específicas (dentro da régua de 100 a 300 da cunha), com um núcleo inicial de 27 sócios-operadores já mapeados com nome e contato (12 diretos e 15 via associação). A alternativa atual é a planilha de Excel combinada a mensagens manuais no WhatsApp, a vantagem em uma frase é cortar até R$ 5 mil mensais de desperdício por loja e 4 horas semanais de retrabalho por uma mensalidade de R$ 400 por unidade.
 
 6. **Notas para o Dossiê de Mercado (defensabilidade e expansão pós-cunha):** A defesa após a entrada apoia-se nas integrações com o faturamento dos fornecedores de panificação (três a seis meses de homologação), no histórico de giro por SKU e na indicação entre panificadores. O plano de expansão prevê: no Ano 1, Grande São Paulo (meta de 50 lojas pagantes), no Ano 2, Campinas, Grande Rio e Belo Horizonte, e no Ano 3, redes regionais de seis a dez lojas.
 
@@ -3627,11 +3590,11 @@ Competidores e reação potencial:
 
 Checklist complementar de acesso ao comprador (aplicado ao caso PadariaPro após os três critérios do Teste de Precisão).
 
-- [x] Consigo descrever o comprador em uma frase com quatro ou mais atributos? Sim. "Dono-operador de três a cinco padarias artesanais em SP, trinta a quarenta e cinco anos, adota app se vê valor em uma semana."
+- [x] Consigo descrever o comprador em uma frase com quatro ou mais atributos? Sim: "Dono-operador de três a cinco padarias artesanais em SP, trinta a quarenta e cinco anos, adota app se vê valor em uma semana."
 - [x] Consigo listar ao menos vinte decisores reais do núcleo inicial? Sim: 27 sócios-operadores já identificados pelo nome (12 contatos diretos e 15 via associação regional ABIP), dentro da lista ampliada de 180 redes da cunha em São Paulo.
-- [x] Identifiquei três gatilhos que fariam essa pessoa comprar agora? Sim. Ruptura recente, nova loja, indicação.
-- [x] Tenho acesso direto ou via rede a dez ou mais pessoas desse perfil? Sim. Doze contatos diretos mais oito via rede.
-- [ ] Já validei disposição a pagar com cinco ou mais pessoas do perfil? Não. Só dois até agora.
+- [x] Identifiquei três gatilhos que fariam essa pessoa comprar agora? Sim: Ruptura recente, nova loja, indicação.
+- [x] Tenho acesso direto ou via rede a dez ou mais pessoas desse perfil? Sim: Doze contatos diretos mais oito via rede.
+- [ ] Já validei disposição a pagar com cinco ou mais pessoas do perfil? Não: Só dois até agora.
 - [ ] Consigo vender para esse perfil com discurso de menos de dez minutos? Não testado ainda.
 
 Score quatro sobre seis. A cunha é viável, mas duas dimensões precisam de validação adicional antes de investir em produto.
@@ -3652,7 +3615,7 @@ Regulamentação tratada como detalhe e a covardia estratégica de não excluir 
 
 #### Passo 10: construa o Canvas da Cunha (parte central)
 
-Este passo sintetiza na pratica o levantamento dos Passos 1 a 9. Sem definir a cunha de entrada no **Canvas da Cunha**, o **Dossiê de Mercado** corre o risco de virar apenas um relatório panorâmico sem direção comercial. A pergunta decisiva desta etapa é direta: **por qual subsegmento específico começaremos a vender na segunda-feira?** A resposta operacional é a Estratégia da Cunha (*Wedge Strategy*).
+Este passo sintetiza na pratica o levantamento dos Passos 1 a 9. Sem definir a cunha de entrada no Canvas da Cunha, o Dossiê de Mercado corre o risco de virar apenas um relatório panorâmico sem direção comercial. A pergunta decisiva desta etapa é direta: por qual subsegmento específico começaremos a vender na segunda-feira? A resposta operacional é a Estratégia da Cunha (*Wedge Strategy*).
 
 A cunha é um ponto de entrada restrito e de alta alavancagem. Empresas que tentam vender desde o primeiro dia "para pequenas e médias empresas em geral" ou "para qualquer indústria" diluem o esforço: com foco largo, a mensagem fica genérica, o custo de aquisição sobe e o produto serve mal a todos. A cunha inverte essa lógica: entra por uma fresta específica, domina o subsegmento inicial e só então expande.
 
@@ -3685,7 +3648,7 @@ Segundo, a frase usa cargos reais existentes no organograma do cliente. Não "to
 
 Terceiro, o orçamento mencionado é uma rubrica existente no cliente, e não uma linha orçamentária nova que ele precisaria criar para comprar de você. Quando a compra exige abrir rubrica inédita, o ciclo de decisão se alonga em várias vezes.
 
-Exemplo aplicado em serviços B2B: "Nós vendemos para o sócio-administrador de redes independentes de óticas com duas a cinco unidades no interior de SP e MG (enquanto o gerente de operações atua como campeão interno), porque essa pessoa responde pelo fechamento da conciliação com convênios toda sexta-feira e controla o orçamento operacional da unidade (R$ 800 a R$ 2.500 mensais para sistemas de gestão)." Da mesma forma, na cunha industrial de **Henrique**: "Nós vendemos para o Diretor Industrial de usinas de etanol de milho e biomassa no Mato Grosso e no Paraná, porque ele responde pela disponibilidade contínua da planta na safra e controla a rubrica anual de manutenção preditiva."
+Exemplo aplicado em serviços B2B: "Nós vendemos para o sócio-administrador de redes independentes de óticas com duas a cinco unidades no interior de SP e MG (enquanto o gerente de operações atua como campeão interno), porque essa pessoa responde pelo fechamento da conciliação com convênios toda sexta-feira e controla o orçamento operacional da unidade (R$ 800 a R$ 2.500 mensais para sistemas de gestão)." Da mesma forma, na cunha industrial de Henrique: "Nós vendemos para o Diretor Industrial de usinas de etanol de milho e biomassa no Mato Grosso e no Paraná, porque ele responde pela disponibilidade contínua da planta na safra e controla a rubrica anual de manutenção preditiva."
 
 Se a sua versão da frase exige asteriscos, exceções, ou "depende do tamanho da empresa", o elemento quatro da sua cunha ainda está instável. Volte às entrevistas ([[#FASE 5: PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY)|Fase 5]]) com foco em três perguntas: quem autorizou a compra mais recente de algo parecido. Quanto gastou, e qual dor específica motivou a liberação do orçamento.
 
@@ -3776,40 +3739,7 @@ flowchart TD
  style Q6 fill:#90EE90
 ```
 
-Preencha cada bloco com números e cargos reais, sem adjetivos genéricos. O formulário completo para impressão e preenchimento (incluindo o checklist dos quatro critérios de validação da cunha) encontra-se na seção final desta fase, em [[#Template: Canvas da Cunha|Template: Canvas da Cunha]]. Veja como **Henrique** sintetizou os seis blocos para a sua cunha industrial antes de voltar ao fundo:
-
-- **1. ICP preciso:** Usinas de etanol de milho e cogeração de biomassa de médio e grande porte no Mato Grosso, Paraná e Goiás (85 plantas mapeadas) que operam turbinas a vapor em regime contínuo de safra.
-- **2. Dor específica:** Paradas não planejadas em turbinas e redutores por falha de rolamento não detectada nas rondas manuais, custando de R$ 150 mil a R$ 400 mil por dia de moagem interrompida.
-- **3. Resultado mensurável:** Antecipar anomalias vibracionais e térmicas com 14 a 30 dias de antecedência, evitando ao menos uma parada decisiva por safra (retorno financeiro integral do contrato anual em menos de seis meses).
-- **4. Dono do orçamento:** Diretor Industrial da usina (comprador econômico que assina o piloto dentro da rubrica existente de manutenção preditiva, de R$ 180 mil/ano por planta, tendo o Gerente de Manutenção Confiabilidade como campeão interno).
-- **5. Teste do Grupo de WhatsApp:** 170 decisores técnicos nominais listados nas 85 usinas do recorte (Diretor Industrial e Gerente de Confiabilidade de cada planta), com núcleo imediato de 42 contatos diretos obtidos via associação setorial e ex-colegas de engenharia.
-- **6. Alternativa atual e vantagem:** Coleta manual de vibração com coletor portátil a cada 30 dias somada a planilhas de manutenção preventiva. Vantagem em uma frase: monitoramento contínuo 24/7 com alerta preditivo validado para turbinas de biomassa por R$ 15 mil/mês, menos de um décimo do prejuízo de um único turno parado.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Com esses seis blocos validados no [[#Template: Canvas da Cunha|Template: Canvas da Cunha]], o fundador amarra o produto inicial, o comprador econômico e a métrica de sucesso antes de abrir o Volume 3.
-
-Sem esse canvas preenchido, continuam indefinidos o produto inicial, o comprador econômico e a métrica de sucesso. Não adianta avançar para a formulação de hipóteses ([[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 7: FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 7 (Vol. 3)]]) sem isso resolvido.
+Preencha cada bloco com números e cargos reais, sem adjetivos genéricos. O formulário completo para impressão e preenchimento (incluindo o caso preenchido da operação industrial de Henrique em Curitiba) encontra-se unificado ao final desta fase no [[#Template: Canvas da Cunha|Template: Canvas da Cunha]], amarre ali o produto inicial, o comprador econômico e a métrica de sucesso antes de avançar para a [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 7: FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 7 (Vol. 3)]].
 
 #### Passo 11: aplique o Teste de Estresse da Cunha (cinco minutos, Wedge Stress Test)
 
@@ -3887,12 +3817,11 @@ flowchart TD
 
 Falha em qualquer etapa significa voltar à fase anterior, não pular adiante. Sem ICP específico, mapa de problemas, e canvas da cunha preenchidos, as hipóteses geradas serão vagas e os experimentos virão ambíguos.
 
-
 ---
 
 ### O Espelho da Fase 6: você escolheu uma cabeça de praia ou está atirando no oceano?
 
-Duas semanas depois do corte que levou na primeira reunião em São Paulo, **Henrique** voltou ao fundo de capital de risco sem o slide do PIB trilionário do agronegócio. Levou na pasta a conta *bottom-up* das 85 usinas de etanol de milho e biomassa mapeadas no Mato Grosso, Paraná e Goiás (SAM de R$ 15,3 milhões a R$ 180 mil por planta ao ano e SOM de R$ 2,7 milhões com 15 usinas em três anos), a lista nominal de 170 decisores técnicos (com núcleo imediato de 42 diretores industriais e gerentes de manutenção que já alcançava diretamente) e o escopo fechado na prevenção de paradas não planejadas de turbina. O gestor examinou a planilha por dez minutos, agendou a diligência técnica e apresentou Henrique a dois diretores de usinas em Lucas do Rio Verde e Sorriso.
+Duas semanas depois do corte que levou na primeira reunião em São Paulo, Henrique voltou ao fundo de capital de risco sem o slide do PIB trilionário do agronegócio. Levou na pasta a conta *bottom-up* das 85 usinas de etanol de milho e biomassa mapeadas no Mato Grosso, Paraná e Goiás (SAM de R$ 15,3 milhões a R$ 180 mil por planta ao ano e SOM de R$ 2,7 milhões com 15 usinas em três anos), a lista nominal de 170 decisores técnicos (com núcleo imediato de 42 diretores industriais e gerentes de manutenção que já alcançava diretamente) e o escopo fechado na prevenção de paradas não planejadas de turbina. O gestor examinou a planilha por dez minutos, agendou a diligência técnica e apresentou Henrique a dois diretores de usinas em Lucas do Rio Verde e Sorriso.
 
 **O Espelho (autodiagnóstico):**
 1. Assim como Henrique fez ao trocar o slide de "1% do PIB do agro" pela conta das 85 usinas a R$ 180 mil/ano, você já calculou o seu SOM de 3 anos de baixo para cima (*bottom-up*), multiplicando o número real de clientes acessíveis na sua cunha pelo tíquete anual?
@@ -3929,7 +3858,7 @@ Abra a sua lista da cunha e dedique 30 minutos toda segunda-feira para alimentar
 
 ##### De onde vem a ferramenta (e por que sobreviveu ao filtro do tempo)
 
-Michael Porter, professor de Harvard Business School, publicou "How Competitive Forces Shape Strategy" na Harvard Business Review em 1979. O framework foi consolidado em seu livro *Competitive Strategy* (1980), obra considerada fundacional da estratégia corporativa moderna. A motivação era responder à pergunta: **por que algumas indústrias são estruturalmente mais lucrativas que outras?**
+Michael Porter, professor de Harvard Business School, publicou "How Competitive Forces Shape Strategy" na Harvard Business Review em 1979. O framework foi consolidado em seu livro *Competitive Strategy* (1980), obra considerada fundacional da estratégia corporativa moderna. A motivação era responder à pergunta: por que algumas indústrias são estruturalmente mais lucrativas que outras?
 
 ##### A mecânica central (sem jargão)
 
@@ -3945,7 +3874,7 @@ As cinco forças que compõem a análise:
 
 3. Poder de barganha dos compradores: quando compradores são grandes, poucos ou bem-informados, podem exigir preços baixos e condições favoráveis.
 
-4. Ameaça de produtos substitutos: produtos de outras categorias que resolvem o mesmo JTBD. Ex.: Zoom substitui voos de negócios. Netflix substitui cinema.
+4. Ameaça de produtos substitutos: produtos de outras categorias que resolvem o mesmo JTBD, por exemplo: Zoom substitui voos de negócios. Netflix substitui cinema.
 
 5. Rivalidade entre competidores existentes: intensidade da competição atual. Muitos competidores semelhantes, crescimento lento, custos fixos altos e barreiras de saída amplificam rivalidade.
 
@@ -3965,7 +3894,7 @@ Passo 6: Revisitar a cada 12-24 meses. Indústrias mudam.
 
 ##### Na trincheira real: como isso funciona na prática
 
-Aplicação dupla: (A) SaaS B2B de gestão financeira para PMEs brasileiras e (B) a cunha industrial de **Henrique** (monitoramento preditivo para usinas de etanol de milho e biomassa).
+Aplicação dupla: (A) SaaS B2B de gestão financeira para PMEs brasileiras e (B) a cunha industrial de Henrique (monitoramento preditivo para usinas de etanol de milho e biomassa).
 
 - *Novos entrantes*: MÉDIO. Capital inicial moderado (R$ 2-5M para MVP competitivo), mas marca e integrações com bancos/Receita Federal criam barreiras.
 - *Fornecedores*: BAIXO. Cloud commoditizado (AWS/GCP), frameworks open-source.
@@ -3973,7 +3902,7 @@ Aplicação dupla: (A) SaaS B2B de gestão financeira para PMEs brasileiras e (B
 - *Substitutos*: ALTO no SaaS financeiro (planilha de Excel, escritório contábil terceirizado e pacotes digitais dos próprios bancos PJ), MÉDIO-ALTO na cunha de Henrique (rondas manuais com coletores portáteis e manutenção preventiva por calendário fixo).
 - *Rivalidade*: ALTA no SaaS financeiro (Conta Azul, Omie, Nibo e ERPs de entrada como Bling e Tiny, além de contas PJ integradas como Conta Simples), MODERADA na cunha de Henrique (fabricantes globais de sensores atendem grandes siderúrgicas e petroquímicas, mas deixam descoberta a calibração específica para turbinas de biomassa no Centro-Oeste).
 
-Leitura estratégica: no SaaS financeiro horizontal, a rivalidade e os substitutos comprimem a margem de novos entrantes, exigindo verticalização profunda. Já na cunha de **Henrique**, embora o poder de barganha de cada usina compradora seja médio-alto e os componentes eletrônicos importados exijam gestão de fornecedores, a baixa presença de especialistas locais em turbinas de biomassa abre espaço para entrar com contrato de retorno rápido.
+Leitura estratégica: no SaaS financeiro horizontal, a rivalidade e os substitutos comprimem a margem de novos entrantes, exigindo verticalização profunda. Já na cunha de Henrique, embora o poder de barganha de cada usina compradora seja médio-alto e os componentes eletrônicos importados exijam gestão de fornecedores, a baixa presença de especialistas locais em turbinas de biomassa abre espaço para entrar com contrato de retorno rápido.
 
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
@@ -3981,11 +3910,11 @@ Análise superficial: afirmar que a "rivalidade é alta" sem levantar quantos co
 
 ---
 
-#### Framework: Matriz SWOT / TOWS (Albert Humphrey, anos 1960; Heinz Weihrich, 1982)
+#### Framework: Matriz SWOT / TOWS (Albert Humphrey, anos 1960, Heinz Weihrich, 1982)
 
 ##### De onde vem a ferramenta (e por que sobreviveu ao filtro do tempo)
 
-SWOT (Strengths, Weaknesses, Opportunities, Threats) emergiu de pesquisa conduzida no Stanford Research Institute entre 1960 e 1970, em estudo de planejamento estratégico de empresas da Fortune 500 ligado ao programa Team Action Management. Albert Humphrey é a atribuição mais comum, embora a paternidade seja parcialmente disputada (alguns acadêmicos creditam Smith Jr., Christensen e Andrews em Harvard nos anos 1950). Segundo o relato difundido no SRI (que carece de documento primário e convive com os registros anteriores do curso de Business Policy da HBS), a versão inicial chamava-se SOFT (Satisfactory, Opportunity, Fault, Threat), apresentada em seminário em Zurique em 1964; Urick e Orr renomearam para SWOT em publicação posterior. A variação TOWS foi proposta por Heinz Weihrich em 1982, invertendo a ordem para enfatizar o cruzamento entre fatores internos e externos. Virou uma das ferramentas mais usadas (e mais mal-usadas) de gestão no mundo.
+SWOT (Strengths, Weaknesses, Opportunities, Threats) emergiu de pesquisa conduzida no Stanford Research Institute entre 1960 e 1970, em estudo de planejamento estratégico de empresas da Fortune 500 ligado ao programa Team Action Management. Albert Humphrey é a atribuição mais comum, embora a paternidade seja parcialmente disputada (alguns acadêmicos creditam Smith Jr., Christensen e Andrews em Harvard nos anos 1950). Segundo o relato difundido no SRI (que carece de documento primário e convive com os registros anteriores do curso de Business Policy da HBS), a versão inicial chamava-se SOFT (Satisfactory, Opportunity, Fault, Threat), apresentada em seminário em Zurique em 1964, Urick e Orr renomearam para SWOT em publicação posterior. A variação TOWS foi proposta por Heinz Weihrich em 1982, invertendo a ordem para enfatizar o cruzamento entre fatores internos e externos. Virou uma das ferramentas mais usadas (e mais mal-usadas) de gestão no mundo.
 
 ##### A mecânica central (sem jargão)
 
@@ -3994,7 +3923,7 @@ Framework de diagnóstico estratégico que mapeia:
 - Fatores internos (controláveis pela empresa): Strengths (forças) e Weaknesses (fraquezas).
 - Fatores externos (do mercado/contexto): Opportunities (oportunidades) e Threats (ameaças).
 
-O valor real não está na listagem dos 4 quadrantes, está nos **cruzamentos** da matriz TOWS, que geram estratégias específicas.
+O valor real não está na listagem dos 4 quadrantes, está nos cruzamentos da matriz TOWS, que geram estratégias específicas.
 
 ##### As regras do jogo
 
@@ -4115,10 +4044,10 @@ Passo 6: Balanceie o portfólio. Conglomerado saudável tem mix: Cash Cows finan
 
 Grupo brasileiro com 4 unidades de negócio (exemplo hipotético):
 
-- Unidade A, Streaming de conteúdo religioso: 40% market share no segmento, mercado cresce 20% a.a. → **STAR**. Investir.
-- Unidade B, Portal de notícias gospel: 55% market share, mercado cresce 2% a.a. → **CASH COW**. Ordenhar caixa para financiar Unidade A.
-- Unidade C, Loja virtual de livros: 5% market share, mercado cresce 15% a.a. → **QUESTION MARK**. Decidir: investir pesado para virar Star, ou sair.
-- Unidade D, Revista impressa: 8% market share, mercado encolhe 10% a.a. → **DOG**. Turnaround ou desinvestir.
+- Unidade A, Streaming de conteúdo religioso: 40% market share no segmento, mercado cresce 20% a.a. → STAR. Investir.
+- Unidade B, Portal de notícias gospel: 55% market share, mercado cresce 2% a.a. → CASH COW. Ordenhar caixa para financiar Unidade A.
+- Unidade C, Loja virtual de livros: 5% market share, mercado cresce 15% a.a. → QUESTION MARK. Decidir: investir pesado para virar Star, ou sair.
+- Unidade D, Revista impressa: 8% market share, mercado encolhe 10% a.a. → DOG. Turnaround ou desinvestir.
 
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
@@ -4130,7 +4059,7 @@ Aplicar a uma startup de produto único: a Matriz BCG foi concebida para arbitra
 
 ##### De onde vem a ferramenta (e por que sobreviveu ao filtro do tempo)
 
-Desenvolvida em parceria entre General Electric e McKinsey nos anos 1970, como **evolução da BCG Matrix**. Sob a liderança de Fred Borch e, na sequência, de Reginald Jones, a GE empregou a ferramenta para reorganizar seu portfólio corporativo em cerca de 40 unidades estratégicas de negócio (conforme registro histórico de 2008 da própria consultoria). A McKinsey Matrix (ou GE-McKinsey Matrix) supera o BCG ao ser **multivariada** em ambos eixos.
+Desenvolvida em parceria entre General Electric e McKinsey nos anos 1970, como evolução da BCG Matrix. Sob a liderança de Fred Borch e, na sequência, de Reginald Jones, a GE empregou a ferramenta para reorganizar seu portfólio corporativo em cerca de 40 unidades estratégicas de negócio (conforme registro histórico de 2008 da própria consultoria). A McKinsey Matrix (ou GE-McKinsey Matrix) supera o BCG ao ser multivariada em ambos eixos.
 
 ##### A mecânica central (sem jargão)
 
@@ -4163,11 +4092,11 @@ Passo 5: Estratégia por zona.
 
 Conglomerado diversificado com 5 unidades:
 
-- U1, SaaS de gestão hospitalar: atratividade alta (setor cresce 18%/ano, margem 75%), posição alta (40% share em nicho) → **Zona Verde. Investir agressivamente**.
-- U2, Distribuidora de medicamentos: atratividade média, posição alta → **Zona Verde. Investir para crescer e consolidar liderança.**
-- U3, Loja virtual de suplementos: atratividade média, posição baixa → **Zona Vermelha. Colher caixa seletivamente ou sair.**
-- U4, Editora impressa: atratividade baixa, posição média → **Zona Vermelha. Ordenhar caixa.**
-- U5, Rádio local: atratividade baixa, posição baixa → **Zona Vermelha. Desinvestir.**
+- U1, SaaS de gestão hospitalar: atratividade alta (setor cresce 18%/ano, margem 75%), posição alta (40% share em nicho) → Zona Verde. Investir agressivamente.
+- U2, Distribuidora de medicamentos: atratividade média, posição alta → Zona Verde. Investir para crescer e consolidar liderança.
+- U3, Loja virtual de suplementos: atratividade média, posição baixa → Zona Vermelha. Colher caixa seletivamente ou sair.
+- U4, Editora impressa: atratividade baixa, posição média → Zona Vermelha. Ordenhar caixa.
+- U5, Rádio local: atratividade baixa, posição baixa → Zona Vermelha. Desinvestir.
 
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
@@ -4233,11 +4162,11 @@ Diversificação prematura: startup com um único produto que tenta lançar uma 
 
 ##### De onde vem a ferramenta (e por que sobreviveu ao filtro do tempo)
 
-A primeira formulação foi de Francis Aguilar em *Scanning the Business Environment* (1967), com o acrônimo **ETPS** (Economic, Technical, Political, Social). Arnold Brown, no Institute of Life Insurance, reorganizou para STEP (Strategic Trend Evaluation Process). Ao longo dos anos 1970-1980 evoluiu para STEPE, STEEP, PEST, e finalmente PESTEL/PESTLE (acrescentando Environmental e Legal), PESTELID (acrescentando International e Demographic) e outras variações. É framework de análise de **macroambiente**.
+A primeira formulação foi de Francis Aguilar em *Scanning the Business Environment* (1967), com o acrônimo ETPS (Economic, Technical, Political, Social). Arnold Brown, no Institute of Life Insurance, reorganizou para STEP (Strategic Trend Evaluation Process). Ao longo dos anos 1970-1980 evoluiu para STEPE, STEEP, PEST, e finalmente PESTEL/PESTLE (acrescentando Environmental e Legal), PESTELID (acrescentando International e Demographic) e outras variações. É framework de análise de macroambiente.
 
 ##### A mecânica central (sem jargão)
 
-Framework para mapear forças externas ao negócio que podem impactar operação e estratégia. Diferente das 5 Forças (que analisam indústria), PESTEL analisa o **ambiente macro**.
+Framework para mapear forças externas ao negócio que podem impactar operação e estratégia. Diferente das 5 Forças (que analisam indústria), PESTEL analisa o ambiente macro.
 
 ##### As regras do jogo
 
@@ -4351,7 +4280,7 @@ Cadeia genérica: aplicar template industrial sem adaptar a negócio digital. Me
 
 ##### De onde vem a ferramenta (e por que sobreviveu ao filtro do tempo)
 
-Jay Barney, professor da Ohio State University, publicou "Firm Resources and Sustained Competitive Advantage" no *Journal of Management* em 1991, formalizando a Visão Baseada em Recursos (*Resource-Based View*, RBV) e o modelo **VRIN** (*Valuable, Rare, Inimitable, Non-substitutable*). Em 1995, no artigo "Looking Inside for Competitive Advantage" (*Academy of Management Executive*, fonte original da sigla **VRIO**), Barney substituiu *Non-substitutability* por *Organization*, destacando a capacidade organizacional de capturar valor dos recursos, tese aprofundada nas edições de *Gaining and Sustaining Competitive Advantage* (1ª edição de 1996; 2ª edição de 2001). Em contraste com a análise setorial de Porter, a RBV sustenta que vantagens duradouras nascem de ativos internos difíceis de replicar.
+Jay Barney, professor da Ohio State University, publicou "Firm Resources and Sustained Competitive Advantage" no *Journal of Management* em 1991, formalizando a Visão Baseada em Recursos (*Resource-Based View*, RBV) e o modelo VRIN (*Valuable, Rare, Inimitable, Non-substitutable*). Em 1995, no artigo "Looking Inside for Competitive Advantage" (*Academy of Management Executive*, fonte original da sigla VRIO), Barney substituiu *Non-substitutability* por *Organization*, destacando a capacidade organizacional de capturar valor dos recursos, tese aprofundada nas edições de *Gaining and Sustaining Competitive Advantage* (1ª edição de 1996, 2ª edição de 2001). Em contraste com a análise setorial de Porter, a RBV sustenta que vantagens duradouras nascem de ativos internos difíceis de replicar.
 
 ##### A mecânica central (sem jargão)
 
@@ -4406,29 +4335,29 @@ Listar como recurso o que é insumo genérico: "capital", "time talentoso", "tec
 
 ##### De onde vem a ferramenta (e por que sobreviveu ao filtro do tempo)
 
-Hamilton Helmer, doutor em economia pela Universidade Yale, cofundador da Strategy Capital e professor em Stanford, assessorou empresas como a Netflix e o Spotify em decisões estratégicas de longo prazo. Em 2016, publicou *7 Powers: The Foundations of Business Strategy* com uma tese direta: existem **sete formas fundamentais de poder** (vantagem competitiva estrutural e persistente), e toda empresa duradoura apoia-se em pelo menos uma delas.
+Hamilton Helmer, doutor em economia pela Universidade Yale, cofundador da Strategy Capital e professor em Stanford, assessorou empresas como a Netflix e o Spotify em decisões estratégicas de longo prazo. Em 2016, publicou *7 Powers: The Foundations of Business Strategy* com uma tese direta: existem sete formas fundamentais de poder (vantagem competitiva estrutural e persistente), e toda empresa duradoura apoia-se em pelo menos uma delas.
 
 ##### A mecânica central (sem jargão)
 
-Framework para analisar **defensibilidade estrutural**: o que faz empresa gerar retornos acima do custo de capital **de forma persistente**. Complementa 5 Forças (que olha indústria) e Playing to Win (que olha escolhas estratégicas).
+Framework para analisar **defensibilidade estrutural**: o que faz empresa gerar retornos acima do custo de capital de forma persistente. Complementa 5 Forças (que olha indústria) e Playing to Win (que olha escolhas estratégicas).
 
 ##### Princípios / estrutura: Os 7 Poderes
 
-1. Scale Economies: custo unitário cai com volume (caso clássico): Ex.: Netflix com conteúdo (produção de custo fixo diluída em milhões de assinantes).
+1. Scale Economies: custo unitário cai com volume. Clássico, por exemplo: Netflix com conteúdo (produção de custo fixo diluída em milhões de assinantes).
 
-2. Network Economies: valor do produto aumenta com número de usuários. Ex.: WhatsApp, LinkedIn, marketplaces.
+2. Network Economies: valor do produto aumenta com número de usuários, por exemplo: WhatsApp, LinkedIn, marketplaces.
 
-3. Counter-Positioning: incumbente não pode copiar seu modelo sem canibalizar próprio negócio. Ex.: Vanguard (fundos passivos) vs. gestoras ativas tradicionais.
+3. Counter-Positioning: incumbente não pode copiar seu modelo sem canibalizar próprio negócio, por exemplo: Vanguard (fundos passivos) vs. gestoras ativas tradicionais.
 
-4. Switching Costs: custo para cliente migrar para concorrente (financeiro, operacional, de relacionamento). Ex.: Salesforce, Slack.
+4. Switching Costs: custo para cliente migrar para concorrente (financeiro, operacional, de relacionamento), por exemplo: Salesforce, Slack.
 
-5. Branding: marca que cria valor percebido acima do funcional. Ex.: Apple, Tiffany, Hermès.
+5. Branding: marca que cria valor percebido acima do funcional, por exemplo: Apple, Tiffany, Hermès.
 
-6. Cornered Resource: acesso exclusivo a recurso decisivo (patente, contrato, talento único). Ex.: de Beers com diamantes por décadas, certas patentes farmacêuticas.
+6. Cornered Resource: acesso exclusivo a recurso decisivo (patente, contrato, talento único), por exemplo: de Beers com diamantes por décadas, certas patentes farmacêuticas.
 
-7. Process Power: conjunto de processos complexos que concorrentes não conseguem replicar rapidamente. Ex.: Toyota Production System, Amazon supply chain.
+7. Process Power: conjunto de processos complexos que concorrentes não conseguem replicar rapidamente, por exemplo: Toyota Production System, Amazon supply chain.
 
-Cada poder tem **benefício** (efeito de vantagem) e **barreira** (o que impede concorrentes de copiar). Ambos necessários.
+Cada poder tem **benefício** (efeito de vantagem) e barreira (o que impede concorrentes de copiar). Ambos necessários.
 
 ##### Execução prática com a equipe
 
@@ -4473,7 +4402,7 @@ Geoffrey Moore, consultor de estratégia tecnológica, publicou *Crossing the Ch
 
 ##### A mecânica central (sem jargão)
 
-Framework que mapeia adoção de tecnologia em 5 estágios (Technology Adoption Lifecycle de Everett Rogers) com foco em **atravessar o chasm** entre Early Adopters e Early Majority, onde maioria das startups morre.
+Framework que mapeia adoção de tecnologia em 5 estágios (Technology Adoption Lifecycle de Everett Rogers) com foco em atravessar o chasm entre Early Adopters e Early Majority, onde maioria das startups morre.
 
 ##### As regras do jogo
 
@@ -4485,7 +4414,7 @@ Cinco segmentos do ciclo de adoção de Everett Rogers, adaptados por Moore:
 4. *Late Majority* (34%): conservadores que compram apenas quando a solução já virou padrão consolidado.
 5. *Laggards* (16%): céticos resistentes, os últimos a adotar.
 
-O Chasm: Early Adopters querem inovação. Early Majority quer **solução comprovada para problema específico**. São mercados quase distintos, o que vende para um não vende para outro.
+O Chasm: Early Adopters querem inovação. Early Majority quer solução comprovada para problema específico. São mercados quase distintos, o que vende para um não vende para outro.
 
 Solução de Moore: conquistar primeiro uma cabeça de praia (*Crossing the Chasm*, 1991) e depois derrubar os pinos adjacentes na estratégia da pista de boliche (*Inside the Tornado*, 1995):
 
@@ -4534,7 +4463,7 @@ Tentar um posicionamento horizontal cedo demais ("atendemos qualquer PME"), faze
 
 ##### De onde vem a ferramenta (e por que sobreviveu ao filtro do tempo)
 
-Al Ramadan, Christopher Lochhead, Dave Peterson e Kevin Maney publicaram *Play Bigger: How Pirates, Dreamers, and Innovators Create and Dominate Markets* em 2016. A tese central da obra é que, em vez de disputar espaço dentro de um rótulo já dominado, as empresas mais valiosas **definem e lideram uma nova categoria de mercado**: segundo o levantamento dos autores, o líder consolidado (*category king*) captura cerca de 76% do valor total de mercado da categoria.
+Al Ramadan, Christopher Lochhead, Dave Peterson e Kevin Maney publicaram *Play Bigger: How Pirates, Dreamers, and Innovators Create and Dominate Markets* em 2016. A tese central da obra é que, em vez de disputar espaço dentro de um rótulo já dominado, as empresas mais valiosas definem e lideram uma nova categoria de mercado: segundo o levantamento dos autores, o líder consolidado (*category king*) captura cerca de 76% do valor total de mercado da categoria.
 
 ##### A mecânica central (sem jargão)
 
@@ -4544,7 +4473,7 @@ Framework voltado a **criar e batizar uma nova categoria de mercado** em vez de 
 
 **Os quatro pilares de *Category Design* (apresentados em *Play Bigger* e aprofundados na seção 2.11 do Capítulo 2 deste volume):** o método alinha o ponto de vista sobre o problema (*Point of View*), a nomeação da categoria, o desenho da empresa (*Company Design*) e o desenho do produto (*Product Design*), culminando em uma ofensiva concentrada de lançamento (*Lightning Strike*):
 
-1. *Point of View (POV)* e reenquadramento do problema: declarar por que o modelo antigo faliu e qual é o problema real que os incumbentes não resolvem. Ex.: a Salesforce posicionou-se contra o atraso e o custo do software instalado localmente, abrindo espaço para a computação em nuvem corporativa.
+1. *Point of View (POV)* e reenquadramento do problema: declarar por que o modelo antigo faliu e qual é o problema real que os incumbentes não resolvem, por exemplo: a Salesforce posicionou-se contra o atraso e o custo do software instalado localmente, abrindo espaço para a computação em nuvem corporativa.
 
 2. Nomeação e enquadramento da categoria (*Category Design*): definir o vocabulário que o mercado usará para comprar e comparar soluções no novo espaço.
 
@@ -4576,7 +4505,7 @@ HubSpot como category king de "Inbound Marketing":
 - Categoria consolidou-se. HubSpot virou o "king".
 - Até hoje, HubSpot = Inbound. Concorrentes competem em "também fazemos inbound".
 
-Na jornada dos arquétipos deste livro, quando **Lucas e Marina** deixam de apresentar seu sistema como "mais um módulo de contas a pagar" e passam a enquadrar a categoria como **Conciliação Preditiva de Tesouraria** para distribuidoras, mudam o critério de decisão do diretor financeiro. Em vez de comparar o preço da assinatura com o de um ERP contábil genérico que só registra o boleto depois do atraso, o comprador passa a medir quantos milhares de reais em juros e multas de fornecedores a previsão automatizada de caixa economiza por mês. Essa é a cunha que a dupla valida nas entrevistas deste volume e escala nos Volumes 5 a 9.
+Na jornada dos arquétipos deste livro, quando Lucas e Marina deixam de apresentar seu sistema como "mais um módulo de contas a pagar" e passam a enquadrar a categoria como Conciliação Preditiva de Tesouraria para distribuidoras, mudam o critério de decisão do diretor financeiro. Em vez de comparar o preço da assinatura com o de um ERP contábil genérico que só registra o boleto depois do atraso, o comprador passa a medir quantos milhares de reais em juros e multas de fornecedores a previsão automatizada de caixa economiza por mês. Essa é a cunha que a dupla valida nas entrevistas deste volume e escala nos Volumes 5 a 9.
 
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
@@ -4612,7 +4541,7 @@ A tabela abaixo apresenta os 13 tipos clássicos da taxonomia da NFX agrupados p
 
 ##### As regras do jogo
 
-A força competitiva varia drasticamente entre as categorias da NFX: efeitos de rede **Físicos (*Physical*)** e de **Protocolo (*Protocol*)** geram barreiras quase intransponíveis, enquanto **Marketplaces de dois lados (*Two-sided*)** e **Assintóticos (*Asymptotic*)** sofrem com *multi-homing* (usuários e motoristas operando em dois aplicativos simultaneamente). Já os **Efeitos de Rede de Dados (*Data*)** costumam apresentar retornos marginais decrescentes após certo volume, e os baseados em **Crença (*Belief*)** e **Efeito Manada (*Bandwagon*)** oferecem a menor defensabilidade isolada no longo prazo.
+A força competitiva varia drasticamente entre as categorias da NFX: efeitos de rede **Físicos (*Physical*) e de Protocolo (*Protocol*) geram barreiras quase intransponíveis, enquanto Marketplaces de dois lados (*Two-sided*) e Assintóticos (*Asymptotic*)** sofrem com *multi-homing* (usuários e motoristas operando em dois aplicativos simultaneamente). Já os **Efeitos de Rede de Dados (*Data*) costumam apresentar retornos marginais decrescentes após certo volume, e os baseados em Crença (*Belief*) e Efeito Manada (*Bandwagon*)** oferecem a menor defensabilidade isolada no longo prazo.
 
 ##### Roteiro de aplicação prática na operação
 
@@ -4636,7 +4565,7 @@ W. Chan Kim e Renée Mauborgne (professores do INSEAD e autores de *Blue Ocean S
 
 ##### A anatomia visual de uma página
 
-Gráfico de duas dimensões. **Eixo X**: fatores de competição relevantes no setor (tipicamente 8-15 fatores listados horizontalmente). **Eixo Y**: nível de oferta de cada fator, em escala de baixo a alto. Para cada concorrente (incluindo você), traça-se uma **curva de valor**: uma linha que conecta os pontos representando quanto desse concorrente oferece em cada fator.
+Gráfico de duas dimensões. **Eixo X**: fatores de competição relevantes no setor (tipicamente 8-15 fatores listados horizontalmente). Eixo Y: nível de oferta de cada fator, em escala de baixo a alto. Para cada concorrente (incluindo você), traça-se uma curva de valor: uma linha que conecta os pontos representando quanto desse concorrente oferece em cada fator.
 
 ```mermaid
 xychart-beta
@@ -4662,7 +4591,7 @@ Use o Strategy Canvas na Fase 6 (mapeamento de mercado e concorrência) quando o
 
 ##### Princípios práticos para preencher sem se enganar
 
-A tese de Kim e Mauborgne é que **competição direta é desperdício de capital**. Se duas empresas oferecem o mesmo conjunto de fatores em níveis ligeiramente diferentes, elas brigam por margem cada vez menor. A saída é **mudar o jogo**, não jogar melhor o mesmo jogo. Para isso, é preciso mapear honestamente o que o setor compete (a maioria não articula explicitamente) e identificar onde você pode oferecer perfil radicalmente distinto. **Diferenciação + Custo Baixo simultâneos** é possível quando você elimina/reduz fatores caros e cria fatores baratos mas valiosos.
+A tese de Kim e Mauborgne é que competição direta é desperdício de capital. Se duas empresas oferecem o mesmo conjunto de fatores em níveis ligeiramente diferentes, elas brigam por margem cada vez menor. A saída é mudar o jogo, não jogar melhor o mesmo jogo. Para isso, é preciso mapear honestamente o que o setor compete (a maioria não articula explicitamente) e identificar onde você pode oferecer perfil radicalmente distinto. Diferenciação + Custo Baixo simultâneos é possível quando você elimina/reduz fatores caros e cria fatores baratos mas valiosos.
 
 ##### Passo a passo na parede da sala (roteiro de oficina colaborativa)
 
@@ -4672,7 +4601,7 @@ A tese de Kim e Mauborgne é que **competição direta é desperdício de capita
 
 **Etapa 3: Aplicar ERRC Grid.** Para cada fator, decida: eliminar, reduzir, elevar, criar. Articule por que (qual job-to-be-done deixa de ser servido vs qual passa a ser).
 
-**Etapa 4: Traçar a curva nova.** A sua curva deve ser **visualmente distinta** das curvas dos concorrentes. Se ela sobrepõe a média do setor com pequeno offset, não é Blue Ocean: é apenas otimização de Red Ocean.
+**Etapa 4: Traçar a curva nova.** A sua curva deve ser visualmente distinta das curvas dos concorrentes. Se ela sobrepõe a média do setor com pequeno offset, não é Blue Ocean: é apenas otimização de Red Ocean.
 
 **Etapa 5: Validar com cliente.** Mostre as curvas para clientes-alvo. Pergunte: "Se essas duas opções existissem, qual escolheria? Por quê?". Se a resposta é "depende", a diferenciação não é forte o suficiente.
 
@@ -4728,7 +4657,7 @@ O Canvas da Cunha é uma ferramenta autoral desenhada para startups brasileiras 
 
 ##### A anatomia visual de uma página
 
-Tela visual de uma página com **seis blocos** que definem a anatomia completa da cunha de entrada:
+Tela visual de uma página com seis blocos que definem a anatomia completa da cunha de entrada:
 
 - **ICP (Ideal Customer Profile) preciso**: descrição objetiva em duas a três linhas do cliente inicial, como "sócios-operadores de redes de padarias artesanais com três a cinco lojas na Grande São Paulo e produção própria diária", em vez de um rótulo genérico como "PMEs do varejo".
 - **Dor específica**: um único fluxo de trabalho recorrente e quebrado para esse ICP, como "perder de R$ 3 mil a R$ 8 mil mensais por loja com desperdício de insumos e gastar 4 a 8 horas por semana fechando pedidos manuais de reposição aos fornecedores".
@@ -4772,7 +4701,7 @@ Preencha individualmente primeiro (20-30 min) e depois valide com pelo menos um 
 2. **Dor específica**: escolha um fluxo de trabalho. Descreva o que está quebrado com verbos concretos ("gasta", "consolida manualmente", "perde"). Se você precisar de 3 frases, o ICP ainda é largo demais.
 3. **Resultado mensurável**: escolha 1-2 categorias. Coloque um número. Se não tem o número, pergunte a 5 potenciais clientes antes de preencher o bloco.
 4. **Dono do orçamento**: não é necessariamente quem usa o produto. Em B2B, frequentemente é um nível acima. Nomeie o cargo e o contexto hierárquico.
-5. **Teste do Grupo de WhatsApp**: liste empresas e decisores reais com nome e sobrenome (via LinkedIn, associações setoriais, feiras ou indicações). A régua de aprovação exige mapear de **100 a 300 contatos nominais** na cunha (onde 100 é o piso de especificidade e 300 o teto de largura inicial), contando com um **núcleo imediato de 30 a 80 decisores** que você já conhece ou acessa diretamente. Se não conseguir montar nem esse núcleo inicial, volte às entrevistas da Fase 5 antes de mexer no tamanho da cunha.
+5. **Teste do Grupo de WhatsApp**: liste empresas e decisores reais com nome e sobrenome (via LinkedIn, associações setoriais, feiras ou indicações). A régua de aprovação exige mapear de 100 a 300 contatos nominais na cunha (onde 100 é o piso de especificidade e 300 o teto de largura inicial), contando com um núcleo imediato de 30 a 80 decisores que você já conhece ou acessa diretamente. Se não conseguir montar nem esse núcleo inicial, volte às entrevistas da Fase 5 antes de mexer no tamanho da cunha.
 6. **Alternativa atual e vantagem**: descreva o que o cliente faz *hoje* (Excel, processo manual, concorrente, "não faz nada"). Escreva a vantagem em uma frase com número. Sem número, não é comparação: é afirmação vaga.
 
 Após preencher os seis blocos, aplique as quatro verificações complementares do [[#Template: Canvas da Cunha|Template: Canvas da Cunha]] (no fim desta fase) antes de avançar.
@@ -4784,11 +4713,11 @@ Após preencher os seis blocos, aplique as quatro verificações complementares 
 | **ICP** | Sócios-operadores de pequenas redes de padarias artesanais com 3 a 5 lojas na Grande São Paulo (alinhado ao recorte refinado nas Fases 4 e 5 e na seção anterior), com produção própria diária e faturamento de R$ 100 mil a R$ 300 mil/mês por loja. Excluir: padarias de loja única, redes industriais acima de 10 lojas e franquias padronizadas. |
 | **Dor específica** | Perda de R$ 3 mil a R$ 8 mil mensais por loja com desperdício de insumos perecíveis e ruptura de estoque, somada a 4 a 8 horas semanais do sócio gastas fechando pedidos manuais de reposição aos fornecedores via planilha e mensagens de WhatsApp. |
 | **Resultado mensurável** | Meta de reduzir o desperdício mensal de insumos em 60% a 80% (custo) e devolver 4 horas semanais ao sócio-operador (tempo) por meio de previsão de demanda e pedido automático aos moinhos (a validar em piloto de 60 dias na Fase 8). |
-| **Dono do orçamento** | O próprio dono ou sócia operacional: em padarias dessa faixa, não há gestor intermediário; quem sofre o problema é quem paga. |
+| **Dono do orçamento** | O próprio dono ou sócia operacional: em padarias dessa faixa, não há gestor intermediário, quem sofre o problema é quem paga. |
 | **Teste do WhatsApp** | A partir das cerca de 400 pequenas redes artesanais estimadas na Grande São Paulo, os fundadores listaram nominalmente **180 redes específicas** (aprovado na faixa de 100 a 300 da cunha), contando com um núcleo inicial de **27 sócios-operadores** já mapeados com contato direto (12 diretos e 15 via associação regional ABIP), em evolução rumo à faixa de 30 a 80 do núcleo. |
 | **Alternativa atual** | Planilha de Excel combinada a pedidos manuais por WhatsApp aos vendedores dos moinhos. Por que é melhor: "Corta de 60% a 80% de uma perda mensal de R$ 3 mil a R$ 8 mil por loja e devolve 4 horas por semana ao sócio por uma mensalidade de R$ 400 por loja (R$ 1.200 a R$ 2.000 na rede de 3 a 5 unidades)." |
 
-O bloco mais trabalhoso foi a **Dor específica**: a primeira versão dizia apenas "dificuldade na gestão de compras da padaria". Com um enunciado genérico assim, montar a lista nominal seria inviável. Ao especificar "redes de 3 a 5 lojas com produção própria que perdem R$ 3 mil a R$ 8 mil/mês em insumos e fecham pedidos manualmente toda semana", o critério de inclusão ficou observável em feiras da ABIP e nas conversas com fornecedores de farinha. O Teste do Grupo de WhatsApp mede a especificidade da dor tanto quanto o tamanho do nicho: quando você trava para montar a lista, o problema ainda está descrito de forma vaga.
+O bloco mais trabalhoso foi a Dor específica: a primeira versão dizia apenas "dificuldade na gestão de compras da padaria". Com um enunciado genérico assim, montar a lista nominal seria inviável. Ao especificar "redes de 3 a 5 lojas com produção própria que perdem R$ 3 mil a R$ 8 mil/mês em insumos e fecham pedidos manualmente toda semana", o critério de inclusão ficou observável em feiras da ABIP e nas conversas com fornecedores de farinha. O Teste do Grupo de WhatsApp mede a especificidade da dor tanto quanto o tamanho do nicho: quando você trava para montar a lista, o problema ainda está descrito de forma vaga.
 
 ##### Variações e extensões
 
@@ -4843,7 +4772,7 @@ flowchart LR
 
 ##### O momento exato de colocar este canvas na parede
 
-Use o Network Effects Map em dois momentos: (1) **ao desenhar a teoria do modelo de negócio** (Fase 3, no Volume 1) e **ao validar as suas métricas operacionais** (Fase 12, no Volume 4), para identificar se e onde há elos de rede que podem ser construídos intencionalmente, e (2) **ao preparar a tese para investidores**, sabendo nomear e demonstrar com precisão qual tipo de efeito de rede sustenta a defesa do seu negócio.
+Use o Network Effects Map em dois momentos: (1) ao desenhar a teoria do modelo de negócio (Fase 3, no Volume 1) e ao validar as suas métricas operacionais (Fase 12, no Volume 4), para identificar se e onde há elos de rede que podem ser construídos intencionalmente, e (2) ao preparar a tese para investidores, sabendo nomear e demonstrar com precisão qual tipo de efeito de rede sustenta a defesa do seu negócio.
 
 ##### Princípios práticos para preencher sem se enganar
 
@@ -4855,7 +4784,7 @@ Use o Network Effects Map em dois momentos: (1) **ao desenhar a teoria do modelo
 
 ##### Passo a passo na parede da sala (roteiro de oficina colaborativa)
 
-**Passo 1: Listar e pontuar os efeitos de rede candidatos:** Para cada tipo na tabela acima, pergunte "nosso modelo captura este mecanismo?" e atribua nota **0** (ausente), **1** (fraco ou emergente) ou **2** (forte e comprovado).
+**Passo 1: Listar e pontuar os efeitos de rede candidatos:** Para cada tipo na tabela acima, pergunte "nosso modelo captura este mecanismo?" e atribua nota 0 (ausente), 1 (fraco ou emergente) ou 2 (forte e comprovado).
 
 **Passo 2: Mapear os loops:** Para cada NE identificado com score ≥ 1, desenhar o loop de reforço: Produto → [mecanismo] → mais usuários/dados → produto melhor.
 
@@ -4972,7 +4901,7 @@ sem ajuste e a consideraram plausível para o ICP:
 Use este template como entregável final da Fase 6.
 
 > [!note] Teoria completa em [[#Canvas: Canvas da Cunha (autoral IGNIÇÃO)|Canvas: Canvas da Cunha (autoral IGNIÇÃO)]]
-> Origem, estrutura, princípios, como aplicar e caso brasileiro do Canvas da Cunha encontram-se em [[#Canvas: Canvas da Cunha (autoral IGNIÇÃO)|Canvas: Canvas da Cunha (autoral IGNIÇÃO)]]. Este template é o complemento prático (campos preencháveis) daquela seção. Ele consolida os quatro elementos da Anatomia da Cunha, o Teste do Grupo de WhatsApp e a comparação com a alternativa atual. Preencha **antes** de avançar para a [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 7: FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 7 (Vol. 3)]]. Sem ele, as hipóteses da fase seguinte ficam sem ancoragem no subsegmento específico que você escolheu atacar.
+> Origem, estrutura, princípios, como aplicar e caso brasileiro do Canvas da Cunha encontram-se em [[#Canvas: Canvas da Cunha (autoral IGNIÇÃO)|Canvas: Canvas da Cunha (autoral IGNIÇÃO)]]. Este template é o complemento prático (campos preencháveis) daquela seção. Ele consolida os quatro elementos da Anatomia da Cunha, o Teste do Grupo de WhatsApp e a comparação com a alternativa atual. Preencha antes de avançar para a [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 7: FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 7 (Vol. 3)]]. Sem ele, as hipóteses da fase seguinte ficam sem ancoragem no subsegmento específico que você escolheu atacar.
 
 ```text
 CANVAS DA CUNHA, v___ Data: ___/___/___
@@ -5027,7 +4956,7 @@ que confirmaram a Cunha como plausível e bem definida:
 
 ### Fechamento da Fase 6: do mapeamento competitivo à escolha da cunha de entrada
 
-A Fase 6 desmonta duas ilusões recorrentes de quem se apaixona pela própria solução: acreditar que "não existem concorrentes" e confiar que "basta capturar uma fração de um mercado gigante". Na rua, o orçamento do seu cliente já está disputado por alternativas diretas, planilhas improvisadas, mudanças de processo ou pela simples inércia de não fazer nada, além de gigantes adjacentes e barreiras regulatórias que punem quem entra às cegas. Foi ao trocar a fantasia do "1% do PIB do agro" pela lista nominal das usinas de etanol de milho no Mato Grosso e no Paraná (assim como os fundadores da PadariaPro fizeram ao focar nas redes artesanais de três a cinco lojas em São Paulo) que **Henrique** transformou um discurso vago em uma cabeça de praia comercialmente acionável.
+A Fase 6 desmonta duas ilusões recorrentes de quem se apaixona pela própria solução: acreditar que "não existem concorrentes" e confiar que "basta capturar uma fração de um mercado gigante". Na rua, o orçamento do seu cliente já está disputado por alternativas diretas, planilhas improvisadas, mudanças de processo ou pela simples inércia de não fazer nada, além de gigantes adjacentes e barreiras regulatórias que punem quem entra às cegas. Foi ao trocar a fantasia do "1% do PIB do agro" pela lista nominal das usinas de etanol de milho no Mato Grosso e no Paraná (assim como os fundadores da PadariaPro fizeram ao focar nas redes artesanais de três a cinco lojas em São Paulo) que Henrique transformou um discurso vago em uma cabeça de praia comercialmente acionável.
 
 O entregável é o Dossiê de Mercado mais o Canvas da Cunha preenchido. O Dossiê não é estático. O mercado muda, novos entrantes aparecem, consolidações acontecem, regulação evolui. Revisitar pelo menos a cada seis meses não é exagero, é higiene. A [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 7: FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 7 (Vol. 3)]] vai transformar o mapeamento feito aqui em hipóteses testáveis: o Canvas da Cunha vira insumo direto para o Banco de Hipóteses.
 
@@ -5035,11 +4964,9 @@ O entregável é o Dossiê de Mercado mais o Canvas da Cunha preenchido. O Dossi
 
 ### Ponte para os Capítulos 1 a 3 deste Volume (e preparação para o Volume 3)
 
-Ao concluir as Fases 4, 5 e 6 deste **Volume 2**, você investigou a dor do cliente sem perguntas indutivas (*Mom Test*), mapeou os trabalhos a executar (*Jobs to Be Done*) e a jornada real de decisão, e delimitou a estrutura competitiva e a sua cunha de entrada (*wedge*). Os **três capítulos** a seguir aprofundam lentes transversais indispensáveis para operar no Brasil: a psicologia de confiança e conversão do consumidor brasileiro (Capítulo 1), a inteligência competitiva contínua aliada ao *Category Design* (Capítulo 2) e os padrões reais de fracasso de startups brasileiras (Capítulo 3).
+Ao concluir as Fases 4, 5 e 6 deste Volume 2, você investigou a dor do cliente sem perguntas indutivas (*Mom Test*), mapeou os trabalhos a executar (*Jobs to Be Done*) e a jornada real de decisão, e delimitou a estrutura competitiva e a sua cunha de entrada (*wedge*). Os três capítulos a seguir aprofundam lentes transversais indispensáveis para operar no Brasil: a psicologia de confiança e conversão do consumidor brasileiro (Capítulo 1), a inteligência competitiva contínua aliada ao *Category Design* (Capítulo 2) e os padrões reais de fracasso de startups brasileiras (Capítulo 3).
 
-Logo após o fechamento do Capítulo 3, você encontrará a ponte direta para o **Volume 3 (Hipóteses, Experimentos, Prototipagem e Modelos de Negócio)**, onde o Dossiê do Usuário e o Canvas da Cunha serão convertidos em hipóteses falseáveis e experimentos de compromisso na [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 7: FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 7: Formulação Rigorosa de Hipóteses (Vol. 3)]].
-
-
+Logo após o fechamento do Capítulo 3, você encontrará a ponte direta para o Volume 3 (Hipóteses, Experimentos, Prototipagem e Modelos de Negócio), onde o Dossiê do Usuário e o Canvas da Cunha serão convertidos em hipóteses falseáveis e experimentos de compromisso na [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 7: FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 7: Formulação Rigorosa de Hipóteses (Vol. 3)]].
 
 ---
 
@@ -5059,7 +4986,7 @@ Desesperada, Bia colocou um botão flutuante de WhatsApp na página de pagamento
 
 Os áudios repetiam sempre as mesmas três perguntas: "Moça, essa loja existe mesmo ou é golpe? Tem desconto no Pix ou parcela em 10x sem juros? Se der problema na entrega, eu falo com uma pessoa de verdade?"
 
-Bem-vindo à realidade tropical que nenhum manual da Califórnia ensina. O consumidor e o comprador corporativo no país operam sob o **Paradoxo da Desconfiança Cordial**: o brasileiro costuma ser caloroso e receptivo no primeiro contato, mas fica desconfiado na hora de pagar. Essa cautela é resposta racional a um ambiente histórico de golpes digitais diários, juros do rotativo do cartão de crédito que seguiram acima de 400% ao ano nas séries do Banco Central (mesmo após a Lei 14.690/2023 limitar, desde janeiro de 2024, a soma de juros e encargos a 100% da dívida original) e medo permanente de ficar desamparado após o pagamento.
+Bem-vindo à realidade tropical que nenhum manual da Califórnia ensina. O consumidor e o comprador corporativo no país operam sob o Paradoxo da Desconfiança Cordial: o brasileiro costuma ser caloroso e receptivo no primeiro contato, mas fica desconfiado na hora de pagar. Essa cautela é resposta racional a um ambiente histórico de golpes digitais diários, juros do rotativo do cartão de crédito que seguiram acima de 400% ao ano nas séries do Banco Central (mesmo após a Lei 14.690/2023 limitar, desde janeiro de 2024, a soma de juros e encargos a 100% da dívida original) e medo permanente de ficar desamparado após o pagamento.
 
 Tentar vender no Brasil copiando a frieza transacional dos Estados Unidos é queimar caixa em vão. Aqui, o WhatsApp funciona como o sistema operacional da confiança comercial. Aqui, a parcela que cabe no fluxo de caixa mensal da família ou do departamento pesa tanto quanto o preço cheio. E no B2B brasileiro, ninguém assina um contrato relevante apenas porque o software exibe um painel bonito: o gestor precisa ter certeza de que não será demitido se a sua startup falhar na implantação. Compreender a psicologia econômica do brasileiro transforma essa barreira cultural em vantagem competitiva.
 
@@ -5075,7 +5002,7 @@ Tentar vender no Brasil copiando a frieza transacional dos Estados Unidos é que
 
 ### 1.1: O que torna o consumidor brasileiro distinto (e o que os áudios de Rafael e Bia revelaram)
 
-A psicologia do consumidor brasileiro opera em um contexto que moldou comportamentos próprios. As três perguntas que destravaram o carrinho de **Rafael e Bia** na cena de abertura sintetizam exatamente essa estrutura: o pedido de prova de que a loja existe reflete a prioridade dada às pessoas acima das instituições (1.1.1 e 1.1.2). A dúvida sobre desconto no Pix ou parcelamento em 10x traduz a sensibilidade a preço combinada à âncora da parcela mensal (1.1.3 e 1.2.1), e o receio de não encontrar um atendente real na entrega expõe o peso da assistência humana para superar o **Paradoxo da Desconfiança Cordial** (1.5).
+A psicologia do consumidor brasileiro opera em um contexto que moldou comportamentos próprios. As três perguntas que destravaram o carrinho de Rafael e Bia na cena de abertura sintetizam exatamente essa estrutura: o pedido de prova de que a loja existe reflete a prioridade dada às pessoas acima das instituições (1.1.1 e 1.1.2). A dúvida sobre desconto no Pix ou parcelamento em 10x traduz a sensibilidade a preço combinada à âncora da parcela mensal (1.1.3 e 1.2.1), e o receio de não encontrar um atendente real na entrega expõe o peso da assistência humana para superar o Paradoxo da Desconfiança Cordial (1.5).
 
 #### 1.1.1: Alta relacionalidade
 
@@ -5272,34 +5199,19 @@ Reconhecimento explícito da frustração do cliente. "Entendemos que isso não 
 
 O calendário brasileiro tem eventos que redefinem o comportamento de consumo e precisam ser integrados ao planejamento de crescimento:
 
-
-
-
-
-
-
 | Evento / Marco | Período | Comportamento do comprador | Oportunidade para a startup |
 |---|---|---|---|
 | **Início de ano e volta às aulas** | Janeiro | Revisão de orçamento doméstico, matrículas, material escolar e metas pessoais | Pico para soluções de educação, organização financeira, saúde e produtividade |
-| **Carnaval** | Fevereiro ou março | Forte desaceleração em decisões corporativas B2B; alta em turismo, bebidas e eventos | Evitar lançamentos B2B decisivos na semana do feriado; ativar campanhas B2C de conveniência |
+| **Carnaval** | Fevereiro ou março | Forte desaceleração em decisões corporativas B2B, alta em turismo, bebidas e eventos | Evitar lançamentos B2B decisivos na semana do feriado, ativar campanhas B2C de conveniência |
 | **Dia das Mães** | Maio (2º domingo) | Segunda maior data do varejo brasileiro (atrás apenas do Natal) | Campanhas de presentes, kits e venda cruzada (*cross-sell*) no B2C e infraestrutura para varejistas |
 | **Dia dos Namorados** | 12 de junho | Alta procura em moda, beleza, gastronomia, reservas e presentes | Ações promocionais segmentadas e pacotes combinados no varejo e serviços |
-| **Copa do Mundo** | Junho e julho (a cada 4 anos; próxima em 2030) | Atenção corporativa reduzida em dias de jogos; aumento de consumo coletivo e entregas | Ajustar cadência de prospecção B2B; explorar ganchos temáticos em consumo, mídia e alimentação |
+| **Copa do Mundo** | Junho e julho (a cada 4 anos, próxima em 2030) | Atenção corporativa reduzida em dias de jogos, aumento de consumo coletivo e entregas | Ajustar cadência de prospecção B2B, explorar ganchos temáticos em consumo, mídia e alimentação |
 | **Dia dos Pais** | Agosto (2º domingo) | Demanda aquecida em eletrônicos, vestuário, ferramentas e experiências | Destravar tíquete médio maior no varejo com parcelamento equilibrado |
 | **Dia das Crianças** | 12 de outubro | Pico em brinquedos, jogos digitais, vestuário infantil e lazer familiar | Campanhas voltadas às famílias e preparação antecipada de estoque no e-commerce |
 | **Janela orçamentária B2B** | Setembro a novembro | Empresas definem o orçamento anual (*budget*) do exercício seguinte | Momento decisivo para fechar propostas corporativas e renovações anuais antes do bloqueio de dezembro |
 | **Black Friday** | Novembro (4ª sexta-feira) | Busca ativa por desconto real e abertura para testar marcas novas se a oferta compensar | Conversão de testes gratuitos, planos anuais com desconto e reativação de ex-clientes |
-| **13º Salário (1ª e 2ª parcelas)** | 1ª parcela até 30/11; 2ª parcela até 20/12 | Liquidez extra usada para quitar dívidas, comprar bens adiados ou contratar planos anuais | Ofertas de quitação, migração para plano anual à vista no Pix e produtos de tíquete médio |
-| **Natal e encerramento do ano** | Dezembro | Maior pico de consumo familiar no varejo; recesso decisório na segunda quinzena no B2B | Maximizar entrega e suporte no B2C; concluir assinaturas B2B até a primeira quinzena de dezembro |
-
-
-
-
-
-
-
-
-
+| **13º Salário (1ª e 2ª parcelas)** | 1ª parcela até 30/11, 2ª parcela até 20/12 | Liquidez extra usada para quitar dívidas, comprar bens adiados ou contratar planos anuais | Ofertas de quitação, migração para plano anual à vista no Pix e produtos de tíquete médio |
+| **Natal e encerramento do ano** | Dezembro | Maior pico de consumo familiar no varejo, recesso decisório na segunda quinzena no B2B | Maximizar entrega e suporte no B2C, concluir assinaturas B2B até a primeira quinzena de dezembro |
 
 > [!warning] A armadilha sazonal para startups
 > Planejar crescimento apenas em torno de datas sazonais cria picos artificiais que mascaram a realidade da tração orgânica. Black Friday pode dobrar o número de cadastros, mas se a retenção de dia 30 desses usuários for a metade da média, o crescimento foi ilusório.
@@ -5434,7 +5346,7 @@ Taxa de churn de membros da comunidade vs. não membros: se a comunidade está f
 
 ### O Espelho do Capítulo 1: seu produto fala português do Brasil ou inglês traduzido?
 
-Três semanas depois de colocarem o botão de WhatsApp, o CNPJ visível no rodapé, o desconto de 5% no Pix e o parcelamento em até 6x sem juros na página de pagamento, **Rafael e Bia** viram a conversão das campanhas a partir de Recife e Goiânia saltar de 11 para 94 pedidos concluídos com o mesmo orçamento de tráfego. Mais da metade das conversas no WhatsApp durava menos de dois minutos: o comprador só queria ter certeza de que havia gente de verdade por trás da loja antes de enviar o Pix.
+Três semanas depois de colocarem o botão de WhatsApp, o CNPJ visível no rodapé, o desconto de 5% no Pix e o parcelamento em até 6x sem juros na página de pagamento, Rafael e Bia viram a conversão das campanhas a partir de Recife e Goiânia saltar de 11 para 94 pedidos concluídos com o mesmo orçamento de tráfego. Mais da metade das conversas no WhatsApp durava menos de dois minutos: o comprador só queria ter certeza de que havia gente de verdade por trás da loja antes de enviar o Pix.
 
 **O Espelho (autodiagnóstico):**
 1. Para vencer o **Paradoxo da Desconfiança Cordial**, se um cliente da classe C em Goiânia ou um comprador industrial no interior do Paraná abrir o seu site pelo celular no 4G agora, em quantos segundos ele encontra o seu CNPJ, endereço verificável e um canal humano que responde?
@@ -5446,7 +5358,6 @@ Você está autorizado a ignorar os gurus que dizem que "atender no WhatsApp nã
 
 **O Ritual de Segunda-Feira às 9h (rotina semanal de 30 minutos):**
 Pegue o celular de um parente fora do mundo de tecnologia, abra a sua página de vendas no 4G e peça para ele tentar comprar, onde ele franzir a testa ou perguntar "isso é seguro?", conserte o fluxo hoje mesmo. Se a sua operação for B2B, envie a sua proposta comercial a um conhecido da área de compras ou de TI e peça que ele aponte em cinco minutos qual ponto levaria ao gestor e qual cláusula travaria no jurídico.
-
 
 ---
 
@@ -5575,15 +5486,7 @@ Os frameworks completos das Cinco Forças de Porter e do VRIO de Jay Barney já 
 
 #### 2.3.2: Como auditar os recursos do concorrente com o filtro VRIO
 
-Ao analisar um rival com a matriz VRIO apresentada na Fase 6, evite confundir recursos compráveis no mercado (como crédito em nuvem ou acesso às mesmas APIs de modelos de linguagem) com vantagem estrutural. Faça duas perguntas práticas sobre o concorrente: (1) **Inimitabilidade real (I):** quanto tempo e capital levaria para reproduzir o ativo dele? (Integrações homologadas com sistemas legados do setor e bases históricas proprietárias levam anos para construir, telas novas levam semanas.) (2) **Organização para captura (O):** onde o concorrente possui um ativo técnico valioso, mas falha comercialmente em monetizá-lo por lentidão de suporte ou desalinhamento de vendas?
-
-
-
-
-
-
-
-
+Ao analisar um rival com a matriz VRIO apresentada na Fase 6, evite confundir recursos compráveis no mercado (como crédito em nuvem ou acesso às mesmas APIs de modelos de linguagem) com vantagem estrutural. Faça duas perguntas práticas sobre o concorrente: (1) Inimitabilidade real (I): quanto tempo e capital levaria para reproduzir o ativo dele? (Integrações homologadas com sistemas legados do setor e bases históricas proprietárias levam anos para construir, telas novas levam semanas.) (2) Organização para captura (O): onde o concorrente possui um ativo técnico valioso, mas falha comercialmente em monetizá-lo por lentidão de suporte ou desalinhamento de vendas?
 
 #### 2.3.3: Mapeamento de defesas competitivas (*moats*)
 
@@ -5620,11 +5523,11 @@ Para cada concorrente prioritário, identifique qual é a defesa estrutural (*mo
 
 ### 2.4: Análise de ganhos e perdas (*win/loss analysis*)
 
-A análise sistemática de ganhos e perdas (*win/loss analysis*) investiga diretamente com os compradores por que você venceu ou perdeu disputas comerciais. É a fonte mais precisa de inteligência competitiva para desmontar **A Mentira Confortável do Preço**.
+A análise sistemática de ganhos e perdas (*win/loss analysis*) investiga diretamente com os compradores por que você venceu ou perdeu disputas comerciais. É a fonte mais precisa de inteligência competitiva para desmontar A Mentira Confortável do Preço.
 
 #### 2.4.1: Como conduzir entrevistas pós-decisão
 
-O erro mais comum é delegar a entrevista de *win/loss* ao próprio vendedor que conduziu a conta, pois ele tende a culpar o preço nas derrotas e a superestimar o próprio discurso nas vitórias. A conversa exige um entrevistador neutro, como o próprio fundador, um líder de produto ou alguém de sucesso do cliente. Foi exatamente assim que **Henrique** agiu na cena de abertura: ligou pessoalmente para Roberto sem a presença do pré-vendedor, descobriu que o bloqueio real estava na exportação para o ERP TOTVS Protheus, priorizou o conector no *roadmap*, atualizou a ficha de combate comercial com garantias para a TI e venceu a disputa na usina seguinte.
+O erro mais comum é delegar a entrevista de *win/loss* ao próprio vendedor que conduziu a conta, pois ele tende a culpar o preço nas derrotas e a superestimar o próprio discurso nas vitórias. A conversa exige um entrevistador neutro, como o próprio fundador, um líder de produto ou alguém de sucesso do cliente. Foi exatamente assim que Henrique agiu na cena de abertura: ligou pessoalmente para Roberto sem a presença do pré-vendedor, descobriu que o bloqueio real estava na exportação para o ERP TOTVS Protheus, priorizou o conector no *roadmap*, atualizou a ficha de combate comercial com garantias para a TI e venceu a disputa na usina seguinte.
 
 **Prazo ideal:** Conduza a entrevista entre uma e três semanas após a decisão comercial, quando a memória dos critérios usados pelo comitê ainda está fresca e o encerramento formal da negociação permite uma conversa franca sem pressão de venda.
 
@@ -5858,16 +5761,7 @@ O diagnóstico: empresa obcecada com concorrente tende a convergir para o mesmo 
 > [!note] A regra dos 80/20 para IC
 > Dedique 80% do seu tempo de IC a entender o cliente mais profundamente (Jobs-to-be-Done não resolvidos, reclamações, friction points, comportamento futuro) e 20% a monitorar concorrentes. O cliente bem entendido gera insights que nenhum battle card consegue.
 
-
-
-
-
-
-
 Quando uma empresa supera a obsessão reativa pelos rivais (apoiada nos métodos do [[#MANUAL PASSO A PASSO DOS FRAMEWORKS (FASE 4)|Manual Passo a Passo dos Frameworks da Fase 4]], [[#MANUAL PASSO A PASSO DOS FRAMEWORKS (FASE 5)|da Fase 5]] e [[#MANUAL PASSO A PASSO DOS FRAMEWORKS (FASE 6)|da Fase 6]]), ela pode dar um passo além: em vez de disputar espaço dentro das regras definidas pelo incumbente, desenhar e batizar a sua própria categoria de mercado.
-
-
-
 
 ---
 
@@ -5891,18 +5785,18 @@ O POV define a "condição diferente". Há uma mudança tangível no mundo, que 
 
 Em *Play Bigger*, o *Lightning Strike* designa uma ofensiva concentrada no tempo (combinando lançamento de produto, publicação de dados originais do setor, mobilização de clientes-farol e presença em eventos) para fixar o nome e os critérios da nova categoria na mente dos compradores, em vez de pulverizar o orçamento em campanhas graduais que passam despercebidas.
 
-**Ingredientes típicos de um *Lightning Strike*:** (1) **Evento-âncora:** conferência própria, relatório setorial com dados originais ou campanha coordenada de imprensa, (2) **Janela concentrada:** período de quatro a doze semanas em que toda a comunicação da empresa converge para educar o mercado sobre a nova categoria, (3) **Recrutamento de aliados:** analistas de mercado (Gartner, IDC e Forrester globalmente, no Brasil, IDC Brasil e consultorias especializadas, apoiadas em levantamentos de entidades como ABES e Abstartups), jornalistas setoriais e clientes de referência dispostos a mostrar resultados em público, e (4) **Contraste explícito:** material claro apontando qual modelo antigo a nova categoria torna obsoleto.
+**Ingredientes típicos de um *Lightning Strike*: (1) Evento-âncora: conferência própria, relatório setorial com dados originais ou campanha coordenada de imprensa, (2) Janela concentrada: período de quatro a doze semanas em que toda a comunicação da empresa converge para educar o mercado sobre a nova categoria, (3) Recrutamento de aliados: analistas de mercado (Gartner, IDC e Forrester globalmente, no Brasil, IDC Brasil e consultorias especializadas, apoiadas em levantamentos de entidades como ABES e Abstartups), jornalistas setoriais e clientes de referência dispostos a mostrar resultados em público, e (4) Contraste explícito:** material claro apontando qual modelo antigo a nova categoria torna obsoleto.
 
 > [!tip] Lightning Strike no Brasil
 > Lightning Strike em escala internacional é difícil para a maioria das startups brasileiras. Adaptar a estratégia combinando um evento setorial próprio, um relatório anual de dados do mercado, três a cinco clientes de referência que falem em público e uma rodada coordenada de participação em podcasts é um caminho viável.
 
 #### 2.11.3: Narrativa de categoria: a estrutura em sete passos
 
-Uma narrativa de categoria consistente articula sete passos encadeados. Veja a estrutura aplicada ao caso de **Lucas e Marina**, usando exatamente o nome de categoria definido na Fase 6 (**Conciliação Preditiva de Tesouraria**):
+Uma narrativa de categoria consistente articula sete passos encadeados. Veja a estrutura aplicada ao caso de Lucas e Marina, usando exatamente o nome de categoria definido na Fase 6 (Conciliação Preditiva de Tesouraria):
 
 1. **O mundo antes (o *status quo* insustentável):** Nas distribuidoras de médio porte, a equipe financeira baixa extratos de quatro bancos e confere boletos manualmente em planilhas toda manhã, descobrindo furos de caixa apenas quando a multa já venceu (um regime financeiramente insustentável, e não apenas incômodo).
 2. **A força de mudança externa:** A combinação de Pix corporativo em tempo real, APIs de *Open Finance* e transição para a apuração assistida da CBS e do IBS tornou obsoleta a conciliação manual feita com dias de atraso.
-3. **O nome da nova categoria:** "Chamamos essa nova camada de **Conciliação Preditiva de Tesouraria**."
+3. **O nome da nova categoria:** "Chamamos essa nova camada de Conciliação Preditiva de Tesouraria."
 4. **Por que a categoria funciona de outro modo:** Em vez de apenas registrar o que já saiu da conta como faz um módulo contábil passivo, o sistema cruza pedidos faturados, prazos reais de recebimento por cliente e boletos de fornecedores para projetar rupturas de caixa com 15 dias de antecedência (mudando a natureza da operação, e não apenas a velocidade da planilha).
 5. **Quem precisa com urgência:** Diretores financeiros e sócios de distribuidoras B2B que operam com capital de giro pressionado e milhares de títulos mensais.
 6. **Por que agora:** A compressão de margens com juros altos e a digitalização fiscal exigem visibilidade diária de liquidez.
@@ -5924,12 +5818,11 @@ Competidores reposicionando-se dentro da categoria. Quando um concorrente grande
 
 **Prêmio defensável de preço sobre a categoria antiga:** Uma categoria nova bem estabelecida deve sustentar tíquete e margem superiores aos das ferramentas comoditizadas que substitui, em segmentos comparáveis.
 
-
 ---
 
 ### O Espelho do Capítulo 2: você faz inteligência competitiva ou acredita em desculpas de vendas?
 
-Seis meses depois da ligação franca para Roberto na usina do Paraná, **Henrique** colheu o resultado de desmontar **A Mentira Confortável do Preço**: com a exportação auditável para o ERP TOTVS Protheus em produção e as fichas de combate (*battle cards*) refeitas com garantias de implantação para os gerentes de TI, sua startup venceu as três disputas seguintes contra o mesmo concorrente sem conceder desconto no contrato anual.
+Seis meses depois da ligação franca para Roberto na usina do Paraná, Henrique colheu o resultado de desmontar A Mentira Confortável do Preço: com a exportação auditável para o ERP TOTVS Protheus em produção e as fichas de combate (*battle cards*) refeitas com garantias de implantação para os gerentes de TI, sua startup venceu as três disputas seguintes contra o mesmo concorrente sem conceder desconto no contrato anual.
 
 **O Espelho (autodiagnóstico):**
 1. Quem na sua empresa liga pessoalmente para os clientes que disseram "não" na última semana: alguém neutro (como o fundador/produto) ou o próprio vendedor que perdeu a comissão?
@@ -5946,7 +5839,7 @@ Toda segunda-feira às 9h, escolha um negócio perdido na semana anterior e ligu
 
 ### LEITURAS E REFERÊNCIAS COMPLEMENTARES
 
-*Play Bigger* (Al Ramadan, Dave Peterson, Christopher Lochhead e Kevin Maney, 2016, ver também a seção do framework na [[#FASE 6: MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 6 deste volume]] e o [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 4: BRANDING, POSICIONAMENTO DE MARCA E PRODUCT MARKETING (PMM)|Capítulo 4: Branding, Posicionamento de Marca e Product Marketing, no Volume 4]]). *Obviously Awesome*, de April Dunford (2019). *Only the Paranoid Survive*, de Andy Grove (1996). **Ver também:** [[#CAPÍTULO 1: PSICOLOGIA DO CONSUMIDOR BRASILEIRO: COMPORTAMENTO, DECISÃO E CONVERSÃO|Capítulo 1: Psicologia do Consumidor Brasileiro]], [[#MANUAL PASSO A PASSO DOS FRAMEWORKS (FASE 4)|Manual Passo a Passo dos Frameworks da Fase 4]], [[#MANUAL PASSO A PASSO DOS FRAMEWORKS (FASE 5)|da Fase 5]] e [[#MANUAL PASSO A PASSO DOS FRAMEWORKS (FASE 6)|da Fase 6]], [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 15: MÁQUINA DE CRESCIMENTO E EXPANSÃO EM ESCALA|Fase 15: Máquina de Crescimento e Expansão em Escala (Vol. 6)]], e [[IGNICAO-Vol-9-Maturidade-e-Exit#FASE 19: REINVENÇÃO E SEGUNDA CURVA|Fase 19: Reinvenção e Segunda Curva (Vol. 9)]].
+*Play Bigger* (Al Ramadan, Dave Peterson, Christopher Lochhead e Kevin Maney, 2016, ver também a seção do framework na [[#FASE 6: MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 6 deste volume]] e o [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 4: BRANDING, POSICIONAMENTO DE MARCA E PRODUCT MARKETING (PMM)|Capítulo 4: Branding, Posicionamento de Marca e Product Marketing, no Volume 4]]). *Obviously Awesome*, de April Dunford (2019). *Only the Paranoid Survive*, de Andy Grove (1996). Ver também: [[#CAPÍTULO 1: PSICOLOGIA DO CONSUMIDOR BRASILEIRO: COMPORTAMENTO, DECISÃO E CONVERSÃO|Capítulo 1: Psicologia do Consumidor Brasileiro]], [[#MANUAL PASSO A PASSO DOS FRAMEWORKS (FASE 4)|Manual Passo a Passo dos Frameworks da Fase 4]], [[#MANUAL PASSO A PASSO DOS FRAMEWORKS (FASE 5)|da Fase 5]] e [[#MANUAL PASSO A PASSO DOS FRAMEWORKS (FASE 6)|da Fase 6]], [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 15: MÁQUINA DE CRESCIMENTO E EXPANSÃO EM ESCALA|Fase 15: Máquina de Crescimento e Expansão em Escala (Vol. 6)]], e [[IGNICAO-Vol-9-Maturidade-e-Exit#FASE 19: REINVENÇÃO E SEGUNDA CURVA|Fase 19: Reinvenção e Segunda Curva (Vol. 9)]].
 
 ---
 
@@ -5960,7 +5853,7 @@ Agora, tomando um expresso em pé na padaria, o ex-fundador resumiu o fim da emp
 
 "Nós não quebramos por falta de dinheiro nem por falta de talento, Lucas. Nós quebramos porque confundimos capital captado com receita conquistada e, quando a Selic subiu de 2% para 13,75% ao ano, descobrimos que vendíamos o equivalente a uma nota de R$ 100 por R$ 70 achando que ganharíamos no volume."
 
-Por que estudamos apenas os unicórnios que sobreviveram e ignoramos os milhares de negócios que seguiram a mesma cartilha e fecharam as portas? O estatístico Abraham Wald demonstrou na Segunda Guerra Mundial que analisar apenas os aviões que retornam da missão leva a blindar a parte errada da fuselagem. Esse erro cognitivo tem nome: **A Cegueira do Viés de Sobrevivência**.
+Por que estudamos apenas os unicórnios que sobreviveram e ignoramos os milhares de negócios que seguiram a mesma cartilha e fecharam as portas? O estatístico Abraham Wald demonstrou na Segunda Guerra Mundial que analisar apenas os aviões que retornam da missão leva a blindar a parte errada da fuselagem. Esse erro cognitivo tem nome: A Cegueira do Viés de Sobrevivência.
 
 No Brasil, startups raramente morrem apenas porque o código era ruim. Elas quebram porque ignoram o custo de capital em dois dígitos, escalam folha de pagamento antes do *Product-Market Fit*, entram em paralisia societária ou dependência de fundador único sem governança (Padrão 4), são comprimidas por plataformas globais (Padrão 5) ou sucumbem à inversão do ciclo de liquidez (Padrão 8). Estudar a anatomia real dos fracassos brasileiros é comprar dezenas de milhões de reais em proteção operacional com o capital que outros já queimaram.
 
@@ -6004,7 +5897,7 @@ Caso: Peixe Urbano e o modelo de compras coletivas (fundada em março de 2010, v
 
 #### Padrão 3: Queimar capital sem unit economics validadas (a lição do quick commerce)
 
-Foi exatamente esse padrão que derrubou a startup de entregas ultrarrápidas (*quick commerce*) do amigo de **Lucas** entre 2021 e 2022: subsidiada por rodadas fáceis, a operação vendia o equivalente a uma nota de R$ 100 por R$ 70 a cada entrega até que a alta da Selic secou o capital de risco e fechou a empresa em semanas. Ao analisar esse colapso com **Marina**, Lucas estabeleceu que a própria startup só aceleraria gastos comerciais quando a relação LTV/CAC superasse 3x com margem de contribuição positiva no lote piloto.
+Foi exatamente esse padrão que derrubou a startup de entregas ultrarrápidas (*quick commerce*) do amigo de Lucas entre 2021 e 2022: subsidiada por rodadas fáceis, a operação vendia o equivalente a uma nota de R$ 100 por R$ 70 a cada entrega até que a alta da Selic secou o capital de risco e fechou a empresa em semanas. Ao analisar esse colapso com Marina, Lucas estabeleceu que a própria startup só aceleraria gastos comerciais quando a relação LTV/CAC superasse 3x com margem de contribuição positiva no lote piloto.
 
 Além das empresas de *quick commerce* de 2021-2022 retratadas na conversa de Lucas, o mesmo mecanismo derrubou diversas operações de entrega de nicho entre 2014 e 2017 que tentaram sustentar frota dedicada para um único subsegmento sem densidade geográfica de rotas. Com margem bruta estreita, efeito de rede local insuficiente, custo de aquisição (CAC) em alta e tíquete médio por pedido (AOV) estagnado, cada entrega gerava prejuízo operacional direto. Injetar capital de risco em uma operação com margem de contribuição negativa apenas multiplica a velocidade do rombo: uma startup que perde R$ 100 mil por mês passa a perder R$ 5 milhões por mês quando escala. Para o estudo detalhado de quebras por economia unitária negativa, consulte o [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 19: POST-MORTEMS BRASILEIROS: CATÁLOGO DE CASOS EM PROFUNDIDADE|Capítulo 19: Post-Mortems Brasileiros: Catálogo de Casos em Profundidade (Vol. 9)]].
 
@@ -6086,12 +5979,9 @@ Enquanto o catálogo completo de *post-mortems* e reestruturações encontra-se 
 
 **Loggi (fricções físicas de última milha e virada para eficiência):** Após captar grandes rodadas e expandir agressivamente sua malha nacional, a empresa viveu forte pressão de custos operacionais até 2022, refletindo a complexidade geográfica, tributária e trabalhista das entregas urbanas no Brasil. A resposta exigiu dura reestruturação de rotas e custos fixos entre 2022 e 2023, levando a companhia a reportar Ebitda positivo a partir do quarto trimestre de 2023. Em negócios apoiados em infraestrutura física, projete desde o início uma margem de segurança de 30% a 50% sobre os custos logísticos teóricos.
 
-**Escale e o encerramento voluntário ordenado (2023):** No início de 2023, a startup brasileira **Escale** protagonizou um caso exemplar de maturidade fiduciária ao optar pelo encerramento voluntário e ordenado da operação antes de chegar à insolvência: ao constatarem que a economia unitária do modelo não convergiria no novo cenário de capital, os fundadores comunicaram o mercado com transparência, honraram as rescisões da equipe e dos fornecedores e devolveram o caixa remanescente aos investidores. Encerrar com dignidade preserva a reputação dos fundadores para jornadas futuras, tema aprofundado na seção "Quando a Saída É o Encerramento Honrado" da [[IGNICAO-Vol-9-Maturidade-e-Exit#FASE 20: ESTRATÉGIA DE SAÍDA (EXIT STRATEGY)|Fase 20 (Vol. 9)]] deste livro.
+**Escale e o encerramento voluntário ordenado (2023):** No início de 2023, a startup brasileira Escale protagonizou um caso exemplar de maturidade fiduciária ao optar pelo encerramento voluntário e ordenado da operação antes de chegar à insolvência: ao constatarem que a economia unitária do modelo não convergiria no novo cenário de capital, os fundadores comunicaram o mercado com transparência, honraram as rescisões da equipe e dos fornecedores e devolveram o caixa remanescente aos investidores. Encerrar com dignidade preserva a reputação dos fundadores para jornadas futuras, tema aprofundado na seção "Quando a Saída É o Encerramento Honrado" da [[IGNICAO-Vol-9-Maturidade-e-Exit#FASE 20: ESTRATÉGIA DE SAÍDA (EXIT STRATEGY)|Fase 20 (Vol. 9)]] deste livro.
 
 **A retração sistêmica dos fundos de *venture capital* (2021-2023):** O encolhimento da oferta de capital completa o quadro do período. Segundo dados do Distrito, o volume investido em startups no Brasil caiu cerca de 80% entre o pico de 2021 (US$ 9,9 bilhões) e 2023 (US$ 1,9 bilhão), fazendo com que diversas gestoras locais desacelerassem novos cheques e elevassem o rigor das diligências em 2023 e 2024. Como a indústria de capital de risco é fortemente pró-cíclica, captar no topo da euforia com avaliação inflada costuma cobrar um preço severo na rodada seguinte (*down round*), ao passo que construir a empresa com disciplina de caixa protege o fundador em qualquer estação.
-
-
-
 
 **Méliuz e o risco de tesouraria no mercado de capitais (2023-2025):** Listada na B3 desde 2020, a empresa de *cashback* viu suas ações negociadas entre 2023 e 2024 em patamar próximo ao próprio saldo de caixa líquido da companhia, ilustrando o desconto de liquidez sofrido por empresas de tecnologia de médio porte na bolsa local. Em resposta, a administração adotou uma aposta de alto risco na gestão de tesouraria: em março de 2025 anunciou a alocação de até 10% do caixa em Bitcoin e, em junho de 2025, captou R$ 180,1 milhões em oferta pública primária de ações (estruturada com base de R$ 150 milhões e teto de R$ 450 milhões) destinada à compra do ativo. Para fundadores, a lição exige separar com rigor a engenharia financeira de uma companhia aberta da gestão de caixa de uma startup: alocar reservas corporativas em ativos voláteis envolve altíssimo risco fiduciário, contábil e tributário, exigindo aprovação formal do conselho de administração e dos acionistas, política escrita de gestão de risco e blindagem integral do capital de giro. Em startups de capital fechado, o caixa operacional deve permanecer 100% aplicado em liquidez conservadora atrelada ao CDI.
 
@@ -6117,7 +6007,7 @@ Os oito padrões analisados neste capítulo (ausência de defensibilidade real, 
 
 ### O Espelho do Capítulo 3: qual erro clássico já está infiltrado na sua operação hoje?
 
-Depois daquele expresso em pé na padaria com o ex-fundador da startup de entregas ultrarrápidas, **Lucas e Marina** voltaram ao escritório em São Paulo e fixaram a regra financeira que blindaria a empresa desde o primeiro lote piloto: nenhum real seria investido em aquisição paga antes de comprovar margem de contribuição positiva por cliente e relação LTV/CAC mínima de 3x nas distribuidoras atendidas.
+Depois daquele expresso em pé na padaria com o ex-fundador da startup de entregas ultrarrápidas, Lucas e Marina voltaram ao escritório em São Paulo e fixaram a regra financeira que blindaria a empresa desde o primeiro lote piloto: nenhum real seria investido em aquisição paga antes de comprovar margem de contribuição positiva por cliente e relação LTV/CAC mínima de 3x nas distribuidoras atendidas.
 
 **O Espelho (autodiagnóstico):**
 1. Sem cair na **Cegueira do Viés de Sobrevivência**, se o mercado de capitais fechasse completamente pelos próximos 24 meses e nenhum centavo externo entrasse, sua operação sobreviveria com a margem gerada pelos próprios clientes?
@@ -6134,5 +6024,5 @@ Toda segunda-feira às 9h, reserve 15 minutos com seus sócios para auditar o ca
 
 ### Fechamento do Volume 2 e Ponte para o Volume 3
 
-Com as Fases 4, 5 e 6 e os Capítulos 1, 2 e 3 concluídos, você encerra o ciclo de descoberta do problema, pesquisa com usuários e mapeamento estratégico de mercado. O próximo passo começa imediatamente no **Volume 3: Hipóteses, Experimentos, Prototipagem e Modelos de Negócio**, abrindo na [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 7: FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 7: Formulação Rigorosa de Hipóteses (Vol. 3)]], onde o seu Mapa de Problemas, o Dossiê do Usuário e o Canvas da Cunha serão transformados em hipóteses falseáveis, experimentos práticos de compromisso e protótipos validados com clientes reais.
+Com as Fases 4, 5 e 6 e os Capítulos 1, 2 e 3 concluídos, você encerra o ciclo de descoberta do problema, pesquisa com usuários e mapeamento estratégico de mercado. O próximo passo começa imediatamente no Volume 3: Hipóteses, Experimentos, Prototipagem e Modelos de Negócio, abrindo na [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 7: FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 7: Formulação Rigorosa de Hipóteses (Vol. 3)]], onde o seu Mapa de Problemas, o Dossiê do Usuário e o Canvas da Cunha serão transformados em hipóteses falseáveis, experimentos práticos de compromisso e protótipos validados com clientes reais.
 

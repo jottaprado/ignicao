@@ -56,6 +56,10 @@
     "newText": "> Em *A Lógica da Pesquisa Científica* (1934), Karl Popper estabeleceu a **falsificabilidade** como critério de demarcação entre ciência empírica e especulação: nenhuma quantidade de observações favoráveis prova definitivamente uma afirmação universal, mas um único contraexemplo rigorosamente observado basta para refutá-la. Aplicado à gestão de startups, isso significa que testar uma ideia nunca é sair atrás de elogios que confirmem o que você já acredita, e sim desenhar um experimento capaz de derrotar a sua hipótese caso ela seja falsa."
   },
   {
+    "line": 197,
+    "newText": "Exemplo de hipótese composta (ruim): \"Assinantes do clube de cafés especiais de Rafael e Bia renovam depois do terceiro mês porque gostam da curadoria dos microlotes, valorizam as fichas sensoriais impressas e acham o preço de R$ 89 por mês justo.\""
+  },
+  {
     "line": 199,
     "newText": "Essa hipótese junta três afirmações distintas sobre o clube de autocuidado de Rafael e Bia: (1) clientes de cosméticos naturais preferem receber uma caixa surpresa mensal a comprar itens avulsos; (2) a curadoria de novidades é o principal motivo de assinatura; e (3) o frete recorrente para fora das capitais não provoca cancelamento no segundo mês."
   },
@@ -1053,7 +1057,15 @@
   },
   {
     "line": 1878,
-    "newText": "**Exequibilidade (*Feasibility*)**: conseguimos construir e entregar essa solução no prazo de um MVP enxuto com as capacidades técnicas, operacionais e regulatórias que temos hoje? (Junto com a **Desejabilidade** para o usuário e a **Viabilidade** econômica para o negócio, forma o tripé clássico **DVF: Desejabilidade, Viabilidade e Exequibilidade**, pontuado de 1 a 5 em cada eixo.)"
+    "newText": "**Viabilidade (*Viability*)**: o modelo econômico fecha na ponta do lápis, com preço sustentável, custo de aquisição comportado e margem saudável para escalar o negócio?"
+  },
+  {
+    "line": 1880,
+    "newText": "**Exequibilidade (*Feasibility*)**: conseguimos construir e entregar essa solução no prazo de um MVP enxuto com as capacidades técnicas, operacionais e regulatórias que temos hoje? (Junto com a Desejabilidade para o usuário e a Viabilidade econômica para o negócio, forma o tripé clássico **DVF: Desejabilidade, Viabilidade e Exequibilidade**, pontuado de 1 a 5 em cada eixo.)"
+  },
+  {
+    "line": 1884,
+    "newText": "> [!note] O tripé DVF e a Matriz Impacto × Esforço são complementares"
   },
   {
     "line": 1885,
@@ -1148,8 +1160,16 @@
     "newText": "> O teste prático confirmou na bancada dos padeiros que a **Ideia #7 (arquitetura híbrida)** batia os dois extremos isolados: o alerta diário às 6h no WhatsApp garante abertura imediata para pedidos rotineiros até R$ 1.000, enquanto uma página web enxuta aberta pelo link resolve a conferência de pedidos maiores sem exigir instalação de aplicativo. Confrontar dois protótipos contrastantes com usuários reais transforma um palpite de sala de reunião em decisão comprovada pelo uso."
   },
   {
+    "line": 1998,
+    "newText": "### Caso brasileiro e simulação prática: prototipagem para o público infantil (lições da PlayKids)"
+  },
+  {
     "line": 2000,
     "newText": "A **PlayKids**, plataforma brasileira de conteúdo educativo infantil criada dentro do grupo Movile em 2013, enfrentou desde a origem um desafio clássico de design de interação: seu usuário direto eram crianças na primeira infância (de 2 a 6 anos, que ainda não leem menus textuais nem respondem entrevistas verbais), enquanto o pagante eram os pais. Para ilustrar como equipes de produtos infantis resolvem essa assimetria na Fase 9, acompanhe a **reconstrução didática** de um teste de protótipo em papel:"
+  },
+  {
+    "line": 2002,
+    "newText": "Para visualizar como esse princípio opera na prática com o público infantil, considere uma simulação didática de teste em papel antes de programar: a equipe imprime as telas desenhadas e pede a crianças de quatro, seis e oito anos que toquem nas folhas como se fossem o tablet, observando em silêncio onde travam e quais gestos fazem espontaneamente."
   },
   {
     "line": 2004,
@@ -1520,64 +1540,128 @@
     "newText": "### Templates operacionais e casos preenchidos desta fase (OST, User Story Map, Concept Card, Roteiro de 30 Minutos e Dossiê de Solução)"
   },
   {
+    "line": 2624,
+    "newText": "```mermaid"
+  },
+  {
+    "line": 2625,
+    "newText": "graph TD"
+  },
+  {
+    "line": 2626,
+    "newText": "    A[\"Resultado desejado: Reduzir a perda mensal de farinha e insumos nas padarias em 30%\"] --> B1[\"Oportunidade 1: O padeiro descobre a falta de insumo tarde demais no turno\"]"
+  },
+  {
     "line": 2627,
-    "newText": "    A --> B2[Oportunidade 2: Dono perde 4h/semana cotando 3 atacadistas no WhatsApp]"
+    "newText": "    A --> B2[\"Oportunidade 2: Compras emergenciais no distribuidor saem 18% mais caras sem cotação\"]"
   },
   {
     "line": 2628,
-    "newText": "    A --> B3[Oportunidade 3: Padeiro não anota sacos rasgados porque o PC fica no escritório]"
+    "newText": "    A --> B3[\"Oportunidade 3: Perda por vencimento de laticínios e fermento no estoque\"]"
+  },
+  {
+    "line": 2629,
+    "newText": ""
   },
   {
     "line": 2630,
-    "newText": "    B1 --> C1[Solução 1.1: Alerta às 6h no WhatsApp com sugestão pronta]"
+    "newText": "    B1 --> C1[\"Solução 1: Alerta diário de estoque mínimo via bot no WhatsApp às 6h\"]"
   },
   {
     "line": 2631,
-    "newText": "    B1 --> C2[Solução 1.2: Planilha enviada por e-mail às 20h]"
+    "newText": "    B1 --> C2[\"Solução 2: Ficha visual de baixa rápida colada na balança da produção\"]"
   },
   {
     "line": 2632,
-    "newText": "    B1 --> C3[Solução 1.3: Híbrido WhatsApp + link web acima de R$ 1.000]"
+    "newText": "    B2 --> C3[\"Solução 3: Cotação comparativa automática no WhatsApp com 3 fornecedores\"]"
+  },
+  {
+    "line": 2633,
+    "newText": "    B2 --> C4[\"Solução 4: Pedido programado recorrente com aprovação em 1 clique\"]"
   },
   {
     "line": 2634,
-    "newText": "    B2 --> C4[Solução 2.1: Tabela comparativa dos 3 fornecedores cadastrados]"
+    "newText": "    B3 --> C5[\"Solução 5: Etiqueta de lote com alerta de vencimento 5 dias antes\"]"
   },
   {
     "line": 2635,
-    "newText": "    B2 --> C5[Solução 2.2: Cotação automática disparada pelo bot]"
+    "newText": "    B3 --> C6[\"Solução 6: Sugestão automática de promoção do dia para giro de estoque\"]"
+  },
+  {
+    "line": 2636,
+    "newText": ""
   },
   {
     "line": 2637,
-    "newText": "    B3 --> C6[Solução 3.1: Registro de perda por áudio de 10s no WhatsApp]"
+    "newText": "    C1 --> D1{\"Experimento 1: Concierge no WhatsApp por 14 dias em 7 padarias\"}"
   },
   {
     "line": 2638,
-    "newText": "    B3 --> C7[Solução 3.2: Cartão físico plastificado ao lado do forno]"
+    "newText": "    C3 --> D2{\"Experimento 2: Simulação de cotação real em 30 minutos com 7 donos\"}"
+  },
+  {
+    "line": 2639,
+    "newText": "```"
   },
   {
     "line": 2640,
-    "newText": "    C1 --> D1{Experimento: Disparo manual às 6h por 5 dias}"
+    "newText": ""
   },
   {
     "line": 2641,
-    "newText": "    C3 --> D2{Experimento: Protótipo híbrido com 5 donos}"
+    "newText": ""
+  },
+  {
+    "line": 2642,
+    "newText": ""
   },
   {
     "line": 2657,
     "newText": "| **4. Paga e confirma** | Pix nativo com QR Code automático + confirmação de pedido no WhatsApp | Cartão de crédito salvo + boleto faturado para redes | Cashback, cupons promocionais e divisão de pagamento |"
   },
   {
+    "line": 2665,
+    "newText": "#### Fichas operacionais dos Passos 2, 3, 5 e 7 desta fase (Matriz DVF, Concept Card, Roteiro de 30 Minutos e Dossiê de Solução)"
+  },
+  {
+    "line": 2666,
+    "newText": ""
+  },
+  {
     "line": 2667,
-    "newText": "Em Belo Horizonte, a Dra. Camila escapou do **Cemitério dos Protótipos Perfeitos** quando desistiu de encomendar telas polidas por semanas e testou, numa única tarde, um vídeo simulado de 15 segundos no WhatsApp com nove pacientes de reabilitação oral e três recepcionistas de clínicas parceiras. A reação imediata separou o que era vaidade estética do que realmente destravava o retorno do paciente, cabendo num dossiê enxuto de duas páginas para entrar na Fase 10. É isso que muda na sua cabeça ao sair da Fase 9: o protótipo deixa de ser uma maquete para receber elogios e passa a funcionar como uma isca rápida e descartável para capturar o erro barato antes de escrever uma única linha de código."
+    "newText": "##### Template: Matriz de Priorização DVF (Desejabilidade, Viabilidade e Exequibilidade: Passo 2)"
+  },
+  {
+    "line": 2668,
+    "newText": ""
+  },
+  {
+    "line": 2669,
+    "newText": "| Conceito Candidato | Desejabilidade (1–5) | Viabilidade Econômica (1–5) | Exequibilidade Técnica (1–5) | Pontuação Total (D × V × F) | Status |"
+  },
+  {
+    "line": 2670,
+    "newText": "|---|---|---|---|---|---|"
+  },
+  {
+    "line": 2671,
+    "newText": "| **Conceito 1:** Bot de cotação e alerta no WhatsApp | 5 | 4 | 5 | **100** | Finalista 1 |"
+  },
+  {
+    "line": 2672,
+    "newText": "| **Conceito 2:** Painel web completo de estoque e compras | 3 | 4 | 3 | **36** | Descartado |"
   },
   {
     "line": 2673,
-    "newText": "#### Fichas operacionais dos Passos 3, 5 e 7 desta fase"
+    "newText": "| **Conceito 3:** Planilha automatizada com resumo diário por e-mail | 4 | 4 | 4 | **64** | Finalista 2 |"
+  },
+  {
+    "line": 2674,
+    "newText": ""
   },
   {
     "line": 2675,
-    "newText": "##### Template: Concept Card de Solução (Passo 3: 6 campos obrigatórios)"
+    "newText": "##### Template: Concept Card de Solução (Passo 3)"
   },
   {
     "line": 2678,
@@ -1678,6 +1762,10 @@
   {
     "line": 2708,
     "newText": "| **Decisão de saída da Fase 9** | Avançar para o corte de escopo MoSCoW e especificação final na Fase 10 com o fluxo híbrido (WhatsApp + tela web de confirmação) |"
+  },
+  {
+    "line": 2709,
+    "newText": "\n---\n\n### Fechamento da Fase 9: o que muda na sua cabeça e na sua empresa a partir de agora\n\nEm Belo Horizonte, a Dra. Camila escapou do **Cemitério dos Protótipos Perfeitos** quando desistiu de encomendar telas polidas por semanas e testou, numa única tarde, um vídeo simulado de 15 segundos no WhatsApp com nove pacientes de reabilitação oral e três recepcionistas de clínicas parceiras. A reação imediata separou o que era vaidade estética do que realmente destravava o retorno do paciente, cabendo num dossiê enxuto de duas páginas para entrar na Fase 10. É isso que muda na sua cabeça ao sair da Fase 9: protótipo é isca descartável para capturar o erro barato antes de escrever uma linha de código.\n\nEsse dossiê é o insumo da [[#FASE 10 — TESTES DE SOLUÇÃO E USABILIDADE|Fase 10]], onde o conceito escolhido passa por testes de usabilidade estruturados e se converte em Especificação do MVP. Quem chega à Fase 10 sem ter explorado alternativas e sem ter testado protótipo entra na especificação com hipótese implícita não testada, aumentando o risco de retrabalho na [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 11 — MVP E EXPERIMENTOS DE MERCADO|Fase 11 (Vol. 4)]]."
   },
   {
     "line": 2720,

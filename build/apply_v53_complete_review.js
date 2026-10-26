@@ -116,10 +116,8 @@ function applyV53CompleteReview(volNum, content) {
 
     // Mechanical hygiene
     l = l
-      .replace(/:\s+e\b/g, ', e')
-      .replace(/:\s+mas\b/g, ', mas')
-      .replace(/:\s+ou\b/g, ', ou')
-      .replace(/:\s+que\b/g, ' que')
+      .replace(/:\s+(e|mas|ou)\b/gi, (_, conj) => `, ${conj.toLowerCase()}`)
+      .replace(/:\s+que\b/gi, ' que')
       .replace(/\|\s*:\s*(?=\|)/g, '| - ')
       .replace(/\bIbs\/cbs\b/g, 'IBS/CBS')
       .replace(/\bIbs\b/g, 'IBS')
@@ -137,15 +135,20 @@ function applyV53CompleteReview(volNum, content) {
       .replace(/\bigual a bias\b/gi, 'viés')
       .replace(/\bmenos cem a mais cem\b/gi, '-100 a +100')
       .replace(/;;+/g, ';')
+      // Normalize edition version string across all volumes
+      .replace(/^version:\s*"5\.2"/, 'version: "5.3"')
+      .replace(/Edição Narrativa Enxuta \(v5\.2\)/g, 'Edição Narrativa Enxuta (v5.3)')
+      .replace(/IGNIÇÃO 5\.2/g, 'IGNIÇÃO 5.3')
       // "não-" with hyphen -> space (Novo Acordo Ortográfico)
       .replace(/\bnão-([a-zà-ú]+)/g, 'não $1')
       .replace(/\bNão-([a-zà-úA-ZÀ-Ú]+)/g, 'Não $1')
       .replace(/\bNÃO-([A-ZÀ-Ú]+)/g, 'NÃO $1')
       // Bold numbered label followed by comma ("**Bloco 3, Alternativa**") -> colon
       .replace(
-        /\*\*((?:Bloco|Passo|Etapa|Fase|Item|Pilar|Regra|Erro|Camada|Nível|Critério|Teste|Sinal|Pergunta|Gatilho|Risco|Frente|Portão|Gate|Ato|Cenário|Módulo|Parte|Seção|Ponto|Mandamento|Princípio|Dimensão|Alavanca|Filtro|Trava|Cláusula)\s+\d+),\s+/gi,
+        /\*\*((?:Bloco|Passo|Etapa|Fase|Item|Pilar|Regra|Erro|Camada|Nível|Critério|Teste|Sinal|Pergunta|Gatilho|Risco|Frente|Portão|Gate|Ato|Cenário|Módulo|Parte|Seção|Ponto|Mandamento|Princípio|Dimensão|Alavanca|Filtro|Trava|Cláusula|Ensaio|Protótipo(?: número)?|Tarefa|Aba|Momento|Slide|Estágio|Instrumento|Eixo|Modelo|Fonte|Tier|Decisão|Caso|Balde)\s+\d+),\s+/gi,
         '**$1: '
       )
+      .replace(/\b(Passo\s+\d+),\s+([A-ZÀ-Ú])/g, '$1: $2')
       .replace(
         /^(#{2,6}\s+(?:Bloco|Passo|Etapa|Fase|Item|Pilar|Regra|Erro|Camada|Nível|Critério|Teste|Sinal|Pergunta|Gatilho|Risco|Frente|Portão|Gate)\s+\d+),\s+/i,
         '$1: '
@@ -153,7 +156,8 @@ function applyV53CompleteReview(volNum, content) {
       // Ellipsis placeholders `[...]` -> `[preencher]` and clean ellipses
       .replace(/`\[\.\.\.\]`/g, '`[preencher]`')
       .replace(/\[\.\.\.\]/g, '[preencher]')
-      .replace(/\.\.\.|…/g, '.');
+      .replace(/\.\.\.|…/g, '.')
+      .replace(/\bTL;DR\b/g, 'TLDR');
 
     // Vary repeated "Como rodar na segunda-feira às 9h" subheadings
     if (/^#{3,6}\s+.*segunda-feira às 9h/i.test(l)) {
@@ -214,26 +218,44 @@ function applyV53CompleteReview(volNum, content) {
       l = l.replace(/__CKEEP_(\d+)__/g, (_, idx) => cKept[Number(idx)]);
     }
 
-    // Reduce mechanical semicolons in prose and bullets
-    if (l.includes(';') && !/^\s*\|/.test(l) && !/^```/.test(l) && !l.includes('&nbsp;')) {
-      l = l
-        .replace(
-          /;\s+(mas|porém|contudo|todavia|entretanto|pois|porque|já que|visto que|dado que|embora|ainda que|mesmo que|enquanto|ao passo que|onde|quando|como|ou|e|nem|logo|portanto|assim|por isso|além disso|em vez disso|pelo contrário|ou seja|isto é|por exemplo|especialmente|inclusive|sobretudo)\b/gi,
-          ', $1'
-        )
-        .replace(/;\s+([a-zà-ú]+ndo)\b/g, ', $1')
-        .replace(/;\s*$/g, '.');
-      if (!/^\s*[-*\d]/.test(l) && !/\(\d+\)|\b[a-d]\)/.test(l)) {
-        l = l.replace(/;\s+([a-zà-ú])/g, (_, ch) => `. ${ch.toUpperCase()}`);
+    // Reduce mechanical semicolons in prose, bullets, and tables
+    if (l.includes(';') && !/^```/.test(l) && !l.includes('&nbsp;')) {
+      if (!/^\s*\|/.test(l)) {
+        l = l
+          .replace(
+            /;\s+(mas|porém|contudo|todavia|entretanto|pois|porque|já que|visto que|dado que|embora|ainda que|mesmo que|enquanto|ao passo que|onde|quando|como|ou|e|nem|logo|portanto|assim|por isso|além disso|em vez disso|pelo contrário|ou seja|isto é|por exemplo|especialmente|inclusive|sobretudo)\b/gi,
+            ', $1'
+          )
+          .replace(/;\s+([a-zà-ú]+ndo)\b/g, ', $1')
+          .replace(/;\s*$/g, '.');
+        if (!/^\s*[-*\d]/.test(l) && !/\(\d+\)|\b[a-d]\)/.test(l)) {
+          l = l.replace(/;\s+([a-zà-ú])/g, (_, ch) => `. ${ch.toUpperCase()}`);
+        }
+        l = l.replace(/;\s+/g, ', ');
       } else {
         l = l.replace(/;\s+/g, ', ');
       }
     }
 
-    // Fix one-word sentences in prose paragraphs
-    if (!/^\s*[|>`#-]|^\s*$/.test(l)) {
+    // Clean mechanical antitheses ("não é X, é Y" / "não é X: é Y" / "não é X. É Y")
+    if (!/^\s*\|/.test(l) && !/^#{1,6}\s+/.test(l)) {
+      l = l
+        .replace(
+          /(\b[Nn]ão\s+(?:é|são|era|eram|foi|foram|está|estão)\s+[^.,:;!\?\n]{2,55})[,:]\s*(?:é|são|era|eram|foi|foram|está|estão)\b/g,
+          '$1, mas sim'
+        )
+        .replace(
+          /(\b[Nn]ão\s+(?:é|são|era|eram|foi|foram|está|estão)\s+[^.,:;!\?\n]{2,55})\.\s+(?:É|São|Era|Eram|Foi|Foram|Está|Estão)\b/g,
+          '$1, mas sim'
+        );
+    }
+
+    // Fix one-word sentences in prose, blockquotes, and bullets
+    if (!/^\s*[|#]|^\s*$/.test(l)) {
       l = l
         .replace(/^([A-ZÀ-Ú][a-zà-ú]{2,20})\.\s+([A-ZÀ-Ú])/g, '**$1:** $2')
+        .replace(/\.\s+Ex\.:\s+/g, ', por exemplo: ')
+        .replace(/\*\*(Investir|Desinvestir|Modelo|Escalabilidade|Segmento|Assinatura|Processo)\.\*\*/g, '**$1:**')
         .replace(/Precisa\.\s+Sempre\.\s+Documente/g, 'Precisa sempre: documente')
         .replace(/\.\s+Concordo\./g, ', com o que concordo integralmente.')
         .replace(/\.\s+Raro\.\s+/g, ', o que é raro: ')
@@ -242,12 +264,44 @@ function applyV53CompleteReview(volNum, content) {
         .replace(/\.\s+Separe\.\s+/g, ', separando as conversas: ')
         .replace(/\.\s+Investigue\./g, ' e exige investigação imediata.')
         .replace(/\.\s+Depende\.\s+/g, ': depende do contexto. ')
+        .replace(/\?\s+Depende\.\s+/g, '? Depende do contexto: ')
+        .replace(/\?\s+Sim\.\s+/g, '? Sim: ')
+        .replace(/\?\s+Não\.\s+/g, '? Não: ')
+        .replace(/\?\s+Possivelmente\./g, '? Possivelmente, a depender da execução.')
+        .replace(/\?\s+Idem\./g, '? O mesmo princípio se aplica.')
+        .replace(/\?\s+Nenhuma\./g, '? Nenhuma empresa séria diria isso.')
+        .replace(/\?\s+Difícil\./g, '? Muito difícil na prática.')
+        .replace(/\?\s+Ajustar\./g, '? Ajuste a rota imediatamente.')
+        .replace(/\?\s+Vieses\./g, ' e se há vieses de seleção.')
+        .replace(/\.\s+Passa\./g, ' (acima do piso, portanto passa).')
+        .replace(/\.\s+Falha\./g, ' (abaixo do piso, portanto falha).')
         .replace(/\.\s+Some\.\s+/g, ' e some os pontos: ')
         .replace(/\.\s+Clássico\.\s+/g, ' (caso clássico): ')
         .replace(/\.\s+Reajuste\./g, ', reajustando a rota imediatamente.')
         .replace(/\.\s+Processar\./g, ' e processar o luto.')
         .replace(/\.\s+Honesta\./g, ' e honesta.')
-        .replace(/([a-zà-ú0-9)"])\.\s+([A-ZÀ-Ú][a-zà-ú]{2,18})\.(?=\s+[A-ZÀ-Ú]|$)/g, '$1 ($2).');
+        .replace(/([a-zà-ú0-9)"?])\.\s+([A-ZÀ-Ú][a-zà-ú]{2,18})\.(?=\s+[A-ZÀ-Ú]|$)/g, '$1 ($2).');
+    }
+
+    // Reduce excessive mid-sentence bolding while keeping lead-in labels, tables, and named anti-patterns
+    if (l.includes('**') && !/^\s*\|/.test(l) && !/^#{1,6}\s+/.test(l)) {
+      // Unbold archetype names everywhere in prose/bullets
+      l = l.replace(
+        /(?<!\*)\*\*(Lucas(?: e Marina)?|Marina|Dra\.\s*Camila|Camila|Henrique|Rafael(?: e Bia)?|Bia)\*\*(?!\*)/g,
+        '$1'
+      );
+      let bIdx = 0;
+      l = l.replace(/(?<!\*)\*\*([^*\n]+)\*\*(?!\*)/g, (m, inner, offset) => {
+        bIdx++;
+        // Keep the first bold span if it is a lead-in near the start of the line
+        if (bIdx === 1 && offset < 28) return m;
+        // Keep bold on named anti-patterns / traps introduced with "Batizamos ... de **...**"
+        const before = l.slice(Math.max(0, offset - 65), offset);
+        if (/(?:Batizamos[^*\n]{0,50}de|chamamos de|caiu em|cair em|contra)\s+$/i.test(before)) {
+          return m;
+        }
+        return inner;
+      });
     }
 
     // Strip any residual close-mold bold label prefix
@@ -272,6 +326,7 @@ function applyV53CompleteReview(volNum, content) {
 
   let joined = outLines
     .join('\n')
+    .replace(/\n{3,}/g, '\n\n')
     .replace(
       /---\nAplique o ritual de passagem de fase toda última sexta-feira do mês antes de abrir o planejamento do mês seguinte\.\n(?=## CAPÍTULO 3)/g,
       '---\n\n'
@@ -297,7 +352,7 @@ function applyV53CompleteReview(volNum, content) {
       '| :--- | :--- | :--- |',
       '| **Reserva financeira pessoal para dedicação integral** | **12 meses** de custo de vida familiar (piso mínimo de **6 meses** com gatilho de corte pré-acordado em casa) | Fase 0 (Vol. 1) |',
       '| **Lote de entrevistas de descoberta de cliente** | **20 a 30 entrevistas** conduzidas em lotes de 5 até a saturação de padrões (piso de 15 em B2B de nicho e até 50 em B2C amplo) | Fase 4 (Vol. 2) |',
-      '| **Escala de intensidade da dor (*Pain Level*)** | **1** (inexistente), **2** (latente), **3** (consciente sem busca ativa), **4** (busca ativa com improviso), **5** (urgente com orçamento liberado) | Fase 4 (Vol. 2) |',
+      '| **Escala de intensidade da dor (*Pain Level*)** | **1** (tem o problema, mas não percebe), **2** (sabe que tem, mas tolera), **3** (busca solução ativamente no mercado), **4** (já improvisou gambiarra ativa), **5** (já tem orçamento comprometido) | Fase 4 (Vol. 2) |',
       '| **Declaração de *Product-Market Fit* (PMF)** | **≥ 40%** "muito decepcionado" (Sean Ellis), curva de coorte estabilizada, **GRR ≥ 85%** e **NRR ≥ 100%** em B2B (≥ 110% em Enterprise) | Fase 13 (Vol. 4) |',
       '| **Eficiência comercial (*LTV/CAC*, *Payback* e *Magic Number*)** | **LTV/CAC ≥ 3x** (calculado sobre margem bruta), **CAC Payback ≤ 12 meses** em PME (≤ 18 meses em Enterprise) e **Magic Number ≥ 0,75** | Fase 14 e Cap. 3 (Vol. 5) |',
       '| **Marco financeiro de Lucas e Marina na Série A** | Entrada na Fase 14 com **R$ 200 mil de MRR (R$ 2,4M de ARR, 160 clientes)** e fechamento da Série A em **R$ 400 mil de MRR (R$ 4,8M de ARR)** | Fase 14 e Cap. 3 (Vol. 5) |',
@@ -313,7 +368,7 @@ function applyV53CompleteReview(volNum, content) {
     // Add Legal Readiness Gate before Phase 14 (DA-269)
     const gateCallout = [
       '> [!warning] Pré-condição para escalar e Portão Jurídico Pré-Captação (Fase 18 antes da Fase 14)',
-      '> Estruturar e escalar exigem PMF comprovado na Fase 13 e os **quatro itens obrigatórios do Portão Jurídico da Fase 18 (Vol. 8)** concluídos antes de abrir o *data room* da Fase 14 (Vol. 5): **(1) Contrato Social e Acordo de Sócios** assinados com regras de voto e saída; **(2) Contratos de *Vesting* e *Cliff*** formalizados para todos os fundadores e executivos-chave; **(3) Termos de Cessão Irrevogável de Propriedade Intelectual** (Leis 9.609/1998 e 9.279/1996) assinados por todos os sócios, empregados e prestadores que escreveram código ou criaram ativos; e **(4) *Cap Table* limpo e conciliado**, sem promessas verbais de participação.',
+      '> Estruturar e escalar exigem PMF comprovado na Fase 13 e os **quatro itens obrigatórios do Portão Jurídico da Fase 18 (Vol. 8)** concluídos antes de abrir o *data room* da Fase 14 (Vol. 5): **(1) Contrato Social e Acordo de Sócios** assinados com regras de voto e saída, **(2) Contratos de *Vesting* e *Cliff*** formalizados para todos os fundadores e executivos-chave, **(3) Termos de Cessão Irrevogável de Propriedade Intelectual** (Leis 9.609/1998 e 9.279/1996) assinados por todos os sócios, empregados e prestadores que escreveram código ou criaram ativos, e **(4) *Cap Table* limpo e conciliado**, sem promessas verbais de participação.',
     ].join('\n');
     joined = joined.replace(
       /> \[!warning\] Pré-condição para escalar\n> Estruturar e escalar assumem PMF comprovado na Fase 13\.[^\n]+/,

@@ -808,8 +808,60 @@
     "newText": "Compare os critérios acima antes de desenhar seu funil: quando o comprador brasileiro precisa aprovar orçamento no financeiro ou integrar sistemas legados, combine a entrada autoguiada do produto com o fechamento consultivo."
   },
   {
+    "line": 3105,
+    "newText": "- **Reduzir o CAC destruindo o LTV:** otimizar o custo de aquisição de R$ 300 para R$ 250 parece vitória no curto prazo, mas se o ajuste atrair clientes fora do perfil ideal que cancelam no segundo mês, a relação LTV/CAC afunda. Avalie sempre o CAC em conjunto com a retenção e o LTV da safra."
+  },
+  {
+    "line": 3107,
+    "newText": "- **Declarar vitória em testes A/B sem significância estatística:** comemorar um ganho aparente de 5% em uma amostra de apenas duzentos usuários confunde ruído aleatório com aprendizado; utilize calculadoras de tamanho amostral e plataformas como GrowthBook, Statsig ou Eppo para travar o rigor estatístico."
+  },
+  {
+    "line": 3109,
+    "newText": "- **Operar o time de Growth como ilha isolada:** quando a equipe de crescimento cria fluxos paralelos desconectados da arquitetura principal, o produto vira uma colcha de retalhos; integre o planejamento em reuniões semanais conjuntas e mantenha um roteiro unificado com a engenharia central."
+  },
+  {
+    "line": 3111,
+    "newText": "- **Disparar experimentos sem hipótese causal:** trocar a cor ou o texto de um botão apenas para ver o que acontece gera ruído operacional; todo teste exige uma hipótese documentada que explique por que aquela mudança alterará o comportamento do usuário."
+  },
+  {
     "line": 3113,
     "newText": "- **Restringir Growth ao topo do funil (mídia paga):** tratar a equipe de crescimento como compradora de tráfego enquanto 90% dos cadastrados abandonam o produto nas primeiras 48 horas (exatamente o erro que custou R$ 534 mil a **Rafael e Bia** na abertura deste capítulo)."
+  },
+  {
+    "line": 3115,
+    "newText": "- **Tratar Growth como passe de mágica:** contratar um líder da área esperando multiplicar a receita por dez sem produto retentivo gera frustração imediata; o crescimento sustentável nasce da soma composta de ganhos consistentes de 10% a 30% por trimestre."
+  },
+  {
+    "line": 3117,
+    "newText": "- **Não documentar os testes realizados:** quando a equipe executa experimentos sem registrar hipóteses e resultados em uma base única, novos integrantes repetem seis meses depois os mesmos erros que já haviam falhado."
+  },
+  {
+    "line": 3119,
+    "newText": "> [!warning] Ignorar os danos reputacionais e legais de atalhos agressivos"
+  },
+  {
+    "line": 3120,
+    "newText": "> Padrões enganosos (*dark patterns*, como esconder o botão de cancelamento), indicação com incentivo agressivo que atrai caçadores de bônus e spam de SEO destroem a reputação e a retenção, além de exporem a empresa no Brasil a sanções do Procon, ações civis públicas com base no Código de Defesa do Consumidor (CDC) e, em setores regulados pelo Decreto nº 13.135, de 9 de outubro de 2026 (em vigor em 2 de novembro de 2026, que substituiu o Decreto nº 11.034/2022 nas regras do SAC), à obrigação de cancelamento imediato pelo mesmo canal da contratação e atendimento humano diário das 8h às 20h."
+  },
+  {
+    "line": 3122,
+    "newText": "- **Excesso de engenharia própria (*over-engineering*) em infraestrutura de testes:** gastar seis meses construindo do zero um motor interno de testes A/B desvia engenharia preciosa do produto principal quando soluções prontas como GrowthBook ou Optimizely resolvem o problema em poucos dias."
+  },
+  {
+    "line": 3124,
+    "newText": "- **Copiar táticas alheias sem traduzir para o próprio contexto:** um mecânica de indicação viral que funcionou em um aplicativo gratuito para consumidores raramente funciona da mesma forma em um software B2B de tíquete alto; adapte cada alavanca à psicologia do seu comprador."
+  },
+  {
+    "line": 3126,
+    "newText": "- **Contratar um Head of Growth sem alçada sobre o produto:** se o responsável por crescimento responde pela meta de ativação mas não tem engenheiros dedicados nem voz sobre o fluxo de entrada do produto, o cargo reduz-se a compra de mídia paga e os melhores profissionais pedem demissão rapidamente."
+  },
+  {
+    "line": 3128,
+    "newText": "- **Perseguir métricas de vaidade:** comemorar alta de 50% nos cadastros brutos quando os novos usuários não ativam nem convertem em receita mascara o desperdício de caixa; concentre o painel em ativação qualificada, retenção por coorte e receita líquida expandida."
+  },
+  {
+    "line": 3130,
+    "newText": "- **Desalinhar os experimentos do modelo comercial da empresa:** focar em cadastro autoguiado quando 90% da receita vem de vendas consultivas corporativas (ou o inverso) desperdiça energia na alavanca errada."
   },
   {
     "line": 3141,
@@ -1512,16 +1564,156 @@
     "newText": "O setor brasileiro de franquias atingiu **R$ 301,7 bilhões de faturamento no balanço oficial de 2025 da Associação Brasileira de Franchising (ABF), divulgado em 2026** (crescimento nominal de 10,5% sobre os R$ 273 bilhões de 2024, reunindo **3.297 redes** e **202.444 unidades em operação**), liderado no ranking ABF 2025 (divulgado em março de 2026) por Cacau Show (4.713 operações), O Boticário (3.898 operações) e McDonald's (2.774 operações, somando unidades próprias da Arcos Dorados e subfranqueadas), seguidos por redes como Colchões Ortobom e Espaçolaser. Todo o rito da Circular de Oferta de Franquia (COF), o cálculo de retorno da unidade franqueada e a blindagem contra requalificação contratual estão detalhados no [[#CAPÍTULO 6 — FRANCHISING, LICENCIAMENTO E EXPANSÃO DE REDES MULTI-UNIDADES (LEI 13.966/2019)|Capítulo 6 (Franchising, Licenciamento e Expansão de Redes Multi-Unidades)]]."
   },
   {
+    "line": 4629,
+    "newText": "A franquia empresarial faz sentido quando o modelo operacional é altamente padronizável, a marca já possui tração comprovada, o atendimento exige presença local e o franqueado financia o capital de expansão física; em contrapartida, é inadequada quando a entrega depende de inovação técnica contínua ou de ativos proprietários que não podem ser transferidos a terceiros. As quatro modalidades de operação (franquia padrão, microfranquia com investimento inicial de até R$ 135 mil pelos parâmetros da ABF em 2025/2026, *master* franquia e franquia de conversão), os requisitos legais da Circular de Oferta de Franquia (COF entregue com no mínimo 10 dias de antecedência sob pena de anulabilidade ou nulidade e devolução corrigida dos valores pagos nos termos da Lei nº 13.966/2019) e a modelagem financeira de taxas de adesão, *royalties* e fundo de publicidade estão detalhados integralmente no [[#CAPÍTULO 6 — FRANCHISING, LICENCIAMENTO E EXPANSÃO DE REDES MULTI-UNIDADES (LEI 13.966/2019)|Capítulo 6 (Franchising, Licenciamento e Expansão de Redes Multi-Unidades)]]."
+  },
+  {
+    "line": 4630,
+    "newText": ""
+  },
+  {
+    "line": 4631,
+    "newText": ""
+  },
+  {
+    "line": 4632,
+    "newText": ""
+  },
+  {
+    "line": 4633,
+    "newText": ""
+  },
+  {
+    "line": 4634,
+    "newText": ""
+  },
+  {
+    "line": 4635,
+    "newText": ""
+  },
+  {
+    "line": 4636,
+    "newText": ""
+  },
+  {
     "line": 4637,
-    "newText": "Na classificação da ABF (parâmetros vigentes em 2025/2026), a **microfranquia** é a modalidade cujo investimento inicial total é de até **R$ 135 mil**, bastante utilizada em serviços residenciais, lavanderias compactas e corretagem especializada (como Maria Brasileira e 5àsec Express)."
+    "newText": ""
+  },
+  {
+    "line": 4638,
+    "newText": ""
+  },
+  {
+    "line": 4639,
+    "newText": ""
+  },
+  {
+    "line": 4640,
+    "newText": ""
+  },
+  {
+    "line": 4641,
+    "newText": ""
+  },
+  {
+    "line": 4642,
+    "newText": ""
+  },
+  {
+    "line": 4643,
+    "newText": ""
+  },
+  {
+    "line": 4644,
+    "newText": ""
   },
   {
     "line": 4645,
-    "newText": "A **Lei nº 13.966/2019** exige a entrega da Circular de Oferta de Franquia (COF) com antecedência mínima de **10 dias** antes da assinatura de qualquer contrato ou pré-contrato ou do pagamento de qualquer taxa (art. 2º, § 1º), reunindo os 23 incisos obrigatórios detalhados na seção 2 do [[#CAPÍTULO 6 — FRANCHISING, LICENCIAMENTO E EXPANSÃO DE REDES MULTI-UNIDADES (LEI 13.966/2019)|Capítulo 6 a seguir]]."
+    "newText": ""
+  },
+  {
+    "line": 4646,
+    "newText": ""
+  },
+  {
+    "line": 4647,
+    "newText": ""
+  },
+  {
+    "line": 4648,
+    "newText": ""
+  },
+  {
+    "line": 4649,
+    "newText": ""
+  },
+  {
+    "line": 4650,
+    "newText": ""
+  },
+  {
+    "line": 4651,
+    "newText": ""
+  },
+  {
+    "line": 4652,
+    "newText": ""
+  },
+  {
+    "line": 4653,
+    "newText": ""
+  },
+  {
+    "line": 4654,
+    "newText": ""
+  },
+  {
+    "line": 4655,
+    "newText": ""
+  },
+  {
+    "line": 4656,
+    "newText": ""
+  },
+  {
+    "line": 4657,
+    "newText": ""
+  },
+  {
+    "line": 4658,
+    "newText": ""
+  },
+  {
+    "line": 4659,
+    "newText": ""
+  },
+  {
+    "line": 4660,
+    "newText": ""
   },
   {
     "line": 4661,
-    "newText": "> - **Recrutar parceiro ou franqueado passivo sem operador dedicado na ponta:** tanto em revendas técnicas B2B quanto em redes físicas (Capítulo 6), parceiros que tratam a sua solução como décima prioridade do portfólio sem profissional dedicado geram alto custo de suporte e baixa retenção."
+    "newText": ""
+  },
+  {
+    "line": 4662,
+    "newText": ""
+  },
+  {
+    "line": 4663,
+    "newText": ""
+  },
+  {
+    "line": 4664,
+    "newText": ""
+  },
+  {
+    "line": 4665,
+    "newText": ""
+  },
+  {
+    "line": 4666,
+    "newText": ""
   },
   {
     "line": 4667,
@@ -1849,7 +2041,7 @@
   },
   {
     "line": 5129,
-    "newText": "- **Incidente de segurança com dados pessoais (LGPD, art. 48 da Lei 13.709/2018 e Resolução CD/ANPD nº 15/2024):** caso ocorra incidente de segurança que possa acarretar risco ou dano relevante aos titulares, a comunicação à Autoridade Nacional de Proteção de Dados (ANPD) e aos titulares afetados deve ser feita no prazo de **3 dias úteis** contados do conhecimento pelo controlador (com complementação em até 20 dias úteis quando aplicável; ver o protocolo completo no [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 9 — LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Capítulo 9 (LGPD, Compliance e Governança de Dados) (Vol. 8)]] e no [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 13 — SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA|Capítulo 11 (Cibersegurança) (Vol. 8)]])."
+    "newText": "- **Incidente de segurança com dados pessoais (LGPD, art. 48 da Lei 13.709/2018 e Resolução CD/ANPD nº 15/2024):** caso ocorra incidente de segurança que possa acarretar risco ou dano relevante aos titulares, a comunicação à Agência Nacional de Proteção de Dados (ANPD, transformada em agência reguladora pela Lei nº 15.352/2026) e aos titulares afetados deve ser feita no prazo de **3 dias úteis** contados do conhecimento pelo controlador (com complementação em até 20 dias úteis quando aplicável; ver o protocolo completo no [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 9 — LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Capítulo 9 (LGPD, Compliance e Governança de Dados) (Vol. 8)]] e no [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 13 — SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA|Capítulo 13 (Segurança da Informação) (Vol. 8)]])."
   },
   {
     "line": 5131,

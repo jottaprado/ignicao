@@ -1304,12 +1304,56 @@
     "newText": "#### Princípios de DevEx externo para produtos consumidos por desenvolvedores"
   },
   {
+    "line": 2818,
+    "newText": "Desenvolvedores avaliam ferramentas com rigor técnico imediato: documentação confusa, APIs inconsistentes, mensagens de erro opacas ou pacotes de integração instáveis fazem o profissional descartar o produto em poucos minutos e migrar para o concorrente. Em produtos voltados a equipes técnicas, nenhum esforço comercial compensa uma experiência de integração precária, pois o veto técnico ocorre antes mesmo da conversa de compras."
+  },
+  {
+    "line": 2820,
+    "newText": "Como a adoção costuma ocorrer da base para o topo (*bottom-up*), o engenheiro descobre, testa e integra a solução individualmente antes de a empresa assinar um contrato corporativo; se ele não conseguir executar a primeira chamada funcional em cerca de cinco minutos, todo o funil comercial trava na largada."
+  },
+  {
+    "line": 2826,
+    "newText": "- **Guia de início rápido (*Quickstart*):** entregue um tutorial funcional em menos de cinco minutos com exemplos prontos para copiar e executar, seguindo a referência clássica da Stripe, em que poucas linhas de código bastam para processar a primeira cobrança em ambiente de testes."
+  },
+  {
+    "line": 2828,
+    "newText": "- **Guias práticos orientados a casos de uso:** além do catálogo técnico de rotas, publique roteiros passo a passo voltados às tarefas reais do cliente (como integrar cobrança via Pix, configurar *webhooks* de conciliação ou gerenciar permissões de usuários)."
+  },
+  {
+    "line": 2830,
+    "newText": "- **Referência completa de API (*API Reference*):** documente de forma exaustiva todos os *endpoints*, parâmetros obrigatórios e opcionais, formatos de resposta, códigos de erro e exemplos nas linguagens mais utilizadas pelo seu público."
+  },
+  {
+    "line": 2832,
+    "newText": "- **Ambientes interativos e coleções executáveis:** disponibilize *sandboxes* de teste, coleções prontas para Postman ou Insomnia e ambientes de experimentação direta no navegador."
+  },
+  {
     "line": 2834,
     "newText": "**Versionamento previsível e guias de migração:** documente de forma explícita o que mudou a cada versão da API, estabeleça janelas claras de descontinuação (*deprecation*) e publique roteiros passo a passo de atualização."
   },
   {
     "line": 2836,
     "newText": "Ferramentas de documentação técnica: plataformas como Mintlify, ReadMe e Stoplight aceleram a publicação interativa de APIs, enquanto equipes que exigem controle total sobre versionamento em Git costumam adotar Docusaurus personalizado."
+  },
+  {
+    "line": 2838,
+    "newText": "**SDKs oficiais bem mantidos:** ofereça bibliotecas nativas para as linguagens centrais do seu cliente ideal (tipicamente Python, TypeScript/JavaScript, Go, Java, C#, PHP ou Ruby), com tipagem estática, repetição automática com recuo exponencial (*retry with backoff*), tratamento de limites de taxa (*rate limiting*) e geração automatizada via especificação OpenAPI combinada a revisão humana de ergonomia."
+  },
+  {
+    "line": 2840,
+    "newText": "**Mensagens de erro acionáveis:** retorne diagnósticos claros que expliquem exatamente qual parâmetro falhou, incluam o identificador único da requisição (*Request ID*) para rastreamento, apontem o link direto para a documentação corretiva e informem o cabeçalho `Retry-After` quando houver limite de requisições."
+  },
+  {
+    "line": 2842,
+    "newText": "**Portal do desenvolvedor autosserviço:** permita testar chamadas sem burocracia inicial, gerenciar chaves de API com escopos granulares, inspecionar *logs* em tempo real e simular disparos de *webhooks* com autonomia."
+  },
+  {
+    "line": 2844,
+    "newText": "**Relações com Desenvolvedores (*Developer Relations / DevRel*):** escale engenheiros experientes capazes de escrever código de produção, publicar artigos técnicos densos, manter bibliotecas abertas e dialogar de igual para igual com a comunidade, gerando demanda qualificada pela confiança técnica."
+  },
+  {
+    "line": 2848,
+    "newText": "A qualidade da experiência do desenvolvedor deve ser acompanhada por quatro métricas objetivas:"
   },
   {
     "line": 2850,
@@ -1324,8 +1368,44 @@
     "newText": "**Desenvolvedores Ativos Semanais (*Weekly Active Developers*, WAD):** acompanhe a evolução semanal de profissionais únicos integrando ou mantendo aplicações ativas sobre a plataforma."
   },
   {
+    "line": 2856,
+    "newText": "**Volume de chamados de suporte por usuário ativo:** acompanhe a proporção de tíquetes técnicos abertos por desenvolvedor ativo mensal, pois picos nesse indicador denunciam falhas na documentação ou atritos na API."
+  },
+  {
+    "line": 2858,
+    "newText": "**NPS de Desenvolvedores (*Developer NPS*):** meça periodicamente a satisfação dos engenheiros que integram a plataforma, tendo como referência de mercado notas acima de 30 como saudáveis e acima de 50 como patamar de excelência."
+  },
+  {
     "line": 2859,
     "newText": "### Parte 2.2: Experiência do Desenvolvedor Interno (Internal DevEx) e Produtividade da Engenharia"
+  },
+  {
+    "line": 2862,
+    "newText": "Quando os próprios engenheiros da startup perdem horas diárias contornando ambientes lentos e processos manuais, a velocidade de entrega cai proporcionalmente; os principais sinais de alerta de um DevEx interno deteriorado incluem:"
+  },
+  {
+    "line": 2864,
+    "newText": "- Configuração de máquina local (*onboarding setup*) que consome mais de meio dia de trabalho para um novo desenvolvedor conseguir rodar o projeto."
+  },
+  {
+    "line": 2866,
+    "newText": "- Baterias de testes locais lentas que levam mais de cinco minutos para devolver retorno básico ao programador."
+  },
+  {
+    "line": 2868,
+    "newText": "- Esteiras de compilação e integração contínua (*builds*) demoradas ou instáveis (*flaky tests* que falham aleatoriamente)."
+  },
+  {
+    "line": 2870,
+    "newText": "- Processos de publicação em produção (*deploy*) que dependem de passos manuais e memória humana em vez de automação confiável."
+  },
+  {
+    "line": 2872,
+    "newText": "- Documentação arquitetural interna inexistente ou defasada em relação ao código em produção."
+  },
+  {
+    "line": 2874,
+    "newText": "- Acúmulo de dívida técnica nos módulos centrais que transforma qualquer funcionalidade simples em semanas de retrabalho."
   },
   {
     "line": 2876,
@@ -1360,6 +1440,22 @@
     "newText": "Combine os indicadores de fluxo e experiência (frameworks DORA e SPACE detalhados na Fase 17) com métricas diretas do estoque de dívida no repositório: arquivos que concentram a maioria dos defeitos e commits corretivos (*hotspots*), tempo gasto em manutenção não planejada e cobertura de testes nos módulos críticos."
   },
   {
+    "line": 2891,
+    "newText": "**Métricas DORA de entrega:** monitore continuamente a frequência de *deploy*, o tempo de ciclo das alterações (*lead time*), o tempo médio de recuperação (*MTTR*) e a taxa de falha em mudanças."
+  },
+  {
+    "line": 2895,
+    "newText": "- **Dívida deliberada e prudente:** atalho técnico assumido conscientemente para validar uma janela comercial, registrado com data e plano explícito de quitação."
+  },
+  {
+    "line": 2899,
+    "newText": "- **Dívida por envelhecimento tecnológico (*code rot*):** defasagem acumulada de bibliotecas, bancos de dados e *frameworks* que deixam de receber atualizações de segurança e desempenho."
+  },
+  {
+    "line": 2903,
+    "newText": "- **Caminhos de código de alta frequência e alto custo de alteração:** priorize imediatamente os módulos modificados toda semana pela equipe nos quais cada mudança gera lentidão ou regressões."
+  },
+  {
     "line": 2905,
     "newText": "- **Bloqueador direto de roadmap (*blocker*):** módulos legados que impedem o lançamento de funcionalidades estratégicas do trimestre entram imediatamente no topo da fila de refatoração."
   },
@@ -1368,12 +1464,24 @@
     "newText": "**Risco regulatório, fiscal e de segurança:** mesmo que um módulo receba poucos commits no dia a dia (como o motor de conciliação bancária de Lucas ou o módulo de substituição tributária e NF-e de Rafael e Bia antes de uma mudança de regra), qualquer exposição a falhas de segurança, perda de dados ou exigências regulatórias coloca a refatoração no topo da fila."
   },
   {
+    "line": 2909,
+    "newText": "- **Módulos estáveis de baixa frequência de alteração:** se um componente legado roda sem falhas, não bloqueia o *roadmap* e quase nunca precisa ser editado, conviva com ele e concentre energia onde há retorno real."
+  },
+  {
     "line": 2911,
     "newText": "#### 4. Alocação disciplinada de capacidade para pagamento de dívida técnica"
   },
   {
     "line": 2914,
     "newText": "> Reserve 20% da capacidade de engenharia como regra padrão para abater dívida técnica e manter a saúde da plataforma, calibrando a faixa entre 15% e 25% conforme a criticidade do mapa de calor (os 20% verificados no Ritual de Segunda-Feira representam exatamente essa fatia protegida em cada sprint). Operar abaixo de 15% por mais de dois trimestres seguidos cobra a conta entre seis e doze meses depois na forma de lentidão crônica e incidentes."
+  },
+  {
+    "line": 2916,
+    "newText": "- **Semanas dedicadas de saneamento (*fix-it weeks*):** reserve de uma a duas semanas por trimestre para toda a engenharia atacar pendências de performance, automação de testes e limpeza de código."
+  },
+  {
+    "line": 2918,
+    "newText": "- **Refatoração incremental (padrão *Strangler Fig*) em vez de reescrita total:** substitua módulos críticos passo a passo em produção, evitando congelar a evolução do produto por meses em uma reescrita do zero."
   },
   {
     "line": 2922,

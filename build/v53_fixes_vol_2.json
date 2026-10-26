@@ -585,7 +585,7 @@
   },
   {
     "line": 1221,
-    "newText": "- [ ] **Nível 3**: Está ativamente procurando solução. Lead quente."
+    "newText": "- [ ] **Nível 3**: Está ativamente procurando uma solução no mercado, com prazo definido. Contato comercial quente."
   },
   {
     "line": 1241,
@@ -1717,31 +1717,35 @@
   },
   {
     "line": 3753,
-    "newText": "Preencha cada bloco com números e cargos reais, sem adjetivos genéricos. O formulário completo para impressão e preenchimento (incluindo o checklist dos quatro critérios de validação da cunha) encontra-se na seção final desta fase, em [[#Template: Canvas da Cunha|Template: Canvas da Cunha]]. Veja como **Henrique** sintetizou os seis blocos para a sua cunha industrial antes de voltar ao fundo:"
+    "newText": "Preencha cada bloco com números e cargos reais, sem adjetivos genéricos. O formulário completo para impressão e preenchimento (incluindo o caso preenchido da operação industrial de Henrique em Curitiba) encontra-se unificado ao final desta fase no [[#Template: Canvas da Cunha|Template: Canvas da Cunha]], amarre ali o produto inicial, o comprador econômico e a métrica de sucesso antes de avançar para a [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 7 — FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 7 (Vol. 3)]]."
+  },
+  {
+    "line": 3754,
+    "newText": ""
   },
   {
     "line": 3755,
-    "newText": "- **1. ICP preciso:** Usinas de etanol de milho e cogeração de biomassa de médio e grande porte no Mato Grosso, Paraná e Goiás (85 plantas mapeadas) que operam turbinas a vapor em regime contínuo de safra."
+    "newText": ""
   },
   {
     "line": 3756,
-    "newText": "- **2. Dor específica:** Paradas não planejadas em turbinas e redutores por falha de rolamento não detectada nas rondas manuais, custando de R$ 150 mil a R$ 400 mil por dia de moagem interrompida."
+    "newText": ""
   },
   {
     "line": 3757,
-    "newText": "- **3. Resultado mensurável:** Antecipar anomalias vibracionais e térmicas com 14 a 30 dias de antecedência, evitando ao menos uma parada crítica por safra (retorno financeiro integral do contrato anual em menos de seis meses)."
+    "newText": ""
   },
   {
     "line": 3758,
-    "newText": "- **4. Dono do orçamento:** Diretor Industrial da usina (comprador econômico que assina o piloto dentro da rubrica existente de manutenção preditiva, de R$ 180 mil/ano por planta, tendo o Gerente de Manutenção Confiabilidade como campeão interno)."
+    "newText": ""
   },
   {
     "line": 3759,
-    "newText": "- **5. Teste do Grupo de WhatsApp:** 170 decisores técnicos nominais listados nas 85 usinas do recorte (Diretor Industrial e Gerente de Confiabilidade de cada planta), com núcleo imediato de 42 contatos diretos obtidos via associação setorial e ex-colegas de engenharia."
+    "newText": ""
   },
   {
     "line": 3760,
-    "newText": "- **6. Alternativa atual e vantagem:** Coleta manual de vibração com coletor portátil a cada 30 dias somada a planilhas de manutenção preventiva. Vantagem em uma frase: monitoramento contínuo 24/7 com alerta preditivo validado para turbinas de biomassa por R$ 15 mil/mês, menos de um décimo do prejuízo de um único turno parado."
+    "newText": ""
   },
   {
     "line": 3761,
@@ -1837,7 +1841,15 @@
   },
   {
     "line": 3784,
-    "newText": "Com esses seis blocos validados no [[#Template: Canvas da Cunha|Template: Canvas da Cunha]], o fundador amarra o produto inicial, o comprador econômico e a métrica de sucesso antes de abrir o Volume 3."
+    "newText": ""
+  },
+  {
+    "line": 3785,
+    "newText": ""
+  },
+  {
+    "line": 3786,
+    "newText": ""
   },
   {
     "line": 3788,

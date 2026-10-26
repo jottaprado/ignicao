@@ -237,7 +237,7 @@
   },
   {
     "line": 232,
-    "newText": "### Oficina de Trincheira (Caderno de Campo): frameworks, canvases e templates desta fase"
+    "newText": "### Oficina de Trincheira: frameworks, canvases e templates desta fase"
   },
   {
     "line": 234,
@@ -545,7 +545,7 @@
   },
   {
     "line": 623,
-    "newText": "- DSO (PMR no e-commerce brasileiro, como na marca de Rafael e Bia): embora o Pix liquide no ato, o cartão de crédito parcelado em 3x a 6x sem juros liquida em D+30 por parcela (elevando o prazo médio ponderado de recebimento para 35 a 60 dias, a menos que a empresa pague taxa de antecipação à adquirente)."
+    "newText": "- DSO (PMR no e-commerce brasileiro, como na marca de Rafael e Bia): embora o Pix liquide no ato, o cartão de crédito parcelado em 3x a 6x sem juros liquida em D+30 por parcela, elevando o prazo médio ponderado de recebimento do exemplo para **45 dias** (dentro da faixa típica de 35 a 60 dias conforme a proporção entre Pix à vista e cartão parcelado, a menos que a empresa pague taxa de antecipação à credenciadora)."
   },
   {
     "line": 625,
@@ -3202,6 +3202,10 @@
   {
     "line": 4701,
     "newText": "#### A Fórmula Exata da Cascata Tributária Aduaneira"
+  },
+  {
+    "line": 4709,
+    "newText": "2. **IPI (Imposto sobre Produtos Industrializados, federal, vigente em 2026 e reduzido a zero a partir de 2027 para produtos sem similar industrializado na Zona Franca de Manaus nos termos da EC 132/2023 e da LC 214/2025; como todo importador é equiparado a industrial pelo Tema 906 do STF, o IPI pago no desembaraço gera crédito compensável na saída em qualquer regime exceto no Simples Nacional):**"
   },
   {
     "line": 4710,
