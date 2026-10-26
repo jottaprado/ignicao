@@ -2025,6 +2025,8 @@ Para empresas de tecnologia, desenvolvimento de software e serviços intelectuai
 **Lucro Real:** obrigatório para faturamento anual acima de R$ 78 milhões (ou atividades financeiras específicas) e opcional para qualquer porte. O IRPJ (15% + 10% de adicional acima de R$ 20 mil/mês) e a CSLL (9%) incidem estritamente sobre o lucro contábil líquido ajustado pelo LALUR: se a empresa operar em prejuízo fiscal no período de crescimento, o IRPJ e a CSLL devidos são zero, e o prejuízo fiscal acumulado pode compensar até 30% do lucro tributável de exercícios futuros (*trava de 30%*). No PIS/Cofins (até 2026), a regra geral no Lucro Real é o regime não cumulativo de 9,25% com desconto de créditos sobre insumos, energia e armazenagem, com uma exceção importante da Lei 10.833/2003 (art. 10, XXV): receitas de desenvolvimento de software e licenciamento ou cessão de direito de uso de programas de computador permanecem sujeitas à alíquota cumulativa de 3,65% mesmo no Lucro Real (até a unificação na CBS em 2027). Além disso, o Lucro Real é o único regime que habilita os incentivos fiscais de P&D da Lei do Bem. Exigência operacional: escrituração contábil rigorosa (ECD e ECF) e controle estrito de documentos fiscais.
 
 > [!tip] Regra prática para regime
+> Como regra prática para orientar a simulação anual (comparando o Simples Nacional nos Anexos III e V pelo Fator R de 28% contra o Lucro Presumido com o adicional da LC 224/2025 acima de R$ 5 milhões/ano e o Lucro Real), refaça as contas sempre que a folha de pagamento, a margem operacional ou o faturamento mudarem de patamar.
+
 Para substituir palpites pela aritmética, veja a simulação comparativa em dois cenários reais, primeiro, uma startup de SaaS B2B com R$ 3,0 milhões de receita anual e folha total de R$ 1,20 milhão (Fator R de 40%) operando com lucro zero durante a tração, segundo, a transição aos R$ 5,0 milhões de receita e o caso D2C de Rafael e Bia aos R$ 6,5 milhões:
 
 | Regime e Cenário Operacional | Tributos sobre Receita e Lucro | Encargos Patronais de Folha (INSS + RAT + Terceiros, s/ FGTS) | Carga Total Anual (% da Receita Bruta) | Veredito Prático |
@@ -2146,7 +2148,7 @@ Nesse caso, tributação como salário. 7,5 a 27,5% na tabela progressiva, mais 
 **Eventos tributários em stock options.**
 
 1. Concessão (grant). Geralmente não tributada. Apenas direito de opção futura.
-2 (Vesting). Geralmente não tributado. Direito se consolida.
+2. **Vesting:** Geralmente não tributado. Direito se consolida.
 3. Exercício (exercise). Sob natureza mercantil. Sem tributação imediata (apenas custo de aquisição igual a strike price). Sob natureza trabalhista. Diferença entre FMV, e strike, é tributada como salário no momento.
 4. Venda das ações. Sob natureza mercantil. Ganho de capital (FMV na venda menos strike) tributado a quinze a 22,5%. Sob natureza trabalhista. Venda apenas tributa diferença entre FMV no exercício, e FMV na venda (se existir).
 
@@ -2202,11 +2204,11 @@ Para a modelagem de diluição, negociação de *valuation* e governança de rod
 
 1. Trigger de conversão automática. Rodada acima de R$ X, e/ou com investidor qualificado.
 2. Trigger de conversão opcional. O investidor pode escolher converter em certos eventos.
-3 (Desconto). Aplicado sobre preço por quota, ou ação, da nova rodada.
+3. **Desconto:** Aplicado sobre preço por quota, ou ação, da nova rodada.
 4. Valuation cap. Ceiling para proteção, em caso de mega-rodada.
 5. MFN (Most Favored Nation). Se o próximo investidor tiver termos melhores, o anjo iguala.
 6. Pro-rata rights. Direito de participar de rodadas futuras.
-7 (Informação). Relatórios periódicos, e inspeção.
+7. **Informação:** Relatórios periódicos, e inspeção.
 8. Tag-along. Se os fundadores venderem, o anjo tem direito de vender também.
 9. Anti-diluição. Proteção contra down-rounds.
 
@@ -2231,7 +2233,7 @@ Equity direto (compra de quotas, ou ações). O investidor vira sócio formal. S
 
 Convertible Note (nota promissória conversível). Dívida formal, que pode ser convertida. Muito similar ao mútuo conversível, mas com registro diferente. Menos comum em rodadas anjo BR. Mais em venture debt.
 
-Mútuo participativo (Híbrido). Parte mútuo, parte participação. Estrutura complexa. Tributariamente desafiadora. Uso limitado.
+Mútuo participativo (instrumento híbrido): Parte mútuo, parte participação. Estrutura complexa. Tributariamente desafiadora. Uso limitado.
 
 #### Termos típicos de rodada anjo BR (2026)
 
@@ -2245,7 +2247,7 @@ No ecossistema brasileiro, os primeiros cheques combinam redes de investidores-a
 
 **Para o investidor-anjo pessoa jurídica.** Juros recebidos. Receita financeira (IRPJ, mais CSLL, mais PIS/Cofins sobre receita). Ganho em conversão, e venda. Depende do regime tributário da PJ.
 
-**Para a empresa.** Recebimento do valor. Não é receita tributável (é capital, ou dívida) (Conversão). Não gera fato gerador de IRPJ, ou CSLL (ajuste de capital). Pagamento de juros. Dedutível (se a empresa em Lucro Real).
+**Para a empresa.** Recebimento do valor. Não é receita tributável (é capital, ou dívida); na conversão, Não gera fato gerador de IRPJ, ou CSLL (ajuste de capital). Pagamento de juros. Dedutível (se a empresa em Lucro Real).
 
 #### 7. Cap table brasileiro em profundidade
 
@@ -2329,7 +2331,7 @@ Total: 100%
 
 Carta (cartainc.com). Padrão internacional. Excelente para estrutura Delaware.
 
-Captable.io, e Pulley (Alternativas).
+Captable.io, e Pulley. Alternativas.
 
 Eqvista, e Shareworks. Opções diferentes.
 
@@ -2479,6 +2481,8 @@ O **Programa Mobilidade Verde e Inovação (Mover, instituído pela Lei 14.902/2
 6. **Manter obrigações acessórias**: formulários específicos na ECF (Escrituração Contábil Fiscal)
 
 > [!tip] O benefício paga o custo de compliance
+> Para uma empresa no Lucro Real com lucro tributável suficiente para absorver a dedução, R$ 1 milhão em gastos elegíveis de P&D na Lei do Bem gera redução direta de R$ 204 mil a R$ 272 mil em IRPJ e CSLL no exercício, superando com folga o custo de organizar os controles contábeis e o relatório técnico ao MCTI.
+
 Startups de logística eletrificada, gestão de frotas com hardware embarcado, sistemas de recarga e biocombustíveis podem se habilitar na cadeia de fornecedores do Programa Mover ou estruturar projetos cooperados com montadoras e sistemistas.
 
 ---
@@ -4214,7 +4218,7 @@ Do ponto de vista legal, movimentar receita da empresa em conta PF ou pagar desp
 Na análise de crédito corporativo, o banco avalia a consistência do faturamento diretamente nos últimos 12 meses de extrato da conta PJ: quando recebimentos de clientes transitam por contas pessoais dos sócios (erro já superado por Camila no início da operação), o histórico bancário da empresa parece artificialmente fraco e reduz o limite aprovado.
 
 > [!warning] Impacto da confusão patrimonial no limite de crédito PJ
-No início da empresa, quando o fundador injeta reservas pessoais no negócio, registre formalmente a entrada como integralização de capital social ou contrato de mútuo/AFAC. Nunca pague fornecedores da empresa diretamente da conta pessoal sem lastro contábil.
+> No início da empresa, quando o fundador injeta reservas pessoais no negócio, registre formalmente a entrada como integralização de capital social ou contrato de mútuo/AFAC. Nunca pague fornecedores da empresa diretamente da conta pessoal sem lastro contábil.
 
 Ao abrir conta PJ em banco tradicional, os documentos típicos solicitados são CNPJ, contrato social ou estatuto, documentos dos sócios (RG, CPF, comprovante de residência), faturamento esperado, e CNAE da atividade. Bancos digitais pedem menos: CNPJ ativo na Receita, documentos dos sócios, selfie. O prazo varia de dois a três dias úteis (digital) a dez a quinze dias úteis (tradicional).
 
@@ -4444,7 +4448,7 @@ No primeiro estágio, do zero ao sexto mês, o objetivo é existir. Abrir conta 
 
 No segundo estágio, do sexto ao décimo segundo mês, o objetivo é criar relacionamento. Agendar reunião com gerente para apresentar a empresa, o modelo de negócio e os planos de crescimento. Mostrar projeção de faturamento. Perguntar sobre pré-aprovações disponíveis, mesmo que não precise usar agora. O gerente que conhece a empresa antes de precisar do crédito está muito mais bem posicionado para aprovar quando você precisar.
 
-No terceiro estágio, do décimo segundo ao vigésimo quarto mês, o objetivo é usar crédito pequeno. Pedir antecipação de recebíveis ou linha de capital de giro de valor pequeno (cinquenta a cem mil reais) (Usar). Pagar antes do prazo se possível. Histórico de operação quitada é o ativo mais valioso para a próxima solicitação.
+No terceiro estágio, do décimo segundo ao vigésimo quarto mês, o objetivo é usar crédito pequeno. Pedir antecipação de recebíveis ou linha de capital de giro de valor pequeno (cinquenta a cem mil reais). Usar. Pagar antes do prazo se possível. Histórico de operação quitada é o ativo mais valioso para a próxima solicitação.
 
 No quarto estágio, tipicamente a partir do vigésimo quarto mês de operação (ou a partir do décimo segundo mês para empresas que já possuíam balanços auditáveis de exercícios anteriores e aceleram o relacionamento com garantias públicas do FGI/FGO, como fizeram Rafael e Bia), o objetivo é acessar limites estruturados de maior porte: combinando fundos constitucionais (FNE, FNO ou FCO, quando elegível), Pronampe, linhas de giro e investimento do BNDES garantidas pelo FGI e limites rotativos pré-aprovados em condições institucionais.
 
@@ -5277,7 +5281,7 @@ Investidores sérios têm conjunto razoavelmente consistente de perguntas. Prepa
 
 **Perguntas sobre tração, e métricas.** Qual é a retenção por coorte, nos últimos doze meses? (Prepare gráfico). Qual é o NRR, e como está evoluindo? Qual é o payback de CAC, e em quais canais? O churn está subindo, estável, ou caindo? Por quê? Qual é o seu North Star Metric, e por que esse?
 
-**Perguntas sobre time.** Por que esse time? Qual é o fundador-market-fit específico? Quais são as próximas três contratações? Quando fecha cada uma? Quem poderia sair, e destruir a empresa? Como os fundadores dividem responsabilidades executivas e participação societária entre si, e como está estruturado o *cap table* atual?
+**Perguntas sobre time.** Por que esse time? Qual é o founder-market-fit específico? Quais são as próximas três contratações? Quando fecha cada uma? Quem poderia sair, e destruir a empresa? Como os fundadores dividem responsabilidades executivas e participação societária entre si, e como está estruturado o *cap table* atual?
 
 **Perguntas sobre modelo, e unit economics.** Qual é a margem bruta na escala atual? Como evolui em escala? Qual é o CAC por canal? Qual canal escala? Se o ciclo de mercado aperta, como defende o negócio?
 
@@ -5314,7 +5318,7 @@ Term sheet é documento não vinculante (exceto cláusulas específicas como exc
 
 **Cláusula antidiluição (*Anti-dilution*):** protege o investidor caso a empresa emita ações em rodada futura por um *valuation* inferior (*down round*). Existem duas modalidades: a **média ponderada ampla (*broad-based weighted average*), padrão equilibrado de mercado que recalcula o preço de conversão de forma proporcional ao volume financeiro da nova emissão, e o ajuste integral (*full ratchet*)**, cláusula punitiva que reajusta o preço de conversão das ações preferenciais do investidor protegido para o menor preço emitido na rodada futura, diluindo severamente os fundadores.
 
-**Vesting dos fundadores (*Fundador Vesting*):** na entrada de um fundo institucional, a participação que os fundadores já detêm também fica sujeita a um novo cronograma de consolidação gradual (descontado o tempo já cumprido) (Padrão). Quatro anos, com um ano de cliff (Acelerações). Single trigger (na venda). Double trigger (venda, mais demissão sem causa). Double trigger é padrão saudável.
+**Vesting dos fundadores (*Fundador Vesting*):** na entrada de um fundo institucional, a participação que os fundadores já detêm também fica sujeita a um novo cronograma de consolidação gradual (descontado o tempo já cumprido). Padrão. Quatro anos, com um ano de cliff. Acelerações. Single trigger (na venda). Double trigger (venda, mais demissão sem causa). Double trigger é padrão saudável.
 
 **Pool de ESOP (*Employee Stock Option Pool*).** Reserva de opções para atrair e reter executivos e especialistas, tipicamente dimensionada entre 10% e 15% do capital pós-rodada. Quando o *term sheet* exige que a reserva seja constituída ou expandida no *pre-money*, essa diluição recai integralmente sobre os sócios anteriores à rodada.
 
@@ -5332,7 +5336,7 @@ ROFR (Right of First Refusal). Direito de investidor comprar primeiro, se o fund
 
 **Outros termos negociais do Term Sheet e particularidades societárias brasileiras (ver [[#CAPÍTULO 11: INSTRUMENTOS DE CAPTAÇÃO: SAFE, NOTA CONVERSÍVEL E MÚTUO CONVERSÍVEL|Capítulo 11]] e [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 1: MARCO LEGAL DAS STARTUPS: LC 182/2021|Volume 8, Capítulo 1]]):** no Brasil, enquanto rodadas Anjo e Pré-Seed costumam ocorrer com a empresa ainda constituída como Sociedade Limitada (usando mútuo conversível ou contrato de opção, ou ainda quotas preferenciais admitidas pela IN DREI 81/2020), a chegada de um fundo institucional na Série A quase sempre exige a transformação da Ltda. em Sociedade Anônima (S.A.) de capital fechado (Lei 6.404/1976, beneficiada pelo regime simplificado de publicações eletrônicas da LC 182/2021 para empresas que faturam até R$ 78 milhões anuais), pois a S.A. oferece segurança jurídica consolidada para emissão de classes distintas de ações preferenciais resgatáveis ou conversíveis, voto plural (Lei 14.195/2021), planos de opções (*stock options*) e execução específica de acordo de acionistas.
 
-No-shop (exclusividade). Compromisso do fundador de não negociar com outros investidores, após assinar term sheet, por trinta a sessenta dias (Vinculante).
+No-shop (exclusividade). Compromisso do fundador de não negociar com outros investidores, após assinar term sheet, por trinta a sessenta dias (cláusula vinculante).
 
 **Conversibilidade:** Ações preferenciais convertem em ordinárias, em evento de liquidez, ou automaticamente em IPO.
 
@@ -5496,7 +5500,7 @@ Após a rodada, há board formal, ou informal. Como usá-lo bem.
 
 Para além de board, e updates formais, os relacionamentos individuais compõem ao longo do tempo.
 
-Coffee, ou call, bimestral, com principais investidores (Informal). Atualização sem agenda fixa.
+Coffee, ou call, bimestral, com principais investidores em formato informal, com Atualização sem agenda fixa.
 
 Pedidos específicos em momentos oportunos: *"Estamos fechando a proposta para o novo diretor comercial e eu gostaria da sua leitura sobre o pacote de remuneração"* ou *"Você conhece o diretor de operações da empresa X na sua rede para nos apresentar?"*.
 
@@ -5665,7 +5669,7 @@ Para validar prontidão para captar.
 
 A maior parte deste capítulo tratou de como preparar a empresa para ser avaliada pelos fundos. Esta seção trata da etapa complementar e indispensável: como você investiga o investidor antes de assinar o Term Sheet. A diligência precisa ser bidirecional: se o fundo analisa sua empresa durante quatro a oito semanas, reserve ao menos duas semanas para checar o histórico e o comportamento real do sócio que sentará no seu conselho pelos próximos cinco a dez anos.
 
-Investidor errado, com cheque bom, pode destruir a empresa em três a cinco anos. Board dominado por VC tóxico impõe decisões que quebram produto, esgotam time, e aceleram timeline artificialmente. Investidor certo, com cheque menor, pode ser multiplicador, que salva a empresa em momentos decisivos, abre portas, traz co-investidores, introduz primeiros clientes enterprise, e apoia nos momentos difíceis. A assimetria entre bom, e ruim, é gigante. E o custo de escolher mal é alto, porque a saída é praticamente impossível, uma vez comprometido.
+Investidor errado, com cheque bom, pode destruir a empresa em três a cinco anos. Board dominado por VC tóxico impõe decisões que quebram produto, esgotam time, e aceleram timeline artificialmente. Investidor certo, com cheque menor, pode ser multiplicador, que salva a empresa em momentos críticos, abre portas, traz co-investidores, introduz primeiros clientes enterprise, e apoia nos momentos difíceis. A assimetria entre bom, e ruim, é gigante. E o custo de escolher mal é alto, porque a saída é praticamente impossível, uma vez comprometido.
 
 **Quatro dimensões de avaliação do VC candidato.**
 
@@ -5846,7 +5850,7 @@ Os fundos frequentemente propõem o chamado *option pool shuffle*: antes de apli
 
 **Marketplaces e plataformas transacionais:** o *valuation* é ancorado na **receita líquida de intermediação (*net revenue* gerada pelo *take rate*), tipicamente entre 4x e 8x a receita líquida anual (o que equivale a cerca de 0,2x a 1,0x o GMV anualizado**, conforme o *take rate* e a margem de contribuição da plataforma).
 
-Fintech, ou banco digital (Early). Cinco a quinze vezes revenue run rate. Valoração por usuário em alguns modelos (US$ 200 a US$ 500 por usuário ativo) (Late). Price/book value em duas a quatro vezes para bancos digitais. Múltiplos de receita em escala tech.
+Fintech, ou banco digital. Early. Cinco a quinze vezes revenue run rate. Valoração por usuário em alguns modelos (US$ 200 a US$ 500 por usuário ativo). Late. Price/book value em duas a quatro vezes para bancos digitais. Múltiplos de receita em escala tech.
 
 D2C e-commerce. Uma a três vezes revenue (e-commerce está em múltiplos comprimidos pós-2022). Ajustes por margem bruta, retention, e marca.
 
@@ -6006,7 +6010,7 @@ Sinergia específica. "Quanto custo consigo cortar? Quanto revenue consigo cross
 
 ### Método 6: A lente do Private Equity: geração de caixa livre e retorno via desalavancagem
 
-PE compra empresa madura, com mix equity, mais dívida. Opera por três a sete anos (Vende). Modelo.
+PE compra empresa madura, com mix equity, mais dívida. Opera por três a sete anos e depois vende a participação.
 
 1. LBO model. Quanta dívida a empresa consegue suportar, mais quanto equity o PE precisa colocar.
 2. **Meta de retorno (*return target*):** fundos de Private Equity buscam tipicamente uma Taxa Interna de Retorno (TIR) entre 20% e 25% ao ano sobre o capital próprio investido (`Múltiplo de Capital = (1 + TIR)^n`).
@@ -6789,7 +6793,7 @@ O *equity crowdfunding* ganhou tração no Brasil em três situações principai
 
 ### A engenharia de bastidores: por que 40% da rodada precisa estar articulada antes da abertura pública
 
-**Etapa 1 | Pré-lançamento e estruturação da oferta (8 a 12 semanas antes da abertura pública).** Escolher plataforma (análise comparativa, taxa, ajuste com tese, e track record). Submeter empresa à plataforma (diligência básica da plataforma. Documentação legal, métricas, e contratos-chave). Definir estrutura da oferta (valor, valuation, instrumento, e direitos). Preparar material. Memorial descritivo, pitch vídeo, documentação financeira, e projeções (Comunicação). Criar comunidade de interessados (warm lead) pré-lançamento. Essencial para momentum.
+**Etapa 1 | Pré-lançamento e estruturação da oferta (8 a 12 semanas antes da abertura pública).** Escolher plataforma (análise comparativa, taxa, ajuste com tese, e track record). Submeter empresa à plataforma (diligência básica da plataforma. Documentação legal, métricas, e contratos-chave). Definir estrutura da oferta (valor, valuation, instrumento, e direitos). Preparar material. Memorial descritivo, pitch vídeo, documentação financeira, e projeções. Comunicação. Criar comunidade de interessados (warm lead) pré-lançamento. Essencial para momentum.
 
 **Etapa 2 | Lançamento e campanha ativa (6 a 12 semanas).** Abertura oficial na plataforma com divulgação coordenada em canais próprios (e-mail e redes sociais), assessoria de imprensa e mídia paga, além de encontros ao vivo com investidores, seção pública de perguntas e respostas (Q&A) e comunicados semanais de avanço da reserva.
 
@@ -6869,7 +6873,7 @@ Recomendação prática para o fundador: antes de emitir um *token* ou construir
 
 **Quando pode fazer sentido.** Empresa com comunidade internacional (cripto-natives) que prefere receber tokens. Liquidez secundária via marketplace é valor percebido real (raro em fase inicial). Operação Web3, ou blockchain, onde token faz parte da narrativa.
 
-**Plataformas no Brasil.** Liqi, Mercado Bitcoin Tokens, BasisBlockchain, BlockBR, e Ribus. Cada uma com tese, e custo próprios (Processo). Estrutura jurídica, mais documentação, mais emissão, mais distribuição.
+**Plataformas no Brasil.** Liqi, Mercado Bitcoin Tokens, BasisBlockchain, BlockBR, e Ribus. Cada uma com tese, e custo próprios; o processo exige Estrutura jurídica, mais documentação, mais emissão, mais distribuição.
 
 ---
 
@@ -6912,7 +6916,7 @@ Fiscalidade evolui. Consultar contador especializado antes de estruturar.
 
 Achar que é "dinheiro fácil". A campanha dá trabalho de seis meses ao fundador (comunicação, Q&A, e eventos). Custo de oportunidade real.
 
-Valuation inflado. Empreendedor define valuation alto "porque crowdfunder não questiona". Próxima rodada VC vem, e pressiona para baixo. Crowdfunders sofrem down round. Reputação afetada (Melhor). Valuation realista desde o início.
+Valuation inflado. Empreendedor define valuation alto "porque crowdfunder não questiona". Próxima rodada VC vem, e pressiona para baixo. Crowdfunders sofrem down round. Reputação afetada. Melhor. Valuation realista desde o início.
 
 Cap table sem SPV. Inserir quatrocentos investidores diretamente na sociedade. Inviabiliza decisões corporativas. Usar SPV desde o início.
 
@@ -6922,7 +6926,7 @@ Cap table sem SPV. Inserir quatrocentos investidores diretamente na sociedade. I
 
 **Violar limites e regras publicitárias da Resolução CVM 88:** ultrapassar o teto de R$ 15 milhões por ano-calendário (somadas todas as ofertas da emissora no ano), divulgar promessas de rentabilidade garantida fora do material aprovado pela plataforma ou omitir informações obrigatórias sujeita a empresa e seus administradores a stop order e sanções da CVM.
 
-Não entender LGPD. Dados de quinhentos investidores (Contatos). CPFs. Se vaza, complicação regulatória.
+Não entender LGPD. Dados de quinhentos investidores. Contatos. CPFs. Se vaza, complicação regulatória.
 
 Promessas em pitch que não cumpriu. "Vamos lançar em seis meses em cinco países". Realiza um país em doze meses. Investidores acionam. Reserva honesta é melhor.
 

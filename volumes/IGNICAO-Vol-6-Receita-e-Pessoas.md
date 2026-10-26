@@ -22,7 +22,7 @@ language: pt-BR
 
 Este é o **Volume 6 (Receita Enterprise, Liderança e Cultura)** da coleção IGNIÇÃO: O manual operacional do empreendedor brasileiro (10 volumes).
 
-Volume dedicado à construção da máquina comercial Enterprise, canais de distribuição, franquias e evolução de liderança, pessoas e cultura na scale-up. Abre com a Fase 15 (Máquina de Crescimento e Expansão em Escala) e a Fase 16 (Time, Liderança Executiva e Cultura em Escala), trazendo os frameworks clássicos de metodologias de vendas (MEDDPICC, SPIN, Challenger, Sandler, Solution Selling, BANT e Command of the Message), crescimento em escala e liderança (Radical Candor, Lencioni, Topgrading, Who, Horowitz, Culture Code, Netflix, SPADE e 7S), além de templates e quadros visuais práticos, seguidos por 15 capítulos sobre Growth, vendas Enterprise, Operações de Receita (RevOps), desenvolvimento de negócios corporativos, canais indiretos, Franchising e Licenciamento de Redes (Lei 13.966/2019 e COF), marca e relações públicas, modo fundador e cadência operacional, contratação executiva, avaliação de desempenho, remuneração e benefícios, planos de opções (Stock Options e ESOP), cultura em situações decisivas, diversidade e trabalho remoto ou híbrido.
+Volume dedicado à construção da máquina comercial Enterprise, canais de distribuição, franquias e evolução de liderança, pessoas e cultura na scale-up. Abre com a Fase 15 (Máquina de Crescimento e Expansão em Escala) e a Fase 16 (Time, Liderança Executiva e Cultura em Escala), trazendo os frameworks clássicos de metodologias de vendas (MEDDPICC, SPIN, Challenger, Sandler, Solution Selling, BANT e Command of the Message), crescimento em escala e liderança (Radical Candor, Lencioni, Topgrading, Who, Horowitz, Culture Code, Netflix, SPADE e 7S), além de templates e quadros visuais práticos, seguidos por 15 capítulos sobre Growth, vendas Enterprise, Operações de Receita (RevOps), desenvolvimento de negócios corporativos, canais indiretos, Franchising e Licenciamento de Redes (Lei 13.966/2019 e COF), marca e relações públicas, modo fundador e cadência operacional, contratação executiva, avaliação de desempenho, remuneração e benefícios, planos de opções (Stock Options e ESOP), cultura em situações críticas, diversidade e trabalho remoto ou híbrido.
 
 ---
 
@@ -349,7 +349,7 @@ Para declarar a **Fase 15** concluída antes de dobrar o quadro de pessoal na Fa
 
 - **Pulverização prematura de canais:** abrir cinco frentes de aquisição ao mesmo tempo divide a verba e a atenção da liderança antes que qualquer canal atinja eficiência mínima. Domine um ou dois canais até a saturação comprovada antes de abrir o próximo.
 
-"Crescimento resolve tudo" (Falso). Crescimento ineficiente acelera morte em downturn.
+"Crescimento resolve tudo" (falso): Crescimento ineficiente acelera morte em downturn.
 
 Escalar vendas sem playbook. Contratar dez vendedores com CAC desconhecido é queimar caixa.
 
@@ -1034,7 +1034,7 @@ Sinais de que *não* é hora. "Seria bom ter alguém, mas não sei bem para quê
 
 Perfil A, ex-colega sênior que já confia em você (ideal). Você já trabalhou com essa pessoa. Sabe como ela trabalha sob pressão. Ela está trocando emprego estável por aposta. Precisa acreditar em você, e na ideia. Compensação frequentemente abaixo de mercado, mais equity significativo (um a cinco por cento dependendo de perfil).
 
-Perfil B, generalista de alto potencial. Pessoa de três a sete anos de experiência (Adaptável). Quer aprender ampliando skills em empresa pequena. Topa fazer "tudo que aparecer" nos primeiros meses. Salário próximo ao de mercado, somado a participação societária modesta (0,25% a 1%, como faixa de referência para primeiras contratações-chave).
+Perfil B, generalista de alto potencial. Pessoa de três a sete anos de experiência. Adaptável. Quer aprender ampliando skills em empresa pequena. Topa fazer "tudo que aparecer" nos primeiros meses. Salário próximo ao de mercado, somado a participação societária modesta (0,25% a 1%, como faixa de referência para primeiras contratações-chave).
 
 Perfil C, especialista em gargalo específico. Se o fundador é técnico, e o gargalo é vendas, contratar AE sênior. Se o fundador é comercial, e o gargalo é tech, contratar full-stack sênior. Especialista com cinco a dez anos. Salário próximo a mercado.
 
@@ -1184,7 +1184,7 @@ Contratar só por fit cultural. É necessário, mas não suficiente. Resultado p
 
 Manter sócio-fundador no papel apenas porque "ele é o sócio", quando ele já não é a pessoa ideal para o estágio. É uma conversa difícil, mas necessária.
 
-Contratar rápido demais (Nunca). Senioridade exige três a oito entrevistas, pelo menos um teste prático ou case e três ou mais referências reais.
+Contratar rápido demais: nunca faça isso. Senioridade exige três a oito entrevistas, pelo menos um teste prático ou case e três ou mais referências reais.
 
 O processo padrão de contratação sênior leva de quatro a seis semanas e segue nove etapas numeradas: 1) descrição da vaga (*job description*) com entregas esperadas em 3, 6 e 12 meses (e não apenas lista de tarefas), 2) triagem estruturada pelo recrutador ou diretamente pelo fundador, 3) entrevista de cultura e valores com o CEO (30 a 45 minutos), 4) entrevista técnica conduzida por especialista sênior da área ou conselheiro técnico, 5) estudo de caso ou teste prático remunerado (4 a 8 horas de trabalho real), 6) entrevista com avaliador independente de outra área (*bar-raiser*) com poder de veto para proteger a barra de qualidade, 7) checagem rigorosa de três a cinco referências profissionais (perguntando "de 1 a 10, quão forte foi o desempenho dessa pessoa?" e investigando qualquer nota abaixo de 9), 8) proposta formal e negociação, e 9) roteiro de integração de 90 dias com marcos claros.
 
@@ -1764,7 +1764,7 @@ Scorecard genérica: "bom comunicador" em vez de outcome específico, pular a ch
 
 ##### A mecânica central (sem jargão)
 
-Framework para **conversar produtivamente em situações decisivas**: feedback difícil, conflito, negociação sob pressão, conversas que podem quebrar relacionamentos.
+Framework para **conversar produtivamente em situações críticas**: feedback difícil, conflito, negociação sob pressão, conversas que podem quebrar relacionamentos.
 
 ##### As regras do jogo
 
@@ -1906,7 +1906,7 @@ Temas recorrentes:
 
 1. There are no silver bullets: maioria das situações difíceis não tem resposta clean.
 
-2. The struggle: momentos em que CEO questiona tudo (Normalize).
+2. The struggle: momentos em que CEO questiona tudo: normalize essa conversa.
 
 3. CEO de tempos de paz versus CEO de tempos de guerra (*peacetime vs. wartime CEO*): em tempos de paz o líder cresce via otimização e delegação, em tempos de crise sobrevive por meio de decisões duras e rápidas, o que exige repertórios distintos.
 
@@ -2081,14 +2081,14 @@ Filosofia em que **líder serve liderados primeiro**: invertendo hierarquia trad
 
 10 características (compiladas por Larry Spears, ex-CEO do Greenleaf Center):
 
-1 (Listening).
-2 (Empathy).
-3 (Healing).
-4 (Awareness).
+1. **Listening:**
+2. **Empathy:**
+3. **Healing:**
+4. **Awareness:**
 5. Persuasion (não coerção).
-6 (Conceptualization).
-7 (Foresight).
-8 (Stewardship).
+6. **Conceptualization:**
+7. **Foresight:**
+8. **Stewardship:**
 9. Commitment to growth of people.
 10. Building community.
 
@@ -2751,7 +2751,7 @@ A tabela abaixo traduz a transição em critérios acionáveis para cada papel o
 
 ### Fechamento da Fase 16 e Transição para os Capítulos de Receita e Pessoas (Vol. 6) e os Volumes 7 a 9
 
-Com as **Fases 15 e 16** concluídas, você tem o mapa completo da escala comercial e organizacional. Nos Capítulos 1 a 15 a seguir, mergulharemos na execução tática de cada engrenagem: estruturação de times de Growth (Capítulo 1), vendas complexas Enterprise (Capítulo 2), Operações de Receita / RevOps (Capítulo 3), alianças corporativas e canais indiretos (Capítulos 4 e 5), Franchising sob a Lei 13.966/2019 (Capítulo 6), marca e relações públicas (Capítulo 7), Modo Fundador e cadência do CEO (Capítulo 8), contratação de executivos C-Level (Capítulo 9), avaliação de desempenho (Capítulo 10), remuneração e benefícios na CLT (Capítulo 11), Stock Options e ESOP (Capítulo 12), cultura em situações decisivas (Capítulo 13), diversidade (Capítulo 14) e operação remota ou híbrida (Capítulo 15).
+Com as **Fases 15 e 16** concluídas, você tem o mapa completo da escala comercial e organizacional. Nos Capítulos 1 a 15 a seguir, mergulharemos na execução tática de cada engrenagem: estruturação de times de Growth (Capítulo 1), vendas complexas Enterprise (Capítulo 2), Operações de Receita / RevOps (Capítulo 3), alianças corporativas e canais indiretos (Capítulos 4 e 5), Franchising sob a Lei 13.966/2019 (Capítulo 6), marca e relações públicas (Capítulo 7), Modo Fundador e cadência do CEO (Capítulo 8), contratação de executivos C-Level (Capítulo 9), avaliação de desempenho (Capítulo 10), remuneração e benefícios na CLT (Capítulo 11), Stock Options e ESOP (Capítulo 12), cultura em situações críticas (Capítulo 13), diversidade (Capítulo 14) e operação remota ou híbrida (Capítulo 15).
 
 Para completar a arquitetura de escala e maturidade da sua companhia, siga para o Volume 7 (Produto, Engenharia, Dados, IA e Operações: Fase 17), o Volume 8 (Blindagem Jurídica, Societária, LGPD e Segurança: Fase 18) e o Volume 9 (Maturidade, Governança, Crise e Exit: Fases 19 e 20).
 
@@ -2803,7 +2803,7 @@ Estágio 2, growth owner (Série A, R$ 5 a 15 mi de ARR). Uma pessoa (tipicament
 
 No **Estágio 3: *growth team*** (Série A tardia a Série B, de R$ 15 a 50 milhões de ARR), a empresa estrutura um time dedicado de cinco a dez pessoas. Em uma equipe completa de dez profissionais, a composição equilibrada reúne um Head of Growth, dois a três PMs de growth, três a quatro engenheiros de growth, um designer de produto e um a dois analistas de dados (além de especialistas em mídia de performance), reportando ao CEO, ao CPO ou ao CMO conforme a arquitetura da empresa.
 
-Estágio 4, growth organization (Série B a C, R$ 50 a 200 mi de ARR). Time de vinte a quarenta pessoas (Subdivisões). Acquisition (Activation). Retention (Monetization). Possivelmente international growth. Trabalha de forma integrada com as equipes de produto e de marketing.
+Estágio 4, growth organization (Série B a C, R$ 50 a 200 mi de ARR). Time de vinte a quarenta pessoas. Subdivisões. Acquisition. Activation. Retention. Monetization. Possivelmente international growth. Trabalha de forma integrada com as equipes de produto e de marketing.
 
 Estágio 5, growth org em escala (Série C em diante, R$ 200 mi de ARR ou mais). Quarenta ou mais pessoas. Especialistas em cada vertical. SEO team. Paid team. Lifecycle team. Referral, ou viral team. Pricing team. Empresas maduras (Canva, Notion) têm estruturas dessa escala.
 
@@ -2835,7 +2835,7 @@ Três modelos comuns.
 
 **Modelo 2 - Funcional ou Embutido em Produto (*Functional Model*):** as células de crescimento operam dentro da diretoria de Produto (reportando ao CPO), dividindo a mesma arquitetura técnica e os mesmos rituais dos *squads* de funcionalidades centrais.
 
-**Modelo 3: growth como função de serviços internos.** Growth team tem capacidade analítica, e metodológica. Empresta experts a outros times. Como "consultoria interna" (Pro). Escalabilidade. Propagação de cultura de growth para toda a empresa (Contra). Sem ownership direto de output, pode virar "dá conselho, mas não constrói".
+**Modelo 3: growth como função de serviços internos.** Growth team tem capacidade analítica, e metodológica. Empresta experts a outros times. Como "consultoria interna". Pro. Escalabilidade. Propagação de cultura de growth para toda a empresa. Contra. Sem ownership direto de output, pode virar "dá conselho, mas não constrói".
 
 A escolha depende de maturidade da empresa. Startup em Série A a B, frequentemente, começa com modelo 1, para foco. Escala para modelo 2, ou 3, em estágios maduros.
 
@@ -2915,7 +2915,7 @@ Slack (caso público)            Mensagens enviadas por usuário ativo diário (
 Marketplace de entrega (ex.)    Pedidos entregues no prazo e sem incidente/semana
 B2B MarTech / CRM (hipótese)    Leads qualificados gerados pelos clientes/mês
 Neobank / Conta digital (ex.)   Clientes com conta principal ativa e transações/mês
-SaaS vertical B2B (hipótese)    Processos decisivos concluídos por conta ativa/semana
+SaaS vertical B2B (hipótese)    Processos críticos concluídos por conta ativa/semana
 ---------------------------------------------------------------------------------
 ```
 
@@ -2962,12 +2962,12 @@ Growth team opera em ciclos de experimentação, em seis passos.
 
 **Passo 5 - Decisão e registro no repositório de aprendizados:** se o experimento venceu com significância estatística e sem ferir as métricas guardiãs, implemente para 100% da base, se perdeu ou ficou inconclusivo, reverta o código, documente o motivo em três linhas na base de conhecimento da equipe e use o aprendizado para formular a próxima hipótese.
 
-**Passo 6: documentação.** Wiki de experimentos (Hipótese). Resultado (Aprendizado). Funciona como memória organizacional. Evita rodar o mesmo experimento duas vezes.
+**Passo 6: documentação.** Wiki de experimentos. Hipótese; como resultado, Aprendizado. Funciona como memória organizacional. Evita rodar o mesmo experimento duas vezes.
 
 > [!important] Ritmo de ciclos
 > O ritmo de experimentação deve respeitar a capacidade de engenharia e o volume de tráfego da empresa: um time inicial enxuto (de 3 a 5 pessoas) deve buscar 1 experimento bem instrumentado por semana (4 a 5 por mês), evoluindo para 2 a 3 experimentos semanais à medida que a infraestrutura de testes e o tráfego amadurecem.
 
-**Ferramentas:** A/B testing. Optimizely, VWO, LaunchDarkly, Statsig, Eppo, GrowthBook (Analytics). Amplitude, Mixpanel, Heap, Pendo. Customer data. Segment, mParticle, RudderStack. Landing pages. Unbounce, Instapage, Webflow (Email). Customer.io, Iterable, Braze.
+**Ferramentas:** A/B testing. Optimizely, VWO, LaunchDarkly, Statsig, Eppo, GrowthBook. Analytics. Amplitude, Mixpanel, Heap, Pendo. Customer data. Segment, mParticle, RudderStack. Landing pages. Unbounce, Instapage, Webflow. Email. Customer.io, Iterable, Braze.
 
 ### Painel de comando de Growth: Velocidade de Experimentos, Taxa de Ativação (Aha Moment), Retenção D30 e Payback
 
@@ -3101,7 +3101,7 @@ O modelo hybrid, chamado de "product-led sales" ou PLS, é hoje o movimento mais
 
 **Desenvolver internamente (*Build* com apoio de consultor técnico):** treinar analistas e gerentes de produto da própria casa leva mais tempo, mas constrói cultura de experimentação proprietária. Foi o caminho que Rafael e Bia adotaram após demitirem o falso guru: Bia assumiu a retenção com o time interno e contratou um consultor técnico por 60 dias apenas para instrumentar o funil e ensinar a cadência semanal de testes.
 
-**Hire.** Contratar Head of Growth externo, mais time. Mais rápido. Traz know-how (Risco). Não aderir à cultura. Não entender o produto.
+**Hire.** Contratar Head of Growth externo, mais time. Mais rápido. Traz know-how; o risco é Não aderir à cultura. Não entender o produto.
 
 **Buy (agência, ou consultor).** Terceirizar growth operations para agência. Funciona em canais específicos (performance marketing via agência), mas não para estratégia core. Agências não têm accountability profunda em produto.
 
@@ -4145,7 +4145,7 @@ Perguntas para qualificar o champion:
 - O que acontece com a meta dele se a parceria não sair?
 
 > [!important]
-> Em negociações com grandes empresas, o fundador da startup é um ativo. Reuniões de C-Level com o fundador desbloqueiam situações que ficaram travadas por meses no nível operacional. Use este ativo com critério: não em toda reunião, mas nos momentos decisivos de desbloqueio.
+> Em negociações com grandes empresas, o fundador da startup é um ativo. Reuniões de C-Level com o fundador desbloqueiam situações que ficaram travadas por meses no nível operacional. Use este ativo com critério: não em toda reunião, mas nos momentos críticos de desbloqueio.
 
 ---
 
@@ -4297,7 +4297,8 @@ Churn de parceiros (% ao ano)      Trimestral    <20%
 ```
 
 > [!tip]
-> Faça uma auditoria trimestral implacável da carteira de parcerias: alianças que consumiram horas de engenharia e reuniões por dois trimestres consecutivos sem gerar oportunidades qualificadas registradas (*Deal Registration*) devem ser formalmente encerradas ou rebaixadas para integração passiva sem dedicação executiva.
+> Faça uma auditoria trimestral implacável da carteira de parcerias
+> alianças que consumiram horas de engenharia e reuniões por dois trimestres consecutivos sem gerar oportunidades qualificadas registradas (*Deal Registration*) devem ser formalmente encerradas ou rebaixadas para integração passiva sem dedicação executiva.
 
 ---
 
@@ -4499,7 +4500,7 @@ O primeiro preço que você cobra se torna a âncora de toda negociação futura
 
 **Como estruturar o contrato de piloto pago**
 
-O piloto deve ser pago (Sempre). A razão não é apenas financeira: um piloto pago muda a psicologia da relação. A empresa que pagou para testar tem interesse em que o teste funcione. A empresa que recebeu um piloto gratuito tem muito menos comprometimento.
+O piloto deve ser pago sempre: A razão não é apenas financeira: um piloto pago muda a psicologia da relação. A empresa que pagou para testar tem interesse em que o teste funcione. A empresa que recebeu um piloto gratuito tem muito menos comprometimento.
 
 Regra comercial essencial: faça constar na proposta do piloto o preço cheio de produção e apresente o valor reduzido dos primeiros 60 ou 90 dias como "desconto promocional exclusivo de validação técnica", evitando que Compras tente ancorar o contrato anual definitivo no valor subsidiado do teste.
 
@@ -4541,7 +4542,8 @@ Propriedade intelectual (100% da PI do produto-base e de todas as evoluções, m
 Cláusula de non-compete abrangente que impeça você de atender outros clientes do mesmo setor é potencialmente fatal para o crescimento. Se a empresa insistir, limite o escopo a até três concorrentes diretos nominalmente listados em anexo e ao subsegmento específico de atuação, condicionado ao pagamento de volume mínimo contratual e temporal (máximo doze meses após término do contrato).
 
 > [!warning]
-> Cláusulas de step-in rights são raras mas existem: permitem que a empresa assuma operação do seu produto em caso de falência ou descontinuidade. Se você aceitar isso, certifique-se de que o escrow de código está bem definido e que a empresa não pode executar o step-in enquanto você está operando normalmente.
+> Cláusulas de step-in rights são raras mas existem
+> permitem que a empresa assuma operação do seu produto em caso de falência ou descontinuidade. Se você aceitar isso, certifique-se de que o escrow de código está bem definido e que a empresa não pode executar o step-in enquanto você está operando normalmente.
 
 ---
 
@@ -5000,7 +5002,7 @@ Em IPO, brand move mais ainda. O investidor de mercado público aloca parcialmen
 
 - **Redesenho completo de marca (*rebranding*) por vaidade no meio da escala:** gastar seis meses e centenas de milhares de reais mudando nome, logotipo e posicionamento apenas porque um novo diretor de marketing chegou, sem que tenha havido mudança real de público-alvo, fusão ou conflito de registro no INPI.
 
-Diluição por extensões. Marca mãe forte em um produto, lançando linha de produto diferente, com o mesmo nome (Arriscado). Separar sub-marcas, se necessário.
+Diluição por extensões. Marca mãe forte em um produto, lançando linha de produto diferente, com o mesmo nome, o que é arriscado: Separar sub-marcas, se necessário.
 
 Perder consistência em escala. Dez funcionários mantêm tom naturalmente. Quinhentos, não. Brand guidelines, e treinamento, viram obrigatórios.
 
@@ -5115,7 +5117,7 @@ Conflito com investidor, saída de sócio ou briga de board: regra geral é sil�
 
 #### 6. O equilíbrio entre a marca pessoal do fundador e a marca institucional da empresa
 
-Há três razões para separar deliberadamente a marca pessoal da marca corporativa. Na saída (*exit*), o fundador deixa o comando executivo mas segue ativo no mercado: se a sua reputação pública se confunde inteiramente com o CNPJ vendido, a transição vira crise de identidade. Em momentos de crise operacional, a credibilidade pessoal construída com transparência ajuda a sustentar o diálogo com o mercado. E, em novos projetos, o empreendedor de segunda viagem com reputação própria consolidada reduz drasticamente o custo de atrair capital e talentos (ver [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 20: O FUNDADOR DE SEGUNDA VIAGEM (SECOND-TIME FOUNDER)|Capítulo 20 (Second-Time Fundador) (Vol. 9)]]).
+Há três razões para separar deliberadamente a marca pessoal da marca corporativa. Na saída (*exit*), o fundador deixa o comando executivo mas segue ativo no mercado: se a sua reputação pública se confunde inteiramente com o CNPJ vendido, a transição vira crise de identidade. Em momentos de crise operacional, a credibilidade pessoal construída com transparência ajuda a sustentar o diálogo com o mercado. E, em novos projetos, o empreendedor de segunda viagem com reputação própria consolidada reduz drasticamente o custo de atrair capital e talentos (ver [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 20: O FUNDADOR DE SEGUNDA VIAGEM (SECOND-TIME FOUNDER)|Capítulo 20 (Second-Time Founder) (Vol. 9)]]).
 
 Para construir marca pessoal com autonomia: desenvolva voz própria em temas amplos do setor (liderança, transformação tecnológica, governança), participe de conselhos externos, atue como investidor-anjo ou mentor e publique reflexões que ultrapassem o escopo comercial imediato da empresa atual.
 
@@ -5270,7 +5272,7 @@ Founder Mode é claramente mais aplicável a CEO-fundador, que a CEO profissiona
 
 Quatro razões pelas quais essa discussão não é acadêmica.
 
-Delegação cedo demais destrói vantagem fundadora. O fundador tem um ativo que nenhum contratado tem. Memória de todas as decisões. Intuição de cliente, construída em milhares de conversas. Rede fora do organograma. Quando delega antes de transferir isso, delega poder sem transferir sabedoria (Resultado). O VP novo toma decisões razoáveis em média, que destroem diferencial específico.
+Delegação cedo demais destrói vantagem fundadora. O fundador tem um ativo que nenhum contratado tem. Memória de todas as decisões. Intuição de cliente, construída em milhares de conversas. Rede fora do organograma. Quando delega antes de transferir isso, delega poder sem transferir sabedoria; como resultado, O VP novo toma decisões razoáveis em média, que destroem diferencial específico.
 
 Gargalo fundador quebra empresa depois. O oposto. Fundador que faz tudo em empresa com cinco pessoas é produtivo. Em empresa com cinquenta, vira gargalo decisivo. As decisões param. Gente qualificada vai embora, por falta de autonomia. A qualidade cai.
 
@@ -5330,7 +5332,7 @@ O domínio executivo consiste em instalar canais diretos de observação que pre
 **Desafios rotativos.** O CEO assume pessoalmente, por trinta a noventa dias, um problema operacional que normalmente estaria delegado. Rotaciona área a cada trimestre. Isso gera aprendizado. Sinaliza aos delegados onde precisa melhorar. E evita distanciamento crônico.
 
 > [!warning] Anti-padrão dos "all hands teatrais"
-> Reuniões mensais de toda a empresa viram comunicação one-way, quando são a única interação do CEO com base. Se for o caso, é Manager Mode disfarçado de Founder Mode (Solução). Combinar all hands (necessário) com canais diretos (obrigatório).
+> Reuniões mensais de toda a empresa viram comunicação one-way, quando são a única interação do CEO com base. Se for o caso, é Manager Mode disfarçado de Founder Mode; a solução é Combinar all hands (necessário) com canais diretos (obrigatório).
 
 #### 5. Como contratar C-level, sem cair no padrão "delegou e quebrou"
 
@@ -5352,7 +5354,7 @@ Crise existencial. Runway decisivo. Churn anômalo. Processo regulatório grave.
 
 Reinvenção ([[IGNICAO-Vol-9-Maturidade-e-Exit#FASE 19: REINVENÇÃO E SEGUNDA CURVA|Fase 19 (Vol. 9)]]). A segunda curva exige o fundador no detalhe. Porque é equivalente a iniciar outra empresa dentro da empresa.
 
-Entrada em novo mercado (Geográfico). Segmento. Produto adjacente. Fase de descoberta exige fundador. Como foi no primeiro PMF.
+Entrada em novo mercado. Geográfico. Segmento. Produto adjacente. Fase de descoberta exige fundador. Como foi no primeiro PMF.
 
 Captação grande (Série B em diante). O fundador é o que o investidor compra. Delegar prospecção de investidores é romantismo. Precisa ser fundador.
 
@@ -5387,12 +5389,12 @@ Dominar o equilíbrio entre presença nos detalhes decisivos (*Founder Mode*) e 
 
 **Princípio 1: proteja o que não se recupera.** Sono, exercício, relacionamentos próximos, e tempo de reflexão profunda, não são "negociáveis" quando há pressão. Fundador que sacrifica consistentemente esses itens, não está "mais comprometido". Está em caminho para decisão ruim, burnout, ou ambos.
 
-**Princípio 2: categorize tarefas por tipo de atenção requerida.** Não todas as tarefas exigem o mesmo tipo de atenção. Trabalho de execução rasa (email, Slack, e aprovações). Cinco a quinze minutos cada (Fragmentável). Trabalho de decisão (reuniões 1:1, e decisões estratégicas específicas). Trinta a sessenta minutos cada. Focado, mas interrupcionável. Trabalho profundo (escrever estratégia, pensar em problema, ou criar algo novo). Duas a quatro horas contínuas, sem interrupção.
+**Princípio 2: categorize tarefas por tipo de atenção requerida.** Não todas as tarefas exigem o mesmo tipo de atenção. Trabalho de execução rasa (email, Slack, e aprovações). Cinco a quinze minutos cada. Fragmentável. Trabalho de decisão (reuniões 1:1, e decisões estratégicas específicas). Trinta a sessenta minutos cada. Focado, mas interrupcionável. Trabalho profundo (escrever estratégia, pensar em problema, ou criar algo novo). Duas a quatro horas contínuas, sem interrupção.
 
 > [!warning] Não misturar tipos de atenção
 > Bloco de trabalho profundo picotado por notificações de Slack não é trabalho profundo.
 
-**Princípio 3: agenda reflete prioridade. Não negociação.** Onde você gasta seu tempo é o que você acha prioritário (Ponto). Se você diz "prioridade é produto", mas gasta oitenta por cento em vendas, produto não é prioridade.
+**Princípio 3: agenda reflete prioridade. Não negociação.** Onde você gasta seu tempo é o que você acha prioritário, sem exceção. Se você diz "prioridade é produto", mas gasta oitenta por cento em vendas, produto não é prioridade.
 
 Olhar calendar do mês passado, e responder honestamente. Onde foi o tempo? Se não bate com estratégia declarada, a agenda está errada (ou a estratégia está).
 
@@ -5486,7 +5488,7 @@ Monthly investor update. Email formal de uma a duas páginas. KPIs, wins, challe
 
 Quarterly business review (QBR). Liderança extendida, mais selected team members. Half-day, ou full-day. Review de OKRs do trimestre anterior (o que atingiu, o que não, e por quê). Aprovação de OKRs do próximo trimestre. Strategic discussions.
 
-Board meeting. Duas a quatro horas (Agenda). Financials, progress versus plan, strategic discussions, e votes. Pre-read enviado três a cinco dias antes.
+Board meeting. Duas a quatro horas. Agenda. Financials, progress versus plan, strategic discussions, e votes. Pre-read enviado três a cinco dias antes.
 
 Quarterly team offsite (escala permitindo). Half-day, ou full-day. Planejamento do trimestre. Team building. Por time, ou cross-funcional.
 
@@ -5494,7 +5496,7 @@ Engagement, ou culture pulse survey. Quantitativa (eNPS, satisfação, e clareza
 
 **Annual (anual).**
 
-Annual planning. Duas a quatro semanas de trabalho intenso (setembro a novembro tipicamente, para ano seguinte) (Processo). Strategic review (onde estamos. Onde o mercado está). Goals de negócio (receita, margem, e milestones). OKRs por função. Budget, e headcount. Mapping de risco (Documentação). Annual plan de vinte a cinquenta páginas, ou equivalente.
+Annual planning. Duas a quatro semanas de trabalho intenso (setembro a novembro tipicamente, para ano seguinte); o processo exige Strategic review (onde estamos. Onde o mercado está). Goals de negócio (receita, margem, e milestones). OKRs por função. Budget, e headcount. Mapping de risco. Documentação. Annual plan de vinte a cinquenta páginas, ou equivalente.
 
 Annual offsite. Dois a três dias com leadership team. Strategic reflection. Alinhamento profundo sobre direção.
 
@@ -5523,7 +5525,7 @@ Começar com OKRs da empresa (três a cinco objectives). Cascatear para times (c
 
 **Depois da reunião.** Notes enviadas em vinte e quatro horas (decisions, action items com owner, e prazo). Follow-up no próximo encontro.
 
-**Types of meetings que funcionam.** Decision meeting. Problema concreto. Stakeholders relevantes. Decide ali (Brainstorm). Gerar opções sem decidir. Só se explicitamente brainstorm. Status update. Idealmente curto. Ou substituído por documento assíncrono. 1:1. Regular, estruturado, e confidencial. All-hands. Informação, mais cultura, mais energia.
+**Types of meetings que funcionam.** Decision meeting. Problema concreto. Stakeholders relevantes. Decide ali. Brainstorm. Gerar opções sem decidir. Só se explicitamente brainstorm. Status update. Idealmente curto. Ou substituído por documento assíncrono. 1:1. Regular, estruturado, e confidencial. All-hands. Informação, mais cultura, mais energia.
 
 **Meetings que não deveriam acontecer.** Reunião onde o resultado esperado é "vou atualizar você" (email resolve). Reunião com quinze pessoas onde três falam (demais são audiência cara). Reunião sem agenda nem objetivo ("queria conversar sobre X"). Reunião recorrente que não tem output consistente (review periódico, cancele).
 
@@ -5533,7 +5535,7 @@ Começar com OKRs da empresa (três a cinco objectives). Cascatear para times (c
 
 **Documentação que substitui reunião.** Product spec (para features). Problema, proposta, impacto esperado, e trade-offs. Design docs (para engenharia). Arquitetura, decisões, e alternativas consideradas. RFC (Request for Comments). Propostas com prazo para feedback. Weekly team updates. Documento semanal por time, com progress, blockers, e asks. Monthly business review (documento). Métricas, mais narrative. Strategy memos. Documentos longos sobre estratégia (style Amazon 6-pager).
 
-**Ferramentas.** Notion, Coda, e Confluence. Knowledge management, e documentos longos. Slack, e Microsoft Teams. Comunicação em tempo real (Loom). Async video (melhor que live meeting para muitos casos). Asana, Linear, Jira, e Monday. Project, ou task management. Google Docs, e Microsoft 365. Collaborative documents.
+**Ferramentas.** Notion, Coda, e Confluence. Knowledge management, e documentos longos. Slack, e Microsoft Teams. Comunicação em tempo real. Loom. Async video (melhor que live meeting para muitos casos). Asana, Linear, Jira, e Monday. Project, ou task management. Google Docs, e Microsoft 365. Collaborative documents.
 
 **Princípio cultural.** Async default. Se pode resolver por texto, ou vídeo async, resolva async. Exceção síncrona: reserve reuniões ao vivo apenas para decisões difíceis, conversas delicadas, brainstorming ativo, 1:1s e rituais de cultura. Documentation culture. Nada decisivo fica só em conversa.
 
@@ -5555,7 +5557,7 @@ Cultura de presença física. Ainda há bias a favor de "estar no escritório". 
 
 **Imitar a rotina de CEO de companhia aberta (*public company*):** o presidente de uma corporação listada em bolsa que dedica a agenda apenas à alocação de capital e relação com investidores governa uma estrutura madura, tentar replicar esse distanciamento em uma startup de 40 pessoas produz abandono operacional disfarçado de profissionalização.
 
-Delegar para resolver desconforto pessoal. Fundador que odeia finanças contrata CFO rápido, para não ter que pensar no assunto (Problema). Quem não entende finanças não consegue avaliar CFO. Resultado típico. Um CFO mediano conduzindo mal o caixa e as finanças por dezoito meses, sem ninguém perceber.
+Delegar para resolver desconforto pessoal. Fundador que odeia finanças contrata CFO rápido, para não ter que pensar no assunto; o problema é que Quem não entende finanças não consegue avaliar CFO. Resultado típico. Um CFO mediano conduzindo mal o caixa e as finanças por dezoito meses, sem ninguém perceber.
 
 > [!warning] Founder Mode é diferente de micromanagement
 > **A diferença entre Modo Fundador e Microgerenciamento:** no microgerenciamento, o fundador centraliza aprovações triviais de rotina, desautoriza líderes na frente da equipe e refaz tarefas operacionais sem explicar o critério. No Modo Fundador seletivo, você mantém de 5 a 8 líderes fortes com alçada clara, mas participa de revisões periódicas de qualidade nos 3 ou 4 domínios vitais do negócio e conversa regularmente com quem constrói o produto e atende o cliente.
@@ -5689,7 +5691,7 @@ A regra prática. Rodar fonte 1 primeiro, por quatro a oito semanas. Se não pro
 > [!tip] Perguntas que funcionam melhor que "como foi trabalhar com X?"
 > "Em quais três áreas X era excepcional e em quais três áreas X tinha dificuldade?". "Se você fosse contratar X de novo, faria? Em que tipo de role X brilharia e qual X deveria evitar?". "Como era X em momento de crise? E em momento de conflito?". "Me conte sobre uma decisão de X que você questionou. O que aconteceu?". "Se X tivesse que melhorar em uma coisa para chegar no próximo nível, o que seria?".
 
-**Estágio 6: board approval, e offer (uma semana).** Para C-level, o board tipicamente aprova package. Offer letter detalhado, com todos os termos (Negociação). Assinatura.
+**Estágio 6: board approval, e offer (uma semana).** Para C-level, o board tipicamente aprova package. Offer letter detalhado, com todos os termos. Negociação. Assinatura.
 
 **Estágio 7: closing (uma a duas semanas).** Mesmo após o offer aceito, o candidato pode receber counter-offer do empregador atual. "Sell side" contínuo. Reforçar motivos pela mudança, envolvimento do board, e conversas com peer executives, que já estão na empresa. Relacionamento pré-início. Convidar para dinners, reuniões estratégicas como observador, e integração leve, antes do day 1.
 
@@ -6295,7 +6297,7 @@ Mecanismos adicionais:
 
 #### Bônus de retenção (retention bonus)
 
-Instrumento usado para reter colaboradores-chave em momentos decisivos: antes de uma rodada de investimento, processo de M&A, ou projeto de alto risco.
+Instrumento usado para reter colaboradores-chave em momentos críticos: antes de uma rodada de investimento, processo de M&A, ou projeto de alto risco.
 
 **Estrutura típica:**
 
@@ -7146,7 +7148,7 @@ As pessoas da empresa adquirida que mais prezavam sua cultura anterior são freq
 
 **Os erros mais comuns no M&A de cultura.**
 
-Assumir que cultura vai "se resolver sozinha" com o tempo. Não resolve (Endurece). As divisões culturais que não são abordadas nos primeiros seis meses se tornam identidades entrincheiradas nos próximos anos.
+Assumir que cultura vai "se resolver sozinha" com o tempo. Não resolve, mas sim endurece. As divisões culturais que não são abordadas nos primeiros seis meses se tornam identidades entrincheiradas nos próximos anos.
 
 Mover rápido demais em integração de sistemas sem trabalhar cultura primeiro. Quando a empresa adquirida é forçada a adotar os processos do adquirente antes de haver confiança ou entendimento cultural compartilhado, a resistência explode.
 
@@ -7212,7 +7214,7 @@ Cultura está saudável quando todos os itens abaixo estão cumpridos.
 - [ ] Em empresas com mais de 200 pessoas: guardiões da cultura (*culture carriers*) ativos em todas as diretorias.
 - [ ] Tolerância zero ao "craque tóxico" (comportamento destrutivo confrontado com prazo curto ou desligamento) e mitigação ativa da cultura do herói e da cultura da culpa.
 - [ ] Indicadores culturais em faixa saudável: eNPS interno ≥ +30 (excelente ≥ +60), nota no Glassdoor ≥ 4,0, aprovação do CEO ≥ 80% e retenção nos primeiros 90 dias ≥ 95%.
-- [ ] Em situações decisivas de escala: turmas quinzenais/mensais de integração com padrinho (*buddy*) estruturadas antes de acelerar contratações em lote, regras escritas de paridade entre remoto e presencial e *playbook* de integração cultural em 5 etapas aplicado desde o Dia 1 em qualquer aquisição (M&A).
+- [ ] Em situações críticas de escala: turmas quinzenais/mensais de integração com padrinho (*buddy*) estruturadas antes de acelerar contratações em lote, regras escritas de paridade entre remoto e presencial e *playbook* de integração cultural em 5 etapas aplicado desde o Dia 1 em qualquer aquisição (M&A).
 
 ---
 
@@ -7269,7 +7271,7 @@ Por fim, a retenção de profissionais de grupos sub-representados depende de in
 
 #### 1. Diagnóstico honesto, dados primeiro
 
-Dados de composição demográfica (coletados mediante consentimento específico e destacado ou para cumprimento de obrigação legal, como a cota de PcD da Lei 8.213/1991 e o Relatório de Transparência Salarial da Lei 14.611/2023, tratados como dados pessoais sensíveis sob o art. 11 da LGPD, com acesso restrito e divulgação apenas agregada em grupos mínimos que impeçam a reidentificação em times pequenos): Gênero (incluindo não binário). Raça, ou cor (autodeclaração conforme IBGE, branco, preto, pardo, amarelo, indígena). Orientação sexual (opcional, mais sensível). Pessoa com deficiência. Origem regional, ou estado. Primeira pessoa da família com ensino superior (proxy de classe social) (Idade).
+Dados de composição demográfica (coletados mediante consentimento específico e destacado ou para cumprimento de obrigação legal, como a cota de PcD da Lei 8.213/1991 e o Relatório de Transparência Salarial da Lei 14.611/2023, tratados como dados pessoais sensíveis sob o art. 11 da LGPD, com acesso restrito e divulgação apenas agregada em grupos mínimos que impeçam a reidentificação em times pequenos): Gênero (incluindo não binário). Raça, ou cor (autodeclaração conforme IBGE, branco, preto, pardo, amarelo, indígena). Orientação sexual (opcional, mais sensível). Pessoa com deficiência. Origem regional, ou estado. Primeira pessoa da família com ensino superior (proxy de classe social). Idade.
 
 - **Recorte por nível hierárquico:** acompanhe a distribuição separadamente entre contribuidores individuais (*ICs*), gerentes e coordenadores (*managers/heads*) e diretoria executiva (*C-Level*).
 

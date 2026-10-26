@@ -354,7 +354,7 @@ Você conclui a Fase 19 (em qualquer ciclo) quando todos os critérios abaixo es
 
 **Primeiros passos práticos.**
 
-1. Listar sinais de desaceleração objetivos (Números). Não intuição.
+1. Listar sinais de desaceleração objetivos. Números. Não intuição.
 2. Mapear de três a cinco hipóteses de segunda curva, avaliando o mercado endereçável (TAM) e aplicando a checagem de ajuste fundador-mercado (FMF) sobre cada opção.
 3. Escolher a candidata mais sólida para explorar com equipe dedicada e orçamento isolado por seis meses antes de deliberar sobre a escala.
 4. Definir no conselho as métricas de aprendizado do Horizonte 2 e o gatilho objetivo de encerramento (*kill criteria*) caso a tração mínima não se confirme em dezoito meses.
@@ -942,7 +942,7 @@ Nesta fase você diagnosticou a saturação com dados de coorte (e não por intu
 A [[#FASE 20: ESTRATÉGIA DE SAÍDA (EXIT STRATEGY)|Fase 20]] começa aqui: fundadores que chegaram a esse ponto, com segunda curva rodando ou com decisão clara sobre o próximo capítulo, estão em posição de planejar o exit com poder de barganha.
 
 > [!note] Quando a "segunda curva" é uma empresa nova (fundador serial)
-> Há um caminho alternativo à reinvenção dentro da empresa atual: o fundador conclui a venda da participação (Fase 20) e inicia um novo negócio do zero. Esse percurso é tratado no [[#CAPÍTULO 20: O FUNDADOR DE SEGUNDA VIAGEM (SECOND-TIME FOUNDER)|Capítulo 20: Second-Time Fundador]], que analisa o que muda ao empreender pela segunda vez (rede de contatos e capital mais acessíveis, vieses de excesso de confiança, situação de quem encerrou a primeira operação e escolha entre repetir o setor ou atuar em novo domínio). Se a sua segunda curva será construída em outra companhia, o Capítulo 20 é a sequência direta após a Fase 20.
+> Há um caminho alternativo à reinvenção dentro da empresa atual: o fundador conclui a venda da participação (Fase 20) e inicia um novo negócio do zero. Esse percurso é tratado no [[#CAPÍTULO 20: O FUNDADOR DE SEGUNDA VIAGEM (SECOND-TIME FOUNDER)|Capítulo 20: Second-Time Founder]], que analisa o que muda ao empreender pela segunda vez (rede de contatos e capital mais acessíveis, vieses de excesso de confiança, situação de quem encerrou a primeira operação e escolha entre repetir o setor ou atuar em novo domínio). Se a sua segunda curva será construída em outra companhia, o Capítulo 20 é a sequência direta após a Fase 20.
 
 ---
 
@@ -1360,7 +1360,7 @@ Venda com um único interessado. Nunca negocie exit sem pelo menos dois ou três
 
 Aceitar *earn-out* elevado sem proteção contratual. Quando mais de 30% do preço fica condicionado a metas futuras em aquisições estratégicas, aplique rigorosamente as cinco proteções do Passo 5 (orçamento e autonomia operacional protegidos, obrigação de não frustrar as metas, vencimento antecipado em caso de revenda da unidade, arbitragem independente para divergências contábeis e estruturação como preço diferido sob condição suspensiva, sem vincular o recebimento à permanência no emprego para não atrair tributação de até 27,5% de IRPF como remuneração), articuladas com o plano de transição do [[#CAPÍTULO 18: SUCESSÃO NO EXIT, TRANSIÇÃO PÓS-AQUISIÇÃO (M&A) E RETENÇÃO DE TALENTOS|Capítulo 18: Sucessão no Exit, Transição Pós-Aquisição (M&A) e Retenção de Talentos]]. Aceitar metas baseadas em lucro contábil sem essas travas equivale a abrir mão dessa parcela do preço.
 
-Ignorar lock-up. Três anos de lock-up em empresa que você vendeu pode ser pior do que não vender (Avalie).
+Ignorar lock-up. Três anos de lock-up em empresa que você vendeu pode ser pior do que não vender: avalie com cuidado.
 
 Negligenciar o planejamento societário e tributário prévio. A diferença entre preparar a estrutura com 36 meses de antecedência e improvisar na véspera da assinatura pode consumir de 12% a 19% adicionais do ganho de capital (como os R$ 12,6 milhões extras no exemplo de R$ 100 milhões do Passo 6).
 
@@ -1660,9 +1660,9 @@ Documente essa matriz no início do relacionamento com o board. Evita fricção 
 
 **Tipos problemáticos.**
 
-O desengajado. Some entre reuniões. Não lê material. Faz perguntas superficiais (Ação). Conversa 1:1 direta. "Tenho sentido menor engajamento. Precisamos recalibrar expectativa, ou buscar substituto?".
+O desengajado. Some entre reuniões. Não lê material. Faz perguntas superficiais; ação recomendada: Conversa 1:1 direta. "Tenho sentido menor engajamento. Precisamos recalibrar expectativa, ou buscar substituto?".
 
-O dominante. Fala setenta por cento do tempo em reuniões. Desencoraja outras vozes (Ação). O presidente do conselho (*chair*) ou o próprio CEO intervém com elegância em tempo real: "Obrigado pelo ponto, Ricardo. Helena, qual é a sua leitura sobre esse risco?".
+O dominante. Fala setenta por cento do tempo em reuniões. Desencoraja outras vozes; ação recomendada: O presidente do conselho (*chair*) ou o próprio CEO intervém com elegância em tempo real: "Obrigado pelo ponto, Ricardo. Helena, qual é a sua leitura sobre esse risco?".
 
 - **O obstrutivo:** bloqueia deliberações por motivos pessoais ou porque o fundo que o indicou tem interesse conflitante com o momento da companhia. Lembre na mesa a regra da Lei das S.A. (Lei 6.404/1976, arts. 154, § 1º, e 156): mesmo indicado por um acionista ou fundo específico, o conselheiro deve lealdade exclusiva à companhia e é obrigado a se abster de votar em qualquer matéria em que tenha conflito de interesses. Ação: alinhe o tema em sessão executiva com os demais membros e, se a obstrução persistir, negocie a substituição formal do representante.
 
@@ -3065,7 +3065,8 @@ O comunicado provisório compra tempo e sinaliza que há uma organização funci
 Três pessoas, decisão rápida. Mais do que isso e você perde a janela.
 
 > [!tip]
-> Monte o "kit de crise" antes de precisar: um grupo de WhatsApp com as três pessoas acima, um template de comunicado provisório já aprovado com lacunas para preencher, e uma lista de contatos de mídia do seu assessor. Isso reduz o tempo de resposta de horas para minutos.
+> Monte o "kit de crise" antes de precisar
+> um grupo de WhatsApp com as três pessoas acima, um template de comunicado provisório já aprovado com lacunas para preencher, e uma lista de contatos de mídia do seu assessor. Isso reduz o tempo de resposta de horas para minutos.
 
 ---
 
@@ -3261,7 +3262,7 @@ Assessorias de imprensa com relacionamento direto com jornalistas setoriais e cr
 ---
 
 > [!tip] Checklist de prevenção (sempre)
-> Mapa de riscos com probabilidade e impacto. Processos decisivos identificados com RTO/RPO. Runbooks para cinco a dez cenários decisivos. Tabletop trimestral cobrindo cenários diferentes. Fornecedores decisivos com plano B mapeado. Documentação viva e conhecimento compartilhado. Seguro cyber (quando aplicável). Relacionamento estabelecido com jurídico, PR e DFIR.
+> Mapa de riscos com probabilidade e impacto. Processos críticos identificados com RTO/RPO. Runbooks para cinco a dez cenários decisivos. Tabletop trimestral cobrindo cenários diferentes. Fornecedores decisivos com plano B mapeado. Documentação viva e conhecimento compartilhado. Seguro cyber (quando aplicável). Relacionamento estabelecido com jurídico, PR e DFIR.
 
 > [!tip] Checklist de resposta (quando acontece)
 > Comitê de crise reunido em 15 a 30 minutos com os quatro papéis fixos atribuídos. Contenção técnica inicial e comunicado provisório disparados na primeira hora (comunicação interna e clientes afetados antes da externa), seguidos pelo plano de contingência em até quatro horas. Fatos confirmados rigorosamente separados de hipóteses. Porta-voz único definido e equipe de engenharia blindada por silêncio tático. Registro cronológico em tempo real para seguradora e notificações regulatórias (como ANPD em até 3 dias úteis) enviadas dentro do prazo legal.
@@ -3637,6 +3638,8 @@ Os empregados são credores superprivilegiados na liquidação. Todas as verbas 
 A quitação financeira e o envio das informações no eSocial devem respeitar estritamente o prazo legal de 10 dias corridos para evitar a multa de um salário por empregado (art. 477, § 8º, da CLT) e reclamações trabalhistas imediatas.
 
 > [!warning] Dívida trabalhista é a mais cara de todas
+> Verbas trabalhistas não pagas acumulam correção monetária, juros de mora, multas da CLT e honorários advocatícios em reclamação trabalhista, além de alto risco de redirecionamento da execução contra o patrimônio pessoal dos sócios na Justiça do Trabalho. Priorize a quitação integral das rescisões antes de qualquer distribuição ou pagamento a credores quirografários.
+
 Para os contratos em vigor (aluguel de escritório, infraestrutura de nuvem, licenças de software e prestadores de serviços), faça uma planilha com o prazo de aviso prévio e a multa rescisória de cada um, negociando termos de quitação final com desconto à vista antes de encerrar a conta bancária da empresa.
 
 **Fechamento do CNPJ: o processo tributário.**
@@ -3876,7 +3879,7 @@ Se a sua empresa atravessa uma crise aguda de liquidez hoje, encare estas três 
 
 # M&A, SEARCH FUNDS, SPIN-OFFS, LIQUIDEZ SECUNDÁRIA, IPO, TRIBUTAÇÃO, PÓS-EXIT, CASH COW E FAMILY OFFICE (CAPÍTULOS 12 A 21)
 
-O bloco final percorre todas as rotas de consolidação, liquidez e perenidade do patrimônio do fundador: M&A *buy-side* e *roll-ups*, *Search Funds (ETA)*, *Spin-offs* e *Carve-outs* corporativos, Liquidez Secundária (*Secondaries*), IPO, tributação de *exit*, transição pós-M&A e retenção de talentos, lições dos *post-mortems* brasileiros, a jornada do *Second-Time Fundador* e a arquitetura da empresa Cash Cow (dividendos perpétuos) combinada à gestão de fortuna em Holdings Patrimoniais, Offshores e Family Office.
+O bloco final percorre todas as rotas de consolidação, liquidez e perenidade do patrimônio do fundador: M&A *buy-side* e *roll-ups*, *Search Funds (ETA)*, *Spin-offs* e *Carve-outs* corporativos, Liquidez Secundária (*Secondaries*), IPO, tributação de *exit*, transição pós-M&A e retenção de talentos, lições dos *post-mortems* brasileiros, a jornada do *Second-Time Founder* e a arquitetura da empresa Cash Cow (dividendos perpétuos) combinada à gestão de fortuna em Holdings Patrimoniais, Offshores e Family Office.
 
 ---
 
@@ -4337,7 +4340,8 @@ Realizar uma venda secundária planejada (Liquidez Secundária Alinhada, ou *Sec
 
 ---
 
-> [!note] Escopo prático deste capítulo: como desenhar, precificar, aprovar no conselho e tributar vendas secundárias de ações (*secondaries*) no Brasil e no exterior sem sinalizar descompromisso nem distorcer o quadro societário.
+> [!note] Escopo prático deste capítulo
+> como desenhar, precificar, aprovar no conselho e tributar vendas secundárias de ações (*secondaries*) no Brasil e no exterior sem sinalizar descompromisso nem distorcer o quadro societário.
 
 > [!abstract] Posição no livro
 > Este capítulo unifica a teoria, a mecânica global e a execução prática brasileira das operações de **Liquidez Secundária (*Secondaries*)**: a venda de participação societária já existente (*ações ou quotas*) por fundadores, executivos iniciais (*early employees*) ou investidores de estágios iniciais antes de um evento de saída total (*M&A* ou *IPO*). Conecta-se diretamente à Fase 14 e aos Capítulos de Captação e *Valuation* (no Volume 5), ao Capítulo de *Stock Options / ESOP* (no Volume 6) e à Fase 20 e ao Capítulo de Tributação do *Exit* (neste Volume 9).
@@ -5053,7 +5057,7 @@ As armadilhas financeiras mais comuns são quatro. Gastos excessivos imediatos (
 
 As opções mais comuns são seis, e a maioria dos fundadores combina duas ou três delas.
 
-Segunda empresa (*second-time fundador*): o intervalo mais saudável antes de iniciar uma nova operação executiva é de 12 a 24 meses para encerrar compromissos, descansar e validar uma tese do zero. Ver [[#CAPÍTULO 20: O FUNDADOR DE SEGUNDA VIAGEM (SECOND-TIME FOUNDER)|Capítulo 20 (Second-Time Fundador)]] e [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 2: SAÚDE MENTAL, DINÂMICA DE COFUNDADORES E HUMANIDADE DO FUNDADOR|Capítulo 2 (Saúde Mental, Dinâmica de Cofundadores e Humanidade do Fundador) (Vol. 1)]].
+Segunda empresa (*second-time founder*): o intervalo mais saudável antes de iniciar uma nova operação executiva é de 12 a 24 meses para encerrar compromissos, descansar e validar uma tese do zero. Ver [[#CAPÍTULO 20: O FUNDADOR DE SEGUNDA VIAGEM (SECOND-TIME FOUNDER)|Capítulo 20 (Second-Time Founder)]] e [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 2: SAÚDE MENTAL, DINÂMICA DE COFUNDADORES E HUMANIDADE DO FUNDADOR|Capítulo 2 (Saúde Mental, Dinâmica de Cofundadores e Humanidade do Fundador) (Vol. 1)]].
 
 Gestão de capital de risco (*venture capital*): estruturar um fundo próprio ou ingressar como sócio operacional (*operating partner* ou *general partner*) em uma gestora estabelecida. Aproveita a experiência de construção de empresas, mas exige disciplina fiduciária de gestão de portfólio em tempo integral.
 
@@ -5683,7 +5687,7 @@ O EBANX foi fundado em 2012 em Curitiba (PR) por Alphonse Voigt, Wagner Ruiz e J
 **Trajetória:**
 
 - **2012-2017**: crescimento orgânico, bootstrapped por anos. Foco em cross-border para Brasil.
-- **2018-2021**: expansão LatAm (Captações). Atingiu unicórnio.
+- **2018-2021**: expansão LatAm. Captações. Atingiu unicórnio.
 - **2021**: preparou abertura de capital nos Estados Unidos durante a janela de alta liquidez, quando reportagens de mercado estimavam avaliação potencial de vários bilhões de dólares.
 - **2022**: IPO adiado devido a condições de mercado.
 - **2022-2023**: ajustes operacionais, demissões.
@@ -5797,7 +5801,7 @@ Faça a autópsia preventiva da sua própria empresa hoje respondendo sem filtro
 
 Quatro anos depois de vender sua primeira startup e concluir integralmente o período de transição e *earn-out* ao lado de Marina, Lucas sentiu a inquietação típica de quem gosta de construir: o descanso prolongado e a rotina de investidor passivo perderam a graça, levando-o a fundar sua segunda empresa. Na primeira semana, tudo parecia fácil demais em comparação com o início duro da primeira jornada: três fundos de Venture Capital ofereceram assinar um cheque de R$ 20 milhões apenas sobre uma apresentação de slides. Cinco ex-diretores experientes aceitaram deixar seus cargos para receber salários de executivos desde o primeiro mês, e a imprensa especializada publicou perfil de lançamento antes de existir uma única linha de código. Foi exatamente essa abundância precoce que quase afundou a nova operação, fazendo um veterano repetir em escala milionária o mesmo erro de isolamento que havia cometido dez anos antes no Capítulo 1 do Volume 1. Porque tinha R$ 20 milhões no caixa no dia zero, Lucas pulou as entrevistas de descoberta de problema da Fase 4, contratou vinte e cinco engenheiros antes de validar a cunha de entrada, alugou um andar inteiro de escritório e passou catorze meses construindo a portas fechadas uma plataforma complexa que, no lançamento, nenhum cliente quis assinar. Precisou reduzir a equipe pela metade, deixar de lado o verniz de fundador consagrado e voltar para a rua aplicando o *Mom Test* e vendendo pessoalmente como no início da carreira.
 
-O grande paradoxo do empreendedor de segunda viagem (*Second-Time Fundador*) é que as suas maiores vantagens (capital acessível, reputação consolidada e rede de contatos pronta) funcionam também como armadilhas que tentam convencê-lo de que o método científico das Fases 1 a 13 já não se aplica ao seu caso.
+O grande paradoxo do empreendedor de segunda viagem (*Second-Time Founder*) é que as suas maiores vantagens (capital acessível, reputação consolidada e rede de contatos pronta) funcionam também como armadilhas que tentam convencê-lo de que o método científico das Fases 1 a 13 já não se aplica ao seu caso.
 
 Você precisa separar **A Alavanca Legítima do Veterano** da Arrogância do Atalho de Segunda Viagem: usar sua rede e capital para acelerar a velocidade dos experimentos, nunca para pular a validação da realidade.
 

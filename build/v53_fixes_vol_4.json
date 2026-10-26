@@ -1560,10 +1560,6 @@
     "newText": "- **Scenario Planning Canvas (Quadro de Planejamento de Cenários)**: variação que mapeia três cenários futuros (otimista, base e conservador, alinhados à [[IGNICAO-Vol-9-Maturidade-Exit-e-Legado#FASE 19 — GOVERNANÇA CORPORATIVA, CONSELHO E GESTÃO DE CRISE|Fase 19, Vol. 9]]) e vincula gatilhos de proteção de caixa a cada um."
   },
   {
-    "line": 1830,
-    "newText": "- Confundir mitigação com \"ter um plano B\": mitigação é ação que reduz probabilidade ou impacto antes da crise; plano B é resposta depois que a crise aconteceu.\n\n#### Canvas: Quadro Financeiro de Economia Unitária (Canvas Financeiro da Fase 12)\n\nPara consolidar em uma única folha os números auditados nos Passos 1 a 11 antes de avançar para a Fase 13, preencha o quadro resumo abaixo com os dados reais da sua operação (veja o exemplo preenchido com a virada da marca D2C de Rafael e Bia após o ajuste de janeiro):\n\n| Bloco do Canvas Financeiro | Regra de cálculo | Caso preenchido: Rafael e Bia (D2C, pós-ajuste) |\n|---|---|---|\n| **1. Tíquete Médio / ARPU Bruto e Líquido** | Preço cobrado menos tributos sobre a nota (Simples, ICMS/ISS, PIS/Cofins ou IBS/CBS) | Pedido médio subiu de R$ 100 para **R$ 168** (kit); após R$ 23,50 de impostos, Receita Líquida = **R$ 144,50** |\n| **2. Margem de Contribuição 1 e 2 (MC1 e MC2)** | Receita líquida menos CPV/COGS (MC1) e menos taxas, frete líquido e comissão (MC2) | CPV R$ 52 (MC1 = R$ 92,50); taxa R$ 7,50 + frete médio R$ 8,20 + comissão criador R$ 20,00 → **MC2 = R$ 56,80 (33,8%)** |\n| **3. CAC Completo por Canal e MC3** | Gasto total de vendas/mídia dividido por novos clientes; MC3 = MC2 − CAC no 1º pedido | CAC pago estabilizado em **R$ 32,00** → **MC3 já no 1º pedido = +R$ 24,80** (contra -R$ 15,50 na Black Friday) |\n| **4. LTV, Razão LTV/CAC e Payback** | Margem acumulada nas recompras/renovações dividida pelo CAC completo | Com 34% de recompra em 90 dias, LTV de 12 meses = **R$ 108**; **LTV/CAC = 3,4x** e **Payback imediato no 1º pedido** |\n| **5. Custos Fixos e Ponto de Equilíbrio** | Despesas fixas mensais (folha, sistemas, geral) ÷ margem de contribuição por cliente/pedido | Custos fixos de R$ 34.000/mês ÷ R$ 24,80 de MC3 = **1.371 pedidos/mês** para o equilíbrio líquido de caixa |\n| **6. Veredito Default Alive e Runway** | Saldo de caixa e meses até o equilíbrio no cenário conservador | **Default Alive** atingido em janeiro (+R$ 21,6 mil de geração líquida mensal e 14 meses de *runway* em banco) |"
-  },
-  {
     "line": 1833,
     "newText": "### Fechamento da Fase 12: da hipótese financeira à economia unitária comprovada"
   },
@@ -2853,7 +2849,7 @@
   },
   {
     "line": 4825,
-    "newText": "**Prematuro:** abaixo de R$ 5 milhões de ARR ou com menos de cinco pessoas dedicadas à receita, criar uma área formal de RevOps gera burocracia sem retorno. Nessa etapa, os próprios fundadores ou líderes comerciais mantêm o alinhamento com planilha única, agenda compartilhada e cadência disciplinada. Assinar ferramentas caras antes de consolidar o método comercial apenas infla o custo fixo."
+    "newText": "> Uma equipe comercial equipada com CRM avançado e gravadores de chamadas, mas sem roteiro de qualificação e critérios claros de passagem de bastão, converte menos do que um time enxuto operando com disciplina em uma planilha bem estruturada.\n\n**Quando ainda é cedo para criar uma área dedicada de RevOps:** abaixo de R$ 5 milhões de ARR ou com menos de cinco pessoas na operação comercial, criar um departamento formal de Revenue Operations gera custo fixo sem retorno; nessa fase, o próprio fundador ou líder de vendas deve auditar o funil semanalmente antes de contratar especialistas."
   },
   {
     "line": 4839,

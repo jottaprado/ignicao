@@ -288,8 +288,8 @@ Execute estas oito tarefas em sequência.
 
 A Fase 0 prepara a pessoa que vai empreender antes da abertura do negócio. Entre 2006 e 2010, Paul Graham dedicou ensaios específicos ao perfil de fundador que prospera em startups, ao modo de pensar que sustenta a execução e às armadilhas internas que costumam derrubar iniciantes, sintetizando padrões observados diretamente nas centenas de fundadores acompanhados nos primeiros anos do Y Combinator.
 
-> [!note] Capítulo 20 (Vol. 9): Second-Time Fundador
-> Se você já empreendeu antes, tenha vendido a empresa, fechado as portas ou ainda esteja à frente dela, a sua Fase 0 é diferente. O [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 20: O FUNDADOR DE SEGUNDA VIAGEM (SECOND-TIME FOUNDER)|Capítulo 20 (Second-Time Fundador) (Vol. 9)]] trata de como o histórico anterior muda a equação de runway, escolha de sócio, e autoconhecimento exigidos aqui.
+> [!note] Capítulo 20 (Vol. 9): Second-Time Founder
+> Se você já empreendeu antes, tenha vendido a empresa, fechado as portas ou ainda esteja à frente dela, a sua Fase 0 é diferente. O [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 20: O FUNDADOR DE SEGUNDA VIAGEM (SECOND-TIME FOUNDER)|Capítulo 20 (Second-Time Founder) (Vol. 9)]] trata de como o histórico anterior muda a equação de runway, escolha de sócio, e autoconhecimento exigidos aqui.
 
 Os três ensaios abaixo são os que mais se aplicam à decisão pessoal da Fase 0. Outros dois do mesmo autor (*Before the Startup* e *You Weren't Meant to Have a Boss*) entram resumidos no fechamento desta seção, e o mapa completo com todos os endereços está consolidado em [[#Ensaios canônicos de Paul Graham: referência consolidada|Ensaios canônicos de Paul Graham]], no final desta fase.
 
@@ -402,7 +402,7 @@ Esta seção tem três partes. Pilar A, decidir se você vai ter sócio. Pilar B
 
 Muitos negócios relevantes começaram com um único fundador, como Pierre Omidyar no eBay, Jeff Bezos na Amazon, Jan Koum no WhatsApp (antes da entrada posterior de Brian Acton), Sara Blakely na Spanx e, na jornada desta coleção, a Dra. Camila na largada de sua clínica em Belo Horizonte e Henrique em Curitiba. Empreender sozinho ou em sociedade é uma escolha de arquitetura com vantagens e custos objetivos.
 
-Entre as vantagens de empreender com sócios estão a complementaridade de competências (técnica, comercial e de domínio do setor), o compartilhamento do peso decisório nos momentos duros, a divisão do trabalho quando o caixa é curto e a maior atratividade perante investidores. Entre os custos estão a participação societária dividida (de 100% para 50% ou 33%), a necessidade de alinhamento em decisões urgentes, o esforço contínuo de coordenação e o risco de ruptura societária. Em *The Fundador's Dilemmas* (2012), onde estudou cerca de 10 mil fundadores, Noam Wasserman cita o levantamento de Gorman e Sahlman (1989) segundo o qual investidores de risco atribuíram 65% dos fracassos de startups de alto potencial a problemas de pessoas e conflitos na equipe de gestão.
+Entre as vantagens de empreender com sócios estão a complementaridade de competências (técnica, comercial e de domínio do setor), o compartilhamento do peso decisório nos momentos duros, a divisão do trabalho quando o caixa é curto e a maior atratividade perante investidores. Entre os custos estão a participação societária dividida (de 100% para 50% ou 33%), a necessidade de alinhamento em decisões urgentes, o esforço contínuo de coordenação e o risco de ruptura societária. Em *The Founder's Dilemmas* (2012), onde estudou cerca de 10 mil fundadores, Noam Wasserman cita o levantamento de Gorman e Sahlman (1989) segundo o qual investidores de risco atribuíram 65% dos fracassos de startups de alto potencial a problemas de pessoas e conflitos na equipe de gestão.
 
 **Dados que contradizem o mito do fundador solo.**
 
@@ -493,7 +493,7 @@ A terceira opção é o retiro de alinhamento: dois a três dias juntos dedicado
 6. Tratamento diferenciado: observe como a pessoa trata o garçom e como trata o CEO, ou como tratava você antes do compromisso e como passa a tratar depois.
 7. Situação familiar aguda não endereçada. Conflito conjugal grave, problema com filhos ou saúde mental não tratada na família próxima.
 8. Sinais de alerta financeiros específicos. Dívida oculta, litígio em curso, falência recente sem plano ou histórico de má gestão do próprio dinheiro.
-9. Incapacidade de receber feedback. Reage defensivamente em situações normais de decisiva construtiva.
+9. Incapacidade de receber feedback. Reage defensivamente em situações normais de crítica construtiva.
 10. Visão incompatível de trabalho. Um quer oitenta horas por semana, outro quarenta, sem conversa explícita.
 
 > [!warning] Regra dos sinais de alerta societários
@@ -1261,7 +1261,7 @@ O bloco que gerou a conversa mais importante foi Personal Goals: Bia ainda preci
 
 #### Leituras para a decisão de fundar: sociedade, psicologia do fundador e finanças pessoais
 
-*The Fundador's Dilemmas: Anticipating and Avoiding the Pitfalls That Can Sink a Startup*, de Noam Wasserman (Princeton University Press, 2012): pesquisa com cerca de 10 mil fundadores sobre quando empreender sozinho ou em sociedade, como dividir participação com *vesting* e por que o dilema entre controle e riqueza derruba times nascentes. *The E-Myth Revisited* (*O Mito do Empreendedor*), de Michael E. Gerber (1995): por que dominar a técnica de um ofício (médico, engenheiro, programador) não equivale a saber construir uma empresa que funcione sem depender de heroísmo individual. *The Hard Thing About Hard Things* (*O Lado Difícil das Situações Difíceis*), de Ben Horowitz (2014): retrato sem verniz do peso psicológico de liderar uma startup quando as coisas saem do roteiro. *Thinking, Fast and Slow* (*Rápido e Devagar: Duas Formas de Pensar*), de Daniel Kahneman (2011): base científica sobre vieses cognitivos, excesso de confiança e a diferença entre a visão interna otimista e a taxa-base estatística (*Outside View*). *Effectual Entrepreneurship*, de Stuart Read, Saras Sarasvathy, Nick Dew e Robert Wiltbank (2016): aplicação prática dos cinco princípios da *Effectuation* (começar com os próprios meios e limitar a perda aceitável). Para organizar a reserva doméstica e o orçamento de transição no contexto brasileiro, consulte os guias abertos de planejamento financeiro pessoal do Banco Central do Brasil (*Caderno de Educação Financeira: Gestão de Finanças Pessoais*) e da Planejar (Associação Brasileira de Planejamento Financeiro), além do [[#CAPÍTULO 1: DINHEIRO PESSOAL DO FUNDADOR|Capítulo 1 (Dinheiro Pessoal do Fundador)]] e do [[#CAPÍTULO 2: SAÚDE MENTAL, DINÂMICA DE COFUNDADORES E HUMANIDADE DO FUNDADOR|Capítulo 2 (Saúde Mental, Dinâmica de cofundadores e Humanidade do Fundador)]] deste volume. (As leituras de descoberta de clientes e experimentação, como *The Mom Test* e *The Lean Startup*, estão reunidas nas Fases 1, 2 e 4.)
+*The Founder's Dilemmas: Anticipating and Avoiding the Pitfalls That Can Sink a Startup*, de Noam Wasserman (Princeton University Press, 2012): pesquisa com cerca de 10 mil fundadores sobre quando empreender sozinho ou em sociedade, como dividir participação com *vesting* e por que o dilema entre controle e riqueza derruba times nascentes. *The E-Myth Revisited* (*O Mito do Empreendedor*), de Michael E. Gerber (1995): por que dominar a técnica de um ofício (médico, engenheiro, programador) não equivale a saber construir uma empresa que funcione sem depender de heroísmo individual. *The Hard Thing About Hard Things* (*O Lado Difícil das Situações Difíceis*), de Ben Horowitz (2014): retrato sem verniz do peso psicológico de liderar uma startup quando as coisas saem do roteiro. *Thinking, Fast and Slow* (*Rápido e Devagar: Duas Formas de Pensar*), de Daniel Kahneman (2011): base científica sobre vieses cognitivos, excesso de confiança e a diferença entre a visão interna otimista e a taxa-base estatística (*Outside View*). *Effectual Entrepreneurship*, de Stuart Read, Saras Sarasvathy, Nick Dew e Robert Wiltbank (2016): aplicação prática dos cinco princípios da *Effectuation* (começar com os próprios meios e limitar a perda aceitável). Para organizar a reserva doméstica e o orçamento de transição no contexto brasileiro, consulte os guias abertos de planejamento financeiro pessoal do Banco Central do Brasil (*Caderno de Educação Financeira: Gestão de Finanças Pessoais*) e da Planejar (Associação Brasileira de Planejamento Financeiro), além do [[#CAPÍTULO 1: DINHEIRO PESSOAL DO FUNDADOR|Capítulo 1 (Dinheiro Pessoal do Fundador)]] e do [[#CAPÍTULO 2: SAÚDE MENTAL, DINÂMICA DE COFUNDADORES E HUMANIDADE DO FUNDADOR|Capítulo 2 (Saúde Mental, Dinâmica de cofundadores e Humanidade do Fundador)]] deste volume. (As leituras de descoberta de clientes e experimentação, como *The Mom Test* e *The Lean Startup*, estão reunidas nas Fases 1, 2 e 4.)
 
 #### Ensaios canônicos de Paul Graham: referência consolidada
 
@@ -1323,7 +1323,8 @@ Graham mesmo indica: se tivesse que escolher uma das treze, seria a quarta (ente
 > [!important] Se houver uma única lição para aplicar hoje, releia a quarta
 > Todo o resto flui daí.
 
-> [!info] Conexões desta Fase 0: [[#FASE 1: ENCONTRAR A IDEIA|Fase 1 (Encontrar a Ideia)]], [[#CAPÍTULO 1: DINHEIRO PESSOAL DO FUNDADOR|Capítulo 1 (Dinheiro Pessoal do Fundador)]], [[#CAPÍTULO 2: SAÚDE MENTAL, DINÂMICA DE COFUNDADORES E HUMANIDADE DO FUNDADOR|Capítulo 2 (Saúde Mental, Dinâmica de cofundadores e Humanidade do Fundador)]] e [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#FASE 18: ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18 (Estruturação Jurídica, Societária e Blindagem Operacional) do Volume 8]].
+> [!info] Conexões desta Fase 0
+> [[#FASE 1: ENCONTRAR A IDEIA|Fase 1 (Encontrar a Ideia)]], [[#CAPÍTULO 1: DINHEIRO PESSOAL DO FUNDADOR|Capítulo 1 (Dinheiro Pessoal do Fundador)]], [[#CAPÍTULO 2: SAÚDE MENTAL, DINÂMICA DE COFUNDADORES E HUMANIDADE DO FUNDADOR|Capítulo 2 (Saúde Mental, Dinâmica de cofundadores e Humanidade do Fundador)]] e [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#FASE 18: ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18 (Estruturação Jurídica, Societária e Blindagem Operacional) do Volume 8]].
 
 ---
 
@@ -1889,7 +1890,7 @@ Topo (usuário): artista que quer vender produtos customizados.
 Descendo a cadeia:
 
 - Loja online customizada (custom-built → product): Shopify resolve isso bem. Commoditizar via Shopify.
-- Integração com produção sob demanda (custom-built): nossa diferenciação (Investir).
+- Integração com produção sob demanda (custom-built): nossa diferenciação, na qual vale investir.
 - Marketplace de produção (fornecedores) (genesis-to-custom): único aspecto novo, próprio.
 - Pagamento (commodity): usar Stripe/Pagar.me, não construir.
 - Infraestrutura cloud (commodity): usar AWS/GCP.
@@ -2136,7 +2137,7 @@ O segundo é despejo de consciência. Escreva tudo o que você acha que sabe sob
 
 O terceiro é a segunda passagem, estruturando em sete blocos:
 
-- **Bloco 1: Problema.** Qual problema específico existe no mundo? Descreva em três a cinco frases, sem mencionar a sua solução. Se você não consegue descrever o problema sem falar da solução, você tem uma solução em busca de problema (Perigoso). Quando possível, ancore o problema em dados públicos (estudos, relatórios, indicadores): isso evita que o problema seja "achismo do fundador" e prepara o discurso para entrevistas e captação.
+- **Bloco 1: Problema.** Qual problema específico existe no mundo? Descreva em três a cinco frases, sem mencionar a sua solução. Se você não consegue descrever o problema sem falar da solução, você tem uma solução em busca de problema, o que é perigoso. Quando possível, ancore o problema em dados públicos (estudos, relatórios, indicadores): isso evita que o problema seja "achismo do fundador" e prepara o discurso para entrevistas e captação.
 
 - **Bloco 2: Para quem.** Quem tem esse problema? Seja específico. "Pequenas empresas" não é resposta. "Donos de restaurantes com uma a três unidades em capitais brasileiras que fazem delivery próprio" é resposta. Se a sua descrição cabe em cinco palavras genéricas, você ainda não pensou o suficiente. Em ideias B2B, o "Para quem" tem quatro sub-elementos. Quem é (filtros objetivos: setor, tamanho, frequência, momento). Quem NÃO é (anti-perfil explícito, quem você descarta na primeira chamada e por quê). Decisor econômico (papel que aprova o orçamento, com pergunta de qualificação em uma frase). Champion (papel que vai operar o produto e vender internamente, com pergunta de qualificação em uma frase). Em ideias B2C, basta o primeiro mais o anti-perfil.
 
@@ -3775,7 +3776,7 @@ Construir uma empresa exige sustentar simultaneamente duas fundações humanas q
 
 Oito meses após iniciarem a operação da marca própria entre o Recife, onde Rafael lidera aquisição digital, e Goiânia, onde Bia conduz fornecedores e logística, um aperto agudo de caixa expôs o desgaste silencioso da sociedade. Nas redes sociais, a trajetória parecia impecável. Na vida real, às 4h da manhã de quinta-feira, Rafael acordava com taquicardia pela terceira vez na semana depois que um fornecedor cortou o prazo de faturamento e um funcionário-chave saiu levando clientes. Como nenhum dos dois falava do próprio esgotamento para "poupar o sócio", oito meses de medo engolido explodiram em duas horas de gritos por vídeo por causa de um simples ajuste de embalagem. Neste Capítulo 2, acompanhamos como Rafael e Bia saíram desse colapso: reconhecendo que taquicardia recorrente exige avaliação médica imediata, aplicando a nota semanal de energia no termômetro de domingo, refazendo a conversa da embalagem com o protocolo de sete passos e blindando a rotina no Espelho e no Ritual do capítulo.
 
-Ben Horowitz batizou esse abismo psicológico de **"A Luta" (*The Struggle*)**: o lugar onde o suor frio bate no estômago, onde múltiplos problemas estouram na mesma semana e onde ninguém de fora consegue decidir no seu lugar. Na frente societária, os números confirmam o peso desse desgaste: em *The Fundador's Dilemmas* (2012), ao analisar dados de cerca de 10 mil fundadores e retomar o levantamento clássico de Gorman e Sahlman (1989) com investidores de capital de risco, Noam Wasserman mostra que 65% dos fracassos em startups de alto potencial são atribuídos a falhas e conflitos de relacionamento na equipe de gestão, e não a limitações técnicas do produto.
+Ben Horowitz batizou esse abismo psicológico de **"A Luta" (*The Struggle*)**: o lugar onde o suor frio bate no estômago, onde múltiplos problemas estouram na mesma semana e onde ninguém de fora consegue decidir no seu lugar. Na frente societária, os números confirmam o peso desse desgaste: em *The Founder's Dilemmas* (2012), ao analisar dados de cerca de 10 mil fundadores e retomar o levantamento clássico de Gorman e Sahlman (1989) com investidores de capital de risco, Noam Wasserman mostra que 65% dos fracassos em startups de alto potencial são atribuídos a falhas e conflitos de relacionamento na equipe de gestão, e não a limitações técnicas do produto.
 
 Chamamos a ilusão inicial entre sócios de A Lua de Mel Sem Contrato: quando dois cofundadores dividem o quadro societário num guardanapo achando que a amizade antiga substitui o acordo de sócios formal (tema que detalharemos na seção *A Lua de Mel Sem Contrato e as bombas-relógio da mente*, mais adiante neste capítulo), adiando conversas difíceis sobre critério de divisão de participação, ritmo de trabalho, *vesting* com *cliff* e protocolos de saúde mental.
 
@@ -3865,7 +3866,7 @@ Férias: reais, pelo menos dez dias por ano, sem email. Não "férias ao lado do
 
 #### 3. Identidade além da empresa
 
-A frase "a empresa sou eu" é sinal de alarme. Empresa é o que o fundador faz, não o que o fundador é. Quando os dois se fundem, decisiva à empresa vira ataque pessoal, decepção com resultado vira colapso existencial e exit ou fechamento vira crise de identidade.
+A frase "a empresa sou eu" é sinal de alarme. Empresa é o que o fundador faz, não o que o fundador é. Quando os dois se fundem, crítica à empresa vira ataque pessoal, decepção com resultado vira colapso existencial e exit ou fechamento vira crise de identidade.
 
 Exercício: escrever dez frases "eu sou _____" sem nenhuma delas mencionar a empresa ou papel profissional. Dificuldade neste exercício é sinal de fusão identidade-empresa.
 
@@ -3916,7 +3917,7 @@ Ferramentas externas: coach executivo com experiência em dinâmicas de sócios 
 
 #### 5. Divórcio societário com dignidade
 
-Nem todo cofundador permanece. Como mostram os levantamentos de Noam Wasserman em *The Fundador's Dilemmas* (2012), é comum que pelo menos um membro do grupo fundador original deixe a operação ao longo dos primeiros anos. É comum, não é falha moral.
+Nem todo cofundador permanece. Como mostram os levantamentos de Noam Wasserman em *The Founder's Dilemmas* (2012), é comum que pelo menos um membro do grupo fundador original deixe a operação ao longo dos primeiros anos. É comum, não é falha moral.
 
 É hora de considerar separação quando há conflito estrutural que não resolve com duas a três conversas sérias, quando a visão de empresa divergiu profundamente sem reconciliação possível, quando estilos de trabalho são incompatíveis em dimensões centrais, ou quando a confiança quebrou por evento específico não reversível.
 
@@ -3975,7 +3976,7 @@ Na frente societária, **A Lua de Mel Sem Contrato** explode quando o estresse a
 
 ### Manual de emergência emocional para os 5 momentos mais duros da vida de um fundador
 
-Até aqui tratamos da saúde mental e da dinâmica entre cofundadores como disciplina contínua de rotina. Alguns dias, porém, pesam mais que meses inteiros de operação: cinco momentos decisivos atingem quase todo fundador, trazendo picos agudos de estresse, dúvida, luto ou choque de identidade que exigem protocolos específicos de contenção.
+Até aqui tratamos da saúde mental e da dinâmica entre cofundadores como disciplina contínua de rotina. Alguns dias, porém, pesam mais que meses inteiros de operação: cinco momentos críticos atingem quase todo fundador, trazendo picos agudos de estresse, dúvida, luto ou choque de identidade que exigem protocolos específicos de contenção.
 
 #### Momento 1: O primeiro "não" importante de investidor
 
@@ -4154,7 +4155,7 @@ Sinais de que está acontecendo bem: fundador consegue falar sobre a empresa sem
 
 **Etapa 6: Reintegração (6 meses a 2+ anos):**
 
-Fundador reassume vida profissional em formato novo. Pode ser: novo empreendimento (second-time fundador, [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 20: O FUNDADOR DE SEGUNDA VIAGEM (SECOND-TIME FOUNDER)|Capítulo 20 (Second-Time Fundador) (Vol. 9)]]), emprego em outra empresa (incluindo potencialmente uma que ele mesmo teria sonhado competir contra), função de investidor / advisor, pausa estruturada.
+Fundador reassume vida profissional em formato novo. Pode ser: novo empreendimento (second-time founder, [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 20: O FUNDADOR DE SEGUNDA VIAGEM (SECOND-TIME FOUNDER)|Capítulo 20 (Second-Time Founder) (Vol. 9)]]), emprego em outra empresa (incluindo potencialmente uma que ele mesmo teria sonhado competir contra), função de investidor / advisor, pausa estruturada.
 
 Psicologicamente: **nova identidade integrada**. Empresa que fechou torna-se parte do passado construtor de quem você é, não ferida aberta.
 
@@ -4214,7 +4215,7 @@ Procurar ajuda não é sinal de fraqueza. É sinal de saúde e inteligência. Fu
 
 #### Segunda chance depois de fechamento
 
-O [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 20: O FUNDADOR DE SEGUNDA VIAGEM (SECOND-TIME FOUNDER)|Capítulo 20 (Second-Time Fundador) (Vol. 9)]] (Second-Time Fundador) cobre o lado operacional da reinvenção. Aqui, o lado psicológico:
+O [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 20: O FUNDADOR DE SEGUNDA VIAGEM (SECOND-TIME FOUNDER)|Capítulo 20 (Second-Time Founder) (Vol. 9)]] (Second-Time Founder) cobre o lado operacional da reinvenção. Aqui, o lado psicológico:
 
 **Quando não empreender de novo imediatamente:**
 
@@ -4275,7 +4276,7 @@ Outros fundadores não voltaram ao empreendedorismo depois de fechamento. Padrõ
 - **Automedicação com álcool/substâncias**: anestesia curto prazo, piora médio e longo.
 - **Adiar indefinidamente busca de ajuda**: "semana que vem eu procuro terapeuta" repetido por meses.
 - **Tratar cônjuge como terapeuta**: descarregar tudo emocional em pessoa próxima sem reciprocidade leva à exaustão da relação.
-- **Decisões grandes no auge do vazio**: mudar cidade, pedir divórcio, começar empresa, fazer grande investimento financeiro nos 3-6 meses de maior turbulência emocional (Esperar).
+- **Decisões grandes no auge do vazio**: mudar cidade, pedir divórcio, começar empresa, fazer grande investimento financeiro nos 3-6 meses de maior turbulência emocional: espere a poeira baixar.
 
 #### Checklist específico para dimensão emocional do fechamento
 
@@ -4324,7 +4325,8 @@ Esses padrões são observados em fundadores diferentes, em setores diferentes, 
 
 **Princípio geral do mapa emocional.** Cada etapa da construção traz um desgaste característico. Conhecer esse padrão com antecedência ajuda em duas frentes: quando o desconforto surge dentro da faixa esperada, você o reconhece como parte transitória da travessia, quando a intensidade foge do controle, sabe que chegou a hora de acionar apoio especializado (psicólogo ou médico psiquiatra). Pedir ajuda mantém o julgamento afiado, porque um fundador exausto contrata mal, demite tarde, negocia pior e contamina o restante da equipe.
 
-> [!info] Fases e capítulos relacionados: [[#FASE 0: PREPARAÇÃO DO EMPREENDEDOR|Fase 0]], [[#CAPÍTULO 1: DINHEIRO PESSOAL DO FUNDADOR|Capítulo 1 (Dinheiro Pessoal do Fundador)]] e, no Volume 9, [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 3: DISPUTA SOCIETÁRIA E SAÍDA DE SÓCIO|Capítulo 3 (Disputa Societária)]], [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9: GESTÃO DE CRISE, CONTINUIDADE OPERACIONAL E COMUNICAÇÃO CRÍTICA|Capítulo 9 (Gestão de Crise)]], [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 11: RECUPERAÇÃO JUDICIAL E WIND-DOWN: QUANDO A STARTUP NÃO CONSEGUE CONTINUAR|Capítulo 11 (Recuperação Judicial e Wind-Down)]] e [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 20: O FUNDADOR DE SEGUNDA VIAGEM (SECOND-TIME FOUNDER)|Capítulo 20 (Second-Time Fundador)]].
+> [!info] Fases e capítulos relacionados
+> [[#FASE 0: PREPARAÇÃO DO EMPREENDEDOR|Fase 0]], [[#CAPÍTULO 1: DINHEIRO PESSOAL DO FUNDADOR|Capítulo 1 (Dinheiro Pessoal do Fundador)]] e, no Volume 9, [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 3: DISPUTA SOCIETÁRIA E SAÍDA DE SÓCIO|Capítulo 3 (Disputa Societária)]], [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9: GESTÃO DE CRISE, CONTINUIDADE OPERACIONAL E COMUNICAÇÃO CRÍTICA|Capítulo 9 (Gestão de Crise)]], [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 11: RECUPERAÇÃO JUDICIAL E WIND-DOWN: QUANDO A STARTUP NÃO CONSEGUE CONTINUAR|Capítulo 11 (Recuperação Judicial e Wind-Down)]] e [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 20: O FUNDADOR DE SEGUNDA VIAGEM (SECOND-TIME FOUNDER)|Capítulo 20 (Second-Time Founder)]].
 
 ---
 
@@ -4478,7 +4480,8 @@ Reúno a seguir os padrões de falha mais recorrentes da jornada empreendedora p
 
 Os dezoito erros listados acima são os caminhos práticos pelos quais uma equipe acaba deixando de fazer algo que os usuários querem. Reler essa lista mensalmente, com honestidade brutal, é um dos exercícios de autocorreção mais baratos à disposição do fundador.
 
-> [!info] Fases e capítulos relacionados: [[#FASE 0: PREPARAÇÃO DO EMPREENDEDOR|Fase 0]], [[#FASE 1: ENCONTRAR A IDEIA|Fase 1]], [[#FASE 2: ARTICULAÇÃO E CAPTURA DA IDEIA|Fase 2]], [[#FASE 3: CONSTRUÇÃO DA TEORIA DO NEGÓCIO|Fase 3]], [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 7: FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 7 (Vol. 3)]], [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 8: EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA E DA SOLUÇÃO|Fase 8 (Vol. 3)]] e [[#CAPÍTULO 6: TOMADA DE DECISÃO COMO DISCIPLINA|Capítulo 6 (Tomada de Decisão como Disciplina)]].
+> [!info] Fases e capítulos relacionados
+> [[#FASE 0: PREPARAÇÃO DO EMPREENDEDOR|Fase 0]], [[#FASE 1: ENCONTRAR A IDEIA|Fase 1]], [[#FASE 2: ARTICULAÇÃO E CAPTURA DA IDEIA|Fase 2]], [[#FASE 3: CONSTRUÇÃO DA TEORIA DO NEGÓCIO|Fase 3]], [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 7: FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 7 (Vol. 3)]], [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 8: EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA E DA SOLUÇÃO|Fase 8 (Vol. 3)]] e [[#CAPÍTULO 6: TOMADA DE DECISÃO COMO DISCIPLINA|Capítulo 6 (Tomada de Decisão como Disciplina)]].
 
 ---
 
@@ -4507,7 +4510,7 @@ Os dezoito erros listados acima são os caminhos práticos pelos quais uma equip
 
 Dois engenheiros formados na mesma turma da UFSC, em Florianópolis, abrem empresas de software B2B no mesmo mês e enfrentam a escolha entre velocidade de escala e controle societário. O primeiro colega levanta R$ 15 milhões em três rodadas de Venture Capital, contrata 90 pessoas, sai na imprensa e, no quinto ano, vende a companhia por R$ 80 milhões. Na planilha de liquidação, porém, após a preferência de liquidação (*liquidation preference*) de 1x com participação dos fundos sobre os R$ 15 milhões investidos e o imposto sobre ganho de capital na sua fatia diluída a 9%, sobram no seu bolso cerca de R$ 4,9 milhões líquidos. O segundo amigo cresceu com o caixa dos próprios clientes (*bootstrapping*, ou autofinanciamento) e uma equipe enxuta de 22 pessoas, distribuiu R$ 1,5 milhão por ano em dividendos a partir do terceiro ano (sujeitos, desde janeiro de 2026 pela Lei 15.270/2025, à retenção de 10% acima de R$ 50 mil mensais e ao ajuste anual de até 10%) e, no quinto ano, vendeu 80% da empresa, avaliada em R$ 35 milhões, recebendo R$ 28 milhões brutos à vista, o que equivale a cerca de R$ 23 milhões líquidos depois do imposto, além dos dividendos acumulados e dos 20% remanescentes. Diante dessas duas planilhas, Lucas e Marina escolheram uma terceira via que veremos adiante: financiar o início do produto com a receita de serviços padronizados antes de decidir se captam capital institucional.
 
-Noam Wasserman, em sua pesquisa em Harvard (*The Fundador's Dilemmas*), chamou essa escolha de dilema rico ou rei: na média estatística das empresas de tecnologia que escalam, dividir o controle com investidores tende a gerar fatias individuais mais valiosas na saída, enquanto preservar o comando absoluto costuma resultar em negócios menores. O caso dos dois colegas da UFSC ilustra a exceção decisiva que todo fundador brasileiro precisa calcular antes de marcar o primeiro café na Faria Lima: em nichos B2B de margem alta e mercado delimitado, nos quais o cheque do fundo não compra efeito de rede e apenas dilui a participação e adiciona preferência de liquidação, o autofinanciamento preserva tanto o controle quanto o patrimônio líquido do fundador.
+Noam Wasserman, em sua pesquisa em Harvard (*The Founder's Dilemmas*), chamou essa escolha de dilema rico ou rei: na média estatística das empresas de tecnologia que escalam, dividir o controle com investidores tende a gerar fatias individuais mais valiosas na saída, enquanto preservar o comando absoluto costuma resultar em negócios menores. O caso dos dois colegas da UFSC ilustra a exceção decisiva que todo fundador brasileiro precisa calcular antes de marcar o primeiro café na Faria Lima: em nichos B2B de margem alta e mercado delimitado, nos quais o cheque do fundo não compra efeito de rede e apenas dilui a participação e adiciona preferência de liquidação, o autofinanciamento preserva tanto o controle quanto o patrimônio líquido do fundador.
 
 Chamamos o erro mais recorrente do ecossistema de A Vaidade do Cheque Alheio (conceito que retomaremos no Espelho e no Ritual deste capítulo): tratar a captação de Venture Capital como troféu de validação, esquecendo que ela coloca a empresa numa esteira de crescimento forçado em que qualquer retorno abaixo de 10x a 20x o capital investido é visto pelo fundo como insuficiente.
 
@@ -4659,7 +4662,8 @@ Para alinhar sua ambição pessoal ao motor financeiro em uma tarde, aplique tr�
 > [!warning] Verdade desconfortável
 > O ecossistema brasileiro de tecnologia tem forte viés de palco para rodadas de captação: eventos, imprensa, aceleradoras e redes sociais tratam o cheque captado como medalha de sucesso. Se você escolher o autofinanciamento ou a terceira via, aceite que sua trajetória terá menos holofote nas rodas de coquetel. Em troca, você preserva o comando da empresa e frequentemente constrói um patrimônio líquido pessoal maior.
 
-> [!info] Fases e capítulos relacionados: [[#FASE 0: PREPARAÇÃO DO EMPREENDEDOR|Fase 0]], [[#CAPÍTULO 1: DINHEIRO PESSOAL DO FUNDADOR|Capítulo 1 (Dinheiro Pessoal do Fundador)]], [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 7: BOOTSTRAPPING, SERVIÇOS PRODUTIZADOS (PRODUCTIZED SERVICES) E A TRANSIÇÃO SERVICE-TO-PRODUCT|Capítulo 7 do Vol. 3 (Bootstrapping e Serviços Produtizados)]] e, no Volume 5, [[IGNICAO-Vol-5-Financas-e-Captacao#FASE 14: CAPITAL PARA ESCALA, RODADAS E EFICIÊNCIA FINANCEIRA|Fase 14]] e [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 9: CAPTAÇÃO DE EQUITY: PLANEJAMENTO DE RODADA, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulos 9 a 14]].
+> [!info] Fases e capítulos relacionados
+> [[#FASE 0: PREPARAÇÃO DO EMPREENDEDOR|Fase 0]], [[#CAPÍTULO 1: DINHEIRO PESSOAL DO FUNDADOR|Capítulo 1 (Dinheiro Pessoal do Fundador)]], [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 7: BOOTSTRAPPING, SERVIÇOS PRODUTIZADOS (PRODUCTIZED SERVICES) E A TRANSIÇÃO SERVICE-TO-PRODUCT|Capítulo 7 do Vol. 3 (Bootstrapping e Serviços Produtizados)]] e, no Volume 5, [[IGNICAO-Vol-5-Financas-e-Captacao#FASE 14: CAPITAL PARA ESCALA, RODADAS E EFICIÊNCIA FINANCEIRA|Fase 14]] e [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 9: CAPTAÇÃO DE EQUITY: PLANEJAMENTO DE RODADA, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulos 9 a 14]].
 
 ---
 
@@ -6231,7 +6235,7 @@ Pré-testar perguntas. "Essas perguntas sofrem de viés? Levam o entrevistado pa
 
 Análise de regulação. "Quais as principais regulações aplicáveis a [setor] no Brasil em 2026? Quais órgãos? Quais riscos de descumprimento?". Trate como bússola preliminar. Valide com advogado.
 
-**Estressar o Canvas da Cunha:** peça uma decisiva cética: `"Aponte as fragilidades desta cunha de entrada, mostre onde o escopo ainda está largo demais e sugira três recortes de nicho mais estreitos e urgentes dentro dela"`.
+**Estressar o Canvas da Cunha:** peça uma crítica cética: `"Aponte as fragilidades desta cunha de entrada, mostre onde o escopo ainda está largo demais e sugira três recortes de nicho mais estreitos e urgentes dentro dela"`.
 
 ### Nas Fases 7 e 8 (Experimentos): estruturando hipóteses, roteiros de teste e variações de página de captura em horas
 
@@ -6278,7 +6282,7 @@ A regra de segurança na etapa manual é inegociável: automatize a preparação
 
 **Mapeamento de segmentos adjacentes:** pergunte `"Nosso produto já apresenta retenção comprovada no segmento [ICP X], quais setores adjacentes compartilham a mesma dor operacional e quais adaptações de produto ou canal seriam necessárias para atendê-los?"`.
 
-**Preparação da apresentação de captação (*pitch*):** submeta o texto do seu *pitch deck* e peça uma decisiva rigorosa sob a ótica de três perfis (investidor *Seed*, fundo de Série A e *corporate venture*), seguida das vinte perguntas mais difíceis que a banca faria sobre suas métricas e premissas.
+**Preparação da apresentação de captação (*pitch*):** submeta o texto do seu *pitch deck* e peça uma crítica rigorosa sob a ótica de três perfis (investidor *Seed*, fundo de Série A e *corporate venture*), seguida das vinte perguntas mais difíceis que a banca faria sobre suas métricas e premissas.
 
 **Recrutamento e integração (*onboarding*):** acelere a redação inicial de descritivos de vaga, roteiros de entrevista estruturada por competências e listas de verificação para as duas primeiras semanas de novos contratados.
 
@@ -6384,7 +6388,8 @@ A regra de segurança na etapa manual é inegociável: automatize a preparação
 > [!tip] Seis ferramentas bem dominadas valem mais do que vinte assinaturas ociosas
 > Domine profundamente um conjunto enxuto de seis ferramentas antes de adicionar qualquer nova assinatura ao cartão da empresa.
 
-> [!info] Fases e capítulos relacionados: [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 4: DESCOBERTA DO PROBLEMA|Fase 4 (Volume 2)]], [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 5: PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY)|Fase 5 (Volume 2)]], [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 9: IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES|Fase 9 (Volume 3)]], [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 11: MVP E EXPERIMENTOS DE MERCADO|Fase 11 (Volume 4)]], [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 10: AI COMO PARTE DO PRODUTO (AI-NATIVE PRODUCT)|Capítulo 10 do Volume 4]] e [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 6: AI OPS E AUTOMAÇÃO INTELIGENTE|Capítulo 6 do Volume 7]].
+> [!info] Fases e capítulos relacionados
+> [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 4: DESCOBERTA DO PROBLEMA|Fase 4 (Volume 2)]], [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 5: PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY)|Fase 5 (Volume 2)]], [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 9: IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES|Fase 9 (Volume 3)]], [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 11: MVP E EXPERIMENTOS DE MERCADO|Fase 11 (Volume 4)]], [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 10: AI COMO PARTE DO PRODUTO (AI-NATIVE PRODUCT)|Capítulo 10 do Volume 4]] e [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 6: AI OPS E AUTOMAÇÃO INTELIGENTE|Capítulo 6 do Volume 7]].
 
 ---
 
@@ -6469,7 +6474,8 @@ Três armadilhas concentram a maior parte do arrependimento de fundadores com pr
 > [!tip] Antes de aceitar
 > Mapeou três a cinco programas relevantes para estágio e setor atuais? Para cada, verificou histórico de saídas nos últimos três a cinco anos? Entrou em contato com pelo menos três ex-participantes? Avaliou termos financeiros (SAFE, equity, cláusulas) com advogado? Considerou custo de tempo e localização? Preparou narrativa forte e diferenciada para aplicações (sem copy-paste)? Tem warm intro para o programa-alvo prioritário? A aplicação contempla em paralelo editais de fomento não diluitivos? Plano claro de o que fazer pós-programa? Red flags checados quanto a equity alto, cláusulas incomuns, pressão para decidir?
 
-> [!info] Fases e capítulos relacionados: [[#CAPÍTULO 9: APRESENTAÇÃO E FALA EM PÚBLICO|Capítulo 9 (Playbook de Banca de Edital)]], [[#CAPÍTULO 12: REDE, MENTORES E ADVISORS: COMO CONSTRUIR O CAPITAL HUMANO DO EMPREENDEDOR|Capítulo 12 (Rede, Mentores e Advisors)]], [[IGNICAO-Vol-5-Financas-e-Captacao#FASE 14: CAPITAL PARA ESCALA, RODADAS E EFICIÊNCIA FINANCEIRA|Fase 14]] e [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 9: CAPTAÇÃO DE EQUITY: PLANEJAMENTO DE RODADA, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulos 9]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 11: INSTRUMENTOS DE CAPTAÇÃO: SAFE, NOTA CONVERSÍVEL E MÚTUO CONVERSÍVEL|11]] e [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 12: FINANCIAMENTO NÃO DILUITIVO|12 do Volume 5]].
+> [!info] Fases e capítulos relacionados
+> [[#CAPÍTULO 9: APRESENTAÇÃO E FALA EM PÚBLICO|Capítulo 9 (Playbook de Banca de Edital)]], [[#CAPÍTULO 12: REDE, MENTORES E ADVISORS: COMO CONSTRUIR O CAPITAL HUMANO DO EMPREENDEDOR|Capítulo 12 (Rede, Mentores e Advisors)]], [[IGNICAO-Vol-5-Financas-e-Captacao#FASE 14: CAPITAL PARA ESCALA, RODADAS E EFICIÊNCIA FINANCEIRA|Fase 14]] e [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 9: CAPTAÇÃO DE EQUITY: PLANEJAMENTO DE RODADA, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulos 9]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 11: INSTRUMENTOS DE CAPTAÇÃO: SAFE, NOTA CONVERSÍVEL E MÚTUO CONVERSÍVEL|11]] e [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 12: FINANCIAMENTO NÃO DILUITIVO|12 do Volume 5]].
 
 ---
 
@@ -6582,7 +6588,8 @@ Dez erros recorrentes destroem o valor da rede de um fundador: (1) Colecionar co
 > [!tip] Antes de continuar
 > Você mapeou as **30 a 50 pessoas-chave** da sua rede atual e futura em uma planilha simples com cadência de contato a cada 60 a 90 dias? Conta com 3 a 5 mentores informais ativos acionados nos últimos noventa dias? Se formalizou de **1 a 3 conselheiros (*advisors*)**, o contrato escrito prevê *vesting* de 24 meses, *cliff* de 3 a 6 meses e extinção sem custo das opções não adquiridas? Construiu ponte de apresentação (*warm intro*) para pelo menos dez investidores ou clientes estratégicos antes de precisar pedir? Mantém pelo menos um canal de presença pública com conteúdo técnico consistente há seis meses? Praticou reciprocidade real nesta semana (aplicando a regra dos 5 minutos) e fechou o ciclo de retorno em 15 dias com quem te ajudou?
 
-> [!info] Fases e capítulos relacionados: [[#FASE 0: PREPARAÇÃO DO EMPREENDEDOR|Fase 0]] e [[#FASE 1: ENCONTRAR A IDEIA|Fase 1]], [[#CAPÍTULO 7: INFLUÊNCIA E PERSUASÃO SEM AUTORIDADE FORMAL|Capítulo 7]], [[#CAPÍTULO 8: COMUNICAÇÃO ESCRITA PARA NEGÓCIOS|Capítulo 8]], [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 5: PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY)|Fase 5 (Volume 2)]], [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 5: SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|Capítulo 5 do Volume 4]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 9: CAPTAÇÃO DE EQUITY: PLANEJAMENTO DE RODADA, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 9 do Volume 5]] e [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 12: STOCK OPTIONS E ESOP NO BRASIL|Capítulo 12 (Stock Options e ESOP) e Fase 16 do Volume 6]].
+> [!info] Fases e capítulos relacionados
+> [[#FASE 0: PREPARAÇÃO DO EMPREENDEDOR|Fase 0]] e [[#FASE 1: ENCONTRAR A IDEIA|Fase 1]], [[#CAPÍTULO 7: INFLUÊNCIA E PERSUASÃO SEM AUTORIDADE FORMAL|Capítulo 7]], [[#CAPÍTULO 8: COMUNICAÇÃO ESCRITA PARA NEGÓCIOS|Capítulo 8]], [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 5: PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY)|Fase 5 (Volume 2)]], [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 5: SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|Capítulo 5 do Volume 4]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 9: CAPTAÇÃO DE EQUITY: PLANEJAMENTO DE RODADA, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 9 do Volume 5]] e [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 12: STOCK OPTIONS E ESOP NO BRASIL|Capítulo 12 (Stock Options e ESOP) e Fase 16 do Volume 6]].
 
 ---
 

@@ -427,14 +427,14 @@ $$\\text{Alíquota Efetiva Simples} = \\frac{(\\text{RBT12} \\times \\text{Alíq
 
 Com R$ 18 milhões de faturamento anual, a empresa está fora do Simples Nacional. Vamos comparar os números exatos entre **Lucro Presumido** e **Lucro Real Anual com Lei do Bem**:
 
-1. **Opção 1: Lucro Presumido (R$ 18.000.000,00/ano):**
+1. **Opção 1: Lucro Presumido (R$ 18.000.000,00/ano, com o Adicional da LC nº 224/2025 acima de R$ 5M/ano):**
    - **PIS (0,65%) + Cofins (3,00%):** $3,65\\% \\times 18.000.000 = \\text{R\\$ } 657.000,00$
    - **ISS Municipal (2,00%):** $2,00\\% \\times 18.000.000 = \\text{R\\$ } 360.000,00$
-   - **Base Presumida de IRPJ e CSLL (32% da Receita Bruta):** $0,32 \\times 18.000.000 = \\text{R\\$ } 5.760.000,00$
-   - **IRPJ (15% + 10% adicional acima de R$ 240 mil):** $(5.760.000 \\times 0,15) + (5.520.000 \\times 0,10) = 864.000 + 552.000 = \\text{R\\$ } 1.416.000,00$
-   - **CSLL (9% sobre R$ 5.760.000):** $\\text{R\\$ } 518.400,00$
-   - **Carga Total de IRPJ + CSLL no Lucro Presumido:** $\\text{R\\$ } 1.934.400,00$
-   - **Carga Tributária Total (PIS/Cofins + ISS + IRPJ/CSLL):** $657.000 + 360.000 + 1.934.400 = \\mathbf{\\text{R\\$ } 2.951.400,00}$ (**16,40% da Receita Bruta**).
+   - **Base Presumida de IRPJ e CSLL (32% até R$ 5M + 35,2% sobre os R$ 13M excedentes pela LC nº 224/2025, que elevou em 10% os percentuais de presunção acima de R$ 5M/ano):** $(0,32 \\times 5.000.000) + (0,352 \\times 13.000.000) = 1.600.000 + 4.576.000 = \\text{R\\$ } 6.176.000,00$
+   - **IRPJ (15% + 10% adicional acima de R$ 240 mil):** $(6.176.000 \\times 0,15) + (5.936.000 \\times 0,10) = 926.400 + 593.600 = \\text{R\\$ } 1.520.000,00$
+   - **CSLL (9% sobre R$ 6.176.000):** $\\text{R\\$ } 555.840,00$
+   - **Carga Total de IRPJ + CSLL no Lucro Presumido:** $\\text{R\\$ } 2.075.840,00$
+   - **Carga Tributária Total (PIS/Cofins + ISS + IRPJ/CSLL):** $657.000 + 360.000 + 2.075.840 = \\mathbf{\\text{R\\$ } 3.092.840,00}$ (**17,18% da Receita Bruta**).
 
 2. **Opção 2: Lucro Real com Incentivo da Lei do Bem (Lei nº 11.196/2005):**
    - No Lucro Real, as empresas de desenvolvimento de software submetidas à sistemática não cumulativa de PIS/Cofins (ou nas hipóteses legais aplicáveis antes da virada plena da CBS em 2027) apuram créditos sobre insumos tecnológicos (servidores em nuvem, data centers, energia, depreciação de máquinas). Considerando PIS/Cofins líquido de créditos em R$ 1.140.000,00 e ISS de R$ 360.000,00 (total de R$ 1.500.000,00 de tributos sobre vendas):
@@ -446,14 +446,14 @@ Com R$ 18 milhões de faturamento anual, a empresa está fora do Simples Naciona
    - **Aplicação da Exclusão Adicional da Lei do Bem no LALUR/LACS:** A Lei do Bem permite excluir da base de cálculo do Lucro Real e da CSLL um percentual adicional de **60% a 80%** (podendo chegar a 100% se houver patente concedida) sobre os R$ 6.000.000,00 já gastos em PD&I! Aplicando a exclusão padrão de **60%** ($\\text{R\\$ } 6.000.000 \\times 60\\% = \\text{R\\$ } 3.600.000,00$ de exclusão extra no LALUR):
      $$\\text{Lucro Real Tributável após Lei do Bem} = \\text{R\\$ } 1.000.000,00 - \\text{R\\$ } 3.600.000,00 = \\mathbf{\\text{R\\$ } 0,00}$$
    - Como a exclusão da Lei do Bem é limitada ao próprio lucro real do período (não gerando prejuízo fiscal transportável na parcela do benefício, salvo regras específicas de dispêndios), a base tributável de IRPJ e CSLL no ano cai para **ZERO (R$ 0,00)**!
-   - **IRPJ e CSLL a pagar no Lucro Real com Lei do Bem:** **R$ 0,00** (contra R$ 1.934.400,00 no Lucro Presumido!).
-   - **Carga Tributária Total no Lucro Real:** Apenas os tributos indiretos ($\\text{R\\$ } 1.500.000,00$, ou **8,33% da Receita Bruta**), gerando uma **economia líquida de caixa de R$ 1.451.400,00 por ano** para a companhia.
+   - **IRPJ e CSLL a pagar no Lucro Real com Lei do Bem:** **R$ 0,00** (contra R$ 2.075.840,00 no Lucro Presumido sob a LC 224/2025!).
+   - **Carga Tributária Total no Lucro Real:** Apenas os tributos indiretos ($\\text{R\\$ } 1.500.000,00$, ou **8,33% da Receita Bruta**), gerando uma **economia líquida de caixa de R$ 1.592.840,00 por ano** para a companhia.
 
 | Regime Tributário (Cenário B: R$ 18M/ano) | Tributos Indiretos (R$) | IRPJ + CSLL (R$) | Carga Total Anual (R$) | % sobre Receita Bruta |
 | :--- | :--- | :--- | :--- | :--- |
-| **Lucro Presumido** | 1.017.000 | 1.934.400 | **2.951.400** | **16,40%** |
+| **Lucro Presumido (c/ LC 224/2025 > R$ 5M)** | 1.017.000 | 2.075.840 | **3.092.840** | **17,18%** |
 | **Lucro Real + Lei do Bem (60% exclusão)** | 1.500.000 | **0** | **1.500.000** | **8,33%** |
-| **Economia Anual de Caixa no Lucro Real** | +483.000 | -1.934.400 | **-1.451.400 (Economia)** | **-8,07 p.p.** |
+| **Economia Anual de Caixa no Lucro Real** | +483.000 | -2.075.840 | **-1.592.840 (Economia)** | **-8,85 p.p.** |
 
 ##### Resolução da Tarefa 3: Impacto da Reforma Tributária do Consumo (CBS e IBS em 2026 e 2027)
 
@@ -972,7 +972,7 @@ Aplicar os princípios da Netflix no Brasil de outubro de 2026 exige adaptar a f
 
 ---
 
-### Case 6.3: Nubank & Creditas (Brasil): Transição para Executivos Globais (C-Level) e Estruturação de Stock Options após o Tema 1.226 do STJ
+### Case 6.3: Nubank & Creditas (Brasil): Transição para Executivos Globais (C-Level) e Estruturação de Stock Options após os Temas 1.226 e 1.379 do STJ
 
 #### 1. Contexto e o Problema Real
 
@@ -996,18 +996,18 @@ A engenharia de talentos e incentivos societários aplicada pelo Nubank (que ati
 
 - **Contratação Antecipada de C-Level Global (*Hiring Ahead of the Curve*) com foco em Remuneração em Equity:** Desde os primeiros anos, David Vélez dedicava até 40% do seu tempo pessoal a recrutar talentos globais (trazendo executivos como Jag Duggal, ex-diretor de produto do Google e da Quantcast; Matt Swann, ex-VP da Amazon e CTO do Booking.com; e Youssef Lahrech, ex-Capital One, que viria a ser Presidente e COO do Nubank). Como a startup não podia competir dólar por dólar no salário fixo em caixa com as *Big Techs* americanas na fase pré-IPO, a equação financeira oferecia um salário fixo digno somado a uma **outorga expressiva de *Stock Options* / RSUs** com horizonte de *vesting* de 4 a 5 anos. Quando o Nubank abriu capital na NYSE, dezenas de engenheiros, gerentes de produto e executivos que apostaram no *equity* da companhia acumularam patrimônio milionário, provando ao mercado brasileiro que o *equity* de uma startup de alto crescimento valia muito mais que o bônus anual de um banco tradicional.
 - **Gestão do Ego na Camada Acima (*Layering Over* com Transparência):** Quando um gerente inicial que cuidava de 15 pessoas não tinha ainda a bagagem para liderar uma área de 200 pessoas, em vez de demiti-lo ou deixá-lo quebrar a área, a liderança contratava um VP global experiente acima dele e posicionava o talento original para liderar uma vertical crítica sob mentoria direta desse VP, condicionando o sucesso do novo executivo à sua capacidade de desenvolver a equipe local e não apenas importar jargões estrangeiros.
-- **Estruturação Mercantil Estrita do ESOP e a Vitória Histórica no Tema 1.226 do STJ (Setembro de 2024):** Em setembro de 2024, a Primeira Seção do **Superior Tribunal de Justiça (STJ)** julgou sob o rito dos recursos repetitivos (vinculante para todo o país e para o CARF) o **Tema Repetitivo nº 1.226**, pacificando em definitivo que **o regime de *Stock Option Plan* (Plano de Opção de Compra de Ações) possui natureza estritamente MERCANTIL (afastando a qualificação salarial/remuneratória)**, desde que contenha os três elementos estruturais do negócio jurídico mercantil:
+- **Estruturação Mercantil Estrita do ESOP e as Vitórias Históricas nos Temas 1.226 (Setembro de 2024) e 1.379 (Outubro de 2026) do STJ:** Em setembro de 2024, a Primeira Seção do **Superior Tribunal de Justiça (STJ)** julgou sob o rito dos recursos repetitivos o **Tema Repetitivo nº 1.226** (referente ao IRPF) e, em **14 de outubro de 2026**, consolidou a proteção previdenciária no **Tema Repetitivo nº 1.379** (afastando em definitivo a incidência de contribuições previdenciárias/INSS sobre *stock options*), pacificando que **o regime de *Stock Option Plan* (Plano de Opção de Compra de Ações) possui natureza estritamente MERCANTIL (afastando a qualificação salarial/remuneratória)**, desde que contenha os três elementos estruturais do negócio jurídico mercantil:
   1. **Voluntariedade (Adesão Opcional):** O colaborador assina o contrato de outorga por livre vontade, sem imposição compulsória.
   2. **Onerosidade (Preço de Exercício Real / *Strike Price*):** O colaborador não recebe a ação de graça; para adquirir a ação após cumprir o prazo de *cliff* e *vesting*, ele precisa **pagar do próprio bolso um Preço de Exercício (*Strike Price*)** fixado com base em critério econômico justo na data da outorga (como o valor patrimonial contábil por ação, laudo de avaliação independente ou valor da rodada recente ajustado).
   3. **Risco de Mercado (*Alea* / Risco Cambial e de Desvalorização):** Como o beneficiário desembolsa dinheiro para comprar a ação pelo preço de exercício, ele assume o risco real de mercado de as ações subirem ou caírem de valor.
 
-Com o julgamento vinculante do **Tema 1.226 do STJ**, ficou estabelecido em todo o Brasil que: (a) **não incide IRPF nem INSS na outorga (*grant*) nem no exercício da opção (*exercise* / compra das ações pelo *strike price*)**; e (b) **o imposto incide única e exclusivamente no momento futuro em que o colaborador VENDER efetivamente suas ações com lucro para terceiros (evento de liquidez / M&A / IPO)**, tributado pela alíquota reduzida de **Ganho de Capital (15% para ganhos até R$ 5 milhões, escalonando até 22,5% acima de R$ 30 milhões)** sobre a diferença entre o valor de venda e o preço de exercício pago!
+Com os julgamentos vinculantes dos **Temas 1.226 (IRPF) e 1.379 (INSS) do STJ**, ficou estabelecido em todo o Brasil que: (a) **não incide IRPF nem contribuição previdenciária (INSS) na outorga (*grant*) nem no exercício da opção (*exercise* / compra das ações pelo *strike price*)**; e (b) **o imposto incide única e exclusivamente no momento futuro em que o colaborador VENDER efetivamente suas ações com lucro para terceiros (evento de liquidez / M&A / IPO)**, tributado pela alíquota reduzida de **Ganho de Capital (15% para ganhos até R$ 5 milhões, escalonando até 22,5% acima de R$ 30 milhões)** sobre a diferença entre o valor de venda e o preço de exercício pago!
 
 #### 4. Tradução para a Realidade Brasileira em Outubro de 2026
 
 Em outubro de 2026, todo fundador brasileiro que estrutura um programa de incentivo de longo prazo para seus colaboradores e executivos deve seguir o protocolo binário consagrado pela jurisprudência do STJ e pela legislação vigente:
 
-| Característica Estrutural | Stock Options Mercantil (Padrão Tema 1.226 STJ) | Opções com Strike R$ 0,01 / RSUs / Phantom Shares |
+| Característica Estrutural | Stock Options Mercantil (Padrão Temas 1.226 e 1.379 STJ) | Opções com Strike R$ 0,01 / RSUs / Phantom Shares |
 | :--- | :--- | :--- |
 | **Preço de Exercício (*Strike Price*)** | Preço real de avaliação na data da outorga (ex.: R$ 10,00/ação) | Gratuito ou simbólico (R$ 0,00 ou R$ 0,01) |
 | **Risco Financeiro do Colaborador** | Sim (onerosidade + risco de mercado ao comprar a ação) | Não há desembolso relevante do colaborador |
@@ -1352,13 +1352,13 @@ Com **50 clínicas franqueadas** faturando R$ 160.000,00/mês cada, o **GMV (Fat
 
 ---
 
-### Exercício 6.4: Estruturação de Outorga de Stock Options (ESOP) e Cálculo de Ganho Líquido do Colaborador (Tema 1.226 do STJ)
+### Exercício 6.4: Estruturação de Outorga de Stock Options (ESOP) e Cálculo de Ganho Líquido do Colaborador (Temas 1.226 e 1.379 do STJ)
 
 #### 1. Enunciado e Dados do Caso
 
 A **FinCore Banking Tech S.A.** acabou de concluir sua rodada Série A em outubro de 2026, sendo avaliada em **R$ 80.000.000,00 Post-Money**, com o capital social dividido em exatas **10.000.000 de ações** (portanto, o preço pago pelos investidores da Série A por cada ação preferencial foi de $\\frac{\\text{R\\$ } 80.000.000}{10.000.000} = \\mathbf{\\text{R\\$ } 8,00\\text{ por ação}}$).
 
-O Conselho de Administração aprovou um **Pool de Opções de Compra de Ações (ESOP) de 10,00% do Cap Table** (**1.000.000 de opções de ações ordinárias**) para atrair e reter executivos e engenheiros-chave pelos próximos 4 anos, estruturado estritamente sob os requisitos de **natureza mercantil do Tema Repetitivo nº 1.226 do Superior Tribunal de Justiça (STJ)**:
+O Conselho de Administração aprovou um **Pool de Opções de Compra de Ações (ESOP) de 10,00% do Cap Table** (**1.000.000 de opções de ações ordinárias**) para atrair e reter executivos e engenheiros-chave pelos próximos 4 anos, estruturado estritamente sob os requisitos de **natureza mercantil dos Temas Repetitivos nº 1.226 e nº 1.379 do Superior Tribunal de Justiça (STJ)**:
 - **Preço de Exercício (*Strike Price*) Oneroso:** Fixado por laudo de avaliação contábil/econômica independente das ações ordinárias (com deságio técnico de iliquidez e ausência de preferência de liquidação das ações ordinárias frente às preferenciais da Série A) em **R$ 4,00 por ação**, reajustado anualmente pelo IPCA (para simplificação do exercício, considere o *Strike Price* nominal fixo de **R$ 4,00 por ação**).
 - **Cronograma Padrão de *Vesting* (4 anos com *Cliff* de 1 ano):**
   - Prazo total de aquisição de direitos (*Vesting*): **48 meses (4 anos)**;
@@ -1373,7 +1373,7 @@ O CEO contratou **Lucas**, um **VP de Engenharia**, concedendo a ele uma outorga
    - O valor bruto das 120.000 ações de Lucas no *Exit*;
    - O valor total do Preço de Exercício (*Strike Price*) descontado via mecanismo de *Cashless Exercise* no ato da venda;
    - O Ganho de Capital Tributável, o **Imposto de Renda sobre Ganho de Capital** devido por Lucas (aplicando a tabela progressiva de Ganho de Capital do art. 21 da Lei nº 8.981/1995 alterada pela Lei nº 13.259/2016: 15% até R$ 5 milhões) e o **Valor Líquido Final depositado na conta bancária pessoal de Lucas**;
-   - Compare quanto a empresa e Lucas economizaram em tributos (INSS Patronal + IRPF 27,5%) graças ao enquadramento mercantil do **Tema 1.226 do STJ** em comparação com um bônus salarial ou *Phantom Stock* mal estruturado.
+   - Compare quanto a empresa e Lucas economizaram em tributos (INSS Patronal + IRPF 27,5%) graças ao enquadramento mercantil dos **Temas 1.226 e 1.379 do STJ** em comparação com um bônus salarial ou *Phantom Stock* mal estruturado.
 
 ---
 
@@ -1412,7 +1412,7 @@ No Mês 48, Lucas possui **100% das suas 120.000 opções *vested***. Na venda d
 5. **(=) Dinheiro Líquido Final no Bolso de Lucas (após Strike Price e Imposto de Renda):**
    $$\\text{Valor Líquido Final no Bolso} = \\text{R\\$ } 4.320.000,00 - \\text{R\\$ } 648.000,00 = \\mathbf{\\text{R\\$ } 3.672.000,00}$$
 
-| Comparativo de Eficiência Tributária no Exit (Ganho de R$ 4,32M) | Stock Options Mercantil (Tema 1.226 STJ) | Bônus em Folha / Opção R$ 0,01 Salarial | Economia Gerada pelo Modelo Mercantil |
+| Comparativo de Eficiência Tributária no Exit (Ganho de R$ 4,32M) | Stock Options Mercantil (Temas 1.226 e 1.379 STJ) | Bônus em Folha / Opção R$ 0,01 Salarial | Economia Gerada pelo Modelo Mercantil |
 | :--- | :--- | :--- | :--- |
 | **INSS Patronal + RAT + Terceiros (~28%) e FGTS pago pela Empresa** | **R$ 0,00** | ~R$ 1.555.200,00 (Encargos s/ R$ 4,32M) | **+R$ 1.555.200,00 para a Empresa** |
 | **Imposto de Renda pago pelo Executivo (Lucas)** | **R$ 648.000,00 (15% Ganho Capital)** | ~R$ 1.188.000,00 (27,5% IRPF Tabela) | **+R$ 540.000,00 para o Executivo** |

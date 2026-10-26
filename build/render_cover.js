@@ -232,7 +232,7 @@ function buildHtml(c) {
   </div>
   <div class="bottom">
     <div class="author">João Prado</div>
-    <div class="meta">2026 · v5.1 · EDIÇÃO NARRATIVA ENXUTA</div>
+    <div class="meta">2026 · v5.3 · EDIÇÃO REVISADA E ATUALIZADA</div>
   </div>
 </body>
 </html>`;

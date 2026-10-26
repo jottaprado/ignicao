@@ -260,28 +260,76 @@
     "newText": "Empresas que tentam arrumar a casa enquanto abrem três praças simultaneamente multiplicam o custo do retrabalho e destroem o SLA da base atual."
   },
   {
+    "line": 377,
+    "newText": ""
+  },
+  {
     "line": 378,
-    "newText": "### O Espelho de Andy Grove: autodiagnóstico de saída da Fase 17 (sua empresa funciona porque você empurra ou porque o sistema puxa?)"
+    "newText": ""
+  },
+  {
+    "line": 379,
+    "newText": ""
   },
   {
     "line": 380,
-    "newText": "Três semanas após a sexta-feira em que três deploys simultâneos deixaram 410 clientes corporativos sem conciliação bancária às 19h40 e geraram 180 chamados urgentes em duas horas, a rotina na empresa de Lucas e Marina já operava em outro patamar. Com testes de contrato travando alterações incompatíveis no faturamento em São Paulo, janela coordenada de liberação e uma WBR de 60 minutos conduzida toda segunda-feira às 9h com Marina em Florianópolis, os chamados críticos de conciliação caíram da média de 45 por mês para menos de 8."
+    "newText": ""
+  },
+  {
+    "line": 381,
+    "newText": ""
   },
   {
     "line": 382,
-    "newText": "Feche a planilha de metas e responda sobre a operação da sua empresa hoje:"
+    "newText": ""
+  },
+  {
+    "line": 383,
+    "newText": ""
+  },
+  {
+    "line": 384,
+    "newText": ""
+  },
+  {
+    "line": 385,
+    "newText": ""
+  },
+  {
+    "line": 386,
+    "newText": ""
+  },
+  {
+    "line": 387,
+    "newText": ""
   },
   {
     "line": 388,
-    "newText": "**Regra de Sobrevivência:** Processo bom é o trilho mínimo que deixa gente talentosa decidir rápido sem pedir bênção."
+    "newText": ""
+  },
+  {
+    "line": 389,
+    "newText": ""
   },
   {
     "line": 390,
-    "newText": "**O Ritual de Segunda-Feira às 9h:** Cancele as reuniões recorrentes de status sem pauta escrita e substitua a reunião geral de liderança de segunda-feira (Passo 1) por uma Weekly Business Review (WBR, detalhada no manual desta fase) de 60 minutos, guiada exclusivamente por desvios nas métricas antecedentes e encerrada com plano de ação, dono nominal e prazo."
+    "newText": ""
+  },
+  {
+    "line": 391,
+    "newText": ""
+  },
+  {
+    "line": 392,
+    "newText": ""
+  },
+  {
+    "line": 394,
+    "newText": "### MANUAL PASSO A PASSO DOS FRAMEWORKS (FASE 17)"
   },
   {
     "line": 397,
-    "newText": "### MANUAL PASSO A PASSO DOS FRAMEWORKS (FASE 17)"
+    "newText": "> Os frameworks abaixo reúnem origem, estrutura, passo a passo de aplicação, exemplos aplicados ao contexto brasileiro (incluindo os arquétipos desta coleção) e armadilhas para execução imediata nesta **Fase 17**."
   },
   {
     "line": 399,
@@ -674,6 +722,10 @@
   {
     "line": 1658,
     "newText": "| 1,0 | Entrega integral: obrigatória nos OKRs comprometidos; se for recorrente nos aspiracionais, suba a barra. |\n"
+  },
+  {
+    "line": 1668,
+    "newText": "### O Espelho de Andy Grove: autodiagnóstico de saída da Fase 17 (sua empresa funciona porque você empurra ou porque o sistema puxa?)\n\nTrês semanas após a sexta-feira em que três deploys simultâneos deixaram 410 clientes corporativos sem conciliação bancária às 19h40 e geraram 180 chamados urgentes em duas horas, Lucas e Marina aplicaram este diagnóstico na própria rotina: descobriram que ainda concentravam a aprovação manual de cada pacote de produção e gastavam onze horas por semana em reuniões de status sem pauta escrita.\n\nFeche a planilha de metas e responda sobre a operação da sua empresa hoje:\n\n1. **O Teste das Férias de 15 Dias:** Se você e seus cofundadores ficarem duas semanas incomunicáveis a partir de amanhã, os processos decisivos (vendas, entrega, suporte N2, faturamento e deploy) continuam rodando no mesmo padrão de qualidade ou a empresa para esperando aprovação no WhatsApp?\n2. **A Auditoria da Agenda:** Quantas horas da sua última semana foram gastas em reuniões de acompanhamento onde as pessoas apenas leram números em voz alta, em vez de debater desvios de meta e tomar decisões que mudam a semana seguinte?\n3. **O Dono do Gargalo:** Para cada uma das cinco métricas principais da sua empresa hoje, existe uma única pessoa formalmente responsável pelo resultado, ou a responsabilidade está diluída entre dois ou três líderes?\n\n**Regra de Sobrevivência:** Processo bom é o trilho mínimo que deixa gente talentosa decidir rápido sem pedir bênção.\n\n**O Ritual de Segunda-Feira às 9h:** Cancele as reuniões recorrentes de status sem pauta escrita e substitua a reunião geral de liderança de segunda-feira por uma *Weekly Business Review (WBR)* de 60 minutos: 15 minutos de leitura silenciosa do placar de métricas de entrada e saída no início da sessão, seguidos de 45 minutos focados exclusivamente nas métricas que saíram da faixa esperada e nas ações corretivas com responsável e prazo.\n\n---"
   },
   {
     "line": 1669,
@@ -1498,6 +1550,10 @@
   {
     "line": 2930,
     "newText": "Revisão de código rigorosa: antes de aprovar o merge, avalie se a mudança introduz dívida técnica nova e registre o prazo de pagamento."
+  },
+  {
+    "line": 2932,
+    "newText": "Testes automatizados na esteira de integração contínua (CI/CD), prevenindo regressões a cada nova entrega."
   },
   {
     "line": 2934,

@@ -66,7 +66,7 @@ const TARGETS = manifest
       input: 'build/manuscrito_preprocessado.md',
       output: 'build/IGNICAO.epub',
       title: 'IGNIÇÃO',
-      subtitle: 'O manual operacional do empreendedor brasileiro (Edição Completa — 11 Volumes)',
+      subtitle: 'O manual operacional do empreendedor brasileiro (Edição Completa: 11 Volumes)',
       cover: 'build/cover.png',
     },
   ]);

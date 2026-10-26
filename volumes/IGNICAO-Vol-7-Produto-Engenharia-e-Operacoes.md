@@ -85,7 +85,7 @@ Quando a operação passa de uma única equipe para múltiplas squads e milhares
 
 ### O imposto da osmose quebrada e a fábrica da sua empresa
 
-Quatrocentos e dez clientes corporativos ficaram sem conciliação bancária às 19h40 de uma sexta-feira porque três squads subiram código no mesmo módulo de faturamento sem avisar ninguém. Enquanto Marina saía da sétima reunião seguida de alinhamento que terminou sem decisão em Florianópolis, a engenharia coordenada por Lucas em São Paulo disparou as três atualizações simultâneas: a equipe de Sucesso do Cliente ficou no escuro, o motor de conciliação travou e o suporte técnico acumulou 180 chamados urgentes em duas horas (quatro vezes a média mensal de 45 chamados decisivos da operação). Quando a empresa tinha quatorze pessoas e um único canal de conversa no Slack, tudo funcionava por osmose: bastava levantar a cabeça do monitor e fazer uma pergunta. Com oitenta e cinco pessoas, a mesma informalidade que antes parecia velocidade virou sabotagem mútua.
+Quatrocentos e dez clientes corporativos ficaram sem conciliação bancária às 19h40 de uma sexta-feira porque três squads subiram código no mesmo módulo de faturamento sem avisar ninguém. Enquanto Marina saía da sétima reunião seguida de alinhamento que terminou sem decisão em Florianópolis, a engenharia coordenada por Lucas em São Paulo disparou as três atualizações simultâneas: a equipe de Sucesso do Cliente ficou no escuro, o motor de conciliação travou e o suporte técnico acumulou 180 chamados urgentes em duas horas (quatro vezes a média mensal de 45 chamados críticos da operação). Quando a empresa tinha quatorze pessoas e um único canal de conversa no Slack, tudo funcionava por osmose: bastava levantar a cabeça do monitor e fazer uma pergunta. Com oitenta e cinco pessoas, a mesma informalidade que antes parecia velocidade virou sabotagem mútua.
 
 O paradoxo da escala raramente aparece nos palcos de empreendedorismo: os hábitos heroicos de improviso que salvaram a sua startup na fase de tração são os mesmos vícios que destroem a operação na fase de maturidade. Andy Grove ensinava na Intel que toda empresa funciona como uma fábrica e que a produção de um gestor é a produção da sua organização somada à das áreas que ele influencia.
 
@@ -123,7 +123,7 @@ flowchart TD
 > Em escala, a pilha operacional exige a mesma disciplina arquitetural da pilha de produto. Respeite o teto de 15 a 20 ferramentas ativas na fase de escala, consolidando as escolhas conforme a tabela do Passo 4: OKRs e gestão de projetos (Notion, Linear, Jira ou Asana), documentação interna (Notion, Confluence ou GitBook), comunicação e vídeo (Slack, Microsoft Teams, Google Meet ou Zoom), recrutamento, RH e folha (Gupy ou InHire para vagas, Sólides, Factorial ou Convenia para gestão de pessoas e DP), financeiro e ERP no Brasil (Conta Azul, Omie ou Nibo no pós-PMF, Sankhya, Totvs ou NetSuite na escala, reservando QuickBooks para subsidiárias no exterior), analytics e dados (PostHog, Amplitude ou Mixpanel sobre BigQuery ou Snowflake) e CRM (HubSpot, Pipedrive, Attio ou Salesforce).
 
 > [!note] Entregáveis e critérios de entrada da Fase 17
-> **Escopo e critérios da Fase 17:** estruturar o sistema de OKRs (de 3 a 5 objetivos trimestrais, com 2 a 4 resultados-chave por objetivo), a cadência semanal e mensal de reuniões, o manual de processos decisivos e a pilha enxuta de ferramentas de gestão. Comece quando a equipe passa de 15 pessoas ou quando falhas de comunicação passam a gerar mais atrito do que velocidade. Conclua quando os cinco processos mais decisivos estiverem documentados, os dez donos nomeados, os rituais rodando no calendário e a pilha estabilizada em 15 a 20 ferramentas, revisitando a arquitetura a cada 6 a 9 meses. Responsáveis: CEO, liderança de operações (ou *Chief of Staff*) e líderes de área.
+> **Escopo e critérios da Fase 17:** estruturar o sistema de OKRs (de 3 a 5 objetivos trimestrais, com 2 a 4 resultados-chave por objetivo), a cadência semanal e mensal de reuniões, o manual de processos críticos e a pilha enxuta de ferramentas de gestão. Comece quando a equipe passa de 15 pessoas ou quando falhas de comunicação passam a gerar mais atrito do que velocidade. Conclua quando os cinco processos mais decisivos estiverem documentados, os dez donos nomeados, os rituais rodando no calendário e a pilha estabilizada em 15 a 20 ferramentas, revisitando a arquitetura a cada 6 a 9 meses. Responsáveis: CEO, liderança de operações (ou *Chief of Staff*) e líderes de área.
 
 ### Os Sete Passos da Engenharia do Ritmo: Cadência, OKRs, Processos e Pós-Mortems
 
@@ -174,7 +174,7 @@ Owner: [uma pessoa responsável, não um time]
 > [!note]
 > Estruturação de onboarding 30/60/90, wikis e runbooks, a infraestrutura de conhecimento que torna os playbooks consultáveis, está no [[#CAPÍTULO 8: GESTÃO DO CONHECIMENTO|Capítulo 8: Gestão do Conhecimento]].
 
-Toda empresa possui fluxos que, quando quebram, geram dano imediato ao cliente ou ao caixa. Mapeie os dez processos decisivos típicos da operação: (1) integração (*onboarding*) de novo cliente, (2) faturamento, conciliação e cobrança (incluindo régua de inadimplência), (3) suporte técnico com SLA por nível de severidade, (4) desenvolvimento e liberação de funcionalidades (da descoberta ao deploy), (5) resposta a incidentes quando o sistema cai, (6) integração de novos colaboradores (plano 30/60/90), (7) desligamento (*offboarding*) com revogação imediata de acessos, (8) contratação de profissionais seniores e lideranças, (9) revisão de oportunidades comerciais complexas (*deal review*), e (10) renovação contratual e prevenção de cancelamento (*churn*).
+Toda empresa possui fluxos que, quando quebram, geram dano imediato ao cliente ou ao caixa. Mapeie os dez processos críticos típicos da operação: (1) integração (*onboarding*) de novo cliente, (2) faturamento, conciliação e cobrança (incluindo régua de inadimplência), (3) suporte técnico com SLA por nível de severidade, (4) desenvolvimento e liberação de funcionalidades (da descoberta ao deploy), (5) resposta a incidentes quando o sistema cai, (6) integração de novos colaboradores (plano 30/60/90), (7) desligamento (*offboarding*) com revogação imediata de acessos, (8) contratação de profissionais seniores e lideranças, (9) revisão de oportunidades comerciais complexas (*deal review*), e (10) renovação contratual e prevenção de cancelamento (*churn*).
 
 Nomeie agora um único responsável para cada um dos dez processos e escreva imediatamente o playbook dos cinco que mais doem quando quebram (os outros cinco ganham playbook no trimestre seguinte). Cada documento deve ser redigido em texto simples e conter: dono nominal do processo, passo a passo numerado, SLA por etapa, ferramentas utilizadas, exceções conhecidas e métrica de qualidade. Na empresa de Lucas e Marina, o primeiro playbook escrito após o incidente de sexta-feira foi o de janela coordenada de deploy e conciliação de faturamento.
 
@@ -276,7 +276,7 @@ A Fase 17 está concluída quando os seis critérios abaixo estão cumpridos.
 
 1. Cadência de gestão (semanal, trimestral, anual) está formalizada, e rodando há dois ou mais trimestres. Aderência (reuniões acontecendo na data, com agenda e ata) ≥90%.
 2. OKRs estão em uso com pontuação trimestral, separando metas comprometidas (orçamento, caixa e SLAs, que exigem 100% de entrega) de metas aspiracionais (nas quais atingimento entre 60% e 70%, ou 0,6 a 0,7, indica ambição bem calibrada).
-3. Os cinco processos que mais doem quando quebram têm playbook escrito e testado, e os dez processos decisivos têm dono nominal definido. Decisões estruturais (que afetam 10 ou mais pessoas ou envolvem custo a partir de R$ 100 mil) contam com RFC escrito em pelo menos 80% dos casos.
+3. Os cinco processos que mais doem quando quebram têm playbook escrito e testado, e os dez processos críticos têm dono nominal definido. Decisões estruturais (que afetam 10 ou mais pessoas ou envolvem custo a partir de R$ 100 mil) contam com RFC escrito em pelo menos 80% dos casos.
 4. Pilha operacional estabilizada e integrada (teto de 15 a 20 ferramentas ativas na escala, substituindo soluções provisórias das fases iniciais sem sobreposição de função).
 5. Infraestrutura mínima de dados em operação (fonte única de verdade e painel executivo confiável).
 6. Pós-mortems sem culpa (*blameless post-mortems*) estão instituídos na rotina, com tempo médio de recuperação (MTTR) abaixo de 1 hora para incidentes P0, abaixo de 4 horas para P1 e abaixo de 24 horas para P2.
@@ -305,12 +305,12 @@ A Fase 17 está concluída quando os seis critérios abaixo estão cumpridos.
 
 1. Conduza a sessão de OKRs para o próximo trimestre, definindo de 3 a 5 objetivos para a empresa acompanhados de 2 a 4 resultados-chave (KRs) por objetivo.
 2. Estruture um painel central no Notion ou no Looker contendo a métrica North Star e de 5 a 7 métricas secundárias com dados atualizados diariamente e lidos toda semana na WBR.
-3. Liste os processos decisivos ainda sem documentação e escolha os dois mais urgentes para documentar nesta semana.
+3. Liste os processos críticos ainda sem documentação e escolha os dois mais urgentes para documentar nesta semana.
 4. Audite todas as assinaturas de SaaS ativas, cancele ferramentas redundantes e consolide acessos dentro do teto de 15 a 20 sistemas.
 
 ### EXEMPLO PRÁTICO (Operações)
 
-**OKRs do 3º trimestre na scaleup de Lucas e Marina (pós-incidente do motor de conciliação):** O1: Tornar o faturamento e a conciliação imunes a falhas de deploy (KR1: zero incidentes P0 ou P1 por deploy simultâneo sem janela coordenada, KR2: reduzir o tempo médio de detecção e reversão de 42 para menos de 8 minutos, KR3: cobrir 100% dos fluxos decisivos de faturamento com testes de contrato automatizados, KR4: atingir 100% dos incidentes P0 e P1 com rascunho de pós-mortem em 48 horas e versão final publicada em até cinco dias úteis). O2: Recuperar a confiança e a expansão da base corporativa (KR1: elevar o NRR acumulado de 12 meses de 104% para 108% até o fim do trimestre, KR2: reduzir a média mensal de chamados decisivos de conciliação de 45 para menos de 10).
+**OKRs do 3º trimestre na scaleup de Lucas e Marina (pós-incidente do motor de conciliação):** O1: Tornar o faturamento e a conciliação imunes a falhas de deploy (KR1: zero incidentes P0 ou P1 por deploy simultâneo sem janela coordenada, KR2: reduzir o tempo médio de detecção e reversão de 42 para menos de 8 minutos, KR3: cobrir 100% dos fluxos decisivos de faturamento com testes de contrato automatizados, KR4: atingir 100% dos incidentes P0 e P1 com rascunho de pós-mortem em 48 horas e versão final publicada em até cinco dias úteis). O2: Recuperar a confiança e a expansão da base corporativa (KR1: elevar o NRR acumulado de 12 meses de 104% para 108% até o fim do trimestre, KR2: reduzir a média mensal de chamados críticos de conciliação de 45 para menos de 10).
 
 **Contraste de estágio anterior: OKRs Q3, PadariaPro (exemplo de operação menor, com 103 clientes).**
 
@@ -375,26 +375,10 @@ Empresas que tentam arrumar a casa enquanto abrem três praças simultaneamente 
 
 ---
 
-### O Espelho de Andy Grove: autodiagnóstico de saída da Fase 17 (sua empresa funciona porque você empurra ou porque o sistema puxa?)
-
-Três semanas após a sexta-feira em que três deploys simultâneos deixaram 410 clientes corporativos sem conciliação bancária às 19h40 e geraram 180 chamados urgentes em duas horas, a rotina na empresa de Lucas e Marina já operava em outro patamar. Com testes de contrato travando alterações incompatíveis no faturamento em São Paulo, janela coordenada de liberação e uma WBR de 60 minutos conduzida toda segunda-feira às 9h com Marina em Florianópolis, os chamados decisivos de conciliação caíram da média de 45 por mês para menos de 8.
-
-Feche a planilha de metas e responda sobre a operação da sua empresa hoje:
-
-1. **O Teste das Férias de 15 Dias:** Se você e seus cofundadores ficarem duas semanas incomunicáveis a partir de amanhã, os processos decisivos de entrega, faturamento e atendimento rodam no mesmo padrão ou a operação trava esperando decisões no WhatsApp?
-2. **A Auditoria da Agenda:** Quantas horas da sua última semana foram gastas em reuniões de status onde pessoas apenas leram em voz alta números que deveriam estar em um painel assíncrono antes da reunião começar?
-3. **O Dono do Gargalo:** Para cada uma das cinco métricas principais da sua empresa hoje, existe um único nome e CPF responsável pelo número, ou a responsabilidade está diluída entre dois departamentos que apontam o dedo um para o outro?
-
-**Regra de Sobrevivência:** Processo bom é o trilho mínimo que deixa gente talentosa decidir rápido sem pedir bênção.
-
-**O Ritual de Segunda-Feira às 9h:** Cancele as reuniões recorrentes de status sem pauta escrita e substitua a reunião geral de liderança de segunda-feira (Passo 1) por uma Weekly Business Review (WBR, detalhada no manual desta fase) de 60 minutos, guiada exclusivamente por desvios nas métricas antecedentes e encerrada com plano de ação, dono nominal e prazo.
-
----
-
 ### MANUAL PASSO A PASSO DOS FRAMEWORKS (FASE 17)
 
 > [!tip] Uso autocontido neste volume
-### MANUAL PASSO A PASSO DOS FRAMEWORKS (FASE 17)
+> Os frameworks abaixo reúnem origem, estrutura, passo a passo de aplicação, exemplos aplicados ao contexto brasileiro (incluindo os arquétipos desta coleção) e armadilhas para execução imediata nesta Fase 17.
 
 #### Framework: Hábitos de Descoberta Contínua (Continuous Discovery Habits, Teresa Torres, 2021)
 
@@ -1230,7 +1214,7 @@ Estrutura típica:
 1. Contexto/problema.
 2. Abordagem proposta.
 3. Opções consideradas.
-4 (Recomendação).
+4. **Recomendação:**
 5. Riscos/mitigações.
 6. FAQs antecipados.
 
@@ -1249,10 +1233,10 @@ Em reuniões estratégicas (decisões estruturais, aprovação de investimentos 
 
 Trecho de memorando narrativo de Lucas e Marina para aprovar R$ 1,8 milhão na reengenharia da arquitetura de conciliação e expansão para contas corporativas:
 
-**1. Contexto e problema.** Nos últimos seis meses, a nossa base de clientes corporativos cresceu de 240 para 410 empresas, mas a arquitetura monolítica do motor de conciliação bancária passou a operar no limite nos cinco primeiros dias úteis de cada mês. A média mensal atingiu 45 chamados decisivos de lentidão e culminou no incidente de sexta-feira às 19h40, quando três atualizações simultâneas derrubaram o processamento e geraram 180 chamados em duas horas.
+**1. Contexto e problema.** Nos últimos seis meses, a nossa base de clientes corporativos cresceu de 240 para 410 empresas, mas a arquitetura monolítica do motor de conciliação bancária passou a operar no limite nos cinco primeiros dias úteis de cada mês. A média mensal atingiu 45 chamados críticos de lentidão e culminou no incidente de sexta-feira às 19h40, quando três atualizações simultâneas derrubaram o processamento e geraram 180 chamados em duas horas.
 **2. Proposta e alternativas descartadas.** Propomos alocar uma squad dedicada durante dois trimestres (orçamento total de R$ 1,8 milhão entre engenharia, infraestrutura isolada de filas e suíte automatizada de testes de contrato) para desacoplar o motor de conciliação em eventos assíncronos. Descartamos (a) apenas dobrar o tamanho do banco de dados atual, pois o custo de nuvem subiria R$ 95 mil por mês sem impedir colisões de deploy, e (b) terceirizar o motor para um processador externo, o que comprimiria nossa margem bruta em 14 pontos percentuais.
 **3. Recomendação e métricas de sucesso.** Recomendamos iniciar o desacoplamento imediatamente, condicionando toda liberação no módulo fiscal a testes de contrato automatizados no CI/CD.
-O sucesso do investimento será medido por três metas até o fim do próximo trimestre: zero incidentes P0/P1 por deploy simultâneo, queda dos chamados decisivos mensais de 45 para menos de 10 e capacidade comprovada em teste de carga para processar 1.200 fechamentos simultâneos em menos de três minutos.
+O sucesso do investimento será medido por três metas até o fim do próximo trimestre: zero incidentes P0/P1 por deploy simultâneo, queda dos chamados críticos mensais de 45 para menos de 10 e capacidade comprovada em teste de carga para processar 1.200 fechamentos simultâneos em menos de três minutos.
 **4. Riscos e perguntas frequentes (FAQ).** O principal risco é atrasar em quatro semanas o lançamento do módulo de previsão de caixa, mitigamos esse impacto mantendo as outras cinco squads focadas no roadmap comercial.
 No apêndice de FAQ, detalhamos o plano de migração sem tempo de inatividade para os 410 clientes ativos e o cronograma de desligamento das tabelas legadas.
 Esse formato em prosa corrida obriga o autor a explicitar premissas, custos e trade-offs que ficariam escondidos em tópicos telegráficos de uma apresentação.
@@ -1669,6 +1653,22 @@ Para cada KR em andamento:
 
 ---
 
+### O Espelho de Andy Grove: autodiagnóstico de saída da Fase 17 (sua empresa funciona porque você empurra ou porque o sistema puxa?)
+
+Três semanas após a sexta-feira em que três deploys simultâneos deixaram 410 clientes corporativos sem conciliação bancária às 19h40 e geraram 180 chamados urgentes em duas horas, Lucas e Marina aplicaram este diagnóstico na própria rotina: descobriram que ainda concentravam a aprovação manual de cada pacote de produção e gastavam onze horas por semana em reuniões de status sem pauta escrita.
+
+Feche a planilha de metas e responda sobre a operação da sua empresa hoje:
+
+1. **O Teste das Férias de 15 Dias:** Se você e seus cofundadores ficarem duas semanas incomunicáveis a partir de amanhã, os processos decisivos (vendas, entrega, suporte N2, faturamento e deploy) continuam rodando no mesmo padrão de qualidade ou a empresa para esperando aprovação no WhatsApp?
+2. **A Auditoria da Agenda:** Quantas horas da sua última semana foram gastas em reuniões de acompanhamento onde as pessoas apenas leram números em voz alta, em vez de debater desvios de meta e tomar decisões que mudam a semana seguinte?
+3. **O Dono do Gargalo:** Para cada uma das cinco métricas principais da sua empresa hoje, existe uma única pessoa formalmente responsável pelo resultado, ou a responsabilidade está diluída entre dois ou três líderes?
+
+**Regra de Sobrevivência:** Processo bom é o trilho mínimo que deixa gente talentosa decidir rápido sem pedir bênção.
+
+**O Ritual de Segunda-Feira às 9h:** Cancele as reuniões recorrentes de status sem pauta escrita e substitua a reunião geral de liderança de segunda-feira por uma *Weekly Business Review (WBR)* de 60 minutos: 15 minutos de leitura silenciosa do placar de métricas de entrada e saída no início da sessão, seguidos de 45 minutos focados exclusivamente nas métricas que saíram da faixa esperada e nas ações corretivas com responsável e prazo.
+
+---
+
 ### Fechamento da Fase 17: o que muda na sua cabeça e na sua empresa a partir de agora
 
 Na sexta-feira seguinte ao colapso dos 410 clientes corporativos, a rotina na empresa de Lucas e Marina já era outra: o pós-mortem sem culpa do motor de conciliação estava publicado na wiki com três travas automatizadas de deploy, as squads de São Paulo alinharam a janela de liberação na reunião semanal de métricas (WBR) de segunda-feira com Marina em Florianópolis e nenhum chamado decisivo de conciliação entrou no suporte às 19h40. Com essa arquitetura operacional mínima instalada para domar o imposto da osmose, os 10 capítulos a seguir deste Volume 7 aprofundam a gestão de produto em múltiplas *squads*, a transição do fundador técnico para a gestão, o recrutamento técnico, a gestão de engenharia e dívida técnica, a IA na engenharia interna, a automação inteligente (*AI Ops*), o design organizacional, a gestão do conhecimento, a comunicação interna e as operações em escala.
@@ -1782,7 +1782,8 @@ Observe o efeito prático: pedidos barulhentos de vendas para um único cliente 
 
 Curvas do Kano Model (satisfação versus implementação).
 
-> [!note] Compatibilidade: requer Mermaid 10+ (Obsidian 1.4+)
+> [!note] Compatibilidade
+> requer Mermaid 10+ (Obsidian 1.4+)
 
 ```mermaid
 xychart-beta
@@ -1796,7 +1797,7 @@ xychart-beta
 
 Três curvas principais. A linha inferior (Must-have) tem teto em zero. Na curva básica, a ausência irrita o usuário e a presença apenas cumpre a obrigação. Na curva de desempenho, a satisfação cresce na proporção direta da entrega. A linha superior (Delighter) começa neutra, e sobe forte. Sequência: Basic, depois Performance, depois Delighter. Pular etapa destrói experiência. Útil para balancear "tapar buracos" com "criar amor".
 
-**MoSCoW.** Must, Should, Could, Won't (Simples). Útil para alinhamento rápido de escopo em sprints.
+**MoSCoW.** Must, Should, Could, Won't (simples e direto): Útil para alinhamento rápido de escopo em sprints.
 
 **Opportunity Prioritization (Torres).** Dentro do Opportunity Solution Tree, escolher a próxima opportunity baseado em três critérios. Impacto esperado no outcome. Evidência acumulada (quantas entrevistas validam). Addressability (resolvível por solução factível).
 
@@ -1808,7 +1809,7 @@ O problema clássico ocorre quando o roadmap vira contrato de data fixa: o clien
 
 A reformulação é roadmap de três horizontes.
 
-Now (próximas quatro a oito semanas) (Comprometido). Data, e escopo, claros. Entrega prevista com alta confiança.
+Now (próximas quatro a oito semanas) (escopo comprometido): Data, e escopo, claros. Entrega prevista com alta confiança.
 
 Next (próximos dois a quatro meses). Direção clara. Escopo provável. Não comprometido em data.
 
@@ -1888,7 +1889,7 @@ Roadmap como contrato. Prometer data em "Later", e não cumprir. A confiança er
 
 Design sem system. Cada feature com variação. UX inconsistente. Velocity destruída.
 
-Spec vago. O engineer adivinha o que o PM queria (Retrabalho).
+Spec vago. O engineer adivinha o que o PM queria, gerando retrabalho.
 
 PM sem tempo para descoberta. Cem por cento do tempo em execution. Vira "project manager", não product.
 
@@ -2533,7 +2534,7 @@ Ações que ampliam o funil sem baixar a régua técnica: busque candidatos ativ
 
 ### Primeiros 30 Dias: Do Commit no Dia Um à Autonomia em Produção
 
-Primeira semana. Laptop configurado no dia 1. Acessos resolvidos. Buddy técnico designado. Setup local funcional. Repositório clonado, build passa, testes rodam. Primeira PR (pequena), arrumar typo, ou adicionar teste (Objetivo). Contribuir código na primeira semana. Não no primeiro mês.
+Primeira semana. Laptop configurado no dia 1. Acessos resolvidos. Buddy técnico designado. Setup local funcional. Repositório clonado, build passa, testes rodam. Primeira PR (pequena), arrumar typo, ou adicionar teste. Objetivo. Contribuir código na primeira semana. Não no primeiro mês.
 
 Primeiras duas a quatro semanas. Dominar primeiro serviço, ou área. Sombrear, ou pair programar, com duas a três pessoas do time. Ler documentação arquitetural, runbooks, e histórico de decisões. Participar de code reviews (passivamente primeiro).
 
@@ -2547,7 +2548,7 @@ Contratar é metade da guerra. Reter é a outra metade.
 
 Drivers de retenção técnica, em ordem de impacto. Qualidade do trabalho, problemas interessantes, tecnologia relevante, e aprendizado contínuo. Time, pessoas respeitáveis, e relações saudáveis. Gestor direto: os profissionais costumam pedir demissão de maus líderes, não da empresa. Progressão de carreira: trilha visível e promoções com critério claro. Remuneração: compatível com o mercado e revisada periodicamente. Autonomia, e propósito, confiança, impacto, e significado do trabalho. Flex, ou remoto, cultura de flexibilidade importa.
 
-Drivers de saída, em ordem de prevalência. Manager ruim. Pouco aprendizado. Oferta melhor externa (salário, ou problema). Política interna, ou time tóxico. Falta de carreira visível (Burnout).
+Drivers de saída, em ordem de prevalência. Manager ruim. Pouco aprendizado. Oferta melhor externa (salário, ou problema). Política interna, ou time tóxico. Falta de carreira visível. Burnout.
 
 Intervenções que protegem a retenção: mantenha reuniões 1:1 regulares (seguindo a cadência do Capítulo 2), conduza conversas francas de carreira a cada trimestre, revise a competitividade da remuneração anualmente (ou semestralmente para destaques técnicos), ofereça mobilidade interna entre squads antes que o engenheiro busque novos desafios fora e pratique entrevistas de permanência (*stay interviews*, perguntando "o que faria você continuar construindo sua carreira aqui nos próximos dois anos?") muito antes de receber um pedido de demissão.
 
@@ -2627,7 +2628,7 @@ Analise as últimas cinco contratações de engenharia da sua empresa e responda
 
 1. **O Teste da Recontratação:** Se você soubesse no dia da entrevista tudo o que sabe hoje sobre cada um dos últimos cinco engenheiros contratados, quantos deles você contrataria novamente sem hesitar?
 2. **A Simulação do Mundo Real:** Seu teste técnico avalia o candidato lendo código existente, encontrando um bug real e discutindo trade-offs pragmáticos de produto, ou obriga um engenheiro sênior a fazer lição de casa de 12 horas no fim de semana?
-3. **O Veto Cultural:** Você já teve coragem de reprovar um candidato tecnicamente brilhante porque ele demonstrou arrogância, falta de pragmatismo comercial ou incapacidade de receber decisiva no code review?
+3. **O Veto Cultural:** Você já teve coragem de reprovar um candidato tecnicamente brilhante porque ele demonstrou arrogância, falta de pragmatismo comercial ou incapacidade de receber crítica no code review?
 
 **Regra de Sobrevivência:** Na dúvida entre contratar um engenheiro mediano para fechar a vaga rápido ou deixar a cadeira vazia por mais 45 dias, deixe a cadeira vazia: um engenheiro B- atrai engenheiros C e expulsa seus engenheiros A.
 
@@ -2919,9 +2920,10 @@ KPIs. Deployment frequency, MTTR, e percentual de tempo em features versus manut
 
 Revisão de código rigorosa: antes de aprovar o merge, avalie se a mudança introduz dívida técnica nova e registre o prazo de pagamento.
 
-Automated testing. Regression prevention.
+Testes automatizados na esteira de integração contínua (CI/CD), prevenindo regressões a cada nova entrega.
 
 Decisões de arquitetura registradas em ADRs (*Architecture Decision Records*), preservando o contexto e as alternativas descartadas.
+
 **Prevenção contínua na esteira de código:**
 Refatoração contínua em pequenos lotes (*Boy Scout Rule*: deixar o módulo mais limpo do que o encontrou a cada entrega).
 
@@ -2937,7 +2939,7 @@ Título sem critério. Dar Senior para todo mundo com três anos de experiência
 
 Calibration ignorada. Managers severos punem times. Managers lenientes favorecem times. Sem calibration entre managers, a meritocracia é fictícia.
 
-EM que também é tech lead de time grande. Sobrecarga garantida (Separar).
+EM que também é tech lead de time grande. Sobrecarga garantida: separe os papéis.
 
 Quadro técnico desequilibrado: expandir o time sem engenheiros seniores suficientes para orientar a equipe gera dívida de qualidade e retrabalho.
 
@@ -3145,7 +3147,7 @@ Entendimento de business logic complexa, que só o dev sênior tem. A IA não su
 
 Ao contratar ferramentas de IA para engenharia, exija cláusula contratual de *Zero Data Retention* (ZDR, garantindo que nenhum trecho do seu código seja retido ou usado para treinar modelos públicos), combine varredura de segredos (como GitGuardian ou TruffleHog) e análise estática (SAST, como Semgrep ou SonarQube) no pipeline de CI e mantenha revisão e autoria humana documentada sobre o código decisivo para resguardar a titularidade de propriedade intelectual (Leis 9.609/1998 e 9.610/1998) em futuras diligências de M&A (ver Volume 9).
 
-Riscos.
+**Riscos:**
 
 **Vazamento de código e dados para API externa.** Quando o desenvolvedor envia código proprietário no prompt de uma conta pessoal ou gratuita, o conteúdo pode ser retido e utilizado no treinamento de modelos futuros pelo provedor. Para proteger a propriedade intelectual da empresa, proíba o uso de contas pessoais e contrate exclusivamente planos corporativos com cláusula contratual de não treinamento e retenção zero de dados (*Zero Data Retention*, ZDR), como GitHub Copilot Business ou Enterprise, Cursor Teams ou Enterprise, Claude for Work (Team ou Enterprise) e ChatGPT Business ou Enterprise (nomes de planos verificados em outubro de 2026).
 
@@ -3155,7 +3157,7 @@ Dependência excessiva. O dev perde skills de escrever código do zero. Em cená
 
 **Sugestão de padrões obsoletos:** modelos treinados em repositórios históricos frequentemente sugerem bibliotecas descontinuadas ou abordagens antigas (como manipular DOM com jQuery em uma aplicação React moderna), exigindo arquivo de regras do projeto (`AGENTS.md` ou `CLAUDE.md`) e repertório decisivo do desenvolvedor para filtrar o código gerado.
 
-**Licenciamento:** Código gerado por IA pode derivar de código open-source, com licença restritiva. Risco legal em alguns casos (Política). Documentar uso. Evitar copy-paste direto de sugestões em código sensível.
+**Licenciamento:** Código gerado por IA pode derivar de código open-source, com licença restritiva. Risco legal em alguns casos; defina política clara e Documentar uso. Evitar copy-paste direto de sugestões em código sensível.
 
 **Alucinação:** A IA gera API call que não existe, ou função de library que não existe, ou padrão sintático errado. O dev aceita. O código não compila. Ou pior, compila, mas falha em runtime. Decisivo em código não testado.
 
@@ -3191,13 +3193,13 @@ Custo de ferramentas por dev por mês. Comparar com ganho.
 
 ### Recrutando e Treinando Engenheiros Nativos em IA Sem Criar Dependência Cognitiva
 
-A IA altera o perfil do engineer ideal (Tendências).
+A IA altera o perfil do engineer ideal. Tendências.
 
 Habilidades que sobem em valor. Arquitetura, e design de sistemas. Critical thinking, e code review. Debugging, e análise de problemas complexos. Product sense, e tradeoffs. Capacidade de escrever especificações claras (prompts bons). Skills de domínio específico.
 
 Habilidades que descem em valor relativo. Digitação rápida. Conhecimento memorizado de sintaxe. Escrita de boilerplate. Busca em Stack Overflow (a IA substitui).
 
-Implicações.
+**Implicações:**
 
 As entrevistas precisam evoluir. Em vez de "resolve em quadro branco sem IA", permitir uso de IA, e avaliar como o candidato usa.
 
@@ -3243,7 +3245,7 @@ Ignorar custos em escala. API de modelo cobra por token. Time de cinquenta devs,
 
 Acreditar em números de vendor. Medir internamente.
 
-Desprezar ferramentas open-source. Aider, Continue, Open Interpreter têm capacidades comparáveis para alguns casos, com melhor privacidade (Avaliar).
+Desprezar ferramentas open-source. Aider, Continue, Open Interpreter têm capacidades comparáveis para alguns casos, com melhor privacidade, valendo avaliar.
 
 **Tratar todas as ferramentas como intercambiáveis:** cada categoria resolve um problema distinto no fluxo. Combine o preenchimento rápido no editor (GitHub Copilot), a edição assistida em múltiplos arquivos (Cursor ou Windsurf), o agente autônomo de terminal para tarefas bem escopadas (Claude Code ou Codex) e a triagem automatizada de pull requests (CodeRabbit ou Greptile).
 
@@ -4265,7 +4267,7 @@ Independentemente da ferramenta escolhida (Notion, Confluence ou GitBook), conec
 
 Wikis morrem por três razões.
 
-A primeira causa é a falta de dono definido para a saúde da base de conhecimento: os documentos envelhecem sem revisão e, em seis meses, a equipe deixa de confiar no que lê. A correção consiste em nomear um responsável pelo conhecimento em cada área, encarregado de cobrar a atualização periódica dos processos decisivos da sua equipe.
+A primeira causa é a falta de dono definido para a saúde da base de conhecimento: os documentos envelhecem sem revisão e, em seis meses, a equipe deixa de confiar no que lê. A correção consiste em nomear um responsável pelo conhecimento em cada área, encarregado de cobrar a atualização periódica dos processos críticos da sua equipe.
 
 A segunda é dificuldade de encontrar o que se procura. Estrutura de pastas mal planejada, sem convenção de nomenclatura, sem taxonomia consistente. A solução é investir em arquitetura de informação antes de começar a popular a wiki. Defina a estrutura de segundo e terceiro nível antes de criar os documentos.
 
@@ -4408,7 +4410,8 @@ Estratégico   Qualquer        One-pager primeiro, PRD depois
 ```
 
 > [!tip]
-> A regra prática: se a feature vai levar mais de duas semanas de desenvolvimento, escreva um PRD. Se vai levar menos, um brief é suficiente. Se você não sabe ainda se vai ser desenvolvida, escreva um one-pager e valide primeiro.
+> A regra prática
+> se a feature vai levar mais de duas semanas de desenvolvimento, escreva um PRD. Se vai levar menos, um brief é suficiente. Se você não sabe ainda se vai ser desenvolvida, escreva um one-pager e valide primeiro.
 
 **Onde armazenar e como versionar.**
 
@@ -4486,7 +4489,7 @@ A prática de pós-mortem deve se expandir além de incidentes técnicos. Projet
 
 ### 7. Runbooks de Madrugada: Como Qualquer Engenheiro de Plantão Resolve um Incidente em 15 Minutos
 
-Runbooks e playbooks são a documentação operacional que permite que pessoas executem processos decisivos corretamente, mesmo sem experiência prévia naquele processo específico.
+Runbooks e playbooks são a documentação operacional que permite que pessoas executem processos críticos corretamente, mesmo sem experiência prévia naquele processo específico.
 
 **A diferença entre os dois.**
 
@@ -4557,7 +4560,8 @@ Uma proxy simples para medir lacunas de documentação: quantas vezes por semana
 Ferramentas como Slack e Microsoft Teams permitem buscar por padrões de perguntas. Um time de gestão do conhecimento maduro monitora perguntas frequentes e as usa como insumo para priorizar o que documentar.
 
 > [!note]
-> Uma forma simples de capturar isso: peça que o time use uma tag específica (por exemplo, `#precisa-de-wiki`) sempre que fizer uma pergunta que deveria estar respondida na documentação. Em um mês, você terá uma lista priorizada do que documentar.
+> Uma forma simples de capturar isso
+> peça que o time use uma tag específica (por exemplo, `#precisa-de-wiki`) sempre que fizer uma pergunta que deveria estar respondida na documentação. Em um mês, você terá uma lista priorizada do que documentar.
 
 **Satisfação do novo colaborador com onboarding.**
 
@@ -4590,7 +4594,7 @@ concluídos no prazo
 
 A definição técnica do fator ônibus (*bus factor*) e suas práticas de mitigação na engenharia (programação em par, rodízio de plantão e ADRs) estão no [[#CAPÍTULO 4: ENGINEERING MANAGEMENT, DEVELOPER EXPERIENCE E GESTÃO DE DÍVIDA TÉCNICA|Capítulo 4, seção 6]]. Na gestão do conhecimento da empresa inteira, aplique a mesma régua às áreas de negócio e operações (faturamento, folha, integrações com clientes, contas bancárias e contratos críticos): qualquer rotina essencial com fator ônibus igual a 1 representa risco operacional imediato.
 
-Cruze esse levantamento trimestralmente com a Matriz de Risco da seção 2 e leve o indicador para o painel de saúde do conhecimento: a meta operacional é zerar processos decisivos com fator ônibus igual a 1, exigindo ao menos duas pessoas habilitadas na prática mais o playbook ou runbook testado.
+Cruze esse levantamento trimestralmente com a Matriz de Risco da seção 2 e leve o indicador para o painel de saúde do conhecimento: a meta operacional é zerar processos críticos com fator ônibus igual a 1, exigindo ao menos duas pessoas habilitadas na prática mais o playbook ou runbook testado.
 
 > [!tip]
 > Para tirar um processo de negócio do fator ônibus 1 sem criar burocracia documental excessiva, combine o registro enxuto do playbook ao trabalho em dupla (*pair working*), ao rodízio periódico de férias e ao treinamento cruzado entre analistas da área.
@@ -4628,7 +4632,7 @@ Seis meses após aquela segunda-feira de pânico em Curitiba, a calibração rem
 Faça o exercício mais desconfortável de continuidade operacional da sua empresa agora:
 
 1. **O Mapa do Bus Factor 1:** Liste os dez sistemas, contas bancárias, integrações ou processos comerciais mais vitais da sua empresa. Quantos deles hoje dependem do conhecimento exclusivo de uma única pessoa?
-2. **O Teste do Plantão às 22h:** Dos dez processos decisivos mapeados no item anterior (abaixo de cinco aprovados, sua operação está onde Henrique estava antes da crise), quantos contam com um runbook passo a passo já testado na prática por uma segunda pessoa para restaurar o serviço em 15 minutos?
+2. **O Teste do Plantão às 22h:** Dos dez processos críticos mapeados no item anterior (abaixo de cinco aprovados, sua operação está onde Henrique estava antes da crise), quantos contam com um runbook passo a passo já testado na prática por uma segunda pessoa para restaurar o serviço em 15 minutos?
 3. **O Cemitério vs. A Fonte Viva:** Quando um funcionário busca um procedimento interno na sua base de conhecimento, ele encontra um documento confiável atualizado nos últimos 90 dias ou três versões contraditórias abandonadas em 2024?
 
 **Regra de Sobrevivência:** Nenhuma funcionalidade decisiva vai ao ar sem o runbook de operação atualizado, nenhuma decisão estrutural de arquitetura é fechada sem ADR no repositório e nenhum processo recorrente executado por duas ou mais pessoas opera sem POP documentado.
@@ -4975,7 +4979,7 @@ São conversas periódicas entre um executivo e profissionais situados dois nív
 
 **Criando segurança psicológica para feedback:**
 
-A segurança psicológica nasce da reação concreta da liderança diante de más notícias: quando um diretor ouve uma decisiva fundamentada com perguntas genuínas e ação corretiva, a equipe entende que vale a pena falar a verdade, quando reage com justificativa imediata ou retaliação sutil, o time aprende a se calar.
+A segurança psicológica nasce da reação concreta da liderança diante de más notícias: quando um diretor ouve uma crítica fundamentada com perguntas genuínas e ação corretiva, a equipe entende que vale a pena falar a verdade, quando reage com justificativa imediata ou retaliação sutil, o time aprende a se calar.
 
 > [!important]
 > Quando a pesquisa interna revela que a equipe evita apontar falhas ou desconfia da direção, a causa está nas reações anteriores da própria liderança a notícias difíceis. Nesses casos, apoiar-se em um facilitador externo ajuda a destravar a escuta enquanto os líderes corrigem a própria postura.
@@ -5063,7 +5067,7 @@ A melhor comunicação interna é aquela que o time não percebe como comunicaç
 
 ### O Espelho de Ben Horowitz e Jeff Bezos: Sua Equipe Ouviu a Verdade de Você ou Vive de Boato no WhatsApp?
 
-Jeff Bezos substituiu apresentações de slides por memorandos lidos em silêncio para forçar clareza de pensamento, e Ben Horowitz mostrou em *The Hard Thing About Hard Things* (2014) que, em momentos decisivos ou demissões, a confiança da equipe depende de ouvir a verdade diretamente do fundador e de cada gestor imediato, sem atraso nem eufemismo.
+Jeff Bezos substituiu apresentações de slides por memorandos lidos em silêncio para forçar clareza de pensamento, e Ben Horowitz mostrou em *The Hard Thing About Hard Things* (2014) que, em momentos críticos ou demissões, a confiança da equipe depende de ouvir a verdade diretamente do fundador e de cada gestor imediato, sem atraso nem eufemismo.
 
 Na decisão estratégica seguinte entre Recife e Goiânia, Rafael e Bia publicaram um memorando narrativo de três parágrafos explicando o contexto econômico, o que mudava e o que permanecia intacto, alinharam o roteiro de perguntas e respostas com os gerentes antes do anúncio geral e abriram um canal de dúvidas no Slack: a mudança de rota foi absorvida no mesmo dia e nenhum boato chegou aos grupos de WhatsApp da equipe.
 
@@ -5131,7 +5135,7 @@ LTV/CAC saudável
 Margem para reinvestir em produto e operação
 ```
 
-Excelência operacional não significa burocracia. Significa que os processos decisivos funcionam de forma previsível, os desvios são detectados rapidamente e cada correção vira aprendizado incorporado às regras do sistema.
+Excelência operacional não significa burocracia. Significa que os processos críticos funcionam de forma previsível, os desvios são detectados rapidamente e cada correção vira aprendizado incorporado às regras do sistema.
 
 > [!important]
 > A maturidade de uma operação mede-se pelo tempo que a equipe leva para detectar, conter e corrigir na raiz qualquer falha quando o fluxo sai do roteiro.
@@ -5192,7 +5196,8 @@ Campos obrigatórios de um SOP:
 - Data da última revisão
 
 > [!warning]
-> Documento sem data de revisão envelhece rápido: agende revisão trimestral (a cada 90 dias) para runbooks e POPs decisivos e semestral para os demais documentos.
+> Documento sem data de revisão envelhece rápido
+> agende revisão trimestral (a cada 90 dias) para runbooks e POPs decisivos e semestral para os demais documentos.
 
 #### Onde Guardar
 
@@ -5570,7 +5575,8 @@ Número de usuários registrados, downloads, sessões: são métricas de vaidade
 Em times de até 10 pessoas, a comunicação acontece por osmose. A partir de 15 pessoas, a comunicação precisa de estrutura intencional (ver [[#CAPÍTULO 9: COMUNICAÇÃO INTERNA|Capítulo 9]]). O erro clássico é multiplicar reuniões síncronas em vez de substituir o alinhamento informal por documentos e mensagens assíncronas. Antes de criar uma reunião, pergunte: isso pode ser resolvido com um documento ou uma mensagem estruturada?
 
 > [!warning]
-> Reuniões síncronas mal dimensionadas escondem um custo alto na escala: colocar 8 líderes por 1 hora na sala consome 8 horas produtivas, e convocar 50 pessoas por 90 minutos queima até 75 horas de trabalho da empresa. Restrinja a reunião semanal de gestão aos líderes de área (enviando o resumo escrito à equipe) e trate encontros síncronos como exceções planejadas.
+> Reuniões síncronas mal dimensionadas escondem um custo alto na escala
+> colocar 8 líderes por 1 hora na sala consome 8 horas produtivas, e convocar 50 pessoas por 90 minutos queima até 75 horas de trabalho da empresa. Restrinja a reunião semanal de gestão aos líderes de área (enviando o resumo escrito à equipe) e trate encontros síncronos como exceções planejadas.
 
 #### Armadilha 4: Onboarding Informal
 
@@ -5605,7 +5611,7 @@ Empresas que tratam produto e operações como silos distintos criam produtos qu
 CHECKLIST DE MATURIDADE OPERACIONAL
 
 Estágio 0–10 pessoas
-□ Processos decisivos documentados informalmente
+□ Processos críticos documentados informalmente
 □ Cadência semanal de time
 □ Classificação básica de incidentes (decisivo vs. não decisivo, na escala P0 a P2)
 

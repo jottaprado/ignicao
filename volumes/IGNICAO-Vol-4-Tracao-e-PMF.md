@@ -852,7 +852,7 @@ A tese de McClure é que **times sem modelo explícito de funil otimizam a métr
 
 Monte o Pirate Canvas em três etapas, nesta ordem:
 
-1. **Defina a métrica de cada etapa**: 1 métrica primária por etapa. Não 5 (Uma). Acquisition: CAC médio ponderado por canal. Activation: taxa de usuários que atingem o "aha moment" em X dias. Retention: retenção D30 (ou D7 para apps). Referral: NPS ou taxa de indicação ativa (mês). Revenue: conversão freemium → pago ou ARPU mensal.
+1. **Defina a métrica de cada etapa**: 1 métrica primária por etapa. Não 5. Uma. Acquisition: CAC médio ponderado por canal. Activation: taxa de usuários que atingem o "aha moment" em X dias. Retention: retenção D30 (ou D7 para apps). Referral: NPS ou taxa de indicação ativa (mês). Revenue: conversão freemium → pago ou ARPU mensal.
 2. **Aplique os patamares da tabela de referência da Fase 11**: compare cada etapa com a régua única do seu modelo de negócio (em SaaS B2B, piso de 40% de usuários ativos em D30 no piloto e meta saudável acima de 60%, mantendo mais de 80% das empresas pagantes ativas, em aplicativos de consumo B2C, retenção estabilizada acima de 20% a 25% em D30).
 3. **Identifique o maior vazamento**: onde está a maior queda de conversão entre etapas? Esse é o único foco do próximo trimestre. Não mexa nas outras etapas até resolver essa.
 
@@ -1775,20 +1775,6 @@ Num quadro como esse, o risco de modelo de negócio (CAC 5x a 8x maior no mercad
 - Listar riscos genéricos ("risco de mercado") sem especificidade ("nosso ICP não tem budget Q4 por conta do ciclo orçamentário de empresas de capital aberto"): genérico não gera mitigação.
 - Focar só em riscos técnicos: times de engenharia subestimam sistematicamente riscos regulatórios, de equipe e de modelo.
 - Confundir mitigação com "ter um plano B": mitigação é ação que reduz probabilidade ou impacto antes da crise, plano B é resposta depois que a crise aconteceu.
-- Confundir mitigação com "ter um plano B": mitigação é ação que reduz probabilidade ou impacto antes da crise, plano B é resposta depois que a crise aconteceu.
-
-#### Canvas: Quadro Financeiro de Economia Unitária (Canvas Financeiro da Fase 12)
-
-Para consolidar em uma única folha os números auditados nos Passos 1 a 11 antes de avançar para a Fase 13, preencha o quadro resumo abaixo com os dados reais da sua operação (veja o exemplo preenchido com a virada da marca D2C de Rafael e Bia após o ajuste de janeiro):
-
-| Bloco do Canvas Financeiro | Regra de cálculo | Caso preenchido: Rafael e Bia (D2C, pós-ajuste) |
-|---|---|---|
-| **1. Tíquete Médio / ARPU Bruto e Líquido** | Preço cobrado menos tributos sobre a nota (Simples, ICMS/ISS, PIS/Cofins ou IBS/CBS) | Pedido médio subiu de R$ 100 para **R$ 168** (kit), após R$ 23,50 de impostos, Receita Líquida = **R$ 144,50** |
-| **2. Margem de Contribuição 1 e 2 (MC1 e MC2)** | Receita líquida menos CPV/COGS (MC1) e menos taxas, frete líquido e comissão (MC2) | CPV R$ 52 (MC1 = R$ 92,50), taxa R$ 7,50 + frete médio R$ 8,20 + comissão criador R$ 20,00 → **MC2 = R$ 56,80 (33,8%)** |
-| **3. CAC Completo por Canal e MC3** | Gasto total de vendas/mídia dividido por novos clientes, MC3 = MC2 − CAC no 1º pedido | CAC pago estabilizado em **R$ 32,00** → **MC3 já no 1º pedido = +R$ 24,80** (contra -R$ 15,50 na Black Friday) |
-| **4. LTV, Razão LTV/CAC e Payback** | Margem acumulada nas recompras/renovações dividida pelo CAC completo | Com 34% de recompra em 90 dias, LTV de 12 meses = **R$ 108**, **LTV/CAC = 3,4x** e **Payback imediato no 1º pedido** |
-| **5. Custos Fixos e Ponto de Equilíbrio** | Despesas fixas mensais (folha, sistemas, geral) ÷ margem de contribuição por cliente/pedido | Custos fixos de R$ 34.000/mês ÷ R$ 24,80 de MC3 = **1.371 pedidos/mês** para o equilíbrio líquido de caixa |
-| **6. Veredito Default Alive e Runway** | Saldo de caixa e meses até o equilíbrio no cenário conservador | **Default Alive** atingido em janeiro (+R$ 21,6 mil de geração líquida mensal e 14 meses de *runway* em banco) |
 
 ---
 
@@ -2153,7 +2139,7 @@ Algumas observações específicas do contexto brasileiro, aplicáveis a fundado
 
 Nichos brasileiros saturam rápido. Em muitos recortes de software B2B especializado, o número de empresas com orçamento para a solução no Brasil é uma fração menor do que o equivalente nos Estados Unidos (embora em setores como agronegócio, meios de pagamento e saúde o volume brasileiro seja continental). Consequência prática: PMF em subnicho brasileiro pode significar cem a quinhentos clientes, não dez mil. Planeje crescimento com esse cap em mente. E pense em expansão (vertical, horizontal, geográfica) desde cedo.
 
-Crescimento orgânico no Brasil depende de cultura relacional. Boca a boca funciona muito no Brasil. Possivelmente mais que em mercados mais transacionais como o americano. Mas funciona melhor em redes pré-existentes. Associações de classe. Grupos de WhatsApp profissionais. Círculos de amizade (Famílias). Empresa que entende e alimenta essas redes atinge crescimento orgânico mais cedo.
+Crescimento orgânico no Brasil depende de cultura relacional. Boca a boca funciona muito no Brasil. Possivelmente mais que em mercados mais transacionais como o americano. Mas funciona melhor em redes pré-existentes. Associações de classe. Grupos de WhatsApp profissionais. Círculos de amizade. Famílias. Empresa que entende e alimenta essas redes atinge crescimento orgânico mais cedo.
 
 Ciclo de decisão B2B brasileiro é mais longo. Em enterprise brasileiro, o ciclo de venda típico é de nove a dezoito meses. PMF em B2B enterprise pode demorar mais a ser reconhecido, porque o sinal (deals recorrentes, renewal) demora a chegar. Paciência e métricas intermediárias são importantes.
 
@@ -2173,7 +2159,7 @@ O teste do diagnóstico. Desligue o canal pago por trinta dias, e veja o que aco
 
 #### Falso positivo 2, cliente ancorado, não puxando
 
-Você tem vinte clientes felizes. Todos originados da sua rede pessoal, ou de relacionamentos diretos. Eles pagam (Usam). Estão satisfeitos. Mas quando você tenta prospectar fora da sua rede, quase ninguém compra.
+Você tem vinte clientes felizes. Todos originados da sua rede pessoal, ou de relacionamentos diretos. Eles pagam. Usam. Estão satisfeitos. Mas quando você tenta prospectar fora da sua rede, quase ninguém compra.
 
 Quando os primeiros contratos dependem exclusivamente da amizade com os fundadores e não se repetem com estranhos, você tem venda relacional, e o PMF comercial ainda precisa ser provado.
 
@@ -2337,7 +2323,7 @@ RICE = (Reach × Impact × Confidence) / Effort
 - **Confiança (*Confidence*):** grau de certeza na estimativa (100% para evidência alta, 80% para média, 50% para baixa e 30% ou menos para apostas especulativas, aplique um filtro estratégico para que melhorias cosméticas de esforço mínimo, como *dark mode*, não passem à frente de alavancas reais de retenção).
 - Effort: pessoa-mês necessárias.
 
-##### Execução prática com a equipe
+##### Protocolo prático de execução
 
 1. Para cada funcionalidade candidata da lista, estime as quatro dimensões do modelo (Alcance, Impacto, Confiança e Esforço) antes de calcular a nota.
 
@@ -2390,7 +2376,7 @@ Onde:
 - Confidence: quão confiante você está que vai funcionar? (1-10)
 - Ease: quão fácil de executar? (1-10)
 
-##### Aplicação imediata na rotina da empresa
+##### Execução prática com a equipe
 
 Passo 1: Liste ideias de experimentos de growth, features, etc.
 
@@ -2446,7 +2432,7 @@ Critérios de boa North Star:
 - Mensurável e granulável.
 - Compreensível pela empresa inteira.
 
-##### Roteiro de aplicação prática na operação
+##### Passos práticos de implantação
 
 Passo 1: Identifique qual métrica captura valor. Exemplos:
 
@@ -2516,7 +2502,7 @@ GSM process:
 - Signals: o que user faria se goal acontecer (qualitativo)?
 - Metrics: como quantificamos signal?
 
-##### Roteiro de aplicação prática na operação
+##### Passos práticos de implantação
 
 Passo 1: Selecione apenas as dimensões do framework HEART (criado por pesquisadores do Google) que sejam pertinentes ao estágio atual do seu produto, definindo para cada uma o objetivo claro (*Goal*), o sinal comportamental (*Signal*) e a métrica auditável (*Metric*).
 
@@ -2568,7 +2554,7 @@ Leis de positioning (entre 22 do livro *The 22 Immutable Laws of Marketing* de R
 6. Lei da Dualidade: no longo prazo, mercado vira corrida de 2 cavalos.
 7. Lei da Franqueza: admitir uma fraqueza pode ser desarme poderoso ("somos a 2ª maior locadora").
 
-##### Passos práticos de implantação
+##### Aplicação imediata na rotina da empresa
 
 Passo 1: Mapeie mente do mercado: qual palavra/conceito cada concorrente já ocupa?
 
@@ -2626,11 +2612,11 @@ Os 10 componentes:
 9. Positioning statement: síntese em forma clara.
 10. Test and iterate: com vendas, marketing, clientes.
 
-##### Roteiro de aplicação prática na operação
+##### Passos práticos de implantação
 
 Passo 1: Workshop com time comercial: sales sabe o que cliente realmente compara.
 
-Passo 2: Identifique clientes que AMAM seu produto (não só compraram, amam) (Entreviste). Padrões emergem.
+Passo 2: Identifique clientes que AMAM seu produto (não só compraram, amam). Entreviste. Padrões emergem.
 
 Passo 3: Competitive alternatives REAIS: não a competição oficial. O que cliente estava fazendo antes?
 
@@ -2691,7 +2677,7 @@ Framework para estruturar **comunicação de marketing como narrativa** onde cli
 6. That helps them avoid failure.
 7. And ends in success.
 
-##### Roteiro de aplicação prática na operação
+##### Passos práticos de implantação
 
 Passo 1: Cliente é o herói, empresa é guia (Yoda, não Luke Skywalker).
 
@@ -2761,7 +2747,7 @@ Framework para dar **personalidade coerente à marca** baseado em 12 arquétipos
 11. O Bobo da Corte (*The Jester*): humor, leveza (Old Spice, M&M's).
 12. O Sábio (*The Sage*): conhecimento, método (Google, BBC, Harvard).
 
-##### Roteiro de aplicação prática na operação
+##### Passos práticos de implantação
 
 Passo 1: Identifique valores centrais da empresa.
 
@@ -2820,7 +2806,7 @@ Conteúdo estruturado em Topic Clusters:
 - Cluster content: 10-30 artigos sobre subtópicos, linkando para pillar.
 - Internal linking: eleva SEO.
 
-##### Aplicação imediata na rotina da empresa
+##### Execução prática com a equipe
 
 Passo 1: Identifique 5-10 tópicos centrais que seu ICP busca.
 
@@ -3543,7 +3529,7 @@ Em vez de começar por artigos genéricos de topo de funil ("o que é gestão fi
 
 **2. Pesquisa de palavra-chave.** Para escolher palavras-chave, use ferramentas como Ahrefs, Semrush ou Google Search Console, combinando três critérios: volume de busca suficiente, intenção comercial clara e dificuldade de ranqueamento compatível com a autoridade atual do seu domínio. Comece pela cauda longa (*long-tail*): Menos competição. Mais específico. Melhor conversão.
 
-**3. Content tiers.** Pillar pages, três a cinco mil palavras (Abrangente). Autoridade. Cluster content, mil a dois mil palavras. Mais específico. Conecta ao pillar. Supporting content, quinhentas a mil palavras. Responde questão específica.
+**3. Content tiers.** Pillar pages, três a cinco mil palavras. Abrangente. Autoridade. Cluster content, mil a dois mil palavras. Mais específico. Conecta ao pillar. Supporting content, quinhentas a mil palavras. Responde questão específica.
 
 **4. Cadência e qualidade.** Publicar de dois a quatro artigos profundos por mês gera mais resultado do que vinte textos superficiais. Garanta revisão humana, dados atualizados, exemplos reais e ponto de vista próprio, evitando paráfrases genéricas do que já está no topo da busca.
 
@@ -3637,7 +3623,8 @@ Não medir conversion. Volume de tráfego sem conversion é vanity metric.
 - [ ] Expectativa realista de retorno (primeiros resultados consistentes em 12 a 18 meses e maturação até 24 meses)?
 - [ ] Investimento alocado e sustentado de acordo com o estágio da empresa?
 
-> [!info] Fases relacionadas: [[#FASE 12: VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 12 (Validação do Modelo de Negócio)]] e [[#FASE 13: PRODUCT-MARKET FIT|Fase 13 (Product-Market Fit)]].
+> [!info] Fases relacionadas
+> [[#FASE 12: VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 12 (Validação do Modelo de Negócio)]] e [[#FASE 13: PRODUCT-MARKET FIT|Fase 13 (Product-Market Fit)]].
 
 ---
 
@@ -4716,7 +4703,7 @@ A venda B2B percorre oito estágios definidos. Cada um tem objetivo próprio, cr
 
 **Negociação.** Ajuste final de condições comerciais, prazos, garantias e escopo operacional. Aqui entram em cena as técnicas de negociação de Chris Voss (*Never Split the Difference*, incluindo o modelo Ackerman de concessões decrescentes) e de Roger Fisher e William Ury (*Getting to Yes*), aprofundadas no Capítulo 7. Critério de saída: minuta aprovada pelas partes.
 
-**Fechamento.** Assinatura (Pagamento). Início. Critério de saída. Contrato assinado, e primeiro pagamento recebido.
+**Fechamento.** Assinatura. Pagamento. Início. Critério de saída. Contrato assinado, e primeiro pagamento recebido.
 
 **Pós-venda. Onboarding, depois expansion, depois renewal.** Customer Success leva daqui pra frente (ver [[#CAPÍTULO 8: CUSTOMER SUCCESS (CS) E CUSTOMER EXPERIENCE (CX): DA JORNADA À RETENÇÃO SUSTENTÁVEL E NRR ACIMA DE 100%|Capítulo 8 (Customer Success (CS) e Customer Experience (CX): Da Jornada ao Churn Zero e NRR Positivo)]]). Mas a relação entre vendas, e pós-venda, importa. Vendas que prometem o que o produto não entrega destroem CS, destroem renovação, e destroem reputação.
 
@@ -4747,7 +4734,9 @@ Proposta, e contrato. PandaDoc, DocuSign, ClickSign (BR). Assinatura eletrônica
 Forecasting, e analytics. Clari, BoostUp, ou dashboards custom em Looker, Tableau, Metabase.
 
 > [!important] Ferramentas não substituem método
-**Prematuro:** abaixo de R$ 5 milhões de ARR ou com menos de cinco pessoas dedicadas à receita, criar uma área formal de RevOps gera burocracia sem retorno. Nessa etapa, os próprios fundadores ou líderes comerciais mantêm o alinhamento com planilha única, agenda compartilhada e cadência disciplinada. Assinar ferramentas caras antes de consolidar o método comercial apenas infla o custo fixo.
+> Uma equipe comercial equipada com CRM avançado e gravadores de chamadas, mas sem roteiro de qualificação e critérios claros de passagem de bastão, converte menos do que um time enxuto operando com disciplina em uma planilha bem estruturada.
+
+**Quando ainda é cedo para criar uma área dedicada de RevOps:** abaixo de R$ 5 milhões de ARR ou com menos de cinco pessoas na operação comercial, criar um departamento formal de Revenue Operations gera custo fixo sem retorno, nessa fase, o próprio fundador ou líder de vendas deve auditar o funil semanalmente antes de contratar especialistas.
 
 #### Funil de métricas, e benchmarks
 
@@ -4836,7 +4825,7 @@ Pregão eletrônico. Padrão para aquisição de bens, e serviços, comuns. Meno
 
 **Contratação direta (inexigibilidade ou dispensa) e licitação especial do CPSI.** Enquanto a dispensa por valor e a inexigibilidade por fornecedor exclusivo aplicam-se a hipóteses estritas da Lei 14.133/2021, o Marco Legal das Startups (LC 182/2021, arts. 12 a 15) instituiu uma modalidade especial de licitação para testar soluções inovadoras por meio do Contrato Público para Solução Inovadora (CPSI): o instrumento tem vigência de até 12 meses (prorrogável por mais 12), teto legal de R$ 1,6 milhão por contrato e autoriza celebrar, sem nova licitação, contrato posterior de fornecimento por até 24 meses (prorrogáveis por mais 24), limitado a cinco vezes o teto legal máximo do CPSI, o que corresponde a até R$ 8 milhões atualizáveis pelo IPCA (art. 12, § 3º, e art. 15, § 3º, da LC 182/2021, ver [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 1: MARCO LEGAL DAS STARTUPS: LC 182/2021|Capítulo 1 do Vol. 8]]).
 
-Requisitos documentais típicos. SICAF (Sistema de Cadastramento Unificado de Fornecedores) em dia. CNDs (Certidões Negativas de Débitos) federais, e estaduais. Comprovação de capacidade técnica (Atestados). Declarações de idoneidade. Preparar essa documentação pela primeira vez leva semanas. Mantê-la em dia é trabalho contínuo.
+Requisitos documentais típicos. SICAF (Sistema de Cadastramento Unificado de Fornecedores) em dia. CNDs (Certidões Negativas de Débitos) federais, e estaduais. Comprovação de capacidade técnica. Atestados. Declarações de idoneidade. Preparar essa documentação pela primeira vez leva semanas. Mantê-la em dia é trabalho contínuo.
 
 > [!warning] Particularidades de venda para governo
 > O pagamento do governo demora. Trinta, sessenta, noventa, às vezes cento e oitenta dias. A sua tesouraria precisa comportar. A política afeta. Mudança de governo reverte prioridades. Os contratos em andamento raramente são cancelados, mas novos podem ser paralisados. O compliance é reforçado. A Lei Anticorrupção (12.846/2013) pune pessoas jurídicas que oferecem vantagem indevida. O seu time comercial precisa saber o que pode, e não pode, fazer em jantar, evento, ou presente. Não subestime.
@@ -4919,13 +4908,13 @@ flowchart LR
 
 **Freemium versus período de teste (*trial*).** Na estratégia de entrada guiada pelo produto, a escolha central opõe dois formatos de experimentação. O modelo *freemium* oferece uma versão gratuita permanente com recursos ou limites reduzidos, o que amplia o alcance orgânico e a viralidade da base, mas exige margem para sustentar usuários não pagantes. Já o *trial* libera a experiência completa do software por um prazo fechado (geralmente de sete a trinta dias) antes de exigir a assinatura, acelerando a decisão de compra às custas de um topo de funil menor. Operações maduras frequentemente adotam o formato híbrido, combinando um plano gratuito contínuo com a liberação temporária das funcionalidades avançadas.
 
-**Activation, e aha moment.** O momento em que o novo usuário percebe valor pela primeira vez. O objetivo. Reduzir tempo entre signup e aha (Dropbox). Arquivo sincronizado entre dispositivos (Slack). Mensagem enviada em canal de time real (Figma). Arquivo colaborado em tempo real. A sua empresa tem que identificar o aha, e instrumentar para medir quantos usuários atingem.
+**Activation, e aha moment.** O momento em que o novo usuário percebe valor pela primeira vez. O objetivo. Reduzir tempo entre signup e aha. Dropbox. Arquivo sincronizado entre dispositivos. Slack. Mensagem enviada em canal de time real. Figma. Arquivo colaborado em tempo real. A sua empresa tem que identificar o aha, e instrumentar para medir quantos usuários atingem.
 
 **PQL (Product Qualified Lead).** Usuário que, pela forma como usa o produto, está sinalizando prontidão para upgrade. Por exemplo. Atingiu limite do plano grátis. Convidou N pessoas. Usou feature premium. Teve N dias de uso consecutivo. PQL é o equivalente PLG do MQL.
 
-**Viral loops.** Mecanismos que fazem usuários trazerem outros usuários (Exemplos). Convite obrigatório, Slack só funciona com outros na empresa. Branding viral, email do Superhuman saindo com "enviado via Superhuman". Incentivo por indicação, Dropbox dando espaço extra por amigo convidado. Colaboração, Figma exigindo compartilhamento, para que o colega possa editar. K-factor acima de um significa crescimento orgânico exponencial. Raro, e valioso.
+**Viral loops.** Mecanismos que fazem usuários trazerem outros usuários. Exemplos. Convite obrigatório, Slack só funciona com outros na empresa. Branding viral, email do Superhuman saindo com "enviado via Superhuman". Incentivo por indicação, Dropbox dando espaço extra por amigo convidado. Colaboração, Figma exigindo compartilhamento, para que o colega possa editar. K-factor acima de um significa crescimento orgânico exponencial. Raro, e valioso.
 
-**Product-led onboarding.** Tutorial in-product, tooltips, e checklists de progresso. Cada usuário avança sozinho. Sem CSM dedicado (Ferramentas). Appcues, Userflow, Pendo, Chameleon.
+**Product-led onboarding.** Tutorial in-product, tooltips, e checklists de progresso. Cada usuário avança sozinho. Sem CSM dedicado. Ferramentas. Appcues, Userflow, Pendo, Chameleon.
 
 **Reverse trial.** O usuário começa com todas as features (trial). Algumas desaparecem no dia quatorze. Mas o produto continua funcionando. Converte melhor que trial puro, porque já criou hábito.
 
@@ -4988,7 +4977,7 @@ Cento e cinquenta em diante. RevOps é função estratégica, com VP, ou C-level
 
 Virar burocracia. RevOps que gasta mais tempo fazendo relatório, do que resolvendo problema.
 
-Brigas territoriais. Sales, Marketing, e CS, resistem a perder controle de "suas" ferramentas (Solução). Mandato claro do CEO.
+Brigas territoriais. Sales, Marketing, e CS, resistem a perder controle de "suas" ferramentas; a solução é Mandato claro do CEO.
 
 Dado sem ação. Dashboards bonitos que ninguém usa para decisão.
 
@@ -5083,7 +5072,8 @@ O cruzamento das quatro curvas acumuladas revela dois marcos:
 
 Visualização das quatro curvas do PSM (exemplo ilustrativo).
 
-> [!note] Leitura prática do gráfico: o intervalo aceitável de preço forma-se na zona central onde as curvas de "muito barato" e "muito caro" se cruzam com as de "barato" e "caro".
+> [!note] Leitura prática do gráfico
+> o intervalo aceitável de preço forma-se na zona central onde as curvas de "muito barato" e "muito caro" se cruzam com as de "barato" e "caro".
 
 ```mermaid
 xychart-beta
@@ -5102,7 +5092,7 @@ Optimum Price Point (OPP). Onde a intersecção de "caro demais", e "barato dema
 
 Range of Acceptable Prices (RAP). Faixa entre o ponto de rejeição por barato, e a rejeição por caro.
 
-Amostra mínima: pelo menos 50 respondentes qualificados por segmento de ICP analisado (abaixo desse volume em B2B, prefira conduzir de 10 a 15 entrevistas qualitativas profundas) (Ferramentas). Google Forms, ou Typeform, bastam.
+Amostra mínima: pelo menos 50 respondentes qualificados por segmento de ICP analisado (abaixo desse volume em B2B, prefira conduzir de 10 a 15 entrevistas qualitativas profundas). Ferramentas. Google Forms, ou Typeform, bastam.
 
 **Value-based pricing, método direto.** Perguntar ao cliente. "Que valor você obtém com o produto em doze meses?" (economia, receita adicional, tempo economizado vezes salário). Precificar em dez a trinta por cento desse valor entregue. Deixa setenta a noventa por cento como ROI claro para o cliente.
 
@@ -5175,17 +5165,17 @@ flowchart LR
 
 Decoy effect aplicado. O tier do meio deve ser a escolha "óbvia". Se noventa e cinco por cento escolhem Basic, os tiers estão mal-desenhados. Basic com valor demais. Ou Pro com justificativa fraca.
 
-**Per-User (seat-based).** Preço escala com número de usuários. Padrão em Slack, Notion, Linear (Vantagem). Cresce organicamente com adoção (Desvantagem). O cliente economiza compartilhando contas.
+**Per-User (seat-based).** Preço escala com número de usuários. Padrão em Slack, Notion, Linear. Vantagem. Cresce organicamente com adoção. Desvantagem. O cliente economiza compartilhando contas.
 
-**Usage-based (consumption).** Preço por consumo (API calls, transações, GB de dados). Cresce fortemente entre 2022 e 2026, com produtos AI-native (Vantagem). Alinha preço ao valor entregue, e escala com sucesso do cliente (Desvantagem). Imprevisibilidade de receita, e de custo, para o cliente (Exemplos). Snowflake, Twilio, OpenAI.
+**Usage-based (consumption).** Preço por consumo (API calls, transações, GB de dados). Cresce fortemente entre 2022 e 2026, com produtos AI-native. Vantagem. Alinha preço ao valor entregue, e escala com sucesso do cliente. Desvantagem. Imprevisibilidade de receita, e de custo, para o cliente. Exemplos. Snowflake, Twilio, OpenAI.
 
 **Modelo Híbrido (assinatura fixa + consumo variável).** Combina uma mensalidade mínima previsível com cobrança adicional conforme o volume excedente, capturando melhor o valor em bases heterogêneas (exemplo: R$ 490/mês incluindo 10 mil chamadas de API, mais R$ 0,05 por chamada adicional).
 
-**Enterprise Custom.** Sem preço público (Negociação). Acima de ticket de R$ 50 a 100 mil por ano, ou em deals estratégicos. Base. "Floor price" interno, mais flex de vinte a quarenta por cento em negociação.
+**Enterprise Custom.** Sem preço público. Negociação. Acima de ticket de R$ 50 a 100 mil por ano, ou em deals estratégicos. Base. "Floor price" interno, mais flex de vinte a quarenta por cento em negociação.
 
 #### 3. Packaging, como features mapeiam a tiers
 
-**Princípios:** O tier baixo captura alcance amplo (self-serve, PMEs) (Features). Essenciais, sem restrições operacionais severas. O tier médio é onde a maior parte converte (Features). Integrações, relatórios avançados, suporte estendido. O tier alto é para enterprise (Features). SSO, SLA, security compliance, CSM dedicado, custom contracts.
+**Princípios:** O tier baixo captura alcance amplo (self-serve, PMEs). Features. Essenciais, sem restrições operacionais severas. O tier médio é onde a maior parte converte. Features. Integrações, relatórios avançados, suporte estendido. O tier alto é para enterprise. Features. SSO, SLA, security compliance, CSM dedicado, custom contracts.
 
 Features que tipicamente são "enterprise-only". SSO (Single Sign-On) via SAML, ou OIDC. Audit logs completos. Controle granular de permissões. Integrações avançadas (API, webhooks com SLA). SOC 2, ou ISO 27001, compliance demonstrado. SLA com penalidade. Account Manager dedicado.
 
@@ -5272,7 +5262,7 @@ O pricing de charme (charm pricing) funciona no Brasil. Mas com especificidade l
 No Brasil, os limiares mais eficazes observados em produtos de consumo e SMB.
 
 ```text
-Abaixo de R$ 100:  R$ 89, R$ 97 ou R$ 99 (planos de entrada e autoatendimento (Ref). Thomas e Morwitz, 2005)
+Abaixo de R$ 100:  R$ 89, R$ 97 ou R$ 99 (planos de entrada e autoatendimento. Ref. Thomas e Morwitz, 2005)
 Abaixo de R$ 200:  R$ 189 ou R$ 197
 Abaixo de R$ 500:  R$ 490 ou R$ 497
 Abaixo de R$ 1.000: R$ 970 ou R$ 990
@@ -5300,7 +5290,7 @@ A empresa não precisa cobrar o mínimo. Mas precisa entender que cobrar preço 
 
 **Cláusula contratual de reajuste anual:** no Brasil, a correção monetária automática exige previsão expressa em contrato atrelada a índice oficial de preços (IPCA ou IGP-M) e periodicidade mínima de doze meses (Lei 10.192/2001). Qualquer ganho real acima da inflação (como 1 a 3 pontos percentuais adicionais ou migração de faixa) deve ser negociado na janela de renovação com aviso prévio de 60 a 90 dias (ver [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 5: ARQUITETURA CONTRATUAL PARA STARTUPS: OPERAÇÃO E CONTRATOS EM PROFUNDIDADE POR TIPO|Capítulo 5 do Vol. 8]]).
 
-Estrutura de comunicação. Comunicar com sessenta a noventa dias de antecedência. Explicar racional (novas features, melhorias, inflação). Oferecer lock-in de um a dois anos, com preço atual, a quem aceitar (Grandfathering). Manter clientes muito antigos no preço antigo, por período limitado (seis a dezoito meses), depois migrar.
+Estrutura de comunicação. Comunicar com sessenta a noventa dias de antecedência. Explicar racional (novas features, melhorias, inflação). Oferecer lock-in de um a dois anos, com preço atual, a quem aceitar. Grandfathering. Manter clientes muito antigos no preço antigo, por período limitado (seis a dezoito meses), depois migrar.
 
 Elasticidade típica observada em SaaS B2B. Reajuste de cinco a oito por cento. O churn marginal aumenta zero vírgula cinco a um por cento. A receita líquida sobe. Reajuste de dez a quinze por cento. O churn aumenta dois a quatro por cento. Ainda rende líquido. Reajuste maior que vinte por cento. Perigoso, sem repositioning de valor.
 
@@ -5321,7 +5311,7 @@ Quando faz sentido: em produtos self-serve com volume suficiente para cálculo a
 
 **Quando não faz sentido testar no ar:** em vendas corporativas (*enterprise*), onde a amostra é pequena demais e há dezenas de variáveis interferindo em cada negociação, ou em mudanças estruturais de modelo de cobrança. Nesses cenários, conduza pesquisa qualitativa de disposição a pagar antes de alterar a tabela.
 
-**Como:** Segmentar tráfego 50/50, por hash de visitor ID. Medir. Conversão, ticket médio, churn de noventa dias, e LTV estimado. Mínimo de quatro a oito semanas, para dado robusto (Ferramentas). Stripe, Chargebee, ferramentas nativas de payment.
+**Como:** Segmentar tráfego 50/50, por hash de visitor ID. Medir. Conversão, ticket médio, churn de noventa dias, e LTV estimado. Mínimo de quatro a oito semanas, para dado robusto. Ferramentas. Stripe, Chargebee, ferramentas nativas de payment.
 
 Ética, e legal. Evitar cobrar preços diferentes para perfis diferentes, sem justificativa (pode violar CDC). Teste A/B por timing, ou cohort, é aceito.
 
@@ -5404,9 +5394,9 @@ Enquanto qualquer guia introdutório de SaaS apresenta MRR, ARR, CAC e LTV, geri
 
 **Retenção Líquida de Receita (*Net Revenue Retention*, ou NRR, definida na seção 4 deste capítulo e aplicada aqui à leitura de safras).** Calculada pela fórmula `((MRR inicial da safra + Expansão - Contração - Churn) / MRR inicial da safra) × 100`, mede a evolução da mesma coorte de clientes doze meses depois. Em SaaS B2B, operações líderes (*best-in-class*) atingem de 120% a 140%, entre 105% e 120% o resultado é saudável, e abaixo de 95% acende o alerta vermelho. Um NRR acima de 100% comprova que a base cresce sozinha mesmo antes de somar novos clientes.
 
-**GRR (Gross Revenue Retention).** ((MRR cohort hoje, excluindo expansão) dividido por (MRR cohort doze meses atrás)) vezes cem. Mede só churn, e downgrade, sem compensação por expansão. Best-in-class. Maior que noventa por cento (Bom). Oitenta e cinco a noventa por cento (Alarmante). Menor que oitenta por cento. GRR baixo com NRR alto indica dependência de expansão para compensar fuga. Estruturalmente frágil.
+**GRR (Gross Revenue Retention).** ((MRR cohort hoje, excluindo expansão) dividido por (MRR cohort doze meses atrás)) vezes cem. Mede só churn, e downgrade, sem compensação por expansão. Best-in-class. Maior que noventa por cento. Bom. Oitenta e cinco a noventa por cento. Alarmante. Menor que oitenta por cento. GRR baixo com NRR alto indica dependência de expansão para compensar fuga. Estruturalmente frágil.
 
-**CAC Payback.** CAC dividido por (Gross margin vezes MRR). Quantos meses de margem para pagar o CAC. Best-in-class SaaS B2B. Menor que doze meses (Aceitável). Doze a vinte e quatro (Problema). Maior que vinte e quatro meses. Em D2C físico, payback mais apertado (três a seis meses), dado risco de churn mais alto.
+**CAC Payback.** CAC dividido por (Gross margin vezes MRR). Quantos meses de margem para pagar o CAC. Best-in-class SaaS B2B. Menor que doze meses. Aceitável. Doze a vinte e quatro; o problema é que Maior que vinte e quatro meses. Em D2C físico, payback mais apertado (três a seis meses), dado risco de churn mais alto.
 
 **Quick Ratio de SaaS:** `Quick Ratio = (MRR novo + MRR de expansão) / (MRR perdido por cancelamento + MRR de redução de plano)`. Mede a velocidade de adição de receita frente às perdas da base: acima de 4 indica tração forte, entre 2 e 4, crescimento saudável, abaixo de 2, alerta de perda excessiva.
 
@@ -5460,7 +5450,7 @@ Empresas transacionais (e-commerce, varejo, serviço pontual) frequentemente ten
 
 Quando a transição faz sentido. O produto tem uso contínuo (não compra esporádica). Há valor incremental na recorrência (conveniência, preço menor, exclusividade). A categoria permite previsibilidade de uso (alimentos, cosméticos, produtos de conveniência).
 
-Exemplos brasileiros bem-sucedidos (Leiturinha). Livro infantil mensal, com curadoria. Valor incremental, curadoria educacional. Wine.com.br. Vinho mensal, com curadoria. Valor incremental, acesso a vinhos que não encontraria. Wellhub (antigo Gympass, fundado no Brasil em 2012): assinatura corporativa de acesso a milhares de academias e estúdios parceiros, com valor recorrente sustentado pela variedade de rede e pelo subsídio de RH das empresas contratantes.
+Exemplos brasileiros bem-sucedidos. Leiturinha. Livro infantil mensal, com curadoria. Valor incremental, curadoria educacional. Wine.com.br. Vinho mensal, com curadoria. Valor incremental, acesso a vinhos que não encontraria. Wellhub (antigo Gympass, fundado no Brasil em 2012): assinatura corporativa de acesso a milhares de academias e estúdios parceiros, com valor recorrente sustentado pela variedade de rede e pelo subsídio de RH das empresas contratantes.
 
 **Onde o modelo costuma naufragar:** clubes de caixas surpresa de cosméticos que proliferaram no Brasil após 2015 sem curadoria personalizada (sofrendo com cancelamento elevado assim que a assinante acumulava produtos repetidos na gaveta) e assinaturas rígidas de refeições prontas semanais pós-2018, nas quais a falta de flexibilidade no cardápio gerava fadiga rápida.
 
@@ -5799,7 +5789,7 @@ Esse processo leva 30 a 60 minutos. Para uma negociação com impacto de seis d�
 
 **Aceitar a primeira âncora como referência.** A âncora da outra parte não tem nenhuma relação com o valor real do que está sendo negociado. Rejeite-a de forma explícita antes de apresentar a sua contraproposta.
 
-**Entrar em negociação importante sem preparação.** A negociação de improviso favorece a parte mais experiente (Sempre).
+**Entrar em negociação importante sem preparação.** A negociação de improviso favorece a parte mais experiente. Sempre.
 
 ### Checklist da mesa de negociação
 
@@ -5871,7 +5861,7 @@ Conceitos-chave:
 
 - Reservation value: ponto em que "sair" é melhor que "fechar".
 
-##### Roteiro de aplicação prática na operação
+##### Aplicação imediata na rotina da empresa
 
 Passo 1: Prepare (70% do resultado depende de preparação):
 
@@ -5945,11 +5935,11 @@ Metodologia que rejeita "win-win" como ingênuo e aplica técnicas táticas emoc
 
 8. Black swans: 3 pedaços de informação que, se descobertos, mudam tudo, procurar ativamente.
 
-##### Aplicação imediata na rotina da empresa
+##### Protocolo prático de execução
 
 Passo 1: Preparação emocional tanto quanto racional.
 
-Passo 2: Mirror + label desde o início (Desarma).
+Passo 2: Mirror + label desde o início. Desarma.
 
 Passo 3: Calibrated questions em vez de demandas. "Como podemos fazer isso funcionar pra você?" move para outro lado o peso da solução.
 
@@ -6003,7 +5993,7 @@ Protocolo específico para sequência de counter-offers em negociação de preç
 
 Entre cada oferta, **calibrated questions** e pausas: não só contra-oferta mecânica.
 
-##### Passos práticos de implantação
+##### Execução prática com a equipe
 
 Aplicado em compras/vendas que permitem multiple rounds (imóveis, equipamentos, serviços, freelance). Não aplicável a pricing de produto em massa.
 
@@ -6055,7 +6045,7 @@ Framework de 5 passos para negociar com pessoas difíceis:
 
 5. Use power to educate: se outro lado resiste completamente, demonstre custo de não acordo. Não ameaçar, educar sobre realidade.
 
-##### Aplicação imediata na rotina da empresa
+##### Protocolo prático de execução
 
 Respeite rigorosamente a sequência das cinco etapas: se você tentar educar pelo custo do impasse antes de controlar a própria reação e desarmar o interlocutor, a conversa degrada em confronto aberto. Na segunda-feira, escolha a negociação mais tensa da semana e escreva previamente uma frase para cada um dos cinco passos antes de entrar na sala.
 
@@ -6542,7 +6532,7 @@ BI self-service. Os usuários de negócio podem fazer as próprias perguntas, se
 
 Reverse ETL. Os dados transformados voltam para sistemas operacionais (enriquecimento de CRM, por exemplo).
 
-Custo mensal típico, em empresa Série A. Fivetran, R$ 1-5 mil. Snowflake, R$ 2-10 mil. dbt Cloud, R$ 500-2 mil. Looker ou Metabase, R$ 1-5 mil. Segment, R$ 2-8 mil (Total). R$ 6-30 mil por mês. Escala com volume.
+Custo mensal típico, em empresa Série A. Fivetran, R$ 1-5 mil. Snowflake, R$ 2-10 mil. dbt Cloud, R$ 500-2 mil. Looker ou Metabase, R$ 1-5 mil. Segment, R$ 2-8 mil. Total. R$ 6-30 mil por mês. Escala com volume.
 
 #### 2. Métricas, formulações precisas
 
@@ -6854,10 +6844,10 @@ Quando NÃO usar RAG. O conhecimento já está no modelo (fatos gerais, línguas
 
 Arquitetura RAG moderna (2026), em quatro etapas.
 
-1 (Ingestão). Documentos para chunking (parágrafos coerentes, de duzentos a oitocentos tokens), depois embeddings, depois vetores em DB.
+1. Ingestão. Documentos para chunking (parágrafos coerentes, de duzentos a oitocentos tokens), depois embeddings, depois vetores em DB.
 2. DB vetorial. Pinecone, Weaviate, Qdrant, pgvector (extension do Postgres), ChromaDB.
-3 (Retrieval). Consulta para embedding, depois busca semântica top-K, depois re-ranking opcional.
-4 (Generation). Contexto recuperado mais pergunta, depois LLM, depois resposta.
+3. Retrieval. Consulta para embedding, depois busca semântica top-K, depois re-ranking opcional.
+4. Generation. Contexto recuperado mais pergunta, depois LLM, depois resposta.
 
 A arquitetura RAG completa, incluindo técnicas avançadas.
 
@@ -6917,7 +6907,7 @@ Grounding em RAG. Forçar o modelo a responder baseado em contexto recuperado, n
 
 Saída estruturada (*structured output* via JSON Schema): garante que a resposta respeite o formato exigido pelo código, mas não impede alucinação factual. Permita sempre campos `null` ou `"não_encontrado"` no schema para que o modelo não invente dados apenas para preencher um campo obrigatório.
 
-Citação obrigatória. Exigir que a resposta cite a passagem específica do contexto (Auditável).
+Citação obrigatória. Exigir que a resposta cite a passagem específica do contexto. Auditável.
 
 Verification loop. Segundo LLM verifica se a resposta do primeiro está coerente com o contexto.
 
@@ -6942,7 +6932,7 @@ Exemplo realista (produto de chat com RAG). Vinte inferências por usuário, por
 
 Custo. 20 vezes (2.000 vezes 5 mais 500 vezes 15) dividido por 1.000.000 igual a US$ 0,35 por usuário, por mês, ou cerca de R$ 1,80.
 
-Parece pequeno (Mas). Power users consomem dez a cinquenta vezes isso. Se dez por cento da base consome cinquenta vezes, o custo efetivo sobe para US$ 1 a 5 por usuário, por mês. Em um produto com mensalidade de US$ 10, apenas a conta de inferência de IA passa a consumir de 10% a 50% da receita bruta (derrubando a margem bruta para a faixa de 50% a 90% antes mesmo de servidores e suporte, ou gerando prejuízo direto quando um usuário pesado consome R$ 300 de tokens num plano de R$ 49).
+Parece pequeno. Mas. Power users consomem dez a cinquenta vezes isso. Se dez por cento da base consome cinquenta vezes, o custo efetivo sobe para US$ 1 a 5 por usuário, por mês. Em um produto com mensalidade de US$ 10, apenas a conta de inferência de IA passa a consumir de 10% a 50% da receita bruta (derrubando a margem bruta para a faixa de 50% a 90% antes mesmo de servidores e suporte, ou gerando prejuízo direto quando um usuário pesado consome R$ 300 de tokens num plano de R$ 49).
 
 Técnicas de redução de custo. Caching, respostas idênticas, ou similares, reutilizadas. Reduções de trinta a setenta por cento em workflows repetitivos. Modelo cascata, tentar barato primeiro, e escalar se necessário. Prompt enxuto, cada palavra custa. Auditar prompts por ineficiência. Fine-tuning, modelo pequeno fine-tuned pode substituir modelo grande genérico (até dez vezes menor custo). Rate limiting por tier, freemium com limite, e paid tiers com caps. Monitoramento por usuário, detectar outliers que consomem desproporcionalmente.
 
@@ -7103,11 +7093,11 @@ A distinção importa porque cada categoria tem implicações diferentes. Itera�
 
 ### Os seis tipos de pivot
 
-**1. Pivot de cliente (*customer pivot*).** Mantém o problema e a solução, mas muda o segmento de cliente-alvo. Isso acontece quando Você descobre que o cliente que imaginava inicialmente não é quem mais sofre, ou mais paga, por esse problema. Um cliente adjacente emerge como mais adequado (Exemplo). Produto pensado para pequena empresa, mas que decola em médias. O pivot é reposicionar ICP, e go-to-market, sem mudar o produto materialmente.
+**1. Pivot de cliente (*customer pivot*).** Mantém o problema e a solução, mas muda o segmento de cliente-alvo. Isso acontece quando Você descobre que o cliente que imaginava inicialmente não é quem mais sofre, ou mais paga, por esse problema. Um cliente adjacente emerge como mais adequado. Exemplo. Produto pensado para pequena empresa, mas que decola em médias. O pivot é reposicionar ICP, e go-to-market, sem mudar o produto materialmente.
 
 **2. Pivô de problema (*problem pivot*).** Mantém o perfil de cliente e o conhecimento profundo do seu contexto operacional, mas muda a dor específica que o produto resolve. Ocorre quando o fundador descobre que o problema priorizado inicialmente é secundário diante de uma dor adjacente muito mais aguda e orçada dentro da mesma empresa: por exemplo, uma startup que começou vendendo um CRM comercial para pequenas empresas e, ao notar a desorganização fiscal dos clientes, passou a fornecer uma plataforma de conciliação contábil para esse mesmo público.
 
-**3. Solution pivot.** Mantém o problema, e o cliente. Muda radicalmente a solução. O padrão. A solução imaginada não é escalável, não tem unit economics, ou não é adotada. Mas a dor é real, e o cliente existe (Exemplo). Startup que tentou solução de software puro para problema de logística, percebeu que exige serviço híbrido (software mais operação manual), e pivotou para modelo operacional diferente. Mantendo cliente, e problema.
+**3. Solution pivot.** Mantém o problema, e o cliente. Muda radicalmente a solução. O padrão. A solução imaginada não é escalável, não tem unit economics, ou não é adotada. Mas a dor é real, e o cliente existe. Exemplo. Startup que tentou solução de software puro para problema de logística, percebeu que exige serviço híbrido (software mais operação manual), e pivotou para modelo operacional diferente. Mantendo cliente, e problema.
 
 **4. Pivô de modelo de negócios (*business model pivot*).** Mantém o produto e o perfil de cliente, mas altera a forma de cobrança: acontece quando uma operação B2C sustentada por anúncios migra para assinatura, quando um SaaS troca a licença por assento pela cobrança por uso ou quando fintechs que dependiam apenas de *float* e crédito passam a cobrar mensalidade por ferramentas de gestão.
 
@@ -7201,7 +7191,7 @@ Pivot precisa de prazo. Tipicamente noventa a cento e oitenta dias para gerar si
 
 **5. Comunicar o pivot como "evolução", em vez de "mudança".** Para proteger o ego do fundador, a narrativa é de "estamos evoluindo para atender melhor". O time, e os investidores, percebem a maquiagem. Perdem confiança na comunicação subsequente da empresa. Honestidade direta ("estávamos em X, decidimos ir para Y por razões Z") funciona melhor que narrativa polida.
 
-**6. Pivotar sem desligar a direção antiga.** A empresa tenta executar caminho novo, e antigo, simultaneamente, por "segurança" (Resultado). Execução medíocre em ambos. Nenhum validado. Capital queimado duplamente. Pivot real exige decisão de descontinuar o antigo. Mesmo com dor.
+**6. Pivotar sem desligar a direção antiga.** A empresa tenta executar caminho novo, e antigo, simultaneamente, por "segurança"; como resultado, Execução medíocre em ambos. Nenhum validado. Capital queimado duplamente. Pivot real exige decisão de descontinuar o antigo. Mesmo com dor.
 
 ### Sinais de que você precisa pivotar
 

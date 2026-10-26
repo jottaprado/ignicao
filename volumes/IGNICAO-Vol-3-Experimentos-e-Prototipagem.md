@@ -437,7 +437,7 @@ Resultado: deal melhor (ou deal evitado, que também pode ser bom).
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
 - **Time vermelho de fachada:** escalar colegas que apenas concordam com o plano esvazia o exercício.
-- **Time azul defensivo:** reagir emocionalmente às decisivas bloqueia o refinamento da hipótese.
+- **Time azul defensivo:** reagir emocionalmente às críticas bloqueia o refinamento da hipótese.
 - **Prazo insuficiente:** reservar poucas horas para analisar uma aposta complexa reduz a dinâmica a mera formalidade.
 - **Falta de registro da decisão:** não documentar as vulnerabilidades apontadas impede rastrear os riscos caso o problema se confirme meses depois.
 
@@ -1809,7 +1809,7 @@ Aqui está a Regra do Descarte Sem Dor desta Fase 9 (no espírito do *Sprint* da
 ---
 
 > [!question] FMF Check da Fase 9: encaixe fundador-mercado (*founder-market fit*)
-> As ideias de solução que estão emergindo são fruto da sua experiência única com o problema, ou são soluções genéricas que apareceriam em qualquer brainstorm? Se forem genéricas, provavelmente você não está no fundador-market-fit que imagina, ou está no estágio em que precisa mergulhar mais fundo no mercado antes de prototipar. Entrevistar dez operadores experientes do setor antes de prototipar é mais barato que prototipar solução genérica.
+> As ideias de solução que estão emergindo são fruto da sua experiência única com o problema, ou são soluções genéricas que apareceriam em qualquer brainstorm? Se forem genéricas, provavelmente você não está no founder-market-fit que imagina, ou está no estágio em que precisa mergulhar mais fundo no mercado antes de prototipar. Entrevistar dez operadores experientes do setor antes de prototipar é mais barato que prototipar solução genérica.
 
 ### Por que se apaixonar pela primeira ideia de solução cega você para alternativas dez vezes melhores
 
@@ -1881,7 +1881,7 @@ Desejabilidade: o usuário quer isso? Responda com base nas evidências colhidas
 
 **Exequibilidade (*Feasibility*): conseguimos construir e entregar essa solução no prazo de um MVP enxuto com as capacidades técnicas, operacionais e regulatórias que temos hoje? (Junto com a Desejabilidade para o usuário e a Viabilidade econômica para o negócio, forma o tripé clássico DVF: Desejabilidade, Viabilidade e Exequibilidade**, pontuado de 1 a 5 em cada eixo.)
 
-Dê nota de um a cinco em cada dimensão (Multiplique). Selecione os três a cinco conceitos com maior pontuação.
+Dê nota de um a cinco em cada dimensão, multiplique os fatores e Selecione os três a cinco conceitos com maior pontuação.
 
 > [!note] O tripé DVF e a Matriz Impacto × Esforço são complementares
 > A pontuação pelo tripé **DVF (Desejabilidade, Viabilidade e Exequibilidade)** de 1 a 5 em cada eixo funciona como primeira peneira rápida para reduzir trinta ideias brutas para três a cinco conceitos candidatos. Em seguida, a Matriz Impacto × Esforço (aplicada no exemplo prático do PadariaPro mais adiante) posiciona visualmente esses conceitos finalistas para escolher quais dois protótipos construir e testar primeiro.
@@ -2252,7 +2252,7 @@ As **4 etapas do Diamante Duplo** do Design Council britânico e sua correspond�
 5. **Testar (*Test*, 2º Diamante / Validar em Uso):** colocar o protótipo nas mãos de usuários reais do ICP, observar onde travam em silêncio e iterar o desenho.
 2. **Definir (*Define*):** recortar o problema prioritário com base nas evidências de campo.
 
-4 (Prototype).
+4. **Prototype:**
 
 Passo 2: Define: sintetize em "point of view" statement, "[Usuário] precisa [necessidade] porque [insight]".
 
@@ -4216,7 +4216,7 @@ Ao longo deste capítulo, veremos como corrigir os dois erros que quase mataram 
 
 **Dependência técnica e de APIs decisivas.** Negócios inteiramente dependentes da política de preços ou das regras de uma única API de terceiros (como mudanças nas tarifas por mensagem da API oficial do WhatsApp Business da Meta, limites de requisição de provedores de IA ou alterações unilaterais em conectores de ERP) podem ver sua margem bruta evaporar da noite para o dia quando o provedor reajusta a tabela ou lança nativamente a funcionalidade que você vendia.
 
-**Dependência de canal.** Google Ads, e Meta Ads. Mudança de algoritmo. Preço do CPC. SEO. O Google atualiza. Tráfego orgânico cai trinta a sessenta por cento (Social). A plataforma prioriza conteúdo próprio. Reach de brand despenca.
+**Dependência de canal.** Google Ads, e Meta Ads. Mudança de algoritmo. Preço do CPC. SEO. O Google atualiza. Tráfego orgânico cai trinta a sessenta por cento. Social. A plataforma prioriza conteúdo próprio. Reach de brand despenca.
 
 **Dependência de integração.** Conectado a Salesforce, HubSpot, ou ERP específico. Se a plataforma fechar conexão, o produto perde valor para sessenta por cento dos clientes.
 
@@ -4323,7 +4323,7 @@ Depois de estruturar a partida a frio (*cold start*), a liquidez e a defesa cont
 
 - **Liquidez desagregada por submercado (e nunca apenas a média geral):** um marketplace pode exibir uma taxa média enganosa de 35% de pedidos fechados no painel consolidado enquanto tem 70% de liquidez na capital e apenas 5% no interior, ou alta conversão na categoria de presentes até R$ 100 e zero em kits acima de R$ 500. Acompanhe a liquidez separando sempre geografia × categoria × faixa de horário.
 
-Time-to-fill (tempo entre query, e match). Métrica complementar. Mesmo com trinta e cinco por cento de match rate, se leva quarenta e oito horas, a experiência é ruim. Alvo varia por categoria (Mobility). Segundos a minutos. Labor marketplace. Horas a dias. M&A. Semanas a meses.
+Time-to-fill (tempo entre query, e match). Métrica complementar. Mesmo com trinta e cinco por cento de match rate, se leva quarenta e oito horas, a experiência é ruim. Alvo varia por categoria. Mobility. Segundos a minutos. Labor marketplace. Horas a dias. M&A. Semanas a meses.
 
 Fill rate por horário, ou sazonalidade. Demanda concentrada em horário sem oferta suficiente, igual a experiência ruim, mesmo com liquidez agregada boa. Incentivos dinâmicos (surge pricing) ajustam.
 
@@ -4528,23 +4528,22 @@ Além dos indicadores clássicos de recorrência (ARR, NRR, CAC e LTV), o painel
 
 ### Achar que a venda acabou na assinatura do contrato B2B: o protocolo de 30 dias para ativar os usuários finais (C) e as armadilhas fatais do modelo
 
-> [!warning] Armadilhas mais comuns
 Para escapar da **Armadilha da Dupla Aprovação** que quase derrubou o contrato da Dra. Camila no *call center* de Contagem, aplique o Protocolo de Ativação D+30 em quatro passos assim que o contrato B2B for assinado: **(1) Cadastro sem fricção (*Zero-Friction Provisioning*, D+1 a D+5): nunca espere que mil trabalhadores baixem um aplicativo e preencham quinze campos por conta própria, receba a lista básica de elegibilidade (ou dispare link único via WhatsApp/QR Code no crachá e no refeitório) para que o usuário C ative o benefício em dois toques em menos de 60 segundos, (2) Campanha de lançamento coassinada no Dia D (D+7): entregue o "Kit de Lançamento na Ponta"** pronto para o RH (três mensagens curtas de WhatsApp para os líderes de equipe, cartaz com QR Code nos pontos de descanso e um benefício imediato no primeiro acesso, como a avaliação digital de 2 minutos que Camila levou às bancadas do *call center*), (3) Meta de 30% de ativação em 30 dias (D+15 a D+30): acompanhe semanalmente a taxa de adesão por unidade e acione mutirão presencial ou sorteio/incentivo interno se alguma filial ficar abaixo de 20% na segunda semana, e (4) Relatório trimestral de ROI anonimizado para o comprador B (D+90): entregue ao diretor de RH e ao CFO um resumo executivo de uma página mostrando a porcentagem da equipe atendida, as urgências evitadas e a redução estimada de faltas, sempre com dados agregados e anonimizados em estrita conformidade com o art. 11 da LGPD.
 
 > [!warning] Sete armadilhas que destroem operações B2B2C depois da assinatura
 > - **1. Comemorar a assinatura do contrato B e abandonar a ativação de C:** o parceiro B assina, a integração vai ao ar, mas nenhum usuário C usa na ponta. No 12º mês o cancelamento é inevitável.
->
-> Produto com duas interfaces mal pensadas. B reclama de admin ruim. C reclama de experiência. Produto tenta servir dois donos e serve mal aos dois.
->
-> Pricing simplista demais. "Cobro dois por cento de transação" sem entender que alguns Bs são rentáveis e outros não. O pricing precisa tierar por volume, setor, risco.
->
-> SLA sem definição clara. "Downtime máximo um por cento" mas sem especificar janela de medição, manutenção planejada, reembolso. Briga quando o incidente acontece.
->
-> Não investir em developer experience. B decide usar competidor que tem doc melhor, SDK mais claro. DevX é competência core em B2B2C com API.
->
-> Depender de um mega-B para validar modelo. Contrato com unicórnio valida mercado, mas se aquele cliente falha ou renegocia, toda a tese cai. Diversifique desde cedo.
->
-> - **5. Prometer prazos de entrada no ar sem preparar a documentação de segurança e privacidade:** chegar à fase final de compras de um banco, hospital ou grande indústria sem política de segurança da informação, contrato de operador de dados (LGPD) e respostas prontas para a auditoria de TI trava a assinatura por seis meses.
+> [!warning] Sete armadilhas que destroem operações B2B2C
+> - **1. Vender ao parceiro B sem validar a adesão do usuário final C:** fechar o contrato corporativo e concluir a integração técnica, mas descobrir depois que o parceiro B não sabe ativar seus próprios clientes ou colaboradores. Sem uso na ponta, o contrato é cancelado na primeira renovação.
+> - **2. Produto com duas interfaces negligenciadas:** entregar um painel administrativo confuso para o gestor da empresa B e uma experiência cheia de atrito para o usuário final C, falhando nos dois lados da operação.
+> - **3. Precificação linear que ignora o custo de servir cada parceiro:** cobrar um percentual único por transação ou um valor fixo sem considerar que parceiros menores exigem suporte desproporcional. Estruture faixas de preço por volume e pacote mínimo de ativação.
+
+> - **4. Acordo de nível de serviço (SLA) sem regras claras de medição:** prometer disponibilidade de 99% sem especificar janela de apuração, manutenções programadas, tempo de resposta por severidade e limite de créditos de serviço, gerando litígio na primeira instabilidade.
+
+> - **5. Subestimar a experiência do desenvolvedor (*Developer Experience*):** em modelos B2B2C integrados via API ou SDK, documentação incompleta e ambientes de teste (*sandbox*) instáveis fazem o time técnico do parceiro B boicotar a implantação em favor de um concorrente mais simples.
+
+> - **6. Concentrar toda a receita em um único grande parceiro (*whale risk*):** validar o negócio com um único cliente que representa 70% do faturamento transforma a startup em refém de renegociações de preço e mudanças de diretoria daquele parceiro.
+
+> - **7. Prometer prazos de entrada no ar sem preparar a documentação de segurança e privacidade:** chegar à fase final de compras de um banco, hospital ou grande indústria sem política de segurança da informação, controles de acesso, relatórios de testes de intrusão (*pentest*) e adequação à LGPD (ou certificação ISO 27001 / SOC 2) trava o contrato no comitê de risco por meses.
 >
 > Ignorar relacionamento pós-signing. Contrato assinado. CS passa para operação. B se sente abandonado. CSM dedicado ao B é decisivo.
 >
@@ -4643,7 +4642,7 @@ Quatro vantagens estruturais explicam por que empresas como GitLab, Supabase, El
 - **SaaS sobre OSS**: managed hosting de projeto open source. Ex: Databricks, Confluent.
 - **Serviços/support**: OSS grátis + support pago. Ex: Red Hat tradicional.
 - **Dual licensing**: OSS com licença restritiva + licença comercial alternativa. Ex: MySQL histórico.
-**2. Escolha da licença e blindagem jurídica de propriedade intelectual (Lei do Software nº 9.609/1998 e CLA/DCO):**
+
 **2. Escolha da licença e blindagem jurídica de propriedade intelectual (Lei do Software nº 9.609/1998 e CLA/DCO):**
 
 Antes de escolher a licença do repositório, trave duas regras jurídicas indispensáveis no Brasil: primeiro, garanta que todos os contratos de trabalho e de prestação de serviços da sua equipe contenham cláusula expressa de titularidade patrimonial do código a favor da empresa (nos termos do art. 4º da Lei nº 9.609/1998, Lei do Software), segundo, se você pretende manter a prerrogativa de oferecer versão comercial proprietária (*dual licensing*) ou alterar a licença no futuro, exija que todo contribuidor externo assine eletronicamente no GitHub um **CLA (*Contributor License Agreement*)** concedendo licença ampla ou cessão de direitos à mantenedora (diferente do simples *DCO / Developer Certificate of Origin*, que apenas atesta autoria sob a mesma licença aberta e impede relicenciamento posterior sem autorização de cada autor). Compare as quatro famílias de licenças:

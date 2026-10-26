@@ -174,7 +174,7 @@ xychart-beta
 > [!tip] Canvases Visuais: Capital Stack / Waterfall (Fase 14)
 > O *cap table* com *vesting* estruturado nesta fase alimenta diretamente o [[IGNICAO-Vol-5-Financas-e-Captacao#Canvas: Capital Stack / Waterfall Canvas|Canvas: Capital Stack / Waterfall Canvas (Vol. 5)]], que projeta a cascata de recebimento (*waterfall*) entre quotas/ações ordinárias dos fundadores, ações preferenciais de investidores, *pool* de opções (ESOP) e dívida conversível em diferentes cenários de venda da empresa.
 
-> [!warning] Conflitos entre cofundadores estão entre as causas mais citadas de mortalidade precoce de startups (Noam Wasserman, *The Fundador's Dilemmas*): casal sem pacto antenupcial briga pela partilha. Sócios sem acordo brigam pela empresa no tribunal
+> [!warning] Conflitos entre cofundadores estão entre as causas mais citadas de mortalidade precoce de startups (Noam Wasserman, *The Founder's Dilemmas*): casal sem pacto antenupcial briga pela partilha. Sócios sem acordo brigam pela empresa no tribunal
 > Não adie a assinatura do acordo de quotistas. Casal que se separa sem pacto antenupcial transforma a partilha de bens em litígio. Sócios que se separam sem acordo escrito travam a empresa por anos na Justiça. O [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 3: DISPUTA SOCIETÁRIA E SAÍDA DE SÓCIO|Capítulo 3 (Disputa Societária e Saída de Sócio) do Volume 9]] detalha as cláusulas preventivas, a mediação empresarial e a mecânica de apuração de haveres e saída forçada.
 
 ###### Formalização jurídica do equity acordado
@@ -1771,7 +1771,7 @@ SOW (Statement of Work) - por projeto ou implantação sob medida
 O SOW é onde vive o escopo de projetos e implantações. Um MSA bem redigido acompanhado de um SOW vago continua gerando litígio. O que todo SOW precisa definir:
 
 - **Escopo exato dos serviços:** o que está incluído e, explicitamente, o que não está.
-- **Entregáveis com critérios objetivos de aceite:** nunca escreva apenas "sistema funcionando", mas sim "módulo que executa as funções X, Y e Z conforme especificação do Anexo A, considerado aceito se o cliente não apontar falha decisiva fundamentada em até 5 dias úteis após a entrega".
+- **Entregáveis com critérios objetivos de aceite:** nunca escreva apenas "sistema funcionando", mas sim "módulo que executa as funções X, Y e Z conforme especificação do Anexo A, considerado aceito se o cliente não apontar falha crítica fundamentada em até 5 dias úteis após a entrega".
 - **Cronograma com marcos:** datas específicas, não "aproximadamente".
 - **Valor e forma de pagamento:** valor total, parcelamento, condição de reajuste.
 - **Gestão de mudanças (*change order*):** defina o procedimento para pedidos fora do escopo original. Qualquer funcionalidade adicional exige aditivo formal com novo orçamento e prazo, nunca trabalho sem cobrança ou desconto implícito no preço original.
@@ -2149,7 +2149,7 @@ A auditoria jurídica (*due diligence*) padrão em Série A, Série B e M&A cobr
 4. Compliance fiscal. Certidões negativas (ou positivas com efeito de negativa) federal, estadual e municipal, parcelamentos ou transações tributárias ativas (como modalidades de transação da PGFN regidas pela Lei 13.988/2020), autuações em curso e histórico de apuração dos últimos exercícios. Esse bloco consome de quinze a trinta dias se não for mantido em dia.
 5. Compliance LGPD e dados. ROPA (Registro das Atividades de Tratamento, art. 37 da LGPD, em paralelo ao Records of Processing Activities do GDPR art. 30), DPO designado e publicado, log de incidentes de segurança dos últimos vinte e quatro meses, contratos com operadores incluindo DPA. Ver [[#CAPÍTULO 9: LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Capítulo 9 (LGPD, Compliance e Governança de Dados)]].
 6. Propriedade intelectual. Registros de marca no INPI depositados ou concedidos, certificados de registro de programa de computador (facultativos pela Lei 9.609/1998, mas úteis como prova de autoria e anterioridade), patentes em curso, domínios registrados em nome da pessoa jurídica e termos de cessão de PI assinados por todo fundador, empregado e prestador que escreveu código. Ver [[#CAPÍTULO 3: PROPRIEDADE INTELECTUAL E INPI|Capítulo 3 (Propriedade Intelectual e INPI)]].
-7 (Litígios). Mapeamento de processos ativos (judiciais, arbitrais e administrativos) com número, vara ou câmara, valor da causa, fase processual e probabilidade de perda (provável, possível ou remota) avaliada por advogado externo. Esse relatório alimenta a provisão contábil registrada no balanço que o investidor lê.
+7. **Litígios:** Mapeamento de processos ativos (judiciais, arbitrais e administrativos) com número, vara ou câmara, valor da causa, fase processual e probabilidade de perda (provável, possível ou remota) avaliada por advogado externo. Esse relatório alimenta a provisão contábil registrada no balanço que o investidor lê.
 
 **Sinal de preparação jurídica bem executada:** o *data room* societário e contratual fica organizado antes de abrir a rodada, estruturado em pastas que espelham os sete blocos da diligência, com índice e controle de versão. O fundo acessa o repositório, baixa o pacote completo e em 48 horas devolve a primeira rodada de perguntas, sem essa organização prévia, o levantamento inicial atrasa em duas semanas e cada documento pendente empurra o fechamento.
 
@@ -2768,7 +2768,7 @@ Você precisa dominar **A Engenharia de Defesa Consumerista e Reputacional**: tr
 > O CDC é a moldura que rege a relação com o consumidor final, pessoa física ou pequena empresa em situação de vulnerabilidade técnica, jurídica ou econômica (teoria finalista mitigada). Capítulos vizinhos: contratos de adesão e cláusulas nulas dialogam com o [[#CAPÍTULO 5: ARQUITETURA CONTRATUAL PARA STARTUPS: OPERAÇÃO E CONTRATOS EM PROFUNDIDADE POR TIPO|Capítulo 5]], a proteção de dados do consumidor conecta-se ao [[#CAPÍTULO 9: LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Capítulo 9]] e a responsabilidade solidária do marketplace na cadeia de fornecimento articula-se com o [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 4: MARKETPLACES, PLATAFORMAS E EFEITOS DE REDE: LIQUIDEZ, OVO-E-GALINHA E RISCO DE PLATAFORMA|Capítulo 4 do Volume 3]].
 > - [[#CAPÍTULO 9: LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Capítulo 9 (LGPD, Compliance e Governança de Dados)]], dado pessoal do consumidor, base legal e direitos
 > - [[#CAPÍTULO 5: ARQUITETURA CONTRATUAL PARA STARTUPS: OPERAÇÃO E CONTRATOS EM PROFUNDIDADE POR TIPO|Capítulo 5 (Arquitetura Contratual para Startups: Operação e Contratos em Profundidade por Tipo)]], termos de uso, contratos de adesão e cláusulas abusivas
-> - [[#CAPÍTULO 5: ARQUITETURA CONTRATUAL PARA STARTUPS: OPERAÇÃO E CONTRATOS EM PROFUNDIDADE POR TIPO|Capítulo 5 (Arquitetura Contratual para Startups: Operação e Contratos em Profundidade por Tipo)]], termos de uso, contratos de adesão e cláusulas abusivas
+
 > - [[#CAPÍTULO 8: CONTENCIOSO E LITÍGIO PARA STARTUPS|Capítulo 8 (Contencioso e Litígio para Startups)]], reclamações consumeristas, Juizado Especial e provisão de passivo
 > - [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 4: MARKETPLACES, PLATAFORMAS E EFEITOS DE REDE: LIQUIDEZ, OVO-E-GALINHA E RISCO DE PLATAFORMA|Capítulo 4 (Marketplaces, Plataformas e Efeitos de Rede: Liquidez, Ovo-e-Galinha e Risco de Plataforma) (Vol. 3)]], responsabilidade solidária do marketplace pelo lojista terceiro
 
@@ -3038,7 +3038,8 @@ Custos ocultos revelados só na tela final (drip pricing)      Art. 6º, III e a
 ```
 
 > [!important]
-> *Dark patterns* geram autuação direta: o CDC, combinado com o Marco Civil da Internet e a LGPD, fundamenta sanções administrativas e condenações judiciais contra plataformas que empregam interfaces enganosas ou obstáculos artificiais de cancelamento. A ANPD e a Senacon também fiscalizam padrões manipulativos na coleta de consentimento.
+> *Dark patterns* geram autuação direta
+> o CDC, combinado com o Marco Civil da Internet e a LGPD, fundamenta sanções administrativas e condenações judiciais contra plataformas que empregam interfaces enganosas ou obstáculos artificiais de cancelamento. A ANPD e a Senacon também fiscalizam padrões manipulativos na coleta de consentimento.
 
 **Regras para publicidade de crédito**
 
@@ -3491,7 +3492,8 @@ Para ações consumeristas individuais no JEC, um escritório generalista ou uma
 - Nunca recomendar acordo quando o cálculo econômico claramente favorece a transação
 
 > [!tip]
-> Peça relatório trimestral de todos os processos ativos com: estado atual, próxima movimentação esperada, prazo, risco atualizado e valor provisionado. Se o advogado recusar ou não conseguir entregar, é um sinal relevante sobre a qualidade da gestão.
+> Peça relatório trimestral de todos os processos ativos com
+> estado atual, próxima movimentação esperada, prazo, risco atualizado e valor provisionado. Se o advogado recusar ou não conseguir entregar, é um sinal relevante sobre a qualidade da gestão.
 
 ---
 
@@ -4785,7 +4787,8 @@ Transações com partes relacionadas
 ```
 
 > [!tip]
-> A maioria dos controles acima não requer software caro: exige processo documentado, dupla aprovação e segregação real de funções. Uma empresa de dez pessoas consegue implantar todos os itens da lista com planilhas auditáveis e dupla alçada configurada diretamente no *internet banking* corporativo, proibindo autorização de pagamentos apenas por mensagem de WhatsApp ou e-mail sem confirmação por chamada de voz para número previamente cadastrado.
+> A maioria dos controles acima não requer software caro
+> exige processo documentado, dupla aprovação e segregação real de funções. Uma empresa de dez pessoas consegue implantar todos os itens da lista com planilhas auditáveis e dupla alçada configurada diretamente no *internet banking* corporativo, proibindo autorização de pagamentos apenas por mensagem de WhatsApp ou e-mail sem confirmação por chamada de voz para número previamente cadastrado.
 
 #### O que não é SOX mas parece SOX
 
@@ -4983,7 +4986,7 @@ Para que essa separação funcione sem travar a rotina, diferencie duas camadas 
 
 Já na **liberação bancária (*four-eyes* no banco), independentemente de quem aprovou a compra no orçamento, qualquer transferência, boleto ou Pix acima do piso operacional (R$ 1.000 no estágio semente e R$ 10.000 a partir da Série A) exige obrigatoriamente dois operadores distintos no *internet banking*** (um analista que prepara a remessa e um diretor ou sócio que confere a nota fiscal e libera com o segundo token), somado à conciliação bancária diária (D+1) executada por quem não emite pagamentos.
 
-Nos processos operacionais, complemente a trava financeira com contagens periódicas de estoque físico (quando aplicável), registro de evidências nos processos decisivos de faturamento e estorno, e manutenção de canal de denúncias confidencial operado por plataforma independente.
+Nos processos operacionais, complemente a trava financeira com contagens periódicas de estoque físico (quando aplicável), registro de evidências nos processos críticos de faturamento e estorno, e manutenção de canal de denúncias confidencial operado por plataforma independente.
 
 Na camada de tecnologia da informação, aplique o princípio do privilégio mínimo (*least privilege*), autenticação multifator (MFA) obrigatória em todos os sistemas decisivos, revisão mensal de acessos privilegiados em produção e sistemas financeiros (e trimestral nos demais sistemas), revogação imediata de credenciais no desligamento (em até 1 hora para sistemas decisivos e até 24 horas para os demais), trilha de auditoria imutável de ações administrativas e separação estrita entre ambientes de desenvolvimento, homologação e produção.
 
@@ -5186,7 +5189,7 @@ No plano legal setorial, somam-se obrigações que não são certificações com
 
 #### Maturidade média: a camada de crescimento
 
-À medida que a operação ultrapassa cinquenta pessoas ou passa a processar dados sensíveis de grandes clientes corporativos, os nove controles básicos precisam ser reforçados por oito camadas adicionais de engenharia: (1) gestão contínua de vulnerabilidades com varredura automatizada (Snyk, Dependabot, AWS Inspector, Qualys ou Tenable) e prazos máximos (*SLAs*) para correção de falhas decisivas e altas, (2) segurança integrada à esteira de código (CI/CD), combinando análise estática (SAST), análise dinâmica (DAST) e verificação de bibliotecas de terceiros (SCA), (3) proteção de borda com WAF e mitigação de ataques de negação de serviço (DDoS) via Cloudflare, AWS WAF ou Akamai, (4) **monitoramento e resposta em dispositivos (EDR, *Endpoint Detection and Response*) instalado em 100% dos notebooks corporativos (CrowdStrike, SentinelOne ou Microsoft Defender for Endpoint), (5) prevenção contra perda de dados (DLP) para bloquear extrações em massa, (6) treinamento prático de conscientização** com simulações trimestrais de *phishing*, (7) plano escrito de resposta a incidentes validado em simulações de mesa (*tabletop exercises*) semestrais, e (8) escala de plantão de segurança para contenção imediata fora do horário comercial.
+À medida que a operação ultrapassa cinquenta pessoas ou passa a processar dados sensíveis de grandes clientes corporativos, os nove controles básicos precisam ser reforçados por oito camadas adicionais de engenharia: (1) gestão contínua de vulnerabilidades com varredura automatizada (Snyk, Dependabot, AWS Inspector, Qualys ou Tenable) e prazos máximos (*SLAs*) para correção de falhas críticas e altas, (2) segurança integrada à esteira de código (CI/CD), combinando análise estática (SAST), análise dinâmica (DAST) e verificação de bibliotecas de terceiros (SCA), (3) proteção de borda com WAF e mitigação de ataques de negação de serviço (DDoS) via Cloudflare, AWS WAF ou Akamai, (4) **monitoramento e resposta em dispositivos (EDR, *Endpoint Detection and Response*) instalado em 100% dos notebooks corporativos (CrowdStrike, SentinelOne ou Microsoft Defender for Endpoint), (5) prevenção contra perda de dados (DLP) para bloquear extrações em massa, (6) treinamento prático de conscientização** com simulações trimestrais de *phishing*, (7) plano escrito de resposta a incidentes validado em simulações de mesa (*tabletop exercises*) semestrais, e (8) escala de plantão de segurança para contenção imediata fora do horário comercial.
 
 ---
 
@@ -5332,7 +5335,7 @@ Faça esta auditoria de segurança de cinco minutos junto com seu líder de tecn
 
 **Regra de Sobrevivência:** Segurança sem verificação prática gera falsa sensação de proteção: uma rotina de backup cuja restauração completa nunca foi testada em ambiente isolado falha justamente na madrugada em que a empresa mais precisa dela.
 
-**O Ritual de Segunda-Feira às 9h:** Toda segunda-feira às 9h, reserve 15 minutos com o responsável técnico para revisar três indicadores: (1) o cruzamento entre a lista de colaboradores e prestadores desligados na semana anterior e as contas ativas no GitHub, AWS/GCP, Slack e e-mail corporativo (garantindo zero acessos órfãos), (2) o painel de alertas de segredos bloqueados no código e de vulnerabilidades decisivas ou altas pendentes de correção dentro do SLA, e (3) a confirmação de que 100% das contas privilegiadas operam com MFA resistente a *phishing* e de que o teste trimestral de restauração do backup imutável está em dia.
+**O Ritual de Segunda-Feira às 9h:** Toda segunda-feira às 9h, reserve 15 minutos com o responsável técnico para revisar três indicadores: (1) o cruzamento entre a lista de colaboradores e prestadores desligados na semana anterior e as contas ativas no GitHub, AWS/GCP, Slack e e-mail corporativo (garantindo zero acessos órfãos), (2) o painel de alertas de segredos bloqueados no código e de vulnerabilidades críticas ou altas pendentes de correção dentro do SLA, e (3) a confirmação de que 100% das contas privilegiadas operam com MFA resistente a *phishing* e de que o teste trimestral de restauração do backup imutável está em dia.
 
 ---
 

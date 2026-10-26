@@ -206,7 +206,7 @@ Antes de avançar, submeta o seu problema a um teste de prioridade em três perg
 > Não pergunte "quem acharia interessante". Pergunte quem sentiria falta em quarenta e oito horas se o processo parasse, sem ninguém avisar. Se a resposta for "as pessoas em geral" ou "todo mundo", o problema não é prioritário para ninguém em específico. Uma boa resposta aponta um cargo concreto, como "o diretor financeiro da distribuidora", que sofre com o problema toda semana.
 
 > [!question] Pergunta 2: qual métrica numérica e rastreada mudaria?
-> Se o problema é real e prioritário, existe uma métrica que alguém já acompanha que se moveria. Tempo de ciclo. Custo por transação. Taxa de retrabalho. NPS interno. Faturamento por hora (Churn). Se nenhuma métrica rastreada se moveria, o problema pode até existir, mas ninguém tem caso de negócio para resolvê-lo. E portanto ninguém tem budget.
+> Se o problema é real e prioritário, existe uma métrica que alguém já acompanha que se moveria. Tempo de ciclo. Custo por transação. Taxa de retrabalho. NPS interno. Faturamento por hora. Churn. Se nenhuma métrica rastreada se moveria, o problema pode até existir, mas ninguém tem caso de negócio para resolvê-lo. E portanto ninguém tem budget.
 
 > [!question] Pergunta 3: alguém escalaria o problema para um nível acima?
 > Problemas prioritários sobem na hierarquia. Alguém reporta ao chefe. Alguém pede recursos. Alguém marca uma reunião urgente. Se o problema existe mas ninguém o escala, ele está sendo absorvido silenciosamente. Significa que não é urgente o suficiente para forçar mudança de comportamento.
@@ -384,7 +384,7 @@ Saturação é o ponto em que entrevista nova deixa de trazer informação nova.
 
 **Teste quantitativo.** Para cada nova entrevista, conte quantas observações realmente novas (problemas, vocabulário, padrões de comportamento, workarounds) ela trouxe versus repetições do que já apareceu antes. Quando o percentual de novidade fica abaixo de quinze por cento por três entrevistas seguidas, é saturação confirmada.
 
-Os dois critérios devem se confirmar mutuamente. Sentiu saturação mas o quantitativo ainda mostra trinta por cento de novidade? Você está sendo otimista: faça mais cinco. Quantitativo já abaixo de quinze por cento mas você ainda sente "tem coisa nova"? Provavelmente é gosto pelas conversas, não evidência (Pare).
+Os dois critérios devem se confirmar mutuamente. Sentiu saturação mas o quantitativo ainda mostra trinta por cento de novidade? Você está sendo otimista: faça mais cinco. Quantitativo já abaixo de quinze por cento mas você ainda sente "tem coisa nova"? Provavelmente é gosto pelas conversas, não evidência. Pare.
 
 #### Passo 10: produza o Mapa de Problemas
 
@@ -2047,7 +2047,7 @@ Comprador Econômico. Pessoa com autoridade e orçamento para autorizar o pagame
 
 Três princípios operacionais para a pesquisa desta fase.
 
-Primeiro, entreviste os três papéis separadamente. Misturar em uma entrevista só ("reunião com a empresa X") gera respostas editadas politicamente. Usuários não falam mal da solução se o chefe está presente. Chefes não admitem que não conhecem o workflow se o subordinado está na sala (Separe).
+Primeiro, entreviste os três papéis separadamente. Misturar em uma entrevista só ("reunião com a empresa X") gera respostas editadas politicamente. Usuários não falam mal da solução se o chefe está presente. Chefes não admitem que não conhecem o workflow se o subordinado está na sala. Separe.
 
 Segundo, monte uma persona distinta para cada papel, não uma persona média. Uma "persona da empresa" é ficção. Persona útil é do papel, porque cada papel toma decisões diferentes com base em critérios diferentes.
 
@@ -2583,38 +2583,9 @@ Uso em decisões: feature de "relatório em linguagem simples" ganha prioridade 
 
 > *A origem, o diagrama dos seis quadrantes e o passo a passo completo do [[#Canvas: Empathy Map (Dave Gray / XPLANE, 2009)|Canvas: Empathy Map (Dave Gray / XPLANE, 2009)]] já foram impressos na Fase 4. Nesta Fase 5, o objetivo não é repetir a teoria da ferramenta, mas preenchê-la com o contraste entre o que o usuário diz na entrevista e o que você observou presencialmente no ambiente dele.*
 
-##### De onde vem a ferramenta (e por que sobreviveu ao filtro do tempo)
+Como a origem e os seis quadrantes clássicos do Mapa de Empatia (Dave Gray, *Gamestorming*, 2010) já foram detalhados na [[#FASE 4: DESCOBERTA DO PROBLEMA|Fase 4]], o uso na Fase 5 muda de foco: em vez de mapear o perfil geral do comprador, você recorta um episódio crítico específico observado em campo (uma reunião tensa, o fechamento do caixa às 21h30 ou a tentativa frustrada de conciliar uma planilha) para expor a distância entre o discurso racional da entrevista e a reação emocional sob pressão.
 
-Enquanto a persona descreve quem é o usuário e qual o seu papel na compra, o Mapa de Empatia recorta um episódio decisivo específico observado em campo para expor a pressão do ambiente ao redor dele.
-
-##### A mecânica central (sem jargão)
-
-Template visual que organiza entendimento empático sobre usuário em 6 quadrantes:
-
-- O que **vê**?
-- O que **ouve**?
-- O que **diz e faz**?
-- O que **pensa e sente**?
-- Dores.
-- Ganhos (aspirações).
-
-##### As regras do jogo
-
-Em uma oficina de 60 minutos após as visitas de campo, escolha um momento exato observado (por exemplo, quando a Dra. Patrícia, cirurgiã-dentista de 36 anos entrevistada em Curitiba, abre o notebook às 21h30 na mesa da sala para separar os recibos de pacientes particulares das contas da casa) e preencha os quadrantes cruzando fala e cena observada:
-
-##### Aplicação imediata na rotina da empresa
-
-Passo 1: Escolha persona + momento específico.
-
-Passo 2: Equipe preenche cada quadrante com dados de entrevistas, observações.
-
-**O foco da leitura na Fase 5 está nas contradições observadas:** o que a pessoa disse na entrevista inicial versus o que ela fez quando o telefone tocou ou a planilha travou na sua frente.
-
-Passo 4: Identifique oportunidades: endereçar dor, potencializar ganho.
-
-##### Na trincheira real: como isso funciona na prática
-
-**Síntese do episódio observado (Dra. Patrícia às 21h30 fechando o caixa do consultório):**
+**Protocolo rápido de aplicação na Fase 5 e exemplo real (Dra. Patrícia, cirurgiã-dentista em Curitiba, fechando o caixa às 21h30):** em uma oficina de 45 minutos após as visitas de observação, preencha os seis quadrantes apenas com fatos presenciados naquele episódio e destaque as contradições entre o que a pessoa disse na entrevista e o que fez quando o problema aconteceu:
 
 - Vê: 40 mensagens não lidas no WhatsApp, pilha de notas fiscais, boletos vencidos.
 - Ouve: filho pedindo atenção, marido dizendo "você se preocupa demais".
@@ -3104,7 +3075,8 @@ Base de evidência: [quantas entrevistas, quais]
 
 ##### Caso complementar de jornada de compra digital: onde o hábito brasileiro trava no e-commerce
 
-> [!note] Legenda da jornada: as notas de 1 a 5 indicam o humor e o grau de confiança do cliente em cada etapa
+> [!note] Legenda da jornada
+> as notas de 1 a 5 indicam o humor e o grau de confiança do cliente em cada etapa
 
 ```mermaid
 journey
@@ -3753,7 +3725,7 @@ O que dispara o problema? Qual evento, data, tarefa, ou situação recorrente fa
 
 Qual é a consequência tangível se o problema continuar sem solução pelos próximos seis meses? Procure efeitos verificáveis: multa contratual, perda de clientes, retrabalho mensurável, atraso operacional ou rotatividade da equipe. Se a resposta prática for que a rotina segue normalmente sem impacto no caixa ou na operação, você está diante de uma inconveniência, não de uma dor que sustente um negócio.
 
-O que o usuário faz hoje para contornar? Solução atual, mesmo precária (Planilha). Frankenstein de ferramentas. Estagiário terceirizado. A existência de uma gambiarra ativa é um sinal forte de dor real (Pain Level 4), ficando atrás apenas de quem já destinou orçamento para tentar resolver o problema (Pain Level 5).
+O que o usuário faz hoje para contornar? Solução atual, mesmo precária. Planilha. Frankenstein de ferramentas. Estagiário terceirizado. A existência de uma gambiarra ativa é um sinal forte de dor real (Pain Level 4), ficando atrás apenas de quem já destinou orçamento para tentar resolver o problema (Pain Level 5).
 
 ##### Parte 2: duas perguntas-faca (três minutos)
 
@@ -4044,7 +4016,7 @@ Passo 6: Balanceie o portfólio. Conglomerado saudável tem mix: Cash Cows finan
 
 Grupo brasileiro com 4 unidades de negócio (exemplo hipotético):
 
-- Unidade A, Streaming de conteúdo religioso: 40% market share no segmento, mercado cresce 20% a.a. → STAR. Investir.
+- Unidade A, Streaming de conteúdo religioso: 40% market share no segmento, mercado cresce 20% a.a. → STAR, na qual vale investir.
 - Unidade B, Portal de notícias gospel: 55% market share, mercado cresce 2% a.a. → CASH COW. Ordenhar caixa para financiar Unidade A.
 - Unidade C, Loja virtual de livros: 5% market share, mercado cresce 15% a.a. → QUESTION MARK. Decidir: investir pesado para virar Star, ou sair.
 - Unidade D, Revista impressa: 8% market share, mercado encolhe 10% a.a. → DOG. Turnaround ou desinvestir.
@@ -4096,7 +4068,7 @@ Conglomerado diversificado com 5 unidades:
 - U2, Distribuidora de medicamentos: atratividade média, posição alta → Zona Verde. Investir para crescer e consolidar liderança.
 - U3, Loja virtual de suplementos: atratividade média, posição baixa → Zona Vermelha. Colher caixa seletivamente ou sair.
 - U4, Editora impressa: atratividade baixa, posição média → Zona Vermelha. Ordenhar caixa.
-- U5, Rádio local: atratividade baixa, posição baixa → Zona Vermelha. Desinvestir.
+- U5, Rádio local: atratividade baixa, posição baixa → Zona Vermelha, da qual vale desinvestir.
 
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
@@ -4509,7 +4481,7 @@ Na jornada dos arquétipos deste livro, quando Lucas e Marina deixam de apresent
 
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
-Categoria sem problema real: nomear categoria que não responde a tensão no mercado, ninguém compra. Category design superficial: nome de categoria inventado sem investimento em educação. Não ser o king: definir categoria mas não liderar, concorrente entra e captura. Produto sem coerência com categoria: marketing diz "inbound", produto é só ferramenta de automação (Dissonância). Mainstream rejection: categoria muito nicho não atinge massa.
+Categoria sem problema real: nomear categoria que não responde a tensão no mercado, ninguém compra. Category design superficial: nome de categoria inventado sem investimento em educação. Não ser o king: definir categoria mas não liderar, concorrente entra e captura. Produto sem coerência com categoria: marketing diz "inbound", produto é só ferramenta de automação. Dissonância. Mainstream rejection: categoria muito nicho não atinge massa.
 
 ---
 

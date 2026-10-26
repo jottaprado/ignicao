@@ -176,7 +176,7 @@ function applyV53CompleteReview(volNum, content) {
     if (/founder/i.test(l) && !/^#{1,2}\s+/.test(l)) {
       const kept = [];
       l = l.replace(
-        /\b(?:Founder Mode|Founder-Market Fit|Founder-Product Fit|Founder-Led Sales|Founder-Led Growth|Founder Institute|Founder Execution Scorecard|Female Founders|Solo Founder)\b/gi,
+        /\b(?:Founder's Dilemmas|Founder's|Founder Mode|Founder-Market Fit|Founder-Product Fit|Founder-Led Sales|Founder-Led Growth|Founder Institute|Founder Execution Scorecard|Female Founders|Solo Founder|Second-Time Founder|founder-market-fit)\b/gi,
         (m) => {
           kept.push(m);
           return `__FKEEP_${kept.length - 1}__`;
@@ -193,14 +193,15 @@ function applyV53CompleteReview(volNum, content) {
         .replace(/\bfounders\b/g, 'fundadores')
         .replace(/\bFounder\b/g, 'Fundador')
         .replace(/\bfounder\b/g, 'fundador');
-      l = l.replace(/__FKEEP_(\d+)__/g, (_, idx) => kept[Number(idx)]);
+      l = l.replace(/__FKEEP_(\d+)__/g, (_, idx) => kept[Number(idx)])
+           .replace(/\bfundador-market-fit\b/gi, 'founder-market-fit');
     }
 
     // Reduce overused "crítico(a)(s)" in prose (preserving technical terms and headings)
     if (/crític[oa]s?\b/i.test(l) && !/^#{1,6}\s+/.test(l) && !l.includes('[[')) {
       const cKept = [];
       l = l.replace(
-        /\b(?:missão crítica|caminho crítico|massa crítica|pensamento crítico|senso crítico|análise crítica|leitura crítica|infraestrutura crítica)\b/gi,
+        /(?:missão crítica|caminho crítico|massa crítica|pensamento crítico|senso crítico|análise crítica|leitura crítica|infraestrutura crítica|crítica construtiva|crítica cética|crítica rigorosa|crítica fundamentada|crítica à|às críticas|receber crítica|vulnerabilidades críticas|falhas críticas|chamados críticos|processos críticos|situações críticas|momentos críticos|episódio crítico)/gi,
         (m) => {
           cKept.push(m);
           return `__CKEEP_${cKept.length - 1}__`;
@@ -217,6 +218,10 @@ function applyV53CompleteReview(volNum, content) {
         .replace(/\bCrítica\b/g, 'Decisiva');
       l = l.replace(/__CKEEP_(\d+)__/g, (_, idx) => cKept[Number(idx)]);
     }
+    l = l
+      .replace(/decisiva à empresa/g, 'crítica à empresa')
+      .replace(/às decisivas\b/g, 'às críticas')
+      .replace(/\bfundador-market-fit\b/gi, 'founder-market-fit');
 
     // Reduce mechanical semicolons in prose, bullets, and tables
     if (l.includes(';') && !/^```/.test(l) && !l.includes('&nbsp;')) {
@@ -280,7 +285,39 @@ function applyV53CompleteReview(volNum, content) {
         .replace(/\.\s+Reajuste\./g, ', reajustando a rota imediatamente.')
         .replace(/\.\s+Processar\./g, ' e processar o luto.')
         .replace(/\.\s+Honesta\./g, ' e honesta.')
-        .replace(/([a-zà-ú0-9)"?])\.\s+([A-ZÀ-Ú][a-zà-ú]{2,18})\.(?=\s+[A-ZÀ-Ú]|$)/g, '$1 ($2).');
+        .replace(/\.\s+Investir\./g, ', na qual vale investir.')
+        .replace(/\.\s+Desinvestir\./g, ', da qual vale desinvestir.')
+        .replace(/\.\s+Perigoso\./g, ', o que é perigoso.')
+        .replace(/\.\s+Esperar\./g, ': espere a poeira baixar.')
+        .replace(/\.\s+Separar\./g, ': separe os papéis.')
+        .replace(/\.\s+Avaliar\./g, ', valendo avaliar.')
+        .replace(/\.\s+Avalie\./g, ': avalie com cuidado.')
+        .replace(/\.\s+Multiplique\.\s+/g, ', multiplique os fatores e ')
+        .replace(/\.\s+Nunca\.\s+/g, ': nunca faça isso. ')
+        .replace(/\.\s+Falso\.\s+/g, ' (falso): ')
+        .replace(/\.\s+Normalize\./g, ': normalize essa conversa.')
+        .replace(/\.\s+Sempre\.\s+/g, ' sempre: ')
+        .replace(/\.\s+Arriscado\.\s+/g, ', o que é arriscado: ')
+        .replace(/\.\s+Ponto\.\s+/g, ', sem exceção. ')
+        .replace(/\.\s+Endurece\.\s+/g, ', mas sim endurece. ')
+        .replace(/\.\s+Simples\.\s+/g, ' (simples e direto): ')
+        .replace(/\.\s+Comprometido\.\s+/g, ' (escopo comprometido): ')
+        .replace(/\.\s+Retrabalho\./g, ', gerando retrabalho.')
+        .replace(/\.\s+Política\.\s+/g, '; defina política clara e ')
+        .replace(/\.\s+Ação\.\s+/g, '; ação recomendada: ')
+        .replace(/\.\s+Informal\.\s+/g, ' em formato informal, com ')
+        .replace(/\.\s+Vinculante\./g, ' (cláusula vinculante).')
+        .replace(/\.\s+Conversão\.\s+/g, '; na conversão, ')
+        .replace(/\.\s+Híbrido\.\s+/g, ' (instrumento híbrido): ')
+        .replace(/\.\s+Vende\.\s+Modelo\./g, ' e depois vende a participação.')
+        .replace(/\.\s+Processo\.\s+Fim da empresa\./g, ', processo administrativo e risco de fechar a empresa.')
+        .replace(/\.\s+Processo\.\s+/g, '; o processo exige ')
+        .replace(/\.\s+Risco\.\s+/g, '; o risco é ')
+        .replace(/\.\s+Problema\.\s+/g, '; o problema é que ')
+        .replace(/\.\s+Resultado\.\s+/g, '; como resultado, ')
+        .replace(/\.\s+Solução\.\s+/g, '; a solução é ')
+        .replace(/^(\d+)\.\s+(Listening|Empathy|Healing|Awareness|Conceptualization|Foresight|Stewardship|Recomendação|Prototype|Vesting|Desconto|Informação|Litígios)\.(?=\s|$)/g, '$1. **$2:**')
+        .replace(/^(Riscos|Tendências|Implicações)\.$/g, '**$1:**');
     }
 
     // Reduce excessive mid-sentence bolding while keeping lead-in labels, tables, and named anti-patterns
@@ -454,6 +491,14 @@ function applyV53CompleteReview(volNum, content) {
 
   console.log(`[v5.3 Complete Review] Vol ${volNum}: applied ${applied} line-indexed fixes.`);
   return joined
+    .replace(
+      /^(>\s*\[!(?:info|note|tip|warning|important|abstract|example|question)\]\s+[^:\n]{3,85}):\s+(.+)\n(?!>)/gm,
+      '$1\n> $2\n'
+    )
+    .replace(
+      'Decisões de arquitetura registradas em ADRs (*Architecture Decision Records*), preservando o contexto e as alternativas descartadas.\n**Prevenção contínua na esteira de código:**',
+      'Decisões de arquitetura registradas em ADRs (*Architecture Decision Records*), preservando o contexto e as alternativas descartadas.\n\n**Prevenção contínua na esteira de código:**'
+    )
     .replace(/([^\n])\n---\n/g, '$1\n\n---\n')
     .replace(/\n---\n([^\n])/g, '\n---\n\n$1');
 }
