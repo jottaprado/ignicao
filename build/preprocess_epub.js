@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Pré-processa os 10 volumes canônicos em `volumes/` (e gera também o Omnibus)
+ * Pré-processa os 11 volumes canônicos em `volumes/` (e gera também o Omnibus)
  * para compilação em EPUB via Pandoc.
  *
  * Etapas:
@@ -13,7 +13,7 @@
  *       * Links entre volumes `[[IGNICAO-Vol-X#Seção|Alias (Vol. X)]]` -> `*Alias*`
  *     - Na edição completa (Omnibus):
  *       * Todos os links (internos e entre volumes) -> `[Alias](#slug)`
- *  4) Escreve `build/vol-1-preprocessado.md` ... `build/vol-10-preprocessado.md`
+ *  4) Escreve `build/vol-1-preprocessado.md` ... `build/vol-11-preprocessado.md`
  *     e `build/manuscrito_preprocessado.md` (Omnibus).
  */
 

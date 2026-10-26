@@ -1,4 +1,4 @@
-// Renderiza cover.png (Omnibus) e cover-vol-1.png a cover-vol-10.png via Puppeteer
+// Renderiza cover.png (Omnibus) e cover-vol-1.png a cover-vol-11.png via Puppeteer
 const path = require('path');
 const fs = require('fs');
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Compila os 10 EPUBs individuais + o EPUB Omnibus (build/IGNICAO.epub) via Pandoc.
+ * Compila os 11 EPUBs individuais + o EPUB Omnibus (build/IGNICAO.epub) via Pandoc.
  */
 
 const fs = require('fs');
