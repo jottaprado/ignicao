@@ -1762,14 +1762,14 @@ Esta tabela resume as técnicas de coleta de evidência mais usadas no manual, o
 
 | Técnica | Descrição | Melhor para. | Amostra típica | Onde no manual |
 |---|---|---|---|---|
-| **Entrevistas 1-a-1** | Conversas estruturadas de 30-60 min com perguntas no estilo Mom Test | Desenvolvimento de teoria ([[IGNICAO-Vol-1-Ideacao#FASE 3: CONSTRUÇÃO DA TEORIA DO NEGÓCIO|Fase 3 (Vol. 1)]]), validação de problema ([[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 4: DESCOBERTA DO PROBLEMA|Fase 4 (Vol. 2)]]) e mecanismos causais da dor ([[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 5: PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY)|Fase 5 (Vol. 2)]]) | 15 a 30 decisores entrevistados | Fases 4 e 5 (Vol. 2) |
-| **Questionários (surveys)** | Perguntas fechadas em escala para triagem demográfica e frequência declarada (nunca como prova isolada de compra) | Triagem complementar de hábitos e perfil de público após entrevistas qualitativas | 100 a 500 respondentes do ICP | Final da [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 4: DESCOBERTA DO PROBLEMA|Fase 4]] e [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 5: PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY)|Fase 5 (Vol. 2)]] |
+| **Entrevistas 1-a-1** | Conversas estruturadas de 30-60 min com perguntas no estilo Mom Test | Desenvolvimento de teoria ([[IGNICAO-Vol-1-Ideacao#FASE 3: CONSTRUÇÃO DA TEORIA DO NEGÓCIO\|Fase 3 (Vol. 1)]]), validação de problema ([[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 4: DESCOBERTA DO PROBLEMA\|Fase 4 (Vol. 2)]]) e mecanismos causais da dor ([[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 5: PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY)\|Fase 5 (Vol. 2)]]) | 15 a 30 decisores entrevistados | Fases 4 e 5 (Vol. 2) |
+| **Questionários (surveys)** | Perguntas fechadas em escala para triagem demográfica e frequência declarada (nunca como prova isolada de compra) | Triagem complementar de hábitos e perfil de público após entrevistas qualitativas | 100 a 500 respondentes do ICP | Final da [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 4: DESCOBERTA DO PROBLEMA\|Fase 4]] e [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 5: PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY)\|Fase 5 (Vol. 2)]] |
 | **Landing page / smoke test** | Página descrevendo a oferta antes de o produto existir para medir conversão de compromisso | Validação de proposta de valor, teste de canal de aquisição e *fake door* | 300 a 500 visitantes qualificados (B2B nichado) ou 500 a 5.000 (B2C amplo) | Fase 8 |
 | **Pré-venda / LOI** | Cobrar pagamento antecipado (com reembolso) ou carta de intenção assinada sem produto pronto | Teste definitivo de disposição a pagar (*Willingness to Pay*), eliminando o "eu compraria" hipotético | ≥ 10 pré-vendas pagas (PME), ≥ 2 pilotos pagos / 3-5 LOIs (enterprise) ou ≥ 50 pedidos (D2C) | Fase 8 |
-| **Concierge / Wizard of Oz** | Entregar manualmente (visível no Concierge ou nos bastidores no Mágico de Oz) o valor prometido | Validar a entrega real de valor antes do código e mapear todas as exceções operacionais | 3 a 10 clientes pagantes ao longo de 4 a 8 semanas | Fase 8 e [[#FASE 9: IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES|Fase 9]] |
-| **Protótipo navegável** | Esboço em papel ou fluxo clicável submetido a tarefas práticas sem ajuda | Validação de fluxo de solução e eliminação de atritos de usabilidade antes do código | 5 usuários por rodada (2 a 3 rodadas = 10 a 15 usuários) | [[#FASE 9: IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES|Fase 9]] e [[#FASE 10: TESTES DE SOLUÇÃO E USABILIDADE|Fase 10]] |
-| **MVP em produção** | Versão funcional mínima operando com os primeiros clientes pagantes | Validação de retenção, uso repetido e economia unitária inicial em ambiente real | 10+ clientes pagantes B2B (ou 50+ D2C) por 8 a 12 semanas | [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 11: MVP E EXPERIMENTOS DE MERCADO|Fase 11 (Vol. 4)]] |
-| **Teste A/B controlado** | Comparação experimental randomizada entre duas variantes com tráfego estatisticamente suficiente | Medir impacto causal de mudança específica de proposta, fluxo ou preço quando já há volume | Centenas a milhares de exposições por variante | Fase 8 (anúncios) e [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 11: MVP E EXPERIMENTOS DE MERCADO|Fases 11 a 13 (Vol. 4)]] |
+| **Concierge / Wizard of Oz** | Entregar manualmente (visível no Concierge ou nos bastidores no Mágico de Oz) o valor prometido | Validar a entrega real de valor antes do código e mapear todas as exceções operacionais | 3 a 10 clientes pagantes ao longo de 4 a 8 semanas | Fase 8 e [[#FASE 9: IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES\|Fase 9]] |
+| **Protótipo navegável** | Esboço em papel ou fluxo clicável submetido a tarefas práticas sem ajuda | Validação de fluxo de solução e eliminação de atritos de usabilidade antes do código | 5 usuários por rodada (2 a 3 rodadas = 10 a 15 usuários) | [[#FASE 9: IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES\|Fase 9]] e [[#FASE 10: TESTES DE SOLUÇÃO E USABILIDADE\|Fase 10]] |
+| **MVP em produção** | Versão funcional mínima operando com os primeiros clientes pagantes | Validação de retenção, uso repetido e economia unitária inicial em ambiente real | 10+ clientes pagantes B2B (ou 50+ D2C) por 8 a 12 semanas | [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 11: MVP E EXPERIMENTOS DE MERCADO\|Fase 11 (Vol. 4)]] |
+| **Teste A/B controlado** | Comparação experimental randomizada entre duas variantes com tráfego estatisticamente suficiente | Medir impacto causal de mudança específica de proposta, fluxo ou preço quando já há volume | Centenas a milhares de exposições por variante | Fase 8 (anúncios) e [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 11: MVP E EXPERIMENTOS DE MERCADO\|Fases 11 a 13 (Vol. 4)]] |
 
 **Regra de escolha rápida**: quanto menos evidência acumulada você tiver sobre a dor e o contexto, mais qualitativa e observacional deve ser a técnica inicial (entrevistas 1-a-1 e acompanhamento presencial). À medida que o problema já está provado e você precisa validar a oferta na Fase 8, migre para experimentos que cobrem moeda de compromisso real (página de teste com chamada para ação, pré-venda paga, *Concierge* e *Mágico de Oz*).
 
@@ -2666,6 +2666,8 @@ CONCEPT CARD DE SOLUÇÃO (PASSO 3: 1 PÁGINA POR CONCEITO CANDIDATO)
 5. Modelo de monetização e faixa de preço prevista:
    ____________________________________________________________________
 6. Principais riscos e premissa decisiva que o protótipo precisa testar:
+```
+
    ____________________________________________________________________
 
 ##### Template: Roteiro de Teste de Solução de 30 Minutos (Passo 5: 5 etapas)
@@ -2998,7 +3000,7 @@ Tipos:
 - Formative (formativo): durante design, rápido, iterativo.
 - Summative (somativo): ao fim de ciclo, avalia atingimento de metas.
 
-##### Execução prática com a equipe
+##### Protocolo prático de execução
 
 1. Defina tarefas operacionais concretas em vez de pedir impressões vagas: peça "emita a sua primeira nota fiscal", que funciona como teste real, e nunca "veja se você gosta do aplicativo", que não testa nada.
 
@@ -3068,7 +3070,7 @@ Método de avaliação em que 3-5 especialistas em UX avaliam interface independ
 9. Ajudar usuários a reconhecer, diagnosticar e se recuperar de erros: mensagens claras.
 10. Ajuda e documentação: quando necessária, fácil de encontrar.
 
-##### Protocolo prático de execução
+##### Roteiro de aplicação prática na operação
 
 Passo 1: 3-5 avaliadores independentes. Cada um vê ~30% dos problemas, juntos, 75%+.
 
@@ -3128,7 +3130,7 @@ Método em que avaliadores **simulam mentalmente** o que usuário novato pensari
 
 Se qualquer resposta é "não", há problema de usabilidade.
 
-##### Protocolo prático de execução
+##### Roteiro de aplicação prática na operação
 
 Passo 1: Defina tarefa específica (ex.: "primeiro usuário cria primeira nota fiscal").
 
@@ -3186,7 +3188,7 @@ Três variações:
 2. Closed card sort: categorias pré-definidas, usuário aloca cards em categorias dadas. Testa se categorias propostas fazem sentido.
 3. Hybrid: categorias iniciais + permissão de criar novas.
 
-##### Execução prática com a equipe
+##### Protocolo prático de execução
 
 Passo 1: Selecione 30-60 cards representativos da informação/funcionalidade.
 
@@ -3247,7 +3249,7 @@ Métricas:
 - Confidence: o quanto estavam seguros da escolha.
 - Path analysis: onde a maioria erra? Qual categoria é magnética?
 
-##### Passos práticos de implantação
+##### Aplicação imediata na rotina da empresa
 
 Passo 1: Prepare estrutura a testar: árvore completa de menus.
 
@@ -3303,7 +3305,7 @@ Dois tipos:
 
 **Concurrent é mais rico** mas pode interferir com cognição (especialmente tarefas complexas).
 
-##### Protocolo prático de execução
+##### Roteiro de aplicação prática na operação
 
 Passo 1: Treine participante: "quero que você fale em voz alta o que está pensando enquanto faz a tarefa. Não é para me explicar, é para eu ouvir seus pensamentos. Pode ser fragmentos, dúvidas, tudo."
 
@@ -3354,7 +3356,7 @@ Alternadas positivas e negativas:
 9. Senti-me muito confiante usando o sistema.
 10. Precisei aprender muitas coisas antes de começar.
 
-##### Aplicação imediata na rotina da empresa
+##### Execução prática com a equipe
 
 1. Aplique o questionário imediatamente após o participante usar o protótipo ou sistema de fato nas tarefas propostas, e nunca apenas depois de ouvir uma explicação ou demonstração guiada.
 
@@ -3676,8 +3678,8 @@ O **Business Model Canvas (BMC)** (Alexander Osterwalder e Yves Pigneur) entra e
 | Ideia solta, múltiplas oportunidades competindo | Opportunity Canvas | Decidir qual oportunidade priorizar |
 | Validação de problema e solução em curso | Lean Canvas | Estruturar hipóteses para teste |
 | Modelo em validação e estruturação pós-PSF (Fase 12 em diante, rumo ao PMF na Fase 13) | BMC | Descrever e alinhar a arquitetura completa do negócio com sócios, parceiros e investidores |
-| Reinvenção ([[IGNICAO-Vol-9-Maturidade-e-Exit#FASE 19: REINVENÇÃO E SEGUNDA CURVA|Fase 19 (Vol. 9)]]), segunda curva em exploração | Lean Canvas (para a curva nova) e BMC (para o core) em paralelo | Curva nova volta a ter incerteza alta, core existente precisa de clareza para stakeholders |
-| Preparação para saída e M&A ([[IGNICAO-Vol-9-Maturidade-e-Exit#IGNIÇÃO: Volume 9: Maturidade, Governança, Crise, Exit e Family Office|Fase 20 (Vol. 9)]]) | BMC auditado como referência canônica | Base para diligência (*due diligence*), estruturação societária e tese de valor (*equity story*) |
+| Reinvenção ([[IGNICAO-Vol-9-Maturidade-e-Exit#FASE 19: REINVENÇÃO E SEGUNDA CURVA\|Fase 19 (Vol. 9)]]), segunda curva em exploração | Lean Canvas (para a curva nova) e BMC (para o core) em paralelo | Curva nova volta a ter incerteza alta, core existente precisa de clareza para stakeholders |
+| Preparação para saída e M&A ([[IGNICAO-Vol-9-Maturidade-e-Exit#IGNIÇÃO: Volume 9: Maturidade, Governança, Crise, Exit e Family Office\|Fase 20 (Vol. 9)]]) | BMC auditado como referência canônica | Base para diligência (*due diligence*), estruturação societária e tese de valor (*equity story*) |
 
 Cada um dos três quadros responde à pergunta decisiva do seu respectivo estágio: tentar preencher um BMC completo no dia zero apenas esconde suposições não testadas debaixo de nove títulos elegantes.
 
@@ -3940,12 +3942,12 @@ O **CRL** (sigla usada internacionalmente tanto para *Customer Readiness Level*,
 | CRL | Descrição |
 |---|---|
 | CRL 1 | Problema identificado, sem validação com clientes. |
-| CRL 2 | Problema validado com entrevistas ou pesquisa (equivalente a final da [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 4: DESCOBERTA DO PROBLEMA|Fase 4 (Vol. 2)]] deste manual). |
-| **CRL 3** | Conceito de solução e oferta testados com clientes potenciais, gerando cartas de intenção ou pré-vendas iniciais (equivalente ao encerramento da [[#FASE 8: EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA E DA SOLUÇÃO|Fase 8]]). |
-| **CRL 4** | Protótipo funcional testado em usabilidade e especificação de MVP congelada com primeiros compromissos confirmados (equivalente ao encerramento das [[#FASE 9: IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES|Fases 9]] e [[#FASE 10: TESTES DE SOLUÇÃO E USABILIDADE|10]]). |
-| **CRL 5** | MVP em operação real e pilotos pagos rodando com os primeiros clientes do ICP (equivalente à [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 11: MVP E EXPERIMENTOS DE MERCADO|Fase 11: MVP e Experimentos de Mercado (Vol. 4)]]). |
-| **CRL 6** | Primeiros contratos comerciais padronizados e receita recorrente inicial comprovada fora do círculo de pilotos (equivalente à [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 12: VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 12: Validação do Modelo de Negócio (Vol. 4)]]). |
-| **CRL 7** | *Product-Market Fit* estabelecido, retenção por safra estável e economia unitária saudável em múltiplos clientes (equivalente à [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 13: PRODUCT-MARKET FIT|Fase 13: Product-Market Fit (Vol. 4)]]). |
+| CRL 2 | Problema validado com entrevistas ou pesquisa (equivalente a final da [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 4: DESCOBERTA DO PROBLEMA\|Fase 4 (Vol. 2)]] deste manual). |
+| **CRL 3** | Conceito de solução e oferta testados com clientes potenciais, gerando cartas de intenção ou pré-vendas iniciais (equivalente ao encerramento da [[#FASE 8: EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA E DA SOLUÇÃO\|Fase 8]]). |
+| **CRL 4** | Protótipo funcional testado em usabilidade e especificação de MVP congelada com primeiros compromissos confirmados (equivalente ao encerramento das [[#FASE 9: IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES\|Fases 9]] e [[#FASE 10: TESTES DE SOLUÇÃO E USABILIDADE\|10]]). |
+| **CRL 5** | MVP em operação real e pilotos pagos rodando com os primeiros clientes do ICP (equivalente à [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 11: MVP E EXPERIMENTOS DE MERCADO\|Fase 11: MVP e Experimentos de Mercado (Vol. 4)]]). |
+| **CRL 6** | Primeiros contratos comerciais padronizados e receita recorrente inicial comprovada fora do círculo de pilotos (equivalente à [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 12: VALIDAÇÃO DO MODELO DE NEGÓCIO\|Fase 12: Validação do Modelo de Negócio (Vol. 4)]]). |
+| **CRL 7** | *Product-Market Fit* estabelecido, retenção por safra estável e economia unitária saudável em múltiplos clientes (equivalente à [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 13: PRODUCT-MARKET FIT\|Fase 13: Product-Market Fit (Vol. 4)]]). |
 | **CRL 8** | Máquina comercial repetível e canais de aquisição escaláveis validados com payback controlado (equivalente às Fases 14 e 15 nos Volumes 5 e 6). |
 | **CRL 9** | Operação comercial em larga escala, liderança de categoria e expansão consolidada (equivalente às Fases 16 a 20 nos Volumes 6 a 9). |
 
@@ -4091,20 +4093,20 @@ A tabela abaixo mapeia os principais elementos operacionais do framework, e onde
 | Elemento Antler | Estágio | Onde vive no manual |
 |---|---|---|
 | Quatro sintomas de ideia estagnada (escopo largo, problema não prioritário, comprador indefinido, construção antes da validação) | Idea | Implícito em Fases 1-3, explicitado nas Armadilhas das Fases 1 e 2 |
-| Trio Usuário / Campeão Interno / Comprador Econômico | Idea→Wedge | [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 5: PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY)|Fase 5 (Vol. 2)]], Passo 7 |
-| Anatomia da Cunha (1 papel + 1 fluxo + 1 resultado + 1 comprador econômico) | Wedge (confira antes da pré-venda B2B se quem vê a oferta detém o orçamento) | [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 6: MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 6 (Vol. 2)]], Estratégia da Cunha |
-| Teste de Precisão do Comprador | Wedge | [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 6: MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 6 (Vol. 2)]], subseção própria, Template: Teste de Precisão do Comprador (Fase 6) |
-| Teste do grupo de WhatsApp | Wedge | [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 6: MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 6 (Vol. 2)]], Estratégia da Cunha |
-| Wedge vs Plataforma (distinção) | Wedge | [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 6: MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 6 (Vol. 2)]], subseção própria |
-| Sinais de escopo instável (4 sinais ordenados por gravidade) | Wedge | [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 6: MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 6 (Vol. 2)]], subseção própria |
-| Canvas da Cunha | *Wedge* (Cunha de Entrada) | [[IGNICAO-Vol-2-Descoberta-e-Mercado#IGNIÇÃO: Volume 2: Descoberta de Cliente e Mapeamento de Mercado|Fase 6 (Vol. 2)]], entregável central |
-| Concorrência definida como o comportamento atual do cliente (planilha, WhatsApp, inércia), e não apenas outra startup | Wedge | [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 6: MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 6: Mapeamento de Mercado e Concorrência (Vol. 2)]] |
-| Janela curta de 2 a 3 semanas por experimento (ou 30 a 60 dias em piloto industrial/enterprise) | Idea → Wedge | [[#FASE 8: EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA E DA SOLUÇÃO|Fase 8: Experimentos de Validação]] |
-| Gate de direcionalidade ("reduz ou elimina a dor") | Wedge→Scale | [[#FASE 10: TESTES DE SOLUÇÃO E USABILIDADE|Fase 10]], Definição de Sucesso |
-| Regra de expandir um único vetor por vez (*intra-conta* antes de *extra-conta*) | Scale | [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 15: MÁQUINA DE CRESCIMENTO E EXPANSÃO EM ESCALA|Fase 15: Máquina de Crescimento e Expansão em Escala (Vol. 6)]] |
-| Diagnóstico de falhas na passagem da venda pelo fundador para a máquina comercial | Wedge → Scale | [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16: TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16: Time, Liderança Executiva e Cultura em Escala (Vol. 6)]] |
-| Portão pré-reinvenção (*"você já esgotou os seis caminhos de expansão da cunha atual?"*) | Scale | [[IGNICAO-Vol-9-Maturidade-e-Exit#FASE 19: REINVENÇÃO E SEGUNDA CURVA|Fase 19: Reinvenção e Segunda Curva (Vol. 9)]] |
-| Princípio transversal: *"toda startup em estágio inicial é um experimento desenhado para testar uma tese não óbvia"* | Transversal | [[#CAPÍTULO 1: ABORDAGEM CIENTÍFICA vs LEAN STARTUP: QUANDO USAR CADA UMA|Capítulo 1 deste Volume 3]] e [[IGNICAO-Vol-1-Ideacao#FASE 3: CONSTRUÇÃO DA TEORIA DO NEGÓCIO|Fase 3 (Vol. 1)]] |
+| Trio Usuário / Campeão Interno / Comprador Econômico | Idea→Wedge | [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 5: PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY)\|Fase 5 (Vol. 2)]], Passo 7 |
+| Anatomia da Cunha (1 papel + 1 fluxo + 1 resultado + 1 comprador econômico) | Wedge (confira antes da pré-venda B2B se quem vê a oferta detém o orçamento) | [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 6: MAPEAMENTO DE MERCADO E CONCORRÊNCIA\|Fase 6 (Vol. 2)]], Estratégia da Cunha |
+| Teste de Precisão do Comprador | Wedge | [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 6: MAPEAMENTO DE MERCADO E CONCORRÊNCIA\|Fase 6 (Vol. 2)]], subseção própria, Template: Teste de Precisão do Comprador (Fase 6) |
+| Teste do grupo de WhatsApp | Wedge | [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 6: MAPEAMENTO DE MERCADO E CONCORRÊNCIA\|Fase 6 (Vol. 2)]], Estratégia da Cunha |
+| Wedge vs Plataforma (distinção) | Wedge | [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 6: MAPEAMENTO DE MERCADO E CONCORRÊNCIA\|Fase 6 (Vol. 2)]], subseção própria |
+| Sinais de escopo instável (4 sinais ordenados por gravidade) | Wedge | [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 6: MAPEAMENTO DE MERCADO E CONCORRÊNCIA\|Fase 6 (Vol. 2)]], subseção própria |
+| Canvas da Cunha | *Wedge* (Cunha de Entrada) | [[IGNICAO-Vol-2-Descoberta-e-Mercado#IGNIÇÃO: Volume 2: Descoberta de Cliente e Mapeamento de Mercado\|Fase 6 (Vol. 2)]], entregável central |
+| Concorrência definida como o comportamento atual do cliente (planilha, WhatsApp, inércia), e não apenas outra startup | Wedge | [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 6: MAPEAMENTO DE MERCADO E CONCORRÊNCIA\|Fase 6: Mapeamento de Mercado e Concorrência (Vol. 2)]] |
+| Janela curta de 2 a 3 semanas por experimento (ou 30 a 60 dias em piloto industrial/enterprise) | Idea → Wedge | [[#FASE 8: EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA E DA SOLUÇÃO\|Fase 8: Experimentos de Validação]] |
+| Gate de direcionalidade ("reduz ou elimina a dor") | Wedge→Scale | [[#FASE 10: TESTES DE SOLUÇÃO E USABILIDADE\|Fase 10]], Definição de Sucesso |
+| Regra de expandir um único vetor por vez (*intra-conta* antes de *extra-conta*) | Scale | [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 15: MÁQUINA DE CRESCIMENTO E EXPANSÃO EM ESCALA\|Fase 15: Máquina de Crescimento e Expansão em Escala (Vol. 6)]] |
+| Diagnóstico de falhas na passagem da venda pelo fundador para a máquina comercial | Wedge → Scale | [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16: TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA\|Fase 16: Time, Liderança Executiva e Cultura em Escala (Vol. 6)]] |
+| Portão pré-reinvenção (*"você já esgotou os seis caminhos de expansão da cunha atual?"*) | Scale | [[IGNICAO-Vol-9-Maturidade-e-Exit#FASE 19: REINVENÇÃO E SEGUNDA CURVA\|Fase 19: Reinvenção e Segunda Curva (Vol. 9)]] |
+| Princípio transversal: *"toda startup em estágio inicial é um experimento desenhado para testar uma tese não óbvia"* | Transversal | [[#CAPÍTULO 1: ABORDAGEM CIENTÍFICA vs LEAN STARTUP: QUANDO USAR CADA UMA\|Capítulo 1 deste Volume 3]] e [[IGNICAO-Vol-1-Ideacao#FASE 3: CONSTRUÇÃO DA TEORIA DO NEGÓCIO\|Fase 3 (Vol. 1)]] |
 
 ### Como Idea → Wedge → Scale se relaciona com os outros três frameworks
 
@@ -4404,7 +4406,7 @@ O método de Andrew Chen organiza a construção e a escala de negócios com efe
 
 Três conceitos operacionais de Andrew Chen evitam que o fundador queime caixa no escuro: primeiro, reconheça que um negócio de efeito de rede atravessa cinco estágios distintos (Partida a Frio, Ponto de Inflexão, Velocidade de Escape, Teto e Fosso), e o que funciona na escala mata a empresa se aplicado antes da liquidez inicial, segundo, conquiste primeiro o **Lado Difícil (*Hard Side*), que concentra os 10% a 20% de fornecedores ou criadores profissionais responsáveis por 80% do valor da plataforma, para que o Lado Fácil (*Easy Side*) encontre a prateleira abastecida, e terceiro, descubra qual é a sua Rede Atômica (*Atomic Network*)**, o menor grupo autossustentável onde o produto já entrega valor completo (uma única empresa para o Slack, um único campus universitário no início de redes sociais ou um único polo gastronômico para entrega de refeições). Quando a primeira rede atômica para em pé sozinha, escalar consiste em copiar o molde célula por célula.
 
-##### Passos práticos de implantação
+##### Aplicação imediata na rotina da empresa
 
 Passo 1: identificar se o produto tem efeitos de rede reais (nem todo marketplace/social tem efeito de rede verdadeiro, alguns apenas *parecem* ter). Passo 2: definir Atomic Network (o menor grupo onde produto funciona sem precisar de nada maior). Passo 3: identificar Hard Side e estratégia específica para adquirir primeiros 10, 100, 1000 do Hard Side (tipicamente manualmente, por fundadores, em processo "unscalable"). Passo 4: construir três growth loops (engagement para retenção, acquisition para aquisição, economic para unit economics). Passo 5: uma vez que uma Atomic Network funciona, replicar com playbook.
 
@@ -4731,7 +4733,7 @@ Trata-se de uma estratégia de distribuição de baixo para cima (*bottom-up*) e
 
 **Developer Experience (DX)** como produto: o "produto" que o desenvolvedor experimenta é o processo de integração, documentação, latência da API, qualidade dos erros, SDKs. DX ruim é produto ruim, independentemente da funcionalidade subjacente. Time to first successful call (TTFSC): métrica central de onboarding de API, em quanto tempo um desenvolvedor faz a primeira chamada bem-sucedida? Twilio otimizou para < 5 minutos. Land and expand: desenvolvedor integra em projeto pessoal ou POC, demonstra valor, empresa compra acesso em escala. Developer as champion: desenvolvedor interno que integrou vira advogado da plataforma com a liderança técnica e de negócio.
 
-##### Passos práticos de implantação
+##### Aplicação imediata na rotina da empresa
 
 Produto: garantir que a API tem documentação de referência completa, exemplos em múltiplas linguagens, sandbox de testes, erros com mensagens informativas. Medir TTFSC semanalmente. Aquisição: presença em plataformas de desenvolvedores (GitHub, Stack Overflow, Dev.to, Hacker News), eventos técnicos (meetups, hackathons), conteúdo técnico (tutoriais, artigos de blog de engineering). Comunidade: programa de advocates (desenvolvedores externos que usam e promovem), fórum ou Discord, feedback loop direto entre comunidade e produto. Monetização: freemium ou pay-as-you-go para remover barreira de entrada, expansão automática com uso.
 

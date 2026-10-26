@@ -1197,7 +1197,7 @@ Medir apenas volume de atividade (como commits ou linhas de código por dia) cri
 
 ---
 
-#### Framework: Memorando Narrativo de 6 Páginas (Amazon 6-Pager, Jeff Bezos. Ver também [[#CAPÍTULO 9: COMUNICAÇÃO INTERNA|Capítulo 9]])
+#### Framework: Memorando Narrativo de 6 Páginas (Amazon 6-Pager, Jeff Bezos, ver também Capítulo 8: Comunicação Interna e Gestão do Conhecimento)
 
 ##### De onde vem a ferramenta (e por que sobreviveu ao filtro do tempo)
 
@@ -1357,7 +1357,7 @@ Exemplo aplicado, Onboarding de novo cliente SaaS. Suppliers: Sales (info do cli
 
 ---
 
-#### Framework: Mapeamento de Fluxo de Valor (Value Stream Mapping, Ohno / Rother & Shook, 1998. Ver [[#CAPÍTULO 10: OPERAÇÕES EM ESCALA|Capítulo 10]])
+#### Framework: Mapeamento de Fluxo de Valor (Value Stream Mapping, Ohno / Rother & Shook, 1998, ver Capítulo 9: Operações de Atendimento, Suporte Técnico e Escala de Operações)
 
 ##### De onde vem a ferramenta (e por que sobreviveu ao filtro do tempo)
 
@@ -1461,7 +1461,7 @@ Bons OKRs são *mensuráveis* (ancorados em números verificáveis), *desafiador
 
 ---
 
-#### Template: Pós-Mortem Sem Culpa de Incidente Técnico (Referência para os [[#CAPÍTULO 8: GESTÃO DO CONHECIMENTO|Capítulos 8]] e [[#CAPÍTULO 10: OPERAÇÕES EM ESCALA|10]])
+#### Template: Pós-Mortem Sem Culpa de Incidente Técnico (Referência para o Capítulo 3: Dívida Técnica e Confiabilidade e para o Capítulo 8: Comunicação Interna e Gestão do Conhecimento)
 
 > [!note] Quando usar
 > Após qualquer incidente que afetou usuários, dados ou operações por mais de 15 minutos, ou que causou perda de dados, falha de pagamento ou exposição de informações. Circule o rascunho em até 48 horas após a resolução e publique a versão final revisada com o time em até cinco dias úteis. Quando houver incidente de segurança com dados pessoais que possa acarretar risco ou dano relevante aos titulares, acione imediatamente o encarregado (DPO) para comunicar a ANPD e os titulares em até três dias úteis do conhecimento (Resolução CD/ANPD nº 15/2024, art. 6º. Ver Volume 8, Capítulo 9).

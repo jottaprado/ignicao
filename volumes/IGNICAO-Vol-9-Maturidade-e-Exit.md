@@ -403,7 +403,7 @@ Faça esse mesmo teste na sua empresa hoje (pontuando de 0 a 2 cada pergunta. So
 | Revenue de produtos novos | % da receita de lançamentos <24 meses | ≥ 15-25% em scaleup |
 | NPS por coorte temporal | Coortes novas vs antigas | Coorte nova ≥ coorte antiga |
 | Concentração de receita | Top 20% dos clientes como % da receita | Crescente é sinal de saturação |
-| Velocidade de aprendizado (2ª curva) | Hipóteses críticas resolvidas por trimestre na aposta nova (mínimo de 5 por trimestre) | ≥ igual à [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 8: EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA E DA SOLUÇÃO|Fase 8 (Experimentos de validação, Vol. 3)]] |
+| Velocidade de aprendizado (2ª curva) | Hipóteses críticas resolvidas por trimestre na aposta nova (mínimo de 5 por trimestre) | ≥ igual à [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 8: EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA E DA SOLUÇÃO\|Fase 8 (Experimentos de validação, Vol. 3)]] |
 | Alocação de tempo do CEO | % da agenda semanal dedicada às novas apostas | ≥ 20% da semana |
 | Pipeline segunda curva | Clientes-piloto ativos | ≥ 3 em primeiros 6 meses |
 
@@ -5600,13 +5600,13 @@ quadrantChart
 
 | Padrão estrutural (Vol. 2, Cap. 3) | Casos ilustrativos neste capítulo | Onde prevenir na coleção |
 |---|---|---|
-| 1. Sem defensibilidade estrutural | Easy Taxi | [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 6: MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 6 (Vol. 2)]] |
-| 2. PMF falso (retenção inexistente sem subsídio) | Peixe Urbano, compras coletivas | [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 12: VALIDAÇÃO DO MODELO DE NEGÓCIO|Fases 12 e 13 (Vol. 4)]] |
-| 3. Economia unitária negativa em escala | 123 Milhas, entregas verticais 2014–2017, Liv Up | [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 12: VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 12 (Vol. 4) e Fase 14 (Vol. 5)]] |
-| 4. Falha grave de governança e controles internos | Americanas, IPOs prematuros 2020–2021 | [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#FASE 18: ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18 (Vol. 8) e Capítulo 2 (Vol. 9)]] |
-| 5. Featurização e mudança estrutural de plataforma | Kekanto (absorção pelo Google Maps), Ahgora (venda estratégica à TOTVS) | [[#Por que todas as vantagens competitivas são temporárias e quando abrir a segunda curva|Fase 19 (Vol. 9: Reinvenção e Segunda Curva)]] |
-| 6. Sobreextensão geográfica precoce | Easy Taxi (30+ países), disputas regionais LatAm | [[#CAPÍTULO 5: INTERNACIONALIZAÇÃO: ESTRUTURA E PRODUTO PARA MÚLTIPLOS MERCADOS|Capítulo 5 (Vol. 9: Internacionalização)]] |
-| 7. Sobredimensionamento na bonança e ajuste de ciclo | Enjoei, Loggi, EBANX | [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16: TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16 (Vol. 6) e Capítulo 10 (Vol. 9)]] |
+| 1. Sem defensibilidade estrutural | Easy Taxi | [[IGNICAO-Vol-2-Descoberta-e-Mercado#FASE 6: MAPEAMENTO DE MERCADO E CONCORRÊNCIA\|Fase 6 (Vol. 2)]] |
+| 2. PMF falso (retenção inexistente sem subsídio) | Peixe Urbano, compras coletivas | [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 12: VALIDAÇÃO DO MODELO DE NEGÓCIO\|Fases 12 e 13 (Vol. 4)]] |
+| 3. Economia unitária negativa em escala | 123 Milhas, entregas verticais 2014–2017, Liv Up | [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 12: VALIDAÇÃO DO MODELO DE NEGÓCIO\|Fase 12 (Vol. 4) e Fase 14 (Vol. 5)]] |
+| 4. Falha grave de governança e controles internos | Americanas, IPOs prematuros 2020–2021 | [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#FASE 18: ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL\|Fase 18 (Vol. 8) e Capítulo 2 (Vol. 9)]] |
+| 5. Featurização e mudança estrutural de plataforma | Kekanto (absorção pelo Google Maps), Ahgora (venda estratégica à TOTVS) | [[#Por que todas as vantagens competitivas são temporárias e quando abrir a segunda curva\|Fase 19 (Vol. 9: Reinvenção e Segunda Curva)]] |
+| 6. Sobreextensão geográfica precoce | Easy Taxi (30+ países), disputas regionais LatAm | [[#CAPÍTULO 5: INTERNACIONALIZAÇÃO: ESTRUTURA E PRODUTO PARA MÚLTIPLOS MERCADOS\|Capítulo 5 (Vol. 9: Internacionalização)]] |
+| 7. Sobredimensionamento na bonança e ajuste de ciclo | Enjoei, Loggi, EBANX | [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16: TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA\|Fase 16 (Vol. 6) e Capítulo 10 (Vol. 9)]] |
 
 #### Caso 10: iFood: consolidação nacional, defesa de liderança e efeito de rede
 

@@ -2316,14 +2316,14 @@ ESOP reservado: 15%
 
 Post-rodada completa, com tudo.
 
-|Fundador A | 50,0% | 45,0% | **29,8%** |
+| Participante | Fundação | Pré-Série A (c/ ESOP e Mútuo) | Pós-Série A |
+| :--- | :--- | :--- | :--- |
+| Fundador A | 50,0% | 45,0% | **29,8%** |
 |Fundador B | 33,3% | 30,0% | **19,8%** |
 |Anjo (mútuo c/ 20% desconto) | 0,0% | 10,8% | **7,1%** |
 |Série A (R$ 10M @ R$ 20M pre) | 0,0% | 0,0% | **33,3%** |
 |ESOP Pool (expandido pré-Série A) | 16,7% | 14,2% | **10,0%** |
 |**Total** | **100,0%** | **100,0%** | **100,0%** |
-Total: 100%
-```
 
 **Estágio 3: Série B, ou C.** Novas rodadas diluem todos proporcionalmente. Os fundadores frequentemente têm cinco a vinte por cento na Série C.
 
@@ -2335,13 +2335,13 @@ Captable.io, e Pulley. Alternativas.
 
 Eqvista, e Shareworks. Opções diferentes.
 
-### Planejamento tributário em escala: Lucro Real, Lei do Bem, subvenções e estrutura societária
+No Brasil sem *flip*, a gestão do *cap table* exige planilha estruturada conciliada com o Contrato Social (nas limitadas) ou com o Livro de Registro de Ações Nominativas (nas S.A.).
 
 #### Armadilhas típicas em cap table BR
 
 Diluição invisível. Os fundadores não percebem impacto cumulativo de rodadas.
 
-Enquanto a primeira parte deste capítulo tratou da escolha de regime até a Série A, esta segunda metade aprofunda as alavancas tributárias de empresas em expansão (Série A em diante e operações industriais ou de P&D intensivo), quando a apuração pelo Lucro Real supera o Lucro Presumido, como capturar os benefícios fiscais da Lei do Bem, da Lei de Informática e do Programa Mover, como estruturar holdings e reorganizações societárias com segurança frente ao CARF e como gerenciar PLR, ISS e remessas internacionais.
+Classes de participação mal desenhadas: preferências de liquidação agressivas nas rodadas iniciais travam a entrada de novos fundos nas rodadas seguintes.
 
 Múltiplos mútuos sem coordenação. Conversão simultânea com termos conflitantes.
 
@@ -2354,6 +2354,10 @@ Cláusulas de vesting reverso, sem proteção. O fundador sai, e perde ações r
 Sem acordo de acionistas formal. Disputas societárias sem resolução clara.
 
 ---
+
+### Planejamento tributário em escala: Lucro Real, Lei do Bem, subvenções e estrutura societária
+
+Enquanto a primeira parte deste capítulo tratou da escolha de regime até a Série A, esta segunda metade aprofunda as alavancas tributárias de empresas em expansão (Série A em diante e operações industriais ou de P&D intensivo): quando a apuração pelo Lucro Real supera o Lucro Presumido, como capturar os benefícios fiscais da Lei do Bem, da Lei de Informática e do Programa Mover, como estruturar holdings e reorganizações societárias com segurança frente ao CARF e como gerenciar PLR, ISS e remessas internacionais.
 
 ### Metas de higiene fiscal e cálculo da Alíquota Efetiva Total
 
@@ -3224,6 +3228,7 @@ Receita Líquida                                      R$ 3,04M
 = EBITDA Orçado                                     (R$ 9,85M)  → Queima operacional média: R$ 821 mil/mês
                                                                 → Com R$ 16,00M em caixa pós-Série A: 19,5 meses de runway (saldo final de R$ 5,80M após R$ 0,35M de CapEx/giro)
                                                                 → Alerta: se o fundador esquecesse os encargos de 1,75x e somasse só os R$ 5,91M nominais (despesa aparente de R$ 7,36M e EBITDA de -R$ 5,42M), acharia que R$ 8,00M de caixa duram 17,7 meses quando na realidade duram apenas 9,7 meses!
+```
 
 ---
 
@@ -4510,7 +4515,7 @@ O mercado de crédito PJ via fintech cresceu substancialmente entre 2018 e 2025.
 | **Crédito c/ garantia de imóvel** | ~14% a 24% a.a. (+ indexador) | 60 a 120m | Alienação de imóvel | 15 a 30 dias |
 | **Capital de giro bancário livre** | 24% a 48% a.a. | 12 a 36m | Aval solidário / recebíveis | 5 a 15 dias |
 | **Fintech de giro sem garantia real** | 30% a 55% a.a. | 6 a 24m | Aval / dados Open Finance | 1 a 3 dias |
-| **RBF (Antecipação de Receita)** | Múltiplo de 1,3x a 1,8x (ver [[#CAPÍTULO 13: VENTURE DEBT E REVENUE-BASED FINANCING (RBF)|Cap. 13]]) | 12 a 36m | Cessão de receita futura | 5 a 10 dias |
+| **RBF (Antecipação de Receita)** | Múltiplo de 1,3x a 1,8x (ver [[#CAPÍTULO 13: VENTURE DEBT E REVENUE-BASED FINANCING (RBF)\|Cap. 13]]) | 12 a 36m | Cessão de receita futura | 5 a 10 dias |
 
 ### Checklist prático de estruturação bancária e negociação de linhas PJ
 
@@ -4804,14 +4809,14 @@ O **mapa de riscos (*risk register*)** deve ser revisado trimestralmente pelo CE
 |---|---|---|---|---|
 | 1 | Cliente principal cancela (>30% da receita) | Média | Alto | Mitigar (diversificar base) + monitorar NPS |
 | 2 | Fundador ou CTO decisivo morre/fica incapacitado ou sai | Baixa | Alto | Morte/invalidez: Transferir (Key Man Insurance), Saída voluntária: Mitigar (vesting, não concorrência e documentação) |
-| 3 | Incidente de segurança com vazamento de dados | Média | Alto | Transferir (Cyber Insurance) + mitigar ([[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 13: SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA DEFENSIVA|Capítulo 13 (Segurança da Informação: Da Certificação à Engenharia) (Vol. 8)]]) |
+| 3 | Incidente de segurança com vazamento de dados | Média | Alto | Transferir (Cyber Insurance) + mitigar ([[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 13: SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA DEFENSIVA\|Capítulo 13 (Segurança da Informação: Da Certificação à Engenharia) (Vol. 8)]]) |
 | 4 | Multa regulatória (LGPD, ANPD, setor) | Média | Médio | Mitigar (compliance) + transferir (Cyber Insurance) |
 | 5 | Processo trabalhista de ex-funcionário | Alta | Médio | Mitigar (RH estruturado) + aceitar residual |
 | 6 | Falha do produto que gera indenização a cliente | Média | Alto | Transferir (E&O Insurance) + mitigar (SLA realista) |
 | 7 | Cloud provider fora do ar por 24h+ | Baixa | Alto | Mitigar (redundância multi-região) + aceitar residual |
 | 8 | Decisão de diretoria contestada por sócio ou investidor | Baixa | Alto | Transferir (D&O Insurance, negociando exclusão de sócio relevante ≥ 25%) + mitigar (governança) |
 | 9 | Dependência de único fornecedor de API/pagamento | Média | Alto | Mitigar (fornecedor alternativo mapeado) |
-| 10 | Reputação afetada por crise pública | Baixa | Alto | Mitigar (plano de crise: [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9: GESTÃO DE CRISE, CONTINUIDADE OPERACIONAL E COMUNICAÇÃO CRÍTICA|Capítulo 9 (Gestão de Crise, Continuidade Operacional e Comunicação Crítica) (Vol. 9)]]) |
+| 10 | Reputação afetada por crise pública | Baixa | Alto | Mitigar (plano de crise: [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9: GESTÃO DE CRISE, CONTINUIDADE OPERACIONAL E COMUNICAÇÃO CRÍTICA\|Capítulo 9 (Gestão de Crise, Continuidade Operacional e Comunicação Crítica) (Vol. 9)]]) |
 
 ---
 
@@ -5511,7 +5516,7 @@ Compartilhamento de contexto. Situações complexas, que não cabem em update fo
 > [!warning] Armadilha comum: relação transacional com investidores
 > O CEO que só procura os investidores quando precisa de dinheiro ou de um favor urgente constrói uma relação puramente transacional. As melhores relações entre fundador e investidor dedicam 70% das conversas à leitura franca de mercado, produto e estratégia, e 30% a pedidos objetivos de apoio.
 
-#### 4. Gestão de Crise com Investidores (cross-referência [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9: GESTÃO DE CRISE, CONTINUIDADE OPERACIONAL E COMUNICAÇÃO CRÍTICA|Capítulo 9 (Gestão de Crise, Continuidade Operacional e Comunicação Crítica) (Vol. 9)]])
+#### 4. Gestão de Crise com Investidores (ver Capítulo 9: Gestão de Crise, Continuidade Operacional e Comunicação Crítica do Volume 9)
 
 Em crise, o relacionamento construído previamente é o que determina se os investidores ajudam, ou atrapalham.
 
@@ -7008,7 +7013,7 @@ O modelo correto: o investidor é um parceiro com informação assimétrica. Ele
 | Artefato | Frequência | Para quem | Conteúdo |
 |---|---|---|---|
 | Update mensal | Mensal | Todos os investidores | Métricas, progresso, pedido de ajuda |
-| Board deck | Trimestral | Investidores com assento | Revisão completa + decisões (ver [[IGNICAO-Vol-9-Maturidade-e-Exit#TEMPLATES OPERACIONAIS E SIMULAÇÃO DE M&A DESTA FASE (FASE 20)|Template: Board Deck e Prontidão para M&A (Vol. 9)]]) |
+| Board deck | Trimestral | Investidores com assento | Revisão completa + decisões (ver [[IGNICAO-Vol-9-Maturidade-e-Exit#TEMPLATES OPERACIONAIS E SIMULAÇÃO DE M&A DESTA FASE (FASE 20)\|Template: Board Deck e Prontidão para M&A (Vol. 9)]]) |
 | Update de milestone | Ad hoc | Todos | Quando algo significativo acontece |
 | Chamada 1:1 | Quando necessário | Investidor lead | Decisão estratégica, problema sério |
 

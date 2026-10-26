@@ -1357,7 +1357,7 @@
   },
   {
     "line": 2335,
-    "newText": "|Fundador A | 50,0% | 45,0% | **29,8%** |"
+    "newText": "| Participante | Fundação | Pré-Série A (c/ ESOP e Mútuo) | Pós-Série A |\n| :--- | :--- | :--- | :--- |\n| Fundador A | 50,0% | 45,0% | **29,8%** |"
   },
   {
     "line": 2336,
@@ -1380,12 +1380,24 @@
     "newText": "|**Total** | **100,0%** | **100,0%** | **100,0%** |"
   },
   {
+    "line": 2341,
+    "newText": ""
+  },
+  {
+    "line": 2342,
+    "newText": ""
+  },
+  {
     "line": 2354,
-    "newText": "### Planejamento tributário em escala: Lucro Real, Lei do Bem, subvenções e estrutura societária"
+    "newText": "No Brasil sem *flip*, a gestão do *cap table* exige planilha estruturada conciliada com o Contrato Social (nas limitadas) ou com o Livro de Registro de Ações Nominativas (nas S.A.)."
   },
   {
     "line": 2360,
-    "newText": "Enquanto a primeira parte deste capítulo tratou da escolha de regime até a Série A, esta segunda metade aprofunda as alavancas tributárias de empresas em expansão (Série A em diante e operações industriais ou de P&D intensivo), quando a apuração pelo **Lucro Real** supera o Lucro Presumido, como capturar os benefícios fiscais da **Lei do Bem**, da **Lei de Informática** e do **Programa Mover**, como estruturar holdings e reorganizações societárias com segurança frente ao CARF e como gerenciar PLR, ISS e remessas internacionais."
+    "newText": "Classes de participação mal desenhadas: preferências de liquidação agressivas nas rodadas iniciais travam a entrada de novos fundos nas rodadas seguintes."
+  },
+  {
+    "line": 2374,
+    "newText": "### Planejamento tributário em escala: Lucro Real, Lei do Bem, subvenções e estrutura societária\n\nEnquanto a primeira parte deste capítulo tratou da escolha de regime até a Série A, esta segunda metade aprofunda as alavancas tributárias de empresas em expansão (Série A em diante e operações industriais ou de P&D intensivo): quando a apuração pelo **Lucro Real** supera o Lucro Presumido, como capturar os benefícios fiscais da **Lei do Bem**, da **Lei de Informática** e do **Programa Mover**, como estruturar holdings e reorganizações societárias com segurança frente ao CARF e como gerenciar PLR, ISS e remessas internacionais.\n\n### Metas de higiene fiscal e cálculo da Alíquota Efetiva Total"
   },
   {
     "line": 2376,
@@ -2141,7 +2153,7 @@
   },
   {
     "line": 3263,
-    "newText": "                                                                → Alerta: se o fundador esquecesse os encargos de 1,75x e somasse só os R$ 5,91M nominais (despesa aparente de R$ 7,36M e EBITDA de -R$ 5,42M), acharia que R$ 8,00M de caixa duram 17,7 meses quando na realidade duram apenas 9,7 meses!"
+    "newText": "                                                                → Alerta: se o fundador esquecesse os encargos de 1,75x e somasse só os R$ 5,91M nominais (despesa aparente de R$ 7,36M e EBITDA de -R$ 5,42M), acharia que R$ 8,00M de caixa duram 17,7 meses quando na realidade duram apenas 9,7 meses!\n```"
   },
   {
     "line": 3307,
@@ -4097,7 +4109,7 @@
   },
   {
     "line": 5701,
-    "newText": "#### 4. Gestão de Crise com Investidores (cross-referência [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9 — GESTÃO DE CRISE, CONTINUIDADE OPERACIONAL E COMUNICAÇÃO CRÍTICA|Capítulo 9 (Gestão de Crise, Continuidade Operacional e Comunicação Crítica) (Vol. 9)]])"
+    "newText": "#### 4. Gestão de Crise com Investidores (ver Capítulo 9: Gestão de Crise, Continuidade Operacional e Comunicação Crítica do Volume 9)"
   },
   {
     "line": 5719,

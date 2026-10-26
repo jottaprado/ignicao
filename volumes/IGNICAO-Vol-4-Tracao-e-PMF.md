@@ -933,6 +933,7 @@ COMUNICAÇÃO
 [x] 13. Mensagem de lançamento escrita e revisada com resultados reais auditados dos 12 pilotos
 [x] 14. Lista de 50 diretores financeiros e parceiros contábeis informada em primeira mão
 [x] 15. Roteiro de acompanhamento diário dos primeiros 7 dias pronto para acionar quem não ativar em 24 horas
+```
 
 ---
 
@@ -1122,7 +1123,7 @@ Desde a primeira captação, mantenha a tabela de participação societária (*c
 
 A estrutura mínima do cap table:
 
-| Detentor (sócio ou investidor) | Classe de participação (em Ltda são quotas, que admitem classes preferenciais desde a IN DREI 81/2020, ações preferenciais exigem S.A. ou conversão de mútuo/nota, ver [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 11: INSTRUMENTOS DE CAPTAÇÃO: SAFE, NOTA CONVERSÍVEL E MÚTUO CONVERSÍVEL|Vol. 5, Cap. 11]]) | Número de quotas/ações | Percentual antes do Seed | Número de quotas/ações após Seed | Percentual após Seed |
+| Detentor (sócio ou investidor) | Classe de participação (em Ltda são quotas, que admitem classes preferenciais desde a IN DREI 81/2020, ações preferenciais exigem S.A. ou conversão de mútuo/nota, ver [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 11: INSTRUMENTOS DE CAPTAÇÃO: SAFE, NOTA CONVERSÍVEL E MÚTUO CONVERSÍVEL\|Vol. 5, Cap. 11]]) | Número de quotas/ações | Percentual antes do Seed | Número de quotas/ações após Seed | Percentual após Seed |
 |---|---|---|---|---|---|
 | Fundador 1 | Ordinárias | 5.000.000 | 50,0% | 5.000.000 | 40,0% |
 | Fundador 2 | Ordinárias | 5.000.000 | 50,0% | 5.000.000 | 40,0% |
@@ -1427,7 +1428,7 @@ Respondentes categorizados:
 
 NPS = % Promotores - % Detratores. Range: -100 a +100.
 
-##### Passos práticos de implantação
+##### Protocolo prático de execução
 
 Passo 1: Use sempre a pergunta padronizada, sem improvisar a redação a cada envio.
 
@@ -1474,7 +1475,7 @@ Métrica que mede **facilidade** de uma interação. Pergunta principal: "A empr
 
 Baseado em insight: clientes não ficam tão felizes quando "encantados" quanto raivosos quando têm que esforçar-se. Redução de esforço tem impacto maior que aumento de "delight".
 
-##### Aplicação imediata na rotina da empresa
+##### Roteiro de aplicação prática na operação
 
 Passo 1: Aplique imediatamente após uma interação específica (fechamento de chamado de suporte, conclusão do *onboarding* ou finalização de compra).
 
@@ -1521,7 +1522,7 @@ Propensity Score Matching: emparelha indivíduos tratados e não tratados com ca
 
 Instrumental Variables: usa variável que afeta tratamento mas não outcome diretamente, para isolar efeito causal.
 
-##### Execução prática com a equipe
+##### Passos práticos de implantação
 
 Passo 1: Formule uma pergunta causal explícita (ex.: "o desconto de frete aumentou a recompra líquida ou apenas antecipou pedidos de clientes que já comprariam?").
 
@@ -1574,7 +1575,7 @@ Veja como Lucas e Marina aplicaram o filtro financeiro do Bullseye na passagem d
 5. **Parcerias de distribuição:** escritórios de contabilidade consultiva e BPO financeiro que atendem PMEs.
 6. **Engenharia como marketing:** planilha e calculadora gratuita de auditoria de taxas bancárias e multas.
 
-##### Roteiro de aplicação prática na operação
+##### Execução prática com a equipe
 
 Passo 1: Liste ideias concretas para os 19 canais (consultando a lista completa do Capítulo 1) sem descartar opções por preconceito inicial.
 
@@ -1660,7 +1661,7 @@ North Star metric: ferramenta de foco.
 
 Product-led growth: produto é principal motor de aquisição.
 
-##### Execução prática com a equipe
+##### Passos práticos de implantação
 
 Passo 1: Antes do PMF, o processo de *growth* é conduzido diretamente pelos próprios fundadores (um perfil de produto/negócio e um de engenharia) rodando um experimento disciplinado por semana. A criação de um time multidisciplinar dedicado entra apenas na etapa de escala da Fase 15 (Vol. 6).
 
@@ -2323,7 +2324,7 @@ RICE = (Reach × Impact × Confidence) / Effort
 - **Confiança (*Confidence*):** grau de certeza na estimativa (100% para evidência alta, 80% para média, 50% para baixa e 30% ou menos para apostas especulativas, aplique um filtro estratégico para que melhorias cosméticas de esforço mínimo, como *dark mode*, não passem à frente de alavancas reais de retenção).
 - Effort: pessoa-mês necessárias.
 
-##### Protocolo prático de execução
+##### Aplicação imediata na rotina da empresa
 
 1. Para cada funcionalidade candidata da lista, estime as quatro dimensões do modelo (Alcance, Impacto, Confiança e Esforço) antes de calcular a nota.
 
@@ -2376,7 +2377,7 @@ Onde:
 - Confidence: quão confiante você está que vai funcionar? (1-10)
 - Ease: quão fácil de executar? (1-10)
 
-##### Execução prática com a equipe
+##### Passos práticos de implantação
 
 Passo 1: Liste ideias de experimentos de growth, features, etc.
 
@@ -2432,7 +2433,7 @@ Critérios de boa North Star:
 - Mensurável e granulável.
 - Compreensível pela empresa inteira.
 
-##### Passos práticos de implantação
+##### Protocolo prático de execução
 
 Passo 1: Identifique qual métrica captura valor. Exemplos:
 
@@ -2502,7 +2503,7 @@ GSM process:
 - Signals: o que user faria se goal acontecer (qualitativo)?
 - Metrics: como quantificamos signal?
 
-##### Passos práticos de implantação
+##### Protocolo prático de execução
 
 Passo 1: Selecione apenas as dimensões do framework HEART (criado por pesquisadores do Google) que sejam pertinentes ao estágio atual do seu produto, definindo para cada uma o objetivo claro (*Goal*), o sinal comportamental (*Signal*) e a métrica auditável (*Metric*).
 
@@ -2554,7 +2555,7 @@ Leis de positioning (entre 22 do livro *The 22 Immutable Laws of Marketing* de R
 6. Lei da Dualidade: no longo prazo, mercado vira corrida de 2 cavalos.
 7. Lei da Franqueza: admitir uma fraqueza pode ser desarme poderoso ("somos a 2ª maior locadora").
 
-##### Aplicação imediata na rotina da empresa
+##### Roteiro de aplicação prática na operação
 
 Passo 1: Mapeie mente do mercado: qual palavra/conceito cada concorrente já ocupa?
 
@@ -2612,7 +2613,7 @@ Os 10 componentes:
 9. Positioning statement: síntese em forma clara.
 10. Test and iterate: com vendas, marketing, clientes.
 
-##### Passos práticos de implantação
+##### Protocolo prático de execução
 
 Passo 1: Workshop com time comercial: sales sabe o que cliente realmente compara.
 
@@ -2677,7 +2678,7 @@ Framework para estruturar **comunicação de marketing como narrativa** onde cli
 6. That helps them avoid failure.
 7. And ends in success.
 
-##### Passos práticos de implantação
+##### Protocolo prático de execução
 
 Passo 1: Cliente é o herói, empresa é guia (Yoda, não Luke Skywalker).
 
@@ -2747,7 +2748,7 @@ Framework para dar **personalidade coerente à marca** baseado em 12 arquétipos
 11. O Bobo da Corte (*The Jester*): humor, leveza (Old Spice, M&M's).
 12. O Sábio (*The Sage*): conhecimento, método (Google, BBC, Harvard).
 
-##### Passos práticos de implantação
+##### Protocolo prático de execução
 
 Passo 1: Identifique valores centrais da empresa.
 
@@ -2806,7 +2807,7 @@ Conteúdo estruturado em Topic Clusters:
 - Cluster content: 10-30 artigos sobre subtópicos, linkando para pillar.
 - Internal linking: eleva SEO.
 
-##### Execução prática com a equipe
+##### Passos práticos de implantação
 
 Passo 1: Identifique 5-10 tópicos centrais que seu ICP busca.
 
@@ -5861,7 +5862,7 @@ Conceitos-chave:
 
 - Reservation value: ponto em que "sair" é melhor que "fechar".
 
-##### Aplicação imediata na rotina da empresa
+##### Roteiro de aplicação prática na operação
 
 Passo 1: Prepare (70% do resultado depende de preparação):
 
@@ -5935,7 +5936,7 @@ Metodologia que rejeita "win-win" como ingênuo e aplica técnicas táticas emoc
 
 8. Black swans: 3 pedaços de informação que, se descobertos, mudam tudo, procurar ativamente.
 
-##### Protocolo prático de execução
+##### Aplicação imediata na rotina da empresa
 
 Passo 1: Preparação emocional tanto quanto racional.
 
@@ -5993,7 +5994,7 @@ Protocolo específico para sequência de counter-offers em negociação de preç
 
 Entre cada oferta, **calibrated questions** e pausas: não só contra-oferta mecânica.
 
-##### Execução prática com a equipe
+##### Passos práticos de implantação
 
 Aplicado em compras/vendas que permitem multiple rounds (imóveis, equipamentos, serviços, freelance). Não aplicável a pricing de produto em massa.
 
@@ -6045,7 +6046,7 @@ Framework de 5 passos para negociar com pessoas difíceis:
 
 5. Use power to educate: se outro lado resiste completamente, demonstre custo de não acordo. Não ameaçar, educar sobre realidade.
 
-##### Protocolo prático de execução
+##### Aplicação imediata na rotina da empresa
 
 Respeite rigorosamente a sequência das cinco etapas: se você tentar educar pelo custo do impasse antes de controlar a própria reação e desarmar o interlocutor, a conversa degrada em confronto aberto. Na segunda-feira, escolha a negociação mais tensa da semana e escreva previamente uma frase para cada um dos cinco passos antes de entrar na sala.
 

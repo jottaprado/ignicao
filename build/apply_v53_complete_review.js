@@ -722,7 +722,7 @@ function reconcileAllV53CrossVolumeLinks(volumesDir) {
         const newTargetPrefix =
           targetVolSlug === slug ? `#${canonicalHeading}` : `${targetVolSlug}#${canonicalHeading}`;
 
-        const pipeSep = aliasPart || '';
+        const pipeSep = aliasPart ? (isTableLine ? '\\' + aliasPart : aliasPart) : '';
         const rebuilt = `[[${newTargetPrefix}${pipeSep}]]`;
         if (rebuilt !== full) {
           fixedLinks++;

@@ -1821,11 +1821,11 @@
   },
   {
     "line": 4855,
-    "newText": "| **(=) Resultado Operacional Líquido do Franqueado (após Royalties e Fundo, antes do IRPJ/CSLL)** | **R$ 22.000** | **18,3%** | Deve deixar entre **12% e 20%** de margem líquida para remunerar o capital e o trabalho do sócio-operador |"
+    "newText": "| **(=) Resultado Operacional Líquido do Franqueado (após Royalties e Fundo, antes do IRPJ/CSLL)** | **12% a 20%** da Receita Bruta (ex.: **R$ 22.000** ou **18,3%** no caso-base) | < 10% de margem líquida (não remunera o capital e o trabalho do sócio-operador) |"
   },
   {
     "line": 4856,
-    "newText": "| **Payback Total do Investimento (Retorno do CAPEX de R$ 396 mil)** | **18 meses** | - | Meta saudável entre **18 e 24 meses** (dentro de contratos típicos de 48 a 60 meses) |"
+    "newText": "| **Payback Total do Investimento (Retorno do CAPEX, ex.: R$ 396 mil)** | Meta saudável entre **18 e 24 meses** (dentro de contratos típicos de 48 a 60 meses) | > 36 meses (alerta crítico de retorno sobre o capital investido) |"
   },
   {
     "line": 4858,

@@ -241,7 +241,7 @@ function preprocessMarkdown(md, { isOmnibus = false } = {}) {
       const title = (rawTitle || '').trim();
       const barePrefix = prefix.replace(/[ \t]+$/, '');
       if (title) {
-        return `${barePrefix} **${label} — ${title}**\n${barePrefix}`;
+        return `${barePrefix} **${label}: ${title}**\n${barePrefix}`;
       }
       return `${barePrefix} **${label}:**`;
     }

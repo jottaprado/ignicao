@@ -4810,8 +4810,8 @@ Antes de vender a primeira franquia, embora nem a Lei 13.966/2019 nem o estatuto
 | **Investimento Total Inicial (CAPEX + Taxa + Giro)** | R$ 80k (Microfranquia/Home-Based) a R$ 650k (Loja de Rua/Shopping) | Orçamento subestimado na COF (estouro de obra > 30%) |
 | **Ponto de Equilíbrio Operacional (*Breakeven*)** | Atingido entre o **3º e o 6º mês** de operação | Mais de 9–12 meses queimando caixa do franqueado |
 | **Custo de Ocupação (Aluguel + Condomínio + IPTU)** | **≤ 8% a 12%** do Faturamento Bruto da unidade | > 15%–20% do faturamento bruto (trabalhar para pagar o shopping) |
-| **(=) Resultado Operacional Líquido do Franqueado (após Royalties e Fundo, antes do IRPJ/CSLL)** | **R$ 22.000** | **18,3%** | Deve deixar entre **12% e 20%** de margem líquida para remunerar o capital e o trabalho do sócio-operador |
-| **Payback Total do Investimento (Retorno do CAPEX de R$ 396 mil)** | **18 meses** | - | Meta saudável entre **18 e 24 meses** (dentro de contratos típicos de 48 a 60 meses) |
+| **(=) Resultado Operacional Líquido do Franqueado (após Royalties e Fundo, antes do IRPJ/CSLL)** | **12% a 20%** da Receita Bruta (ex.: **R$ 22.000** ou **18,3%** no caso-base) | < 10% de margem líquida (não remunera o capital e o trabalho do sócio-operador) |
+| **Payback Total do Investimento (Retorno do CAPEX, ex.: R$ 396 mil)** | Meta saudável entre **18 e 24 meses** (dentro de contratos típicos de 48 a 60 meses) | > 36 meses (alerta decisivo de retorno sobre o capital investido) |
 
 #### 3.2. As 4 Fontes de Receita da Franqueadora (Onde Está o Lucro Real da Matriz)
 Um erro estrutural grave é tentar financiar o lucro corrente da franqueadora com a Taxa Inicial de Franquia: a taxa de entrada deve cobrir os custos de seleção, treinamento, projeto arquitetônico e apoio de inauguração, enquanto o lucro recorrente e escalável da matriz vem das três fontes contínuas abaixo:
@@ -6781,7 +6781,7 @@ A cláusula de saída (*leaver*) disciplina o destino das opções já adquirida
 
 | Critério Contratual | Saída Boa (*Good Leaver*) | Saída Ruim (*Bad Leaver*) |
 |---|---|---|
-| Hipóteses típicas | Dispensa sem justa causa, invalidez, aposentadoria ou falecimento | Dispensa por justa causa, violação comprovada de sigilo (NDA) ou violação de cláusula válida de não concorrência (com prazo, escopo e contrapartida financeira, ver [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 4: NÃO CONCORRÊNCIA E NÃO SOLICITAÇÃO NO BRASIL|Vol. 8, Cap. 4]]) |
+| Hipóteses típicas | Dispensa sem justa causa, invalidez, aposentadoria ou falecimento | Dispensa por justa causa, violação comprovada de sigilo (NDA) ou violação de cláusula válida de não concorrência (com prazo, escopo e contrapartida financeira, ver [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 4: NÃO CONCORRÊNCIA E NÃO SOLICITAÇÃO NO BRASIL\|Vol. 8, Cap. 4]]) |
 | Opções já adquiridas (*vested*) | Mantém o direito de exercer no prazo contratual (180 dias a 12 meses) ou recompra pela empresa pelo valor justo de mercado | Caducam ou a empresa exerce opção de recompra pelo valor nominal/preço de exercício efetivamente pago |
 | Opções não vested | Canceladas | Canceladas |
 
@@ -7067,7 +7067,7 @@ Intervenção: consulte o [[#CAPÍTULO 14: DIVERSIDADE, EQUIDADE E INCLUSÃO (DE
 | **Retenção anual geral e em 24 meses** | **≥ 85% em 1 ano** · **≥ 70% em 2 anos** | Acompanhada mensalmente por diretoria e por gestor direto |
 | **Proporção de saídas lamentadas (*regrettable attrition*)** | **< 50%** do total de desligamentos | Mede quantos profissionais de alta performance pediram demissão no período |
 | **Retenção nos primeiros 90 dias (novos contratados)** | **≥ 95%** | Queda abaixo de 95% aponta falha de *onboarding* ou promessa irreal na entrevista |
-| **Taxa de contratação por indicação (*referral*)** | **~30% das vagas** | Demonstra orgulho do time, mas deve ser equilibrada com canais abertos fora da rede atual para evitar bolha homogênea (ver [[#CAPÍTULO 14: DIVERSIDADE, EQUIDADE E INCLUSÃO (DEI) EM STARTUP BRASILEIRA|Capítulo 14]]) |
+| **Taxa de contratação por indicação (*referral*)** | **~30% das vagas** | Demonstra orgulho do time, mas deve ser equilibrada com canais abertos fora da rede atual para evitar bolha homogênea (ver [[#CAPÍTULO 14: DIVERSIDADE, EQUIDADE E INCLUSÃO (DEI) EM STARTUP BRASILEIRA\|Capítulo 14]]) |
 | **Reputação externa (Glassdoor) e aprovação do CEO** | Nota **≥ 4,0** (de 5,0) · Aprovação do CEO **≥ 80%** | Monitorada trimestralmente como termômetro de marca empregadora |
 
 ---
@@ -7344,7 +7344,7 @@ Consolide os indicadores da subseção 5 em uma tabela única com meta explícit
 | **Representação por nível hierárquico** | Evolução consistente rumo às referências do setor em *ICs*, liderança e *C-Level* | Revisada semestralmente por área funcional (engenharia, produto, comercial, operações) |
 | **Conversão do funil seletivo por grupo** | Paridade estatística nas taxas de passagem entre etapas (inscritos → caso prático cego → entrevista → proposta) | Auditada trimestralmente para localizar gargalos específicos |
 | **Equidade salarial na mesma função (*pay equity*)** | **Zero diferença salarial sem justificativa objetiva documentada** (tempo de empresa ≤ 4 anos, tempo na função ≤ 2 anos ou avaliação de desempenho, conforme o art. 461 da CLT e a Lei nº 14.611/2023), mais monitoramento da diferença média global | Auditoria anual obrigatória antes da janela de revisão salarial (e publicação semestral do relatório oficial para empresas com 100+ empregados) |
-| **Taxa de promoção calibrada** | Proporção de promovidos equivalente à base elegível de cada grupo no mesmo nível de entrega | Revisada semestralmente nas sessões de calibração (ver [[#CAPÍTULO 10: PERFORMANCE REVIEWS ESTRUTURADOS: CICLO, CALIBRAÇÃO E CONEXÃO COM COMPENSAÇÃO|Capítulo 10]]) |
+| **Taxa de promoção calibrada** | Proporção de promovidos equivalente à base elegível de cada grupo no mesmo nível de entrega | Revisada semestralmente nas sessões de calibração (ver [[#CAPÍTULO 10: PERFORMANCE REVIEWS ESTRUTURADOS: CICLO, CALIBRAÇÃO E CONEXÃO COM COMPENSAÇÃO\|Capítulo 10]]) |
 | **Retenção anual por grupo demográfico** | Diferença de rotatividade voluntária **< 5 pontos percentuais** entre grupos | Monitorada trimestralmente junto às entrevistas de desligamento e permanência |
 | **Segurança psicológica para discordar e pertencimento** | Nota favorável **≥ 80%** sem queda superior a 5 pontos em grupos sub-representados | Medida semestralmente na pesquisa de clima com pergunta específica (*"Sinto segurança para discordar de decisões técnicas ou de negócio sem receio de retaliação"*) e recorte demográfico |
 | **Tempo de resposta a relatos no canal de ética** | Início da apuração independente em **< 14 dias corridos** (100% dos relatos documentados) | Acompanhado mensalmente pelo comitê de ética (Lei nº 14.457/2022) |
