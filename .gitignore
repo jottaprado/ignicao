@@ -4,3 +4,5 @@
 *.xlsx
 .obsidian/
 .claude/
+__pycache__/
+*.pyc
