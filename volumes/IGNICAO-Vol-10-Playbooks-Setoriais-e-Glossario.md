@@ -44,14 +44,18 @@ graph LR
         V8["<b>Vol. 8: Jurídico e Segurança</b><br/>Fase 18 · Societário, Contratos e LGPD"]
         V3 --> V4 --> V5 --> V6 --> V7 --> V8
     end
-    subgraph J3["Ciclo Longo e Setores"]
+    subgraph J3["Ciclo Longo, Setores e Prática"]
         V9["<b>Vol. 9: Maturidade, Exit e Family Office</b><br/>Fases 19 e 20 · Board, Crise, M&A, IPO e Cash Cow"]
         V10["<b>Vol. 10: Economia da Inovação e 42 Verticais</b><br/>Hubs Globais, Regulação, 42 Setores e Dicionário"]
+        V11["<b>Vol. 11: Caderno de Trincheira e Cases</b><br/>58 Cases, 50 Exercícios, 27 Roleplays e Simulador"]
         V8 --> V9
     end
     V10 -. "Consulta Setorial e Dicionário" .-> J1
     V10 -. "Consulta Setorial e Dicionário" .-> J2
     V10 -. "Consulta Setorial e Dicionário" .-> J3
+    V11 -. "Cases, Exercícios e Simulações" .-> J1
+    V11 -. "Cases, Exercícios e Simulações" .-> J2
+    V11 -. "Cases, Exercícios e Simulações" .-> J3
 ```
 
 ---
@@ -128,6 +132,10 @@ graph LR
 - [[#BIBLIOGRAFIA GERAL|BIBLIOGRAFIA GERAL]]
 - [[#IGNIÇÃO: Volume 10: Economia da Inovação, Hubs Globais e Playbooks das 42 Verticais|ÍNDICE GERAL DE FRAMEWORKS DA COLEÇÃO]]
 - [[#ÍNDICE REMISSIVO|ÍNDICE REMISSIVO E CONSULTA RÁPIDA]]
+### Prática, Cases e Simulações Desta Etapa (Volume 11: Capítulos 28 a 30)
+- [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 28: CASES SETORIAIS DA ECONOMIA REAL: FINTECH, AGTECH, HEALTHTECH, GOVTECH, CLIMATETECH E INDÚSTRIA 4.0|CAPÍTULO 28: CASES SETORIAIS DA ECONOMIA REAL: FINTECH, AGTECH, HEALTHTECH, GOVTECH, CLIMATETECH E INDÚSTRIA 4.0 (Vol. 11)]]
+- [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 29: CADERNO DE EXERCÍCIOS SETORIAIS: REGULAÇÃO BACEN, SINISTRALIDADE ANS, BARTER/CPR, LICITAÇÕES CPSI E HARDWARE-AS-A-SERVICE|CAPÍTULO 29: CADERNO DE EXERCÍCIOS SETORIAIS: REGULAÇÃO BACEN, SINISTRALIDADE ANS, BARTER/CPR, LICITAÇÕES CPSI E HARDWARE-AS-A-SERVICE (Vol. 11)]]
+- [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 30: SIMULADOR INTEGRADOR DE PONTA A PONTA: O JOGO COMPLETO DAS 21 FASES (FASE 0 AO EXIT)|CAPÍTULO 30: SIMULADOR INTEGRADOR DE PONTA A PONTA: O JOGO COMPLETO DAS 21 FASES (FASE 0 AO EXIT) (Vol. 11)]]
 
 ---
 
@@ -9348,15 +9356,15 @@ Antes de alocar capital em um estúdio de jogos, infraestrutura gamer ou tecnolo
 
 # GLOSSÁRIO DE TERMOS TÉCNICOS, BIBLIOGRAFIA E ÍNDICES UNIFICADOS DA COLEÇÃO
 
-*Referência transversal dos dez volumes: Data de Compilação e Nota sobre Envelhecimento, Glossário de Termos Técnicos, Lista de Abreviações, Bibliografia Geral (Leituras Essenciais por Fase, Livros, Artigos, Relatórios e Legislação), Índice Geral de Ferramentas da Coleção (163 Frameworks, 20 Canvases e 41 Templates, totalizando 224 ferramentas) e Índice Remissivo.*
+*Referência transversal dos onze volumes: Data de Compilação e Nota sobre Envelhecimento, Glossário de Termos Técnicos, Lista de Abreviações, Bibliografia Geral (Leituras Essenciais por Fase, Livros, Artigos, Relatórios e Legislação), Índice Geral de Ferramentas da Coleção (162 Frameworks, 20 Canvases e 42 Templates, totalizando 224 ferramentas) e Índice Remissivo.*
 
 ---
 
 ## DATA DE COMPILAÇÃO E NOTA SOBRE ENVELHECIMENTO
 
-**IGNIÇÃO v5.2 (Edição Narrativa Enxuta, outubro de 2026): Dados verificados até outubro de 2026.**
+**IGNIÇÃO v5.3 (Edição Narrativa Enxuta, outubro de 2026): Dados verificados até outubro de 2026.**
 
-Esta edição foi consolidada e verificada até outubro de 2026, refletindo o estado do ecossistema empreendedor brasileiro, o quadro legal e tributário vigente e a arquitetura de 10 volumes da coleção naquele momento. Partes da obra envelhecem em velocidades diferentes:
+Esta edição foi consolidada e verificada até outubro de 2026, refletindo o estado do ecossistema empreendedor brasileiro, o quadro legal e tributário vigente e a arquitetura de 11 volumes da coleção naquele momento. Partes da obra envelhecem em velocidades diferentes:
 
 **Envelhece devagar (meia-vida de décadas):** frameworks clássicos de estratégia, produto e decisão (Porter, Osterwalder, Christensen, Grove, Moore, Ries), padrões psicológicos do fundador, dinâmicas societárias entre cofundadores, princípios de descoberta de cliente, estrutura lógica de *unit economics* e governança corporativa.
 
@@ -9371,7 +9379,7 @@ Ao consultar esta coleção após 2027, utilize este filtro temporal: os princí
 ## GLOSSÁRIO DE TERMOS TÉCNICOS
 
 > [!note] Como consultar este glossário
-> Glossário unificado dos termos técnicos, financeiros, jurídicos e setoriais utilizados nos dez volumes da coleção, ordenados alfabeticamente de A a Z. Cada verbete traz a definição direta em português, o contexto de aplicação e a remissão para a fase ou capítulo onde o tema é aprofundado.
+> Glossário unificado dos termos técnicos, financeiros, jurídicos e setoriais utilizados nos onze volumes da coleção, ordenados alfabeticamente de A a Z. Cada verbete traz a definição direta em português, o contexto de aplicação e a remissão para a fase ou capítulo onde o tema é aprofundado.
 >
 > Este glossário é a referência canônica de vocabulário do livro. Se um termo aparece em uma fase ou capítulo com tradução inline entre parênteses, a definição de referência está aqui.
 
@@ -11613,3 +11621,38 @@ Se você está começando, utilize primeiro apenas as ferramentas da Fase em que
 - **Integração Prática dos Métodos de Descoberta (Design Thinking, Lean Startup e Customer Development)**: [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 1: ABORDAGEM CIENTÍFICA vs LEAN STARTUP: QUANDO USAR CADA UMA|Capítulo 1 (Vol. 3)]]
 - **Maturidade Tecnológica e Comercial (TRL/CRL), Os Dez Portões (Ten Gates) e Próximo Passo Comprometido**: [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 2: MATURIDADE (TRL/CRL), OS DEZ PORTÕES (TEN GATES) E PRÓXIMO PASSO COMPROMETIDO|Capítulo 2 (Vol. 3)]]
 - **Estratégia Go-To-Market (GTM): Founder-Led Sales, PLG, Outbound, Inbound e ABM**: [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 1: GTM PLAYBOOK E ARQUITETURA DE CANAIS: DA PRIMEIRA VENDA AO PRIMEIRO MILHÃO DE ARR|Capítulo 1 (Vol. 4)]]
+
+---
+
+## ÍNDICE DO CADERNO DE TRINCHEIRA, CASES, EXERCÍCIOS E SIMULADOR (VOLUME 11)
+
+- **Capítulo 1 (Espelho do Vol. 1)**: [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 1: CASES GLOBAIS E BRASILEIROS DE IDEAÇÃO, COFUNDADORES E TESE INICIAL|CAPÍTULO 1: CASES GLOBAIS E BRASILEIROS DE IDEAÇÃO, COFUNDADORES E TESE INICIAL (Vol. 11)]]
+- **Capítulo 2 (Espelho do Vol. 1)**: [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 2: CADERNO DE EXERCÍCIOS COM GABARITO COMENTADO: FUNDAÇÃO, EQUITY E TEORIA DO NEGÓCIO|CAPÍTULO 2: CADERNO DE EXERCÍCIOS COM GABARITO COMENTADO: FUNDAÇÃO, EQUITY E TEORIA DO NEGÓCIO (Vol. 11)]]
+- **Capítulo 3 (Espelho do Vol. 1)**: [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 3: SIMULAÇÕES DE DECISÃO E ROLEPLAYS EXECUTIVOS: SOCIEDADE, PRIMEIROS TALENTOS E MENTORIA|CAPÍTULO 3: SIMULAÇÕES DE DECISÃO E ROLEPLAYS EXECUTIVOS: SOCIEDADE, PRIMEIROS TALENTOS E MENTORIA (Vol. 11)]]
+- **Capítulo 4 (Espelho do Vol. 2)**: [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 4: CASES GLOBAIS E BRASILEIROS DE CUSTOMER DISCOVERY, JTBD E CUNHA DE MERCADO|CAPÍTULO 4: CASES GLOBAIS E BRASILEIROS DE CUSTOMER DISCOVERY, JTBD E CUNHA DE MERCADO (Vol. 11)]]
+- **Capítulo 5 (Espelho do Vol. 2)**: [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 5: CADERNO DE EXERCÍCIOS COM GABARITO COMENTADO: MOM TEST, FORÇAS DO JTBD, TAM/SAM/SOM E CANVAS DA CUNHA|CAPÍTULO 5: CADERNO DE EXERCÍCIOS COM GABARITO COMENTADO: MOM TEST, FORÇAS DO JTBD, TAM/SAM/SOM E CANVAS DA CUNHA (Vol. 11)]]
+- **Capítulo 6 (Espelho do Vol. 2)**: [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 6: SIMULAÇÕES DE DECISÃO E ROLEPLAYS EXECUTIVOS: ENTREVISTAS DE CAMPO, GATEKEEPERS E ESCOLHA DE ICP|CAPÍTULO 6: SIMULAÇÕES DE DECISÃO E ROLEPLAYS EXECUTIVOS: ENTREVISTAS DE CAMPO, GATEKEEPERS E ESCOLHA DE ICP (Vol. 11)]]
+- **Capítulo 7 (Espelho do Vol. 3)**: [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 7: CASES GLOBAIS E BRASILEIROS DE EXPERIMENTAÇÃO, PROTOTIPAGEM, PLATAFORMAS E BOOTSTRAPPING|CAPÍTULO 7: CASES GLOBAIS E BRASILEIROS DE EXPERIMENTAÇÃO, PROTOTIPAGEM, PLATAFORMAS E BOOTSTRAPPING (Vol. 11)]]
+- **Capítulo 8 (Espelho do Vol. 3)**: [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 8: CADERNO DE EXERCÍCIOS COM GABARITO COMENTADO: TEST CARDS, UNIT ECONOMICS DE MARKETPLACE E SERVICE-TO-PRODUCT|CAPÍTULO 8: CADERNO DE EXERCÍCIOS COM GABARITO COMENTADO: TEST CARDS, UNIT ECONOMICS DE MARKETPLACE E SERVICE-TO-PRODUCT (Vol. 11)]]
+- **Capítulo 9 (Espelho do Vol. 3)**: [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 9: SIMULAÇÕES DE DECISÃO E ROLEPLAYS EXECUTIVOS: USABILIDADE, PRÉ-VENDA B2B E CORTE DE ESCOPO DE MVP|CAPÍTULO 9: SIMULAÇÕES DE DECISÃO E ROLEPLAYS EXECUTIVOS: USABILIDADE, PRÉ-VENDA B2B E CORTE DE ESCOPO DE MVP (Vol. 11)]]
+- **Capítulo 10 (Espelho do Vol. 4)**: [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 10: CASES GLOBAIS E BRASILEIROS DE GO-TO-MARKET, PLG, VENDAS B2B, PRICING E PIVÔ PARA O PMF|CAPÍTULO 10: CASES GLOBAIS E BRASILEIROS DE GO-TO-MARKET, PLG, VENDAS B2B, PRICING E PIVÔ PARA O PMF (Vol. 11)]]
+- **Capítulo 11 (Espelho do Vol. 4)**: [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 11: CADERNO DE EXERCÍCIOS COM GABARITO COMENTADO: COORTES, LTV/CAC/PAYBACK, PRICING E FUNIL COMERCIAL|CAPÍTULO 11: CADERNO DE EXERCÍCIOS COM GABARITO COMENTADO: COORTES, LTV/CAC/PAYBACK, PRICING E FUNIL COMERCIAL (Vol. 11)]]
+- **Capítulo 12 (Espelho do Vol. 4)**: [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 12: SIMULAÇÕES DE DECISÃO E ROLEPLAYS EXECUTIVOS: VENDAS MEDDIC, REAJUSTE DE PREÇOS E SALVAMENTO DE CONTAS|CAPÍTULO 12: SIMULAÇÕES DE DECISÃO E ROLEPLAYS EXECUTIVOS: VENDAS MEDDIC, REAJUSTE DE PREÇOS E SALVAMENTO DE CONTAS (Vol. 11)]]
+- **Capítulo 13 (Espelho do Vol. 5)**: [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 13: CASES GLOBAIS E BRASILEIROS DE FINANÇAS, ALOCAÇÃO DE CAPITAL, DÍVIDA ESTRUTURADA E VENTURE CAPITAL|CAPÍTULO 13: CASES GLOBAIS E BRASILEIROS DE FINANÇAS, ALOCAÇÃO DE CAPITAL, DÍVIDA ESTRUTURADA E VENTURE CAPITAL (Vol. 11)]]
+- **Capítulo 14 (Espelho do Vol. 5)**: [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 14: CADERNO DE EXERCÍCIOS COM GABARITO COMENTADO: DRE vs. CAIXA, REFORMA TRIBUTÁRIA, CAP TABLE, WATERFALL E FOMENTO|CAPÍTULO 14: CADERNO DE EXERCÍCIOS COM GABARITO COMENTADO: DRE vs. CAIXA, REFORMA TRIBUTÁRIA, CAP TABLE, WATERFALL E FOMENTO (Vol. 11)]]
+- **Capítulo 15 (Espelho do Vol. 5)**: [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 15: SIMULAÇÕES DE DECISÃO E ROLEPLAYS EXECUTIVOS: TERM SHEET DE SÉRIE A, DUE DILIGENCE E CRISE DE RUNWAY|CAPÍTULO 15: SIMULAÇÕES DE DECISÃO E ROLEPLAYS EXECUTIVOS: TERM SHEET DE SÉRIE A, DUE DILIGENCE E CRISE DE RUNWAY (Vol. 11)]]
+- **Capítulo 16 (Espelho do Vol. 6)**: [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 16: CASES GLOBAIS E BRASILEIROS DE ESCALA COMERCIAL, REVOPS, FRANCHISING, CULTURA E ESOP|CAPÍTULO 16: CASES GLOBAIS E BRASILEIROS DE ESCALA COMERCIAL, REVOPS, FRANCHISING, CULTURA E ESOP (Vol. 11)]]
+- **Capítulo 17 (Espelho do Vol. 6)**: [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 17: CADERNO DE EXERCÍCIOS COM GABARITO COMENTADO: COMISSIONAMENTO OTE, REVOPS, DRE DE FRANQUIA E PLANO DE OPÇÕES|CAPÍTULO 17: CADERNO DE EXERCÍCIOS COM GABARITO COMENTADO: COMISSIONAMENTO OTE, REVOPS, DRE DE FRANQUIA E PLANO DE OPÇÕES (Vol. 11)]]
+- **Capítulo 18 (Espelho do Vol. 6)**: [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 18: SIMULAÇÕES DE DECISÃO E ROLEPLAYS EXECUTIVOS: DEMISSÃO DE EXECUTIVO, RADICAL CANDOR E FECHAMENTO ENTERPRISE|CAPÍTULO 18: SIMULAÇÕES DE DECISÃO E ROLEPLAYS EXECUTIVOS: DEMISSÃO DE EXECUTIVO, RADICAL CANDOR E FECHAMENTO ENTERPRISE (Vol. 11)]]
+- **Capítulo 19 (Espelho do Vol. 7)**: [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 19: CASES GLOBAIS E BRASILEIROS DE PRODUTO EM ESCALA, ARQUITETURA TÉCNICA, DORA, IA EM PRODUÇÃO E OPERAÇÕES|CAPÍTULO 19: CASES GLOBAIS E BRASILEIROS DE PRODUTO EM ESCALA, ARQUITETURA TÉCNICA, DORA, IA EM PRODUÇÃO E OPERAÇÕES (Vol. 11)]]
+- **Capítulo 20 (Espelho do Vol. 7)**: [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 20: CADERNO DE EXERCÍCIOS COM GABARITO COMENTADO: PR/FAQ, OKRS, MÉTRICAS DORA, TOKENOMICS DE IA E TEAM TOPOLOGIES|CAPÍTULO 20: CADERNO DE EXERCÍCIOS COM GABARITO COMENTADO: PR/FAQ, OKRS, MÉTRICAS DORA, TOKENOMICS DE IA E TEAM TOPOLOGIES (Vol. 11)]]
+- **Capítulo 21 (Espelho do Vol. 7)**: [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 21: SIMULAÇÕES DE DECISÃO E ROLEPLAYS EXECUTIVOS: CONFLITO VENDAS vs. PRODUTO, POSTMORTEM SEM CULPA E MONÓLITO vs. MICROSSERVIÇOS|CAPÍTULO 21: SIMULAÇÕES DE DECISÃO E ROLEPLAYS EXECUTIVOS: CONFLITO VENDAS vs. PRODUTO, POSTMORTEM SEM CULPA E MONÓLITO vs. MICROSSERVIÇOS (Vol. 11)]]
+- **Capítulo 22 (Espelho do Vol. 8)**: [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 22: CASES GLOBAIS E BRASILEIROS DE CONFLITOS SOCIETÁRIOS, COMPLIANCE REGULATÓRIO, TRABALHISTA, PI, LGPD E SEGURANÇA|CAPÍTULO 22: CASES GLOBAIS E BRASILEIROS DE CONFLITOS SOCIETÁRIOS, COMPLIANCE REGULATÓRIO, TRABALHISTA, PI, LGPD E SEGURANÇA (Vol. 11)]]
+- **Capítulo 23 (Espelho do Vol. 8)**: [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 23: CADERNO DE EXERCÍCIOS COM GABARITO COMENTADO: ACORDO DE SÓCIOS, REDLINING DE MSA B2B, TRABALHISTA, LGPD E SOC 2|CAPÍTULO 23: CADERNO DE EXERCÍCIOS COM GABARITO COMENTADO: ACORDO DE SÓCIOS, REDLINING DE MSA B2B, TRABALHISTA, LGPD E SOC 2 (Vol. 11)]]
+- **Capítulo 24 (Espelho do Vol. 8)**: [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 24: SIMULAÇÕES DE DECISÃO E ROLEPLAYS EXECUTIVOS: SAÍDA LITIGIOSA DE SÓCIO, NEGOCIAÇÃO JURÍDICA B2B E WAR ROOM DE RANSOMWARE|CAPÍTULO 24: SIMULAÇÕES DE DECISÃO E ROLEPLAYS EXECUTIVOS: SAÍDA LITIGIOSA DE SÓCIO, NEGOCIAÇÃO JURÍDICA B2B E WAR ROOM DE RANSOMWARE (Vol. 11)]]
+- **Capítulo 25 (Espelho do Vol. 9)**: [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 25: CASES GLOBAIS E BRASILEIROS DE GOVERNANÇA DE CONSELHO, SEGUNDA CURVA, M&A ESTRATÉGICO, IPO E ROLL-UPS|CAPÍTULO 25: CASES GLOBAIS E BRASILEIROS DE GOVERNANÇA DE CONSELHO, SEGUNDA CURVA, M&A ESTRATÉGICO, IPO E ROLL-UPS (Vol. 11)]]
+- **Capítulo 26 (Espelho do Vol. 9)**: [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 26: CADERNO DE EXERCÍCIOS COM GABARITO COMENTADO: BOARD DECK, FLIP INTERNACIONAL, PROPOSTAS DE M&A, HOLDING E FAMILY OFFICE|CAPÍTULO 26: CADERNO DE EXERCÍCIOS COM GABARITO COMENTADO: BOARD DECK, FLIP INTERNACIONAL, PROPOSTAS DE M&A, HOLDING E FAMILY OFFICE (Vol. 11)]]
+- **Capítulo 27 (Espelho do Vol. 9)**: [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 27: SIMULAÇÕES DE DECISÃO E ROLEPLAYS EXECUTIVOS: CONSELHO DIVIDIDO, NEGOCIAÇÃO DE EARN-OUT E GOVERNANÇA FAMILIAR PÓS-EXIT|CAPÍTULO 27: SIMULAÇÕES DE DECISÃO E ROLEPLAYS EXECUTIVOS: CONSELHO DIVIDIDO, NEGOCIAÇÃO DE EARN-OUT E GOVERNANÇA FAMILIAR PÓS-EXIT (Vol. 11)]]
+- **Capítulo 28 (Espelho do Vol. 10)**: [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 28: CASES SETORIAIS DA ECONOMIA REAL: FINTECH, AGTECH, HEALTHTECH, GOVTECH, CLIMATETECH E INDÚSTRIA 4.0|CAPÍTULO 28: CASES SETORIAIS DA ECONOMIA REAL: FINTECH, AGTECH, HEALTHTECH, GOVTECH, CLIMATETECH E INDÚSTRIA 4.0 (Vol. 11)]]
+- **Capítulo 29 (Espelho do Vol. 10)**: [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 29: CADERNO DE EXERCÍCIOS SETORIAIS: REGULAÇÃO BACEN, SINISTRALIDADE ANS, BARTER/CPR, LICITAÇÕES CPSI E HARDWARE-AS-A-SERVICE|CAPÍTULO 29: CADERNO DE EXERCÍCIOS SETORIAIS: REGULAÇÃO BACEN, SINISTRALIDADE ANS, BARTER/CPR, LICITAÇÕES CPSI E HARDWARE-AS-A-SERVICE (Vol. 11)]]
+- **Capítulo 30 (Espelho do Vol. 10)**: [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 30: SIMULADOR INTEGRADOR DE PONTA A PONTA: O JOGO COMPLETO DAS 21 FASES (FASE 0 AO EXIT)|CAPÍTULO 30: SIMULADOR INTEGRADOR DE PONTA A PONTA: O JOGO COMPLETO DAS 21 FASES (FASE 0 AO EXIT) (Vol. 11)]]

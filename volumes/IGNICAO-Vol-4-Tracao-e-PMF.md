@@ -44,14 +44,18 @@ graph LR
         V8["<b>Vol. 8: Jurídico e Segurança</b><br/>Fase 18 · Societário, Contratos e LGPD"]
         V3 --> V4 --> V5 --> V6 --> V7 --> V8
     end
-    subgraph J3["Ciclo Longo e Setores"]
+    subgraph J3["Ciclo Longo, Setores e Prática"]
         V9["<b>Vol. 9: Maturidade, Exit e Family Office</b><br/>Fases 19 e 20 · Board, Crise, M&A, IPO e Cash Cow"]
         V10["<b>Vol. 10: Economia da Inovação e 42 Verticais</b><br/>Hubs Globais, Regulação, 42 Setores e Dicionário"]
+        V11["<b>Vol. 11: Caderno de Trincheira e Cases</b><br/>58 Cases, 50 Exercícios, 27 Roleplays e Simulador"]
         V8 --> V9
     end
     V10 -. "Consulta Setorial e Dicionário" .-> J1
     V10 -. "Consulta Setorial e Dicionário" .-> J2
     V10 -. "Consulta Setorial e Dicionário" .-> J3
+    V11 -. "Cases, Exercícios e Simulações" .-> J1
+    V11 -. "Cases, Exercícios e Simulações" .-> J2
+    V11 -. "Cases, Exercícios e Simulações" .-> J3
 ```
 
 ---
@@ -76,6 +80,10 @@ graph LR
 - [[#CAPÍTULO 9: DADOS, ANALYTICS E EXPERIMENTAÇÃO|CAPÍTULO 9: DADOS, ANALYTICS E EXPERIMENTAÇÃO]]
 - [[#CAPÍTULO 10: AI COMO PARTE DO PRODUTO (AI-NATIVE PRODUCT)|CAPÍTULO 10: AI COMO PARTE DO PRODUTO (AI-NATIVE PRODUCT)]]
 - [[#CAPÍTULO 11: PIVOT: TIPOLOGIA, DECISÃO E EXECUÇÃO|CAPÍTULO 11: PIVOT: TIPOLOGIA, DECISÃO E EXECUÇÃO]]
+### Prática, Cases e Simulações Desta Etapa (Volume 11: Capítulos 10 a 12)
+- [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 10: CASES GLOBAIS E BRASILEIROS DE GO-TO-MARKET, PLG, VENDAS B2B, PRICING E PIVÔ PARA O PMF|CAPÍTULO 10: CASES GLOBAIS E BRASILEIROS DE GO-TO-MARKET, PLG, VENDAS B2B, PRICING E PIVÔ PARA O PMF (Vol. 11)]]
+- [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 11: CADERNO DE EXERCÍCIOS COM GABARITO COMENTADO: COORTES, LTV/CAC/PAYBACK, PRICING E FUNIL COMERCIAL|CAPÍTULO 11: CADERNO DE EXERCÍCIOS COM GABARITO COMENTADO: COORTES, LTV/CAC/PAYBACK, PRICING E FUNIL COMERCIAL (Vol. 11)]]
+- [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 12: SIMULAÇÕES DE DECISÃO E ROLEPLAYS EXECUTIVOS: VENDAS MEDDIC, REAJUSTE DE PREÇOS E SALVAMENTO DE CONTAS|CAPÍTULO 12: SIMULAÇÕES DE DECISÃO E ROLEPLAYS EXECUTIVOS: VENDAS MEDDIC, REAJUSTE DE PREÇOS E SALVAMENTO DE CONTAS (Vol. 11)]]
 
 ---
 

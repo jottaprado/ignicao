@@ -3285,10 +3285,16 @@ for (const [volNum, { spec, md }] of rawVolumeDocs.entries()) {
 const { reconcileAllV53CrossVolumeLinks } = require('./apply_v53_complete_review');
 reconcileAllV53CrossVolumeLinks(VOLUMES_DIR);
 
+for (const item of manifest) {
+  const fullPath = path.join(ROOT, item.file);
+  const updatedMd = fs.readFileSync(fullPath, 'utf8');
+  item.words = updatedMd.split(/\s+/).filter(Boolean).length;
+}
+
 fs.writeFileSync(
   path.join(BUILD_DIR, 'volumes_manifest.json'),
   JSON.stringify(manifest, null, 2),
   'utf8'
 );
 console.log(`[5/6] Manifesto salvo em build/volumes_manifest.json (unresolved links: ${unresolvedCount}).`);
-console.log('[6/6] Particionamento nos 10 Volumes Autocontidos concluído com sucesso!');
+console.log('[6/6] Particionamento nos 11 Volumes Autocontidos concluído com sucesso!');

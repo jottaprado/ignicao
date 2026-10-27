@@ -1,0 +1,33 @@
+name: Auditoria e Validação IGNIÇÃO v5.3
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  audit:
+    name: Validar 11 Volumes, Ferramentas, Wikilinks e Regras v5.3
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Auditoria Estrutural e de Wikilinks (audit.py)
+        run: |
+          python audit.py
+          python audit.py --canvas
+          python audit.py --orphans
+
+      - name: Verificação de Exemplos (check_exemplos.py)
+        run: python check_exemplos.py
+
+      - name: Suíte de Validação de Ponto Fixo em 5 Camadas (validate_v53.py)
+        run: python validate_v53.py
+

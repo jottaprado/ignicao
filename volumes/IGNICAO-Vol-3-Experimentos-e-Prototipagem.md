@@ -44,14 +44,18 @@ graph LR
         V8["<b>Vol. 8: Jurídico e Segurança</b><br/>Fase 18 · Societário, Contratos e LGPD"]
         V3 --> V4 --> V5 --> V6 --> V7 --> V8
     end
-    subgraph J3["Ciclo Longo e Setores"]
+    subgraph J3["Ciclo Longo, Setores e Prática"]
         V9["<b>Vol. 9: Maturidade, Exit e Family Office</b><br/>Fases 19 e 20 · Board, Crise, M&A, IPO e Cash Cow"]
         V10["<b>Vol. 10: Economia da Inovação e 42 Verticais</b><br/>Hubs Globais, Regulação, 42 Setores e Dicionário"]
+        V11["<b>Vol. 11: Caderno de Trincheira e Cases</b><br/>58 Cases, 50 Exercícios, 27 Roleplays e Simulador"]
         V8 --> V9
     end
     V10 -. "Consulta Setorial e Dicionário" .-> J1
     V10 -. "Consulta Setorial e Dicionário" .-> J2
     V10 -. "Consulta Setorial e Dicionário" .-> J3
+    V11 -. "Cases, Exercícios e Simulações" .-> J1
+    V11 -. "Cases, Exercícios e Simulações" .-> J2
+    V11 -. "Cases, Exercícios e Simulações" .-> J3
 ```
 
 ---
@@ -72,6 +76,10 @@ graph LR
 - [[#CAPÍTULO 5: B2B2C: QUANDO SUA EMPRESA VENDE PARA OUTRA EMPRESA QUE VENDE PARA CONSUMIDOR|CAPÍTULO 5: B2B2C: QUANDO SUA EMPRESA VENDE PARA OUTRA EMPRESA QUE VENDE PARA CONSUMIDOR]]
 - [[#CAPÍTULO 6: OPEN SOURCE COMO ESTRATÉGIA|CAPÍTULO 6: OPEN SOURCE COMO ESTRATÉGIA]]
 - [[#CAPÍTULO 7: BOOTSTRAPPING, SERVIÇOS PRODUTIZADOS (PRODUCTIZED SERVICES) E A TRANSIÇÃO SERVICE-TO-PRODUCT|CAPÍTULO 7: BOOTSTRAPPING, SERVIÇOS PRODUTIZADOS (PRODUCTIZED SERVICES) E A TRANSIÇÃO SERVICE-TO-PRODUCT]]
+### Prática, Cases e Simulações Desta Etapa (Volume 11: Capítulos 7 a 9)
+- [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 7: CASES GLOBAIS E BRASILEIROS DE EXPERIMENTAÇÃO, PROTOTIPAGEM, PLATAFORMAS E BOOTSTRAPPING|CAPÍTULO 7: CASES GLOBAIS E BRASILEIROS DE EXPERIMENTAÇÃO, PROTOTIPAGEM, PLATAFORMAS E BOOTSTRAPPING (Vol. 11)]]
+- [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 8: CADERNO DE EXERCÍCIOS COM GABARITO COMENTADO: TEST CARDS, UNIT ECONOMICS DE MARKETPLACE E SERVICE-TO-PRODUCT|CAPÍTULO 8: CADERNO DE EXERCÍCIOS COM GABARITO COMENTADO: TEST CARDS, UNIT ECONOMICS DE MARKETPLACE E SERVICE-TO-PRODUCT (Vol. 11)]]
+- [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 9: SIMULAÇÕES DE DECISÃO E ROLEPLAYS EXECUTIVOS: USABILIDADE, PRÉ-VENDA B2B E CORTE DE ESCOPO DE MVP|CAPÍTULO 9: SIMULAÇÕES DE DECISÃO E ROLEPLAYS EXECUTIVOS: USABILIDADE, PRÉ-VENDA B2B E CORTE DE ESCOPO DE MVP (Vol. 11)]]
 
 ---
 

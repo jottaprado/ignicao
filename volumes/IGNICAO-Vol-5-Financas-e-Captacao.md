@@ -44,14 +44,18 @@ graph LR
         V8["<b>Vol. 8: Jurídico e Segurança</b><br/>Fase 18 · Societário, Contratos e LGPD"]
         V3 --> V4 --> V5 --> V6 --> V7 --> V8
     end
-    subgraph J3["Ciclo Longo e Setores"]
+    subgraph J3["Ciclo Longo, Setores e Prática"]
         V9["<b>Vol. 9: Maturidade, Exit e Family Office</b><br/>Fases 19 e 20 · Board, Crise, M&A, IPO e Cash Cow"]
         V10["<b>Vol. 10: Economia da Inovação e 42 Verticais</b><br/>Hubs Globais, Regulação, 42 Setores e Dicionário"]
+        V11["<b>Vol. 11: Caderno de Trincheira e Cases</b><br/>58 Cases, 50 Exercícios, 27 Roleplays e Simulador"]
         V8 --> V9
     end
     V10 -. "Consulta Setorial e Dicionário" .-> J1
     V10 -. "Consulta Setorial e Dicionário" .-> J2
     V10 -. "Consulta Setorial e Dicionário" .-> J3
+    V11 -. "Cases, Exercícios e Simulações" .-> J1
+    V11 -. "Cases, Exercícios e Simulações" .-> J2
+    V11 -. "Cases, Exercícios e Simulações" .-> J3
 ```
 
 ---
@@ -1555,6 +1559,10 @@ Regras:
 ### Fechamento da Fase 14: o que muda na sua cabeça e na sua empresa a partir de agora
 
 Na Vila Olímpia, Lucas e Marina seguiram exatamente o diagnóstico daquela quinta-feira chuvosa: congelaram contratações de expansão por noventa dias, renegociaram contratos anuais com pagamento antecipado, cortaram canais de aquisição com *payback* acima de 18 meses e puxaram o *Burn Multiple* de 2,07x para 1,15x, estendendo o fôlego de caixa de 4,5 para 11 meses com ARR de R$ 9,6 milhões antes de abrir o *data room* da Série A. Toda segunda-feira às 9h, Marina passou a abrir a reunião de diretoria pelo saldo conciliado, pelo fôlego semanal e pela retenção líquida (NRR) por safra, consolidando após cada fechamento contábil o *Burn Multiple* e o Ciclo de Conversão de Caixa. A Fase 14 transforma o capital em instrumento de alavancagem deliberada, longe da vaidade de manchetes. Com essa base instalada, os capítulos a seguir deste Volume 5 aprofundam contabilidade, Reforma Tributária, FP&A, *valuation*, Venture Capital, dívida e instrumentos conversíveis.
+### Prática, Cases e Simulações Desta Etapa (Volume 11: Capítulos 13 a 15)
+- [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 13: CASES GLOBAIS E BRASILEIROS DE FINANÇAS, ALOCAÇÃO DE CAPITAL, DÍVIDA ESTRUTURADA E VENTURE CAPITAL|CAPÍTULO 13: CASES GLOBAIS E BRASILEIROS DE FINANÇAS, ALOCAÇÃO DE CAPITAL, DÍVIDA ESTRUTURADA E VENTURE CAPITAL (Vol. 11)]]
+- [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 14: CADERNO DE EXERCÍCIOS COM GABARITO COMENTADO: DRE vs. CAIXA, REFORMA TRIBUTÁRIA, CAP TABLE, WATERFALL E FOMENTO|CAPÍTULO 14: CADERNO DE EXERCÍCIOS COM GABARITO COMENTADO: DRE vs. CAIXA, REFORMA TRIBUTÁRIA, CAP TABLE, WATERFALL E FOMENTO (Vol. 11)]]
+- [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 15: SIMULAÇÕES DE DECISÃO E ROLEPLAYS EXECUTIVOS: TERM SHEET DE SÉRIE A, DUE DILIGENCE E CRISE DE RUNWAY|CAPÍTULO 15: SIMULAÇÕES DE DECISÃO E ROLEPLAYS EXECUTIVOS: TERM SHEET DE SÉRIE A, DUE DILIGENCE E CRISE DE RUNWAY (Vol. 11)]]
 
 ---
 

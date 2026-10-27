@@ -44,14 +44,18 @@ graph LR
         V8["<b>Vol. 8: Jurídico e Segurança</b><br/>Fase 18 · Societário, Contratos e LGPD"]
         V3 --> V4 --> V5 --> V6 --> V7 --> V8
     end
-    subgraph J3["Ciclo Longo e Setores"]
+    subgraph J3["Ciclo Longo, Setores e Prática"]
         V9["<b>Vol. 9: Maturidade, Exit e Family Office</b><br/>Fases 19 e 20 · Board, Crise, M&A, IPO e Cash Cow"]
         V10["<b>Vol. 10: Economia da Inovação e 42 Verticais</b><br/>Hubs Globais, Regulação, 42 Setores e Dicionário"]
+        V11["<b>Vol. 11: Caderno de Trincheira e Cases</b><br/>58 Cases, 50 Exercícios, 27 Roleplays e Simulador"]
         V8 --> V9
     end
     V10 -. "Consulta Setorial e Dicionário" .-> J1
     V10 -. "Consulta Setorial e Dicionário" .-> J2
     V10 -. "Consulta Setorial e Dicionário" .-> J3
+    V11 -. "Cases, Exercícios e Simulações" .-> J1
+    V11 -. "Cases, Exercícios e Simulações" .-> J2
+    V11 -. "Cases, Exercícios e Simulações" .-> J3
 ```
 
 ---
@@ -78,6 +82,10 @@ graph LR
 - [[#CAPÍTULO 13: CULTURA COMO DISCIPLINA E EM SITUAÇÕES CRÍTICAS (HIPERCRESCIMENTO, M&A E REMOTO)|CAPÍTULO 13: CULTURA COMO DISCIPLINA E EM SITUAÇÕES CRÍTICAS (HIPERCRESCIMENTO, M&A E REMOTO)]]
 - [[#CAPÍTULO 14: DIVERSIDADE, EQUIDADE E INCLUSÃO (DEI) EM STARTUP BRASILEIRA|CAPÍTULO 14: DIVERSIDADE, EQUIDADE E INCLUSÃO (DEI) EM STARTUP BRASILEIRA]]
 - [[#CAPÍTULO 15: TRABALHO REMOTO, HÍBRIDO E DISTRIBUÍDO COMO DISCIPLINA|CAPÍTULO 15: REMOTE, HYBRID E DISTRIBUÍDO COMO DISCIPLINA]]
+### Prática, Cases e Simulações Desta Etapa (Volume 11: Capítulos 16 a 18)
+- [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 16: CASES GLOBAIS E BRASILEIROS DE ESCALA COMERCIAL, REVOPS, FRANCHISING, CULTURA E ESOP|CAPÍTULO 16: CASES GLOBAIS E BRASILEIROS DE ESCALA COMERCIAL, REVOPS, FRANCHISING, CULTURA E ESOP (Vol. 11)]]
+- [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 17: CADERNO DE EXERCÍCIOS COM GABARITO COMENTADO: COMISSIONAMENTO OTE, REVOPS, DRE DE FRANQUIA E PLANO DE OPÇÕES|CAPÍTULO 17: CADERNO DE EXERCÍCIOS COM GABARITO COMENTADO: COMISSIONAMENTO OTE, REVOPS, DRE DE FRANQUIA E PLANO DE OPÇÕES (Vol. 11)]]
+- [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 18: SIMULAÇÕES DE DECISÃO E ROLEPLAYS EXECUTIVOS: DEMISSÃO DE EXECUTIVO, RADICAL CANDOR E FECHAMENTO ENTERPRISE|CAPÍTULO 18: SIMULAÇÕES DE DECISÃO E ROLEPLAYS EXECUTIVOS: DEMISSÃO DE EXECUTIVO, RADICAL CANDOR E FECHAMENTO ENTERPRISE (Vol. 11)]]
 
 ---
 

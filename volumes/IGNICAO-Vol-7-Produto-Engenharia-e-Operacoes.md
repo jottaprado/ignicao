@@ -44,14 +44,18 @@ graph LR
         V8["<b>Vol. 8: Jurídico e Segurança</b><br/>Fase 18 · Societário, Contratos e LGPD"]
         V3 --> V4 --> V5 --> V6 --> V7 --> V8
     end
-    subgraph J3["Ciclo Longo e Setores"]
+    subgraph J3["Ciclo Longo, Setores e Prática"]
         V9["<b>Vol. 9: Maturidade, Exit e Family Office</b><br/>Fases 19 e 20 · Board, Crise, M&A, IPO e Cash Cow"]
         V10["<b>Vol. 10: Economia da Inovação e 42 Verticais</b><br/>Hubs Globais, Regulação, 42 Setores e Dicionário"]
+        V11["<b>Vol. 11: Caderno de Trincheira e Cases</b><br/>58 Cases, 50 Exercícios, 27 Roleplays e Simulador"]
         V8 --> V9
     end
     V10 -. "Consulta Setorial e Dicionário" .-> J1
     V10 -. "Consulta Setorial e Dicionário" .-> J2
     V10 -. "Consulta Setorial e Dicionário" .-> J3
+    V11 -. "Cases, Exercícios e Simulações" .-> J1
+    V11 -. "Cases, Exercícios e Simulações" .-> J2
+    V11 -. "Cases, Exercícios e Simulações" .-> J3
 ```
 
 ---
@@ -72,6 +76,10 @@ graph LR
 - [[#CAPÍTULO 8: GESTÃO DO CONHECIMENTO|CAPÍTULO 8: GESTÃO DO CONHECIMENTO]]
 - [[#CAPÍTULO 9: COMUNICAÇÃO INTERNA|CAPÍTULO 9: COMUNICAÇÃO INTERNA]]
 - [[#CAPÍTULO 10: OPERAÇÕES EM ESCALA|CAPÍTULO 10: OPERAÇÕES EM ESCALA]]
+### Prática, Cases e Simulações Desta Etapa (Volume 11: Capítulos 19 a 21)
+- [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 19: CASES GLOBAIS E BRASILEIROS DE PRODUTO EM ESCALA, ARQUITETURA TÉCNICA, DORA, IA EM PRODUÇÃO E OPERAÇÕES|CAPÍTULO 19: CASES GLOBAIS E BRASILEIROS DE PRODUTO EM ESCALA, ARQUITETURA TÉCNICA, DORA, IA EM PRODUÇÃO E OPERAÇÕES (Vol. 11)]]
+- [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 20: CADERNO DE EXERCÍCIOS COM GABARITO COMENTADO: PR/FAQ, OKRS, MÉTRICAS DORA, TOKENOMICS DE IA E TEAM TOPOLOGIES|CAPÍTULO 20: CADERNO DE EXERCÍCIOS COM GABARITO COMENTADO: PR/FAQ, OKRS, MÉTRICAS DORA, TOKENOMICS DE IA E TEAM TOPOLOGIES (Vol. 11)]]
+- [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 21: SIMULAÇÕES DE DECISÃO E ROLEPLAYS EXECUTIVOS: CONFLITO VENDAS vs. PRODUTO, POSTMORTEM SEM CULPA E MONÓLITO vs. MICROSSERVIÇOS|CAPÍTULO 21: SIMULAÇÕES DE DECISÃO E ROLEPLAYS EXECUTIVOS: CONFLITO VENDAS vs. PRODUTO, POSTMORTEM SEM CULPA E MONÓLITO vs. MICROSSERVIÇOS (Vol. 11)]]
 
 ---
 

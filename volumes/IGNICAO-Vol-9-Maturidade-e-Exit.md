@@ -44,14 +44,18 @@ graph LR
         V8["<b>Vol. 8: Jurídico e Segurança</b><br/>Fase 18 · Societário, Contratos e LGPD"]
         V3 --> V4 --> V5 --> V6 --> V7 --> V8
     end
-    subgraph J3["Ciclo Longo e Setores"]
+    subgraph J3["Ciclo Longo, Setores e Prática"]
         V9["<b>Vol. 9: Maturidade, Exit e Family Office</b><br/>Fases 19 e 20 · Board, Crise, M&A, IPO e Cash Cow"]
         V10["<b>Vol. 10: Economia da Inovação e 42 Verticais</b><br/>Hubs Globais, Regulação, 42 Setores e Dicionário"]
+        V11["<b>Vol. 11: Caderno de Trincheira e Cases</b><br/>58 Cases, 50 Exercícios, 27 Roleplays e Simulador"]
         V8 --> V9
     end
     V10 -. "Consulta Setorial e Dicionário" .-> J1
     V10 -. "Consulta Setorial e Dicionário" .-> J2
     V10 -. "Consulta Setorial e Dicionário" .-> J3
+    V11 -. "Cases, Exercícios e Simulações" .-> J1
+    V11 -. "Cases, Exercícios e Simulações" .-> J2
+    V11 -. "Cases, Exercícios e Simulações" .-> J3
 ```
 
 ---
@@ -88,6 +92,10 @@ graph LR
 - [[#CAPÍTULO 21: A EMPRESA CASH COW (DIVIDENDOS PERPÉTUOS), HOLDINGS PATRIMONIAIS, FAMILY OFFICE E GESTÃO DE FORTUNA PÓS-EXIT|CAPÍTULO 21: A EMPRESA CASH COW (DIVIDENDOS PERPÉTUOS), HOLDINGS PATRIMONIAIS, FAMILY OFFICE E GESTÃO DE FORTUNA PÓS-EXIT]]
 ### Encerramento
 - [[#EPÍLOGO|EPÍLOGO]]
+### Prática, Cases e Simulações Desta Etapa (Volume 11: Capítulos 25 a 27)
+- [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 25: CASES GLOBAIS E BRASILEIROS DE GOVERNANÇA DE CONSELHO, SEGUNDA CURVA, M&A ESTRATÉGICO, IPO E ROLL-UPS|CAPÍTULO 25: CASES GLOBAIS E BRASILEIROS DE GOVERNANÇA DE CONSELHO, SEGUNDA CURVA, M&A ESTRATÉGICO, IPO E ROLL-UPS (Vol. 11)]]
+- [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 26: CADERNO DE EXERCÍCIOS COM GABARITO COMENTADO: BOARD DECK, FLIP INTERNACIONAL, PROPOSTAS DE M&A, HOLDING E FAMILY OFFICE|CAPÍTULO 26: CADERNO DE EXERCÍCIOS COM GABARITO COMENTADO: BOARD DECK, FLIP INTERNACIONAL, PROPOSTAS DE M&A, HOLDING E FAMILY OFFICE (Vol. 11)]]
+- [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 27: SIMULAÇÕES DE DECISÃO E ROLEPLAYS EXECUTIVOS: CONSELHO DIVIDIDO, NEGOCIAÇÃO DE EARN-OUT E GOVERNANÇA FAMILIAR PÓS-EXIT|CAPÍTULO 27: SIMULAÇÕES DE DECISÃO E ROLEPLAYS EXECUTIVOS: CONSELHO DIVIDIDO, NEGOCIAÇÃO DE EARN-OUT E GOVERNANÇA FAMILIAR PÓS-EXIT (Vol. 11)]]
 
 ---
 

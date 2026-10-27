@@ -383,7 +383,7 @@ function applyV53CompleteReview(volNum, content) {
     const rulersTable = [
       '## Tabela Canônica de Réguas e Métricas da Coleção',
       '',
-      'Para evitar divergências de parâmetros entre fases, todos os dez volumes adotam os seguintes pisos e tetos operacionais como referência única:',
+      'Para evitar divergências de parâmetros entre fases, todos os onze volumes adotam os seguintes pisos e tetos operacionais como referência única:',
       '',
       '| Métrica ou Decisão Operacional | Régua Canônica da Coleção | Casa Principal |',
       '| :--- | :--- | :--- |',
@@ -400,7 +400,12 @@ function applyV53CompleteReview(volNum, content) {
       '',
       '## Mapa da Coleção IGNIÇÃO',
     ].join('\n');
-    joined = joined.replace('## Mapa da Coleção IGNIÇÃO', rulersTable);
+    joined = joined
+      .replace(
+        'Com **10 volumes principais (mais o Volume 11 de casos e exercícios), 21 fases (da Fase 0 à 20), 155 capítulos e 42 playbooks setoriais (quase um milhão de palavras)**',
+        'Com **11 volumes, 21 fases (da Fase 0 à 20), 185 capítulos e 42 playbooks setoriais (1,41 milhão de palavras)**'
+      )
+      .replace('## Mapa da Coleção IGNIÇÃO', rulersTable);
   } else if (volNum === 4) {
     // Add Legal Readiness Gate before Phase 14 (DA-269)
     const gateCallout = [
@@ -517,6 +522,10 @@ function applyV53CompleteReview(volNum, content) {
     .replace(
       'da coleção IGNIÇÃO: O manual operacional do empreendedor brasileiro (10 volumes).',
       'da coleção IGNIÇÃO: O manual operacional do empreendedor brasileiro (11 volumes).'
+    )
+    .replace(
+      '    subgraph J3["Ciclo Longo e Setores"]\n        V9["<b>Vol. 9: Maturidade, Exit e Family Office</b><br/>Fases 19 e 20 · Board, Crise, M&A, IPO e Cash Cow"]\n        V10["<b>Vol. 10: Economia da Inovação e 42 Verticais</b><br/>Hubs Globais, Regulação, 42 Setores e Dicionário"]\n        V8 --> V9\n    end\n    V10 -. "Consulta Setorial e Dicionário" .-> J1\n    V10 -. "Consulta Setorial e Dicionário" .-> J2\n    V10 -. "Consulta Setorial e Dicionário" .-> J3',
+      '    subgraph J3["Ciclo Longo, Setores e Prática"]\n        V9["<b>Vol. 9: Maturidade, Exit e Family Office</b><br/>Fases 19 e 20 · Board, Crise, M&A, IPO e Cash Cow"]\n        V10["<b>Vol. 10: Economia da Inovação e 42 Verticais</b><br/>Hubs Globais, Regulação, 42 Setores e Dicionário"]\n        V11["<b>Vol. 11: Caderno de Trincheira e Cases</b><br/>58 Cases, 50 Exercícios, 27 Roleplays e Simulador"]\n        V8 --> V9\n    end\n    V10 -. "Consulta Setorial e Dicionário" .-> J1\n    V10 -. "Consulta Setorial e Dicionário" .-> J2\n    V10 -. "Consulta Setorial e Dicionário" .-> J3\n    V11 -. "Cases, Exercícios e Simulações" .-> J1\n    V11 -. "Cases, Exercícios e Simulações" .-> J2\n    V11 -. "Cases, Exercícios e Simulações" .-> J3'
     );
 
   console.log(`[v5.3 Complete Review] Vol ${volNum}: applied ${applied} line-indexed fixes.`);
@@ -733,7 +742,64 @@ function reconcileAllV53CrossVolumeLinks(volumesDir) {
       .replace(
         /Catálogo Completo das \d+ Ferramentas da Coleção \(163 Frameworks, 20 Canvases e 41 Templates\)/g,
         `Catálogo Completo das ${totalTools} Ferramentas da Coleção (${fwTools.length} Frameworks, ${czTools.length} Canvases e ${tpTools.length} Templates)`
+      )
+      .replace(
+        '*Referência transversal dos dez volumes: Data de Compilação e Nota sobre Envelhecimento, Glossário de Termos Técnicos, Lista de Abreviações, Bibliografia Geral (Leituras Essenciais por Fase, Livros, Artigos, Relatórios e Legislação), Índice Geral de Ferramentas da Coleção (163 Frameworks, 20 Canvases e 41 Templates, totalizando 224 ferramentas) e Índice Remissivo.*',
+        `*Referência transversal dos onze volumes: Data de Compilação e Nota sobre Envelhecimento, Glossário de Termos Técnicos, Lista de Abreviações, Bibliografia Geral (Leituras Essenciais por Fase, Livros, Artigos, Relatórios e Legislação), Índice Geral de Ferramentas da Coleção (${fwTools.length} Frameworks, ${czTools.length} Canvases e ${tpTools.length} Templates, totalizando ${totalTools} ferramentas) e Índice Remissivo.*`
+      )
+      .replace(
+        '**IGNIÇÃO v5.2 (Edição Narrativa Enxuta, outubro de 2026): Dados verificados até outubro de 2026.**',
+        '**IGNIÇÃO v5.3 (Edição Narrativa Enxuta, outubro de 2026): Dados verificados até outubro de 2026.**'
+      )
+      .replace(
+        'e a arquitetura de 10 volumes da coleção naquele momento.',
+        'e a arquitetura de 11 volumes da coleção naquele momento.'
+      )
+      .replace(
+        'utilizados nos dez volumes da coleção, ordenados alfabeticamente de A a Z.',
+        'utilizados nos onze volumes da coleção, ordenados alfabeticamente de A a Z.'
       );
+
+    // Extract Volume 11 H2 chapters (1..30) for bidirectional linking
+    const v11Chaps = new Map();
+    for (const ln of linesByVol[11] || []) {
+      const m11 = ln.match(/^##\s+(CAPÍTULO\s+(\d+):\s+.+)$/i);
+      if (m11) {
+        v11Chaps.set(Number(m11[2]), m11[1].trim());
+      }
+    }
+
+    // Add bidirectional links to Volume 11 in ## Sumário deste Volume of Volumes 1..10
+    for (let v = 1; v <= 10; v++) {
+      const c1 = 3 * v - 2;
+      const c2 = 3 * v - 1;
+      const c3 = 3 * v;
+      const h1 = v11Chaps.get(c1);
+      const h2 = v11Chaps.get(c2);
+      const h3 = v11Chaps.get(c3);
+      if (!h1 || !h2 || !h3) continue;
+
+      const v11TocBlock = [
+        `### Prática, Cases e Simulações Desta Etapa (Volume 11: Capítulos ${c1} a ${c3})`,
+        `- [[${VOL_SLUGS[11]}#${h1}|${h1} (Vol. 11)]]`,
+        `- [[${VOL_SLUGS[11]}#${h2}|${h2} (Vol. 11)]]`,
+        `- [[${VOL_SLUGS[11]}#${h3}|${h3} (Vol. 11)]]`,
+      ].join('\n');
+
+      let vText = v === 10 ? v10Text : linesByVol[v].join('\n');
+      if (!vText.includes(`### Prática, Cases e Simulações Desta Etapa (Volume 11:`)) {
+        vText = vText.replace(
+          /(## Sumário deste Volume\n\n[\s\S]*?)(\n\n---\n\n# )/,
+          `$1\n${v11TocBlock}$2`
+        );
+        if (v === 10) {
+          v10Text = vText;
+        } else {
+          linesByVol[v] = vText.split('\n');
+          fs.writeFileSync(path.join(volumesDir, `${VOL_SLUGS[v]}.md`), vText, 'utf8');
+        }
+      }
+    }
 
     // Ensure the 5 remaining chapters of Vols. 1–9 are linked in the Remissivo
     const extraRemissivo = [
@@ -747,6 +813,25 @@ function reconcileAllV53CrossVolumeLinks(volumesDir) {
       if (!v10Text.includes(item)) {
         v10Text = v10Text.trimEnd() + '\n' + item + '\n';
       }
+    }
+
+    // Append complete index of Volume 11 chapters at the end of Volume 10
+    if (v11Chaps.size === 30 && !v10Text.includes('## ÍNDICE DO CADERNO DE TRINCHEIRA, CASES, EXERCÍCIOS E SIMULADOR (VOLUME 11)')) {
+      const v11IdxLines = [
+        '',
+        '---',
+        '',
+        '## ÍNDICE DO CADERNO DE TRINCHEIRA, CASES, EXERCÍCIOS E SIMULADOR (VOLUME 11)',
+        '',
+      ];
+      for (let c = 1; c <= 30; c++) {
+        const hd = v11Chaps.get(c);
+        const mirrorVol = Math.ceil(c / 3);
+        v11IdxLines.push(
+          `- **Capítulo ${c} (Espelho do Vol. ${mirrorVol})**: [[${VOL_SLUGS[11]}#${hd}|${hd} (Vol. 11)]]`
+        );
+      }
+      v10Text = v10Text.trimEnd() + '\n' + v11IdxLines.join('\n') + '\n';
     }
 
     linesByVol[10] = v10Text.split('\n');

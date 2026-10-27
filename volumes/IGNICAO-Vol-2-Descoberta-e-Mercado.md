@@ -44,14 +44,18 @@ graph LR
         V8["<b>Vol. 8: Jurídico e Segurança</b><br/>Fase 18 · Societário, Contratos e LGPD"]
         V3 --> V4 --> V5 --> V6 --> V7 --> V8
     end
-    subgraph J3["Ciclo Longo e Setores"]
+    subgraph J3["Ciclo Longo, Setores e Prática"]
         V9["<b>Vol. 9: Maturidade, Exit e Family Office</b><br/>Fases 19 e 20 · Board, Crise, M&A, IPO e Cash Cow"]
         V10["<b>Vol. 10: Economia da Inovação e 42 Verticais</b><br/>Hubs Globais, Regulação, 42 Setores e Dicionário"]
+        V11["<b>Vol. 11: Caderno de Trincheira e Cases</b><br/>58 Cases, 50 Exercícios, 27 Roleplays e Simulador"]
         V8 --> V9
     end
     V10 -. "Consulta Setorial e Dicionário" .-> J1
     V10 -. "Consulta Setorial e Dicionário" .-> J2
     V10 -. "Consulta Setorial e Dicionário" .-> J3
+    V11 -. "Cases, Exercícios e Simulações" .-> J1
+    V11 -. "Cases, Exercícios e Simulações" .-> J2
+    V11 -. "Cases, Exercícios e Simulações" .-> J3
 ```
 
 ---
@@ -66,6 +70,10 @@ graph LR
 - [[#CAPÍTULO 1: PSICOLOGIA DO CONSUMIDOR BRASILEIRO: COMPORTAMENTO, DECISÃO E CONVERSÃO|CAPÍTULO 1: PSICOLOGIA DO CONSUMIDOR BRASILEIRO: COMPORTAMENTO, DECISÃO E CONVERSÃO]]
 - [[#CAPÍTULO 2: INTELIGÊNCIA COMPETITIVA, POSICIONAMENTO E CATEGORY DESIGN|CAPÍTULO 2: INTELIGÊNCIA COMPETITIVA, POSICIONAMENTO E CATEGORY DESIGN]]
 - [[#CAPÍTULO 3: CASOS DE FRACASSO BRASILEIROS E LIÇÕES|CAPÍTULO 3: CASOS DE FRACASSO BRASILEIROS E LIÇÕES]]
+### Prática, Cases e Simulações Desta Etapa (Volume 11: Capítulos 4 a 6)
+- [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 4: CASES GLOBAIS E BRASILEIROS DE CUSTOMER DISCOVERY, JTBD E CUNHA DE MERCADO|CAPÍTULO 4: CASES GLOBAIS E BRASILEIROS DE CUSTOMER DISCOVERY, JTBD E CUNHA DE MERCADO (Vol. 11)]]
+- [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 5: CADERNO DE EXERCÍCIOS COM GABARITO COMENTADO: MOM TEST, FORÇAS DO JTBD, TAM/SAM/SOM E CANVAS DA CUNHA|CAPÍTULO 5: CADERNO DE EXERCÍCIOS COM GABARITO COMENTADO: MOM TEST, FORÇAS DO JTBD, TAM/SAM/SOM E CANVAS DA CUNHA (Vol. 11)]]
+- [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 6: SIMULAÇÕES DE DECISÃO E ROLEPLAYS EXECUTIVOS: ENTREVISTAS DE CAMPO, GATEKEEPERS E ESCOLHA DE ICP|CAPÍTULO 6: SIMULAÇÕES DE DECISÃO E ROLEPLAYS EXECUTIVOS: ENTREVISTAS DE CAMPO, GATEKEEPERS E ESCOLHA DE ICP (Vol. 11)]]
 
 ---
 

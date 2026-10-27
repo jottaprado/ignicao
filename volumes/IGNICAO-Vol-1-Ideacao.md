@@ -83,7 +83,7 @@ Ao longo dos **Volumes 1 a 10**, além das histórias reais de grandes empresas 
 
 ## Roteiros de Leitura por Perfil (Fast-Tracks)
 
-Com **10 volumes principais (mais o Volume 11 de casos e exercícios), 21 fases (da Fase 0 à 20), 155 capítulos e 42 playbooks setoriais (quase um milhão de palavras)**, o IGNIÇÃO foi projetado tanto para leitura sequencial quanto para consulta sob demanda. Se você precisa destravar decisões nos próximos 30 dias, siga a trilha correspondente ao seu perfil atual (e acompanhe o arquétipo correspondente da coleção):
+Com **11 volumes, 21 fases (da Fase 0 à 20), 185 capítulos e 42 playbooks setoriais (1,41 milhão de palavras)**, o IGNIÇÃO foi projetado tanto para leitura sequencial quanto para consulta sob demanda. Se você precisa destravar decisões nos próximos 30 dias, siga a trilha correspondente ao seu perfil atual (e acompanhe o arquétipo correspondente da coleção):
 
 | Perfil / Arquétipo | O que ler primeiro (Ordem de Leitura) |
 | :--- | :--- |
@@ -100,7 +100,7 @@ Com **10 volumes principais (mais o Volume 11 de casos e exercícios), 21 fases 
 
 ## Tabela Canônica de Réguas e Métricas da Coleção
 
-Para evitar divergências de parâmetros entre fases, todos os dez volumes adotam os seguintes pisos e tetos operacionais como referência única:
+Para evitar divergências de parâmetros entre fases, todos os onze volumes adotam os seguintes pisos e tetos operacionais como referência única:
 
 | Métrica ou Decisão Operacional | Régua Canônica da Coleção | Casa Principal |
 | :--- | :--- | :--- |
@@ -133,14 +133,18 @@ graph LR
         V8["<b>Vol. 8: Jurídico e Segurança</b><br/>Fase 18 · Societário, Contratos e LGPD"]
         V3 --> V4 --> V5 --> V6 --> V7 --> V8
     end
-    subgraph J3["Ciclo Longo e Setores"]
+    subgraph J3["Ciclo Longo, Setores e Prática"]
         V9["<b>Vol. 9: Maturidade, Exit e Family Office</b><br/>Fases 19 e 20 · Board, Crise, M&A, IPO e Cash Cow"]
         V10["<b>Vol. 10: Economia da Inovação e 42 Verticais</b><br/>Hubs Globais, Regulação, 42 Setores e Dicionário"]
+        V11["<b>Vol. 11: Caderno de Trincheira e Cases</b><br/>58 Cases, 50 Exercícios, 27 Roleplays e Simulador"]
         V8 --> V9
     end
     V10 -. "Consulta Setorial e Dicionário" .-> J1
     V10 -. "Consulta Setorial e Dicionário" .-> J2
     V10 -. "Consulta Setorial e Dicionário" .-> J3
+    V11 -. "Cases, Exercícios e Simulações" .-> J1
+    V11 -. "Cases, Exercícios e Simulações" .-> J2
+    V11 -. "Cases, Exercícios e Simulações" .-> J3
 ```
 
 ---
@@ -167,6 +171,10 @@ graph LR
 ### Ecossistema, Mentoria e Apoio Inicial (Capítulos 11 e 12)
 - [[#CAPÍTULO 11: ACELERADORAS, PROGRAMAS E PARCEIROS INSTITUCIONAIS PARA STARTUP BRASILEIRA|CAPÍTULO 11: ACELERADORAS, PROGRAMAS E PARCEIROS INSTITUCIONAIS PARA STARTUP BRASILEIRA]]
 - [[#CAPÍTULO 12: REDE, MENTORES E ADVISORS: COMO CONSTRUIR O CAPITAL HUMANO DO EMPREENDEDOR|CAPÍTULO 12: REDE, MENTORES E ADVISORS: COMO CONSTRUIR O CAPITAL HUMANO DO EMPREENDEDOR]]
+### Prática, Cases e Simulações Desta Etapa (Volume 11: Capítulos 1 a 3)
+- [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 1: CASES GLOBAIS E BRASILEIROS DE IDEAÇÃO, COFUNDADORES E TESE INICIAL|CAPÍTULO 1: CASES GLOBAIS E BRASILEIROS DE IDEAÇÃO, COFUNDADORES E TESE INICIAL (Vol. 11)]]
+- [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 2: CADERNO DE EXERCÍCIOS COM GABARITO COMENTADO: FUNDAÇÃO, EQUITY E TEORIA DO NEGÓCIO|CAPÍTULO 2: CADERNO DE EXERCÍCIOS COM GABARITO COMENTADO: FUNDAÇÃO, EQUITY E TEORIA DO NEGÓCIO (Vol. 11)]]
+- [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 3: SIMULAÇÕES DE DECISÃO E ROLEPLAYS EXECUTIVOS: SOCIEDADE, PRIMEIROS TALENTOS E MENTORIA|CAPÍTULO 3: SIMULAÇÕES DE DECISÃO E ROLEPLAYS EXECUTIVOS: SOCIEDADE, PRIMEIROS TALENTOS E MENTORIA (Vol. 11)]]
 
 ---
 

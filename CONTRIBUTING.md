@@ -46,7 +46,7 @@ Para erros de português, formatação ou clareza:
 
 1. Faça fork do repositório
 2. Edite a seção relevante no arquivo correspondente dentro de `volumes/IGNICAO-Vol-X-*.md`. Use `Ctrl+F` para encontrar `## FASE X:` ou `## CAPÍTULO X:`
-3. Rode `py audit.py` para garantir que nenhum wikilink foi quebrado e abra um Pull Request com descrição curta da mudança
+3. Rode `python audit.py`, `python check_exemplos.py` e `python validate_v53.py` para garantir que nenhum wikilink, exemplo ou invariante editorial foi quebrado, e abra um Pull Request com descrição curta da mudança
 
 ### 📊 Atualizar dados e benchmarks
 
