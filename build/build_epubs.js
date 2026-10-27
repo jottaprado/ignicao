@@ -80,7 +80,7 @@ for (const t of TARGETS) {
     inFile,
     '-o',
     outFile,
-    '--from=markdown-tex_math_dollars-tex_math_single_backslash-yaml_metadata_block',
+    '--from=markdown-smart-tex_math_dollars-tex_math_single_backslash-yaml_metadata_block',
     '--toc',
     '--toc-depth=2',
     '--metadata',

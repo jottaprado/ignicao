@@ -20,7 +20,7 @@ language: pt-BR
 
 ## Sobre este Volume
 
-Este é o **Volume 6 (Receita Enterprise, Liderança e Cultura)** da coleção IGNIÇÃO: O manual operacional do empreendedor brasileiro (11 volumes).
+Este é o **Volume 6 (IGNIÇÃO: Volume 6: Receita Enterprise, Liderança e Cultura)** da coleção IGNIÇÃO: O manual operacional do empreendedor brasileiro (11 volumes).
 
 Volume dedicado à construção da máquina comercial Enterprise, canais de distribuição, franquias e evolução de liderança, pessoas e cultura na scale-up. Abre com a Fase 15 (Máquina de Crescimento e Expansão em Escala) e a Fase 16 (Time, Liderança Executiva e Cultura em Escala), trazendo os frameworks clássicos de metodologias de vendas (MEDDPICC, SPIN, Challenger, Sandler, Solution Selling, BANT e Command of the Message), crescimento em escala e liderança (Radical Candor, Lencioni, Topgrading, Who, Horowitz, Culture Code, Netflix, SPADE e 7S), além de templates e quadros visuais práticos, seguidos por 15 capítulos sobre Growth, vendas Enterprise, Operações de Receita (RevOps), desenvolvimento de negócios corporativos, canais indiretos, Franchising e Licenciamento de Redes (Lei 13.966/2019 e COF), marca e relações públicas, modo fundador e cadência operacional, contratação executiva, avaliação de desempenho, remuneração e benefícios, planos de opções (Stock Options e ESOP), cultura em situações críticas, diversidade e trabalho remoto ou híbrido.
 
@@ -63,9 +63,12 @@ graph LR
 ## Sumário deste Volume
 
 ### Fases da Etapa (Fases 15 e 16)
+
 - [[#FASE 15: MÁQUINA DE CRESCIMENTO E EXPANSÃO EM ESCALA|FASE 15: MÁQUINA DE CRESCIMENTO E EXPANSÃO EM ESCALA]]
 - [[#FASE 16: TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|FASE 16: TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA]]
+
 ### Crescimento em Escala, Vendas Enterprise, RevOps, Parcerias, Franquias e Marca (Capítulos 1 a 7)
+
 - [[#CAPÍTULO 1: GROWTH COMO FUNÇÃO ORGANIZACIONAL: TIME DE GROWTH, BUILD VS HIRE, RELAÇÃO COM PRODUTO|CAPÍTULO 1: GROWTH COMO FUNÇÃO ORGANIZACIONAL: TIME DE GROWTH, BUILD VS HIRE, RELAÇÃO COM PRODUTO]]
 - [[#CAPÍTULO 2: VENDAS COMPLEXAS ENTERPRISE: CICLO LONGO, ALTO VALOR, MÚLTIPLOS DECISORES|CAPÍTULO 2: VENDAS COMPLEXAS ENTERPRISE: CICLO LONGO, ALTO VALOR, MÚLTIPLOS DECISORES]]
 - [[#CAPÍTULO 3: REVENUE OPERATIONS: INFRAESTRUTURA, DADOS E PROCESSO PARA CRESCER COM PREVISIBILIDADE|CAPÍTULO 3: REVENUE OPERATIONS: INFRAESTRUTURA, DADOS E PROCESSO PARA CRESCER COM PREVISIBILIDADE]]
@@ -73,7 +76,9 @@ graph LR
 - [[#CAPÍTULO 5: CANAIS INDIRETOS E PARCERIAS: PARCERIAS, FRANQUIAS, CHANNEL|CAPÍTULO 5: CANAIS INDIRETOS E PARCERIAS: PARCERIAS, FRANQUIAS, CHANNEL]]
 - [[#CAPÍTULO 6: FRANCHISING, LICENCIAMENTO E EXPANSÃO DE REDES MULTI-UNIDADES (LEI 13.966/2019)|CAPÍTULO 6: FRANCHISING, LICENCIAMENTO E EXPANSÃO DE REDES MULTI-UNIDADES (LEI 13.966/2019)]]
 - [[#CAPÍTULO 7: MARCA CORPORATIVA, PR, COMUNICAÇÃO PÚBLICA E MARCA PESSOAL DO FUNDADOR|CAPÍTULO 7: MARCA CORPORATIVA, PR, COMUNICAÇÃO PÚBLICA E MARCA PESSOAL DO FUNDADOR]]
+
 ### Liderança Executiva, Contratação Sênior, Remuneração, ESOP e Cultura (Capítulos 8 a 15)
+
 - [[#CAPÍTULO 8: FOUNDER MODE, DELEGAÇÃO, GESTÃO DE TEMPO E CADÊNCIA OPERACIONAL DO CEO|CAPÍTULO 8: FOUNDER MODE, DELEGAÇÃO, GESTÃO DE TEMPO E CADÊNCIA OPERACIONAL DO CEO]]
 - [[#CAPÍTULO 9: EXECUTIVE HIRING: CONTRATAR LÍDERES SÊNIOR E C-LEVEL|CAPÍTULO 9: EXECUTIVE HIRING: CONTRATAR LÍDERES SÊNIOR E C-LEVEL]]
 - [[#CAPÍTULO 10: PERFORMANCE REVIEWS ESTRUTURADOS: CICLO, CALIBRAÇÃO E CONEXÃO COM COMPENSAÇÃO|CAPÍTULO 10: PERFORMANCE REVIEWS ESTRUTURADOS: CICLO, CALIBRAÇÃO E CONEXÃO COM COMPENSAÇÃO]]
@@ -82,7 +87,9 @@ graph LR
 - [[#CAPÍTULO 13: CULTURA COMO DISCIPLINA E EM SITUAÇÕES CRÍTICAS (HIPERCRESCIMENTO, M&A E REMOTO)|CAPÍTULO 13: CULTURA COMO DISCIPLINA E EM SITUAÇÕES CRÍTICAS (HIPERCRESCIMENTO, M&A E REMOTO)]]
 - [[#CAPÍTULO 14: DIVERSIDADE, EQUIDADE E INCLUSÃO (DEI) EM STARTUP BRASILEIRA|CAPÍTULO 14: DIVERSIDADE, EQUIDADE E INCLUSÃO (DEI) EM STARTUP BRASILEIRA]]
 - [[#CAPÍTULO 15: TRABALHO REMOTO, HÍBRIDO E DISTRIBUÍDO COMO DISCIPLINA|CAPÍTULO 15: REMOTE, HYBRID E DISTRIBUÍDO COMO DISCIPLINA]]
+
 ### Prática, Cases e Simulações Desta Etapa (Volume 11: Capítulos 16 a 18)
+
 - [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 16: CASES GLOBAIS E BRASILEIROS DE ESCALA COMERCIAL, REVOPS, FRANCHISING, CULTURA E ESOP|CAPÍTULO 16: CASES GLOBAIS E BRASILEIROS DE ESCALA COMERCIAL, REVOPS, FRANCHISING, CULTURA E ESOP (Vol. 11)]]
 - [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 17: CADERNO DE EXERCÍCIOS COM GABARITO COMENTADO: COMISSIONAMENTO OTE, REVOPS, DRE DE FRANQUIA E PLANO DE OPÇÕES|CAPÍTULO 17: CADERNO DE EXERCÍCIOS COM GABARITO COMENTADO: COMISSIONAMENTO OTE, REVOPS, DRE DE FRANQUIA E PLANO DE OPÇÕES (Vol. 11)]]
 - [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 18: SIMULAÇÕES DE DECISÃO E ROLEPLAYS EXECUTIVOS: DEMISSÃO DE EXECUTIVO, RADICAL CANDOR E FECHAMENTO ENTERPRISE|CAPÍTULO 18: SIMULAÇÕES DE DECISÃO E ROLEPLAYS EXECUTIVOS: DEMISSÃO DE EXECUTIVO, RADICAL CANDOR E FECHAMENTO ENTERPRISE (Vol. 11)]]
@@ -4782,6 +4789,7 @@ O sistema de franquia empresarial no Brasil é disciplinado pela Lei nº 13.966,
 Em contrapartida, a lei exige transparência pré-contratual documentada por meio de um instrumento obrigatório: a COF (Circular de Oferta de Franquia).
 
 #### 2.1. A Regra dos 10 Dias e a Sanção de Anulabilidade ou Nulidade (Art. 2º, §§ 1º e 2º, e Art. 4º)
+
 Pelo art. 2º, § 1º, da Lei nº 13.966/2019, a franqueadora deve entregar a COF ao candidato com antecedência mínima de 10 (dez) dias antes de qualquer um destes dois marcos (o que ocorrer primeiro):
 1. Da assinatura do **contrato definitivo ou do pré-contrato de franquia**, ou
 2. Do pagamento de **qualquer taxa, sinal ou remuneração** pelo candidato à franqueadora ou a empresa ou pessoa a ela ligada.
@@ -4789,6 +4797,7 @@ Pelo art. 2º, § 1º, da Lei nº 13.966/2019, a franqueadora deve entregar a CO
 Se a equipe de expansão enviar a COF na segunda-feira e receber um sinal de reserva de território na sexta-feira (apenas 4 dias depois), ou omitir dado obrigatório da COF (como a lista completa de franqueados que deixaram a rede nos últimos 24 meses), o art. 2º, § 2º, e o art. 4º conferem ao franqueado o direito de arguir em juízo a anulabilidade ou nulidade do contrato e exigir a **devolução de todas as quantias já pagas a título de filiação ou *royalties*, corrigidas monetariamente** (sem prejuízo de eventuais perdas e danos que o franqueado comprove na via judicial própria, embora os gastos diretos de obra e estoque pagos a terceiros não entrem na restituição automática das taxas de franquia). Na prática, essa falha entrega ao franqueado insatisfeito uma opção jurídica de saída com devolução de taxas caso a unidade dê prejuízo nos primeiros anos.
 
 #### 2.2. Os Requisitos Obrigatórios da COF (Art. 2º, Incisos I a XXIII, da Lei 13.966/2019)
+
 A sua COF deve ser redigida em linguagem clara e acessível e atender estritamente aos 23 incisos (I a XXIII) do art. 2º da Lei nº 13.966/2019, organizados nos seis blocos operacionais abaixo:
 - [ ] **Histórico resumido, forma societária e quadro societário completo** da franqueadora e de todas as empresas coligadas.
 - [ ] **Balanços e demonstrações financeiras auditadas/assinadas** da empresa franqueadora relativos aos 2 (dois) últimos exercícios.
@@ -4822,6 +4831,7 @@ Antes de vender a primeira franquia, embora nem a Lei 13.966/2019 nem o estatuto
 | **Payback Total do Investimento (Retorno do CAPEX, ex.: R$ 396 mil)** | Meta saudável entre **18 e 24 meses** (dentro de contratos típicos de 48 a 60 meses) | > 36 meses (alerta decisivo de retorno sobre o capital investido) |
 
 #### 3.2. As 4 Fontes de Receita da Franqueadora (Onde Está o Lucro Real da Matriz)
+
 Um erro estrutural grave é tentar financiar o lucro corrente da franqueadora com a Taxa Inicial de Franquia: a taxa de entrada deve cobrir os custos de seleção, treinamento, projeto arquitetônico e apoio de inauguração, enquanto o lucro recorrente e escalável da matriz vem das três fontes contínuas abaixo:
 
 Na franqueadora profissional:
@@ -6387,13 +6397,15 @@ O prestador PJ genuinamente autônomo não possui vínculo de emprego e recebe o
 ---
 
 ### Cartões de benefícios flexíveis (Caju, Flash, Swile), regras do PAT (Lei 14.442/2022 e Decreto 12.712/2025) e plano de saúde
-#### Cartões de benefícios flexíveis (Caju, Flash, Swile) e as regras do PAT (Lei nº 14.442/2022 e Decreto nº 12.712/2025)
+
+#### Regras do PAT e arranjo aberto (Lei nº 14.442/2022 e Decreto nº 12.712/2025)
 
 Os cartões de benefícios flexíveis (operados na bandeira Visa ou Mastercard por plataformas como Caju, Flash e Swile) tornaram-se padrão em startups brasileiras por unificarem vale-refeição, vale-alimentação, auxílio *home office*, mobilidade e cultura em um único aplicativo. Contudo, para preservar a isenção de encargos previdenciários (INSS) e de FGTS sobre o auxílio-alimentação (CLT, art. 457, § 2º, e Programa de Alimentação do Trabalhador - PAT), a operação exige conformidade estrita com a Lei nº 14.442/2022 e com o Decreto nº 12.712/2025 (de 12/11/2025):
 
 - **Separação travada entre carteira de alimentação/refeição e carteiras livres:** os valores destinados a refeição (restaurantes) e alimentação (supermercados) devem ficar bloqueados na categoria de nutrição para uso exclusivo em estabelecimentos do ramo alimentício. Saldo depositado em "carteira livre" ou transferível para saque, lazer ou contas pessoais não goza da proteção do art. 457, § 2º da CLT nem do PAT, sofrendo incidência normal de INSS, FGTS e IRRF como parcela salarial.
 - **Vedação absoluta a *rebate*, deságio ou prazos pós-pagos na contratação:** a Lei nº 14.442/2022 proíbe que a empregadora negocie descontos (*rebates*), taxas negativas, benefícios indiretos ou prazos de pagamento postergados com as fornecedoras de cartões sob pena de multa de R$ 5 mil a R$ 50 mil (dobrada na reincidência) e cancelamento da inscrição no PAT.
 - **Teto de taxas, repasse em 15 dias e arranjo aberto em 2026 (Decreto nº 12.712/2025):** a regulamentação vigente fixou teto de 3,6% para a taxa cobrada dos estabelecimentos (*MDR*), reduziu o prazo máximo de reembolso aos restaurantes e mercados para 15 dias corridos desde fevereiro de 2026 e determinou a abertura dos arranjos de pagamento e interoperabilidade das maquininhas ao longo de 2026.
+
 #### Plano de saúde
 
 O benefício opcional com maior impacto em atração e retenção no Brasil. Profissionais de tecnologia com renda acima de R$ 8.000/mês frequentemente citam o plano de saúde como segundo critério mais importante após o salário.

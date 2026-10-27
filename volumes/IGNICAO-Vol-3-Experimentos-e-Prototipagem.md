@@ -20,7 +20,7 @@ language: pt-BR
 
 ## Sobre este Volume
 
-Este é o **Volume 3 (Hipóteses, Experimentos, Prototipagem e Modelos de Negócio)** da coleção IGNIÇÃO: O manual operacional do empreendedor brasileiro (11 volumes).
+Este é o **Volume 3 (IGNIÇÃO: Volume 3: Hipóteses, Experimentos, Prototipagem e Modelos de Negócio)** da coleção IGNIÇÃO: O manual operacional do empreendedor brasileiro (11 volumes).
 
 Este volume guia a transição da teoria de negócio para a validação científica em campo e para a construção do protótipo testado. A jornada percorre quatro fases operacionais em sequência: a Formulação Rigorosa de Hipóteses (Fase 7), os Experimentos de Validação com Compromisso Real (Fase 8), a Ideação e Prototipagem de Soluções (Fase 9) e os Testes de Solução, Usabilidade e Especificação de MVP (Fase 10). Cada fase traz passo a passo práticos de análise de risco, desenho experimental, *design sprint* e pesquisa de usabilidade, além dos quadros *Hypothesis Canvas*, *Test Card*, *Opportunity Canvas* e *MVP Canvas* preenchidos com casos brasileiros. Na segunda metade, sete capítulos aprofundam o método científico aplicado ao empreendedorismo, os portões de evidência e maturidade (*TRL/CRL*), a lente transversal de cunha e escala (*Idea → Wedge → Scale*) e as arquiteturas de *Marketplaces* e Plataformas, *B2B2C*, *Open Source* Comercial (*COSS*) e *Bootstrapping* via serviços produtizados (*Service-to-Product*).
 
@@ -63,20 +63,27 @@ graph LR
 ## Sumário deste Volume
 
 ### Fases da Etapa (Fases 7 a 10)
+
 - [[#FASE 7: FORMULAÇÃO RIGOROSA DE HIPÓTESES|FASE 7: FORMULAÇÃO RIGOROSA DE HIPÓTESES]]
 - [[#FASE 8: EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA E DA SOLUÇÃO|FASE 8: EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA E DA SOLUÇÃO]]
 - [[#FASE 9: IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES|FASE 9: IDEAÇÃO E PROTOTIPAGEM DE SOLUÇÕES]]
 - [[#FASE 10: TESTES DE SOLUÇÃO E USABILIDADE|FASE 10: TESTES DE SOLUÇÃO E USABILIDADE]]
+
 ### Metodologia Científica, Maturidade e Gates de Evidência (Capítulos 1 e 2)
+
 - [[#CAPÍTULO 1: ABORDAGEM CIENTÍFICA vs LEAN STARTUP: QUANDO USAR CADA UMA|CAPÍTULO 1: ABORDAGEM CIENTÍFICA vs LEAN STARTUP: QUANDO USAR CADA UMA]]
 - [[#CAPÍTULO 2: MATURIDADE (TRL/CRL), OS DEZ PORTÕES (TEN GATES) E PRÓXIMO PASSO COMPROMETIDO|CAPÍTULO 2: MATURIDADE (TRL/CRL), DECISÃO POR GATES E FECHAMENTO DE FASE (COMMITTED NEXT MOVE)]]
+
 ### Arquitetura de Modelo de Negócio (Capítulos 3 a 7)
+
 - [[#CAPÍTULO 3: IDEA → WEDGE → SCALE: O FRAMEWORK ANTLER COMO LENTE TRANSVERSAL|CAPÍTULO 3: IDEA → WEDGE → SCALE: O FRAMEWORK ANTLER COMO LENTE TRANSVERSAL]]
 - [[#CAPÍTULO 4: MARKETPLACES, PLATAFORMAS E EFEITOS DE REDE: LIQUIDEZ, OVO-E-GALINHA E RISCO DE PLATAFORMA|CAPÍTULO 4: MARKETPLACES, PLATAFORMAS E EFEITOS DE REDE: LIQUIDEZ, OVO-E-GALINHA E RISCO DE PLATAFORMA]]
 - [[#CAPÍTULO 5: B2B2C: QUANDO SUA EMPRESA VENDE PARA OUTRA EMPRESA QUE VENDE PARA CONSUMIDOR|CAPÍTULO 5: B2B2C: QUANDO SUA EMPRESA VENDE PARA OUTRA EMPRESA QUE VENDE PARA CONSUMIDOR]]
 - [[#CAPÍTULO 6: OPEN SOURCE COMO ESTRATÉGIA|CAPÍTULO 6: OPEN SOURCE COMO ESTRATÉGIA]]
 - [[#CAPÍTULO 7: BOOTSTRAPPING, SERVIÇOS PRODUTIZADOS (PRODUCTIZED SERVICES) E A TRANSIÇÃO SERVICE-TO-PRODUCT|CAPÍTULO 7: BOOTSTRAPPING, SERVIÇOS PRODUTIZADOS (PRODUCTIZED SERVICES) E A TRANSIÇÃO SERVICE-TO-PRODUCT]]
+
 ### Prática, Cases e Simulações Desta Etapa (Volume 11: Capítulos 7 a 9)
+
 - [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 7: CASES GLOBAIS E BRASILEIROS DE EXPERIMENTAÇÃO, PROTOTIPAGEM, PLATAFORMAS E BOOTSTRAPPING|CAPÍTULO 7: CASES GLOBAIS E BRASILEIROS DE EXPERIMENTAÇÃO, PROTOTIPAGEM, PLATAFORMAS E BOOTSTRAPPING (Vol. 11)]]
 - [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 8: CADERNO DE EXERCÍCIOS COM GABARITO COMENTADO: TEST CARDS, UNIT ECONOMICS DE MARKETPLACE E SERVICE-TO-PRODUCT|CAPÍTULO 8: CADERNO DE EXERCÍCIOS COM GABARITO COMENTADO: TEST CARDS, UNIT ECONOMICS DE MARKETPLACE E SERVICE-TO-PRODUCT (Vol. 11)]]
 - [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 9: SIMULAÇÕES DE DECISÃO E ROLEPLAYS EXECUTIVOS: USABILIDADE, PRÉ-VENDA B2B E CORTE DE ESCOPO DE MVP|CAPÍTULO 9: SIMULAÇÕES DE DECISÃO E ROLEPLAYS EXECUTIVOS: USABILIDADE, PRÉ-VENDA B2B E CORTE DE ESCOPO DE MVP (Vol. 11)]]
@@ -2682,6 +2689,7 @@ CONCEPT CARD DE SOLUÇÃO (PASSO 3: 1 PÁGINA POR CONCEITO CANDIDATO)
 - **Etapa 3: Observação silenciosa (durante os 15 minutos).** Segure a vontade de ajudar, anote exatamente em qual botão, palavra ou número o participante hesita, franze a testa ou erra o caminho.
 - **Etapa 4: Protocolo de pensar em voz alta (*think-aloud*, durante os 15 minutos).** Peça que ele narre o que está lendo e o que espera que aconteça antes de cada toque na tela.
 - **Etapa 5: Perguntas pós-teste e compromisso real (10 minutos finais).** Pergunte o que ficou claro, onde surgiu dúvida, quanto essa rotina custa hoje na operação dele e feche convidando para um compromisso concreto (agendar o piloto real ou assinar a pré-venda com reembolso).
+
 #### Template: Dossiê de Solução Preenchido (Caso PadariaPro, Passo 7)
 
 | Campo do Dossiê | Registro Consolidado (PadariaPro - Fim da Fase 9) |
@@ -4790,6 +4798,7 @@ A trilha **Service-to-Product** inverte essa equação. Ao começar vendendo a r
 * **Zero diluição na largada:** O lucro líquido dos contratos de serviço paga os fundadores e financia as horas de engenharia do produto proprietário nos bastidores.
 
 #### Exemplos Reais Brasileiros e Globais da Trilha *Service → Product*
+
 * **Basecamp (37signals):** Fundada em 1999 em Chicago por Jason Fried, Carlos Segura e Ernest Kim como uma empresa de web design, a 37signals sentia na própria pele a bagunça de gerenciar projetos de clientes por e-mail. Em 2003, com a programação de David Heinemeier Hansson (DHH, que extraiu dali o *framework* aberto Ruby on Rails), criaram uma ferramenta interna simples de gestão de projetos. Quando os próprios clientes do estúdio passaram a pedir acesso ao sistema, lançaram o Basecamp em 2004: em um ano a receita recorrente do software superou a da consultoria de design, permitindo migrar para um negócio de produto altamente lucrativo e sem diluição em fundos tradicionais de capital de risco.
 * **Contabilizei (Brasil):** Em vez de tentar vender um "software contábil faça-você-mesmo" para micro e pequenas empresas brasileiras que têm receio de errar obrigações fiscais, a Contabilizei (fundada em Curitiba em 2013) estruturou-se como um **Serviço Produtizado e Habilitado por Tecnologia (*Tech-Enabled Service*)**: o cliente paga uma mensalidade fixa acessível e recebe sua contabilidade resolvida (abertura de CNPJ, apuração de impostos e balancete assinado por contador), enquanto nos bastidores a empresa automatizou progressivamente a leitura de extratos, notas fiscais e obrigações acessórias com software próprio.
 * **Consultorias de dados, conciliação e engenharia no Brasil que originaram produtos SaaS:** No ecossistema brasileiro de B2B (como ilustram a trajetória de Lucas e Marina na conciliação financeira e a de Henrique no diagnóstico industrial), dezenas de empresas de análise de dados, automação fiscal (*TaxTech*) e gestão de risco começaram prestando serviço técnico especializado. Ao perceberem que a maior parte da limpeza de planilhas, dos conectores e das regras de negócio se repetia entre o primeiro e o décimo cliente, transformaram esses scripts internos em plataformas de assinatura recorrente.
@@ -4824,21 +4833,25 @@ flowchart LR
 ---
 
 #### 2.1. Etapa 1: Serviço Artesanal / Consultoria Sob Medida (*Bespoke Service*)
+
 Na Etapa 1, você vende a entrega manual ou consultiva para 3 a 10 clientes iniciais. Enquanto uma consultoria tradicional aceita demandas variadas de qualquer setor, o fundador que prepara um software usa essa fase com recorte estrito:
 * **Foco em uma única dor repetitiva de um único ICP (*Ideal Customer Profile*):** Em vez de ser uma "consultoria de dados genérica", você vende exclusivamente "previsão de demanda e redução de ruptura de estoque para redes de supermercados regionais de 10 a 50 lojas".
 * **Mapeamento de Padrões:** Nos primeiros 5 projetos, documente de onde vêm os dados (ex.: ERPs Sankhya, TOTVS, Consinco), quais são os 10 indicadores que o diretor realmente acompanha toda segunda-feira e quais scripts escritos para o Cliente 1 podem ser reaproveitados em 80% no Cliente 4.
 
 #### 2.2. Etapa 2: Serviço Produtizado (*Productized Service*)
+
 Um **Serviço Produtizado** é um serviço embalado, precificado e vendido como produto de prateleira, eliminando propostas sob medida e escopo aberto:
 * **Escopo Fechado, Entregável Padronizado e Assinatura Recorrente:** O cliente deixa de contratar "horas abertas de consultoria financeira" e passa a assinar um pacote padronizado como "Conciliação e Fechamento Financeiro Padrão PME: R$ 4.500/mês" (ou, em controladoria mais ampla, "CFO-as-a-Service Série A: R$ 8.500/mês"), que entrega exatamente: conciliação diária de extratos e boletos, fechamento gerencial até o 5º dia útil, DRE padronizada por centro de custo e 1 reunião mensal de 60 minutos com prazo fixo. Qualquer pedido de customização fora da caixa padrão é recusado.
 * **SOPs (*Standard Operating Procedures*):** Cada etapa da entrega é quebrada em checklists granulares, templates e vídeos de treinamento interno. Isso permite tirar os fundadores da operação manual e delegar a entrega a analistas juniores/plenos que seguem o procedimento padrão com qualidade previsível.
 
 #### 2.3. Etapa 3: *Tech-Enabled Service* (Serviço Habilitado por Tecnologia)
+
 Aqui a margem bruta salta. Você constrói software proprietário, mas os primeiros usuários intensivos do software são os seus próprios analistas internos, enquanto o cliente interage com um painel/plataforma limpa para visualizar resultados e aprovar ações.
 * **A Regra 70/30 de Automação (*Human-in-the-Loop*): Se antes um analista levava 10 horas para auditar notas fiscais ou conciliar recebíveis, seus scripts proprietários, conectores de API e agentes de IA (LLMs) passam a executar 70% do trabalho pesado nos bastidores. O especialista humano atua apenas nos 30% decisivos** (exceções complexas, validação final de qualidade e relacionamento consultivo).
 * **Impacto direto na demonstração de resultados (DRE):** Com 70% da rotina pesada executada por scripts internos, a capacidade operacional salta em 3 vezes (de 10 para cerca de 30 clientes atendidos por analista), elevando a margem bruta para a faixa de 60% a 75% e gerando excedente mensal de caixa livre para financiar a engenharia do produto.
 
 #### 2.4. Etapa 4: Produto Puro / SaaS *Self-Serve*
+
 Quando o motor interno já processou dados reais de dezenas de clientes no modelo *Tech-Enabled*, todas as exceções (*edge cases*) foram mapeadas e automatizadas. A interface interna ganha camada de *onboarding* autoguiado e permissões, desacoplando-se da mão de obra humana e atingindo margem bruta de 80% a 90%+.
 
 ---
@@ -4848,6 +4861,7 @@ Quando o motor interno já processou dados reais de dezenas de clientes no model
 Para financiar o *squad* de engenharia do produto sem capital externo, você deve operar com Ciclo de Conversão de Caixa Negativo (onde o cliente paga antes de você incorrer no custo).
 
 #### 3.1. A Regra do *Setup Fee* (Taxa de Implantação que Paga o CAC no Dia 1)
+
 Em serviços produtizados e *tech-enabled services*, nunca ofereça implantação gratuita. Cobre uma Taxa de Setup / Onboarding na assinatura equivalente a 1x a 3x o valor da mensalidade, paga à vista no D+0.
 * **Matemática do *Payback* no Dia 1:**
   * Assinatura mensal: **R$ 4.000/mês** + R$ 6.000 de Setup Fee à vista = R$ 10.000 recebidos no Mês 1.
@@ -4857,6 +4871,7 @@ Em serviços produtizados e *tech-enabled services*, nunca ofereça implantaçã
   * **Saldo Líquido de Caixa no Mês 1:** descontado o custo direto de entrega do primeiro mês (cerca de R$ 1.800 em horas de analista), a operação já gera +R$ 1.200 de saldo positivo de caixa logo na largada, permitindo que cada novo contrato financie a aquisição do próximo cliente sem queimar capital externo.
 
 #### 3.2. Vendas Anuais Antecipadas e a Regra do "Imposto Interno de P&D"
+
 * **Planos Anuais à Vista:** Ofereça 15% de desconto (ou isenção parcial do *setup*) para clientes que pagarem a anuidade à vista via Pix/TED (ou cartão, descontando a taxa de antecipação da credenciadora). Fechar 10 clientes anuais de R$ 3.500/mês (R$ 35.000 à vista cada) injeta R$ 350 mil de caixa antecipado sem diluir o *cap table*. Atenção contábil e operacional: anuidade antecipada não é aporte de capital livre, mas receita diferida (passivo de entrega). Você deve doze meses de serviço, paga tributos na emissão da nota fiscal e responde por devolução proporcional se o contrato rescindir: provisione em conta separada o custo de servidor, suporte e impostos dos doze meses e use apenas a margem líquida para financiar o desenvolvimento do produto.
 * **A Regra do "Imposto Interno de P&D" (alocação carimbada para construir o produto):** Trate o desenvolvimento do software como um tributo interno descontado na fonte antes de qualquer expansão de estilo de vida. Na DRE gerencial da operação de serviços produtizados, mantenha a disciplina: 50% da receita líquida cobre o custo direto de entrega do serviço (analistas e infraestrutura), 20% a 25% cobre despesas comerciais, administrativas e a retirada enxuta de sobrevivência (*pró-labore*) dos fundadores, e os 25% a 30% restantes (após provisão de IRPJ/CSLL e reserva mínima de segurança) são transferidos automaticamente todo dia 5 para uma conta bancária separada e carimbada ("Imposto Interno de P&D"), dedicada exclusivamente a pagar as horas de engenharia do produto próprio.
 
@@ -4867,14 +4882,17 @@ Em serviços produtizados e *tech-enabled services*, nunca ofereça implantaçã
 A maioria das consultorias e agências que tentam criar um produto próprio fica presa no meio do caminho porque cai em cinco armadilhas estruturais (compare sempre os sintomas abaixo com os indicadores da tabela dos quatro degraus apresentada na Seção 2):
 
 #### 1. O Vício no Dinheiro Fácil de Projetos Customizados (*Whale Trap*)
+
 Surge uma grande corporação oferecendo R$ 350.000 para você desenvolver um sistema sob medida fora do seu *roadmap*. Se você aceitar, seus melhores engenheiros ficarão 6 meses presos construindo código exclusivo que não serve para mais ninguém, congelando o seu produto padrão.
 * **Antídoto:** A partir da Etapa 2: recuse qualquer contrato que exija desviar do seu escopo padronizado, a menos que 100% do que será construído já seja o próximo módulo prioritário do seu produto para todo o mercado.
 
 #### 2. Contaminação de P&L e Time (Por que Separar Entrega e Produto)
+
 Se o mesmo desenvolvedor que constrói o SaaS também apaga incêndios dos clientes atuais de serviço, a urgência do serviço sempre matará a importância do produto.
 * **Antídoto:** Separe organizacionalmente o **Time de Entrega (*Delivery*) do Squad de Produto**. Blinde pelo menos o CTO e 1 a 2 engenheiros em tempo integral exclusivamente para automatizar processos e construir a plataforma, e apure dois DREs gerenciais separados (Margem de Serviço vs. ARR de Produto).
 
 #### 3. A Armadilha de Propriedade Intelectual no Brasil (Art. 4º da Lei nº 9.609/1998)
+
 Pelo **art. 4º da Lei do Software (Lei nº 9.609/1998)**, salvo estipulação contratual em contrário, pertencem ao contratante os direitos sobre programas desenvolvidos sob encomenda específica. Por isso, assinar a minuta padrão de compras de uma grande empresa cedendo a propriedade intelectual dos entregáveis sem ressalva transfere ao cliente a titularidade do código que deveria compor a base do seu SaaS.
 
 > [!warning] Cláusula Contratual Obrigatória de Reserva de Tecnologia-Base (*Background & Platform IP*)
@@ -4882,9 +4900,11 @@ Pelo **art. 4º da Lei do Software (Lei nº 9.609/1998)**, salvo estipulação c
 > *(Modelo ilustrativo de ponto de partida. Adapte sempre com advogado especializado em propriedade intelectual e contratos de tecnologia antes de assinar.)* *"Cláusula X (Da Propriedade Intelectual e Segredo de Negócio): 1. Pertencerão ao CONTRATANTE, em caráter definitivo após a quitação contratual, os relatórios finais, diagnósticos e arquivos de saída gerados especificamente a partir dos dados brutos fornecidos pelo próprio CONTRATANTE ('Entregáveis de Dados do Cliente'). 2. As partes pactuam expressamente, nos termos da ressalva do caput do art. 4º da Lei nº 9.609/1998 (Lei do Software), que todo código-fonte, bibliotecas, scripts de automação, algoritmos, conectores e interfaces preexistentes ou desenvolvidos pela CONTRATADA antes ou durante a execução deste contrato ('Software-Base e Ferramentas da Contratada') constituem propriedade exclusiva da CONTRATADA, enquanto metodologias, modelos analíticos e fluxos operacionais (não sujeitos a direito autoral pelo art. 8º, I, da Lei nº 9.610/1998) permanecem protegidos como segredo de negócio e know-how confidencial da CONTRATADA. 3. Durante a vigência da assinatura mensal, a CONTRATADA concede ao CONTRATANTE licença não exclusiva, intransferível e temporária de acesso ao Software-Base, sem que isso implique cessão de código-fonte ou restrição ao atendimento de outros clientes do mesmo setor."*
 
 #### 4. Mudança de Tíquete Médio e Perfil de Vendedor
+
 Vender consultoria de R$ 25.000/mês depende do relacionamento pessoal dos sócios. Vender um SaaS ou *Tech-Enabled Service* de R$ 1.500/mês exige máquina de *Inside Sales* (SDRs + *Closers*), geração de demanda *inbound/outbound* previsível e ciclo de fechamento de 15 a 30 dias. Separe o funil comercial e contrate vendedores treinados em venda de volume padronizado.
 
 ### 5. Quando Permanecer na Etapa 3 (*Tech-Enabled Service*) É Melhor Negócio do que Forçar a Migração para SaaS Puro
+
 Não tenha receio de operar de forma permanente na **Etapa 3 (*Tech-Enabled Service*) se for ali que o seu cliente enxerga maior valor. Em mercados brasileiros de alta complexidade operacional e regulatória (contabilidade, fiscal, jurídico, comércio exterior, conciliação financeira B2B e gestão de saúde), muitas PMEs preferem pagar R$ 3.000/mês por um serviço habilitado por tecnologia que entrega o problema resolvido a pagar R$ 300/mês por um software de autoatendimento** em que o próprio empresário precisa trabalhar à noite. Uma operação de *Tech-Enabled Service* faturando R$ 30 milhões por ano com 65% de margem bruta e 30% de margem líquida gera R$ 9 milhões anuais de lucro distribuível aos fundadores (observadas, desde janeiro de 2026 pela Lei nº 15.270/2025, a retenção de 10% de IRRF sobre dividendos pagos a pessoa física acima de R$ 50 mil por mês por uma mesma empresa e a tributação mínima anual do IRPFM de até 10% para rendas globais acima de R$ 600 mil anuais, detalhadas no [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 2: CONTABILIDADE, REGIMES FISCAIS E TRIBUTÁRIO ESTRATÉGICO (REFORMA IBS/CBS E INCENTIVOS)|Capítulo 2 do Volume 5]]), com altíssima retenção e zero diluição em fundos de capital de risco.
 
 > [!tip] Regra de Decisão: Etapa 3 vs. Etapa 4

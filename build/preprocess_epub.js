@@ -214,8 +214,10 @@ function getOrRenderMermaidPng(rawBody) {
 const mermaidRegex = /```mermaid\s*\r?\n([\s\S]*?)\r?\n```/g;
 
 function preprocessMarkdown(md, { isOmnibus = false } = {}) {
+  // Remover YAML frontmatter inicial (os metadados de título/autor são passados via --metadata ao Pandoc)
+  let out = md.replace(/^---\r?\n[\s\S]*?\r?\n---\r?\n+/, '');
   let localCounter = 0;
-  let out = md.replace(mermaidRegex, (_, body) => {
+  out = out.replace(mermaidRegex, (_, body) => {
     localCounter += 1;
     const pngName = getOrRenderMermaidPng(body);
     if (pngName) {
@@ -313,13 +315,9 @@ for (const vol of VOLUMES) {
   fs.writeFileSync(destVolPath, preprocessedVol, 'utf8');
   console.log(`      Vol. ${vol.num} -> build/vol-${vol.num}-preprocessado.md`);
 
-  // Para o Omnibus, removemos o YAML frontmatter individual dos volumes 2..10
-  if (vol.num === 1) {
-    omnibusParts.push(rawMd);
-  } else {
-    const withoutFrontmatter = rawMd.replace(/^---[\s\S]*?\n---\r?\n/, '');
-    omnibusParts.push(withoutFrontmatter);
-  }
+  // Para o Omnibus, removemos o YAML frontmatter individual de todos os volumes (1..11)
+  const withoutFrontmatter = rawMd.replace(/^---\r?\n[\s\S]*?\r?\n---\r?\n+/, '');
+  omnibusParts.push(withoutFrontmatter);
 }
 
 console.log('[3/4] Gerando build/manuscrito_preprocessado.md (Omnibus)...');

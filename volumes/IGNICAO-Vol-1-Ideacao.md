@@ -152,26 +152,35 @@ graph LR
 ## Sumário deste Volume
 
 ### Fases da Etapa (Fases 0 a 3)
+
 - [[#FASE 0: PREPARAÇÃO DO EMPREENDEDOR|FASE 0: PREPARAÇÃO DO EMPREENDEDOR]]
 - [[#FASE 1: ENCONTRAR A IDEIA|FASE 1: ENCONTRAR A IDEIA]]
 - [[#FASE 2: ARTICULAÇÃO E CAPTURA DA IDEIA|FASE 2: ARTICULAÇÃO E CAPTURA DA IDEIA]]
 - [[#FASE 3: CONSTRUÇÃO DA TEORIA DO NEGÓCIO|FASE 3: CONSTRUÇÃO DA TEORIA DO NEGÓCIO]]
+
 ### Fundador, Cofundadores e Preparação Pessoal (Capítulos 1 a 5)
+
 - [[#CAPÍTULO 1: DINHEIRO PESSOAL DO FUNDADOR|CAPÍTULO 1: DINHEIRO PESSOAL DO FUNDADOR]]
 - [[#CAPÍTULO 2: SAÚDE MENTAL, DINÂMICA DE COFUNDADORES E HUMANIDADE DO FUNDADOR|CAPÍTULO 2: SAÚDE MENTAL, DINÂMICA DE COFUNDADORES E HUMANIDADE DO FUNDADOR]]
 - [[#CAPÍTULO 3: ARMADILHAS MENTAIS E VIESES|CAPÍTULO 3: ARMADILHAS MENTAIS E VIESES]]
 - [[#CAPÍTULO 4: BOOTSTRAP vs VENTURE CAPITAL: A ESCOLHA FUNDACIONAL|CAPÍTULO 4: BOOTSTRAP vs VENTURE CAPITAL: A ESCOLHA FUNDACIONAL]]
 - [[#CAPÍTULO 5: DIVERSIDADE DE JORNADAS: CASOS ALÉM DO CÂNONE|CAPÍTULO 5: DIVERSIDADE DE JORNADAS: CASOS ALÉM DO CÂNONE]]
+
 ### Cognição, Decisão, Comunicação e Produtividade com IA (Capítulos 6 a 10)
+
 - [[#CAPÍTULO 6: TOMADA DE DECISÃO COMO DISCIPLINA|CAPÍTULO 6: TOMADA DE DECISÃO COMO DISCIPLINA]]
 - [[#CAPÍTULO 7: INFLUÊNCIA E PERSUASÃO SEM AUTORIDADE FORMAL|CAPÍTULO 7: INFLUÊNCIA E PERSUASÃO SEM AUTORIDADE FORMAL]]
 - [[#CAPÍTULO 8: COMUNICAÇÃO ESCRITA PARA NEGÓCIOS|CAPÍTULO 8: COMUNICAÇÃO ESCRITA PARA NEGÓCIOS]]
 - [[#CAPÍTULO 9: APRESENTAÇÃO E FALA EM PÚBLICO|CAPÍTULO 9: APRESENTAÇÃO E FALA EM PÚBLICO]]
 - [[#CAPÍTULO 10: IA GENERATIVA E AGENTES COMO COPILOTO E ACELERADOR DO FUNDADOR (2026)|CAPÍTULO 10: IA GENERATIVA E AGENTES COMO COPILOTO E ACELERADOR DO FUNDADOR (2026)]]
+
 ### Ecossistema, Mentoria e Apoio Inicial (Capítulos 11 e 12)
+
 - [[#CAPÍTULO 11: ACELERADORAS, PROGRAMAS E PARCEIROS INSTITUCIONAIS PARA STARTUP BRASILEIRA|CAPÍTULO 11: ACELERADORAS, PROGRAMAS E PARCEIROS INSTITUCIONAIS PARA STARTUP BRASILEIRA]]
 - [[#CAPÍTULO 12: REDE, MENTORES E ADVISORS: COMO CONSTRUIR O CAPITAL HUMANO DO EMPREENDEDOR|CAPÍTULO 12: REDE, MENTORES E ADVISORS: COMO CONSTRUIR O CAPITAL HUMANO DO EMPREENDEDOR]]
+
 ### Prática, Cases e Simulações Desta Etapa (Volume 11: Capítulos 1 a 3)
+
 - [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 1: CASES GLOBAIS E BRASILEIROS DE IDEAÇÃO, COFUNDADORES E TESE INICIAL|CAPÍTULO 1: CASES GLOBAIS E BRASILEIROS DE IDEAÇÃO, COFUNDADORES E TESE INICIAL (Vol. 11)]]
 - [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 2: CADERNO DE EXERCÍCIOS COM GABARITO COMENTADO: FUNDAÇÃO, EQUITY E TEORIA DO NEGÓCIO|CAPÍTULO 2: CADERNO DE EXERCÍCIOS COM GABARITO COMENTADO: FUNDAÇÃO, EQUITY E TEORIA DO NEGÓCIO (Vol. 11)]]
 - [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 3: SIMULAÇÕES DE DECISÃO E ROLEPLAYS EXECUTIVOS: SOCIEDADE, PRIMEIROS TALENTOS E MENTORIA|CAPÍTULO 3: SIMULAÇÕES DE DECISÃO E ROLEPLAYS EXECUTIVOS: SOCIEDADE, PRIMEIROS TALENTOS E MENTORIA (Vol. 11)]]
@@ -4677,6 +4686,7 @@ Para alinhar sua ambição pessoal ao motor financeiro em uma tarde, aplique tr�
 ---
 
 ### O Espelho do Capital e o Ritual de Segunda-Feira
+
 **Desfecho de Lucas e Marina (São Paulo e Florianópolis):** Em vez de cair na Vaidade do Cheque Alheio e entregar 25% da empresa num *slide deck* antes de ter produto, Lucas e Marina decidiram financiar os primeiros doze meses vendendo implantação e operação assistida de atendimento no WhatsApp como serviço padronizado. A receita dos primeiros clientes pagou as contas da dupla, validou quais funcionalidades geravam retenção real e permitiu que eles chegassem aos volumes seguintes com faturamento próprio e controle total do *cap table*.
 > [!tip] O Espelho da Escolha Fundacional (Autodiagnóstico Rápido)
 > 1. **Tamanho Real da Pista vs. A Vaidade do Cheque Alheio:** Se um fundo dobrasse sua avaliação amanhã, você saberia dizer o que o cheque compra além da manchete? O seu mercado comporta uma empresa que valha múltiplos bilhões de reais em dez anos (a régua que a conta do gestor de VC exige), ou é um excelente nicho de R$ 15 milhões a R$ 40 milhões anuais com alta margem líquida que deixaria muito mais patrimônio líquido no seu bolso via autofinanciamento, como aconteceu com o segundo engenheiro da UFSC?
@@ -5412,7 +5422,9 @@ Para a startup brasileira, adotar o hábito da escrita clara gera retorno desde 
 ### Os 4 documentos essenciais do fundador: o One-Pager, o Memorando de Decisão, o Update Mensal e o Comunicado Interno
 
 #### One-Pager (resumo executivo de uma página)
+
 Derivado da Declaração Inicial da Ideia (DII, construída na Fase 2), o One-Pager é o cartão de visitas escrito da startup para abrir portas com clientes corporativos, parceiros e potenciais investidores. Em cinco blocos enxutos, (1) Problema quantificado, (2) Cliente-alvo e perfil decisor, (3) Solução e diferencial operacional, (4) Prova inicial de tração (pilotos, receita ou métricas auditáveis) e (5) Pedido objetivo de próximo passo, Marina condensa a tese da empresa em 350 palavras que qualquer diretor de distribuidora ou mentor lê em dois minutos na tela do celular.
+
 #### Memorando estratégico de decisão
 
 O memorando estratégico destina-se às decisões com consequências duradouras para o caixa, o produto ou a equipe, nas quais o raciocínio precisa permanecer auditável meses depois.

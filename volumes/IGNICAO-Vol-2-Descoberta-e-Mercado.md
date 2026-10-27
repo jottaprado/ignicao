@@ -20,7 +20,7 @@ language: pt-BR
 
 ## Sobre este Volume
 
-Este é o **Volume 2 (Descoberta de Cliente e Mapeamento de Mercado)** da coleção IGNIÇÃO: O manual operacional do empreendedor brasileiro (11 volumes).
+Este é o **Volume 2 (IGNIÇÃO: Volume 2: Descoberta de Cliente e Mapeamento de Mercado)** da coleção IGNIÇÃO: O manual operacional do empreendedor brasileiro (11 volumes).
 
 Volume dedicado à descoberta profunda do cliente e do mercado antes de qualquer linha de código: Descoberta do Problema em campo com *Mom Test* (Fase 4), Pesquisa com Usuários e *Jobs to Be Done* (Fase 5) e Mapeamento de Mercado, Concorrência e Cunha (Fase 6). Cada fase reúne seus frameworks passo a passo, canvases visuais preenchidos, roteiros de entrevista e métricas de saída. Fecham o volume três capítulos transversais: psicologia do consumidor brasileiro, inteligência competitiva e *Category Design*, e casos de fracasso brasileiros.
 
@@ -63,14 +63,19 @@ graph LR
 ## Sumário deste Volume
 
 ### Fases da Etapa (Fases 4 a 6)
+
 - [[#FASE 4: DESCOBERTA DO PROBLEMA|FASE 4: DESCOBERTA DO PROBLEMA]]
 - [[#FASE 5: PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY)|FASE 5: PESQUISA COM USUÁRIOS (CUSTOMER DISCOVERY)]]
 - [[#FASE 6: MAPEAMENTO DE MERCADO E CONCORRÊNCIA|FASE 6: MAPEAMENTO DE MERCADO E CONCORRÊNCIA]]
+
 ### Consumidor, Concorrência e Fracassos Brasileiros (Capítulos 1 a 3)
+
 - [[#CAPÍTULO 1: PSICOLOGIA DO CONSUMIDOR BRASILEIRO: COMPORTAMENTO, DECISÃO E CONVERSÃO|CAPÍTULO 1: PSICOLOGIA DO CONSUMIDOR BRASILEIRO: COMPORTAMENTO, DECISÃO E CONVERSÃO]]
 - [[#CAPÍTULO 2: INTELIGÊNCIA COMPETITIVA, POSICIONAMENTO E CATEGORY DESIGN|CAPÍTULO 2: INTELIGÊNCIA COMPETITIVA, POSICIONAMENTO E CATEGORY DESIGN]]
 - [[#CAPÍTULO 3: CASOS DE FRACASSO BRASILEIROS E LIÇÕES|CAPÍTULO 3: CASOS DE FRACASSO BRASILEIROS E LIÇÕES]]
+
 ### Prática, Cases e Simulações Desta Etapa (Volume 11: Capítulos 4 a 6)
+
 - [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 4: CASES GLOBAIS E BRASILEIROS DE CUSTOMER DISCOVERY, JTBD E CUNHA DE MERCADO|CAPÍTULO 4: CASES GLOBAIS E BRASILEIROS DE CUSTOMER DISCOVERY, JTBD E CUNHA DE MERCADO (Vol. 11)]]
 - [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 5: CADERNO DE EXERCÍCIOS COM GABARITO COMENTADO: MOM TEST, FORÇAS DO JTBD, TAM/SAM/SOM E CANVAS DA CUNHA|CAPÍTULO 5: CADERNO DE EXERCÍCIOS COM GABARITO COMENTADO: MOM TEST, FORÇAS DO JTBD, TAM/SAM/SOM E CANVAS DA CUNHA (Vol. 11)]]
 - [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 6: SIMULAÇÕES DE DECISÃO E ROLEPLAYS EXECUTIVOS: ENTREVISTAS DE CAMPO, GATEKEEPERS E ESCOLHA DE ICP|CAPÍTULO 6: SIMULAÇÕES DE DECISÃO E ROLEPLAYS EXECUTIVOS: ENTREVISTAS DE CAMPO, GATEKEEPERS E ESCOLHA DE ICP (Vol. 11)]]
@@ -5928,6 +5933,7 @@ Além dos sete padrões clássicos de produto, mercado e governança, a reversã
 | 7 | Time de produto sênior está retido? Métricas-chave crescem? | Sim |
 | 7 | Equipe sênior de produto segue retida e métricas de uso crescem? | Sim |
 | 8 | A operação sobrevive 18 a 24 meses sem novo capital externo e com juro em dois dígitos? | Sim |
+
 ### Armadilhas ao estudar fracassos: da ilusão do "conosco será diferente" à paralisia por medo
 
 > [!warning] Armadilhas ao estudar fracassos

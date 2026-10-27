@@ -200,12 +200,51 @@ print(f"\n[LAYER 3] Regulatory, Tax & Mold Issues across Vols 1-11: {len(reg_iss
 for item in reg_issues[:50]:
     print("  ", item)
 
-# 9. Layer 4: EPUB & Preprocessed validation (12 EPUB targets)
+# 9. Layer 4: EPUB & Preprocessed validation (12 EPUB targets + internal XHTML)
+import zipfile
+from urllib.parse import unquote
+
 prep_issues = []
 epub_targets = [BUILD_DIR / f"{fname[:-3]}.epub" for fname in VOL_FILES.values()] + [BUILD_DIR / "IGNICAO.epub"]
 for ef in epub_targets:
     if not ef.exists() or ef.stat().st_size == 0:
         prep_issues.append((ef.name, 0, "MISSING_OR_EMPTY_EPUB", ""))
+        continue
+    with zipfile.ZipFile(ef) as z:
+        names = set(z.namelist())
+        xhtml_files = [n for n in z.namelist() if n.endswith(".xhtml")]
+        all_ids = {}
+        for xf in xhtml_files:
+            txt = z.read(xf).decode("utf-8")
+            all_ids[xf] = set(re.findall(r'\bid="([^"]+)"', txt))
+            if "—" in txt:
+                prep_issues.append((ef.name, 0, f"EPUB_XHTML_EM_DASH({xf})", ""))
+            if "width:5%" in txt or "title: “IGNIÇÃO" in txt:
+                prep_issues.append((ef.name, 0, f"EPUB_RAW_YAML_TABLE({xf})", ""))
+            txt_no_code = re.sub(r"<pre[\s\S]*?</pre>|<code[\s\S]*?</code>", "", txt)
+            if re.search(r"#{2,6}\s+[A-ZÀ-Úa-zà-ú0-9]", txt_no_code):
+                prep_issues.append((ef.name, 0, f"EPUB_RAW_UNPARSED_HEADING({xf})", ""))
+            for img in re.findall(r'<img[^>]+src="([^"]+)"', txt):
+                base = "EPUB/text/" if xf.startswith("EPUB/text/") else "EPUB/"
+                norm = img.replace("../", "EPUB/") if img.startswith("../") else base + img
+                if norm not in names:
+                    prep_issues.append((ef.name, 0, f"EPUB_BROKEN_IMAGE({xf})", img))
+        for xf in xhtml_files:
+            txt = z.read(xf).decode("utf-8")
+            for href in re.findall(r'<a[^>]+href="([^"]+)"', txt):
+                if href.startswith(("http://", "https://", "mailto:")):
+                    continue
+                parts = href.split("#", 1)
+                file_part = parts[0]
+                frag = unquote(parts[1]) if len(parts) > 1 else None
+                if not file_part:
+                    target_xf = xf
+                elif xf.startswith("EPUB/text/"):
+                    target_xf = "EPUB/text/" + file_part if not file_part.startswith("../") else "EPUB/" + file_part[3:]
+                else:
+                    target_xf = "EPUB/" + file_part
+                if target_xf not in all_ids or (frag and frag not in all_ids[target_xf]):
+                    prep_issues.append((ef.name, 0, f"EPUB_BROKEN_HREF({xf})", href))
 
 prep_files = [BUILD_DIR / f"vol-{v}-preprocessado.md" for v in range(1, 12)] + [BUILD_DIR / "manuscrito_preprocessado.md"]
 for pf in prep_files:

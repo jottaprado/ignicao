@@ -1377,7 +1377,7 @@ const VOLUMES_SPEC = [
   {
     num: 1,
     slug: 'IGNICAO-Vol-1-Ideacao',
-    title: 'IGNIÇÃO — Volume 1: Ideação e Fundação',
+    title: 'IGNIÇÃO: Volume 1: Ideação e Fundação',
     subtitle: 'Do Pré-Zero à Teoria do Negócio (Fases 0 a 3 e Capítulos 1 a 12)',
     about: '', // Usa Nota do autor + Sobre este livro
     blocks: [
@@ -1430,7 +1430,7 @@ const VOLUMES_SPEC = [
   {
     num: 2,
     slug: 'IGNICAO-Vol-2-Descoberta-e-Mercado',
-    title: 'IGNIÇÃO — Volume 2: Descoberta de Cliente e Mapeamento de Mercado',
+    title: 'IGNIÇÃO: Volume 2: Descoberta de Cliente e Mapeamento de Mercado',
     subtitle: 'Customer Discovery, Pesquisa de Campo, Concorrência e Cunha Estratégica (Fases 4 a 6 e Capítulos 1 a 3)',
     about:
       'Volume dedicado à descoberta profunda do cliente e do mercado antes de qualquer linha de código: Descoberta do Problema em campo com Mom Test (Fase 4), Pesquisa com Usuários e Jobs-to-be-Done (Fase 5) e Mapeamento de Mercado, Concorrência e Cunha (Fase 6) — com seus frameworks passo a passo, canvases visuais preenchidos, templates/roteiros de entrevista e métricas integrados dentro de cada fase —, seguidos por 3 capítulos sobre psicologia do consumidor brasileiro, inteligência competitiva e Category Design e casos de fracasso brasileiros.',
@@ -1460,7 +1460,7 @@ const VOLUMES_SPEC = [
   {
     num: 3,
     slug: 'IGNICAO-Vol-3-Experimentos-e-Prototipagem',
-    title: 'IGNIÇÃO — Volume 3: Hipóteses, Experimentos, Prototipagem e Modelos de Negócio',
+    title: 'IGNIÇÃO: Volume 3: Hipóteses, Experimentos, Prototipagem e Modelos de Negócio',
     subtitle: 'Método Científico, Testes de Validação, Usabilidade, Plataformas e Bootstrapping (Fases 7 a 10 e Capítulos 1 a 7)',
     about:
       'Volume dedicado à validação científica, experimentação prática e construção do protótipo testado: Formulação Rigorosa de Hipóteses (Fase 7), Experimentos de Validação com compromisso real (Fase 8), Ideação e Prototipagem de Soluções (Fase 9) e Testes de Solução, Usabilidade e Especificação de MVP (Fase 10) — trazendo embutidos frameworks passo a passo de análise de risco, experimentação, design sprint e UX research, os canvases Hypothesis Canvas, Test Card, Opportunity Canvas e MVP Canvas preenchidos e templates práticos —, seguidos por 7 capítulos sobre a abordagem científica ao empreendedorismo, gates de evidência, TRL/CRL e fechamento de fase, e as arquiteturas de Cunha (Wedge), Marketplaces e Plataformas, B2B2C, Open Source (COSS) e Bootstrapping / Productized Services (transição Service-to-Product sem diluição).',
@@ -1502,7 +1502,7 @@ const VOLUMES_SPEC = [
   {
     num: 4,
     slug: 'IGNICAO-Vol-4-Tracao-e-PMF',
-    title: 'IGNIÇÃO — Volume 4: Tração, Go-to-Market e Product-Market Fit',
+    title: 'IGNIÇÃO: Volume 4: Tração, Go-to-Market e Product-Market Fit',
     subtitle: 'Do MVP em Produção ao PMF, Canais, Vendas e Pricing (Fases 11 a 13 e Capítulos 1 a 11)',
     about:
       'Volume sobre a travessia do lançamento do MVP em produção até a comprovação do Product-Market Fit: Operação de MVP e Experimentos de Mercado (Fase 11), Validação do Modelo de Negócio (Fase 12) e Product-Market Fit (Fase 13) — com frameworks passo a passo de métricas, growth, posicionamento e negociação, os canvases Pirate/AARRR e Risk Canvas preenchidos e os templates de Pre-Launch e Scorecard de PMF integrados nas fases —, seguidos por 11 capítulos sobre GTM e canais de aquisição até R$ 1M de ARR, SEO/conteúdo e comunidades, mídia paga, branding e PMM, vendas B2B consultivas, pricing e economia da recorrência, negociação, Customer Success e CX, stack de dados, produto AI-native e pivô.',
@@ -1554,7 +1554,7 @@ const VOLUMES_SPEC = [
   {
     num: 5,
     slug: 'IGNICAO-Vol-5-Financas-e-Captacao',
-    title: 'IGNIÇÃO — Volume 5: Finanças, Captação e Venture Capital',
+    title: 'IGNIÇÃO: Volume 5: Finanças, Captação e Venture Capital',
     subtitle: 'Contabilidade, Reforma Tributária, FP&A, Comércio Exterior, Caixa e Rodadas de Investimento (Fase 14 e Capítulos 1 a 15)',
     about:
       'Manual do CEO e do CFO para finanças operacionais, contabilidade, tributário, comércio exterior, estruturação de capital e captação de recursos no Brasil. Abre com a Fase 14 (Capital para Escala, Rodadas e Eficiência Financeira), que reúne 11 frameworks financeiros e de valuation (Unit Economics, Coortes, LTV:CAC, Burn Multiple, Rule of 40, Magic Number, Quick Ratio, CCC, DCF, Comparables e DuPont), os canvases Storytelling/SCQA e Capital Stack/Waterfall e 6 templates completos de rodada (Data Room, Term Sheet Anotado, Plano de Rodada, Pitch Deck SCQA, Investor Update e Financiamento Não Diluitivo). Em seguida, apresenta 15 capítulos em ordem de execução: demonstrativos financeiros, contabilidade e Reforma Tributária (IBS/CBS), modelagem operacional e coortes, FP&A e projeção de receita, capital de giro e gestão de caixa, relacionamento bancário, Comércio Exterior e Importação (Ásia-Brasil, Radar/SISCOMEX, Landed Cost e benefícios estaduais de ICMS), seguros corporativos, Venture Capital e planejamento de rodada, valuation, SAFE e mútuo conversível, fomento não diluitivo (FINEP, BNDES e FAPESP), venture debt, crowdfunding CVM 88 / tokenização e relação com investidores.',
@@ -1606,7 +1606,7 @@ const VOLUMES_SPEC = [
   {
     num: 6,
     slug: 'IGNICAO-Vol-6-Receita-e-Pessoas',
-    title: 'IGNIÇÃO — Volume 6: Receita Enterprise, Liderança e Cultura',
+    title: 'IGNIÇÃO: Volume 6: Receita Enterprise, Liderança e Cultura',
     subtitle: 'Máquina Comercial em Escala, RevOps, Franchising, Liderança Executiva, Talentos e ESOP (Fases 15 e 16 e Capítulos 1 a 15)',
     about:
       'Volume dedicado à construção da máquina comercial Enterprise, canais de distribuição/franquias e evolução de liderança, pessoas e cultura na scaleup. Abre com a Fase 15 (Máquina de Crescimento e Expansão em Escala) e a Fase 16 (Time, Liderança Executiva e Cultura em Escala) — trazendo embutidos todos os 25 frameworks de metodologias de vendas (MEDDPICC, SPIN, Challenger, Sandler, Solution, BANT, Command of the Message), growth em escala e liderança (Radical Candor, Lencioni, Topgrading, Who, Horowitz, Culture Code, Netflix, SPADE, 7S, etc.) e 6 templates práticos —, seguidas por 15 capítulos sobre Growth, vendas Enterprise, RevOps, Business Development e vendas corporativas, canais indiretos, Franchising e Licenciamento de Redes (Lei 13.966/2019 e COF), marca, PR e comunicação do fundador, Founder Mode e cadência operacional, contratação C-level, avaliação de performance, compensação, Stock Options (ESOP), cultura em escala, diversidade e trabalho remoto/híbrido.',
@@ -1654,7 +1654,7 @@ const VOLUMES_SPEC = [
   {
     num: 7,
     slug: 'IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes',
-    title: 'IGNIÇÃO — Volume 7: Produto, Engenharia, Dados, IA e Operações',
+    title: 'IGNIÇÃO: Volume 7: Produto, Engenharia, Dados, IA e Operações',
     subtitle: 'Discovery Contínuo, Gestão Técnica, Dívida Técnica, AI Ops e Design Organizacional (Fase 17 e Capítulos 1 a 10)',
     about:
       'O manual operacional do CTO, do CPO e do COO na scaleup brasileira. Abre com a Fase 17 (Operações, Processos e Gestão em Escala) — trazendo embutidos todos os 20 frameworks mundiais de produto e operações (Continuous Discovery, Shape Up, Working Backwards PR/FAQ, Stage-Gate, Dual-Track Agile, OKRs, V2MOM, EOS, Scaling Up, MBO, Scrum, Kanban, DORA & SPACE, Amazon 6-Pager, WBR, 4DX, SIPOC, Value Stream Mapping, Toyota Kata e Spotify Model), o canvas Org Chart Evolution e 3 templates operacionais —, seguida por 10 capítulos sobre produto em múltiplos squads, transição do fundador técnico para gestão, recrutamento técnico, Engineering Management, DevEx e dívida técnica, IA na engenharia de software, AI Ops, design organizacional, gestão do conhecimento, comunicação interna e excelência operacional.',
@@ -1694,7 +1694,7 @@ const VOLUMES_SPEC = [
   {
     num: 8,
     slug: 'IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca',
-    title: 'IGNIÇÃO — Volume 8: Blindagem Jurídica, Societária, LGPD e Segurança',
+    title: 'IGNIÇÃO: Volume 8: Blindagem Jurídica, Societária, LGPD e Segurança',
     subtitle: 'Estruturação Societária, Contratos, Trabalhista, Propriedade Intelectual, Compliance e Cibersegurança (Fase 18 e Capítulos 1 a 13)',
     about:
       'O manual jurídico, societário, regulatório e de segurança da informação para fundadores, executivos e advogados de startups no Brasil. Abre com a Fase 18 (Estruturação Jurídica, Societária e Blindagem Operacional — os 10 passos de formalização, acordo de sócios, propriedade intelectual, contratos, LGPD e proteção patrimonial, com o caso aplicado da PadariaPro LTDA), seguida por 13 capítulos em profundidade sobre o Marco Legal das Startups (LC 182/2021), responsabilidade pessoal dos sócios e desconsideração da personalidade jurídica, registro de marcas, patentes e software no INPI, cláusulas de non-compete, contratos empresariais e operacionais, direito do trabalho para startups (CLT vs. PJ e passivos), CDC aplicado a produtos digitais, contencioso estratégico, LGPD e governança de dados, regulação de IA, compliance anticorrupção, prevenção a fraudes internas e certificações SOC 2 e ISO 27001.',
@@ -1744,7 +1744,7 @@ const VOLUMES_SPEC = [
   {
     num: 9,
     slug: 'IGNICAO-Vol-9-Maturidade-e-Exit',
-    title: 'IGNIÇÃO — Volume 9: Maturidade, Governança, Crise, Exit e Family Office',
+    title: 'IGNIÇÃO: Volume 9: Maturidade, Governança, Crise, Exit e Family Office',
     subtitle: 'Segunda Curva, Conselho (Board), Internacionalização, Crise, Spin-offs, M&A, IPO, Cash Cow e Family Office (Fases 19 e 20, Capítulos 1 a 21 e Epílogo)',
     about:
       'Volume sobre o ciclo longo da companhia consolidada, governança de conselho, expansão internacional, sobrevivência a crises severas, execução de saída (exit), geração perpétua de dividendos (Cash Cow) e gestão patrimonial em Family Office. Abre com a Fase 19 (Reinvenção e Segunda Curva) e a Fase 20 (Estratégia de Saída / Exit Strategy) — trazendo embutidos todos os 8 frameworks de planejamento de longo prazo e inovação (Scenario Planning, Hoshin Kanri, OGSM, Balanced Scorecard, Innovator\'s Dilemma, Ambidextrous Organization, Open Innovation e S-Curves), o Wardley Map Canvas e o template de Board Deck —, seguidas por 21 capítulos em ordem cronológica sobre Board Management, empresas familiares e sucessão, conflito societário, ESG/Sistema B, internacionalização e Cayman/Delaware Flip, imigração/vistos, hedge cambial, tesouraria multi-moeda, gestão e comunicação em crise, layoffs, recuperação judicial e wind-down, M&A buy-side e roll-ups, Search Funds (ETA), Spin-offs e Carve-outs Corporativos, Liquidez Secundária (Secondaries unificado), IPO na B3 e Nasdaq/NYSE, tributação de exit na pessoa física, transição pós-M&A, retenção e earnout, post-mortems brasileiros, second-time founders, a Empresa Cash Cow (dividendos vitalícios com CEO profissional) + Holdings Patrimoniais, Offshores (Lei 14.754/2023) e Family Office pós-liquidez, e o Epílogo da coleção.',
@@ -1818,7 +1818,7 @@ const VOLUMES_SPEC = [
   {
     num: 10,
     slug: 'IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario',
-    title: 'IGNIÇÃO — Volume 10: Economia da Inovação, Hubs Globais e Playbooks das 42 Verticais',
+    title: 'IGNIÇÃO: Volume 10: Economia da Inovação, Hubs Globais e Playbooks das 42 Verticais',
     subtitle: 'Ecossistemas, Geografia de Hubs por Continente, Regulação, 42 Verticais da Economia Real e Dicionário da Coleção (Capítulos 1 a 48 e Índices)',
     about:
       'Volume de fechamento da coleção IGNIÇÃO, reunindo três acervos essenciais e sem excessos: (1) a Economia da Inovação e seus Atores (Universidades/ICTs, Governo/Fomento, Corporações/CVC, Venture Studios e toda a escada do Capital de Risco), a Geografia Mundial da Inovação por Continente (América do Norte, Europa, Ásia-Pacífico, Oriente Médio, África e América Latina), as 5 vantagens competitivas estruturais do Brasil e a radiografia dos 15 principais Hubs de Inovação Brasileiros, seguidos pelo quadro macroeconômico, autarquias reguladoras (BACEN, CVM, SUSEP, ANVISA, ANS, ANATEL, ANEEL, ANP), CADE/Antitruste e Políticas Públicas (Capítulos 1 a 6); (2) os 42 Playbooks Setoriais completos cobrindo todas as grandes verticais, setores primários, extrativistas, commodities e máquinas de caixa da economia real (Capítulos 7 a 48); e (3) o Dicionário, a Bibliografia e os Índices Gerais Unificados da Coleção.',
@@ -1962,7 +1962,7 @@ const VOLUMES_SPEC = [
   {
     num: 11,
     slug: 'IGNICAO-Vol-11-Workbook-Cases-e-Exercicios',
-    title: 'IGNIÇÃO — Volume 11: Caderno de Trincheira, Simulações de Decisão e Cases Globais & Nacionais',
+    title: 'IGNIÇÃO: Volume 11: Caderno de Trincheira, Simulações de Decisão e Cases Globais & Nacionais',
     subtitle: '58 Cases Globais e Brasileiros Comentados, 50 Exercícios com Gabarito, 27 Roleplays Executivos e Simulador das 21 Fases (Capítulos 1 a 30)',
     about:
       'Volume prático de aplicação, simulação executiva e estudos de caso da coleção IGNIÇÃO, organizado em 10 partes que espelham os Volumes 1 a 10: reúne 58 cases globais e brasileiros estruturados em quatro atos (Contexto e Problema Real, Dilema na Mesa do Fundador, Engenharia da Decisão com Métricas e Tradução para a Realidade Brasileira em Outubro de 2026), 50 exercícios mão na massa com memória de cálculo passo a passo e gabarito comentado, 27 simulações de roleplay executivo comparando o caminho armadilha ao protocolo de alta precisão com rubrica de pontuação, e o Simulador Integrador de Ponta a Ponta das 21 Fases acompanhando a ForjaTech Sistemas Industriais S.A. do mês zero ao exit.',

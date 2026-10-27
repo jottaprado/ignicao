@@ -20,7 +20,7 @@ language: pt-BR
 
 ## Sobre este Volume
 
-Este é o **Volume 7 (Produto, Engenharia, Dados, IA e Operações)** da coleção IGNIÇÃO: O manual operacional do empreendedor brasileiro (11 volumes).
+Este é o **Volume 7 (IGNIÇÃO: Volume 7: Produto, Engenharia, Dados, IA e Operações)** da coleção IGNIÇÃO: O manual operacional do empreendedor brasileiro (11 volumes).
 
 O manual operacional do CTO, do CPO e do COO na scaleup brasileira. Abre com a Fase 17 (Operações, Processos e Gestão em Escala), reunindo 20 frameworks de produto e operação (do Continuous Discovery, Shape Up e OKRs a DORA, SPACE, WBR e Toyota Kata. Para o canvas Org Chart Evolution, ver [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16: TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Volume 6, Fase 16]], e para Hoshin Kanri, ver [[IGNICAO-Vol-9-Maturidade-e-Exit#FASE 19: REINVENÇÃO E SEGUNDA CURVA|Volume 9, Fase 19]]) e 3 templates operacionais, seguida por 10 capítulos sobre produto em múltiplas squads, transição do fundador técnico para gestão, recrutamento técnico, Engineering Management, DevEx e dívida técnica, IA na engenharia de software, operações com IA, design organizacional, gestão do conhecimento, comunicação interna e excelência operacional.
 
@@ -63,20 +63,27 @@ graph LR
 ## Sumário deste Volume
 
 ### Fase 17: Operações, Processos e Gestão em Escala
+
 - [[#FASE 17: OPERAÇÕES, PROCESSOS E GESTÃO EM ESCALA|FASE 17: OPERAÇÕES, PROCESSOS E GESTÃO EM ESCALA]]
+
 ### Produto em Escala, Engenharia de Software, Dívida Técnica e IA (Capítulos 1 a 6)
+
 - [[#CAPÍTULO 1: PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA|CAPÍTULO 1: PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA]]
 - [[#CAPÍTULO 2: MANAGEMENT PARA O FUNDADOR TÉCNICO|CAPÍTULO 2: MANAGEMENT PARA O FUNDADOR TÉCNICO]]
 - [[#CAPÍTULO 3: RECRUTAMENTO TÉCNICO EM PROFUNDIDADE|CAPÍTULO 3: RECRUTAMENTO TÉCNICO EM PROFUNDIDADE]]
 - [[#CAPÍTULO 4: ENGINEERING MANAGEMENT, DEVELOPER EXPERIENCE E GESTÃO DE DÍVIDA TÉCNICA|CAPÍTULO 4: ENGINEERING MANAGEMENT, DEVELOPER EXPERIENCE E GESTÃO DE DÍVIDA TÉCNICA]]
 - [[#CAPÍTULO 5: IA NA ENGENHARIA INTERNA: COPILOT, AGENTES E PRODUTIVIDADE DE DEV|CAPÍTULO 5: IA NA ENGENHARIA INTERNA: COPILOT, AGENTES E PRODUTIVIDADE DE DEV]]
 - [[#CAPÍTULO 6: AI OPS E AUTOMAÇÃO INTELIGENTE|CAPÍTULO 6: AI OPS E AUTOMAÇÃO INTELIGENTE]]
+
 ### Arquitetura Organizacional, Conhecimento, Comunicação e Operações (Capítulos 7 a 10)
+
 - [[#CAPÍTULO 7: DESIGN ORGANIZACIONAL|CAPÍTULO 7: DESIGN ORGANIZACIONAL]]
 - [[#CAPÍTULO 8: GESTÃO DO CONHECIMENTO|CAPÍTULO 8: GESTÃO DO CONHECIMENTO]]
 - [[#CAPÍTULO 9: COMUNICAÇÃO INTERNA|CAPÍTULO 9: COMUNICAÇÃO INTERNA]]
 - [[#CAPÍTULO 10: OPERAÇÕES EM ESCALA|CAPÍTULO 10: OPERAÇÕES EM ESCALA]]
+
 ### Prática, Cases e Simulações Desta Etapa (Volume 11: Capítulos 19 a 21)
+
 - [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 19: CASES GLOBAIS E BRASILEIROS DE PRODUTO EM ESCALA, ARQUITETURA TÉCNICA, DORA, IA EM PRODUÇÃO E OPERAÇÕES|CAPÍTULO 19: CASES GLOBAIS E BRASILEIROS DE PRODUTO EM ESCALA, ARQUITETURA TÉCNICA, DORA, IA EM PRODUÇÃO E OPERAÇÕES (Vol. 11)]]
 - [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 20: CADERNO DE EXERCÍCIOS COM GABARITO COMENTADO: PR/FAQ, OKRS, MÉTRICAS DORA, TOKENOMICS DE IA E TEAM TOPOLOGIES|CAPÍTULO 20: CADERNO DE EXERCÍCIOS COM GABARITO COMENTADO: PR/FAQ, OKRS, MÉTRICAS DORA, TOKENOMICS DE IA E TEAM TOPOLOGIES (Vol. 11)]]
 - [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 21: SIMULAÇÕES DE DECISÃO E ROLEPLAYS EXECUTIVOS: CONFLITO VENDAS vs. PRODUTO, POSTMORTEM SEM CULPA E MONÓLITO vs. MICROSSERVIÇOS|CAPÍTULO 21: SIMULAÇÕES DE DECISÃO E ROLEPLAYS EXECUTIVOS: CONFLITO VENDAS vs. PRODUTO, POSTMORTEM SEM CULPA E MONÓLITO vs. MICROSSERVIÇOS (Vol. 11)]]
@@ -2857,7 +2864,9 @@ O principal indicador de ativação é o TTFHW (*Time To First Hello World*), qu
 **Volume de chamados de suporte por usuário ativo:** acompanhe a proporção de tíquetes técnicos abertos por desenvolvedor ativo mensal, pois picos nesse indicador denunciam falhas na documentação ou atritos na API.
 
 **NPS de Desenvolvedores (*Developer NPS*):** meça periodicamente a satisfação dos engenheiros que integram a plataforma, tendo como referência de mercado notas acima de 30 como saudáveis e acima de 50 como patamar de excelência.
+
 ### Parte 2.2: Experiência do Desenvolvedor Interno (Internal DevEx) e Produtividade da Engenharia
+
 #### DX interno
 
 Quando os próprios engenheiros da startup perdem horas diárias contornando ambientes lentos e processos manuais, a velocidade de entrega cai proporcionalmente. Os principais sinais de alerta de um DevEx interno deteriorado incluem:
@@ -3116,6 +3125,7 @@ Se o piloto demonstrar redução real no tempo de ciclo sem degradar a estabilid
 Integração profunda em workflow. Modelos fine-tuned para o código-base da empresa (se justifica). Agentes autônomos para tarefas repetitivas. Medição sistemática de produtividade, e qualidade. Evolução de role descriptions de engineer, para refletir a nova realidade.
 
 ### Onde a IA Mais Rende na Engenharia: Testes Unitários, Migrações, Código Repetitivo e Documentação Viva
+
 Os ganhos de produtividade nas dez frentes abaixo variam conforme a cobertura de testes e a modularidade da arquitetura. Meça cada indicador durante o piloto antes de projetar economias para o conselho.
 **Caso 1: ambientação no código-base (onboarding).** Um desenvolvedor recém-contratado costuma levar semanas para mapear dependências de um repositório desconhecido, ao usar assistentes com contexto do repositório e da documentação para explicar módulos complexos, a equipe acelera a compreensão da arquitetura e as primeiras entregas.
 

@@ -20,7 +20,7 @@ language: pt-BR
 
 ## Sobre este Volume
 
-Este é o **Volume 5 (Finanças, Captação e Venture Capital)** da coleção IGNIÇÃO: O manual operacional do empreendedor brasileiro (11 volumes).
+Este é o **Volume 5 (IGNIÇÃO: Volume 5: Finanças, Captação e Venture Capital)** da coleção IGNIÇÃO: O manual operacional do empreendedor brasileiro (11 volumes).
 
 Manual do CEO e do CFO para finanças operacionais, contabilidade, tributário, comércio exterior, estruturação de capital e captação de recursos no Brasil. Abre com a Fase 14 (Capital para Escala, Rodadas e Eficiência Financeira), que reúne 11 frameworks financeiros e de valuation (Unit Economics, Coortes, LTV:CAC, Burn Multiple, Rule of 40, Magic Number, Quick Ratio, CCC, DCF, Comparables e DuPont), os canvases Storytelling/SCQA e Capital Stack/Waterfall e 6 templates completos de rodada (Data Room, Term Sheet Anotado, Plano de Rodada, Pitch Deck SCQA, Investor Update e Financiamento Não Diluitivo). Em seguida, apresenta 15 capítulos em ordem de execução: demonstrativos financeiros, contabilidade e Reforma Tributária (IBS/CBS), modelagem operacional e coortes, FP&A e projeção de receita, capital de giro e gestão de caixa, relacionamento bancário, Comércio Exterior e Importação (Ásia-Brasil, Radar/SISCOMEX, Landed Cost e benefícios estaduais de ICMS), seguros corporativos, Venture Capital e planejamento de rodada, valuation, SAFE e mútuo conversível, fomento não diluitivo (FINEP, BNDES e FAPESP), venture debt, crowdfunding CVM 88 / tokenização e relação com investidores.
 
@@ -63,18 +63,25 @@ graph LR
 ## Sumário deste Volume
 
 ### Fase da Etapa (Fase 14)
+
 - [[#FASE 14: CAPITAL PARA ESCALA, RODADAS E EFICIÊNCIA FINANCEIRA|FASE 14: CAPITAL PARA ESCALA, RODADAS E EFICIÊNCIA FINANCEIRA]]
+
 ### Finanças Operacionais, Contabilidade, Reforma Tributária, Modelagem e FP&A (Capítulos 1 a 4)
+
 - [[#CAPÍTULO 1: DEMONSTRATIVOS FINANCEIROS PARA O FUNDADOR|CAPÍTULO 1: DEMONSTRATIVOS FINANCEIROS PARA O FUNDADOR]]
 - [[#CAPÍTULO 2: CONTABILIDADE, REGIMES FISCAIS E TRIBUTÁRIO ESTRATÉGICO (REFORMA IBS/CBS E INCENTIVOS)|CAPÍTULO 2: CONTABILIDADE, REGIMES FISCAIS E TRIBUTÁRIO ESTRATÉGICO (REFORMA IBS/CBS E INCENTIVOS)]]
 - [[#CAPÍTULO 3: MODELAGEM FINANCEIRA OPERACIONAL BOTTOM-UP E PROJEÇÕES POR COORTES (COHORTS)|CAPÍTULO 3: MODELAGEM FINANCEIRA OPERACIONAL BOTTOM-UP E PROJEÇÕES POR COORTES (COHORTS)]]
 - [[#CAPÍTULO 4: PLANEJAMENTO FINANCEIRO (FP&A), ORÇAMENTO E REVENUE FORECASTING|CAPÍTULO 4: PLANEJAMENTO FINANCEIRO (FP&A), ORÇAMENTO E REVENUE FORECASTING]]
+
 ### Capital de Giro, Crédito Bancário, Comércio Exterior, Caixa e Seguros (Capítulos 5 a 8)
+
 - [[#CAPÍTULO 5: CAPITAL DE GIRO, RECEBÍVEIS E GESTÃO DE CAIXA EM PROFUNDIDADE|CAPÍTULO 5: CAPITAL DE GIRO, RECEBÍVEIS E GESTÃO DE CAIXA EM PROFUNDIDADE]]
 - [[#CAPÍTULO 6: RELAÇÕES BANCÁRIAS E CRÉDITO NO BRASIL|CAPÍTULO 6: RELAÇÕES BANCÁRIAS E CRÉDITO NO BRASIL]]
 - [[#CAPÍTULO 7: COMÉRCIO EXTERIOR, IMPORTAÇÃO (ÁSIA-BRASIL), DESEMBARAÇO ADUANEIRO, TRIBUTAÇÃO EM CASCATA E BENEFÍCIOS FISCAIS ESTADUAIS|CAPÍTULO 7: COMÉRCIO EXTERIOR, IMPORTAÇÃO (ÁSIA-BRASIL), DESEMBARAÇO ADUANEIRO, TRIBUTAÇÃO EM CASCATA E BENEFÍCIOS FISCAIS ESTADUAIS]]
 - [[#CAPÍTULO 8: GESTÃO DE RISCO E SEGUROS PARA STARTUPS|CAPÍTULO 8: GESTÃO DE RISCO E SEGUROS PARA STARTUPS]]
+
 ### Captação de Capital, Venture Capital, Valuation e Alternativas (Capítulos 9 a 15)
+
 - [[#CAPÍTULO 9: CAPTAÇÃO DE EQUITY: PLANEJAMENTO DE RODADA, PITCH E RELACIONAMENTO COM INVESTIDORES|CAPÍTULO 9: CAPTAÇÃO DE EQUITY: PLANEJAMENTO DE RODADA, PITCH E RELACIONAMENTO COM INVESTIDORES]]
 - [[#CAPÍTULO 10: VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR|CAPÍTULO 10: VALUATION METHODS: COMO INVESTIDORES CALCULAM E COMO VOCÊ CALCULA PARA NEGOCIAR]]
 - [[#CAPÍTULO 11: INSTRUMENTOS DE CAPTAÇÃO: SAFE, NOTA CONVERSÍVEL E MÚTUO CONVERSÍVEL|CAPÍTULO 11: INSTRUMENTOS DE CAPTAÇÃO: SAFE, NOTA CONVERSÍVEL E MÚTUO CONVERSÍVEL]]
@@ -83,7 +90,15 @@ graph LR
 - [[#CAPÍTULO 14: CAPTAÇÃO ALTERNATIVA DIGITAL: EQUITY CROWDFUNDING (CVM 88) E TOKENIZAÇÃO DE ATIVOS|CAPÍTULO 14: CAPTAÇÃO ALTERNATIVA DIGITAL: EQUITY CROWDFUNDING (CVM 88) E TOKENIZAÇÃO DE ATIVOS]]
 - [[#CAPÍTULO 15: INVESTOR RELATIONS PÓS-RODADA|CAPÍTULO 15: INVESTOR RELATIONS PÓS-RODADA]]
 
+### Prática, Cases e Simulações Desta Etapa (Volume 11: Capítulos 13 a 15)
+
+- [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 13: CASES GLOBAIS E BRASILEIROS DE FINANÇAS, ALOCAÇÃO DE CAPITAL, DÍVIDA ESTRUTURADA E VENTURE CAPITAL|CAPÍTULO 13: CASES GLOBAIS E BRASILEIROS DE FINANÇAS, ALOCAÇÃO DE CAPITAL, DÍVIDA ESTRUTURADA E VENTURE CAPITAL (Vol. 11)]]
+- [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 14: CADERNO DE EXERCÍCIOS COM GABARITO COMENTADO: DRE vs. CAIXA, REFORMA TRIBUTÁRIA, CAP TABLE, WATERFALL E FOMENTO|CAPÍTULO 14: CADERNO DE EXERCÍCIOS COM GABARITO COMENTADO: DRE vs. CAIXA, REFORMA TRIBUTÁRIA, CAP TABLE, WATERFALL E FOMENTO (Vol. 11)]]
+- [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 15: SIMULAÇÕES DE DECISÃO E ROLEPLAYS EXECUTIVOS: TERM SHEET DE SÉRIE A, DUE DILIGENCE E CRISE DE RUNWAY|CAPÍTULO 15: SIMULAÇÕES DE DECISÃO E ROLEPLAYS EXECUTIVOS: TERM SHEET DE SÉRIE A, DUE DILIGENCE E CRISE DE RUNWAY (Vol. 11)]]
+
 ---
+
+# FASE DA ETAPA: CAPITAL PARA ESCALA, RODADAS E EFICIÊNCIA FINANCEIRA (FASE 14)
 
 Com o *Product-Market Fit* comprovado, você entra na etapa de Escala. A Fase 14 abre o manual do CEO e do CFO ensinando como monitorar as nove métricas de saúde de uma *scale-up*, estruturar o *data room* e levantar capital em posição de força, com onze frameworks financeiros e de *valuation*, dois canvases visuais e seis templates de rodada integrados na Oficina de Trincheira.
 
@@ -1559,10 +1574,6 @@ Regras:
 ### Fechamento da Fase 14: o que muda na sua cabeça e na sua empresa a partir de agora
 
 Na Vila Olímpia, Lucas e Marina seguiram exatamente o diagnóstico daquela quinta-feira chuvosa: congelaram contratações de expansão por noventa dias, renegociaram contratos anuais com pagamento antecipado, cortaram canais de aquisição com *payback* acima de 18 meses e puxaram o *Burn Multiple* de 2,07x para 1,15x, estendendo o fôlego de caixa de 4,5 para 11 meses com ARR de R$ 9,6 milhões antes de abrir o *data room* da Série A. Toda segunda-feira às 9h, Marina passou a abrir a reunião de diretoria pelo saldo conciliado, pelo fôlego semanal e pela retenção líquida (NRR) por safra, consolidando após cada fechamento contábil o *Burn Multiple* e o Ciclo de Conversão de Caixa. A Fase 14 transforma o capital em instrumento de alavancagem deliberada, longe da vaidade de manchetes. Com essa base instalada, os capítulos a seguir deste Volume 5 aprofundam contabilidade, Reforma Tributária, FP&A, *valuation*, Venture Capital, dívida e instrumentos conversíveis.
-### Prática, Cases e Simulações Desta Etapa (Volume 11: Capítulos 13 a 15)
-- [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 13: CASES GLOBAIS E BRASILEIROS DE FINANÇAS, ALOCAÇÃO DE CAPITAL, DÍVIDA ESTRUTURADA E VENTURE CAPITAL|CAPÍTULO 13: CASES GLOBAIS E BRASILEIROS DE FINANÇAS, ALOCAÇÃO DE CAPITAL, DÍVIDA ESTRUTURADA E VENTURE CAPITAL (Vol. 11)]]
-- [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 14: CADERNO DE EXERCÍCIOS COM GABARITO COMENTADO: DRE vs. CAIXA, REFORMA TRIBUTÁRIA, CAP TABLE, WATERFALL E FOMENTO|CAPÍTULO 14: CADERNO DE EXERCÍCIOS COM GABARITO COMENTADO: DRE vs. CAIXA, REFORMA TRIBUTÁRIA, CAP TABLE, WATERFALL E FOMENTO (Vol. 11)]]
-- [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 15: SIMULAÇÕES DE DECISÃO E ROLEPLAYS EXECUTIVOS: TERM SHEET DE SÉRIE A, DUE DILIGENCE E CRISE DE RUNWAY|CAPÍTULO 15: SIMULAÇÕES DE DECISÃO E ROLEPLAYS EXECUTIVOS: TERM SHEET DE SÉRIE A, DUE DILIGENCE E CRISE DE RUNWAY (Vol. 11)]]
 
 ---
 
@@ -3569,6 +3580,7 @@ O calendário econômico brasileiro impõe variações sazonais e cambiais previ
 
 **Março/abril.** Em muitos verticais B2B, com os orçamentos corporativos do ano já liberados e o pós-Carnaval destravando agendas executivas, março e abril costumam concentrar o destravamento de contratos B2B represados desde dezembro. Março-abril é frequentemente o melhor período para fechar deals enterprise que estavam em pipeline desde o último trimestre.
 **5. Safra agrícola, ciclos industriais e gatilho cambial no COGS (o caso de Henrique).** Empresas que vendem para o agronegócio, indústria ou *hardware* conectado, como a operação de telemetria e automação de Henrique em Curitiba, obedecem ao calendário físico da safra (compras concentradas na entressafra de manutenção das usinas e travadas durante o plantio ou quebras climáticas) e sofrem impacto direto do dólar nos componentes eletrônicos importados. Para blindar a margem bruta e o caixa no orçamento, modele duas travas explícitas: (a) distribua a meta anual de novas vendas pelos pesos históricos reais de cada trimestre da safra (em vez de dividir por 4 trimestres iguais), e (b) inclua na planilha de COGS e nos contratos comerciais uma **cláusula de gatilho cambial (*FX pass-through*)**, reajustando automaticamente a tabela de preços de implantação ou acionando compra de trava cambial (*hedge* via NDF, detalhado no Capítulo 7) sempre que o dólar ultrapassar o teto orçado (no caso de Henrique, R$ 5,20).
+
 #### Como modelar sazonalidade
 
 A abordagem mais simples e eficaz:
@@ -4107,6 +4119,7 @@ Rodada de equity em até 6 meses Contrate a linha de giro antes do roadshow,
 Na execução semanal do fluxo de 13 semanas e do monitoramento de PME, PMR e PMP, quatro alavancas táticas protegem o caixa operacional sem exigir novas linhas bancárias:
 
 #### 1. Negociação com fornecedores e matemática do desconto por pagamento à vista
+
 Cada trinta dias adicionais conquistados no Prazo Médio de Pagamento (PMP / DPO) reduzem na mesma proporção a necessidade de capital de giro. Ao contratar softwares e serviços B2B, negocie faturamento mensal ou trimestral sem juros em vez de pagar a anuidade inteira no dia zero.
 
 Quando um fornecedor oferecer desconto para pagamento antecipado, calcule a taxa anual implícita antes de decidir. Por exemplo, ganhar 2% de desconto para pagar à vista (em 10 dias) em vez de em 30 dias equivale a `(1 ÷ 0,98)^(360/20) − 1 = 44,5% ao ano` em juros compostos (ou ~36,7% ao ano em juros simples). Se a empresa tem caixa excedente aplicado a 100% do CDI (~13,65% ao ano em outubro de 2026), aproveitar o desconto de 2% rende mais que o triplo do CDI. Se o fôlego de caixa (*runway*) está abaixo de 12 meses, preserve a liquidez.
@@ -4118,6 +4131,7 @@ Emita a nota fiscal no exato dia da entrega ou ativação do contrato, defina mu
 Antes de recorrer a linhas bancárias caras ou *factoring* tradicional, ative duas ferramentas da infraestrutura brasileira de pagamentos: (1) migre assinaturas e mensalidades do boleto para o Pix Automático (regulamentado pelo Banco Central para débito recorrente mediante autorização única do pagador, cortando tarifas de cobrança e reduzindo a inadimplência involuntária), e (2) utilize seus recebíveis de cartão de crédito e duplicatas escriturais registrados em registradoras autorizadas pelo BC (CERC, TAG, B3 ou Nuclea) para colocar bancos, SCDs e FIDCs em leilão competitivo pela menor taxa de desconto.
 
 #### 3. Cartão corporativo e adiantamento de anuidades
+
 Pague com cartão de crédito corporativo os fornecedores de nuvem, mídia e serviços que aceitam a modalidade sem acréscimo de preço: você ganha de 30 a 40 dias de fôlego médio de caixa sem juros, desde que 100% da fatura seja paga rigorosamente no vencimento (jamais entre no crédito rotativo corporativo, que tem uma das taxas mais destrutivas do mercado). Na ponta oposta, ofereça desconto financeiro calibrado para clientes que optarem por planos anuais pagos à vista (*upfront*), convertendo receita recorrente futura em capital de giro imediato.
 
 #### 4. Uso disciplinado de RBF e Venture Debt
@@ -4581,6 +4595,7 @@ Em negócios de bens físicos (hardware, IoT, marcas D2C, varejo, indústria, en
 Nenhuma pessoa jurídica brasileira pode importar ou exportar mercadorias comercialmente sem antes obter a habilitação no Radar / SISCOMEX (Sistema Integrado de Comércio Exterior) junto à Receita Federal do Brasil (RFB), regulamentada pela Instrução Normativa RFB nº 1.984/2020.
 
 #### Submodalidades do Radar e limites por semestre
+
 A Receita Federal concede a habilitação com base na capacidade financeira estimada da empresa (calculada a partir dos recolhimentos de IRPJ/CSLL ou da contribuição previdenciária nos últimos 5 anos, ou mediante comprovação de recursos líquidos imediatos em conta bancária/integralização de capital social):
 
 | Submodalidade Radar | Limite de Importação (a cada 6 meses) | Quando Usar | Como Destravar se a Startup for Recém-Criada |
@@ -4594,6 +4609,7 @@ A Receita Federal concede a habilitação com base na capacidade financeira esti
 > Os limites de US$ 50 mil e US$ 150 mil aplicam-se exclusivamente à importação (valor CIF: mercadoria + frete + seguro). Qualquer empresa habilitada no Radar (mesmo na faixa de US$ 50 mil) pode exportar sem limite de valor.
 
 #### Importação Direta vs. Conta e Ordem vs. Encomenda
+
 Quando a empresa cresce e busca eficiência tributária e operacional, ela escolhe entre três estruturas jurídicas reguladas pela IN RFB nº 1.861/2018:
 
 1. **Importação Direta (Própria):** A própria startup fecha o câmbio com o fornecedor estrangeiro, figura como importadora na Declaração Única de Importação (DUIMP / DI) e recolhe todos os tributos no seu CNPJ. Ideal para pequenos lotes, componentes de P&D ou quando a própria empresa detém benefício fiscal (ex.: *Drawback* ou PPB).
@@ -4619,6 +4635,7 @@ Ao negociar com fábricas na Ásia, EUA ou Europa, o preço unitário sem o Inco
 O maior choque de um importador de primeira viagem é descobrir que os tributos de importação no Brasil incidem em cascata uns sobre os outros, incluindo o frete internacional e o seguro na base de cálculo.
 
 #### A Fórmula Exata da Cascata Tributária Aduaneira
+
 Seja **VA (Valor Aduaneiro em R$)** a soma de:
 
 `VA = Valor FOB da Mercadoria + Frete Internacional + Seguro Internacional`
@@ -4639,6 +4656,7 @@ Os cinco tributos e as taxas portuárias incidem na seguinte ordem estrita:
    * Armazenagem portuária/recinto alfandegado (THC: *Terminal Handling Charge*, capatazia e desova), taxas de liberação de BL, honorários do despachante aduaneiro e frete rodoviário do porto até o seu CD. Na primeira remessa de Henrique em Paranaguá (500 unidades a US$ 40 = R$ 100 mil FOB + R$ 22 mil de frete/coleta/seguro = R$ 122 mil de VA), a cascata somou R$ 19.520 de II (16%), R$ 14.152 de IPI (10%), R$ 14.335 de PIS/Cofins (11,75%), cerca de R$ 45 mil de ICMS por dentro (18%) e R$ 31 mil de capatazia, armazenagem e *demurrage* em canal vermelho, totalizando R$ 246 mil no desembolso (R$ 492/peça), antes que ele migrasse na segunda remessa para operação estruturada em Santa Catarina (R$ 318/peça líquidos).
 
 #### Simulação Comparativa: Importação de Lote de US$ 100.000 FOB (Câmbio R$ 5,50)
+
 Compare o impacto de importar no Lucro Presumido ou no Lucro Real sem benefício estadual versus operar no Lucro Real via filial ou *Trading* com TTD 409/SC e Ex-Tarifário (considerando em 2026 II de 14%, IPI de 5%, PIS/COFINS de 11,75% e Frete+Seguro de US$ 8.000. A partir de 2027, lembre-se de que o IPI zera exceto para concorrentes da ZFM e a CBS substitui PIS/Cofins):
 
 | Componente de Custo | Importação Direta Desavisada (Lucro Presumido: SP 18%) | Importação Estruturada (Lucro Real + Ex-Tarifário/TTD Estadual) |
@@ -4855,6 +4873,7 @@ A legislação brasileira responsabiliza pessoalmente o administrador por atos p
 
 **Ordens de grandeza no mercado brasileiro (referência de cotações em corretoras corporativas, 2026):**
 Apólices iniciais para startups em estágio Seed ou Série A costumam partir de R$ 2 milhões a R$ 10 milhões de Limite Máximo de Garantia (LMG), chegando a R$ 50 milhões ou mais em *scale-ups*. O prêmio anual varia tipicamente entre 0,4% e 1,5% da importância segurada (subindo em setores regulados como fintechs e saúde, onde uma rede de clínicas como a da Dra. Camila também enfrenta maior exposição):
+
 | Porte da empresa | Custo anual estimado |
 |---|---|
 | Startup Seed (até R$ 5M de faturamento, LMG de R$ 2M–R$ 5M) | R$ 12.000–30.000 |

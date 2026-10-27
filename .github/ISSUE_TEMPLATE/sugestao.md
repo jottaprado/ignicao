@@ -9,7 +9,7 @@ labels: sugestão
 (descreva o conteúdo ausente)
 
 **Em qual volume / fase / capítulo deveria entrar?**
-(ex: Vol. 4 — Tração e PMF, Fase 12 ou novo capítulo)
+(ex: Vol. 4: Tração e PMF, Fase 12 ou novo capítulo)
 
 **Por que é relevante para fundadores brasileiros**
 

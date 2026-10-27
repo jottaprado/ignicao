@@ -20,7 +20,7 @@ language: pt-BR
 
 ## Sobre este Volume
 
-Este é o **Volume 8 (Blindagem Jurídica, Societária, LGPD e Segurança)** da coleção IGNIÇÃO: O manual operacional do empreendedor brasileiro (11 volumes).
+Este é o **Volume 8 (IGNIÇÃO: Volume 8: Blindagem Jurídica, Societária, LGPD e Segurança)** da coleção IGNIÇÃO: O manual operacional do empreendedor brasileiro (11 volumes).
 
 O manual jurídico, societário, regulatório e de segurança da informação para fundadores, executivos e advogados de startups no Brasil. Abre com a Fase 18 (Estruturação Jurídica, Societária e Blindagem Operacional: os 10 passos de formalização, acordo de sócios, propriedade intelectual, contratos, LGPD e proteção patrimonial, com o caso aplicado da PadariaPro LTDA), seguida por 13 capítulos em profundidade sobre o Marco Legal das Startups (LC 182/2021), responsabilidade pessoal dos sócios e desconsideração da personalidade jurídica, registro de marcas, patentes e software no INPI, cláusulas de non-compete, contratos empresariais e operacionais, direito do trabalho para startups (CLT vs. PJ e passivos), CDC aplicado a produtos digitais, contencioso estratégico, LGPD e governança de dados, regulação de IA, compliance anticorrupção, prevenção a fraudes internas e certificações SOC 2 e ISO 27001.
 
@@ -63,24 +63,33 @@ graph LR
 ## Sumário deste Volume
 
 ### Fase da Etapa (Fase 18)
+
 - [[#FASE 18: ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|FASE 18: ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL]]
+
 ### Sociedade, Marco Legal, Propriedade Intelectual e Proteção dos Sócios (Capítulos 1 a 4)
+
 - [[#CAPÍTULO 1: MARCO LEGAL DAS STARTUPS: LC 182/2021|CAPÍTULO 1: MARCO LEGAL DAS STARTUPS: LC 182/2021]]
 - [[#CAPÍTULO 2: RESPONSABILIDADE DO SÓCIO E DO ADMINISTRADOR|CAPÍTULO 2: RESPONSABILIDADE DO SÓCIO E DO ADMINISTRADOR]]
 - [[#CAPÍTULO 3: PROPRIEDADE INTELECTUAL E INPI|CAPÍTULO 3: PROPRIEDADE INTELECTUAL E INPI]]
 - [[#CAPÍTULO 4: NÃO CONCORRÊNCIA E NÃO SOLICITAÇÃO NO BRASIL|CAPÍTULO 4: NÃO CONCORRÊNCIA E NÃO SOLICITAÇÃO NO BRASIL]]
+
 ### Contratos Empresariais, Direito do Trabalho, CDC e Contencioso (Capítulos 5 a 8)
+
 - [[#CAPÍTULO 5: ARQUITETURA CONTRATUAL PARA STARTUPS: OPERAÇÃO E CONTRATOS EM PROFUNDIDADE POR TIPO|CAPÍTULO 5: ARQUITETURA CONTRATUAL PARA STARTUPS: OPERAÇÃO E CONTRATOS EM PROFUNDIDADE POR TIPO]]
 - [[#CAPÍTULO 6: DIREITO DO TRABALHO PARA STARTUPS|CAPÍTULO 6: DIREITO DO TRABALHO PARA STARTUPS]]
 - [[#CAPÍTULO 7: DIREITO DO CONSUMIDOR E CDC PARA STARTUPS|CAPÍTULO 7: DIREITO DO CONSUMIDOR E CDC PARA STARTUPS]]
 - [[#CAPÍTULO 8: CONTENCIOSO E LITÍGIO PARA STARTUPS|CAPÍTULO 8: CONTENCIOSO E LITÍGIO PARA STARTUPS]]
+
 ### LGPD, Regulação de IA, Compliance, Prevenção a Fraudes e Cibersegurança (Capítulos 9 a 13)
+
 - [[#CAPÍTULO 9: LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|CAPÍTULO 9: LGPD, COMPLIANCE E GOVERNANÇA DE DADOS]]
 - [[#CAPÍTULO 10: REGULATÓRIO DE IA NO BRASIL|CAPÍTULO 10: REGULATÓRIO DE IA NO BRASIL]]
 - [[#CAPÍTULO 11: COMPLIANCE E ANTICORRUPÇÃO PARA STARTUPS|CAPÍTULO 11: COMPLIANCE E ANTICORRUPÇÃO PARA STARTUPS]]
 - [[#CAPÍTULO 12: FRAUDE INTERNA E CONTROLES INTERNOS|CAPÍTULO 12: FRAUDE INTERNA E CONTROLES INTERNOS]]
 - [[#CAPÍTULO 13: SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA DEFENSIVA|CAPÍTULO 13: SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA]]
+
 ### Prática, Cases e Simulações Desta Etapa (Volume 11: Capítulos 22 a 24)
+
 - [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 22: CASES GLOBAIS E BRASILEIROS DE CONFLITOS SOCIETÁRIOS, COMPLIANCE REGULATÓRIO, TRABALHISTA, PI, LGPD E SEGURANÇA|CAPÍTULO 22: CASES GLOBAIS E BRASILEIROS DE CONFLITOS SOCIETÁRIOS, COMPLIANCE REGULATÓRIO, TRABALHISTA, PI, LGPD E SEGURANÇA (Vol. 11)]]
 - [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 23: CADERNO DE EXERCÍCIOS COM GABARITO COMENTADO: ACORDO DE SÓCIOS, REDLINING DE MSA B2B, TRABALHISTA, LGPD E SOC 2|CAPÍTULO 23: CADERNO DE EXERCÍCIOS COM GABARITO COMENTADO: ACORDO DE SÓCIOS, REDLINING DE MSA B2B, TRABALHISTA, LGPD E SOC 2 (Vol. 11)]]
 - [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 24: SIMULAÇÕES DE DECISÃO E ROLEPLAYS EXECUTIVOS: SAÍDA LITIGIOSA DE SÓCIO, NEGOCIAÇÃO JURÍDICA B2B E WAR ROOM DE RANSOMWARE|CAPÍTULO 24: SIMULAÇÕES DE DECISÃO E ROLEPLAYS EXECUTIVOS: SAÍDA LITIGIOSA DE SÓCIO, NEGOCIAÇÃO JURÍDICA B2B E WAR ROOM DE RANSOMWARE (Vol. 11)]]
@@ -3506,6 +3515,7 @@ Para ações consumeristas individuais no JEC, um escritório generalista ou uma
 ---
 
 ### Síntese executiva: o cálculo do valor esperado na decisão de acordo
+
 Antes de recusar um acordo ou iniciar uma ação judicial, aplique a Regra do Valor Esperado Líquido (VPL do Litígio): multiplique o Valor da Causa pela Probabilidade Técnica de Êxito no Mérito e pela Probabilidade de Solvência/Recuperação Efetiva contra o Devedor, desconte o montante a valor presente pelo custo de capital da startup durante o tempo estimado do processo e subtraia todos os Custos Diretos de Litigar (custas judiciais, honorários advocatícios, perícias e tempo executivo). No caso de abertura deste capítulo, se Henrique tivesse colocado a disputa de R$ 420 mil na planilha ($70\% \text{ de êxito} \times 50\% \text{ de solvência em 5 anos} \times \text{R\$ } 420\text{ mil} = \text{R\$ } 147\text{ mil nominais no ano 5}$, que descontados a 15% ao ano equivalem a $\text{R\$ } 73\text{ mil}$ a valor presente, menos $\text{R\$ } 95\text{ mil}$ de despesas processuais = $\text{VPL negativo de -R\$ } 22\text{ mil}$), teria aceitado no ato os R$ 280 mil à vista oferecidos na mediação.
 ```text
 MAPA DE RISCOS JURÍDICOS PARA STARTUPS

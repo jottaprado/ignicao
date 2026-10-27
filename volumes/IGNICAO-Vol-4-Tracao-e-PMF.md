@@ -20,7 +20,7 @@ language: pt-BR
 
 ## Sobre este Volume
 
-Este é o **Volume 4 (Tração, Go-to-Market e Product-Market Fit)** da coleção IGNIÇÃO: O manual operacional do empreendedor brasileiro (11 volumes).
+Este é o **Volume 4 (IGNIÇÃO: Volume 4: Tração, Go-to-Market e Product-Market Fit)** da coleção IGNIÇÃO: O manual operacional do empreendedor brasileiro (11 volumes).
 
 Este volume cobre as Fases 11 a 13 da jornada, da entrada do MVP em produção até a comprovação do Product-Market Fit: Operação de MVP e Experimentos de Mercado (Fase 11), Validação do Modelo de Negócio (Fase 12) e Product-Market Fit (Fase 13). Os frameworks passo a passo, os quadros visuais preenchidos (Pirate Canvas/AARRR e Risk Canvas) e os templates operacionais (Checklist de Pré-Lançamento e Scorecard de PMF) ficam integrados dentro de cada fase. Na sequência, onze capítulos aprofundam GTM e arquitetura de canais até R$ 1 milhão de ARR, crescimento orgânico (SEO, conteúdo e comunidades), mídia paga, posicionamento e marketing de produto (PMM), vendas B2B consultivas, precificação e receita recorrente, negociação, sucesso e experiência do cliente (CS e CX), infraestrutura de dados e experimentação, produto nativo em IA e execução de pivô.
 
@@ -63,24 +63,33 @@ graph LR
 ## Sumário deste Volume
 
 ### Fases da Etapa (Fases 11 a 13)
+
 - [[#FASE 11: MVP E EXPERIMENTOS DE MERCADO|FASE 11: MVP E EXPERIMENTOS DE MERCADO]]
 - [[#FASE 12: VALIDAÇÃO DO MODELO DE NEGÓCIO|FASE 12: VALIDAÇÃO DO MODELO DE NEGÓCIO]]
 - [[#FASE 13: PRODUCT-MARKET FIT|FASE 13: PRODUCT-MARKET FIT]]
+
 ### Go-to-Market Inicial, Canais de Aquisição e Marketing (Capítulos 1 a 4)
+
 - [[#CAPÍTULO 1: GTM PLAYBOOK E ARQUITETURA DE CANAIS: DA PRIMEIRA VENDA AO PRIMEIRO MILHÃO DE ARR|CAPÍTULO 1: GTM PLAYBOOK E ARQUITETURA DE CANAIS: DA PRIMEIRA VENDA AO PRIMEIRO MILHÃO DE ARR]]
 - [[#CAPÍTULO 2: CRESCIMENTO ORGÂNICO COMPOSTO: CONTENT MARKETING, SEO E COMMUNITY BUILDING|CAPÍTULO 2: CRESCIMENTO ORGÂNICO COMPOSTO: CONTENT MARKETING, SEO E COMMUNITY BUILDING]]
 - [[#CAPÍTULO 3: MARKETING DE PERFORMANCE EM PROFUNDIDADE|CAPÍTULO 3: MARKETING DE PERFORMANCE EM PROFUNDIDADE]]
 - [[#CAPÍTULO 4: BRANDING, POSICIONAMENTO DE MARCA E PRODUCT MARKETING (PMM)|CAPÍTULO 4: BRANDING, POSICIONAMENTO DE MARCA E PRODUCT MARKETING (PMM)]]
+
 ### Vendas Consultivas, Pricing, Receita Recorrente e Sucesso do Cliente (Capítulos 5 a 8)
+
 - [[#CAPÍTULO 5: SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|CAPÍTULO 5: SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL]]
 - [[#CAPÍTULO 6: PRICING STRATEGY E ECONOMIA DA RECORRÊNCIA (SUBSCRIPTION ECONOMY)|CAPÍTULO 6: PRICING STRATEGY E ECONOMIA DA RECORRÊNCIA (SUBSCRIPTION ECONOMY)]]
 - [[#CAPÍTULO 7: NEGOCIAÇÃO COMO DISCIPLINA|CAPÍTULO 7: NEGOCIAÇÃO COMO DISCIPLINA]]
 - [[#CAPÍTULO 8: CUSTOMER SUCCESS (CS) E CUSTOMER EXPERIENCE (CX): DA JORNADA À RETENÇÃO SUSTENTÁVEL E NRR ACIMA DE 100%|CAPÍTULO 8: SUCESSO E EXPERIÊNCIA DO CLIENTE (CS E CX): DA JORNADA À RETENÇÃO LÍQUIDA ACIMA DE 100%]]
+
 ### Instrumentação de Dados, Produto AI-Native e Anatomia do Pivô (Capítulos 9 a 11)
+
 - [[#CAPÍTULO 9: DADOS, ANALYTICS E EXPERIMENTAÇÃO|CAPÍTULO 9: DADOS, ANALYTICS E EXPERIMENTAÇÃO]]
 - [[#CAPÍTULO 10: AI COMO PARTE DO PRODUTO (AI-NATIVE PRODUCT)|CAPÍTULO 10: AI COMO PARTE DO PRODUTO (AI-NATIVE PRODUCT)]]
 - [[#CAPÍTULO 11: PIVOT: TIPOLOGIA, DECISÃO E EXECUÇÃO|CAPÍTULO 11: PIVOT: TIPOLOGIA, DECISÃO E EXECUÇÃO]]
+
 ### Prática, Cases e Simulações Desta Etapa (Volume 11: Capítulos 10 a 12)
+
 - [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 10: CASES GLOBAIS E BRASILEIROS DE GO-TO-MARKET, PLG, VENDAS B2B, PRICING E PIVÔ PARA O PMF|CAPÍTULO 10: CASES GLOBAIS E BRASILEIROS DE GO-TO-MARKET, PLG, VENDAS B2B, PRICING E PIVÔ PARA O PMF (Vol. 11)]]
 - [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 11: CADERNO DE EXERCÍCIOS COM GABARITO COMENTADO: COORTES, LTV/CAC/PAYBACK, PRICING E FUNIL COMERCIAL|CAPÍTULO 11: CADERNO DE EXERCÍCIOS COM GABARITO COMENTADO: COORTES, LTV/CAC/PAYBACK, PRICING E FUNIL COMERCIAL (Vol. 11)]]
 - [[IGNICAO-Vol-11-Workbook-Cases-e-Exercicios#CAPÍTULO 12: SIMULAÇÕES DE DECISÃO E ROLEPLAYS EXECUTIVOS: VENDAS MEDDIC, REAJUSTE DE PREÇOS E SALVAMENTO DE CONTAS|CAPÍTULO 12: SIMULAÇÕES DE DECISÃO E ROLEPLAYS EXECUTIVOS: VENDAS MEDDIC, REAJUSTE DE PREÇOS E SALVAMENTO DE CONTAS (Vol. 11)]]

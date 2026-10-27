@@ -416,6 +416,16 @@ function applyV53CompleteReview(volNum, content) {
       /> \[!warning\] Pré-condição para escalar\n> Estruturar e escalar assumem PMF comprovado na Fase 13\.[^\n]+/,
       gateCallout
     );
+  } else if (volNum === 5) {
+    joined = joined.replace(
+      '---\n\nCom o *Product-Market Fit* comprovado, você entra na etapa de Escala.',
+      '---\n\n# FASE DA ETAPA: CAPITAL PARA ESCALA, RODADAS E EFICIÊNCIA FINANCEIRA (FASE 14)\n\nCom o *Product-Market Fit* comprovado, você entra na etapa de Escala.'
+    );
+  } else if (volNum === 6) {
+    joined = joined.replace(
+      '### Cartões de benefícios flexíveis (Caju, Flash, Swile), regras do PAT (Lei 14.442/2022 e Decreto 12.712/2025) e plano de saúde\n#### Cartões de benefícios flexíveis (Caju, Flash, Swile) e as regras do PAT (Lei nº 14.442/2022 e Decreto nº 12.712/2025)',
+      '### Cartões de benefícios flexíveis (Caju, Flash, Swile), regras do PAT (Lei 14.442/2022 e Decreto 12.712/2025) e plano de saúde\n\n#### Regras do PAT e arranjo aberto (Lei nº 14.442/2022 e Decreto nº 12.712/2025)'
+    );
   } else if (volNum === 8) {
     // Update Decreto 11.034/2022 heading and diagram in Vol 8
     joined = joined
@@ -780,7 +790,9 @@ function reconcileAllV53CrossVolumeLinks(volumesDir) {
       if (!h1 || !h2 || !h3) continue;
 
       const v11TocBlock = [
+        '',
         `### Prática, Cases e Simulações Desta Etapa (Volume 11: Capítulos ${c1} a ${c3})`,
+        '',
         `- [[${VOL_SLUGS[11]}#${h1}|${h1} (Vol. 11)]]`,
         `- [[${VOL_SLUGS[11]}#${h2}|${h2} (Vol. 11)]]`,
         `- [[${VOL_SLUGS[11]}#${h3}|${h3} (Vol. 11)]]`,
@@ -789,7 +801,7 @@ function reconcileAllV53CrossVolumeLinks(volumesDir) {
       let vText = v === 10 ? v10Text : linesByVol[v].join('\n');
       if (!vText.includes(`### Prática, Cases e Simulações Desta Etapa (Volume 11:`)) {
         vText = vText.replace(
-          /(## Sumário deste Volume\n\n[\s\S]*?)(\n\n---\n\n# )/,
+          /(## Sumário deste Volume\n\n[\s\S]*?)(\n\n---)/,
           `$1\n${v11TocBlock}$2`
         );
         if (v === 10) {
@@ -913,9 +925,44 @@ function reconcileAllV53CrossVolumeLinks(volumesDir) {
       }
     }
 
-    if (changed) {
-      fs.writeFileSync(path.join(volumesDir, `${slug}.md`), lines.join('\n'), 'utf8');
+    // Ensure every heading (#..######) and every Markdown pipe table outside fenced code blocks has a blank line before and after
+    const normLines = [];
+    let inFence = false;
+    for (let i = 0; i < lines.length; i++) {
+      const ln = lines[i];
+      const s = ln.trim();
+      if (s.startsWith('```')) {
+        inFence = !inFence;
+        normLines.push(ln);
+        continue;
+      }
+      if (inFence) {
+        normLines.push(ln);
+        continue;
+      }
+      const isHeading = /^#{1,6}\s+/.test(ln);
+      const isTable = s.startsWith('|') && s.endsWith('|');
+      if (isHeading && normLines.length > 0) {
+        const prev = normLines[normLines.length - 1].trim();
+        if (prev === '>') {
+          normLines[normLines.length - 1] = '';
+        } else if (prev !== '') {
+          normLines.push('');
+        }
+      } else if (isTable && normLines.length > 0) {
+        const prev = normLines[normLines.length - 1].trim();
+        if (prev !== '' && !(prev.startsWith('|') && prev.endsWith('|')) && !prev.startsWith('>')) {
+          normLines.push('');
+        }
+      }
+      normLines.push(ln);
+      if (isHeading && i + 1 < lines.length && lines[i + 1].trim() !== '') {
+        normLines.push('');
+      }
     }
+
+    const finalVolText = normLines.join('\n').replace(/\n{3,}/g, '\n\n');
+    fs.writeFileSync(path.join(volumesDir, `${slug}.md`), finalVolText, 'utf8');
   }
   console.log(`[v5.3 Link Reconciler] Reconciled ${fixedLinks} cross-volume/internal wikilinks to canonical headings.`);
 }
