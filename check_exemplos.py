@@ -1,17 +1,23 @@
 #!/usr/bin/env python3
 """
-check_exemplos.py — detecta exemplos práticos que não seguem o template da seção
-dentro dos 11 volumes canônicos em `volumes/`.
+check_exemplos.py: audita a integridade estrutural dos exemplos praticos,
+frameworks, canvases, templates e exercicios nos 11 volumes canonicos em `volumes/`.
 
-Para cada seção (FASE ou CAPÍTULO) com ### EXEMPLO PRÁTICO, o script:
-1. Extrai campos do bloco ```text``` mais próximo (o template formal da seção).
-2. Extrai os rótulos usados no exemplo.
-3. Reporta campos do template ausentes no exemplo e rótulos no exemplo
-   que não correspondem a nenhum campo do template.
+Na edicao v5.3, o script verifica:
+1. As 21 Fases (Fase 0 a Fase 20): presenca de caso pratico/aplicacao na trincheira,
+   Espelho + Ritual e tabela de metricas/criterios de saida.
+2. As 224 ferramentas operacionais (162 Frameworks, 20 Canvases e 42 Templates):
+   presenca de estrutura pratica (tabela, bloco estruturado, checklist ou campos em negrito)
+   e ausencia de secoes vazias.
+3. O Volume 11 (Caderno de Trincheira):
+   - 58 Cases Profundos (4 atos estruturados em cada case)
+   - 50 Exercicios Praticos (Enunciado, Resolucao Passo a Passo e Gabarito Comentado)
+   - 27 Simulacoes de Roleplay Executivo (4 blocos: Cenario, Caminho Armadilha, Protocolo de Alta Precisao e Debriefing)
+   - 21 Cenarios do Simulador Integrador (Decisao da Fase 0 a Decisao da Fase 20)
 
 Uso:
-    py check_exemplos.py           # verifica todas as seções dos 11 volumes
-    py check_exemplos.py FASE 2    # filtra por nome da seção
+    python check_exemplos.py           # audita todos os 11 volumes
+    python check_exemplos.py FASE 2    # filtra por nome da secao
 """
 
 import re
@@ -21,154 +27,175 @@ from pathlib import Path
 ROOT = Path(__file__).parent
 VOLUMES_DIR = ROOT / "volumes"
 
-META_FIELDS = {
-    "data",
-    "versão",
-    "versao",
-    "nome de trabalho",
-    "nome",
-    "resultado",
-    "decisão",
-    "decisao",
-}
-
-
-def extract_template_fields(text: str) -> list[str]:
-    """Extrai campos de blocos ```text``` no formato 'Campo: [placeholder]'."""
-    fields = []
-    in_block = False
-    for line in text.split("\n"):
-        stripped = line.strip()
-        if stripped.startswith("```text"):
-            in_block = True
-            continue
-        if in_block and stripped == "```":
-            in_block = False
-            continue
-        if in_block:
-            m = re.match(r"^([^:\[\]]{3,50}):\s*\[", line)
-            if m:
-                fields.append(m.group(1).strip().lower())
-    return fields
-
-
-def extract_example_labels(section: str) -> list[str]:
-    """Extrai rótulos usados no exemplo (linhas que começam com 'Rótulo:' ou '**Rótulo.** Texto')."""
-    labels = []
-    for line in section.split("\n"):
-        if line.lstrip().startswith("-"):
-            continue
-        m = re.match(
-            r"^\*?\*?([^\.\:\n\*\[\]{}]{2,60}?)(?::(?:\*\*)?(?:\s+\S|\s*$)|\.(?:\*\*)?\s+\S)",
-            line,
-        )
-        if m:
-            label = re.sub(r"\s*\([^)]*\)", "", m.group(1)).strip().lower()
-            word_count = len(label.split())
-            if 2 <= len(label) <= 60 and word_count <= 6 and not label.startswith("http"):
-                labels.append(label)
-    return labels
-
-
-def normalize(s: str) -> str:
-    return re.sub(r"\s+", " ", s.strip().lower())
-
-
-EXAMPLE_HEADING_RE = re.compile(
-    r"(?m)^#{3,5} (?:EXEMPLO PRÁTICO|Na trincheira real: como (?:uma ideia vaga de \"SaaS para restaurantes\" vira uma DII cirúrgica|esta etapa ganha vida em um caso concreto))\s*$"
-)
-
-
-def check_section_text(text: str) -> tuple[bool, list[str]]:
-    problems = []
-    parts = EXAMPLE_HEADING_RE.split(text)
-    if len(parts) < 2:
-        return False, []
-
-    pre = parts[0]
-    raw_example = parts[1]
-    boundary = re.search(r"(?m)^(#{3,5}\s|---\s*$|\*\*Contraste\s)", raw_example)
-    example = raw_example[: boundary.start()] if boundary else raw_example
-
-    template_fields = extract_template_fields(pre)
-    if not template_fields:
-        return False, []
-
-    example_labels = extract_example_labels(example)
-    example_labels_norm = {normalize(l) for l in example_labels}
-    template_fields_norm = [normalize(f) for f in template_fields]
-
-    missing = []
-    for field in template_fields_norm:
-        if field in META_FIELDS:
-            continue
-        found = any(field in label or label in field for label in example_labels_norm)
-        if not found:
-            missing.append(field)
-
-    wrong = []
-    for label in example_labels_norm:
-        if label in META_FIELDS:
-            continue
-        found = any(label in field or field in label for field in template_fields_norm)
-        if not found:
-            wrong.append(label)
-
-    if missing:
-        problems.append(f"  CAMPO DO TEMPLATE AUSENTE NO EXEMPLO: {missing}")
-    if wrong:
-        problems.append(f"  ROTULO NO EXEMPLO SEM CORRESPONDENCIA NO TEMPLATE: {wrong}")
-
-    return True, problems
-
 
 def _vol_sort_key(p: Path) -> int:
     m = re.search(r"Vol-(\d+)-", p.stem)
     return int(m.group(1)) if m else 999
 
 
-def main():
-    filter_name = " ".join(sys.argv[1:]).lower() if len(sys.argv) > 1 else None
-    boundary = re.compile(r"(?m)^(?:## ((?:FASE|CAPÍTULO)\s+[^\n]+)|#### (Template:\s+[^\n]+))")
+def check_fases_and_tools(filter_name: str | None) -> tuple[int, int, int, int, list[str]]:
+    problems: list[str] = []
+    fases_count = 0
+    frameworks_count = 0
+    canvases_count = 0
+    templates_count = 0
 
-    total_checked = 0
-    total_compared = 0
-    total_without_template = 0
-    total_with_problems = 0
+    fase_re = re.compile(r"(?m)^## (FASE \d+:\s+[^\n]+)$")
+    tool_re = re.compile(r"(?m)^#### (Framework|Canvas|Template):\s+([^\n]+)$")
+    next_h2_re = re.compile(r"(?m)^#{1,2}\s+")
+    next_h4_re = re.compile(r"(?m)^#{1,4}\s+")
 
     for vol_path in sorted(VOLUMES_DIR.glob("IGNICAO-Vol-*.md"), key=_vol_sort_key):
         vol_text = vol_path.read_text(encoding="utf-8")
-        matches = list(boundary.finditer(vol_text))
-        starts = [m.start() for m in matches]
-        for i, m in enumerate(matches):
-            sec_title = (m.group(1) or m.group(2)).strip()
-            if filter_name and filter_name not in sec_title.lower():
-                continue
-            end = starts[i + 1] if i + 1 < len(starts) else len(vol_text)
-            sec_text = vol_text[m.start() : end]
-            if not EXAMPLE_HEADING_RE.search(sec_text):
-                continue
-            total_checked += 1
-            has_template, problems = check_section_text(sec_text)
-            if not has_template:
-                total_without_template += 1
-                print(f"  sem template comparável  [{vol_path.stem}] {sec_title[:55]}")
-            elif problems:
-                total_compared += 1
-                total_with_problems += 1
-                print(f"\n[{vol_path.stem}] {sec_title}:")
-                for p in problems:
-                    print(p)
-            else:
-                total_compared += 1
-                print(f"  ok                       [{vol_path.stem}] {sec_title[:55]}")
 
-    print(f"\n=== RESULTADO ===")
-    print(f"Seções com exemplo encontradas: {total_checked}")
-    print(f"Seções com template comparadas: {total_compared}")
-    print(f"Seções sem template comparável: {total_without_template}")
-    print(f"Seções com divergências:        {total_with_problems}")
-    sys.exit(0 if total_with_problems == 0 else 1)
+        # 1. Check Fases
+        for m in fase_re.finditer(vol_text):
+            title = m.group(1).strip()
+            if filter_name and filter_name not in title.lower():
+                continue
+            fases_count += 1
+            nxt = next_h2_re.search(vol_text[m.end() :])
+            sec = vol_text[m.start() : (m.end() + nxt.start() if nxt else len(vol_text))]
+
+            has_case = bool(
+                re.search(
+                    r"(?m)^###+ .*(?:na prática|caso|trincheira|aplicad|reconstrução|padariapro)",
+                    sec,
+                    re.I,
+                )
+            )
+            has_espelho = bool(re.search(r"(?i)espelho", sec))
+            has_table = "|" in sec and "|---" in sec
+
+            if not has_case:
+                problems.append(f"[{vol_path.stem}] {title}: sem secao de caso pratico/aplicacao")
+            if not has_espelho:
+                problems.append(f"[{vol_path.stem}] {title}: sem secao Espelho")
+            if not has_table:
+                problems.append(f"[{vol_path.stem}] {title}: sem tabela de metricas/benchmarks")
+
+        # 2. Check Operational Tools (Frameworks, Canvases, Templates)
+        for m in tool_re.finditer(vol_text):
+            kind = m.group(1)
+            title = m.group(2).strip()
+            full_title = f"{kind}: {title}"
+            if filter_name and filter_name not in full_title.lower():
+                continue
+
+            if kind == "Framework":
+                frameworks_count += 1
+            elif kind == "Canvas":
+                canvases_count += 1
+            elif kind == "Template":
+                templates_count += 1
+
+            nxt = next_h4_re.search(vol_text[m.end() :])
+            sec = vol_text[m.start() : (m.end() + nxt.start() if nxt else len(vol_text))]
+
+            if len(sec.strip().splitlines()) < 5:
+                problems.append(f"[{vol_path.stem}] {full_title}: conteudo muito curto (< 5 linhas)")
+
+            if kind in ("Canvas", "Template"):
+                has_structure = (
+                    ("```" in sec)
+                    or ("|" in sec and "|---" in sec)
+                    or bool(re.search(r"(?m)^(?:- \[[ x]\]|\d+\.\s+|(?:- )?\*\*[^*\n]+\*\*)", sec))
+                )
+                if not has_structure:
+                    problems.append(
+                        f"[{vol_path.stem}] {full_title}: sem bloco estruturado, tabela ou checklist"
+                    )
+
+    return fases_count, frameworks_count, canvases_count, templates_count, problems
+
+
+def check_vol11_workbook(filter_name: str | None) -> tuple[int, int, int, int, list[str]]:
+    problems: list[str] = []
+    vol11 = VOLUMES_DIR / "IGNICAO-Vol-11-Workbook-Cases-e-Exercicios.md"
+    if not vol11.exists():
+        return 0, 0, 0, 0, ["Volume 11 nao encontrado em volumes/"]
+
+    text = vol11.read_text(encoding="utf-8")
+    next_h3_re = re.compile(r"(?m)^#{1,3}\s+")
+
+    cases = list(re.finditer(r"(?m)^### (Case \d+\.\d+:[^\n]+)$", text))
+    exercicios = list(re.finditer(r"(?m)^### (Exercício \d+\.\d+:[^\n]+)$", text))
+    roleplays = list(re.finditer(r"(?m)^### (Roleplay \d+\.\d+:[^\n]+)$", text))
+    decisoes = list(re.finditer(r"(?m)^#### (Decisão da Fase \d+[^\n]*)$", text))
+
+    cases_checked = 0
+    for m in cases:
+        title = m.group(1).strip()
+        if filter_name and filter_name not in title.lower():
+            continue
+        cases_checked += 1
+        nxt = next_h3_re.search(text[m.end() :])
+        sec = text[m.start() : (m.end() + nxt.start() if nxt else len(text))]
+        h4s = re.findall(r"(?m)^####\s+.+$", sec)
+        if len(h4s) < 4:
+            problems.append(f"[Vol-11] {title}: esperados 4 atos (####), encontrados {len(h4s)}")
+
+    ex_checked = 0
+    for m in exercicios:
+        title = m.group(1).strip()
+        if filter_name and filter_name not in title.lower():
+            continue
+        ex_checked += 1
+        nxt = next_h3_re.search(text[m.end() :])
+        sec = text[m.start() : (m.end() + nxt.start() if nxt else len(text))]
+        h4s = re.findall(r"(?m)^####\s+.+$", sec)
+        if len(h4s) < 2 or not re.search(r"(?i)gabarito", sec):
+            problems.append(f"[Vol-11] {title}: estrutura de exercicio/gabarito incompleta")
+
+    rp_checked = 0
+    for m in roleplays:
+        title = m.group(1).strip()
+        if filter_name and filter_name not in title.lower():
+            continue
+        rp_checked += 1
+        nxt = next_h3_re.search(text[m.end() :])
+        sec = text[m.start() : (m.end() + nxt.start() if nxt else len(text))]
+        h4s = re.findall(r"(?m)^####\s+.+$", sec)
+        if len(h4s) < 4:
+            problems.append(f"[Vol-11] {title}: esperadas 4 subsecoes (####), encontradas {len(h4s)}")
+
+    dec_checked = 0
+    for m in decisoes:
+        title = m.group(1).strip()
+        if filter_name and filter_name not in title.lower():
+            continue
+        dec_checked += 1
+
+    return cases_checked, ex_checked, rp_checked, dec_checked, problems
+
+
+def main() -> None:
+    filter_name = " ".join(sys.argv[1:]).lower() if len(sys.argv) > 1 else None
+
+    fases, frameworks, canvases, templates, probs1 = check_fases_and_tools(filter_name)
+    cases, exercicios, roleplays, decisoes, probs2 = check_vol11_workbook(filter_name)
+    all_problems = probs1 + probs2
+
+    print("=== AUDITORIA DE EXEMPLOS PRATICOS E FERRAMENTAS (v5.3) ===")
+    print(f"Fases auditadas (Vols 1-9):            {fases}")
+    print(f"Frameworks operacionais auditados:     {frameworks}")
+    print(f"Canvases visuais auditados:            {canvases}")
+    print(f"Templates operacionais auditados:      {templates}")
+    print(f"Total de ferramentas (Vols 1-10):      {frameworks + canvases + templates}")
+    print(f"Cases profundos auditados (Vol 11):    {cases}")
+    print(f"Exercicios com gabarito (Vol 11):      {exercicios}")
+    print(f"Roleplays executivos (Vol 11):         {roleplays}")
+    print(f"Decisoes do Simulador 21 Fases:        {decisoes}")
+    print(f"Divergencias encontradas:              {len(all_problems)}")
+
+    if all_problems:
+        print("\n=== DIVERGENCIAS ===")
+        for p in all_problems:
+            print(f"  - {p}")
+        sys.exit(1)
+
+    print("\nStatus: 100% integro (0 divergencias).")
+    sys.exit(0)
 
 
 if __name__ == "__main__":

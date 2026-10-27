@@ -526,6 +526,26 @@ function applyV53CompleteReview(volNum, content) {
 
   joined = joined
     .replace(
+      '### Na trincheira real: como esta etapa ganha vida em um caso concreto\n\n**Aplicação aos 6 blocos do Canvas da Cunha',
+      '### O Canvas da Cunha e o Dossiê de Mercado na prática: o caso PadariaPro\n\n**Aplicação aos 6 blocos do Canvas da Cunha'
+    )
+    .replace(
+      '### EXEMPLO PRÁTICO (Time e Liderança)',
+      '### Plano de time, rituais e cultura na prática: a transição de 22 para 45 pessoas de Lucas e Marina'
+    )
+    .replace(
+      '##### O que é: Comparação',
+      '##### Comparativo estrutural: quando usar RACI, DACI ou RAPID'
+    )
+    .replace(
+      '### EXEMPLO PRÁTICO (Operações)',
+      '### OKRs trimestrais e painel central na prática: a scale-up de Lucas e Marina e o contraste com a PadariaPro'
+    )
+    .replace(
+      '### Na trincheira real: como esta etapa ganha vida em um caso concreto\n\n**Plano de Exit, RD Station reconstruído para 2020-2021, ano da venda à TOTVS.**',
+      '### Plano de saída na prática: reconstrução didática da venda da RD Station à TOTVS (2020-2021)\n\n**Plano de Exit, RD Station reconstruído para 2020-2021, ano da venda à TOTVS.**'
+    )
+    .replace(
       'collection: "IGNIÇÃO: O manual operacional do empreendedor brasileiro (10 Volumes, Edição Narrativa Enxuta)"',
       'collection: "IGNIÇÃO: O manual operacional do empreendedor brasileiro (11 Volumes, Edição Narrativa Enxuta)"'
     )

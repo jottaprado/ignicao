@@ -1288,7 +1288,7 @@ A **Fase 16** está consolidada quando os sete marcos operacionais abaixo estão
 3. Definir cadência de rituais. Weekly all-hands de trinta minutos. 1:1s semanais com liderança. Skip-level mensal.
 4. Identificar uma contratação-âncora nos próximos sessenta dias. Pessoa sênior, que eleva o padrão.
 
-### EXEMPLO PRÁTICO (Time e Liderança)
+### Plano de time, rituais e cultura na prática: a transição de 22 para 45 pessoas de Lucas e Marina
 
 **Plano de Time e Liderança: scale-up B2B de Lucas e Marina na transição de 22 para 45 colaboradores após a Série A (São Paulo e Florianópolis).**
 
@@ -1418,7 +1418,7 @@ A comunicação externa da cultura é arma de dois gumes. Atrai talento alinhado
 
 Todos são variações do mesmo problema: quem é responsável por o quê em uma decisão ou projeto?
 
-##### O que é: Comparação
+##### Comparativo estrutural: quando usar RACI, DACI ou RAPID
 
 RACI (melhor para execução de tarefas):
 

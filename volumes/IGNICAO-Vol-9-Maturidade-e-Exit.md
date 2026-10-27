@@ -1283,7 +1283,7 @@ Isolamento social pós-encerramento. Muitos fundadores sofrem depressão situaci
 > [!important] Encerrar bem é insumo da próxima empresa
 > Um encerramento voluntário conduzido com contas pagas e respeito às pessoas é o que separa o fundador que volta a empreender com portas abertas daquele que queima pontes no mercado.
 
-### Na trincheira real: como esta etapa ganha vida em um caso concreto
+### Plano de saída na prática: reconstrução didática da venda da RD Station à TOTVS (2020-2021)
 
 **Plano de Exit, RD Station reconstruído para 2020-2021, ano da venda à TOTVS.**
 

@@ -3548,7 +3548,7 @@ Você concluiu a Fase 6 quando todos os critérios abaixo (consolidando o Dossi�
 3. Calcular TAM, SAM, e SOM bottom-up. Número de empresas vezes ticket médio vezes taxa de captura realista em três anos.
 4. Aplicar os quatro critérios de validação da cunha: o [[#Template: Teste de Precisão do Comprador (3 critérios obrigatórios)|Teste de Precisão do Comprador]] (somado ao checklist de seis perguntas de acesso), a verificação de escopo estável (no máximo um sinal de alerta), a independência de plataforma e o Teste de Estresse da Cunha.
 
-### Na trincheira real: como esta etapa ganha vida em um caso concreto
+### O Canvas da Cunha e o Dossiê de Mercado na prática: o caso PadariaPro
 
 **Aplicação aos 6 blocos do Canvas da Cunha + notas de expansão para o Dossiê de Mercado: PadariaPro (caso fictício recorrente do livro).**
 

@@ -323,7 +323,7 @@ A Fase 17 está concluída quando os seis critérios abaixo estão cumpridos.
 3. Liste os processos críticos ainda sem documentação e escolha os dois mais urgentes para documentar nesta semana.
 4. Audite todas as assinaturas de SaaS ativas, cancele ferramentas redundantes e consolide acessos dentro do teto de 15 a 20 sistemas.
 
-### EXEMPLO PRÁTICO (Operações)
+### OKRs trimestrais e painel central na prática: a scale-up de Lucas e Marina e o contraste com a PadariaPro
 
 **OKRs do 3º trimestre na scaleup de Lucas e Marina (pós-incidente do motor de conciliação):** O1: Tornar o faturamento e a conciliação imunes a falhas de deploy (KR1: zero incidentes P0 ou P1 por deploy simultâneo sem janela coordenada, KR2: reduzir o tempo médio de detecção e reversão de 42 para menos de 8 minutos, KR3: cobrir 100% dos fluxos decisivos de faturamento com testes de contrato automatizados, KR4: atingir 100% dos incidentes P0 e P1 com rascunho de pós-mortem em 48 horas e versão final publicada em até cinco dias úteis). O2: Recuperar a confiança e a expansão da base corporativa (KR1: elevar o NRR acumulado de 12 meses de 104% para 108% até o fim do trimestre, KR2: reduzir a média mensal de chamados críticos de conciliação de 45 para menos de 10).
 
