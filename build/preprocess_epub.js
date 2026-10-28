@@ -209,9 +209,153 @@ function getOrRenderMermaidPng(rawBody) {
 }
 
 // ---------------------------------------------------------------------------
-// 2. Função de pré-processamento de Markdown (Mermaid + Callouts + Wikilinks)
+// 2. Função de pré-processamento de Markdown (Mermaid + Callouts + Wikilinks + Math)
 // ---------------------------------------------------------------------------
 const mermaidRegex = /```mermaid\s*\r?\n([\s\S]*?)\r?\n```/g;
+
+function findMatchingBrace(s, openIdx) {
+  let depth = 0;
+  for (let i = openIdx; i < s.length; i++) {
+    if (s[i] === '{' && (i === 0 || s[i - 1] !== '\\')) {
+      depth += 1;
+    } else if (s[i] === '}' && (i === 0 || s[i - 1] !== '\\')) {
+      depth -= 1;
+      if (depth === 0) return i;
+    }
+  }
+  return -1;
+}
+
+function replaceCmd1Arg(s, cmd, fn) {
+  const pat = new RegExp(`\\\\${cmd}(?![a-zA-Z])\\s*\\{`);
+  while (true) {
+    const m = pat.exec(s);
+    if (!m) break;
+    const openIdx = m.index + m[0].length - 1;
+    const closeIdx = findMatchingBrace(s, openIdx);
+    if (closeIdx === -1) break;
+    const inner = s.slice(openIdx + 1, closeIdx);
+    s = s.slice(0, m.index) + fn(inner) + s.slice(closeIdx + 1);
+  }
+  return s;
+}
+
+function replaceFrac(s) {
+  const pat = /\\(?:d|t)?frac(?![a-zA-Z])\s*\{/;
+  while (true) {
+    const m = pat.exec(s);
+    if (!m) break;
+    const open1 = m.index + m[0].length - 1;
+    const close1 = findMatchingBrace(s, open1);
+    if (close1 === -1) break;
+    const rest = s.slice(close1 + 1);
+    const m2 = /^\s*\{/.exec(rest);
+    if (!m2) break;
+    const open2 = close1 + 1 + m2[0].length - 1;
+    const close2 = findMatchingBrace(s, open2);
+    if (close2 === -1) break;
+    const num = s.slice(open1 + 1, close1).trim();
+    const den = s.slice(open2 + 1, close2).trim();
+    const numStr = /[+\-]/.test(num) && !(num.startsWith('(') && num.endsWith(')')) ? `(${num})` : num;
+    const denStr = /[+\-×/]/.test(den) && !(den.startsWith('(') && den.endsWith(')')) ? `(${den})` : den;
+    s = s.slice(0, m.index) + `${numStr} / ${denStr}` + s.slice(close2 + 1);
+  }
+  return s;
+}
+
+function latexToHtml(expr) {
+  let s = expr.trim();
+  s = s
+    .replace(/\\%/g, '%')
+    .replace(/\\\$/g, '$')
+    .replace(/\\&/g, '&')
+    .replace(/\\~/g, '~')
+    .replace(/\\_/g, '_');
+  s = s.replace(/\^\s*(?:\{\s*\\circ\s*\}|\\circ(?![a-zA-Z]))/g, '°');
+
+  while (true) {
+    const m = /\\underbrace(?![a-zA-Z])\s*\{/.exec(s);
+    if (!m) break;
+    const o1 = m.index + m[0].length - 1;
+    const c1 = findMatchingBrace(s, o1);
+    if (c1 === -1) break;
+    const rest = s.slice(c1 + 1);
+    const m2 = /^\s*_\s*\{/.exec(rest);
+    if (m2) {
+      const o2 = c1 + 1 + m2[0].length - 1;
+      const c2 = findMatchingBrace(s, o2);
+      if (c2 !== -1) {
+        const a = s.slice(o1 + 1, c1);
+        const b = s.slice(o2 + 1, c2);
+        s = s.slice(0, m.index) + `${a} (${b})` + s.slice(c2 + 1);
+        continue;
+      }
+    }
+    s = s.slice(0, m.index) + s.slice(o1 + 1, c1) + s.slice(c1 + 1);
+  }
+
+  const replacements = [
+    [/\\times(?![a-zA-Z])/g, '×'],
+    [/\\div(?![a-zA-Z])/g, '÷'],
+    [/\\cdot(?![a-zA-Z])/g, '·'],
+    [/\\ge(?![a-zA-Z])/g, '≥'],
+    [/\\geq(?![a-zA-Z])/g, '≥'],
+    [/\\le(?![a-zA-Z])/g, '≤'],
+    [/\\leq(?![a-zA-Z])/g, '≤'],
+    [/\\gg(?![a-zA-Z])/g, '≫'],
+    [/\\ll(?![a-zA-Z])/g, '≪'],
+    [/\\approx(?![a-zA-Z])/g, '≈'],
+    [/\\neq(?![a-zA-Z])/g, '≠'],
+    [/\\ne(?![a-zA-Z])/g, '≠'],
+    [/\\pm(?![a-zA-Z])/g, '±'],
+    [/\\sum(?![a-zA-Z])/g, '∑'],
+    [/\\prod(?![a-zA-Z])/g, '∏'],
+    [/\\in(?![a-zA-Z])/g, '∈'],
+    [/\\cap(?![a-zA-Z])/g, '∩'],
+    [/\\cup(?![a-zA-Z])/g, '∪'],
+    [/\\implies(?![a-zA-Z])/g, '⇒'],
+    [/\\Rightarrow(?![a-zA-Z])/g, '⇒'],
+    [/\\rightarrow(?![a-zA-Z])/g, '→'],
+    [/\\to(?![a-zA-Z])/g, '→'],
+    [/\\Delta(?![a-zA-Z])/g, 'Δ'],
+    [/\\alpha(?![a-zA-Z])/g, 'α'],
+    [/\\beta(?![a-zA-Z])/g, 'β'],
+    [/\\circ(?![a-zA-Z])/g, '°'],
+    [/\\quad(?![a-zA-Z])/g, ' '],
+    [/\\qquad(?![a-zA-Z])/g, '  '],
+    [/\\max(?![a-zA-Z])/g, 'max'],
+    [/\\min(?![a-zA-Z])/g, 'min'],
+    [/\\;/g, ' '],
+    [/\\,/g, ' '],
+  ];
+  for (const [pat, rep] of replacements) {
+    s = s.replace(pat, rep);
+  }
+
+  for (let pass = 0; pass < 6; pass++) {
+    s = replaceCmd1Arg(s, 'textbf', (x) => `<strong>${x}</strong>`);
+    s = replaceCmd1Arg(s, 'mathbf', (x) => `<strong>${x}</strong>`);
+    s = replaceCmd1Arg(s, 'text', (x) => x);
+    s = replaceCmd1Arg(s, 'mathrm', (x) => x);
+    s = replaceFrac(s);
+  }
+
+  s = s.replace(/\\left\s*([()[\]|.])/g, (_, ch) => (ch === '.' ? '' : ch));
+  s = s.replace(/\\right\s*([()[\]|.])/g, (_, ch) => (ch === '.' ? '' : ch));
+  s = s.replace(/\\left\s*\\\{/g, '{');
+  s = s.replace(/\\right\s*\\\}/g, '}');
+  s = s.replace(/\\\{/g, '{').replace(/\\\}/g, '}');
+
+  for (let pass = 0; pass < 3; pass++) {
+    s = s.replace(/_\{([^{}]*)\}/g, '<sub>$1</sub>');
+    s = s.replace(/\^\{([^{}]*)\}/g, '<sup>$1</sup>');
+  }
+  s = s.replace(/_([A-Za-z0-9]+)/g, '<sub>$1</sub>');
+  s = s.replace(/\^([A-Za-z0-9+\-]+)/g, '<sup>$1</sup>');
+
+  s = s.replace(/[ \t]+/g, ' ').trim();
+  return s;
+}
 
 function preprocessMarkdown(md, { isOmnibus = false } = {}) {
   // Remover YAML frontmatter inicial (os metadados de título/autor são passados via --metadata ao Pandoc)
@@ -267,7 +411,7 @@ function preprocessMarkdown(md, { isOmnibus = false } = {}) {
       const slug = slugify(target);
       return `[${alias.trim()}](#${slug})`;
     }
-    return `*${alias.trim()}*`;
+    return `*${alias.trim().replace(/\*/g, '')}*`;
   });
 
   // 4) Wikilinks entre volumes sem alias: [[IGNICAO-Vol-X-Nome#ALVO]]
@@ -276,12 +420,20 @@ function preprocessMarkdown(md, { isOmnibus = false } = {}) {
       const slug = slugify(target);
       return `[${target.trim()}](#${slug})`;
     }
-    return `*${target.trim()} (Vol. ${volNum})*`;
+    return `*${target.trim().replace(/\*/g, '')} (Vol. ${volNum})*`;
   });
 
   // 5) Outros wikilinks remanescentes [[alvo|alias]] ou [[alvo]]
   out = out.replace(/\[\[([^\]#|][^\]|\\]*)(?:\\\||\|)([^\]]+)\]\]/g, (_, _target, alias) => alias.trim());
   out = out.replace(/\[\[([^\]#|][^\]]*)\]\]/g, (_, target) => target.trim());
+
+  // 5b) Converter blocos matemáticos LaTeX ($$...$$) e expressões matemáticas/químicas inline ($...$)
+  //     para HTML semântico / Unicode (<sub>, <sup>, <strong>, ×, ÷, ≥, ≤, ≈, ∑, ∈, ∩, →, ⇒, ±, Δ, α, °)
+  out = out.replace(/\$\$([\s\S]*?)\$\$/g, (_, expr) => latexToHtml(expr));
+  out = out.replace(
+    /(?<![A-Z\\])\$(?!\s)((?:\\\$|(?!(?:R|US)\$)[^$\n])+?)(?<![\\ \t])(?<!R)(?<!US)\$/g,
+    (_, expr) => latexToHtml(expr)
+  );
 
   // 6) Garantir linha em branco antes e depois de todo `---` fora do frontmatter inicial
   const fmMatch = out.match(/^---\r?\n[\s\S]*?\r?\n---\r?\n/);

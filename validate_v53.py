@@ -48,6 +48,27 @@ def count_unescaped_pipes(line_str: str) -> int:
     return len(re.findall(r"(?<!\\)\|", cleaned))
 
 
+def extract_bold_spans(line_str: str):
+    spans = []
+    pos = 0
+    n = len(line_str)
+    while pos < n:
+        idx = line_str.find("**", pos)
+        if idx == -1:
+            break
+        start_inner = idx + 2
+        close_idx = line_str.find("**", start_inner)
+        if close_idx == -1:
+            break
+        inner = line_str[start_inner:close_idx]
+        if close_idx + 2 < n and line_str[close_idx + 2] == "*" and inner.count("*") % 2 == 1:
+            close_idx += 1
+            inner = line_str[start_inner:close_idx]
+        spans.append((idx, close_idx + 2, inner))
+        pos = close_idx + 2
+    return spans
+
+
 headings_by_slug = {}
 
 for v, fname in VOL_FILES.items():
@@ -100,11 +121,19 @@ for v, fname in VOL_FILES.items():
         if "—" in ln:
             struct_issues.append((v, i, "EM_DASH", ln[:120]))
 
-        # 2. Odd ** parity or ****
+        # 2. Odd ** parity, ****, or bridged bold spans (unbalanced parens or odd * inside **...**)
         if ln.count("**") % 2 != 0:
             struct_issues.append((v, i, "ODD_BOLD", ln[:120]))
         if "****" in ln:
             struct_issues.append((v, i, "QUAD_ASTERISK", ln[:120]))
+        if "**" in ln:
+            for _, _, b_inner in extract_bold_spans(ln):
+                b_clean = re.sub(r"^[a-z0-9]{1,2}\)\s+", "", b_inner, flags=re.IGNORECASE)
+                b_clean = re.sub(r"^\([IVX0-9]+\)\s+", "", b_clean)
+                if b_clean.count("(") != b_clean.count(")"):
+                    struct_issues.append((v, i, "BRIDGED_BOLD_UNBALANCED_PARENS", b_inner[:120]))
+                if b_inner.count("*") % 2 != 0:
+                    struct_issues.append((v, i, "BRIDGED_BOLD_ODD_ITALIC", b_inner[:120]))
 
         # 3. Callout header checks
         if re.match(r"^>\s*\[!\w+\]", s):
@@ -298,6 +327,10 @@ for ef in epub_targets:
             txt_no_code = re.sub(r"<pre[\s\S]*?</pre>|<code[\s\S]*?</code>", "", txt)
             if re.search(r"#{2,6}\s+[A-ZÀ-Úa-zà-ú0-9]", txt_no_code):
                 prep_issues.append((ef.name, 0, f"EPUB_RAW_UNPARSED_HEADING({xf})", ""))
+            if re.search(r"\$\$|\$_|\$\^|\\frac|\\text\{", txt_no_code):
+                prep_issues.append((ef.name, 0, f"EPUB_BROKEN_MATH({xf})", ""))
+            if "**" in txt_no_code:
+                prep_issues.append((ef.name, 0, f"EPUB_RAW_BOLD({xf})", ""))
             for p_blk in re.findall(r"<p(?:\s[^>]*)?>([\s\S]*?)</p>", txt_no_code):
                 if re.search(r"(?:^|\n)\s*1\.\s+[\s\S]+?\n\s*2\.\s+", p_blk):
                     prep_issues.append((ef.name, 0, f"EPUB_COLLAPSED_OL_IN_P({xf})", p_blk[:80]))

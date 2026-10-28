@@ -5296,7 +5296,7 @@ MATRIZ DE SEVERIDADE DE INCIDENTES
 ├──────┼────────────────────────────────┼───────────────┼────────────────────┤
 │  P0  │ Sistema fora / dados pessoais  │ Imediato      │ CEO, DPO e clientes em < 1h│
 │      │ OU perda de dados de clientes  │ (< 15 min)    │ (se houver risco relevante │
-│      │ OU falha de segurança ativa    │               │ a dados: ANPD em 3 d.ú.*)  │
+│      │ OU falha de segurança ativa    │               │ a dados: ANPD em 3 d.ú.)   │
 ├──────┼────────────────────────────────┼───────────────┼────────────────────┤
 │  P1  │ Funcionalidade decisiva         │ < 1 hora      │ Time interno +     │
 │      │ degradada para maioria dos     │               │ clientes afetados  │
@@ -5306,8 +5306,9 @@ MATRIZ DE SEVERIDADE DE INCIDENTES
 │      │ com problema ou degradação     │ útil          │ update no canal    │
 │      │ para subconjunto de usuários   │               │ de status          │
 └──────┴────────────────────────────────┴───────────────┴────────────────────────────┘
-*Nota legal (P0 com dados pessoais): quando o incidente de segurança puder acarretar risco ou dano relevante aos titulares, o controlador deve comunicar a ANPD (transformada em Agência Nacional de Proteção de Dados pela Lei 15.352/2026) e os titulares em até 3 dias úteis do conhecimento (ou no dobro do prazo para agentes de pequeno porte, conforme a Resolução CD/ANPD nº 15/2024, ver Volume 8, Capítulo 9).
 ```
+
+**Nota legal (*P0 com dados pessoais*):** quando o incidente de segurança puder acarretar risco ou dano relevante aos titulares, o controlador deve comunicar a ANPD (transformada em Agência Nacional de Proteção de Dados pela Lei 15.352/2026) e os titulares em até 3 dias úteis do conhecimento (ou no dobro do prazo para agentes de pequeno porte, conforme a Resolução CD/ANPD nº 15/2024, ver Volume 8, Capítulo 9).
 
 #### O Papel do Incident Commander
 

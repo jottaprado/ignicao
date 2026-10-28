@@ -2188,7 +2188,7 @@ Reserve 30 minutos toda segunda-feira às 9h para manter o Dossiê do Usuário v
 ### MANUAL PASSO A PASSO DOS FRAMEWORKS (FASE 5)
 
 > [!tip] Uso autocontido neste volume
-> **Como escolher entre os métodos desta seção:** Para todas as startups nesta Fase 5, quatro ferramentas formam o núcleo obrigatório: **Entrevistas de Troca (*Switch Interviews*), Observação Contextual (*Contextual Inquiry*), Personas baseadas em dados e Mapeamento da Jornada do Problema. Use Estudos de Diário (*Diary Studies*) quando o hábito se espalha por vários dias, Grupos Focais (*Focus Groups*) apenas para testar reação de linguagem social, Service Blueprinting quando precisar desenhar bastidores operacionais complexos e Outcome-Driven Innovation (ODI)** quando tiver escala para rodar pesquisas quantitativas com mais de 100 respondentes. (O passo a passo completo do *Empathy Map* já foi apresentado na Fase 4. Aqui veremos apenas como alimentá-lo com a observação etnográfica.)
+> **Como escolher entre os métodos desta seção:** Para todas as startups nesta Fase 5, quatro ferramentas formam o núcleo obrigatório: **Entrevistas de Troca (*Switch Interviews*)**, **Observação Contextual (*Contextual Inquiry*)**, **Personas baseadas em dados** e **Mapeamento da Jornada do Problema**. Use **Estudos de Diário (*Diary Studies*)** quando o hábito se espalha por vários dias, **Grupos Focais (*Focus Groups*)** apenas para testar reação de linguagem social, **Service Blueprinting** quando precisar desenhar bastidores operacionais complexos e **Outcome-Driven Innovation (ODI)** quando tiver escala para rodar pesquisas quantitativas com mais de 100 respondentes. (O passo a passo completo do *Empathy Map* já foi apresentado na Fase 4. Aqui veremos apenas como alimentá-lo com a observação etnográfica.)
 
 #### Framework: Jobs to Be Done Switch Interviews (Bob Moesta e Chris Spiek)
 
@@ -2198,7 +2198,7 @@ Desenvolvida por Bob Moesta e Chris Spiek no Re-Wired Group em parceria com Clay
 
 ##### A mecânica central (sem jargão)
 
-Trata-se de um protocolo de entrevista focado no **momento real de troca (*switch*), quando o cliente abandonou uma solução anterior (ou uma gambiarra interna) e contratou uma nova.** Em vez de perguntar quais funcionalidades a pessoa deseja, a conversa reconstrói as quatro forças causais que produziram a mudança.
+Trata-se de um protocolo de entrevista focado no **momento real de troca (*switch*)**, quando o cliente abandonou uma solução anterior (ou uma gambiarra interna) e contratou uma nova. Em vez de perguntar quais funcionalidades a pessoa deseja, a conversa reconstrói as **quatro forças causais** que produziram a mudança.
 
 ##### Estrutura das Quatro Forças de Troca (empurrão da dor atual, atração da nova solução, ansiedade da mudança e inércia do hábito)
 
@@ -2216,7 +2216,7 @@ A linha do tempo da compra percorrida na entrevista divide-se em seis marcos:
 1. **Primeiro pensamento (*first thought*):** o instante e o contexto exato em que a pessoa percebeu pela primeira vez que o jeito antigo não dava mais conta.
 2. **Busca passiva (*passive looking*):** o período em que ela passou a reparar em alternativas sem ainda agir.
 3. **Busca ativa (*active looking*):** o gatilho (o "dia em que a corda arrebentou") que a levou a cotar, testar e comparar opções.
-4. **Decisão (*deciding*):** a negociação final, as concessões feitas e as quatro forças em disputa: o **empurrão da dor atual (*push*), a atração da nova solução (*pull*), a ansiedade com a mudança (*anxiety*) e o hábito que prendia ao modelo antigo (*habit*)**.
+4. **Decisão (*deciding*):** a negociação final, as concessões feitas e as quatro forças em disputa: o **empurrão da dor atual (*push*)**, a **atração da nova solução (*pull*)**, a **ansiedade com a mudança (*anxiety*)** e o **hábito que prendia ao modelo antigo (*habit*)**.
 5. **Primeira utilização (*consuming*):** o que aconteceu na primeira semana de uso real.
 6. **Satisfação pós-compra (*satisfaction*):** o veredito prático sobre se o trabalho (*job*) foi cumprido.
 
@@ -4529,7 +4529,7 @@ A tabela abaixo apresenta os 13 tipos clássicos da taxonomia da NFX agrupados p
 
 ##### As regras do jogo
 
-A força competitiva varia drasticamente entre as categorias da NFX: efeitos de rede **Físicos (*Physical*) e de Protocolo (*Protocol*) geram barreiras quase intransponíveis, enquanto Marketplaces de dois lados (*Two-sided*) e Assintóticos (*Asymptotic*)** sofrem com *multi-homing* (usuários e motoristas operando em dois aplicativos simultaneamente). Já os **Efeitos de Rede de Dados (*Data*) costumam apresentar retornos marginais decrescentes após certo volume, e os baseados em Crença (*Belief*) e Efeito Manada (*Bandwagon*)** oferecem a menor defensabilidade isolada no longo prazo.
+A força competitiva varia drasticamente entre as categorias da NFX: efeitos de rede **Físicos (*Physical*)** e de **Protocolo (*Protocol*)** geram barreiras quase intransponíveis, enquanto **Marketplaces de dois lados (*Two-sided*)** e **Assintóticos (*Asymptotic*)** sofrem com *multi-homing* (usuários e motoristas operando em dois aplicativos simultaneamente). Já os **Efeitos de Rede de Dados (*Data*)** costumam apresentar retornos marginais decrescentes após certo volume, e os baseados em **Crença (*Belief*)** e **Efeito Manada (*Bandwagon*)** oferecem a menor defensabilidade isolada no longo prazo.
 
 ##### Roteiro de aplicação prática na operação
 
@@ -5774,7 +5774,7 @@ O POV define a "condição diferente". Há uma mudança tangível no mundo, que 
 
 Em *Play Bigger*, o *Lightning Strike* designa uma ofensiva concentrada no tempo (combinando lançamento de produto, publicação de dados originais do setor, mobilização de clientes-farol e presença em eventos) para fixar o nome e os critérios da nova categoria na mente dos compradores, em vez de pulverizar o orçamento em campanhas graduais que passam despercebidas.
 
-**Ingredientes típicos de um *Lightning Strike*: (1) Evento-âncora: conferência própria, relatório setorial com dados originais ou campanha coordenada de imprensa, (2) Janela concentrada: período de quatro a doze semanas em que toda a comunicação da empresa converge para educar o mercado sobre a nova categoria, (3) Recrutamento de aliados: analistas de mercado (Gartner, IDC e Forrester globalmente, no Brasil, IDC Brasil e consultorias especializadas, apoiadas em levantamentos de entidades como ABES e Abstartups), jornalistas setoriais e clientes de referência dispostos a mostrar resultados em público, e (4) Contraste explícito:** material claro apontando qual modelo antigo a nova categoria torna obsoleto.
+**Ingredientes típicos de um *Lightning Strike*:** (1) **Evento-âncora:** conferência própria, relatório setorial com dados originais ou campanha coordenada de imprensa, (2) **Janela concentrada:** período de quatro a doze semanas em que toda a comunicação da empresa converge para educar o mercado sobre a nova categoria, (3) **Recrutamento de aliados:** analistas de mercado (Gartner, IDC e Forrester globalmente, no Brasil, IDC Brasil e consultorias especializadas, apoiadas em levantamentos de entidades como ABES e Abstartups), jornalistas setoriais e clientes de referência dispostos a mostrar resultados em público, e (4) **Contraste explícito:** material claro apontando qual modelo antigo a nova categoria torna obsoleto.
 
 > [!tip] Lightning Strike no Brasil
 > Lightning Strike em escala internacional é difícil para a maioria das startups brasileiras. Adaptar a estratégia combinando um evento setorial próprio, um relatório anual de dados do mercado, três a cinco clientes de referência que falem em público e uma rodada coordenada de participação em podcasts é um caminho viável.

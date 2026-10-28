@@ -287,7 +287,7 @@ Caminho 4, expansão de segmento (ICP adjacente). Por exemplo, validou em startu
 **Caminho 6: expansão de produto (novo produto ou linha funcional).** Exemplo: um SaaS de gestão que adiciona um módulo próprio de inteligência analítica (BI). O que muda: exige novo ciclo de P&D, equipe dedicada e posicionamento comercial mais complexo. O risco principal é diluir a proposta de valor e distrair a engenharia do produto central, a defesa é garantir que qualquer módulo adicional reforce diretamente a retenção e o uso do produto principal.
 
 > [!tip] A regra dos 70/20/10
-> **Regra 70/20/10 de alocação de recursos (Bansi Nagji e Geoff Tuff, *Harvard Business Review*, maio de 2012): concentre 70%** do orçamento e da energia de engenharia e comercial no negócio principal (*core*: otimização do produto atual no segmento e nos canais já validados), 20% em adjacências de baixo risco (Eixo 1 de profundidade ou segmento vizinho imediato) e 10% em apostas exploratórias de longo prazo (novas geografias ou linhas de produto). Se a sua empresa tenta lançar três países novos e dois produtos paralelos ao mesmo tempo, ela inverte essa proporção e compromete a operação principal.
+> **Regra 70/20/10 de alocação de recursos (Bansi Nagji e Geoff Tuff, *Harvard Business Review*, maio de 2012):** concentre **70%** do orçamento e da energia de engenharia e comercial no negócio principal (*core*: otimização do produto atual no segmento e nos canais já validados), **20%** em adjacências de baixo risco (Eixo 1 de profundidade ou segmento vizinho imediato) e **10%** em apostas exploratórias de longo prazo (novas geografias ou linhas de produto). Se a sua empresa tenta lançar três países novos e dois produtos paralelos ao mesmo tempo, ela inverte essa proporção e compromete a operação principal.
 
 **Regra transversal. Mude uma variável por vez.**
 
@@ -1009,7 +1009,7 @@ Na **Fase 15**, você transformou o esforço comercial concentrado no fundador e
 
 Quando a rede de clínicas odontológicas da Dra. Camila em Belo Horizonte chegou a 38 colaboradores (entre dentistas, recepcionistas, faturamento, marketing e estoque), a rotina dela virou um gargalo insustentável. O celular de Camila recebia 190 mensagens de WhatsApp por dia: a recepcionista da unidade Savassi perguntando se podia dar 5% de desconto no Pix. O estoquista perguntando qual marca de luva cirúrgica comprar. Dois profissionais discutindo pela escala de sábado. O contador pedindo aprovação de um reembolso de R$ 80. Camila chegava em casa às onze da noite exausta, sentindo que carregava trinta e oito adultos nas costas e que a rede entregava menos resultado líquido com 38 pessoas do que quando tinha 12. Ao aplicar a disciplina desta Fase 16, Camila desenhou seu Mapa de Responsabilidades no Passo 1, estruturou gerentes por unidade e promoveu sua primeira gerente geral de operações no Passo 4, instalou uma alçada autônoma de até R$ 2.000 com manual de descontos padronizado e recuperou vinte horas semanais para liderar a expansão da rede.
 
-Por que toda empresa em crescimento atravessa uma zona de turbulência quando passa da faixa de 20 para 50 e depois 100 pessoas? Gino Wickman, em *Traction*, chama de **Bater no Teto (*Hitting the Ceiling*) o momento em que o modelo atual de gestão perde capacidade para o próximo salto, e a aritmética combinatória das redes explica o motivo: com 7 pessoas na sala, existem 21 linhas de comunicação possíveis. Com 50 pessoas, existem 1.225 linhas de comunicação simultâneas**. Se todas as decisões continuarem convergindo para o cérebro do fundador como um hub central, o fundador vira o gargalo que trava a velocidade da empresa.
+Por que toda empresa em crescimento atravessa uma zona de turbulência quando passa da faixa de 20 para 50 e depois 100 pessoas? Gino Wickman, em *Traction*, chama de **Bater no Teto (*Hitting the Ceiling*)** o momento em que o modelo atual de gestão perde capacidade para o próximo salto, e a aritmética combinatória das redes explica o motivo: com 7 pessoas na sala, existem 21 linhas de comunicação possíveis. Com 50 pessoas, existem **1.225 linhas de comunicação simultâneas**. Se todas as decisões continuarem convergindo para o cérebro do fundador como um hub central, o fundador vira o gargalo que trava a velocidade da empresa.
 
 Chamamos esse colapso de gestão de A Falência do Comando Radial: o modelo em que o fundador permanece no centro de uma roda onde cada colaborador precisa pedir permissão direta antes de agir. O Comando Radial funciona com dez pessoas na mesma sala, mas paralisa a empresa quando o quadro passa de trinta colaboradores.
 
@@ -1243,7 +1243,7 @@ Os rituais que reforçam valores na prática incluem reuniões gerais (*all-hand
 
 Cada novo integrante deve atingir produtividade básica em 30 dias e autonomia plena em 90 dias (conforme os marcos de 30, 60 e 90 dias detalhados anteriormente). Sem um processo estruturado de recepção e transferência de contexto, a rampa de aprendizado se arrasta por seis a nove meses e eleva a rotatividade precoce nos primeiros 90 dias.
 
-Para escalar a integração quando a empresa contrata todos os meses, complemente os marcos de 30-60-90 dias com três artefatos padronizados: (1) **Manual da Empresa (*Handbook*) com a história do negócio, os valores com exemplos reais, o mapa de áreas e os dez principais estudos de caso de clientes, (2) Padrinho de integração (*Buddy*) de área par, designado antes do primeiro dia para destravar dúvidas cotidianas e apresentar a cultura informal, e (3) Avaliação formal de fechamento dos 90 dias**, registrando por escrito se o profissional está confirmado na função, se precisa de plano específico de apoio ou se deve ser desligado ao término do contrato de experiência.
+Para escalar a integração quando a empresa contrata todos os meses, complemente os marcos de 30-60-90 dias com três artefatos padronizados: (1) **Manual da Empresa (*Handbook*)** com a história do negócio, os valores com exemplos reais, o mapa de áreas e os dez principais estudos de caso de clientes, (2) **Padrinho de integração (*Buddy*)** de área par, designado antes do primeiro dia para destravar dúvidas cotidianas e apresentar a cultura informal, e (3) **Avaliação formal de fechamento dos 90 dias**, registrando por escrito se o profissional está confirmado na função, se precisa de plano específico de apoio ou se deve ser desligado ao término do contrato de experiência.
 
 #### Passo 7: instrumente eNPS e pesquisa de clima mensal
 
@@ -1316,7 +1316,7 @@ A **Fase 16** está consolidada quando os sete marcos operacionais abaixo estão
 
 - **Dono do resultado, não apenas da tarefa:** cada líder responde pelo indicador final na ponta do cliente, e não apenas pelo cumprimento burocrático da sua etapa. Se entregar o resultado exige destravar uma dependência em outra área, atravesse a fronteira e resolva em conjunto.
 
-**Rituais de gestão em cadência unificada (para o porte de 20 a 50 pessoas):** 1) **Reunião geral semanal (*all-hands*): 30 minutos às segundas-feiras às 9h (evoluindo para mensal de 60 minutos quando a empresa passar de 50 colaboradores, conforme a régua do Capítulo 8), cobrindo métricas da semana, voz do cliente e prioridades, 2) Conversas individuais (1:1): 30 a 45 minutos semanais entre cada gestor e seus liderados diretos, 3) Conversas *skip-level* do CEO: 45 minutos mensais com profissionais de dois níveis abaixo, e 4) Retrospectiva quinzenal de execução:** revisão integrada entre produto, engenharia e comercial.
+**Rituais de gestão em cadência unificada (para o porte de 20 a 50 pessoas):** 1) **Reunião geral semanal (*all-hands*):** 30 minutos às segundas-feiras às 9h (evoluindo para mensal de 60 minutos quando a empresa passar de 50 colaboradores, conforme a régua do Capítulo 8), cobrindo métricas da semana, voz do cliente e prioridades, 2) **Conversas individuais (1:1):** 30 a 45 minutos semanais entre cada gestor e seus liderados diretos, 3) **Conversas *skip-level* do CEO:** 45 minutos mensais com profissionais de dois níveis abaixo, e 4) **Retrospectiva quinzenal de execução:** revisão integrada entre produto, engenharia e comercial.
 
 **Framework de feedback.** SBI (Situação-Comportamento-Impacto) como padrão. Feedback semanal em 1:1. Obrigatório pelo menos um item construtivo. Conversa estruturada de desenvolvimento a cada seis meses (deixando a avaliação formal com calibração cruzada para quando a empresa passar de 25 a 30 pessoas).
 
@@ -1479,7 +1479,7 @@ Passo 6: Aplicar. Se decisão fica travada, voltar: papel claro? Conflito entre 
 
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
-Principais armadilhas de governança: (1) **Múltiplos donos finais (*Accountable* ou *Decider*): quando duas pessoas dividem a caneta final, ninguém responde pelo atraso, (2) Excesso de consultados (*Consulted*): transformar qualquer decisão simples em comitê de dez pessoas paralisa a execução, e (3) Matriz de gaveta:** preencher a planilha no planejamento anual e ignorá-la nas reuniões semanais.
+Principais armadilhas de governança: (1) **Múltiplos donos finais (*Accountable* ou *Decider*):** quando duas pessoas dividem a caneta final, ninguém responde pelo atraso, (2) **Excesso de consultados (*Consulted*):** transformar qualquer decisão simples em comitê de dez pessoas paralisa a execução, e (3) **Matriz de gaveta:** preencher a planilha no planejamento anual e ignorá-la nas reuniões semanais.
 
 ---
 
@@ -3233,7 +3233,7 @@ Este capítulo aprofunda a frente corporativa introduzida no [[IGNICAO-Vol-4-Tra
 
 Na grande corporação brasileira, a assimetria de incentivos governa a mesa de compras: se um software novo de uma startup desconhecida der certo, o diretor ganha um elogio discreto. Se o sistema travar a fábrica ou vazar dados, ele perde o emprego. Por isso, o comprador corporativo decide primeiro para proteger a própria carreira, e o papel do fundador B2B é desarmar esse risco pessoal oferecendo referências auditáveis do mesmo setor, projeto-piloto pago com escopo fechado, cláusula clara de saída e conformidade técnica que blindem quem assina o contrato.
 
-No mercado brasileiro, classificamos operacionalmente como **venda complexa (*enterprise sales*) aquela que combina três características:** (1) ticket médio anual (ACV) a partir de R$ 120 mil a R$ 250 mil (chegando a múltiplos milhões de reais em contratos corporativos e industriais), (2) ciclo decisório de 4 a 18 meses, e (3) aprovação colegiada envolvendo de 5 a 10 interlocutores (usuário líder, executivo de negócios, TI/Segurança, Jurídico, Compras e Diretoria Financeira).
+No mercado brasileiro, classificamos operacionalmente como **venda complexa (*enterprise sales*)** aquela que combina três características: (1) ticket médio anual (**ACV**) a partir de **R$ 120 mil a R$ 250 mil** (chegando a múltiplos milhões de reais em contratos corporativos e industriais), (2) ciclo decisório de **4 a 18 meses**, e (3) aprovação colegiada envolvendo de **5 a 10 interlocutores** (usuário líder, executivo de negócios, TI/Segurança, Jurídico, Compras e Diretoria Financeira).
 
 Abaixo desse patamar (contratos de R$ 20 mil a R$ 100 mil anuais), a venda B2B exige abordagem consultiva (*mid-market*), mas deve operar com ciclo mais enxuto (de 30 a 90 dias) e contrato padronizado para que o custo de aquisição (CAC) não destrua a margem.
 
@@ -3246,9 +3246,9 @@ No Brasil, a venda corporativa exige navegar camadas adicionais de conformidade:
 
 ### As 7 cadeiras do Comitê de Compra: Campeão, Comprador Econômico, Avaliador Técnico, Bloqueador, Usuário, Compras e Jurídico
 
-Além dos cinco perfis clássicos detalhados a seguir (Comprador Econômico, Campeão, Avaliador Técnico, Bloqueador e Usuário Final), toda venda enterprise no Brasil precisa mapear desde o primeiro mês as duas cadeiras de travessia contratual: **Compras (*Procurement*), que é medida por desconto obtido, prazo de pagamento e comparação de propostas, e Jurídico / Segurança da Informação**, que avalia responsabilidade civil, propriedade intelectual e conformidade com a LGPD.
+Além dos cinco perfis clássicos detalhados a seguir (Comprador Econômico, Campeão, Avaliador Técnico, Bloqueador e Usuário Final), toda venda enterprise no Brasil precisa mapear desde o primeiro mês as duas cadeiras de travessia contratual: **Compras (*Procurement*)**, que é medida por desconto obtido, prazo de pagamento e comparação de propostas, e **Jurídico / Segurança da Informação**, que avalia responsabilidade civil, propriedade intelectual e conformidade com a LGPD.
 
-Em toda venda corporativa atuam pelo menos seis papéis distintos no comitê de compra (alinhados à nomenclatura do MEDDPICC e da tabela a seguir): o **Campeão Interno (*Champion*), o Decisor Econômico (*Economic Buyer*), o Avaliador Técnico (*Technical Buyer* / TI e Segurança), o Comprador Profissional (*Procurement* / Suprimentos), o Bloqueador (*Blocker*) e o Informante ou Apoiador Sem Poder (*Coach*)**. Confundir o *Coach* com o *Champion* ou ignorar quem tem poder de veto é a causa número um de oportunidades perdidas no último mês.
+Em toda venda corporativa atuam pelo menos seis papéis distintos no comitê de compra (alinhados à nomenclatura do MEDDPICC e da tabela a seguir): o **Campeão Interno (*Champion*)**, o **Decisor Econômico (*Economic Buyer*)**, o **Avaliador Técnico (*Technical Buyer* / TI e Segurança)**, o **Comprador Profissional (*Procurement* / Suprimentos)**, o **Bloqueador (*Blocker*)** e o **Informante ou Apoiador Sem Poder (*Coach*)**. Confundir o *Coach* com o *Champion* ou ignorar quem tem poder de veto é a causa número um de oportunidades perdidas no último mês.
 
 #### Economic Buyer
 
@@ -3910,7 +3910,7 @@ Quatro componentes definem a disciplina.
 
 **Biblioteca de casos e templates.** Repositório versionado de cases de cliente por indústria e segmento, templates de email por estágio do funil, scripts de discovery, decks por persona. Acessível dentro do CRM ou em ferramenta dedicada (Highspot, Showpad, Seismic). Sem isso, cada vendedor reinventa material, e a qualidade oscila por pessoa.
 
-Contrate a primeira pessoa dedicada exclusivamente a **Habilitação Comercial (*Sales Enablement*) quando a equipe atingir de 10 a 15 vendedores** (ou quando a empresa estiver contratando de 2 a 3 novos profissionais comerciais por mês), garantindo que o treinamento inicial, a certificação no roteiro de chamadas e a atualização dos materiais de batalha reduzama rampa de novos contratados.
+Contrate a primeira pessoa dedicada exclusivamente a **Habilitação Comercial (*Sales Enablement*)** quando a equipe atingir de **10 a 15 vendedores** (ou quando a empresa estiver contratando de 2 a 3 novos profissionais comerciais por mês), garantindo que o treinamento inicial, a certificação no roteiro de chamadas e a atualização dos materiais de batalha reduzama rampa de novos contratados.
 
 Erros comuns. Tratar enablement como evento (kickoff anual) em vez de prática contínua. Treinar só no onboarding e não manter cadência. Confundir enablement com administração de CRM. Contratar para enablement sem mandato para mudar processo de vendas.
 
@@ -4085,7 +4085,7 @@ Score mínimo para avançar: 12/18
 
 ### A regra do "O que o vendedor da ponta ganha com isso?": desenhando incentivos para a empresa parceira e para o consultor na rua
 
-Além da margem da empresa parceira, a parceria só anda quando o vendedor ou consultor que atende o cliente na ponta ganha com a indicação: estruture, sempre por escrito e dentro da política de compliance do parceiro, 1) crédito na cota anual do vendedor do parceiro (*quota retirement*, para que vender o seu módulo ajude a bater a meta dele), 2) **prêmio comercial (*spiff*) ou comissão de indicação pago por meio do programa oficial da parceira (por exemplo, R$ 1.500 por contrato ativado), e 3) retenção de 100% da receita de implantação e parametrização** pela equipe de serviços do parceiro.
+Além da margem da empresa parceira, a parceria só anda quando o vendedor ou consultor que atende o cliente na ponta ganha com a indicação: estruture, sempre por escrito e dentro da política de compliance do parceiro, 1) **crédito na cota anual do vendedor do parceiro** (*quota retirement*, para que vender o seu módulo ajude a bater a meta dele), 2) **prêmio comercial (*spiff*) ou comissão de indicação** pago por meio do programa oficial da parceira (por exemplo, R$ 1.500 por contrato ativado), e 3) **retenção de 100% da receita de implantação e parametrização** pela equipe de serviços do parceiro.
 
 Uma proposta de parceria eficaz responde a uma pergunta que o parceiro tem mas raramente vocaliza: "por que eu deveria priorizar isso agora?"
 
@@ -4604,7 +4604,7 @@ Como demonstram Geoffrey Moore (em *Crossing the Chasm* e *Inside the Tornado*) 
 
 Enquanto o Capítulo 4 tratou de negociações bilaterais de Desenvolvimento de Negócios (*Business Development*) com grandes corporações, este Capítulo 5 mostra como construir e governar um Programa Escalável de Canais Indiretos (dezenas ou centenas de consultorias, integradores, contadores, agências e revendedores vendendo e implantando sua solução).
 
-A distribuição indireta organiza-se em três modelos operacionais distintos: (1) **Programas de Indicação, Revenda e Integração (*Channel Partners / VARs*), foco central deste capítulo, (2) Licenciamento de Tecnologia ou Marca (*OEM / White-Label*), quando sua tecnologia opera embarcada no produto de terceiros, e (3) Franquia Empresarial (*Franchising*, Lei nº 13.966/2019)**, tratada em profundidade no [[#CAPÍTULO 6: FRANCHISING, LICENCIAMENTO E EXPANSÃO DE REDES MULTI-UNIDADES (LEI 13.966/2019)|Capítulo 6 a seguir]].
+A distribuição indireta organiza-se em três modelos operacionais distintos: (1) **Programas de Indicação, Revenda e Integração (*Channel Partners / VARs*)**, foco central deste capítulo, (2) **Licenciamento de Tecnologia ou Marca (*OEM / White-Label*)**, quando sua tecnologia opera embarcada no produto de terceiros, e (3) **Franquia Empresarial (*Franchising*, Lei nº 13.966/2019)**, tratada em profundidade no [[#CAPÍTULO 6: FRANCHISING, LICENCIAMENTO E EXPANSÃO DE REDES MULTI-UNIDADES (LEI 13.966/2019)|Capítulo 6 a seguir]].
 
 Nas seções seguintes, detalhamos como selecionar o arquétipo correto de canal para o seu estágio, desenhar as margens do parceiro, estruturar o portal de registro de oportunidades (*Deal Registration*), habilitar tecnicamente a rede e arbitrar conflitos entre vendas diretas e indiretas.
 
@@ -4803,7 +4803,7 @@ O modelo de *Franchising* resolve duas dores simultâneas:
 
 ### Marco legal da franquia (Lei nº 13.966/2019): segurança jurídica, Circular de Oferta de Franquia (COF) e anulabilidade por omissão ou informação falsa
 
-O sistema de franquia empresarial no Brasil é disciplinado pela Lei nº 13.966, de 26 de dezembro de 2019 (em vigor desde março de 2020, revogando a antiga Lei nº 8.955/1994). Diferentemente de mercados que exigem registro prévio da oferta em órgão federal, a lei brasileira adota o princípio da **transparência pré-contratual plena (*full disclosure*) por meio de um documento central:** a Circular de Oferta de Franquia (COF).
+O sistema de franquia empresarial no Brasil é disciplinado pela **Lei nº 13.966, de 26 de dezembro de 2019** (em vigor desde março de 2020, revogando a antiga Lei nº 8.955/1994). Diferentemente de mercados que exigem registro prévio da oferta em órgão federal, a lei brasileira adota o princípio da **transparência pré-contratual plena (*full disclosure*)** por meio de um documento central: a **Circular de Oferta de Franquia (COF)**.
 
 Em contrapartida, a lei exige transparência pré-contratual documentada por meio de um instrumento obrigatório: a COF (Circular de Oferta de Franquia).
 
@@ -5277,7 +5277,7 @@ Quando Brian Chesky (Airbnb) e Paul Graham acenderam o debate global sobre Found
 
 Este capítulo aprofunda os instrumentos práticos de agenda, delegação e cadência operacional do CEO no dia a dia da escala.
 
-O debate entre **Modo Fundador (*Founder Mode*) e Modo Gestor (*Manager Mode*)** tornou-se central para empresas em escala após a palestra de Brian Chesky (cofundador e CEO do Airbnb) no evento da Y Combinator em setembro de 2024 e o ensaio publicado por Paul Graham logo em seguida.
+O debate entre **Modo Fundador (*Founder Mode*)** e **Modo Gestor (*Manager Mode*)** tornou-se central para empresas em escala após a palestra de Brian Chesky (cofundador e CEO do Airbnb) no evento da Y Combinator em setembro de 2024 e o ensaio publicado por Paul Graham logo em seguida.
 
 A verdadeira escolha não é entre "fazer tudo sozinho como no primeiro mês" (o Comando Radial que paralisava a clínica de Camila na Fase 16) e "virar um burocrata ausente que só lê planilhas". O desafio é construir uma **arquitetura de delegação com mergulho seletivo (*selective deep dive*)**: ter líderes fortes donos de cada área, mas manter canais diretos com a linha de frente e inspecionar em profundidade os detalhes decisivos de produto, cliente e cultura.
 
@@ -5786,11 +5786,11 @@ Quatro exemplos do ecossistema brasileiro mostram como calibrar a origem do exec
 
 - **Qualidade da lista final (*shortlist*):** apresente de 3 a 5 candidatos finalistas integralmente qualificados. Menos de 3 finalistas sinaliza filtro restritivo demais ou busca rasa, mais de 7 revela falta de foco no perfil desejado.
 
-- **Taxa de aceite de propostas (*offer acceptance rate*): meta de 70% a 90%**. Uma taxa baixa indica pacote de remuneração pouco competitivo ou desgaste durante as etapas de entrevista.
+- **Taxa de aceite de propostas (*offer acceptance rate*):** meta de **70% a 90%**. Uma taxa baixa indica pacote de remuneração pouco competitivo ou desgaste durante as etapas de entrevista.
 
 - **Retenção de executivos em 24 meses:** meta de 80% ou mais dos líderes permanecendo com alto desempenho por pelo menos dois anos. Índices abaixo de 60% apontam falha crônica na seleção de estágio ou ambiente interno hostil à autonomia executiva.
 
-- **Taxa de sucesso aos 12 meses, tempo de rampagem e qualidade das contratações do líder:** na avaliação formal de um ano, a meta é ter 80% ou mais dos executivos contratados atingindo ou superando as metas do *Scorecard*, combinada a dois indicadores operacionais: **tempo de rampagem (*ramp-up*) até a entrega do plano de 90 dias aprovado pelo CEO e pelo conselho e qualidade dos talentos atraídos pelo novo líder** (medida pela nota de desempenho e pela retenção acima de 85% das pessoas que ele contratou para a área).
+- **Taxa de sucesso aos 12 meses, tempo de rampagem e qualidade das contratações do líder:** na avaliação formal de um ano, a meta é ter **80% ou mais** dos executivos contratados atingindo ou superando as metas do *Scorecard*, combinada a dois indicadores operacionais: **tempo de rampagem (*ramp-up*)** até a entrega do plano de 90 dias aprovado pelo CEO e pelo conselho e **qualidade dos talentos atraídos pelo novo líder** (medida pela nota de desempenho e pela retenção acima de 85% das pessoas que ele contratou para a área).
 
 - **Investimento total da contratação (*all-in search cost*):** some honorários de *executive search*, tempo interno dos fundadores, bônus de contratação (*signing bonus*) e pacote de integração. Para uma cadeira C-Level no Brasil, o desembolso total do primeiro ano (incluindo remuneração, encargos e busca) costuma exigir orçamento dedicado de R$ 300 mil a R$ 800 mil apenas em custos de atração e transição.
 
@@ -5941,7 +5941,7 @@ Antes de abrir o ciclo para a empresa, defina cinco escolhas de desenho:
 
 - **Rótulos descritivos equivalentes:** muitas empresas substituem números por conceitos verbais diretos (*Não atende / Atende / Supera / Transforma*), mantendo exatamente o mesmo efeito decisório da escala de quatro pontos.
 
-- **Matriz 2x2 de Resultados (*O Que Entregou*) versus Cultura (*Como Entregou*) e 9-Box: avalie separadamente a entrega de metas e a aderência viva aos princípios da empresa. Essa separação define quatro condutas gerenciais claras: (1) Alto Resultado + Alta Cultura (*A-Player*): reconhecer, premiar acima da média e acelerar carreira, (2) Baixo Resultado + Alta Cultura: dar suporte técnico, treinamento e prazo claro de evolução, (3) Baixo Resultado + Baixa Cultura: desligar rapidamente, e (4) Alto Resultado + Baixa Cultura (o "craque tóxico"):** confrontar o comportamento imediatamente com prazo curto e inegociável de mudança ou desligar, protegendo a credibilidade dos valores.
+- **Matriz 2x2 de Resultados (*O Que Entregou*) versus Cultura (*Como Entregou*) e 9-Box:** avalie separadamente a entrega de metas e a aderência viva aos princípios da empresa. Essa separação define quatro condutas gerenciais claras: (1) **Alto Resultado + Alta Cultura (*A-Player*):** reconhecer, premiar acima da média e acelerar carreira, (2) **Baixo Resultado + Alta Cultura:** dar suporte técnico, treinamento e prazo claro de evolução, (3) **Baixo Resultado + Baixa Cultura:** desligar rapidamente, e (4) **Alto Resultado + Baixa Cultura (o "craque tóxico"):** confrontar o comportamento imediatamente com prazo curto e inegociável de mudança ou desligar, protegendo a credibilidade dos valores.
 
 - **Modelos contínuos e retratos de impacto (Adobe e Deloitte):** em 2012, a Adobe substituiu a avaliação anual tradicional por conversas contínuas estruturadas (*check-ins*), já a Deloitte redesenhou seu sistema em 2015 trocando o ciclo burocrático e o 360º extenso por um retrato trimestral ou por projeto de quatro afirmações respondidas pelo líder (duas em escala de cinco pontos e duas de sim ou não, detalhadas no modelo de formulário adiante) que alimentam a decisão anual de mérito. Em startups brasileiras, manter conceito explícito combinado às perguntas de impacto funciona melhor do que abolir notas, pois evita ambiguidade.
 
@@ -6620,7 +6620,7 @@ Colaborador recebe opções, exerce o lote, adquire as ações e descobre a regr
 
 **7. Promover o melhor especialista a chefe sem Carreira em Y (o Princípio de Peter) ou mascarar subordinado como PJ.**
 
-Quando a única forma de um engenheiro sênior ou especialista ganhar mais é virando gerente de pessoas, a startup perde seu melhor construtor técnico e ganha um gestor frustrado. Estruture uma Trilha de Carreira em Y a partir do nível Sênior (L3), permitindo que o profissional evolua em remuneração e impacto técnico nos degraus de **Especialista (*Staff Engineer* - L4) e Principal / Arquiteto (L5) com bandas salariais equivalentes às de Gerente (M1) e Diretor (M2)**. Da mesma forma, jamais tente economizar encargos contratando profissionais com horário fixo, subordinação direta e exclusividade como falsos PJs (ver os riscos do Tema 1.389 do STF na seção de contratados PJ acima e no [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 6: DIREITO DO TRABALHO PARA STARTUPS|Volume 8, Capítulo 6]]).
+Quando a única forma de um engenheiro sênior ou especialista ganhar mais é virando gerente de pessoas, a startup perde seu melhor construtor técnico e ganha um gestor frustrado. Estruture uma **Trilha de Carreira em Y** a partir do nível Sênior (L3), permitindo que o profissional evolua em remuneração e impacto técnico nos degraus de **Especialista (*Staff Engineer* - L4)** e **Principal / Arquiteto (L5)** com bandas salariais equivalentes às de **Gerente (M1)** e **Diretor (M2)**. Da mesma forma, jamais tente economizar encargos contratando profissionais com horário fixo, subordinação direta e exclusividade como falsos PJs (ver os riscos do Tema 1.389 do STF na seção de contratados PJ acima e no [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 6: DIREITO DO TRABALHO PARA STARTUPS|Volume 8, Capítulo 6]]).
 
 ---
 
@@ -7490,7 +7490,7 @@ Com Lucas supervisionando o produto e a arquitetura em São Paulo (ao lado dos p
 
 Lucas vetou a ideia em cinco segundos: *"Se nós precisamos vigiar se o mouse do engenheiro mexeu às 15h14 para saber se ele está trabalhando, significa que falhamos como gestores e não sabemos medir o resultado do que ele entrega na sexta-feira!"* Em vez de instalar vigilância policial (que faz os melhores profissionais pedirem demissão na primeira semana e ensina os medíocres a prenderem o mouse num ventilador), Lucas e Marina rejeitaram o Teatro do Mouse Mexendo e consolidaram a gestão por entregas documentadas e comunicação assíncrona: nenhuma decisão valia se não estivesse registrada em um documento técnico compartilhado (RFC), cada *squad* tinha metas semanais binárias visíveis a todos e, como a empresa acabara de cruzar a marca de 50 colaboradores, toda a equipe passou a se reunir presencialmente a cada semestre por três dias intensos (complementados por encontros trimestrais por diretoria) para alinhar a estratégia e fortalecer os vínculos humanos.
 
-Como já ensinava Andy Grove em *High Output Management*, um gestor mede o trabalho de uma pessoa ou de uma equipe pelo **resultado entregue e testado (*output*), nunca pela atividade aparente** (horas conectado no chat ou reuniões de câmera aberta). Quando uma empresa leva os piores vícios do escritório físico (interrupções a cada três minutos no WhatsApp ou no Slack e vigilância de tela) para dentro da casa da equipe, ela destrói o trabalho profundo sem ganhar a coesão do convívio presencial.
+Como já ensinava Andy Grove em *High Output Management*, um gestor mede o trabalho de uma pessoa ou de uma equipe pelo **resultado entregue e testado (*output*)**, nunca pela **atividade aparente** (horas conectado no chat ou reuniões de câmera aberta). Quando uma empresa leva os piores vícios do escritório físico (interrupções a cada três minutos no WhatsApp ou no Slack e vigilância de tela) para dentro da casa da equipe, ela destrói o trabalho profundo sem ganhar a coesão do convívio presencial.
 
 ---
 
@@ -7555,7 +7555,7 @@ No regime CLT, o teletrabalho ou trabalho remoto é disciplinado pelos arts. 75-
 
 Acompanhe mensalmente cinco indicadores objetivos para garantir que o trabalho distribuído gere entregas reais sem esgotamento nem passivo oculto:
 
-- **Taxa de metas semanais binárias entregues no prazo por *squad*: meta ≥ 85%** das entregas semanais concluídas e testadas até sexta-feira (principal termômetro de execução real).
+- **Taxa de metas semanais binárias entregues no prazo por *squad*:** meta **≥ 85%** das entregas semanais concluídas e testadas até sexta-feira (principal termômetro de execução real).
 - **Carga de reuniões síncronas por pessoa:** meta < 10 horas semanais para contribuidores individuais (protegendo no mínimo 4 horas diárias de trabalho focado sem interrupção).
 - **Tempo até a primeira entrega relevante em produção (*time-to-first-impact*):** meta de conclusão do primeiro *pull request* em produção ou primeiro ciclo comercial completo em até 14 a 21 dias para recém-contratados, apoiado pelo roteiro escrito de 90 dias.
 - **Conformidade jurídica dos contratos e aditivos de teletrabalho:** 100% dos empregados CLT remotos ou híbridos com aditivo de teletrabalho (art. 75-C), enquadramento correto de jornada ou produção (art. 62, III, e art. 75-B) e termo de responsabilidade de saúde e ergonomia (art. 75-E) assinados.

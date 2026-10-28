@@ -810,7 +810,7 @@ Nir Eyal publicou *Hooked: How to Build Habit-Forming Products* em 2014 a partir
 
 ##### A mecânica central (sem jargão)
 
-Ciclo de quatro etapas que, quando repetido, cria hábito de uso recorrente: **Gatilho (*Trigger*) (externo ou interno que inicia o comportamento) → Ação (*Action*) (comportamento mais simples possível executado em antecipação a uma recompensa) → Recompensa Variável (*Variable Reward*) (retorno que satisfaz a necessidade mantendo um grau de novidade) → Investimento (*Investment*)** (trabalho, dados, histórico ou reputação que o usuário deposita no produto, aumentando o valor do próximo ciclo). O gancho se fecha quando o próprio produto vira o gatilho interno do próximo uso.
+Ciclo de quatro etapas que, quando repetido, cria hábito de uso recorrente: **Gatilho (*Trigger*)** (externo ou interno que inicia o comportamento) → **Ação (*Action*)** (comportamento mais simples possível executado em antecipação a uma recompensa) → **Recompensa Variável (*Variable Reward*)** (retorno que satisfaz a necessidade mantendo um grau de novidade) → **Investimento (*Investment*)** (trabalho, dados, histórico ou reputação que o usuário deposita no produto, aumentando o valor do próximo ciclo). O gancho se fecha quando o próprio produto vira o gatilho interno do próximo uso.
 
 ##### As regras do jogo
 
@@ -1744,7 +1744,7 @@ flowchart TB
 
 ```
 
-Para cada risco identificado, o quadro registra seis campos: descrição específica, probabilidade (1 a 5), impacto (1 a 5), **pontuação (*score*) (probabilidade × impacto), mitigação planejada e responsável nominal (*owner*)**.
+Para cada risco identificado, o quadro registra seis campos: **descrição específica**, **probabilidade** (1 a 5), **impacto** (1 a 5), **pontuação (*score*)** (probabilidade × impacto), **mitigação planejada** e **responsável nominal (*owner*)**.
 
 ##### O momento exato de colocar este canvas na parede
 
@@ -3685,7 +3685,7 @@ Bia acabava de desmascarar **A Ilusão do ROAS de Plataforma**. Se você toma de
 
 Por que o ROAS do painel quase sempre mente para você no Brasil? Primeiro, por dupla atribuição: o cliente vê um anúncio no Instagram de manhã, pesquisa o nome da sua marca no Google à tarde e os dois painéis reivindicam 100% do mérito pela mesma venda. Segundo, porque o painel registra boletos gerados que nunca serão pagos e Pix expirados como "conversão concluída". Terceiro, e mais grave: ROAS é faturamento bruto sobre mídia, não lucro líquido sobre caixa. Se a sua margem bruta depois de produto, imposto, frete e taxa de cartão é de 25%, um ROAS de 4x significa exatamente zero reais de lucro: você trabalhou o mês inteiro apenas para transferir dinheiro do cliente para o Vale do Silício.
 
-O marketing de performance rigoroso não se guia por métricas isoladas do painel de anúncios, mas governa cada real investido pelo **POAS (*Profit on Ad Spend*, lucro bruto dividido pelo gasto em mídia), pela Margem de Contribuição após Mídia e pelo MER** apurado no extrato bancário real.
+O marketing de performance rigoroso não se guia por métricas isoladas do painel de anúncios, mas governa cada real investido pelo **POAS (*Profit on Ad Spend*, lucro bruto dividido pelo gasto em mídia)**, pela **Margem de Contribuição após Mídia** e pelo **MER** apurado no extrato bancário real.
 
 ---
 
@@ -6198,7 +6198,7 @@ Na rotina da equipe, a cor da conta dita a ação imediata da semana: contas no 
 
 #### 3. QBR (Quarterly Business Review), o ritual de valor
 
-A revisão trimestral de negócios (QBR) é a reunião executiva entre o gerente de sucesso (CSM) e o decisor da conta-chave, estruturada em cinco pautas: (1) balanço de resultados, confrontando as metas financeiras contratadas com os números efetivamente alcançados, (2) escuta ativa do cliente, mapeando o que funciona bem e onde há atrito operacional, (3) **alinhamento de roteiro de produto (*roadmap*), conectando as próximas entregas técnicas às prioridades do comprador, (4) oportunidades de expansão, avaliando novos setores da empresa, licenças adicionais ou módulos complementares, e (5) planejamento da renovação**, antecipando o cronograma de aprovação do próximo ciclo contratual.
+A revisão trimestral de negócios (QBR) é a reunião executiva entre o gerente de sucesso (CSM) e o decisor da conta-chave, estruturada em cinco pautas: (1) **balanço de resultados**, confrontando as metas financeiras contratadas com os números efetivamente alcançados, (2) **escuta ativa do cliente**, mapeando o que funciona bem e onde há atrito operacional, (3) **alinhamento de roteiro de produto (*roadmap*)**, conectando as próximas entregas técnicas às prioridades do comprador, (4) **oportunidades de expansão**, avaliando novos setores da empresa, licenças adicionais ou módulos complementares, e (5) **planejamento da renovação**, antecipando o cronograma de aprovação do próximo ciclo contratual.
 
 Roteiro prático da revisão trimestral (QBR): envie o material 72 horas antes. Reserve de 60 a 90 minutos na agenda. Garanta a presença do defensor interno (*champion*) e do patrocinador executivo do cliente, e encerre com o plano de ação do próximo trimestre e a data da reunião seguinte já marcada.
 
@@ -6539,7 +6539,7 @@ Time de dados em escala é multi-função: analytics engineer, data scientist, P
 
 ### Definindo a North Star, o dicionário de 10 eventos vitais, a leitura de coorte e o stack de dados
 
-Antes de escolher ferramentas, aplique o método do *North Star Playbook* (detalhado na [[#FASE 13: PRODUCT-MARKET FIT|Fase 13]]): defina uma única North Star Metric que reflita o valor entregue ao cliente (no caso de Marina e Lucas, *boletos auditados e conciliados sem erro por semana*) e **3 a 4 métricas de entrada acionáveis (*inputs*) (como o percentual de contas que conectaram o ERP em até 24 horas e a taxa de ativação do alerta automático no WhatsApp). Em seguida, documente um dicionário enxuto com os 10 eventos essenciais da jornada (no padrão `objeto_ação`, como `conta_criada`, `arquivo_cnab_enviado`, `divergencia_detectada`, `alerta_whatsapp_enviado` e `assinatura_renovada`) e acompanhe a ativação e a retenção agrupadas por coorte semanal de entrada**. Para responder à pergunta de Marina sem cair em viés de autosseleção (já que comparar quem decidiu clicar com quem não clicou mistura o efeito do alerta com a motivação prévia do usuário), combine a leitura de coorte com um experimento controlado (Seção 3), comparando a retenção em D30 do grupo sorteado para receber o alerta automático no WhatsApp contra o grupo de controle que permaneceu no fluxo antigo.
+Antes de escolher ferramentas, aplique o método do *North Star Playbook* (detalhado na [[#FASE 13: PRODUCT-MARKET FIT|Fase 13]]): defina **uma única North Star Metric** que reflita o valor entregue ao cliente (no caso de Marina e Lucas, *boletos auditados e conciliados sem erro por semana*) e **3 a 4 métricas de entrada acionáveis (*inputs*)** (como o percentual de contas que conectaram o ERP em até 24 horas e a taxa de ativação do alerta automático no WhatsApp). Em seguida, documente um **dicionário enxuto com os 10 eventos essenciais** da jornada (no padrão `objeto_ação`, como `conta_criada`, `arquivo_cnab_enviado`, `divergencia_detectada`, `alerta_whatsapp_enviado` e `assinatura_renovada`) e acompanhe a ativação e a retenção agrupadas por **coorte semanal de entrada**. Para responder à pergunta de Marina sem cair em viés de autosseleção (já que comparar quem decidiu clicar com quem não clicou mistura o efeito do alerta com a motivação prévia do usuário), combine a leitura de coorte com um experimento controlado (Seção 3), comparando a retenção em D30 do grupo sorteado para receber o alerta automático no WhatsApp contra o grupo de controle que permaneceu no fluxo antigo.
 
 #### 1. Modern Data Stack
 
@@ -6976,7 +6976,7 @@ Técnicas de redução de custo. Caching, respostas idênticas, ou similares, re
 
 LLMs de fronteira têm latência de um a dez segundos. Em UI interativa, isso destrói a UX.
 
-**Técnicas de redução da latência percebida:** (1) **transmissão contínua (*streaming*), exibindo as palavras na tela à medida que os tokens são gerados para reduzir drasticamente a sensação de espera, (2) sinalização visual de progresso**, informando cada etapa em curso (*"consultando catálogo técnico."*, *"verificando histórico."*) para que o usuário compreenda o processamento, (3) **interface otimista (*optimistic UI*), renderizando a estrutura do card ou da tabela antes mesmo do término da geração, (4) pré-cálculo (*pre-computation*), deixando diagnósticos e sugestões prontos em segundo plano antes que o usuário abra a tela (como no alerta de manutenção de Henrique), e (5) cascata de modelos**, entregando a triagem rápida com um modelo leve e acionando o modelo de fronteira apenas quando o caso exige aprofundamento.
+**Técnicas de redução da latência percebida:** (1) **transmissão contínua (*streaming*)**, exibindo as palavras na tela à medida que os tokens são gerados para reduzir drasticamente a sensação de espera, (2) **sinalização visual de progresso**, informando cada etapa em curso (*"consultando catálogo técnico."*, *"verificando histórico."*) para que o usuário compreenda o processamento, (3) **interface otimista (*optimistic UI*)**, renderizando a estrutura do card ou da tabela antes mesmo do término da geração, (4) **pré-cálculo (*pre-computation*)**, deixando diagnósticos e sugestões prontos em segundo plano antes que o usuário abra a tela (como no alerta de manutenção de Henrique), e (5) **cascata de modelos**, entregando a triagem rápida com um modelo leve e acionando o modelo de fronteira apenas quando o caso exige aprofundamento.
 
 Metas de tempo de resposta em produção: primeiro token exibido na tela em até 1 s na mediana (p50) e até 1,5 s no percentil 95 (p95) usando *streaming*. Conclusão de respostas curtas em até 5 s, e processamento de documentos longos em até 20 s acompanhado de barra de progresso visível.
 
