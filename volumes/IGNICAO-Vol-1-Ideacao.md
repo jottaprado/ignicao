@@ -2196,7 +2196,7 @@ O sexto passo é o teste de transmissão oral: explique a ideia em 90 segundos p
 > [!note] Apresentar a ideia em noventa segundos é habilidade treinável, não talento
 > O [[#CAPÍTULO 9: APRESENTAÇÃO E FALA EM PÚBLICO|Capítulo 9: Apresentação e Fala em Público]] cobre estrutura de pitch curto, controle de ansiedade e técnicas de ensaio. O teste verbal desta fase é a primeira versão do pitch que você vai repetir centenas de vezes nas fases seguintes: vale preparar com método desde agora.
 
-O sétimo é arquivar a versão v1. Mantenha para comparar depois. A ideia vai mudar. Observar a evolução é educativo.
+O sétimo passo é arquivar a versão inicial (DII v1) com data para compará-la às revisões futuras a cada ciclo de entrevistas, acompanhando como a tese evolui com os dados de campo.
 
 ### O teste de fogo dos 90 segundos: como saber se sua DII v1 está pronta
 
@@ -2423,22 +2423,8 @@ Passo 6: Alinhe métricas. Meta vem depois de estratégia, não antes. Métricas
 
 Ao redigir a primeira versão da sua DII em Curitiba, Henrique aplicou o *Kernel* de Rumelt para trocar o discurso técnico sobre sensores pela tese de negócio em usinas de etanol de milho:
 
-Bad strategy (o que frequentemente se vê): "Nossa estratégia é crescer 200% este ano, ser referência em experiência do cliente, capturar o mercado PME e atingir break-even."
-Isso é lista de aspirações, não há diagnóstico, política, nem coerência entre ações.
-
-Good strategy aplicando Rumelt:
-
-- Diagnóstico: CAC cresceu 3x em 12 meses porque: (a) saturamos os 20% mais qualificados do nosso ICP, (b) iniciamos campanhas paid quando organic ainda estava funcionando, (c) métrica de growth distorceu decisões. Problema real: não temos máquina de aquisição sustentável, só temos aquisição paga sobre ICP saturado.
-
-- Política orientadora: nos próximos 12 meses, reconstruir aquisição via canais orgânicos e bottom-up (product-led), pausando ou reduzindo paid drasticamente.
-
-- Ações coerentes:
-
- 1. Pausar 80% do paid (mantém apenas 1 canal comprovadamente rentável).
 - **Diagnóstico:** "Usinas de etanol de milho de médio porte no Centro-Sul operam moendas e caldeiras 24/7 durante a safra, mas dependem de manutenção preventiva por calendário ou planilhas isoladas, cada parada não programada custa entre R$ 180 mil e R$ 400 mil em produção interrompida, e os sistemas industriais tradicionais dos fabricantes globais exigem projetos de seis meses e mais de R$ 500 mil de implantação."
- 3. Construir produto freemium para trial bottom-up (ver [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 1: GTM PLAYBOOK E ARQUITETURA DE CANAIS: DA PRIMEIRA VENDA AO PRIMEIRO MILHÃO DE ARR|Capítulo 1 (GTM Playbook e Arquitetura de Canais: Da Primeira Venda ao Primeiro Milhão de ARR) (Vol. 4)]], PLG).
- 4. Criar programa de referral com recompensa.
-- **Política orientadora:** "Atacar exclusivamente os três equipamentos gargalo da planta (caldeira, moenda e centrífuga) com sensores de instalação em um único turno de parada programada e cobrança por assinatura mensal dentro da alçada do diretor industrial, deixando de fora plantas químicas, montadoras e projetos customizados."
+- **Política orientadora:** "Atacar exclusivamente os três equipamentos gargalo da planta (caldeira, moenda e centrífuga) com sensores de instalação em um único turno de parada programada e cobrança por assinatura mensal dentro da alçada do diretor industrial, deixando de fora plantas químicas, montadoras e projetos customizados (ver também a distinção de canais no [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 1: GTM PLAYBOOK E ARQUITETURA DE CANAIS: DA PRIMEIRA VENDA AO PRIMEIRO MILHÃO DE ARR|Capítulo 1 (GTM Playbook e Arquitetura de Canais: Da Primeira Venda ao Primeiro Milhão de ARR) (Vol. 4)]])."
 - **Ações coerentes (para validar a DII):** "(a) Mapear 20 diretores industriais e gerentes de manutenção de usinas independentes no Paraná, Mato Grosso e Goiás, (b) comparar o custo de uma hora de caldeira parada com a assinatura mensal proposta de R$ 4.500 por planta, e (c) verificar junto a três engenheiros de segurança quais exigências da NR-12 e da NR-13 se aplicam à fixação dos sensores."
 
 Cada ação tática reforça as demais quando a política de execução responde diretamente ao diagnóstico levantado, formando uma estratégia coesa.
@@ -2585,20 +2571,19 @@ Método para **estruturar comunicação** (escrita e oral) em forma de pirâmide
 
 ##### As regras do jogo
 
+1. **Começar pela conclusão principal (*Answer First*):** apresente a recomendação ou tese central logo na primeira frase (topo da pirâmide), antes de detalhar o histórico ou a metodologia.
+
 2. **Agrupar em 3 a 5 linhas de sustentação MECE:** abaixo da tese principal, alinhe os pilares que provam por que ela se sustenta (por exemplo: tamanho da dor, mudança recente de contexto e vantagem da equipe), sem sobreposição entre eles.
 
 3. **Sustentar cada pilar com fatos verificáveis:** ancore cada argumento em números concretos, exemplos observados ou restrições reais do setor.
 
 4. **Abrir com a sequência SCQA nos primeiros 30 segundos:**
-- Complication: mudança/problema que aparece.
 - **S (Situação):** o fato concreto e consensual sobre a rotina atual do seu cliente-alvo.
 - **C (Complicação):** o gargalo, perda financeira ou mudança recente que torna a situação insustentável.
 - **Q (Questão):** a pergunta inevitável que o decisor econômico precisa responder.
 - **A (Resposta / *Answer*):** a proposta central da sua DII em uma única frase direta (o topo da pirâmide).
 
 No [[#CAPÍTULO 9: APRESENTAÇÃO E FALA EM PÚBLICO|Capítulo 9 (Apresentação e Fala em Público)]], você retomará o SCQA para roteirizar apresentações completas. Aqui na Fase 2, use-o para condensar sua DII no teste oral de 90 segundos.
-- Nível 2: 3-5 argumentos de suporte (MECE, mutually exclusive, collectively exhaustive).
-- Nível 3 e abaixo: dados, exemplos, detalhes sustentando cada argumento.
 
 Regras:
 
@@ -3226,15 +3211,15 @@ Processo estruturado de 7 passos para atacar problemas complexos de negócio. Ap
 
 2. **Estruturar em árvore lógica (*Structure the problem*):** quebrar a questão central em ramos causais MECE (os galhos da sua Árvore da Teoria: severidade econômica da parada, viabilidade técnica da instalação em um turno, alçada de aprovação sem licitação longa e conformidade com NR-12/NR-13).
 
-3. Prioritize the issues (Priorizar): nem todo sub-problema merece mesma atenção. Aplicar 80/20, focar em branches que explicam maior parte do problema.
+3. **Priorizar os subproblemas (*Prioritize the issues*):** nem todo galho merece a mesma atenção. Aplique a regra 80/20 para concentrar energia nos ramos que concentram o maior risco de matar a tese.
 
-4. Plan the analysis (Planejar análise): para cada branch priorizada, que análises resolverão? Quais dados, de onde, em quanto tempo?
+4. **Planejar a análise (*Plan the analysis*):** para cada ramo priorizado, defina qual teste de campo, entrevista ou levantamento de dados responderá à dúvida, de qual fonte e em quanto tempo.
 
-5. Conduct analysis (Executar): fazer as análises planejadas. Sem pular para respostas.
+5. **Executar a investigação (*Conduct analysis*):** colete as evidências planejadas em campo sem pular prematuramente para conclusões.
 
-6. Synthesize findings (Sintetizar): conectar findings em narrativa coerente, não lista de fatos.
+6. **Sintetizar os achados (*Synthesize findings*):** conecte os dados levantados em uma conclusão causal clara sobre o que se confirmou e o que caiu por terra, evitando listas soltas de fatos.
 
-7. Communicate the recommendation (Comunicar): formatar em forma decisória (Pyramid Principle).
+7. **Comunicar a recomendação (*Communicate the recommendation*):** estruture a decisão final de perseverar, ajustar ou pivotar aplicando o Princípio da Pirâmide.
 
 ##### Execução prática com a equipe
 

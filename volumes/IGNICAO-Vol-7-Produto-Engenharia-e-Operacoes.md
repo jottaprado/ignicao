@@ -1226,12 +1226,12 @@ Documento narrativo de ~6 páginas (máximo) que substitui slides em reuniões e
 
 Estrutura típica:
 
-1. Contexto/problema.
-2. Abordagem proposta.
-3. Opções consideradas.
-4. **Recomendação:**
-5. Riscos/mitigações.
-6. FAQs antecipados.
+1. **Contexto e definição do problema:** diagnóstico quantificado da dor do cliente ou gargalo interno que motiva a proposta.
+2. **Abordagem proposta:** funcionamento da solução, escopo funcional e métricas de sucesso esperadas.
+3. **Alternativas consideradas:** opções técnicas ou comerciais avaliadas e os motivos objetivos pelos quais foram descartadas.
+4. **Recomendação explícita:** decisão recomendada com cronograma, recursos necessários e responsáveis.
+5. **Riscos e mitigações:** principais hipóteses de falha técnica, comercial ou regulatória e seus respectivos planos de contenção.
+6. **Perguntas frequentes antecipadas (*FAQs*):** respostas diretas às objeções mais duras que a liderança fará durante a leitura silenciosa.
 
 Regras:
 

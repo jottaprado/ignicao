@@ -133,6 +133,68 @@ for v, fname in VOL_FILES.items():
     if in_code:
         struct_issues.append((v, code_start, "UNCLOSED_CODE_BLOCK", "EOF reached inside code block"))
 
+    # 6b. List consistency invariants (no bare siblings after `- **` bullets, no mixed numbered lists, no broken sequences)
+    fence_char = None
+    seen_bullet_in_block = False
+    curr_num_list = []
+
+    def check_num_list(nlist):
+        if len(nlist) < 2:
+            return
+        # Check bold uniformity within contiguous runs
+        has_bold = any(it[2].startswith("**") for it in nlist if not it[3])
+        has_unbold = any(not it[2].startswith("**") for it in nlist if not it[3])
+        if has_bold and has_unbold:
+            struct_issues.append((v, nlist[0][0], "MIXED_NUMBERED_LIST", f"L{nlist[0][0]}..L{nlist[-1][0]}"))
+        nums = [it[1] for it in nlist]
+        if nums[0] not in (0, 1):
+            struct_issues.append((v, nlist[0][0], f"BROKEN_NUMBERED_START({nums})", f"L{nlist[0][0]}..L{nlist[-1][0]}"))
+        for k_idx in range(1, len(nums)):
+            if nums[k_idx] != nums[k_idx - 1] + 1 and nums[k_idx] not in (0, 1):
+                struct_issues.append((v, nlist[0][0], f"BROKEN_NUMBERED_SEQ({nums})", f"L{nlist[0][0]}..L{nlist[-1][0]}"))
+                break
+
+    for idx0, ln in enumerate(lines):
+        s = ln.strip()
+        m_fence = re.match(r"^(`{3,}|~{3,})", s)
+        if m_fence:
+            if fence_char is None:
+                fence_char = m_fence.group(1)
+            elif s.startswith(fence_char) and len(s.strip("`~")) == 0:
+                fence_char = None
+            continue
+        if fence_char is not None:
+            continue
+        if s.startswith("#") or s == "---" or re.match(r"^\*\*[^\n]+[:.]\*\*\s*$", s):
+            seen_bullet_in_block = False
+            check_num_list(curr_num_list)
+            curr_num_list = []
+            continue
+        if re.match(r"^-\s+\*\*", s):
+            seen_bullet_in_block = True
+        elif seen_bullet_in_block and s and not s.startswith(("-", "*", "|", ">", "1.", "2.", "3.", "4.", "5.", "6.", "7.", "8.", "9.", "[")):
+            m_short = re.match(r'^([A-ZÀ-Ú"“][^.\n:]{2,55})\.\s+(.+)$', s)
+            if m_short and len(m_short.group(1).split()) <= 8:
+                struct_issues.append((v, idx0 + 1, "BARE_SIBLING_AFTER_BULLET", s[:120]))
+
+        m_callout_num = re.match(r"^>\s*\[!\w+\]\s*(\d+)\.\s+(.+)$", s)
+        if m_callout_num:
+            n_val = int(m_callout_num.group(1))
+            if curr_num_list and n_val in (0, 1):
+                check_num_list(curr_num_list)
+                curr_num_list = []
+            curr_num_list.append((idx0 + 1, n_val, m_callout_num.group(2), True))
+            continue
+
+        m_num = re.match(r"^(\d+)\.\s+(.+)$", ln)
+        if m_num:
+            n_val = int(m_num.group(1))
+            if curr_num_list and n_val in (0, 1) and curr_num_list[-1][1] != 0:
+                check_num_list(curr_num_list)
+                curr_num_list = []
+            curr_num_list.append((idx0 + 1, n_val, m_num.group(2), False))
+    check_num_list(curr_num_list)
+
     headings_by_slug[slug] = hset
 
 # 7. Cross-volume and internal wikilink target resolution check across Vols 1-11

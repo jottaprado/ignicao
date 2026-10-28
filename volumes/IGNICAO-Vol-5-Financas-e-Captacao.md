@@ -2133,24 +2133,22 @@ Referência complementar: para term sheet de Série A que tipicamente exige a co
 
 Planos de opção de compra de ações (*stock options*) no Brasil viveram décadas de disputa entre a Receita Federal (que tentava tributá-los como remuneração salarial sujeita a até 27,5% de IRPF mais encargos trabalhistas e previdenciários) e os contribuintes (que sustentavam sua natureza mercantil, sujeita apenas ao IR sobre ganho de capital de 15% a 22,5% na venda das ações). A controvérsia foi pacificada pelo Superior Tribunal de Justiça (STJ) sob o rito vinculante dos recursos repetitivos em duas etapas complementares: em setembro de 2024, no Tema Repetitivo 1.226 (REsp 2.069.644/SP e REsp 2.074.564/SP), a 1ª Seção fixou que, no regime de *stock options* mercantil (com voluntariedade, onerosidade no preço de exercício e risco real de mercado), não incide IRPF na outorga nem no exercício da opção, tributando-se apenas o ganho de capital quando o beneficiário vender as ações com lucro, e em 14 de outubro de 2026, no Tema Repetitivo 1.379, a mesma 1ª Seção do STJ estendeu o entendimento à esfera previdenciária, afastando a cobrança de contribuição previdenciária patronal e do segurado (INSS) sobre planos mercantis de *stock options* (ver arquitetura completa no [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 12: STOCK OPTIONS E ESOP NO BRASIL|Capítulo 12 do Volume 6]]).
 
-**Natureza mercantil (favorável).** O colaborador paga strike price no exercício (oneroso). Risco mercantil genuíno (a opção pode expirar sem valor caso o preço de exercício, *strike price*, supere o valor de mercado das ações no evento de liquidez). Voluntariedade (não é obrigatório participar). Tempo de vesting razoável (geralmente quatro anos). Sem vinculação direta a desempenho salarial (não é bônus em ações mascarado).
-
 Para que o plano da sua startup esteja protegido pelas teses vinculantes dos Temas 1.226 (IRPF) e 1.379 (INSS) do STJ, o contrato e a prática operacional precisam comprovar os três elementos da natureza mercantil (caso contrário, se as ações forem entregues gratuitamente como *RSUs* ou com recompra garantida sem risco de perda, a fiscalização caracterizará remuneração salarial):
 
-**Natureza trabalhista (desfavorável).** Plano é essencialmente bônus em ações (sem strike price, ou simbólico). Sem risco real (ações entregues gratuitamente, ou quase). Vinculado diretamente a metas de desempenho, com entrega garantida. Tempo de vesting curto, ou eventos de aceleração frequentes.
+- **Natureza mercantil (favorável):** o colaborador adquire a opção e paga preço de exercício (*strike price*) oneroso; assume risco mercantil genuíno (a opção pode expirar sem valor caso o preço de exercício supere o valor de mercado das ações no evento de liquidez); adere com voluntariedade (sem obrigatoriedade contratual); cumpre período de maturação (*vesting*) razoável (tipicamente de quatro anos) e não tem a outorga vinculada como substituto de bônus salarial de curto prazo.
 
-Nesse caso, tributação como salário. 7,5 a 27,5% na tabela progressiva, mais INSS (até teto), mais FGTS, mais 13º proporcional, mais encargos patronais.
+- **Natureza trabalhista / remuneratória (desfavorável):** o plano funciona na prática como bônus em ações sem preço de exercício (ou com preço meramente simbólico), sem risco de perda para o beneficiário (ações entregues gratuitamente ou com recompra garantida pela empresa) e atrelado diretamente a metas individuais de curto prazo. Nesse cenário, a fiscalização exige tributação como remuneração do trabalho: IRPF pela tabela progressiva (7,5% a 27,5%), contribuição previdenciária (INSS patronal e do segurado), FGTS e reflexos trabalhistas em 13º salário e férias.
 
-**Desenho de plano que maximiza chance de classificação mercantil.**
+**Desenho de plano que sustenta a natureza mercantil:**
 
-1. Strike price igual ou maior que fair market value, no momento da concessão (FMV pode ser baseado em última rodada, ou valuation formal).
-2. Vesting mínimo de quatro anos, com cliff de um ano (padrão internacional).
-3. Exercício voluntário. O colaborador decide quando, e se, exerce.
-4. Aprovação societária formal do plano (assembleia).
-5. Plano como documento corporativo formal (não cláusula em contrato de trabalho).
-6. Reconheça o valor justo das opções como despesa ao longo do período de *vesting* em contrapartida à reserva de capital no Patrimônio Líquido, conforme exige o CPC 10 (IFRS 2): o que sustenta a natureza mercantil perante o fisco e o STJ (Tema 1.226) é a onerosidade e o risco de mercado do contrato, não omitir a contabilização.
-7. Sem vinculação direta a salário (não é "quinze por cento do salário em ações").
-8. Comunicação alinhada. Em documentos internos, e externos, tratar como participação societária.
+1. **Preço de exercício (*strike price*) oneroso:** fixado em valor igual ou superior ao valor justo de mercado (*fair market value*, FMV) na data da outorga, ancorado na última rodada de captação ou em laudo contábil/econômico.
+2. **Horizonte de maturação (*vesting*) consistente:** cronograma mínimo de quatro anos com carência inicial (*cliff*) de um ano.
+3. **Adesão e exercício voluntários:** o beneficiário decide livremente se assina o contrato de outorga e se exerce ou não as opções após o *vesting*.
+4. **Aprovação societária formal:** instituição do plano aprovada em assembleia geral de acionistas (ou reunião de sócios) e arquivada nos livros societários.
+5. **Instrumento contratual autônomo:** formalização em Plano de Outorga e contratos individuais mercantis apartados do contrato de trabalho CLT.
+6. **Contabilização fiel pelo CPC 10 (IFRS 2):** reconheça o valor justo das opções como despesa ao longo do período de *vesting* em contrapartida à reserva de capital no Patrimônio Líquido; o que sustenta a natureza mercantil perante o fisco e o STJ (Temas 1.226 e 1.379) é a onerosidade e o risco de mercado do contrato, não omitir a contabilização.
+7. **Desvinculação de rubricas salariais:** jamais prometa lotes de opções como percentual fixo do salário mensal ou substituto de reajuste obrigatório.
+8. **Comunicação interna e externa coerente:** trate o instrumento em todas as propostas e comunicados como oportunidade de participação societária sujeita a risco de mercado.
 
 **Modelos práticos.**
 
@@ -2164,12 +2162,12 @@ Nesse caso, tributação como salário. 7,5 a 27,5% na tabela progressiva, mais 
 
 **PLR (Participação nos Lucros ou Resultados, Lei 10.101/2000):** bônus anual ou semestral em dinheiro atrelado a metas previamente pactuadas (detalhado na seção própria mais adiante neste capítulo). Funciona como complemento de curto prazo e não substitui o alinhamento de longo prazo do *equity*.
 
-**Eventos tributários em stock options.**
+**Eventos tributários em stock options:**
 
-1. Concessão (grant). Geralmente não tributada. Apenas direito de opção futura.
-2. **Vesting:** Geralmente não tributado. Direito se consolida.
-3. Exercício (exercise). Sob natureza mercantil. Sem tributação imediata (apenas custo de aquisição igual a strike price). Sob natureza trabalhista. Diferença entre FMV, e strike, é tributada como salário no momento.
-4. Venda das ações. Sob natureza mercantil. Ganho de capital (FMV na venda menos strike) tributado a quinze a 22,5%. Sob natureza trabalhista. Venda apenas tributa diferença entre FMV no exercício, e FMV na venda (se existir).
+1. **Outorga (*grant*):** não há fato gerador tributário na assinatura, pois configura apenas expectativa contratual de direito sujeita a carência.
+2. **Maturação (*vesting*):** consolida o direito de exercer a opção pelo preço contratado, sem incidência de IRPF ou INSS no regime mercantil.
+3. **Exercício (*exercise*):** sob natureza mercantil (Temas 1.226 e 1.379 do STJ), não há incidência de IRPF nem de contribuição previdenciária no ato da compra das ações, registrando-se o valor pago (*strike price*) como custo de aquisição na declaração do beneficiário; já se o plano for descaracterizado como remuneratório, a diferença entre o valor de mercado e o preço pago é exigida pelo Fisco como remuneração do trabalho no exercício.
+4. **Venda das ações (*exit* / alienação):** sob natureza mercantil, o ganho de capital (preço de venda menos o *strike price* pago) é tributado exclusivamente na alienação pelas alíquotas progressivas de 15% a 22,5% (Lei 13.259/2016); sob natureza remuneratória, tributa-se na venda apenas a valorização adicional ocorrida entre a data do exercício e a data da alienação.
 
 **Em estrutura com Delaware Flip.** Funcionário pode ter opções sobre ações da holding DE. Tributação segue regras americanas no nível da holding. ISOs (Incentive Stock Options), e NSOs (Non-Qualified), têm tratamentos diferentes nos EUA. No Brasil, mesmo sendo ações estrangeiras, ganho de capital em alienação é tributado no Brasil (na declaração do funcionário residente).
 
@@ -2221,15 +2219,15 @@ Para a modelagem de diluição, negociação de *valuation* e governança de rod
 
 **Cláusulas decisivas em mútuo conversível.**
 
-1. Trigger de conversão automática. Rodada acima de R$ X, e/ou com investidor qualificado.
-2. Trigger de conversão opcional. O investidor pode escolher converter em certos eventos.
-3. **Desconto:** Aplicado sobre preço por quota, ou ação, da nova rodada.
-4. Valuation cap. Ceiling para proteção, em caso de mega-rodada.
-5. MFN (Most Favored Nation). Se o próximo investidor tiver termos melhores, o anjo iguala.
-6. Pro-rata rights. Direito de participar de rodadas futuras.
-7. **Informação:** Relatórios periódicos, e inspeção.
-8. Tag-along. Se os fundadores venderem, o anjo tem direito de vender também.
-9. Anti-diluição. Proteção contra down-rounds.
+1. **Gatilho de conversão automática (*automatic conversion*):** conversão obrigatória em participação societária quando a startup captar uma rodada qualificada acima de R$ X com investidor institucional.
+2. **Gatilho de conversão opcional (*optional conversion*):** direito do investidor de optar pela conversão no vencimento ou em eventos societários específicos caso a rodada qualificada ainda não tenha ocorrido.
+3. **Desconto de conversão (*discount rate*):** percentual de abatimento (tipicamente de 15% a 25%) aplicado sobre o preço por quota ou ação pago pelos novos investidores da rodada qualificada.
+4. **Teto de avaliação (*valuation cap*):** limite máximo de *valuation* no qual o mútuo será convertido, protegendo o investidor inicial contra diluição excessiva caso a rodada seguinte ocorra a um múltiplo elevado.
+5. **Cláusula de nação mais favorecida (*Most Favored Nation*, MFN):** garantia de que, se a startup emitir novo instrumento conversível posterior com termos econômicos mais vantajosos antes da conversão, o investidor anterior poderá aderir a essas condições.
+6. **Direito de preferência (*pro-rata rights*):** prerrogativa de acompanhar rodadas futuras aportando capital adicional para manter seu percentual de participação na companhia.
+7. **Direito à informação (*information rights*):** envio periódico de demonstrativos financeiros, indicadores operacionais e acesso organizado aos livros para acompanhamento do investimento.
+8. **Direito de venda conjunta (*tag-along*):** proteção que assegura ao investidor o direito de alienar seus títulos nas mesmas condições caso os fundadores vendam o controle da empresa.
+9. **Proteção antidiluição (*anti-dilution*):** ajuste contratual aplicável em caso de rodadas subsequentes com avaliação inferior (*down-round*).
 
 > [!warning] Armadilhas em mútuo conversível
 > Múltiplos mútuos sem coordenação. A conversão simultânea complica cap table. Valuation cap muito baixo. O anjo captura demais em sucesso. Valuation cap muito alto. O anjo não tem proteção real. Conversion trigger mal-definido. Ambiguidade em evento ativa disputa. Prazo sem evento. Ao fim do prazo, a empresa pode não ter capital para quitar. Juros altos. Se não converter, a empresa carrega dívida pesada.
@@ -2498,7 +2496,7 @@ O **Programa Mobilidade Verde e Inovação (Mover, instituído pela Lei 14.902/2
 
 1. **Identificar o incentivo aplicável** com tributarista especializado em tech (não contador generalista)
 2. **Verificar elegibilidade**: regime tributário, setor, regularidade fiscal
-- Habilitação prévia do projeto no MDIC / Programa Mover e apuração pelo Lucro Real.
+3. **Cumprir os pré-requisitos operacionais e fiscais**: habilitação prévia do projeto no MDIC (quando aplicável, como no Programa Mover) e apuração pelo Lucro Real para incentivos como a Lei do Bem
 4. **Montar processo de documentação** antes de usufruir do benefício
 5. **Registrar e controlar** por projeto, por colaborador, por despesa
 6. **Manter obrigações acessórias**: formulários específicos na ECF (Escrituração Contábil Fiscal)
@@ -6044,9 +6042,9 @@ Sinergia específica. "Quanto custo consigo cortar? Quanto revenue consigo cross
 
 PE compra empresa madura, com mix equity, mais dívida. Opera por três a sete anos e depois vende a participação.
 
-1. LBO model. Quanta dívida a empresa consegue suportar, mais quanto equity o PE precisa colocar.
+1. **Estrutura de compra alavancada (*LBO model*):** dimensionamento de quanta dívida a geração de caixa da empresa suporta amortizar com segurança, complementada pela parcela de capital próprio (*equity*) aportada pelo fundo.
 2. **Meta de retorno (*return target*):** fundos de Private Equity buscam tipicamente uma Taxa Interna de Retorno (TIR) entre 20% e 25% ao ano sobre o capital próprio investido (`Múltiplo de Capital = (1 + TIR)^n`).
-3. Valuation máximo pago igual a valor de saída projetada, dividido por 1 mais TIR, elevado a anos. Menos dívida paga ao longo do período.
+3. **Preço máximo de entrada (*maximum entry valuation*):** calculado trazendo o valor projetado de saída a valor presente pela TIR-alvo do fundo (`Valor de Saída Projetado / (1 + TIR)^n`), descontando-se o serviço da dívida ao longo do período de maturação.
 
 No Brasil, gestoras de *Private Equity* e *Growth Equity* (como Patria Investimentos, Advent International, Vinci Partners, HIG Capital, KKR, General Atlantic e Riverwood Capital) buscam tipicamente empresas com EBITDA consolidado ou liderança clara de mercado, utilizando múltiplos de EBITDA e expansão operacional (como nos históricos investimentos da Advent na Microsiga/TOTVS em 1999 e na CI&T em 2019, no fechamento de capital da Arco Educação por General Atlantic e Dragoneer em 2023 e nas rodadas de *growth* conduzidas por Riverwood e General Atlantic no país).
 

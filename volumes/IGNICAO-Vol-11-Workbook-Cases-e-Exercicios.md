@@ -4562,7 +4562,7 @@ Os dados históricos auditados dos últimos 4 trimestres da empresa revelam as s
 - **Porém**, ao auditar negócio por negócio no CRM, a diretora de RevOps descobriu três anomalias graves (*Pipeline Bloat / Deals Zumbis*):
   1. **R$ 2.400.000,00** daquele pipeline são oportunidades paradas no mesmo estágio há mais de 120 dias (o dobro do ciclo médio de vendas de 60 dias), sem nenhum e-mail respondido pelo cliente nos últimos 30 dias (*Negócios Zumbis*).
   2. **R$ 1.300.000,00** são propostas enviadas para empresas estatais e grandes bancos cujo processo de compras/licitação exige no mínimo 6 meses, tornando impossível o fechamento dentro do 4º trimestre (*Slippage* contratual garantido para o 1º semestre de 2027).
-  3. O restante do pipeline limpo e ativo (R$ 7.500.000,00) está dividido nas seguintes categorias de *Forecast* (com suas respectivas probabilidades reais históricas de fechamento no trimestre):
+  3. **R$ 7.500.000,00** correspondem ao restante do pipeline limpo e ativo, dividido nas seguintes categorias de *Forecast* (com suas respectivas probabilidades reais históricas de fechamento no trimestre):
      - **Categoria 1: *Commit* (Proposta final aprovada pelo decisor econômico, em revisão jurídica/compras): R$ 2.200.000,00 em pipeline, com taxa histórica de fechamento no trimestre de 80,0%**.
      - **Categoria 2: *Best Case / Upside* (Prova de Conceito / POC técnica concluída com sucesso, negociando proposta comercial): R$ 2.800.000,00 em pipeline, com taxa histórica de fechamento no trimestre de 35,0%**.
      - **Categoria 3: *Pipeline Inicial* (Estágio 2, Diagnóstico / Descoberta Técnica realizada): R$ 2.500.000,00 em pipeline, com taxa histórica de fechamento dentro do mesmo trimestre de 10,0%**.
@@ -7068,7 +7068,7 @@ Na minuta do **Contrato de Compra e Venda de Ações (*SPA: Share Purchase Agree
 2. **Controle Orçamentário Unilateral e Rateio Corporativo (*Corporate Overhead*):** A GiganteERP poderá cortar livremente o orçamento de marketing da FinTributo, transferir os engenheiros da FinTributo para outros projetos da matriz e lançar na DRE da FinTributo uma "taxa de rateio administrativo corporativo" (*management fee*) definida pela matriz, o que derrubaria artificialmente o EBITDA abaixo de 25%.
 3. **Gatilho Binário (*All-or-Nothing Cliff*):** Se a FinTributo entregar R$ 49,5 milhões de ARR (99% da meta), o pagamento do *Earn-Out* será R$ 0,00.
 
-Você está na reunião decisiva com Dr. Estevão (Diretor de M&A da GiganteERP) para fechar a redação final do *SPA*.
+Você está sentado na sala de reuniões com o diretor jurídico e de M&A da GiganteERP (Dr. Estevão) para fechar a redação final do contrato de compra e venda de ações (*SPA*).
 
 ---
 

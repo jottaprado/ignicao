@@ -425,7 +425,7 @@ Exercício: red team apresenta decisivas, blue team responde. Se blue team não 
 
 ##### Roteiro de aplicação prática na operação
 
-1. Escolha decisões que justifiquem o esforço analítico: aprovação de rodada de captação (*go/no-go*), fusão ou aquisição (M&A), ou lançamento de linha de produto relevante. Não gaste o método em escolhas triviais.
+Passo 1: Escolha decisões que justifiquem o esforço analítico: aprovação de rodada de captação (*go/no-go*), fusão ou aquisição (M&A), ou lançamento de linha de produto relevante. Não gaste o método em escolhas triviais.
 
 Passo 2: Red team deve ter independência. Membros com autoridade para dissidência real. Não "red team que concorda no final por medo".
 
@@ -658,8 +658,8 @@ Quadrantes:
 Passo 1: Liste premissas subjacentes à ideia. 3 categorias:
 
 - **Desejabilidade:** os clientes realmente querem a solução e reconhecem valor nela?
-- Viabilidade: negócio fecha?
-- Factibilidade: conseguimos construir?
+- **Viabilidade:** o modelo de negócio fecha a conta e gera margem sustentável?
+- **Exequibilidade (factibilidade):** a equipe consegue construir e operar a solução na prática?
 
 Passo 2: Plote cada premissa na matriz.
 
@@ -979,15 +979,15 @@ Riscos e vieses: [o que pode distorcer o resultado]
 Data de início / fim: [planejadas]
 ```
 
-##### Regra operacional para a duração, a janela de duas a três semanas
+##### Regra operacional para a duração: a janela de duas a três semanas
 
 Fundadores de primeira viagem costumam desenhar experimentos sem prazo de encerramento ("vamos rodar até acumular dados") ou com janelas dilatadas de vários meses. Ambos os desvios nascem do receio de encarar o veredito do mercado: todo experimento precisa terminar, na data marcada, em uma de quatro decisões explícitas (Persevere, Ajuste, Pivote ou Abandone).
 
 A heurística operacional adotada neste manual é direta: na Fase 8, cada experimento de validação de oferta ou pré-venda em PME e D2C deve caber numa janela de duas a três semanas, do desenho à decisão (reservas de quatro a oito semanas aplicam-se apenas a ciclos contínuos de *Concierge* ou *Mágico de Oz* e a pilotos *enterprise* de ciclo longo). Há dois motivos práticos para essa trava de calendário.
 
-Disciplina de decisão. Experimento com prazo aberto nunca termina. Sempre "precisa de mais uma semana". Janela fechada força você a concluir com o dado disponível. Reconhecer as limitações honestamente, em vez de empurrá-las com a barriga.
+- **Disciplina de decisão:** experimentos com prazo aberto nunca terminam, porque sempre parecem "precisar de mais uma semana". A janela fechada obriga a equipe a decidir com o dado disponível e a encarar as limitações da hipótese sem postergar o veredito.
 
-**Paralelização:** Com janelas curtas, você roda quatro a seis experimentos em três meses. Com janelas longas, roda um a dois. A velocidade de aprendizado é composta. Mais iterações dentro do mesmo tempo total geram aprendizados muito superiores.
+- **Paralelização e velocidade composta:** com janelas curtas, a startup executa de quatro a seis experimentos em três meses, enquanto janelas longas permitem apenas um ou dois. Mais ciclos fechados no mesmo intervalo geram aprendizado acumulado superior.
 
 Existem duas exceções legítimas à janela curta de validação: experimentos de *Concierge* e *Wizard of Oz*, que costumam exigir de quatro a oito semanas de operação manual para medir retenção e valor entregue, e vendas B2B *enterprise*, cujo ciclo decisório do cliente leva de seis a doze semanas. A régua de tempo respeita o ciclo real de decisão do comprador, não a ansiedade interna da startup.
 
@@ -1498,7 +1498,7 @@ Passo 1: Defina 3-6 atributos com 2-4 níveis cada, por exemplo: pricing (R$ 50/
 
 Passo 2: Use ferramenta especializada: Sawtooth (padrão), Conjoint.ly, Qualtrics. DIY em Excel é possível mas limitado.
 
-3. **Filtro de estágio e amostra (regra de ouro para não queimar caixa cedo demais):** Só aplique *Conjoint Analysis* ou *MaxDiff* quando a startup já possuir uma base acessível de 200 a 500 clientes ou prospectos qualificados do ICP e orçamento para software de pesquisa (momento típico de otimização de pacotes pós-MVP na Fase 12 e no Capítulo 6 do Volume 4). Durante a Fase 8, dentro do teto enxuto de R$ 500 a R$ 2.000 por teste digital, substitua o Conjoint por experimentos diretos de pré-venda ou página de teste comparando duas faixas reais de preço.
+Passo 3: Filtro de estágio e amostra (regra de ouro para não queimar caixa cedo demais): só aplique *Conjoint Analysis* ou *MaxDiff* quando a startup já possuir uma base acessível de 200 a 500 clientes ou prospectos qualificados do ICP e orçamento para software de pesquisa (momento típico de otimização de pacotes pós-MVP na Fase 12 e no Capítulo 6 do Volume 4). Durante a Fase 8, dentro do teto enxuto de R$ 500 a R$ 2.000 por teste digital, substitua o Conjoint por experimentos diretos de pré-venda ou página de teste comparando duas faixas reais de preço.
 
 Passo 4: Desenho experimental: ferramenta gera bundles a mostrar (fractional factorial design).
 
@@ -1570,24 +1570,23 @@ MaxDiff para priorizar 20 features candidatas:
 
 - **Amostra e estágio de aplicação:** 200 a 250 clientes ativos ou prospectos qualificados do ICP (aplicável na evolução de pacotes pós-MVP ou em empresas que já contam com lista qualificada de usuários, para um MVP inicial de três telas nas Fases 8 a 10, priorize pelo método MoSCoW e por testes diretos de pagamento).
 
-Resultado (top 5 e bottom 5):
+**As 5 funcionalidades mais valorizadas (*Top 5* de 20, prioridade alta):**
 
-Top 5 (prioridade alta):
+1. **1º de 20 (Integração automática com bancos):** nota 9,2/10.
+2. **2º de 20 (Relatório fiscal simplificado):** nota 8,7/10.
+3. **3º de 20 (Painel móvel de acompanhamento):** nota 7,8/10.
+4. **4º de 20 (Notificações inteligentes de vencimento):** nota 7,2/10.
+5. **5º de 20 (Importação de extratos em PDF):** nota 6,9/10.
 
-1. Integração automática com bancos (score 9.2/10).
-2. Relatório fiscal simplificado (8.7).
-3. Dashboard móvel (7.8).
-4. Notificações inteligentes de vencimento (7.2).
-5. Importação de extratos PDF (6.9).
+**As 5 funcionalidades menos valorizadas (*Bottom 5*, posições 16 a 20 de 20, baixa prioridade):**
 
-Bottom 5 (baixa prioridade):
-16. Integração com Zapier (2.1).
-17. Tema dark mode (1.8).
-18. Modo offline (1.3).
-19. Widget de calendário (1.1).
-20. Assinatura eletrônica (0.8).
+1. **16º de 20 (Integração com Zapier):** nota 2,1/10.
+2. **17º de 20 (Tema visual escuro, *dark mode*):** nota 1,8/10.
+3. **18º de 20 (Modo desconectado, *offline*):** nota 1,3/10.
+4. **19º de 20 (*Widget* de calendário):** nota 1,1/10.
+5. **20º de 20 (Assinatura eletrônica própria):** nota 0,8/10.
 
-Insight: roadmap focado em integrações bancárias e relatórios fiscais, features como dark mode, Zapier, offline ficam para depois. Validação quantitativa clara.
+**Decisão prática para o *roadmap*:** concentrar a engenharia nas integrações bancárias e relatórios fiscais, adiando itens cosméticos ou periféricos (como *dark mode*, Zapier e modo *offline*) com respaldo quantitativo claro.
 
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
@@ -2120,7 +2119,7 @@ Princípios-chave:
 
 ##### Passos práticos de implantação
 
-1. Defina um resultado de negócio mensurável (*outcome*) antes de abrir a geração de ideias.
+1. **Defina um resultado de negócio mensurável (*outcome*)**: estabeleça a métrica específica que precisa mover antes de abrir a geração de ideias.
 
 2. **Mapeie as oportunidades a partir de entrevistas reais**: preencha o segundo nível da árvore apenas com dores, necessidades e obstáculos observados nas entrevistas de descoberta (Fases 4 e 5), nunca com suposições inventadas na sala de reunião.
 
@@ -2208,16 +2207,6 @@ Sprint em fintech early-stage para feature de "análise de gastos":
 - **Quinta-feira (Prototipar):** construção em um único dia do fluxo clicável no Figma com valores e textos realistas.
 - **Sexta-feira (Testar):** cinco sessões individuais de 45 minutos mostram que 4 de 5 usuários entendem e acionam o alerta no primeiro minuto, mas travam no termo técnico "aplicação automática com liquidez D+0", que é trocado na mesma tarde por "guardar com resgate imediato".
 
-Terça: sketches individuais com ideias variadas (categorização automática, comparação com média, alertas, gráficos, AI suggestions).
-
-Quarta: storyboard escolhido: categorização + comparação com pares + alerta de anomalia.
-
-Quinta: prototype clicável em Figma, 8 telas.
-
-Sexta: 5 entrevistas. Resultado: categorização adorada, comparação com pares gera desconforto, alerta útil mas intrusivo.
-
-Decisão: lançar MVP com categorização, testar comparação com UI opcional, iterar em alerta.
-
 ##### Onde o papel aceita tudo (armadilhas de execução)
 
 - Estender o sprint para duas ou três semanas: perde o foco e arrasta as decisões.
@@ -2250,9 +2239,9 @@ Princípio-chave: **divergir antes de convergir** em cada diamante.
 
 ##### As regras do jogo
 
-3 lentes de IDEO:
+As três lentes de avaliação de toda solução na IDEO (tríade DVF aplicada no Passo 2 desta fase):
 
-2. As três lentes de avaliação de toda solução na IDEO: Desejabilidade (as pessoas realmente querem e conseguem usar?), Viabilidade (para em pé economicamente?) e Exequibilidade (é possível construir na prática?), formando a tríade DVF aplicada no Passo 2 desta fase.
+- **Desejabilidade (*Desirability*):** as pessoas realmente querem a solução e conseguem utilizá-la sem atrito?
 - **Viabilidade econômica (*Viability*):** o modelo de negócio fecha a conta e sustenta margem saudável?
 - **Exequibilidade (*Feasibility*):** a equipe consegue construir e operar a solução com a tecnologia e os recursos disponíveis?
 
@@ -2261,21 +2250,10 @@ Uma solução sustentável nasce na interseção entre desejabilidade, exequibil
 As **4 etapas do Diamante Duplo** do Design Council britânico e sua correspondência direta com as 5 etapas da d.school de Stanford:
 
 1. **Empatizar (*Empathize*, 1º Diamante / Divergir no Problema):** mergulhar no contexto real do usuário por meio de observação direta em campo e entrevistas sem julgamento.
-2. **Definir (*Define*, 1º Diamante / Convergir no Problema):** sintetizar os achados da imersão para recortar o problema prioritário e o ponto de vista (*Point of View*) que guiará a criação.
+2. **Definir (*Define*, 1º Diamante / Convergir no Problema):** sintetizar os achados da imersão para recortar o problema prioritário e o ponto de vista (*Point of View*: *"[Usuário] precisa de [necessidade] porque [insight]"*) que guiará a criação.
 3. **Idear (*Ideate*, 2º Diamante / Divergir na Solução):** gerar dezenas de alternativas contrastantes de solução (usando técnicas como *Crazy 8s* e *How Might We*) antes de escolher uma.
 4. **Prototipar (*Prototype*, 2º Diamante / Convergir na Solução):** construir representações físicas ou digitais baratas e descartáveis em poucas horas para tornar as ideias tangíveis.
 5. **Testar (*Test*, 2º Diamante / Validar em Uso):** colocar o protótipo nas mãos de usuários reais do ICP, observar onde travam em silêncio e iterar o desenho.
-2. **Definir (*Define*):** recortar o problema prioritário com base nas evidências de campo.
-
-4. **Prototype:**
-
-Passo 2: Define: sintetize em "point of view" statement, "[Usuário] precisa [necessidade] porque [insight]".
-
-Passo 3: Ideate: brainstorm extenso, "crazy 8s", "worst possible idea", outras técnicas.
-
-Passo 4: Prototype: baixa fidelidade, rápido e descartável.
-
-Passo 5: Test: com usuários reais, iterate.
 
 ##### Na trincheira real: como isso funciona na prática
 
@@ -3015,13 +2993,13 @@ Tipos:
 
 ##### Passos práticos de implantação
 
-1. Defina tarefas operacionais concretas em vez de pedir impressões vagas: peça "emita a sua primeira nota fiscal", que funciona como teste real, e nunca "veja se você gosta do aplicativo", que não testa nada.
+Passo 1: Defina tarefas operacionais concretas em vez de pedir impressões vagas: peça "emita a sua primeira nota fiscal", que funciona como teste real, e nunca "veja se você gosta do aplicativo", que não testa nada.
 
 Passo 2: Recrute representativos. Usuários que parecem ICP, não colegas.
 
 Passo 3: Roteiro de 45-60 min com 4-6 tarefas.
 
-4. **Aplique o protocolo de pensar em voz alta (*Think-Aloud Protocol*, detalhado logo adiante nesta oficina)**: peça ao participante que verbalize o que está lendo e procurando na tela enquanto executa cada tarefa, sem que o moderador dê dicas ou confirme se o clique está certo.
+Passo 4: Aplique o protocolo de pensar em voz alta (*Think-Aloud Protocol*, detalhado logo adiante nesta oficina): peça ao participante que verbalize o que está lendo e procurando na tela enquanto executa cada tarefa, sem que o moderador dê dicas ou confirme se o clique está certo.
 
 Passo 5: Observe + não ajude. Tentador dar dica, resiste. Ajudar destrói o teste.
 
@@ -3205,17 +3183,17 @@ Três variações:
 
 Passo 1: Selecione 30-60 cards representativos da informação/funcionalidade.
 
-2. **Recrute de 15 a 30 participantes do ICP** (faixa recomendada pelos estudos empíricos de Tom Tullis e Larry Wood, 2004, para obter correlação estável nos agrupamentos de cartões, e adotada por Donna Spencer na prática de arquitetura da informação).
+Passo 2: Recrute de 15 a 30 participantes do ICP (faixa recomendada pelos estudos empíricos de Tom Tullis e Larry Wood, 2004, para obter correlação estável nos agrupamentos de cartões, e adotada por Donna Spencer na prática de arquitetura da informação).
 
 Passo 3: Instruções claras: "agrupe estes cards em categorias que façam sentido pra você".
 
-4. **Execute a sessão presencialmente (com cartões de papel) ou remotamente**: plataformas digitais como OptimalSort (Optimal Workshop), Maze ou UserTesting (que incorporou a antiga UserZoom) calculam automaticamente a matriz de similaridade e os dendrogramas.
+Passo 4: Execute a sessão presencialmente (com cartões de papel) ou remotamente: plataformas digitais como OptimalSort (Optimal Workshop), Maze ou UserTesting (que incorporou a antiga UserZoom) calculam automaticamente a matriz de similaridade e os dendrogramas.
 
 Passo 5: Análise: matriz de co-ocorrência (qual par de cards foi mais frequentemente agrupado).
 
 Passo 6: Cluster analysis: dendrograma ou algoritmo para identificar categorias emergentes.
 
-7. **Valide a árvore resultante com um teste de navegação (*Tree Testing*, detalhado no framework seguinte desta oficina)**: confirme se novos usuários encontram rapidamente os itens dentro dos menus criados antes de programar a interface.
+Passo 7: Valide a árvore resultante com um teste de navegação (*Tree Testing*, detalhado no framework seguinte desta oficina): confirme se novos usuários encontram rapidamente os itens dentro dos menus criados antes de programar a interface.
 
 ##### Na trincheira real: como isso funciona na prática
 
@@ -3326,7 +3304,7 @@ Passo 2: Pratique com tarefa neutra (1-2 min) para participante se acostumar.
 
 Passo 3: Durante tarefa real, pesquisador fica em silêncio. Só intervém se participante para de falar por > 15 seg: "o que está pensando?"
 
-4. Grave áudio e tela somente após colher o termo de consentimento informado por escrito ou gravado no início da chamada (LGPD, Lei nº 13.709/2018), especificando finalidade exclusiva de pesquisa de produto, prazo de descarte da gravação, quem na equipe terá acesso e o cuidado de ocultar dados bancários ou de terceiros na tela do participante B2B.
+Passo 4: Grave áudio e tela somente após colher o termo de consentimento informado por escrito ou gravado no início da chamada (LGPD, Lei nº 13.709/2018), especificando finalidade exclusiva de pesquisa de produto, prazo de descarte da gravação, quem na equipe terá acesso e o cuidado de ocultar dados bancários ou de terceiros na tela do participante B2B.
 
 Passo 5: Analise: onde houve confusão? Onde expressou frustração? Onde pensou em abandonar?
 
@@ -3371,7 +3349,7 @@ Alternadas positivas e negativas:
 
 ##### Roteiro de aplicação prática na operação
 
-1. Aplique o questionário imediatamente após o participante usar o protótipo ou sistema de fato nas tarefas propostas, e nunca apenas depois de ouvir uma explicação ou demonstração guiada.
+Passo 1: Aplique o questionário imediatamente após o participante usar o protótipo ou sistema de fato nas tarefas propostas, e nunca apenas depois de ouvir uma explicação ou demonstração guiada.
 
 Passo 2: Cálculo:
 
@@ -4028,8 +4006,7 @@ Um bom próximo movimento (*Committed Next Move*) produz evidência observável 
 **Decisão na trincheira (Capítulo 2):** Entre Recife e Goiânia, Rafael e Bia aplicaram o Espelho do Capítulo 2 e pararam imediatamente os testes de cor de botão na loja virtual: com o Gate 6 (Economia Unitária: CAC de R$ 95 para R$ 40 de margem inicial) e o Gate 8 (Retenção: 88% sem recompra no segundo mês) reprovados em $E=3$, firmaram como *Committed Next Move* de 21 dias converter 30% das compradoras do primeiro lote para o kit de reposição automática no 30º dia antes de gastar mais um real em anúncios.
 
 **O Espelho (autodiagnóstico):**
-1. **Portões de Evidência (Gates H/E):** se você trouxer mil clientes novos amanhã de manhã, a sua retenção de 60 dias e a sua margem unitária multiplicam o caixa ou multiplicam o prejuízo de aquisição? *(Nos itens 2 e 3 abaixo, audite também o alinhamento entre maturidade tecnológica e comercial, TRL e CRL, e se a sua equipe tem um único Committed Next Move com data e ponto de corte para os próximos 15 a 30 dias.)*
-2. Quantas horas a sua equipe gastou na última semana em tarefas de *Scale Levers* (automações sofisticadas, testes A/B de botão, contratação de vendedores) enquanto uma falha grave no *Problem Core* continua aberta?
+1. **Portões de Evidência (Gates H/E) e Foco no *Problem Core*:** se você trouxer mil clientes novos amanhã de manhã, a sua retenção de 60 dias e a sua margem unitária multiplicam o caixa ou multiplicam o prejuízo de aquisição, e quantas horas a equipe gastou na última semana em *Scale Levers* enquanto uma falha no *Problem Core* segue aberta? *(Nos itens 2 e 3 abaixo, audite também o alinhamento entre maturidade tecnológica e comercial, TRL e CRL, e se a sua equipe tem um único Committed Next Move com data e ponto de corte para os próximos 15 a 30 dias.)*
 2. **Alinhamento Tecnológico e Comercial (TRL × CRL):** o seu nível de validação com clientes reais (CRL) caminha junto com o desenvolvimento técnico (TRL), ou você está trancado no laboratório construindo uma solução TRL 7 com CRL 1 que nenhum comprador pediu?
 3. **Compromisso de Fechamento (*Committed Next Move*):** você encerrou a última reunião de avaliação com uma única hipótese prioritária, um experimento de 15 a 30 dias no calendário e um ponto de corte numérico escrito, ou saiu com uma lista difusa de vinte tarefas operacionais?
 **Permissão Libertadora:**
@@ -4338,9 +4315,9 @@ Depois de estruturar a partida a frio (*cold start*), a liquidez e a defesa cont
 
 - **Liquidez desagregada por submercado (e nunca apenas a média geral):** um marketplace pode exibir uma taxa média enganosa de 35% de pedidos fechados no painel consolidado enquanto tem 70% de liquidez na capital e apenas 5% no interior, ou alta conversão na categoria de presentes até R$ 100 e zero em kits acima de R$ 500. Acompanhe a liquidez separando sempre geografia × categoria × faixa de horário.
 
-Time-to-fill (tempo entre query, e match). Métrica complementar. Mesmo com trinta e cinco por cento de match rate, se leva quarenta e oito horas, a experiência é ruim. Alvo varia por categoria. Mobility. Segundos a minutos. Labor marketplace. Horas a dias. M&A. Semanas a meses.
+- **Tempo até o fechamento (*time-to-fill*, intervalo entre a busca e o *match*):** métrica complementar indispensável, pois mesmo com 35% de taxa de conversão, esperar 48 horas em uma categoria urgente arruína a experiência. O alvo varia conforme a vertical: segundos a minutos em mobilidade urbana, horas a dias em serviços e trabalho temporário, e semanas a meses em transações imobiliárias ou de M&A.
 
-Fill rate por horário, ou sazonalidade. Demanda concentrada em horário sem oferta suficiente, igual a experiência ruim, mesmo com liquidez agregada boa. Incentivos dinâmicos (surge pricing) ajustam.
+- **Taxa de atendimento por faixa de horário e sazonalidade (*fill rate*):** quando a demanda se concentra em janelas específicas sem oferta disponível naquele turno, a experiência falha na ponta mesmo que a média mensal pareça saudável, exigindo incentivos dinâmicos de preço (*surge pricing*) ou bônus de ativação para equilibrar a praça.
 
 #### 2. Take rate, quanto cobrar
 

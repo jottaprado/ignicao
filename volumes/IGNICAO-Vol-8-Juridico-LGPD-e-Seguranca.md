@@ -2160,13 +2160,13 @@ Due diligence reversa (DD reversa) é o exercício de antecipar, do lado do fund
 
 A auditoria jurídica (*due diligence*) padrão em Série A, Série B e M&A cobre os sete blocos detalhados na lista a seguir: (1) estrutura societária, cap table e ESOP, (2) contratos materiais com clientes e fornecedores, (3) conformidade trabalhista, (4) conformidade fiscal, (5) conformidade com LGPD e governança de dados, (6) propriedade intelectual, e (7) litígios e contingências.
 
-1. Estrutura societária. Contrato social ou estatuto atualizado, cap table fully diluted (incluindo opções outorgadas e não outorgadas, vesting em curso, SAFEs e notas conversíveis), acordo de sócios vigente, atas de reunião de sócios e de board dos últimos vinte e quatro meses.
-2. Contratos materiais: os dez maiores contratos com clientes por receita, contratos com fornecedores decisivos (nuvem, meio de pagamento e integradores), contratos-quadro (MSAs) e ordens de serviço (SOWs) vigentes, além de licenças de tecnologia recebida ou cedida.
-3. Compliance trabalhista. Registros de CLT por colaborador, contratos de PJ com análise de risco de pejotização (ver [[#CAPÍTULO 6: DIREITO DO TRABALHO PARA STARTUPS|Capítulo 6 (Direito do Trabalho para Startups)]]), processos trabalhistas em curso com classificação de risco (provável, possível, remoto) e convenções ou acordos coletivos aplicáveis.
-4. Compliance fiscal. Certidões negativas (ou positivas com efeito de negativa) federal, estadual e municipal, parcelamentos ou transações tributárias ativas (como modalidades de transação da PGFN regidas pela Lei 13.988/2020), autuações em curso e histórico de apuração dos últimos exercícios. Esse bloco consome de quinze a trinta dias se não for mantido em dia.
-5. Compliance LGPD e dados. ROPA (Registro das Atividades de Tratamento, art. 37 da LGPD, em paralelo ao Records of Processing Activities do GDPR art. 30), DPO designado e publicado, log de incidentes de segurança dos últimos vinte e quatro meses, contratos com operadores incluindo DPA. Ver [[#CAPÍTULO 9: LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Capítulo 9 (LGPD, Compliance e Governança de Dados)]].
-6. Propriedade intelectual. Registros de marca no INPI depositados ou concedidos, certificados de registro de programa de computador (facultativos pela Lei 9.609/1998, mas úteis como prova de autoria e anterioridade), patentes em curso, domínios registrados em nome da pessoa jurídica e termos de cessão de PI assinados por todo fundador, empregado e prestador que escreveu código. Ver [[#CAPÍTULO 3: PROPRIEDADE INTELECTUAL E INPI|Capítulo 3 (Propriedade Intelectual e INPI)]].
-7. **Litígios:** Mapeamento de processos ativos (judiciais, arbitrais e administrativos) com número, vara ou câmara, valor da causa, fase processual e probabilidade de perda (provável, possível ou remota) avaliada por advogado externo. Esse relatório alimenta a provisão contábil registrada no balanço que o investidor lê.
+1. **Estrutura societária:** contrato social ou estatuto atualizado, *cap table fully diluted* (incluindo opções outorgadas e reserva não outorgada, *vesting* em curso, mútuos e notas conversíveis), acordo de sócios vigente e atas societárias e de conselho dos últimos 24 meses.
+2. **Contratos materiais:** os dez maiores contratos com clientes por receita, contratos com fornecedores decisivos (nuvem, meio de pagamento e integradores), contratos-quadro (MSAs) e ordens de serviço (SOWs) vigentes, além de licenças de tecnologia recebida ou cedida.
+3. **Conformidade trabalhista:** registros de CLT por colaborador, contratos de prestadores PJ com análise de risco de vínculo (ver [[#CAPÍTULO 6: DIREITO DO TRABALHO PARA STARTUPS|Capítulo 6 (Direito do Trabalho para Startups)]]), processos trabalhistas em curso com classificação de risco (provável, possível ou remoto) e convenções coletivas aplicáveis.
+4. **Conformidade fiscal:** certidões negativas (ou positivas com efeito de negativa) nas esferas federal, estadual e municipal, parcelamentos ou transações tributárias ativas (como modalidades da PGFN regidas pela Lei 13.988/2020), autuações em curso e histórico de apuração dos últimos exercícios. Esse bloco consome de 15 a 30 dias se não for mantido em dia.
+5. **Conformidade com LGPD e governança de dados:** ROPA (Registro das Atividades de Tratamento, art. 37 da LGPD, equivalente ao *Records of Processing Activities* do art. 30 do GDPR), encarregado (DPO) designado e publicado, registro de incidentes de segurança dos últimos 24 meses e contratos com operadores contendo adendo de proteção de dados (DPA). Ver [[#CAPÍTULO 9: LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Capítulo 9 (LGPD, Compliance e Governança de Dados)]].
+6. **Propriedade intelectual:** registros de marca no INPI depositados ou concedidos, certificados de registro de programa de computador (facultativos pela Lei 9.609/1998, mas úteis como prova de autoria e anterioridade), patentes em curso, domínios registrados em nome da pessoa jurídica e termos de cessão de PI assinados por todo fundador, empregado e prestador que escreveu código. Ver [[#CAPÍTULO 3: PROPRIEDADE INTELECTUAL E INPI|Capítulo 3 (Propriedade Intelectual e INPI)]].
+7. **Litígios e contingências:** mapeamento de processos ativos (judiciais, arbitrais e administrativos) com número, vara ou câmara, valor da causa, fase processual e probabilidade de perda (provável, possível ou remota) avaliada por advogado externo. Esse relatório alimenta a provisão contábil registrada no balanço que o investidor lê.
 
 **Sinal de preparação jurídica bem executada:** o *data room* societário e contratual fica organizado antes de abrir a rodada, estruturado em pastas que espelham os sete blocos da diligência, com índice e controle de versão. O fundo acessa o repositório, baixa o pacote completo e em 48 horas devolve a primeira rodada de perguntas, sem essa organização prévia, o levantamento inicial atrasa em duas semanas e cada documento pendente empurra o fechamento.
 
@@ -2848,7 +2848,7 @@ Já na **prestação de serviços** com vício de qualidade (art. 20 do CDC), a 
 
 **Publicidade enganosa e abusiva**
 
-O CDC proíbe duas modalidades distintas (Arts. 37 e 38):
+Nos artigos 37 e 38, o Código de Defesa do Consumidor proíbe duas modalidades distintas de desvio publicitário:
 
 - **Enganosa:** qualquer publicidade que contenha informação total ou parcialmente falsa ou que, por qualquer outro modo, mesmo por omissão de dado essencial, seja capaz de induzir o consumidor em erro (art. 37, §§ 1º e 3º, do CDC). A responsabilidade é objetiva: não importa se houve intenção de enganar.
 - **Abusiva:** publicidade discriminatória, que incite violência, explore o medo ou superstição, abuse da falta de julgamento de crianças, ou desrespeite valores ambientais.
@@ -5181,7 +5181,7 @@ Mesmo uma empresa com cinco funcionários tem obrigações de segurança que nã
 
 3. **Princípio do menor privilégio e revisão periódica:** cada colaborador ou serviço deve ter apenas as permissões estritamente necessárias para sua função. Restrinja o acesso ao ambiente de produção e aplique a cadência unificada de revisão de acessos: mensal para produção, nuvem e sistemas financeiros decisivos, e trimestral para os demais sistemas corporativos.
 
-Criptografia em repouso e em trânsito é o quarto. TLS em todas as conexões, discos criptografados, dados sensíveis em banco também criptografados.
+4. **Criptografia em trânsito e em repouso:** exija TLS (1.2 ou 1.3) em todas as conexões externas e internas, mantenha discos de servidores, bancos de dados e *backups* criptografados em repouso (AES-256) e aplique criptografia em nível de aplicação ou mascaramento para campos críticos (como senhas com *hashing* Argon2id/bcrypt, tokens e dados pessoais sensíveis).
 
 5. **Gestão de segredos (*secrets management*) e varredura de repositórios:** credenciais de banco de dados e chaves de API devem residir exclusivamente em cofres dedicados (como AWS Secrets Manager, GCP Secret Manager ou HashiCorp Vault) com rotação periódica, nunca no código-fonte ou em canais de chat. Ative bloqueio automático de *commits* com segredos (*secret scanning* e *pre-commit hooks*) no GitHub para impedir que um arquivo `.env` ou uma chave da AWS vaze como ocorreu na operação inicial de Lucas.
 
@@ -5189,7 +5189,7 @@ Criptografia em repouso e em trânsito é o quarto. TLS em todas as conexões, d
 
 7. **Backup imutável com teste trimestral de restauração:** mantenha cópias de segurança isoladas e protegidas contra alteração ou exclusão (*object lock* / *air-gapped*) e execute a cada trimestre um exercício cronometrado de restauração completa em ambiente isolado para comprovar que os dados podem ser recuperados.
 
-O oitavo controle básico é o desligamento (*offboarding*) imediato: revogue credenciais decisivas (produção, nuvem, banco de dados e correio corporativo) em até 1 hora da comunicação da saída e conclua o bloqueio de todas as ferramentas secundárias no mesmo dia (em até 24 horas), seguindo uma lista padronizada por cargo.
+8. **Desligamento (*offboarding*) imediato de acessos:** revogue credenciais decisivas (produção, nuvem, banco de dados, repositórios e correio corporativo) em até 1 hora da comunicação da saída e conclua o bloqueio de todas as ferramentas secundárias no mesmo dia (em até 24 horas), seguindo uma lista padronizada por cargo.
 
 Patching automatizado é o nono. Sistemas operacionais e aplicações atualizados automaticamente. Vulnerabilidades conhecidas não remediadas são o vetor número um de ataques.
 

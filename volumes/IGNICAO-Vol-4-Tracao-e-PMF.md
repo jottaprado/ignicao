@@ -491,7 +491,7 @@ Baixa ativação. Curva de retenção desce a zero em duas a quatro semanas. Con
 
 ### Oito erros do MVP em produção (incluindo fazer alarde na imprensa antes de reter os 10 primeiros clientes)
 
-Buscar cobertura na imprensa ou fazer lançamento ruidoso antes que os dez primeiros clientes completem o fluxo central sem travar só amplifica falhas em público. Quando Lucas e Marina lançaram seu piloto, adiaram qualquer anúncio no LinkedIn até que os doze diretores financeiros conciliassem os primeiros lotes de boletos sem erro.
+1. **Buscar cobertura na imprensa antes de reter os dez primeiros clientes:** fazer lançamento ruidoso antes que os primeiros usuários completem o fluxo central sem travar só amplifica falhas em público. Quando Lucas e Marina lançaram seu piloto, adiaram qualquer anúncio no LinkedIn até que os doze diretores financeiros conciliassem os primeiros lotes de boletos sem erro.
 
 2. **Deixar o escopo inflar por nove meses:** quando o desenvolvimento se arrasta por trimestres sem ir ao ar, o experimento perde a função de MVP e vira uma versão 1.0 lançada no escuro. No próximo ciclo, corte mais fundo no escopo inicial.
 
@@ -605,11 +605,11 @@ Experimento controlado em que usuários são aleatoriamente divididos em grupo d
 
 ##### Princípios / estrutura: Como fazer rigoroso
 
-1. Hipótese explícita: "se mudarmos X, conversão move em Z% ou mais."
+1. **Hipótese explícita:** formule a mudança e o efeito esperado antes de abrir o teste (*"se mudarmos X, a conversão avança em Z% ou mais"*).
 
-2. Métrica primária clara: uma. Métricas secundárias como guardrails.
+2. **Métrica primária única:** escolha uma única métrica decisória para julgar o vencedor, mantendo as métricas secundárias como limites de segurança (*guardrails*).
 
-3. Cálculo do tamanho da amostra (definido antes de iniciar o teste, nunca depois):
+3. **Cálculo prévio do tamanho da amostra** (definido antes de iniciar o teste, nunca depois):
 
 ```text
 n = 16 × p(1-p) / MDE²
@@ -617,17 +617,17 @@ n = 16 × p(1-p) / MDE²
 
 Onde $p$ é a taxa de conversão atual (*baseline*) e $\text{MDE}$ é o efeito mínimo detectável (*Minimum Detectable Effect*) em pontos percentuais absolutos.
 
-4. Duração pré-definida: baseada no cálculo amostral e sempre fechada em ciclos semanais completos (7 ou 14 dias) para neutralizar variações de dia da semana, nunca "rodando até dar certo".
+4. **Duração pré-definida:** baseada no cálculo amostral e sempre fechada em ciclos semanais completos (7 ou 14 dias) para neutralizar variações de dia da semana, nunca "rodando até dar certo".
 
-5. Randomização correta: sorteio determinístico pelo identificador do usuário (*user ID hash*), evitando alternância simples (*round-robin*) que introduz viés de horário.
+5. **Randomização correta:** sorteio determinístico pelo identificador do usuário (*user ID hash*), evitando alternância simples (*round-robin*) que introduz viés de horário.
 
-6. Sem interromper no meio (*peeking*): em testes frequentistas clássicos, parar o experimento ao primeiro sinal positivo infla falsos positivos, só acompanhe e encerre antes do prazo se utilizar testes sequenciais formalmente configurados (disponíveis em plataformas como GrowthBook, Optimizely, Statsig, adquirida pela OpenAI em 2025, e Eppo, adquirida pela Datadog em 2025).
+6. **Sem interromper no meio (*peeking*):** em testes frequentistas clássicos, parar o experimento ao primeiro sinal positivo infla falsos positivos, só acompanhe e encerre antes do prazo se utilizar testes sequenciais formalmente configurados (disponíveis em plataformas como GrowthBook, Optimizely, Statsig, adquirida pela OpenAI em 2025, e Eppo, adquirida pela Datadog em 2025).
 
-7. Métricas de guarda (*guardrails*): indicadores vitais que não podem piorar (como cancelamento, latência ou erro técnico). Se a métrica primária sobe mas a métrica de guarda cai, há uma troca de custo-benefício a avaliar.
+7. **Métricas de guarda (*guardrails*):** indicadores vitais que não podem piorar (como cancelamento, latência ou erro técnico). Se a métrica primária sobe mas a métrica de guarda cai, há uma troca de custo-benefício a avaliar.
 
-8. Significância estatística e efeito prático: $p < 0,05$ é a convenção estatística, mas um ganho de 0,5% pode ser estatisticamente significativo em amostras gigantescas e ainda assim irrelevante para o negócio.
+8. **Significância estatística e efeito prático:** $p < 0,05$ é a convenção estatística, mas um ganho de 0,5% pode ser estatisticamente significativo em amostras gigantescas e ainda assim irrelevante para o negócio.
 
-9. Interpretação cuidadosa: embora o desenho randomizado isole o efeito causal na amostra testada, generalizar o resultado para novos canais ou safras futuras exige cautela.
+9. **Interpretação cuidadosa:** embora o desenho randomizado isole o efeito causal na amostra testada, generalizar o resultado para novos canais ou safras futuras exige cautela.
 
 ##### Aplicação imediata na rotina da empresa
 
@@ -1066,7 +1066,7 @@ Com clientes reais pagando pelo produto, avalie a estrutura de preço a partir d
 - **Barreira de entrada:** há clientes aderentes ao ICP que travam no plano inicial e precisariam de uma faixa de entrada mais enxuta?
 - **Expansão na mesma conta:** o produto permite *upsell* (upgrade de plano/volume) ou *cross-sell* (módulos complementares) ao longo do primeiro ano?
 
-Teste experimentalmente. Aumente o preço para novos clientes em vinte a trinta por cento. Meça a conversão. Introduza tiers (básico, profissional, enterprise). Cobre módulos ou features extras separadamente.
+Para responder a essas quatro perguntas na prática, teste ajustes de preço de forma controlada: eleve a tabela para novas safras de clientes em 20% a 30% medindo o efeito na taxa de fechamento, estruture faixas claras de planos (básico, profissional e *enterprise*) e separe módulos avançados para cobrança adicional.
 
 > [!important] Precificação não fica congelada
 > Precificação é um dos principais vetores de valor. Não a deixe estática. Reavalie a cada três a seis meses. Pequenos ajustes em preço movem mais EBITDA do que grandes esforços de eficiência operacional.
@@ -2263,25 +2263,25 @@ Use a lista de verificação abaixo para auditar as evidências operacionais que
 
 O Gympass (rebatizado como Wellhub em 2024) começou vendendo diárias avulsas de academia diretamente ao consumidor final, mas encontrou seu verdadeiro PMF quando redesenhou o modelo para benefício corporativo B2B2C (a empresa contrata e o funcionário utiliza), alcançando retenção corporativa elevada e expandindo a operação para 11 países até 2024 (ver a mecânica desse pivô nos Volumes 1 a 3). Às vezes o PMF exige redesenhar quem é o cliente pagante, e não apenas iterar nas telas do produto. De modo semelhante, o Nubank comprovou tração puxada pelo mercado entre 2014 e 2016 ao acumular centenas de milhares de nomes na lista de espera do cartão sem tarifa, movida pelo convite direto entre usuários.
 
-#### Caso negativo, a empresa que confundiu tração com PMF
+#### Caso negativo: a empresa que confundiu tração com PMF
 
 Uma startup brasileira de educação (nome omitido) captou Série A em 2018 apoiada no crescimento rápido de cadastros, mas sua retenção aos 30 dias nunca passou de 15%. O gasto elevado em mídia paga encobriu o vazamento do balde por 18 meses. Quando o leilão encareceu e a aquisição paga desacelerou, a base ativa encolheu rapidamente e a operação encerrou as atividades em 2021. Sem retenção, todo crescimento é aluguel.
 
 ### Sete maneiras de se enganar sobre o PMF
 
-Confundir tração com PMF. Mil downloads sem retenção não é PMF. Cinquenta usuários viciados é muito mais próximo.
+1. **Confundir tração bruta com PMF:** mil cadastros impulsionados por mídia paga sem retenção não configuram encaixe produto-mercado; cinquenta clientes que usam o produto toda semana e recomendam espontaneamente estão muito mais próximos do PMF.
 
-Declarar PMF por ego, ou pressão externa. Empreendedores ávidos por validação, ou pressionados por investidores, declaram PMF cedo demais. Rigor vence otimismo aqui.
+2. **Declarar PMF por vaidade ou pressão de investidores:** anunciar vitória antes que a curva de retenção estabilize leva a queimar caixa escalando um funil furado.
 
-Pulverizar-se depois de PMF parcial. Em vez de dobrar no nicho que ama, você tenta agradar a todos. Resultado: dilui PMF parcial, em vez de consolidar.
+3. **Pulverizar o foco logo após um PMF inicial:** tentar atender múltiplos segmentos novos antes de dominar o nicho em que o produto já provou retenção dilui a qualidade da entrega.
 
-Achar que PMF é permanente. PMF se perde quando o mercado muda, a concorrência avança, ou você negligencia. É estado a ser mantido, não troféu a guardar.
+4. **Tratar o PMF como conquista permanente:** o encaixe produto-mercado pode se desfazer quando o comportamento do comprador muda, a tecnologia vira ou a concorrência altera o padrão da categoria.
 
-Ignorar feasibility. Foco apenas em desirability e viability. Quando a escala chega, a operação quebra.
+5. **Ignorar a exequibilidade operacional (*feasibility*):** focar apenas no desejo do cliente sem garantir que a operação e a margem suportem a entrega em escala.
 
-Medir com amostra não representativa. Sean Ellis Test aplicado só nos clientes mais engajados dá resultado inflado. Amostra aleatória entre ativos é obrigatória.
+6. **Medir com amostra enviesada:** aplicar a pesquisa dos 40% de Sean Ellis apenas aos clientes mais próximos dos fundadores infla artificialmente o índice; avalie sempre uma amostra representativa dos usuários ativos.
 
-**Declarar PMF por métricas de vaidade.** Capa de revista, prêmio de inovação ou presença em listas de startups do ano podem ajudar no recrutamento, mas nenhum deles é evidência de PMF. Retenção é.
+7. **Declarar PMF por métricas de vaidade:** capa de revista, prêmio de inovação ou presença em listas de startups do ano podem ajudar no recrutamento, mas nenhum deles é evidência de PMF. Retenção é.
 
 Construir o PMF exige ciclos deliberados de ajuste: se a operação completou seis meses sem evolução na curva de retenção, teste mudanças concretas na proposta de valor, no perfil de cliente ideal (ICP) ou no canal de entrada.
 
@@ -2343,7 +2343,7 @@ RICE = (Reach × Impact × Confidence) / Effort
 
 ##### Aplicação imediata na rotina da empresa
 
-1. Para cada funcionalidade candidata da lista, estime as quatro dimensões do modelo (Alcance, Impacto, Confiança e Esforço) antes de calcular a nota.
+Passo 1: Para cada funcionalidade candidata da lista, estime as quatro dimensões do modelo (Alcance, Impacto, Confiança e Esforço) antes de calcular a nota.
 
 Passo 2: Reach baseado em dados: se 10% dos usuários usa funcionalidade X, e temos 50k usuários/mês, Reach = 5000.
 
@@ -2687,13 +2687,13 @@ Framework para estruturar **comunicação de marketing como narrativa** onde cli
 
 7 elementos de qualquer história boa aplicados a marketing:
 
-1. Um personagem (*a character*: o cliente é o herói da história, que tem um problema, encontra um guia com um plano, é chamado à ação, evita o fracasso e alcança o sucesso).
-2. **Enfrenta um problema (*has a problem*): desdobrado nas camadas externa, interna e filosófica do cliente, que em seguida encontra um guia (3. a empresa atua como guia com empatia e autoridade, não como herói), recebe um plano claro (4. três passos simples para destravar a adoção), é chamado à ação (5. convite direto e sem ambiguidade), evita o fracasso** (6. o risco concreto de manter o *status quo*) e alcança o sucesso (7. a transformação operacional prometida).
-3. And meets a guide (empresa é guia, não herói).
-4. Who gives them a plan (passos claros para resolver).
-5. And calls them to action.
-6. That helps them avoid failure.
-7. And ends in success.
+1. **Um personagem (*a character*):** o cliente é o herói da história, que busca progredir em sua operação ou carreira.
+2. **Enfrenta um problema (*has a problem*):** desdobrado nas camadas externa (o obstáculo prático), interna (a frustração ou insegurança que sente) e filosófica (por que aquela ineficiência não deveria continuar existindo).
+3. **Encontra um guia (*and meets a guide*):** a sua empresa entra na narrativa como guia dotado de empatia e autoridade comprovada, nunca como o herói egocêntrico.
+4. **Que lhe entrega um plano (*who gives them a plan*):** um roteiro claro de três passos simples que retira a incerteza sobre como implantar e colher resultado.
+5. **E o chama à ação (*and calls them to action*):** um convite direto e sem ambiguidade para dar o próximo passo contratual ou iniciar o teste.
+6. **Ajudando-o a evitar o fracasso (*that helps them avoid failure*):** a explicitação honesta do custo financeiro e operacional de manter o *status quo*.
+7. **E alcança o sucesso (*and ends in success*):** a transformação concreta e mensurável na rotina do cliente após adotar a solução.
 
 ##### Protocolo prático de execução
 
@@ -5842,9 +5842,9 @@ Esse processo leva 30 a 60 minutos. Para uma negociação com impacto de seis d�
 Depois de desarmar o Blefe da Guilhotina na usina de Rondonópolis mantendo o contrato de R$ 420 mil pelo valor integral de tabela e pagamento em 30 dias, Henrique transformou a preparação pré-mesa em regra comercial: nenhum vendedor senta para negociar fechamento ou renovação sem ter a BATNA da carteira calculada, o preço de reserva escrito e a tabela de contrapartidas pronta para neutralizar pedidos de desconto de última hora.
 
 **O Espelho (autodiagnóstico):**
-3. Antes de entrar em uma negociação relevante, você registra por escrito o seu Preço de Reserva (o piso mínimo abaixo do qual se retira da mesa) e a sua MAPAN (melhor alternativa caso não haja acordo), ou decide no calor da conversa?
-2. Qual é a sua **BATNA** hoje? (Você tem um funil cheio de outras oportunidades reais que te dão paz psicológica para dizer "não" a um contrato abusivo, ou está refém de um único cliente grande?).
-3. Quando um comprador pede desconto, você entrega de graça na hora ou exige sempre uma contrapartida proporcional (*"Se eu reduzir 10%, você paga o ano à vista até sexta-feira"*)?
+1. **Preço de Reserva e MAPAN:** antes de entrar em uma negociação relevante, você registra por escrito o seu Preço de Reserva (o piso mínimo abaixo do qual se retira da mesa) e a sua MAPAN (melhor alternativa caso não haja acordo), ou decide no calor da conversa?
+2. **Força da BATNA Comercial:** qual é a sua **BATNA** hoje? (Você tem um funil cheio de outras oportunidades reais que te dão paz psicológica para dizer "não" a um contrato abusivo, ou está refém de um único cliente grande?)
+3. **Disciplina de Contrapartida:** quando um comprador pede desconto, você entrega de graça na hora ou exige sempre uma contrapartida proporcional (*"Se eu reduzir 10%, você paga o ano à vista até sexta-feira"*)?
 
 **Permissão Libertadora:**
 Você está autorizado a levantar da mesa e recusar um cliente gigante se as condições impostas por ele destruírem a sua margem ou sequestrarem a sua engenharia. O contrato mais caro do mundo é aquele que você assina no prejuízo.

@@ -6026,7 +6026,7 @@ Processo clássico.
 1. **Fase pré-clínica:** pesquisa de descoberta, ensaios *in vitro* em laboratório e testes *in vivo* em modelos animais para avaliar toxicologia preliminar e farmacocinética, com duração típica de três a seis anos e investimento entre US$ 5 milhões e US$ 10 milhões.
 2. **Fase I:** avaliação de segurança clínica, tolerabilidade e dosagem em pequenos grupos de voluntários (tipicamente de 20 a 100 participantes), com duração de um a dois anos e orçamento entre US$ 2 milhões e US$ 10 milhões.
 3. **Fase II:** avaliação preliminar de eficácia terapêutica e calibração de dose em pacientes portadores da condição-alvo (tipicamente de 100 a 500 voluntários), com duração média de dois a três anos e orçamento entre US$ 10 milhões e US$ 50 milhões.
-4. Fase III. Confirmação em larga escala (mil a cinco mil ou mais). Três a cinco anos. US$ 50 milhões a US$ 500 milhões ou mais.
+4. **Fase III:** confirmação estatística de eficácia e monitoramento de reações adversas em larga escala (tipicamente de 1.000 a 5.000 ou mais pacientes em múltiplos centros), com duração de três a cinco anos e investimento global entre US$ 50 milhões e mais de US$ 500 milhões.
 5. **Submissão e revisão de registro sanitário:** protocolo do dossiê completo de qualidade, segurança e eficácia perante as agências reguladoras (NDA ou BLA no FDA norte-americano, dossiê de registro na ANVISA ou EMA europeia), etapa que leva de um a dois anos.
 6. **Fase IV (farmacovigilância pós-mercado):** monitoramento contínuo de segurança e efeitos adversos raros em larga escala após a comercialização.
 
@@ -6037,21 +6037,21 @@ Processo clássico.
 
 ### Pesquisa Clínica no Brasil sob a Lei 14.874/2024: Sistema Nacional de Ética, Prazos da ANVISA e CROs
 
-O **desenho do estudo clínico** define o desfecho primário (*primary endpoint*), os critérios de inclusão e exclusão de pacientes, o tamanho da amostra (*n* amostral) e a duração do acompanhamento. Nessa etapa, o bioestatístico dimensiona a amostra necessária para assegurar poder estatístico suficiente na comprovação de eficácia e segurança perante as agências reguladoras.
+- **Desenho bioestatístico do estudo clínico:** define o desfecho primário (*primary endpoint*), os critérios de inclusão e exclusão de pacientes, o tamanho da amostra (*n* amostral) e a duração do acompanhamento, dimensionando o poder estatístico necessário para comprovar eficácia e segurança perante as agências reguladoras.
 
 - **Protocolo e aprovação ético-regulatória (Lei nº 14.874/2024):** documento mestre submetido ao Comitê de Ética em Pesquisa (CEP) integrante do Sistema Nacional de Ética em Pesquisa com Seres Humanos. A Lei nº 14.874/2024 modernizou o marco brasileiro de pesquisa clínica ao extinguir a dupla aprovação obrigatória CEP/CONEP como regra geral, fixando prazo legal de até 30 dias úteis para deliberação ética do CEP (art. 14, reduzido para 15 dias úteis em pesquisas estratégicas para o SUS pelo art. 15) e de até 90 dias úteis para manifestação sanitária da ANVISA em ensaios clínicos com fins de registro (art. 58), autorizando o início do estudo caso a agência não se manifeste no prazo e já haja aprovação ética (art. 58, § 1º).
 
 - **Centros de pesquisa (*sites*):** hospitais universitários, institutos de oncologia ou clínicas especializadas que recrutam os pacientes e conduzem o protocolo clínico em campo. A qualidade do relacionamento com os investigadores principais (*Principal Investigators*) determina a velocidade de recrutamento e a aderência ao protocolo.
 
-**Terceirização via CRO (*Contract Research Organization*): Para conduzir os ensaios clínicos de Fases 1 a 3 sem montar toda a estrutura hospitalar internamente, a biotech contrata uma CRO** (como as globais IQVIA, ICON, Worldwide Clinical Trials, Fortrea/Labcorp e PPD/Thermo Fisher, ou CROs brasileiras especializadas em centros locais). O investimento financeiro é elevado, mas o domínio regulatório e de recrutamento da CRO reduz o risco operacional e acelera a submissão de dossiês à ANVISA e ao FDA.
+- **Terceirização via CRO (*Contract Research Organization*):** para conduzir os ensaios clínicos de Fases I a III sem montar toda a estrutura hospitalar internamente, a *biotech* contrata uma CRO (como as globais IQVIA, ICON, Worldwide Clinical Trials, Fortrea/Labcorp e PPD/Thermo Fisher, ou CROs brasileiras especializadas em centros locais). O investimento financeiro é elevado, mas o domínio regulatório e de recrutamento da CRO reduz o risco operacional e acelera a submissão de dossiês à ANVISA e ao FDA.
 
-**Recrutamento:** Geralmente o gargalo. Pacientes demoram. Protocolo é difícil. Site não performa.
+- **Recrutamento de pacientes:** etapa que mais frequentemente atrasa o cronograma clínico, exigindo triagem ativa em centros de referência e critérios de elegibilidade realistas.
 
-**Monitoria:** CRAs (Clinical Research Associates) visitam sites, checam dados, e garantem GCP.
+- **Monitoria clínica (*Clinical Monitoring*):** acompanhada por monitores especializados (*Clinical Research Associates*, CRAs) que auditam os centros participantes, verificam os dados primários em prontuário e asseguram a conformidade com as Boas Práticas Clínicas (*Good Clinical Practice*, GCP).
 
-Banco de dados, e análise. EDC (Electronic Data Capture), Medidata, Oracle Clinical, e Veeva. Estatístico analisa no fim.
+- **Captura eletrônica de dados e análise bioestatística:** registro estruturado em sistemas validados de *Electronic Data Capture* (EDC, como Medidata, Veeva Vault ou Oracle Clinical) para fechamento da base (*database lock*) e análise estatística final.
 
-Relatório clínico (CSR). Documento mestre com resultados.
+- **Relatório de Estudo Clínico (*Clinical Study Report*, CSR):** documento técnico mestre que consolida a metodologia, os resultados estatísticos e o perfil de segurança para submissão de registro sanitário.
 
 > [!info] Custos típicos de ensaio no Brasil
 > Na prática de mercado no Brasil, um ensaio clínico de Fase II consome tipicamente entre R$ 5 milhões e R$ 20 milhões, enquanto um estudo multicêntrico de Fase III exige de R$ 30 milhões a mais de R$ 200 milhões, conforme o tamanho da amostra, a complexidade dos exames de acompanhamento e o número de centros participantes.
@@ -10434,198 +10434,194 @@ Para o leitor que deseja aprofundar a bagagem conceitual em paralelo à execuç�
 
 - Blank, Steve. *The Four Steps to the Epiphany: Successful Strategies for Products that Win.* K&S Ranch, 2005 (2ª ed. revista K&S Ranch, 2013, reedição Wiley, 2020. Obra fundacional de *Customer Development*).
 
-Blank, Steve, e Bob Dorf. *The Startup Owner's Manual: The Step-By-Step Guide for Building a Great Company.* K&S Ranch, 2012.
+- Blank, Steve, e Bob Dorf. *The Startup Owner's Manual: The Step-By-Step Guide for Building a Great Company.* K&S Ranch, 2012.
 
-Bland, David J., e Alexander Osterwalder. *Testing Business Ideas: A Field Guide for Rapid Experimentation.* Wiley, 2019.
+- Bland, David J., e Alexander Osterwalder. *Testing Business Ideas: A Field Guide for Rapid Experimentation.* Wiley, 2019.
 
-Bosworth, Mike. *Solution Selling: Creating Buyers in Difficult Selling Markets.* McGraw-Hill, 1994.
+- Bosworth, Mike. *Solution Selling: Creating Buyers in Difficult Selling Markets.* McGraw-Hill, 1994.
 
-Bryar, Colin, e Bill Carr. *Working Backwards: Insights, Stories, and Secrets from Inside Amazon.* St. Martin's Press, 2021.
+- Bryar, Colin, e Bill Carr. *Working Backwards: Insights, Stories, and Secrets from Inside Amazon.* St. Martin's Press, 2021.
 
-Buckingham, Marcus, e Curt Coffman. *First, Break All the Rules: What the World's Greatest Managers Do Differently.* Simon & Schuster, 1999.
+- Buckingham, Marcus, e Curt Coffman. *First, Break All the Rules: What the World's Greatest Managers Do Differently.* Simon & Schuster, 1999.
 
-Cagan, Marty. *Inspired: How to Create Tech Products Customers Love.* 2ª ed. Wiley, 2017.
+- Cagan, Marty. *Inspired: How to Create Tech Products Customers Love.* 2ª ed. Wiley, 2017.
 
-Chen, Andrew. *The Cold Start Problem: How to Start and Scale Network Effects.* Harper Business, 2021.
+- Chen, Andrew. *The Cold Start Problem: How to Start and Scale Network Effects.* Harper Business, 2021.
 
-Chesbrough, Henry W. *Open Innovation: The New Imperative for Creating and Profiting from Technology.* Harvard Business Review Press, 2003.
+- Chesbrough, Henry W. *Open Innovation: The New Imperative for Creating and Profiting from Technology.* Harvard Business Review Press, 2003.
 
-Christensen, Clayton M. *The Innovator's Dilemma: When New Technologies Cause Great Firms to Fail.* Harvard Business Review Press, 1997. (Edição brasileira: *O Dilema da Inovação.* M.Books / Alta Books.)
+- Christensen, Clayton M. *The Innovator's Dilemma: When New Technologies Cause Great Firms to Fail.* Harvard Business Review Press, 1997. (Edição brasileira: *O Dilema da Inovação.* M.Books / Alta Books.)
 
 - Christensen, Clayton M., Taddy Hall, Karen Dillon, e David S. Duncan. *Competing Against Luck: The Story of Innovation and Customer Choice.* HarperBusiness, 2016 (síntese da teoria de *Jobs to Be Done*).
 
-Christensen, Clayton M., e Michael E. Raynor. *The Innovator's Solution: Creating and Sustaining Successful Growth.* Harvard Business Review Press, 2003.
+- Christensen, Clayton M., e Michael E. Raynor. *The Innovator's Solution: Creating and Sustaining Successful Growth.* Harvard Business Review Press, 2003.
 
 - Cialdini, Robert B. *Influence: The Psychology of Persuasion.* William Morrow, 1984 (edições revistas e ampliadas Harper Business, 2006 e 2021. Edição brasileira: *As Armas da Persuasão.* Sextante, 2012).
 
-Cialdini, Robert B. *Pre-Suasion: A Revolutionary Way to Influence and Persuade.* Simon & Schuster, 2016.
+- Cialdini, Robert B. *Pre-Suasion: A Revolutionary Way to Influence and Persuade.* Simon & Schuster, 2016.
 
-Collins, Jim. *Good to Great: Why Some Companies Make the Leap and Others Don't.* Harper Business, 2001. (Edição brasileira: *Empresas Feitas para Vencer.* Alta Books.)
+- Collins, Jim. *Good to Great: Why Some Companies Make the Leap and Others Don't.* Harper Business, 2001. (Edição brasileira: *Empresas Feitas para Vencer.* Alta Books.)
 
 - Conn, Charles, e Robert McLean. *Bulletproof Problem Solving: The One Skill That Changes Everything.* Wiley, 2018 (estruturação de problemas em sete etapas, árvores lógicas e princípio MECE).
 - Cooper, Alan. *The Inmates Are Running the Asylum: Why High Tech Products Drive Us Crazy and How to Restore the Sanity.* Sams Publishing, 1999 (obra que introduziu o método de *Personas* em design de software, detalhado em *About Face*, Wiley, 4ª ed. 2014).
 
-Collins, Jim, e Jerry I. Porras. *Built to Last: Successful Habits of Visionary Companies.* Harper Business, 1994. (Edição brasileira: *Feitas para Durar.* Rocco / Alta Books.)
+- Collins, Jim, e Jerry I. Porras. *Built to Last: Successful Habits of Visionary Companies.* Harper Business, 1994. (Edição brasileira: *Feitas para Durar.* Rocco / Alta Books.)
 
-Coyle, Daniel. *The Culture Code: The Secrets of Highly Successful Groups.* Bantam, 2018.
+- Coyle, Daniel. *The Culture Code: The Secrets of Highly Successful Groups.* Bantam, 2018.
 
-Croll, Alistair, e Benjamin Yoskovitz. *Lean Analytics: Use Data to Build a Better Startup Faster.* O'Reilly, 2013.
+- Croll, Alistair, e Benjamin Yoskovitz. *Lean Analytics: Use Data to Build a Better Startup Faster.* O'Reilly, 2013.
 
-Dixon, Matthew, e Brent Adamson. *The Challenger Sale: Taking Control of the Customer Conversation.* Portfolio, 2011.
+- Dixon, Matthew, e Brent Adamson. *The Challenger Sale: Taking Control of the Customer Conversation.* Portfolio, 2011.
 
-Doerr, John. *Measure What Matters: How Google, Bono, and the Gates Foundation Rock the World with OKRs.* Portfolio, 2018. (Edição brasileira: *Avalie o Que Importa.* Alta Books, 2019.)
+- Doerr, John. *Measure What Matters: How Google, Bono, and the Gates Foundation Rock the World with OKRs.* Portfolio, 2018. (Edição brasileira: *Avalie o Que Importa.* Alta Books, 2019.)
 
-Drucker, Peter F. *The Effective Executive.* Harper Business, 1967. (Edição brasileira: *O Gestor Eficaz.* LTC.)
+- Drucker, Peter F. *The Effective Executive.* Harper Business, 1967. (Edição brasileira: *O Gestor Eficaz.* LTC.)
 
-Drucker, Peter F. *Management: Tasks, Responsibilities, Practices.* Harper Business, 1973.
+- Drucker, Peter F. *Management: Tasks, Responsibilities, Practices.* Harper Business, 1973.
 
-Drucker, Peter F. *Innovation and Entrepreneurship: Practice and Principles.* Harper Business, 1985.
+- Drucker, Peter F. *Innovation and Entrepreneurship: Practice and Principles.* Harper Business, 1985.
 
-Duke, Annie. *Thinking in Bets: Making Smarter Decisions When You Don't Have All the Facts.* Portfolio, 2018.
+- Duke, Annie. *Thinking in Bets: Making Smarter Decisions When You Don't Have All the Facts.* Portfolio, 2018.
 
-Dunford, April. *Obviously Awesome: How to Nail Product Positioning so Customers Get It, Buy It, Love It.* Ambient Press, 2019.
+- Dunford, April. *Obviously Awesome: How to Nail Product Positioning so Customers Get It, Buy It, Love It.* Ambient Press, 2019.
 
-Eyal, Nir. *Hooked: How to Build Habit-Forming Products.* Portfolio, 2014.
+- Eyal, Nir. *Hooked: How to Build Habit-Forming Products.* Portfolio, 2014.
 
-Feld, Brad, e Jason Mendelson. *Venture Deals: Be Smarter Than Your Lawyer and Venture Capitalist.* 4ª ed. Wiley, 2019.
+- Feld, Brad, e Jason Mendelson. *Venture Deals: Be Smarter Than Your Lawyer and Venture Capitalist.* 4ª ed. Wiley, 2019.
 
 - Fisher, Roger, e William Ury (com Bruce Patton a partir da 2ª ed.). *Getting to Yes: Negotiating Agreement Without Giving In.* Houghton Mifflin, 1981 (edições posteriores Penguin. Edição brasileira: *Como Chegar ao Sim.* Sextante, 2018. Obra de origem da negociação baseada em princípios e do conceito de BATNA).
 - Raiffa, Howard. *The Art and Science of Negotiation.* Harvard University Press, 1982 (obra seminal de análise de decisão e negociação que formalizou a Zona de Possível Acordo, ZOPA).
 
-Fitzpatrick, Rob. *The Mom Test: How to Talk to Customers and Learn if Your Business is a Good Idea When Everyone is Lying to You.* Fundador Centric, 2013.
+- Fitzpatrick, Rob. *The Mom Test: How to Talk to Customers and Learn if Your Business is a Good Idea When Everyone is Lying to You.* Fundador Centric, 2013.
 
-Forsgren, Nicole, Jez Humble, e Gene Kim. *Accelerate: The Science of Lean Software and DevOps.* IT Revolution Press, 2018.
+- Forsgren, Nicole, Jez Humble, e Gene Kim. *Accelerate: The Science of Lean Software and DevOps.* IT Revolution Press, 2018.
 
 - Fried, Jason, e David Heinemeier Hansson. *Rework.* Crown Business, 2010 (Edição brasileira: *Rework: Reinvente a Sua Empresa.* Sextante, 2012).
 
 - Gerber, Michael E. *The E-Myth Revisited: Why Most Small Businesses Don't Work and What to Do About It.* Harper Business, 1995 (edição revista e atualizada, 2001. Edição brasileira: *O Mito do Empreendedor: Como Fazer Seu Negócio Dar Certo em um Mundo Cheio de Desafios.* Fundamento, 2004 / 2011).
 
-Gompers, Paul A., e Josh Lerner. *The Money of Invention: How Venture Capital Creates New Wealth.* Harvard Business Review Press, 2001.
+- Gompers, Paul A., e Josh Lerner. *The Money of Invention: How Venture Capital Creates New Wealth.* Harvard Business Review Press, 2001.
 
 - Goldratt, Eliyahu M., e Jeff Cox. *The Goal: A Process of Ongoing Improvement.* North River Press, 1984 (Edição brasileira: *A Meta: Um Processo de Melhoria Contínua.* Nobel, 2002. Obra de origem da Teoria das Restrições, *Theory of Constraints*).
 - Gray, Dave, Sunni Brown, e James Macanufo. *Gamestorming: A Playbook for Innovators, Rulebreakers, and Changemakers.* O'Reilly Media, 2010 (obra de difusão do *Empathy Map* desenvolvido por Dave Gray na XPLANE).
 
 - Grove, Andrew S. *High Output Management.* Random House, 1983 (reedição Vintage, 1995. Edição brasileira: *Gestão de Alta Performance.* Benvirá, 2020).
 
-Hamel, Gary, e C. K. Prahalad. *Competing for the Future.* Harvard Business Review Press, 1994.
+- Hamel, Gary, e C. K. Prahalad. *Competing for the Future.* Harvard Business Review Press, 1994.
 
-Harnish, Verne. *Scaling Up: How a Few Companies Make It and Why the Rest Don't.* Gazelles, 2014.
+- Harnish, Verne. *Scaling Up: How a Few Companies Make It and Why the Rest Don't.* Gazelles, 2014.
 
-Hastings, Reed, e Erin Meyer. *No Rules Rules: Netflix and the Culture of Reinvention.* Penguin Press, 2020. (Edição brasileira: *A Regra É Não Ter Regras.* Intrínseca, 2020.)
+- Hastings, Reed, e Erin Meyer. *No Rules Rules: Netflix and the Culture of Reinvention.* Penguin Press, 2020. (Edição brasileira: *A Regra É Não Ter Regras.* Intrínseca, 2020.)
 
-Helmer, Hamilton. *7 Powers: The Foundations of Business Strategy.* Deep Strategy LLC, 2016.
+- Helmer, Hamilton. *7 Powers: The Foundations of Business Strategy.* Deep Strategy LLC, 2016.
 
-Hoffman, Reid, e Chris Yeh. *Blitzscaling: The Lightning-Fast Path to Building Massively Valuable Companies.* Currency, 2018.
+- Hoffman, Reid, e Chris Yeh. *Blitzscaling: The Lightning-Fast Path to Building Massively Valuable Companies.* Currency, 2018.
 
-Horowitz, Ben. *The Hard Thing About Hard Things: Building a Business When There Are No Easy Answers.* Harper Business, 2014. (Edição brasileira: *O Lado Difícil das Situações Difíceis.* Martins Fontes, 2015.)
+- Horowitz, Ben. *The Hard Thing About Hard Things: Building a Business When There Are No Easy Answers.* Harper Business, 2014. (Edição brasileira: *O Lado Difícil das Situações Difíceis.* Martins Fontes, 2015.)
 
-Johnson, Claire Hughes. *Scaling People: Tactics for Management and Company Building.* Stripe Press, 2023.
+- Johnson, Claire Hughes. *Scaling People: Tactics for Management and Company Building.* Stripe Press, 2023.
 
-Kahneman, Daniel. *Thinking, Fast and Slow.* Farrar, Straus and Giroux, 2011. (Edição brasileira: *Rápido e Devagar: Duas Formas de Pensar.* Objetiva, 2012.)
+- Kahneman, Daniel. *Thinking, Fast and Slow.* Farrar, Straus and Giroux, 2011. (Edição brasileira: *Rápido e Devagar: Duas Formas de Pensar.* Objetiva, 2012.)
 
 - Kaplan, Robert S., e David P. Norton. *The Balanced Scorecard: Translating Strategy into Action.* Harvard Business School Press, 1996 (Edição brasileira: *A Estratégia em Ação: Balanced Scorecard.* Campus/Alta Books, 1997).
 
-Kawasaki, Guy. *The Art of the Start 2.0: The Time-Tested, Battle-Hardened Guide for Anyone Starting Anything.* Portfolio, 2015.
+- Kawasaki, Guy. *The Art of the Start 2.0: The Time-Tested, Battle-Hardened Guide for Anyone Starting Anything.* Portfolio, 2015.
 
-Kim, W. Chan, e Renée Mauborgne. *Blue Ocean Strategy: How to Create Uncontested Market Space and Make the Competition Irrelevant.* Harvard Business Review Press, 2005. (Edição brasileira: *A Estratégia do Oceano Azul.* Sextante.)
+- Kim, W. Chan, e Renée Mauborgne. *Blue Ocean Strategy: How to Create Uncontested Market Space and Make the Competition Irrelevant.* Harvard Business Review Press, 2005. (Edição brasileira: *A Estratégia do Oceano Azul.* Sextante.)
 
-Klein, Gary. *Sources of Power: How People Make Decisions.* MIT Press, 1998.
+- Klein, Gary. *Sources of Power: How People Make Decisions.* MIT Press, 1998.
 
-Knapp, Jake, John Zeratsky, e Braden Kowitz. *Sprint: How to Solve Big Problems and Test New Ideas in Just Five Days.* Simon & Schuster, 2016.
+- Knapp, Jake, John Zeratsky, e Braden Kowitz. *Sprint: How to Solve Big Problems and Test New Ideas in Just Five Days.* Simon & Schuster, 2016.
 
-Kohavi, Ron, Diane Tang, e Ya Xu. *Trustworthy Online Controlled Experiments: A Practical Guide to A/B Testing.* Cambridge University Press, 2020.
+- Kohavi, Ron, Diane Tang, e Ya Xu. *Trustworthy Online Controlled Experiments: A Practical Guide to A/B Testing.* Cambridge University Press, 2020.
 
-Lafley, A. G., e Roger L. Martin. *Playing to Win: How Strategy Really Works.* Harvard Business Review Press, 2013.
+- Lafley, A. G., e Roger L. Martin. *Playing to Win: How Strategy Really Works.* Harvard Business Review Press, 2013.
 
-Lencioni, Patrick. *The Five Dysfunctions of a Team: A Leadership Fable.* Jossey-Bass, 2002. (Edição brasileira: *Os 5 Desafios das Equipes.* Sextante.)
+- Lencioni, Patrick. *The Five Dysfunctions of a Team: A Leadership Fable.* Jossey-Bass, 2002. (Edição brasileira: *Os 5 Desafios das Equipes.* Sextante.)
 
-Marks, Howard. *The Most Important Thing: Uncommon Sense for the Thoughtful Investor.* Columbia Business School Publishing, 2011 (edição *Illuminated*, 2013).
+- Marks, Howard. *The Most Important Thing: Uncommon Sense for the Thoughtful Investor.* Columbia Business School Publishing, 2011 (edição *Illuminated*, 2013).
 
 - Marquet, L. David. *Turn the Ship Around! A True Story of Turning Followers into Leaders.* Portfolio / Penguin, 2013 (obra de origem da liderança baseada em intenção, *Intent-Based Leadership*).
 - Minto, Barbara. *The Pyramid Principle: Logic in Writing and Thinking.* Minto International / Financial Times Prentice Hall, 1987 (3ª ed. 2009. Obra de origem do Princípio da Pirâmide, da estrutura narrativa SCQA e do princípio MECE).
 
-Maurya, Ash. *Running Lean: Iterate from Plan A to a Plan That Works.* O'Reilly, 2012 (3ª ed. 2022).
+- Maurya, Ash. *Running Lean: Iterate from Plan A to a Plan That Works.* O'Reilly, 2012 (3ª ed. 2022).
 
 - Moesta, Bob, e Greg Engle. *Demand-Side Sales 101: Stop Selling and Help Your Customers Make Progress.* Lioncrest Publishing, 2020 (aplicação prática de *Jobs to Be Done* e *Switch Interviews* ao processo comercial).
 
 - Moore, Geoffrey A. *Crossing the Chasm: Marketing and Selling High-Tech Products to Mainstream Customers.* HarperBusiness, 1991 (3ª ed. revista e atualizada, 2014. Edição brasileira: *Atravessando o Abismo.* Alta Books, 2015).
 
-Munger, Charles T. *Poor Charlie's Almanack: The Wit and Wisdom of Charles T. Munger.* Editado por Peter D. Kaufman. Donning Company, 2005 (edição expandida Stripe Press, 2023).
+- Munger, Charles T. *Poor Charlie's Almanack: The Wit and Wisdom of Charles T. Munger.* Editado por Peter D. Kaufman. Donning Company, 2005 (edição expandida Stripe Press, 2023).
 
-O'Reilly, Charles A., e Michael L. Tushman. *Lead and Disrupt: How to Solve the Innovator's Dilemma.* Stanford Business Books, 2016.
+- O'Reilly, Charles A., e Michael L. Tushman. *Lead and Disrupt: How to Solve the Innovator's Dilemma.* Stanford Business Books, 2016.
 
-Osterwalder, Alexander, e Yves Pigneur. *Business Model Generation: A Handbook for Visionaries, Game Changers, and Challengers.* Wiley, 2010.
+- Osterwalder, Alexander, e Yves Pigneur. *Business Model Generation: A Handbook for Visionaries, Game Changers, and Challengers.* Wiley, 2010.
 
-Osterwalder, Alexander, Yves Pigneur, Greg Bernarda, e Alan Smith. *Value Proposition Design: How to Create Products and Services Customers Want.* Wiley, 2014.
+- Osterwalder, Alexander, Yves Pigneur, Greg Bernarda, e Alan Smith. *Value Proposition Design: How to Create Products and Services Customers Want.* Wiley, 2014.
 
-Patton, Jeff. *User Story Mapping: Discover the Whole Story, Build the Right Product.* O'Reilly, 2014.
+- Patton, Jeff. *User Story Mapping: Discover the Whole Story, Build the Right Product.* O'Reilly, 2014.
 
-Pink, Daniel H. *Drive: The Surprising Truth About What Motivates Us.* Riverhead Books, 2009.
+- Pink, Daniel H. *Drive: The Surprising Truth About What Motivates Us.* Riverhead Books, 2009.
 
-Porter, Michael E. *Competitive Strategy: Techniques for Analyzing Industries and Competitors.* Free Press, 1980.
+- Porter, Michael E. *Competitive Strategy: Techniques for Analyzing Industries and Competitors.* Free Press, 1980.
 
-Porter, Michael E. *Competitive Advantage: Creating and Sustaining Superior Performance.* Free Press, 1985.
+- Porter, Michael E. *Competitive Advantage: Creating and Sustaining Superior Performance.* Free Press, 1985.
 
-Rackham, Neil. *SPIN Selling.* McGraw-Hill, 1988. (Edição brasileira: *Alcançando Excelência em Vendas, SPIN Selling.* M.Books.)
+- Rackham, Neil. *SPIN Selling.* McGraw-Hill, 1988. (Edição brasileira: *Alcançando Excelência em Vendas, SPIN Selling.* M.Books.)
 
 - Ramadan, Al, Dave Peterson, Christopher Lochhead, e Kevin Maney. *Play Bigger: How Pirates, Dreamers, and Innovators Create and Dominate Markets.* HarperBusiness, 2016 (obra de referência de *Category Design*).
 
 - Reichheld, Fred, e Rob Markey. *The Ultimate Question 2.0: How Net Promoter Companies Thrive in a Customer-Driven World.* Harvard Business Review Press, 2011 (edição revista e ampliada da obra de 2006 que sistematizou o *Net Promoter System*).
 
-Ries, Al, e Jack Trout. *Positioning: The Battle for Your Mind.* McGraw-Hill, 1981 (edição de 20º aniversário, 2001).
+- Ries, Al, e Jack Trout. *Positioning: The Battle for Your Mind.* McGraw-Hill, 1981 (edição de 20º aniversário, 2001).
 
-Ries, Eric. *The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses.* Crown Business, 2011. (Edição brasileira: *A Startup Enxuta.* Lua de Papel / Sextante, 2012.)
+- Ries, Eric. *The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses.* Crown Business, 2011. (Edição brasileira: *A Startup Enxuta.* Lua de Papel / Sextante, 2012.)
 
-Ross, Aaron, e Marylou Tyler. *Predictable Revenue: Turn Your Business Into a Sales Machine with the \$100 Million Best Practices of Salesforce.com.* PebbleStorm, 2011. (Edição brasileira: *Receita Previsível.* Autêntica Business, 2017.)
+- Ross, Aaron, e Marylou Tyler. *Predictable Revenue: Turn Your Business Into a Sales Machine with the \$100 Million Best Practices of Salesforce.com.* PebbleStorm, 2011. (Edição brasileira: *Receita Previsível.* Autêntica Business, 2017.)
 
-Rumelt, Richard P. *Good Strategy / Bad Strategy: The Difference and Why It Matters.* Crown Business, 2011.
+- Rumelt, Richard P. *Good Strategy / Bad Strategy: The Difference and Why It Matters.* Crown Business, 2011.
 
 - Rother, Mike. *Toyota Kata: Managing People for Improvement, Adaptiveness, and Superior Results.* McGraw-Hill, 2009 (Edição brasileira: *Toyota Kata: Gerenciando Pessoas para Melhoria, Adaptabilidade e Resultados Excepcionais.* Bookman, 2010).
 
-Sarasvathy, Saras D. *Effectuation: Elements of Entrepreneurial Expertise.* Edward Elgar, 2008.
+- Sarasvathy, Saras D. *Effectuation: Elements of Entrepreneurial Expertise.* Edward Elgar, 2008.
 
-Savoia, Alberto. *The Right It: Why So Many Ideas Fail and How to Make Sure Yours Succeed.* HarperOne, 2019.
+- Savoia, Alberto. *The Right It: Why So Many Ideas Fail and How to Make Sure Yours Succeed.* HarperOne, 2019.
 
 - Scott, Kim. *Radical Candor: Be a Kick-Ass Boss Without Losing Your Humanity.* St. Martin's Press, 2017 (Edição brasileira: *Empatia Assertiva: Como Ser um Líder Incisivo sem Perder a Humanidade.* Alta Books, 2019).
 
-Singer, Ryan. *Shape Up: Stop Running in Circles and Ship Work that Matters.* Basecamp, 2019.
+- Singer, Ryan. *Shape Up: Stop Running in Circles and Ship Work that Matters.* Basecamp, 2019.
 
-Smart, Bradford D. *Topgrading: How Leading Companies Win by Hiring, Coaching, and Keeping the Best People.* Portfolio, 1999 (3ª ed. 2012).
+- Smart, Bradford D. *Topgrading: How Leading Companies Win by Hiring, Coaching, and Keeping the Best People.* Portfolio, 1999 (3ª ed. 2012).
 
-Smart, Geoff, e Randy Street. *Who: The A Method for Hiring.* Ballantine, 2008.
+- Smart, Geoff, e Randy Street. *Who: The A Method for Hiring.* Ballantine, 2008.
 
-Thaler, Richard H., e Cass R. Sunstein. *Nudge: Improving Decisions About Health, Wealth, and Happiness.* Yale University Press, 2008.
+- Thaler, Richard H., e Cass R. Sunstein. *Nudge: Improving Decisions About Health, Wealth, and Happiness.* Yale University Press, 2008.
 
-Thiel, Peter, e Blake Masters. *Zero to One: Notes on Startups, or How to Build the Future.* Crown Business, 2014. (Edição brasileira: *De Zero a Um: O Que Aprender sobre Empreendedorismo com o Vale do Silício.* Objetiva, 2014.)
+- Thiel, Peter, e Blake Masters. *Zero to One: Notes on Startups, or How to Build the Future.* Crown Business, 2014. (Edição brasileira: *De Zero a Um: O Que Aprender sobre Empreendedorismo com o Vale do Silício.* Objetiva, 2014.)
 
-Torres, Teresa. *Continuous Discovery Habits: Discover Products that Create Customer Value and Business Value.* Product Talk, 2021.
+- Torres, Teresa. *Continuous Discovery Habits: Discover Products that Create Customer Value and Business Value.* Product Talk, 2021.
 
 - Tetlock, Philip E., e Dan Gardner. *Superforecasting: The Art and Science of Prediction.* Crown, 2015 (Edição brasileira: *Superprevisões: A Arte e a Ciência de Antecipar o Futuro.* Objetiva, 2016. Obra de referência sobre calibração probabilística e atualização bayesiana).
 - Treacy, Michael, e Fred Wiersema. *The Discipline of Market Leaders: Choose Your Customers, Narrow Your Focus, Dominate Your Market.* Addison-Wesley, 1995 (obra de origem das Três Disciplinas de Valor: Excelência Operacional, Liderança de Produto e Intimidade com o Cliente).
 
-Tzuo, Tien, e Gabe Weisert. *Subscribed: Why the Subscription Model Will Be Your Company's Future and What to Do About It.* Portfolio, 2018.
+- Tzuo, Tien, e Gabe Weisert. *Subscribed: Why the Subscription Model Will Be Your Company's Future and What to Do About It.* Portfolio, 2018.
 
-Ulwick, Anthony W. *What Customers Want: Using Outcome-Driven Innovation to Create Breakthrough Products and Services.* McGraw-Hill, 2005.
+- Ulwick, Anthony W. *What Customers Want: Using Outcome-Driven Innovation to Create Breakthrough Products and Services.* McGraw-Hill, 2005.
 
-Ulwick, Anthony W. *Jobs to Be Done: Theory to Practice.* Idea Bite Press, 2016.
+- Ulwick, Anthony W. *Jobs to Be Done: Theory to Practice.* Idea Bite Press, 2016.
 
-Voss, Chris, e Tahl Raz. *Never Split the Difference: Negotiating As If Your Life Depended On It.* Harper Business, 2016. (Edição brasileira: *Negocie como se Sua Vida Dependesse Disso.* Sextante, 2017.)
-
-Wasserman, Noam. *The Founder's Dilemmas: Anticipating and Avoiding the Pitfalls That Can Sink a Startup.* Princeton University Press, 2012.
+- Voss, Chris, e Tahl Raz. *Never Split the Difference: Negotiating As If Your Life Depended On It.* Harper Business, 2016. (Edição brasileira: *Negocie como se Sua Vida Dependesse Disso.* Sextante, 2017.)
 
 - Wasserman, Noam. *The Founder's Dilemmas: Anticipating and Avoiding the Pitfalls That Can Sink a Startup.* Princeton University Press, 2012 (pesquisa empírica em Harvard com mais de 10.000 fundadores sobre a escolha fundamental entre controle e riqueza, *Rich vs. King*).
 
-Wickman, Gino. *Traction: Get a Grip on Your Business.* BenBella Books, 2007 (edição expandida, 2011).
+- Wickman, Gino. *Traction: Get a Grip on Your Business.* BenBella Books, 2007 (edição expandida, 2011).
 
 - Willink, Jocko, e Leif Babin. *Extreme Ownership: How U.S. Navy SEALs Lead and Win.* St. Martin's Press, 2015 (Edição brasileira: *Responsabilidade Extrema.* Alta Books, 2018).
 
 ### Artigos acadêmicos e papers
 
-Ansoff, H. Igor. "Strategies for Diversification." *Harvard Business Review* 35(5), 1957, pp. 113-124.
+- Ansoff, H. Igor. "Strategies for Diversification." *Harvard Business Review* 35(5), 1957, pp. 113-124.
 
-Blank, Steve. "Why the Lean Start-Up Changes Everything." *Harvard Business Review* 91(5), 2013, pp. 63-72.
-
-Camuffo, Arnaldo, Alessandro Cordova, Alfonso Gambardella, e Chiara Spina. "A Scientific Approach to Entrepreneurial Decision Making: Evidence from a Randomized Control Trial." *Management Science* 66(2), 2020, pp. 564-586.
+- Blank, Steve. "Why the Lean Start-Up Changes Everything." *Harvard Business Review* 91(5), 2013, pp. 63-72.
 
 - Camuffo, Arnaldo, Alfonso Gambardella, Danilo Messinese, Elena Novelli, Emilio Paolucci, e Chiara Spina. "A Scientific Approach to Entrepreneurial Decision-Making: Large-Scale Replication and Extension." *Strategic Management Journal* 45, nº 6 (2024): 1209–1237 (divulgado editorialmente na *Harvard Business Review*, "Why Entrepreneurs Should Think Like Scientists", v. 102, nº 4, jul.–ago. 2024, p. 23).
 
@@ -10633,41 +10629,41 @@ Camuffo, Arnaldo, Alessandro Cordova, Alfonso Gambardella, e Chiara Spina. "A Sc
 
 - Novelli, Elena, e Chiara Spina. "When Do Entrepreneurs Benefit from Acting Like Scientists? A Field Experiment in the UK." *Strategic Management Journal* 45, nº 9 (2024): 1789–1822 (circulado inicialmente como *working paper* Bocconi University / SSRN, 2021).
 
-Danziger, Shai, Jonathan Levav, e Liora Avnaim-Pesso. "Extraneous Factors in Judicial Decisions." *Proceedings of the National Academy of Sciences (PNAS)* 108(17), 2011, pp. 6889-6892 (acompanhado das análises metodológicas posteriores sobre efeitos de ordem de agendamento).
+- Danziger, Shai, Jonathan Levav, e Liora Avnaim-Pesso. "Extraneous Factors in Judicial Decisions." *Proceedings of the National Academy of Sciences (PNAS)* 108(17), 2011, pp. 6889-6892 (acompanhado das análises metodológicas posteriores sobre efeitos de ordem de agendamento).
 
 - Felin, Teppo, Alfonso Gambardella, Scott Stern, e Todd Zenger. "Lean Startup and the Business Model: Experimentation Revisited." *Long Range Planning* 53, nº 4 (2020): 101889 (base conceitual da Teoria do Negócio e do *Theory Map* / *Story Tree*).
 
-Hagel, John, e Marc Singer. "Unbundling the Corporation." *Harvard Business Review* 77(2), 1999, pp. 133-141.
+- Hagel, John, e Marc Singer. "Unbundling the Corporation." *Harvard Business Review* 77(2), 1999, pp. 133-141.
 
-Kahneman, Daniel, e Amos Tversky. "Intuitive Prediction: Biases and Corrective Procedures." *TIMS Studies in Management Science* 12, 1979, pp. 313-327. (Origem do conceito de *planning fallacy*.)
+- Kahneman, Daniel, e Amos Tversky. "Intuitive Prediction: Biases and Corrective Procedures." *TIMS Studies in Management Science* 12, 1979, pp. 313-327. (Origem do conceito de *planning fallacy*.)
 
-Kozyrkov, Cassie. "The First Thing Great Decision Makers Do." *Harvard Business Review* (online), junho de 2019.
+- Kozyrkov, Cassie. "The First Thing Great Decision Makers Do." *Harvard Business Review* (online), junho de 2019.
 
-Lovallo, Dan, e Daniel Kahneman. "Delusions of Success: How Optimism Undermines Executives' Decisions." *Harvard Business Review* 81(7), 2003, pp. 56-63.
+- Lovallo, Dan, e Daniel Kahneman. "Delusions of Success: How Optimism Undermines Executives' Decisions." *Harvard Business Review* 81(7), 2003, pp. 56-63.
 
-Norton, Michael I., Daniel Mochon, e Dan Ariely. "The IKEA Effect: When Labor Leads to Love." *Journal of Consumer Psychology* 22(3), 2012, pp. 453-460.
+- Norton, Michael I., Daniel Mochon, e Dan Ariely. "The IKEA Effect: When Labor Leads to Love." *Journal of Consumer Psychology* 22(3), 2012, pp. 453-460.
 
-Novelli, Elena, e Chiara Spina. "Making Business Model Decisions Like Scientists: Strategic Commitment, Uncertainty, and Economic Performance." *Strategic Management Journal* 45(12), 2024.
+- Novelli, Elena, e Chiara Spina. "Making Business Model Decisions Like Scientists: Strategic Commitment, Uncertainty, and Economic Performance." *Strategic Management Journal* 45(12), 2024.
 
-Ott, Timothy E., e Kathleen M. Eisenhardt. "Decision Weaving: Forming Novel, Complex Strategy in Entrepreneurial Settings." *Strategic Management Journal* 41(12), 2020, pp. 2275-2314.
+- Ott, Timothy E., e Kathleen M. Eisenhardt. "Decision Weaving: Forming Novel, Complex Strategy in Entrepreneurial Settings." *Strategic Management Journal* 41(12), 2020, pp. 2275-2314.
 
-Porter, Michael E. "How Competitive Forces Shape Strategy." *Harvard Business Review* 57(2), 1979, pp. 137-145.
+- Porter, Michael E. "How Competitive Forces Shape Strategy." *Harvard Business Review* 57(2), 1979, pp. 137-145.
 
-Porter, Michael E. "The Five Competitive Forces That Shape Strategy." *Harvard Business Review* 86(1), 2008, pp. 78-93.
+- Porter, Michael E. "The Five Competitive Forces That Shape Strategy." *Harvard Business Review* 86(1), 2008, pp. 78-93.
 
 - Reichheld, Frederick F. "The One Number You Need to Grow." *Harvard Business Review* 81, nº 12 (dezembro de 2003): 46–54 (artigo original de criação do *Net Promoter Score*, NPS).
 
-Prahalad, C. K., e Gary Hamel. "The Core Competence of the Corporation." *Harvard Business Review* 68(3), 1990, pp. 79-91.
+- Prahalad, C. K., e Gary Hamel. "The Core Competence of the Corporation." *Harvard Business Review* 68(3), 1990, pp. 79-91.
 
-Sarasvathy, Saras D. "Causation and Effectuation: Toward a Theoretical Shift from Economic Inevitability to Entrepreneurial Contingency." *Academy of Management Review* 26(2), 2001, pp. 243-263.
+- Sarasvathy, Saras D. "Causation and Effectuation: Toward a Theoretical Shift from Economic Inevitability to Entrepreneurial Contingency." *Academy of Management Review* 26(2), 2001, pp. 243-263.
 
 - Snowden, David J., e Mary E. Boone. "A Leader's Framework for Decision Making." *Harvard Business Review* 85, nº 11 (novembro de 2007): 68–76 (artigo que difundiu ao público executivo o framework *Cynefin*, concebido originalmente por Dave Snowden na IBM em 1999).
 
 ### Ensaios, palestras e publicações digitais
 
-Andreessen, Marc. "The Pmarca Guide to Startups" (série de ensaios sobre Product/Market Fit, equipe e mercado, 2007) e coletânea de ensaios a16z.com (2009 em diante). Acesso em outubro de 2026.
+- Andreessen, Marc. "The Pmarca Guide to Startups" (série de ensaios sobre Product/Market Fit, equipe e mercado, 2007) e coletânea de ensaios a16z.com (2009 em diante). Acesso em outubro de 2026.
 
-Bezos, Jeff. "Cartas anuais aos acionistas da Amazon (1997 a 2020)." Disponíveis em aboutamazon.com e arquivos públicos da SEC. Acesso em outubro de 2026.
+- Bezos, Jeff. "Cartas anuais aos acionistas da Amazon (1997 a 2020)." Disponíveis em aboutamazon.com e arquivos públicos da SEC. Acesso em outubro de 2026.
 
 - Contigiani, Andrea, e Daniel A. Levinthal. "Situating the Construct of Lean Start-Up." *Industrial and Corporate Change* 28, nº 3 (2019): 551–564.
 
@@ -10680,51 +10676,47 @@ Bezos, Jeff. "Cartas anuais aos acionistas da Amazon (1997 a 2020)." Disponívei
 - Graham, Paul. "Do Things That Don't Scale." `paulgraham.com/ds.html`, julho de 2013.
 - Graham, Paul. "How to Raise Money." `paulgraham.com/fr.html`, setembro de 2013.
 
-Graham, Paul. "The 18 Mistakes That Kill Startups." paulgraham.com/startupmistakes.html, outubro de 2006. Acesso em outubro de 2026.
+- Graham, Paul. "The 18 Mistakes That Kill Startups." paulgraham.com/startupmistakes.html, outubro de 2006. Acesso em outubro de 2026.
 
-Graham, Paul. "Keep Your Identity Small." paulgraham.com/identity.html, fevereiro de 2009. Acesso em outubro de 2026.
+- Graham, Paul. "Keep Your Identity Small." paulgraham.com/identity.html, fevereiro de 2009. Acesso em outubro de 2026.
 
-Graham, Paul. "Maker's Schedule, Manager's Schedule." paulgraham.com/makersschedule.html, julho de 2009. Acesso em outubro de 2026.
+- Graham, Paul. "Maker's Schedule, Manager's Schedule." paulgraham.com/makersschedule.html, julho de 2009. Acesso em outubro de 2026.
 
-Graham, Paul. "Mean People Fail." paulgraham.com/mean.html, novembro de 2014. Acesso em outubro de 2026.
+- Graham, Paul. "Mean People Fail." paulgraham.com/mean.html, novembro de 2014. Acesso em outubro de 2026.
 
-Graham, Paul. "Default Alive or Default Dead?" paulgraham.com/aord.html, outubro de 2015. Acesso em outubro de 2026.
+- Graham, Paul. "Default Alive or Default Dead?" paulgraham.com/aord.html, outubro de 2015. Acesso em outubro de 2026.
 
-Graham, Paul. "Earnestness." paulgraham.com/earnest.html, dezembro de 2020. Acesso em outubro de 2026.
+- Graham, Paul. "Earnestness." paulgraham.com/earnest.html, dezembro de 2020. Acesso em outubro de 2026.
 
 - Graham, Paul. "Founder Mode." `paulgraham.com/foundermode.html`, setembro de 2024 (ensaio escrito a partir da palestra proferida por Brian Chesky, cofundador do Airbnb, em evento da Y Combinator).
 
-McClure, Dave. "Startup Metrics for Pirates: AARRR!" 500hats.com, 2007. Acesso em outubro de 2026.
+- McClure, Dave. "Startup Metrics for Pirates: AARRR!" 500hats.com, 2007. Acesso em outubro de 2026.
 
 - Rachleff, Andy. Ensaios sobre *Product-Market Fit* e a "Lei do Sucesso de Startups" (segundo a qual o mercado puxa o produto independentemente da competência inicial do time) publicados no blog da Wealthfront (`blog.wealthfront.com`) e nas notas de aula da Stanford Graduate School of Business (GSB), 2013–2015.
 
-Rajaram, Gokul. "SPADE: A Toolkit for Making Better Decisions." Square / Medium e gokulrajaram.com, 2015 (expandido em 2019). Acesso em outubro de 2026.
+- Rajaram, Gokul. "SPADE: A Toolkit for Making Better Decisions." Square / Medium e gokulrajaram.com, 2015 (expandido em 2019). Acesso em outubro de 2026.
 
-Ressi, Adeo. "FAST Agreement (Fundador/Advisor Standard Template)." Founder Institute, 2011 (e revisões posteriores em fi.co/fast). Acesso em outubro de 2026.
+- Ressi, Adeo. "FAST Agreement (Fundador/Advisor Standard Template)." Founder Institute, 2011 (e revisões posteriores em fi.co/fast). Acesso em outubro de 2026.
 
-Sacks, David. "The Burn Multiple" e "The SaaS Metrics That Matter." Craft Ventures / Substack, 2020–2023. Acesso em outubro de 2026.
+- Sacks, David. "The Burn Multiple" e "The SaaS Metrics That Matter." Craft Ventures / Substack, 2020–2023. Acesso em outubro de 2026.
 
-Thompson, Ben. "Stratechery: Aggregation Theory and Tech Strategy." stratechery.com, 2013 em diante. Acesso em outubro de 2026.
+- Thompson, Ben. "Stratechery: Aggregation Theory and Tech Strategy." stratechery.com, 2013 em diante. Acesso em outubro de 2026.
 
 - **ABStartups (Associação Brasileira de Startups)**: *Mapeamento do Ecossistema Brasileiro de Startups* (edições anuais 2021–2025). `abstartups.com.br` (verificado em outubro de 2026).
 
-ABStartups (Associação Brasileira de Startups). *Mapeamento do Ecossistema Brasileiro de Startups e Relatórios Anuais.* abstartups.com.br. Acesso em outubro de 2026.
+- **ABVCAP (Associação Brasileira de Private Equity e Venture Capital) e TTR Data**: *Consolidação de Dados da Indústria de Private Equity, Venture Capital e Corporate Venture no Brasil.* abvcap.com.br. Acesso em outubro de 2026.
 
-ABVCAP (Associação Brasileira de Private Equity e Venture Capital) e TTR Data. *Consolidação de Dados da Indústria de Private Equity, Venture Capital e Corporate Venture no Brasil.* abvcap.com.br. Acesso em outubro de 2026.
+- **ANBIMA (Associação Brasileira das Entidades dos Mercados Financeiro e de Capitais)**: *Boletins de Mercado de Capitais, FIDCs e Fundos de Investimento (Resolução CVM 175).* anbima.com.br. Acesso em outubro de 2026.
 
-ANBIMA (Associação Brasileira das Entidades dos Mercados Financeiro e de Capitais). *Boletins de Mercado de Capitais, FIDCs e Fundos de Investimento (Resolução CVM 175).* anbima.com.br. Acesso em outubro de 2026.
+- **Banco Central do Brasil (BCB)**: *Relatório de Economia Bancária, Estatísticas do Pix, Open Finance e Piloto Drex.* bcb.gov.br. Acesso em outubro de 2026.
 
-Banco Central do Brasil (BCB). *Relatório de Economia Bancária, Estatísticas do Pix, Open Finance e Piloto Drex.* bcb.gov.br. Acesso em outubro de 2026.
+- **Brasscom (Associação das Empresas de Tecnologia da Informação e Comunicação e de Tecnologias Digitais)**: *Relatório Setorial de Macrossetor de TIC no Brasil.* brasscom.org.br. Acesso em outubro de 2026.
 
-Brasscom (Associação das Empresas de Tecnologia da Informação e Comunicação e de Tecnologias Digitais). *Relatório Setorial de Macrossetor de TIC no Brasil.* brasscom.org.br. Acesso em outubro de 2026.
+- **Distrito**: *Panorama Tech Brasil e Inside Reports Setoriais (Fintech, Agtech, Healthtech, Retailtech, Edtech e B2B SaaS).* distrito.me. Acesso em outubro de 2026.
 
-Distrito. *Panorama Tech Brasil e Inside Reports Setoriais (Fintech, Agtech, Healthtech, Retailtech, Edtech e B2B SaaS).* distrito.me. Acesso em outubro de 2026.
+- **Endeavor Brasil**: *Estudos sobre Scale-ups, Gargalos Regulatórios e Empreendedorismo de Alto Impacto no Brasil.* endeavor.org.br. Acesso em outubro de 2026.
 
-Endeavor Brasil. *Estudos sobre Scale-ups, Gargalos Regulatórios e Empreendedorismo de Alto Impacto no Brasil.* endeavor.org.br. Acesso em outubro de 2026.
-
-IBGE (Instituto Brasileiro de Geografia e Estatística). *Demografia das Empresas e Estatísticas do Cadastro Central de Empresas (CEMPRE) / Censo Demográfico 2022 e Projeções Populacionais.* ibge.gov.br. Acesso em outubro de 2026.
-
-Imprensa especializada de negócios, tecnologia e mercado de capitais no Brasil (acervos de reportagens sobre rodadas, M&A, IPOs e reestruturações citadas nos estudos de caso): *Valor Econômico* (valor.globo.com), *Pipeline Valor* (pipelinevalor.globo.com), *Brazil Journal* (braziljournal.com) e *NeoFeed* (neofeed.com.br). Acesso em outubro de 2026.
+- **IBGE (Instituto Brasileiro de Geografia e Estatística)**: *Demografia das Empresas e Estatísticas do Cadastro Central de Empresas (CEMPRE) / Censo Demográfico 2022 e Projeções Populacionais.* ibge.gov.br. Acesso em outubro de 2026.
 
 - **Imprensa econômica e cobertura especializada brasileira (casos e *post-mortems*)**: *Valor Econômico* (`valor.globo.com`), *NeoFeed* (`neofeed.com.br`), *Brazil Journal* (`braziljournal.com`), *Startups.com.br* (`startups.com.br`), *Pipeline Valor* e *Exame* (`exame.com`), reportagens e dossiês de apuração de rodadas, *M&A* e encerramentos operacionais (2018–2026).
 
@@ -10738,113 +10730,111 @@ Imprensa especializada de negócios, tecnologia e mercado de capitais no Brasil 
 - **CB Insights**: *State of Venture Reports* e *Startup Failure Post-Mortems* (análise empírica das principais causas de mortalidade de startups). `cbinsights.com` (verificado em outubro de 2026).
 - **KeyBanc Capital Markets (KBCM) & Sapphire Ventures**: *SaaS Survey* (benchmarks operacionais de CAC Payback, NRR, GRR, *Magic Number* e *Rule of 40* por faixa de ARR). `key.com` (verificado em outubro de 2026).
 
-Sebrae (Serviço Brasileiro de Apoio às Micro e Pequenas Empresas). *Sobrevivência das Empresas no Brasil e Pesquisas sobre MEI, Microempresas e Pequenos Negócios.* sebrae.com.br. Acesso em outubro de 2026.
+- **Sebrae (Serviço Brasileiro de Apoio às Micro e Pequenas Empresas)**: *Sobrevivência das Empresas no Brasil e Pesquisas sobre MEI, Microempresas e Pequenos Negócios.* sebrae.com.br. Acesso em outubro de 2026.
 
 ### Legislação, marcos regulatórios e normas estruturais brasileiras
 
-Constituição da República Federativa do Brasil de 1988, com as alterações da Emenda Constitucional 132/2023 (Reforma Tributária do Consumo: institui o IBS, a CBS e o Imposto Seletivo, e estabelece o cronograma de transição de 2026 a 2033).
+- **Constituição da República Federativa do Brasil de 1988**: com as alterações da Emenda Constitucional nº 132/2023 (Reforma Tributária do Consumo: institui o IBS, a CBS e o Imposto Seletivo, e estabelece o cronograma de transição de 2026 a 2033).
 
-Lei 4.595/1964. Dispõe sobre a Política e as Instituições Monetárias, Bancárias e Creditícias e cria o Conselho Monetário Nacional (Sistema Financeiro Nacional).
+- Lei 4.595/1964. Dispõe sobre a Política e as Instituições Monetárias, Bancárias e Creditícias e cria o Conselho Monetário Nacional (Sistema Financeiro Nacional).
 
-Lei 6.404/1976. Lei das Sociedades por Ações (S.A.), incluindo regras sobre conselho de administração, acordo de acionistas (art. 118), opções de compra de ações (art. 168, § 3º) e cisão/incorporação (arts. 227 a 233).
+- Lei 6.404/1976. Lei das Sociedades por Ações (S.A.), incluindo regras sobre conselho de administração, acordo de acionistas (art. 118), opções de compra de ações (art. 168, § 3º) e cisão/incorporação (arts. 227 a 233).
 
-Lei 8.078/1990. Código de Defesa do Consumidor (CDC).
+- Lei 8.078/1990. Código de Defesa do Consumidor (CDC).
 
-Lei 8.248/1991. Lei de Informática (incentivos fiscais para capacitação e competitividade do setor de TIC e hardware, atualizada pela Lei 13.969/2019).
+- Lei 8.248/1991. Lei de Informática (incentivos fiscais para capacitação e competitividade do setor de TIC e hardware, atualizada pela Lei 13.969/2019).
 
 - **Lei nº 9.249/1995**: Altera a legislação do Imposto de Renda das Pessoas Jurídicas e da CSLL (institui a isenção de IR sobre dividendos no art. 10, os percentuais de presunção do Lucro Presumido e a Equiparação Hospitalar no art. 15, § 1º, III, "a", e os Juros sobre o Capital Próprio no art. 9º, cuja base de cálculo foi restringida pela Lei nº 14.789/2023 e cuja alíquota de IRRF foi elevada de 15% para 17,5% pela LC nº 224/2025 a partir de 1º/01/2026).
 
-Lei 9.279/1996. Lei da Propriedade Industrial (marcas, patentes, desenhos industriais e repressão à concorrência desleal perante o INPI).
+- Lei 9.279/1996. Lei da Propriedade Industrial (marcas, patentes, desenhos industriais e repressão à concorrência desleal perante o INPI).
 
-Lei 9.456/1997. Lei de Proteção de Cultivares (SNPC/MAPA).
+- Lei 9.456/1997. Lei de Proteção de Cultivares (SNPC/MAPA).
 
-Lei 9.609/1998. Lei do Software (proteção da propriedade intelectual de programa de computador e regras de titularidade de código desenvolvido sob vínculo ou encomenda).
+- Lei 9.609/1998. Lei do Software (proteção da propriedade intelectual de programa de computador e regras de titularidade de código desenvolvido sob vínculo ou encomenda).
 
-Lei 10.101/2000. Dispõe sobre a Participação dos Trabalhadores nos Lucros ou Resultados da empresa (PLR).
+- Lei 10.101/2000. Dispõe sobre a Participação dos Trabalhadores nos Lucros ou Resultados da empresa (PLR).
 
-Lei 10.406/2002. Código Civil Brasileiro, em especial o Livro II: Do Direito de Empresa e o regime das Sociedades Limitadas (arts. 1.052 a 1.087).
+- Lei 10.406/2002. Código Civil Brasileiro, em especial o Livro II: Do Direito de Empresa e o regime das Sociedades Limitadas (arts. 1.052 a 1.087).
 
-Lei 10.973/2004. Lei de Inovação Tecnológica (atualizada pelo Novo Marco Legal de Ciência, Tecnologia e Inovação: Lei 13.243/2016 e Decreto 9.283/2018).
+- Lei 10.973/2004. Lei de Inovação Tecnológica (atualizada pelo Novo Marco Legal de Ciência, Tecnologia e Inovação: Lei 13.243/2016 e Decreto 9.283/2018).
 
-Lei 11.101/2005. Regula a Recuperação Judicial, a Extrajudicial e a Falência do empresário e da sociedade empresária (atualizada pela Lei 14.112/2020).
+- Lei 11.101/2005. Regula a Recuperação Judicial, a Extrajudicial e a Falência do empresário e da sociedade empresária (atualizada pela Lei 14.112/2020).
 
-Lei 11.196/2005. Lei do Bem (incentivos fiscais à inovação tecnológica e P&D no regime de Lucro Real, arts. 17 a 26).
+- Lei 11.196/2005. Lei do Bem (incentivos fiscais à inovação tecnológica e P&D no regime de Lucro Real, arts. 17 a 26).
 
 - **Lei Complementar nº 123/2006**: Estatuto Nacional da Microempresa e da Empresa de Pequeno Porte (institui o Simples Nacional, o MEI e, nos arts. 61-A a 61-D, o contrato de participação de investidor-anjo, com redação aperfeiçoada pelo art. 17 da LC nº 182/2021, além das alterações da LC nº 155/2016 e da LC nº 188/2021).
 
-Lei 11.788/2008. Lei do Estágio.
+- Lei 11.788/2008. Lei do Estágio.
 
-Lei 12.305/2010. Política Nacional de Resíduos Sólidos (PNRS).
+- Lei 12.305/2010. Política Nacional de Resíduos Sólidos (PNRS).
 
 - **Lei nº 11.795/2008**: Dispõe sobre o Sistema de Consórcio e atribui ao Banco Central do Brasil a competência para normatizar, autorizar e fiscalizar as administradoras de consórcios.
 
-Lei 12.529/2011. Estrutura o Sistema Brasileiro de Defesa da Concorrência (CADE) e dispõe sobre a prevenção e repressão às infrações contra a ordem econômica.
+- Lei 12.529/2011. Estrutura o Sistema Brasileiro de Defesa da Concorrência (CADE) e dispõe sobre a prevenção e repressão às infrações contra a ordem econômica.
 
-Lei 12.846/2013. Lei Anticorrupção Empresarial (responsabilização objetiva administrativa e civil de pessoas jurídicas pela prática de atos contra a administração pública).
+- Lei 12.846/2013. Lei Anticorrupção Empresarial (responsabilização objetiva administrativa e civil de pessoas jurídicas pela prática de atos contra a administração pública).
 
-Lei 12.865/2013. Marco Legal dos Arranjos e das Instituições de Pagamento integrantes do Sistema de Pagamentos Brasileiro (SPB).
+- Lei 12.865/2013. Marco Legal dos Arranjos e das Instituições de Pagamento integrantes do Sistema de Pagamentos Brasileiro (SPB).
 
-Lei 13.123/2015. Marco Legal da Biodiversidade (acesso ao patrimônio genético, conhecimento tradicional associado, repartição de benefícios e cadastro no SisGen).
+- Lei 13.123/2015. Marco Legal da Biodiversidade (acesso ao patrimônio genético, conhecimento tradicional associado, repartição de benefícios e cadastro no SisGen).
 
-Lei 13.261/2016. Dispõe sobre a normatização, a fiscalização e a comercialização de planos de assistência funerária.
+- Lei 13.261/2016. Dispõe sobre a normatização, a fiscalização e a comercialização de planos de assistência funerária.
 
-Lei 13.467/2017. Reforma Trabalhista (alterações na CLT: Decreto-Lei 5.452/1943, incluindo teletrabalho, negociação coletiva e empregado hipersuficiente).
+- Lei 13.467/2017. Reforma Trabalhista (alterações na CLT: Decreto-Lei 5.452/1943, incluindo teletrabalho, negociação coletiva e empregado hipersuficiente).
 
-Lei 13.483/2017. Institui a Taxa de Longo Prazo (TLP) e disciplina o uso da TJLP para cálculo de JCP.
+- Lei 13.483/2017. Institui a Taxa de Longo Prazo (TLP) e disciplina o uso da TJLP para cálculo de JCP.
 
-Lei 13.576/2017. Institui a Política Nacional de Biocombustíveis (RenovaBio) e os Créditos de Descarbonização (CBIOs).
+- Lei 13.576/2017. Institui a Política Nacional de Biocombustíveis (RenovaBio) e os Créditos de Descarbonização (CBIOs).
 
-Lei 13.640/2018. Regulamenta o transporte remunerado privado individual de passageiros por aplicativos.
+- Lei 13.640/2018. Regulamenta o transporte remunerado privado individual de passageiros por aplicativos.
 
-Lei 13.709/2018. Lei Geral de Proteção de Dados Pessoais (LGPD).
-
-Lei 13.787/2018. Dispõe sobre a digitalização e a utilização de sistemas informatizados para a guarda, o armazenamento e o manuseio de prontuário de paciente.
+- Lei 13.787/2018. Dispõe sobre a digitalização e a utilização de sistemas informatizados para a guarda, o armazenamento e o manuseio de prontuário de paciente.
 
 - **Lei nº 13.709/2018 (LGPD)**: Lei Geral de Proteção de Dados Pessoais (alterada pela Lei nº 13.853/2019, pela Lei nº 14.460/2022 e pela Lei nº 15.352/2026. Disciplina princípios, bases legais, direitos dos titulares, responsabilidade civil e sanções administrativas de até 2% do faturamento no Brasil, limitadas a R$ 50 milhões por infração).
 
 - **Lei nº 13.874/2019 (Lei da Liberdade Econômica)**: Institui a Declaração de Direitos de Liberdade Econômica, cria a Sociedade Limitada Unipessoal (SLU, art. 1.052, §§ 1º e 2º do Código Civil), eleva os requisitos para a desconsideração da personalidade jurídica (art. 50 do Código Civil, exigindo desvio de finalidade ou confusão patrimonial comprovada) e dispensa alvarás para atividades de baixo risco.
 
-Lei 14.026/2020. Novo Marco Legal do Saneamento Básico.
+- Lei 14.026/2020. Novo Marco Legal do Saneamento Básico.
 
 - **Lei nº 14.112/2020**: Reforma da Lei de Recuperação Judicial, Extrajudicial e Falências (atualiza a Lei nº 11.101/2005, disciplinando financiamento *DIP*, *cram down*, plano alternativo dos credores, parcelamento fiscal e encerramento célere da falência com *fresh start* do empresário).
 
 - **Lei Complementar nº 182/2021 (Marco Legal das Startups e do Empreendedorismo Inovador)**: Define o enquadramento legal de startups, lista os instrumentos de investimento em inovação sem ingresso imediato no capital social (art. 5º, § 1º: opções de subscrição e de compra de participação, conhecidas no mercado como COCP, mútuos e debêntures conversíveis, SCP e contrato de anjo), blinda o investidor-anjo contra dívidas empresariais e desconsideração da personalidade jurídica (art. 8º), amplia o regime da S.A. Simplificada (art. 294 da Lei 6.404/1976), institui o *sandbox* regulatório e cria a modalidade de licitação CPSI (arts. 12 a 15).
 
-Lei 14.300/2022. Marco Legal da Microgeração e Minigeração Distribuída de Energia Elétrica.
+- Lei 14.300/2022. Marco Legal da Microgeração e Minigeração Distribuída de Energia Elétrica.
 
 - **Lei nº 14.195/2021 (Lei do Ambiente de Negócios)**: Simplifica a abertura de empresas, extingue a antiga EIRELI convertendo-a automaticamente em Sociedade Limitada Unipessoal (SLU) e introduz o voto plural nas Sociedades Anônimas (art. 110-A da Lei 6.404/1976).
 - **Lei nº 14.286/2021 (Novo Marco Legal do Câmbio)**: Moderniza a legislação cambial brasileira, operações em moeda estrangeira, contas em moeda estrangeira e capitais internacionais (regulamentada pela Resolução BCB nº 277/2022).
 
-Lei 14.442/2022. Dispõe sobre o auxílio-alimentação (PAT) e regras de teletrabalho.
+- Lei 14.442/2022. Dispõe sobre o auxílio-alimentação (PAT) e regras de teletrabalho.
 
 - **Lei nº 14.460/2022 e Lei nº 15.352/2026 (conversão da MP nº 1.317/2025)**: Transformam a ANPD em autarquia de natureza especial (2022) e, em fevereiro de 2026, em Agência Nacional de Proteção de Dados, integrando-a ao rol das agências reguladoras federais (Lei nº 13.848/2019) e instituindo o quadro efetivo da carreira de regulação e fiscalização de dados.
 
 - **Lei nº 14.611/2023 (Lei da Igualdade Salarial)**: Dispõe sobre a igualdade salarial e de critérios remuneratórios entre mulheres e homens para a realização de trabalho de igual valor ou no exercício da mesma função (alterando o art. 461 da CLT) e exige a publicação semestral de Relatórios de Transparência Salarial por empresas com 100 ou mais empregados.
 
-Lei 14.478/2022 e **Decreto 11.563/2023**. Marco Legal dos Criptoativos e designação do Banco Central do Brasil como regulador das Prestadoras de Serviços de Ativos Virtuais (PSAV / VASPs).
+- **Lei nº 14.478/2022 e Decreto nº 11.563/2023**: 478/2022 e **Decreto 11.563/2023**. Marco Legal dos Criptoativos e designação do Banco Central do Brasil como regulador das Prestadoras de Serviços de Ativos Virtuais (PSAV / VASPs).
 
-Lei 14.510/2022. Autoriza e disciplina a prática da telessaúde e telemedicina em todo o território nacional em caráter permanente.
+- Lei 14.510/2022. Autoriza e disciplina a prática da telessaúde e telemedicina em todo o território nacional em caráter permanente.
 
 - **Lei nº 14.789/2023**: Disciplina o regime fiscal das subvenções para investimento (instituindo crédito fiscal de subvenção mediante habilitação prévia na Receita Federal) e restringe as contas do patrimônio líquido elegíveis para a base de cálculo dos Juros sobre o Capital Próprio (JCP, art. 9º, § 8º da Lei 9.249/1995).
 - **Lei nº 14.902/2024**: Institui o Programa Mobilidade Verde e Inovação (Programa MOVER), estabelecendo incentivos fiscais para P&D, descarbonização de frotas e eficiência energética na cadeia automotiva e de mobilidade.
 
-Lei 14.754/2023. Tributação de aplicações em fundos de investimento no país (fundos exclusivos) e de rendimentos e controladas no exterior (*offshores* e *trusts*).
+- Lei 14.754/2023. Tributação de aplicações em fundos de investimento no país (fundos exclusivos) e de rendimentos e controladas no exterior (*offshores* e *trusts*).
 
 - **Lei nº 15.042/2024**: Institui o Sistema Brasileiro de Comércio de Emissões de Gases de Efeito Estufa (SBCE), criando o mercado regulado de carbono no Brasil (com teto de emissões para fontes que emitem acima de 10.000 $\text{tCO}_2\text{e}$/ano e obrigações de conciliação acima de 25.000 $\text{tCO}_2\text{e}$/ano) e integrando créditos do mercado voluntário e jurisdicional.
 
-Lei 14.785/2023. Nova Lei de Defensivos Agrícolas / Agrotóxicos (revogou a antiga Lei 7.802/1989) e Lei 15.070/2024 (Marco Legal dos Bioinsumos).
+- Lei 14.785/2023. Nova Lei de Defensivos Agrícolas / Agrotóxicos (revogou a antiga Lei 7.802/1989) e Lei 15.070/2024 (Marco Legal dos Bioinsumos).
 
-Lei 14.790/2023. Regulamenta as apostas de quota fixa (*iGaming / Bets*) sob supervisão da Secretaria de Prêmios e Apostas do Ministério da Fazenda (SPA/MF).
+- Lei 14.790/2023. Regulamenta as apostas de quota fixa (*iGaming / Bets*) sob supervisão da Secretaria de Prêmios e Apostas do Ministério da Fazenda (SPA/MF).
 
-Lei 14.852/2024. Marco Legal dos Jogos Eletrônicos no Brasil.
+- Lei 14.852/2024. Marco Legal dos Jogos Eletrônicos no Brasil.
 
 - **Lei nº 15.211/2025 (ECA Digital)** e Decreto nº 12.622/2025: Estatuto Digital da Criança e do Adolescente, que estabelece deveres de proteção prioritária, verificação etária, privacidade por padrão (*privacy by design*), vedação de perfilamento comercial de menores e transparência algorítmica em aplicações de internet e jogos eletrônicos, designando a ANPD como autoridade administrativa autônoma de fiscalização.
 
-Lei 14.967/2024. Estatuto da Segurança Privada e da Segurança das Instituições Financeiras.
+- Lei 14.967/2024. Estatuto da Segurança Privada e da Segurança das Instituições Financeiras.
 
-Lei 14.993/2024. Lei do Combustível do Futuro (programas nacionais de SAF, Diesel Verde, Biometano e captura e estocagem geológica de carbono: CCS/BECCS).
+- Lei 14.993/2024. Lei do Combustível do Futuro (programas nacionais de SAF, Diesel Verde, Biometano e captura e estocagem geológica de carbono: CCS/BECCS).
 
-Lei Complementar 214/2025. Regulamenta a Reforma Tributária do Consumo (institui o IBS, a CBS, o Imposto Seletivo, o *Split Payment* inteligente e os regimes diferenciados e específicos).
+- **Lei Complementar 214/2025**: Regulamenta a Reforma Tributária do Consumo (institui o IBS, a CBS, o Imposto Seletivo, o *Split Payment* inteligente e os regimes diferenciados e específicos).
 
 - **Lei Complementar nº 224/2025 (de 26/12/2025)**: Eleva a alíquota de CSLL de instituições financeiras, sociedades de capitalização e *fintechs* (Instituições de Pagamento e SCDs/SEPs), ajusta a tributação sobre apostas de quota fixa (*bets*), eleva de 15% para 17,5% a alíquota de IRRF sobre Juros sobre o Capital Próprio (JCP) a partir de 1º/01/2026, estabelece redução linear de 10% nos benefícios e incentivos fiscais federais e institui o acréscimo de 10% nos percentuais de presunção do Lucro Presumido (elevando serviços de 32% para 35,2%) exclusivamente sobre a parcela da receita bruta anual que exceder R$ 5 milhões (aplicado proporcionalmente ao limite de R$ 1,25 milhão por trimestre), vigente desde 1º de janeiro de 2026 para o IRPJ e desde 1º de abril de 2026 para a CSLL.
 
@@ -10852,7 +10842,7 @@ Lei Complementar 214/2025. Regulamenta a Reforma Tributária do Consumo (institu
 - **Emenda Constitucional nº 141/2026**: Altera o art. 7º, XIII, da Constituição Federal para estabelecer a redução gradual da jornada máxima de trabalho sem redução salarial, passando de 44 horas para 42 horas semanais em dezembro de 2026 e para 40 horas semanais em dezembro de 2027, sob o regime de até cinco dias de trabalho por dois de descanso (escala 5x2).
 - **Lei nº 15.371/2026**: Regulamenta a licença-paternidade remunerada constitucional e o salário-paternidade previdenciário, estabelecendo sua ampliação escalonada além dos cinco dias originais do ADCT e garantias de estabilidade provisória.
 
-Lei 15.270/2025. Institui a retenção de IRRF de 10% sobre dividendos pagos a uma mesma pessoa física acima de R$ 50 mil por mês por uma mesma empresa e o Imposto de Renda Pessoa Física Mínimo (IRPFM) progressivo até 10% para rendas anuais superiores a R$ 600 mil a partir de 2026.
+- Lei 15.270/2025. Institui a retenção de IRRF de 10% sobre dividendos pagos a uma mesma pessoa física acima de R$ 50 mil por mês por uma mesma empresa e o Imposto de Renda Pessoa Física Mínimo (IRPFM) progressivo até 10% para rendas anuais superiores a R$ 600 mil a partir de 2026.
 
 - **Projeto de Lei nº 2.338/2023 (Marco Legal da Inteligência Artificial no Brasil)**: Aprovado pelo Plenário do Senado Federal em dezembro de 2024 e em tramitação na comissão especial da Câmara dos Deputados em outubro de 2026, estrutura a regulação de sistemas de IA por níveis de risco (risco excessivo/vedado e alto risco), governança algorítmica, direitos autorais em treinamento de modelos fundacionais e o Sistema Nacional de Regulação e Governança de IA (SIA) coordenado pela ANPD.
 
@@ -10860,17 +10850,17 @@ Lei 15.270/2025. Institui a retenção de IRRF de 10% sobre dividendos pagos a u
 - **Decreto nº 12.456/2025 (Novo Marco Regulatório da Educação a Distância, EAD)**: Revogou o antigo Decreto nº 9.057/2017 e reestruturou a oferta de ensino superior no Brasil em três formatos (presencial, semipresencial e a distância), vedando a modalidade EAD em cursos como Medicina, Direito, Odontologia, Enfermagem e Psicologia e estabelecendo novos requisitos de corpo docente, mediação pedagógica e polos presenciais.
 - **Decreto nº 13.135/2026 (Novo Decreto do SAC)**: Atualiza a regulamentação do Serviço de Atendimento ao Consumidor sob o CDC (substituindo o Decreto nº 11.034/2022), disciplinando o atendimento omnichannel, transparência no uso de *chatbots* e agentes de IA, direito de transbordo imediato para atendente humano, cancelamento imediato pelo mesmo canal da contratação e metas de resolutividade.
 
-Decreto 11.856/2023. Institui a Política Nacional de Cibersegurança (PNCiber).
+- Decreto 11.856/2023. Institui a Política Nacional de Cibersegurança (PNCiber).
 
-Resolução CVM 88/2022. Disciplina as ofertas públicas de distribuição de valores mobiliários de emissão de sociedades empresárias de pequeno porte realizadas com dispensa de registro por meio de plataforma eletrônica de investimento participativo (*equity crowdfunding*, substituindo a antiga ICVM 588/2017).
+- **Resolução CVM 88/2022**: Disciplina as ofertas públicas de distribuição de valores mobiliários de emissão de sociedades empresárias de pequeno porte realizadas com dispensa de registro por meio de plataforma eletrônica de investimento participativo (*equity crowdfunding*, substituindo a antiga ICVM 588/2017).
 
-Resolução CVM 175/2022 (e Anexo Normativo II). Marco regulatório dos Fundos de Investimento no Brasil, incluindo os Fundos de Investimento em Direitos Creditórios (FIDCs: revogando integralmente a antiga Instrução CVM 356/2001) e os Fundos de Investimento em Participações (FIPs, Anexo Normativo IV).
+- **Resolução CVM 175/2022 (e Anexo Normativo II)**: Marco regulatório dos Fundos de Investimento no Brasil, incluindo os Fundos de Investimento em Direitos Creditórios (FIDCs: revogando integralmente a antiga Instrução CVM 356/2001) e os Fundos de Investimento em Participações (FIPs, Anexo Normativo IV).
 
 - **Instrução Normativa RFB nº 2.305/2025**: Regulamenta a aplicação da Lei Complementar nº 224/2025 no âmbito da Receita Federal do Brasil, detalhando a apuração do acréscimo de 10% nos percentuais de presunção do Lucro Presumido acima do limite trimestral de R$ 1,25 milhão (R$ 5 milhões/ano) e as exceções constitucionais e legais ao corte linear de 10% em benefícios fiscais federais.
 - **Resolução BCB nº 494/2025**: Atualiza os requisitos de autorização de funcionamento, governança e limites de capital social integralizado e patrimônio líquido mínimo para Instituições de Pagamento (IPs) conforme as modalidades operadas (emissor de moeda eletrônica, emissor de instrumento pós-pago, credenciador e iniciador de transação de pagamento).
 - **Resoluções BCB nº 519, nº 520 e nº 521/2025**: Regulamentam o Marco Legal dos Criptoativos (Lei nº 14.478/2022), instituindo o regime de autorização, governança, segregação patrimonial obrigatória, prevenção à lavagem de dinheiro (PLD/FTP), segurança cibernética e atuação no mercado de câmbio das Prestadoras de Serviços de Ativos Virtuais (PSAVs / VASPs).
 
-Legislação Estadual de Santa Catarina (RICMS/SC, Anexo 2, arts. 246 e seguintes: TTD 409 e TTD 410). Tratamentos Tributários Diferenciados para operações de comércio exterior e importação portuária/aeroportuária, sujeitos ao cronograma constitucional de transição e extinção gradual de benefícios de ICMS entre 2029 e 2032 (EC 132/2023).
+- **Legislação Estadual de Santa Catarina (RICMS/SC, Anexo 2, arts**: 246 e seguintes: TTD 409 e TTD 410). Tratamentos Tributários Diferenciados para operações de comércio exterior e importação portuária/aeroportuária, sujeitos ao cronograma constitucional de transição e extinção gradual de benefícios de ICMS entre 2029 e 2032 (EC 132/2023).
 
 - **Temas Repetitivos nº 1.226 (2024) e nº 1.379 (2026) do Superior Tribunal de Justiça (STJ)**: Fixam a tese vinculante de que, no regime de *Stock Option Plan* (art. 168, § 3º, da Lei 6.404/1976), quando presentes a voluntariedade, a onerosidade (pagamento de preço de exercício) e o risco de mercado, o contrato possui natureza estritamente mercantil (e não salarial/remuneratória), não incidindo contribuição previdenciária (INSS) nem Imposto de Renda da Pessoa Física (IRPF) na outorga ou no exercício da opção, mas apenas imposto sobre o ganho de capital na alienação ulterior das ações com lucro.
 

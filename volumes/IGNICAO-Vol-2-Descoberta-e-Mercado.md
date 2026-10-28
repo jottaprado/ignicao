@@ -2148,7 +2148,7 @@ Você concluiu a Fase 5 quando todos os critérios abaixo estão cumpridos.
 
 - **Regra de foco no trabalho do cliente (*job*):** toda funcionalidade candidata na Fase 9 precisará apontar para um *job* priorizado neste dossiê.
 
-**6. Fundir papéis distintos numa única persona genérica.** Em vendas B2B ou familiares, misturar usuário técnico, campeão interno e decisor econômico na mesma ficha esconde conflitos de incentivo, construa sempre uma persona separada para cada papel que decide ou opera o processo (duas a quatro personas no total).
+- **Fundir papéis distintos numa única persona genérica:** Em vendas B2B ou familiares, misturar usuário técnico, campeão interno e decisor econômico na mesma ficha esconde conflitos de incentivo, construa sempre uma persona separada para cada papel que decide ou opera o processo (duas a quatro personas no total).
 
 - **Critério de corte na síntese:** descarte observações anedóticas que não modifiquem a escolha de público, canal ou proposta de valor.
 
