@@ -390,6 +390,7 @@ A Fase 15 (Máquina de crescimento e expansão em escala) está concluída quand
 **Desfecho na trincheira (Fase 15):** Quando Marina e Lucas substituíram o improviso comercial pelo roteiro documentado de qualificação, travaram o desconto máximo em 10% mediante contrapartida de contrato anual e passaram a auditar duas chamadas reais toda segunda-feira em Florianópolis e São Paulo, os três vendedores plenos atingiram a cota no quinto mês e a participação direta de Marina nos fechamentos caiu de 100% para menos de 20% das novas contas.
 
 > [!tip] O Espelho do Gestor (Autodiagnóstico Rápido)
+>
 > 1. **O Teste das Férias de 30 Dias:** Se você e seus sócios ficarem trinta dias sem participar de nenhuma chamada comercial nem aprovar descontos especiais no WhatsApp, a receita nova do mês seguinte mantém pelo menos 80% do ritmo planejado ou o funil congela?
 > 2. **A Prova dos Dois Vendedores:** Você já tem pelo menos dois vendedores contratados do mercado (não fundadores) que aprenderam o processo pelo seu Playbook escrito e bateram 100% da meta por três meses consecutivos?
 > 3. **Foco vs. Dispersão (*Lei da Cabeça-de-Praia*):** Você já domina mais de 30% do seu nicho inicial com referência cruzada automática entre clientes, ou está tentando lançar três produtos novos em quatro estados diferentes porque achou o primeiro nicho "difícil"?
@@ -569,7 +570,7 @@ Passo 3: Contratação velocidade > qualidade individual: prefira contratar no r
 
 Passo 4: Priorizar adoção sobre unit economics: LTV:CAC ruim no curto prazo é aceitável SE loops de network/escala se manifestam.
 
-**Passo 5 - Gestão deliberada de incêndios (*Let Fires Burn*, Reid Hoffman e Chris Yeh em *Blitzscaling*, 2018): em momentos de corrida por participação de mercado com efeito de rede vencedor-leva-tudo, classifique os problemas operacionais em duas colunas: (a) incêndios fatais (fraude, falha de segurança ou LGPD, queda de infraestrutura crítica, violação trabalhista ou regulatória), que exigem resolução imediata, e (b) incêndios toleráveis temporariamente** (processos internos manuais, relatórios gerenciais ainda em planilha, suporte reativo em produto secundário), que você aceita monitorar por um trimestre enquanto concentra 80% da engenharia e do capital no gargalo número um da escala.
+**Passo 5 - Gestão deliberada de incêndios (*Let Fires Burn*, Reid Hoffman e Chris Yeh em *Blitzscaling*, 2018):** em momentos de corrida por participação de mercado com efeito de rede vencedor-leva-tudo, classifique os problemas operacionais em duas colunas: (a) incêndios fatais (fraude, falha de segurança ou LGPD, queda de infraestrutura crítica, violação trabalhista ou regulatória), que exigem resolução imediata, e (b) incêndios toleráveis temporariamente (processos internos manuais, relatórios gerenciais ainda em planilha, suporte reativo em produto secundário), que você aceita monitorar por um trimestre enquanto concentra 80% da engenharia e do capital no gargalo número um da escala.
 
 Passo 6: Quando atingir liderança, mudar modo: blitzscaling não é permanente. Fase de consolidação vem depois.
 
@@ -711,7 +712,7 @@ Metodologia comercial em que o vendedor diagnostica causas-raiz do problema oper
 
 A metodologia combina dois artefatos distintos que não devem ser confundidos:
 
-- **A Matriz 3×3 de Conversa (*9-Box Pain-Vision Model* de Bosworth): cruza três tipos de perguntas nas linhas (abertas, de controle e de confirmação) com três estágios psicológicos do comprador nas colunas (1. diagnosticar as causas da dor, 2. explorar o impacto financeiro/operacional da dor e 3. co-construir a visão da solução**), totalizando as 9 células que guiam a reunião de descoberta.
+- **A Matriz 3×3 de Conversa (*9-Box Pain-Vision Model* de Bosworth):** cruza três tipos de perguntas nas linhas (abertas, de controle e de confirmação) com três estágios psicológicos do comprador nas colunas (1. diagnosticar as causas da dor, 2. explorar o impacto financeiro/operacional da dor e 3. co-construir a visão da solução), totalizando as 9 células que guiam a reunião de descoberta.
 - **O Ciclo de Execução Comercial em 9 Etapas:** (1) *Preparation* (pesquisa prévia da conta), (2) *Opening* (abertura sem pitch prematuro), (3) *Diagnosing pain* (ativação da dor com a Matriz 3×3), (4) *Creating vision* (visão diferenciada de solução), (5) *Negotiating access to power* (acesso ao comprador econômico mediante plano mútuo de avaliação), (6) *Handling objections*, (7) *Closing*, (8) *Implementation* e (9) *Follow-up*.
 
 Princípio-chave: se cliente não tem dor reconhecida e quantificada, não há venda. Primeiro trabalho é ativar a dor (fazer cliente perceber problema).
@@ -1016,6 +1017,7 @@ Chamamos esse colapso de gestão de A Falência do Comando Radial: o modelo em q
 
 > [!abstract] As quatro frentes paralelas da Escala (Fases 14 a 17)
 > A etapa de escala opera em quatro frentes interdependentes distribuídas nos Volumes 5 a 7:
+>
 > - **[[IGNICAO-Vol-5-Financas-e-Captacao#FASE 14: CAPITAL PARA ESCALA, RODADAS E EFICIÊNCIA FINANCEIRA|Fase 14: Capital para Escala (Vol. 5)]]**: eficiência financeira, *unit economics* em escala e rodadas Série A em diante.
 > - **[[#FASE 15: MÁQUINA DE CRESCIMENTO E EXPANSÃO EM ESCALA|Fase 15: Máquina de Crescimento]]**: transformar a tração pós-PMF em aquisição, retenção e expansão previsíveis e compostas.
 > - **Fase 16: Time e Liderança Executiva**: transição do primeiro funcionário à primeira camada de gestão, C-level, avaliação de performance e cultura.
@@ -1073,7 +1075,7 @@ Salário de oitenta a noventa e cinco por cento do mercado, para cargo equivalen
 > [!tip] Aprofundamento no Capítulo 11: Compensação e Benefícios no Brasil
 > Para o desenho completo de faixas salariais, encargos CLT, benefícios flexíveis (PAT), PLR e remuneração variável, consulte o [[#CAPÍTULO 11: COMPENSAÇÃO E BENEFÍCIOS NO BRASIL|Capítulo 11 (Compensação e Benefícios no Brasil)]].
 
-**Participação societária (*equity*) para contratações fundadoras e executivos iniciais: para o primeiro líder ou especialista sênior contratado no estágio pré-Série A (Perfil A, profissional experiente que abre mão de remuneração corporativa estável para construir a área do zero), a outorga individual situa-se tipicamente entre 0,5% e 2,5% (podendo chegar a 3% a 5% apenas para um cofundador tardio ou executivo C-level que entra na origem da empresa), para generalistas de alto potencial (Perfil B), varia de 0,25% a 1%**, e, a partir da Série A, as outorgas seguem a reserva formal do plano de opções (*pool* de 8% a 15%, detalhado no [[#CAPÍTULO 12: STOCK OPTIONS E ESOP NO BRASIL|Capítulo 12 (Stock Options e ESOP no Brasil)]]).
+**Participação societária (*equity*) para contratações fundadoras e executivos iniciais:** para o primeiro líder ou especialista sênior contratado no estágio pré-Série A (Perfil A, profissional experiente que abre mão de remuneração corporativa estável para construir a área do zero), a outorga individual situa-se tipicamente entre 0,5% e 2,5% (podendo chegar a 3% a 5% apenas para um cofundador tardio ou executivo C-level que entra na origem da empresa), para generalistas de alto potencial (Perfil B), varia de 0,25% a 1%, e, a partir da Série A, as outorgas seguem a reserva formal do plano de opções (*pool* de 8% a 15%, detalhado no [[#CAPÍTULO 12: STOCK OPTIONS E ESOP NO BRASIL|Capítulo 12 (Stock Options e ESOP no Brasil)]]).
 
 Adote como regra o *vesting* de quatro anos com *cliff* de doze meses, estruturado por contrato mercantil de opção de compra ou *phantom shares* conforme a natureza societária da empresa (ver [[#CAPÍTULO 12: STOCK OPTIONS E ESOP NO BRASIL|Capítulo 12 (Stock Options e ESOP no Brasil)]]).
 
@@ -1374,11 +1376,12 @@ A comunicação externa da cultura é arma de dois gumes. Atrai talento alinhado
 **Desfecho na trincheira (Fase 16):** Ao desenhar o Mapa de Responsabilidades das unidades de Belo Horizonte, promover sua gerente geral de operações e formalizar o manual de alçadas de até R$ 2.000, a Dra. Camila reduziu as mensagens operacionais diárias no seu WhatsApp de 190 para menos de 15 por semana, elevou o eNPS da rede para +48 e liberou agenda para estruturar o modelo de franquias que veremos no Capítulo 6.
 
 > [!tip] O Espelho do Gestor (Autodiagnóstico Rápido)
-> 1. **O Teste do Organograma Funcional (*Accountability Chart*) e da Régua de Gargalo: Se você desenhar hoje as 5 a 7 grandes caixas da empresa (Vendas, Marketing, Produto/Operações, Sucesso do Cliente, Finanças/Pessoas), existe um único nome próprio** dono dos números de cada caixa, ou o seu nome ainda ocupa quatro delas (fazendo decisões esperarem mais de 48 horas e levando você a aprovar mais de 30 decisões operacionais por semana, conforme a régua do Passo 4)?
+>
+> 1. **O Teste do Organograma Funcional (*Accountability Chart*) e da Régua de Gargalo:** Se você desenhar hoje as 5 a 7 grandes caixas da empresa (Vendas, Marketing, Produto/Operações, Sucesso do Cliente, Finanças/Pessoas), existe um único nome próprio dono dos números de cada caixa, ou o seu nome ainda ocupa quatro delas (fazendo decisões esperarem mais de 48 horas e levando você a aprovar mais de 30 decisões operacionais por semana, conforme a régua do Passo 4)?
 > 2. **O Teste do Guardião (*Keeper Test*, de Reed Hastings na Netflix):** Olhando para as pessoas que reportam diretamente a você hoje, se alguma delas pedisse demissão às 10h da manhã, por quais você lutaria ferozmente para manter e para quais você sentiria um alívio secreto?
 > 3. **Delegação vs. Microgestão:** Quantas decisões operacionais abaixo de R$ 2.000 ainda precisam do seu "de acordo" no WhatsApp porque você nunca escreveu uma regra clara de alçada?
 >
-> **Regra de bolso (Andy Grove, *High Output Management*): O resultado de um gestor não é o que ele executa isoladamente com as próprias mãos, mas o resultado produzido pela sua unidade organizacional somado ao resultado das unidades vizinhas sob a sua influência**.
+> **Regra de bolso (Andy Grove, *High Output Management*):** O resultado de um gestor não é o que ele executa isoladamente com as próprias mãos, mas o resultado produzido pela sua unidade organizacional somado ao resultado das unidades vizinhas sob a sua influência.
 >
 > **O Ritual de Segunda-Feira às 9h (60 minutos, individual):** Desenhe em uma folha em branco o **Mapa de Responsabilidades (*Accountability Chart*)** com as cinco caixas funcionais essenciais, três indicadores objetivos por caixa e a regra de alçada financeira (quem aprova despesas de até R$ 2.000 sem passar por você), pensando primeiro nas funções que a empresa precisa para os próximos 12 meses (sem colocar nomes), e só depois preencha os nomes e identifique as cadeiras onde você ainda é o gargalo.
 
@@ -1895,6 +1898,7 @@ Com Extreme Ownership: "Eu sou o VP. Eu falhei em:
 - Implementar pipeline de testes que pegasse isso antes.
 - Treinar time em incident response.
 - Definir processo de deploy em horários decisivos.
+
 Eu preciso consertar o sistema que permitiu esse erro."
 
 Sistema melhora permanentemente, júnior aprende em vez de ser queimado.
@@ -2647,6 +2651,7 @@ Você vai construir e operar a máquina comercial da empresa: nos primeiros mese
 **Exemplo de preenchimento.** Fundador de SaaS B2B Série A com cinco gerentes diretos.
 
 **Segunda-feira**
+
 - 8h00 às 9h00, weekly review pessoal e priorização da semana
 - 9h00 às 10h00, weekly com management
 - 10h00 ao meio-dia, bloco maker (estratégia de produto, escrita de memo, deep work)
@@ -2656,23 +2661,27 @@ Você vai construir e operar a máquina comercial da empresa: nos primeiros mese
 - 17h00 às 18h00, leitura ou revisão de board update
 
 **Terça e quarta-feira**
+
 - 9h00 ao meio-dia, blocos maker contínuos
 - Almoço livre
 - 14h00 às 17h00, blocos de execução (vendas estratégicas, design review, problem-solving)
 - 17h00 em diante, networking ou estudo
 
 **Quinta-feira**
+
 - 9h00 às 11h00, bloco maker
 - 11h00 às 13h00, encontros externos (advisor, investor relations, community)
 - 14h00 às 17h00, 1:1s adicionais ou pesquisa de cliente
 - 17h00 às 18h00, encerramento de pendências
 
 **Sexta-feira**
+
 - 9h00 às 11h00, retrospectiva semanal pessoal
 - 11h00 às 12h00, conversa de fechamento com chief of staff ou braço direito
 - 14h00 em diante, planejamento da semana seguinte e respiro
 
 **Fim de semana**
+
 - Reservado para descanso, família e leitura de longo prazo, sem reuniões de rotina nem cobranças assíncronas (acionando o time apenas em incidentes decisivos de operação ou segurança).
 
 Adapte cada bloco para sua realidade. Fundadores em estágio pré-PMF têm distribuição diferente, com mais tempo em pesquisa de cliente e menos em management. Fundadores em pós-Série B têm mais tempo em board e investor relations e menos em maker direto.
@@ -2900,7 +2909,7 @@ Benchmarks de Retention por modelo
 Consumer app (D30)              20% – 45%
 SaaS SMB (Annual Renewal)       70% – 85%
 SaaS Mid-market (Annual Renewal) 80% – 92%
-Marketplace (compradores ativos 
+Marketplace (compradores ativos
 em 90 dias)                     30% – 55%
 Fintech (transações mensais)    55% – 75%
 -------------------------------------
@@ -3193,6 +3202,7 @@ A combinação mais comum. Hire Head of Growth sênior de fora. Montar time inte
 **Desfecho na trincheira (Capítulo 1):** Ao desligarem o falso guru que queimara R$ 534 mil em tráfego raso e instalarem um *squad* interno focado no gargalo de ativação das primeiras 48 horas entre Recife e Goiânia, Rafael e Bia simplificaram o cadastro de 11 para 3 passos, criaram o gatilho de primeira compra assistida no WhatsApp e elevaram a retenção de 30 dias de 6% para 34% em um trimestre, reduzindo o CAC real pela metade.
 
 > [!tip] O Espelho do Gestor (Autodiagnóstico Rápido)
+>
 > 1. **O Teste do Desligamento de Mídia e da Retenção D30:** Se você pausar hoje 100% dos anúncios pagos por trinta dias, quantos novos clientes continuam chegando por canais orgânicos e laços de indicação, e qual percentual da safra do mês passado continua comprando ou usando o produto no dia 30?
 > 2. **A Fricção até o Aha Moment:** Quantos cliques, formulários e minutos (ou dias) um novo usuário leva desde o primeiro contato com a sua empresa até experimentar pela primeira vez o **valor real central (*Aha Moment*)** do seu produto?
 > 3. **A Cadência de Experimentos:** Quantos experimentos com hipótese escrita, métrica de sucesso e registro de aprendizado o seu time rodou e documentou nas últimas quatro semanas? Se a resposta for zero, você tem opiniões, não Growth.
@@ -3223,7 +3233,7 @@ Este capítulo aprofunda a frente corporativa introduzida no [[IGNICAO-Vol-4-Tra
 
 Na grande corporação brasileira, a assimetria de incentivos governa a mesa de compras: se um software novo de uma startup desconhecida der certo, o diretor ganha um elogio discreto. Se o sistema travar a fábrica ou vazar dados, ele perde o emprego. Por isso, o comprador corporativo decide primeiro para proteger a própria carreira, e o papel do fundador B2B é desarmar esse risco pessoal oferecendo referências auditáveis do mesmo setor, projeto-piloto pago com escopo fechado, cláusula clara de saída e conformidade técnica que blindem quem assina o contrato.
 
-No mercado brasileiro, classificamos operacionalmente como **venda complexa (*enterprise sales*) aquela que combina três características: (1) ticket médio anual (ACV) a partir de R$ 120 mil a R$ 250 mil (chegando a múltiplos milhões de reais em contratos corporativos e industriais), (2) ciclo decisório de 4 a 18 meses, e (3) aprovação colegiada envolvendo de 5 a 10 interlocutores** (usuário líder, executivo de negócios, TI/Segurança, Jurídico, Compras e Diretoria Financeira).
+No mercado brasileiro, classificamos operacionalmente como **venda complexa (*enterprise sales*) aquela que combina três características:** (1) ticket médio anual (ACV) a partir de R$ 120 mil a R$ 250 mil (chegando a múltiplos milhões de reais em contratos corporativos e industriais), (2) ciclo decisório de 4 a 18 meses, e (3) aprovação colegiada envolvendo de 5 a 10 interlocutores (usuário líder, executivo de negócios, TI/Segurança, Jurídico, Compras e Diretoria Financeira).
 
 Abaixo desse patamar (contratos de R$ 20 mil a R$ 100 mil anuais), a venda B2B exige abordagem consultiva (*mid-market*), mas deve operar com ciclo mais enxuto (de 30 a 90 dias) e contrato padronizado para que o custo de aquisição (CAC) não destrua a margem.
 
@@ -3551,8 +3561,9 @@ Use a lista abaixo para auditoria do estado da motion enterprise. Itens não cum
 **Desfecho na trincheira (Capítulo 2):** Ao aplicar a qualificação MEDDPICC na negociação seguinte em Curitiba, Henrique exigiu validar a planilha de retorno financeiro diretamente com o CFO antes de iniciar a Prova de Conceito paga de 30 dias, enviou a minuta jurídica e a documentação de segurança na primeira semana do piloto e fechou o contrato anual de R$ 480 mil em quatro meses e meio, reduzindo seu ciclo médio pela metade.
 
 > [!tip] O Espelho do Gestor (Autodiagnóstico Rápido)
+>
 > 1. **O Teste da Caneta (*Economic Buyer*):** Nas suas cinco maiores oportunidades abertas hoje no CRM, você ou seu executivo de contas já conversaram diretamente com a pessoa que tem alçada estatutária e orçamento para assinar o contrato, ou estão negociando há meses apenas com um apoiador técnico sem caneta?
-> 2. **A Dor Quantificada (*Metrics*): A sua proposta comercial começa com um Business Case matemático construído junto com o cliente** (*"A falha atual custa R$ 180 mil/mês em paradas de linha. Com implantação única de R$ 217 mil e mensalidade de R$ 25 mil/mês, o ganho líquido de R$ 155 mil/mês paga o investimento inicial em exatos 42 dias"*), ou é apenas uma lista de funcionalidades técnicas?
+> 2. **A Dor Quantificada (*Metrics*):** A sua proposta comercial começa com um Business Case matemático construído junto com o cliente (*"A falha atual custa R$ 180 mil/mês em paradas de linha. Com implantação única de R$ 217 mil e mensalidade de R$ 25 mil/mês, o ganho líquido de R$ 155 mil/mês paga o investimento inicial em exatos 42 dias"*), ou é apenas uma lista de funcionalidades técnicas?
 > 3. **O Mapa da Papelada (*Paper Process*):** Você sabe exatamente quantos dias levam o cadastro de fornecedor no SAP/TOTVS do cliente, a avaliação de Segurança da Informação (LGPD/ISO) e a fila de assinaturas jurídicas, ou você acha que "fechar na sexta-feira" significa assinar na sexta-feira?
 >
 > **Regra de bolso:** Nunca inicie uma Prova de Conceito (*PoC*) sem antes ter assinado um documento de uma página onde o Comprador Econômico concorda que, se os 3 critérios binários de negócio e técnicos combinados forem atingidos em 30 dias, o cliente abre no dia seguinte o cadastro de fornecedor e a revisão da minuta comercial pré-anexada.
@@ -3818,7 +3829,7 @@ O CEO e o conselho de administração precisam de visibilidade clara sobre a sa�
 
 **8. Churn rate**: percentual de receita ou clientes perdidos no período. Monitorado por cohort de início de contrato para identificar se o problema é com certos segmentos ou com todas as aquisições.
 
-**9. Prazo de Recuperação do CAC (*CAC Payback Period*): número de meses necessários para que a margem bruta gerada pelo novo cliente pague integralmente o seu custo de aquisição ($\text{CAC} / (\text{ARPA mensal} \times \text{Margem Bruta \%})$). Mantenha abaixo de 12 meses** para PMEs/*mid-market* e até 18 meses para *enterprise*.
+**9. Prazo de Recuperação do CAC (*CAC Payback Period*):** número de meses necessários para que a margem bruta gerada pelo novo cliente pague integralmente o seu custo de aquisição ($\text{CAC} / (\text{ARPA mensal} \times \text{Margem Bruta \%})$). Mantenha abaixo de 12 meses para PMEs/*mid-market* e até 18 meses para *enterprise*.
 
 **10. Razão LTV:CAC**: relação entre o valor gerado pelo cliente ao longo do tempo (*Lifetime Value*) e o custo de aquisição. Acima de 3:1 indica modelo econômico saudável, entre 1:1 e 3:1, a aquisição se paga, mas consome caixa e exige otimização, abaixo de 1:1, cada cliente novo destrói valor.
 
@@ -3940,6 +3951,7 @@ A lista abaixo funciona como diagnóstico prático de maturidade de RevOps: cada
 **Desfecho na trincheira (Capítulo 3):** Ao unificarem as definições de funil sob uma operação enxuta de RevOps entre São Paulo e Florianópolis, Lucas e Marina extinguiram as três planilhas conflitantes, travaram o avanço de estágio no CRM sem dor quantificada, instituíram o termo obrigatório de passagem de bastão para Sucesso do Cliente e condicionaram o bônus trimestral à ativação saudável nos primeiros 90 dias, derrubando o cancelamento precoce de 28% para 4% em dois trimestres.
 
 > [!tip] O Espelho do Gestor (Autodiagnóstico Rápido)
+>
 > 1. **O Teste da Fonte Única da Verdade:** Se você pedir agora para o líder de Marketing, o líder de Vendas e o CFO responderem em um papel qual foi a Receita Nova Líquida e o CAC do mês passado, os três escrevem exatamente o mesmo número até os centavos ou você passa meia hora ouvindo por que a planilha de um não bate com o CRM do outro?
 > 2. **A Trava contra a Venda Tóxica:** O seu plano comercial recompensa o vendedor que empurra o produto para um cliente fora do perfil ideal que cancela em sessenta dias, ou o pagamento das comissões acompanha o recebimento efetivo das faturas (Lei 3.207/1957) combinado a metas de ativação e passagem de bastão auditada para o time de Sucesso do Cliente?
 > 3. **A Passagem de Bastão Vendas -> CS:** Quando um contrato é assinado, o time de implantação/CS recebe um dossiê obrigatório preenchido no CRM com a dor exata, o critério de sucesso prometido em 30 dias e os riscos mapeados, ou o cliente precisa repetir a história inteira do zero na primeira reunião pós-venda?
@@ -4260,7 +4272,7 @@ FUNIL DE PARCERIAS
 
 Estágio                   Critério de entrada          Conversão esperada
 --------------------------------------------------------------------------
-Prospecção                Parceiro identificado e - 
+Prospecção                Parceiro identificado e -
                           qualificado pela matriz
 Primeiro contato          Reunião realizada com         30-50% p/ próximo
                           interlocutor relevante        (hipótese inicial*)
@@ -4268,7 +4280,7 @@ Exploração técnica        Defensor interno (champion)   40-60% p/ próximo es
                           e caso de uso validados       (hipótese a calibrar*)
 MOU assinado              Termos e metas acordados      60-80% p/ contrato (*)
 Contrato assinado         Acordo jurídico formalizado   40-60% para ativo (inativo aos 90 dias, encerrado aos 180 dias)
-Parceiro ativo            Primeiro cliente gerado - 
+Parceiro ativo            Primeiro cliente gerado -
                           pelo parceiro
 --------------------------------------------------------------------------
 ```
@@ -4288,7 +4300,7 @@ Se o time-to-first-revenue estiver sistematicamente acima do baseline, investiga
 
 Percentual do ARR total gerado via canal de parceiros. Meta saudável varia por modelo de negócio, mas startups B2B que estruturam canais costumam projetar de 20% a 40% do ARR via parceiros no terceiro ano (faixa de referência do autor, a calibrar com os dados de conversão, tempo até a primeira receita e NPS mínimo da própria operação).
 
-**Regra clara de atribuição (*Deal Registration*): diferencie no CRM a receita originada pelo parceiro** (*Partner-Sourced*, quando o parceiro traz um cliente novo que não estava no seu funil ativo) da receita influenciada pelo parceiro (*Partner-Influenced*, quando a oportunidade já era trabalhada pela sua equipe direta, mas o parceiro ajudou a destravar a decisão técnica ou executiva), aplicando percentuais distintos de comissionamento para evitar pagamento em duplicidade.
+**Regra clara de atribuição (*Deal Registration*):** diferencie no CRM a receita originada pelo parceiro (*Partner-Sourced*, quando o parceiro traz um cliente novo que não estava no seu funil ativo) da receita influenciada pelo parceiro (*Partner-Influenced*, quando a oportunidade já era trabalhada pela sua equipe direta, mas o parceiro ajudou a destravar a decisão técnica ou executiva), aplicando percentuais distintos de comissionamento para evitar pagamento em duplicidade.
 
 **NPS do Parceiro**
 
@@ -4301,7 +4313,7 @@ DASHBOARD DE BD - INDICADORES ESSENCIAIS
 
 Indicador                         Frequência    Meta referência
 ---------------------------------------------------------------
-Parceiros no pipeline (total)      Semanal - 
+Parceiros no pipeline (total)      Semanal -
 Parceiros ativos (gerando receita) Mensal        40-60% dos assinados
 Time-to-first-revenue (mediana)    Trimestral    Por tipo de parceiro
 ARR via canal (% do total)         Mensal        20-40% no ano 3
@@ -4546,7 +4558,7 @@ A adesão ao **Código de Conduta de Fornecedores e Compliance Anticorrupção**
 
 **O que ceder**
 
-- **Prazo de pagamento (*Payment Terms*): grandes corporações brasileiras operam com ciclos de pagamento de 45, 60 ou 90 dias após a emissão da nota fiscal** (muitas vezes com janelas fixas de faturamento entre os dias 1º e 20 do mês). Projete esse capital de giro no preço do contrato ou negocie pagamento anual antecipado mediante desconto financeiro equivalente ao custo de oportunidade da taxa Selic.
+- **Prazo de pagamento (*Payment Terms*):** grandes corporações brasileiras operam com ciclos de pagamento de 45, 60 ou 90 dias após a emissão da nota fiscal (muitas vezes com janelas fixas de faturamento entre os dias 1º e 20 do mês). Projete esse capital de giro no preço do contrato ou negocie pagamento anual antecipado mediante desconto financeiro equivalente ao custo de oportunidade da taxa Selic.
 
 - **Exclusividade restrita e condicionada:** se o parceiro exigir restrição competitiva, limite-a estritamente a uma lista nominal de até três concorrentes diretos daquela vertical, pelo prazo de 6 a 12 meses e condicionada ao atingimento trimestral da meta mínima de faturamento (*Minimum Commitment*).
 
@@ -4567,6 +4579,7 @@ Cláusula de non-compete abrangente que impeça você de atender outros clientes
 **Desfecho na trincheira (Capítulo 4):** Ao encerrarem o memorando de gaveta que não gerara nenhuma venda e renegociarem a aliança diretamente com o diretor da unidade de varejo de um segundo ERP em São Paulo e Florianópolis, Lucas e Marina incluíram comissão direta de 15% para o executivo de contas do parceiro na ponta, integração nativa homologada em trinta dias e meta mínima de dez clientes por trimestre, gerando R$ 110 mil de novo MRR via canal nos seis meses seguintes.
 
 > [!tip] O Espelho do Gestor (Autodiagnóstico Rápido)
+>
 > 1. **O Teste da Comissão na Ponta:** Na parceria corporativa que você está negociando hoje, quanto dinheiro entra no bolso do vendedor ou consultor do parceiro quando ele indica ou vende o seu produto, e como isso conta para a meta trimestral dele?
 > 2. **A Trava Contra Exclusividade Cega:** Algum parceiro pediu exclusividade no setor ou na região? Se sim, você condicionou essa exclusividade a uma cláusula rígida de **Volume Mínimo Garantido (*Take-or-Pay* ou perda imediata da exclusividade se não bater X contratos por trimestre)**?
 > 3. **Validação Antes do Código:** Antes de alocar seus engenheiros por dois meses para construir uma integração técnica profunda com um parceiro, vocês já fecharam juntos 5 clientes na unha (via planilha/concierge) para provar que a base dele realmente compra?
@@ -4672,6 +4685,7 @@ Deal registration é o processo formal em que o parceiro registra oportunidade a
 #### Channel conflict, o problema central
 
 > [!warning] Quatro tipos de conflito recorrente
+>
 > - **Time direto contra canal:** ocorre quando um vendedor interno aborda ou oferece desconto para uma conta que o parceiro já estava prospectando.
 >
 > - **Canal contra canal:** ocorre quando duas revendas ou consultorias credenciadas disputam simultaneamente o mesmo cliente sem regra clara de prioridade.
@@ -4709,14 +4723,17 @@ A cultura também pesa. Relacionamento presencial abre a porta nas regiões onde
 ### Checklist de estruturação do Programa de Canais e Regras de Conflito (Deal Registration)
 
 > [!tip] Para qualquer modalidade
+>
 > - [ ] Definir por escrito a tese econômica do canal e a métrica única que determinará o sucesso da parceria em seis meses.
 > - [ ] Rodar um piloto comercial curto com metas de oportunidades em 90 dias antes de assinar contratos complexos.
 > - [ ] Formalizar contrato escrito com escopo, nível de serviço (SLA), regras de rescisão, proteção de dados (LGPD) e cadência mensal de revisão.
 
 > [!tip] Checklist prático antes de franquear a operação
+>
 > - [ ] Elaborar a Circular de Oferta de Franquia (COF) com advogado especializado na Lei nº 13.966/2019, documentar os manuais operacionais de ponta a ponta e validar a modelagem financeira de retorno tanto para a franqueadora quanto para o franqueado antes de iniciar a venda de unidades.
 
 > [!tip] Checklist prático para canais e parcerias comerciais (*channel partnerships*)
+>
 > - [ ] Definir a fronteira entre venda direta e indireta por porte ou região e validar a economia do canal (margem bruta pós-comissão e LTV/CAC via parceiros).
 > - [ ] Estruturar os níveis do programa (*tiers*), o sistema de registro de oportunidades (*deal registration* com proteção de 90 dias) e as regras de engajamento.
 > - [ ] Implantar trilha de certificação técnica/comercial, ambiente de demonstração (*sandbox*), gerentes de contas de canal (CAMs) para os principais parceiros e painel mensal de ativação.
@@ -4728,8 +4745,9 @@ A cultura também pesa. Relacionamento presencial abre a porta nas regiões onde
 **Desfecho na trincheira (Capítulo 5):** Ao estruturarem o programa de contadores e consultores integradores com ambiente gratuito, certificação prática e repasse integral da taxa de implantação entre São Paulo e Florianópolis, Lucas e Marina transformaram um segmento de PMEs antes inviável na venda direta em uma linha lucrativa que adicionou 140 parceiros ativos e reduziu o *payback* de aquisição para menos de quatro meses.
 
 > [!tip] O Espelho do Gestor (Autodiagnóstico Rápido)
+>
 > 1. **A Economia do Integrador:** Para cada R$ 1,00 de mensalidade do seu software que um parceiro vende, quantos reais ele consegue faturar em serviços próprios de configuração, consultoria ou operação contínua (a exemplo da proporção histórica da HubSpot e da Salesforce, onde o ecossistema de parceiros fatura múltiplos dólares em serviços para cada dólar de licença)?
-> 2. **Proteção Contra Roubo de Conta (*Deal Registration*): Se um parceiro passa um mês trabalhando um cliente e registra a oportunidade no seu sistema, existe uma regra férrea que proíbe o seu time interno de vendas diretas de atravessar o negócio oferecendo preço menor**? (Uma única traição de canal destrói a confiança de toda a rede em uma semana).
+> 2. **Proteção Contra Roubo de Conta (*Deal Registration*):** Se um parceiro passa um mês trabalhando um cliente e registra a oportunidade no seu sistema, existe uma regra férrea que proíbe o seu time interno de vendas diretas de atravessar o negócio oferecendo preço menor? (Uma única traição de canal destrói a confiança de toda a rede em uma semana).
 > 3. **Ativação vs. Cadastro de Vaidade (Meta de 40% a 60% de Ativos):** Dos parceiros que assinaram contrato com você, quantos por cento realizaram pelo menos uma venda nos últimos 90 dias (evitando o status "dormindo" aos 90 dias e o encerramento por inatividade aos 180 dias)? Ter 200 parceiros cadastrados no papel quando apenas 4 vendem é desperdício operacional.
 >
 > **Regra de bolso:** Prefira ter 15 parceiros obcecados para quem o seu produto representa mais de 20% do faturamento deles do que 300 parceiros distraídos para quem você é apenas o item 48 do catálogo.
@@ -4764,8 +4782,9 @@ Transformar a operação validada na matriz em uma rede replicável exige substi
 Todo fundador que precisa de presença física local (uma clínica estética ou odontológica, um quiosque de marca D2C em shopping, uma escola de idiomas ou programação, um polo de assistência técnica, uma loja de conveniência autônoma ou um escritório regional de serviços financeiros e contábeis) esbarra no mesmo limite financeiro: abrir 200 unidades próprias exige dezenas ou centenas de milhões de reais em CAPEX imobilizado, além de concentrar o passivo trabalhista e a complexidade gerencial no balanço da matriz.
 
 O modelo de *Franchising* resolve duas dores simultâneas:
+
 1. **Arbitragem de Capital (*Asset-Light Expansion*):** O franqueado financia 100% do CAPEX de montagem da loja/unidade e do capital de giro local, permitindo que a franqueadora invista seu caixa em marca, tecnologia, P&D e cadeia de suprimentos.
-2. **Arbitragem de Agência (*Skin in the Game* Local): Um gerente CLT contratado pela matriz em uma cidade a 1.500 km de distância raramente tem o mesmo senso de urgência de um franqueado-operador** que investiu as economias da família naquela unidade, conhece os clientes pelo nome e vigia cada centavo de custo e desperdício.
+2. **Arbitragem de Agência (*Skin in the Game* Local):** Um gerente CLT contratado pela matriz em uma cidade a 1.500 km de distância raramente tem o mesmo senso de urgência de um franqueado-operador que investiu as economias da família naquela unidade, conhece os clientes pelo nome e vigia cada centavo de custo e desperdício.
 
 #### Matriz de Decisão: Os 4 Modelos de Expansão Capilar no Brasil
 
@@ -4784,13 +4803,14 @@ O modelo de *Franchising* resolve duas dores simultâneas:
 
 ### Marco legal da franquia (Lei nº 13.966/2019): segurança jurídica, Circular de Oferta de Franquia (COF) e anulabilidade por omissão ou informação falsa
 
-O sistema de franquia empresarial no Brasil é disciplinado pela Lei nº 13.966, de 26 de dezembro de 2019 (em vigor desde março de 2020, revogando a antiga Lei nº 8.955/1994). Diferentemente de mercados que exigem registro prévio da oferta em órgão federal, a lei brasileira adota o princípio da **transparência pré-contratual plena (*full disclosure*) por meio de um documento central: a Circular de Oferta de Franquia (COF)**.
+O sistema de franquia empresarial no Brasil é disciplinado pela Lei nº 13.966, de 26 de dezembro de 2019 (em vigor desde março de 2020, revogando a antiga Lei nº 8.955/1994). Diferentemente de mercados que exigem registro prévio da oferta em órgão federal, a lei brasileira adota o princípio da **transparência pré-contratual plena (*full disclosure*) por meio de um documento central:** a Circular de Oferta de Franquia (COF).
 
 Em contrapartida, a lei exige transparência pré-contratual documentada por meio de um instrumento obrigatório: a COF (Circular de Oferta de Franquia).
 
 #### 2.1. A Regra dos 10 Dias e a Sanção de Anulabilidade ou Nulidade (Art. 2º, §§ 1º e 2º, e Art. 4º)
 
 Pelo art. 2º, § 1º, da Lei nº 13.966/2019, a franqueadora deve entregar a COF ao candidato com antecedência mínima de 10 (dez) dias antes de qualquer um destes dois marcos (o que ocorrer primeiro):
+
 1. Da assinatura do **contrato definitivo ou do pré-contrato de franquia**, ou
 2. Do pagamento de **qualquer taxa, sinal ou remuneração** pelo candidato à franqueadora ou a empresa ou pessoa a ela ligada.
 
@@ -4799,6 +4819,7 @@ Se a equipe de expansão enviar a COF na segunda-feira e receber um sinal de res
 #### 2.2. Os Requisitos Obrigatórios da COF (Art. 2º, Incisos I a XXIII, da Lei 13.966/2019)
 
 A sua COF deve ser redigida em linguagem clara e acessível e atender estritamente aos 23 incisos (I a XXIII) do art. 2º da Lei nº 13.966/2019, organizados nos seis blocos operacionais abaixo:
+
 - [ ] **Histórico resumido, forma societária e quadro societário completo** da franqueadora e de todas as empresas coligadas.
 - [ ] **Balanços e demonstrações financeiras auditadas/assinadas** da empresa franqueadora relativos aos 2 (dois) últimos exercícios.
 - [ ] **Indicação precisa de todas as pendências judiciais** em que estejam envolvidas a franqueadora, as empresas controladoras e os titulares da marca que questionem o sistema de franquia ou possam comprometer sua operação.
@@ -4835,6 +4856,7 @@ Antes de vender a primeira franquia, embora nem a Lei 13.966/2019 nem o estatuto
 Um erro estrutural grave é tentar financiar o lucro corrente da franqueadora com a Taxa Inicial de Franquia: a taxa de entrada deve cobrir os custos de seleção, treinamento, projeto arquitetônico e apoio de inauguração, enquanto o lucro recorrente e escalável da matriz vem das três fontes contínuas abaixo:
 
 Na franqueadora profissional:
+
 1. **Taxa Inicial de Franquia (tipicamente de R$ 30 mil a R$ 120 mil, conforme o porte da unidade):** remunera a concessão inicial de uso da marca, a transferência do *know-how* nos manuais, o treinamento inicial do franqueado e da primeira equipe e o suporte de implantação até a inauguração.
 2. **Royalties Mensais Recorrentes (4% a 10% do Faturamento Bruto ou % sobre Compras, sujeitos a ISS conforme Tema 300 do STF e às alíquotas de IBS/CBS na transição da Reforma Tributária a partir de 2026, cujo impacto no crédito do franqueado no Simples Nacional deve ser validado com contador conforme o Volume 5):** É a receita tipo SaaS da franqueadora, com margem bruta altíssima (> 80%), que remunera o uso da marca, a tecnologia e o suporte contínuo de campo.
 3. **Supply Chain, Indústria Própria ou *Rebate* Homologado:** Em redes de varejo, cosméticos, alimentação ou energia (como O Boticário, Cacau Show ou redes solares), a franqueadora vende o produto/insumo para o franqueado ou negocia *rebate* de volume com a indústria, gerando a maior fatia do EBITDA da companhia.
@@ -4857,10 +4879,11 @@ flowchart LR
 ```
 
 Para escalar de 10 para 300 unidades sem perder a alma da marca:
+
 1. **Exija Sócio-Operador dedicado na ponta:** unidades geridas diretamente por um sócio-operador presente no dia a dia apresentam desempenho operacional e sobrevivência muito superiores às lojas compradas por investidores ausentes que tratam a franquia como renda passiva. Preveja em contrato e na COF (art. 2º, V e XVIII) a obrigatoriedade de dedicação presencial do sócio-operador aprovado no processo seletivo.
 2. **Controle o Ponto Comercial e o ERP desde o Dia 1:** O franqueado nunca pode escolher o imóvel sozinho sem validação de geomarketing da matriz, e 100% das vendas e notas fiscais devem passar pelo ERP/PDV homologado pela franqueadora (evitando subfaturamento de vendas na ponta para sonegar *royalties*).
 3. **Integre o E-Commerce com o Franqueado (*Omnichannel Split*):** Nas marcas modernas (D2C + Franquias), o site da marca não compete com o franqueado: quando um cliente compra no e-commerce, o pedido é despachado pelo estoque da franquia mais próxima (*Ship-from-Store* ou *Pick-up in Store*) ou o franqueado daquele CEP recebe uma comissão pela entrega e pós-venda, alinhando incentivos entre o mundo digital e o físico.
-4. **Cresça via *Multi-Unit Franchisees*: Depois da 30ª unidade, a maneira mais segura e barata de abrir as próximas 100 unidades não é recrutar 100 novatos do zero, mas permitir que os seus top 20% melhores franqueados atuais** abram sua 2ª, 3ª, 5ª e 10ª unidades em cidades vizinhas.
+4. **Cresça via *Multi-Unit Franchisees*:** Depois da 30ª unidade, a maneira mais segura e barata de abrir as próximas 100 unidades não é recrutar 100 novatos do zero, mas permitir que os seus top 20% melhores franqueados atuais abram sua 2ª, 3ª, 5ª e 10ª unidades em cidades vizinhas.
 
 ---
 
@@ -4879,6 +4902,7 @@ Para escalar de 10 para 300 unidades sem perder a alma da marca:
 **Desfecho na trincheira (Capítulo 6):** Após descartar a minuta improvisada de licenciamento, a Dra. Camila estruturou a COF completa das clínicas odontológicas em Belo Horizonte com balanços auditados, lista transparente de fornecedores homologados e protocolo digital de assinatura que trava automaticamente qualquer contrato ou boleto pelos 10 dias legais, abrindo suas primeiras oito unidades franqueadas em Minas Gerais com 100% de adimplência e *payback* médio de 19 meses.
 
 > [!tip] O Espelho do Gestor (Autodiagnóstico Rápido)
+>
 > 1. **A Prova de Franqueabilidade (Margem Pós-Royalties e Payback):** Simulando a DRE real de uma unidade padrão após descontar todos os impostos, custos locais, *royalties* e fundo de propaganda, sobra ao franqueado uma margem operacional líquida de 12% a 20% capaz de devolver o investimento total da obra e capital de giro em 18 a 24 meses?
 > 2. **A Trava de 10 Dias da COF (Art. 2º, §§ 1º e 2º):** O seu sistema de assinatura eletrônica e cobrança possui uma trava automática que impede a assinatura de pré-contrato/contrato e a emissão de qualquer boleto ou chave Pix antes de completados pelo menos 10 dias corridos do protocolo assinado de recebimento da COF?
 > 3. **Perfil Operador vs. Investidor Passivo:** Você tem coragem de dizer "Não" para um candidato que tem R$ 500 mil à vista no banco, mas avisa que "não vai pisar na loja porque já tem outro emprego"?
@@ -5218,7 +5242,8 @@ Dependência do canal. O LinkedIn muda algoritmo. O X (antigo Twitter) mudou de 
 **Desfecho na trincheira (Capítulo 7):** Quando Rafael e Bia transformaram os dados agregados das operações logísticas de Goiânia e do Recife em um relatório trimestral aberto para a imprensa econômica e passaram a publicar duas análises práticas por semana no LinkedIn, a busca orgânica pela marca triplicou em seis meses, o custo de aquisição nos canais pagos caiu 28% e o tempo médio de fechamento comercial recuou de 45 para 18 dias.
 
 > [!tip] O Espelho do Gestor (Autodiagnóstico Rápido)
-> 1. **O Teste da Busca Direta (*Branded Search*): Nos últimos seis meses, o volume de pessoas que digitam o nome exato da sua empresa** diretamente no Google cresceu mês a mês, ou 100% do seu tráfego morre no segundo em que você pausa o leilão de palavras genéricas?
+>
+> 1. **O Teste da Busca Direta (*Branded Search*):** Nos últimos seis meses, o volume de pessoas que digitam o nome exato da sua empresa diretamente no Google cresceu mês a mês, ou 100% do seu tráfego morre no segundo em que você pausa o leilão de palavras genéricas?
 > 2. **Pauta de Dados vs. Autoelogio:** Quando você procura um jornalista ou escreve no LinkedIn, entrega um dado inédito sobre o seu setor que ajuda o leitor a tomar uma decisão melhor hoje, ou tenta publicar um texto autoelogioso sobre uma funcionalidade interna que só interessa à sua própria equipe?
 > 3. **Municiamento Comercial:** Quando sai uma matéria relevante sobre a sua empresa ou um estudo de caso de sucesso, os seus vendedores usam esse link dentro da cadência de vendas e da proposta comercial para destravar a confiança do CFO do cliente?
 >
@@ -5470,7 +5495,6 @@ No final do dia, agrupe as tarefas de manager's schedule (email, Slack, e aprova
 
 Para um exemplo completo de preenchimento horário dia a dia, consulte o [[#Template: Cronograma Minuto a Minuto da Semana do Fundador|Template: Cronograma Minuto a Minuto da Semana do Fundador (Fase 16)]].
 
-
 > [!tip] Ajustes realistas
 > Esse é modelo. Cada fundador ajusta a ritmo pessoal, cultura da empresa, e fase.
 
@@ -5610,6 +5634,7 @@ Para audit semestral de modo de operação.
 **Desfecho na trincheira (Capítulo 8):** Ao abandonarem a abstração dos relatórios mensais em PDF e instalarem o Mapa de Modos entre São Paulo e Florianópolis, Lucas manteve mergulho semanal direto na arquitetura central do produto e nas conversas *skip-level* com engenheiros seniores, enquanto Marina assumiu a revisão quinzenal das dez maiores contas e delegou a operação comercial de base com alçadas claras, recuperando a velocidade de lançamento e reduzindo o ciclo de vendas de 75 para 32 dias.
 
 > [!tip] O Espelho do Gestor (Autodiagnóstico Rápido)
+>
 > 1. **Amostragem Direta da Realidade:** Nos últimos 15 dias, você ouviu pessoalmente 3 chamadas reais de clientes, abriu 5 tickets de suporte e testou o fluxo completo do seu próprio produto como se fosse um cliente novo, ou você só viu os gráficos de NPS que alguém preparou em um slide?
 > 2. **O Erro de Atropelar o Líder (*Skip-Level Chaos*):** Quando você conversa com especialistas técnicos da ponta (*Skip-Level*) para entender os detalhes, você usa o que aprendeu para calibrar a direção junto com o Diretor da área, ou você dá ordens diretas contraditórias na cabeça do analista e destrói a autoridade do gestor que você mesmo contratou?
 > 3. **Maturidade Relevante à Tarefa (Andy Grove):** Você está dando liberdade total para um diretor recém-contratado nos primeiros 30 dias (quando ele ainda não conhece a sua cultura e precisa de acompanhamento próximo) e microgerenciando um veterano que já bate meta há dois anos?
@@ -5703,7 +5728,7 @@ Na sequência operacional de busca, acione intensamente a rede direta do CEO, do
 
 - **Estágio 4 - Estudo de Caso Real da Operação (*Work Sample / Case Presentation*, Semana 6):** o finalista recebe um desafio estratégico real da startup (com dados anonimizados) para apresentar em 60 minutos ao CEO e aos pares C-Level como diagnosticaria a área e estruturaria seus primeiros 90 dias. Avalie se ele faz perguntas profundas sobre dados e restrições ou se apenas recita um modelo genérico de mercado.
 
-- **Estágio 5 - Checagem profunda de referências em duas camadas (*Front-door* e *Back-channel*, Semanas 7 e 8): converse por telefone ou vídeo com no mínimo 4 a 6 referências reais** (ex-chefes diretos, pares e subordinados diretos que trabalharam com o candidato nos últimos cinco anos), combinando as referências indicadas pelo próprio executivo com contatos acionados pela rede dos seus investidores e conselheiros (sem jamais quebrar o sigilo do emprego atual do candidato).
+- **Estágio 5 - Checagem profunda de referências em duas camadas (*Front-door* e *Back-channel*, Semanas 7 e 8):** converse por telefone ou vídeo com no mínimo 4 a 6 referências reais (ex-chefes diretos, pares e subordinados diretos que trabalharam com o candidato nos últimos cinco anos), combinando as referências indicadas pelo próprio executivo com contatos acionados pela rede dos seus investidores e conselheiros (sem jamais quebrar o sigilo do emprego atual do candidato).
 
 > [!tip] Perguntas que funcionam melhor que "como foi trabalhar com X?"
 > "Em quais três áreas X era excepcional e em quais três áreas X tinha dificuldade?". "Se você fosse contratar X de novo, faria? Em que tipo de role X brilharia e qual X deveria evitar?". "Como era X em momento de crise? E em momento de conflito?". "Me conte sobre uma decisão de X que você questionou. O que aconteceu?". "Se X tivesse que melhorar em uma coisa para chegar no próximo nível, o que seria?".
@@ -5720,7 +5745,7 @@ Estrutura típica em 2026.
 
 - **Remuneração variável / Bônus anual (30% a 100% da remuneração fixa anual):** em cargos de produto, engenharia e operações/finanças, o bônus anual varia tipicamente de 30% a 50% do fixo anual (frequentemente estruturado via PLR sob a Lei 10.101/2000 para empregados CLT), para o VP de Vendas / CRO, a parcela variável representa de 50% a 100% do fixo (compondo o OTE comercial).
 
-- **Participação societária (*Equity / Stock Options*, percentual *fully diluted* na entrada): conforme a régua unificada deste volume (Capítulo 12), em estágio Série A/B um CTO ou CPO contratado (não fundador) recebe tipicamente de 0,5% a 2,5%, um VP de Vendas/CRO ou CFO recebe de 0,5% a 1,5%, e demais VPs/Diretores de 0,25% a 1,0%**, sempre com *vesting* de 4 anos e *cliff* de 12 meses.
+- **Participação societária (*Equity / Stock Options*, percentual *fully diluted* na entrada):** conforme a régua unificada deste volume (Capítulo 12), em estágio Série A/B um CTO ou CPO contratado (não fundador) recebe tipicamente de 0,5% a 2,5%, um VP de Vendas/CRO ou CFO recebe de 0,5% a 1,5%, e demais VPs/Diretores de 0,25% a 1,0%, sempre com *vesting* de 4 anos e *cliff* de 12 meses.
 
 - **Benefícios executivos e proteção estatutária:** plano de saúde e odontológico no padrão superior extensivo a dependentes, seguro de vida, check-up médico anual e, para diretores estatutários e conselheiros, **Seguro de Responsabilidade Civil de Administradores (*D&O - Directors and Officers*)** contratado pela companhia.
 
@@ -5757,7 +5782,7 @@ Quatro exemplos do ecossistema brasileiro mostram como calibrar a origem do exec
 
 ### Taxa de Sucesso de Executivos após 12 Meses (meta ≥ 80%), Tempo até o Plano de 90 Dias Aprovado e Retenção dos Talentos Trazidos pelo Novo Líder
 
-- **Tempo total de fechamento da vaga (*time-to-hire*): a meta operacional é de 8 a 12 semanas** para posições C-Level, contadas do alinhamento do *Scorecard* e primeiro contato até o aceite da proposta (ou de 3 a 5 meses quando incluído o cumprimento de aviso prévio na empresa anterior). Processos que ultrapassam 20 semanas sem finalistas indicam *Scorecard* mal calibrado ou mapeamento ativo insuficiente.
+- **Tempo total de fechamento da vaga (*time-to-hire*):** a meta operacional é de 8 a 12 semanas para posições C-Level, contadas do alinhamento do *Scorecard* e primeiro contato até o aceite da proposta (ou de 3 a 5 meses quando incluído o cumprimento de aviso prévio na empresa anterior). Processos que ultrapassam 20 semanas sem finalistas indicam *Scorecard* mal calibrado ou mapeamento ativo insuficiente.
 
 - **Qualidade da lista final (*shortlist*):** apresente de 3 a 5 candidatos finalistas integralmente qualificados. Menos de 3 finalistas sinaliza filtro restritivo demais ou busca rasa, mais de 7 revela falta de foco no perfil desejado.
 
@@ -5800,23 +5825,28 @@ Quatro exemplos do ecossistema brasileiro mostram como calibrar a origem do exec
 O processo de executive hiring está maduro quando todos os itens abaixo estão cumpridos.
 
 **Preparação:**
+
 - [ ] Scorecard rigoroso (mission, outcomes específicos, competencies) e org chart atual + futuro mapeados.
 - [ ] Compensation framework aprovado internamente, ideal candidate profile definido, stakeholders de entrevista mapeados.
 - [ ] Board informado e alinhado (obrigatório em C-level).
 
 **Sourcing:**
+
 - [ ] Network do CEO ativado primeiro, board contatado para referrals.
 - [ ] Search firm contratada se network não produzir em 4-8 semanas, múltiplos source streams em paralelo.
 
 **Processo:**
+
 - [ ] Entrevistas com critérios pré-definidos, panel treinado e calibrado, case study relevante preparado.
 - [ ] Reference checks profundos (mínimo 4-6, ideal 8-10) com back-channel, debrief formal do panel.
 
 **Decisão e closing:**
+
 - [ ] Board approval para package, offer letter completo, espaço de negociação definido.
 - [ ] Relacionamento mantido entre offer e start date, onboarding planejado antes do day 1.
 
 **Onboarding e retenção:**
+
 - [ ] Plano 30-60-90 acordado nos primeiros dias, intro meetings agendados, weekly 1:1 com CEO nos primeiros 90 dias, checkpoint 90 dias formal.
 - [ ] Reviews trimestrais pelo CEO e anuais pelo board, feedback bidirecional, compensation review anual, equity acceleration discussions se apropriado.
 - [ ] Retention ≥ 80% em dois anos dos C-levels contratados (alvo), abaixo de 60% indica problema sistêmico de hiring ou ambiente.
@@ -5828,9 +5858,10 @@ O processo de executive hiring está maduro quando todos os itens abaixo estão 
 Na segunda busca para a liderança comercial em Florianópolis, Lucas e Marina recusaram o brilho fácil do currículo e aplicaram o processo completo: antes de abrir a vaga, Marina escreveu um *Scorecard* de uma página com três metas auditáveis para 12 meses: estruturar duas células de vendas *mid-market* com 10 executivos de contas rampados, reduzir o ciclo médio de fechamento de 140 para 90 dias e entregar R$ 18 milhões em novo ARR líquido com CAC Payback abaixo de 12 meses. A diretora escolhida passou por uma sessão prática de três horas dissecando o funil real da empresa e por seis referências *off-list* com ex-subordinados. Ao completar um ano de casa, havia batido 108% da meta de ARR com 90% de retenção do time comercial.
 
 > [!tip] O Espelho do Gestor (Autodiagnóstico Rápido)
+>
 > 1. **A Pergunta do Estágio Equivalente:** O candidato sênior que está na sua frente hoje já pegou uma área do mesmo tamanho e estágio de caos que a sua tem hoje (ex: 3 vendedores e R$ 5M de ARR) e construiu com as próprias mãos até o próximo degrau (ex: 15 vendedores e R$ 25M), ou ele só gerenciou estruturas gigantes que alguém construiu dez anos antes dele chegar?
 > 2. **A Prova de Mão na Massa (*Working Session*):** Antes de fazer a carta-oferta, você colocou esse executivo numa sala por 3 horas com os dados reais anonimizados da sua empresa para ver como ele constrói um plano, analisa uma planilha e resolve um problema ao vivo sem assessores?
-> 3. **A Checagem Fora da Lista (*Backchannel*): Você ligou para pelo menos três ex-chefes, pares e ex-subordinados que o candidato NÃO colocou na lista de referências** e fez a pergunta de ouro: *"Em uma escala de 1 a 10, quão rápido você recontrataria essa pessoa hoje para construir uma operação do zero?"*
+> 3. **A Checagem Fora da Lista (*Backchannel*):** Você ligou para pelo menos três ex-chefes, pares e ex-subordinados que o candidato NÃO colocou na lista de referências e fez a pergunta de ouro: *"Em uma escala de 1 a 10, quão rápido você recontrataria essa pessoa hoje para construir uma operação do zero?"*
 >
 > **Regra de bolso:** Nunca contrate um executivo pelo que ele não tem de defeito. Contrate pela força descomunal que ele tem exatamente no problema nº 1 dos seus próximos 18 meses, e nunca pule as referências *off-list*.
 >
@@ -5999,7 +6030,7 @@ A avaliação semestral é apenas a consolidação formal de seis meses de gest�
 
 ### Métricas de saúde do ciclo: cobertura acima de 95%, distribuição calibrada de notas, retenção de talentos-chave e promoções originadas na avaliação
 
-- **Taxa de conclusão no prazo (*coverage*): percentual de colaboradores elegíveis com avaliação escrita, calibrada e entregue em conversa formal dentro do cronograma (meta ≥ 95%**).
+- **Taxa de conclusão no prazo (*coverage*):** percentual de colaboradores elegíveis com avaliação escrita, calibrada e entregue em conversa formal dentro do cronograma (meta ≥ 95%).
 
 - **Índice de ajuste na calibração:** percentual de notas preliminares que são revisadas durante os comitês de calibração (tipicamente de 10% a 20% nos primeiros ciclos), comprovando que os pares e o *skip-level* de fato escrutinaram as evidências.
 
@@ -6009,7 +6040,7 @@ A avaliação semestral é apenas a consolidação formal de seis meses de gest�
 
 - **Percepção de clareza e justiça (pesquisa pós-ciclo):** pulso rápido de 3 perguntas enviado após as devolutivas medindo se o colaborador entendeu os critérios da sua nota e os passos práticos para evoluir.
 
-- **Retenção de profissionais de alta performance (*A-Players*): acompanhe trimestralmente a retenção dos colaboradores avaliados nos dois conceitos superiores (meta ≥ 90% a 95% ao ano**). Perder talentos de ponta logo após o ciclo indica falha na diferenciação financeira ou na oferta de desafios.
+- **Retenção de profissionais de alta performance (*A-Players*):** acompanhe trimestralmente a retenção dos colaboradores avaliados nos dois conceitos superiores (meta ≥ 90% a 95% ao ano). Perder talentos de ponta logo após o ciclo indica falha na diferenciação financeira ou na oferta de desafios.
 
 - **Proporção de promoções originadas no ciclo formal:** mede quantas promoções decorreram da avaliação estruturada em comparação com decisões avulsas fora de época. Uma taxa alta comprova que o processo governa as decisões de carreira, uma taxa baixa revela que a avaliação virou mero teatro burocrático.
 
@@ -6074,6 +6105,7 @@ Performance review está saudável quando todos os itens abaixo estão cumpridos
 Quando Henrique implantou o primeiro ciclo semestral estruturado aos 45 colaboradores na sua fábrica em Curitiba, a mudança foi imediata: na sessão de calibração de duas horas com os líderes de engenharia, implantação e operações, identificaram os seis profissionais de maior impacto técnico (que receberam reajuste de mérito no topo da banda e prioridade no plano de retenção) e mapearam três casos de entrega insuficiente que entraram em planos claros de 30 dias com metas binárias semanais. Nos doze meses seguintes, a empresa não perdeu nenhum engenheiro sênior para a concorrência e o retrabalho em campo caiu pela metade.
 
 > [!tip] O Espelho do Gestor (Autodiagnóstico Rápido)
+>
 > 1. **O Teste da Surpresa Zero:** Se você tivesse que desligar hoje por baixa performance os dois profissionais mais fracos da sua empresa, eles já saberiam exatamente por quê, com base em pelo menos dois feedbacks diretos e escritos dados nos últimos 60 dias, ou eles olhariam para você chocados dizendo *"mas ninguém nunca me falou que eu estava indo mal"*?
 > 2. **A Matriz Resultados x Cultura:** Você tem hoje algum "babaca brilhante" na equipe que bate metas individuais altas, mas destrói o clima, humilha colegas e sonega informação? Quanto essa tolerância está custando para a credibilidade dos seus valores?
 > 3. **Diferenciação Real:** Na sua última revisão de bônus ou mérito, os 15% melhores profissionais da empresa receberam uma recompensa significativamente maior do que a média, ou você distribuiu migalhas iguais para todo mundo para ninguém reclamar?
@@ -6153,6 +6185,7 @@ Piso (P25):   R$  8.500 - entrada na banda, profissional recém-promovido ou con
 Meio (P50):   R$ 10.500 - referência de mercado (mediana para a praça/estágio)
 Teto (P75):   R$ 12.500 - proficiência sênior dentro do nível, próximo da promoção a Sênior (L3)
 ```
+
 Ao implantar essa banda de Pleno (R$ 8.500 a R$ 12.500), Bia estabeleceu duas regras operacionais que estancaram o leilão salarial: nenhum desenvolvedor pleno poderia receber abaixo do piso de R$ 8.500 (corrigindo imediatamente quem estava defasado em R$ 7.200) e quem já estava próximo ao teto por distorção histórica (R$ 11.800) só teria novo aumento real quando comprovasse na avaliação semestral os critérios técnicos do nível Sênior.
 Bandas servem para:
 
@@ -6600,6 +6633,7 @@ Quando a única forma de um engenheiro sênior ou especialista ganhar mais é vi
 Ao substituir os aumentos no improviso pela arquitetura estruturada deste capítulo entre Recife e Goiânia, Rafael e Bia estancaram a perda de talentos: implantaram bandas salariais transparentes do nível Júnior (L1) ao Staff (L4) em paralelo à trilha de gestão (M1-M3), concentraram todas as revisões salariais em uma janela semestral calibrada, separaram o cartão de benefícios flexíveis enquadrado no PAT do programa anual de PLR homologado com comissão paritária e passaram a orçar cada nova vaga pelo custo total CLT de 1,72x. Nos doze meses seguintes, a rotatividade voluntária da equipe de produto e engenharia caiu de 28% para 9% ao ano.
 
 > [!tip] O Espelho do Gestor (Autodiagnóstico Rápido)
+>
 > 1. **A Carreira em Y (Sem Forçar Gestão):** Se o seu melhor engenheiro, vendedor ou especialista quiser crescer financeiramente na sua empresa nos próximos dois anos, ele consegue alcançar uma banda salarial de topo permanecendo na **trilha técnica individual (*Staff / Principal*, níveis L4 e L5)**, ou você obriga todo bom especialista a virar chefe de pessoas para ganhar mais?
 > 2. **O Fim dos Aumentos Avulsos:** Você tem uma janela fixa (semestral ou anual) de avaliação e mérito salarial atrelada ao orçamento, ou qualquer funcionário que bata na sua porta numa terça-feira chuvosa consegue negociar um aumento individual fora de época?
 > 3. **Eficiência Tributária Legal (PLR e PAT):** Você já utiliza um programa estruturado de PLR (Lei 10.101/2000) e Benefícios Flexíveis enquadrados no PAT (Lei 14.442/2022 e Decreto 12.712/2025) separando claramente os papéis: premiar o atingimento de metas anuais via PLR isenta de INSS e manter a carteira de refeição/alimentação travada exclusivamente para nutrição (sem *rebate* e sem misturá-la com bônus por performance)?
@@ -6769,7 +6803,7 @@ flowchart TD
 
 **Estrutura padrão (4 anos com cliff de 1 ano).**
 
-```
+```text
 Mês 0    → Concessão. Nenhuma opção vested.
 Mês 12   → Cliff. 25% das opções vestem de uma vez.
 Mês 13–48 → Vesting mensal. 1/36 das opções restantes por mês.
@@ -6779,6 +6813,7 @@ Mês 48   → 100% vested.
 **Por que cliff de 1 ano?** Protege a empresa de conceder equity para colaboradores que saem rápido. Também alinha incentivos: o colaborador sabe que precisa passar pelo cliff para ter algum valor.
 
 **Variações de cronograma para casos específicos no Brasil:**
+
 - **Executivos C-Level contratados em estágio avançado (3 a 4 anos com *cliff* de 6 a 12 meses):** em disputas acirradas por diretores vindos do mercado, admite-se reduzir o *cliff* para 6 meses ou o prazo total para 36 meses, mantendo sempre a cláusula de *Good/Bad Leaver* (enquanto cofundadores permanecem no padrão estrito de 4 anos com *cliff* de 1 ano via *reverse vesting*).
 - **Conselheiros consultivos (*advisors*, 2 anos com *cliff* de 6 meses):** outorgas enxutas (0,1% a 0,5%) vinculadas a um mandato de 24 meses com entregas trimestrais claras.
 - **Outorgas de renovação (*refresh grants*, 3 a 4 anos sem novo *cliff*):** aplicadas a executivos e talentos-chave que já cumpriram a maior parte do seu primeiro ciclo na empresa e recebem um novo lote de retenção com *vesting* mensal ou trimestral direto.
@@ -6789,7 +6824,7 @@ Mês 48   → 100% vested.
 
 **Problema do *single-trigger* para os fundadores:** o comprador sabe que, no dia do fechamento da aquisição, todas as opções dos executivos vencerão de uma só vez, eliminando o incentivo de retenção pós-fechamento, por isso, o adquirente exige um novo pacote de retenção pós-M&A e desconta esse custo diretamente do preço de compra da empresa, reduzindo o valor líquido que os fundadores e acionistas vendedores recebem.
 
-**Gatilho duplo (*double-trigger*): a aceleração das opções só ocorre se se combinarem dois eventos cumulativos: (1) a venda do controle da empresa e** (2) a dispensa sem justa causa (ou esvaziamento de funções/redução salarial) do executivo nos 12 a 24 meses seguintes ao fechamento.
+**Gatilho duplo (*double-trigger*):** a aceleração das opções só ocorre se se combinarem dois eventos cumulativos: (1) a venda do controle da empresa e (2) a dispensa sem justa causa (ou esvaziamento de funções/redução salarial) do executivo nos 12 a 24 meses seguintes ao fechamento.
 
 > [!tip] Por que o gatilho duplo (*double-trigger*) é o padrão de governança em M&A
 > Enquanto o gatilho único transfere custo para o preço da oferta na mesa de M&A, o gatilho duplo (*double-trigger*) protege o executivo contra dispensa imotivada após a aquisição sem destruir seu incentivo de permanência.
@@ -6804,7 +6839,7 @@ A cláusula de saída (*leaver*) disciplina o destino das opções já adquirida
 | Opções já adquiridas (*vested*) | Mantém o direito de exercer no prazo contratual (180 dias a 12 meses) ou recompra pela empresa pelo valor justo de mercado | Caducam ou a empresa exerce opção de recompra pelo valor nominal/preço de exercício efetivamente pago |
 | Opções não vested | Canceladas | Canceladas |
 
-**Prazo de exercício após o desligamento (para *Good Leaver*): enquanto o padrão do Vale do Silício tradicionalmente fixava 90 dias, no Brasil (onde ainda não há liquidez secundária fácil para ações de S.A. fechada) a boa prática recomenda estipular de 180 dias a 12 meses** no contrato para que o ex-colaborador de boa-fé tenha fôlego financeiro para pagar o preço de exercício.
+**Prazo de exercício após o desligamento (para *Good Leaver*):** enquanto o padrão do Vale do Silício tradicionalmente fixava 90 dias, no Brasil (onde ainda não há liquidez secundária fácil para ações de S.A. fechada) a boa prática recomenda estipular de 180 dias a 12 meses no contrato para que o ex-colaborador de boa-fé tenha fôlego financeiro para pagar o preço de exercício.
 
 #### Tamanho do option pool
 
@@ -6897,6 +6932,7 @@ Para startups em estágio inicial que ainda operam como Ltda. e não desejam tra
 Para destravar o fechamento da Série A entre São Paulo e Florianópolis, Lucas e Marina cumpriram integralmente as quatro exigências da auditoria jurídica: negociaram de forma transparente com os três engenheiros iniciais o distrato das minutas improvisadas de R$ 0,01, contrataram um laudo contábil independente de valor justo após converterem a sociedade em S.A. fechada, aprovaram em assembleia o novo Plano Mercantil de Opções de Compra de Ações sob o art. 168, § 3º da Lei das S.A. (com *cliff* de 12 meses, *vesting* de 48 meses e cláusulas claras de *Good/Bad Leaver*) e obtiveram a liberação integral do valor retido em *escrow* oito meses após o aporte.
 
 > [!tip] O Espelho do Gestor (Autodiagnóstico Rápido)
+>
 > 1. **O Teste da Promessa Solta:** Você já prometeu verbalmente ou por WhatsApp/e-mail *"1% ou 2% da empresa"* para alguém sem assinar o contrato formal? (Perigo mortal: prometer "porcentagem fixa" em vez de uma quantidade determinada de opções gera litígio milionário sobre diluição futura).
 > 2. **Os Pilares do STJ (Temas 1.226 e 1.379):** O seu plano de *Stock Options* possui Onerosidade Real (preço de exercício ancorado em laudo ou valor patrimonial justo, pago com recursos próprios do beneficiário) e Risco Efetivo de Mercado na Adesão Voluntária, os requisitos que sustentam a natureza mercantil e afastam a cobrança de IRPF (Tema 1.226) e de INSS (Tema 1.379) no exercício?
 > 3. **A Proteção de Saída Litigiosa (*Bad Leaver*):** Se um executivo com opções já adquiridas (*vested*) for demitido por falta grave, violar sigilo (NDA) ou descumprir uma obrigação válida de não concorrência (estruturada com prazo, escopo e compensação financeira conforme o [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 4: NÃO CONCORRÊNCIA E NÃO SOLICITAÇÃO NO BRASIL|Volume 8, Capítulo 4]]), o seu contrato garante à empresa a opção de recomprar essas opções ou ações pelo preço de exercício pago?
@@ -7242,7 +7278,8 @@ Cultura está saudável quando todos os itens abaixo estão cumpridos.
 Na fábrica e operação de engenharia de Henrique em Curitiba, transformar valores em regras binárias de decisão (como a trava inegociável dos 14 testes de bancada antes de qualquer embarque e a exigência de *post-mortems* técnicos sem caça às bruxas) criou uma cultura de orgulho técnico palpável: nos 18 meses seguintes ao episódio do caminhão travado no pátio, os defeitos em campo caíram 68%, o eNPS da equipe industrial e de software subiu para +54 e a retenção anual dos engenheiros seniores chegou a 94%.
 
 > [!tip] O Espelho do Gestor (Autodiagnóstico Rápido)
-> 1. **O Teste do Custo Financeiro (Patrick Lencioni, *Make Your Values Mean Something*): Nos últimos doze meses, em qual momento a sua empresa abriu mão de dinheiro fácil no curto prazo, recusou um cliente desalinhado ou demitiu alguém que batia meta** exclusivamente para defender um valor da cultura? Se um valor nunca custou dinheiro para ser defendido, ele não é um valor: é apenas marketing.
+>
+> 1. **O Teste do Custo Financeiro (Patrick Lencioni, *Make Your Values Mean Something*):** Nos últimos doze meses, em qual momento a sua empresa abriu mão de dinheiro fácil no curto prazo, recusou um cliente desalinhado ou demitiu alguém que batia meta exclusivamente para defender um valor da cultura? Se um valor nunca custou dinheiro para ser defendido, ele não é um valor: é apenas marketing.
 > 2. **O Teste do Oposto Plausível:** Olhe para os valores escritos no pôster ou no site da sua empresa. Se o oposto do seu valor é algo que nenhuma empresa séria defenderia (o oposto de *"Integridade"* é *"Fraude"*), ele é apenas platitude decorativa. Seus princípios têm um oposto que outra operação respeitável escolheria e ajudam o time a decidir sozinho na trincheira (como a regra dos 14 testes de bancada de Henrique antes de liberar qualquer lote)?
 > 3. **A Pergunta de Recrutamento:** Você tem perguntas específicas no roteiro de entrevista desenhadas exclusivamente para reprovar candidatos tecnicamente brilhantes que violam seus princípios culturais?
 >
@@ -7300,7 +7337,7 @@ Dados de composição demográfica (coletados mediante consentimento específico
 
 #### 2. Recrutamento, onde DEI mais importa
 
-- **Ampliação ativa das fontes de atração (*sourcing*): forme parcerias diretas com organizações e comunidades brasileiras comprovadas de formação e empregabilidade em tecnologia (como Laboratoria e {reprograma} (formação de mulheres em tecnologia), Minas Programam, PretaLab e AfroPython (mulheres negras e profissionais negros em tecnologia e dados), Vai na Web e Instituto PROA** (jovens de baixa renda e escolas públicas)), além de divulgar vagas ativamente em universidades federais (UFs), Institutos Federais (IFs) e polos tecnológicos fora do eixo tradicional. Foi abrindo o funil para essas redes e polos regionais que Bia rompeu a bolha de indicações em Goiânia e no Recife.
+- **Ampliação ativa das fontes de atração (*sourcing*):** forme parcerias diretas com organizações e comunidades brasileiras comprovadas de formação e empregabilidade em tecnologia (como Laboratoria e {reprograma} (formação de mulheres em tecnologia), Minas Programam, PretaLab e AfroPython (mulheres negras e profissionais negros em tecnologia e dados), Vai na Web e Instituto PROA (jovens de baixa renda e escolas públicas)), além de divulgar vagas ativamente em universidades federais (UFs), Institutos Federais (IFs) e polos tecnológicos fora do eixo tradicional. Foi abrindo o funil para essas redes e polos regionais que Bia rompeu a bolha de indicações em Goiânia e no Recife.
 
 - **Descrição de vagas (*job specs*) limpa e objetiva:** remova jargões estereotipados ("ninja", "guerreiro") e exigências artificiais que filtram bons candidatos sem prever desempenho (como exigir diploma de faculdades específicas em vez de domínio técnico comprovado).
 
@@ -7344,7 +7381,6 @@ As métricas de acompanhamento e suas metas operacionais estão consolidadas na 
 Tratar DEI com seriedade exige reconhecer três custos operacionais reais:
 
 - **Tempo adicional de mapeamento no início:** construir canais de atração fora da rede pessoal dos fundadores exige trabalho ativo antes que o funil ganhe velocidade própria.
-
 
 - **Esforço de calibração e treinamento:** substituir entrevistas improvisadas por casos práticos cegos e rubricas padronizadas exige horas de dedicação dos líderes técnicos.
 
@@ -7435,6 +7471,7 @@ A gestão de diversidade, equidade e inclusão funciona de forma consistente qua
 Ao substituir o recrutamento restrito aos amigos de faculdade por casos práticos cegos de 30 minutos e parcerias com universidades federais e comunidades técnicas fora do circuito tradicional em Recife e Goiânia, Rafael e Bia mudaram o perfil e o desempenho da operação: em doze meses, 45% das novas contratações de produto, engenharia e vendas vieram de fora da rede inicial dos sócios, a retenção no primeiro ano subiu para 91% e a linha voltada às empreendedoras do interior (redesenhada com Pix parcelado e boleto dividido pela nova equipe) passou a responder por um terço da receita líquida da empresa.
 
 > [!tip] O Espelho do Gestor (Autodiagnóstico Rápido)
+>
 > 1. **Fit Cultural vs. Clube do Bolinha:** Quando alguém do seu time reprova um candidato dizendo *"não senti química / não tem fit cultural"*, essa reprovação foi baseada na violação de um princípio operacional objetivo da empresa (ex: ética, rigor técnico, senso de dono) ou foi apenas porque o candidato não tinha o mesmo vocabulário, sotaque ou origem social do entrevistador?
 > 2. **A Armadilha dos 100% por Indicação:** Se todas as suas vagas são preenchidas apenas por "amigos dos atuais funcionários", você percebe que está pescando sempre no mesmo aquário minúsculo e perdendo talentos excelentes de outras regiões e trajetórias do Brasil?
 > 3. **O Teste Prático Cego:** No seu processo seletivo técnico ou comercial, você avalia primeiro um desafio prático real do trabalho (código, planilha, texto, simulação de venda) ou elimina candidatos na triagem só porque o nome da faculdade não está entre as cinco mais caras de São Paulo?
@@ -7498,9 +7535,9 @@ Para evitar que o chat vire interrupção constante, defina o papel e o tempo es
 
 Existem três modelos clássicos para definir faixas salariais em equipes distribuídas:
 
-1. **Tabela salarial única independente de localização (*location-agnostic*): a empresa paga a mesma faixa salarial por função e senioridade, independentemente da cidade em que a pessoa viva. No cenário internacional, é o modelo consagrado desde 2018 pela 37signals (Basecamp)**, que remunera todos os colaboradores pela referência de São Francisco. Simples de administrar e excelente para atrair talentos de ponta fora dos grandes centros, exige disciplina orçamentária porque paga acima da média local em cidades de menor custo.
+1. **Tabela salarial única independente de localização (*location-agnostic*):** a empresa paga a mesma faixa salarial por função e senioridade, independentemente da cidade em que a pessoa viva. No cenário internacional, é o modelo consagrado desde 2018 pela 37signals (Basecamp), que remunera todos os colaboradores pela referência de São Francisco. Simples de administrar e excelente para atrair talentos de ponta fora dos grandes centros, exige disciplina orçamentária porque paga acima da média local em cidades de menor custo.
 2. **Tabela indexada a uma praça-âncora com faixas regionais (*anchor-based*):** a empresa fixa uma praça-base de referência (como São Paulo em operações nacionais ou os Estados Unidos em operações globais) e aplica coeficientes predefinidos e transparentes por macrorregião ou faixa de custo (por exemplo, até duas faixas nacionais entre capitais e interior com diferença de 10% a 15%, ou faixas internacionais graduadas).
-3. **Tabela ajustada pelo mercado local (*location-based*): adotado globalmente por empresas como GitLab e Stripe**, calibra o salário pelo mercado de trabalho e custo de cada cidade ou país com base em pesquisas salariais (Mercer, Radford). Embora otimize o custo da folha em múltiplas geografias, é mais complexo de operar e pode gerar atrito quando dois profissionais da mesma equipe mudam de cidade.
+3. **Tabela ajustada pelo mercado local (*location-based*):** adotado globalmente por empresas como GitLab e Stripe, calibra o salário pelo mercado de trabalho e custo de cada cidade ou país com base em pesquisas salariais (Mercer, Radford). Embora otimize o custo da folha em múltiplas geografias, é mais complexo de operar e pode gerar atrito quando dois profissionais da mesma equipe mudam de cidade.
 
 Em startups brasileiras com operação remota nacional, muitas equipes de tecnologia e produto optam pela tabela salarial única nacional referenciada por São Paulo (ou, no máximo, duas faixas transparentes entre grandes capitais e demais praças) para simplificar a gestão e competir pelos melhores engenheiros em qualquer estado. Foi exatamente a escolha de Lucas e Marina: ao pagarem a tabela de referência de São Paulo para os engenheiros de Campina Grande, Santa Rita do Sapucaí e Porto Alegre, aceitaram um custo de folha cerca de 12% superior à média local daquelas praças, mas reduziram a rotatividade voluntária da engenharia para menos de 6% ao ano.
 
@@ -7582,9 +7619,9 @@ Organize a colaboração internacional em três faixas contínuas de diferença 
 
 **Quando a startup brasileira contrata profissionais residentes no exterior:**
 
-- **Plataforma de *Employer of Record* (EOR, como Deel, Remote, Oyster ou Remofirst): o EOR é o empregador formal e legal no país de residência do profissional (registra o contrato sob a lei trabalhista local, recolhe impostos e encargos previdenciários daquele país e fatura mensalmente a empresa brasileira, cobrando taxa administrativa típica de 10% a 20% sobre a folha ou valor fixo mensal por colaborador). É a via mais rápida e segura para contratar de 1 a 15 pessoas** em um país sem abrir pessoa jurídica local.
+- **Plataforma de *Employer of Record* (EOR, como Deel, Remote, Oyster ou Remofirst):** o EOR é o empregador formal e legal no país de residência do profissional (registra o contrato sob a lei trabalhista local, recolhe impostos e encargos previdenciários daquele país e fatura mensalmente a empresa brasileira, cobrando taxa administrativa típica de 10% a 20% sobre a folha ou valor fixo mensal por colaborador). É a via mais rápida e segura para contratar de 1 a 15 pessoas em um país sem abrir pessoa jurídica local.
 
-- **Constituição de subsidiária ou entidade local (*local entity*): abrir filial ou subsidiária própria no país estrangeiro envolve custo inicial de estruturação jurídica e contábil relevante (tipicamente R$ 50 mil a R$ 200 mil, além da manutenção mensal) e passa a compensar financeiramente quando a operação atinge a faixa de 15 a 20 colaboradores no mesmo país, ou antes disso, caso a atuação de executivos comerciais com poder de fechar contratos no exterior crie risco fiscal de estabelecimento permanente (*permanent establishment*)**, conforme a régua e as diretrizes detalhadas no [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 5: INTERNACIONALIZAÇÃO: ESTRUTURA E PRODUTO PARA MÚLTIPLOS MERCADOS|Volume 9, Capítulo 5 (Expansão Internacional)]].
+- **Constituição de subsidiária ou entidade local (*local entity*):** abrir filial ou subsidiária própria no país estrangeiro envolve custo inicial de estruturação jurídica e contábil relevante (tipicamente R$ 50 mil a R$ 200 mil, além da manutenção mensal) e passa a compensar financeiramente quando a operação atinge a faixa de 15 a 20 colaboradores no mesmo país, ou antes disso, caso a atuação de executivos comerciais com poder de fechar contratos no exterior crie risco fiscal de estabelecimento permanente (*permanent establishment*), conforme a régua e as diretrizes detalhadas no [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 5: INTERNACIONALIZAÇÃO: ESTRUTURA E PRODUTO PARA MÚLTIPLOS MERCADOS|Volume 9, Capítulo 5 (Expansão Internacional)]].
 
 - **Prestador de serviços internacional direto (*independent contractor*):** contratação direta pessoa-empresa via *invoice* internacional. Simples de iniciar para projetos autônomos, mas exige cautela contra o risco de reenquadramento trabalhista (*misclassification*) na jurisdição de residência do prestador.
 
@@ -7634,6 +7671,7 @@ No trabalho remoto, a tentação de gestores inseguros é medir quem passa mais 
 Seis meses depois de vetarem o software espião de tela entre São Paulo, Florianópolis e os polos de engenharia em Campina Grande, Santa Rita do Sapucaí e Porto Alegre, Lucas e Marina colheram o resultado da disciplina escrita: o próprio diretor que antes queria vigiar câmeras passou a exigir o documento pré-lido de uma página antes de qualquer reunião e a acompanhar na sexta-feira às 16h o painel de metas binárias de cada *squad*. Com aditivos de teletrabalho por produção assinados para a engenharia, tabela salarial nacional unificada e encontros presenciais semestrais de três dias, o índice de entregas semanais no prazo subiu para 91% e o tempo gasto em reuniões caiu pela metade.
 
 > [!tip] O Espelho do Gestor (Autodiagnóstico Rápido)
+>
 > 1. **O Teste da Escrita Assíncrona:** Se um desenvolvedor ou analista excelente entrar na sua empresa hoje morando a 2.000 km da sede, ele consegue descobrir como o produto funciona, quais foram as decisões estratégicas do último mês e quais são as regras de código/processo lendo a base de conhecimento escrita (Notion/Confluence), ou 90% do conhecimento da sua empresa só existe na cabeça de quem almoça junto?
 > 2. **O Teste da Sexta-Feira e do Aditivo Legal:** Se alguém perguntasse agora o que cada *squad* entregou na última sexta-feira, você saberia responder olhando para um painel escrito de metas binárias? E, no plano jurídico, cada colaborador CLT remoto tem aditivo assinado definindo se trabalha por jornada (com ponto) ou por entrega (art. 62, III, sem cobrança de horário fixo)?
 > 3. **A Cidadania no Híbrido:** Nas suas reuniões com parte do time na sala física e parte no vídeo, todo mundo abre a câmera individual para manter igualdade de voz, ou cinco pessoas falam ao mesmo tempo num microfone de mesa ruim excluindo quem está longe?
@@ -7645,4 +7683,3 @@ Seis meses depois de vetarem o software espião de tela entre São Paulo, Floria
 ---
 
 Com a máquina de receita previsível estruturada na Fase 15 e nos Capítulos 1 a 7 e a arquitetura de liderança, cultura, remuneração e trabalho distribuído consolidada na Fase 16 e nos Capítulos 8 a 15, a sua startup tem os dois motores humanos e comerciais alinhados. No Volume 7 (Produto, Engenharia e Operações), daremos o próximo passo dessa construção: traduzir essa equipe de alta performance em descoberta contínua de produto, engenharia resiliente, produtos nativos em inteligência artificial e processos operacionais que escalam sem quebrar.
-

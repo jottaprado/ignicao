@@ -79,8 +79,8 @@ Benchmarks de mercado, valuations e dados do ecossistema mudam. Se você tem fon
 
 ## Processo de review
 
-Pull requests de correção simples: aprovados em até 7 dias.  
-Adições de conteúdo novo: discussão aberta por 14 dias antes de merge.  
+Pull requests de correção simples: aprovados em até 7 dias.
+Adições de conteúdo novo: discussão aberta por 14 dias antes de merge.
 Mudanças estruturais: decisão dos mantenedores.
 
 ---

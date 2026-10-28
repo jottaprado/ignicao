@@ -23,26 +23,34 @@ git push -u origin main
 ## 3. Configurações no GitHub (Settings)
 
 ### Description e topics
+
 - **Description:** `Manual operacional do empreendedor brasileiro: 11 volumes autocontidos (v5.3), 21 fases, 185 capítulos, 42 verticais, 1,42 milhão de palavras.`
 - **Website:** (deixe em branco ou coloque URL futura do GitHub Pages)
 - **Topics (tags do repo):**
-  ```
+
+  ```text
   empreendedorismo startup brasil pmf product-market-fit
   venture-capital saas growth fundador open-source
   portuguese brazil manual enciclopedia
   ```
 
 ### Social Preview (imagem de capa)
+
 Settings → General → Social Preview → Upload image
+
 - Recomendado: imagem 1280×640px com fundo escuro, logo IGNIÇÃO, tagline
 - Aparece quando o link é compartilhado no Twitter/LinkedIn/WhatsApp
 
 ### GitHub Discussions
+
 Settings → Features → Discussions ✓
+
 - Permite que a comunidade sugira conteúdo e discuta
 
 ### About (sidebar direita)
+
 Edite o "About" para aparecer na sidebar:
+
 - Description: `Manual operacional do empreendedor brasileiro (11 volumes autocontidos · v5.3)`
 - Topics adicionados acima
 - ✓ Releases habilitado
@@ -50,11 +58,13 @@ Edite o "About" para aparecer na sidebar:
 ## 4. Criando um release
 
 Após o push, crie um release via CLI (`gh release create v5.3.0 ...`) ou interface web:
+
 1. Releases → Create a new release
 2. **Tag:** `v5.3.0`
 3. **Title:** `IGNIÇÃO v5.3.0: Edição Narrativa Enxuta & Caderno de Trincheira (11 Volumes)`
 4. **Description:**
-```
+
+```text
 IGNIÇÃO: Manual Operacional do Empreendedor Brasileiro (v5.3.0), organizado em 11 volumes 100% autocontidos + edição Omnibus.
 
 ✅ Autocontenção total: 162 frameworks, 20 canvases, 42 templates preenchidos (224 ferramentas únicas), métricas e leituras integrados diretamente dentro das Fases e Capítulos onde são utilizados
@@ -62,10 +72,11 @@ IGNIÇÃO: Manual Operacional do Empreendedor Brasileiro (v5.3.0), organizado em
 ✅ 185 capítulos temáticos (155 capítulos nos Volumes 1 a 10 + 30 capítulos práticos no Volume 11)
 ✅ 42 Playbooks Setoriais da economia real brasileira em 6 Clusters + Economia da Inovação e 15 Hubs Brasileiros
 ✅ Volume 11 (Caderno de Trincheira, Simulações de Decisão e Cases Globais & Nacionais): 58 cases em 4 atos, 50 exercícios com gabarito comentado, 27 simulações de roleplay executivo e o Simulador Integrador das 21 Fases (0 a 105 pontos)
-✅ 11 volumes autocontidos (~74k a ~294k palavras cada)
-✅ 131 diagramas Mermaid
+✅ 11 volumes autocontidos (~74k a ~296k palavras cada)
+✅ 108 diagramas Mermaid
 ✅ ~1,42 milhão de palavras com contexto regulatório, tributário e cultural brasileiro atualizado para Outubro de 2026
 ```
+
 5. Faça upload dos 12 arquivos `.epub` gerados em `build/` (`IGNICAO.epub` e `IGNICAO-Vol-1-Ideacao.epub` a `IGNICAO-Vol-11-Workbook-Cases-e-Exercicios.epub`) como assets do release.
 
 ## 5. Divulgação
@@ -73,7 +84,8 @@ IGNIÇÃO: Manual Operacional do Empreendedor Brasileiro (v5.3.0), organizado em
 Posts recomendados para lançamento:
 
 **Twitter/X:**
-```
+
+```text
 🔥 IGNIÇÃO v5.3: manual operacional do empreendedor brasileiro, aberto no GitHub
 
 11 volumes 100% autocontidos. 21 fases. 185 capítulos. 42 verticais. 224 ferramentas. 1,42 milhão de palavras. Do pré-zero ao exit e Family Office.
@@ -86,7 +98,8 @@ github.com/jottaprado/ignicao
 ```
 
 **LinkedIn:**
-```
+
+```text
 Acabo de publicar a v5.3 do IGNIÇÃO: coleção aberta em 11 volumes 100% autocontidos para o empreendedor brasileiro.
 
 Na v5.3, consolidamos toda a arquitetura narrativa, regulatória e tributária (Outubro de 2026) e adicionamos o Volume 11 (Caderno de Trincheira, Simulações de Decisão e Cases Globais & Nacionais). Cada volume traz dentro das próprias Fases (Fase 0 a Fase 20) e Capítulos (185 capítulos) todos os 162 frameworks, 20 canvases e 42 templates preenchidos daquele estágio:

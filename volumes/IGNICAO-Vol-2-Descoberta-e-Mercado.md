@@ -521,6 +521,7 @@ Você concluiu a Fase 4 quando todos os critérios abaixo estão cumpridos.
 Seis semanas depois daquele café na Avenida Paulista, Lucas e Marina fecharam a Síntese de Rodada das 18 entrevistas com distribuidoras de autopeças e materiais elétricos. Ao guardar os slides na gaveta e interrogar apenas o fechamento da última sexta-feira, encontraram seis diretores financeiros em *Pain Level* 4 ou 5: dois deles já pagavam um analista exclusivo só para cruzar arquivos de retorno bancário com notas fiscais canceladas no braço. Já o sétimo diretor financeiro, aquele do elogio entusiasmado na Paulista, ficou no Nível 2 da escala: achava a ideia simpática, mas emitia poucos boletos e resolvia tudo em vinte minutos. Com o Mapa de Problemas pronto, a dupla descartou as distribuidoras pequenas, focou nas operações acima de dois mil boletos mensais e assinou o primeiro piloto pago do serviço de conciliação antes de abrir o editor de código.
 
 **O Espelho (autodiagnóstico):**
+
 1. Nas suas últimas dez conversas com potenciais clientes, em quantas você falou da sua solução? (Se falou em mais de duas, refaça o roteiro. Lembre-se da pergunta de Marina: quantas cartas de intenção ou boletos reais você trouxe na mochila?)
 2. Você consegue citar o nome de três empresas reais que já gastam dinheiro ou horas de planilha hoje tentando resolver essa dor no improviso?
 3. Se você cobrasse R$ 2.000 hoje apenas para resolver esse problema manualmente na próxima semana, quem faria o Pix até as 18h?
@@ -2159,6 +2160,7 @@ Você concluiu a Fase 5 quando todos os critérios abaixo estão cumpridos.
 De volta ao consultório na Savassi, em Belo Horizonte, a Dra. Camila releu a frase de Dona Helena anotada no bloco e encarou a página inicial do próprio site: havia doze menções a "titânio suíço" e "escaneamento intraoral computadorizado", mas nenhuma linha sobre voltar a sorrir nas fotos de família ou mastigar sem receio no casamento da neta. Naquela mesma semana, respeitando rigorosamente as normas éticas do Conselho Federal de Odontologia (Resolução CFO-196/2019, sem promessa de resultado e mediante termo de consentimento livre e esclarecido por escrito), ela substituiu o jargão acadêmico por orientações claras sobre acolhimento e reabilitação para pacientes acima de 55 anos e reformulou a primeira consulta para ouvir a história de cada pessoa antes de falar de tecnologia. Em seis semanas, a ocupação das manhãs subiu de 40% para 85%.
 
 **O Espelho (autodiagnóstico):**
+
 1. Se o seu cliente mais fiel explicasse a um amigo por que contratou você (como Dona Helena explicou à Dra. Camila), ele usaria alguma das palavras que estão hoje no topo do seu site? E quantos atributos das suas personas atuais possuem data, nome e citação literal rastreáveis no caderno de campo?
 2. Qual é a gambiarra atual, no Excel, no WhatsApp ou no papel, que você está tentando demitir da rotina do seu cliente?
 3. Qual é a maior **ansiedade de troca** (*anxiety*) e o maior hábito atual (*habit*) que fazem os entrevistados do seu segmento hesitarem antes de abandonar a planilha ou o fornecedor antigo?
@@ -2196,7 +2198,7 @@ Desenvolvida por Bob Moesta e Chris Spiek no Re-Wired Group em parceria com Clay
 
 ##### A mecânica central (sem jargão)
 
-Trata-se de um protocolo de entrevista focado no **momento real de troca (*switch*), quando o cliente abandonou uma solução anterior (ou uma gambiarra interna) e contratou uma nova. Em vez de perguntar quais funcionalidades a pessoa deseja, a conversa reconstrói as quatro forças causais** que produziram a mudança.
+Trata-se de um protocolo de entrevista focado no **momento real de troca (*switch*), quando o cliente abandonou uma solução anterior (ou uma gambiarra interna) e contratou uma nova.** Em vez de perguntar quais funcionalidades a pessoa deseja, a conversa reconstrói as quatro forças causais que produziram a mudança.
 
 ##### Estrutura das Quatro Forças de Troca (empurrão da dor atual, atração da nova solução, ansiedade da mudança e inércia do hábito)
 
@@ -2800,7 +2802,7 @@ Jobs identificados:
 
 Aplicando a fórmula de oportunidade de Ulwick ($\text{Oportunidade} = \text{Importância} + \max(\text{Importância} - \text{Satisfação}, 0)$, em escala de 1 a 5) aos três trabalhos mapeados por Lucas e Marina junto aos diretores financeiros de distribuidoras, a ordem de prioridade sai diretamente da conta:
 
-- **Job 1 (Maior oportunidade, nota 9/10): "Identificar na sexta-feira antes das 15h quais boletos pagos no banco correspondem a notas fiscais ativas ou canceladas"** (Importância = 5/5, Satisfação atual = 1/5 → $\text{Oportunidade} = 5 + (5 - 1) = 9$). Foco imediato da cunha de entrada.
+- **Job 1 (Maior oportunidade, nota 9/10):** "Identificar na sexta-feira antes das 15h quais boletos pagos no banco correspondem a notas fiscais ativas ou canceladas" (Importância = 5/5, Satisfação atual = 1/5 → $\text{Oportunidade} = 5 + (5 - 1) = 9$). Foco imediato da cunha de entrada.
 
 - **Job 2 (Oportunidade intermediária, nota 8/10): "Fechar o balanço mensal de contas a receber da distribuidora sem divergência com a contabilidade externa"** (Importância = 5/5, Satisfação atual = 2/5 → $\text{Oportunidade} = 5 + (5 - 2) = 8$). Segundo módulo do produto.
 
@@ -3809,6 +3811,7 @@ Falha em qualquer etapa significa voltar à fase anterior, não pular adiante. S
 Duas semanas depois do corte que levou na primeira reunião em São Paulo, Henrique voltou ao fundo de capital de risco sem o slide do PIB trilionário do agronegócio. Levou na pasta a conta *bottom-up* das 85 usinas de etanol de milho e biomassa mapeadas no Mato Grosso, Paraná e Goiás (SAM de R$ 15,3 milhões a R$ 180 mil por planta ao ano e SOM de R$ 2,7 milhões com 15 usinas em três anos), a lista nominal de 170 decisores técnicos (com núcleo imediato de 42 diretores industriais e gerentes de manutenção que já alcançava diretamente) e o escopo fechado na prevenção de paradas não planejadas de turbina. O gestor examinou a planilha por dez minutos, agendou a diligência técnica e apresentou Henrique a dois diretores de usinas em Lucas do Rio Verde e Sorriso.
 
 **O Espelho (autodiagnóstico):**
+
 1. Assim como Henrique fez ao trocar o slide de "1% do PIB do agro" pela conta das 85 usinas a R$ 180 mil/ano, você já calculou o seu SOM de 3 anos de baixo para cima (*bottom-up*), multiplicando o número real de clientes acessíveis na sua cunha pelo tíquete anual?
 2. Você registrou por escrito quais segmentos de clientes vai recusar nos próximos doze meses e manteve no máximo um sinal de escopo instável na sua operação?
 3. Você aprovou os demais critérios de validação da cunha: consegue completar a frase do Dono do Orçamento em menos de 30 segundos, vender a cunha sem depender de promessa de *roadmap* futuro, passar no Teste de Estresse e listar de 100 a 300 decisores nominais (com núcleo inicial de 30 a 80 contatos diretos)? (Chave de leitura: se respondeu "não" a duas ou mais perguntas deste Espelho, volte ao Passo 10 antes de iniciar o Volume 3.)
@@ -5334,6 +5337,7 @@ Taxa de churn de membros da comunidade vs. não membros: se a comunidade está f
 Três semanas depois de colocarem o botão de WhatsApp, o CNPJ visível no rodapé, o desconto de 5% no Pix e o parcelamento em até 6x sem juros na página de pagamento, Rafael e Bia viram a conversão das campanhas a partir de Recife e Goiânia saltar de 11 para 94 pedidos concluídos com o mesmo orçamento de tráfego. Mais da metade das conversas no WhatsApp durava menos de dois minutos: o comprador só queria ter certeza de que havia gente de verdade por trás da loja antes de enviar o Pix.
 
 **O Espelho (autodiagnóstico):**
+
 1. Para vencer o **Paradoxo da Desconfiança Cordial**, se um cliente da classe C em Goiânia ou um comprador industrial no interior do Paraná abrir o seu site pelo celular no 4G agora, em quantos segundos ele encontra o seu CNPJ, endereço verificável e um canal humano que responde?
 2. Sua estrutura de preços respeita a mentalidade de parcela mensal e Pix com desconto, ou exige limite de cartão à vista que o seu cliente não tem?
 3. Quantas vendas você perdeu na última semana porque tratou uma dúvida rápida de WhatsApp como um "chamado de suporte número #4829"?
@@ -5810,6 +5814,7 @@ Competidores reposicionando-se dentro da categoria. Quando um concorrente grande
 Seis meses depois da ligação franca para Roberto na usina do Paraná, Henrique colheu o resultado de desmontar A Mentira Confortável do Preço: com a exportação auditável para o ERP TOTVS Protheus em produção e as fichas de combate (*battle cards*) refeitas com garantias de implantação para os gerentes de TI, sua startup venceu as três disputas seguintes contra o mesmo concorrente sem conceder desconto no contrato anual.
 
 **O Espelho (autodiagnóstico):**
+
 1. Quem na sua empresa liga pessoalmente para os clientes que disseram "não" na última semana: alguém neutro (como o fundador/produto) ou o próprio vendedor que perdeu a comissão?
 2. Se um novo vendedor entrar na sua empresa hoje, ele recebe um Battle Card de uma página com as três perguntas que expõem a fraqueza estrutural do seu maior concorrente?
 3. Qual foi a última funcionalidade que você construiu só porque o concorrente anunciou no LinkedIn, e quantos dos seus cinco melhores clientes descrevem hoje a sua solução usando o nome de categoria que você escolheu?
@@ -5984,6 +5989,7 @@ O terceiro ponto é que a postura do fundador no encerramento define sua trajet�
 Os oito padrões analisados neste capítulo (ausência de defensibilidade real, falso PMF inflado por subsídio, economia unitária negativa em escala, dependência de fundador único sem governança, absorção por plataformas globais e IA, expansão geográfica precoce, perda de velocidade de produto pós-escala e fragilidade diante do choque do ciclo de capital) formam o painel de proteção que o fundador deve revisar a cada trimestre.
 
 > [!info] Fases e capítulos relacionados para blindagem contra os oito padrões
+>
 > - **Padrões 1 e 5 (Defensibilidade e Plataformas):** [[#FASE 6: MAPEAMENTO DE MERCADO E CONCORRÊNCIA|Fase 6 deste volume]] e [[IGNICAO-Vol-9-Maturidade-e-Exit#FASE 19: REINVENÇÃO E SEGUNDA CURVA|Fase 19: Reinvenção e Segunda Curva (Vol. 9)]].
 > - **Padrões 2 e 3 (Falso PMF e Economia Unitária):** [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 12: VALIDAÇÃO DO MODELO DE NEGÓCIO|Fase 12: Validação do Modelo de Negócio]] e [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 13: PRODUCT-MARKET FIT|Fase 13: Product-Market Fit (Vol. 4)]].
 > - **Padrões 4 e 7 (Governança do Fundador e Produto em Escala):** [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 16: TIME, LIDERANÇA EXECUTIVA E CULTURA EM ESCALA|Fase 16 (Vol. 6)]] e [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 1: PRODUTO EM ESCALA E DESCOBERTA CONTÍNUA|Capítulo 1: Produto em Escala (Vol. 7)]].
@@ -5996,6 +6002,7 @@ Os oito padrões analisados neste capítulo (ausência de defensibilidade real, 
 Depois daquele expresso em pé na padaria com o ex-fundador da startup de entregas ultrarrápidas, Lucas e Marina voltaram ao escritório em São Paulo e fixaram a regra financeira que blindaria a empresa desde o primeiro lote piloto: nenhum real seria investido em aquisição paga antes de comprovar margem de contribuição positiva por cliente e relação LTV/CAC mínima de 3x nas distribuidoras atendidas.
 
 **O Espelho (autodiagnóstico):**
+
 1. Sem cair na **Cegueira do Viés de Sobrevivência**, se o mercado de capitais fechasse completamente pelos próximos 24 meses e nenhum centavo externo entrasse, sua operação sobreviveria com a margem gerada pelos próprios clientes?
 2. Você está comprando receita falsa (dando descontos ou frete grátis que destroem a margem de contribuição) só para mostrar uma curva bonita de crescimento no fim do mês?
 3. Existe alguma conversa difícil entre você e seus sócios que vocês estão empurrando com a barriga há mais de três meses?
@@ -6011,4 +6018,3 @@ Toda segunda-feira às 9h, reserve 15 minutos com seus sócios para auditar o ca
 ### Fechamento do Volume 2 e Ponte para o Volume 3
 
 Com as Fases 4, 5 e 6 e os Capítulos 1, 2 e 3 concluídos, você encerra o ciclo de descoberta do problema, pesquisa com usuários e mapeamento estratégico de mercado. O próximo passo começa imediatamente no Volume 3: Hipóteses, Experimentos, Prototipagem e Modelos de Negócio, abrindo na [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#FASE 7: FORMULAÇÃO RIGOROSA DE HIPÓTESES|Fase 7: Formulação Rigorosa de Hipóteses (Vol. 3)]], onde o seu Mapa de Problemas, o Dossiê do Usuário e o Canvas da Cunha serão transformados em hipóteses falseáveis, experimentos práticos de compromisso e protótipos validados com clientes reais.
-

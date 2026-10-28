@@ -22,6 +22,7 @@
 Livros de empreendedorismo ensinam como fundadores de Silicon Valley pensam. Este manual ensina como **fundar, escalar e sair** dentro do contexto brasileiro: com regulação, capital, cultura e referências daqui.
 
 Na **Edição Narrativa Enxuta (v5.3)**, o IGNIÇÃO combina três mundos que raramente coexistem na literatura de negócios:
+
 1. **Narrativa de Trincheira em 4 Atos (inspirada nos 10 maiores clássicos de negócios: *O Mito do Empreendedor*, *A Startup Enxuta*, *De Zero a Um*, *Rework*, *High Output Management*, *Traction*, *O Lado Difícil das Situações Difíceis*, *Empresas Feitas para Vencer*, *Atravessando o Abismo* e *O Dilema da Inovação*):** nenhuma fase ou capítulo abre com definições frias de enciclopédia ou fichas burocráticas. Todas as **206 seções principais** (21 fases + 185 capítulos) abrem no meio da tensão real (protagonizada por casos históricos e por **4 fundadores-arquétipos brasileiros recorrentes**: **Lucas & Marina**, **Dra. Camila**, **Henrique** e **Rafael & Bia**), formulam teses contraintuitivas afirmativas e fecham com **O Espelho de Autodiagnóstico** (retomando o arco do arquétipo da abertura) e **O Ritual de Segunda-Feira às 9h**.
 2. **Zero Redundâncias + Revisão Factual, Jurídica, Tributária e Editorial Completa (Outubro de 2026):** cada um dos **162 Frameworks passo a passo**, **20 Canvases Visuais preenchidos com casos brasileiros** e **42 Templates Copiáveis** (**224 ferramentas operacionais únicas**) aparece **exatamente uma única vez** em toda a coleção (em sua Fase ou Capítulo primário), capítulos sobrepostos foram fundidos e costurados em tratados definitivos, e 100% dos marcos legais, regulatórios, tributários (Lei 15.270/2025, LC 224/2025, Reforma Tributária EC 132/2023, LC 214/2025 e LC 227/2026, EC 141/2026, Temas 1.226 e 1.379 do STJ, Resoluções ANPD 2/2022, 15/2024 e 19/2024, Decreto 13.135/2026, Resoluções BCB 494/2025 e 519–521/2025) e estudos de caso foram auditados e validados por suíte determinística de ponto fixo.
 3. **Caderno de Trincheira, Simulações de Decisão e Cases Globais & Nacionais (Volume 11):** um volume inteiro de aplicação prática espelhando os Volumes 1 a 10, com **58 Cases Globais e Brasileiros em 4 atos**, **50 Exercícios Práticos Mão na Massa com Gabarito Comentado**, **27 Simulações de Roleplay Executivo** e o **Simulador Integrador das 21 Fases (0 a 105 pontos)**.
@@ -36,7 +37,7 @@ O que está aqui:
 - **162 frameworks operacionais únicos** (162 instâncias nos Volumes 1 a 9: zero duplicatas)
 - **20 canvases visuais únicos** (20 instâncias nas 21 fases com teoria, exemplo brasileiro preenchido e armadilhas: zero duplicatas)
 - **42 templates e estudos de caso preenchidos únicos** (42 instâncias embutidas no ponto de uso: zero duplicatas)
-- **117 diagramas** Mermaid: renderizam direto no GitHub, Obsidian e EPUB
+- **108 diagramas** Mermaid: renderizam direto no GitHub, Obsidian e EPUB
 - **Casos brasileiros e globais** com análise honesta: Nubank, iFood, Stone, Hotmart, Natura, Magazine Luiza, Wildlife, Peixe Urbano, 99, Loggi, Olist, QuintoAndar, Wellhub, Tractian, Totvs, Embraer/Eve, Unico, Creditas, Solfácil, Vamos, Rede D'Or, Raízen, Inpasa, Stripe, Airbnb, Notion, Figma, Supabase, Linear, Constellation Software e dezenas de outros
 - **Dicionário Geral Unificado no Volume 10** (180+ termos técnicos, Lista de Abreviações com 78 siglas, Bibliografia Geral e Catálogo Completo das 224 Ferramentas)
 
@@ -64,7 +65,7 @@ O que está aqui:
 
 ## Por onde começo?
 
-```
+```text
 Você ainda não tem ideia              → Vol. 1 (Ideação): Fases 0 a 3 + Capítulos 1 a 12
 Você quer entrevistar clientes/mercado→ Vol. 2 (Descoberta e Mercado): Fases 4 a 6 + Capítulos 1 a 3
 Você vai testar hipóteses e protótipo → Vol. 3 (Experimentos e Prototipagem): Fases 7 a 10 + Capítulos 1 a 7
@@ -460,10 +461,9 @@ Este manual foi escrito em português porque o contexto importa. Aberto porque c
 
 O livro existe como **11 volumes autocontidos em Markdown** na pasta [`volumes/`](volumes/) e como **11 EPUBs independentes** (+ edição completa Omnibus) prontos para leitor digital em [`build/`](build/).
 
-Para regerar os volumes, as capas e os EPUBs:
+Para regerar as capas e os EPUBs a partir dos volumes canônicos em [`volumes/`](volumes/):
 
 ```bash
-node build/partition_10_volumes.js
 node build/render_cover.js
 node build/preprocess_epub.js
 node build/build_epubs.js

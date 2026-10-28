@@ -45,7 +45,16 @@
 
     // MD001: heading-increment: pulos `### -> #####` são intencionais
     // em headers decorativos de exemplos.
-    "MD001": false
+    "MD001": false,
+
+    // MD026: no-trailing-punctuation: permite ponto final em siglas/abreviações
+    // jurídicas nos títulos (ex.: "S.A.", "Ltda.") e interrogação, vedando `,;:!`.
+    "MD026": {
+      "punctuation": ",;:!"
+    },
+
+    // MD033: no-inline-html: permite tags HTML pontuais (ex.: <p align="center"> no README).
+    "MD033": false
   },
   "ignores": [
     "node_modules",

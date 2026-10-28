@@ -65,6 +65,8 @@ for v, fname in VOL_FILES.items():
             if not in_code:
                 in_code = True
                 code_start = i
+                if not lang:
+                    struct_issues.append((v, i, "MD040_BARE_CODE_FENCE", ln[:120]))
             else:
                 if lang:
                     struct_issues.append((v, i, f"UNCLOSED_CODE_BLOCK(opened L{code_start})", s[:120]))
@@ -76,13 +78,23 @@ for v, fname in VOL_FILES.items():
                 struct_issues.append((v, i, f"HEADING_INSIDE_CODE_BLOCK(opened L{code_start})", s[:120]))
             continue
 
-        # Collect headings and check for wikilinks in headings
+        # 0. Markdownlint hygiene: trailing spaces (MD009), double blanks (MD012), * bullets (MD004)
+        if ln.endswith((" ", "\t")):
+            struct_issues.append((v, i, "MD009_TRAILING_SPACE", ln[:120]))
+        if s == "" and i > 1 and lines[i - 2].strip() == "":
+            struct_issues.append((v, i, "MD012_MULTIPLE_BLANK_LINES", ""))
+        if re.match(r"^\s*(?:>\s*)*\*\s+", ln):
+            struct_issues.append((v, i, "MD004_ASTERISK_BULLET", ln[:120]))
+
+        # Collect headings and check for wikilinks or forbidden trailing punctuation in headings
         m_h = re.match(r"^(#{1,6})\s+(.+)$", s)
         if m_h:
             h_text = m_h.group(2).strip()
             hset.add(h_text)
             if "[[" in h_text:
                 struct_issues.append((v, i, "WIKILINK_IN_HEADING", s[:120]))
+            if h_text.endswith((",", ";", ":", "!")):
+                struct_issues.append((v, i, "MD026_HEADING_PUNCT", s[:120]))
 
         # 1. Em-dash check
         if "—" in ln:
@@ -286,6 +298,11 @@ for ef in epub_targets:
             txt_no_code = re.sub(r"<pre[\s\S]*?</pre>|<code[\s\S]*?</code>", "", txt)
             if re.search(r"#{2,6}\s+[A-ZÀ-Úa-zà-ú0-9]", txt_no_code):
                 prep_issues.append((ef.name, 0, f"EPUB_RAW_UNPARSED_HEADING({xf})", ""))
+            for p_blk in re.findall(r"<p(?:\s[^>]*)?>([\s\S]*?)</p>", txt_no_code):
+                if re.search(r"(?:^|\n)\s*1\.\s+[\s\S]+?\n\s*2\.\s+", p_blk):
+                    prep_issues.append((ef.name, 0, f"EPUB_COLLAPSED_OL_IN_P({xf})", p_blk[:80]))
+                if re.search(r"(?:^|\n)\s*[-*]\s+[\s\S]+?\n\s*[-*]\s+", p_blk):
+                    prep_issues.append((ef.name, 0, f"EPUB_COLLAPSED_UL_IN_P({xf})", p_blk[:80]))
             for img in re.findall(r'<img[^>]+src="([^"]+)"', txt):
                 base = "EPUB/text/" if xf.startswith("EPUB/text/") else "EPUB/"
                 norm = img.replace("../", "EPUB/") if img.startswith("../") else base + img

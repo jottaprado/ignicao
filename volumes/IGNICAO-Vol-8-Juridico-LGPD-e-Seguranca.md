@@ -510,6 +510,7 @@ sequenceDiagram
 **Situação**: rodada *pré-seed* de R$ 400 mil, antes de o produto entrar em produção.
 
 Cláusulas do Contrato de Opção de Subscrição:
+
 - Aporte: R$ 400.000 (transferência imediata para o caixa, sem emissão imediata de quotas)
 - Teto de avaliação (*cap* de *valuation*): R$ 6 milhões (*pré-money* da próxima rodada)
 - Desconto: 20% sobre o preço por quota/ação da próxima rodada precificada
@@ -540,6 +541,7 @@ Desde 1º de janeiro de 2017, a Lei Complementar nº 155/2016 (que inseriu os ar
 O investidor que aporta por meio dos instrumentos do art. 5º, § 1º, sem ingressar no capital social não é considerado sócio nem acionista, não possui direito agerência ou voto na administração da empresa e não responde por qualquer dívida da startup, inclusive em recuperação judicial, não se aplicando a ele a desconsideração da personalidade jurídica (art. 50 do CC, art. 855-A da CLT e arts. 124, 134 e 135 do CTN), salvo nas hipóteses de dolo, fraude ou simulação com o envolvimento do próprio investidor (art. 8º, I, II e parágrafo único, da LC 182/2021).
 
 Em troca, pode:
+
 - Receber a remuneração periódica contratada ao final de cada período por até 7 (sete) anos (LC 123/2006, art. 61-A, § 4º, III, na redação dada pela LC 182/2021, que ampliou o antigo prazo de 5 anos e suprimiu o teto legal anterior de 50% dos lucros) ou converter o aporte em participação societária conforme previsto em contrato (§ 6º).
 - Participar de reuniões de diretoria como observador.
 - Ter acesso a informações financeiras.
@@ -663,6 +665,7 @@ O poder público não compra produto pronto. Ele contrata o desenvolvimento ou t
 Depois de perder uma licitação tradicional da antiga Lei 8.666 nos primeiros anos por exigências de atestado que favoreciam sistemas legados, Henrique utilizou a licitação em modalidade especial e o CPSI (arts. 13 e 14 da LC 182/2021) para disputar um edital de desafio aberto por uma prefeitura de médio porte no interior do Paraná voltado à redução de perdas na manutenção da frota e de equipamentos públicos. A comissão especial avaliou o potencial de resolução do problema, o grau de desenvolvimento da solução e a viabilidade econômica (art. 13, § 4º), contratando o teste prático por 12 meses no valor de R$ 480 mil. Cumpridas as metas auditáveis de disponibilidade e economia, o município assinou na sequência o Contrato de Fornecimento sem nova licitação (art. 15 da LC 182/2021).
 
 **Resumo dos parâmetros legais do caso (arts. 12 a 15 da LC 182/2021):**
+
 - **Modalidade de entrada:** licitação em modalidade especial (art. 13), com edital focado no problema público e comissão julgadora de ao menos três especialistas. Mediante justificativa expressa, a administração pode dispensar, no todo ou em parte, a documentação de habilitação (inclusive regularidade fiscal) e a garantia contratual, mantendo-se obrigatória apenas a comprovação de regularidade com a Seguridade Social exigida pelo art. 195, § 3º, da Constituição Federal (art. 13, § 8º, da LC 182/2021).
 - **Instrumento de teste remunerado:** CPSI (art. 14) com vigência de até 12 meses (prorrogável por mais 12) e teto legal de R$ 1,6 milhão por contrato (atualizável pelo Executivo federal via IPCA, art. 12, § 3º).
 - **Escala pós-validação:** Cumpridas as metas técnicas do CPSI, o mesmo órgão pode celebrar diretamente o Contrato de Fornecimento (art. 15) sem nova licitação, por até 24 meses (prorrogável por mais 24), até o limite de R$ 8 milhões (5x o teto do CPSI).
@@ -872,7 +875,7 @@ Pelo art. 5º-A, § 5º, da Lei 6.019/1974 e pela Súmula 331, IV, do TST, a emp
 
 ### 2.5: O risco do executivo estatutário: seguro D&O e contrato de indenidade (Parecer CVM 38/2018)
 
-Para atrair e proteger diretores estatutários e conselheiros diante do risco de bloqueio pessoal em redirecionamentos fiscais e trabalhistas, as startups a partir da Série A combinam dois instrumentos: o **Seguro D&O (*Directors and Officers*) e o Contrato (ou Carta) de Indenidade. O seguro D&O no mercado brasileiro reembolsa ou adianta custos de defesa judicial, honorários periciais, depósitos recursais para destravar penhora online e indenizações ou acordos decorrentes de atos regulares de gestão, com sublimites específicos para contingências trabalhistas e tributárias e exclusão expressa para atos dolosos, fraude comprovada ou vantagem pessoal ilícita. Já o Contrato de Indenidade (cujas balizas de governança e prevenção de conflito de interesses são detalhadas no Parecer de Orientação CVM 38/2018**) é o compromisso contratual pelo qual a própria companhia se obriga a manter o executivo indene e cobrir despesas de defesa ou bloqueios em processos ligados ao exercício regular do cargo onde a apólice de D&O não alcance ou enquanto a seguradora analisa o sinistro, vedada qualquer cobertura para atos de má-fé, dolo ou desvio de finalidade.
+Para atrair e proteger diretores estatutários e conselheiros diante do risco de bloqueio pessoal em redirecionamentos fiscais e trabalhistas, as startups a partir da Série A combinam dois instrumentos: o **Seguro D&O (*Directors and Officers*) e o Contrato (ou Carta) de Indenidade.** O seguro D&O no mercado brasileiro reembolsa ou adianta custos de defesa judicial, honorários periciais, depósitos recursais para destravar penhora online e indenizações ou acordos decorrentes de atos regulares de gestão, com sublimites específicos para contingências trabalhistas e tributárias e exclusão expressa para atos dolosos, fraude comprovada ou vantagem pessoal ilícita. Já o Contrato de Indenidade (cujas balizas de governança e prevenção de conflito de interesses são detalhadas no Parecer de Orientação CVM 38/2018) é o compromisso contratual pelo qual a própria companhia se obriga a manter o executivo indene e cobrir despesas de defesa ou bloqueios em processos ligados ao exercício regular do cargo onde a apólice de D&O não alcance ou enquanto a seguradora analisa o sinistro, vedada qualquer cobertura para atos de má-fé, dolo ou desvio de finalidade.
 
 Startups em crescimento frequentemente contratam administradores que não são sócios: CFO, COO, Diretor Comercial, Diretor de Operações. Essas pessoas assumem responsabilidades jurídicas específicas que precisam ser explicitadas.
 
@@ -1238,6 +1241,7 @@ Proteção para **melhoria funcional de objeto** de uso prático (não para proc
 **Exame**: após o depósito, o pedido permanece em sigilo por 18 meses (art. 30 da LPI, salvo pedido de publicação antecipada) e depois é publicado na RPI. Atenção ao prazo fatal do art. 33 da LPI: o exame técnico não é automático e precisa ser formalmente requerido e pago pelo depositante em até 36 meses contados da data do depósito, sob pena de arquivamento definitivo do pedido. Durante a análise, o examinador pode formular exigências técnicas (*office actions*), às quais o depositante responde em até 90 dias. Sem trâmite prioritário, o exame ordinário leva em média 4,3 anos no INPI (dados de 2026), com o trâmite prioritário da Portaria INPI/PR nº 79/2022, a decisão sai em cerca de 7 a 11 meses.
 
 **Custos aproximados (2026)**:
+
 - Depósito de patente de invenção e pedido de exame (com desconto de 50% para ME/EPP/Inova Simples/ICT/PF na tabela da Portaria GM/MDIC 110/2025 e Portaria INPI/PR 10/2025): taxas federais reduzidas para depósito eletrônico e requerimento de exame técnico (requerido em até 36 meses do depósito)
 - Pedido de exame: ~R$ 640
 - Anuidades (por ano, a partir do 3º ano): R$ 120 a R$ 2.000 dependendo do ano
@@ -1344,6 +1348,7 @@ A cláusula de cessão de propriedade intelectual (*IP assignment*) assegura que
 #### Regularização retroativa
 
 Se a empresa possui código legado sem termo formal de cessão de propriedade intelectual, é possível regularizar a cadeia de titularidade:
+
 1. Identificar todos os sócios, colaboradores e ex-prestadores que criaram ativos de PI sem termo formal de cessão.
 2. Para CLT ativos: assinar adendo ao contrato com cessão retroativa.
 3. Para ex-CLT e ex-PJ: contatar e solicitar assinatura de cessão autônoma.
@@ -1531,7 +1536,7 @@ O contexto jurídico mais sólido para a cláusula de não concorrência no Bras
 
 **Estrutura típica em M&A:**
 
-```
+```text
 Não concorrência: 3–5 anos após o closing
 Âmbito: produtos/serviços similares aos da empresa vendida
 Geografia: Brasil + países onde a empresa opera
@@ -2783,6 +2788,7 @@ Você precisa dominar **A Engenharia de Defesa Consumerista e Reputacional**: tr
 
 > [!note] Posição no livro
 > O CDC é a moldura que rege a relação com o consumidor final, pessoa física ou pequena empresa em situação de vulnerabilidade técnica, jurídica ou econômica (teoria finalista mitigada). Capítulos vizinhos: contratos de adesão e cláusulas nulas dialogam com o [[#CAPÍTULO 5: ARQUITETURA CONTRATUAL PARA STARTUPS: OPERAÇÃO E CONTRATOS EM PROFUNDIDADE POR TIPO|Capítulo 5]], a proteção de dados do consumidor conecta-se ao [[#CAPÍTULO 9: LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Capítulo 9]] e a responsabilidade solidária do marketplace na cadeia de fornecimento articula-se com o [[IGNICAO-Vol-3-Experimentos-e-Prototipagem#CAPÍTULO 4: MARKETPLACES, PLATAFORMAS E EFEITOS DE REDE: LIQUIDEZ, OVO-E-GALINHA E RISCO DE PLATAFORMA|Capítulo 4 do Volume 3]].
+>
 > - [[#CAPÍTULO 9: LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Capítulo 9 (LGPD, Compliance e Governança de Dados)]], dado pessoal do consumidor, base legal e direitos
 > - [[#CAPÍTULO 5: ARQUITETURA CONTRATUAL PARA STARTUPS: OPERAÇÃO E CONTRATOS EM PROFUNDIDADE POR TIPO|Capítulo 5 (Arquitetura Contratual para Startups: Operação e Contratos em Profundidade por Tipo)]], termos de uso, contratos de adesão e cláusulas abusivas
 
@@ -2978,6 +2984,7 @@ Estrutura de resposta eficaz:
 
 > [!warning]
 > O que nunca fazer numa resposta pública no Reclame Aqui:
+>
 > - Questionar a veracidade do relato do consumidor publicamente
 > - Usar linguagem técnica ou jurídica agressiva
 > - Copiar e colar respostas genéricas: consumidores percebem e avaliam negativamente
@@ -3178,6 +3185,7 @@ Você precisa abandonar a reação emocional e aplicar a Regra do Valor Esperado
 
 > [!abstract] Posição no livro
 > Gestão do passivo contingente e do litígio em curso nas frentes trabalhista, cível, tributária e consumerista. Capítulos vizinhos:
+>
 > - [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 3: DISPUTA SOCIETÁRIA E SAÍDA DE SÓCIO|Capítulo 3 (Disputa Societária e Saída de Sócio) (Vol. 9)]], conflito societário como vertente específica de litígio
 > - [[#CAPÍTULO 2: RESPONSABILIDADE DO SÓCIO E DO ADMINISTRADOR|Capítulo 2 (Responsabilidade do Sócio e do Administrador)]], limites pessoais quando a personalidade jurídica é desconsiderada
 > - [[#CAPÍTULO 5: ARQUITETURA CONTRATUAL PARA STARTUPS: OPERAÇÃO E CONTRATOS EM PROFUNDIDADE POR TIPO|Capítulo 5 (Arquitetura Contratual para Startups: Operação e Contratos em Profundidade por Tipo)]], cláusulas que previnem disputas, escalonamento de mediação, foro de eleição e arbitragem
@@ -3517,6 +3525,7 @@ Para ações consumeristas individuais no JEC, um escritório generalista ou uma
 ### Síntese executiva: o cálculo do valor esperado na decisão de acordo
 
 Antes de recusar um acordo ou iniciar uma ação judicial, aplique a Regra do Valor Esperado Líquido (VPL do Litígio): multiplique o Valor da Causa pela Probabilidade Técnica de Êxito no Mérito e pela Probabilidade de Solvência/Recuperação Efetiva contra o Devedor, desconte o montante a valor presente pelo custo de capital da startup durante o tempo estimado do processo e subtraia todos os Custos Diretos de Litigar (custas judiciais, honorários advocatícios, perícias e tempo executivo). No caso de abertura deste capítulo, se Henrique tivesse colocado a disputa de R$ 420 mil na planilha ($70\% \text{ de êxito} \times 50\% \text{ de solvência em 5 anos} \times \text{R\$ } 420\text{ mil} = \text{R\$ } 147\text{ mil nominais no ano 5}$, que descontados a 15% ao ano equivalem a $\text{R\$ } 73\text{ mil}$ a valor presente, menos $\text{R\$ } 95\text{ mil}$ de despesas processuais = $\text{VPL negativo de -R\$ } 22\text{ mil}$), teria aceitado no ato os R$ 280 mil à vista oferecidos na mediação.
+
 ```text
 MAPA DE RISCOS JURÍDICOS PARA STARTUPS
 
@@ -3577,6 +3586,7 @@ Para vender a grandes corporações, operar em setores regulados ou passar pelo 
 
 > [!abstract] Mapa dos capítulos de governança, regulação e cibersegurança
 > Os cinco capítulos finais deste volume conectam proteção de dados, regulação de IA, integridade corporativa, controles antifraude e engenharia de segurança às exigências de auditoria de clientes *enterprise* e investidores institucionais:
+>
 > - **Governança de dados e IA:** [[#CAPÍTULO 9: LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Capítulo 9 (LGPD, Compliance e Governança de Dados)]] e [[#CAPÍTULO 10: REGULATÓRIO DE IA NO BRASIL|Capítulo 10 (Regulatório de IA no Brasil)]]
 > - **Integridade, controles internos e segurança:** [[#CAPÍTULO 11: COMPLIANCE E ANTICORRUPÇÃO PARA STARTUPS|Capítulo 11 (Compliance e Anticorrupção para Startups)]], [[#CAPÍTULO 12: FRAUDE INTERNA E CONTROLES INTERNOS|Capítulo 12 (Fraude Interna e Controles Internos)]] e [[#CAPÍTULO 13: SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA DEFENSIVA|Capítulo 13 (Segurança da Informação: Da Certificação à Engenharia)]]
 > - **Conexões com outros volumes:** [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 1: BOARD E GOVERNANCE|Capítulo 1 (Board e Governance) (Vol. 9)]], [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9: GESTÃO DE CRISE, CONTINUIDADE OPERACIONAL E COMUNICAÇÃO CRÍTICA|Capítulo 9 (Gestão de Crise, Continuidade Operacional e Comunicação Crítica) (Vol. 9)]], [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 8: GESTÃO DE RISCO E SEGUROS PARA STARTUPS|Capítulo 8 (Gestão de Risco e Seguros para Startups) (Vol. 5)]] e [[IGNICAO-Vol-10-Playbooks-Setoriais-e-Glossario#CAPÍTULO 4: REGULATÓRIO SETORIAL BRASILEIRO|Capítulo 4 (Regulatório Setorial Brasileiro) (Vol. 10)]]
@@ -3598,6 +3608,7 @@ Você precisa abandonar **O Teatro do Banner de Cookies** e construir A Governan
 > [!note] Posição no livro
 > Este capítulo estrutura o programa prático de proteção de dados pessoais (LGPD, Lei 13.709/2018), a atuação perante a Agência Nacional de Proteção de Dados (ANPD) e a responsabilidade civil das aplicações digitais sob o Marco Civil da Internet.
 > Capítulos vizinhos:
+>
 > - [[#CAPÍTULO 13: SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA DEFENSIVA|Capítulo 13 (Segurança da Informação: Da Certificação à Engenharia)]], controles técnicos de criptografia, gestão de acessos, retenção de logs e certificações SOC 2 e ISO 27001
 > - [[#CAPÍTULO 10: REGULATÓRIO DE IA NO BRASIL|Capítulo 10 (Regulatório de IA no Brasil)]], decisões automatizadas (art. 20 da LGPD), treinamento de algoritmos com dados pessoais e governança de modelos
 > - [[#CAPÍTULO 5: ARQUITETURA CONTRATUAL PARA STARTUPS: OPERAÇÃO E CONTRATOS EM PROFUNDIDADE POR TIPO|Capítulo 5 (Arquitetura Contratual para Startups: Operação e Contratos em Profundidade por Tipo)]], aditivos de proteção de dados (DPAs), termos de uso e alocação de responsabilidade contratual
@@ -3691,7 +3702,7 @@ A função pode ser exercida por um profissional interno (desde que não haja co
 
 - **Controle de acesso pelo princípio do menor privilégio:** cada colaborador acessa exclusivamente os registros necessários para sua função, com autenticação multifator (MFA) obrigatória e revisão periódica de permissões. Na Semana 1 do projeto em Belo Horizonte, a primeira providência da Dra. Camila foi revogar todos os links públicos do Google Drive e migrar as radiografias e prontuários para armazenamento criptografado com controle de acesso estrito por perfil clínico.
 
-- **Registros de auditoria (*logs*) e prazos mínimos de retenção: registre quem acessou, exportou ou alterou cada dado sensível e quando, observando os pisos legais de guarda (detalhados no [[#CAPÍTULO 13: SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA DEFENSIVA|Capítulo 13]]): no mínimo 6 meses para registros de acesso a aplicações de internet (art. 15 do Marco Civil da Internet), 1 ano para trilhas de segurança e auditoria técnica (requisito 10.5.1 do PCI DSS e prática recomendada em auditorias SOC 2 e ISO 27001), 5 anos para registros internos de incidentes de segurança da informação, mesmo quando não comunicados à ANPD (art. 10, § 2º, da Resolução CD/ANPD nº 15/2024), bem como para documentos fiscais e previdenciários correntes, e 20 anos** para prontuários médicos, odontológicos e de saúde ocupacional (Lei 13.787/2018 e NR-7).
+- **Registros de auditoria (*logs*) e prazos mínimos de retenção:** registre quem acessou, exportou ou alterou cada dado sensível e quando, observando os pisos legais de guarda (detalhados no [[#CAPÍTULO 13: SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA DEFENSIVA|Capítulo 13]]): no mínimo 6 meses para registros de acesso a aplicações de internet (art. 15 do Marco Civil da Internet), 1 ano para trilhas de segurança e auditoria técnica (requisito 10.5.1 do PCI DSS e prática recomendada em auditorias SOC 2 e ISO 27001), 5 anos para registros internos de incidentes de segurança da informação, mesmo quando não comunicados à ANPD (art. 10, § 2º, da Resolução CD/ANPD nº 15/2024), bem como para documentos fiscais e previdenciários correntes, e 20 anos para prontuários médicos, odontológicos e de saúde ocupacional (Lei 13.787/2018 e NR-7).
 
 - **Cópias de segurança (*backups*) com restauração testada:** mantenha backups automatizados, isolados e imutáveis, executando testes práticos de restauração (*restore*) a cada trimestre.
 
@@ -3779,7 +3790,7 @@ A LGPD disciplina especificamente o tratamento de dados pessoais, mas a operaç�
 
 **Marco Civil da Internet (Lei 12.965/2014).** Estabelece princípios de neutralidade da rede, proteção da privacidade e guarda obrigatória de registros eletrônicos: provedores de conexão devem manter os registros de conexão sob sigilo por 1 ano (art. 13), enquanto provedores de aplicações de internet (qualquer startup com site, aplicativo ou plataforma digital com fins econômicos) são obrigados a manter os registros de acesso a aplicações de internet em ambiente controlado e seguro pelo prazo de 6 meses (art. 15). Esses registros são requisitados por ordem judicial em investigações civis e criminais, e a sua não preservação sujeita a empresa às sanções do art. 12 do Marco Civil.
 
-**Responsabilidade de plataformas por conteúdo de terceiros: STF Temas 533 e 987 (julgados em junho de 2025 e esclarecidos em embargos de declaração em junho de 2026 sobre o art. 19 do Marco Civil da Internet).** O Supremo Tribunal Federal declarou a inconstitucionalidade parcial do art. 19 da Lei 12.965/2014, superando a antiga regra geral que só responsabilizava plataformas mediante ordem judicial prévia. Pela tese vinculante do STF, o regime aplicável a startups que hospedam conteúdo de terceiros (redes sociais, comunidades, avaliações e marketplaces) divide-se em quatro balizas operacionais: (1) **Regra geral de notificação e retirada (*notice and takedown*): o provedor passa a responder civilmente pelos danos decorrentes de conteúdos ilícitos gerados por terceiros caso deixe de removê-los após notificação extrajudicial fundamentada (aplicando-se a sistemática do art. 21), (2) Exceção para crimes e ilícitos civis contra a honra: permanece exigida ordem judicial prévia para a responsabilização por conteúdos contra a honra (calúnia, difamação e injúria, conforme esclarecido pelo STF em junho de 2026), salvo para a remoção mediante simples notificação de cópias idênticas de conteúdo já declarado ofensivo pelo Judiciário, (3) Dever de cuidado ativo contra falha sistêmica: plataformas respondem independentemente de ordem judicial quando houver omissão sistêmica diante da circulação massiva de ilícitos gravíssimos (crimes contra crianças e adolescentes, terrorismo, induzimento ao suicídio, violência contra a mulher, racismo e atos antidemocráticos), e (4) Anúncios pagos e conteúdos impulsionados: aplica-se a responsabilidade subjetiva com presunção relativa de culpa** do provedor, que tem o dever de verificar a autenticidade do anunciante.
+**Responsabilidade de plataformas por conteúdo de terceiros:** STF Temas 533 e 987 (julgados em junho de 2025 e esclarecidos em embargos de declaração em junho de 2026 sobre o art. 19 do Marco Civil da Internet). O Supremo Tribunal Federal declarou a inconstitucionalidade parcial do art. 19 da Lei 12.965/2014, superando a antiga regra geral que só responsabilizava plataformas mediante ordem judicial prévia. Pela tese vinculante do STF, o regime aplicável a startups que hospedam conteúdo de terceiros (redes sociais, comunidades, avaliações e marketplaces) divide-se em quatro balizas operacionais: (1) **Regra geral de notificação e retirada (*notice and takedown*):** o provedor passa a responder civilmente pelos danos decorrentes de conteúdos ilícitos gerados por terceiros caso deixe de removê-los após notificação extrajudicial fundamentada (aplicando-se a sistemática do art. 21), (2) Exceção para crimes e ilícitos civis contra a honra: permanece exigida ordem judicial prévia para a responsabilização por conteúdos contra a honra (calúnia, difamação e injúria, conforme esclarecido pelo STF em junho de 2026), salvo para a remoção mediante simples notificação de cópias idênticas de conteúdo já declarado ofensivo pelo Judiciário, (3) Dever de cuidado ativo contra falha sistêmica: plataformas respondem independentemente de ordem judicial quando houver omissão sistêmica diante da circulação massiva de ilícitos gravíssimos (crimes contra crianças e adolescentes, terrorismo, induzimento ao suicídio, violência contra a mulher, racismo e atos antidemocráticos), e (4) Anúncios pagos e conteúdos impulsionados: aplica-se a responsabilidade subjetiva com presunção relativa de culpa do provedor, que tem o dever de verificar a autenticidade do anunciante.
 
 **Impacto operacional da tese do STF para plataformas e marketplaces.** Com a superação da regra geral de exigência exclusiva de ordem judicial do art. 19 original, toda startup que hospeda conteúdo gerado por usuários (avaliações, anúncios, comentários, vídeos ou lojas de terceiros em marketplace) precisa manter canal estruturado de denúncia e *notice and takedown* extrajudicial com geração de protocolo, análise ágil de URLs notificadas e remoção preventiva de anúncios fraudulentos ou ilícitos graves.
 
@@ -4063,7 +4074,7 @@ A discriminação algorítmica indireta por raça, gênero ou origem já é juri
 **Protocolo prático em 4 passos para auditar viés algorítmico antes de colocar o modelo em produção:**
 
 1. **Teste de paridade condicional por subgrupo:** separe o conjunto de validação por faixas de CEP, região, gênero ou faixa etária mantendo constantes as variáveis objetivas de capacidade de pagamento (renda comprovada, endividamento e histórico de adimplemento) e meça se a taxa de aprovação varia de forma desproporcional entre os grupos.
-2. **Cálculo da Razão de Impacto Adverso (*regra dos quatro quintos / 80%*): divida a taxa de seleção ou aprovação do grupo potencialmente desfavorecido pela taxa do grupo mais favorecido na mesma faixa de risco, um índice inferior a 0,80 (80%)** acende o alerta de impacto desproporcional e exige investigação técnica das variáveis que puxaram a nota para baixo.
+2. **Cálculo da Razão de Impacto Adverso (*regra dos quatro quintos / 80%*):** divida a taxa de seleção ou aprovação do grupo potencialmente desfavorecido pela taxa do grupo mais favorecido na mesma faixa de risco, um índice inferior a 0,80 (80%) acende o alerta de impacto desproporcional e exige investigação técnica das variáveis que puxaram a nota para baixo.
 3. **Auditoria de variáveis substitutas (*proxies*) por remoção e permutação:** remova ou embaralhe a variável suspeita de atuar como *proxy* demográfico (como os cinco primeiros dígitos do CEP ou o modelo do aparelho celular) e verifique o impacto na curva de inadimplência (*AUC-ROC* / *KS*), se o ganho preditivo real for marginal frente à distorção regional gerada, substitua a variável por indicadores diretos de comportamento financeiro.
 4. **Registro no *Model Card* e trava de monitoramento contínuo:** documente os testes estatísticos realizados e configure alertas mensais de deriva (*drift*). Foi aplicando exatamente esse protocolo de quatro passos que Lucas e Marina identificaram que o CEP bruto penalizava lojistas adimplentes da periferia de São Paulo, removeram a variável geográfica do motor e obtiveram a liberação do banco parceiro em três semanas.
 
@@ -4181,6 +4192,7 @@ SLA, limites de taxa e       Qual é o SLA de disponibilidade/latência, a cota
 alocação por alucinação      garantida de tokens por minuto (TPM) e o teto de
                              responsabilidade se o modelo falhar ou alucinar?
 ```
+
 Na outra ponta (no contrato da sua startup com o seu cliente B2B), jamais prometa infalibilidade de modelos generativos: inclua cláusula expressa esclarecendo a natureza probabilística da ferramenta, exija validação humana pelo usuário final antes de atos irreversíveis (jurídicos, médicos ou financeiros) e fixe um teto de responsabilidade (*cap*) limitado ao valor pago pelo cliente nos últimos 12 meses, excluindo lucros cessantes por saídas imprecisas (*alucinações*).
 **DPA para LGPD**
 
@@ -4943,6 +4955,7 @@ Você não controla as dívidas pessoais nem as intenções íntimas de ninguém
 
 > [!note] Posição no livro
 > Este capítulo trata da prevenção, detecção e apuração de fraudes internas por meio de segregação de funções, dupla alçada bancária, conciliação independente e canal de denúncias.
+>
 > - [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 5: CAPITAL DE GIRO, RECEBÍVEIS E GESTÃO DE CAIXA EM PROFUNDIDADE|Capítulo 5 (Capital de Giro, Recebíveis e Gestão de Caixa em Profundidade) (Vol. 5)]], rotina de tesouraria e fluxo de caixa operacional
 > - [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9: GESTÃO DE CRISE, CONTINUIDADE OPERACIONAL E COMUNICAÇÃO CRÍTICA|Capítulo 9 (Gestão de Crise, Continuidade Operacional e Comunicação Crítica) (Vol. 9)]], resposta operacional quando a fraude vira crise
 > - [[#CAPÍTULO 11: COMPLIANCE E ANTICORRUPÇÃO PARA STARTUPS|Capítulo 11 (Compliance e Anticorrupção para Startups)]], programa de integridade, Lei Anticorrupção (Lei 12.846/2013) e controles internos pré-auditoria
@@ -4968,7 +4981,7 @@ Fraude interna é ato intencional de colaborador, prestador ou terceiro com aces
 
 5. **Subtração de propriedade intelectual e dados comerciais:** envolve a cópia não autorizada de código-fonte, listas de clientes, propostas comerciais ou segredos industriais por colaboradores ou prestadores em transição para concorrentes ou para abertura de negócio próprio.
 
-6. **Fraude cibernética facilitada por agente interno (*insider threat*): ocorre quando um colaborador ou terceiro com acesso privilegiado manipula bancos de dados ou vende suas credenciais a quadrilhas externas. O caso mais grave da história recente do Sistema Financeiro Nacional ocorreu em julho de 2025 na provedora de mensageria C&M Software, quando um desenvolvedor interno vendeu suas credenciais de acesso por R$ 15 mil a criminosos, permitindo a emissão de ordens fraudulentas de Pix que desviaram R$ 541 milhões** da conta reserva da instituição BMP junto ao Banco Central e atingiram seis instituições financeiras.
+6. **Fraude cibernética facilitada por agente interno (*insider threat*):** ocorre quando um colaborador ou terceiro com acesso privilegiado manipula bancos de dados ou vende suas credenciais a quadrilhas externas. O caso mais grave da história recente do Sistema Financeiro Nacional ocorreu em julho de 2025 na provedora de mensageria C&M Software, quando um desenvolvedor interno vendeu suas credenciais de acesso por R$ 15 mil a criminosos, permitindo a emissão de ordens fraudulentas de Pix que desviaram R$ 541 milhões da conta reserva da instituição BMP junto ao Banco Central e atingiram seis instituições financeiras.
 
 ### Por que o crescimento rápido sem controles internos abre espaço para desvios de caixa
 
@@ -5152,6 +5165,7 @@ As 310 perguntas da planilha do banco que congelou por cinco meses o contrato de
 
 > [!note] Posição no livro
 > Este capítulo conecta os controles técnicos e as certificações de segurança da informação às obrigações regulatórias e operacionais dos demais volumes:
+>
 > - [[#CAPÍTULO 9: LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Capítulo 9 (LGPD, Compliance e Governança de Dados)]], governança jurídica de privacidade e comunicação de incidentes à ANPD
 > - [[#CAPÍTULO 12: FRAUDE INTERNA E CONTROLES INTERNOS|Capítulo 12 (Fraude Interna e Controles Internos)]], segregação de funções, revisão de acessos privilegiados e prevenção a desvios internos
 > - [[IGNICAO-Vol-7-Produto-Engenharia-e-Operacoes#CAPÍTULO 4: ENGINEERING MANAGEMENT, DEVELOPER EXPERIENCE E GESTÃO DE DÍVIDA TÉCNICA|Capítulo 4 (Engineering Management, Developer Experience e Gestão de Dívida Técnica) (Vol. 7)]], gestão de engenharia, práticas de código e resiliência técnica
@@ -5175,7 +5189,7 @@ A terceira razão é a continuidade operacional. O *ransomware* (sequestro cript
 
 Mesmo uma empresa com cinco funcionários tem obrigações de segurança que não podem ser adiadas. A base é estável e conhecida.
 
-1. **Controle de acesso e autenticação multifator (MFA) resistente a *phishing*: exija MFA em 100% das contas corporativas. Para infraestrutura de nuvem (AWS, GCP, Azure), repositórios de código (GitHub, GitLab), painéis administrativos e sistemas financeiros, utilize chaves físicas de segurança (YubiKey) ou *passkeys* no padrão FIDO2/WebAuthn** (que neutralizam páginas falsas de captura de código), mantendo aplicativos autenticadores para ferramentas secundárias e abolindo o uso de SMS (vulnerável a *SIM swap*). Unifique a autenticação em provedor de identidade com *Single Sign-On* (SSO), como Google Workspace, Microsoft Entra ID (antigo Azure AD) ou Okta.
+1. **Controle de acesso e autenticação multifator (MFA) resistente a *phishing*:** exija MFA em 100% das contas corporativas. Para infraestrutura de nuvem (AWS, GCP, Azure), repositórios de código (GitHub, GitLab), painéis administrativos e sistemas financeiros, utilize chaves físicas de segurança (YubiKey) ou *passkeys* no padrão FIDO2/WebAuthn (que neutralizam páginas falsas de captura de código), mantendo aplicativos autenticadores para ferramentas secundárias e abolindo o uso de SMS (vulnerável a *SIM swap*). Unifique a autenticação em provedor de identidade com *Single Sign-On* (SSO), como Google Workspace, Microsoft Entra ID (antigo Azure AD) ou Okta.
 
 2. **Gerenciador corporativo de senhas:** forneça a toda a equipe um cofre de senhas empresarial (como 1Password ou Bitwarden) com políticas de complexidade e compartilhamento seguro, proibindo terminantemente o envio de senhas ou chaves por mensagens de Slack, WhatsApp ou e-mail.
 
@@ -5185,7 +5199,7 @@ Mesmo uma empresa com cinco funcionários tem obrigações de segurança que nã
 
 5. **Gestão de segredos (*secrets management*) e varredura de repositórios:** credenciais de banco de dados e chaves de API devem residir exclusivamente em cofres dedicados (como AWS Secrets Manager, GCP Secret Manager ou HashiCorp Vault) com rotação periódica, nunca no código-fonte ou em canais de chat. Ative bloqueio automático de *commits* com segredos (*secret scanning* e *pre-commit hooks*) no GitHub para impedir que um arquivo `.env` ou uma chave da AWS vaze como ocorreu na operação inicial de Lucas.
 
-6. **Centralização e retenção unificada de *logs*: concentre os registros de infraestrutura, aplicações e auditoria em repositório central imutável (AWS CloudWatch/CloudTrail, Datadog, Splunk ou Elastic) seguindo a tabela unificada de retenção do volume: no mínimo 6 meses para registros de acesso a aplicações de internet (obrigação legal do art. 15 do Marco Civil da Internet, Lei 12.965/2014), no mínimo 1 ano** para *logs* de segurança e trilhas de auditoria (requisito expresso do PCI DSS 10.5.1, com ao menos 3 meses disponíveis para consulta imediata, e prática padrão em auditorias SOC 2 e ISO/IEC 27001), no mínimo 5 anos para registros de incidentes de segurança com dados pessoais (Resolução CD/ANPD nº 15/2024) e para registros fiscais, trabalhistas e financeiros, e no mínimo 20 anos para prontuários médicos, odontológicos e ocupacionais (Lei 13.787/2018 e NR-7).
+6. **Centralização e retenção unificada de *logs*:** concentre os registros de infraestrutura, aplicações e auditoria em repositório central imutável (AWS CloudWatch/CloudTrail, Datadog, Splunk ou Elastic) seguindo a tabela unificada de retenção do volume: no mínimo 6 meses para registros de acesso a aplicações de internet (obrigação legal do art. 15 do Marco Civil da Internet, Lei 12.965/2014), no mínimo 1 ano para *logs* de segurança e trilhas de auditoria (requisito expresso do PCI DSS 10.5.1, com ao menos 3 meses disponíveis para consulta imediata, e prática padrão em auditorias SOC 2 e ISO/IEC 27001), no mínimo 5 anos para registros de incidentes de segurança com dados pessoais (Resolução CD/ANPD nº 15/2024) e para registros fiscais, trabalhistas e financeiros, e no mínimo 20 anos para prontuários médicos, odontológicos e ocupacionais (Lei 13.787/2018 e NR-7).
 
 7. **Backup imutável com teste trimestral de restauração:** mantenha cópias de segurança isoladas e protegidas contra alteração ou exclusão (*object lock* / *air-gapped*) e execute a cada trimestre um exercício cronometrado de restauração completa em ambiente isolado para comprovar que os dados podem ser recuperados.
 
@@ -5318,6 +5332,7 @@ Para empresas privadas vítimas de invasão, extorsão por *ransomware* ou fraud
 
 > [!tip] Checklist de segurança da informação por estágio de maturidade
 > **Bloco A: Fundação obrigatória desde o dia um (qualquer porte)**
+>
 > - [ ] Autenticação multifator (MFA) resistente a *phishing* (FIDO2/WebAuthn ou chave física) em 100% das contas de nuvem, código e financeiro, abolindo SMS
 > - [ ] Provedor de identidade centralizado com *Single Sign-On* (SSO) e cofre corporativo de senhas
 > - [ ] Princípio do menor privilégio com revisão mensal de acessos decisivos (produção e financeiro) e trimestral dos demais sistemas
@@ -5328,6 +5343,7 @@ Para empresas privadas vítimas de invasão, extorsão por *ransomware* ou fraud
 > - [ ] Protocolo de desligamento (*offboarding*): revogação de acessos decisivos em até 1 hora e dos demais sistemas em até 24 horas
 >
 > **Bloco B: Camada de crescimento e vendas corporativas (*enterprise*)**
+>
 > - [ ] Gestão contínua de vulnerabilidades (SAST, DAST, SCA) integrada à esteira de CI/CD e proteção de borda (WAF / DDoS)
 > - [ ] Agente de EDR e gerenciamento remoto (MDM) instalados em 100% dos equipamentos corporativos
 > - [ ] Treinamento periódico de conscientização com simulações trimestrais de *phishing* e protocolo contra golpe do falso executivo
@@ -5358,4 +5374,3 @@ Faça esta auditoria de segurança de cinco minutos junto com seu líder de tecn
 ---
 
 **Fecho do Volume 8 e próximos passos:** Com a estrutura societária e contratual blindada (Capítulos 1 a 5), as relações de trabalho e de propriedade intelectual protegidas (Capítulos 6 e 7), a engenharia tributária ajustada à Reforma do IBS/CBS (Capítulo 8) e a operação resguardada por governança de dados e IA, *compliance*, controles internos antifraude e segurança da informação auditável (Capítulos 9 a 13), sua empresa tem o alicerce jurídico e técnico para escalar sem passivos ocultos. Para consulta rápida da terminologia técnica, jurídica e financeira utilizada neste volume, recorra ao Dicionário de Termos de Negócios, Tecnologia e Finanças no Volume 10. No Volume 9 (Maturidade, Governança e Exit), avançamos para o próximo estágio da jornada: conselho de administração, gestão de crise aguda, expansão internacional, fusões e aquisições (M&A) e preparação para o IPO.
-

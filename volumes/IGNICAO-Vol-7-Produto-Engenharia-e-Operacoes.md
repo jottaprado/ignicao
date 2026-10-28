@@ -170,7 +170,7 @@ A maioria das empresas tropeça na execução de OKRs por repetir cinco erros cl
 
 **Escrever tarefas ou entregas no lugar de resultados-chave (*Key Results*).** Entregas binárias como *"lançar a funcionalidade X"*, *"contratar três vendedores"* ou *"documentar o playbook comercial"* são iniciativas (meios de execução), não resultados-chave. O KR correspondente precisa medir o efeito produzido no negócio (como *"50% da receita nova do trimestre fechada sem o fundador na reunião"* ou *"conversão das oportunidades conduzidas pelo time em pelo menos 80% da taxa do fundador"*).
 
-**Calibrar metas com folga artificial (*sandbagging*). Separe os OKRs comprometidos (receita do orçamento, SLA contratual e conformidade legal, que exigem entrega de 1,0) dos OKRs aspiracionais** (metas de salto estratégico, cuja faixa saudável de atingimento fica entre 0,6 e 0,7). Se a equipe bate 1,0 até nos objetivos aspiracionais, as metas nasceram conservadoras.
+**Calibrar metas com folga artificial (*sandbagging*).** Separe os OKRs comprometidos (receita do orçamento, SLA contratual e conformidade legal, que exigem entrega de 1,0) dos OKRs aspiracionais (metas de salto estratégico, cuja faixa saudável de atingimento fica entre 0,6 e 0,7). Se a equipe bate 1,0 até nos objetivos aspiracionais, as metas nasceram conservadoras.
 
 **Engessar o trimestre sem recalibração formal.** Se na revisão da semana 4 ou da semana 8 ficar evidente que o contexto de mercado mudou ou que um KR nasceu mal dimensionado, registre o ajuste por escrito em vez de manter a equipe correndo atrás de um número obsoleto.
 
@@ -2444,6 +2444,7 @@ Abaixo está o funil padrão de seis etapas para contratação de engenheiros (a
 4. **Painel aprofundado (remoto ou presencial):** bloco de 2 a 3 conversas cobrindo desenho de arquitetura, entrevista comportamental estruturada e liderança técnica.
 5. **Comitê de calibração e checagem de referências:** o painel cruza as notas das rubricas independentes e conversa com 2 a 3 ex-gestores ou pares do candidato.
 6. **Proposta e fechamento:** apresentação formal da oferta financeira e de participação societária, seguida de alinhamento da data de início.
+
 A checagem de referências com dois ou três ex-colegas e ex-gestores ocorre integrada à etapa 5, mantendo o funil enxuto em no máximo seis etapas.
 *(Meta de velocidade: concluir o percurso completo da etapa 1 à etapa 6 em no máximo duas a três semanas corridas.)*
 
@@ -3319,6 +3320,7 @@ A disciplina de operações assistidas por IA (AI Ops) aplica automação inteli
 
 > [!tip] As três camadas de IA nesta coleção
 > A inteligência artificial é tratada em cinco frentes complementares ao longo da obra. Você está na Frente 4: AI Ops e automação interna da operação de negócio. As outras quatro são:
+>
 > - **Frente 1: IA como copiloto e acelerador pessoal do fundador** ([[IGNICAO-Vol-1-Ideacao#CAPÍTULO 10: IA GENERATIVA E AGENTES COMO COPILOTO E ACELERADOR DO FUNDADOR (2026)|Volume 1, Capítulo 10]]): produtividade individual dos fundadores e executivos.
 > - **Frente 2: IA como parte do produto (*AI-Native Product*)** ([[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 10: AI COMO PARTE DO PRODUTO (AI-NATIVE PRODUCT)|Volume 4, Capítulo 10]]): LLMs e agentes como componente central do produto comercializado ao cliente.
 > - **Frente 3: IA na engenharia interna** ([[#CAPÍTULO 5: IA NA ENGENHARIA INTERNA: COPILOT, AGENTES E PRODUTIVIDADE DE DEV|Volume 7, Capítulo 5]]): assistentes e agentes de codificação no ciclo de desenvolvimento de software.
@@ -3559,6 +3561,7 @@ COM IA (modelo leve vigente, ex.: Gemini 2.5 Flash / GPT-5 mini):
   Custo total: R$ 115,00/mês
   Economia no processo isolado: R$ 1.135,00/mês (25 horas liberadas).
 ```
+
 Na operação completa de auditoria de glosas da rede da Dra. Camila (3.200 guias/mês na central da Savassi), a conta de retorno seguiu a mesma estrutura na ponta do lápis: o investimento inicial de construção foi de R$ 18.000, e o custo recorrente ficou em R$ 4.850/mês (somando R$ 1.400/mês de API corporativa com retenção zero, 12 horas/mês de manutenção de prompts e *evals* por R$ 1.200 e 45 horas/mês de revisão humana concentrada nas 20% de guias sinalizadas acima da alçada ou abaixo do limiar de confiança por R$ 2.250). Na ponta do retorno, o fluxo evitou a contratação de seis novos analistas de faturamento na expansão de 12 para 35 clínicas (economia de R$ 33.000/mês em folha CLT total) e recuperou 92% da quantidade de guias glosadas dentro do prazo, resgatando R$ 68.000/mês (80% do valor financeiro de R$ 85.000 que antes se perdia por prescrição ou erro de preenchimento) e pagando o projeto já na primeira quinzena.
 
 > [!important]
@@ -4260,7 +4263,7 @@ POUCA COBERTURA     EMERGÊNCIA (ex.: calibração      PRIORITÁRIO         MON
 (fator ônibus = 1)  remota dos 300 coletores de      (documentar no      (registrar quando
                     Henrique na mão de Otávio)       ciclo atual)        houver mudança)
 COBERTURA MÉDIA     PRIORITÁRIO (2 pessoas, mas      ADEQUADO            ADEQUADO
-                    sem runbook testado)                                 
+                    sem runbook testado)
 BOA COBERTURA       ADEQUADO (2+ pessoas e           ADEQUADO            OK
                     runbook validado na prática)
 ```
@@ -5121,6 +5124,7 @@ Você precisa dominar **O Gargalo Móvel da Teoria das Restrições** e A Obsess
 
 > [!abstract] Posição no livro
 > Operação como vantagem competitiva: processos, cadência e instrumentação para escalar com previsibilidade. Capítulos vizinhos:
+>
 > - [[IGNICAO-Vol-5-Financas-e-Captacao#CAPÍTULO 8: GESTÃO DE RISCO E SEGUROS PARA STARTUPS|Capítulo 8 (Gestão de Risco e Seguros para Startups) (Vol. 5)]], transferência de risco residual via seguros
 > - [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9: GESTÃO DE CRISE, CONTINUIDADE OPERACIONAL E COMUNICAÇÃO CRÍTICA|Capítulo 9 (Gestão de Crise, Continuidade Operacional e Comunicação Crítica) (Vol. 9)]], BCP e DRP como camada operacional de continuidade
 > - [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 13: SEGURANÇA DA INFORMAÇÃO: DA CERTIFICAÇÃO À ENGENHARIA DEFENSIVA|Capítulo 13 (Segurança da Informação: Da Certificação à Engenharia) (Vol. 8)]], segurança como disciplina operacional
@@ -5681,4 +5685,3 @@ Saia da sua sala e acompanhe pessoalmente o pedido de um cliente do segundo em q
 **Regra de Sobrevivência:** Uma hora ganha no gargalo da operação é uma hora ganha para a empresa inteira. Já uma hora ganha fora do gargalo é uma miragem que só aumenta o estoque intermediário.
 
 **O Ritual de Segunda-Feira às 9h:** Escolha o fluxo operacional de maior impacto no cliente, cronometre o tempo real de ponta a ponta (Lead Time vs. Touch Time) e elimine um handoff manual ou fila de espera até sexta-feira.
-

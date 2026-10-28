@@ -14,6 +14,7 @@ labels: sugestão
 **Por que é relevante para fundadores brasileiros**
 
 **Você tem disposição para escrever?**
+
 - [ ] Sim, posso escrever um rascunho
 - [ ] Não, mas seria valioso que existisse
 
