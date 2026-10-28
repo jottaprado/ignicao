@@ -71,6 +71,16 @@ const TARGETS = manifest
     },
   ]);
 
+// Se algum arquivo pré-processado não existir, executa automaticamente o preprocess_epub.js
+const missingPreprocessed = TARGETS.some((t) => !fs.existsSync(path.join(ROOT, t.input)));
+if (missingPreprocessed) {
+  console.log('[PREPROCESS] Gerando arquivos pré-processados via build/preprocess_epub.js...');
+  execFileSync(process.execPath, [path.join(BUILD_DIR, 'preprocess_epub.js')], {
+    cwd: ROOT,
+    stdio: 'inherit',
+  });
+}
+
 for (const t of TARGETS) {
   const inFile = path.join(ROOT, t.input);
   const outFile = path.join(ROOT, t.output);
@@ -101,4 +111,12 @@ for (const t of TARGETS) {
   execFileSync(PANDOC, args, { cwd: ROOT, stdio: 'pipe' });
   const sizeMB = (fs.statSync(outFile).size / (1024 * 1024)).toFixed(2);
   console.log(`[EPUB] ${t.output} gerado (${sizeMB} MB)`);
+}
+
+// Limpa os arquivos Markdown pré-processados temporários para manter o diretório limpo
+for (const t of TARGETS) {
+  const inFile = path.join(ROOT, t.input);
+  if (fs.existsSync(inFile)) {
+    fs.unlinkSync(inFile);
+  }
 }

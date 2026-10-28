@@ -34,7 +34,7 @@ Paul Graham, citado em *Fase 0: Preparação (Vol. 1: Ideação)*
 
 > O tropeço tratado com honestidade intelectual vira repertório prático para acertar na tentativa seguinte.
 
-> Se a empresa quebrar, quebrar bem é possível, e vale. Encerramento digno preserva relações, reputação e capacidade de tentar de novo.
+> Se a empresa quebrar, quebrar bem é possível e vale. Encerramento digno preserva relações, reputação e capacidade de tentar de novo.
 
 *Epílogo (Vol. 9: Maturidade e Exit)*
 
@@ -86,7 +86,7 @@ Popper, citado em *Fase 3 (Vol. 1: Ideação)*
 
 *Sobre superlinearidade, Fase 13 (Vol. 4: Tração e PMF)*
 
-> PMF é estado mensurável nas coortes de retenção. Muitos fundadores declaram PMF prematuramente porque querem fechar rodada, contratar time, ou simplesmente parar de carregar a incerteza. Declarar PMF cedo demais leva a escalar produto sem retenção, o erro mais caro que existe em startup.
+> PMF é estado mensurável nas coortes de retenção. Muitos fundadores declaram PMF prematuramente porque querem fechar rodada, contratar time ou simplesmente parar de carregar a incerteza. Declarar PMF cedo demais leva a escalar produto sem retenção, o erro mais caro que existe em startup.
 
 *Fase 13 (Vol. 4: Tração e PMF)*
 
@@ -94,7 +94,7 @@ Popper, citado em *Fase 3 (Vol. 1: Ideação)*
 
 ## Sobre runway, caixa, sobrevivência
 
-> Assumindo que os meus gastos permaneçam constantes, e o meu crescimento de receita mantenha o padrão dos últimos meses, eu chego à lucratividade com o caixa que tenho hoje? Ou não?
+> Assumindo que os meus gastos permaneçam constantes e o meu crescimento de receita mantenha o padrão dos últimos meses, eu chego à lucratividade com o caixa que tenho hoje? Ou não?
 
 A pergunta de Default Alive / Default Dead, citada em *Fase 13 (Vol. 4: Tração e PMF)*
 
@@ -164,7 +164,7 @@ Jeff Bezos, sobre a adoção de memorandos de 6 páginas na Amazon em 2004, cita
 
 > O vendedor que passou mais de quarenta por cento do tempo falando na primeira reunião provavelmente saiu da sala sem diagnosticar a dor real do comprador.
 
-*Capítulo 5: Vendas, Pipeline e Revenue Operations (Vol. 4: Tração e PMF)*
+*Capítulo 5: Sales: Motion Completa, do Outbound ao Renewal (Vol. 4: Tração e PMF)*
 
 ---
 
@@ -172,7 +172,7 @@ Jeff Bezos, sobre a adoção de memorandos de 6 páginas na Amazon em 2004, cita
 
 > O relacionamento com investidores de longo prazo constrói-se por linhas de atualização consistentes ao longo de meses, antes de qualquer abertura formal de rodada.
 
-*Capítulo 9: Jornada de Captação (Vol. 5: Finanças e Captação)*
+*Capítulo 9: Captação de Equity: Planejamento de Rodada, Pitch e Relacionamento com Investidores (Vol. 5: Finanças e Captação)*
 
 ---
 
@@ -190,7 +190,7 @@ Jeff Bezos, sobre a adoção de memorandos de 6 páginas na Amazon em 2004, cita
 
 *Sobre a Mentira Educada do Café, Fase 4 (Vol. 2: Descoberta e Mercado)*
 
-> Faturamento sem margem ilude a vaidade, lucro contábil depende do regime de competência, e saldo de caixa conciliado na segunda-feira às oito da manhã é o que efetivamente paga a folha.
+> Faturamento sem margem ilude a vaidade, lucro contábil depende do regime de competência e saldo de caixa conciliado na segunda-feira às oito da manhã é o que efetivamente paga a folha.
 
 *Sobre a Falência com Lucro Contábil, Capítulo 1 (Vol. 5: Finanças e Captação)*
 
