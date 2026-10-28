@@ -302,7 +302,7 @@ Execute estas oito tarefas em sequência.
 
 8. Escrita do Dossiê Pessoal. Consolide os passos acima em um documento simples e releia ao final de cada fase seguinte. Atualize sempre que algo descoberto no caminho invalidar uma premissa.
 
-### O fundador como pessoa, três ensaios de Paul Graham para calibrar expectativa
+### O fundador como pessoa: três ensaios de Paul Graham para calibrar expectativa
 
 A Fase 0 prepara a pessoa que vai empreender antes da abertura do negócio. Entre 2006 e 2010, Paul Graham dedicou ensaios específicos ao perfil de fundador que prospera em startups, ao modo de pensar que sustenta a execução e às armadilhas internas que costumam derrubar iniciantes, sintetizando padrões observados diretamente nas centenas de fundadores acompanhados nos primeiros anos do Y Combinator.
 
@@ -407,7 +407,7 @@ O [[#CAPÍTULO 2: SAÚDE MENTAL, DINÂMICA DE COFUNDADORES E HUMANIDADE DO FUNDA
 > [!warning] O mito da resiliência como identidade
 > A cultura empreendedora glorifica o "nunca desistir" de um modo que patologiza o cuidado com a saúde mental. A figura do "fundador resiliente" virou identidade, fazendo com que admitir exaustão pareça uma falha pessoal. O resultado prático é que fundadores com sinais graves de esgotamento escondem o quadro por meses, esperando que passe sozinho. Não passa: a resiliência real inclui saber quando pedir ajuda.
 
-### Sócios, a decisão mais irreversível da Fase 0
+### Sócios: a decisão mais irreversível da Fase 0
 
 A [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#FASE 18: ESTRUTURAÇÃO JURÍDICA, SOCIETÁRIA E BLINDAGEM OPERACIONAL|Fase 18 (Vol. 8)]] cobre cap table (tabela de participação societária). O [[#CAPÍTULO 2: SAÚDE MENTAL, DINÂMICA DE COFUNDADORES E HUMANIDADE DO FUNDADOR|Capítulo 2 (Saúde Mental, Dinâmica de cofundadores e Humanidade do Fundador)]] cobre conflito entre sócios. Mas a escolha de sócios acontece antes de tudo isso, e é a decisão mais irreversível que você toma na trajetória empreendedora. Divórcio societário é processo doloroso, caro, que destrói empresas boas e relacionamentos antes sólidos.
 
@@ -3465,7 +3465,7 @@ O nó B (regulação) foi a descoberta mais valiosa do exercício: no ambiente r
 
 ### TEMPLATES OPERACIONAIS E CASOS PREENCHIDOS DESTA FASE 3
 
-#### Template: Árvore de Teoria, Story Tree
+#### Template: Árvore de Teoria (Story Tree)
 
 **Para que serve.** Estrutura a teoria do negócio como um conjunto de atributos com probabilidade subjetiva e relações causais entre eles, isolando explicitamente os 2 a 5 dominós mortais (*bet-the-company*) que inviabilizariam a ideia se fossem refutados em campo.
 
@@ -3541,7 +3541,7 @@ Três pessoas que conseguiram repetir minha teoria com as próprias palavras:
 
 ---
 
-#### Template: Mapa Causal, DAG Simplificado
+#### Template: Mapa Causal (DAG Simplificado)
 
 **Para que serve.** Representa a teoria como grafo acíclico dirigido, com probabilidades marginais nos nós e probabilidades condicionais nas arestas, permitindo calcular plausibilidade do caminho crítico até o outcome final (cliente paga, cliente adota).
 

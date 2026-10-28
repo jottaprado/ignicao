@@ -36,7 +36,7 @@ O que está aqui:
 - **162 frameworks operacionais únicos** (162 instâncias nos Volumes 1 a 9: zero duplicatas)
 - **20 canvases visuais únicos** (20 instâncias nas 21 fases com teoria, exemplo brasileiro preenchido e armadilhas: zero duplicatas)
 - **42 templates e estudos de caso preenchidos únicos** (42 instâncias embutidas no ponto de uso: zero duplicatas)
-- **131 diagramas** Mermaid: renderizam direto no GitHub, Obsidian e EPUB
+- **117 diagramas** Mermaid: renderizam direto no GitHub, Obsidian e EPUB
 - **Casos brasileiros e globais** com análise honesta: Nubank, iFood, Stone, Hotmart, Natura, Magazine Luiza, Wildlife, Peixe Urbano, 99, Loggi, Olist, QuintoAndar, Wellhub, Tractian, Totvs, Embraer/Eve, Unico, Creditas, Solfácil, Vamos, Rede D'Or, Raízen, Inpasa, Stripe, Airbnb, Notion, Figma, Supabase, Linear, Constellation Software e dezenas de outros
 - **Dicionário Geral Unificado no Volume 10** (180+ termos técnicos, Lista de Abreviações com 78 siglas, Bibliografia Geral e Catálogo Completo das 224 Ferramentas)
 

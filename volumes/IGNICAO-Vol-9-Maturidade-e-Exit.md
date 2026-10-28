@@ -1018,15 +1018,15 @@ flowchart TD
 
 Cada um tem timing, valuation, requisitos e implicações fundamentalmente diferentes.
 
-##### Tipo A, M&A estratégico, venda para concorrente ou complementar
+##### Tipo A: M&A estratégico (venda para concorrente ou complementar)
 
 O comprador típico é uma corporação maior do mesmo setor ou de vertical adjacente que busca consolidação de carteira, expansão geográfica ou incorporação tecnológica. No mercado privado brasileiro pós-2022 (segundo relatórios de M&A de tecnologia do Distrito, LAVCA e *advisors* locais), a avaliação típica em transações privadas de SaaS B2B situa-se entre 3x e 8x ARR (chegando a 8x a 12x ARR apenas em ativos líderes de categoria com alta retenção líquida e crescimento acelerado), enquanto empresas de serviços tecnológicos são negociadas entre 1x e 3x a receita líquida (ou 4x a 8x o EBITDA). Os pré-requisitos usuais incluem ARR a partir de R$ 10 milhões a R$ 20 milhões, crescimento eficiente e fosso competitivo claro. O processo completo leva tipicamente de 12 a 18 meses do relacionamento inicial ao fechamento efetivo (*closing*, podendo cair para cerca de 9 a 10 meses quando o *Data Room* já está auditado e a operação tramita em rito sumário no CADE). Os prós são a liquidez relevante e o potencial prêmio estratégico. Os contras são o risco de perda cultural na integração e os períodos de permanência obrigatória (*lock-up* e *earn-out*) de 18 a 36 meses.
 
-##### Tipo B, M&A financeiro, venda para private equity
+##### Tipo B: M&A financeiro (venda para private equity)
 
 O comprador típico é um fundo de *Private Equity* (PE) ou *Search Fund* que busca companhias maduras com geração previsível de caixa. Em transações privadas brasileiras de tecnologia e serviços recorrentes entre 2024 e 2026, os múltiplos pagos por fundos financeiros situam-se tipicamente entre 6x e 10x o EBITDA (podendo variar de 4x a 8x em serviços tradicionais ou alcançar 10x a 14x o EBITDA em plataformas de software vertical com margem alta e crescimento orgânico consistente, patamar distinto dos múltiplos de empresas listadas em bolsa no pico histórico de 2021). Os pré-requisitos são EBITDA positivo e auditado, retenção previsível e diretoria capaz de operar sem dependência exclusiva dos fundadores. O processo dura de 9 a 12 meses, preservando a empresa como plataforma independente, mas transferindo o controle (tipicamente 60% a 100% do capital) e a disciplina de alavancagem e metas para o fundo.
 
-##### Tipo C, IPO (Initial Public Offering)
+##### Tipo C: IPO (*Initial Public Offering*)
 
 Viável quando a receita anualizada supera R$ 500 milhões (chegando à faixa de R$ 500 milhões a R$ 1 bilhão nas ofertas de tecnologia), com crescimento consistente e rentabilidade comprovada. Exige de dois a três anos de preparação prévia (três exercícios de demonstrações auditadas, governança de companhia aberta, diretoria financeira experiente e sindicato de bancos). O processo formal de execução leva de seis a nove meses ao todo, compreendendo o pedido concomitante de registro de emissor (Resolução CVM 80) e de distribuição pública (Resolução CVM 160), a listagem no segmento da B3 (como o Novo Mercado, cuja janela para tecnologia ficou fechada após a safra 2020-2021) ou o registro via formulário F-1 na SEC para listagem nos Estados Unidos, seguido pelo *roadshow* institucional, conforme detalhado no [[#CAPÍTULO 16: IPO NO BRASIL: QUANDO, COMO E O QUE MUDA|Capítulo 16: IPO no Brasil: Quando, Como e o Que Muda]]. Vantagem: avaliação potencial máxima e moeda líquida para aquisições. Desvantagem: custo elevado de emissão e manutenção, escrutínio trimestral e regulação rigorosa.
 
@@ -1040,7 +1040,7 @@ Fundadores e funcionários vendem parte das ações antes do exit final: típico
 > [!tip] Capítulo 15: Liquidez Secundária (Secondaries)
 > Mercado secundário de ações privadas: como funciona, quem são os fundos de secondary, como estruturar a transação, impacto no cap table e na governança, e quando faz sentido versus esperar pelo exit principal.
 
-##### Tipo E, Acqui-hire
+##### Tipo E: *Acqui-hire*
 
 Usado quando o produto ou mercado não funcionou, mas o time é excelente. O comprador típico: big tech ou scale-up precisando de time técnico. A estrutura: a empresa adquirida é descontinuada e o equity dos fundadores é convertido em pacote de retenção (RSUs com vesting de dois a quatro anos). O "valuation" típico: R$ 500 mil a R$ 3 milhões por engenheiro sênior, mais retention bonus. Os prós: alternativa a fechar a empresa com perdas e time preservado. Os contras: fundadores tipicamente realizam muito pouco e investidores podem não recuperar o capital.
 

@@ -323,7 +323,7 @@ A Fase 15 atinge maturidade quando sete critérios objetivos são comprovados na
 3. Abrir Template Plano de Financiamento (Fase 14), e definir os próximos dezoito meses de caixa.
 4. Listar três a cinco parceiros potenciais que podem acelerar distribuição ([[#CAPÍTULO 5: CANAIS INDIRETOS E PARCERIAS: PARCERIAS, FRANQUIAS, CHANNEL|Capítulo 5 (Canais Indiretos e Parcerias: Parcerias, Franquias, Channel)]]).
 
-### Caso brasileiro real, máquina de crescimento da Stone (2014-2018, escala pós-PMF até IPO)
+### Caso brasileiro real: máquina de crescimento da Stone (2014-2018, escala pós-PMF até IPO)
 
 A trajetória da Stone entre 2014 e 2018 (já analisada sob o ângulo de cunha de mercado na Fase 6, no Volume 2, e de produto mínimo na Fase 11, no Volume 4) ilustra três pilares da escala comercial no Brasil: combinação disciplinada de canais, captação concentrada em investidores institucionais de longo prazo e aquisições estratégicas voltadas à expansão intra-conta (*cross-sell*).
 
@@ -1029,7 +1029,7 @@ Atingir o encaixe produto-mercado (PMF) valida a oferta, mas escalar exige const
 
 A escala também muda quem você é como líder. Na [[IGNICAO-Vol-4-Tracao-e-PMF#FASE 13: PRODUCT-MARKET FIT|Fase 13 (Vol. 4)]] você é artesão. Na Fase 16 você é industrial. O conjunto de habilidades muda e às vezes se inverte. Muitos fundadores tropeçam aqui não por falta de mérito, mas porque insistem no modo artesão quando a empresa já exige gestão em escala. Trocar de modo é parte da Fase 16.
 
-### O primeiro funcionário, a transição de fundador solo para mais um
+### O primeiro funcionário: a transição de fundador solo para líder de equipe
 
 A **Fase 16 (Time, Liderança Executiva e Cultura em Escala)** guia a construção da arquitetura humana desde a transição das primeiras contratações-chave até a formação da bancada executiva, dos rituais de gestão e da cultura documentada para operações de 20 a mais de 200 pessoas.
 
@@ -1341,7 +1341,7 @@ Valores "motherhood and apple pie". Valores genéricos, que todo mundo aceita, s
 
 ---
 
-### CASO BRASILEIRO, Hotmart, cultura organizacional intencional
+### Caso brasileiro real: Hotmart e a cultura organizacional intencional
 
 A **Hotmart**, fundada em 2011 em Belo Horizonte por João Pedro Resende e Mateus Bicalho como plataforma de distribuição e comercialização de produtos digitais, cresceu nos primeiros anos reinvestindo o próprio fluxo de caixa antes de atrair fundos globais como General Atlantic, Koolen & Partners e TCV.
 
@@ -2413,7 +2413,7 @@ Documento de 2 páginas, revisão semestral, compartilhado com C-level. Conceito
 
 ---
 
-#### Template: Job Descriptions, Contratações-chave
+#### Template: Job Descriptions para Contratações-Chave
 
 > [!note] Quando usar
 > Ao abrir posições sênior de produto, engenharia ou vendas. JDs vagas atraem candidatos errados e atrasam o processo. Use como base e adapte ao contexto real da empresa.
@@ -2538,7 +2538,7 @@ Você vai construir e operar a máquina comercial da empresa: nos primeiros mese
 
 ---
 
-#### Template: 1:1, Template de Reunião Individual
+#### Template: Roteiro de Reunião Individual (1:1)
 
 > [!note] Quando usar
 > Reunião semanal ou quinzenal entre líder e liderado direto. A 1:1 é do liderado, não do líder. O liderado preenche a maior parte da pauta. O líder escuta, remove obstáculos e dá contexto.

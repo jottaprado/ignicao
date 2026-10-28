@@ -162,11 +162,11 @@ Abaixo destacamos os termos econômicos e de governança mais sensíveis de um *
 
 **Valuation pré e pós-money:** além do número de manchete, calcule a diluição efetiva após a criação ou expansão do *pool* de opções.
 
-**Reserva de opções (*option pool*):** percentual de participação separado para atrair executivos e talentos técnicos, verifique na tabela do [[#Template: Term Sheet Anotado, Guia de Leitura|Term Sheet Anotado]] o impacto diluitivo de criá-lo antes ou depois do aporte.
+**Reserva de opções (*option pool*):** percentual de participação separado para atrair executivos e talentos técnicos, verifique na tabela do [[#Template: Term Sheet Anotado: Guia de Leitura|Term Sheet Anotado]] o impacto diluitivo de criá-lo antes ou depois do aporte.
 
 **Preferência de liquidação (*liquidation preference*):** prioridade de recebimento do investidor antes dos fundadores em evento de liquidez. A cláusula 1x não participativa (*1x non-participating*) é o padrão saudável. A 1x participativa com teto (*capped participating*) é negociável em mercados restritos, enquanto múltiplos de 2x ou participação sem teto devem ser recusados.
 
-**Proteção antidiluição (*anti-dilution*):** cláusula que ajusta o preço de conversão dos investidores caso a empresa capte uma rodada futura por valor inferior (*down round*), priorize a média ponderada ampla (*broad-based weighted average*) e recuse o ajuste integral (*full ratchet*), conforme detalhado no [[#Template: Term Sheet Anotado, Guia de Leitura|Term Sheet Anotado]].
+**Proteção antidiluição (*anti-dilution*):** cláusula que ajusta o preço de conversão dos investidores caso a empresa capte uma rodada futura por valor inferior (*down round*), priorize a média ponderada ampla (*broad-based weighted average*) e recuse o ajuste integral (*full ratchet*), conforme detalhado no [[#Template: Term Sheet Anotado: Guia de Leitura|Term Sheet Anotado]].
 
 **Vesting e re-vesting de fundadores:** submeter novamente a um cronograma de aquisição (tipicamente de 3 a 4 anos) parte das ações que os fundadores já haviam consolidado é exigência comum na Série A, negocie sempre o reconhecimento de um percentual já liberado pelo tempo trabalhado desde a fundação.
 
@@ -176,7 +176,7 @@ Abaixo destacamos os termos econômicos e de governança mais sensíveis de um *
 
 **Cláusulas de proteção (*protective provisions*):** definem quais matérias estratégicas exigem aprovação prévia dos investidores, como venda da empresa, nova emissão de títulos, mudança de estatuto ou aprovação do orçamento anual.
 
-**Obrigação e direito de venda conjunta (*drag-along* e *tag-along*):** regras que disciplinam a venda total da empresa e a proteção dos minoritários em caso de aquisição, detalhadas com seus quóruns típicos no [[#Template: Term Sheet Anotado, Guia de Leitura|Term Sheet Anotado]].
+**Obrigação e direito de venda conjunta (*drag-along* e *tag-along*):** regras que disciplinam a venda total da empresa e a proteção dos minoritários em caso de aquisição, detalhadas com seus quóruns típicos no [[#Template: Term Sheet Anotado: Guia de Leitura|Term Sheet Anotado]].
 
 > [!warning] Recomendação firme sobre advogado
 > Contrate advogado com experiência comprovada em Venture Capital (e não um generalista) antes de assinar qualquer *term sheet*. Os erros mais caros em uma rodada vêm de negociar cláusulas de preferência e controle sem assessoria especializada. Tentar economizar nas ordens de grandeza praticadas em 2026 para revisão de *term sheet* (tipicamente de R$ 15 mil a R$ 35 mil) ou para o fechamento jurídico completo de uma Série A (de R$ 60 mil a R$ 150 mil em escritórios especializados no Brasil, conforme a praça e a complexidade societária) pode custar dezenas de milhões de reais em participação dos fundadores na saída.
@@ -1048,7 +1048,7 @@ flowchart TD
 **Os seis blocos estruturais da simulação de cascata (*Waterfall*):**
 
 - **Quadro societário atual (*cap table*):** percentual e número de ações de cada classe (ordinárias dos fundadores, preferenciais de cada rodada e opções)
-- **Preferências de liquidação (*liquidation preferences*):** múltiplo (1x ou mais) e modalidade (não participante ou participante) por série, conforme glossário do [[#Template: Term Sheet Anotado, Guia de Leitura|Term Sheet Anotado]]
+- **Preferências de liquidação (*liquidation preferences*):** múltiplo (1x ou mais) e modalidade (não participante ou participante) por série, conforme glossário do [[#Template: Term Sheet Anotado: Guia de Leitura|Term Sheet Anotado]]
 - **Ajustes de antidiluição (*anti-dilution*):** impacto sobre o preço de conversão caso tenha ocorrido rodada com redução de valor (*down round*)
 - **Option pool**: opções outorgadas, exercíveis, não exercidas
 - **Cenários de valor de saída (*exit*):** faixas de preço de venda simuladas (conservador, base e otimista)
@@ -1171,7 +1171,7 @@ Documento de 2-3 páginas, revisão semestral. Tipologia das fontes (Lei do Bem,
 
 ---
 
-#### Template: Pitch Deck SCQA, Esqueleto Canônico (12 a 15 slides, com apêndice opcional)
+#### Template: Pitch Deck SCQA: Esqueleto Canônico (12 a 15 slides, com apêndice opcional)
 
 Documento em Google Slides ou Keynote de 12 a 15 slides, com apêndice técnico opcional. Princípios da estrutura SCQA (*Situation, Complication, Question, Answer*), critérios para cada slide e relacionamento com investidores em [[#CAPÍTULO 9: CAPTAÇÃO DE EQUITY: PLANEJAMENTO DE RODADA, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 9 (Captação de Equity: Planejamento de Rodada, Pitch e Relacionamento com Investidores)]].
 
@@ -1325,7 +1325,7 @@ Regras:
 
 ---
 
-#### Template: Data Room de Captação, Checklist de Diligência Prévia (Due Diligence)
+#### Template: Data Room de Captação: Checklist de Diligência Prévia (Due Diligence)
 
 > [!note] Quando usar
 > Ao preparar captação de rodada (Seed, Série A em diante) ou processo de M&A. O data room organiza os documentos que um investidor ou adquirente vai solicitar durante a due diligence. Monte antes de iniciar o processo: improvisação no meio da DD sinaliza desorganização.
@@ -1419,7 +1419,7 @@ Regras:
 
 ---
 
-#### Template: Term Sheet Anotado, Guia de Leitura
+#### Template: Term Sheet Anotado: Guia de Leitura
 
 > [!note] Quando usar
 > Ao receber um term sheet de investidor (Seed, Série A, SAFE com cap, nota conversível). Não substitui advogado especializado em venture, mas permite que você entre na negociação entendendo o que cada cláusula faz antes de chamar o jurídico.

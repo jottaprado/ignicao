@@ -380,7 +380,7 @@ Repetir que processo mata a cultura é uma desculpa confortável para o improvis
 
 ---
 
-### CASO BRASILEIRO, Fase 17 (Operações), VTEX e internacionalização
+### Caso brasileiro real: VTEX, governança operacional e internacionalização
 
 Fundada no Rio de Janeiro em 2000 por Geraldo Thomaz e Mariano Gomide de Faria, a VTEX consolidou-se como plataforma SaaS de comércio digital para grandes marcas antes de acelerar sua expansão internacional rumo ao IPO na NYSE em julho de 2021 (quando já operava clientes em mais de 30 países). O alicerce operacional que permitiu escalar múltiplos mercados sem fragmentar o produto combinou arquitetura *multi-tenant* única, metas trimestrais transparentes, documentação técnica e operacional em inglês desde cedo e divisão clara de responsabilidades entre equipes distribuídas.
 
@@ -1452,7 +1452,7 @@ No ecossistema brasileiro, o Nubank estruturou sua engenharia em squads multidis
 
 ### TEMPLATES OPERACIONAIS E CASOS PREENCHIDOS (FASE 17)
 
-#### Template: OKRs trimestrais preenchidos, scaleup brasileira em PMF
+#### Template: OKRs Trimestrais Preenchidos (Scale-up Brasileira em PMF)
 
 **Objetivo 1: Transformar retention em motor de crescimento sustentável**
 

@@ -2102,7 +2102,7 @@ Os gatilhos de troca observados foram três. Incidente recente de ruptura que ca
 
 As barreiras à troca identificadas na conversa foram quatro: (1) receio de que a equipe operacional da manhã não alimente o sistema, (2) medo de pagar mensalidade por uma ferramenta que fique cara caso a adoção falhe, (3) apego à negociação informal pelo WhatsApp com os vendedores dos moinhos, e (4) percepção de que a mensalidade fixa dói no caixa todo mês, enquanto o desperdício de farinha fica invisível no custo da mercadoria vendida.
 
-### Caso brasileiro real, pesquisa com usuários no QuintoAndar e a dor do fiador
+### Caso brasileiro real: pesquisa com usuários no QuintoAndar e a dor do fiador
 
 Como reconstrução didática de pesquisa centrada no trabalho do cliente, considere o mercado brasileiro de locação residencial em 2013, quando Gabriel Braga e André Penha fundaram o QuintoAndar (iniciando a operação em Campinas e logo expandindo para São Paulo). Alugar um imóvel exigia fiador com escritura quitada na mesma cidade, seguro-fiança caro ou depósito caução de três aluguéis, além de semanas de cartório.
 
@@ -3749,7 +3749,7 @@ Se a sua empresa fechasse hoje à noite, quem reclamaria ativamente amanhã de m
 > [!tip] Uso operacional do teste
 > Rode esse teste sozinho antes de rodá-lo com outra pessoa. Se você mesmo travar em alguma das seis perguntas, não vale envergonhar-se com um mentor. Volte primeiro ao Canvas da Cunha e resolva. O teste existe para você detectar cedo onde a sua narrativa não se sustenta.
 
-### Caso brasileiro real, cunha na Creditas (2012)
+### Caso brasileiro real: cunha na Creditas (2012)
 
 Em 2012, o mercado brasileiro de crédito era dominado pelos grandes bancos com linhas de crédito pessoal não consignado a juros elevados (em torno de 5% a 6% ao mês nas séries do Banco Central em 2012, além do rotativo do cartão acima de 10% ao mês), e crédito com garantia via bancos tradicionais (burocracia alta, meses de processo).
 

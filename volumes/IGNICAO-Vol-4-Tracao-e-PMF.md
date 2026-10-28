@@ -182,7 +182,7 @@ Até aqui, o trabalho apoiou-se em evidências declaradas sobre o passado (entre
 
 Um MVP de sucesso é medido pela incerteza que elimina por real investido, mais do que pelo polimento visual ou pela sofisticação da arquitetura. Gastar R$ 200 mil construindo software e sair com as mesmas dúvidas do início produz apenas um lançamento prematuro.
 
-### O ciclo MVP em três fases, construir na ordem certa
+### O ciclo MVP em três fases: construir na ordem certa
 
 O ciclo MVP em três etapas, cada uma valida coisa diferente:
 
@@ -363,7 +363,7 @@ Se você opera com período de teste gratuito ou piloto pago, defina a data de i
 
 Após oito a doze semanas de operação, consolide em um documento único o desempenho frente às metas iniciais, os aprendizados sobre produto, perfil de usuário que ativa e canal de origem, além dos gargalos, das oportunidades mapeadas e da decisão final entre perseverar, iterar, pivotar ou encerrar.
 
-### Caso brasileiro real, Stone v0 (Especificação de MVP reconstruída para 2012)
+### Caso brasileiro real: Stone v0 (Especificação de MVP reconstruída para 2012)
 
 Reconstrução didática do MVP que André Street e Eduardo Pontes colocaram em operação em 2012, antes da estreia na Nasdaq em outubro de 2018 que avaliou a StoneCo acima de US$ 9 bilhões no primeiro pregão (elaborada a partir do prospecto Form F-1 arquivado na SEC em outubro de 2018 e do histórico público da companhia).
 
@@ -1833,7 +1833,7 @@ Esse limiar entre a tração inicial e o PMF real é também o momento em que a 
 > [!important] Regra de decisão
 > Declare PMF quando os números sustentam. Não quando a esperança pede.
 
-### PSF antes de PMF, não confunda as duas coisas
+### PSF antes de PMF: não confunda as duas coisas
 
 Um dos erros mais caros que fundadores iniciantes cometem é tratar PSF (Problem-Solution Fit: encaixe entre problema e solução) e PMF como sinônimos. Ou tratar PSF como "PMF em pequeno". Não são a mesma coisa, mas sim fases distintas. Com clientes distintos, preços distintos, métricas distintas, e estratégias de desenvolvimento distintas. Pular do MVP direto para a tentativa de PMF, sem passar pelo PSF, é como tentar correr uma maratona sem ter corrido dez quilômetros.
 
@@ -1930,7 +1930,7 @@ A falha típica. Produto desejado, e com boa margem, mas entregue artesanalmente
 
 Em cada iteração, aplique o checklist triplo antes de começar a investir pesadamente em marketing pago, expansão geográfica, ou contratações agressivas.
 
-### Ciclo de maturação do PMF, não é permanente
+### Ciclo de maturação do PMF: por que o encaixe de mercado não é permanente
 
 Uma armadilha que atinge até fundadores experientes: tratar o PMF como estado permanente depois de atingido. Não é. Canais e alavancas de crescimento costumam dar sinais de saturação ao longo de um a dois anos de operação (como analisa Brian Balfour nos ensaios sobre *Four Fits*). Você precisa redesenhar elementos: seja o ICP (novo segmento), seja a proposta (nova categoria de valor), seja o canal (nova forma de aquisição), seja o preço (novo modelo de monetização).
 
@@ -2148,7 +2148,7 @@ A decisão, em retrospecto. Declarar PMF no segmento brasileiro de produtor de i
 > [!important] O que a virada da Hotmart mostra sobre convergência de sinais
 > O diagnóstico de PMF apoia-se na convergência entre o teste de Sean Ellis, a estabilização da curva de retenção, o NPS, a fatia de aquisição orgânica e os relatos espontâneos dos clientes. Em 2014, a Hotmart reunia esses cinco sinais dentro do seu nicho inicial de criadores digitais, o que lhe permitiu escalar sobre uma base retida.
 
-### Contexto brasileiro, o PMF no Brasil tem peculiaridades
+### Contexto brasileiro: as peculiaridades do PMF no Brasil
 
 Algumas observações específicas do contexto brasileiro, aplicáveis a fundadores operando aqui.
 
@@ -2163,7 +2163,7 @@ Ciclo de decisão B2B brasileiro é mais longo. Em enterprise brasileiro, o cicl
 
 O cancelamento no Brasil sofre forte efeito sazonal: dezembro, janeiro, junho e julho costumam registrar picos de pausa ou encerramento de contratos em diversos setores. Avaliar a estabilização das coortes ao longo de 6 a 12 meses é muito mais confiável do que tirar conclusões a partir de um único trimestre isolado.
 
-### Falsos positivos de PMF, o que parece PMF e não é
+### Falsos positivos de PMF: o que parece PMF e não é
 
 Os três falsos positivos mais comuns. E como diagnosticar.
 

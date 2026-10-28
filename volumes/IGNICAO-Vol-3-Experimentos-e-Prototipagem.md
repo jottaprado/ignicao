@@ -283,7 +283,7 @@ Os dois scores juntos mostram onde você está em cada hipótese:
 
 #### Passo 6: monte o Banco de Hipóteses como planilha
 
-O Banco de Hipóteses completo (para planilha ou banco de dados no Notion/Airtable) organiza dezoito colunas canônicas: (1) ID (`H01`, `H02`.), (2) Tipo (Problema, Solução, Cliente, Canal ou Monetização), (3) Atributo da teoria (vínculo com a árvore da [[IGNICAO-Vol-1-Ideacao#FASE 3: CONSTRUÇÃO DA TEORIA DO NEGÓCIO|Fase 3: Construção da Teoria do Negócio (Vol. 1)]]), (4) Hipótese (texto completo e atômico), (5) Por que importa (impacto se for falsa), (6) Risco $R$ (1 a 5), (7) Incerteza $I$ (1 a 5), (8) Prioridade $R \times I$ (1 a 25), (9) Nota $H$ (força lógica da hipótese, 1 a 10), (10) Nota $E$ (evidência empírica acumulada, 1 a 10), (11) Critério de validação, (12) Critério de descarte, (13) Zona cinzenta e ação prevista, (14) Método ou experimento, (15) Custo e duração estimados, (16) Ordem de teste, (17) Status (Nova, Em teste, Validada, Refutada ou Abandonada) e (18) Resultado e aprendizado pós-teste. Na versão enxuta de página única ([[#Template: Banco de Hipóteses, modelo de planilha|Template: Banco de Hipóteses]]), essas informações são condensadas nas 11 colunas essenciais de operação semanal.
+O Banco de Hipóteses completo (para planilha ou banco de dados no Notion/Airtable) organiza dezoito colunas canônicas: (1) ID (`H01`, `H02`.), (2) Tipo (Problema, Solução, Cliente, Canal ou Monetização), (3) Atributo da teoria (vínculo com a árvore da [[IGNICAO-Vol-1-Ideacao#FASE 3: CONSTRUÇÃO DA TEORIA DO NEGÓCIO|Fase 3: Construção da Teoria do Negócio (Vol. 1)]]), (4) Hipótese (texto completo e atômico), (5) Por que importa (impacto se for falsa), (6) Risco $R$ (1 a 5), (7) Incerteza $I$ (1 a 5), (8) Prioridade $R \times I$ (1 a 25), (9) Nota $H$ (força lógica da hipótese, 1 a 10), (10) Nota $E$ (evidência empírica acumulada, 1 a 10), (11) Critério de validação, (12) Critério de descarte, (13) Zona cinzenta e ação prevista, (14) Método ou experimento, (15) Custo e duração estimados, (16) Ordem de teste, (17) Status (Nova, Em teste, Validada, Refutada ou Abandonada) e (18) Resultado e aprendizado pós-teste. Na versão enxuta de página única ([[#Template: Banco de Hipóteses (modelo de planilha)|Template: Banco de Hipóteses]]), essas informações são condensadas nas 11 colunas essenciais de operação semanal.
 
 > [!important] Essa planilha é o coração operacional do negócio
 > Nos próximos seis a doze meses, ela é o documento mais consultado da empresa. Nunca a perca de vista.
@@ -302,7 +302,7 @@ Janela de teste paralela vs sequencial. Hipóteses independentes que usam canais
 
 Registre a sequência definida no Banco de Hipóteses (coluna "Ordem de teste") com uma justificativa objetiva, incluindo $R$, $I$, $R \times I$, $H$, $E$ e os critérios de validação e descarte. As três a cinco apostas prioritárias, já com Test Card preenchido, seguem para a [[#FASE 8: EXPERIMENTOS DE VALIDAÇÃO DO PROBLEMA E DA SOLUÇÃO|Fase 8: Experimentos de Validação do Problema e da Solução]].
 
-### Os sete passos aplicados, hipótese H1 do PadariaPro
+### Os sete passos aplicados: hipótese H1 do PadariaPro
 
 Para tornar o método concreto, este é o detalhamento de uma hipótese bet-the-company da mesma ideia trabalhada nas fases anteriores, no formato padronizado dos Passos 2 a 5.
 
@@ -323,7 +323,7 @@ CUSTO ESTIMADO: Cinco semanas (30 dias de coleta documental e uma semana de aná
 > [!warning] Risco de interpretação enviesada
 > Donos podem subestimar a perda (vergonha de admitir ineficiência) ou superestimá-la (para justificar tecnologia). Cruzar auto-relato com análise factual de notas fiscais reduz esse viés.
 
-### Caso brasileiro real, hipóteses na Loft (iBuyer imobiliário)
+### Caso brasileiro real: hipóteses na Loft (iBuyer imobiliário)
 
 A Loft, fundada em 2018 por Mate Pencz e Florian Hagenbuch (ex-Printi) em São Paulo, atacou o modelo iBuyer (instant buyer: compra direta de imóveis para revenda rápida com renovação) num mercado dominado por imobiliárias tradicionais com ciclo de venda de seis a doze meses.
 
@@ -775,7 +775,7 @@ O bloco de auditoria da amostra revelou o ponto cego da rodada: das 8 usinas e c
 
 ### Templates operacionais desta fase (Banco de Hipóteses e Hypothesis Canvas)
 
-#### Template: Banco de Hipóteses, modelo de planilha
+#### Template: Banco de Hipóteses (modelo de planilha)
 
 **Para que serve.** Centraliza todas as hipóteses do negócio em uma única planilha com tipo, critério de validação, método, custo e status, evitando que aprendizados se percam em conversas e documentos espalhados.
 
@@ -1165,7 +1165,7 @@ Atualize artefatos imediatamente após decidir. Versione: a Declaração vai par
 > [!tip] Canvases Visuais: Learning Card (Fase 8)
 > Depois de cada experimento, o par natural do Test Card é o Learning Card (Cartão de Aprendizado, também criado por David J. Bland e Alexander Osterwalder em *Testing Business Ideas*, 2019, detalhado na seção [[#Canvas: Test Card (David Bland & Alexander Osterwalder, 2019)|Canvas: Test Card (David Bland & Alexander Osterwalder, 2019)]] logo adiante). Trata-se de uma ficha de uma página que separa rigorosamente o dado bruto observado da interpretação da equipe e registra qual das quatro decisões canônicas foi tomada (Perseverar, Ajustar, Pivotar ou Abandonar). Essa separação entre fato observado e narrativa evita o viés de confirmação pós-teste e alimenta a atualização semanal do Banco de Hipóteses.
 
-### Os nove passos aplicados, Cartão de Experimento do PadariaPro (hipótese H2: disposição a pagar)
+### Os nove passos aplicados: Cartão de Experimento do PadariaPro (hipótese H2: disposição a pagar)
 
 A estrutura visual do Cartão de Experimento (modelo completo na seção de templates ao final desta fase):
 
@@ -1953,7 +1953,7 @@ Consolide o aprendizado em um documento enxuto contendo seis itens: (1) lista do
 > [!tip] Estrutura do Dossiê de Solução e Canvases desta Fase
 > Os seis campos acima compõem o Dossiê de Solução, que documenta o conceito vencedor ao final do Passo 7 após comparar os dois protótipos finalistas testados nos Passos 4 a 6. Antes de iniciar a geração de ideias no Passo 1, utilize o [[#Canvas: Opportunity Canvas (Jeff Patton, 2014)|Opportunity Canvas]] para alinhar problema, usuários, valor para o negócio e restrições, e, ao encerrar o Passo 7, preencha o [[#Canvas: MVP Canvas (Tristan Kromer e Paulo Caroli)|MVP Canvas]] para amarrar as hipóteses e métricas que guiarão a especificação na Fase 10.
 
-### Os sete passos aplicados, sessão de ideação do PadariaPro
+### Os sete passos aplicados: sessão de ideação do PadariaPro
 
 Para tornar o método concreto, este é o desenrolar dos passos 1 a 6 aplicados à mesma ideia das fases anteriores.
 
@@ -2639,7 +2639,7 @@ graph TD
 
 ---
 
-#### Template: Story Map exemplo, MVP de app de entrega regional
+#### Template: Story Map exemplo (MVP de app de entrega regional)
 
 Horizontal (jornada): cliente *Descobre* → *Seleciona loja* → *Escolhe produtos* → *Paga* → *Acompanha* → *Recebe*
 
@@ -2907,7 +2907,7 @@ Funcionalidade decisiva a simplificar. Ajuste de pedido recorrente. Mover para W
 
 Iteração prioritária. Simplificar onboarding para três passos. CNPJ, depois primeiro fornecedor, depois primeiro pedido teste.
 
-### Caso brasileiro real, Gupy e empresas-piloto
+### Caso brasileiro real: Gupy e empresas-piloto
 
 #### Simulação didática de validação de solução e corte de escopo no setor de HR Tech (inspirada na evolução de plataformas como a Gupy)
 
