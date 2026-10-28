@@ -4346,10 +4346,8 @@ O processo de go-to-market estruturado, discutido na [[#FASE 15: MÁQUINA DE CRE
 Para que a operação indireta escale sem entrar em guerra com a sua equipe comercial interna, governe três regras operacionais (aprofundadas no [[#CAPÍTULO 5: CANAIS INDIRETOS E PARCERIAS: PARCERIAS, FRANQUIAS, CHANNEL|Capítulo 5 a seguir]]):
 
 1. **Delimitação de territórios e segmentos (*Territory Planning*):** defina com clareza quais faixas de porte, regiões ou verticais são exclusivas da força direta e onde os parceiros têm prioridade.
-
-**Capacitação de parceiros (*partner enablement*).** Espelha o treinamento da equipe comercial interna, adaptado para a força de vendas do parceiro: inclui certificação técnica e comercial por nível, roteiros de resposta a objeções, ambiente de demonstração e fundos cooperados de marketing (MDF) vinculados a planos de contas conjuntos. Sem capacitação estruturada, o parceiro assina o contrato, publica o logotipo no site e não gera nenhuma oportunidade qualificada.
-
-2. **Prevenção de conflito de canal (*Channel Conflict*) e registro de oportunidade:** exija registro prévio da oportunidade (*Deal Registration*) com validade de 60 a 90 dias e adote remuneração neutra de cota para o seu gerente comercial quando um parceiro fechar negócio no território dele.
+2. **Capacitação de parceiros (*partner enablement*):** espelha o treinamento da equipe comercial interna, adaptado para a força de vendas do parceiro: inclui certificação técnica e comercial por nível, roteiros de resposta a objeções, ambiente de demonstração e fundos cooperados de marketing (MDF) vinculados a planos de contas conjuntos. Sem capacitação estruturada, o parceiro assina o contrato, publica o logotipo no site e não gera nenhuma oportunidade qualificada.
+3. **Prevenção de conflito de canal (*Channel Conflict*) e registro de oportunidade:** exija registro prévio da oportunidade (*Deal Registration*) com validade de 60 a 90 dias e adote remuneração neutra de cota para o seu gerente comercial quando um parceiro fechar negócio no território dele.
 
 ---
 
@@ -5384,12 +5382,9 @@ O domínio executivo consiste em instalar canais diretos de observação que pre
 Grandes erros de delegação executiva acontecem nos dois extremos: jogar o novo diretor na piscina sem contexto ("agora a área é sua, nos vemos no fim do trimestre") ou nunca soltar o volante. Adote o protocolo de transição em três etapas:
 
 1. **Primeiros 90 dias com imersão conjunta (*Shadowing* e Calibração):** nos primeiros três meses de um novo executivo, trabalhem lado a lado nas decisões decisivas da área até alinhar completamente o padrão de qualidade e os princípios de decisão.
-
-**Feedback loop formal de 30-60-90.** Em trinta, sessenta, e noventa dias, conversa formal entre fundador, e C-level. O que está funcionando. Onde o fundador ainda precisa estar envolvido. Onde o C-level precisa mais autonomia. Sem essa estrutura, as tensões se acumulam e explodem entre o oitavo e o décimo mês.
-
-**Critério de "mão-na-massa" no perfil.** Em startup pré-Série B, C-level que "não opera" não serve. O perfil deve incluir capacidade (e disposição) de operar diretamente trinta a cinquenta por cento do tempo, nos primeiros dezoito meses. Candidatos que só fazem "estratégia, e gestão de time", não encaixam no estágio.
-
-2. **Transferência escrita de contexto e alçadas:** documente em duas páginas quais decisões o líder passa a tomar sozinho, quais exigem consulta prévia e quais métricas guardiãs acionam revisão imediata.
+2. **Feedback loop formal de 30-60-90:** em trinta, sessenta e noventa dias, conduza conversa formal entre fundador e C-level sobre o que está funcionando, onde o fundador ainda precisa estar envolvido e onde o C-level precisa de mais autonomia. Sem essa estrutura, as tensões se acumulam e explodem entre o oitavo e o décimo mês.
+3. **Critério de "mão-na-massa" no perfil:** em startup pré-Série B, C-level que "não opera" não serve. O perfil deve incluir capacidade (e disposição) de operar diretamente trinta a cinquenta por cento do tempo nos primeiros dezoito meses. Candidatos que só fazem "estratégia e gestão de time" não encaixam no estágio.
+4. **Transferência escrita de contexto e alçadas:** documente em duas páginas quais decisões o líder passa a tomar sozinho, quais exigem consulta prévia e quais métricas guardiãs acionam revisão imediata.
 
 #### 6. Retornos táticos ao Founder Mode
 

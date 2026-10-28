@@ -8,7 +8,7 @@
 
 [![Licença CC BY-NC-SA](https://img.shields.io/badge/licença-CC%20BY--NC--SA%204.0-orange.svg)](LICENSE.md)
 [![Versão](https://img.shields.io/badge/versão-5.3-blue.svg)](CHANGELOG.md)
-[![Idioma](https://img.shields.io/badge/idioma-Português%20BR-green.svg)](#)
+[![Idioma](https://img.shields.io/badge/idioma-Português%20BR-green.svg)](README.md)
 [![PRs Bem-vindos](https://img.shields.io/badge/PRs-bem--vindos-brightgreen.svg)](CONTRIBUTING.md)
 
 [**→ Os 11 Volumes**](#os-11-volumes-autocontidos) · [**Por onde começo?**](#por-onde-começo) · [**Roteiros de Leitura (Fast-Tracks)**](#roteiros-de-leitura-por-perfil-fast-tracks) · [**As 21 Fases**](#as-21-fases) · [**Capítulos por tema**](#capítulos-por-tema) · [**Contribuir**](CONTRIBUTING.md)

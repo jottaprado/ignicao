@@ -64,18 +64,18 @@ Após o push, crie um release via CLI (`gh release create v5.3.0 ...`) ou interf
 3. **Title:** `IGNIÇÃO v5.3.0: Edição Narrativa Enxuta & Caderno de Trincheira (11 Volumes)`
 4. **Description:**
 
-```text
-IGNIÇÃO: Manual Operacional do Empreendedor Brasileiro (v5.3.0), organizado em 11 volumes 100% autocontidos + edição Omnibus.
+   ```text
+   IGNIÇÃO: Manual Operacional do Empreendedor Brasileiro (v5.3.0), organizado em 11 volumes 100% autocontidos + edição Omnibus.
 
-✅ Autocontenção total: 162 frameworks, 20 canvases, 42 templates preenchidos (224 ferramentas únicas), métricas e leituras integrados diretamente dentro das Fases e Capítulos onde são utilizados
-✅ 21 fases sequenciais (Fase 0 a Fase 20) + 8 Roteiros de Leitura por Perfil (Fast-Tracks)
-✅ 185 capítulos temáticos (155 capítulos nos Volumes 1 a 10 + 30 capítulos práticos no Volume 11)
-✅ 42 Playbooks Setoriais da economia real brasileira em 6 Clusters + Economia da Inovação e 15 Hubs Brasileiros
-✅ Volume 11 (Caderno de Trincheira, Simulações de Decisão e Cases Globais & Nacionais): 58 cases em 4 atos, 50 exercícios com gabarito comentado, 27 simulações de roleplay executivo e o Simulador Integrador das 21 Fases (0 a 105 pontos)
-✅ 11 volumes autocontidos (~74k a ~296k palavras cada)
-✅ 108 diagramas Mermaid
-✅ ~1,42 milhão de palavras com contexto regulatório, tributário e cultural brasileiro atualizado para Outubro de 2026
-```
+   ✅ Autocontenção total: 162 frameworks, 20 canvases, 42 templates preenchidos (224 ferramentas únicas), métricas e leituras integrados diretamente dentro das Fases e Capítulos onde são utilizados
+   ✅ 21 fases sequenciais (Fase 0 a Fase 20) + 8 Roteiros de Leitura por Perfil (Fast-Tracks)
+   ✅ 185 capítulos temáticos (155 capítulos nos Volumes 1 a 10 + 30 capítulos práticos no Volume 11)
+   ✅ 42 Playbooks Setoriais da economia real brasileira em 6 Clusters + Economia da Inovação e 15 Hubs Brasileiros
+   ✅ Volume 11 (Caderno de Trincheira, Simulações de Decisão e Cases Globais & Nacionais): 58 cases em 4 atos, 50 exercícios com gabarito comentado, 27 simulações de roleplay executivo e o Simulador Integrador das 21 Fases (0 a 105 pontos)
+   ✅ 11 volumes autocontidos (~74k a ~296k palavras cada)
+   ✅ 108 diagramas Mermaid
+   ✅ ~1,42 milhão de palavras com contexto regulatório, tributário e cultural brasileiro atualizado para Outubro de 2026
+   ```
 
 5. Faça upload dos 12 arquivos `.epub` gerados em `build/` (`IGNICAO.epub` e `IGNICAO-Vol-1-Ideacao.epub` a `IGNICAO-Vol-11-Workbook-Cases-e-Exercicios.epub`) como assets do release.
 

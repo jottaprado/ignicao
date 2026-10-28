@@ -2515,18 +2515,14 @@ Framework que identifica **três disciplinas de valor** como escolhas estratégi
 ##### As regras do jogo
 
 1. **Excelência Operacional (*Operational Excellence*):** entrega custo total baixo e conveniência previsível por meio de processos padronizados de ponta a ponta.
-
-- **Exemplos clássicos:** Walmart, McDonald's, Ryanair e Dell (na fase de venda direta padronizada).
-- **Organização exigida:** obsessão por giro, cadeia de suprimentos enxuta, automação e corte de exceções.
-
+   - **Exemplos clássicos:** Walmart, McDonald's, Ryanair e Dell (na fase de venda direta padronizada).
+   - **Organização exigida:** obsessão por giro, cadeia de suprimentos enxuta, automação e corte de exceções.
 2. **Liderança em Produto (*Product Leadership*):** entrega produtos tecnicamente superiores, com ciclos rápidos de invenção e margem sustentada por desempenho inédito.
-- **Exemplos clássicos:** Apple, Intel, 3M e WEG em motores e automação industrial.
-- **Organização exigida:** engenharia autônoma, investimento contínuo em P&D e tolerância a apostas técnicas que superam a versão anterior.
-
+   - **Exemplos clássicos:** Apple, Intel, 3M e WEG em motores e automação industrial.
+   - **Organização exigida:** engenharia autônoma, investimento contínuo em P&D e tolerância a apostas técnicas que superam a versão anterior.
 3. **Intimidade com o Cliente (*Customer Intimacy*):** entrega soluções moldadas à operação de cada conta, com relacionamento profundo e foco no valor vitalício (*LTV*).
-- **Exemplos clássicos:** Nordstrom, IBM Global Services e consultorias estratégicas ou integradores *enterprise*.
-
-- **Organização exigida:** autonomia na ponta para customizar a entrega, implantação assistida e equipes de contas dedicadas.
+   - **Exemplos clássicos:** Nordstrom, IBM Global Services e consultorias estratégicas ou integradores *enterprise*.
+   - **Organização exigida:** autonomia na ponta para customizar a entrega, implantação assistida e equipes de contas dedicadas.
 
 Aplicação direta na Fase 2: ao preencher a Proposta de Valor (Bloco 4) e o Modelo de Negócios (Bloco 5) da sua DII, escolha qual dessas três disciplinas governa a sua oferta para não prometer implantação artesanal cobrando mensalidade de autosserviço.
 Use também a disciplina escolhida para blindar o anti-perfil ("Quem NÃO é cliente") no Bloco 2: quem exige customização pesada fica fora de um modelo de Excelência Operacional. Quem compra apenas por menor preço fica fora de Liderança em Produto.
@@ -2586,10 +2582,10 @@ Método para **estruturar comunicação** (escrita e oral) em forma de pirâmide
 3. **Sustentar cada pilar com fatos verificáveis:** ancore cada argumento em números concretos, exemplos observados ou restrições reais do setor.
 
 4. **Abrir com a sequência SCQA nos primeiros 30 segundos:**
-- **S (Situação):** o fato concreto e consensual sobre a rotina atual do seu cliente-alvo.
-- **C (Complicação):** o gargalo, perda financeira ou mudança recente que torna a situação insustentável.
-- **Q (Questão):** a pergunta inevitável que o decisor econômico precisa responder.
-- **A (Resposta / *Answer*):** a proposta central da sua DII em uma única frase direta (o topo da pirâmide).
+   - **S (Situação):** o fato concreto e consensual sobre a rotina atual do seu cliente-alvo.
+   - **C (Complicação):** o gargalo, perda financeira ou mudança recente que torna a situação insustentável.
+   - **Q (Questão):** a pergunta inevitável que o decisor econômico precisa responder.
+   - **A (Resposta / *Answer*):** a proposta central da sua DII em uma única frase direta (o topo da pirâmide).
 
 No [[#CAPÍTULO 9: APRESENTAÇÃO E FALA EM PÚBLICO|Capítulo 9 (Apresentação e Fala em Público)]], você retomará o SCQA para roteirizar apresentações completas. Aqui na Fase 2, use-o para condensar sua DII no teste oral de 90 segundos.
 

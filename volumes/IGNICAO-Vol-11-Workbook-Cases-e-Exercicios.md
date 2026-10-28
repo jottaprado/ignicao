@@ -3771,12 +3771,12 @@ Vamos conferir também pela **Demonstração de Fluxo de Caixa pelo Método Indi
 4. **(+) Aumento de Obrigações Trabalhistas, Tributárias e Provisões a Pagar no Passivo Circulante** (R$ 20.000 de impostos s/ vendas + R$ 160.000 de provisões de 13º/férias + R$ 40.000 de IRPJ/CSLL provisionado e ainda não desembolsado): $+\text{R\$ } 220.000,00$
 5. **(=) Caixa Líquido Gerado pelas Atividades Operacionais (FCO):**
 
-$$180.000 + 90.000 - 750.000 + 220.000 = -\text{R\$ } 260.000,00$$
+   $$180.000 + 90.000 - 750.000 + 220.000 = -\text{R\$ } 260.000,00$$
 
 6. **(-) Caixa Aplicado nas Atividades de Investimento (CAPEX de dispositivos de telemetria):** $-\text{R\$ } 160.000,00$
 7. **(=) Variação Líquida Total de Caixa no Trimestre:**
 
-$$-\text{R\$ } 260.000,00 - \text{R\$ } 160.000,00 = -\text{R\$ } 420.000,00$$
+   $$-\text{R\$ } 260.000,00 - \text{R\$ } 160.000,00 = -\text{R\$ } 420.000,00$$
 
 ##### Passo 2: Diagnóstico do Efeito Tesoura e da Necessidade de Capital de Giro (NCG)
 
@@ -5488,7 +5488,7 @@ Abaixo está o rascunho defeituoso entregue por um PM júnior:
 | Elemento do Shape Up Pitch | Especificação Executiva para o Time de Produto e Engenharia |
 | :--- | :--- |
 | **1. Apetite (Orçamento Fixo)** | **Big Batch: 6 semanas completas** de 1 Squad (1 PM, 1 Designer, 2 Devs Backend, 1 Dev Frontend), seguidas de 2 semanas de *Cool-down*. Se o escopo não couber em 6 semanas, cortaremos funcionalidades acessórias antes da semana 3. |
-| **2. Solução (Breadboard de Fluxo)** | **Tela 1 (Contas a Receber):** Card no topo com `Limite Pré-Aprovado Disponível (R$)` consumido via webhook noturno do FIDC + botão `Simular Recebimento via Pix`. **Tela 2 (Seletor de Notas):** O usuário digita o valor desejado (ex.: R$ 50.000) e o sistema pré-seleciona automaticamente as notas elegíveis de menor custo ou permite marcar/desmarcar checkboxes, exibindo em tempo real: `Valor Bruto`, `Desconto Total (R$ e % a.m.)` e `Líquido no Pix`. **Tela 3 (Assinatura e Liquidação):** Modal de confirmação do Termo de Cessão assinado com o certificado A1 já salvo no cofre do NexoERP -> Chamada assíncrona com `Idempotency-Key` para a API do FIDC/BaaS -> Tela de status com atualização via WebSocket quando o comprovante Pix (E2E ID) retornar. |
+| **2. Solução (Breadboard de Fluxo)** | **Tela 1 (Contas a Receber):** Card no topo com `Limite Pré-Aprovado Disponível (R$)` consumido via webhook noturno do FIDC + botão `Simular Recebimento via Pix`. **Tela 2 (Seletor de Notas):** O usuário digita o valor desejado (ex.: R$ 50.000) e o sistema pré-seleciona automaticamente as notas elegíveis de menor custo ou permite marcar/desmarcar checkboxes, exibindo em tempo real: `Valor Bruto`, `Desconto Total (em reais e % a.m.)` e `Líquido no Pix`. **Tela 3 (Assinatura e Liquidação):** Modal de confirmação do Termo de Cessão assinado com o certificado A1 já salvo no cofre do NexoERP -> Chamada assíncrona com `Idempotency-Key` para a API do FIDC/BaaS -> Tela de status com atualização via WebSocket quando o comprovante Pix (E2E ID) retornar. |
 | **3. Rabbit Holes (Armadilhas Resolvidas no Desenho)** | **Armadilha A (Lentidão na Análise de Crédito Síncrona):** Se consultarmos a API do FIDC apenas no momento em que o usuário clicar no botão, a análise do sacado pode demorar 40 segundos e travar a tela. *Solução:* Um *job* noturno às 04h00 da manhã envia as NF-es elegíveis para pré-validação em lote (*batch*), de modo que às 08h00 da manhã o limite e a taxa já estão pré-calculados no cache local. **Armadilha B (Certificado Digital Expirado ou Tipo A3 em Token USB):** Assinatura via token físico USB A3 dá erro em 40% dos navegadores. *Solução:* Restringir a v1 exclusivamente para empresas que já utilizam Certificado Digital **A1 (arquivo .pfx em nuvem)** no emissor de notas do NexoERP (que representam 89% da nossa base). |
 | **4. No-Gos (Expressamente Fora do Escopo)** | 1. **Zero antecipação de recebíveis de cartão de crédito/maquininha** nesta versão (apenas NF-e de mercadoria/boleto Nexo). 2. **Zero leilão multi-FIDC na v1** (integraremos com apenas 1 FIDC parceiro exclusivo via API padronizada). 3. **Zero suporte a notas fiscais de serviço (NFS-e municipais)** na v1 (apenas NF-e modelo 55 estadual, cujo XML e manifesto na SEFAZ Nacional são padronizados). 4. **Zero aplicativo mobile nativo** (funcionará 100% no painel web responsivo). |
 

@@ -612,11 +612,11 @@ Experimento controlado em que usuários são aleatoriamente divididos em grupo d
 
 3. **Cálculo prévio do tamanho da amostra** (definido antes de iniciar o teste, nunca depois):
 
-```text
-n = 16 × p(1-p) / MDE²
-```
+   ```text
+   n = 16 × p(1-p) / MDE²
+   ```
 
-Onde $p$ é a taxa de conversão atual (*baseline*) e $\text{MDE}$ é o efeito mínimo detectável (*Minimum Detectable Effect*) em pontos percentuais absolutos.
+   Onde $p$ é a taxa de conversão atual (*baseline*) e $\text{MDE}$ é o efeito mínimo detectável (*Minimum Detectable Effect*) em pontos percentuais absolutos.
 
 4. **Duração pré-definida:** baseada no cálculo amostral e sempre fechada em ciclos semanais completos (7 ou 14 dias) para neutralizar variações de dia da semana, nunca "rodando até dar certo".
 
@@ -1548,7 +1548,7 @@ Passo 1: Formule uma pergunta causal explícita (ex.: "o desconto de frete aumen
 
 Passo 2: Escolha método adequado a dados disponíveis.
 
-Passo 3: Utilize pacotes estatísticos em Python (`statsmodels`, `DoWhy`, ` EconML`) ou R com apoio de analista de dados para estimar o efeito.
+Passo 3: Utilize pacotes estatísticos em Python (`statsmodels`, `DoWhy`, `EconML`) ou R com apoio de analista de dados para estimar o efeito.
 
 Passo 4: Teste suposições (paralelismo em DiD, continuidade em RDD, etc).
 

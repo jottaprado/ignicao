@@ -431,7 +431,7 @@ function preprocessMarkdown(md, { isOmnibus = false } = {}) {
   //     para HTML semântico / Unicode (<sub>, <sup>, <strong>, ×, ÷, ≥, ≤, ≈, ∑, ∈, ∩, →, ⇒, ±, Δ, α, °)
   out = out.replace(/\$\$([\s\S]*?)\$\$/g, (_, expr) => latexToHtml(expr));
   out = out.replace(
-    /(?<![A-Z\\])\$(?!\s)((?:\\\$|(?!(?:R|US)\$)[^$\n])+?)(?<![\\ \t])(?<!R)(?<!US)\$/g,
+    /(?<![A-Z\\])\$(?!\s)((?:\\\$|(?!(?:R|US)\$)[^$\n])+?)(?<![\\ \t])(?<![\s(]R)(?<!US)\$/g,
     (_, expr) => latexToHtml(expr)
   );
 

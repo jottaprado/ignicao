@@ -31,3 +31,7 @@ jobs:
       - name: Suíte de Validação de Ponto Fixo em 5 Camadas (validate_v53.py)
         run: python validate_v53.py
 
+      - name: Lint de Markdown (markdownlint-cli2)
+        run: npx --yes markdownlint-cli2 "volumes/*.md" "*.md"
+
+
