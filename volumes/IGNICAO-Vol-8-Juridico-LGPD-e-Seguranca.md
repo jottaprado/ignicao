@@ -303,7 +303,7 @@ A LGPD ([[#CAPÍTULO 9: LGPD, COMPLIANCE E GOVERNANÇA DE DADOS|Capítulo 9 (LGP
 
 **Registro de marca no INPI:** pedido protocolado em 15 de fevereiro nas classes NCL 9 (software) e 42 (serviços tecnológicos) para o nome e o logotipo "PadariaPro", com pagamento da taxa única de depósito (R$ 440 por classe com desconto de EPP, já incluído o primeiro decênio). O protocolo assegura desde a data do depósito a prioridade legal contra pedidos posteriores na mesma classe.
 
-A contingência. Reserva líquida: R$ 150 mil (cerca de três meses de despesas fixas). Plano de contingência de quatro páginas documentado ([[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9: GESTÃO DE CRISE, CONTINUIDADE OPERACIONAL E COMUNICAÇÃO CRÍTICA|Capítulo 9 (Gestão de Crise, Continuidade Operacional e Comunicação Crítica) (Vol. 9)]]), para quatro cenários: caixa crítico, churn explosivo, perda de sócio, e regulatório.
+A contingência. Reserva líquida: R$ 150 mil (cerca de três meses de despesas fixas). Plano de contingência de quatro páginas documentado ([[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 9: GESTÃO DE CRISE, CONTINUIDADE OPERACIONAL E COMUNICAÇÃO CRÍTICA|Capítulo 9 (Gestão de Crise, Continuidade Operacional e Comunicação Crítica) (Vol. 9)]]), para quatro cenários: caixa crítico, churn explosivo, perda de sócio e regulatório.
 
 **A separação financeira:** conta PJ dedicada em banco digital corporativo. Pró-labore dos fundadores fixado em R$ 7.500 por mês, alinhado ao planejamento financeiro pessoal visto no [[IGNICAO-Vol-1-Ideacao#CAPÍTULO 1: DINHEIRO PESSOAL DO FUNDADOR|Capítulo 1 do Volume 1 (Dinheiro Pessoal do Fundador)]] e na [[IGNICAO-Vol-1-Ideacao#FASE 0: PREPARAÇÃO DO EMPREENDEDOR|Fase 0 (Vol. 1)]]. Nenhuma despesa pessoal passa pela conta da empresa e qualquer aporte suplementar é formalizado por contrato escrito.
 
@@ -325,7 +325,7 @@ Você concluiu a Fase 18 quando todos os critérios abaixo estão cumpridos.
 > [!warning] Critério de saída
 > Cada mês operando com prestadores PJ subordinados, código sem termo de cessão ou marca sem protocolo no INPI acumula passivo trabalhista, fiscal e societário corrigido pela Selic. Na diligência da Série A de Lucas e Marina, essas pendências congelaram R$ 2,7 milhões do aporte em conta vinculada (*escrow*) e custaram R$ 180 mil de saneamento.
 
-**Oficina de Trincheira (As 3 Peças do Dia Zero e Primeiros Passos):** antes de avançar, estruture estas três peças no seu arquivo societário: (A) Esqueleto do Acordo de Sócios (6 cláusulas obrigatórias): (1) *Quotas e Reverse Vesting* (48 meses, *cliff* de 12 meses, opção de recompra pelo valor nominal da fração não consolidada), (2) *Regras de Saída* (*Good Leaver* com pagamento parcelado pelo valor contábil/avaliado, *Bad Leaver* por falta grave, abandono ou violação de não concorrência com recompra pelo valor nominal), (3) *Governança e Vetos* (quórum qualificado para dívida acima de R$ X, emissão de novas quotas, venda de ativos de PI e alteração de pró-labore), (4) *Resolução de Impasse* (mediação de 30 dias seguida de cláusula *shotgun*), (5) *Transferência de Quotas* (direito de preferência, *tag-along* de 100% e *drag-along* acima de gatilho mínimo de preço), e (6) *Cessão de PI, Sigilo e Não Aliciamento* (24 meses). (B) Cláusula-Núcleo de Cessão de PI para Prestadores e Cofundadores: *"O CEDENTE cede e transfere à SOCIEDADE, em caráter definitivo, irrevogável, irretratável e exclusivo, em todo o território nacional e no exterior, pelo prazo integral de proteção legal (Lei 9.609/1998, art. 4º, e Lei 9.610/1998, art. 49), a totalidade dos direitos patrimoniais sobre códigos-fonte, algoritmos, arquiteturas, interfaces, bancos de dados e documentações desenvolvidos para a SOCIEDADE desde a fase pré-constitutiva."* (C) Índice das 6 Pastas do Data Room Permanente: `01_Societario` (contrato social, acordo de sócios, *cap table*, atas), `02_Propriedade_Intelectual` (protocolos INPI, termos de cessão de PI, inventário *open source*), `03_Contratos_Comerciais` (MSA, termos de uso, contratos com grandes clientes e fornecedores), `04_Trabalhista_e_Pessoas` (contratos CLT, aditivos de teletrabalho, contratos PJ por escopo, recibos FGTS/eSocial), `05_Tributario_e_Contabil` (balancetes, DREs, recibos DCTFWeb/PGDAS-D, certidões CND/CPEND) e `06_LGPD_e_Seguranca` (ROPA, política de privacidade, DPAs, plano de resposta a incidentes). Com esse índice aberto, execute os cinco primeiros passos:
+**Oficina de Trincheira (As 3 Peças do Dia Zero e Primeiros Passos):** antes de avançar, estruture estas três peças no seu arquivo societário: (A) Esqueleto do Acordo de Sócios (6 cláusulas obrigatórias): (1) *Quotas e Reverse Vesting* (48 meses, *cliff* de 12 meses, opção de recompra pelo valor nominal da fração não consolidada), (2) *Regras de Saída* (*Good Leaver* com pagamento parcelado pelo valor contábil/avaliado, *Bad Leaver* por falta grave, abandono ou violação de não concorrência com recompra pelo valor nominal), (3) *Governança e Vetos* (quórum qualificado para dívida acima de R$ X, emissão de novas quotas, venda de ativos de PI e alteração de pró-labore), (4) *Resolução de Impasse* (mediação de 30 dias seguida de cláusula *shotgun*), (5) *Transferência de Quotas* (direito de preferência, *tag-along* de 100% e *drag-along* acima de gatilho mínimo de preço), e (6) *Cessão de PI, Sigilo e Não Aliciamento* (24 meses). (B) Cláusula-Núcleo de Cessão de PI para Prestadores e Cofundadores: *"O CEDENTE cede e transfere à SOCIEDADE, em caráter definitivo, irrevogável, irretratável e exclusivo, em todo o território nacional e no exterior, pelo prazo integral de proteção legal (Lei 9.609/1998, art. 4º e Lei 9.610/1998, art. 49), a totalidade dos direitos patrimoniais sobre códigos-fonte, algoritmos, arquiteturas, interfaces, bancos de dados e documentações desenvolvidos para a SOCIEDADE desde a fase pré-constitutiva."* (C) Índice das 6 Pastas do Data Room Permanente: `01_Societario` (contrato social, acordo de sócios, *cap table*, atas), `02_Propriedade_Intelectual` (protocolos INPI, termos de cessão de PI, inventário *open source*), `03_Contratos_Comerciais` (MSA, termos de uso, contratos com grandes clientes e fornecedores), `04_Trabalhista_e_Pessoas` (contratos CLT, aditivos de teletrabalho, contratos PJ por escopo, recibos FGTS/eSocial), `05_Tributario_e_Contabil` (balancetes, DREs, recibos DCTFWeb/PGDAS-D, certidões CND/CPEND) e `06_LGPD_e_Seguranca` (ROPA, política de privacidade, DPAs, plano de resposta a incidentes). Com esse índice aberto, execute os cinco primeiros passos:
 
 1. Contrate advogado especializado em startups para revisar o contrato social, o acordo de quotistas com *reverse vesting* e os modelos de cessão de PI e contratos B2B (pacote inicial típico de R$ 5 mil a R$ 15 mil, conforme a complexidade societária).
 2. Formalize o cap table em planilha detalhada, mais o vesting dos sócios (quatro anos com cliff de doze meses é padrão).
@@ -658,7 +658,7 @@ O poder público não compra produto pronto. Ele contrata o desenvolvimento ou t
 **Limites legais de valor:** o CPSI não depende dos tetos de dispensa da Lei 14.133/2021, ele possui limite próprio fixado na LC 182/2021 de R$ 1,6 milhão por contrato de teste (art. 14, § 2º) e de até cinco vezes esse valor (R$ 8 milhões) para o contrato de fornecimento posterior sem nova licitação (art. 15, § 3º). Pelo art. 12, § 3º, da LC 182/2021, esses tetos podem ser atualizados anualmente pelo Poder Executivo federal segundo o IPCA. Não confunda esse rito especial com a dispensa geral por baixo valor da Nova Lei de Licitações (Lei 14.133/2021, art. 75, I e II, atualizada pelo Decreto 12.807/2025 para R$ 65.492,11 em compras e serviços comuns e R$ 130.984,20 em obras e serviços de engenharia em 2026).
 
 > [!tip] Govtech como canal de aquisição subestimado
-> Prefeituras, estados, autarquias, e fundações públicas têm orçamentos dedicados a inovação. Muitos estão ativamente buscando startups para resolver problemas de gestão, saúde pública, mobilidade, e educação. Embora não haja comissão de intermediários, o custo de aquisição no setor público é elevado: exige acompanhar editais, preparar documentação técnica, custear meses de operação assistida e suportar um ciclo de vendas de 12 a 24 meses (planeje caixa para ao menos um ano antes do primeiro recebimento). O risco é o ciclo longo, e a dependência de um único cliente grande. Ver [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 5: SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|Capítulo 5 (Sales: Motion Completa, do Outbound ao Renewal) (Vol. 4)]] para gestão de concentração de receita.
+> Prefeituras, estados, autarquias, e fundações públicas têm orçamentos dedicados a inovação. Muitos estão ativamente buscando startups para resolver problemas de gestão, saúde pública, mobilidade e educação. Embora não haja comissão de intermediários, o custo de aquisição no setor público é elevado: exige acompanhar editais, preparar documentação técnica, custear meses de operação assistida e suportar um ciclo de vendas de 12 a 24 meses (planeje caixa para ao menos um ano antes do primeiro recebimento). O risco é o ciclo longo, e a dependência de um único cliente grande. Ver [[IGNICAO-Vol-4-Tracao-e-PMF#CAPÍTULO 5: SALES: MOTION COMPLETA, DO OUTBOUND AO RENEWAL|Capítulo 5 (Sales: Motion Completa, do Outbound ao Renewal) (Vol. 4)]] para gestão de concentração de receita.
 
 #### Caso Prático Ilustrativo: Henrique e o CPSI em Prefeitura do Interior do Paraná
 
@@ -1191,7 +1191,7 @@ flowchart TD
 **Prioridade de depósito**: do dia do depósito em diante, a startup tem prioridade sobre qualquer pedido posterior para marca idêntica ou similar na mesma classe. Não precisa esperar o registro para ter prioridade.
 
 > [!tip] Registrar o nome antes de lançar publicamente
-> O ideal é depositar o pedido de marca antes do lançamento do produto, ou simultaneamente. O custo da taxa única para duas classes com especificação pré-aprovada (R$ 880 no total com desconto de ME/EPP/Inova Simples, ou R$ 1.760 na taxa cheia, já cobrindo o primeiro decênio e o certificado) é mínimo comparado ao custo de um rebranding forçado depois da tração.
+> O ideal é depositar o pedido de marca antes do lançamento do produto ou simultaneamente. O custo da taxa única para duas classes com especificação pré-aprovada (R$ 880 no total com desconto de ME/EPP/Inova Simples, ou R$ 1.760 na taxa cheia, já cobrindo o primeiro decênio e o certificado) é mínimo comparado ao custo de um rebranding forçado depois da tração.
 
 #### Busca prévia
 
@@ -1217,7 +1217,7 @@ Para não aguardar a fila ordinária de exame de patentes do INPI (cujo prazo m�
 
 #### Quando patentear
 
-Patente protege **invenção técnica**: um novo processo, produto, ou método com aplicação industrial. No Brasil, a Lei 9.279/1996 (LPI) define os requisitos: novidade, atividade inventiva, e aplicação industrial.
+Patente protege **invenção técnica**: um novo processo, produto, ou método com aplicação industrial. No Brasil, a Lei 9.279/1996 (LPI) define os requisitos: novidade, atividade inventiva e aplicação industrial.
 
 **Startup de software puro**: barra de patenteabilidade alta. O INPI não concede patente para software como tal (algoritmo, método matemático ou regra de negócio pura, vedados pelo art. 10, V e VIII, da LPI). Mas concede patente para invenção implementada por programa de computador que produza efeito técnico identificável (conforme as Diretrizes da Portaria INPI/PR nº 411/2020), isto é, quando o software controla um dispositivo físico, otimiza um processo industrial ou resolve um problema técnico concreto além da mera interação computacional.
 
@@ -1411,10 +1411,10 @@ O que qualquer investidor institucional ou comprador estratégico examina na dil
 
 ### Leitura adicional (Propriedade Intelectual e INPI)
 
-- **Lei 9.279/1996 (LPI)**: Lei de Propriedade Industrial: marcas, patentes, desenhos industriais, e segredo industrial.
+- **Lei 9.279/1996 (LPI)**: Lei de Propriedade Industrial: marcas, patentes, desenhos industriais e segredo industrial.
 - **Lei 9.609/1998**: Lei do Software: direito autoral aplicado a programas de computador.
 - **Diretrizes de Exame de Patentes do INPI**: documento que define como o INPI examina pedidos de patente de software (atualizado periodicamente, buscar versão mais recente).
-- **Portal e-INPI**: para depósito de marcas, patentes, e consulta de status.
+- **Portal e-INPI**: para depósito de marcas, patentes e consulta de status.
 - **WIPO Madrid Monitor**: para acompanhar pedidos internacionais via Madrid Protocol.
 - **Portaria INPI/PR nº 411/2020**: diretrizes oficiais de exame de pedidos de patente envolvendo invenções implementadas por programa de computador no INPI.
 
@@ -2152,7 +2152,7 @@ Contratos com agências exigem revisão cuidadosa porque quase sempre partem da 
 O que revisar:
 
 - **Propriedade intelectual (PI):** quem é titular das peças criativas, do código-fonte e da base de *leads*? Nas criações sob encomenda, a titularidade patrimonial deve ser cedida integralmente à empresa contratante, mas isso precisa constar de cláusula escrita e expressa, pois a Lei de Direitos Autorais (Lei 9.610/1998, arts. 49 e 50) presume que os direitos pertencem ao autor se não houver cessão contratual específica.
-- **Confidencialidade:** acesso a dados de clientes, estratégia, e marca exige NDA.
+- **Confidencialidade:** acesso a dados de clientes, estratégia e marca exige NDA.
 - **Critérios de entrega e aceite:** o que define que o trabalho está concluído?
 - **Cláusula de saída:** qual é o aviso prévio para encerrar o contrato sem multa? O padrão saudável para serviços recorrentes de agência é de 30 dias, sem *lock-in* anual injustificado.
 - **Subcontratação:** a agência pode subcontratar sem autorização? Subcontratados têm acesso a dados da empresa?
@@ -2643,7 +2643,7 @@ Consequências: indenização por danos morais (R$ 10.000–200.000+, dependendo
 Elementos mínimos:
 
 - Política de conduta e anti-assédio por escrito, assinada por todos os colaboradores.
-- Canal de denúncias anônimo (pode ser e-mail dedicado, formulário, ou terceiro).
+- Canal de denúncias anônimo (pode ser e-mail dedicado, formulário ou terceiro).
 - Protocolo de investigação com prazo definido.
 - Cumprimento das obrigações legais de prevenção: regras de conduta, canal de denúncias e capacitação anual obrigatória sobre violência e assédio para empresas com CIPA (Lei 14.457/2022, art. 23, Programa Emprega + Mulheres) e inclusão obrigatória dos fatores de riscos psicossociais relacionados ao trabalho no Gerenciamento de Riscos Ocupacionais (GRO/PGR) da NR-1 (Portaria MTE 1.419/2024).
 - Consequências claras, aplicadas de forma consistente.
@@ -2739,7 +2739,7 @@ O que ter em ordem antes de crescer o time além dos primeiros 5 colaboradores:
 - [ ] Todos os empregados CLT registrados no eSocial antes do primeiro dia.
 - [ ] Contratos de trabalho por escrito, assinados, com cargo, jornada, salário e local definidos.
 - [ ] Colaboradores PJ com escopo limitado, múltiplos clientes documentáveis, e sem subordinação diária.
-- [ ] Controle de jornada implementado (sistema, planilha, ou ponto eletrônico) para todos os CLT.
+- [ ] Controle de jornada implementado (sistema, planilha ou ponto eletrônico) para todos os CLT.
 - [ ] Banco de horas com acordo individual escrito, se utilizado.
 - [ ] Contratos de home office formalizados e registrados no eSocial.
 - [ ] Plantões técnicos com escala formal e adicional de sobreaviso.
@@ -3900,7 +3900,7 @@ As multas chegam a 35 milhões de euros ou 7% do faturamento global anual para s
 
 **Princípios da OCDE sobre IA**
 
-Os Princípios da OCDE sobre IA (2019, atualizados 2024) não são regulação vinculante, mas funcionam como referência global de soft law adotada por mais de 40 países. O Brasil é signatário. Os princípios cobrem: IA inclusiva e sustentável, valores centrados no ser humano, transparência e explicabilidade, robustez e segurança, e responsabilização. Qualquer empresa que vende para grandes corporações ou governo brasileiro já encontra esses princípios refletidos em editais, RFPs, e avaliações de due diligence de fornecedores.
+Os Princípios da OCDE sobre IA (2019, atualizados 2024) não são regulação vinculante, mas funcionam como referência global de soft law adotada por mais de 40 países. O Brasil é signatário. Os princípios cobrem: IA inclusiva e sustentável, valores centrados no ser humano, transparência e explicabilidade, robustez, segurança e responsabilização. Qualquer empresa que vende para grandes corporações ou governo brasileiro já encontra esses princípios refletidos em editais, RFPs, e avaliações de due diligence de fornecedores.
 
 **PL 2338/2023: o projeto de lei brasileiro**
 
@@ -4047,7 +4047,7 @@ Na área da saúde (terreno de healthtechs e redes clínicas como a da Dra. Cami
 
 A **ANPD (Agência Nacional de Proteção de Dados)** consolidou sua atuação sobre sistemas de Inteligência Artificial por meio de seus estudos técnicos de Radar Tecnológico sobre IA Generativa, do programa de Sandbox Regulatório de IA e Proteção de Dados, da tomada de subsídios sobre o art. 20 da LGPD e de medidas preventivas de grande repercussão (como a atuação de 2024 sobre o uso de dados pessoais de brasileiros para treinamento de modelos de IA da Meta e a fiscalização de coleta biométrica por íris da Tools for Humanity/Worldcoin em 2024/2025). Os pontos decisivos exigidos pela agência incluem:
 
-- Toda atividade de treinamento de modelo com dados pessoais exige base legal na LGPD (consentimento, legítimo interesse, ou obrigação legal)
+- Toda atividade de treinamento de modelo com dados pessoais exige base legal na LGPD (consentimento, legítimo interesse ou obrigação legal)
 - O uso de dados pessoais para treinar modelos constitui operação de tratamento sujeita à LGPD (art. 5º, X), independentemente de o modelo final expor ou não os registros individuais.
 - O ajuste fino (*fine-tuning*) ou a transferência de aprendizado (*transfer learning*) sobre dados pessoais sem técnicas adequadas de privacidade expõe o modelo a **ataques de inferência de pertencimento (*membership inference*) e de extração de dados de treinamento**, nos quais um usuário mal-intencionado consegue deduzir ou reconstruir registros presentes na base original
 - Dados biométricos (reconhecimento facial, impressão digital e padrão de voz) são qualificados como dados pessoais sensíveis, cujo tratamento só é lícito sob as hipóteses taxativas do art. 11 da LGPD (como consentimento específico e destacado ou prevenção à fraude e segurança do titular em processos de identificação e autenticação de cadastro em sistemas eletrônicos, nos termos do art. 11, II, "g").
@@ -5326,7 +5326,7 @@ A essa base geral somam-se as normas setoriais que impõem auditoria em cascata 
 
 O mercado de fornecedores brasileiros inclui Tempest, Apura, Kryptus, CIPHER, Blockbit. Multinacionais bem estabelecidas: CrowdStrike, Palo Alto, Fortinet, Cisco Talos.
 
-Cyber insurance é mercado nascente no Brasil, e cresceu pós-2020. Apólices exigem comprovação de maturidade (auditorias, controles) antes da contratação.
+Cyber insurance é mercado nascente no Brasil e cresceu pós-2020. Apólices exigem comprovação de maturidade (auditorias, controles) antes da contratação.
 
 Para empresas privadas vítimas de invasão, extorsão por *ransomware* ou fraude eletrônica, o registro imediato do boletim de ocorrência e a preservação da cadeia de custódia devem ser feitos na Delegacia Especializada de Repressão a Crimes Cibernéticos da Polícia Civil do respectivo estado. Já a Diretoria de Combate a Crimes Cibernéticos da Polícia Federal (DCIBER) atua quando há interesse direto da União ou crime com repercussão interestadual ou internacional que exija repressão uniforme (Lei 10.446/2002).
 

@@ -303,18 +303,18 @@ A Fase 17 está concluída quando os seis critérios abaixo estão cumpridos.
 3. Repositório de playbooks ativo na wiki com histórico de revisão trimestral nos cinco fluxos mais decisivos e matriz nominal publicada dos dez donos de processo.
 4. Reuniões seguem agenda padrão, com decisões e ações registradas.
 5. Stack de SaaS inventariado, e otimizado nos últimos seis meses.
-6. Documentação interna centralizada, e atualizada.
+6. Documentação interna centralizada e atualizada.
 
 **Lista de verificação prática dos critérios de saída:**
 
 - [ ] Implementei ciclos de planejamento (OKRs trimestrais ou equivalente)?
 - [ ] Mantenho um painel operacional central com métricas-chave alimentadas por dados atualizados todo dia e lidas toda semana na WBR?
-- [ ] Defini processos documentados para contratação, onboarding, atendimento, e operação?
+- [ ] Defini processos documentados para contratação, onboarding, atendimento e operação?
 - [ ] Implementei sistema de tickets ou gestão para cada área (produto, customer, operação)?
 - [ ] Tenho pessoas responsáveis nomeadas por cada sistema ou processo (dono único, não compartilhado)?
 - [ ] As reuniões têm agenda, dono, duração, e saída clara (decisões ou ações)?
 - [ ] Stack operacional consolidado, sem proliferação descontrolada de SaaS?
-- [ ] Documentação interna centralizada (Notion, Confluence, ou equivalente)?
+- [ ] Documentação interna centralizada (Notion, Confluence ou equivalente)?
 
 **Plano imediato de implementação para fechar as lacunas de saída.**
 
@@ -480,7 +480,7 @@ Método de desenvolvimento de produto que se opõe a Scrum tradicional, com trê
 
 Fases:
 
-1. Moldagem (shaping): profissionais seniores (PM e designer sênior) reservam uma a duas semanas para dar forma ao problema, definem appetite (tempo), boundaries (o que não fará), e risco. 1-2 semanas.
+1. Moldagem (shaping): profissionais seniores (PM e designer sênior) reservam uma a duas semanas para dar forma ao problema, definem appetite (tempo), boundaries (o que não fará) e risco. 1-2 semanas.
 
 2. Betting: a cada 6 semanas, leadership "aposta" em 4-5 shaped projects. Descartados não viram "debt", somem.
 
@@ -1767,7 +1767,7 @@ flowchart TD
 
 A árvore é viva, não documento morto. A descoberta semanal acrescenta e refina os nós da árvore. Se não atualiza em duas semanas, o hábito morreu.
 
-O processo semanal em cinco passos. Entrevistar um a três usuários em torno do outcome atual. Adicionar opportunities novas na árvore, ou refinar existentes. Gerar solutions para opportunities que parecem promissoras. Escolher experiments para testar solutions. Executar o experiment, medir, ajustar.
+O processo semanal em cinco passos. Entrevistar um a três usuários em torno do outcome atual. Adicionar opportunities novas na árvore ou refinar existentes. Gerar solutions para opportunities que parecem promissoras. Escolher experiments para testar solutions. Executar o experiment, medir, ajustar.
 
 > [!important] Papel do CPO em descoberta contínua
 > Fazer a árvore viver. Revisão quinzenal. Evitar que vire documento morto. CPO que delega a árvore para PM júnior, e nunca olha de novo, garante que a descoberta vire teatro depois de três meses.
@@ -1838,7 +1838,7 @@ Na comunicação externa e interna, a equipe comercial tem acesso ao painel medi
 
 Quando implementar. Quando há dois ou mais designers, e dez ou mais engenheiros front-end, trabalhando no mesmo produto.
 
-Os componentes em quatro camadas. Tokens, cores, tipografia, espaçamentos, sombras (variáveis base). Components, botões, inputs, cards, modais, tabelas (composições). Patterns, flows comuns (auth, checkout, onboarding). Documentação, como usar, quando usar, e exemplos.
+Os componentes em quatro camadas. Tokens, cores, tipografia, espaçamentos, sombras (variáveis base). Components, botões, inputs, cards, modais, tabelas (composições). Patterns, flows comuns (auth, checkout, onboarding). Documentação, como usar, quando usar e exemplos.
 
 **Storage:** Design em Figma, com bibliotecas compartilhadas. Código em biblioteca de componentes em React, Vue, ou Svelte, com Storybook.
 
@@ -1848,9 +1848,9 @@ Os componentes em quatro camadas. Tokens, cores, tipografia, espaçamentos, somb
 
 #### 5. Product e Engineering, ritos e specs
 
-**Spec (PRD, Product Requirements Document).** Spec moderno não é "documento de vinte páginas". Em formato moderno, tem seis peças. Problema, um a dois parágrafos sobre o problema, ou opportunity. Success metrics, o que vai mudar, quantificado. User stories, ou JTBD, cenários reais de uso. Scope IN e OUT, explícito. Mocks, ou wireframes, link para o Figma. Open questions, o que ainda precisa decidir. Tamanho ideal, duas a cinco páginas. Mais longo significa que o spec não convergiu.
+**Spec (PRD, Product Requirements Document).** Spec moderno não é "documento de vinte páginas". Em formato moderno, tem seis peças. Problema, um a dois parágrafos sobre o problema ou opportunity. Success metrics, o que vai mudar, quantificado. User stories, ou JTBD, cenários reais de uso. Scope IN e OUT, explícito. Mocks, ou wireframes, link para o Figma. Open questions, o que ainda precisa decidir. Tamanho ideal, duas a cinco páginas. Mais longo significa que o spec não convergiu.
 
-**Definition of Ready (quando o spec está pronto para dev).** Problema, e solução, claros. Designs (mocks, ou hi-fi) prontos. Success metrics definidas. Scope congelado (mudanças viram nova spec). Engineering teve sessão de Q&A.
+**Definition of Ready (quando o spec está pronto para dev).** Problema, e solução, claros. Designs (mocks ou hi-fi) prontos. Success metrics definidas. Scope congelado (mudanças viram nova spec). Engineering teve sessão de Q&A.
 
 **Definition of Done (quando a feature está pronta).** Código em produção. Analytics instrumentado para success metrics. Documentação atualizada. QA passou. Comunicação a clientes, ou a Sales, feita (se aplicável).
 
@@ -1884,7 +1884,7 @@ Tensão com Scrum e Kanban. Shape Up não é substituto de Scrum para times que 
 
 Para não repetir o All-Hands da abertura, acompanhe a retenção de uso da funcionalidade por coorte aos 30, 60 e 90 dias após o lançamento: se a coorte experimenta na primeira semana e abandona no segundo mês, a entrega gerou ruído, não valor. Foi exatamente essa auditoria que permitiu a Lucas e Marina reverter a queda do NRR: eles removeram do menu as 18 telas com menos de 3% de uso, mapearam na OST que 68% do churn nascia de falhas silenciosas na conciliação de PIX e dedicaram dois ciclos de seis semanas à conciliação automática (aposta #1 do RICE após protótipo validado com 15 clientes), elevando a adoção da funcionalidade para 74% da base e recuperando o NRR de 93% para 114% dois trimestres depois.
 
-**Descoberta e validação.** Interviews por semana, ou mês, por squad. Opportunities na árvore (status: exploração, validação, ou endereçada). Experiments rodados por trimestre.
+**Descoberta e validação.** Interviews por semana, ou mês, por squad. Opportunities na árvore (status: exploração, validação ou endereçada). Experiments rodados por trimestre.
 
 **Execução.** Cycle time (spec até produção). Escopo entregue versus planejado por sprint. Bug backlog.
 
@@ -2081,7 +2081,7 @@ A estrutura de 1:1 que funciona começa com o espaço da pessoa, não do gestor.
 
 Abra com pergunta aberta: "Como você está?" não como protocolo social, mas como pergunta genuína cuja resposta você escuta até o fim antes de entrar na pauta. "O que está travando você essa semana?" "Tem algo que você queria falar mas a reunião de time não era o lugar certo?"
 
-Depois explore o que a pessoa quer explorar. Só então traga o que você quer abordar, e anuncie isso antes: "Tenho três coisas que quero falar hoje, posso trazer?"
+Depois explore o que a pessoa quer explorar. Só então traga o que você quer abordar e anuncie isso antes: "Tenho três coisas que quero falar hoje, posso trazer?"
 
 Perguntas que acessam o que o 1:1 precisa acessar:
 
@@ -2411,7 +2411,7 @@ Avaliar engenheiros com rigor sem transformar o processo seletivo em teatro acad
 
 Engenharia é produto. Produto é empresa. Contratar errado em engenharia degrada velocidade, qualidade e moral do time.
 
-O mercado é global, e competitivo. Dev (desenvolvedor) sênior brasileiro compete com ofertas estrangeiras em dólar. Perder três contratações seguidas para o exterior pode custar seis a doze meses de roadmap (plano de produto).
+O mercado é global e competitivo. Dev (desenvolvedor) sênior brasileiro compete com ofertas estrangeiras em dólar. Perder três contratações seguidas para o exterior pode custar seis a doze meses de roadmap (plano de produto).
 
 > [!warning] Custo de erro em engenharia
 > Sem marcos claros de avaliação aos 30, 60 e 80 dias, um desenvolvedor mal contratado costuma levar de seis a doze meses para ser desligado, deixando dívida técnica, desgastando a cultura da equipe e consumindo dezenas de horas de engenheiros seniores em revisões de código corretivas. Mesmo quando o erro é interrompido aos 60 dias, como fez Lucas, a soma de salários, encargos, tempo de entrevista e atraso de um trimestre no roadmap facilmente ultrapassa R$ 190 mil.
@@ -2426,7 +2426,7 @@ Fundador ou CTO: no estágio inicial, o fundador técnico conduz pessoalmente a 
 
 Engineering Managers (gerentes de engenharia). Hiring managers (gestores responsáveis pela contratação) responsáveis por contratações no time deles.
 
-Senior, Staff, ou Principal Engineers. Conduzem entrevistas técnicas profundas.
+Senior, Staff ou Principal Engineers. Conduzem entrevistas técnicas profundas.
 
 Recruiters in-house (recrutadores internos), ou tech recruiters (recrutadores especializados em tecnologia). Cuidam de sourcing, triagem, coordenação e fechamento.
 
@@ -2454,7 +2454,7 @@ Como estimativa operacional de funil em startups brasileiras, espere converter d
 
 **Inbound e comunidade.** Construa uma página de carreiras objetiva e transparente, informando faixa salarial, arquitetura utilizada e etapas do processo seletivo. Divulgue em canais como LinkedIn Jobs, Wellfound, Programathor, Vagas.com e Revelo. No GitHub, avalie repositórios públicos, issues abertas e contribuições em código aberto. No X e em comunidades técnicas no Discord e no Slack (como Dev Brasil, Reactiflux e grupos de Rust e Go), bem como no Stack Overflow, observe quem responde dúvidas técnicas com clareza. Estruture um programa de indicações internas (*referrals*) com bônus de R$ 3 mil a R$ 10 mil por contratação efetivada, já que candidatos indicados costumam converter em taxa três a cinco vezes superior à candidatura fria. Marque presença também em eventos ativos no país, como The Developers Conference (TDC), Python Brasil, GopherCon Brasil e encontros regionais de tecnologia.
 
-**Outbound.** LinkedIn Recruiter. Mensagem personalizada, não template. GitHub search, mais e-mail. Funciona, se a mensagem for específica (viu projeto dele, elogio real, pergunta real). Sequences com toque humano. Ferramentas de cadência como Lemlist, Gem e Woodpecker ajudam a organizar o contato, desde que a mensagem seja escrita por uma pessoa real. Em plataformas de recrutamento reverso (como a Revelo), os candidatos se cadastram e a empresa busca diretamente. Poaching ético. Mira em empresas adjacentes, com gente insatisfeita. Pesquisa via Glassdoor, LinkedIn, e network.
+**Outbound.** LinkedIn Recruiter. Mensagem personalizada, não template. GitHub search, mais e-mail. Funciona, se a mensagem for específica (viu projeto dele, elogio real, pergunta real). Sequences com toque humano. Ferramentas de cadência como Lemlist, Gem e Woodpecker ajudam a organizar o contato, desde que a mensagem seja escrita por uma pessoa real. Em plataformas de recrutamento reverso (como a Revelo), os candidatos se cadastram e a empresa busca diretamente. Poaching ético. Mira em empresas adjacentes, com gente insatisfeita. Pesquisa via Glassdoor, LinkedIn e network.
 
 O que converte na abordagem ativa: mensagem escrita pela liderança técnica mostrando que leu o trabalho público do candidato, clareza sobre os desafios reais da vaga, transparência de faixa salarial já no primeiro contato e explicação honesta do que a pessoa vai aprender, com quem vai trabalhar e qual impacto terá no produto.
 
@@ -2491,17 +2491,17 @@ Domínio técnico. Profundidade na stack relevante mais amplitude.
 
 Capacidade de aprender. Não precisa saber tudo. Precisa aprender rápido.
 
-**Comunicação:** Explica decisões, recebe feedback, e argumenta sem ego.
+**Comunicação:** Explica decisões, recebe feedback e argumenta sem ego.
 
-Autonomia, e julgamento. Decide sozinho, ou precisa de mão na cabeça?
+Autonomia e julgamento. Decide sozinho, ou precisa de mão na cabeça?
 
 **Entrega:** Histórico de coisas completadas (não começadas).
 
-**Colaboração:** Trabalha com PM, design, outras engs, e stakeholders.
+**Colaboração:** Trabalha com PM, design, outras engs e stakeholders.
 
 Values fit. Alinha com como você trabalha (não "gosta de cerveja igual").
 
-**Ownership:** Acha problema, e resolve? Ou só reclama que o time anterior era ruim?
+**Ownership:** Acha problema e resolve? Ou só reclama que o time anterior era ruim?
 
 Sinais enganosos que exigem ceticismo: currículo em empresas famosas sem saber detalhar a própria contribuição individual no código, discurso teórico fluente sem vivência de incidentes em produção, carisma alto combinado a respostas técnicas vagas e candidatos que parecem bons apenas porque confirmam as preferências pessoais do entrevistador (viés de semelhança).
 
@@ -2540,7 +2540,7 @@ Ofertas gringa para brasileiros (cem por cento remoto). Senior, US$ 80 a US$ 180
 
 Na escolha entre CLT e PJ, lembre que contratar engenheiro como PJ exigindo subordinação, horário fixo, pessoalidade e pacote de benefícios típicos de empregado caracteriza risco elevado de reconhecimento de vínculo na Justiça do Trabalho (ver [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 6: DIREITO DO TRABALHO PARA STARTUPS|Volume 8, Capítulo 6]]). Ao comparar ofertas com o candidato, coloque na ponta do lápis o que a CLT garante por lei (13º salário, férias remuneradas com terço constitucional, FGTS e vale-transporte pela Lei 7.418/1985) e por convenção coletiva ou política interna (como vale-refeição e plano de saúde): sem essa conversão para pacote anual total, o valor nominal mensal de uma proposta PJ parece artificialmente maior, mas nunca conceda benefícios típicos de CLT a um prestador PJ para tentar igualar a proposta. Quanto à participação societária (*equity*), apresente na carta-oferta não apenas o percentual ou número de opções, mas o preço de exercício (*strike price*), o cronograma de aquisição (*vesting* de quatro anos com *cliff* de um ano) e as regras de liquidez (ver [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 12: STOCK OPTIONS E ESOP NO BRASIL|Volume 6, Capítulo 12]]).
 
-Transparência de salário. Alinhe cedo (recruiter screen). Candidato com expectativa de R$ 50 mil, sabendo que o teto é R$ 30 mil, economiza tempo de todos. Páginas de carreiras com faixas salariais convertem mais (vide empresas como Buffer, Basecamp, e muitas startups europeias).
+Transparência de salário. Alinhe cedo (recruiter screen). Candidato com expectativa de R$ 50 mil, sabendo que o teto é R$ 30 mil, economiza tempo de todos. Páginas de carreiras com faixas salariais convertem mais (vide empresas como Buffer, Basecamp e muitas startups europeias).
 
 ### Ampliando o Funil com Rigor: Diversidade sem Baixar a Régua Técnica
 
@@ -2597,7 +2597,7 @@ Em tecnologia no Brasil, a contratação via PJ é frequente em faixas seniores 
 
 Depois de 2020, o trabalho remoto e o híbrido consolidaram-se em tecnologia. Em 2026, embora muitas empresas operem em regime híbrido, exigir presença física integral restringe a busca ao raio geográfico local.
 
-Bootcamps, e programas alternativos (Reprograma, Awari, Trybe, Cubos Academy, Resilia Educacao), formam devs sem graduação tradicional. Sinal válido. Olhe portfolio, ou código.
+Bootcamps, e programas alternativos (Reprograma, Awari, Trybe, Cubos Academy, Resilia Educacao), formam devs sem graduação tradicional. Sinal válido. Olhe portfolio ou código.
 
 Universidades referência. USP, Unicamp, UFMG, UFRJ, ITA, UFPE, UFRGS, UnB. Mas pedigree não é tudo. Muitos excelentes vieram de outros caminhos.
 
@@ -3060,9 +3060,9 @@ A velocidade de execução vira vantagem competitiva. Startup que lança produto
 
 A qualidade aumenta, quando usada bem. Code review assistida por IA pega bugs que humanos perderiam. Testes gerados automaticamente aumentam cobertura. Refactoring (reescrita estrutural de código sem mudar comportamento) suportado por IA reduz risco em mudanças grandes.
 
-A qualidade diminui, quando usada mal. Devs que aceitam sugestões sem entender produzem bugs sutis. Código gerado por IA, sem revisão, pode ter problemas de segurança, performance, ou licenciamento.
+A qualidade diminui, quando usada mal. Devs que aceitam sugestões sem entender produzem bugs sutis. Código gerado por IA, sem revisão, pode ter problemas de segurança, performance ou licenciamento.
 
-Contratação e cultura mudam. O perfil de engenheiro ideal evolui. Menos "digite rápido". Mais "defina problema bem, revise criticamente, arquitete sistema". O time precisa adaptar expectativas, e processos.
+Contratação e cultura mudam. O perfil de engenheiro ideal evolui. Menos "digite rápido". Mais "defina problema bem, revise criticamente, arquitete sistema". O time precisa adaptar expectativas e processos.
 
 ### O Estado da Arte em 2026: Autocomplete, Chat Contextual e Agentes Autônomos de Engenharia
 
@@ -3088,7 +3088,7 @@ Code completion (tier 1). Toda empresa com time de dev de três pessoas em diant
 
 Agentes autônomos (tier 2). Empresas com pipeline de tarefas bem definidas (bug fixes, migrations simples, feature requests de estilo conhecido). Em empresas com código altamente customizado, ou domínio muito específico, a adoção ainda é experimental.
 
-Ferramentas de apoio (tier 3). Adoção seletiva por caso de uso. Code review AI para times grandes, com alta taxa de PRs. Geração de testes para áreas com baixa cobertura. Docs AI para projetos open-source, ou APIs públicas.
+Ferramentas de apoio (tier 3). Adoção seletiva por caso de uso. Code review AI para times grandes, com alta taxa de PRs. Geração de testes para áreas com baixa cobertura. Docs AI para projetos open-source ou APIs públicas.
 
 Infraestrutura self-hosted (tier 4). Apenas empresas com fortes restrições de dados (healthtech, fintech, govtech, dados regulamentados de clientes). Overhead grande.
 
@@ -3098,7 +3098,7 @@ Antes de liberar agentes de código para toda a engenharia, rode um piloto contr
 
 #### Etapa 1: diagnóstico (mês 1)
 
-No primeiro mês, mapeie o que o time já utiliza por conta própria e onde estão os gargalos reais do fluxo. Perguntas essenciais: quantos desenvolvedores já usam Copilot, Cursor ou agentes equivalentes? (Tipicamente, alguns adotaram individualmente). Quais linguagens, e frameworks dominantes? (Algumas ferramentas são melhores em certas linguagens). Quais restrições de dados? (O código pode sair para API de modelo? Cliente confidencial?). Qual o estado do onboarding de novos devs? (IA pode acelerar). Quais são os gargalos atuais, testes, revisão, bug fixing, ou feature velocity?
+No primeiro mês, mapeie o que o time já utiliza por conta própria e onde estão os gargalos reais do fluxo. Perguntas essenciais: quantos desenvolvedores já usam Copilot, Cursor ou agentes equivalentes? (Tipicamente, alguns adotaram individualmente). Quais linguagens e frameworks dominantes? (Algumas ferramentas são melhores em certas linguagens). Quais restrições de dados? (O código pode sair para API de modelo? Cliente confidencial?). Qual o estado do onboarding de novos devs? (IA pode acelerar). Quais são os gargalos atuais, testes, revisão, bug fixing ou feature velocity?
 
 #### Etapa 2: piloto controlado (mês 2)
 
@@ -3110,7 +3110,7 @@ Se o piloto demonstrar redução real no tempo de ciclo sem degradar a estabilid
 
 #### Etapa 4: maturidade (mês 6 em diante)
 
-Integração profunda em workflow. Modelos fine-tuned para o código-base da empresa (se justifica). Agentes autônomos para tarefas repetitivas. Medição sistemática de produtividade, e qualidade. Evolução de role descriptions de engineer, para refletir a nova realidade.
+Integração profunda em workflow. Modelos fine-tuned para o código-base da empresa (se justifica). Agentes autônomos para tarefas repetitivas. Medição sistemática de produtividade e qualidade. Evolução de role descriptions de engineer, para refletir a nova realidade.
 
 ### Onde a IA Mais Rende na Engenharia: Testes Unitários, Migrações, Código Repetitivo e Documentação Viva
 
@@ -3137,15 +3137,15 @@ Os ganhos de produtividade nas dez frentes abaixo variam conforme a cobertura de
 
 ### Onde a IA Engana e Quebra: Lógica de Domínio Crítica, Concorrência e Segurança Criptográfica
 
-Decisões de arquitetura. "Devo usar microserviços, ou monolito?". A IA pode dar pros, e contras. Mas a decisão precisa entender contexto específico da empresa, que a IA não tem.
+Decisões de arquitetura. "Devo usar microserviços ou monolito?". A IA pode dar pros e contras. Mas a decisão precisa entender contexto específico da empresa, que a IA não tem.
 
 **Código de domínio altamente específico:** em motores de negociação algorítmica (*trading*), cálculos atuariais proprietários ou protocolos de hardware sob medida, o modelo não possui repertório equivalente no treinamento e tende a sugerir abstrações incorretas com aparência plausível.
 
 **Código de segurança decisiva (criptografia, autenticação e validação de entradas sensíveis):** um erro sutil sugerido pelo modelo abre brechas graves, como a injeção de SQL que atingiu a empresa de Lucas. Exija revisão linha a linha por um engenheiro sênior e execução obrigatória de análise estática de segurança (SAST) antes do merge, conforme consolidado na política de uso seguro adiante.
 
-Debugging de problemas complexos, envolvendo race conditions, ou concurrency. A IA ainda é fraca em raciocinar sobre execução multi-threaded.
+Debugging de problemas complexos, envolvendo race conditions ou concurrency. A IA ainda é fraca em raciocinar sobre execução multi-threaded.
 
-Performance optimization em hot paths. Requer perfil detalhado, e trade-offs profundos. A IA pode sugerir mudança "limpa", que piora performance decisiva.
+Performance optimization em hot paths. Requer perfil detalhado e trade-offs profundos. A IA pode sugerir mudança "limpa", que piora performance decisiva.
 
 Entendimento de business logic complexa, que só o dev sênior tem. A IA não substitui conhecimento tácito.
 
@@ -3159,7 +3159,7 @@ Ao contratar ferramentas de IA para engenharia, exija cláusula contratual de *Z
 
 **Geração de código vulnerável:** o modelo pode sugerir consultas expostas a injeção de SQL, falhas de XSS ou credenciais fixas no código. Bloqueie a aprovação no pipeline de CI com varredura automática de segredos e análise estática (SAST) combinadas à revisão por par.
 
-Dependência excessiva. O dev perde skills de escrever código do zero. Em cenário de falha de IA (outage, ou API blocked), a produtividade despenca.
+Dependência excessiva. O dev perde skills de escrever código do zero. Em cenário de falha de IA (outage ou API blocked), a produtividade despenca.
 
 **Sugestão de padrões obsoletos:** modelos treinados em repositórios históricos frequentemente sugerem bibliotecas descontinuadas ou abordagens antigas (como manipular DOM com jQuery em uma aplicação React moderna), exigindo arquivo de regras do projeto (`AGENTS.md` ou `CLAUDE.md`) e repertório decisivo do desenvolvedor para filtrar o código gerado.
 
@@ -3186,7 +3186,7 @@ Test coverage. Aumentar é bom (IA gerando testes).
 
 Time-to-onboard de novos devs. Reduzir é sinal de IA ajudando.
 
-Developer satisfaction, ou NPS. Pesquisa trimestral com time.
+Developer satisfaction ou NPS. Pesquisa trimestral com time.
 
 **Tempo de espera na fila de revisão (*code review wait time*):** se o tempo até a primeira revisão sobe após a adoção de agentes, a IA está gerando código mais rápido do que os seniores conseguem auditar. Reduza imediatamente o limite de linhas por PR antes de expandir o uso de agentes.
 
@@ -3201,7 +3201,7 @@ Custo de ferramentas por dev por mês. Comparar com ganho.
 
 A IA altera o perfil do engineer ideal. Tendências.
 
-Habilidades que sobem em valor. Arquitetura, e design de sistemas. Critical thinking, e code review. Debugging, e análise de problemas complexos. Product sense, e tradeoffs. Capacidade de escrever especificações claras (prompts bons). Skills de domínio específico.
+Habilidades que sobem em valor. Arquitetura e design de sistemas. Critical thinking e code review. Debugging, e análise de problemas complexos. Product sense e tradeoffs. Capacidade de escrever especificações claras (prompts bons). Skills de domínio específico.
 
 Habilidades que descem em valor relativo. Digitação rápida. Conhecimento memorizado de sintaxe. Escrita de boilerplate. Busca em Stack Overflow (a IA substitui).
 
@@ -3235,7 +3235,7 @@ Aceitar sugestão de IA, sem revisar. O código compila. O dev assume que está 
 
 **Colar código gerado por IA sem verificação em domínios sensíveis:** em módulos de pagamentos, autenticação e criptografia, o modelo frequentemente produz código que compila mas falha em casos de borda. Aplique sem exceção a política de dupla revisão sênior e SAST obrigatório definida no quadro de governança deste capítulo.
 
-Ignorar custos em escala. API de modelo cobra por token. Time de cinquenta devs, usando intensivamente, pode gerar custo de dezenas de milhares por mês. Monitorar, e otimizar.
+Ignorar custos em escala. API de modelo cobra por token. Time de cinquenta devs, usando intensivamente, pode gerar custo de dezenas de milhares por mês. Monitorar e otimizar.
 
 **Assumir que "agora um desenvolvedor rende por três" e cortar o quadro:** os estudos independentes mostram resultados que vão de perda de 19% na velocidade em sistemas maduros (METR, 2025) a ganhos de 20% a 55% em tarefas isoladas. Enxugar a equipe com base em promessas de fornecedores sobrecarrega os seniores remanescentes e paralisa o roadmap.
 

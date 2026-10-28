@@ -610,7 +610,7 @@ Cinco armadilhas distorcem o cálculo de valor esperado e a atualização bayesi
 
 ##### De onde vem a ferramenta (e por que sobreviveu ao filtro do tempo)
 
-Desenvolvida pelo exército dos EUA em 1949 (procedimento MIL-P-1629) para sistemas de defesa. Adotada pela NASA nos projetos Apollo. Expandiu para indústria automotiva (Ford nos anos 1970), aeronáutica, farmacêutica, e eventualmente tecnologia. Ferramenta central do Six Sigma e de gestão de risco em sistemas complexos.
+Desenvolvida pelo exército dos EUA em 1949 (procedimento MIL-P-1629) para sistemas de defesa. Adotada pela NASA nos projetos Apollo. Expandiu para indústria automotiva (Ford nos anos 1970), aeronáutica, farmacêutica e eventualmente tecnologia. Ferramenta central do Six Sigma e de gestão de risco em sistemas complexos.
 
 ##### A mecânica central (sem jargão)
 
@@ -1074,7 +1074,7 @@ Qual é a hipótese testável? Copie literalmente a sentença formulada no Banco
 
 O que eu vou perguntar ou observar? Pergunta específica no questionário. Ação observada no experimento. Evento rastreado no analytics.
 
-Quais são as respostas ou eventos possíveis? Opções discretas, ou faixas numéricas.
+Quais são as respostas ou eventos possíveis? Opções discretas ou faixas numéricas.
 
 O que eu vou efetivamente contar como medida? Fórmula exata. Por exemplo: "percentual de respondentes que escolheram X ou Y", "taxa de clique no botão Z", "valor médio ofertado em pré-venda".
 
@@ -1138,7 +1138,7 @@ Regra condicional para viés de amostra (definida já no pré-registro do Passo 
 
 #### Passo 7: analise com honestidade
 
-Para cada experimento, responda cinco perguntas. Qual o resultado, comparado com o critério pré-definido? A hipótese foi validada, refutada, ou inconclusiva? Quais aprendizados secundários emergiram? Quais novas hipóteses surgiram? O que eu faria diferente da próxima vez?
+Para cada experimento, responda cinco perguntas. Qual o resultado, comparado com o critério pré-definido? A hipótese foi validada, refutada ou inconclusiva? Quais aprendizados secundários emergiram? Quais novas hipóteses surgiram? O que eu faria diferente da próxima vez?
 
 #### Passo 8: compare o resultado com a teoria, não apenas com o threshold
 
@@ -2741,7 +2741,7 @@ Para cada entrevistado, peça avaliação em escala de um a cinco em cinco dimen
 
 #### Passo 3: faça o teste de cinco segundos (five second test)
 
-Mostre o protótipo ou a página principal por cinco segundos, e tire. Depois pergunte três coisas. O que você entendeu? Para quem é? Qual problema resolve?
+Mostre o protótipo ou a página principal por cinco segundos e tire. Depois pergunte três coisas. O que você entendeu? Para quem é? Qual problema resolve?
 
 Se menos de 70% dos testados acertam as três respostas de primeira, o seu posicionamento está confuso, e isso vai inflar o seu CAC (custo de aquisição de cliente) quando a campanha começar.
 
@@ -3956,7 +3956,7 @@ O **CRL** (sigla usada internacionalmente tanto para *Customer Readiness Level*,
 
 ### Matriz combinada TRL versus CRL
 
-Tecnologia madura sem mercado (TRL 9, e CRL 1) é tão ruim quanto mercado ávido sem tecnologia (CRL 5, e TRL 2). O ideal é progressão equilibrada dos dois eixos.
+Tecnologia madura sem mercado (TRL 9 e CRL 1) é tão ruim quanto mercado ávido sem tecnologia (CRL 5 e TRL 2). O ideal é progressão equilibrada dos dois eixos.
 
 | TRL ↓ / CRL → | CRL 1-2 (Descoberta) | CRL 3-5 (Validação) | CRL 6-7 (Comercial) |
 |---|---|---|---|
@@ -3998,13 +3998,13 @@ Antes de encerrar qualquer fase e avançar para a seguinte, formalize por escrit
 
 Um bom próximo movimento (*Committed Next Move*) produz evidência observável de comportamento, e nunca apenas sensação de agenda cheia. Antes de iniciar a semana, pergunte: *"Se a nossa hipótese estiver certa, qual dos quatro sinais concretos abaixo veremos até a data de corte?"* Se nenhum deles se materializar dentro da janela pré-registrada, o experimento cumpriu sua missão ao refutar a premissa: registre o aprendizado, execute o pivô ou ajuste combinado antes da largada e resista à tentação de esticar o prazo apenas porque você trabalhou duro nele.
 
-**Sinal de produto.** O mesmo usuário volta, e repete o workflow, sem você ter que convidar, lembrar, ou empurrar. Uso espontâneo repetido é o sinal mais forte em early stage. Curiosidade one-off não conta.
+**Sinal de produto.** O mesmo usuário volta, e repete o workflow, sem você ter que convidar, lembrar ou empurrar. Uso espontâneo repetido é o sinal mais forte em early stage. Curiosidade one-off não conta.
 
 **Adoção no fluxo de trabalho.** O produto deixa de ser "uma demo que eu testei", e vira parte do processo real do cliente. Aparece no passo a passo natural dele. É mencionado em reuniões internas. Substitui algo que ele usava antes.
 
 **Sinal econômico.** O cliente abre a conversa sobre orçamento. Pede proposta. Pergunta preço sem você puxar. Ou aloca tempo interno para avaliar compra. Interesse que se traduz em movimentação de recursos é diferente de interesse educado.
 
-**Compromisso comportamental do comprador.** O comprador formal (não apenas usuário, ou champion) aceita iniciar um piloto pago com critérios claros de sucesso, assina carta de intenção com prazo e valor, abre um canal interno de trabalho ou libera acesso técnico à equipe. Qualquer um desses é ponte para contrato real.
+**Compromisso comportamental do comprador.** O comprador formal (não apenas usuário ou champion) aceita iniciar um piloto pago com critérios claros de sucesso, assina carta de intenção com prazo e valor, abre um canal interno de trabalho ou libera acesso técnico à equipe. Qualquer um desses é ponte para contrato real.
 
 > [!important] Regra combinada
 > Para o Committed Next Move ser considerado bem-desenhado, ele precisa nominalmente especificar qual dos quatro sinais você espera ver. E qual volume desse sinal você considera suficiente para declarar sucesso. Sem essa especificação ex-ante, você vai terminar a janela olhando os dados em busca de confirmação. E isso é viés. Não aprendizado.
@@ -4086,7 +4086,7 @@ Na síntese operacional que adotamos neste manual a partir dos programas globais
 > [!warning] A passagem prematura à escala
 > Tentar escalar como "plataforma completa" antes de dominar a cunha inicial é o erro mais caro do estágio pré-PMF: plataforma é consequência de uma cunha vencida, nunca ponto de partida. Na arquitetura desta coleção, a construção da máquina de crescimento e capital ocorre na [[IGNICAO-Vol-5-Financas-e-Captacao#FASE 14: CAPITAL PARA ESCALA, RODADAS E EFICIÊNCIA FINANCEIRA|Fase 14 (Vol. 5)]], o desdobramento dos seis vetores de expansão na [[IGNICAO-Vol-6-Receita-e-Pessoas#FASE 15: MÁQUINA DE CRESCIMENTO E EXPANSÃO EM ESCALA|Fase 15 (Vol. 6)]] e o diagnóstico de saturação para abrir a segunda curva na [[IGNICAO-Vol-9-Maturidade-e-Exit#FASE 19: REINVENÇÃO E SEGUNDA CURVA|Fase 19 (Vol. 9)]].
 
-A pedra angular do framework é que a progressão é unidirecional, e cumulativa. Você não pula da Ideia direto para a Escala. E não volta da Escala para a Ideia, sem ter estragado alguma coisa pelo caminho. Cada estágio autoriza o próximo. Nenhum estágio substitui o anterior.
+A pedra angular do framework é que a progressão é unidirecional e cumulativa. Você não pula da Ideia direto para a Escala. E não volta da Escala para a Ideia, sem ter estragado alguma coisa pelo caminho. Cada estágio autoriza o próximo. Nenhum estágio substitui o anterior.
 
 ### Mapa de integração, onde cada elemento Antler vive no manual
 
@@ -4223,7 +4223,7 @@ Ao longo deste capítulo, veremos como corrigir os dois erros que quase mataram 
 
 **Dependência de canal:** no tráfego pago (Google Ads e Meta Ads), mudanças de algoritmo ou leilão inflam rapidamente o preço do CPC; em busca orgânica (SEO), uma atualização de ranqueamento do Google pode reduzir o tráfego de 30% a 60% da noite para o dia; e nas redes sociais, quando a plataforma prioriza formatos nativos próprios, o alcance orgânico das marcas despenca.
 
-**Dependência de integração.** Conectado a Salesforce, HubSpot, ou ERP específico. Se a plataforma fechar conexão, o produto perde valor para sessenta por cento dos clientes.
+**Dependência de integração.** Conectado a Salesforce, HubSpot ou ERP específico. Se a plataforma fechar conexão, o produto perde valor para sessenta por cento dos clientes.
 
 #### 3. Gestão de risco de plataforma
 
@@ -4239,7 +4239,7 @@ Programas de partnership. Apple's App Store Small Business Program (quinze por c
 
 Acordos customizados. Grandes clientes negociam terms específicos.
 
-Antitrust, ou regulação. Empresas grandes sob pressão regulatória podem ceder.
+Antitrust ou regulação. Empresas grandes sob pressão regulatória podem ceder.
 
 ### As cinco métricas que governam a saúde de um marketplace
 
@@ -4314,7 +4314,7 @@ Marketplace e gestão de risco de plataforma estão saudáveis quando, sendo mar
 - [ ] Percentual de receita, ou operação, em cada plataforma decisiva mapeado.
 - [ ] Plano B ativo, e testado, para cada plataforma decisiva.
 - [ ] Canal de aquisição diversificado (não um canal maior que cinquenta por cento).
-- [ ] Relação direta com usuário (email, e comunidade), em construção.
+- [ ] Relação direta com usuário (email e comunidade), em construção.
 - [ ] Monitoring de mudanças em guidelines, ou políticas, das plataformas-chave.
 - [ ] Se marketplace. Mitigações de disintermediação implementadas.
 
@@ -4363,7 +4363,7 @@ Pagamento via plataforma. Nunca off-platform (gera disintermediação, mais frau
 
 **Escrow:** A empresa retém valor até conclusão da transação.
 
-Reviews, e reputação. Mecanismo de filtragem orgânica.
+Reviews e reputação. Mecanismo de filtragem orgânica.
 
 Team anti-fraude. Humanos, mais ML, para detectar patterns.
 
@@ -4630,7 +4630,7 @@ Para que essa arquitetura pare em pé, você precisa escapar da Armadilha da Fil
 
 Quatro vantagens estruturais explicam por que empresas como GitLab, Supabase, Elastic, PostHog e a brasileira Rocket.Chat cresceram apoiadas em código aberto: primeiro, a adoção técnica sem atrito, já que o desenvolvedor ou integrador baixa, testa e resolve um problema real em minutos sem precisar pedir orçamento ao setor de compras, segundo, a confiança na segurança e na continuidade, pois a equipe técnica do cliente pode inspecionar o código-fonte e sabe que não ficará refém de uma caixa-preta. Terceiro, a contribuição da comunidade, que reporta falhas, cria conectores para sistemas regionais (como layouts bancários e fiscais brasileiros) e produz conteúdo técnico, e quarto, a **eficiência comercial (*bottom-up GTM*)**, em que o uso técnico dentro da empresa prepara o terreno antes da primeira conversa com o comprador econômico.
 
-- **Community como moat (barreira competitiva)**: ecossistema de plugins, integrações, e contribuidores.
+- **Community como moat (barreira competitiva)**: ecossistema de plugins, integrações e contribuidores.
 - **Credibilidade técnica**: código aberto sinaliza confiança.
 - **CAC (custo de aquisição de cliente) muito baixo**: a conversão acontece pelo uso do produto, não por sales (vendas).
 

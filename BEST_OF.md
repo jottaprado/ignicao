@@ -6,7 +6,7 @@
 
 ## Sobre a natureza da empreitada
 
-> Este livro foi escrito para acompanhar alguém em uma jornada longa, íngreme, frequentemente solitária, ocasionalmente gloriosa, e sempre mais difícil do que quem nunca empreendeu imagina.
+> Este livro foi escrito para acompanhar alguém em uma jornada longa, íngreme, frequentemente solitária, ocasionalmente gloriosa e sempre mais difícil do que quem nunca empreendeu imagina.
 
 > Empreender deixa marcas profundas em quem constrói.
 

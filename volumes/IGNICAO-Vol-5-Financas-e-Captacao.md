@@ -1347,7 +1347,7 @@ Regras:
 
 ##### Seção 2: Financeiro
 
-- [ ] DRE dos últimos 24–36 meses (auditada, se houver, ou revisada pelo contador)
+- [ ] DRE dos últimos 24–36 meses (auditada, se houver ou revisada pelo contador)
 - [ ] Balanço patrimonial dos últimos 24–36 meses
 - [ ] Cashflow statement dos últimos 12 meses
 - [ ] Projeções financeiras para 24–36 meses (com premissas explícitas)
@@ -1802,7 +1802,7 @@ Indica eficiência operacional antes de efeitos financeiros e contábeis.
 
 **Margem Líquida** = Lucro Líquido / Receita Líquida × 100
 
-Indica o resultado final após todos os custos, impostos, e efeitos financeiros.
+Indica o resultado final após todos os custos, impostos e efeitos financeiros.
 
 #### Faixas ilustrativas de margens por segmento no Brasil (referenciais de mercado com base em companhias abertas na B3 e relatórios setoriais de SaaS, 2025–2026)
 
@@ -1925,7 +1925,7 @@ Toda companhia aberta no Brasil é obrigada a publicar demonstrativos financeiro
 **O que procurar como fundador.**
 
 - **DRE**: evolução de receita líquida, COGS, e EBITDA por trimestre. Calcule as margens e veja a tendência.
-- **Notas Explicativas da DRE**: detalhamento de receita por segmento, produto, ou geografia. Benchmarks reais de custo de entrega.
+- **Notas Explicativas da DRE**: detalhamento de receita por segmento, produto ou geografia. Benchmarks reais de custo de entrega.
 - **DFC operacional**: a empresa está gerando ou consumindo caixa na operação? Em que ritmo?
 - **Balanço**: nível de endividamento (dívida bruta e líquida), contas a receber, e estrutura do patrimônio líquido.
 - **Releases de Resultados (MD&A)**: o comentário da administração sobre os números. Linguagem estratégica que complementa os números contábeis.
@@ -2063,7 +2063,7 @@ Para substituir palpites pela aritmética, veja a simulação comparativa em doi
 
 #### 2. Reforma Tributária do Consumo, transição 2026-2033
 
-A EC 132/2023 substitui progressivamente ICMS, ISS, PIS, Cofins, e IPI, por IBS (Imposto sobre Bens e Serviços, estadual, e municipal), mais CBS (Contribuição sobre Bens e Serviços, federal). Alíquota combinada projetada, cerca de vinte e sete a vinte e oito por cento.
+A EC 132/2023 substitui progressivamente ICMS, ISS, PIS, Cofins, e IPI, por IBS (Imposto sobre Bens e Serviços, estadual e municipal), mais CBS (Contribuição sobre Bens e Serviços, federal). Alíquota combinada projetada, cerca de vinte e sete a vinte e oito por cento.
 
 A Reforma Tributária do consumo (EC 132/2023, regulamentada pela LC 214/2025 e pela LC 227/2026) substitui cinco tributos fragmentados e cumulativos (PIS, Cofins, IPI, ICMS e ISS) por um IVA Dual de padrão internacional com não cumulatividade plena (crédito financeiro amplo sobre todas as aquisições intermediárias, exceto bens e serviços de uso e consumo pessoal) e cobrança no destino:
 
@@ -2129,7 +2129,7 @@ Para startups em estágio inicial ou de crescimento acelerado, a regra operacion
 
 - [ ] **Avaliação de holding patrimonial dos fundadores** antes de evento de liquidez relevante, ponderando o diferimento em dividendos societários contra o custo tributário em venda secundária de participação (Ver também: seção de reorganização societária ao final deste capítulo e [[IGNICAO-Vol-9-Maturidade-e-Exit#CAPÍTULO 17: TRIBUTAÇÃO DO EXIT PARA FUNDADORES BRASILEIROS|Volume 9, Capítulo 17]]).
 
-**Stock options em trânsito.** Plano de opções que existia na Ltda como contrato anexo precisa ser reescrito como plano formal de S.A., aprovado em assembleia. Vesting que existia em quotas precisa ser convertido em vesting de ações, com compatibilização do cronograma. Esse trabalho de migração é oportunidade para limpar inconsistências históricas e padronizar good leaver, bad leaver, e janela de exercício. Para detalhes de vesting sob lei BR, ver [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 12: STOCK OPTIONS E ESOP NO BRASIL|Capítulo 12 (Stock Options e ESOP no Brasil) (Vol. 6)]].
+**Stock options em trânsito.** Plano de opções que existia na Ltda como contrato anexo precisa ser reescrito como plano formal de S.A., aprovado em assembleia. Vesting que existia em quotas precisa ser convertido em vesting de ações, com compatibilização do cronograma. Esse trabalho de migração é oportunidade para limpar inconsistências históricas e padronizar good leaver, bad leaver e janela de exercício. Para detalhes de vesting sob lei BR, ver [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 12: STOCK OPTIONS E ESOP NO BRASIL|Capítulo 12 (Stock Options e ESOP no Brasil) (Vol. 6)]].
 
 Referência complementar: para term sheet de Série A que tipicamente exige a conversão, ver [[#CAPÍTULO 9: CAPTAÇÃO DE EQUITY: PLANEJAMENTO DE RODADA, PITCH E RELACIONAMENTO COM INVESTIDORES|Capítulo 9 (Captação de Equity: Planejamento de Rodada, Pitch e Relacionamento com Investidores)]].
 
@@ -2158,7 +2158,7 @@ Para que o plano da sua startup esteja protegido pelas teses vinculantes dos Tem
 
 **Plano clássico de Stock Options (padrão YC adaptado).** Concessão de opções com preço de exercício (*strike price*) no valor justo de mercado (FMV). Aquisição (*vesting*) em 4 anos, com carência inicial (*cliff*) de 1 ano. Exercício dentro da janela contratual (tipicamente de 90 dias após o desligamento, embora algumas empresas estendam essa janela para 7 a 10 anos, modalidade conhecida como *long exercise window*). O exercício exige desembolso em dinheiro, salvo previsão de exercício sem desembolso (*cashless exercise*) em eventos de liquidez.
 
-**RSU, Restricted Stock Units.** Direito a receber ações após vesting (sem pagamento de strike). Por natureza, tende mais à classificação trabalhista. Usado mais em empresas listadas, ou pré-IPO. Nas estruturas Delaware Flip, RSUs no nível da holding DE podem ter tratamento diferenciado.
+**RSU, Restricted Stock Units.** Direito a receber ações após vesting (sem pagamento de strike). Por natureza, tende mais à classificação trabalhista. Usado mais em empresas listadas ou pré-IPO. Nas estruturas Delaware Flip, RSUs no nível da holding DE podem ter tratamento diferenciado.
 
 **Phantom Stock (ações fantasmas, modelo que a Dra. Camila estruturou para alinhar o CEO profissional contratado na maturação da rede de clínicas no Volume 9 sem alterar o quadro societário da Ltda.):** direito contratual de receber bônus em dinheiro indexado à valorização econômica da empresa ou a um evento de liquidez, sem emissão nem entrega de quotas ou ações. A vantagem é evitar diluição societária e dispensar a conversão imediata para S.A., a desvantagem é que todo o pagamento tem natureza remuneratória e sofre tributação de salário/bônus.
 
@@ -2178,7 +2178,7 @@ Para que o plano da sua startup esteja protegido pelas teses vinculantes dos Tem
 **Jurisprudência vinculante e limites de aplicação:** com os julgamentos dos Temas 1.226 (setembro/2024, IRPF) e 1.379 (outubro/2026, INSS) pelo STJ, planos de *stock options* genuinamente mercantis contam com segurança jurídica superior no Brasil. O cuidado redobrado recai sobre planos híbridos ou *matching shares* gratuitos sem desembolso do beneficiário, nos quais o CARF e a Receita Federal continuam exigindo recolhimento previdenciário e IRPF na fonte por ausência de onerosidade e risco.
 
 > [!important] Recomendação operacional sobre stock options
-> Plano desenhado por tributarista especializado (R$ 20 a R$ 60 mil de projeto). Pareceres tributários antes da implementação. Revisão anual do plano, considerando mudanças regulatórias. Documentação rigorosa de cada concessão, exercício, e vesting. Consciência de que tributação pode mudar. O estado da arte em 2026 pode evoluir em qualquer direção.
+> Plano desenhado por tributarista especializado (R$ 20 a R$ 60 mil de projeto). Pareceres tributários antes da implementação. Revisão anual do plano, considerando mudanças regulatórias. Documentação rigorosa de cada concessão, exercício e vesting. Consciência de que tributação pode mudar. O estado da arte em 2026 pode evoluir em qualquer direção.
 
 **Reserva de *pool* de opções (*ESOP*):** costuma partir de 10% no estágio Seed e expandir-se para 10% a 15% na Série A (ver tabelas de alocação por cargo e cronograma de *vesting* no [[IGNICAO-Vol-6-Receita-e-Pessoas#CAPÍTULO 12: STOCK OPTIONS E ESOP NO BRASIL|Capítulo 12 do Volume 6]]).
 
@@ -2201,7 +2201,7 @@ Para que o plano da sua startup esteja protegido pelas teses vinculantes dos Tem
 
 **Obrigações acessórias (não atrasar).** eSocial (folha e encargos mensais, que já substituiu RAIS e CAGED), EFD-Reinf (retenções na fonte), DCTFWeb unificada com o MIT (Módulo de Inclusão de Tributos, que substituiu a antiga DCTF Mensal em 2025), EFD-Contribuições e EFD ICMS/IPI (mensais conforme o regime), ECD e ECF (anuais) e emissão de NFS-e / NF-e adaptada aos campos de IBS e CBS. Relatórios estaduais, ou municipais (varia).
 
-**Controller check mensal.** Caixa versus DRE (diferença entre regime de caixa, e competência). Margens por produto, ou segmento. Contas em variação acima de dez por cento do mês anterior (investigar).
+**Controller check mensal.** Caixa versus DRE (diferença entre regime de caixa e competência). Margens por produto ou segmento. Contas em variação acima de dez por cento do mês anterior (investigar).
 
 ### Implicações fiscais e contábeis na estruturação de rodadas e *Cap Table*
 
@@ -2250,7 +2250,7 @@ SAFE (Simple Agreement for Future Equity). Instrumento criado pela Y Combinator 
 
 #### Outros instrumentos
 
-Equity direto (compra de quotas, ou ações). O investidor vira sócio formal. Sem a blindagem do contrato de participação da LC 155/2016: a responsabilidade ordinária fica limitada ao capital social (na Ltda.) ou ao preço de emissão (na S.A.), mas na Ltda. há maior exposição a pedidos de desconsideração da personalidade jurídica, especialmente na Justiça do Trabalho. Usado em rodadas maiores, com investidores sofisticados, e estrutura de S.A.
+Equity direto (compra de quotas ou ações). O investidor vira sócio formal. Sem a blindagem do contrato de participação da LC 155/2016: a responsabilidade ordinária fica limitada ao capital social (na Ltda.) ou ao preço de emissão (na S.A.), mas na Ltda. há maior exposição a pedidos de desconsideração da personalidade jurídica, especialmente na Justiça do Trabalho. Usado em rodadas maiores, com investidores sofisticados, e estrutura de S.A.
 
 Convertible Note (nota promissória conversível). Dívida formal, que pode ser convertida. Muito similar ao mútuo conversível, mas com registro diferente. Menos comum em rodadas anjo BR. Mais em venture debt.
 
@@ -2264,15 +2264,15 @@ No ecossistema brasileiro, os primeiros cheques combinam redes de investidores-a
 
 #### Considerações tributárias em investimento-anjo BR
 
-**Para o investidor-anjo pessoa física.** Juros remuneratórios ou rendimentos pagos ao investidor pessoa física (no mútuo conversível ou no contrato de participação da LC 155/2016, regulamentado pela IN RFB 1.719/2017): sofrem tributação na fonte pela tabela regressiva de renda fixa, de 22,5% (até 180 dias) a 15,0% (acima de 720 dias). Ganho em conversão (diferença entre valor investido, e valor das quotas, ou ações, recebidas). Ganho de capital (quinze a 22,5%). Venda posterior das quotas, ou ações. Ganho de capital.
+**Para o investidor-anjo pessoa física.** Juros remuneratórios ou rendimentos pagos ao investidor pessoa física (no mútuo conversível ou no contrato de participação da LC 155/2016, regulamentado pela IN RFB 1.719/2017): sofrem tributação na fonte pela tabela regressiva de renda fixa, de 22,5% (até 180 dias) a 15,0% (acima de 720 dias). Ganho em conversão (diferença entre valor investido, e valor das quotas, ou ações, recebidas). Ganho de capital (quinze a 22,5%). Venda posterior das quotas ou ações. Ganho de capital.
 
-**Para o investidor-anjo pessoa jurídica.** Juros recebidos. Receita financeira (IRPJ, mais CSLL, mais PIS/Cofins sobre receita). Ganho em conversão, e venda. Depende do regime tributário da PJ.
+**Para o investidor-anjo pessoa jurídica.** Juros recebidos. Receita financeira (IRPJ, mais CSLL, mais PIS/Cofins sobre receita). Ganho em conversão e venda. Depende do regime tributário da PJ.
 
 **Para a empresa:** o recebimento do principal não constitui receita tributável (por ingressar como passivo de mútuo ou reserva de capital); na conversão em participação societária, a operação não gera fato gerador de IRPJ ou CSLL sobre o principal convertido, e eventuais juros incorridos são dedutíveis na apuração do Lucro Real.
 
 #### 7. Cap table brasileiro em profundidade
 
-Cap table (capitalization table) é o mapa de propriedade da empresa. Em startup brasileira, a complexidade vem de dois lados. Tipo societário (Ltda versus S.A.), e instrumentos de investimento (mútuos, SAFEs, e opções).
+Cap table (capitalization table) é o mapa de propriedade da empresa. Em startup brasileira, a complexidade vem de dois lados. Tipo societário (Ltda versus S.A.), e instrumentos de investimento (mútuos, SAFEs e opções).
 
 #### Ltda versus S.A., impactos no cap table
 
@@ -2284,7 +2284,7 @@ Na **Sociedade Anônima (S.A. de capital fechado, Lei 6.404/1976)**, a titularid
 
 **Ações Ordinárias (ON).** Direito a voto. Dividendos proporcionais. Residuais em liquidação (última classe a receber).
 
-**Ações Preferenciais (PN).** Geralmente sem direito a voto (exceto em casos específicos). Preferência em dividendos (mínimo legal), ou em liquidação. Podem ter direitos especiais (conversibilidade, e participação).
+**Ações Preferenciais (PN).** Geralmente sem direito a voto (exceto em casos específicos). Preferência em dividendos (mínimo legal) ou em liquidação. Podem ter direitos especiais (conversibilidade e participação).
 
 **Ações Preferenciais (PN, *Preferred Shares*):** classe subscrita pelos fundos de Venture Capital após a transformação em S.A., equipada com direitos econômicos e protetivos no Estatuto e no Acordo de Acionistas, tais como: (1) preferência de liquidação (*liquidation preference* de 1x não participante, padrão de mercado), garantindo que em venda ou liquidação o investidor recupere 1x o capital investido antes do rateio ou converta em ordinárias, o que for maior, (2) proteção antidiluição (*broad-based weighted average*) em eventual *down round*, e (3) direito de conversão em ações ordinárias a qualquer momento.
 
@@ -2346,15 +2346,15 @@ Post-rodada completa, com tudo.
 |ESOP Pool (expandido pré-Série A) | 16,7% | 14,2% | **10,0%** |
 |**Total** | **100,0%** | **100,0%** | **100,0%** |
 
-**Estágio 3: Série B, ou C.** Novas rodadas diluem todos proporcionalmente. Os fundadores frequentemente têm cinco a vinte por cento na Série C.
+**Estágio 3: Série B ou C.** Novas rodadas diluem todos proporcionalmente. Os fundadores frequentemente têm cinco a vinte por cento na Série C.
 
 #### Ferramentas de cap table
 
 Carta (cartainc.com). Padrão internacional. Excelente para estrutura Delaware.
 
-Captable.io, e Pulley. Alternativas.
+Captable.io e Pulley. Alternativas.
 
-Eqvista, e Shareworks. Opções diferentes.
+Eqvista e Shareworks. Opções diferentes.
 
 No Brasil sem *flip*, a gestão do *cap table* exige planilha estruturada conciliada com o Contrato Social (nas limitadas) ou com o Livro de Registro de Ações Nominativas (nas S.A.).
 
@@ -2453,7 +2453,7 @@ Impacto no IRPJ + CSLL (alíquota combinada ~34%):
 
 **Percentuais de dedução adicionais possíveis:**
 
-| Faixa de Exclusão Adicional | Condição Legal (Lei 11.196/2005, art. 19, e Decreto 5.798/2006, art. 8º) | Exclusão Adicional da Base de IRPJ/CSLL |
+| Faixa de Exclusão Adicional | Condição Legal (Lei 11.196/2005, art. 19 e Decreto 5.798/2006, art. 8º) | Exclusão Adicional da Base de IRPJ/CSLL |
 |---|---|---|
 | **Exclusão Base (Automática)** | Qualquer dispêndio elegível de pesquisa tecnológica e desenvolvimento de inovação tecnológica | **+60%** dos dispêndios de P&D |
 | **Incremento de Pesquisadores (até 5%)** | Aumento de até 5% no número de pesquisadores contratados com dedicação exclusiva no ano-base | **+70%** dos dispêndios (60% base + 10% adicional) |
@@ -2541,7 +2541,7 @@ Empresa Operacional (Ltda. ou S.A.)
 
 1. **Diferimento na distribuição societária:** dividendos pagos pela empresa operacional para uma holding pessoa jurídica brasileira permanecem isentos de IRRF sob a Lei 15.270/2025 (pois a retenção de 10% acima de R$ 50 mil/mês incide apenas nos pagamentos a pessoas físicas). Assim, enquanto os lucros permanecerem dentro da holding PJ para reinvestimento em novos negócios ou ativos, não há a retenção de 10% na fonte, o imposto só incidirá quando a holding distribuir dividendos acima de R$ 50 mil/mês para o sócio pessoa física (ou no ajuste anual do IRPFM acima de R$ 600 mil).
 
-2. **Royalties pagos a sócio pessoa física não são dedutíveis:** a legislação do Imposto de Renda (RIR/2018, art. 365, e Lei 4.506/1964, art. 71, parágrafo único, "d") veda a dedutibilidade de royalties pela cessão de marcas, patentes ou software quando pagos a sócios (pessoas físicas ou jurídicas) ou dirigentes da empresa, além de tributar a pessoa física recebedora pela tabela progressiva de até 27,5%.
+2. **Royalties pagos a sócio pessoa física não são dedutíveis:** a legislação do Imposto de Renda (RIR/2018, art. 365 e Lei 4.506/1964, art. 71, parágrafo único, "d") veda a dedutibilidade de royalties pela cessão de marcas, patentes ou software quando pagos a sócios (pessoas físicas ou jurídicas) ou dirigentes da empresa, além de tributar a pessoa física recebedora pela tabela progressiva de até 27,5%.
 3. **Tributação da receita na holding:** se a holding prestar serviços ou licenciar ativos a terceiros no Lucro Presumido, pagará cerca de 11,33% a 14,53% (ou mais com ISS e adicional de IRPJ) na pessoa jurídica antes de disponibilizar o lucro líquido.
 
 #### Holding patrimonial: diferimento de lucros versus armadilha no *exit*
@@ -2647,7 +2647,7 @@ Esta é a decisão de planejamento tributário mais cotidiana e mais mal executa
 
 Três falhas operacionais concentram os passivos fiscais que mais reprovam startups em auditorias de captação, somando-se aos erros de gestão listados a seguir: (1) pejotização com subordinação direta (profissionais contratados como PJ, mas submetidos a pessoalidade, habitualidade e controle de horário, geram risco de vínculo empregatício na Justiça do Trabalho e autuação fiscal retroativa de cinco anos de INSS patronal e FGTS, em outubro de 2026, o Tema 1.389 de repercussão geral do STF sobre a validade de contratos civis/PJ segue pendente de julgamento de mérito, tendo o STF levantado parcialmente a suspensão nacional em junho de 2026 para que os processos tramitem até o TRT antes de ficarem sobrestados), (2) CNAE mal selecionado, que pode bloquear incentivos ou empurrar a empresa para alíquotas maiores, e (3) omissão nas retenções na fonte sobre serviços tomados de PJs (IRRF de 1,5%, CSRF de 4,65%, ISS retido e INSS de 11% em cessão de mão de obra), nos quais a contratante responde diretamente pelo tributo não retido.
 
-Contador generalista, ou família. "Meu tio contador" gera passivos em DD.
+Contador generalista ou família. "Meu tio contador" gera passivos em DD.
 
 **Regime tributário escolhido por inércia:** permanecer no Simples Nacional sem monitorar o Fator R de 28% (caindo no Anexo V, cuja alíquota efetiva parte de 15,5% e supera 19% acima de R$ 1,8 milhão/ano) ou migrar para o Lucro Presumido sem somar o adicional de 10% de IRPJ. Em SaaS com folha enxuta abaixo de 28% da receita e faturamento entre R$ 1,5 milhão e R$ 2,0 milhões/ano, os tributos sobre a receita no Lucro Presumido somam cerca de 14,9% a 18,3% (3,65% de PIS/Cofins + 2% a 5% de ISS + 7,68% de IRPJ/CSLL base + 1,6% a 2,0% do adicional de 10% de IRPJ sobre o lucro presumido trimestral acima de R$ 60 mil), além de ~28% de encargos apenas sobre a folha reduzida, conta que só vence o Anexo V quando a folha é muito pequena, mas perde feio para o Anexo III (quando o Fator R atinge 28%) e para o Lucro Real quando a margem contábil é baixa.
 
@@ -2655,9 +2655,9 @@ Benefícios fiscais sem documentação. Usar Lei do Bem sem docs de P&D gera aut
 
 Stock options como remuneração, sem estrutura tributária. Vira tributação salarial, que destrói o incentivo.
 
-Misturar pessoal, e empresarial. "Pix do CNPJ da empresa pagando Uber pessoal" vira autuação por despesa indedutível, e problema em DD.
+Misturar pessoal e empresarial. "Pix do CNPJ da empresa pagando Uber pessoal" vira autuação por despesa indedutível, e problema em DD.
 
-Ignorar municipal (ISS). Cada município tem alíquota, e regras próprias. Operação em dez cidades, igual a dez compliances municipais distintos.
+Ignorar municipal (ISS). Cada município tem alíquota e regras próprias. Operação em dez cidades, igual a dez compliances municipais distintos.
 
 Reforma Tributária ignorada. Empresa não se planeja para transição 2027 a 2033, e descobre mudança abrupta de carga.
 
@@ -3145,7 +3145,7 @@ flowchart TD
 
 ### A folha de pagamento como centro de gravidade: por que 70% do seu orçamento se resume a quem e quando você contrata
 
-Em startups de tecnologia, 60 a 80% dos custos totais são pessoas: salários, encargos, benefícios, e custos associados. Isso significa que a decisão de contratação é a decisão orçamentária mais importante que existe.
+Em startups de tecnologia, 60 a 80% dos custos totais são pessoas: salários, encargos, benefícios e custos associados. Isso significa que a decisão de contratação é a decisão orçamentária mais importante que existe.
 
 #### Custo real de uma contratação
 
@@ -3240,7 +3240,7 @@ Capex (Capital Expenditure) é gasto que cria ativo de longo prazo: servidores, 
 
 Opex (Operational Expenditure) é gasto operacional recorrente: salários, aluguel, SaaS, marketing. Vai à DRE no período em que ocorre.
 
-Em startups de software, a maioria dos gastos é Opex. Capex costuma ser pequeno (servidores se não usar cloud, ou desenvolvimento capitalizado). Mas a distinção importa para entender o EBITDA real: empresa que capitaliza agressivamente o desenvolvimento interno pode ter EBITDA artificialmente alto.
+Em startups de software, a maioria dos gastos é Opex. Capex costuma ser pequeno (servidores se não usar cloud ou desenvolvimento capitalizado). Mas a distinção importa para entender o EBITDA real: empresa que capitaliza agressivamente o desenvolvimento interno pode ter EBITDA artificialmente alto.
 
 #### Bloco 5: Resultado esperado e runway implícito
 
@@ -4039,7 +4039,7 @@ Churn de receita > 5% a.m.      Receita futura projetada superestimada.
 
 ### Por que queimar equity dos fundadores para financiar contas a receber de clientes é um erro patrimonial grave
 
-A pergunta aparece em todo ciclo de crescimento: levantar rodada (equity) para ter mais caixa de giro, ou estruturar dívida? A resposta certa depende da combinação de quatro variáveis: custo, dilução, velocidade, e risco de descasamento.
+A pergunta aparece em todo ciclo de crescimento: levantar rodada (equity) para ter mais caixa de giro ou estruturar dívida? A resposta certa depende da combinação de quatro variáveis: custo, dilução, velocidade e risco de descasamento.
 
 **Regra de casamento de prazos:** capital de giro é necessidade operacional recorrente, não investimento pontual. Financiar necessidade recorrente com *equity* dilui os sócios de forma permanente para cobrir um ciclo que prazos de fornecedores ou linhas lastreadas em recebíveis cobrem enquanto a operação girar. Financiar com dívida é mais barato quando a empresa tem receita previsível suficiente para servir a dívida.
 
@@ -4254,7 +4254,7 @@ Na análise de crédito corporativo, o banco avalia a consistência do faturamen
 > [!warning] Impacto da confusão patrimonial no limite de crédito PJ
 > No início da empresa, quando o fundador injeta reservas pessoais no negócio, registre formalmente a entrada como integralização de capital social ou contrato de mútuo/AFAC. Nunca pague fornecedores da empresa diretamente da conta pessoal sem lastro contábil.
 
-Ao abrir conta PJ em banco tradicional, os documentos típicos solicitados são CNPJ, contrato social ou estatuto, documentos dos sócios (RG, CPF, comprovante de residência), faturamento esperado, e CNAE da atividade. Bancos digitais pedem menos: CNPJ ativo na Receita, documentos dos sócios, selfie. O prazo varia de dois a três dias úteis (digital) a dez a quinze dias úteis (tradicional).
+Ao abrir conta PJ em banco tradicional, os documentos típicos solicitados são CNPJ, contrato social ou estatuto, documentos dos sócios (RG, CPF, comprovante de residência), faturamento esperado e CNAE da atividade. Bancos digitais pedem menos: CNPJ ativo na Receita, documentos dos sócios, selfie. O prazo varia de dois a três dias úteis (digital) a dez a quinze dias úteis (tradicional).
 
 ### O mapa completo das linhas PJ no Brasil: do Capital de Giro com Aval Público (FGI e FAMPE) ao Compror e Vendor
 
@@ -5001,7 +5001,7 @@ Para que o Key Man Insurance funcione como mecanismo de compra das cotas do fale
 
 - Obrigatoriedade de a empresa contratar o seguro sobre cada sócio-fundador
 - Que o valor recebido será usado prioritariamente para comprar as cotas dos herdeiros
-- O valor de referência para a compra (último valuation acordado, ou fórmula predefinida)
+- O valor de referência para a compra (último valuation acordado ou fórmula predefinida)
 - O prazo para execução da compra após o sinistro
 
 **Valor da apólice:**
@@ -5230,12 +5230,12 @@ Antes de entrar no processo, vale calibrar como o outro lado da mesa pensa. Há 
 
 **Black Swan Farming, a matemática power-law do VC (Graham, 2012).**
 
-A intuição dominante entre fundadores iniciantes é que VC é "banco que cobra muito". Dão dinheiro esperando retorno razoável, e acompanhamento de governança. Está errado. VC opera dentro de uma matemática radicalmente diferente. De cada dez empresas financiadas por um fundo de early-stage, estatisticamente, uma paga todo o fundo, e gera o lucro. Duas ou três empatam. Seis ou sete somem. A distribuição de retornos é uma power-law, não uma curva normal. Graham chama isso de "black swan farming". A atividade de investir em coisas que individualmente provavelmente falham, mas que coletivamente se pagam, porque uma, ou outra, vira múltiplo gigante.
+A intuição dominante entre fundadores iniciantes é que VC é "banco que cobra muito". Dão dinheiro esperando retorno razoável e acompanhamento de governança. Está errado. VC opera dentro de uma matemática radicalmente diferente. De cada dez empresas financiadas por um fundo de early-stage, estatisticamente, uma paga todo o fundo, e gera o lucro. Duas ou três empatam. Seis ou sete somem. A distribuição de retornos é uma power-law, não uma curva normal. Graham chama isso de "black swan farming". A atividade de investir em coisas que individualmente provavelmente falham, mas que coletivamente se pagam, porque uma, ou outra, vira múltiplo gigante.
 
 Três consequências práticas que isso tem para o fundador.
 
 > [!important] A matemática de retorno dos fundos de Venture Capital (Power Law)
-> Se a sua empresa tem potencial teto de R$ 50 milhões, ela não encaixa na matemática de um fundo com tese de múltiplo dez vezes sobre US$ 500 milhões. Não é desprezo. É matemática. Busque investidor cujo fundo faça sentido para a sua escala potencial. Anjo, family office, fundo micro-VC, ou fundo nichado.
+> Se a sua empresa tem potencial teto de R$ 50 milhões, ela não encaixa na matemática de um fundo com tese de múltiplo dez vezes sobre US$ 500 milhões. Não é desprezo. É matemática. Busque investidor cujo fundo faça sentido para a sua escala potencial. Anjo, family office, fundo micro-VC ou fundo nichado.
 
 Essa estrutura cria assimetria entre como o fundador pensa e como o VC avalia. Fundador que numa reunião se esforça para "provar que não vai quebrar" está otimizando o critério errado. O VC sabe que parte relevante do portfólio não dará retorno. O que ele precisa enxergar é o que acontece se tudo der certo e qual a plausibilidade de a empresa ser uma das poucas que devolvem o fundo inteiro.
 
@@ -5259,7 +5259,7 @@ O valor esperado de cada reunião importa: multiplique a probabilidade de o inve
 
 Captar uma rodada menor e mais enxuta costuma ser mais rápido do que tentar fechar uma rodada gigante de uma só vez: exige menos investidores na mesa. A diligência é mais leve. O processo, mais rápido. Startup early-stage deve resistir à tentação de "rodada big bang". E preferir captações menores, com frequência maior.
 
-Investidor que diz "não" é favor. "Estamos avaliando" por três semanas destrói runway, e foco. "Não, porque X" libera você para a próxima conversa. Empurre por respostas rápidas. Aprecie o "não" mais do que o "talvez".
+Investidor que diz "não" é favor. "Estamos avaliando" por três semanas destrói runway e foco. "Não, porque X" libera você para a próxima conversa. Empurre por respostas rápidas. Aprecie o "não" mais do que o "talvez".
 
 Duas lições que eu considero as mais importantes dos dois ensaios juntos.
 
@@ -5284,11 +5284,11 @@ Relacionamento define optionality em crise. Os momentos difíceis (caixa decisiv
 
 #### 1. Preparação da Narrativa, SCQA
 
-SCQA (Situation, Complication, Question, Answer) é framework de storytelling formalizado por Barbara Minto (ex-McKinsey), no *Pyramid Principle*. É a espinha dorsal de qualquer comunicação persuasiva de negócio. E é particularmente poderoso em pitch, porque força o narrador a estabelecer contexto, tensão, pergunta central, e resposta, de forma sequencial, e clara.
+SCQA (Situation, Complication, Question, Answer) é framework de storytelling formalizado por Barbara Minto (ex-McKinsey), no *Pyramid Principle*. É a espinha dorsal de qualquer comunicação persuasiva de negócio. E é particularmente poderoso em pitch, porque força o narrador a estabelecer contexto, tensão, pergunta central, e resposta, de forma sequencial e clara.
 
 **Estrutura.**
 
-**S, Situação (Situation).** Descrição objetiva do estado atual do mundo, ou mercado. Fatos não contestáveis. Estabelece terreno comum com o investidor.
+**S, Situação (Situation).** Descrição objetiva do estado atual do mundo ou mercado. Fatos não contestáveis. Estabelece terreno comum com o investidor.
 
 Exemplo aplicado ao SaaS B2B de Lucas e Marina (substituindo o pitch descritivo da abertura que havia gerado o educado *"adorei, me mantenha atualizado"*): *"O Brasil possui mais de 180 mil empresas de serviços B2B e distribuidoras de médio porte que faturam entre R$ 5 milhões e R$ 80 milhões por ano, mas mais de 75% delas ainda conciliam faturamento, cobrança, recebíveis e fluxo de caixa em planilhas desconectadas do ERP, perdendo em média 4,5% da margem líquida com atrasos, taxas bancárias ocultas e retrabalho manual."*
 
@@ -5322,17 +5322,17 @@ Investidores sérios têm conjunto razoavelmente consistente de perguntas. Prepa
 
 **Perguntas sobre mercado.** Qual é o TAM real calculado *bottom-up* (mostre a conta)? Por que agora (que mudança tecnológica, regulatória ou comportamental destrava esta janela)? Qual é a taxa de crescimento anual do mercado (10% ao ano ou 50% ao ano) e quem mais disputa esse orçamento?
 
-**Perguntas sobre produto, e diferenciação.** O que especificamente o seu produto faz, que o concorrente X não faz? Qual é o moat daqui a três anos? Se concorrente com dez vezes o seu capital decide atacar, o que acontece? Qual é o insight não óbvio que vocês têm sobre esse mercado?
+**Perguntas sobre produto e diferenciação.** O que especificamente o seu produto faz, que o concorrente X não faz? Qual é o moat daqui a três anos? Se concorrente com dez vezes o seu capital decide atacar, o que acontece? Qual é o insight não óbvio que vocês têm sobre esse mercado?
 
-**Perguntas sobre tração, e métricas.** Qual é a retenção por coorte, nos últimos doze meses? (Prepare gráfico). Qual é o NRR, e como está evoluindo? Qual é o payback de CAC, e em quais canais? O churn está subindo, estável, ou caindo? Por quê? Qual é o seu North Star Metric, e por que esse?
+**Perguntas sobre tração e métricas.** Qual é a retenção por coorte, nos últimos doze meses? (Prepare gráfico). Qual é o NRR, e como está evoluindo? Qual é o payback de CAC, e em quais canais? O churn está subindo, estável ou caindo? Por quê? Qual é o seu North Star Metric, e por que esse?
 
-**Perguntas sobre time.** Por que esse time? Qual é o founder-market-fit específico? Quais são as próximas três contratações? Quando fecha cada uma? Quem poderia sair, e destruir a empresa? Como os fundadores dividem responsabilidades executivas e participação societária entre si, e como está estruturado o *cap table* atual?
+**Perguntas sobre time.** Por que esse time? Qual é o founder-market-fit específico? Quais são as próximas três contratações? Quando fecha cada uma? Quem poderia sair e destruir a empresa? Como os fundadores dividem responsabilidades executivas e participação societária entre si, e como está estruturado o *cap table* atual?
 
-**Perguntas sobre modelo, e unit economics.** Qual é a margem bruta na escala atual? Como evolui em escala? Qual é o CAC por canal? Qual canal escala? Se o ciclo de mercado aperta, como defende o negócio?
+**Perguntas sobre modelo e unit economics.** Qual é a margem bruta na escala atual? Como evolui em escala? Qual é o CAC por canal? Qual canal escala? Se o ciclo de mercado aperta, como defende o negócio?
 
-**Perguntas sobre captação, e uso de capital.** Com esse capital, onde vocês estão em 18-24 meses? Quais são os três riscos maiores de não atingir esses milestones? Quanto vale a empresa, e por que esse valuation? Quem mais está na rodada? Para o que especificamente o dinheiro vai (percentual em produto, time, marketing)?
+**Perguntas sobre captação e uso de capital.** Com esse capital, onde vocês estão em 18-24 meses? Quais são os três riscos maiores de não atingir esses milestones? Quanto vale a empresa, e por que esse valuation? Quem mais está na rodada? Para o que especificamente o dinheiro vai (percentual em produto, time, marketing)?
 
-**Perguntas sobre exit, ou visão longa.** Qual é o caminho para R$ 1 bilhão de receita? Quem são os compradores potenciais em 5-7 anos? O que precisa ser verdade, para que essa empresa faça IPO?
+**Perguntas sobre exit ou visão longa.** Qual é o caminho para R$ 1 bilhão de receita? Quem são os compradores potenciais em 5-7 anos? O que precisa ser verdade, para que essa empresa faça IPO?
 
 **Perguntas de stress-test.** Qual é a pior coisa que poderia acontecer com a empresa, nos próximos doze meses? Que suposição-chave do seu plano está mais frágil? Como testa?
 
@@ -5353,7 +5353,7 @@ A árvore completa de pastas e documentos obrigatórios encontra-se no Template:
 
 #### 6. Term Sheet, termos-chave
 
-Term sheet é documento não vinculante (exceto cláusulas específicas como exclusividade, e confidencialidade), que resume condições da rodada. Tamanho típico, três a seis páginas.
+Term sheet é documento não vinculante (exceto cláusulas específicas como exclusividade e confidencialidade), que resume condições da rodada. Tamanho típico, três a seis páginas.
 
 **Termos financeiros principais.**
 
@@ -5480,15 +5480,15 @@ Após o term sheet assinado, segue due diligence formal (trinta a quarenta e cin
 
 Financial DD. Revisão de DREs, balanços, fluxo de caixa, reconciliação com sistema contábil, análise de qualidade de receita (não recorrente versus recorrente), e contratos de top dez clientes.
 
-Legal DD. Revisão de contrato social, todos os contratos relevantes, IP, passivos, e processos.
+Legal DD. Revisão de contrato social, todos os contratos relevantes, IP, passivos e processos.
 
-Tax DD. Obrigações fiscais, contencioso tributário, e benefícios fiscais usados.
+Tax DD. Obrigações fiscais, contencioso tributário e benefícios fiscais usados.
 
-HR DD. Contratos de trabalho, políticas, e passivos trabalhistas.
+HR DD. Contratos de trabalho, políticas e passivos trabalhistas.
 
-Technical DD. Arquitetura, dívida técnica, e processos de desenvolvimento. Em rodadas seed, ou A, pode ser leve. Em B em diante, fica sério.
+Technical DD. Arquitetura, dívida técnica e processos de desenvolvimento. Em rodadas seed, ou A, pode ser leve. Em B em diante, fica sério.
 
-Customer DD. Calls com três a cinco clientes da empresa, para validar uso, e satisfação.
+Customer DD. Calls com três a cinco clientes da empresa, para validar uso e satisfação.
 
 Reference checks. Conversas com ex-colegas, ex-investidores, e advisors do fundador.
 
@@ -5523,7 +5523,7 @@ Pedidos específicos. "Ajudem" é ruim. "Vocês conhecem alguém em [empresa X],
 
 #### 2. Board Governance
 
-Após a rodada, há board formal, ou informal. Como usá-lo bem.
+Após a rodada, há board formal ou informal. Como usá-lo bem.
 
 **Reunião de board, estrutura padrão (reunião trimestral, duas a três horas).**
 
@@ -5533,7 +5533,7 @@ Após a rodada, há board formal, ou informal. Como usá-lo bem.
 4. Decisões pendentes (15 min). O que precisa de aprovação.
 5. Sessão executiva (*executive session*, 15 a 30 min): conversa reservada dos conselheiros (com e sem o CEO), padrão saudável de governança para alinhamento franco.
 
-**Material para board, enviado 72 horas antes.** Board deck (10-20 slides), métricas, OKRs, riscos, e decisões. Report detalhado (texto, 5-15 páginas), aprofundamento das áreas. Financials do trimestre, mais projeções.
+**Material para board, enviado 72 horas antes.** Board deck (10-20 slides), métricas, OKRs, riscos e decisões. Report detalhado (texto, 5-15 páginas), aprofundamento das áreas. Financials do trimestre, mais projeções.
 
 > [!important] Princípio de governança: o conselho aprova as matérias do acordo de acionistas, fiscaliza a gestão e desafia a estratégia.
 > **Como usar o Conselho de Administração:** pela Lei das S.A. (art. 142) e pelo acordo de acionistas, o conselho tem o dever formal de fiscalizar a diretoria e deliberar sobre matérias estratégicas e de alçada (orçamento anual, M&A, dívida relevante e remuneração executiva). Cumprida essa governança obrigatória, não transforme a reunião em um teatro defensivo para buscar aplauso: use os conselheiros como caixa de ressonância para testar decisões difíceis e destravar portas comerciais. Trate os membros como recursos. Não como supervisores.
@@ -5559,7 +5559,7 @@ Compartilhamento de contexto. Situações complexas, que não cabem em update fo
 
 #### 4. Gestão de Crise com Investidores (ver Capítulo 9: Gestão de Crise, Continuidade Operacional e Comunicação Crítica do Volume 9)
 
-Em crise, o relacionamento construído previamente é o que determina se os investidores ajudam, ou atrapalham.
+Em crise, o relacionamento construído previamente é o que determina se os investidores ajudam ou atrapalham.
 
 **Regras de comunicação na crise:** garanta transparência imediata para que os investidores recebam a notícia diretamente pelo CEO (jamais por terceiros ou pela imprensa), chegue à conversa já com o plano de ação estruturado (*"enfrentamos este problema, este é o plano de contenção e precisamos deste apoio específico do conselho"*), aumente a cadência de atualização de mensal para semanal até estabilizar a operação e nunca oculte indicadores negativos, pois a omissão destrói a confiança fiduciária quando o dado vem à tona.
 
@@ -5567,7 +5567,7 @@ Exemplo condensado de e-mail de crise.
 
 *"Pessoal, estamos enfrentando caixa decisivo. Runway caiu para 5 meses, com trajetória atual. Aqui está o plano [detalhes]. Precisamos de bridge round de R$ X até [data], para não parar operação. Quem topa?"*
 
-Investidores que receberam updates honestos por dezoito meses tendem a responder. Investidores que foram negligenciados tendem a atrasar, ou recusar.
+Investidores que receberam updates honestos por dezoito meses tendem a responder. Investidores que foram negligenciados tendem a atrasar ou recusar.
 
 #### 5. Captação de Próxima Rodada Começa Dia 1 Pós-Atual
 
@@ -5589,9 +5589,9 @@ Quando for hora de captar, três dos cinco já conhecem a empresa profundamente.
 
 Comece o planejamento estratégico de 9 a 12 meses antes de o caixa acabar. A fase ativa de reuniões com fundos (*roadshow*) deve ser disparada quando a empresa ainda possui de 9 a 12 meses de caixa disponível, garantindo que a assinatura e a entrada do dinheiro na conta ocorram com pelo menos 6 meses de runway restante.
 
-Planejar doze meses antes. Alinhar governance interna (board, e cofundadores) sobre tese de próxima rodada. Começar métricas a evoluir na direção desejada (NRR, ARR growth, payback). Começar relações com VCs-alvo antes de precisar (conversa consultiva, não sale).
+Planejar doze meses antes. Alinhar governance interna (board e cofundadores) sobre tese de próxima rodada. Começar métricas a evoluir na direção desejada (NRR, ARR growth, payback). Começar relações com VCs-alvo antes de precisar (conversa consultiva, não sale).
 
-Planejar seis meses antes. Definir alvo de rodada (tamanho, e valuation target). Começar a preparar material. Mapear fundos-alvo em detalhe.
+Planejar seis meses antes. Definir alvo de rodada (tamanho e valuation target). Começar a preparar material. Mapear fundos-alvo em detalhe.
 
 **Fase ativa (iniciada com 9 a 12 meses de caixa no banco):** disparar as ondas de reuniões, conduzir os aprofundamentos técnicos, negociar os *term sheets* e concluir a diligência confirmatória fechando a operação com no mínimo 6 meses de fôlego financeiro para não negociar sob coação.
 
@@ -5670,11 +5670,11 @@ Assinatura, depois captação, depois anúncio (se for o caso).
 
 Warm intro negligenciada. Começar cold em vez de investir duas a três semanas em ativar rede. Cold outreach é último recurso. Não padrão.
 
-Processo serial (um investidor de cada vez). Destrói timing, e leverage. Paralelização é obrigatória.
+Processo serial (um investidor de cada vez). Destrói timing e leverage. Paralelização é obrigatória.
 
-Blefe em FOMO. Dizer "temos cinco term sheets" quando tem um. Os investidores conversam entre si, e descobrem.
+Blefe em FOMO. Dizer "temos cinco term sheets" quando tem um. Os investidores conversam entre si e descobrem.
 
-Ignorar termos não financeiros. Obsessão com valuation, ignorando liquidation preference, anti-dilution, e governança. Liquidation 2x participating pode custar exit inteiro.
+Ignorar termos não financeiros. Obsessão com valuation, ignorando liquidation preference, anti-dilution e governança. Liquidation 2x participating pode custar exit inteiro.
 
 Advogado generalista. Pode custar R$ 500 mil a R$ 2 milhões em termos mal-negociados, por economia de R$ 50 a R$ 100 mil em fees.
 
@@ -5702,7 +5702,7 @@ Para validar prontidão para captar.
 - [ ] Pitch deck atualizado, e testado em três ou mais mock pitches?
 - [ ] SCQA articulado em um parágrafo?
 - [ ] Modelo financeiro com três cenários existe?
-- [ ] Data room organizado, e mantido?
+- [ ] Data room organizado e mantido?
 - [ ] Lista de trinta a cinquenta investidores-alvo priorizada, com path to warm intro?
 - [ ] Advisors, ou rede, ativados para introduções?
 - [ ] Trinta perguntas clássicas têm respostas praticadas?
@@ -5716,11 +5716,11 @@ Para validar prontidão para captar.
 
 A maior parte deste capítulo tratou de como preparar a empresa para ser avaliada pelos fundos. Esta seção trata da etapa complementar e indispensável: como você investiga o investidor antes de assinar o Term Sheet. A diligência precisa ser bidirecional: se o fundo analisa sua empresa durante quatro a oito semanas, reserve ao menos duas semanas para checar o histórico e o comportamento real do sócio que sentará no seu conselho pelos próximos cinco a dez anos.
 
-Investidor errado, com cheque bom, pode destruir a empresa em três a cinco anos. Board dominado por VC tóxico impõe decisões que quebram produto, esgotam time, e aceleram timeline artificialmente. Investidor certo, com cheque menor, pode ser multiplicador, que salva a empresa em momentos críticos, abre portas, traz co-investidores, introduz primeiros clientes enterprise, e apoia nos momentos difíceis. A assimetria entre bom, e ruim, é gigante. E o custo de escolher mal é alto, porque a saída é praticamente impossível, uma vez comprometido.
+Investidor errado, com cheque bom, pode destruir a empresa em três a cinco anos. Board dominado por VC tóxico impõe decisões que quebram produto, esgotam time e aceleram timeline artificialmente. Investidor certo, com cheque menor, pode ser multiplicador, que salva a empresa em momentos críticos, abre portas, traz co-investidores, introduz primeiros clientes enterprise, e apoia nos momentos difíceis. A assimetria entre bom, e ruim, é gigante. E o custo de escolher mal é alto, porque a saída é praticamente impossível, uma vez comprometido.
 
 **Quatro dimensões de avaliação do VC candidato.**
 
-**1. Histórico operacional, e padrão de decisão.**
+**1. Histórico operacional e padrão de decisão.**
 
 Pergunte nas suas conversas iniciais. Quantas empresas do portfólio em estágios similares ao seu? Quais delas ainda estão ativas, versus quebraram? Quantas chegaram a rodadas subsequentes? Percentual que fez exit, versus percentual que ficou no zombie status (viva, mas sem tração)? Esses dados raramente estão públicos. Você precisa perguntar diretamente. Respostas vagas, ou recusa de compartilhar, é sinal.
 
@@ -5728,13 +5728,13 @@ Além dos números. Como o VC se comporta em crises do portfólio? Ele segue inv
 
 **2. Valor além do cheque, o que o VC realmente entrega.**
 
-Bom VC entrega três tipos de valor. Capital (o cheque). Sinalização (a marca dele atrai talento, co-investidores, e imprensa). E trabalho operacional (apresentações a clientes, apoio em contratação, orientação estratégica, e introduções para rodadas futuras).
+Bom VC entrega três tipos de valor. Capital (o cheque). Sinalização (a marca dele atrai talento, co-investidores e imprensa). E trabalho operacional (apresentações a clientes, apoio em contratação, orientação estratégica, e introduções para rodadas futuras).
 
 O dinheiro em si é homogêneo, mas a sinalização de mercado e o apoio prático variam drasticamente. No Brasil, gestoras com histórico consolidado (como Kaszek, Monashees, Valor Capital, Astella, Canary ou Atlântico) abrem portas comerciais e atraem outros fundos nas rodadas seguintes. Ainda assim, a qualidade da relação depende acima de tudo do **sócio específico (*partner*)** que será o responsável direto pela sua empresa dentro do fundo.
 
 Pergunte aos fundadores do portfólio. "Quanto tempo o Fulano dá por mês? O que ele efetivamente ajudou a resolver no último ano? Em que momento específico ele fez diferença?". Histórias concretas importam. Generalidades ("o Fulano é ótimo") não.
 
-**3. Expectativa de governance, e controle.**
+**3. Expectativa de governance e controle.**
 
 Cláusulas comuns no term sheet têm impacto enorme na operação. Assentos no board (quantos, com direito a voto em quais decisões), drag-along (capacidade do investidor forçar venda), liquidation preference (ordem de pagamento em exit), anti-dilution (proteção do investidor em rodada subsequente de menor valor), e **reinício de *vesting* dos fundadores (*vesting reset*)**, cláusula pela qual o fundo exige que parte ou a totalidade das ações já adquiridas pelos fundadores volte a ficar sujeita a um novo período de aquisição de 3 a 4 anos.
 
@@ -5742,7 +5742,7 @@ Um fundo agressivo tentará maximizar direitos de veto e cláusulas de proteçã
 
 **4. Reputação no ecossistema de fundadores.**
 
-Fundadores de empresas que quebraram, ou em crise, falam com franqueza sobre VCs que os apoiaram, ou abandonaram. Antes de aceitar cheque, marque conversas de vinte a trinta minutos, com três a cinco fundadores de portfólio. Especialmente os que não estão nos momentos ótimos. Pergunte explicitamente. "Em que situações o VC foi mais útil? Em que foi pior do que você esperava?". Se o sócio do fundo hesita ou se recusa a colocar você em contato com fundadores do portfólio que passaram por momentos difíceis, trate isso como sinal de alerta vermelho.
+Fundadores de empresas que quebraram, ou em crise, falam com franqueza sobre VCs que os apoiaram ou abandonaram. Antes de aceitar cheque, marque conversas de vinte a trinta minutos, com três a cinco fundadores de portfólio. Especialmente os que não estão nos momentos ótimos. Pergunte explicitamente. "Em que situações o VC foi mais útil? Em que foi pior do que você esperava?". Se o sócio do fundo hesita ou se recusa a colocar você em contato com fundadores do portfólio que passaram por momentos difíceis, trate isso como sinal de alerta vermelho.
 
 O ecossistema brasileiro de Venture Capital é concentrado e a reputação dos fundos circula rapidamente entre fundadores. Antes de assinar exclusividade (*no-shop*), converse reservadamente com mentores e fundadores que já captaram com aquele fundo.
 
@@ -5760,10 +5760,10 @@ Recusar um cheque dói no curto prazo, mas aceitar um sócio desalinhado trava a
 **Checklist rápido antes de aceitar term sheet.**
 
 - [ ] Conversei com três ou mais fundadores do portfólio do VC, dos quais pelo menos um em situação difícil.
-- [ ] Entendo exatamente quem será o meu partner de contato, e tenho boa relação com ele, ou ela.
+- [ ] Entendo exatamente quem será o meu partner de contato, e tenho boa relação com ele ou ela.
 - [ ] Revisei o term sheet com advogado especialista em venture (não generalista).
 - [ ] Comparei as cláusulas com pelo menos um outro term sheet recente, no mesmo estágio.
-- [ ] Entendo as implicações de cada cláusula em três cenários. Empresa cresce rápido, empresa cresce devagar, e empresa quebra.
+- [ ] Entendo as implicações de cada cláusula em três cenários. Empresa cresce rápido, empresa cresce devagar e empresa quebra.
 - [ ] Confortável com valuation. Nem alto demais (pressiona a rodada subsequente). Nem baixo demais (dilui cedo).
 - [ ] Sem red flags conhecidos sobre reputação do VC no ecossistema.
 - [ ] Pronto para conviver com esse investidor por cinco a dez anos.
@@ -5819,7 +5819,7 @@ Há três categorias principais de métodos.
 
 ### Quanto custa negociar valuation sem método
 
-Negociar mal por desconhecimento é comum, e caro. O fundador aceita o valuation que o VC propõe "porque não tem argumento". Seis meses depois, descobre que empresa similar captou com múltiplo trinta por cento maior. E era tarde. Ter modelo próprio é poder de barganha.
+Negociar mal por desconhecimento é comum e caro. O fundador aceita o valuation que o VC propõe "porque não tem argumento". Seis meses depois, descobre que empresa similar captou com múltiplo trinta por cento maior. E era tarde. Ter modelo próprio é poder de barganha.
 
 Entender a lógica do investidor vira argumento. "Você está usando múltiplo de seis vezes a receita. Mas a empresa X, no mesmo setor, captou a nove vezes há três meses. Por que descontando?". O argumento só funciona se o fundador entende o método.
 
@@ -5898,13 +5898,13 @@ Os fundos frequentemente propõem o chamado *option pool shuffle*: antes de apli
 
 **Marketplaces e plataformas transacionais:** o *valuation* é ancorado na **receita líquida de intermediação (*net revenue* gerada pelo *take rate*)**, tipicamente entre **4x e 8x a receita líquida anual** (o que equivale a cerca de **0,2x a 1,0x o GMV anualizado**, conforme o *take rate* e a margem de contribuição da plataforma).
 
-Fintech, ou banco digital. Early. Cinco a quinze vezes revenue run rate. Valoração por usuário em alguns modelos (US$ 200 a US$ 500 por usuário ativo). Late. Price/book value em duas a quatro vezes para bancos digitais. Múltiplos de receita em escala tech.
+Fintech ou banco digital. Early. Cinco a quinze vezes revenue run rate. Valoração por usuário em alguns modelos (US$ 200 a US$ 500 por usuário ativo). Late. Price/book value em duas a quatro vezes para bancos digitais. Múltiplos de receita em escala tech.
 
-D2C e-commerce. Uma a três vezes revenue (e-commerce está em múltiplos comprimidos pós-2022). Ajustes por margem bruta, retention, e marca.
+D2C e-commerce. Uma a três vezes revenue (e-commerce está em múltiplos comprimidos pós-2022). Ajustes por margem bruta, retention e marca.
 
 *HealthTech* e *Biotech*: na fase pré-receita, a avaliação baseia-se no ativo de propriedade intelectual, no estágio de validação clínica ou regulatória (ANVISA/FDA) e no potencial da área terapêutica, não comportando múltiplos simples de faturamento; já na fase comercial (*revenue-stage*), os múltiplos variam entre 5x e 15x a receita anual conforme a margem bruta do modelo (software recorrente versus operação intensiva em serviços clínicos).
 
-HRtech, EdTech, e Construtech vertical. Similar a SaaS B2B. Ajustes por nicho, e tamanho de mercado.
+HRtech, EdTech e Construtech vertical. Similar a SaaS B2B. Ajustes por nicho e tamanho de mercado.
 
 **Como obter comparables.**
 
@@ -6051,7 +6051,7 @@ Esses métodos são usados por angels, e pre-seed investors, brasileiros (Bossa 
 
 Comprador estratégico (corporate acquirer) usa métodos específicos.
 
-Accretion, ou dilution analysis. O adquirente pergunta. "Essa aquisição vai aumentar, ou diminuir, o meu lucro por ação?". Impacta a decisão.
+Accretion ou dilution analysis. O adquirente pergunta. "Essa aquisição vai aumentar, ou diminuir, o meu lucro por ação?". Impacta a decisão.
 
 Sinergia específica. "Quanto custo consigo cortar? Quanto revenue consigo cross-sell?". O valor da sinergia, acima do stand-alone value, é pago ao vendedor como prêmio.
 **Custo de oportunidade (*Build vs. Buy*) e *Earn-out*:** além das sinergias de receita e custo, a grande corporação calcula quanto tempo e dinheiro gastaria para construir internamente a tecnologia e a carteira de clientes da startup (*Build vs. Buy*): comprar uma operação pronta que antecipa em dois ou três anos a entrada em um mercado estratégico justifica pagar prêmio sobre o múltiplo financeiro puro. Para alinhar incentivos após a compra, parte relevante do preço costuma ser atrelada a metas de retenção e crescimento nos 24 a 36 meses seguintes (**cláusula de *earn-out***, veja a estruturação completa no Volume 9).
@@ -6112,7 +6112,7 @@ Comparables internacionais com ajuste explícito. Apresentar valuation usando co
 
 ### Como defender seu intervalo de valuation na mesa sem dar o primeiro número de forma amadora
 
-Para fundador antes de rodada, ou aquisição.
+Para fundador antes de rodada ou aquisição.
 
 Passo 1: triangulação. Usar três ou mais métodos. Comparar resultados. Múltiplos de mercado (primário). DCF, se maduro suficiente. VC method (o que o VC usaria). Comparable transactions recentes.
 
@@ -6159,7 +6159,7 @@ Não considerar dilution futura. Valuation hoje R$ 300 milhões. Ownership quare
 
 Aceitar "valuation é só um número", sem pushing back. O VC diz "vamos com o número, foque em crescer". Mas o ownership final é função do valuation de hoje. Cada ponto percentual de ownership em exit futuro é material.
 
-Não formalizar avaliação em eventos especiais. Stock options, earn-outs, buyouts parciais, e secundária de sócio. Tudo requer valuation formal. Sem laudo, vira pilha de atritos depois.
+Não formalizar avaliação em eventos especiais. Stock options, earn-outs, buyouts parciais e secundária de sócio. Tudo requer valuation formal. Sem laudo, vira pilha de atritos depois.
 
 Confundir pré-money com post-money. Pre-money mais rodada igual a post-money. Ownership do investidor igual a rodada dividido por post-money. Confundir é erro clássico em negociação.
 
@@ -6169,7 +6169,7 @@ Ignorar o efeito do option pool sobre a diluição real. O pool criado pré-mone
 
 ### Checklist de preparação antes de discutir preço e termos com um investidor
 
-Este checklist é diferente dos anteriores. Não é sobre o que construir ao longo do tempo. É sobre o que ter na mão, pronto, antes de qualquer reunião com investidor, comprador estratégico, ou advisor.
+Este checklist é diferente dos anteriores. Não é sobre o que construir ao longo do tempo. É sobre o que ter na mão, pronto, antes de qualquer reunião com investidor, comprador estratégico ou advisor.
 
 **Documentação financeira.**
 
@@ -6531,7 +6531,7 @@ Capital em troca de percentual de receita futura, por período, ou até atingir 
 
 Como funciona: o financiador adianta R$ X e recebe mensalmente um percentual acordado da receita bruta ou líquida (tipicamente 5% a 15% do faturamento mensal) até atingir um múltiplo fixo do valor adiantado (cap de 1,3x a 1,8x o principal). Embora não tenha taxa de juros nominal fixa, quanto mais rápido a receita cresce, menor o prazo de amortização e maior a taxa interna de retorno (custo efetivo anualizado) paga pela startup.
 
-Quando faz sentido. SaaS com MRR estável, e previsível. E-commerce com margem bruta maior que quarenta por cento, e receita recorrente. Negócios em crescimento, que preferem variabilização (pagamento menor em meses piores), a parcela fixa.
+Quando faz sentido. SaaS com MRR estável e previsível. E-commerce com margem bruta maior que quarenta por cento, e receita recorrente. Negócios em crescimento, que preferem variabilização (pagamento menor em meses piores), a parcela fixa.
 
 **Requisitos:** MRR, ou receita mensal, de R$ 100 a R$ 500 mil em diante. Histórico de seis a doze meses. Margem bruta saudável. Churn documentado.
 
@@ -6543,7 +6543,7 @@ Provedores no Brasil: plataformas de crédito estruturado baseadas em receita re
 
 Você vende os recebíveis futuros, para receber à vista (com desconto). É commodity financeira. Todo banco, e boa parte das fintechs, oferece.
 
-Como funciona. Você tem contratos, ou notas fiscais, a receber em 30, 60, ou 90 dias. A instituição adianta o valor com deságio (1 a 4 por cento ao mês tipicamente).
+Como funciona. Você tem contratos, ou notas fiscais, a receber em 30, 60 ou 90 dias. A instituição adianta o valor com deságio (1 a 4 por cento ao mês tipicamente).
 
 Quando faz sentido: para financiar o descasamento do ciclo de caixa em operações B2B com clientes corporativos solventes. Do ponto de vista contábil e de diligência, porém, **a antecipação só sai do passivo financeiro quando é estruturada como cessão definitiva de crédito sem coobrigação (*true sale*)**. Se a startup mantiver coobrigação pelo inadimplemento do cliente (regra na maioria dos descontos bancários simples), a auditoria reclassifica a operação como dívida financeira.
 
@@ -6591,7 +6591,7 @@ Investimento de pequenos investidores pessoa física, em empresas early-stage, v
 
 Como funciona: plataformas eletrônicas registradas na CVM (como CapTable, EqSeed, Kria, antiga Broota: , SMU Investimentos e Bloxs. Veja a análise completa no [[#CAPÍTULO 14: CAPTAÇÃO ALTERNATIVA DIGITAL: EQUITY CROWDFUNDING (CVM 88) E TOKENIZAÇÃO DE ATIVOS|Capítulo 14]]) permitem captar até R$ 15 milhões por ano-calendário junto a dezenas ou centenas de investidores via títulos conversíveis ou participação societária.
 
-**Regulamentação:** Resolução CVM 88/2022 atualizou limites, e condições. Empresa com receita anual até R$ 40 milhões pode captar até R$ 15 milhões em doze meses, via crowdfunding.
+**Regulamentação:** Resolução CVM 88/2022 atualizou limites e condições. Empresa com receita anual até R$ 40 milhões pode captar até R$ 15 milhões em doze meses, via crowdfunding.
 
 Quando faz sentido. Early stage com comunidade orgânica de apoiadores (clientes, usuários, comunidade setorial). Impossibilidade de acessar fundos VC tradicionais. Validação social como co-benefício.
 
@@ -6600,7 +6600,7 @@ Quando faz sentido. Early stage com comunidade orgânica de apoiadores (clientes
 > [!note] Limite da comparação: equity crowdfunding e conversíveis diluem no fechamento ou na conversão
 > Ao contrário das subvenções, incentivos fiscais e linhas de dívida pura, tanto o *equity crowdfunding* (Instrumento 6) quanto as debêntures/mútuos conversíveis (Instrumento 7) geram diluição societária na emissão ou na conversão futura. Eles figuram nesta matriz apenas para que você compare todas as alternativas à rodada tradicional de Venture Capital em um único quadro.
 
-**Instrumento 7: Debêntures Conversíveis, ou Notas Conversíveis Estruturadas.**
+**Instrumento 7: Debêntures Conversíveis ou Notas Conversíveis Estruturadas.**
 
 Dívida que pode virar equity em condições predefinidas (próxima rodada, evento de liquidez, ou prazo).
 
@@ -6671,26 +6671,26 @@ Grant como estratégia-mãe. Empresa que organiza estratégia em torno do próxi
 
 Antecipação crônica de recebíveis. Usar antecipação para cobrir déficit operacional crônico (não apenas bridge) cria dependência. Você não consegue mais parar, sem quebrar.
 
-Não atualizar estruturas, quando crescer. Instrumento que era barato em estágio X, vira caro em estágio X mais 2. Revisitar a cada rodada, se os instrumentos antigos deveriam ser liquidados, ou renegociados.
+Não atualizar estruturas, quando crescer. Instrumento que era barato em estágio X, vira caro em estágio X mais 2. Revisitar a cada rodada, se os instrumentos antigos deveriam ser liquidados ou renegociados.
 
 ### Checklist de governança de dívida e prestação de contas à prova de auditoria (Finep, FAPs e TCU)
 
 Antes de assinar qualquer contrato não diluitivo.
 
-- [ ] Custo efetivo anualizado foi calculado, incluindo warrants, taxas de estruturação, compliance, e custos indiretos?
+- [ ] Custo efetivo anualizado foi calculado, incluindo warrants, taxas de estruturação, compliance e custos indiretos?
 - [ ] Covenants foram simulados em cenário pessimista (receita menos trinta por cento, runway reduzido), e ainda cumpríveis?
-- [ ] Há garantia pessoal exigida? Se sim, capped, e negociada?
+- [ ] Há garantia pessoal exigida? Se sim, capped e negociada?
 - [ ] Garantias corporativas (IP, recebíveis, equipamento) não bloqueiam captações, ou M&A, futuros?
 - [ ] Advogado especializado em dívida corporativa (não apenas societária) revisou?
 - [ ] Cláusulas de aceleração foram mapeadas? O que dispara?
-- [ ] Cross-default com outros instrumentos foi identificado, e quantificado?
+- [ ] Cross-default com outros instrumentos foi identificado e quantificado?
 - [ ] Impacto em cap table em caso de conversão (se for conversível) foi modelado?
 - [ ] As alternativas foram comparadas na matriz de custo efetivo para confirmar que este é o instrumento mais adequado?
 - [ ] **Em subvenções e editais públicos (Finep/FAPs/EMBRAPII):** foi aberta conta bancária exclusiva e segregada para o projeto, com processo formal de 3 cotações prévias para cada compra e bloqueio contra desvio entre rubricas?
 - [ ] **Em projetos de P&D e Lei do Bem:** há cronograma de relatórios técnicos parciais, controle auditável de horas dos pesquisadores por projeto e guarda de notas fiscais e laudos por 5 anos?
 
 > [!warning] Sinal de problema
-> Se há três ou mais "não", renegocie, ou busque alternativa. Dívida mal-estruturada quebra startup mais rápido que falta de dinheiro.
+> Se há três ou mais "não", renegocie ou busque alternativa. Dívida mal-estruturada quebra startup mais rápido que falta de dinheiro.
 
 ---
 
@@ -6734,7 +6734,7 @@ Chamamos o erro que Marina evitou na captação de O Erro da Gasolina Mais Cara 
 ---
 
 > [!note] Nota de validade
-> Os produtos de financiamento não diluitivo no Brasil estão em forte evolução, 2023 a 2026. Termos, taxas, e providers mudam. Revisar anualmente.
+> Os produtos de financiamento não diluitivo no Brasil estão em forte evolução, 2023 a 2026. Termos, taxas e providers mudam. Revisar anualmente.
 
 ### A matemática patrimonial: por que substituir 15% a 18% de diluição por dívida estruturada preserva dezenas de milhões para os fundadores
 
@@ -6766,7 +6766,7 @@ Provedores e escopo: no Brasil, atuam plataformas especializadas como a55 e Divi
 > [!warning] Quando RBF é armadilha
 > Jamais contrate RBF para financiar experimentos sem retorno validado ou se a sua margem bruta for baixa (< 50%), pois reter 12% da receita bruta em uma empresa com margem bruta de 30% consome 40% de toda a geração de caixa bruto. Cuidado também com cláusulas de pagamento mínimo mensal fixo em negócios sazonais e com a **renovação sucessiva (*stacking* de RBF)**, que transforma um adiantamento pontual em um imposto permanente sobre o faturamento.
 
-**3. Estruturação.** Advogado financeiro (não generalista) decisivo. Leia todas as cláusulas. Especialmente covenants, default, e acceleration clauses. Entenda gatilhos de chamada antecipada.
+**3. Estruturação.** Advogado financeiro (não generalista) decisivo. Leia todas as cláusulas. Especialmente covenants, default e acceleration clauses. Entenda gatilhos de chamada antecipada.
 
 ### Checklist de análise de contrato de Venture Debt, RBF e FIDC antes da assinatura
 
@@ -6821,7 +6821,7 @@ Principais plataformas eletrônicas de investimento participativo registradas na
 
 O *equity crowdfunding* ganhou tração no Brasil em três situações principais:
 
-**1. Empresas fora do radar de VC.** Negócios de economia real (alimentação, pequena indústria, varejo, e hospitalidade). SaaS verticais B2B com TAM (*total addressable market*, mercado endereçável total) pequeno. Empresas regionais. Frequentemente não são "tese" para VCs institucionais. Mas têm modelo viável, e podem captar R$ 2 milhões a R$ 10 milhões com 200 a 1.500 investidores pessoa física.
+**1. Empresas fora do radar de VC.** Negócios de economia real (alimentação, pequena indústria, varejo e hospitalidade). SaaS verticais B2B com TAM (*total addressable market*, mercado endereçável total) pequeno. Empresas regionais. Frequentemente não são "tese" para VCs institucionais. Mas têm modelo viável, e podem captar R$ 2 milhões a R$ 10 milhões com 200 a 1.500 investidores pessoa física.
 
 **2. Bridge antes de Série A.** Startup com tração inicial (R$ 1 milhão a R$ 5 milhões de ARR, *annual recurring revenue*, receita recorrente anual). Ainda não é robusta o suficiente para fechar Série A. Mas precisa de capital. Crowdfunding permite captar R$ 3 milhões a R$ 8 milhões, sem o padrão alto de due diligence (auditoria pré-investimento) de VCs institucionais.
 
@@ -6840,7 +6840,7 @@ O *equity crowdfunding* ganhou tração no Brasil em três situações principai
 
 **Valuation.** Pre-money definido pelo empreendedor. Validado pela plataforma. Faixa típica. R$ 10 milhões a R$ 80 milhões.
 
-**Comissão da plataforma.** Cinco a doze por cento do valor captado, mais taxa fixa R$ 5 mil a R$ 30 mil. Varia por plataforma, e complexidade.
+**Comissão da plataforma.** Cinco a doze por cento do valor captado, mais taxa fixa R$ 5 mil a R$ 30 mil. Varia por plataforma e complexidade.
 
 **Diluição efetiva.** Se a empresa é avaliada em R$ 30 milhões *pre-money* e capta R$ 5 milhões, o *post-money* passa a ser de R$ 35 milhões, resultando em 14,3% de participação para os investidores da oferta (em títulos conversíveis, a participação definitiva se materializa no evento de conversão, tipicamente na rodada institucional seguinte).
 
@@ -6872,7 +6872,7 @@ O sucesso da rodada de R$ 2,5 milhões da Dra. Camila não veio do tráfego org�
 
 Solução parcial. Usar estrutura de SPV (Special Purpose Vehicle), ou sociedade em conta de participação. Crowdfunders investem em veículo agregador. Veículo tem assento de cap table único na empresa. Reduz complexidade.
 
-Disclosure público. Empresa listou números, estratégia, e contratos-chave em plataforma. Informação fica pública (ou semi-pública). Concorrentes têm acesso.
+Disclosure público. Empresa listou números, estratégia e contratos-chave em plataforma. Informação fica pública (ou semi-pública). Concorrentes têm acesso.
 
 Investidores leigos têm expectativas descalibradas. Alguns esperam retorno rápido (em dois a três anos). Outros não entendem iliquidez de startup. Outros reagem emocionalmente a notícias ruins. Gestão de relacionamento é trabalhosa.
 
@@ -6884,7 +6884,7 @@ Obrigações regulatórias pós-captação. Reporting CVM, divulgação em plata
 
 **Negativo (parcial).** Cap table complicado pode desencorajar VCs que querem limpar. Alguns VCs preferem empresas que não fizeram crowdfunding, por sinalizar "não conseguiu VC antes". Valuation antigo de crowdfunding pode âncorar próxima rodada abaixo do ideal.
 
-**Positivo.** Tração demonstrada com base de usuários, e investidores, pode virar argumento de Série A. Comunidade engajada pode acelerar growth (investidores viram usuários, ou promotores). Crowdfunding bem executado demonstra capacidade de execução, e comunicação.
+**Positivo.** Tração demonstrada com base de usuários, e investidores, pode virar argumento de Série A. Comunidade engajada pode acelerar growth (investidores viram usuários ou promotores). Crowdfunding bem executado demonstra capacidade de execução e comunicação.
 
 **Gestão:** Avisar claramente em pitch de Série A que a campanha de crowdfunding foi estratégica. Com resultado mensurado. E que está sendo agregada via SPV para simplicidade. Preparado para perguntas.
 
@@ -6892,14 +6892,14 @@ Obrigações regulatórias pós-captação. Reporting CVM, divulgação em plata
 
 As campanhas bem-sucedidas sob a Resolução CVM 88/2022 em plataformas autorizadas pela CVM (CapTable, EqSeed, Kria, SMU e Bloxs) concentram-se em três perfis que espelham a jornada da Dra. Camila: (1) saúde, bem-estar e varejo especializado com comunidade fiel, em que os próprios clientes e parceiros tornam-se sócios-embaixadores, (2) SaaS B2B nichados e healthtechs em estágio Seed, que utilizam um investidor-líder profissional para ancorar 40% da oferta nas primeiras 48 horas e completam a rodada com executivos do próprio setor, e (3) marcas de consumo recorrente (D2C) e alimentos/bebidas, que convertem fãs da marca em acionistas via veículo sindicado. *(Nota de distinção regulatória: não confunda o equity crowdfunding da Resolução CVM 88 com emissões institucionais de notas comerciais ou debêntures para investidores profissionais, como as notas comerciais de R$ 50 milhões emitidas pelo Cruzeiro SAF em 2023, nem com fan tokens de clubes esportivos, que são utility tokens sem participação societária, discutidos a seguir.)*
 
-Várias startups early-stage em agtech, edtech, e retailtech. Cada ano plataformas lançam cinquenta a cem campanhas.
+Várias startups early-stage em agtech, edtech e retailtech. Cada ano plataformas lançam cinquenta a cem campanhas.
 
 > [!note] Cuidado com generalização
 > Alguns têm continuidade sólida. Outros quebram (como qualquer população de startups). Sucesso de campanha é diferente de sucesso do negócio. Investidor precisa saber.
 
 ### Métricas de campanha: % ancorado nas primeiras 48h (meta ≥ 40%), tíquete médio, custo total (%) e engajamento pós-oferta
 
-Valor captado versus valor alvo. Número de investidores. Ticket médio. Sobre-demanda (captação com lista de espera, ou oversubscription). Custo de aquisição de investidor (quanto gastou em marketing, ou plataforma, por investidor). NPS dos investidores pós-campanha. Engajamento em reports trimestrais. Retention em próxima rodada (quantos crowdfunders participam de extensão, ou follow-on).
+Valor captado versus valor alvo. Número de investidores. Ticket médio. Sobre-demanda (captação com lista de espera ou oversubscription). Custo de aquisição de investidor (quanto gastou em marketing, ou plataforma, por investidor). NPS dos investidores pós-campanha. Engajamento em reports trimestrais. Retention em próxima rodada (quantos crowdfunders participam de extensão ou follow-on).
 
 ---
 
@@ -6937,26 +6937,26 @@ Recomendação prática para o fundador: antes de emitir um *token* ou construir
 
 ### USO 2, PRODUTO TOKENIZANDO ATIVOS DE TERCEIROS
 
-**Tese de produto.** Startup cria plataforma que tokeniza imóveis, precatórios, recebíveis, commodities, art, ou royalties.
+**Tese de produto.** Startup cria plataforma que tokeniza imóveis, precatórios, recebíveis, commodities, arte ou royalties.
 
 **Exemplos brasileiros em operação na tokenização de ativos reais (RWA) e direitos creditórios (referência 2026):** Liqi (tokenização de direitos creditórios, notas comerciais e ofertas estruturadas sob a Resolução CVM 88 e regras de securitização da CVM), Hurst Capital (originação e fracionamento de ativos alternativos, como precatórios, royalties musicais e recebíveis imobiliários), MB Tokens (Mercado Bitcoin) e Bloxs (operações estruturadas de crédito e captação via mercado de capitais tokenizado, supervisionadas pela CVM quando caracterizam valores mobiliários pelo Parecer de Orientação CVM 40).
 
-**Potencial real.** Tokenização de recebíveis, crédito estruturado, e alguns setores de imóveis (especialmente multifamily income), está gerando volume relevante. Rails tradicionais (contratos de cessão de crédito, FIDCs, e FIIs) têm overhead significativo. Tokenização reduz esse overhead em alguns casos.
+**Potencial real.** Tokenização de recebíveis, crédito estruturado, e alguns setores de imóveis (especialmente multifamily income), está gerando volume relevante. Rails tradicionais (contratos de cessão de crédito, FIDCs e FIIs) têm overhead significativo. Tokenização reduz esse overhead em alguns casos.
 
-**Desafios.** Regulatório ainda evoluindo (CVM, e BC). Liquidez secundária real depende de volume real (muitas plataformas têm volume pequeno). Investidor educado é escasso. Concorrência intensa de rails tradicionais maduros.
+**Desafios.** Regulatório ainda evoluindo (CVM e BC). Liquidez secundária real depende de volume real (muitas plataformas têm volume pequeno). Investidor educado é escasso. Concorrência intensa de rails tradicionais maduros.
 
-**para fundador considerando negócio de tokenização.** Validar que existe problema real sendo resolvido que rails tradicionais não resolvem. Tem regulatório sob controle. Tem distribuição (forma de trazer investidores, e ativos). Sem os três, é mais provável virar estudo de caso do que negócio.
+**para fundador considerando negócio de tokenização.** Validar que existe problema real sendo resolvido que rails tradicionais não resolvem. Tem regulatório sob controle. Tem distribuição (forma de trazer investidores e ativos). Sem os três, é mais provável virar estudo de caso do que negócio.
 
 ---
 
 ### USO 3, EQUITY PARA COLABORADORES VIA TOKEN
 
-**Ideia.** Substituir stock options tradicionais por tokens, que representam direito sobre equity, ou sobre receita futura. Pitched como mais transparente, líquido, e moderno.
+**Ideia.** Substituir stock options tradicionais por tokens, que representam direito sobre equity, ou sobre receita futura. Pitched como mais transparente, líquido e moderno.
 
 **Realidade em 2026.** Estrutura legal é complexa (token é security. Regulamentado). Taxação é indefinida em muitos casos (token é rendimento? Ganho de capital? No Brasil, e no exterior?). Colaboradores sofisticados preferem stock options tradicionais (cap table claro. Estrutura conhecida). Colaboradores novos podem se encantar com token. Mas não entendem direitos reais.
 
 > [!warning] Recomendação
-> Evitar. Exceto se contexto muito específico (empresa Web3, ou crypto nativa) justifica. Stock options com boa documentação, mais vesting, mais acordo de acionistas, resolve noventa e nove por cento dos casos sem overhead regulatório adicional.
+> Evitar. Exceto se contexto muito específico (empresa Web3 ou crypto nativa) justifica. Stock options com boa documentação, mais vesting, mais acordo de acionistas, resolve noventa e nove por cento dos casos sem overhead regulatório adicional.
 
 ---
 
@@ -6966,7 +6966,7 @@ Recomendação prática para o fundador: antes de emitir um *token* ou construir
 
 **Para investidor pessoa física.** Cripto-ativo tem tratamento específico. Para criptoativos alienados no Brasil, a isenção de IRPF para pessoa física aplica-se quando o valor total das alienações no mês (somadas todas as espécies) é de até R$ 35 mil, quando o total vendido no mês supera R$ 35 mil, o ganho de capital apurado é tributado pelas alíquotas progressivas de 15% a 22,5% (já tokens que representam valores mobiliários ou títulos de renda fixa, como CRAs, debêntures ou cotas, seguem a tributação própria do ativo subjacente). Declaração obrigatória em IR de cripto-ativos em carteira (IN 1.888). Eventos de rendimento (dividendos tokenizados) podem ter retenção na fonte.
 
-**Para investidor PJ.** Cripto-ativos como investimento. Regime normal de ganhos (Lucro Real, ou Presumido).
+**Para investidor PJ.** Cripto-ativos como investimento. Regime normal de ganhos (Lucro Real ou Presumido).
 
 Fiscalidade evolui. Consultar contador especializado antes de estruturar.
 
@@ -6988,7 +6988,7 @@ Descuidar da LGPD na base de investidores: gerenciar dados pessoais, CPFs, ender
 
 Promessas em pitch que não cumpriu. "Vamos lançar em seis meses em cinco países". Realiza um país em doze meses. Investidores acionam. Reserva honesta é melhor.
 
-Achar que rodada substitui VC. Crowdfunding é bridge, ou alternativa. Não substituto. Para scale substantivo, VC ou equivalente é frequentemente necessário.
+Achar que rodada substitui VC. Crowdfunding é bridge ou alternativa. Não substituto. Para scale substantivo, VC ou equivalente é frequentemente necessário.
 
 Rodar crowdfunding durante inverno macro. Investidor PF retrai primeiro em recessão. Rodadas em 2023 tiveram taxa menor de fechamento. Timing de mercado importa.
 
@@ -6999,21 +6999,21 @@ Rodar crowdfunding durante inverno macro. Investidor PF retrai primeiro em reces
 Rodada bem-sucedida atinge o valor alvo em prazo planejado, com investidores diversos (não dependente de dois a três tickets âncora), base engajada pós-rodada, estrutura societária administrável (SPV ou consolidação) e cap table que não trava Série A. Rodada problemática captou abaixo do threshold (cancelada), concentrou em poucos tickets (virou captação privada com taxa de plataforma), gerou cap table caótico, ou tem investidores frustrados por silêncio pós-rodada. Os itens abaixo viabilizam o cenário bom.
 
 - [ ] Necessidade de capital compatível com teto (R$ 15 milhões), e prazo?
-- [ ] Plataforma selecionada após análise (taxas, tese, e track record)?
+- [ ] Plataforma selecionada após análise (taxas, tese e track record)?
 - [ ] Empresa estruturada como entidade brasileira (ou plano de restruturação)?
 - [ ] SPV, ou veículo agregador desenhado para cap table simplificado?
-- [ ] Material preparado. Deck, vídeo, memorial, projeções, e contratos-chave?
+- [ ] Material preparado. Deck, vídeo, memorial, projeções e contratos-chave?
 - [ ] Pré-lista de interessados (warm leads) com três a cinco vezes valor alvo?
-- [ ] Estratégia de comunicação (earned, owned, e paid) planejada?
-- [ ] Valuation realista validado com advisor, ou comparables?
+- [ ] Estratégia de comunicação (earned, owned e paid) planejada?
+- [ ] Valuation realista validado com advisor ou comparables?
 - [ ] Instrumento definido (dívida conversível é padrão, ações em casos específicos)?
 - [ ] Contratos da plataforma revisados por advogado especializado?
-- [ ] CVM compliance garantido (limites, disclosure, e documentação)?
+- [ ] CVM compliance garantido (limites, disclosure e documentação)?
 - [ ] LGPD compliance para gestão de dados de investidores?
 - [ ] Plano de reporting pós-campanha (trimestral mínimo)?
 - [ ] Estratégia para próxima rodada considerando cap table resultante?
-- [ ] Expectativa clara com investidores sobre timeline, e risco?
-- [ ] Budget para comissão de plataforma, e custos da campanha?
+- [ ] Expectativa clara com investidores sobre timeline e risco?
+- [ ] Budget para comissão de plataforma e custos da campanha?
 - [ ] Dedicação de três a seis meses de fundador ao processo planejada?
 
 > [!note] Nota de validade

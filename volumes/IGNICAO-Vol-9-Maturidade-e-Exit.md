@@ -360,7 +360,7 @@ Você conclui a Fase 19 (em qualquer ciclo) quando todos os critérios abaixo es
 
 - [ ] Diagnóstico de saturação escrito com dados, não intuição. Sinais de desaceleração documentados nas cinco categorias (canal, produto, mercado, ICP, interno). Taxa de crescimento do core monitorada (alerta se desacelera ≥2 trimestres consecutivos), concentração de revenue nos top 20% de clientes acompanhada como sinal de saturação, NPS por coorte temporal (coortes novas devem ter NPS ≥ coortes antigas).
 - [ ] Três ou mais candidatas a segunda curva avaliadas em TAM e FMF, com checagem de FMF aplicada à opção escolhida.
-- [ ] Tipo de pivot maduro escolhido com justificativa (platform, segment, technology, customer need, value capture, ou engine of growth).
+- [ ] Tipo de pivot maduro escolhido com justificativa (platform, segment, technology, customer need, value capture ou engine of growth).
 - [ ] Scorecard de decisão entre pivotar e perseverar aplicado, com pontuação e justificativa documentadas.
 - [ ] Critério go/no-go explícito, com métricas e prazo definidos.
 - [ ] Ambidestria organizacional real (não apenas no papel): time dedicado à nova curva, orçamento separado, métricas de aprendizado (não de resultado financeiro).
@@ -544,7 +544,7 @@ Passo 2: Identifique 3-5 Breakthrough Objectives (BOs): não mais. Cada BO deve 
 
 Passo 3: Cascateie via catchball. Equipe executiva propõe anual. VPs propõem como atingem, diretores propõem iniciativas, etc. Cada nível negocia com o acima.
 
-Passo 4: X-Matrix: ferramenta visual clássica que alinha, em uma única página, BOs, objetivos anuais, iniciativas, indicadores, e responsáveis. Tudo conecta.
+Passo 4: X-Matrix: ferramenta visual clássica que alinha, em uma única página, BOs, objetivos anuais, iniciativas, indicadores e responsáveis. Tudo conecta.
 
 Passo 5: Revisão mensal em todos os níveis. Não é cadência de performance (exige compliance), é cadência de aprendizado.
 
@@ -1617,7 +1617,7 @@ Na reunião seguinte de Lucas e Marina, com o material de 15 páginas lido antes
 Na etapa final dessa sessão reservada, os conselheiros independentes e os representantes dos investidores reúnem-se por 10 a 15 minutos sem a presença do CEO para alinhar a avaliação de desempenho da liderança executiva.
 
 > [!important] Sessão executiva e sessão exclusiva dos conselheiros: o espaço para avaliar o CEO sem o time na sala
-> Espaço para conversas francas sobre CEO, estratégia, e riscos, que não funcionam com CEO, ou time presente.
+> Espaço para conversas francas sobre CEO, estratégia, e riscos, que não funcionam com CEO ou time presente.
 
 #### 3. O pacote do conselho (Board Book): material de preparação
 
@@ -1625,11 +1625,11 @@ Padrão ouro de material de board em startup moderna (seguindo modelo YC).
 
 **Estrutura (doze a vinte e cinco páginas total).**
 
-1. Executive Summary (uma página). Três a cinco highlights. Três a cinco lowlights. Três a cinco decisões, ou inputs necessários.
-2. Key Metrics Dashboard (uma a duas páginas). ARR, MRR, churn, NRR, CAC, LTV, burn, runway, e team size. Tendência de seis a doze meses.
+1. Executive Summary (uma página). Três a cinco highlights. Três a cinco lowlights. Três a cinco decisões ou inputs necessários.
+2. Key Metrics Dashboard (uma a duas páginas). ARR, MRR, churn, NRR, CAC, LTV, burn, runway e team size. Tendência de seis a doze meses.
 3. Financial Detail (três a cinco páginas). P&L detalhado, balanço, fluxo de caixa, e comparação versus plano.
-4. Business Update (três a cinco páginas). Produto, go-to-market, pessoas, e operações.
-5. Strategic Deep Dives (cinco a dez páginas). Um a dois tópicos específicos, que precisam decisão, ou input do board. Por exemplo, expansão internacional, nova captação, ou aquisição em consideração.
+4. Business Update (três a cinco páginas). Produto, go-to-market, pessoas e operações.
+5. Strategic Deep Dives (cinco a dez páginas). Um a dois tópicos específicos, que precisam decisão, ou input do board. Por exemplo, expansão internacional, nova captação ou aquisição em consideração.
 6. Asks (uma página). O que especificamente você pede do board. Intros, decisões, ou feedback em tema X.
 
 > [!important] O CEO escreve o board book
@@ -1652,7 +1652,7 @@ Tomar notas de commitments (seus, e do board). Registrar decisões formalmente e
 
 **Competências legais do conselho (art. 142 da Lei 6.404/1976 nas companhias por ações, como fixar a orientação geral dos negócios, eleger e destituir diretores e escolher auditores independentes, cabendo a destinação de lucros e dividendos à assembleia geral pelo art. 132) e matérias reservadas aos investidores no Acordo de Acionistas (ou no Contrato Social das limitadas):**
 
-Rodadas de captação (novos investidores, ou novas condições). Aquisições, e vendas de ativos materiais. Contratação de C-level (CEO, CFO, e às vezes CTO, ou CPO). Demissão, ou promoção a C-level. Ampliação de option pool (ESOP). Distribuição de dividendos (quando aplicável). Entrada em novas categorias de negócio. Entrada em novos mercados geográficos (operação internacional formal). Gastos acima de threshold pré-acordado (capex significativo). Mudanças em estratégia corporativa declarada. Contratação, ou demissão, de auditor externo.
+Rodadas de captação (novos investidores ou novas condições). Aquisições, e vendas de ativos materiais. Contratação de C-level (CEO, CFO, e às vezes CTO ou CPO). Demissão ou promoção a C-level. Ampliação de option pool (ESOP). Distribuição de dividendos (quando aplicável). Entrada em novas categorias de negócio. Entrada em novos mercados geográficos (operação internacional formal). Gastos acima de threshold pré-acordado (capex significativo). Mudanças em estratégia corporativa declarada. Contratação, ou demissão, de auditor externo.
 
 **Matriz de decisão na prática (como Lucas e Marina delimitaram a alçada da compra do concorrente e do corte de produto):**
 
@@ -1685,14 +1685,14 @@ Documente essa matriz no início do relacionamento com o board. Evita fricção 
 - **O conselheiro desengajado:** desaparece entre as reuniões, não lê o pacote prévio e limita-se a comentários superficiais; a ação recomendada é uma conversa individual franca conduzida pelo CEO ou pelo presidente do conselho (*"Tenho percebido menor disponibilidade sua nos últimos trimestres; precisamos recalibrar o formato da sua participação ou planejar uma transição ordenada na cadeira?"*).
 - **O conselheiro dominante:** monopoliza 70% do tempo de fala e inibe a contribuição dos demais membros; a ação recomendada é a moderação ativa em tempo real pelo presidente do conselho (*chair*) ou pelo CEO (*"Obrigado pelo ponto, Ricardo; Helena, qual é a sua leitura sobre esse risco?"*).
 
-- **O obstrutivo:** bloqueia deliberações por motivos pessoais ou porque o fundo que o indicou tem interesse conflitante com o momento da companhia. Lembre na mesa a regra da Lei das S.A. (Lei 6.404/1976, arts. 154, § 1º, e 156): mesmo indicado por um acionista ou fundo específico, o conselheiro deve lealdade exclusiva à companhia e é obrigado a se abster de votar em qualquer matéria em que tenha conflito de interesses. Ação: alinhe o tema em sessão executiva com os demais membros e, se a obstrução persistir, negocie a substituição formal do representante.
+- **O obstrutivo:** bloqueia deliberações por motivos pessoais ou porque o fundo que o indicou tem interesse conflitante com o momento da companhia. Lembre na mesa a regra da Lei das S.A. (Lei 6.404/1976, arts. 154, § 1º e 156): mesmo indicado por um acionista ou fundo específico, o conselheiro deve lealdade exclusiva à companhia e é obrigado a se abster de votar em qualquer matéria em que tenha conflito de interesses. Ação: alinhe o tema em sessão executiva com os demais membros e, se a obstrução persistir, negocie a substituição formal do representante.
 
 - **O vazador:** compartilha informações confidenciais do conselho com outras empresas do portfólio ou com o mercado, violando o dever legal de sigilo (art. 155 da Lei 6.404/1976). Ação: faça uma intervenção individual imediata reforçando o termo de confidencialidade e a responsabilidade civil pessoal pelos prejuízos causados, na reincidência, exija a destituição formal do assento.
 
 **Substituição de conselheiro.** Na sociedade anônima (art. 140 da Lei 6.404/1976), o conselheiro é eleito e destituível a qualquer tempo pela assembleia geral de acionistas (o CEO não "demite" conselheiro por ato isolado), cabendo ao acordo de acionistas vincular o voto dos blocos signatários, na limitada, o funcionamento do conselho segue o contrato social e o acordo de sócios. Quando o problema está na atuação individual de um representante de fundo (*investor director*, cujo assento é vinculado ao investidor pelo acordo de acionistas), o caminho prático é alinhar com os sócios seniores da gestora a indicação de outro representante do mesmo fundo. No caso de conselheiro independente, o contrato de prestação de serviços de conselheiro (*Board Service Agreement*) disciplina aviso prévio, confidencialidade, remuneração e reversão da participação (*vesting*) ainda não adquirida em caso de saída.
 
 > [!warning] Sempre com advogado
-> Riscos de disputa, e danos morais.
+> Riscos de disputa e danos morais.
 
 #### 8. Evolução do board ao longo da trajetória
 
@@ -1752,15 +1752,15 @@ O conselho está saudável quando a composição acompanha o estágio da empresa
 
 - [ ] Composição do board adequada ao estágio atual.
 - [ ] Pelo menos um independente ativo (pós-Série A).
-- [ ] D&O insurance contratada, e vigente.
+- [ ] D&O insurance contratada e vigente.
 - [ ] Cadência formal de reuniões no calendário de doze meses.
 - [ ] Template de board book padronizado.
 - [ ] Matriz de decisões documentada (o que requer aprovação de quem).
-- [ ] Board Service Agreement assinado com cada membro (termos, equity, confidentiality, e saída).
+- [ ] Board Service Agreement assinado com cada membro (termos, equity, confidentiality e saída).
 - [ ] Comitês estabelecidos se Série B em diante.
 - [ ] Executive, ou independent sessions, acontecem pelo menos trimestralmente.
 - [ ] Relacionamento 1:1 com cada membro, entre reuniões.
-- [ ] Atas formais de cada reunião, aprovadas, e arquivadas.
+- [ ] Atas formais de cada reunião, aprovadas e arquivadas.
 - [ ] Follow-ups rastreados, e reportados na reunião seguinte.
 
 ---
@@ -2001,7 +2001,7 @@ O checklist documental é direto: termo de acordo assinado, alteração contratu
 
 ### Controlando a narrativa externa e interna: como comunicar a saída para equipe, clientes, bancos e investidores
 
-A ordem e o momento da comunicação evitam boatos e corridas de credores. Primeiro, alinhe formalmente o conselho de administração (*board*) antes de qualquer anúncio interno. Em segundo lugar, converse individualmente com os principais investidores, apresentando os termos fechados, o plano de continuidade e o impacto controlado no caixa. Em terceiro, notifique os bancos credores e locadores para formalizar a substituição dos avais e fianças pessoais do sócio retirante nos contratos de giro e aluguel: sem essa baixa expressa, o banco pode declarar vencimento antecipado da dívida por alteração societária não autorizada, e o próprio sócio que sai permanece solidariamente responsável pelas obrigações sociais anteriores por até dois anos após a averbação da saída na Junta Comercial (arts. 1.003, parágrafo único, e 1.032 do Código Civil). Em quarto, comunique a equipe, reunindo primeiro os líderes diretos e em seguida toda a empresa com mensagem sóbria sobre a nova divisão de responsabilidades. Em quinto, faça contato direto com os clientes-chave atendidos pelo ex-sócio para apresentar o novo executivo responsável pela conta. Por fim, alinhe com o retirante o texto de eventual nota pública ou atualização no LinkedIn.
+A ordem e o momento da comunicação evitam boatos e corridas de credores. Primeiro, alinhe formalmente o conselho de administração (*board*) antes de qualquer anúncio interno. Em segundo lugar, converse individualmente com os principais investidores, apresentando os termos fechados, o plano de continuidade e o impacto controlado no caixa. Em terceiro, notifique os bancos credores e locadores para formalizar a substituição dos avais e fianças pessoais do sócio retirante nos contratos de giro e aluguel: sem essa baixa expressa, o banco pode declarar vencimento antecipado da dívida por alteração societária não autorizada, e o próprio sócio que sai permanece solidariamente responsável pelas obrigações sociais anteriores por até dois anos após a averbação da saída na Junta Comercial (arts. 1.003, parágrafo único e 1.032 do Código Civil). Em quarto, comunique a equipe, reunindo primeiro os líderes diretos e em seguida toda a empresa com mensagem sóbria sobre a nova divisão de responsabilidades. Em quinto, faça contato direto com os clientes-chave atendidos pelo ex-sócio para apresentar o novo executivo responsável pela conta. Por fim, alinhe com o retirante o texto de eventual nota pública ou atualização no LinkedIn.
 
 As mensagens-chave seguem padrão ajustável: "[Sócio] está deixando a empresa para [próximo passo, se aplicável]. Após [X anos], [ele ou ela] decidiu [motivo público acordado]", "queremos reconhecer o que [ele ou ela] construiu aqui", "[Nova distribuição de responsabilidades]", "a empresa segue focada em [próximo marco]". O que evitar é falar de detalhes do conflito (se houve), culpar uma parte, minimizar a contribuição histórica ou super-positividade forçada que soa falsa.
 
@@ -2315,7 +2315,7 @@ A **Creditas**, por sua vez, escolheu o México como seu primeiro mercado fora d
 
 - [ ] **Antes de internacionalizar:** tese clara do motivo de entrar nesse país agora, operação brasileira saudável e rodando sem depender do tempo integral do CEO, validação inicial de demanda local com clientes-piloto, orçamento isolado para 24 a 36 meses de operação sem contar com retorno imediato, assessoria jurídica e tributária contratada nos dois países.
 
-- [ ] **Na estrutura societária e financeira:** veículo societário definido (subsidiária, inversão para Delaware ou estrutura Cayman) com justificativa econômica, provedor de contratação local (*Employer of Record*, ou EOR) selecionado para os primeiros funcionários, acordos contra bitributação verificados, política de preços de transferência documentada, contas multimoeda abertas e política de proteção cambial (*hedge*) ativa.
+- [ ] **Na estrutura societária e financeira:** veículo societário definido (subsidiária, inversão para Delaware ou estrutura Cayman) com justificativa econômica, provedor de contratação local (*Employer of Record* ou EOR) selecionado para os primeiros funcionários, acordos contra bitributação verificados, política de preços de transferência documentada, contas multimoeda abertas e política de proteção cambial (*hedge*) ativa.
 
 - [ ] **Na adaptação de produto:** arquitetura de internacionalização (*i18n*) pronta com textos fora do código-fonte e suporte a moedas, datas e fusos locais, interface e documentação revisadas por profissional nativo do mercado-alvo, exemplos, fluxos regulatórios e meios de pagamento locais integrados, sistema de gestão de traduções ativo quando houver múltiplos idiomas.
 
@@ -3678,7 +3678,7 @@ Após o registro do encerramento na Junta Comercial, o CNPJ precisa ser baixado 
 
 - Baixa nas inscrições estadual e municipal, quando aplicável.
 
-Embora a legislação brasileira permita dar baixa imediata no CNPJ independentemente da quitação prévia de obrigações tributárias (LC 123/2006, art. 9º, e Lei 11.598/2007, art. 7º-A, via portal REDESIM), atenção ao efeito patrimonial direto: baixar a empresa com tributos em aberto transfere a responsabilidade solidária pelos débitos existentes ou que venham a ser lançados diretamente para o CPF dos titulares, sócios e administradores do período (LC 123/2006, art. 9º, §§ 4º e 5º). Por isso, regularizar ou aderir a parcelamento formal antes da baixa é indispensável para proteger os sócios.
+Embora a legislação brasileira permita dar baixa imediata no CNPJ independentemente da quitação prévia de obrigações tributárias (LC 123/2006, art. 9º e Lei 11.598/2007, art. 7º-A, via portal REDESIM), atenção ao efeito patrimonial direto: baixar a empresa com tributos em aberto transfere a responsabilidade solidária pelos débitos existentes ou que venham a ser lançados diretamente para o CPF dos titulares, sócios e administradores do período (LC 123/2006, art. 9º, §§ 4º e 5º). Por isso, regularizar ou aderir a parcelamento formal antes da baixa é indispensável para proteger os sócios.
 
 **O prazo de responsabilidade do sócio após a dissolução.**
 
@@ -3698,7 +3698,7 @@ Quando a startup tem investidores institucionais no cap table, o encerramento te
 
 **O que os documentos societários dizem sobre liquidação preferencial.**
 
-A maioria dos term sheets e acordos de sócios de fundos de venture capital prevê liquidação preferencial (liquidation preference) em favor dos investidores. A estrutura mais comum no Brasil é de 1x non-participating: o investidor recebe de volta o valor investido (ou múltiplo dele) antes de qualquer distribuição aos fundadores, em caso de liquidação, venda, ou evento de saída.
+A maioria dos term sheets e acordos de sócios de fundos de venture capital prevê liquidação preferencial (liquidation preference) em favor dos investidores. A estrutura mais comum no Brasil é de 1x non-participating: o investidor recebe de volta o valor investido (ou múltiplo dele) antes de qualquer distribuição aos fundadores, em caso de liquidação, venda ou evento de saída.
 
 Com os funcionários, a comunicação deve ser direta, respeitosa e acompanhada da data exata de pagamento das verbas rescisórias e de apoio ativo à recolocação profissional no mercado.
 
@@ -3933,7 +3933,7 @@ Uma empresa em escala parte para aquisições ativas (M&A *buy-side*) por seis r
 
 ### Quando comprar é mais barato e rápido do que construir, e quando um M&A é pura distração de vaidade
 
-Considere M&A ativo quando tiver PMF (product-market fit, ou ajuste produto-mercado) sólido, porque a empresa adquirente precisa estar em posição operacional sólida. Exige caixa próprio e equipe disponível para absorver o ativo adquirido (não apenas capital para pagar o preço), além de uma tese específica de aquisição ("por que essa empresa? como integrar? qual valor concreto?": tese genérica como "crescer" é red flag, ou sinal de alerta). E mercado fragmentado no caso de roll-up.
+Considere M&A ativo quando tiver PMF (product-market fit ou ajuste produto-mercado) sólido, porque a empresa adquirente precisa estar em posição operacional sólida. Exige caixa próprio e equipe disponível para absorver o ativo adquirido (não apenas capital para pagar o preço), além de uma tese específica de aquisição ("por que essa empresa? como integrar? qual valor concreto?": tese genérica como "crescer" é red flag ou sinal de alerta). E mercado fragmentado no caso de roll-up.
 
 Não faça M&A quando a empresa ainda busca PMF, quando o caixa é insuficiente para integração além da compra, quando o time executivo não tem experiência em integração, quando a cultura própria não está consolidada (absorver outra cultura com a sua instável é desastre), ou quando a tese foi construída em retrospecto para justificar oportunidade que apareceu.
 
@@ -3984,7 +3984,7 @@ Rollover equity: em private equity ou roll-up, vendedor mantém parte de ações
 
 #### Documentação essencial
 
-**Carta de Intenções (*Letter of Intent*, ou LOI, e *Term Sheet*):** documento assinado antes de abrir a auditoria aprofundada (*due diligence*), contendo a faixa de preço proposto, a estrutura de pagamento e as condições precedentes. Atenção jurídica: embora o preço e a obrigação de concluir a compra sejam em regra declarados não vinculantes (sujeitos ao resultado da auditoria), cláusulas como exclusividade de negociação (tipicamente de 60 a 90 dias), confidencialidade, não aliciamento de equipe, lei aplicável/foro e eventual **multa por desistência injustificada (*break-up fee*) são vinculantes** desde a assinatura (além de o rompimento abusivo de tratativas avançadas contra a boa-fé objetiva poder gerar responsabilidade pré-contratual na jurisprudência do STJ). Sempre revise a LOI com seu advogado antes de assinar.
+**Carta de Intenções (*Letter of Intent*, ou LOI e *Term Sheet*):** documento assinado antes de abrir a auditoria aprofundada (*due diligence*), contendo a faixa de preço proposto, a estrutura de pagamento e as condições precedentes. Atenção jurídica: embora o preço e a obrigação de concluir a compra sejam em regra declarados não vinculantes (sujeitos ao resultado da auditoria), cláusulas como exclusividade de negociação (tipicamente de 60 a 90 dias), confidencialidade, não aliciamento de equipe, lei aplicável/foro e eventual **multa por desistência injustificada (*break-up fee*) são vinculantes** desde a assinatura (além de o rompimento abusivo de tratativas avançadas contra a boa-fé objetiva poder gerar responsabilidade pré-contratual na jurisprudência do STJ). Sempre revise a LOI com seu advogado antes de assinar.
 
 SPA (Share Purchase Agreement): contrato principal de compra, representações e garantias (reps & warranties), indenizações, condições precedentes (closing conditions) e cláusulas de não competição.
 
@@ -3992,7 +3992,7 @@ SPA (Share Purchase Agreement): contrato principal de compra, representações e
 
 #### Integração pós-closing
 
-O plano de integração dos primeiros 100 dias (*Post-Merger Integration*, ou PMI) precisa estar desenhado antes da assinatura do contrato. Quando Henrique enfrentou no 60º dia a crise comercial da sua segunda aquisição no Mato Grosso, percebeu que deixar a empresa comprada operando solta enquanto ele tocava a matriz em Curitiba era receita de fracasso: para a terceira aquisição, ele nomeou um diretor de integração 100% dedicado, unificou o CRM, a tabela de preços, o comissionamento comercial e a fila de suporte até o 30º dia e estabeleceu rituais semanais conjuntos, levando o grupo consolidado a ser avaliado mais tarde a 12x EBITDA. A linha do tempo de uma integração disciplinada divide-se em quatro marcos:
+O plano de integração dos primeiros 100 dias (*Post-Merger Integration* ou PMI) precisa estar desenhado antes da assinatura do contrato. Quando Henrique enfrentou no 60º dia a crise comercial da sua segunda aquisição no Mato Grosso, percebeu que deixar a empresa comprada operando solta enquanto ele tocava a matriz em Curitiba era receita de fracasso: para a terceira aquisição, ele nomeou um diretor de integração 100% dedicado, unificou o CRM, a tabela de preços, o comissionamento comercial e a fila de suporte até o 30º dia e estabeleceu rituais semanais conjuntos, levando o grupo consolidado a ser avaliado mais tarde a 12x EBITDA. A linha do tempo de uma integração disciplinada divide-se em quatro marcos:
 
 > [!warning] Armadilhas de integração
 > "Deixar como está por enquanto": atraso em decisões sobre integração gera incerteza e turnover. Integração total abrupta: eliminar totalmente cultura adquirida pode destruir valor. Saída precoce dos fundadores da empresa adquirida: quando o fundador-chave deixa a operação nos primeiros 6 a 12 meses sem ter transferido o relacionamento com clientes e o conhecimento do produto, a aquisição costuma destruir valor. Clientes perdidos na transição: comunicação ruim com clientes adquiridos acelera churn.
@@ -4110,7 +4110,7 @@ Segundo o levantamento bienal do *Center for Entrepreneurial Studies* da Univers
 
 #### 3. Diligência e estruturação do deal
 
-**Due diligence similar a M&A clássico** (ver [[#CAPÍTULO 12: M&A ATIVO E ROLL-UPS: FUNDADOR COMO COMPRADOR|Capítulo 12 (M&A Ativo e Roll-Ups: Fundador como Comprador)]]). Financeira, comercial, operacional, legal, tributária, e trabalhista. Específica em ETA. Dependência do dono atual, bus factor, e sustentabilidade pós-transição.
+**Due diligence similar a M&A clássico** (ver [[#CAPÍTULO 12: M&A ATIVO E ROLL-UPS: FUNDADOR COMO COMPRADOR|Capítulo 12 (M&A Ativo e Roll-Ups: Fundador como Comprador)]]). Financeira, comercial, operacional, legal, tributária e trabalhista. Específica em ETA. Dependência do dono atual, bus factor e sustentabilidade pós-transição.
 
 **Múltiplos típicos de entrada.** Pequenas e médias empresas (SMB) tradicionais costumam ser negociadas entre 3x e 6x o EBITDA anual, negócios B2B com receita recorrente contratada e baixa perda de clientes alcançam de 4x a 8x o EBITDA, enquanto operações menores (abaixo de R$ 15 milhões a R$ 25 milhões de EBITDA) tendem a fechar nos múltiplos inferiores da faixa.
 
@@ -4122,7 +4122,7 @@ Segundo o levantamento bienal do *Center for Entrepreneurial Studies* da Univers
 
 **Os primeiros 180 dias como novo CEO.** Nos seis meses iniciais após assumir a cadeira, a regra é ouvir antes de mexer: acompanhe pessoalmente os principais clientes e fornecedores, conquiste a confiança dos gerentes antigos que detêm o conhecimento tácito da fábrica ou da operação, mapeie os controles financeiros e preserve tudo o que já funciona antes de trocar sistemas ou mexer no organograma.
 
-**Execução do plano.** Melhoria operacional (margem, e eficiência). Crescimento orgânico (vendas, e marketing). Possíveis aquisições complementares (bolt-on). Profissionalização (processos, e sistemas).
+**Execução do plano.** Melhoria operacional (margem e eficiência). Crescimento orgânico (vendas e marketing). Possíveis aquisições complementares (bolt-on). Profissionalização (processos e sistemas).
 
 **Horizonte de operação e saída.** O ciclo típico de gestão dura de 4 a 7 anos após a aquisição (podendo chegar a 10 anos quando o empreendedor decide manter a empresa como geradora perpétua de dividendos). Na saída, os caminhos mais comuns são a venda para um comprador estratégico do setor, para um fundo de *Private Equity* de médio porte ou para uma nova rodada de consolidação.
 
@@ -4188,7 +4188,7 @@ Na transição cultural e humana no Brasil, o componente emocional pesa tanto qu
 
 **Durante aquisição.**
 
-- [ ] DD completa (financeira, comercial, operacional, legal, tributária, e trabalhista)?
+- [ ] DD completa (financeira, comercial, operacional, legal, tributária e trabalhista)?
 - [ ] Valuation triangulado?
 
 - [ ] SPA robusto?
@@ -4198,10 +4198,10 @@ Na transição cultural e humana no Brasil, o componente emocional pesa tanto qu
 **Pós-aquisição.**
 
 - [ ] CEO imerso em operação?
-- [ ] Key people identificados, e engajados?
-- [ ] Comunicação clara com time, e clientes?
+- [ ] Key people identificados e engajados?
+- [ ] Comunicação clara com time e clientes?
 - [ ] Plano dos primeiros 100 e 180 dias em execução (ouvir equipe e clientes antes de promover mudanças bruscas)?
-- [ ] KPIs rastreados, e comunicados a investidores?
+- [ ] KPIs rastreados e comunicados a investidores?
 - [ ] Primeiras melhorias graduais identificadas e implementadas com o apoio dos gestores antigos?
 
 ---
@@ -4376,7 +4376,7 @@ Quando completava sete anos desde a fundação da sua scaleup em São Paulo, Luc
 
 Na prática do mercado de Venture Capital, um fundador após sete anos de operação intensa e ansiedade financeira pessoal em casa toma decisões medrosas e vende a empresa cedo demais.
 
-Realizar uma venda secundária planejada (Liquidez Secundária Alinhada, ou *Secondaries*) de 5% a 15% da participação do fundador em uma rodada de Série B ou Série C retira a pressão financeira sobre a família e alinha o horizonte de risco do empreendedor com o dos fundos para buscar uma saída muito maior com os 85% a 95% das ações que permanecem em suas mãos.
+Realizar uma venda secundária planejada (Liquidez Secundária Alinhada ou *Secondaries*) de 5% a 15% da participação do fundador em uma rodada de Série B ou Série C retira a pressão financeira sobre a família e alinha o horizonte de risco do empreendedor com o dos fundos para buscar uma saída muito maior com os 85% a 95% das ações que permanecem em suas mãos.
 
 ---
 

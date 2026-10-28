@@ -475,7 +475,7 @@ Você concluiu a Fase 4 quando todos os critérios abaixo estão cumpridos.
 - [ ] Pelo menos cinco entrevistados em Pain Level 4 ou 5 (já improvisaram gambiarra ou têm orçamento comprometido), com gasto atual no problema de pelo menos 1,5 vez o preço que você pretende cobrar (ou cinco horas semanais de trabalho do próprio decisor): proxy de disposição a pagar.
 - [ ] ICP ajustado com base no ouvido. Registro de "antes versus depois", com sub-segmento mais doloroso identificado.
 - [ ] Mapa de Problemas escrito. Declaração da Ideia atualizada para v2 com mudanças explícitas em relação à v1.
-- [ ] Decisão explícita registrada em parágrafo: seguir, pivotar problema, pivotar cliente, ou encerrar.
+- [ ] Decisão explícita registrada em parágrafo: seguir, pivotar problema, pivotar cliente ou encerrar.
 
 > [!warning] Se o problema não passou no teste: três caminhos de decisão
 > Os caminhos são três: pivotar o problema (quando uma dor adjacente apareceu com mais força nas conversas), pivotar o segmento de cliente (quando a dor é real, mas em outro perfil de comprador) ou abandonar a tese atual e voltar à Fase 2 com outra ideia. Não avance para a Fase 5 com problema não validado.
@@ -698,7 +698,7 @@ Nas entrevistas em profundidade (IDIs), evite seis erros que empobrecem os dados
 
 ##### De onde vem a ferramenta (e por que sobreviveu ao filtro do tempo)
 
-A teoria do means-end chain foi formalizada por Jonathan Gutman em "A Means-End Chain Model Based on Consumer Categorization Processes" (*Journal of Marketing*, 1982), com trabalho prévio com Reynolds em 1979. A técnica de laddering propriamente dita, a metodologia de entrevista em profundidade e o hierarchical value map como output analítico, foi formalizada por Reynolds & Gutman em "Laddering Theory, Method, Analysis, and Interpretation" em 1988. Hoje é padrão em pesquisa de marca, posicionamento, e UX research profunda.
+A teoria do means-end chain foi formalizada por Jonathan Gutman em "A Means-End Chain Model Based on Consumer Categorization Processes" (*Journal of Marketing*, 1982), com trabalho prévio com Reynolds em 1979. A técnica de laddering propriamente dita, a metodologia de entrevista em profundidade e o hierarchical value map como output analítico, foi formalizada por Reynolds & Gutman em "Laddering Theory, Method, Analysis, and Interpretation" em 1988. Hoje é padrão em pesquisa de marca, posicionamento e UX research profunda.
 
 ##### A mecânica central (sem jargão)
 
@@ -897,7 +897,7 @@ Na Análise Temática, evite quatro falhas comuns: confundir um tema (que expres
 
 ##### De onde vem a ferramenta (e por que sobreviveu ao filtro do tempo)
 
-Jiro Kawakita, antropólogo japonês, desenvolveu o "KJ Method" nos anos 1960 para análise de dados de campo. Foi adaptado para Design Thinking (IDEO, Stanford d.school), UX research, e workshops de inovação. Virou uma das técnicas visuais mais usadas para síntese.
+Jiro Kawakita, antropólogo japonês, desenvolveu o "KJ Method" nos anos 1960 para análise de dados de campo. Foi adaptado para Design Thinking (IDEO, Stanford d.school), UX research e workshops de inovação. Virou uma das técnicas visuais mais usadas para síntese.
 
 ##### A mecânica central (sem jargão)
 
@@ -926,7 +926,7 @@ Passo 5: Nomeia cada grupo: label que captura tema.
 
 Passo 6: Hierarquia: se necessário, super-grupos agregam grupos relacionados.
 
-Passo 7: Priorização: dots, votes, ou ranking.
+Passo 7: Priorização: dots, votes ou ranking.
 
 ##### Na trincheira real: como isso funciona na prática
 
@@ -2047,7 +2047,7 @@ Uma persona operacional se apoia em comportamentos observáveis, nunca em rótul
 
 #### Passo 7: Mapeie os três papéis na decisão de compra (em B2B, quem usa raramente é quem paga)
 
-Em contextos B2B, uma persona isolada raramente explica o comportamento de compra. Três papéis distintos interagem durante a decisão. Cada um tem motivações, restrições, e critérios próprios. Confundi-los é o erro mais caro em vendas B2B: quando Henrique foi mapear usinas sucroenergéticas no Paraná, descobriu que precisava entrevistar separadamente o operador de caldeira (usuário técnico), o engenheiro de manutenção (campeão interno que sente a dor da parada) e o diretor industrial (comprador econômico que assina o orçamento).
+Em contextos B2B, uma persona isolada raramente explica o comportamento de compra. Três papéis distintos interagem durante a decisão. Cada um tem motivações, restrições e critérios próprios. Confundi-los é o erro mais caro em vendas B2B: quando Henrique foi mapear usinas sucroenergéticas no Paraná, descobriu que precisava entrevistar separadamente o operador de caldeira (usuário técnico), o engenheiro de manutenção (campeão interno que sente a dor da parada) e o diretor industrial (comprador econômico que assina o orçamento).
 
 **Usuário:** Pessoa que vai operar o produto no dia a dia. Avalia ergonomia, encaixe com a rotina, tempo economizado. Tem poder de sabotagem (se odiar, não usa, ou usa mal). Mas raramente tem poder de compra.
 
@@ -2095,7 +2095,7 @@ Veja a leitura dos trabalhos (*jobs*) embutidos nessa fala: o trabalho funcional
 
 Fragmento da persona resultante: Fábio, 38 anos, dono-operador de três padarias artesanais na Zona Oeste de São Paulo. Formação técnica, resolve a operação pelo WhatsApp e por planilhas no celular, desconfia de sistemas complexos mas adota ferramentas que provem retorno já na primeira semana. O trabalho principal que ele contrata é "devolver minhas manhãs de gestão sem faltar farinha nem jogar insumo no lixo". Somando os R$ 800 a R$ 1.200 mensais de descarte, o ágio de 15% nas compras de terça-feira (cerca de R$ 600 no mês) e as seis a oito horas mensais do próprio dono apagando incêndio, o desperdício total passa de R$ 2.500 por mês nas três lojas, o que sustenta testar uma assinatura de R$ 400 mensais para o conjunto da rede. Se a ferramenta economizar apenas 2% de margem teórica no papel sem eliminar a correria de terça-feira, ele não paga.
 
-Os gatilhos de troca observados foram três. Incidente recente de ruptura que causou perda grande (mais de R$ 5 mil), ou cliente insatisfeito. Chegada de nova loja (passar de duas para três, de três para quatro) torna sistema manual inviável. Indicação de par (outro dono de padaria) sobre ferramenta que funcionou.
+Os gatilhos de troca observados foram três. Incidente recente de ruptura que causou perda grande (mais de R$ 5 mil) ou cliente insatisfeito. Chegada de nova loja (passar de duas para três, de três para quatro) torna sistema manual inviável. Indicação de par (outro dono de padaria) sobre ferramenta que funcionou.
 
 As barreiras à troca identificadas na conversa foram quatro: (1) receio de que a equipe operacional da manhã não alimente o sistema, (2) medo de pagar mensalidade por uma ferramenta que fique cara caso a adoção falhe, (3) apego à negociação informal pelo WhatsApp com os vendedores dos moinhos, e (4) percepção de que a mensalidade fixa dói no caixa todo mês, enquanto o desperdício de farinha fica invisível no custo da mercadoria vendida.
 
@@ -2691,7 +2691,7 @@ G. Lynn Shostack, executiva de bancos norte-americanos (com carreira no Citibank
 
 ##### A mecânica central (sem jargão)
 
-Mapa visual detalhado de **um serviço completo**, mostrando: experiência do cliente, ações visíveis (frontstage), ações invisíveis (backstage), sistemas de suporte. Identifica pontos de falha, gargalos, e oportunidades.
+Mapa visual detalhado de **um serviço completo**, mostrando: experiência do cliente, ações visíveis (frontstage), ações invisíveis (backstage), sistemas de suporte. Identifica pontos de falha, gargalos e oportunidades.
 
 ##### As regras do jogo
 
@@ -3369,7 +3369,7 @@ Pense na Amazon vendendo apenas livros físicos pela internet em 1995, ou na Cre
 ---
 
 > [!question] FMF Check da Fase 6
-> Você está escolhendo a sua cunha neste momento. Pergunte-se: o seu encaixe pessoal com este subsegmento (*founder-market fit*, ou FMF) constitui uma vantagem difícil de imitar ou é apenas circunstancial? Se qualquer outra equipe sem vivência no setor pudesse executar exatamente a mesma entrada com a mesma credibilidade, reavalie o recorte. O encaixe entre fundador e mercado é o que sustenta o próximo ano de trincheira e ajuda a explicar quem persiste quando o ciclo comercial aperta.
+> Você está escolhendo a sua cunha neste momento. Pergunte-se: o seu encaixe pessoal com este subsegmento (*founder-market fit* ou FMF) constitui uma vantagem difícil de imitar ou é apenas circunstancial? Se qualquer outra equipe sem vivência no setor pudesse executar exatamente a mesma entrada com a mesma credibilidade, reavalie o recorte. O encaixe entre fundador e mercado é o que sustenta o próximo ano de trincheira e ajuda a explicar quem persiste quando o ciclo comercial aperta.
 
 ### Por que mapear o mercado antes de disputar
 
@@ -3387,7 +3387,7 @@ Mercado é a interseção concreta de três elementos: tipo de cliente, problema
 
 #### Passo 2: estime o tamanho do mercado (TAM, SAM, SOM)
 
-TAM (*Total Addressable Market*, ou mercado total disponível) é a demanda total pelo problema no recorte geográfico e regulatório em que a sua empresa poderia operar (em geral o mercado nacional da categoria, usando o recorte global apenas quando o produto não encontra barreiras de idioma, distribuição ou regulação).
+TAM (*Total Addressable Market* ou mercado total disponível) é a demanda total pelo problema no recorte geográfico e regulatório em que a sua empresa poderia operar (em geral o mercado nacional da categoria, usando o recorte global apenas quando o produto não encontra barreiras de idioma, distribuição ou regulação).
 
 SAM (mercado que você pode alcançar) é a parte do TAM que a sua empresa pode realisticamente atender: geograficamente, tecnologicamente, regulatoriamente.
 
@@ -3411,7 +3411,7 @@ flowchart TD
 > [!warning] O que investidor audita em TAM/SAM/SOM (conta bottom-up vs. percentual de relatório)
 > Investidor checa consistência. TAM otimista sem SOM realista é sonho. SOM ambicioso sem TAM que sustenta é conta que não fecha. Estime bottom-up (de baixo para cima: número de clientes vezes ticket), não só top-down (de cima para baixo: percentual de mercado externo).
 
-Calcule top-down e bottom-up, e compare. Top-down: dados de mercado públicos (IBGE, Abrasel, associações, relatórios pagos como Statista e Gartner, se acessíveis). Bottom-up: número estimado de clientes vezes a receita anual média por cliente.
+Calcule top-down e bottom-up e compare. Top-down: dados de mercado públicos (IBGE, Abrasel, associações, relatórios pagos como Statista e Gartner, se acessíveis). Bottom-up: número estimado de clientes vezes a receita anual média por cliente.
 
 Se os dois números divergem muito, há algo errado em uma das estimativas e exige investigação imediata.
 
@@ -3457,7 +3457,7 @@ Mapeie de oito a doze alternativas reais (diretas, indiretas e status quo) e apr
 
 #### Passo 4: entenda a dinâmica do mercado
 
-Responda cinco perguntas. O mercado está crescendo, estável, ou encolhendo? (Busque dados dos últimos três a cinco anos.) Existem tendências estruturais? (Digitalização, regulação nova, mudanças demográficas, mudanças de comportamento.) O mercado está concentrado em poucos players grandes, ou é fragmentado? Existem movimentos de consolidação (fusões e aquisições)? Há ciclos sazonais?
+Responda cinco perguntas. O mercado está crescendo, estável ou encolhendo? (Busque dados dos últimos três a cinco anos.) Existem tendências estruturais? (Digitalização, regulação nova, mudanças demográficas, mudanças de comportamento.) O mercado está concentrado em poucos players grandes, ou é fragmentado? Existem movimentos de consolidação (fusões e aquisições)? Há ciclos sazonais?
 
 #### Passo 5: mapeie os canais de aquisição de clientes usados no setor
 
@@ -3608,7 +3608,7 @@ Se faltar um, não é cunha.
 
 Um ICP claramente delimitado. Em vez de dizer "pequenas empresas", especifique: "redes independentes de óticas, com duas a cinco lojas no interior de São Paulo e de Minas Gerais, que ainda controlam estoque e receituário em planilhas".
 
-Uma dor específica. Um fluxo de trabalho recorrente, doloroso, e frustrante. Não é "otimizar o negócio". É, por exemplo, "conciliar vendas de armações com repasse das operadoras de convênios, hoje feito manualmente toda sexta-feira, consumindo cerca de quatro horas de uma pessoa por loja".
+Uma dor específica. Um fluxo de trabalho recorrente, doloroso e frustrante. Não é "otimizar o negócio". É, por exemplo, "conciliar vendas de armações com repasse das operadoras de convênios, hoje feito manualmente toda sexta-feira, consumindo cerca de quatro horas de uma pessoa por loja".
 
 Um resultado mensurável e imediato. O que muda na vida daquele ICP quando a dor é resolvida. Quatro categorias contam. Aumento de receita (vendeu mais, subiu ticket, cortou tempo de ciclo de venda). Redução de custo (economizou horas de pessoa, automatizou tarefa cara, reduziu erro caro). Mitigação de risco (evitou multa regulatória, evitou retrabalho, evitou perda de cliente). Economia de tempo (transformou quatro horas em quinze minutos, liberou uma pessoa para outra função). Se o benefício que você vende não cai claramente em uma dessas categorias, o seu pitch vai soar vago. E compras B2B não acontecem por pitch vago.
 
@@ -3655,7 +3655,7 @@ Há uma tentação quase universal em empreendedores iniciantes de descrever a i
 
 Cunha é profundidade focada em um único fluxo de trabalho, para um único papel, com um único resultado mensurável. Busca dominância em uma fatia estreita.
 
-Plataforma é amplitude através de fluxos, papéis, e integrações. Pressupõe que a expansão vai acontecer antes que a profundidade tenha sido provada em qualquer frente.
+Plataforma é amplitude através de fluxos, papéis e integrações. Pressupõe que a expansão vai acontecer antes que a profundidade tenha sido provada em qualquer frente.
 
 Os quatro custos operacionais de declarar "plataforma" cedo demais.
 
@@ -4030,7 +4030,7 @@ Grupo brasileiro com 4 unidades de negócio (exemplo hipotético):
 
 - Unidade A, Streaming de conteúdo religioso: 40% market share no segmento, mercado cresce 20% a.a. → STAR, na qual vale investir.
 - Unidade B, Portal de notícias gospel: 55% market share, mercado cresce 2% a.a. → CASH COW. Ordenhar caixa para financiar Unidade A.
-- Unidade C, Loja virtual de livros: 5% market share, mercado cresce 15% a.a. → QUESTION MARK. Decidir: investir pesado para virar Star, ou sair.
+- Unidade C, Loja virtual de livros: 5% market share, mercado cresce 15% a.a. → QUESTION MARK. Decidir: investir pesado para virar Star ou sair.
 - Unidade D, Revista impressa: 8% market share, mercado encolhe 10% a.a. → DOG. Turnaround ou desinvestir.
 
 ##### Onde o papel aceita tudo (armadilhas de execução)
@@ -4176,7 +4176,7 @@ Passo 3: Classificar cada força: impacto (alto/médio/baixo) × probabilidade (
 
 Passo 4: Forças de alto impacto + alta probabilidade viram drivers de planejamento. Forças altas com baixa probabilidade são riscos a monitorar.
 
-Passo 5: Converter em ação. Cada driver decisivo gera: oportunidade estratégica, risco mitigado, ou mudança operacional.
+Passo 5: Converter em ação. Cada driver decisivo gera: oportunidade estratégica, risco mitigado ou mudança operacional.
 
 Passo 6: Revisitar semestralmente. Macroambiente é volátil.
 
@@ -5388,7 +5388,7 @@ Tempo estimado: duas a três horas por semana, delegável para analista ou para 
 
 Atividades semanais:
 
-Configurar alertas no Google Alerts para nome dos principais concorrentes, seu setor, e termos-chave de produto. Revisar semanalmente o que saiu na imprensa.
+Configurar alertas no Google Alerts para nome dos principais concorrentes, seu setor e termos-chave de produto. Revisar semanalmente o que saiu na imprensa.
 
 Monitorar LinkedIn dos fundadores e líderes de produto de concorrentes. Mudanças de cargo, contratações em áreas específicas, posts sobre novos produtos são sinais de movimento estratégico.
 
@@ -5433,7 +5433,7 @@ O ecossistema brasileiro tem fontes específicas que analistas internacionais fr
 
 **Bases de capital de risco (Crunchbase, Distrito, Sling Hub e ABVCAP):** Mapeiam rodadas de investimento, investidores participantes e tendências setoriais. Para o ecossistema brasileiro e latino-americano, os levantamentos do Distrito, da plataforma Sling Hub e os relatórios anuais da ABVCAP/LAVCA oferecem cobertura local mais detalhada do que bases estrangeiras generalistas.
 
-**Glassdoor:** Avaliações de funcionários revelam cultura, gestão, e problemas internos. Empresa com queda sistemática de notas no Glassdoor está perdendo talento ou tem problema de liderança. Anúncios de emprego revelam onde estão investindo: se estão contratando muito em segurança de dados, estão indo para enterprise, se em growth, estão em modo de expansão de base.
+**Glassdoor:** Avaliações de funcionários revelam cultura, gestão e problemas internos. Empresa com queda sistemática de notas no Glassdoor está perdendo talento ou tem problema de liderança. Anúncios de emprego revelam onde estão investindo: se estão contratando muito em segurança de dados, estão indo para enterprise, se em growth, estão em modo de expansão de base.
 
 **G2, Capterra e Reclame Aqui:** avaliações públicas de clientes insatisfeitos entregam um mapa gratuito das vulnerabilidades dos incumbentes. Leia sistematicamente os relatos de uma e duas estrelas dos seus principais concorrentes: as queixas que se repetem mês após mês apontam exatamente onde posicionar o seu diferencial comercial.
 
@@ -5441,7 +5441,7 @@ O ecossistema brasileiro tem fontes específicas que analistas internacionais fr
 
 **CNPJ, Receita Federal e portais públicos:** Na consulta pública do comprovante de inscrição (cartão CNPJ) na Receita Federal, você confere porte cadastral (ME, EPP ou demais), CNAEs principal e secundários, natureza jurídica, endereço e situação cadastral, além de abrir o Quadro de Sócios e Administradores e o capital social no botão "Consultar QSA". Já o Portal do Simples Nacional informa se a empresa é optante pelo regime ou pelo MEI (indicando receita bruta anual de até R$ 4,8 milhões na faixa de EPP), enquanto a consulta pública ao SINTEGRA mostra apenas a inscrição estadual e a situação cadastral de ICMS, não o faturamento.
 
-**CVM (Comissão de Valores Mobiliários):** Empresas de capital aberto publicam relatórios detalhados de desempenho, riscos, e estratégia. Se seu concorrente é listado ou tem debêntures públicas, há mais transparência obrigatória do que você imagina.
+**CVM (Comissão de Valores Mobiliários):** Empresas de capital aberto publicam relatórios detalhados de desempenho, riscos e estratégia. Se seu concorrente é listado ou tem debêntures públicas, há mais transparência obrigatória do que você imagina.
 
 **CADE (Conselho Administrativo de Defesa Econômica):** Comunicados de atos de concentração (fusões e aquisições) são públicos. Operações societárias entre grupos econômicos que superam os pisos legais de faturamento anual no país (R$ 750 milhões de um lado e R$ 75 milhões do outro) geram processos públicos no órgão, úteis para vigiar grandes incumbentes do setor (embora raros em aquisições de startups menores).
 
@@ -5756,7 +5756,7 @@ Quando uma empresa supera a obsessão reativa pelos rivais (apoiada nos métodos
 
 #### 2.11.1: Os quatro pilares de *Category Design* (aprofundando o framework *Play Bigger* da Fase 6)
 
-**Pilar 1: Ponto de Vista (*Point of View*, ou POV).** É a declaração clara de como o mundo mudou e por que a forma antiga de trabalhar se tornou insustentável. O foco inicial recai sobre a transformação do problema no mercado, antes mesmo de falar das telas do seu software. Exemplo: "Os dados das negociações comerciais ficam dispersos em chamadas de vídeo, mensagens e planilhas, fazendo com que diretores decidam no escuro, as empresas precisam de uma camada dedicada de *inteligência de receita*."
+**Pilar 1: Ponto de Vista (*Point of View* ou POV).** É a declaração clara de como o mundo mudou e por que a forma antiga de trabalhar se tornou insustentável. O foco inicial recai sobre a transformação do problema no mercado, antes mesmo de falar das telas do seu software. Exemplo: "Os dados das negociações comerciais ficam dispersos em chamadas de vídeo, mensagens e planilhas, fazendo com que diretores decidam no escuro, as empresas precisam de uma camada dedicada de *inteligência de receita*."
 
 O POV define a "condição diferente". Há uma mudança tangível no mundo, que torna a categoria necessária *agora*. Sem mudança tangível, a categoria não tem "por que agora".
 
@@ -5764,7 +5764,7 @@ O POV define a "condição diferente". Há uma mudança tangível no mundo, que 
 
 **Exemplos clássicos de categorias nomeadas no mercado de tecnologia:** *CRM* (consolidado por Siebel e redefinido em nuvem pela Salesforce), *Inbound Marketing* (HubSpot), *Observability* (Datadog e New Relic), *Revenue Intelligence* (Gong) e *Workflow Automation* (Zapier).
 
-**Pilar 3: Company Design.** Alinhar a empresa inteira à categoria. Isso não é só marketing. É produto, vendas, contratação, narrativa interna, e cultura. Se a sua categoria é "Revenue Intelligence", mas você contrata vendedores que falam como vendedores de CRM, a categoria morre na prática.
+**Pilar 3: Company Design.** Alinhar a empresa inteira à categoria. Isso não é só marketing. É produto, vendas, contratação, narrativa interna e cultura. Se a sua categoria é "Revenue Intelligence", mas você contrata vendedores que falam como vendedores de CRM, a categoria morre na prática.
 
 **Pilar 4: *Product Design*.** Produto que parece, funciona e entrega na prática a promessa da categoria. Não basta colocar um rótulo novo sobre um CRM convencional: a arquitetura, o fluxo de trabalho e o resultado mensurável precisam refletir a nova lógica. Design de categoria sem produto à altura vira promessa vazia (*vaporware*) e perde credibilidade rapidamente.
 
