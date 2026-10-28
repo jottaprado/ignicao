@@ -170,6 +170,8 @@ for v, fname in VOL_FILES.items():
                 struct_issues.append((v, i, "DOUBLE_PUNCT", ln[:120]))
         if re.search(r"\b(?:Ibs|cbs)\b", ln):
             struct_issues.append((v, i, "MIXED_CASE_IBS_CBS", ln[:120]))
+        if re.search(r";\s+(?:o problema é que|na conversão,|o processo exige|defina política|a solução é|o risco é|como resultado,|ação recomendada:)\s+[A-ZÁÉÍÓÚÂÊÔÃÕÇ]", ln):
+            struct_issues.append((v, i, "SEMI_MECHANICAL_UPPER", ln[:120]))
 
     if in_code:
         struct_issues.append((v, code_start, "UNCLOSED_CODE_BLOCK", "EOF reached inside code block"))
@@ -180,6 +182,9 @@ for v, fname in VOL_FILES.items():
     curr_num_list = []
 
     def check_num_list(nlist):
+        if len(nlist) == 1:
+            struct_issues.append((v, nlist[0][0], "SINGLE_ITEM_NUMBERED_LIST", f"L{nlist[0][0]}: {nlist[0][2][:80]}"))
+            return
         if len(nlist) < 2:
             return
         # Check bold uniformity within contiguous runs

@@ -2234,7 +2234,7 @@ Para a modelagem de diluição, negociação de *valuation* e governança de rod
 9. **Proteção antidiluição (*anti-dilution*):** ajuste contratual aplicável em caso de rodadas subsequentes com avaliação inferior (*down-round*).
 
 > [!warning] Armadilhas em mútuo conversível
-> Múltiplos mútuos sem coordenação. A conversão simultânea complica cap table. Valuation cap muito baixo. O anjo captura demais em sucesso. Valuation cap muito alto. O anjo não tem proteção real. Conversion trigger mal-definido. Ambiguidade em evento ativa disputa. Prazo sem evento. Ao fim do prazo, a empresa pode não ter capital para quitar. Juros altos. Se não converter, a empresa carrega dívida pesada.
+> As armadilhas clássicas em títulos conversíveis incluem empilhar múltiplos mútuos sem modelar a diluição acumulada no *cap table*, aceitar um *valuation cap* baixo demais (entregando fatia excessiva na conversão) ou alto demais (retirando a proteção econômica do anjo), redigir gatilhos de conversão (*conversion triggers*) ambíguos que geram litígio na Série A e fixar prazos de vencimento curtos com juros elevados que transformam o aporte em dívida impagável caso a rodada seguinte atrase.
 
 #### SAFE adaptado ao Brasil (SAFE-BR)
 
@@ -2254,7 +2254,7 @@ Equity direto (compra de quotas, ou ações). O investidor vira sócio formal. S
 
 Convertible Note (nota promissória conversível). Dívida formal, que pode ser convertida. Muito similar ao mútuo conversível, mas com registro diferente. Menos comum em rodadas anjo BR. Mais em venture debt.
 
-Mútuo participativo (instrumento híbrido): Parte mútuo, parte participação. Estrutura complexa. Tributariamente desafiadora. Uso limitado.
+Mútuo participativo (instrumento híbrido): combina características de empréstimo e de participação nos resultados, mas apresenta estrutura contratual complexa e tratamento tributário sensível no Brasil, razão pela qual seu uso prático é restrito.
 
 #### Termos típicos de rodada anjo BR (2026)
 
@@ -2268,7 +2268,7 @@ No ecossistema brasileiro, os primeiros cheques combinam redes de investidores-a
 
 **Para o investidor-anjo pessoa jurídica.** Juros recebidos. Receita financeira (IRPJ, mais CSLL, mais PIS/Cofins sobre receita). Ganho em conversão, e venda. Depende do regime tributário da PJ.
 
-**Para a empresa.** Recebimento do valor. Não é receita tributável (é capital, ou dívida); na conversão, Não gera fato gerador de IRPJ, ou CSLL (ajuste de capital). Pagamento de juros. Dedutível (se a empresa em Lucro Real).
+**Para a empresa:** o recebimento do principal não constitui receita tributável (por ingressar como passivo de mútuo ou reserva de capital); na conversão em participação societária, a operação não gera fato gerador de IRPJ ou CSLL sobre o principal convertido, e eventuais juros incorridos são dedutíveis na apuração do Lucro Real.
 
 #### 7. Cap table brasileiro em profundidade
 
@@ -5304,7 +5304,7 @@ Exemplo: *"Como automatizar a conciliação, a régua de cobrança e a gestão d
 
 Exemplo: *"Construímos a plataforma de automação financeira e tesouraria B2B de Lucas e Marina, que se conecta via API aos principais ERPs e bancos brasileiros em 48 horas, automatiza a cobrança inteligente e antecipa o risco de inadimplência. Hoje operamos com 160 empresas pagantes a um tíquete médio de R$ 1.250/mês (R$ 2,4 milhões de ARR), crescendo 15% ao mês com retenção bruta mensal de 98,5%, retenção líquida (NRR) de 112% e payback de CAC de 7 meses. Nossa cunha inicial nas 18 mil distribuidoras e empresas de serviços do Sul e Sudeste representa R$ 270 milhões de ARR endereçável imediato, abrindo caminho para um mercado nacional de R$ 2,7 bilhões de ARR nos próximos 5 a 7 anos."*
 
-**Como aplicar SCQA ao pitch deck.** Slides 1 e 2 (Capa, mais tagline). Introduz SCQA em versão ultra-condensada. Slide 3 (Situação). S do SCQA como slide próprio. Mostra mercado. Slide 4 (Complicação). C do SCQA. Mostra o problema. Slide 5 (Questão, ou Oportunidade). Q do SCQA. Articula a pergunta que o produto responde. Slide 6 em diante. A do SCQA detalhado. Produto, tração, time, financeiro, e rodada.
+**Como aplicar o SCQA ao *pitch deck*:** nos slides 1 e 2 (capa e frase de posicionamento), sintetize o arco completo em uma frase; no slide 3 (Situação), apresente o contexto do mercado; no slide 4 (Complicação), evidencie a fricção econômica ou regulatória que o modelo antigo não resolve; no slide 5 (Questão ou Oportunidade), formule a pergunta central que a sua tese responde; e, do slide 6 em diante (Resposta), desdobre a solução em produto, tração, equipe, modelo financeiro e termos da rodada.
 
 > [!warning] Quando o SCQA falha
 > Se a Situação é óbvia demais, a Complicação é fraca, a Questão é forçada, ou a Resposta é desproporcional à Complicação declarada, o pitch sente falso. Revisar iterativamente com mentores, antes de apresentar a investidores.
@@ -5561,7 +5561,7 @@ Compartilhamento de contexto. Situações complexas, que não cabem em update fo
 
 Em crise, o relacionamento construído previamente é o que determina se os investidores ajudam, ou atrapalham.
 
-**Regras.** Transparência imediata. O investidor descobre primeiro pelo CEO. Não por terceiros. Plano apresentado. "É crise. Aqui está o plano. Preciso de X de vocês". Cadência aumentada. Em crise, semanal (não mensal). Não esconder número ruim. Esconder piora quando sai.
+**Regras de comunicação na crise:** garanta transparência imediata para que os investidores recebam a notícia diretamente pelo CEO (jamais por terceiros ou pela imprensa), chegue à conversa já com o plano de ação estruturado (*"enfrentamos este problema, este é o plano de contenção e precisamos deste apoio específico do conselho"*), aumente a cadência de atualização de mensal para semanal até estabilizar a operação e nunca oculte indicadores negativos, pois a omissão destrói a confiança fiduciária quando o dado vem à tona.
 
 Exemplo condensado de e-mail de crise.
 
@@ -5902,7 +5902,7 @@ Fintech, ou banco digital. Early. Cinco a quinze vezes revenue run rate. Valora�
 
 D2C e-commerce. Uma a três vezes revenue (e-commerce está em múltiplos comprimidos pós-2022). Ajustes por margem bruta, retention, e marca.
 
-HealthTech, ou Biotech. Pré-revenue. Múltiplos sobre valor da tecnologia, fase de ensaio clínico, e área terapêutica. Não cabe em múltiplo simples. Revenue-stage. Cinco a quinze vezes revenue, dependendo de modelo (SaaS-like versus serviço).
+*HealthTech* e *Biotech*: na fase pré-receita, a avaliação baseia-se no ativo de propriedade intelectual, no estágio de validação clínica ou regulatória (ANVISA/FDA) e no potencial da área terapêutica, não comportando múltiplos simples de faturamento; já na fase comercial (*revenue-stage*), os múltiplos variam entre 5x e 15x a receita anual conforme a margem bruta do modelo (software recorrente versus operação intensiva em serviços clínicos).
 
 HRtech, EdTech, e Construtech vertical. Similar a SaaS B2B. Ajustes por nicho, e tamanho de mercado.
 
@@ -6836,7 +6836,7 @@ O *equity crowdfunding* ganhou tração no Brasil em três situações principai
 
 **Valor captado:** a faixa mais comum situa-se entre R$ 1,5 milhão e R$ 8 milhões, respeitando o teto regulatório de R$ 15 milhões por ano-calendário da Resolução CVM 88.
 
-**Tipo de instrumento.** Ações ordinárias (mais raro. Implica diluição imediata). Ações preferenciais (com direitos específicos). Dívida conversível (mútuo conversível). Mais comum. Converte em ações na próxima rodada qualificada. Revenue share, ou royalties. Modalidades híbridas. Algumas plataformas exploram.
+**Tipo de instrumento ofertado:** a captação via *crowdfunding* pode utilizar títulos de dívida ou mútuo conversível em participação na próxima rodada qualificada (o formato mais adotado no Brasil), ações preferenciais com direitos políticos e econômicos específicos, ações ordinárias (mais raras por gerarem entrada imediata no quadro societário) ou contratos híbridos de participação na receita (*revenue share* / *royalties*).
 
 **Valuation.** Pre-money definido pelo empreendedor. Validado pela plataforma. Faixa típica. R$ 10 milhões a R$ 80 milhões.
 
@@ -6850,7 +6850,7 @@ O *equity crowdfunding* ganhou tração no Brasil em três situações principai
 
 ### A engenharia de bastidores: por que 40% da rodada precisa estar articulada antes da abertura pública
 
-**Etapa 1 | Pré-lançamento e estruturação da oferta (8 a 12 semanas antes da abertura pública).** Escolher plataforma (análise comparativa, taxa, ajuste com tese, e track record). Submeter empresa à plataforma (diligência básica da plataforma. Documentação legal, métricas, e contratos-chave). Definir estrutura da oferta (valor, valuation, instrumento, e direitos). Preparar material. Memorial descritivo, pitch vídeo, documentação financeira, e projeções. Comunicação. Criar comunidade de interessados (warm lead) pré-lançamento. Essencial para momentum.
+**Etapa 1 | Pré-lançamento e estruturação da oferta (8 a 12 semanas antes da abertura pública):** selecione a plataforma registrada na CVM (comparando taxas de sucesso, aderência à tese e histórico de ofertas), submeta a empresa à diligência jurídica e contábil prévia, defina os termos econômicos da rodada (valor-alvo, *valuation*, instrumento e direitos dos investidores), produza o pacote obrigatório de informações (anexo normativo da Resolução CVM 88, vídeo de apresentação e demonstrações financeiras) e mobilize uma lista prévia de investidores interessados (*warm leads*) para garantir tração já nas primeiras 48 horas.
 
 **Etapa 2 | Lançamento e campanha ativa (6 a 12 semanas).** Abertura oficial na plataforma com divulgação coordenada em canais próprios (e-mail e redes sociais), assessoria de imprensa e mídia paga, além de encontros ao vivo com investidores, seção pública de perguntas e respostas (Q&A) e comunicados semanais de avanço da reserva.
 
@@ -6931,7 +6931,7 @@ Recomendação prática para o fundador: antes de emitir um *token* ou construir
 
 **Quando pode fazer sentido.** Empresa com comunidade internacional (cripto-natives) que prefere receber tokens. Liquidez secundária via marketplace é valor percebido real (raro em fase inicial). Operação Web3, ou blockchain, onde token faz parte da narrativa.
 
-**Plataformas no Brasil.** Liqi, Mercado Bitcoin Tokens, BasisBlockchain, BlockBR, e Ribus. Cada uma com tese, e custo próprios; o processo exige Estrutura jurídica, mais documentação, mais emissão, mais distribuição.
+**Plataformas no Brasil:** estruturadoras como Liqi, Mercado Bitcoin, BlockBR e AmFi operam com teses setoriais e estruturas de custo próprias, exigindo modelagem jurídica do lastro, documentação de riscos, emissão técnica do token e distribuição regulada.
 
 ---
 
@@ -6974,7 +6974,7 @@ Fiscalidade evolui. Consultar contador especializado antes de estruturar.
 
 Achar que é "dinheiro fácil". A campanha dá trabalho de seis meses ao fundador (comunicação, Q&A, e eventos). Custo de oportunidade real.
 
-Valuation inflado. Empreendedor define valuation alto "porque crowdfunder não questiona". Próxima rodada VC vem, e pressiona para baixo. Crowdfunders sofrem down round. Reputação afetada. Melhor. Valuation realista desde o início.
+Valuation inflado: quando o fundador fixa um *valuation* artificialmente alto na oferta pública contando com a menor sofisticação financeira do pequeno investidor, o fundo de Venture Capital da rodada seguinte força uma correção para baixo (*down round*), penalizando os investidores da comunidade e desgastando a reputação da empresa; precifique a rodada com disciplina desde o início.
 
 Cap table sem SPV. Inserir quatrocentos investidores diretamente na sociedade. Inviabiliza decisões corporativas. Usar SPV desde o início.
 
@@ -6984,7 +6984,7 @@ Cap table sem SPV. Inserir quatrocentos investidores diretamente na sociedade. I
 
 **Violar limites e regras publicitárias da Resolução CVM 88:** ultrapassar o teto de R$ 15 milhões por ano-calendário (somadas todas as ofertas da emissora no ano), divulgar promessas de rentabilidade garantida fora do material aprovado pela plataforma ou omitir informações obrigatórias sujeita a empresa e seus administradores a stop order e sanções da CVM.
 
-Não entender LGPD. Dados de quinhentos investidores. Contatos. CPFs. Se vaza, complicação regulatória.
+Descuidar da LGPD na base de investidores: gerenciar dados pessoais, CPFs, endereços e dados bancários de centenas de investidores pessoa física exige controle estrito de acesso e criptografia, pois qualquer vazamento gera passivo direto perante a ANPD e os titulares.
 
 Promessas em pitch que não cumpriu. "Vamos lançar em seis meses em cinco países". Realiza um país em doze meses. Investidores acionam. Reserva honesta é melhor.
 

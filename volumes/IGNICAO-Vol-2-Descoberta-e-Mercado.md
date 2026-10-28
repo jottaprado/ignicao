@@ -159,17 +159,13 @@ flowchart LR
 
 Teste cada característica com entrevistas e observação direta da rotina, nunca com "acho que sim".
 
-As cinco características em detalhe.
+As cinco características em detalhe são:
 
-1. **Real e Doloroso:** o problema provoca perda concreta de tempo, dinheiro ou reputação e carrega frustração visível no dia a dia. Sem dor sentida na pele, não há força que tire o cliente da inércia.
-
-**Funcional:** O problema impede o cliente de realizar uma tarefa concreta importante. Não é só um incômodo estético.
-
-**Frequente:** Quanto mais repetitiva é a fricção na rotina diária ou semanal do cliente, maior tende a ser o hábito de uso e o valor percebido na solução.
-
-**Urgente:** Tem deadline implícito ou explícito. Algo vai dar errado se não resolver.
-
-Inevitável (*unavoidable*). Não há jeito fácil de contornar. Se o cliente pode simplesmente ignorar ou desviar, ele não vai pagar.
+1. **Real e doloroso:** o problema provoca perda concreta de tempo, dinheiro ou reputação e carrega frustração visível no dia a dia. Sem dor sentida na pele, não há força que tire o cliente da inércia.
+2. **Funcional:** o problema impede o cliente de realizar uma tarefa concreta importante, em vez de representar apenas um incômodo estético.
+3. **Frequente:** quanto mais repetitiva é a fricção na rotina diária ou semanal do cliente, maior tende a ser o hábito de uso e o valor percebido na solução.
+4. **Urgente:** há um prazo implícito ou explícito, pois algo concreto dará errado se a falha não for resolvida a tempo.
+5. **Inevitável (*unavoidable*):** não há jeito fácil de contornar a obrigação; se o cliente puder simplesmente ignorar ou desviar do problema, ele não pagará pela solução.
 
 #### Filtro 2: poço fundo ou poço largo (Paul Graham, 2012)
 
@@ -219,7 +215,7 @@ Antes de avançar, submeta o seu problema a um teste de prioridade em três perg
 > Não pergunte "quem acharia interessante". Pergunte quem sentiria falta em quarenta e oito horas se o processo parasse, sem ninguém avisar. Se a resposta for "as pessoas em geral" ou "todo mundo", o problema não é prioritário para ninguém em específico. Uma boa resposta aponta um cargo concreto, como "o diretor financeiro da distribuidora", que sofre com o problema toda semana.
 
 > [!question] Pergunta 2: qual métrica numérica e rastreada mudaria?
-> Se o problema é real e prioritário, existe uma métrica que alguém já acompanha que se moveria. Tempo de ciclo. Custo por transação. Taxa de retrabalho. NPS interno. Faturamento por hora. Churn. Se nenhuma métrica rastreada se moveria, o problema pode até existir, mas ninguém tem caso de negócio para resolvê-lo. E portanto ninguém tem budget.
+> Se o problema é real e prioritário, existe uma métrica já acompanhada pela liderança que se moveria com a solução, como tempo de ciclo, custo por transação, taxa de retrabalho, NPS interno, faturamento por hora ou *churn*. Se nenhuma métrica rastreada se mover, o problema pode até existir, mas ninguém terá caso de negócio nem orçamento (*budget*) para resolvê-lo.
 
 > [!question] Pergunta 3: alguém escalaria o problema para um nível acima?
 > Problemas prioritários sobem na hierarquia. Alguém reporta ao chefe. Alguém pede recursos. Alguém marca uma reunião urgente. Se o problema existe mas ninguém o escala, ele está sendo absorvido silenciosamente. Significa que não é urgente o suficiente para forçar mudança de comportamento.
@@ -435,7 +431,7 @@ O [[#Template: Síntese de Rodada de Entrevistas (decisão de avanço)|Template:
 
 Para ver o roteiro e a tabela de triagem funcionando juntos, acompanhe o caso didático do PadariaPro, uma hipótese de software de controle de compras e validade de insumos para pequenas redes de padarias artesanais em São Paulo.
 
-Abertura (dois minutos). "Oi, [Nome]. Obrigado pelo tempo. Antes de começar: não estou aqui para te vender nada. Estou pesquisando como padarias pequenas gerenciam compras e estoque, porque quero entender se tem um problema real antes de construir uma solução. Vou fazer umas perguntas abertas, sem respostas certas. A gravação fica privada, só para eu transcrever depois. Tudo bem?"
+Abertura (dois minutos): "Oi, [Nome], obrigado pelo seu tempo. Antes de começar, quero deixar claro que não estou aqui para vender nada: estou pesquisando como pequenas padarias gerenciam compras e estoque para entender como essa rotina funciona na prática antes de desenhar qualquer solução. Vou fazer algumas perguntas abertas, sem respostas certas ou erradas, e a gravação ficará restrita apenas para minha transcrição posterior, tudo bem?"
 
 Perguntas de contexto (cinco minutos). Como você virou dono ou operador dessa padaria? Quantas lojas vocês têm hoje? Como a gestão é dividida entre elas? Quem cuida de compra de ingredientes?
 
@@ -1238,7 +1234,7 @@ Para cada problema que a pessoa citar espontaneamente:
 
 ###### 7. Observações do entrevistador
 
-> *Separadas dos fatos. Use itálico. Aqui entram sua leitura da linguagem corporal, tom, nível de energia e suspeitas. Fatos acima. Interpretação aqui.*
+> *Mantenha as impressões subjetivas separadas dos fatos objetivos usando itálico: registre os fatos verificáveis na seção superior e concentre aqui sua leitura sobre linguagem corporal, tom de voz, nível de energia e hipóteses interpretativas.*
 
 *`[preencher]`*
 
@@ -3740,7 +3736,7 @@ O que dispara o problema? Qual evento, data, tarefa, ou situação recorrente fa
 
 Qual é a consequência tangível se o problema continuar sem solução pelos próximos seis meses? Procure efeitos verificáveis: multa contratual, perda de clientes, retrabalho mensurável, atraso operacional ou rotatividade da equipe. Se a resposta prática for que a rotina segue normalmente sem impacto no caixa ou na operação, você está diante de uma inconveniência, não de uma dor que sustente um negócio.
 
-O que o usuário faz hoje para contornar? Solução atual, mesmo precária. Planilha. Frankenstein de ferramentas. Estagiário terceirizado. A existência de uma gambiarra ativa é um sinal forte de dor real (Pain Level 4), ficando atrás apenas de quem já destinou orçamento para tentar resolver o problema (Pain Level 5).
+O que o usuário faz hoje para contornar o problema? Mapeie a solução atual, mesmo que precária, como uma planilha manual, uma colcha de retalhos (*Frankenstein*) de ferramentas ou o trabalho braçal de um estagiário terceirizado. A existência de uma gambiarra ativa é um sinal forte de dor real (*Pain Level 4*), ficando atrás apenas de quem já destinou orçamento para tentar resolver o problema (*Pain Level 5*).
 
 ##### Parte 2: duas perguntas-faca (três minutos)
 
@@ -4465,9 +4461,11 @@ Framework voltado a **criar e batizar uma nova categoria de mercado** em vez de 
 
 2. Nomeação e enquadramento da categoria (*Category Design*): definir o vocabulário que o mercado usará para comprar e comparar soluções no novo espaço.
 
-3. *Company Design* e *Product Design* alinhados: construir um produto cuja arquitetura e experiência entreguem a promessa da categoria e organizar vendas, cultura e comunicação (incluindo o lançamento coordenado via *Lightning Strike*) como líder da nova categoria (*category king*).
+3. *Company Design* e *Product Design* alinhados: construir um produto cuja arquitetura e experiência entreguem a promessa da categoria e organizar vendas, cultura e modelo operacional para sustentar a liderança desse novo espaço (*category king*).
 
-Mountain (metáfora): categoria nova é uma montanha vazia. Primeiro a alcançar topo define regras. Concorrentes subindo depois recebem "as sobras".
+4. *Lightning Strike* (ofensiva concentrada de mercado): concentrar lançamento de produto, narrativa de imprensa, eventos, conteúdo e mobilização comercial em uma janela curta para capturar a atenção do setor e estabelecer o novo padrão antes que os concorrentes reajam.
+
+Metáfora da montanha (*Mountain*): uma categoria nova funciona como uma montanha vazia na qual o primeiro competidor a alcançar o topo define as regras do jogo, enquanto os concorrentes que sobem depois disputam apenas a fatia residual do mercado.
 
 ##### Protocolo prático de execução
 

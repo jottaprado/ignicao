@@ -814,7 +814,7 @@ Framework que classifica problemas em 5 domínios baseado em relação entre cau
 
 Passo 1: Classificar o problema no domínio correto.
 
-Passo 2: Aplicar modo apropriado. Simples: manual. Complicated: consultoria especialista. Complex: experimentação. Chaotic: ação imediata.
+Passo 2: Aplicar o modo de resposta adequado a cada domínio: no simples, seguir procedimentos padronizados; no complicado (*complicated*), recorrer a diagnóstico de especialistas; no complexo (*complex*), conduzir experimentos seguros para aprender; e no caótico (*chaotic*), agir imediatamente para estancar a crise antes de analisar.
 
 Passo 3: Reconhecer transições. Problemas migram entre domínios com o tempo.
 
@@ -895,7 +895,7 @@ Passo 2: Escrita individual primeiro. Se começa em discussão, primeiros a fala
 
 Passo 3: Descreva riscos concretos da sua transição, e não frases vagas. "Faltou dinheiro" é genérico, "a reserva pessoal acabou no nono mês porque o plano de saúde subiu 18%, o carro precisou de retífica e o primeiro cliente corporativo levou 90 dias para pagar a nota" é específico e acionável.
 
-Passo 4: Categorizar riscos. Externos vs. internos, controláveis vs. incontroláveis, altos vs. baixos impacto.
+Passo 4: Categorizar os riscos mapeados cruzando sua origem (externos versus internos), o grau de controle da equipe (controláveis versus incontroláveis) e a severidade do impacto no negócio (alto versus baixo impacto).
 
 Passo 5: Mitigar controláveis. Para cada risco alto + controlável, o que fazemos para reduzir probabilidade?
 

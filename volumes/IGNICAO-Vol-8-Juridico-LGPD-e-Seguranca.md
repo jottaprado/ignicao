@@ -5284,7 +5284,7 @@ O guia de referência é o **NIST SP 800-61 Rev. 3 (publicado em abril de 2025)*
 >
 > PR e comunicação. Pré-defina porta-voz e template de comunicado.
 >
-> Forense. Preservar evidências. Contratar DFIR (Mandiant, CrowdStrike Services, Deloitte, Big 4. Brasileiras: Apura, Tempest).
+> Na frente forense, preserve imediatamente todas as evidências (imagens de disco, memória e trilhas de auditoria) e acione uma consultoria especializada em resposta a incidentes (*DFIR*, como Apura, Tempest, Mandiant ou CrowdStrike Services).
 >
 > Jurídico. Notificar seguradora (cyber insurance), preparar defesa contra processos.
 

@@ -1830,9 +1830,9 @@ Next (próximos dois a quatro meses). Direção clara. Escopo provável. Não co
 
 Later (além de quatro meses). Área de foco estratégico de longo prazo, sem escopo nem data definidos.
 
-As regras. Now é "contrato" interno. O time não muda exceto por emergência. Next é conversa regular. Pode mudar conforme aprendizado. Later é visão. Ajustada trimestralmente.
+As regras de governança do *roadmap* são claras: a coluna *Now* (Agora) funciona como compromisso firme de curto prazo da equipe e só sofre alteração em caso de incidente severo; a coluna *Next* (A Seguir) reflete prioridades de médio prazo revisadas continuamente conforme o aprendizado das entregas; e a coluna *Later* (Depois) expressa a direção estratégica de longo prazo, recalibrada trimestralmente.
 
-A comunicação. Sales tem acesso, com treinamento sobre o que comunicar externamente. O cliente recebe Now como certeza. Next como provável. Later como visão. O board vê os três com contexto estratégico.
+Na comunicação externa e interna, a equipe comercial tem acesso ao painel mediante diretriz clara sobre o que pode ser prometido: o cliente recebe o *Now* como entrega comprometida, o *Next* como direção provável sem data travada e o *Later* como visão futura sujeita a validação, enquanto o conselho enxerga os três horizontes vinculados às metas do negócio.
 
 #### 4. Design Systems, infraestrutura visual
 
@@ -1902,7 +1902,7 @@ Priorização baseada em quem grita. Sem framework, decisão política. Qualidad
 
 Roadmap como contrato. Prometer data em "Later", e não cumprir. A confiança erode.
 
-Design sem system. Cada feature com variação. UX inconsistente. Velocity destruída.
+Interface construída sem *Design System*: cada funcionalidade nasce com componentes visuais diferentes, gerando experiência inconsistente para o usuário e derrubando a velocidade de entrega da engenharia.
 
 Spec vago. O engineer adivinha o que o PM queria, gerando retrabalho.
 
@@ -2550,59 +2550,46 @@ Ações que ampliam o funil sem baixar a régua técnica: busque candidatos ativ
 
 ### Primeiros 30 Dias: Do Commit no Dia Um à Autonomia em Produção
 
-Primeira semana. Laptop configurado no dia 1. Acessos resolvidos. Buddy técnico designado. Setup local funcional. Repositório clonado, build passa, testes rodam. Primeira PR (pequena), arrumar typo, ou adicionar teste. Objetivo. Contribuir código na primeira semana. Não no primeiro mês.
+Na primeira semana, o foco é destravar a execução técnica desde o primeiro dia: computador configurado, permissões liberadas, padrinho técnico (*buddy*) designado, ambiente local compilando o repositório com a suíte de testes verde e o primeiro *Pull Request* simples (como corrigir um detalhe ou adicionar um teste unitário) enviado para produção ainda na primeira semana, jamais no fim do primeiro mês.
 
-Primeiras duas a quatro semanas. Dominar primeiro serviço, ou área. Sombrear, ou pair programar, com duas a três pessoas do time. Ler documentação arquitetural, runbooks, e histórico de decisões. Participar de code reviews (passivamente primeiro).
+Nas primeiras duas a quatro semanas, o novo engenheiro aprofunda o domínio sobre seu primeiro serviço ou módulo por meio de programação em par (*pair programming*) com dois ou três colegas da equipe, leitura da documentação de arquitetura, *runbooks* e registros históricos de decisão (*ADRs*) e participação gradual nas revisões de código (*code reviews*).
 
 Marcos de 30, 60 e 80 dias: aos 30 dias, o engenheiro já colocou código em produção e compreende a arquitetura do squad. Aos 60 dias, entregou sua primeira funcionalidade de ponta a ponta com autonomia crescente. Até o dia 80, o gestor realiza a sessão formal de calibração e toma a decisão de efetivação ou desligamento antes de vencer o contrato de experiência de 90 dias da CLT (ver [[IGNICAO-Vol-8-Juridico-LGPD-e-Seguranca#CAPÍTULO 6: DIREITO DO TRABALHO PARA STARTUPS|Volume 8, Capítulo 6]]).
 
-Red flags no onboarding. Buddy inexistente, ou desinteressado. Documentação ausente, ou errada. "Corre" já no primeiro mês. Ninguém explica "por que" das coisas. Expectativas não claras.
+Sinais de alerta (*red flags*) no *onboarding* incluem a ausência ou omissão do padrinho técnico (*buddy*), documentação de configuração desatualizada que impede rodar o projeto localmente, cobrança desorganizada sem contexto logo nas primeiras semanas e falta de clareza sobre o que significa sucesso aos 30, 60 e 90 dias.
 
 ### Por Que Engenheiros de Elite Ficam (e Por Que Eles Pedem Demissão em Silêncio)
 
 Contratar é metade da guerra. Reter é a outra metade.
 
-Drivers de retenção técnica, em ordem de impacto. Qualidade do trabalho, problemas interessantes, tecnologia relevante, e aprendizado contínuo. Time, pessoas respeitáveis, e relações saudáveis. Gestor direto: os profissionais costumam pedir demissão de maus líderes, não da empresa. Progressão de carreira: trilha visível e promoções com critério claro. Remuneração: compatível com o mercado e revisada periodicamente. Autonomia, e propósito, confiança, impacto, e significado do trabalho. Flex, ou remoto, cultura de flexibilidade importa.
+Os fatores que retêm engenheiros de alto desempenho, em ordem de impacto, combinam a qualidade dos desafios técnicos (problemas relevantes, arquitetura limpa e aprendizado contínuo), a densidade de talento e o respeito mútuo da equipe, a competência do gestor direto (já que profissionais pedem demissão de maus líderes, não da marca da empresa), uma trilha transparente de progressão de carreira, remuneração competitiva revisada periodicamente, autonomia com impacto real no produto e flexibilidade de rotina.
 
-Drivers de saída, em ordem de prevalência. Manager ruim. Pouco aprendizado. Oferta melhor externa (salário, ou problema). Política interna, ou time tóxico. Falta de carreira visível. Burnout.
+De modo simétrico, os principais motores de pedido de demissão, por ordem de incidência, são a liderança direta despreparada, a estagnação técnica sem aprendizado, propostas externas superiores em remuneração ou escopo técnico, ambientes contaminados por politicagem interna, ausência de perspectiva de crescimento e esgotamento crônico (*burnout*).
 
 Intervenções que protegem a retenção: mantenha reuniões 1:1 regulares (seguindo a cadência do Capítulo 2), conduza conversas francas de carreira a cada trimestre, revise a competitividade da remuneração anualmente (ou semestralmente para destaques técnicos), ofereça mobilidade interna entre squads antes que o engenheiro busque novos desafios fora e pratique entrevistas de permanência (*stay interviews*, perguntando "o que faria você continuar construindo sua carreira aqui nos próximos dois anos?") muito antes de receber um pedido de demissão.
 
 ### Os Erros Clássicos que Fazem Você Contratar Rápido e Demitir Devagar
 
-Over-hiring em bull market. Contratar cinquenta em seis meses, depois precisar demitir vinte. Destrói cultura.
+- **Contratação em excesso (*over-hiring*) em ciclos de euforia:** inflar a equipe contratando cinquenta pessoas em seis meses para depois demitir vinte destrói a densidade de talento e a confiança interna.
+- **Baixar a régua para preencher a vaga rápido (*fill the seat*):** aceitar um candidato mediano apenas porque a posição está aberta há quatro meses cobra um preço alto em retrabalho e desgaste da equipe nos trimestres seguintes.
+- **Lentidão no funil seletivo:** demorar três semanas para enviar a proposta final a um engenheiro disputado garante que ele já tenha aceitado outra oferta no mercado.
+- **Reunião de calibração (*debrief*) superficial:** decidir uma contratação com frases vagas do tipo *"ele parece bom"* sem notas prévias independentes transforma a escolha em conformidade de grupo.
+- **Entrevista sem matriz de avaliação (*rubric*):** quando cada entrevistador improvisa perguntas sem critérios objetivos, o viés de afinidade pessoal substitui a avaliação técnica e derruba a qualidade da equipe.
+- **Ausência de um guardião da barra (*bar-raiser*):** sem um avaliador independente de outra equipe com poder de veto sobre contratações duvidosas, a urgência de curto prazo do gestor da vaga sempre vence o padrão de excelência da empresa.
 
-Pressão por "fill the seat". Baixar barra, porque tem vaga aberta há quatro meses. Erro dolorosíssimo depois.
-
-Processo lento. Candidato esperou três semanas pela oferta. Já tem outra.
-
-Debrief fraco. "Ele é bom?". "Acho que sim". Decisão sem rubric.
-
-Entrevista sem rubric. Viés vence. Qualidade desce.
-
-Falta de bar-raiser. Ninguém responsável por manter barra, quando há pressão para contratar.
-
-Contratar apenas por intuição do fundador funciona até os dez primeiros engenheiros, mas depois disso transforma o recrutamento em roleta subjetiva dominada por vieses de simpatia.
-
-O excesso de etapas destrói a conversão: submeter um engenheiro pleno a sete ou oito baterias de entrevista faz os melhores candidatos desistirem no meio do caminho (mantenha o funil em até seis etapas).
-
-Entrevistadores despreparados. Chegam sem ler CV. Fazem mesma pergunta cinco vezes.
-
-"Cultural fit" sem definição. Virou proxy de "parece comigo". Define valores concretos, e avalia contra eles.
-
-Ignorar referência. Reference check bem feito capta sinais que cinco entrevistas não pegam.
-
-Contratar apenas seniores: um time sem pipeline de juniores e plenos encarece a folha e perde capacidade de formação interna.
-
-Contratar apenas juniores: sem engenheiros seniores para revisar arquitetura e orientar no dia a dia, os juniores não evoluem e a qualidade do produto degrada.
-
-Contratar o "gênio intratável" (brilliant jerk): QI alto combinado a comportamento tóxico afunda o time inteiro.
-
-Perder candidato bom por R$ 2 mil. Economia pontual, que custa três a seis meses de busca.
+- **Contratar apenas por intuição do fundador:** funciona até os dez primeiros engenheiros, mas depois disso transforma o recrutamento em roleta subjetiva dominada por vieses de simpatia.
+- **Excesso de etapas no processo:** submeter um engenheiro pleno a sete ou oito baterias de entrevista faz os melhores candidatos desistirem no meio do caminho (mantenha o funil enxuto em até cinco ou seis etapas).
+- **Entrevistadores despreparados:** entrar na sala sem ter lido o currículo e repetir a mesma pergunta genérica cinco vezes destrói a percepção do candidato sobre a seriedade da engenharia.
+- **Avaliação vaga de "fit cultural":** quando a empresa não define comportamentos observáveis, o termo vira desculpa para contratar apenas pessoas parecidas com os entrevistadores; avalie aderência contra valores operacionais concretos.
+- **Pular a checagem de referências (*reference check*):** uma conversa estruturada de quinze minutos com ex-gestores e ex-pares revela padrões de entrega e convivência que cinco entrevistas técnicas não capturam.
+- **Contratar apenas seniores:** uma equipe sem *pipeline* de juniores e plenos encarece a folha de pagamento e perde capacidade de formação orgânica.
+- **Contratar apenas juniores:** sem engenheiros seniores para definir a arquitetura e revisar código no dia a dia, os iniciantes travam e a qualidade técnica do produto degrada rapidamente.
+- **Tolerar o "gênio intratável" (*brilliant jerk*):** capacidade técnica alta combinada a comportamento arrogante ou hostil destrói a colaboração do *squad* inteiro.
+- **Perder um candidato excepcional por diferença marginal de proposta:** economizar R$ 2 mil na oferta final de um engenheiro de alto nível frequentemente custa mais três a seis meses de vaga aberta e atraso no *roadmap*.
 
 ### A gravidade brasileira: o que muda quando você aplica isso no Brasil
 
-Mercado aquecido, para sênior em diante, que fala inglês. Competição direta com gringa.
+No mercado brasileiro, a disputa por engenheiros seniores fluentes em inglês envolve competição direta com empresas americanas e europeias que contratam remotamente pagando em dólar ou euro.
 
 Há muitos juniores no mercado, mas poucos prontos para produzir com autonomia imediata. Formar juniores é um investimento necessário, mas não resolve toda vaga.
 
@@ -3176,7 +3163,7 @@ Dependência excessiva. O dev perde skills de escrever código do zero. Em cená
 
 **Sugestão de padrões obsoletos:** modelos treinados em repositórios históricos frequentemente sugerem bibliotecas descontinuadas ou abordagens antigas (como manipular DOM com jQuery em uma aplicação React moderna), exigindo arquivo de regras do projeto (`AGENTS.md` ou `CLAUDE.md`) e repertório decisivo do desenvolvedor para filtrar o código gerado.
 
-**Licenciamento:** Código gerado por IA pode derivar de código open-source, com licença restritiva. Risco legal em alguns casos; defina política clara e Documentar uso. Evitar copy-paste direto de sugestões em código sensível.
+**Licenciamento:** trechos gerados por modelos de IA podem reproduzir padrões de bibliotecas *open-source* sujeitas a licenças restritivas (*copyleft* como GPL/AGPL); defina uma política interna clara, audite dependências com ferramentas automatizadas e evite copiar blocos extensos sem revisão para o núcleo proprietário.
 
 **Alucinação:** A IA gera API call que não existe, ou função de library que não existe, ou padrão sintático errado. O dev aceita. O código não compila. Ou pior, compila, mas falha em runtime. Decisivo em código não testado.
 

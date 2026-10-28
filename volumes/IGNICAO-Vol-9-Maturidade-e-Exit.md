@@ -1088,7 +1088,7 @@ Monte um board formal, com pelo menos um independente. Realize reuniões regular
 
 ##### Data room pronto
 
-Organize a documentação para apresentar a potenciais compradores. Em nove categorias: estrutura legal e societária. Financeiros históricos auditados mais projeções, KPIs operacionais por ano e trimestre. Cohort analysis. Pipeline comercial. Contratos materiais (top vinte clientes, parcerias estratégicas e fornecedores decisivos). Documentação de IP. Contratos trabalhistas e policies de RH. Relatórios de compliance (fiscal, LGPD, trabalhista).
+Organize o *Data Room* para apresentação aos potenciais compradores estruturado em nove pastas padronizadas: (1) atos societários e estrutura legal, (2) demonstrações financeiras históricas auditadas e projeções de 3 a 5 anos, (3) indicadores operacionais (*KPIs*) por ano e trimestre, (4) análises de retenção por safra (*cohorts*), (5) funil e *pipeline* comercial, (6) contratos materiais (os 20 maiores clientes, parcerias estratégicas e fornecedores críticos), (7) registros e termos de cessão de Propriedade Intelectual, (8) contratos de trabalho, planos de incentivo e políticas de RH e (9) relatórios e certidões de conformidade fiscal, trabalhista e de LGPD.
 
 ##### Preparação do CEO
 
@@ -1682,9 +1682,8 @@ Documente essa matriz no início do relacionamento com o board. Evita fricção 
 
 **Tipos problemáticos.**
 
-O desengajado. Some entre reuniões. Não lê material. Faz perguntas superficiais; ação recomendada: Conversa 1:1 direta. "Tenho sentido menor engajamento. Precisamos recalibrar expectativa, ou buscar substituto?".
-
-O dominante. Fala setenta por cento do tempo em reuniões. Desencoraja outras vozes; ação recomendada: O presidente do conselho (*chair*) ou o próprio CEO intervém com elegância em tempo real: "Obrigado pelo ponto, Ricardo. Helena, qual é a sua leitura sobre esse risco?".
+- **O conselheiro desengajado:** desaparece entre as reuniões, não lê o pacote prévio e limita-se a comentários superficiais; a ação recomendada é uma conversa individual franca conduzida pelo CEO ou pelo presidente do conselho (*"Tenho percebido menor disponibilidade sua nos últimos trimestres; precisamos recalibrar o formato da sua participação ou planejar uma transição ordenada na cadeira?"*).
+- **O conselheiro dominante:** monopoliza 70% do tempo de fala e inibe a contribuição dos demais membros; a ação recomendada é a moderação ativa em tempo real pelo presidente do conselho (*chair*) ou pelo CEO (*"Obrigado pelo ponto, Ricardo; Helena, qual é a sua leitura sobre esse risco?"*).
 
 - **O obstrutivo:** bloqueia deliberações por motivos pessoais ou porque o fundo que o indicou tem interesse conflitante com o momento da companhia. Lembre na mesa a regra da Lei das S.A. (Lei 6.404/1976, arts. 154, § 1º, e 156): mesmo indicado por um acionista ou fundo específico, o conselheiro deve lealdade exclusiva à companhia e é obrigado a se abster de votar em qualquer matéria em que tenha conflito de interesses. Ação: alinhe o tema em sessão executiva com os demais membros e, se a obstrução persistir, negocie a substituição formal do representante.
 
@@ -2959,7 +2958,7 @@ Para cada processo decisivo: qual o tempo máximo tolerável de interrupção (R
 Um BCP minimamente operacional tem runbooks por cenário. Cada *runbook* responde a sete perguntas objetivas: o que aciona este protocolo (gatilho de disparo), quem é chamado imediatamente (lista de contatos fora da rede principal), quais as primeiras ações nos primeiros trinta minutos, duas horas e vinte e quatro horas, quem decide o que em cada ponto, como se comunica interna e externamente, quando considerar a crise encerrada e como documentar e aprender para a próxima.
 
 > [!tip] Cenários que toda startup deveria ter runbook
-> Queda do provedor principal de cloud. Ataque de ransomware. Vazamento de dados sensíveis. Incidente envolvendo executivo-chave. Perda de cliente representando mais de dez por cento da receita. Bloqueio de conta bancária. Ação judicial significativa.
+> Os seis cenários obrigatórios na simulação anual de crise incluem: queda prolongada do provedor principal de nuvem, ataque de *ransomware* ou vazamento de dados pessoais sensíveis, afastamento súbito de executivo-chave, perda de cliente responsável por mais de 10% da receita, bloqueio judicial ou operacional de contas bancárias e ação judicial ou regulatória de grande repercussão.
 
 #### Testes periódicos (tabletop exercises)
 

@@ -2031,7 +2031,7 @@ Você concluiu a Fase 9 quando todos os critérios abaixo estão cumpridos.
 1. Reserve duas horas para a sessão de divergência do Passo 1: gere de quinze a trinta ideias combinando *Crazy 8s* (oito esboços em oito minutos), inversão do pior cenário (*Worst Possible Idea*), *SCAMPER* e analogias de outros setores, e filtre os conceitos pelo tripé DVF.
 2. Construa dois protótipos de baixa fidelidade (em papel ou Figma clicável) a partir dos três a cinco conceitos avaliados, mantendo o custo de produção em horas ou no máximo um dia.
 3. Agende cinco sessões por rodada com usuários do ICP (no mínimo duas rodadas), apresentando os dois protótipos finalistas para comparar reações e observar o uso.
-4. Documentar reações. O que chamou atenção. O que confundiu. O que ignoraram.
+4. Documentar as reações observadas durante a sessão: o que chamou a atenção imediatamente, o que gerou dúvida ou confusão e quais elementos foram ignorados pelo usuário.
 
 ### Seis erros de prototipagem que abastecem o Cemitério dos Protótipos Perfeitos
 
@@ -2881,7 +2881,7 @@ Pontos de travamento observados: cinco de cinco participantes levaram mais de tr
 
 **Síntese pós-cinco testes.**
 
-Must-have para ativação. Onboarding em menos de cinco minutos (hoje leva doze a vinte). CNPJ com máscara. Explicação de fornecedor. Pular cardápio opcional.
+Requisitos essenciais (*must-have*) para ativação: concluir o *onboarding* em menos de cinco minutos (reduzindo o tempo atual de doze a vinte minutos), aplicar máscara automática no campo de CNPJ, incluir explicação contextual no cadastro de fornecedor e permitir pular o preenchimento opcional de cardápio.
 
 Funcionalidade decisiva a simplificar. Ajuste de pedido recorrente. Mover para WhatsApp com comando natural.
 
@@ -4221,7 +4221,7 @@ Ao longo deste capítulo, veremos como corrigir os dois erros que quase mataram 
 
 **Dependência técnica e de APIs decisivas.** Negócios inteiramente dependentes da política de preços ou das regras de uma única API de terceiros (como mudanças nas tarifas por mensagem da API oficial do WhatsApp Business da Meta, limites de requisição de provedores de IA ou alterações unilaterais em conectores de ERP) podem ver sua margem bruta evaporar da noite para o dia quando o provedor reajusta a tabela ou lança nativamente a funcionalidade que você vendia.
 
-**Dependência de canal.** Google Ads, e Meta Ads. Mudança de algoritmo. Preço do CPC. SEO. O Google atualiza. Tráfego orgânico cai trinta a sessenta por cento. Social. A plataforma prioriza conteúdo próprio. Reach de brand despenca.
+**Dependência de canal:** no tráfego pago (Google Ads e Meta Ads), mudanças de algoritmo ou leilão inflam rapidamente o preço do CPC; em busca orgânica (SEO), uma atualização de ranqueamento do Google pode reduzir o tráfego de 30% a 60% da noite para o dia; e nas redes sociais, quando a plataforma prioriza formatos nativos próprios, o alcance orgânico das marcas despenca.
 
 **Dependência de integração.** Conectado a Salesforce, HubSpot, ou ERP específico. Se a plataforma fechar conexão, o produto perde valor para sessenta por cento dos clientes.
 
