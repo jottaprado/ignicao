@@ -73,7 +73,7 @@ Após o push, crie um release via CLI (`gh release create v5.3.0 ...`) ou interf
    ✅ 42 Playbooks Setoriais da economia real brasileira em 6 Clusters + Economia da Inovação e 15 Hubs Brasileiros
    ✅ Volume 11 (Caderno de Trincheira, Simulações de Decisão e Cases Globais & Nacionais): 58 cases em 4 atos, 50 exercícios com gabarito comentado, 27 simulações de roleplay executivo e o Simulador Integrador das 21 Fases (0 a 105 pontos)
    ✅ 11 volumes autocontidos (~74k a ~296k palavras cada)
-   ✅ 108 diagramas Mermaid
+   ✅ 117 diagramas Mermaid
    ✅ ~1,42 milhão de palavras com contexto regulatório, tributário e cultural brasileiro atualizado para Outubro de 2026
    ```
 
